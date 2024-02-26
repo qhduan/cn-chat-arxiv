@@ -1,0 +1,12 @@
+{
+    "title": "The New Era of Dynamic Pricing: Synergizing Supervised Learning and Quadratic Programming",
+    "abstract": "arXiv:2402.14844v1 Announce Type: cross  Abstract: In this paper, we explore a novel combination of supervised learning and quadratic programming to refine dynamic pricing models in the car rental industry. We utilize dynamic modeling of price elasticity, informed by ordinary least squares (OLS) metrics such as p-values, homoscedasticity, error normality. These metrics, when their underlying assumptions hold, are integral in guiding a quadratic programming agent. The program is tasked with optimizing margin for a given finite set target.",
+    "link": "https://arxiv.org/abs/2402.14844",
+    "context": "Title: The New Era of Dynamic Pricing: Synergizing Supervised Learning and Quadratic Programming\nAbstract: arXiv:2402.14844v1 Announce Type: cross  Abstract: In this paper, we explore a novel combination of supervised learning and quadratic programming to refine dynamic pricing models in the car rental industry. We utilize dynamic modeling of price elasticity, informed by ordinary least squares (OLS) metrics such as p-values, homoscedasticity, error normality. These metrics, when their underlying assumptions hold, are integral in guiding a quadratic programming agent. The program is tasked with optimizing margin for a given finite set target.",
+    "path": "papers/24/02/2402.14844.json",
+    "total_tokens": 602,
+    "translated_title": "动态定价的新时代：协同监督学习与二次规划",
+    "translated_abstract": "在本文中，我们探讨了监督学习和二次规划的新颖组合，用于在汽车租赁行业中优化动态定价模型。我们利用价格弹性的动态建模，借助普通最小二乘（OLS）指标，如P值、同方差性、误差正态性进行优化。当这些指标的基本假设成立时，它们对指导二次规划代理至关重要。该程序旨在为给定的有限目标集优化利润率。",
+    "tldr": "结合监督学习和二次规划优化汽车租赁行业的动态定价模型，以提高利润率。",
+    "en_tdlr": "Combining supervised learning and quadratic programming to optimize dynamic pricing models in the car rental industry to increase profit margins."
+}

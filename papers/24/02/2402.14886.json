@@ -1,0 +1,12 @@
+{
+    "title": "Applying Reinforcement Learning to Optimize Traffic Light Cycles",
+    "abstract": "arXiv:2402.14886v1 Announce Type: cross  Abstract: Manual optimization of traffic light cycles is a complex and time-consuming task, necessitating the development of automated solutions. In this paper, we propose the application of reinforcement learning to optimize traffic light cycles in real-time. We present a case study using the Simulation Urban Mobility simulator to train a Deep Q-Network algorithm. The experimental results showed 44.16% decrease in the average number of Emergency stops, showing the potential of our approach to reduce traffic congestion and improve traffic flow. Furthermore, we discuss avenues for future research and enhancements to the reinforcement learning model.",
+    "link": "https://arxiv.org/abs/2402.14886",
+    "context": "Title: Applying Reinforcement Learning to Optimize Traffic Light Cycles\nAbstract: arXiv:2402.14886v1 Announce Type: cross  Abstract: Manual optimization of traffic light cycles is a complex and time-consuming task, necessitating the development of automated solutions. In this paper, we propose the application of reinforcement learning to optimize traffic light cycles in real-time. We present a case study using the Simulation Urban Mobility simulator to train a Deep Q-Network algorithm. The experimental results showed 44.16% decrease in the average number of Emergency stops, showing the potential of our approach to reduce traffic congestion and improve traffic flow. Furthermore, we discuss avenues for future research and enhancements to the reinforcement learning model.",
+    "path": "papers/24/02/2402.14886.json",
+    "total_tokens": 680,
+    "translated_title": "将强化学习应用于优化交通信号灯循环",
+    "translated_abstract": "交通信号灯循环的手动优化是一项复杂且耗时的任务，需要开发自动化解决方案。本文提出了将强化学习应用于实时优化交通信号灯循环。我们通过使用模拟城市移动模拟器进行案例研究，训练了一个深度Q网络算法。实验结果显示平均紧急停车次数减少了44.16%，显示了我们方法减少交通拥堵、改善交通流的潜力。此外，我们还讨论了未来研究的途径和对强化学习模型的改进。",
+    "tldr": "提出了将强化学习应用于交通信号灯循环优化，实验证明能显著减少紧急停车次数，降低交通拥堵，改善交通流。",
+    "en_tdlr": "Introducing reinforcement learning for optimizing traffic light cycles, with experimental confirmation of significant reduction in emergency stops, leading to decreased traffic congestion and improved traffic flow."
+}

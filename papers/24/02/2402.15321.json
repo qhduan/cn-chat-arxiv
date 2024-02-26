@@ -1,0 +1,12 @@
+{
+    "title": "OpenSUN3D: 1st Workshop Challenge on Open-Vocabulary 3D Scene Understanding",
+    "abstract": "arXiv:2402.15321v1 Announce Type: cross  Abstract: This report provides an overview of the challenge hosted at the OpenSUN3D Workshop on Open-Vocabulary 3D Scene Understanding held in conjunction with ICCV 2023. The goal of this workshop series is to provide a platform for exploration and discussion of open-vocabulary 3D scene understanding tasks, including but not limited to segmentation, detection and mapping. We provide an overview of the challenge hosted at the workshop, present the challenge dataset, the evaluation methodology, and brief descriptions of the winning methods. For additional details, please see https://opensun3d.github.io/index_iccv23.html.",
+    "link": "https://arxiv.org/abs/2402.15321",
+    "context": "Title: OpenSUN3D: 1st Workshop Challenge on Open-Vocabulary 3D Scene Understanding\nAbstract: arXiv:2402.15321v1 Announce Type: cross  Abstract: This report provides an overview of the challenge hosted at the OpenSUN3D Workshop on Open-Vocabulary 3D Scene Understanding held in conjunction with ICCV 2023. The goal of this workshop series is to provide a platform for exploration and discussion of open-vocabulary 3D scene understanding tasks, including but not limited to segmentation, detection and mapping. We provide an overview of the challenge hosted at the workshop, present the challenge dataset, the evaluation methodology, and brief descriptions of the winning methods. For additional details, please see https://opensun3d.github.io/index_iccv23.html.",
+    "path": "papers/24/02/2402.15321.json",
+    "total_tokens": 710,
+    "translated_title": "OpenSUN3D: 开放词汇的3D场景理解第一次研讨会挑战",
+    "translated_abstract": "这份报告概述了在2023年ICCV会议上举办的OpenSUN3D Workshop关于开放词汇3D场景理解的挑战。该研讨会系列的目标是为开放词汇3D场景理解任务提供探索和讨论平台，包括但不限于分割、检测和映射。我们提供了研讨会上举办的挑战概述，展示了挑战数据集、评估方法以及获胜方法的简要描述。更多详情请参阅https://opensun3d.github.io/index_iccv23.html。",
+    "tldr": "提供了OpenSUN3D研讨会上针对开放词汇3D场景理解的挑战概述，包括挑战数据集、评估方法和获胜方法的简要描述",
+    "en_tdlr": "Provides an overview of the challenge at the OpenSUN3D Workshop focusing on open-vocabulary 3D scene understanding, including the challenge dataset, evaluation methodology, and brief descriptions of the winning methods."
+}

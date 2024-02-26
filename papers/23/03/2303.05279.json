@@ -1,0 +1,12 @@
+{
+    "title": "Can large language models build causal graphs?",
+    "abstract": "arXiv:2303.05279v2 Announce Type: replace-cross  Abstract: Building causal graphs can be a laborious process. To ensure all relevant causal pathways have been captured, researchers often have to discuss with clinicians and experts while also reviewing extensive relevant medical literature. By encoding common and medical knowledge, large language models (LLMs) represent an opportunity to ease this process by automatically scoring edges (i.e., connections between two variables) in potential graphs. LLMs however have been shown to be brittle to the choice of probing words, context, and prompts that the user employs. In this work, we evaluate if LLMs can be a useful tool in complementing causal graph development.",
+    "link": "https://arxiv.org/abs/2303.05279",
+    "context": "Title: Can large language models build causal graphs?\nAbstract: arXiv:2303.05279v2 Announce Type: replace-cross  Abstract: Building causal graphs can be a laborious process. To ensure all relevant causal pathways have been captured, researchers often have to discuss with clinicians and experts while also reviewing extensive relevant medical literature. By encoding common and medical knowledge, large language models (LLMs) represent an opportunity to ease this process by automatically scoring edges (i.e., connections between two variables) in potential graphs. LLMs however have been shown to be brittle to the choice of probing words, context, and prompts that the user employs. In this work, we evaluate if LLMs can be a useful tool in complementing causal graph development.",
+    "path": "papers/23/03/2303.05279.json",
+    "total_tokens": 692,
+    "translated_title": "大型语言模型能够构建因果图吗？",
+    "translated_abstract": "建立因果图可能是一个费时费力的过程。为了确保捕捉到所有相关的因果路径，研究人员通常不仅要与临床医生和专家讨论，还要审阅大量相关的医学文献。通过编码常见和医学知识，大型语言模型(LLMs)代表了一种机会，可以通过自动评分潜在图中的边缘（即两个变量之间的联系）来简化这一过程。然而，已经证明LLMs对用户选择的探测词、上下文和提示非常敏感。在这项工作中，我们评估了LLMs是否能够成为补充因果图发展的有用工具。",
+    "tldr": "大型语言模型被证明对于探测词、上下文和提示敏感，但可以作为一种工具辅助因果图的发展。",
+    "en_tdlr": "Large language models have been shown to be sensitive to probing words, context, and prompts, but they can serve as a useful tool in complementing causal graph development."
+}

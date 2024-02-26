@@ -1,0 +1,12 @@
+{
+    "title": "Enhancing ICU Patient Recovery: Using LLMs to Assist Nurses in Diary Writing",
+    "abstract": "arXiv:2402.15205v1 Announce Type: cross  Abstract: Intensive care unit (ICU) patients often develop new health-related problems in their long-term recovery. Health care professionals keeping a diary of a patient's stay is a proven strategy to tackle this but faces several adoption barriers, such as lack of time and difficulty in knowing what to write. Large language models (LLMs), with their ability to generate human-like text and adaptability, could solve these challenges. However, realizing this vision involves addressing several socio-technical and practical research challenges. This paper discusses these challenges and proposes future research directions to utilize the potential of LLMs in ICU diary writing, ultimately improving the long-term recovery outcomes for ICU patients.",
+    "link": "https://arxiv.org/abs/2402.15205",
+    "context": "Title: Enhancing ICU Patient Recovery: Using LLMs to Assist Nurses in Diary Writing\nAbstract: arXiv:2402.15205v1 Announce Type: cross  Abstract: Intensive care unit (ICU) patients often develop new health-related problems in their long-term recovery. Health care professionals keeping a diary of a patient's stay is a proven strategy to tackle this but faces several adoption barriers, such as lack of time and difficulty in knowing what to write. Large language models (LLMs), with their ability to generate human-like text and adaptability, could solve these challenges. However, realizing this vision involves addressing several socio-technical and practical research challenges. This paper discusses these challenges and proposes future research directions to utilize the potential of LLMs in ICU diary writing, ultimately improving the long-term recovery outcomes for ICU patients.",
+    "path": "papers/24/02/2402.15205.json",
+    "total_tokens": 751,
+    "translated_title": "使用LLMs辅助护士书写日记，增强ICU患者康复",
+    "translated_abstract": "重症监护病房（ICU）患者在长期康复过程中往往会出现新的健康问题。医护人员记录患者留院情况的日记是一种有效的策略，但面临着诸多采纳障碍，如缺乏时间和不知道该写些什么。大型语言模型（LLMs）凭借其生成人类化文本和可适应性的能力，可能解决这些挑战。然而，实现这一愿景需要解决几个社会技术和实际研究挑战。本文讨论了这些挑战，并提出了未来研究方向，以利用LLMs在ICU日记撰写中的潜力，最终改善ICU患者的长期康复结果。",
+    "tldr": "使用大型语言模型（LLMs）辅助护士书写日记，有助于改善ICU患者的长期康复结果",
+    "en_tdlr": "Using Large Language Models (LLMs) to assist nurses in diary writing can improve long-term recovery outcomes for ICU patients."
+}

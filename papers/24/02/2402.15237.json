@@ -1,0 +1,12 @@
+{
+    "title": "Unsupervised Domain Adaptation for Brain Vessel Segmentation through Transwarp Contrastive Learning",
+    "abstract": "arXiv:2402.15237v1 Announce Type: cross  Abstract: Unsupervised domain adaptation (UDA) aims to align the labelled source distribution with the unlabelled target distribution to obtain domain-invariant predictive models. Since cross-modality medical data exhibit significant intra and inter-domain shifts and most are unlabelled, UDA is more important while challenging in medical image analysis. This paper proposes a simple yet potent contrastive learning framework for UDA to narrow the inter-domain gap between labelled source and unlabelled target distribution. Our method is validated on cerebral vessel datasets. Experimental results show that our approach can learn latent features from labelled 3DRA modality data and improve vessel segmentation performance in unlabelled MRA modality data.",
+    "link": "https://arxiv.org/abs/2402.15237",
+    "context": "Title: Unsupervised Domain Adaptation for Brain Vessel Segmentation through Transwarp Contrastive Learning\nAbstract: arXiv:2402.15237v1 Announce Type: cross  Abstract: Unsupervised domain adaptation (UDA) aims to align the labelled source distribution with the unlabelled target distribution to obtain domain-invariant predictive models. Since cross-modality medical data exhibit significant intra and inter-domain shifts and most are unlabelled, UDA is more important while challenging in medical image analysis. This paper proposes a simple yet potent contrastive learning framework for UDA to narrow the inter-domain gap between labelled source and unlabelled target distribution. Our method is validated on cerebral vessel datasets. Experimental results show that our approach can learn latent features from labelled 3DRA modality data and improve vessel segmentation performance in unlabelled MRA modality data.",
+    "path": "papers/24/02/2402.15237.json",
+    "total_tokens": 714,
+    "translated_title": "通过Transwarp对比学习进行脑血管分割的无监督领域自适应",
+    "translated_abstract": "无监督领域自适应（UDA）旨在将标记源分布与未标记目标分布对齐，以获得领域不变的预测模型。本文提出了一个简单而强大的对比学习框架，用于UDA，以缩小标记源和未标记目标分布之间的领域间差距。我们的方法在脑血管数据集上得到验证。实验结果表明，我们的方法可以从标记的3DRA模态数据中学习潜在特征，并改善未标记的MRA模态数据中的血管分割性能。",
+    "tldr": "本文提出了一个简单而强大的对比学习框架，用于无监督领域自适应，可以改善医学影像分析中脑血管分割的性能。",
+    "en_tdlr": "A simple yet potent contrastive learning framework for unsupervised domain adaptation is proposed to improve the performance of brain vessel segmentation in medical image analysis."
+}

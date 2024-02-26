@@ -1,0 +1,12 @@
+{
+    "title": "A note on the adjoint method for neural ordinary differential equation network",
+    "abstract": "arXiv:2402.15141v1 Announce Type: cross  Abstract: Perturbation and operator adjoint method are used to give the right adjoint form rigourously. From the derivation, we can have following results: 1) The loss gradient is not an ODE, it is an integral and we shows the reason; 2) The traditional adjoint form is not equivalent with the back propagation results. 3) The adjoint operator analysis shows that if and only if the discrete adjoint has the same scheme with the discrete neural ODE, the adjoint form would give the same results as BP does.",
+    "link": "https://arxiv.org/abs/2402.15141",
+    "context": "Title: A note on the adjoint method for neural ordinary differential equation network\nAbstract: arXiv:2402.15141v1 Announce Type: cross  Abstract: Perturbation and operator adjoint method are used to give the right adjoint form rigourously. From the derivation, we can have following results: 1) The loss gradient is not an ODE, it is an integral and we shows the reason; 2) The traditional adjoint form is not equivalent with the back propagation results. 3) The adjoint operator analysis shows that if and only if the discrete adjoint has the same scheme with the discrete neural ODE, the adjoint form would give the same results as BP does.",
+    "path": "papers/24/02/2402.15141.json",
+    "total_tokens": 695,
+    "translated_title": "关于神经常微分方程网络的伴随方法的注解",
+    "translated_abstract": "利用扰动和算子伴随方法，严格给出了正确的伴随形式。从推导中，我们得出以下结果：1) 损失梯度不是一个常微分方程，而是一个积分，我们展示了原因；2) 传统的伴随形式与反向传播结果不等价。3) 伴随算子分析表明，只有当离散伴随算子与离散神经常微分方程具有相同方案时，伴随形式才能给出与BP相同的结果。",
+    "tldr": "该论文对神经常微分方程网络的伴随方法进行了深入探讨，发现传统的伴随形式与反向传播结果并不等价，同时指出了什么情况下伴随形式会产生与反向传播相同结果。",
+    "en_tdlr": "This paper provides an in-depth discussion on the adjoint method for neural ordinary differential equation networks, revealing the inequivalence between the traditional adjoint form and backpropagation results, and identifying the conditions under which the adjoint form would yield the same results as backpropagation."
+}

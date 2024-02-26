@@ -1,0 +1,12 @@
+{
+    "title": "PythonSaga: Redefining the Benchmark to Evaluate Code Generating LLM",
+    "abstract": "arXiv:2401.03855v2 Announce Type: replace-cross  Abstract: Driven by the surge in code generation using large language models (LLMs), numerous benchmarks have emerged to evaluate these LLMs capabilities. We conducted a large-scale human evaluation of HumanEval and MBPP, two popular benchmarks for Python code generation, analyzing their diversity and difficulty. Our findings unveil a critical bias towards a limited set of programming concepts, neglecting most of the other concepts entirely. Furthermore, we uncover a worrying prevalence of easy tasks, potentially inflating model performance estimations. To address these limitations, we propose a novel benchmark, PythonSaga, featuring 185 hand-crafted prompts on a balanced representation of 38 programming concepts across diverse difficulty levels.",
+    "link": "https://arxiv.org/abs/2401.03855",
+    "context": "Title: PythonSaga: Redefining the Benchmark to Evaluate Code Generating LLM\nAbstract: arXiv:2401.03855v2 Announce Type: replace-cross  Abstract: Driven by the surge in code generation using large language models (LLMs), numerous benchmarks have emerged to evaluate these LLMs capabilities. We conducted a large-scale human evaluation of HumanEval and MBPP, two popular benchmarks for Python code generation, analyzing their diversity and difficulty. Our findings unveil a critical bias towards a limited set of programming concepts, neglecting most of the other concepts entirely. Furthermore, we uncover a worrying prevalence of easy tasks, potentially inflating model performance estimations. To address these limitations, we propose a novel benchmark, PythonSaga, featuring 185 hand-crafted prompts on a balanced representation of 38 programming concepts across diverse difficulty levels.",
+    "path": "papers/24/01/2401.03855.json",
+    "total_tokens": 727,
+    "translated_title": "PythonSaga：重新定义评估代码生成LLM的基准",
+    "translated_abstract": "受到使用大型语言模型(LLMs)生成代码激增的推动，出现了许多基准用于评估这些LLMs的功能。我们对HumanEval和MBPP两个流行的Python代码生成基准进行了大规模人工评估，分析了它们的多样性和难度。我们的研究揭示了对一组有限的编程概念存在严重偏见，完全忽视了大多数其他概念。此外，我们发现了大量简单任务的普遍存在，可能夸大了模型性能的估计。为了解决这些限制，我们提出了一种新颖的基准，PythonSaga，包含了185个手工制作的提示，涵盖了38个不同难度级别的编程概念。",
+    "tldr": "PythonSaga提出了一种新的基准，针对Python代码生成进行评估,弥补了现有基准存在的编程概念偏见和简单任务普遍性的问题",
+    "en_tdlr": "PythonSaga introduces a new benchmark for evaluating Python code generation, addressing biases in existing benchmarks towards programming concepts and prevalence of easy tasks."
+}

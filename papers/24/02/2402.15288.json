@@ -1,0 +1,11 @@
+{
+    "title": "Real-Time FPGA Demonstrator of ANN-Based Equalization for Optical Communications",
+    "abstract": "arXiv:2402.15288v1 Announce Type: cross  Abstract: In this work, we present a high-throughput field programmable gate array (FPGA) demonstrator of an artificial neural network (ANN)-based equalizer. The equalization is performed and illustrated in real-time for a 30 GBd, two-level pulse amplitude modulation (PAM2) optical communication system.",
+    "link": "https://arxiv.org/abs/2402.15288",
+    "context": "Title: Real-Time FPGA Demonstrator of ANN-Based Equalization for Optical Communications\nAbstract: arXiv:2402.15288v1 Announce Type: cross  Abstract: In this work, we present a high-throughput field programmable gate array (FPGA) demonstrator of an artificial neural network (ANN)-based equalizer. The equalization is performed and illustrated in real-time for a 30 GBd, two-level pulse amplitude modulation (PAM2) optical communication system.",
+    "path": "papers/24/02/2402.15288.json",
+    "total_tokens": 523,
+    "translated_title": "光通信中基于ANN的均衡的实时FPGA演示",
+    "translated_abstract": "在这项工作中，我们提出了一个高吞吐量的现场可编程门阵列（FPGA）演示器，用于基于人工神经网络（ANN）的均衡器。该均衡器实时执行并展示了在一个30 GBd，两级脉冲振幅调制（PAM2）光通信系统中的均衡。",
+    "tldr": "该论文提出了一个实时执行光通信系统均衡的高吞吐量FPGA演示器，采用基于ANN的方法。"
+}

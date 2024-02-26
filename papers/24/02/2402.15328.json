@@ -1,0 +1,12 @@
+{
+    "title": "Towards Principled Task Grouping for Multi-Task Learning",
+    "abstract": "arXiv:2402.15328v1 Announce Type: new  Abstract: This paper presents a novel approach to task grouping in Multitask Learning (MTL), advancing beyond existing methods by addressing key theoretical and practical limitations. Unlike prior studies, our approach offers a more theoretically grounded method that does not rely on restrictive assumptions for constructing transfer gains. We also propose a flexible mathematical programming formulation which can accommodate a wide spectrum of resource constraints, thus enhancing its versatility. Experimental results across diverse domains, including computer vision datasets, combinatorial optimization benchmarks and time series tasks, demonstrate the superiority of our method over extensive baselines, validating its effectiveness and general applicability in MTL.",
+    "link": "https://arxiv.org/abs/2402.15328",
+    "context": "Title: Towards Principled Task Grouping for Multi-Task Learning\nAbstract: arXiv:2402.15328v1 Announce Type: new  Abstract: This paper presents a novel approach to task grouping in Multitask Learning (MTL), advancing beyond existing methods by addressing key theoretical and practical limitations. Unlike prior studies, our approach offers a more theoretically grounded method that does not rely on restrictive assumptions for constructing transfer gains. We also propose a flexible mathematical programming formulation which can accommodate a wide spectrum of resource constraints, thus enhancing its versatility. Experimental results across diverse domains, including computer vision datasets, combinatorial optimization benchmarks and time series tasks, demonstrate the superiority of our method over extensive baselines, validating its effectiveness and general applicability in MTL.",
+    "path": "papers/24/02/2402.15328.json",
+    "total_tokens": 717,
+    "translated_title": "为多任务学习建立基于原则的任务分组方法",
+    "translated_abstract": "本文提出了一种新颖的多任务学习（MTL）中任务分组的方法，超越了现有方法，解决了关键的理论和实际限制。与之前的研究不同，我们的方法提供了一个更具理论基础的方法，不依赖于构建转移增益的限制性假设。我们还提出了一种灵活的数学规划形式，可以适应各种资源约束，从而增强了其多功能性。在各种领域进行的实验结果，包括计算机视觉数据集、组合优化基准和时间序列任务，证明了我们的方法相对于广泛的基线方法的优越性，验证了其在MTL中的有效性和普适性。",
+    "tldr": "提出了一种为多任务学习建立基于原则的任务分组方法，该方法在理论和实践上具有优势，通过灵活的数学规划形式解决了资源约束问题。",
+    "en_tdlr": "Proposed a principled task grouping approach for multi-task learning, which advances beyond existing methods by offering a more theoretically grounded method and a flexible mathematical programming formulation to address resource constraints."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Fourier Basis Density Model",
+    "abstract": "arXiv:2402.15345v1 Announce Type: new  Abstract: We introduce a lightweight, flexible and end-to-end trainable probability density model parameterized by a constrained Fourier basis. We assess its performance at approximating a range of multi-modal 1D densities, which are generally difficult to fit. In comparison to the deep factorized model introduced in [1], our model achieves a lower cross entropy at a similar computational budget. In addition, we also evaluate our method on a toy compression task, demonstrating its utility in learned compression.",
+    "link": "https://arxiv.org/abs/2402.15345",
+    "context": "Title: Fourier Basis Density Model\nAbstract: arXiv:2402.15345v1 Announce Type: new  Abstract: We introduce a lightweight, flexible and end-to-end trainable probability density model parameterized by a constrained Fourier basis. We assess its performance at approximating a range of multi-modal 1D densities, which are generally difficult to fit. In comparison to the deep factorized model introduced in [1], our model achieves a lower cross entropy at a similar computational budget. In addition, we also evaluate our method on a toy compression task, demonstrating its utility in learned compression.",
+    "path": "papers/24/02/2402.15345.json",
+    "total_tokens": 680,
+    "translated_title": "Fourier基密度模型",
+    "translated_abstract": "我们引入了一种轻量级、灵活且端到端可训练的概率密度模型，其由一个受限的Fourier基参数化。我们评估了该模型在逼近一系列多模态1维密度方面的表现，这些密度通常很难拟合。与[1]中引入的深度因式模型相比，我们的模型在类似的计算预算下实现了更低的交叉熵。此外，我们还在一个玩具压缩任务上评估了我们的方法，展示了其在学习压缩中的实用性。",
+    "tldr": "引入了一种基于受限Fourier基的轻量级、灵活且端到端可训练的概率密度模型，能够有效逼近各种多模态1维密度，表现优于传统的深度因式模型，同时在学习压缩任务中展示了其实用性。"
+}

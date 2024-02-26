@@ -1,0 +1,12 @@
+{
+    "title": "Deepfake Detection and the Impact of Limited Computing Capabilities",
+    "abstract": "arXiv:2402.14825v1 Announce Type: cross  Abstract: The rapid development of technologies and artificial intelligence makes deepfakes an increasingly sophisticated and challenging-to-identify technique. To ensure the accuracy of information and control misinformation and mass manipulation, it is of paramount importance to discover and develop artificial intelligence models that enable the generic detection of forged videos. This work aims to address the detection of deepfakes across various existing datasets in a scenario with limited computing resources. The goal is to analyze the applicability of different deep learning techniques under these restrictions and explore possible approaches to enhance their efficiency.",
+    "link": "https://arxiv.org/abs/2402.14825",
+    "context": "Title: Deepfake Detection and the Impact of Limited Computing Capabilities\nAbstract: arXiv:2402.14825v1 Announce Type: cross  Abstract: The rapid development of technologies and artificial intelligence makes deepfakes an increasingly sophisticated and challenging-to-identify technique. To ensure the accuracy of information and control misinformation and mass manipulation, it is of paramount importance to discover and develop artificial intelligence models that enable the generic detection of forged videos. This work aims to address the detection of deepfakes across various existing datasets in a scenario with limited computing resources. The goal is to analyze the applicability of different deep learning techniques under these restrictions and explore possible approaches to enhance their efficiency.",
+    "path": "papers/24/02/2402.14825.json",
+    "total_tokens": 666,
+    "translated_title": "深度伪造检测及有限计算能力的影响",
+    "translated_abstract": "技术和人工智能的快速发展使得deepfakes成为一种越来越复杂和具有挑战性的识别技术。为了确保信息的准确性，控制虚假信息和大规模操纵，发现并开发能够检测伪造视频的人工智能模型至关重要。本研究旨在解决在有限计算资源场景下不同数据集中深度伪造的检测问题。目标是分析不同深度学习技术在这些限制条件下的适用性，并探索提高效率的可能方法。",
+    "tldr": "本研究旨在通过分析在有限计算资源情况下的深度学习技术的适用性以及探索提高效率的方法，解决了深度伪造检测的问题。",
+    "en_tdlr": "This study addresses the issue of deepfake detection by analyzing the applicability of deep learning techniques under limited computing resources and exploring methods to improve efficiency."
+}

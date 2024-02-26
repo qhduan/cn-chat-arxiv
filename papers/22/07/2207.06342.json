@@ -1,0 +1,12 @@
+{
+    "title": "Efficient error and variance estimation for randomized matrix computations",
+    "abstract": "arXiv:2207.06342v4 Announce Type: replace-cross  Abstract: Randomized matrix algorithms have become workhorse tools in scientific computing and machine learning. To use these algorithms safely in applications, they should be coupled with posterior error estimates to assess the quality of the output. To meet this need, this paper proposes two diagnostics: a leave-one-out error estimator for randomized low-rank approximations and a jackknife resampling method to estimate the variance of the output of a randomized matrix computation. Both of these diagnostics are rapid to compute for randomized low-rank approximation algorithms such as the randomized SVD and randomized Nystr\\\"om approximation, and they provide useful information that can be used to assess the quality of the computed output and guide algorithmic parameter choices.",
+    "link": "https://arxiv.org/abs/2207.06342",
+    "context": "Title: Efficient error and variance estimation for randomized matrix computations\nAbstract: arXiv:2207.06342v4 Announce Type: replace-cross  Abstract: Randomized matrix algorithms have become workhorse tools in scientific computing and machine learning. To use these algorithms safely in applications, they should be coupled with posterior error estimates to assess the quality of the output. To meet this need, this paper proposes two diagnostics: a leave-one-out error estimator for randomized low-rank approximations and a jackknife resampling method to estimate the variance of the output of a randomized matrix computation. Both of these diagnostics are rapid to compute for randomized low-rank approximation algorithms such as the randomized SVD and randomized Nystr\\\"om approximation, and they provide useful information that can be used to assess the quality of the computed output and guide algorithmic parameter choices.",
+    "path": "papers/22/07/2207.06342.json",
+    "total_tokens": 734,
+    "translated_title": "针对随机矩阵计算的高效误差和方差估计",
+    "translated_abstract": "随机矩阵算法已成为科学计算和机器学习中必不可少的工具。为了安全地在应用中使用这些算法，需要结合后验误差估计来评估输出的质量。为满足这一需求，本文提出了两种诊断方法：用于随机低秩逼近的留一法误差估计器和一种杰基刀重采样方法，用于估计随机矩阵计算的输出方差。这两种诊断方法对于随机低秩逼近算法（如随机奇异值分解和随机Nystrom逼近）计算迅速，并提供可用于评估计算输出质量和指导算法参数选择的有用信息。",
+    "tldr": "该论文提出了用于随机矩阵计算的高效误差和方差估计方法，可帮助评估输出质量并指导算法参数选择。",
+    "en_tdlr": "This paper proposes efficient error and variance estimation methods for randomized matrix computations, which help assess the quality of the output and guide algorithmic parameter choices."
+}

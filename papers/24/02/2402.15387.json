@@ -1,0 +1,12 @@
+{
+    "title": "Higher order measures of risk and stochastic dominance",
+    "abstract": "arXiv:2402.15387v1 Announce Type: new  Abstract: Higher order risk measures are stochastic optimization problems by design, and for this reason they enjoy valuable properties in optimization under uncertainties. They nicely integrate with stochastic optimization problems, as has been observed by the intriguing concept of the risk quadrangles, for example. Stochastic dominance is a binary relation for random variables to compare random outcomes. It is demonstrated that the concepts of higher order risk measures and stochastic dominance are equivalent, they can be employed to characterize the other. The paper explores these relations and connects stochastic orders, higher order risk measures and the risk quadrangle. Expectiles are employed to exemplify the relations obtained.",
+    "link": "https://arxiv.org/abs/2402.15387",
+    "context": "Title: Higher order measures of risk and stochastic dominance\nAbstract: arXiv:2402.15387v1 Announce Type: new  Abstract: Higher order risk measures are stochastic optimization problems by design, and for this reason they enjoy valuable properties in optimization under uncertainties. They nicely integrate with stochastic optimization problems, as has been observed by the intriguing concept of the risk quadrangles, for example. Stochastic dominance is a binary relation for random variables to compare random outcomes. It is demonstrated that the concepts of higher order risk measures and stochastic dominance are equivalent, they can be employed to characterize the other. The paper explores these relations and connects stochastic orders, higher order risk measures and the risk quadrangle. Expectiles are employed to exemplify the relations obtained.",
+    "path": "papers/24/02/2402.15387.json",
+    "total_tokens": 674,
+    "translated_title": "风险的高阶度量和随机优势",
+    "translated_abstract": "高阶风险度量是一种通过设计的随机优化问题，因此在不确定性优化中具有有价值的性质。它们与随机优化问题很好地结合，正如通过风险四边形等引人入胜的概念所观察到的那样。随机优势是用于比较随机结果的随机变量的二元关系。论文表明，高阶风险度量和随机优势的概念是等价的，它们可以用来表征另一个。本文探讨了这些关系，并连接了随机序、高阶风险度量和风险四边形。期望值被用来说明所得到的关系。",
+    "tldr": "高阶风险度量和随机优势之间存在等价关系，可以相互描述和表征对方。",
+    "en_tdlr": "There is an equivalence between higher order risk measures and stochastic dominance, allowing for mutual characterization and description."
+}

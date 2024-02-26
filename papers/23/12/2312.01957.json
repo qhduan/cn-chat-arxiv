@@ -1,0 +1,12 @@
+{
+    "title": "Distilled Self-Critique of LLMs with Synthetic Data: a Bayesian Perspective",
+    "abstract": "arXiv:2312.01957v2 Announce Type: replace  Abstract: This paper proposes an interpretation of RLAIF as Bayesian inference by introducing distilled Self-Critique (dSC), which refines the outputs of a LLM through a Gibbs sampler that is later distilled into a fine-tuned model. Only requiring synthetic data, dSC is exercised in experiments regarding safety, sentiment, and privacy control, showing it can be a viable and cheap alternative to align LLMs. Code released at \\url{https://github.com/vicgalle/distilled-self-critique}.",
+    "link": "https://arxiv.org/abs/2312.01957",
+    "context": "Title: Distilled Self-Critique of LLMs with Synthetic Data: a Bayesian Perspective\nAbstract: arXiv:2312.01957v2 Announce Type: replace  Abstract: This paper proposes an interpretation of RLAIF as Bayesian inference by introducing distilled Self-Critique (dSC), which refines the outputs of a LLM through a Gibbs sampler that is later distilled into a fine-tuned model. Only requiring synthetic data, dSC is exercised in experiments regarding safety, sentiment, and privacy control, showing it can be a viable and cheap alternative to align LLMs. Code released at \\url{https://github.com/vicgalle/distilled-self-critique}.",
+    "path": "papers/23/12/2312.01957.json",
+    "total_tokens": 693,
+    "translated_title": "使用合成数据的经过精炼的LLMs自我批评：一种贝叶斯视角",
+    "translated_abstract": "本文提出了将RLAIF解释为贝叶斯推断的方法，通过引入经过精炼的自我批评(dSC)，该方法通过Gibbs采样器对LLM的输出进行精炼，然后将其蒸馏成一个微调模型。只需要合成数据，dSC在涉及安全性、情感和隐私控制的实验中得到了应用，表明它可以作为对齐LLMs的一种可行且廉价的替代方案。代码在\\url{https://github.com/vicgalle/distilled-self-critique}上发布。",
+    "tldr": "本文提出了一种将RLAIF解释为贝叶斯推断的方法，通过经过精炼的自我批评对LLM的输出进行精炼，为获得微调模型提供了一种可行且廉价的替代方案。",
+    "en_tdlr": "The paper introduces a method to interpret RLAIF as Bayesian inference, refining LLM outputs through distilled Self-Critique (dSC), offering a viable and cost-effective alternative for obtaining fine-tuned models."
+}

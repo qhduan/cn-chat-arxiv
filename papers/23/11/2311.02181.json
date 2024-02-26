@@ -1,0 +1,12 @@
+{
+    "title": "Joint Problems in Learning Multiple Dynamical Systems",
+    "abstract": "arXiv:2311.02181v2 Announce Type: replace-cross  Abstract: Clustering of time series is a well-studied problem, with applications ranging from quantitative, personalized models of metabolism obtained from metabolite concentrations to state discrimination in quantum information theory. We consider a variant, where given a set of trajectories and a number of parts, we jointly partition the set of trajectories and learn linear dynamical system (LDS) models for each part, so as to minimize the maximum error across all the models. We present globally convergent methods and EM heuristics, accompanied by promising computational results.",
+    "link": "https://arxiv.org/abs/2311.02181",
+    "context": "Title: Joint Problems in Learning Multiple Dynamical Systems\nAbstract: arXiv:2311.02181v2 Announce Type: replace-cross  Abstract: Clustering of time series is a well-studied problem, with applications ranging from quantitative, personalized models of metabolism obtained from metabolite concentrations to state discrimination in quantum information theory. We consider a variant, where given a set of trajectories and a number of parts, we jointly partition the set of trajectories and learn linear dynamical system (LDS) models for each part, so as to minimize the maximum error across all the models. We present globally convergent methods and EM heuristics, accompanied by promising computational results.",
+    "path": "papers/23/11/2311.02181.json",
+    "total_tokens": 638,
+    "translated_title": "学习多个动态系统中的联合问题",
+    "translated_abstract": "时间序列的聚类是一个经过充分研究的问题，其应用范围从通过代谢产物浓度获得的定量个性化代谢模型到量子信息理论中的状态判别。我们考虑了一个变种，即给定一组轨迹和一些部分，我们联合划分轨迹集并学习每个部分的线性动态系统（LDS）模型，以使得所有模型的最大误差最小化。我们提出了全局收敛的方法和EM启发式算法，并附上了有前景的计算结果。",
+    "tldr": "聚类时间序列的新问题，提出联合划分轨迹集并学习每个部分的线性动态系统模型，以最小化所有模型的最大误差",
+    "en_tdlr": "Introducing a new problem in clustering time series, where joint partitioning of trajectories and learning linear dynamical system models for each part minimizes the maximum error across all models."
+}

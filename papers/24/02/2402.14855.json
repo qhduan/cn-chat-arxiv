@@ -1,0 +1,12 @@
+{
+    "title": "An LLM Maturity Model for Reliable and Transparent Text-to-Query",
+    "abstract": "arXiv:2402.14855v1 Announce Type: cross  Abstract: Recognizing the imperative to address the reliability and transparency issues of Large Language Models (LLM), this work proposes an LLM maturity model tailored for text-to-query applications. This maturity model seeks to fill the existing void in evaluating LLMs in such applications by incorporating dimensions beyond mere correctness or accuracy. Moreover, this work introduces a real-world use case from the law enforcement domain and showcases QueryIQ, an LLM-powered, domain-specific text-to-query assistant to expedite user workflows and reveal hidden relationship in data.",
+    "link": "https://arxiv.org/abs/2402.14855",
+    "context": "Title: An LLM Maturity Model for Reliable and Transparent Text-to-Query\nAbstract: arXiv:2402.14855v1 Announce Type: cross  Abstract: Recognizing the imperative to address the reliability and transparency issues of Large Language Models (LLM), this work proposes an LLM maturity model tailored for text-to-query applications. This maturity model seeks to fill the existing void in evaluating LLMs in such applications by incorporating dimensions beyond mere correctness or accuracy. Moreover, this work introduces a real-world use case from the law enforcement domain and showcases QueryIQ, an LLM-powered, domain-specific text-to-query assistant to expedite user workflows and reveal hidden relationship in data.",
+    "path": "papers/24/02/2402.14855.json",
+    "total_tokens": 723,
+    "translated_title": "一种适用于可靠透明文本到查询的LLM成熟度模型",
+    "translated_abstract": "认识到解决大语言模型（LLM）的可靠性和透明性问题的必要性，本研究提出了一种针对文本到查询应用的LLM成熟度模型。该成熟度模型旨在填补在评估LLM在此类应用中的不足，同时纳入了超越纯粹正确性或准确性的维度。此外，该工作引入了执法领域的一个真实用例，并展示了QueryIQ，一个基于LLM的领域特定文本到查询助手，以加速用户工作流程并揭示数据中隐藏的关系。",
+    "tldr": "这项工作提出了一种适用于文本到查询应用的LLM成熟度模型，不仅关注准确性，还扩展到更多维度。同时，展示了一个用于执法领域的实际案例，介绍了域特定文本到查询助手QueryIQ。",
+    "en_tdlr": "This work proposes an LLM maturity model tailored for text-to-query applications, extending beyond mere correctness to incorporate more dimensions, and showcases a real-world use case in the law enforcement domain introducing QueryIQ, a domain-specific text-to-query assistant."
+}

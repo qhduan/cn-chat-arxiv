@@ -1,0 +1,12 @@
+{
+    "title": "A Usage-centric Take on Intent Understanding in E-Commerce",
+    "abstract": "arXiv:2402.14901v1 Announce Type: cross  Abstract: Identifying and understanding user intents is a pivotal task for E-Commerce. Despite its popularity, intent understanding has not been consistently defined or accurately benchmarked. In this paper, we focus on predicative user intents as \"how a customer uses a product\", and pose intent understanding as a natural language reasoning task, independent of product ontologies. We identify two weaknesses of FolkScope, the SOTA E-Commerce Intent Knowledge Graph, that limit its capacity to reason about user intents and to recommend diverse useful products. Following these observations, we introduce a Product Recovery Benchmark including a novel evaluation framework and an example dataset. We further validate the above FolkScope weaknesses on this benchmark.",
+    "link": "https://arxiv.org/abs/2402.14901",
+    "context": "Title: A Usage-centric Take on Intent Understanding in E-Commerce\nAbstract: arXiv:2402.14901v1 Announce Type: cross  Abstract: Identifying and understanding user intents is a pivotal task for E-Commerce. Despite its popularity, intent understanding has not been consistently defined or accurately benchmarked. In this paper, we focus on predicative user intents as \"how a customer uses a product\", and pose intent understanding as a natural language reasoning task, independent of product ontologies. We identify two weaknesses of FolkScope, the SOTA E-Commerce Intent Knowledge Graph, that limit its capacity to reason about user intents and to recommend diverse useful products. Following these observations, we introduce a Product Recovery Benchmark including a novel evaluation framework and an example dataset. We further validate the above FolkScope weaknesses on this benchmark.",
+    "path": "papers/24/02/2402.14901.json",
+    "total_tokens": 744,
+    "translated_title": "电子商务中意图理解的使用中心视角",
+    "translated_abstract": "识别和理解用户意图是电子商务中至关重要的任务。尽管意图理解很受欢迎，但其定义并不一致，且缺乏准确的基准。本文关注将用户意图定义为\"顾客如何使用产品\"的预测性用户意图，并将意图理解视为一项自然语言推理任务，独立于产品本体。我们发现了FolkScope的两个弱点，这是目前最先进的电子商务意图知识图，限制了其推理用户意图和推荐多样有用产品的能力。基于这些观察，我们引入了一个产品恢复基准，包括一个新颖的评估框架和一个示例数据集。我们在这个基准上进一步验证了上述FolkScope的弱点。",
+    "tldr": "该论文提出了电子商务中意图理解的一个新视角，不依赖于产品本体，通过引入产品恢复基准验证了当前意图知识图的弱点。",
+    "en_tdlr": "This paper presents a new perspective on intent understanding in E-Commerce, independent of product ontologies, and validates the weaknesses of the current intent knowledge graph by introducing a Product Recovery Benchmark."
+}

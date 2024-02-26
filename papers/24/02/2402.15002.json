@@ -1,0 +1,12 @@
+{
+    "title": "CommVQA: Situating Visual Question Answering in Communicative Contexts",
+    "abstract": "arXiv:2402.15002v1 Announce Type: new  Abstract: Current visual question answering (VQA) models tend to be trained and evaluated on image-question pairs in isolation. However, the questions people ask are dependent on their informational needs and prior knowledge about the image content. To evaluate how situating images within naturalistic contexts shapes visual questions, we introduce CommVQA, a VQA dataset consisting of images, image descriptions, real-world communicative scenarios where the image might appear (e.g., a travel website), and follow-up questions and answers conditioned on the scenario. We show that CommVQA poses a challenge for current models. Providing contextual information to VQA models improves performance broadly, highlighting the relevance of situating systems within a communicative scenario.",
+    "link": "https://arxiv.org/abs/2402.15002",
+    "context": "Title: CommVQA: Situating Visual Question Answering in Communicative Contexts\nAbstract: arXiv:2402.15002v1 Announce Type: new  Abstract: Current visual question answering (VQA) models tend to be trained and evaluated on image-question pairs in isolation. However, the questions people ask are dependent on their informational needs and prior knowledge about the image content. To evaluate how situating images within naturalistic contexts shapes visual questions, we introduce CommVQA, a VQA dataset consisting of images, image descriptions, real-world communicative scenarios where the image might appear (e.g., a travel website), and follow-up questions and answers conditioned on the scenario. We show that CommVQA poses a challenge for current models. Providing contextual information to VQA models improves performance broadly, highlighting the relevance of situating systems within a communicative scenario.",
+    "path": "papers/24/02/2402.15002.json",
+    "total_tokens": 721,
+    "translated_title": "将视觉问答置于交际背景中的CommVQA",
+    "translated_abstract": "当前的视觉问答（VQA）模型往往在孤立的图像-问题对上进行训练和评估。然而，人们提出的问题取决于他们的信息需求和对图像内容的先前了解。为了评估将图像置于自然环境中如何塑造视觉问题，我们引入了CommVQA，这是一个包含图像、图像描述、图像可能出现的真实交际场景（例如旅行网站）以及依赖于场景的后续问题和答案的VQA数据集。我们展示了CommVQA对当前模型提出了挑战。为VQA模型提供上下文信息可广泛提高性能，突显将系统置于交际场景中的相关性。",
+    "tldr": "CommVQA数据集将图像置于自然环境中，挑战了当前的VQA模型，结果表明为模型提供上下文信息能够提高性能。",
+    "en_tdlr": "CommVQA dataset situates images within naturalistic contexts, challenging current VQA models, and showing that providing contextual information improves performance."
+}

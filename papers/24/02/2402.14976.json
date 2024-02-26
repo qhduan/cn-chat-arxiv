@@ -1,0 +1,12 @@
+{
+    "title": "Unsupervised Domain Adaptation within Deep Foundation Latent Spaces",
+    "abstract": "arXiv:2402.14976v1 Announce Type: cross  Abstract: The vision transformer-based foundation models, such as ViT or Dino-V2, are aimed at solving problems with little or no finetuning of features. Using a setting of prototypical networks, we analyse to what extent such foundation models can solve unsupervised domain adaptation without finetuning over the source or target domain. Through quantitative analysis, as well as qualitative interpretations of decision making, we demonstrate that the suggested method can improve upon existing baselines, as well as showcase the limitations of such approach yet to be solved.",
+    "link": "https://arxiv.org/abs/2402.14976",
+    "context": "Title: Unsupervised Domain Adaptation within Deep Foundation Latent Spaces\nAbstract: arXiv:2402.14976v1 Announce Type: cross  Abstract: The vision transformer-based foundation models, such as ViT or Dino-V2, are aimed at solving problems with little or no finetuning of features. Using a setting of prototypical networks, we analyse to what extent such foundation models can solve unsupervised domain adaptation without finetuning over the source or target domain. Through quantitative analysis, as well as qualitative interpretations of decision making, we demonstrate that the suggested method can improve upon existing baselines, as well as showcase the limitations of such approach yet to be solved.",
+    "path": "papers/24/02/2402.14976.json",
+    "total_tokens": 657,
+    "translated_title": "在深度基础潜空间内的无监督领域自适应",
+    "translated_abstract": "基于Vision Transformer的基础模型，如ViT或Dino-V2，旨在解决无需或很少微调特征的问题。通过一组原型网络的设置，我们分析了这种基础模型在无需在源域或目标域进行微调情况下，能够解决无监督领域自适应的程度。通过定量分析以及对决策过程的定性解释，我们证明了建议方法可以改进现有基线，并展示了这种方法的局限性有待解决。",
+    "tldr": "提出了一种在深度基础潜空间内进行无监督领域自适应的方法，通过分析和定性解释，展示了该方法可以优于现有基线，并显示了尚未解决的局限性。",
+    "en_tdlr": "Proposed a method for unsupervised domain adaptation within deep foundation latent spaces, demonstrated its superiority over existing baselines through analysis and qualitative interpretations, and highlighted the limitations yet to be addressed."
+}
