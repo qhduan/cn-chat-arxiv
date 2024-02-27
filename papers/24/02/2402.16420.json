@@ -1,0 +1,11 @@
+{
+    "title": "Predicting Sustainable Development Goals Using Course Descriptions -- from LLMs to Conventional Foundation Models",
+    "abstract": "arXiv:2402.16420v1 Announce Type: new  Abstract: We present our work on predicting United Nations sustainable development goals (SDG) for university courses. We use an LLM named PaLM 2 to generate training data given a noisy human-authored course description input as input. We use this data to train several different smaller language models to predict SDGs for university courses. This work contributes to better university level adaptation of SDGs. The best performing model in our experiments was BART with an F1-score of 0.786.",
+    "link": "https://arxiv.org/abs/2402.16420",
+    "context": "Title: Predicting Sustainable Development Goals Using Course Descriptions -- from LLMs to Conventional Foundation Models\nAbstract: arXiv:2402.16420v1 Announce Type: new  Abstract: We present our work on predicting United Nations sustainable development goals (SDG) for university courses. We use an LLM named PaLM 2 to generate training data given a noisy human-authored course description input as input. We use this data to train several different smaller language models to predict SDGs for university courses. This work contributes to better university level adaptation of SDGs. The best performing model in our experiments was BART with an F1-score of 0.786.",
+    "path": "papers/24/02/2402.16420.json",
+    "total_tokens": 636,
+    "translated_title": "使用课程描述预测可持续发展目标 - 从LLMs到传统基础模型",
+    "translated_abstract": "我们提出了一个关于预测大学课程联合国可持续发展目标（SDG）的工作。我们使用一个名为PaLM 2的LLM生成训练数据，将含有嘈杂人工编写的课程描述作为输入。我们利用这些数据训练了几个不同的较小语言模型，以预测大学课程的SDG。这项工作有助于更好地适应SDG的大学层面。在我们的实验中表现最好的模型是具有0.786的F1分数的BART。",
+    "tldr": "使用LLM生成训练数据，训练语言模型来预测大学课程的可持续发展目标，有助于更好地适应SDGs。"
+}

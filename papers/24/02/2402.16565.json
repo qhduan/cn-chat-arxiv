@@ -1,0 +1,12 @@
+{
+    "title": "Partial Rankings of Optimizers",
+    "abstract": "arXiv:2402.16565v1 Announce Type: cross  Abstract: We introduce a framework for benchmarking optimizers according to multiple criteria over various test functions. Based on a recently introduced union-free generic depth function for partial orders/rankings, it fully exploits the ordinal information and allows for incomparability. Our method describes the distribution of all partial orders/rankings, avoiding the notorious shortcomings of aggregation. This permits to identify test functions that produce central or outlying rankings of optimizers and to assess the quality of benchmarking suites.",
+    "link": "https://arxiv.org/abs/2402.16565",
+    "context": "Title: Partial Rankings of Optimizers\nAbstract: arXiv:2402.16565v1 Announce Type: cross  Abstract: We introduce a framework for benchmarking optimizers according to multiple criteria over various test functions. Based on a recently introduced union-free generic depth function for partial orders/rankings, it fully exploits the ordinal information and allows for incomparability. Our method describes the distribution of all partial orders/rankings, avoiding the notorious shortcomings of aggregation. This permits to identify test functions that produce central or outlying rankings of optimizers and to assess the quality of benchmarking suites.",
+    "path": "papers/24/02/2402.16565.json",
+    "total_tokens": 674,
+    "translated_title": "优化器的部分排序",
+    "translated_abstract": "我们提出了一个根据多个标准在各种测试函数上对优化器进行基准测试的框架。基于最近引入的用于偏序/排序的无集合泛函深度函数，它充分利用了次序信息并允许不可比性。我们的方法描述了所有部分顺序/排序的分布，避免了聚合的臭名昭著的缺点。这允许识别产生优化器的中心或离群排序的测试函数，并评估基准测试套件的质量。",
+    "tldr": "该论文介绍了一种基于多个标准进行优化器基准测试的框架，通过利用次序信息并允许不可比性，避免了聚合的缺点，可以识别产生中心或离群排序的测试函数，并评估基准测试套件的质量。",
+    "en_tdlr": "This paper introduces a framework for benchmarking optimizers based on multiple criteria, which fully exploits ordinal information and allows for incomparability, avoiding the drawbacks of aggregation. It can identify test functions that produce central or outlying rankings of optimizers and evaluate the quality of benchmarking suites."
+}

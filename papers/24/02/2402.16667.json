@@ -1,0 +1,12 @@
+{
+    "title": "RepoAgent: An LLM-Powered Open-Source Framework for Repository-level Code Documentation Generation",
+    "abstract": "arXiv:2402.16667v1 Announce Type: new  Abstract: Generative models have demonstrated considerable potential in software engineering, particularly in tasks such as code generation and debugging. However, their utilization in the domain of code documentation generation remains underexplored. To this end, we introduce RepoAgent, a large language model powered open-source framework aimed at proactively generating, maintaining, and updating code documentation. Through both qualitative and quantitative evaluations, we have validated the effectiveness of our approach, showing that RepoAgent excels in generating high-quality repository-level documentation. The code and results are publicly accessible at https://github.com/OpenBMB/RepoAgent.",
+    "link": "https://arxiv.org/abs/2402.16667",
+    "context": "Title: RepoAgent: An LLM-Powered Open-Source Framework for Repository-level Code Documentation Generation\nAbstract: arXiv:2402.16667v1 Announce Type: new  Abstract: Generative models have demonstrated considerable potential in software engineering, particularly in tasks such as code generation and debugging. However, their utilization in the domain of code documentation generation remains underexplored. To this end, we introduce RepoAgent, a large language model powered open-source framework aimed at proactively generating, maintaining, and updating code documentation. Through both qualitative and quantitative evaluations, we have validated the effectiveness of our approach, showing that RepoAgent excels in generating high-quality repository-level documentation. The code and results are publicly accessible at https://github.com/OpenBMB/RepoAgent.",
+    "path": "papers/24/02/2402.16667.json",
+    "total_tokens": 730,
+    "translated_title": "RepoAgent：一种以LLM为动力的开源框架，用于生成存储库级代码文档",
+    "translated_abstract": "arXiv:2402.16667v1 公告类型：新的 摘要：生成模型在软件工程中展示出了相当大的潜力，特别是在诸如代码生成和调试之类的任务中。然而，在代码文档生成领域中，它们的利用仍未得到充分开发。为此，我们引入了RepoAgent，这是一个以大型语言模型为动力的开源框架，旨在积极生成、维护和更新代码文档。通过定性和定量评估，我们已经验证了我们方法的有效性，表明RepoAgent在生成高质量的存储库级文档方面表现出色。代码和结果可以公开访问：https://github.com/OpenBMB/RepoAgent。",
+    "tldr": "RepoAgent是一个以大型语言模型为动力的开源框架，旨在积极生成、维护和更新代码文档，验证了其在生成高质量存储库级文档方面的有效性。",
+    "en_tdlr": "RepoAgent is an open-source framework powered by a large language model aimed at proactively generating, maintaining, and updating code documentation, validated for generating high-quality repository-level documentation."
+}

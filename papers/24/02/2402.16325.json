@@ -1,0 +1,12 @@
+{
+    "title": "Confidence Calibration for Recommender Systems and Its Applications",
+    "abstract": "arXiv:2402.16325v1 Announce Type: new  Abstract: Despite the importance of having a measure of confidence in recommendation results, it has been surprisingly overlooked in the literature compared to the accuracy of the recommendation. In this dissertation, I propose a model calibration framework for recommender systems for estimating accurate confidence in recommendation results based on the learned ranking scores. Moreover, I subsequently introduce two real-world applications of confidence on recommendations: (1) Training a small student model by treating the confidence of a big teacher model as additional learning guidance, (2) Adjusting the number of presented items based on the expected user utility estimated with calibrated probability.",
+    "link": "https://arxiv.org/abs/2402.16325",
+    "context": "Title: Confidence Calibration for Recommender Systems and Its Applications\nAbstract: arXiv:2402.16325v1 Announce Type: new  Abstract: Despite the importance of having a measure of confidence in recommendation results, it has been surprisingly overlooked in the literature compared to the accuracy of the recommendation. In this dissertation, I propose a model calibration framework for recommender systems for estimating accurate confidence in recommendation results based on the learned ranking scores. Moreover, I subsequently introduce two real-world applications of confidence on recommendations: (1) Training a small student model by treating the confidence of a big teacher model as additional learning guidance, (2) Adjusting the number of presented items based on the expected user utility estimated with calibrated probability.",
+    "path": "papers/24/02/2402.16325.json",
+    "total_tokens": 721,
+    "translated_title": "推荐系统的置信度校准及其应用",
+    "translated_abstract": "尽管在推荐结果准确度方面受到重视，但在文献中对于拥有一种对推荐结果置信度的衡量方式却出奇的被忽视。在这篇论文中，我提出了一个推荐系统的模型校准框架，用于基于学习到的排名分数估计推荐结果的准确置信度。此外，我随后介绍了置信度在两个现实世界应用中的应用：(1) 通过将大型教师模型的置信度视为附加学习指导，训练一个小型学生模型，(2) 基于校准后的概率估计的预期用户效用调整呈现商品数量。",
+    "tldr": "论文提出了推荐系统的置信度校准框架，通过学习排名分数估计推荐结果的准确置信度，并探讨了置信度在教学和商品呈现等实际应用中的作用。",
+    "en_tdlr": "The paper introduces a confidence calibration framework for recommender systems to estimate accurate confidence in recommendation results based on learned ranking scores, and explores the applications of confidence in teaching and item presentation."
+}

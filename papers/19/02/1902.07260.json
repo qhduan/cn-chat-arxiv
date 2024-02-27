@@ -1,0 +1,11 @@
+{
+    "title": "The preference lattice",
+    "abstract": "arXiv:1902.07260v5 Announce Type: replace  Abstract: Most comparisons of preferences are instances of single-crossing dominance. We examine the lattice structure of single-crossing dominance, proving characterisation, existence and uniqueness results for minimum upper bounds of arbitrary sets of preferences. We apply these theorems to derive new comparative statics theorems for collective choice and under analyst uncertainty, to characterise a general 'maxmin' class of uncertainty-averse preferences over Savage acts, and to revisit the tension between liberalism and Pareto-efficiency in social choice.",
+    "link": "https://arxiv.org/abs/1902.07260",
+    "context": "Title: The preference lattice\nAbstract: arXiv:1902.07260v5 Announce Type: replace  Abstract: Most comparisons of preferences are instances of single-crossing dominance. We examine the lattice structure of single-crossing dominance, proving characterisation, existence and uniqueness results for minimum upper bounds of arbitrary sets of preferences. We apply these theorems to derive new comparative statics theorems for collective choice and under analyst uncertainty, to characterise a general 'maxmin' class of uncertainty-averse preferences over Savage acts, and to revisit the tension between liberalism and Pareto-efficiency in social choice.",
+    "path": "papers/19/02/1902.07260.json",
+    "total_tokens": 643,
+    "translated_title": "偏好格",
+    "translated_abstract": "大多数偏好比较是单交叉优势的实例。我们研究了单交叉优势的格结构，证明了任意偏好集的最小上界的表征、存在性和唯一性结果。我们将这些定理应用于推导集体选择和分析者不确定性下的新的比较静态定理，以刻画对Savage行为的不确定性厌恶偏好的一般“maxmin”类，并重新审视社会选择中自由主义和帕累托效率之间的张力。",
+    "tldr": "研究了单交叉优势的格结构，并推导出了新的比较静态定理，应用于集体选择、分析者不确定性下，并对不确定性厌恶偏好和社会选择中的张力进行了分类。"
+}

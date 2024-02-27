@@ -1,0 +1,12 @@
+{
+    "title": "$\\rho$-arbitrage and $\\rho$-consistent pricing for star-shaped risk measures",
+    "abstract": "arXiv:2202.07610v2 Announce Type: replace  Abstract: This paper revisits mean-risk portfolio selection in a one-period financial market, where risk is quantified by a star-shaped risk measure $\\rho$. We make three contributions. First, we introduce the new axiom of weak sensitivity to large losses and show that it is key to ensure the existence of optimal portfolios. Second, we give primal and dual characterisations of (strong) $\\rho$-arbitrage. Finally, we use our conditions for the absence of (strong) $\\rho$-arbitrage to explicitly derive the (strong) $\\rho$-consistent price interval for an external financial contract.",
+    "link": "https://arxiv.org/abs/2202.07610",
+    "context": "Title: $\\rho$-arbitrage and $\\rho$-consistent pricing for star-shaped risk measures\nAbstract: arXiv:2202.07610v2 Announce Type: replace  Abstract: This paper revisits mean-risk portfolio selection in a one-period financial market, where risk is quantified by a star-shaped risk measure $\\rho$. We make three contributions. First, we introduce the new axiom of weak sensitivity to large losses and show that it is key to ensure the existence of optimal portfolios. Second, we give primal and dual characterisations of (strong) $\\rho$-arbitrage. Finally, we use our conditions for the absence of (strong) $\\rho$-arbitrage to explicitly derive the (strong) $\\rho$-consistent price interval for an external financial contract.",
+    "path": "papers/22/02/2202.07610.json",
+    "total_tokens": 744,
+    "translated_title": "$\\rho$-剧本和星形风险度量的$\\rho$-一致定价",
+    "translated_abstract": "本文重新审视了一个期限金融市场中的均值-风险组合选择问题，其中风险由星形风险度量$\\rho$量化。我们做出了三点贡献。首先，我们引入了弱大损失敏感性的新公理，并展示了它是确保最优组合存在的关键。其次，我们给出了（强）$\\rho$-剧本的原始和对偶特征。最后，我们利用不存在（强）$\\rho$-剧本的条件，明确推导了一个外部金融合同的（强）$\\rho$-一致价格区间。",
+    "tldr": "引入弱大损失敏感性公理确保最优投资组合的存在，给出了（强）$\\rho$-剧本的特征，利用条件推导了外部金融合同的（强）$\\rho$-一致价格区间。",
+    "en_tdlr": "Introducing the axiom of weak sensitivity to large losses ensures the existence of optimal portfolios, providing characterizations of (strong) $\\rho$-arbitrage, and deriving the (strong) $\\rho$-consistent price interval for an external financial contract using the conditions for absence of (strong) $\\rho$-arbitrage."
+}

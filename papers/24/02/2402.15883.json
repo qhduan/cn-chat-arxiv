@@ -1,0 +1,12 @@
+{
+    "title": "Fusion Encoder Networks",
+    "abstract": "arXiv:2402.15883v1 Announce Type: new  Abstract: In this paper we present fusion encoder networks (FENs): a class of algorithms for creating neural networks that map fixed-length sequences to outputs. The resulting neural network has only logarithmic depth (alleviating the degradation of data as it propagates through the network) and can process sequences in linear time (or in logarithmic time with a linear number of processors). The crucial property of FENs is that they learn by training a quasi-linear number of constant-depth neural networks in parallel. The fact that these networks are constant depth means that backpropagation works well. We note that currently the performance of FENs is only conjectured as we are yet to implement them.",
+    "link": "https://arxiv.org/abs/2402.15883",
+    "context": "Title: Fusion Encoder Networks\nAbstract: arXiv:2402.15883v1 Announce Type: new  Abstract: In this paper we present fusion encoder networks (FENs): a class of algorithms for creating neural networks that map fixed-length sequences to outputs. The resulting neural network has only logarithmic depth (alleviating the degradation of data as it propagates through the network) and can process sequences in linear time (or in logarithmic time with a linear number of processors). The crucial property of FENs is that they learn by training a quasi-linear number of constant-depth neural networks in parallel. The fact that these networks are constant depth means that backpropagation works well. We note that currently the performance of FENs is only conjectured as we are yet to implement them.",
+    "path": "papers/24/02/2402.15883.json",
+    "total_tokens": 711,
+    "translated_title": "融合编码器网络",
+    "translated_abstract": "在本文中，我们提出了一种名为融合编码器网络（FENs）的算法类：用于创建将固定长度序列映射到输出的神经网络。生成的神经网络仅具有对数深度（减轻数据在网络中传播时的退化），可以在线性时间内处理序列（或者在具有线性处理器数量的对数时间内）。FENs的关键属性是它们通过训练大致线性数量的常深度神经网络并行学习。这些网络具有常深度意味着反向传播效果良好。需要注意的是，目前FENs的性能仅仅是推测，因为我们尚未实现它们。",
+    "tldr": "FENs是一种神经网络算法，具有对数深度且可以在线性时间内处理序列，关键创新在于通过训练大致线性数量的常深度神经网络并行学习。",
+    "en_tdlr": "FENs is a neural network algorithm with logarithmic depth that can process sequences in linear time, and the key innovation lies in learning by training a quasi-linear number of constant-depth neural networks in parallel."
+}

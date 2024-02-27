@@ -1,0 +1,11 @@
+{
+    "title": "SemEval-2024 Task 8: Weighted Layer Averaging RoBERTa for Black-Box Machine-Generated Text Detection",
+    "abstract": "arXiv:2402.15873v1 Announce Type: new  Abstract: This document contains the details of the authors' submission to the proceedings of SemEval 2024's Task 8: Multigenerator, Multidomain, and Multilingual Black-Box Machine-Generated Text Detection Subtask A (monolingual) and B. Detection of machine-generated text is becoming an increasingly important task, with the advent of large language models (LLMs). In this document, we lay out the techniques utilized for performing the same, along with the results obtained.",
+    "link": "https://arxiv.org/abs/2402.15873",
+    "context": "Title: SemEval-2024 Task 8: Weighted Layer Averaging RoBERTa for Black-Box Machine-Generated Text Detection\nAbstract: arXiv:2402.15873v1 Announce Type: new  Abstract: This document contains the details of the authors' submission to the proceedings of SemEval 2024's Task 8: Multigenerator, Multidomain, and Multilingual Black-Box Machine-Generated Text Detection Subtask A (monolingual) and B. Detection of machine-generated text is becoming an increasingly important task, with the advent of large language models (LLMs). In this document, we lay out the techniques utilized for performing the same, along with the results obtained.",
+    "path": "papers/24/02/2402.15873.json",
+    "total_tokens": 622,
+    "translated_title": "SemEval-2024任务8：加权层平均RoBERTa用于黑匣子机器生成文本检测",
+    "translated_abstract": "这份文件包含了作者提交给SemEval 2024任务8会议论文的细节：多生成器、多领域和多语言黑匣子机器生成文本检测子任务A（单语）和B。随着大型语言模型（LLMs）的出现，机器生成文本的检测变得越来越重要。在这份文件中，我们阐述了用于执行相同任务的技术，以及所获得的结果。",
+    "tldr": "本文介绍了SemEval-2024任务8的黑匣子机器生成文本检测中采用的加权层平均RoBERTa技术及结果"
+}

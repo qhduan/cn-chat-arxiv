@@ -1,0 +1,11 @@
+{
+    "title": "Emotion Classification in Short English Texts using Deep Learning Techniques",
+    "abstract": "arXiv:2402.16034v1 Announce Type: cross  Abstract: Detecting emotions in limited text datasets from under-resourced languages presents a formidable obstacle, demanding specialized frameworks and computational strategies. This study conducts a thorough examination of deep learning techniques for discerning emotions in short English texts. Deep learning approaches employ transfer learning and word embedding, notably BERT, to attain superior accuracy. To evaluate these methods, we introduce the \"SmallEnglishEmotions\" dataset, comprising 6372 varied short Persian texts annotated with five primary emotion categories. Our experiments reveal that transfer learning and BERT-based text embedding outperform alternative methods in accurately categorizing the text in the dataset.",
+    "link": "https://arxiv.org/abs/2402.16034",
+    "context": "Title: Emotion Classification in Short English Texts using Deep Learning Techniques\nAbstract: arXiv:2402.16034v1 Announce Type: cross  Abstract: Detecting emotions in limited text datasets from under-resourced languages presents a formidable obstacle, demanding specialized frameworks and computational strategies. This study conducts a thorough examination of deep learning techniques for discerning emotions in short English texts. Deep learning approaches employ transfer learning and word embedding, notably BERT, to attain superior accuracy. To evaluate these methods, we introduce the \"SmallEnglishEmotions\" dataset, comprising 6372 varied short Persian texts annotated with five primary emotion categories. Our experiments reveal that transfer learning and BERT-based text embedding outperform alternative methods in accurately categorizing the text in the dataset.",
+    "path": "papers/24/02/2402.16034.json",
+    "total_tokens": 746,
+    "translated_title": "使用深度学习技术在短英文文本中进行情绪分类",
+    "translated_abstract": "从资源匮乏的语言中的有限文本数据集中检测情绪是一项严峻的挑战，需要专门的框架和计算策略。本研究对使用深度学习技术在短英文文本中识别情绪进行了彻底的研究。深度学习方法采用迁移学习和词嵌入，特别是BERT，以获得更高的准确性。为了评估这些方法，我们引入了“SmallEnglishEmotions”数据集，该数据集包含6372个带有五种主要情绪类别注释的不同短波斯文本。我们的实验表明，迁移学习和基于BERT的文本嵌入在准确分类数据集中的文本方面优于替代方法。",
+    "tldr": "该研究使用深度学习技术在短英文文本中识别情绪，发现基于迁移学习和BERT的文本嵌入方法在分类准确性上表现优异。"
+}

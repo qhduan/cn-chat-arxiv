@@ -1,0 +1,12 @@
+{
+    "title": "Nemotron-4 15B Technical Report",
+    "abstract": "arXiv:2402.16819v1 Announce Type: new  Abstract: We introduce Nemotron-4 15B, a 15-billion-parameter large multilingual language model trained on 8 trillion text tokens. Nemotron-4 15B demonstrates strong performance when assessed on English, multilingual, and coding tasks: it outperforms all existing similarly-sized open models on 4 out of 7 downstream evaluation areas and achieves competitive performance to the leading open models in the remaining ones. Specifically, Nemotron-4 15B exhibits the best multilingual capabilities of all similarly-sized models, even outperforming models over four times larger and those explicitly specialized for multilingual tasks.",
+    "link": "https://arxiv.org/abs/2402.16819",
+    "context": "Title: Nemotron-4 15B Technical Report\nAbstract: arXiv:2402.16819v1 Announce Type: new  Abstract: We introduce Nemotron-4 15B, a 15-billion-parameter large multilingual language model trained on 8 trillion text tokens. Nemotron-4 15B demonstrates strong performance when assessed on English, multilingual, and coding tasks: it outperforms all existing similarly-sized open models on 4 out of 7 downstream evaluation areas and achieves competitive performance to the leading open models in the remaining ones. Specifically, Nemotron-4 15B exhibits the best multilingual capabilities of all similarly-sized models, even outperforming models over four times larger and those explicitly specialized for multilingual tasks.",
+    "path": "papers/24/02/2402.16819.json",
+    "total_tokens": 686,
+    "translated_title": "Nemotron-4 15B技术报告",
+    "translated_abstract": "我们介绍了Nemotron-4 15B，这是一个拥有150亿参数的大型多语言模型，训练过程中使用了8000万亿个文本标记。Nemotron-4 15B在英语、多语言和编码任务上表现出色：在7个下游评估领域中，它在4个领域中表现出色，并在其余领域中取得了竞争性表现，超过了所有现有规模相似的开放模型。具体来说，Nemotron-4 15B展现出了所有规模相似模型中最强的多语言能力，甚至在多语言任务上优于四倍以上的大型模型，以及专门用于多语言任务的模型。",
+    "tldr": "Nemotron-4 15B是一个150亿参数的大型多语言模型，在多语言能力上表现优异，超过其他规模相似的模型。",
+    "en_tdlr": "Nemotron-4 15B is a large multilingual language model with 15 billion parameters, demonstrating exceptional multilingual capabilities surpassing other models of similar scale."
+}

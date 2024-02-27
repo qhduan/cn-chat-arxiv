@@ -1,0 +1,12 @@
+{
+    "title": "GigaPevt: Multimodal Medical Assistant",
+    "abstract": "arXiv:2402.16654v1 Announce Type: cross  Abstract: Building an intelligent and efficient medical assistant is still a challenging AI problem. The major limitation comes from the data modality scarceness, which reduces comprehensive patient perception. This demo paper presents the GigaPevt, the first multimodal medical assistant that combines the dialog capabilities of large language models with specialized medical models. Such an approach shows immediate advantages in dialog quality and metric performance, with a 1.18\\% accuracy improvement in the question-answering task.",
+    "link": "https://arxiv.org/abs/2402.16654",
+    "context": "Title: GigaPevt: Multimodal Medical Assistant\nAbstract: arXiv:2402.16654v1 Announce Type: cross  Abstract: Building an intelligent and efficient medical assistant is still a challenging AI problem. The major limitation comes from the data modality scarceness, which reduces comprehensive patient perception. This demo paper presents the GigaPevt, the first multimodal medical assistant that combines the dialog capabilities of large language models with specialized medical models. Such an approach shows immediate advantages in dialog quality and metric performance, with a 1.18\\% accuracy improvement in the question-answering task.",
+    "path": "papers/24/02/2402.16654.json",
+    "total_tokens": 673,
+    "translated_title": "GigaPevt：多模态医疗助手",
+    "translated_abstract": "建立一个智能高效的医疗助手仍然是一个具有挑战性的人工智能问题。主要限制来自数据模态的稀缺性，降低了全面的患者感知。本演示论文介绍了GigaPevt，这是第一个结合了大型语言模型的对话功能和专业医疗模型的多模态医疗助手。这种方法在对话质量和度量性能方面具有明显优势，使得在问答任务中准确率提高了1.18\\%。",
+    "tldr": "GigaPevt是第一个结合大型语言模型和专业医疗模型的多模态医疗助手，在对话质量和度量性能方面表现出明显优势，并在问答任务中提高了1.18\\%的准确率。",
+    "en_tdlr": "GigaPevt is the first multimodal medical assistant that combines large language models with specialized medical models, showing immediate advantages in dialog quality and metric performance, with a 1.18% accuracy improvement in the question-answering task."
+}

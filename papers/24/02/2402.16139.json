@@ -1,0 +1,12 @@
+{
+    "title": "What Generative Artificial Intelligence Means for Terminological Definitions",
+    "abstract": "arXiv:2402.16139v1 Announce Type: cross  Abstract: This paper examines the impact of Generative Artificial Intelligence (GenAI) on the creation and consumption of terminological definitions. GenAI tools like ChatGPT present a mix of benefits and drawbacks compared to traditional terminological resources. ChatGPT excels in providing context-specific meanings in an interactive and customized fashion but faces challenges with accuracy. Terminological definitions in recognized resources will likely survive because of their reliability. From the point of view of the terminologist, tools like ChatGPT enable AI-assisted terminography, including post-editing terminography, as an approach blending AI efficiency with human expertise for faster definition creation.",
+    "link": "https://arxiv.org/abs/2402.16139",
+    "context": "Title: What Generative Artificial Intelligence Means for Terminological Definitions\nAbstract: arXiv:2402.16139v1 Announce Type: cross  Abstract: This paper examines the impact of Generative Artificial Intelligence (GenAI) on the creation and consumption of terminological definitions. GenAI tools like ChatGPT present a mix of benefits and drawbacks compared to traditional terminological resources. ChatGPT excels in providing context-specific meanings in an interactive and customized fashion but faces challenges with accuracy. Terminological definitions in recognized resources will likely survive because of their reliability. From the point of view of the terminologist, tools like ChatGPT enable AI-assisted terminography, including post-editing terminography, as an approach blending AI efficiency with human expertise for faster definition creation.",
+    "path": "papers/24/02/2402.16139.json",
+    "total_tokens": 741,
+    "translated_title": "生成人工智能对术语定义的意义",
+    "translated_abstract": "本文探讨了生成人工智能（GenAI）对术语定义的创建和消费的影响。像ChatGPT这样的GenAI工具与传统术语资源相比，带来了一系列益处和挑战。ChatGPT在以交互式和定制化的方式提供特定语境含义方面表现出色，但在准确性方面面临挑战。识别资源中的术语定义可能会因其可靠性而继续存在。从术语学家的角度来看，诸如ChatGPT之类的工具使得AI辅助的术语编纂成为可能，包括后期编辑术语编纂，将AI效率与人类专业知识相结合，以实现更快速的定义创建。",
+    "tldr": "生成人工智能工具如ChatGPT在提供定制化的语境特定含义方面表现出色，但在准确性方面存在挑战，可以辅助术语学家进行术语编纂，实现AI效率与人类专业知识的结合。",
+    "en_tdlr": "GenAI tools like ChatGPT excel in providing customized context-specific meanings but face challenges in accuracy, enabling terminologists to blend AI efficiency with human expertise for terminology compilation."
+}

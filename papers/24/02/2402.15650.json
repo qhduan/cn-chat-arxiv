@@ -1,0 +1,12 @@
+{
+    "title": "Multi-Constraint Safe RL with Objective Suppression for Safety-Critical Applications",
+    "abstract": "arXiv:2402.15650v1 Announce Type: cross  Abstract: Safe reinforcement learning tasks with multiple constraints are a challenging domain despite being very common in the real world. To address this challenge, we propose Objective Suppression, a novel method that adaptively suppresses the task reward maximizing objectives according to a safety critic. We benchmark Objective Suppression in two multi-constraint safety domains, including an autonomous driving domain where any incorrect behavior can lead to disastrous consequences. Empirically, we demonstrate that our proposed method, when combined with existing safe RL algorithms, can match the task reward achieved by our baselines with significantly fewer constraint violations.",
+    "link": "https://arxiv.org/abs/2402.15650",
+    "context": "Title: Multi-Constraint Safe RL with Objective Suppression for Safety-Critical Applications\nAbstract: arXiv:2402.15650v1 Announce Type: cross  Abstract: Safe reinforcement learning tasks with multiple constraints are a challenging domain despite being very common in the real world. To address this challenge, we propose Objective Suppression, a novel method that adaptively suppresses the task reward maximizing objectives according to a safety critic. We benchmark Objective Suppression in two multi-constraint safety domains, including an autonomous driving domain where any incorrect behavior can lead to disastrous consequences. Empirically, we demonstrate that our proposed method, when combined with existing safe RL algorithms, can match the task reward achieved by our baselines with significantly fewer constraint violations.",
+    "path": "papers/24/02/2402.15650.json",
+    "total_tokens": 784,
+    "translated_title": "具有目标抑制的多约束安全强化学习用于安全关键应用",
+    "translated_abstract": "尽管在现实世界中非常常见，但具有多个约束条件的安全强化学习任务仍然是一个具有挑战性的领域。为了解决这一挑战，我们提出了一种新方法，即目标抑制，根据安全评判器自适应地抑制任务奖励最大化目标。我们在两个多约束安全领域中对目标抑制进行了基准测试，包括一个自动驾驶领域，在这个领域中任何错误的行为都可能导致灾难性后果。实证结果表明，我们提出的方法与现有的安全强化学习算法相结合，可以在显著减少约束违规的情况下匹配我们的基准线所达到的任务奖励。",
+    "tldr": "提出了一种目标抑制的新方法，可以在多约束安全领域中改进安全强化学习任务表现，实验证明此方法结合现有算法能够在减少约束违规的情况下实现与基准线相当的任务奖励水平。",
+    "en_tdlr": "A novel method of Objective Suppression is proposed to improve the performance of safe reinforcement learning tasks in multi-constraint safety domains, empirically demonstrating that this method combined with existing algorithms can achieve task rewards comparable to baselines with reduced constraint violations."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Re-Envisioning Numerical Information Field Theory (NIFTy.re): A Library for Gaussian Processes and Variational Inference",
+    "abstract": "arXiv:2402.16683v1 Announce Type: cross  Abstract: Imaging is the process of transforming noisy, incomplete data into a space that humans can interpret. NIFTy is a Bayesian framework for imaging and has already successfully been applied to many fields in astrophysics. Previous design decisions held the performance and the development of methods in NIFTy back. We present a rewrite of NIFTy, coined NIFTy.re, which reworks the modeling principle, extends the inference strategies, and outsources much of the heavy lifting to JAX. The rewrite dramatically accelerates models written in NIFTy, lays the foundation for new types of inference machineries, improves maintainability, and enables interoperability between NIFTy and the JAX machine learning ecosystem.",
+    "link": "https://arxiv.org/abs/2402.16683",
+    "context": "Title: Re-Envisioning Numerical Information Field Theory (NIFTy.re): A Library for Gaussian Processes and Variational Inference\nAbstract: arXiv:2402.16683v1 Announce Type: cross  Abstract: Imaging is the process of transforming noisy, incomplete data into a space that humans can interpret. NIFTy is a Bayesian framework for imaging and has already successfully been applied to many fields in astrophysics. Previous design decisions held the performance and the development of methods in NIFTy back. We present a rewrite of NIFTy, coined NIFTy.re, which reworks the modeling principle, extends the inference strategies, and outsources much of the heavy lifting to JAX. The rewrite dramatically accelerates models written in NIFTy, lays the foundation for new types of inference machineries, improves maintainability, and enables interoperability between NIFTy and the JAX machine learning ecosystem.",
+    "path": "papers/24/02/2402.16683.json",
+    "total_tokens": 668,
+    "translated_title": "重新构想数值信息场理论（NIFTy.re）：高斯过程和变分推断库",
+    "translated_abstract": "重构建模原则、扩展推断策略，以及将大部分繁重工作外包给JAX，重新加速编写在NIFTy中的模型，奠定了新类型推理机制的基础，提高了可维护性，并实现了NIFTy与JAX机器学习生态系统之间的互操作性。",
+    "tldr": "NIFTy.re重新构建了NIFTy的建模原则和推断策略，通过外包繁重工作给JAX，加速了模型的速度，提升了可维护性，并实现了与JAX机器学习生态系统的互操作性。",
+    "en_tdlr": "NIFTy.re reconstructed the modeling principles and inference strategies of NIFTy, accelerated model speed by outsourcing heavy work to JAX, improved maintainability, and achieved interoperability with the JAX machine learning ecosystem."
+}

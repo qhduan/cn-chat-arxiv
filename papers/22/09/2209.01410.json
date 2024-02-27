@@ -1,0 +1,12 @@
+{
+    "title": "Closed-Loop View of the Regulation of AI: Equal Impact across Repeated Interactions",
+    "abstract": "arXiv:2209.01410v2 Announce Type: replace  Abstract: There has been much recent interest in the regulation of AI. We argue for a view based on civil-rights legislation, built on the notions of equal treatment and equal impact. In a closed-loop view of the AI system and its users, the equal treatment concerns one pass through the loop. Equal impact, in our view, concerns the long-run average behaviour across repeated interactions. In order to establish the existence of the average and its properties, one needs to study the ergodic properties of the closed-loop and its unique stationary measure.",
+    "link": "https://arxiv.org/abs/2209.01410",
+    "context": "Title: Closed-Loop View of the Regulation of AI: Equal Impact across Repeated Interactions\nAbstract: arXiv:2209.01410v2 Announce Type: replace  Abstract: There has been much recent interest in the regulation of AI. We argue for a view based on civil-rights legislation, built on the notions of equal treatment and equal impact. In a closed-loop view of the AI system and its users, the equal treatment concerns one pass through the loop. Equal impact, in our view, concerns the long-run average behaviour across repeated interactions. In order to establish the existence of the average and its properties, one needs to study the ergodic properties of the closed-loop and its unique stationary measure.",
+    "path": "papers/22/09/2209.01410.json",
+    "total_tokens": 607,
+    "translated_title": "AI监管的闭环视角：在重复互动中产生均等影响",
+    "translated_abstract": "近来对AI监管引起了广泛关注。我们主张基于民权立法的视角，建立在平等对待和平等影响的概念之上。在AI系统及其用户的闭环视角中，平等对待关注一次循环。在我们看来，平等影响关注在重复互动中的长期平均行为。为了确定平均值的存在及其属性，需要研究闭环的遍历性质及其独特的静止测度。",
+    "tldr": "论文提出了基于民权立法的AI监管闭环视角，强调在重复互动中产生的均等影响。",
+    "en_tdlr": "The paper proposes a closed-loop view of AI regulation based on civil-rights legislation, emphasizing equal impact across repeated interactions."
+}

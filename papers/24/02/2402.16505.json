@@ -1,0 +1,12 @@
+{
+    "title": "Memory GAPS: Would LLM pass the Tulving Test?",
+    "abstract": "arXiv:2402.16505v1 Announce Type: new  Abstract: The Tulving Test was designed to investigate memory performance in recognition and recall tasks. Its results help assess the relevance of the \"Synergistic Ecphory Model\" of memory and similar RK paradigms in human performance. This paper starts investigating whether the more than forty-year-old framework sheds some light on LLMs' acts of remembering.",
+    "link": "https://arxiv.org/abs/2402.16505",
+    "context": "Title: Memory GAPS: Would LLM pass the Tulving Test?\nAbstract: arXiv:2402.16505v1 Announce Type: new  Abstract: The Tulving Test was designed to investigate memory performance in recognition and recall tasks. Its results help assess the relevance of the \"Synergistic Ecphory Model\" of memory and similar RK paradigms in human performance. This paper starts investigating whether the more than forty-year-old framework sheds some light on LLMs' acts of remembering.",
+    "path": "papers/24/02/2402.16505.json",
+    "total_tokens": 550,
+    "translated_title": "记忆差距：LLM 是否能通过图尔文测试？",
+    "translated_abstract": "arXiv:2402.16505v1 公告类型：新摘要：图尔文测试旨在研究认知和回忆任务中的记忆表现。其结果有助于评估记忆的“协同引导模型”及类似RK范例在人类表现中的相关性。本文着手研究这个已有四十多年历史的框架是否能为LLM的记忆行为带来一些启示。",
+    "tldr": "本文旨在探讨四十多年前的图尔文测试框架是否对LLM的记忆行为有所帮助。",
+    "en_tdlr": "This paper investigates whether the over forty-year-old Tulving Test framework sheds some light on LLMs' acts of remembering."
+}

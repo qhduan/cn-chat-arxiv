@@ -1,0 +1,12 @@
+{
+    "title": "On convergence of forecasts in prediction markets",
+    "abstract": "arXiv:2402.16345v1 Announce Type: cross  Abstract: We propose a dynamic model of a prediction market in which agents predict the values of a sequence of random vectors. The main result shows that if there are agents who make correct (or asymptotically correct) next-period forecasts, then the aggregated market forecasts converge to the next-period conditional expectations of the random vectors.",
+    "link": "https://arxiv.org/abs/2402.16345",
+    "context": "Title: On convergence of forecasts in prediction markets\nAbstract: arXiv:2402.16345v1 Announce Type: cross  Abstract: We propose a dynamic model of a prediction market in which agents predict the values of a sequence of random vectors. The main result shows that if there are agents who make correct (or asymptotically correct) next-period forecasts, then the aggregated market forecasts converge to the next-period conditional expectations of the random vectors.",
+    "path": "papers/24/02/2402.16345.json",
+    "total_tokens": 539,
+    "translated_title": "预测市场中预测收敛问题研究",
+    "translated_abstract": "我们提出了一个预测市场的动态模型，其中代理预测一系列随机向量的值。主要结果表明，如果有代理能做出正确（或渐近正确）的下一期预测，那么聚合的市场预测将收敛于随机向量的下一期条件期望。",
+    "tldr": "预测市场中提出了一个动态模型，证明了如果有代理能做出正确的下一期预测，那么聚合市场预测将收敛于随机向量的条件期望。",
+    "en_tdlr": "Proposed a dynamic model in prediction markets and showed that if there are agents who make correct next-period forecasts, then the aggregated market forecasts converge to the next-period conditional expectations of the random vectors."
+}

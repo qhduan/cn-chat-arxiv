@@ -1,0 +1,11 @@
+{
+    "title": "Freely Long-Thinking Transformer (FraiLT)",
+    "abstract": "arXiv:2401.11626v2 Announce Type: replace-cross  Abstract: Freely Long-Thinking Transformer (FraiLT) is an improved transformer model designed to enhance processing capabilities without scaling up size. It utilizes a recursive approach, iterating over a subset of layers multiple times, and introduces iteration encodings to maintain awareness across these cycles. Iteration encoding allows FraiLT to achieve the interpretive depth of larger models in a compact form. When evaluated on a synthetic story dataset, FraiLT outperformed larger models, showcasing its ability to deliver high-quality performance while reducing memory demands. This model represents a step forward towards more efficient and accessible language models.",
+    "link": "https://arxiv.org/abs/2401.11626",
+    "context": "Title: Freely Long-Thinking Transformer (FraiLT)\nAbstract: arXiv:2401.11626v2 Announce Type: replace-cross  Abstract: Freely Long-Thinking Transformer (FraiLT) is an improved transformer model designed to enhance processing capabilities without scaling up size. It utilizes a recursive approach, iterating over a subset of layers multiple times, and introduces iteration encodings to maintain awareness across these cycles. Iteration encoding allows FraiLT to achieve the interpretive depth of larger models in a compact form. When evaluated on a synthetic story dataset, FraiLT outperformed larger models, showcasing its ability to deliver high-quality performance while reducing memory demands. This model represents a step forward towards more efficient and accessible language models.",
+    "path": "papers/24/01/2401.11626.json",
+    "total_tokens": 713,
+    "translated_title": "自由长思变压器（FraiLT）",
+    "translated_abstract": "自由长思变压器（FraiLT）是一个改进的变压器模型，旨在增强处理能力而不增加规模。它采用递归方法，多次迭代子层，并引入迭代编码以在这些周期中保持意识。迭代编码使FraiLT能够以紧凑的形式实现较大模型的解释深度。在合成故事数据集上进行评估时，FraiLT优于较大的模型，展示了其在减少内存需求的同时提供高质量性能的能力。该模型代表了更高效和可访问的语言模型的一步。",
+    "tldr": "FraiLT是一个改进的变压器模型，通过递归方法和迭代编码，实现了在紧凑形式下达到较大模型的解释深度，在性能表现上优于较大模型，旨在实现更高效和可访问的语言模型。"
+}

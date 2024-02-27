@@ -1,0 +1,12 @@
+{
+    "title": "On the generalization of Tanimoto-type kernels to real valued functions",
+    "abstract": "arXiv:2007.05943v2 Announce Type: replace  Abstract: The Tanimoto kernel (Jaccard index) is a well known tool to describe the similarity between sets of binary attributes. It has been extended to the case when the attributes are nonnegative real values. This paper introduces a more general Tanimoto kernel formulation which allows to measure the similarity of arbitrary real-valued functions. This extension is constructed by unifying the representation of the attributes via properly chosen sets. After deriving the general form of the kernel, explicit feature representation is extracted from the kernel function, and a simply way of including general kernels into the Tanimoto kernel is shown. Finally, the kernel is also expressed as a quotient of piecewise linear functions, and a smooth approximation is provided.",
+    "link": "https://arxiv.org/abs/2007.05943",
+    "context": "Title: On the generalization of Tanimoto-type kernels to real valued functions\nAbstract: arXiv:2007.05943v2 Announce Type: replace  Abstract: The Tanimoto kernel (Jaccard index) is a well known tool to describe the similarity between sets of binary attributes. It has been extended to the case when the attributes are nonnegative real values. This paper introduces a more general Tanimoto kernel formulation which allows to measure the similarity of arbitrary real-valued functions. This extension is constructed by unifying the representation of the attributes via properly chosen sets. After deriving the general form of the kernel, explicit feature representation is extracted from the kernel function, and a simply way of including general kernels into the Tanimoto kernel is shown. Finally, the kernel is also expressed as a quotient of piecewise linear functions, and a smooth approximation is provided.",
+    "path": "papers/20/07/2007.05943.json",
+    "total_tokens": 689,
+    "translated_title": "将Tanimoto类型核泛化到实值函数",
+    "translated_abstract": "Tanimoto核（Jaccard指数）是描述二值属性集相似性的知名工具。已将其扩展到属性为非负实数值的情况。本文介绍了一种更一般的Tanimoto核公式，允许衡量任意实值函数的相似性。通过通过适当选择的集合统一属性表示来构建此扩展。在推导核的一般形式后，从核函数中提取了显式特征表示，并展示了将一般核包含到Tanimoto核中的简单方法。最后，核也表示为分段线性函数的商，并提供了光滑逼近。",
+    "tldr": "本论文介绍了一种更一般的Tanimoto核公式，允许衡量任意实值函数的相似性，并提供了一种光滑逼近的方法。",
+    "en_tdlr": "This paper introduces a more general formulation of Tanimoto kernel which allows us to measure the similarity of arbitrary real-valued functions and provides a smooth approximation method."
+}

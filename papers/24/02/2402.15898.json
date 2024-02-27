@@ -1,0 +1,12 @@
+{
+    "title": "Information-based Transductive Active Learning",
+    "abstract": "arXiv:2402.15898v1 Announce Type: cross  Abstract: We generalize active learning to address real-world settings where sampling is restricted to an accessible region of the domain, while prediction targets may lie outside this region. To this end, we propose ITL, short for information-based transductive learning, an approach which samples adaptively to maximize the information gained about specified prediction targets. We show, under general regularity assumptions, that ITL converges uniformly to the smallest possible uncertainty obtainable from the accessible data. We demonstrate ITL in two key applications: Few-shot fine-tuning of large neural networks and safe Bayesian optimization, and in both cases, ITL significantly outperforms the state-of-the-art.",
+    "link": "https://arxiv.org/abs/2402.15898",
+    "context": "Title: Information-based Transductive Active Learning\nAbstract: arXiv:2402.15898v1 Announce Type: cross  Abstract: We generalize active learning to address real-world settings where sampling is restricted to an accessible region of the domain, while prediction targets may lie outside this region. To this end, we propose ITL, short for information-based transductive learning, an approach which samples adaptively to maximize the information gained about specified prediction targets. We show, under general regularity assumptions, that ITL converges uniformly to the smallest possible uncertainty obtainable from the accessible data. We demonstrate ITL in two key applications: Few-shot fine-tuning of large neural networks and safe Bayesian optimization, and in both cases, ITL significantly outperforms the state-of-the-art.",
+    "path": "papers/24/02/2402.15898.json",
+    "total_tokens": 746,
+    "translated_title": "基于信息的转导式主动学习",
+    "translated_abstract": "我们将主动学习推广到解决现实世界中采样受限于可访问域的情况，而预测目标可能位于这个域之外。为此，我们提出了ITL，即基于信息的转导式学习，一种自适应采样的方法，旨在最大化关于指定预测目标的信息获取。在一般正则性假设下，我们展示了ITL收敛到可从可访问数据中获得的最小可能不确定性。我们在两个关键应用中展示了ITL：大型神经网络的少样本微调和安全贝叶斯优化，在两种情况下，ITL明显优于最先进技术。",
+    "tldr": "ITL是一种基于信息的转导式学习方法，可以在现实世界设置中自适应采样，以最大化关于指定预测目标的信息获取，并在少样本微调和安全贝叶斯优化应用中显著优于最先进技术。",
+    "en_tdlr": "ITL is an information-based transductive learning approach that adaptively samples to maximize information about specified prediction targets in real-world settings, significantly outperforming state-of-the-art in few-shot fine-tuning of large neural networks and safe Bayesian optimization."
+}

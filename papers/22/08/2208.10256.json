@@ -1,0 +1,12 @@
+{
+    "title": "Information-Theoretic Equivalence of Entropic Multi-Marginal Optimal Transport: A Theory for Multi-Agent Communication",
+    "abstract": "arXiv:2208.10256v3 Announce Type: replace-cross  Abstract: In this paper, we propose our information-theoretic equivalence of entropic multi-marginal optimal transport (MOT). This equivalence can be easily reduced to the case of entropic optimal transport (OT). Because OT is widely used to compare differences between knowledge or beliefs, we apply this result to the communication between agents with different beliefs. Our results formally prove the statement that entropic OT is information-theoretically optimal given by Wang et al. [2020] and generalize it to the multi-agent case. We believe that our work can shed light on OT theory in future multi-agent teaming systems.",
+    "link": "https://arxiv.org/abs/2208.10256",
+    "context": "Title: Information-Theoretic Equivalence of Entropic Multi-Marginal Optimal Transport: A Theory for Multi-Agent Communication\nAbstract: arXiv:2208.10256v3 Announce Type: replace-cross  Abstract: In this paper, we propose our information-theoretic equivalence of entropic multi-marginal optimal transport (MOT). This equivalence can be easily reduced to the case of entropic optimal transport (OT). Because OT is widely used to compare differences between knowledge or beliefs, we apply this result to the communication between agents with different beliefs. Our results formally prove the statement that entropic OT is information-theoretically optimal given by Wang et al. [2020] and generalize it to the multi-agent case. We believe that our work can shed light on OT theory in future multi-agent teaming systems.",
+    "path": "papers/22/08/2208.10256.json",
+    "total_tokens": 756,
+    "translated_title": "信息论上的熵多边际最优输运等价性：多智能体通信理论",
+    "translated_abstract": "本文提出了我们关于熵多边际最优输运（MOT）的信息论等效性。该等效性可以轻松归约到熵最优输运（OT）的情况。由于OT被广泛用于比较知识或信念之间的差异，我们将这一结果应用于具有不同信念的智能体之间的通信。我们的结果正式证明了王等人在[2020]中提出的关于熵OT在信息论上的最优性，并将其推广到多智能体情况。我们相信我们的工作可以为未来的多智能体团队系统中的OT理论提供启示。",
+    "tldr": "本文提出了关于熵多边际最优输运的信息论等效性，将其推广到多智能体通信领域，证明了熵最优输运在信息论上的最优性，并为未来多智能体团队系统中的OT理论提供了启示。",
+    "en_tdlr": "This paper proposes the information-theoretic equivalence of entropic multi-marginal optimal transport, extends it to multi-agent communication, proves the information-theoretic optimality of entropic optimal transport, and sheds light on OT theory in future multi-agent teaming systems."
+}

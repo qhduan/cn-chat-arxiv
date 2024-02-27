@@ -1,0 +1,11 @@
+{
+    "title": "Fourier series weight in quantum machine learning",
+    "abstract": "arXiv:2302.00105v2 Announce Type: replace-cross  Abstract: In this work, we aim to confirm the impact of the Fourier series on the quantum machine learning model. We will propose models, tests, and demonstrations to achieve this objective. We designed a quantum machine learning leveraged on the Hamiltonian encoding. With a subtle change, we performed the trigonometric interpolation, binary and multiclass classifier, and a quantum signal processing application. We also proposed a block diagram of determining approximately the Fourier coefficient based on quantum machine learning. We performed and tested all the proposed models using the Pennylane framework.",
+    "link": "https://arxiv.org/abs/2302.00105",
+    "context": "Title: Fourier series weight in quantum machine learning\nAbstract: arXiv:2302.00105v2 Announce Type: replace-cross  Abstract: In this work, we aim to confirm the impact of the Fourier series on the quantum machine learning model. We will propose models, tests, and demonstrations to achieve this objective. We designed a quantum machine learning leveraged on the Hamiltonian encoding. With a subtle change, we performed the trigonometric interpolation, binary and multiclass classifier, and a quantum signal processing application. We also proposed a block diagram of determining approximately the Fourier coefficient based on quantum machine learning. We performed and tested all the proposed models using the Pennylane framework.",
+    "path": "papers/23/02/2302.00105.json",
+    "total_tokens": 653,
+    "translated_title": "量子机器学习中的傅里叶级数权重",
+    "translated_abstract": "在这项工作中，我们旨在确认傅里叶级数对量子机器学习模型的影响。我们将提出模型、测试和演示来实现这一目标。我们设计了一个基于哈密顿编码的量子机器学习模型。通过微妙的变化，我们进行了三角插值、二进制和多类分类器以及量子信号处理应用。我们还提出了一个基于量子机器学习确定傅里叶系数的方块图。我们使用Pennylane框架执行和测试了所有提出的模型。",
+    "tldr": "本研究确认了傅里叶级数对量子机器学习模型的影响，并提出了基于哈密顿编码的量子机器学习模型以及傅里叶系数的确定方法。"
+}

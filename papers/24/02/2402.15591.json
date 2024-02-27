@@ -1,0 +1,12 @@
+{
+    "title": "RecWizard: A Toolkit for Conversational Recommendation with Modular, Portable Models and Interactive User Interface",
+    "abstract": "arXiv:2402.15591v1 Announce Type: cross  Abstract: We present a new Python toolkit called RecWizard for Conversational Recommender Systems (CRS). RecWizard offers support for development of models and interactive user interface, drawing from the best practices of the Huggingface ecosystems. CRS with RecWizard are modular, portable, interactive and Large Language Models (LLMs)-friendly, to streamline the learning process and reduce the additional effort for CRS research. For more comprehensive information about RecWizard, please check our GitHub https://github.com/McAuley-Lab/RecWizard.",
+    "link": "https://arxiv.org/abs/2402.15591",
+    "context": "Title: RecWizard: A Toolkit for Conversational Recommendation with Modular, Portable Models and Interactive User Interface\nAbstract: arXiv:2402.15591v1 Announce Type: cross  Abstract: We present a new Python toolkit called RecWizard for Conversational Recommender Systems (CRS). RecWizard offers support for development of models and interactive user interface, drawing from the best practices of the Huggingface ecosystems. CRS with RecWizard are modular, portable, interactive and Large Language Models (LLMs)-friendly, to streamline the learning process and reduce the additional effort for CRS research. For more comprehensive information about RecWizard, please check our GitHub https://github.com/McAuley-Lab/RecWizard.",
+    "path": "papers/24/02/2402.15591.json",
+    "total_tokens": 663,
+    "translated_title": "RecWizard：一种具有模块化、便携模型和交互用户界面的对话式推荐工具包",
+    "translated_abstract": "我们介绍了一种名为RecWizard的新Python工具包，用于对话式推荐系统（CRS）。RecWizard支持模型开发和交互用户界面，借鉴了Huggingface生态系统的最佳实践。CRS与RecWizard具有模块化、便携、交互和大型语言模型（LLMs）友好性，以简化学习过程并减少CRS研究的额外工作量。有关RecWizard更全面的信息，请查看我们的GitHub https://github.com/McAuley-Lab/RecWizard。",
+    "tldr": "RecWizard是一种对话式推荐工具包，具有模块化、便携模型和交互用户界面，可提高CRS研究效率并减少额外工作量",
+    "en_tdlr": "RecWizard is a conversational recommendation toolkit with modular, portable models and interactive user interface, aiming to streamline the learning process and reduce additional effort for CRS research."
+}

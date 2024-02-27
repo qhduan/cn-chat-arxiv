@@ -1,0 +1,11 @@
+{
+    "title": "ArEEG_Chars: Dataset for Envisioned Speech Recognition using EEG for Arabic Characters",
+    "abstract": "arXiv:2402.15733v1 Announce Type: cross  Abstract: Brain-Computer-Interface (BCI) has been a hot research topic in the last few years that could help paralyzed people in their lives. Several researches were done to classify electroencephalography (EEG) signals automatically into English characters and words. Arabic language is one of the most used languages around the world. However, to the best of our knowledge, there is no dataset for Arabic characters EEG signals. In this paper, we have created an EEG dataset for Arabic characters and named it ArEEG_Chars. Moreover, several experiments were done on ArEEG_Chars using deep learning. Best results were achieved using LSTM and reached an accuracy of 97%. ArEEG_Chars dataset will be public for researchers.",
+    "link": "https://arxiv.org/abs/2402.15733",
+    "context": "Title: ArEEG_Chars: Dataset for Envisioned Speech Recognition using EEG for Arabic Characters\nAbstract: arXiv:2402.15733v1 Announce Type: cross  Abstract: Brain-Computer-Interface (BCI) has been a hot research topic in the last few years that could help paralyzed people in their lives. Several researches were done to classify electroencephalography (EEG) signals automatically into English characters and words. Arabic language is one of the most used languages around the world. However, to the best of our knowledge, there is no dataset for Arabic characters EEG signals. In this paper, we have created an EEG dataset for Arabic characters and named it ArEEG_Chars. Moreover, several experiments were done on ArEEG_Chars using deep learning. Best results were achieved using LSTM and reached an accuracy of 97%. ArEEG_Chars dataset will be public for researchers.",
+    "path": "papers/24/02/2402.15733.json",
+    "total_tokens": 774,
+    "translated_title": "ArEEG_Chars: 用于基于脑电图的设想语音识别的阿拉伯字符数据集",
+    "translated_abstract": "脑机接口（BCI）是近年来热门的研究课题，可以帮助瘫痪患者改善生活。有几项研究自动将脑电图（EEG）信号分类为英文字符和单词。阿拉伯语是世界上使用最广泛的语言之一。然而据我们所知，目前没有针对阿拉伯字符的脑电图信号数据集。在本文中，我们创建了一个用于阿拉伯字符的EEG数据集，并命名为ArEEG_Chars。此外，我们使用深度学习对ArEEG_Chars进行了多项实验。在使用LSTM时获得了最佳结果，准确率达到97%。ArEEG_Chars数据集将对研究人员公开。",
+    "tldr": "该论文介绍了一种用于阿拉伯字符的EEG数据集ArEEG_Chars，通过深度学习实现97%的准确率，在脑机接口中具有重要意义。"
+}
