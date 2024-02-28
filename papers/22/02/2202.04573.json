@@ -1,0 +1,12 @@
+{
+    "title": "On the Uniqueness and Stability of the Equilibrium Price in Quasi-Linear Economies",
+    "abstract": "arXiv:2202.04573v4 Announce Type: replace  Abstract: In this paper, we show that if every consumer in an economy has a quasi-linear utility function, then the normalized equilibrium price is unique, and it is locally stable with respect to the t\\^atonnement process. If the dimension of the consumption space is two, then this result can be expressed by the corresponding partial equilibrium model. Our study can be seen as that extends the results in partial equilibrium theory to economies with more than two dimensional consumption space.",
+    "link": "https://arxiv.org/abs/2202.04573",
+    "context": "Title: On the Uniqueness and Stability of the Equilibrium Price in Quasi-Linear Economies\nAbstract: arXiv:2202.04573v4 Announce Type: replace  Abstract: In this paper, we show that if every consumer in an economy has a quasi-linear utility function, then the normalized equilibrium price is unique, and it is locally stable with respect to the t\\^atonnement process. If the dimension of the consumption space is two, then this result can be expressed by the corresponding partial equilibrium model. Our study can be seen as that extends the results in partial equilibrium theory to economies with more than two dimensional consumption space.",
+    "path": "papers/22/02/2202.04573.json",
+    "total_tokens": 663,
+    "translated_title": "在准线性经济中均衡价格的唯一性和稳定性",
+    "translated_abstract": "在本文中，我们展示了如果一个经济中的每个消费者都具有准线性效用函数，那么归一化后的均衡价格是唯一的，并且在对调过程中相对于局部稳定。如果消费空间的维数为二，则该结果可以用对应的局部均衡模型来表达。我们的研究可以被看作是将局部均衡理论中的结果延伸到具有超过两个维度消费空间的经济中。",
+    "tldr": "每个消费者都具有准线性效用函数，则经济中的归一化均衡价格是唯一且相对于调整过程局部稳定，并扩展了部分均衡理论结果到超过两个维度消费空间的经济中。",
+    "en_tdlr": "The equilibrium price in an economy with quasi-linear utility functions is unique and locally stable with respect to the adjustment process when each consumer has such utility functions, extending results of partial equilibrium theory to economies with more than two dimensional consumption space."
+}

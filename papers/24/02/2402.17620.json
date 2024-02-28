@@ -1,0 +1,12 @@
+{
+    "title": "Fuzzy Classification Aggregation",
+    "abstract": "arXiv:2402.17620v1 Announce Type: new  Abstract: We consider the problem where a set of individuals has to classify $m$ objects into $p$ categories and does so by aggregating the individual classifications. We show that if $m\\geq 3$, $m\\geq p\\geq 2$, and classifications are fuzzy, that is, objects belong to a category to a certain degree, then an independent aggregator rule that satisfies a weak unanimity condition belongs to the family of Weighted Arithmetic Means. We also obtain characterization results for $m= p= 2$.",
+    "link": "https://arxiv.org/abs/2402.17620",
+    "context": "Title: Fuzzy Classification Aggregation\nAbstract: arXiv:2402.17620v1 Announce Type: new  Abstract: We consider the problem where a set of individuals has to classify $m$ objects into $p$ categories and does so by aggregating the individual classifications. We show that if $m\\geq 3$, $m\\geq p\\geq 2$, and classifications are fuzzy, that is, objects belong to a category to a certain degree, then an independent aggregator rule that satisfies a weak unanimity condition belongs to the family of Weighted Arithmetic Means. We also obtain characterization results for $m= p= 2$.",
+    "path": "papers/24/02/2402.17620.json",
+    "total_tokens": 640,
+    "translated_title": "模糊分类聚合",
+    "translated_abstract": "我们考虑一个问题，即一组个体必须将$m$个对象分类到$p$个类别中，并通过聚合个体分类来实现。我们证明，如果$m\\geq 3$，$m\\geq p\\geq 2$，并且分类是模糊的，也就是说，对象属于某一类别的程度不同，则满足弱一致性条件的独立聚合规则属于加权算术平均数的家族。我们还获得了$m= p= 2$的特征化结果。",
+    "tldr": "对于模糊分类问题，我们证明了满足弱一致性条件的独立聚合规则属于加权算术平均数的家族，并给出了$m= p= 2$的特征化结果。",
+    "en_tdlr": "For the fuzzy classification problem, we prove that independent aggregator rules satisfying a weak unanimity condition belong to the family of Weighted Arithmetic Means, and we provide characterization results for $m= p= 2$."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "NeSy is alive and well: A LLM-driven symbolic approach for better code comment data generation and classification",
+    "abstract": "arXiv:2402.16910v1 Announce Type: cross  Abstract: We present a neuro-symbolic (NeSy) workflow combining a symbolic-based learning technique with a large language model (LLM) agent to generate synthetic data for code comment classification in the C programming language. We also show how generating controlled synthetic data using this workflow fixes some of the notable weaknesses of LLM-based generation and increases the performance of classical machine learning models on the code comment classification task. Our best model, a Neural Network, achieves a Macro-F1 score of 91.412% with an increase of 1.033% after data augmentation.",
+    "link": "https://arxiv.org/abs/2402.16910",
+    "context": "Title: NeSy is alive and well: A LLM-driven symbolic approach for better code comment data generation and classification\nAbstract: arXiv:2402.16910v1 Announce Type: cross  Abstract: We present a neuro-symbolic (NeSy) workflow combining a symbolic-based learning technique with a large language model (LLM) agent to generate synthetic data for code comment classification in the C programming language. We also show how generating controlled synthetic data using this workflow fixes some of the notable weaknesses of LLM-based generation and increases the performance of classical machine learning models on the code comment classification task. Our best model, a Neural Network, achieves a Macro-F1 score of 91.412% with an increase of 1.033% after data augmentation.",
+    "path": "papers/24/02/2402.16910.json",
+    "total_tokens": 720,
+    "translated_title": "NeSy犹在：一种基于LLM的符号化方法用于改进代码注释数据生成和分类",
+    "translated_abstract": "我们提出了一种神经符号化（NeSy）工作流，将基于符号的学习技术与大型语言模型（LLM）代理相结合，以生成C编程语言中代码注释分类的合成数据。我们还展示了如何使用这种工作流生成受控合成数据来修复LLM基于生成的一些明显弱点，并提高经典机器学习模型在代码注释分类任务上的性能。我们的最佳模型，一个神经网络，在数据增强后实现了91.412％的Macro-F1分数，增加了1.033％。",
+    "tldr": "结合符号化学习技术和大型语言模型，提出了一种神经符号化工作流用于改进代码注释数据生成和分类，并通过生成受控合成数据修复LLM生成中的弱点，提高了经典机器学习模型在代码注释分类任务上的性能。"
+}

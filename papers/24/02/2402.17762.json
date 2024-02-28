@@ -1,0 +1,12 @@
+{
+    "title": "Massive Activations in Large Language Models",
+    "abstract": "arXiv:2402.17762v1 Announce Type: new  Abstract: We observe an empirical phenomenon in Large Language Models (LLMs) -- very few activations exhibit significantly larger values than others (e.g., 100,000 times larger). We call them massive activations. First, we demonstrate the widespread existence of massive activations across various LLMs and characterize their locations. Second, we find their values largely stay constant regardless of the input, and they function as indispensable bias terms in LLMs. Third, these massive activations lead to the concentration of attention probabilities to their corresponding tokens, and further, implicit bias terms in the self-attention output. Last, we also study massive activations in Vision Transformers.",
+    "link": "https://arxiv.org/abs/2402.17762",
+    "context": "Title: Massive Activations in Large Language Models\nAbstract: arXiv:2402.17762v1 Announce Type: new  Abstract: We observe an empirical phenomenon in Large Language Models (LLMs) -- very few activations exhibit significantly larger values than others (e.g., 100,000 times larger). We call them massive activations. First, we demonstrate the widespread existence of massive activations across various LLMs and characterize their locations. Second, we find their values largely stay constant regardless of the input, and they function as indispensable bias terms in LLMs. Third, these massive activations lead to the concentration of attention probabilities to their corresponding tokens, and further, implicit bias terms in the self-attention output. Last, we also study massive activations in Vision Transformers.",
+    "path": "papers/24/02/2402.17762.json",
+    "total_tokens": 689,
+    "translated_title": "大型语言模型中的大量激活",
+    "translated_abstract": "我们观察到大型语言模型（LLMs）中的一个经验现象——很少的激活展现出比其他激活明显更大的值（例如，大出 100,000 倍）。我们称之为大量激活。首先，我们展示了大量激活在各种LLMs中的普遍存在，并对其位置进行了表征。其次，我们发现它们的值基本上不受输入影响，并且在LLMs中起到不可或缺的偏置项作用。第三，这些大量激活导致关注概率集中于其对应的标记，并进一步成为自注意输出中的隐式偏置项。最后，我们还研究了视觉Transformer中的大量激活。",
+    "tldr": "大型语言模型中出现了大量激活现象，它们具有非常大的值并且在模型中起到重要作用。",
+    "en_tdlr": "Massive activations with significantly larger values are observed in large language models, playing important roles in the model."
+}

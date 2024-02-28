@@ -1,0 +1,12 @@
+{
+    "title": "A Note on Bayesian Networks with Latent Root Variables",
+    "abstract": "arXiv:2402.17087v1 Announce Type: cross  Abstract: We characterise the likelihood function computed from a Bayesian network with latent variables as root nodes. We show that the marginal distribution over the remaining, manifest, variables also factorises as a Bayesian network, which we call empirical. A dataset of observations of the manifest variables allows us to quantify the parameters of the empirical Bayesian net. We prove that (i) the likelihood of such a dataset from the original Bayesian network is dominated by the global maximum of the likelihood from the empirical one; and that (ii) such a maximum is attained if and only if the parameters of the Bayesian network are consistent with those of the empirical model.",
+    "link": "https://arxiv.org/abs/2402.17087",
+    "context": "Title: A Note on Bayesian Networks with Latent Root Variables\nAbstract: arXiv:2402.17087v1 Announce Type: cross  Abstract: We characterise the likelihood function computed from a Bayesian network with latent variables as root nodes. We show that the marginal distribution over the remaining, manifest, variables also factorises as a Bayesian network, which we call empirical. A dataset of observations of the manifest variables allows us to quantify the parameters of the empirical Bayesian net. We prove that (i) the likelihood of such a dataset from the original Bayesian network is dominated by the global maximum of the likelihood from the empirical one; and that (ii) such a maximum is attained if and only if the parameters of the Bayesian network are consistent with those of the empirical model.",
+    "path": "papers/24/02/2402.17087.json",
+    "total_tokens": 737,
+    "translated_title": "关于具有潜在根变量的贝叶斯网络的注解",
+    "translated_abstract": "我们表征了从具有潜在根节点的贝叶斯网络计算出的似然函数。我们展示了对于剩余的显性变量的边缘分布也会像一个贝叶斯网络一样分解，我们称之为经验化。一组观测到的显性变量的数据集使我们能够量化经验贝叶斯网络的参数。我们证明了(i)从原始贝叶斯网络计算出这样一个数据集的似然性由经验化模型的似然性的全局最大值所主导；以及(ii)这样一个最大值仅在贝叶斯网络的参数与经验模型的参数一致时才会达到。",
+    "tldr": "从贝叶斯网络计算出的数据集的似然性主要由经验网络的似然性的全局最大值所主导，并且仅当贝叶斯网络的参数与经验模型的参数一致时，这样的最大值才会被实现。",
+    "en_tdlr": "The likelihood of a dataset from a Bayesian network is dominated by the global maximum of the likelihood from the empirical one, which is attained only if the parameters of the Bayesian network are consistent with those of the empirical model."
+}

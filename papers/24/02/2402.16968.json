@@ -1,0 +1,12 @@
+{
+    "title": "A Survey of Large Language Models in Cybersecurity",
+    "abstract": "arXiv:2402.16968v1 Announce Type: cross  Abstract: Large Language Models (LLMs) have quickly risen to prominence due to their ability to perform at or close to the state-of-the-art in a variety of fields while handling natural language. An important field of research is the application of such models at the cybersecurity context. This survey aims to identify where in the field of cybersecurity LLMs have already been applied, the ways in which they are being used and their limitations in the field. Finally, suggestions are made on how to improve such limitations and what can be expected from these systems once these limitations are overcome.",
+    "link": "https://arxiv.org/abs/2402.16968",
+    "context": "Title: A Survey of Large Language Models in Cybersecurity\nAbstract: arXiv:2402.16968v1 Announce Type: cross  Abstract: Large Language Models (LLMs) have quickly risen to prominence due to their ability to perform at or close to the state-of-the-art in a variety of fields while handling natural language. An important field of research is the application of such models at the cybersecurity context. This survey aims to identify where in the field of cybersecurity LLMs have already been applied, the ways in which they are being used and their limitations in the field. Finally, suggestions are made on how to improve such limitations and what can be expected from these systems once these limitations are overcome.",
+    "path": "papers/24/02/2402.16968.json",
+    "total_tokens": 612,
+    "translated_title": "大型语言模型在网络安全中的调查",
+    "translated_abstract": "大型语言模型(LLMs)迅速崛起，因其能够在多个领域以接近或达到最先进水平的表现，并处理自然语言。研究的一个重要领域是将这些模型应用于网络安全领域。本调查旨在确定在网络安全领域LLMs已经被应用的地方，它们被用于的方式以及它们在该领域中的局限性。最后，提出了如何改善这些局限性以及在克服这些局限性后可以从这些系统中期待什么的建议。",
+    "tldr": "大型语言模型在网络安全领域的应用及其局限性的调查和展望。",
+    "en_tdlr": "Survey and outlook on the application of large language models in cybersecurity and their limitations."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Synthetic Data: Methods, Use Cases, and Risks",
+    "abstract": "arXiv:2303.01230v3 Announce Type: replace-cross  Abstract: Sharing data can often enable compelling applications and analytics. However, more often than not, valuable datasets contain information of a sensitive nature, and thus, sharing them can endanger the privacy of users and organizations. A possible alternative gaining momentum in both the research community and industry is to share synthetic data instead. The idea is to release artificially generated datasets that resemble the actual data -- more precisely, having similar statistical properties. In this article, we provide a gentle introduction to synthetic data and discuss its use cases, the privacy challenges that are still unaddressed, and its inherent limitations as an effective privacy-enhancing technology.",
+    "link": "https://arxiv.org/abs/2303.01230",
+    "context": "Title: Synthetic Data: Methods, Use Cases, and Risks\nAbstract: arXiv:2303.01230v3 Announce Type: replace-cross  Abstract: Sharing data can often enable compelling applications and analytics. However, more often than not, valuable datasets contain information of a sensitive nature, and thus, sharing them can endanger the privacy of users and organizations. A possible alternative gaining momentum in both the research community and industry is to share synthetic data instead. The idea is to release artificially generated datasets that resemble the actual data -- more precisely, having similar statistical properties. In this article, we provide a gentle introduction to synthetic data and discuss its use cases, the privacy challenges that are still unaddressed, and its inherent limitations as an effective privacy-enhancing technology.",
+    "path": "papers/23/03/2303.01230.json",
+    "total_tokens": 712,
+    "translated_title": "合成数据：方法、用例和风险",
+    "translated_abstract": "分享数据通常可以实现引人注目的应用程序和分析。然而，更多时候，有价值的数据集包含敏感信息，因此分享它们可能会危及用户和组织的隐私。在研究界和产业界都日益受到关注的一个可能替代方案是分享合成数据。这个想法是发布人工生成的数据集，这些数据集类似于实际数据 -- 更准确地说，具有类似的统计特性。在本文中，我们提供了合成数据的简要介绍，并讨论了它的用例、仍未解决的隐私挑战以及作为一种有效的隐私增强技术的内在局限性。",
+    "tldr": "合成数据作为一种隐私增强技术，通过发布人工生成的数据集来代替敏感真实数据，具有巨大潜力，但仍面临未解决的隐私挑战和局限性。",
+    "en_tdlr": "Synthetic data, as a privacy-enhancing technology, has great potential by releasing artificially generated datasets instead of sensitive real data, yet it still faces unresolved privacy challenges and limitations."
+}

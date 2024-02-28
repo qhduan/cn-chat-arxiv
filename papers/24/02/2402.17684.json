@@ -1,0 +1,12 @@
+{
+    "title": "Stochastic expansion for the pricing of Asian options",
+    "abstract": "arXiv:2402.17684v1 Announce Type: new  Abstract: We present closed analytical approximations for the pricing of Asian options with discrete averaging under the Black-Scholes model with time-dependent parameters. The formulae are obtained by using a stochastic Taylor expansion around a log-normal proxy model and are found to be highly accurate in practice.",
+    "link": "https://arxiv.org/abs/2402.17684",
+    "context": "Title: Stochastic expansion for the pricing of Asian options\nAbstract: arXiv:2402.17684v1 Announce Type: new  Abstract: We present closed analytical approximations for the pricing of Asian options with discrete averaging under the Black-Scholes model with time-dependent parameters. The formulae are obtained by using a stochastic Taylor expansion around a log-normal proxy model and are found to be highly accurate in practice.",
+    "path": "papers/24/02/2402.17684.json",
+    "total_tokens": 532,
+    "translated_title": "亚洲期权定价的随机扩展",
+    "translated_abstract": "我们在具有时间相关参数的Black-Scholes模型下，针对离散平均的亚洲期权定价提出了封闭的解析近似。这些公式是通过在一个对数正态代理模型周围进行随机泰勒展开得到的，并在实践中被发现非常准确。",
+    "tldr": "该论文提出了在Black-Scholes模型下利用随机泰勒展开得到的近似解析公式，用于离散平均的亚洲期权定价，实践中表现高度准确。",
+    "en_tdlr": "The paper introduces closed analytical approximations for pricing Asian options with discrete averaging under the Black-Scholes model using a stochastic Taylor expansion, which are highly accurate in practice."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Multidimensional unstructured sparse recovery via eigenmatrix",
+    "abstract": "arXiv:2402.17215v1 Announce Type: cross  Abstract: This note considers the multidimensional unstructured sparse recovery problems. Examples include Fourier inversion and sparse deconvolution. The eigenmatrix is a data-driven construction with desired approximate eigenvalues and eigenvectors proposed for the one-dimensional problems. This note extends the eigenmatrix approach to multidimensional problems. Numerical results are provided to demonstrate the performance of the proposed method.",
+    "link": "https://arxiv.org/abs/2402.17215",
+    "context": "Title: Multidimensional unstructured sparse recovery via eigenmatrix\nAbstract: arXiv:2402.17215v1 Announce Type: cross  Abstract: This note considers the multidimensional unstructured sparse recovery problems. Examples include Fourier inversion and sparse deconvolution. The eigenmatrix is a data-driven construction with desired approximate eigenvalues and eigenvectors proposed for the one-dimensional problems. This note extends the eigenmatrix approach to multidimensional problems. Numerical results are provided to demonstrate the performance of the proposed method.",
+    "path": "papers/24/02/2402.17215.json",
+    "total_tokens": 564,
+    "translated_title": "通过特征矩阵进行多维非结构稀疏恢复",
+    "translated_abstract": "这篇论文考虑了多维非结构稀疏恢复问题，例如傅立叶反演和稀疏去卷积。特征矩阵是一种具有期望近似特征值和特征向量的数据驱动构造，用于解决一维问题。本文将特征矩阵方法扩展到多维问题。通过数值结果展示了所提方法的性能。",
+    "tldr": "该论文提出了一种通过特征矩阵方法来解决多维非结构稀疏恢复问题，并通过数值结果展示了方法的性能。"
+}

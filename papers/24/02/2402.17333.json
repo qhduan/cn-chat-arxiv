@@ -1,0 +1,11 @@
+{
+    "title": "Unsupervised multiple choices question answering via universal corpus",
+    "abstract": "arXiv:2402.17333v1 Announce Type: new  Abstract: Unsupervised question answering is a promising yet challenging task, which alleviates the burden of building large-scale annotated data in a new domain. It motivates us to study the unsupervised multiple-choice question answering (MCQA) problem. In this paper, we propose a novel framework designed to generate synthetic MCQA data barely based on contexts from the universal domain without relying on any form of manual annotation. Possible answers are extracted and used to produce related questions, then we leverage both named entities (NE) and knowledge graphs to discover plausible distractors to form complete synthetic samples. Experiments on multiple MCQA datasets demonstrate the effectiveness of our method.",
+    "link": "https://arxiv.org/abs/2402.17333",
+    "context": "Title: Unsupervised multiple choices question answering via universal corpus\nAbstract: arXiv:2402.17333v1 Announce Type: new  Abstract: Unsupervised question answering is a promising yet challenging task, which alleviates the burden of building large-scale annotated data in a new domain. It motivates us to study the unsupervised multiple-choice question answering (MCQA) problem. In this paper, we propose a novel framework designed to generate synthetic MCQA data barely based on contexts from the universal domain without relying on any form of manual annotation. Possible answers are extracted and used to produce related questions, then we leverage both named entities (NE) and knowledge graphs to discover plausible distractors to form complete synthetic samples. Experiments on multiple MCQA datasets demonstrate the effectiveness of our method.",
+    "path": "papers/24/02/2402.17333.json",
+    "total_tokens": 699,
+    "translated_title": "通过通用语料库实现无监督的多选题问答",
+    "translated_abstract": "无监督问答是一项有前途但具有挑战性的任务，可以减轻在新领域构建大规模标注数据的负担。这激励我们研究无监督的多选题问答（MCQA）问题。本文提出了一个新颖的框架，旨在仅基于通用领域上下文生成合成的MCQA数据，而不依赖任何形式的手动注释。可能的答案被提取并用于生成相关问题，然后我们利用命名实体（NE）和知识图谱来发现合理的分散因素，形成完整的合成样本。对多个MCQA数据集上的实验证明了我们方法的有效性。",
+    "tldr": "本文提出了一种通过通用领域上下文生成合成MCQA数据的框架，无需依赖手动注释，实验表明方法的有效性。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A Dataset for Metaphor Detection in Early Medieval Hebrew Poetry",
+    "abstract": "arXiv:2402.17371v1 Announce Type: new  Abstract: There is a large volume of late antique and medieval Hebrew texts. They represent a crucial linguistic and cultural bridge between Biblical and modern Hebrew. Poetry is prominent in these texts and one of its main haracteristics is the frequent use of metaphor. Distinguishing figurative and literal language use is a major task for scholars of the Humanities, especially in the fields of literature, linguistics, and hermeneutics. This paper presents a new, challenging dataset of late antique and medieval Hebrew poetry with expert annotations of metaphor, as well as some baseline results, which we hope will facilitate further research in this area.",
+    "link": "https://arxiv.org/abs/2402.17371",
+    "context": "Title: A Dataset for Metaphor Detection in Early Medieval Hebrew Poetry\nAbstract: arXiv:2402.17371v1 Announce Type: new  Abstract: There is a large volume of late antique and medieval Hebrew texts. They represent a crucial linguistic and cultural bridge between Biblical and modern Hebrew. Poetry is prominent in these texts and one of its main haracteristics is the frequent use of metaphor. Distinguishing figurative and literal language use is a major task for scholars of the Humanities, especially in the fields of literature, linguistics, and hermeneutics. This paper presents a new, challenging dataset of late antique and medieval Hebrew poetry with expert annotations of metaphor, as well as some baseline results, which we hope will facilitate further research in this area.",
+    "path": "papers/24/02/2402.17371.json",
+    "total_tokens": 737,
+    "translated_title": "早期中世纪希伯来诗歌隐喻检测数据集",
+    "translated_abstract": "在晚期古代和中世纪希伯来文本中存在大量的文本，它们代表着圣经希伯来语和现代希伯来语之间的重要语言和文化桥梁。诗歌在这些文本中占据重要地位，其主要特征之一就是频繁使用隐喻。区分比喻和字面语言使用是人文学者的一项重要任务，特别是在文学、语言学和解释学领域。本文介绍了一份新的具有专家注释的晚期古代和中世纪希伯来诗歌数据集，以及一些基准结果，希望能促进该领域的进一步研究。",
+    "tldr": "这项研究提出了一个新的晚期古代和中世纪希伯来诗歌数据集，包含专家对隐喻的注释，旨在促进这一领域的进一步研究。",
+    "en_tdlr": "This study introduces a new dataset of late antique and medieval Hebrew poetry with expert annotations of metaphor, aiming to facilitate further research in this area."
+}
