@@ -1,0 +1,12 @@
+{
+    "title": "Streaming data recovery via Bayesian tensor train decomposition",
+    "abstract": "arXiv:2302.12148v2 Announce Type: replace  Abstract: In this paper, we study a Bayesian tensor train (TT) decomposition method to recover streaming data by approximating the latent structure in high-order streaming data. Drawing on the streaming variational Bayes method, we introduce the TT format into Bayesian tensor decomposition methods for streaming data, and formulate posteriors of TT cores. Thanks to the Bayesian framework of the TT format, the proposed algorithm (SPTT) excels in recovering streaming data with high-order, incomplete, and noisy properties. The experiments in synthetic and real-world datasets show the accuracy of our method compared to state-of-the-art Bayesian tensor decomposition methods for streaming data.",
+    "link": "https://arxiv.org/abs/2302.12148",
+    "context": "Title: Streaming data recovery via Bayesian tensor train decomposition\nAbstract: arXiv:2302.12148v2 Announce Type: replace  Abstract: In this paper, we study a Bayesian tensor train (TT) decomposition method to recover streaming data by approximating the latent structure in high-order streaming data. Drawing on the streaming variational Bayes method, we introduce the TT format into Bayesian tensor decomposition methods for streaming data, and formulate posteriors of TT cores. Thanks to the Bayesian framework of the TT format, the proposed algorithm (SPTT) excels in recovering streaming data with high-order, incomplete, and noisy properties. The experiments in synthetic and real-world datasets show the accuracy of our method compared to state-of-the-art Bayesian tensor decomposition methods for streaming data.",
+    "path": "papers/23/02/2302.12148.json",
+    "total_tokens": 682,
+    "translated_title": "通过贝叶斯张量列车分解进行流数据恢复",
+    "translated_abstract": "在本文中，我们研究了一种贝叶斯张量列车(TT)分解方法，通过近似高阶流数据中的潜在结构来恢复流数据。借鉴流变分贝叶斯方法，我们将TT格式引入贝叶斯张量分解方法以用于流数据，并构建TT核的后验概率。由于TT格式的贝叶斯框架，所提出的算法(SPTT)在恢复具有高阶、不完整和嘈杂特性的流数据方面表现出色。合成和真实世界数据集中的实验证明了我们的方法相对于流数据的最新贝叶斯张量分解方法的准确性。",
+    "tldr": "通过贝叶斯张量列车分解方法，在高阶、不完整和嘈杂的流数据中，实现了流数据的恢复和准确性",
+    "en_tdlr": "Recovery and accuracy of streaming data in high-order, incomplete, and noisy settings achieved through Bayesian tensor train decomposition."
+}

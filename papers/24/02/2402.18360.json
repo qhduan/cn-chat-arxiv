@@ -1,0 +1,12 @@
+{
+    "title": "Similarity-based analogical proportions",
+    "abstract": "arXiv:2402.18360v1 Announce Type: cross  Abstract: The author has recently introduced abstract algebraic frameworks of analogical proportions and similarity within the general setting of universal algebra. The purpose of this paper is to build a bridge from similarity to analogical proportions by formulating the latter in terms of the former. The benefit of this similarity-based approach is that the connection between proportions and similarity is built into the framework and therefore evident which is appealing since proportions and similarity are both at the center of analogy; moreover, future results on similarity can directly be applied to analogical proportions.",
+    "link": "https://arxiv.org/abs/2402.18360",
+    "context": "Title: Similarity-based analogical proportions\nAbstract: arXiv:2402.18360v1 Announce Type: cross  Abstract: The author has recently introduced abstract algebraic frameworks of analogical proportions and similarity within the general setting of universal algebra. The purpose of this paper is to build a bridge from similarity to analogical proportions by formulating the latter in terms of the former. The benefit of this similarity-based approach is that the connection between proportions and similarity is built into the framework and therefore evident which is appealing since proportions and similarity are both at the center of analogy; moreover, future results on similarity can directly be applied to analogical proportions.",
+    "path": "papers/24/02/2402.18360.json",
+    "total_tokens": 640,
+    "translated_title": "基于相似性的类比比例",
+    "translated_abstract": "作者最近在通用代数的一般设置内引入了类比比例和相似性的抽象代数框架。本文的目的是通过用相似性来规定类比比例，从而建立从相似性到类比比例的桥梁。这种基于相似性的方法的好处在于，比例和相似性的联系被构建到框架中，因此显而易见，这一点很吸引人，因为比例和相似性都处于类比的中心；此外，对相似性的未来结果可以直接应用于类比比例。",
+    "tldr": "通过将类比比例规定为相似性，建立了从相似性到类比比例的桥梁，使得将来的相似性结果可以直接应用于类比比例。",
+    "en_tdlr": "By formulating analogical proportions in terms of similarity, a bridge is built from similarity to analogical proportions, allowing future results on similarity to be directly applied to analogical proportions."
+}

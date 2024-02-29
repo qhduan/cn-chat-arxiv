@@ -1,0 +1,12 @@
+{
+    "title": "Rethinking the Bounds of LLM Reasoning: Are Multi-Agent Discussions the Key?",
+    "abstract": "arXiv:2402.18272v1 Announce Type: cross  Abstract: Recent progress in LLMs discussion suggests that multi-agent discussion improves the reasoning abilities of LLMs. In this work, we reevaluate this claim through systematic experiments, where we propose a novel group discussion framework to enrich the set of discussion mechanisms. Interestingly, our results show that a single-agent LLM with strong prompts can achieve almost the same performance as the best existing discussion approach on a wide range of reasoning tasks and backbone LLMs. We observe that the multi-agent discussion performs better than a single agent only when there is no demonstration in the prompt. Further study reveals the common interaction mechanisms of LLMs during the discussion.",
+    "link": "https://arxiv.org/abs/2402.18272",
+    "context": "Title: Rethinking the Bounds of LLM Reasoning: Are Multi-Agent Discussions the Key?\nAbstract: arXiv:2402.18272v1 Announce Type: cross  Abstract: Recent progress in LLMs discussion suggests that multi-agent discussion improves the reasoning abilities of LLMs. In this work, we reevaluate this claim through systematic experiments, where we propose a novel group discussion framework to enrich the set of discussion mechanisms. Interestingly, our results show that a single-agent LLM with strong prompts can achieve almost the same performance as the best existing discussion approach on a wide range of reasoning tasks and backbone LLMs. We observe that the multi-agent discussion performs better than a single agent only when there is no demonstration in the prompt. Further study reveals the common interaction mechanisms of LLMs during the discussion.",
+    "path": "papers/24/02/2402.18272.json",
+    "total_tokens": 746,
+    "translated_title": "重新思考LLM推理的界限：多智能体讨论是关键吗？",
+    "translated_abstract": "LLM讨论领域的最新进展表明，多智能体讨论提升了LLM的推理能力。在这项工作中，我们通过系统实验对这一说法进行重新评估，我们提出了一个新颖的小组讨论框架，丰富了讨论机制集合。有趣的是，我们的结果显示，一个带有强提示的单智能体LLM在广泛的推理任务和基本LLM中几乎可以达到与最佳现有讨论方法相同的性能。我们观察到，多智能体讨论仅在提示中没有演示时才优于单个智能体。进一步研究揭示了LLM在讨论过程中的常见交互机制。",
+    "tldr": "多智能体讨论提升了LLM的推理能力，但在有演示的情况下，单智能体LLM通过强提示几乎能达到与最佳讨论方法相同的性能。",
+    "en_tdlr": "Multi-agent discussions improve the reasoning abilities of LLMs, but in the presence of demonstrations, a single-agent LLM with strong prompts can achieve nearly the same performance as the best discussion approach."
+}

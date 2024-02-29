@@ -1,0 +1,12 @@
+{
+    "title": "MEGAnno+: A Human-LLM Collaborative Annotation System",
+    "abstract": "arXiv:2402.18050v1 Announce Type: new  Abstract: Large language models (LLMs) can label data faster and cheaper than humans for various NLP tasks. Despite their prowess, LLMs may fall short in understanding of complex, sociocultural, or domain-specific context, potentially leading to incorrect annotations. Therefore, we advocate a collaborative approach where humans and LLMs work together to produce reliable and high-quality labels. We present MEGAnno+, a human-LLM collaborative annotation system that offers effective LLM agent and annotation management, convenient and robust LLM annotation, and exploratory verification of LLM labels by humans.",
+    "link": "https://arxiv.org/abs/2402.18050",
+    "context": "Title: MEGAnno+: A Human-LLM Collaborative Annotation System\nAbstract: arXiv:2402.18050v1 Announce Type: new  Abstract: Large language models (LLMs) can label data faster and cheaper than humans for various NLP tasks. Despite their prowess, LLMs may fall short in understanding of complex, sociocultural, or domain-specific context, potentially leading to incorrect annotations. Therefore, we advocate a collaborative approach where humans and LLMs work together to produce reliable and high-quality labels. We present MEGAnno+, a human-LLM collaborative annotation system that offers effective LLM agent and annotation management, convenient and robust LLM annotation, and exploratory verification of LLM labels by humans.",
+    "path": "papers/24/02/2402.18050.json",
+    "total_tokens": 695,
+    "translated_title": "MEGAnno+: 一个人类-LLM协作标注系统",
+    "translated_abstract": "大语言模型（LLMs）可以比人类更快速、更便宜地为各种自然语言处理任务标记数据。尽管它们很强大，但LLMs可能在理解复杂、社会文化或领域特定上下文方面存在缺陷，这可能导致错误的注释。因此，我们提倡一种人类和LLMs共同合作的方法，以产生可靠且高质量的标签。我们提出MEGAnno+，这是一个人类-LLM协作的标注系统，提供有效的LLM代理和注释管理，便捷且稳固的LLM标注，以及人类对LLM标签的探索性验证。",
+    "tldr": "MEGAnno+提供了一个人类-LLM协作标注系统，旨在通过人类和大语言模型（LLMs）的联合工作产生可靠且高质量的标签。",
+    "en_tdlr": "MEGAnno+ offers a human-LLM collaborative annotation system aimed at generating reliable and high-quality labels through the joint work of humans and large language models (LLMs)."
+}

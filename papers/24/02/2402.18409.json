@@ -1,0 +1,12 @@
+{
+    "title": "A Cognitive Evaluation Benchmark of Image Reasoning and Description for Large Vision Language Models",
+    "abstract": "arXiv:2402.18409v1 Announce Type: new  Abstract: Large Vision Language Models (LVLMs), despite their recent success, are hardly comprehensively tested for their cognitive abilities. Inspired by the prevalent use of the \"Cookie Theft\" task in human cognition test, we propose a novel evaluation benchmark to evaluate high-level cognitive ability of LVLMs using images with rich semantics. It defines eight reasoning capabilities and consists of an image description task and a visual question answering task. Our evaluation on well-known LVLMs shows that there is still a large gap in cognitive ability between LVLMs and humans.",
+    "link": "https://arxiv.org/abs/2402.18409",
+    "context": "Title: A Cognitive Evaluation Benchmark of Image Reasoning and Description for Large Vision Language Models\nAbstract: arXiv:2402.18409v1 Announce Type: new  Abstract: Large Vision Language Models (LVLMs), despite their recent success, are hardly comprehensively tested for their cognitive abilities. Inspired by the prevalent use of the \"Cookie Theft\" task in human cognition test, we propose a novel evaluation benchmark to evaluate high-level cognitive ability of LVLMs using images with rich semantics. It defines eight reasoning capabilities and consists of an image description task and a visual question answering task. Our evaluation on well-known LVLMs shows that there is still a large gap in cognitive ability between LVLMs and humans.",
+    "path": "papers/24/02/2402.18409.json",
+    "total_tokens": 677,
+    "translated_title": "一个针对大型视觉语言模型图像推理和描述的认知评估基准",
+    "translated_abstract": "尽管大型视觉语言模型(LVLMs)近年来取得了成功，但它们很少受到全面的认知能力测试。受到人类认知测试中广泛使用的“偷饼干”任务的启发，我们提出了一个新颖的评估基准，利用具有丰富语义的图像评估LVLMs的高级认知能力。它定义了八种推理能力，并包括图像描述任务和视觉问答任务。我们对知名LVLMs进行的评估表明，在LVLMs和人类之间仍存在较大的认知能力差距。",
+    "tldr": "提出了一个新颖的评估基准，用于评估大型视觉语言模型的认知能力，发现LVLMs与人类之间存在较大的认知能力差距。",
+    "en_tdlr": "A novel evaluation benchmark was proposed to assess the cognitive abilities of Large Vision Language Models, revealing a significant gap in cognitive ability between LVLMs and humans."
+}

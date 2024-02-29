@@ -1,0 +1,12 @@
+{
+    "title": "A Surprising Failure? Multimodal LLMs and the NLVR Challenge",
+    "abstract": "arXiv:2402.17793v1 Announce Type: new  Abstract: This study evaluates three state-of-the-art MLLMs -- GPT-4V, Gemini Pro, and the open-source model IDEFICS -- on the compositional natural language vision reasoning task NLVR. Given a human-written sentence paired with a synthetic image, this task requires the model to determine the truth value of the sentence with respect to the image. Despite the strong performance demonstrated by these models, we observe they perform poorly on NLVR, which was constructed to require compositional and spatial reasoning, and to be robust for semantic and systematic biases.",
+    "link": "https://arxiv.org/abs/2402.17793",
+    "context": "Title: A Surprising Failure? Multimodal LLMs and the NLVR Challenge\nAbstract: arXiv:2402.17793v1 Announce Type: new  Abstract: This study evaluates three state-of-the-art MLLMs -- GPT-4V, Gemini Pro, and the open-source model IDEFICS -- on the compositional natural language vision reasoning task NLVR. Given a human-written sentence paired with a synthetic image, this task requires the model to determine the truth value of the sentence with respect to the image. Despite the strong performance demonstrated by these models, we observe they perform poorly on NLVR, which was constructed to require compositional and spatial reasoning, and to be robust for semantic and systematic biases.",
+    "path": "papers/24/02/2402.17793.json",
+    "total_tokens": 691,
+    "translated_title": "一个令人惊讶的失败？多模LLMs和NLVR挑战",
+    "translated_abstract": "这项研究评估了三种最先进的MLLMs——GPT-4V、Gemini Pro和开源模型IDEFICS——对于组合自然语言视觉推理任务NLVR的表现。NLVR要求模型根据一个人类书写的句子和一个合成图像来确定句子相对于图像的真假。尽管这些模型表现出强大的性能，我们观察到它们在NLVR上表现不佳，该任务旨在需要组合和空间推理，并且对语义和系统性偏见具有鲁棒性。",
+    "tldr": "这项研究评估了多模LLMs在自然语言视觉推理任务NLVR上的性能表现，发现它们在需要组合和空间推理、对语义和系统性偏见具有鲁棒性的任务上表现不佳。",
+    "en_tdlr": "This study evaluates the performance of multimodal LLMs on the natural language vision reasoning task NLVR and finds they perform poorly on tasks requiring compositional and spatial reasoning, and robustness against semantic and systematic biases."
+}

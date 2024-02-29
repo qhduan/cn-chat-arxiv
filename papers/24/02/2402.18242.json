@@ -1,0 +1,11 @@
+{
+    "title": "A network-constrain Weibull AFT model for biomarkers discovery",
+    "abstract": "arXiv:2402.18242v1 Announce Type: new  Abstract: We propose AFTNet, a novel network-constraint survival analysis method based on the Weibull accelerated failure time (AFT) model solved by a penalized likelihood approach for variable selection and estimation. When using the log-linear representation, the inference problem becomes a structured sparse regression problem for which we explicitly incorporate the correlation patterns among predictors using a double penalty that promotes both sparsity and grouping effect. Moreover, we establish the theoretical consistency for the AFTNet estimator and present an efficient iterative computational algorithm based on the proximal gradient descent method. Finally, we evaluate AFTNet performance both on synthetic and real data examples.",
+    "link": "https://arxiv.org/abs/2402.18242",
+    "context": "Title: A network-constrain Weibull AFT model for biomarkers discovery\nAbstract: arXiv:2402.18242v1 Announce Type: new  Abstract: We propose AFTNet, a novel network-constraint survival analysis method based on the Weibull accelerated failure time (AFT) model solved by a penalized likelihood approach for variable selection and estimation. When using the log-linear representation, the inference problem becomes a structured sparse regression problem for which we explicitly incorporate the correlation patterns among predictors using a double penalty that promotes both sparsity and grouping effect. Moreover, we establish the theoretical consistency for the AFTNet estimator and present an efficient iterative computational algorithm based on the proximal gradient descent method. Finally, we evaluate AFTNet performance both on synthetic and real data examples.",
+    "path": "papers/24/02/2402.18242.json",
+    "total_tokens": 730,
+    "translated_title": "基于网络约束的Weibull AFT模型用于生物标志物发现",
+    "translated_abstract": "我们提出了AFTNet，一种新颖的基于Weibull加速失效时间（AFT）模型的网络约束生存分析方法，通过惩罚似然方法进行变量选择和估计。当使用对数线性表示时，推断问题变成了一个结构稀疏回归问题，我们明确地结合了预测因子之间的相关模式，使用双重惩罚促进稀疏性和分组效应。此外，我们为AFTNet估计器建立了理论一致性，并提出了基于近端梯度下降方法的高效迭代计算算法。最后，我们在合成和真实数据示例上评估了AFTNet的性能。",
+    "tldr": "提出了一种基于网络约束的Weibull AFT模型，在变量选择和估计方面采用惩罚似然方法，同时结合了稀疏性和分组效应，具有理论一致性和高效的计算算法。"
+}

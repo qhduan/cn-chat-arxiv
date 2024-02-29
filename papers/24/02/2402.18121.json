@@ -1,0 +1,12 @@
+{
+    "title": "Saving the legacy of Hero Ibash: Evaluating Four Language Models for Aminoacian",
+    "abstract": "arXiv:2402.18121v1 Announce Type: cross  Abstract: This study assesses four cutting-edge language models in the underexplored Aminoacian language. Through evaluation, it scrutinizes their adaptability, effectiveness, and limitations in text generation, semantic coherence, and contextual understanding. Uncovering insights into these models' performance in a low-resourced language, this research pioneers pathways to bridge linguistic gaps. By offering benchmarks and understanding challenges, it lays groundwork for future advancements in natural language processing, aiming to elevate the applicability of language models in similar linguistic landscapes, marking a significant step toward inclusivity and progress in language technology.",
+    "link": "https://arxiv.org/abs/2402.18121",
+    "context": "Title: Saving the legacy of Hero Ibash: Evaluating Four Language Models for Aminoacian\nAbstract: arXiv:2402.18121v1 Announce Type: cross  Abstract: This study assesses four cutting-edge language models in the underexplored Aminoacian language. Through evaluation, it scrutinizes their adaptability, effectiveness, and limitations in text generation, semantic coherence, and contextual understanding. Uncovering insights into these models' performance in a low-resourced language, this research pioneers pathways to bridge linguistic gaps. By offering benchmarks and understanding challenges, it lays groundwork for future advancements in natural language processing, aiming to elevate the applicability of language models in similar linguistic landscapes, marking a significant step toward inclusivity and progress in language technology.",
+    "path": "papers/24/02/2402.18121.json",
+    "total_tokens": 733,
+    "translated_title": "拯救英雄伊巴什的遗产：评估四种语言模型在氨基酸语言中的表现",
+    "translated_abstract": "本研究评估了四种前沿语言模型在未开发的氨基酸语言中的表现。通过评估，本研究审查了它们在文本生成、语义连贯性和上下文理解方面的适应性，有效性和局限性。揭示这些模型在低资源语言中的表现，为弥合语言差距开辟了道路。通过提供基准和理解挑战，为未来自然语言处理的进展奠定了基础，旨在提升语言模型在类似语言环境中的适用性，标志着语言技术包容性和进步的重要一步。",
+    "tldr": "本研究评估了四种语言模型在未被充分探索的氨基酸语言中的适应性、有效性和局限性，并为未来自然语言处理的进展奠定了基础。",
+    "en_tdlr": "This study assesses the adaptability, effectiveness, and limitations of four language models in the underexplored Aminoacian language, laying groundwork for future advancements in natural language processing."
+}

@@ -2,232 +2,217 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Stochastic expansion for the pricing of Asian options](https://arxiv.org/abs/2402.17684) | 该论文提出了在Black-Scholes模型下利用随机泰勒展开得到的近似解析公式，用于离散平均的亚洲期权定价，实践中表现高度准确。 |
-| [^2] | [The critical disordered pinning measure](https://arxiv.org/abs/2402.17642) | 论文研究了一个由随机游走引起的无序钉扎模型，发现在临界区间内点对点的分区函数收敛到一种唯一的极限随机测度，并命名为临界无序钉扎测度。 |
-| [^3] | [Political Pandering and Bureaucratic Influence](https://arxiv.org/abs/2402.17526) | 研究发现在政策实施中，政治家和官僚之间的互动在选举激励下会产生讨好行为，不同类型的官僚对此有不同态度，分析显示官僚主义的影响程度能够最大化选民福利。 |
-| [^4] | [Navigating Complexity: Constrained Portfolio Analysis in High Dimensions with Tracking Error and Weight Constraints](https://arxiv.org/abs/2402.17523) | 本文分析了高维度投资组合中受限条件下的统计特性，展示了在大维度下如何一致估计这些投资组合，同时提供了受限组合权重、风险和夏普比率的收敛速度结果。 |
-| [^5] | [Limit Order Book Simulations: A Review](https://arxiv.org/abs/2402.17359) | 本综述研究了当前先进的各种限价订单簿（LOB）模拟模型，在方法学分类的基础上提供了流行风格事实的整体视图，重点研究了模型中的价格冲击现象。 |
-| [^6] | [The Random Forest Model for Analyzing and Forecasting the US Stock Market in the Context of Smart Finance](https://arxiv.org/abs/2402.17194) | 本研究评估了结合人工智能的随机森林模型在预测美国股市走势上的预测性能，为投资者提供了决策参考。 |
-| [^7] | [Withdrawal Success Optimization in a Pooled Annuity Fund](https://arxiv.org/abs/2402.17164) | 在合并年金基金中，通过优化投资组合权重函数，最大化特定年金购买者完成规定提取直至死亡的概率，并且得到明显增加的最大概率。 |
-| [^8] | [Time series generation for option pricing on quantum computers using tensor network](https://arxiv.org/abs/2402.17148) | 提出了一种使用矩阵乘积态作为时间序列生成的方法，可以有效生成多个时间点处基础资产价格的联合分布的态，并证实了该方法在Heston模型中的可行性。 |
-| [^9] | [A monotone piecewise constant control integration approach for the two-factor uncertain volatility model](https://arxiv.org/abs/2402.06840) | 这篇论文提出了一种单调分段常数控制积分方法来解决两因素不确定波动率模型中的HJB偏微分方程。通过将HJB PDE分解为独立的线性二维PDE，并利用与这些PDE相关的Green函数的显式公式，我们可以有效地求解该方程。 |
-| [^10] | [Reinforcement Learning with Maskable Stock Representation for Portfolio Management in Customizable Stock Pools](https://arxiv.org/abs/2311.10801) | 使用EarnMore方法，我们提出了一种新的RL方法，可以允许RL代理与可定制股票池（CSPs）交互，而不需要重新训练。 |
-| [^11] | [Forecasting Volatility with Machine Learning and Rough Volatility: Example from the Crypto-Winter](https://arxiv.org/abs/2311.04727) | 通过结合LSTM和粗糙波动率，我们发现波动率预测模型在加密货币领域的表现优于传统模型，同时从简约的参数模型中得到类似预测表现，进一步证明了波动率形成过程机制的普遍性。 |
-| [^12] | [Leverage Staking with Liquid Staking Derivatives (LSDs): Opportunities and Risks.](http://arxiv.org/abs/2401.08610) | 这项研究系统地研究了Liquid Staking Derivatives (LSDs)的杠杆质押机会与风险。他们发现杠杆质押在Lido-Aave生态系统中能够实现较高的回报，并有潜力通过优化策略获得更多收益。 |
-| [^13] | [Discrete time optimal investment under model uncertainty.](http://arxiv.org/abs/2307.11919) | 本文研究了在模型不确定性下的离散时间最优投资问题，利用原始方法证明了存在一个最优投资策略，并引入了类型(A)的效用函数。 |
-| [^14] | [The cross-sectional stock return predictions via quantum neural network and tensor network.](http://arxiv.org/abs/2304.12501) | 本文研究将量子神经网络和张量网络应用于股票收益预测，在日本股市中张量网络模型表现优于传统模型，并在最新市场环境下呈现出卓越表现。 |
-| [^15] | [Uncertainty over Uncertainty in Environmental Policy Adoption: Bayesian Learning of Unpredictable Socioeconomic Costs.](http://arxiv.org/abs/2304.10344) | 本文开发了一个类似于实物期权的模型，以捕捉环境政策采用中的两层不确定性。决策者能够通过跟踪成本的实际演变来学习未知的漂移，并形成后验动态信念其真正价值。 |
+| [^1] | [FinAgent: A Multimodal Foundation Agent for Financial Trading: Tool-Augmented, Diversified, and Generalist](https://arxiv.org/abs/2402.18485) | FinAgent是一个多模态基础代理，通过工具增强用于金融交易，具有独特的双重反射模块，可以处理多样化的数据并快速适应市场动态。 |
+| [^2] | [In-Person, Hybrid or Remote? Employers' Perspectives on the Future of Work Post-Pandemic](https://arxiv.org/abs/2402.18459) | 混合工作可能成为工作的常态，雇主普遍关注监督和辅导、创新减少、保留/招聘人才等问题，看法是否定的雇主更倾向于传统全程面对面工作模式。 |
+| [^3] | [Social Learning with Intrinsic Preferences](https://arxiv.org/abs/2402.18452) | 内在偏好和社会学习共同影响参与者的决策，内在偏好指导主观选择任务中的决策，社会学习决定客观正确解的任务中的决策，不同选择环境下奖励或惩罚会强化各自影响，对行为极化有重要意义。 |
+| [^4] | [Stochastic User Equilibrium Model with a Bounded Perceived Travel Time](https://arxiv.org/abs/2402.18435) | 该研究提出了一个eUnit-SUE模型来放宽传统SUE模型中的感知行车时间无界假设，有界概率分布确定路径使用，并且通过数值实例有效性。 |
+| [^5] | [Manager Characteristics and SMEs' Restructuring Decisions: In-Court vs. Out-of-Court Restructuring](https://arxiv.org/abs/2402.18135) | 研究发现经理的任职时间和教育水平会影响他们选择法庭内外重组的倾向，而年龄和性别则不会。这一研究通过关注管理者特征而非公司特征来解释重组决策，为破产和公司重组领域的文献做出了贡献。 |
+| [^6] | [Modeling and Analysis of Crypto-Backed Over-Collateralized Stable Derivatives in DeFi](https://arxiv.org/abs/2402.18119) | 该研究通过模拟DAI的信念参数以及提出简单的数学模型，解释了稳定币的价格稳定机制和对ETH价格的依赖，并分析了与这些稳定衍生品相关的风险因素。 |
+| [^7] | [Prosocial and Financial Incentives for Biodiversity Conservation: A Field Experiment Using a Smartphone App](https://arxiv.org/abs/2402.18047) | 该研究通过一项实地实验，比较了针对市民分享物种信息的亲社会激励和金融激励方案的效果。 |
+| [^8] | [Set-valued Star-Shaped Risk Measures](https://arxiv.org/abs/2402.18014) | 本文提出了一种新的集值星形风险度量，在研究中发现集值风险度量可以表示为集值凸风险度量的并集，集值标准化星形风险度量可以表示为集值标准化凸风险度量的并集，并且建立了集值风险度量和集值星形风险度量之间的联系。 |
+| [^9] | [Neural Networks for Portfolio-Level Risk Management: Portfolio Compression, Static Hedging, Counterparty Credit Risk Exposures and Impact on Capital Requirement](https://arxiv.org/abs/2402.17941) | 该研究提出了一个神经网络框架，可以通过较小的欧洲期权组合实现大型投资组合的压缩，同时构建出目标投资组合的静态对冲投资组合，并展示了参数学习算法和优化过程的收敛性。 |
+| [^10] | [A Heterogeneous Agent Model of Mortgage Servicing: An Income-based Relief Analysis](https://arxiv.org/abs/2402.17932) | 基于代理商模型的分析揭示了在金融困境中如何通过收入为基础的减免措施来支持受影响的家庭。 |
+| [^11] | [Quanto Option Pricing on a Multivariate Levy Process Model with a Generative Artificial Intelligence](https://arxiv.org/abs/2402.17919) | 提出了一种基于多元Levy过程模型和生成人工智能的量价期权定价方法，通过新型的gNTS过程模型和CRealNVP模型实现对奇异期权的定价，为定价外国指数和外汇汇率等基础资产的量价期权提供了可行策略 |
+| [^12] | [Optimal Clearing Payments in a Financial Contagion Model](https://arxiv.org/abs/2103.10872) | 本文研究了金融传染模型中的最优清算支付，推导出了适用于任意拓扑的清算支付唯一性的新条件，并指出放宽比例原则可以降低系统损失。 |
+| [^13] | [Asymptotics for Short Maturity Asian Options in a Jump-Diffusion model with Local Volatility.](http://arxiv.org/abs/2308.15672) | 本研究针对具有局部波动率分量的跳跃扩散模型，研究了亚洲期权的短期期权渐近性。作者给出了几种流行模型的亚洲期权价格的一阶渐近性结果，并提出了一种满足短期期权渐近性约束的解析近似方法。通过与蒙特卡洛模拟的对比测试，发现渐近结果与数值模拟结果具有良好的一致性。 |
+| [^14] | [Unifying Market Microstructure and Dynamic Asset Pricing.](http://arxiv.org/abs/2304.02356) | 本研究提出了一种离散二叉树模型，针对具有间断跳跃特征的基础证券进行债权定价，旨在合并市场微观结构和动态资产定价，能够描述交易者未来价格变动预期。 |
 
 # 详细
 
-[^1]: 亚洲期权定价的随机扩展
+[^1]: FinAgent: 用于金融交易的多模态基础代理：工具增强、多样化和通用
 
-    Stochastic expansion for the pricing of Asian options
+    FinAgent: A Multimodal Foundation Agent for Financial Trading: Tool-Augmented, Diversified, and Generalist
 
-    [https://arxiv.org/abs/2402.17684](https://arxiv.org/abs/2402.17684)
+    [https://arxiv.org/abs/2402.18485](https://arxiv.org/abs/2402.18485)
 
-    该论文提出了在Black-Scholes模型下利用随机泰勒展开得到的近似解析公式，用于离散平均的亚洲期权定价，实践中表现高度准确。
-
-    
-
-    我们在具有时间相关参数的Black-Scholes模型下，针对离散平均的亚洲期权定价提出了封闭的解析近似。这些公式是通过在一个对数正态代理模型周围进行随机泰勒展开得到的，并在实践中被发现非常准确。
-
-    arXiv:2402.17684v1 Announce Type: new  Abstract: We present closed analytical approximations for the pricing of Asian options with discrete averaging under the Black-Scholes model with time-dependent parameters. The formulae are obtained by using a stochastic Taylor expansion around a log-normal proxy model and are found to be highly accurate in practice.
-    
-[^2]: 临界无序钉扎测度
-
-    The critical disordered pinning measure
-
-    [https://arxiv.org/abs/2402.17642](https://arxiv.org/abs/2402.17642)
-
-    论文研究了一个由随机游走引起的无序钉扎模型，发现在临界区间内点对点的分区函数收敛到一种唯一的极限随机测度，并命名为临界无序钉扎测度。
+    FinAgent是一个多模态基础代理，通过工具增强用于金融交易，具有独特的双重反射模块，可以处理多样化的数据并快速适应市场动态。
 
     
 
-    在这篇论文中，我们研究了一个由随机游走引起的无序钉扎模型，其增量具有有限的四阶矩和消失的一阶和三阶矩。已知该模型是临界相关的，并且在中等随机性区域中会发生相变。我们展示，在临界区间内，点对点的分区函数收敛到一个唯一的极限随机测度，我们称之为临界无序钉扎测度。我们还为钉扎模型的连续对应物获得了类似的结果，该连续对应物与另外两个模型密切相关：一个是导致粗糙波动率模型的临界随机Volterra方程，另一个是具有乘性噪声的临界随机热方程，其在时间上是白色的，在空间上是δ函数。
+    金融交易是市场的重要组成部分，受到新闻、价格和K线图等多模态信息构成的信息景观的影响，涵盖了诸如量化交易和不同资产的高频交易等多样化任务。尽管深度学习和强化学习等先进AI技术在金融领域得到广泛应用，但它们在金融交易任务中的应用往往面临着多模态数据处理不足和跨不同任务有限泛化能力的挑战。为了解决这些挑战，我们提出了FinAgent，一个具有工具增强功能的多模态基础代理，用于金融交易。FinAgent的市场智能模块处理各种数据-数值、文本和图像-以准确分析金融市场。其独特的双重反射模块不仅能够快速适应市场动态，还融合了多样化的记忆检索。
 
-    arXiv:2402.17642v1 Announce Type: cross  Abstract: In this paper, we study a disordered pinning model induced by a random walk whose increments have a finite fourth moment and vanishing first and third moments. It is known that this model is marginally relevant, and moreover, it undergoes a phase transition in an intermediate disorder regime. We show that, in the critical window, the point-to-point partition functions converge to a unique limiting random measure, which we call the critical disordered pinning measure. We also obtain an analogous result for a continuous counterpart to the pinning model, which is closely related to two other models: one is a critical stochastic Volterra equation that gives rise to a rough volatility model, and the other is a critical stochastic heat equation with multiplicative noise that is white in time and delta in space.
+    arXiv:2402.18485v1 Announce Type: cross  Abstract: Financial trading is a crucial component of the markets, informed by a multimodal information landscape encompassing news, prices, and Kline charts, and encompasses diverse tasks such as quantitative trading and high-frequency trading with various assets. While advanced AI techniques like deep learning and reinforcement learning are extensively utilized in finance, their application in financial trading tasks often faces challenges due to inadequate handling of multimodal data and limited generalizability across various tasks. To address these challenges, we present FinAgent, a multimodal foundational agent with tool augmentation for financial trading. FinAgent's market intelligence module processes a diverse range of data-numerical, textual, and visual-to accurately analyze the financial market. Its unique dual-level reflection module not only enables rapid adaptation to market dynamics but also incorporates a diversified memory retri
     
-[^3]: 政治讨好和官僚主义影响
+[^2]: 面对面、混合或远程？雇主对疫情后工作的未来的看法
 
-    Political Pandering and Bureaucratic Influence
+    In-Person, Hybrid or Remote? Employers' Perspectives on the Future of Work Post-Pandemic
 
-    [https://arxiv.org/abs/2402.17526](https://arxiv.org/abs/2402.17526)
+    [https://arxiv.org/abs/2402.18459](https://arxiv.org/abs/2402.18459)
 
-    研究发现在政策实施中，政治家和官僚之间的互动在选举激励下会产生讨好行为，不同类型的官僚对此有不同态度，分析显示官僚主义的影响程度能够最大化选民福利。
-
-    
-
-    本文研究了在选举激励产生讨好行为的环境中，官僚主义对政策实施的影响。通过发展一个两期模型来分析政治家和官僚之间的互动，他们被分类为与选民偏好政策相一致的对齐型或者意图制定有利于精英集团的政策的官僚。研究结果揭示了在对齐的政治家诉诸于讨好的均衡状态，而对齐的官僚则支持或反对这种行为。分析进一步表明，根据参数的不同，官僚主义的任何程度都可能使选民的福利最大化，范围从全能的到无力的官僚体系情景都有。
-
-    arXiv:2402.17526v1 Announce Type: new  Abstract: This paper examines the impact of bureaucracy on policy implementation in environments where electoral incentives generate pandering. A two-period model is developed to analyze the interactions between politicians and bureaucrats, who are categorized as either aligned -- sharing the voters' preferences over policies -- or intent on enacting policies that favor elite groups. The findings reveal equilibria in which aligned politicians resort to pandering, whereas aligned bureaucrats either support or oppose such behavior. The analysis further indicates that, depending on parameters, any level of bureaucratic influence can maximize the voters' welfare, ranging from scenarios with an all-powerful to a toothless bureaucracy.
-    
-[^4]: 在高维度中带有跟踪误差和权重约束的受限组合分析中导航复杂性
-
-    Navigating Complexity: Constrained Portfolio Analysis in High Dimensions with Tracking Error and Weight Constraints
-
-    [https://arxiv.org/abs/2402.17523](https://arxiv.org/abs/2402.17523)
-
-    本文分析了高维度投资组合中受限条件下的统计特性，展示了在大维度下如何一致估计这些投资组合，同时提供了受限组合权重、风险和夏普比率的收敛速度结果。
+    混合工作可能成为工作的常态，雇主普遍关注监督和辅导、创新减少、保留/招聘人才等问题，看法是否定的雇主更倾向于传统全程面对面工作模式。
 
     
 
-    本文分析了高维度投资组合中受限制条件下投资组合形成的统计特性。具体来说，我们考虑了具有跟踪误差约束的投资组合、同时带有权重（等式或不等式）限制的投资组合，以及仅带有权重限制的投资组合。跟踪误差是指投资组合表现相对于基准（通常是指数）的度量，而权重约束是指投资组合内资产的具体分配，通常以监管要求或基金章程形式出现。我们展示了即使资产数量多于投资组合的时间跨度，这些投资组合如何可以在大维度下被一致估计。我们还提供了受限组合权重、受限组合风险和受限组合夏普比率的收敛速度结果。
+    我们通过对129家北美雇主的高管数据进行分析，提出了一个关于疫情期间远程工作的雇主视角。我们的分析表明，疫情加速了工作地点格局的部分转变，其中一些形式的混合工作可能会成为常态。然而，这种模式将会因部门（人力资源/法律/销售/IT等）和经营部门的不同而有所不同。雇主们最关注的三个问题包括：监督和辅导、创新减少和创造力；而最重要的三个优点包括他们保留/招聘人才的能力、积极影响公众形象和他们的竞争能力。
 
-    arXiv:2402.17523v1 Announce Type: new  Abstract: This paper analyzes the statistical properties of constrained portfolio formation in a high dimensional portfolio with a large number of assets. Namely, we consider portfolios with tracking error constraints, portfolios with tracking error jointly with weight (equality or inequality) restrictions, and portfolios with only weight restrictions. Tracking error is the portfolio's performance measured against a benchmark (an index usually), {\color{black}{and weight constraints refers to specific allocation of assets within the portfolio, which often come in the form of regulatory requirement or fund prospectus.}} We show how these portfolios can be estimated consistently in large dimensions, even when the number of assets is larger than the time span of the portfolio. We also provide rate of convergence results for weights of the constrained portfolio, risk of the constrained portfolio and the Sharpe Ratio of the constrained portfolio. To ac
+    arXiv:2402.18459v1 Announce Type: new  Abstract: We present an employer-side perspective on remote work through the pandemic using data from top executives of 129 employers in North America. Our analysis suggests that at least some of the pandemic-accelerated changes to the work location landscape will likely stick; with some form of hybrid work being the norm. However, the patterns will vary by department (HR/legal/sales/IT, etc.) and by sector of operations. Top three concerns among employers include: supervision and mentoring, reduction in innovation, and creativity; and the top three benefits include their ability to retain / recruit talent, positive impact on public image and their ability to compete. An Ordered Probit model of the expected April 2024 work location strategy revealed that those in transportation, warehousing, and manufacturing sectors, those with a fully in-person approach to work pre-COVID, and those with a negative outlook towards the impact of remote work are li
     
-[^5]: 限价订单簿模拟：一项综述
+[^3]: 具有内在偏好的社会学习
 
-    Limit Order Book Simulations: A Review
+    Social Learning with Intrinsic Preferences
 
-    [https://arxiv.org/abs/2402.17359](https://arxiv.org/abs/2402.17359)
+    [https://arxiv.org/abs/2402.18452](https://arxiv.org/abs/2402.18452)
 
-    本综述研究了当前先进的各种限价订单簿（LOB）模拟模型，在方法学分类的基础上提供了流行风格事实的整体视图，重点研究了模型中的价格冲击现象。
-
-    
-
-    限价订单簿（LOBs）作为买家和卖家在金融市场中相互交互的机制。对LOB进行建模和模拟通常是校准和微调算法交易研究中开发的自动交易策略时的必要步骤。近年来，人工智能革命和更快、更便宜的计算能力的可用性使得建模和模拟变得更加丰富，甚至使用现代人工智能技术。在这项综述中，我们考察了当前最先进的各种LOB模拟模型。我们在方法论基础上对这些模型进行分类，并提供了文献中用于测试模型的流行风格事实的整体视图。此外，我们重点研究模型中价格冲击的存在，因为这是算法交易中一个更为关键的现象之一。最后，我们进行了一项比较研究。
-
-    arXiv:2402.17359v1 Announce Type: new  Abstract: Limit Order Books (LOBs) serve as a mechanism for buyers and sellers to interact with each other in the financial markets. Modelling and simulating LOBs is quite often necessary} for calibrating and fine-tuning the automated trading strategies developed in algorithmic trading research. The recent AI revolution and availability of faster and cheaper compute power has enabled the modelling and simulations to grow richer and even use modern AI techniques. In this review we \highlight{examine} the various kinds of LOB simulation models present in the current state of the art. We provide a classification of the models on the basis of their methodology and provide an aggregate view of the popular stylized facts used in the literature to test the models. We additionally provide a focused study of price impact's presence in the models since it is one of the more crucial phenomena to model in algorithmic trading. Finally, we conduct a comparative
-    
-[^6]: 在智能金融背景下，用于分析和预测美国股市的随机森林模型
-
-    The Random Forest Model for Analyzing and Forecasting the US Stock Market in the Context of Smart Finance
-
-    [https://arxiv.org/abs/2402.17194](https://arxiv.org/abs/2402.17194)
-
-    本研究评估了结合人工智能的随机森林模型在预测美国股市走势上的预测性能，为投资者提供了决策参考。
+    内在偏好和社会学习共同影响参与者的决策，内在偏好指导主观选择任务中的决策，社会学习决定客观正确解的任务中的决策，不同选择环境下奖励或惩罚会强化各自影响，对行为极化有重要意义。
 
     
 
-    股市是金融市场的重要组成部分，在投资者财富积累、上市公司融资成本和国民宏观经济稳定发展方面发挥着关键作用。股市的显著波动可能损害股票投资者的利益，并导致产业结构失衡，从而干扰国民经济的宏观发展。预测股价走势是学术界的热门研究课题。预测股价上涨、横盘和下跌这三种趋势可以帮助投资者做出买入、持有或卖出股票的明智决策。建立有效的预测模型以预测这些趋势具有极其重要的实际意义。本文评估了结合人工智能的随机森林模型在四只股票测试集上的预测性能。
+    尽管存在大量关于同侪效应的证据，但人们对个体在不同选择环境中如何平衡内在偏好和社会学习了解甚少。我们利用实验和离散选择建模相结合的方法，展示了内在偏好和社会学习共同影响参与者的决策，但它们的相对重要性因选择任务和环境的不同而变化。内在偏好指导参与者在主观选择任务中的决策，而社会学习决定参与者在具有客观正确解的任务中的决策。人们期望根据自己的选择获得奖励的选择环境强化了内在偏好的影响，而人们期望因自己的选择而受到惩罚的环境强化了顺从式社会学习。我们使用模拟讨论了这些发现对行为极化的影响。
 
-    arXiv:2402.17194v1 Announce Type: new  Abstract: The stock market is a crucial component of the financial market, playing a vital role in wealth accumulation for investors, financing costs for listed companies, and the stable development of the national macroeconomy. Significant fluctuations in the stock market can damage the interests of stock investors and cause an imbalance in the industrial structure, which can interfere with the macro level development of the national economy. The prediction of stock price trends is a popular research topic in academia. Predicting the three trends of stock pricesrising, sideways, and falling can assist investors in making informed decisions about buying, holding, or selling stocks. Establishing an effective forecasting model for predicting these trends is of substantial practical importance. This paper evaluates the predictive performance of random forest models combined with artificial intelligence on a test set of four stocks using optimal param
+    arXiv:2402.18452v1 Announce Type: new  Abstract: Despite strong evidence for peer effects, little is known about how individuals balance intrinsic preferences and social learning in different choice environments. Using a combination of experiments and discrete choice modeling, we show that intrinsic preferences and social learning jointly influence participants' decisions, but their relative importance varies across choice tasks and environments. Intrinsic preferences guide participants' decisions in a subjective choice task, while social learning determines participants' decisions in a task with an objectively correct solution. A choice environment in which people expect to be rewarded for their choices reinforces the influence of intrinsic preferences, whereas an environment in which people expect to be punished for their choices reinforces conformist social learning. We use simulations to discuss the implications of these findings for the polarization of behavior.
     
-[^7]: 在合并年金基金中优化提取成功
+[^4]: 具有有界感知行车时间的随机用户均衡模型
 
-    Withdrawal Success Optimization in a Pooled Annuity Fund
+    Stochastic User Equilibrium Model with a Bounded Perceived Travel Time
 
-    [https://arxiv.org/abs/2402.17164](https://arxiv.org/abs/2402.17164)
+    [https://arxiv.org/abs/2402.18435](https://arxiv.org/abs/2402.18435)
 
-    在合并年金基金中，通过优化投资组合权重函数，最大化特定年金购买者完成规定提取直至死亡的概率，并且得到明显增加的最大概率。
-
-    
-
-    考虑一个投资于n种资产且具有离散时间再平衡的封闭型合并年金基金。在时间0，每位年金购买者向基金做出初始投资，并承诺按照预定的提取时间表提取。要求年金购买者在初始投资和预定提取时间表上是同质的，他们的死亡分布是相同且独立的。在上述设置下，最大化特定年金购买者直至死亡完成规定提取的概率，逐步可度量的组合权重函数。具有两种资产混合的基金组合的应用考虑了标准普尔综合指数和一种通胀保护债券。为初始投资和随后年均提取直至死亡的调整时间表计算了最大概率。通过调整组合权重函数进一步提高了最大概率。
-
-    arXiv:2402.17164v1 Announce Type: new  Abstract: Consider a closed pooled annuity fund investing in n assets with discrete-time rebalancing. At time 0, each annuitant makes an initial contribution to the fund, committing to a predetermined schedule of withdrawals. Require annuitants to be homogeneous in the sense that their initial contributions and predetermined withdrawal schedules are identical, and their mortality distributions are identical and independent. Under the forementioned setup, the probability for a particular annuitant to complete the prescribed withdrawals until death is maximized over progressively measurable portfolio weight functions. Applications consider fund portfolios that mix two assets: the S&P Composite Index and an inflation-protected bond. The maximum probability is computed for annually rebalanced schedules consisting of an initial investment and then equal annual withdrawals until death. A considerable increase in the maximum probability is achieved by in
-    
-[^8]: 使用张量网络在量子计算机上生成期权定价的时间序列
-
-    Time series generation for option pricing on quantum computers using tensor network
-
-    [https://arxiv.org/abs/2402.17148](https://arxiv.org/abs/2402.17148)
-
-    提出了一种使用矩阵乘积态作为时间序列生成的方法，可以有效生成多个时间点处基础资产价格的联合分布的态，并证实了该方法在Heston模型中的可行性。
+    该研究提出了一个eUnit-SUE模型来放宽传统SUE模型中的感知行车时间无界假设，有界概率分布确定路径使用，并且通过数值实例有效性。
 
     
 
-    金融，特别是期权定价，是一个有望从量子计算中受益的行业。尽管已经提出了用于期权定价的量子算法，但人们希望在算法中设计出更高效的实现方式，其中之一是准备编码基础资产价格概率分布的量子态。特别是在定价依赖路径的期权时，我们需要生成一个编码多个时间点处基础资产价格的联合分布的态，这更具挑战性。为解决这些问题，我们提出了一种使用矩阵乘积态（MPS）作为时间序列生成的生成模型的新方法。为了验证我们的方法，以Heston模型为目标，我们进行数值实验以在模型中生成时间序列。我们的研究结果表明MPS模型能够生成Heston模型中的路径，突显了...
+    随机用户均衡（SUE）模型描述了交通分配问题中的感知差异。根据无界感知行车时间分布的假设，传统SUE问题导致所有可用路径的积极选择概率，无论它们的行车时间如何不吸引人。本研究提出了一个eUnit-SUE模型来放宽这一假设。eUnit模型源自一个有界概率分布，该闭合形式模型与具有指数化均匀分布随机误差的指数化随机效用最大化（ERUM）范式一致，其中下限和上限端元地确定了路径使用情况。具体而言，为eUnit-SUE问题提出了Beckmann类型的数学规划制定。严格证明了等价性和唯一性属性。数值实例表明，eUnit的边界介于下限和上限之间。
 
-    arXiv:2402.17148v1 Announce Type: cross  Abstract: Finance, especially option pricing, is a promising industrial field that might benefit from quantum computing. While quantum algorithms for option pricing have been proposed, it is desired to devise more efficient implementations of costly operations in the algorithms, one of which is preparing a quantum state that encodes a probability distribution of the underlying asset price. In particular, in pricing a path-dependent option, we need to generate a state encoding a joint distribution of the underlying asset price at multiple time points, which is more demanding. To address these issues, we propose a novel approach using Matrix Product State (MPS) as a generative model for time series generation. To validate our approach, taking the Heston model as a target, we conduct numerical experiments to generate time series in the model. Our findings demonstrate the capability of the MPS model to generate paths in the Heston model, highlightin
+    arXiv:2402.18435v1 Announce Type: new  Abstract: Stochastic User Equilibrium (SUE) models depict the perception differences in traffic assignment problems. According to the assumption of an unbounded perceived travel time distribution, the conventional SUE problems result in a positive choice probability for all available routes, regardless of their unappealing travel time. This study provides an eUnit-SUE model to relax this assumption. The eUnit model is derived from a bounded probability distribution. This closed-form model aligns with an exponentiated random utility maximization (ERUM) paradigm with the exponentiated uniform distributed random error, where the lower and upper bounds endogeneously determine the route usage. Specifically, a Beckmann-type mathematical programming formulation is presented for the eUnit-SUE problem. The equivalency and uniqueness properties are rigorously proven. Numerical examples reveal that the eUnit bound range between the lower and upper bounds gre
     
-[^9]: 两因素不确定波动率模型的单调分段常数控制积分方法
+[^5]: 管理者特征与中小企业的重组决策：法庭内外重组之比较
 
-    A monotone piecewise constant control integration approach for the two-factor uncertain volatility model
+    Manager Characteristics and SMEs' Restructuring Decisions: In-Court vs. Out-of-Court Restructuring
 
-    [https://arxiv.org/abs/2402.06840](https://arxiv.org/abs/2402.06840)
+    [https://arxiv.org/abs/2402.18135](https://arxiv.org/abs/2402.18135)
 
-    这篇论文提出了一种单调分段常数控制积分方法来解决两因素不确定波动率模型中的HJB偏微分方程。通过将HJB PDE分解为独立的线性二维PDE，并利用与这些PDE相关的Green函数的显式公式，我们可以有效地求解该方程。
-
-    
-
-    在不确定波动率模型中，两种资产期权合约的价格满足具有交叉导数项的二维Hamilton-Jacobi-Bellman（HJB）偏微分方程（PDE）。传统方法主要涉及有限差分和策略迭代。本文提出了一种新颖且更简化的“分解和积分，然后优化”的方法来解决上述的HJB PDE。在每个时间步内，我们的策略采用分段常数控制，将HJB PDE分解为独立的线性二维PDE。利用已知的与这些PDE相关的Green函数的Fourier变换的闭式表达式，我们确定了这些函数的显式公式。由于Green函数是非负的，将PDE转化为二维卷积积分的解可以b
-
-    Prices of option contracts on two assets within uncertain volatility models for worst and best-case scenarios satisfy a two-dimensional Hamilton-Jacobi-Bellman (HJB) partial differential equation (PDE) with cross derivatives terms. Traditional methods mainly involve finite differences and policy iteration. This "discretize, then optimize" paradigm requires complex rotations of computational stencils for monotonicity.   This paper presents a novel and more streamlined "decompose and integrate, then optimize" approach to tackle the aforementioned HJB PDE. Within each timestep, our strategy employs a piecewise constant control, breaking down the HJB PDE into independent linear two-dimensional PDEs. Using known closed-form expressions for the Fourier transforms of the Green's functions associated with these PDEs, we determine an explicit formula for these functions. Since the Green's functions are non-negative, the solutions to the PDEs, cast as two-dimensional convolution integrals, can b
-    
-[^10]: 使用可屏蔽股票表示的强化学习在可定制股票池中进行投资组合管理
-
-    Reinforcement Learning with Maskable Stock Representation for Portfolio Management in Customizable Stock Pools
-
-    [https://arxiv.org/abs/2311.10801](https://arxiv.org/abs/2311.10801)
-
-    使用EarnMore方法，我们提出了一种新的RL方法，可以允许RL代理与可定制股票池（CSPs）交互，而不需要重新训练。
+    研究发现经理的任职时间和教育水平会影响他们选择法庭内外重组的倾向，而年龄和性别则不会。这一研究通过关注管理者特征而非公司特征来解释重组决策，为破产和公司重组领域的文献做出了贡献。
 
     
 
-    投资组合管理（PM）是一项基本的金融交易任务，探索定期将资金重新配置到不同股票中以追求长期利润。最近，强化学习（RL）显示出其潜力，通过与金融市场互动来训练具有盈利能力的PM代理。但是，现有工作主要集中在固定股票池上，这与投资者的实际需求不一致。为应对这一挑战，我们提出EarnMore，一种新的RL方法，可以允许RL代理与可定制股票池（CSPs）交互，而不需要重新训练。
+    该研究旨在通过实证研究调查管理者特征对其选择法庭内外重组的影响。基于上层管理团队理论，我们对342家财政困难的法国公司的经理的重组决策偏好进行了测试。本研究的总体发现为上层管理团队理论提供了经验证据。具体来说，任职时间较长和受过高等教育的经理更不愿在法庭前进行重组，更倾向于私下进行重组。研究还表明，经理的年龄和性别并不显著影响他们在法庭内外重组之间的选择。此研究通过将焦点从公司特征转向管理者特征来解释重组决策，为破产和公司重组领域的文献做出了贡献。
 
-    arXiv:2311.10801v3 Announce Type: replace-cross  Abstract: Portfolio management (PM) is a fundamental financial trading task, which explores the optimal periodical reallocation of capitals into different stocks to pursue long-term profits. Reinforcement learning (RL) has recently shown its potential to train profitable agents for PM through interacting with financial markets. However, existing work mostly focuses on fixed stock pools, which is inconsistent with investors' practical demand. Specifically, the target stock pool of different investors varies dramatically due to their discrepancy on market states and individual investors may temporally adjust stocks they desire to trade (e.g., adding one popular stocks), which lead to customizable stock pools (CSPs). Existing RL methods require to retrain RL agents even with a tiny change of the stock pool, which leads to high computational cost and unstable performance. To tackle this challenge, we propose EarnMore, a rEinforcement leARNin
+    arXiv:2402.18135v1 Announce Type: new  Abstract: This study aims to empirically investigate the impact of managers' characteristics on their choice between in-court and out-of-court restructuring. Based on the theory of upper echelons, we tested the preferences of 342 managers of financially distressed French firms regarding restructuring decisions. The overall findings of this study provide empirical support for the upper echelons theory. Specifically, managers with a long tenure and those with a high level of education are less likely to restructure before the court and are more likely to restructure privately. The findings also indicate that managers' age and gender do not significantly affect their choice between in-court and out-of-court restructuring. This study contributes to the literature on bankruptcy and corporate restructuring by turning the focus from firm characteristics to manager characteristics to explain restructuring decisions.
     
-[^11]: 使用机器学习和粗糙波动率预测波动：来自加密寒冬的案例
+[^6]: 在DeFi中，加密抵押超抵押稳定衍生品的建模与分析
 
-    Forecasting Volatility with Machine Learning and Rough Volatility: Example from the Crypto-Winter
+    Modeling and Analysis of Crypto-Backed Over-Collateralized Stable Derivatives in DeFi
 
-    [https://arxiv.org/abs/2311.04727](https://arxiv.org/abs/2311.04727)
+    [https://arxiv.org/abs/2402.18119](https://arxiv.org/abs/2402.18119)
 
-    通过结合LSTM和粗糙波动率，我们发现波动率预测模型在加密货币领域的表现优于传统模型，同时从简约的参数模型中得到类似预测表现，进一步证明了波动率形成过程机制的普遍性。
-
-    
-
-    我们扩展了一种最近引入的波动率预测框架的应用并测试其性能，该框架包括LSTM和粗糙波动率。我们感兴趣的资产类别是加密货币，在2022年的“加密寒冬”初期。我们首先展示了，为了预测波动率，一个基于资产池训练的通用LSTM方法优于传统模型。然后，我们考虑基于粗糙波动率和Zumbach效应的简约参数模型。我们得到类似的预测表现，仅使用五个参数，其值不依赖于资产。我们的发现进一步证实了波动率形成过程背后机制的普遍性。
-
-    arXiv:2311.04727v2 Announce Type: replace  Abstract: We extend the application and test the performance of a recently introduced volatility prediction framework encompassing LSTM and rough volatility. Our asset class of interest is cryptocurrencies, at the beginning of the "crypto-winter" in 2022. We first show that to forecast volatility, a universal LSTM approach trained on a pool of assets outperforms traditional models. We then consider a parsimonious parametric model based on rough volatility and Zumbach effect. We obtain similar prediction performances with only five parameters whose values are non-asset-dependent. Our findings provide further evidence on the universality of the mechanisms underlying the volatility formation process.
-    
-[^12]: 使用Liquid Staking Derivatives (LSDs)进行杠杆质押: 机会与风险
-
-    Leverage Staking with Liquid Staking Derivatives (LSDs): Opportunities and Risks. (arXiv:2401.08610v1 [q-fin.GN])
-
-    [http://arxiv.org/abs/2401.08610](http://arxiv.org/abs/2401.08610)
-
-    这项研究系统地研究了Liquid Staking Derivatives (LSDs)的杠杆质押机会与风险。他们发现杠杆质押在Lido-Aave生态系统中能够实现较高的回报，并有潜力通过优化策略获得更多收益。
+    该研究通过模拟DAI的信念参数以及提出简单的数学模型，解释了稳定币的价格稳定机制和对ETH价格的依赖，并分析了与这些稳定衍生品相关的风险因素。
 
     
 
-    Lido是以太坊上最主要的Liquid Staking Derivative (LSD)提供商，允许用户抵押任意数量的ETH来获得stETH，这可以与DeFi协议如Aave进行整合。Lido与Aave之间的互通性使得一种新型策略“杠杆质押”得以实现，用户在Lido上质押ETH获取stETH，将stETH作为Aave上的抵押品借入ETH，然后将借入的ETH重新投入Lido。用户可以迭代执行此过程，根据自己的风险偏好来优化潜在回报。本文系统地研究了杠杆质押所涉及的机会和风险。我们是第一个在Lido-Aave生态系统中对杠杆质押策略进行形式化的研究。我们的经验研究发现，在以太坊上有262个杠杆质押头寸，总质押金额为295,243 ETH（482M USD）。我们发现，90.13%的杠杆质押头寸实现了比传统质押更高的回报。
+    在去中心化金融（DeFi）中，像DAI这样的稳定币旨在在加密货币波动的情况下提供稳定价值。我们研究了一类基于加密货币抵押的稳定衍生品，重点关注价格稳定机制，以MakerDAO的知名稳定币DAI为例。为了简化，我们将重点放在单一抵押设置上。我们在之前一项工作（DAISIM）的模拟模型中引入了一个信念参数，反映了市场对DAI价值和稳定性的看法，并展示了当该参数设定为足够高的值时更好地与预期行为匹配。我们还提出了一个简单的DAI价格数学模型，以解释其稳定性和对ETH价格的依赖。最后，我们分析了与这些稳定衍生品相关的可能风险因素，为DeFi生态系统中的利益相关者提供有价值的见解。
 
-    Lido, the leading Liquid Staking Derivative (LSD) provider on Ethereum, allows users to stake an arbitrary amount of ETH to receive stETH, which can be integrated with Decentralized Finance (DeFi) protocols such as Aave. The composability between Lido and Aave enables a novel strategy called "leverage staking", where users stake ETH on Lido to acquire stETH, utilize stETH as collateral on Aave to borrow ETH, and then restake the borrowed ETH on Lido. Users can iteratively execute this process to optimize potential returns based on their risk profile.  This paper systematically studies the opportunities and risks associated with leverage staking. We are the first to formalize the leverage staking strategy within the Lido-Aave ecosystem. Our empirical study identifies 262 leverage staking positions on Ethereum, with an aggregated staking amount of 295,243 ETH (482M USD). We discover that 90.13% of leverage staking positions have achieved higher returns than conventional staking. Furtherm
+    arXiv:2402.18119v1 Announce Type: new  Abstract: In decentralized finance (DeFi), stablecoins like DAI are designed to offer a stable value amidst the fluctuating nature of cryptocurrencies. We examine the class of crypto-backed stable derivatives, with a focus on mechanisms for price stabilization, which is exemplified by the well-known stablecoin DAI from MakerDAO. For simplicity, we focus on a single-collateral setting. We introduce a belief parameter to the simulation model of DAI in a previous work (DAISIM), reflecting market sentiments about the value and stability of DAI, and show that it better matches the expected behavior when this parameter is set to a sufficiently high value. We also propose a simple mathematical model of DAI price to explain its stability and dependency on ETH price. Finally, we analyze possible risk factors associated with these stable derivatives to provide valuable insights for stakeholders in the DeFi ecosystem.
     
-[^13]: 在模型不确定性下的离散时间最优投资
+[^7]: 用于生物多样性保护的亲社会和金融激励：一项利用智能手机应用的实地实验
 
-    Discrete time optimal investment under model uncertainty. (arXiv:2307.11919v1 [q-fin.MF])
+    Prosocial and Financial Incentives for Biodiversity Conservation: A Field Experiment Using a Smartphone App
 
-    [http://arxiv.org/abs/2307.11919](http://arxiv.org/abs/2307.11919)
+    [https://arxiv.org/abs/2402.18047](https://arxiv.org/abs/2402.18047)
 
-    本文研究了在模型不确定性下的离散时间最优投资问题，利用原始方法证明了存在一个最优投资策略，并引入了类型(A)的效用函数。
-
-    
-
-    我们研究了一个在一般离散时间无摩擦市场中的鲁棒效用最大化问题，其中假设投资者对整个实数线上的随机凹效用函数进行定义。她还面临对市场的信念的模型不确定性，该不确定性通过一组先验模型进行建模。我们证明了使用原始方法仅需要存在一个最优投资策略。为此，我们假设市场和随机效用函数具有经典假设，具有渐进弹性约束。我们的其他大多数假设是基于逐前假设的，并对市场无不确定性的文献中的普遍接受假设相对应。我们还引入了类型(A)的效用函数，其包括具有基准的效用函数，我们的假设很容易验证。
-
-    We study a robust utility maximization problem in a general discrete-time frictionless market under quasi-sure no-arbitrage. The investor is assumed to have a random and concave utility function defined on the whole real-line. She also faces model ambiguity on her beliefs about the market, which is modeled through a set of priors. We prove the existence of an optimal investment strategy using only primal methods. For that we assume classical assumptions on the market and on the random utility function as asymptotic elasticity constraints. Most of our other assumptions are stated on a prior-by-prior basis and correspond to generally accepted assumptions in the literature on markets without ambiguity. We also introduce utility functions of type (A), which include utility functions with benchmark and for which our assumptions are easily checked.
-    
-[^14]: 量子神经网络和张量网络在截面股票收益预测中的应用
-
-    The cross-sectional stock return predictions via quantum neural network and tensor network. (arXiv:2304.12501v1 [cs.LG])
-
-    [http://arxiv.org/abs/2304.12501](http://arxiv.org/abs/2304.12501)
-
-    本文研究将量子神经网络和张量网络应用于股票收益预测，在日本股市中张量网络模型表现优于传统模型，并在最新市场环境下呈现出卓越表现。
+    该研究通过一项实地实验，比较了针对市民分享物种信息的亲社会激励和金融激励方案的效果。
 
     
 
-    本文研究了利用量子和量子启发式的机器学习算法进行股票收益预测的应用。其中，我们将量子神经网络（一种适用于噪声中等规模量子计算机的算法）和张量网络（一种受量子启发的机器学习算法）的性能与传统模型如线性回归和神经网络进行比较。通过构建基于模型预测的投资组合并测量投资绩效，我们发现在日本股市中，张量网络模型表现优于传统基准模型（包括线性和神经网络模型）。虽然量子神经网络模型在整个周期内具有降低风险调整超额收益的能力，但最新的市场环境下，量子神经网络和张量网络模型均表现出卓越的性能。
+    确定植物、昆虫和动物种类和位置对于生物多样性保护至关重要。然而，仅通过公开固定点调查全面监测情况具有挑战性，因此市民自愿提供的信息有助于确定物种分布。为了有效鼓励市民分享数据行为，本研究提出了一个亲社会激励方案，即如果他们提供物种信息，就会向拯救濒危物种的活动捐款。我们在一个广为人知的日本智能手机应用的用户（N=830）中进行了一项现场实验，他们在该应用上发布物种照片，并测量了激励措施对他们的发布行为的影响。此外，我们测量了一个金融激励方案的效果，该方案为发布物种照片提供货币奖励，并比较了两种激励方案的效果。分析结果表明，
 
-    In this paper we investigate the application of quantum and quantum-inspired machine learning algorithms to stock return predictions. Specifically, we evaluate performance of quantum neural network, an algorithm suited for noisy intermediate-scale quantum computers, and tensor network, a quantum-inspired machine learning algorithm, against classical models such as linear regression and neural networks. To evaluate their abilities, we construct portfolios based on their predictions and measure investment performances. The empirical study on the Japanese stock market shows the tensor network model achieves superior performance compared to classical benchmark models, including linear and neural network models. Though the quantum neural network model attains the lowered risk-adjusted excess return than the classical neural network models over the whole period, both the quantum neural network and tensor network models have superior performances in the latest market environment, which sugges
+    arXiv:2402.18047v1 Announce Type: new  Abstract: Ascertaining the number, type, and location of plant, insect, and animal species is essential for biodiversity conservation. However, comprehensively monitoring the situation only through public fixed-point surveys is challenging, and therefore information voluntarily provided by citizens assists in ascertaining the species distribution. To effectively encourage the citizens' data sharing behavior, this study proposed a prosocial incentive scheme in which, if they provide species information, donations are made to activities for saving endangered species. We conducted a field experiment with users (N=830) of a widely-used Japanese smartphone app to which they post species photos and measured the incentive's effect on their posting behavior. In addition, we measured the effect of a financial incentive scheme that provides monetary rewards for posting species photos and compared the two incentives' effects. The analyses revealed that while
     
-[^15]: 环境政策采用中的不确定性：对不可预测的社会经济成本的贝叶斯学习(arXiv:2304.10344v1 [math.OC])
+[^8]: 集值星形风险度量
 
-    Uncertainty over Uncertainty in Environmental Policy Adoption: Bayesian Learning of Unpredictable Socioeconomic Costs. (arXiv:2304.10344v1 [math.OC])
+    Set-valued Star-Shaped Risk Measures
 
-    [http://arxiv.org/abs/2304.10344](http://arxiv.org/abs/2304.10344)
+    [https://arxiv.org/abs/2402.18014](https://arxiv.org/abs/2402.18014)
 
-    本文开发了一个类似于实物期权的模型，以捕捉环境政策采用中的两层不确定性。决策者能够通过跟踪成本的实际演变来学习未知的漂移，并形成后验动态信念其真正价值。
+    本文提出了一种新的集值星形风险度量，在研究中发现集值风险度量可以表示为集值凸风险度量的并集，集值标准化星形风险度量可以表示为集值标准化凸风险度量的并集，并且建立了集值风险度量和集值星形风险度量之间的联系。
 
     
 
-    污染的社会经济影响自然而然地伴随着不确定性，例如，排放减少的新技术发展或人口变化。此外，环境破坏未来成本的趋势是未知的：全球变暖是否占主导地位，还是技术进步会占据主导地位？事实上，我们不知道哪种情况会实现，科学界的辩论仍然存在。本文通过开发一个类似于实物期权的模型，捕捉这两层不确定性。在该模型中，决策者的目标是在当前的排放率中采取一次性昂贵的减少，当污染的社会经济成本的随机动态受到布朗运动的冲击时，漂移是不可观察的随机变量。通过跟踪成本的实际演变，决策者能够学习未知的漂移，并形成后验动态信念其真正价值。由此产生的决策时机问题公司
+    在本文中，我们引入了一种新的集值风险度量类别，称为集值星形风险度量。受到标量货币和星形风险度量的结果的启发，本文研究了集值框架中的表示定理。结果表明，集值风险度量可以表示为一组集值凸风险度量的并集，并且集值标准化星形风险度量可以表示为一组集值标准化凸风险度量的并集。还建立了集值风险度量和集值星形风险度量之间的联系。
 
-    The socioeconomic impact of pollution naturally comes with uncertainty due to, e.g., current new technological developments in emissions' abatement or demographic changes. On top of that, the trend of the future costs of the environmental damage is unknown: Will global warming dominate or technological advancements prevail? The truth is that we do not know which scenario will be realised and the scientific debate is still open. This paper captures those two layers of uncertainty by developing a real-options-like model in which a decision maker aims at adopting a once-and-for-all costly reduction in the current emissions rate, when the stochastic dynamics of the socioeconomic costs of pollution are subject to Brownian shocks and the drift is an unobservable random variable. By keeping track of the actual evolution of the costs, the decision maker is able to learn the unknown drift and to form a posterior dynamic belief of its true value. The resulting decision maker's timing problem boi
+    arXiv:2402.18014v1 Announce Type: new  Abstract: In this paper, we introduce a new class of set-valued risk measures, named set-valued star-shaped risk measures. Motivated by the results of scalar monetary and star-shaped risk measures, this paper investigates the representation theorems in the set-valued framework. It is demonstrated that set-valued risk measures can be represented as the union of a family of set-valued convex risk measures, and set-valued normalized star-shaped risk measures can be represented as the union of a family of set-valued normalized convex risk measures. The link between set-valued risk measures and set-valued star-shaped risk measures is also established.
+    
+[^9]: 用于投资组合风险管理的神经网络：投资组合压缩、静态对冲、交易对手信用风险敞口及对资本需求的影响
+
+    Neural Networks for Portfolio-Level Risk Management: Portfolio Compression, Static Hedging, Counterparty Credit Risk Exposures and Impact on Capital Requirement
+
+    [https://arxiv.org/abs/2402.17941](https://arxiv.org/abs/2402.17941)
+
+    该研究提出了一个神经网络框架，可以通过较小的欧洲期权组合实现大型投资组合的压缩，同时构建出目标投资组合的静态对冲投资组合，并展示了参数学习算法和优化过程的收敛性。
+
+    
+
+    在本文中，我们提出了一个用于欧洲期权大型投资组合压缩的人工神经网络框架（目标投资组合）通过一组明显较小、期限较短或相同的欧洲期权组合（压缩投资组合），该组合还代表了目标投资组合的自我复制的静态对冲投资组合。对于此提出的机器学习架构，通过选择设计，我们还定义了通过提供参数初始化技术并利用Lokeshwar和Jain（2024年）提出的优化方法来学习模型参数的算法，该方法最初是为了定价百姓期权而引入的。我们演示了错误的收敛和神经网络参数在优化过程中的迭代演变，使用选定的目标投资组合样本进行说明。
+
+    arXiv:2402.17941v1 Announce Type: new  Abstract: In this paper, we present an artificial neural network framework for portfolio compression of a large portfolio of European options with varying maturities (target portfolio) by a significantly smaller portfolio of European options with shorter or same maturity (compressed portfolio), which also represents a self-replicating static hedge portfolio of the target portfolio. For the proposed machine learning architecture, which is consummately interpretable by choice of design, we also define the algorithm to learn model parameters by providing a parameter initialisation technique and leveraging the optimisation methodology proposed in Lokeshwar and Jain (2024), which was initially introduced to price Bermudan options. We demonstrate the convergence of errors and the iterative evolution of neural network parameters over the course of optimization process, using selected target portfolio samples for illustration. We demonstrate through numer
+    
+[^10]: 一种基于收入的减免分析的异质代理商抵押贷款模型
+
+    A Heterogeneous Agent Model of Mortgage Servicing: An Income-based Relief Analysis
+
+    [https://arxiv.org/abs/2402.17932](https://arxiv.org/abs/2402.17932)
+
+    基于代理商模型的分析揭示了在金融困境中如何通过收入为基础的减免措施来支持受影响的家庭。
+
+    
+
+    抵押贷款占美国家庭债务的最大部分，总额约为全国12万亿美元。在经济困难时期，减轻抵押贷款负担对支持受影响家庭至关重要。抵押贷款服务行业在提供这种帮助方面发挥着至关重要的作用，然而至今对于家庭与服务商之间复杂关系的建模研究仍相对有限。为了弥补这一空白，我们开发了一个代理商模型，探讨了家庭行为和金融困境中减免措施的有效性。
+
+    arXiv:2402.17932v1 Announce Type: cross  Abstract: Mortgages account for the largest portion of household debt in the United States, totaling around \$12 trillion nationwide. In times of financial hardship, alleviating mortgage burdens is essential for supporting affected households. The mortgage servicing industry plays a vital role in offering this assistance, yet there has been limited research modelling the complex relationship between households and servicers. To bridge this gap, we developed an agent-based model that explores household behavior and the effectiveness of relief measures during financial distress.   Our model represents households as adaptive learning agents with realistic financial attributes. These households experience exogenous income shocks, which may influence their ability to make mortgage payments. Mortgage servicers provide relief options to these households, who then choose the most suitable relief based on their unique financial circumstances and individu
+    
+[^11]: 基于多元Levy过程模型的量价期权定价与生成人工智能
+
+    Quanto Option Pricing on a Multivariate Levy Process Model with a Generative Artificial Intelligence
+
+    [https://arxiv.org/abs/2402.17919](https://arxiv.org/abs/2402.17919)
+
+    提出了一种基于多元Levy过程模型和生成人工智能的量价期权定价方法，通过新型的gNTS过程模型和CRealNVP模型实现对奇异期权的定价，为定价外国指数和外汇汇率等基础资产的量价期权提供了可行策略
+
+    
+
+    在这项研究中，我们讨论了一种机器学习技术，用于基于非高斯Levy过程模型定价两个基础资产的奇异期权。我们介绍了一种名为广义正态温和稳定（gNTS）过程的新型多元Levy过程模型，它由时变多元布朗运动定义。由于gNTS过程的概率密度函数（PDF）不是简单的解析公式给出的，因此我们使用了有条件的真值非体积保持（CRealNVP）模型，这是一种基于流的生成网络。之后，我们讨论了在gNTS模型上的无套利定价，用于定价基础资产包括外国指数和外汇汇率的量价期权。我们还提出了利用蒙特卡洛模拟生成的训练集训练CRealNVP模型来学习gNTS过程的PDF。接下来，我们利用经过训练的CRea...
+
+    arXiv:2402.17919v1 Announce Type: new  Abstract: In this study, we discuss a machine learning technique to price exotic options with two underlying assets based on a non-Gaussian Levy process model. We introduce a new multivariate Levy process model named the generalized normal tempered stable (gNTS) process, which is defined by time-changed multivariate Brownian motion. Since the probability density function (PDF) of the gNTS process is not given by a simple analytic formula, we use the conditional real-valued non-volume preserving (CRealNVP) model, which is a sort of flow-based generative networks. After that, we discuss the no-arbitrage pricing on the gNTS model for pricing the quanto option whose underlying assets consist of a foreign index and foreign exchange rate. We also present the training of the CRealNVP model to learn the PDF of the gNTS process using a training set generated by Monte Carlo simulation. Next, we estimate the parameters of the gNTS model with the trained CRea
+    
+[^12]: 一种金融传染模型中的最优清算支付
+
+    Optimal Clearing Payments in a Financial Contagion Model
+
+    [https://arxiv.org/abs/2103.10872](https://arxiv.org/abs/2103.10872)
+
+    本文研究了金融传染模型中的最优清算支付，推导出了适用于任意拓扑的清算支付唯一性的新条件，并指出放宽比例原则可以降低系统损失。
+
+    
+
+    金融网络以相互义务的复杂结构为特征。这些义务通过一种称为清算的机制得到完全或部分满足（当发生违约时），该机制通过遵守有限责任、绝对优先权和比例原则（按比例支付）等规则确定一组解决索赔的支付。然而，在金融系统受到冲击时，清算机制可能导致级联违约，最终导致金融灾难。本文首先研究了Eisenberg和Noe的按比例支付清算模型，并推导出了适用于金融网络任意拓扑的清算支付唯一性的新颖必要条件和充分条件。然后，我们认为比例原则是导致级联违约的因素之一，并且如果放宽此规则，则可以减少整个系统的损失。
+
+    arXiv:2103.10872v3 Announce Type: replace-cross  Abstract: Financial networks are characterized by complex structures of mutual obligations. These obligations are fulfilled entirely or in part (when defaults occur) via a mechanism called clearing, which determines a set of payments that settle the claims by respecting rules such as limited liability, absolute priority, and proportionality (pro-rated payments). In the presence of shocks on the financial system, however, the clearing mechanism may lead to cascaded defaults and eventually to financial disaster. In this paper, we first study the clearing model under pro-rated payments of Eisenberg and Noe, and we derive novel necessary and sufficient conditions for the uniqueness of the clearing payments, valid for an arbitrary topology of the financial network. Then, we argue that the proportionality rule is one of the factors responsible for cascaded defaults, and that the overall system loss can be reduced if this rule is lifted. The pr
+    
+[^13]: 在具有局部波动率的跳跃扩散模型中的短期期权的渐近性研究
+
+    Asymptotics for Short Maturity Asian Options in a Jump-Diffusion model with Local Volatility. (arXiv:2308.15672v1 [q-fin.PR])
+
+    [http://arxiv.org/abs/2308.15672](http://arxiv.org/abs/2308.15672)
+
+    本研究针对具有局部波动率分量的跳跃扩散模型，研究了亚洲期权的短期期权渐近性。作者给出了几种流行模型的亚洲期权价格的一阶渐近性结果，并提出了一种满足短期期权渐近性约束的解析近似方法。通过与蒙特卡洛模拟的对比测试，发现渐近结果与数值模拟结果具有良好的一致性。
+
+    
+
+    我们在一个具有局部波动率分量的跳跃扩散模型中，研究了亚洲期权的短期期权渐近性。跳动被建模为复合泊松过程，并扩展为包括指数Lévy模型的Lévy跳动。我们考虑了固定和浮动行权的亚洲期权。我们得到了文献中几个流行模型的亚洲期权价格一阶渐近性的显式结果：Merton跳跃扩散模型、双指数跳跃模型和方差伽玛模型。我们提出了一个满足短期期权渐近性约束的亚洲期权价格的解析近似，然后对其进行蒙特卡洛模拟。渐近结果与数值模拟在足够小的短期期限下具有良好的一致性。
+
+    We present a study of the short maturity asymptotics for Asian options in a jump-diffusion model with a local volatility component, where the jumps are modeled as a compound Poisson process which are later extended to L\'evy jumps, that includes the exponential L\'{e}vy model as a special case. Both fixed and floating strike Asian options are considered. Explicit results are obtained for the first-order asymptotics of the Asian options prices for a few popular models in the literature: the Merton jump-diffusion model, the double-exponential jump model, and the Variance Gamma model. We propose an analytical approximation for Asian option prices which satisfies the constraints from the short-maturity asymptotics, and test it against Monte Carlo simulations. The asymptotic results are in good agreement with numerical simulations for sufficiently small maturity.
+    
+[^14]: 合并市场微观结构与动态资产定价
+
+    Unifying Market Microstructure and Dynamic Asset Pricing. (arXiv:2304.02356v1 [q-fin.MF])
+
+    [http://arxiv.org/abs/2304.02356](http://arxiv.org/abs/2304.02356)
+
+    本研究提出了一种离散二叉树模型，针对具有间断跳跃特征的基础证券进行债权定价，旨在合并市场微观结构和动态资产定价，能够描述交易者未来价格变动预期。
+
+    
+
+    本研究引入了一种针对具有间断跳跃特征的基础证券的离散二叉树来定价债权。金融市场的离散性意味着一个连续模型无法正确地描述交易者对未来价格变动的预期。所提出的二叉树包含了市场微观结构理论的经典模型作为特殊情况。当交易之间的时间间隔趋近于零时，基础价格过程收敛于经典几何布朗运动。
+
+    In this work, we introduce a discrete binary tree for pricing contingent claims with underlying securities that are characterized by discontinuity jumps. The discrete nature of financial markets means that a continuous model is unable to correctly describe the traders' expectations of future price variations. The proposed binary tree contains, as special cases, classical models of market microstructure theory. The underlying price process converges to the classical geometric Brownian motion as the time interval between trades approaches zero.
     
 

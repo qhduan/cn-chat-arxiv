@@ -1,0 +1,12 @@
+{
+    "title": "Extracting Lexical Features from Dialects via Interpretable Dialect Classifiers",
+    "abstract": "arXiv:2402.17914v1 Announce Type: cross  Abstract: Identifying linguistic differences between dialects of a language often requires expert knowledge and meticulous human analysis. This is largely due to the complexity and nuance involved in studying various dialects. We present a novel approach to extract distinguishing lexical features of dialects by utilizing interpretable dialect classifiers, even in the absence of human experts. We explore both post-hoc and intrinsic approaches to interpretability, conduct experiments on Mandarin, Italian, and Low Saxon, and experimentally demonstrate that our method successfully identifies key language-specific lexical features that contribute to dialectal variations.",
+    "link": "https://arxiv.org/abs/2402.17914",
+    "context": "Title: Extracting Lexical Features from Dialects via Interpretable Dialect Classifiers\nAbstract: arXiv:2402.17914v1 Announce Type: cross  Abstract: Identifying linguistic differences between dialects of a language often requires expert knowledge and meticulous human analysis. This is largely due to the complexity and nuance involved in studying various dialects. We present a novel approach to extract distinguishing lexical features of dialects by utilizing interpretable dialect classifiers, even in the absence of human experts. We explore both post-hoc and intrinsic approaches to interpretability, conduct experiments on Mandarin, Italian, and Low Saxon, and experimentally demonstrate that our method successfully identifies key language-specific lexical features that contribute to dialectal variations.",
+    "path": "papers/24/02/2402.17914.json",
+    "total_tokens": 671,
+    "translated_title": "通过可解释的方言分类器提取方言的词汇特征",
+    "translated_abstract": "识别一种语言的方言之间的语言差异通常需要专业知识和细致的人类分析。这主要是因为研究各种方言涉及到复杂性和微妙之处。我们提出了一种新颖的方法，通过利用可解释的方言分类器提取方言的区分性词汇特征，即使在没有人类专家的情况下。我们探索了事后和内在的解释性方法，对普通话、意大利语和低地萨克森语进行实验，并实验证明我们的方法成功地识别了有助于方言变化的关键语言特定词汇特征。",
+    "tldr": "通过可解释的方言分类器提取方言的词汇特征，成功识别了有助于方言变化的关键语言特定词汇特征。",
+    "en_tdlr": "Successfully identifying key language-specific lexical features that contribute to dialectal variations by utilizing interpretable dialect classifiers."
+}

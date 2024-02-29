@@ -1,0 +1,12 @@
+{
+    "title": "Escaping Local Optima in Global Placement",
+    "abstract": "arXiv:2402.18311v1 Announce Type: new  Abstract: Placement is crucial in the physical design, as it greatly affects power, performance, and area metrics. Recent advancements in analytical methods, such as DREAMPlace, have demonstrated impressive performance in global placement. However, DREAMPlace has some limitations, e.g., may not guarantee legalizable placements under the same settings, leading to fragile and unpredictable results. This paper highlights the main issue as being stuck in local optima, and proposes a hybrid optimization framework to efficiently escape the local optima, by perturbing the placement result iteratively. The proposed framework achieves significant improvements compared to state-of-the-art methods on two popular benchmarks.",
+    "link": "https://arxiv.org/abs/2402.18311",
+    "context": "Title: Escaping Local Optima in Global Placement\nAbstract: arXiv:2402.18311v1 Announce Type: new  Abstract: Placement is crucial in the physical design, as it greatly affects power, performance, and area metrics. Recent advancements in analytical methods, such as DREAMPlace, have demonstrated impressive performance in global placement. However, DREAMPlace has some limitations, e.g., may not guarantee legalizable placements under the same settings, leading to fragile and unpredictable results. This paper highlights the main issue as being stuck in local optima, and proposes a hybrid optimization framework to efficiently escape the local optima, by perturbing the placement result iteratively. The proposed framework achieves significant improvements compared to state-of-the-art methods on two popular benchmarks.",
+    "path": "papers/24/02/2402.18311.json",
+    "total_tokens": 708,
+    "translated_title": "在全局布局中避免局部最优解",
+    "translated_abstract": "在物理设计中，布局是至关重要的，它极大地影响功耗、性能和面积指标。最近分析方法的进步，例如DREAMPlace，在全局布局中显示出令人印象深刻的性能。然而，DREAMPlace 存在一些限制，例如可能无法在相同设置下保证可合法布局，导致脆弱且难以预测的结果。本文突出了被困在局部最优解中的主要问题，并提出了一个混合优化框架，通过迭代扰动布局结果以有效地避免局部最优解。所提出的框架在两个流行基准测试上相比最先进的方法取得了显著改进。",
+    "tldr": "本文提出了一个混合优化框架，通过迭代扰动布局结果以有效地避免局部最优解，取得了显著的改进。",
+    "en_tdlr": "This paper proposes a hybrid optimization framework to efficiently escape local optima in global placement by iteratively perturbing the placement result, leading to significant improvements compared to state-of-the-art methods."
+}
