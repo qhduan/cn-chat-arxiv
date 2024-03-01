@@ -1,0 +1,12 @@
+{
+    "title": "Testing Information Ordering for Strategic Agents",
+    "abstract": "arXiv:2402.19425v1 Announce Type: new  Abstract: A key primitive of a strategic environment is the information available to players. Specifying a priori an information structure is often difficult for empirical researchers. We develop a test of information ordering that allows researchers to examine if the true information structure is at least as informative as a proposed baseline. We construct a computationally tractable test statistic by utilizing the notion of Bayes Correlated Equilibrium (BCE) to translate the ordering of information structures into an ordering of functions. We apply our test to examine whether hubs provide informational advantages to certain airlines in addition to market power.",
+    "link": "https://arxiv.org/abs/2402.19425",
+    "context": "Title: Testing Information Ordering for Strategic Agents\nAbstract: arXiv:2402.19425v1 Announce Type: new  Abstract: A key primitive of a strategic environment is the information available to players. Specifying a priori an information structure is often difficult for empirical researchers. We develop a test of information ordering that allows researchers to examine if the true information structure is at least as informative as a proposed baseline. We construct a computationally tractable test statistic by utilizing the notion of Bayes Correlated Equilibrium (BCE) to translate the ordering of information structures into an ordering of functions. We apply our test to examine whether hubs provide informational advantages to certain airlines in addition to market power.",
+    "path": "papers/24/02/2402.19425.json",
+    "total_tokens": 665,
+    "translated_title": "为战略代理商测试信息排序",
+    "translated_abstract": "一种战略环境的关键基元是玩家可获得的信息。为实证研究人员事先指定一个信息结构通常很困难。我们开发了一种信息排序测试，使研究人员能够检验真实信息结构是否至少和提出的基线一样信息丰富。我们通过利用贝叶斯相关均衡（BCE）的概念，将信息结构的排序转化为函数的排序，构建了一个可计算的检验统计量。我们将我们的测试应用于研究枢纽是否为某些航空公司提供信息优势，除了市场力量之外。",
+    "tldr": "我们提出了一种信息排序测试方法，通过将信息结构的排序转化为函数的排序，检验真实信息结构是否至少和提出的基线一样信息丰富。",
+    "en_tdlr": "We propose a test of information ordering that translates the ordering of information structures into an ordering of functions, allowing researchers to examine if the true information structure is at least as informative as a proposed baseline."
+}

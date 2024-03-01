@@ -1,0 +1,12 @@
+{
+    "title": "Extremal quantiles of intermediate orders under two-way clustering",
+    "abstract": "arXiv:2402.19268v1 Announce Type: cross  Abstract: This paper investigates extremal quantiles under two-way cluster dependence. We demonstrate that the limiting distribution of the unconditional intermediate order quantiles in the tails converges to a Gaussian distribution. This is remarkable as two-way cluster dependence entails potential non-Gaussianity in general, but extremal quantiles do not suffer from this issue. Building upon this result, we extend our analysis to extremal quantile regressions of intermediate order.",
+    "link": "https://arxiv.org/abs/2402.19268",
+    "context": "Title: Extremal quantiles of intermediate orders under two-way clustering\nAbstract: arXiv:2402.19268v1 Announce Type: cross  Abstract: This paper investigates extremal quantiles under two-way cluster dependence. We demonstrate that the limiting distribution of the unconditional intermediate order quantiles in the tails converges to a Gaussian distribution. This is remarkable as two-way cluster dependence entails potential non-Gaussianity in general, but extremal quantiles do not suffer from this issue. Building upon this result, we extend our analysis to extremal quantile regressions of intermediate order.",
+    "path": "papers/24/02/2402.19268.json",
+    "total_tokens": 648,
+    "translated_title": "两向聚类下中间级别顺序的极值分位数",
+    "translated_abstract": "本文研究了两向集群依赖下的极值分位数。我们展示了尾部无条件中间级别分位数的极限分布收敛于高斯分布。这一点非常重要，因为通常情况下，两向集群依赖涉及潜在的非高斯性，但极值分位数不会受到此问题的影响。基于这一结果，我们将分析扩展到中间级别的极值分位数回归。",
+    "tldr": "本文研究了两向集群依赖下的极值分位数，发现在尾部，无条件的中间级别分位数的极限分布收敛于高斯分布，并将其扩展到中间级别的极值分位数回归。",
+    "en_tdlr": "This paper investigates extremal quantiles under two-way cluster dependence, demonstrating that the limiting distribution of the unconditional intermediate order quantiles in the tails converges to a Gaussian distribution, and extends this analysis to extremal quantile regressions of intermediate order."
+}

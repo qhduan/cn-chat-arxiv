@@ -1,0 +1,11 @@
+{
+    "title": "A Model-Based Approach for Improving Reinforcement Learning Efficiency Leveraging Expert Observations",
+    "abstract": "arXiv:2402.18836v1 Announce Type: new  Abstract: This paper investigates how to incorporate expert observations (without explicit information on expert actions) into a deep reinforcement learning setting to improve sample efficiency. First, we formulate an augmented policy loss combining a maximum entropy reinforcement learning objective with a behavioral cloning loss that leverages a forward dynamics model. Then, we propose an algorithm that automatically adjusts the weights of each component in the augmented loss function. Experiments on a variety of continuous control tasks demonstrate that the proposed algorithm outperforms various benchmarks by effectively utilizing available expert observations.",
+    "link": "https://arxiv.org/abs/2402.18836",
+    "context": "Title: A Model-Based Approach for Improving Reinforcement Learning Efficiency Leveraging Expert Observations\nAbstract: arXiv:2402.18836v1 Announce Type: new  Abstract: This paper investigates how to incorporate expert observations (without explicit information on expert actions) into a deep reinforcement learning setting to improve sample efficiency. First, we formulate an augmented policy loss combining a maximum entropy reinforcement learning objective with a behavioral cloning loss that leverages a forward dynamics model. Then, we propose an algorithm that automatically adjusts the weights of each component in the augmented loss function. Experiments on a variety of continuous control tasks demonstrate that the proposed algorithm outperforms various benchmarks by effectively utilizing available expert observations.",
+    "path": "papers/24/02/2402.18836.json",
+    "total_tokens": 691,
+    "translated_title": "基于模型的方法改进强化学习效率，利用专家观察",
+    "translated_abstract": "这篇论文研究了如何将专家观察（没有明确的专家行动信息）纳入深度强化学习环境，以提高样本效率。首先，我们形成了一个扩展的策略损失，结合了最大熵强化学习目标与利用前向动力学模型的行为克隆损失。然后，我们提出了一个算法，自动调整扩展损失函数中每个组件的权重。在各种连续控制任务的实验证明，所提出的算法通过有效利用可用的专家观察击败了各种基准。",
+    "tldr": "这个方法结合了最大熵强化学习和行为克隆损失的扩展策略损失，通过调整权重提高了强化学习的效率，并在连续控制任务中表现优异。"
+}

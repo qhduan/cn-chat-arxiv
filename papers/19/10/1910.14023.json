@@ -1,0 +1,12 @@
+{
+    "title": "Firm Entry and Exit with Unbounded Productivity Growth",
+    "abstract": "arXiv:1910.14023v2 Announce Type: replace  Abstract: In Hopenhayn's (1992) entry-exit model productivity is bounded, implying that the predicted firm size distribution cannot match the power law tail observable in the data. In this paper we remove the boundedness assumption and, in this more general setting, provide an exact characterization of existence of stationary equilibria, as well as a novel sufficient condition for existence based on treating production as a Lyapunov function. We also provide new representations of the rate of entry and aggregate supply. Finally, we prove that the firm size distribution has a power law tail under a very broad set of productivity growth specifications.",
+    "link": "https://arxiv.org/abs/1910.14023",
+    "context": "Title: Firm Entry and Exit with Unbounded Productivity Growth\nAbstract: arXiv:1910.14023v2 Announce Type: replace  Abstract: In Hopenhayn's (1992) entry-exit model productivity is bounded, implying that the predicted firm size distribution cannot match the power law tail observable in the data. In this paper we remove the boundedness assumption and, in this more general setting, provide an exact characterization of existence of stationary equilibria, as well as a novel sufficient condition for existence based on treating production as a Lyapunov function. We also provide new representations of the rate of entry and aggregate supply. Finally, we prove that the firm size distribution has a power law tail under a very broad set of productivity growth specifications.",
+    "path": "papers/19/10/1910.14023.json",
+    "total_tokens": 706,
+    "translated_title": "具有无界生产率增长的企业进入与退出",
+    "translated_abstract": "在Hopenhayn（1992）的进入退出模型中，生产率是有界的，这意味着预测的企业规模分布无法与数据中可观测到的幂律尾部相匹配。在本文中，我们去除了有界性假设，并在这种更一般的情境下，对平衡态存在的确切特征提供了描述，以及基于将生产视为Lyapunov函数的存在新的充分条件。我们还提供了进入率和总供给的新表示。最后，我们证明在非常广泛的生产率增长设定下，企业规模分布具有幂律尾部。",
+    "tldr": "本文通过去除生产率的有界性假设，在更一般的情境下提供了平衡态存在的确切特征，并给出了企业规模分布具有幂律尾部的充分条件。",
+    "en_tdlr": "This paper removes the boundedness assumption on productivity, providing an exact characterization of equilibrium existence in a more general setting, and presents a novel sufficient condition for the power law tail in the firm size distribution under a wide range of productivity growth specifications."
+}

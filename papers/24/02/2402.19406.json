@@ -1,0 +1,12 @@
+{
+    "title": "On the Scaling Laws of Geographical Representation in Language Models",
+    "abstract": "arXiv:2402.19406v1 Announce Type: cross  Abstract: Language models have long been shown to embed geographical information in their hidden representations. This line of work has recently been revisited by extending this result to Large Language Models (LLMs). In this paper, we propose to fill the gap between well-established and recent literature by observing how geographical knowledge evolves when scaling language models. We show that geographical knowledge is observable even for tiny models, and that it scales consistently as we increase the model size. Notably, we observe that larger language models cannot mitigate the geographical bias that is inherent to the training data.",
+    "link": "https://arxiv.org/abs/2402.19406",
+    "context": "Title: On the Scaling Laws of Geographical Representation in Language Models\nAbstract: arXiv:2402.19406v1 Announce Type: cross  Abstract: Language models have long been shown to embed geographical information in their hidden representations. This line of work has recently been revisited by extending this result to Large Language Models (LLMs). In this paper, we propose to fill the gap between well-established and recent literature by observing how geographical knowledge evolves when scaling language models. We show that geographical knowledge is observable even for tiny models, and that it scales consistently as we increase the model size. Notably, we observe that larger language models cannot mitigate the geographical bias that is inherent to the training data.",
+    "path": "papers/24/02/2402.19406.json",
+    "total_tokens": 670,
+    "translated_title": "关于语言模型中地理表示的规模定律研究",
+    "translated_abstract": "语言模型长期以来被证明在其隐藏表示中嵌入了地理信息。最近的一项研究将这一结果扩展到了大型语言模型(LLMs)。本文通过观察语言模型规模扩大时地理知识的演化，提出填补现有和最近文献之间的空白。我们展示了即使对于微小模型，地理知识也是可观测的，并且随着模型大小的增加而一致扩展。值得注意的是，我们发现更大的语言模型无法消除训练数据中固有的地理偏见。",
+    "tldr": "地理知识可以在大型语言模型中观察到，随着模型规模增加而一致扩展，但更大的模型无法消除训练数据中的地理偏见。",
+    "en_tdlr": "Geographical knowledge is observable and consistently scales with model size in language models, but larger models cannot mitigate inherent geographical bias in the training data."
+}

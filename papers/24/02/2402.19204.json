@@ -1,0 +1,12 @@
+{
+    "title": "PeLLE: Encoder-based language models for Brazilian Portuguese based on open data",
+    "abstract": "arXiv:2402.19204v1 Announce Type: new  Abstract: In this paper we present PeLLE, a family of large language models based on the RoBERTa architecture, for Brazilian Portuguese, trained on curated, open data from the Carolina corpus. Aiming at reproducible results, we describe details of the pretraining of the models. We also evaluate PeLLE models against a set of existing multilingual and PT-BR refined pretrained Transformer-based LLM encoders, contrasting performance of large versus smaller-but-curated pretrained models in several downstream tasks. We conclude that several tasks perform better with larger models, but some tasks benefit from smaller-but-curated data in its pretraining.",
+    "link": "https://arxiv.org/abs/2402.19204",
+    "context": "Title: PeLLE: Encoder-based language models for Brazilian Portuguese based on open data\nAbstract: arXiv:2402.19204v1 Announce Type: new  Abstract: In this paper we present PeLLE, a family of large language models based on the RoBERTa architecture, for Brazilian Portuguese, trained on curated, open data from the Carolina corpus. Aiming at reproducible results, we describe details of the pretraining of the models. We also evaluate PeLLE models against a set of existing multilingual and PT-BR refined pretrained Transformer-based LLM encoders, contrasting performance of large versus smaller-but-curated pretrained models in several downstream tasks. We conclude that several tasks perform better with larger models, but some tasks benefit from smaller-but-curated data in its pretraining.",
+    "path": "papers/24/02/2402.19204.json",
+    "total_tokens": 796,
+    "translated_title": "基于开放数据的巴西葡萄牙语编码器语言模型PeLLE",
+    "translated_abstract": "在本文中，我们介绍了PeLLE，这是一个基于RoBERTa架构的大型语言模型系列，用于巴西葡萄牙语，训练数据来自Carolina语料库。为了可重复的结果，我们描述了模型的预训练细节。我们还评估了PeLLE模型与一组现有的多语言和PT-BR精调预训练的Transformer LLM编码器，在多个下游任务中对比了大型模型与较小但经过筛选的预训练模型的性能。我们得出结论，一些任务使用更大的模型效果更好，但在预训练中，一些任务受益于较小但精选的数据。",
+    "tldr": "PeLLE是基于RoBERTa架构的巴西葡萄牙语编码器语言模型系列，在其预训练中使用了Carolina语料库的开放数据，研究发现在多个下游任务中，使用较大模型的性能更好，但有些任务会因为使用较小但精选的数据在预训练中而有所益处。",
+    "en_tdlr": "PeLLE is a series of Brazilian Portuguese encoder-based language models based on the RoBERTa architecture, trained on open data from the Carolina corpus. The study found that larger models perform better in several downstream tasks, but some tasks benefit from pretraining with smaller-but-curated data."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Accelerating Computer Architecture Simulation through Machine Learning",
+    "abstract": "arXiv:2402.18746v1 Announce Type: cross  Abstract: This paper presents our approach to accelerate computer architecture simulation by leveraging machine learning techniques. Traditional computer architecture simulations are time-consuming, making it challenging to explore different design choices efficiently. Our proposed model utilizes a combination of application features and micro-architectural features to predict the performance of an application. These features are derived from simulations of a small portion of the application. We demonstrate the effectiveness of our approach by building and evaluating a machine learning model that offers significant speedup in architectural exploration. This model demonstrates the ability to predict IPC values for the testing data with a root mean square error of less than 0.1.",
+    "link": "https://arxiv.org/abs/2402.18746",
+    "context": "Title: Accelerating Computer Architecture Simulation through Machine Learning\nAbstract: arXiv:2402.18746v1 Announce Type: cross  Abstract: This paper presents our approach to accelerate computer architecture simulation by leveraging machine learning techniques. Traditional computer architecture simulations are time-consuming, making it challenging to explore different design choices efficiently. Our proposed model utilizes a combination of application features and micro-architectural features to predict the performance of an application. These features are derived from simulations of a small portion of the application. We demonstrate the effectiveness of our approach by building and evaluating a machine learning model that offers significant speedup in architectural exploration. This model demonstrates the ability to predict IPC values for the testing data with a root mean square error of less than 0.1.",
+    "path": "papers/24/02/2402.18746.json",
+    "total_tokens": 737,
+    "translated_title": "通过机器学习加速计算机体系结构模拟",
+    "translated_abstract": "本文介绍了我们利用机器学习技术加速计算机体系结构模拟的方法。传统的计算机体系结构模拟耗时较长，使得高效地探索不同设计选择变得具有挑战性。我们提出的模型利用应用程序特征和微体系结构特征的组合来预测应用程序的性能。这些特征来源于应用程序的一小部分的模拟。我们通过构建和评估一个机器学习模型来展示我们方法的有效性，该模型在体系结构探索中提供了显著的加速。该模型展示了在测试数据中预测IPC值的能力，均方根误差小于0.1。",
+    "tldr": "通过机器学习技术加速计算机体系结构模拟，利用应用程序特征和微体系结构特征的组合来预测性能，有效地提高了体系结构探索的速度，并展示了在测试数据中预测IPC值的能力。"
+}

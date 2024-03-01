@@ -1,0 +1,11 @@
+{
+    "title": "To Pool or Not To Pool: Analyzing the Regularizing Effects of Group-Fair Training on Shared Models",
+    "abstract": "arXiv:2402.18803v1 Announce Type: new  Abstract: In fair machine learning, one source of performance disparities between groups is over-fitting to groups with relatively few training samples. We derive group-specific bounds on the generalization error of welfare-centric fair machine learning that benefit from the larger sample size of the majority group. We do this by considering group-specific Rademacher averages over a restricted hypothesis class, which contains the family of models likely to perform well with respect to a fair learning objective (e.g., a power-mean). Our simulations demonstrate these bounds improve over a naive method, as expected by theory, with particularly significant improvement for smaller group sizes.",
+    "link": "https://arxiv.org/abs/2402.18803",
+    "context": "Title: To Pool or Not To Pool: Analyzing the Regularizing Effects of Group-Fair Training on Shared Models\nAbstract: arXiv:2402.18803v1 Announce Type: new  Abstract: In fair machine learning, one source of performance disparities between groups is over-fitting to groups with relatively few training samples. We derive group-specific bounds on the generalization error of welfare-centric fair machine learning that benefit from the larger sample size of the majority group. We do this by considering group-specific Rademacher averages over a restricted hypothesis class, which contains the family of models likely to perform well with respect to a fair learning objective (e.g., a power-mean). Our simulations demonstrate these bounds improve over a naive method, as expected by theory, with particularly significant improvement for smaller group sizes.",
+    "path": "papers/24/02/2402.18803.json",
+    "total_tokens": 767,
+    "translated_title": "是否进行数据汇集：分析群体公平训练对共享模型的正则化效果",
+    "translated_abstract": "在公平机器学习中，导致群体之间性能差异的一个原因是对相对少量训练样本的过度拟合。我们推导了围绕多数群体更大样本量的福利中心公平机器学习的泛化误差的群体特定界限。我们通过考虑受限假设类别上的群体特定Rademacher平均值来实现这一点，该假设类别包含在公平学习目标（例如，幂均值）方面表现良好的模型族。我们的模拟表明，这些界限相对于朴素方法有所改进，这符合理论预期，尤其对于较小的群体规模有显着改进。",
+    "tldr": "该研究分析了群体公平训练对共享模型的正则化效果，通过推导群体特定的泛化误差界限以解决不同群体之间的性能差异问题，尤其对于较小的群体规模有显着改进。"
+}

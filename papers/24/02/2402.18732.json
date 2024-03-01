@@ -1,0 +1,12 @@
+{
+    "title": "GAIA: Categorical Foundations of Generative AI",
+    "abstract": "arXiv:2402.18732v1 Announce Type: new  Abstract: In this paper, we propose GAIA, a generative AI architecture based on category theory. GAIA is based on a hierarchical model where modules are organized as a simplicial complex. Each simplicial complex updates its internal parameters biased on information it receives from its superior simplices and in turn relays updates to its subordinate sub-simplices. Parameter updates are formulated in terms of lifting diagrams over simplicial sets, where inner and outer horn extensions correspond to different types of learning problems. Backpropagation is modeled as an endofunctor over the category of parameters, leading to a coalgebraic formulation of deep learning.",
+    "link": "https://arxiv.org/abs/2402.18732",
+    "context": "Title: GAIA: Categorical Foundations of Generative AI\nAbstract: arXiv:2402.18732v1 Announce Type: new  Abstract: In this paper, we propose GAIA, a generative AI architecture based on category theory. GAIA is based on a hierarchical model where modules are organized as a simplicial complex. Each simplicial complex updates its internal parameters biased on information it receives from its superior simplices and in turn relays updates to its subordinate sub-simplices. Parameter updates are formulated in terms of lifting diagrams over simplicial sets, where inner and outer horn extensions correspond to different types of learning problems. Backpropagation is modeled as an endofunctor over the category of parameters, leading to a coalgebraic formulation of deep learning.",
+    "path": "papers/24/02/2402.18732.json",
+    "total_tokens": 714,
+    "translated_title": "GAIA: 生成AI的范畴基础",
+    "translated_abstract": "在本文中，我们提出了GAIA，一种基于范畴论的生成AI架构。GAIA基于一个层次模型，其中模块被组织为一个单纯复合体。每个单纯复合体根据从其上级单纯体接收到的信息更新其内部参数，并将更新传递给其下级子单纯体。参数更新以单纯集上的提升图表的形式进行，其中内部和外部角扩展对应不同类型的学习问题。反向传播被建模为参数范畴上的一个自函子，导致深度学习的一个余代数形式。",
+    "tldr": "提出了一种基于范畴论的生成AI架构GAIA，采用层次模型和单纯复合体组织模块，将参数更新建模为单纯集上的提升图表，并采用余代数的形式进行深度学习。",
+    "en_tdlr": "Introduced GAIA, a generative AI architecture based on category theory, utilizing a hierarchical model with simplicial complex organization of modules and formulating parameter updates as lifting diagrams over simplicial sets, leading to a coalgebraic formulation for deep learning."
+}

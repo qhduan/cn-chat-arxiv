@@ -1,0 +1,12 @@
+{
+    "title": "Trends, Applications, and Challenges in Human Attention Modelling",
+    "abstract": "arXiv:2402.18673v1 Announce Type: cross  Abstract: Human attention modelling has proven, in recent years, to be particularly useful not only for understanding the cognitive processes underlying visual exploration, but also for providing support to artificial intelligence models that aim to solve problems in various domains, including image and video processing, vision-and-language applications, and language modelling. This survey offers a reasoned overview of recent efforts to integrate human attention mechanisms into contemporary deep learning models and discusses future research directions and challenges. For a comprehensive overview on the ongoing research refer to our dedicated repository available at https://github.com/aimagelab/awesome-human-visual-attention.",
+    "link": "https://arxiv.org/abs/2402.18673",
+    "context": "Title: Trends, Applications, and Challenges in Human Attention Modelling\nAbstract: arXiv:2402.18673v1 Announce Type: cross  Abstract: Human attention modelling has proven, in recent years, to be particularly useful not only for understanding the cognitive processes underlying visual exploration, but also for providing support to artificial intelligence models that aim to solve problems in various domains, including image and video processing, vision-and-language applications, and language modelling. This survey offers a reasoned overview of recent efforts to integrate human attention mechanisms into contemporary deep learning models and discusses future research directions and challenges. For a comprehensive overview on the ongoing research refer to our dedicated repository available at https://github.com/aimagelab/awesome-human-visual-attention.",
+    "path": "papers/24/02/2402.18673.json",
+    "total_tokens": 705,
+    "translated_title": "人类注意力建模的趋势、应用和挑战",
+    "translated_abstract": "近年来，人类注意力建模不仅在理解视觉探索背后的认知过程方面特别有用，而且在为旨在解决各个领域问题的人工智能模型提供支持方面也表现出色，包括图像和视频处理、视觉与语言应用以及语言建模。本调查提供了综述最新努力将人类注意机制整合到当代深度学习模型中的理由，并讨论了未来的研究方向和挑战。有关正在进行研究的全面概述，请参阅我们在 https://github.com/aimagelab/awesome-human-visual-attention 上提供的专用存储库。",
+    "tldr": "人类注意力建模为深度学习模型的整合提供了重要支持，有助于解决图像处理、视频处理、视觉与语言应用和语言建模等领域的问题。",
+    "en_tdlr": "Human attention modelling provides important support for integrating into deep learning models and helps solve problems in various domains such as image processing, video processing, vision-and-language applications, and language modelling."
+}

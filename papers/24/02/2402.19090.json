@@ -1,0 +1,12 @@
+{
+    "title": "Best Arm Identification with Resource Constraints",
+    "abstract": "arXiv:2402.19090v1 Announce Type: new  Abstract: Motivated by the cost heterogeneity in experimentation across different alternatives, we study the Best Arm Identification with Resource Constraints (BAIwRC) problem. The agent aims to identify the best arm under resource constraints, where resources are consumed for each arm pull. We make two novel contributions. We design and analyze the Successive Halving with Resource Rationing algorithm (SH-RR). The SH-RR achieves a near-optimal non-asymptotic rate of convergence in terms of the probability of successively identifying an optimal arm. Interestingly, we identify a difference in convergence rates between the cases of deterministic and stochastic resource consumption.",
+    "link": "https://arxiv.org/abs/2402.19090",
+    "context": "Title: Best Arm Identification with Resource Constraints\nAbstract: arXiv:2402.19090v1 Announce Type: new  Abstract: Motivated by the cost heterogeneity in experimentation across different alternatives, we study the Best Arm Identification with Resource Constraints (BAIwRC) problem. The agent aims to identify the best arm under resource constraints, where resources are consumed for each arm pull. We make two novel contributions. We design and analyze the Successive Halving with Resource Rationing algorithm (SH-RR). The SH-RR achieves a near-optimal non-asymptotic rate of convergence in terms of the probability of successively identifying an optimal arm. Interestingly, we identify a difference in convergence rates between the cases of deterministic and stochastic resource consumption.",
+    "path": "papers/24/02/2402.19090.json",
+    "total_tokens": 755,
+    "translated_title": "具有资源约束的最佳臂识别",
+    "translated_abstract": "受到不同替代方案实验成本异质性的启发，我们研究了具有资源约束的最佳臂识别（BAIwRC）问题。代理商旨在在资源约束下识别最佳臂，其中资源被每次拉动手臂消耗。我们做出了两个新的贡献。我们设计并分析了具有资源比例的连续减半算法（SH-RR）。SH-RR以近乎最优的非渐近收敛速度实现了成功识别最佳臂的概率。有趣的是，我们确定了确定性和随机资源消耗情况下收敛速度之间的差异。",
+    "tldr": "该论文研究了具有资源约束的最佳臂识别问题，提出了连续减半算法（SH-RR），在非渐近情况下以接近最优速度成功识别最佳臂，并发现了确定性和随机资源消耗情况下的收敛速度差异。",
+    "en_tdlr": "This paper studies the Best Arm Identification with Resource Constraints problem, proposes the Successive Halving with Resource Rationing algorithm (SH-RR), achieves near-optimal non-asymptotic rate of convergence in successfully identifying the best arm, and identifies the difference in convergence rates between deterministic and stochastic resource consumption."
+}

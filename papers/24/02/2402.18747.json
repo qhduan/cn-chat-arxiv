@@ -1,0 +1,12 @@
+{
+    "title": "Fine-Tuned Machine Translation Metrics Struggle in Unseen Domains",
+    "abstract": "arXiv:2402.18747v1 Announce Type: cross  Abstract: We introduce a new, extensive multidimensional quality metrics (MQM) annotated dataset covering 11 language pairs in the biomedical domain. We use this dataset to investigate whether machine translation (MT) metrics which are fine-tuned on human-generated MT quality judgements are robust to domain shifts between training and inference. We find that fine-tuned metrics exhibit a substantial performance drop in the unseen domain scenario relative to metrics that rely on the surface form, as well as pre-trained metrics which are not fine-tuned on MT quality judgments.",
+    "link": "https://arxiv.org/abs/2402.18747",
+    "context": "Title: Fine-Tuned Machine Translation Metrics Struggle in Unseen Domains\nAbstract: arXiv:2402.18747v1 Announce Type: cross  Abstract: We introduce a new, extensive multidimensional quality metrics (MQM) annotated dataset covering 11 language pairs in the biomedical domain. We use this dataset to investigate whether machine translation (MT) metrics which are fine-tuned on human-generated MT quality judgements are robust to domain shifts between training and inference. We find that fine-tuned metrics exhibit a substantial performance drop in the unseen domain scenario relative to metrics that rely on the surface form, as well as pre-trained metrics which are not fine-tuned on MT quality judgments.",
+    "path": "papers/24/02/2402.18747.json",
+    "total_tokens": 689,
+    "translated_title": "细调的机器翻译度量在未知领域中存在困难",
+    "translated_abstract": "我们引入了一个新的、涵盖生物医学领域中11种语言对的广泛的多维质量度量(MQM)注释数据集。我们利用这个数据集来探究在训练和推断之间的领域转移时，是否那些根据人工生成的机器翻译质量判断进行细调的MT度量是稳健的。我们发现，在未知领域的情况下，细调的度量相对于依赖表面形式的度量以及未经MT质量判断细调的预训练度量表现出显著的性能下降。",
+    "tldr": "细调的机器翻译度量在未知领域中表现出明显的性能下降，相对于依赖表面形式的度量和未经MT质量判断细调的预训练度量。",
+    "en_tdlr": "Fine-tuned machine translation metrics show significant performance drop in unseen domains compared to metrics relying on surface form and pre-trained metrics not fine-tuned on MT quality judgments."
+}

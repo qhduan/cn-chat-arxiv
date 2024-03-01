@@ -1,0 +1,12 @@
+{
+    "title": "Machine learning for modular multiplication",
+    "abstract": "arXiv:2402.19254v1 Announce Type: new  Abstract: Motivated by cryptographic applications, we investigate two machine learning approaches to modular multiplication: namely circular regression and a sequence-to-sequence transformer model. The limited success of both methods demonstrated in our results gives evidence for the hardness of tasks involving modular multiplication upon which cryptosystems are based.",
+    "link": "https://arxiv.org/abs/2402.19254",
+    "context": "Title: Machine learning for modular multiplication\nAbstract: arXiv:2402.19254v1 Announce Type: new  Abstract: Motivated by cryptographic applications, we investigate two machine learning approaches to modular multiplication: namely circular regression and a sequence-to-sequence transformer model. The limited success of both methods demonstrated in our results gives evidence for the hardness of tasks involving modular multiplication upon which cryptosystems are based.",
+    "path": "papers/24/02/2402.19254.json",
+    "total_tokens": 477,
+    "translated_title": "用于模乘的机器学习",
+    "translated_abstract": "受到密码应用的启发，我们研究了两种机器学习方法来进行模乘：循环回归和序列到序列变换器模型。我们结果中展示的这两种方法的有限成功证明了与基于加密系统的模乘相关的任务的困难性。",
+    "tldr": "证明了模乘任务的困难性，为基于加密系统的任务提供了机器学习方法的研究证据",
+    "en_tdlr": "Demonstrated the difficulty of modular multiplication tasks, providing evidence for the research of machine learning methods for tasks based on cryptographic systems."
+}

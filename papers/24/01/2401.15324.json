@@ -1,0 +1,12 @@
+{
+    "title": "Neutrino Reconstruction in TRIDENT Based on Graph Neural Network",
+    "abstract": "arXiv:2401.15324v1 Announce Type: cross  Abstract: TRopIcal DEep-sea Neutrino Telescope (TRIDENT) is a next-generation neutrino telescope to be located in the South China Sea. With a large detector volume and the use of advanced hybrid digital optical modules (hDOMs), TRIDENT aims to discover multiple astrophysical neutrino sources and probe all-flavor neutrino physics. The reconstruction resolution of primary neutrinos is on the critical path to these scientific goals. We have developed a novel reconstruction method based on graph neural network (GNN) for TRIDENT. In this paper, we present the reconstruction performance of the GNN-based approach on both track- and shower-like neutrino events in TRIDENT.",
+    "link": "https://arxiv.org/abs/2401.15324",
+    "context": "Title: Neutrino Reconstruction in TRIDENT Based on Graph Neural Network\nAbstract: arXiv:2401.15324v1 Announce Type: cross  Abstract: TRopIcal DEep-sea Neutrino Telescope (TRIDENT) is a next-generation neutrino telescope to be located in the South China Sea. With a large detector volume and the use of advanced hybrid digital optical modules (hDOMs), TRIDENT aims to discover multiple astrophysical neutrino sources and probe all-flavor neutrino physics. The reconstruction resolution of primary neutrinos is on the critical path to these scientific goals. We have developed a novel reconstruction method based on graph neural network (GNN) for TRIDENT. In this paper, we present the reconstruction performance of the GNN-based approach on both track- and shower-like neutrino events in TRIDENT.",
+    "path": "papers/24/01/2401.15324.json",
+    "total_tokens": 697,
+    "translated_title": "基于图神经网络的TRIDENT中微子重建",
+    "translated_abstract": "arXiv:2401.15324v1 公告类型:交叉摘要:热带深海中微子望远镜(TRIDENT)是一种下一代中微子望远镜，将位于南中国海。通过具有大探测器体积和使用先进的混合数字光模块(hDOMs)，TRIDENT旨在发现多个天体中微子源并探测全味中微子物理。 主要中微子的重建分辨率是实现这些科学目标的关键因素。我们基于图神经网络(GNN)开发了一种新的TRIDENT重建方法。 本文介绍了GNN方法在TRIDENT中轨迹型和淋球状中微子事件上的重建性能。",
+    "tldr": "TRIDENT中微子望远镜采用基于图神经网络的新型重建方法，提高了中微子事件的重建性能。",
+    "en_tdlr": "TRIDENT neutrino telescope utilizes a novel reconstruction method based on Graph Neural Network, enhancing the reconstruction performance of neutrino events."
+}

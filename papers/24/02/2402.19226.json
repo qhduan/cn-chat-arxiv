@@ -1,0 +1,12 @@
+{
+    "title": "Investigating Gender Fairness in Machine Learning-driven Personalized Care for Chronic Pain",
+    "abstract": "arXiv:2402.19226v1 Announce Type: new  Abstract: This study investigates gender fairness in personalized pain care recommendations using machine learning algorithms. Leveraging a contextual bandits framework, personalized recommendations are formulated and evaluated using LinUCB algorithm on a dataset comprising interactions with $164$ patients across $10$ sessions each. Results indicate that while adjustments to algorithm parameters influence the quality of pain care recommendations, this impact remains consistent across genders. However, when certain patient information, such as self-reported pain measurements, is absent, the quality of pain care recommendations for women is notably inferior to that for men.",
+    "link": "https://arxiv.org/abs/2402.19226",
+    "context": "Title: Investigating Gender Fairness in Machine Learning-driven Personalized Care for Chronic Pain\nAbstract: arXiv:2402.19226v1 Announce Type: new  Abstract: This study investigates gender fairness in personalized pain care recommendations using machine learning algorithms. Leveraging a contextual bandits framework, personalized recommendations are formulated and evaluated using LinUCB algorithm on a dataset comprising interactions with $164$ patients across $10$ sessions each. Results indicate that while adjustments to algorithm parameters influence the quality of pain care recommendations, this impact remains consistent across genders. However, when certain patient information, such as self-reported pain measurements, is absent, the quality of pain care recommendations for women is notably inferior to that for men.",
+    "path": "papers/24/02/2402.19226.json",
+    "total_tokens": 747,
+    "translated_title": "探究机器学习驱动的慢性疼痛个性化护理中的性别公平性",
+    "translated_abstract": "本研究利用机器学习算法调查了个性化疼痛护理推荐中的性别公平性。利用上下文臂框架，使用LinUCB算法对包含164位患者在每个10次会话中的互动数据集进行了个性化推荐的制定和评估。结果表明，尽管对算法参数进行调整会影响疼痛护理推荐的质量，但这种影响在不同性别间保持一致。然而，当某些患者信息，如自我报告的疼痛测量值，缺失时，女性的疼痛护理推荐质量明显低于男性。",
+    "tldr": "该研究通过机器学习算法调查了个性化疼痛护理推荐中的性别公平性，发现在某些患者信息缺失时，女性的疼痛护理推荐质量明显低于男性。",
+    "en_tdlr": "This study investigates gender fairness in personalized pain care recommendations using machine learning algorithms and finds that the quality of pain care recommendations for women is notably inferior to that for men when certain patient information is missing."
+}
