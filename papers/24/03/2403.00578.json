@@ -1,0 +1,11 @@
+{
+    "title": "SINDy vs Hard Nonlinearities and Hidden Dynamics: a Benchmarking Study",
+    "abstract": "arXiv:2403.00578v1 Announce Type: cross  Abstract: In this work we analyze the effectiveness of the Sparse Identification of Nonlinear Dynamics (SINDy) technique on three benchmark datasets for nonlinear identification, to provide a better understanding of its suitability when tackling real dynamical systems. While SINDy can be an appealing strategy for pursuing physics-based learning, our analysis highlights difficulties in dealing with unobserved states and non-smooth dynamics. Due to the ubiquity of these features in real systems in general, and control applications in particular, we complement our analysis with hands-on approaches to tackle these issues in order to exploit SINDy also in these challenging contexts.",
+    "link": "https://arxiv.org/abs/2403.00578",
+    "context": "Title: SINDy vs Hard Nonlinearities and Hidden Dynamics: a Benchmarking Study\nAbstract: arXiv:2403.00578v1 Announce Type: cross  Abstract: In this work we analyze the effectiveness of the Sparse Identification of Nonlinear Dynamics (SINDy) technique on three benchmark datasets for nonlinear identification, to provide a better understanding of its suitability when tackling real dynamical systems. While SINDy can be an appealing strategy for pursuing physics-based learning, our analysis highlights difficulties in dealing with unobserved states and non-smooth dynamics. Due to the ubiquity of these features in real systems in general, and control applications in particular, we complement our analysis with hands-on approaches to tackle these issues in order to exploit SINDy also in these challenging contexts.",
+    "path": "papers/24/03/2403.00578.json",
+    "total_tokens": 774,
+    "translated_title": "SINDy与硬非线性和隐藏动力学：基准研究",
+    "translated_abstract": "在这项工作中，我们分析了稀疏识别非线性动力学（SINDy）技术在三个非线性识别基准数据集上的有效性，以更好地了解其在处理真实动态系统时的适用性。尽管SINDy可以是一种追求基于物理的学习的吸引策略，但我们的分析突显了在处理未观察到的状态和非平滑动力学方面存在困难。由于这些特征在一般实际系统和特别是控制应用中无处不在，我们补充我们的分析，通过实践方法来解决这些问题，以便在这些具有挑战性的背景下也利用SINDy。",
+    "tldr": "该研究分析了SINDy技术在非线性识别中的有效性，发现其在处理真实动态系统时面临处理未观察状态和非平滑动力学的困难，为了在这些挑战性背景下也能利用SINDy，提出了解决方案。"
+}

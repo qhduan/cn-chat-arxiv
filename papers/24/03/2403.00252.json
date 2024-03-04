@@ -1,0 +1,11 @@
+{
+    "title": "EUROPA: A Legal Multilingual Keyphrase Generation Dataset",
+    "abstract": "arXiv:2403.00252v1 Announce Type: cross  Abstract: Keyphrase generation has primarily been explored within the context of academic research articles, with a particular focus on scientific domains and the English language. In this work, we present EUROPA, a dataset for multilingual keyphrase generation in the legal domain. It is derived from legal judgments from the Court of Justice of the European Union (EU), and contains instances in all 24 EU official languages. We run multilingual models on our corpus and analyze the results, showing room for improvement on a domain-specific multilingual corpus such as the one we present.",
+    "link": "https://arxiv.org/abs/2403.00252",
+    "context": "Title: EUROPA: A Legal Multilingual Keyphrase Generation Dataset\nAbstract: arXiv:2403.00252v1 Announce Type: cross  Abstract: Keyphrase generation has primarily been explored within the context of academic research articles, with a particular focus on scientific domains and the English language. In this work, we present EUROPA, a dataset for multilingual keyphrase generation in the legal domain. It is derived from legal judgments from the Court of Justice of the European Union (EU), and contains instances in all 24 EU official languages. We run multilingual models on our corpus and analyze the results, showing room for improvement on a domain-specific multilingual corpus such as the one we present.",
+    "path": "papers/24/03/2403.00252.json",
+    "total_tokens": 659,
+    "translated_title": "EUROPA：一个法律多语关键词生成数据集",
+    "translated_abstract": "关键词生成主要在学术研究文章的背景下进行探索，特别侧重于科学领域和英语。 在这项工作中，我们提出了EUROPA，一个用于法律领域多语关键词生成的数据集。 它源自欧洲法院的法律判决，并包含了所有24种欧盟官方语言中的实例。 我们在我们的语料库上运行多语言模型并分析结果，展示了在像我们提出的特定领域多语言语料库上有改进空间。",
+    "tldr": "提出了一个用于法律领域多语关键词生成的数据集EUROPA，包含所有24种欧盟官方语言，表明在特定领域多语言语料库上仍有改进空间。"
+}

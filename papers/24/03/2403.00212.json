@@ -1,0 +1,12 @@
+{
+    "title": "Transcription and translation of videos using fine-tuned XLSR Wav2Vec2 on custom dataset and mBART",
+    "abstract": "arXiv:2403.00212v1 Announce Type: new  Abstract: This research addresses the challenge of training an ASR model for personalized voices with minimal data. Utilizing just 14 minutes of custom audio from a YouTube video, we employ Retrieval-Based Voice Conversion (RVC) to create a custom Common Voice 16.0 corpus. Subsequently, a Cross-lingual Self-supervised Representations (XLSR) Wav2Vec2 model is fine-tuned on this dataset. The developed web-based GUI efficiently transcribes and translates input Hindi videos. By integrating XLSR Wav2Vec2 and mBART, the system aligns the translated text with the video timeline, delivering an accessible solution for multilingual video content transcription and translation for personalized voice.",
+    "link": "https://arxiv.org/abs/2403.00212",
+    "context": "Title: Transcription and translation of videos using fine-tuned XLSR Wav2Vec2 on custom dataset and mBART\nAbstract: arXiv:2403.00212v1 Announce Type: new  Abstract: This research addresses the challenge of training an ASR model for personalized voices with minimal data. Utilizing just 14 minutes of custom audio from a YouTube video, we employ Retrieval-Based Voice Conversion (RVC) to create a custom Common Voice 16.0 corpus. Subsequently, a Cross-lingual Self-supervised Representations (XLSR) Wav2Vec2 model is fine-tuned on this dataset. The developed web-based GUI efficiently transcribes and translates input Hindi videos. By integrating XLSR Wav2Vec2 and mBART, the system aligns the translated text with the video timeline, delivering an accessible solution for multilingual video content transcription and translation for personalized voice.",
+    "path": "papers/24/03/2403.00212.json",
+    "total_tokens": 775,
+    "translated_title": "使用在自定义数据集上微调的XLSR Wav2Vec2和mBART进行视频的转录和翻译",
+    "translated_abstract": "这项研究解决了使用极少数据训练个性化语音识别模型的挑战。仅利用来自YouTube视频的14分钟自定义音频，我们采用基于检索的语音转换（RVC）创建了一个自定义的Common Voice 16.0语料库。随后，在这个数据集上对一个跨语言自监督表示（XLSR）Wav2Vec2模型进行了微调。开发的基于Web的GUI可以高效地转录和翻译输入的印地语视频。通过集成XLSR Wav2Vec2和mBART，该系统将翻译后的文本与视频时间轴对齐，为个性化语音的多语言视频内容转录和翻译提供了可访问的解决方案。",
+    "tldr": "使用XLSR Wav2Vec2和mBART在自定义数据集上进行微调，实现了视频内容的多语言转录和翻译，为个性化语音提供了可访问的解决方案",
+    "en_tdlr": "Fine-tuning XLSR Wav2Vec2 and mBART on a custom dataset enables multilingual transcription and translation of video content, providing an accessible solution for personalized voice."
+}

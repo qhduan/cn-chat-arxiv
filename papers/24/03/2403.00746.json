@@ -1,0 +1,12 @@
+{
+    "title": "A time-stepping deep gradient flow method for option pricing in (rough) diffusion models",
+    "abstract": "arXiv:2403.00746v1 Announce Type: cross  Abstract: We develop a novel deep learning approach for pricing European options in diffusion models, that can efficiently handle high-dimensional problems resulting from Markovian approximations of rough volatility models. The option pricing partial differential equation is reformulated as an energy minimization problem, which is approximated in a time-stepping fashion by deep artificial neural networks. The proposed scheme respects the asymptotic behavior of option prices for large levels of moneyness, and adheres to a priori known bounds for option prices. The accuracy and efficiency of the proposed method is assessed in a series of numerical examples, with particular focus in the lifted Heston model.",
+    "link": "https://arxiv.org/abs/2403.00746",
+    "context": "Title: A time-stepping deep gradient flow method for option pricing in (rough) diffusion models\nAbstract: arXiv:2403.00746v1 Announce Type: cross  Abstract: We develop a novel deep learning approach for pricing European options in diffusion models, that can efficiently handle high-dimensional problems resulting from Markovian approximations of rough volatility models. The option pricing partial differential equation is reformulated as an energy minimization problem, which is approximated in a time-stepping fashion by deep artificial neural networks. The proposed scheme respects the asymptotic behavior of option prices for large levels of moneyness, and adheres to a priori known bounds for option prices. The accuracy and efficiency of the proposed method is assessed in a series of numerical examples, with particular focus in the lifted Heston model.",
+    "path": "papers/24/03/2403.00746.json",
+    "total_tokens": 742,
+    "translated_title": "一种针对（粗糙）扩散模型中期权定价的时间步进深度梯度流方法",
+    "translated_abstract": "我们开发了一种新颖的深度学习方法，用于在扩散模型中定价欧式期权，可以高效处理由于粗糙波动率模型的马尔可夫逼近而导致的高维问题。期权定价的偏微分方程被重新表述为能量最小化问题，该问题通过深度人工神经网络以时间步进的方式进行近似。所提出的方案符合期权价格在大金额水平上的渐近行为，并遵守期权价格的先验已知上下界。通过一系列数值示例评估了所提方法的准确性和效率，特别关注了提升Heston模型。",
+    "tldr": "提出了一种时间步进深度梯度流方法，用于处理（粗糙）扩散模型中的期权定价问题，保证了对大金额水平下期权价格的渐近行为和先验上下界。",
+    "en_tdlr": "Introducing a time-stepping deep gradient flow method for option pricing in (rough) diffusion models, ensuring the asymptotic behavior and a priori bounds for option prices at large levels of moneyness."
+}

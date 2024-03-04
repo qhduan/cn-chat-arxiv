@@ -1,0 +1,12 @@
+{
+    "title": "IAI MovieBot 2.0: An Enhanced Research Platform with Trainable Neural Components and Transparent User Modeling",
+    "abstract": "arXiv:2403.00520v1 Announce Type: new  Abstract: While interest in conversational recommender systems has been on the rise, operational systems suitable for serving as research platforms for comprehensive studies are currently lacking. This paper introduces an enhanced version of the IAI MovieBot conversational movie recommender system, aiming to evolve it into a robust and adaptable platform for conducting user-facing experiments. The key highlights of this enhancement include the addition of trainable neural components for natural language understanding and dialogue policy, transparent and explainable modeling of user preferences, along with improvements in the user interface and research infrastructure.",
+    "link": "https://arxiv.org/abs/2403.00520",
+    "context": "Title: IAI MovieBot 2.0: An Enhanced Research Platform with Trainable Neural Components and Transparent User Modeling\nAbstract: arXiv:2403.00520v1 Announce Type: new  Abstract: While interest in conversational recommender systems has been on the rise, operational systems suitable for serving as research platforms for comprehensive studies are currently lacking. This paper introduces an enhanced version of the IAI MovieBot conversational movie recommender system, aiming to evolve it into a robust and adaptable platform for conducting user-facing experiments. The key highlights of this enhancement include the addition of trainable neural components for natural language understanding and dialogue policy, transparent and explainable modeling of user preferences, along with improvements in the user interface and research infrastructure.",
+    "path": "papers/24/03/2403.00520.json",
+    "total_tokens": 682,
+    "translated_title": "IAI MovieBot 2.0：具有可训练神经元件和透明用户建模的增强研究平台",
+    "translated_abstract": "虽然对话式推荐系统的兴趣日益增长，但目前缺乏适合作为综合研究平台的运作系统。本文介绍了IAI MovieBot对话式电影推荐系统的增强版本，旨在将其发展为一个稳健且可适应的平台，用于进行面向用户的实验。此次增强的关键亮点包括添加了可训练的神经元件进行自然语言理解和对话策略，透明且可解释的用户偏好建模，以及改进用户界面和研究基础设施。",
+    "tldr": "IAI MovieBot 2.0增强了可训练的神经元件，透明用户建模和用户界面改进，使其成为一个研究平台。",
+    "en_tdlr": "IAI MovieBot 2.0 enhanced with trainable neural components, transparent user modeling, and user interface improvements to serve as a research platform."
+}

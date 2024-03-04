@@ -1,0 +1,12 @@
+{
+    "title": "Distributional Bellman Operators over Mean Embeddings",
+    "abstract": "arXiv:2312.07358v2 Announce Type: replace-cross  Abstract: We propose a novel algorithmic framework for distributional reinforcement learning, based on learning finite-dimensional mean embeddings of return distributions. We derive several new algorithms for dynamic programming and temporal-difference learning based on this framework, provide asymptotic convergence theory, and examine the empirical performance of the algorithms on a suite of tabular tasks. Further, we show that this approach can be straightforwardly combined with deep reinforcement learning, and obtain a new deep RL agent that improves over baseline distributional approaches on the Arcade Learning Environment.",
+    "link": "https://arxiv.org/abs/2312.07358",
+    "context": "Title: Distributional Bellman Operators over Mean Embeddings\nAbstract: arXiv:2312.07358v2 Announce Type: replace-cross  Abstract: We propose a novel algorithmic framework for distributional reinforcement learning, based on learning finite-dimensional mean embeddings of return distributions. We derive several new algorithms for dynamic programming and temporal-difference learning based on this framework, provide asymptotic convergence theory, and examine the empirical performance of the algorithms on a suite of tabular tasks. Further, we show that this approach can be straightforwardly combined with deep reinforcement learning, and obtain a new deep RL agent that improves over baseline distributional approaches on the Arcade Learning Environment.",
+    "path": "papers/23/12/2312.07358.json",
+    "total_tokens": 671,
+    "translated_title": "基于均值嵌入的分布式贝尔曼算子",
+    "translated_abstract": "我们提出了一种基于学习回报分布的有限维均值嵌入的分布式强化学习算法框架。 我们基于这一框架推导出了几种新的动态规划和时序差分学习算法，提供了渐近收敛理论，并对这些算法在一系列表格任务上的实证表现进行了检验。此外，我们展示了这种方法可以与深度强化学习直接结合，得到一种新的深度强化学习代理，该代理在 Arcade Learning Environment 上优于基线分布式方法。",
+    "tldr": "提出了一种基于学习回报分布的有限维均值嵌入的分布式强化学习算法框架，推导出新算法并展示可与深度强化学习结合，提高表现。",
+    "en_tdlr": "Proposed a novel algorithmic framework for distributional reinforcement learning based on learning finite-dimensional mean embeddings of return distributions, derived new algorithms, and showed improvement when combined with deep reinforcement learning."
+}

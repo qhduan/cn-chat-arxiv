@@ -1,0 +1,11 @@
+{
+    "title": "A Bit of a Problem: Measurement Disparities in Dataset Sizes Across Languages",
+    "abstract": "arXiv:2403.00686v1 Announce Type: new  Abstract: How should text dataset sizes be compared across languages? Even for content-matched (parallel) corpora, UTF-8 encoded text can require a dramatically different number of bytes for different languages. In our work, we define the byte premium between two languages as the ratio of bytes used to encode content-matched text in those languages. We compute byte premiums for 1155 languages, and we use linear regressions to estimate byte premiums for other languages. We release a tool to obtain byte premiums for any two languages, enabling comparisons of dataset sizes across languages for more equitable multilingual model development and data practices.",
+    "link": "https://arxiv.org/abs/2403.00686",
+    "context": "Title: A Bit of a Problem: Measurement Disparities in Dataset Sizes Across Languages\nAbstract: arXiv:2403.00686v1 Announce Type: new  Abstract: How should text dataset sizes be compared across languages? Even for content-matched (parallel) corpora, UTF-8 encoded text can require a dramatically different number of bytes for different languages. In our work, we define the byte premium between two languages as the ratio of bytes used to encode content-matched text in those languages. We compute byte premiums for 1155 languages, and we use linear regressions to estimate byte premiums for other languages. We release a tool to obtain byte premiums for any two languages, enabling comparisons of dataset sizes across languages for more equitable multilingual model development and data practices.",
+    "path": "papers/24/03/2403.00686.json",
+    "total_tokens": 624,
+    "translated_title": "跨语言数据集大小差异中的度量问题",
+    "translated_abstract": "在我们的研究中，我们将两种语言之间的字节溢价定义为用于编码这些语言中匹配内容的文本所需字节的比率。我们计算了1155种语言的字节溢价，并使用线性回归来估计其他语言的字节溢价。我们发布了一个工具，可以获取任意两种语言的字节溢价，从而实现对跨语言数据集大小的比较，以便更公平地开发多语言模型和数据实践。",
+    "tldr": "通过定义字节溢价及开发工具，帮助比较不同语言的数据集大小，促进多语言模型发展和数据实践的公平性"
+}

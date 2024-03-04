@@ -1,0 +1,11 @@
+{
+    "title": "Sharp bounds for the max-sliced Wasserstein distance",
+    "abstract": "arXiv:2403.00666v1 Announce Type: cross  Abstract: We obtain sharp upper and lower bounds for the expected max-sliced 1-Wasserstein distance between a probability measure on a separable Hilbert space and its empirical distribution from $n$ samples. A version of this result for probability measures on Banach spaces is also obtained.",
+    "link": "https://arxiv.org/abs/2403.00666",
+    "context": "Title: Sharp bounds for the max-sliced Wasserstein distance\nAbstract: arXiv:2403.00666v1 Announce Type: cross  Abstract: We obtain sharp upper and lower bounds for the expected max-sliced 1-Wasserstein distance between a probability measure on a separable Hilbert space and its empirical distribution from $n$ samples. A version of this result for probability measures on Banach spaces is also obtained.",
+    "path": "papers/24/03/2403.00666.json",
+    "total_tokens": 484,
+    "translated_title": "最大切片Wasserstein距离的尖锐界限",
+    "translated_abstract": "我们得到了关于在可分希尔伯特空间上的概率测度与从$n$个样本中获得的经验分布之间期望的最大切片1-Wasserstein距离的尖锐上下界。我们还得到了一个适用于Banach空间上的概率测度的版本。",
+    "tldr": "对于可分希尔伯特空间上的概率测度与其经验分布之间的最大切片1-Wasserstein距离，得到了尖锐的上下界限。"
+}

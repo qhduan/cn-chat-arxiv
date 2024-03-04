@@ -1,0 +1,12 @@
+{
+    "title": "Local sensitivity analysis of heating degree day and cooling degree day temperature derivatives prices",
+    "abstract": "arXiv:2403.00006v1 Announce Type: new  Abstract: We study the local sensitivity of heating degree day (HDD) and cooling degree day (CDD) temperature futures and option prices with respect to perturbations in the deseasonalized temperature or in one of its derivatives up to a certain order determined by the continuous-time autoregressive process modelling the deseasonalized temperature in the HDD and CDD indexes. We also consider an empirical case where a CAR process of autoregressive order 3 is fitted to New York temperatures and we perform a study of the local sensitivity of these financial contracts and a posterior analysis of the results.",
+    "link": "https://arxiv.org/abs/2403.00006",
+    "context": "Title: Local sensitivity analysis of heating degree day and cooling degree day temperature derivatives prices\nAbstract: arXiv:2403.00006v1 Announce Type: new  Abstract: We study the local sensitivity of heating degree day (HDD) and cooling degree day (CDD) temperature futures and option prices with respect to perturbations in the deseasonalized temperature or in one of its derivatives up to a certain order determined by the continuous-time autoregressive process modelling the deseasonalized temperature in the HDD and CDD indexes. We also consider an empirical case where a CAR process of autoregressive order 3 is fitted to New York temperatures and we perform a study of the local sensitivity of these financial contracts and a posterior analysis of the results.",
+    "path": "papers/24/03/2403.00006.json",
+    "total_tokens": 702,
+    "translated_title": "对供暖日和制冷日温度衍生价格的局部敏感性分析",
+    "translated_abstract": "我们研究了采暖日（HDD）和冷却日（CDD）温度期货和期权价格对去季节性温度或其衍生物之一的微扰的局部敏感性，该微扰的阶数由连续时间自回归过程确定，该过程对HDD和CDD指数中去季节性温度进行建模。我们还考虑了一个实证案例，其中将一个自回归阶数为3的CAR过程拟合到纽约温度，并对这些金融合约的局部敏感性进行研究，然后进行结果的后续分析。",
+    "tldr": "研究了供暖日和制冷日温度衍生价格相对于去季节性温度微扰的局部敏感性，并通过连续时间自回归过程模型进行分析",
+    "en_tdlr": "Investigated the local sensitivity of heating degree day (HDD) and cooling degree day (CDD) temperature derivative prices with respect to perturbations in deseasonalized temperature, using a continuous-time autoregressive process model."
+}

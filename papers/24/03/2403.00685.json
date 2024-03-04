@@ -1,0 +1,11 @@
+{
+    "title": "Know your exceptions: Towards an Ontology of Exceptions in Knowledge Representation",
+    "abstract": "arXiv:2403.00685v1 Announce Type: new  Abstract: Defeasible reasoning is a kind of reasoning where some generalisations may not be valid in all circumstances, that is general conclusions may fail in some cases. Various formalisms have been developed to model this kind of reasoning, which is characteristic of common-sense contexts. However, it is not easy for a modeller to choose among these systems the one that better fits its domain from an ontological point of view. In this paper we first propose a framework based on the notions of exceptionality and defeasibility in order to be able to compare formalisms and reveal their ontological commitments. Then, we apply this framework to compare four systems, showing the differences that may occur from an ontological perspective.",
+    "link": "https://arxiv.org/abs/2403.00685",
+    "context": "Title: Know your exceptions: Towards an Ontology of Exceptions in Knowledge Representation\nAbstract: arXiv:2403.00685v1 Announce Type: new  Abstract: Defeasible reasoning is a kind of reasoning where some generalisations may not be valid in all circumstances, that is general conclusions may fail in some cases. Various formalisms have been developed to model this kind of reasoning, which is characteristic of common-sense contexts. However, it is not easy for a modeller to choose among these systems the one that better fits its domain from an ontological point of view. In this paper we first propose a framework based on the notions of exceptionality and defeasibility in order to be able to compare formalisms and reveal their ontological commitments. Then, we apply this framework to compare four systems, showing the differences that may occur from an ontological perspective.",
+    "path": "papers/24/03/2403.00685.json",
+    "total_tokens": 771,
+    "translated_title": "认识你的异常：走向知识表示中的异常本体论",
+    "translated_abstract": "可辩驳推理是一种推理形式，其中一些概括在某些情况下可能无效，也就是通常情况下的一般性结论在某些情况下可能会失败。已经开发了各种形式化体系来模拟这种推理，这是普通常识背景下的特征。然而，对于一个模型者来说，从本体论的角度选择最适合其领域的体系并不容易。在本文中，我们首先提出了一个基于异常性和可辩识性的框架，以便比较形式化体系并揭示其本体论承诺。然后，我们应用该框架来比较四个系统，展示了从本体论角度可能发生的差异。",
+    "tldr": "提出了基于异常性和可辩识性的框架，用于比较形式化体系并揭示其本体论承诺，应用框架比较了四个系统，展示了从本体论角度可能发生的差异。"
+}

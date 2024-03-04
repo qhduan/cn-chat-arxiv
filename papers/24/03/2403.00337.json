@@ -1,0 +1,12 @@
+{
+    "title": "Nonlinear Sheaf Diffusion in Graph Neural Networks",
+    "abstract": "arXiv:2403.00337v1 Announce Type: new  Abstract: This work focuses on exploring the potential benefits of introducing a nonlinear Laplacian in Sheaf Neural Networks for graph-related tasks. The primary aim is to understand the impact of such nonlinearity on diffusion dynamics, signal propagation, and performance of neural network architectures in discrete-time settings. The study primarily emphasizes experimental analysis, using real-world and synthetic datasets to validate the practical effectiveness of different versions of the model. This approach shifts the focus from an initial theoretical exploration to demonstrating the practical utility of the proposed model.",
+    "link": "https://arxiv.org/abs/2403.00337",
+    "context": "Title: Nonlinear Sheaf Diffusion in Graph Neural Networks\nAbstract: arXiv:2403.00337v1 Announce Type: new  Abstract: This work focuses on exploring the potential benefits of introducing a nonlinear Laplacian in Sheaf Neural Networks for graph-related tasks. The primary aim is to understand the impact of such nonlinearity on diffusion dynamics, signal propagation, and performance of neural network architectures in discrete-time settings. The study primarily emphasizes experimental analysis, using real-world and synthetic datasets to validate the practical effectiveness of different versions of the model. This approach shifts the focus from an initial theoretical exploration to demonstrating the practical utility of the proposed model.",
+    "path": "papers/24/03/2403.00337.json",
+    "total_tokens": 635,
+    "translated_title": "图神经网络中的非线性层拓扑扩散",
+    "translated_abstract": "本文旨在探讨将非线性拉普拉斯引入Sheaf神经网络以提升其在图相关任务中的潜在益处。主要目标是理解这种非线性对扩散动力学、信号传播以及离散时间设置下神经网络架构性能的影响。研究主要强调实验分析，使用真实世界和合成数据集验证模型不同版本的实际有效性。这种方法将焦点从最初的理论探索转向展示所提出模型的实际效用。",
+    "tldr": "探索在图神经网络中引入非线性拉普拉斯的潜在益处，通过实验分析验证了模型在图相关任务中的实际有效性。",
+    "en_tdlr": "Investigating the potential benefits of introducing nonlinear Laplacian in Sheaf Neural Networks for graph-related tasks, and experimentally validating the practical effectiveness of the model in such tasks."
+}
