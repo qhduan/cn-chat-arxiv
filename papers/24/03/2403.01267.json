@@ -1,0 +1,12 @@
+{
+    "title": "Dissecting Language Models: Machine Unlearning via Selective Pruning",
+    "abstract": "arXiv:2403.01267v1 Announce Type: cross  Abstract: Understanding and shaping the behaviour of Large Language Models (LLMs) is increasingly important as applications become more powerful and more frequently adopted. This paper introduces a machine unlearning method specifically designed for LLMs. We introduce a selective pruning method for LLMs that removes neurons based on their relative importance on a targeted capability compared to overall network performance. This approach is a compute- and data-efficient method for identifying and removing neurons that enable specific behaviours. Our findings reveal that both feed-forward and attention neurons in LLMs are specialized; that is, for specific tasks, certain neurons are more crucial than others.",
+    "link": "https://arxiv.org/abs/2403.01267",
+    "context": "Title: Dissecting Language Models: Machine Unlearning via Selective Pruning\nAbstract: arXiv:2403.01267v1 Announce Type: cross  Abstract: Understanding and shaping the behaviour of Large Language Models (LLMs) is increasingly important as applications become more powerful and more frequently adopted. This paper introduces a machine unlearning method specifically designed for LLMs. We introduce a selective pruning method for LLMs that removes neurons based on their relative importance on a targeted capability compared to overall network performance. This approach is a compute- and data-efficient method for identifying and removing neurons that enable specific behaviours. Our findings reveal that both feed-forward and attention neurons in LLMs are specialized; that is, for specific tasks, certain neurons are more crucial than others.",
+    "path": "papers/24/03/2403.01267.json",
+    "total_tokens": 694,
+    "translated_title": "解剖语言模型：通过选择性修剪实现机器去学习",
+    "translated_abstract": "本文引入了一种专门为大型语言模型（LLMs）设计的机器去学习方法。我们提出了一种针对LLMs的选择性修剪方法，根据神经元对特定能力的相对重要性来移除神经元，而非整体网络性能。该方法是一种高效的计算和数据方法，用于识别和删除能够实现特定行为的神经元。我们的研究发现，LLMs中的前馈神经元和注意力神经元是专门化的；也就是说，对于特定任务，某些神经元比其他神经元更为关键。",
+    "tldr": "介绍了一种针对大型语言模型的机器去学习方法，通过选择性修剪神经元来实现去学习，发现LLMs中的神经元在特定任务中具有不同的重要性。",
+    "en_tdlr": "Introduces a machine unlearning method for Large Language Models by selectively pruning neurons to achieve unlearning, revealing the specialized importance of neurons in LLMs for specific tasks."
+}

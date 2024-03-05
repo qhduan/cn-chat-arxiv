@@ -1,0 +1,11 @@
+{
+    "title": "Teach LLMs to Phish: Stealing Private Information from Language Models",
+    "abstract": "arXiv:2403.00871v1 Announce Type: cross  Abstract: When large language models are trained on private data, it can be a significant privacy risk for them to memorize and regurgitate sensitive information. In this work, we propose a new practical data extraction attack that we call \"neural phishing\". This attack enables an adversary to target and extract sensitive or personally identifiable information (PII), e.g., credit card numbers, from a model trained on user data with upwards of 10% attack success rates, at times, as high as 50%. Our attack assumes only that an adversary can insert as few as 10s of benign-appearing sentences into the training dataset using only vague priors on the structure of the user data.",
+    "link": "https://arxiv.org/abs/2403.00871",
+    "context": "Title: Teach LLMs to Phish: Stealing Private Information from Language Models\nAbstract: arXiv:2403.00871v1 Announce Type: cross  Abstract: When large language models are trained on private data, it can be a significant privacy risk for them to memorize and regurgitate sensitive information. In this work, we propose a new practical data extraction attack that we call \"neural phishing\". This attack enables an adversary to target and extract sensitive or personally identifiable information (PII), e.g., credit card numbers, from a model trained on user data with upwards of 10% attack success rates, at times, as high as 50%. Our attack assumes only that an adversary can insert as few as 10s of benign-appearing sentences into the training dataset using only vague priors on the structure of the user data.",
+    "path": "papers/24/03/2403.00871.json",
+    "total_tokens": 724,
+    "translated_title": "教会大型语言模型进行钓鱼：从语言模型中窃取私人信息",
+    "translated_abstract": "当大型语言模型在私人数据上训练时，它们可能会将敏感信息记忆并重复。本研究提出了一种新的实用数据提取攻击，称为“神经钓鱼”。这种攻击使对手能够从一个在用户数据上训练的模型中成功率高达10%甚至50%地提取敏感或可识别个人身份的信息，例如信用卡号。攻击仅假设对手可以将少量看似良性的句子插入训练数据集，仅使用对用户数据结构的模糊先验知识。",
+    "tldr": "本研究提出了一种名为“神经钓鱼”的新型实用数据提取攻击，使对手能够成功地从大型语言模型中提取敏感信息，攻击成功率高达10%至50%。"
+}

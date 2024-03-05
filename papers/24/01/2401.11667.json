@@ -1,0 +1,12 @@
+{
+    "title": "INCPrompt: Task-Aware incremental Prompting for Rehearsal-Free Class-incremental Learning",
+    "abstract": "arXiv:2401.11667v2 Announce Type: replace  Abstract: This paper introduces INCPrompt, an innovative continual learning solution that effectively addresses catastrophic forgetting. INCPrompt's key innovation lies in its use of adaptive key-learner and task-aware prompts that capture task-relevant information. This unique combination encapsulates general knowledge across tasks and encodes task-specific knowledge. Our comprehensive evaluation across multiple continual learning benchmarks demonstrates INCPrompt's superiority over existing algorithms, showing its effectiveness in mitigating catastrophic forgetting while maintaining high performance. These results highlight the significant impact of task-aware incremental prompting on continual learning performance.",
+    "link": "https://arxiv.org/abs/2401.11667",
+    "context": "Title: INCPrompt: Task-Aware incremental Prompting for Rehearsal-Free Class-incremental Learning\nAbstract: arXiv:2401.11667v2 Announce Type: replace  Abstract: This paper introduces INCPrompt, an innovative continual learning solution that effectively addresses catastrophic forgetting. INCPrompt's key innovation lies in its use of adaptive key-learner and task-aware prompts that capture task-relevant information. This unique combination encapsulates general knowledge across tasks and encodes task-specific knowledge. Our comprehensive evaluation across multiple continual learning benchmarks demonstrates INCPrompt's superiority over existing algorithms, showing its effectiveness in mitigating catastrophic forgetting while maintaining high performance. These results highlight the significant impact of task-aware incremental prompting on continual learning performance.",
+    "path": "papers/24/01/2401.11667.json",
+    "total_tokens": 734,
+    "translated_title": "INCPrompt：面向任务的增量提示，无需重复练习的类别增量学习",
+    "translated_abstract": "本文介绍了INCPrompt，一种创新的持续学习解决方案，有效地解决了灾难性遗忘问题。 INCPrompt的关键创新在于其使用自适应的关键学习者和面向任务的提示来捕获与任务相关的信息。 这种独特组合封装了跨任务的通用知识并编码了任务特定知识。 我们在多个持续学习基准上进行的全面评估表明，INCPrompt优于现有算法，显示出其在减轻灾难性遗忘的同时保持高性能的有效性。 这些结果突显了面向任务的增量提示对持续学习性能的重要影响。",
+    "tldr": "INCPrompt采用自适应关键学习者和面向任务的提示，结合通用和任务特定知识，有效缓解灾难性遗忘，表现优越，对持续学习性能具有显著影响。",
+    "en_tdlr": "INCPrompt utilizes adaptive key-learner and task-aware prompts, combining general and task-specific knowledge to effectively mitigate catastrophic forgetting, demonstrating superiority and significant impact on continual learning performance."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "High-Dimensional Tail Index Regression: with An Application to Text Analyses of Viral Posts in Social Media",
+    "abstract": "arXiv:2403.01318v1 Announce Type: cross  Abstract: Motivated by the empirical power law of the distributions of credits (e.g., the number of \"likes\") of viral posts in social media, we introduce the high-dimensional tail index regression and methods of estimation and inference for its parameters. We propose a regularized estimator, establish its consistency, and derive its convergence rate. To conduct inference, we propose to debias the regularized estimate, and establish the asymptotic normality of the debiased estimator. Simulation studies support our theory. These methods are applied to text analyses of viral posts in X (formerly Twitter) concerning LGBTQ+.",
+    "link": "https://arxiv.org/abs/2403.01318",
+    "context": "Title: High-Dimensional Tail Index Regression: with An Application to Text Analyses of Viral Posts in Social Media\nAbstract: arXiv:2403.01318v1 Announce Type: cross  Abstract: Motivated by the empirical power law of the distributions of credits (e.g., the number of \"likes\") of viral posts in social media, we introduce the high-dimensional tail index regression and methods of estimation and inference for its parameters. We propose a regularized estimator, establish its consistency, and derive its convergence rate. To conduct inference, we propose to debias the regularized estimate, and establish the asymptotic normality of the debiased estimator. Simulation studies support our theory. These methods are applied to text analyses of viral posts in X (formerly Twitter) concerning LGBTQ+.",
+    "path": "papers/24/03/2403.01318.json",
+    "total_tokens": 722,
+    "translated_title": "高维尾指数回归：以社交媒体病毒帖子文本分析为例",
+    "translated_abstract": "受社交媒体病毒帖子的点赞分布（如点赞数量）经验性幂律的启发，我们引入了高维尾指数回归及其参数的估计和推断方法。我们提出了一种正则化估计量，证明了它的一致性，并推导了其收敛速度。为了进行推断，我们提出了去偏正则化估计，证明了去偏估计量的渐近正态性。仿真研究支持了我们的理论。这些方法被应用于对涉及 LGBTQ+ 话题的 X（原 Twitter）病毒帖子的文本分析。",
+    "tldr": "提出了高维尾指数回归方法，利用正则化估计和去偏方法进行推断，支持理论的仿真研究，并在社交媒体病毒帖子文本分析中应用。",
+    "en_tdlr": "Proposed high-dimensional tail index regression method, conducted inference using regularized estimation and debiasing, supported by theoretical simulation studies, and applied in text analyses of viral posts in social media."
+}

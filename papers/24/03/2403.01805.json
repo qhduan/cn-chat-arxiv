@@ -1,0 +1,11 @@
+{
+    "title": "Tsallis Entropy Regularization for Linearly Solvable MDP and Linear Quadratic Regulator",
+    "abstract": "arXiv:2403.01805v1 Announce Type: cross  Abstract: Shannon entropy regularization is widely adopted in optimal control due to its ability to promote exploration and enhance robustness, e.g., maximum entropy reinforcement learning known as Soft Actor-Critic. In this paper, Tsallis entropy, which is a one-parameter extension of Shannon entropy, is used for the regularization of linearly solvable MDP and linear quadratic regulators. We derive the solution for these problems and demonstrate its usefulness in balancing between exploration and sparsity of the obtained control law.",
+    "link": "https://arxiv.org/abs/2403.01805",
+    "context": "Title: Tsallis Entropy Regularization for Linearly Solvable MDP and Linear Quadratic Regulator\nAbstract: arXiv:2403.01805v1 Announce Type: cross  Abstract: Shannon entropy regularization is widely adopted in optimal control due to its ability to promote exploration and enhance robustness, e.g., maximum entropy reinforcement learning known as Soft Actor-Critic. In this paper, Tsallis entropy, which is a one-parameter extension of Shannon entropy, is used for the regularization of linearly solvable MDP and linear quadratic regulators. We derive the solution for these problems and demonstrate its usefulness in balancing between exploration and sparsity of the obtained control law.",
+    "path": "papers/24/03/2403.01805.json",
+    "total_tokens": 636,
+    "translated_title": "Tsallis熵正则化用于线性可解MDP和线性二次调节器",
+    "translated_abstract": "Shannon熵正则化被广泛应用于最优控制中，因为它能促进探索并增强鲁棒性，例如，Soft Actor-Critic中采用的最大熵强化学习。本文使用Tsallis熵（Shannon熵的单参数扩展）来正则化线性可解MDP和线性二次调节器。我们推导出这些问题的解，并展示了它在平衡探索和获得的控制法则的稀疏性方面的实用性。",
+    "tldr": "本文介绍了Tsallis熵正则化方法，用于解决线性可解MDP和线性二次调节器问题，能够平衡探索和获得的控制法则的稀疏性。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Chaining thoughts and LLMs to learn DNA structural biophysics",
+    "abstract": "arXiv:2403.01332v1 Announce Type: cross  Abstract: The future development of an AI scientist, a tool that is capable of integrating a variety of experimental data and generating testable hypotheses, holds immense potential. So far, bespoke machine learning models have been created to specialize in singular scientific tasks, but otherwise lack the flexibility of a general purpose model. Here, we show that a general purpose large language model, chatGPT 3.5-turbo, can be fine-tuned to learn the structural biophysics of DNA. We find that both fine-tuning models to return chain-of-thought responses and chaining together models fine-tuned for subtasks have an enhanced ability to analyze and design DNA sequences and their structures.",
+    "link": "https://arxiv.org/abs/2403.01332",
+    "context": "Title: Chaining thoughts and LLMs to learn DNA structural biophysics\nAbstract: arXiv:2403.01332v1 Announce Type: cross  Abstract: The future development of an AI scientist, a tool that is capable of integrating a variety of experimental data and generating testable hypotheses, holds immense potential. So far, bespoke machine learning models have been created to specialize in singular scientific tasks, but otherwise lack the flexibility of a general purpose model. Here, we show that a general purpose large language model, chatGPT 3.5-turbo, can be fine-tuned to learn the structural biophysics of DNA. We find that both fine-tuning models to return chain-of-thought responses and chaining together models fine-tuned for subtasks have an enhanced ability to analyze and design DNA sequences and their structures.",
+    "path": "papers/24/03/2403.01332.json",
+    "total_tokens": 701,
+    "translated_title": "将思维和LLMs串联起来学习DNA结构生物物理学",
+    "translated_abstract": "未来发展AI科学家的一项重要发展是，一个能够整合各种实验数据并生成可验证假设的工具具有巨大潜力。到目前为止，定制的机器学习模型已被创建用于专门从事单一科学任务，但缺乏通用模型的灵活性。在这里，我们展示了一个通用的大型语言模型，chatGPT 3.5-turbo，可以被微调来学习DNA的结构生物物理学。我们发现，将模型微调为返回思维链式响应以及串联微调用于子任务的模型，具有增强的能力来分析和设计DNA序列及其结构。",
+    "tldr": "通用语言模型chatGPT 3.5-turbo的微调，在学习DNA结构生物物理学方面显示出新的潜力和优势。",
+    "en_tdlr": "Fine-tuning a general language model chatGPT 3.5-turbo shows new potential and advantages in learning DNA structural biophysics."
+}

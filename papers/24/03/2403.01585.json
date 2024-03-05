@@ -1,0 +1,12 @@
+{
+    "title": "Calibrating doubly-robust estimators with unbalanced treatment assignment",
+    "abstract": "arXiv:2403.01585v1 Announce Type: new  Abstract: Machine learning methods, particularly the double machine learning (DML) estimator (Chernozhukov et al., 2018), are increasingly popular for the estimation of the average treatment effect (ATE). However, datasets often exhibit unbalanced treatment assignments where only a few observations are treated, leading to unstable propensity score estimations. We propose a simple extension of the DML estimator which undersamples data for propensity score modeling and calibrates scores to match the original distribution. The paper provides theoretical results showing that the estimator retains the DML estimator's asymptotic properties. A simulation study illustrates the finite sample performance of the estimator.",
+    "link": "https://arxiv.org/abs/2403.01585",
+    "context": "Title: Calibrating doubly-robust estimators with unbalanced treatment assignment\nAbstract: arXiv:2403.01585v1 Announce Type: new  Abstract: Machine learning methods, particularly the double machine learning (DML) estimator (Chernozhukov et al., 2018), are increasingly popular for the estimation of the average treatment effect (ATE). However, datasets often exhibit unbalanced treatment assignments where only a few observations are treated, leading to unstable propensity score estimations. We propose a simple extension of the DML estimator which undersamples data for propensity score modeling and calibrates scores to match the original distribution. The paper provides theoretical results showing that the estimator retains the DML estimator's asymptotic properties. A simulation study illustrates the finite sample performance of the estimator.",
+    "path": "papers/24/03/2403.01585.json",
+    "total_tokens": 736,
+    "translated_title": "使用不平衡的处理分配校准双重稳健估计器",
+    "translated_abstract": "机器学习方法，尤其是双机器学习（DML）估计器（Chernozhukov等，2018），越来越受欢迎地用于估计平均处理效应（ATE）。然而，数据集通常表现出处理分配不平衡，只有少数观测值被处理，导致稳健概率得分估计不稳定。我们提出了DML估计器的简单扩展，该扩展对概率得分建模进行了欠采样，并校准分数以匹配原始分布。本文提供了理论结果表明，该估计器保留了DML估计器的渐近特性。模拟研究说明了估计器的有限样本性能。",
+    "tldr": "提出了一个简单的DML估计器扩展，通过对概率得分建模进行欠采样，并校准分数以匹配原始分布，以解决处理分配不平衡问题。",
+    "en_tdlr": "A simple extension of the DML estimator is proposed to address unbalanced treatment assignment by undersampling data for propensity score modeling and calibrating scores to match the original distribution."
+}

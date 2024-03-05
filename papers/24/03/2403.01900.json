@@ -1,0 +1,12 @@
+{
+    "title": "Universality of reservoir systems with recurrent neural networks",
+    "abstract": "arXiv:2403.01900v1 Announce Type: cross  Abstract: Approximation capability of reservoir systems whose reservoir is a recurrent neural network (RNN) is discussed. In our problem setting, a reservoir system approximates a set of functions just by adjusting its linear readout while the reservoir is fixed. We will show what we call uniform strong universality of a family of RNN reservoir systems for a certain class of functions to be approximated. This means that, for any positive number, we can construct a sufficiently large RNN reservoir system whose approximation error for each function in the class of functions to be approximated is bounded from above by the positive number. Such RNN reservoir systems are constructed via parallel concatenation of RNN reservoirs.",
+    "link": "https://arxiv.org/abs/2403.01900",
+    "context": "Title: Universality of reservoir systems with recurrent neural networks\nAbstract: arXiv:2403.01900v1 Announce Type: cross  Abstract: Approximation capability of reservoir systems whose reservoir is a recurrent neural network (RNN) is discussed. In our problem setting, a reservoir system approximates a set of functions just by adjusting its linear readout while the reservoir is fixed. We will show what we call uniform strong universality of a family of RNN reservoir systems for a certain class of functions to be approximated. This means that, for any positive number, we can construct a sufficiently large RNN reservoir system whose approximation error for each function in the class of functions to be approximated is bounded from above by the positive number. Such RNN reservoir systems are constructed via parallel concatenation of RNN reservoirs.",
+    "path": "papers/24/03/2403.01900.json",
+    "total_tokens": 691,
+    "translated_title": "具有循环神经网络的储层系统的普适性",
+    "translated_abstract": "讨论了储层系统的逼近能力，其中储层是循环神经网络（RNN）。在我们的问题设定中，储层系统通过调整其线性输出来逼近一组函数，而储层保持不变。我们将展示我们所称的一类函数的RNN储层系统的统一强普适性。这意味着，对于任意正数，我们可以构建一个足够大的RNN储层系统，其对该类函数中每个函数的逼近误差都被正数从上方限定。这样的RNN储层系统是通过并行串联RNN储层构建的。",
+    "tldr": "讨论了具有循环神经网络的储层系统的逼近能力和统一强普适性，可以通过并行串联RNN储层构建这种类型的系统",
+    "en_tdlr": "Discussion on the approximation capability and uniform strong universality of reservoir systems with recurrent neural networks, constructed using parallel concatenation of RNN reservoirs."
+}

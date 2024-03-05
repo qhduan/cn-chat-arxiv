@@ -1,0 +1,12 @@
+{
+    "title": "Max-sliced 2-Wasserstein distance",
+    "abstract": "arXiv:2403.02142v1 Announce Type: cross  Abstract: This note is a continuation of the author's previous work on ``Sharp bounds for the max-sliced Wasserstein distance.\" We use the same technique to obtain an upper bound for the expected max-sliced 2-Wasserstein distance between a compactly supported symmetric probability measure on a Euclidean space and its symmetrized empirical distribution.",
+    "link": "https://arxiv.org/abs/2403.02142",
+    "context": "Title: Max-sliced 2-Wasserstein distance\nAbstract: arXiv:2403.02142v1 Announce Type: cross  Abstract: This note is a continuation of the author's previous work on ``Sharp bounds for the max-sliced Wasserstein distance.\" We use the same technique to obtain an upper bound for the expected max-sliced 2-Wasserstein distance between a compactly supported symmetric probability measure on a Euclidean space and its symmetrized empirical distribution.",
+    "path": "papers/24/03/2403.02142.json",
+    "total_tokens": 561,
+    "translated_title": "最大切片2-瓦塞斯坦距离",
+    "translated_abstract": "这个笔记是作者在“最大切片瓦塞斯坦距离的尖锐界限”方面之前工作的延续。我们使用相同的技术获得紧支撑对称概率测度与其对称经验分布之间的期望最大切片2-瓦塞斯坦距离上界。",
+    "tldr": "使用相同技术获得了紧支撑对称概率测度与其对称经验分布之间的期望最大切片2-瓦塞斯坦距离的上界",
+    "en_tdlr": "Upper bound for the expected max-sliced 2-Wasserstein distance between a compactly supported symmetric probability measure on a Euclidean space and its symmetrized empirical distribution was obtained using the same technique."
+}

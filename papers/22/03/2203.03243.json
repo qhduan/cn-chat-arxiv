@@ -1,0 +1,12 @@
+{
+    "title": "Choice and Attention across Time",
+    "abstract": "arXiv:2203.03243v3 Announce Type: replace  Abstract: I study how past and future choices are linked in the framework of attention. Attention cannot be observed but past choices are necessarily considered in future decisions. This link connects two types of rationality violations, counterfactual and realized, where the former results from inattention and the latter fully pins down preferences. Results show that the necessary traces of limited attention lie within choice sequences because they enable and compel a decision maker to correct their \"mistakes\". The framework accommodates different attention structures and extends to framing, introducing choice sequences as an important channel to formulate, identify, and scrutinize limited attention.",
+    "link": "https://arxiv.org/abs/2203.03243",
+    "context": "Title: Choice and Attention across Time\nAbstract: arXiv:2203.03243v3 Announce Type: replace  Abstract: I study how past and future choices are linked in the framework of attention. Attention cannot be observed but past choices are necessarily considered in future decisions. This link connects two types of rationality violations, counterfactual and realized, where the former results from inattention and the latter fully pins down preferences. Results show that the necessary traces of limited attention lie within choice sequences because they enable and compel a decision maker to correct their \"mistakes\". The framework accommodates different attention structures and extends to framing, introducing choice sequences as an important channel to formulate, identify, and scrutinize limited attention.",
+    "path": "papers/22/03/2203.03243.json",
+    "total_tokens": 698,
+    "translated_title": "时间跨度内的选择和注意力",
+    "translated_abstract": "在这篇论文中，作者研究了在注意力框架中过去和未来选择如何联系起来。注意力虽然无法被观察到，但过去的选择必然会在未来决策中被考虑到。这种联系连接了两种理性性违背，即反事实和实现，前者是由于不注意导致的，后者完全确定了偏好。结果表明，有限注意力的必要痕迹存在于选择序列中，因为它们使决策者能够并迫使他们纠正自己的“错误”。该框架适用于不同的注意力结构，并扩展到框架，将选择序列引入为一个重要渠道，来制定、确定和审视有限注意力。",
+    "tldr": "过去和未来选择在注意力框架中的联系揭示了有限注意力对决策的影响，指出选择序列在纠正“错误”中的重要作用。",
+    "en_tdlr": "The link between past and future choices within the framework of attention reveals the impact of limited attention on decision-making, highlighting the crucial role of choice sequences in correcting \"mistakes\"."
+}

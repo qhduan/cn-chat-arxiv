@@ -1,0 +1,12 @@
+{
+    "title": "Properties of the entropic risk measure EVaR in relation to selected distributions",
+    "abstract": "arXiv:2403.01468v1 Announce Type: new  Abstract: Entropic Value-at-Risk (EVaR) measure is a convenient coherent risk measure. Due to certain difficulties in finding its analytical representation, it was previously calculated explicitly only for the normal distribution. We succeeded to overcome these difficulties and to calculate Entropic Value-at-Risk (EVaR) measure for Poisson, compound Poisson, Gamma, Laplace, exponential, chi-squared, inverse Gaussian distribution and normal inverse Gaussian distribution with the help of Lambert function that is a special function, generally speaking, with two branches.",
+    "link": "https://arxiv.org/abs/2403.01468",
+    "context": "Title: Properties of the entropic risk measure EVaR in relation to selected distributions\nAbstract: arXiv:2403.01468v1 Announce Type: new  Abstract: Entropic Value-at-Risk (EVaR) measure is a convenient coherent risk measure. Due to certain difficulties in finding its analytical representation, it was previously calculated explicitly only for the normal distribution. We succeeded to overcome these difficulties and to calculate Entropic Value-at-Risk (EVaR) measure for Poisson, compound Poisson, Gamma, Laplace, exponential, chi-squared, inverse Gaussian distribution and normal inverse Gaussian distribution with the help of Lambert function that is a special function, generally speaking, with two branches.",
+    "path": "papers/24/03/2403.01468.json",
+    "total_tokens": 658,
+    "translated_title": "关于选定分布与熵风险度量EVaR的性质",
+    "translated_abstract": "熵风险度量EVaR是一种方便的连贯风险度量。由于在寻找其解析表示方面存在一定困难，先前仅对正态分布明确计算过它。我们成功克服了这些困难，并利用Lambert函数（一种特殊函数，一般来说具有两个分支）计算了Poisson、复合Poisson、Gamma、拉普拉斯、指数、卡方、逆高斯分布和正态逆高斯分布的熵风险度量EVaR。",
+    "tldr": "本研究成功克服了寻找熵风险度量EVaR解析表示的困难，扩展了其适用范围，包括了多种分布如Poisson、Gamma等。",
+    "en_tdlr": "This study overcame the difficulties in finding the analytical representation of the entropic risk measure EVaR, expanding its applicability to various distributions such as Poisson and Gamma."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Hybrid Quantum Neural Network Advantage for Radar-Based Drone Detection and Classification in Low Signal-to-Noise Ratio",
+    "abstract": "arXiv:2403.02080v1 Announce Type: cross  Abstract: In this paper, we investigate the performance of a Hybrid Quantum Neural Network (HQNN) and a comparable classical Convolution Neural Network (CNN) for detection and classification problem using a radar. Specifically, we take a fairly complex radar time-series model derived from electromagnetic theory, namely the Martin-Mulgrew model, that is used to simulate radar returns of objects with rotating blades, such as drones. We find that when that signal-to-noise ratio (SNR) is high, CNN outperforms the HQNN for detection and classification. However, in the low SNR regime (which is of greatest interest in practice) the performance of HQNN is found to be superior to that of the CNN of a similar architecture.",
+    "link": "https://arxiv.org/abs/2403.02080",
+    "context": "Title: Hybrid Quantum Neural Network Advantage for Radar-Based Drone Detection and Classification in Low Signal-to-Noise Ratio\nAbstract: arXiv:2403.02080v1 Announce Type: cross  Abstract: In this paper, we investigate the performance of a Hybrid Quantum Neural Network (HQNN) and a comparable classical Convolution Neural Network (CNN) for detection and classification problem using a radar. Specifically, we take a fairly complex radar time-series model derived from electromagnetic theory, namely the Martin-Mulgrew model, that is used to simulate radar returns of objects with rotating blades, such as drones. We find that when that signal-to-noise ratio (SNR) is high, CNN outperforms the HQNN for detection and classification. However, in the low SNR regime (which is of greatest interest in practice) the performance of HQNN is found to be superior to that of the CNN of a similar architecture.",
+    "path": "papers/24/03/2403.02080.json",
+    "total_tokens": 736,
+    "translated_title": "低信噪比下以雷达为基础的无人机检测与分类的混合量子神经网络优势",
+    "translated_abstract": "在本文中，我们研究了使用混合量子神经网络(HQNN)和可比较的经典卷积神经网络(CNN)解决雷达检测和分类问题的性能。具体地，我们采用了从电磁理论中得出的相当复杂的雷达时间序列模型，即Martin-Mulgrew模型，这个模型被用来模拟带有旋转叶片的物体（如无人机）的雷达返回。我们发现，当信噪比（SNR）较高时，CNN在检测和分类方面优于HQNN。然而，在低SNR范围（这在实践中最为关注）中，HQNN的性能被发现优于类似架构的CNN。",
+    "tldr": "当信噪比较低时，混合量子神经网络在雷达检测和分类问题中表现优越。",
+    "en_tdlr": "The Hybrid Quantum Neural Network outperforms the classical Convolution Neural Network in radar-based drone detection and classification in low signal-to-noise ratio scenarios."
+}

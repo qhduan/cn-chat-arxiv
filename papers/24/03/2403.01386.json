@@ -1,0 +1,12 @@
+{
+    "title": "Minimax-Regret Sample Selection in Randomized Experiments",
+    "abstract": "arXiv:2403.01386v1 Announce Type: cross  Abstract: Randomized controlled trials (RCTs) are often run in settings with many subpopulations that may have differential benefits from the treatment being evaluated. We consider the problem of sample selection, i.e., whom to enroll in an RCT, such as to optimize welfare in a heterogeneous population. We formalize this problem within the minimax-regret framework, and derive optimal sample-selection schemes under a variety of conditions. We also highlight how different objectives and decisions can lead to notably different guidance regarding optimal sample allocation through a synthetic experiment leveraging historical COVID-19 trial data.",
+    "link": "https://arxiv.org/abs/2403.01386",
+    "context": "Title: Minimax-Regret Sample Selection in Randomized Experiments\nAbstract: arXiv:2403.01386v1 Announce Type: cross  Abstract: Randomized controlled trials (RCTs) are often run in settings with many subpopulations that may have differential benefits from the treatment being evaluated. We consider the problem of sample selection, i.e., whom to enroll in an RCT, such as to optimize welfare in a heterogeneous population. We formalize this problem within the minimax-regret framework, and derive optimal sample-selection schemes under a variety of conditions. We also highlight how different objectives and decisions can lead to notably different guidance regarding optimal sample allocation through a synthetic experiment leveraging historical COVID-19 trial data.",
+    "path": "papers/24/03/2403.01386.json",
+    "total_tokens": 684,
+    "translated_title": "随机实验中的最小后悔样本选择",
+    "translated_abstract": "随机对照试验（RCTs）经常在存在许多可能对所评估的治疗效果有差异的子人群中进行。我们考虑了样本选择问题，即在异质人群中如何选择入组RRT，以优化福利。我们在最小后悔框架下形式化了这个问题，并在多种条件下推导出最优的样本选择方案。我们还强调了不同的目标和决策如何导致明显不同的关于最佳样本分配的指导，通过利用历史COVID-19试验数据进行了一项合成实验。",
+    "tldr": "通过最小后悔框架，提出了在随机试验中优化样本选择以实现异质人群中最佳福利的问题，并在不同条件下推导出最优的样本选择方案。",
+    "en_tdlr": "Facing randomized controlled trials with heterogeneous subpopulations, this paper formalizes the problem of sample selection within the minimax-regret framework to derive optimal schemes, providing varied guidance on sample allocation through synthetic experiments using historical COVID-19 trial data."
+}

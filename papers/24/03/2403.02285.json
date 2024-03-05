@@ -1,0 +1,12 @@
+{
+    "title": "Detection of Non-recorded Word Senses in English and Swedish",
+    "abstract": "arXiv:2403.02285v1 Announce Type: new  Abstract: This study addresses the task of Unknown Sense Detection in English and Swedish. The primary objective of this task is to determine whether the meaning of a particular word usage is documented in a dictionary or not. For this purpose, sense entries are compared with word usages from modern and historical corpora using a pre-trained Word-in-Context embedder that allows us to model this task in a few-shot scenario. Additionally, we use human annotations to adapt and evaluate our models. Compared to a random sample from a corpus, our model is able to considerably increase the detected number of word usages with non-recorded senses.",
+    "link": "https://arxiv.org/abs/2403.02285",
+    "context": "Title: Detection of Non-recorded Word Senses in English and Swedish\nAbstract: arXiv:2403.02285v1 Announce Type: new  Abstract: This study addresses the task of Unknown Sense Detection in English and Swedish. The primary objective of this task is to determine whether the meaning of a particular word usage is documented in a dictionary or not. For this purpose, sense entries are compared with word usages from modern and historical corpora using a pre-trained Word-in-Context embedder that allows us to model this task in a few-shot scenario. Additionally, we use human annotations to adapt and evaluate our models. Compared to a random sample from a corpus, our model is able to considerably increase the detected number of word usages with non-recorded senses.",
+    "path": "papers/24/03/2403.02285.json",
+    "total_tokens": 728,
+    "translated_title": "在英语和瑞典语中检测未记录的词义",
+    "translated_abstract": "这项研究探讨了在英语和瑞典语中进行未知词义检测的任务。该任务的主要目标是确定特定词语用法的含义是否在词典中有记录。为此，使用一个预训练的上下文词嵌入器来比较词义条目与现代和历史语料库中词语用法，从而在少样本情况下建模这一任务。此外，我们使用人类注释来调整和评估我们的模型。与从语料库中随机抽样相比，我们的模型能够显著增加检测到具有未记录词义的词语用法数量。",
+    "tldr": "该研究致力于在英语和瑞典语中检测未记录的词义，通过使用预训练的词-上下文嵌入器和人工注释，成功提高了检测到具有未记录词义的词语用法数量。",
+    "en_tdlr": "This study focuses on detecting non-recorded word senses in English and Swedish, and successfully increases the detected number of word usages with non-recorded senses by utilizing a pre-trained Word-in-Context embedder and human annotations."
+}

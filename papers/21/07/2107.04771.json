@@ -1,0 +1,12 @@
+{
+    "title": "Similar Cases Recommendation using Legal Knowledge Graphs",
+    "abstract": "arXiv:2107.04771v2 Announce Type: replace  Abstract: A legal knowledge graph constructed from court cases, judgments, laws and other legal documents can enable a number of applications like question answering, document similarity, and search. While the use of knowledge graphs for distant supervision in NLP tasks is well researched, using knowledge graphs for applications like case similarity presents challenges. In this work, we describe our solution for predicting similar cases in Indian court judgements. We present our results and also discuss the impact of large language models on this task.",
+    "link": "https://arxiv.org/abs/2107.04771",
+    "context": "Title: Similar Cases Recommendation using Legal Knowledge Graphs\nAbstract: arXiv:2107.04771v2 Announce Type: replace  Abstract: A legal knowledge graph constructed from court cases, judgments, laws and other legal documents can enable a number of applications like question answering, document similarity, and search. While the use of knowledge graphs for distant supervision in NLP tasks is well researched, using knowledge graphs for applications like case similarity presents challenges. In this work, we describe our solution for predicting similar cases in Indian court judgements. We present our results and also discuss the impact of large language models on this task.",
+    "path": "papers/21/07/2107.04771.json",
+    "total_tokens": 638,
+    "translated_title": "使用法律知识图谱进行类似案例推荐",
+    "translated_abstract": "通过从法院案例、裁决、法律及其他法律文件构建的法律知识图谱，可以实现多种应用，如问答、文档相似度和搜索。尽管知识图谱在NLP任务中的远程监督应用得到了广泛研究，但在案例相似性等应用中使用知识图谱还面临挑战。在本工作中，我们描述了我们用于预测印度法院裁决类似案例的解决方案。我们提出了我们的结果，并讨论了大型语言模型对该任务的影响。",
+    "tldr": "使用法律知识图谱预测印度法院裁决类似案例的解决方案，并分析大型语言模型对该任务的影响。",
+    "en_tdlr": "The paper proposes a solution for predicting similar cases in Indian court judgements using legal knowledge graphs, while discussing the impact of large language models on this task."
+}

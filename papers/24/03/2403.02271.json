@@ -1,0 +1,12 @@
+{
+    "title": "RIFF: Learning to Rephrase Inputs for Few-shot Fine-tuning of Language Models",
+    "abstract": "arXiv:2403.02271v1 Announce Type: new  Abstract: Pre-trained Language Models (PLMs) can be accurately fine-tuned for downstream text processing tasks. Recently, researchers have introduced several parameter-efficient fine-tuning methods that optimize input prompts or adjust a small number of model parameters (e.g LoRA). In this study, we explore the impact of altering the input text of the original task in conjunction with parameter-efficient fine-tuning methods. To most effectively rewrite the input text, we train a few-shot paraphrase model with a Maximum-Marginal Likelihood objective. Using six few-shot text classification datasets, we show that enriching data with paraphrases at train and test time enhances the performance beyond what can be achieved with parameter-efficient fine-tuning alone.",
+    "link": "https://arxiv.org/abs/2403.02271",
+    "context": "Title: RIFF: Learning to Rephrase Inputs for Few-shot Fine-tuning of Language Models\nAbstract: arXiv:2403.02271v1 Announce Type: new  Abstract: Pre-trained Language Models (PLMs) can be accurately fine-tuned for downstream text processing tasks. Recently, researchers have introduced several parameter-efficient fine-tuning methods that optimize input prompts or adjust a small number of model parameters (e.g LoRA). In this study, we explore the impact of altering the input text of the original task in conjunction with parameter-efficient fine-tuning methods. To most effectively rewrite the input text, we train a few-shot paraphrase model with a Maximum-Marginal Likelihood objective. Using six few-shot text classification datasets, we show that enriching data with paraphrases at train and test time enhances the performance beyond what can be achieved with parameter-efficient fine-tuning alone.",
+    "path": "papers/24/03/2403.02271.json",
+    "total_tokens": 732,
+    "translated_title": "RIFF: 学习为语言模型的少样本微调改写输入",
+    "translated_abstract": "预训练语言模型（PLMs）可以精确地为下游文本处理任务进行微调。最近，研究人员引入了几种参数高效的微调方法，优化输入提示或调整少量模型参数（例如 LoRA）。在本研究中，我们探讨了改变原始任务的输入文本与参数高效微调方法相结合的影响。为了最有效地重写输入文本，我们使用最大边际似然目标训练了一个少样本释义模型。使用六个少样本文本分类数据集，我们展示了在训练和测试时用释义丰富数据可以提高性能，超出了仅通过参数高效微调可以实现的性能。",
+    "tldr": "通过训练少样本释义模型并在训练和测试时用释义丰富数据，可以提高语言模型的性能，超出仅通过参数高效微调的效果。",
+    "en_tdlr": "Training a few-shot paraphrase model and enriching data with paraphrases during training and testing can improve the performance of language models beyond what can be achieved with parameter-efficient fine-tuning alone."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Federated Learning via Lattice Joint Source-Channel Coding",
+    "abstract": "arXiv:2403.01023v1 Announce Type: cross  Abstract: This paper introduces a universal federated learning framework that enables over-the-air computation via digital communications, using a new joint source-channel coding scheme. Without relying on channel state information at devices, this scheme employs lattice codes to both quantize model parameters and exploit interference from the devices. A novel two-layer receiver structure at the server is designed to reliably decode an integer combination of the quantized model parameters as a lattice point for the purpose of aggregation. Numerical experiments validate the effectiveness of the proposed scheme. Even with the challenges posed by channel conditions and device heterogeneity, the proposed scheme markedly surpasses other over-the-air FL strategies.",
+    "link": "https://arxiv.org/abs/2403.01023",
+    "context": "Title: Federated Learning via Lattice Joint Source-Channel Coding\nAbstract: arXiv:2403.01023v1 Announce Type: cross  Abstract: This paper introduces a universal federated learning framework that enables over-the-air computation via digital communications, using a new joint source-channel coding scheme. Without relying on channel state information at devices, this scheme employs lattice codes to both quantize model parameters and exploit interference from the devices. A novel two-layer receiver structure at the server is designed to reliably decode an integer combination of the quantized model parameters as a lattice point for the purpose of aggregation. Numerical experiments validate the effectiveness of the proposed scheme. Even with the challenges posed by channel conditions and device heterogeneity, the proposed scheme markedly surpasses other over-the-air FL strategies.",
+    "path": "papers/24/03/2403.01023.json",
+    "total_tokens": 708,
+    "translated_title": "通过格点联合源通道编码实现联邦学习",
+    "translated_abstract": "本文介绍了一种利用新的联合源通道编码方案，通过数字通信实现空中计算的通用联邦学习框架。该方案不依赖设备的信道状态信息，而是利用格点编码量化模型参数并利用来自设备的干扰。服务器处设计了一种新颖的两层接收机结构，用于可靠解码定量化模型参数的整数组合作为聚合的格点。数值实验验证了所提方案的有效性。即使面临信道条件和设备异构性带来的挑战，所提出的方案明显优于其他空中联邦学习策略。",
+    "tldr": "通过新的联合源通道编码方案，实现了一种通用联邦学习框架，有效解决了设备信道信息不可知的问题，并在数字通信中能够进行空中计算。",
+    "en_tdlr": "A universal federated learning framework is proposed in this paper, which utilizes a new joint source-channel coding scheme to address the issue of unknown channel state information at devices, enabling over-the-air computation via digital communications."
+}

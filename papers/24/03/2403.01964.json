@@ -1,0 +1,12 @@
+{
+    "title": "The Heterogeneous Productivity Effects of Generative AI",
+    "abstract": "arXiv:2403.01964v1 Announce Type: cross  Abstract: We analyse the individual productivity effects of Italy's ban on ChatGPT, a generative pretrained transformer chatbot. We compile data on the daily coding output quantity and quality of over 36,000 GitHub users in Italy and other European countries and combine these data with the sudden announcement of the ban in a difference-in-differences framework. Among the affected users in Italy, we find a short-term increase in output quantity and quality for less experienced users and a decrease in productivity on more routine tasks for experienced users.",
+    "link": "https://arxiv.org/abs/2403.01964",
+    "context": "Title: The Heterogeneous Productivity Effects of Generative AI\nAbstract: arXiv:2403.01964v1 Announce Type: cross  Abstract: We analyse the individual productivity effects of Italy's ban on ChatGPT, a generative pretrained transformer chatbot. We compile data on the daily coding output quantity and quality of over 36,000 GitHub users in Italy and other European countries and combine these data with the sudden announcement of the ban in a difference-in-differences framework. Among the affected users in Italy, we find a short-term increase in output quantity and quality for less experienced users and a decrease in productivity on more routine tasks for experienced users.",
+    "path": "papers/24/03/2403.01964.json",
+    "total_tokens": 712,
+    "translated_title": "生成式人工智能的异质生产力效应",
+    "translated_abstract": "我们分析了意大利对ChatGPT（一种生成式预训练变换器聊天机器人）的禁令对个人生产力的影响。我们收集了意大利及其他欧洲国家超过36,000名GitHub用户的每日编码输出数量和质量数据，并将这些数据与该禁令的突然宣布结合起来，建立了一个差异性差异框架。在受影响的意大利用户中，我们发现对于经验较少的用户，输出数量和质量短期内增加，而对于经验丰富的用户而言，在更常规的任务上生产力降低。",
+    "tldr": "意大利对ChatGPT实施禁令后，不同经验的用户生产力表现出差异，经验较少的用户在短期内产出数量和质量均有提升，而经验丰富的用户在更常规的任务上表现出生产力下降。",
+    "en_tdlr": "After Italy implemented a ban on ChatGPT, users with different levels of experience showed varying productivity effects, with less experienced users experiencing an increase in both output quantity and quality in the short term, while experienced users exhibited a decrease in productivity on more routine tasks."
+}

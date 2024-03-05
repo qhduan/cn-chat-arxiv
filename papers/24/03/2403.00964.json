@@ -1,0 +1,11 @@
+{
+    "title": "MALTO at SemEval-2024 Task 6: Leveraging Synthetic Data for LLM Hallucination Detection",
+    "abstract": "arXiv:2403.00964v1 Announce Type: new  Abstract: In Natural Language Generation (NLG), contemporary Large Language Models (LLMs) face several challenges, such as generating fluent yet inaccurate outputs and reliance on fluency-centric metrics. This often leads to neural networks exhibiting \"hallucinations\". The SHROOM challenge focuses on automatically identifying these hallucinations in the generated text. To tackle these issues, we introduce two key components, a data augmentation pipeline incorporating LLM-assisted pseudo-labelling and sentence rephrasing, and a voting ensemble from three models pre-trained on Natural Language Inference (NLI) tasks and fine-tuned on diverse datasets.",
+    "link": "https://arxiv.org/abs/2403.00964",
+    "context": "Title: MALTO at SemEval-2024 Task 6: Leveraging Synthetic Data for LLM Hallucination Detection\nAbstract: arXiv:2403.00964v1 Announce Type: new  Abstract: In Natural Language Generation (NLG), contemporary Large Language Models (LLMs) face several challenges, such as generating fluent yet inaccurate outputs and reliance on fluency-centric metrics. This often leads to neural networks exhibiting \"hallucinations\". The SHROOM challenge focuses on automatically identifying these hallucinations in the generated text. To tackle these issues, we introduce two key components, a data augmentation pipeline incorporating LLM-assisted pseudo-labelling and sentence rephrasing, and a voting ensemble from three models pre-trained on Natural Language Inference (NLI) tasks and fine-tuned on diverse datasets.",
+    "path": "papers/24/03/2403.00964.json",
+    "total_tokens": 675,
+    "translated_title": "在SemEval-2024任务6中的MALTO：利用合成数据检测LLM幻觉",
+    "translated_abstract": "在自然语言生成（NLG）中，当代大型语言模型（LLM）面临着一些挑战，例如生成流畅但不准确的输出以及依赖于流畅性为中心的度量。这经常导致神经网络出现“幻觉”。SHROOM挑战旨在自动识别生成文本中的这些幻觉。为了解决这些问题，我们引入了两个关键组件，一个数据增强流水线，包括LLM辅助的伪标记和句子改写，以及一个投票集成来自三个在自然语言推理（NLI）任务上预训练并在不同数据集上微调的模型。",
+    "tldr": "引入了数据增强流水线和投票集成，利用合成数据检测LLM幻觉。"
+}

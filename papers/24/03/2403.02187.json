@@ -1,0 +1,11 @@
+{
+    "title": "Mutual Information Estimation via Normalizing Flows",
+    "abstract": "arXiv:2403.02187v1 Announce Type: new  Abstract: We propose a novel approach to the problem of mutual information (MI) estimation via introducing normalizing flows-based estimator. The estimator maps original data to the target distribution with known closed-form expression for MI. We demonstrate that our approach yields MI estimates for the original data. Experiments with high-dimensional data are provided to show the advantages of the proposed estimator.",
+    "link": "https://arxiv.org/abs/2403.02187",
+    "context": "Title: Mutual Information Estimation via Normalizing Flows\nAbstract: arXiv:2403.02187v1 Announce Type: new  Abstract: We propose a novel approach to the problem of mutual information (MI) estimation via introducing normalizing flows-based estimator. The estimator maps original data to the target distribution with known closed-form expression for MI. We demonstrate that our approach yields MI estimates for the original data. Experiments with high-dimensional data are provided to show the advantages of the proposed estimator.",
+    "path": "papers/24/03/2403.02187.json",
+    "total_tokens": 545,
+    "translated_title": "通过正则化流进行互信息估计",
+    "translated_abstract": "我们提出了一种新颖的方法来解决互信息（MI）估计问题，即引入基于正则化流的估计器。该估计器将原始数据映射到具有已知互信息闭合形式表达式的目标分布。我们证明了我们的方法产生了原始数据的互信息估计。通过高维数据的实验结果展示了所提出估计器的优势。",
+    "tldr": "通过引入基于正则化流的估计器，该方法能够实现对原始数据进行互信息估计，并且在高维数据方面表现出优势。"
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Greed is All You Need: An Evaluation of Tokenizer Inference Methods",
+    "abstract": "arXiv:2403.01289v1 Announce Type: new  Abstract: While subword tokenizers such as BPE and WordPiece are typically used to build vocabularies for NLP models, the method of decoding text into a sequence of tokens from these vocabularies is often left unspecified, or ill-suited to the method in which they were constructed. We provide a controlled analysis of seven tokenizer inference methods across four different algorithms and three vocabulary sizes, performed on a novel intrinsic evaluation suite we curated for English, combining measures rooted in morphology, cognition, and information theory. We show that for the most commonly used tokenizers, greedy inference performs surprisingly well; and that SaGe, a recently-introduced contextually-informed tokenizer, outperforms all others on morphological alignment.",
+    "link": "https://arxiv.org/abs/2403.01289",
+    "context": "Title: Greed is All You Need: An Evaluation of Tokenizer Inference Methods\nAbstract: arXiv:2403.01289v1 Announce Type: new  Abstract: While subword tokenizers such as BPE and WordPiece are typically used to build vocabularies for NLP models, the method of decoding text into a sequence of tokens from these vocabularies is often left unspecified, or ill-suited to the method in which they were constructed. We provide a controlled analysis of seven tokenizer inference methods across four different algorithms and three vocabulary sizes, performed on a novel intrinsic evaluation suite we curated for English, combining measures rooted in morphology, cognition, and information theory. We show that for the most commonly used tokenizers, greedy inference performs surprisingly well; and that SaGe, a recently-introduced contextually-informed tokenizer, outperforms all others on morphological alignment.",
+    "path": "papers/24/03/2403.01289.json",
+    "total_tokens": 763,
+    "translated_title": "贪婪是你所需要的一切：对分词推理方法的评估",
+    "translated_abstract": "虽然 BPE 和 WordPiece 这样的子词分词器通常用于构建 NLP 模型的词汇表，但是将文本解码为这些词汇表中的一系列标记的方法通常未指定，或者不适合它们构建的方法。我们对四种不同算法和三种词汇量大小之间的七种分词器推理方法进行了控制性分析，我们在英语上为此构建了一个新颖的内在评估套件，结合了基于形态学、认知和信息理论的度量。我们展示了对于最常用的分词器，贪婪推理表现出人意料地良好；最近引入的上下文感知分词器 SaGe 在形态对齐方面优于所有其他方法。",
+    "tldr": "对 NLP 模型中常用的分词器进行了控制性分析，发现贪婪推理表现良好，而上下文感知分词器 SaGe 在形态对齐方面表现最优。"
+}

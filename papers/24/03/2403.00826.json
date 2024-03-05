@@ -1,0 +1,12 @@
+{
+    "title": "LLMGuard: Guarding Against Unsafe LLM Behavior",
+    "abstract": "arXiv:2403.00826v1 Announce Type: new  Abstract: Although the rise of Large Language Models (LLMs) in enterprise settings brings new opportunities and capabilities, it also brings challenges, such as the risk of generating inappropriate, biased, or misleading content that violates regulations and can have legal concerns. To alleviate this, we present \"LLMGuard\", a tool that monitors user interactions with an LLM application and flags content against specific behaviours or conversation topics. To do this robustly, LLMGuard employs an ensemble of detectors.",
+    "link": "https://arxiv.org/abs/2403.00826",
+    "context": "Title: LLMGuard: Guarding Against Unsafe LLM Behavior\nAbstract: arXiv:2403.00826v1 Announce Type: new  Abstract: Although the rise of Large Language Models (LLMs) in enterprise settings brings new opportunities and capabilities, it also brings challenges, such as the risk of generating inappropriate, biased, or misleading content that violates regulations and can have legal concerns. To alleviate this, we present \"LLMGuard\", a tool that monitors user interactions with an LLM application and flags content against specific behaviours or conversation topics. To do this robustly, LLMGuard employs an ensemble of detectors.",
+    "path": "papers/24/03/2403.00826.json",
+    "total_tokens": 603,
+    "translated_title": "LLMGuard：防范不安全的LLM行为",
+    "translated_abstract": "尽管大型语言模型(LLMs)在企业环境中的兴起带来了新的机遇和能力，但也带来了挑战，例如生成不当、偏倚或误导性内容的风险，该内容违反规定并可能涉及法律问题。为了缓解这一问题，我们提出了“LLMGuard”，这是一个工具，可监视用户与LLM应用程序的互动，并标记违背特定行为或对话主题的内容。为了做到这一点，LLMGuard采用了一组探测器。",
+    "tldr": "LLMGuard是一个监视用户与LLM应用程序互动的工具，可标记违背特定行为或对话主题的内容。",
+    "en_tdlr": "LLMGuard is a tool that monitors user interactions with an LLM application and flags content against specific behaviors or conversation topics."
+}

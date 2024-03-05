@@ -1,0 +1,12 @@
+{
+    "title": "Risks of heterogeneously persistent higher moments",
+    "abstract": "arXiv:2104.04264v2 Announce Type: replace  Abstract: Using intraday data for the cross-section of individual stocks, we show that both transitory and persistent fluctuations in realized market and average idiosyncratic volatility, skewness and kurtosis are differentially priced in the cross-section of asset returns, implying a heterogeneous persistence structure of different sources of higher moment risks. Specifically, we find that idiosyncratic transitory shocks to volatility as well as idiosyncratic persistent shocks to skewness contain strong commonalities that are relevant to investors.",
+    "link": "https://arxiv.org/abs/2104.04264",
+    "context": "Title: Risks of heterogeneously persistent higher moments\nAbstract: arXiv:2104.04264v2 Announce Type: replace  Abstract: Using intraday data for the cross-section of individual stocks, we show that both transitory and persistent fluctuations in realized market and average idiosyncratic volatility, skewness and kurtosis are differentially priced in the cross-section of asset returns, implying a heterogeneous persistence structure of different sources of higher moment risks. Specifically, we find that idiosyncratic transitory shocks to volatility as well as idiosyncratic persistent shocks to skewness contain strong commonalities that are relevant to investors.",
+    "path": "papers/21/04/2104.04264.json",
+    "total_tokens": 590,
+    "translated_title": "异质性持久高阶矩风险",
+    "translated_abstract": "使用股票个体截面的分钟数据，我们展示了实现市场和平均特有波动率、偏度和峰度中的短期和持久波动同时存在差异性定价，这意味着资产收益的截面中存在不同高阶矩风险来源的异质性持久结构。具体而言，我们发现特异性波动的短期冲击以及特异性偏度的持久冲击包含了对投资者有关联的强共性。",
+    "tldr": "不同高阶矩风险源头的异质性持久结构对投资者具有重要意义。",
+    "en_tdlr": "Heterogeneous persistent structure of different sources of higher moment risks is crucial for investors."
+}

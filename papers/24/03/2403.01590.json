@@ -1,0 +1,12 @@
+{
+    "title": "The Hidden Attention of Mamba Models",
+    "abstract": "arXiv:2403.01590v1 Announce Type: new  Abstract: The Mamba layer offers an efficient selective state space model (SSM) that is highly effective in modeling multiple domains including NLP, long-range sequences processing, and computer vision. Selective SSMs are viewed as dual models, in which one trains in parallel on the entire sequence via IO-aware parallel scan, and deploys in an autoregressive manner. We add a third view and show that such models can be viewed as attention-driven models. This new perspective enables us to compare the underlying mechanisms to that of the self-attention layers in transformers and allows us to peer inside the inner workings of the Mamba model with explainability methods. Our code is publicly available.",
+    "link": "https://arxiv.org/abs/2403.01590",
+    "context": "Title: The Hidden Attention of Mamba Models\nAbstract: arXiv:2403.01590v1 Announce Type: new  Abstract: The Mamba layer offers an efficient selective state space model (SSM) that is highly effective in modeling multiple domains including NLP, long-range sequences processing, and computer vision. Selective SSMs are viewed as dual models, in which one trains in parallel on the entire sequence via IO-aware parallel scan, and deploys in an autoregressive manner. We add a third view and show that such models can be viewed as attention-driven models. This new perspective enables us to compare the underlying mechanisms to that of the self-attention layers in transformers and allows us to peer inside the inner workings of the Mamba model with explainability methods. Our code is publicly available.",
+    "path": "papers/24/03/2403.01590.json",
+    "total_tokens": 696,
+    "translated_title": "Mamba模型的隐藏关注",
+    "translated_abstract": "Mamba层提供了一种高效的选择性状态空间模型(SSM)，在建模多个领域包括NLP、长距离序列处理和计算机视觉方面非常有效。选择性SSMs被视为双重模型，其中一个通过IO-aware并行扫描在整个序列上进行并行训练，并以自回归方式部署。我们添加了第三个视角，并展示这样的模型可以被视为关注驱动的模型。这一新视角使我们能够将底层机制与变压器中的自注意力层进行比较，并让我们通过可解释性方法窥探Mamba模型的内部工作。我们的代码可公开获取。",
+    "tldr": "Mamba模型可以被视为关注驱动的模型，这与变压器中的自注意力层有所不同，并且通过可解释性方法可以深入了解其内部工作。",
+    "en_tdlr": "The Mamba model can be viewed as attention-driven, distinct from the self-attention layers in transformers, allowing for a deeper understanding of its inner workings through explainability methods."
+}

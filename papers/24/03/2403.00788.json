@@ -1,0 +1,12 @@
+{
+    "title": "PRECISE Framework: GPT-based Text For Improved Readability, Reliability, and Understandability of Radiology Reports For Patient-Centered Care",
+    "abstract": "arXiv:2403.00788v1 Announce Type: cross  Abstract: This study introduces and evaluates the PRECISE framework, utilizing OpenAI's GPT-4 to enhance patient engagement by providing clearer and more accessible chest X-ray reports at a sixth-grade reading level. The framework was tested on 500 reports, demonstrating significant improvements in readability, reliability, and understandability. Statistical analyses confirmed the effectiveness of the PRECISE approach, highlighting its potential to foster patient-centric care delivery in healthcare decision-making.",
+    "link": "https://arxiv.org/abs/2403.00788",
+    "context": "Title: PRECISE Framework: GPT-based Text For Improved Readability, Reliability, and Understandability of Radiology Reports For Patient-Centered Care\nAbstract: arXiv:2403.00788v1 Announce Type: cross  Abstract: This study introduces and evaluates the PRECISE framework, utilizing OpenAI's GPT-4 to enhance patient engagement by providing clearer and more accessible chest X-ray reports at a sixth-grade reading level. The framework was tested on 500 reports, demonstrating significant improvements in readability, reliability, and understandability. Statistical analyses confirmed the effectiveness of the PRECISE approach, highlighting its potential to foster patient-centric care delivery in healthcare decision-making.",
+    "path": "papers/24/03/2403.00788.json",
+    "total_tokens": 724,
+    "translated_title": "PRECISE框架：基于GPT的文本以提高放射学报告的可读性、可靠性和可理解性，实现以患者为中心的护理",
+    "translated_abstract": "本研究介绍并评估了PRECISE框架，利用OpenAI的GPT-4来增强患者参与度，提供更清晰、更易读的六年级阅读水平的胸部X射线报告。该框架在500份报告上进行了测试，显示出在可读性、可靠性和可理解性方面的显著改进。统计分析证实了PRECISE方法的有效性，突显了其在促进健康决策中心的护理交付中的潜力。",
+    "tldr": "本研究提出并评估了PRECISE框架，利用GPT-4技术提供更易读的胸部X射线报告，以进一步提高放射学报告的可读性、可靠性和可理解性，有助于推动以患者为中心的护理。",
+    "en_tdlr": "This study introduces and evaluates the PRECISE framework, utilizing GPT-4 technology to provide more readable chest X-ray reports, aiming to enhance the readability, reliability, and understandability of radiology reports, thus promoting patient-centered care."
+}

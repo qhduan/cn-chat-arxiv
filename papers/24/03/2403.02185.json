@@ -1,0 +1,12 @@
+{
+    "title": "Distilled ChatGPT Topic & Sentiment Modeling with Applications in Finance",
+    "abstract": "arXiv:2403.02185v1 Announce Type: cross  Abstract: In this study, ChatGPT is utilized to create streamlined models that generate easily interpretable features. These features are then used to evaluate financial outcomes from earnings calls. We detail a training approach that merges knowledge distillation and transfer learning, resulting in lightweight topic and sentiment classification models without significant loss in accuracy. These models are assessed through a dataset annotated by experts. The paper also delves into two practical case studies, highlighting how the generated features can be effectively utilized in quantitative investing scenarios.",
+    "link": "https://arxiv.org/abs/2403.02185",
+    "context": "Title: Distilled ChatGPT Topic & Sentiment Modeling with Applications in Finance\nAbstract: arXiv:2403.02185v1 Announce Type: cross  Abstract: In this study, ChatGPT is utilized to create streamlined models that generate easily interpretable features. These features are then used to evaluate financial outcomes from earnings calls. We detail a training approach that merges knowledge distillation and transfer learning, resulting in lightweight topic and sentiment classification models without significant loss in accuracy. These models are assessed through a dataset annotated by experts. The paper also delves into two practical case studies, highlighting how the generated features can be effectively utilized in quantitative investing scenarios.",
+    "path": "papers/24/03/2403.02185.json",
+    "total_tokens": 672,
+    "translated_title": "ChatGPT主题和情感建模在金融中的应用优化",
+    "translated_abstract": "在这项研究中，利用ChatGPT创建了简化模型，生成易于解释的特征。这些特征用于评估从财报电话会议中得出的财务结果。我们详细介绍了一个融合了知识蒸馏和迁移学习的训练方法，得到了轻量级的主题和情感分类模型，而准确率损失不大。这些模型经过专家标注的数据集评估。论文还探讨了两个实际案例研究，突显了生成的特征如何在量化投资场景中有效利用。",
+    "tldr": "ChatGPT被应用于金融领域，通过知识蒸馏和迁移学习融合的训练方法，生成轻量级主题和情感分类模型，成功应用于量化投资场景。",
+    "en_tdlr": "ChatGPT is applied in finance, generating lightweight topic and sentiment classification models through a training approach that combines knowledge distillation and transfer learning, successfully applied in quantitative investing scenarios."
+}

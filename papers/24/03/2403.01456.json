@@ -1,0 +1,12 @@
+{
+    "title": "Controlling Cloze-test Question Item Difficulty with PLM-based Surrogate Models for IRT Assessment",
+    "abstract": "arXiv:2403.01456v1 Announce Type: cross  Abstract: Item difficulty plays a crucial role in adaptive testing. However, few works have focused on generating questions of varying difficulty levels, especially for multiple-choice (MC) cloze tests. We propose training pre-trained language models (PLMs) as surrogate models to enable item response theory (IRT) assessment, avoiding the need for human test subjects. We also propose two strategies to control the difficulty levels of both the gaps and the distractors using ranking rules to reduce invalid distractors. Experimentation on a benchmark dataset demonstrates that our proposed framework and methods can effectively control and evaluate the difficulty levels of MC cloze tests.",
+    "link": "https://arxiv.org/abs/2403.01456",
+    "context": "Title: Controlling Cloze-test Question Item Difficulty with PLM-based Surrogate Models for IRT Assessment\nAbstract: arXiv:2403.01456v1 Announce Type: cross  Abstract: Item difficulty plays a crucial role in adaptive testing. However, few works have focused on generating questions of varying difficulty levels, especially for multiple-choice (MC) cloze tests. We propose training pre-trained language models (PLMs) as surrogate models to enable item response theory (IRT) assessment, avoiding the need for human test subjects. We also propose two strategies to control the difficulty levels of both the gaps and the distractors using ranking rules to reduce invalid distractors. Experimentation on a benchmark dataset demonstrates that our proposed framework and methods can effectively control and evaluate the difficulty levels of MC cloze tests.",
+    "path": "papers/24/03/2403.01456.json",
+    "total_tokens": 732,
+    "translated_title": "使用基于PLM的代理模型控制IRT评估中的填空测试题目难度",
+    "translated_abstract": "项目难度在自适应测试中发挥着至关重要的作用。然而，很少有研究集中在生成不同难度水平的问题，特别是针对多项选择（MC）填空测试。我们提出使用预先训练的语言模型（PLMs）作为代理模型，以实现项目反应理论（IRT）评估，避免需要人类测试对象。我们还提出了两种策略来通过排名规则控制空白和干扰项的难度水平，以减少无效干扰项。对基准数据集的实验表明，我们提出的框架和方法可以有效地控制和评估MC填空测试的难度水平。",
+    "tldr": "提出使用预训练语言模型作为代理模型，通过排名规则控制填空测试题目中空白和干扰项的难度水平，有效评估MC填空测试的难度水平",
+    "en_tdlr": "Introducing pre-trained language models as surrogate models, controlling the difficulty levels of both the gaps and distractors in cloze tests using ranking rules, effectively evaluating the difficulty levels of MC cloze tests."
+}

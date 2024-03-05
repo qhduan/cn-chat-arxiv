@@ -1,0 +1,11 @@
+{
+    "title": "Translating Legalese: Enhancing Public Understanding of Court Opinions with Legal Summarizers",
+    "abstract": "arXiv:2311.06534v2 Announce Type: replace  Abstract: Judicial opinions are written to be persuasive and could build public trust in court decisions, yet they can be difficult for non-experts to understand. We present a pipeline for using an AI assistant to generate simplified summaries of judicial opinions. Compared to existing expert-written summaries, these AI-generated simple summaries are more accessible to the public and more easily understood by non-experts. We show in a survey experiment that the AI summaries help respondents understand the key features of a ruling, and have higher perceived quality, especially for respondents with less formal education.",
+    "link": "https://arxiv.org/abs/2311.06534",
+    "context": "Title: Translating Legalese: Enhancing Public Understanding of Court Opinions with Legal Summarizers\nAbstract: arXiv:2311.06534v2 Announce Type: replace  Abstract: Judicial opinions are written to be persuasive and could build public trust in court decisions, yet they can be difficult for non-experts to understand. We present a pipeline for using an AI assistant to generate simplified summaries of judicial opinions. Compared to existing expert-written summaries, these AI-generated simple summaries are more accessible to the public and more easily understood by non-experts. We show in a survey experiment that the AI summaries help respondents understand the key features of a ruling, and have higher perceived quality, especially for respondents with less formal education.",
+    "path": "papers/23/11/2311.06534.json",
+    "total_tokens": 709,
+    "translated_title": "用法律摘要器提升公众对法院判决的理解：翻译法律术语",
+    "translated_abstract": "司法意见被写作具有说服力，并且可以建立公众对法院判决的信任，然而对非专业人士来说理解起来可能会很困难。我们展示了一种使用人工智能助手生成司法意见简化摘要的流程。与现有的专家撰写的摘要相比，这些由人工智能生成的简化摘要更易为公众接触和非专家理解。我们在一项调查实验中展示了这些人工智能摘要有助于调查对象理解裁决的关键特征，并且在被认为质量更高，尤其对于受教育程度较低的调查对象。",
+    "tldr": "使用人工智能生成的简化摘要可以帮助公众更好地理解司法意见，尤其对于受教育程度较低的人群有显著影响。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Subjective $\\textit{Isms}$? On the Danger of Conflating Hate and Offence in Abusive Language Detection",
+    "abstract": "arXiv:2403.02268v1 Announce Type: cross  Abstract: Natural language processing research has begun to embrace the notion of annotator subjectivity, motivated by variations in labelling. This approach understands each annotator's view as valid, which can be highly suitable for tasks that embed subjectivity, e.g., sentiment analysis. However, this construction may be inappropriate for tasks such as hate speech detection, as it affords equal validity to all positions on e.g., sexism or racism. We argue that the conflation of hate and offence can invalidate findings on hate speech, and call for future work to be situated in theory, disentangling hate from its orthogonal concept, offence.",
+    "link": "https://arxiv.org/abs/2403.02268",
+    "context": "Title: Subjective $\\textit{Isms}$? On the Danger of Conflating Hate and Offence in Abusive Language Detection\nAbstract: arXiv:2403.02268v1 Announce Type: cross  Abstract: Natural language processing research has begun to embrace the notion of annotator subjectivity, motivated by variations in labelling. This approach understands each annotator's view as valid, which can be highly suitable for tasks that embed subjectivity, e.g., sentiment analysis. However, this construction may be inappropriate for tasks such as hate speech detection, as it affords equal validity to all positions on e.g., sexism or racism. We argue that the conflation of hate and offence can invalidate findings on hate speech, and call for future work to be situated in theory, disentangling hate from its orthogonal concept, offence.",
+    "path": "papers/24/03/2403.02268.json",
+    "total_tokens": 815,
+    "translated_title": "主观 $\\textit{Isms}$? 论混淆仇恨与冒犯在滥用语言检测中的危险",
+    "translated_abstract": "arXiv:2403.02268v1 类型：跨领域 摘要：自然语言处理研究已经开始接受注释者主观性的概念，这主要受到标记差异的驱动。这种方法将每个注释者的观点视为有效，这对于嵌入主观性的任务(如情感分析)可能非常适用。然而，对于仇恨言论检测等任务，这种构造可能是不恰当的，因为它赋予了所有关于性别歧视或种族主义等议题的立场相同的有效性。我们认为对仇恨和冒犯的混淆可能会使对仇恨言论的研究结果无效，并呼吁未来的工作应该置于理论框架中，将仇恨与其正交概念冒犯分离开来。",
+    "tldr": "论文指出在滥用语言检测中，混淆仇恨和冒犯可能会使研究结果失效，呼吁未来工作需要从理论上将仇恨与冒犯概念进行分离。",
+    "en_tdlr": "This paper argues that conflating hate and offense in abusive language detection can invalidate research results, and calls for future work to theoretically disentangle hate from its orthogonal concept, offense."
+}

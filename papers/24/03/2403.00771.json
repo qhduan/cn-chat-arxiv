@@ -1,0 +1,11 @@
+{
+    "title": "XProspeCT: CT Volume Generation from Paired X-Rays",
+    "abstract": "arXiv:2403.00771v1 Announce Type: cross  Abstract: Computed tomography (CT) is a beneficial imaging tool for diagnostic purposes. CT scans provide detailed information concerning the internal anatomic structures of a patient, but present higher radiation dose and costs compared to X-ray imaging. In this paper, we build on previous research to convert orthogonal X-ray images into simulated CT volumes by exploring larger datasets and various model structures. Significant model variations include UNet architectures, custom connections, activation functions, loss functions, optimizers, and a novel back projection approach.",
+    "link": "https://arxiv.org/abs/2403.00771",
+    "context": "Title: XProspeCT: CT Volume Generation from Paired X-Rays\nAbstract: arXiv:2403.00771v1 Announce Type: cross  Abstract: Computed tomography (CT) is a beneficial imaging tool for diagnostic purposes. CT scans provide detailed information concerning the internal anatomic structures of a patient, but present higher radiation dose and costs compared to X-ray imaging. In this paper, we build on previous research to convert orthogonal X-ray images into simulated CT volumes by exploring larger datasets and various model structures. Significant model variations include UNet architectures, custom connections, activation functions, loss functions, optimizers, and a novel back projection approach.",
+    "path": "papers/24/03/2403.00771.json",
+    "total_tokens": 706,
+    "translated_title": "从配对X射线生成CT体积的XProspeCT方法",
+    "translated_abstract": "计算机断层扫描（CT）是一种有益的诊断工具。CT扫描提供了关于患者内部解剖结构的详细信息，但与X射线成像相比，CT扫描具有更高的辐射剂量和费用。在本文中，我们在先前的研究基础上，通过探索更大的数据集和各种模型结构，将正交X射线图像转换为模拟的CT体积。显著的模型变化包括UNet架构、自定义连接、激活函数、损失函数、优化器和一种新颖的反投影方法。",
+    "tldr": "通过探索更大的数据集和多种模型结构，本研究将正交X射线图像转换为模拟的CT体积，采用了UNet架构、自定义连接、激活函数、损失函数、优化器和一种新颖的反投影方法。"
+}

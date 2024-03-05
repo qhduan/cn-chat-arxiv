@@ -1,0 +1,12 @@
+{
+    "title": "Towards Fair and Firm Real-Time Scheduling in DNN Multi-Tenant Multi-Accelerator Systems via Reinforcement Learning",
+    "abstract": "arXiv:2403.00766v1 Announce Type: cross  Abstract: This paper addresses the critical challenge of managing Quality of Service (QoS) in cloud services, focusing on the nuances of individual tenant expectations and varying Service Level Indicators (SLIs). It introduces a novel approach utilizing Deep Reinforcement Learning for tenant-specific QoS management in multi-tenant, multi-accelerator cloud environments. The chosen SLI, deadline hit rate, allows clients to tailor QoS for each service request. A novel online scheduling algorithm for Deep Neural Networks in multi-accelerator systems is proposed, with a focus on guaranteeing tenant-wise, model-specific QoS levels while considering real-time constraints.",
+    "link": "https://arxiv.org/abs/2403.00766",
+    "context": "Title: Towards Fair and Firm Real-Time Scheduling in DNN Multi-Tenant Multi-Accelerator Systems via Reinforcement Learning\nAbstract: arXiv:2403.00766v1 Announce Type: cross  Abstract: This paper addresses the critical challenge of managing Quality of Service (QoS) in cloud services, focusing on the nuances of individual tenant expectations and varying Service Level Indicators (SLIs). It introduces a novel approach utilizing Deep Reinforcement Learning for tenant-specific QoS management in multi-tenant, multi-accelerator cloud environments. The chosen SLI, deadline hit rate, allows clients to tailor QoS for each service request. A novel online scheduling algorithm for Deep Neural Networks in multi-accelerator systems is proposed, with a focus on guaranteeing tenant-wise, model-specific QoS levels while considering real-time constraints.",
+    "path": "papers/24/03/2403.00766.json",
+    "total_tokens": 729,
+    "translated_title": "通过强化学习实现DNN多租户多加速器系统中的公平和稳定实时调度",
+    "translated_abstract": "本文解决了云服务中管理服务质量（QoS）的关键挑战，重点关注个别租户期望和不同的服务水平指标（SLI）的细微之处。它引入了一种新颖的方法，利用深度强化学习来管理多租户、多加速器云环境中各自特定的QoS。所选择的SLI，截止时间命中率，允许客户为每个服务请求定制QoS。提出了一种面向多加速器系统的深度神经网络的在线调度算法，重点关注于在考虑实时约束的同时保证租户特定，模型特定的QoS水平。",
+    "tldr": "通过强化学习实现了在DNN多租户多加速器系统中公平和稳定的实时调度，提出了针对不同租户的模型特定QoS管理的新方法。",
+    "en_tdlr": "A novel approach utilizing Deep Reinforcement Learning guarantees fair and firm real-time scheduling in DNN multi-tenant multi-accelerator systems, focusing on tenant-specific QoS management for different models."
+}

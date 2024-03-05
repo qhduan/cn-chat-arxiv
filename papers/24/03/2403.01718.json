@@ -1,0 +1,11 @@
+{
+    "title": "L0 Regularization of Field-Aware Factorization Machine through Ising Model",
+    "abstract": "arXiv:2403.01718v1 Announce Type: new  Abstract: We examined the use of the Ising model as an L0 regularization method for field-aware factorization machines (FFM). This approach improves generalization performance and has the advantage of simultaneously determining the best feature combinations for each of several groups. We can deepen the interpretation and understanding of the model from the similarities and differences in the features selected in each group.",
+    "link": "https://arxiv.org/abs/2403.01718",
+    "context": "Title: L0 Regularization of Field-Aware Factorization Machine through Ising Model\nAbstract: arXiv:2403.01718v1 Announce Type: new  Abstract: We examined the use of the Ising model as an L0 regularization method for field-aware factorization machines (FFM). This approach improves generalization performance and has the advantage of simultaneously determining the best feature combinations for each of several groups. We can deepen the interpretation and understanding of the model from the similarities and differences in the features selected in each group.",
+    "path": "papers/24/03/2403.01718.json",
+    "total_tokens": 564,
+    "translated_title": "通过伊辛模型进行场感知因子分解机的L0正则化",
+    "translated_abstract": "我们研究了使用伊辛模型作为场感知因子分解机（FFM）的L0正则化方法。这种方法提高了泛化性能，并具有同时确定每个群组的最佳特征组合的优势。我们可以通过每个群组选择的特征的相似性和差异加深对模型的解释和理解。",
+    "tldr": "通过使用伊辛模型作为L0正则化方法，改进了场感知因子分解机（FFM）的泛化性能，并能同时确定多个群组的最佳特征组合。"
+}

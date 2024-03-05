@@ -1,0 +1,11 @@
+{
+    "title": "SANGRIA: Stacked Autoencoder Neural Networks with Gradient Boosting for Indoor Localization",
+    "abstract": "arXiv:2403.01348v1 Announce Type: cross  Abstract: Indoor localization is a critical task in many embedded applications, such as asset tracking, emergency response, and realtime navigation. In this article, we propose a novel fingerprintingbased framework for indoor localization called SANGRIA that uses stacked autoencoder neural networks with gradient boosted trees. Our approach is designed to overcome the device heterogeneity challenge that can create uncertainty in wireless signal measurements across embedded devices used for localization. We compare SANGRIA to several state-of-the-art frameworks and demonstrate 42.96% lower average localization error across diverse indoor locales and heterogeneous devices.",
+    "link": "https://arxiv.org/abs/2403.01348",
+    "context": "Title: SANGRIA: Stacked Autoencoder Neural Networks with Gradient Boosting for Indoor Localization\nAbstract: arXiv:2403.01348v1 Announce Type: cross  Abstract: Indoor localization is a critical task in many embedded applications, such as asset tracking, emergency response, and realtime navigation. In this article, we propose a novel fingerprintingbased framework for indoor localization called SANGRIA that uses stacked autoencoder neural networks with gradient boosted trees. Our approach is designed to overcome the device heterogeneity challenge that can create uncertainty in wireless signal measurements across embedded devices used for localization. We compare SANGRIA to several state-of-the-art frameworks and demonstrate 42.96% lower average localization error across diverse indoor locales and heterogeneous devices.",
+    "path": "papers/24/03/2403.01348.json",
+    "total_tokens": 736,
+    "translated_title": "SANGRIA：基于梯度提升的堆叠自编码器神经网络用于室内定位",
+    "translated_abstract": "室内定位是许多嵌入式应用中的关键任务，例如资产跟踪、应急响应和实时导航。在本文中，我们提出了一种名为SANGRIA的基于指纹的室内定位框架，该框架使用了堆叠自编码器神经网络与梯度提升树。我们的方法旨在克服设备异构性挑战，该挑战可能导致用于定位的嵌入式设备之间的无线信号测量出现不确定性。我们将SANGRIA与几种最先进的框架进行了比较，并在不同室内场所和异构设备上展示了42.96%较低的平均定位误差。",
+    "tldr": "SANGRIA是一个基于堆叠自编码器神经网络与梯度提升树的室内定位框架，相比其他先进框架，能够实现更低的平均定位误差。"
+}

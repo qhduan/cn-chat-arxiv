@@ -1,0 +1,12 @@
+{
+    "title": "Supplier Recommendation in Online Procurement",
+    "abstract": "arXiv:2403.01301v1 Announce Type: cross  Abstract: Supply chain optimization is key to a healthy and profitable business. Many companies use online procurement systems to agree contracts with suppliers. It is vital that the most competitive suppliers are invited to bid for such contracts. In this work, we propose a recommender system to assist with supplier discovery in road freight online procurement. Our system is able to provide personalized supplier recommendations, taking into account customer needs and preferences. This is a novel application of recommender systems, calling for design choices that fit the unique requirements of online procurement. Our preliminary results, using real-world data, are promising.",
+    "link": "https://arxiv.org/abs/2403.01301",
+    "context": "Title: Supplier Recommendation in Online Procurement\nAbstract: arXiv:2403.01301v1 Announce Type: cross  Abstract: Supply chain optimization is key to a healthy and profitable business. Many companies use online procurement systems to agree contracts with suppliers. It is vital that the most competitive suppliers are invited to bid for such contracts. In this work, we propose a recommender system to assist with supplier discovery in road freight online procurement. Our system is able to provide personalized supplier recommendations, taking into account customer needs and preferences. This is a novel application of recommender systems, calling for design choices that fit the unique requirements of online procurement. Our preliminary results, using real-world data, are promising.",
+    "path": "papers/24/03/2403.01301.json",
+    "total_tokens": 677,
+    "translated_title": "在线采购中的供应商推荐",
+    "translated_abstract": "供应链优化对于健康和盈利的企业至关重要。许多公司使用在线采购系统与供应商签订合同。邀请最具竞争力的供应商竞标这些合同至关重要。在这项工作中，我们提出了一个推荐系统，以协助在道路货运在线采购中进行供应商发现。我们的系统能够提供个性化的供应商推荐，考虑到客户的需求和偏好。这是推荐系统的一种新颖应用，需要设计选择以符合在线采购的独特要求。我们使用真实数据进行的初步结果令人鼓舞。",
+    "tldr": "本研究提出了一个推荐系统，用于在道路货运在线采购中辅助进行供应商发现，能够提供个性化的供应商推荐，考虑到客户的需求和偏好。",
+    "en_tdlr": "This study introduces a recommender system for assisting in supplier discovery in road freight online procurement, providing personalized supplier recommendations based on customer needs and preferences."
+}
