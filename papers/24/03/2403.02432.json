@@ -1,0 +1,12 @@
+{
+    "title": "On the impact of measure pre-conditionings on general parametric ML models and transfer learning via domain adaptation",
+    "abstract": "arXiv:2403.02432v1 Announce Type: cross  Abstract: We study a new technique for understanding convergence of learning agents under small modifications of data. We show that such convergence can be understood via an analogue of Fatou's lemma which yields gamma-convergence. We show it's relevance and applications in general machine learning tasks and domain adaptation transfer learning.",
+    "link": "https://arxiv.org/abs/2403.02432",
+    "context": "Title: On the impact of measure pre-conditionings on general parametric ML models and transfer learning via domain adaptation\nAbstract: arXiv:2403.02432v1 Announce Type: cross  Abstract: We study a new technique for understanding convergence of learning agents under small modifications of data. We show that such convergence can be understood via an analogue of Fatou's lemma which yields gamma-convergence. We show it's relevance and applications in general machine learning tasks and domain adaptation transfer learning.",
+    "path": "papers/24/03/2403.02432.json",
+    "total_tokens": 600,
+    "translated_title": "关于测度预处理对通用参数ML模型和通过领域自适应进行迁移学习的影响",
+    "translated_abstract": "我们研究了一种新技术，用于理解在数据略微修改的情况下学习代理的收敛性。 我们展示了这种收敛可以通过一种类似于法图引理的模拟理解，从而产生了伽玛收敛。 我们展示了这种技术在通用机器学习任务和领域自适应迁移学习中的相关性和应用。",
+    "tldr": "通过测度预处理技术，研究了参数ML模型和领域自适应迁移学习中学习代理的收敛性，提出了伽玛收敛的类似法图引理的理解。",
+    "en_tdlr": "Investigated the convergence of learning agents in parametric ML models and domain adaptation transfer learning with measure pre-conditioning technique, proposing an understanding similar to Fatou's lemma for gamma-convergence."
+}

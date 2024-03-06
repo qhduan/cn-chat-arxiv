@@ -1,0 +1,12 @@
+{
+    "title": "Exploring the Limitations of Large Language Models in Compositional Relation Reasoning",
+    "abstract": "arXiv:2403.02615v1 Announce Type: new  Abstract: We present a comprehensive evaluation of large language models(LLMs)' ability to reason about composition relations through a benchmark encompassing 1,500 test cases in English, designed to cover six distinct types of composition relations: Positional, Comparative, Personal, Mathematical, Identity, and Other. Acknowledging the significance of multilingual capabilities, we expanded our assessment to include translations of these cases into Chinese, Japanese, French, and Korean. Our Multilingual Composition Relation (MCR) benchmark aims at investigating the robustness and adaptability of LLMs in handling composition relation reasoning across diverse linguistic contexts.",
+    "link": "https://arxiv.org/abs/2403.02615",
+    "context": "Title: Exploring the Limitations of Large Language Models in Compositional Relation Reasoning\nAbstract: arXiv:2403.02615v1 Announce Type: new  Abstract: We present a comprehensive evaluation of large language models(LLMs)' ability to reason about composition relations through a benchmark encompassing 1,500 test cases in English, designed to cover six distinct types of composition relations: Positional, Comparative, Personal, Mathematical, Identity, and Other. Acknowledging the significance of multilingual capabilities, we expanded our assessment to include translations of these cases into Chinese, Japanese, French, and Korean. Our Multilingual Composition Relation (MCR) benchmark aims at investigating the robustness and adaptability of LLMs in handling composition relation reasoning across diverse linguistic contexts.",
+    "path": "papers/24/03/2403.02615.json",
+    "total_tokens": 693,
+    "translated_title": "探讨大型语言模型在组合关系推理中的局限性",
+    "translated_abstract": "我们对大型语言模型(LLMs)在通过一个包含1,500个英文测试案例的基准测试中推理组合关系的能力进行了全面评估，旨在涵盖六种不同类型的组合关系：位置、比较、个人、数学、身份和其他。意识到多语言能力的重要性，我们将评估扩展到将这些案例翻译成中文、日文、法文和韩文。我们的多语言组合关系(MCR)基准旨在探讨大型语言模型在处理不同语言背景下的组合关系推理的稳健性和适应性。",
+    "tldr": "评估了大型语言模型在组合关系推理中的能力，设计了涵盖六种不同类型组合关系的基准测试，并扩展到多语言环境下进行评估。",
+    "en_tdlr": "Evaluated the ability of large language models in compositional relation reasoning through a benchmark covering six distinct types of composition relations, with assessments extended to multilingual contexts."
+}

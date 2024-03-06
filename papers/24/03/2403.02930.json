@@ -1,0 +1,12 @@
+{
+    "title": "A Second Look on BASS -- Boosting Abstractive Summarization with Unified Semantic Graphs -- A Replication Study",
+    "abstract": "arXiv:2403.02930v1 Announce Type: new  Abstract: We present a detailed replication study of the BASS framework, an abstractive summarization system based on the notion of Unified Semantic Graphs. Our investigation includes challenges in replicating key components and an ablation study to systematically isolate error sources rooted in replicating novel components. Our findings reveal discrepancies in performance compared to the original work. We highlight the significance of paying careful attention even to reasonably omitted details for replicating advanced frameworks like BASS, and emphasize key practices for writing replicable papers.",
+    "link": "https://arxiv.org/abs/2403.02930",
+    "context": "Title: A Second Look on BASS -- Boosting Abstractive Summarization with Unified Semantic Graphs -- A Replication Study\nAbstract: arXiv:2403.02930v1 Announce Type: new  Abstract: We present a detailed replication study of the BASS framework, an abstractive summarization system based on the notion of Unified Semantic Graphs. Our investigation includes challenges in replicating key components and an ablation study to systematically isolate error sources rooted in replicating novel components. Our findings reveal discrepancies in performance compared to the original work. We highlight the significance of paying careful attention even to reasonably omitted details for replicating advanced frameworks like BASS, and emphasize key practices for writing replicable papers.",
+    "path": "papers/24/03/2403.02930.json",
+    "total_tokens": 681,
+    "translated_title": "BASS的再审视--利用统一语义图提升抽象摘要--一项复制研究",
+    "translated_abstract": "我们展示了对BASS框架的详细复制研究，这是一个基于统一语义图概念的抽象摘要系统。我们的调查包括复制关键组件时遇到的挑战，以及一个消融研究来系统地隔离在复制新颖组件时根源于错误来源。我们的发现揭示了与原始工作相比性能上的差异。我们强调了即使是被合理省略的细节对于复制像BASS这样的先进框架的重要性，并强调了撰写可复制论文的关键实践。",
+    "tldr": "通过复制研究BASS框架，发现了与原始工作相比性能上的差异，并强调了撰写可复制论文的关键实践。",
+    "en_tdlr": "Discrepancies in performance compared to the original work were found during replication study of the BASS framework, emphasizing key practices for writing replicable papers."
+}

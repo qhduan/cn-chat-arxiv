@@ -1,0 +1,12 @@
+{
+    "title": "Fighting Game Adaptive Background Music for Improved Gameplay",
+    "abstract": "arXiv:2403.02701v1 Announce Type: cross  Abstract: This paper presents our work to enhance the background music (BGM) in DareFightingICE by adding adaptive features. The adaptive BGM consists of three different categories of instruments playing the BGM of the winner sound design from the 2022 DareFightingICE Competition. The BGM adapts by changing the volume of each category of instruments. Each category is connected to a different element of the game. We then run experiments to evaluate the adaptive BGM by using a deep reinforcement learning AI agent that only uses audio as input (Blind DL AI). The results show that the performance of the Blind DL AI improves while playing with the adaptive BGM as compared to playing without the adaptive BGM.",
+    "link": "https://arxiv.org/abs/2403.02701",
+    "context": "Title: Fighting Game Adaptive Background Music for Improved Gameplay\nAbstract: arXiv:2403.02701v1 Announce Type: cross  Abstract: This paper presents our work to enhance the background music (BGM) in DareFightingICE by adding adaptive features. The adaptive BGM consists of three different categories of instruments playing the BGM of the winner sound design from the 2022 DareFightingICE Competition. The BGM adapts by changing the volume of each category of instruments. Each category is connected to a different element of the game. We then run experiments to evaluate the adaptive BGM by using a deep reinforcement learning AI agent that only uses audio as input (Blind DL AI). The results show that the performance of the Blind DL AI improves while playing with the adaptive BGM as compared to playing without the adaptive BGM.",
+    "path": "papers/24/03/2403.02701.json",
+    "total_tokens": 741,
+    "translated_title": "改进游戏玩法的对战游戏自适应背景音乐",
+    "translated_abstract": "本文介绍了我们通过添加自适应特性来增强DareFightingICE中背景音乐（BGM）的工作。自适应BGM由三种不同类别的乐器组成，播放2022年DareFightingICE比赛中获胜者音效设计的BGM。BGM通过改变每个类别乐器的音量来进行调整。每个类别与游戏的不同元素相连。我们通过使用一种只使用音频作为输入的深度强化学习AI代理（Blind DL AI）来运行实验以评估自适应BGM。结果显示，与没有自适应BGM时相比，Blind DL AI在玩游戏时表现得更好。",
+    "tldr": "本文介绍了一种通过添加自适应特性改进DareFightingICE游戏玩法的背景音乐方法，并通过实验证明Blind DL AI在使用自适应背景音乐时比不使用时表现更好。",
+    "en_tdlr": "This paper presents a method to improve gameplay in DareFightingICE by adding adaptive features to the background music, and experimentally demonstrates that the Blind DL AI performs better when using adaptive background music compared to not using it."
+}

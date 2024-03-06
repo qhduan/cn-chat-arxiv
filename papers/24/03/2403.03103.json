@@ -1,0 +1,11 @@
+{
+    "title": "Emergent Equivariance in Deep Ensembles",
+    "abstract": "arXiv:2403.03103v1 Announce Type: new  Abstract: We demonstrate that deep ensembles are secretly equivariant models. More precisely, we show that deep ensembles become equivariant for all inputs and at all training times by simply using data augmentation. Crucially, equivariance holds off-manifold and for any architecture in the infinite width limit. The equivariance is emergent in the sense that predictions of individual ensemble members are not equivariant but their collective prediction is. Neural tangent kernel theory is used to derive this result and we verify our theoretical insights using detailed numerical experiments.",
+    "link": "https://arxiv.org/abs/2403.03103",
+    "context": "Title: Emergent Equivariance in Deep Ensembles\nAbstract: arXiv:2403.03103v1 Announce Type: new  Abstract: We demonstrate that deep ensembles are secretly equivariant models. More precisely, we show that deep ensembles become equivariant for all inputs and at all training times by simply using data augmentation. Crucially, equivariance holds off-manifold and for any architecture in the infinite width limit. The equivariance is emergent in the sense that predictions of individual ensemble members are not equivariant but their collective prediction is. Neural tangent kernel theory is used to derive this result and we verify our theoretical insights using detailed numerical experiments.",
+    "path": "papers/24/03/2403.03103.json",
+    "total_tokens": 667,
+    "translated_title": "深度集成模型中的新型等变性",
+    "translated_abstract": "我们展示了深度集成模型是暗中等变的模型。更准确地说，我们表明通过简单使用数据增强，深度集成模型在所有输入和所有训练时刻都变得等变。至关重要的是，这种等变性在离开流形时和在无限宽度限制下的任何架构都保持。这种等变性是新兴的，因为单个集成成员的预测并非等变，但它们的集体预测是等变的。我们使用神经切线核理论推导了这一结果，并通过详细的数值实验验证了我们的理论见解。",
+    "tldr": "深度集成模型通过简单使用数据增强即可实现在所有输入和训练时刻都保持等变性，这种等变性在离开流形时和无限宽度限制下的任何架构都能保持。"
+}

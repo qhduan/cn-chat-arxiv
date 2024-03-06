@@ -1,0 +1,11 @@
+{
+    "title": "Transformer for Times Series: an Application to the S&P500",
+    "abstract": "arXiv:2403.02523v1 Announce Type: new  Abstract: The transformer models have been extensively used with good results in a wide area of machine learning applications including Large Language Models and image generation. Here, we inquire on the applicability of this approach to financial time series. We first describe the dataset construction for two prototypical situations: a mean reverting synthetic Ornstein-Uhlenbeck process on one hand and real S&P500 data on the other hand. Then, we present in detail the proposed Transformer architecture and finally we discuss some encouraging results. For the synthetic data we predict rather accurately the next move, and for the S&P500 we get some interesting results related to quadratic variation and volatility prediction.",
+    "link": "https://arxiv.org/abs/2403.02523",
+    "context": "Title: Transformer for Times Series: an Application to the S&P500\nAbstract: arXiv:2403.02523v1 Announce Type: new  Abstract: The transformer models have been extensively used with good results in a wide area of machine learning applications including Large Language Models and image generation. Here, we inquire on the applicability of this approach to financial time series. We first describe the dataset construction for two prototypical situations: a mean reverting synthetic Ornstein-Uhlenbeck process on one hand and real S&P500 data on the other hand. Then, we present in detail the proposed Transformer architecture and finally we discuss some encouraging results. For the synthetic data we predict rather accurately the next move, and for the S&P500 we get some interesting results related to quadratic variation and volatility prediction.",
+    "path": "papers/24/03/2403.02523.json",
+    "total_tokens": 715,
+    "translated_title": "变压器用于时间序列：以S&P500为例",
+    "translated_abstract": "变压器模型已被广泛应用于许多机器学习领域，包括大型语言模型和图像生成等，本文探讨了将这种方法应用于金融时间序列的可能性。我们首先介绍了两种典型情况下的数据集构造：一种是均值回归的合成Ornstein-Uhlenbeck过程，另一种是真实的S&P500数据。然后，我们详细介绍了提出的Transformer架构，最后讨论了一些令人鼓舞的结果。对于合成数据，我们能够相当准确地预测下一步的走势，而对于S&P500，我们得到了一些与二次变动和波动率预测相关的有趣结果。",
+    "tldr": "本文探讨了将Transformer模型应用于金融时间序列预测中的可行性，并展示了在合成和真实数据集上的一些鼓舞人心的结果。"
+}

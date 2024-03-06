@@ -1,0 +1,11 @@
+{
+    "title": "Making deep neural networks right for the right scientific reasons by interacting with their explanations",
+    "abstract": "arXiv:2001.05371v4 Announce Type: replace-cross  Abstract: Deep neural networks have shown excellent performances in many real-world applications. Unfortunately, they may show \"Clever Hans\"-like behavior -- making use of confounding factors within datasets -- to achieve high performance. In this work, we introduce the novel learning setting of \"explanatory interactive learning\" (XIL) and illustrate its benefits on a plant phenotyping research task. XIL adds the scientist into the training loop such that she interactively revises the original model via providing feedback on its explanations. Our experimental results demonstrate that XIL can help avoiding Clever Hans moments in machine learning and encourages (or discourages, if appropriate) trust into the underlying model.",
+    "link": "https://arxiv.org/abs/2001.05371",
+    "context": "Title: Making deep neural networks right for the right scientific reasons by interacting with their explanations\nAbstract: arXiv:2001.05371v4 Announce Type: replace-cross  Abstract: Deep neural networks have shown excellent performances in many real-world applications. Unfortunately, they may show \"Clever Hans\"-like behavior -- making use of confounding factors within datasets -- to achieve high performance. In this work, we introduce the novel learning setting of \"explanatory interactive learning\" (XIL) and illustrate its benefits on a plant phenotyping research task. XIL adds the scientist into the training loop such that she interactively revises the original model via providing feedback on its explanations. Our experimental results demonstrate that XIL can help avoiding Clever Hans moments in machine learning and encourages (or discourages, if appropriate) trust into the underlying model.",
+    "path": "papers/20/01/2001.05371.json",
+    "total_tokens": 773,
+    "translated_title": "通过与解释进行交互，使深度神经网络出于正确的科学原因",
+    "translated_abstract": "深度神经网络在许多现实应用中表现出色。不幸的是，它们可能会表现出“聪明的汉斯”式的行为，利用数据集中的混淆因素以实现高性能。本研究引入了“解释交互学习”(XIL)的新型学习设置，并在植物表型研究任务中展示了其好处。XIL将科学家引入训练循环，使她通过对模型解释的反馈进行交互式修订。我们的实验结果表明，XIL可以帮助避免机器学习中的“聪明汉斯”时刻，并鼓励（或鼓励，如果合适的话）对基础模型的信任。",
+    "tldr": "通过“解释交互学习”(XIL)学习设置，研究者可以与深度神经网络进行交互，有助于避免其利用混淆因素而导致的高性能，同时增强对模型的信任。"
+}

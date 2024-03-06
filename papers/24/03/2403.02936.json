@@ -1,0 +1,12 @@
+{
+    "title": "AdAM: Adaptive Fault-Tolerant Approximate Multiplier for Edge DNN Accelerators",
+    "abstract": "arXiv:2403.02936v1 Announce Type: new  Abstract: In this paper, we propose an architecture of a novel adaptive fault-tolerant approximate multiplier tailored for ASIC-based DNN accelerators.",
+    "link": "https://arxiv.org/abs/2403.02936",
+    "context": "Title: AdAM: Adaptive Fault-Tolerant Approximate Multiplier for Edge DNN Accelerators\nAbstract: arXiv:2403.02936v1 Announce Type: new  Abstract: In this paper, we propose an architecture of a novel adaptive fault-tolerant approximate multiplier tailored for ASIC-based DNN accelerators.",
+    "path": "papers/24/03/2403.02936.json",
+    "total_tokens": 431,
+    "translated_title": "AdAM: 适用于边缘DNN加速器的自适应容错近似乘法器",
+    "translated_abstract": "这篇论文提出了一种专为基于ASIC的DNN加速器定制的新型自适应容错近似乘法器的架构。",
+    "tldr": "提出了一种适用于ASIC-based DNN加速器的自适应容错近似乘法器架构。",
+    "en_tdlr": "Proposed an architecture of a novel adaptive fault-tolerant approximate multiplier tailored for ASIC-based DNN accelerators."
+}

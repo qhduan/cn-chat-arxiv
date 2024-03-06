@@ -1,0 +1,12 @@
+{
+    "title": "On Leakage in Machine Learning Pipelines",
+    "abstract": "arXiv:2311.04179v2 Announce Type: replace-cross  Abstract: Machine learning (ML) provides powerful tools for predictive modeling. ML's popularity stems from the promise of sample-level prediction with applications across a variety of fields from physics and marketing to healthcare. However, if not properly implemented and evaluated, ML pipelines may contain leakage typically resulting in overoptimistic performance estimates and failure to generalize to new data. This can have severe negative financial and societal implications. Our aim is to expand understanding associated with causes leading to leakage when designing, implementing, and evaluating ML pipelines. Illustrated by concrete examples, we provide a comprehensive overview and discussion of various types of leakage that may arise in ML pipelines.",
+    "link": "https://arxiv.org/abs/2311.04179",
+    "context": "Title: On Leakage in Machine Learning Pipelines\nAbstract: arXiv:2311.04179v2 Announce Type: replace-cross  Abstract: Machine learning (ML) provides powerful tools for predictive modeling. ML's popularity stems from the promise of sample-level prediction with applications across a variety of fields from physics and marketing to healthcare. However, if not properly implemented and evaluated, ML pipelines may contain leakage typically resulting in overoptimistic performance estimates and failure to generalize to new data. This can have severe negative financial and societal implications. Our aim is to expand understanding associated with causes leading to leakage when designing, implementing, and evaluating ML pipelines. Illustrated by concrete examples, we provide a comprehensive overview and discussion of various types of leakage that may arise in ML pipelines.",
+    "path": "papers/23/11/2311.04179.json",
+    "total_tokens": 760,
+    "translated_title": "机器学习管道中的信息泄漏问题",
+    "translated_abstract": "机器学习（ML）提供了强大的预测建模工具，其受欢迎程度源自于在物理学、市场营销、医疗保健等各个领域中应用样本级别的预测的承诺。然而，如果未经适当实施和评估，ML管道可能包含泄漏，通常导致过度乐观的性能估计并且无法推广到新数据。这可能对财务和社会产生严重负面影响。我们的目标是在设计、实施和评估ML管道时扩展与导致泄漏相关的原因的理解。通过具体示例说明，我们提供了在ML管道中可能出现的各种类型泄漏的综合概述和讨论。",
+    "tldr": "本论文旨在扩展对设计、实施和评估机器学习管道时导致信息泄漏的原因的理解，通过具体示例提供了各种可能在机器学习管道中出现的泄漏的全面概述和讨论。",
+    "en_tdlr": "This paper aims to expand the understanding of the causes of leakage in designing, implementing, and evaluating machine learning pipelines, providing a comprehensive overview and discussion of various types of leakage that may occur in ML pipelines with concrete examples."
+}

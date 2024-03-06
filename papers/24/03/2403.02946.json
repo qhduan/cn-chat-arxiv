@@ -1,0 +1,12 @@
+{
+    "title": "SAFFIRA: a Framework for Assessing the Reliability of Systolic-Array-Based DNN Accelerators",
+    "abstract": "arXiv:2403.02946v1 Announce Type: new  Abstract: Systolic array has emerged as a prominent architecture for Deep Neural Network (DNN) hardware accelerators, providing high-throughput and low-latency performance essential for deploying DNNs across diverse applications. However, when used in safety-critical applications, reliability assessment is mandatory to guarantee the correct behavior of DNN accelerators. While fault injection stands out as a well-established practical and robust method for reliability assessment, it is still a very time-consuming process. This paper addresses the time efficiency issue by introducing a novel hierarchical software-based hardware-aware fault injection strategy tailored for systolic array-based DNN accelerators.",
+    "link": "https://arxiv.org/abs/2403.02946",
+    "context": "Title: SAFFIRA: a Framework for Assessing the Reliability of Systolic-Array-Based DNN Accelerators\nAbstract: arXiv:2403.02946v1 Announce Type: new  Abstract: Systolic array has emerged as a prominent architecture for Deep Neural Network (DNN) hardware accelerators, providing high-throughput and low-latency performance essential for deploying DNNs across diverse applications. However, when used in safety-critical applications, reliability assessment is mandatory to guarantee the correct behavior of DNN accelerators. While fault injection stands out as a well-established practical and robust method for reliability assessment, it is still a very time-consuming process. This paper addresses the time efficiency issue by introducing a novel hierarchical software-based hardware-aware fault injection strategy tailored for systolic array-based DNN accelerators.",
+    "path": "papers/24/03/2403.02946.json",
+    "total_tokens": 743,
+    "translated_title": "SAFFIRA: 一种评估基于Systolic Array的DNN加速器可靠性的框架",
+    "translated_abstract": "Systolic array已经成为深度神经网络(DNN)硬件加速器的显着架构，提供高吞吐量和低延迟性能，对于在各种应用中部署DNN至关重要。然而，在安全关键应用中使用时，必须进行可靠性评估以确保DNN加速器的正确行为。虽然故障注入作为一种成熟实用且稳健的可靠性评估方法，但仍然是一个非常耗时的过程。本文通过引入一种针对基于systolic array的DNN加速器量身定制的新型分层软件化硬件感知故障注入策略，解决了时间效率问题。",
+    "tldr": "介绍了一种针对基于Systolic Array的DNN加速器的新型分层软件化硬件感知故障注入策略，以解决可靠性评估中的时间效率问题。",
+    "en_tdlr": "Introduces a novel hierarchical software-based hardware-aware fault injection strategy tailored for systolic array-based DNN accelerators to address the time efficiency issue in reliability assessment."
+}

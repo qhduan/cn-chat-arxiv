@@ -1,0 +1,12 @@
+{
+    "title": "Medical Bill Shock and Imperfect Moral Hazard",
+    "abstract": "arXiv:2211.01116v2 Announce Type: replace  Abstract: Consumers are sensitive to medical prices when consuming care, but delays in price information may distort moral hazard. We study how medical bills affect household spillover spending following utilization, leveraging variation in insurer claim processing times. Households increase spending by 22\\% after a scheduled service, but then reduce spending by 11\\% after the bill arrives. Observed bill effects are consistent with resolving price uncertainty; bill effects are strongest when pricing information is particularly salient. A model of demand for healthcare with delayed pricing information suggests households misperceive pricing signals prior to bills, and that correcting these perceptions reduce average (median) spending by 16\\% (7\\%) annually.",
+    "link": "https://arxiv.org/abs/2211.01116",
+    "context": "Title: Medical Bill Shock and Imperfect Moral Hazard\nAbstract: arXiv:2211.01116v2 Announce Type: replace  Abstract: Consumers are sensitive to medical prices when consuming care, but delays in price information may distort moral hazard. We study how medical bills affect household spillover spending following utilization, leveraging variation in insurer claim processing times. Households increase spending by 22\\% after a scheduled service, but then reduce spending by 11\\% after the bill arrives. Observed bill effects are consistent with resolving price uncertainty; bill effects are strongest when pricing information is particularly salient. A model of demand for healthcare with delayed pricing information suggests households misperceive pricing signals prior to bills, and that correcting these perceptions reduce average (median) spending by 16\\% (7\\%) annually.",
+    "path": "papers/22/11/2211.01116.json",
+    "total_tokens": 772,
+    "translated_title": "医疗账单冲击与不完全道德风险",
+    "translated_abstract": "消费者在接受医疗服务时对医疗价格敏感，但价格信息的延迟可能扭曲道德风险。我们研究了医疗账单如何影响家庭在利用医疗服务后的溢出支出，利用保险索赔处理时间的变化。家庭在预定服务后支出增加了22\\%，但在账单到达后支出减少了11%。观察到的账单效应与解决价格不确定性一致；账单效应在定价信息特别引人注目时最为显著。一种有关医疗保健需求的模型提出，家庭在账单到来之前错误理解了价格信号，并且纠正这些看法将使平均（中位数）支出每年减少16\\%（7\\%）。",
+    "tldr": "研究发现医疗账单的到来为家庭溢出支出带来冲击，但其效应可以帮助消费者解决价格不确定性，纠正价格信号误解后降低了支出水平。",
+    "en_tdlr": "The arrival of medical bills has an impact on household spillover spending, helping consumers to resolve price uncertainty and reduce spending levels after correcting misconceptions about pricing signals."
+}

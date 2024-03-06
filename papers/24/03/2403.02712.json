@@ -1,0 +1,12 @@
+{
+    "title": "Breeze-7B Technical Report",
+    "abstract": "arXiv:2403.02712v1 Announce Type: new  Abstract: Breeze-7B is an open-source language model based on Mistral-7B, designed to address the need for improved language comprehension and chatbot-oriented capabilities in Traditional Chinese. This technical report provides an overview of the additional pretraining, finetuning, and evaluation stages for the Breeze-7B model. The Breeze-7B family of base and chat models exhibits good performance on language comprehension and chatbot-oriented tasks, reaching the top in several benchmarks among models comparable in its complexity class.",
+    "link": "https://arxiv.org/abs/2403.02712",
+    "context": "Title: Breeze-7B Technical Report\nAbstract: arXiv:2403.02712v1 Announce Type: new  Abstract: Breeze-7B is an open-source language model based on Mistral-7B, designed to address the need for improved language comprehension and chatbot-oriented capabilities in Traditional Chinese. This technical report provides an overview of the additional pretraining, finetuning, and evaluation stages for the Breeze-7B model. The Breeze-7B family of base and chat models exhibits good performance on language comprehension and chatbot-oriented tasks, reaching the top in several benchmarks among models comparable in its complexity class.",
+    "path": "papers/24/03/2403.02712.json",
+    "total_tokens": 649,
+    "translated_title": "Breeze-7B技术报告",
+    "translated_abstract": "arXiv:2403.02712v1 类型：新论 摘要：Breeze-7B是一个基于Mistral-7B的开源语言模型，旨在改善中文传统语境下的语言理解和聊天机器人功能。本技术报告概述了Breeze-7B模型的额外预训练、微调和评估阶段。Breeze-7B系列的基础和聊天模型在语言理解和聊天机器人任务上表现良好，在一些与其复杂度类似的模型中达到了较好的性能。",
+    "tldr": "Breeze-7B是基于Mistral-7B的开源语言模型，旨在改善中文语境下的语言理解和聊天机器人功能，展现出在复杂度类别中的出色性能。",
+    "en_tdlr": "Breeze-7B is an open-source language model based on Mistral-7B, designed to improve language comprehension and chatbot capabilities in Traditional Chinese, demonstrating excellent performance among models in its complexity class."
+}

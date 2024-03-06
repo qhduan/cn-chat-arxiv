@@ -1,0 +1,12 @@
+{
+    "title": "What do we learn from inverting CLIP models?",
+    "abstract": "arXiv:2403.02580v1 Announce Type: cross  Abstract: We employ an inversion-based approach to examine CLIP models. Our examination reveals that inverting CLIP models results in the generation of images that exhibit semantic alignment with the specified target prompts. We leverage these inverted images to gain insights into various aspects of CLIP models, such as their ability to blend concepts and inclusion of gender biases. We notably observe instances of NSFW (Not Safe For Work) images during model inversion. This phenomenon occurs even for semantically innocuous prompts, like \"a beautiful landscape,\" as well as for prompts involving the names of celebrities.",
+    "link": "https://arxiv.org/abs/2403.02580",
+    "context": "Title: What do we learn from inverting CLIP models?\nAbstract: arXiv:2403.02580v1 Announce Type: cross  Abstract: We employ an inversion-based approach to examine CLIP models. Our examination reveals that inverting CLIP models results in the generation of images that exhibit semantic alignment with the specified target prompts. We leverage these inverted images to gain insights into various aspects of CLIP models, such as their ability to blend concepts and inclusion of gender biases. We notably observe instances of NSFW (Not Safe For Work) images during model inversion. This phenomenon occurs even for semantically innocuous prompts, like \"a beautiful landscape,\" as well as for prompts involving the names of celebrities.",
+    "path": "papers/24/03/2403.02580.json",
+    "total_tokens": 677,
+    "translated_title": "从反转CLIP模型中我们学到了什么？",
+    "translated_abstract": "我们采用一个基于反转的方法来检验CLIP模型。我们的检验揭示，反转CLIP模型会生成展现与指定目标提示语义对齐的图像。我们利用这些反转图像来深入了解CLIP模型的各个方面，比如它们混合概念的能力和包含性别偏见。我们特别观察到在模型反转过程中出现不安全内容（NSFW）的图像实例。这种现象甚至发生在语义上无害的提示，比如“美丽的风景”，以及涉及名人姓名的提示中。",
+    "tldr": "通过反转CLIP模型，研究发现生成的图像与指定目标提示语义对齐，揭示了CLIP模型的混合概念能力、性别偏见以及可能出现的不安全内容图像。",
+    "en_tdlr": "Inverting CLIP models results in generating images aligned with the specified target prompts, revealing insights into the model's ability to blend concepts, gender biases, and the presence of NSFW images."
+}

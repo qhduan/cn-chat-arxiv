@@ -1,0 +1,12 @@
+{
+    "title": "Contextual Text Denoising with Masked Language Models",
+    "abstract": "arXiv:1910.14080v2 Announce Type: replace  Abstract: Recently, with the help of deep learning models, significant advances have been made in different Natural Language Processing (NLP) tasks. Unfortunately, state-of-the-art models are vulnerable to noisy texts. We propose a new contextual text denoising algorithm based on the ready-to-use masked language model. The proposed algorithm does not require retraining of the model and can be integrated into any NLP system without additional training on paired cleaning training data. We evaluate our method under synthetic noise and natural noise and show that the proposed algorithm can use context information to correct noise text and improve the performance of noisy inputs in several downstream tasks.",
+    "link": "https://arxiv.org/abs/1910.14080",
+    "context": "Title: Contextual Text Denoising with Masked Language Models\nAbstract: arXiv:1910.14080v2 Announce Type: replace  Abstract: Recently, with the help of deep learning models, significant advances have been made in different Natural Language Processing (NLP) tasks. Unfortunately, state-of-the-art models are vulnerable to noisy texts. We propose a new contextual text denoising algorithm based on the ready-to-use masked language model. The proposed algorithm does not require retraining of the model and can be integrated into any NLP system without additional training on paired cleaning training data. We evaluate our method under synthetic noise and natural noise and show that the proposed algorithm can use context information to correct noise text and improve the performance of noisy inputs in several downstream tasks.",
+    "path": "papers/19/10/1910.14080.json",
+    "total_tokens": 728,
+    "translated_title": "基于遮蔽语言模型的上下文文本去噪",
+    "translated_abstract": "最近，借助深度学习模型，在不同的自然语言处理（NLP）任务中取得了显著进展。不幸的是，最先进的模型容易受到嘈杂文本的影响。我们提出了一种基于现成遮蔽语言模型的新上下文文本去噪算法。提出的算法不需要对模型进行重新训练，可以集成到任何NLP系统中，而不需要对配对的清洗训练数据进行额外训练。我们在合成噪声和自然噪声下评估了我们的方法，并表明所提算法可以利用上下文信息来纠正噪声文本，并在多个下游任务中提高嘈杂输入的性能。",
+    "tldr": "提出了一种基于遮蔽语言模型的上下文文本去噪算法，可以在不重新训练模型的情况下纠正噪声文本，并在多个下游任务中提高性能",
+    "en_tdlr": "Introduced a contextual text denoising algorithm based on masked language models that can correct noisy text without retraining the model and improve performance in various downstream tasks."
+}

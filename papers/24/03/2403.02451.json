@@ -1,0 +1,12 @@
+{
+    "title": "Views Are My Own, But Also Yours: Benchmarking Theory of Mind using Common Ground",
+    "abstract": "arXiv:2403.02451v1 Announce Type: new  Abstract: Evaluating the theory of mind (ToM) capabilities of language models (LMs) has recently received much attention. However, many existing benchmarks rely on synthetic data which risks misaligning the resulting experiments with human behavior. We introduce the first ToM dataset based on naturally occurring spoken dialogs, Common-ToM, and show that LMs struggle to demonstrate ToM. We then show that integrating a simple, explicit representation of beliefs improves LM performance on Common-ToM.",
+    "link": "https://arxiv.org/abs/2403.02451",
+    "context": "Title: Views Are My Own, But Also Yours: Benchmarking Theory of Mind using Common Ground\nAbstract: arXiv:2403.02451v1 Announce Type: new  Abstract: Evaluating the theory of mind (ToM) capabilities of language models (LMs) has recently received much attention. However, many existing benchmarks rely on synthetic data which risks misaligning the resulting experiments with human behavior. We introduce the first ToM dataset based on naturally occurring spoken dialogs, Common-ToM, and show that LMs struggle to demonstrate ToM. We then show that integrating a simple, explicit representation of beliefs improves LM performance on Common-ToM.",
+    "path": "papers/24/03/2403.02451.json",
+    "total_tokens": 646,
+    "translated_title": "观点是我的，也是你的：使用共同基础评估心灵理论",
+    "translated_abstract": "最近，评估语言模型（LMs）的心灵理论（ToM）能力引起了很多关注。然而，许多现有的基准测试依赖于合成数据，这可能导致实验结果与人类行为不一致。我们引入了第一个基于自然发生的口头对话的ToM数据集，Common-ToM，并展示LMs在展示ToM方面存在困难。然后，我们展示了在Common-ToM上整合一个简单明确的信念表示可以提高LM的性能。",
+    "tldr": "介绍了第一个基于自然口语对话的ToM数据集，展示了LM在ToM方面的困难，并表明在Common-ToM上整合简单明确的信念表示可以提高LM的性能。",
+    "en_tdlr": "Introduced the first ToM dataset based on naturally occurring spoken dialogs, demonstrated the challenges faced by LMs in demonstrating ToM, and showed that integrating a simple, explicit representation of beliefs can improve LM performance on Common-ToM."
+}

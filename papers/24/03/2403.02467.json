@@ -1,0 +1,11 @@
+{
+    "title": "Applied Causal Inference Powered by ML and AI",
+    "abstract": "arXiv:2403.02467v1 Announce Type: cross  Abstract: An introduction to the emerging fusion of machine learning and causal inference. The book presents ideas from classical structural equation models (SEMs) and their modern AI equivalent, directed acyclical graphs (DAGs) and structural causal models (SCMs), and covers Double/Debiased Machine Learning methods to do inference in such models using modern predictive tools.",
+    "link": "https://arxiv.org/abs/2403.02467",
+    "context": "Title: Applied Causal Inference Powered by ML and AI\nAbstract: arXiv:2403.02467v1 Announce Type: cross  Abstract: An introduction to the emerging fusion of machine learning and causal inference. The book presents ideas from classical structural equation models (SEMs) and their modern AI equivalent, directed acyclical graphs (DAGs) and structural causal models (SCMs), and covers Double/Debiased Machine Learning methods to do inference in such models using modern predictive tools.",
+    "path": "papers/24/03/2403.02467.json",
+    "total_tokens": 614,
+    "translated_title": "应用机器学习和人工智能推动的因果推断",
+    "translated_abstract": "arXiv:2403.02467v1 公告类型：交叉摘要：介绍了机器学习和因果推断的新兴融合。该书介绍了经典结构方程模型（SEMs）的思想及其现代人工智能等价物，有向无环图（DAGs）和结构因果模型（SCMs），并涵盖了使用现代预测工具在这些模型中进行推断的双重/去偏移机器学习方法。",
+    "tldr": "本书介绍了机器学习和因果推断的新兴融合，探讨了经典结构方程模型与现代AI等价物之间的联系，并涵盖了使用双重/去偏移机器学习方法进行推断的内容。"
+}

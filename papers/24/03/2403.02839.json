@@ -1,0 +1,12 @@
+{
+    "title": "An Empirical Study of LLM-as-a-Judge for LLM Evaluation: Fine-tuned Judge Models are Task-specific Classifiers",
+    "abstract": "arXiv:2403.02839v1 Announce Type: new  Abstract: Recently, there has been a growing trend of utilizing Large Language Model (LLM) to evaluate the quality of other LLMs. Many studies have employed proprietary close-source models, especially GPT4, as the evaluator. Alternatively, other works have fine-tuned judge models based on open-source LLMs as the evaluator. In this study, we conduct an empirical study of different judge models on their evaluation capability. Our findings indicate that although the fine-tuned judge models achieve high accuracy on in-domain test sets, even surpassing GPT4, they are inherently task-specific classifiers, and their generalizability and fairness severely underperform GPT4.",
+    "link": "https://arxiv.org/abs/2403.02839",
+    "context": "Title: An Empirical Study of LLM-as-a-Judge for LLM Evaluation: Fine-tuned Judge Models are Task-specific Classifiers\nAbstract: arXiv:2403.02839v1 Announce Type: new  Abstract: Recently, there has been a growing trend of utilizing Large Language Model (LLM) to evaluate the quality of other LLMs. Many studies have employed proprietary close-source models, especially GPT4, as the evaluator. Alternatively, other works have fine-tuned judge models based on open-source LLMs as the evaluator. In this study, we conduct an empirical study of different judge models on their evaluation capability. Our findings indicate that although the fine-tuned judge models achieve high accuracy on in-domain test sets, even surpassing GPT4, they are inherently task-specific classifiers, and their generalizability and fairness severely underperform GPT4.",
+    "path": "papers/24/03/2403.02839.json",
+    "total_tokens": 724,
+    "translated_title": "作为评判器的LLM的实证研究：精调评判器模型是特定任务的分类器",
+    "translated_abstract": "最近，利用大型语言模型（LLM）评估其他LLM质量的趋势日益增长。许多研究采用专有的闭源模型，尤其是GPT4，作为评估器。另外，其他研究利用开源LLM来精调评判模型作为评估器。在本研究中，我们对不同的评判模型进行了实证研究。我们的发现表明，尽管精调的评判模型在领域内测试集上能够达到较高的准确性，甚至超过GPT4，但它们本质上是特定任务的分类器，其泛化能力和公平性远低于GPT4。",
+    "tldr": "精调评判模型在领域内测试上表现出色，但泛化能力和公平性不及GPT4。",
+    "en_tdlr": "Fine-tuned judge models perform well on in-domain tests but lack the generalizability and fairness compared to GPT4."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Search Intenion Network for Personalized Query Auto-Completion in E-Commerce",
+    "abstract": "arXiv:2403.02609v1 Announce Type: cross  Abstract: Query Auto-Completion(QAC), as an important part of the modern search engine, plays a key role in complementing user queries and helping them refine their search intentions.Today's QAC systems in real-world scenarios face two major challenges:1)intention equivocality(IE): during the user's typing process,the prefix often contains a combination of characters and subwords, which makes the current intention ambiguous and difficult to model.2)intention transfer (IT):previous works make personalized recommendations based on users' historical sequences, but ignore the search intention transfer.However, the current intention extracted from prefix may be contrary to the historical preferences.",
+    "link": "https://arxiv.org/abs/2403.02609",
+    "context": "Title: Search Intenion Network for Personalized Query Auto-Completion in E-Commerce\nAbstract: arXiv:2403.02609v1 Announce Type: cross  Abstract: Query Auto-Completion(QAC), as an important part of the modern search engine, plays a key role in complementing user queries and helping them refine their search intentions.Today's QAC systems in real-world scenarios face two major challenges:1)intention equivocality(IE): during the user's typing process,the prefix often contains a combination of characters and subwords, which makes the current intention ambiguous and difficult to model.2)intention transfer (IT):previous works make personalized recommendations based on users' historical sequences, but ignore the search intention transfer.However, the current intention extracted from prefix may be contrary to the historical preferences.",
+    "path": "papers/24/03/2403.02609.json",
+    "total_tokens": 689,
+    "translated_title": "个性化电子商务查询自动补全的搜索意图网络",
+    "translated_abstract": "查询自动补全（QAC）作为现代搜索引擎的重要组成部分，在补充用户查询并帮助他们细化搜索意图方面发挥关键作用。然而，目前实际场景中的QAC系统面临两个主要挑战：1）意图模糊性（IE）：在用户输入过程中，前缀通常包含字符和子词的组合，这使得当前意图模糊且难以建模。2）意图转移（IT）：之前的工作基于用户的历史序列提供建议，但忽略了搜索意图的转移。然而，从前缀提取的当前意图可能与历史偏好相悖。",
+    "tldr": "个性化搜索意图网络解决了电子商务中查询自动补全系统面临的意图模糊性和意图转移问题。",
+    "en_tdlr": "The personalized search intention network addresses the challenges of intention equivocality and intention transfer in query auto-completion systems in e-commerce."
+}

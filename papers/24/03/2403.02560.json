@@ -1,0 +1,12 @@
+{
+    "title": "Impact of COVID-19 on Exchange rate volatility of Bangladesh: Evidence through GARCH model",
+    "abstract": "arXiv:2403.02560v1 Announce Type: new  Abstract: This study uses the GARCH (1,1) model to examine the impact of COVID-19 cases (log value) on the volatility of the Exchange rate return of Bangladeshi taka (BDT) over the US dollar (USD), Japanese Yen (JPY), and Swedish Krona (SEK). The result shows that an increase in the number of COVID-19-affected cases in Bangladesh has a significant and positive impact on the volatility of exchange rates BDT/USD, BDT/JPY, and BDT/SEK.",
+    "link": "https://arxiv.org/abs/2403.02560",
+    "context": "Title: Impact of COVID-19 on Exchange rate volatility of Bangladesh: Evidence through GARCH model\nAbstract: arXiv:2403.02560v1 Announce Type: new  Abstract: This study uses the GARCH (1,1) model to examine the impact of COVID-19 cases (log value) on the volatility of the Exchange rate return of Bangladeshi taka (BDT) over the US dollar (USD), Japanese Yen (JPY), and Swedish Krona (SEK). The result shows that an increase in the number of COVID-19-affected cases in Bangladesh has a significant and positive impact on the volatility of exchange rates BDT/USD, BDT/JPY, and BDT/SEK.",
+    "path": "papers/24/03/2403.02560.json",
+    "total_tokens": 658,
+    "translated_title": "COVID-19对孟加拉国汇率波动的影响：基于GARCH模型的证据",
+    "translated_abstract": "这项研究利用GARCH(1,1)模型，研究COVID-19病例数量（对数值）对孟加拉塔卡（BDT）兑美元（USD）、日元（JPY）和瑞典克朗（SEK）汇率回报波动的影响。结果表明，孟加拉国COVID-19病例数量增加对BDT/USD、BDT/JPY和BDT/SEK汇率的波动有显著正向影响。",
+    "tldr": "COVID-19病例数量的增加对孟加拉国BDT兑USD、BDT兑JPY和BDT兑SEK汇率波动产生了显著正向影响",
+    "en_tdlr": "An increase in the number of COVID-19-affected cases in Bangladesh has a significant and positive impact on the volatility of exchange rates BDT/USD, BDT/JPY, and BDT/SEK."
+}
