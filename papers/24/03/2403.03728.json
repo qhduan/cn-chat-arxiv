@@ -1,0 +1,12 @@
+{
+    "title": "Bridging Diversity and Uncertainty in Active learning with Self-Supervised Pre-Training",
+    "abstract": "arXiv:2403.03728v1 Announce Type: cross  Abstract: This study addresses the integration of diversity-based and uncertainty-based sampling strategies in active learning, particularly within the context of self-supervised pre-trained models. We introduce a straightforward heuristic called TCM that mitigates the cold start problem while maintaining strong performance across various data levels. By initially applying TypiClust for diversity sampling and subsequently transitioning to uncertainty sampling with Margin, our approach effectively combines the strengths of both strategies. Our experiments demonstrate that TCM consistently outperforms existing methods across various datasets in both low and high data regimes.",
+    "link": "https://arxiv.org/abs/2403.03728",
+    "context": "Title: Bridging Diversity and Uncertainty in Active learning with Self-Supervised Pre-Training\nAbstract: arXiv:2403.03728v1 Announce Type: cross  Abstract: This study addresses the integration of diversity-based and uncertainty-based sampling strategies in active learning, particularly within the context of self-supervised pre-trained models. We introduce a straightforward heuristic called TCM that mitigates the cold start problem while maintaining strong performance across various data levels. By initially applying TypiClust for diversity sampling and subsequently transitioning to uncertainty sampling with Margin, our approach effectively combines the strengths of both strategies. Our experiments demonstrate that TCM consistently outperforms existing methods across various datasets in both low and high data regimes.",
+    "path": "papers/24/03/2403.03728.json",
+    "total_tokens": 695,
+    "translated_title": "通过自监督预训练在主动学习中弥合多样性与不确定性",
+    "translated_abstract": "本研究探讨了在主动学习中集成基于多样性和基于不确定性的采样策略，特别是在自监督预训练模型的背景下。我们引入了一个称为TCM的简单启发式方法，可以缓解冷启动问题，同时在各种数据水平上保持强大性能。通过首先应用TypiClust进行多样性采样，随后过渡到使用Margin进行不确定性采样，我们的方法有效地结合了两种策略的优势。我们的实验表明，TCM在低数据和高数据情况下始终优于现有方法。",
+    "tldr": "通过引入TCM启发式方法，本研究在主动学习中成功结合了多样性采样和不确定性采样策略，解决了冷启动问题并在各种数据水平上表现出色。",
+    "en_tdlr": "By introducing the TCM heuristic method, this study successfully integrates diversity-based and uncertainty-based sampling strategies in active learning, solving the cold start problem and performing well across various data levels."
+}

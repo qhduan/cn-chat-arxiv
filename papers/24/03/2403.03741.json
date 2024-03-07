@@ -1,0 +1,12 @@
+{
+    "title": "SUPClust: Active Learning at the Boundaries",
+    "abstract": "arXiv:2403.03741v1 Announce Type: cross  Abstract: Active learning is a machine learning paradigm designed to optimize model performance in a setting where labeled data is expensive to acquire. In this work, we propose a novel active learning method called SUPClust that seeks to identify points at the decision boundary between classes. By targeting these points, SUPClust aims to gather information that is most informative for refining the model's prediction of complex decision regions. We demonstrate experimentally that labeling these points leads to strong model performance. This improvement is observed even in scenarios characterized by strong class imbalance.",
+    "link": "https://arxiv.org/abs/2403.03741",
+    "context": "Title: SUPClust: Active Learning at the Boundaries\nAbstract: arXiv:2403.03741v1 Announce Type: cross  Abstract: Active learning is a machine learning paradigm designed to optimize model performance in a setting where labeled data is expensive to acquire. In this work, we propose a novel active learning method called SUPClust that seeks to identify points at the decision boundary between classes. By targeting these points, SUPClust aims to gather information that is most informative for refining the model's prediction of complex decision regions. We demonstrate experimentally that labeling these points leads to strong model performance. This improvement is observed even in scenarios characterized by strong class imbalance.",
+    "path": "papers/24/03/2403.03741.json",
+    "total_tokens": 657,
+    "translated_title": "SUPClust: 边界处的主动学习",
+    "translated_abstract": "主动学习是一种机器学习范式，旨在在获取标记数据昂贵的情况下优化模型性能。本文提出了一种名为SUPClust的新型主动学习方法，旨在识别类别之间的决策边界上的点。通过针对这些点，SUPClust旨在收集对于精细化模型对复杂决策区域的预测最具信息量的信息。我们在实验证明，标记这些点会导致强大的模型性能。即使在存在强烈类别不平衡的情况下，也观察到了这种改进。",
+    "tldr": "提出了一种名为SUPClust的新型主动学习方法，旨在识别类别之间的决策边界上的点，通过标记这些点来优化模型预测的性能。",
+    "en_tdlr": "Proposed novel active learning method SUPClust aims to identify points at the decision boundary between classes and optimize model prediction performance by labeling these points."
+}

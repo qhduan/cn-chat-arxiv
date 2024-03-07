@@ -1,0 +1,12 @@
+{
+    "title": "SaulLM-7B: A pioneering Large Language Model for Law",
+    "abstract": "arXiv:2403.03883v1 Announce Type: new  Abstract: In this paper, we introduce SaulLM-7B, a large language model (LLM) tailored for the legal domain. With 7 billion parameters, SaulLM-7B is the first LLM designed explicitly for legal text comprehension and generation. Leveraging the Mistral 7B architecture as its foundation, SaulLM-7B is trained on an English legal corpus of over 30 billion tokens. SaulLM-7B exhibits state-of-the-art proficiency in understanding and processing legal documents. Additionally, we present a novel instructional fine-tuning method that leverages legal datasets to further enhance SaulLM-7B's performance in legal tasks. SaulLM-7B is released under the CC-BY-SA-4.0 License.",
+    "link": "https://arxiv.org/abs/2403.03883",
+    "context": "Title: SaulLM-7B: A pioneering Large Language Model for Law\nAbstract: arXiv:2403.03883v1 Announce Type: new  Abstract: In this paper, we introduce SaulLM-7B, a large language model (LLM) tailored for the legal domain. With 7 billion parameters, SaulLM-7B is the first LLM designed explicitly for legal text comprehension and generation. Leveraging the Mistral 7B architecture as its foundation, SaulLM-7B is trained on an English legal corpus of over 30 billion tokens. SaulLM-7B exhibits state-of-the-art proficiency in understanding and processing legal documents. Additionally, we present a novel instructional fine-tuning method that leverages legal datasets to further enhance SaulLM-7B's performance in legal tasks. SaulLM-7B is released under the CC-BY-SA-4.0 License.",
+    "path": "papers/24/03/2403.03883.json",
+    "total_tokens": 746,
+    "translated_title": "SaulLM-7B: 面向法律领域的开创性大型语言模型",
+    "translated_abstract": "本文介绍了SaulLM-7B，一个专为法律领域量身定制的大型语言模型（LLM）。拥有70亿参数的SaulLM-7B是第一个专为法律文本理解和生成而设计的LLM。以Mistral 7B架构为基础，SaulLM-7B在超过300亿标记的英文法律语料库上进行训练。SaulLM-7B在理解和处理法律文件方面表现出最先进的能力。此外，我们提出了一种新颖的指导微调方法，利用法律数据集进一步增强SaulLM-7B在法律任务中的性能。SaulLM-7B采用CC-BY-SA-4.0许可发布。",
+    "tldr": "SaulLM-7B是首个专为法律文本设计的7B参数LLM，通过InnovativeFine-tuning方法，展现了领先的法律文件理解和处理能力。",
+    "en_tdlr": "SaulLM-7B is the first 7B-parameter LLM designed explicitly for legal text, exhibiting state-of-the-art proficiency in understanding and processing legal documents through the Innovative Fine-tuning method."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "VLSP 2023 -- LTER: A Summary of the Challenge on Legal Textual Entailment Recognition",
+    "abstract": "arXiv:2403.03435v1 Announce Type: new  Abstract: In this new era of rapid AI development, especially in language processing, the demand for AI in the legal domain is increasingly critical. In the context where research in other languages such as English, Japanese, and Chinese has been well-established, we introduce the first fundamental research for the Vietnamese language in the legal domain: legal textual entailment recognition through the Vietnamese Language and Speech Processing workshop. In analyzing participants' results, we discuss certain linguistic aspects critical in the legal domain that pose challenges that need to be addressed.",
+    "link": "https://arxiv.org/abs/2403.03435",
+    "context": "Title: VLSP 2023 -- LTER: A Summary of the Challenge on Legal Textual Entailment Recognition\nAbstract: arXiv:2403.03435v1 Announce Type: new  Abstract: In this new era of rapid AI development, especially in language processing, the demand for AI in the legal domain is increasingly critical. In the context where research in other languages such as English, Japanese, and Chinese has been well-established, we introduce the first fundamental research for the Vietnamese language in the legal domain: legal textual entailment recognition through the Vietnamese Language and Speech Processing workshop. In analyzing participants' results, we discuss certain linguistic aspects critical in the legal domain that pose challenges that need to be addressed.",
+    "path": "papers/24/03/2403.03435.json",
+    "total_tokens": 705,
+    "translated_title": "VLSP 2023 -- LTER: 法律文本蕴涵识别挑战总结",
+    "translated_abstract": "在这个快速人工智能发展的新时代，特别是在语言处理领域，对于人工智能在法律领域的需求日益关键。在已经建立良好的英语、日语和汉语等其他语言研究的背景下，我们介绍了在越南语言和语音处理研讨会上针对越南语言领域的首个基础研究：法律文本蕴涵识别。通过分析参与者的结果，我们讨论了法律领域中某些语言方面的关键因素，这些因素构成了需要解决的挑战。",
+    "tldr": "针对越南语言领域的法律文本蕴涵识别首次被引入，分析了参与者结果并讨论了法律领域中的关键语言因素挑战。",
+    "en_tdlr": "Introducing the first fundamental research for the Vietnamese language in the legal domain: legal textual entailment recognition, analyzing participants' results, and discussing critical linguistic challenges in the legal domain."
+}

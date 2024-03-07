@@ -2,163 +2,192 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Bias in Generative AI](https://arxiv.org/abs/2403.02726) | 本研究揭示了生成AI工具中存在的系统性性别和种族偏见，以及对面部表情和外表的微妙偏见。 |
-| [^2] | [Matrix-based Prediction Approach for Intraday Instantaneous Volatility Vector](https://arxiv.org/abs/2403.02591) | 提出了基于矩阵的预测方法，通过引入TIP-PCA过程，实现了短期瞬时波动的有效预测。 |
-| [^3] | [Impact of COVID-19 on Exchange rate volatility of Bangladesh: Evidence through GARCH model](https://arxiv.org/abs/2403.02560) | COVID-19病例数量的增加对孟加拉国BDT兑USD、BDT兑JPY和BDT兑SEK汇率波动产生了显著正向影响 |
-| [^4] | [Applied Causal Inference Powered by ML and AI](https://arxiv.org/abs/2403.02467) | 本书介绍了机器学习和因果推断的新兴融合，探讨了经典结构方程模型与现代AI等价物之间的联系，并涵盖了使用双重/去偏移机器学习方法进行推断的内容。 |
-| [^5] | [Entanglement: Balancing Punishment and Compensation, Repeated Dilemma Game-Theoretic Analysis of Maximum Compensation Problem for Bypass and Least Cost Paths in Fact-Checking, Case of Fake News with Weak Wallace's Law](https://arxiv.org/abs/2403.02342) | 通过研究最大补偿问题和惩罚优势问题，在信息传播中设计了一种策略来最大程度地减少虚假新闻传播并最大化可信信息传播，以重新评估新闻提供者的激励措施对信息市场平衡的影响。 |
-| [^6] | [Medical Bill Shock and Imperfect Moral Hazard](https://arxiv.org/abs/2211.01116) | 研究发现医疗账单的到来为家庭溢出支出带来冲击，但其效应可以帮助消费者解决价格不确定性，纠正价格信号误解后降低了支出水平。 |
-| [^7] | [On Locally Rationalizable Social Choice Functions](https://arxiv.org/abs/2204.05062) | 提出了一种关于局部可理性社会选择函数的理论扩展，通过引入新的$\gamma$加强和$\gamma$-覆盖概念，将局部可理性性质与PIP-传递关系精确地联系起来。 |
-| [^8] | [Constitutional Implementation of Affirmative Action Policies in India](https://arxiv.org/abs/2203.01483) | 通过研究表明，2SMH-DA机制在解决印度在实施正面行动政策时面临的挑战方面具有独特优势。 |
-| [^9] | [Design-Robust Two-Way-Fixed-Effects Regression For Panel Data](https://arxiv.org/abs/2107.13737) | 我们提出了一种针对面板数据的新估计器，通过在双向固定效应规范中引入基于模型的单位特定权重，实现平均因果效应的稳健估计。相比于传统的双向固定效应估计器，我们的方法在处理分配机制或双向回归模型任一正确规格化的情况下表现更为稳健。 |
-| [^10] | [Islamic Law, Western European Law and the Roots of Middle East's Long Divergence: a Comparative Empirical Investigation (800-1600).](http://arxiv.org/abs/2401.14435) | 该研究通过比较实证研究探讨了伊斯兰法律制度对中东与欧洲经济分歧的影响。研究发现，在伊斯兰法律神圣化之前，高密度的法学院与更加充满活力的城市经济和更高的城市增长相关。 |
-| [^11] | [Agree to Disagree: Measuring Hidden Dissents in FOMC Meetings.](http://arxiv.org/abs/2308.10131) | 该研究使用自我关注模块的深度学习模型，根据FOMC会议的异议记录和会议记录，测量了每位成员在每个会议中的异议程度。研究发现，尽管异议很少见，成员们经常对政策决策持保留意见。异议程度主要受到当前或预测的宏观经济数据的影响，而成员的个人特征几乎不起作用。此外，研究还发现了会议之间成员的演讲与随后会议的异议程度之间存在弱相关性。最后，研究发现，每当货币政策行动更加激进时，异议程度会增加。 |
-| [^12] | [Robust Data Regulation.](http://arxiv.org/abs/2305.05822) | 本文研究了监管公司访问消费者数据以用于价格歧视的问题，提出了一种可以最大化最劣消费者剩余价值的所有政策，即如果数据库不表明某一消费群体，则监管机构允许垄断者访问数据。 |
-| [^13] | [Near-Optimal Non-Parametric Sequential Tests and Confidence Sequences with Possibly Dependent Observations.](http://arxiv.org/abs/2212.14411) | 本文研究了非参数顺序检验和置信区间，在一般非参数数据生成过程下提供了类型I错误和期望拒绝时间保证，提高了其灵活性和性能。 |
+| [^1] | [The Cost of Coming Out](https://arxiv.org/abs/2403.03649) | 通过在线视频游戏中的创新数据和自然实验，研究揭露性取向对玩家偏好的影响。 |
+| [^2] | [Using the Dual-Privacy Framework to Understand Consumers' Perceived Privacy Violations Under Different Firm Practices in Online Advertising](https://arxiv.org/abs/2403.03612) | 使用双重隐私框架研究在线广告中消费者对不同公司实践下的知觉隐私侵犯，发现不同广告实践中数据流动和消费者跟踪方式的差异会导致不同程度的隐私侵犯感受。 |
+| [^3] | [Paying for Privacy: Pay-or-Tracking Walls](https://arxiv.org/abs/2403.03610) | 该论文研究了付费或追踪墙的现状，发现一些顶级欧盟出版商采用这种方式。他们的实施方式多样，包括将付费选项与无广告访问或额外内容捆绑。此外，不被追踪的价格超过了从同意被追踪用户那里获得的广告收入。 |
+| [^4] | [The 'Must Stock' Challenge in Academic Publishing: Pricing Implications of Transformative Agreements](https://arxiv.org/abs/2403.03597) | 转型协议如“发布和阅读”方案将为期刊出版商带来好处，无论其期刊中的发表数量增长还是下降，可能会提高新参与者的准入壁垞。 |
+| [^5] | [Active Adaptive Experimental Design for Treatment Effect Estimation with Covariate Choices](https://arxiv.org/abs/2403.03589) | 该研究提出了一种更有效地估计处理效应的活跃自适应实验设计方法，通过优化协变量密度和倾向得分来降低渐近方差。 |
+| [^6] | [Competing Mechanisms in Games Played Through Agents: Theory and Experiment](https://arxiv.org/abs/2403.03317) | 本文提出了通过代理人进行的竞争机制游戏（CMGPTA），并设计了实验来研究这一机制在实践中的表现。 |
+| [^7] | [Understanding and avoiding the "weights of regression": Heterogeneous effects, misspecification, and longstanding solutions](https://arxiv.org/abs/2403.03299) | 处理的回归系数通常不等于平均处理效应（ATE），且可能不是直接科学或政策感兴趣的数量。研究人员提出各种解释、边界和诊断辅助工具来解释这种差异。 |
+| [^8] | [Triple/Debiased Lasso for Statistical Inference of Conditional Average Treatment Effects](https://arxiv.org/abs/2403.03240) | 研究提出了一种三重/去偏Lasso方法，用于统计推断条件平均处理效应，不要求直接假设稀疏性，有效估计了线性模型之间的差异。 |
+| [^9] | [An Empirical Analysis of Scam Token on Ethereum Blockchain: Counterfeit tokens on Uniswap](https://arxiv.org/abs/2402.19399) | 该研究对Uniswap上的假币欺诈活动的收入与特征之间的关系进行了经验调查，并发现在欺诈的第一天总交易量显著增加，前期欺诈成本上升会导致收入增加，以及假币总收入与以太坊市值回报率的波动呈负相关。 |
+| [^10] | [Collective Evaluation Problem](https://arxiv.org/abs/2402.16309) | 本研究探讨了集体评估函数的属性，并确定了确保满足四种不同组合属性的集体评估函数存在的评估能力配置文件的必要和充分条件。 |
+| [^11] | [A Method of Moments Approach to Asymptotically Unbiased Synthetic Controls](https://arxiv.org/abs/2312.01209) | 提出了一种使用矩方法逼近无偏合成对照的方法，能够在处理前期间数量趋近无穷大的情况下实现渐近无偏性。 |
+| [^12] | [A General Impossibility Theorem on Pareto Efficiency and Bayesian Incentive Compatibility](https://arxiv.org/abs/2303.05968) | 一个社会选择函数同时实现前置帕累托高效和贝叶斯激励兼容，当且仅当它是独裁的。 |
+| [^13] | [Agree to Disagree: Measuring Hidden Dissents in FOMC Meetings.](http://arxiv.org/abs/2308.10131) | 该研究使用自我关注模块的深度学习模型，根据FOMC会议的异议记录和会议记录，测量了每位成员在每个会议中的异议程度。研究发现，尽管异议很少见，成员们经常对政策决策持保留意见。异议程度主要受到当前或预测的宏观经济数据的影响，而成员的个人特征几乎不起作用。此外，研究还发现了会议之间成员的演讲与随后会议的异议程度之间存在弱相关性。最后，研究发现，每当货币政策行动更加激进时，异议程度会增加。 |
+| [^14] | [Welfare ordering of voting weight allocations.](http://arxiv.org/abs/2208.05316) | 本文研究了委员会投票权的分配，并通过对社会福利的随机比较引入了一种偏序。当群体数量足够大时，这种偏序与余弦比例引起的总排序相一致，并且期望福利、平均多数亏空和反转概率等客观函数是渐近单调的。 |
 
 # 详细
 
-[^1]: 生成AI中的偏见
+[^1]: 揭露的成本
 
-    Bias in Generative AI
+    The Cost of Coming Out
 
-    [https://arxiv.org/abs/2403.02726](https://arxiv.org/abs/2403.02726)
+    [https://arxiv.org/abs/2403.03649](https://arxiv.org/abs/2403.03649)
 
-    本研究揭示了生成AI工具中存在的系统性性别和种族偏见，以及对面部表情和外表的微妙偏见。
-
-    
-
-    本研究分析了三种流行的生成人工智能（AI）工具（Midjourney，Stable Diffusion和DALLE 2）生成的代表各种职业的图像，以调查AI生成器中潜在的偏见。我们的分析揭示了这些AI生成器存在的两个主要关注领域，包括（1）系统性的性别和种族偏见，以及（2）对面部表情和外表的微妙偏见。首先，我们发现这三种AI生成器都存在对女性和非裔美国人的偏见。此外，我们发现，我们分析中揭示的明显的性别和种族偏见，与劳动力统计数据或Google图像相比，甚至更加显著，加剧了社会中我们正在积极努力纠正的有害偏见。其次，我们的研究揭示了在表现情绪和外表方面更加微妙的偏见。例如，女性被描绘为年轻且更多地微笑。
-
-    arXiv:2403.02726v1 Announce Type: cross  Abstract: This study analyzed images generated by three popular generative artificial intelligence (AI) tools - Midjourney, Stable Diffusion, and DALLE 2 - representing various occupations to investigate potential bias in AI generators. Our analysis revealed two overarching areas of concern in these AI generators, including (1) systematic gender and racial biases, and (2) subtle biases in facial expressions and appearances. Firstly, we found that all three AI generators exhibited bias against women and African Americans. Moreover, we found that the evident gender and racial biases uncovered in our analysis were even more pronounced than the status quo when compared to labor force statistics or Google images, intensifying the harmful biases we are actively striving to rectify in our society. Secondly, our study uncovered more nuanced prejudices in the portrayal of emotions and appearances. For example, women were depicted as younger with more smi
-    
-[^2]: 基于矩阵的短期瞬时波动向量预测方法
-
-    Matrix-based Prediction Approach for Intraday Instantaneous Volatility Vector
-
-    [https://arxiv.org/abs/2403.02591](https://arxiv.org/abs/2403.02591)
-
-    提出了基于矩阵的预测方法，通过引入TIP-PCA过程，实现了短期瞬时波动的有效预测。
+    通过在线视频游戏中的创新数据和自然实验，研究揭露性取向对玩家偏好的影响。
 
     
 
-    这篇论文介绍了一种基于Ito半鞅模型利用高频金融数据预测短期瞬时波动的新方法。多项研究已经强调了风格化波动时间序列特征，如隔夜自回归动态和短期U形模式。为了适应这些波动特征，我们提出了一种隔夜-短期瞬时波动矩阵过程，可以分解为低秩条件预期瞬时波动和噪声矩阵。为了预测低秩条件预期瞬时波动矩阵，我们提出了Two-sIde Projected-PCA （TIP-PCA）过程。我们建立了所提估计量的渐近性质，并进行了仿真研究来评估所提预测方法的有限样本性能。最后，我们应用TIP-PCA方法进行了一个外样本瞬时波动向量预测研究。
+    社会污名和歧视的恐惧导致全球许多个体在公开披露其性取向时犹豫不决。鉴于隐瞒身份的巨大代价，理解反对LGB情绪的程度和对出柜的反应至关重要。然而，披露自己的性取向是个人选择，使得数据获取复杂化并引入内生性问题。本文通过使用一种创新的数据源（一个热门在线视频游戏）和一个自然实验来解决这些挑战。我们利用可玩角色身份的外生变化来识别出披露对玩家对该角色的已显露偏好的影响。借助详细的日常数据，我们监测玩家在全球各地对角色的偏好，并采用合成控制方法来分离披露对玩家偏好的影响。我们的研究发现了一个显著
 
-    arXiv:2403.02591v1 Announce Type: new  Abstract: In this paper, we introduce a novel method for predicting intraday instantaneous volatility based on Ito semimartingale models using high-frequency financial data. Several studies have highlighted stylized volatility time series features, such as interday auto-regressive dynamics and the intraday U-shaped pattern. To accommodate these volatility features, we propose an interday-by-intraday instantaneous volatility matrix process that can be decomposed into low-rank conditional expected instantaneous volatility and noise matrices. To predict the low-rank conditional expected instantaneous volatility matrix, we propose the Two-sIde Projected-PCA (TIP-PCA) procedure. We establish asymptotic properties of the proposed estimators and conduct a simulation study to assess the finite sample performance of the proposed prediction method. Finally, we apply the TIP-PCA method to an out-of-sample instantaneous volatility vector prediction study usin
+    arXiv:2403.03649v1 Announce Type: new  Abstract: The fear of social stigma and discrimination leads many individuals worldwide to hesitate in openly disclosing their sexual orientation. Due to the large costs of concealing identity, it is crucial to understand the extent of anti-LGB sentiments and reactions to coming out. However, disclosing one's sexual orientation is a personal choice, complicating data access and introducing endogeneity issues. This paper tackles these challenges by using an innovative data source from a popular online video game together with a natural experiment. We exploit exogenous variation in the identity of a playable character to identify the effects of disclosure on players' revealed preferences for that character. Leveraging detailed daily data, we monitor players' preferences for the character across diverse regions globally and employ synthetic control methods to isolate the effect of the disclosure on players' preferences. Our findings reveal a substant
     
-[^3]: COVID-19对孟加拉国汇率波动的影响：基于GARCH模型的证据
+[^2]: 使用双重隐私框架理解在线广告中消费者对不同公司实践下的知觉隐私侵犯
 
-    Impact of COVID-19 on Exchange rate volatility of Bangladesh: Evidence through GARCH model
+    Using the Dual-Privacy Framework to Understand Consumers' Perceived Privacy Violations Under Different Firm Practices in Online Advertising
 
-    [https://arxiv.org/abs/2403.02560](https://arxiv.org/abs/2403.02560)
+    [https://arxiv.org/abs/2403.03612](https://arxiv.org/abs/2403.03612)
 
-    COVID-19病例数量的增加对孟加拉国BDT兑USD、BDT兑JPY和BDT兑SEK汇率波动产生了显著正向影响
-
-    
-
-    这项研究利用GARCH(1,1)模型，研究COVID-19病例数量（对数值）对孟加拉塔卡（BDT）兑美元（USD）、日元（JPY）和瑞典克朗（SEK）汇率回报波动的影响。结果表明，孟加拉国COVID-19病例数量增加对BDT/USD、BDT/JPY和BDT/SEK汇率的波动有显著正向影响。
-
-    arXiv:2403.02560v1 Announce Type: new  Abstract: This study uses the GARCH (1,1) model to examine the impact of COVID-19 cases (log value) on the volatility of the Exchange rate return of Bangladeshi taka (BDT) over the US dollar (USD), Japanese Yen (JPY), and Swedish Krona (SEK). The result shows that an increase in the number of COVID-19-affected cases in Bangladesh has a significant and positive impact on the volatility of exchange rates BDT/USD, BDT/JPY, and BDT/SEK.
-    
-[^4]: 应用机器学习和人工智能推动的因果推断
-
-    Applied Causal Inference Powered by ML and AI
-
-    [https://arxiv.org/abs/2403.02467](https://arxiv.org/abs/2403.02467)
-
-    本书介绍了机器学习和因果推断的新兴融合，探讨了经典结构方程模型与现代AI等价物之间的联系，并涵盖了使用双重/去偏移机器学习方法进行推断的内容。
+    使用双重隐私框架研究在线广告中消费者对不同公司实践下的知觉隐私侵犯，发现不同广告实践中数据流动和消费者跟踪方式的差异会导致不同程度的隐私侵犯感受。
 
     
 
-    arXiv:2403.02467v1 公告类型：交叉摘要：介绍了机器学习和因果推断的新兴融合。该书介绍了经典结构方程模型（SEMs）的思想及其现代人工智能等价物，有向无环图（DAGs）和结构因果模型（SCMs），并涵盖了使用现代预测工具在这些模型中进行推断的双重/去偏移机器学习方法。
+    针对收集和使用个人数据的隐私问题，在线广告行业一直在开发隐私增强技术（PETs），例如谷歌的隐私沙箱计划。本研究利用双重隐私框架来理解消费者对当前和提议的在线广告实践的知觉隐私侵犯（PPVs）。关键思路是，不同实践在个体数据是否离开消费者的设备以及如何跟踪和定位消费者上存在差异；这些不同影响隐私偏好的内在和工具组成部分，在不同实践下导致不同的PPVs。我们进行了针对美国消费者的在线研究，以获取不同广告实践中的PPVs。我们的发现证实了跟踪...
 
-    arXiv:2403.02467v1 Announce Type: cross  Abstract: An introduction to the emerging fusion of machine learning and causal inference. The book presents ideas from classical structural equation models (SEMs) and their modern AI equivalent, directed acyclical graphs (DAGs) and structural causal models (SCMs), and covers Double/Debiased Machine Learning methods to do inference in such models using modern predictive tools.
+    arXiv:2403.03612v1 Announce Type: new  Abstract: In response to privacy concerns about collecting and using personal data, the online advertising industry has been developing privacy-enhancing technologies (PETs), e.g., under Google's Privacy Sandbox initiative. In this research, we use the dual-privacy framework, which postulates that consumers have intrinsic and instrumental preferences for privacy, to understand consumers' perceived privacy violations (PPVs) for current and proposed online advertising practices. The key idea is that different practices differ in whether individual data leaves the consumer's machine or not and in how they track and target consumers; these affect, respectively, the intrinsic and instrumental components of privacy preferences differently, leading to different PPVs for different practices. We conducted online studies focused on consumers in the United States to elicit PPVs for various advertising practices. Our findings confirm the intuition that tracki
     
-[^5]: 纠缠: 在事实核实中平衡惩罚和补偿的最大补偿问题重复困境博弈分析，虚假新闻与弱沃勒斯定律案例
+[^3]: 为隐私买单：付费或追踪墙
 
-    Entanglement: Balancing Punishment and Compensation, Repeated Dilemma Game-Theoretic Analysis of Maximum Compensation Problem for Bypass and Least Cost Paths in Fact-Checking, Case of Fake News with Weak Wallace's Law
+    Paying for Privacy: Pay-or-Tracking Walls
 
-    [https://arxiv.org/abs/2403.02342](https://arxiv.org/abs/2403.02342)
+    [https://arxiv.org/abs/2403.03610](https://arxiv.org/abs/2403.03610)
 
-    通过研究最大补偿问题和惩罚优势问题，在信息传播中设计了一种策略来最大程度地减少虚假新闻传播并最大化可信信息传播，以重新评估新闻提供者的激励措施对信息市场平衡的影响。
-
-    
-
-    这篇研究笔记以一种新颖的方法来解决与虚假新闻传播和有效事实核实相关的问题。重点放在最小成本路径问题上，讨论围绕着使用Metzler函数和Metzler矩阵来模拟新闻提供者之间信息传播动态的方法。我们设计了一种策略来最小化虚假新闻的传播，同时最大化可信信息的传播。通过惩罚优势问题和最大补偿问题，我们开发并研究了一种重新评估新闻提供者激励措施的路径，并分析它们对信息市场平衡的影响。通过将纠缠概念应用于信息传播的背景中，我们揭示了新闻提供者之间相互作用的复杂性。
-
-    arXiv:2403.02342v1 Announce Type: cross  Abstract: This research note is organized with respect to a novel approach to solving problems related to the spread of fake news and effective fact-checking. Focusing on the least-cost routing problem, the discussion is organized with respect to the use of Metzler functions and Metzler matrices to model the dynamics of information propagation among news providers. With this approach, we designed a strategy to minimize the spread of fake news, which is detrimental to informational health, while at the same time maximizing the spread of credible information. In particular, through the punitive dominance problem and the maximum compensation problem, we developed and examined a path to reassess the incentives of news providers to act and to analyze their impact on the equilibrium of the information market. By applying the concept of entanglement to the context of information propagation, we shed light on the complexity of interactions among news pr
-    
-[^6]: 医疗账单冲击与不完全道德风险
-
-    Medical Bill Shock and Imperfect Moral Hazard
-
-    [https://arxiv.org/abs/2211.01116](https://arxiv.org/abs/2211.01116)
-
-    研究发现医疗账单的到来为家庭溢出支出带来冲击，但其效应可以帮助消费者解决价格不确定性，纠正价格信号误解后降低了支出水平。
+    该论文研究了付费或追踪墙的现状，发现一些顶级欧盟出版商采用这种方式。他们的实施方式多样，包括将付费选项与无广告访问或额外内容捆绑。此外，不被追踪的价格超过了从同意被追踪用户那里获得的广告收入。
 
     
 
-    消费者在接受医疗服务时对医疗价格敏感，但价格信息的延迟可能扭曲道德风险。我们研究了医疗账单如何影响家庭在利用医疗服务后的溢出支出，利用保险索赔处理时间的变化。家庭在预定服务后支出增加了22\%，但在账单到达后支出减少了11%。观察到的账单效应与解决价格不确定性一致；账单效应在定价信息特别引人注目时最为显著。一种有关医疗保健需求的模型提出，家庭在账单到来之前错误理解了价格信号，并且纠正这些看法将使平均（中位数）支出每年减少16\%（7\%）。
+    一些知名新闻出版商，最近甚至包括 Meta，开始要求用户为隐私付费。具体地说，用户会收到一个称为付费或追踪墙的通知横幅，要求他们（i）支付费用以避免被跟踪或（ii）同意被跟踪。这些墙引发了人们对隐私可能成为一种奢侈品的担忧。然而，对于付费或追踪墙知之甚少，这阻碍了对它们是否适当的深入讨论。本文进行了几项实证研究，发现顶级欧盟出版商使用付费或追踪墙。他们的实施涉及各种方法，包括将付费选项与无广告访问或额外内容捆绑在一起。不被跟踪的价格超过了出版商从同意被跟踪的用户所获得的广告收入。值得注意的是，在实施付费或追踪墙后，出版商的流量并未下降，大多数用
 
-    arXiv:2211.01116v2 Announce Type: replace  Abstract: Consumers are sensitive to medical prices when consuming care, but delays in price information may distort moral hazard. We study how medical bills affect household spillover spending following utilization, leveraging variation in insurer claim processing times. Households increase spending by 22\% after a scheduled service, but then reduce spending by 11\% after the bill arrives. Observed bill effects are consistent with resolving price uncertainty; bill effects are strongest when pricing information is particularly salient. A model of demand for healthcare with delayed pricing information suggests households misperceive pricing signals prior to bills, and that correcting these perceptions reduce average (median) spending by 16\% (7\%) annually.
+    arXiv:2403.03610v1 Announce Type: new  Abstract: Prestigious news publishers, and more recently, Meta, have begun to request that users pay for privacy. Specifically, users receive a notification banner, referred to as a pay-or-tracking wall, that requires them to (i) pay money to avoid being tracked or (ii) consent to being tracked. These walls have invited concerns that privacy might become a luxury. However, little is known about pay-or-tracking walls, which prevents a meaningful discussion about their appropriateness. This paper conducts several empirical studies and finds that top EU publishers use pay-or-tracking walls. Their implementations involve various approaches, including bundling the pay option with advertising-free access or additional content. The price for not being tracked exceeds the advertising revenue that publishers generate from a user who consents to being tracked. Notably, publishers' traffic does not decline when implementing a pay-or-tracking wall and most us
     
-[^7]: 关于局部理性社会选择函数
+[^4]: 学术出版中的“必备存货”挑战：转型协议的定价影响
 
-    On Locally Rationalizable Social Choice Functions
+    The 'Must Stock' Challenge in Academic Publishing: Pricing Implications of Transformative Agreements
 
-    [https://arxiv.org/abs/2204.05062](https://arxiv.org/abs/2204.05062)
+    [https://arxiv.org/abs/2403.03597](https://arxiv.org/abs/2403.03597)
 
-    提出了一种关于局部可理性社会选择函数的理论扩展，通过引入新的$\gamma$加强和$\gamma$-覆盖概念，将局部可理性性质与PIP-传递关系精确地联系起来。
-
-    
-
-    我们考虑了一种理性性质的概念，其中理性化关系可能取决于可行替代方案集。更确切地说，我们称一个选择函数为局部可理性化的，如果它由一组理性化关系所理性化，使得在一些可行集中两个替代方案之间的严格偏好在移除其他替代方案时得到保留。Tyson (2008)已经证明了，选择函数是局部可理性化的，当且仅当它满足Sen的$\gamma$。我们通过提出一个自然的$\gamma$加强来扩展了局部可理论性的理论，该加强通过PIP-传递关系精确地表征了局部可理性化，同时通过引入选择函数的$\gamma$-覆盖作为其满足$\gamma$的最精细的粗化。局部可理性化允许对满足$\gamma$的社会选择函数包括经典选择函数如顶轮和革除集在内，提供统一的视角。
-
-    arXiv:2204.05062v3 Announce Type: replace  Abstract: We consider a notion of rationalizability, where the rationalizing relation may depend on the set of feasible alternatives. More precisely, we say that a choice function is locally rationalizable if it is rationalized by a family of rationalizing relations such that a strict preference between two alternatives in some feasible set is preserved when removing other alternatives. Tyson (2008) has shown that a choice function is locally rationalizable if and only if it satisfies Sen's $\gamma$. We expand the theory of local rationalizability by proposing a natural strengthening of $\gamma$ that precisely characterizes local rationalizability via PIP-transitive relations and by introducing the $\gamma$-hull of a choice function as its finest coarsening that satisfies $\gamma$. Local rationalizability permits a unified perspective on social choice functions that satisfy $\gamma$, including classic ones such as the top cycle and the uncover
-    
-[^8]: 印度实施正面行动政策的宪法性
-
-    Constitutional Implementation of Affirmative Action Policies in India
-
-    [https://arxiv.org/abs/2203.01483](https://arxiv.org/abs/2203.01483)
-
-    通过研究表明，2SMH-DA机制在解决印度在实施正面行动政策时面临的挑战方面具有独特优势。
+    转型协议如“发布和阅读”方案将为期刊出版商带来好处，无论其期刊中的发表数量增长还是下降，可能会提高新参与者的准入壁垞。
 
     
 
-    印度拥有一个全面的正面行动计划，为各种弱势群体在政府机构中储备了一部分职位。尽管在所有职位相同的情况下有一种得到最高法院认可的机制来实施这些预留政策，但在职位不同的情况下，法院却不愿意支持明确的机制。这一空白导致了广泛采用违宪机制，无数诉讼案件以及法院裁决的不一致性。通过将最高法院标志性判决Saurav Yadav（2020）中的命令制定为技术公理，我们展示了2SMH-DA机制如何独特地适用于克服这些挑战。
+    顶尖学术期刊的高度相关性使它们成为“必备存货”产品，赋予其通常是商业所有者的非凡市场力量。 为了解决这个问题，全球各地的大学联盟与许多出版社谈判所谓的“转型协议”。 这将为标准开放获取出版打开道路。 尽管存在几种合同设计，但“发布和阅读”（PAR）方案是最接近完全开放获取环境理想的方案：出版商会为每篇发表支付固定的按案例收费，其中包括对其丰富的图书馆收费。 反过来，所有订阅费用都将被免除。 我从理论上推导出，无论这些出版商的期刊中的发表数量增长还是下降，这种合同设计都有利于包括的出版商。 因此，广泛使用PAR合同很可能会提高新参与者的准入壁垒。
 
-    arXiv:2203.01483v3 Announce Type: replace  Abstract: India is home to a comprehensive affirmative action program that reserves a fraction of positions at governmental institutions for various disadvantaged groups. While there is a Supreme Court-endorsed mechanism to implement these reservation policies when all positions are identical, courts have refrained from endorsing explicit mechanisms when positions are heterogeneous. This lacunae has resulted in widespread adoption of unconstitutional mechanisms, countless lawsuits, and inconsistent court rulings. Formulating mandates in the landmark Supreme Court judgment Saurav Yadav (2020) as technical axioms, we show that the 2SMH-DA mechanism is uniquely suited to overcome these challenges.
+    arXiv:2403.03597v1 Announce Type: new  Abstract: The high relevance of top-notch academic journals turns them into 'must stock' products that assign its often commercial owners with extraordinary market power. Intended to tackle this, university consortia around the globe negotiate so-called 'transformative agreements' with many publishing houses. It shall pave the way towards standard open-access publishing. While several contract designs exist, the 'publish-and-read' (PAR) scheme is the one that comes closest to the ideal of an entirely open access environment: Publishers are paid a fixed case-by-case rate for each publication, which includes a fee for their extensive libraries. In turn, all subscription payments are waived. I theoretically derive that this contract design benefits the included publishers regardless of whether the number of publications in these publishers' journals grows or declines. Consequently, widespread PAR contracts are likely to raise entry barriers for new (
     
-[^9]: 针对面板数据设计强鲁棒性的双向固定效应回归
+[^5]: 用于处理因变量选择的活跃自适应实验设计的处理效应估计
 
-    Design-Robust Two-Way-Fixed-Effects Regression For Panel Data
+    Active Adaptive Experimental Design for Treatment Effect Estimation with Covariate Choices
 
-    [https://arxiv.org/abs/2107.13737](https://arxiv.org/abs/2107.13737)
+    [https://arxiv.org/abs/2403.03589](https://arxiv.org/abs/2403.03589)
 
-    我们提出了一种针对面板数据的新估计器，通过在双向固定效应规范中引入基于模型的单位特定权重，实现平均因果效应的稳健估计。相比于传统的双向固定效应估计器，我们的方法在处理分配机制或双向回归模型任一正确规格化的情况下表现更为稳健。
-
-    
-
-    我们提出了一种在具有一般处理模式的面板数据中用于二元处理的平均因果效应的新估计量。我们的方法通过从分配机制模型中得出的单位特定权重来增强流行的双向固定效应规范。我们展示了如何在不同设置下构建这些权重，包括阶段性采用设置，其中单位按顺序但永久地选择进入处理。结果估计量在正确规格化分配模型的情况下收敛到单位和时间的平均处理效应，即使固定效应模型被错误规格化。我们表明，我们的估计量比传统的双向估计量更具鲁棒性：如果分配机制或双向回归模型中的任一项被正确规格化，估计量仍然保持一致。此外，如果结果
-
-    arXiv:2107.13737v3 Announce Type: replace  Abstract: We propose a new estimator for average causal effects of a binary treatment with panel data in settings with general treatment patterns. Our approach augments the popular two-way-fixed-effects specification with unit-specific weights that arise from a model for the assignment mechanism. We show how to construct these weights in various settings, including the staggered adoption setting, where units opt into the treatment sequentially but permanently. The resulting estimator converges to an average (over units and time) treatment effect under the correct specification of the assignment model, even if the fixed effect model is misspecified. We show that our estimator is more robust than the conventional two-way estimator: it remains consistent if either the assignment mechanism or the two-way regression model is correctly specified. In addition, the proposed estimator performs better than the two-way-fixed-effect estimator if the outco
-    
-[^10]: 伊斯兰法，西欧法和中东长期分歧的根源：一个比较实证研究（800-1600年）
-
-    Islamic Law, Western European Law and the Roots of Middle East's Long Divergence: a Comparative Empirical Investigation (800-1600). (arXiv:2401.14435v1 [econ.GN])
-
-    [http://arxiv.org/abs/2401.14435](http://arxiv.org/abs/2401.14435)
-
-    该研究通过比较实证研究探讨了伊斯兰法律制度对中东与欧洲经济分歧的影响。研究发现，在伊斯兰法律神圣化之前，高密度的法学院与更加充满活力的城市经济和更高的城市增长相关。
+    该研究提出了一种更有效地估计处理效应的活跃自适应实验设计方法，通过优化协变量密度和倾向得分来降低渐近方差。
 
     
 
-    我们研究伊斯兰法律制度对中东与拉丁欧洲之间比较经济衰退的影响，这可以从中世纪后期开始观察。为此，我们探讨了伊斯兰法律的神圣化以及其对伊斯兰教法的崇高、神圣和不可改变的法律文本的关注，这在13世纪达到顶峰，对经济发展产生了影响。我们使用145个伊斯兰国家的城市人口和648个欧洲城市的数据作为经济发展水平的代理，并构建了关于法学院（madaris）数量的新估计，并估计它们对前工业时期经济发展的贡献。我们的三重差分估计结果表明，在伊斯兰法律神圣化之前，法学院的高密度与更加充满活力的城市经济和更高的城市增长相关。在13世纪伊斯兰教法神圣化巩固之后，更高密度的法学院不再对城市发展产生显著影响。
+    这项研究设计了一个自适应实验，用于高效地估计平均处理效应（ATEs）。我们考虑了一个自适应实验，其中实验者按顺序从由实验者决定的协变量密度中抽样一个实验单元，并分配一种处理。在分配处理后，实验者立即观察相应的结果。在实验结束时，实验者利用收集的样本估算出一个ATE。实验者的目标是通过较小的渐近方差估计ATE。现有研究已经设计了一些能够自适应优化倾向得分（处理分配概率）的实验。作为这种方法的一个概括，我们提出了一个框架，该框架下实验者优化协变量密度以及倾向得分，并发现优化协变量密度和倾向得分比仅优化倾向得分可以减少渐近方差更多的情况。
 
-    We examine the impact of Islamic legal institutions to the comparative economic decline of the Middle East behind Latin Europe, which can be observed since the late Middle Ages. To this end, we explore whether the sacralization of Islamic law and its focus on the Sharia as supreme, sacred and unchangeable legal text, which reached its culmination in the 13th century had an impact on economic development. We use the population size of 145 cities in Islamic countries and 648 European cities for the period 800-1800 as proxies for the level of economic development, and construct novel estimates of the number of law schools (i.e. madaris) and estimate their contribution to the pre-industrial economic development. Our triple-differences estimates show that a higher density of madrasas before the sacralization of Islamic law predicts a more vibrant urban economy characterized by higher urban growth. After the consolidation of the sharia sacralization of law in the 13th century, greater densit
+    arXiv:2403.03589v1 Announce Type: cross  Abstract: This study designs an adaptive experiment for efficiently estimating average treatment effect (ATEs). We consider an adaptive experiment where an experimenter sequentially samples an experimental unit from a covariate density decided by the experimenter and assigns a treatment. After assigning a treatment, the experimenter observes the corresponding outcome immediately. At the end of the experiment, the experimenter estimates an ATE using gathered samples. The objective of the experimenter is to estimate the ATE with a smaller asymptotic variance. Existing studies have designed experiments that adaptively optimize the propensity score (treatment-assignment probability). As a generalization of such an approach, we propose a framework under which an experimenter optimizes the covariate density, as well as the propensity score, and find that optimizing both covariate density and propensity score reduces the asymptotic variance more than o
     
-[^11]: 持不同意见：测量FOMC会议中的隐藏异议
+[^6]: 在代理人进行游戏时的竞争机制：理论与实验
+
+    Competing Mechanisms in Games Played Through Agents: Theory and Experiment
+
+    [https://arxiv.org/abs/2403.03317](https://arxiv.org/abs/2403.03317)
+
+    本文提出了通过代理人进行的竞争机制游戏（CMGPTA），并设计了实验来研究这一机制在实践中的表现。
+
+    
+
+    本文提出了通过代理人进行的竞争机制游戏（CMGPTA），这是GPTA（Prat和Rustichini（2003））的延伸，其中委托人可以提供任意规定了对每个代理人的转移时间表的机制，前提是所有代理人的消息。我们利用离径处的偏差者报告机制（DRMs）和单一的转移时间表来确定均衡分配。我们设计了一个实验室实验来实施DRMs。我们观察到，实施的结果更经常是有效的，而不是随机的。大部分时间，代理人确实会告诉一个偏离的委托人的身份，尽管在虚报上进行（心照不宣的）共谋可能有利可图。随着游戏的进行，代理人学会了如何与他们的对手代理人进行交易，跨组的虚报共谋的平均预测概率从实验开始时的约9%增加到实验结束时几乎达到20%。
+
+    arXiv:2403.03317v1 Announce Type: new  Abstract: This paper proposes Competing Mechanism Games Played Through Agent (CMGPTA), an extension of the GPTA (Prat and Rustichini (2003)), where a Principal can offer any arbitrary mechanism that specifies a transfer schedule for each agent conditional on all Agents' messages. We identify the set of equilibrium allocations using deviator-reporting mechanisms (DRMs) on the path and single transfer schedules off the path. We design a lab experiment implementing DRMs. We observe that implemented outcomes are efficient more often than random. A majority of the time, Agents do tell the truth on the identity of a deviating Principal, despite potential gains from (tacit) collusion on false reports. As play progresses, Agents learn to play with their counterparty Agent with the average predicted probability of collusion on false reports across groups increasing from about 9% at the beginning of the experiment to just under 20% by the end. However, grou
+    
+[^7]: 理解和避免“回归权重”：异质效应、误设和长久解决方案
+
+    Understanding and avoiding the "weights of regression": Heterogeneous effects, misspecification, and longstanding solutions
+
+    [https://arxiv.org/abs/2403.03299](https://arxiv.org/abs/2403.03299)
+
+    处理的回归系数通常不等于平均处理效应（ATE），且可能不是直接科学或政策感兴趣的数量。研究人员提出各种解释、边界和诊断辅助工具来解释这种差异。
+
+    
+
+    许多领域的研究人员努力通过在处理（D）和观察到的混杂因素（X）上对结果数据（Y）进行回归来估计治疗效应。即使不存在未观察到的混杂因素，处理的回归系数也会报告分层特定处理效应的加权平均值。当无法排除异质处理效应时，得到的系数通常不等于平均处理效应（ATE），也不太可能是直接科学或政策感兴趣的数量。系数与ATE之间的差异导致研究人员提出各种解释、边界和诊断辅助工具。我们注意到，在处理效应在X中是异质的时，对Y关于D和X的线性回归可能存在误设。回归的“权重”，对此我们提供了一种新的...
+
+    arXiv:2403.03299v1 Announce Type: cross  Abstract: Researchers in many fields endeavor to estimate treatment effects by regressing outcome data (Y) on a treatment (D) and observed confounders (X). Even absent unobserved confounding, the regression coefficient on the treatment reports a weighted average of strata-specific treatment effects (Angrist, 1998). Where heterogeneous treatment effects cannot be ruled out, the resulting coefficient is thus not generally equal to the average treatment effect (ATE), and is unlikely to be the quantity of direct scientific or policy interest. The difference between the coefficient and the ATE has led researchers to propose various interpretational, bounding, and diagnostic aids (Humphreys, 2009; Aronow and Samii, 2016; Sloczynski, 2022; Chattopadhyay and Zubizarreta, 2023). We note that the linear regression of Y on D and X can be misspecified when the treatment effect is heterogeneous in X. The "weights of regression", for which we provide a new (m
+    
+[^8]: 用于统计推断的三重/去偏Lasso：条件平均处理效应
+
+    Triple/Debiased Lasso for Statistical Inference of Conditional Average Treatment Effects
+
+    [https://arxiv.org/abs/2403.03240](https://arxiv.org/abs/2403.03240)
+
+    研究提出了一种三重/去偏Lasso方法，用于统计推断条件平均处理效应，不要求直接假设稀疏性，有效估计了线性模型之间的差异。
+
+    
+
+    本研究调查了关于条件平均处理效应（CATEs）的估计和统计推断，CATEs作为表示个性化因果效应的一个指标已经引起了关注。在我们的数据生成过程中，我们假设与二值处理相关联的结果采用线性模型，并将CATE定义为这些线性模型的预期结果之间的差异。本研究允许线性模型是高维的，我们的兴趣在于对CATE进行一致估计和统计推断。在高维线性回归中，一种典型的方法是假设稀疏性。但是，在我们的研究中，我们不直接假设稀疏性。相反，我们仅在线性模型的差异中考虑稀疏性。我们首先使用双重稳健估计器来近似这种差异，然后用Lasso正则化将差异回归到协变量上。尽管这种回归估计量是
+
+    arXiv:2403.03240v1 Announce Type: cross  Abstract: This study investigates the estimation and the statistical inference about Conditional Average Treatment Effects (CATEs), which have garnered attention as a metric representing individualized causal effects. In our data-generating process, we assume linear models for the outcomes associated with binary treatments and define the CATE as a difference between the expected outcomes of these linear models. This study allows the linear models to be high-dimensional, and our interest lies in consistent estimation and statistical inference for the CATE. In high-dimensional linear regression, one typical approach is to assume sparsity. However, in our study, we do not assume sparsity directly. Instead, we consider sparsity only in the difference of the linear models. We first use a doubly robust estimator to approximate this difference and then regress the difference on covariates with Lasso regularization. Although this regression estimator is
+    
+[^9]: 以太坊区块链上诈骗代币的经验分析：Uniswap上的假币
+
+    An Empirical Analysis of Scam Token on Ethereum Blockchain: Counterfeit tokens on Uniswap
+
+    [https://arxiv.org/abs/2402.19399](https://arxiv.org/abs/2402.19399)
+
+    该研究对Uniswap上的假币欺诈活动的收入与特征之间的关系进行了经验调查，并发现在欺诈的第一天总交易量显著增加，前期欺诈成本上升会导致收入增加，以及假币总收入与以太坊市值回报率的波动呈负相关。
+
+    
+
+    这篇文章对Uniswap上的假币所产生的总收入的决定因素进行了经验调查。文章详细介绍了假币欺诈过程，并系统总结了Uniswap上观察到的此类欺诈活动的特征。研究主要考察了来自假币欺诈的收入与其定义特征之间的关系，并分析了市场经济因素（如市值回报率和以太坊价格回报率）对其的影响。关键发现包括假币在欺诈第一天的总交易量显著增加，以及前期欺诈成本上升导致相应收入增加。此外，假币的总收入与以太坊市值回报率的波动呈负相关关系，而价格回报率波动呈现负相关。
+
+    arXiv:2402.19399v1 Announce Type: cross  Abstract: This article presents an empirical investigation into the determinants of total revenue generated by counterfeit tokens on Uniswap. It offers a detailed overview of the counterfeit token fraud process, along with a systematic summary of characteristics associated with such fraudulent activities observed in Uniswap. The study primarily examines the relationship between revenue from counterfeit token scams and their defining characteristics, and analyzes the influence of market economic factors such as return on market capitalization and price return on Ethereum. Key findings include a significant increase in overall transactions of counterfeit tokens on their first day of fraud, and a rise in upfront fraud costs leading to corresponding increases in revenue. Furthermore, a negative correlation is identified between the total revenue of counterfeit tokens and the volatility of Ethereum market capitalization return, while price return vol
+    
+[^10]: 集体评估问题
+
+    Collective Evaluation Problem
+
+    [https://arxiv.org/abs/2402.16309](https://arxiv.org/abs/2402.16309)
+
+    本研究探讨了集体评估函数的属性，并确定了确保满足四种不同组合属性的集体评估函数存在的评估能力配置文件的必要和充分条件。
+
+    
+
+    这项研究聚焦于通过收集来自多个个体的评估来评估有限的替代方案的情况，其中一些个体可能不评估特定的替代方案。个体（可）评估的替代方案子集的集合被称为评估能力配置文件。针对给定的评估能力配置文件，我们定义了一个集体评估函数，其输入是个体对他们评估的替代方案子集的评估顺序。我们研究了集体评估函数的特性，这些特性是对先前研究中引入的特性的修改。我们确定了关于评估能力配置文件的充分必要条件，以确保存在满足这些特性中四种不同组合的集体评估函数。
+
+    arXiv:2402.16309v1 Announce Type: new  Abstract: This study focuses on situations where a finite set of alternatives is evaluated by collecting evaluations from several individuals, some of whom may not evaluate specific alternatives. The collection of subsets of alternatives that individuals (can) evaluate is referred to as an evaluability profile. For a given evaluability profile, we define a collective evaluation function whose inputs are the evaluation orders of individuals on the subsets of alternatives that they evaluate. We investigate the properties of collective evaluation functions, which are modifications of those introduced in previous studies. We identify the necessary and sufficient conditions on the evaluability profile that ensure the existence of collective evaluation functions satisfying four different combinations of these properties.
+    
+[^11]: 一种矩方法逼近无偏合成对照的方法
+
+    A Method of Moments Approach to Asymptotically Unbiased Synthetic Controls
+
+    [https://arxiv.org/abs/2312.01209](https://arxiv.org/abs/2312.01209)
+
+    提出了一种使用矩方法逼近无偏合成对照的方法，能够在处理前期间数量趋近无穷大的情况下实现渐近无偏性。
+
+    
+
+    构建合成对照单元的常见方法是在处理前期间拟合结果变量和协变量，但Ferman和Pinto（2019年）显示，当拟合不完美且控制数量固定时，该方法不提供渐近无偏性。许多相关的面板方法在单位数量固定时也有类似的局限性。我介绍并评估了一种新方法，其中使用广义矩法构建合成对照，未包括在合成对照中的单位被用作工具变量。我表明，当处理前期间的数量趋近于无穷大时，此形式的合成对照估计器将渐近无偏，即使预处理拟合不完美且单位数量固定。此外，如果处理前后期间的数量均趋于无穷大，则它们的平均值将在无偏性方面变得更强。
+
+    arXiv:2312.01209v2 Announce Type: replace  Abstract: A common approach to constructing a Synthetic Control unit is to fit on the outcome variable and covariates in pre-treatment time periods, but it has been shown by Ferman and Pinto (2019) that this approach does not provide asymptotic unbiasedness when the fit is imperfect and the number of controls is fixed. Many related panel methods have a similar limitation when the number of units is fixed. I introduce and evaluate a new method in which the Synthetic Control is constructed using a General Method of Moments approach where units not being included in the Synthetic Control are used as instruments. I show that a Synthetic Control Estimator of this form will be asymptotically unbiased as the number of pre-treatment time periods goes to infinity, even when pre-treatment fit is imperfect and the number of units is fixed. Furthermore, if both the number of pre-treatment and post-treatment time periods go to infinity, then averages of tr
+    
+[^12]: 一般关于帕累托效率和贝叶斯激励兼容性的不可能定理
+
+    A General Impossibility Theorem on Pareto Efficiency and Bayesian Incentive Compatibility
+
+    [https://arxiv.org/abs/2303.05968](https://arxiv.org/abs/2303.05968)
+
+    一个社会选择函数同时实现前置帕累托高效和贝叶斯激励兼容，当且仅当它是独裁的。
+
+    
+
+    本文研究了一类社会选择问题，其中代理的支付函数（或类型）是私密可观测的随机变量，且货币转移不可用。我们考虑了基数社会选择函数，它可以对代理的偏好强度和偏好排序做出反应。我们证明了如果一个社会选择函数是前置帕累托高效和贝叶斯激励兼容的，则它必须是独裁的。这个结果对于任意数量的代理和备选项都成立，并且在关于类型的联合分布上有一个相当弱的假设下成立，该假设允许任意的相关性和不对称性。
+
+    arXiv:2303.05968v2 Announce Type: replace  Abstract: This paper studies a general class of social choice problems in which agents' payoff functions (or types) are privately observable random variables, and monetary transfers are not available. We consider cardinal social choice functions which may respond to agents' preference intensities as well as preference rankings. We show that a social choice function is ex ante Pareto efficient and Bayesian incentive compatible if and only if it is dictatorial. The result holds for arbitrary numbers of agents and alternatives, and under a fairly weak assumption on the joint distribution of types, which allows for arbitrary correlations and asymmetries.
+    
+[^13]: 持不同意见：测量FOMC会议中的隐藏异议
 
     Agree to Disagree: Measuring Hidden Dissents in FOMC Meetings. (arXiv:2308.10131v1 [econ.GN])
 
@@ -172,32 +201,18 @@
 
     Based on a record of dissents on FOMC votes and transcripts of the meetings from 1976 to 2017, we develop a deep learning model based on self-attention modules to create a measure of the level of disagreement for each member in each meeting. While dissents are rare, we find that members often have reservations with the policy decision. The level of disagreement is mostly driven by current or predicted macroeconomic data, and personal characteristics of the members play almost no role. We also use our model to evaluate speeches made by members between meetings, and we find a weak correlation between the level of disagreement revealed in them and that of the following meeting. Finally, we find that the level of disagreement increases whenever monetary policy action is more aggressive.
     
-[^12]: 强健的数据监管
+[^14]: 投票权分配的福利排序
 
-    Robust Data Regulation. (arXiv:2305.05822v1 [econ.TH])
+    Welfare ordering of voting weight allocations. (arXiv:2208.05316v2 [econ.TH] UPDATED)
 
-    [http://arxiv.org/abs/2305.05822](http://arxiv.org/abs/2305.05822)
+    [http://arxiv.org/abs/2208.05316](http://arxiv.org/abs/2208.05316)
 
-    本文研究了监管公司访问消费者数据以用于价格歧视的问题，提出了一种可以最大化最劣消费者剩余价值的所有政策，即如果数据库不表明某一消费群体，则监管机构允许垄断者访问数据。
-
-    
-
-    本文研究了关于监管公司访问消费者数据以用于价格歧视的问题，特别是当监管机构对数据和支付意愿之间的相关结构存在非贝叶斯不确定性时。因此，垄断者如何细分市场还不清楚。本文描述了可以最大化最劣消费者剩余价值的所有政策：如果数据库不表明某一消费群体，则监管机构允许垄断者访问数据。
-
-    I study how to regulate firms' access to consumer data when it is used for price discrimination and the regulator possesses non-Bayesian uncertainty about the correlation structure between data and willingness to pay. Therefore, it is unclear how the monopolist will segment the market. I characterize all policies that maximize worst-case consumer surplus: the regulator allows the monopolist to access data, if the database does not reveal a minority group of consumers.
-    
-[^13]: 近似最优的非参数顺序检验和具有可能相关观测的置信区间
-
-    Near-Optimal Non-Parametric Sequential Tests and Confidence Sequences with Possibly Dependent Observations. (arXiv:2212.14411v2 [stat.ME] UPDATED)
-
-    [http://arxiv.org/abs/2212.14411](http://arxiv.org/abs/2212.14411)
-
-    本文研究了非参数顺序检验和置信区间，在一般非参数数据生成过程下提供了类型I错误和期望拒绝时间保证，提高了其灵活性和性能。
+    本文研究了委员会投票权的分配，并通过对社会福利的随机比较引入了一种偏序。当群体数量足够大时，这种偏序与余弦比例引起的总排序相一致，并且期望福利、平均多数亏空和反转概率等客观函数是渐近单调的。
 
     
 
-    顺序检验和其隐含的置信区间在任意停止时间下都能提供灵活的统计推断和即时决策。然而，强有力的保证仅适用于在实践中低估或浓度界限为基础的顺序序列，而这些序列具有次优的拒绝时间。在本文中，我们考虑罗宾斯（Robbins）1970年的延迟启动正态混合顺序概率比检验，并在一般非参数数据生成过程下提供了首个渐近类型I错误和期望拒绝时间保证，其中渐近性质由测试的烧入时间确定。类型I错误的结果主要依赖于鞅强不变原理，并证明这些检验（及其隐含的置信区间）具有接近所需α水平的类型I错误率。期望拒绝时间的结果主要利用了一种受伊藤引理启发的恒等式。
+    本文研究了代表不同规模群体的委员会中投票权的分配。我们通过社会福利的随机比较引入了一种权重分配的偏序。我们表明，当群体数量足够大时，这种排序渐近地与权重与群体规模之间的余弦比例引起的总排序相一致。一个推论是，在余弦比例中，包括预期福利、平均多数亏空和反转概率在内的一类期望形式客观函数是渐近单调的。
 
-    Sequential tests and their implied confidence sequences, which are valid at arbitrary stopping times, promise flexible statistical inference and on-the-fly decision making. However, strong guarantees are limited to parametric sequential tests that under-cover in practice or concentration-bound-based sequences that over-cover and have suboptimal rejection times. In this work, we consider \cite{robbins1970boundary}'s delayed-start normal-mixture sequential probability ratio tests, and we provide the first asymptotic type-I-error and expected-rejection-time guarantees under general non-parametric data generating processes, where the asymptotics are indexed by the test's burn-in time. The type-I-error results primarily leverage a martingale strong invariance principle and establish that these tests (and their implied confidence sequences) have type-I error rates approaching a desired $\alpha$-level. The expected-rejection-time results primarily leverage an identity inspired by It\^o's lemm
+    This paper studies the allocation of voting weights in a committee representing groups of different sizes. We introduce a partial ordering of weight allocations based on stochastic comparison of social welfare. We show that when the number of groups is sufficiently large, this ordering asymptotically coincides with the total ordering induced by the cosine proportionality between the weights and the group sizes. A corollary is that a class of expectation-form objective functions, including expected welfare, the mean majority deficit and the probability of inversions, are asymptotically monotone in the cosine proportionality.
     
 

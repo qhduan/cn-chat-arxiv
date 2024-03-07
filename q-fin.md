@@ -2,206 +2,192 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Quasi-Monte Carlo for Efficient Fourier Pricing of Multi-Asset Options](https://arxiv.org/abs/2403.02832) | 本研究提出使用随机化拟蒙特卡洛积分来提高傅里叶方法在高维情境下的可扩展性，以解决高效定价多资产期权的挑战。 |
-| [^2] | [Bias in Generative AI](https://arxiv.org/abs/2403.02726) | 本研究揭示了生成AI工具中存在的系统性性别和种族偏见，以及对面部表情和外表的微妙偏见。 |
-| [^3] | [Fill Probabilities in a Limit Order Book with State-Dependent Stochastic Order Flows](https://arxiv.org/abs/2403.02572) | 本文致力于在限价订单簿中计算各价位上限价订单的成交概率，采用了通用的随机模型以及推导了半解析表达式，旨在优化交易执行效果。 |
-| [^4] | [Impact of COVID-19 on Exchange rate volatility of Bangladesh: Evidence through GARCH model](https://arxiv.org/abs/2403.02560) | COVID-19病例数量的增加对孟加拉国BDT兑USD、BDT兑JPY和BDT兑SEK汇率波动产生了显著正向影响 |
-| [^5] | [Transformer for Times Series: an Application to the S&P500](https://arxiv.org/abs/2403.02523) | 本文探讨了将Transformer模型应用于金融时间序列预测中的可行性，并展示了在合成和真实数据集上的一些鼓舞人心的结果。 |
-| [^6] | [RVRAE: A Dynamic Factor Model Based on Variational Recurrent Autoencoder for Stock Returns Prediction](https://arxiv.org/abs/2403.02500) | RVRAE是一种动态因子模型，利用变分递归自编码器，结合先验-后验学习方法，解决了市场数据中的时间依赖性和噪声问题，擅长风险调整。 |
-| [^7] | [The critical disordered pinning measure](https://arxiv.org/abs/2402.17642) | 论文研究了一个由随机游走引起的无序钉扎模型，发现在临界区间内点对点的分区函数收敛到一种唯一的极限随机测度，并命名为临界无序钉扎测度。 |
-| [^8] | [On short-time behavior of implied volatility in a market model with indexes](https://arxiv.org/abs/2402.16509) | 本文研究了在使用排名程序构建指数的市场模型中，衍生品的隐含波动性的短期行为，并提出了可以调和两个看似矛盾特征的模型，同时捕捉了一种新现象称为准爆炸现象。 |
-| [^9] | [Cyber risk and the cross-section of stock returns](https://arxiv.org/abs/2402.04775) | 该研究通过机器学习算法量化了公司的网络风险，并发现高风险股票组合可以获得超额收益。此外，网络风险因子是定价股票收益横截面的关键特征。 |
-| [^10] | [Medical Bill Shock and Imperfect Moral Hazard](https://arxiv.org/abs/2211.01116) | 研究发现医疗账单的到来为家庭溢出支出带来冲击，但其效应可以帮助消费者解决价格不确定性，纠正价格信号误解后降低了支出水平。 |
-| [^11] | [Design-Robust Two-Way-Fixed-Effects Regression For Panel Data](https://arxiv.org/abs/2107.13737) | 我们提出了一种针对面板数据的新估计器，通过在双向固定效应规范中引入基于模型的单位特定权重，实现平均因果效应的稳健估计。相比于传统的双向固定效应估计器，我们的方法在处理分配机制或双向回归模型任一正确规格化的情况下表现更为稳健。 |
-| [^12] | [Islamic Law, Western European Law and the Roots of Middle East's Long Divergence: a Comparative Empirical Investigation (800-1600).](http://arxiv.org/abs/2401.14435) | 该研究通过比较实证研究探讨了伊斯兰法律制度对中东与欧洲经济分歧的影响。研究发现，在伊斯兰法律神圣化之前，高密度的法学院与更加充满活力的城市经济和更高的城市增长相关。 |
-| [^13] | [Optimal Entry and Exit with Signature in Statistical Arbitrage.](http://arxiv.org/abs/2309.16008) | 本文提出了一种新的统计套利交易策略，通过解决顺序最优停止问题，揭示了最优入场和退出时机，从而最大化收益。数值结果表明该策略在各种情景下的表现优于传统均值回复交易规则。 |
-| [^14] | [Agree to Disagree: Measuring Hidden Dissents in FOMC Meetings.](http://arxiv.org/abs/2308.10131) | 该研究使用自我关注模块的深度学习模型，根据FOMC会议的异议记录和会议记录，测量了每位成员在每个会议中的异议程度。研究发现，尽管异议很少见，成员们经常对政策决策持保留意见。异议程度主要受到当前或预测的宏观经济数据的影响，而成员的个人特征几乎不起作用。此外，研究还发现了会议之间成员的演讲与随后会议的异议程度之间存在弱相关性。最后，研究发现，每当货币政策行动更加激进时，异议程度会增加。 |
+| [^1] | [Risk-Sensitive Mean Field Games with Common Noise: A Theoretical Study with Applications to Interbank Markets](https://arxiv.org/abs/2403.03915) | 本文研究了具有共同噪声的风险敏感均场博弈模型，并应用于银行间市场，发现代理商的风险规避行为降低了个别违约和系统性风险的概率，增强了金融系统的弹性。 |
+| [^2] | [A machine learning workflow to address credit default prediction](https://arxiv.org/abs/2403.03785) | 提出了一种基于工作流程的机器学习方法，用于改进信用违约预测，旨在评估借款人违约信用义务概率，利用多种技术优势解决该任务。 |
+| [^3] | [The Cost of Coming Out](https://arxiv.org/abs/2403.03649) | 通过在线视频游戏中的创新数据和自然实验，研究揭露性取向对玩家偏好的影响。 |
+| [^4] | [Using the Dual-Privacy Framework to Understand Consumers' Perceived Privacy Violations Under Different Firm Practices in Online Advertising](https://arxiv.org/abs/2403.03612) | 使用双重隐私框架研究在线广告中消费者对不同公司实践下的知觉隐私侵犯，发现不同广告实践中数据流动和消费者跟踪方式的差异会导致不同程度的隐私侵犯感受。 |
+| [^5] | [Paying for Privacy: Pay-or-Tracking Walls](https://arxiv.org/abs/2403.03610) | 该论文研究了付费或追踪墙的现状，发现一些顶级欧盟出版商采用这种方式。他们的实施方式多样，包括将付费选项与无广告访问或额外内容捆绑。此外，不被追踪的价格超过了从同意被追踪用户那里获得的广告收入。 |
+| [^6] | [Enhancing Price Prediction in Cryptocurrency Using Transformer Neural Network and Technical Indicators](https://arxiv.org/abs/2403.03606) | 该研究提出了通过引入Transformer神经网络和技术指标来提升加密货币价格预测的方法，该方法对于捕获时间动态和提取重要特征具有显著的优势 |
+| [^7] | [The 'Must Stock' Challenge in Academic Publishing: Pricing Implications of Transformative Agreements](https://arxiv.org/abs/2403.03597) | 转型协议如“发布和阅读”方案将为期刊出版商带来好处，无论其期刊中的发表数量增长还是下降，可能会提高新参与者的准入壁垞。 |
+| [^8] | [Prediction Of Cryptocurrency Prices Using LSTM, SVM And Polynomial Regression](https://arxiv.org/abs/2403.03410) | 该论文使用LSTM、SVM和多项式回归算法对加密货币价格进行预测，通过性能比较来确定最佳算法模型 |
+| [^9] | [am-AMM: An Auction-Managed Automated Market Maker](https://arxiv.org/abs/2403.03367) | 本文提出了一个针对AMMs两个重要未解决问题的单一机制：减少对有信息的订单流的损失，最大化对无信息的订单流的收益。 |
+| [^10] | [An Empirical Analysis of Scam Token on Ethereum Blockchain: Counterfeit tokens on Uniswap](https://arxiv.org/abs/2402.19399) | 该研究对Uniswap上的假币欺诈活动的收入与特征之间的关系进行了经验调查，并发现在欺诈的第一天总交易量显著增加，前期欺诈成本上升会导致收入增加，以及假币总收入与以太坊市值回报率的波动呈负相关。 |
+| [^11] | [Signature Methods in Stochastic Portfolio Theory.](http://arxiv.org/abs/2310.02322) | 线性路径函数投资组合是一种通用的投资组合类别，可以通过签名投资组合来一致逼近市场权重的连续、可能路径相关的投资组合函数，并在多类非马尔科夫市场模型中任意好地逼近增长最优投资组合。 |
+| [^12] | [Long-Term Mean-Variance Optimization Under Mean-Reverting Equity Returns.](http://arxiv.org/abs/2309.07488) | 本文研究了长期均方差优化在均值回归股票收益下的应用，结果发现如果股票风险溢价缓慢回归，承诺长期确定性投资策略的投资者将实现更好的风险收益平衡。为求解该问题，应用了变分法原理，推导出了描述最优投资策略的欧拉-拉格朗日方程，问题等价于谱问题，可以得到最优策略的显式解。 |
+| [^13] | [Agree to Disagree: Measuring Hidden Dissents in FOMC Meetings.](http://arxiv.org/abs/2308.10131) | 该研究使用自我关注模块的深度学习模型，根据FOMC会议的异议记录和会议记录，测量了每位成员在每个会议中的异议程度。研究发现，尽管异议很少见，成员们经常对政策决策持保留意见。异议程度主要受到当前或预测的宏观经济数据的影响，而成员的个人特征几乎不起作用。此外，研究还发现了会议之间成员的演讲与随后会议的异议程度之间存在弱相关性。最后，研究发现，每当货币政策行动更加激进时，异议程度会增加。 |
+| [^14] | [Optimal Settings for Cryptocurrency Trading Pairs.](http://arxiv.org/abs/2210.10971) | 本文研究了加密货币交易对的最优设置问题，并提出了一个两阶段过程来解决这个优化问题。该问题的特殊之处在于大部分可能的交易对之间的交易量无法直接观察，且需要满足连通性约束。 |
 
 # 详细
 
-[^1]: 高效傅里叶定价多资产期权的拟蒙特卡洛方法
+[^1]: 具有共同噪声的风险敏感均场博弈：理论研究及在银行间市场中的应用
 
-    Quasi-Monte Carlo for Efficient Fourier Pricing of Multi-Asset Options
+    Risk-Sensitive Mean Field Games with Common Noise: A Theoretical Study with Applications to Interbank Markets
 
-    [https://arxiv.org/abs/2403.02832](https://arxiv.org/abs/2403.02832)
+    [https://arxiv.org/abs/2403.03915](https://arxiv.org/abs/2403.03915)
 
-    本研究提出使用随机化拟蒙特卡洛积分来提高傅里叶方法在高维情境下的可扩展性，以解决高效定价多资产期权的挑战。
-
-    
-
-    在定量金融中，高效定价多资产期权是一个重要挑战。蒙特卡洛（MC）方法仍然是定价引擎的主要选择；然而，其收敛速度慢阻碍了其实际应用。傅里叶方法利用特征函数的知识，准确快速地估值多达两个资产的期权。然而，在高维设置中，由于常用的积分技术具有张量积（TP）结构，它们面临障碍。本文主张使用随机化拟蒙特卡洛（RQMC）积分来改善高维傅里叶方法的可扩展性。RQMC技术受益于被积函数的光滑性，缓解了维度灾难，同时提供了实用的误差估计。然而，RQMC在无界域$\mathbb{R}^d$上的适用性需要将域转换为$[0,1]^d$，这可能...
-
-    arXiv:2403.02832v1 Announce Type: new  Abstract: Efficiently pricing multi-asset options poses a significant challenge in quantitative finance. The Monte Carlo (MC) method remains the prevalent choice for pricing engines; however, its slow convergence rate impedes its practical application. Fourier methods leverage the knowledge of the characteristic function to accurately and rapidly value options with up to two assets. Nevertheless, they face hurdles in the high-dimensional settings due to the tensor product (TP) structure of commonly employed quadrature techniques. This work advocates using the randomized quasi-MC (RQMC) quadrature to improve the scalability of Fourier methods with high dimensions. The RQMC technique benefits from the smoothness of the integrand and alleviates the curse of dimensionality while providing practical error estimates. Nonetheless, the applicability of RQMC on the unbounded domain, $\mathbb{R}^d$, requires a domain transformation to $[0,1]^d$, which may r
-    
-[^2]: 生成AI中的偏见
-
-    Bias in Generative AI
-
-    [https://arxiv.org/abs/2403.02726](https://arxiv.org/abs/2403.02726)
-
-    本研究揭示了生成AI工具中存在的系统性性别和种族偏见，以及对面部表情和外表的微妙偏见。
+    本文研究了具有共同噪声的风险敏感均场博弈模型，并应用于银行间市场，发现代理商的风险规避行为降低了个别违约和系统性风险的概率，增强了金融系统的弹性。
 
     
 
-    本研究分析了三种流行的生成人工智能（AI）工具（Midjourney，Stable Diffusion和DALLE 2）生成的代表各种职业的图像，以调查AI生成器中潜在的偏见。我们的分析揭示了这些AI生成器存在的两个主要关注领域，包括（1）系统性的性别和种族偏见，以及（2）对面部表情和外表的微妙偏见。首先，我们发现这三种AI生成器都存在对女性和非裔美国人的偏见。此外，我们发现，我们分析中揭示的明显的性别和种族偏见，与劳动力统计数据或Google图像相比，甚至更加显著，加剧了社会中我们正在积极努力纠正的有害偏见。其次，我们的研究揭示了在表现情绪和外表方面更加微妙的偏见。例如，女性被描绘为年轻且更多地微笑。
+    在本文中，我们研究了具有共同噪声的线性二次高斯（LQG）风险敏感均场博弈（MFGs）。在这个框架中，代理商暴露于共同噪声，并旨在最小化反映其风险敏感性的指数成本功能。我们利用凸分析方法推导代理商在代理数趋于无穷大时的最优策略。这些策略为极限模型提供了纳什均衡。然后，该模型应用于银行间市场，重点是优化借贷活动，评估当储备低于临界阈值时系统和个别银行风险。我们运用福克-普朗克方程和第一碰撞时间方法来制定银行或市场违约的总体概率。我们观察到代理商的风险规避行为降低了个别违约和系统性风险的概率，增强了金融系统的弹性。
 
-    arXiv:2403.02726v1 Announce Type: cross  Abstract: This study analyzed images generated by three popular generative artificial intelligence (AI) tools - Midjourney, Stable Diffusion, and DALLE 2 - representing various occupations to investigate potential bias in AI generators. Our analysis revealed two overarching areas of concern in these AI generators, including (1) systematic gender and racial biases, and (2) subtle biases in facial expressions and appearances. Firstly, we found that all three AI generators exhibited bias against women and African Americans. Moreover, we found that the evident gender and racial biases uncovered in our analysis were even more pronounced than the status quo when compared to labor force statistics or Google images, intensifying the harmful biases we are actively striving to rectify in our society. Secondly, our study uncovered more nuanced prejudices in the portrayal of emotions and appearances. For example, women were depicted as younger with more smi
+    arXiv:2403.03915v1 Announce Type: cross  Abstract: In this paper, we address linear-quadratic-Gaussian (LQG) risk-sensitive mean field games (MFGs) with common noise. In this framework agents are exposed to a common noise and aim to minimize an exponential cost functional that reflects their risk sensitivity. We leverage the convex analysis method to derive the optimal strategies of agents in the limit as the number of agents goes to infinity. These strategies yield a Nash equilibrium for the limiting model. The model is then applied to interbank markets, focusing on optimizing lending and borrowing activities to assess systemic and individual bank risks when reserves drop below a critical threshold. We employ Fokker-Planck equations and the first hitting time method to formulate the overall probability of a bank or market default. We observe that the risk-averse behavior of agents reduces the probability of individual defaults and systemic risk, enhancing the resilience of the financi
     
-[^3]: 在具有状态依赖性随机订单流的限价订单簿中计算成交概率
+[^2]: 一种解决信用违约预测问题的机器学习工作流程
 
-    Fill Probabilities in a Limit Order Book with State-Dependent Stochastic Order Flows
+    A machine learning workflow to address credit default prediction
 
-    [https://arxiv.org/abs/2403.02572](https://arxiv.org/abs/2403.02572)
+    [https://arxiv.org/abs/2403.03785](https://arxiv.org/abs/2403.03785)
 
-    本文致力于在限价订单簿中计算各价位上限价订单的成交概率，采用了通用的随机模型以及推导了半解析表达式，旨在优化交易执行效果。
-
-    
-
-    本文旨在计算限价订单簿中各价位上限价订单的成交概率，这对优化交易至关重要。我们采用一个通用的随机模型来捕捉订单簿的动态，将其视为一系列排队系统。这一通用模型具有状态依赖性，并且还纳入了风格化因素。我们随后推导半解析表达式，以计算与状态依赖性随机订单流相关的概率。这些概率涵盖了各种场景，包括中间价格变化的概率、以最佳报价和深于订单簿中最佳报价的价格水平上发布订单的成交概率等。这些表达式可以进一步推广，以适应发布在订单簿深处的订单，尽管相应的概率是截断的。
-
-    arXiv:2403.02572v1 Announce Type: new  Abstract: This paper focuses on computing the fill probabilities for limit orders positioned at various price levels within the limit order book, which play a crucial role in optimizing executions. We adopt a generic stochastic model to capture the dynamics of the order book as a series of queueing systems. This generic model is state-dependent and also incorporates stylized factors. We subsequently derive semi-analytical expressions to compute the relevant probabilities within the context of state-dependent stochastic order flows. These probabilities cover various scenarios, including the probability of a change in the mid-price, the fill probabilities of orders posted at the best quotes, and those posted at a price level deeper than the best quotes in the book, before the opposite best quote moves. These expressions can be further generalized to accommodate orders posted even deeper in the order book, although the associated probabilities are ty
-    
-[^4]: COVID-19对孟加拉国汇率波动的影响：基于GARCH模型的证据
-
-    Impact of COVID-19 on Exchange rate volatility of Bangladesh: Evidence through GARCH model
-
-    [https://arxiv.org/abs/2403.02560](https://arxiv.org/abs/2403.02560)
-
-    COVID-19病例数量的增加对孟加拉国BDT兑USD、BDT兑JPY和BDT兑SEK汇率波动产生了显著正向影响
+    提出了一种基于工作流程的机器学习方法，用于改进信用违约预测，旨在评估借款人违约信用义务概率，利用多种技术优势解决该任务。
 
     
 
-    这项研究利用GARCH(1,1)模型，研究COVID-19病例数量（对数值）对孟加拉塔卡（BDT）兑美元（USD）、日元（JPY）和瑞典克朗（SEK）汇率回报波动的影响。结果表明，孟加拉国COVID-19病例数量增加对BDT/USD、BDT/JPY和BDT/SEK汇率的波动有显著正向影响。
+    由于近年来对金融科技（FinTech）的兴趣持续增加，像信用违约预测（CDP）这样的应用正受到重视。在这方面，CDP在评估个人和企业的信用价值方面发挥着至关重要的作用，使贷款人能够就贷款批准和风险管理做出明智决策。在本文中，我们提出了一个基于工作流程的方法来改进CDP，这指的是评估借款人违约其信用义务的概率的任务。该工作流程由多个步骤组成，每个步骤旨在利用机器学习管道中不同技术的优势，从而最好地解决CDP任务。我们采用了一种全面系统的方法，从使用WOE（Weight of Evidence）编码进行数据预处理开始，这是一种确保在一次性数据缩放中剔除异常值、处理缺失值的技术。
 
-    arXiv:2403.02560v1 Announce Type: new  Abstract: This study uses the GARCH (1,1) model to examine the impact of COVID-19 cases (log value) on the volatility of the Exchange rate return of Bangladeshi taka (BDT) over the US dollar (USD), Japanese Yen (JPY), and Swedish Krona (SEK). The result shows that an increase in the number of COVID-19-affected cases in Bangladesh has a significant and positive impact on the volatility of exchange rates BDT/USD, BDT/JPY, and BDT/SEK.
+    arXiv:2403.03785v1 Announce Type: cross  Abstract: Due to the recent increase in interest in Financial Technology (FinTech), applications like credit default prediction (CDP) are gaining significant industrial and academic attention. In this regard, CDP plays a crucial role in assessing the creditworthiness of individuals and businesses, enabling lenders to make informed decisions regarding loan approvals and risk management. In this paper, we propose a workflow-based approach to improve CDP, which refers to the task of assessing the probability that a borrower will default on his or her credit obligations. The workflow consists of multiple steps, each designed to leverage the strengths of different techniques featured in machine learning pipelines and, thus best solve the CDP task. We employ a comprehensive and systematic approach starting with data preprocessing using Weight of Evidence encoding, a technique that ensures in a single-shot data scaling by removing outliers, handling mi
     
-[^5]: 变压器用于时间序列：以S&P500为例
+[^3]: 揭露的成本
 
-    Transformer for Times Series: an Application to the S&P500
+    The Cost of Coming Out
 
-    [https://arxiv.org/abs/2403.02523](https://arxiv.org/abs/2403.02523)
+    [https://arxiv.org/abs/2403.03649](https://arxiv.org/abs/2403.03649)
 
-    本文探讨了将Transformer模型应用于金融时间序列预测中的可行性，并展示了在合成和真实数据集上的一些鼓舞人心的结果。
-
-    
-
-    变压器模型已被广泛应用于许多机器学习领域，包括大型语言模型和图像生成等，本文探讨了将这种方法应用于金融时间序列的可能性。我们首先介绍了两种典型情况下的数据集构造：一种是均值回归的合成Ornstein-Uhlenbeck过程，另一种是真实的S&P500数据。然后，我们详细介绍了提出的Transformer架构，最后讨论了一些令人鼓舞的结果。对于合成数据，我们能够相当准确地预测下一步的走势，而对于S&P500，我们得到了一些与二次变动和波动率预测相关的有趣结果。
-
-    arXiv:2403.02523v1 Announce Type: new  Abstract: The transformer models have been extensively used with good results in a wide area of machine learning applications including Large Language Models and image generation. Here, we inquire on the applicability of this approach to financial time series. We first describe the dataset construction for two prototypical situations: a mean reverting synthetic Ornstein-Uhlenbeck process on one hand and real S&P500 data on the other hand. Then, we present in detail the proposed Transformer architecture and finally we discuss some encouraging results. For the synthetic data we predict rather accurately the next move, and for the S&P500 we get some interesting results related to quadratic variation and volatility prediction.
-    
-[^6]: 基于变分递归自编码器的动态因子模型用于股票收益预测
-
-    RVRAE: A Dynamic Factor Model Based on Variational Recurrent Autoencoder for Stock Returns Prediction
-
-    [https://arxiv.org/abs/2403.02500](https://arxiv.org/abs/2403.02500)
-
-    RVRAE是一种动态因子模型，利用变分递归自编码器，结合先验-后验学习方法，解决了市场数据中的时间依赖性和噪声问题，擅长风险调整。
+    通过在线视频游戏中的创新数据和自然实验，研究揭露性取向对玩家偏好的影响。
 
     
 
-    近年来，动态因子模型作为经济学和金融领域的主要工具崭露头角，特别适用于投资策略。相比传统的静态因子模型，该模型在处理复杂、非线性和嘈杂的市场情况方面有所改进。机器学习的进步，特别是在处理非线性数据方面，进一步增强了资产定价方法。本文介绍了一种开创性的动态因子模型，名为RVRAE。该模型是一种概率方法，解决了市场数据中的时间依赖性和噪声问题。RVRAE巧妙地将动态因子建模原理与深度学习中的变分递归自编码器（VRAE）相结合。RVRAE的一个关键特点是其使用先验-后验学习方法。该方法通过寻找受未来数据启发的最佳后验因子模型，微调模型的学习过程。值得注意的是，RVRAE擅长风险调整。
+    社会污名和歧视的恐惧导致全球许多个体在公开披露其性取向时犹豫不决。鉴于隐瞒身份的巨大代价，理解反对LGB情绪的程度和对出柜的反应至关重要。然而，披露自己的性取向是个人选择，使得数据获取复杂化并引入内生性问题。本文通过使用一种创新的数据源（一个热门在线视频游戏）和一个自然实验来解决这些挑战。我们利用可玩角色身份的外生变化来识别出披露对玩家对该角色的已显露偏好的影响。借助详细的日常数据，我们监测玩家在全球各地对角色的偏好，并采用合成控制方法来分离披露对玩家偏好的影响。我们的研究发现了一个显著
 
-    arXiv:2403.02500v1 Announce Type: cross  Abstract: In recent years, the dynamic factor model has emerged as a dominant tool in economics and finance, particularly for investment strategies. This model offers improved handling of complex, nonlinear, and noisy market conditions compared to traditional static factor models. The advancement of machine learning, especially in dealing with nonlinear data, has further enhanced asset pricing methodologies. This paper introduces a groundbreaking dynamic factor model named RVRAE. This model is a probabilistic approach that addresses the temporal dependencies and noise in market data. RVRAE ingeniously combines the principles of dynamic factor modeling with the variational recurrent autoencoder (VRAE) from deep learning. A key feature of RVRAE is its use of a prior-posterior learning method. This method fine-tunes the model's learning process by seeking an optimal posterior factor model informed by future data. Notably, RVRAE is adept at risk mod
+    arXiv:2403.03649v1 Announce Type: new  Abstract: The fear of social stigma and discrimination leads many individuals worldwide to hesitate in openly disclosing their sexual orientation. Due to the large costs of concealing identity, it is crucial to understand the extent of anti-LGB sentiments and reactions to coming out. However, disclosing one's sexual orientation is a personal choice, complicating data access and introducing endogeneity issues. This paper tackles these challenges by using an innovative data source from a popular online video game together with a natural experiment. We exploit exogenous variation in the identity of a playable character to identify the effects of disclosure on players' revealed preferences for that character. Leveraging detailed daily data, we monitor players' preferences for the character across diverse regions globally and employ synthetic control methods to isolate the effect of the disclosure on players' preferences. Our findings reveal a substant
     
-[^7]: 临界无序钉扎测度
+[^4]: 使用双重隐私框架理解在线广告中消费者对不同公司实践下的知觉隐私侵犯
 
-    The critical disordered pinning measure
+    Using the Dual-Privacy Framework to Understand Consumers' Perceived Privacy Violations Under Different Firm Practices in Online Advertising
 
-    [https://arxiv.org/abs/2402.17642](https://arxiv.org/abs/2402.17642)
+    [https://arxiv.org/abs/2403.03612](https://arxiv.org/abs/2403.03612)
 
-    论文研究了一个由随机游走引起的无序钉扎模型，发现在临界区间内点对点的分区函数收敛到一种唯一的极限随机测度，并命名为临界无序钉扎测度。
-
-    
-
-    在这篇论文中，我们研究了一个由随机游走引起的无序钉扎模型，其增量具有有限的四阶矩和消失的一阶和三阶矩。已知该模型是临界相关的，并且在中等随机性区域中会发生相变。我们展示，在临界区间内，点对点的分区函数收敛到一个唯一的极限随机测度，我们称之为临界无序钉扎测度。我们还为钉扎模型的连续对应物获得了类似的结果，该连续对应物与另外两个模型密切相关：一个是导致粗糙波动率模型的临界随机Volterra方程，另一个是具有乘性噪声的临界随机热方程，其在时间上是白色的，在空间上是δ函数。
-
-    arXiv:2402.17642v1 Announce Type: cross  Abstract: In this paper, we study a disordered pinning model induced by a random walk whose increments have a finite fourth moment and vanishing first and third moments. It is known that this model is marginally relevant, and moreover, it undergoes a phase transition in an intermediate disorder regime. We show that, in the critical window, the point-to-point partition functions converge to a unique limiting random measure, which we call the critical disordered pinning measure. We also obtain an analogous result for a continuous counterpart to the pinning model, which is closely related to two other models: one is a critical stochastic Volterra equation that gives rise to a rough volatility model, and the other is a critical stochastic heat equation with multiplicative noise that is white in time and delta in space.
-    
-[^8]: 论指数市场模型中隐含波动性的短期行为
-
-    On short-time behavior of implied volatility in a market model with indexes
-
-    [https://arxiv.org/abs/2402.16509](https://arxiv.org/abs/2402.16509)
-
-    本文研究了在使用排名程序构建指数的市场模型中，衍生品的隐含波动性的短期行为，并提出了可以调和两个看似矛盾特征的模型，同时捕捉了一种新现象称为准爆炸现象。
+    使用双重隐私框架研究在线广告中消费者对不同公司实践下的知觉隐私侵犯，发现不同广告实践中数据流动和消费者跟踪方式的差异会导致不同程度的隐私侵犯感受。
 
     
 
-    本文研究了在使用排名程序构建指数的市场模型中，衍生品的隐含波动性的短期行为。即使在股价遵循几何布朗运动动态的简单市场设置中，排名机制也可以产生股票指数的平价隐含波动性倾斜的观察期限结构。我们提出的模型展示了调和于权益市场实证数据中发现的两个看似矛盾特征的能力：波动性的长期记忆和平价倾斜的幂律。此外，模型还允许捕捉一种称为准爆炸现象的新现象。
+    针对收集和使用个人数据的隐私问题，在线广告行业一直在开发隐私增强技术（PETs），例如谷歌的隐私沙箱计划。本研究利用双重隐私框架来理解消费者对当前和提议的在线广告实践的知觉隐私侵犯（PPVs）。关键思路是，不同实践在个体数据是否离开消费者的设备以及如何跟踪和定位消费者上存在差异；这些不同影响隐私偏好的内在和工具组成部分，在不同实践下导致不同的PPVs。我们进行了针对美国消费者的在线研究，以获取不同广告实践中的PPVs。我们的发现证实了跟踪...
 
-    arXiv:2402.16509v1 Announce Type: new  Abstract: This paper investigates short-term behaviors of implied volatility of derivatives written on indexes in equity markets when the index processes are constructed by using a ranking procedure. Even in simple market settings where stock prices follow geometric Brownian motion dynamics, the ranking mechanism can produce the observed term structure of at-the-money (ATM) implied volatility skew for equity indexes. Our proposed models showcase the ability to reconcile two seemingly contradictory features found in empirical data from equity markets: the long memory of volatilities and the power law of ATM skews. Furthermore, the models allow for the capture of a novel phenomenon termed the quasi-blow-up phenomenon.
+    arXiv:2403.03612v1 Announce Type: new  Abstract: In response to privacy concerns about collecting and using personal data, the online advertising industry has been developing privacy-enhancing technologies (PETs), e.g., under Google's Privacy Sandbox initiative. In this research, we use the dual-privacy framework, which postulates that consumers have intrinsic and instrumental preferences for privacy, to understand consumers' perceived privacy violations (PPVs) for current and proposed online advertising practices. The key idea is that different practices differ in whether individual data leaves the consumer's machine or not and in how they track and target consumers; these affect, respectively, the intrinsic and instrumental components of privacy preferences differently, leading to different PPVs for different practices. We conducted online studies focused on consumers in the United States to elicit PPVs for various advertising practices. Our findings confirm the intuition that tracki
     
-[^9]: 网络风险与股票收益的横截面
+[^5]: 为隐私买单：付费或追踪墙
 
-    Cyber risk and the cross-section of stock returns
+    Paying for Privacy: Pay-or-Tracking Walls
 
-    [https://arxiv.org/abs/2402.04775](https://arxiv.org/abs/2402.04775)
+    [https://arxiv.org/abs/2403.03610](https://arxiv.org/abs/2403.03610)
 
-    该研究通过机器学习算法量化了公司的网络风险，并发现高风险股票组合可以获得超额收益。此外，网络风险因子是定价股票收益横截面的关键特征。
-
-    
-
-    我们使用机器学习算法提取公司的网络风险，通过衡量其公告与专门的网络语料库之间的关联程度。我们的方法在字典方法上表现出色，使用的是完整的公告而不仅仅是专门的部分，并生成一个与其他公司特征不相关的网络风险度量。我们发现，在高网络风险分位数中的美国上市股票组合产生了18.72％的超额收益。此外，长-短网络风险组合具有显着且正的风险溢价，为6.93％，对所有因子基准都具有鲁棒性。最后，使用贝叶斯资产定价方法，我们表明我们的网络风险因子是使任何多因子模型能够定价股票收益横截面的关键特征。
-
-    We extract firms' cyber risk with a machine learning algorithm measuring the proximity between their disclosures and a dedicated cyber corpus. Our approach outperforms dictionary methods, uses full disclosure and not devoted-only sections, and generates a cyber risk measure uncorrelated with other firms' characteristics. We find that a portfolio of US-listed stocks in the high cyber risk quantile generates an excess return of 18.72\% p.a. Moreover, a long-short cyber risk portfolio has a significant and positive risk premium of 6.93\% p.a., robust to all factors' benchmarks. Finally, using a Bayesian asset pricing method, we show that our cyber risk factor is the essential feature that allows any multi-factor model to price the cross-section of stock returns.
-    
-[^10]: 医疗账单冲击与不完全道德风险
-
-    Medical Bill Shock and Imperfect Moral Hazard
-
-    [https://arxiv.org/abs/2211.01116](https://arxiv.org/abs/2211.01116)
-
-    研究发现医疗账单的到来为家庭溢出支出带来冲击，但其效应可以帮助消费者解决价格不确定性，纠正价格信号误解后降低了支出水平。
+    该论文研究了付费或追踪墙的现状，发现一些顶级欧盟出版商采用这种方式。他们的实施方式多样，包括将付费选项与无广告访问或额外内容捆绑。此外，不被追踪的价格超过了从同意被追踪用户那里获得的广告收入。
 
     
 
-    消费者在接受医疗服务时对医疗价格敏感，但价格信息的延迟可能扭曲道德风险。我们研究了医疗账单如何影响家庭在利用医疗服务后的溢出支出，利用保险索赔处理时间的变化。家庭在预定服务后支出增加了22\%，但在账单到达后支出减少了11%。观察到的账单效应与解决价格不确定性一致；账单效应在定价信息特别引人注目时最为显著。一种有关医疗保健需求的模型提出，家庭在账单到来之前错误理解了价格信号，并且纠正这些看法将使平均（中位数）支出每年减少16\%（7\%）。
+    一些知名新闻出版商，最近甚至包括 Meta，开始要求用户为隐私付费。具体地说，用户会收到一个称为付费或追踪墙的通知横幅，要求他们（i）支付费用以避免被跟踪或（ii）同意被跟踪。这些墙引发了人们对隐私可能成为一种奢侈品的担忧。然而，对于付费或追踪墙知之甚少，这阻碍了对它们是否适当的深入讨论。本文进行了几项实证研究，发现顶级欧盟出版商使用付费或追踪墙。他们的实施涉及各种方法，包括将付费选项与无广告访问或额外内容捆绑在一起。不被跟踪的价格超过了出版商从同意被跟踪的用户所获得的广告收入。值得注意的是，在实施付费或追踪墙后，出版商的流量并未下降，大多数用
 
-    arXiv:2211.01116v2 Announce Type: replace  Abstract: Consumers are sensitive to medical prices when consuming care, but delays in price information may distort moral hazard. We study how medical bills affect household spillover spending following utilization, leveraging variation in insurer claim processing times. Households increase spending by 22\% after a scheduled service, but then reduce spending by 11\% after the bill arrives. Observed bill effects are consistent with resolving price uncertainty; bill effects are strongest when pricing information is particularly salient. A model of demand for healthcare with delayed pricing information suggests households misperceive pricing signals prior to bills, and that correcting these perceptions reduce average (median) spending by 16\% (7\%) annually.
+    arXiv:2403.03610v1 Announce Type: new  Abstract: Prestigious news publishers, and more recently, Meta, have begun to request that users pay for privacy. Specifically, users receive a notification banner, referred to as a pay-or-tracking wall, that requires them to (i) pay money to avoid being tracked or (ii) consent to being tracked. These walls have invited concerns that privacy might become a luxury. However, little is known about pay-or-tracking walls, which prevents a meaningful discussion about their appropriateness. This paper conducts several empirical studies and finds that top EU publishers use pay-or-tracking walls. Their implementations involve various approaches, including bundling the pay option with advertising-free access or additional content. The price for not being tracked exceeds the advertising revenue that publishers generate from a user who consents to being tracked. Notably, publishers' traffic does not decline when implementing a pay-or-tracking wall and most us
     
-[^11]: 针对面板数据设计强鲁棒性的双向固定效应回归
+[^6]: 通过Transformer神经网络和技术指标提升加密货币价格预测
 
-    Design-Robust Two-Way-Fixed-Effects Regression For Panel Data
+    Enhancing Price Prediction in Cryptocurrency Using Transformer Neural Network and Technical Indicators
 
-    [https://arxiv.org/abs/2107.13737](https://arxiv.org/abs/2107.13737)
+    [https://arxiv.org/abs/2403.03606](https://arxiv.org/abs/2403.03606)
 
-    我们提出了一种针对面板数据的新估计器，通过在双向固定效应规范中引入基于模型的单位特定权重，实现平均因果效应的稳健估计。相比于传统的双向固定效应估计器，我们的方法在处理分配机制或双向回归模型任一正确规格化的情况下表现更为稳健。
-
-    
-
-    我们提出了一种在具有一般处理模式的面板数据中用于二元处理的平均因果效应的新估计量。我们的方法通过从分配机制模型中得出的单位特定权重来增强流行的双向固定效应规范。我们展示了如何在不同设置下构建这些权重，包括阶段性采用设置，其中单位按顺序但永久地选择进入处理。结果估计量在正确规格化分配模型的情况下收敛到单位和时间的平均处理效应，即使固定效应模型被错误规格化。我们表明，我们的估计量比传统的双向估计量更具鲁棒性：如果分配机制或双向回归模型中的任一项被正确规格化，估计量仍然保持一致。此外，如果结果
-
-    arXiv:2107.13737v3 Announce Type: replace  Abstract: We propose a new estimator for average causal effects of a binary treatment with panel data in settings with general treatment patterns. Our approach augments the popular two-way-fixed-effects specification with unit-specific weights that arise from a model for the assignment mechanism. We show how to construct these weights in various settings, including the staggered adoption setting, where units opt into the treatment sequentially but permanently. The resulting estimator converges to an average (over units and time) treatment effect under the correct specification of the assignment model, even if the fixed effect model is misspecified. We show that our estimator is more robust than the conventional two-way estimator: it remains consistent if either the assignment mechanism or the two-way regression model is correctly specified. In addition, the proposed estimator performs better than the two-way-fixed-effect estimator if the outco
-    
-[^12]: 伊斯兰法，西欧法和中东长期分歧的根源：一个比较实证研究（800-1600年）
-
-    Islamic Law, Western European Law and the Roots of Middle East's Long Divergence: a Comparative Empirical Investigation (800-1600). (arXiv:2401.14435v1 [econ.GN])
-
-    [http://arxiv.org/abs/2401.14435](http://arxiv.org/abs/2401.14435)
-
-    该研究通过比较实证研究探讨了伊斯兰法律制度对中东与欧洲经济分歧的影响。研究发现，在伊斯兰法律神圣化之前，高密度的法学院与更加充满活力的城市经济和更高的城市增长相关。
+    该研究提出了通过引入Transformer神经网络和技术指标来提升加密货币价格预测的方法，该方法对于捕获时间动态和提取重要特征具有显著的优势
 
     
 
-    我们研究伊斯兰法律制度对中东与拉丁欧洲之间比较经济衰退的影响，这可以从中世纪后期开始观察。为此，我们探讨了伊斯兰法律的神圣化以及其对伊斯兰教法的崇高、神圣和不可改变的法律文本的关注，这在13世纪达到顶峰，对经济发展产生了影响。我们使用145个伊斯兰国家的城市人口和648个欧洲城市的数据作为经济发展水平的代理，并构建了关于法学院（madaris）数量的新估计，并估计它们对前工业时期经济发展的贡献。我们的三重差分估计结果表明，在伊斯兰法律神圣化之前，法学院的高密度与更加充满活力的城市经济和更高的城市增长相关。在13世纪伊斯兰教法神圣化巩固之后，更高密度的法学院不再对城市发展产生显著影响。
+    本研究提出了一种创新的方法，用于预测加密货币时间序列，特别关注比特币、以太坊和莱特币。该方法整合了技术指标、Performer神经网络和BiLSTM（双向长短期记忆网络）来捕获时间动态并从原始加密货币数据中提取重要特征。技术指标的应用有助于提取复杂模式、动量、波动性和趋势。Performer神经网络使用快速关注正交随机特征（FAVOR+）相对于传统的Transformer模型中的多头注意力机制，展现出更优越的计算效率和可伸缩性。此外，将BiLSTM集成到前馈网络中增强了模型捕获数据时间动态的能力，向前和向后两个方向进行处理。
 
-    We examine the impact of Islamic legal institutions to the comparative economic decline of the Middle East behind Latin Europe, which can be observed since the late Middle Ages. To this end, we explore whether the sacralization of Islamic law and its focus on the Sharia as supreme, sacred and unchangeable legal text, which reached its culmination in the 13th century had an impact on economic development. We use the population size of 145 cities in Islamic countries and 648 European cities for the period 800-1800 as proxies for the level of economic development, and construct novel estimates of the number of law schools (i.e. madaris) and estimate their contribution to the pre-industrial economic development. Our triple-differences estimates show that a higher density of madrasas before the sacralization of Islamic law predicts a more vibrant urban economy characterized by higher urban growth. After the consolidation of the sharia sacralization of law in the 13th century, greater densit
+    arXiv:2403.03606v1 Announce Type: cross  Abstract: This study presents an innovative approach for predicting cryptocurrency time series, specifically focusing on Bitcoin, Ethereum, and Litecoin. The methodology integrates the use of technical indicators, a Performer neural network, and BiLSTM (Bidirectional Long Short-Term Memory) to capture temporal dynamics and extract significant features from raw cryptocurrency data. The application of technical indicators, such facilitates the extraction of intricate patterns, momentum, volatility, and trends. The Performer neural network, employing Fast Attention Via positive Orthogonal Random features (FAVOR+), has demonstrated superior computational efficiency and scalability compared to the traditional Multi-head attention mechanism in Transformer models. Additionally, the integration of BiLSTM in the feedforward network enhances the model's capacity to capture temporal dynamics in the data, processing it in both forward and backward direction
     
-[^13]: 带有签名的统计套利中的最优入场和退出策略
+[^7]: 学术出版中的“必备存货”挑战：转型协议的定价影响
 
-    Optimal Entry and Exit with Signature in Statistical Arbitrage. (arXiv:2309.16008v1 [q-fin.CP])
+    The 'Must Stock' Challenge in Academic Publishing: Pricing Implications of Transformative Agreements
 
-    [http://arxiv.org/abs/2309.16008](http://arxiv.org/abs/2309.16008)
+    [https://arxiv.org/abs/2403.03597](https://arxiv.org/abs/2403.03597)
 
-    本文提出了一种新的统计套利交易策略，通过解决顺序最优停止问题，揭示了最优入场和退出时机，从而最大化收益。数值结果表明该策略在各种情景下的表现优于传统均值回复交易规则。
+    转型协议如“发布和阅读”方案将为期刊出版商带来好处，无论其期刊中的发表数量增长还是下降，可能会提高新参与者的准入壁垞。
 
     
 
-    本文探讨了一种适用于展现均值回复特性的价格差的交易的最优时机策略。我们制定了一个顺序最优停止问题，分析了在考虑交易成本影响的情况下，进入和随后清算仓位的最优时机。我们的方法利用了签名最优停止方法来解决这个顺序最优停止问题，从而揭示了最大化收益的确切入场和退出时机。我们的框架适应了广泛的均值回复动力学，适用于各种情景。我们提供了数值结果来证明与传统均值回复交易规则相比其卓越的表现。
+    顶尖学术期刊的高度相关性使它们成为“必备存货”产品，赋予其通常是商业所有者的非凡市场力量。 为了解决这个问题，全球各地的大学联盟与许多出版社谈判所谓的“转型协议”。 这将为标准开放获取出版打开道路。 尽管存在几种合同设计，但“发布和阅读”（PAR）方案是最接近完全开放获取环境理想的方案：出版商会为每篇发表支付固定的按案例收费，其中包括对其丰富的图书馆收费。 反过来，所有订阅费用都将被免除。 我从理论上推导出，无论这些出版商的期刊中的发表数量增长还是下降，这种合同设计都有利于包括的出版商。 因此，广泛使用PAR合同很可能会提高新参与者的准入壁垒。
 
-    In this paper, we explore an optimal timing strategy for the trading of price spreads exhibiting mean-reverting characteristics. A sequential optimal stopping problem is formulated to analyze the optimal timings for both entering and subsequently liquidating positions, all while considering the impact of transaction costs. Our approach leverages the signature optimal stopping method to resolve this sequential optimal stopping problem, thereby unveiling the precise entry and exit timings that maximize gains. Our framework accommodates a wide range of mean reversion dynamics, offering adaptability to diverse scenarios. Numerical results are provided to demonstrate its superior performance when comparing with conventional mean reversion trading rules.
+    arXiv:2403.03597v1 Announce Type: new  Abstract: The high relevance of top-notch academic journals turns them into 'must stock' products that assign its often commercial owners with extraordinary market power. Intended to tackle this, university consortia around the globe negotiate so-called 'transformative agreements' with many publishing houses. It shall pave the way towards standard open-access publishing. While several contract designs exist, the 'publish-and-read' (PAR) scheme is the one that comes closest to the ideal of an entirely open access environment: Publishers are paid a fixed case-by-case rate for each publication, which includes a fee for their extensive libraries. In turn, all subscription payments are waived. I theoretically derive that this contract design benefits the included publishers regardless of whether the number of publications in these publishers' journals grows or declines. Consequently, widespread PAR contracts are likely to raise entry barriers for new (
     
-[^14]: 持不同意见：测量FOMC会议中的隐藏异议
+[^8]: 使用LSTM、SVM和多项式回归预测加密货币价格
+
+    Prediction Of Cryptocurrency Prices Using LSTM, SVM And Polynomial Regression
+
+    [https://arxiv.org/abs/2403.03410](https://arxiv.org/abs/2403.03410)
+
+    该论文使用LSTM、SVM和多项式回归算法对加密货币价格进行预测，通过性能比较来确定最佳算法模型
+
+    
+
+    arXiv:2403.03410v1 公告类型: 新的 摘要: 信息技术的快速发展，特别是互联网，为用户提供了一种快速简便的获取信息的方式。随着互联网服务带来的便利，许多最初投资于黄金和贵金属的个人现在正在转向数字货币的数字投资。然而，投资加密货币充满了不确定性，并且每天都存在波动。这种风险给拥有硬币的投资者带来了重大挑战，可能导致巨额投资损失。这些加密货币的价值不确定性是硬币投资领域的一个重要问题。预测是用于预测这些加密货币未来价值的方法之一。通过利用长短期记忆模型、支持向量机和多项式回归算法进行预测，进行绩效比较以确定哪种算法模型最为有效
+
+    arXiv:2403.03410v1 Announce Type: new  Abstract: The rapid development of information technology, especially the Internet, has facilitated users with a quick and easy way to seek information. With these convenience offered by internet services, many individuals who initially invested in gold and precious metals are now shifting into digital investments in form of cryptocurrencies. However, investments in crypto coins are filled with uncertainties and fluctuation in daily basis. This risk posed as significant challenges for coin investors that could result in substantial investment losses. The uncertainty of the value of these crypto coins is a critical issue in the field of coin investment. Forecasting, is one of the methods used to predict the future value of these crypto coins. By utilizing the models of Long Short Term Memory, Support Vector Machine, and Polynomial Regression algorithm for forecasting, a performance comparison is conducted to determine which algorithm model is most 
+    
+[^9]: am-AMM: 一个拍卖管理的自动做市商
+
+    am-AMM: An Auction-Managed Automated Market Maker
+
+    [https://arxiv.org/abs/2403.03367](https://arxiv.org/abs/2403.03367)
+
+    本文提出了一个针对AMMs两个重要未解决问题的单一机制：减少对有信息的订单流的损失，最大化对无信息的订单流的收益。
+
+    
+
+    自动做市商（AMMs）已成为区块链上去中心化交易所的主要市场机制。本文提出了一个针对AMMs两个重要未解决问题的单一机制：减少对有信息的订单流的损失，最大化对无信息的订单流的收益。这个“拍卖管理的AMM”通过在链上进行一次不受审查的拍卖，以临时行使“流动性池管理者”职能的权利。流动性池管理者设置池的交换费率，并从交换中获得的费用。流动性池管理者可以通过针对小价格波动而对冲流动性池来独占一些套利，并且可以设置交换费用，包括零售订单流的价格敏感性，并适应不断变化的市场条件，最终将两者的收益归结为流动性提供方。流动性提供方可以进入和退出池…
+
+    arXiv:2403.03367v1 Announce Type: new  Abstract: Automated market makers (AMMs) have emerged as the dominant market mechanism for trading on decentralized exchanges implemented on blockchains. This paper presents a single mechanism that targets two important unsolved problems for AMMs: reducing losses to informed orderflow, and maximizing revenue from uninformed orderflow. The "auction-managed AMM" works by running a censorship-resistant onchain auction for the right to temporarily act as "pool manager" for a constant-product AMM. The pool manager sets the swap fee rate on the pool, and also receives the accrued fees from swaps. The pool manager can exclusively capture some arbitrage by trading against the pool in response to small price movements, and also can set swap fees incorporating price sensitivity of retail orderflow and adapting to changing market conditions, with the benefits from both ultimately accruing to liquidity providers. Liquidity providers can enter and exit the poo
+    
+[^10]: 以太坊区块链上诈骗代币的经验分析：Uniswap上的假币
+
+    An Empirical Analysis of Scam Token on Ethereum Blockchain: Counterfeit tokens on Uniswap
+
+    [https://arxiv.org/abs/2402.19399](https://arxiv.org/abs/2402.19399)
+
+    该研究对Uniswap上的假币欺诈活动的收入与特征之间的关系进行了经验调查，并发现在欺诈的第一天总交易量显著增加，前期欺诈成本上升会导致收入增加，以及假币总收入与以太坊市值回报率的波动呈负相关。
+
+    
+
+    这篇文章对Uniswap上的假币所产生的总收入的决定因素进行了经验调查。文章详细介绍了假币欺诈过程，并系统总结了Uniswap上观察到的此类欺诈活动的特征。研究主要考察了来自假币欺诈的收入与其定义特征之间的关系，并分析了市场经济因素（如市值回报率和以太坊价格回报率）对其的影响。关键发现包括假币在欺诈第一天的总交易量显著增加，以及前期欺诈成本上升导致相应收入增加。此外，假币的总收入与以太坊市值回报率的波动呈负相关关系，而价格回报率波动呈现负相关。
+
+    arXiv:2402.19399v1 Announce Type: cross  Abstract: This article presents an empirical investigation into the determinants of total revenue generated by counterfeit tokens on Uniswap. It offers a detailed overview of the counterfeit token fraud process, along with a systematic summary of characteristics associated with such fraudulent activities observed in Uniswap. The study primarily examines the relationship between revenue from counterfeit token scams and their defining characteristics, and analyzes the influence of market economic factors such as return on market capitalization and price return on Ethereum. Key findings include a significant increase in overall transactions of counterfeit tokens on their first day of fraud, and a rise in upfront fraud costs leading to corresponding increases in revenue. Furthermore, a negative correlation is identified between the total revenue of counterfeit tokens and the volatility of Ethereum market capitalization return, while price return vol
+    
+[^11]: 随机投资组合理论中的签名方法
+
+    Signature Methods in Stochastic Portfolio Theory. (arXiv:2310.02322v1 [q-fin.MF])
+
+    [http://arxiv.org/abs/2310.02322](http://arxiv.org/abs/2310.02322)
+
+    线性路径函数投资组合是一种通用的投资组合类别，可以通过签名投资组合来一致逼近市场权重的连续、可能路径相关的投资组合函数，并在多类非马尔科夫市场模型中任意好地逼近增长最优投资组合。
+
+    
+
+    在随机投资组合理论的背景下，我们引入了一种新颖的投资组合类别，称之为线性路径函数投资组合。这些投资组合是由某些线性函数的转化所确定的特征映射的非预测路径函数的集合。我们以市场权重的签名(排名)作为这些特征映射的主要示例。我们证明了这些投资组合在某种意义上是通用的，即市场权重的连续、可能路径相关的投资组合函数可以通过签名投资组合进行一致逼近。我们还展示了签名投资组合在几类非马尔科夫市场模型中可以任意好地逼近增长最优投资组合，并通过数值实验说明，训练得到的签名投资组合与理论增长最优投资组合非常接近。除了这些通用性特征之外，主要的数值优势 lies in the fact th...
+
+    In the context of stochastic portfolio theory we introduce a novel class of portfolios which we call linear path-functional portfolios. These are portfolios which are determined by certain transformations of linear functions of a collections of feature maps that are non-anticipative path functionals of an underlying semimartingale. As main example for such feature maps we consider the signature of the (ranked) market weights. We prove that these portfolios are universal in the sense that every continuous, possibly path-dependent, portfolio function of the market weights can be uniformly approximated by signature portfolios. We also show that signature portfolios can approximate the growth-optimal portfolio in several classes of non-Markovian market models arbitrarily well and illustrate numerically that the trained signature portfolios are remarkably close to the theoretical growth-optimal portfolios. Besides these universality features, the main numerical advantage lies in the fact th
+    
+[^12]: 长期均方差优化在均值回归股票收益下的应用
+
+    Long-Term Mean-Variance Optimization Under Mean-Reverting Equity Returns. (arXiv:2309.07488v1 [q-fin.MF])
+
+    [http://arxiv.org/abs/2309.07488](http://arxiv.org/abs/2309.07488)
+
+    本文研究了长期均方差优化在均值回归股票收益下的应用，结果发现如果股票风险溢价缓慢回归，承诺长期确定性投资策略的投资者将实现更好的风险收益平衡。为求解该问题，应用了变分法原理，推导出了描述最优投资策略的欧拉-拉格朗日方程，问题等价于谱问题，可以得到最优策略的显式解。
+
+    
+
+    成为长期投资者已经成为支持投资更大风险资产的一个论据，但是尽管直观上具有吸引力，很少有人确切说明为什么资本市场会为长期投资者提供比其他投资者更好的机会。本文显示，如果实际上股票风险溢价是缓慢回归的，那么承诺长期确定性投资策略的投资者在均值方差优化中将实现更好的风险收益平衡比短期投资期限的投资者。众所周知，均值方差优化问题不能通过动态规划来求解。相反，应用变分法原理推导出了描述最优投资策略的欧拉-拉格朗日方程。主要结果是优化问题等价于谱问题，通过它可以得到最优投资策略的显式解。
+
+    Being a long-term investor has become an argument by itself to sustain larger allocations to risky assets, but - although intuitively appealing - it is rarely stated exactly why capital markets would provide a better opportunity set to investors with long investment horizons than to other investors. In this paper, it is shown that if in fact the equity risk-premium is slowly mean-reverting then an investor committing to a long-term deterministic investment strategy would realize a better risk-return trade-off in a mean-variance optimization than investors with shorter investment horizons. It is well known that the problem of mean-variance optimization cannot be solved by dynamic programming. Instead, the principle of Calculus of Variations is applied to derive an Euler-Lagrange equation characterizing the optimal investment strategy. It is a main result that the optimization problem is equivalent to a spectral problem by which explicit solutions to the optimal investment strategy can b
+    
+[^13]: 持不同意见：测量FOMC会议中的隐藏异议
 
     Agree to Disagree: Measuring Hidden Dissents in FOMC Meetings. (arXiv:2308.10131v1 [econ.GN])
 
@@ -214,5 +200,19 @@
     基于1976年至2017年的FOMC投票异议记录和会议记录，我们开发了一个基于自我关注模块的深度学习模型，用于确定每个成员在每个会议中的异议程度。虽然异议很少见，但我们发现成员们经常对政策决策持保留意见。异议程度主要由当前或预测的宏观经济数据驱动，成员的个人特征几乎不起作用。我们还利用模型评估会议之间成员的演讲，并发现它们所揭示的异议程度与随后的会议异议程度之间存在弱相关性。最后，我们发现每当货币政策行动更加激进时，异议程度会增加。
 
     Based on a record of dissents on FOMC votes and transcripts of the meetings from 1976 to 2017, we develop a deep learning model based on self-attention modules to create a measure of the level of disagreement for each member in each meeting. While dissents are rare, we find that members often have reservations with the policy decision. The level of disagreement is mostly driven by current or predicted macroeconomic data, and personal characteristics of the members play almost no role. We also use our model to evaluate speeches made by members between meetings, and we find a weak correlation between the level of disagreement revealed in them and that of the following meeting. Finally, we find that the level of disagreement increases whenever monetary policy action is more aggressive.
+    
+[^14]: 加密货币交易对的最优设置
+
+    Optimal Settings for Cryptocurrency Trading Pairs. (arXiv:2210.10971v2 [q-fin.TR] UPDATED)
+
+    [http://arxiv.org/abs/2210.10971](http://arxiv.org/abs/2210.10971)
+
+    本文研究了加密货币交易对的最优设置问题，并提出了一个两阶段过程来解决这个优化问题。该问题的特殊之处在于大部分可能的交易对之间的交易量无法直接观察，且需要满足连通性约束。
+
+    
+
+    加密货币的目标是去中心化，所有货币原则上地位相等。与传统股市不同，没有默认的货币单位（法币），因此可以自由设置交易对。然而，为每两种货币之间建立一个交易市场是不切实际的。为了控制管理成本并确保足够的流动性，我们必须优先考虑那些大量交易的交易对，并确保所有货币都是可以交易的。我们注意到这是一个优化问题，其特殊之处在于：1）大部分（>99.5%）可能的交易对之间的交易量无法直接观察。2）它满足连通性约束，即保证所有货币都可以交易。为了解决这个问题，我们采用了一个两阶段的过程：1）基于正则化的截断特征值分解填充缺失值，其中正则化项用于控制缺失值被限制为零的程度。
+
+    The goal of cryptocurrencies is decentralization. In principle, all currencies have equal status. Unlike traditional stock markets, there is no default currency of denomination (fiat), thus the trading pairs can be set freely. However, it is impractical to set up a trading market between every two currencies. In order to control management costs and ensure sufficient liquidity, we must give priority to covering those large-volume trading pairs and ensure that all coins are reachable. We note that this is an optimization problem. Its particularity lies in: 1) the trading volume between most (>99.5%) possible trading pairs cannot be directly observed. 2) It satisfies the connectivity constraint, that is, all currencies are guaranteed to be tradable.  To solve this problem, we use a two-stage process: 1) Fill in missing values based on a regularized, truncated eigenvalue decomposition, where the regularization term is used to control what extent missing values should be limited to zero. 2
     
 

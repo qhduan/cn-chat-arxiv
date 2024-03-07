@@ -1,0 +1,12 @@
+{
+    "title": "Consciousness qua Mortal Computation",
+    "abstract": "arXiv:2403.03925v1 Announce Type: cross  Abstract: Computational functionalism posits that consciousness is a computation. Here we show, perhaps surprisingly, that it cannot be a Turing computation. Rather, computational functionalism implies that consciousness is a novel type of computation that has recently been proposed by Geoffrey Hinton, called mortal computation.",
+    "link": "https://arxiv.org/abs/2403.03925",
+    "context": "Title: Consciousness qua Mortal Computation\nAbstract: arXiv:2403.03925v1 Announce Type: cross  Abstract: Computational functionalism posits that consciousness is a computation. Here we show, perhaps surprisingly, that it cannot be a Turing computation. Rather, computational functionalism implies that consciousness is a novel type of computation that has recently been proposed by Geoffrey Hinton, called mortal computation.",
+    "path": "papers/24/03/2403.03925.json",
+    "total_tokens": 475,
+    "translated_title": "意识作为有限计算",
+    "translated_abstract": "计算功能主义认为意识是一种计算。在这里，我们展示出，或许令人惊讶的是，它不能是图灵计算。相反，计算功能主义暗示着意识是一种新型计算，由Geoffrey Hinton最近提出，称为有限计算。",
+    "tldr": "意识被看作是一种新型的计算，称为有限计算，这与传统的图灵计算不同。",
+    "en_tdlr": "Consciousness is considered as a novel type of computation, termed mortal computation, which differs from traditional Turing computation."
+}

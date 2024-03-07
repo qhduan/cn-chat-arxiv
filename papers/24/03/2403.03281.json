@@ -1,0 +1,12 @@
+{
+    "title": "Credibility-Aware Multi-Modal Fusion Using Probabilistic Circuits",
+    "abstract": "arXiv:2403.03281v1 Announce Type: cross  Abstract: We consider the problem of late multi-modal fusion for discriminative learning. Motivated by noisy, multi-source domains that require understanding the reliability of each data source, we explore the notion of credibility in the context of multi-modal fusion. We propose a combination function that uses probabilistic circuits (PCs) to combine predictive distributions over individual modalities. We also define a probabilistic measure to evaluate the credibility of each modality via inference queries over the PC. Our experimental evaluation demonstrates that our fusion method can reliably infer credibility while maintaining competitive performance with the state-of-the-art.",
+    "link": "https://arxiv.org/abs/2403.03281",
+    "context": "Title: Credibility-Aware Multi-Modal Fusion Using Probabilistic Circuits\nAbstract: arXiv:2403.03281v1 Announce Type: cross  Abstract: We consider the problem of late multi-modal fusion for discriminative learning. Motivated by noisy, multi-source domains that require understanding the reliability of each data source, we explore the notion of credibility in the context of multi-modal fusion. We propose a combination function that uses probabilistic circuits (PCs) to combine predictive distributions over individual modalities. We also define a probabilistic measure to evaluate the credibility of each modality via inference queries over the PC. Our experimental evaluation demonstrates that our fusion method can reliably infer credibility while maintaining competitive performance with the state-of-the-art.",
+    "path": "papers/24/03/2403.03281.json",
+    "total_tokens": 674,
+    "translated_title": "使用概率电路进行可信度感知的多模态融合",
+    "translated_abstract": "我们考虑了针对辨别学习的迟到多模态融合问题。受到需要理解每个数据源可靠性的嘈杂的多源领域的启发，我们探讨了在多模态融合中的可信度概念。我们提出了一种使用概率电路（PCs）来结合个体模态上的预测分布的组合函数。我们还定义了一种概率度量来评估每个模态的可信度，通过PC上的推理查询。我们的实验评估表明，我们的融合方法能够可靠地推断可信度，并且与最先进技术保持竞争性能。",
+    "tldr": "提出了一种使用概率电路进行可信度感知的多模态融合方法，在维持竞争性能的同时能够可靠推断可信度。",
+    "en_tdlr": "Proposed a credibility-aware multi-modal fusion method using probabilistic circuits, capable of reliably inferring credibility while maintaining competitive performance."
+}

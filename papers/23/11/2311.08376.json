@@ -1,0 +1,12 @@
+{
+    "title": "Ensemble sampling for linear bandits: small ensembles suffice",
+    "abstract": "arXiv:2311.08376v2 Announce Type: replace-cross  Abstract: We provide the first useful and rigorous analysis of ensemble sampling for the stochastic linear bandit setting. In particular, we show that, under standard assumptions, for a $d$-dimensional stochastic linear bandit with an interaction horizon $T$, ensemble sampling with an ensemble of size of order $\\smash{d \\log T}$ incurs regret at most of the order $\\smash{(d \\log T)^{5/2} \\sqrt{T}}$. Ours is the first result in any structured setting not to require the size of the ensemble to scale linearly with $T$ -- which defeats the purpose of ensemble sampling -- while obtaining near $\\smash{\\sqrt{T}}$ order regret. Ours is also the first result that allows infinite action sets.",
+    "link": "https://arxiv.org/abs/2311.08376",
+    "context": "Title: Ensemble sampling for linear bandits: small ensembles suffice\nAbstract: arXiv:2311.08376v2 Announce Type: replace-cross  Abstract: We provide the first useful and rigorous analysis of ensemble sampling for the stochastic linear bandit setting. In particular, we show that, under standard assumptions, for a $d$-dimensional stochastic linear bandit with an interaction horizon $T$, ensemble sampling with an ensemble of size of order $\\smash{d \\log T}$ incurs regret at most of the order $\\smash{(d \\log T)^{5/2} \\sqrt{T}}$. Ours is the first result in any structured setting not to require the size of the ensemble to scale linearly with $T$ -- which defeats the purpose of ensemble sampling -- while obtaining near $\\smash{\\sqrt{T}}$ order regret. Ours is also the first result that allows infinite action sets.",
+    "path": "papers/23/11/2311.08376.json",
+    "total_tokens": 833,
+    "translated_title": "线性赌臂的集成抽样：小集成足矣",
+    "translated_abstract": "我们首次对随机线性赌臂设定下的集成抽样进行了有用且严谨的分析。特别地，我们展示了在标准假设下，对于一个具有交互作用时间跨度$T$的$d$维随机线性赌臂，采用集成大小为$\\smash{d \\log T}$的集成抽样，遭受的后悔最多为$\\smash{(d \\log T)^{5/2} \\sqrt{T}}$阶。我们的结果是在任何结构化环境中第一个不要求集成大小与$T$线性扩展的结果，这使得集成抽样失去意义，同时获得了接近$\\smash{\\sqrt{T}}$阶的后悔。我们的结果也是第一个允许无限动作集的结果。",
+    "tldr": "该论文对随机线性赌臂环境中的集成抽样进行了首次实用和严格的分析，展示了在标准假设下，采用规模为$d \\log T$的集成抽样可以获得接近$\\sqrt{T}$阶的后悔，而不需要集成大小与$T$线性扩展。",
+    "en_tdlr": "This paper provides the first useful and rigorous analysis of ensemble sampling in the stochastic linear bandit setting, showing that under standard assumptions, using an ensemble size of $d \\log T$ can achieve near $\\sqrt{T}$ order regret without the need for linear scaling with $T$."
+}

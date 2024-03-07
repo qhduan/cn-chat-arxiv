@@ -1,0 +1,12 @@
+{
+    "title": "Averaging Rate Scheduler for Decentralized Learning on Heterogeneous Data",
+    "abstract": "arXiv:2403.03292v1 Announce Type: new  Abstract: State-of-the-art decentralized learning algorithms typically require the data distribution to be Independent and Identically Distributed (IID). However, in practical scenarios, the data distribution across the agents can have significant heterogeneity. In this work, we propose averaging rate scheduling as a simple yet effective way to reduce the impact of heterogeneity in decentralized learning. Our experiments illustrate the superiority of the proposed method (~3% improvement in test accuracy) compared to the conventional approach of employing a constant averaging rate.",
+    "link": "https://arxiv.org/abs/2403.03292",
+    "context": "Title: Averaging Rate Scheduler for Decentralized Learning on Heterogeneous Data\nAbstract: arXiv:2403.03292v1 Announce Type: new  Abstract: State-of-the-art decentralized learning algorithms typically require the data distribution to be Independent and Identically Distributed (IID). However, in practical scenarios, the data distribution across the agents can have significant heterogeneity. In this work, we propose averaging rate scheduling as a simple yet effective way to reduce the impact of heterogeneity in decentralized learning. Our experiments illustrate the superiority of the proposed method (~3% improvement in test accuracy) compared to the conventional approach of employing a constant averaging rate.",
+    "path": "papers/24/03/2403.03292.json",
+    "total_tokens": 653,
+    "translated_title": "用于异构数据下的分散式学习的平均化速率调度器",
+    "translated_abstract": "最先进的分散式学习算法通常要求数据分布是独立同分布（IID）的。然而，在实际场景中，代理之间的数据分布可能存在显著的异构性。在这项工作中，我们提出了平均化速率调度作为一种简单而有效的方法，以减少分散式学习中异构性的影响。我们的实验表明，与采用恒定平均化速率的传统方法相比，所提出的方法在测试准确性上表现优越（提高了约3%）。",
+    "tldr": "提出了一种平均化速率调度的方法来减少分散式学习中异构性的影响，并通过实验证明其相比于传统方法的优越性（提高了约3%测试准确性）。",
+    "en_tdlr": "Proposed an averaging rate scheduling method to reduce the impact of heterogeneity in decentralized learning, with experimental results illustrating its superiority over the conventional approach (~3% improvement in test accuracy)."
+}
