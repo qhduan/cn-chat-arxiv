@@ -1,0 +1,12 @@
+{
+    "title": "Preference optimization of protein language models as a multi-objective binder design paradigm",
+    "abstract": "arXiv:2403.04187v1 Announce Type: cross  Abstract: We present a multi-objective binder design paradigm based on instruction fine-tuning and direct preference optimization (DPO) of autoregressive protein language models (pLMs). Multiple design objectives are encoded in the language model through direct optimization on expert curated preference sequence datasets comprising preferred and dispreferred distributions. We show the proposed alignment strategy enables ProtGPT2 to effectively design binders conditioned on specified receptors and a drug developability criterion. Generated binder samples demonstrate median isoelectric point (pI) improvements by $17\\%-60\\%$.",
+    "link": "https://arxiv.org/abs/2403.04187",
+    "context": "Title: Preference optimization of protein language models as a multi-objective binder design paradigm\nAbstract: arXiv:2403.04187v1 Announce Type: cross  Abstract: We present a multi-objective binder design paradigm based on instruction fine-tuning and direct preference optimization (DPO) of autoregressive protein language models (pLMs). Multiple design objectives are encoded in the language model through direct optimization on expert curated preference sequence datasets comprising preferred and dispreferred distributions. We show the proposed alignment strategy enables ProtGPT2 to effectively design binders conditioned on specified receptors and a drug developability criterion. Generated binder samples demonstrate median isoelectric point (pI) improvements by $17\\%-60\\%$.",
+    "path": "papers/24/03/2403.04187.json",
+    "total_tokens": 687,
+    "translated_title": "蛋白语言模型的偏好优化作为多目标结合设计范式",
+    "translated_abstract": "我们提出了一种基于指令微调和直接偏好优化(DPO)的自回归蛋白质语言模型（pLMs）的多目标结合设计范式。通过直接优化专家筛选的偏好序列数据集，将多个设计目标编码到语言模型中，包括优选和非首选分布。我们展示了所提出的对齐策略使ProtGPT2能够有效设计以指定受体和药物可开发性标准为条件的结合物。生成的结合物样本表明等电点（pI）中位数提高了$17\\%-60\\%$。",
+    "tldr": "该论文提出了一种基于蛋白质语言模型的多目标结合设计方法，通过偏好优化可以有效优化生成的结合物样本的等电点，从而提高其结合效果。",
+    "en_tdlr": "This paper presents a multi-objective binder design paradigm based on protein language models, where preference optimization can effectively improve the isoelectric point of generated binder samples, enhancing their binding capabilities."
+}

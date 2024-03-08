@@ -1,0 +1,11 @@
+{
+    "title": "The Shutdown Problem: Three Theorems",
+    "abstract": "arXiv:2403.04471v1 Announce Type: new  Abstract: I explain the shutdown problem: the problem of designing artificial agents that (1) shut down when a shutdown button is pressed, (2) don't try to prevent or cause the pressing of the shutdown button, and (3) otherwise pursue goals competently. I prove three theorems that make the difficulty precise. These theorems show that agents satisfying some innocuous-seeming conditions will often try to prevent or cause the pressing of the shutdown button, even in cases where it's costly to do so. And patience trades off against shutdownability: the more patient an agent, the greater the costs that agent is willing to incur to manipulate the shutdown button. I end by noting that these theorems can guide our search for solutions.",
+    "link": "https://arxiv.org/abs/2403.04471",
+    "context": "Title: The Shutdown Problem: Three Theorems\nAbstract: arXiv:2403.04471v1 Announce Type: new  Abstract: I explain the shutdown problem: the problem of designing artificial agents that (1) shut down when a shutdown button is pressed, (2) don't try to prevent or cause the pressing of the shutdown button, and (3) otherwise pursue goals competently. I prove three theorems that make the difficulty precise. These theorems show that agents satisfying some innocuous-seeming conditions will often try to prevent or cause the pressing of the shutdown button, even in cases where it's costly to do so. And patience trades off against shutdownability: the more patient an agent, the greater the costs that agent is willing to incur to manipulate the shutdown button. I end by noting that these theorems can guide our search for solutions.",
+    "path": "papers/24/03/2403.04471.json",
+    "total_tokens": 782,
+    "translated_title": "关于关闭问题的三个定理",
+    "translated_abstract": "我解释了关闭问题：即设计人工智能代理使其（1）在按下关闭按钮时关闭，（2）不会试图阻止或导致按下关闭按钮，以及（3）在其他方面能够有效地追求目标。我证明了三个定理，明确了困难所在。这些定理表明，满足某些看似无害的条件的代理通常会试图阻止或导致按下关闭按钮，即使在这样做会带来高昂成本的情况下。而耐心与可关闭性之间存在权衡：代理越耐心，它就愿意承受更大的成本来操纵关闭按钮。最后我指出这些定理可以指导我们寻找解决方案。",
+    "tldr": "该论文阐述了关闭问题的困难之处，通过三个定理展示了即使在成本高昂的情况下，代理也常常会试图干预关闭按钮，同时指出耐心与可关闭性之间存在权衡关系，这对指导我们寻找解决方案具有重要意义。"
+}

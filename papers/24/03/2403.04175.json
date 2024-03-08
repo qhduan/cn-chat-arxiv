@@ -1,0 +1,12 @@
+{
+    "title": "Understanding the PULSAR Effect in Combined Radiotherapy and Immunotherapy through Attention Mechanisms with a Transformer Model",
+    "abstract": "arXiv:2403.04175v1 Announce Type: cross  Abstract: PULSAR (personalized, ultra-fractionated stereotactic adaptive radiotherapy) is the adaptation of stereotactic ablative radiotherapy towards personalized cancer management. For the first time, we applied a transformer-based attention mechanism to investigate the underlying interactions between combined PULSAR and PD-L1 blockade immunotherapy based on a murine cancer model (Lewis Lung Carcinoma, LLC). The proposed approach is able to predict the trend of tumor volume change semi-quantitatively, and excels in identifying the potential causal relationships through both self-attention and cross-attention scores.",
+    "link": "https://arxiv.org/abs/2403.04175",
+    "context": "Title: Understanding the PULSAR Effect in Combined Radiotherapy and Immunotherapy through Attention Mechanisms with a Transformer Model\nAbstract: arXiv:2403.04175v1 Announce Type: cross  Abstract: PULSAR (personalized, ultra-fractionated stereotactic adaptive radiotherapy) is the adaptation of stereotactic ablative radiotherapy towards personalized cancer management. For the first time, we applied a transformer-based attention mechanism to investigate the underlying interactions between combined PULSAR and PD-L1 blockade immunotherapy based on a murine cancer model (Lewis Lung Carcinoma, LLC). The proposed approach is able to predict the trend of tumor volume change semi-quantitatively, and excels in identifying the potential causal relationships through both self-attention and cross-attention scores.",
+    "path": "papers/24/03/2403.04175.json",
+    "total_tokens": 782,
+    "translated_title": "通过变压器模型中的注意机制理解联合放射治疗和免疫治疗中的PULSAR效应",
+    "translated_abstract": "PULSAR（个性化、超分形成立体适应性放射治疗）是将立体定位消融放射治疗应用于个性化癌症管理的方法。我们首次应用基于变压器的注意机制来研究联合PULSAR和PD-L1阻断免疫疗法之间的相互作用，基于小鼠癌症模型（Lewis肺癌，LLC）。提出的方法能够半定量地预测肿瘤体积变化的趋势，并通过自注意力和交叉注意力得分在识别潜在因果关系方面表现出色。",
+    "tldr": "首次在放射治疗和免疫治疗相结合的研究中使用了变压器模型的注意机制，能够半定量预测肿瘤体积变化趋势，并通过自注意力和交叉注意力得分来识别潜在因果关系。",
+    "en_tdlr": "This study is the first to apply transformer-based attention mechanism in investigating the interactions between combined PULSAR and PD-L1 blockade immunotherapy, providing semi-quantitative predictions on tumor volume change trend and identifying potential causal relationships through self-attention and cross-attention scores."
+}

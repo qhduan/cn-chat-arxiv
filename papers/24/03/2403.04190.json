@@ -1,0 +1,12 @@
+{
+    "title": "Generative AI for Synthetic Data Generation: Methods, Challenges and the Future",
+    "abstract": "arXiv:2403.04190v1 Announce Type: cross  Abstract: The recent surge in research focused on generating synthetic data from large language models (LLMs), especially for scenarios with limited data availability, marks a notable shift in Generative Artificial Intelligence (AI). Their ability to perform comparably to real-world data positions this approach as a compelling solution to low-resource challenges. This paper delves into advanced technologies that leverage these gigantic LLMs for the generation of task-specific training data. We outline methodologies, evaluation techniques, and practical applications, discuss the current limitations, and suggest potential pathways for future research.",
+    "link": "https://arxiv.org/abs/2403.04190",
+    "context": "Title: Generative AI for Synthetic Data Generation: Methods, Challenges and the Future\nAbstract: arXiv:2403.04190v1 Announce Type: cross  Abstract: The recent surge in research focused on generating synthetic data from large language models (LLMs), especially for scenarios with limited data availability, marks a notable shift in Generative Artificial Intelligence (AI). Their ability to perform comparably to real-world data positions this approach as a compelling solution to low-resource challenges. This paper delves into advanced technologies that leverage these gigantic LLMs for the generation of task-specific training data. We outline methodologies, evaluation techniques, and practical applications, discuss the current limitations, and suggest potential pathways for future research.",
+    "path": "papers/24/03/2403.04190.json",
+    "total_tokens": 689,
+    "translated_title": "生成式人工智能用于合成数据生成：方法、挑战和未来展望",
+    "translated_abstract": "最近，关于从大型语言模型（LLMs）生成合成数据的研究急剧增加，特别是针对数据有限的情况，标志着生成式人工智能（AI）领域的一个显著转变。它们能够表现出与真实世界数据相媲美的能力，将这种方法定位为解决低资源挑战的一个引人注目的解决方案。本文深入探讨了利用这些庞大的LLMs生成特定任务训练数据的先进技术。我们概述了方法论、评估技术和实际应用，讨论了当前的局限性，并提出了未来研究的潜在途径。",
+    "tldr": "这里是中文总结出的一句话要点",
+    "en_tdlr": "Here is the English summary of the main points: This paper explores advanced technologies utilizing large language models (LLMs) for generating task-specific training data, discussing methodologies, evaluation techniques, applications, limitations, and future research directions in the field of Generative AI for synthetic data generation."
+}

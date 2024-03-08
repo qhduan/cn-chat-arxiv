@@ -1,0 +1,11 @@
+{
+    "title": "Architectural Blueprint For Heterogeneity-Resilient Federated Learning",
+    "abstract": "arXiv:2403.04546v1 Announce Type: new  Abstract: This paper proposes a novel three tier architecture for federated learning to optimize edge computing environments. The proposed architecture addresses the challenges associated with client data heterogeneity and computational constraints. It introduces a scalable, privacy preserving framework that enhances the efficiency of distributed machine learning. Through experimentation, the paper demonstrates the architecture capability to manage non IID data sets more effectively than traditional federated learning models. Additionally, the paper highlights the potential of this innovative approach to significantly improve model accuracy, reduce communication overhead, and facilitate broader adoption of federated learning technologies.",
+    "link": "https://arxiv.org/abs/2403.04546",
+    "context": "Title: Architectural Blueprint For Heterogeneity-Resilient Federated Learning\nAbstract: arXiv:2403.04546v1 Announce Type: new  Abstract: This paper proposes a novel three tier architecture for federated learning to optimize edge computing environments. The proposed architecture addresses the challenges associated with client data heterogeneity and computational constraints. It introduces a scalable, privacy preserving framework that enhances the efficiency of distributed machine learning. Through experimentation, the paper demonstrates the architecture capability to manage non IID data sets more effectively than traditional federated learning models. Additionally, the paper highlights the potential of this innovative approach to significantly improve model accuracy, reduce communication overhead, and facilitate broader adoption of federated learning technologies.",
+    "path": "papers/24/03/2403.04546.json",
+    "total_tokens": 779,
+    "translated_title": "面向异构鲁棒联邦学习的架构蓝图",
+    "translated_abstract": "本文提出了一种新颖的三层架构用于优化边缘计算环境中的联邦学习。该架构解决了与客户端数据异构性和计算约束相关的挑战。它引入了一个可扩展的、隐私保护的框架，增强了分布式机器学习的效率。通过实验，本文展示了该架构相对于传统联邦学习模型更有效地管理非独立同分布数据集的能力。此外，本文强调了这种创新方法显著提高模型准确性、减少通信开销，并促进联邦学习技术的更广泛应用的潜力。",
+    "tldr": "提出了一个三层架构用于优化边缘计算环境中的联邦学习，解决了客户端数据异构性和计算约束挑战，提高了非独立同分布数据集管理效率，显著改善了模型准确性，减少了通信开销，促进了联邦学习技术更广泛的应用。"
+}

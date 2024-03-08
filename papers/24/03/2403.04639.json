@@ -1,0 +1,12 @@
+{
+    "title": "MaCmS: Magahi Code-mixed Dataset for Sentiment Analysis",
+    "abstract": "arXiv:2403.04639v1 Announce Type: new  Abstract: The present paper introduces new sentiment data, MaCMS, for Magahi-Hindi-English (MHE) code-mixed language, where Magahi is a less-resourced minority language. This dataset is the first Magahi-Hindi-English code-mixed dataset for sentiment analysis tasks. Further, we also provide a linguistics analysis of the dataset to understand the structure of code-mixing and a statistical study to understand the language preferences of speakers with different polarities. With these analyses, we also train baseline models to evaluate the dataset's quality.",
+    "link": "https://arxiv.org/abs/2403.04639",
+    "context": "Title: MaCmS: Magahi Code-mixed Dataset for Sentiment Analysis\nAbstract: arXiv:2403.04639v1 Announce Type: new  Abstract: The present paper introduces new sentiment data, MaCMS, for Magahi-Hindi-English (MHE) code-mixed language, where Magahi is a less-resourced minority language. This dataset is the first Magahi-Hindi-English code-mixed dataset for sentiment analysis tasks. Further, we also provide a linguistics analysis of the dataset to understand the structure of code-mixing and a statistical study to understand the language preferences of speakers with different polarities. With these analyses, we also train baseline models to evaluate the dataset's quality.",
+    "path": "papers/24/03/2403.04639.json",
+    "total_tokens": 691,
+    "translated_title": "MaCmS：马加希代码混合数据集用于情感分析",
+    "translated_abstract": "这篇论文介绍了一种新的情感数据集 MaCMS，用于马加希语-印地语-英语（MHE）代码混合语言，其中马加希语是一种资源较少的少数民族语言。这个数据集是用于情感分析任务的第一个马加希语-印地语-英语代码混合数据集。此外，我们还对数据集进行了语言学分析，以了解代码混合的结构，并进行了统计研究，以了解不同极性发言者的语言偏好。通过这些分析，我们还训练了基准模型来评估数据集的质量。",
+    "tldr": "这项研究介绍了首个用于马加希语-印地语-英语代码混合情感分析任务的数据集，并通过语言学分析和统计研究来评估数据集的质量。",
+    "en_tdlr": "The paper introduces the first dataset for sentiment analysis in Magahi-Hindi-English code-mixed language and evaluates the dataset's quality through linguistic analysis and statistical study."
+}

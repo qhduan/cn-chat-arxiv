@@ -1,0 +1,12 @@
+{
+    "title": "ProMoAI: Process Modeling with Generative AI",
+    "abstract": "arXiv:2403.04327v1 Announce Type: cross  Abstract: ProMoAI is a novel tool that leverages Large Language Models (LLMs) to automatically generate process models from textual descriptions, incorporating advanced prompt engineering, error handling, and code generation techniques. Beyond automating the generation of complex process models, ProMoAI also supports process model optimization. Users can interact with the tool by providing feedback on the generated model, which is then used for refining the process model. ProMoAI utilizes the capabilities LLMs to offer a novel, AI-driven approach to process modeling, significantly reducing the barrier to entry for users without deep technical knowledge in process modeling.",
+    "link": "https://arxiv.org/abs/2403.04327",
+    "context": "Title: ProMoAI: Process Modeling with Generative AI\nAbstract: arXiv:2403.04327v1 Announce Type: cross  Abstract: ProMoAI is a novel tool that leverages Large Language Models (LLMs) to automatically generate process models from textual descriptions, incorporating advanced prompt engineering, error handling, and code generation techniques. Beyond automating the generation of complex process models, ProMoAI also supports process model optimization. Users can interact with the tool by providing feedback on the generated model, which is then used for refining the process model. ProMoAI utilizes the capabilities LLMs to offer a novel, AI-driven approach to process modeling, significantly reducing the barrier to entry for users without deep technical knowledge in process modeling.",
+    "path": "papers/24/03/2403.04327.json",
+    "total_tokens": 687,
+    "translated_title": "ProMoAI：使用生成式AI进行过程建模",
+    "translated_abstract": "ProMoAI是一种新颖的工具，利用大型语言模型（LLMs）从文本描述中自动生成过程模型，融合了先进的提示工程、错误处理和代码生成技术。除了自动化生成复杂的过程模型外，ProMoAI还支持过程模型优化。用户可以通过提供对生成模型的反馈与工具进行交互，然后用于改进过程模型。ProMoAI利用LLMs的能力提供了一种新颖的、以人工智能驱动的过程建模方法，显著降低了对没有深入技术知识的用户的准入门槛。",
+    "tldr": "ProMoAI利用大型语言模型自动生成过程模型，支持优化并通过用户反馈进行改进，是一种新颖的AI驱动的过程建模工具，降低了用户的技术门槛。",
+    "en_tdlr": "ProMoAI leverages Large Language Models to automatically generate process models, support optimization, and refine through user feedback, presenting a novel AI-driven approach to process modeling that lowers the technical barrier for users."
+}

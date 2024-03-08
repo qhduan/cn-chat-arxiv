@@ -1,0 +1,11 @@
+{
+    "title": "Weak Identification in Low-Dimensional Factor Models with One or Two Factors",
+    "abstract": "arXiv:2211.00329v2 Announce Type: replace  Abstract: This paper describes how to reparameterize low-dimensional factor models with one or two factors to fit weak identification theory developed for generalized method of moments models. Some identification-robust tests, here called \"plug-in\" tests, require a reparameterization to distinguish weakly identified parameters from strongly identified parameters. The reparameterizations in this paper make plug-in tests available for subvector hypotheses in low-dimensional factor models with one or two factors. Simulations show that the plug-in tests are less conservative than identification-robust tests that use the original parameterization. An empirical application to a factor model of parental investments in children is included.",
+    "link": "https://arxiv.org/abs/2211.00329",
+    "context": "Title: Weak Identification in Low-Dimensional Factor Models with One or Two Factors\nAbstract: arXiv:2211.00329v2 Announce Type: replace  Abstract: This paper describes how to reparameterize low-dimensional factor models with one or two factors to fit weak identification theory developed for generalized method of moments models. Some identification-robust tests, here called \"plug-in\" tests, require a reparameterization to distinguish weakly identified parameters from strongly identified parameters. The reparameterizations in this paper make plug-in tests available for subvector hypotheses in low-dimensional factor models with one or two factors. Simulations show that the plug-in tests are less conservative than identification-robust tests that use the original parameterization. An empirical application to a factor model of parental investments in children is included.",
+    "path": "papers/22/11/2211.00329.json",
+    "total_tokens": 736,
+    "translated_title": "低维因子模型中的弱识别问题：单一或双因素情况",
+    "translated_abstract": "本文描述了如何重新参数化低维因子模型，以适应广义矩估计模型中发展的弱识别理论。某些识别鲁棒测试（这里称为“插入式”测试）需要重新参数化，以区分弱识别参数和强识别参数。本文的重新参数化使得插入式测试可以应用于带有单一或双因素的低维因子模型的子向量假设。模拟表明，插入式测试比使用原始参数化方法的识别鲁棒测试更为开放。文中还包括了一个关于父母对子女投资的因子模型的实证应用。",
+    "tldr": "本文重新参数化低维因子模型，开发了适用于弱识别理论的插入式测试，为单一或双因素情况下的低维因子模型提供了新的识别鲁棒方法"
+}

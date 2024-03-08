@@ -1,0 +1,12 @@
+{
+    "title": "Boosting Fairness and Robustness in Over-the-Air Federated Learning",
+    "abstract": "arXiv:2403.04431v1 Announce Type: new  Abstract: Over-the-Air Computation is a beyond-5G communication strategy that has recently been shown to be useful for the decentralized training of machine learning models due to its efficiency. In this paper, we propose an Over-the-Air federated learning algorithm that aims to provide fairness and robustness through minmax optimization. By using the epigraph form of the problem at hand, we show that the proposed algorithm converges to the optimal solution of the minmax problem. Moreover, the proposed approach does not require reconstructing channel coefficients by complex encoding-decoding schemes as opposed to state-of-the-art approaches. This improves both efficiency and privacy.",
+    "link": "https://arxiv.org/abs/2403.04431",
+    "context": "Title: Boosting Fairness and Robustness in Over-the-Air Federated Learning\nAbstract: arXiv:2403.04431v1 Announce Type: new  Abstract: Over-the-Air Computation is a beyond-5G communication strategy that has recently been shown to be useful for the decentralized training of machine learning models due to its efficiency. In this paper, we propose an Over-the-Air federated learning algorithm that aims to provide fairness and robustness through minmax optimization. By using the epigraph form of the problem at hand, we show that the proposed algorithm converges to the optimal solution of the minmax problem. Moreover, the proposed approach does not require reconstructing channel coefficients by complex encoding-decoding schemes as opposed to state-of-the-art approaches. This improves both efficiency and privacy.",
+    "path": "papers/24/03/2403.04431.json",
+    "total_tokens": 677,
+    "translated_title": "在无线联邦学习中增强公平性和鲁棒性",
+    "translated_abstract": "近期研究表明，通过无线计算在分散式训练机器学习模型方面是有效的，本文提出了一种旨在通过极大极小优化提供公平性和鲁棒性的无线联邦学习算法。通过使用问题的外容形式，我们展示了所提算法收敛于极大极小问题的最优解。此外，与最先进方法相反，所提方法不需要通过复杂的编码解码方案对信道系数进行重建，从而提高了效率和隐私性。",
+    "tldr": "提出了一种通过极大极小优化实现公平性和鲁棒性的无线联邦学习算法，不需要复杂的编码解码方案，提高了效率和隐私性",
+    "en_tdlr": "Proposed a wireless federated learning algorithm that achieves fairness and robustness through minmax optimization, without the need for complex encoding-decoding schemes, improving efficiency and privacy."
+}

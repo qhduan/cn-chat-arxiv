@@ -1,0 +1,12 @@
+{
+    "title": "Post-Last Exit Time Process and its Application to Loss-Given-Default Distribution",
+    "abstract": "arXiv:2009.00868v3 Announce Type: replace  Abstract: We study a linear diffusion process after its last exit time from a certain regular point. Rather than treating the process as newly born at the last exit time, we view the whole path and separate the original process before and after the last exit time. This enables us not only to identify the transition semigroup, boundary behavior, entrance law, and reverse of the post-last exit time process, but also to establish a financial model for estimating the loss-given-default distribution of corporate debt (an all-time important open problem).",
+    "link": "https://arxiv.org/abs/2009.00868",
+    "context": "Title: Post-Last Exit Time Process and its Application to Loss-Given-Default Distribution\nAbstract: arXiv:2009.00868v3 Announce Type: replace  Abstract: We study a linear diffusion process after its last exit time from a certain regular point. Rather than treating the process as newly born at the last exit time, we view the whole path and separate the original process before and after the last exit time. This enables us not only to identify the transition semigroup, boundary behavior, entrance law, and reverse of the post-last exit time process, but also to establish a financial model for estimating the loss-given-default distribution of corporate debt (an all-time important open problem).",
+    "path": "papers/20/09/2009.00868.json",
+    "total_tokens": 642,
+    "translated_title": "后末次退出时间过程及其在损失给定违约分布中的应用",
+    "translated_abstract": "我们研究了线性扩散过程在从特定规则点最后退出时间后的情况。我们并非将该过程视为在最后退出时间时新生，而是观察整条路径，并将最后退出时间前后的原始过程分开。这不仅使我们能够识别过渡半群、边界行为、入口规律以及后末次退出时间过程的反向，而且能够建立一个用于估计公司债务损失给定违约分布的金融模型（一个一直存在的重要开放问题）。",
+    "tldr": "通过研究后末次退出时间过程，我们建立了一个用于估计公司债务损失给定违约分布的金融模型。",
+    "en_tdlr": "By studying the post-last exit time process, we have established a financial model for estimating the loss-given-default distribution of corporate debt."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Aligners: Decoupling LLMs and Alignment",
+    "abstract": "arXiv:2403.04224v1 Announce Type: cross  Abstract: Large Language Models (LLMs) need to be aligned with human expectations to ensure their safety and utility in most applications. Alignment is challenging, costly, and needs to be repeated for every LLM and alignment criterion. We propose to decouple LLMs and alignment by training aligner models that can be used to align any LLM for a given criteria on an as-needed basis, thus also reducing the potential negative impacts of alignment on performance. Our recipe for training the aligner models solely relies on synthetic data generated with a (prompted) LLM and can be easily adjusted for a variety of alignment criteria. We illustrate our method by training an \"ethical\" aligner and verify its efficacy empirically.",
+    "link": "https://arxiv.org/abs/2403.04224",
+    "context": "Title: Aligners: Decoupling LLMs and Alignment\nAbstract: arXiv:2403.04224v1 Announce Type: cross  Abstract: Large Language Models (LLMs) need to be aligned with human expectations to ensure their safety and utility in most applications. Alignment is challenging, costly, and needs to be repeated for every LLM and alignment criterion. We propose to decouple LLMs and alignment by training aligner models that can be used to align any LLM for a given criteria on an as-needed basis, thus also reducing the potential negative impacts of alignment on performance. Our recipe for training the aligner models solely relies on synthetic data generated with a (prompted) LLM and can be easily adjusted for a variety of alignment criteria. We illustrate our method by training an \"ethical\" aligner and verify its efficacy empirically.",
+    "path": "papers/24/03/2403.04224.json",
+    "total_tokens": 753,
+    "translated_title": "Aligners: 解耦LLMs和对齐",
+    "translated_abstract": "大型语言模型（LLMs）需要与人类期望对齐，以确保它们在大多数应用中的安全性和实用性。对齐具有挑战性，成本高昂，并且需要为每个LLM和对齐标准重复进行。我们建议通过训练可以根据需要用于对齐给定标准的任何LLM的对齐模型来解耦LLMs和对齐，从而在一定程度上减少对性能的潜在负面影响。我们提出的对齐模型训练配方仅依赖于使用（提示的）LLM 生成的合成数据，并且可以轻松调整以适应各种对齐标准。我们通过训练一个“道德”对齐器并在实验上验证其有效性来阐明我们的方法。",
+    "tldr": "提出了一种通过训练对齐器模型来解耦大型语言模型（LLMs）和对齐，以减少对齐对性能的潜在负面影响。",
+    "en_tdlr": "Propose to decouple LLMs and alignment by training aligner models to reduce potential negative impacts on performance."
+}

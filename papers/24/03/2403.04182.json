@@ -1,0 +1,12 @@
+{
+    "title": "Metric-aware LLM inference",
+    "abstract": "arXiv:2403.04182v1 Announce Type: cross  Abstract: Large language models (LLMs) have demonstrated strong results on a range of NLP tasks. Typically, outputs are obtained via autoregressive sampling from the LLM's underlying distribution. We show that this inference strategy can be suboptimal for a range of tasks and associated evaluation metrics. As a remedy, we propose metric aware LLM inference: a decision theoretic approach optimizing for custom metrics at inference time. We report improvements over baselines on academic benchmarks and publicly available models.",
+    "link": "https://arxiv.org/abs/2403.04182",
+    "context": "Title: Metric-aware LLM inference\nAbstract: arXiv:2403.04182v1 Announce Type: cross  Abstract: Large language models (LLMs) have demonstrated strong results on a range of NLP tasks. Typically, outputs are obtained via autoregressive sampling from the LLM's underlying distribution. We show that this inference strategy can be suboptimal for a range of tasks and associated evaluation metrics. As a remedy, we propose metric aware LLM inference: a decision theoretic approach optimizing for custom metrics at inference time. We report improvements over baselines on academic benchmarks and publicly available models.",
+    "path": "papers/24/03/2403.04182.json",
+    "total_tokens": 570,
+    "translated_title": "度量感知的LLM推断",
+    "translated_abstract": "大型语言模型（LLMs）已经在各种NLP任务中展示出强大的结果。通常，输出是通过从LLM的基础分布中进行自回归采样获得的。我们表明，这种推断策略对于一系列任务和相关的评估指标可能是次优的。为此，我们提出了度量感知的LLM推断：一种在推断时针对自定义指标进行优化的决策理论方法。我们在学术基准数据集和公开可用模型上报告了相对基线的改进。",
+    "tldr": "提出了度量感知的LLM推断方法，通过优化自定义指标来改进推断性能",
+    "en_tdlr": "Proposed metric-aware LLM inference method improves inference performance by optimizing for custom metrics"
+}

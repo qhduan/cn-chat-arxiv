@@ -1,0 +1,12 @@
+{
+    "title": "Silicon Photonic 2.5D Interposer Networks for Overcoming Communication Bottlenecks in Scale-out Machine Learning Hardware Accelerators",
+    "abstract": "arXiv:2403.04189v1 Announce Type: cross  Abstract: Modern machine learning (ML) applications are becoming increasingly complex and monolithic (single chip) accelerator architectures cannot keep up with their energy efficiency and throughput demands. Even though modern digital electronic accelerators are gradually adopting 2.5D architectures with multiple smaller chiplets to improve scalability, they face fundamental limitations due to a reliance on slow metallic interconnects. This paper outlines how optical communication and computation can be leveraged in 2.5D platforms to realize energy-efficient and high throughput 2.5D ML accelerator architectures.",
+    "link": "https://arxiv.org/abs/2403.04189",
+    "context": "Title: Silicon Photonic 2.5D Interposer Networks for Overcoming Communication Bottlenecks in Scale-out Machine Learning Hardware Accelerators\nAbstract: arXiv:2403.04189v1 Announce Type: cross  Abstract: Modern machine learning (ML) applications are becoming increasingly complex and monolithic (single chip) accelerator architectures cannot keep up with their energy efficiency and throughput demands. Even though modern digital electronic accelerators are gradually adopting 2.5D architectures with multiple smaller chiplets to improve scalability, they face fundamental limitations due to a reliance on slow metallic interconnects. This paper outlines how optical communication and computation can be leveraged in 2.5D platforms to realize energy-efficient and high throughput 2.5D ML accelerator architectures.",
+    "path": "papers/24/03/2403.04189.json",
+    "total_tokens": 685,
+    "translated_title": "克服规模化机器学习硬件加速器通信瓶颈的硅光子2.5D互连网络",
+    "translated_abstract": "现代机器学习（ML）应用程序变得越来越复杂和单片加速器体系结构无法满足其能效和吞吐要求。尽管现代数字电子加速器逐渐采用具有多个较小芯片组的2.5D体系结构以提高可扩展性，但由于依赖缓慢的金属互连而面临基本限制。本文概述了如何在2.5D平台中利用光通信和计算，实现能效高、吞吐量高的2.5D ML加速器体系结构。",
+    "tldr": "这项研究提出了在2.5D平台中利用光通信和计算的方法，实现能效高、吞吐量高的机器学习加速器体系结构。",
+    "en_tdlr": "This study proposes leveraging optical communication and computation in 2.5D platforms to achieve energy-efficient and high throughput machine learning accelerator architectures."
+}

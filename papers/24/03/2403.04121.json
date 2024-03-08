@@ -1,0 +1,12 @@
+{
+    "title": "Can Large Language Models Reason and Plan?",
+    "abstract": "arXiv:2403.04121v1 Announce Type: new  Abstract: While humans sometimes do show the capability of correcting their own erroneous guesses with self-critiquing, there seems to be no basis for that assumption in the case of LLMs.",
+    "link": "https://arxiv.org/abs/2403.04121",
+    "context": "Title: Can Large Language Models Reason and Plan?\nAbstract: arXiv:2403.04121v1 Announce Type: new  Abstract: While humans sometimes do show the capability of correcting their own erroneous guesses with self-critiquing, there seems to be no basis for that assumption in the case of LLMs.",
+    "path": "papers/24/03/2403.04121.json",
+    "total_tokens": 433,
+    "translated_title": "大型语言模型能够进行推理和规划吗？",
+    "translated_abstract": "虽然人类有时候表现出能够通过自我批评纠正自己错误猜测的能力，但似乎在大型语言模型的情况下没有依据支持这一假设。",
+    "tldr": "大型语言模型缺乏自我批评能力，无法像人类一样纠正错误。",
+    "en_tdlr": "Large language models lack the ability of self-critiquing to correct errors like humans do."
+}

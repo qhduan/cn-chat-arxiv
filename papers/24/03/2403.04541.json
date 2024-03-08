@@ -1,0 +1,12 @@
+{
+    "title": "Towards Automatic Composition of ASP Programs from Natural Language Specifications",
+    "abstract": "arXiv:2403.04541v1 Announce Type: new  Abstract: This paper moves the first step towards automating the composition of Answer Set Programming (ASP) specifications. In particular, the following contributions are provided: (i) A dataset focused on graph-related problem specifications, designed to develop and assess tools for ASP automatic coding; (ii) A two-step architecture, implemented in the NL2ASP tool, for generating ASP programs from natural language specifications. NL2ASP uses neural machine translation to transform natural language into Controlled Natural Language (CNL) statements. Subsequently, CNL statements are converted into ASP code using the CNL2ASP tool. An experiment confirms the viability of the approach.",
+    "link": "https://arxiv.org/abs/2403.04541",
+    "context": "Title: Towards Automatic Composition of ASP Programs from Natural Language Specifications\nAbstract: arXiv:2403.04541v1 Announce Type: new  Abstract: This paper moves the first step towards automating the composition of Answer Set Programming (ASP) specifications. In particular, the following contributions are provided: (i) A dataset focused on graph-related problem specifications, designed to develop and assess tools for ASP automatic coding; (ii) A two-step architecture, implemented in the NL2ASP tool, for generating ASP programs from natural language specifications. NL2ASP uses neural machine translation to transform natural language into Controlled Natural Language (CNL) statements. Subsequently, CNL statements are converted into ASP code using the CNL2ASP tool. An experiment confirms the viability of the approach.",
+    "path": "papers/24/03/2403.04541.json",
+    "total_tokens": 696,
+    "translated_title": "实现从自然语言规范到ASP程序的自动化组合",
+    "translated_abstract": "本文迈出了实现自动化合成答案集编程（ASP）规范的第一步。具体而言，提供了以下贡献：(i)集中在与图相关的问题规范的数据集，旨在开发和评估ASP自动编码工具；(ii)一个两步架构，在NL2ASP工具中实现，用于从自然语言规范生成ASP程序。NL2ASP使用神经机器翻译将自然语言转换为受控自然语言（CNL）语句。随后，使用CNL2ASP工具将CNL语句转换为ASP代码。实验验证了该方法的可行性。",
+    "tldr": "该论文实现了从自然语言规范到ASP程序的自动化组合的第一步，提供了关于图相关问题规范的数据集和基于神经机器翻译的两步架构。",
+    "en_tdlr": "This paper takes the first step towards automating the composition of Answer Set Programming (ASP) specifications, providing a dataset focused on graph-related problem specifications and a two-step architecture based on neural machine translation."
+}

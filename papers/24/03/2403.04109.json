@@ -1,0 +1,12 @@
+{
+    "title": "Using Causal Trees to Estimate Personalized Task Difficulty in Post-Stroke Individuals",
+    "abstract": "arXiv:2403.04109v1 Announce Type: cross  Abstract: Adaptive training programs are crucial for recovery post stroke. However, developing programs that automatically adapt depends on quantifying how difficult a task is for a specific individual at a particular stage of their recovery. In this work, we propose a method that automatically generates regions of different task difficulty levels based on an individual's performance. We show that this technique explains the variance in user performance for a reaching task better than previous approaches to estimating task difficulty.",
+    "link": "https://arxiv.org/abs/2403.04109",
+    "context": "Title: Using Causal Trees to Estimate Personalized Task Difficulty in Post-Stroke Individuals\nAbstract: arXiv:2403.04109v1 Announce Type: cross  Abstract: Adaptive training programs are crucial for recovery post stroke. However, developing programs that automatically adapt depends on quantifying how difficult a task is for a specific individual at a particular stage of their recovery. In this work, we propose a method that automatically generates regions of different task difficulty levels based on an individual's performance. We show that this technique explains the variance in user performance for a reaching task better than previous approaches to estimating task difficulty.",
+    "path": "papers/24/03/2403.04109.json",
+    "total_tokens": 606,
+    "translated_title": "使用因果树估计中风后个体的个性化任务难度",
+    "translated_abstract": "自适应训练计划对中风后的康复至关重要。然而，开发能够自动调整的计划取决于如何量化任务对特定个体在康复过程中的难度。在本研究中，我们提出一种方法，根据个体的表现自动生成不同任务难度级别的区域。我们展示了这种技术比先前估计任务难度的方法更好地解释了达到任务的用户表现的变异。",
+    "tldr": "提出了一种基于个体表现自动生成不同任务难度级别区域的方法，能够更好地解释中风患者在达到任务时的表现变异。",
+    "en_tdlr": "Proposed a method that automatically generates regions of different task difficulty levels based on individual performance, providing better explanation of variability in user performance in reaching tasks for post-stroke individuals."
+}

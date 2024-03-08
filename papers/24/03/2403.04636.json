@@ -1,0 +1,12 @@
+{
+    "title": "Entropy Aware Message Passing in Graph Neural Networks",
+    "abstract": "arXiv:2403.04636v1 Announce Type: new  Abstract: Deep Graph Neural Networks struggle with oversmoothing. This paper introduces a novel, physics-inspired GNN model designed to mitigate this issue. Our approach integrates with existing GNN architectures, introducing an entropy-aware message passing term. This term performs gradient ascent on the entropy during node aggregation, thereby preserving a certain degree of entropy in the embeddings. We conduct a comparative analysis of our model against state-of-the-art GNNs across various common datasets.",
+    "link": "https://arxiv.org/abs/2403.04636",
+    "context": "Title: Entropy Aware Message Passing in Graph Neural Networks\nAbstract: arXiv:2403.04636v1 Announce Type: new  Abstract: Deep Graph Neural Networks struggle with oversmoothing. This paper introduces a novel, physics-inspired GNN model designed to mitigate this issue. Our approach integrates with existing GNN architectures, introducing an entropy-aware message passing term. This term performs gradient ascent on the entropy during node aggregation, thereby preserving a certain degree of entropy in the embeddings. We conduct a comparative analysis of our model against state-of-the-art GNNs across various common datasets.",
+    "path": "papers/24/03/2403.04636.json",
+    "total_tokens": 609,
+    "translated_title": "图神经网络中的熵感知消息传递",
+    "translated_abstract": "深度图神经网络在过度平滑方面存在困难。本文引入了一种新颖的、受物理启发的GNN模型，旨在缓解这一问题。我们的方法与现有的GNN架构集成，引入了一个熵感知消息传递项。该项在节点聚合过程中对熵进行梯度上升，从而在嵌入中保留一定程度的熵。我们对我们的模型在各种常见数据集上与最先进的GNN进行了对比分析。",
+    "tldr": "该论文提出了一种新颖的物理启发的图神经网络模型，通过引入熵感知消息传递项来缓解深度图神经网络中的过度平滑问题。",
+    "en_tdlr": "This paper introduces a novel physics-inspired graph neural network model to mitigate oversmoothing in deep GNNs by introducing an entropy-aware message passing term."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Noisy Spiking Actor Network for Exploration",
+    "abstract": "arXiv:2403.04162v1 Announce Type: new  Abstract: As a general method for exploration in deep reinforcement learning (RL), NoisyNet can produce problem-specific exploration strategies. Spiking neural networks (SNNs), due to their binary firing mechanism, have strong robustness to noise, making it difficult to realize efficient exploration with local disturbances. To solve this exploration problem, we propose a noisy spiking actor network (NoisySAN) that introduces time-correlated noise during charging and transmission. Moreover, a noise reduction method is proposed to find a stable policy for the agent. Extensive experimental results demonstrate that our method outperforms the state-of-the-art performance on a wide range of continuous control tasks from OpenAI gym.",
+    "link": "https://arxiv.org/abs/2403.04162",
+    "context": "Title: Noisy Spiking Actor Network for Exploration\nAbstract: arXiv:2403.04162v1 Announce Type: new  Abstract: As a general method for exploration in deep reinforcement learning (RL), NoisyNet can produce problem-specific exploration strategies. Spiking neural networks (SNNs), due to their binary firing mechanism, have strong robustness to noise, making it difficult to realize efficient exploration with local disturbances. To solve this exploration problem, we propose a noisy spiking actor network (NoisySAN) that introduces time-correlated noise during charging and transmission. Moreover, a noise reduction method is proposed to find a stable policy for the agent. Extensive experimental results demonstrate that our method outperforms the state-of-the-art performance on a wide range of continuous control tasks from OpenAI gym.",
+    "path": "papers/24/03/2403.04162.json",
+    "total_tokens": 754,
+    "translated_title": "用于探索的噪声尖峰演员网络",
+    "translated_abstract": "作为深度强化学习中探索的一种通用方法，NoisyNet能够产生特定于问题的探索策略。由于尖峰神经网络（SNNs）具有二进制发放机制，对于噪声具有很强的鲁棒性，因此难以通过局部干扰实现高效探索。为了解决这个探索问题，我们提出了一种引入时间相关噪声的噪声尖峰演员网络（NoisySAN）。此外，还提出了一种噪声减少方法来为代理找到稳定策略。大量实验结果表明，我们的方法在来自OpenAI gym的广泛连续控制任务上优于最先进的性能。",
+    "tldr": "提出了一种噪声尖峰演员网络（NoisySAN）以解决尖峰神经网络（SNNs）在探索中的弱点，并在连续控制任务上取得了优于最先进方法的表现"
+}
