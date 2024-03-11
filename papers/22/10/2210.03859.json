@@ -1,0 +1,12 @@
+{
+    "title": "Spectrally-Corrected and Regularized Linear Discriminant Analysis for Spiked Covariance Model",
+    "abstract": "arXiv:2210.03859v3 Announce Type: replace-cross  Abstract: This paper proposes an improved linear discriminant analysis called spectrally-corrected and regularized LDA (SRLDA). This method integrates the design ideas of the sample spectrally-corrected covariance matrix and the regularized discriminant analysis. With the support of a large-dimensional random matrix analysis framework, it is proved that SRLDA has a linear classification global optimal solution under the spiked model assumption. According to simulation data analysis, the SRLDA classifier performs better than RLDA and ILDA and is closer to the theoretical classifier. Experiments on different data sets show that the SRLDA algorithm performs better in classification and dimensionality reduction than currently used tools.",
+    "link": "https://arxiv.org/abs/2210.03859",
+    "context": "Title: Spectrally-Corrected and Regularized Linear Discriminant Analysis for Spiked Covariance Model\nAbstract: arXiv:2210.03859v3 Announce Type: replace-cross  Abstract: This paper proposes an improved linear discriminant analysis called spectrally-corrected and regularized LDA (SRLDA). This method integrates the design ideas of the sample spectrally-corrected covariance matrix and the regularized discriminant analysis. With the support of a large-dimensional random matrix analysis framework, it is proved that SRLDA has a linear classification global optimal solution under the spiked model assumption. According to simulation data analysis, the SRLDA classifier performs better than RLDA and ILDA and is closer to the theoretical classifier. Experiments on different data sets show that the SRLDA algorithm performs better in classification and dimensionality reduction than currently used tools.",
+    "path": "papers/22/10/2210.03859.json",
+    "total_tokens": 701,
+    "translated_title": "具有波纹协方差模型的谱校正和正则化线性判别分析",
+    "translated_abstract": "本文提出了一种改进的线性判别分析方法，称为谱校正和正则化LDA（SRLDA）。该方法整合了样本谱校正协方差矩阵和正则化判别分析的设计思想。在大维随机矩阵分析框架的支持下，证明了SRLDA在波纹模型假设下具有线性分类全局最优解。通过仿真数据分析，证明SRLDA分类器优于RLDA和ILDA，并接近理论分类器。对不同数据集的实验表明，SRLDA算法在分类和降维方面优于当前使用的工具。",
+    "tldr": "SRLDA方法在波纹模型假设下具有线性分类全局最优解，并在实验中表现出比RLDA和ILDA更好的性能。",
+    "en_tdlr": "SRLDA method achieves a linear classification global optimal solution under the spiked model assumption and outperforms RLDA and ILDA in experiments."
+}

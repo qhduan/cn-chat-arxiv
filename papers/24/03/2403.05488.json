@@ -1,0 +1,12 @@
+{
+    "title": "FFSTC: Fongbe to French Speech Translation Corpus",
+    "abstract": "arXiv:2403.05488v1 Announce Type: new  Abstract: In this paper, we introduce the Fongbe to French Speech Translation Corpus (FFSTC) for the first time. This corpus encompasses approximately 31 hours of collected Fongbe language content, featuring both French transcriptions and corresponding Fongbe voice recordings. FFSTC represents a comprehensive dataset compiled through various collection methods and the efforts of dedicated individuals. Furthermore, we conduct baseline experiments using Fairseq's transformer_s and conformer models to evaluate data quality and validity. Our results indicate a score of 8.96 for the transformer_s model and 8.14 for the conformer model, establishing a baseline for the FFSTC corpus.",
+    "link": "https://arxiv.org/abs/2403.05488",
+    "context": "Title: FFSTC: Fongbe to French Speech Translation Corpus\nAbstract: arXiv:2403.05488v1 Announce Type: new  Abstract: In this paper, we introduce the Fongbe to French Speech Translation Corpus (FFSTC) for the first time. This corpus encompasses approximately 31 hours of collected Fongbe language content, featuring both French transcriptions and corresponding Fongbe voice recordings. FFSTC represents a comprehensive dataset compiled through various collection methods and the efforts of dedicated individuals. Furthermore, we conduct baseline experiments using Fairseq's transformer_s and conformer models to evaluate data quality and validity. Our results indicate a score of 8.96 for the transformer_s model and 8.14 for the conformer model, establishing a baseline for the FFSTC corpus.",
+    "path": "papers/24/03/2403.05488.json",
+    "total_tokens": 724,
+    "translated_title": "FFSTC：丰贝语到法语语音翻译语料库",
+    "translated_abstract": "在这篇论文中，我们首次介绍了丰贝语到法语语音翻译语料库（FFSTC）。该语料库包含约31小时的丰贝语内容，包括法语转录和相应的丰贝语音录音。FFSTC是通过各种收集方法和专注个人的努力编制而成的全面数据集。此外，我们使用Fairseq的transformer_s和conformer模型进行基准实验，以评估数据质量和有效性。我们的结果表明，transformer_s模型得分为8.96，conformer模型得分为8.14，为FFSTC语料库建立了一个基准。",
+    "tldr": "该论文介绍了丰贝语到法语语音翻译语料库（FFSTC）首次推出，包括约31小时的语音内容，使用Fairseq的transformer_s和conformer模型评估了数据质量，建立了一个基准。",
+    "en_tdlr": "This paper introduces the first-ever Fongbe to French Speech Translation Corpus (FFSTC), including approximately 31 hours of speech content, evaluates data quality using Fairseq's transformer_s and conformer models, and establishes a baseline."
+}

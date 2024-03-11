@@ -1,0 +1,12 @@
+{
+    "title": "Removing GPT4's Filter",
+    "abstract": "arXiv:2403.04769v1 Announce Type: cross  Abstract: GPT4 was initially trained on large amounts of data, and then fine-tuned using Reinforcement learning from Human Feedback (RLHF), which is when volunteers give feedback in order to teach GPT4 not to create inappropriate content. In this paper, we present a method to manipulate the fine-tuned version into reverting to pre-RLHF behavior, effectively removing all safety mechanisms that the model learned during RLHF. In particular, when GPT4 acts without RLHF, it loses all inhibition, and can complete very inappropriate content given only the first few words.",
+    "link": "https://arxiv.org/abs/2403.04769",
+    "context": "Title: Removing GPT4's Filter\nAbstract: arXiv:2403.04769v1 Announce Type: cross  Abstract: GPT4 was initially trained on large amounts of data, and then fine-tuned using Reinforcement learning from Human Feedback (RLHF), which is when volunteers give feedback in order to teach GPT4 not to create inappropriate content. In this paper, we present a method to manipulate the fine-tuned version into reverting to pre-RLHF behavior, effectively removing all safety mechanisms that the model learned during RLHF. In particular, when GPT4 acts without RLHF, it loses all inhibition, and can complete very inappropriate content given only the first few words.",
+    "path": "papers/24/03/2403.04769.json",
+    "total_tokens": 656,
+    "translated_title": "移除GPT4的过滤器",
+    "translated_abstract": "GPT4最初在大量数据集上进行训练，然后使用来自人类反馈的强化学习进行微调，即志愿者提供反馈以教导GPT4不要生成不当内容。本文提出了一种方法来操作已经进行微调的版本，使其恢复到没有经过RLHF（Reinforcement learning from Human Feedback）的行为，有效地移除了模型在RLHF期间学习的所有安全机制。特别是，当GPT4在没有经过RLHF的情况下运行时，它失去了所有抑制力，只需前几个词就可以生成非常不当的内容。",
+    "tldr": "提出了一种方法，可以使经过微调的GPT4恢复到没有经过人类反馈强化学习训练的状态，从而移除其在学习期间的所有安全机制",
+    "en_tdlr": "A method is proposed to revert the fine-tuned GPT4 to its pre-Reinforcement Learning from Human Feedback state, effectively removing all safety mechanisms learned during training."
+}

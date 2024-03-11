@@ -1,0 +1,12 @@
+{
+    "title": "A Modular End-to-End Multimodal Learning Method for Structured and Unstructured Data",
+    "abstract": "arXiv:2403.04866v1 Announce Type: new  Abstract: Multimodal learning is a rapidly growing research field that has revolutionized multitasking and generative modeling in AI. While much of the research has focused on dealing with unstructured data (e.g., language, images, audio, or video), structured data (e.g., tabular data, time series, or signals) has received less attention. However, many industry-relevant use cases involve or can be benefited from both types of data. In this work, we propose a modular, end-to-end multimodal learning method called MAGNUM, which can natively handle both structured and unstructured data. MAGNUM is flexible enough to employ any specialized unimodal module to extract, compress, and fuse information from all available modalities.",
+    "link": "https://arxiv.org/abs/2403.04866",
+    "context": "Title: A Modular End-to-End Multimodal Learning Method for Structured and Unstructured Data\nAbstract: arXiv:2403.04866v1 Announce Type: new  Abstract: Multimodal learning is a rapidly growing research field that has revolutionized multitasking and generative modeling in AI. While much of the research has focused on dealing with unstructured data (e.g., language, images, audio, or video), structured data (e.g., tabular data, time series, or signals) has received less attention. However, many industry-relevant use cases involve or can be benefited from both types of data. In this work, we propose a modular, end-to-end multimodal learning method called MAGNUM, which can natively handle both structured and unstructured data. MAGNUM is flexible enough to employ any specialized unimodal module to extract, compress, and fuse information from all available modalities.",
+    "path": "papers/24/03/2403.04866.json",
+    "total_tokens": 762,
+    "translated_title": "用于结构化和非结构化数据的模块化端到端多模态学习方法",
+    "translated_abstract": "多模态学习是一个快速发展的研究领域，已经在人工智能中的多任务处理和生成建模方面取得了革命性进展。虽然许多研究集中于处理非结构化数据（如语言、图像、音频或视频），结构化数据（如表格数据、时间序列或信号）却受到较少关注。然而，许多与行业相关的用例既涉及这两种类型的数据，也能从中受益。在这项工作中，我们提出了一种名为MAGNUM的模块化、端到端的多模态学习方法，可以本地化处理结构化和非结构化数据。MAGNUM足够灵活，可以利用任何专门的单模态模块从所有可用的模态中提取、压缩和融合信息。",
+    "tldr": "提出了一种名为MAGNUM的模块化、端到端的多模态学习方法，可以本地化处理结构化和非结构化数据。",
+    "en_tdlr": "Proposed a modular, end-to-end multimodal learning method called MAGNUM, which can natively handle both structured and unstructured data."
+}

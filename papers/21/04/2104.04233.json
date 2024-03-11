@@ -1,0 +1,12 @@
+{
+    "title": "Functional quantization of rough volatility and applications to volatility derivatives",
+    "abstract": "arXiv:2104.04233v2 Announce Type: replace  Abstract: We develop a product functional quantization of rough volatility. Since the quantizers can be computed offline, this new technique, built on the insightful works by Luschgy and Pages, becomes a strong competitor in the new arena of numerical tools for rough volatility. We concentrate our numerical analysis to pricing VIX Futures in the rough Bergomi model and compare our results to other recently suggested benchmarks.",
+    "link": "https://arxiv.org/abs/2104.04233",
+    "context": "Title: Functional quantization of rough volatility and applications to volatility derivatives\nAbstract: arXiv:2104.04233v2 Announce Type: replace  Abstract: We develop a product functional quantization of rough volatility. Since the quantizers can be computed offline, this new technique, built on the insightful works by Luschgy and Pages, becomes a strong competitor in the new arena of numerical tools for rough volatility. We concentrate our numerical analysis to pricing VIX Futures in the rough Bergomi model and compare our results to other recently suggested benchmarks.",
+    "path": "papers/21/04/2104.04233.json",
+    "total_tokens": 601,
+    "translated_title": "粗糙波动性的函数量化及其在波动性衍生品上的应用",
+    "translated_abstract": "我们开发了对粗糙波动性的产品函数量化。由于量化器可以离线计算，这一新技术，基于Luschgy和Pages的富有洞察力的工作，成为粗糙波动性数值工具领域的强大竞争者。我们将我们的数值分析集中在粗糙Bergomi模型中定价VIX期货，并将结果与其他最近提出的基准进行比较。",
+    "tldr": "开发了对粗糙波动性的产品函数量化技术，并应用于波动性衍生品定价，成为粗糙波动性数值工具领域的强大竞争者。",
+    "en_tdlr": "Developed a product functional quantization of rough volatility and applied it to pricing volatility derivatives, becoming a strong competitor in the field of numerical tools for rough volatility."
+}

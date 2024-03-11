@@ -1,0 +1,12 @@
+{
+    "title": "Continual Learning and Catastrophic Forgetting",
+    "abstract": "arXiv:2403.05175v1 Announce Type: cross  Abstract: This book chapter delves into the dynamics of continual learning, which is the process of incrementally learning from a non-stationary stream of data. Although continual learning is a natural skill for the human brain, it is very challenging for artificial neural networks. An important reason is that, when learning something new, these networks tend to quickly and drastically forget what they had learned before, a phenomenon known as catastrophic forgetting. Especially in the last decade, continual learning has become an extensively studied topic in deep learning. This book chapter reviews the insights that this field has generated.",
+    "link": "https://arxiv.org/abs/2403.05175",
+    "context": "Title: Continual Learning and Catastrophic Forgetting\nAbstract: arXiv:2403.05175v1 Announce Type: cross  Abstract: This book chapter delves into the dynamics of continual learning, which is the process of incrementally learning from a non-stationary stream of data. Although continual learning is a natural skill for the human brain, it is very challenging for artificial neural networks. An important reason is that, when learning something new, these networks tend to quickly and drastically forget what they had learned before, a phenomenon known as catastrophic forgetting. Especially in the last decade, continual learning has become an extensively studied topic in deep learning. This book chapter reviews the insights that this field has generated.",
+    "path": "papers/24/03/2403.05175.json",
+    "total_tokens": 695,
+    "translated_title": "持续学习与灾难性遗忘",
+    "translated_abstract": "本书章节探讨了持续学习的动态过程，即从非静态数据流中逐步学习的过程。尽管持续学习是人脑的一种自然技能，但对于人工神经网络来说却是非常具有挑战性的。一个重要原因是在学习新知识时，这些网络往往会迅速而彻底地忘记以前所学的内容，这一现象被称为灾难性遗忘。在过去的十年中，持续学习已成为深度学习中一个被广泛研究的课题。本书章节回顾了这一领域产生的见解。",
+    "tldr": "人工神经网络在持续学习过程中容易出现灾难性遗忘，这一问题是深度学习中持续学习领域的关键挑战。",
+    "en_tdlr": "Catastrophic forgetting is a key challenge in the field of continual learning in deep learning, as artificial neural networks tend to quickly forget previous learnings when acquiring new knowledge."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "QASE Enhanced PLMs: Improved Control in Text Generation for MRC",
+    "abstract": "arXiv:2403.04771v1 Announce Type: new  Abstract: To address the challenges of out-of-control generation in generative models for machine reading comprehension (MRC), we introduce the Question-Attended Span Extraction (QASE) module. Integrated during the fine-tuning of pre-trained generative language models (PLMs), QASE enables these PLMs to match SOTA extractive methods and outperform leading LLMs like GPT-4 in MRC tasks, without significant increases in computational costs.",
+    "link": "https://arxiv.org/abs/2403.04771",
+    "context": "Title: QASE Enhanced PLMs: Improved Control in Text Generation for MRC\nAbstract: arXiv:2403.04771v1 Announce Type: new  Abstract: To address the challenges of out-of-control generation in generative models for machine reading comprehension (MRC), we introduce the Question-Attended Span Extraction (QASE) module. Integrated during the fine-tuning of pre-trained generative language models (PLMs), QASE enables these PLMs to match SOTA extractive methods and outperform leading LLMs like GPT-4 in MRC tasks, without significant increases in computational costs.",
+    "path": "papers/24/03/2403.04771.json",
+    "total_tokens": 610,
+    "translated_title": "QASE增强型PLMs：提高文本生成在MRC中的控制能力",
+    "translated_abstract": "为了解决生成式模型在机器阅读理解（MRC）中失控生成的挑战，我们引入了Question-Attended Span Extraction（QASE）模块。在预训练的生成式语言模型（PLMs）微调过程中集成QASE能够使这些PLMs匹配SOTA的抽取方法并在MRC任务中胜过GPT-4等领先的LLMs，而不会明显增加计算成本。",
+    "tldr": "QASE模块在PLMs的微调过程中提升了文本生成在机器阅读理解中的控制能力，使得其在MRC任务中超越了GPT-4等领先的LLMs。",
+    "en_tdlr": "The QASE module enhances the control in text generation for machine reading comprehension by outperforming leading LLMs like GPT-4 in MRC tasks during the fine-tuning of PLMs."
+}

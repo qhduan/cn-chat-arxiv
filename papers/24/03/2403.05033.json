@@ -1,0 +1,12 @@
+{
+    "title": "Quantifying Manifolds: Do the manifolds learned by Generative Adversarial Networks converge to the real data manifold",
+    "abstract": "arXiv:2403.05033v1 Announce Type: cross  Abstract: This paper presents our experiments to quantify the manifolds learned by ML models (in our experiment, we use a GAN model) as they train. We compare the manifolds learned at each epoch to the real manifolds representing the real data. To quantify a manifold, we study the intrinsic dimensions and topological features of the manifold learned by the ML model, how these metrics change as we continue to train the model, and whether these metrics convergence over the course of training to the metrics of the real data manifold.",
+    "link": "https://arxiv.org/abs/2403.05033",
+    "context": "Title: Quantifying Manifolds: Do the manifolds learned by Generative Adversarial Networks converge to the real data manifold\nAbstract: arXiv:2403.05033v1 Announce Type: cross  Abstract: This paper presents our experiments to quantify the manifolds learned by ML models (in our experiment, we use a GAN model) as they train. We compare the manifolds learned at each epoch to the real manifolds representing the real data. To quantify a manifold, we study the intrinsic dimensions and topological features of the manifold learned by the ML model, how these metrics change as we continue to train the model, and whether these metrics convergence over the course of training to the metrics of the real data manifold.",
+    "path": "papers/24/03/2403.05033.json",
+    "total_tokens": 687,
+    "translated_title": "量化流形:生成对抗网络学习的流形是否收敛于真实数据流形",
+    "translated_abstract": "本文介绍了我们的实验，用于量化由ML模型（在我们的实验中，我们使用了一个GAN模型）学习的流形随着训练而变化。我们比较了每个时期学习到的流形与代表真实数据的真实流形。为了量化一个流形，我们研究了ML模型学习到的流形的内在维度和拓扑特征，这些度量随着我们继续训练模型而如何变化，以及这些度量是否在训练过程中收敛到真实数据流形的度量。",
+    "tldr": "通过研究ML模型学习到的流形的内在维度和拓扑特征，本文探讨了这些度量在训练过程中是否收敛到真实数据流形的度量。",
+    "en_tdlr": "By studying the intrinsic dimensions and topological features of the manifolds learned by ML models, this paper investigates whether these metrics converge to the metrics of the real data manifold during training."
+}

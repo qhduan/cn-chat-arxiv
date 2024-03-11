@@ -1,0 +1,11 @@
+{
+    "title": "Evaluating Biases in Context-Dependent Health Questions",
+    "abstract": "arXiv:2403.04858v1 Announce Type: new  Abstract: Chat-based large language models have the opportunity to empower individuals lacking high-quality healthcare access to receive personalized information across a variety of topics. However, users may ask underspecified questions that require additional context for a model to correctly answer. We study how large language model biases are exhibited through these contextual questions in the healthcare domain. To accomplish this, we curate a dataset of sexual and reproductive healthcare questions that are dependent on age, sex, and location attributes. We compare models' outputs with and without demographic context to determine group alignment among our contextual questions. Our experiments reveal biases in each of these attributes, where young adult female users are favored.",
+    "link": "https://arxiv.org/abs/2403.04858",
+    "context": "Title: Evaluating Biases in Context-Dependent Health Questions\nAbstract: arXiv:2403.04858v1 Announce Type: new  Abstract: Chat-based large language models have the opportunity to empower individuals lacking high-quality healthcare access to receive personalized information across a variety of topics. However, users may ask underspecified questions that require additional context for a model to correctly answer. We study how large language model biases are exhibited through these contextual questions in the healthcare domain. To accomplish this, we curate a dataset of sexual and reproductive healthcare questions that are dependent on age, sex, and location attributes. We compare models' outputs with and without demographic context to determine group alignment among our contextual questions. Our experiments reveal biases in each of these attributes, where young adult female users are favored.",
+    "path": "papers/24/03/2403.04858.json",
+    "total_tokens": 744,
+    "translated_title": "评估上下文相关健康问题中的偏见",
+    "translated_abstract": "基于聊天的大型语言模型有机会赋予那些缺乏高质量医疗保健的个人通过各种主题接收个性化信息的能力。然而，用户可能提出不充分的问题，需要额外的上下文信息模型才能正确回答。本研究探讨了大型语言模型的偏见是如何通过这些与健康领域相关的上下文问题展现出来的。为了实现这一目标，我们整理了一个依赖于年龄、性别和位置属性的性健康问题数据集。我们比较了带有和不带有人口统计背景上下文的模型输出，以确定我们的上下文问题中的群体对齐情况。我们的实验显示出这些属性中的偏见，其中年轻成年女性用户受到偏爱。",
+    "tldr": "研究评估了大型语言模型在健康领域中的上下文问题中存在的偏见，发现年轻成年女性用户受到偏爱"
+}

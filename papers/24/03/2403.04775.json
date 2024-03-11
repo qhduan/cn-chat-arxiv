@@ -1,0 +1,12 @@
+{
+    "title": "Superposition with Delayed Unification",
+    "abstract": "arXiv:2403.04775v1 Announce Type: cross  Abstract: Classically, in saturation-based proof systems, unification has been considered atomic. However, it is also possible to move unification to the calculus level, turning the steps of the unification algorithm into inferences. For calculi that rely on unification procedures returning large or even infinite sets of unifiers, integrating unification into the calculus is an attractive method of dovetailing unification and inference. This applies, for example, to AC-superposition and higher-order superposition. We show that first-order superposition remains complete when moving unification rules to the calculus level. We discuss some of the benefits this has even for standard first-order superposition and provide an experimental evaluation.",
+    "link": "https://arxiv.org/abs/2403.04775",
+    "context": "Title: Superposition with Delayed Unification\nAbstract: arXiv:2403.04775v1 Announce Type: cross  Abstract: Classically, in saturation-based proof systems, unification has been considered atomic. However, it is also possible to move unification to the calculus level, turning the steps of the unification algorithm into inferences. For calculi that rely on unification procedures returning large or even infinite sets of unifiers, integrating unification into the calculus is an attractive method of dovetailing unification and inference. This applies, for example, to AC-superposition and higher-order superposition. We show that first-order superposition remains complete when moving unification rules to the calculus level. We discuss some of the benefits this has even for standard first-order superposition and provide an experimental evaluation.",
+    "path": "papers/24/03/2403.04775.json",
+    "total_tokens": 702,
+    "translated_title": "具有延迟合一的叠加",
+    "translated_abstract": "在基于饱和的证明系统中，传统上认为合一是原子的。然而，也可以将合一移动到演算层次，将合一算法的步骤转化为推理。对于依赖返回大甚至无穷集合的合一程序的演算来说，将合一融入演算是一种将合一和推理相互交织的吸引人方法。这适用于AC-叠加和高阶叠加等情况。我们证明了当将合一规则移动到演算层面时，一阶叠加仍然是完备的。我们讨论了即使对于标准的一阶叠加，这也具有诸多好处，并提供了实验评估。",
+    "tldr": "将合一算法移动到演算层次后，一阶叠加仍然保持完备，这对于标准一阶叠加也带来了一些好处。",
+    "en_tdlr": "Moving unification algorithm to the calculus level keeps first-order superposition complete and brings benefits even for standard first-order superposition."
+}

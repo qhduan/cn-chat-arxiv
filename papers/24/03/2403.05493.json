@@ -1,0 +1,12 @@
+{
+    "title": "To Err Is Human, but Llamas Can Learn It Too",
+    "abstract": "arXiv:2403.05493v1 Announce Type: new  Abstract: This study explores enhancing grammatical error correction (GEC) through artificial error generation (AEG) using language models (LMs). Specifically, we fine-tune Llama 2-based LMs for error generation and find that this approach yields synthetic errors akin to human errors. Next, we train GEC Llama models with the help of these artificial errors and outperform previous state-of-the-art error correction models, with gains ranging between 0.8 and 6 F0.5 points across all tested languages (German, Ukrainian, and Estonian). Moreover, we demonstrate that generating errors by fine-tuning smaller sequence-to-sequence models and prompting large commercial LMs (GPT-3.5 and GPT-4) also results in synthetic errors beneficially affecting error generation models.",
+    "link": "https://arxiv.org/abs/2403.05493",
+    "context": "Title: To Err Is Human, but Llamas Can Learn It Too\nAbstract: arXiv:2403.05493v1 Announce Type: new  Abstract: This study explores enhancing grammatical error correction (GEC) through artificial error generation (AEG) using language models (LMs). Specifically, we fine-tune Llama 2-based LMs for error generation and find that this approach yields synthetic errors akin to human errors. Next, we train GEC Llama models with the help of these artificial errors and outperform previous state-of-the-art error correction models, with gains ranging between 0.8 and 6 F0.5 points across all tested languages (German, Ukrainian, and Estonian). Moreover, we demonstrate that generating errors by fine-tuning smaller sequence-to-sequence models and prompting large commercial LMs (GPT-3.5 and GPT-4) also results in synthetic errors beneficially affecting error generation models.",
+    "path": "papers/24/03/2403.05493.json",
+    "total_tokens": 737,
+    "translated_title": "人类会犯错，但羊驼也能学会",
+    "translated_abstract": "本研究探讨了利用语言模型（LMs）通过人工错误生成（AEG）来增强语法错误纠正（GEC）。具体而言，我们对基于Llama 2的LMs进行微调以生成错误，并发现这种方法产生的合成错误类似于人类错误。接下来，我们利用这些人工错误训练GEC Llama模型，并在所有测试的语言（德语、乌克兰语和爱沙尼亚语）中取得了超过先前最先进的错误校正模型的表现，其收益在0.8至6 F0.5点之间。此外，我们证明通过微调较小的序列到序列模型和提示大型商用LMs（GPT-3.5和GPT-4）来生成错误，也会有益地影响错误生成模型的合成错误。",
+    "tldr": "通过人工错误生成来提高语法错误纠正，进而在多种语言中取得优越的表现。",
+    "en_tdlr": "Enhancing grammatical error correction through artificial error generation leads to superior performance across multiple languages."
+}
