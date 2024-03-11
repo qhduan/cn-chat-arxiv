@@ -298,6 +298,26 @@ Transformer-based&#27169;&#22411;&#22312;&#21508;&#31181;&#33258;&#28982;&#35821
 &lt;/p&gt;
 &lt;p&gt;
 arXiv:2403.05365v1 Announce Type: new  Abstract: Transformer-based models have made remarkable advancements in various NLP areas. Nevertheless, these models often exhibit vulnerabilities when confronted with adversarial attacks. In this paper, we explore the effect of quantization on the robustness of Transformer-based models. Quantization usually involves mapping a high-precision real number to a lower-precision value, aiming at reducing the size of the model at hand. To the best of our knowledge, this work is the first application of quantization on the robustness of NLP models. In our experiments, we evaluate the impact of quantization on BERT and DistilBERT models in text classification using SST-2, Emotion, and MR datasets. We also evaluate the performance of these models against TextFooler, PWWS, and PSO adversarial attacks. Our findings show that quantization significantly improves (by an average of 18.68%) the adversarial accuracy of the models. Furthermore, we compare the effe
+&lt;/p&gt;</description></item><item><title>&#36890;&#36807;&#23558;&#20272;&#35745;&#38382;&#39064;&#36716;&#21270;&#20026;&#21487;&#30452;&#25509;&#35299;&#20915;&#30340;&#20248;&#21270;&#20219;&#21153;&#65292;&#26412;&#30740;&#31350;&#25552;&#20986;&#20102;&#19968;&#31181;&#20351;&#29992;&#21464;&#20998;&#25512;&#26029;&#26469;&#20272;&#35745;&#24847;&#35265;&#21160;&#24577;ABM&#21442;&#25968;&#30340;&#26041;&#27861;&#12290;</title><link>https://arxiv.org/abs/2403.05358</link><description>&lt;p&gt;
+&#24847;&#35265;&#21160;&#24577;&#27169;&#22411;&#20013;&#21442;&#25968;&#30340;&#21464;&#20998;&#25512;&#26029;
+&lt;/p&gt;
+&lt;p&gt;
+Variational Inference of Parameters in Opinion Dynamics Models
+&lt;/p&gt;
+&lt;p&gt;
+https://arxiv.org/abs/2403.05358
+&lt;/p&gt;
+&lt;p&gt;
+&#36890;&#36807;&#23558;&#20272;&#35745;&#38382;&#39064;&#36716;&#21270;&#20026;&#21487;&#30452;&#25509;&#35299;&#20915;&#30340;&#20248;&#21270;&#20219;&#21153;&#65292;&#26412;&#30740;&#31350;&#25552;&#20986;&#20102;&#19968;&#31181;&#20351;&#29992;&#21464;&#20998;&#25512;&#26029;&#26469;&#20272;&#35745;&#24847;&#35265;&#21160;&#24577;ABM&#21442;&#25968;&#30340;&#26041;&#27861;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+&#23613;&#31649;&#22522;&#20110;&#20195;&#29702;&#20154;&#30340;&#27169;&#22411;&#65288;ABMs&#65289;&#22312;&#30740;&#31350;&#31038;&#20250;&#29616;&#35937;&#20013;&#34987;&#39057;&#32321;&#20351;&#29992;&#65292;&#20294;&#21442;&#25968;&#20272;&#35745;&#20173;&#28982;&#26159;&#19968;&#20010;&#25361;&#25112;&#65292;&#36890;&#24120;&#20381;&#36182;&#20110;&#26114;&#36149;&#30340;&#22522;&#20110;&#27169;&#25311;&#30340;&#21551;&#21457;&#24335;&#26041;&#27861;&#12290;&#26412;&#30740;&#31350;&#21033;&#29992;&#21464;&#20998;&#25512;&#26029;&#26469;&#20272;&#35745;&#24847;&#35265;&#21160;&#24577;ABM&#30340;&#21442;&#25968;&#65292;&#36890;&#36807;&#23558;&#20272;&#35745;&#38382;&#39064;&#36716;&#21270;&#20026;&#21487;&#30452;&#25509;&#35299;&#20915;&#30340;&#20248;&#21270;&#20219;&#21153;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+arXiv:2403.05358v1 Announce Type: cross  Abstract: Despite the frequent use of agent-based models (ABMs) for studying social phenomena, parameter estimation remains a challenge, often relying on costly simulation-based heuristics. This work uses variational inference to estimate the parameters of an opinion dynamics ABM, by transforming the estimation problem into an optimization task that can be solved directly.   Our proposal relies on probabilistic generative ABMs (PGABMs): we start by synthesizing a probabilistic generative model from the ABM rules. Then, we transform the inference process into an optimization problem suitable for automatic differentiation. In particular, we use the Gumbel-Softmax reparameterization for categorical agent attributes and stochastic variational inference for parameter estimation. Furthermore, we explore the trade-offs of using variational distributions with different complexity: normal distributions and normalizing flows.   We validate our method on a
 &lt;/p&gt;</description></item><item><title>&#26412;&#30740;&#31350;&#25552;&#20986;&#20102;&#19968;&#31181;&#28151;&#21512;&#27169;&#22411;&#65292;&#32467;&#21512;&#20102;&#21367;&#31215;&#31070;&#32463;&#32593;&#32476;&#27169;&#22411;&#30340;&#29305;&#24449;&#25552;&#21462;&#33021;&#21147;&#21644;&#38271;&#30701;&#26399;&#35760;&#24518;&#27169;&#22411;&#30340;&#26816;&#27979;&#33021;&#21147;&#65292;&#26088;&#22312;&#25913;&#21892;&#20174;MRI&#25195;&#25551;&#20013;&#35786;&#26029;&#38463;&#23572;&#33576;&#28023;&#40664;&#30149;&#30340;&#26041;&#27861;&#12290;</title><link>https://arxiv.org/abs/2403.05353</link><description>&lt;p&gt;
 &#28151;&#21512;&#21367;&#31215;&#31070;&#32463;&#32593;&#32476;&#21644;&#38271;&#30701;&#26399;&#35760;&#24518;&#20197;&#25913;&#21892;&#20174;MRI&#25195;&#25551;&#20013;&#35786;&#26029;&#38463;&#23572;&#33576;&#28023;&#40664;&#30149;
 &lt;/p&gt;
