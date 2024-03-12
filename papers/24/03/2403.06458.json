@@ -1,0 +1,12 @@
+{
+    "title": "Prediction of Wort Density with LSTM Network",
+    "abstract": "arXiv:2403.06458v1 Announce Type: new  Abstract: Many physical target values in technical processes are error-prone, cumbersome, or expensive to measure automatically. One example of a physical target value is the wort density, which is an important value needed for beer production. This article introduces a system that helps the brewer measure wort density through sensors in order to reduce errors in manual data collection. Instead of a direct measurement of wort density, a method is developed that calculates the density from measured values acquired by inexpensive standard sensors such as pressure or temperature. The model behind the calculation is a neural network, known as LSTM.",
+    "link": "https://arxiv.org/abs/2403.06458",
+    "context": "Title: Prediction of Wort Density with LSTM Network\nAbstract: arXiv:2403.06458v1 Announce Type: new  Abstract: Many physical target values in technical processes are error-prone, cumbersome, or expensive to measure automatically. One example of a physical target value is the wort density, which is an important value needed for beer production. This article introduces a system that helps the brewer measure wort density through sensors in order to reduce errors in manual data collection. Instead of a direct measurement of wort density, a method is developed that calculates the density from measured values acquired by inexpensive standard sensors such as pressure or temperature. The model behind the calculation is a neural network, known as LSTM.",
+    "path": "papers/24/03/2403.06458.json",
+    "total_tokens": 668,
+    "translated_title": "使用LSTM网络预测麦汁密度",
+    "translated_abstract": "技术过程中许多物理目标值很容易出错、繁琐或昂贵，无法自动测量。麦汁密度是一个物理目标值的例子，对于啤酒生产非常重要。本文介绍了一个系统，通过传感器帮助酿酒师测量麦汁密度，以减少手动数据收集中的错误。方法是使用压力或温度等廉价标准传感器测量到的值来计算密度，而不是直接测量麦汁密度。计算背后的模型是一个名为LSTM的神经网络。",
+    "tldr": "该论文介绍了一种使用LSTM网络预测麦汁密度的系统，通过廉价传感器测量值计算密度，帮助减少手动数据收集中的错误。",
+    "en_tdlr": "This paper introduces a system using LSTM network to predict wort density, calculating density from measured values acquired by inexpensive sensors to reduce errors in manual data collection."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "The negation of permutation mass function",
+    "abstract": "arXiv:2403.06483v1 Announce Type: new  Abstract: Negation is a important perspective of knowledge representation. Existing negation methods are mainly applied in probability theory, evidence theory and complex evidence theory. As a generalization of evidence theory, random permutation sets theory may represent information more precisely. However, how to apply the concept of negation to random permutation sets theory has not been studied. In this paper, the negation of permutation mass function is proposed. Moreover, in the negation process, the convergence of proposed negation method is verified. The trends of uncertainty and dissimilarity after each negation operation are investigated. Numerical examples are used to demonstrate the rationality of the proposed method.",
+    "link": "https://arxiv.org/abs/2403.06483",
+    "context": "Title: The negation of permutation mass function\nAbstract: arXiv:2403.06483v1 Announce Type: new  Abstract: Negation is a important perspective of knowledge representation. Existing negation methods are mainly applied in probability theory, evidence theory and complex evidence theory. As a generalization of evidence theory, random permutation sets theory may represent information more precisely. However, how to apply the concept of negation to random permutation sets theory has not been studied. In this paper, the negation of permutation mass function is proposed. Moreover, in the negation process, the convergence of proposed negation method is verified. The trends of uncertainty and dissimilarity after each negation operation are investigated. Numerical examples are used to demonstrate the rationality of the proposed method.",
+    "path": "papers/24/03/2403.06483.json",
+    "total_tokens": 678,
+    "translated_title": "排列质量函数的否定",
+    "translated_abstract": "否定是知识表示中的一个重要视角。现有的否定方法主要应用于概率论、证据理论和复杂证据理论。作为证据理论的一种泛化，随机排列集合理论可以更精确地表示信息。然而，如何将否定的概念应用于随机排列集合理论尚未被研究。本文提出了排列质量函数的否定。此外，在否定过程中，验证了所提出的否定方法的收敛性。研究了每个否定操作后不确定性和不相似性的趋势。数值例子被用来证明所提出方法的合理性。",
+    "tldr": "本文提出了排列质量函数的否定方法，并验证了其收敛性，研究了否定操作后的不确定性和不相似性变化趋势。",
+    "en_tdlr": "This paper proposes the negation of permutation mass function, verifies its convergence, and investigates the trends of uncertainty and dissimilarity after each negation operation."
+}

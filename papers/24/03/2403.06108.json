@@ -1,0 +1,12 @@
+{
+    "title": "Large Language Models on Fine-grained Emotion Detection Dataset with Data Augmentation and Transfer Learning",
+    "abstract": "arXiv:2403.06108v1 Announce Type: cross  Abstract: This paper delves into enhancing the classification performance on the GoEmotions dataset, a large, manually annotated dataset for emotion detection in text. The primary goal of this paper is to address the challenges of detecting subtle emotions in text, a complex issue in Natural Language Processing (NLP) with significant practical applications. The findings offer valuable insights into addressing the challenges of emotion detection in text and suggest directions for future research, including the potential for a survey paper that synthesizes methods and performances across various datasets in this domain.",
+    "link": "https://arxiv.org/abs/2403.06108",
+    "context": "Title: Large Language Models on Fine-grained Emotion Detection Dataset with Data Augmentation and Transfer Learning\nAbstract: arXiv:2403.06108v1 Announce Type: cross  Abstract: This paper delves into enhancing the classification performance on the GoEmotions dataset, a large, manually annotated dataset for emotion detection in text. The primary goal of this paper is to address the challenges of detecting subtle emotions in text, a complex issue in Natural Language Processing (NLP) with significant practical applications. The findings offer valuable insights into addressing the challenges of emotion detection in text and suggest directions for future research, including the potential for a survey paper that synthesizes methods and performances across various datasets in this domain.",
+    "path": "papers/24/03/2403.06108.json",
+    "total_tokens": 698,
+    "translated_title": "在包含数据增强和迁移学习的细粒度情感检测数据集上使用大型语言模型",
+    "translated_abstract": "本文深入研究了如何在GoEmotions数据集上提高情感检测的分类性能，这是一个大型、手动注释的文本情感检测数据集。本文的主要目标是解决在文本中检测微妙情感的挑战，这是自然语言处理中一个复杂的问题，具有重要的实际应用。研究结果为解决文本情感检测的挑战提供了宝贵的见解，并提出了未来研究的方向，包括合成该领域各个数据集上方法和性能的综述论文的潜在性。",
+    "tldr": "本文研究了如何在细粒度情感检测数据集上使用大型语言模型来提高分类性能，并提出了对于文本中检测微妙情感的挑战的有价值见解。",
+    "en_tdlr": "This paper explores using large language models on fine-grained emotion detection dataset to improve classification performance and offers valuable insights into the challenges of detecting subtle emotions in text."
+}

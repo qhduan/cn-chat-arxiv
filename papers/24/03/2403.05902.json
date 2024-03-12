@@ -1,0 +1,12 @@
+{
+    "title": "MaiBaam Annotation Guidelines",
+    "abstract": "arXiv:2403.05902v1 Announce Type: new  Abstract: This document provides the annotation guidelines for MaiBaam, a Bavarian corpus annotated with part-of-speech (POS) tags and syntactic dependencies. MaiBaam belongs to the Universal Dependencies (UD) project, and our annotations elaborate on the general and German UD version 2 guidelines. In this document, we detail how to preprocess and tokenize Bavarian data, provide an overview of the POS tags and dependencies we use, explain annotation decisions that would also apply to closely related languages like German, and lastly we introduce and motivate decisions that are specific to Bavarian grammar.",
+    "link": "https://arxiv.org/abs/2403.05902",
+    "context": "Title: MaiBaam Annotation Guidelines\nAbstract: arXiv:2403.05902v1 Announce Type: new  Abstract: This document provides the annotation guidelines for MaiBaam, a Bavarian corpus annotated with part-of-speech (POS) tags and syntactic dependencies. MaiBaam belongs to the Universal Dependencies (UD) project, and our annotations elaborate on the general and German UD version 2 guidelines. In this document, we detail how to preprocess and tokenize Bavarian data, provide an overview of the POS tags and dependencies we use, explain annotation decisions that would also apply to closely related languages like German, and lastly we introduce and motivate decisions that are specific to Bavarian grammar.",
+    "path": "papers/24/03/2403.05902.json",
+    "total_tokens": 729,
+    "translated_title": "MaiBaam注释准则",
+    "translated_abstract": "本文提供了MaiBaam的注释准则，这是一个注释了词性标记和句法依赖关系的巴伐利亚语语料库。MaiBaam属于通用依存关系项目（UD），我们的注释详细说明了一般和德国UD第2版指南。在本文中，我们详细介绍了如何预处理和标记巴伐利亚数据，概述了我们使用的词性标记和依赖关系，解释了也适用于德语等密切相关语言的注释决策，最后介绍并推动了适用于巴伐利亚语法的决策。",
+    "tldr": "该论文提供了MaiBaam语料库的注释准则，详细介绍了如何处理和标记巴伐利亚数据，说明了词性标记和依赖关系的使用，以及对德语等相关语言适用的注释决策和对巴伐利亚语法特定决策的介绍和推动。",
+    "en_tdlr": "This paper provides annotation guidelines for the MaiBaam corpus, detailing preprocessing and tokenization of Bavarian data, explaining the use of POS tags and dependencies, as well as annotation decisions applicable to related languages like German and specific to Bavarian grammar."
+}

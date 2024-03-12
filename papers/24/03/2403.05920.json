@@ -1,0 +1,12 @@
+{
+    "title": "High Throughput Phenotyping of Physician Notes with Large Language and Hybrid NLP Models",
+    "abstract": "arXiv:2403.05920v1 Announce Type: cross  Abstract: Deep phenotyping is the detailed description of patient signs and symptoms using concepts from an ontology. The deep phenotyping of the numerous physician notes in electronic health records requires high throughput methods. Over the past thirty years, progress toward making high throughput phenotyping feasible. In this study, we demonstrate that a large language model and a hybrid NLP model (combining word vectors with a machine learning classifier) can perform high throughput phenotyping on physician notes with high accuracy. Large language models will likely emerge as the preferred method for high throughput deep phenotyping of physician notes.",
+    "link": "https://arxiv.org/abs/2403.05920",
+    "context": "Title: High Throughput Phenotyping of Physician Notes with Large Language and Hybrid NLP Models\nAbstract: arXiv:2403.05920v1 Announce Type: cross  Abstract: Deep phenotyping is the detailed description of patient signs and symptoms using concepts from an ontology. The deep phenotyping of the numerous physician notes in electronic health records requires high throughput methods. Over the past thirty years, progress toward making high throughput phenotyping feasible. In this study, we demonstrate that a large language model and a hybrid NLP model (combining word vectors with a machine learning classifier) can perform high throughput phenotyping on physician notes with high accuracy. Large language models will likely emerge as the preferred method for high throughput deep phenotyping of physician notes.",
+    "path": "papers/24/03/2403.05920.json",
+    "total_tokens": 720,
+    "translated_title": "基于大语言模型和混合NLP模型的医师笔记高吞吐量表型识别",
+    "translated_abstract": "深度表型是利用本体论中的概念对患者体征和症状进行详细描述。电子健康记录中大量医师笔记的深度表型需要高吞吐量的方法。在过去的三十年里，取得了使高吞吐量表型成为可能的进展。在这项研究中，我们证明了一个大型语言模型和一个混合NLP模型（结合了词向量和机器学习分类器）可以在高准确率下对医师笔记进行高吞吐量表型识别。大型语言模型很可能会成为医师笔记高吞吐量深度表型识别的首选方法。",
+    "tldr": "大语言模型和混合NLP模型的结合可在高准确率下对医师笔记进行高吞吐量表型识别，有望成为未来首选方法。",
+    "en_tdlr": "The combination of large language models and hybrid NLP models can achieve high throughput phenotyping of physician notes with high accuracy, likely to become the preferred method in the future."
+}

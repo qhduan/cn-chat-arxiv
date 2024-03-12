@@ -1,0 +1,12 @@
+{
+    "title": "Quantum Neural Networks for Power Flow Analysis",
+    "abstract": "arXiv:2311.06293v2 Announce Type: replace-cross  Abstract: This paper explores the potential application of quantum and hybrid quantum-classical neural networks in power flow analysis. Experiments are conducted using two datasets based on 4-bus and 33-bus test systems. A systematic performance comparison is also conducted among quantum, hybrid quantum-classical, and classical neural networks. The comparison is based on (i) generalization ability, (ii) robustness, (iii) training dataset size needed, (iv) training error, and (v) training process stability. The results show that the developed hybrid quantum-classical neural network outperforms both quantum and classical neural networks, and hence can improve deep learning-based power flow analysis in the noisy-intermediate-scale quantum (NISQ) and fault-tolerant quantum (FTQ) era.",
+    "link": "https://arxiv.org/abs/2311.06293",
+    "context": "Title: Quantum Neural Networks for Power Flow Analysis\nAbstract: arXiv:2311.06293v2 Announce Type: replace-cross  Abstract: This paper explores the potential application of quantum and hybrid quantum-classical neural networks in power flow analysis. Experiments are conducted using two datasets based on 4-bus and 33-bus test systems. A systematic performance comparison is also conducted among quantum, hybrid quantum-classical, and classical neural networks. The comparison is based on (i) generalization ability, (ii) robustness, (iii) training dataset size needed, (iv) training error, and (v) training process stability. The results show that the developed hybrid quantum-classical neural network outperforms both quantum and classical neural networks, and hence can improve deep learning-based power flow analysis in the noisy-intermediate-scale quantum (NISQ) and fault-tolerant quantum (FTQ) era.",
+    "path": "papers/23/11/2311.06293.json",
+    "total_tokens": 746,
+    "translated_title": "用于电力流分析的量子神经网络",
+    "translated_abstract": "本文探讨了量子和混合量子-经典神经网络在电力流分析中的潜在应用。实验使用基于4节点和33节点测试系统的两个数据集进行。还进行了量子、混合量子-经典和经典神经网络的系统性性能比较。比较基于(i) 泛化能力，(ii) 鲁棒性，(iii) 需要的训练数据集大小，(iv) 训练误差，和(v) 训练过程稳定性。结果显示，开发的混合量子-经典神经网络表现优于量子和经典神经网络，因此可以改进基于深度学习的电力流分析在噪声中等规模量子（NISQ）和容错量子（FTQ）时代。",
+    "tldr": "混合量子-经典神经网络在电力流分析中表现优越，有望改进深度学习在量子计算时代的应用。",
+    "en_tdlr": "Hybrid quantum-classical neural networks outperform quantum and classical neural networks in power flow analysis, promising improvements in deep learning applications in the quantum computing era."
+}

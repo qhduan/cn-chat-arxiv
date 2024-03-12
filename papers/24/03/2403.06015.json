@@ -1,0 +1,11 @@
+{
+    "title": "Grafting: Making Random Forests Consistent",
+    "abstract": "arXiv:2403.06015v1 Announce Type: cross  Abstract: Despite their performance and widespread use, little is known about the theory of Random Forests. A major unanswered question is whether, or when, the Random Forest algorithm is consistent. The literature explores various variants of the classic Random Forest algorithm to address this question and known short-comings of the method. This paper is a contribution to this literature. Specifically, the suitability of grafting consistent estimators onto a shallow CART is explored. It is shown that this approach has a consistency guarantee and performs well in empirical settings.",
+    "link": "https://arxiv.org/abs/2403.06015",
+    "context": "Title: Grafting: Making Random Forests Consistent\nAbstract: arXiv:2403.06015v1 Announce Type: cross  Abstract: Despite their performance and widespread use, little is known about the theory of Random Forests. A major unanswered question is whether, or when, the Random Forest algorithm is consistent. The literature explores various variants of the classic Random Forest algorithm to address this question and known short-comings of the method. This paper is a contribution to this literature. Specifically, the suitability of grafting consistent estimators onto a shallow CART is explored. It is shown that this approach has a consistency guarantee and performs well in empirical settings.",
+    "path": "papers/24/03/2403.06015.json",
+    "total_tokens": 678,
+    "translated_title": "移植：使随机森林一致化",
+    "translated_abstract": "尽管随机森林在性能和广泛应用方面表现出色，但关于其理论知之甚少。一个未解之谜是随机森林算法是否一致化，或何时达到一致化。文献探讨了经典随机森林算法的各种变体，以解决这一问题和已知缺陷。本文为这一文献做出了贡献。具体来说，探讨了将一致化估计器移植到浅层CART的适用性。结果表明，这种方法具有一致化保证并在实证环境中表现良好。",
+    "tldr": "本文探讨了将一致化估计器移植到浅层决策树（CART）的适用性，并表明这种方法具有一致性保证并在实证环境中表现良好。"
+}

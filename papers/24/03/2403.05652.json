@@ -1,0 +1,12 @@
+{
+    "title": "What is different between these datasets?",
+    "abstract": "arXiv:2403.05652v1 Announce Type: cross  Abstract: The performance of machine learning models heavily depends on the quality of input data, yet real-world applications often encounter various data-related challenges. One such challenge could arise when curating training data or deploying the model in the real world - two comparable datasets in the same domain may have different distributions. While numerous techniques exist for detecting distribution shifts, the literature lacks comprehensive approaches for explaining dataset differences in a human-understandable manner. To address this gap, we propose a suite of interpretable methods (toolbox) for comparing two datasets. We demonstrate the versatility of our approach across diverse data modalities, including tabular data, language, images, and signals in both low and high-dimensional settings. Our methods not only outperform comparable and related approaches in terms of explanation quality and correctness, but also provide actionable,",
+    "link": "https://arxiv.org/abs/2403.05652",
+    "context": "Title: What is different between these datasets?\nAbstract: arXiv:2403.05652v1 Announce Type: cross  Abstract: The performance of machine learning models heavily depends on the quality of input data, yet real-world applications often encounter various data-related challenges. One such challenge could arise when curating training data or deploying the model in the real world - two comparable datasets in the same domain may have different distributions. While numerous techniques exist for detecting distribution shifts, the literature lacks comprehensive approaches for explaining dataset differences in a human-understandable manner. To address this gap, we propose a suite of interpretable methods (toolbox) for comparing two datasets. We demonstrate the versatility of our approach across diverse data modalities, including tabular data, language, images, and signals in both low and high-dimensional settings. Our methods not only outperform comparable and related approaches in terms of explanation quality and correctness, but also provide actionable,",
+    "path": "papers/24/03/2403.05652.json",
+    "total_tokens": 558,
+    "translated_title": "这里是翻译过的论文标题",
+    "translated_abstract": "这里是翻译过的论文摘要",
+    "tldr": "这里是中文总结出的一句话要点",
+    "en_tdlr": "这里是英文总结出的一句话要点"
+}

@@ -1,0 +1,11 @@
+{
+    "title": "The entropy corrected geometric Brownian motion",
+    "abstract": "arXiv:2403.06253v1 Announce Type: cross  Abstract: The geometric Brownian motion (GBM) is widely employed for modeling stochastic processes, yet its solutions are characterized by the log-normal distribution. This comprises predictive capabilities of GBM mainly in terms of forecasting applications. Here, entropy corrections to GBM are proposed to go beyond log-normality restrictions and better account for intricacies of real systems. It is shown that GBM solutions can be effectively refined by arguing that entropy is reduced when deterministic content of considered data increases. Notable improvements over conventional GBM are observed for several cases of non-log-normal distributions, ranging from a dice roll experiment to real world data.",
+    "link": "https://arxiv.org/abs/2403.06253",
+    "context": "Title: The entropy corrected geometric Brownian motion\nAbstract: arXiv:2403.06253v1 Announce Type: cross  Abstract: The geometric Brownian motion (GBM) is widely employed for modeling stochastic processes, yet its solutions are characterized by the log-normal distribution. This comprises predictive capabilities of GBM mainly in terms of forecasting applications. Here, entropy corrections to GBM are proposed to go beyond log-normality restrictions and better account for intricacies of real systems. It is shown that GBM solutions can be effectively refined by arguing that entropy is reduced when deterministic content of considered data increases. Notable improvements over conventional GBM are observed for several cases of non-log-normal distributions, ranging from a dice roll experiment to real world data.",
+    "path": "papers/24/03/2403.06253.json",
+    "total_tokens": 653,
+    "translated_title": "熵校正的几何布朗运动",
+    "translated_abstract": "几何布朗运动(GBM)被广泛用于建模随机过程，然而其解决方案以对数正态分布为特征。这限制了GBM主要在预测应用方面的预测能力。本文提出了对GBM的熵校正，旨在超越对数正态性限制，更好地考虑真实系统的复杂性。结果表明，通过论证确定性数据内容增加时熵减少，可以有效改进GBM的解决方案。在多种非对数正态分布的情况下观察到对传统GBM的显着改进，从掷骰子实验到现实世界数据。",
+    "tldr": "提出了对几何布朗运动的熵校正方法，能够有效地改进对非对数正态分布的数据进行建模的能力。"
+}

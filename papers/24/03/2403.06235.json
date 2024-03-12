@@ -1,0 +1,12 @@
+{
+    "title": "Probabilistic Neural Circuits",
+    "abstract": "arXiv:2403.06235v1 Announce Type: cross  Abstract: Probabilistic circuits (PCs) have gained prominence in recent years as a versatile framework for discussing probabilistic models that support tractable queries and are yet expressive enough to model complex probability distributions. Nevertheless, tractability comes at a cost: PCs are less expressive than neural networks. In this paper we introduce probabilistic neural circuits (PNCs), which strike a balance between PCs and neural nets in terms of tractability and expressive power. Theoretically, we show that PNCs can be interpreted as deep mixtures of Bayesian networks. Experimentally, we demonstrate that PNCs constitute powerful function approximators.",
+    "link": "https://arxiv.org/abs/2403.06235",
+    "context": "Title: Probabilistic Neural Circuits\nAbstract: arXiv:2403.06235v1 Announce Type: cross  Abstract: Probabilistic circuits (PCs) have gained prominence in recent years as a versatile framework for discussing probabilistic models that support tractable queries and are yet expressive enough to model complex probability distributions. Nevertheless, tractability comes at a cost: PCs are less expressive than neural networks. In this paper we introduce probabilistic neural circuits (PNCs), which strike a balance between PCs and neural nets in terms of tractability and expressive power. Theoretically, we show that PNCs can be interpreted as deep mixtures of Bayesian networks. Experimentally, we demonstrate that PNCs constitute powerful function approximators.",
+    "path": "papers/24/03/2403.06235.json",
+    "total_tokens": 676,
+    "translated_title": "概率神经电路",
+    "translated_abstract": "概率电路（PCs）近年来作为一个灵活的框架，被广泛应用于探讨支持可处理查询且足够表达复杂概率分布的概率模型。然而，可处理性是有代价的：PCs比神经网络表达能力更弱。在本文中，我们介绍了概率神经电路（PNCs），在可处理性和表达能力方面在PCs和神经网络之间取得了平衡。理论上，我们展示了PNCs可以被解释为贝叶斯网络的深度混合。实验上，我们证明了PNCs构成了强大的函数逼近器。",
+    "tldr": "PNCs将概率电路和神经网络的特点结合起来，可以解释为深层混合的贝叶斯网络，同时作为强大的函数逼近器。",
+    "en_tdlr": "PNCs combine the characteristics of probabilistic circuits and neural networks, which can be interpreted as deep mixtures of Bayesian networks and serve as powerful function approximators."
+}

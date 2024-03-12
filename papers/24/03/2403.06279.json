@@ -1,0 +1,11 @@
+{
+    "title": "Fine-tuning of diffusion models via stochastic control: entropy regularization and beyond",
+    "abstract": "arXiv:2403.06279v1 Announce Type: cross  Abstract: This paper aims to develop and provide a rigorous treatment to the problem of entropy regularized fine-tuning in the context of continuous-time diffusion models, which was recently proposed by Uehara et al. ( arXiv:2402.15194, 2024). We also show how the analysis can be extended to fine-tuning involving a general $f$-divergence regularizer.",
+    "link": "https://arxiv.org/abs/2403.06279",
+    "context": "Title: Fine-tuning of diffusion models via stochastic control: entropy regularization and beyond\nAbstract: arXiv:2403.06279v1 Announce Type: cross  Abstract: This paper aims to develop and provide a rigorous treatment to the problem of entropy regularized fine-tuning in the context of continuous-time diffusion models, which was recently proposed by Uehara et al. ( arXiv:2402.15194, 2024). We also show how the analysis can be extended to fine-tuning involving a general $f$-divergence regularizer.",
+    "path": "papers/24/03/2403.06279.json",
+    "total_tokens": 558,
+    "translated_title": "通过随机控制进行扩散模型的微调：熵正则化及更多",
+    "translated_abstract": "本文旨在发展并对连续时间扩散模型中熵正则化微调问题进行严格处理，该问题最近由上原等人提出。我们还展示了如何将分析扩展到涉及一般$f$-散度正则化的微调中。",
+    "tldr": "本文致力于研究连续时间扩散模型中的熵正则化微调问题，并展示了分析如何扩展到涉及一般$f$-散度正则化的微调中。"
+}

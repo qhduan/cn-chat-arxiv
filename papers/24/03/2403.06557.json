@@ -1,0 +1,12 @@
+{
+    "title": "Data-driven architecture to encode information in the kinematics of robots and artificial avatars",
+    "abstract": "arXiv:2403.06557v1 Announce Type: cross  Abstract: We present a data-driven control architecture for modifying the kinematics of robots and artificial avatars to encode specific information such as the presence or not of an emotion in the movements of an avatar or robot driven by a human operator. We validate our approach on an experimental dataset obtained during the reach-to-grasp phase of a pick-and-place task.",
+    "link": "https://arxiv.org/abs/2403.06557",
+    "context": "Title: Data-driven architecture to encode information in the kinematics of robots and artificial avatars\nAbstract: arXiv:2403.06557v1 Announce Type: cross  Abstract: We present a data-driven control architecture for modifying the kinematics of robots and artificial avatars to encode specific information such as the presence or not of an emotion in the movements of an avatar or robot driven by a human operator. We validate our approach on an experimental dataset obtained during the reach-to-grasp phase of a pick-and-place task.",
+    "path": "papers/24/03/2403.06557.json",
+    "total_tokens": 531,
+    "translated_title": "基于数据驱动的架构来编码机器人和人工角色的运动学信息",
+    "translated_abstract": "我们提出了一种数据驱动控制架构，用于修改机器人和人工角色的运动学，以编码特定信息，例如由人类操作员驱动的角色或机器人的运动中是否存在情绪。我们在一个拿取放置任务的抓取阶段实验数据集上验证了我们的方法。",
+    "tldr": "提出了一种数据驱动控制架构，用于编码机器人和人工角色的运动学信息，能够表达运动中的情绪信息。",
+    "en_tdlr": "Proposed a data-driven control architecture for encoding kinematic information in robots and artificial avatars to express emotional information in movements."
+}

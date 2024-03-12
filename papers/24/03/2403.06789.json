@@ -1,0 +1,11 @@
+{
+    "title": "SPLADE-v3: New baselines for SPLADE",
+    "abstract": "arXiv:2403.06789v1 Announce Type: cross  Abstract: A companion to the release of the latest version of the SPLADE library. We describe changes to the training structure and present our latest series of models -- SPLADE-v3. We compare this new version to BM25, SPLADE++, as well as re-rankers, and showcase its effectiveness via a meta-analysis over more than 40 query sets. SPLADE-v3 further pushes the limit of SPLADE models: it is statistically significantly more effective than both BM25 and SPLADE++, while comparing well to cross-encoder re-rankers. Specifically, it gets more than 40 MRR@10 on the MS MARCO dev set, and improves by 2% the out-of-domain results on the BEIR benchmark.",
+    "link": "https://arxiv.org/abs/2403.06789",
+    "context": "Title: SPLADE-v3: New baselines for SPLADE\nAbstract: arXiv:2403.06789v1 Announce Type: cross  Abstract: A companion to the release of the latest version of the SPLADE library. We describe changes to the training structure and present our latest series of models -- SPLADE-v3. We compare this new version to BM25, SPLADE++, as well as re-rankers, and showcase its effectiveness via a meta-analysis over more than 40 query sets. SPLADE-v3 further pushes the limit of SPLADE models: it is statistically significantly more effective than both BM25 and SPLADE++, while comparing well to cross-encoder re-rankers. Specifically, it gets more than 40 MRR@10 on the MS MARCO dev set, and improves by 2% the out-of-domain results on the BEIR benchmark.",
+    "path": "papers/24/03/2403.06789.json",
+    "total_tokens": 706,
+    "translated_title": "SPLADE-v3：SPLADE的新基准",
+    "translated_abstract": "这是SPLADE库最新版本发布的伴随物。我们描述了对训练结构的更改，并展示了最新一系列的模型--SPLADE-v3。我们将这个新版本与BM25、SPLADE++以及重新排序器进行比较，并通过对40多个查询集的元分析展示其有效性。SPLADE-v3进一步推动了SPLADE模型的极限：它在统计上显著比BM25和SPLADE++更为有效，同时与交叉编码器重新排序器相比较出色。具体而言，它在MS MARCO dev集上获得了40个以上的MRR@10，并在BEIR基准测试中将域外结果提高了2%。",
+    "tldr": "SPLADE-v3相对于BM25和SPLADE++在效果上更为显著，同时与交叉编码器重新排序器相比较出色，具有更高的性能表现。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Slowly Changing Adversarial Bandit Algorithms are Efficient for Discounted MDPs",
+    "abstract": "arXiv:2205.09056v3 Announce Type: replace  Abstract: Reinforcement learning generalizes multi-armed bandit problems with additional difficulties of a longer planning horizon and unknown transition kernel. We explore a black-box reduction from discounted infinite-horizon tabular reinforcement learning to multi-armed bandits, where, specifically, an independent bandit learner is placed in each state. We show that, under ergodicity and fast mixing assumptions, any slowly changing adversarial bandit algorithm achieving optimal regret in the adversarial bandit setting can also attain optimal expected regret in infinite-horizon discounted Markov decision processes, with respect to the number of rounds $T$. Furthermore, we examine our reduction using a specific instance of the exponential-weight algorithm.",
+    "link": "https://arxiv.org/abs/2205.09056",
+    "context": "Title: Slowly Changing Adversarial Bandit Algorithms are Efficient for Discounted MDPs\nAbstract: arXiv:2205.09056v3 Announce Type: replace  Abstract: Reinforcement learning generalizes multi-armed bandit problems with additional difficulties of a longer planning horizon and unknown transition kernel. We explore a black-box reduction from discounted infinite-horizon tabular reinforcement learning to multi-armed bandits, where, specifically, an independent bandit learner is placed in each state. We show that, under ergodicity and fast mixing assumptions, any slowly changing adversarial bandit algorithm achieving optimal regret in the adversarial bandit setting can also attain optimal expected regret in infinite-horizon discounted Markov decision processes, with respect to the number of rounds $T$. Furthermore, we examine our reduction using a specific instance of the exponential-weight algorithm.",
+    "path": "papers/22/05/2205.09056.json",
+    "total_tokens": 788,
+    "translated_title": "缓慢变化的对抗式赌博算法在折扣马尔可夫决策过程中效率高效",
+    "translated_abstract": "强化学习将多臂老虎机问题泛化为具有更长计划视野和未知转移内核的额外困难。我们探讨了从折扣无限视野表格强化学习到多臂老虎机的黑盒降维，其中特别是在每个状态放置一个独立的老虎机学习器。我们表明，在遍历性和快速混合的假设下，任何在对抗式老虎机设置中实现最优遗憾的缓慢变化对抗式老虎机算法也可以在无限视野折扣马尔可夫决策过程中实现最优期望遗憾，关于回合数$T$。此外，我们使用指数加权算法的特定实例来检验我们的降维过程。",
+    "tldr": "研究证明，在一些假设下，任何缓慢变化的对抗式老虎机算法在折扣马尔可夫决策过程中能够达到最优期望遗憾。",
+    "en_tdlr": "The study shows that under certain assumptions, any slowly changing adversarial bandit algorithm can achieve optimal expected regret in discounted Markov decision processes."
+}

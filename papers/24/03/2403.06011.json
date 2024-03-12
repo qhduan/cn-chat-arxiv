@@ -1,0 +1,12 @@
+{
+    "title": "Reinforcement Learning Paycheck Optimization for Multivariate Financial Goals",
+    "abstract": "arXiv:2403.06011v1 Announce Type: new  Abstract: We study paycheck optimization, which examines how to allocate income in order to achieve several competing financial goals. For paycheck optimization, a quantitative methodology is missing, due to a lack of a suitable problem formulation. To deal with this issue, we formulate the problem as a utility maximization problem. The proposed formulation is able to (i) unify different financial goals; (ii) incorporate user preferences regarding the goals; (iii) handle stochastic interest rates. The proposed formulation also facilitates an end-to-end reinforcement learning solution, which is implemented on a variety of problem settings.",
+    "link": "https://arxiv.org/abs/2403.06011",
+    "context": "Title: Reinforcement Learning Paycheck Optimization for Multivariate Financial Goals\nAbstract: arXiv:2403.06011v1 Announce Type: new  Abstract: We study paycheck optimization, which examines how to allocate income in order to achieve several competing financial goals. For paycheck optimization, a quantitative methodology is missing, due to a lack of a suitable problem formulation. To deal with this issue, we formulate the problem as a utility maximization problem. The proposed formulation is able to (i) unify different financial goals; (ii) incorporate user preferences regarding the goals; (iii) handle stochastic interest rates. The proposed formulation also facilitates an end-to-end reinforcement learning solution, which is implemented on a variety of problem settings.",
+    "path": "papers/24/03/2403.06011.json",
+    "total_tokens": 707,
+    "translated_title": "针对多元金融目标的强化学习工资优化",
+    "translated_abstract": "我们研究了工资优化，探讨如何分配收入以实现多个竞争性金融目标。对于工资优化来说，由于缺乏合适的问题形式化，缺少定量方法。为了解决这个问题，我们将问题形式化为效用最大化问题。提出的形式化能够（i）统一不同的金融目标；（ii）整合用户关于目标的偏好；（iii）处理随机利率。所提出的形式化还有助于端到端的强化学习解决方案，在多种问题设置上进行了实现。",
+    "tldr": "该论文提出了一种针对多个竞争性金融目标的工资优化问题的强化学习方法，并提出了统一不同目标、整合用户偏好和处理随机利率的问题形式化，为解决这一问题提供了新思路。",
+    "en_tdlr": "This paper presents a reinforcement learning approach to paycheck optimization for multiple competing financial goals, proposing a formulation that unifies different goals, incorporates user preferences, and handles stochastic interest rates, offering a new perspective on addressing this problem."
+}

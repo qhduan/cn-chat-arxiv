@@ -1,0 +1,11 @@
+{
+    "title": "Car Damage Detection and Patch-to-Patch Self-supervised Image Alignment",
+    "abstract": "arXiv:2403.06674v1 Announce Type: cross  Abstract: Most computer vision applications aim to identify pixels in a scene and use them for diverse purposes. One intriguing application is car damage detection for insurance carriers which tends to detect all car damages by comparing both pre-trip and post-trip images, even requiring two components: (i) car damage detection; (ii) image alignment. Firstly, we implemented a Mask R-CNN model to detect car damages on custom images. Whereas for the image alignment section, we especially propose a novel self-supervised Patch-to-Patch SimCLR inspired alignment approach to find perspective transformations between custom pre/post car rental images except for traditional computer vision methods.",
+    "link": "https://arxiv.org/abs/2403.06674",
+    "context": "Title: Car Damage Detection and Patch-to-Patch Self-supervised Image Alignment\nAbstract: arXiv:2403.06674v1 Announce Type: cross  Abstract: Most computer vision applications aim to identify pixels in a scene and use them for diverse purposes. One intriguing application is car damage detection for insurance carriers which tends to detect all car damages by comparing both pre-trip and post-trip images, even requiring two components: (i) car damage detection; (ii) image alignment. Firstly, we implemented a Mask R-CNN model to detect car damages on custom images. Whereas for the image alignment section, we especially propose a novel self-supervised Patch-to-Patch SimCLR inspired alignment approach to find perspective transformations between custom pre/post car rental images except for traditional computer vision methods.",
+    "path": "papers/24/03/2403.06674.json",
+    "total_tokens": 780,
+    "translated_title": "汽车损伤检测及补丁到补丁的自监督图像对齐",
+    "translated_abstract": "大多数计算机视觉应用旨在识别场景中的像素，并将它们用于各种目的。其中一个有趣的应用是保险公司的汽车损伤检测，它倾向于通过比较行程前后的图片来检测所有汽车损伤，甚至需要两个组件：(i) 汽车损伤检测；(ii) 图像对齐。首先，我们实现了一个Mask R-CNN模型来检测自定义图片上的汽车损伤。而对于图像对齐部分，我们特别提出了一种新颖的受自监督启发的补丁对补丁SimCLR对齐方法，以找到自定义行程前/行程后汽车租赁图片之间的透视变换，除了传统的计算机视觉方法。",
+    "tldr": "该论文提出了一种新颖的基于自监督的补丁对补丁SimCLR对齐方法，用于汽车损伤检测的图像对齐，实现了汽车损伤检测和图像对齐两大组件的结合。"
+}

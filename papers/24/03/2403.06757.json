@@ -1,0 +1,12 @@
+{
+    "title": "Koopman Ensembles for Probabilistic Time Series Forecasting",
+    "abstract": "arXiv:2403.06757v1 Announce Type: new  Abstract: In the context of an increasing popularity of data-driven models to represent dynamical systems, many machine learning-based implementations of the Koopman operator have recently been proposed. However, the vast majority of those works are limited to deterministic predictions, while the knowledge of uncertainty is critical in fields like meteorology and climatology. In this work, we investigate the training of ensembles of models to produce stochastic outputs. We show through experiments on real remote sensing image time series that ensembles of independently trained models are highly overconfident and that using a training criterion that explicitly encourages the members to produce predictions with high inter-model variances greatly improves the uncertainty quantification of the ensembles.",
+    "link": "https://arxiv.org/abs/2403.06757",
+    "context": "Title: Koopman Ensembles for Probabilistic Time Series Forecasting\nAbstract: arXiv:2403.06757v1 Announce Type: new  Abstract: In the context of an increasing popularity of data-driven models to represent dynamical systems, many machine learning-based implementations of the Koopman operator have recently been proposed. However, the vast majority of those works are limited to deterministic predictions, while the knowledge of uncertainty is critical in fields like meteorology and climatology. In this work, we investigate the training of ensembles of models to produce stochastic outputs. We show through experiments on real remote sensing image time series that ensembles of independently trained models are highly overconfident and that using a training criterion that explicitly encourages the members to produce predictions with high inter-model variances greatly improves the uncertainty quantification of the ensembles.",
+    "path": "papers/24/03/2403.06757.json",
+    "total_tokens": 734,
+    "translated_title": "Koopman合奏用于概率时间序列预测",
+    "translated_abstract": "在数据驱动模型越来越受欢迎的背景下，最近提出了许多基于机器学习的Koopman算子的实现。然而，绝大多数这类研究仅限于确定性预测，而在像气象学和气象学这样的领域，知识的不确定性是至关重要的。在这项工作中，我们研究了训练模型合奏以产生随机输出。我们通过对真实遥感图像时间序列进行实验表明，独立训练模型的集成过分自信，并且使用明确鼓励成员生成具有高模型间方差的预测的训练标准极大改善了集成的不确定性量化。",
+    "tldr": "研究提出了一种Koopman合奏方法，通过训练模型合奏产生具有高模型间方差的预测，从而改善集成模型的不确定性量化。",
+    "en_tdlr": "This work proposes a Koopman ensemble method that trains models to produce predictions with high inter-model variances, improving the uncertainty quantification of the ensemble."
+}

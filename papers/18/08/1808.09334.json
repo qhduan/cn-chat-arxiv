@@ -1,0 +1,12 @@
+{
+    "title": "A Discriminative Latent-Variable Model for Bilingual Lexicon Induction",
+    "abstract": "arXiv:1808.09334v3 Announce Type: replace  Abstract: We introduce a novel discriminative latent variable model for bilingual lexicon induction. Our model combines the bipartite matching dictionary prior of Haghighi et al. (2008) with a representation-based approach (Artetxe et al., 2017). To train the model, we derive an efficient Viterbi EM algorithm. We provide empirical results on six language pairs under two metrics and show that the prior improves the induced bilingual lexicons. We also demonstrate how previous work may be viewed as a similarly fashioned latent-variable model, albeit with a different prior.",
+    "link": "https://arxiv.org/abs/1808.09334",
+    "context": "Title: A Discriminative Latent-Variable Model for Bilingual Lexicon Induction\nAbstract: arXiv:1808.09334v3 Announce Type: replace  Abstract: We introduce a novel discriminative latent variable model for bilingual lexicon induction. Our model combines the bipartite matching dictionary prior of Haghighi et al. (2008) with a representation-based approach (Artetxe et al., 2017). To train the model, we derive an efficient Viterbi EM algorithm. We provide empirical results on six language pairs under two metrics and show that the prior improves the induced bilingual lexicons. We also demonstrate how previous work may be viewed as a similarly fashioned latent-variable model, albeit with a different prior.",
+    "path": "papers/18/08/1808.09334.json",
+    "total_tokens": 711,
+    "translated_title": "一种用于双语词典归纳的判别式潜变量模型",
+    "translated_abstract": "我们引入了一种新颖的用于双语词典归纳的判别式潜变量模型。我们的模型将Haghighi等人（2008）的二分匹配词典先验与基于表示的方法（Artetxe等人，2017）相结合。为了训练模型，我们推导出了高效的Viterbi EM算法。我们在两个度量标准下对六种语言对进行了实证结果，并显示先验改善了诱导的双语词典。我们还演示了如何将先前的工作视为类似风格的潜变量模型，尽管有不同的先验。",
+    "tldr": "引入判别式潜变量模型，结合先前研究的词典先验和表示法，提出了用于双语词典归纳的新方法，并通过实验证据展示先验可以改善诱导的双语词典。",
+    "en_tdlr": "Introduced discriminative latent variable model for bilingual lexicon induction, combining dictionary prior and representation-based approach, showing improvement in induced bilingual lexicons through empirical results."
+}

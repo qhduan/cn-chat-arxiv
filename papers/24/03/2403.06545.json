@@ -1,0 +1,11 @@
+{
+    "title": "ReStainGAN: Leveraging IHC to IF Stain Domain Translation for in-silico Data Generation",
+    "abstract": "arXiv:2403.06545v1 Announce Type: cross  Abstract: The creation of in-silico datasets can expand the utility of existing annotations to new domains with different staining patterns in computational pathology. As such, it has the potential to significantly lower the cost associated with building large and pixel precise datasets needed to train supervised deep learning models. We propose a novel approach for the generation of in-silico immunohistochemistry (IHC) images by disentangling morphology specific IHC stains into separate image channels in immunofluorescence (IF) images. The proposed approach qualitatively and quantitatively outperforms baseline methods as proven by training nucleus segmentation models on the created in-silico datasets.",
+    "link": "https://arxiv.org/abs/2403.06545",
+    "context": "Title: ReStainGAN: Leveraging IHC to IF Stain Domain Translation for in-silico Data Generation\nAbstract: arXiv:2403.06545v1 Announce Type: cross  Abstract: The creation of in-silico datasets can expand the utility of existing annotations to new domains with different staining patterns in computational pathology. As such, it has the potential to significantly lower the cost associated with building large and pixel precise datasets needed to train supervised deep learning models. We propose a novel approach for the generation of in-silico immunohistochemistry (IHC) images by disentangling morphology specific IHC stains into separate image channels in immunofluorescence (IF) images. The proposed approach qualitatively and quantitatively outperforms baseline methods as proven by training nucleus segmentation models on the created in-silico datasets.",
+    "path": "papers/24/03/2403.06545.json",
+    "total_tokens": 818,
+    "translated_title": "ReStainGAN:利用IHC到IF染色域转换进行in-silico数据生成",
+    "translated_abstract": "arXiv:2403.06545v1 公告类型：交叉摘要：通过在计算病理学中扩展现有注释的实用性到具有不同染色模式的新领域中，可以创造in-silico数据集。因此，这有可能大幅降低构建训练监督深度学习模型所需的大型且像素精确的数据集的成本。我们提出了一种新颖方法，通过在免疫荧光（IF）图像中将形态特定的IHC染色分离成单独的图像通道，生成in-silico免疫组织化学（IHC）图像。所提出的方法在创建的in-silico数据集上通过训练细胞核分割模型在质量和数量上优于基线方法。",
+    "tldr": "提出了一种新的方法，通过将形态特定的IHC染色分解为单独的图像通道，生成了in-silico免疫组织化学（IHC）图像，该方法在训练细胞核分割模型时在质量和数量上优于基线方法。"
+}

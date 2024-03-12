@@ -1,0 +1,12 @@
+{
+    "title": "Can One Hear the Shape of a Decision Problem?",
+    "abstract": "arXiv:2403.06344v1 Announce Type: new  Abstract: We explore the connection between an agent's decision problem and her ranking of information structures. We find that a finite amount of ordinal data on the agent's ranking of experiments is enough to identify her (finite) set of undominated actions (up to relabeling and duplication) and the beliefs rendering each such action optimal. An additional smattering of cardinal data, comparing the relative value to the agent of finitely many pairs of experiments, identifies her utility function up to an action-independent payoff.",
+    "link": "https://arxiv.org/abs/2403.06344",
+    "context": "Title: Can One Hear the Shape of a Decision Problem?\nAbstract: arXiv:2403.06344v1 Announce Type: new  Abstract: We explore the connection between an agent's decision problem and her ranking of information structures. We find that a finite amount of ordinal data on the agent's ranking of experiments is enough to identify her (finite) set of undominated actions (up to relabeling and duplication) and the beliefs rendering each such action optimal. An additional smattering of cardinal data, comparing the relative value to the agent of finitely many pairs of experiments, identifies her utility function up to an action-independent payoff.",
+    "path": "papers/24/03/2403.06344.json",
+    "total_tokens": 632,
+    "translated_title": "能否通过声音了解一个决策问题的形状",
+    "translated_abstract": "我们探讨了一个agent的决策问题与她对信息结构的排名之间的联系。我们发现，有限数量的agent对实验排序的序数数据足以确定她的（有限）无支配行动集（通过重新标记和复制）以及使每个这样的行动最优的信念。额外的少量基数数据，将相对地评估agent对有限对实验的数对的价值，可以确定她的效用函数，直到不受行动独立的支付。",
+    "tldr": "研究发现，对于一个agent的决策问题，通过一定数量的排序数据可以识别其无支配行动集和使每个行动最优的信念，而通过少量基数数据可以确定其效用函数。",
+    "en_tdlr": "The study shows that for an agent's decision problem, a certain amount of ordinal data can identify the set of undominated actions and the beliefs rendering each action optimal, while a small amount of cardinal data can determine the utility function."
+}

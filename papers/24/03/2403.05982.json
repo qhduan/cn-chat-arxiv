@@ -1,0 +1,11 @@
+{
+    "title": "Enhanced Auto Language Prediction with Dictionary Capsule -- A Novel Approach",
+    "abstract": "arXiv:2403.05982v1 Announce Type: new  Abstract: The paper presents a novel Auto Language Prediction Dictionary Capsule (ALPDC) framework for language prediction and machine translation. The model uses a combination of neural networks and symbolic representations to predict the language of a given input text and then translate it to a target language using pre-built dictionaries. This research work also aims to translate the text of various languages to its literal meaning in English. The proposed model achieves state-of-the-art results on several benchmark datasets and significantly improves translation accuracy compared to existing methods. The results show the potential of the proposed method for practical use in multilingual communication and natural language processing tasks.",
+    "link": "https://arxiv.org/abs/2403.05982",
+    "context": "Title: Enhanced Auto Language Prediction with Dictionary Capsule -- A Novel Approach\nAbstract: arXiv:2403.05982v1 Announce Type: new  Abstract: The paper presents a novel Auto Language Prediction Dictionary Capsule (ALPDC) framework for language prediction and machine translation. The model uses a combination of neural networks and symbolic representations to predict the language of a given input text and then translate it to a target language using pre-built dictionaries. This research work also aims to translate the text of various languages to its literal meaning in English. The proposed model achieves state-of-the-art results on several benchmark datasets and significantly improves translation accuracy compared to existing methods. The results show the potential of the proposed method for practical use in multilingual communication and natural language processing tasks.",
+    "path": "papers/24/03/2403.05982.json",
+    "total_tokens": 770,
+    "translated_title": "使用增强型字典胶囊的自动语言预测 -- 一种新颖方法",
+    "translated_abstract": "本文提出了一种新颖的自动语言预测字典胶囊（ALPDC）框架，用于语言预测和机器翻译。该模型使用神经网络和符号表示的组合来预测给定输入文本的语言，然后利用预先构建的字典将其翻译为目标语言。该研究还旨在将各种语言的文本翻译成英文的字面意思。所提出的模型在多个基准数据集上取得了最先进的结果，并与现有方法相比显著提高了翻译准确性。结果显示了所提出的方法在多语言交流和自然语言处理任务中的实际应用潜力。",
+    "tldr": "该研究提出了一种使用增强型字典胶囊的自动语言预测框架，结合神经网络和符号表示，实现了多语言翻译准确性方面的重大改进，适用于多语言交流和自然语言处理任务。"
+}

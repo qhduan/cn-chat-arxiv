@@ -1,0 +1,12 @@
+{
+    "title": "Evidence, Definitions and Algorithms regarding the Existence of Cohesive-Convergence Groups in Neural Network Optimization",
+    "abstract": "arXiv:2403.05610v1 Announce Type: new  Abstract: Understanding the convergence process of neural networks is one of the most complex and crucial issues in the field of machine learning. Despite the close association of notable successes in this domain with the convergence of artificial neural networks, this concept remains predominantly theoretical. In reality, due to the non-convex nature of the optimization problems that artificial neural networks tackle, very few trained networks actually achieve convergence. To expand recent research efforts on artificial-neural-network convergence, this paper will discuss a different approach based on observations of cohesive-convergence groups emerging during the optimization process of an artificial neural network.",
+    "link": "https://arxiv.org/abs/2403.05610",
+    "context": "Title: Evidence, Definitions and Algorithms regarding the Existence of Cohesive-Convergence Groups in Neural Network Optimization\nAbstract: arXiv:2403.05610v1 Announce Type: new  Abstract: Understanding the convergence process of neural networks is one of the most complex and crucial issues in the field of machine learning. Despite the close association of notable successes in this domain with the convergence of artificial neural networks, this concept remains predominantly theoretical. In reality, due to the non-convex nature of the optimization problems that artificial neural networks tackle, very few trained networks actually achieve convergence. To expand recent research efforts on artificial-neural-network convergence, this paper will discuss a different approach based on observations of cohesive-convergence groups emerging during the optimization process of an artificial neural network.",
+    "path": "papers/24/03/2403.05610.json",
+    "total_tokens": 708,
+    "translated_title": "关于神经网络优化中凝聚收敛群体存在的证据、定义和算法",
+    "translated_abstract": "神经网络的收敛过程是机器学习领域中最复杂和关键的问题之一。尽管人工神经网络的收敛与该领域的显著成功密切相关，但这一概念仍然主要是理论性的。实际上，由于人工神经网络处理的优化问题具有非凸性质，很少训练的网络实际上实现收敛。为了扩大人工神经网络收敛的最新研究成果，本文将讨论一种基于人工神经网络优化过程中出现的凝聚收敛群体观察的不同方法。",
+    "tldr": "论文讨论了一种新的方法，通过观察人工神经网络优化过程中出现的凝聚收敛群体，以拓展最近关于神经网络收敛问题的研究。",
+    "en_tdlr": "The paper discusses a new approach by observing cohesive-convergence groups emerging during the optimization process of artificial neural networks to expand recent research efforts on neural network convergence."
+}
