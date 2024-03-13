@@ -1,0 +1,12 @@
+{
+    "title": "Understanding and Avoiding AI Failures: A Practical Guide",
+    "abstract": "arXiv:2104.12582v4 Announce Type: replace-cross  Abstract: As AI technologies increase in capability and ubiquity, AI accidents are becoming more common. Based on normal accident theory, high reliability theory, and open systems theory, we create a framework for understanding the risks associated with AI applications. In addition, we also use AI safety principles to quantify the unique risks of increased intelligence and human-like qualities in AI. Together, these two fields give a more complete picture of the risks of contemporary AI. By focusing on system properties near accidents instead of seeking a root cause of accidents, we identify where attention should be paid to safety for current generation AI systems.",
+    "link": "https://arxiv.org/abs/2104.12582",
+    "context": "Title: Understanding and Avoiding AI Failures: A Practical Guide\nAbstract: arXiv:2104.12582v4 Announce Type: replace-cross  Abstract: As AI technologies increase in capability and ubiquity, AI accidents are becoming more common. Based on normal accident theory, high reliability theory, and open systems theory, we create a framework for understanding the risks associated with AI applications. In addition, we also use AI safety principles to quantify the unique risks of increased intelligence and human-like qualities in AI. Together, these two fields give a more complete picture of the risks of contemporary AI. By focusing on system properties near accidents instead of seeking a root cause of accidents, we identify where attention should be paid to safety for current generation AI systems.",
+    "path": "papers/21/04/2104.12582.json",
+    "total_tokens": 760,
+    "translated_title": "理解并避免人工智能失败：实用指南",
+    "translated_abstract": "随着人工智能技术在能力和普及程度上的增加，人工智能事故正在变得越来越常见。基于正常事故理论、高可靠性理论和开放系统理论，我们建立了一个框架来理解与人工智能应用相关的风险。此外，我们还运用人工智能安全原则来量化增加智能和人类特质在人工智能中带来的独特风险。两个领域共同描绘了当代人工智能的风险更完整的图景。通过聚焦事故附近的系统属性而不是寻找事故的根本原因，我们确定了应该关注当前一代人工智能系统安全性的位置。",
+    "tldr": "基于正常事故理论、高可靠性理论和开放系统理论，结合人工智能安全原则，建立了一个框架来理解当前人工智能应用的风险，强调了关注当前一代人工智能系统安全性的重要性。",
+    "en_tdlr": "A framework integrating normal accident theory, high reliability theory, and open systems theory with AI safety principles to understand the risks associated with contemporary AI applications, emphasizing the importance of focusing on safety for current generation AI systems."
+}

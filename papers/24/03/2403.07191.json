@@ -1,0 +1,11 @@
+{
+    "title": "$\\mathbf{(N,K)}$-Puzzle: A Cost-Efficient Testbed for Benchmarking Reinforcement Learning Algorithms in Generative Language Model",
+    "abstract": "arXiv:2403.07191v1 Announce Type: cross  Abstract: Recent advances in reinforcement learning (RL) algorithms aim to enhance the performance of language models at scale. Yet, there is a noticeable absence of a cost-effective and standardized testbed tailored to evaluating and comparing these algorithms. To bridge this gap, we present a generalized version of the 24-Puzzle: the $(N,K)$-Puzzle, which challenges language models to reach a target value $K$ with $N$ integers. We evaluate the effectiveness of established RL algorithms such as Proximal Policy Optimization (PPO), alongside novel approaches like Identity Policy Optimization (IPO) and Direct Policy Optimization (DPO).",
+    "link": "https://arxiv.org/abs/2403.07191",
+    "context": "Title: $\\mathbf{(N,K)}$-Puzzle: A Cost-Efficient Testbed for Benchmarking Reinforcement Learning Algorithms in Generative Language Model\nAbstract: arXiv:2403.07191v1 Announce Type: cross  Abstract: Recent advances in reinforcement learning (RL) algorithms aim to enhance the performance of language models at scale. Yet, there is a noticeable absence of a cost-effective and standardized testbed tailored to evaluating and comparing these algorithms. To bridge this gap, we present a generalized version of the 24-Puzzle: the $(N,K)$-Puzzle, which challenges language models to reach a target value $K$ with $N$ integers. We evaluate the effectiveness of established RL algorithms such as Proximal Policy Optimization (PPO), alongside novel approaches like Identity Policy Optimization (IPO) and Direct Policy Optimization (DPO).",
+    "path": "papers/24/03/2403.07191.json",
+    "total_tokens": 702,
+    "translated_title": "$\\mathbf{(N,K)}$-Puzzle：一种用于基准测试生成语言模型中强化学习算法的成本效益测试平台",
+    "translated_abstract": "强化学习（RL）算法的最新进展旨在提高规模化语言模型的性能。 然而，缺乏一种成本效益且标准化的测试平台，专门用于评估和比较这些算法。 为填补这一空白，我们提出了24-Puzzle的一般化版本：$(N, K)$-Puzzle，挑战语言模型以使用$N$个整数达到目标值$K$。 我们评估了已建立的RL算法（如Proximal Policy Optimization（PPO）），以及新颖方法（如Identity Policy Optimization（IPO）和Direct Policy Optimization（DPO））的有效性。",
+    "tldr": "提出了一种$(N,K)$-Puzzle测试平台，用于评估和比较生成语言模型中的强化学习算法。"
+}

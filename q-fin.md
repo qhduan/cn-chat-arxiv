@@ -2,277 +2,112 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [From Factor Models to Deep Learning: Machine Learning in Reshaping Empirical Asset Pricing](https://arxiv.org/abs/2403.06779) | 本文全面回顾了机器学习和人工智能在金融领域应用，探讨了ML模型如何改善资产回报预测和组合优化，以及在应用ML中面临的挑战。 |
-| [^2] | [Financial Default Prediction via Motif-preserving Graph Neural Network with Curriculum Learning](https://arxiv.org/abs/2403.06482) | 本文提出了一种 motif-preserving Graph Neural Network with curriculum learning (MotifGNN)模型，通过联合学习原始图的低阶结构和基于多视图图案的高阶结构，用于金融违约预测。 |
-| [^3] | [A New Testing Method for Justification Bias Using High-Frequency Data of Health and Employment](https://arxiv.org/abs/2403.06368) | 提出了一种利用高频数据测试健康和就业领域证明偏见的新方法，结果表明，退休后出现的自我评估健康急剧下降的情况可能是由于偏见导致，但随着时间间隔缩短，偏见的证据逐渐减少。 |
-| [^4] | [A Unifying Approach for the Pricing of Debt Securities](https://arxiv.org/abs/2403.06303) | 提出了一种统一的框架，用于在一般的时间非齐次短期利率扩散过程下定价债券，包括债券、债券期权、可赎回/可买入债券和可转换债券；通过CTMC近似获得了闭式矩阵表达式来近似计算债券和债券期权价格；开发了用于定价可赎回/可买入债务的简单高效算法；可以将近似模型完美拟合到当前市场利率期限结构。 |
-| [^5] | [The entropy corrected geometric Brownian motion](https://arxiv.org/abs/2403.06253) | 提出了对几何布朗运动的熵校正方法，能够有效地改进对非对数正态分布的数据进行建模的能力。 |
-| [^6] | [On Geometrically Convex Risk Measures](https://arxiv.org/abs/2403.06188) | 该论文引入了GG-凸共轭的概念，并研究了GG-凸风险度量，推导出广义的对偶表示，扩展了现有研究，并对Orlicz风险度量家族进行了研究。 |
-| [^7] | [Algorithmic Collusion and Price Discrimination: The Over-Usage of Data](https://arxiv.org/abs/2403.06150) | 本文通过模拟研究探讨了算法性暗中勾结和价格歧视之间的相互作用，发现了导致共谋结果的两种新机制。 |
-| [^8] | [Capital Structure Adjustment Speed and Expected Returns: Examination of Information Asymmetry as a Moderating Role](https://arxiv.org/abs/2403.06035) | 本研究考察了信息不对称对资本结构调整速度与预期收益之间关系的调节影响，结果发现资本结构调整速度与预期收益相关，并且信息不对称对二者关系产生积极影响。 |
-| [^9] | [Network formation and efficiency in linear-quadratic games: An experimental study](https://arxiv.org/abs/2403.05913) | 个体在线性二次博弈中的网络形成中提供过多的努力，但是他们的回报却低于均衡回报，因为他们建立的连接不足以实现最佳努力的有益溢出。 |
-| [^10] | [The impact of social status on the formation of collaborative ties and effort provision: An experimental study](https://arxiv.org/abs/2403.05830) | 社会地位竞争鼓励了更高的努力提供和强化了协作关系，但排名信息导致了较低的努力提供。社会地位对结果影响不显著。 |
-| [^11] | [Generative Probabilistic Forecasting with Applications in Market Operations](https://arxiv.org/abs/2403.05743) | 提出了一种基于Wiener-Kallianpur创新表示的生成式概率预测方法，包括自编码器和新颖的深度学习算法，具有渐近最优性和结构收敛性质，适用于实时市场运营中的高动态和波动时间序列。 |
-| [^12] | [Investigating Changes of Water Quality in Reservoirs based on Flood and Inflow Fluctuations](https://arxiv.org/abs/2403.05671) | 研究者模拟了两个分层水库的热结构以探讨洪水时水质的变化，发现洪水期间流量增加可能造成水质恶化和溶解氧含量下降。 |
-| [^13] | [AI in ESG for Financial Institutions: An Industrial Survey](https://arxiv.org/abs/2403.05541) | 本文调查了金融机构中人工智能在ESG倡议中的应用，阐明了AI在加强ESG框架方面的必要性和影响，以及AI如何增强金融活动和可持续发展目标之间的复杂相互作用。 |
-| [^14] | [Quantum-Inspired Tensor Neural Networks for Option Pricing](https://arxiv.org/abs/2212.14076) | 引入了Tensor神经网络（TNN）和张量网络初始化器（TNN Init），TNN可以在获得与DNN相同精度的情况下提供显著的参数节省，并展示了训练速度更快的优点。 |
-| [^15] | [Limited or Biased: Modeling Sub-Rational Human Investors in Financial Markets](https://arxiv.org/abs/2210.08569) | 该研究引入了一个灵活模型，利用强化学习结合五个不同方面的人类次理性，在金融市场模拟中准确重现了先前研究中观察到的行为特征。 |
-| [^16] | [Boundary conditions at infinity for Black-Scholes equations.](http://arxiv.org/abs/2401.05549) | 提出了一种计算Markov局部鞅情况下远期合约价格的数值方法，通过有限网格和边界条件获得上下界，并且在无穷大时逼近准确值。 |
-| [^17] | [Economic complexity and the sustainability transition: A review of data, methods, and literature.](http://arxiv.org/abs/2308.07172) | 经济复杂性方法在研究经济转型和可持续发展方面具有巨大潜力。本文回顾和总结了从经济复杂性的角度研究可持续发展转型的相关数据、方法和文献。学者们提出了识别绿色产品特征和评估产业准备情况的建议，并对经济复杂性指标与环境可持续性相关指标之间的关系进行了调查。 |
-| [^18] | [Application of Tensor Neural Networks to Pricing Bermudan Swaptions.](http://arxiv.org/abs/2304.09750) | 本论文用张量神经网络(TNN)对百慕大掉期进行定价，相比于传统方法，TNN具有更快的收敛速度和减少参数敏感度的优点。 |
+| [^1] | [Price Gouging or Market Forces? Fairness Perceptions of Price Hikes in the Pandemic](https://arxiv.org/abs/2403.07617) | 受疫情影响，调查显示人们更容忍基于成本冲击而非需求冲击的价格上涨，不过不同种群及商品之间存在较大差异。 |
+| [^2] | [Carbon Economics of Different Agricultural Practices for Farming Soil](https://arxiv.org/abs/2403.07530) | 不同耕作实践如有机耕作、覆盖作物、保护耕作和农林复合对提高土壤有机碳含量起着重要作用，通过增加微生物活性、保持土壤结构和加快养分循环等方式来可持续增加土壤SOC含量。 |
+| [^3] | [Study of the Impact of the Big Data Era on Accounting and Auditing](https://arxiv.org/abs/2403.07180) | 大数据革新了会计和审计领域，专业人士需要利用人工智能和机器学习进行数据分析和异常检测，以确保财务报告的准确性和透明度。 |
+| [^4] | [Small Price Changes, Sales Volume, and Menu Cost](https://arxiv.org/abs/2403.07166) | 小幅价格变动与销售数量相关，高销售量产品更容易出现小幅价格变动，这一发现在不同层面上都得到验证。 |
+| [^5] | [Reasons behind the Water Crisis and its Potential Health Outcomes](https://arxiv.org/abs/2403.07019) | 研究探讨水危机的原因，包括人口增长、气候变化和水管理技术，并提出改善卫生和卫生程序、水管理和保护技术等多种方法以减轻水资源匮乏对人类健康的潜在影响。 |
+| [^6] | [Bayesian Analysis of High Dimensional Vector Error Correction Model](https://arxiv.org/abs/2312.17061) | 本论文提出了一种针对高维向量误差修正模型的贝叶斯分析方法，通过分析协整矩阵来确定协整秩，具有较高效率和应用前景，能有效研究S&P 500指数的构成部分，尤其在低波动率组合的识别方面具有优势。 |
+| [^7] | [Some Tradeoffs of Competition in Grant Contests](https://arxiv.org/abs/2207.02379) | 本文通过分析科学家的时间利用调查数据，发现科学家在筹款和研究上的时间分配表现出正向努力外部性，即追求赠款时产生的社会价值，从而改变了竞争与赠款竞赛的总体生产力之间的关系。 |
 
 # 详细
 
-[^1]: 从因子模型到深度学习：机器学习对实证资产定价的重塑
+[^1]: 疫情中的价格操纵还是市场力量？公正感知与价格上涨的关系
 
-    From Factor Models to Deep Learning: Machine Learning in Reshaping Empirical Asset Pricing
+    Price Gouging or Market Forces? Fairness Perceptions of Price Hikes in the Pandemic
 
-    [https://arxiv.org/abs/2403.06779](https://arxiv.org/abs/2403.06779)
+    [https://arxiv.org/abs/2403.07617](https://arxiv.org/abs/2403.07617)
 
-    本文全面回顾了机器学习和人工智能在金融领域应用，探讨了ML模型如何改善资产回报预测和组合优化，以及在应用ML中面临的挑战。
-
-    
-
-    本文全面回顾了机器学习（ML）和人工智能在金融领域，特别是在资产定价领域的应用。首先总结了传统的资产定价模型，并检验其在捕捉金融市场复杂性方面的局限性。文章探讨了1）ML模型（包括监督学习、无监督学习、半监督学习和强化学习）如何提供多功能框架来解决这些复杂性，并2）将先进的ML算法纳入传统金融模型中如何加强回报预测和组合优化。这些方法可以通过建模结构性变化和整合文本和图像等异构数据源适应不断变化的市场动态。此外，本文探讨了在资产定价中应用ML面临的挑战，涉及在决策中越来越多的解释需求以及在复杂模型中缓解过拟合问题。
-
-    arXiv:2403.06779v1 Announce Type: new  Abstract: This paper comprehensively reviews the application of machine learning (ML) and AI in finance, specifically in the context of asset pricing. It starts by summarizing the traditional asset pricing models and examining their limitations in capturing the complexities of financial markets. It explores how 1) ML models, including supervised, unsupervised, semi-supervised, and reinforcement learning, provide versatile frameworks to address these complexities, and 2) the incorporation of advanced ML algorithms into traditional financial models enhances return prediction and portfolio optimization. These methods can adapt to changing market dynamics by modeling structural changes and incorporating heterogeneous data sources, such as text and images. In addition, this paper explores challenges in applying ML in asset pricing, addressing the growing demand for explainability in decision-making and mitigating overfitting in complex models. This pap
-    
-[^2]: 通过保留图神经网络进行金融违约预测的课程学习
-
-    Financial Default Prediction via Motif-preserving Graph Neural Network with Curriculum Learning
-
-    [https://arxiv.org/abs/2403.06482](https://arxiv.org/abs/2403.06482)
-
-    本文提出了一种 motif-preserving Graph Neural Network with curriculum learning (MotifGNN)模型，通过联合学习原始图的低阶结构和基于多视图图案的高阶结构，用于金融违约预测。
+    受疫情影响，调查显示人们更容忍基于成本冲击而非需求冲击的价格上涨，不过不同种群及商品之间存在较大差异。
 
     
 
-    用户的金融违约预测在信用风险预测和管理中起着至关重要的作用，旨在预测用户未来未能偿还贷款的概率。先前的方法主要提取用户个人特征，构建二分类模型进行违约预测，但对于信息有限的用户，这些方法无法得到满意的结果。本文通过提出一种保留子图模式的图神经网络与课程学习（MotifGNN），填补了这一缺口，共同学习原始图的低阶结构和基于多视图图案的子图的高阶结构，用于金融违约预测。
+    我们报告了我们在2020年在美国和以色列进行的调查结果，当时随着疫情传播，许多价格出现了上涨。为了评估受访者对价格上涨的看法，我们关注了在疫情期间价格上涨的商品，包括一些必需品。与双重权利原则一致，我们发现如果价格上涨是由成本冲击引起的，受访者认为这种情况更为可接受，而如果是由需求冲击导致的，则认为不太可接受。然而，我们还发现两个种群以及商品之间存在很大的差异。
 
-    arXiv:2403.06482v1 Announce Type: cross  Abstract: User financial default prediction plays a critical role in credit risk forecasting and management. It aims at predicting the probability that the user will fail to make the repayments in the future. Previous methods mainly extract a set of user individual features regarding his own profiles and behaviors and build a binary-classification model to make default predictions. However, these methods cannot get satisfied results, especially for users with limited information. Although recent efforts suggest that default prediction can be improved by social relations, they fail to capture the higher-order topology structure at the level of small subgraph patterns. In this paper, we fill in this gap by proposing a motif-preserving Graph Neural Network with curriculum learning (MotifGNN) to jointly learn the lower-order structures from the original graph and higherorder structures from multi-view motif-based graphs for financial default predict
+    arXiv:2403.07617v1 Announce Type: new  Abstract: We report the results of surveys we conducted in the US and Israel in 2020, a time when many prices increased following the spread of the pandemic. To assess respondents perceptions of price increases, we focus on goods whose prices have increased during the pandemic, including some essential goods. Consistent with the principle of dual entitlement, we find that respondents perceive price increases as more acceptable if they are due to cost shocks than if they are due to demand shocks. However, we also find large differences across the two populations, as well as across goods.
     
-[^3]: 利用健康和就业的高频数据对证明偏见进行新的测试方法
+[^2]: 不同农业实践对耕作土壤的碳经济学
 
-    A New Testing Method for Justification Bias Using High-Frequency Data of Health and Employment
+    Carbon Economics of Different Agricultural Practices for Farming Soil
 
-    [https://arxiv.org/abs/2403.06368](https://arxiv.org/abs/2403.06368)
+    [https://arxiv.org/abs/2403.07530](https://arxiv.org/abs/2403.07530)
 
-    提出了一种利用高频数据测试健康和就业领域证明偏见的新方法，结果表明，退休后出现的自我评估健康急剧下降的情况可能是由于偏见导致，但随着时间间隔缩短，偏见的证据逐渐减少。
-
-    
-
-    Justification bias，即退休者可能会报告健康状况下降以合理化其退休，对于退休研究中广泛使用的自评健康测量提出了重大关注。本文介绍了一种新颖的方法来测试这种偏见的存在，类似于回归不连续性的精神。基本思想是，在退休后立即出现的自我评估健康的突然变化更可能是由偏见引起的。我们的策略得益于提供每月信息的独特高频数据，相比之下，这些数据提供比典型的两年一次更频繁的就业、自我评估健康和客观健康状况的信息。在更广泛的退休后时间范围内，我们观察到自我评估的健康状况下降，可能源于证明偏见和实际健康状况的变化。然而，这种不利影响在时间间隔较短时减小，表明没有这种偏见的证据。我们的方法还验证了...
-
-    arXiv:2403.06368v1 Announce Type: new  Abstract: Justification bias, wherein retirees may report poorer health to rationalize their retirement, poses a major concern to the widely-used measure of self-assessed health in retirement studies. This paper introduces a novel method for testing the presence of this bias in the spirit of regression discontinuity. The underlying idea is that any sudden shift in self-assessed health immediately following retirement is more likely attributable to the bias. Our strategy is facilitated by a unique high-frequency data that offers monthly, in contrast to the typical biennial, information on employment, self-assessed health, and objective health conditions. Across a wider post-retirement time frame, we observe a decline in self-assessed health, potentially stemming from both justification bias and changes in actual health. However, this adverse effect diminishes with shorter intervals, indicating no evidence of such bias. Our method also validates a w
-    
-[^4]: 一种关于债券定价的统一方法
-
-    A Unifying Approach for the Pricing of Debt Securities
-
-    [https://arxiv.org/abs/2403.06303](https://arxiv.org/abs/2403.06303)
-
-    提出了一种统一的框架，用于在一般的时间非齐次短期利率扩散过程下定价债券，包括债券、债券期权、可赎回/可买入债券和可转换债券；通过CTMC近似获得了闭式矩阵表达式来近似计算债券和债券期权价格；开发了用于定价可赎回/可买入债务的简单高效算法；可以将近似模型完美拟合到当前市场利率期限结构。
+    不同耕作实践如有机耕作、覆盖作物、保护耕作和农林复合对提高土壤有机碳含量起着重要作用，通过增加微生物活性、保持土壤结构和加快养分循环等方式来可持续增加土壤SOC含量。
 
     
 
-    我们提出了一个统一的框架，用于在一般的时间非齐次短期利率扩散过程下定价债券。涵盖了债券、债券期权、可赎回/可买入债券和可转换债券(CBs)的定价。通过连续时间马尔可夫链 (CTMC) 近似，我们获得了用于在一般一维短期利率过程下近似计算债券和债券期权价格的闭式矩阵表达式。还开发了一种简单且高效的算法来定价可赎回/可买入债务。零息债券价格的闭式表达式的可用性允许将近似模型完美拟合到当前市场利率期限结构，无论所选的基础扩散过程的复杂性如何。我们进一步考虑了在一般的双向时间非齐次扩散过程下对可转换债券（CBs）的定价，以建模股票和短期利率动力学。也考虑了信用风险。
+    土壤有机碳（SOC）的流失对世界各地的农业可持续性构成严重危险。本综述考察了各种耕作实践及其对土壤有机碳储存的影响。在仔细审阅文献后，大部分研究表明，有机耕作、覆盖作物、保护耕作和农林复合等不同耕作实践在可持续增加土壤SOC含量中发挥着重要作用。覆盖作物的根系分泌物增加了微生物活性，并有助于将复杂有机化合物分解为有机碳。保护耕作增强了土壤结构，并在不扰乱土壤的情况下保持碳储存。农林复合系统增加有机碳输入，加快养分循环，因为树木和作物具有共生关系。间作和轮作在改变植物残体组成和促进碳储存方面发挥作用。
 
-    arXiv:2403.06303v1 Announce Type: new  Abstract: We propose a unifying framework for the pricing of debt securities under general time-inhomogeneous short-rate diffusion processes. The pricing of bonds, bond options, callable/putable bonds, and convertible bonds (CBs) are covered. Using continuous-time Markov chain (CTMC) approximation, we obtain closed-form matrix expressions to approximate the price of bonds and bond options under general one-dimensional short-rate processes. A simple and efficient algorithm is also developed to price callable/putable debts. The availability of a closed-form expression for the price of zero-coupon bonds allows for the perfect fit of the approximated model to the current market term structure of interest rates, regardless of the complexity of the underlying diffusion process selected. We further consider the pricing of CBs under general bi-dimensional time-inhomogeneous diffusion processes to model equity and short-rate dynamics. Credit risk is also i
+    arXiv:2403.07530v1 Announce Type: new  Abstract: The loss of soil organic carbon (SOC) poses a severe danger to agricultural sustainability around the World. This review examines various farming practices and their impact on soil organic carbon storage. After a careful review of the literature, most of the research indicated that different farming practices, such as organic farming, cover crops, conservation tillage, and agroforestry, play vital roles in increasing the SOC content of the soil sustainably. Root exudation from cover crops increases microbial activity and helps break down complex organic compounds into organic carbon. Conservation tillage enhances the soil structure and maintains carbon storage without disturbing the soil. Agroforestry systems boost organic carbon input and fasten nutrient cycling because the trees and crops have symbiotic relationships. Intercropping and crop rotations have a role in changing the composition of plant residues and promoting carbon storage
     
-[^5]: 熵校正的几何布朗运动
+[^3]: 大数据时代对会计和审计的影响研究
 
-    The entropy corrected geometric Brownian motion
+    Study of the Impact of the Big Data Era on Accounting and Auditing
 
-    [https://arxiv.org/abs/2403.06253](https://arxiv.org/abs/2403.06253)
+    [https://arxiv.org/abs/2403.07180](https://arxiv.org/abs/2403.07180)
 
-    提出了对几何布朗运动的熵校正方法，能够有效地改进对非对数正态分布的数据进行建模的能力。
-
-    
-
-    几何布朗运动(GBM)被广泛用于建模随机过程，然而其解决方案以对数正态分布为特征。这限制了GBM主要在预测应用方面的预测能力。本文提出了对GBM的熵校正，旨在超越对数正态性限制，更好地考虑真实系统的复杂性。结果表明，通过论证确定性数据内容增加时熵减少，可以有效改进GBM的解决方案。在多种非对数正态分布的情况下观察到对传统GBM的显着改进，从掷骰子实验到现实世界数据。
-
-    arXiv:2403.06253v1 Announce Type: cross  Abstract: The geometric Brownian motion (GBM) is widely employed for modeling stochastic processes, yet its solutions are characterized by the log-normal distribution. This comprises predictive capabilities of GBM mainly in terms of forecasting applications. Here, entropy corrections to GBM are proposed to go beyond log-normality restrictions and better account for intricacies of real systems. It is shown that GBM solutions can be effectively refined by arguing that entropy is reduced when deterministic content of considered data increases. Notable improvements over conventional GBM are observed for several cases of non-log-normal distributions, ranging from a dice roll experiment to real world data.
-    
-[^6]: 关于几何凸风险度量
-
-    On Geometrically Convex Risk Measures
-
-    [https://arxiv.org/abs/2403.06188](https://arxiv.org/abs/2403.06188)
-
-    该论文引入了GG-凸共轭的概念，并研究了GG-凸风险度量，推导出广义的对偶表示，扩展了现有研究，并对Orlicz风险度量家族进行了研究。
+    大数据革新了会计和审计领域，专业人士需要利用人工智能和机器学习进行数据分析和异常检测，以确保财务报告的准确性和透明度。
 
     
 
-    几何凸函数是一类有趣的函数，通过在凸性定义中用几何平均值替代算术平均值获得。最近提出，几何凸性可能是金融风险度量的一个合理特性。我们引入了GG-凸共轭的概念，类似于Fenchel引入的经典凸共轭，并讨论了其性质。我们展示了GG-凸共轭如何在类似于在[2,3]中引入的一般对偶变换概念的精神下被公理化。然后我们研究了GG-凸风险度量的研究，这些度量被定义为定义在适当空间的GG-凸泛函。我们推导了一个广义的对偶表示，扩展了在额外的单调性和正齐次性假设下在[4]中提出的类似表达。作为一个著名的例子，我们研究了Orlicz风险度量家族。
+    大数据革新了会计和审计，提供了深刻的见解，同时也带来了诸如数据隐私和安全等挑战。随着来自物联网、社交媒体和交易的数据，传统实践正在发生变化。专业人士必须适应这些变化，利用人工智能和机器学习进行高效的数据分析和异常检测。克服这些挑战的关键在于增强的分析工具、持续学习和行业合作。通过解决这些领域，会计和审计领域可以利用大数据的潜力，同时确保财务报告的准确性、透明度和完整性。
 
-    arXiv:2403.06188v1 Announce Type: new  Abstract: Geometrically convex functions constitute an interesting class of functions obtained by replacing the arithmetic mean with the geometric mean in the definition of convexity. As recently suggested, geometric convexity may be a sensible property for financial risk measures ([7,13,4]).   We introduce a notion of GG-convex conjugate, parallel to the classical notion of convex conjugate introduced by Fenchel, and we discuss its properties. We show how GG-convex conjugation can be axiomatized in the spirit of the notion of general duality transforms introduced in [2,3].   We then move to the study of GG-convex risk measures, which are defined as GG-convex functionals defined on suitable spaces of random variables. We derive a general dual representation that extends analogous expressions presented in [4] under the additional assumptions of monotonicity and positive homogeneity. As a prominent example, we study the family of Orlicz risk measure
+    arXiv:2403.07180v1 Announce Type: new  Abstract: Big data revolutionizes accounting and auditing, offering deep insights but also introducing challenges like data privacy and security. With data from IoT, social media, and transactions, traditional practices are evolving. Professionals must adapt to these changes, utilizing AI and machine learning for efficient data analysis and anomaly detection. Key to overcoming these challenges are enhanced analytics tools, continuous learning, and industry collaboration. By addressing these areas, the accounting and auditing fields can harness big data's potential while ensuring accuracy, transparency, and integrity in financial reporting. Keywords: Big Data, Accounting, Audit, Data Privacy, AI, Machine Learning, Transparency.
     
-[^7]: 算法共谋与价格歧视：数据过度使用
+[^4]: 小幅价格变动、销售数量和菜单成本
 
-    Algorithmic Collusion and Price Discrimination: The Over-Usage of Data
+    Small Price Changes, Sales Volume, and Menu Cost
 
-    [https://arxiv.org/abs/2403.06150](https://arxiv.org/abs/2403.06150)
+    [https://arxiv.org/abs/2403.07166](https://arxiv.org/abs/2403.07166)
 
-    本文通过模拟研究探讨了算法性暗中勾结和价格歧视之间的相互作用，发现了导致共谋结果的两种新机制。
-
-    
-
-    随着企业定价策略越来越依赖算法，两个问题引起了人们的关注：算法性暗中勾结和价格歧视。本文通过模拟研究了这两个问题之间的互动。每个时期，一个新的买家带着独立同分布的支付意愿到来，每家公司观察到关于支付意愿的私人信号，采用Q学习算法来设定价格。我们记录下两种导致共谋结果的新机制。在信息不对称的情况下，具有信息优势的算法采取了“诱饵和限制-利用”策略，通过设置更高的价格牺牲了一些信号上的利润，同时通过设置更低的价格在其余信号上利用有限的利润。在对称信息结构下，对一些信号的竞争促进了对其余信号上的超竞争价格的收敛。算法往往会导致
-
-    arXiv:2403.06150v1 Announce Type: new  Abstract: As firms' pricing strategies increasingly rely on algorithms, two concerns have received much attention: algorithmic tacit collusion and price discrimination. This paper investigates the interaction between these two issues through simulations. In each period, a new buyer arrives with independently and identically distributed willingness to pay (WTP), and each firm, observing private signals about WTP, adopts Q-learning algorithms to set prices. We document two novel mechanisms that lead to collusive outcomes. Under asymmetric information, the algorithm with information advantage adopts a Bait-and-Restrained-Exploit strategy, surrendering profits on some signals by setting higher prices, while exploiting limited profits on the remaining signals by setting much lower prices. Under a symmetric information structure, competition on some signals facilitates convergence to supra-competitive prices on the remaining signals. Algorithms tend to 
-    
-[^8]: 资本结构调整速度与预期收益：信息不对称作为调节角色的考察
-
-    Capital Structure Adjustment Speed and Expected Returns: Examination of Information Asymmetry as a Moderating Role
-
-    [https://arxiv.org/abs/2403.06035](https://arxiv.org/abs/2403.06035)
-
-    本研究考察了信息不对称对资本结构调整速度与预期收益之间关系的调节影响，结果发现资本结构调整速度与预期收益相关，并且信息不对称对二者关系产生积极影响。
+    小幅价格变动与销售数量相关，高销售量产品更容易出现小幅价格变动，这一发现在不同层面上都得到验证。
 
     
 
-    股东对股票回报和波动的期望不断变化，受到财务状况限制和不良资本结构的影响，这限制了管理者限制价格趋势的变化，以覆盖由不利情况引发和注入的风险。本研究考察了信息不对称对资本结构调整与预期收益之间关系的调节影响。提取了在德黑兰证券交易所上市的120家公司的数据，并采用混合数据回归模型来测试研究假设。研究结果表明，资本结构调整速度与预期收益相关。此外，信息不对称积极影响资本结构调整速度与预期收益之间的关系。
+    许多零售价格数据集中发现小幅价格变动的现象通常被视为一个谜题。我们展示了一个可能的解释，即小幅价格变动存在的一个原因与销售数量有关，这一观察在现有文献中被忽视。通过分析一个包含价格和销售数量信息的大型零售扫描仪价格数据集，我们发现当产品销售数量较高时，小幅价格变动更为频繁。这一发现在产品类别之间、产品类别内部以及单个产品方面都成立，且对于各种敏感性分析都具有稳健性，例如测量误差、小幅价格变动的定义、价格同步度的加入、生产者规模、用于计算平均销售数量的时间跨度、收入、竞争、购物者特征等。
 
-    arXiv:2403.06035v1 Announce Type: new  Abstract: Shareholders' expectations of stock returns and fluctuations are constantly changing due to restrictions in financial status and undesirable capital structure, which constrain managers to limit the changes in price trends in order to cover the risk instigated and infused by the unfavorable situation. The present research examines the moderating impact of information asymmetry on the relationship between capital structure adjustment and expected returns. The data from 120 companies approved in the Tehran Stock Exchange were extracted, and a hybrid data regression model was used to test the research hypotheses. Findings indicate that the capital structure adjustment speed correlates with the expected returns. Moreover, the information asymmetry positively affects the relationship between capital structure adjustment speed and expected returns.
+    arXiv:2403.07166v1 Announce Type: new  Abstract: The finding of small price changes in many retail price datasets is often viewed as a puzzle. We show that a possible explanation for the presence of small price changes is related to sales volume, an observation that has been overlooked in the existing literature. Analyzing a large retail scanner price dataset that contains information on both prices and sales volume, we find that small price changes are more frequent when products sales volume is high. This finding holds across product categories, within product categories, and for individual products. It is also robust to various sensitivity analyses such as measurement errors, the definition of small price changes, the inclusion of measures of price synchronization, the size of producers, the time horizon used to compute the average sales volume, the revenues, the competition, shoppers characteristics, etc.
     
-[^9]: 线性二次博弈中的网络形成和效率：一个实验研究
+[^5]: 水危机及其潜在健康影响的原因
 
-    Network formation and efficiency in linear-quadratic games: An experimental study
+    Reasons behind the Water Crisis and its Potential Health Outcomes
 
-    [https://arxiv.org/abs/2403.05913](https://arxiv.org/abs/2403.05913)
+    [https://arxiv.org/abs/2403.07019](https://arxiv.org/abs/2403.07019)
 
-    个体在线性二次博弈中的网络形成中提供过多的努力，但是他们的回报却低于均衡回报，因为他们建立的连接不足以实现最佳努力的有益溢出。
-
-    
-
-    我们通过实验研究了线性二次博弈中的努力提供和网络形成，该博弈以正外部性和网络邻居之间努力选择的互补性为特征。我们将实验结果与均衡和有效分配进行比较，并研究团体规模和连接成本的影响。我们发现，相对于他们形成的网络上的均衡水平，个体提供的努力过多。然而，他们的回报低于均衡回报，因为他们建立的链接比最优水平少，限制了努力提供的有益溢出。减少连接成本并不显著增加网络的联系性，福利损失在较大的团体中更大。个人连接到团体中努力提供者中提供最高努力的人，并忽视相对努力较低的提供者的链接，即使这些链接是有益的。这种效应解释了网络中缺乏链接的现象。
-
-    arXiv:2403.05913v1 Announce Type: new  Abstract: We experimentally study effort provision and network formation in the linear-quadratic game characterized by positive externality and complementarity of effort choices among network neighbors. We compare experimental outcomes to the equilibrium and efficient allocations and study the impact of group size and linking costs. We find that individuals overprovide effort relative to the equilibrium level on the network they form. However, their payoffs are lower than the equilibrium payoffs because they create fewer links than it is optimal which limits the beneficial spillovers of effort provision. Reducing the linking costs does not significantly increase the connectedness of the network and the welfare loss is higher in larger groups. Individuals connect to the highest effort providers in the group and ignore links to relative low effort providers, even if those links would be beneficial to form. This effect explains the lack of links in t
-    
-[^10]: 社会地位对协作关系和努力提供形成的影响：一项实验研究
-
-    The impact of social status on the formation of collaborative ties and effort provision: An experimental study
-
-    [https://arxiv.org/abs/2403.05830](https://arxiv.org/abs/2403.05830)
-
-    社会地位竞争鼓励了更高的努力提供和强化了协作关系，但排名信息导致了较低的努力提供。社会地位对结果影响不显著。
+    研究探讨水危机的原因，包括人口增长、气候变化和水管理技术，并提出改善卫生和卫生程序、水管理和保护技术等多种方法以减轻水资源匮乏对人类健康的潜在影响。
 
     
 
-    我们研究社会地位竞争是否会促使在个体与他们的网络邻居协作时提供更高的努力和效率。我们考虑了一个实验室实验，在该实验中，个体选择了一项昂贵的合作努力以及他们的网络邻居。他们从邻居的努力中获益，而直接邻居的努力选择是战略互补的。我们在2x2的因子设计中引入了两种社会地位类型：1) 个体因为入链而获得货币利益，代表受欢迎程度；2) 他们接收有关他们在群体中相对收益排名的反馈意见。我们发现，链路利益会增加努力提供并加强协作关系，相对于无社会地位的基线处理。相反，排名信息会降低努力，因为个体开始为更高排名而竞争。总体而言，我们发现社会地位对结果并没有明显影响。
+    全球范围内，水危机已成为影响发展中国家和工业化国家的重大问题。缺水会通过增加感染水传播疾病、脱水和营养不良的可能性来危害公共健康。本研究旨在研究水问题的原因及其对人类健康的可能影响。研究审视了导致水危机的原因，包括人口增长、气候变化和低效的水管理技术。研究还揭示了水资源匮乏对人类健康的结果，如传染病的传播、更高的饥饿和脱水风险，以及心理压力。研究进一步提出了应对水情况并减轻其对人类健康潜在影响的几种方法。这些疗法包括改善卫生和卫生程序、水管理和保护技术，如雨水收集。
 
-    arXiv:2403.05830v1 Announce Type: new  Abstract: We study whether competition for social status induces higher effort provision and efficiency when individuals collaborate with their network neighbors. We consider a laboratory experiment in which individuals choose a costly collaborative effort and their network neighbors. They benefit from their neighbors' effort and effort choices of direct neighbors are strategic complements. We introduce two types of social status in a 2x2 factorial design: 1) individuals receive monetary benefits for incoming links representing popularity; 2) they receive feedback on their relative payoff ranking within the group. We find that link benefits induce higher effort provision and strengthen the collaborative ties relative to the Baseline treatment without social status. In contrast, the ranking information induces lower effort as individuals start competing for higher ranking. Overall, we find that social status has no significant impact on the number 
+    arXiv:2403.07019v1 Announce Type: new  Abstract: Globally, the water crisis has become a significant problem that affects developing and industrialized nations. Water shortage can harm public health by increasing the chance of contracting water-borne diseases, dehydration, and malnutrition. This study aims to examine the causes of the water problem and its likely effects on human health. The study scrutinizes the reasons behind the water crisis, including population increase, climate change, and inefficient water management techniques. The results of a lack of water on human health, such as the spread of infectious diseases, a higher risk of starvation and dehydration, and psychological stress, are also concealed in the study. The research further suggests several ways to deal with the water situation and lessen its potential outcomes on human health. These remedies include enhanced sanitation and hygiene procedures, water management, and conservation techniques like rainwater gatherin
     
-[^11]: 具有市场运营应用的生成式概率预测
+[^6]: 高维向量误差修正模型的贝叶斯分析
 
-    Generative Probabilistic Forecasting with Applications in Market Operations
+    Bayesian Analysis of High Dimensional Vector Error Correction Model
 
-    [https://arxiv.org/abs/2403.05743](https://arxiv.org/abs/2403.05743)
+    [https://arxiv.org/abs/2312.17061](https://arxiv.org/abs/2312.17061)
 
-    提出了一种基于Wiener-Kallianpur创新表示的生成式概率预测方法，包括自编码器和新颖的深度学习算法，具有渐近最优性和结构收敛性质，适用于实时市场运营中的高动态和波动时间序列。
-
-    
-
-    本文提出了一种新颖的生成式概率预测方法，该方法源自于非参数时间序列的Wiener-Kallianpur创新表示。在生成人工智能的范式下，所提出的预测架构包括一个自编码器，将非参数多变量随机过程转化为规范的创新序列，从中根据过去样本生成未来时间序列样本，条件是它们的概率分布取决于过去样本。提出了一种新的深度学习算法，将潜在过程限制为具有匹配自编码器输入-输出条件概率分布的独立同分布序列。建立了所提出的生成式预测方法的渐近最优性和结构收敛性质。该方法在实时市场运营中涉及高度动态和波动时间序列的三个应用方面。
-
-    arXiv:2403.05743v1 Announce Type: cross  Abstract: This paper presents a novel generative probabilistic forecasting approach derived from the Wiener-Kallianpur innovation representation of nonparametric time series. Under the paradigm of generative artificial intelligence, the proposed forecasting architecture includes an autoencoder that transforms nonparametric multivariate random processes into canonical innovation sequences, from which future time series samples are generated according to their probability distributions conditioned on past samples. A novel deep-learning algorithm is proposed that constrains the latent process to be an independent and identically distributed sequence with matching autoencoder input-output conditional probability distributions. Asymptotic optimality and structural convergence properties of the proposed generative forecasting approach are established. Three applications involving highly dynamic and volatile time series in real-time market operations a
-    
-[^12]: 基于洪水和入流波动的水库水质变化研究
-
-    Investigating Changes of Water Quality in Reservoirs based on Flood and Inflow Fluctuations
-
-    [https://arxiv.org/abs/2403.05671](https://arxiv.org/abs/2403.05671)
-
-    研究者模拟了两个分层水库的热结构以探讨洪水时水质的变化，发现洪水期间流量增加可能造成水质恶化和溶解氧含量下降。
+    本论文提出了一种针对高维向量误差修正模型的贝叶斯分析方法，通过分析协整矩阵来确定协整秩，具有较高效率和应用前景，能有效研究S&P 500指数的构成部分，尤其在低波动率组合的识别方面具有优势。
 
     
 
-    水温和溶解氧是水质和生态系统可持续性的重要指标。近年来，频繁且强烈的暴雨频繁发生，通过急剧增加称为暴洪的入流量，对水体的热结构和混合层深度产生影响。暴洪可以由突发的强降水事件在几分钟或几小时内发展而成。由于大量杂物和快速流动的水体，这种现象对水质有显着影响。洪水期间流量较大可能会恶化热层分层（具有不同密度层）的水体质量，并降低溶解氧含量。然而，目前尚不清楚这些参数能多好地代表湖泊对体量排放变化的响应。为解决这一问题，研究人员模拟了考虑拉贾涵养库为代表的两个分层水库的热结构。
+    向量误差修正模型(VECM)是分析多元非平稳时间序列之间协整关系的经典方法。本文着重于高维设置，寻求一种样本大小有效的方法来确定协整水平。我们的研究集中在贝叶斯方法上，分析协整矩阵，从而确定协整秩。我们设计了两种算法，并将它们应用于模拟示例中，在处理高数量变量和相对低数量观测时产生了有希望的结果。此外，我们将这种方法扩展到实证调查标准普尔500指数的组成部分，可在样本内训练和样本外测试期间找到低波动率组合。
 
-    arXiv:2403.05671v1 Announce Type: new  Abstract: Water temperature and dissolved oxygen are essential indicators of water quality and ecosystem sustainability. Lately, heavy rainfalls are happening frequently and forcefully affecting the thermal structure and mixing layers in depth by sharply increasing the volume of inflow entitled flash flood. It can occur by sudden intense precipitation and develop within minutes or hours. Because of heavy debris load and speedy water, this phenomenon has remarkable effects on water quality. A higher flow during floods may worsens water quality at lakes and reservoirs that are thermally stratified (with separate density layers) and decrease dissolved oxygen content. However, it is unclear how well these parameters represent the response of lakes to changes in volume discharge. To address this question, researchers simulate the thermal structure in two stratified reservoirs, considering the Rajae reservoir as a representative reservoir in the north o
+    arXiv:2312.17061v2 Announce Type: replace-cross  Abstract: Vector Error Correction Model (VECM) is a classic method to analyse cointegration relationships amongst multivariate non-stationary time series. In this paper, we focus on high dimensional setting and seek for sample-size-efficient methodology to determine the level of cointegration. Our investigation centres at a Bayesian approach to analyse the cointegration matrix, henceforth determining the cointegration rank. We design two algorithms and implement them on simulated examples, yielding promising results particularly when dealing with high number of variables and relatively low number of observations. Furthermore, we extend this methodology to empirically investigate the constituents of the S&P 500 index, where low-volatility portfolios can be found during both in-sample training and out-of-sample testing periods.
     
-[^13]: 金融机构ESG中的人工智能：一个产业调查
+[^7]: 竞争对赠款竞赛的一些权衡
 
-    AI in ESG for Financial Institutions: An Industrial Survey
+    Some Tradeoffs of Competition in Grant Contests
 
-    [https://arxiv.org/abs/2403.05541](https://arxiv.org/abs/2403.05541)
+    [https://arxiv.org/abs/2207.02379](https://arxiv.org/abs/2207.02379)
 
-    本文调查了金融机构中人工智能在ESG倡议中的应用，阐明了AI在加强ESG框架方面的必要性和影响，以及AI如何增强金融活动和可持续发展目标之间的复杂相互作用。
-
-    
-
-    人工智能（AI）日益融入金融行业的环境、社会和治理（ESG）倡议，代表了向更可持续和公平金融实践的范式转变。本文调查产业格局，阐明了AI在加强ESG框架中的必要性和影响。随着严格的监管要求和利益相关者意识的提高，金融机构（FIs）越来越被迫采纳ESG标准。AI成为在导航金融活动和可持续发展目标的复杂相互作用中的关键工具。我们的调查对ESG的三个主要支柱中的AI应用进行了分类，阐明了AI如何增强分析能力、风险评估、客户参与、报告准确性等方面。此外，我们深入探讨了围绕数据使用和模型开发的关键考虑因素。
-
-    arXiv:2403.05541v1 Announce Type: cross  Abstract: The burgeoning integration of Artificial Intelligence (AI) into Environmental, Social, and Governance (ESG) initiatives within the financial sector represents a paradigm shift towards more sus-tainable and equitable financial practices. This paper surveys the industrial landscape to delineate the necessity and impact of AI in bolstering ESG frameworks. With the advent of stringent regulatory requirements and heightened stakeholder awareness, financial institutions (FIs) are increasingly compelled to adopt ESG criteria. AI emerges as a pivotal tool in navigating the complex in-terplay of financial activities and sustainability goals. Our survey categorizes AI applications across three main pillars of ESG, illustrating how AI enhances analytical capabilities, risk assessment, customer engagement, reporting accuracy and more. Further, we delve into the critical con-siderations surrounding the use of data and the development of models, und
-    
-[^14]: 量子启发的张量神经网络用于期权定价
-
-    Quantum-Inspired Tensor Neural Networks for Option Pricing
-
-    [https://arxiv.org/abs/2212.14076](https://arxiv.org/abs/2212.14076)
-
-    引入了Tensor神经网络（TNN）和张量网络初始化器（TNN Init），TNN可以在获得与DNN相同精度的情况下提供显著的参数节省，并展示了训练速度更快的优点。
+    本文通过分析科学家的时间利用调查数据，发现科学家在筹款和研究上的时间分配表现出正向努力外部性，即追求赠款时产生的社会价值，从而改变了竞争与赠款竞赛的总体生产力之间的关系。
 
     
 
-    深度学习的最新进展使我们能够通过在更高维度解决问题来解决维度诅咒（COD）。解决COD的这类方法之一导致我们解决高维PDE问题。这已经为解决从数学金融到工业应用中的随机控制等各种实际问题敞开了大门。尽管可行，但这些深度学习方法仍受到训练时间和内存的限制。Tensor神经网络（TNN）解决了这些缺点，它们证明可以在获得与经典密集神经网络（DNN）相同精度的情况下提供显著的参数节省。此外，我们还展示了相比DNN，TNN的训练速度更快，除了TNN，我们还介绍了张量网络初始化器（TNN Init），这是一种权重初始化方案，可以实现更快的收敛速度和更小的
+    在资助公共品时，资源通常通过类似竞赛的机制分配，尤其是在研究资助方面。对这些竞赛的常见批评是它们会引起参与者“付出过多”的努力。但如果竞赛中的努力本身是为了公共利益，就未必正确。本文分析了科学家时间利用的调查数据，并发现科学家在时间分配上表现出与筹款努力（例如撰写赠款申请）具有固有科学价值的一致性--即使在控制混杂因素后，花更多时间筹款的科学家在研究上也没有明显减少时间。通过竞赛的理论模型表明了这种正向努力外部性的存在，科学家在追求赠款时产生社会价值，会改变竞争与赠款竞赛的总体生产力之间的关系。
 
-    arXiv:2212.14076v2 Announce Type: replace-cross  Abstract: Recent advances in deep learning have enabled us to address the curse of dimensionality (COD) by solving problems in higher dimensions. A subset of such approaches of addressing the COD has led us to solving high-dimensional PDEs. This has resulted in opening doors to solving a variety of real-world problems ranging from mathematical finance to stochastic control for industrial applications. Although feasible, these deep learning methods are still constrained by training time and memory. Tackling these shortcomings, Tensor Neural Networks (TNN) demonstrate that they can provide significant parameter savings while attaining the same accuracy as compared to the classical Dense Neural Network (DNN). In addition, we also show how TNN can be trained faster than DNN for the same accuracy. Besides TNN, we also introduce Tensor Network Initializer (TNN Init), a weight initialization scheme that leads to faster convergence with smaller 
-    
-[^15]: 有限或有偏见: 在金融市场中建模次理性人类投资者
-
-    Limited or Biased: Modeling Sub-Rational Human Investors in Financial Markets
-
-    [https://arxiv.org/abs/2210.08569](https://arxiv.org/abs/2210.08569)
-
-    该研究引入了一个灵活模型，利用强化学习结合五个不同方面的人类次理性，在金融市场模拟中准确重现了先前研究中观察到的行为特征。
-
-    
-
-    在现实生活中，人类的决策与完全理性个体做出的最佳决策存在明显差异，主要是由于计算限制或心理偏见。尽管行为金融领域的现有研究发现了人类次理性的各个方面，但缺乏将这些发现转化为适用于不同金融市场场景的自适应人类模型的综合框架。在本研究中，我们引入了一个灵活的模型，利用强化学习结合五个不同方面的人类次理性。我们的模型使用高保真度的多智能体市场模拟器进行训练，克服了缺乏个体投资者标记数据的限制。我们通过手工制作的市场场景和SHAP值分析评估了次理性人类投资者的行为，显示出我们的模型准确地重现了先前研究中的观察结果。
-
-    arXiv:2210.08569v2 Announce Type: replace  Abstract: Human decision-making in real-life deviates significantly from the optimal decisions made by fully rational agents, primarily due to computational limitations or psychological biases. While existing studies in behavioral finance have discovered various aspects of human sub-rationality, there lacks a comprehensive framework to transfer these findings into an adaptive human model applicable across diverse financial market scenarios. In this study, we introduce a flexible model that incorporates five different aspects of human sub-rationality using reinforcement learning. Our model is trained using a high-fidelity multi-agent market simulator, which overcomes limitations associated with the scarcity of labeled data of individual investors. We evaluate the behavior of sub-rational human investors using hand-crafted market scenarios and SHAP value analysis, showing that our model accurately reproduces the observations in the previous stud
-    
-[^16]: 无穷远处的边界条件对于Black-Scholes方程的影响
-
-    Boundary conditions at infinity for Black-Scholes equations. (arXiv:2401.05549v1 [q-fin.MF])
-
-    [http://arxiv.org/abs/2401.05549](http://arxiv.org/abs/2401.05549)
-
-    提出了一种计算Markov局部鞅情况下远期合约价格的数值方法，通过有限网格和边界条件获得上下界，并且在无穷大时逼近准确值。
-
-    
-
-    我们提出了一种用于计算基础资产价格为Markov局部鞅的远期合约价格的数值方法。如果基础过程是严格的局部鞅，相应的Black-Scholes方程存在多个解，并且衍生品价格被表征为最小解。我们使用数值方法在有限网格上根据相应的边界条件获得上下界。随着基础价格趋于无穷大，这些界和边界值逼近准确值。我们通过数值测试验证了所提出的方法。
-
-    We propose numerical procedures for computing the prices of forward contracts where the underlying asset price is a Markovian local martingale. If the underlying process is a strict local martingale, multiple solutions exist for the corresponding Black-Scholes equations, and the derivative prices are characterized as the minimal solutions. Our prices are upper and lower bounds obtained using numerical methods on a finite grid under the respective boundary conditions. These bounds and the boundary values converge to the exact value as the underlying price approaches infinity. The proposed procedures are demonstrated through numerical tests.
-    
-[^17]: 经济复杂性与可持续发展转型：数据、方法和文献综述
-
-    Economic complexity and the sustainability transition: A review of data, methods, and literature. (arXiv:2308.07172v1 [econ.GN])
-
-    [http://arxiv.org/abs/2308.07172](http://arxiv.org/abs/2308.07172)
-
-    经济复杂性方法在研究经济转型和可持续发展方面具有巨大潜力。本文回顾和总结了从经济复杂性的角度研究可持续发展转型的相关数据、方法和文献。学者们提出了识别绿色产品特征和评估产业准备情况的建议，并对经济复杂性指标与环境可持续性相关指标之间的关系进行了调查。
-
-    
-
-    经济复杂性方法在各领域和学科中越来越受欢迎。尤其是在研究向更加绿色的经济转型等复杂且相互关联现象方面，经济复杂性工具箱显示出了巨大的潜力。利用经济复杂性方法，学者们一直在研究经济复杂性与可持续发展之间的关系，提出了识别绿色产品的特征和评估生产和技术结构对可持续发展转型的准备情况的建议。本文拟从经济复杂性的角度综述和总结与可持续发展转型研究相关的数据、方法和经验文献。我们对经济复杂性和环境可持续性研究的三个不同但相关的文献块进行综述。首先，我们调查了经济复杂性指标与环境可持续性相关指标之间的关联证据。其次，我们回顾了努力评估绿色竞争力和企业创新能力的文章。
-
-    Economic Complexity (EC) methods have gained increasing popularity across fields and disciplines. In particular, the EC toolbox has proved particularly promising in the study of complex and interrelated phenomena, such as the transition towards a greener economy. Using the EC approach, scholars have been investigating the relationship between EC and sustainability, proposing to identify the distinguishing characteristics of green products and to assess the readiness of productive and technological structures for the sustainability transition. This article proposes to review and summarize the data, methods, and empirical literature that are relevant to the study of the sustainability transition from an EC perspective. We review three distinct but connected blocks of literature on EC and environmental sustainability. First, we survey the evidence linking measures of EC to indicators related to environmental sustainability. Second, we review articles that strive to assess the green compet
-    
-[^18]: 张量神经网络在百慕大掉期定价中的应用
-
-    Application of Tensor Neural Networks to Pricing Bermudan Swaptions. (arXiv:2304.09750v1 [q-fin.CP])
-
-    [http://arxiv.org/abs/2304.09750](http://arxiv.org/abs/2304.09750)
-
-    本论文用张量神经网络(TNN)对百慕大掉期进行定价，相比于传统方法，TNN具有更快的收敛速度和减少参数敏感度的优点。
-
-    
-
-    Cheyette模型是一种准高斯波动率利率模型，广泛用于定价利率衍生品，例如欧式掉期和百慕大掉期，而蒙特卡罗模拟已成为行业标准。在低维度下，这些方法为欧式掉期提供了准确而稳健的价格，但即使在这种计算简单的情况下，当使用状态变量作为回归器时，它们也会低估百慕大掉期的价值。这主要是由于所用回归器中预先确定的基函数数量有限。此外，在高维环境中，这些方法也面临着维度灾难的问题。为了解决这些问题，研究者提出利用张量神经网络(TNN)来进行百慕大掉期的定价。研究结果表明，与传统方法相比，TNN具有更快的收敛速度，对于回归器中所用基函数的数量等参数，减少了敏感度。数值实验证实TNN能够在高维度情况下准确地定价欧式掉期和百慕大掉期。
-
-    The Cheyette model is a quasi-Gaussian volatility interest rate model widely used to price interest rate derivatives such as European and Bermudan Swaptions for which Monte Carlo simulation has become the industry standard. In low dimensions, these approaches provide accurate and robust prices for European Swaptions but, even in this computationally simple setting, they are known to underestimate the value of Bermudan Swaptions when using the state variables as regressors. This is mainly due to the use of a finite number of predetermined basis functions in the regression. Moreover, in high-dimensional settings, these approaches succumb to the Curse of Dimensionality. To address these issues, Deep-learning techniques have been used to solve the backward Stochastic Differential Equation associated with the value process for European and Bermudan Swaptions; however, these methods are constrained by training time and memory. To overcome these limitations, we propose leveraging Tensor Neura
+    arXiv:2207.02379v2 Announce Type: replace  Abstract: When funding public goods, resources are often allocated via mechanisms that resemble contests, especially in the case of research grants. A common critique of these contests is that they induce ``too much'' effort from participants. This need not be true if the effort in the contest is itself directed towards the public good. This papers analyzes survey data on scientists' time use and finds that scientists allocate their time in a way that is consistent with fundraising effort (e.g., grant writing) having inherent scientific value -- scientists who spend more time fundraising do not spent significantly less time on research even after conditioning on confounding factors. Theoretical models of contests are used to show that the presence of such a positive effort externality, where scientists generate social value when pursuing grants, changes the relationship between competition and the aggregate productivity of a grant contest. Ens
     
 

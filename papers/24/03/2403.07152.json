@@ -1,0 +1,12 @@
+{
+    "title": "Success functions in large contests",
+    "abstract": "arXiv:2403.07152v1 Announce Type: new  Abstract: We consider contests with a large set (continuum) of participants and axiomatize contest success functions that arise when performance is composed of both effort and a random element, and when winners are those whose performance exceeds a cutoff determined by a market clearing condition. A co-monotonicity property is essentially all that is needed for a representation in the general case, but significantly stronger conditions must hold to obtain an additive structure. We illustrate the usefulness of this framework by revisiting some of the classic questions in the contests literature.",
+    "link": "https://arxiv.org/abs/2403.07152",
+    "context": "Title: Success functions in large contests\nAbstract: arXiv:2403.07152v1 Announce Type: new  Abstract: We consider contests with a large set (continuum) of participants and axiomatize contest success functions that arise when performance is composed of both effort and a random element, and when winners are those whose performance exceeds a cutoff determined by a market clearing condition. A co-monotonicity property is essentially all that is needed for a representation in the general case, but significantly stronger conditions must hold to obtain an additive structure. We illustrate the usefulness of this framework by revisiting some of the classic questions in the contests literature.",
+    "path": "papers/24/03/2403.07152.json",
+    "total_tokens": 636,
+    "translated_title": "大型比赛中的成功函数",
+    "translated_abstract": "我们考虑了具有大量参与者（连续体）的比赛，并对当表现由努力和随机因素组成时以及赢家是那些表现超过由市场清算条件确定的截止点时产生的比赛成功函数进行公理化。在一般情况下，基本上只需要一个协单调性属性才能表示出来，但必须满足更强的条件才能获得可加结构。我们通过重新审视比赛文献中的一些经典问题来说明这一框架的实用性。",
+    "tldr": "考虑了大型比赛中成功函数的公理化表示，展示了协单调性属性在一般情况下的必要性以及获得可加结构需要更强的条件的重要性",
+    "en_tdlr": "The paper axiomatizes contest success functions in large contests, showing the necessity of the co-monotonicity property in general cases and the importance of stronger conditions for obtaining an additive structure."
+}

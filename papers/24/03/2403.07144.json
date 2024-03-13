@@ -1,0 +1,12 @@
+{
+    "title": "Thought Graph: Generating Thought Process for Biological Reasoning",
+    "abstract": "arXiv:2403.07144v1 Announce Type: new  Abstract: We present the Thought Graph as a novel framework to support complex reasoning and use gene set analysis as an example to uncover semantic relationships between biological processes. Our framework stands out for its ability to provide a deeper understanding of gene sets, significantly surpassing GSEA by 40.28% and LLM baselines by 5.38% based on cosine similarity to human annotations. Our analysis further provides insights into future directions of biological processes naming, and implications for bioinformatics and precision medicine.",
+    "link": "https://arxiv.org/abs/2403.07144",
+    "context": "Title: Thought Graph: Generating Thought Process for Biological Reasoning\nAbstract: arXiv:2403.07144v1 Announce Type: new  Abstract: We present the Thought Graph as a novel framework to support complex reasoning and use gene set analysis as an example to uncover semantic relationships between biological processes. Our framework stands out for its ability to provide a deeper understanding of gene sets, significantly surpassing GSEA by 40.28% and LLM baselines by 5.38% based on cosine similarity to human annotations. Our analysis further provides insights into future directions of biological processes naming, and implications for bioinformatics and precision medicine.",
+    "path": "papers/24/03/2403.07144.json",
+    "total_tokens": 601,
+    "translated_title": "Thought Graph: 生成生物推理思维过程",
+    "translated_abstract": "我们提出了Thought Graph作为一个新颖的框架，支持复杂推理，并以基因集分析为例揭示生物过程之间的语义关系。我们的框架能够深入理解基因集，根据与人类注释的余弦相似性，明显优于GSEA 40.28%和LLM基线5.38%。我们的分析进一步提供了生物过程命名的未来方向的见解，以及对生物信息学和精准医学的影响。",
+    "tldr": "Thought Graph框架通过基因集分析揭示生物过程间的语义关系，并在与人类注释的余弦相似性方面优于传统方法。",
+    "en_tdlr": "The Thought Graph framework reveals semantic relationships between biological processes through gene set analysis and outperforms traditional methods in cosine similarity to human annotations."
+}

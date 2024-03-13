@@ -1,0 +1,12 @@
+{
+    "title": "ProPML: Probability Partial Multi-label Learning",
+    "abstract": "arXiv:2403.07603v1 Announce Type: new  Abstract: Partial Multi-label Learning (PML) is a type of weakly supervised learning where each training instance corresponds to a set of candidate labels, among which only some are true. In this paper, we introduce \\our{}, a novel probabilistic approach to this problem that extends the binary cross entropy to the PML setup. In contrast to existing methods, it does not require suboptimal disambiguation and, as such, can be applied to any deep architecture. Furthermore, experiments conducted on artificial and real-world datasets indicate that \\our{} outperforms existing approaches, especially for high noise in a candidate set.",
+    "link": "https://arxiv.org/abs/2403.07603",
+    "context": "Title: ProPML: Probability Partial Multi-label Learning\nAbstract: arXiv:2403.07603v1 Announce Type: new  Abstract: Partial Multi-label Learning (PML) is a type of weakly supervised learning where each training instance corresponds to a set of candidate labels, among which only some are true. In this paper, we introduce \\our{}, a novel probabilistic approach to this problem that extends the binary cross entropy to the PML setup. In contrast to existing methods, it does not require suboptimal disambiguation and, as such, can be applied to any deep architecture. Furthermore, experiments conducted on artificial and real-world datasets indicate that \\our{} outperforms existing approaches, especially for high noise in a candidate set.",
+    "path": "papers/24/03/2403.07603.json",
+    "total_tokens": 718,
+    "translated_title": "ProPML: 概率部分多标签学习",
+    "translated_abstract": "Partial Multi-label Learning (PML)是一种弱监督学习类型，其中每个训练实例对应于一组候选标签，其中只有一些是真实的。在本文中，我们引入了ProPML，这是一种新颖的概率方法，用于扩展二元交叉熵到PML设置中。与现有方法相比，它不需要次优的消歧，因此可以应用于任何深度架构。此外，在人工和真实数据集上进行的实验表明，ProPML在候选集中存在高噪声时优于现有方法。",
+    "tldr": "ProPML是一种新颖的概率方法，用于扩展二元交叉熵到Partial Multi-label Learning（PML）设置中，可以应用于任何深度架构，并且在人工和真实数据集上的实验证明其优于现有方法，尤其适用于候选集中高噪声的情况。",
+    "en_tdlr": "ProPML is a novel probabilistic approach that extends binary cross entropy to Partial Multi-label Learning (PML) setup, applicable to any deep architecture, and experiments on artificial and real-world datasets show its superiority over existing methods, especially for high noise in candidate set."
+}

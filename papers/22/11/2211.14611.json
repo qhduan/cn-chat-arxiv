@@ -1,0 +1,12 @@
+{
+    "title": "The Principles of Data-Centric AI (DCAI)",
+    "abstract": "arXiv:2211.14611v2 Announce Type: replace-cross  Abstract: Data is a crucial infrastructure to how artificial intelligence (AI) systems learn. However, these systems to date have been largely model-centric, putting a premium on the model at the expense of the data quality. Data quality issues beset the performance of AI systems, particularly in downstream deployments and in real-world applications. Data-centric AI (DCAI) as an emerging concept brings data, its quality and its dynamism to the forefront in considerations of AI systems through an iterative and systematic approach. As one of the first overviews, this article brings together data-centric perspectives and concepts to outline the foundations of DCAI. It specifically formulates six guiding principles for researchers and practitioners and gives direction for future advancement of DCAI.",
+    "link": "https://arxiv.org/abs/2211.14611",
+    "context": "Title: The Principles of Data-Centric AI (DCAI)\nAbstract: arXiv:2211.14611v2 Announce Type: replace-cross  Abstract: Data is a crucial infrastructure to how artificial intelligence (AI) systems learn. However, these systems to date have been largely model-centric, putting a premium on the model at the expense of the data quality. Data quality issues beset the performance of AI systems, particularly in downstream deployments and in real-world applications. Data-centric AI (DCAI) as an emerging concept brings data, its quality and its dynamism to the forefront in considerations of AI systems through an iterative and systematic approach. As one of the first overviews, this article brings together data-centric perspectives and concepts to outline the foundations of DCAI. It specifically formulates six guiding principles for researchers and practitioners and gives direction for future advancement of DCAI.",
+    "path": "papers/22/11/2211.14611.json",
+    "total_tokens": 739,
+    "translated_title": "数据中心人工智能（DCAI）的原则",
+    "translated_abstract": "数据对于人工智能（AI）系统的学习至关重要。然而，迄今为止，这些系统主要以模型为中心，以数据质量为代价。数据质量问题影响了AI系统的性能，尤其是在下游部署和实际应用中。作为一个新兴概念，数据中心人工智能（DCAI）通过迭代和系统化的方法将数据、其质量和动态性置于AI系统考虑的前沿。作为首次概述之一，本文汇集了数据中心的视角和概念，勾勒了DCAI的基础。它特别为研究人员和从业者制定了六项指导原则，并为DCAI的未来发展提供了方向。",
+    "tldr": "数据中心人工智能（DCAI）强调数据的质量和动态性，提出六项指导原则，并为人工智能系统的未来发展方向指明了道路。",
+    "en_tdlr": "Data-Centric AI (DCAI) emphasizes on data quality and dynamism, formulates six guiding principles, and provides direction for the future advancement of AI systems."
+}

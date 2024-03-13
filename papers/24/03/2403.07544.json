@@ -1,0 +1,12 @@
+{
+    "title": "MAMMOTH: Massively Multilingual Modular Open Translation @ Helsinki",
+    "abstract": "arXiv:2403.07544v1 Announce Type: new  Abstract: NLP in the age of monolithic large language models is approaching its limits in terms of size and information that can be handled. The trend goes to modularization, a necessary step into the direction of designing smaller sub-networks and components with specialized functionality. In this paper, we present the MAMMOTH toolkit: a framework designed for training massively multilingual modular machine translation systems at scale, initially derived from OpenNMT-py and then adapted to ensure efficient training across computation clusters. We showcase its efficiency across clusters of A100 and V100 NVIDIA GPUs, and discuss our design philosophy and plans for future information. The toolkit is publicly available online.",
+    "link": "https://arxiv.org/abs/2403.07544",
+    "context": "Title: MAMMOTH: Massively Multilingual Modular Open Translation @ Helsinki\nAbstract: arXiv:2403.07544v1 Announce Type: new  Abstract: NLP in the age of monolithic large language models is approaching its limits in terms of size and information that can be handled. The trend goes to modularization, a necessary step into the direction of designing smaller sub-networks and components with specialized functionality. In this paper, we present the MAMMOTH toolkit: a framework designed for training massively multilingual modular machine translation systems at scale, initially derived from OpenNMT-py and then adapted to ensure efficient training across computation clusters. We showcase its efficiency across clusters of A100 and V100 NVIDIA GPUs, and discuss our design philosophy and plans for future information. The toolkit is publicly available online.",
+    "path": "papers/24/03/2403.07544.json",
+    "total_tokens": 746,
+    "translated_title": "MAMMOTH: 赫尔辛基大规模多语言模块化开放翻译",
+    "translated_abstract": "在单体大型语言模型时代，自然语言处理正接近其在尺寸和信息处理方面的极限。趋势是模块化，这是朝着设计具有专门功能的较小子网络和组件的方向迈出的必要步骤。本文介绍了MAMMOTH工具包：一个旨在训练大规模多语言模块化机器翻译系统的框架，最初源自OpenNMT-py，然后经过调整以确保在计算集群上高效训练。我们展示了它在A100和V100 NVIDIA GPU集群上的效率，并讨论了我们的设计理念和未来的计划。该工具包已在网上公开提供。",
+    "tldr": "本文介绍了MAMMOTH工具包，这是一个旨在训练大规模多语言模块化机器翻译系统的框架，通过模块化设计实现了在计算集群上的高效训练。",
+    "en_tdlr": "This paper introduces the MAMMOTH toolkit, a framework designed for training massively multilingual modular machine translation systems, which achieves efficient training across computation clusters through modular design."
+}

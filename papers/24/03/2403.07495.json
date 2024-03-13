@@ -1,0 +1,12 @@
+{
+    "title": "Tuning diagonal scale matrices for HMC",
+    "abstract": "arXiv:2403.07495v1 Announce Type: cross  Abstract: Three approaches for adaptively tuning diagonal scale matrices for HMC are discussed and compared. The common practice of scaling according to estimated marginal standard deviations is taken as a benchmark. Scaling according to the mean log-target gradient (ISG), and a scaling method targeting that the frequency of when the underlying Hamiltonian dynamics crosses the respective medians should be uniform across dimensions, are taken as alternatives. Numerical studies suggest that the ISG method leads in many cases to more efficient sampling than the benchmark, in particular in cases with strong correlations or non-linear dependencies. The ISG method is also easy to implement, computationally cheap and would be relatively simple to include in automatically tuned codes as an alternative to the benchmark practice.",
+    "link": "https://arxiv.org/abs/2403.07495",
+    "context": "Title: Tuning diagonal scale matrices for HMC\nAbstract: arXiv:2403.07495v1 Announce Type: cross  Abstract: Three approaches for adaptively tuning diagonal scale matrices for HMC are discussed and compared. The common practice of scaling according to estimated marginal standard deviations is taken as a benchmark. Scaling according to the mean log-target gradient (ISG), and a scaling method targeting that the frequency of when the underlying Hamiltonian dynamics crosses the respective medians should be uniform across dimensions, are taken as alternatives. Numerical studies suggest that the ISG method leads in many cases to more efficient sampling than the benchmark, in particular in cases with strong correlations or non-linear dependencies. The ISG method is also easy to implement, computationally cheap and would be relatively simple to include in automatically tuned codes as an alternative to the benchmark practice.",
+    "path": "papers/24/03/2403.07495.json",
+    "total_tokens": 732,
+    "translated_title": "为HMC调整对角比例矩阵",
+    "translated_abstract": "讨论并比较了三种自适应调整HMC对角比例矩阵的方法。将根据估计边际标准差进行缩放的常见做法作为基准。根据平均对数目标梯度（ISG）进行缩放，以及一个旨在使底层哈密顿动力学穿越各自中位数的频率在维度上均匀的缩放方法被视为替代方案。数值研究表明，ISG方法在许多情况下比基准方法更有效，特别是在存在强相关性或非线性依赖性的情况下。ISG方法也易于实现，计算成本低，相对简单地包含在自动调整代码中作为基准做法的替代方案。",
+    "tldr": "ISG方法相对于基准方法在许多情况下提高了采样效率，特别是在具有强相关性或非线性依赖性的情况下。",
+    "en_tdlr": "The ISG method leads to more efficient sampling than the benchmark in many cases, especially with strong correlations or non-linear dependencies."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Exploring Cluster Analysis in Nelore Cattle Visual Score Attribution",
+    "abstract": "arXiv:2403.07137v1 Announce Type: cross  Abstract: Assessing the biotype of cattle through human visual inspection is a very common and important practice in precision cattle breeding. This paper presents the results of a correlation analysis between scores produced by humans for Nelore cattle and a variety of measurements that can be derived from images or other instruments. It also presents a study using the k-means algorithm to generate new ways of clustering a batch of cattle using the measurements that most correlate with the animal's body weight and visual scores.",
+    "link": "https://arxiv.org/abs/2403.07137",
+    "context": "Title: Exploring Cluster Analysis in Nelore Cattle Visual Score Attribution\nAbstract: arXiv:2403.07137v1 Announce Type: cross  Abstract: Assessing the biotype of cattle through human visual inspection is a very common and important practice in precision cattle breeding. This paper presents the results of a correlation analysis between scores produced by humans for Nelore cattle and a variety of measurements that can be derived from images or other instruments. It also presents a study using the k-means algorithm to generate new ways of clustering a batch of cattle using the measurements that most correlate with the animal's body weight and visual scores.",
+    "path": "papers/24/03/2403.07137.json",
+    "total_tokens": 612,
+    "translated_title": "探讨尼罗尔牛视觉评分归因中的聚类分析",
+    "translated_abstract": "通过人类视觉检查评估牛的生物类型是精准育种中非常常见和重要的实践。本文介绍了对尼罗尔牛的评分与从图像或其他仪器中可以得出的各种测量之间的相关性分析结果。它还展示了使用k均值算法进行研究，以生成利用与动物体重和视觉评分最相关的测量对一批牛进行聚类的新方法。",
+    "tldr": "该论文研究了尼罗尔牛视觉评分与测量值之间的相关性，并提出使用k均值算法对牛的一批进行聚类的新方法。",
+    "en_tdlr": "This paper explores the correlation between Nelore cattle visual scores and measurements, and proposes a new method for clustering a batch of cattle using the k-means algorithm."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Adaptive Gain Scheduling using Reinforcement Learning for Quadcopter Control",
+    "abstract": "arXiv:2403.07216v1 Announce Type: cross  Abstract: The paper presents a technique using reinforcement learning (RL) to adapt the control gains of a quadcopter controller. Specifically, we employed Proximal Policy Optimization (PPO) to train a policy which adapts the gains of a cascaded feedback controller in-flight. The primary goal of this controller is to minimize tracking error while following a specified trajectory. The paper's key objective is to analyze the effectiveness of the adaptive gain policy and compare it to the performance of a static gain control algorithm, where the Integral Squared Error and Integral Time Squared Error are used as metrics. The results show that the adaptive gain scheme achieves over 40$\\%$ decrease in tracking error as compared to the static gain controller.",
+    "link": "https://arxiv.org/abs/2403.07216",
+    "context": "Title: Adaptive Gain Scheduling using Reinforcement Learning for Quadcopter Control\nAbstract: arXiv:2403.07216v1 Announce Type: cross  Abstract: The paper presents a technique using reinforcement learning (RL) to adapt the control gains of a quadcopter controller. Specifically, we employed Proximal Policy Optimization (PPO) to train a policy which adapts the gains of a cascaded feedback controller in-flight. The primary goal of this controller is to minimize tracking error while following a specified trajectory. The paper's key objective is to analyze the effectiveness of the adaptive gain policy and compare it to the performance of a static gain control algorithm, where the Integral Squared Error and Integral Time Squared Error are used as metrics. The results show that the adaptive gain scheme achieves over 40$\\%$ decrease in tracking error as compared to the static gain controller.",
+    "path": "papers/24/03/2403.07216.json",
+    "total_tokens": 760,
+    "translated_title": "使用强化学习进行无人机控制的自适应增益调度",
+    "translated_abstract": "该论文提出了一种使用强化学习（RL）来调整四轴飞行器控制器增益的技术。具体来说，我们使用近端政策优化（PPO）来训练一个在飞行中调整级联反馈控制器增益的策略。该控制器的主要目标是在沿着指定轨迹飞行时最小化跟踪误差。论文的主要目标是分析自适应增益策略的有效性，并将其与静态增益控制算法的性能进行比较，其中积分平方误差和积分时间平方误差被用作度量标准。结果显示，与静态增益控制器相比，自适应增益方案的跟踪误差减少了超过40％。",
+    "tldr": "使用强化学习训练策略逐步调整四轴飞行器控制器的增益, 显著减小跟踪误差。",
+    "en_tdlr": "Training a policy using reinforcement learning to progressively adjust the gains of a quadcopter controller leads to a significant decrease in tracking error."
+}

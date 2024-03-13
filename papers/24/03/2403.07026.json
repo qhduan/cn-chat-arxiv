@@ -1,0 +1,12 @@
+{
+    "title": "Whiteness-based bilevel learning of regularization parameters in imaging",
+    "abstract": "arXiv:2403.07026v1 Announce Type: cross  Abstract: We consider an unsupervised bilevel optimization strategy for learning regularization parameters in the context of imaging inverse problems in the presence of additive white Gaussian noise. Compared to supervised and semi-supervised metrics relying either on the prior knowledge of reference data and/or on some (partial) knowledge on the noise statistics, the proposed approach optimizes the whiteness of the residual between the observed data and the observation model with no need of ground-truth data.We validate the approach on standard Total Variation-regularized image deconvolution problems which show that the proposed quality metric provides estimates close to the mean-square error oracle and to discrepancy-based principles.",
+    "link": "https://arxiv.org/abs/2403.07026",
+    "context": "Title: Whiteness-based bilevel learning of regularization parameters in imaging\nAbstract: arXiv:2403.07026v1 Announce Type: cross  Abstract: We consider an unsupervised bilevel optimization strategy for learning regularization parameters in the context of imaging inverse problems in the presence of additive white Gaussian noise. Compared to supervised and semi-supervised metrics relying either on the prior knowledge of reference data and/or on some (partial) knowledge on the noise statistics, the proposed approach optimizes the whiteness of the residual between the observed data and the observation model with no need of ground-truth data.We validate the approach on standard Total Variation-regularized image deconvolution problems which show that the proposed quality metric provides estimates close to the mean-square error oracle and to discrepancy-based principles.",
+    "path": "papers/24/03/2403.07026.json",
+    "total_tokens": 676,
+    "translated_title": "基于白度的成像正则参数双层学习",
+    "translated_abstract": "我们考虑一种无监督的双层优化策略，用于在存在加性白高斯噪声的成像反问题背景下学习正则化参数。与依赖于参考数据的先验知识和/或噪声统计的监督和半监督度量相比，所提出的方法优化了观测数据和观测模型之间残差的白度，无需地面实况数据。我们在标准总变差正则化图像反卷积问题上验证了该方法，结果表明所提出的质量度量提供了接近均方误差巴拉得原则的估计。",
+    "tldr": "提出了一种基于白度的成像反问题中学习正则化参数的双层优化策略，无需地面实况数据。",
+    "en_tdlr": "Proposed a whiteness-based bilevel optimization strategy for learning regularization parameters in imaging inverse problems without the need for ground-truth data."
+}

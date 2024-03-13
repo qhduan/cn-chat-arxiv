@@ -1,0 +1,12 @@
+{
+    "title": "Analyzing domain shift when using additional data for the MICCAI KiTS23 Challenge",
+    "abstract": "arXiv:2309.02001v2 Announce Type: replace-cross  Abstract: Using additional training data is known to improve the results, especially for medical image 3D segmentation where there is a lack of training material and the model needs to generalize well from few available data. However, the new data could have been acquired using other instruments and preprocessed such its distribution is significantly different from the original training data. Therefore, we study techniques which ameliorate domain shift during training so that the additional data becomes better usable for preprocessing and training together with the original data. Our results show that transforming the additional data using histogram matching has better results than using simple normalization.",
+    "link": "https://arxiv.org/abs/2309.02001",
+    "context": "Title: Analyzing domain shift when using additional data for the MICCAI KiTS23 Challenge\nAbstract: arXiv:2309.02001v2 Announce Type: replace-cross  Abstract: Using additional training data is known to improve the results, especially for medical image 3D segmentation where there is a lack of training material and the model needs to generalize well from few available data. However, the new data could have been acquired using other instruments and preprocessed such its distribution is significantly different from the original training data. Therefore, we study techniques which ameliorate domain shift during training so that the additional data becomes better usable for preprocessing and training together with the original data. Our results show that transforming the additional data using histogram matching has better results than using simple normalization.",
+    "path": "papers/23/09/2309.02001.json",
+    "total_tokens": 658,
+    "translated_title": "分析在MICCAI KiTS23挑战中使用额外数据时的域偏移",
+    "translated_abstract": "使用额外的训练数据已知可以改善结果，特别是对于医学图像3D分割，在那里缺乏训练资料，模型需要在少量数据上有很好的泛化能力。然而，新数据可能是使用其他仪器获取并经过预处理，使得其分布与原始训练数据显著不同。因此，我们研究了在训练过程中改善域偏移的技术，使得额外数据可以更好地用于预处理和与原始数据一起训练。我们的结果表明，使用直方图匹配转换额外数据的效果优于简单的归一化。",
+    "tldr": "使用直方图匹配来转换额外数据在处理域偏移时比简单归一化取得更好的结果",
+    "en_tdlr": "Transforming additional data using histogram matching yields better results in addressing domain shift than simple normalization."
+}

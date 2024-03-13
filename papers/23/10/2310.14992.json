@@ -1,0 +1,12 @@
+{
+    "title": "Bayesian Regression Markets",
+    "abstract": "arXiv:2310.14992v2 Announce Type: replace  Abstract: Machine learning tasks are vulnerable to the quality of data used as input. Yet, it is often challenging for firms to obtain adequate datasets, with them being naturally distributed amongst owners, that in practice, may be competitors in a downstream market and reluctant to share information. Focusing on supervised learning for regression tasks, we develop a regression market to provide a monetary incentive for data sharing. Our proposed mechanism adopts a Bayesian framework, allowing us to consider a more general class of regression tasks. We present a thorough exploration of the market properties, and show that similar proposals in current literature expose the market agents to sizeable financial risks, which can be mitigated in our setup.",
+    "link": "https://arxiv.org/abs/2310.14992",
+    "context": "Title: Bayesian Regression Markets\nAbstract: arXiv:2310.14992v2 Announce Type: replace  Abstract: Machine learning tasks are vulnerable to the quality of data used as input. Yet, it is often challenging for firms to obtain adequate datasets, with them being naturally distributed amongst owners, that in practice, may be competitors in a downstream market and reluctant to share information. Focusing on supervised learning for regression tasks, we develop a regression market to provide a monetary incentive for data sharing. Our proposed mechanism adopts a Bayesian framework, allowing us to consider a more general class of regression tasks. We present a thorough exploration of the market properties, and show that similar proposals in current literature expose the market agents to sizeable financial risks, which can be mitigated in our setup.",
+    "path": "papers/23/10/2310.14992.json",
+    "total_tokens": 736,
+    "translated_title": "贝叶斯回归市场",
+    "translated_abstract": "机器学习任务对所使用的数据质量很敏感。然而，公司往往很难获得足够的数据集，因为这些数据自然分布在各个所有者之间，而这些所有者在实践中可能是竞争对手，不愿意共享信息。我们针对回归任务的监督学习，开发了一个回归市场，以提供数据共享的经济激励。我们提出的机制采用贝叶斯框架，使我们能够考虑更一般的回归任务类别。我们对市场属性进行了彻底探讨，并展示了目前文献中类似提议暴露市场代理商面临可观的财务风险，而这些风险在我们的设置中可以得到缓解。",
+    "tldr": "本论文提出了一种贝叶斯回归市场机制，为数据共享提供了经济激励，并展示了如何缓解市场代理商面临的财务风险。",
+    "en_tdlr": "This paper introduces a Bayesian regression market mechanism to provide economic incentives for data sharing and demonstrates how to mitigate the financial risks faced by market agents."
+}
