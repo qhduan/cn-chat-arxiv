@@ -5,16 +5,17 @@
 | [^1] | [DESERE: The 1st Workshop on Decentralised Search and Recommendation](https://arxiv.org/abs/2403.07732) | 探索和分享关于去中心化网络服务的创新想法，主要关注去中心化系统对社会的影响、算法和性能挑战，以及支持去中心化系统和服务的基础设施。 |
 | [^2] | [Analyzing Adversarial Attacks on Sequence-to-Sequence Relevance Models](https://arxiv.org/abs/2403.07654) | 对现代序列到序列相关性模型进行了对抗攻击分析，发现恶意文档可以通过注入提示来操纵其相关性得分，这一攻击机制影响了不同相关性模型，但词汇模型BM25不受影响。 |
 | [^3] | [Empowering Sequential Recommendation from Collaborative Signals and Semantic Relatedness](https://arxiv.org/abs/2403.07623) | 该论文提出了一种端到端两流架构TSSR，旨在通过有效地将协作信号和语义相关性结合起来，增强顺序推荐任务。 |
-| [^4] | [The future of document indexing: GPT and Donut revolutionize table of content processing](https://arxiv.org/abs/2403.07553) | 该论文介绍了一种利用Donut和OpenAI GPT-3.5 Turbo两种前沿AI模型自动提取文件中结构化信息的创新方法，在建筑规格文件的目录处理中取得了显著的准确性，代表了文档索引领域向自动化信息提取迈出的重要一步。 |
-| [^5] | [Towards Graph Foundation Models for Personalization](https://arxiv.org/abs/2403.07478) | 本文提出了一种面向个性化的基于图的基础建模方法，其中的Heterogeneous GNN旨在捕捉跨多种可推荐项目类型的多跳内容和消费关系。 |
-| [^6] | [LIST: Learning to Index Spatio-Textual Data for Embedding based Spatial Keyword Queries](https://arxiv.org/abs/2403.07331) | 提出了一种名为LIST的新技术，通过学习为基于嵌入的空间关键词查询建立空间文本数据索引，以加速top-k搜索过程。 |
-| [^7] | [Self-supervised Contrastive Learning for Implicit Collaborative Filtering](https://arxiv.org/abs/2403.07265) | 提出了一个简单的自监督对比学习框架，通过正特征增强和负标签增强改进自我监督信号，提高了隐式协同过滤准确性，并建立了一种有效的负标签增强技术，实现了有效的增强 |
-| [^8] | [Time Series Analysis of Key Societal Events as Reflected in Complex Social Media Data Streams](https://arxiv.org/abs/2403.07090) | 通过时间序列分析探索GAB和Telegram这两个社交媒体平台上的叙事演变，提出了一种新颖的方法来研究多个社交媒体领域，以提取可能被掩盖的关键信息。 |
-| [^9] | [MetaSplit: Meta-Split Network for Limited-Stock Product Recommendation](https://arxiv.org/abs/2403.06747) | 提出了Meta-Split网络（MSN）来解决消费者之间电子商务平台中限量库存产品推荐中的独特挑战，通过分割用户历史序列来有效利用用户历史信息。 |
-| [^10] | [Navigating the Post-API Dilemma Search Engine Results Pages Present a Biased View of Social Media Data](https://arxiv.org/abs/2401.15479) | 搜索引擎结果页面可以作为社交媒体数据的替代方案，但存在对流行帖子偏见较高、情感更积极以及忽视政治、色情和粗俗帖子的问题。 |
-| [^11] | [In-context Learning with Retrieved Demonstrations for Language Models: A Survey.](http://arxiv.org/abs/2401.11624) | 本综述调查了一种名为检索示范的方法，它通过使用特定于输入查询的示范来提高语言模型的少量样本情境学习（ICL）能力。这种方法不仅提高了学习效率和可扩展性，还减少了手动示例选择中的偏见。 |
-| [^12] | [Multi-View Variational Autoencoder for Missing Value Imputation in Untargeted Metabolomics.](http://arxiv.org/abs/2310.07990) | 本文提出了一种新的方法，利用多视图变分自动编码器来填充非目标代谢组学中的缺失值，该方法利用了全基因组测序数据和参考代谢物的信息，可以有效地根据基因组信息填充缺失的代谢组学值。 |
-| [^13] | [Improving position bias estimation against sparse and skewed dataset with item embedding.](http://arxiv.org/abs/2305.13931) | 该研究提出了一种利用物品嵌入来缓解广告营销领域中位置偏差稀疏性问题的回归EM算法变体。 |
+| [^4] | [Proactive Recommendation with Iterative Preference Guidance](https://arxiv.org/abs/2403.07571) | 主动推荐通过灵活的后处理方式进行推荐，通过对项目进行排名来积极引导用户形成新的兴趣。 |
+| [^5] | [The future of document indexing: GPT and Donut revolutionize table of content processing](https://arxiv.org/abs/2403.07553) | 该论文介绍了一种利用Donut和OpenAI GPT-3.5 Turbo两种前沿AI模型自动提取文件中结构化信息的创新方法，在建筑规格文件的目录处理中取得了显著的准确性，代表了文档索引领域向自动化信息提取迈出的重要一步。 |
+| [^6] | [Towards Graph Foundation Models for Personalization](https://arxiv.org/abs/2403.07478) | 本文提出了一种面向个性化的基于图的基础建模方法，其中的Heterogeneous GNN旨在捕捉跨多种可推荐项目类型的多跳内容和消费关系。 |
+| [^7] | [LIST: Learning to Index Spatio-Textual Data for Embedding based Spatial Keyword Queries](https://arxiv.org/abs/2403.07331) | 提出了一种名为LIST的新技术，通过学习为基于嵌入的空间关键词查询建立空间文本数据索引，以加速top-k搜索过程。 |
+| [^8] | [Self-supervised Contrastive Learning for Implicit Collaborative Filtering](https://arxiv.org/abs/2403.07265) | 提出了一个简单的自监督对比学习框架，通过正特征增强和负标签增强改进自我监督信号，提高了隐式协同过滤准确性，并建立了一种有效的负标签增强技术，实现了有效的增强 |
+| [^9] | [Time Series Analysis of Key Societal Events as Reflected in Complex Social Media Data Streams](https://arxiv.org/abs/2403.07090) | 通过时间序列分析探索GAB和Telegram这两个社交媒体平台上的叙事演变，提出了一种新颖的方法来研究多个社交媒体领域，以提取可能被掩盖的关键信息。 |
+| [^10] | [MetaSplit: Meta-Split Network for Limited-Stock Product Recommendation](https://arxiv.org/abs/2403.06747) | 提出了Meta-Split网络（MSN）来解决消费者之间电子商务平台中限量库存产品推荐中的独特挑战，通过分割用户历史序列来有效利用用户历史信息。 |
+| [^11] | [Navigating the Post-API Dilemma Search Engine Results Pages Present a Biased View of Social Media Data](https://arxiv.org/abs/2401.15479) | 搜索引擎结果页面可以作为社交媒体数据的替代方案，但存在对流行帖子偏见较高、情感更积极以及忽视政治、色情和粗俗帖子的问题。 |
+| [^12] | [In-context Learning with Retrieved Demonstrations for Language Models: A Survey.](http://arxiv.org/abs/2401.11624) | 本综述调查了一种名为检索示范的方法，它通过使用特定于输入查询的示范来提高语言模型的少量样本情境学习（ICL）能力。这种方法不仅提高了学习效率和可扩展性，还减少了手动示例选择中的偏见。 |
+| [^13] | [Multi-View Variational Autoencoder for Missing Value Imputation in Untargeted Metabolomics.](http://arxiv.org/abs/2310.07990) | 本文提出了一种新的方法，利用多视图变分自动编码器来填充非目标代谢组学中的缺失值，该方法利用了全基因组测序数据和参考代谢物的信息，可以有效地根据基因组信息填充缺失的代谢组学值。 |
+| [^14] | [Improving position bias estimation against sparse and skewed dataset with item embedding.](http://arxiv.org/abs/2305.13931) | 该研究提出了一种利用物品嵌入来缓解广告营销领域中位置偏差稀疏性问题的回归EM算法变体。 |
 
 # 详细
 
@@ -60,7 +61,21 @@
 
     arXiv:2403.07623v1 Announce Type: new  Abstract: Sequential recommender systems (SRS) could capture dynamic user preferences by modeling historical behaviors ordered in time. Despite effectiveness, focusing only on the \textit{collaborative signals} from behaviors does not fully grasp user interests. It is also significant to model the \textit{semantic relatedness} reflected in content features, e.g., images and text. Towards that end, in this paper, we aim to enhance the SRS tasks by effectively unifying collaborative signals and semantic relatedness together. Notably, we empirically point out that it is nontrivial to achieve such a goal due to semantic gap issues. Thus, we propose an end-to-end two-stream architecture for sequential recommendation, named TSSR, to learn user preferences from ID-based and content-based sequence. Specifically, we first present novel hierarchical contrasting module, including coarse user-grained and fine item-grained terms, to align the representations o
     
-[^4]: 文档索引的未来：GPT和Donut革新目录内容处理
+[^4]: 具有迭代偏好引导的主动推荐
+
+    Proactive Recommendation with Iterative Preference Guidance
+
+    [https://arxiv.org/abs/2403.07571](https://arxiv.org/abs/2403.07571)
+
+    主动推荐通过灵活的后处理方式进行推荐，通过对项目进行排名来积极引导用户形成新的兴趣。
+
+    
+
+    推荐系统主要根据从用户反馈中学到的用户兴趣来定制个性化推荐。然而，这些推荐系统 passively cater to user interests and even reinforce existing interests in the feedback loop, leading to problems like filter bubbles and opinion polarization. 为了对抗这一趋势，主动推荐通过战略性地调节推荐序列，积极引导用户产生对目标项目或主题的新兴趣。现有的主动推荐工作面临重大障碍：1) 在引导过程中忽视用户反馈; 2) 缺乏对引导目标的明确建模; 3) 缺乏融入现有工业推荐系统的灵活性。为了解决这些问题，我们引入了一个 Iterative Preference Guidance (IPG) 框架。
+
+    arXiv:2403.07571v1 Announce Type: new  Abstract: Recommender systems mainly tailor personalized recommendations according to user interests learned from user feedback. However, such recommender systems passively cater to user interests and even reinforce existing interests in the feedback loop, leading to problems like filter bubbles and opinion polarization. To counteract this, proactive recommendation actively steers users towards developing new interests in a target item or topic by strategically modulating recommendation sequences. Existing work for proactive recommendation faces significant hurdles: 1) overlooking the user feedback in the guidance process; 2) lacking explicit modeling of the guiding objective; and 3) insufficient flexibility for integration into existing industrial recommender systems. To address these issues, we introduce an Iterative Preference Guidance (IPG) framework. IPG performs proactive recommendation in a flexible post-processing manner by ranking items a
+    
+[^5]: 文档索引的未来：GPT和Donut革新目录内容处理
 
     The future of document indexing: GPT and Donut revolutionize table of content processing
 
@@ -74,7 +89,7 @@
 
     arXiv:2403.07553v1 Announce Type: cross  Abstract: Industrial projects rely heavily on lengthy, complex specification documents, making tedious manual extraction of structured information a major bottleneck. This paper introduces an innovative approach to automate this process, leveraging the capabilities of two cutting-edge AI models: Donut, a model that extracts information directly from scanned documents without OCR, and OpenAI GPT-3.5 Turbo, a robust large language model. The proposed methodology is initiated by acquiring the table of contents (ToCs) from construction specification documents and subsequently structuring the ToCs text into JSON data. Remarkable accuracy is achieved, with Donut reaching 85% and GPT-3.5 Turbo reaching 89% in effectively organizing the ToCs. This landmark achievement represents a significant leap forward in document indexing, demonstrating the immense potential of AI to automate information extraction tasks across diverse document types, boosting effic
     
-[^5]: 面向个性化的图基础模型
+[^6]: 面向个性化的图基础模型
 
     Towards Graph Foundation Models for Personalization
 
@@ -88,7 +103,7 @@
 
     arXiv:2403.07478v1 Announce Type: cross  Abstract: In the realm of personalization, integrating diverse information sources such as consumption signals and content-based representations is becoming increasingly critical to build state-of-the-art solutions. In this regard, two of the biggest trends in research around this subject are Graph Neural Networks (GNNs) and Foundation Models (FMs). While GNNs emerged as a popular solution in industry for powering personalization at scale, FMs have only recently caught attention for their promising performance in personalization tasks like ranking and retrieval. In this paper, we present a graph-based foundation modeling approach tailored to personalization. Central to this approach is a Heterogeneous GNN (HGNN) designed to capture multi-hop content and consumption relationships across a range of recommendable item types. To ensure the generality required from a Foundation Model, we employ a Large Language Model (LLM) text-based featurization of
     
-[^6]: LIST: 学习为基于嵌入的空间关键词查询建立空间文本数据索引
+[^7]: LIST: 学习为基于嵌入的空间关键词查询建立空间文本数据索引
 
     LIST: Learning to Index Spatio-Textual Data for Embedding based Spatial Keyword Queries
 
@@ -102,7 +117,7 @@
 
     arXiv:2403.07331v1 Announce Type: new  Abstract: With the proliferation of spatio-textual data, Top-k KNN spatial keyword queries (TkQs), which return a list of objects based on a ranking function that evaluates both spatial and textual relevance, have found many real-life applications. Existing geo-textual indexes for TkQs use traditional retrieval models like BM25 to compute text relevance and usually exploit a simple linear function to compute spatial relevance, but its effectiveness is limited. To improve effectiveness, several deep learning models have recently been proposed, but they suffer severe efficiency issues. To the best of our knowledge, there are no efficient indexes specifically designed to accelerate the top-k search process for these deep learning models.   To tackle these issues, we propose a novel technique, which Learns to Index the Spatio-Textual data for answering embedding based spatial keyword queries (called LIST). LIST is featured with two novel components. F
     
-[^7]: 基于自监督对比学习的隐式协同过滤
+[^8]: 基于自监督对比学习的隐式协同过滤
 
     Self-supervised Contrastive Learning for Implicit Collaborative Filtering
 
@@ -116,7 +131,7 @@
 
     arXiv:2403.07265v1 Announce Type: new  Abstract: Contrastive learning-based recommendation algorithms have significantly advanced the field of self-supervised recommendation, particularly with BPR as a representative ranking prediction task that dominates implicit collaborative filtering. However, the presence of false-positive and false-negative examples in recommendation systems hampers accurate preference learning. In this study, we propose a simple self-supervised contrastive learning framework that leverages positive feature augmentation and negative label augmentation to improve the self-supervisory signal. Theoretical analysis demonstrates that our learning method is equivalent to maximizing the likelihood estimation with latent variables representing user interest centers. Additionally, we establish an efficient negative label augmentation technique that samples unlabeled examples with a probability linearly dependent on their relative ranking positions, enabling efficient augm
     
-[^8]: 反映复杂社交媒体数据流中关键社会事件的时间序列分析
+[^9]: 反映复杂社交媒体数据流中关键社会事件的时间序列分析
 
     Time Series Analysis of Key Societal Events as Reflected in Complex Social Media Data Streams
 
@@ -130,7 +145,7 @@
 
     arXiv:2403.07090v1 Announce Type: cross  Abstract: Social media platforms hold valuable insights, yet extracting essential information can be challenging. Traditional top-down approaches often struggle to capture critical signals in rapidly changing events. As global events evolve swiftly, social media narratives, including instances of disinformation, become significant sources of insights. To address the need for an inductive strategy, we explore a niche social media platform GAB and an established messaging service Telegram, to develop methodologies applicable on a broader scale. This study investigates narrative evolution on these platforms using quantitative corpus-based discourse analysis techniques. Our approach is a novel mode to study multiple social media domains to distil key information which may be obscured otherwise, allowing for useful and actionable insights. The paper details the technical and methodological aspects of gathering and preprocessing GAB and Telegram data 
     
-[^9]: MetaSplit: 用于限量产品推荐的Meta-Split网络
+[^10]: MetaSplit: 用于限量产品推荐的Meta-Split网络
 
     MetaSplit: Meta-Split Network for Limited-Stock Product Recommendation
 
@@ -144,7 +159,7 @@
 
     arXiv:2403.06747v1 Announce Type: new  Abstract: Compared to business-to-consumer (B2C) e-commerce systems, consumer-to-consumer (C2C) e-commerce platforms usually encounter the limited-stock problem, that is, a product can only be sold one time in a C2C system. This poses several unique challenges for click-through rate (CTR) prediction. Due to limited user interactions for each product (i.e. item), the corresponding item embedding in the CTR model may not easily converge. This makes the conventional sequence modeling based approaches cannot effectively utilize user history information since historical user behaviors contain a mixture of items with different volume of stocks. Particularly, the attention mechanism in a sequence model tends to assign higher score to products with more accumulated user interactions, making limited-stock products being ignored and contribute less to the final output. To this end, we propose the Meta-Split Network (MSN) to split user history sequence regar
     
-[^10]: 应对后API困境：搜索引擎结果页面呈现社交媒体数据的偏见观
+[^11]: 应对后API困境：搜索引擎结果页面呈现社交媒体数据的偏见观
 
     Navigating the Post-API Dilemma Search Engine Results Pages Present a Biased View of Social Media Data
 
@@ -158,7 +173,7 @@
 
     arXiv:2401.15479v2 Announce Type: replace-cross  Abstract: Recent decisions to discontinue access to social media APIs are having detrimental effects on Internet research and the field of computational social science as a whole. This lack of access to data has been dubbed the Post-API era of Internet research. Fortunately, popular search engines have the means to crawl, capture, and surface social media data on their Search Engine Results Pages (SERP) if provided the proper search query, and may provide a solution to this dilemma. In the present work we ask: does SERP provide a complete and unbiased sample of social media data? Is SERP a viable alternative to direct API-access? To answer these questions, we perform a comparative analysis between (Google) SERP results and nonsampled data from Reddit and Twitter/X. We find that SERP results are highly biased in favor of popular posts; against political, pornographic, and vulgar posts; are more positive in their sentiment; and have large 
     
-[^11]: 通过检索示范进行上下文学习的语言模型：一项综述
+[^12]: 通过检索示范进行上下文学习的语言模型：一项综述
 
     In-context Learning with Retrieved Demonstrations for Language Models: A Survey. (arXiv:2401.11624v2 [cs.CL] UPDATED)
 
@@ -172,7 +187,7 @@
 
     Language models, especially pre-trained large language models, have showcased remarkable abilities as few-shot in-context learners (ICL), adept at adapting to new tasks with just a few demonstrations in the input context. However, the model's ability to perform ICL is sensitive to the choice of the few-shot demonstrations. Instead of using a fixed set of demonstrations, one recent development is to retrieve demonstrations tailored to each input query. The implementation of demonstration retrieval is relatively straightforward, leveraging existing databases and retrieval systems. This not only improves the efficiency and scalability of the learning process but also has been shown to reduce biases inherent in manual example selection. In light of the encouraging results and growing research in ICL with retrieved demonstrations, we conduct an extensive review of studies in this area. In this survey, we discuss and compare different design choices for retrieval models, retrieval training p
     
-[^12]: 多视图变分自动编码器在非目标代谢组学中缺失值填充中的应用
+[^13]: 多视图变分自动编码器在非目标代谢组学中缺失值填充中的应用
 
     Multi-View Variational Autoencoder for Missing Value Imputation in Untargeted Metabolomics. (arXiv:2310.07990v1 [q-bio.GN])
 
@@ -186,7 +201,7 @@
 
     Background: Missing data is a common challenge in mass spectrometry-based metabolomics, which can lead to biased and incomplete analyses. The integration of whole-genome sequencing (WGS) data with metabolomics data has emerged as a promising approach to enhance the accuracy of data imputation in metabolomics studies. Method: In this study, we propose a novel method that leverages the information from WGS data and reference metabolites to impute unknown metabolites. Our approach utilizes a multi-view variational autoencoder to jointly model the burden score, polygenetic risk score (PGS), and linkage disequilibrium (LD) pruned single nucleotide polymorphisms (SNPs) for feature extraction and missing metabolomics data imputation. By learning the latent representations of both omics data, our method can effectively impute missing metabolomics values based on genomic information. Results: We evaluate the performance of our method on empirical metabolomics datasets with missing values and de
     
-[^13]: 利用物品嵌入改进在稀疏和倾斜数据集中对位置偏差的估计
+[^14]: 利用物品嵌入改进在稀疏和倾斜数据集中对位置偏差的估计
 
     Improving position bias estimation against sparse and skewed dataset with item embedding. (arXiv:2305.13931v1 [cs.IR])
 
