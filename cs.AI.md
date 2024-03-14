@@ -157,39 +157,40 @@
 | [^153] | [ChatEDA: A Large Language Model Powered Autonomous Agent for EDA](https://arxiv.org/abs/2308.10204) | 该研究介绍了ChatEDA，一个由大型语言模型AutoMage赋能的EDA自主代理，通过有效管理任务计划、脚本生成和任务执行，简化了从RTL到GDSII的设计流程，并证明了其性能优越性。 |
 | [^154] | [SSMG: Spatial-Semantic Map Guided Diffusion Model for Free-form Layout-to-Image Generation](https://arxiv.org/abs/2308.10156) | SSMG模型采用特征图作为引导，相比其他方法具有更好的生成质量和空间语义可控性 |
 | [^155] | [Multi-Level Compositional Reasoning for Interactive Instruction Following](https://arxiv.org/abs/2308.09387) | 提出了一种名为MCR-Agent的方法，能够通过将任务分解为多个子目标并分别处理它们来解决复杂任务导航和交互的挑战 |
-| [^156] | [Explainable Anomaly Detection in Images and Videos: A Survey](https://arxiv.org/abs/2302.06670) | 这项研究提供了针对图像和视频的可解释异常检测方法的首次调研，为机器学习学术界和实际应用提供了重要参考。 |
-| [^157] | [Lowering Detection in Sport Climbing Based on Orientation of the Sensor Enhanced Quickdraw](https://arxiv.org/abs/2301.10164) | 通过在攀岩快挂上安装的加速度传感器采集数据，实现了在攀岩活动中检测攀岩者下降情况的技术，保护攀岩者隐私和健身房成本的同时提高了效率和便利性。 |
-| [^158] | [Towards Benchmarking and Evaluating Deepfake Detection](https://arxiv.org/abs/2203.02115) | 该论文旨在建立一个全面一致的基准，以开发可重复的评估流程，并评估来自多种检测方法的性能，以实现结果的有力比较。 |
-| [^159] | [mForms : Multimodal Form-Filling with Question Answering](https://arxiv.org/abs/2011.12340) | 本文提出了一种将表单填充任务重新构造为多模态自然语言问答的新方法，通过预训练的QA系统实现表单元素的填充，并通过多任务训练进一步细化表单填充过程。 |
-| [^160] | [Temporal Positive-unlabeled Learning for Biomedical Hypothesis Generation via Risk Estimation](https://arxiv.org/abs/2010.01916) | 通过正无标记学习捕捉科学术语关系的时间动态 |
-| [^161] | [Recurrent Attention Walk for Semi-supervised Classification](https://arxiv.org/abs/1910.10266) | 本文提出了一种基于循环注意力步行的方法，使用强化学习设置来探索图中的邻域，找到适合分类未标记目标节点的路径。 |
-| [^162] | [Collaborative Graph Walk for Semi-supervised Multi-Label Node Classification](https://arxiv.org/abs/1910.09706) | 提出了一种名为多标签图遍历的新方法，通过合作式的图遍历策略学习节点标签与图结构属性之间的关系，以及多标签特定任务之间的相关性。 |
-| [^163] | [Bridging State and History Representations: Understanding Self-Predictive RL.](http://arxiv.org/abs/2401.08898) | 本论文研究了深度强化学习中状态和历史表示间的关系，发现了这些方法和框架实际上都基于自预测抽象的共同思想，并提供了理论洞见和简化算法来学习自预测表示。 |
-| [^164] | [GPT-4V(ision) is a Generalist Web Agent, if Grounded.](http://arxiv.org/abs/2401.01614) | GPT-4V(ision)是一个通用的网络代理，具有综合视觉理解和网页操作的能力。实验证明，如果将文本计划转化为实际行动，GPT-4V可以在50%的任务上取得成功。这一结果显著优于传统方法。 |
-| [^165] | [Beyond Gradient and Priors in Privacy Attacks: Leveraging Pooler Layer Inputs of Language Models in Federated Learning.](http://arxiv.org/abs/2312.05720) | 本文引入了一种创新的方法，在联邦学习中利用语言模型的池化层输入来实现对隐私攻击的改进。通过恢复池化层输入，这种方法能够在不同的批处理大小下提供更高的文本恢复率，从而提供更细致和有效的见解。 |
-| [^166] | [Interactive Navigation in Environments with Traversable Obstacles Using Large Language and Vision-Language Models.](http://arxiv.org/abs/2310.08873) | 本文提出了一个使用大型语言和视觉-语言模型的交互式导航框架，使机器人能够在带有可通行障碍的环境中进行导航。通过使用这些模型，我们可以实现从文本指令到动作感知边界框的端到端系统，无需微调和额外的训练数据。同时，我们还使用大型模型划分激光雷达点云，生成动作感知成本地图以生成可行路径。 |
-| [^167] | [GenTKG: Generative Forecasting on Temporal Knowledge Graph.](http://arxiv.org/abs/2310.07793) | 研究提出了一种名为GenTKG的生成模型，用于在时间知识图谱上进行预测。该模型通过结合基于时间逻辑规则的检索策略和轻量级的参数效率指导，克服了复杂的时间图数据结构和庞大的数据量所带来的挑战。 |
-| [^168] | [Consistency Trajectory Models: Learning Probability Flow ODE Trajectory of Diffusion.](http://arxiv.org/abs/2310.02279) | 提出了一种一致性轨迹模型（CTM），它可以加速扩散模型的采样，同时通过对抗训练和去噪得分匹配损失的组合来提高性能，并实现了最先进的采样质量。 |
-| [^169] | [SmartPlay : A Benchmark for LLMs as Intelligent Agents.](http://arxiv.org/abs/2310.01557) | SmartPlay是一个用于评估LLMs作为智能Agent能力的基准，包括6个具有不同挑战的游戏，并测试了智能LLM Agent的多种关键能力。这不仅是一个评估LLM Agent整体性能的严格测试场地，还可以分析每个能力的表现。 |
-| [^170] | [Certified Robustness via Dynamic Margin Maximization and Improved Lipschitz Regularization.](http://arxiv.org/abs/2310.00116) | 本文提出了一种基于动态边界最大化和改进的Lipschitz正则化的认证鲁棒性训练算法，通过增加输出空间中的边界和正则化模型的Lipschitz常数来提高深度分类器对抗性扰动的鲁棒性。 |
-| [^171] | [Class Incremental Learning via Likelihood Ratio Based Task Prediction.](http://arxiv.org/abs/2309.15048) | 该论文提出了一种基于似然比的任务预测的类增量学习方法，利用离群检测器进行任务标识预测，解决了无任务标识符的测试样本的任务预测问题。 |
-| [^172] | [Generating and Explaining Corner Cases Using Learnt Probabilistic Lane Graphs.](http://arxiv.org/abs/2308.13658) | 本论文提出了使用概率车道图生成和解释角落情况的方法，该方法基于历史交通数据生成新颖而逼真的角落情况，以提高自动驾驶车辆的安全性。 |
-| [^173] | [Context-Aware Planning and Environment-Aware Memory for Instruction Following Embodied Agents.](http://arxiv.org/abs/2308.07241) | 这项研究提出了一种称为CPEM的系统，它利用上下文信息和环境感知记忆来改进行为智能体的感知能力，从而提高视觉导航和物体交互的效果。 |
-| [^174] | [Contrastive Explanations of Multi-agent Optimization Solutions.](http://arxiv.org/abs/2308.05984) | 本研究提出了MAoE，一种用于多智能体优化问题的对比解释方法。该方法通过生成新的解决方案并突出显示与初始解决方案的差异，帮助智能体理解为什么初始解决方案优于他们的期望。 |
-| [^175] | [Nature and the Machines.](http://arxiv.org/abs/2308.04440) | 《自然》杂志在一篇社论中呼吁我们“停止谈论明天的AI末日，而AI今天就存在风险。”这被认为是一个严重的判断失误，特别是对于有影响力的行动者来说，因为我们期望他们能够考虑到错误的后果。 |
-| [^176] | [In-Context Learning in Large Language Models Learns Label Relationships but Is Not Conventional Learning.](http://arxiv.org/abs/2307.12375) | 大型语言模型（LLMs）在包含标签关系示例的上下文中的学习能力使其在下游任务中表现显著提高，但与传统学习方法不同。我们研究了上下文示例中的标签如何影响预测、预训练中学习到的标签关系如何与上下文示例相互作用以及上下文学习如何聚合标签信息。研究结果揭示了LLMs的工作机制及其对上下文信息的处理方式。 |
-| [^177] | [UniTabE: Pretraining a Unified Tabular Encoder for Heterogeneous Tabular Data.](http://arxiv.org/abs/2307.09249) | UniTabE是一种面向异构表格数据的统一预训练表格编码器，能够处理不同表格结构的挑战，并具有对多样化下游应用的适应性。 |
-| [^178] | [VertiBench: Advancing Feature Distribution Diversity in Vertical Federated Learning Benchmarks.](http://arxiv.org/abs/2307.02040) | 本文引入了两个影响VFL性能的关键因素：特征重要性和特征相关性，并提出了相关的评估指标和数据集划分方法。同时，通过引入真实的VFL数据集，填补了图像-图像VFL情景中的不足。研究对于未来的VFL研究提供了有价值的见解。 |
-| [^179] | [Probabilistic Constraint for Safety-Critical Reinforcement Learning.](http://arxiv.org/abs/2306.17279) | 本文研究了概率约束下的安全关键强化学习问题，提出了具有明确梯度表达式的Safe Policy Gradient-REINFORCE（SPG-REINFORCE）算法，并通过理论界限证明了概率约束设置在最优性和安全性之间具有更好的权衡。 |
-| [^180] | [Identifiability of Discretized Latent Coordinate Systems via Density Landmarks Detection.](http://arxiv.org/abs/2306.16334) | 本文提出了一种新颖的可识别性形式，称为量化坐标可识别性。在无监督的情况下，我们展示了在高度通用的非线性映射下，可以恢复离散化的潜在坐标，而无需额外的归纳偏差。这一发现对解缠研究具有重要意义。 |
-| [^181] | [Explainability in Simplicial Map Neural Networks.](http://arxiv.org/abs/2306.00010) | 本文提出了简单形式映射神经网络（SMNN）的训练过程和替代凸多面体的方法，并且首次引入了 SMNN 的可解释性能力。 |
-| [^182] | [GRACE++: Loss-Resilient Real-Time Video through Neural Codecs.](http://arxiv.org/abs/2305.12333) | GRACE++是一个抗丢包的实时视频系统，通过神经视频编解码器实现了在各种丢包情况下保持用户体验质量的目标。 |
-| [^183] | [Retentive or Forgetful? Diving into the Knowledge Memorizing Mechanism of Language Models.](http://arxiv.org/abs/2305.09144) | 本论文研究了语言模型的记忆机制，发现预训练可以有效提高模型的记忆能力，而知识相关性和多样性对于记忆形成也有显著影响。 |
-| [^184] | [Artificial General Intelligence (AGI) for Education.](http://arxiv.org/abs/2304.12479) | AGI技术具有革命教育领域潜力，可以建立e-learning平台、教育协作工具等，弥补传统AI模型因受限于数据和人际交互限制而无法满足教育需求的不足。 |
-| [^185] | [CT Multi-Task Learning with a Large Image-Text (LIT) Model.](http://arxiv.org/abs/2304.02649) | 本研究通过将大型图像模型和大语言模型结合起来，建立了一个用于肺癌诊断的多任务CT大型图像文本（LIT）模型，能很好地执行肺部CT分割等多个医学任务。 |
-| [^186] | [A Survey on Causal Discovery Methods for Temporal and Non-Temporal Data.](http://arxiv.org/abs/2303.15027) | 本文综述了时序和非时序数据因果发现的方法，探讨了不同算法在不同情况下识别因果边缘的能力。同时还介绍了可用于评估因果发现方法性能的基准数据集和常见指标。 |
-| [^187] | [Data-Efficient Contrastive Self-supervised Learning: Easy Examples Contribute the Most.](http://arxiv.org/abs/2302.09195) | 该研究证明了在自监督学习中容易学习的样本对学习高质量表示起到最大的作用，这有助于减少所需的训练数据量，并提高性能。 |
-| [^188] | [Referential communication in heterogeneous communities of pre-trained visual deep networks.](http://arxiv.org/abs/2302.08913) | 异构视觉深度网络社区中的预训练网络可以自我监督地开发出共享协议，以指代一组目标中的目标对象，并可用于沟通不同粒度的未知对象类别。 |
+| [^156] | [A generative artificial intelligence framework based on a molecular diffusion model for the design of metal-organic frameworks for carbon capture](https://arxiv.org/abs/2306.08695) | GHP-MOFassemble是一个生成人工智能框架，用于合理和加速设计具有高CO2吸附能力和可合成连接剂的MOFs，通过生成新颖连接剂并与预选金属节点组装成MOFs，在研究其稳定性、化学一致性和CO2吸附量方面展现出独特性和前景。 |
+| [^157] | [Explainable Anomaly Detection in Images and Videos: A Survey](https://arxiv.org/abs/2302.06670) | 这项研究提供了针对图像和视频的可解释异常检测方法的首次调研，为机器学习学术界和实际应用提供了重要参考。 |
+| [^158] | [Lowering Detection in Sport Climbing Based on Orientation of the Sensor Enhanced Quickdraw](https://arxiv.org/abs/2301.10164) | 通过在攀岩快挂上安装的加速度传感器采集数据，实现了在攀岩活动中检测攀岩者下降情况的技术，保护攀岩者隐私和健身房成本的同时提高了效率和便利性。 |
+| [^159] | [Towards Benchmarking and Evaluating Deepfake Detection](https://arxiv.org/abs/2203.02115) | 该论文旨在建立一个全面一致的基准，以开发可重复的评估流程，并评估来自多种检测方法的性能，以实现结果的有力比较。 |
+| [^160] | [mForms : Multimodal Form-Filling with Question Answering](https://arxiv.org/abs/2011.12340) | 本文提出了一种将表单填充任务重新构造为多模态自然语言问答的新方法，通过预训练的QA系统实现表单元素的填充，并通过多任务训练进一步细化表单填充过程。 |
+| [^161] | [Temporal Positive-unlabeled Learning for Biomedical Hypothesis Generation via Risk Estimation](https://arxiv.org/abs/2010.01916) | 通过正无标记学习捕捉科学术语关系的时间动态 |
+| [^162] | [Recurrent Attention Walk for Semi-supervised Classification](https://arxiv.org/abs/1910.10266) | 本文提出了一种基于循环注意力步行的方法，使用强化学习设置来探索图中的邻域，找到适合分类未标记目标节点的路径。 |
+| [^163] | [Collaborative Graph Walk for Semi-supervised Multi-Label Node Classification](https://arxiv.org/abs/1910.09706) | 提出了一种名为多标签图遍历的新方法，通过合作式的图遍历策略学习节点标签与图结构属性之间的关系，以及多标签特定任务之间的相关性。 |
+| [^164] | [Bridging State and History Representations: Understanding Self-Predictive RL.](http://arxiv.org/abs/2401.08898) | 本论文研究了深度强化学习中状态和历史表示间的关系，发现了这些方法和框架实际上都基于自预测抽象的共同思想，并提供了理论洞见和简化算法来学习自预测表示。 |
+| [^165] | [GPT-4V(ision) is a Generalist Web Agent, if Grounded.](http://arxiv.org/abs/2401.01614) | GPT-4V(ision)是一个通用的网络代理，具有综合视觉理解和网页操作的能力。实验证明，如果将文本计划转化为实际行动，GPT-4V可以在50%的任务上取得成功。这一结果显著优于传统方法。 |
+| [^166] | [Beyond Gradient and Priors in Privacy Attacks: Leveraging Pooler Layer Inputs of Language Models in Federated Learning.](http://arxiv.org/abs/2312.05720) | 本文引入了一种创新的方法，在联邦学习中利用语言模型的池化层输入来实现对隐私攻击的改进。通过恢复池化层输入，这种方法能够在不同的批处理大小下提供更高的文本恢复率，从而提供更细致和有效的见解。 |
+| [^167] | [Interactive Navigation in Environments with Traversable Obstacles Using Large Language and Vision-Language Models.](http://arxiv.org/abs/2310.08873) | 本文提出了一个使用大型语言和视觉-语言模型的交互式导航框架，使机器人能够在带有可通行障碍的环境中进行导航。通过使用这些模型，我们可以实现从文本指令到动作感知边界框的端到端系统，无需微调和额外的训练数据。同时，我们还使用大型模型划分激光雷达点云，生成动作感知成本地图以生成可行路径。 |
+| [^168] | [GenTKG: Generative Forecasting on Temporal Knowledge Graph.](http://arxiv.org/abs/2310.07793) | 研究提出了一种名为GenTKG的生成模型，用于在时间知识图谱上进行预测。该模型通过结合基于时间逻辑规则的检索策略和轻量级的参数效率指导，克服了复杂的时间图数据结构和庞大的数据量所带来的挑战。 |
+| [^169] | [Consistency Trajectory Models: Learning Probability Flow ODE Trajectory of Diffusion.](http://arxiv.org/abs/2310.02279) | 提出了一种一致性轨迹模型（CTM），它可以加速扩散模型的采样，同时通过对抗训练和去噪得分匹配损失的组合来提高性能，并实现了最先进的采样质量。 |
+| [^170] | [SmartPlay : A Benchmark for LLMs as Intelligent Agents.](http://arxiv.org/abs/2310.01557) | SmartPlay是一个用于评估LLMs作为智能Agent能力的基准，包括6个具有不同挑战的游戏，并测试了智能LLM Agent的多种关键能力。这不仅是一个评估LLM Agent整体性能的严格测试场地，还可以分析每个能力的表现。 |
+| [^171] | [Certified Robustness via Dynamic Margin Maximization and Improved Lipschitz Regularization.](http://arxiv.org/abs/2310.00116) | 本文提出了一种基于动态边界最大化和改进的Lipschitz正则化的认证鲁棒性训练算法，通过增加输出空间中的边界和正则化模型的Lipschitz常数来提高深度分类器对抗性扰动的鲁棒性。 |
+| [^172] | [Class Incremental Learning via Likelihood Ratio Based Task Prediction.](http://arxiv.org/abs/2309.15048) | 该论文提出了一种基于似然比的任务预测的类增量学习方法，利用离群检测器进行任务标识预测，解决了无任务标识符的测试样本的任务预测问题。 |
+| [^173] | [Generating and Explaining Corner Cases Using Learnt Probabilistic Lane Graphs.](http://arxiv.org/abs/2308.13658) | 本论文提出了使用概率车道图生成和解释角落情况的方法，该方法基于历史交通数据生成新颖而逼真的角落情况，以提高自动驾驶车辆的安全性。 |
+| [^174] | [Context-Aware Planning and Environment-Aware Memory for Instruction Following Embodied Agents.](http://arxiv.org/abs/2308.07241) | 这项研究提出了一种称为CPEM的系统，它利用上下文信息和环境感知记忆来改进行为智能体的感知能力，从而提高视觉导航和物体交互的效果。 |
+| [^175] | [Contrastive Explanations of Multi-agent Optimization Solutions.](http://arxiv.org/abs/2308.05984) | 本研究提出了MAoE，一种用于多智能体优化问题的对比解释方法。该方法通过生成新的解决方案并突出显示与初始解决方案的差异，帮助智能体理解为什么初始解决方案优于他们的期望。 |
+| [^176] | [Nature and the Machines.](http://arxiv.org/abs/2308.04440) | 《自然》杂志在一篇社论中呼吁我们“停止谈论明天的AI末日，而AI今天就存在风险。”这被认为是一个严重的判断失误，特别是对于有影响力的行动者来说，因为我们期望他们能够考虑到错误的后果。 |
+| [^177] | [In-Context Learning in Large Language Models Learns Label Relationships but Is Not Conventional Learning.](http://arxiv.org/abs/2307.12375) | 大型语言模型（LLMs）在包含标签关系示例的上下文中的学习能力使其在下游任务中表现显著提高，但与传统学习方法不同。我们研究了上下文示例中的标签如何影响预测、预训练中学习到的标签关系如何与上下文示例相互作用以及上下文学习如何聚合标签信息。研究结果揭示了LLMs的工作机制及其对上下文信息的处理方式。 |
+| [^178] | [UniTabE: Pretraining a Unified Tabular Encoder for Heterogeneous Tabular Data.](http://arxiv.org/abs/2307.09249) | UniTabE是一种面向异构表格数据的统一预训练表格编码器，能够处理不同表格结构的挑战，并具有对多样化下游应用的适应性。 |
+| [^179] | [VertiBench: Advancing Feature Distribution Diversity in Vertical Federated Learning Benchmarks.](http://arxiv.org/abs/2307.02040) | 本文引入了两个影响VFL性能的关键因素：特征重要性和特征相关性，并提出了相关的评估指标和数据集划分方法。同时，通过引入真实的VFL数据集，填补了图像-图像VFL情景中的不足。研究对于未来的VFL研究提供了有价值的见解。 |
+| [^180] | [Probabilistic Constraint for Safety-Critical Reinforcement Learning.](http://arxiv.org/abs/2306.17279) | 本文研究了概率约束下的安全关键强化学习问题，提出了具有明确梯度表达式的Safe Policy Gradient-REINFORCE（SPG-REINFORCE）算法，并通过理论界限证明了概率约束设置在最优性和安全性之间具有更好的权衡。 |
+| [^181] | [Identifiability of Discretized Latent Coordinate Systems via Density Landmarks Detection.](http://arxiv.org/abs/2306.16334) | 本文提出了一种新颖的可识别性形式，称为量化坐标可识别性。在无监督的情况下，我们展示了在高度通用的非线性映射下，可以恢复离散化的潜在坐标，而无需额外的归纳偏差。这一发现对解缠研究具有重要意义。 |
+| [^182] | [Explainability in Simplicial Map Neural Networks.](http://arxiv.org/abs/2306.00010) | 本文提出了简单形式映射神经网络（SMNN）的训练过程和替代凸多面体的方法，并且首次引入了 SMNN 的可解释性能力。 |
+| [^183] | [GRACE++: Loss-Resilient Real-Time Video through Neural Codecs.](http://arxiv.org/abs/2305.12333) | GRACE++是一个抗丢包的实时视频系统，通过神经视频编解码器实现了在各种丢包情况下保持用户体验质量的目标。 |
+| [^184] | [Retentive or Forgetful? Diving into the Knowledge Memorizing Mechanism of Language Models.](http://arxiv.org/abs/2305.09144) | 本论文研究了语言模型的记忆机制，发现预训练可以有效提高模型的记忆能力，而知识相关性和多样性对于记忆形成也有显著影响。 |
+| [^185] | [Artificial General Intelligence (AGI) for Education.](http://arxiv.org/abs/2304.12479) | AGI技术具有革命教育领域潜力，可以建立e-learning平台、教育协作工具等，弥补传统AI模型因受限于数据和人际交互限制而无法满足教育需求的不足。 |
+| [^186] | [CT Multi-Task Learning with a Large Image-Text (LIT) Model.](http://arxiv.org/abs/2304.02649) | 本研究通过将大型图像模型和大语言模型结合起来，建立了一个用于肺癌诊断的多任务CT大型图像文本（LIT）模型，能很好地执行肺部CT分割等多个医学任务。 |
+| [^187] | [A Survey on Causal Discovery Methods for Temporal and Non-Temporal Data.](http://arxiv.org/abs/2303.15027) | 本文综述了时序和非时序数据因果发现的方法，探讨了不同算法在不同情况下识别因果边缘的能力。同时还介绍了可用于评估因果发现方法性能的基准数据集和常见指标。 |
+| [^188] | [Data-Efficient Contrastive Self-supervised Learning: Easy Examples Contribute the Most.](http://arxiv.org/abs/2302.09195) | 该研究证明了在自监督学习中容易学习的样本对学习高质量表示起到最大的作用，这有助于减少所需的训练数据量，并提高性能。 |
+| [^189] | [Referential communication in heterogeneous communities of pre-trained visual deep networks.](http://arxiv.org/abs/2302.08913) | 异构视觉深度网络社区中的预训练网络可以自我监督地开发出共享协议，以指代一组目标中的目标对象，并可用于沟通不同粒度的未知对象类别。 |
 
 # 详细
 
@@ -2363,7 +2364,21 @@
 
     arXiv:2308.09387v2 Announce Type: replace-cross  Abstract: Robotic agents performing domestic chores by natural language directives are required to master the complex job of navigating environment and interacting with objects in the environments. The tasks given to the agents are often composite thus are challenging as completing them require to reason about multiple subtasks, e.g., bring a cup of coffee. To address the challenge, we propose to divide and conquer it by breaking the task into multiple subgoals and attend to them individually for better navigation and interaction. We call it Multi-level Compositional Reasoning Agent (MCR-Agent). Specifically, we learn a three-level action policy. At the highest level, we infer a sequence of human-interpretable subgoals to be executed based on language instructions by a high-level policy composition controller. At the middle level, we discriminatively control the agent's navigation by a master policy by alternating between a navigation po
     
-[^156]: 图像和视频中可解释的异常检测：一项调研
+[^156]: 基于分子扩散模型的用于碳捕获的金属有机框架设计的生成人工智能框架
+
+    A generative artificial intelligence framework based on a molecular diffusion model for the design of metal-organic frameworks for carbon capture
+
+    [https://arxiv.org/abs/2306.08695](https://arxiv.org/abs/2306.08695)
+
+    GHP-MOFassemble是一个生成人工智能框架，用于合理和加速设计具有高CO2吸附能力和可合成连接剂的MOFs，通过生成新颖连接剂并与预选金属节点组装成MOFs，在研究其稳定性、化学一致性和CO2吸附量方面展现出独特性和前景。
+
+    
+
+    金属有机框架（MOFs）对CO2捕获具有巨大潜力。然而，在广阔的潜在构建块的化学空间中找到性能最佳的材料在计算和实验上存在巨大挑战。在这里，我们引入了GHP-MOFassemble，这是一个用于合理和加速设计具有高CO2吸附能力和可合成连接剂的MOFs的生成人工智能（AI），高性能框架。GHP-MOFassemble生成新颖的连接剂，并与三种预选金属节点（铜桨轮，锌桨轮，锌四聚体）中的一个组装成具有原始立方拓扑结构的MOFs。GHP-MOFassemble通过分子动力学模拟研究其稳定性和化学一致性，晶体图神经网络和大规模巧合蒙特卡洛模拟来量化其CO2吸附，并对AI生成的MOFs进行筛选和验证，以确保其独特性、可合成性和结构有效性。
+
+    arXiv:2306.08695v2 Announce Type: replace-cross  Abstract: Metal-organic frameworks (MOFs) exhibit great promise for CO2 capture. However, finding the best performing materials poses computational and experimental grand challenges in view of the vast chemical space of potential building blocks. Here, we introduce GHP-MOFassemble, a generative artificial intelligence (AI), high performance framework for the rational and accelerated design of MOFs with high CO2 adsorption capacity and synthesizable linkers. GHP-MOFassemble generates novel linkers, assembled with one of three pre-selected metal nodes (Cu paddlewheel, Zn paddlewheel, Zn tetramer) into MOFs in a primitive cubic topology. GHP-MOFassemble screens and validates AI-generated MOFs for uniqueness, synthesizability, structural validity, uses molecular dynamics simulations to study their stability and chemical consistency, and crystal graph neural networks and Grand Canonical Monte Carlo simulations to quantify their CO2 adsorption
+    
+[^157]: 图像和视频中可解释的异常检测：一项调研
 
     Explainable Anomaly Detection in Images and Videos: A Survey
 
@@ -2377,7 +2392,7 @@
 
     arXiv:2302.06670v2 Announce Type: replace-cross  Abstract: Anomaly detection and localization of visual data, including images and videos, are of great significance in both machine learning academia and applied real-world scenarios. Despite the rapid development of visual anomaly detection techniques in recent years, the interpretations of these black-box models and reasonable explanations of why anomalies can be distinguished out are scarce. This paper provides the first survey concentrated on explainable visual anomaly detection methods. We first introduce the basic background of image-level and video-level anomaly detection. Then, as the main content of this survey, a comprehensive and exhaustive literature review of explainable anomaly detection methods for both images and videos is presented. Next, we analyze why some explainable anomaly detection methods can be applied to both images and videos and why others can be only applied to one modality. Additionally, we provide summaries
     
-[^157]: 基于传感器增强快挂的朝向的攀岩中下降行为的检测
+[^158]: 基于传感器增强快挂的朝向的攀岩中下降行为的检测
 
     Lowering Detection in Sport Climbing Based on Orientation of the Sensor Enhanced Quickdraw
 
@@ -2391,7 +2406,7 @@
 
     arXiv:2301.10164v2 Announce Type: replace-cross  Abstract: Tracking climbers' activity to improve services and make the best use of their infrastructure is a concern for climbing gyms. Each climbing session must be analyzed from beginning till lowering of the climber. Therefore, spotting the climbers descending is crucial since it indicates when the ascent has come to an end. This problem must be addressed while preserving privacy and convenience of the climbers and the costs of the gyms. To this aim, a hardware prototype is developed to collect data using accelerometer sensors attached to a piece of climbing equipment mounted on the wall, called quickdraw, that connects the climbing rope to the bolt anchors. The corresponding sensors are configured to be energy-efficient, hence become practical in terms of expenses and time consumption for replacement when using in large quantity in a climbing gym. This paper describes hardware specifications, studies data measured by the sensors in u
     
-[^158]: 朝向测评和评估Deepfake检测
+[^159]: 朝向测评和评估Deepfake检测
 
     Towards Benchmarking and Evaluating Deepfake Detection
 
@@ -2405,7 +2420,7 @@
 
     arXiv:2203.02115v2 Announce Type: replace-cross  Abstract: Deepfake detection automatically recognizes the manipulated medias through the analysis of the difference between manipulated and non-altered videos. It is natural to ask which are the top performers among the existing deepfake detection approaches to identify promising research directions and provide practical guidance. Unfortunately, it's difficult to conduct a sound benchmarking comparison of existing detection approaches using the results in the literature because evaluation conditions are inconsistent across studies. Our objective is to establish a comprehensive and consistent benchmark, to develop a repeatable evaluation procedure, and to measure the performance of a range of detection approaches so that the results can be compared soundly. A challenging dataset consisting of the manipulated samples generated by more than 13 different methods has been collected, and 11 popular detection approaches (9 algorithms) from the 
     
-[^159]: mForms: 多模态问答形式填充
+[^160]: mForms: 多模态问答形式填充
 
     mForms : Multimodal Form-Filling with Question Answering
 
@@ -2419,7 +2434,7 @@
 
     arXiv:2011.12340v3 Announce Type: replace  Abstract: This paper presents a new approach to form-filling by reformulating the task as multimodal natural language Question Answering (QA). The reformulation is achieved by first translating the elements on the GUI form (text fields, buttons, icons, etc.) to natural language questions, where these questions capture the element's multimodal semantics. After a match is determined between the form element (Question) and the user utterance (Answer), the form element is filled through a pre-trained extractive QA system. By leveraging pre-trained QA models and not requiring form-specific training, this approach to form-filling is zero-shot. The paper also presents an approach to further refine the form-filling by using multi-task training to incorporate a potentially large number of successive tasks. Finally, the paper introduces a multimodal natural language form-filling dataset Multimodal Forms (mForms), as well as a multimodal extension of the
     
-[^160]: 通过风险估计实现生物医学假设生成的时间正无标记学习
+[^161]: 通过风险估计实现生物医学假设生成的时间正无标记学习
 
     Temporal Positive-unlabeled Learning for Biomedical Hypothesis Generation via Risk Estimation
 
@@ -2433,7 +2448,7 @@
 
     arXiv:2010.01916v1 Announce Type: cross  Abstract: Understanding the relationships between biomedical terms like viruses, drugs, and symptoms is essential in the fight against diseases. Many attempts have been made to introduce the use of machine learning to the scientific process of hypothesis generation(HG), which refers to the discovery of meaningful implicit connections between biomedical terms. However, most existing methods fail to truly capture the temporal dynamics of scientific term relations and also assume unobserved connections to be irrelevant (i.e., in a positive-negative (PN) learning setting). To break these limits, we formulate this HG problem as future connectivity prediction task on a dynamic attributed graph via positive-unlabeled (PU) learning. Then, the key is to capture the temporal evolution of node pair (term pair) relations from just the positive and unlabeled data. We propose a variational inference model to estimate the positive prior, and incorporate it in 
     
-[^161]: 基于循环注意力步行的半监督分类
+[^162]: 基于循环注意力步行的半监督分类
 
     Recurrent Attention Walk for Semi-supervised Classification
 
@@ -2447,7 +2462,7 @@
 
     arXiv:1910.10266v1 Announce Type: cross  Abstract: In this paper, we study the graph-based semi-supervised learning for classifying nodes in attributed networks, where the nodes and edges possess content information. Recent approaches like graph convolution networks and attention mechanisms have been proposed to ensemble the first-order neighbors and incorporate the relevant neighbors. However, it is costly (especially in memory) to consider all neighbors without a prior differentiation. We propose to explore the neighborhood in a reinforcement learning setting and find a walk path well-tuned for classifying the unlabelled target nodes. We let an agent (of node classification task) walk over the graph and decide where to direct to maximize classification accuracy. We define the graph walk as a partially observable Markov decision process (POMDP). The proposed method is flexible for working in both transductive and inductive setting. Extensive experiments on four datasets demonstrate th
     
-[^162]: 合作图遍历用于半监督多标签节点分类
+[^163]: 合作图遍历用于半监督多标签节点分类
 
     Collaborative Graph Walk for Semi-supervised Multi-Label Node Classification
 
@@ -2461,7 +2476,7 @@
 
     arXiv:1910.09706v2 Announce Type: cross  Abstract: In this work, we study semi-supervised multi-label node classification problem in attributed graphs. Classic solutions to multi-label node classification follow two steps, first learn node embedding and then build a node classifier on the learned embedding. To improve the discriminating power of the node embedding, we propose a novel collaborative graph walk, named Multi-Label-Graph-Walk, to finely tune node representations with the available label assignments in attributed graphs via reinforcement learning. The proposed method formulates the multi-label node classification task as simultaneous graph walks conducted by multiple label-specific agents. Furthermore, policies of the label-wise graph walks are learned in a cooperative way to capture first the predictive relation between node labels and structural attributes of graphs; and second, the correlation among the multiple label-specific classification tasks. A comprehensive experim
     
-[^163]: 桥接状态和历史表示：理解自预测强化学习
+[^164]: 桥接状态和历史表示：理解自预测强化学习
 
     Bridging State and History Representations: Understanding Self-Predictive RL. (arXiv:2401.08898v1 [cs.LG])
 
@@ -2475,7 +2490,7 @@
 
     Representations are at the core of all deep reinforcement learning (RL) methods for both Markov decision processes (MDPs) and partially observable Markov decision processes (POMDPs). Many representation learning methods and theoretical frameworks have been developed to understand what constitutes an effective representation. However, the relationships between these methods and the shared properties among them remain unclear. In this paper, we show that many of these seemingly distinct methods and frameworks for state and history abstractions are, in fact, based on a common idea of self-predictive abstraction. Furthermore, we provide theoretical insights into the widely adopted objectives and optimization, such as the stop-gradient technique, in learning self-predictive representations. These findings together yield a minimalist algorithm to learn self-predictive representations for states and histories. We validate our theories by applying our algorithm to standard MDPs, MDPs with dist
     
-[^164]: GPT-4V(ision)是一个通用的网络代理，如果有基础的话。
+[^165]: GPT-4V(ision)是一个通用的网络代理，如果有基础的话。
 
     GPT-4V(ision) is a Generalist Web Agent, if Grounded. (arXiv:2401.01614v1 [cs.IR])
 
@@ -2489,7 +2504,7 @@
 
     The recent development on large multimodal models (LMMs), especially GPT-4V(ision) and Gemini, has been quickly expanding the capability boundaries of multimodal models beyond traditional tasks like image captioning and visual question answering. In this work, we explore the potential of LMMs like GPT-4V as a generalist web agent that can follow natural language instructions to complete tasks on any given website. We propose SEEACT, a generalist web agent that harnesses the power of LMMs for integrated visual understanding and acting on the web. We evaluate on the recent MIND2WEB benchmark. In addition to standard offline evaluation on cached websites, we enable a new online evaluation setting by developing a tool that allows running web agents on live websites. We show that GPT-4V presents a great potential for web agents - it can successfully complete 50% of the tasks on live websites if we manually ground its textual plans into actions on the websites. This substantially outperforms
     
-[^165]: 超越梯度和先验知识在隐私攻击中：利用联邦学习中语言模型的池化层输入
+[^166]: 超越梯度和先验知识在隐私攻击中：利用联邦学习中语言模型的池化层输入
 
     Beyond Gradient and Priors in Privacy Attacks: Leveraging Pooler Layer Inputs of Language Models in Federated Learning. (arXiv:2312.05720v2 [cs.LG] UPDATED)
 
@@ -2503,7 +2518,7 @@
 
     Federated learning (FL) emphasizes decentralized training by storing data locally and sending only model updates, underlining user privacy. Recently, a line of works on privacy attacks impairs user privacy by extracting sensitive training text from language models in the context of FL. Yet, these attack techniques face distinct hurdles: some work chiefly with limited batch sizes (e.g., batch size of 1), and others are easily detectable. This paper introduces an innovative approach that is challenging to detect, significantly enhancing the recovery rate of text in various batch-size settings. Building on fundamental gradient matching and domain prior knowledge, we enhance the attack by recovering the input of the Pooler layer of language models, which enables us to provide additional supervised signals at the feature level. Unlike gradient data, these signals do not average across sentences and tokens, thereby offering more nuanced and effective insights. We benchmark our method using t
     
-[^166]: 在带有可通行障碍的环境中使用大型语言和视觉-语言模型进行交互式导航
+[^167]: 在带有可通行障碍的环境中使用大型语言和视觉-语言模型进行交互式导航
 
     Interactive Navigation in Environments with Traversable Obstacles Using Large Language and Vision-Language Models. (arXiv:2310.08873v1 [cs.RO] CROSS LISTED)
 
@@ -2517,7 +2532,7 @@
 
     This paper proposes an interactive navigation framework by using large language and vision-language models, allowing robots to navigate in environments with traversable obstacles. We utilize the large language model (GPT-3.5) and the open-set Vision-language Model (Grounding DINO) to create an action-aware costmap to perform effective path planning without fine-tuning. With the large models, we can achieve an end-to-end system from textual instructions like "Can you pass through the curtains to deliver medicines to me?", to bounding boxes (e.g., curtains) with action-aware attributes. They can be used to segment LiDAR point clouds into two parts: traversable and untraversable parts, and then an action-aware costmap is constructed for generating a feasible path. The pre-trained large models have great generalization ability and do not require additional annotated data for training, allowing fast deployment in the interactive navigation tasks. We choose to use multiple traversable object
     
-[^167]: GenTKG: 基于生成模型的时间知识图谱预测
+[^168]: GenTKG: 基于生成模型的时间知识图谱预测
 
     GenTKG: Generative Forecasting on Temporal Knowledge Graph. (arXiv:2310.07793v1 [cs.CL])
 
@@ -2531,7 +2546,7 @@
 
     The rapid advancements in large language models (LLMs) have ignited interest in the temporal knowledge graph (tKG) domain, where conventional carefully designed embedding-based and rule-based models dominate. The question remains open of whether pre-trained LLMs can understand structured temporal relational data and replace them as the foundation model for temporal relational forecasting. Therefore, we bring temporal knowledge forecasting into the generative setting. However, challenges occur in the huge chasms between complex temporal graph data structure and sequential natural expressions LLMs can handle, and between the enormous data sizes of tKGs and heavy computation costs of finetuning LLMs. To address these challenges, we propose a novel retrieval augmented generation framework that performs generative forecasting on tKGs named GenTKG, which combines a temporal logical rule-based retrieval strategy and lightweight parameter-efficient instruction tuning. Extensive experiments hav
     
-[^168]: 一致性轨迹模型：学习扩散的概率流ODE轨迹
+[^169]: 一致性轨迹模型：学习扩散的概率流ODE轨迹
 
     Consistency Trajectory Models: Learning Probability Flow ODE Trajectory of Diffusion. (arXiv:2310.02279v1 [cs.LG])
 
@@ -2545,7 +2560,7 @@
 
     Consistency Models (CM) (Song et al., 2023) accelerate score-based diffusion model sampling at the cost of sample quality but lack a natural way to trade-off quality for speed. To address this limitation, we propose Consistency Trajectory Model (CTM), a generalization encompassing CM and score-based models as special cases. CTM trains a single neural network that can -- in a single forward pass -- output scores (i.e., gradients of log-density) and enables unrestricted traversal between any initial and final time along the Probability Flow Ordinary Differential Equation (ODE) in a diffusion process. CTM enables the efficient combination of adversarial training and denoising score matching loss to enhance performance and achieves new state-of-the-art FIDs for single-step diffusion model sampling on CIFAR-10 (FID 1.73) and ImageNet at 64X64 resolution (FID 2.06). CTM also enables a new family of sampling schemes, both deterministic and stochastic, involving long jumps along the ODE soluti
     
-[^169]: SmartPlay: 一种用于评估LLMs作为智能Agent能力的基准
+[^170]: SmartPlay: 一种用于评估LLMs作为智能Agent能力的基准
 
     SmartPlay : A Benchmark for LLMs as Intelligent Agents. (arXiv:2310.01557v1 [cs.LG])
 
@@ -2559,7 +2574,7 @@
 
     Recent large language models (LLMs) have demonstrated great potential toward intelligent agents and next-gen automation, but there currently lacks a systematic benchmark for evaluating LLMs' abilities as agents. We introduce SmartPlay: both a challenging benchmark and a methodology for evaluating LLMs as agents. SmartPlay consists of 6 different games, including Rock-Paper-Scissors, Tower of Hanoi, Minecraft. Each game features a unique setting, providing up to 20 evaluation settings and infinite environment variations. Each game in SmartPlay uniquely challenges a subset of 9 important capabilities of an intelligent LLM agent, including reasoning with object dependencies, planning ahead, spatial reasoning, learning from history, and understanding randomness. The distinction between the set of capabilities each game test allows us to analyze each capability separately. SmartPlay serves not only as a rigorous testing ground for evaluating the overall performance of LLM agents but also as
     
-[^170]: 动态边界最大化和改进的Lipschitz正则化的认证鲁棒性
+[^171]: 动态边界最大化和改进的Lipschitz正则化的认证鲁棒性
 
     Certified Robustness via Dynamic Margin Maximization and Improved Lipschitz Regularization. (arXiv:2310.00116v1 [cs.LG])
 
@@ -2573,7 +2588,7 @@
 
     To improve the robustness of deep classifiers against adversarial perturbations, many approaches have been proposed, such as designing new architectures with better robustness properties (e.g., Lipschitz-capped networks), or modifying the training process itself (e.g., min-max optimization, constrained learning, or regularization). These approaches, however, might not be effective at increasing the margin in the input (feature) space. As a result, there has been an increasing interest in developing training procedures that can directly manipulate the decision boundary in the input space. In this paper, we build upon recent developments in this category by developing a robust training algorithm whose objective is to increase the margin in the output (logit) space while regularizing the Lipschitz constant of the model along vulnerable directions. We show that these two objectives can directly promote larger margins in the input space. To this end, we develop a scalable method for calcula
     
-[^171]: 基于似然比的任务预测的类增量学习
+[^172]: 基于似然比的任务预测的类增量学习
 
     Class Incremental Learning via Likelihood Ratio Based Task Prediction. (arXiv:2309.15048v1 [cs.LG])
 
@@ -2587,7 +2602,7 @@
 
     Class incremental learning (CIL) is a challenging setting of continual learning, which learns a series of tasks sequentially. Each task consists of a set of unique classes. The key feature of CIL is that no task identifier (or task-id) is provided at test time for each test sample. Predicting the task-id for each test sample is a challenging problem. An emerging theoretically justified and effective approach is to train a task-specific model for each task in a shared network for all tasks based on a task-incremental learning (TIL) method to deal with forgetting. The model for each task in this approach is an out-of-distribution (OOD) detector rather than a conventional classifier. The OOD detector can perform both within-task (in-distribution (IND)) class prediction and OOD detection. The OOD detection capability is the key for task-id prediction during inference for each test sample. However, this paper argues that using a traditional OOD detector for task-id prediction is sub-optimal
     
-[^172]: 使用学习到的概率车道图来生成和解释角落情况
+[^173]: 使用学习到的概率车道图来生成和解释角落情况
 
     Generating and Explaining Corner Cases Using Learnt Probabilistic Lane Graphs. (arXiv:2308.13658v1 [cs.AI])
 
@@ -2601,7 +2616,7 @@
 
     Validating the safety of Autonomous Vehicles (AVs) operating in open-ended, dynamic environments is challenging as vehicles will eventually encounter safety-critical situations for which there is not representative training data. By increasing the coverage of different road and traffic conditions and by including corner cases in simulation-based scenario testing, the safety of AVs can be improved. However, the creation of corner case scenarios including multiple agents is non-trivial. Our approach allows engineers to generate novel, realistic corner cases based on historic traffic data and to explain why situations were safety-critical. In this paper, we introduce Probabilistic Lane Graphs (PLGs) to describe a finite set of lane positions and directions in which vehicles might travel. The structure of PLGs is learnt directly from spatio-temporal traffic data. The graph model represents the actions of the drivers in response to a given state in the form of a probabilistic policy. We use
     
-[^173]: 具有环境感知记忆的上下文感知规划用于指导行为智能体
+[^174]: 具有环境感知记忆的上下文感知规划用于指导行为智能体
 
     Context-Aware Planning and Environment-Aware Memory for Instruction Following Embodied Agents. (arXiv:2308.07241v2 [cs.RO] UPDATED)
 
@@ -2615,7 +2630,7 @@
 
     Accomplishing household tasks such as 'bringing a cup of water' requires planning step-by-step actions by maintaining knowledge about the spatial arrangement of objects and the consequences of previous actions. Perception models of the current embodied AI agents, however, often make mistakes due to a lack of such knowledge but rely on imperfect learning of imitating agents or an algorithmic planner without knowledge about the changed environment by the previous actions. To address the issue, we propose CPEM (Context-aware Planner and Environment-aware Memory) to incorporate the contextual information of previous actions for planning and maintaining spatial arrangement of objects with their states (e.g., if an object has been moved or not) in an environment to the perception model for improving both visual navigation and object interaction. We observe that CPEM achieves state-of-the-art task success performance in various metrics using a challenging interactive instruction following ben
     
-[^174]: 多智能体优化解决方案的对比解释
+[^175]: 多智能体优化解决方案的对比解释
 
     Contrastive Explanations of Multi-agent Optimization Solutions. (arXiv:2308.05984v1 [cs.AI])
 
@@ -2629,7 +2644,7 @@
 
     In many real-world scenarios, agents are involved in optimization problems. Since most of these scenarios are over-constrained, optimal solutions do not always satisfy all agents. Some agents might be unhappy and ask questions of the form ``Why does solution $S$ not satisfy property $P$?''. In this paper, we propose MAoE, a domain-independent approach to obtain contrastive explanations by (i) generating a new solution $S^\prime$ where the property $P$ is enforced, while also minimizing the differences between $S$ and $S^\prime$; and (ii) highlighting the differences between the two solutions. Such explanations aim to help agents understanding why the initial solution is better than what they expected. We have carried out a computational evaluation that shows that MAoE can generate contrastive explanations for large multi-agent optimization problems. We have also performed an extensive user study in four different domains that shows that, after being presented with these explanations, h
     
-[^175]: 自然和机器
+[^176]: 自然和机器
 
     Nature and the Machines. (arXiv:2308.04440v1 [cs.CY])
 
@@ -2643,7 +2658,7 @@
 
     Does artificial intelligence (AI) pose existential risks to humanity? Some critics feel this question is getting too much attention, and want to push it aside in favour of conversations about the immediate risks of AI. These critics now include the journal Nature, where a recent editorial urges us to 'stop talking about tomorrow's AI doomsday when AI poses risks today.' We argue that this is a serious failure of judgement, on Nature's part. In science, as in everyday life, we expect influential actors to consider the consequences of error. As the world's leading scientific journal, Nature is certainly an influential actor, especially so in the absence of robust global regulation of AI. Yet it has manifestly failed to consider the cost of error in this case.
     
-[^176]: 大型语言模型中的上下文学习在学习标签关系上具有创新，但并非传统学习方法
+[^177]: 大型语言模型中的上下文学习在学习标签关系上具有创新，但并非传统学习方法
 
     In-Context Learning in Large Language Models Learns Label Relationships but Is Not Conventional Learning. (arXiv:2307.12375v2 [cs.CL] UPDATED)
 
@@ -2657,7 +2672,7 @@
 
     The performance of Large Language Models (LLMs) on downstream tasks often improves significantly when including examples of the input-label relationship in the context. However, there is currently no consensus about how this in-context learning (ICL) ability of LLMs works: for example, while Xie et al. (2021) liken ICL to a general-purpose learning algorithm, Min et al. (2022b) argue ICL does not even learn label relationships from in-context examples. In this paper, we study (1) how labels of in-context examples affect predictions, (2) how label relationships learned during pre-training interact with input-label examples provided in-context, and (3) how ICL aggregates label information across in-context examples. Our findings suggests LLMs usually incorporate information from in-context labels, but that pre-training and in-context label relationships are treated differently, and that the model does not consider all in-context information equally. Our results give insights into underst
     
-[^177]: UniTabE: 面向异构表格数据的统一预训练表格编码器
+[^178]: UniTabE: 面向异构表格数据的统一预训练表格编码器
 
     UniTabE: Pretraining a Unified Tabular Encoder for Heterogeneous Tabular Data. (arXiv:2307.09249v1 [cs.LG])
 
@@ -2671,7 +2686,7 @@
 
     Recent advancements in Natural Language Processing (NLP) have witnessed the groundbreaking impact of pretrained models, yielding impressive outcomes across various tasks. This study seeks to extend the power of pretraining methodologies to tabular data, a domain traditionally overlooked, yet inherently challenging due to the plethora of table schemas intrinsic to different tasks. The primary research questions underpinning this work revolve around the adaptation to heterogeneous table structures, the establishment of a universal pretraining protocol for tabular data, the generalizability and transferability of learned knowledge across tasks, the adaptation to diverse downstream applications, and the incorporation of incremental columns over time. In response to these challenges, we introduce UniTabE, a pioneering method designed to process tables in a uniform manner, devoid of constraints imposed by specific table structures. UniTabE's core concept relies on representing each basic tab
     
-[^178]: VertiBench: 在垂直联邦学习基准中推进特征分布多样性
+[^179]: VertiBench: 在垂直联邦学习基准中推进特征分布多样性
 
     VertiBench: Advancing Feature Distribution Diversity in Vertical Federated Learning Benchmarks. (arXiv:2307.02040v2 [cs.LG] UPDATED)
 
@@ -2685,7 +2700,7 @@
 
     Vertical Federated Learning (VFL) is a crucial paradigm for training machine learning models on feature-partitioned, distributed data. However, due to privacy restrictions, few public real-world VFL datasets exist for algorithm evaluation, and these represent a limited array of feature distributions. Existing benchmarks often resort to synthetic datasets, derived from arbitrary feature splits from a global set, which only capture a subset of feature distributions, leading to inadequate algorithm performance assessment. This paper addresses these shortcomings by introducing two key factors affecting VFL performance - feature importance and feature correlation - and proposing associated evaluation metrics and dataset splitting methods. Additionally, we introduce a real VFL dataset to address the deficit in image-image VFL scenarios. Our comprehensive evaluation of cutting-edge VFL algorithms provides valuable insights for future research in the field.
     
-[^179]: 安全关键强化学习的概率约束
+[^180]: 安全关键强化学习的概率约束
 
     Probabilistic Constraint for Safety-Critical Reinforcement Learning. (arXiv:2306.17279v1 [cs.LG])
 
@@ -2699,7 +2714,7 @@
 
     In this paper, we consider the problem of learning safe policies for probabilistic-constrained reinforcement learning (RL). Specifically, a safe policy or controller is one that, with high probability, maintains the trajectory of the agent in a given safe set. We establish a connection between this probabilistic-constrained setting and the cumulative-constrained formulation that is frequently explored in the existing literature. We provide theoretical bounds elucidating that the probabilistic-constrained setting offers a better trade-off in terms of optimality and safety (constraint satisfaction). The challenge encountered when dealing with the probabilistic constraints, as explored in this work, arises from the absence of explicit expressions for their gradients. Our prior work provides such an explicit gradient expression for probabilistic constraints which we term Safe Policy Gradient-REINFORCE (SPG-REINFORCE). In this work, we provide an improved gradient SPG-Actor-Critic that lead
     
-[^180]: 通过密度标志检测来识别离散化潜在坐标系统的可识别性
+[^181]: 通过密度标志检测来识别离散化潜在坐标系统的可识别性
 
     Identifiability of Discretized Latent Coordinate Systems via Density Landmarks Detection. (arXiv:2306.16334v1 [cs.LG])
 
@@ -2713,7 +2728,7 @@
 
     Disentanglement aims to recover meaningful latent ground-truth factors from only the observed distribution. Identifiability provides the theoretical grounding for disentanglement to be well-founded. Unfortunately, unsupervised identifiability of independent latent factors is a theoretically proven impossibility in the i.i.d. setting under a general nonlinear smooth map from factors to observations. In this work, we show that, remarkably, it is possible to recover discretized latent coordinates under a highly generic nonlinear smooth mapping (a diffeomorphism) without any additional inductive bias on the mapping. This is, assuming that latent density has axis-aligned discontinuity landmarks, but without making the unrealistic assumption of statistical independence of the factors. We introduce this novel form of identifiability, termed quantized coordinate identifiability, and provide a comprehensive proof of the recovery of discretized coordinates.
     
-[^181]: 简单形式映射神经网络中的可解释性
+[^182]: 简单形式映射神经网络中的可解释性
 
     Explainability in Simplicial Map Neural Networks. (arXiv:2306.00010v1 [cs.LG])
 
@@ -2727,7 +2742,7 @@
 
     Simplicial map neural networks (SMNNs) are topology-based neural networks with interesting properties such as universal approximation capability and robustness to adversarial examples under appropriate conditions. However, SMNNs present some bottlenecks for their possible application in high dimensions. First, no SMNN training process has been defined so far. Second, SMNNs require the construction of a convex polytope surrounding the input dataset. In this paper, we propose a SMNN training procedure based on a support subset of the given dataset and a method based on projection to a hypersphere as a replacement for the convex polytope construction. In addition, the explainability capacity of SMNNs is also introduced for the first time in this paper.
     
-[^182]: GRACE++：通过神经编解码器实现抗丢包的实时视频
+[^183]: GRACE++：通过神经编解码器实现抗丢包的实时视频
 
     GRACE++: Loss-Resilient Real-Time Video through Neural Codecs. (arXiv:2305.12333v2 [cs.MM] UPDATED)
 
@@ -2741,7 +2756,7 @@
 
     In real-time video communication, retransmitting lost packets over high-latency networks is not viable due to strict latency requirements. To counter packet losses without retransmission, two primary strategies are employed -- encoder-based forward error correction (FEC) and decoder-based error concealment. The former encodes data with redundancy before transmission, yet determining the optimal redundancy level in advance proves challenging. The latter reconstructs video from partially received frames, but dividing a frame into independently coded partitions inherently compromises compression efficiency, and the lost information cannot be effectively recovered by the decoder without adapting the encoder.  We present a loss-resilient real-time video system called GRACE++, which preserves the user's quality of experience (QoE) across a wide range of packet losses through a new neural video codec. Central to GRACE++'s enhanced loss resilience is its joint training of the neural encoder an
     
-[^183]: 记忆还是忘却？深入探讨语言模型的知识记忆机制
+[^184]: 记忆还是忘却？深入探讨语言模型的知识记忆机制
 
     Retentive or Forgetful? Diving into the Knowledge Memorizing Mechanism of Language Models. (arXiv:2305.09144v1 [cs.CL])
 
@@ -2755,7 +2770,7 @@
 
     Memory is one of the most essential cognitive functions serving as a repository of world knowledge and episodes of activities. In recent years, large-scale pre-trained language models have shown remarkable memorizing ability. On the contrary, vanilla neural networks without pre-training have been long observed suffering from the catastrophic forgetting problem. To investigate such a retentive-forgetful contradiction and understand the memory mechanism of language models, we conduct thorough experiments by controlling the target knowledge types, the learning strategies and the learning schedules. We find that: 1) Vanilla language models are forgetful; 2) Pre-training leads to retentive language models; 3) Knowledge relevance and diversification significantly influence the memory formation. These conclusions are useful for understanding the abilities of pre-trained language models and shed light on designing and evaluating new learning and inference algorithms of language models.
     
-[^184]: 用于教育的通用人工智能（AGI）
+[^185]: 用于教育的通用人工智能（AGI）
 
     Artificial General Intelligence (AGI) for Education. (arXiv:2304.12479v1 [cs.AI])
 
@@ -2769,7 +2784,7 @@
 
     Artificial general intelligence (AGI) has gained global recognition as a future technology due to the emergence of breakthrough large language models and chatbots such as GPT-4 and ChatGPT, respectively. AGI aims to replicate human intelligence through computer systems, which is one of the critical technologies having the potential to revolutionize the field of education. Compared to conventional AI models, typically designed for a limited range of tasks, demand significant amounts of domain-specific data for training and may not always consider intricate interpersonal dynamics in education. AGI, driven by the recent large pre-trained models, represents a significant leap in the capability of machines to perform tasks that require human-level intelligence, such as reasoning, problem-solving, decision-making, and even understanding human emotions and social interactions. This work reviews AGI's key concepts, capabilities, scope, and potential within future education, including setting e
     
-[^185]: 带有大型图像文本（LIT）模型的CT多任务学习
+[^186]: 带有大型图像文本（LIT）模型的CT多任务学习
 
     CT Multi-Task Learning with a Large Image-Text (LIT) Model. (arXiv:2304.02649v1 [eess.IV])
 
@@ -2783,7 +2798,7 @@
 
     Large language models (LLM) not only empower multiple language tasks but also serve as a general interface across different spaces. Up to now, it has not been demonstrated yet how to effectively translate the successes of LLMs in the computer vision field to the medical imaging field which involves high-dimensional and multi-modal medical images. In this paper, we report a feasibility study of building a multi-task CT large image-text (LIT) model for lung cancer diagnosis by combining an LLM and a large image model (LIM). Specifically, the LLM and LIM are used as encoders to perceive multi-modal information under task-specific text prompts, which synergizes multi-source information and task-specific and patient-specific priors for optimized diagnostic performance. The key components of our LIT model and associated techniques are evaluated with an emphasis on 3D lung CT analysis. Our initial results show that the LIT model performs multiple medical tasks well, including lung segmentatio
     
-[^186]: 时序和非时序数据因果发现方法综述
+[^187]: 时序和非时序数据因果发现方法综述
 
     A Survey on Causal Discovery Methods for Temporal and Non-Temporal Data. (arXiv:2303.15027v2 [cs.AI] UPDATED)
 
@@ -2797,7 +2812,7 @@
 
     Causal Discovery (CD) is the process of identifying the cause-effect relationships among the variables of a system from data. Over the years, several methods have been developed primarily based on the statistical properties of data to uncover the underlying causal mechanism. In this study, we present an extensive discussion on the methods designed to perform causal discovery from both independent and identically distributed (i.i.d.) data and time series data. For this purpose, we first introduce the common terminologies in causal discovery, and then provide a comprehensive discussion of the algorithms designed to identify the causal edges in different settings. We further discuss some of the benchmark datasets available for evaluating the performance of the causal discovery methods, available tools or software packages to perform causal discovery readily, and the common metrics used to evaluate these methods. We also test some common causal discovery algorithms on different benchmark d
     
-[^187]: 数据高效的对比自监督学习：易于学习的样本起到最大的作用。
+[^188]: 数据高效的对比自监督学习：易于学习的样本起到最大的作用。
 
     Data-Efficient Contrastive Self-supervised Learning: Easy Examples Contribute the Most. (arXiv:2302.09195v2 [cs.LG] UPDATED)
 
@@ -2811,7 +2826,7 @@
 
     Self-supervised learning (SSL) learns high-quality representations from large pools of unlabeled training data. As datasets grow larger, it becomes crucial to identify the examples that contribute the most to learning such representations. This enables efficient SSL by reducing the volume of data required for learning high-quality representations. Nevertheless, quantifying the value of examples for SSL has remained an open question. In this work, we address this for the first time, by proving that examples that contribute the most to contrastive SSL are those that have the most similar augmentations to other examples, in expectation. We provide rigorous guarantees for the generalization performance of SSL on such subsets. Empirically, we discover, perhaps surprisingly, the subsets that contribute the most to SSL are those that contribute the least to supervised learning. Through extensive experiments, we show that our subsets outperform random subsets by more than 3% on CIFAR100, CIFAR
     
-[^188]: 异构视觉深度网络社区中的指代性沟通
+[^189]: 异构视觉深度网络社区中的指代性沟通
 
     Referential communication in heterogeneous communities of pre-trained visual deep networks. (arXiv:2302.08913v3 [cs.CV] UPDATED)
 
