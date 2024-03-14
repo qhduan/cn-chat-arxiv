@@ -1,0 +1,12 @@
+{
+    "title": "Rethinking Loss Functions for Fact Verification",
+    "abstract": "arXiv:2403.08174v1 Announce Type: cross  Abstract: We explore loss functions for fact verification in the FEVER shared task. While the cross-entropy loss is a standard objective for training verdict predictors, it fails to capture the heterogeneity among the FEVER verdict classes. In this paper, we develop two task-specific objectives tailored to FEVER. Experimental results confirm that the proposed objective functions outperform the standard cross-entropy. Performance is further improved when these objectives are combined with simple class weighting, which effectively overcomes the imbalance in the training data. The souce code is available at https://github.com/yuta-mukobara/RLF-KGAT",
+    "link": "https://arxiv.org/abs/2403.08174",
+    "context": "Title: Rethinking Loss Functions for Fact Verification\nAbstract: arXiv:2403.08174v1 Announce Type: cross  Abstract: We explore loss functions for fact verification in the FEVER shared task. While the cross-entropy loss is a standard objective for training verdict predictors, it fails to capture the heterogeneity among the FEVER verdict classes. In this paper, we develop two task-specific objectives tailored to FEVER. Experimental results confirm that the proposed objective functions outperform the standard cross-entropy. Performance is further improved when these objectives are combined with simple class weighting, which effectively overcomes the imbalance in the training data. The souce code is available at https://github.com/yuta-mukobara/RLF-KGAT",
+    "path": "papers/24/03/2403.08174.json",
+    "total_tokens": 671,
+    "translated_title": "重新思考事实验证的损失函数",
+    "translated_abstract": "我们研究了FEVER共享任务中事实验证的损失函数。虽然交叉熵损失是训练判决预测器的标准目标，但它未能捕捉到FEVER判决类别之间的异质性。本文提出了两个针对FEVER的特定任务目标。实验结果证实，所提出的目标函数优于标准的交叉熵。当这些目标与简单的类别加权相结合时，性能进一步提高，有效地克服了训练数据中的不平衡。源代码可在https://github.com/yuta-mukobara/RLF-KGAT 上找到。",
+    "tldr": "提出了专为FEVER任务定制的两种任务特定目标函数，相比标准交叉熵在事实验证中表现更好，并通过简单类别加权进一步提高性能。",
+    "en_tdlr": "Introduce two task-specific objective functions tailored for FEVER, outperforming standard cross-entropy in fact verification and further improving performance through simple class weighting."
+}

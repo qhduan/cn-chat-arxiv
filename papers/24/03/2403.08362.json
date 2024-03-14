@@ -1,0 +1,12 @@
+{
+    "title": "Mean-Field Microcanonical Gradient Descent",
+    "abstract": "arXiv:2403.08362v1 Announce Type: cross  Abstract: Microcanonical gradient descent is a sampling procedure for energy-based models allowing for efficient sampling of distributions in high dimension. It works by transporting samples from a high-entropy distribution, such as Gaussian white noise, to a low-energy region using gradient descent. We put this model in the framework of normalizing flows, showing how it can often overfit by losing an unnecessary amount of entropy in the descent. As a remedy, we propose a mean-field microcanonical gradient descent that samples several weakly coupled data points simultaneously, allowing for better control of the entropy loss while paying little in terms of likelihood fit. We study these models in the context of financial time series, illustrating the improvements on both synthetic and real data.",
+    "link": "https://arxiv.org/abs/2403.08362",
+    "context": "Title: Mean-Field Microcanonical Gradient Descent\nAbstract: arXiv:2403.08362v1 Announce Type: cross  Abstract: Microcanonical gradient descent is a sampling procedure for energy-based models allowing for efficient sampling of distributions in high dimension. It works by transporting samples from a high-entropy distribution, such as Gaussian white noise, to a low-energy region using gradient descent. We put this model in the framework of normalizing flows, showing how it can often overfit by losing an unnecessary amount of entropy in the descent. As a remedy, we propose a mean-field microcanonical gradient descent that samples several weakly coupled data points simultaneously, allowing for better control of the entropy loss while paying little in terms of likelihood fit. We study these models in the context of financial time series, illustrating the improvements on both synthetic and real data.",
+    "path": "papers/24/03/2403.08362.json",
+    "total_tokens": 745,
+    "translated_title": "均场微正则梯度下降",
+    "translated_abstract": "微正则梯度下降是一种能量模型的采样过程，可实现高维分布的高效采样，通过梯度下降将样本从高熵分布（如高斯白噪声）转运至低能区域。我们将这一模型置于正则化流的框架中，显示它通常会由于在下降过程中失去不必要的熵而过度拟合。为解决这一问题，我们提出了均场微正则梯度下降，同时采样多个弱耦合数据点，允许更好地控制熵损失，同时在似然拟合方面付出较小代价。我们将这些模型应用于金融时间序列的背景中，展示了在合成和真实数据上的改进。",
+    "tldr": "提出了均场微正则梯度下降方法，通过同时采样多个弱耦合数据点，在控制熵损失的同时在似然拟合方面表现良好。",
+    "en_tdlr": "Introduced mean-field microcanonical gradient descent method, which samples multiple weakly coupled data points simultaneously, allowing for better control of entropy loss while performing well in likelihood fit."
+}

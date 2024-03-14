@@ -1,0 +1,12 @@
+{
+    "title": "Speculative Contrastive Decoding",
+    "abstract": "arXiv:2311.08981v2 Announce Type: replace  Abstract: Large language models~(LLMs) exhibit exceptional performance in language tasks, yet their auto-regressive inference is limited due to high computational requirements and is sub-optimal due to the exposure bias. Inspired by speculative decoding and contrastive decoding, we introduce Speculative Contrastive Decoding~(SCD), a straightforward yet powerful decoding approach that leverages predictions from smaller language models~(LMs) to achieve both decoding acceleration and quality improvement. Extensive evaluations and analyses on four diverse language tasks demonstrate the effectiveness of SCD, showing that decoding efficiency and quality can compatibly benefit from one smaller LM.",
+    "link": "https://arxiv.org/abs/2311.08981",
+    "context": "Title: Speculative Contrastive Decoding\nAbstract: arXiv:2311.08981v2 Announce Type: replace  Abstract: Large language models~(LLMs) exhibit exceptional performance in language tasks, yet their auto-regressive inference is limited due to high computational requirements and is sub-optimal due to the exposure bias. Inspired by speculative decoding and contrastive decoding, we introduce Speculative Contrastive Decoding~(SCD), a straightforward yet powerful decoding approach that leverages predictions from smaller language models~(LMs) to achieve both decoding acceleration and quality improvement. Extensive evaluations and analyses on four diverse language tasks demonstrate the effectiveness of SCD, showing that decoding efficiency and quality can compatibly benefit from one smaller LM.",
+    "path": "papers/23/11/2311.08981.json",
+    "total_tokens": 647,
+    "translated_title": "推测对比解码",
+    "translated_abstract": "大型语言模型在语言任务中表现出色，但由于高计算需求和曝光偏差，它们的自回归推理存在局限性。受到推测解码和对比解码的启发，我们引入了推测对比解码（SCD），这是一种简单而强大的解码方法，利用较小语言模型的预测来实现解码加速和质量提升。对四种不同的语言任务进行了广泛评估和分析，证明了SCD的有效性，表明解码效率和质量可以兼得一种较小的语言模型。",
+    "tldr": "SCD是一种结合了推测解码和对比解码的解码方法，利用较小语言模型的预测实现了解码加速和质量提升",
+    "en_tdlr": "SCD is a decoding approach that combines speculative decoding and contrastive decoding, leveraging predictions from smaller language models to achieve decoding acceleration and quality improvement."
+}

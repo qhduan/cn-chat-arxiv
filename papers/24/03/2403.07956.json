@@ -1,0 +1,12 @@
+{
+    "title": "DeepCDCL: An CDCL-based Neural Network Verification Framework",
+    "abstract": "arXiv:2403.07956v1 Announce Type: cross  Abstract: Neural networks in safety-critical applications face increasing safety and security concerns due to their susceptibility to little disturbance. In this paper, we propose DeepCDCL, a novel neural network verification framework based on the Conflict-Driven Clause Learning (CDCL) algorithm. We introduce an asynchronous clause learning and management structure, reducing redundant time consumption compared to the direct application of the CDCL framework. Furthermore, we also provide a detailed evaluation of the performance of our approach on the ACAS Xu and MNIST datasets, showing that a significant speed-up is achieved in most cases.",
+    "link": "https://arxiv.org/abs/2403.07956",
+    "context": "Title: DeepCDCL: An CDCL-based Neural Network Verification Framework\nAbstract: arXiv:2403.07956v1 Announce Type: cross  Abstract: Neural networks in safety-critical applications face increasing safety and security concerns due to their susceptibility to little disturbance. In this paper, we propose DeepCDCL, a novel neural network verification framework based on the Conflict-Driven Clause Learning (CDCL) algorithm. We introduce an asynchronous clause learning and management structure, reducing redundant time consumption compared to the direct application of the CDCL framework. Furthermore, we also provide a detailed evaluation of the performance of our approach on the ACAS Xu and MNIST datasets, showing that a significant speed-up is achieved in most cases.",
+    "path": "papers/24/03/2403.07956.json",
+    "total_tokens": 717,
+    "translated_title": "DeepCDCL: 基于CDCL算法的神经网络验证框架",
+    "translated_abstract": "在安全关键应用中，神经网络面临越来越多的安全和安全性问题，这是由于它们对微小扰动的敏感性。在本文中，我们提出了DeepCDCL，这是一种基于冲突驱动子句学习（CDCL）算法的新型神经网络验证框架。我们引入了一种异步子句学习和管理结构，相比直接应用CDCL框架，减少了冗余的时间消耗。此外，我们还对我们的方法在ACAS Xu和MNIST数据集上的性能进行了详细评估，结果显示在大多数情况下实现了显著的加速。",
+    "tldr": "提出了一种基于CDCL算法的神经网络验证框架DeepCDCL，通过引入异步子句学习和管理结构，显著减少了时间消耗，并在ACAS Xu和MNIST数据集上展示了显著的加速。",
+    "en_tdlr": "Proposed DeepCDCL, a neural network verification framework based on CDCL algorithm, which reduces time consumption significantly by introducing asynchronous clause learning and management structure, demonstrated significant speed-up on ACAS Xu and MNIST datasets."
+}

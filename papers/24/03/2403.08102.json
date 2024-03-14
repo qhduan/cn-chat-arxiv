@@ -1,0 +1,12 @@
+{
+    "title": "Tournament Auctions",
+    "abstract": "arXiv:2403.08102v1 Announce Type: new  Abstract: We examine ``tournament'' second-price auctions in which $N$ bidders compete for the right to participate in a second stage and contend against bidder $N+1$. When the first $N$ bidders are committed so that their bids cannot be changed in the second stage, the analysis yields some unexpected results. The first $N$ bidders consistently bid above their values in equilibrium. When bidder $N+1$ is sufficiently stronger than the first $N$, overbidding leads to an increase in expected revenue in comparison to the standard second-price auction when $N$ is large.",
+    "link": "https://arxiv.org/abs/2403.08102",
+    "context": "Title: Tournament Auctions\nAbstract: arXiv:2403.08102v1 Announce Type: new  Abstract: We examine ``tournament'' second-price auctions in which $N$ bidders compete for the right to participate in a second stage and contend against bidder $N+1$. When the first $N$ bidders are committed so that their bids cannot be changed in the second stage, the analysis yields some unexpected results. The first $N$ bidders consistently bid above their values in equilibrium. When bidder $N+1$ is sufficiently stronger than the first $N$, overbidding leads to an increase in expected revenue in comparison to the standard second-price auction when $N$ is large.",
+    "path": "papers/24/03/2403.08102.json",
+    "total_tokens": 724,
+    "translated_title": "锦标赛拍卖",
+    "translated_abstract": "我们研究了“锦标赛”二价拍卖，其中$N$个竞标者竞争权利参与第二阶段，并与第$N+1$个竞标者竞争。当前$N$个竞标者被承诺，在第二阶段他们的出价不能改变，分析结果得出了一些意想不到的结果。前$N$个竞标者在均衡状态下一贯出价超过其价值。当第$N+1$个竞标者比前$N$个竞标者强大到一定程度时，过度出价导致预期收入增加，与标准二价拍卖相比，当$N$很大时。",
+    "tldr": "分析了“锦标赛”二价拍卖中的意外结果，发现在均衡状态下前$N$个竞标者一贯出价超过其价值，当第$N+1$个竞标者足够强大时，过度出价会增加预期收入。",
+    "en_tdlr": "Analyzed unexpected outcomes in \"tournament\" second-price auctions, finding that in equilibrium the first $N$ bidders consistently bid above their values, and when bidder $N+1$ is sufficiently stronger, overbidding leads to an increase in expected revenue."
+}

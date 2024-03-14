@@ -1,0 +1,12 @@
+{
+    "title": "The Runtime of Random Local Search on the Generalized Needle Problem",
+    "abstract": "arXiv:2403.08153v1 Announce Type: cross  Abstract: In their recent work, C. Doerr and Krejca (Transactions on Evolutionary Computation, 2023) proved upper bounds on the expected runtime of the randomized local search heuristic on generalized Needle functions. Based on these upper bounds, they deduce in a not fully rigorous manner a drastic influence of the needle radius $k$ on the runtime.   In this short article, we add the missing lower bound necessary to determine the influence of parameter $k$ on the runtime. To this aim, we derive an exact description of the expected runtime, which also significantly improves the upper bound given by C. Doerr and Krejca. We also describe asymptotic estimates of the expected runtime.",
+    "link": "https://arxiv.org/abs/2403.08153",
+    "context": "Title: The Runtime of Random Local Search on the Generalized Needle Problem\nAbstract: arXiv:2403.08153v1 Announce Type: cross  Abstract: In their recent work, C. Doerr and Krejca (Transactions on Evolutionary Computation, 2023) proved upper bounds on the expected runtime of the randomized local search heuristic on generalized Needle functions. Based on these upper bounds, they deduce in a not fully rigorous manner a drastic influence of the needle radius $k$ on the runtime.   In this short article, we add the missing lower bound necessary to determine the influence of parameter $k$ on the runtime. To this aim, we derive an exact description of the expected runtime, which also significantly improves the upper bound given by C. Doerr and Krejca. We also describe asymptotic estimates of the expected runtime.",
+    "path": "papers/24/03/2403.08153.json",
+    "total_tokens": 727,
+    "translated_title": "在广义Needle问题上的随机局部搜索运行时间",
+    "translated_abstract": "在最近的工作中，C. Doerr和Krejca（2023年《进化计算交易》）证明了随机局部搜索启发式算法在广义Needle函数上的预期运行时间的上限。基于这些上限，他们以一种不完全严谨的方式推断了针半径$k$对运行时间的巨大影响。在这篇简短的文章中，我们添加了确定参数$k$对运行时间影响所需的缺失下限。为此，我们导出了一个对预期运行时间的精确描述，这也显著改进了C. Doerr和Krejca给出的上限。我们还描述了预期运行时间的渐近估计。",
+    "tldr": "本研究在广义Needle问题上研究了随机局部搜索的运行时间，提出了一种新的确定参数$k$影响的下限方法，并改进了现有的预期运行时间上限。",
+    "en_tdlr": "This study investigates the runtime of random local search on the Generalized Needle Problem, introducing a new method to determine the impact of parameter $k$ and improving the existing upper bound on the expected runtime."
+}

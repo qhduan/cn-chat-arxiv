@@ -1,0 +1,12 @@
+{
+    "title": "Seg-metrics: a Python package to compute segmentation metrics",
+    "abstract": "arXiv:2403.07884v1 Announce Type: cross  Abstract: In response to a concerning trend of selectively emphasizing metrics in medical image segmentation (MIS) studies, we introduce \\texttt{seg-metrics}, an open-source Python package for standardized MIS model evaluation. Unlike existing packages, \\texttt{seg-metrics} offers user-friendly interfaces for various overlap-based and distance-based metrics, providing a comprehensive solution. \\texttt{seg-metrics} supports multiple file formats and is easily installable through the Python Package Index (PyPI). With a focus on speed and convenience, \\texttt{seg-metrics} stands as a valuable tool for efficient MIS model assessment.",
+    "link": "https://arxiv.org/abs/2403.07884",
+    "context": "Title: Seg-metrics: a Python package to compute segmentation metrics\nAbstract: arXiv:2403.07884v1 Announce Type: cross  Abstract: In response to a concerning trend of selectively emphasizing metrics in medical image segmentation (MIS) studies, we introduce \\texttt{seg-metrics}, an open-source Python package for standardized MIS model evaluation. Unlike existing packages, \\texttt{seg-metrics} offers user-friendly interfaces for various overlap-based and distance-based metrics, providing a comprehensive solution. \\texttt{seg-metrics} supports multiple file formats and is easily installable through the Python Package Index (PyPI). With a focus on speed and convenience, \\texttt{seg-metrics} stands as a valuable tool for efficient MIS model assessment.",
+    "path": "papers/24/03/2403.07884.json",
+    "total_tokens": 721,
+    "translated_title": "Seg-metrics: 一个用于计算分割度量的Python包",
+    "translated_abstract": "针对医学图像分割(MIS)研究中选择性强调指标的令人担忧的趋势，我们介绍了\\texttt{seg-metrics}，这是一个用于标准化MIS模型评估的开源Python包。与现有的包不同，\\texttt{seg-metrics}为各种基于重叠和距离的度量提供了用户友好的界面，提供了全面的解决方案。\\texttt{seg-metrics}支持多种文件格式，并且可以通过Python软件包索引(PyPI)轻松安装。聚焦于速度和便利性，\\texttt{seg-metrics}成为高效MIS模型评估的宝贵工具。",
+    "tldr": "seg-metrics是一个用于计算分割度量的Python包，为医学图像分割研究提供了全面的标准化模型评估解决方案，具有用户友好的界面和支持多种文件格式的特点。",
+    "en_tdlr": "seg-metrics is a Python package for computing segmentation metrics, providing a comprehensive standardized solution for model evaluation in medical image segmentation studies with user-friendly interfaces and support for multiple file formats."
+}

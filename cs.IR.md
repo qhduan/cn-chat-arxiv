@@ -2,150 +2,88 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [DESERE: The 1st Workshop on Decentralised Search and Recommendation](https://arxiv.org/abs/2403.07732) | 探索和分享关于去中心化网络服务的创新想法，主要关注去中心化系统对社会的影响、算法和性能挑战，以及支持去中心化系统和服务的基础设施。 |
-| [^2] | [Analyzing Adversarial Attacks on Sequence-to-Sequence Relevance Models](https://arxiv.org/abs/2403.07654) | 对现代序列到序列相关性模型进行了对抗攻击分析，发现恶意文档可以通过注入提示来操纵其相关性得分，这一攻击机制影响了不同相关性模型，但词汇模型BM25不受影响。 |
-| [^3] | [Empowering Sequential Recommendation from Collaborative Signals and Semantic Relatedness](https://arxiv.org/abs/2403.07623) | 该论文提出了一种端到端两流架构TSSR，旨在通过有效地将协作信号和语义相关性结合起来，增强顺序推荐任务。 |
-| [^4] | [Proactive Recommendation with Iterative Preference Guidance](https://arxiv.org/abs/2403.07571) | 主动推荐通过灵活的后处理方式进行推荐，通过对项目进行排名来积极引导用户形成新的兴趣。 |
-| [^5] | [The future of document indexing: GPT and Donut revolutionize table of content processing](https://arxiv.org/abs/2403.07553) | 该论文介绍了一种利用Donut和OpenAI GPT-3.5 Turbo两种前沿AI模型自动提取文件中结构化信息的创新方法，在建筑规格文件的目录处理中取得了显著的准确性，代表了文档索引领域向自动化信息提取迈出的重要一步。 |
-| [^6] | [Towards Graph Foundation Models for Personalization](https://arxiv.org/abs/2403.07478) | 本文提出了一种面向个性化的基于图的基础建模方法，其中的Heterogeneous GNN旨在捕捉跨多种可推荐项目类型的多跳内容和消费关系。 |
-| [^7] | [LIST: Learning to Index Spatio-Textual Data for Embedding based Spatial Keyword Queries](https://arxiv.org/abs/2403.07331) | 提出了一种名为LIST的新技术，通过学习为基于嵌入的空间关键词查询建立空间文本数据索引，以加速top-k搜索过程。 |
-| [^8] | [Self-supervised Contrastive Learning for Implicit Collaborative Filtering](https://arxiv.org/abs/2403.07265) | 提出了一个简单的自监督对比学习框架，通过正特征增强和负标签增强改进自我监督信号，提高了隐式协同过滤准确性，并建立了一种有效的负标签增强技术，实现了有效的增强 |
-| [^9] | [Time Series Analysis of Key Societal Events as Reflected in Complex Social Media Data Streams](https://arxiv.org/abs/2403.07090) | 通过时间序列分析探索GAB和Telegram这两个社交媒体平台上的叙事演变，提出了一种新颖的方法来研究多个社交媒体领域，以提取可能被掩盖的关键信息。 |
-| [^10] | [MetaSplit: Meta-Split Network for Limited-Stock Product Recommendation](https://arxiv.org/abs/2403.06747) | 提出了Meta-Split网络（MSN）来解决消费者之间电子商务平台中限量库存产品推荐中的独特挑战，通过分割用户历史序列来有效利用用户历史信息。 |
-| [^11] | [Navigating the Post-API Dilemma Search Engine Results Pages Present a Biased View of Social Media Data](https://arxiv.org/abs/2401.15479) | 搜索引擎结果页面可以作为社交媒体数据的替代方案，但存在对流行帖子偏见较高、情感更积极以及忽视政治、色情和粗俗帖子的问题。 |
-| [^12] | [In-context Learning with Retrieved Demonstrations for Language Models: A Survey.](http://arxiv.org/abs/2401.11624) | 本综述调查了一种名为检索示范的方法，它通过使用特定于输入查询的示范来提高语言模型的少量样本情境学习（ICL）能力。这种方法不仅提高了学习效率和可扩展性，还减少了手动示例选择中的偏见。 |
-| [^13] | [Multi-View Variational Autoencoder for Missing Value Imputation in Untargeted Metabolomics.](http://arxiv.org/abs/2310.07990) | 本文提出了一种新的方法，利用多视图变分自动编码器来填充非目标代谢组学中的缺失值，该方法利用了全基因组测序数据和参考代谢物的信息，可以有效地根据基因组信息填充缺失的代谢组学值。 |
-| [^14] | [Improving position bias estimation against sparse and skewed dataset with item embedding.](http://arxiv.org/abs/2305.13931) | 该研究提出了一种利用物品嵌入来缓解广告营销领域中位置偏差稀疏性问题的回归EM算法变体。 |
+| [^1] | [ILCiteR: Evidence-grounded Interpretable Local Citation Recommendation](https://arxiv.org/abs/2403.08737) | 介绍了一个名为ILCiteR的系统，通过基于证据的局部引文推荐任务，从现有研究文献中提取相似证据范围来推荐引用的论文，提高了推荐的可解释性。 |
+| [^2] | [NLQxform-UI: A Natural Language Interface for Querying DBLP Interactively](https://arxiv.org/abs/2403.08475) | NLQxform-UI是一个基于自然语言的交互式查询界面，可以自动将复杂自然语言问题转换为SPARQL查询，并在DBLP知识图上执行，提高了系统的可用性和准确性 |
+| [^3] | [Knowledge Conflicts for LLMs: A Survey](https://arxiv.org/abs/2403.08319) | 这项调查深入分析了LLMs在融合上下文和参数化知识时所面临的知识冲突，探讨了三类知识冲突对其可信度和性能的重要影响，并提出改进LLMs稳健性策略的策略。 |
+| [^4] | [Towards Unified Modeling for Positive and Negative Preferences in Sign-Aware Recommendation](https://arxiv.org/abs/2403.08246) | 提出了一种面向推荐的轻量级符号图卷积网络LSGRec，采用统一建模方法同时对高阶用户的正负偏好进行建模 |
+| [^5] | [Discrete Semantic Tokenization for Deep CTR Prediction](https://arxiv.org/abs/2403.08206) | 提出了一种新型的语义标记范式并引入离散语义标记化方法UIST，用于用户和项目表示，旨在将项目内容信息整合到点击率（CTR）预测模型中，实现快速训练和推断，并在保持内存占用的同时提高效率。 |
+| [^6] | [MetaSplit: Meta-Split Network for Limited-Stock Product Recommendation](https://arxiv.org/abs/2403.06747) | 提出了Meta-Split网络（MSN）来解决消费者之间电子商务平台中限量库存产品推荐中的独特挑战，通过分割用户历史序列来有效利用用户历史信息。 |
+| [^7] | [GPT-4V(ision) is a Generalist Web Agent, if Grounded.](http://arxiv.org/abs/2401.01614) | GPT-4V(ision)是一个通用的网络代理，具有综合视觉理解和网页操作的能力。实验证明，如果将文本计划转化为实际行动，GPT-4V可以在50%的任务上取得成功。这一结果显著优于传统方法。 |
+| [^8] | [Improving Detection of ChatGPT-Generated Fake Science Using Real Publication Text: Introducing xFakeBibs a Supervised-Learning Network Algorithm.](http://arxiv.org/abs/2308.11767) | 本文介绍了一种能够提高对ChatGPT生成的假科学进行检测的算法。通过使用一种新设计的监督机器学习算法，该算法能够准确地将机器生成的出版物与科学家生成的出版物区分开来。结果表明，ChatGPT在技术术语方面与真实科学存在显著差异。算法在分类过程中取得了较高的准确率。 |
 
 # 详细
 
-[^1]: DESERE：第一届去中心化搜索和推荐研讨会
+[^1]: ILCiteR：基于证据的可解释局部引文推荐
 
-    DESERE: The 1st Workshop on Decentralised Search and Recommendation
+    ILCiteR: Evidence-grounded Interpretable Local Citation Recommendation
 
-    [https://arxiv.org/abs/2403.07732](https://arxiv.org/abs/2403.07732)
+    [https://arxiv.org/abs/2403.08737](https://arxiv.org/abs/2403.08737)
 
-    探索和分享关于去中心化网络服务的创新想法，主要关注去中心化系统对社会的影响、算法和性能挑战，以及支持去中心化系统和服务的基础设施。
-
-    
-
-    arXiv:2403.07732v1 声明类型：新摘要：DESERE研讨会，我们的第一届去中心化搜索和推荐研讨会，为研究人员提供一个探讨和分享关于去中心化网络服务的创新想法的平台，主要关注三个主题：（i）去中心化系统对社会的影响：它们对隐私、政策和监管的影响；（ii）去中心化应用程序：由去中心化带来的算法和性能挑战；和（iii）支持去中心化系统和服务的基础设施：点对点网络、路由和性能评估工具
-
-    arXiv:2403.07732v1 Announce Type: new  Abstract: The DESERE Workshop, our First Workshop on Decentralised Search and Recommendation, offers a platform for researchers to explore and share innovative ideas on decentralised web services, mainly focusing on three major topics: (i) societal impact of decentralised systems: their effect on privacy, policy, and regulation; (ii) decentralising applications: algorithmic and performance challenges that arise from decentralisation; and (iii) infrastructure to support decentralised systems and services: peer-to-peer networks, routing, and performance evaluation tools
-    
-[^2]: 分析序列到序列相关性模型上的对抗攻击
-
-    Analyzing Adversarial Attacks on Sequence-to-Sequence Relevance Models
-
-    [https://arxiv.org/abs/2403.07654](https://arxiv.org/abs/2403.07654)
-
-    对现代序列到序列相关性模型进行了对抗攻击分析，发现恶意文档可以通过注入提示来操纵其相关性得分，这一攻击机制影响了不同相关性模型，但词汇模型BM25不受影响。
+    介绍了一个名为ILCiteR的系统，通过基于证据的局部引文推荐任务，从现有研究文献中提取相似证据范围来推荐引用的论文，提高了推荐的可解释性。
 
     
 
-    现代序列到序列相关性模型（如monoT5）能够通过交叉编码有效捕捉查询和文档之间的复杂文本交互。然而，在提示中使用自然语言标记，如Query、Document和Relevant对于monoT5而言，为恶意文档开辟了注入攻击向量，通过注入提示（例如添加true等目标词）来操纵其相关性得分。由于检索评估中尚未考虑这样的可能性，我们通过手动构建的模板和基于LLM的文档重写，分析了查询无关提示注入对多个现有相关性模型的影响。我们在TREC深度学习跟踪上的实验表明，对抗性文档可以轻松操纵不同的序列到序列相关性模型，而BM25（作为典型的词汇模型）不受影响。值得注意的是，这些攻击也影响仅编码器相关性模型（）
+    现有的用于局部引文推荐的机器学习方法直接将查询（通常是声明或实体提及）映射或翻译为值得引用的研究论文。在这种表述中，很难确定为什么应该为特定查询引用特定研究论文，从而导致推荐的可解释性受限。为了缓解这一问题，我们引入了基于证据的局部引文推荐任务，其中目标潜在空间包括用于推荐特定论文的证据范围。通过使用远程监督证据检索和多步重新排序框架，我们提出的系统ILCiteR基于从现有研究文献中提取的相似证据范围向查询推荐应引用的论文。与过去简单输出推荐的形式不同，ILCiteR检索出经过排名的证据范围和推荐的论文对列表。
 
-    arXiv:2403.07654v1 Announce Type: new  Abstract: Modern sequence-to-sequence relevance models like monoT5 can effectively capture complex textual interactions between queries and documents through cross-encoding. However, the use of natural language tokens in prompts, such as Query, Document, and Relevant for monoT5, opens an attack vector for malicious documents to manipulate their relevance score through prompt injection, e.g., by adding target words such as true. Since such possibilities have not yet been considered in retrieval evaluation, we analyze the impact of query-independent prompt injection via manually constructed templates and LLM-based rewriting of documents on several existing relevance models. Our experiments on the TREC Deep Learning track show that adversarial documents can easily manipulate different sequence-to-sequence relevance models, while BM25 (as a typical lexical model) is not affected. Remarkably, the attacks also affect encoder-only relevance models (which
+    arXiv:2403.08737v1 Announce Type: cross  Abstract: Existing Machine Learning approaches for local citation recommendation directly map or translate a query, which is typically a claim or an entity mention, to citation-worthy research papers. Within such a formulation, it is challenging to pinpoint why one should cite a specific research paper for a particular query, leading to limited recommendation interpretability. To alleviate this, we introduce the evidence-grounded local citation recommendation task, where the target latent space comprises evidence spans for recommending specific papers. Using a distantly-supervised evidence retrieval and multi-step re-ranking framework, our proposed system, ILCiteR, recommends papers to cite for a query grounded on similar evidence spans extracted from the existing research literature. Unlike past formulations that simply output recommendations, ILCiteR retrieves ranked lists of evidence span and recommended paper pairs. Secondly, previously prop
     
-[^3]: 从协作信号和语义相关性中增强顺序推荐
+[^2]: NLQxform-UI：用于交互式查询DBLP的自然语言接口
 
-    Empowering Sequential Recommendation from Collaborative Signals and Semantic Relatedness
+    NLQxform-UI: A Natural Language Interface for Querying DBLP Interactively
 
-    [https://arxiv.org/abs/2403.07623](https://arxiv.org/abs/2403.07623)
+    [https://arxiv.org/abs/2403.08475](https://arxiv.org/abs/2403.08475)
 
-    该论文提出了一种端到端两流架构TSSR，旨在通过有效地将协作信号和语义相关性结合起来，增强顺序推荐任务。
-
-    
-
-    顺序推荐系统(SRS)通过对按时间顺序排列的历史行为进行建模，能够捕捉到动态用户偏好。尽管有效，仅关注行为中的\textit{协作信号}并不能充分把握用户兴趣。在内容特征中反映的\textit{语义相关性}建模也是重要的，例如图片和文本。因此，本文旨在通过有效地将协作信号和语义相关性结合起来，增强SRS任务。值得注意的是，我们实证指出由于语义鸿沟问题，实现这一目标并不容易。因此，我们提出了一种用于顺序推荐的端到端两流架构，命名为TSSR，从基于ID和基于内容的序列中学习用户偏好。具体来说，我们首先提出了新颖的层次对比模块，包括粗用户粒度和细项粒度术语，以对齐表征。
-
-    arXiv:2403.07623v1 Announce Type: new  Abstract: Sequential recommender systems (SRS) could capture dynamic user preferences by modeling historical behaviors ordered in time. Despite effectiveness, focusing only on the \textit{collaborative signals} from behaviors does not fully grasp user interests. It is also significant to model the \textit{semantic relatedness} reflected in content features, e.g., images and text. Towards that end, in this paper, we aim to enhance the SRS tasks by effectively unifying collaborative signals and semantic relatedness together. Notably, we empirically point out that it is nontrivial to achieve such a goal due to semantic gap issues. Thus, we propose an end-to-end two-stream architecture for sequential recommendation, named TSSR, to learn user preferences from ID-based and content-based sequence. Specifically, we first present novel hierarchical contrasting module, including coarse user-grained and fine item-grained terms, to align the representations o
-    
-[^4]: 具有迭代偏好引导的主动推荐
-
-    Proactive Recommendation with Iterative Preference Guidance
-
-    [https://arxiv.org/abs/2403.07571](https://arxiv.org/abs/2403.07571)
-
-    主动推荐通过灵活的后处理方式进行推荐，通过对项目进行排名来积极引导用户形成新的兴趣。
+    NLQxform-UI是一个基于自然语言的交互式查询界面，可以自动将复杂自然语言问题转换为SPARQL查询，并在DBLP知识图上执行，提高了系统的可用性和准确性
 
     
 
-    推荐系统主要根据从用户反馈中学到的用户兴趣来定制个性化推荐。然而，这些推荐系统 passively cater to user interests and even reinforce existing interests in the feedback loop, leading to problems like filter bubbles and opinion polarization. 为了对抗这一趋势，主动推荐通过战略性地调节推荐序列，积极引导用户产生对目标项目或主题的新兴趣。现有的主动推荐工作面临重大障碍：1) 在引导过程中忽视用户反馈; 2) 缺乏对引导目标的明确建模; 3) 缺乏融入现有工业推荐系统的灵活性。为了解决这些问题，我们引入了一个 Iterative Preference Guidance (IPG) 框架。
+    近年来，DBLP计算机科学文献目录已被广泛用于搜索学术信息，如出版物、学者和会议。然而，其当前的搜索服务缺乏处理复杂查询的能力，这限制了DBLP的可用性。本文提出了NLQxform-UI，这是一个基于web的自然语言接口，允许用户直接用复杂自然语言问题查询DBLP。NLQxform-UI会自动将给定问题转换为SPARQL查询，并在DBLP知识图上执行查询以检索答案。查询过程以交互方式呈现给用户，提高了系统的透明度并有助于检查返回的答案。此外，查询过程中的中间结果可以预览和手动修改以提高系统的准确性。NLQxform-UI已完全开源：https://github.com/ruijie-wan
 
-    arXiv:2403.07571v1 Announce Type: new  Abstract: Recommender systems mainly tailor personalized recommendations according to user interests learned from user feedback. However, such recommender systems passively cater to user interests and even reinforce existing interests in the feedback loop, leading to problems like filter bubbles and opinion polarization. To counteract this, proactive recommendation actively steers users towards developing new interests in a target item or topic by strategically modulating recommendation sequences. Existing work for proactive recommendation faces significant hurdles: 1) overlooking the user feedback in the guidance process; 2) lacking explicit modeling of the guiding objective; and 3) insufficient flexibility for integration into existing industrial recommender systems. To address these issues, we introduce an Iterative Preference Guidance (IPG) framework. IPG performs proactive recommendation in a flexible post-processing manner by ranking items a
+    arXiv:2403.08475v1 Announce Type: new  Abstract: In recent years, the DBLP computer science bibliography has been prominently used for searching scholarly information, such as publications, scholars, and venues. However, its current search service lacks the capability to handle complex queries, which limits the usability of DBLP. In this paper, we present NLQxform-UI, a web-based natural language interface that enables users to query DBLP directly with complex natural language questions. NLQxform-UI automatically translates given questions into SPARQL queries and executes the queries over the DBLP knowledge graph to retrieve answers. The querying process is presented to users in an interactive manner, which improves the transparency of the system and helps examine the returned answers. Also, intermediate results in the querying process can be previewed and manually altered to improve the accuracy of the system. NLQxform-UI has been completely open-sourced: https://github.com/ruijie-wan
     
-[^5]: 文档索引的未来：GPT和Donut革新目录内容处理
+[^3]: LLMs的知识冲突：一项调查
 
-    The future of document indexing: GPT and Donut revolutionize table of content processing
+    Knowledge Conflicts for LLMs: A Survey
 
-    [https://arxiv.org/abs/2403.07553](https://arxiv.org/abs/2403.07553)
+    [https://arxiv.org/abs/2403.08319](https://arxiv.org/abs/2403.08319)
 
-    该论文介绍了一种利用Donut和OpenAI GPT-3.5 Turbo两种前沿AI模型自动提取文件中结构化信息的创新方法，在建筑规格文件的目录处理中取得了显著的准确性，代表了文档索引领域向自动化信息提取迈出的重要一步。
-
-    
-
-    工业项目严重依赖冗长、复杂的规格文件，手工提取结构化信息繁琐且效率低下。本文介绍一种创新方法来自动化这一过程，利用两种前沿AI模型的能力：Donut，一种可以直接从扫描文档中提取信息而无需OCR的模型，以及OpenAI GPT-3.5 Turbo，一个强大的大型语言模型。所提出的方法首先通过获取建筑规格文件的目录（ToCs），然后将ToCs文本结构化为JSON数据。尤为显著的准确性被实现，Donut在有效组织ToCs方面达到85%，GPT-3.5 Turbo达到89%。这一里程碑式的成就代表了文档索引领域的重大进步，展示了AI自动化信息提取在各种文档类型中的巨大潜力，提升了效率。
-
-    arXiv:2403.07553v1 Announce Type: cross  Abstract: Industrial projects rely heavily on lengthy, complex specification documents, making tedious manual extraction of structured information a major bottleneck. This paper introduces an innovative approach to automate this process, leveraging the capabilities of two cutting-edge AI models: Donut, a model that extracts information directly from scanned documents without OCR, and OpenAI GPT-3.5 Turbo, a robust large language model. The proposed methodology is initiated by acquiring the table of contents (ToCs) from construction specification documents and subsequently structuring the ToCs text into JSON data. Remarkable accuracy is achieved, with Donut reaching 85% and GPT-3.5 Turbo reaching 89% in effectively organizing the ToCs. This landmark achievement represents a significant leap forward in document indexing, demonstrating the immense potential of AI to automate information extraction tasks across diverse document types, boosting effic
-    
-[^6]: 面向个性化的图基础模型
-
-    Towards Graph Foundation Models for Personalization
-
-    [https://arxiv.org/abs/2403.07478](https://arxiv.org/abs/2403.07478)
-
-    本文提出了一种面向个性化的基于图的基础建模方法，其中的Heterogeneous GNN旨在捕捉跨多种可推荐项目类型的多跳内容和消费关系。
+    这项调查深入分析了LLMs在融合上下文和参数化知识时所面临的知识冲突，探讨了三类知识冲突对其可信度和性能的重要影响，并提出改进LLMs稳健性策略的策略。
 
     
 
-    在个性化领域，整合消费信号和基于内容的表示等多样信息源变得日益关键，以构建最先进的解决方案。在这方面，围绕Graph Neural Networks（GNNs）和Foundation Models（FMs）的研究存在两大趋势。虽然GNNs成为工业界在规模上实现个性化的热门解决方案，但FMs最近才因其在排名和检索等个性化任务中表现出色而受到关注。本文提出了一种针对个性化的基于图的基础建模方法。该方法的核心是一种设计用于捕捉跨各种可推荐项目类型的多跳内容和消费关系的异质GNN（HGNN）。为确保基础模型所需的一般性，我们采用了基于大语言模型（LLM）的文本特征化方法。
+    这项调查对大型语言模型（LLMs）的知识冲突进行了深入分析，突出了当它们融合上下文和参数化知识时所遇到的复杂挑战。我们关注三类知识冲突：上下文-记忆冲突、跨上下文冲突和内部记忆冲突。这些冲突可能会显著影响LLMs的可信度和性能，特别是在现实世界应用中，噪音和错误信息很常见。通过对这些冲突进行分类，探讨其原因，研究LLMs在这些冲突下的行为，并回顾可用的解决方案，本调查旨在为改进LLMs的稳健性策略提供启示，从而成为推动这一不断发展领域研究的宝贵资源。
 
-    arXiv:2403.07478v1 Announce Type: cross  Abstract: In the realm of personalization, integrating diverse information sources such as consumption signals and content-based representations is becoming increasingly critical to build state-of-the-art solutions. In this regard, two of the biggest trends in research around this subject are Graph Neural Networks (GNNs) and Foundation Models (FMs). While GNNs emerged as a popular solution in industry for powering personalization at scale, FMs have only recently caught attention for their promising performance in personalization tasks like ranking and retrieval. In this paper, we present a graph-based foundation modeling approach tailored to personalization. Central to this approach is a Heterogeneous GNN (HGNN) designed to capture multi-hop content and consumption relationships across a range of recommendable item types. To ensure the generality required from a Foundation Model, we employ a Large Language Model (LLM) text-based featurization of
+    arXiv:2403.08319v1 Announce Type: cross  Abstract: This survey provides an in-depth analysis of knowledge conflicts for large language models (LLMs), highlighting the complex challenges they encounter when blending contextual and parametric knowledge. Our focus is on three categories of knowledge conflicts: context-memory, inter-context, and intra-memory conflict. These conflicts can significantly impact the trustworthiness and performance of LLMs, especially in real-world applications where noise and misinformation are common. By categorizing these conflicts, exploring the causes, examining the behaviors of LLMs under such conflicts, and reviewing available solutions, this survey aims to shed light on strategies for improving the robustness of LLMs, thereby serving as a valuable resource for advancing research in this evolving area.
     
-[^7]: LIST: 学习为基于嵌入的空间关键词查询建立空间文本数据索引
+[^4]: 面向正负偏好的统一建模的符号感知推荐
 
-    LIST: Learning to Index Spatio-Textual Data for Embedding based Spatial Keyword Queries
+    Towards Unified Modeling for Positive and Negative Preferences in Sign-Aware Recommendation
 
-    [https://arxiv.org/abs/2403.07331](https://arxiv.org/abs/2403.07331)
+    [https://arxiv.org/abs/2403.08246](https://arxiv.org/abs/2403.08246)
 
-    提出了一种名为LIST的新技术，通过学习为基于嵌入的空间关键词查询建立空间文本数据索引，以加速top-k搜索过程。
-
-    
-
-    随着空间文本数据的普及，“Top-k KNN空间关键词查询（TkQs）”已经在许多实际应用中发现，它基于一个评价空间和文本相关性的排名函数返回一个对象列表。现有的用于TkQs的geo-textual索引使用传统的检索模型（如BM25）来计算文本相关性，并通常利用简单的线性函数来计算空间相关性，但其效果有限。为了提高效果，最近提出了几种深度学习模型，但它们存在严重的效率问题。据我们所知，目前没有为加速这些深度学习模型的top-k搜索过程专门设计的有效索引。为了解决这些问题，我们提出了一种新技术，通过学习为回答基于嵌入的空间关键词查询（称为LIST）建立空间文本数据索引。LIST具有两个新颖组件。
-
-    arXiv:2403.07331v1 Announce Type: new  Abstract: With the proliferation of spatio-textual data, Top-k KNN spatial keyword queries (TkQs), which return a list of objects based on a ranking function that evaluates both spatial and textual relevance, have found many real-life applications. Existing geo-textual indexes for TkQs use traditional retrieval models like BM25 to compute text relevance and usually exploit a simple linear function to compute spatial relevance, but its effectiveness is limited. To improve effectiveness, several deep learning models have recently been proposed, but they suffer severe efficiency issues. To the best of our knowledge, there are no efficient indexes specifically designed to accelerate the top-k search process for these deep learning models.   To tackle these issues, we propose a novel technique, which Learns to Index the Spatio-Textual data for answering embedding based spatial keyword queries (called LIST). LIST is featured with two novel components. F
-    
-[^8]: 基于自监督对比学习的隐式协同过滤
-
-    Self-supervised Contrastive Learning for Implicit Collaborative Filtering
-
-    [https://arxiv.org/abs/2403.07265](https://arxiv.org/abs/2403.07265)
-
-    提出了一个简单的自监督对比学习框架，通过正特征增强和负标签增强改进自我监督信号，提高了隐式协同过滤准确性，并建立了一种有效的负标签增强技术，实现了有效的增强
+    提出了一种面向推荐的轻量级符号图卷积网络LSGRec，采用统一建模方法同时对高阶用户的正负偏好进行建模
 
     
 
-    基于对比学习的推荐算法显著推进了自监督推荐领域的发展，特别是以BPR作为主要代表的掌握隐式协同过滤的排名预测任务。然而，在推荐系统中存在的误正例和误负例阻碍了准确的偏好学习。本研究提出了一个简单的自监督对比学习框架，利用正特征增强和负标签增强来改进自我监督信号。理论分析表明，我们的学习方法等效于利用代表用户兴趣中心的潜在变量最大化似然估计。此外，我们建立了一种有效的负标签增强技术，根据它们的相对排名位置线性相关地采样未标记的示例，实现了有效的增强。
+    最近，符号感知图推荐引起了广泛关注，因为它将从用户与项目之间的正负交互（即，图中的链接）中学习用户的负偏好，除了正偏好。为了适应负链接和正链接的不同语义，现有作品利用两个独立的编码器分别建模用户的正负偏好。然而，这些方法无法从由多个带有不同符号的链接形成的高阶异构交互中学习负偏好，导致负用户偏好不准确和不完整。为了应对这些棘手的问题，我们提出了一种新颖的面向推荐的轻量级符号图卷积网络LSGRec，采用统一建模方法同时对高阶用户的正负偏好进行建模。
 
-    arXiv:2403.07265v1 Announce Type: new  Abstract: Contrastive learning-based recommendation algorithms have significantly advanced the field of self-supervised recommendation, particularly with BPR as a representative ranking prediction task that dominates implicit collaborative filtering. However, the presence of false-positive and false-negative examples in recommendation systems hampers accurate preference learning. In this study, we propose a simple self-supervised contrastive learning framework that leverages positive feature augmentation and negative label augmentation to improve the self-supervisory signal. Theoretical analysis demonstrates that our learning method is equivalent to maximizing the likelihood estimation with latent variables representing user interest centers. Additionally, we establish an efficient negative label augmentation technique that samples unlabeled examples with a probability linearly dependent on their relative ranking positions, enabling efficient augm
+    arXiv:2403.08246v1 Announce Type: cross  Abstract: Recently, sign-aware graph recommendation has drawn much attention as it will learn users' negative preferences besides positive ones from both positive and negative interactions (i.e., links in a graph) with items. To accommodate the different semantics of negative and positive links, existing works utilize two independent encoders to model users' positive and negative preferences, respectively. However, these approaches cannot learn the negative preferences from high-order heterogeneous interactions between users and items formed by multiple links with different signs, resulting in inaccurate and incomplete negative user preferences. To cope with these intractable issues, we propose a novel \textbf{L}ight \textbf{S}igned \textbf{G}raph Convolution Network specifically for \textbf{Rec}ommendation (\textbf{LSGRec}), which adopts a unified modeling approach to simultaneously model high-order users' positive and negative preferences on a
     
-[^9]: 反映复杂社交媒体数据流中关键社会事件的时间序列分析
+[^5]: 用于深度CTR预测的离散语义标记化
 
-    Time Series Analysis of Key Societal Events as Reflected in Complex Social Media Data Streams
+    Discrete Semantic Tokenization for Deep CTR Prediction
 
-    [https://arxiv.org/abs/2403.07090](https://arxiv.org/abs/2403.07090)
+    [https://arxiv.org/abs/2403.08206](https://arxiv.org/abs/2403.08206)
 
-    通过时间序列分析探索GAB和Telegram这两个社交媒体平台上的叙事演变，提出了一种新颖的方法来研究多个社交媒体领域，以提取可能被掩盖的关键信息。
+    提出了一种新型的语义标记范式并引入离散语义标记化方法UIST，用于用户和项目表示，旨在将项目内容信息整合到点击率（CTR）预测模型中，实现快速训练和推断，并在保持内存占用的同时提高效率。
 
     
 
-    arXiv:2403.07090v1 公告类型: 跨界 摘要: 社交媒体平台蕴藏着宝贵的见解，然而提取关键信息可能具有挑战性。传统的自上而下方法通常难以捕捉快速变化事件中的关键信号。随着全球事件迅速演变，包括虚假信息的社交媒体叙事成为重要的见解来源。为了满足归纳策略的需求，我们探索了一种小众社交媒体平台GAB和一个成熟的消息服务Telegram，以开发适用于更广泛范围的方法。本研究使用定量基于语料库的话语分析技术来研究这些平台上的叙事演变。我们的方法是研究多个社交媒体领域以提炼可能被掩盖的关键信息的新颖方式，从而提供有用且可操作的见解。该论文详细介绍了收集和预处理GAB和Telegram数据的技术和方法论方面。
+    将项目内容信息整合到点击率（CTR）预测模型中仍然是一个挑战，尤其是在工业场景下的时间和空间约束下。传统的内容编码范式将用户和项目编码器直接整合到CTR模型中，优先考虑空间而非时间。相反，基于嵌入的范式将项目和用户语义转换为潜在嵌入，然后对其进行缓存，优先考虑空间而非时间。本文介绍了一种新型的语义标记范式，并提出了一种用于用户和项目表示的离散语义标记化方法，即UIST。UIST实现了快速的训练和推断，同时保持了保守的内存占用。具体而言，UIST将密集嵌入向量量化为较短的离散标记，并采用分层混合推断模块来衡量每个用户-项目标记对的贡献。我们在新闻数据集上的实验结果表明，UIST在提高效率的同时降低了内存消耗。
 
-    arXiv:2403.07090v1 Announce Type: cross  Abstract: Social media platforms hold valuable insights, yet extracting essential information can be challenging. Traditional top-down approaches often struggle to capture critical signals in rapidly changing events. As global events evolve swiftly, social media narratives, including instances of disinformation, become significant sources of insights. To address the need for an inductive strategy, we explore a niche social media platform GAB and an established messaging service Telegram, to develop methodologies applicable on a broader scale. This study investigates narrative evolution on these platforms using quantitative corpus-based discourse analysis techniques. Our approach is a novel mode to study multiple social media domains to distil key information which may be obscured otherwise, allowing for useful and actionable insights. The paper details the technical and methodological aspects of gathering and preprocessing GAB and Telegram data 
+    arXiv:2403.08206v1 Announce Type: new  Abstract: Incorporating item content information into click-through rate (CTR) prediction models remains a challenge, especially with the time and space constraints of industrial scenarios. The content-encoding paradigm, which integrates user and item encoders directly into CTR models, prioritizes space over time. In contrast, the embedding-based paradigm transforms item and user semantics into latent embeddings and then caches them, prioritizes space over time. In this paper, we introduce a new semantic-token paradigm and propose a discrete semantic tokenization approach, namely UIST, for user and item representation. UIST facilitates swift training and inference while maintaining a conservative memory footprint. Specifically, UIST quantizes dense embedding vectors into discrete tokens with shorter lengths and employs a hierarchical mixture inference module to weigh the contribution of each user--item token pair. Our experimental results on news 
     
-[^10]: MetaSplit: 用于限量产品推荐的Meta-Split网络
+[^6]: MetaSplit: 用于限量产品推荐的Meta-Split网络
 
     MetaSplit: Meta-Split Network for Limited-Stock Product Recommendation
 
@@ -159,60 +97,32 @@
 
     arXiv:2403.06747v1 Announce Type: new  Abstract: Compared to business-to-consumer (B2C) e-commerce systems, consumer-to-consumer (C2C) e-commerce platforms usually encounter the limited-stock problem, that is, a product can only be sold one time in a C2C system. This poses several unique challenges for click-through rate (CTR) prediction. Due to limited user interactions for each product (i.e. item), the corresponding item embedding in the CTR model may not easily converge. This makes the conventional sequence modeling based approaches cannot effectively utilize user history information since historical user behaviors contain a mixture of items with different volume of stocks. Particularly, the attention mechanism in a sequence model tends to assign higher score to products with more accumulated user interactions, making limited-stock products being ignored and contribute less to the final output. To this end, we propose the Meta-Split Network (MSN) to split user history sequence regar
     
-[^11]: 应对后API困境：搜索引擎结果页面呈现社交媒体数据的偏见观
+[^7]: GPT-4V(ision)是一个通用的网络代理，如果有基础的话。
 
-    Navigating the Post-API Dilemma Search Engine Results Pages Present a Biased View of Social Media Data
+    GPT-4V(ision) is a Generalist Web Agent, if Grounded. (arXiv:2401.01614v1 [cs.IR])
 
-    [https://arxiv.org/abs/2401.15479](https://arxiv.org/abs/2401.15479)
+    [http://arxiv.org/abs/2401.01614](http://arxiv.org/abs/2401.01614)
 
-    搜索引擎结果页面可以作为社交媒体数据的替代方案，但存在对流行帖子偏见较高、情感更积极以及忽视政治、色情和粗俗帖子的问题。
-
-    
-
-    最近停止访问社交媒体API的决定对互联网研究和整个计算社会科学领域产生了不利影响。这种对数据的访问缺乏已被称为互联网研究的后API时代。幸运的是，流行的搜索引擎有能力爬取、捕获和展示社交媒体数据在其搜索引擎结果页面(SERP)上，如果提供适当的搜索查询，可能会为这一困境提供解决方案。在当前工作中，我们问：SERP是否提供社交媒体数据的完整和无偏见样本？ SERP是否是直接API访问的可行替代方案？为了回答这些问题，我们对（Google）SERP结果和来自Reddit和Twitter/X的非取样数据进行了比较分析。我们发现，SERP结果在支持流行帖子方面存在高度偏见；反对政治、色情和粗俗帖子；在情感上更为积极；并有大
-
-    arXiv:2401.15479v2 Announce Type: replace-cross  Abstract: Recent decisions to discontinue access to social media APIs are having detrimental effects on Internet research and the field of computational social science as a whole. This lack of access to data has been dubbed the Post-API era of Internet research. Fortunately, popular search engines have the means to crawl, capture, and surface social media data on their Search Engine Results Pages (SERP) if provided the proper search query, and may provide a solution to this dilemma. In the present work we ask: does SERP provide a complete and unbiased sample of social media data? Is SERP a viable alternative to direct API-access? To answer these questions, we perform a comparative analysis between (Google) SERP results and nonsampled data from Reddit and Twitter/X. We find that SERP results are highly biased in favor of popular posts; against political, pornographic, and vulgar posts; are more positive in their sentiment; and have large 
-    
-[^12]: 通过检索示范进行上下文学习的语言模型：一项综述
-
-    In-context Learning with Retrieved Demonstrations for Language Models: A Survey. (arXiv:2401.11624v2 [cs.CL] UPDATED)
-
-    [http://arxiv.org/abs/2401.11624](http://arxiv.org/abs/2401.11624)
-
-    本综述调查了一种名为检索示范的方法，它通过使用特定于输入查询的示范来提高语言模型的少量样本情境学习（ICL）能力。这种方法不仅提高了学习效率和可扩展性，还减少了手动示例选择中的偏见。
+    GPT-4V(ision)是一个通用的网络代理，具有综合视觉理解和网页操作的能力。实验证明，如果将文本计划转化为实际行动，GPT-4V可以在50%的任务上取得成功。这一结果显著优于传统方法。
 
     
 
-    语言模型，特别是预训练的大型语言模型，已展示出卓越的能力，可以在输入上下文中进行少量样本的情境学习（ICL），并在新任务上具有适应能力。然而，模型的ICL能力对于少样本示范的选择是敏感的。最近的一项研究进展是检索针对每个输入查询定制的示范。示范检索的实现相对简单，利用现有的数据库和检索系统。这不仅提高了学习过程的效率和可扩展性，而且已经证明可以减少手动示例选择中的偏见。鉴于令人鼓舞的结果和在检索示范的ICL方面不断增长的研究，我们进行了广泛的研究综述。在这项综述中，我们讨论和比较了检索模型的不同设计选择，检索训练
+    最近对大型多模型（LMM）的研究，特别是GPT-4V(ision)和Gemini，快速推动了多模型的能力边界超越传统任务，如图像字幕和视觉问答。在这项工作中，我们探索了像GPT-4V这样的LMM作为通用网络代理的潜力，可以根据自然语言指令在任何给定的网站上完成任务。我们提出了SEEACT，一种利用LMM的力量进行综合视觉理解和网页操作的通用网络代理。我们在最新的MIND2WEB基准上进行评估。除了对缓存网站的标准离线评估外，我们还通过开发一个允许在实时网站上运行网络代理的工具，实现了一种新的在线评估设置。我们展示了GPT-4V在网页代理方面表现出巨大的潜力-如果我们将其文本计划手动地实施为网站上的行动，它可以成功地完成50%的任务。此结果明显超过了传统方法。
 
-    Language models, especially pre-trained large language models, have showcased remarkable abilities as few-shot in-context learners (ICL), adept at adapting to new tasks with just a few demonstrations in the input context. However, the model's ability to perform ICL is sensitive to the choice of the few-shot demonstrations. Instead of using a fixed set of demonstrations, one recent development is to retrieve demonstrations tailored to each input query. The implementation of demonstration retrieval is relatively straightforward, leveraging existing databases and retrieval systems. This not only improves the efficiency and scalability of the learning process but also has been shown to reduce biases inherent in manual example selection. In light of the encouraging results and growing research in ICL with retrieved demonstrations, we conduct an extensive review of studies in this area. In this survey, we discuss and compare different design choices for retrieval models, retrieval training p
+    The recent development on large multimodal models (LMMs), especially GPT-4V(ision) and Gemini, has been quickly expanding the capability boundaries of multimodal models beyond traditional tasks like image captioning and visual question answering. In this work, we explore the potential of LMMs like GPT-4V as a generalist web agent that can follow natural language instructions to complete tasks on any given website. We propose SEEACT, a generalist web agent that harnesses the power of LMMs for integrated visual understanding and acting on the web. We evaluate on the recent MIND2WEB benchmark. In addition to standard offline evaluation on cached websites, we enable a new online evaluation setting by developing a tool that allows running web agents on live websites. We show that GPT-4V presents a great potential for web agents - it can successfully complete 50% of the tasks on live websites if we manually ground its textual plans into actions on the websites. This substantially outperforms
     
-[^13]: 多视图变分自动编码器在非目标代谢组学中缺失值填充中的应用
+[^8]: 提高ChatGPT生成的假科学检测的方法：引入xFakeBibs监督学习网络算法
 
-    Multi-View Variational Autoencoder for Missing Value Imputation in Untargeted Metabolomics. (arXiv:2310.07990v1 [q-bio.GN])
+    Improving Detection of ChatGPT-Generated Fake Science Using Real Publication Text: Introducing xFakeBibs a Supervised-Learning Network Algorithm. (arXiv:2308.11767v1 [cs.CL])
 
-    [http://arxiv.org/abs/2310.07990](http://arxiv.org/abs/2310.07990)
+    [http://arxiv.org/abs/2308.11767](http://arxiv.org/abs/2308.11767)
 
-    本文提出了一种新的方法，利用多视图变分自动编码器来填充非目标代谢组学中的缺失值，该方法利用了全基因组测序数据和参考代谢物的信息，可以有效地根据基因组信息填充缺失的代谢组学值。
-
-    
-
-    背景：在基于质谱的代谢组学中，缺失数据是一个常见的挑战，可能导致偏倚和不完整的分析。将全基因组测序（WGS）数据与代谢组学数据整合起来，已经成为增强代谢组学研究中数据填充准确性的一种有前景的方法。方法：在本研究中，我们提出了一种新的方法，利用来自WGS数据和参考代谢物的信息来填充未知代谢物。我们的方法利用多视图变分自动编码器共同对负担评分、多基因风险评分（PGS）和连锁不平衡（LD）删减的单核苷酸多态性（SNPs）进行特征提取和缺失代谢组学数据的填充。通过学习两种组学数据的潜在表示，我们的方法可以根据基因组信息有效地填充缺失的代谢组学值。结果：我们在具有缺失值和不完整数据的实验代谢组学数据集上评估了我们方法的性能。
-
-    Background: Missing data is a common challenge in mass spectrometry-based metabolomics, which can lead to biased and incomplete analyses. The integration of whole-genome sequencing (WGS) data with metabolomics data has emerged as a promising approach to enhance the accuracy of data imputation in metabolomics studies. Method: In this study, we propose a novel method that leverages the information from WGS data and reference metabolites to impute unknown metabolites. Our approach utilizes a multi-view variational autoencoder to jointly model the burden score, polygenetic risk score (PGS), and linkage disequilibrium (LD) pruned single nucleotide polymorphisms (SNPs) for feature extraction and missing metabolomics data imputation. By learning the latent representations of both omics data, our method can effectively impute missing metabolomics values based on genomic information. Results: We evaluate the performance of our method on empirical metabolomics datasets with missing values and de
-    
-[^14]: 利用物品嵌入改进在稀疏和倾斜数据集中对位置偏差的估计
-
-    Improving position bias estimation against sparse and skewed dataset with item embedding. (arXiv:2305.13931v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.13931](http://arxiv.org/abs/2305.13931)
-
-    该研究提出了一种利用物品嵌入来缓解广告营销领域中位置偏差稀疏性问题的回归EM算法变体。
+    本文介绍了一种能够提高对ChatGPT生成的假科学进行检测的算法。通过使用一种新设计的监督机器学习算法，该算法能够准确地将机器生成的出版物与科学家生成的出版物区分开来。结果表明，ChatGPT在技术术语方面与真实科学存在显著差异。算法在分类过程中取得了较高的准确率。
 
     
 
-    在学习排名中，估计位置偏差是一个众所周知的挑战。电子商务应用程序中的点击数据（例如广告定位和搜索引擎）提供了隐含但丰富的反馈，以改进个性化排名。然而，点击数据本质上包括各种偏差，例如位置偏差。点击建模旨在去噪有偏的点击数据并提取可靠的信号。已经提出了随机化结果和回归期望最大化算法来解决位置偏差。但是，这两种方法都需要各种观察值对（项目、位置）。然而，在广告营销的实际情况下，营销人员经常按固定的预定顺序显示广告，估计因此而受到影响。我们将位置偏差估计中的（项目、位置）稀疏性问题作为新问题，并提出了一种利用物品嵌入来缓解稀疏问题的回归EM算法变体。我们首先使用合成数据集评估我们的方法。
+    ChatGPT正在成为现实。本文展示了如何区分ChatGPT生成的出版物与科学家生成的出版物。通过使用一种新设计的监督机器学习算法，我们演示了如何检测机器生成的出版物和科学家生成的出版物。该算法使用100个真实出版物摘要进行训练，然后采用10倍交叉验证方法建立了一个接受范围的下限和上限。与ChatGPT内容进行比较，明显可见ChatGPT仅贡献了23\%的二元组内容，这比其他10个交叉验证中的任何一个都少50\%。这个分析凸显了ChatGPT在技术术语上与真实科学的明显差异。在对每篇文章进行分类时，xFakeBibs算法准确地将98篇出版物识别为假的，有2篇文献错误地分类为真实出版物。尽管这项工作引入了一种算法应用
 
-    Estimating position bias is a well-known challenge in Learning to rank (L2R). Click data in e-commerce applications, such as advertisement targeting and search engines, provides implicit but abundant feedback to improve personalized rankings. However, click data inherently include various biases like position bias. Click modeling is aimed at denoising biases in click data and extracting reliable signals. Result Randomization and Regression Expectation-maximization algorithm have been proposed to solve position bias. Both methods require various pairs of observations (item, position). However, in real cases of advertising, marketers frequently display advertisements in a fixed pre-determined order, and estimation suffers from it. We propose this sparsity of (item, position) in position bias estimation as a novel problem, and we propose a variant of the Regression EM algorithm which utilizes item embeddings to alleviate the issue of the sparsity. With a synthetic dataset, we first evalua
+    ChatGPT is becoming a new reality. In this paper, we show how to distinguish ChatGPT-generated publications from counterparts produced by scientists. Using a newly designed supervised Machine Learning algorithm, we demonstrate how to detect machine-generated publications from those produced by scientists. The algorithm was trained using 100 real publication abstracts, followed by a 10-fold calibration approach to establish a lower-upper bound range of acceptance. In the comparison with ChatGPT content, it was evident that ChatGPT contributed merely 23\% of the bigram content, which is less than 50\% of any of the other 10 calibrating folds. This analysis highlights a significant disparity in technical terms where ChatGPT fell short of matching real science. When categorizing the individual articles, the xFakeBibs algorithm accurately identified 98 out of 100 publications as fake, with 2 articles incorrectly classified as real publications. Though this work introduced an algorithmic app
     
 

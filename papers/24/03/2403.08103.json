@@ -1,0 +1,12 @@
+{
+    "title": "Contextual Clarity: Generating Sentences with Transformer Models using Context-Reverso Data",
+    "abstract": "arXiv:2403.08103v1 Announce Type: cross  Abstract: In the age of information abundance, the ability to provide users with contextually relevant and concise information is crucial. Keyword in Context (KIC) generation is a task that plays a vital role in and generation applications, such as search engines, personal assistants, and content summarization. In this paper, we present a novel approach to generating unambiguous and brief sentence-contexts for given keywords using the T5 transformer model, leveraging data obtained from the Context-Reverso API. The code is available at https://github.com/Rusamus/word2context/tree/main .",
+    "link": "https://arxiv.org/abs/2403.08103",
+    "context": "Title: Contextual Clarity: Generating Sentences with Transformer Models using Context-Reverso Data\nAbstract: arXiv:2403.08103v1 Announce Type: cross  Abstract: In the age of information abundance, the ability to provide users with contextually relevant and concise information is crucial. Keyword in Context (KIC) generation is a task that plays a vital role in and generation applications, such as search engines, personal assistants, and content summarization. In this paper, we present a novel approach to generating unambiguous and brief sentence-contexts for given keywords using the T5 transformer model, leveraging data obtained from the Context-Reverso API. The code is available at https://github.com/Rusamus/word2context/tree/main .",
+    "path": "papers/24/03/2403.08103.json",
+    "total_tokens": 582,
+    "translated_title": "利用Context-Reverso数据使用Transformer模型生成具有上下文清晰度的句子",
+    "translated_abstract": "在信息丰富的时代，提供与上下文相关且简洁的信息对用户至关重要。关键词上下文(KIC)生成是在一些应用中扮演至关重要角色的任务，比如搜索引擎、个人助手和内容摘要。本文提出了一种利用T5 transformer模型生成给定关键词的明确且简洁句子上下文的新方法，利用了从Context-Reverso API获取的数据。",
+    "tldr": "使用Transformer模型和Context-Reverso数据生成具有上下文清晰度的句子",
+    "en_tdlr": "Generating sentences with contextual clarity using Transformer models and Context-Reverso data."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "The Garden of Forking Paths: Observing Dynamic Parameters Distribution in Large Language Models",
+    "abstract": "arXiv:2403.08739v1 Announce Type: cross  Abstract: A substantial gap persists in understanding the reasons behind the exceptional performance of the Transformer architecture in NLP. A particularly unexplored area involves the mechanistic description of how the distribution of parameters evolves over time during training. In this work we suggest that looking at the time evolution of the statistic distribution of model parameters, and specifically at bifurcation effects, can help understanding the model quality, potentially reducing training costs and evaluation efforts and empirically showing the reasons behind the effectiveness of weights sparsification.",
+    "link": "https://arxiv.org/abs/2403.08739",
+    "context": "Title: The Garden of Forking Paths: Observing Dynamic Parameters Distribution in Large Language Models\nAbstract: arXiv:2403.08739v1 Announce Type: cross  Abstract: A substantial gap persists in understanding the reasons behind the exceptional performance of the Transformer architecture in NLP. A particularly unexplored area involves the mechanistic description of how the distribution of parameters evolves over time during training. In this work we suggest that looking at the time evolution of the statistic distribution of model parameters, and specifically at bifurcation effects, can help understanding the model quality, potentially reducing training costs and evaluation efforts and empirically showing the reasons behind the effectiveness of weights sparsification.",
+    "path": "papers/24/03/2403.08739.json",
+    "total_tokens": 705,
+    "translated_title": "分叉路径的花园：观察大型语言模型中动态参数分布",
+    "translated_abstract": "在理解Transformer架构在自然语言处理中卓越性能背后原因方面仍存在巨大差距。尤其是一个尚未被探索的领域涉及在训练过程中参数分布如何随时间演变的机械描述。在这项工作中，我们建议观察模型参数的统计分布随时间演变的方式，尤其是对叉分影响，可以帮助理解模型质量，潜在地减少训练成本和评估工作，并从实证上展示了稀疏权重有效性背后的原因。",
+    "tldr": "观察大型语言模型中动态参数分布的时间演变，特别是叉分效应，能帮助理解模型质量，减少训练成本和评估工作，同时实证显示稀疏权重有效性背后的原因。",
+    "en_tdlr": "Observing the time evolution of parameter distribution in large language models, especially the bifurcation effects, helps understand model quality, reduce training costs and evaluation efforts, and empirically show the reasons behind the effectiveness of weight sparsification."
+}

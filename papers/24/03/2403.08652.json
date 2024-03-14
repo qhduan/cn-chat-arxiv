@@ -1,0 +1,12 @@
+{
+    "title": "Extracting Explanations, Justification, and Uncertainty from Black-Box Deep Neural Networks",
+    "abstract": "arXiv:2403.08652v1 Announce Type: new  Abstract: Deep Neural Networks (DNNs) do not inherently compute or exhibit empirically-justified task confidence. In mission critical applications, it is important to both understand associated DNN reasoning and its supporting evidence. In this paper, we propose a novel Bayesian approach to extract explanations, justifications, and uncertainty estimates from DNNs. Our approach is efficient both in terms of memory and computation, and can be applied to any black box DNN without any retraining, including applications to anomaly detection and out-of-distribution detection tasks. We validate our approach on the CIFAR-10 dataset, and show that it can significantly improve the interpretability and reliability of DNNs.",
+    "link": "https://arxiv.org/abs/2403.08652",
+    "context": "Title: Extracting Explanations, Justification, and Uncertainty from Black-Box Deep Neural Networks\nAbstract: arXiv:2403.08652v1 Announce Type: new  Abstract: Deep Neural Networks (DNNs) do not inherently compute or exhibit empirically-justified task confidence. In mission critical applications, it is important to both understand associated DNN reasoning and its supporting evidence. In this paper, we propose a novel Bayesian approach to extract explanations, justifications, and uncertainty estimates from DNNs. Our approach is efficient both in terms of memory and computation, and can be applied to any black box DNN without any retraining, including applications to anomaly detection and out-of-distribution detection tasks. We validate our approach on the CIFAR-10 dataset, and show that it can significantly improve the interpretability and reliability of DNNs.",
+    "path": "papers/24/03/2403.08652.json",
+    "total_tokens": 716,
+    "translated_title": "从黑箱深度神经网络中提取解释、证明和不确定性",
+    "translated_abstract": "深度神经网络(DNNs)本身不会计算或展示经验证明的任务置信度。在关键任务应用中，了解相关的DNN推理及其支持证据至关重要。本文提出了一种新颖的贝叶斯方法，用于从DNNs中提取解释、证明和不确定性估计。我们的方法在内存和计算方面都很有效，可应用于任何黑箱DNN，无需重新训练，包括异常检测和超出分布检测任务。我们在CIFAR-10数据集上验证了我们的方法，并展示了它可以显著提高DNN的可解释性和可靠性。",
+    "tldr": "本文提出了一种新的贝叶斯方法，从黑箱深度神经网络中提取解释、证明和不确定性，有效提高了DNN的可解释性和可靠性。",
+    "en_tdlr": "This paper proposes a novel Bayesian approach to extract explanations, justifications, and uncertainty from black-box deep neural networks, significantly improving the interpretability and reliability of DNNs."
+}

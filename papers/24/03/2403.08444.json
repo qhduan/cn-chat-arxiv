@@ -1,0 +1,11 @@
+{
+    "title": "COSTREAM: Learned Cost Models for Operator Placement in Edge-Cloud Environments",
+    "abstract": "arXiv:2403.08444v1 Announce Type: cross  Abstract: In this work, we present COSTREAM, a novel learned cost model for Distributed Stream Processing Systems that provides accurate predictions of the execution costs of a streaming query in an edge-cloud environment. The cost model can be used to find an initial placement of operators across heterogeneous hardware, which is particularly important in these environments. In our evaluation, we demonstrate that COSTREAM can produce highly accurate cost estimates for the initial operator placement and even generalize to unseen placements, queries, and hardware. When using COSTREAM to optimize the placements of streaming operators, a median speed-up of around 21x can be achieved compared to baselines.",
+    "link": "https://arxiv.org/abs/2403.08444",
+    "context": "Title: COSTREAM: Learned Cost Models for Operator Placement in Edge-Cloud Environments\nAbstract: arXiv:2403.08444v1 Announce Type: cross  Abstract: In this work, we present COSTREAM, a novel learned cost model for Distributed Stream Processing Systems that provides accurate predictions of the execution costs of a streaming query in an edge-cloud environment. The cost model can be used to find an initial placement of operators across heterogeneous hardware, which is particularly important in these environments. In our evaluation, we demonstrate that COSTREAM can produce highly accurate cost estimates for the initial operator placement and even generalize to unseen placements, queries, and hardware. When using COSTREAM to optimize the placements of streaming operators, a median speed-up of around 21x can be achieved compared to baselines.",
+    "path": "papers/24/03/2403.08444.json",
+    "total_tokens": 720,
+    "translated_title": "COSTREAM：边缘-云环境中运算符放置的学习成本模型",
+    "translated_abstract": "在这项工作中，我们提出了COSTREAM，这是一种新颖的学习成本模型，适用于分布式流处理系统，在边缘-云环境中对流查询的执行成本进行准确预测。该成本模型可用于在异构硬件上找到运算符的初始放置，这在这些环境中尤为重要。在我们的评估中，我们展示了COSTREAM可以为初始运算符放置产生高度准确的成本估算，甚至能推广到未见过的放置、查询和硬件。当使用COSTREAM来优化流处理运算符的放置时，与基线相比，可实现大约21倍的中位数加速。",
+    "tldr": "COSTREAM提出了一种可在边缘-云环境中准确预测流查询执行成本的学习成本模型，并通过优化运算符的放置，实现了高达21倍的中位数加速。"
+}

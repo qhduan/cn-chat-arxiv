@@ -1,0 +1,12 @@
+{
+    "title": "Trading Large Orders in the Presence of Multiple High-Frequency Anticipatory Traders",
+    "abstract": "arXiv:2403.08202v1 Announce Type: new  Abstract: We investigate a market with a normal-speed informed trader (IT) who may employ mixed strategy and multiple anticipatory high-frequency traders (HFTs) who are under different inventory pressures, in a three-period Kyle's model. The pure- and mixed-strategy equilibria are considered and the results provide recommendations for IT's randomization strategy with different numbers of HFTs. Some surprising results about investors' profits arise: the improvement of anticipatory traders' speed or a more precise prediction may harm themselves but help IT.",
+    "link": "https://arxiv.org/abs/2403.08202",
+    "context": "Title: Trading Large Orders in the Presence of Multiple High-Frequency Anticipatory Traders\nAbstract: arXiv:2403.08202v1 Announce Type: new  Abstract: We investigate a market with a normal-speed informed trader (IT) who may employ mixed strategy and multiple anticipatory high-frequency traders (HFTs) who are under different inventory pressures, in a three-period Kyle's model. The pure- and mixed-strategy equilibria are considered and the results provide recommendations for IT's randomization strategy with different numbers of HFTs. Some surprising results about investors' profits arise: the improvement of anticipatory traders' speed or a more precise prediction may harm themselves but help IT.",
+    "path": "papers/24/03/2403.08202.json",
+    "total_tokens": 704,
+    "translated_title": "在存在多个高频预测交易者的情况下交易大额订单",
+    "translated_abstract": "我们研究了一个市场，其中有一个使用混合策略的正常速度内幕交易者（IT），以及多个处于不同库存压力下的高频预测交易者（HFTs），在一个三期的Kyle模型中。我们考虑了纯策略和混合策略均衡，并根据不同数量的HFTs为IT的随机化策略提供建议。一些关于投资者利润的令人惊讶的结果出现：提高预测交易者的速度或更精确的预测可能会伤害他们自己，但有助于IT。",
+    "tldr": "研究了一个市场中，存在多个高频预测交易者的情况下，提出了内幕交易者的随机化策略建议，发现提高预测交易者的速度或更精确的预测可能有助于内幕交易者。",
+    "en_tdlr": "Investigated a market with multiple high-frequency anticipatory traders where recommendations for informed traders' randomization strategy were provided, revealing that improving anticipatory traders' speed or accuracy may benefit informed traders."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "A Neural-Evolutionary Algorithm for Autonomous Transit Network Design",
+    "abstract": "arXiv:2403.07917v1 Announce Type: cross  Abstract: Planning a public transit network is a challenging optimization problem, but essential in order to realize the benefits of autonomous buses. We propose a novel algorithm for planning networks of routes for autonomous buses. We first train a graph neural net model as a policy for constructing route networks, and then use the policy as one of several mutation operators in a evolutionary algorithm. We evaluate this algorithm on a standard set of benchmarks for transit network design, and find that it outperforms the learned policy alone by up to 20\\% and a plain evolutionary algorithm approach by up to 53\\% on realistic benchmark instances.",
+    "link": "https://arxiv.org/abs/2403.07917",
+    "context": "Title: A Neural-Evolutionary Algorithm for Autonomous Transit Network Design\nAbstract: arXiv:2403.07917v1 Announce Type: cross  Abstract: Planning a public transit network is a challenging optimization problem, but essential in order to realize the benefits of autonomous buses. We propose a novel algorithm for planning networks of routes for autonomous buses. We first train a graph neural net model as a policy for constructing route networks, and then use the policy as one of several mutation operators in a evolutionary algorithm. We evaluate this algorithm on a standard set of benchmarks for transit network design, and find that it outperforms the learned policy alone by up to 20\\% and a plain evolutionary algorithm approach by up to 53\\% on realistic benchmark instances.",
+    "path": "papers/24/03/2403.07917.json",
+    "total_tokens": 736,
+    "translated_title": "用于自主公交网络设计的神经进化算法",
+    "translated_abstract": "规划公共交通网络是一个具有挑战性的优化问题，但是为了实现自动驾驶公交车的好处是至关重要的。我们提出了一种新颖的算法，用于规划自动驾驶公交车的路线网络。我们首先训练一个图神经网络模型作为构建路线网络的策略，然后将该策略用作进化算法中的多个变异操作符之一。我们在标准的公交网络设计基准集上评估这种算法，并发现它在现实基准实例上的表现比单独学习的策略高出高达20\\%，比简单的进化算法方法高出高达53%。",
+    "tldr": "提出了一种神经进化算法用于自动公交网络设计，该算法通过训练图神经网络模型作为策略，并将其用作进化算法中的变异操作符，在公交网络设计基准集上优于单独学习策略和简单进化算法方法。"
+}

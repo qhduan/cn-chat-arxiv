@@ -1,0 +1,12 @@
+{
+    "title": "Do Agents Dream of Electric Sheep?: Improving Generalization in Reinforcement Learning through Generative Learning",
+    "abstract": "arXiv:2403.07979v1 Announce Type: cross  Abstract: The Overfitted Brain hypothesis suggests dreams happen to allow generalization in the human brain. Here, we ask if the same is true for reinforcement learning agents as well. Given limited experience in a real environment, we use imagination-based reinforcement learning to train a policy on dream-like episodes, where non-imaginative, predicted trajectories are modified through generative augmentations. Experiments on four ProcGen environments show that, compared to classic imagination and offline training on collected experience, our method can reach a higher level of generalization when dealing with sparsely rewarded environments.",
+    "link": "https://arxiv.org/abs/2403.07979",
+    "context": "Title: Do Agents Dream of Electric Sheep?: Improving Generalization in Reinforcement Learning through Generative Learning\nAbstract: arXiv:2403.07979v1 Announce Type: cross  Abstract: The Overfitted Brain hypothesis suggests dreams happen to allow generalization in the human brain. Here, we ask if the same is true for reinforcement learning agents as well. Given limited experience in a real environment, we use imagination-based reinforcement learning to train a policy on dream-like episodes, where non-imaginative, predicted trajectories are modified through generative augmentations. Experiments on four ProcGen environments show that, compared to classic imagination and offline training on collected experience, our method can reach a higher level of generalization when dealing with sparsely rewarded environments.",
+    "path": "papers/24/03/2403.07979.json",
+    "total_tokens": 736,
+    "translated_title": "多智体是否梦见电子羊？：通过生成式学习提高强化学习的泛化能力",
+    "translated_abstract": "过度拟合的大脑假设表明梦的发生是为了让人类大脑进行泛化。在这里，我们询问是否对强化学习智能体也是如此。在真实环境中经验有限的情况下，我们使用基于想象力的强化学习来在类似梦境的情节中训练策略，在那里，对非想象力、预测的轨迹进行生成性增强。在四个ProcGen环境的实验中表明，与经典的想象力和离线训练相比，我们的方法在处理稀疏奖励环境时可以达到更高的泛化水平。",
+    "tldr": "通过生成式增强技术，本研究研究了在稀疏奖励环境中通过基于想象力的强化学习训练来提高强化学习智能体泛化能力的方法。",
+    "en_tdlr": "This study investigates the method of improving the generalization of reinforcement learning agents in sparsely rewarded environments through imagination-based reinforcement learning training with generative augmentations."
+}

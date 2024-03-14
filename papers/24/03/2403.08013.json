@@ -1,0 +1,12 @@
+{
+    "title": "Supervised Time Series Classification for Anomaly Detection in Subsea Engineering",
+    "abstract": "arXiv:2403.08013v1 Announce Type: new  Abstract: Time series classification is of significant importance in monitoring structural systems. In this work, we investigate the use of supervised machine learning classification algorithms on simulated data based on a physical system with two states: Intact and Broken. We provide a comprehensive discussion of the preprocessing of temporal data, using measures of statistical dispersion and dimension reduction techniques. We present an intuitive baseline method and discuss its efficiency. We conclude with a comparison of the various methods based on different performance metrics, showing the advantage of using machine learning techniques as a tool in decision making.",
+    "link": "https://arxiv.org/abs/2403.08013",
+    "context": "Title: Supervised Time Series Classification for Anomaly Detection in Subsea Engineering\nAbstract: arXiv:2403.08013v1 Announce Type: new  Abstract: Time series classification is of significant importance in monitoring structural systems. In this work, we investigate the use of supervised machine learning classification algorithms on simulated data based on a physical system with two states: Intact and Broken. We provide a comprehensive discussion of the preprocessing of temporal data, using measures of statistical dispersion and dimension reduction techniques. We present an intuitive baseline method and discuss its efficiency. We conclude with a comparison of the various methods based on different performance metrics, showing the advantage of using machine learning techniques as a tool in decision making.",
+    "path": "papers/24/03/2403.08013.json",
+    "total_tokens": 681,
+    "translated_title": "监督时间序列分类在海底工程异常检测中的应用",
+    "translated_abstract": "时间序列分类在监测结构系统中具有重要意义。本文研究了在基于具有两种状态（完整和破裂）的物理系统的模拟数据上使用监督机器学习分类算法的方法。我们对时间数据的预处理进行了全面讨论，使用统计差异度量和降维技术。我们提出了一种直观的基准方法，并讨论了其效率。最后，我们根据不同性能指标对各种方法进行了比较，显示使用机器学习技术作为决策工具的优势。",
+    "tldr": "研究了监督机器学习算法在基于模拟数据的物理系统中的应用，通过对时间数据进行预处理和比较不同方法的性能指标，展示了机器学习技术在决策中的优势。",
+    "en_tdlr": "Investigated the application of supervised machine learning algorithms in a physical system based on simulated data, demonstrated the advantage of using machine learning techniques in decision making through preprocessing time data and comparing different methods based on performance metrics."
+}
