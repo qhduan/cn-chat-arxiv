@@ -1,0 +1,12 @@
+{
+    "title": "Artificial Bugs for Crowdsearch",
+    "abstract": "arXiv:2403.09484v1 Announce Type: new  Abstract: Bug bounty programs, where external agents are invited to search and report vulnerabilities (bugs) in exchange for rewards (bounty), have become a major tool for companies to improve their systems. We suggest augmenting such programs by inserting artificial bugs to increase the incentives to search for real (organic) bugs. Using a model of crowdsearch, we identify the efficiency gains by artificial bugs, and we show that for this, it is sufficient to insert only one artificial bug. Artificial bugs are particularly beneficial, for instance, if the designer places high valuations on finding organic bugs or if the budget for bounty is not sufficiently high. We discuss how to implement artificial bugs and outline their further benefits.",
+    "link": "https://arxiv.org/abs/2403.09484",
+    "context": "Title: Artificial Bugs for Crowdsearch\nAbstract: arXiv:2403.09484v1 Announce Type: new  Abstract: Bug bounty programs, where external agents are invited to search and report vulnerabilities (bugs) in exchange for rewards (bounty), have become a major tool for companies to improve their systems. We suggest augmenting such programs by inserting artificial bugs to increase the incentives to search for real (organic) bugs. Using a model of crowdsearch, we identify the efficiency gains by artificial bugs, and we show that for this, it is sufficient to insert only one artificial bug. Artificial bugs are particularly beneficial, for instance, if the designer places high valuations on finding organic bugs or if the budget for bounty is not sufficiently high. We discuss how to implement artificial bugs and outline their further benefits.",
+    "path": "papers/24/03/2403.09484.json",
+    "total_tokens": 699,
+    "translated_title": "用于众包搜索的人工虫子",
+    "translated_abstract": "Bug悬赏计划已经成为公司改善系统的重要工具，我们建议通过插入人工虫子来增加寻找真实（有机）虫子的激励。使用众包搜索模型，我们确定了人工虫子带来的效率提升，并且展示了为此只需要插入一个人工虫子即可。人工虫子特别有益，例如，如果设计者非常重视发现有机虫子，或者悬赏预算不够高。我们讨论了如何实施人工虫子并概述了它们的进一步好处。",
+    "tldr": "通过插入人工虫子来增加寻找真实（有机）虫子的激励，最少插入一个人工虫子即可带来效率提升，特别适用于设计者重视有机虫子发现或悬赏预算有限的情况。",
+    "en_tdlr": "Increasing incentives to search for real bugs by inserting artificial bugs, efficiency gains with just one artificial bug, particularly beneficial for emphasizing organic bug discovery or limited bounty budget."
+}

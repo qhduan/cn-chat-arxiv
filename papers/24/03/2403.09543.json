@@ -1,0 +1,12 @@
+{
+    "title": "Explorations in Texture Learning",
+    "abstract": "arXiv:2403.09543v1 Announce Type: cross  Abstract: In this work, we investigate \\textit{texture learning}: the identification of textures learned by object classification models, and the extent to which they rely on these textures. We build texture-object associations that uncover new insights about the relationships between texture and object classes in CNNs and find three classes of results: associations that are strong and expected, strong and not expected, and expected but not present. Our analysis demonstrates that investigations in texture learning enable new methods for interpretability and have the potential to uncover unexpected biases.",
+    "link": "https://arxiv.org/abs/2403.09543",
+    "context": "Title: Explorations in Texture Learning\nAbstract: arXiv:2403.09543v1 Announce Type: cross  Abstract: In this work, we investigate \\textit{texture learning}: the identification of textures learned by object classification models, and the extent to which they rely on these textures. We build texture-object associations that uncover new insights about the relationships between texture and object classes in CNNs and find three classes of results: associations that are strong and expected, strong and not expected, and expected but not present. Our analysis demonstrates that investigations in texture learning enable new methods for interpretability and have the potential to uncover unexpected biases.",
+    "path": "papers/24/03/2403.09543.json",
+    "total_tokens": 705,
+    "translated_title": "纹理学习探索",
+    "translated_abstract": "在这项工作中，我们研究了\\textit{纹理学习}：即通过对象分类模型学习到的纹理的识别，以及它们在多大程度上依赖这些纹理。我们建立了纹理-对象关联，揭示了卷积神经网络中纹理和对象类别之间关系的新见解，并发现了三类结果：强大且预期的关联、强大但意想不到的关联，以及预期但不存在的关联。我们的分析表明，对纹理学习的探究使得解释性方面的新方法成为可能，并有潜力发现意想不到的偏见。",
+    "tldr": "论文探索了纹理学习的关键，通过纹理-对象关联揭示了卷积神经网络中纹理和对象类别之间关系的新见解，并提出纹理学习对于解释性方法的新可能性和发现意想不到偏见的潜力。",
+    "en_tdlr": "The paper explores the key of texture learning, revealing new insights into the relationship between textures and object classes in CNNs through texture-object associations, and suggesting new possibilities for interpretability methods and uncovering the potential for unexpected biases in texture learning."
+}

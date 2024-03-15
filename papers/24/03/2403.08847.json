@@ -1,0 +1,12 @@
+{
+    "title": "JAXbind: Bind any function to JAX",
+    "abstract": "arXiv:2403.08847v1 Announce Type: cross  Abstract: JAX is widely used in machine learning and scientific computing, the latter of which often relies on existing high-performance code that we would ideally like to incorporate into JAX. Reimplementing the existing code in JAX is often impractical and the existing interface in JAX for binding custom code requires deep knowledge of JAX and its C++ backend. The goal of JAXbind is to drastically reduce the effort required to bind custom functions implemented in other programming languages to JAX. Specifically, JAXbind provides an easy-to-use Python interface for defining custom so-called JAX primitives that support arbitrary JAX transformations.",
+    "link": "https://arxiv.org/abs/2403.08847",
+    "context": "Title: JAXbind: Bind any function to JAX\nAbstract: arXiv:2403.08847v1 Announce Type: cross  Abstract: JAX is widely used in machine learning and scientific computing, the latter of which often relies on existing high-performance code that we would ideally like to incorporate into JAX. Reimplementing the existing code in JAX is often impractical and the existing interface in JAX for binding custom code requires deep knowledge of JAX and its C++ backend. The goal of JAXbind is to drastically reduce the effort required to bind custom functions implemented in other programming languages to JAX. Specifically, JAXbind provides an easy-to-use Python interface for defining custom so-called JAX primitives that support arbitrary JAX transformations.",
+    "path": "papers/24/03/2403.08847.json",
+    "total_tokens": 686,
+    "translated_title": "JAXbind: 将任何函数绑定到JAX",
+    "translated_abstract": "JAX被广泛应用在机器学习和科学计算中，后者经常依赖于现有的高性能代码，我们希望能够将其纳入JAX中。重新在JAX中实现现有代码通常是不现实的，而JAX中用于绑定自定义代码的现有接口需要对JAX及其C++后端有深入了解。JAXbind的目标是大大减少将其他编程语言中实现的自定义函数绑定到JAX所需的工作量。具体而言，JAXbind提供了一个易于使用的Python接口，用于定义支持任意JAX转换的自定义所谓JAX原语。",
+    "tldr": "JAXbind旨在大幅减少将其他编程语言中实现的自定义函数绑定到JAX所需的工作量，提供易于使用的Python接口定义自定义JAX原语。",
+    "en_tdlr": "JAXbind aims to significantly reduce the effort required to bind custom functions implemented in other programming languages to JAX, providing an easy-to-use Python interface for defining custom JAX primitives that support arbitrary JAX transformations."
+}

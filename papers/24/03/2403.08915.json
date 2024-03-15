@@ -1,0 +1,11 @@
+{
+    "title": "Cross-Modal Learning of Housing Quality in Amsterdam",
+    "abstract": "arXiv:2403.08915v1 Announce Type: cross  Abstract: In our research we test data and models for the recognition of housing quality in the city of Amsterdam from ground-level and aerial imagery. For ground-level images we compare Google StreetView (GSV) to Flickr images. Our results show that GSV predicts the most accurate building quality scores, approximately 30% better than using only aerial images. However, we find that through careful filtering and by using the right pre-trained model, Flickr image features combined with aerial image features are able to halve the performance gap to GSV features from 30% to 15%. Our results indicate that there are viable alternatives to GSV for liveability factor prediction, which is encouraging as GSV images are more difficult to acquire and not always available.",
+    "link": "https://arxiv.org/abs/2403.08915",
+    "context": "Title: Cross-Modal Learning of Housing Quality in Amsterdam\nAbstract: arXiv:2403.08915v1 Announce Type: cross  Abstract: In our research we test data and models for the recognition of housing quality in the city of Amsterdam from ground-level and aerial imagery. For ground-level images we compare Google StreetView (GSV) to Flickr images. Our results show that GSV predicts the most accurate building quality scores, approximately 30% better than using only aerial images. However, we find that through careful filtering and by using the right pre-trained model, Flickr image features combined with aerial image features are able to halve the performance gap to GSV features from 30% to 15%. Our results indicate that there are viable alternatives to GSV for liveability factor prediction, which is encouraging as GSV images are more difficult to acquire and not always available.",
+    "path": "papers/24/03/2403.08915.json",
+    "total_tokens": 795,
+    "translated_title": "阿姆斯特丹住房质量的跨模态学习",
+    "translated_abstract": "在我们的研究中，我们测试了从地面和空中图像识别阿姆斯特丹城市住房质量的数据和模型。对于地面图像，我们比较了谷歌街景图（GSV）和Flickr图像。我们的研究结果显示，GSV能够预测最准确的建筑质量分数，比单独使用空中图像提高了约30%。然而，我们发现通过仔细筛选并使用正确的预训练模型，Flickr图像特征与空中图像特征相结合能够将性能差距从30%降低到15%。我们的结果表明，对于生活质量因素预测，存在可行的GSV替代方案，这是一个鼓舞人心的消息，因为GSV图像更难获取并且并非总是可用的。",
+    "tldr": "通过认真筛选和合适的预训练模型，Flickr图像特征与空中图像特征相结合能够将性能差距从30%降低到15%"
+}

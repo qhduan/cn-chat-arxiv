@@ -1,0 +1,12 @@
+{
+    "title": "Clinical Reasoning over Tabular Data and Text with Bayesian Networks",
+    "abstract": "arXiv:2403.09481v1 Announce Type: new  Abstract: Bayesian networks are well-suited for clinical reasoning on tabular data, but are less compatible with natural language data, for which neural networks provide a successful framework. This paper compares and discusses strategies to augment Bayesian networks with neural text representations, both in a generative and discriminative manner. This is illustrated with simulation results for a primary care use case (diagnosis of pneumonia) and discussed in a broader clinical context.",
+    "link": "https://arxiv.org/abs/2403.09481",
+    "context": "Title: Clinical Reasoning over Tabular Data and Text with Bayesian Networks\nAbstract: arXiv:2403.09481v1 Announce Type: new  Abstract: Bayesian networks are well-suited for clinical reasoning on tabular data, but are less compatible with natural language data, for which neural networks provide a successful framework. This paper compares and discusses strategies to augment Bayesian networks with neural text representations, both in a generative and discriminative manner. This is illustrated with simulation results for a primary care use case (diagnosis of pneumonia) and discussed in a broader clinical context.",
+    "path": "papers/24/03/2403.09481.json",
+    "total_tokens": 610,
+    "translated_title": "基于贝叶斯网络的表格数据和文本的临床推理",
+    "translated_abstract": "贝叶斯网络非常适合用于处理表格数据进行临床推理，但对于自然语言数据来说却不够兼容，而神经网络则为处理自然语言数据提供了成功的框架。本文比较并讨论了如何以生成性和判别性方式增强贝叶斯网络与神经文本表示，结合模拟结果以一个基础医疗案例（肺炎诊断）进行说明，并在更广泛的临床背景下进行讨论。",
+    "tldr": "本文比较和讨论了如何将贝叶斯网络与神经文本表示相结合，以改进临床推理，特别是在处理自然语言数据方面。",
+    "en_tdlr": "This paper compares and discusses strategies to augment Bayesian networks with neural text representations for clinical reasoning, especially in handling natural language data."
+}

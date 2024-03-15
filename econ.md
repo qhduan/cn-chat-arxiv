@@ -2,262 +2,292 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Invalid proxies and volatility changes](https://arxiv.org/abs/2403.08753) | 在代理SVARs中，当外部永久突破导致目标脉冲响应函数随波动率体制变化时，必须明确纳入无条件波动的变化，以点辨识目标结构性冲击并恢复一致性。 |
-| [^2] | [Path-dependency of capital return in periodic growth processes](https://arxiv.org/abs/2403.08678) | 本研究发现，在周期性增长过程中，资本化的期望值取决于路径，从而导致资本的回报率和时间平均回报率取决于路径，且内部收益率与资本回报率的期望值不同。 |
-| [^3] | [The social value of overreaction to information](https://arxiv.org/abs/2403.08532) | 信息过度反应在市场中可能带来负面影响，但在某些情况下能提升福利，这取决于信息外部性和货币外部性的竞争关系。 |
-| [^4] | [Measures of relevance to the success of streaming platforms](https://arxiv.org/abs/2403.08421) | 本文衡量每位贡献者对流媒体平台整体成功的相关性，提出了三种相关性度量方法，并基于不同的原则为收入分配提供规范基础。 |
-| [^5] | [A vicious cycle along busy bus corridors and how to abate it](https://arxiv.org/abs/2403.08230) | 公交走廊上形成的恶性循环会导致公交车头车间隔的不断增大，延误逐渐积累，采用一种简单的释放策略可以有效减轻公交车延误。 |
-| [^6] | [Causal Interpretation of Estimands Defined by Exposure Mappings](https://arxiv.org/abs/2403.08183) | 该论文研究了在对相互干扰施加弱限制条件时因果解释估计量的问题，并提出了用于因果可解释性的符号保留标准。 |
-| [^7] | [Algorithmic Information Disclosure in Optimal Auctions](https://arxiv.org/abs/2403.08145) | 该研究提出了一个多项式时间逼近方案，用于求解在最优拍卖中进行联合设计时的信号结构和分配规则设计问题，该方法可减少代理人获取信息租金并保证最佳福利的至少$1 - \frac{1}{e}$的收入。 |
-| [^8] | [Imputation of Counterfactual Outcomes when the Errors are Predictable](https://arxiv.org/abs/2403.08130) | 提出了一种当误差相关时的潜在结果的改进预测器，不限于线性模型，可改善大类强混合误差过程的均方误差。 |
-| [^9] | [Tournament Auctions](https://arxiv.org/abs/2403.08102) | 分析了“锦标赛”二价拍卖中的意外结果，发现在均衡状态下前$N$个竞标者一贯出价超过其价值，当第$N+1$个竞标者足够强大时，过度出价会增加预期收入。 |
-| [^10] | [Score-based mechanisms](https://arxiv.org/abs/2403.08031) | 提出了一个机制设计框架，该框架结合了软信息和半硬信息，应用于学校选择、公共住房、器官移植和分类算法等领域，经典机制类将硬信息的提交与基于得分的决策规则相结合。 |
-| [^11] | [Strategic Bidding in Knapsack Auctions](https://arxiv.org/abs/2403.07928) | 本文研究了具有私人信息的背包问题，通过研究三种实际拍卖作为交易规则的可能候选项，揭示了在这种设置下的竞标行为、收入和效率。 |
-| [^12] | [SACR\'E BLEU: Self-Assessed Creator Royalties \'Enforced by Balancing Liquidity Estimation & Utility (A formal definition and analysis of Ethereum Request for Comment ERC-7526)](https://arxiv.org/abs/2403.07896) | 提出了一种激励兼容机制，通过平衡流动性估计和实用性，可以在全额支付版税的同时保持对ERC-721的兼容性。 |
-| [^13] | [Two-Person adversarial games are zero-sum: A resolution of the Luce-Raiffa-Aumann (LRA) conjecture](https://arxiv.org/abs/2403.04029) | 该论文通过将两个社区汇聚在对抗游戏的总纲下，重新表述了有关两人对抗游戏的定理，并连接了策略零和游戏和多线性收益的n人游戏的公理化。 |
-| [^14] | [On the Performance of the Neyman Allocation with Small Pilots](https://arxiv.org/abs/2206.04643) | 小样本试点研究中, 涅曼分配可能导致对于平均因果效应的估计具有比平衡随机化更高的渐近方差，特别是在结果变量相对均方差或高峰度时。 |
-| [^15] | [Quantal Response Equilibrium and Rationalizability: Inside the Black Box](https://arxiv.org/abs/2106.16081) | 该论文通过研究定量反应均衡的认识基础，提出了$\Delta^p$-合理性和$\Delta^M$-合理性这两个解决方案概念，分别包含了从QRE和基于排名的选择均衡导出的行动分布。 |
-| [^16] | [Survey calibration for causal inference: a simple method to balance covariate distributions.](http://arxiv.org/abs/2310.11969) | 本文提出一种简单的方法用于平衡因果推断中观察性研究中的协变量分布，通过修改熵平衡方法和协变量平衡倾向评分方法实现对处理组和对照组的分布平衡。 |
-| [^17] | [An unexpected stochastic dominance: Pareto distributions, catastrophes, and risk exchange.](http://arxiv.org/abs/2208.08471) | 本文研究发现，加权平均iid极重尾Pareto损失在第一顺序随机优势意义下大于单一损失。通过均衡分析证明，多样化将增加组合风险，拥有极重尾Pareto损失的参与者在市场均衡中将不会分享风险。 |
+| [^1] | [Artificial Bugs for Crowdsearch](https://arxiv.org/abs/2403.09484) | 通过插入人工虫子来增加寻找真实（有机）虫子的激励，最少插入一个人工虫子即可带来效率提升，特别适用于设计者重视有机虫子发现或悬赏预算有限的情况。 |
+| [^2] | [Climate Immobility Traps: A Household-Level Test](https://arxiv.org/abs/2403.09470) | 分析结果揭示了农户对气象异常的迁移结果受到冲击前资产水平、适应能力和累积冲击暴露的影响，表明贫困陷阱与气候诱发的固化移动陷阱交织存在。 |
+| [^3] | [Global Shipyard Capacities Limiting the Ramp-Up of Global Hydrogen-based Transportation](https://arxiv.org/abs/2403.09272) | 全球造船厂容量限制了全球氢基交通的扩展，研究发现如果仅依赖液氢可能会出现瓶颈问题，可以通过增加本地氢气生产、利用管道或使用液氨规避这一问题 |
+| [^4] | [Zonal vs. Nodal Pricing: An Analysis of Different Pricing Rules in the German Day-Ahead Market](https://arxiv.org/abs/2403.09265) | 德国电力市场研究了区域和节点定价模型的比较，发现不同配置下的平均价格差异小，总成本相似。 |
+| [^5] | [News Media as Suppliers of Narratives (and Information)](https://arxiv.org/abs/2403.09155) | 通过提供信息和叙事，新闻媒体塑造消费者的信念，最大化消费者的参与度，并在面对消费者异质性时创造极化信念。 |
+| [^6] | [Study on Standardizing Working Time: A Case of XYZ Retail Store in Bandung, Indonesia](https://arxiv.org/abs/2403.09138) | 这项研究旨在通过标准化工作时间来找出和减少工作场所中的浪费动作和时间，通过实验发现X牛奶产品的展示流程存在多处时间偏差，而Y面包的展示过程也需要有一个标准的工作时间。 |
+| [^7] | [Entangled vs. Separable Choice](https://arxiv.org/abs/2403.09045) | 这项研究探讨了描述两个决策者行为的联合概率选择规则，发现存在可以满足可分离限制但不可分离的纠缠选择规则，这一结果对规则的限制性质进行了深入探讨。 |
+| [^8] | [Language-based game theory in the age of artificial intelligence](https://arxiv.org/abs/2403.08944) | 最近的实验研究揭示了语言内容显著影响决策，促使从基于结果转向基于语言的效用函数的范式转变。 |
+| [^9] | [Measuring the bioeconomy economically: exploring the connections between concepts, methods, data, indicators and their limitations](https://arxiv.org/abs/2403.08886) | 通过文献综述和内容分析，本研究定义了生物经济概念，探讨了在经济学角度衡量生物经济时概念、方法、数据和指标之间的联系，以及相关的限制。 |
+| [^10] | [Valuation of Power Purchase Agreements for Corporate Renewable Energy Procurement](https://arxiv.org/abs/2403.08846) | 提出一种将基本电力市场模型的逻辑与统计学习技术相结合的新方法，用于估计不同技术的边际成本。 |
+| [^11] | [Fuzzy Classification Aggregation](https://arxiv.org/abs/2402.17620) | 对于模糊分类问题，我们证明了满足弱一致性条件的独立聚合规则属于加权算术平均数的家族，并给出了$m= p= 2$的特征化结果。 |
+| [^12] | [Community Enforcement with Endogenous Records](https://arxiv.org/abs/2401.00839) | 社区在匿名随机匹配下，通过内生记录实现强制执行，发现玩家行动的互补性可能削弱他们维持合作的能力。 |
+| [^13] | [Comparative statics with adjustment costs and the le Chatelier principle](https://arxiv.org/abs/2206.00347) | 基于单调比较静态分析，证明了勒夏特列原理，即在序补完性假设下，如果短期调整受到单调成本影响，则长期对冲击的响应大于短期响应。 |
+| [^14] | [The method of Enestr\"om and Phragm\'en for parliamentary elections by means of approval voting](https://arxiv.org/abs/1907.10590) | Enestr\"om和Phragm\'en的议会选举方法是一种从封闭名单到开放名单的最大余数法的扩展，或者是将单一可转移选票方法调整为批准投票而不是优先投票。 |
+| [^15] | [Sophisticated and small versus simple and sizeable: When does it pay off to introduce drifting coefficients in Bayesian VARs?](https://arxiv.org/abs/1711.00564) | 该研究通过预测实验发现，对于小数据集，引入漂移系数的复杂模型更有价值，而对于庞大数据集，简单模型表现更好。通过引入新的收缩先验，可以兼顾两者的优点，并得到有竞争力的预测结果。 |
+| [^16] | [Temporary exclusion in repeated contests.](http://arxiv.org/abs/2401.06257) | 该论文研究了在重复比赛中采用临时排除的解决方案，通过排除上一期被拒绝或申请的代理人，在资源分配和错误分配方面取得了良好的效果。 |
+| [^17] | [Generative AI enhances individual creativity but reduces the collective diversity of novel content.](http://arxiv.org/abs/2312.00506) | 生成AI增强了个体创造力，但降低了新内容的集体多样性。 |
+| [^18] | [Inequality of Opportunity and Income Redistribution.](http://arxiv.org/abs/2209.00534) | 本研究研究了在对机会和结果影响的运气不确定情况下，人们如何重新分配收入，发现当有幸运机会时，参与者重新分配的力度较小。 |
+| [^19] | [Reducing Marketplace Interference Bias Via Shadow Prices.](http://arxiv.org/abs/2205.02274) | 这项工作提出了在市场干扰存在的情况下运行标准实验并获得无偏估计的技术。通过优化估计全局治疗和全局对照的价值，并比较治疗组和影子价格的平均值，实现了降低市场干扰偏差。 |
 
 # 详细
 
-[^1]: 无效的代理和波动变化
+[^1]: 用于众包搜索的人工虫子
 
-    Invalid proxies and volatility changes
+    Artificial Bugs for Crowdsearch
 
-    [https://arxiv.org/abs/2403.08753](https://arxiv.org/abs/2403.08753)
+    [https://arxiv.org/abs/2403.09484](https://arxiv.org/abs/2403.09484)
 
-    在代理SVARs中，当外部永久突破导致目标脉冲响应函数随波动率体制变化时，必须明确纳入无条件波动的变化，以点辨识目标结构性冲击并恢复一致性。
-
-    
-
-    当在代理SVARs中，VAR扰动的协方差矩阵受到外生、永久、非重复性突破的影响，从而产生随着波动率体制变化而变化的目标脉冲响应函数(IRFs)时，即使是强大的外生外部工具也可能导致对所感兴趣的动态因果效应的估计值不一致，如果不适当考虑这些突破。在这种情况下，必须明确地将无条件波动的变化纳入考虑，以便点辨识出目标结构冲击并可能恢复一致性。我们证明，在利用波动性变化所暗示的瞬时时刻的必要充分秩条件下，目标IRFs可以被点辨识并一致估计。重要的是，标准渐近推断在这种情况下仍然是有效的，尽管(I)代理和被工具化的结构性冲击之间的协方差是接近于零，就像Stai中的情况一样。
-
-    arXiv:2403.08753v1 Announce Type: new  Abstract: When in proxy-SVARs the covariance matrix of VAR disturbances is subject to exogenous, permanent, nonrecurring breaks that generate target impulse response functions (IRFs) that change across volatility regimes, even strong, exogenous external instruments can result in inconsistent estimates of the dynamic causal effects of interest if the breaks are not properly accounted for. In such cases, it is essential to explicitly incorporate the shifts in unconditional volatility in order to point-identify the target structural shocks and possibly restore consistency. We demonstrate that, under a necessary and sufficient rank condition that leverages moments implied by changes in volatility, the target IRFs can be point-identified and consistently estimated. Importantly, standard asymptotic inference remains valid in this context despite (i) the covariance between the proxies and the instrumented structural shocks being local-to-zero, as in Stai
-    
-[^2]: 资本回报在周期性增长过程中的路径依赖性研究
-
-    Path-dependency of capital return in periodic growth processes
-
-    [https://arxiv.org/abs/2403.08678](https://arxiv.org/abs/2403.08678)
-
-    本研究发现，在周期性增长过程中，资本化的期望值取决于路径，从而导致资本的回报率和时间平均回报率取决于路径，且内部收益率与资本回报率的期望值不同。
+    通过插入人工虫子来增加寻找真实（有机）虫子的激励，最少插入一个人工虫子即可带来效率提升，特别适用于设计者重视有机虫子发现或悬赏预算有限的情况。
 
     
 
-    研究了周期性增长过程。根据应计基础，利润率的期望值既不直接取决于减值，也不取决于资本化路径。资本化的期望值是路径依赖的。由于依赖路径的资本化，资本的回报率也是路径依赖的，而资本的时间平均回报率与增长周期的期望值回报率不同。在没有中间减值的情况下，内部收益率是路径无关的，因此与资本回报率的期望值不同。结果表明，使权益回报率最大化的旋转周期长度与市场利率无关。杠杆效应通过一个单独的杠杆方程进入增长过程的微观经济学中，杠杆系数可能达到正值或负值。
+    Bug悬赏计划已经成为公司改善系统的重要工具，我们建议通过插入人工虫子来增加寻找真实（有机）虫子的激励。使用众包搜索模型，我们确定了人工虫子带来的效率提升，并且展示了为此只需要插入一个人工虫子即可。人工虫子特别有益，例如，如果设计者非常重视发现有机虫子，或者悬赏预算不够高。我们讨论了如何实施人工虫子并概述了它们的进一步好处。
 
-    arXiv:2403.08678v1 Announce Type: new  Abstract: Periodic growth processes are investigated. The expected value of the profit rate, on accrual basis, does not directly depend on divestments, neither on the capitalization path. The expected value of capitalization is path dependent. Because of the path-dependent capitalization, the return rate on capital is path-dependent, and the time-average return rate on capital differs from the expected-value return rate on capital for the growth cycle. In the absence of intermediate divestments, the internal rate of return is path-independent, thereby differing from the expected value of the rate of return on capital. It is shown that the rotation cycle length maximizing the return rate on equity is independent of market interest rate. Leveraging effect enters the microeconomics of the growth processes through a separate leveraging equation, where the leverage coefficient may reach positive or negative values. Correspondingly, from the viewpoint o
+    arXiv:2403.09484v1 Announce Type: new  Abstract: Bug bounty programs, where external agents are invited to search and report vulnerabilities (bugs) in exchange for rewards (bounty), have become a major tool for companies to improve their systems. We suggest augmenting such programs by inserting artificial bugs to increase the incentives to search for real (organic) bugs. Using a model of crowdsearch, we identify the efficiency gains by artificial bugs, and we show that for this, it is sufficient to insert only one artificial bug. Artificial bugs are particularly beneficial, for instance, if the designer places high valuations on finding organic bugs or if the budget for bounty is not sufficiently high. We discuss how to implement artificial bugs and outline their further benefits.
     
-[^3]: 对信息过度反应的社会价值
+[^2]: 气候固化陷阱：家庭层面的检测
 
-    The social value of overreaction to information
+    Climate Immobility Traps: A Household-Level Test
 
-    [https://arxiv.org/abs/2403.08532](https://arxiv.org/abs/2403.08532)
+    [https://arxiv.org/abs/2403.09470](https://arxiv.org/abs/2403.09470)
 
-    信息过度反应在市场中可能带来负面影响，但在某些情况下能提升福利，这取决于信息外部性和货币外部性的竞争关系。
-
-    
-
-    我们研究了在存在不对称信息的市场中，以诊断性期望的形式对信息过度反应对福利的影响，以及一项简单干预（如税收或补贴）的效果。足够高水平的信息过度反应总是会减少福利，并且可以合理化对金融交易征税。对私人信息的轻微过度反应可能会增加或减少福利。这是因为存在着两种竞争性外部性：信息外部性，由于价格的信息传递作用，和货币外部性，由于价格的配置作用。当信息外部性占上风，超越了货币外部性时，代理人交易中对私人信息的负载相对于福利最优值太小：在这种情况下，轻微过度反应有助于提高福利。
-
-    arXiv:2403.08532v1 Announce Type: new  Abstract: We study the welfare effects of overreaction to information in the form of diagnostic expectations in markets with asymmetric information, and the effect of a simple intervention in the form of a tax or a subsidy. A large enough level of overreaction is always welfare-decreasing and can rationalize a tax on financial transactions. A small degree of overreaction to private information can both increase or decrease welfare. This is because there are two competing externalities: an information externality, due to the informational role of prices, and a pecuniary externality, due to the allocative role of prices. When the information externality prevails on the pecuniary externality, the loading on private information in agents' trades is too small compared to the welfare optimum: in this case, a small degree of overreaction is welfare-improving.
-    
-[^4]: 流媒体平台成功度量的相关性
-
-    Measures of relevance to the success of streaming platforms
-
-    [https://arxiv.org/abs/2403.08421](https://arxiv.org/abs/2403.08421)
-
-    本文衡量每位贡献者对流媒体平台整体成功的相关性，提出了三种相关性度量方法，并基于不同的原则为收入分配提供规范基础。
+    分析结果揭示了农户对气象异常的迁移结果受到冲击前资产水平、适应能力和累积冲击暴露的影响，表明贫困陷阱与气候诱发的固化移动陷阱交织存在。
 
     
 
-    数字流媒体平台，包括Twitch、Spotify、Netflix、Disney和Kindle，已成为具有显著增长潜力的主要娱乐来源。许多平台根据它们的影响程度在流媒体、艺术家、制作人或作家之间分配版税。本文衡量了每位贡献者对于平台整体成功的相关性，这些信息可以在收入分配中发挥关键作用。我们进行了公理分析，为三个相关性度量提供了规范基础：均匀、比例和订阅者比例指标。最后两个指标实施了所谓的按比例和用户中心模型，这在音乐流媒体市场中被广泛应用以分配收入。我们提出的公理形式化了不同的公平、稳定和不可操纵性原则，并专门为流媒体内容定制。
+    气候冲击、迁移和适应之间的复杂关系妨碍了对暴露于气候风险的农户异质性迁移结果的深刻理解。为了解开这种异质性，分析将尼日利亚的纵向多主题家庭调查数据与定制的因果机器学习方法相结合，以一个桥接经济迁移理论和贫困陷阱文献的概念框架为基础。结果显示，冲击前资产水平、现场适应能力和累积冲击暴露驱动了农户迁移结果对农业相关气象异常影响的大小和影响符号。尽管当地适应充当了迁移的替代品，但财富约束和重复冲击暴露所扮演的角色表明存在气候诱发的固化移动陷阱。
 
-    arXiv:2403.08421v1 Announce Type: new  Abstract: Digital streaming platforms, including Twitch, Spotify, Netflix, Disney, and Kindle, have emerged as one of the main sources of entertainment with significant growth potential. Many of these platforms distribute royalties among streamers, artists, producers, or writers based on their impact. In this paper, we measure the relevance of each of these contributors to the overall success of the platform, which is information that can play a key role in revenue allocation. We perform an axiomatic analysis to provide normative foundations for three relevance metrics: the uniform, the proportional, and the subscriber-proportional indicators. The last two indicators implement the so-called pro-rata and user-centric models, which are extensively applied to distribute revenues in the music streaming market. The axioms we propose formalize different principles of fairness, stability, and non-manipulability, and are tailor-made for the streaming cont
+    arXiv:2403.09470v1 Announce Type: new  Abstract: The complex relationship between climate shocks, migration, and adaptation hampers a rigorous understanding of the heterogeneous mobility outcomes of farm households exposed to climate risk. To unpack this heterogeneity, the analysis combines longitudinal multi-topic household survey data from Nigeria with a causal machine learning approach, tailored to a conceptual framework bridging economic migration theory and the poverty traps literature. The results show that pre-shock asset levels, in situ adaptive capacity, and cumulative shock exposure drive not just the magnitude but also the sign of the impact of agriculture-relevant weather anomalies on the mobility outcomes of farming households. While local adaptation acts as a substitute for migration, the roles played by wealth constraints and repeated shock exposure suggest the presence of climate-induced immobility traps.
     
-[^5]: 沿繁忙公交走廊的恶性循环及其缓解方法
+[^3]: 限制全球氢基交通发展的全球造船厂容量问题
 
-    A vicious cycle along busy bus corridors and how to abate it
+    Global Shipyard Capacities Limiting the Ramp-Up of Global Hydrogen-based Transportation
 
-    [https://arxiv.org/abs/2403.08230](https://arxiv.org/abs/2403.08230)
+    [https://arxiv.org/abs/2403.09272](https://arxiv.org/abs/2403.09272)
 
-    公交走廊上形成的恶性循环会导致公交车头车间隔的不断增大，延误逐渐积累，采用一种简单的释放策略可以有效减轻公交车延误。
-
-    
-
-    我们揭示了一个以往未报告的恶性循环现象，即在走廊沿线的路边站点形成公交车队列时可以产生。被困在该循环中的公交车在从一个站点到另一个站点的行驶过程中，出现头way的变化。公交车（以及乘客）的延误也以类似方式积累，并且在长距离、繁忙的走廊上可能会变得很大。我们展示了可以通过简单方式减轻这种有害循环的方法。目前的解决方案包括在走廊入口处暂停公交车，并按照文献中提出的各种策略释放它们。我们介绍了对最简单策略的一种小型变体。它以略小于或等于计划值的头车间隔释放公交车。事实证明，周期性地以稍少的头车间隔释放公交车可以大幅减少由于暂停而造成的公交车延误，因此在包含足够数量串行公交站点的走廊中，益处可以更快地超过成本。这种简单的变体已被证明
-
-    arXiv:2403.08230v1 Announce Type: new  Abstract: We unveil that a previously-unreported vicious cycle can be created when bus queues form at curbside stops along a corridor. Buses caught in this cycle exhibit growing variation in headways as they travel from stop to stop. Bus (and patron) delays accumulate in like fashion and can grow large on long, busy corridors. We show that this damaging cycle can be abated in simple ways. Present solutions entail holding buses at a corridor entrance and releasing them as per various strategies proposed in the literature. We introduce a modest variant to the simplest of these strategies. It releases buses at headways that are slightly less than, or equal to, the scheduled values. It turns out that periodically releasing buses at slightly smaller headways can substantially reduce bus delays caused by holding so that benefits can more readily outweigh costs in corridors that contain a sufficient number of serial bus stops. The simple variant is shown
-    
-[^6]: 由暴露映射定义的估计量的因果解释
-
-    Causal Interpretation of Estimands Defined by Exposure Mappings
-
-    [https://arxiv.org/abs/2403.08183](https://arxiv.org/abs/2403.08183)
-
-    该论文研究了在对相互干扰施加弱限制条件时因果解释估计量的问题，并提出了用于因果可解释性的符号保留标准。
+    全球造船厂容量限制了全球氢基交通的扩展，研究发现如果仅依赖液氢可能会出现瓶颈问题，可以通过增加本地氢气生产、利用管道或使用液氨规避这一问题
 
     
 
-    在存在相互干扰的情况下，通常利用由暴露映射定义的估计量来总结与个体相邻的治疗分配变化的影响。本文研究了在对相互干扰施加弱限制条件时它们的因果解释。我们证明在传统的识别条件下，这些估计量可能出现不可取的符号反转。这促使提出用于因果可解释性的符号保留标准。为满足首选标准，有必要对相互干扰施加约束，无论是在潜在结果还是在治疗选择中。我们提供了充分条件，并展示它们由一个允许在结果和选择阶段中存在复杂干扰形式的非参数模型满足。
+    解碳全球能源系统需要大规模扩展可再生能源技术。鉴于成本效益的可再生能源并不一定位于全球最大能源需求中心附近，因此需要进行低碳能源承运的海洋运输，如基于可再生能源的氢气或氨气。然而，现有造船厂是否具备提供必要的全球舰队所需容量尚未得到解答。因此，本研究根据全球氢气需求预测估算全球油轮需求，同时将这些预测与历史造船厂产量进行比较。我们的研究结果显示，如果仅仅依赖液氢，可能出现瓶颈问题，需等待至2033-2039年解决。这一瓶颈可以通过增加本地氢气生产、利用管道或将液氨作为氢气的能源承运者来规避。
 
-    arXiv:2403.08183v1 Announce Type: new  Abstract: In settings with interference, it is common to utilize estimands defined by exposure mappings to summarize the impact of variation in treatment assignments local to the ego. This paper studies their causal interpretation under weak restrictions on interference. We demonstrate that the estimands can exhibit unpalatable sign reversals under conventional identification conditions. This motivates the formulation of sign preservation criteria for causal interpretability. To satisfy preferred criteria, it is necessary to impose restrictions on interference, either in potential outcomes or selection into treatment. We provide sufficient conditions and show that they are satisfied by a nonparametric model allowing for a complex form of interference in both the outcome and selection stages.
+    arXiv:2403.09272v1 Announce Type: new  Abstract: Decarbonizing the global energy system requires significant expansions of renewable energy technologies. Given that cost-effective renewable sources are not necessarily situated in proximity to the largest energy demand centers globally, the maritime transportation of low-carbon energy carriers, such as renewable-based hydrogen or ammonia, will be needed. However, whether existent shipyards possess the required capacity to provide the necessary global fleet has not yet been answered. Therefore, this study estimates global tanker demand based on projections for global hydrogen demand, while comparing these projections with historic shipyard production. Our findings reveal a potential bottleneck until 2033-2039 if relying on liquefied hydrogen exclusively. This bottleneck could be circumvented by increasing local hydrogen production, utilizing pipelines, or liquefied ammonia as an energy carrier for hydrogen. Furthermore, the regional conc
     
-[^7]: 最优拍卖中的算法信息披露
+[^4]: 区域vs. 节点定价：德国日前市场不同定价规则的分析
 
-    Algorithmic Information Disclosure in Optimal Auctions
+    Zonal vs. Nodal Pricing: An Analysis of Different Pricing Rules in the German Day-Ahead Market
 
-    [https://arxiv.org/abs/2403.08145](https://arxiv.org/abs/2403.08145)
+    [https://arxiv.org/abs/2403.09265](https://arxiv.org/abs/2403.09265)
 
-    该研究提出了一个多项式时间逼近方案，用于求解在最优拍卖中进行联合设计时的信号结构和分配规则设计问题，该方法可减少代理人获取信息租金并保证最佳福利的至少$1 - \frac{1}{e}$的收入。
-
-    
-
-    本文研究了一个联合设计问题，其中卖方可以设计代理人学习其价值的信号结构，以及用于出售物品的分配和支付规则。在他的开创性工作中，Myerson（1981）展示了如何设计具有外生信号的最优拍卖。我们表明，当卖方还具有设计信号结构的能力时，该问题变得NP难解。我们的主要结果是一个多项式时间逼近方案（PTAS），可在预期收入中最多失去$\epsilon$的乘法性能的前提下计算最优联合设计。此外，我们表明在我们的联合设计问题中，卖方可以通过提供部分信息显著降低代理人的信息租金，这可以确保对于所有估值分布，其收入至少等于最优福利的$1 - \frac{1}{e}$。
-
-    arXiv:2403.08145v1 Announce Type: cross  Abstract: This paper studies a joint design problem where a seller can design both the signal structures for the agents to learn their values, and the allocation and payment rules for selling the item. In his seminal work, Myerson (1981) shows how to design the optimal auction with exogenous signals. We show that the problem becomes NP-hard when the seller also has the ability to design the signal structures. Our main result is a polynomial-time approximation scheme (PTAS) for computing the optimal joint design with at most an $\epsilon$ multiplicative loss in expected revenue. Moreover, we show that in our joint design problem, the seller can significantly reduce the information rent of the agents by providing partial information, which ensures a revenue that is at least $1 - \frac{1}{e}$ of the optimal welfare for all valuation distributions.
-    
-[^8]: 在错误可预测时对反事实结果进行插补
-
-    Imputation of Counterfactual Outcomes when the Errors are Predictable
-
-    [https://arxiv.org/abs/2403.08130](https://arxiv.org/abs/2403.08130)
-
-    提出了一种当误差相关时的潜在结果的改进预测器，不限于线性模型，可改善大类强混合误差过程的均方误差。
+    德国电力市场研究了区域和节点定价模型的比较，发现不同配置下的平均价格差异小，总成本相似。
 
     
 
-    因果推断的关键输入是插补的反事实结果。插补错误可能源自于使用未处理观测值估计预测模型的抽样不确定性，或源自未被模型捕捉的样本外信息。尽管文献集中于抽样不确定性，但它随着样本量消失。经常被忽视的是样本外误差如果是相互或序列相关的话，可能对缺失的反事实结果具有信息性。在时间序列设置中，受Goldberger (1962)的最佳线性无偏预测器（\blup）的启发，我们提出了一种改进的预测器，用于当误差相关时的潜在结果。所提出的\pup\;在实践中非常实用，因为它不限于线性模型，可以与已经开发的一致估计器一起使用，并改善了大类强混合误差过程的均方误差。
+    欧洲电力市场基于拥有统一日前价格的大型定价区域。能源转型导致供需变化和再调度成本增加。为了确保市场清算高效和拥塞管理，欧盟委员会委托进行出价区域审查（BZR）以重新评估欧洲出价区域的配置。基于BZR背景下公布的独特数据集，我们比较了德国电力市场的各种定价规则。我们比较了国内、区域和节点模型的市场清算和定价，包括它们的发电成本和相关的再调度成本。此外，我们研究了不同的非统一定价规则及其对德国电力市场的经济影响。我们的结果表明，不同区域的平均价格差异较小。不同配置下的总成本相似，降低了...
 
-    arXiv:2403.08130v1 Announce Type: new  Abstract: A crucial input into causal inference is the imputed counterfactual outcome.   Imputation error can arise because of sampling uncertainty from estimating the prediction model using the untreated observations, or from out-of-sample information not captured by the model. While the literature has focused on sampling uncertainty, it vanishes with the sample size. Often overlooked is the possibility that the out-of-sample error can be informative about the missing counterfactual outcome if it is mutually or serially correlated. Motivated by the best linear unbiased predictor (\blup) of \citet{goldberger:62} in a time series setting, we propose an improved predictor of potential outcome when the errors are correlated. The proposed \pup\; is practical as it is not restricted to linear models,   can be used with consistent estimators already developed, and improves mean-squared error for a large class of strong mixing error processes. Ignoring p
+    arXiv:2403.09265v1 Announce Type: new  Abstract: The European electricity market is based on large pricing zones with a uniform day-ahead price. The energy transition leads to shifts in supply and demand and increasing redispatch costs. In an attempt to ensure efficient market clearing and congestion management, the EU Commission has mandated the Bidding Zone Review (BZR) to reevaluate the configuration of European bidding zones. Based on a unique data set published in the context of the BZR, we compare various pricing rules for the German power market. We compare market clearing and pricing for national, zonal, and nodal models, including their generation costs and associated redispatch costs. Moreover, we investigate different non-uniform pricing rules and their economic implications for the German electricity market. Our results indicate that the differences in the average prices in different zones are small. The total costs across different configurations are similar and the reduct
     
-[^9]: 锦标赛拍卖
+[^5]: 新闻媒体作为叙事（和信息）的提供者
 
-    Tournament Auctions
+    News Media as Suppliers of Narratives (and Information)
 
-    [https://arxiv.org/abs/2403.08102](https://arxiv.org/abs/2403.08102)
+    [https://arxiv.org/abs/2403.09155](https://arxiv.org/abs/2403.09155)
 
-    分析了“锦标赛”二价拍卖中的意外结果，发现在均衡状态下前$N$个竞标者一贯出价超过其价值，当第$N+1$个竞标者足够强大时，过度出价会增加预期收入。
-
-    
-
-    我们研究了“锦标赛”二价拍卖，其中$N$个竞标者竞争权利参与第二阶段，并与第$N+1$个竞标者竞争。当前$N$个竞标者被承诺，在第二阶段他们的出价不能改变，分析结果得出了一些意想不到的结果。前$N$个竞标者在均衡状态下一贯出价超过其价值。当第$N+1$个竞标者比前$N$个竞标者强大到一定程度时，过度出价导致预期收入增加，与标准二价拍卖相比，当$N$很大时。
-
-    arXiv:2403.08102v1 Announce Type: new  Abstract: We examine ``tournament'' second-price auctions in which $N$ bidders compete for the right to participate in a second stage and contend against bidder $N+1$. When the first $N$ bidders are committed so that their bids cannot be changed in the second stage, the analysis yields some unexpected results. The first $N$ bidders consistently bid above their values in equilibrium. When bidder $N+1$ is sufficiently stronger than the first $N$, overbidding leads to an increase in expected revenue in comparison to the standard second-price auction when $N$ is large.
-    
-[^10]: 基于得分的机制
-
-    Score-based mechanisms
-
-    [https://arxiv.org/abs/2403.08031](https://arxiv.org/abs/2403.08031)
-
-    提出了一个机制设计框架，该框架结合了软信息和半硬信息，应用于学校选择、公共住房、器官移植和分类算法等领域，经典机制类将硬信息的提交与基于得分的决策规则相结合。
+    通过提供信息和叙事，新闻媒体塑造消费者的信念，最大化消费者的参与度，并在面对消费者异质性时创造极化信念。
 
     
 
-    我们提出了一个机制设计框架，该框架同时整合了可以自由操纵的软信息和需要付出成本才能篡改的半硬信息。该框架涵盖了诸如学校选择、公共住房、器官移植和分类算法操作等各种情境。我们首先为这些设置提供了一个经典的机制类。关键思想是将硬信息的提交视为可观察且与回报相关的行动，将机制的可契约部分视为从提交的分数到决策分布的映射（基于得分的决策规则）。每种类型的报告触发一个分数提交请求分布和一个决策规则分布。我们提供了基于分数的机制无损失的条件。换句话说，代理商在没有任何类型报告的情况下并且在没有中介者的情况下决定。
+    我们提出了一个新闻媒体模型，通过提供信息（关于外生状态的信号）和叙事（决定结果的模型）塑造消费者的信念。为了放大消费者的参与度，媒体最大化了消费者的预期效用。针对一类可分离的消费者偏好，我们展示了一个面对同质化消费者的垄断媒体平台提供一个虚假“赋权”叙事，并带有乐观偏见信号。消费者异质性导致了一个由于消费者之间的“数据外部性”而产生的新颖菜单设计问题。最优菜单包含多个叙事并创造了极化的信念。这些效应也在一个竞争的媒体市场模型中出现。
 
-    arXiv:2403.08031v1 Announce Type: new  Abstract: We propose a mechanism design framework that incorporates both soft information, which can be freely manipulated, and semi-hard information, which entails a cost for falsification. The framework captures various contexts such as school choice, public housing, organ transplant and manipulations of classification algorithms. We first provide a canonical class of mechanisms for these settings. The key idea is to treat the submission of hard information as an observable and payoff-relevant action and the contractible part of the mechanism as a mapping from submitted scores to a distribution over decisions (a score-based decision rule). Each type report triggers a distribution over score submission requests and a distribution over decision rules. We provide conditions under which score-based mechanisms are without loss of generality. In other words, situations under which the agent does not make any type reports and decides without a mediator
+    arXiv:2403.09155v1 Announce Type: new  Abstract: We present a model of news media that shape consumer beliefs by providing information (signals about an exogenous state) and narratives (models of what determines outcomes). To amplify consumers' engagement, media maximize consumers' anticipatory utility. Focusing on a class of separable consumer preferences, we show that a monopolistic media platform facing homogenous consumers provides a false "empowering" narrative coupled with an optimistically biased signal. Consumer heterogeneity gives rise to a novel menu-design problem due to a "data externality" among consumers. The optimal menu features multiple narratives and creates polarized beliefs. These effects also arise in a competitive media market model.
     
-[^11]: 针对背包拍卖的战略竞标
+[^6]: 标准化工作时间研究：印尼万隆市XYZ零售店的案例
 
-    Strategic Bidding in Knapsack Auctions
+    Study on Standardizing Working Time: A Case of XYZ Retail Store in Bandung, Indonesia
 
-    [https://arxiv.org/abs/2403.07928](https://arxiv.org/abs/2403.07928)
+    [https://arxiv.org/abs/2403.09138](https://arxiv.org/abs/2403.09138)
 
-    本文研究了具有私人信息的背包问题，通过研究三种实际拍卖作为交易规则的可能候选项，揭示了在这种设置下的竞标行为、收入和效率。
-
-    
-
-    在背包问题中，一组不可分割的对象，每个对象具有不同的价值和大小，必须被放入一个固定大小的背包中，以最大化总价值。即使在对价值和大小有完全信息的情况下，背包问题也被认为是一个NP难题。然而，在许多实际情况下，对象的价值是私人信息，这增加了另一个复杂维度。本文通过研究三种实际拍卖作为交易规则的可能候选项，探讨了具有私人信息的背包问题，在这种设置中，背包所有者通过拍卖将空间卖给对象所有者。这三种拍卖分别是歧视价格拍卖、广义第二价格拍卖和统一价格拍卖。通过使用一种贪婪算法来分配对象，我们使用理论、实验室实验和AI增强模拟，分析了这三种拍卖的竞标行为、收入和效率。
-
-    arXiv:2403.07928v1 Announce Type: cross  Abstract: In the Knapsack Problem a set of indivisible objects, each with different values and sizes, must be packed into a fixed-size knapsack to maximize the total value. The knapsack problem is known to be an NP-hard problem even when there is full information regarding values and sizes. In many real-world situations, however, the values of objects are private information, which adds another dimension of complexity. In this paper we examine the knapsack problem with private information by investigating three practical auctions as possible candidates for payment rules in a setup where the knapsack owner sells the space to object owners via an auction. The three auctions are the discriminatory price, the generalized second-price and the uniform-price auctions. Using a Greedy algorithm for allocating objects, we analyze bidding behavior, revenue and efficiency of these three auctions using theory, lab experiments, and AI-enriched simulations. Ou
-    
-[^12]: SACR\'E BLEU：通过平衡流动性估计和实用性强制执行的自我评估创作者版税（以太坊请求评论ERC-7526的形式定义和分析）
-
-    SACR\'E BLEU: Self-Assessed Creator Royalties \'Enforced by Balancing Liquidity Estimation & Utility (A formal definition and analysis of Ethereum Request for Comment ERC-7526)
-
-    [https://arxiv.org/abs/2403.07896](https://arxiv.org/abs/2403.07896)
-
-    提出了一种激励兼容机制，通过平衡流动性估计和实用性，可以在全额支付版税的同时保持对ERC-721的兼容性。
+    这项研究旨在通过标准化工作时间来找出和减少工作场所中的浪费动作和时间，通过实验发现X牛奶产品的展示流程存在多处时间偏差，而Y面包的展示过程也需要有一个标准的工作时间。
 
     
 
-    以太坊非同质化代币（NFT）的二级市场已经支付给创作者超过18亿美元作为销售税，通常称为创作者版税。尽管版税支付仅受社会契约的约束，但可预见的是，这样的激励结构导致零版税的替代品变得丰富，支付逐渐减少。针对版税强制执行的纯程序化解决方案受到当前NFT标准ERC-721的阻碍，因为ERC-721不了解销售价值，版税的执行因此依赖于（潜在不诚实的）第三方。因此，我们引入了一种激励兼容机制，其存在一个可理性化的解决方案，其中版税将被全额支付，同时保持完全的ERC-721兼容性。这种机制构成了ERC-7526的核心。
+    工作时间标准化有助于发现并减少工作场所中的浪费动作和时间，例如聊天、使用手机、休息不足或无效的任务。本研究旨在对从仓库到货架展示产品的流程进行规划，并计算和确定管理PT XYZ分公司运营部门负责展示X牛奶和Y面包的员工的标准工作时间。数据在三周内收集了六次，包括访谈和观察，并且对每种产品取样20个进行数据分析，例如数据充分性测试和控制图。发现了X牛奶产品展示流程中的几处时间偏差，几处观察日的不同活动中都有。而在展示Y面包的过程中，仅在第4个观察日发现了工作时间偏差，这证明该流程需要有一个标准的工作时间。
 
-    arXiv:2403.07896v1 Announce Type: cross  Abstract: The secondary market for Ethereum non-fungible tokens (NFTs) has resulted in over $1.8bn being paid to creators in the form of a sales tax commonly called creator royalties. This was despite royalty payments being enforced by no more than social contract alone. Predictably, such an incentive structure led to zero-royalty alternatives becoming abundant and payments dwindled. A purely programmatic solution to royalty enforcement is hampered by the prevailing NFT standard, ERC-721, which is ignorant of sale values and royalty enforcement therefore relies on (potentially dishonest) third parties. We thus introduce an incentive-compatible mechanism for which there is a single rationalisable solution, in which royalties are paid in full, while maintaining full ERC-721 compatibility. The mechanism constitutes the core of ERC-7526.
+    arXiv:2403.09138v1 Announce Type: new  Abstract: Work time standardization helps to find and reduce wasteful movements and time in the workplace, such as chatting, mobile phone use, insufficient rest, or unproductive tasks. This study aims to map the process of displaying products from the warehouse to the shelves and calculate and determine the standard working time of employees of the Operations Division of PT XYZ Branch who oversee displaying X Milk and Y Bread. The data was collected six times in three weeks, including interviews and observations, and took a sample of 20 pieces on each product to carry out data analysis such as data sufficiency tests and control charts. Several time deviations were found in the display process of X Milk products on all observation days in different activities. Whereas in the process of displaying Y Bread, only the deviation of working time was found on the 4th observation day, which proves that the process needs to have a standard working time so t
     
-[^13]: 两人对抗游戏是零和的：解决了卢斯-赖法-奥曼（LRA）猜想
+[^7]: 纠缠vs.可分离选择
 
-    Two-Person adversarial games are zero-sum: A resolution of the Luce-Raiffa-Aumann (LRA) conjecture
+    Entangled vs. Separable Choice
 
-    [https://arxiv.org/abs/2403.04029](https://arxiv.org/abs/2403.04029)
+    [https://arxiv.org/abs/2403.09045](https://arxiv.org/abs/2403.09045)
 
-    该论文通过将两个社区汇聚在对抗游戏的总纲下，重新表述了有关两人对抗游戏的定理，并连接了策略零和游戏和多线性收益的n人游戏的公理化。
-
-    
-
-    这封信件：（i）重新表述了Adler-Daskalakis-Papadimitriou（2009）和Raimondo（2023）关于两人对抗游戏的定理，将其作为带有简化证明的广义结果，（ii）连接了Moulin-Vial（1978）关于策略零和游戏的工作，以及Fishburn-Roberts（1976，1978）关于多线性收益的n人游戏的公理化。提供的简化和连接突出了Aumann（1961）、Shapley（1964）和Rosenthal（1974）研究的两人零和游戏，以及计算机科学领域的最新算法工作。我们通过将两个社区汇聚在对抗游戏的总纲下，为该主题提供了富有成效的重新定向。
-
-    arXiv:2403.04029v1 Announce Type: new  Abstract: This letter: (i) reformulates the theorems of Adler-Daskalakis-Papadimitriou (2009) and Raimondo (2023) on two-player adversarial games as a generalized result with a simplified proof, (ii) forges connections to work on strategically zero-sum games by Moulin-Vial (1978), and on axiomatizations of multi-linear utilities of n-person games by Fishburn-Roberts (1976, 1978). The simplification and the connections on offer give prominence to two-person zero-sum games studied by Aumann (1961), Shapley (1964) and Rosenthal (1974), and also to recent algorithmic work in computer science. We give a productive reorientation to the subject by bringing the two communities together under the rubric of adversarial games.
-    
-[^14]: 在小型试点实验中涅曼分配的性能
-
-    On the Performance of the Neyman Allocation with Small Pilots
-
-    [https://arxiv.org/abs/2206.04643](https://arxiv.org/abs/2206.04643)
-
-    小样本试点研究中, 涅曼分配可能导致对于平均因果效应的估计具有比平衡随机化更高的渐近方差，特别是在结果变量相对均方差或高峰度时。
+    这项研究探讨了描述两个决策者行为的联合概率选择规则，发现存在可以满足可分离限制但不可分离的纠缠选择规则，这一结果对规则的限制性质进行了深入探讨。
 
     
 
-    涅曼分配通常用于实验设计中，但大多数情况下假定研究人员可以获得大型试点研究，这可能并不现实。为了了解小型试点实验中涅曼分配的性质，我们在渐近框架下研究其行为，将试点大小固定，即使主要波浪的大小趋于无穷。我们的分析表明，涅曼分配可能导致对平均因果效应的估计具有比（非自适应的）平衡随机化更高的渐近方差。特别是，在结果变量相对均方差或高峰度时，会出现这种情况。我们提供一系列实证例子，展示这种情况在实践中是可能存在的。我们的结果表明，对于认为结果变量是均方差或重尾特性的研究人员，不应使用涅曼分配。我们进行了研究…
+    我们研究了描述两个决策者行为的联合概率选择规则，每个决策者面临可能不同的菜单。当这些选择规则可以分解为每个个体的自主选择，仅通过它们的个体概率选择规则相关联时，它们是可分离的。尽管最近对研究这种规则很感兴趣，但对它们的限制的完整刻画仍然是一个未解的问题。一个合理的猜想是，这种对可分离联合选择的限制可以分解成个人选择的限制。我们将这些限制命名为可分离的，并且证明了如果至少一个决策者的概率选择规则唯一地确定了对确定性选择规则的分布，则该猜想成立。否则，存在满足可分离限制但不可分离的纠缠选择规则。纠缠选择的可能性使得其特征化变得复杂。
 
-    arXiv:2206.04643v3 Announce Type: replace  Abstract: The Neyman Allocation is used in many papers on experimental design, which typically assume that researchers have access to large pilot studies. This may be unrealistic. To understand the properties of the Neyman Allocation with small pilots, we study its behavior in an asymptotic framework that takes pilot size to be fixed even as the size of the main wave tends to infinity. Our analysis shows that the Neyman Allocation can lead to estimates of the ATE with higher asymptotic variance than with (non-adaptive) balanced randomization. In particular, this happens when the outcome variable is relatively homoskedastic with respect to treatment status or when it exhibits high kurtosis. We provide a series of empirical examples showing that such situations can arise in practice. Our results suggest that researchers with small pilots should not use the Neyman Allocation if they believe that outcomes are homoskedastic or heavy-tailed. We exam
+    arXiv:2403.09045v1 Announce Type: new  Abstract: We study joint probabilistic choice rules that describe the behavior of two decision makers, each facing a possibly different menu. These choice rules are separable when they can be factored into autonomous choices from each individual solely correlated through their individual probabilistic choice rules. Despite recent interest in studying such rules, a complete characterization of the restrictions on them remains an open question. A reasonable conjecture is that such restrictions on separable joint choice can be factored into individual choice restrictions. We name these restrictions separable and show that this conjecture is true if and only if the probabilistic choice rule of at least one decision maker uniquely identifies the distribution over deterministic choice rules. Otherwise, entangled choice rules exist that satisfy separable restrictions yet are not separable. The possibility of entangled choice complicates the characterizat
     
-[^15]: 定量反应均衡和合理性：黑匣子内部
+[^8]: 人工智能时代的基于语言的博弈论
 
-    Quantal Response Equilibrium and Rationalizability: Inside the Black Box
+    Language-based game theory in the age of artificial intelligence
 
-    [https://arxiv.org/abs/2106.16081](https://arxiv.org/abs/2106.16081)
+    [https://arxiv.org/abs/2403.08944](https://arxiv.org/abs/2403.08944)
 
-    该论文通过研究定量反应均衡的认识基础，提出了$\Delta^p$-合理性和$\Delta^M$-合理性这两个解决方案概念，分别包含了从QRE和基于排名的选择均衡导出的行动分布。
-
-    
-
-    这篇论文旨在通过研究静态博弈中的定量反应均衡（QRE）的认识基础，将认识论和行为博弈理论联系起来。我们关注代理人对个性化收益冲击的概率分布有多少信息，除了合理性和共同信念合理性的标准假设之外。当这些分布是透明的时，我们得到一个称为$\Delta^p$-合理性的解决方案概念，其中包括从QRE导出的行动分布；我们还给出一个条件，根据这个条件，该关系成立。当代理人只有对这些分布单调性的共同信念（例如，极值分布）时，我们得到另一个解决方案概念，称为$\Delta^M$-合理性，其中包括从基于排名的选择均衡导出的行动分布，这是QRE的一个无参数变体。我们的解决方案概念还提供了
-
-    arXiv:2106.16081v3 Announce Type: replace  Abstract: This paper aims to connect epistemic and behavioral game theory by examining the epistemic foundations of quantal response equilibrium (QRE) in static games. We focus on how much information agents possess about the probability distributions of idiosyncratic payoff shocks, in addition to the standard assumptions of rationality and common belief in rationality. When these distributions are transparent, we obtain a solution concept called $\Delta^p$-rationalizability, which includes action distributions derived from QRE; we also give a condition under which this relationship holds true in reverse. When agents only have common belief in the monotonicity of these distributions (for example, extreme value distributions), we obtain another solution concept called $\Delta^M$-rationalizability, which includes action distributions derived from rank-dependent choice equilibrium, a parameter-free variant of QRE. Our solution concepts also provi
-    
-[^16]: 调查校准的因果推断方法：一种平衡协变量分布的简单方法
-
-    Survey calibration for causal inference: a simple method to balance covariate distributions. (arXiv:2310.11969v1 [stat.ME])
-
-    [http://arxiv.org/abs/2310.11969](http://arxiv.org/abs/2310.11969)
-
-    本文提出一种简单的方法用于平衡因果推断中观察性研究中的协变量分布，通过修改熵平衡方法和协变量平衡倾向评分方法实现对处理组和对照组的分布平衡。
+    最近的实验研究揭示了语言内容显著影响决策，促使从基于结果转向基于语言的效用函数的范式转变。
 
     
 
-    本文提出了一种基于观察性研究的因果推断的简单方法，用于平衡协变量的分布。该方法可以平衡任意数量的分位数（例如中位数、四分位数或十分位数），如果必要的话还可以平衡均值。所提出的方法基于校正估计器的理论（Deville和Sarndal，1992），尤其是Harms和Duchesne（2006）提出的分位数校准估计器。通过修改熵平衡方法和协变量平衡倾向评分方法，可以平衡处理组和对照组的分布。该方法不需要数值积分、核密度估计或对分布的任何假设；可以通过利用现有的渐近理论得到有效的估计。模拟研究的结果表明，该方法可以有效地估计被处理组的平均处理效应（ATT）、平均处理效应（ATE）和处理组的总处理效应（ATE）等。
+    理解决策问题和战略互动中的人类行为在经济学、心理学和人工智能领域具有广泛应用。博弈论提供了这种理解的坚实基础，其核心思想是个体旨在最大化效用函数。然而，影响策略选择的确切因素仍然难以捉摸。尽管传统模型试图将人类行为解释为可用行动结果的函数，但最近的实验研究表明，语言内容显著影响决策，因此促使从基于结果转向基于语言的效用函数的范式转变。鉴于生成式人工智能的进步，这种转变比以往任何时候都更加紧迫，后者有潜力通过基于语言的互动支持人类做出关键决策。我们提出情感分析作为这种转变的基础工具，并通过分析其...
 
-    This paper proposes a simple method for balancing distributions of covariates for causal inference based on observational studies. The method makes it possible to balance an arbitrary number of quantiles (e.g., medians, quartiles, or deciles) together with means if necessary. The proposed approach is based on the theory of calibration estimators (Deville and S\"arndal 1992), in particular, calibration estimators for quantiles, proposed by Harms and Duchesne (2006). By modifying the entropy balancing method and the covariate balancing propensity score method, it is possible to balance the distributions of the treatment and control groups. The method does not require numerical integration, kernel density estimation or assumptions about the distributions; valid estimates can be obtained by drawing on existing asymptotic theory. Results of a simulation study indicate that the method efficiently estimates average treatment effects on the treated (ATT), the average treatment effect (ATE), th
+    arXiv:2403.08944v1 Announce Type: cross  Abstract: Understanding human behaviour in decision problems and strategic interactions has wide-ranging applications in economics, psychology, and artificial intelligence. Game theory offers a robust foundation for this understanding, based on the idea that individuals aim to maximize a utility function. However, the exact factors influencing strategy choices remain elusive. While traditional models try to explain human behaviour as a function of the outcomes of available actions, recent experimental research reveals that linguistic content significantly impacts decision-making, thus prompting a paradigm shift from outcome-based to language-based utility functions. This shift is more urgent than ever, given the advancement of generative AI, which has the potential to support humans in making critical decisions through language-based interactions. We propose sentiment analysis as a fundamental tool for this shift and take an initial step by anal
     
-[^17]: 一个出乎意料的随机优势：帕累托分布、灾难和风险交换
+[^9]: 以经济学的角度衡量生物经济：探讨概念、方法、数据、指标及其限制之间的联系
 
-    An unexpected stochastic dominance: Pareto distributions, catastrophes, and risk exchange. (arXiv:2208.08471v2 [q-fin.RM] UPDATED)
+    Measuring the bioeconomy economically: exploring the connections between concepts, methods, data, indicators and their limitations
 
-    [http://arxiv.org/abs/2208.08471](http://arxiv.org/abs/2208.08471)
+    [https://arxiv.org/abs/2403.08886](https://arxiv.org/abs/2403.08886)
 
-    本文研究发现，加权平均iid极重尾Pareto损失在第一顺序随机优势意义下大于单一损失。通过均衡分析证明，多样化将增加组合风险，拥有极重尾Pareto损失的参与者在市场均衡中将不会分享风险。
+    通过文献综述和内容分析，本研究定义了生物经济概念，探讨了在经济学角度衡量生物经济时概念、方法、数据和指标之间的联系，以及相关的限制。
 
     
 
-    本文展示了一个或许令人惊讶的不等式：加权平均iid极重尾（即无穷大均值）的 Pareto 损失在第一顺序随机优势意义下大于单一损失。此结果被进一步推广到 Pareto 风险, 并在负相关、凸转换、随机求和和权重，以及灾难事件触发的损失背景下进行探讨。通过风险交换市场中的均衡分析，我们讨论了这些结果的几个影响。首先，极重尾 Pareto 损失的多样化增加了组合风险，因此存在多样化惩罚。其次，拥有极重尾 Pareto 损失的参与者将不会在市场均衡中分享风险。第三，将承担 Pareto 损失的参与者的损失转移到没有任何损失的外部方，可以实现使每一方都受益的均衡。我们的实证研究表明，我们的新不等式可以在实际数据中被观察到。
+    尽管衡量生物经济对国家经济的贡献具有重要意义，但仍面临着诸多限制，其中一部分困难源于缺乏明确和广泛认可的生物经济概念，这一点延伸至方法、数据和指标之间的关系。本研究旨在定义生物经济概念，并探讨在以经济学方式衡量生物经济时概念、方法、数据和指标之间的联系，以及这一过程中涉及的限制。生物经济概念是基于文献综述和对通过滚雪球程序选定的84份研究文献（用于衡量“生物经济有多大？”）的内容分析来定义的。这84份文档的内容被上传到QDA Miner软件，并根据生物经济概念、使用的方法或模型、访问的数据源、计算的指标进行编码。
 
-    We show the perhaps surprising inequality that the weighted average of iid extremely heavy-tailed (i.e., infinite mean) Pareto losses is larger than a standalone loss in the sense of first-order stochastic dominance. This result is further generalized to Pareto risks in the context of negative dependence, convex transformations, random summation and weights, and losses triggered by catastrophic events. We discuss several implications of these results via an equilibrium analysis in a risk exchange market. First, diversification of extremely heavy-tailed Pareto losses increases portfolio risk, and thus a diversification penalty exists. Second, agents with extremely heavy-tailed Pareto losses will not share risks in a market equilibrium. Third, transferring losses from agents bearing Pareto losses to external parties without any losses may arrive at an equilibrium which benefits every party involved. The empirical studies show that our new inequality can be observed empirically for real d
+    arXiv:2403.08886v1 Announce Type: new  Abstract: Despite its relevance, measuring the contributions of the bioeconomy to national economies remains an arduous task that faces limitations. Part of the difficulty is associated with the lack of a clear and widely accepted concept of the bioeconomy and moves on to the connections between methods, data and indicators. The present study aims to define the concepts of bioeconomy and to explore the connections between concepts, methods, data and indicators when measuring the bioeconomy economically, and the limitations involved in this process. The bioeconomy concepts were defined based on a literature review and a content analysis of 84 documents selected through snowballing procedures to find articles measuring 'how big is the bioeconomy?'. The content of the 84 documents was uploaded to the QDA Miner software and coded according to the bioeconomy concept, the methods or models used, the data sources accessed, the indicators calculated, and 
+    
+[^10]: 企业可再生能源采购的电力购买协议估值
+
+    Valuation of Power Purchase Agreements for Corporate Renewable Energy Procurement
+
+    [https://arxiv.org/abs/2403.08846](https://arxiv.org/abs/2403.08846)
+
+    提出一种将基本电力市场模型的逻辑与统计学习技术相结合的新方法，用于估计不同技术的边际成本。
+
+    
+
+    arXiv:2403.08846v1 发布类型: 新 公司可再生能源电力购买协议（PPAs）是长期合同，使公司能够购买可再生能源，而无需开发和运营自己的产能。通常，生产商和消费者就购买电力的固定单价达成协议。协议对买方的价值取决于所谓的捕捉价格，即固定价格与合同期间生产数量的市场价值之间的差异。为了模拟捕获价格，从业者通常使用基本或统计方法来模拟未来市场价格，这两者都具有固有局限性。我们提出了一种新的方法，将基本电力市场模型的逻辑与统计学习技术相结合。具体而言，我们在电力市场的二次基本自下而上模型中使用正则化逆优化来估计不同技术的边际成本。
+
+    arXiv:2403.08846v1 Announce Type: new  Abstract: Corporate renewable power purchase agreements (PPAs) are long-term contracts that enable companies to source renewable energy without having to develop and operate their own capacities. Typically, producers and consumers agree on a fixed per-unit price at which power is purchased. The value of the PPA to the buyer depends on the so called capture price defined as the difference between this fixed price and the market value of the produced volume during the duration of the contract. To model the capture price, practitioners often use either fundamental or statistical approaches to model future market prices, which both have their inherent limitations. We propose a new approach that blends the logic of fundamental electricity market models with statistical learning techniques. In particular, we use regularized inverse optimization in a quadratic fundamental bottom-up model of the power market to estimate the marginal costs of different tec
+    
+[^11]: 模糊分类聚合
+
+    Fuzzy Classification Aggregation
+
+    [https://arxiv.org/abs/2402.17620](https://arxiv.org/abs/2402.17620)
+
+    对于模糊分类问题，我们证明了满足弱一致性条件的独立聚合规则属于加权算术平均数的家族，并给出了$m= p= 2$的特征化结果。
+
+    
+
+    我们考虑一个问题，即一组个体必须将$m$个对象分类到$p$个类别中，并通过聚合个体分类来实现。我们证明，如果$m\geq 3$，$m\geq p\geq 2$，并且分类是模糊的，也就是说，对象属于某一类别的程度不同，则满足弱一致性条件的独立聚合规则属于加权算术平均数的家族。我们还获得了$m= p= 2$的特征化结果。
+
+    arXiv:2402.17620v1 Announce Type: new  Abstract: We consider the problem where a set of individuals has to classify $m$ objects into $p$ categories and does so by aggregating the individual classifications. We show that if $m\geq 3$, $m\geq p\geq 2$, and classifications are fuzzy, that is, objects belong to a category to a certain degree, then an independent aggregator rule that satisfies a weak unanimity condition belongs to the family of Weighted Arithmetic Means. We also obtain characterization results for $m= p= 2$.
+    
+[^12]: 具有内生记录的社区执行
+
+    Community Enforcement with Endogenous Records
+
+    [https://arxiv.org/abs/2401.00839](https://arxiv.org/abs/2401.00839)
+
+    社区在匿名随机匹配下，通过内生记录实现强制执行，发现玩家行动的互补性可能削弱他们维持合作的能力。
+
+    
+
+    我研究了在匿名随机匹配下的重复博弈，玩家可以擦除记录中的信号。当玩家寿命足够长且具有严格主导行动时，在所有均衡中，他们会几乎以概率1玩其主导行动。当玩家的预期寿命居中时，在次模博囚困境中存在一种可净化的均衡，其中合作的水平是正的，但在超模博囚困境中不存在。因此，一个社区可以维持的最大合作水平与玩家的预期寿命不是单调的，并且玩家行动的互补性可能会削弱他们维持合作的能力。
+
+    arXiv:2401.00839v2 Announce Type: replace  Abstract: I study repeated games with anonymous random matching where players can erase signals from their records. When players are sufficiently long-lived and have strictly dominant actions, they will play their dominant actions with probability close to one in all equilibria. When players' expected lifespans are intermediate, there exist purifiable equilibria with a positive level of cooperation in the submodular prisoner's dilemma but not in the supermodular prisoner's dilemma. Therefore, the maximal level of cooperation a community can sustain is not monotone with respect to players' expected lifespans and the complementarity in players' actions can undermine their abilities to sustain cooperation.
+    
+[^13]: 带调整成本和勒夏特列原理的比较静态分析
+
+    Comparative statics with adjustment costs and the le Chatelier principle
+
+    [https://arxiv.org/abs/2206.00347](https://arxiv.org/abs/2206.00347)
+
+    基于单调比较静态分析，证明了勒夏特列原理，即在序补完性假设下，如果短期调整受到单调成本影响，则长期对冲击的响应大于短期响应。
+
+    
+
+    我们发展了一个关于带有调整成本模型的单调比较静态分析理论。我们表明，在对目标函数的通常序补完性假设下，可以得出比较静态的结论，只需要对成本做出很少的假设：只需要一个温和的单调性条件。我们利用这一见解来证明一个一般的勒夏特列原理：在序补完性假设下，如果短期调整受到单调成本的影响，那么对冲击的长期响应将大于短期响应。我们将这些结果扩展到一个完全动态的随时间调整模型：勒夏特列原理仍然成立，并且在更强的假设下，最优调整遵循单调路径。我们将我们的结果应用于储蓄、生产、定价、劳动供给和投资模型。
+
+    arXiv:2206.00347v3 Announce Type: replace  Abstract: We develop a theory of monotone comparative statics for models with adjustment costs. We show that comparative-statics conclusions may be drawn under the usual ordinal complementarity assumptions on the objective function, assuming very little about costs: only a mild monotonicity condition is required. We use this insight to prove a general le Chatelier principle: under the ordinal complementarity assumptions, if short-run adjustment is subject to a monotone cost, then the long-run response to a shock is greater than the short-run response. We extend these results to a fully dynamic model of adjustment over time: the le Chatelier principle remains valid, and under slightly stronger assumptions, optimal adjustment follows a monotone path. We apply our results to models of saving, production, pricing, labor supply and investment.
+    
+[^14]: Enestr\"om和Phragm\'en的议会选举方法及其通过批准投票进行实施
+
+    The method of Enestr\"om and Phragm\'en for parliamentary elections by means of approval voting
+
+    [https://arxiv.org/abs/1907.10590](https://arxiv.org/abs/1907.10590)
+
+    Enestr\"om和Phragm\'en的议会选举方法是一种从封闭名单到开放名单的最大余数法的扩展，或者是将单一可转移选票方法调整为批准投票而不是优先投票。
+
+    
+
+    我们研究了一种比例代表制的方法，该方法是在19世纪末20世纪初由古斯塔夫·Enestr\"om和爱德华·Phragm\'en提出的。与Phragm\'en更为人所知的迭代最小最大化方法类似，假定选民通过批准投票表达自己的意见。然而，与迭代最小最大化方法相比，这里是通过确定定额开始的，即获得一席位所需的选票数。事实上，Enestr\"om和Phragm\'en的方法可以被看作是从封闭名单到开放名单的最大余数法的扩展，也可以被看作是将单一可转移选票方法调整为批准投票而不是优先投票。研究了该方法的特性，并与其他相似方法进行了比较。
+
+    arXiv:1907.10590v2 Announce Type: replace  Abstract: We study a method for proportional representation that was proposed at the turn from the nineteenth to the twentieth century by Gustav Enestr\"om and Edvard Phragm\'en. Like Phragm\'en's better-known iterative minimax method, it is assumed that the voters express themselves by means of approval voting. In contrast to the iterative minimax method, however, here one starts by fixing a quota, i.e. the number of votes that give the right to a seat. As a matter of fact, the method of Enestr\"om and Phragm\'en can be seen as an extension of the method of largest remainders from closed lists to open lists, or also as an adaptation of the single transferable vote to approval rather than preferential voting. The properties of this method are studied and compared with those of other methods of the same kind.
+    
+[^15]: 复杂而小的模型与简单而庞大的模型：何时引入漂移系数对贝叶斯VAR模型是有益的？
+
+    Sophisticated and small versus simple and sizeable: When does it pay off to introduce drifting coefficients in Bayesian VARs?
+
+    [https://arxiv.org/abs/1711.00564](https://arxiv.org/abs/1711.00564)
+
+    该研究通过预测实验发现，对于小数据集，引入漂移系数的复杂模型更有价值，而对于庞大数据集，简单模型表现更好。通过引入新的收缩先验，可以兼顾两者的优点，并得到有竞争力的预测结果。
+
+    
+
+    通过对欧洲地区、英国和美国进行全面的预测实验，我们评估了时变参数VAR模型中模型规模与复杂性之间的关系。结果显示，在小数据集中，通过漂移系数引入复杂动力学是重要的，而在庞大数据集中，简单模型往往表现更好。为了兼顾两者的优点，引入新的收缩先验有助于缓解维度诅咒，并得到了所有情景下竞争力强的预测结果。此外，我们还讨论了动态模型选择，以改进每个时间点上表现最佳的个体模型。
+
+    We assess the relationship between model size and complexity in the time-varying parameter VAR framework via thorough predictive exercises for the Euro Area, the United Kingdom and the United States. It turns out that sophisticated dynamics through drifting coefficients are important in small data sets, while simpler models tend to perform better in sizeable data sets. To combine the best of both worlds, novel shrinkage priors help to mitigate the curse of dimensionality, resulting in competitive forecasts for all scenarios considered. Furthermore, we discuss dynamic model selection to improve upon the best performing individual model for each point in time.
+    
+[^16]: 重复比赛中的临时排除
+
+    Temporary exclusion in repeated contests. (arXiv:2401.06257v1 [econ.TH])
+
+    [http://arxiv.org/abs/2401.06257](http://arxiv.org/abs/2401.06257)
+
+    该论文研究了在重复比赛中采用临时排除的解决方案，通过排除上一期被拒绝或申请的代理人，在资源分配和错误分配方面取得了良好的效果。
+
+    
+
+    本研究考虑了一个大规模的代理人群体，他们反复竞争奖励，例如科研人员每年可以向科学基金会申请拨款。校长的关键目标是有效地将资源分配给最高质量的申请，但审查过程通常存在噪音。不完美的获奖者选择可能鼓励低质量的申请，进而迫使设计者投入更多资源进行审查，可能进一步增加错误分配。我们研究了“临时排除”作为潜在解决方案。通过排除，如果代理人在前一期被拒绝（或申请），则不符合在当前期申请的资格。这种政策引入了跨期参与决策的激励，并鼓励自我选择。我们表征了这个动态博弈的稳态均衡，并与没有排除的基准情况进行了比较。特别是，我们展示了
+
+    Consider a large population of agents who repeatedly compete for awards, as in the case of researchers who can annually apply for grants from a science foundation. A key objective for the principal is to efficiently allocate resources to the highest quality applications, but the review process is often inherently noisy. Imperfect selection of winners may encourage low quality applications, which in turn forces the designer to commit more resources to the reviewing process and can further increase the misallocation. We study \emph{temporary exclusion} as a potential solution to these problems. With exclusion, an agent is ineligible to apply in the current period if they were rejected (or if they applied) in the previous period. Such policy introduces intertemporal incentives to the participation decision and encourages self-selection. We characterize the steady-state equilibria of this dynamic game and compare the outcomes to the benchmark case without exclusion. In particular, we show 
+    
+[^17]: 生成AI增强了个体创造力，但降低了新内容的集体多样性
+
+    Generative AI enhances individual creativity but reduces the collective diversity of novel content. (arXiv:2312.00506v2 [cs.HC] UPDATED)
+
+    [http://arxiv.org/abs/2312.00506](http://arxiv.org/abs/2312.00506)
+
+    生成AI增强了个体创造力，但降低了新内容的集体多样性。
+
+    
+
+    创造力是人类的核心。生成人工智能（GenAI），包括越来越强大的大型语言模型（LLM），通过提供新的想法使人类更具创造力，或通过锚定于GenAI的想法而变得不那么创造性。本研究通过在线实验研究探究了GenAI想法对一篇短篇小说创作的因果影响，其中一些作者可以从GenAI平台获取故事创意。我们发现，获取GenAI想法导致故事被评为更有创造力、写得更好和更令人愉悦，特别是在创造力较低的作者中。然而，GenAI启用的故事之间更相似，而不是仅由人类创作的故事。这些结果表明，个体创造力增加的同时，集体新颖性可能会减少。这种动态类似于社会困境：通过GenAI，个别作家能受益，但可能会产生更窄范围的新内容。我们的结果对研究人员、决策者有重要影响。
+
+    Creativity is core to being human. Generative artificial intelligence (GenAI) -- including ever more powerful large language models (LLMs) -- holds promise for humans to be more creative by offering new ideas, or less creative by anchoring on GenAI ideas. We study the causal impact of GenAI ideas on the production of a short story in an online experimental study where some writers could obtain story ideas from a GenAI platform. We find that access to GenAI ideas causes stories to be evaluated as more creative, better written, and more enjoyable, especially among less creative writers. However, GenAI-enabled stories are more similar to each other than stories by humans alone. These results point to an increase in individual creativity at the risk of losing collective novelty. This dynamic resembles a social dilemma: with GenAI, individual writers are better off, but collectively a narrower scope of novel content may be produced. Our results have implications for researchers, policy-make
+    
+[^18]: 机会不平等与收入再分配
+
+    Inequality of Opportunity and Income Redistribution. (arXiv:2209.00534v3 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2209.00534](http://arxiv.org/abs/2209.00534)
+
+    本研究研究了在对机会和结果影响的运气不确定情况下，人们如何重新分配收入，发现当有幸运机会时，参与者重新分配的力度较小。
+
+    
+
+    我们研究了在对机会和结果产生影响的运气不确定情况下，人们如何重新分配收入。我们从一个能代表美国人口的样本中挑选出决策者，让他们观察工人的结果，以及运气是否放大了工人的努力（“幸运机会”）或直接决定了工人的收入（“幸运结果”）。我们发现，参与者在有幸运机会的环境中重新分配的力度较小，且对幸运因素重要性的变化反应也较弱。我们的发现对试图理解和预测重新分配态度的模型具有重要意义，并有助于解释对重新分配支持的实验室证据与美国不平等趋势之间的差距。
+
+    We examine how people redistribute income when there is uncertainty about the role luck plays in determining opportunities and outcomes. We elicit redistribution decisions from a U.S.-representative sample who observe worker outcomes and whether luck magnified workers' effort (``lucky opportunities'') or determined workers' income directly (``lucky outcomes''). We find that participants redistribute less and are less reactive to changes in the importance of luck in environments with lucky opportunities. Our findings have implications for models that seek to understand and predict redistribution attitudes and help to explain the gap between lab evidence on support for redistribution and U.S. inequality trends.
+    
+[^19]: 通过影子价格降低市场干扰偏差
+
+    Reducing Marketplace Interference Bias Via Shadow Prices. (arXiv:2205.02274v3 [math.OC] UPDATED)
+
+    [http://arxiv.org/abs/2205.02274](http://arxiv.org/abs/2205.02274)
+
+    这项工作提出了在市场干扰存在的情况下运行标准实验并获得无偏估计的技术。通过优化估计全局治疗和全局对照的价值，并比较治疗组和影子价格的平均值，实现了降低市场干扰偏差。
+
+    
+
+    市场公司在设计或运营其平台时 heavily 依赖实验。实验的核心是随机对照试验（RCT）或 A/B 测试，即将用户随机分配到治疗组或对照组。然而，市场干扰导致稳定单元治疗价值假设 (SUTVA) 被违反，从而导致标准 RCT 指标的偏差。在这项工作中，我们提出了平台在存在市场干扰的情况下运行标准 RCT 并获得有意义估计的技术。我们特别考虑广义匹配设置，其中平台通过线性规划算法明确匹配供应和需求。我们的第一个提议是通过优化估计全局治疗和全局对照的价值。我们证明了这种方法在流体极限中是无偏的。我们的第二个提议是比较治疗组和
+
+    Marketplace companies rely heavily on experimentation when making changes to the design or operation of their platforms. The workhorse of experimentation is the randomized controlled trial (RCT), or A/B test, in which users are randomly assigned to treatment or control groups. However, marketplace interference causes the Stable Unit Treatment Value Assumption (SUTVA) to be violated, leading to bias in the standard RCT metric. In this work, we propose techniques for platforms to run standard RCTs and still obtain meaningful estimates despite the presence of marketplace interference. We specifically consider a generalized matching setting, in which the platform explicitly matches supply with demand via a linear programming algorithm. Our first proposal is for the platform to estimate the value of global treatment and global control via optimization. We prove that this approach is unbiased in the fluid limit. Our second proposal is to compare the average shadow price of the treatment and 
     
 

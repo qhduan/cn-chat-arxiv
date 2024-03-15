@@ -1,0 +1,12 @@
+{
+    "title": "Stacking-based deep neural network for player scouting in football 1",
+    "abstract": "arXiv:2403.08835v1 Announce Type: cross  Abstract: Datascouting is one of the most known data applications in professional sport, and specifically football. Its objective is to analyze huge database of players in order to detect high potentials that can be then individually considered by human scouts. In this paper, we propose a stacking-based deep learning model to detect high potential football players. Applied on open-source database, our model obtains significantly better results that classical statistical methods.",
+    "link": "https://arxiv.org/abs/2403.08835",
+    "context": "Title: Stacking-based deep neural network for player scouting in football 1\nAbstract: arXiv:2403.08835v1 Announce Type: cross  Abstract: Datascouting is one of the most known data applications in professional sport, and specifically football. Its objective is to analyze huge database of players in order to detect high potentials that can be then individually considered by human scouts. In this paper, we propose a stacking-based deep learning model to detect high potential football players. Applied on open-source database, our model obtains significantly better results that classical statistical methods.",
+    "path": "papers/24/03/2403.08835.json",
+    "total_tokens": 624,
+    "translated_title": "基于堆叠的深度神经网络在足球球员搜寻中的应用",
+    "translated_abstract": "DataScouting是专业体育界最知名的数据应用之一，特别是在足球领域。它的目标是分析庞大的球员数据库，以便检测潜力巨大的球员，然后由人类球探进行进一步考虑。本文提出了一种基于堆叠的深度学习模型，用于检测高潜力的足球球员。在开源数据库上应用，我们的模型取得了比传统统计方法显著更好的结果。",
+    "tldr": "本研究提出了一种基于堆叠的深度学习模型，在足球领域中用于检测高潜力球员，相比传统统计方法取得了显著更好的结果。",
+    "en_tdlr": "This study proposes a stacking-based deep learning model for detecting high-potential football players, achieving significantly better results compared to classical statistical methods."
+}

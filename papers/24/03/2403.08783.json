@@ -1,0 +1,11 @@
+{
+    "title": "Image-Text Out-Of-Context Detection Using Synthetic Multimodal Misinformation",
+    "abstract": "arXiv:2403.08783v1 Announce Type: cross  Abstract: Misinformation has become a major challenge in the era of increasing digital information, requiring the development of effective detection methods. We have investigated a novel approach to Out-Of-Context detection (OOCD) that uses synthetic data generation. We created a dataset specifically designed for OOCD and developed an efficient detector for accurate classification. Our experimental findings validate the use of synthetic data generation and demonstrate its efficacy in addressing the data limitations associated with OOCD. The dataset and detector should serve as valuable resources for future research and the development of robust misinformation detection systems.",
+    "link": "https://arxiv.org/abs/2403.08783",
+    "context": "Title: Image-Text Out-Of-Context Detection Using Synthetic Multimodal Misinformation\nAbstract: arXiv:2403.08783v1 Announce Type: cross  Abstract: Misinformation has become a major challenge in the era of increasing digital information, requiring the development of effective detection methods. We have investigated a novel approach to Out-Of-Context detection (OOCD) that uses synthetic data generation. We created a dataset specifically designed for OOCD and developed an efficient detector for accurate classification. Our experimental findings validate the use of synthetic data generation and demonstrate its efficacy in addressing the data limitations associated with OOCD. The dataset and detector should serve as valuable resources for future research and the development of robust misinformation detection systems.",
+    "path": "papers/24/03/2403.08783.json",
+    "total_tokens": 677,
+    "translated_title": "使用合成多模态虚假信息检测的图像文本脱离语境方法",
+    "translated_abstract": "在数字信息不断增加的时代，虚假信息已经成为一个重大挑战，需要开发有效的检测方法。我们研究了一种新颖的脱离语境检测（OOCD）方法，该方法使用了合成数据生成。我们创建了一个专门用于OOCD的数据集，并开发了一个高效的检测器进行准确分类。我们的实验发现验证了合成数据生成的使用，并展示了其在解决与OOCD相关的数据限制方面的有效性。该数据集和检测器应成为未来研究和开发健壮虚假信息检测系统的宝贵资源。",
+    "tldr": "该研究提出了一种使用合成数据生成的脱离语境检测方法，实验证实了合成数据生成在解决OOCD相关数据限制方面的有效性。"
+}

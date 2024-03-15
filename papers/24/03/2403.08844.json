@@ -1,0 +1,11 @@
+{
+    "title": "AcademiaOS: Automating Grounded Theory Development in Qualitative Research with Large Language Models",
+    "abstract": "arXiv:2403.08844v1 Announce Type: cross  Abstract: AcademiaOS is a first attempt to automate grounded theory development in qualitative research with large language models. Using recent large language models' language understanding, generation, and reasoning capabilities, AcademiaOS codes curated qualitative raw data such as interview transcripts and develops themes and dimensions to further develop a grounded theoretical model, affording novel insights. A user study (n=19) suggests that the system finds acceptance in the academic community and exhibits the potential to augment humans in qualitative research. AcademiaOS has been made open-source for others to build upon and adapt to their use cases.",
+    "link": "https://arxiv.org/abs/2403.08844",
+    "context": "Title: AcademiaOS: Automating Grounded Theory Development in Qualitative Research with Large Language Models\nAbstract: arXiv:2403.08844v1 Announce Type: cross  Abstract: AcademiaOS is a first attempt to automate grounded theory development in qualitative research with large language models. Using recent large language models' language understanding, generation, and reasoning capabilities, AcademiaOS codes curated qualitative raw data such as interview transcripts and develops themes and dimensions to further develop a grounded theoretical model, affording novel insights. A user study (n=19) suggests that the system finds acceptance in the academic community and exhibits the potential to augment humans in qualitative research. AcademiaOS has been made open-source for others to build upon and adapt to their use cases.",
+    "path": "papers/24/03/2403.08844.json",
+    "total_tokens": 665,
+    "translated_title": "AcademiaOS：利用大型语言模型自动化定性研究中的理论建构",
+    "translated_abstract": "AcademiaOS是第一个尝试利用大型语言模型自动化定性研究中的理论建构的系统。利用最近大型语言模型的语言理解、生成和推理能力，AcademiaOS对筛选过的定性原始数据（如访谈文本）进行编码，并发展主题和维度以进一步构建一个理论模型，提供新颖的见解。一项用户研究（n=19）表明，该系统在学术界中得到认可，并具有增强人类进行定性研究的潜力。AcademiaOS已经开源供他人进行构建并适应其用例。",
+    "tldr": "AcademiaOS利用大型语言模型自动化定性研究中的理论建构，为学术界提供新颖的见解。"
+}

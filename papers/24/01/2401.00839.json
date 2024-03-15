@@ -1,0 +1,12 @@
+{
+    "title": "Community Enforcement with Endogenous Records",
+    "abstract": "arXiv:2401.00839v2 Announce Type: replace  Abstract: I study repeated games with anonymous random matching where players can erase signals from their records. When players are sufficiently long-lived and have strictly dominant actions, they will play their dominant actions with probability close to one in all equilibria. When players' expected lifespans are intermediate, there exist purifiable equilibria with a positive level of cooperation in the submodular prisoner's dilemma but not in the supermodular prisoner's dilemma. Therefore, the maximal level of cooperation a community can sustain is not monotone with respect to players' expected lifespans and the complementarity in players' actions can undermine their abilities to sustain cooperation.",
+    "link": "https://arxiv.org/abs/2401.00839",
+    "context": "Title: Community Enforcement with Endogenous Records\nAbstract: arXiv:2401.00839v2 Announce Type: replace  Abstract: I study repeated games with anonymous random matching where players can erase signals from their records. When players are sufficiently long-lived and have strictly dominant actions, they will play their dominant actions with probability close to one in all equilibria. When players' expected lifespans are intermediate, there exist purifiable equilibria with a positive level of cooperation in the submodular prisoner's dilemma but not in the supermodular prisoner's dilemma. Therefore, the maximal level of cooperation a community can sustain is not monotone with respect to players' expected lifespans and the complementarity in players' actions can undermine their abilities to sustain cooperation.",
+    "path": "papers/24/01/2401.00839.json",
+    "total_tokens": 700,
+    "translated_title": "具有内生记录的社区执行",
+    "translated_abstract": "我研究了在匿名随机匹配下的重复博弈，玩家可以擦除记录中的信号。当玩家寿命足够长且具有严格主导行动时，在所有均衡中，他们会几乎以概率1玩其主导行动。当玩家的预期寿命居中时，在次模博囚困境中存在一种可净化的均衡，其中合作的水平是正的，但在超模博囚困境中不存在。因此，一个社区可以维持的最大合作水平与玩家的预期寿命不是单调的，并且玩家行动的互补性可能会削弱他们维持合作的能力。",
+    "tldr": "社区在匿名随机匹配下，通过内生记录实现强制执行，发现玩家行动的互补性可能削弱他们维持合作的能力。",
+    "en_tdlr": "Community enforcement through endogenous records in repeated games with anonymous random matching reveals that complementarity in players' actions may undermine their abilities to sustain cooperation."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Strategizing against Q-learners: A Control-theoretical Approach",
+    "abstract": "arXiv:2403.08906v1 Announce Type: cross  Abstract: In this paper, we explore the susceptibility of the Q-learning algorithm (a classical and widely used reinforcement learning method) to strategic manipulation of sophisticated opponents in games. We quantify how much a strategically sophisticated agent can exploit a naive Q-learner if she knows the opponent's Q-learning algorithm. To this end, we formulate the strategic actor's problem as a Markov decision process (with a continuum state space encompassing all possible Q-values) as if the Q-learning algorithm is the underlying dynamical system. We also present a quantization-based approximation scheme to tackle the continuum state space and analyze its performance both analytically and numerically.",
+    "link": "https://arxiv.org/abs/2403.08906",
+    "context": "Title: Strategizing against Q-learners: A Control-theoretical Approach\nAbstract: arXiv:2403.08906v1 Announce Type: cross  Abstract: In this paper, we explore the susceptibility of the Q-learning algorithm (a classical and widely used reinforcement learning method) to strategic manipulation of sophisticated opponents in games. We quantify how much a strategically sophisticated agent can exploit a naive Q-learner if she knows the opponent's Q-learning algorithm. To this end, we formulate the strategic actor's problem as a Markov decision process (with a continuum state space encompassing all possible Q-values) as if the Q-learning algorithm is the underlying dynamical system. We also present a quantization-based approximation scheme to tackle the continuum state space and analyze its performance both analytically and numerically.",
+    "path": "papers/24/03/2403.08906.json",
+    "total_tokens": 715,
+    "translated_title": "针对Q-学习者的策略化对抗：一种控制论方法",
+    "translated_abstract": "在这篇论文中，我们探讨了Q-learning算法(一种经典且广泛使用的强化学习方法)在游戏中对策略性对手的敏感性。我们量化了如果策略性对手了解对手的Q-learning算法，她可以利用一个天真的Q-学习者多少。为此，我们将策略行为者的问题构建为一个马尔可夫决策过程(具有涵盖所有可能Q值的连续状态空间)，就好像Q-学习算法是底层动态系统一样。我们还提出了一个基于量化的近似方案来处理连续状态空间，并在理论和数值上分析了其性能。",
+    "tldr": "在这篇论文中，作者探讨了Q-learning算法在游戏中受到策略性对手的操纵的敏感性，并提出了一种控制论方法来解决这个问题。",
+    "en_tdlr": "This paper investigates the susceptibility of the Q-learning algorithm to strategic manipulation in games and proposes a control-theoretical approach to address this issue."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A Continued Pretrained LLM Approach for Automatic Medical Note Generation",
+    "abstract": "arXiv:2403.09057v1 Announce Type: cross  Abstract: LLMs are revolutionizing NLP tasks. However, the most powerful LLM, like GPT-4, is too costly for most domain-specific scenarios. We present the first continuously trained 13B Llama2-based LLM that is purpose-built for medical conversations and measured on automated scribing. Our results show that our model outperforms GPT-4 in PubMedQA with 76.6\\% accuracy and matches its performance in summarizing medical conversations into SOAP notes. Notably, our model exceeds GPT-4 in capturing a higher number of correct medical concepts and outperforms human scribes with higher correctness and completeness.",
+    "link": "https://arxiv.org/abs/2403.09057",
+    "context": "Title: A Continued Pretrained LLM Approach for Automatic Medical Note Generation\nAbstract: arXiv:2403.09057v1 Announce Type: cross  Abstract: LLMs are revolutionizing NLP tasks. However, the most powerful LLM, like GPT-4, is too costly for most domain-specific scenarios. We present the first continuously trained 13B Llama2-based LLM that is purpose-built for medical conversations and measured on automated scribing. Our results show that our model outperforms GPT-4 in PubMedQA with 76.6\\% accuracy and matches its performance in summarizing medical conversations into SOAP notes. Notably, our model exceeds GPT-4 in capturing a higher number of correct medical concepts and outperforms human scribes with higher correctness and completeness.",
+    "path": "papers/24/03/2403.09057.json",
+    "total_tokens": 771,
+    "translated_title": "一种用于自动生成医疗记录的持续预训练LLM方法",
+    "translated_abstract": "LLM（大型语言模型）正在革新自然语言处理任务。然而，像GPT-4这样的最强大的LLM对于大多数领域特定场景来说成本太高。我们提出了第一个连续训练的130亿参数 Llama2-basd LLM，专为医疗对话而设计，并在自动记录上进行了测试。我们的结果显示，我们的模型在PubMedQA中的准确率高达76.6％，在总结医疗对话为SOAP笔记方面与GPT-4的性能相当。值得注意的是，我们的模型在捕捉正确的医疗概念方面超过了GPT-4，并且在正确性和完整性方面超越了人类抄写员。",
+    "tldr": "这项研究提出了一种用于医疗记录生成的持续预训练LLM方法，在PubMedQA方面性能优于GPT-4，能够更好地捕捉正确的医疗概念，并且在正确性和完整性方面超过人类抄写员。",
+    "en_tdlr": "This research introduces a continued pretrained LLM approach for automatic medical note generation, outperforming GPT-4 in PubMedQA, capturing correct medical concepts better, and surpassing human scribes in correctness and completeness."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Reawakening knowledge: Anticipatory recovery from catastrophic interference via structured training",
+    "abstract": "arXiv:2403.09613v1 Announce Type: cross  Abstract: We explore the training dynamics of neural networks in a structured non-IID setting where documents are presented cyclically in a fixed, repeated sequence. Typically, networks suffer from catastrophic interference when training on a sequence of documents; however, we discover a curious and remarkable property of LLMs fine-tuned sequentially in this setting: they exhibit anticipatory behavior, recovering from the forgetting on documents before encountering them again. The behavior emerges and becomes more robust as the architecture scales up its number of parameters. Through comprehensive experiments and visualizations, we uncover new insights into training over-parameterized networks in structured environments.",
+    "link": "https://arxiv.org/abs/2403.09613",
+    "context": "Title: Reawakening knowledge: Anticipatory recovery from catastrophic interference via structured training\nAbstract: arXiv:2403.09613v1 Announce Type: cross  Abstract: We explore the training dynamics of neural networks in a structured non-IID setting where documents are presented cyclically in a fixed, repeated sequence. Typically, networks suffer from catastrophic interference when training on a sequence of documents; however, we discover a curious and remarkable property of LLMs fine-tuned sequentially in this setting: they exhibit anticipatory behavior, recovering from the forgetting on documents before encountering them again. The behavior emerges and becomes more robust as the architecture scales up its number of parameters. Through comprehensive experiments and visualizations, we uncover new insights into training over-parameterized networks in structured environments.",
+    "path": "papers/24/03/2403.09613.json",
+    "total_tokens": 736,
+    "translated_title": "通过结构化训练重新唤醒知识：从灾难性干扰中进行预期性恢复",
+    "translated_abstract": "我们探讨了神经网络在一个结构化的非独立同分布设置中的训练动态，其中文档以固定重复序列的方式呈现。通常情况下，在一系列文档上训练时，网络会遭受灾难性干扰；然而，我们发现在这种设置下依次微调的LLMs表现出一种奇特且卓越的特性：它们表现出预期的行为，在再次遇到之前的文档时从遗忘中恢复过来。这种行为在架构扩展其参数数量时逐渐出现并变得更加稳健。通过全面的实验和可视化，我们揭示了在结构化环境中训练超参数网络的新见解。",
+    "tldr": "在结构化环境中依次微调的LLMs表现出预期行为，能够从遗忘中恢复，揭示了在过参数化网络中进行训练的新见解"
+}

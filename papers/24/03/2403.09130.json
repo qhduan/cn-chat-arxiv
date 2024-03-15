@@ -1,0 +1,12 @@
+{
+    "title": "Viral Load Inference in Non-Adaptive Pooled Testing",
+    "abstract": "arXiv:2403.09130v1 Announce Type: cross  Abstract: Medical diagnostic testing can be made significantly more efficient using pooled testing protocols. These typically require a sparse infection signal and use either binary or real-valued entries of O(1). However, existing methods do not allow for inferring viral loads which span many orders of magnitude. We develop a message passing algorithm coupled with a PCR (Polymerase Chain Reaction) specific noise function to allow accurate inference of realistic viral load signals. This work is in the non-adaptive setting and could open the possibility of efficient screening where viral load determination is clinically important.",
+    "link": "https://arxiv.org/abs/2403.09130",
+    "context": "Title: Viral Load Inference in Non-Adaptive Pooled Testing\nAbstract: arXiv:2403.09130v1 Announce Type: cross  Abstract: Medical diagnostic testing can be made significantly more efficient using pooled testing protocols. These typically require a sparse infection signal and use either binary or real-valued entries of O(1). However, existing methods do not allow for inferring viral loads which span many orders of magnitude. We develop a message passing algorithm coupled with a PCR (Polymerase Chain Reaction) specific noise function to allow accurate inference of realistic viral load signals. This work is in the non-adaptive setting and could open the possibility of efficient screening where viral load determination is clinically important.",
+    "path": "papers/24/03/2403.09130.json",
+    "total_tokens": 716,
+    "translated_title": "非自适应池化检测中的病毒载量推断",
+    "translated_abstract": "医学诊断测试可以通过使用池化测试协议显着提高效率。这些协议通常需要稀疏的感染信号，并使用O(1)的二进制或实值条目。然而，现有方法不允许推断涵盖多个数量级的病毒载量。我们开发了一种消息传递算法，结合PCR（聚合酶链反应）特定的噪声函数，以允许准确推断现实病毒载量信号。这项工作是在非自适应设置中进行的，并可能为病毒载量测定在临床上重要的有效筛查提供可能性。",
+    "tldr": "该论文提出了一种结合消息传递算法和PCR特定噪声函数的方法，在非自适应设置中准确推断现实病毒载量信号，为具有临床重要性的病毒载量测定提供了可能性。",
+    "en_tdlr": "This paper introduces a method that combines message passing algorithm with PCR-specific noise function to accurately infer realistic viral load signals in a non-adaptive setting, opening up possibilities for efficient screening where viral load determination is clinically important."
+}

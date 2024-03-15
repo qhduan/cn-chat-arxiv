@@ -1,0 +1,12 @@
+{
+    "title": "Stochastic Approximation with Decision-Dependent Distributions: Asymptotic Normality and Optimality",
+    "abstract": "arXiv:2207.04173v3 Announce Type: replace-cross  Abstract: We analyze a stochastic approximation algorithm for decision-dependent problems, wherein the data distribution used by the algorithm evolves along the iterate sequence. The primary examples of such problems appear in performative prediction and its multiplayer extensions. We show that under mild assumptions, the deviation between the average iterate of the algorithm and the solution is asymptotically normal, with a covariance that clearly decouples the effects of the gradient noise and the distributional shift. Moreover, building on the work of H\\'ajek and Le Cam, we show that the asymptotic performance of the algorithm with averaging is locally minimax optimal.",
+    "link": "https://arxiv.org/abs/2207.04173",
+    "context": "Title: Stochastic Approximation with Decision-Dependent Distributions: Asymptotic Normality and Optimality\nAbstract: arXiv:2207.04173v3 Announce Type: replace-cross  Abstract: We analyze a stochastic approximation algorithm for decision-dependent problems, wherein the data distribution used by the algorithm evolves along the iterate sequence. The primary examples of such problems appear in performative prediction and its multiplayer extensions. We show that under mild assumptions, the deviation between the average iterate of the algorithm and the solution is asymptotically normal, with a covariance that clearly decouples the effects of the gradient noise and the distributional shift. Moreover, building on the work of H\\'ajek and Le Cam, we show that the asymptotic performance of the algorithm with averaging is locally minimax optimal.",
+    "path": "papers/22/07/2207.04173.json",
+    "total_tokens": 734,
+    "translated_title": "具有决策相关分布的随机逼近：渐近正态性和最优性",
+    "translated_abstract": "我们分析了一种针对决策相关问题的随机逼近算法，其中算法使用的数据分布沿着迭代序列演变。这类问题的主要例子出现在执行性预测及其多人游戏扩展中。我们展示在温和假设下，算法的平均迭代与解之间的偏差在渐近意义下是正态的，协方差清晰地分解了梯度噪声和分布变化的影响。此外，基于H\\'ajek和Le Cam的工作，我们展示了带有平均的算法的渐近性能在局部是局部最小化最优的。",
+    "tldr": "该论文分析了一种针对决策相关问题的随机逼近算法，在渐近意义下，算法的平均迭代与解之间的偏差是正态的，并且算法的性能在局部达到了最优水平。",
+    "en_tdlr": "The paper analyzes a stochastic approximation algorithm for decision-dependent problems, showing that the deviation between the average iterate of the algorithm and the solution is asymptotically normal and the algorithm's performance is locally minimax optimal."
+}
