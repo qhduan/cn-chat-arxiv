@@ -166,40 +166,41 @@
 | [^162] | [VeCLIP: Improving CLIP Training via Visual-enriched Captions](https://arxiv.org/abs/2310.07699) | 本研究提出了一种通过将视觉概念融入标题中的方式来改进CLIP训练的方法，名为VeCLIP，该方法在大规模网络爬取数据集上展示了良好的性能。 |
 | [^163] | [Towards Dynamic and Small Objects Refinement for Unsupervised Domain Adaptative Nighttime Semantic Segmentation](https://arxiv.org/abs/2310.04747) | 该论文提出了一种新颖的无监督域自适应方法，针对夜间语义分割中的动态和小物体，进行标签和特征级别的改进。 |
 | [^164] | [Think before you speak: Training Language Models With Pause Tokens](https://arxiv.org/abs/2310.02226) | 引入暂停标记的语言模型训练方法可以让模型在输出标记前处理更多隐藏向量，取得了较好的实验结果 |
-| [^165] | [Making Language Models Better Tool Learners with Execution Feedback](https://arxiv.org/abs/2305.13068) | 这篇论文提出了一个名为TRICE的框架，通过执行反馈实现语言模型的工具学习，使其能够学会何时以及如何有效地使用工具。 |
-| [^166] | [AdaptiveClick: Clicks-aware Transformer with Adaptive Focal Loss for Interactive Image Segmentation](https://arxiv.org/abs/2305.04276) | AdaptiveClick 是首个基于Transformer的、针对交互式图像分割的遮罩自适应分割框架，引入了自适应焦点损失以解决注释不一致性，并提供了解决遮罩和像素级模糊的工具。 |
-| [^167] | [Actional Atomic-Concept Learning for Demystifying Vision-Language Navigation](https://arxiv.org/abs/2302.06072) | 提出了行动性原子概念学习（AACL）方法，将视觉观察映射到行动性原子概念，作为观察和指令之间的桥梁，减少语义差距并简化对齐。 |
-| [^168] | [Energy Disaggregation & Appliance Identification in a Smart Home: Transfer Learning enables Edge Computing](https://arxiv.org/abs/2301.03018) | 迁移学习结合边缘计算，提出了新的深度学习方法解决非侵入式负载监视问题和电器识别问题，利用改进的CNN模型和预训练模型获得更准确的结果。 |
-| [^169] | [COMET: A Comprehensive Cluster Design Methodology for Distributed Deep Learning Training](https://arxiv.org/abs/2211.16648) | COMET提出了一种全面的集群设计方法论，用于研究并行化策略和关键集群资源配置对分布式DL训练性能的影响 |
-| [^170] | [Multi-Step Deductive Reasoning Over Natural Language: An Empirical Study on Out-of-Distribution Generalisation](https://arxiv.org/abs/2207.14000) | 提出了IMA-GloVe-GA，一个用于自然语言表达的多步推理的迭代神经推理网络，在超领域泛化方面具有更好的性能表现。 |
-| [^171] | [SPI-GAN: Denoising Diffusion GANs with Straight-Path Interpolations](https://arxiv.org/abs/2206.14464) | SPI-GAN使用直线路径插值定义的增强型GAN去噪方法，能够在极大程度上减少采样时间，同时实现与SGMs相同的高采样质量和多样性。 |
-| [^172] | [OpenXAI: Towards a Transparent Evaluation of Model Explanations](https://arxiv.org/abs/2206.11104) | OpenXAI 是一个开源框架，旨在评估和基准测试后续解释方法，提供了灵活的数据生成器、多种数据集和评估指标，用户可轻松扩展和比较不同解释方法。 |
-| [^173] | [Safe and Generalized end-to-end Autonomous Driving System with Reinforcement Learning and Demonstrations.](http://arxiv.org/abs/2401.11792) | 本文介绍了一种安全且广义的端到端自主驾驶系统 (SGADS)，使用强化学习和示范相结合的方法解决了现有方法的低安全性、泛化能力差和采样效率低的问题，同时引入了变分推理和归一化流以准确预测驾驶轨迹，并提出了鲁棒性安全约束的制定方法。 |
-| [^174] | [LDReg: Local Dimensionality Regularized Self-Supervised Learning.](http://arxiv.org/abs/2401.10474) | 本文提出了一种叫做LDReg的本地维度正则化方法，用于解决自监督学习中的维度坍缩问题。通过增加局部内在维度，LDReg能够改善表示的性能。 |
-| [^175] | [Towards Generative Abstract Reasoning: Completing Raven's Progressive Matrix via Rule Abstraction and Selection.](http://arxiv.org/abs/2401.09966) | 本文提出了一个条件生成模型（RAISE），通过在潜在空间中进行规则抽象和选择，以解决Raven的渐进矩阵问题，该模型能够在现实的场景中展示出抽象推理的能力。 |
-| [^176] | [Most discriminative stimuli for functional cell type identification.](http://arxiv.org/abs/2401.05342) | 本文提出了一种使用最具区分性刺激物的优化聚类方法，成功地识别了小鼠视网膜、恒河猴视网膜和猕猴V4视觉区的功能细胞类型。 |
-| [^177] | [Generative AI enhances individual creativity but reduces the collective diversity of novel content.](http://arxiv.org/abs/2312.00506) | 生成AI增强了个体创造力，但降低了新内容的集体多样性。 |
-| [^178] | [Zero Coordinate Shift: Whetted Automatic Differentiation for Physics-informed Operator Learning.](http://arxiv.org/abs/2311.00860) | 本文提出了一种用于物理约束操作学习的新型自动微分算法，通过零坐标移动（ZCS）的技巧，将所需导数的复杂度从“多根多叶”简化为“一根多叶”，从而显著提高了性能。 |
-| [^179] | [Vanishing Gradients in Reinforcement Finetuning of Language Models.](http://arxiv.org/abs/2310.20703) | 本研究发现在强化微调（RFT）中存在梯度消失的问题，当模型下奖励的标准差较小时，输入的期望梯度会消失，导致奖励最大化缓慢。初始监督微调（SFT）阶段是克服这个问题的最有希望的方法。 |
-| [^180] | [Brain decoding: toward real-time reconstruction of visual perception.](http://arxiv.org/abs/2310.19812) | 本研究提出了一种基于脑磁图（MEG）的脑解码方法，通过训练一个具有预训练嵌入、MEG模块和图像生成器的模型，在实时应用中实现了对视觉知觉的高时间分辨率解码，并在图像检索上取得了7倍的改进。 |
-| [^181] | [Davidsonian Scene Graph: Improving Reliability in Fine-grained Evaluation for Text-Image Generation.](http://arxiv.org/abs/2310.18235) | 本论文提出了Davidsonian场景图（DSG）的评估框架，解决了现有文本-图像生成模型评估中的可靠性挑战，包括QG问题的准确性和VQA答案的一致性。 |
-| [^182] | [Structured Generation and Exploration of Design Space with Large Language Models for Human-AI Co-Creation.](http://arxiv.org/abs/2310.12953) | 这篇论文介绍了一种应用大型语言模型进行人工智能与人类协同创作的框架，通过结构化生成设计空间并提供无缝探索、评估和综合多种响应的功能，拓展了与大型语言模型在创意任务中的交互方式。 |
-| [^183] | [Rethinking Class-incremental Learning in the Era of Large Pre-trained Models via Test-Time Adaptation.](http://arxiv.org/abs/2310.11482) | 本研究提出了一种名为“增量学习的测试时适应”的方法，通过在测试实例上进行微调，避免了在每个新任务上进行训练，从而在增量学习中实现了预训练模型的稳定性和可塑性的平衡。 |
-| [^184] | [CodeChain: Towards Modular Code Generation Through Chain of Self-revisions with Representative Sub-modules.](http://arxiv.org/abs/2310.08992) | CodeChain是一种通过代表性子模块的自我修订链路引导模块化代码生成的新框架，旨在解决大型语言模型在解决复杂编程任务方面的挑战。 |
-| [^185] | [The Impact of Explanations on Fairness in Human-AI Decision-Making: Protected vs Proxy Features.](http://arxiv.org/abs/2310.08617) | 论文研究了解释对AI决策公平性的影响。结果发现，解释有助于人们检测直接偏见，但对间接偏见的发现能力有限。 |
-| [^186] | [Large Language Models Cannot Self-Correct Reasoning Yet.](http://arxiv.org/abs/2310.01798) | 大型语言模型(LLMs)的自我纠正能力在推理方面存在困难，甚至可能在自我纠正后性能下降。 |
-| [^187] | [Graph Neural Architecture Search with GPT-4.](http://arxiv.org/abs/2310.01436) | 本文将GPT-4集成到图神经网络架构搜索（GNAS）中，提出了一种新的GPT-4基于的GNAS方法（GPT4GNAS），通过设计新的提示来引导GPT-4生成更准确的图神经网络，实验证明嵌入GPT-4到GNAS中优于现有方法。 |
-| [^188] | [DyVal: Graph-informed Dynamic Evaluation of Large Language Models.](http://arxiv.org/abs/2309.17167) | DyVal是一种基于图形信息的大型语言模型动态评估协议，通过动态生成具有可控复杂性的评估样本，评估了各种LLM在推理任务上的性能，发现它们在这些挑战性样本上表现更差。 |
-| [^189] | [Era Splitting.](http://arxiv.org/abs/2309.14496) | 本研究提出了两种新的分裂准则，使得决策树模型能够利用时代信息进行优化，从而将超分布泛化研究中的思想应用于决策树模型。 |
-| [^190] | [Geometric structure of Deep Learning networks and construction of global ${\mathcal L}^2$ minimizers.](http://arxiv.org/abs/2309.10639) | 本文提供了深度学习网络结构的几何解释，并且构建了全局最小化器族，该族能够全局最小化成本函数。此外，还确定了各种退化局部最小值。 |
-| [^191] | [Instruction Tuning for Large Language Models: A Survey.](http://arxiv.org/abs/2308.10792) | 本文调查了指令调优这一关键技术在增强大型语言模型能力和可控性方面的研究工作，包括方法、数据集构建、模型训练和应用，以及对结果影响的分析。同时回顾了可能的问题和批评，并指出了目前的不足。 |
-| [^192] | [milliFlow: Scene Flow Estimation on mmWave Radar Point Cloud for Human Motion Sensing.](http://arxiv.org/abs/2306.17010) | milliFlow是一种用于人体运动感知的新型深度学习方法，通过对毫米波雷达点云进行场景流估计，能够提供中间层的特征并直接用于下游的人体运动感知任务中。实验证明该方法具有优越性能。 |
-| [^193] | [MO-VLN: A Multi-Task Benchmark for Open-set Zero-Shot Vision-and-Language Navigation.](http://arxiv.org/abs/2306.10322) | MO-VLN是一个用于评估通用机器人在多任务环境中的视觉和语言导航的基准，通过使用虚幻引擎5开发逼真的场景和包含多种不常见物体来测试其效果和泛化能力。 |
-| [^194] | [Kernelized Reinforcement Learning with Order Optimal Regret Bounds.](http://arxiv.org/abs/2306.07745) | 该论文提出了一种称为$\pi$-KRVI的乐观修改方法，并使用核岭回归进行强化学习中的非线性函数逼近。论文证明了在一般设置下第一个最优遗憾保证，并相对于现有最优结果实现了显着的多项式低差距。 |
-| [^195] | [Controlling Text-to-Image Diffusion by Orthogonal Finetuning.](http://arxiv.org/abs/2306.07280) | 本文介绍了一种名为正交微调（OFT）的方法，可以有效地引导和控制大型文本到图像扩散模型，以执行不同的下游任务。我们还提出了约束正交微调（COFT），来提高微调的稳定性。这些方法能够保持语义生成能力并生成特定主题的图像。 |
-| [^196] | [Introducing Tales of Tribute AI Competition.](http://arxiv.org/abs/2305.08234) | 这项论文介绍了一项新的人工智能挑战——致敬神话人工智能竞赛(TOTAIC)，该竞赛基于《上古卷轴在线》中的一款卡牌游戏。除了应对通常与CCG相关的挑战外，该挑战还需要长期规划和适应性。竞赛采用多种方法解决游戏，如对抗搜索、单人计划和神经网络算法。第一届TOTAIC将在2023年的IEEE游戏会议上举行。 |
-| [^197] | [Discern and Answer: Mitigating the Impact of Misinformation in Retrieval-Augmented Models with Discriminators.](http://arxiv.org/abs/2305.01579) | 本文研究了现有检索增强语言模型假设所有检索信息都是正确的假设的问题，在实际应用中可能存在虚假信息导致冲突的情况下，提出了通过精细调整鉴别器和提示鉴别能力引出鲁棒性的方法，这显著改善了模型在知识冲突下的效果；同时提供了关于交替精细调整模型和上下文学习的新的结论。 |
-| [^198] | [Learning Melanocytic Cell Masks from Adjacent Stained Tissue.](http://arxiv.org/abs/2211.00646) | 本文提出了一种从相邻染色组织学片中训练深度神经网络进行黑色素细胞分割的方法，实现了0.64的平均IOU，尽管存在不完美的标签。 |
+| [^165] | [Merge, Then Compress: Demystify Efficient SMoE with Hints from Its Routing Policy](https://arxiv.org/abs/2310.01334) | 本文旨在探讨如何通过合并专家信息来制定出更紧凑但更具知识的SMoE模型，因为传统的模型合并方法并不适用于SMoE的专家合并。 |
+| [^166] | [Making Language Models Better Tool Learners with Execution Feedback](https://arxiv.org/abs/2305.13068) | 这篇论文提出了一个名为TRICE的框架，通过执行反馈实现语言模型的工具学习，使其能够学会何时以及如何有效地使用工具。 |
+| [^167] | [AdaptiveClick: Clicks-aware Transformer with Adaptive Focal Loss for Interactive Image Segmentation](https://arxiv.org/abs/2305.04276) | AdaptiveClick 是首个基于Transformer的、针对交互式图像分割的遮罩自适应分割框架，引入了自适应焦点损失以解决注释不一致性，并提供了解决遮罩和像素级模糊的工具。 |
+| [^168] | [Actional Atomic-Concept Learning for Demystifying Vision-Language Navigation](https://arxiv.org/abs/2302.06072) | 提出了行动性原子概念学习（AACL）方法，将视觉观察映射到行动性原子概念，作为观察和指令之间的桥梁，减少语义差距并简化对齐。 |
+| [^169] | [Energy Disaggregation & Appliance Identification in a Smart Home: Transfer Learning enables Edge Computing](https://arxiv.org/abs/2301.03018) | 迁移学习结合边缘计算，提出了新的深度学习方法解决非侵入式负载监视问题和电器识别问题，利用改进的CNN模型和预训练模型获得更准确的结果。 |
+| [^170] | [COMET: A Comprehensive Cluster Design Methodology for Distributed Deep Learning Training](https://arxiv.org/abs/2211.16648) | COMET提出了一种全面的集群设计方法论，用于研究并行化策略和关键集群资源配置对分布式DL训练性能的影响 |
+| [^171] | [Multi-Step Deductive Reasoning Over Natural Language: An Empirical Study on Out-of-Distribution Generalisation](https://arxiv.org/abs/2207.14000) | 提出了IMA-GloVe-GA，一个用于自然语言表达的多步推理的迭代神经推理网络，在超领域泛化方面具有更好的性能表现。 |
+| [^172] | [SPI-GAN: Denoising Diffusion GANs with Straight-Path Interpolations](https://arxiv.org/abs/2206.14464) | SPI-GAN使用直线路径插值定义的增强型GAN去噪方法，能够在极大程度上减少采样时间，同时实现与SGMs相同的高采样质量和多样性。 |
+| [^173] | [OpenXAI: Towards a Transparent Evaluation of Model Explanations](https://arxiv.org/abs/2206.11104) | OpenXAI 是一个开源框架，旨在评估和基准测试后续解释方法，提供了灵活的数据生成器、多种数据集和评估指标，用户可轻松扩展和比较不同解释方法。 |
+| [^174] | [Safe and Generalized end-to-end Autonomous Driving System with Reinforcement Learning and Demonstrations.](http://arxiv.org/abs/2401.11792) | 本文介绍了一种安全且广义的端到端自主驾驶系统 (SGADS)，使用强化学习和示范相结合的方法解决了现有方法的低安全性、泛化能力差和采样效率低的问题，同时引入了变分推理和归一化流以准确预测驾驶轨迹，并提出了鲁棒性安全约束的制定方法。 |
+| [^175] | [LDReg: Local Dimensionality Regularized Self-Supervised Learning.](http://arxiv.org/abs/2401.10474) | 本文提出了一种叫做LDReg的本地维度正则化方法，用于解决自监督学习中的维度坍缩问题。通过增加局部内在维度，LDReg能够改善表示的性能。 |
+| [^176] | [Towards Generative Abstract Reasoning: Completing Raven's Progressive Matrix via Rule Abstraction and Selection.](http://arxiv.org/abs/2401.09966) | 本文提出了一个条件生成模型（RAISE），通过在潜在空间中进行规则抽象和选择，以解决Raven的渐进矩阵问题，该模型能够在现实的场景中展示出抽象推理的能力。 |
+| [^177] | [Most discriminative stimuli for functional cell type identification.](http://arxiv.org/abs/2401.05342) | 本文提出了一种使用最具区分性刺激物的优化聚类方法，成功地识别了小鼠视网膜、恒河猴视网膜和猕猴V4视觉区的功能细胞类型。 |
+| [^178] | [Generative AI enhances individual creativity but reduces the collective diversity of novel content.](http://arxiv.org/abs/2312.00506) | 生成AI增强了个体创造力，但降低了新内容的集体多样性。 |
+| [^179] | [Zero Coordinate Shift: Whetted Automatic Differentiation for Physics-informed Operator Learning.](http://arxiv.org/abs/2311.00860) | 本文提出了一种用于物理约束操作学习的新型自动微分算法，通过零坐标移动（ZCS）的技巧，将所需导数的复杂度从“多根多叶”简化为“一根多叶”，从而显著提高了性能。 |
+| [^180] | [Vanishing Gradients in Reinforcement Finetuning of Language Models.](http://arxiv.org/abs/2310.20703) | 本研究发现在强化微调（RFT）中存在梯度消失的问题，当模型下奖励的标准差较小时，输入的期望梯度会消失，导致奖励最大化缓慢。初始监督微调（SFT）阶段是克服这个问题的最有希望的方法。 |
+| [^181] | [Brain decoding: toward real-time reconstruction of visual perception.](http://arxiv.org/abs/2310.19812) | 本研究提出了一种基于脑磁图（MEG）的脑解码方法，通过训练一个具有预训练嵌入、MEG模块和图像生成器的模型，在实时应用中实现了对视觉知觉的高时间分辨率解码，并在图像检索上取得了7倍的改进。 |
+| [^182] | [Davidsonian Scene Graph: Improving Reliability in Fine-grained Evaluation for Text-Image Generation.](http://arxiv.org/abs/2310.18235) | 本论文提出了Davidsonian场景图（DSG）的评估框架，解决了现有文本-图像生成模型评估中的可靠性挑战，包括QG问题的准确性和VQA答案的一致性。 |
+| [^183] | [Structured Generation and Exploration of Design Space with Large Language Models for Human-AI Co-Creation.](http://arxiv.org/abs/2310.12953) | 这篇论文介绍了一种应用大型语言模型进行人工智能与人类协同创作的框架，通过结构化生成设计空间并提供无缝探索、评估和综合多种响应的功能，拓展了与大型语言模型在创意任务中的交互方式。 |
+| [^184] | [Rethinking Class-incremental Learning in the Era of Large Pre-trained Models via Test-Time Adaptation.](http://arxiv.org/abs/2310.11482) | 本研究提出了一种名为“增量学习的测试时适应”的方法，通过在测试实例上进行微调，避免了在每个新任务上进行训练，从而在增量学习中实现了预训练模型的稳定性和可塑性的平衡。 |
+| [^185] | [CodeChain: Towards Modular Code Generation Through Chain of Self-revisions with Representative Sub-modules.](http://arxiv.org/abs/2310.08992) | CodeChain是一种通过代表性子模块的自我修订链路引导模块化代码生成的新框架，旨在解决大型语言模型在解决复杂编程任务方面的挑战。 |
+| [^186] | [The Impact of Explanations on Fairness in Human-AI Decision-Making: Protected vs Proxy Features.](http://arxiv.org/abs/2310.08617) | 论文研究了解释对AI决策公平性的影响。结果发现，解释有助于人们检测直接偏见，但对间接偏见的发现能力有限。 |
+| [^187] | [Large Language Models Cannot Self-Correct Reasoning Yet.](http://arxiv.org/abs/2310.01798) | 大型语言模型(LLMs)的自我纠正能力在推理方面存在困难，甚至可能在自我纠正后性能下降。 |
+| [^188] | [Graph Neural Architecture Search with GPT-4.](http://arxiv.org/abs/2310.01436) | 本文将GPT-4集成到图神经网络架构搜索（GNAS）中，提出了一种新的GPT-4基于的GNAS方法（GPT4GNAS），通过设计新的提示来引导GPT-4生成更准确的图神经网络，实验证明嵌入GPT-4到GNAS中优于现有方法。 |
+| [^189] | [DyVal: Graph-informed Dynamic Evaluation of Large Language Models.](http://arxiv.org/abs/2309.17167) | DyVal是一种基于图形信息的大型语言模型动态评估协议，通过动态生成具有可控复杂性的评估样本，评估了各种LLM在推理任务上的性能，发现它们在这些挑战性样本上表现更差。 |
+| [^190] | [Era Splitting.](http://arxiv.org/abs/2309.14496) | 本研究提出了两种新的分裂准则，使得决策树模型能够利用时代信息进行优化，从而将超分布泛化研究中的思想应用于决策树模型。 |
+| [^191] | [Geometric structure of Deep Learning networks and construction of global ${\mathcal L}^2$ minimizers.](http://arxiv.org/abs/2309.10639) | 本文提供了深度学习网络结构的几何解释，并且构建了全局最小化器族，该族能够全局最小化成本函数。此外，还确定了各种退化局部最小值。 |
+| [^192] | [Instruction Tuning for Large Language Models: A Survey.](http://arxiv.org/abs/2308.10792) | 本文调查了指令调优这一关键技术在增强大型语言模型能力和可控性方面的研究工作，包括方法、数据集构建、模型训练和应用，以及对结果影响的分析。同时回顾了可能的问题和批评，并指出了目前的不足。 |
+| [^193] | [milliFlow: Scene Flow Estimation on mmWave Radar Point Cloud for Human Motion Sensing.](http://arxiv.org/abs/2306.17010) | milliFlow是一种用于人体运动感知的新型深度学习方法，通过对毫米波雷达点云进行场景流估计，能够提供中间层的特征并直接用于下游的人体运动感知任务中。实验证明该方法具有优越性能。 |
+| [^194] | [MO-VLN: A Multi-Task Benchmark for Open-set Zero-Shot Vision-and-Language Navigation.](http://arxiv.org/abs/2306.10322) | MO-VLN是一个用于评估通用机器人在多任务环境中的视觉和语言导航的基准，通过使用虚幻引擎5开发逼真的场景和包含多种不常见物体来测试其效果和泛化能力。 |
+| [^195] | [Kernelized Reinforcement Learning with Order Optimal Regret Bounds.](http://arxiv.org/abs/2306.07745) | 该论文提出了一种称为$\pi$-KRVI的乐观修改方法，并使用核岭回归进行强化学习中的非线性函数逼近。论文证明了在一般设置下第一个最优遗憾保证，并相对于现有最优结果实现了显着的多项式低差距。 |
+| [^196] | [Controlling Text-to-Image Diffusion by Orthogonal Finetuning.](http://arxiv.org/abs/2306.07280) | 本文介绍了一种名为正交微调（OFT）的方法，可以有效地引导和控制大型文本到图像扩散模型，以执行不同的下游任务。我们还提出了约束正交微调（COFT），来提高微调的稳定性。这些方法能够保持语义生成能力并生成特定主题的图像。 |
+| [^197] | [Introducing Tales of Tribute AI Competition.](http://arxiv.org/abs/2305.08234) | 这项论文介绍了一项新的人工智能挑战——致敬神话人工智能竞赛(TOTAIC)，该竞赛基于《上古卷轴在线》中的一款卡牌游戏。除了应对通常与CCG相关的挑战外，该挑战还需要长期规划和适应性。竞赛采用多种方法解决游戏，如对抗搜索、单人计划和神经网络算法。第一届TOTAIC将在2023年的IEEE游戏会议上举行。 |
+| [^198] | [Discern and Answer: Mitigating the Impact of Misinformation in Retrieval-Augmented Models with Discriminators.](http://arxiv.org/abs/2305.01579) | 本文研究了现有检索增强语言模型假设所有检索信息都是正确的假设的问题，在实际应用中可能存在虚假信息导致冲突的情况下，提出了通过精细调整鉴别器和提示鉴别能力引出鲁棒性的方法，这显著改善了模型在知识冲突下的效果；同时提供了关于交替精细调整模型和上下文学习的新的结论。 |
+| [^199] | [Learning Melanocytic Cell Masks from Adjacent Stained Tissue.](http://arxiv.org/abs/2211.00646) | 本文提出了一种从相邻染色组织学片中训练深度神经网络进行黑色素细胞分割的方法，实现了0.64的平均IOU，尽管存在不完美的标签。 |
 
 # 详细
 
@@ -2499,7 +2500,21 @@
 
     arXiv:2310.02226v2 Announce Type: replace-cross  Abstract: Language models generate responses by producing a series of tokens in immediate succession: the $(K+1)^{th}$ token is an outcome of manipulating $K$ hidden vectors per layer, one vector per preceding token. What if instead we were to let the model manipulate say, $K+10$ hidden vectors, before it outputs the $(K+1)^{th}$ token? We operationalize this idea by performing training and inference on language models with a (learnable) $\textit{pause}$ token, a sequence of which is appended to the input prefix. We then delay extracting the model's outputs until the last pause token is seen, thereby allowing the model to process extra computation before committing to an answer. We empirically evaluate $\textit{pause-training}$ on decoder-only models of 1B and 130M parameters with causal pretraining on C4, and on downstream tasks covering reasoning, question-answering, general understanding and fact recall. Our main finding is that infer
     
-[^165]: 通过执行反馈使语言模型成为更好的工具学习者
+[^165]: 合并，然后压缩：从其路由策略中揭示高效的SMoE技术提示
+
+    Merge, Then Compress: Demystify Efficient SMoE with Hints from Its Routing Policy
+
+    [https://arxiv.org/abs/2310.01334](https://arxiv.org/abs/2310.01334)
+
+    本文旨在探讨如何通过合并专家信息来制定出更紧凑但更具知识的SMoE模型，因为传统的模型合并方法并不适用于SMoE的专家合并。
+
+    
+
+    稀疏激活的专家混合模型（SMoE）显示出扩展神经网络学习能力的潜力，然而，它们存在诸如（a）高内存使用的问题，由于网络层的重复成为多个专家的副本；以及（b）专家中的冗余，因为常规基于学习的路由策略容易出现表示性崩溃。因此，传统SMoE模型在内存效率和可伸缩性方面效率低下，尤其对于资源受限的下游场景。在本文中，我们提出了一个问题：我们能否通过合并专家信息来制定一个紧凑的SMoE模型？如何将多个专家合并为更少但更有知识的专家的最佳方法？我们的初步调查显示，传统的模型合并方法对于SMoE的专家合并并不有效。潜在原因是：（1）冗余信息掩盖了关键专家；（2）为每个专家选择适当的神经元排列方式会丢失
+
+    arXiv:2310.01334v2 Announce Type: replace-cross  Abstract: Sparsely activated Mixture-of-Experts (SMoE) has shown promise to scale up the learning capacity of neural networks, however, they have issues like (a) High Memory Usage, due to duplication of the network layers into multiple copies as experts; and (b) Redundancy in Experts, as common learning-based routing policies suffer from representational collapse. Therefore, vanilla SMoE models are memory inefficient and non-scalable, especially for resource-constrained downstream scenarios. In this paper, we ask: Can we craft a compact SMoE model by consolidating expert information? What is the best recipe to merge multiple experts into fewer but more knowledgeable experts? Our pilot investigation reveals that conventional model merging methods fail to be effective in such expert merging for SMoE. The potential reasons are: (1) redundant information overshadows critical experts; (2) appropriate neuron permutation for each expert is miss
+    
+[^166]: 通过执行反馈使语言模型成为更好的工具学习者
 
     Making Language Models Better Tool Learners with Execution Feedback
 
@@ -2513,7 +2528,7 @@
 
     Tools serve as pivotal interfaces that enable humans to understand and reshape the environment. With the advent of foundation models, AI systems can utilize tools to expand their capabilities and interact with the real world. Existing tool learning methodologies, encompassing supervised fine-tuning and prompt engineering approaches, often induce large language models to utilize tools indiscriminately, as complex tasks often exceed their own competencies. However, introducing tools for simple tasks, which the models themselves can readily resolve, can inadvertently propagate errors rather than enhance performance. This leads to the research question: can we teach language models when and how to use tools? To meet this need, we propose Tool leaRning wIth exeCution fEedback (TRICE), a two-stage end-to-end framework that enables the model to continually learn through feedback derived from tool execution, thereby learning when and how to use tools effectively. Experimental results, backed b
     
-[^166]: 自适应Click：具有自适应焦点损失的点击感知Transformer用于交互式图像分割
+[^167]: 自适应Click：具有自适应焦点损失的点击感知Transformer用于交互式图像分割
 
     AdaptiveClick: Clicks-aware Transformer with Adaptive Focal Loss for Interactive Image Segmentation
 
@@ -2527,7 +2542,7 @@
 
     arXiv:2305.04276v2 Announce Type: replace-cross  Abstract: Interactive Image Segmentation (IIS) has emerged as a promising technique for decreasing annotation time. Substantial progress has been made in pre- and post-processing for IIS, but the critical issue of interaction ambiguity, notably hindering segmentation quality, has been under-researched. To address this, we introduce AdaptiveClick -- a click-aware transformer incorporating an adaptive focal loss that tackles annotation inconsistencies with tools for mask- and pixel-level ambiguity resolution. To the best of our knowledge, AdaptiveClick is the first transformer-based, mask-adaptive segmentation framework for IIS. The key ingredient of our method is the Click-Aware Mask-adaptive transformer Decoder (CAMD), which enhances the interaction between click and image features. Additionally, AdaptiveClick enables pixel-adaptive differentiation of hard and easy samples in the decision space, independent of their varying distributions
     
-[^167]: 行动性原子概念学习用于解密视觉语言导航
+[^168]: 行动性原子概念学习用于解密视觉语言导航
 
     Actional Atomic-Concept Learning for Demystifying Vision-Language Navigation
 
@@ -2541,7 +2556,7 @@
 
     arXiv:2302.06072v2 Announce Type: replace-cross  Abstract: Vision-Language Navigation (VLN) is a challenging task which requires an agent to align complex visual observations to language instructions to reach the goal position. Most existing VLN agents directly learn to align the raw directional features and visual features trained using one-hot labels to linguistic instruction features. However, the big semantic gap among these multi-modal inputs makes the alignment difficult and therefore limits the navigation performance. In this paper, we propose Actional Atomic-Concept Learning (AACL), which maps visual observations to actional atomic concepts for facilitating the alignment. Specifically, an actional atomic concept is a natural language phrase containing an atomic action and an object, e.g., ``go up stairs''. These actional atomic concepts, which serve as the bridge between observations and instructions, can effectively mitigate the semantic gap and simplify the alignment. AACL co
     
-[^168]: 智能家居中的能量分解与电器识别：迁移学习实现边缘计算
+[^169]: 智能家居中的能量分解与电器识别：迁移学习实现边缘计算
 
     Energy Disaggregation & Appliance Identification in a Smart Home: Transfer Learning enables Edge Computing
 
@@ -2555,7 +2570,7 @@
 
     arXiv:2301.03018v2 Announce Type: replace-cross  Abstract: Non-intrusive load monitoring (NILM) or energy disaggregation aims to extract the load profiles of individual consumer electronic appliances, given an aggregate load profile of the mains of a smart home. This work proposes a novel deep-learning and edge computing approach to solve the NILM problem and a few related problems as follows. 1) We build upon the reputed seq2-point convolutional neural network (CNN) model to come up with the proposed seq2-[3]-point CNN model to solve the (home) NILM problem and site-NILM problem (basically, NILM at a smaller scale). 2) We solve the related problem of appliance identification by building upon the state-of-the-art (pre-trained) 2D-CNN models, i.e., AlexNet, ResNet-18, and DenseNet-121, which are fine-tuned two custom datasets that consist of Wavelets and short-time Fourier transform (STFT)-based 2D electrical signatures of the appliances. 3) Finally, we do some basic qualitative inferen
     
-[^169]: COMET：用于分布式深度学习训练的全面集群设计方法论
+[^170]: COMET：用于分布式深度学习训练的全面集群设计方法论
 
     COMET: A Comprehensive Cluster Design Methodology for Distributed Deep Learning Training
 
@@ -2569,7 +2584,7 @@
 
     arXiv:2211.16648v2 Announce Type: replace-cross  Abstract: Modern Deep Learning (DL) models have grown to sizes requiring massive clusters of specialized, high-end nodes to train. Designing such clusters to maximize both performance and utilization--to amortize their steep cost--is a challenging task requiring careful balance of compute, memory, and network resources. Moreover, a plethora of each model's tuning knobs drastically affect the performance, with optimal values often depending on the underlying cluster's characteristics, which necessitates a complex cluster-workload co-design process. To facilitate the design space exploration of such massive DL training clusters, we introduce COMET, a holistic cluster design methodology and workflow to jointly study the impact of parallelization strategies and key cluster resource provisioning on the performance of distributed DL training. We develop a step-by-step process to establish a reusable and flexible methodology, and demonstrate it
     
-[^170]: 自然语言上的多步演绎推理：基于超领域泛化的实证研究
+[^171]: 自然语言上的多步演绎推理：基于超领域泛化的实证研究
 
     Multi-Step Deductive Reasoning Over Natural Language: An Empirical Study on Out-of-Distribution Generalisation
 
@@ -2583,7 +2598,7 @@
 
     arXiv:2207.14000v2 Announce Type: replace-cross  Abstract: Combining deep learning with symbolic logic reasoning aims to capitalize on the success of both fields and is drawing increasing attention. Inspired by DeepLogic, an end-to-end model trained to perform inference on logic programs, we introduce IMA-GloVe-GA, an iterative neural inference network for multi-step reasoning expressed in natural language. In our model, reasoning is performed using an iterative memory neural network based on RNN with a gate attention mechanism. We evaluate IMA-GloVe-GA on three datasets: PARARULES, CONCEPTRULES V1 and CONCEPTRULES V2. Experimental results show DeepLogic with gate attention can achieve higher test accuracy than DeepLogic and other RNN baseline models. Our model achieves better out-of-distribution generalisation than RoBERTa-Large when the rules have been shuffled. Furthermore, to address the issue of unbalanced distribution of reasoning depths in the current multi-step reasoning datase
     
-[^171]: 使用直线路径插值对Denoising Diffusion GANs的SPI-GAN方法
+[^172]: 使用直线路径插值对Denoising Diffusion GANs的SPI-GAN方法
 
     SPI-GAN: Denoising Diffusion GANs with Straight-Path Interpolations
 
@@ -2597,7 +2612,7 @@
 
     arXiv:2206.14464v3 Announce Type: replace-cross  Abstract: Score-based generative models (SGMs) show the state-of-the-art sampling quality and diversity. However, their training/sampling complexity is notoriously high due to the highly complicated forward/reverse processes, so they are not suitable for resource-limited settings. To solving this problem, learning a simpler process is gathering much attention currently. We present an enhanced GAN-based denoising method, called SPI-GAN, using our proposed straight-path interpolation definition. To this end, we propose a GAN architecture i) denoising through the straight-path and ii) characterized by a continuous mapping neural network for imitating the denoising path. This approach drastically reduces the sampling time while achieving as high sampling quality and diversity as SGMs. As a result, SPI-GAN is one of the best-balanced models among the sampling quality, diversity, and time for CIFAR-10, and CelebA-HQ-256.
     
-[^172]: OpenXAI: 迈向透明评估模型解释
+[^173]: OpenXAI: 迈向透明评估模型解释
 
     OpenXAI: Towards a Transparent Evaluation of Model Explanations
 
@@ -2611,7 +2626,7 @@
 
     arXiv:2206.11104v4 Announce Type: replace-cross  Abstract: While several types of post hoc explanation methods have been proposed in recent literature, there is very little work on systematically benchmarking these methods. Here, we introduce OpenXAI, a comprehensive and extensible open-source framework for evaluating and benchmarking post hoc explanation methods. OpenXAI comprises of the following key components: (i) a flexible synthetic data generator and a collection of diverse real-world datasets, pre-trained models, and state-of-the-art feature attribution methods, and (ii) open-source implementations of eleven quantitative metrics for evaluating faithfulness, stability (robustness), and fairness of explanation methods, in turn providing comparisons of several explanation methods across a wide variety of metrics, models, and datasets. OpenXAI is easily extensible, as users can readily evaluate custom explanation methods and incorporate them into our leaderboards. Overall, OpenXAI 
     
-[^173]: 安全且广义的端到端自主驾驶系统：基于强化学习和示范的研究
+[^174]: 安全且广义的端到端自主驾驶系统：基于强化学习和示范的研究
 
     Safe and Generalized end-to-end Autonomous Driving System with Reinforcement Learning and Demonstrations. (arXiv:2401.11792v2 [cs.RO] UPDATED)
 
@@ -2625,7 +2640,7 @@
 
     An intelligent driving system should be capable of dynamically formulating appropriate driving strategies based on the current environment and vehicle status, while ensuring the security and reliability of the system. However, existing methods based on reinforcement learning and imitation learning suffer from low safety, poor generalization, and inefficient sampling. Additionally, they cannot accurately predict future driving trajectories, and the accurate prediction of future driving trajectories is a precondition for making optimal decisions. To solve these problems, in this paper, we introduce a Safe and Generalized end-to-end Autonomous Driving System (SGADS) for complex and various scenarios. Our SGADS incorporates variational inference with normalizing flows, enabling the intelligent vehicle to accurately predict future driving trajectories. Moreover, we propose the formulation of robust safety constraints. Furthermore, we combine reinforcement learning with demonstrations to aug
     
-[^174]: LDReg: 本地维度正则化的自监督学习
+[^175]: LDReg: 本地维度正则化的自监督学习
 
     LDReg: Local Dimensionality Regularized Self-Supervised Learning. (arXiv:2401.10474v1 [cs.LG])
 
@@ -2639,7 +2654,7 @@
 
     Representations learned via self-supervised learning (SSL) can be susceptible to dimensional collapse, where the learned representation subspace is of extremely low dimensionality and thus fails to represent the full data distribution and modalities. Dimensional collapse also known as the "underfilling" phenomenon is one of the major causes of degraded performance on downstream tasks. Previous work has investigated the dimensional collapse problem of SSL at a global level. In this paper, we demonstrate that representations can span over high dimensional space globally, but collapse locally. To address this, we propose a method called $\textit{local dimensionality regularization (LDReg)}$. Our formulation is based on the derivation of the Fisher-Rao metric to compare and optimize local distance distributions at an asymptotically small radius for each data point. By increasing the local intrinsic dimensionality, we demonstrate through a range of experiments that LDReg improves the repres
     
-[^175]: 朝向生成式抽象推理：通过规则抽象和选择来完成Raven的渐进矩阵
+[^176]: 朝向生成式抽象推理：通过规则抽象和选择来完成Raven的渐进矩阵
 
     Towards Generative Abstract Reasoning: Completing Raven's Progressive Matrix via Rule Abstraction and Selection. (arXiv:2401.09966v1 [cs.AI])
 
@@ -2653,7 +2668,7 @@
 
     Endowing machines with abstract reasoning ability has been a long-term research topic in artificial intelligence. Raven's Progressive Matrix (RPM) is widely used to probe abstract visual reasoning in machine intelligence, where models need to understand the underlying rules and select the missing bottom-right images out of candidate sets to complete image matrices. The participators can display powerful reasoning ability by inferring the underlying attribute-changing rules and imagining the missing images at arbitrary positions. However, existing solvers can hardly manifest such an ability in realistic RPM problems. In this paper, we propose a conditional generative model to solve answer generation problems through Rule AbstractIon and SElection (RAISE) in the latent space. RAISE encodes image attributes as latent concepts and decomposes underlying rules into atomic rules by means of concepts, which are abstracted as global learnable parameters. When generating the answer, RAISE select
     
-[^176]: 最具区分性的刺激物用于功能细胞类型的识别
+[^177]: 最具区分性的刺激物用于功能细胞类型的识别
 
     Most discriminative stimuli for functional cell type identification. (arXiv:2401.05342v1 [q-bio.NC])
 
@@ -2667,7 +2682,7 @@
 
     Identifying cell types and understanding their functional properties is crucial for unraveling the mechanisms underlying perception and cognition. In the retina, functional types can be identified by carefully selected stimuli, but this requires expert domain knowledge and biases the procedure towards previously known cell types. In the visual cortex, it is still unknown what functional types exist and how to identify them. Thus, for unbiased identification of the functional cell types in retina and visual cortex, new approaches are needed. Here we propose an optimization-based clustering approach using deep predictive models to obtain functional clusters of neurons using Most Discriminative Stimuli (MDS). Our approach alternates between stimulus optimization with cluster reassignment akin to an expectation-maximization algorithm. The algorithm recovers functional clusters in mouse retina, marmoset retina and macaque visual area V4. This demonstrates that our approach can successfully 
     
-[^177]: 生成AI增强了个体创造力，但降低了新内容的集体多样性
+[^178]: 生成AI增强了个体创造力，但降低了新内容的集体多样性
 
     Generative AI enhances individual creativity but reduces the collective diversity of novel content. (arXiv:2312.00506v2 [cs.HC] UPDATED)
 
@@ -2681,7 +2696,7 @@
 
     Creativity is core to being human. Generative artificial intelligence (GenAI) -- including ever more powerful large language models (LLMs) -- holds promise for humans to be more creative by offering new ideas, or less creative by anchoring on GenAI ideas. We study the causal impact of GenAI ideas on the production of a short story in an online experimental study where some writers could obtain story ideas from a GenAI platform. We find that access to GenAI ideas causes stories to be evaluated as more creative, better written, and more enjoyable, especially among less creative writers. However, GenAI-enabled stories are more similar to each other than stories by humans alone. These results point to an increase in individual creativity at the risk of losing collective novelty. This dynamic resembles a social dilemma: with GenAI, individual writers are better off, but collectively a narrower scope of novel content may be produced. Our results have implications for researchers, policy-make
     
-[^178]: 零坐标移动：针对物理约束操作学习的优化自动微分方法
+[^179]: 零坐标移动：针对物理约束操作学习的优化自动微分方法
 
     Zero Coordinate Shift: Whetted Automatic Differentiation for Physics-informed Operator Learning. (arXiv:2311.00860v1 [cs.LG])
 
@@ -2695,7 +2710,7 @@
 
     Automatic differentiation (AD) is a critical step in physics-informed machine learning, required for computing the high-order derivatives of network output w.r.t. coordinates. In this paper, we present a novel and lightweight algorithm to conduct such AD for physics-informed operator learning, as we call the trick of Zero Coordinate Shift (ZCS). Instead of making all sampled coordinates leaf variables, ZCS introduces only one scalar-valued leaf variable for each spatial or temporal dimension, leading to a game-changing performance leap by simplifying the wanted derivatives from "many-roots-many-leaves" to "one-root-many-leaves". ZCS is easy to implement with current deep learning libraries; our own implementation is by extending the DeepXDE package. We carry out a comprehensive benchmark analysis and several case studies, training physics-informed DeepONets to solve partial differential equations (PDEs) without data. The results show that ZCS has persistently brought down GPU memory co
     
-[^179]: 强化微调语言模型中的梯度消失问题
+[^180]: 强化微调语言模型中的梯度消失问题
 
     Vanishing Gradients in Reinforcement Finetuning of Language Models. (arXiv:2310.20703v1 [cs.LG])
 
@@ -2709,7 +2724,7 @@
 
     Pretrained language models are commonly aligned with human preferences and downstream tasks via reinforcement finetuning (RFT), which entails maximizing a (possibly learned) reward function using policy gradient algorithms. This work highlights a fundamental optimization obstacle in RFT: we prove that the expected gradient for an input vanishes when its reward standard deviation under the model is small, even if the expected reward is far from optimal. Through experiments on an RFT benchmark and controlled environments, as well as a theoretical analysis, we then demonstrate that vanishing gradients due to small reward standard deviation are prevalent and detrimental, leading to extremely slow reward maximization. Lastly, we explore ways to overcome vanishing gradients in RFT. We find the common practice of an initial supervised finetuning (SFT) phase to be the most promising candidate, which sheds light on its importance in an RFT pipeline. Moreover, we show that a relatively small num
     
-[^180]: 脑解码：走向实时重建视觉知觉
+[^181]: 脑解码：走向实时重建视觉知觉
 
     Brain decoding: toward real-time reconstruction of visual perception. (arXiv:2310.19812v1 [eess.IV])
 
@@ -2723,7 +2738,7 @@
 
     In the past five years, the use of generative and foundational AI systems has greatly improved the decoding of brain activity. Visual perception, in particular, can now be decoded from functional Magnetic Resonance Imaging (fMRI) with remarkable fidelity. This neuroimaging technique, however, suffers from a limited temporal resolution ($\approx$0.5 Hz) and thus fundamentally constrains its real-time usage. Here, we propose an alternative approach based on magnetoencephalography (MEG), a neuroimaging device capable of measuring brain activity with high temporal resolution ($\approx$5,000 Hz). For this, we develop an MEG decoding model trained with both contrastive and regression objectives and consisting of three modules: i) pretrained embeddings obtained from the image, ii) an MEG module trained end-to-end and iii) a pretrained image generator. Our results are threefold: Firstly, our MEG decoder shows a 7X improvement of image-retrieval over classic linear decoders. Second, late brain 
     
-[^181]: Davidsonian场景图：改进文本-图像生成的细粒度评估的可靠性
+[^182]: Davidsonian场景图：改进文本-图像生成的细粒度评估的可靠性
 
     Davidsonian Scene Graph: Improving Reliability in Fine-grained Evaluation for Text-Image Generation. (arXiv:2310.18235v1 [cs.CV])
 
@@ -2737,7 +2752,7 @@
 
     Evaluating text-to-image models is notoriously difficult. A strong recent approach for assessing text-image faithfulness is based on QG/A (question generation and answering), which uses pre-trained foundational models to automatically generate a set of questions and answers from the prompt, and output images are scored based on whether these answers extracted with a visual question answering model are consistent with the prompt-based answers. This kind of evaluation is naturally dependent on the quality of the underlying QG and QA models. We identify and address several reliability challenges in existing QG/A work: (a) QG questions should respect the prompt (avoiding hallucinations, duplications, and omissions) and (b) VQA answers should be consistent (not asserting that there is no motorcycle in an image while also claiming the motorcycle is blue). We address these issues with Davidsonian Scene Graph (DSG), an empirically grounded evaluation framework inspired by formal semantics. DSG
     
-[^182]: 大型语言模型用于人工智能与人类协同创作的设计空间结构化生成与探索
+[^183]: 大型语言模型用于人工智能与人类协同创作的设计空间结构化生成与探索
 
     Structured Generation and Exploration of Design Space with Large Language Models for Human-AI Co-Creation. (arXiv:2310.12953v2 [cs.HC] UPDATED)
 
@@ -2751,7 +2766,7 @@
 
     Thanks to their generative capabilities, large language models (LLMs) have become an invaluable tool for creative processes. These models have the capacity to produce hundreds and thousands of visual and textual outputs, offering abundant inspiration for creative endeavors. But are we harnessing their full potential? We argue that current interaction paradigms fall short, guiding users towards rapid convergence on a limited set of ideas, rather than empowering them to explore the vast latent design space in generative models. To address this limitation, we propose a framework that facilitates the structured generation of design space in which users can seamlessly explore, evaluate, and synthesize a multitude of responses. We demonstrate the feasibility and usefulness of this framework through the design and development of an interactive system, Luminate, and a user study with 8 professional writers. Our work advances how we interact with LLMs for creative tasks, introducing a way to ha
     
-[^183]: 在大型预训练模型时代重新思考增量学习的测试时适应方法
+[^184]: 在大型预训练模型时代重新思考增量学习的测试时适应方法
 
     Rethinking Class-incremental Learning in the Era of Large Pre-trained Models via Test-Time Adaptation. (arXiv:2310.11482v1 [cs.CV])
 
@@ -2765,7 +2780,7 @@
 
     Class-incremental learning (CIL) is a challenging task that involves continually learning to categorize classes into new tasks without forgetting previously learned information. The advent of the large pre-trained models (PTMs) has fast-tracked the progress in CIL due to the highly transferable PTM representations, where tuning a small set of parameters results in state-of-the-art performance when compared with the traditional CIL methods that are trained from scratch. However, repeated fine-tuning on each task destroys the rich representations of the PTMs and further leads to forgetting previous tasks. To strike a balance between the stability and plasticity of PTMs for CIL, we propose a novel perspective of eliminating training on every new task and instead performing test-time adaptation (TTA) directly on the test instances. Concretely, we propose "Test-Time Adaptation for Class-Incremental Learning" (TTACIL) that first fine-tunes Layer Norm parameters of the PTM on each test instan
     
-[^184]: CodeChain: 通过代表性子模块的自我修订链路实现模块化代码生成
+[^185]: CodeChain: 通过代表性子模块的自我修订链路实现模块化代码生成
 
     CodeChain: Towards Modular Code Generation Through Chain of Self-revisions with Representative Sub-modules. (arXiv:2310.08992v1 [cs.AI])
 
@@ -2779,7 +2794,7 @@
 
     Large Language Models (LLMs) have already become quite proficient at solving simpler programming tasks like those in HumanEval or MBPP benchmarks. However, solving more complex and competitive programming tasks is still quite challenging for these models - possibly due to their tendency to generate solutions as monolithic code blocks instead of decomposing them into logical sub-tasks and sub-modules. On the other hand, experienced programmers instinctively write modularized code with abstraction for solving complex tasks, often reusing previously developed modules. To address this gap, we propose CodeChain, a novel framework for inference that elicits modularized code generation through a chain of self-revisions, each being guided by some representative sub-modules generated in previous iterations. Concretely, CodeChain first instructs the LLM to generate modularized codes through chain-of-thought prompting. Then it applies a chain of self-revisions by iterating the two steps: 1) extra
     
-[^185]: AI决策中解释对公平性的影响：受保护特征 vs 代理特征
+[^186]: AI决策中解释对公平性的影响：受保护特征 vs 代理特征
 
     The Impact of Explanations on Fairness in Human-AI Decision-Making: Protected vs Proxy Features. (arXiv:2310.08617v1 [cs.AI])
 
@@ -2793,7 +2808,7 @@
 
     AI systems have been known to amplify biases in real world data. Explanations may help human-AI teams address these biases for fairer decision-making. Typically, explanations focus on salient input features. If a model is biased against some protected group, explanations may include features that demonstrate this bias, but when biases are realized through proxy features, the relationship between this proxy feature and the protected one may be less clear to a human. In this work, we study the effect of the presence of protected and proxy features on participants' perception of model fairness and their ability to improve demographic parity over an AI alone. Further, we examine how different treatments -- explanations, model bias disclosure and proxy correlation disclosure -- affect fairness perception and parity. We find that explanations help people detect direct biases but not indirect biases. Additionally, regardless of bias type, explanations tend to increase agreement with model bia
     
-[^186]: 大型语言模型尚不能自我纠正推理错误
+[^187]: 大型语言模型尚不能自我纠正推理错误
 
     Large Language Models Cannot Self-Correct Reasoning Yet. (arXiv:2310.01798v1 [cs.CL])
 
@@ -2807,7 +2822,7 @@
 
     Large Language Models (LLMs) have emerged as a groundbreaking technology with their unparalleled text generation capabilities across various applications. Nevertheless, concerns persist regarding the accuracy and appropriateness of their generated content. A contemporary methodology, self-correction, has been proposed as a remedy to these issues. Building upon this premise, this paper critically examines the role and efficacy of self-correction within LLMs, shedding light on its true potential and limitations. Central to our investigation is the notion of intrinsic self-correction, whereby an LLM attempts to correct its initial responses based solely on its inherent capabilities, without the crutch of external feedback. In the context of reasoning, our research indicates that LLMs struggle to self-correct their responses without external feedback, and at times, their performance might even degrade post self-correction. Drawing from these insights, we offer suggestions for future resear
     
-[^187]: 使用GPT-4的图神经网络架构搜索
+[^188]: 使用GPT-4的图神经网络架构搜索
 
     Graph Neural Architecture Search with GPT-4. (arXiv:2310.01436v1 [cs.LG])
 
@@ -2821,7 +2836,7 @@
 
     Graph Neural Architecture Search (GNAS) has shown promising results in automatically designing graph neural networks. However, GNAS still requires intensive human labor with rich domain knowledge to design the search space and search strategy. In this paper, we integrate GPT-4 into GNAS and propose a new GPT-4 based Graph Neural Architecture Search method (GPT4GNAS for short). The basic idea of our method is to design a new class of prompts for GPT-4 to guide GPT-4 toward the generative task of graph neural architectures. The prompts consist of descriptions of the search space, search strategy, and search feedback of GNAS. By iteratively running GPT-4 with the prompts, GPT4GNAS generates more accurate graph neural networks with fast convergence. Experimental results show that embedding GPT-4 into GNAS outperforms the state-of-the-art GNAS methods.
     
-[^188]: DyVal: 基于图形信息的大型语言模型动态评估
+[^189]: DyVal: 基于图形信息的大型语言模型动态评估
 
     DyVal: Graph-informed Dynamic Evaluation of Large Language Models. (arXiv:2309.17167v1 [cs.AI])
 
@@ -2835,7 +2850,7 @@
 
     Large language models (LLMs) have achieved remarkable performance in various evaluation benchmarks. However, concerns about their performance are raised on potential data contamination in their considerable volume of training corpus. Moreover, the static nature and fixed complexity of current benchmarks may inadequately gauge the advancing capabilities of LLMs. In this paper, we introduce DyVal, a novel, general, and flexible evaluation protocol for dynamic evaluation of LLMs. Based on our proposed dynamic evaluation framework, we build graph-informed DyVal by leveraging the structural advantage of directed acyclic graphs to dynamically generate evaluation samples with controllable complexities. DyVal generates challenging evaluation sets on reasoning tasks including mathematics, logical reasoning, and algorithm problems. We evaluate various LLMs ranging from Flan-T5-large to ChatGPT and GPT4. Experiments demonstrate that LLMs perform worse in DyVal-generated evaluation samples with di
     
-[^189]: Era Splitting.（arXiv:2309.14496v1 [cs.LG]）
+[^190]: Era Splitting.（arXiv:2309.14496v1 [cs.LG]）
 
     Era Splitting. (arXiv:2309.14496v1 [cs.LG])
 
@@ -2849,7 +2864,7 @@
 
     Real life machine learning problems exhibit distributional shifts in the data from one time to another or from on place to another. This behavior is beyond the scope of the traditional empirical risk minimization paradigm, which assumes i.i.d. distribution of data over time and across locations. The emerging field of out-of-distribution (OOD) generalization addresses this reality with new theory and algorithms which incorporate environmental, or era-wise information into the algorithms. So far, most research has been focused on linear models and/or neural networks. In this research we develop two new splitting criteria for decision trees, which allow us to apply ideas from OOD generalization research to decision tree models, including random forest and gradient-boosting decision trees. The new splitting criteria use era-wise information associated with each data point to allow tree-based models to find split points that are optimal across all disjoint eras in the data, instead of optim
     
-[^190]: 深度学习网络的几何结构和全局${\mathcal L}^2$最小化器的构建
+[^191]: 深度学习网络的几何结构和全局${\mathcal L}^2$最小化器的构建
 
     Geometric structure of Deep Learning networks and construction of global ${\mathcal L}^2$ minimizers. (arXiv:2309.10639v1 [cs.LG])
 
@@ -2863,7 +2878,7 @@
 
     In this paper, we provide a geometric interpretation of the structure of Deep Learning (DL) networks, characterized by $L$ hidden layers, a ramp activation function, an ${\mathcal L}^2$ Schatten class (or Hilbert-Schmidt) cost function, and input and output spaces ${\mathbb R}^Q$ with equal dimension $Q\geq1$. The hidden layers are defined on spaces ${\mathbb R}^{Q}$, as well. We apply our recent results on shallow neural networks to construct an explicit family of minimizers for the global minimum of the cost function in the case $L\geq Q$, which we show to be degenerate. In the context presented here, the hidden layers of the DL network "curate" the training inputs by recursive application of a truncation map that minimizes the noise to signal ratio of the training inputs. Moreover, we determine a set of $2^Q-1$ distinct degenerate local minima of the cost function.
     
-[^191]: 大型语言模型的指令调优：一项调研
+[^192]: 大型语言模型的指令调优：一项调研
 
     Instruction Tuning for Large Language Models: A Survey. (arXiv:2308.10792v2 [cs.CL] UPDATED)
 
@@ -2877,7 +2892,7 @@
 
     This paper surveys research works in the quickly advancing field of instruction tuning (IT), a crucial technique to enhance the capabilities and controllability of large language models (LLMs). Instruction tuning refers to the process of further training LLMs on a dataset consisting of \textsc{(instruction, output)} pairs in a supervised fashion, which bridges the gap between the next-word prediction objective of LLMs and the users' objective of having LLMs adhere to human instructions. In this work, we make a systematic review of the literature, including the general methodology of IT, the construction of IT datasets, the training of IT models, and applications to different modalities, domains and applications, along with an analysis on aspects that influence the outcome of IT (e.g., generation of instruction outputs, size of the instruction dataset, etc). We also review the potential pitfalls of IT along with criticism against it, along with efforts pointing out current deficiencies 
     
-[^192]: milliFlow：用于人体运动感知的毫米波雷达点云场景流估计
+[^193]: milliFlow：用于人体运动感知的毫米波雷达点云场景流估计
 
     milliFlow: Scene Flow Estimation on mmWave Radar Point Cloud for Human Motion Sensing. (arXiv:2306.17010v1 [cs.CV])
 
@@ -2891,7 +2906,7 @@
 
     Approaching the era of ubiquitous computing, human motion sensing plays a crucial role in smart systems for decision making, user interaction, and personalized services. Extensive research has been conducted on human tracking, pose estimation, gesture recognition, and activity recognition, which are predominantly based on cameras in traditional methods. However, the intrusive nature of cameras limits their use in smart home applications. To address this, mmWave radars have gained popularity due to their privacy-friendly features. In this work, we propose \textit{milliFlow}, a novel deep learning method for scene flow estimation as a complementary motion information for mmWave point cloud, serving as an intermediate level of features and directly benefiting downstream human motion sensing tasks. Experimental results demonstrate the superior performance of our method with an average 3D endpoint error of 4.6cm, significantly surpassing the competing approaches. Furthermore, by incorporati
     
-[^193]: MO-VLN:一个用于开放集合零样本视觉和语言导航的多任务基准 (arXiv:2306.10322v2 [cs.CV] 更新)
+[^194]: MO-VLN:一个用于开放集合零样本视觉和语言导航的多任务基准 (arXiv:2306.10322v2 [cs.CV] 更新)
 
     MO-VLN: A Multi-Task Benchmark for Open-set Zero-Shot Vision-and-Language Navigation. (arXiv:2306.10322v2 [cs.CV] UPDATED)
 
@@ -2905,7 +2920,7 @@
 
     Given a natural language, a general robot has to comprehend the instruction and find the target object or location based on visual observations even in unexplored environments. Most agents rely on massive diverse training data to achieve better generalization, which requires expensive labor. These agents often focus on common objects and fewer tasks, thus are not intelligent enough to handle different types of instructions. To facilitate research in open-set vision-and-language navigation, we propose a benchmark named MO-VLN, aiming at testing the effectiveness and generalization of the agent in the multi-task setting. First, we develop a 3D simulator rendered by realistic scenarios using Unreal Engine 5, containing more realistic lights and details. The simulator contains three scenes, i.e., cafe, restaurant, and nursing house, of high value in the industry. Besides, our simulator involves multiple uncommon objects, such as takeaway cup and medical adhesive tape, which are more compli
     
-[^194]: 核化强化学习及其近似方法的优化
+[^195]: 核化强化学习及其近似方法的优化
 
     Kernelized Reinforcement Learning with Order Optimal Regret Bounds. (arXiv:2306.07745v1 [cs.LG])
 
@@ -2919,7 +2934,7 @@
 
     Reinforcement learning (RL) has shown empirical success in various real world settings with complex models and large state-action spaces. The existing analytical results, however, typically focus on settings with a small number of state-actions or simple models such as linearly modeled state-action value functions. To derive RL policies that efficiently handle large state-action spaces with more general value functions, some recent works have considered nonlinear function approximation using kernel ridge regression. We propose $\pi$-KRVI, an optimistic modification of least-squares value iteration, when the state-action value function is represented by an RKHS. We prove the first order-optimal regret guarantees under a general setting. Our results show a significant polynomial in the number of episodes improvement over the state of the art. In particular, with highly non-smooth kernels (such as Neural Tangent kernel or some Mat\'ern kernels) the existing results lead to trivial (superl
     
-[^195]: 通过正交微调控制文本到图像的扩散
+[^196]: 通过正交微调控制文本到图像的扩散
 
     Controlling Text-to-Image Diffusion by Orthogonal Finetuning. (arXiv:2306.07280v2 [cs.CV] UPDATED)
 
@@ -2933,7 +2948,7 @@
 
     Large text-to-image diffusion models have impressive capabilities in generating photorealistic images from text prompts. How to effectively guide or control these powerful models to perform different downstream tasks becomes an important open problem. To tackle this challenge, we introduce a principled finetuning method -- Orthogonal Finetuning (OFT), for adapting text-to-image diffusion models to downstream tasks. Unlike existing methods, OFT can provably preserve hyperspherical energy which characterizes the pairwise neuron relationship on the unit hypersphere. We find that this property is crucial for preserving the semantic generation ability of text-to-image diffusion models. To improve finetuning stability, we further propose Constrained Orthogonal Finetuning (COFT) which imposes an additional radius constraint to the hypersphere. Specifically, we consider two important finetuning text-to-image tasks: subject-driven generation where the goal is to generate subject-specific images
     
-[^196]: 引入致敬神话人工智能竞赛
+[^197]: 引入致敬神话人工智能竞赛
 
     Introducing Tales of Tribute AI Competition. (arXiv:2305.08234v2 [cs.AI] UPDATED)
 
@@ -2947,7 +2962,7 @@
 
     This paper presents a new AI challenge, the Tales of Tribute AI Competition (TOTAIC), based on a two-player deck-building card game released with the High Isle chapter of The Elder Scrolls Online. Currently, there is no other AI competition covering Collectible Card Games (CCG) genre, and there has never been one that targets a deck-building game. Thus, apart from usual CCG-related obstacles to overcome, like randomness, hidden information, and large branching factor, the successful approach additionally requires long-term planning and versatility. The game can be tackled with multiple approaches, including classic adversarial search, single-player planning, and Neural Networks-based algorithms. This paper introduces the competition framework, describes the rules of the game, and presents the results of a tournament between sample AI agents. The first edition of TOTAIC is hosted at the IEEE Conference on Games 2023.
     
-[^197]: 区分和回答：通过辨别器缓解检索增强模型中虚假信息的影响
+[^198]: 区分和回答：通过辨别器缓解检索增强模型中虚假信息的影响
 
     Discern and Answer: Mitigating the Impact of Misinformation in Retrieval-Augmented Models with Discriminators. (arXiv:2305.01579v1 [cs.CL])
 
@@ -2961,7 +2976,7 @@
 
     Most existing retrieval-augmented language models (LMs) for question answering assume all retrieved information is factually correct. In this work, we study a more realistic scenario in which retrieved documents may contain misinformation, causing conflicts among them. We observe that the existing models are highly brittle to such information in both fine-tuning and in-context few-shot learning settings. We propose approaches to make retrieval-augmented LMs robust to misinformation by explicitly fine-tuning a discriminator or prompting to elicit discrimination capability in GPT-3. Our empirical results on open-domain question answering show that these approaches significantly improve LMs' robustness to knowledge conflicts. We also provide our findings on interleaving the fine-tuned model's decision with the in-context learning process, paving a new path to leverage the best of both worlds.
     
-[^198]: 从相邻的染色组织学片中学习黑色素细胞掩膜
+[^199]: 从相邻的染色组织学片中学习黑色素细胞掩膜
 
     Learning Melanocytic Cell Masks from Adjacent Stained Tissue. (arXiv:2211.00646v2 [q-bio.QM] UPDATED)
 
