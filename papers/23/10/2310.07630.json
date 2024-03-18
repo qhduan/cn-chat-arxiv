@@ -1,0 +1,12 @@
+{
+    "title": "Differentiable Euler Characteristic Transforms for Shape Classification",
+    "abstract": "arXiv:2310.07630v2 Announce Type: replace  Abstract: The Euler Characteristic Transform (ECT) has proven to be a powerful representation, combining geometrical and topological characteristics of shapes and graphs. However, the ECT was hitherto unable to learn task-specific representations. We overcome this issue and develop a novel computational layer that enables learning the ECT in an end-to-end fashion. Our method, the Differentiable Euler Characteristic Transform (DECT), is fast and computationally efficient, while exhibiting performance on a par with more complex models in both graph and point cloud classification tasks. Moreover, we show that this seemingly simple statistic provides the same topological expressivity as more complex topological deep learning layers.",
+    "link": "https://arxiv.org/abs/2310.07630",
+    "context": "Title: Differentiable Euler Characteristic Transforms for Shape Classification\nAbstract: arXiv:2310.07630v2 Announce Type: replace  Abstract: The Euler Characteristic Transform (ECT) has proven to be a powerful representation, combining geometrical and topological characteristics of shapes and graphs. However, the ECT was hitherto unable to learn task-specific representations. We overcome this issue and develop a novel computational layer that enables learning the ECT in an end-to-end fashion. Our method, the Differentiable Euler Characteristic Transform (DECT), is fast and computationally efficient, while exhibiting performance on a par with more complex models in both graph and point cloud classification tasks. Moreover, we show that this seemingly simple statistic provides the same topological expressivity as more complex topological deep learning layers.",
+    "path": "papers/23/10/2310.07630.json",
+    "total_tokens": 704,
+    "translated_title": "可微分欧拉特征变换用于形状分类",
+    "translated_abstract": "欧拉特征变换（ECT）已被证明是一种强大的表示方法，结合了形状和图形的几何和拓扑特征。然而，迄今为止，ECT无法学习特定任务的表示。我们克服了这一问题，并开发了一种新颖的计算层，可以使ECT以端到端的方式进行学习。我们的方法，Differentiable Euler Characteristic Transform（DECT），速度快，计算高效，同时在图形和点云分类任务中表现出与更复杂模型相当的性能。此外，我们展示了这种看似简单的统计量提供了与更复杂的拓扑深度学习层相同的拓扑表达能力。",
+    "tldr": "提出了一种不同iable Euler Characteristic Transform（DECT）计算层，能够实现端到端学习ECT，展现出与更复杂模型相当的性能。",
+    "en_tdlr": "Proposed a Differentiable Euler Characteristic Transform (DECT) computational layer that enables end-to-end learning of ECT, exhibiting performance on par with more complex models."
+}

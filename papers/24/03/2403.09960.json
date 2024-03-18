@@ -1,0 +1,12 @@
+{
+    "title": "Multivariate Gaussian Approximation for Random Forest via Region-based Stabilization",
+    "abstract": "arXiv:2403.09960v1 Announce Type: cross  Abstract: We derive Gaussian approximation bounds for random forest predictions based on a set of training points given by a Poisson process, under fairly mild regularity assumptions on the data generating process. Our approach is based on the key observation that the random forest predictions satisfy a certain geometric property called region-based stabilization. In the process of developing our results for the random forest, we also establish a probabilistic result, which might be of independent interest, on multivariate Gaussian approximation bounds for general functionals of Poisson process that are region-based stabilizing. This general result makes use of the Malliavin-Stein method, and is potentially applicable to various related statistical problems.",
+    "link": "https://arxiv.org/abs/2403.09960",
+    "context": "Title: Multivariate Gaussian Approximation for Random Forest via Region-based Stabilization\nAbstract: arXiv:2403.09960v1 Announce Type: cross  Abstract: We derive Gaussian approximation bounds for random forest predictions based on a set of training points given by a Poisson process, under fairly mild regularity assumptions on the data generating process. Our approach is based on the key observation that the random forest predictions satisfy a certain geometric property called region-based stabilization. In the process of developing our results for the random forest, we also establish a probabilistic result, which might be of independent interest, on multivariate Gaussian approximation bounds for general functionals of Poisson process that are region-based stabilizing. This general result makes use of the Malliavin-Stein method, and is potentially applicable to various related statistical problems.",
+    "path": "papers/24/03/2403.09960.json",
+    "total_tokens": 735,
+    "translated_title": "通过基于区域稳定性的多元高斯逼近改进随机森林",
+    "translated_abstract": "我们在给定由泊松过程产生的一组训练点的情况下，推导了随机森林预测的高斯逼近界限，假设数据生成过程存在相当温和的正则性假设。我们的方法基于一个关键观察：随机森林的预测满足一定的称为基于区域稳定性的几何属性。在为随机森林开发结果的过程中，我们还为基于区域稳定的泊松过程的一般泛函建立了一个概率结果，这可能是独立感兴趣的。这一普遍结果利用了Malliavin-Stein方法，并且可能适用于各种相关的统计问题。",
+    "tldr": "该论文通过基于区域稳定性的方法，推导出了随机森林预测的高斯逼近界限，并建立了适用于各种相关统计问题的概率结果。",
+    "en_tdlr": "This paper derives Gaussian approximation bounds for random forest predictions based on region-based stabilization, providing probabilistic results applicable to various related statistical problems."
+}

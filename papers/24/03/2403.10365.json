@@ -1,0 +1,11 @@
+{
+    "title": "Scalable Algorithms for Individual Preference Stable Clustering",
+    "abstract": "arXiv:2403.10365v1 Announce Type: cross  Abstract: In this paper, we study the individual preference (IP) stability, which is an notion capturing individual fairness and stability in clustering. Within this setting, a clustering is $\\alpha$-IP stable when each data point's average distance to its cluster is no more than $\\alpha$ times its average distance to any other cluster. In this paper, we study the natural local search algorithm for IP stable clustering. Our analysis confirms a $O(\\log n)$-IP stability guarantee for this algorithm, where $n$ denotes the number of points in the input. Furthermore, by refining the local search approach, we show it runs in an almost linear time, $\\tilde{O}(nk)$.",
+    "link": "https://arxiv.org/abs/2403.10365",
+    "context": "Title: Scalable Algorithms for Individual Preference Stable Clustering\nAbstract: arXiv:2403.10365v1 Announce Type: cross  Abstract: In this paper, we study the individual preference (IP) stability, which is an notion capturing individual fairness and stability in clustering. Within this setting, a clustering is $\\alpha$-IP stable when each data point's average distance to its cluster is no more than $\\alpha$ times its average distance to any other cluster. In this paper, we study the natural local search algorithm for IP stable clustering. Our analysis confirms a $O(\\log n)$-IP stability guarantee for this algorithm, where $n$ denotes the number of points in the input. Furthermore, by refining the local search approach, we show it runs in an almost linear time, $\\tilde{O}(nk)$.",
+    "path": "papers/24/03/2403.10365.json",
+    "total_tokens": 745,
+    "translated_title": "可扩展的个人偏好稳定聚类算法",
+    "translated_abstract": "在本文中，我们研究了个人偏好（IP）稳定性，这是一个捕捉聚类中个人公平性和稳定性的概念。在这个设定中，当每个数据点到其簇的平均距离不超过其到任何其他簇的平均距离的 $\\alpha$ 倍时，一个聚类是 $\\alpha$-IP 稳定的。在本文中，我们研究了用于 IP 稳定聚类的自然局部搜索算法。我们的分析证实了此算法的 $O(\\log n)$-IP 稳定性保证，其中 $n$ 表示输入中的数据点数量。此外，通过改进局部搜索方法，我们表明其运行时间几乎是线性的，为 $\\tilde{O}(nk)$。",
+    "tldr": "研究了个人偏好稳定聚类的可扩展算法，通过局部搜索获得了 $O(\\log n)$-IP 稳定性保证，并且在几乎线性时间内运行。"
+}

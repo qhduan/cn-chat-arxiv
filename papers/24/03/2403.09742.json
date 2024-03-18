@@ -1,0 +1,12 @@
+{
+    "title": "A Short Review on Novel Approaches for Maximum Clique Problem: from Classical algorithms to Graph Neural Networks and Quantum algorithms",
+    "abstract": "arXiv:2403.09742v1 Announce Type: new  Abstract: This manuscript provides a comprehensive review of the Maximum Clique Problem, a computational problem that involves finding subsets of vertices in a graph that are all pairwise adjacent to each other. The manuscript covers in a simple way classical algorithms for solving the problem and includes a review of recent developments in graph neural networks and quantum algorithms. The review concludes with benchmarks for testing classical as well as new learning, and quantum algorithms.",
+    "link": "https://arxiv.org/abs/2403.09742",
+    "context": "Title: A Short Review on Novel Approaches for Maximum Clique Problem: from Classical algorithms to Graph Neural Networks and Quantum algorithms\nAbstract: arXiv:2403.09742v1 Announce Type: new  Abstract: This manuscript provides a comprehensive review of the Maximum Clique Problem, a computational problem that involves finding subsets of vertices in a graph that are all pairwise adjacent to each other. The manuscript covers in a simple way classical algorithms for solving the problem and includes a review of recent developments in graph neural networks and quantum algorithms. The review concludes with benchmarks for testing classical as well as new learning, and quantum algorithms.",
+    "path": "papers/24/03/2403.09742.json",
+    "total_tokens": 600,
+    "translated_title": "最大团问题的新方法简要回顾：从经典算法到图神经网络和量子算法",
+    "translated_abstract": "这篇手稿全面回顾了最大团问题，这是一个涉及在图中找到所有两两相邻的顶点子集的计算问题。手稿以简单的方式涵盖了解决该问题的经典算法，并包括了对图神经网络和量子算法最近发展的审查。该综述以基准测试来评估经典以及新的学习和量子算法。",
+    "tldr": "该综述回顾了解决最大团问题的经典算法，同时也涵盖了图神经网络和量子算法的最新进展，并提出了用于测试这些算法的基准。",
+    "en_tdlr": "The review covers classical algorithms for solving the Maximum Clique Problem, recent developments in graph neural networks and quantum algorithms, and benchmarks for testing these algorithms."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A Short Survey on Importance Weighting for Machine Learning",
+    "abstract": "arXiv:2403.10175v1 Announce Type: cross  Abstract: Importance weighting is a fundamental procedure in statistics and machine learning that weights the objective function or probability distribution based on the importance of the instance in some sense. The simplicity and usefulness of the idea has led to many applications of importance weighting. For example, it is known that supervised learning under an assumption about the difference between the training and test distributions, called distribution shift, can guarantee statistically desirable properties through importance weighting by their density ratio. This survey summarizes the broad applications of importance weighting in machine learning and related research.",
+    "link": "https://arxiv.org/abs/2403.10175",
+    "context": "Title: A Short Survey on Importance Weighting for Machine Learning\nAbstract: arXiv:2403.10175v1 Announce Type: cross  Abstract: Importance weighting is a fundamental procedure in statistics and machine learning that weights the objective function or probability distribution based on the importance of the instance in some sense. The simplicity and usefulness of the idea has led to many applications of importance weighting. For example, it is known that supervised learning under an assumption about the difference between the training and test distributions, called distribution shift, can guarantee statistically desirable properties through importance weighting by their density ratio. This survey summarizes the broad applications of importance weighting in machine learning and related research.",
+    "path": "papers/24/03/2403.10175.json",
+    "total_tokens": 682,
+    "translated_title": "机器学习中的重要性加权简要调查",
+    "translated_abstract": "重要性加权是统计学和机器学习中的一项基本程序，根据某种意义上实例的重要性对目标函数或概率分布进行加权。这一简单而有用的思想的广泛应用导致了许多重要性加权的应用。例如，据知，在关于训练和测试分布之间差异的假设下的监督学习，通过密度比的重要性加权可以保证统计上期望的性质。这项调查总结了机器学习和相关研究中重要性加权的广泛应用。",
+    "tldr": "重要性加权是统计学和机器学习中的基本程序，通过对目标函数或概率分布进行加权，可以保证监督学习在训练和测试分布之间差异的情况下具有统计上期望的性质",
+    "en_tdlr": "Importance weighting is a fundamental procedure in statistics and machine learning that weights the objective function or probability distribution based on the importance of the instance in some sense, ensuring statistically desirable properties for supervised learning under an assumption about the difference between training and test distributions."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Self-Consistency Boosts Calibration for Math Reasoning",
+    "abstract": "arXiv:2403.09849v1 Announce Type: cross  Abstract: Calibration, which establishes the correlation between accuracy and model confidence, is important for LLM development. We design three off-the-shelf calibration methods based on self-consistency (Wang et al., 2022) for math reasoning tasks. Evaluation on two popular benchmarks (GSM8K and MathQA) using strong open-source LLMs (Mistral and LLaMA2), our methods better bridge model confidence and accuracy than existing methods based on p(True) (Kadavath et al., 2022) or logit (Kadavath et al., 2022).",
+    "link": "https://arxiv.org/abs/2403.09849",
+    "context": "Title: Self-Consistency Boosts Calibration for Math Reasoning\nAbstract: arXiv:2403.09849v1 Announce Type: cross  Abstract: Calibration, which establishes the correlation between accuracy and model confidence, is important for LLM development. We design three off-the-shelf calibration methods based on self-consistency (Wang et al., 2022) for math reasoning tasks. Evaluation on two popular benchmarks (GSM8K and MathQA) using strong open-source LLMs (Mistral and LLaMA2), our methods better bridge model confidence and accuracy than existing methods based on p(True) (Kadavath et al., 2022) or logit (Kadavath et al., 2022).",
+    "path": "papers/24/03/2403.09849.json",
+    "total_tokens": 631,
+    "translated_title": "自洽性提升数学推理的校准",
+    "translated_abstract": "校准，建立准确性和模型信心之间的关联，对LLM开发至关重要。我们基于自洽性设计了三种即插即用的校准方法（Wang等，2022年）用于数学推理任务。在两个流行基准（GSM8K和MathQA）上评估使用强大的开源LLMs（Mistral和LLaMA2），我们的方法比基于p(True)的现有方法（Kadavath等人，2022年）或logit（Kadavath等人，2022年）更好地连接模型信心和准确性。",
+    "tldr": "基于自洽性的校准方法在数学推理任务中能够更好地建立模型信心和准确性之间的关联。",
+    "en_tdlr": "Self-consistency-based calibration methods can better bridge the correlation between model confidence and accuracy in math reasoning tasks."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Fine-tuning vs Prompting, Can Language Models Understand Human Values?",
+    "abstract": "arXiv:2403.09720v1 Announce Type: cross  Abstract: Accurately handling the underlying support values in sentences is crucial for understanding the speaker's tendencies, yet it poses a challenging task in natural language understanding (NLU). In this article, we explore the potential of fine-tuning and prompt tuning in this downstream task, using the Human Value Detection 2023. Additionally, we attempt to validate whether models can effectively solve the problem based on the knowledge acquired during the pre-training stage. Simultaneously, our interest lies in the capabilities of large language models (LLMs) aligned with RLHF in this task, and some preliminary attempts are presented.",
+    "link": "https://arxiv.org/abs/2403.09720",
+    "context": "Title: Fine-tuning vs Prompting, Can Language Models Understand Human Values?\nAbstract: arXiv:2403.09720v1 Announce Type: cross  Abstract: Accurately handling the underlying support values in sentences is crucial for understanding the speaker's tendencies, yet it poses a challenging task in natural language understanding (NLU). In this article, we explore the potential of fine-tuning and prompt tuning in this downstream task, using the Human Value Detection 2023. Additionally, we attempt to validate whether models can effectively solve the problem based on the knowledge acquired during the pre-training stage. Simultaneously, our interest lies in the capabilities of large language models (LLMs) aligned with RLHF in this task, and some preliminary attempts are presented.",
+    "path": "papers/24/03/2403.09720.json",
+    "total_tokens": 662,
+    "translated_title": "微调与提示，语言模型能理解人类价值观吗？",
+    "translated_abstract": "准确处理句子中的潜在支持的价值观对于理解说话者的倾向至关重要，但在自然语言理解（NLU）中却是一个具有挑战性的任务。在本文中，我们探讨了在人类价值检测2023中微调和提示调整在这一下游任务中的潜力。此外，我们尝试验证模型是否能够根据在预训练阶段获得的知识有效解决这个问题。同时，我们对大型语言模型（LLMs）在这个任务中与RLHF的能力感兴趣，并提出了一些初步尝试。",
+    "tldr": "通过对Human Value Detection 2023任务中的微调和提示调整的探索，验证语言模型是否能理解人类价值观。",
+    "en_tdlr": "Investigating the potential of fine-tuning and prompt tuning in the Human Value Detection 2023 task to validate the understanding of human values by language models."
+}

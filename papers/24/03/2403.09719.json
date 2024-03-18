@@ -1,0 +1,12 @@
+{
+    "title": "Mevaker: Conclusion Extraction and Allocation Resources for the Hebrew Language",
+    "abstract": "arXiv:2403.09719v1 Announce Type: cross  Abstract: In this paper, we introduce summarization MevakerSumm and conclusion extraction MevakerConc datasets for the Hebrew language based on the State Comptroller and Ombudsman of Israel reports, along with two auxiliary datasets. We accompany these datasets with models for conclusion extraction (HeConE, HeConEspc) and conclusion allocation (HeCross). All of the code, datasets, and model checkpoints used in this work are publicly available.",
+    "link": "https://arxiv.org/abs/2403.09719",
+    "context": "Title: Mevaker: Conclusion Extraction and Allocation Resources for the Hebrew Language\nAbstract: arXiv:2403.09719v1 Announce Type: cross  Abstract: In this paper, we introduce summarization MevakerSumm and conclusion extraction MevakerConc datasets for the Hebrew language based on the State Comptroller and Ombudsman of Israel reports, along with two auxiliary datasets. We accompany these datasets with models for conclusion extraction (HeConE, HeConEspc) and conclusion allocation (HeCross). All of the code, datasets, and model checkpoints used in this work are publicly available.",
+    "path": "papers/24/03/2403.09719.json",
+    "total_tokens": 585,
+    "translated_title": "Mevaker: 针对希伯来语言的结论提取和分配资源",
+    "translated_abstract": "在本文中，我们基于以色列国家审计长和巡查员的报告，介绍了用于希伯来语言的摘要MevakerSumm和结论提取MevakerConc数据集，以及两个辅助数据集。我们提供了用于结论提取(HeConE, HeConEspc)和结论分配(HeCross)的模型，本工作中使用的所有代码、数据集和模型检查点都是公开可用的。",
+    "tldr": "介绍了用于希伯来语言的结论提取模型和数据集，包括摘要和结论提取数据集，并提供了相应模型和代码",
+    "en_tdlr": "Introducing conclusion extraction models and datasets for the Hebrew language, including abstract and conclusion extraction datasets, with corresponding models and code provided."
+}

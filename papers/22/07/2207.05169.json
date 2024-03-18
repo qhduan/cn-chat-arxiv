@@ -1,0 +1,12 @@
+{
+    "title": "Existence of optimal controls for stochastic Volterra equations",
+    "abstract": "arXiv:2207.05169v2 Announce Type: replace-cross  Abstract: We provide sufficient conditions that guarantee the existence of relaxed optimal controls in the weak formulation of stochastic control problems for stochastic Volterra equations (SVEs). Our study can be applied to rough processes that arise when the kernel appearing in the controlled SVE is singular at zero. The existence of relaxed optimal policies relies on the interaction between integrability hypotheses on the kernel and growth conditions on the running cost functional and the coefficients of the controlled SVEs. Under classical convexity assumptions, we can also deduce the existence of optimal strict controls.",
+    "link": "https://arxiv.org/abs/2207.05169",
+    "context": "Title: Existence of optimal controls for stochastic Volterra equations\nAbstract: arXiv:2207.05169v2 Announce Type: replace-cross  Abstract: We provide sufficient conditions that guarantee the existence of relaxed optimal controls in the weak formulation of stochastic control problems for stochastic Volterra equations (SVEs). Our study can be applied to rough processes that arise when the kernel appearing in the controlled SVE is singular at zero. The existence of relaxed optimal policies relies on the interaction between integrability hypotheses on the kernel and growth conditions on the running cost functional and the coefficients of the controlled SVEs. Under classical convexity assumptions, we can also deduce the existence of optimal strict controls.",
+    "path": "papers/22/07/2207.05169.json",
+    "total_tokens": 666,
+    "translated_title": "随机Volterra方程的最优控制存在性",
+    "translated_abstract": "我们提供充分条件，保证在随机Volterra方程（SVEs）的弱形式随机控制问题中存在松弛最优控制。我们的研究可以应用于核在受控SVE中在零点是奇异的粗糙过程。松弛最优策略的存在依赖于核的可积性假设与受控SVE的运行成本函数和系数的增长条件之间的相互作用。在经典的凸性假设下，我们还可以推导出最优严格控制的存在。",
+    "tldr": "该论文提出了保证随机Volterra方程的弱形式随机控制问题中存在最优控制的充分条件，能够适用于核在受控SVE中在零点奇异的粗糙过程。",
+    "en_tdlr": "This paper provides sufficient conditions to guarantee the existence of optimal controls in the weak formulation of stochastic control problems for stochastic Volterra equations, applicable to rough processes with singular kernels at zero."
+}

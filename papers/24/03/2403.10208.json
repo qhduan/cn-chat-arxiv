@@ -1,0 +1,12 @@
+{
+    "title": "Irrational Random Utility Models",
+    "abstract": "arXiv:2403.10208v1 Announce Type: new  Abstract: We show that the set of aggregate choices of a population of rational decision-makers - random utility models (RUMs) - can be represented by a population of irrational ones if, and only if, their preferences are sufficiently uncorrelated. We call this representation: Irrational RUM. We then show that almost all RUMs can be represented by a population in which at least some decision-makers are irrational and that under specific conditions their irrational behavior is unconstrained.",
+    "link": "https://arxiv.org/abs/2403.10208",
+    "context": "Title: Irrational Random Utility Models\nAbstract: arXiv:2403.10208v1 Announce Type: new  Abstract: We show that the set of aggregate choices of a population of rational decision-makers - random utility models (RUMs) - can be represented by a population of irrational ones if, and only if, their preferences are sufficiently uncorrelated. We call this representation: Irrational RUM. We then show that almost all RUMs can be represented by a population in which at least some decision-makers are irrational and that under specific conditions their irrational behavior is unconstrained.",
+    "path": "papers/24/03/2403.10208.json",
+    "total_tokens": 678,
+    "translated_title": "非理性随机效用模型",
+    "translated_abstract": "我们展示了一个理性决策者群体的集合选择 - 随机效用模型（RUMs） - 只有当他们的偏好足够不相关时，可以通过一个非理性决策者群体来表示。我们称这种表示为：非理性RUM。然后我们展示几乎所有的RUMs都可以通过至少一部分决策者是非理性决策者的群体来表示，并且在特定条件下他们的非理性行为是不受限制的。",
+    "tldr": "理性决策者群体的选择可以被足够不相关的偏好的非理性决策者群体所代表，即非理性RUM。几乎所有的RUMs可以通过一部分决策者是非理性的群体来表示，并且在特定条件下他们的非理性行为是不受限制的。",
+    "en_tdlr": "The set of choices by rational decision-makers can be represented by a population of sufficiently uncorrelated preferences of irrational decision-makers, termed as Irrational RUM. Almost all RUMs can be represented by a group with at least some irrational decision-makers, and their irrational behavior is unconstrained under specific conditions."
+}

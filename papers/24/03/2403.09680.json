@@ -1,0 +1,12 @@
+{
+    "title": "Pre-Sorted Tsetlin Machine (The Genetic K-Medoid Method)",
+    "abstract": "arXiv:2403.09680v1 Announce Type: cross  Abstract: This paper proposes a machine learning pre-sort stage to traditional supervised learning using Tsetlin Machines. Initially, N data-points are identified from the dataset using an expedited genetic algorithm to solve the maximum dispersion problem. These are then used as the initial placement to run the K-Medoid clustering algorithm. Finally, an expedited genetic algorithm is used to align N independent Tsetlin Machines by maximising hamming distance. For MNIST level classification problems, results demonstrate up to 10% improvement in accuracy, approx. 383X reduction in training time and approx. 86X reduction in inference time.",
+    "link": "https://arxiv.org/abs/2403.09680",
+    "context": "Title: Pre-Sorted Tsetlin Machine (The Genetic K-Medoid Method)\nAbstract: arXiv:2403.09680v1 Announce Type: cross  Abstract: This paper proposes a machine learning pre-sort stage to traditional supervised learning using Tsetlin Machines. Initially, N data-points are identified from the dataset using an expedited genetic algorithm to solve the maximum dispersion problem. These are then used as the initial placement to run the K-Medoid clustering algorithm. Finally, an expedited genetic algorithm is used to align N independent Tsetlin Machines by maximising hamming distance. For MNIST level classification problems, results demonstrate up to 10% improvement in accuracy, approx. 383X reduction in training time and approx. 86X reduction in inference time.",
+    "path": "papers/24/03/2403.09680.json",
+    "total_tokens": 717,
+    "translated_title": "预排序Tsetlin机器（基因K-Medoid方法）",
+    "translated_abstract": "本文提出了一种利用Tsetlin Machines进行传统监督学习的机器学习预排序阶段。首先，利用快速遗传算法从数据集中确定N个数据点，以解决最大离散化问题。然后，这些被用作运行K-Medoid聚类算法的初始放置。最后，利用快速遗传算法通过最大化汉明距离来对齐N个独立的Tsetlin Machines。对于MNIST级别的分类问题，结果显示准确度提高了高达10％，训练时间减少了约383倍，推理时间减少了约86倍。",
+    "tldr": "该论文提出了一种利用Tsetlin Machines进行传统监督学习的机器学习预排序阶段方法，在MNIST级别的分类问题上取得了显著的精度提升，以及训练时间和推理时间大幅度减少。",
+    "en_tdlr": "This paper introduces a machine learning pre-sort stage using Tsetlin Machines for traditional supervised learning, achieving significant accuracy improvement, as well as drastic reductions in training and inference time for classification tasks at the MNIST level."
+}

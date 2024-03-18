@@ -1,0 +1,12 @@
+{
+    "title": "Energy Correction Model in the Feature Space for Out-of-Distribution Detection",
+    "abstract": "arXiv:2403.10403v1 Announce Type: cross  Abstract: In this work, we study the out-of-distribution (OOD) detection problem through the use of the feature space of a pre-trained deep classifier. We show that learning the density of in-distribution (ID) features with an energy-based models (EBM) leads to competitive detection results. However, we found that the non-mixing of MCMC sampling during the EBM's training undermines its detection performance. To overcome this an energy-based correction of a mixture of class-conditional Gaussian distributions. We obtains favorable results when compared to a strong baseline like the KNN detector on the CIFAR-10/CIFAR-100 OOD detection benchmarks.",
+    "link": "https://arxiv.org/abs/2403.10403",
+    "context": "Title: Energy Correction Model in the Feature Space for Out-of-Distribution Detection\nAbstract: arXiv:2403.10403v1 Announce Type: cross  Abstract: In this work, we study the out-of-distribution (OOD) detection problem through the use of the feature space of a pre-trained deep classifier. We show that learning the density of in-distribution (ID) features with an energy-based models (EBM) leads to competitive detection results. However, we found that the non-mixing of MCMC sampling during the EBM's training undermines its detection performance. To overcome this an energy-based correction of a mixture of class-conditional Gaussian distributions. We obtains favorable results when compared to a strong baseline like the KNN detector on the CIFAR-10/CIFAR-100 OOD detection benchmarks.",
+    "path": "papers/24/03/2403.10403.json",
+    "total_tokens": 682,
+    "translated_title": "特征空间中的能量校正模型用于异常检测",
+    "translated_abstract": "在这项工作中，我们通过使用预训练深度分类器的特征空间研究了基于能量的模型（EBM）学习内部分布（ID）特征的密度，发现在EBM训练过程中MCMC采样的非混合性会削弱其检测性能。为了克服这一问题，我们提出了一种由混合类条件高斯分布组成的能量校正模型，与CIFAR-10/CIFAR-100 OOD检测基准上的强基线KNN检测器相比取得了良好的结果。",
+    "tldr": "通过在特征空间中学习内部分布特征密度的能量校正模型，本文提出了一种在异常检测中取得竞争性结果的方法",
+    "en_tdlr": "By learning the density of in-distribution (ID) features in the feature space with an energy correction model, a competitive method for out-of-distribution detection is proposed."
+}

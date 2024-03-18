@@ -1,0 +1,12 @@
+{
+    "title": "xLP: Explainable Link Prediction for Master Data Management",
+    "abstract": "arXiv:2403.09806v1 Announce Type: new  Abstract: Explaining neural model predictions to users requires creativity. Especially in enterprise applications, where there are costs associated with users' time, and their trust in the model predictions is critical for adoption. For link prediction in master data management, we have built a number of explainability solutions drawing from research in interpretability, fact verification, path ranking, neuro-symbolic reasoning and self-explaining AI. In this demo, we present explanations for link prediction in a creative way, to allow users to choose explanations they are more comfortable with.",
+    "link": "https://arxiv.org/abs/2403.09806",
+    "context": "Title: xLP: Explainable Link Prediction for Master Data Management\nAbstract: arXiv:2403.09806v1 Announce Type: new  Abstract: Explaining neural model predictions to users requires creativity. Especially in enterprise applications, where there are costs associated with users' time, and their trust in the model predictions is critical for adoption. For link prediction in master data management, we have built a number of explainability solutions drawing from research in interpretability, fact verification, path ranking, neuro-symbolic reasoning and self-explaining AI. In this demo, we present explanations for link prediction in a creative way, to allow users to choose explanations they are more comfortable with.",
+    "path": "papers/24/03/2403.09806.json",
+    "total_tokens": 706,
+    "translated_title": "xLP：主数据管理的可解释链接预测",
+    "translated_abstract": "arXiv:2403.09806v1 公告类型：新摘要：向用户解释神经模型的预测需要创造力。尤其是在企业应用中，用户的时间成本很高，他们对模型预测的信任对于采用至关重要。对于主数据管理中的链接预测，我们构建了许多可解释性解决方案，汲取了解释性、事实验证、路径排名、神经符号推理和自解释AI等研究成果。在这个演示中，我们以一种富有创意的方式呈现链接预测的解释，让用户选择他们更舒适的解释。",
+    "tldr": "主数据管理领域的xLP项目通过结合解释性、事实验证、路径排名、神经符号推理和自解释AI等研究成果，创造性地提供了链接预测的解释，并让用户可以选择更符合其需求的解释方式。",
+    "en_tdlr": "xLP project in the field of Master Data Management creatively provides explanations for link prediction by integrating research in interpretability, fact verification, path ranking, neuro-symbolic reasoning, and self-explaining AI, allowing users to choose explanations that better suit their needs."
+}

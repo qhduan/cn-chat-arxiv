@@ -1,0 +1,12 @@
+{
+    "title": "A Conceptual Framework For White Box Neural Networks",
+    "abstract": "arXiv:2403.09863v1 Announce Type: cross  Abstract: This paper introduces semantic features as a general conceptual framework for fully explainable neural network layers. A well-motivated proof of concept model for relevant subproblem of MNIST consists of 4 such layers with the total of 4.8K learnable parameters. The model is easily interpretable, achieves human-level adversarial test accuracy with no form of adversarial training, requires little hyperparameter tuning and can be quickly trained on a single CPU. The general nature of the technique bears promise for a paradigm shift towards radically democratised and truly generalizable white box neural networks. The code is available at https://github.com/314-Foundation/white-box-nn",
+    "link": "https://arxiv.org/abs/2403.09863",
+    "context": "Title: A Conceptual Framework For White Box Neural Networks\nAbstract: arXiv:2403.09863v1 Announce Type: cross  Abstract: This paper introduces semantic features as a general conceptual framework for fully explainable neural network layers. A well-motivated proof of concept model for relevant subproblem of MNIST consists of 4 such layers with the total of 4.8K learnable parameters. The model is easily interpretable, achieves human-level adversarial test accuracy with no form of adversarial training, requires little hyperparameter tuning and can be quickly trained on a single CPU. The general nature of the technique bears promise for a paradigm shift towards radically democratised and truly generalizable white box neural networks. The code is available at https://github.com/314-Foundation/white-box-nn",
+    "path": "papers/24/03/2403.09863.json",
+    "total_tokens": 712,
+    "translated_title": "一个白盒神经网络的概念框架",
+    "translated_abstract": "本文引入语义特征作为完全可解释神经网络层的通用概念框架。一个充分动机的MNIST相关子问题的概念验证模型包括4个这样的层，总共4800个可学习参数。该模型易于解释，无需任何形式的对抗训练即可实现人类水平的对抗测试准确率，需要较少的超参数调节，并且可以在单个CPU上快速训练。该技术的通用性承诺为彻底民主化和真正通用的白盒神经网络带来了希望。代码可在https://github.com/314-Foundation/white-box-nn找到。",
+    "tldr": "引入语义特征作为通用概念框架，实现了完全可解释的神经网络层，为白盒神经网络的范式转变开辟了新的可能性。",
+    "en_tdlr": "Introducing semantic features as a general conceptual framework, achieving fully explainable neural network layers, leading to new possibilities for a paradigm shift towards white box neural networks."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Surrogate Assisted Monte Carlo Tree Search in Combinatorial Optimization",
+    "abstract": "arXiv:2403.09925v1 Announce Type: new  Abstract: Industries frequently adjust their facilities network by opening new branches in promising areas and closing branches in areas where they expect low profits. In this paper, we examine a particular class of facility location problems. Our objective is to minimize the loss of sales resulting from the removal of several retail stores. However, estimating sales accurately is expensive and time-consuming. To overcome this challenge, we leverage Monte Carlo Tree Search (MCTS) assisted by a surrogate model that computes evaluations faster. Results suggest that MCTS supported by a fast surrogate function can generate solutions faster while maintaining a consistent solution compared to MCTS that does not benefit from the surrogate function.",
+    "link": "https://arxiv.org/abs/2403.09925",
+    "context": "Title: Surrogate Assisted Monte Carlo Tree Search in Combinatorial Optimization\nAbstract: arXiv:2403.09925v1 Announce Type: new  Abstract: Industries frequently adjust their facilities network by opening new branches in promising areas and closing branches in areas where they expect low profits. In this paper, we examine a particular class of facility location problems. Our objective is to minimize the loss of sales resulting from the removal of several retail stores. However, estimating sales accurately is expensive and time-consuming. To overcome this challenge, we leverage Monte Carlo Tree Search (MCTS) assisted by a surrogate model that computes evaluations faster. Results suggest that MCTS supported by a fast surrogate function can generate solutions faster while maintaining a consistent solution compared to MCTS that does not benefit from the surrogate function.",
+    "path": "papers/24/03/2403.09925.json",
+    "total_tokens": 745,
+    "translated_title": "辅助蒙特卡洛树搜索在组合优化中的应用",
+    "translated_abstract": "行业经常通过在有前景的地区开设新分支机构并关闭他们预期低利润的地区的分支机构来调整他们的设施网络。在本文中，我们研究了一类特定的设施选址问题。我们的目标是最小化由于关闭几家零售店而导致的销售损失。然而，准确估计销售额是昂贵且耗时的。为了克服这一挑战，我们利用蒙特卡洛树搜索（MCTS）辅助一个能更快计算评估的代理模型。结果表明，由快速代理函数支持的MCTS可以更快地生成解决方案，同时与不利用代理函数的MCTS相比，能保持一致的解决方案。",
+    "tldr": "利用辅助代理模型的蒙特卡洛树搜索在组合优化中可以更快生成解决方案，并且与不使用代理模型的方法相比能够保持一致的解决方案",
+    "en_tdlr": "Surrogate-assisted Monte Carlo Tree Search can generate solutions faster in combinatorial optimization and maintain consistent solutions compared to methods without surrogate model."
+}
