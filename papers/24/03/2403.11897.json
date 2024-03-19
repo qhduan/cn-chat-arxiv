@@ -1,0 +1,11 @@
+{
+    "title": "Risk premium and rough volatility",
+    "abstract": "arXiv:2403.11897v1 Announce Type: new  Abstract: One the one hand, rough volatility has been shown to provide a consistent framework to capture the properties of stock price dynamics both under the historical measure and for pricing purposes. On the other hand, market price of volatility risk is a well-studied object in Financial Economics, and empirical estimates show it to be stochastic rather than deterministic. Starting from a rough volatility model under the historical measure, we take up this challenge and provide an analysis of the impact of such a non-deterministic risk for pricing purposes.",
+    "link": "https://arxiv.org/abs/2403.11897",
+    "context": "Title: Risk premium and rough volatility\nAbstract: arXiv:2403.11897v1 Announce Type: new  Abstract: One the one hand, rough volatility has been shown to provide a consistent framework to capture the properties of stock price dynamics both under the historical measure and for pricing purposes. On the other hand, market price of volatility risk is a well-studied object in Financial Economics, and empirical estimates show it to be stochastic rather than deterministic. Starting from a rough volatility model under the historical measure, we take up this challenge and provide an analysis of the impact of such a non-deterministic risk for pricing purposes.",
+    "path": "papers/24/03/2403.11897.json",
+    "total_tokens": 665,
+    "translated_title": "风险溢价和粗糙波动率",
+    "translated_abstract": "粗糙波动率已被证明为一种一致的框架，能够捕捉股价动态的特性，在历史衡量下以及用于定价目的。另一方面，波动率风险的市场价格是金融经济学中一个被广泛研究的对象，经验估计表明其是随机的而非确定性的。从历史衡量下的粗糙波动率模型出发，我们接受了这一挑战，并对这种非确定性风险对定价目的的影响进行了分析。",
+    "tldr": "粗糙波动率提供了捕捉股价动态特性的一致框架，在历史衡量和定价目的下。我们分析了非确定性风险对定价的影响。"
+}

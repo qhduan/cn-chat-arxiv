@@ -1,0 +1,12 @@
+{
+    "title": "Efficient Feature Extraction and Late Fusion Strategy for Audiovisual Emotional Mimicry Intensity Estimation",
+    "abstract": "arXiv:2403.11757v1 Announce Type: cross  Abstract: In this paper, we present the solution to the Emotional Mimicry Intensity (EMI) Estimation challenge, which is part of 6th Affective Behavior Analysis in-the-wild (ABAW) Competition.The EMI Estimation challenge task aims to evaluate the emotional intensity of seed videos by assessing them from a set of predefined emotion categories (i.e., \"Admiration,\" \"Amusement,\" \"Determination,\" \"Empathic Pain,\" \"Excitement,\" and \"Joy\").",
+    "link": "https://arxiv.org/abs/2403.11757",
+    "context": "Title: Efficient Feature Extraction and Late Fusion Strategy for Audiovisual Emotional Mimicry Intensity Estimation\nAbstract: arXiv:2403.11757v1 Announce Type: cross  Abstract: In this paper, we present the solution to the Emotional Mimicry Intensity (EMI) Estimation challenge, which is part of 6th Affective Behavior Analysis in-the-wild (ABAW) Competition.The EMI Estimation challenge task aims to evaluate the emotional intensity of seed videos by assessing them from a set of predefined emotion categories (i.e., \"Admiration,\" \"Amusement,\" \"Determination,\" \"Empathic Pain,\" \"Excitement,\" and \"Joy\").",
+    "path": "papers/24/03/2403.11757.json",
+    "total_tokens": 640,
+    "translated_title": "音频视觉情感模仿强度估计的高效特征提取和延迟融合策略",
+    "translated_abstract": "在本文中，我们提出了解情感模仿强度（EMI）估计挑战的解决方案，该挑战是第六届面向野外情感行为分析（ABAW）竞赛的一部分。EMI估计挑战任务旨在通过从一组预定义的情绪类别（即，“崇拜”，“娱乐”，“决心”，“共情性疼痛”，“兴奋”和“喜悦”）中评估它们来评估种子视频的情感强度。",
+    "tldr": "本文提出了用于音频视觉情感模仿强度估计的高效特征提取和延迟融合策略",
+    "en_tdlr": "This paper presents an efficient feature extraction and late fusion strategy for audiovisual emotional mimicry intensity estimation."
+}

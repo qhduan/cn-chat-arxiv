@@ -1,0 +1,12 @@
+{
+    "title": "LookALike: Human Mimicry based collaborative decision making",
+    "abstract": "arXiv:2403.10824v1 Announce Type: cross  Abstract: Artificial General Intelligence falls short when communicating role specific nuances to other systems. This is more pronounced when building autonomous LLM agents capable and designed to communicate with each other for real world problem solving. Humans can communicate context and domain specific nuances along with knowledge, and that has led to refinement of skills. In this work we propose and evaluate a novel method that leads to knowledge distillation among LLM agents leading to realtime human role play preserving unique contexts without relying on any stored data or pretraining. We also evaluate how our system performs better in simulated real world tasks compared to state of the art.",
+    "link": "https://arxiv.org/abs/2403.10824",
+    "context": "Title: LookALike: Human Mimicry based collaborative decision making\nAbstract: arXiv:2403.10824v1 Announce Type: cross  Abstract: Artificial General Intelligence falls short when communicating role specific nuances to other systems. This is more pronounced when building autonomous LLM agents capable and designed to communicate with each other for real world problem solving. Humans can communicate context and domain specific nuances along with knowledge, and that has led to refinement of skills. In this work we propose and evaluate a novel method that leads to knowledge distillation among LLM agents leading to realtime human role play preserving unique contexts without relying on any stored data or pretraining. We also evaluate how our system performs better in simulated real world tasks compared to state of the art.",
+    "path": "papers/24/03/2403.10824.json",
+    "total_tokens": 788,
+    "translated_title": "LookALike: 基于人类模仿的协作决策",
+    "translated_abstract": "人工通用智能在向其他系统传达特定角色细微差别方面存在不足。在构建能够相互沟通以解决现实世界问题的自主LLM代理时，这一不足更为明显。人类能够传达上下文和领域特定的微小差别以及知识，这导致了技能的进一步完善。在这项工作中，我们提出并评估了一种新颖的方法，实现了LLM代理之间的知识精炼，从而实现了保留独特上下文而无需依赖任何存储数据或预训练的实时人类角色扮演。我们还评估了我们的系统在模拟实际任务中相比最先进技术表现更好的情况。",
+    "tldr": "提出了一种新颖的方法，通过在LLM代理之间进行知识蒸馏，实现实时的人类角色扮演，保留独特上下文，而不依赖任何存储数据或预训练，并展示出在模拟真实世界任务中表现优于现有技术。",
+    "en_tdlr": "Introduced a novel method that achieves real-time human role play among LLM agents through knowledge distillation, preserving unique contexts without relying on stored data or pretraining, and demonstrated superior performance in simulated real-world tasks compared to state-of-the-art."
+}

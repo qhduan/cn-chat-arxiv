@@ -1,0 +1,12 @@
+{
+    "title": "SuperLoRA: Parameter-Efficient Unified Adaptation of Multi-Layer Attention Modules",
+    "abstract": "arXiv:2403.11887v1 Announce Type: cross  Abstract: Low-rank adaptation (LoRA) and its variants are widely employed in fine-tuning large models, including large language models for natural language processing and diffusion models for computer vision. This paper proposes a generalized framework called SuperLoRA that unifies and extends different LoRA variants, which can be realized under different hyper-parameter settings. Introducing grouping, folding, shuffling, projecting, and tensor factoring, SuperLoRA offers high flexibility compared with other LoRA variants and demonstrates superior performance for transfer learning tasks especially in the extremely few-parameter regimes.",
+    "link": "https://arxiv.org/abs/2403.11887",
+    "context": "Title: SuperLoRA: Parameter-Efficient Unified Adaptation of Multi-Layer Attention Modules\nAbstract: arXiv:2403.11887v1 Announce Type: cross  Abstract: Low-rank adaptation (LoRA) and its variants are widely employed in fine-tuning large models, including large language models for natural language processing and diffusion models for computer vision. This paper proposes a generalized framework called SuperLoRA that unifies and extends different LoRA variants, which can be realized under different hyper-parameter settings. Introducing grouping, folding, shuffling, projecting, and tensor factoring, SuperLoRA offers high flexibility compared with other LoRA variants and demonstrates superior performance for transfer learning tasks especially in the extremely few-parameter regimes.",
+    "path": "papers/24/03/2403.11887.json",
+    "total_tokens": 676,
+    "translated_title": "SuperLoRA: 多层注意力模块参数高效统一适应",
+    "translated_abstract": "低秩自适应（LoRA）及其变体被广泛应用于微调大型模型，包括自然语言处理的大型语言模型和计算机视觉的扩散模型。本文提出了一个名为SuperLoRA的通用框架，统一并扩展了不同的LoRA变体，可以在不同的超参数设置下实现。通过引入分组、折叠、洗牌、投影和张量因子化，SuperLoRA相比其他LoRA变体提供了更高的灵活性，在非常少的参数范围内特别在传递学习任务中表现出卓越性能。",
+    "tldr": "SuperLoRA提出了一个统一且高度灵活的框架，通过引入不同的技巧扩展了不同的LoRA变体，在极少参数情况下特别优异。",
+    "en_tdlr": "SuperLoRA proposes a unified and highly flexible framework that extends different LoRA variants by introducing various techniques, showing superior performance in transfer learning tasks especially with extremely few parameters."
+}

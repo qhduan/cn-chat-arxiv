@@ -1,0 +1,12 @@
+{
+    "title": "What Makes Math Word Problems Challenging for LLMs?",
+    "abstract": "arXiv:2403.11369v1 Announce Type: new  Abstract: This paper investigates the question of what makes math word problems (MWPs) challenging for large language models (LLMs). We conduct an in-depth analysis of the key linguistic and mathematical characteristics of MWPs. In addition, we train feature-based classifiers to better understand the impact of each feature on the overall difficulty of MWPs for prominent LLMs and investigate whether this helps predict how well LLMs fare against specific categories of MWPs.",
+    "link": "https://arxiv.org/abs/2403.11369",
+    "context": "Title: What Makes Math Word Problems Challenging for LLMs?\nAbstract: arXiv:2403.11369v1 Announce Type: new  Abstract: This paper investigates the question of what makes math word problems (MWPs) challenging for large language models (LLMs). We conduct an in-depth analysis of the key linguistic and mathematical characteristics of MWPs. In addition, we train feature-based classifiers to better understand the impact of each feature on the overall difficulty of MWPs for prominent LLMs and investigate whether this helps predict how well LLMs fare against specific categories of MWPs.",
+    "path": "papers/24/03/2403.11369.json",
+    "total_tokens": 617,
+    "translated_title": "什么让大型语言模型对数学问题难以应对？",
+    "translated_abstract": "这篇论文研究了对大型语言模型(LLMs)而言，什么让数学问题的文字题目(math word problems, MWPs)变得具有挑战性。我们深入分析了MWPs的关键语言和数学特征。此外，我们训练了基于特征的分类器，以更好地理解每个特征对于LLMs日常任务中MWPs的整体难度的影响，并探究这是否有助于预测LLMs在特定类别的MWPs上的表现。",
+    "tldr": "研究了大型语言模型在处理数学问题的文字题目时所面临的困难，通过分析特征和训练分类器来预测模型对不同类型题目的表现。",
+    "en_tdlr": "Investigated challenges faced by large language models when dealing with mathematical word problems, analyzed features and trained classifiers to predict model performance on different types of problems."
+}

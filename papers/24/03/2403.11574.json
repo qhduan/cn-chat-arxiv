@@ -1,0 +1,11 @@
+{
+    "title": "Offline Multitask Representation Learning for Reinforcement Learning",
+    "abstract": "arXiv:2403.11574v1 Announce Type: new  Abstract: We study offline multitask representation learning in reinforcement learning (RL), where a learner is provided with an offline dataset from different tasks that share a common representation and is asked to learn the shared representation. We theoretically investigate offline multitask low-rank RL, and propose a new algorithm called MORL for offline multitask representation learning. Furthermore, we examine downstream RL in reward-free, offline and online scenarios, where a new task is introduced to the agent that shares the same representation as the upstream offline tasks. Our theoretical results demonstrate the benefits of using the learned representation from the upstream offline task instead of directly learning the representation of the low-rank model.",
+    "link": "https://arxiv.org/abs/2403.11574",
+    "context": "Title: Offline Multitask Representation Learning for Reinforcement Learning\nAbstract: arXiv:2403.11574v1 Announce Type: new  Abstract: We study offline multitask representation learning in reinforcement learning (RL), where a learner is provided with an offline dataset from different tasks that share a common representation and is asked to learn the shared representation. We theoretically investigate offline multitask low-rank RL, and propose a new algorithm called MORL for offline multitask representation learning. Furthermore, we examine downstream RL in reward-free, offline and online scenarios, where a new task is introduced to the agent that shares the same representation as the upstream offline tasks. Our theoretical results demonstrate the benefits of using the learned representation from the upstream offline task instead of directly learning the representation of the low-rank model.",
+    "path": "papers/24/03/2403.11574.json",
+    "total_tokens": 711,
+    "translated_title": "离线多任务表示学习用于强化学习",
+    "translated_abstract": "我们研究了强化学习中的离线多任务表示学习，其中学习者被提供来自共享通用表示的不同任务的离线数据集，并被要求学习共享表示。我们从理论上对离线多任务低秩RL进行了研究，并提出了一种名为MORL的新算法，用于离线多任务表示学习。此外，我们在奖励免费、离线和在线场景中研究了下游RL，其中向代理引入了一个新任务，该任务与上游离线任务共享相同的表示。我们的理论结果表明，使用从上游离线任务中学到的表示的好处，而不是直接学习低秩模型的表示。",
+    "tldr": "通过研究离线多任务低秩RL，提出了一种名为MORL的新算法，证明了在强化学习中应用学习到的表示的优势。"
+}

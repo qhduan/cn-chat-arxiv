@@ -1,0 +1,11 @@
+{
+    "title": "Looped Transformers are Better at Learning Learning Algorithms",
+    "abstract": "arXiv:2311.12424v3 Announce Type: replace  Abstract: Transformers have demonstrated effectiveness in in-context solving data-fitting problems from various (latent) models, as reported by Garg et al. However, the absence of an inherent iterative structure in the transformer architecture presents a challenge in emulating the iterative algorithms, which are commonly employed in traditional machine learning methods. To address this, we propose the utilization of looped transformer architecture and its associated training methodology, with the aim of incorporating iterative characteristics into the transformer architectures. Experimental results suggest that the looped transformer achieves performance comparable to the standard transformer in solving various data-fitting problems, while utilizing less than 10% of the parameter count.",
+    "link": "https://arxiv.org/abs/2311.12424",
+    "context": "Title: Looped Transformers are Better at Learning Learning Algorithms\nAbstract: arXiv:2311.12424v3 Announce Type: replace  Abstract: Transformers have demonstrated effectiveness in in-context solving data-fitting problems from various (latent) models, as reported by Garg et al. However, the absence of an inherent iterative structure in the transformer architecture presents a challenge in emulating the iterative algorithms, which are commonly employed in traditional machine learning methods. To address this, we propose the utilization of looped transformer architecture and its associated training methodology, with the aim of incorporating iterative characteristics into the transformer architectures. Experimental results suggest that the looped transformer achieves performance comparable to the standard transformer in solving various data-fitting problems, while utilizing less than 10% of the parameter count.",
+    "path": "papers/23/11/2311.12424.json",
+    "total_tokens": 742,
+    "translated_title": "循环变压器在学习学习算法方面更有效",
+    "translated_abstract": "变压器已经证明在上下文中解决来自各种(潜在)模型的数据拟合问题方面非常有效，但是，变压器架构中缺乏固有的迭代结构在模拟迭代算法方面存在挑战，而传统机器学习方法通常采用迭代算法。为了解决这个问题，我们提出了循环变压器架构及其相关的训练方法，旨在将迭代特征融入变压器架构中。实验结果表明，循环变压器在解决各种数据拟合问题方面的性能与标准变压器可比，同时参数数量不到标准变压器的10%。",
+    "tldr": "提出了循环变压器架构及其训练方法，通过将迭代特征融入变压器架构中，实现了在解决数据拟合问题方面与标准变压器性能可比的效果，同时参数数量少于10%。"
+}

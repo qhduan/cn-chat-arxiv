@@ -1,0 +1,12 @@
+{
+    "title": "Incentivized Exploration of Non-Stationary Stochastic Bandits",
+    "abstract": "arXiv:2403.10819v1 Announce Type: cross  Abstract: We study incentivized exploration for the multi-armed bandit (MAB) problem with non-stationary reward distributions, where players receive compensation for exploring arms other than the greedy choice and may provide biased feedback on the reward. We consider two different non-stationary environments: abruptly-changing and continuously-changing, and propose respective incentivized exploration algorithms. We show that the proposed algorithms achieve sublinear regret and compensation over time, thus effectively incentivizing exploration despite the nonstationarity and the biased or drifted feedback.",
+    "link": "https://arxiv.org/abs/2403.10819",
+    "context": "Title: Incentivized Exploration of Non-Stationary Stochastic Bandits\nAbstract: arXiv:2403.10819v1 Announce Type: cross  Abstract: We study incentivized exploration for the multi-armed bandit (MAB) problem with non-stationary reward distributions, where players receive compensation for exploring arms other than the greedy choice and may provide biased feedback on the reward. We consider two different non-stationary environments: abruptly-changing and continuously-changing, and propose respective incentivized exploration algorithms. We show that the proposed algorithms achieve sublinear regret and compensation over time, thus effectively incentivizing exploration despite the nonstationarity and the biased or drifted feedback.",
+    "path": "papers/24/03/2403.10819.json",
+    "total_tokens": 656,
+    "translated_title": "非平稳随机赌博机的激励探索",
+    "translated_abstract": "我们研究了多臂赌博机（MAB）问题中的激励探索，其中玩家通过探索除了贪婪选择之外的臂获得补偿，并且可能对奖励提供偏倚反馈。我们考虑了两种不同的非平稳环境：突变和持续变化，并提出了相应的激励探索算法。我们展示了所提出的算法实现了随时间的子线性遗憾和补偿，从而有效地激励了探索，尽管存在非平稳性和偏倚或漂移反馈。",
+    "tldr": "提出了针对非平稳随机赌博机的激励探索算法，实现了随时间的子线性遗憾和补偿",
+    "en_tdlr": "Proposed incentivized exploration algorithms for non-stationary stochastic bandits achieve sublinear regret and compensation over time."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Value of Assistance for Grasping",
+    "abstract": "arXiv:2310.14402v2 Announce Type: replace-cross  Abstract: In multiple realistic settings, a robot is tasked with grasping an object without knowing its exact pose and relies on a probabilistic estimation of the pose to decide how to attempt the grasp. We support settings in which it is possible to provide the robot with an observation of the object before a grasp is attempted but this possibility is limited and there is a need to decide which sensing action would be most beneficial. We support this decision by offering a novel Value of Assistance (VOA) measure for assessing the expected effect a specific observation will have on the robot's ability to complete its task. We evaluate our suggested measure in simulated and real-world collaborative grasping settings.",
+    "link": "https://arxiv.org/abs/2310.14402",
+    "context": "Title: Value of Assistance for Grasping\nAbstract: arXiv:2310.14402v2 Announce Type: replace-cross  Abstract: In multiple realistic settings, a robot is tasked with grasping an object without knowing its exact pose and relies on a probabilistic estimation of the pose to decide how to attempt the grasp. We support settings in which it is possible to provide the robot with an observation of the object before a grasp is attempted but this possibility is limited and there is a need to decide which sensing action would be most beneficial. We support this decision by offering a novel Value of Assistance (VOA) measure for assessing the expected effect a specific observation will have on the robot's ability to complete its task. We evaluate our suggested measure in simulated and real-world collaborative grasping settings.",
+    "path": "papers/23/10/2310.14402.json",
+    "total_tokens": 747,
+    "translated_title": "抓取过程中协助价值的研究",
+    "translated_abstract": "在多种实际设置中，机器人被赋予抓取物体的任务，但不知道物体的确切姿势，依赖对姿势的概率估计来决定如何尝试抓取。我们支持在尝试抓取之前向机器人提供物体观测的设置，但这种可能性有限，需要决定哪种感知行为最有益。我们通过提供一种新颖的协助价值（Value of Assistance, VOA）度量来支持这种决策，这种度量用于评估特定观测将对机器人完成任务的能力产生的预期影响。我们在模拟和真实世界的协作抓取环境中评估了我们提出的度量方法。",
+    "tldr": "提出了一种新颖的协助价值（VOA）度量，用于评估特定观测对机器人完成抓取任务的预期影响，通过模拟和真实环境验证了该度量的有效性。",
+    "en_tdlr": "Proposed a novel Value of Assistance (VOA) measure to assess the expected impact of specific observation on the robot's ability to complete grasping tasks, validated the measure's effectiveness in simulated and real-world collaborative grasping settings."
+}

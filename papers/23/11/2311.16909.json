@@ -1,0 +1,12 @@
+{
+    "title": "Multinomial belief networks",
+    "abstract": "arXiv:2311.16909v2 Announce Type: replace-cross  Abstract: A Bayesian approach to machine learning is attractive when we need to quantify uncertainty, deal with missing observations, when samples are scarce, or when the data is sparse. All of these commonly apply when analysing healthcare data. To address these analytical requirements, we propose a deep generative model for multinomial count data where both the weights and hidden units of the network are Dirichlet distributed. A Gibbs sampling procedure is formulated that takes advantage of a series of augmentation relations, analogous to the Zhou--Cong--Chen model. We apply the model on small handwritten digits, and a large experimental dataset of DNA mutations in cancer, and we show how the model is able to extract biologically meaningful meta-signatures in a fully data-driven way.",
+    "link": "https://arxiv.org/abs/2311.16909",
+    "context": "Title: Multinomial belief networks\nAbstract: arXiv:2311.16909v2 Announce Type: replace-cross  Abstract: A Bayesian approach to machine learning is attractive when we need to quantify uncertainty, deal with missing observations, when samples are scarce, or when the data is sparse. All of these commonly apply when analysing healthcare data. To address these analytical requirements, we propose a deep generative model for multinomial count data where both the weights and hidden units of the network are Dirichlet distributed. A Gibbs sampling procedure is formulated that takes advantage of a series of augmentation relations, analogous to the Zhou--Cong--Chen model. We apply the model on small handwritten digits, and a large experimental dataset of DNA mutations in cancer, and we show how the model is able to extract biologically meaningful meta-signatures in a fully data-driven way.",
+    "path": "papers/23/11/2311.16909.json",
+    "total_tokens": 710,
+    "translated_title": "多项式信念网络",
+    "translated_abstract": "机器学习中的贝叶斯方法在需要量化不确定性、处理缺失观测、样本稀缺或数据稀疏时是具有吸引力的。为了满足这些分析需求，我们提出了一种用于多项式计数数据的深层生成模型，其中网络的权重和隐藏单元均服从狄利克雷分布。我们制定了一个利用一系列增广关系的吉布斯抽样过程，类似于周-丛-陈模型。我们将该模型应用于小规模手写数字和一个大型的DNA突变癌症实验数据集，并展示了该模型如何能够完全数据驱动地提取出生物意义的元签名。",
+    "tldr": "提出了一种深度生成模型，用于处理具有多项式计数数据的分析需求，并能够从数据中完全自动提取出生物意义的元签名。",
+    "en_tdlr": "Propose a deep generative model to address analytical requirements with multinomial count data and extract biologically meaningful meta-signatures automatically from the data."
+}

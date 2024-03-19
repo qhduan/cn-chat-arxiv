@@ -1,0 +1,12 @@
+{
+    "title": "Quasi-sure essential supremum and applications to finance",
+    "abstract": "arXiv:2107.12862v2 Announce Type: replace  Abstract: When uncertainty is modelled by a set of non-dominated and non-compact probability measures, a notion of essential supremum for a family of real-valued functions is developed in terms of upper semi-analytic functions. We show how the properties postulated on the initial functions carry over to their quasi-sure essential supremum. We propose various applications to financial problems with frictions. We analyse super-replication and prove a bi-dual characterization of the super-hedging cost. We also study a weak no-arbitrage condition called Absence of Instantaneous Profit (AIP) under which prices are finite. This requires new results on the aggregation of quasi-sure statements.",
+    "link": "https://arxiv.org/abs/2107.12862",
+    "context": "Title: Quasi-sure essential supremum and applications to finance\nAbstract: arXiv:2107.12862v2 Announce Type: replace  Abstract: When uncertainty is modelled by a set of non-dominated and non-compact probability measures, a notion of essential supremum for a family of real-valued functions is developed in terms of upper semi-analytic functions. We show how the properties postulated on the initial functions carry over to their quasi-sure essential supremum. We propose various applications to financial problems with frictions. We analyse super-replication and prove a bi-dual characterization of the super-hedging cost. We also study a weak no-arbitrage condition called Absence of Instantaneous Profit (AIP) under which prices are finite. This requires new results on the aggregation of quasi-sure statements.",
+    "path": "papers/21/07/2107.12862.json",
+    "total_tokens": 753,
+    "translated_title": "准必然本质上确界及其在金融中的应用",
+    "translated_abstract": "当不确定性被一组非支配和非紧致概率测度模拟时，以上半解析函数为基础，针对一组实值函数提出了本质上确界的概念。我们展示了初始函数上假设的性质如何延伸到它们的准必然本质确界上。我们提出了在金融问题中应用的各种方式，包括对带摩擦的超复制进行分析，并证明了超对冲成本的双对偶特征。我们还研究了一种弱套利无套利条件，称为瞬间利润缺失（AIP），在这种条件下价格是有限的。这需要对准必然陈述的聚合提出新的结果。",
+    "tldr": "提出了针对一组实值函数的准必然本质确界概念，并将其应用于金融问题，包括超复制分析和超对冲成本的双对偶特征。",
+    "en_tdlr": "Introduced a notion of quasi-sure essential supremum for a family of real-valued functions, applied to financial problems including analysis of super-replication and a bi-dual characterization of the super-hedging cost."
+}

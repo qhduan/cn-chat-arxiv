@@ -1,0 +1,12 @@
+{
+    "title": "Llemma: An Open Language Model For Mathematics",
+    "abstract": "arXiv:2310.10631v3 Announce Type: replace-cross  Abstract: We present Llemma, a large language model for mathematics. We continue pretraining Code Llama on the Proof-Pile-2, a mixture of scientific papers, web data containing mathematics, and mathematical code, yielding Llemma. On the MATH benchmark Llemma outperforms all known open base models, as well as the unreleased Minerva model suite on an equi-parameter basis. Moreover, Llemma is capable of tool use and formal theorem proving without any further finetuning. We openly release all artifacts, including 7 billion and 34 billion parameter models, the Proof-Pile-2, and code to replicate our experiments.",
+    "link": "https://arxiv.org/abs/2310.10631",
+    "context": "Title: Llemma: An Open Language Model For Mathematics\nAbstract: arXiv:2310.10631v3 Announce Type: replace-cross  Abstract: We present Llemma, a large language model for mathematics. We continue pretraining Code Llama on the Proof-Pile-2, a mixture of scientific papers, web data containing mathematics, and mathematical code, yielding Llemma. On the MATH benchmark Llemma outperforms all known open base models, as well as the unreleased Minerva model suite on an equi-parameter basis. Moreover, Llemma is capable of tool use and formal theorem proving without any further finetuning. We openly release all artifacts, including 7 billion and 34 billion parameter models, the Proof-Pile-2, and code to replicate our experiments.",
+    "path": "papers/23/10/2310.10631.json",
+    "total_tokens": 687,
+    "translated_title": "Llemma: 一种用于数学的开放语言模型",
+    "translated_abstract": "我们提出了Llemma，一个用于数学的大型语言模型。我们继续在Proof-Pile-2上对Code Llama进行预训练，Proof-Pile-2包含科学论文、包含数学内容的网络数据和数学代码，最终生成了Llemma。在MATH基准测试中，Llemma在同等参数基础上胜过所有已知的开源基准模型，以及尚未发布的Minerva模型套件。此外，Llemma能够进行工具使用和形式定理证明，而无需进一步微调。我们公开发布所有工件，包括70亿和340亿参数模型、Proof-Pile-2以及用于复制我们实验的代码。",
+    "tldr": "Llemma是一个用于数学的开放语言模型，在MATH基准测试中表现优异，能够进行工具使用和形式定理证明，无需进一步微调。",
+    "en_tdlr": "Llemma is an open language model for mathematics that performs well in the MATH benchmark, is capable of tool use and formal theorem proving without any further finetuning."
+}

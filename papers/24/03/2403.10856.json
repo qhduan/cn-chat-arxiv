@@ -1,0 +1,12 @@
+{
+    "title": "Zero-shot Generative Linguistic Steganography",
+    "abstract": "arXiv:2403.10856v1 Announce Type: new  Abstract: Generative linguistic steganography attempts to hide secret messages into covertext. Previous studies have generally focused on the statistical differences between the covertext and stegotext, however, ill-formed stegotext can readily be identified by humans. In this paper, we propose a novel zero-shot approach based on in-context learning for linguistic steganography to achieve better perceptual and statistical imperceptibility. We also design several new metrics and reproducible language evaluations to measure the imperceptibility of the stegotext. Our experimental results indicate that our method produces $1.926\\times$ more innocent and intelligible stegotext than any other method.",
+    "link": "https://arxiv.org/abs/2403.10856",
+    "context": "Title: Zero-shot Generative Linguistic Steganography\nAbstract: arXiv:2403.10856v1 Announce Type: new  Abstract: Generative linguistic steganography attempts to hide secret messages into covertext. Previous studies have generally focused on the statistical differences between the covertext and stegotext, however, ill-formed stegotext can readily be identified by humans. In this paper, we propose a novel zero-shot approach based on in-context learning for linguistic steganography to achieve better perceptual and statistical imperceptibility. We also design several new metrics and reproducible language evaluations to measure the imperceptibility of the stegotext. Our experimental results indicate that our method produces $1.926\\times$ more innocent and intelligible stegotext than any other method.",
+    "path": "papers/24/03/2403.10856.json",
+    "total_tokens": 702,
+    "translated_title": "无监督生成语言隐写术",
+    "translated_abstract": "生成性语言隐写术试图将秘密信息隐藏在覆盖文本中。先前的研究通常侧重于覆盖文本和隐写文本之间的统计差异，然而，不规范的隐写文本很容易被人类辨别出来。在本文中，我们提出了一种基于上下文学习的新型零样本方法，用于实现更好的感知和统计隐蔽性。我们还设计了几个新的度量标准和可重现的语言评估，以衡量隐写文本的隐蔽性。我们的实验结果表明，我们的方法产生的无害和可理解的隐写文本比任何其他方法多1.926倍。",
+    "tldr": "本文提出了一种基于上下文学习的新型零样本方法，利用生成性语言隐写术实现更好的感知和统计隐蔽性。",
+    "en_tdlr": "This paper proposes a novel zero-shot approach based on in-context learning for linguistic steganography to achieve better perceptual and statistical imperceptibility."
+}

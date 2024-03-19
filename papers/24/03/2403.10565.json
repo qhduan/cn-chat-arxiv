@@ -1,0 +1,12 @@
+{
+    "title": "PTSD-MDNN : Fusion tardive de r\\'eseaux de neurones profonds multimodaux pour la d\\'etection du trouble de stress post-traumatique",
+    "abstract": "arXiv:2403.10565v1 Announce Type: cross  Abstract: In order to provide a more objective and quicker way to diagnose post-traumatic stress disorder (PTSD), we present PTSD-MDNN which merges two unimodal convolutional neural networks and which gives low detection error rate. By taking only videos and audios as inputs, the model could be used in the configuration of teleconsultation sessions, in the optimization of patient journeys or for human-robot interaction.",
+    "link": "https://arxiv.org/abs/2403.10565",
+    "context": "Title: PTSD-MDNN : Fusion tardive de r\\'eseaux de neurones profonds multimodaux pour la d\\'etection du trouble de stress post-traumatique\nAbstract: arXiv:2403.10565v1 Announce Type: cross  Abstract: In order to provide a more objective and quicker way to diagnose post-traumatic stress disorder (PTSD), we present PTSD-MDNN which merges two unimodal convolutional neural networks and which gives low detection error rate. By taking only videos and audios as inputs, the model could be used in the configuration of teleconsultation sessions, in the optimization of patient journeys or for human-robot interaction.",
+    "path": "papers/24/03/2403.10565.json",
+    "total_tokens": 618,
+    "translated_title": "PTSD-MDNN：融合多模态深度神经网络以更快速地检测创伤后应激障碍",
+    "translated_abstract": "为了提供一种更客观、更快速的诊断创伤后应激障碍（PTSD）的方法，我们提出了PTSD-MDNN，它合并了两个单模态卷积神经网络，并且具有较低的检测错误率。该模型仅使用视频和音频作为输入，可用于远程会诊、优化患者就诊过程或用于人机交互配置。",
+    "tldr": "PTSD-MDNN通过融合多模态深度神经网络，提供了一种更客观、更快速的方法来检测创伤后应激障碍。",
+    "en_tdlr": "PTSD-MDNN provides a more objective and quicker way to diagnose post-traumatic stress disorder by merging multimodal deep neural networks."
+}

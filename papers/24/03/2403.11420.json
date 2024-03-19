@@ -1,0 +1,12 @@
+{
+    "title": "Neural network representation of quantum systems",
+    "abstract": "arXiv:2403.11420v1 Announce Type: cross  Abstract: It has been proposed that random wide neural networks near Gaussian process are quantum field theories around Gaussian fixed points. In this paper, we provide a novel map with which a wide class of quantum mechanical systems can be cast into the form of a neural network with a statistical summation over network parameters. Our simple idea is to use the universal approximation theorem of neural networks to generate arbitrary paths in the Feynman's path integral. The map can be applied to interacting quantum systems / field theories, even away from the Gaussian limit. Our findings bring machine learning closer to the quantum world.",
+    "link": "https://arxiv.org/abs/2403.11420",
+    "context": "Title: Neural network representation of quantum systems\nAbstract: arXiv:2403.11420v1 Announce Type: cross  Abstract: It has been proposed that random wide neural networks near Gaussian process are quantum field theories around Gaussian fixed points. In this paper, we provide a novel map with which a wide class of quantum mechanical systems can be cast into the form of a neural network with a statistical summation over network parameters. Our simple idea is to use the universal approximation theorem of neural networks to generate arbitrary paths in the Feynman's path integral. The map can be applied to interacting quantum systems / field theories, even away from the Gaussian limit. Our findings bring machine learning closer to the quantum world.",
+    "path": "papers/24/03/2403.11420.json",
+    "total_tokens": 696,
+    "translated_title": "神经网络表示量子系统",
+    "translated_abstract": "已经提出，接近高斯过程的随机宽神经网络是围绕高斯固定点的量子场论。在本文中，我们提供了一种新颖的映射，通过该映射，可以将一大类量子力学系统表达为具有对网络参数的统计求和形式的神经网络。我们的简单思想是利用神经网络的通用逼近定理生成费曼路径积分中的任意路径。这种映射可以应用于相互作用的量子系统/场论，即使远离高斯极限。我们的发现使机器学习与量子世界更加接近。",
+    "tldr": "利用神经网络的通用逼近定理，我们提出了一个新颖的映射方法，将广泛类的量子力学系统表示为神经网络形式，从而可以对Feynman路径积分中的任意路径进行统计求和。",
+    "en_tdlr": "By leveraging the universal approximation theorem of neural networks, we propose a novel mapping approach to represent a wide class of quantum mechanical systems in the form of neural networks, allowing for statistical summation over arbitrary paths in Feynman's path integral."
+}

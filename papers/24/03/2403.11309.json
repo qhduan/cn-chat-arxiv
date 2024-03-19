@@ -1,0 +1,12 @@
+{
+    "title": "Nonparametric Identification and Estimation with Non-Classical Errors-in-Variables",
+    "abstract": "arXiv:2403.11309v1 Announce Type: new  Abstract: This paper considers nonparametric identification and estimation of the regression function when a covariate is mismeasured. The measurement error need not be classical. Employing the small measurement error approximation, we establish nonparametric identification under weak and easy-to-interpret conditions on the instrumental variable. The paper also provides nonparametric estimators of the regression function and derives their rates of convergence.",
+    "link": "https://arxiv.org/abs/2403.11309",
+    "context": "Title: Nonparametric Identification and Estimation with Non-Classical Errors-in-Variables\nAbstract: arXiv:2403.11309v1 Announce Type: new  Abstract: This paper considers nonparametric identification and estimation of the regression function when a covariate is mismeasured. The measurement error need not be classical. Employing the small measurement error approximation, we establish nonparametric identification under weak and easy-to-interpret conditions on the instrumental variable. The paper also provides nonparametric estimators of the regression function and derives their rates of convergence.",
+    "path": "papers/24/03/2403.11309.json",
+    "total_tokens": 606,
+    "translated_title": "非参数识别与非经典变量误差估计",
+    "translated_abstract": "本文考虑在协变量存在测量误差时，对回归函数进行非参数识别和估计。测量误差不需要是经典的。利用小测量误差近似，我们建立在工具变量的弱条件下的非参数识别。本文还提供了回归函数的非参数估计器，并推导了它们的收敛速度。",
+    "tldr": "本文探讨了在非经典误差情况下，如何进行非参数的回归函数识别和估计，利用小测量误差近似建立了在工具变量条件下的非参数识别和推导了估计器的收敛速度。",
+    "en_tdlr": "This paper discusses nonparametric identification and estimation of the regression function under non-classical errors-in-variables, establishing nonparametric identification under instrumental variable conditions using small measurement error approximation and deriving the convergence rates of the estimators."
+}

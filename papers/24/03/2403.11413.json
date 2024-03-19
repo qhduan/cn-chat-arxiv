@@ -1,0 +1,12 @@
+{
+    "title": "Dynamic Contexts for Generating Suggestion Questions in RAG Based Conversational Systems",
+    "abstract": "arXiv:2403.11413v1 Announce Type: new  Abstract: When interacting with Retrieval-Augmented Generation (RAG)-based conversational agents, the users must carefully craft their queries to be understood correctly. Yet, understanding the system's capabilities can be challenging for the users, leading to ambiguous questions that necessitate further clarification. This work aims to bridge the gap by developing a suggestion question generator. To generate suggestion questions, our approach involves utilizing dynamic context, which includes both dynamic few-shot examples and dynamically retrieved contexts. Through experiments, we show that the dynamic contexts approach can generate better suggestion questions as compared to other prompting approaches.",
+    "link": "https://arxiv.org/abs/2403.11413",
+    "context": "Title: Dynamic Contexts for Generating Suggestion Questions in RAG Based Conversational Systems\nAbstract: arXiv:2403.11413v1 Announce Type: new  Abstract: When interacting with Retrieval-Augmented Generation (RAG)-based conversational agents, the users must carefully craft their queries to be understood correctly. Yet, understanding the system's capabilities can be challenging for the users, leading to ambiguous questions that necessitate further clarification. This work aims to bridge the gap by developing a suggestion question generator. To generate suggestion questions, our approach involves utilizing dynamic context, which includes both dynamic few-shot examples and dynamically retrieved contexts. Through experiments, we show that the dynamic contexts approach can generate better suggestion questions as compared to other prompting approaches.",
+    "path": "papers/24/03/2403.11413.json",
+    "total_tokens": 659,
+    "translated_title": "基于RAG的会话系统中生成建议问题的动态背景",
+    "translated_abstract": "当与基于检索增强生成（RAG）的会话代理互动时，用户必须小心地制定他们的查询以被正确理解。然而，了解系统的能力对用户来说可能是具有挑战性的，导致需要进一步澄清的模糊问题。本研究旨在通过开发一个建议问题生成器来弥补这一差距。为了生成建议问题，我们的方法涉及利用动态背景，其中包括动态的少样本示例和动态检索到的背景。通过实验证明，与其他提示方法相比，动态背景方法可以生成更好的建议问题。",
+    "tldr": "通过利用动态背景，该研究开发了一个建议问题生成器，实验证明它可以生成比其他提示方法更好的建议问题。",
+    "en_tdlr": "By leveraging dynamic contexts, the study developed a suggestion question generator and demonstrated its ability to generate better suggestion questions compared to other prompting approaches."
+}

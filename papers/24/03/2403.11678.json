@@ -1,0 +1,12 @@
+{
+    "title": "Exploring 3D-aware Latent Spaces for Efficiently Learning Numerous Scenes",
+    "abstract": "arXiv:2403.11678v1 Announce Type: cross  Abstract: We present a method enabling the scaling of NeRFs to learn a large number of semantically-similar scenes. We combine two techniques to improve the required training time and memory cost per scene. First, we learn a 3D-aware latent space in which we train Tri-Plane scene representations, hence reducing the resolution at which scenes are learned. Moreover, we present a way to share common information across scenes, hence allowing for a reduction of model complexity to learn a particular scene. Our method reduces effective per-scene memory costs by 44% and per-scene time costs by 86% when training 1000 scenes. Our project page can be found at https://3da-ae.github.io .",
+    "link": "https://arxiv.org/abs/2403.11678",
+    "context": "Title: Exploring 3D-aware Latent Spaces for Efficiently Learning Numerous Scenes\nAbstract: arXiv:2403.11678v1 Announce Type: cross  Abstract: We present a method enabling the scaling of NeRFs to learn a large number of semantically-similar scenes. We combine two techniques to improve the required training time and memory cost per scene. First, we learn a 3D-aware latent space in which we train Tri-Plane scene representations, hence reducing the resolution at which scenes are learned. Moreover, we present a way to share common information across scenes, hence allowing for a reduction of model complexity to learn a particular scene. Our method reduces effective per-scene memory costs by 44% and per-scene time costs by 86% when training 1000 scenes. Our project page can be found at https://3da-ae.github.io .",
+    "path": "papers/24/03/2403.11678.json",
+    "total_tokens": 754,
+    "translated_title": "探索基于3D感知的潜空间，以有效学习多个场景",
+    "translated_abstract": "我们提出了一种方法，通过结合两种技术来改善每个场景所需的训练时间和内存成本，从而实现将NeRFs无缝扩展到学习大量语义相似的场景。首先，我们学习了一个3D感知的潜空间，在其中训练三平面场景表示，从而降低了学习场景的分辨率。此外，我们提出了一种跨场景共享通用信息的方式，从而减少了学习特定场景的模型复杂性。当训练1000个场景时，我们的方法将每个场景的内存成本降低了44%，时间成本降低了86%。我们的项目页面位于https://3da-ae.github.io。",
+    "tldr": "通过3D感知的潜空间和跨场景共享信息，实现了NeRFs有效学习大量语义相似场景，并显著降低了训练时间和内存消耗",
+    "en_tdlr": "Efficiently learn a large number of semantically-similar scenes using 3D-aware latent spaces and information sharing across scenes, significantly reducing training time and memory costs for NeRFs."
+}

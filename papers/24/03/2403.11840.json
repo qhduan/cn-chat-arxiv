@@ -1,0 +1,12 @@
+{
+    "title": "Multi-Criteria Comparison as a Method of Advancing Knowledge-Guided Machine Learning",
+    "abstract": "arXiv:2403.11840v1 Announce Type: new  Abstract: This paper describes a generalizable model evaluation method that can be adapted to evaluate AI/ML models across multiple criteria including core scientific principles and more practical outcomes. Emerging from prediction competitions in Psychology and Decision Science, the method evaluates a group of candidate models of varying type and structure across multiple scientific, theoretic, and practical criteria. Ordinal ranking of criteria scores are evaluated using voting rules from the field of computational social choice and allow the comparison of divergent measures and types of models in a holistic evaluation. Additional advantages and applications are discussed.",
+    "link": "https://arxiv.org/abs/2403.11840",
+    "context": "Title: Multi-Criteria Comparison as a Method of Advancing Knowledge-Guided Machine Learning\nAbstract: arXiv:2403.11840v1 Announce Type: new  Abstract: This paper describes a generalizable model evaluation method that can be adapted to evaluate AI/ML models across multiple criteria including core scientific principles and more practical outcomes. Emerging from prediction competitions in Psychology and Decision Science, the method evaluates a group of candidate models of varying type and structure across multiple scientific, theoretic, and practical criteria. Ordinal ranking of criteria scores are evaluated using voting rules from the field of computational social choice and allow the comparison of divergent measures and types of models in a holistic evaluation. Additional advantages and applications are discussed.",
+    "path": "papers/24/03/2403.11840.json",
+    "total_tokens": 670,
+    "translated_title": "将多标准比较作为推动知识引导机器学习的方法",
+    "translated_abstract": "本文描述了一种通用的模型评估方法，可以适应评估AI/ML模型在包括核心科学原则和更实际结果在内的多个标准上。该方法源于心理学和决策科学中的预测竞赛，通过对多个不同类型和结构的候选模型在多个科学、理论和实践标准上的评估，使用计算社会选择领域的投票规则来评估标准得分的序数排名，从而比较多样化措施和类型的模型在整体评估中的效果。还讨论了额外的优势和应用。",
+    "tldr": "提出了一种通用的模型评估方法，该方法可以比较不同类型和结构的候选模型在多个科学、理论和实践标准上的表现。",
+    "en_tdlr": "A generalizable model evaluation method is proposed to compare candidate models of varying types and structures across multiple scientific, theoretic, and practical criteria."
+}

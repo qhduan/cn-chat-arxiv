@@ -1,0 +1,12 @@
+{
+    "title": "A Primal-Dual Algorithm for Faster Distributionally Robust Optimization",
+    "abstract": "arXiv:2403.10763v1 Announce Type: cross  Abstract: We consider the penalized distributionally robust optimization (DRO) problem with a closed, convex uncertainty set, a setting that encompasses the $f$-DRO, Wasserstein-DRO, and spectral/$L$-risk formulations used in practice. We present Drago, a stochastic primal-dual algorithm that achieves a state-of-the-art linear convergence rate on strongly convex-strongly concave DRO problems. The method combines both randomized and cyclic components with mini-batching, which effectively handles the unique asymmetric nature of the primal and dual problems in DRO. We support our theoretical results with numerical benchmarks in classification and regression.",
+    "link": "https://arxiv.org/abs/2403.10763",
+    "context": "Title: A Primal-Dual Algorithm for Faster Distributionally Robust Optimization\nAbstract: arXiv:2403.10763v1 Announce Type: cross  Abstract: We consider the penalized distributionally robust optimization (DRO) problem with a closed, convex uncertainty set, a setting that encompasses the $f$-DRO, Wasserstein-DRO, and spectral/$L$-risk formulations used in practice. We present Drago, a stochastic primal-dual algorithm that achieves a state-of-the-art linear convergence rate on strongly convex-strongly concave DRO problems. The method combines both randomized and cyclic components with mini-batching, which effectively handles the unique asymmetric nature of the primal and dual problems in DRO. We support our theoretical results with numerical benchmarks in classification and regression.",
+    "path": "papers/24/03/2403.10763.json",
+    "total_tokens": 669,
+    "translated_title": "一种用于更快分布鲁棒优化问题的原始-对偶算法",
+    "translated_abstract": "我们考虑带有闭合、凸不确定性集的惩罚分布鲁棒优化（DRO）问题，这个设置包括了实践中使用的$f$-DRO、Wasserstein-DRO和谱/$L$-风险公式。我们提出了Drago，一种随机原始-对偶算法，在强凸-强凹DRO问题上实现了最先进的线性收敛速度。该方法将随机化和循环组件与小批量结合，有效处理了DRO中原始和对偶问题的独特不对称性质。我们通过分类和回归中的数值基准支持我们的理论结果。",
+    "tldr": "这种原始-对偶算法在分布鲁棒优化问题中实现了最先进的线性收敛速度。",
+    "en_tdlr": "This primal-dual algorithm achieves state-of-the-art linear convergence rate in distributionally robust optimization problems."
+}

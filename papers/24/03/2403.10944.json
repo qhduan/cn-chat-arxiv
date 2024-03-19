@@ -1,0 +1,12 @@
+{
+    "title": "Human Centered AI for Indian Legal Text Analytics",
+    "abstract": "arXiv:2403.10944v1 Announce Type: cross  Abstract: Legal research is a crucial task in the practice of law. It requires intense human effort and intellectual prudence to research a legal case and prepare arguments. Recent boom in generative AI has not translated to proportionate rise in impactful legal applications, because of low trustworthiness and and the scarcity of specialized datasets for training Large Language Models (LLMs). This position paper explores the potential of LLMs within Legal Text Analytics (LTA), highlighting specific areas where the integration of human expertise can significantly enhance their performance to match that of experts. We introduce a novel dataset and describe a human centered, compound AI system that principally incorporates human inputs for performing LTA tasks with LLMs.",
+    "link": "https://arxiv.org/abs/2403.10944",
+    "context": "Title: Human Centered AI for Indian Legal Text Analytics\nAbstract: arXiv:2403.10944v1 Announce Type: cross  Abstract: Legal research is a crucial task in the practice of law. It requires intense human effort and intellectual prudence to research a legal case and prepare arguments. Recent boom in generative AI has not translated to proportionate rise in impactful legal applications, because of low trustworthiness and and the scarcity of specialized datasets for training Large Language Models (LLMs). This position paper explores the potential of LLMs within Legal Text Analytics (LTA), highlighting specific areas where the integration of human expertise can significantly enhance their performance to match that of experts. We introduce a novel dataset and describe a human centered, compound AI system that principally incorporates human inputs for performing LTA tasks with LLMs.",
+    "path": "papers/24/03/2403.10944.json",
+    "total_tokens": 777,
+    "translated_title": "面向印度法律文本分析的人工智能",
+    "translated_abstract": "法律研究在法律实践中至关重要，它需要强烈的人力和智力谨慎来研究法律案例并准备论点。近年来生成式人工智能的繁荣并没有导致对影响深远的法律应用的成比例增长，因为其可信度低以及训练大型语言模型(LLMs)的专业数据集稀缺。本文探讨了LLMs在法律文本分析（LTA）中的潜力，重点介绍了人类专业知识在特定领域的整合，如何显著增强其性能，与专家相匹配。我们介绍了一个新颖的数据集，并描述了一个以人为中心的复合人工智能系统，主要结合人类输入，以在LLMs中执行LTA任务。",
+    "tldr": "该论文探讨了在法律文本分析中整合人类专业知识以显著提高大型语言模型性能的潜力，并介绍了一个以人为中心的复合人工智能系统。",
+    "en_tdlr": "This paper explores the potential of integrating human expertise in legal text analysis to significantly improve the performance of Large Language Models, and introduces a human-centered compound AI system."
+}

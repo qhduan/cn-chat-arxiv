@@ -1,0 +1,12 @@
+{
+    "title": "Adaptative Bilingual Aligning Using Multilingual Sentence Embedding",
+    "abstract": "arXiv:2403.11921v1 Announce Type: new  Abstract: In this paper, we present an adaptive bitextual alignment system called AIlign. This aligner relies on sentence embeddings to extract reliable anchor points that can guide the alignment path, even for texts whose parallelism is fragmentary and not strictly monotonic. In an experiment on several datasets, we show that AIlign achieves results equivalent to the state of the art, with quasi-linear complexity. In addition, AIlign is able to handle texts whose parallelism and monotonicity properties are only satisfied locally, unlike recent systems such as Vecalign or Bertalign.",
+    "link": "https://arxiv.org/abs/2403.11921",
+    "context": "Title: Adaptative Bilingual Aligning Using Multilingual Sentence Embedding\nAbstract: arXiv:2403.11921v1 Announce Type: new  Abstract: In this paper, we present an adaptive bitextual alignment system called AIlign. This aligner relies on sentence embeddings to extract reliable anchor points that can guide the alignment path, even for texts whose parallelism is fragmentary and not strictly monotonic. In an experiment on several datasets, we show that AIlign achieves results equivalent to the state of the art, with quasi-linear complexity. In addition, AIlign is able to handle texts whose parallelism and monotonicity properties are only satisfied locally, unlike recent systems such as Vecalign or Bertalign.",
+    "path": "papers/24/03/2403.11921.json",
+    "total_tokens": 705,
+    "translated_title": "使用多语言句子嵌入进行自适应双语对齐",
+    "translated_abstract": "在本文中，我们提出了一种自适应的双文本对齐系统，名为AIlign。这个对齐器依赖于句子嵌入来提取可靠的锚点，这些锚点可以指导对齐路径，即使对于其平行性是片段性的、不严格单调的文本也是如此。在多个数据集上的实验中，我们展示了AIlign实现了与现有技术等效的结果，且具有准线性的复杂度。此外，AIlign能够处理那些仅在局部满足平行性和单调性属性的文本，这与最近的系统如Vecalign或Bertalign不同。",
+    "tldr": "提出了一种使用句子嵌入进行自适应双语对齐的系统，相对于现有技术，其在处理片段性平行文本时表现出与之等效的结果，且具有准线性复杂度。",
+    "en_tdlr": "Introducing an adaptive bilingual aligning system using sentence embeddings that achieves results equivalent to the state of the art with quasi-linear complexity in handling fragmentary parallel texts."
+}

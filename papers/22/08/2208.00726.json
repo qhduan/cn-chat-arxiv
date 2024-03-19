@@ -1,0 +1,11 @@
+{
+    "title": "Fair Division of Multi-layered Cakes",
+    "abstract": "arXiv:2208.00726v2 Announce Type: replace  Abstract: We consider multi-layered cake cutting in order to fairly allocate numerous divisible resources (layers of cake) among a group of agents under two constraints: contiguity and feasibility. We first introduce a new computational model in a multi-layered cake named ``a pair of knives''. Then, we show the existence of an exact multi-allocation for two agents and two layers using the new computational model. We demonstrate the computation procedure of a feasible and contiguous proportional multi-allocation over a three-layered cake for more than three agents. Finally, we develop a technique for computing proportional allocations for any number $n\\geq 2^a3$ of agents and $2^a3$ layers, where $a$ is any positive integer.",
+    "link": "https://arxiv.org/abs/2208.00726",
+    "context": "Title: Fair Division of Multi-layered Cakes\nAbstract: arXiv:2208.00726v2 Announce Type: replace  Abstract: We consider multi-layered cake cutting in order to fairly allocate numerous divisible resources (layers of cake) among a group of agents under two constraints: contiguity and feasibility. We first introduce a new computational model in a multi-layered cake named ``a pair of knives''. Then, we show the existence of an exact multi-allocation for two agents and two layers using the new computational model. We demonstrate the computation procedure of a feasible and contiguous proportional multi-allocation over a three-layered cake for more than three agents. Finally, we develop a technique for computing proportional allocations for any number $n\\geq 2^a3$ of agents and $2^a3$ layers, where $a$ is any positive integer.",
+    "path": "papers/22/08/2208.00726.json",
+    "total_tokens": 795,
+    "translated_title": "多层蛋糕的公平分配",
+    "translated_abstract": "我们考虑多层蛋糕切割，旨在在两个约束条件下（连续性和可行性）在一组代理之间公平分配多个可分资源（蛋糕层）。我们首先引入了一个在多层蛋糕中的新计算模型“一对刀”。然后，我们展示了在新计算模型中为两位代理和两层存在确切的多重分配。我们演示了在三层蛋糕上为超过三个代理进行可行且连续的成比例多重分配的计算过程。最后，我们开发了一种用于计算任何数量为$n\\geq 2^a3$个代理和$2^a3$层的比例分配的技术，其中$a$是任意正整数。",
+    "tldr": "该论文介绍了多层蛋糕的公平分配问题，引入了“一对刀”计算模型，展示了针对不同代理和层数的可行比例分配计算过程，并开发了一种计算技术适用于任意数量的代理和层数。"
+}

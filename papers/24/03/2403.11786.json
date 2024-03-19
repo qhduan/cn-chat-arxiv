@@ -1,0 +1,12 @@
+{
+    "title": "Construction of Hyper-Relational Knowledge Graphs Using Pre-Trained Large Language Models",
+    "abstract": "arXiv:2403.11786v1 Announce Type: cross  Abstract: Extracting hyper-relations is crucial for constructing comprehensive knowledge graphs, but there are limited supervised methods available for this task. To address this gap, we introduce a zero-shot prompt-based method using OpenAI's GPT-3.5 model for extracting hyper-relational knowledge from text. Comparing our model with a baseline, we achieved promising results, with a recall of 0.77. Although our precision is currently lower, a detailed analysis of the model outputs has uncovered potential pathways for future research in this area.",
+    "link": "https://arxiv.org/abs/2403.11786",
+    "context": "Title: Construction of Hyper-Relational Knowledge Graphs Using Pre-Trained Large Language Models\nAbstract: arXiv:2403.11786v1 Announce Type: cross  Abstract: Extracting hyper-relations is crucial for constructing comprehensive knowledge graphs, but there are limited supervised methods available for this task. To address this gap, we introduce a zero-shot prompt-based method using OpenAI's GPT-3.5 model for extracting hyper-relational knowledge from text. Comparing our model with a baseline, we achieved promising results, with a recall of 0.77. Although our precision is currently lower, a detailed analysis of the model outputs has uncovered potential pathways for future research in this area.",
+    "path": "papers/24/03/2403.11786.json",
+    "total_tokens": 684,
+    "translated_title": "使用预训练大型语言模型构建超关联知识图",
+    "translated_abstract": "提取超关系对于构建全面的知识图至关重要，但目前针对此任务的监督方法有限。为了弥补这一差距，我们引入了一种基于零样本提示的方法，利用OpenAI的GPT-3.5模型从文本中提取超关联知识。通过将我们的模型与基准模型进行比较，我们取得了令人满意的结果，召回率达到了0.77。尽管我们的精确率目前较低，但对模型输出的详细分析揭示了未来研究领域的潜在路径。",
+    "tldr": "使用零样本提示的方法，我们利用OpenAI的GPT-3.5模型从文本中成功提取了超关联知识，尽管精确率较低，但结果显示了未来研究的潜在方向。",
+    "en_tdlr": "By utilizing a zero-shot prompt-based method with OpenAI's GPT-3.5 model, we successfully extracted hyper-relational knowledge from text, showing potential research directions despite the lower precision achieved."
+}
