@@ -1,0 +1,12 @@
+{
+    "title": "TMU at TREC Clinical Trials Track 2023",
+    "abstract": "arXiv:2403.12088v1 Announce Type: new  Abstract: This paper describes Toronto Metropolitan University's participation in the TREC Clinical Trials Track for 2023. As part of the tasks, we utilize advanced natural language processing techniques and neural language models in our experiments to retrieve the most relevant clinical trials. We illustrate the overall methodology, experimental settings, and results of our implementation for the run submission as part of Team - V-TorontoMU.",
+    "link": "https://arxiv.org/abs/2403.12088",
+    "context": "Title: TMU at TREC Clinical Trials Track 2023\nAbstract: arXiv:2403.12088v1 Announce Type: new  Abstract: This paper describes Toronto Metropolitan University's participation in the TREC Clinical Trials Track for 2023. As part of the tasks, we utilize advanced natural language processing techniques and neural language models in our experiments to retrieve the most relevant clinical trials. We illustrate the overall methodology, experimental settings, and results of our implementation for the run submission as part of Team - V-TorontoMU.",
+    "path": "papers/24/03/2403.12088.json",
+    "total_tokens": 549,
+    "translated_title": "TMU参加2023年TREC临床试验跟踪",
+    "translated_abstract": "这篇论文描述了多伦多都会大学参加2023年TREC临床试验跟踪。作为任务的一部分，我们在实验中利用了先进的自然语言处理技术和神经语言模型来检索最相关的临床试验。我们阐述了团队-V-TorontoMU的参与的整体方法论、实验设置和实现结果。",
+    "tldr": "多伦多都会大学利用自然语言处理技术和神经语言模型参加TREC临床试验跟踪，并展示了其实验结果。",
+    "en_tdlr": "Toronto Metropolitan University participates in TREC Clinical Trials Track using natural language processing techniques and neural language models, presenting the experimental results."
+}

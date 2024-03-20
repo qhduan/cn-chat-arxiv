@@ -1,0 +1,12 @@
+{
+    "title": "MSLM-S2ST: A Multitask Speech Language Model for Textless Speech-to-Speech Translation with Speaker Style Preservation",
+    "abstract": "arXiv:2403.12408v1 Announce Type: new  Abstract: There have been emerging research interest and advances in speech-to-speech translation (S2ST), translating utterances from one language to another. This work proposes Multitask Speech Language Model (MSLM), which is a decoder-only speech language model trained in a multitask setting. Without reliance on text training data, our model is able to support multilingual S2ST with speaker style preserved.",
+    "link": "https://arxiv.org/abs/2403.12408",
+    "context": "Title: MSLM-S2ST: A Multitask Speech Language Model for Textless Speech-to-Speech Translation with Speaker Style Preservation\nAbstract: arXiv:2403.12408v1 Announce Type: new  Abstract: There have been emerging research interest and advances in speech-to-speech translation (S2ST), translating utterances from one language to another. This work proposes Multitask Speech Language Model (MSLM), which is a decoder-only speech language model trained in a multitask setting. Without reliance on text training data, our model is able to support multilingual S2ST with speaker style preserved.",
+    "path": "papers/24/03/2403.12408.json",
+    "total_tokens": 605,
+    "translated_title": "MSLM-S2ST：一种用于无文本语音到语音翻译的多任务语音语言模型，保留说话者风格",
+    "translated_abstract": "近年来，针对语音到语音翻译（S2ST）的研究兴趣和进展逐渐增加，这项工作提出了Multitask Speech Language Model (MSLM)，这是一个仅具有解码器的多任务语音语言模型，在多任务设置中进行训练。在不依赖文本训练数据的情况下，我们的模型能够支持带有保留说话者风格的多语言S2ST。",
+    "tldr": "提出了一种无文本训练数据的多任务语音语言模型，支持多语言S2ST并保留说话者风格",
+    "en_tdlr": "Proposed a multitask speech language model trained without text data for supporting multilingual speech-to-speech translation with speaker style preservation."
+}

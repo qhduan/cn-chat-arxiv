@@ -1,0 +1,12 @@
+{
+    "title": "Intelligent Execution through Plan Analysis",
+    "abstract": "arXiv:2403.12162v1 Announce Type: new  Abstract: Intelligent robots need to generate and execute plans. In order to deal with the complexity of real environments, planning makes some assumptions about the world. When executing plans, the assumptions are usually not met. Most works have focused on the negative impact of this fact and the use of replanning after execution failures. Instead, we focus on the positive impact, or opportunities to find better plans. When planning, the proposed technique finds and stores those opportunities. Later, during execution, the monitoring system can use them to focus perception and repair the plan, instead of replanning from scratch. Experiments in several paradigmatic robotic tasks show how the approach outperforms standard replanning strategies.",
+    "link": "https://arxiv.org/abs/2403.12162",
+    "context": "Title: Intelligent Execution through Plan Analysis\nAbstract: arXiv:2403.12162v1 Announce Type: new  Abstract: Intelligent robots need to generate and execute plans. In order to deal with the complexity of real environments, planning makes some assumptions about the world. When executing plans, the assumptions are usually not met. Most works have focused on the negative impact of this fact and the use of replanning after execution failures. Instead, we focus on the positive impact, or opportunities to find better plans. When planning, the proposed technique finds and stores those opportunities. Later, during execution, the monitoring system can use them to focus perception and repair the plan, instead of replanning from scratch. Experiments in several paradigmatic robotic tasks show how the approach outperforms standard replanning strategies.",
+    "path": "papers/24/03/2403.12162.json",
+    "total_tokens": 752,
+    "translated_title": "通过计划分析实现智能执行",
+    "translated_abstract": "智能机器人需要生成和执行计划。为了应对真实环境的复杂性，规划对世界做出了一些假设。在执行计划时，这些假设通常是不符合的。大多数研究关注这一事实的负面影响以及在执行失败后重新规划的使用。相反，我们关注这一事实的积极影响，即发现更好计划的机会。在规划阶段，所提出的技术会找到并存储这些机会。在执行过程中，监控系统可以利用它们来集中感知并修复计划，而不是从头开始重新规划。在多个典型的机器人任务实验中，实验结果显示该方法胜过标准重新规划策略。",
+    "tldr": "提出了一种在执行机器人任务时利用计划分析寻找和储存更好计划机会的技术，通过监控系统在执行过程中修复计划来取代从头重新规划的优势得到实验证实。",
+    "en_tdlr": "Introduced a technique that utilizes plan analysis to find and store better plan opportunities during robot task execution, with experimental evidence showing the advantage of using a monitoring system to repair plans during execution instead of replanning from scratch."
+}

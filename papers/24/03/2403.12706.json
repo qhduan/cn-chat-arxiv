@@ -1,0 +1,12 @@
+{
+    "title": "AnimateDiff-Lightning: Cross-Model Diffusion Distillation",
+    "abstract": "arXiv:2403.12706v1 Announce Type: cross  Abstract: We present AnimateDiff-Lightning for lightning-fast video generation. Our model uses progressive adversarial diffusion distillation to achieve new state-of-the-art in few-step video generation. We discuss our modifications to adapt it for the video modality. Furthermore, we propose to simultaneously distill the probability flow of multiple base diffusion models, resulting in a single distilled motion module with broader style compatibility. We are pleased to release our distilled AnimateDiff-Lightning model for the community's use.",
+    "link": "https://arxiv.org/abs/2403.12706",
+    "context": "Title: AnimateDiff-Lightning: Cross-Model Diffusion Distillation\nAbstract: arXiv:2403.12706v1 Announce Type: cross  Abstract: We present AnimateDiff-Lightning for lightning-fast video generation. Our model uses progressive adversarial diffusion distillation to achieve new state-of-the-art in few-step video generation. We discuss our modifications to adapt it for the video modality. Furthermore, we propose to simultaneously distill the probability flow of multiple base diffusion models, resulting in a single distilled motion module with broader style compatibility. We are pleased to release our distilled AnimateDiff-Lightning model for the community's use.",
+    "path": "papers/24/03/2403.12706.json",
+    "total_tokens": 707,
+    "translated_title": "AnimateDiff-Lightning：跨模型扩散蒸馏",
+    "translated_abstract": "我们提出了AnimateDiff-Lightning，用于快速生成视频。我们的模型利用渐进对抗性扩散蒸馏，在少数步骤视频生成方面实现了新的最先进技术。我们讨论了对其进行修改以适应视频模态的过程。此外，我们提议同时蒸馏多个基础扩散模型的概率流，从而产生具有更广泛样式兼容性的单一蒸馏运动模块。我们很高兴为社区发布我们蒸馏的AnimateDiff-Lightning模型。",
+    "tldr": "AnimateDiff-Lightning模型利用渐进对抗性扩散蒸馏，在视频生成领域取得了新的最先进技术，提出了同时蒸馏多个基础扩散模型概率流的方法，形成了具有更广泛样式兼容性的单一蒸馏运动模块。",
+    "en_tdlr": "AnimateDiff-Lightning model achieves new state-of-the-art in few-step video generation using progressive adversarial diffusion distillation, by proposing to simultaneously distill the probability flow of multiple base diffusion models, resulting in a single distilled motion module with broader style compatibility."
+}

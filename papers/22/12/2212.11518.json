@@ -1,0 +1,11 @@
+{
+    "title": "Mean-field neural networks-based algorithms for McKean-Vlasov control problems *",
+    "abstract": "arXiv:2212.11518v2 Announce Type: replace-cross  Abstract: This paper is devoted to the numerical resolution of McKean-Vlasov control problems via the class of mean-field neural networks introduced in our companion paper [25] in order to learn the solution on the Wasserstein space. We propose several algorithms either based on dynamic programming with control learning by policy or value iteration, or backward SDE from stochastic maximum principle with global or local loss functions. Extensive numerical results on different examples are presented to illustrate the accuracy of each of our eight algorithms. We discuss and compare the pros and cons of all the tested methods.",
+    "link": "https://arxiv.org/abs/2212.11518",
+    "context": "Title: Mean-field neural networks-based algorithms for McKean-Vlasov control problems *\nAbstract: arXiv:2212.11518v2 Announce Type: replace-cross  Abstract: This paper is devoted to the numerical resolution of McKean-Vlasov control problems via the class of mean-field neural networks introduced in our companion paper [25] in order to learn the solution on the Wasserstein space. We propose several algorithms either based on dynamic programming with control learning by policy or value iteration, or backward SDE from stochastic maximum principle with global or local loss functions. Extensive numerical results on different examples are presented to illustrate the accuracy of each of our eight algorithms. We discuss and compare the pros and cons of all the tested methods.",
+    "path": "papers/22/12/2212.11518.json",
+    "total_tokens": 688,
+    "translated_title": "基于均场神经网络的McKean-Vlasov控制问题算法",
+    "translated_abstract": "本文致力于通过我们在伴随论文[25]中引入的均场神经网络类，对McKean-Vlasov控制问题进行数值解析，以便在Wasserstein空间上学习解决方案。我们提出了几种算法，基于控制学习策略或值迭代的动态规划，或者基于随机最大原理和全局或局部损失函数的反向SDE。我们展示了对不同示例的大量数值结果，以说明我们的八种算法每一种的准确性。我们讨论并比较了所有测试方法的优缺点。",
+    "tldr": "该论文利用均场神经网络类解决McKean-Vlasov控制问题，提出了多种算法，并在不同示例上展示了数值结果，讨论比较了各种方法的优缺点。"
+}

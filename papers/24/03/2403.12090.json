@@ -1,0 +1,11 @@
+{
+    "title": "Foundation Models and Information Retrieval in Digital Pathology",
+    "abstract": "arXiv:2403.12090v1 Announce Type: cross  Abstract: The paper reviews the state-of-the-art of foundation models, LLMs, generative AI, information retrieval and CBIR in digital pathology",
+    "link": "https://arxiv.org/abs/2403.12090",
+    "context": "Title: Foundation Models and Information Retrieval in Digital Pathology\nAbstract: arXiv:2403.12090v1 Announce Type: cross  Abstract: The paper reviews the state-of-the-art of foundation models, LLMs, generative AI, information retrieval and CBIR in digital pathology",
+    "path": "papers/24/03/2403.12090.json",
+    "total_tokens": 404,
+    "translated_title": "数字病理学中的基础模型和信息检索",
+    "translated_abstract": "这篇论文回顾了数字病理学中基础模型、LLM、生成式人工智能、信息检索和内容检索的最新技术。",
+    "tldr": "论文回顾了数字病理学中基础模型和信息检索领域的最新进展。"
+}

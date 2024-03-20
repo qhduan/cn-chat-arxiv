@@ -1,0 +1,12 @@
+{
+    "title": "Cut Facets and Cube Facets of Lifted Multicut Polytopes",
+    "abstract": "arXiv:2402.16814v2 Announce Type: replace-cross  Abstract: The lifted multicut problem has diverse applications in the field of computer vision. Exact algorithms based on linear programming require an understanding of lifted multicut polytopes. Despite recent progress, two fundamental questions about these polytopes have remained open: Which lower cube inequalities define facets, and which cut inequalities define facets? In this article, we answer the first question by establishing conditions that are necessary, sufficient and efficiently decidable. Toward the second question, we show that deciding facet-definingness of cut inequalities is NP-hard. This completes the analysis of canonical facets of lifted multicut polytopes.",
+    "link": "https://arxiv.org/abs/2402.16814",
+    "context": "Title: Cut Facets and Cube Facets of Lifted Multicut Polytopes\nAbstract: arXiv:2402.16814v2 Announce Type: replace-cross  Abstract: The lifted multicut problem has diverse applications in the field of computer vision. Exact algorithms based on linear programming require an understanding of lifted multicut polytopes. Despite recent progress, two fundamental questions about these polytopes have remained open: Which lower cube inequalities define facets, and which cut inequalities define facets? In this article, we answer the first question by establishing conditions that are necessary, sufficient and efficiently decidable. Toward the second question, we show that deciding facet-definingness of cut inequalities is NP-hard. This completes the analysis of canonical facets of lifted multicut polytopes.",
+    "path": "papers/24/02/2402.16814.json",
+    "total_tokens": 731,
+    "translated_title": "切割面和立方面的提升多段切割多面体",
+    "translated_abstract": "提升多段切割问题在计算机视觉领域有着多样的应用。基于线性规划的精确算法需要对提升多段切割多面体有所了解。尽管最近取得了一些进展，但关于这些多面体的两个基本问题一直未能解决：哪些下界立方不等式定义了面，哪些切割不等式定义了面？在本文中，我们通过建立必要、充分且高效可判定的条件来回答第一个问题。至于第二个问题，我们表明判断切割不等式的面定义性是NP难的。这完成了对提升多段切割多面体的规范面的分析。",
+    "tldr": "本文回答了提升多段切割多面体的哪些下界立方不等式和哪些切割不等式定义面的基本问题，以及判定切割不等式定义性的NP难性。",
+    "en_tdlr": "This article addresses the fundamental questions of which lower cube inequalities and cut inequalities define facets of lifted multicut polytopes, and proves the NP-hardness of determining the facet-definingness of cut inequalities."
+}

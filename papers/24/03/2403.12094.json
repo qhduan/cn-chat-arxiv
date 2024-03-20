@@ -1,0 +1,12 @@
+{
+    "title": "Are LLMs Good Cryptic Crossword Solvers?",
+    "abstract": "arXiv:2403.12094v1 Announce Type: new  Abstract: Cryptic crosswords are puzzles that rely not only on general knowledge but also on the solver's ability to manipulate language on different levels and deal with various types of wordplay. Previous research suggests that solving such puzzles is a challenge even for modern NLP models. However, the abilities of large language models (LLMs) have not yet been tested on this task. In this paper, we establish the benchmark results for three popular LLMs -- LLaMA2, Mistral, and ChatGPT -- showing that their performance on this task is still far from that of humans.",
+    "link": "https://arxiv.org/abs/2403.12094",
+    "context": "Title: Are LLMs Good Cryptic Crossword Solvers?\nAbstract: arXiv:2403.12094v1 Announce Type: new  Abstract: Cryptic crosswords are puzzles that rely not only on general knowledge but also on the solver's ability to manipulate language on different levels and deal with various types of wordplay. Previous research suggests that solving such puzzles is a challenge even for modern NLP models. However, the abilities of large language models (LLMs) have not yet been tested on this task. In this paper, we establish the benchmark results for three popular LLMs -- LLaMA2, Mistral, and ChatGPT -- showing that their performance on this task is still far from that of humans.",
+    "path": "papers/24/03/2403.12094.json",
+    "total_tokens": 667,
+    "translated_title": "LLMs是一个好的难解填字游戏求解器吗？",
+    "translated_abstract": "难解填字游戏是一种谜题，不仅依赖于一般知识，还依赖于求解者在不同层面上操纵语言并处理各种类型的文字游戏。先前的研究表明，即使对于现代NLP模型来说，解决这类谜题也是一项挑战。然而，大型语言模型（LLMs）的能力尚未在这一任务上进行测试。在本文中，我们为三种流行的LLMs -- LLaMA2、Mistral和ChatGPT建立了基准结果，显示它们在这一任务上的表现仍远远不及人类。",
+    "tldr": "本文建立了三种流行LLMs的基准结果，表明它们在难解填字游戏上的表现仍远远不及人类。",
+    "en_tdlr": "This paper establishes benchmark results for three popular LLMs, showing that their performance on cryptic crosswords is still far from that of humans."
+}

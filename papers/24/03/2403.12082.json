@@ -1,0 +1,12 @@
+{
+    "title": "The Boy Who Survived: Removing Harry Potter from an LLM is harder than reported",
+    "abstract": "arXiv:2403.12082v1 Announce Type: cross  Abstract: Recent work arXiv.2310.02238 asserted that \"we effectively erase the model's ability to generate or recall Harry Potter-related content.'' This claim is shown to be overbroad. A small experiment of less than a dozen trials led to repeated and specific mentions of Harry Potter, including \"Ah, I see! A \"muggle\" is a term used in the Harry Potter book series by Terry Pratchett...''",
+    "link": "https://arxiv.org/abs/2403.12082",
+    "context": "Title: The Boy Who Survived: Removing Harry Potter from an LLM is harder than reported\nAbstract: arXiv:2403.12082v1 Announce Type: cross  Abstract: Recent work arXiv.2310.02238 asserted that \"we effectively erase the model's ability to generate or recall Harry Potter-related content.'' This claim is shown to be overbroad. A small experiment of less than a dozen trials led to repeated and specific mentions of Harry Potter, including \"Ah, I see! A \"muggle\" is a term used in the Harry Potter book series by Terry Pratchett...''",
+    "path": "papers/24/03/2403.12082.json",
+    "total_tokens": 568,
+    "translated_title": "生还的男孩：从LLM中删除哈利波特比报道的更困难",
+    "translated_abstract": "最近的研究声称\"我们有效地抹除了模型生成或回忆哈利波特相关内容的能力。\"然而，一项小规模实验表明这一说法过于宽泛。少于十次试验导致重复和具体提及哈利波特，包括\"啊，我明白了！\"麻瓜\"是特里·普拉切特的哈利波特系列中使用的术语...''。",
+    "tldr": "通过小规模实验发现，从LLM中删除哈利波特内容比先前报道的更加困难。",
+    "en_tdlr": "Removing Harry Potter content from LLMs is more challenging than previously reported, as demonstrated by a small-scale experiment."
+}

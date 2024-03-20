@@ -1,0 +1,11 @@
+{
+    "title": "Transfer in Sequential Multi-armed Bandits via Reward Samples",
+    "abstract": "arXiv:2403.12428v1 Announce Type: new  Abstract: We consider a sequential stochastic multi-armed bandit problem where the agent interacts with bandit over multiple episodes. The reward distribution of the arms remain constant throughout an episode but can change over different episodes. We propose an algorithm based on UCB to transfer the reward samples from the previous episodes and improve the cumulative regret performance over all the episodes. We provide regret analysis and empirical results for our algorithm, which show significant improvement over the standard UCB algorithm without transfer.",
+    "link": "https://arxiv.org/abs/2403.12428",
+    "context": "Title: Transfer in Sequential Multi-armed Bandits via Reward Samples\nAbstract: arXiv:2403.12428v1 Announce Type: new  Abstract: We consider a sequential stochastic multi-armed bandit problem where the agent interacts with bandit over multiple episodes. The reward distribution of the arms remain constant throughout an episode but can change over different episodes. We propose an algorithm based on UCB to transfer the reward samples from the previous episodes and improve the cumulative regret performance over all the episodes. We provide regret analysis and empirical results for our algorithm, which show significant improvement over the standard UCB algorithm without transfer.",
+    "path": "papers/24/03/2403.12428.json",
+    "total_tokens": 642,
+    "translated_title": "基于奖励样本的顺序多臂老虎机中的转移",
+    "translated_abstract": "我们考虑了一个顺序随机多臂老虎机问题，在这个问题中，代理与老虎机在多个轮次中进行交互。臂的奖励分布在一个轮次中保持不变，但在不同轮次之间可能会发生变化。我们提出了一种基于UCB的算法，用于从先前轮次中转移奖励样本，并改善所有轮次中的累积遗憾性能。我们为我们的算法提供了遗憾性能分析和实证结果，表明相比没有转移的标准UCB算法，我们的算法有显著改进。",
+    "tldr": "提出了一种基于奖励样本转移的算法，在顺序多臂老虎机问题中显著改进了累积遗憾性能"
+}

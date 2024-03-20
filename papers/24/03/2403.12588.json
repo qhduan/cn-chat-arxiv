@@ -1,0 +1,12 @@
+{
+    "title": "Machine Learning of the Prime Distribution",
+    "abstract": "arXiv:2403.12588v1 Announce Type: cross  Abstract: In the present work we use maximum entropy methods to derive several theorems in probabilistic number theory, including a version of the Hardy-Ramanujan Theorem. We also provide a theoretical argument explaining the experimental observations of Y.-H. He about the learnability of primes, and posit that the Erd\\H{o}s-Kac law would very unlikely be discovered by current machine learning techniques. Numerical experiments that we perform corroborate our theoretical findings.",
+    "link": "https://arxiv.org/abs/2403.12588",
+    "context": "Title: Machine Learning of the Prime Distribution\nAbstract: arXiv:2403.12588v1 Announce Type: cross  Abstract: In the present work we use maximum entropy methods to derive several theorems in probabilistic number theory, including a version of the Hardy-Ramanujan Theorem. We also provide a theoretical argument explaining the experimental observations of Y.-H. He about the learnability of primes, and posit that the Erd\\H{o}s-Kac law would very unlikely be discovered by current machine learning techniques. Numerical experiments that we perform corroborate our theoretical findings.",
+    "path": "papers/24/03/2403.12588.json",
+    "total_tokens": 629,
+    "translated_title": "主要分布的机器学习",
+    "translated_abstract": "在本研究中，我们使用最大熵方法推导了概率数论中的几个定理，包括哈代-拉马努金定理的一个版本。我们还提供了一个理论论证，解释了Y.-H. He关于素数可学性的实验观察，并假设Erd\\H{o}s-Kac定律极不可能被当前的机器学习技术发现。我们进行的数值实验证实了我们的理论发现。",
+    "tldr": "使用最大熵方法推导了概率数论中的几个定理，提供了关于素数学习性质的理论论证，发现Erd\\H{o}s-Kac定律不太可能被当前机器学习技术发现，并进行数值实验以验证理论结果",
+    "en_tdlr": "Derived several theorems in probabilistic number theory using maximum entropy methods, provided theoretical explanation for the learnability of primes, suggested Erd\\H{o}s-Kac law unlikely to be discovered by current machine learning techniques, and conducted numerical experiments to support theoretical findings"
+}

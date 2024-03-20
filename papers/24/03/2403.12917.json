@@ -1,0 +1,11 @@
+{
+    "title": "When is Trust Robust?",
+    "abstract": "arXiv:2403.12917v1 Announce Type: new  Abstract: We examine an economy in which interactions are more productive if agents can trust others to refrain from cheating. Some agents are scoundrels, who always cheat, while others cheat only if the cost of cheating, a decreasing function of the proportion of cheaters, is sufficiently low. The economy exhibits multiple equilibria. As the proportion of scoundrels in the economy declines, the high-trust equilibrium can be disrupted by arbitrarily small perturbations or infusions of low-trust agents, while the low-trust equilibrium becomes impervious to perturbations and infusions of high-trust agents. The resilience of trust may thus hinge upon the prevalence of scoundrels.",
+    "link": "https://arxiv.org/abs/2403.12917",
+    "context": "Title: When is Trust Robust?\nAbstract: arXiv:2403.12917v1 Announce Type: new  Abstract: We examine an economy in which interactions are more productive if agents can trust others to refrain from cheating. Some agents are scoundrels, who always cheat, while others cheat only if the cost of cheating, a decreasing function of the proportion of cheaters, is sufficiently low. The economy exhibits multiple equilibria. As the proportion of scoundrels in the economy declines, the high-trust equilibrium can be disrupted by arbitrarily small perturbations or infusions of low-trust agents, while the low-trust equilibrium becomes impervious to perturbations and infusions of high-trust agents. The resilience of trust may thus hinge upon the prevalence of scoundrels.",
+    "path": "papers/24/03/2403.12917.json",
+    "total_tokens": 698,
+    "translated_title": "信任何时候是稳健的？",
+    "translated_abstract": "我们研究了一个经济体系，其中的互动如果代理人可以相信他人不欺骗，则更具生产力。一些代理人是流氓，总是欺骗，而另一些只有在欺骗的成本（作为作弊者比例的递减函数）足够低的情况下才会作弊。该经济体系表现出多个均衡状态。随着经济体中流氓的比例下降，高信任均衡状态可能会受到任意小的扰动或低信任代理人的注入而被破坏，而低信任均衡状态则变得不受扰动和高信任代理人的注入影响。因此，信任的稳健性可能取决于流氓的普遍程度。",
+    "tldr": "信任的稳健性取决于经济体中流氓的普遍程度。"
+}

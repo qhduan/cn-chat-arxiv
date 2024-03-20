@@ -1,0 +1,11 @@
+{
+    "title": "GT-Rain Single Image Deraining Challenge Report",
+    "abstract": "arXiv:2403.12327v1 Announce Type: cross  Abstract: This report reviews the results of the GT-Rain challenge on single image deraining at the UG2+ workshop at CVPR 2023. The aim of this competition is to study the rainy weather phenomenon in real world scenarios, provide a novel real world rainy image dataset, and to spark innovative ideas that will further the development of single image deraining methods on real images. Submissions were trained on the GT-Rain dataset and evaluated on an extension of the dataset consisting of 15 additional scenes. Scenes in GT-Rain are comprised of real rainy image and ground truth image captured moments after the rain had stopped. 275 participants were registered in the challenge and 55 competed in the final testing phase.",
+    "link": "https://arxiv.org/abs/2403.12327",
+    "context": "Title: GT-Rain Single Image Deraining Challenge Report\nAbstract: arXiv:2403.12327v1 Announce Type: cross  Abstract: This report reviews the results of the GT-Rain challenge on single image deraining at the UG2+ workshop at CVPR 2023. The aim of this competition is to study the rainy weather phenomenon in real world scenarios, provide a novel real world rainy image dataset, and to spark innovative ideas that will further the development of single image deraining methods on real images. Submissions were trained on the GT-Rain dataset and evaluated on an extension of the dataset consisting of 15 additional scenes. Scenes in GT-Rain are comprised of real rainy image and ground truth image captured moments after the rain had stopped. 275 participants were registered in the challenge and 55 competed in the final testing phase.",
+    "path": "papers/24/03/2403.12327.json",
+    "total_tokens": 781,
+    "translated_title": "GT-Rain单图像去雨挑战报告",
+    "translated_abstract": "本报告回顾了2023年CVPR UG2+研讨会上GT-Rain单图像去雨挑战的结果。该竞赛旨在研究真实场景中的多雨天气现象，提供一个新颖的真实世界雨天图像数据集，并激发进一步发展真实图像单图像去雨方法的创新思路。参赛者在GT-Rain数据集上进行训练，并在包含15个额外场景的数据集扩展上进行评估。GT-Rain中的场景由真实雨天图像和雨停后拍摄的真实图像组成。挑战中共有275名参与者注册，其中55名参加了最终的测试阶段。",
+    "tldr": "该报告回顾了GT-Rain单图像去雨挑战的结果，旨在研究真实场景中的雨天气象现象，并提供新颖的真实世界雨天图像数据集，激发创新思路以促进单图像去雨方法在真实图像上的发展。"
+}

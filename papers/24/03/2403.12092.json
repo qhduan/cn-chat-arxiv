@@ -1,0 +1,11 @@
+{
+    "title": "Methods for Matching English Language Addresses",
+    "abstract": "arXiv:2403.12092v1 Announce Type: cross  Abstract: Addresses occupy a niche location within the landscape of textual data, due to the positional importance carried by every word, and the geographical scope it refers to. The task of matching addresses happens everyday and is present in various fields like mail redirection, entity resolution, etc. Our work defines, and formalizes a framework to generate matching and mismatching pairs of addresses in the English language, and use it to evaluate various methods to automatically perform address matching. These methods vary widely from distance based approaches to deep learning models. By studying the Precision, Recall and Accuracy metrics of these approaches, we obtain an understanding of the best suited method for this setting of the address matching task.",
+    "link": "https://arxiv.org/abs/2403.12092",
+    "context": "Title: Methods for Matching English Language Addresses\nAbstract: arXiv:2403.12092v1 Announce Type: cross  Abstract: Addresses occupy a niche location within the landscape of textual data, due to the positional importance carried by every word, and the geographical scope it refers to. The task of matching addresses happens everyday and is present in various fields like mail redirection, entity resolution, etc. Our work defines, and formalizes a framework to generate matching and mismatching pairs of addresses in the English language, and use it to evaluate various methods to automatically perform address matching. These methods vary widely from distance based approaches to deep learning models. By studying the Precision, Recall and Accuracy metrics of these approaches, we obtain an understanding of the best suited method for this setting of the address matching task.",
+    "path": "papers/24/03/2403.12092.json",
+    "total_tokens": 745,
+    "translated_title": "匹配英语地址的方法",
+    "translated_abstract": "地址在文本数据中占据着一席之地，因为每个词所具有的位置重要性和它所涉及的地理范围。匹配地址的任务每天都在发生，并且存在于邮件重定向、实体解析等各种领域中。我们的工作定义和规范了一个框架，用于生成英语地址的匹配和不匹配对，并将其用于评估各种方法自动执行地址匹配。这些方法从基于距离的方法到深度学习模型各不相同。通过研究这些方法的精度、召回率和准确度指标，我们可以了解到最适合这种地址匹配任务设置的方法。",
+    "tldr": "该研究定义并规范了生成英语地址匹配对的框架，并研究了距离基准方法到深度学习模型等各种方法之间的精度、召回率和准确度，以确定最适合地址匹配任务的方法。"
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Useful Compact Representations for Data-Fitting",
+    "abstract": "arXiv:2403.12206v1 Announce Type: cross  Abstract: For minimization problems without 2nd derivative information, methods that estimate Hessian matrices can be very effective. However, conventional techniques generate dense matrices that are prohibitive for large problems. Limited-memory compact representations express the dense arrays in terms of a low rank representation and have become the state-of-the-art for software implementations on large deterministic problems. We develop new compact representations that are parameterized by a choice of vectors and that reduce to existing well known formulas for special choices. We demonstrate effectiveness of the compact representations for large eigenvalue computations, tensor factorizations and nonlinear regressions.",
+    "link": "https://arxiv.org/abs/2403.12206",
+    "context": "Title: Useful Compact Representations for Data-Fitting\nAbstract: arXiv:2403.12206v1 Announce Type: cross  Abstract: For minimization problems without 2nd derivative information, methods that estimate Hessian matrices can be very effective. However, conventional techniques generate dense matrices that are prohibitive for large problems. Limited-memory compact representations express the dense arrays in terms of a low rank representation and have become the state-of-the-art for software implementations on large deterministic problems. We develop new compact representations that are parameterized by a choice of vectors and that reduce to existing well known formulas for special choices. We demonstrate effectiveness of the compact representations for large eigenvalue computations, tensor factorizations and nonlinear regressions.",
+    "path": "papers/24/03/2403.12206.json",
+    "total_tokens": 664,
+    "translated_title": "用于数据拟合的实用紧凑表示",
+    "translated_abstract": "在没有2阶导数信息的最小化问题中，估计Hessian矩阵的方法非常有效。然而，传统技术生成的稠密矩阵对于大型问题是难以承受的。有限内存紧凑表示将稠密数组表示为低秩表示，已成为大型确定性问题软件实现的最新技术。我们开发了由向量选择参数化的新紧凑表示，并且对于特定选择，它们可以简化为现有的著名公式。我们展示了紧凑表示在大型特征值计算、张量分解和非线性回归中的有效性。",
+    "tldr": "我们提出了新的紧凑表示方法，在大型确定性问题的软件实现中表现良好，特别适用于大型特征值计算、张量分解和非线性回归。"
+}
