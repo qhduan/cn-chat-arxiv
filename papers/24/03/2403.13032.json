@@ -1,0 +1,12 @@
+{
+    "title": "Hybrid Unsupervised Learning Strategy for Monitoring Industrial Batch Processes",
+    "abstract": "arXiv:2403.13032v1 Announce Type: new  Abstract: Industrial production processes, especially in the pharmaceutical industry, are complex systems that require continuous monitoring to ensure efficiency, product quality, and safety. This paper presents a hybrid unsupervised learning strategy (HULS) for monitoring complex industrial processes. Addressing the limitations of traditional Self-Organizing Maps (SOMs), especially in scenarios with unbalanced data sets and highly correlated process variables, HULS combines existing unsupervised learning techniques to address these challenges. To evaluate the performance of the HULS concept, comparative experiments are performed based on a laboratory batch",
+    "link": "https://arxiv.org/abs/2403.13032",
+    "context": "Title: Hybrid Unsupervised Learning Strategy for Monitoring Industrial Batch Processes\nAbstract: arXiv:2403.13032v1 Announce Type: new  Abstract: Industrial production processes, especially in the pharmaceutical industry, are complex systems that require continuous monitoring to ensure efficiency, product quality, and safety. This paper presents a hybrid unsupervised learning strategy (HULS) for monitoring complex industrial processes. Addressing the limitations of traditional Self-Organizing Maps (SOMs), especially in scenarios with unbalanced data sets and highly correlated process variables, HULS combines existing unsupervised learning techniques to address these challenges. To evaluate the performance of the HULS concept, comparative experiments are performed based on a laboratory batch",
+    "path": "papers/24/03/2403.13032.json",
+    "total_tokens": 692,
+    "translated_title": "用于监测工业批处理过程的混合无监督学习策略",
+    "translated_abstract": "工业生产过程，尤其是制药行业，是复杂的系统，需要持续监测以确保效率、产品质量和安全性。本文提出了一种用于监测复杂工业流程的混合无监督学习策略（HULS）。HULS结合了现有的无监督学习技术，以解决传统自组织映射（SOM）在数据不平衡和高度相关的过程变量情况下的局限性。为了评估HULS概念的性能，进行了基于实验室批处理的比较实验。",
+    "tldr": "本文提出了一种混合无监督学习策略（HULS），用于监测复杂工业流程，以解决传统方法在数据不平衡和高度相关变量情况下的局限性。",
+    "en_tdlr": "The paper introduces a Hybrid Unsupervised Learning Strategy (HULS) for monitoring complex industrial processes, addressing limitations of traditional methods in scenarios with unbalanced data sets and highly correlated variables."
+}

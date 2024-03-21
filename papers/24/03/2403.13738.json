@@ -1,0 +1,12 @@
+{
+    "title": "Policy Relevant Treatment Effects with Multidimensional Unobserved Heterogeneity",
+    "abstract": "arXiv:2403.13738v1 Announce Type: new  Abstract: This paper provides a framework for the policy relevant treatment effects using instrumental variables. In the framework, a treatment selection may or may not satisfy the classical monotonicity condition and can accommodate multidimensional unobserved heterogeneity. We can bound the target parameter by extracting information from identifiable estimands. We also provide a more conservative yet computationally simpler bound by applying a convex relaxation method. Linear shape restrictions can be easily incorporated to further improve the bounds. Numerical and simulation results illustrate the informativeness of our convex-relaxation bounds, i.e., that our bounds are sufficiently tight.",
+    "link": "https://arxiv.org/abs/2403.13738",
+    "context": "Title: Policy Relevant Treatment Effects with Multidimensional Unobserved Heterogeneity\nAbstract: arXiv:2403.13738v1 Announce Type: new  Abstract: This paper provides a framework for the policy relevant treatment effects using instrumental variables. In the framework, a treatment selection may or may not satisfy the classical monotonicity condition and can accommodate multidimensional unobserved heterogeneity. We can bound the target parameter by extracting information from identifiable estimands. We also provide a more conservative yet computationally simpler bound by applying a convex relaxation method. Linear shape restrictions can be easily incorporated to further improve the bounds. Numerical and simulation results illustrate the informativeness of our convex-relaxation bounds, i.e., that our bounds are sufficiently tight.",
+    "path": "papers/24/03/2403.13738.json",
+    "total_tokens": 722,
+    "translated_title": "具有多维未观测异质性的政策相关治疗效应",
+    "translated_abstract": "这篇论文提供了一个框架，用于使用工具变量来研究政策相关的治疗效应。在这个框架中，治疗选择可能符合经典的单调性条件，也可能不符合，并且能够容纳多维未观测异质性。我们可以通过从可以辨识的估计量中提取信息来限定目标参数。我们还通过应用凸松弛方法提供了一个更保守但计算更简单的界限。线性形状限制可以很容易地纳入以进一步改进这些界限。数值和模拟结果说明了我们凸松弛界限的信息量，即我们的界限足够紧凑。",
+    "tldr": "该论文提出了使用工具变量来研究政策相关治疗效应的框架，能够处理多维未观测异质性，并通过凸松弛方法提供了紧致的界限。",
+    "en_tdlr": "The paper presents a framework for studying policy relevant treatment effects using instrumental variables, accommodating multidimensional unobserved heterogeneity, and providing tight bounds through convex relaxation method."
+}

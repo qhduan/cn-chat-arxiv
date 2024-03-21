@@ -1,0 +1,12 @@
+{
+    "title": "Next day fire prediction via semantic segmentation",
+    "abstract": "arXiv:2403.13545v1 Announce Type: cross  Abstract: In this paper we present a deep learning pipeline for next day fire prediction. The next day fire prediction task consists in learning models that receive as input the available information for an area up until a certain day, in order to predict the occurrence of fire for the next day. Starting from our previous problem formulation as a binary classification task on instances (daily snapshots of each area) represented by tabular feature vectors, we reformulate the problem as a semantic segmentation task on images; there, each pixel corresponds to a daily snapshot of an area, while its channels represent the formerly tabular training features. We demonstrate that this problem formulation, built within a thorough pipeline achieves state of the art results.",
+    "link": "https://arxiv.org/abs/2403.13545",
+    "context": "Title: Next day fire prediction via semantic segmentation\nAbstract: arXiv:2403.13545v1 Announce Type: cross  Abstract: In this paper we present a deep learning pipeline for next day fire prediction. The next day fire prediction task consists in learning models that receive as input the available information for an area up until a certain day, in order to predict the occurrence of fire for the next day. Starting from our previous problem formulation as a binary classification task on instances (daily snapshots of each area) represented by tabular feature vectors, we reformulate the problem as a semantic segmentation task on images; there, each pixel corresponds to a daily snapshot of an area, while its channels represent the formerly tabular training features. We demonstrate that this problem formulation, built within a thorough pipeline achieves state of the art results.",
+    "path": "papers/24/03/2403.13545.json",
+    "total_tokens": 668,
+    "translated_title": "通过语义分割进行第二天火灾预测",
+    "translated_abstract": "在本文中，我们提出了一个用于第二天火灾预测的深度学习流水线。第二天火灾预测任务包括学习模型，该模型以直到某一天为止的特定地区信息作为输入，以预测第二天火灾的发生。我们将问题重新构造为图像上的语义分割任务，其中每个像素对应于一个地区的每日快照，而其通道表示之前的表格训练特征。我们证明，这个问题的新构造在一个完整的流水线内取得了最先进的结果。",
+    "tldr": "通过将问题重新构造为图像语义分割任务，本论文提出了一个深度学习流水线，实现了第二天火灾预测的最先进结果。",
+    "en_tdlr": "By reformulating the problem as an image semantic segmentation task, this paper presents a deep learning pipeline that achieves state-of-the-art results for next day fire prediction."
+}

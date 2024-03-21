@@ -1,0 +1,12 @@
+{
+    "title": "Creativity and Machine Learning: A Survey",
+    "abstract": "arXiv:2104.02726v4 Announce Type: replace  Abstract: There is a growing interest in the area of machine learning and creativity. This survey presents an overview of the history and the state of the art of computational creativity theories, key machine learning techniques (including generative deep learning), and corresponding automatic evaluation methods. After presenting a critical discussion of the key contributions in this area, we outline the current research challenges and emerging opportunities in this field.",
+    "link": "https://arxiv.org/abs/2104.02726",
+    "context": "Title: Creativity and Machine Learning: A Survey\nAbstract: arXiv:2104.02726v4 Announce Type: replace  Abstract: There is a growing interest in the area of machine learning and creativity. This survey presents an overview of the history and the state of the art of computational creativity theories, key machine learning techniques (including generative deep learning), and corresponding automatic evaluation methods. After presenting a critical discussion of the key contributions in this area, we outline the current research challenges and emerging opportunities in this field.",
+    "path": "papers/21/04/2104.02726.json",
+    "total_tokens": 579,
+    "translated_title": "创意与机器学习：一项调查",
+    "translated_abstract": "在机器学习和创意领域，越来越多的人开始感兴趣。本调查综述了计算创造力理论的历史和现状、关键的机器学习技术（包括生成式深度学习）以及相应的自动评估方法。在对该领域的关键贡献进行批判性讨论之后，我们概述了当前研究面临的挑战和这一领域的新兴机遇。",
+    "tldr": "本调查论文总结了机器学习和创造力领域的历史、现状，以及关键的贡献和研究挑战。",
+    "en_tdlr": "This survey paper summarizes the history, current state, key contributions, and research challenges in the field of machine learning and creativity."
+}

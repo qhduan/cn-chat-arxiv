@@ -1,0 +1,11 @@
+{
+    "title": "Towards an extension of Fault Trees in the Predictive Maintenance Scenario",
+    "abstract": "arXiv:2403.13785v1 Announce Type: new  Abstract: One of the most appreciated features of Fault Trees (FTs) is their simplicity, making them fit into industrial processes. As such processes evolve in time, considering new aspects of large modern systems, modelling techniques based on FTs have adapted to these needs. This paper proposes an extension of FTs to take into account the problem of Predictive Maintenance, one of the challenges of the modern dependability field of study. The paper sketches the Predictive Fault Tree language and proposes some use cases to support their modelling and analysis in concrete industrial settings.",
+    "link": "https://arxiv.org/abs/2403.13785",
+    "context": "Title: Towards an extension of Fault Trees in the Predictive Maintenance Scenario\nAbstract: arXiv:2403.13785v1 Announce Type: new  Abstract: One of the most appreciated features of Fault Trees (FTs) is their simplicity, making them fit into industrial processes. As such processes evolve in time, considering new aspects of large modern systems, modelling techniques based on FTs have adapted to these needs. This paper proposes an extension of FTs to take into account the problem of Predictive Maintenance, one of the challenges of the modern dependability field of study. The paper sketches the Predictive Fault Tree language and proposes some use cases to support their modelling and analysis in concrete industrial settings.",
+    "path": "papers/24/03/2403.13785.json",
+    "total_tokens": 661,
+    "translated_title": "在预测维护场景下扩展故障树的研究",
+    "translated_abstract": "故障树（FTs）最受欢迎的特点之一是其简单性，使其适用于工业流程。随着这些流程随时间发展，在考虑新的大型现代系统方面，基于FTs的建模技术已经适应了这些需求。本文提出了扩展FTs以考虑预测维护问题的方法，这是现代可靠性研究领域面临的挑战之一。文章勾勒了预测故障树语言，并提出了一些使用案例来支持对其在具体工业环境中的建模和分析。",
+    "tldr": "提出了在预测维护场景下扩展故障树的方法，以应对现代可靠性研究领域面临的挑战。"
+}

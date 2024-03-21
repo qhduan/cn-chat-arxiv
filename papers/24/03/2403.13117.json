@@ -1,0 +1,12 @@
+{
+    "title": "Optimal Flow Matching: Learning Straight Trajectories in Just One Step",
+    "abstract": "arXiv:2403.13117v1 Announce Type: cross  Abstract: Over the several recent years, there has been a boom in development of flow matching methods for generative modeling. One intriguing property pursued by the community is the ability to learn flows with straight trajectories which realize the optimal transport (OT) displacements. Straightness is crucial for fast integration of the learned flow's paths. Unfortunately, most existing flow straightening methods are based on non-trivial iterative procedures which accumulate the error during training or exploit heuristic minibatch OT approximations. To address this issue, we develop a novel optimal flow matching approach which recovers the straight OT displacement for the quadratic cost in just one flow matching step.",
+    "link": "https://arxiv.org/abs/2403.13117",
+    "context": "Title: Optimal Flow Matching: Learning Straight Trajectories in Just One Step\nAbstract: arXiv:2403.13117v1 Announce Type: cross  Abstract: Over the several recent years, there has been a boom in development of flow matching methods for generative modeling. One intriguing property pursued by the community is the ability to learn flows with straight trajectories which realize the optimal transport (OT) displacements. Straightness is crucial for fast integration of the learned flow's paths. Unfortunately, most existing flow straightening methods are based on non-trivial iterative procedures which accumulate the error during training or exploit heuristic minibatch OT approximations. To address this issue, we develop a novel optimal flow matching approach which recovers the straight OT displacement for the quadratic cost in just one flow matching step.",
+    "path": "papers/24/03/2403.13117.json",
+    "total_tokens": 695,
+    "translated_title": "最优流匹配：在一步中学习直线轨迹",
+    "translated_abstract": "在过去几年中，流匹配方法在生成建模中得到了蓬勃发展。社区追求的一个引人注目的属性是能够学习具有直线轨迹的流，这些轨迹实现了最优输运（OT）置换。直线性对于快速集成学习流的路径至关重要。不幸的是，大多数现有的流直线化方法都基于非平凡的迭代过程，在训练过程中积累误差或利用启发式小批量OT近似。为解决这一问题，我们开发了一种新颖的最优流匹配方法，仅通过一次流匹配步骤即可为二次成本恢复直线OT置换。",
+    "tldr": "该论文提出了一种新颖的最优流匹配方法，能够在一步中学习实现二次成本下的直线 OT 位移。",
+    "en_tdlr": "This paper presents a novel optimal flow matching approach that learns the straight OT displacement for the quadratic cost in just one step."
+}

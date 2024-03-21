@@ -1,0 +1,12 @@
+{
+    "title": "LlamaFactory: Unified Efficient Fine-Tuning of 100+ Language Models",
+    "abstract": "arXiv:2403.13372v1 Announce Type: new  Abstract: Efficient fine-tuning is vital for adapting large language models (LLMs) to downstream tasks. However, it requires non-trivial efforts to implement these methods on different models. We present LlamaFactory, a unified framework that integrates a suite of cutting-edge efficient training methods. It allows users to flexibly customize the fine-tuning of 100+ LLMs without the need for coding through the built-in web UI LlamaBoard. We empirically validate the efficiency and effectiveness of our framework on language modeling and text generation tasks. It has been released at https://github.com/hiyouga/LLaMA-Factory and already received over 13,000 stars and 1,600 forks.",
+    "link": "https://arxiv.org/abs/2403.13372",
+    "context": "Title: LlamaFactory: Unified Efficient Fine-Tuning of 100+ Language Models\nAbstract: arXiv:2403.13372v1 Announce Type: new  Abstract: Efficient fine-tuning is vital for adapting large language models (LLMs) to downstream tasks. However, it requires non-trivial efforts to implement these methods on different models. We present LlamaFactory, a unified framework that integrates a suite of cutting-edge efficient training methods. It allows users to flexibly customize the fine-tuning of 100+ LLMs without the need for coding through the built-in web UI LlamaBoard. We empirically validate the efficiency and effectiveness of our framework on language modeling and text generation tasks. It has been released at https://github.com/hiyouga/LLaMA-Factory and already received over 13,000 stars and 1,600 forks.",
+    "path": "papers/24/03/2403.13372.json",
+    "total_tokens": 720,
+    "translated_title": "LlamaFactory：100多种语言模型的统一高效微调",
+    "translated_abstract": "高效的微调对于将大型语言模型（LLMs）适应下游任务至关重要。然而，在不同模型上实现这些方法需要非平凡的努力。我们提出了LlamaFactory，这是一个统一框架，集成了一套前沿的高效训练方法。它允许用户通过内置的Web UI LlamaBoard 灵活定制100多种LLMs的微调，无需编码。我们在语言建模和文本生成任务上经验性地验证了我们框架的效率和有效性。已发布在 https://github.com/hiyouga/LLaMA-Factory，并已获得超过13,000颗星和1,600个分支。",
+    "tldr": "LlamaFactory是一个统一框架，整合了一系列前沿的高效训练方法，使用户能够在不需要编码的情况下灵活定制100多种LLMs的微调。",
+    "en_tdlr": "LlamaFactory is a unified framework that integrates a suite of cutting-edge efficient training methods, allowing users to flexibly customize the fine-tuning of 100+ LLMs without the need for coding."
+}

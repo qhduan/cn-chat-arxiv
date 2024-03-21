@@ -1,0 +1,11 @@
+{
+    "title": "Entangling Machine Learning with Quantum Tensor Networks",
+    "abstract": "arXiv:2403.12969v1 Announce Type: new  Abstract: This paper examines the use of tensor networks, which can efficiently represent high-dimensional quantum states, in language modeling. It is a distillation and continuation of the work done in (van der Poel, 2023). To do so, we will abstract the problem down to modeling Motzkin spin chains, which exhibit long-range correlations reminiscent of those found in language. The Matrix Product State (MPS), also known as the tensor train, has a bond dimension which scales as the length of the sequence it models. To combat this, we use the factored core MPS, whose bond dimension scales sub-linearly. We find that the tensor models reach near perfect classifying ability, and maintain a stable level of performance as the number of valid training examples is decreased.",
+    "link": "https://arxiv.org/abs/2403.12969",
+    "context": "Title: Entangling Machine Learning with Quantum Tensor Networks\nAbstract: arXiv:2403.12969v1 Announce Type: new  Abstract: This paper examines the use of tensor networks, which can efficiently represent high-dimensional quantum states, in language modeling. It is a distillation and continuation of the work done in (van der Poel, 2023). To do so, we will abstract the problem down to modeling Motzkin spin chains, which exhibit long-range correlations reminiscent of those found in language. The Matrix Product State (MPS), also known as the tensor train, has a bond dimension which scales as the length of the sequence it models. To combat this, we use the factored core MPS, whose bond dimension scales sub-linearly. We find that the tensor models reach near perfect classifying ability, and maintain a stable level of performance as the number of valid training examples is decreased.",
+    "path": "papers/24/03/2403.12969.json",
+    "total_tokens": 763,
+    "translated_title": "将机器学习与量子张量网络纠缠在一起",
+    "translated_abstract": "这篇论文探讨了张量网络在语言建模中的应用，张量网络能够高效表示高维量子态。它是对(van der Poel, 2023)工作的提炼和延续。为了做到这一点，我们将问题抽象为建模Motzkin自旋链，其展现出与语言中发现的长程相关性相似。矩阵乘积状态（MPS），也被称为张量列，其键合维度随其建模的序列长度扩展。为了应对这一情况，我们使用了键核MPS，其键合维度以次线性扩展。我们发现张量模型达到了接近完美的分类能力，并且在减少合法训练样本数量时，保持了稳定的性能水平。",
+    "tldr": "论文研究了在语言建模中使用张量网络的方法，通过引入键核MPS，成功应对了模型复杂性与数据量之间的平衡问题，实现了接近完美的分类能力。"
+}

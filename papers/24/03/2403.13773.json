@@ -1,0 +1,12 @@
+{
+    "title": "The Limits of Identification in Discrete Choice",
+    "abstract": "arXiv:2403.13773v1 Announce Type: new  Abstract: We study identification and linear independence in random utility models. We characterize the dimension of the random utility model as the cyclomatic complexity of a specific graphical representation of stochastic choice data. We show that, as the number of alternatives grows, any linearly independent set of preferences is a vanishingly small subset of the set of all preferences. We introduce a new condition on sets of preferences which is sufficient for linear independence. We demonstrate by example that the condition is not necessary, but is strictly weaker than other existing sufficient conditions.",
+    "link": "https://arxiv.org/abs/2403.13773",
+    "context": "Title: The Limits of Identification in Discrete Choice\nAbstract: arXiv:2403.13773v1 Announce Type: new  Abstract: We study identification and linear independence in random utility models. We characterize the dimension of the random utility model as the cyclomatic complexity of a specific graphical representation of stochastic choice data. We show that, as the number of alternatives grows, any linearly independent set of preferences is a vanishingly small subset of the set of all preferences. We introduce a new condition on sets of preferences which is sufficient for linear independence. We demonstrate by example that the condition is not necessary, but is strictly weaker than other existing sufficient conditions.",
+    "path": "papers/24/03/2403.13773.json",
+    "total_tokens": 706,
+    "translated_title": "离散选择中的识别限制",
+    "translated_abstract": "我们研究了随机效用模型中的识别和线性独立性。我们将随机选择数据的特定图形表示的圈复杂度特征化为随机效用模型的维数。我们表明，随着备选方案数量的增加，任何线性独立的偏好集都是所有偏好集的微不足道的子集。我们引入了对偏好集的新条件，该条件足以确保线性独立性。我们通过示例展示该条件并非必要条件，但严格弱于其他现有的足够条件。",
+    "tldr": "我们研究了随机效用模型中的识别和线性独立性，发现随着备选方案数量的增加，任何线性独立的偏好集都是所有偏好集的微不足道的子集，并引入了一个新的条件来确保线性独立性。",
+    "en_tdlr": "We investigate identification and linear independence in random utility models and find that as the number of alternatives grows, any linearly independent set of preferences is a vanishingly small subset of all preferences. We introduce a new condition to ensure linear independence which is shown to be not necessary but strictly weaker than other existing sufficient conditions."
+}

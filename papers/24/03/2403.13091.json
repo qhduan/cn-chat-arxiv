@@ -1,0 +1,12 @@
+{
+    "title": "JaxUED: A simple and useable UED library in Jax",
+    "abstract": "arXiv:2403.13091v1 Announce Type: new  Abstract: We present JaxUED, an open-source library providing minimal dependency implementations of modern Unsupervised Environment Design (UED) algorithms in Jax. JaxUED leverages hardware acceleration to obtain on the order of 100x speedups compared to prior, CPU-based implementations. Inspired by CleanRL, we provide fast, clear, understandable, and easily modifiable implementations, with the aim of accelerating research into UED. This paper describes our library and contains baseline results. Code can be found at https://github.com/DramaCow/jaxued.",
+    "link": "https://arxiv.org/abs/2403.13091",
+    "context": "Title: JaxUED: A simple and useable UED library in Jax\nAbstract: arXiv:2403.13091v1 Announce Type: new  Abstract: We present JaxUED, an open-source library providing minimal dependency implementations of modern Unsupervised Environment Design (UED) algorithms in Jax. JaxUED leverages hardware acceleration to obtain on the order of 100x speedups compared to prior, CPU-based implementations. Inspired by CleanRL, we provide fast, clear, understandable, and easily modifiable implementations, with the aim of accelerating research into UED. This paper describes our library and contains baseline results. Code can be found at https://github.com/DramaCow/jaxued.",
+    "path": "papers/24/03/2403.13091.json",
+    "total_tokens": 655,
+    "translated_title": "JaxUED: Jax中简单易用的UED库",
+    "translated_abstract": "我们介绍了JaxUED，这是一个开源库，在Jax中提供现代无监督环境设计（UED）算法的最小依赖实现。JaxUED利用硬件加速，相比之前基于CPU的实现，获得了100倍左右的加速。受CleanRL启发，我们提供快速、清晰、易于理解和易于修改的实现，旨在加速对UED的研究。本文描述了我们的库并包含基准结果。代码可在https://github.com/DramaCow/jaxued 找到。",
+    "tldr": "JaxUED是一个在Jax中提供现代UED算法最小依赖实现的开源库，利用硬件加速获得了显著的速度提升，旨在加速对UED的研究。",
+    "en_tdlr": "JaxUED is an open-source library that provides minimal dependency implementations of modern UED algorithms in Jax, achieving significant speedups through hardware acceleration, with the aim of accelerating research into UED."
+}

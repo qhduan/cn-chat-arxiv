@@ -2,202 +2,202 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [When is Trust Robust?](https://arxiv.org/abs/2403.12917) | 信任的稳健性取决于经济体中流氓的普遍程度。 |
-| [^2] | [Performance, Knowledge Acquisition and Satisfaction in Self-selected Groups: Evidence from a Classroom Field Experiment](https://arxiv.org/abs/2403.12694) | 研究发现，在自选小组中，学生表现较差，但学习效果更好和更满意，自选组效果主要受学生选择组员的影响。 |
-| [^3] | [Composite likelihood estimation of stationary Gaussian processes with a view toward stochastic volatility](https://arxiv.org/abs/2403.12653) | 开发了复合似然推断框架，用于稳态高斯过程的参数估计，成功改善了矩法估计方法，实证结果支持随机波动性在不同时间尺度上的特性 |
-| [^4] | [Inflation Target at Risk: A Time-varying Parameter Distributional Regression](https://arxiv.org/abs/2403.12456) | 介绍了一种新颖的半参数方法，用于构建时间变化的条件分布，通过分布回归估计所有模型参数，预测美国通货膨胀分布的风险。 |
-| [^5] | [The Best of Many Robustness Criteria in Decision Making: Formulation and Application to Robust Pricing](https://arxiv.org/abs/2403.12260) | 本文对决策制定中多种稳健性标准进行了统一分析，研究了不同标准之间的对比表现，针对稳健定价问题提供了统一的分析方法 |
-| [^6] | [Fragile Stable Matchings](https://arxiv.org/abs/2403.12183) | 论文展示了在去中心化的一对一匹配环境中，易碎的稳定匹配以及当稳定化可能需要很长时间时的现象。 |
-| [^7] | [Does AI help humans make better decisions? A methodological framework for experimental evaluation](https://arxiv.org/abs/2403.12108) | 引入一种新的实验框架用于评估人类是否通过使用AI可以做出更好的决策，在单盲实验设计中比较了三种决策系统的表现 |
-| [^8] | [Scenarios for the Transition to AGI](https://arxiv.org/abs/2403.12107) | 分析了不同的技术进步场景对人工通用智能过渡的影响，探讨了自动化和资本积累之间的关系以及工资变化趋势。 |
-| [^9] | [Learning Macroeconomic Policies based on Microfoundations: A Stackelberg Mean Field Game Approach](https://arxiv.org/abs/2403.12093) | 本研究提出了基于Stackelberg Mean Field Game的方法，可以有效地学习宏观经济政策，并在模型预训练和无模型Stackelberg均场强化学习算法的基础上取得了实验结果表明其优越性。 |
-| [^10] | [Investigating Changes of Water Quality in Reservoirs based on Flood and Inflow Fluctuations](https://arxiv.org/abs/2403.05671) | 研究者模拟了两个分层水库的热结构以探讨洪水时水质的变化，发现洪水期间流量增加可能造成水质恶化和溶解氧含量下降。 |
-| [^11] | [Attention Capture](https://arxiv.org/abs/2209.05570) | 动态信息结构可以在不同偏好下实现顺序最优，实现具有块结构的最优结构来追踪设计者的内在信念。 |
-| [^12] | [Bounds on Treatment Effects under Stochastic Monotonicity Assumption in Sample Selection Models.](http://arxiv.org/abs/2311.00439) | 本文研究了在样本选择模型中处理效应的部分识别问题，当排除限制失效和选择效应的单调性假设不完全成立时。我们的方法允许在单调性不严格成立的情况下获得有用的界限。 |
-| [^13] | [Learning News Bias: Misspecifications and Consequences.](http://arxiv.org/abs/2309.08740) | 这篇论文研究了决策者学习关于陌生新闻来源偏见的过程。当决策者对已知来源的偏见有错误的信念时，学习过程会失败，导致扭曲。该模型产生了敌对媒体效应和虚假极化，对事实核查和错误观念校准产生了影响。 |
+| [^1] | [The Limits of Identification in Discrete Choice](https://arxiv.org/abs/2403.13773) | 我们研究了随机效用模型中的识别和线性独立性，发现随着备选方案数量的增加，任何线性独立的偏好集都是所有偏好集的微不足道的子集，并引入了一个新的条件来确保线性独立性。 |
+| [^2] | [Policy Relevant Treatment Effects with Multidimensional Unobserved Heterogeneity](https://arxiv.org/abs/2403.13738) | 该论文提出了使用工具变量来研究政策相关治疗效应的框架，能够处理多维未观测异质性，并通过凸松弛方法提供了紧致的界限。 |
+| [^3] | [Robust Inference in Locally Misspecified Bipartite Networks](https://arxiv.org/abs/2403.13725) | 介绍了一种在局部错误指定条件下在二分网络中进行稳健推断的方法，提出了局部渐近方法构建的稳健估计量和偏差感知置信区间，具有在稀疏网络渐近条件下对真实参数正确的渐近覆盖。 |
+| [^4] | [Optimal VPPI strategy under Omega ratio with stochastic benchmark](https://arxiv.org/abs/2403.13388) | 通过最大化投资者垫的扩展Omega比率，本文确定了风险乘数，同时使用随机基准为投资者提供变比例投资组合保险（VPPI）策略。 |
+| [^5] | [Multifractal wavelet dynamic mode decomposition modeling for marketing time series](https://arxiv.org/abs/2403.13361) | 本研究旨在通过多重分形小波动态模态分解建模探讨基于时间序列的营销模型。 |
+| [^6] | [On Equilibrium Determinacy in Overlapping Generations Models with Money](https://arxiv.org/abs/2403.13222) | 本文提供了关于在Tirole (1985)的重叠代际模型中货币和非货币稳态的局部确定性的详细分析，说明了在具有生产的模型中，不同于资产分配经济情况下的局部确定性条件，并展示了货币稳态在相对较弱条件下的局部确定性。 |
+| [^7] | [Path-dependency of capital return in periodic growth processes](https://arxiv.org/abs/2403.08678) | 本研究发现，在周期性增长过程中，资本化的期望值取决于路径，从而导致资本的回报率和时间平均回报率取决于路径，且内部收益率与资本回报率的期望值不同。 |
+| [^8] | [Causal Interpretation of Estimands Defined by Exposure Mappings](https://arxiv.org/abs/2403.08183) | 该论文研究了在对相互干扰施加弱限制条件时因果解释估计量的问题，并提出了用于因果可解释性的符号保留标准。 |
+| [^9] | [Equivalence between the Fitness-Complexity and the Sinkhorn-Knopp algorithms](https://arxiv.org/abs/2212.12356) | 揭示了健身复杂度算法与Sinkhorn-Knopp算法之间的等效性，以及通过固定点解的归一化揭示了健身和复杂度指标的能量函数解释。 |
+| [^10] | [A duality between utility transforms and probability distortions.](http://arxiv.org/abs/2309.05816) | 本文建立了一种效用变换与概率失真之间的对偶关系，这对决策风险下的经典理论有重要的意义。 |
+| [^11] | [Signaling With Commitment.](http://arxiv.org/abs/2305.00777) | 该论文研究了具有承诺力量的信号传递博弈，并提出了发件人可达到的收益的几何描述。研究者将其应用于不同领域，如作业市场信号传递、通信和披露。 |
+| [^12] | [Unconfoundedness with Network Interference.](http://arxiv.org/abs/2211.07823) | 本文研究使用单个大型网络的观测数据进行非参数估计，利用图神经网络估计高维烦恼函数，研究治疗效应和溢出效应。 |
+| [^13] | [Prediction intervals for economic fixed-event forecasts.](http://arxiv.org/abs/2210.13562) | 该论文研究了经济固定事件预测的预测区间，提出了基于问题动机的回归方法，用于构建德国和美国国内生产总值（GDP）增长的预测区间。 |
 
 # 详细
 
-[^1]: 信任何时候是稳健的？
+[^1]: 离散选择中的识别限制
 
-    When is Trust Robust?
+    The Limits of Identification in Discrete Choice
 
-    [https://arxiv.org/abs/2403.12917](https://arxiv.org/abs/2403.12917)
+    [https://arxiv.org/abs/2403.13773](https://arxiv.org/abs/2403.13773)
 
-    信任的稳健性取决于经济体中流氓的普遍程度。
-
-    
-
-    我们研究了一个经济体系，其中的互动如果代理人可以相信他人不欺骗，则更具生产力。一些代理人是流氓，总是欺骗，而另一些只有在欺骗的成本（作为作弊者比例的递减函数）足够低的情况下才会作弊。该经济体系表现出多个均衡状态。随着经济体中流氓的比例下降，高信任均衡状态可能会受到任意小的扰动或低信任代理人的注入而被破坏，而低信任均衡状态则变得不受扰动和高信任代理人的注入影响。因此，信任的稳健性可能取决于流氓的普遍程度。
-
-    arXiv:2403.12917v1 Announce Type: new  Abstract: We examine an economy in which interactions are more productive if agents can trust others to refrain from cheating. Some agents are scoundrels, who always cheat, while others cheat only if the cost of cheating, a decreasing function of the proportion of cheaters, is sufficiently low. The economy exhibits multiple equilibria. As the proportion of scoundrels in the economy declines, the high-trust equilibrium can be disrupted by arbitrarily small perturbations or infusions of low-trust agents, while the low-trust equilibrium becomes impervious to perturbations and infusions of high-trust agents. The resilience of trust may thus hinge upon the prevalence of scoundrels.
-    
-[^2]: 自选小组中的绩效、知识获取和满意度：来自一项课堂实地实验的证据
-
-    Performance, Knowledge Acquisition and Satisfaction in Self-selected Groups: Evidence from a Classroom Field Experiment
-
-    [https://arxiv.org/abs/2403.12694](https://arxiv.org/abs/2403.12694)
-
-    研究发现，在自选小组中，学生表现较差，但学习效果更好和更满意，自选组效果主要受学生选择组员的影响。
+    我们研究了随机效用模型中的识别和线性独立性，发现随着备选方案数量的增加，任何线性独立的偏好集都是所有偏好集的微不足道的子集，并引入了一个新的条件来确保线性独立性。
 
     
 
-    我们研究如何有效地组建工作小组以提高小组生产力、个人满意度和学习情况。因此，我们在一门必修本科课程中进行了一项自然的实地实验，并研究了自选小组和随机分配小组之间的差异。我们发现，自选小组在小组任务上表现显著较差。然而，自选小组的学生学到更多，比随机分配的组更满意。允许学生选择组员的影响在自选小组中占主导地位：在控制组的技能、性别和家庭地区构成后，自选小组和随机组之间的差异几乎保持不变。GitHub提交的分布显示，随机分配的组的平均表现更好主要是由技能高的个人推动的。
+    我们研究了随机效用模型中的识别和线性独立性。我们将随机选择数据的特定图形表示的圈复杂度特征化为随机效用模型的维数。我们表明，随着备选方案数量的增加，任何线性独立的偏好集都是所有偏好集的微不足道的子集。我们引入了对偏好集的新条件，该条件足以确保线性独立性。我们通过示例展示该条件并非必要条件，但严格弱于其他现有的足够条件。
 
-    arXiv:2403.12694v1 Announce Type: new  Abstract: We investigate how to efficiently set up work groups to boost group productivity, individual satisfaction, and learning. Therefore, we conduct a natural field experiment in a compulsory undergraduate course and study differences between self-selected and randomly assigned groups. We find that self-selected groups perform significantly worse on group assignments. Yet, students in self-selected groups learn more and are more satisfied than those in randomly assigned groups. The effect of allowing students to pick group members dominates the effect of different group compositions in self-selected groups: When controlling for the skill, gender, and home region composition of groups, the differences between self-selected and randomly formed groups persist almost unaltered. The distribution of GitHub commits per group reveals that the better average performance of randomly assigned groups is mainly driven by highly skilled individuals distribu
+    arXiv:2403.13773v1 Announce Type: new  Abstract: We study identification and linear independence in random utility models. We characterize the dimension of the random utility model as the cyclomatic complexity of a specific graphical representation of stochastic choice data. We show that, as the number of alternatives grows, any linearly independent set of preferences is a vanishingly small subset of the set of all preferences. We introduce a new condition on sets of preferences which is sufficient for linear independence. We demonstrate by example that the condition is not necessary, but is strictly weaker than other existing sufficient conditions.
     
-[^3]: 复合似然估计在稳态高斯过程中的应用并针对随机波动性进行研究
+[^2]: 具有多维未观测异质性的政策相关治疗效应
 
-    Composite likelihood estimation of stationary Gaussian processes with a view toward stochastic volatility
+    Policy Relevant Treatment Effects with Multidimensional Unobserved Heterogeneity
 
-    [https://arxiv.org/abs/2403.12653](https://arxiv.org/abs/2403.12653)
+    [https://arxiv.org/abs/2403.13738](https://arxiv.org/abs/2403.13738)
 
-    开发了复合似然推断框架，用于稳态高斯过程的参数估计，成功改善了矩法估计方法，实证结果支持随机波动性在不同时间尺度上的特性
-
-    
-
-    我们开发了一个框架，用于对参数化连续时间稳态高斯过程进行复合似然推断。我们推导了相关最大复合似然估计器的渐近理论。我们将我们的方法应用于一对旨在描述金融资产回报的随机对数现货波动性的模型。模拟研究表明，在这些情景下，它表现良好，并改善了矩法估计方法。在应用中，我们研究了利用加密货币市场高频数据计算的一种日内度量的动态特性。经验证据支持一种机制，在这种机制中，随机波动性的短期和长期相关结构是分开的，以捕捉其在不同时间尺度上的特性。
-
-    arXiv:2403.12653v1 Announce Type: new  Abstract: We develop a framework for composite likelihood inference of parametric continuous-time stationary Gaussian processes. We derive the asymptotic theory of the associated maximum composite likelihood estimator. We implement our approach on a pair of models that has been proposed to describe the random log-spot variance of financial asset returns. A simulation study shows that it delivers good performance in these settings and improves upon a method-of-moments estimation. In an application, we inspect the dynamic of an intraday measure of spot variance computed with high-frequency data from the cryptocurrency market. The empirical evidence supports a mechanism, where the short- and long-term correlation structure of stochastic volatility are decoupled in order to capture its properties at different time scales.
-    
-[^4]: 通货膨胀目标风险：一种时变参数分布回归
-
-    Inflation Target at Risk: A Time-varying Parameter Distributional Regression
-
-    [https://arxiv.org/abs/2403.12456](https://arxiv.org/abs/2403.12456)
-
-    介绍了一种新颖的半参数方法，用于构建时间变化的条件分布，通过分布回归估计所有模型参数，预测美国通货膨胀分布的风险。
+    该论文提出了使用工具变量来研究政策相关治疗效应的框架，能够处理多维未观测异质性，并通过凸松弛方法提供了紧致的界限。
 
     
 
-    宏观变量经常显示时间变化的分布，这是由经济、社会和环境因素的动态和演变特征所驱动的，这些因素持续地重塑着统治这些变量的基本模式和关系。为了更好地理解超出中心趋势的分布动态，本文引入了一种新颖的半参数方法，用于构建时间变化的条件分布，依赖于分布回归的最新进展。我们提出了一种高效的基于精度的马尔可夫链蒙特卡罗算法，可以同时估计所有模型参数，同时明确地施加条件分布函数上的单调性条件。我们的模型被应用于构建美国通货膨胀的预测分布，条件于一组宏观经济和金融指标。未来通货膨胀偏离过高或过低的风险
+    这篇论文提供了一个框架，用于使用工具变量来研究政策相关的治疗效应。在这个框架中，治疗选择可能符合经典的单调性条件，也可能不符合，并且能够容纳多维未观测异质性。我们可以通过从可以辨识的估计量中提取信息来限定目标参数。我们还通过应用凸松弛方法提供了一个更保守但计算更简单的界限。线性形状限制可以很容易地纳入以进一步改进这些界限。数值和模拟结果说明了我们凸松弛界限的信息量，即我们的界限足够紧凑。
 
-    arXiv:2403.12456v1 Announce Type: new  Abstract: Macro variables frequently display time-varying distributions, driven by the dynamic and evolving characteristics of economic, social, and environmental factors that consistently reshape the fundamental patterns and relationships governing these variables. To better understand the distributional dynamics beyond the central tendency, this paper introduces a novel semi-parametric approach for constructing time-varying conditional distributions, relying on the recent advances in distributional regression. We present an efficient precision-based Markov Chain Monte Carlo algorithm that simultaneously estimates all model parameters while explicitly enforcing the monotonicity condition on the conditional distribution function. Our model is applied to construct the forecasting distribution of inflation for the U.S., conditional on a set of macroeconomic and financial indicators. The risks of future inflation deviating excessively high or low fro
+    arXiv:2403.13738v1 Announce Type: new  Abstract: This paper provides a framework for the policy relevant treatment effects using instrumental variables. In the framework, a treatment selection may or may not satisfy the classical monotonicity condition and can accommodate multidimensional unobserved heterogeneity. We can bound the target parameter by extracting information from identifiable estimands. We also provide a more conservative yet computationally simpler bound by applying a convex relaxation method. Linear shape restrictions can be easily incorporated to further improve the bounds. Numerical and simulation results illustrate the informativeness of our convex-relaxation bounds, i.e., that our bounds are sufficiently tight.
     
-[^5]: 决策制定中多种稳健性标准的优劣：制定与应用于稳健定价
+[^3]: 局部错误指定的二分网络中的稳健推断
 
-    The Best of Many Robustness Criteria in Decision Making: Formulation and Application to Robust Pricing
+    Robust Inference in Locally Misspecified Bipartite Networks
 
-    [https://arxiv.org/abs/2403.12260](https://arxiv.org/abs/2403.12260)
+    [https://arxiv.org/abs/2403.13725](https://arxiv.org/abs/2403.13725)
 
-    本文对决策制定中多种稳健性标准进行了统一分析，研究了不同标准之间的对比表现，针对稳健定价问题提供了统一的分析方法
-
-    
-
-    在非贝叶斯不确定性下的稳健决策制定中，提出了不同的稳健优化标准，如最小表现、最小后悔和最小比率。在许多问题中，这三个标准都从决策理论的角度具有良好动机和基础，然而不同的标准给出了不同的建议。本文通过对过度拟合稳健性标准的系统研究，启动了这一研究。当根据一个标准得出的建议用另一个标准评估时，这个建议有多好？是否存在一个建议，可以针对所有感兴趣的标准表现良好？我们通过对稳健定价的原型问题（包括价值分布的支持、矩和百分位）跨越各种信息结构提供了三个核心稳健标准的统一分析，并评估了其相对性能
-
-    arXiv:2403.12260v1 Announce Type: cross  Abstract: In robust decision-making under non-Bayesian uncertainty, different robust optimization criteria, such as maximin performance, minimax regret, and maximin ratio, have been proposed. In many problems, all three criteria are well-motivated and well-grounded from a decision-theoretic perspective, yet different criteria give different prescriptions. This paper initiates a systematic study of overfitting to robustness criteria. How good is a prescription derived from one criterion when evaluated against another criterion? Does there exist a prescription that performs well against all criteria of interest? We formalize and study these questions through the prototypical problem of robust pricing under various information structures, including support, moments, and percentiles of the distribution of values. We provide a unified analysis of three focal robust criteria across various information structures and evaluate the relative performance o
-    
-[^6]: 易碎的稳定匹配
-
-    Fragile Stable Matchings
-
-    [https://arxiv.org/abs/2403.12183](https://arxiv.org/abs/2403.12183)
-
-    论文展示了在去中心化的一对一匹配环境中，易碎的稳定匹配以及当稳定化可能需要很长时间时的现象。
+    介绍了一种在局部错误指定条件下在二分网络中进行稳健推断的方法，提出了局部渐近方法构建的稳健估计量和偏差感知置信区间，具有在稀疏网络渐近条件下对真实参数正确的渐近覆盖。
 
     
 
-    我们展示了在去中心化的一对一匹配环境中易碎的稳定匹配。Roth and Vande Vate (1990)的经典工作表明了简单的去中心化动态，其中随机选择的阻塞对依次匹配。这种去中心化交互保证收敛到一个稳定匹配。我们的第一个定理表明，在温和条件下，任何不稳定匹配 -- 包括对稳定匹配的微小扰动 -- 都可以通过这些动态最终转化为任何稳定匹配。我们的第二个定理突出了易碎性的另一个方面：稳定化可能需要很长时间。即使在具有唯一稳定匹配的市场中，动态总是收敛于相同的匹配，去中心化交互也可能需要指数长的时间才能收敛。对稳定匹配的微小扰动可能会让市场远离稳定，并涉及相当比例的不匹配参与者长时间参与。
+    本文介绍了一种在局部错误指定条件下在二分网络中进行稳健推断的方法。我们专注于一类具有错误指定条件矩限制的二元网络模型。错误指定的框架是局部的，因为错误指定的影响随样本大小变化而变化。我们利用这种局部渐近方法构建了一个在错误指定邻域内具有极小化最小平方误差的稳健估计量。此外，我们介绍了考虑局部错误指定效应的偏差感知置信区间。这些置信区间在稀疏网络渐近条件下对于真实感兴趣参数具有正确的渐近覆盖。蒙特卡洛实验展示了稳健估计在有限样本和稀疏网络中的良好性能。作为实证说明，我们研究了生态学中科学合作网络的形成。
 
-    arXiv:2403.12183v1 Announce Type: new  Abstract: We show how fragile stable matchings are in a decentralized one-to-one matching setting. The classical work of Roth and Vande Vate (1990) suggests simple decentralized dynamics in which randomly-chosen blocking pairs match successively. Such decentralized interactions guarantee convergence to a stable matching. Our first theorem shows that, under mild conditions, any unstable matching -- including a small perturbation of a stable matching -- can culminate in any stable matching through these dynamics. Our second theorem highlights another aspect of fragility: stabilization may take a long time. Even in markets with a unique stable matching, where the dynamics always converge to the same matching, decentralized interactions can require an exponentially long duration to converge. A small perturbation of a stable matching may lead the market away from stability and involve a sizable proportion of mismatched participants for extended periods
+    arXiv:2403.13725v1 Announce Type: new  Abstract: This paper introduces a methodology to conduct robust inference in bipartite networks under local misspecification. We focus on a class of dyadic network models with misspecified conditional moment restrictions. The framework of misspecification is local, as the effect of misspecification varies with the sample size. We utilize this local asymptotic approach to construct a robust estimator that is minimax optimal for the mean square error within a neighborhood of misspecification. Additionally, we introduce bias-aware confidence intervals that account for the effect of the local misspecification. These confidence intervals have the correct asymptotic coverage for the true parameter of interest under sparse network asymptotics. Monte Carlo experiments demonstrate that the robust estimator performs well in finite samples and sparse networks. As an empirical illustration, we study the formation of a scientific collaboration network among ec
     
-[^7]: AI是否有助于人类做出更好的决策？一种用于实验评估的方法论框架
+[^4]: 在具有随机基准的Omega比率下的最佳VPPI策略
 
-    Does AI help humans make better decisions? A methodological framework for experimental evaluation
+    Optimal VPPI strategy under Omega ratio with stochastic benchmark
 
-    [https://arxiv.org/abs/2403.12108](https://arxiv.org/abs/2403.12108)
+    [https://arxiv.org/abs/2403.13388](https://arxiv.org/abs/2403.13388)
 
-    引入一种新的实验框架用于评估人类是否通过使用AI可以做出更好的决策，在单盲实验设计中比较了三种决策系统的表现
-
-    
-
-    基于数据驱动算法的人工智能（AI）在当今社会变得无处不在。然而，在许多情况下，尤其是当利益高昂时，人类仍然作出最终决策。因此，关键问题是AI是否有助于人类比单独的人类或单独的AI做出更好的决策。我们引入了一种新的方法论框架，用于实验性地回答这个问题，而不需要额外的假设。我们使用基于基准潜在结果的标准分类指标测量决策者做出正确决策的能力。我们考虑了一个单盲实验设计，在这个设计中，提供AI生成的建议在不同案例中被随机分配给最终决策的人类。在这种实验设计下，我们展示了如何比较三种替代决策系统的性能--仅人类、人类与AI、仅AI。
-
-    arXiv:2403.12108v1 Announce Type: new  Abstract: The use of Artificial Intelligence (AI) based on data-driven algorithms has become ubiquitous in today's society. Yet, in many cases and especially when stakes are high, humans still make final decisions. The critical question, therefore, is whether AI helps humans make better decisions as compared to a human alone or AI an alone. We introduce a new methodological framework that can be used to answer experimentally this question with no additional assumptions. We measure a decision maker's ability to make correct decisions using standard classification metrics based on the baseline potential outcome. We consider a single-blinded experimental design, in which the provision of AI-generated recommendations is randomized across cases with a human making final decisions. Under this experimental design, we show how to compare the performance of three alternative decision-making systems--human-alone, human-with-AI, and AI-alone. We apply the pr
-    
-[^8]: AGI过渡场景分析
-
-    Scenarios for the Transition to AGI
-
-    [https://arxiv.org/abs/2403.12107](https://arxiv.org/abs/2403.12107)
-
-    分析了不同的技术进步场景对人工通用智能过渡的影响，探讨了自动化和资本积累之间的关系以及工资变化趋势。
+    通过最大化投资者垫的扩展Omega比率，本文确定了风险乘数，同时使用随机基准为投资者提供变比例投资组合保险（VPPI）策略。
 
     
 
-    我们分析了在可能导致人工通用智能（AGI）的技术进步不同场景下产出和工资的变化。在我们的假设中，人类工作可以分解为在复杂性上不同的原子任务。技术的进步使得越来越复杂的任务可以被自动化实现。工资的影响取决于自动化和资本积累之间的竞赛。如果任务复杂性的分布呈现出足够厚的无限尾部，那么就总是有足够的工作供人类从事，工资可能会无限上升。相比之下，如果人类可以执行的任务复杂性是有界的，并且完全自动化被实现，那么工资会崩溃。但即使在这之前，如果大规模自动化超越了资本积累，劳动力过于丰富，工资可能会下降。自动化生产率的增长可能导致广泛的发展
+    本文研究了一种变比例投资组合保险（VPPI）策略。其目标是通过最大化投资者垫的扩展Omega比率来确定风险乘数，使用一个二元随机基准。当股指下跌时，投资者的目标是维持最低保证。相反，当股指上涨时，投资者寻求跟踪一些超额收益。优化问题涉及将一个非凹目标函数与随机基准相结合，这是基于凹化技术的随机版本有效解决的。我们为最佳风险乘数推导出半解析解，其值函数分为三种不同情况。有趣的是，分类标准是由Zieling等人（2014年）中最佳风险乘数与1值之间的关系确定的。模拟结果验证了VPPI的有效性。
 
-    arXiv:2403.12107v1 Announce Type: cross  Abstract: We analyze how output and wages behave under different scenarios for technological progress that may culminate in Artificial General Intelligence (AGI), defined as the ability of AI systems to perform all tasks that humans can perform. We assume that human work can be decomposed into atomistic tasks that differ in their complexity. Advances in technology make ever more complex tasks amenable to automation. The effects on wages depend on a race between automation and capital accumulation. If the distribution of task complexity exhibits a sufficiently thick infinite tail, then there is always enough work for humans, and wages may rise forever. By contrast, if the complexity of tasks that humans can perform is bounded and full automation is reached, then wages collapse. But declines may occur even before if large-scale automation outpaces capital accumulation and makes labor too abundant. Automating productivity growth may lead to broad-b
+    arXiv:2403.13388v1 Announce Type: new  Abstract: This paper studies a variable proportion portfolio insurance (VPPI) strategy. The objective is to determine the risk multiplier by maximizing the extended Omega ratio of the investor's cushion, using a binary stochastic benchmark. When the stock index declines, investors aim to maintain the minimum guarantee. Conversely, when the stock index rises, investors seek to track some excess returns. The optimization problem involves the combination of a non-concave objective function with a stochastic benchmark, which is effectively solved based on the stochastic version of concavification technique. We derive semi-analytical solutions for the optimal risk multiplier, and the value functions are categorized into three distinct cases. Intriguingly, the classification criteria are determined by the relationship between the optimal risky multiplier in Zieling et al. (2014 and the value of 1. Simulation results confirm the effectiveness of the VPPI
     
-[^9]: 基于微观基础的宏观经济政策学习：一种斯塔克尔贝格均场博弈方法
+[^5]: 多重分形小波动态模态分解建模用于营销时间序列
 
-    Learning Macroeconomic Policies based on Microfoundations: A Stackelberg Mean Field Game Approach
+    Multifractal wavelet dynamic mode decomposition modeling for marketing time series
 
-    [https://arxiv.org/abs/2403.12093](https://arxiv.org/abs/2403.12093)
+    [https://arxiv.org/abs/2403.13361](https://arxiv.org/abs/2403.13361)
 
-    本研究提出了基于Stackelberg Mean Field Game的方法，可以有效地学习宏观经济政策，并在模型预训练和无模型Stackelberg均场强化学习算法的基础上取得了实验结果表明其优越性。
-
-    
-
-    有效的宏观经济政策在促进经济增长和社会稳定方面起着至关重要的作用。本文基于Stackelberg Mean Field Game（SMFG）模型，将最优宏观经济政策问题建模，其中政府作为政策制定的领导者，大规模家庭动态响应为追随者。这种建模方法捕捉了政府和大规模家庭之间的非对称动态博弈，并可以解释地评估基于微观基础的宏观经济政策效果，这是现有方法难以实现的。我们还提出了一种解决SMFG的方法，将真实数据进行预训练，并结合一种无模型的Stackelberg均场强化学习（SMFRL）算法，该算法可以独立于先前的环境知识和转变运行。我们的实验结果展示了SMFG方法在经济政策方面优于其他方法的优越性。
-
-    arXiv:2403.12093v1 Announce Type: cross  Abstract: Effective macroeconomic policies play a crucial role in promoting economic growth and social stability. This paper models the optimal macroeconomic policy problem based on the \textit{Stackelberg Mean Field Game} (SMFG), where the government acts as the leader in policy-making, and large-scale households dynamically respond as followers. This modeling method captures the asymmetric dynamic game between the government and large-scale households, and interpretably evaluates the effects of macroeconomic policies based on microfoundations, which is difficult for existing methods to achieve. We also propose a solution for SMFGs, incorporating pre-training on real data and a model-free \textit{Stackelberg mean-field reinforcement learning }(SMFRL) algorithm, which operates independently of prior environmental knowledge and transitions. Our experimental results showcase the superiority of the SMFG method over other economic policies in terms 
-    
-[^10]: 基于洪水和入流波动的水库水质变化研究
-
-    Investigating Changes of Water Quality in Reservoirs based on Flood and Inflow Fluctuations
-
-    [https://arxiv.org/abs/2403.05671](https://arxiv.org/abs/2403.05671)
-
-    研究者模拟了两个分层水库的热结构以探讨洪水时水质的变化，发现洪水期间流量增加可能造成水质恶化和溶解氧含量下降。
+    本研究旨在通过多重分形小波动态模态分解建模探讨基于时间序列的营销模型。
 
     
 
-    水温和溶解氧是水质和生态系统可持续性的重要指标。近年来，频繁且强烈的暴雨频繁发生，通过急剧增加称为暴洪的入流量，对水体的热结构和混合层深度产生影响。暴洪可以由突发的强降水事件在几分钟或几小时内发展而成。由于大量杂物和快速流动的水体，这种现象对水质有显着影响。洪水期间流量较大可能会恶化热层分层（具有不同密度层）的水体质量，并降低溶解氧含量。然而，目前尚不清楚这些参数能多好地代表湖泊对体量排放变化的响应。为解决这一问题，研究人员模拟了考虑拉贾涵养库为代表的两个分层水库的热结构。
+    营销是确保我们的销售业绩最佳、我们的价格最具吸引力、客户满意的方式，从而确保我们的品牌具有最广泛的分销网络。这需要对整个相关网络有复杂和先进的理解。实际上，营销数据可能以定性和定量数据的不同形式存在。然而，在文献中很容易发现关于定性研究可以收集到大量的文献，而采用定量观点的研究却寥寥无几。这是一个重大缺点，导致营销科学仍然侧重于设计，尽管市场在很大程度上依赖于货币和时间等数量。实际上，营销数据可以形成时间序列，如指定时期内的品牌销售、指定时期内与品牌相关的价格、市场份额等。本工作的目的是研究基于时间序列的一些营销模型。
 
-    arXiv:2403.05671v1 Announce Type: new  Abstract: Water temperature and dissolved oxygen are essential indicators of water quality and ecosystem sustainability. Lately, heavy rainfalls are happening frequently and forcefully affecting the thermal structure and mixing layers in depth by sharply increasing the volume of inflow entitled flash flood. It can occur by sudden intense precipitation and develop within minutes or hours. Because of heavy debris load and speedy water, this phenomenon has remarkable effects on water quality. A higher flow during floods may worsens water quality at lakes and reservoirs that are thermally stratified (with separate density layers) and decrease dissolved oxygen content. However, it is unclear how well these parameters represent the response of lakes to changes in volume discharge. To address this question, researchers simulate the thermal structure in two stratified reservoirs, considering the Rajae reservoir as a representative reservoir in the north o
+    arXiv:2403.13361v1 Announce Type: cross  Abstract: Marketing is the way we ensure our sales are the best in the market, our prices the most accessible, and our clients satisfied, thus ensuring our brand has the widest distribution. This requires sophisticated and advanced understanding of the whole related network. Indeed, marketing data may exist in different forms such as qualitative and quantitative data. However, in the literature, it is easily noted that large bibliographies may be collected about qualitative studies, while only a few studies adopt a quantitative point of view. This is a major drawback that results in marketing science still focusing on design, although the market is strongly dependent on quantities such as money and time. Indeed, marketing data may form time series such as brand sales in specified periods, brand-related prices over specified periods, market shares, etc. The purpose of the present work is to investigate some marketing models based on time series f
     
-[^11]: 注意力捕获
+[^6]: 在带有货币的重叠代际模型中的均衡确定性问题
 
-    Attention Capture
+    On Equilibrium Determinacy in Overlapping Generations Models with Money
 
-    [https://arxiv.org/abs/2209.05570](https://arxiv.org/abs/2209.05570)
+    [https://arxiv.org/abs/2403.13222](https://arxiv.org/abs/2403.13222)
 
-    动态信息结构可以在不同偏好下实现顺序最优，实现具有块结构的最优结构来追踪设计者的内在信念。
-
-    
-
-    决策者（DM）通过设计者选择的动态信息结构了解不确定状态，并在每个历史上在学习更多和停止行动之间进行最优选择。因此，动态信息结构在结果（行动、状态和停止时间）之间引发联合分布。我们展示了不存在承诺差距：对于任意偏好的结果，设计者最优结构总是可以修改为顺序最优的。这些修改利用信息的不可逆性来规范设计者的未来自我。然后我们展示了所有可行的结果分布都可以通过具有极端停止信念和连续信念遵循确定路径的动态信息结构来实施。我们利用这些结果解决了具有非线性偏好的DM停止时间的设计者问题：最优结构具有一个块结构，使DM的内在信念完全追踪设计者的内在信念。
-
-    arXiv:2209.05570v5 Announce Type: replace  Abstract: A decision maker (DM) learns about an uncertain state via a dynamic information structure chosen by a designer and, at each history, optimally chooses between learning more and stopping to act. Thus, dynamic information structures induce joint distributions over outcomes (actions, states, and stopping times). We show there is no commitment gap: for arbitrary preferences over outcomes, designer-optimal structures can always be modified to be sequentially optimal. These modifications exploit the irreversibility of information to discipline the designer's future self. We then show all feasible distributions over outcomes are implementable with dynamic information structures for which stopping beliefs are extremal and continuation beliefs follow a deterministic path. We use these results to solve the problem of a designer with (i) nonlinear preferences over DM's stopping times: optimal structures have a block structure such that DM's ind
-    
-[^12]: 在样本选择模型中的随机单调性假设下的处理效应界限
-
-    Bounds on Treatment Effects under Stochastic Monotonicity Assumption in Sample Selection Models. (arXiv:2311.00439v1 [econ.EM])
-
-    [http://arxiv.org/abs/2311.00439](http://arxiv.org/abs/2311.00439)
-
-    本文研究了在样本选择模型中处理效应的部分识别问题，当排除限制失效和选择效应的单调性假设不完全成立时。我们的方法允许在单调性不严格成立的情况下获得有用的界限。
+    本文提供了关于在Tirole (1985)的重叠代际模型中货币和非货币稳态的局部确定性的详细分析，说明了在具有生产的模型中，不同于资产分配经济情况下的局部确定性条件，并展示了货币稳态在相对较弱条件下的局部确定性。
 
     
 
-    本文讨论了在样本选择模型中处理效应的部分识别，当排除限制失效和选择效应的单调性假设不能完全成立时，这两个都是应用现有方法的主要挑战。我们的方法基于Lee（2009）的过程，他考虑了单调性假设下的部分识别，但我们只假设了随机（更弱）版本的单调性，这依赖于预先指定的参数$ \vartheta $，代表研究人员对单调性合理性的信念。在这种假设下，我们证明即使单调行为模型不严格成立，我们仍然可以获得有用的界限。当实证研究人员预计人口中只有一小部分人会在选择中表现出单调行为时，我们的方法非常有用；它还可以用于进行敏感性分析或检验识别能力。
+    本文对带有资本和生产的Tirole (1985)经典两期重叠代际模型中货币和非货币稳态的局部确定性进行了详细分析。我们表明，在托曼（1980）提供的关于资产分配经济中局部确定性的充分条件并不推广到具有生产的模型：存在具有任意效用函数的稳态非货币局部确定性或不确定性的稳健示例。相比之下，货币稳态在相当弱的条件下是局部确定的。
 
-    This paper discusses the partial identification of treatment effects in sample selection models when the exclusion restriction fails and the monotonicity assumption in the selection effect does not hold exactly, both of which are key challenges in applying the existing methodologies. Our approach builds on Lee's (2009) procedure, who considers partial identification under the monotonicity assumption, but we assume only a stochastic (and weaker) version of monotonicity, which depends on a prespecified parameter $\vartheta$ that represents researchers' belief in the plausibility of the monotonicity. Under this assumption, we show that we can still obtain useful bounds even when the monotonic behavioral model does not strictly hold. Our procedure is useful when empirical researchers anticipate that a small fraction of the population will not behave monotonically in selection; it can also be an effective tool for performing sensitivity analysis or examining the identification power of the 
+    arXiv:2403.13222v1 Announce Type: new  Abstract: This paper provides a detailed analysis of the local determinacy of monetary and non-monetary steady states in Tirole (1985)'s classical two-period overlapping generations model with capital and production. We show that the sufficient condition for local determinacy in endowment economies provided by Scheinkman (1980) does not generalize to models with production: there are robust examples with arbitrary utility functions in which the non-monetary steady state is locally determinate or indeterminate. In contrast, the monetary steady state is locally determinate under fairly weak conditions.
     
-[^13]: 学习新闻偏见：错误规范和后果
+[^7]: 资本回报在周期性增长过程中的路径依赖性研究
 
-    Learning News Bias: Misspecifications and Consequences. (arXiv:2309.08740v1 [econ.TH])
+    Path-dependency of capital return in periodic growth processes
 
-    [http://arxiv.org/abs/2309.08740](http://arxiv.org/abs/2309.08740)
+    [https://arxiv.org/abs/2403.08678](https://arxiv.org/abs/2403.08678)
 
-    这篇论文研究了决策者学习关于陌生新闻来源偏见的过程。当决策者对已知来源的偏见有错误的信念时，学习过程会失败，导致扭曲。该模型产生了敌对媒体效应和虚假极化，对事实核查和错误观念校准产生了影响。
+    本研究发现，在周期性增长过程中，资本化的期望值取决于路径，从而导致资本的回报率和时间平均回报率取决于路径，且内部收益率与资本回报率的期望值不同。
 
     
 
-    我们研究了决策者（DM）如何学习关于陌生新闻来源的偏见。在没有任何摩擦的情况下，理性的DM使用已知来源作为标准来辨别一个来源的真实偏见。如果DM有错误的信念，这个过程就会失败。我们推导出当DM对已知来源的偏见有教条、错误的信念时的长期信念、行为、福利和相应的比较静态。由于错误的学习导致的扭曲可以通过我们引入的单维度度量准确地捕捉到。我们的模型产生了敌对媒体效应和虚假极化，并对事实核查和错误观念校准产生了影响。
+    研究了周期性增长过程。根据应计基础，利润率的期望值既不直接取决于减值，也不取决于资本化路径。资本化的期望值是路径依赖的。由于依赖路径的资本化，资本的回报率也是路径依赖的，而资本的时间平均回报率与增长周期的期望值回报率不同。在没有中间减值的情况下，内部收益率是路径无关的，因此与资本回报率的期望值不同。结果表明，使权益回报率最大化的旋转周期长度与市场利率无关。杠杆效应通过一个单独的杠杆方程进入增长过程的微观经济学中，杠杆系数可能达到正值或负值。
 
-    We study how a decision maker (DM) learns about the bias of unfamiliar news sources. Absent any frictions, a rational DM uses known sources as a yardstick to discern the true bias of a source. If a DM has misspecified beliefs, this process fails. We derive long-run beliefs, behavior, welfare, and corresponding comparative statics, when the DM has dogmatic, incorrect beliefs about the bias of known sources. The distortion due to misspecified learning is succinctly captured by a single-dimensional metric we introduce. Our model generates the hostile media effect and false polarization, and has implications for fact-checking and misperception recalibration.
+    arXiv:2403.08678v1 Announce Type: new  Abstract: Periodic growth processes are investigated. The expected value of the profit rate, on accrual basis, does not directly depend on divestments, neither on the capitalization path. The expected value of capitalization is path dependent. Because of the path-dependent capitalization, the return rate on capital is path-dependent, and the time-average return rate on capital differs from the expected-value return rate on capital for the growth cycle. In the absence of intermediate divestments, the internal rate of return is path-independent, thereby differing from the expected value of the rate of return on capital. It is shown that the rotation cycle length maximizing the return rate on equity is independent of market interest rate. Leveraging effect enters the microeconomics of the growth processes through a separate leveraging equation, where the leverage coefficient may reach positive or negative values. Correspondingly, from the viewpoint o
+    
+[^8]: 由暴露映射定义的估计量的因果解释
+
+    Causal Interpretation of Estimands Defined by Exposure Mappings
+
+    [https://arxiv.org/abs/2403.08183](https://arxiv.org/abs/2403.08183)
+
+    该论文研究了在对相互干扰施加弱限制条件时因果解释估计量的问题，并提出了用于因果可解释性的符号保留标准。
+
+    
+
+    在存在相互干扰的情况下，通常利用由暴露映射定义的估计量来总结与个体相邻的治疗分配变化的影响。本文研究了在对相互干扰施加弱限制条件时它们的因果解释。我们证明在传统的识别条件下，这些估计量可能出现不可取的符号反转。这促使提出用于因果可解释性的符号保留标准。为满足首选标准，有必要对相互干扰施加约束，无论是在潜在结果还是在治疗选择中。我们提供了充分条件，并展示它们由一个允许在结果和选择阶段中存在复杂干扰形式的非参数模型满足。
+
+    arXiv:2403.08183v1 Announce Type: new  Abstract: In settings with interference, it is common to utilize estimands defined by exposure mappings to summarize the impact of variation in treatment assignments local to the ego. This paper studies their causal interpretation under weak restrictions on interference. We demonstrate that the estimands can exhibit unpalatable sign reversals under conventional identification conditions. This motivates the formulation of sign preservation criteria for causal interpretability. To satisfy preferred criteria, it is necessary to impose restrictions on interference, either in potential outcomes or selection into treatment. We provide sufficient conditions and show that they are satisfied by a nonparametric model allowing for a complex form of interference in both the outcome and selection stages.
+    
+[^9]: 《健身复杂度算法与Sinkhorn-Knopp算法之间的等效性》
+
+    Equivalence between the Fitness-Complexity and the Sinkhorn-Knopp algorithms
+
+    [https://arxiv.org/abs/2212.12356](https://arxiv.org/abs/2212.12356)
+
+    揭示了健身复杂度算法与Sinkhorn-Knopp算法之间的等效性，以及通过固定点解的归一化揭示了健身和复杂度指标的能量函数解释。
+
+    
+
+    我们揭示了经济复杂性领域中发展的健身复杂度算法与在涵盖从计算机科学和数学到经济学等不同领域中广泛使用的Sinkhorn-Knopp算法之间的联系。尽管这两种方法之间存在轻微的形式差异，但两者都收敛到相同的固定点解，直到归一化。发现的连接使我们能够推导出健身和复杂度指标作为适当能量函数的势能的严格解释。在这种解释下，高能量产品对于健身较低的国家是不可行的，这解释了为什么该算法在展示二部网络中嵌套模式方面有效。我们还展示了提出的解释揭示了健身复杂度算法的尺度不变性，这对于该算法在不同数据集中的实现具有实际意义。此外，对经验数据的进一步分析
+
+    arXiv:2212.12356v2 Announce Type: replace  Abstract: We uncover the connection between the Fitness-Complexity algorithm, developed in the economic complexity field, and the Sinkhorn-Knopp algorithm, widely used in diverse domains ranging from computer science and mathematics to economics. Despite minor formal differences between the two methods, both converge to the same fixed-point solution up to normalization. The discovered connection allows us to derive a rigorous interpretation of the Fitness and the Complexity metrics as the potentials of a suitable energy function. Under this interpretation, high-energy products are unfeasible for low-fitness countries, which explains why the algorithm is effective at displaying nested patterns in bipartite networks. We also show that the proposed interpretation reveals the scale invariance of the Fitness-Complexity algorithm, which has practical implications for the algorithm's implementation in different datasets. Further, analysis of empirica
+    
+[^10]: 一种效用变换与概率失真之间的对偶关系
+
+    A duality between utility transforms and probability distortions. (arXiv:2309.05816v1 [econ.TH])
+
+    [http://arxiv.org/abs/2309.05816](http://arxiv.org/abs/2309.05816)
+
+    本文建立了一种效用变换与概率失真之间的对偶关系，这对决策风险下的经典理论有重要的意义。
+
+    
+
+    本文建立了一种数学上的效用变换与概率失真之间的对偶关系。这些变换在决策风险下起着核心作用，为期望效用、双重效用和依赖等级效用的经典理论提供了基础。我们的主要结果表明，概率失真可以通过与效用变换的交换特征来进行描述，而效用变换则可以通过与概率失真的交换特征来进行描述。这些结果不需要额外的条件，因此每个类别都可以通过一个属性进行公理化。此外，在单调性下，依赖等级效用变换可以通过与效用变换或概率失真的集合交换特征进行描述。
+
+    In this paper, we establish a mathematical duality between utility transforms and probability distortions. These transforms play a central role in decision under risk by forming the foundation for the classic theories of expected utility, dual utility, and rank-dependent utility. Our main results establish that probability distortions are characterized by commutation with utility transforms, and utility transforms are characterized by commutation with probability distortions. These results require no additional conditions, and hence each class can be axiomatized with only one property. Moreover, under monotonicity, rank-dependent utility transforms can be characterized by set commutation with either utility transforms or probability distortions.
+    
+[^11]: 承诺下的信号传递
+
+    Signaling With Commitment. (arXiv:2305.00777v1 [econ.TH])
+
+    [http://arxiv.org/abs/2305.00777](http://arxiv.org/abs/2305.00777)
+
+    该论文研究了具有承诺力量的信号传递博弈，并提出了发件人可达到的收益的几何描述。研究者将其应用于不同领域，如作业市场信号传递、通信和披露。
+
+    
+
+    我们研究了具有承诺力量的信号传递博弈。我们提供了发件人可达到的收益的几何描述，由与不同发件人行动相关的发件人临时支付函数的图的拓扑联合描述。我们将这种情况下的发件人收益与两个基准进行比较。在第一个基准中，除了承诺自己的行动外，发件人还可以承诺向接收者提供额外的信息。在第二个基准中，发件人只能承诺发布信息，但不能保证自己的行动。我们还将我们的结果应用于作业市场信号传递，具有虚假成本的通信和披露。
+
+    We study the canonical signaling game, endowing the sender with commitment power. We provide a geometric characterization of the sender's attainable payoffs, described by the topological join of the graphs of the sender's interim payoff functions associated with different sender actions. We compare the sender's payoffs in this setting with two benchmarks. In the first, in addition to committing to her actions, the sender can commit to provide the receiver with additional information. In the second, the sender can only commit to release information, but cannot commit to her actions. We illustrate our results with applications to job market signaling, communication with lying costs, and disclosure.
+    
+[^12]: 使用网络干扰进行无偏性估计研究
+
+    Unconfoundedness with Network Interference. (arXiv:2211.07823v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2211.07823](http://arxiv.org/abs/2211.07823)
+
+    本文研究使用单个大型网络的观测数据进行非参数估计，利用图神经网络估计高维烦恼函数，研究治疗效应和溢出效应。
+
+    
+
+    本文研究使用来自单个大型网络的观测数据对治疗效应和溢出效应进行非参数估计。我们考虑一个模型，其中干扰随着网络距离的增加而衰减，这允许对结果和治疗选择的同伴影响进行建模。在这个模型下，总网络和所有单位的协变量构成了混淆的来源，与现有工作不同的是，现有工作假设混淆可以由这些对象的已知低维函数总结。我们提出使用图神经网络来估计双重稳健估计量的高维烦恼函数。我们建立了近似稀疏的网络类比，以证明使用浅层结构的合理性。
+
+    This paper studies nonparametric estimation of treatment and spillover effects using observational data from a single large network. We consider a model in which interference decays with network distance, which allows for peer influence in both outcomes and selection into treatment. Under this model, the total network and covariates of all units constitute sources of confounding, in contrast to existing work that assumes confounding can be summarized by a known, low-dimensional function of these objects. We propose to use graph neural networks to estimate the high-dimensional nuisance functions of a doubly robust estimator. We establish a network analog of approximate sparsity to justify the use of shallow architectures.
+    
+[^13]: 经济固定事件预测的预测区间
+
+    Prediction intervals for economic fixed-event forecasts. (arXiv:2210.13562v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2210.13562](http://arxiv.org/abs/2210.13562)
+
+    该论文研究了经济固定事件预测的预测区间，提出了基于问题动机的回归方法，用于构建德国和美国国内生产总值（GDP）增长的预测区间。
+
+    
+
+    固定事件预测设置在经济政策中很常见。它涉及到对同一个“固定”的预测对象进行一系列的预测，因此随着时间的推移，预测问题的难度逐渐降低。固定事件的点预测通常没有定量的不确定性度量。为了构建这样的度量，我们考虑了适用于固定事件情况的预测后处理技术。我们开发了基于问题动机的回归方法，并使用这些方法构建了德国和美国国内生产总值（GDP）增长的预测区间。
+
+    The fixed-event forecasting setup is common in economic policy. It involves a sequence of forecasts of the same (`fixed') predictand, so that the difficulty of the forecasting problem decreases over time. Fixed-event point forecasts are typically published without a quantitative measure of uncertainty. To construct such a measure, we consider forecast postprocessing techniques tailored to the fixed-event case. We develop regression methods that impose constraints motivated by the problem at hand, and use these methods to construct prediction intervals for gross domestic product (GDP) growth in Germany and the US.
     
 

@@ -1,0 +1,12 @@
+{
+    "title": "Hyacinth6B: A large language model for Traditional Chinese",
+    "abstract": "arXiv:2403.13334v1 Announce Type: new  Abstract: This research's primary motivation of this study is to address the high hardware and computational demands typically associated with LLMs.Therefore,our goal is to find a balance between model lightness and performance,striving to maximize performance while using a comparatively lightweight model. Hyacinth6B was developed with this objective in mind,aiming to fully leverage the core capabilities of LLMs without incurring substantial resource costs, effectively pushing the boundaries of smaller model's performance. The training approach involves parameter efficient finetuning using the LoRA method.",
+    "link": "https://arxiv.org/abs/2403.13334",
+    "context": "Title: Hyacinth6B: A large language model for Traditional Chinese\nAbstract: arXiv:2403.13334v1 Announce Type: new  Abstract: This research's primary motivation of this study is to address the high hardware and computational demands typically associated with LLMs.Therefore,our goal is to find a balance between model lightness and performance,striving to maximize performance while using a comparatively lightweight model. Hyacinth6B was developed with this objective in mind,aiming to fully leverage the core capabilities of LLMs without incurring substantial resource costs, effectively pushing the boundaries of smaller model's performance. The training approach involves parameter efficient finetuning using the LoRA method.",
+    "path": "papers/24/03/2403.13334.json",
+    "total_tokens": 658,
+    "translated_title": "Hyacinth6B：一个用于中文的大型语言模型",
+    "translated_abstract": "这项研究的主要动机是应对通常与大型语言模型相关的高硬件和计算需求。因此，我们的目标是在模型轻量化和性能之间找到平衡，努力在使用相对轻量级模型的同时最大化性能。Hyacinth6B是基于这一目标开发的，旨在充分发挥LLM的核心能力，而不造成巨大的资源成本，有效地推动较小模型的性能边界。训练方法涉及使用LoRA方法进行参数高效微调。",
+    "tldr": "为了解决大型语言模型通常存在的高硬件和计算需求，Hyacinth6B在模型轻量化和性能之间找到了平衡，采用LoRA方法进行参数高效微调。",
+    "en_tdlr": "Hyacinth6B strikes a balance between model lightness and performance to address the high hardware and computational demands typically associated with large language models, utilizing LoRA method for parameter efficient finetuning."
+}

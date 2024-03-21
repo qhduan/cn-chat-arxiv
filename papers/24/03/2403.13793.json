@@ -1,0 +1,12 @@
+{
+    "title": "Evaluating Frontier Models for Dangerous Capabilities",
+    "abstract": "arXiv:2403.13793v1 Announce Type: new  Abstract: To understand the risks posed by a new AI system, we must understand what it can and cannot do. Building on prior work, we introduce a programme of new \"dangerous capability\" evaluations and pilot them on Gemini 1.0 models. Our evaluations cover four areas: (1) persuasion and deception; (2) cyber-security; (3) self-proliferation; and (4) self-reasoning. We do not find evidence of strong dangerous capabilities in the models we evaluated, but we flag early warning signs. Our goal is to help advance a rigorous science of dangerous capability evaluation, in preparation for future models.",
+    "link": "https://arxiv.org/abs/2403.13793",
+    "context": "Title: Evaluating Frontier Models for Dangerous Capabilities\nAbstract: arXiv:2403.13793v1 Announce Type: new  Abstract: To understand the risks posed by a new AI system, we must understand what it can and cannot do. Building on prior work, we introduce a programme of new \"dangerous capability\" evaluations and pilot them on Gemini 1.0 models. Our evaluations cover four areas: (1) persuasion and deception; (2) cyber-security; (3) self-proliferation; and (4) self-reasoning. We do not find evidence of strong dangerous capabilities in the models we evaluated, but we flag early warning signs. Our goal is to help advance a rigorous science of dangerous capability evaluation, in preparation for future models.",
+    "path": "papers/24/03/2403.13793.json",
+    "total_tokens": 774,
+    "translated_title": "评估危险能力的前沿模型",
+    "translated_abstract": "为了了解新的人工智能系统可能带来的风险，我们必须了解它能做什么，以及不能做什么。在先前的工作基础上，我们引入了一项新的“危险能力”评估计划，并在Gemini 1.0模型上进行试点。我们的评估涵盖四个领域：（1）说服和欺骗；（2）网络安全；（3）自我扩散；和（4）自我推理。我们没有发现我们评估的模型具有强大的危险能力的证据，但我们标记了早期预警信号。我们的目标是推动一个严格的危险能力评估科学，为未来模型做好准备。",
+    "tldr": "评估了新AI系统危险能力的前沿模型，并在Gemini 1.0模型上开展了新的评估项目，虽未发现强大危险能力证据但提出早期预警信号，旨在推进危险能力评估科学，为未来模型做准备。",
+    "en_tdlr": "Evaluated frontier models for dangerous capabilities in new AI systems, piloted evaluations on Gemini 1.0 models, found no strong evidence but raised early warning signs, aiming to advance a rigorous science of dangerous capability evaluation for future models."
+}

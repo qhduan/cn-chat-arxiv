@@ -1,0 +1,12 @@
+{
+    "title": "On Equilibrium Determinacy in Overlapping Generations Models with Money",
+    "abstract": "arXiv:2403.13222v1 Announce Type: new  Abstract: This paper provides a detailed analysis of the local determinacy of monetary and non-monetary steady states in Tirole (1985)'s classical two-period overlapping generations model with capital and production. We show that the sufficient condition for local determinacy in endowment economies provided by Scheinkman (1980) does not generalize to models with production: there are robust examples with arbitrary utility functions in which the non-monetary steady state is locally determinate or indeterminate. In contrast, the monetary steady state is locally determinate under fairly weak conditions.",
+    "link": "https://arxiv.org/abs/2403.13222",
+    "context": "Title: On Equilibrium Determinacy in Overlapping Generations Models with Money\nAbstract: arXiv:2403.13222v1 Announce Type: new  Abstract: This paper provides a detailed analysis of the local determinacy of monetary and non-monetary steady states in Tirole (1985)'s classical two-period overlapping generations model with capital and production. We show that the sufficient condition for local determinacy in endowment economies provided by Scheinkman (1980) does not generalize to models with production: there are robust examples with arbitrary utility functions in which the non-monetary steady state is locally determinate or indeterminate. In contrast, the monetary steady state is locally determinate under fairly weak conditions.",
+    "path": "papers/24/03/2403.13222.json",
+    "total_tokens": 730,
+    "translated_title": "在带有货币的重叠代际模型中的均衡确定性问题",
+    "translated_abstract": "本文对带有资本和生产的Tirole (1985)经典两期重叠代际模型中货币和非货币稳态的局部确定性进行了详细分析。我们表明，在托曼（1980）提供的关于资产分配经济中局部确定性的充分条件并不推广到具有生产的模型：存在具有任意效用函数的稳态非货币局部确定性或不确定性的稳健示例。相比之下，货币稳态在相当弱的条件下是局部确定的。",
+    "tldr": "本文提供了关于在Tirole (1985)的重叠代际模型中货币和非货币稳态的局部确定性的详细分析，说明了在具有生产的模型中，不同于资产分配经济情况下的局部确定性条件，并展示了货币稳态在相对较弱条件下的局部确定性。",
+    "en_tdlr": "This paper provides a detailed analysis of the local determinacy of monetary and non-monetary steady states in Tirole (1985)'s classical two-period overlapping generations model with capital and production, showing differences in local determinacy conditions compared to endowment economies and demonstrating the local determinacy of monetary steady states under relatively weak conditions."
+}

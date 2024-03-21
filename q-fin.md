@@ -2,202 +2,157 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Performance, Knowledge Acquisition and Satisfaction in Self-selected Groups: Evidence from a Classroom Field Experiment](https://arxiv.org/abs/2403.12694) | 研究发现，在自选小组中，学生表现较差，但学习效果更好和更满意，自选组效果主要受学生选择组员的影响。 |
-| [^2] | [Composite likelihood estimation of stationary Gaussian processes with a view toward stochastic volatility](https://arxiv.org/abs/2403.12653) | 开发了复合似然推断框架，用于稳态高斯过程的参数估计，成功改善了矩法估计方法，实证结果支持随机波动性在不同时间尺度上的特性 |
-| [^3] | [Uncertainty in the financial market and application to forecastabnormal financial fluctuations](https://arxiv.org/abs/2403.12647) | 作者通过定量分析股指的均值和波动率不确定性，构建了三个早期预警指标，建立了新的异常波动预警模型，为金融市场提供短期预警。 |
-| [^4] | [FinLlama: Financial Sentiment Classification for Algorithmic Trading Applications](https://arxiv.org/abs/2403.12285) | 引入了一种基于Llama 2 7B模型的金融领域特定的情感分类框架，通过微调模型来受益于其生成性质和全面的语言操作。 |
-| [^5] | [Advanced Statistical Arbitrage with Reinforcement Learning](https://arxiv.org/abs/2403.12180) | 引入一种创新的无模型和基于强化学习的统计套利框架，通过最小化经验均值回归时间优化资产系数，并采用强化学习框架识别最佳的均值回归策略，创造性地构建状态空间以反映最近的价格走势，并设计奖励函数以反映均值回归交易的独特特征。 |
-| [^6] | [Effect of Leaders Voice on Financial Market: An Empirical Deep Learning Expedition on NASDAQ, NSE, and Beyond](https://arxiv.org/abs/2403.12161) | 通过深度学习和NLP分析领导人的Twitter帐户，结合历史数据与社交媒体新闻，实现对金融市场趋势的预测及推文对股价影响的分析。 |
-| [^7] | [Does AI help humans make better decisions? A methodological framework for experimental evaluation](https://arxiv.org/abs/2403.12108) | 引入一种新的实验框架用于评估人类是否通过使用AI可以做出更好的决策，在单盲实验设计中比较了三种决策系统的表现 |
-| [^8] | [Scenarios for the Transition to AGI](https://arxiv.org/abs/2403.12107) | 分析了不同的技术进步场景对人工通用智能过渡的影响，探讨了自动化和资本积累之间的关系以及工资变化趋势。 |
-| [^9] | [Student t-L\'evy regression model in YUIMA](https://arxiv.org/abs/2403.12078) | 本文讨论了在YUIMA中通过学生t-Lévy过程驱动的线性回归模型的估计和模拟方法，并解决了模拟高频率下样本路径和联合估计趋势、标度和自由度的问题。 |
-| [^10] | [Investigating Changes of Water Quality in Reservoirs based on Flood and Inflow Fluctuations](https://arxiv.org/abs/2403.05671) | 研究者模拟了两个分层水库的热结构以探讨洪水时水质的变化，发现洪水期间流量增加可能造成水质恶化和溶解氧含量下降。 |
-| [^11] | [Residual U-net with Self-Attention to Solve Multi-Agent Time-Consistent Optimal Trade Execution](https://arxiv.org/abs/2312.09353) | 使用残差U-net结合自注意力机制成功解决了多智能体时间一致最优交易执行问题，克服了传统有限差分方法的局限性。 |
-| [^12] | [Mean-field neural networks-based algorithms for McKean-Vlasov control problems *](https://arxiv.org/abs/2212.11518) | 该论文利用均场神经网络类解决McKean-Vlasov控制问题，提出了多种算法，并在不同示例上展示了数值结果，讨论比较了各种方法的优缺点。 |
-| [^13] | [Blockchain scaling and liquidity concentration on decentralized exchanges.](http://arxiv.org/abs/2306.17742) | 本研究分析了去中心化交易所上流动性提供者（LPs）频繁更新位置对市场流动性集中的影响，结果发现更高的重新定位强度和精度会导致更大的流动性集中，从而减少小额交易的滑点。 |
+| [^1] | [New Stochastic Fubini Theorems](https://arxiv.org/abs/2403.13791) | 引入了一种新的关于一般多维半鞘的测度值随机积分的概念，证明了一种新的随机Fubini定理，并展示了如何处理一个相当一般的随机Volterra半鞘的类别 |
+| [^2] | [Enhancing Law Enforcement Training: A Gamified Approach to Detecting Terrorism Financing](https://arxiv.org/abs/2403.13625) | 通过结合学习和培训方法以及利用游戏化提高技术转移和成年人学习，来加强检测恐怖融资的执法培训。 |
+| [^3] | [Detecting and Triaging Spoofing using Temporal Convolutional Networks](https://arxiv.org/abs/2403.13429) | 使用时间卷积网络检测和分级欺骗行为，提出了一个框架，结合标注算法和弱监督模型来识别潜在可疑的订单簿状态序列。 |
+| [^4] | [Optimal VPPI strategy under Omega ratio with stochastic benchmark](https://arxiv.org/abs/2403.13388) | 通过最大化投资者垫的扩展Omega比率，本文确定了风险乘数，同时使用随机基准为投资者提供变比例投资组合保险（VPPI）策略。 |
+| [^5] | [Multifractal wavelet dynamic mode decomposition modeling for marketing time series](https://arxiv.org/abs/2403.13361) | 本研究旨在通过多重分形小波动态模态分解建模探讨基于时间序列的营销模型。 |
+| [^6] | [Modeling stock price dynamics on the Ghana Stock Exchange: A Geometric Brownian Motion approach](https://arxiv.org/abs/2403.13192) | 该研究通过对加纳证券交易所的股价动态进行建模，发现几何布朗运动模型能够准确预测股价，并展示实际股价与模型预测的一致性。 |
+| [^7] | [Max-stability under first-order stochastic dominance](https://arxiv.org/abs/2403.13138) | 研究了在满足单调性和下半连续性的条件下，相对于第一顺序随机优势条件的最大稳定性，提出了满足最大稳定性性质的泛函可以表示为一个双变量函数的极值点的表示定理 |
+| [^8] | [Path-dependency of capital return in periodic growth processes](https://arxiv.org/abs/2403.08678) | 本研究发现，在周期性增长过程中，资本化的期望值取决于路径，从而导致资本的回报率和时间平均回报率取决于路径，且内部收益率与资本回报率的期望值不同。 |
+| [^9] | [Equivalence between the Fitness-Complexity and the Sinkhorn-Knopp algorithms](https://arxiv.org/abs/2212.12356) | 揭示了健身复杂度算法与Sinkhorn-Knopp算法之间的等效性，以及通过固定点解的归一化揭示了健身和复杂度指标的能量函数解释。 |
+| [^10] | [Short-Term Volatility Prediction Using Deep CNNs Trained on Order Flow.](http://arxiv.org/abs/2304.02472) | 本文提出了一种将市场信息编码为图像并利用卷积神经网络进行短期实现波动率预测的方法，与其他基准模型相比具有更好的表现和潜力。 |
 
 # 详细
 
-[^1]: 自选小组中的绩效、知识获取和满意度：来自一项课堂实地实验的证据
+[^1]: 新的随机Fubini定理
 
-    Performance, Knowledge Acquisition and Satisfaction in Self-selected Groups: Evidence from a Classroom Field Experiment
+    New Stochastic Fubini Theorems
 
-    [https://arxiv.org/abs/2403.12694](https://arxiv.org/abs/2403.12694)
+    [https://arxiv.org/abs/2403.13791](https://arxiv.org/abs/2403.13791)
 
-    研究发现，在自选小组中，学生表现较差，但学习效果更好和更满意，自选组效果主要受学生选择组员的影响。
-
-    
-
-    我们研究如何有效地组建工作小组以提高小组生产力、个人满意度和学习情况。因此，我们在一门必修本科课程中进行了一项自然的实地实验，并研究了自选小组和随机分配小组之间的差异。我们发现，自选小组在小组任务上表现显著较差。然而，自选小组的学生学到更多，比随机分配的组更满意。允许学生选择组员的影响在自选小组中占主导地位：在控制组的技能、性别和家庭地区构成后，自选小组和随机组之间的差异几乎保持不变。GitHub提交的分布显示，随机分配的组的平均表现更好主要是由技能高的个人推动的。
-
-    arXiv:2403.12694v1 Announce Type: new  Abstract: We investigate how to efficiently set up work groups to boost group productivity, individual satisfaction, and learning. Therefore, we conduct a natural field experiment in a compulsory undergraduate course and study differences between self-selected and randomly assigned groups. We find that self-selected groups perform significantly worse on group assignments. Yet, students in self-selected groups learn more and are more satisfied than those in randomly assigned groups. The effect of allowing students to pick group members dominates the effect of different group compositions in self-selected groups: When controlling for the skill, gender, and home region composition of groups, the differences between self-selected and randomly formed groups persist almost unaltered. The distribution of GitHub commits per group reveals that the better average performance of randomly assigned groups is mainly driven by highly skilled individuals distribu
-    
-[^2]: 复合似然估计在稳态高斯过程中的应用并针对随机波动性进行研究
-
-    Composite likelihood estimation of stationary Gaussian processes with a view toward stochastic volatility
-
-    [https://arxiv.org/abs/2403.12653](https://arxiv.org/abs/2403.12653)
-
-    开发了复合似然推断框架，用于稳态高斯过程的参数估计，成功改善了矩法估计方法，实证结果支持随机波动性在不同时间尺度上的特性
+    引入了一种新的关于一般多维半鞘的测度值随机积分的概念，证明了一种新的随机Fubini定理，并展示了如何处理一个相当一般的随机Volterra半鞘的类别
 
     
 
-    我们开发了一个框架，用于对参数化连续时间稳态高斯过程进行复合似然推断。我们推导了相关最大复合似然估计器的渐近理论。我们将我们的方法应用于一对旨在描述金融资产回报的随机对数现货波动性的模型。模拟研究表明，在这些情景下，它表现良好，并改善了矩法估计方法。在应用中，我们研究了利用加密货币市场高频数据计算的一种日内度量的动态特性。经验证据支持一种机制，在这种机制中，随机波动性的短期和长期相关结构是分开的，以捕捉其在不同时间尺度上的特性。
+    经典的随机Fubini定理表明，如果一个随机集成关于一个半鞘$S$和一个$\eta(dz)$-混合的$z$参数化被积函数$\psi^z$，结果只是个别$z$参数化的随机积分$\int\psi^z{d}S$的$\eta(dz)$混合。但如果想要将这样的结果用于研究形式为$X_t =\int_0^t \Psi_{t,s}dS_s, t \geq0$的Volterra半鞘，那么经典假设一个固定测度$\eta$太过严格；混合在被积函数上需要取而代之在参数空间上的一个随机核关于参数空间。为了处理这种情况并证明相应的新随机Fubini定理，我们引入了一个新的关于一般多维半鞘的测度值随机积分的概念。作为应用，我们展示了这如何处理一个相当一般的随机Volterra半鞘的类别。
 
-    arXiv:2403.12653v1 Announce Type: new  Abstract: We develop a framework for composite likelihood inference of parametric continuous-time stationary Gaussian processes. We derive the asymptotic theory of the associated maximum composite likelihood estimator. We implement our approach on a pair of models that has been proposed to describe the random log-spot variance of financial asset returns. A simulation study shows that it delivers good performance in these settings and improves upon a method-of-moments estimation. In an application, we inspect the dynamic of an intraday measure of spot variance computed with high-frequency data from the cryptocurrency market. The empirical evidence supports a mechanism, where the short- and long-term correlation structure of stochastic volatility are decoupled in order to capture its properties at different time scales.
+    arXiv:2403.13791v1 Announce Type: cross  Abstract: The classic stochastic Fubini theorem says that if one stochastically integrates with respect to a semimartingale $S$ an $\eta(dz)$-mixture of $z$-parametrized integrands $\psi^z$, the result is just the $\eta(dz)$-mixture of the individual $z$-parametrized stochastic integrals $\int\psi^z{d}S.$ But if one wants to use such a result for the study of Volterra semimartingales of the form $ X_t =\int_0^t \Psi_{t,s}dS_s, t \geq0,$ the classic assumption that one has a fixed measure $\eta$ is too restrictive; the mixture over the integrands needs to be taken instead with respect to a stochastic kernel on the parameter space. To handle that situation and prove a corresponding new stochastic Fubini theorem, we introduce a new notion of measure-valued stochastic integration with respect to a general multidimensional semimartingale. As an application, we show how this allows to handle a class of quite general stochastic Volterra semimartingales
     
-[^3]: 金融市场的不确定性及其在预测异常金融波动中的应用
+[^2]: 加强执法培训：一种游戏化方法来检测恐怖融资
 
-    Uncertainty in the financial market and application to forecastabnormal financial fluctuations
+    Enhancing Law Enforcement Training: A Gamified Approach to Detecting Terrorism Financing
 
-    [https://arxiv.org/abs/2403.12647](https://arxiv.org/abs/2403.12647)
+    [https://arxiv.org/abs/2403.13625](https://arxiv.org/abs/2403.13625)
 
-    作者通过定量分析股指的均值和波动率不确定性，构建了三个早期预警指标，建立了新的异常波动预警模型，为金融市场提供短期预警。
-
-    
-
-    金融与技术的融合与创新逐渐将金融系统转变为复杂的系统。分析金融市场异常波动的原因，提取早期预警指标，发现大多数早期预警系统是定性和因果的。然而，这些模型不能用于预测金融市场基准的风险。因此，从定量分析的角度出发，我们关注股指（基准）的均值和波动率不确定性，构建了三个早期预警指标：均值不确定性、波动率不确定性和ALM-G值-at-risk。基于这些新颖的预警指标，我们建立了一个新的异常波动预警模型，将为国家、社会和个人提供短期预警，提前反映。
-
-    arXiv:2403.12647v1 Announce Type: new  Abstract: The integration and innovation of finance and technology have gradually transformed the financial system into a complex one. Analyses of the causesd of abnormal fluctuations in the financial market to extract early warning indicators revealed that most early warning systems are qualitative and causal. However, these models cannot be used to forecast the risk of the financial market benchmark. Therefore, from a quantitative analysis perspective, we focus on the mean and volatility uncertainties of the stock index (benchmark) and then construct three early warning indicators: mean uncertainty, volatility uncertainty, and ALM-G-value at risk. Based on the novel warning indicators, we establish a new abnormal fluctuations warning model, which will provide a short-term warning for the country, society, and individuals to reflect in advance.
-    
-[^4]: FinLlama：用于算法交易应用的金融情感分类
-
-    FinLlama: Financial Sentiment Classification for Algorithmic Trading Applications
-
-    [https://arxiv.org/abs/2403.12285](https://arxiv.org/abs/2403.12285)
-
-    引入了一种基于Llama 2 7B模型的金融领域特定的情感分类框架，通过微调模型来受益于其生成性质和全面的语言操作。
+    通过结合学习和培训方法以及利用游戏化提高技术转移和成年人学习，来加强检测恐怖融资的执法培训。
 
     
 
-    金融新闻在线有多个来源影响市场走势和交易员的决策。这突出了准确情感分析的需求，除了需要适当的算法交易技术来做出更明智的交易决策。标准的基于词典的情感方法已经证明它们在辅助金融决策方面的能力。然而，众所周知它们存在与上下文敏感性和词序相关的问题。大型语言模型（LLMs）也可以在这个背景下使用，但它们不是特定于金融领域的，并且往往需要大量的计算资源。为了促进一种特定于金融领域的LLM框架，我们引入了一种基于Llama 2 7B基础模型的新方法，以便从其生成性质和全面的语言操作中受益。这是通过在少部分监督金融情感数据上微调Llama2 7B模型来实现的。
+    每天推广和部署用于打击网络犯罪活动的新技术工具。然而，这些工具往往过于复杂，难以使用，需要深入的领域知识和技术知识。这些特点往往限制了执法人员和最终用户参与这些技术，尽管它们具有潜力，但仍然被误解。出于这个原因，在这项研究中，我们描述了结合学习和培训方法以及利用游戏化提升技术转移和增加成年人学习的潜在好处的经验。事实上，在这种情况下，参与者是暴露于恐怖融资（如执法人员、金融调查员、私人侦探等）的行业的经验丰富的从业人员。我们定义了不同级别的培训活动，以增加关于新趋势和犯罪作案方式的信息交流。
 
-    arXiv:2403.12285v1 Announce Type: new  Abstract: There are multiple sources of financial news online which influence market movements and trader's decisions. This highlights the need for accurate sentiment analysis, in addition to having appropriate algorithmic trading techniques, to arrive at better informed trading decisions. Standard lexicon based sentiment approaches have demonstrated their power in aiding financial decisions. However, they are known to suffer from issues related to context sensitivity and word ordering. Large Language Models (LLMs) can also be used in this context, but they are not finance-specific and tend to require significant computational resources. To facilitate a finance specific LLM framework, we introduce a novel approach based on the Llama 2 7B foundational model, in order to benefit from its generative nature and comprehensive language manipulation. This is achieved by fine-tuning the Llama2 7B model on a small portion of supervised financial sentiment 
+    arXiv:2403.13625v1 Announce Type: new  Abstract: Tools for fighting cyber-criminal activities using new technologies are promoted and deployed every day. However, too often, they are unnecessarily complex and hard to use, requiring deep domain and technical knowledge. These characteristics often limit the engagement of law enforcement and end-users in these technologies that, despite their potential, remain misunderstood. For this reason, in this study, we describe our experience in combining learning and training methods and the potential benefits of gamification to enhance technology transfer and increase adult learning. In fact, in this case, participants are experienced practitioners in professions/industries that are exposed to terrorism financing (such as Law Enforcement Officers, Financial Investigation Officers, private investigators, etc.) We define training activities on different levels for increasing the exchange of information about new trends and criminal modus operandi a
     
-[^5]: 基于强化学习的先进统计套利
+[^3]: 使用时间卷积网络检测和分级欺骗行为
 
-    Advanced Statistical Arbitrage with Reinforcement Learning
+    Detecting and Triaging Spoofing using Temporal Convolutional Networks
 
-    [https://arxiv.org/abs/2403.12180](https://arxiv.org/abs/2403.12180)
+    [https://arxiv.org/abs/2403.13429](https://arxiv.org/abs/2403.13429)
 
-    引入一种创新的无模型和基于强化学习的统计套利框架，通过最小化经验均值回归时间优化资产系数，并采用强化学习框架识别最佳的均值回归策略，创造性地构建状态空间以反映最近的价格走势，并设计奖励函数以反映均值回归交易的独特特征。
-
-    
-
-    统计套利是一种利用成对股票的价差均值反转特性的常见交易策略。对这种策略的研究经常严重依赖模型假设。本研究引入了一种创新的无模型和基于强化学习的统计套利框架。在构建均值回归价差时，我们建立了一种经验回归时间度量，并通过最小化这种经验均值回归时间来优化资产系数。在交易阶段，我们采用强化学习框架来识别最佳的均值回归策略。与传统的主要关注价格偏离长期均值的均值回归策略不同，我们的方法创造性地构建了状态空间，以概括价格走势中最近的趋势。此外，奖励函数经过精心设计，以反映均值回归交易的独特特征。
-
-    arXiv:2403.12180v1 Announce Type: new  Abstract: Statistical arbitrage is a prevalent trading strategy which takes advantage of mean reverse property of spread of paired stocks. Studies on this strategy often rely heavily on model assumption. In this study, we introduce an innovative model-free and reinforcement learning based framework for statistical arbitrage. For the construction of mean reversion spreads, we establish an empirical reversion time metric and optimize asset coefficients by minimizing this empirical mean reversion time. In the trading phase, we employ a reinforcement learning framework to identify the optimal mean reversion strategy. Diverging from traditional mean reversion strategies that primarily focus on price deviations from a long-term mean, our methodology creatively constructs the state space to encapsulate the recent trends in price movements. Additionally, the reward function is carefully tailored to reflect the unique characteristics of mean reversion trad
-    
-[^6]: 领导者的声音对金融市场的影响：关于纳斯达克、印度国家证券交易所等的经验深度学习探究
-
-    Effect of Leaders Voice on Financial Market: An Empirical Deep Learning Expedition on NASDAQ, NSE, and Beyond
-
-    [https://arxiv.org/abs/2403.12161](https://arxiv.org/abs/2403.12161)
-
-    通过深度学习和NLP分析领导人的Twitter帐户，结合历史数据与社交媒体新闻，实现对金融市场趋势的预测及推文对股价影响的分析。
+    使用时间卷积网络检测和分级欺骗行为，提出了一个框架，结合标注算法和弱监督模型来识别潜在可疑的订单簿状态序列。
 
     
 
-    金融市场，如股票、股份、黄金、石油、共同基金的价格受到社交媒体上的新闻和帖子的影响。本文提出基于深度学习模型，通过对不同领域领导人的Twitter帐户进行NLP分析，预测金融市场趋势。目前有许多模型可用于仅基于金融组成部分的历史数据预测金融市场，但将历史数据与Twitter等社交媒体的新闻和帖子相结合是本研究的主要目标。结果显示实质性改进。本研究的主要特点包括：a）提出完全通用的算法，能够为任何Twitter帐户和任何金融组件生成模型，b）预测推文对股价影响的时间窗口，c）分析多个Twitter帐户对预测趋势的影响。已进行详尽调查以找出
+    随着算法交易和电子市场不断改变金融市场格局，检测和防范不端代理以维持公平和高效市场至关重要。大数据集的爆炸和不断变化的行业技巧使得难以适应新的市场条件并检测不良行为者。为此，我们提出了一个框架，可以轻松适应检测市场操纵领域的各种问题。我们的方法首先采用一个标注算法，用于创建一个训练集，以学习一个弱监督模型来识别潜在可疑的订单簿状态序列。这里的主要目标是学习订单簿的表示，以便在将来可以轻松比较事件。随后，我们提出将专家评估纳入，以审查特定标记的订单簿状态。在专家不可用的情况下，
 
-    arXiv:2403.12161v1 Announce Type: cross  Abstract: Financial market like the price of stock, share, gold, oil, mutual funds are affected by the news and posts on social media. In this work deep learning based models are proposed to predict the trend of financial market based on NLP analysis of the twitter handles of leaders of different fields. There are many models available to predict financial market based on only the historical data of the financial component but combining historical data with news and posts of the social media like Twitter is the main objective of the present work. Substantial improvement is shown in the result. The main features of the present work are: a) proposing completely generalized algorithm which is able to generate models for any twitter handle and any financial component, b) predicting the time window for a tweets effect on a stock price c) analyzing the effect of multiple twitter handles for predicting the trend. A detailed survey is done to find out t
+    arXiv:2403.13429v1 Announce Type: cross  Abstract: As algorithmic trading and electronic markets continue to transform the landscape of financial markets, detecting and deterring rogue agents to maintain a fair and efficient marketplace is crucial. The explosion of large datasets and the continually changing tricks of the trade make it difficult to adapt to new market conditions and detect bad actors. To that end, we propose a framework that can be adapted easily to various problems in the space of detecting market manipulation. Our approach entails initially employing a labelling algorithm which we use to create a training set to learn a weakly supervised model to identify potentially suspicious sequences of order book states. The main goal here is to learn a representation of the order book that can be used to easily compare future events. Subsequently, we posit the incorporation of expert assessment to scrutinize specific flagged order book states. In the event of an expert's unavai
     
-[^7]: AI是否有助于人类做出更好的决策？一种用于实验评估的方法论框架
+[^4]: 在具有随机基准的Omega比率下的最佳VPPI策略
 
-    Does AI help humans make better decisions? A methodological framework for experimental evaluation
+    Optimal VPPI strategy under Omega ratio with stochastic benchmark
 
-    [https://arxiv.org/abs/2403.12108](https://arxiv.org/abs/2403.12108)
+    [https://arxiv.org/abs/2403.13388](https://arxiv.org/abs/2403.13388)
 
-    引入一种新的实验框架用于评估人类是否通过使用AI可以做出更好的决策，在单盲实验设计中比较了三种决策系统的表现
-
-    
-
-    基于数据驱动算法的人工智能（AI）在当今社会变得无处不在。然而，在许多情况下，尤其是当利益高昂时，人类仍然作出最终决策。因此，关键问题是AI是否有助于人类比单独的人类或单独的AI做出更好的决策。我们引入了一种新的方法论框架，用于实验性地回答这个问题，而不需要额外的假设。我们使用基于基准潜在结果的标准分类指标测量决策者做出正确决策的能力。我们考虑了一个单盲实验设计，在这个设计中，提供AI生成的建议在不同案例中被随机分配给最终决策的人类。在这种实验设计下，我们展示了如何比较三种替代决策系统的性能--仅人类、人类与AI、仅AI。
-
-    arXiv:2403.12108v1 Announce Type: new  Abstract: The use of Artificial Intelligence (AI) based on data-driven algorithms has become ubiquitous in today's society. Yet, in many cases and especially when stakes are high, humans still make final decisions. The critical question, therefore, is whether AI helps humans make better decisions as compared to a human alone or AI an alone. We introduce a new methodological framework that can be used to answer experimentally this question with no additional assumptions. We measure a decision maker's ability to make correct decisions using standard classification metrics based on the baseline potential outcome. We consider a single-blinded experimental design, in which the provision of AI-generated recommendations is randomized across cases with a human making final decisions. Under this experimental design, we show how to compare the performance of three alternative decision-making systems--human-alone, human-with-AI, and AI-alone. We apply the pr
-    
-[^8]: AGI过渡场景分析
-
-    Scenarios for the Transition to AGI
-
-    [https://arxiv.org/abs/2403.12107](https://arxiv.org/abs/2403.12107)
-
-    分析了不同的技术进步场景对人工通用智能过渡的影响，探讨了自动化和资本积累之间的关系以及工资变化趋势。
+    通过最大化投资者垫的扩展Omega比率，本文确定了风险乘数，同时使用随机基准为投资者提供变比例投资组合保险（VPPI）策略。
 
     
 
-    我们分析了在可能导致人工通用智能（AGI）的技术进步不同场景下产出和工资的变化。在我们的假设中，人类工作可以分解为在复杂性上不同的原子任务。技术的进步使得越来越复杂的任务可以被自动化实现。工资的影响取决于自动化和资本积累之间的竞赛。如果任务复杂性的分布呈现出足够厚的无限尾部，那么就总是有足够的工作供人类从事，工资可能会无限上升。相比之下，如果人类可以执行的任务复杂性是有界的，并且完全自动化被实现，那么工资会崩溃。但即使在这之前，如果大规模自动化超越了资本积累，劳动力过于丰富，工资可能会下降。自动化生产率的增长可能导致广泛的发展
+    本文研究了一种变比例投资组合保险（VPPI）策略。其目标是通过最大化投资者垫的扩展Omega比率来确定风险乘数，使用一个二元随机基准。当股指下跌时，投资者的目标是维持最低保证。相反，当股指上涨时，投资者寻求跟踪一些超额收益。优化问题涉及将一个非凹目标函数与随机基准相结合，这是基于凹化技术的随机版本有效解决的。我们为最佳风险乘数推导出半解析解，其值函数分为三种不同情况。有趣的是，分类标准是由Zieling等人（2014年）中最佳风险乘数与1值之间的关系确定的。模拟结果验证了VPPI的有效性。
 
-    arXiv:2403.12107v1 Announce Type: cross  Abstract: We analyze how output and wages behave under different scenarios for technological progress that may culminate in Artificial General Intelligence (AGI), defined as the ability of AI systems to perform all tasks that humans can perform. We assume that human work can be decomposed into atomistic tasks that differ in their complexity. Advances in technology make ever more complex tasks amenable to automation. The effects on wages depend on a race between automation and capital accumulation. If the distribution of task complexity exhibits a sufficiently thick infinite tail, then there is always enough work for humans, and wages may rise forever. By contrast, if the complexity of tasks that humans can perform is bounded and full automation is reached, then wages collapse. But declines may occur even before if large-scale automation outpaces capital accumulation and makes labor too abundant. Automating productivity growth may lead to broad-b
+    arXiv:2403.13388v1 Announce Type: new  Abstract: This paper studies a variable proportion portfolio insurance (VPPI) strategy. The objective is to determine the risk multiplier by maximizing the extended Omega ratio of the investor's cushion, using a binary stochastic benchmark. When the stock index declines, investors aim to maintain the minimum guarantee. Conversely, when the stock index rises, investors seek to track some excess returns. The optimization problem involves the combination of a non-concave objective function with a stochastic benchmark, which is effectively solved based on the stochastic version of concavification technique. We derive semi-analytical solutions for the optimal risk multiplier, and the value functions are categorized into three distinct cases. Intriguingly, the classification criteria are determined by the relationship between the optimal risky multiplier in Zieling et al. (2014 and the value of 1. Simulation results confirm the effectiveness of the VPPI
     
-[^9]: 学生t-Lévy回归模型在YUIMA中的应用
+[^5]: 多重分形小波动态模态分解建模用于营销时间序列
 
-    Student t-L\'evy regression model in YUIMA
+    Multifractal wavelet dynamic mode decomposition modeling for marketing time series
 
-    [https://arxiv.org/abs/2403.12078](https://arxiv.org/abs/2403.12078)
+    [https://arxiv.org/abs/2403.13361](https://arxiv.org/abs/2403.13361)
 
-    本文讨论了在YUIMA中通过学生t-Lévy过程驱动的线性回归模型的估计和模拟方法，并解决了模拟高频率下样本路径和联合估计趋势、标度和自由度的问题。
-
-    
-
-    本文旨在讨论在\textsf{R}软件包YUIMA中由学生t-Lévy过程驱动的具有恒定标度和任意自由度的线性回归模型的估计和模拟方法。该过程在金融、物理、生物学等多个领域中都有应用。模型存在两个主要问题。第一个问题与在高频率水平模拟样本路径有关，因为仅在单位时间间隔上定义的$t$-Lévy增量才服从学生t分布。在YUIMA中，我们通过逆Fourier变换来模拟在任意长度间隔上定义的学生t-Lévy的增量来解决这个问题。第二个问题是由于尚未对趋势、标度和自由度的联合估计进行研究。在YUIMA中，我们开发了一个有效处理这个问题的两步估计程序。
-
-    arXiv:2403.12078v1 Announce Type: cross  Abstract: The aim of this paper is to discuss an estimation and a simulation method in the \textsf{R} package YUIMA for a linear regression model driven by a Student-$t$ L\'evy process with constant scale and arbitrary degrees of freedom. This process finds applications in several fields, for example finance, physic, biology, etc. The model presents two main issues. The first is related to the simulation of a sample path at high-frequency level. Indeed, only the $t$-L\'evy increments defined on an unitary time interval are Student-$t$ distributed. In YUIMA, we solve this problem by means of the inverse Fourier transform for simulating the increments of a Student-$t$ L\'{e}vy defined on a interval with any length. A second problem is due to the fact that joint estimation of trend, scale, and degrees of freedom does not seem to have been investigated as yet. In YUIMA, we develop a two-step estimation procedure that efficiently deals with this issu
-    
-[^10]: 基于洪水和入流波动的水库水质变化研究
-
-    Investigating Changes of Water Quality in Reservoirs based on Flood and Inflow Fluctuations
-
-    [https://arxiv.org/abs/2403.05671](https://arxiv.org/abs/2403.05671)
-
-    研究者模拟了两个分层水库的热结构以探讨洪水时水质的变化，发现洪水期间流量增加可能造成水质恶化和溶解氧含量下降。
+    本研究旨在通过多重分形小波动态模态分解建模探讨基于时间序列的营销模型。
 
     
 
-    水温和溶解氧是水质和生态系统可持续性的重要指标。近年来，频繁且强烈的暴雨频繁发生，通过急剧增加称为暴洪的入流量，对水体的热结构和混合层深度产生影响。暴洪可以由突发的强降水事件在几分钟或几小时内发展而成。由于大量杂物和快速流动的水体，这种现象对水质有显着影响。洪水期间流量较大可能会恶化热层分层（具有不同密度层）的水体质量，并降低溶解氧含量。然而，目前尚不清楚这些参数能多好地代表湖泊对体量排放变化的响应。为解决这一问题，研究人员模拟了考虑拉贾涵养库为代表的两个分层水库的热结构。
+    营销是确保我们的销售业绩最佳、我们的价格最具吸引力、客户满意的方式，从而确保我们的品牌具有最广泛的分销网络。这需要对整个相关网络有复杂和先进的理解。实际上，营销数据可能以定性和定量数据的不同形式存在。然而，在文献中很容易发现关于定性研究可以收集到大量的文献，而采用定量观点的研究却寥寥无几。这是一个重大缺点，导致营销科学仍然侧重于设计，尽管市场在很大程度上依赖于货币和时间等数量。实际上，营销数据可以形成时间序列，如指定时期内的品牌销售、指定时期内与品牌相关的价格、市场份额等。本工作的目的是研究基于时间序列的一些营销模型。
 
-    arXiv:2403.05671v1 Announce Type: new  Abstract: Water temperature and dissolved oxygen are essential indicators of water quality and ecosystem sustainability. Lately, heavy rainfalls are happening frequently and forcefully affecting the thermal structure and mixing layers in depth by sharply increasing the volume of inflow entitled flash flood. It can occur by sudden intense precipitation and develop within minutes or hours. Because of heavy debris load and speedy water, this phenomenon has remarkable effects on water quality. A higher flow during floods may worsens water quality at lakes and reservoirs that are thermally stratified (with separate density layers) and decrease dissolved oxygen content. However, it is unclear how well these parameters represent the response of lakes to changes in volume discharge. To address this question, researchers simulate the thermal structure in two stratified reservoirs, considering the Rajae reservoir as a representative reservoir in the north o
+    arXiv:2403.13361v1 Announce Type: cross  Abstract: Marketing is the way we ensure our sales are the best in the market, our prices the most accessible, and our clients satisfied, thus ensuring our brand has the widest distribution. This requires sophisticated and advanced understanding of the whole related network. Indeed, marketing data may exist in different forms such as qualitative and quantitative data. However, in the literature, it is easily noted that large bibliographies may be collected about qualitative studies, while only a few studies adopt a quantitative point of view. This is a major drawback that results in marketing science still focusing on design, although the market is strongly dependent on quantities such as money and time. Indeed, marketing data may form time series such as brand sales in specified periods, brand-related prices over specified periods, market shares, etc. The purpose of the present work is to investigate some marketing models based on time series f
     
-[^11]: 使用带自注意力机制的残差U-net解决多智能体时间一致最优交易执行问题
+[^6]: 对加纳证券交易所股价动态的建模：一种几何布朗运动方法
 
-    Residual U-net with Self-Attention to Solve Multi-Agent Time-Consistent Optimal Trade Execution
+    Modeling stock price dynamics on the Ghana Stock Exchange: A Geometric Brownian Motion approach
 
-    [https://arxiv.org/abs/2312.09353](https://arxiv.org/abs/2312.09353)
+    [https://arxiv.org/abs/2403.13192](https://arxiv.org/abs/2403.13192)
 
-    使用残差U-net结合自注意力机制成功解决了多智能体时间一致最优交易执行问题，克服了传统有限差分方法的局限性。
-
-    
-
-    在本文中，我们探讨了使用带自注意力机制的深度残差U-net来解决多智能体和资产的连续时间一致均值方差最优交易执行问题。针对有限时间段，我们将时间一致均值方差最优交易执行问题制定为Almgren-Chriss模型下的Hamilton-Jacobi-Bellman（HJB）方程。我们将已知具有粘性解的HJB公式重新制定为向后随机微分方程（BSDE）以将问题扩展到多智能体和资产。我们利用带自注意力机制的残差U-net来数值近似多智能体和资产的价值函数，该函数可用于确定时间一致最优控制。本文中，我们展示了所提出的神经网络方法克服了有限差分方法的局限性。我们通过对结果进行验证...
-
-    arXiv:2312.09353v2 Announce Type: replace  Abstract: In this paper, we explore the use of a deep residual U-net with self-attention to solve the the continuous time time-consistent mean variance optimal trade execution problem for multiple agents and assets. Given a finite horizon we formulate the time-consistent mean-variance optimal trade execution problem following the Almgren-Chriss model as a Hamilton-Jacobi-Bellman (HJB) equation. The HJB formulation is known to have a viscosity solution to the unknown value function. We reformulate the HJB to a backward stochastic differential equation (BSDE) to extend the problem to multiple agents and assets. We utilize a residual U-net with self-attention to numerically approximate the value function for multiple agents and assets which can be used to determine the time-consistent optimal control. In this paper, we show that the proposed neural network approach overcomes the limitations of finite difference methods. We validate our results an
-    
-[^12]: 基于均场神经网络的McKean-Vlasov控制问题算法
-
-    Mean-field neural networks-based algorithms for McKean-Vlasov control problems *
-
-    [https://arxiv.org/abs/2212.11518](https://arxiv.org/abs/2212.11518)
-
-    该论文利用均场神经网络类解决McKean-Vlasov控制问题，提出了多种算法，并在不同示例上展示了数值结果，讨论比较了各种方法的优缺点。
+    该研究通过对加纳证券交易所的股价动态进行建模，发现几何布朗运动模型能够准确预测股价，并展示实际股价与模型预测的一致性。
 
     
 
-    本文致力于通过我们在伴随论文[25]中引入的均场神经网络类，对McKean-Vlasov控制问题进行数值解析，以便在Wasserstein空间上学习解决方案。我们提出了几种算法，基于控制学习策略或值迭代的动态规划，或者基于随机最大原理和全局或局部损失函数的反向SDE。我们展示了对不同示例的大量数值结果，以说明我们的八种算法每一种的准确性。我们讨论并比较了所有测试方法的优缺点。
+    建模金融数据通常依赖于可能在实践中证明不足或不切实际的假设。几何布朗运动（GBM）模型经常用于代表股价过程。本研究调查了加纳证券交易所上市的部分股票的每周和每月收益是否符合GBM模型的行为。为五只股票估计了GBM模型的参数，并生成了为期三个月的预测。使用均方误差（MSE）进行了估计精度的评估。结果表明，模拟股票的预期价格与交易所观察到的实际股价非常一致。此外，虽然观察到了一些偏差，但实际价格始终落在估计的置信区间内。
 
-    arXiv:2212.11518v2 Announce Type: replace-cross  Abstract: This paper is devoted to the numerical resolution of McKean-Vlasov control problems via the class of mean-field neural networks introduced in our companion paper [25] in order to learn the solution on the Wasserstein space. We propose several algorithms either based on dynamic programming with control learning by policy or value iteration, or backward SDE from stochastic maximum principle with global or local loss functions. Extensive numerical results on different examples are presented to illustrate the accuracy of each of our eight algorithms. We discuss and compare the pros and cons of all the tested methods.
+    arXiv:2403.13192v1 Announce Type: cross  Abstract: Modeling financial data often relies on assumptions that may prove insufficient or unrealistic in practice. The Geometric Brownian Motion (GBM) model is frequently employed to represent stock price processes. This study investigates whether the behavior of weekly and monthly returns of selected equities listed on the Ghana Stock Exchange conforms to the GBM model. Parameters of the GBM model were estimated for five equities, and forecasts were generated for three months. Evaluation of estimation accuracy was conducted using mean square error (MSE). Results indicate that the expected prices from the modeled equities closely align with actual stock prices observed on the Exchange. Furthermore, while some deviations were observed, the actual prices consistently fell within the estimated confidence intervals.
     
-[^13]: 区块链的扩容和去中心化交易所上的流动性集中问题
+[^7]: 第一顺序随机优势条件下的最大稳定性
 
-    Blockchain scaling and liquidity concentration on decentralized exchanges. (arXiv:2306.17742v1 [q-fin.TR])
+    Max-stability under first-order stochastic dominance
 
-    [http://arxiv.org/abs/2306.17742](http://arxiv.org/abs/2306.17742)
+    [https://arxiv.org/abs/2403.13138](https://arxiv.org/abs/2403.13138)
 
-    本研究分析了去中心化交易所上流动性提供者（LPs）频繁更新位置对市场流动性集中的影响，结果发现更高的重新定位强度和精度会导致更大的流动性集中，从而减少小额交易的滑点。
+    研究了在满足单调性和下半连续性的条件下，相对于第一顺序随机优势条件的最大稳定性，提出了满足最大稳定性性质的泛函可以表示为一个双变量函数的极值点的表示定理
 
     
 
-    去中心化交易所上的流动性提供者（LPs）可以通过更频繁地更新其位置来保护自己免受逆向选择风险的影响。然而，重新定位是昂贵的，因为LPs必须为每次更新支付燃气费用。我们使用一个区块链扩容解决方案Polygon的进入作为我们的工具，分析了重新定位与市场价格周围的流动性集中之间的因果关系。Polygon的低燃气费用使得LPs能够比在以太坊上更频繁地进行更新。我们的结果表明，更高的重新定位强度和精度导致更大的流动性集中，这有利于小额交易通过减少滑点来受益。
+    最大稳定性是指对两个输入取最大值会导致两个输出中的最大值。我们研究了相对于第一顺序随机优势条件的最大稳定性，这是决策理论中最基本的随机优势概念。在加入了单调性和下半连续性的两个标准公理后，我们建立了一个关于满足最大稳定性性质的泛函的表示定理，结果表明这些泛函可以表示为一个双变量函数的极值点。我们表征的泛函包括了风险度量文献中的特殊类别，如基准损失Value at Risk (VaR) 和 $\Lambda$-分位数。
 
-    Liquidity providers (LPs) on decentralized exchanges (DEXs) can protect themselves from adverse selection risk by updating their positions more frequently. However, repositioning is costly, because LPs have to pay gas fees for each update. We analyze the causal relation between repositioning and liquidity concentration around the market price, using the entry of a blockchain scaling solution, Polygon, as our instrument. Polygon's lower gas fees allow LPs to update more frequently than on Ethereum. Our results demonstrate that higher repositioning intensity and precision lead to greater liquidity concentration, which benefits small trades by reducing their slippage.
+    arXiv:2403.13138v1 Announce Type: new  Abstract: Max-stability is the property that taking a maximum between two inputs results in a maximum between two outputs. We investigate max-stability with respect to first-order stochastic dominance, the most fundamental notion of stochastic dominance in decision theory. Under two additional standard axioms of monotonicity and lower semicontinuity, we establish a representation theorem for functionals satisfying max-stability, which turns out to be represented by the supremum of a bivariate function. Our characterized functionals encompass special classes of functionals in the literature of risk measures, such as benchmark-loss Value at Risk (VaR) and $\Lambda$-quantile.
+    
+[^8]: 资本回报在周期性增长过程中的路径依赖性研究
+
+    Path-dependency of capital return in periodic growth processes
+
+    [https://arxiv.org/abs/2403.08678](https://arxiv.org/abs/2403.08678)
+
+    本研究发现，在周期性增长过程中，资本化的期望值取决于路径，从而导致资本的回报率和时间平均回报率取决于路径，且内部收益率与资本回报率的期望值不同。
+
+    
+
+    研究了周期性增长过程。根据应计基础，利润率的期望值既不直接取决于减值，也不取决于资本化路径。资本化的期望值是路径依赖的。由于依赖路径的资本化，资本的回报率也是路径依赖的，而资本的时间平均回报率与增长周期的期望值回报率不同。在没有中间减值的情况下，内部收益率是路径无关的，因此与资本回报率的期望值不同。结果表明，使权益回报率最大化的旋转周期长度与市场利率无关。杠杆效应通过一个单独的杠杆方程进入增长过程的微观经济学中，杠杆系数可能达到正值或负值。
+
+    arXiv:2403.08678v1 Announce Type: new  Abstract: Periodic growth processes are investigated. The expected value of the profit rate, on accrual basis, does not directly depend on divestments, neither on the capitalization path. The expected value of capitalization is path dependent. Because of the path-dependent capitalization, the return rate on capital is path-dependent, and the time-average return rate on capital differs from the expected-value return rate on capital for the growth cycle. In the absence of intermediate divestments, the internal rate of return is path-independent, thereby differing from the expected value of the rate of return on capital. It is shown that the rotation cycle length maximizing the return rate on equity is independent of market interest rate. Leveraging effect enters the microeconomics of the growth processes through a separate leveraging equation, where the leverage coefficient may reach positive or negative values. Correspondingly, from the viewpoint o
+    
+[^9]: 《健身复杂度算法与Sinkhorn-Knopp算法之间的等效性》
+
+    Equivalence between the Fitness-Complexity and the Sinkhorn-Knopp algorithms
+
+    [https://arxiv.org/abs/2212.12356](https://arxiv.org/abs/2212.12356)
+
+    揭示了健身复杂度算法与Sinkhorn-Knopp算法之间的等效性，以及通过固定点解的归一化揭示了健身和复杂度指标的能量函数解释。
+
+    
+
+    我们揭示了经济复杂性领域中发展的健身复杂度算法与在涵盖从计算机科学和数学到经济学等不同领域中广泛使用的Sinkhorn-Knopp算法之间的联系。尽管这两种方法之间存在轻微的形式差异，但两者都收敛到相同的固定点解，直到归一化。发现的连接使我们能够推导出健身和复杂度指标作为适当能量函数的势能的严格解释。在这种解释下，高能量产品对于健身较低的国家是不可行的，这解释了为什么该算法在展示二部网络中嵌套模式方面有效。我们还展示了提出的解释揭示了健身复杂度算法的尺度不变性，这对于该算法在不同数据集中的实现具有实际意义。此外，对经验数据的进一步分析
+
+    arXiv:2212.12356v2 Announce Type: replace  Abstract: We uncover the connection between the Fitness-Complexity algorithm, developed in the economic complexity field, and the Sinkhorn-Knopp algorithm, widely used in diverse domains ranging from computer science and mathematics to economics. Despite minor formal differences between the two methods, both converge to the same fixed-point solution up to normalization. The discovered connection allows us to derive a rigorous interpretation of the Fitness and the Complexity metrics as the potentials of a suitable energy function. Under this interpretation, high-energy products are unfeasible for low-fitness countries, which explains why the algorithm is effective at displaying nested patterns in bipartite networks. We also show that the proposed interpretation reveals the scale invariance of the Fitness-Complexity algorithm, which has practical implications for the algorithm's implementation in different datasets. Further, analysis of empirica
+    
+[^10]: 使用基于订单流训练的深度卷积神经网络进行短期波动率预测
+
+    Short-Term Volatility Prediction Using Deep CNNs Trained on Order Flow. (arXiv:2304.02472v1 [q-fin.RM])
+
+    [http://arxiv.org/abs/2304.02472](http://arxiv.org/abs/2304.02472)
+
+    本文提出了一种将市场信息编码为图像并利用卷积神经网络进行短期实现波动率预测的方法，与其他基准模型相比具有更好的表现和潜力。
+
+    
+
+    作为新兴的资产类别，加密货币相比传统的股票市场明显更具波动性。由于其大多数时候是无监管的，流动性通常较低，加密资产的价格在几分钟内就可出现显著变动，这可能会导致巨额损失。在本文中，我们采用将市场信息编码成图像并利用卷积神经网络进行短期实现波动率预测的方法。然后，我们将所提出的编码和相应的模型的表现与其他基准模型进行比较。实验结果表明，使用卷积神经网络作为预测模型的市场数据表示方法有潜力更好地捕捉市场动态并实现更好的波动率预测。
+
+    As a newly emerged asset class, cryptocurrency is evidently more volatile compared to the traditional equity markets. Due to its mostly unregulated nature, and often low liquidity, the price of crypto assets can sustain a significant change within minutes that in turn might result in considerable losses. In this paper, we employ an approach for encoding market information into images and making predictions of short-term realized volatility by employing Convolutional Neural Networks. We then compare the performance of the proposed encoding and corresponding model with other benchmark models. The experimental results demonstrate that this representation of market data with a Convolutional Neural Network as a predictive model has the potential to better capture the market dynamics and a better volatility prediction.
     
 
