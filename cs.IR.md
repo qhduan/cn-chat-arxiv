@@ -9,17 +9,18 @@
 | [^5] | [DESIRE-ME: Domain-Enhanced Supervised Information REtrieval using Mixture-of-Experts](https://arxiv.org/abs/2403.13468) | DESIRE-ME是一个神经信息检索模型，利用专家混合框架结合多个专业神经模型，通过训练神经门控机制对不同领域的专家预测进行加权，能够自适应地在多个领域中专门化，并在处理开放领域问题中表现出色。 |
 | [^6] | [USE: Dynamic User Modeling with Stateful Sequence Models](https://arxiv.org/abs/2403.13344) | 引入了User Stateful Embedding（USE）来解决动态用户建模中存在的挑战，通过存储先前模型状态，生成用户嵌入并反映用户不断发展的行为。 |
 | [^7] | [Harnessing Large Language Models for Text-Rich Sequential Recommendation](https://arxiv.org/abs/2403.13325) | 利用大型语言模型，设计了一种新框架用于文本丰富的顺序推荐，通过对用户历史行为分段并采用LLM摘要工具进行总结，从而解决推荐系统中长文本信息带来的挑战 |
-| [^8] | [A Semantic Search Engine for Mathlib4](https://arxiv.org/abs/2403.13310) | 提出了一个用于Mathlib4的语义搜索引擎，能够接受非正式查询并找到相关定理，为解决在mathlib4中搜索困难问题提供了新的方法。 |
-| [^9] | [An Analysis on Matching Mechanisms and Token Pruning for Late-interaction Models](https://arxiv.org/abs/2403.13291) | 系统分析了后交互模型的匹配机制，揭示了最大值操作严重依赖于文档中的共现信号和重要单词，对于稠密检索模型的发展具有重要意义。 |
-| [^10] | [Improving Legal Case Retrieval with Brain Signals](https://arxiv.org/abs/2403.13242) | 通过脑信号改进法律案例检索，解决了传统反馈技术难以解决的问题。 |
-| [^11] | [When SMILES have Language: Drug Classification using Text Classification Methods on Drug SMILES Strings](https://arxiv.org/abs/2403.12984) | 将药物SMILES字符串视为句子并利用文本分类方法进行药物分类，证实了通过简单的自然语言处理方法解决复杂问题的可能性 |
-| [^12] | [ERASE: Benchmarking Feature Selection Methods for Deep Recommender Systems](https://arxiv.org/abs/2403.12660) | 深度推荐系统中的特征选择方法研究面临着公平比较、选择属性分析缺乏以及过度关注峰值性能等挑战。 |
-| [^13] | [An Aligning and Training Framework for Multimodal Recommendations](https://arxiv.org/abs/2403.12384) | 提出了一种名为AlignRec的对齐和训练框架，用于解决多模态推荐中的不对齐问题，通过将推荐目标分解为三个对齐部分，实现内容内部对齐、内容与分类ID之间的对齐以及用户和项目之间的对齐。 |
-| [^14] | [Evaluating Large Language Models as Generative User Simulators for Conversational Recommendation](https://arxiv.org/abs/2403.09738) | 大型语言模型作为生成式用户模拟器在对话推荐中展现出潜力，新的协议通过五个任务评估了语言模型模拟人类行为的准确程度，揭示了模型与人类行为的偏差，并提出了如何通过模型选择和提示策略减少这些偏差。 |
-| [^15] | [Investigating the Effects of Sparse Attention on Cross-Encoders](https://arxiv.org/abs/2312.17649) | 窗口大小非常小甚至只有4个标记时，仍可保持与以往交叉编码器相当的效果，同时降低内存需求并提高推理速度。 |
-| [^16] | [LLatrieval: LLM-Verified Retrieval for Verifiable Generation](https://arxiv.org/abs/2311.07838) | 可验证生成中检索的文件不仅帮助LLM生成正确答案，还作为用户验证LLM输出的证据，但目前广泛使用的检索器已成为性能瓶颈，需要解决。 |
-| [^17] | [Workload-aware and Learned Z-Indexes.](http://arxiv.org/abs/2310.04268) | 本文提出了一种基于工作负载和学习的Z-索引变体，通过优化存储布局和搜索结构，改善了范围查询性能，并通过引入页面跳跃机制进一步提升查询性能。实验证明，该索引在范围查询时间、点查询性能和构建时间与索引大小之间保持了良好的平衡。 |
-| [^18] | [I^3 Retriever: Incorporating Implicit Interaction in Pre-trained Language Models for Passage Retrieval.](http://arxiv.org/abs/2306.02371) | I^3 Retriever将隐式交互纳入预训练语言模型，提高了段落检索的效果和效率。 |
+| [^8] | [Flickr30K-CFQ: A Compact and Fragmented Query Dataset for Text-image Retrieval](https://arxiv.org/abs/2403.13317) | 提出了一个新的紧凑碎片化查询挑战数据集（Flickr30K-CFQ），模拟考虑多个查询内容和风格的文本图像检索任务，并提出了一种基于LLM的查询增强文本图像检索方法。 |
+| [^9] | [A Semantic Search Engine for Mathlib4](https://arxiv.org/abs/2403.13310) | 提出了一个用于Mathlib4的语义搜索引擎，能够接受非正式查询并找到相关定理，为解决在mathlib4中搜索困难问题提供了新的方法。 |
+| [^10] | [An Analysis on Matching Mechanisms and Token Pruning for Late-interaction Models](https://arxiv.org/abs/2403.13291) | 系统分析了后交互模型的匹配机制，揭示了最大值操作严重依赖于文档中的共现信号和重要单词，对于稠密检索模型的发展具有重要意义。 |
+| [^11] | [Improving Legal Case Retrieval with Brain Signals](https://arxiv.org/abs/2403.13242) | 通过脑信号改进法律案例检索，解决了传统反馈技术难以解决的问题。 |
+| [^12] | [When SMILES have Language: Drug Classification using Text Classification Methods on Drug SMILES Strings](https://arxiv.org/abs/2403.12984) | 将药物SMILES字符串视为句子并利用文本分类方法进行药物分类，证实了通过简单的自然语言处理方法解决复杂问题的可能性 |
+| [^13] | [ERASE: Benchmarking Feature Selection Methods for Deep Recommender Systems](https://arxiv.org/abs/2403.12660) | 深度推荐系统中的特征选择方法研究面临着公平比较、选择属性分析缺乏以及过度关注峰值性能等挑战。 |
+| [^14] | [An Aligning and Training Framework for Multimodal Recommendations](https://arxiv.org/abs/2403.12384) | 提出了一种名为AlignRec的对齐和训练框架，用于解决多模态推荐中的不对齐问题，通过将推荐目标分解为三个对齐部分，实现内容内部对齐、内容与分类ID之间的对齐以及用户和项目之间的对齐。 |
+| [^15] | [Evaluating Large Language Models as Generative User Simulators for Conversational Recommendation](https://arxiv.org/abs/2403.09738) | 大型语言模型作为生成式用户模拟器在对话推荐中展现出潜力，新的协议通过五个任务评估了语言模型模拟人类行为的准确程度，揭示了模型与人类行为的偏差，并提出了如何通过模型选择和提示策略减少这些偏差。 |
+| [^16] | [Investigating the Effects of Sparse Attention on Cross-Encoders](https://arxiv.org/abs/2312.17649) | 窗口大小非常小甚至只有4个标记时，仍可保持与以往交叉编码器相当的效果，同时降低内存需求并提高推理速度。 |
+| [^17] | [LLatrieval: LLM-Verified Retrieval for Verifiable Generation](https://arxiv.org/abs/2311.07838) | 可验证生成中检索的文件不仅帮助LLM生成正确答案，还作为用户验证LLM输出的证据，但目前广泛使用的检索器已成为性能瓶颈，需要解决。 |
+| [^18] | [Workload-aware and Learned Z-Indexes.](http://arxiv.org/abs/2310.04268) | 本文提出了一种基于工作负载和学习的Z-索引变体，通过优化存储布局和搜索结构，改善了范围查询性能，并通过引入页面跳跃机制进一步提升查询性能。实验证明，该索引在范围查询时间、点查询性能和构建时间与索引大小之间保持了良好的平衡。 |
+| [^19] | [I^3 Retriever: Incorporating Implicit Interaction in Pre-trained Language Models for Passage Retrieval.](http://arxiv.org/abs/2306.02371) | I^3 Retriever将隐式交互纳入预训练语言模型，提高了段落检索的效果和效率。 |
 
 # 详细
 
@@ -121,7 +122,21 @@
 
     arXiv:2403.13325v1 Announce Type: new  Abstract: Recent advances in Large Language Models (LLMs) have been changing the paradigm of Recommender Systems (RS). However, when items in the recommendation scenarios contain rich textual information, such as product descriptions in online shopping or news headlines on social media, LLMs require longer texts to comprehensively depict the historical user behavior sequence. This poses significant challenges to LLM-based recommenders, such as over-length limitations, extensive time and space overheads, and suboptimal model performance. To this end, in this paper, we design a novel framework for harnessing Large Language Models for Text-Rich Sequential Recommendation (LLM-TRSR). Specifically, we first propose to segment the user historical behaviors and subsequently employ an LLM-based summarizer for summarizing these user behavior blocks. Particularly, drawing inspiration from the successful application of Convolutional Neural Networks (CNN) and 
     
-[^8]: 一个用于Mathlib4的语义搜索引擎
+[^8]: Flickr30K-CFQ：用于文本图像检索的紧凑碎片化查询数据集
+
+    Flickr30K-CFQ: A Compact and Fragmented Query Dataset for Text-image Retrieval
+
+    [https://arxiv.org/abs/2403.13317](https://arxiv.org/abs/2403.13317)
+
+    提出了一个新的紧凑碎片化查询挑战数据集（Flickr30K-CFQ），模拟考虑多个查询内容和风格的文本图像检索任务，并提出了一种基于LLM的查询增强文本图像检索方法。
+
+    
+
+    随着互联网上多模态信息的爆炸性增长，单模态搜索无法满足互联网应用的需求。需要进行文本图像检索研究，实现不同模态之间高质量高效的检索。现有的文本图像检索研究大多基于通用的视觉-语言数据集（如MS-COCO、Flickr30K），其中查询话语刻板而不自然（即冗长和过于正式）。为了克服这一缺点，我们构建了一个新的紧凑碎片化查询挑战数据集（名为Flickr30K-CFQ），以建模考虑多个查询内容和风格的文本图像检索任务，包括紧凑和细粒度的实体关系语料库。我们提出了一种基于LLM的新型查询增强文本图像检索方法。实验证明，我们提出的Flickr30-CFQ揭示了现有视觉-语言数据集在现实文本图像检索任务中的不足之处。
+
+    arXiv:2403.13317v1 Announce Type: new  Abstract: With the explosive growth of multi-modal information on the Internet, unimodal search cannot satisfy the requirement of Internet applications. Text-image retrieval research is needed to realize high-quality and efficient retrieval between different modalities. Existing text-image retrieval research is mostly based on general vision-language datasets (e.g. MS-COCO, Flickr30K), in which the query utterance is rigid and unnatural (i.e. verbosity and formality). To overcome the shortcoming, we construct a new Compact and Fragmented Query challenge dataset (named Flickr30K-CFQ) to model text-image retrieval task considering multiple query content and style, including compact and fine-grained entity-relation corpus. We propose a novel query-enhanced text-image retrieval method using prompt engineering based on LLM. Experiments show that our proposed Flickr30-CFQ reveals the insufficiency of existing vision-language datasets in realistic text-i
+    
+[^9]: 一个用于Mathlib4的语义搜索引擎
 
     A Semantic Search Engine for Mathlib4
 
@@ -135,7 +150,7 @@
 
     arXiv:2403.13310v1 Announce Type: cross  Abstract: The interactive theorem prover, Lean, enables the verification of formal mathematical proofs and is backed by an expanding community. Central to this ecosystem is its mathematical library, mathlib4, which lays the groundwork for the formalization of an expanding range of mathematical theories. However, searching for theorems in mathlib4 can be challenging. To successfully search in mathlib4, users often need to be familiar with its naming conventions or documentation strings. Therefore, creating a semantic search engine that can be used easily by individuals with varying familiarity with mathlib4 is very important. In this paper, we present a semantic search engine for mathlib4 that accepts informal queries and finds the relevant theorems. We also establish a benchmark for assessing the performance of various search engines for mathlib4.
     
-[^9]: 关于后交互模型的匹配机制和标记修剪的分析
+[^10]: 关于后交互模型的匹配机制和标记修剪的分析
 
     An Analysis on Matching Mechanisms and Token Pruning for Late-interaction Models
 
@@ -149,7 +164,7 @@
 
     arXiv:2403.13291v1 Announce Type: new  Abstract: With the development of pre-trained language models, the dense retrieval models have become promising alternatives to the traditional retrieval models that rely on exact match and sparse bag-of-words representations. Different from most dense retrieval models using a bi-encoder to encode each query or document into a dense vector, the recently proposed late-interaction multi-vector models (i.e., ColBERT and COIL) achieve state-of-the-art retrieval effectiveness by using all token embeddings to represent documents and queries and modeling their relevance with a sum-of-max operation. However, these fine-grained representations may cause unacceptable storage overhead for practical search systems. In this study, we systematically analyze the matching mechanism of these late-interaction models and show that the sum-of-max operation heavily relies on the co-occurrence signals and some important words in the document. Based on these findings, w
     
-[^10]: 用脑信号改进法律案例检索
+[^11]: 用脑信号改进法律案例检索
 
     Improving Legal Case Retrieval with Brain Signals
 
@@ -163,7 +178,7 @@
 
     arXiv:2403.13242v1 Announce Type: new  Abstract: The tasks of legal case retrieval have received growing attention from the IR community in the last decade. Relevance feedback techniques with implicit user feedback (e.g., clicks) have been demonstrated to be effective in traditional search tasks (e.g., Web search). In legal case retrieval, however, collecting relevance feedback faces a couple of challenges that are difficult to resolve under existing feedback paradigms. First, legal case retrieval is a complex task as users often need to understand the relationship between legal cases in detail to correctly judge their relevance. Traditional feedback signal such as clicks is too coarse to use as they do not reflect any fine-grained relevance information. Second, legal case documents are usually long, users often need even tens of minutes to read and understand them. Simple behavior signal such as clicks and eye-tracking fixations can hardly be useful when users almost click and examine
     
-[^11]: 当SMILES拥有语言：使用文本分类方法对药物SMILES字符串进行药物分类
+[^12]: 当SMILES拥有语言：使用文本分类方法对药物SMILES字符串进行药物分类
 
     When SMILES have Language: Drug Classification using Text Classification Methods on Drug SMILES Strings
 
@@ -177,7 +192,7 @@
 
     arXiv:2403.12984v1 Announce Type: cross  Abstract: Complex chemical structures, like drugs, are usually defined by SMILES strings as a sequence of molecules and bonds. These SMILES strings are used in different complex machine learning-based drug-related research and representation works. Escaping from complex representation, in this work, we pose a single question: What if we treat drug SMILES as conventional sentences and engage in text classification for drug classification? Our experiments affirm the possibility with very competitive scores. The study explores the notion of viewing each atom and bond as sentence components, employing basic NLP methods to categorize drug types, proving that complex problems can also be solved with simpler perspectives. The data and code are available here: https://github.com/azminewasi/Drug-Classification-NLP.
     
-[^12]: ERASE：深度推荐系统特征选择方法的基准测试
+[^13]: ERASE：深度推荐系统特征选择方法的基准测试
 
     ERASE: Benchmarking Feature Selection Methods for Deep Recommender Systems
 
@@ -191,7 +206,7 @@
 
     arXiv:2403.12660v1 Announce Type: cross  Abstract: Deep Recommender Systems (DRS) are increasingly dependent on a large number of feature fields for more precise recommendations. Effective feature selection methods are consequently becoming critical for further enhancing the accuracy and optimizing storage efficiencies to align with the deployment demands. This research area, particularly in the context of DRS, is nascent and faces three core challenges. Firstly, variant experimental setups across research papers often yield unfair comparisons, obscuring practical insights. Secondly, the existing literature's lack of detailed analysis on selection attributes, based on large-scale datasets and a thorough comparison among selection techniques and DRS backbones, restricts the generalizability of findings and impedes deployment on DRS. Lastly, research often focuses on comparing the peak performance achievable by feature selection methods, an approach that is typically computationally infe
     
-[^13]: 一种用于多模态推荐的对齐和训练框架
+[^14]: 一种用于多模态推荐的对齐和训练框架
 
     An Aligning and Training Framework for Multimodal Recommendations
 
@@ -205,7 +220,7 @@
 
     arXiv:2403.12384v1 Announce Type: cross  Abstract: With the development of multimedia applications, multimodal recommendations are playing an essential role, as they can leverage rich contexts beyond user interactions. Existing methods mainly regard multimodal information as an auxiliary, using them to help learn ID features; however, there exist semantic gaps among multimodal content features and ID features, for which directly using multimodal information as an auxiliary would lead to misalignment in representations of users and items. In this paper, we first systematically investigate the misalignment issue in multimodal recommendations, and propose a solution named AlignRec. In AlignRec, the recommendation objective is decomposed into three alignments, namely alignment within contents, alignment between content and categorical ID, and alignment between users and items. Each alignment is characterized by a specific objective function and is integrated into our multimodal recommendat
     
-[^14]: 评估大语言模型作为对话推荐中生成用户模拟器
+[^15]: 评估大语言模型作为对话推荐中生成用户模拟器
 
     Evaluating Large Language Models as Generative User Simulators for Conversational Recommendation
 
@@ -219,7 +234,7 @@
 
     arXiv:2403.09738v1 Announce Type: cross  Abstract: Synthetic users are cost-effective proxies for real users in the evaluation of conversational recommender systems. Large language models show promise in simulating human-like behavior, raising the question of their ability to represent a diverse population of users. We introduce a new protocol to measure the degree to which language models can accurately emulate human behavior in conversational recommendation. This protocol is comprised of five tasks, each designed to evaluate a key property that a synthetic user should exhibit: choosing which items to talk about, expressing binary preferences, expressing open-ended preferences, requesting recommendations, and giving feedback. Through evaluation of baseline simulators, we demonstrate these tasks effectively reveal deviations of language models from human behavior, and offer insights on how to reduce the deviations with model selection and prompting strategies.
     
-[^15]: 研究稀疏注意力对交叉编码器的影响
+[^16]: 研究稀疏注意力对交叉编码器的影响
 
     Investigating the Effects of Sparse Attention on Cross-Encoders
 
@@ -233,7 +248,7 @@
 
     arXiv:2312.17649v2 Announce Type: replace  Abstract: Cross-encoders are effective passage and document re-rankers but less efficient than other neural or classic retrieval models. A few previous studies have applied windowed self-attention to make cross-encoders more efficient. However, these studies did not investigate the potential and limits of different attention patterns or window sizes. We close this gap and systematically analyze how token interactions can be reduced without harming the re-ranking effectiveness. Experimenting with asymmetric attention and different window sizes, we find that the query tokens do not need to attend to the passage or document tokens for effective re-ranking and that very small window sizes suffice. In our experiments, even windows of 4 tokens still yield effectiveness on par with previous cross-encoders while reducing the memory requirements by at least 22% / 59% and being 1% / 43% faster at inference time for passages / documents.
     
-[^16]: LLatrieval：LLM-验证检索用于可验证生成
+[^17]: LLatrieval：LLM-验证检索用于可验证生成
 
     LLatrieval: LLM-Verified Retrieval for Verifiable Generation
 
@@ -247,7 +262,7 @@
 
     arXiv:2311.07838v2 Announce Type: replace  Abstract: Verifiable generation aims to let the large language model (LLM) generate text with supporting documents, which enables the user to flexibly verify the answer and makes the LLM's output more reliable. Retrieval plays a crucial role in verifiable generation. Specifically, the retrieved documents not only supplement knowledge to help the LLM generate correct answers, but also serve as supporting evidence for the user to verify the LLM's output. However, the widely used retrievers become the bottleneck of the entire pipeline and limit the overall performance. Their capabilities are usually inferior to LLMs since they often have much fewer parameters than the large language model and have not been demonstrated to scale well to the size of LLMs. If the retriever does not correctly find the supporting documents, the LLM can not generate the correct and verifiable answer, which overshadows the LLM's remarkable abilities. To address these li
     
-[^17]: 基于工作负载和学习的Z-索引
+[^18]: 基于工作负载和学习的Z-索引
 
     Workload-aware and Learned Z-Indexes. (arXiv:2310.04268v1 [cs.DB])
 
@@ -261,7 +276,7 @@
 
     In this paper, a learned and workload-aware variant of a Z-index, which jointly optimizes storage layout and search structures, as a viable solution for the above challenges of spatial indexing. Specifically, we first formulate a cost function to measure the performance of a Z-index on a dataset for a range-query workload. Then, we optimize the Z-index structure by minimizing the cost function through adaptive partitioning and ordering for index construction. Moreover, we design a novel page-skipping mechanism to improve its query performance by reducing access to irrelevant data pages. Our extensive experiments show that our index improves range query time by 40% on average over the baselines, while always performing better or comparably to state-of-the-art spatial indexes. Additionally, our index maintains good point query performance while providing favourable construction time and index size tradeoffs.
     
-[^18]: I^3 Retriever: 将隐式交互纳入预训练语言模型以用于段落检索
+[^19]: I^3 Retriever: 将隐式交互纳入预训练语言模型以用于段落检索
 
     I^3 Retriever: Incorporating Implicit Interaction in Pre-trained Language Models for Passage Retrieval. (arXiv:2306.02371v2 [cs.IR] UPDATED)
 
