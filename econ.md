@@ -2,202 +2,187 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [The Limits of Identification in Discrete Choice](https://arxiv.org/abs/2403.13773) | 我们研究了随机效用模型中的识别和线性独立性，发现随着备选方案数量的增加，任何线性独立的偏好集都是所有偏好集的微不足道的子集，并引入了一个新的条件来确保线性独立性。 |
-| [^2] | [Policy Relevant Treatment Effects with Multidimensional Unobserved Heterogeneity](https://arxiv.org/abs/2403.13738) | 该论文提出了使用工具变量来研究政策相关治疗效应的框架，能够处理多维未观测异质性，并通过凸松弛方法提供了紧致的界限。 |
-| [^3] | [Robust Inference in Locally Misspecified Bipartite Networks](https://arxiv.org/abs/2403.13725) | 介绍了一种在局部错误指定条件下在二分网络中进行稳健推断的方法，提出了局部渐近方法构建的稳健估计量和偏差感知置信区间，具有在稀疏网络渐近条件下对真实参数正确的渐近覆盖。 |
-| [^4] | [Optimal VPPI strategy under Omega ratio with stochastic benchmark](https://arxiv.org/abs/2403.13388) | 通过最大化投资者垫的扩展Omega比率，本文确定了风险乘数，同时使用随机基准为投资者提供变比例投资组合保险（VPPI）策略。 |
-| [^5] | [Multifractal wavelet dynamic mode decomposition modeling for marketing time series](https://arxiv.org/abs/2403.13361) | 本研究旨在通过多重分形小波动态模态分解建模探讨基于时间序列的营销模型。 |
-| [^6] | [On Equilibrium Determinacy in Overlapping Generations Models with Money](https://arxiv.org/abs/2403.13222) | 本文提供了关于在Tirole (1985)的重叠代际模型中货币和非货币稳态的局部确定性的详细分析，说明了在具有生产的模型中，不同于资产分配经济情况下的局部确定性条件，并展示了货币稳态在相对较弱条件下的局部确定性。 |
-| [^7] | [Path-dependency of capital return in periodic growth processes](https://arxiv.org/abs/2403.08678) | 本研究发现，在周期性增长过程中，资本化的期望值取决于路径，从而导致资本的回报率和时间平均回报率取决于路径，且内部收益率与资本回报率的期望值不同。 |
-| [^8] | [Causal Interpretation of Estimands Defined by Exposure Mappings](https://arxiv.org/abs/2403.08183) | 该论文研究了在对相互干扰施加弱限制条件时因果解释估计量的问题，并提出了用于因果可解释性的符号保留标准。 |
-| [^9] | [Equivalence between the Fitness-Complexity and the Sinkhorn-Knopp algorithms](https://arxiv.org/abs/2212.12356) | 揭示了健身复杂度算法与Sinkhorn-Knopp算法之间的等效性，以及通过固定点解的归一化揭示了健身和复杂度指标的能量函数解释。 |
-| [^10] | [A duality between utility transforms and probability distortions.](http://arxiv.org/abs/2309.05816) | 本文建立了一种效用变换与概率失真之间的对偶关系，这对决策风险下的经典理论有重要的意义。 |
-| [^11] | [Signaling With Commitment.](http://arxiv.org/abs/2305.00777) | 该论文研究了具有承诺力量的信号传递博弈，并提出了发件人可达到的收益的几何描述。研究者将其应用于不同领域，如作业市场信号传递、通信和披露。 |
-| [^12] | [Unconfoundedness with Network Interference.](http://arxiv.org/abs/2211.07823) | 本文研究使用单个大型网络的观测数据进行非参数估计，利用图神经网络估计高维烦恼函数，研究治疗效应和溢出效应。 |
-| [^13] | [Prediction intervals for economic fixed-event forecasts.](http://arxiv.org/abs/2210.13562) | 该论文研究了经济固定事件预测的预测区间，提出了基于问题动机的回归方法，用于构建德国和美国国内生产总值（GDP）增长的预测区间。 |
+| [^1] | [Estimating Causal Effects with Double Machine Learning -- A Method Evaluation](https://arxiv.org/abs/2403.14385) | 双重/无偏机器学习（DML）方法改进了因果效应估计中对非线性混淆关系的调整，摆脱传统函数形式假设，但仍然依赖于标准因果假设。 |
+| [^2] | [A Gaussian smooth transition vector autoregressive model: An application to the macroeconomic effects of severe weather shocks](https://arxiv.org/abs/2403.14216) | 提出了一种新的高斯平滑过渡向量自回归模型，能够更好地捕捉复杂的转换动态，并在实证应用中发现美国经济逐渐适应了严重天气带来的影响。 |
+| [^3] | [Fused LASSO as Non-Crossing Quantile Regression](https://arxiv.org/abs/2403.14036) | 通过扩展非交叉约束，通过变化单一超参数（$\alpha$），可以获得常用的分位数估计量，显示了非交叉约束只是融合收缩的一个特殊类型。 |
+| [^4] | [Robust Communication Between Parties with Nearly Independent Preferences](https://arxiv.org/abs/2403.13983) | 通信博弈中当发送方偏好近乎独立时，鲁棒说服可能通过逼近透明偏好博弈的‘无环’均衡实现，前提是发送方的偏好满足一种单调性条件。 |
+| [^5] | [Ex-Ante Design of Persuasion Games](https://arxiv.org/abs/2312.02465) | 研究了先见之明机制设计设置中的信息披露激励，提出了一种新的原则，揭示了全局激励约束受到有限后验信念下的“最坏情况”惩罚的影响，同时发现接收方在解决最优分配问题时将从对确定性结果进行随机化中受益。 |
+| [^6] | [Identification and Statistical Decision Theory](https://arxiv.org/abs/2204.11318) | 此论文探讨了辨识分析对统计决策理论的重要性，发现辨识分析可以为有限样本性能提供上限，对于点辨识参数来说比较简单，而在部分辨识且存在模糊情况下做出决策时则更为复杂。 |
+| [^7] | [Iterative Estimation of Nonparametric Regressions with Continuous Endogenous Variables and Discrete Instruments](https://arxiv.org/abs/1905.07812) | 提出了一种简单的迭代程序来估计具有连续内生变量和离散工具的非参数回归模型，并展示了一些渐近性质。 |
+| [^8] | [Designing Digital Voting Systems for Citizens: Achieving Fairness and Legitimacy in Digital Participatory Budgeting.](http://arxiv.org/abs/2310.03501) | 本研究调查了数字参与式预算中投票和聚合方法的权衡，并通过行为实验确定了有利的投票设计组合。研究发现，设计选择对集体决策、市民感知和结果公平性有深远影响，为开发更公平和更透明的数字PB系统和市民的多胜者集体决策过程提供了可行的见解。 |
+| [^9] | [The Dictator Equation: The Distortion of Information Flow in Autocratic Regimes and Its Consequences.](http://arxiv.org/abs/2310.01666) | 专制政权中的信息流扭曲及其后果的模型表明，在短期可以带来改善，但随后会导致国家逐渐恶化。顾问的欺骗程度与困难程度成正比。 |
+| [^10] | [A Majority Rule Philosophy for Instant Runoff Voting.](http://arxiv.org/abs/2308.08430) | 在即时投票中，引入了有序多数规则的概念，它建立了一种社会顺序，确保了从多数党或联盟中选出候选人，并防止对立的反对党或联盟对选举结果的影响。有序多数规则与康多塞合规性、无关因素的独立性和单调性等特性不兼容，并且主张有序多数规则可能优于成对多数规则。 |
+| [^11] | [Wildfire Modeling: Designing a Market to Restore Assets.](http://arxiv.org/abs/2205.13773) | 该论文研究了如何设计一个市场来恢复由森林火灾造成的资产损失。研究通过分析电力公司引发火灾的原因，并将火灾风险纳入经济模型中，提出了收取森林火灾基金和公平收费的方案，以最大化社会影响和总盈余。 |
+| [^12] | [Homophily in preferences or meetings? Identifying and estimating an iterative network formation model.](http://arxiv.org/abs/2201.06694) | 本文讨论同质性在社交和经济网络中产生的机制，提出了一种区分偏好和机会的迭代网络游戏的方法，并且进行了应用研究，发现偏好的同质性比机会的同质性更强，追踪学生可能会提高福利，但是效益随着时间推移而减弱。 |
 
 # 详细
 
-[^1]: 离散选择中的识别限制
+[^1]: 用双机器学习估计因果效应--一种方法评估
 
-    The Limits of Identification in Discrete Choice
+    Estimating Causal Effects with Double Machine Learning -- A Method Evaluation
 
-    [https://arxiv.org/abs/2403.13773](https://arxiv.org/abs/2403.13773)
+    [https://arxiv.org/abs/2403.14385](https://arxiv.org/abs/2403.14385)
 
-    我们研究了随机效用模型中的识别和线性独立性，发现随着备选方案数量的增加，任何线性独立的偏好集都是所有偏好集的微不足道的子集，并引入了一个新的条件来确保线性独立性。
-
-    
-
-    我们研究了随机效用模型中的识别和线性独立性。我们将随机选择数据的特定图形表示的圈复杂度特征化为随机效用模型的维数。我们表明，随着备选方案数量的增加，任何线性独立的偏好集都是所有偏好集的微不足道的子集。我们引入了对偏好集的新条件，该条件足以确保线性独立性。我们通过示例展示该条件并非必要条件，但严格弱于其他现有的足够条件。
-
-    arXiv:2403.13773v1 Announce Type: new  Abstract: We study identification and linear independence in random utility models. We characterize the dimension of the random utility model as the cyclomatic complexity of a specific graphical representation of stochastic choice data. We show that, as the number of alternatives grows, any linearly independent set of preferences is a vanishingly small subset of the set of all preferences. We introduce a new condition on sets of preferences which is sufficient for linear independence. We demonstrate by example that the condition is not necessary, but is strictly weaker than other existing sufficient conditions.
-    
-[^2]: 具有多维未观测异质性的政策相关治疗效应
-
-    Policy Relevant Treatment Effects with Multidimensional Unobserved Heterogeneity
-
-    [https://arxiv.org/abs/2403.13738](https://arxiv.org/abs/2403.13738)
-
-    该论文提出了使用工具变量来研究政策相关治疗效应的框架，能够处理多维未观测异质性，并通过凸松弛方法提供了紧致的界限。
+    双重/无偏机器学习（DML）方法改进了因果效应估计中对非线性混淆关系的调整，摆脱传统函数形式假设，但仍然依赖于标准因果假设。
 
     
 
-    这篇论文提供了一个框架，用于使用工具变量来研究政策相关的治疗效应。在这个框架中，治疗选择可能符合经典的单调性条件，也可能不符合，并且能够容纳多维未观测异质性。我们可以通过从可以辨识的估计量中提取信息来限定目标参数。我们还通过应用凸松弛方法提供了一个更保守但计算更简单的界限。线性形状限制可以很容易地纳入以进一步改进这些界限。数值和模拟结果说明了我们凸松弛界限的信息量，即我们的界限足够紧凑。
+    使用观测数据估计因果效应仍然是一个非常活跃的研究领域。近年来，研究人员开发了利用机器学习放宽传统假设以估计因果效应的新框架。在本文中，我们回顾了其中一个最重要的方法-"双/无偏机器学习"（DML），并通过比较它在模拟数据上相对于更传统的统计方法的表现，然后将其应用于真实世界数据进行了实证评估。我们的研究发现表明，在DML中应用一个适当灵活的机器学习算法可以改进对各种非线性混淆关系的调整。这种优势使得可以摆脱通常在因果效应估计中必需的传统函数形式假设。然而，我们表明该方法在关于因果关系的标准假设方面仍然至关重要。
 
-    arXiv:2403.13738v1 Announce Type: new  Abstract: This paper provides a framework for the policy relevant treatment effects using instrumental variables. In the framework, a treatment selection may or may not satisfy the classical monotonicity condition and can accommodate multidimensional unobserved heterogeneity. We can bound the target parameter by extracting information from identifiable estimands. We also provide a more conservative yet computationally simpler bound by applying a convex relaxation method. Linear shape restrictions can be easily incorporated to further improve the bounds. Numerical and simulation results illustrate the informativeness of our convex-relaxation bounds, i.e., that our bounds are sufficiently tight.
+    arXiv:2403.14385v1 Announce Type: cross  Abstract: The estimation of causal effects with observational data continues to be a very active research area. In recent years, researchers have developed new frameworks which use machine learning to relax classical assumptions necessary for the estimation of causal effects. In this paper, we review one of the most prominent methods - "double/debiased machine learning" (DML) - and empirically evaluate it by comparing its performance on simulated data relative to more traditional statistical methods, before applying it to real-world data. Our findings indicate that the application of a suitably flexible machine learning algorithm within DML improves the adjustment for various nonlinear confounding relationships. This advantage enables a departure from traditional functional form assumptions typically necessary in causal effect estimation. However, we demonstrate that the method continues to critically depend on standard assumptions about causal 
     
-[^3]: 局部错误指定的二分网络中的稳健推断
+[^2]: 一种高斯平滑过渡向量自回归模型：对严重天气冲击的宏观经济影响的应用
 
-    Robust Inference in Locally Misspecified Bipartite Networks
+    A Gaussian smooth transition vector autoregressive model: An application to the macroeconomic effects of severe weather shocks
 
-    [https://arxiv.org/abs/2403.13725](https://arxiv.org/abs/2403.13725)
+    [https://arxiv.org/abs/2403.14216](https://arxiv.org/abs/2403.14216)
 
-    介绍了一种在局部错误指定条件下在二分网络中进行稳健推断的方法，提出了局部渐近方法构建的稳健估计量和偏差感知置信区间，具有在稀疏网络渐近条件下对真实参数正确的渐近覆盖。
-
-    
-
-    本文介绍了一种在局部错误指定条件下在二分网络中进行稳健推断的方法。我们专注于一类具有错误指定条件矩限制的二元网络模型。错误指定的框架是局部的，因为错误指定的影响随样本大小变化而变化。我们利用这种局部渐近方法构建了一个在错误指定邻域内具有极小化最小平方误差的稳健估计量。此外，我们介绍了考虑局部错误指定效应的偏差感知置信区间。这些置信区间在稀疏网络渐近条件下对于真实感兴趣参数具有正确的渐近覆盖。蒙特卡洛实验展示了稳健估计在有限样本和稀疏网络中的良好性能。作为实证说明，我们研究了生态学中科学合作网络的形成。
-
-    arXiv:2403.13725v1 Announce Type: new  Abstract: This paper introduces a methodology to conduct robust inference in bipartite networks under local misspecification. We focus on a class of dyadic network models with misspecified conditional moment restrictions. The framework of misspecification is local, as the effect of misspecification varies with the sample size. We utilize this local asymptotic approach to construct a robust estimator that is minimax optimal for the mean square error within a neighborhood of misspecification. Additionally, we introduce bias-aware confidence intervals that account for the effect of the local misspecification. These confidence intervals have the correct asymptotic coverage for the true parameter of interest under sparse network asymptotics. Monte Carlo experiments demonstrate that the robust estimator performs well in finite samples and sparse networks. As an empirical illustration, we study the formation of a scientific collaboration network among ec
-    
-[^4]: 在具有随机基准的Omega比率下的最佳VPPI策略
-
-    Optimal VPPI strategy under Omega ratio with stochastic benchmark
-
-    [https://arxiv.org/abs/2403.13388](https://arxiv.org/abs/2403.13388)
-
-    通过最大化投资者垫的扩展Omega比率，本文确定了风险乘数，同时使用随机基准为投资者提供变比例投资组合保险（VPPI）策略。
+    提出了一种新的高斯平滑过渡向量自回归模型，能够更好地捕捉复杂的转换动态，并在实证应用中发现美国经济逐渐适应了严重天气带来的影响。
 
     
 
-    本文研究了一种变比例投资组合保险（VPPI）策略。其目标是通过最大化投资者垫的扩展Omega比率来确定风险乘数，使用一个二元随机基准。当股指下跌时，投资者的目标是维持最低保证。相反，当股指上涨时，投资者寻求跟踪一些超额收益。优化问题涉及将一个非凹目标函数与随机基准相结合，这是基于凹化技术的随机版本有效解决的。我们为最佳风险乘数推导出半解析解，其值函数分为三种不同情况。有趣的是，分类标准是由Zieling等人（2014年）中最佳风险乘数与1值之间的关系确定的。模拟结果验证了VPPI的有效性。
+    我们介绍了一种新的平滑过渡向量自回归模型，其具有高斯条件分布和转换权重，对于第$p$阶模型，这些权重取决于前$p$个观测值的完整分布。具体而言，每个状态的转换权重随其相对加权似然性而增加。这种数据驱动方法有助于捕捉复杂的转换动态，增强逐渐状态转变的识别。在一个关于严重天气冲击对宏观经济影响的实证应用中，我们发现在1961年第1季度至2022年第3季度的美国月度数据中，冲击的影响在样本早期的状态和某些危机时期比在样本后期主导的状态中更为显著。这表明美国经济总体上逐渐适应了随时间增加的严重天气。
 
-    arXiv:2403.13388v1 Announce Type: new  Abstract: This paper studies a variable proportion portfolio insurance (VPPI) strategy. The objective is to determine the risk multiplier by maximizing the extended Omega ratio of the investor's cushion, using a binary stochastic benchmark. When the stock index declines, investors aim to maintain the minimum guarantee. Conversely, when the stock index rises, investors seek to track some excess returns. The optimization problem involves the combination of a non-concave objective function with a stochastic benchmark, which is effectively solved based on the stochastic version of concavification technique. We derive semi-analytical solutions for the optimal risk multiplier, and the value functions are categorized into three distinct cases. Intriguingly, the classification criteria are determined by the relationship between the optimal risky multiplier in Zieling et al. (2014 and the value of 1. Simulation results confirm the effectiveness of the VPPI
+    arXiv:2403.14216v1 Announce Type: new  Abstract: We introduce a new smooth transition vector autoregressive model with a Gaussian conditional distribution and transition weights that, for a $p$th order model, depend on the full distribution of the preceding $p$ observations. Specifically, the transition weight of each regime increases in its relative weighted likelihood. This data-driven approach facilitates capturing complex switching dynamics, enhancing the identification of gradual regime shifts. In an empirical application to the macroeconomic effects of a severe weather shock, we find that in monthly U.S. data from 1961:1 to 2022:3, the impacts of the shock are stronger in the regime prevailing in the early part of the sample and in certain crisis periods than in the regime dominating the latter part of the sample. This suggests overall adaptation of the U.S. economy to increased severe weather over time.
     
-[^5]: 多重分形小波动态模态分解建模用于营销时间序列
+[^3]: Fused LASSO作为非交叉分位数回归
 
-    Multifractal wavelet dynamic mode decomposition modeling for marketing time series
+    Fused LASSO as Non-Crossing Quantile Regression
 
-    [https://arxiv.org/abs/2403.13361](https://arxiv.org/abs/2403.13361)
+    [https://arxiv.org/abs/2403.14036](https://arxiv.org/abs/2403.14036)
 
-    本研究旨在通过多重分形小波动态模态分解建模探讨基于时间序列的营销模型。
-
-    
-
-    营销是确保我们的销售业绩最佳、我们的价格最具吸引力、客户满意的方式，从而确保我们的品牌具有最广泛的分销网络。这需要对整个相关网络有复杂和先进的理解。实际上，营销数据可能以定性和定量数据的不同形式存在。然而，在文献中很容易发现关于定性研究可以收集到大量的文献，而采用定量观点的研究却寥寥无几。这是一个重大缺点，导致营销科学仍然侧重于设计，尽管市场在很大程度上依赖于货币和时间等数量。实际上，营销数据可以形成时间序列，如指定时期内的品牌销售、指定时期内与品牌相关的价格、市场份额等。本工作的目的是研究基于时间序列的一些营销模型。
-
-    arXiv:2403.13361v1 Announce Type: cross  Abstract: Marketing is the way we ensure our sales are the best in the market, our prices the most accessible, and our clients satisfied, thus ensuring our brand has the widest distribution. This requires sophisticated and advanced understanding of the whole related network. Indeed, marketing data may exist in different forms such as qualitative and quantitative data. However, in the literature, it is easily noted that large bibliographies may be collected about qualitative studies, while only a few studies adopt a quantitative point of view. This is a major drawback that results in marketing science still focusing on design, although the market is strongly dependent on quantities such as money and time. Indeed, marketing data may form time series such as brand sales in specified periods, brand-related prices over specified periods, market shares, etc. The purpose of the present work is to investigate some marketing models based on time series f
-    
-[^6]: 在带有货币的重叠代际模型中的均衡确定性问题
-
-    On Equilibrium Determinacy in Overlapping Generations Models with Money
-
-    [https://arxiv.org/abs/2403.13222](https://arxiv.org/abs/2403.13222)
-
-    本文提供了关于在Tirole (1985)的重叠代际模型中货币和非货币稳态的局部确定性的详细分析，说明了在具有生产的模型中，不同于资产分配经济情况下的局部确定性条件，并展示了货币稳态在相对较弱条件下的局部确定性。
+    通过扩展非交叉约束，通过变化单一超参数（$\alpha$），可以获得常用的分位数估计量，显示了非交叉约束只是融合收缩的一个特殊类型。
 
     
 
-    本文对带有资本和生产的Tirole (1985)经典两期重叠代际模型中货币和非货币稳态的局部确定性进行了详细分析。我们表明，在托曼（1980）提供的关于资产分配经济中局部确定性的充分条件并不推广到具有生产的模型：存在具有任意效用函数的稳态非货币局部确定性或不确定性的稳健示例。相比之下，货币稳态在相当弱的条件下是局部确定的。
+    分位数交叉一直是分位数回归中一个长久存在的问题，推动了对获得遵守分位数单调性性质的密度和系数的研究。本文扩展了非交叉约束，展示通过变化单一超参数（$\alpha$）可以获得常用的分位数估计量。具体来说，当 $\alpha=0$ 时，我们获得了Koenker和Bassett（1978）的分位数回归估计量，当 $\alpha=1$ 时，获得了Bondell等人（2010）的非交叉分位数回归估计量，当 $\alpha\rightarrow\infty$ 时，获得了Koenker（1984）和Zou以及Yuan（2008）的复合分位数回归估计量。因此，我们展示了非交叉约束只是融合收缩的一个特殊类型。
 
-    arXiv:2403.13222v1 Announce Type: new  Abstract: This paper provides a detailed analysis of the local determinacy of monetary and non-monetary steady states in Tirole (1985)'s classical two-period overlapping generations model with capital and production. We show that the sufficient condition for local determinacy in endowment economies provided by Scheinkman (1980) does not generalize to models with production: there are robust examples with arbitrary utility functions in which the non-monetary steady state is locally determinate or indeterminate. In contrast, the monetary steady state is locally determinate under fairly weak conditions.
+    arXiv:2403.14036v1 Announce Type: new  Abstract: Quantile crossing has been an ever-present thorn in the side of quantile regression. This has spurred research into obtaining densities and coefficients that obey the quantile monotonicity property. While important contributions, these papers do not provide insight into how exactly these constraints influence the estimated coefficients. This paper extends non-crossing constraints and shows that by varying a single hyperparameter ($\alpha$) one can obtain commonly used quantile estimators. Namely, we obtain the quantile regression estimator of Koenker and Bassett (1978) when $\alpha=0$, the non crossing quantile regression estimator of Bondell et al. (2010) when $\alpha=1$, and the composite quantile regression estimator of Koenker (1984) and Zou and Yuan (2008) when $\alpha\rightarrow\infty$. As such, we show that non-crossing constraints are simply a special type of fused-shrinkage.
     
-[^7]: 资本回报在周期性增长过程中的路径依赖性研究
+[^4]: 具有近乎独立偏好的各方之间的鲁棒通信
 
-    Path-dependency of capital return in periodic growth processes
+    Robust Communication Between Parties with Nearly Independent Preferences
 
-    [https://arxiv.org/abs/2403.08678](https://arxiv.org/abs/2403.08678)
+    [https://arxiv.org/abs/2403.13983](https://arxiv.org/abs/2403.13983)
 
-    本研究发现，在周期性增长过程中，资本化的期望值取决于路径，从而导致资本的回报率和时间平均回报率取决于路径，且内部收益率与资本回报率的期望值不同。
-
-    
-
-    研究了周期性增长过程。根据应计基础，利润率的期望值既不直接取决于减值，也不取决于资本化路径。资本化的期望值是路径依赖的。由于依赖路径的资本化，资本的回报率也是路径依赖的，而资本的时间平均回报率与增长周期的期望值回报率不同。在没有中间减值的情况下，内部收益率是路径无关的，因此与资本回报率的期望值不同。结果表明，使权益回报率最大化的旋转周期长度与市场利率无关。杠杆效应通过一个单独的杠杆方程进入增长过程的微观经济学中，杠杆系数可能达到正值或负值。
-
-    arXiv:2403.08678v1 Announce Type: new  Abstract: Periodic growth processes are investigated. The expected value of the profit rate, on accrual basis, does not directly depend on divestments, neither on the capitalization path. The expected value of capitalization is path dependent. Because of the path-dependent capitalization, the return rate on capital is path-dependent, and the time-average return rate on capital differs from the expected-value return rate on capital for the growth cycle. In the absence of intermediate divestments, the internal rate of return is path-independent, thereby differing from the expected value of the rate of return on capital. It is shown that the rotation cycle length maximizing the return rate on equity is independent of market interest rate. Leveraging effect enters the microeconomics of the growth processes through a separate leveraging equation, where the leverage coefficient may reach positive or negative values. Correspondingly, from the viewpoint o
-    
-[^8]: 由暴露映射定义的估计量的因果解释
-
-    Causal Interpretation of Estimands Defined by Exposure Mappings
-
-    [https://arxiv.org/abs/2403.08183](https://arxiv.org/abs/2403.08183)
-
-    该论文研究了在对相互干扰施加弱限制条件时因果解释估计量的问题，并提出了用于因果可解释性的符号保留标准。
+    通信博弈中当发送方偏好近乎独立时，鲁棒说服可能通过逼近透明偏好博弈的‘无环’均衡实现，前提是发送方的偏好满足一种单调性条件。
 
     
 
-    在存在相互干扰的情况下，通常利用由暴露映射定义的估计量来总结与个体相邻的治疗分配变化的影响。本文研究了在对相互干扰施加弱限制条件时它们的因果解释。我们证明在传统的识别条件下，这些估计量可能出现不可取的符号反转。这促使提出用于因果可解释性的符号保留标准。为满足首选标准，有必要对相互干扰施加约束，无论是在潜在结果还是在治疗选择中。我们提供了充分条件，并展示它们由一个允许在结果和选择阶段中存在复杂干扰形式的非参数模型满足。
+    我们研究了有限状态通信博弈，在该博弈中，发送方的偏好受到随机私人特异性的扰动。在统计独立发送方/接收方偏好类别中，一般无法进行说服，这与先前的研究相反，先前的研究建立了当发送方偏好完全透明时的说服均衡。然而，当发送方的偏好仅略微依赖于状态/特异时，仍可能发生鲁棒说服。这需要逼近透明偏好博弈的‘无环’均衡，通常意味着这种均衡也是‘连接的’—这是对部分混合均衡的推广。然后，发送方的偏好相对于逼近均衡满足一种单调性条件是必要且充分的。 如果发送方的偏好进一步满足‘半局部’递增差异的版本，则这种分析将延伸到发送方
 
-    arXiv:2403.08183v1 Announce Type: new  Abstract: In settings with interference, it is common to utilize estimands defined by exposure mappings to summarize the impact of variation in treatment assignments local to the ego. This paper studies their causal interpretation under weak restrictions on interference. We demonstrate that the estimands can exhibit unpalatable sign reversals under conventional identification conditions. This motivates the formulation of sign preservation criteria for causal interpretability. To satisfy preferred criteria, it is necessary to impose restrictions on interference, either in potential outcomes or selection into treatment. We provide sufficient conditions and show that they are satisfied by a nonparametric model allowing for a complex form of interference in both the outcome and selection stages.
+    arXiv:2403.13983v1 Announce Type: new  Abstract: We study finite-state communication games in which the sender's preference is perturbed by random private idiosyncrasies. Persuasion is generically impossible within the class of statistically independent sender/receiver preferences -- contrary to prior research establishing persuasive equilibria when the sender's preference is precisely transparent.   Nevertheless, robust persuasion may occur when the sender's preference is only slightly state-dependent/idiosyncratic. This requires approximating an `acyclic' equilibrium of the transparent preference game, generically implying that this equilibrium is also `connected' -- a generalization of partial-pooling equilibria. It is then necessary and sufficient that the sender's preference satisfy a monotonicity condition relative to the approximated equilibrium.   If the sender's preference further satisfies a `semi-local' version of increasing differences, then this analysis extends to sender 
     
-[^9]: 《健身复杂度算法与Sinkhorn-Knopp算法之间的等效性》
+[^5]: 先见之明的说服博弈设计
 
-    Equivalence between the Fitness-Complexity and the Sinkhorn-Knopp algorithms
+    Ex-Ante Design of Persuasion Games
 
-    [https://arxiv.org/abs/2212.12356](https://arxiv.org/abs/2212.12356)
+    [https://arxiv.org/abs/2312.02465](https://arxiv.org/abs/2312.02465)
 
-    揭示了健身复杂度算法与Sinkhorn-Knopp算法之间的等效性，以及通过固定点解的归一化揭示了健身和复杂度指标的能量函数解释。
-
-    
-
-    我们揭示了经济复杂性领域中发展的健身复杂度算法与在涵盖从计算机科学和数学到经济学等不同领域中广泛使用的Sinkhorn-Knopp算法之间的联系。尽管这两种方法之间存在轻微的形式差异，但两者都收敛到相同的固定点解，直到归一化。发现的连接使我们能够推导出健身和复杂度指标作为适当能量函数的势能的严格解释。在这种解释下，高能量产品对于健身较低的国家是不可行的，这解释了为什么该算法在展示二部网络中嵌套模式方面有效。我们还展示了提出的解释揭示了健身复杂度算法的尺度不变性，这对于该算法在不同数据集中的实现具有实际意义。此外，对经验数据的进一步分析
-
-    arXiv:2212.12356v2 Announce Type: replace  Abstract: We uncover the connection between the Fitness-Complexity algorithm, developed in the economic complexity field, and the Sinkhorn-Knopp algorithm, widely used in diverse domains ranging from computer science and mathematics to economics. Despite minor formal differences between the two methods, both converge to the same fixed-point solution up to normalization. The discovered connection allows us to derive a rigorous interpretation of the Fitness and the Complexity metrics as the potentials of a suitable energy function. Under this interpretation, high-energy products are unfeasible for low-fitness countries, which explains why the algorithm is effective at displaying nested patterns in bipartite networks. We also show that the proposed interpretation reveals the scale invariance of the Fitness-Complexity algorithm, which has practical implications for the algorithm's implementation in different datasets. Further, analysis of empirica
-    
-[^10]: 一种效用变换与概率失真之间的对偶关系
-
-    A duality between utility transforms and probability distortions. (arXiv:2309.05816v1 [econ.TH])
-
-    [http://arxiv.org/abs/2309.05816](http://arxiv.org/abs/2309.05816)
-
-    本文建立了一种效用变换与概率失真之间的对偶关系，这对决策风险下的经典理论有重要的意义。
+    研究了先见之明机制设计设置中的信息披露激励，提出了一种新的原则，揭示了全局激励约束受到有限后验信念下的“最坏情况”惩罚的影响，同时发现接收方在解决最优分配问题时将从对确定性结果进行随机化中受益。
 
     
 
-    本文建立了一种数学上的效用变换与概率失真之间的对偶关系。这些变换在决策风险下起着核心作用，为期望效用、双重效用和依赖等级效用的经典理论提供了基础。我们的主要结果表明，概率失真可以通过与效用变换的交换特征来进行描述，而效用变换则可以通过与概率失真的交换特征来进行描述。这些结果不需要额外的条件，因此每个类别都可以通过一个属性进行公理化。此外，在单调性下，依赖等级效用变换可以通过与效用变换或概率失真的集合交换特征进行描述。
+    接受方的承诺如何影响贝叶斯说服中信息披露的激励？我们研究了许多发送方的说服博弈，其中单个接收方在发送方设计信息环境之前承诺一个后验依赖的行动配置或分配。我们在先见之明机制设计设置中提出了一种新的类似披露的原则，其中发送方报告是布莱克韦尔实验，并用它来表征我们模型中可实施的分配集合。我们展示了全局激励约束受到“最坏情况”惩罚的固定，该固定在有限后验信念中独立于分配的值。此外，当解决受约束的最优分配时，与标准机制设计模型形成对比，接收方将从能够对确定性结果进行随机化中获益。最后，我们将结果应用于分析多商品分配问题中的效率。
 
-    In this paper, we establish a mathematical duality between utility transforms and probability distortions. These transforms play a central role in decision under risk by forming the foundation for the classic theories of expected utility, dual utility, and rank-dependent utility. Our main results establish that probability distortions are characterized by commutation with utility transforms, and utility transforms are characterized by commutation with probability distortions. These results require no additional conditions, and hence each class can be axiomatized with only one property. Moreover, under monotonicity, rank-dependent utility transforms can be characterized by set commutation with either utility transforms or probability distortions.
+    arXiv:2312.02465v3 Announce Type: replace  Abstract: How does receiver commitment affect incentives for information revelation in Bayesian persuasion? We study many-sender persuasion games where a single receiver commits to a posterior-dependent action profile, or allocation, before senders design the informational environment. We develop a novel revelation-like principle for ex-ante mechanism design settings where sender reports are Blackwell experiments and use it to characterize the set of implementable allocations in our model. We show global incentive constraints are pinned down by "worst-case" punishments at finitely many posterior beliefs, whose values are independent of the allocation. Moreover, the receiver will generically benefit from the ability to randomize over deterministic outcomes when solving for the constrained optimal allocation, in contrast to standard mechanism design models. Finally, we apply our results to analyze efficiency in multi-good allocation problems, fu
     
-[^11]: 承诺下的信号传递
+[^6]: 辨识和统计决策理论
 
-    Signaling With Commitment. (arXiv:2305.00777v1 [econ.TH])
+    Identification and Statistical Decision Theory
 
-    [http://arxiv.org/abs/2305.00777](http://arxiv.org/abs/2305.00777)
+    [https://arxiv.org/abs/2204.11318](https://arxiv.org/abs/2204.11318)
 
-    该论文研究了具有承诺力量的信号传递博弈，并提出了发件人可达到的收益的几何描述。研究者将其应用于不同领域，如作业市场信号传递、通信和披露。
-
-    
-
-    我们研究了具有承诺力量的信号传递博弈。我们提供了发件人可达到的收益的几何描述，由与不同发件人行动相关的发件人临时支付函数的图的拓扑联合描述。我们将这种情况下的发件人收益与两个基准进行比较。在第一个基准中，除了承诺自己的行动外，发件人还可以承诺向接收者提供额外的信息。在第二个基准中，发件人只能承诺发布信息，但不能保证自己的行动。我们还将我们的结果应用于作业市场信号传递，具有虚假成本的通信和披露。
-
-    We study the canonical signaling game, endowing the sender with commitment power. We provide a geometric characterization of the sender's attainable payoffs, described by the topological join of the graphs of the sender's interim payoff functions associated with different sender actions. We compare the sender's payoffs in this setting with two benchmarks. In the first, in addition to committing to her actions, the sender can commit to provide the receiver with additional information. In the second, the sender can only commit to release information, but cannot commit to her actions. We illustrate our results with applications to job market signaling, communication with lying costs, and disclosure.
-    
-[^12]: 使用网络干扰进行无偏性估计研究
-
-    Unconfoundedness with Network Interference. (arXiv:2211.07823v2 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2211.07823](http://arxiv.org/abs/2211.07823)
-
-    本文研究使用单个大型网络的观测数据进行非参数估计，利用图神经网络估计高维烦恼函数，研究治疗效应和溢出效应。
+    此论文探讨了辨识分析对统计决策理论的重要性，发现辨识分析可以为有限样本性能提供上限，对于点辨识参数来说比较简单，而在部分辨识且存在模糊情况下做出决策时则更为复杂。
 
     
 
-    本文研究使用来自单个大型网络的观测数据对治疗效应和溢出效应进行非参数估计。我们考虑一个模型，其中干扰随着网络距离的增加而衰减，这允许对结果和治疗选择的同伴影响进行建模。在这个模型下，总网络和所有单位的协变量构成了混淆的来源，与现有工作不同的是，现有工作假设混淆可以由这些对象的已知低维函数总结。我们提出使用图神经网络来估计双重稳健估计量的高维烦恼函数。我们建立了近似稀疏的网络类比，以证明使用浅层结构的合理性。
+    经济计量学家将估计研究有用地分为辨识和统计两部分。辨识分析假设已知生成观测数据的概率分布，为有限样本数据可学到的人口参数设定了上限。然而Wald的统计决策理论研究了只用样本数据做决策，没有提及辨识，事实上也没有提及估计。本文探讨了辨识分析对统计决策理论是否有用。答案是肯定的，因为它可以为决策标准的有限样本性能提供信息丰富且易于处理的上限。当决策相关参数为点估计时，推理很简单。当真实状态部分辨识且在模糊下必须做出决策时，推理就变得更加微妙。然后，某些准则的性能，s
 
-    This paper studies nonparametric estimation of treatment and spillover effects using observational data from a single large network. We consider a model in which interference decays with network distance, which allows for peer influence in both outcomes and selection into treatment. Under this model, the total network and covariates of all units constitute sources of confounding, in contrast to existing work that assumes confounding can be summarized by a known, low-dimensional function of these objects. We propose to use graph neural networks to estimate the high-dimensional nuisance functions of a doubly robust estimator. We establish a network analog of approximate sparsity to justify the use of shallow architectures.
+    arXiv:2204.11318v2 Announce Type: replace  Abstract: Econometricians have usefully separated study of estimation into identification and statistical components. Identification analysis, which assumes knowledge of the probability distribution generating observable data, places an upper bound on what may be learned about population parameters of interest with finite sample data. Yet Wald's statistical decision theory studies decision making with sample data without reference to identification, indeed without reference to estimation. This paper asks if identification analysis is useful to statistical decision theory. The answer is positive, as it can yield an informative and tractable upper bound on the achievable finite sample performance of decision criteria. The reasoning is simple when the decision relevant parameter is point identified. It is more delicate when the true state is partially identified and a decision must be made under ambiguity. Then the performance of some criteria, s
     
-[^13]: 经济固定事件预测的预测区间
+[^7]: 连续内生变量和离散工具的非参数回归的迭代估计
 
-    Prediction intervals for economic fixed-event forecasts. (arXiv:2210.13562v2 [econ.EM] UPDATED)
+    Iterative Estimation of Nonparametric Regressions with Continuous Endogenous Variables and Discrete Instruments
 
-    [http://arxiv.org/abs/2210.13562](http://arxiv.org/abs/2210.13562)
+    [https://arxiv.org/abs/1905.07812](https://arxiv.org/abs/1905.07812)
 
-    该论文研究了经济固定事件预测的预测区间，提出了基于问题动机的回归方法，用于构建德国和美国国内生产总值（GDP）增长的预测区间。
+    提出了一种简单的迭代程序来估计具有连续内生变量和离散工具的非参数回归模型，并展示了一些渐近性质。
 
     
 
-    固定事件预测设置在经济政策中很常见。它涉及到对同一个“固定”的预测对象进行一系列的预测，因此随着时间的推移，预测问题的难度逐渐降低。固定事件的点预测通常没有定量的不确定性度量。为了构建这样的度量，我们考虑了适用于固定事件情况的预测后处理技术。我们开发了基于问题动机的回归方法，并使用这些方法构建了德国和美国国内生产总值（GDP）增长的预测区间。
+    我们考虑了一个具有连续内生独立变量的非参数回归模型，当只有与误差项独立的离散工具可用时。虽然这个框架在应用研究中非常相关，但其实现很麻烦，因为回归函数成为了非线性积分方程的解。我们提出了一个简单的迭代过程来估计这样的模型，并展示了一些其渐近性质。在一个模拟实验中，我们讨论了在工具变量为二进制时其实现细节。我们总结了一个实证应用，其中我们研究了美国几个县的房价对污染的影响。
 
-    The fixed-event forecasting setup is common in economic policy. It involves a sequence of forecasts of the same (`fixed') predictand, so that the difficulty of the forecasting problem decreases over time. Fixed-event point forecasts are typically published without a quantitative measure of uncertainty. To construct such a measure, we consider forecast postprocessing techniques tailored to the fixed-event case. We develop regression methods that impose constraints motivated by the problem at hand, and use these methods to construct prediction intervals for gross domestic product (GDP) growth in Germany and the US.
+    arXiv:1905.07812v2 Announce Type: replace  Abstract: We consider a nonparametric regression model with continuous endogenous independent variables when only discrete instruments are available that are independent of the error term. While this framework is very relevant for applied research, its implementation is cumbersome, as the regression function becomes the solution to a nonlinear integral equation. We propose a simple iterative procedure to estimate such models and showcase some of its asymptotic properties. In a simulation experiment, we discuss the details of its implementation in the case when the instrumental variable is binary. We conclude with an empirical application in which we examine the effect of pollution on house prices in a short panel of U.S. counties.
+    
+[^8]: 为市民设计数字投票系统：在数字参与式预算中实现公平和合法性
+
+    Designing Digital Voting Systems for Citizens: Achieving Fairness and Legitimacy in Digital Participatory Budgeting. (arXiv:2310.03501v1 [cs.HC])
+
+    [http://arxiv.org/abs/2310.03501](http://arxiv.org/abs/2310.03501)
+
+    本研究调查了数字参与式预算中投票和聚合方法的权衡，并通过行为实验确定了有利的投票设计组合。研究发现，设计选择对集体决策、市民感知和结果公平性有深远影响，为开发更公平和更透明的数字PB系统和市民的多胜者集体决策过程提供了可行的见解。
+
+    
+
+    数字参与式预算（PB）已成为城市资源分配的重要民主工具。在数字平台的支持下，新的投票输入格式和聚合方法已被利用。然而，实现公平和合法性仍然面临挑战。本研究调查了数字PB中各种投票和聚合方法之间的权衡。通过行为实验，我们确定了在认知负荷、比例和感知合法性方面的有利投票设计组合。研究揭示了设计选择如何深刻影响集体决策、市民感知和结果公平性。我们的发现为人机交互、机制设计和计算社会选择提供了可行的见解，为开发更公平和更透明的数字PB系统和市民的多胜者集体决策过程做出贡献。
+
+    Digital Participatory Budgeting (PB) has become a key democratic tool for resource allocation in cities. Enabled by digital platforms, new voting input formats and aggregation have been utilised. Yet, challenges in achieving fairness and legitimacy persist. This study investigates the trade-offs in various voting and aggregation methods within digital PB. Through behavioural experiments, we identified favourable voting design combinations in terms of cognitive load, proportionality, and perceived legitimacy. The research reveals how design choices profoundly influence collective decision-making, citizen perceptions, and outcome fairness. Our findings offer actionable insights for human-computer interaction, mechanism design, and computational social choice, contributing to the development of fairer and more transparent digital PB systems and multi-winner collective decision-making process for citizens.
+    
+[^9]: 独裁者方程：专制政权中信息流的扭曲及其后果
+
+    The Dictator Equation: The Distortion of Information Flow in Autocratic Regimes and Its Consequences. (arXiv:2310.01666v1 [nlin.AO])
+
+    [http://arxiv.org/abs/2310.01666](http://arxiv.org/abs/2310.01666)
+
+    专制政权中的信息流扭曲及其后果的模型表明，在短期可以带来改善，但随后会导致国家逐渐恶化。顾问的欺骗程度与困难程度成正比。
+
+    
+
+    人们对专制与民主政权的利弊争论已有数千年之久。例如，《理想国》中的柏拉图更青睐于精英专制政权，认为这是启蒙的政权形式，而非民主体制。现代独裁者通常在上台时承诺快速解决社会问题和长期稳定。我提出了一个以国家最佳利益为出发点的独裁模型。该模型基于以下前提：a) 独裁者只依赖顾问的信息来决定国家发展的方向；b) 顾问的欺骗不会随时间减少；c) 顾问的欺骗程度会随国家所遇到的困难而增加。该模型展示了短期改善（几个月到一年），随后出现不稳定情况，导致国家逐渐恶化多年。我推导出了一些适用于所有独裁者的普遍参数，并证明了顾问的欺骗程度与困难程度成正比。
+
+    Humans have been arguing about the benefits of dictatorial versus democratic regimes for millennia. For example, Plato, in The Republic, favored Aristocracy,, the enlightened autocratic regime, to democracy. Modern dictators typically come to power promising quick solutions to societal problems and long-term stability}. I present a model of a dictatorship with the country's best interests in mind. The model is based on the following premises: a) the dictator forces the country to follow the desired trajectory of development only from the information from the advisors; b) the deception from the advisors cannot decrease in time; and c) the deception increases based on the difficulties the country encounters. The model shows an improvement in the short term (a few months to a year), followed by instability leading to the country's gradual deterioration over many years. I derive some universal parameters applicable to all dictators and show that advisors' deception increases in parallel wi
+    
+[^10]: 关于即时投票中多数规则理念的研究
+
+    A Majority Rule Philosophy for Instant Runoff Voting. (arXiv:2308.08430v1 [econ.TH])
+
+    [http://arxiv.org/abs/2308.08430](http://arxiv.org/abs/2308.08430)
+
+    在即时投票中，引入了有序多数规则的概念，它建立了一种社会顺序，确保了从多数党或联盟中选出候选人，并防止对立的反对党或联盟对选举结果的影响。有序多数规则与康多塞合规性、无关因素的独立性和单调性等特性不兼容，并且主张有序多数规则可能优于成对多数规则。
+
+    
+
+    我们介绍了有序多数规则的概念，它是即时投票的一个特性，并将其与康多塞方法的成对多数规则进行了比较。有序多数规则在候选人中建立一种社会顺序，使得相对顺序由不倾向于其他主要候选人的选民决定。它确保了从多数党或联盟中选出一位候选人，并防止对立的反对党或联盟对可能成为候选人的选择产生影响。我们展示了即时投票是唯一满足有序多数规则的投票方法，对主要候选人和次要候选人进行了自洽确定，并且有序多数规则与康多塞合规性、无关因素的独立性和单调性等特性不兼容。最后，我们提出了一些关于为什么有序多数规则可能优于成对多数规则的论点，利用到2022年阿拉斯加的案例。
+
+    We present the concept of ordered majority rule, a property of Instant Runoff Voting, and compare it to the familiar concept of pairwise majority rule of Condorcet methods. Ordered majority rule establishes a social order among the candidates such that that relative order between any two candidates is determined by voters who do not prefer another major candidate. It ensures the election of a candidate from the majority party or coalition while preventing an antagonistic opposition party or coalition from influencing which candidate that may be. We show how IRV is the only voting method to satisfy ordered majority rule, for a self-consistently determined distinction between major and minor candidates, and that ordered majority rule is incompatible with the properties of Condorcet compliance, independence of irrelevant alternatives, and monotonicity. Finally, we present some arguments as to why ordered majority rule may be preferable to pairwise majority rule, using the 2022 Alaska spec
+    
+[^11]: 森林火灾模型：设计市场以恢复资产
+
+    Wildfire Modeling: Designing a Market to Restore Assets. (arXiv:2205.13773v3 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2205.13773](http://arxiv.org/abs/2205.13773)
+
+    该论文研究了如何设计一个市场来恢复由森林火灾造成的资产损失。研究通过分析电力公司引发火灾的原因，并将火灾风险纳入经济模型中，提出了收取森林火灾基金和公平收费的方案，以最大化社会影响和总盈余。
+
+    
+
+    在过去的十年里，夏季森林火灾已经成为加利福尼亚和美国的常态。这些火灾的原因多种多样。州政府会收取森林火灾基金来帮助受灾人员。然而，基金只在特定条件下发放，并且在整个加利福尼亚州均匀收取。因此，该项目的整体思路是寻找关于电力公司如何引发火灾以及如何帮助收取森林火灾基金或者公平收费以最大限度地实现社会影响的数量结果。该研究项目旨在提出与植被、输电线路相关的森林火灾风险，并将其与金钱挂钩。因此，该项目有助于解决与每个地点相关的森林火灾基金收取问题，并结合能源价格根据地点的森林火灾风险向客户收费，以实现社会的总盈余最大化。
+
+    In the past decade, summer wildfires have become the norm in California, and the United States of America. These wildfires are caused due to variety of reasons. The state collects wildfire funds to help the impacted customers. However, the funds are eligible only under certain conditions and are collected uniformly throughout California. Therefore, the overall idea of this project is to look for quantitative results on how electrical corporations cause wildfires and how they can help to collect the wildfire funds or charge fairly to the customers to maximize the social impact. The research project aims to propose the implication of wildfire risk associated with vegetation, and due to power lines and incorporate that in dollars. Therefore, the project helps to solve the problem of collecting wildfire funds associated with each location and incorporate energy prices to charge their customers according to their wildfire risk related to the location to maximize the social surplus for the s
+    
+[^12]: 偏好或相遇中的同质性？识别并估计一种迭代网络形成模型。
+
+    Homophily in preferences or meetings? Identifying and estimating an iterative network formation model. (arXiv:2201.06694v3 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2201.06694](http://arxiv.org/abs/2201.06694)
+
+    本文讨论同质性在社交和经济网络中产生的机制，提出了一种区分偏好和机会的迭代网络游戏的方法，并且进行了应用研究，发现偏好的同质性比机会的同质性更强，追踪学生可能会提高福利，但是效益随着时间推移而减弱。
+
+    
+
+    社交和经济网络中的同质性是由于对同质性（偏好）的偏好还是更可能遇到具有类似属性的个体（机会）驱动的？本文研究了一种迭代网络游戏的识别和估计方法，可区分这两种机制。我们的方法使我们能够评估改变代理人之间会议协议的反事实效应。作为一种应用，我们研究偏好和会议在塑造巴西的课堂友谊网络中的作用。在一种网络结构中，由于偏好而产生的同质性比由于会议机会而产生的同质性更强，追踪学生可能会提高福利。然而，这项政策的相对效益随着学年的推移而减弱。
+
+    Is homophily in social and economic networks driven by a taste for homogeneity (preferences) or by a higher probability of meeting individuals with similar attributes (opportunity)? This paper studies identification and estimation of an iterative network game that distinguishes between these two mechanisms. Our approach enables us to assess the counterfactual effects of changing the meeting protocol between agents. As an application, we study the role of preferences and meetings in shaping classroom friendship networks in Brazil. In a network structure in which homophily due to preferences is stronger than homophily due to meeting opportunities, tracking students may improve welfare. Still, the relative benefit of this policy diminishes over the school year.
     
 

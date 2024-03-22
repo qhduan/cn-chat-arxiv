@@ -1,0 +1,12 @@
+{
+    "title": "Task-optimal data-driven surrogate models for eNMPC via differentiable simulation and optimization",
+    "abstract": "arXiv:2403.14425v1 Announce Type: new  Abstract: We present a method for end-to-end learning of Koopman surrogate models for optimal performance in control. In contrast to previous contributions that employ standard reinforcement learning (RL) algorithms, we use a training algorithm that exploits the potential differentiability of environments based on mechanistic simulation models. We evaluate the performance of our method by comparing it to that of other controller type and training algorithm combinations on a literature known eNMPC case study. Our method exhibits superior performance on this problem, thereby constituting a promising avenue towards more capable controllers that employ dynamic surrogate models.",
+    "link": "https://arxiv.org/abs/2403.14425",
+    "context": "Title: Task-optimal data-driven surrogate models for eNMPC via differentiable simulation and optimization\nAbstract: arXiv:2403.14425v1 Announce Type: new  Abstract: We present a method for end-to-end learning of Koopman surrogate models for optimal performance in control. In contrast to previous contributions that employ standard reinforcement learning (RL) algorithms, we use a training algorithm that exploits the potential differentiability of environments based on mechanistic simulation models. We evaluate the performance of our method by comparing it to that of other controller type and training algorithm combinations on a literature known eNMPC case study. Our method exhibits superior performance on this problem, thereby constituting a promising avenue towards more capable controllers that employ dynamic surrogate models.",
+    "path": "papers/24/03/2403.14425.json",
+    "total_tokens": 728,
+    "translated_title": "基于可微分模拟和优化的任务最优数据驱动替代模型用于eNMPC",
+    "translated_abstract": "我们提出了一种用于控制中优化性能的Koopman替代模型端到端学习方法。与之前采用标准强化学习（RL）算法的贡献相反，我们使用一种训练算法，利用基于机械模拟模型的环境的潜在可微性。通过将我们的方法与文献已知的eNMPC案例研究中其他控制器类型和训练算法组合的性能进行比较，我们评估了我们方法的性能。我们的方法在这个问题上表现出优越的性能，因此在使用动态替代模型的更有能力的控制器方面构成了一个有前途的途径。",
+    "tldr": "提出了一种基于可微分模拟和优化的任务最优数据驱动替代模型方法，在eNMPC中表现出优越性能，为实现更具能力的控制器提供了有前途的途径。",
+    "en_tdlr": "Proposed a method for task-optimal data-driven surrogate models via differentiable simulation and optimization, showing superior performance in eNMPC and providing a promising avenue for more capable controllers."
+}

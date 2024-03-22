@@ -1,0 +1,12 @@
+{
+    "title": "Reducing Large Language Model Bias with Emphasis on 'Restricted Industries': Automated Dataset Augmentation and Prejudice Quantification",
+    "abstract": "arXiv:2403.13925v1 Announce Type: cross  Abstract: Despite the growing capabilities of large language models, there exists concerns about the biases they develop. In this paper, we propose a novel, automated mechanism for debiasing through specified dataset augmentation in the lens of bias producers and in the context of 'restricted industries' with limited data. We additionally create two new additional metrics, the mb-index and db-index, to quantify bias, considering the idea that bias occurs due to both intrinsic model architecture and dataset.",
+    "link": "https://arxiv.org/abs/2403.13925",
+    "context": "Title: Reducing Large Language Model Bias with Emphasis on 'Restricted Industries': Automated Dataset Augmentation and Prejudice Quantification\nAbstract: arXiv:2403.13925v1 Announce Type: cross  Abstract: Despite the growing capabilities of large language models, there exists concerns about the biases they develop. In this paper, we propose a novel, automated mechanism for debiasing through specified dataset augmentation in the lens of bias producers and in the context of 'restricted industries' with limited data. We additionally create two new additional metrics, the mb-index and db-index, to quantify bias, considering the idea that bias occurs due to both intrinsic model architecture and dataset.",
+    "path": "papers/24/03/2403.13925.json",
+    "total_tokens": 643,
+    "translated_title": "减少大型语言模型偏见：重点关注“受限行业”的自动数据集增强和偏见量化",
+    "translated_abstract": "尽管大型语言模型的能力不断增强，但仍然存在对其产生偏见的担忧。本文提出了一种针对“受限行业”在有限数据情况下通过指定数据集增强来去偏见的新颖自动机制。我们还创建了两个新的衡量指标mb-index和db-index来量化偏见，考虑到偏见是由内在模型架构和数据集共同导致的这一观点。",
+    "tldr": "本文提出了一种针对“受限行业”进行自动数据集增强以减少大型语言模型偏见的新机制，并创建了mb-index和db-index两个新的偏见量化指标。",
+    "en_tdlr": "This paper proposes a novel automated mechanism for reducing bias in large language models by specifying dataset augmentation for 'restricted industries' and introduces two new bias quantification metrics, mb-index and db-index."
+}

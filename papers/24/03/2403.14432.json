@@ -1,0 +1,12 @@
+{
+    "title": "On the continuity and smoothness of the value function in reinforcement learning and optimal control",
+    "abstract": "arXiv:2403.14432v1 Announce Type: cross  Abstract: The value function plays a crucial role as a measure for the cumulative future reward an agent receives in both reinforcement learning and optimal control. It is therefore of interest to study how similar the values of neighboring states are, i.e., to investigate the continuity of the value function. We do so by providing and verifying upper bounds on the value function's modulus of continuity. Additionally, we show that the value function is always H\\\"older continuous under relatively weak assumptions on the underlying system and that non-differentiable value functions can be made differentiable by slightly \"disturbing\" the system.",
+    "link": "https://arxiv.org/abs/2403.14432",
+    "context": "Title: On the continuity and smoothness of the value function in reinforcement learning and optimal control\nAbstract: arXiv:2403.14432v1 Announce Type: cross  Abstract: The value function plays a crucial role as a measure for the cumulative future reward an agent receives in both reinforcement learning and optimal control. It is therefore of interest to study how similar the values of neighboring states are, i.e., to investigate the continuity of the value function. We do so by providing and verifying upper bounds on the value function's modulus of continuity. Additionally, we show that the value function is always H\\\"older continuous under relatively weak assumptions on the underlying system and that non-differentiable value functions can be made differentiable by slightly \"disturbing\" the system.",
+    "path": "papers/24/03/2403.14432.json",
+    "total_tokens": 735,
+    "translated_title": "强化学习和最优控制中价值函数的连续性和光滑性",
+    "translated_abstract": "价值函数在强化学习和最优控制中扮演着重要角色，作为衡量智能体未来累积奖励的手段。因此，研究邻近状态值的相似性，即价值函数的连续性，具有重要意义。我们通过确定和验证价值函数的标准连续性上界，来探讨这一问题。此外，我们展示了在对底层系统进行相对较弱的假设下，价值函数始终是H\\\"older连续的，非可微的价值函数可以通过轻微地“扰动”系统而变得可微。",
+    "tldr": "研究了强化学习和最优控制中价值函数的连续性和光滑性，提供了关于价值函数连续性的上界，并表明在对底层系统进行相对较弱的假设下，价值函数始终具有H\\\"older连续性。",
+    "en_tdlr": "This paper investigates the continuity and smoothness of the value function in reinforcement learning and optimal control, provides upper bounds on the continuity of the value function, and demonstrates that under relatively weak assumptions on the underlying system, the value function is always H\\\"older continuous."
+}

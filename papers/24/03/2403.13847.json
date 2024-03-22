@@ -1,0 +1,12 @@
+{
+    "title": "Optimal Transport for Domain Adaptation through Gaussian Mixture Models",
+    "abstract": "arXiv:2403.13847v1 Announce Type: cross  Abstract: In this paper we explore domain adaptation through optimal transport. We propose a novel approach, where we model the data distributions through Gaussian mixture models. This strategy allows us to solve continuous optimal transport through an equivalent discrete problem. The optimal transport solution gives us a matching between source and target domain mixture components. From this matching, we can map data points between domains, or transfer the labels from the source domain components towards the target domain. We experiment with 2 domain adaptation benchmarks in fault diagnosis, showing that our methods have state-of-the-art performance.",
+    "link": "https://arxiv.org/abs/2403.13847",
+    "context": "Title: Optimal Transport for Domain Adaptation through Gaussian Mixture Models\nAbstract: arXiv:2403.13847v1 Announce Type: cross  Abstract: In this paper we explore domain adaptation through optimal transport. We propose a novel approach, where we model the data distributions through Gaussian mixture models. This strategy allows us to solve continuous optimal transport through an equivalent discrete problem. The optimal transport solution gives us a matching between source and target domain mixture components. From this matching, we can map data points between domains, or transfer the labels from the source domain components towards the target domain. We experiment with 2 domain adaptation benchmarks in fault diagnosis, showing that our methods have state-of-the-art performance.",
+    "path": "papers/24/03/2403.13847.json",
+    "total_tokens": 693,
+    "translated_title": "通过高斯混合模型进行域自适应的最优输运",
+    "translated_abstract": "在这篇论文中，我们探讨了通过最优输运进行域自适应的方法。我们提出了一种新颖的方法，即通过高斯混合模型对数据分布进行建模。这种策略使我们能够通过等价的离散问题解决连续最优输运。最优输运解决方案为我们提供了源域和目标域混合成分之间的匹配。通过这种匹配，我们可以在域之间映射数据点，或者将标签从源域组件转移到目标域。我们在失效诊断的两个域自适应基准测试中进行了实验，结果表明我们的方法具有最先进的性能。",
+    "tldr": "通过高斯混合模型进行域自适应的最优输运，可以实现源域和目标域混合成分之间的匹配，从而在失效诊断中取得最先进的性能。",
+    "en_tdlr": "Optimal transport through Gaussian mixture models for domain adaptation enables matching between source and target domain mixture components, leading to state-of-the-art performance in fault diagnosis."
+}

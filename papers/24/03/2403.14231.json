@@ -1,0 +1,11 @@
+{
+    "title": "Spanning Multi-Asset Payoffs With ReLUs",
+    "abstract": "arXiv:2403.14231v1 Announce Type: new  Abstract: We propose a distributional formulation of the spanning problem of a multi-asset payoff by vanilla basket options. This problem is shown to have a unique solution if and only if the payoff function is even and absolutely homogeneous, and we establish a Fourier-based formula to calculate the solution. Financial payoffs are typically piecewise linear, resulting in a solution that may be derived explicitly, yet may also be hard to numerically exploit. One-hidden-layer feedforward neural networks instead provide a natural and efficient numerical alternative for discrete spanning. We test this approach for a selection of archetypal payoffs and obtain better hedging results with vanilla basket options compared to industry-favored approaches based on single-asset vanilla hedges.",
+    "link": "https://arxiv.org/abs/2403.14231",
+    "context": "Title: Spanning Multi-Asset Payoffs With ReLUs\nAbstract: arXiv:2403.14231v1 Announce Type: new  Abstract: We propose a distributional formulation of the spanning problem of a multi-asset payoff by vanilla basket options. This problem is shown to have a unique solution if and only if the payoff function is even and absolutely homogeneous, and we establish a Fourier-based formula to calculate the solution. Financial payoffs are typically piecewise linear, resulting in a solution that may be derived explicitly, yet may also be hard to numerically exploit. One-hidden-layer feedforward neural networks instead provide a natural and efficient numerical alternative for discrete spanning. We test this approach for a selection of archetypal payoffs and obtain better hedging results with vanilla basket options compared to industry-favored approaches based on single-asset vanilla hedges.",
+    "path": "papers/24/03/2403.14231.json",
+    "total_tokens": 768,
+    "translated_title": "用ReLU跨度多资产回报",
+    "translated_abstract": "我们提出了利用香草篮子期权的分布式形式来解决多资产回报的跨度问题。我们发现，只有当回报函数为偶函数且绝对齐次函数时，此问题才有唯一解，并且我们建立了一个基于傅立叶的公式来计算解决方案。金融回报通常是分段线性的，导致可能可以明确推导出解决方案，但在数值上可能难以利用。相比于基于单资产香草避险的行业偏爱方法，单隐藏层前馈神经网络为离散跨度提供了一种自然而高效的数值替代方法。我们测试了这种方法用于一些典型回报，并发现与单资产香草避险的产业偏好方法相比，利用香草篮子期权获得了更好的避险结果。",
+    "tldr": "提出了一种用ReLU解决跨度多资产回报问题的方法，通过前馈神经网络提供了更好的离散跨度避险结果。"
+}

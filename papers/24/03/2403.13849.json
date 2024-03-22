@@ -1,0 +1,12 @@
+{
+    "title": "Graphs Unveiled: Graph Neural Networks and Graph Generation",
+    "abstract": "arXiv:2403.13849v1 Announce Type: cross  Abstract: One of the hot topics in machine learning is the field of GNN. The complexity of graph data has imposed significant challenges on existing machine learning algorithms. Recently, many studies on extending deep learning approaches for graph data have emerged. This paper represents a survey, providing a comprehensive overview of Graph Neural Networks (GNNs). We discuss the applications of graph neural networks across various domains. Finally, we present an advanced field in GNNs: graph generation.",
+    "link": "https://arxiv.org/abs/2403.13849",
+    "context": "Title: Graphs Unveiled: Graph Neural Networks and Graph Generation\nAbstract: arXiv:2403.13849v1 Announce Type: cross  Abstract: One of the hot topics in machine learning is the field of GNN. The complexity of graph data has imposed significant challenges on existing machine learning algorithms. Recently, many studies on extending deep learning approaches for graph data have emerged. This paper represents a survey, providing a comprehensive overview of Graph Neural Networks (GNNs). We discuss the applications of graph neural networks across various domains. Finally, we present an advanced field in GNNs: graph generation.",
+    "path": "papers/24/03/2403.13849.json",
+    "total_tokens": 617,
+    "translated_title": "揭秘图：图神经网络与图生成",
+    "translated_abstract": "机器学习领域的热点话题之一是GNN领域。图数据的复杂性给现有的机器学习算法带来了重大挑战。最近，涌现了许多关于扩展深度学习方法应用于图数据的研究。本文提供了一项调研，全面概述了图神经网络（GNNs）。我们讨论了图神经网络在各个领域的应用。最后，我们介绍了GNNs中的一项先进领域：图生成。",
+    "tldr": "该论文综述了图神经网络（GNNs）在各个领域的应用，并介绍了GNNs中的先进领域：图生成。",
+    "en_tdlr": "This paper provides a comprehensive overview of the applications of Graph Neural Networks (GNNs) in various domains and introduces an advanced field in GNNs: graph generation."
+}

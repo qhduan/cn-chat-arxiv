@@ -1,0 +1,12 @@
+{
+    "title": "Iterative Estimation of Nonparametric Regressions with Continuous Endogenous Variables and Discrete Instruments",
+    "abstract": "arXiv:1905.07812v2 Announce Type: replace  Abstract: We consider a nonparametric regression model with continuous endogenous independent variables when only discrete instruments are available that are independent of the error term. While this framework is very relevant for applied research, its implementation is cumbersome, as the regression function becomes the solution to a nonlinear integral equation. We propose a simple iterative procedure to estimate such models and showcase some of its asymptotic properties. In a simulation experiment, we discuss the details of its implementation in the case when the instrumental variable is binary. We conclude with an empirical application in which we examine the effect of pollution on house prices in a short panel of U.S. counties.",
+    "link": "https://arxiv.org/abs/1905.07812",
+    "context": "Title: Iterative Estimation of Nonparametric Regressions with Continuous Endogenous Variables and Discrete Instruments\nAbstract: arXiv:1905.07812v2 Announce Type: replace  Abstract: We consider a nonparametric regression model with continuous endogenous independent variables when only discrete instruments are available that are independent of the error term. While this framework is very relevant for applied research, its implementation is cumbersome, as the regression function becomes the solution to a nonlinear integral equation. We propose a simple iterative procedure to estimate such models and showcase some of its asymptotic properties. In a simulation experiment, we discuss the details of its implementation in the case when the instrumental variable is binary. We conclude with an empirical application in which we examine the effect of pollution on house prices in a short panel of U.S. counties.",
+    "path": "papers/19/05/1905.07812.json",
+    "total_tokens": 719,
+    "translated_title": "连续内生变量和离散工具的非参数回归的迭代估计",
+    "translated_abstract": "我们考虑了一个具有连续内生独立变量的非参数回归模型，当只有与误差项独立的离散工具可用时。虽然这个框架在应用研究中非常相关，但其实现很麻烦，因为回归函数成为了非线性积分方程的解。我们提出了一个简单的迭代过程来估计这样的模型，并展示了一些其渐近性质。在一个模拟实验中，我们讨论了在工具变量为二进制时其实现细节。我们总结了一个实证应用，其中我们研究了美国几个县的房价对污染的影响。",
+    "tldr": "提出了一种简单的迭代程序来估计具有连续内生变量和离散工具的非参数回归模型，并展示了一些渐近性质。",
+    "en_tdlr": "Proposed a simple iterative procedure to estimate nonparametric regression models with continuous endogenous variables and discrete instruments, showcasing some of its asymptotic properties."
+}

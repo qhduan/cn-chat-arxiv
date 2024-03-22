@@ -1,0 +1,12 @@
+{
+    "title": "Envisioning the Next-Generation AI Coding Assistants: Insights & Proposals",
+    "abstract": "arXiv:2403.14592v1 Announce Type: cross  Abstract: As a research-product hybrid group in AI for Software Engineering (AI4SE), we present four key takeaways from our experience developing in-IDE AI coding assistants. AI coding assistants should set clear expectations for usage, integrate with advanced IDE capabilities and existing extensions, use extendable backend designs, and collect app data responsibly for downstream analyses. We propose open questions and challenges that academia and industry should address to realize the vision of next-generation AI coding assistants.",
+    "link": "https://arxiv.org/abs/2403.14592",
+    "context": "Title: Envisioning the Next-Generation AI Coding Assistants: Insights & Proposals\nAbstract: arXiv:2403.14592v1 Announce Type: cross  Abstract: As a research-product hybrid group in AI for Software Engineering (AI4SE), we present four key takeaways from our experience developing in-IDE AI coding assistants. AI coding assistants should set clear expectations for usage, integrate with advanced IDE capabilities and existing extensions, use extendable backend designs, and collect app data responsibly for downstream analyses. We propose open questions and challenges that academia and industry should address to realize the vision of next-generation AI coding assistants.",
+    "path": "papers/24/03/2403.14592.json",
+    "total_tokens": 612,
+    "translated_title": "面向下一代AI编码助手的设想与提案",
+    "translated_abstract": "作为一个人工智能软件工程（AI4SE）的研究产品混合组，我们从开发中的经验中提出四个关键的见解。AI编码助手应该明确规定使用预期，与先进的IDE功能和现有扩展集成，使用可扩展的后端设计，并负责收集应用程序数据以便进行下游分析。我们提出学术界和工业界应该解决的开放性问题和挑战，以实现下一代AI编码助手的愿景。",
+    "tldr": "AI编码助手应明确使用预期，充分整合IDE功能，使用可扩展的后端设计，负责收集数据，提出开放性问题和挑战",
+    "en_tdlr": "AI coding assistants should set clear usage expectations, integrate with advanced IDE capabilities, use extendable backend designs, responsibly collect data, and propose open questions and challenges."
+}

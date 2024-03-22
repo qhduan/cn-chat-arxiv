@@ -1,0 +1,12 @@
+{
+    "title": "How Human-Centered Explainable AI Interface Are Designed and Evaluated: A Systematic Survey",
+    "abstract": "arXiv:2403.14496v1 Announce Type: cross  Abstract: Despite its technological breakthroughs, eXplainable Artificial Intelligence (XAI) research has limited success in producing the {\\em effective explanations} needed by users. In order to improve XAI systems' usability, practical interpretability, and efficacy for real users, the emerging area of {\\em Explainable Interfaces} (EIs) focuses on the user interface and user experience design aspects of XAI. This paper presents a systematic survey of 53 publications to identify current trends in human-XAI interaction and promising directions for EI design and development. This is among the first systematic survey of EI research.",
+    "link": "https://arxiv.org/abs/2403.14496",
+    "context": "Title: How Human-Centered Explainable AI Interface Are Designed and Evaluated: A Systematic Survey\nAbstract: arXiv:2403.14496v1 Announce Type: cross  Abstract: Despite its technological breakthroughs, eXplainable Artificial Intelligence (XAI) research has limited success in producing the {\\em effective explanations} needed by users. In order to improve XAI systems' usability, practical interpretability, and efficacy for real users, the emerging area of {\\em Explainable Interfaces} (EIs) focuses on the user interface and user experience design aspects of XAI. This paper presents a systematic survey of 53 publications to identify current trends in human-XAI interaction and promising directions for EI design and development. This is among the first systematic survey of EI research.",
+    "path": "papers/24/03/2403.14496.json",
+    "total_tokens": 675,
+    "translated_title": "人类中心的可解释人工智能界面的设计与评估：一项系统调查",
+    "translated_abstract": "尽管在技术上取得了突破，但可解释人工智能（XAI）研究在为用户提供所需的“有效解释”方面取得的成功有限。为了提高XAI系统对真实用户的可用性、实际可解释性和效力，新兴领域“可解释界面”（EIs）专注于XAI的用户界面和用户体验设计方面。本文通过系统调查53篇出版物，旨在识别当前人-XAI互动的趋势以及EI设计和发展的有望方向。这是对EI研究的首次系统调查。",
+    "tldr": "本研究是对人类与可解释人工智能交互的现状和可解释界面设计方向的系统调查。",
+    "en_tdlr": "This study provides a systematic survey of the current trends in human-eXplainable Artificial Intelligence (XAI) interaction and promising directions for eXplainable Interface (EI) design."
+}

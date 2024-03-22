@@ -1,0 +1,12 @@
+{
+    "title": "Smooth Sensitivity for Learning Differentially-Private yet Accurate Rule Lists",
+    "abstract": "arXiv:2403.13848v1 Announce Type: cross  Abstract: Differentially-private (DP) mechanisms can be embedded into the design of a machine learningalgorithm to protect the resulting model against privacy leakage, although this often comes with asignificant loss of accuracy. In this paper, we aim at improving this trade-off for rule lists modelsby establishing the smooth sensitivity of the Gini impurity and leveraging it to propose a DP greedyrule list algorithm. In particular, our theoretical analysis and experimental results demonstrate thatthe DP rule lists models integrating smooth sensitivity have higher accuracy that those using otherDP frameworks based on global sensitivity.",
+    "link": "https://arxiv.org/abs/2403.13848",
+    "context": "Title: Smooth Sensitivity for Learning Differentially-Private yet Accurate Rule Lists\nAbstract: arXiv:2403.13848v1 Announce Type: cross  Abstract: Differentially-private (DP) mechanisms can be embedded into the design of a machine learningalgorithm to protect the resulting model against privacy leakage, although this often comes with asignificant loss of accuracy. In this paper, we aim at improving this trade-off for rule lists modelsby establishing the smooth sensitivity of the Gini impurity and leveraging it to propose a DP greedyrule list algorithm. In particular, our theoretical analysis and experimental results demonstrate thatthe DP rule lists models integrating smooth sensitivity have higher accuracy that those using otherDP frameworks based on global sensitivity.",
+    "path": "papers/24/03/2403.13848.json",
+    "total_tokens": 682,
+    "translated_title": "用于学习差异保护但准确规则列表的平滑敏感度",
+    "translated_abstract": "差异保护（DP）机制可以嵌入到机器学习算法的设计中，以保护所得模型免受隐私泄露的影响，尽管这通常伴随着明显的准确性损失。本文旨在通过建立Gini不纯度的平滑敏感度并利用这一特性来提出一个DP贪婪规则列表算法，以改善这种权衡。我们的理论分析和实验结果表明，集成平滑敏感度的DP规则列表模型具有比使用全局敏感度的其他DP框架更高的准确性。",
+    "tldr": "通过建立Gini不纯度的平滑敏感度并将其应用于提出DP贪婪规则列表算法，本文改善了差异保护模型的准确性问题。",
+    "en_tdlr": "By establishing the smooth sensitivity of the Gini impurity and leveraging it to propose a DP greedy rule list algorithm, this paper improves the accuracy of differentially-private models."
+}

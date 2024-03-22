@@ -1,0 +1,12 @@
+{
+    "title": "Building a Language-Learning Game for Brazilian Indigenous Languages: A Case of Study",
+    "abstract": "arXiv:2403.14515v1 Announce Type: new  Abstract: In this paper we discuss a first attempt to build a language learning game for brazilian indigenous languages and the challenges around it. We present a design for the tool with gamification aspects. Then we describe a process to automatically generate language exercises and questions from a dependency treebank and a lexical database for Tupian languages. We discuss the limitations of our prototype highlighting ethical and practical implementation concerns. Finally, we conclude that new data gathering processes should be established in partnership with indigenous communities and oriented for educational purposes.",
+    "link": "https://arxiv.org/abs/2403.14515",
+    "context": "Title: Building a Language-Learning Game for Brazilian Indigenous Languages: A Case of Study\nAbstract: arXiv:2403.14515v1 Announce Type: new  Abstract: In this paper we discuss a first attempt to build a language learning game for brazilian indigenous languages and the challenges around it. We present a design for the tool with gamification aspects. Then we describe a process to automatically generate language exercises and questions from a dependency treebank and a lexical database for Tupian languages. We discuss the limitations of our prototype highlighting ethical and practical implementation concerns. Finally, we conclude that new data gathering processes should be established in partnership with indigenous communities and oriented for educational purposes.",
+    "path": "papers/24/03/2403.14515.json",
+    "total_tokens": 763,
+    "translated_title": "为巴西土著语言构建语言学习游戏：一个案例研究",
+    "translated_abstract": "在这篇论文中，我们讨论了为巴西土著语言构建语言学习游戏的初步尝试以及围绕此问题的挑战。我们呈现了一种带有游戏化特点的工具设计。然后我们描述了一个过程，从依存树库和一个图比安语言的词汇数据库自动生成语言练习和问题。我们讨论了我们原型的局限性，突出了伦理和实际实施方面的问题。最后，我们得出结论，新的数据收集过程应与土著社区建立合作关系，并以教育为目的。",
+    "tldr": "本研究尝试构建一款用于巴西土著语言学习的语言学习游戏，并探讨了相关挑战，设计了具有游戏化特点的工具，实现了从依存树库和图比安语言的词汇数据库自动生成语言练习和问题，并强调了与土著社区建立合作关系和以教育为目的的数据收集过程。",
+    "en_tdlr": "This study attempts to build a language-learning game for Brazilian indigenous languages, discussing challenges, presenting a tool design with gamification aspects, generating language exercises and questions automatically, and emphasizing the need for establishing partnerships with indigenous communities for educational purposes in data gathering processes."
+}

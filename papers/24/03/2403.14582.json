@@ -1,0 +1,12 @@
+{
+    "title": "Large Language Models for Multi-Choice Question Classification of Medical Subjects",
+    "abstract": "arXiv:2403.14582v1 Announce Type: cross  Abstract: The aim of this paper is to evaluate whether large language models trained on multi-choice question data can be used to discriminate between medical subjects. This is an important and challenging task for automatic question answering. To achieve this goal, we train deep neural networks for multi-class classification of questions into the inferred medical subjects. Using our Multi-Question (MQ) Sequence-BERT method, we outperform the state-of-the-art results on the MedMCQA dataset with an accuracy of 0.68 and 0.60 on their development and test sets, respectively. In this sense, we show the capability of AI and LLMs in particular for multi-classification tasks in the Healthcare domain.",
+    "link": "https://arxiv.org/abs/2403.14582",
+    "context": "Title: Large Language Models for Multi-Choice Question Classification of Medical Subjects\nAbstract: arXiv:2403.14582v1 Announce Type: cross  Abstract: The aim of this paper is to evaluate whether large language models trained on multi-choice question data can be used to discriminate between medical subjects. This is an important and challenging task for automatic question answering. To achieve this goal, we train deep neural networks for multi-class classification of questions into the inferred medical subjects. Using our Multi-Question (MQ) Sequence-BERT method, we outperform the state-of-the-art results on the MedMCQA dataset with an accuracy of 0.68 and 0.60 on their development and test sets, respectively. In this sense, we show the capability of AI and LLMs in particular for multi-classification tasks in the Healthcare domain.",
+    "path": "papers/24/03/2403.14582.json",
+    "total_tokens": 714,
+    "translated_title": "用于医学科目多选题分类的大型语言模型",
+    "translated_abstract": "本文旨在评估是否可以利用在多选题数据上训练的大型语言模型来区分医学科目。这对于自动问答是一项重要且具有挑战性的任务。为了实现这一目标，我们训练了深度神经网络，用于将问题多类别分类为推断的医学科目。使用我们的多问题(MQ)序列BERT方法，在MedMCQA数据集上表现优于最先进结果，分别在其开发和测试集上具有0.68和0.60的准确率。从这个意义上说，我们展示了人工智能和特别是LLMs在医疗保健领域中用于多分类任务的能力。",
+    "tldr": "本文评估了大型语言模型在多选题数据上的训练效果，并利用MQ序列BERT方法，在医学科目分类任务中取得了优于最先进结果的准确率。",
+    "en_tdlr": "This paper evaluates the effectiveness of large language models trained on multi-choice question data and achieves superior accuracy in medical subject classification tasks using the MQ Sequence-BERT method."
+}

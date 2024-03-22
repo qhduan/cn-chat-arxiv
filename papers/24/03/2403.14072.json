@@ -1,0 +1,12 @@
+{
+    "title": "A Taxonomy of Ambiguity Types for NLP",
+    "abstract": "arXiv:2403.14072v1 Announce Type: new  Abstract: Ambiguity is an critical component of language that allows for more effective communication between speakers, but is often ignored in NLP. Recent work suggests that NLP systems may struggle to grasp certain elements of human language understanding because they may not handle ambiguities at the level that humans naturally do in communication. Additionally, different types of ambiguity may serve different purposes and require different approaches for resolution, and we aim to investigate how language models' abilities vary across types. We propose a taxonomy of ambiguity types as seen in English to facilitate NLP analysis. Our taxonomy can help make meaningful splits in language ambiguity data, allowing for more fine-grained assessments of both datasets and model performance.",
+    "link": "https://arxiv.org/abs/2403.14072",
+    "context": "Title: A Taxonomy of Ambiguity Types for NLP\nAbstract: arXiv:2403.14072v1 Announce Type: new  Abstract: Ambiguity is an critical component of language that allows for more effective communication between speakers, but is often ignored in NLP. Recent work suggests that NLP systems may struggle to grasp certain elements of human language understanding because they may not handle ambiguities at the level that humans naturally do in communication. Additionally, different types of ambiguity may serve different purposes and require different approaches for resolution, and we aim to investigate how language models' abilities vary across types. We propose a taxonomy of ambiguity types as seen in English to facilitate NLP analysis. Our taxonomy can help make meaningful splits in language ambiguity data, allowing for more fine-grained assessments of both datasets and model performance.",
+    "path": "papers/24/03/2403.14072.json",
+    "total_tokens": 736,
+    "translated_title": "用于自然语言处理的歧义类型分类",
+    "translated_abstract": "歧义是语言中的一个关键组成部分，它能够实现说话者之间更有效的交流，但在自然语言处理中经常被忽略。最近的研究表明，自然语言处理系统可能难以理解人类语言理解的某些要素，因为它们可能无法像人类在交流中自然地处理那样处理歧义。此外，不同类型的歧义可能有不同的作用，并需要不同的解决方法，我们旨在探究语言模型在不同歧义类型上的能力如何变化。我们提出了英语中常见的歧义类型分类，以促进自然语言处理分析。我们的分类可以帮助在语言歧义数据中进行有意义的划分，从而更细致地评估数据集和模型性能。",
+    "tldr": "该论文提出了一个英语中常见的歧义类型分类，旨在促进自然语言处理分析，有助于更细致地评估数据集和模型性能。",
+    "en_tdlr": "This paper introduces a taxonomy of common ambiguity types in English to facilitate NLP analysis, assisting in a more detailed evaluation of datasets and model performance."
+}
