@@ -1,0 +1,12 @@
+{
+    "title": "Fast TTC Computation",
+    "abstract": "arXiv:2403.15111v1 Announce Type: new  Abstract: This paper proposes a fast Markov Matrix-based methodology for computing Top Trading Cycles (TTC) that delivers O(1) computational speed, that is speed independent of the number of agents and objects in the system. The proposed methodology is well suited for complex large-dimensional problems like housing choice. The methodology retains all the properties of TTC, namely, Pareto-efficiency, individual rationality and strategy-proofness.",
+    "link": "https://arxiv.org/abs/2403.15111",
+    "context": "Title: Fast TTC Computation\nAbstract: arXiv:2403.15111v1 Announce Type: new  Abstract: This paper proposes a fast Markov Matrix-based methodology for computing Top Trading Cycles (TTC) that delivers O(1) computational speed, that is speed independent of the number of agents and objects in the system. The proposed methodology is well suited for complex large-dimensional problems like housing choice. The methodology retains all the properties of TTC, namely, Pareto-efficiency, individual rationality and strategy-proofness.",
+    "path": "papers/24/03/2403.15111.json",
+    "total_tokens": 564,
+    "translated_title": "快速TTC计算",
+    "translated_abstract": "本文提出了一种基于马尔可夫矩阵的快速计算拍卖机制（TTC）的方法，可以实现O(1)的计算速度，即速度与系统中的代理人和物品数量无关。所提出的方法非常适用于如住房选择等复杂的大维问题。该方法保留了TTC的所有特性，即帕累托效率、个体理性和策略无关性。",
+    "tldr": "提出了一种基于马尔可夫矩阵的快速TTC计算方法，实现O(1)计算速度，并保留了TTC的所有特性。",
+    "en_tdlr": "A fast Markov Matrix-based methodology for computing Top Trading Cycles (TTC) is proposed, delivering O(1) computational speed while retaining all the properties of TTC."
+}

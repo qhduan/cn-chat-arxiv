@@ -1,0 +1,12 @@
+{
+    "title": "An AIC-based approach for articulating unpredictable problems in open complex environments",
+    "abstract": "arXiv:2403.14697v1 Announce Type: cross  Abstract: This research paper presents an approach to enhancing the predictive capability of architects in the design and assurance of systems, focusing on systems operating in dynamic and unpredictable environments. By adopting a systems approach, we aim to improve architects' predictive capabilities in designing dependable systems (for example, ML-based systems). An aerospace case study is used to illustrate the approach. Multiple factors (challenges) influencing aircraft detection are identified, demonstrating the effectiveness of our approach in a complex operational setting. Our approach primarily aimed to enhance the architect's predictive capability.",
+    "link": "https://arxiv.org/abs/2403.14697",
+    "context": "Title: An AIC-based approach for articulating unpredictable problems in open complex environments\nAbstract: arXiv:2403.14697v1 Announce Type: cross  Abstract: This research paper presents an approach to enhancing the predictive capability of architects in the design and assurance of systems, focusing on systems operating in dynamic and unpredictable environments. By adopting a systems approach, we aim to improve architects' predictive capabilities in designing dependable systems (for example, ML-based systems). An aerospace case study is used to illustrate the approach. Multiple factors (challenges) influencing aircraft detection are identified, demonstrating the effectiveness of our approach in a complex operational setting. Our approach primarily aimed to enhance the architect's predictive capability.",
+    "path": "papers/24/03/2403.14697.json",
+    "total_tokens": 710,
+    "translated_title": "基于人工智能的方法来解决开放复杂环境中的不可预测问题",
+    "translated_abstract": "这篇研究论文提出了一种方法，旨在增强建筑师在设计和保证系统方面的预测能力，重点关注在动态和不可预测环境中运行的系统。通过采用系统方法，我们旨在改善建筑师在设计可靠系统（例如基于机器学习的系统）时的预测能力。利用航空航天案例研究来说明这种方法。识别了影响飞机检测的多个因素（挑战），展示了我们方法在复杂操作环境中的有效性。我们的方法主要旨在增强建筑师的预测能力。",
+    "tldr": "该研究论文提出了一种基于人工智能的方法，旨在通过采用系统方法来提高建筑师在设计可靠系统方面的预测能力，重点关注动态和不可预测环境下系统的操作。",
+    "en_tdlr": "This research paper presents an AIC-based approach aimed at enhancing architects' predictive capabilities in designing dependable systems by adopting a systems approach, focusing on systems operating in dynamic and unpredictable environments."
+}

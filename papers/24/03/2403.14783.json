@@ -1,0 +1,12 @@
+{
+    "title": "Multi-Agent VQA: Exploring Multi-Agent Foundation Models in Zero-Shot Visual Question Answering",
+    "abstract": "arXiv:2403.14783v1 Announce Type: cross  Abstract: This work explores the zero-shot capabilities of foundation models in Visual Question Answering (VQA) tasks. We propose an adaptive multi-agent system, named Multi-Agent VQA, to overcome the limitations of foundation models in object detection and counting by using specialized agents as tools. Unlike existing approaches, our study focuses on the system's performance without fine-tuning it on specific VQA datasets, making it more practical and robust in the open world. We present preliminary experimental results under zero-shot scenarios and highlight some failure cases, offering new directions for future research.",
+    "link": "https://arxiv.org/abs/2403.14783",
+    "context": "Title: Multi-Agent VQA: Exploring Multi-Agent Foundation Models in Zero-Shot Visual Question Answering\nAbstract: arXiv:2403.14783v1 Announce Type: cross  Abstract: This work explores the zero-shot capabilities of foundation models in Visual Question Answering (VQA) tasks. We propose an adaptive multi-agent system, named Multi-Agent VQA, to overcome the limitations of foundation models in object detection and counting by using specialized agents as tools. Unlike existing approaches, our study focuses on the system's performance without fine-tuning it on specific VQA datasets, making it more practical and robust in the open world. We present preliminary experimental results under zero-shot scenarios and highlight some failure cases, offering new directions for future research.",
+    "path": "papers/24/03/2403.14783.json",
+    "total_tokens": 766,
+    "translated_title": "多智体VQA：探索零样本视觉问答中的多智体基础模型",
+    "translated_abstract": "这项工作探讨了基础模型在视觉问答（VQA）任务中的零样本能力。我们提出了一种自适应多智体系统，命名为多智体VQA，通过使用专门的智体作为工具，以克服基础模型在目标检测和计数中的局限性。与现有方法不同，我们的研究侧重于在不对其进行特定VQA数据集微调的情况下系统的性能，使其在开放世界中更加实用和稳健。我们在零样本场景下提出了初步实验结果，并突出了一些失败案例，为未来研究提供了新的方向。",
+    "tldr": "本研究提出了一种自适应多智体系统，名为多智体VQA，通过使用专门的智体工具，克服了基础模型在目标检测和计数中的局限性，在零样本情况下实现了良好的性能，为未来研究提供了新的方向。",
+    "en_tdlr": "The study introduces an adaptive multi-agent system, named Multi-Agent VQA, which overcomes the limitations of foundation models in object detection and counting by using specialized agents as tools, achieving good performance in zero-shot scenarios and offering new directions for future research."
+}

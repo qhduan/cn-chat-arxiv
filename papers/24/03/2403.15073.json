@@ -1,0 +1,12 @@
+{
+    "title": "On the Inclusion of Charge and Spin States in Cartesian Tensor Neural Network Potentials",
+    "abstract": "arXiv:2403.15073v1 Announce Type: new  Abstract: In this letter, we present an extension to TensorNet, a state-of-the-art equivariant Cartesian tensor neural network potential, allowing it to handle charged molecules and spin states without architectural changes or increased costs. By incorporating these attributes, we address input degeneracy issues, enhancing the model's predictive accuracy across diverse chemical systems. This advancement significantly broadens TensorNet's applicability, maintaining its efficiency and accuracy.",
+    "link": "https://arxiv.org/abs/2403.15073",
+    "context": "Title: On the Inclusion of Charge and Spin States in Cartesian Tensor Neural Network Potentials\nAbstract: arXiv:2403.15073v1 Announce Type: new  Abstract: In this letter, we present an extension to TensorNet, a state-of-the-art equivariant Cartesian tensor neural network potential, allowing it to handle charged molecules and spin states without architectural changes or increased costs. By incorporating these attributes, we address input degeneracy issues, enhancing the model's predictive accuracy across diverse chemical systems. This advancement significantly broadens TensorNet's applicability, maintaining its efficiency and accuracy.",
+    "path": "papers/24/03/2403.15073.json",
+    "total_tokens": 604,
+    "translated_title": "论笛卡尔张量神经网络势中包含电荷和自旋状态的研究",
+    "translated_abstract": "在这封信中，我们提出了一种扩展TensorNet的方法，这是一种最先进的等变笛卡尔张量神经网络势，使其能够处理带电分子和自旋状态，而无需进行架构更改或增加成本。通过合并这些属性，我们解决了输入退化问题，增强了该模型在各种化学系统中的预测准确性。这一进展显著拓宽了TensorNet的适用范围，同时保持其效率和准确性。",
+    "tldr": "TensorNet扩展了其能力，可以处理带电分子和自旋状态，提高了模型在各种化学系统中的预测准确性。",
+    "en_tdlr": "TensorNet has expanded its capability to handle charged molecules and spin states, improving predictive accuracy across diverse chemical systems."
+}

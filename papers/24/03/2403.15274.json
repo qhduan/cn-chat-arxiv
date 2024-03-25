@@ -1,0 +1,12 @@
+{
+    "title": "Bioinformatics and Biomedical Informatics with ChatGPT: Year One Review",
+    "abstract": "arXiv:2403.15274v1 Announce Type: cross  Abstract: The year 2023 marked a significant surge in the exploration of applying large language model (LLM) chatbots, notably ChatGPT, across various disciplines. We surveyed the applications of ChatGPT in various sectors of bioinformatics and biomedical informatics throughout the year, covering omics, genetics, biomedical text mining, drug discovery, biomedical image understanding, bioinformatics programming, and bioinformatics education. Our survey delineates the current strengths and limitations of this chatbot in bioinformatics and offers insights into potential avenues for future development.",
+    "link": "https://arxiv.org/abs/2403.15274",
+    "context": "Title: Bioinformatics and Biomedical Informatics with ChatGPT: Year One Review\nAbstract: arXiv:2403.15274v1 Announce Type: cross  Abstract: The year 2023 marked a significant surge in the exploration of applying large language model (LLM) chatbots, notably ChatGPT, across various disciplines. We surveyed the applications of ChatGPT in various sectors of bioinformatics and biomedical informatics throughout the year, covering omics, genetics, biomedical text mining, drug discovery, biomedical image understanding, bioinformatics programming, and bioinformatics education. Our survey delineates the current strengths and limitations of this chatbot in bioinformatics and offers insights into potential avenues for future development.",
+    "path": "papers/24/03/2403.15274.json",
+    "total_tokens": 689,
+    "translated_title": "使用ChatGPT进行生物信息学和生物医学信息学：第一年回顾",
+    "translated_abstract": "2023年标志着在各个学科领域应用大型语言模型（LLM）聊天机器人ChatGPT的探索取得了显著进展。我们调查了ChatGPT在生物信息学和生物医学信息学各个领域的应用情况，涵盖组学、遗传学、生物医学文本挖掘、药物发现、生物医学图像理解、生物信息学编程和生物信息学教育。我们的调查描绘了该聊天机器人在生物信息学领域的当前优势和局限性，并提供了未来发展的潜在方向。",
+    "tldr": "该研究调查了在生物信息学和生物医学信息学领域应用ChatGPT的情况，总结了其当前优势和局限性，并为未来发展提供了一些见解。",
+    "en_tdlr": "The study surveyed the applications of ChatGPT in the fields of bioinformatics and biomedical informatics, summarized its current strengths and limitations, and provided insights for future development."
+}

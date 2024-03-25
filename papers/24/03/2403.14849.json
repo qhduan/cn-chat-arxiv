@@ -1,0 +1,12 @@
+{
+    "title": "Output-Constrained Lossy Source Coding With Application to Rate-Distortion-Perception Theory",
+    "abstract": "arXiv:2403.14849v1 Announce Type: cross  Abstract: The distortion-rate function of output-constrained lossy source coding with limited common randomness is analyzed for the special case of squared error distortion measure. An explicit expression is obtained when both source and reconstruction distributions are Gaussian. This further leads to a partial characterization of the information-theoretic limit of quadratic Gaussian rate-distortion-perception coding with the perception measure given by Kullback-Leibler divergence or squared quadratic Wasserstein distance.",
+    "link": "https://arxiv.org/abs/2403.14849",
+    "context": "Title: Output-Constrained Lossy Source Coding With Application to Rate-Distortion-Perception Theory\nAbstract: arXiv:2403.14849v1 Announce Type: cross  Abstract: The distortion-rate function of output-constrained lossy source coding with limited common randomness is analyzed for the special case of squared error distortion measure. An explicit expression is obtained when both source and reconstruction distributions are Gaussian. This further leads to a partial characterization of the information-theoretic limit of quadratic Gaussian rate-distortion-perception coding with the perception measure given by Kullback-Leibler divergence or squared quadratic Wasserstein distance.",
+    "path": "papers/24/03/2403.14849.json",
+    "total_tokens": 677,
+    "translated_title": "输出受限失真源编码及在速率-失真-感知理论中的应用",
+    "translated_abstract": "分析了具有有限通用随机性的输出受限失真源编码的失真-速率函数，特别是对于均方误差失真度量的特殊情况。当源和重建分布均为高斯分布时，得到了一个明确的表达式。进一步导致了利用Kullback-Leibler散度或平方二次Wasserstein距离给定感知度量的二次高斯速率-失真-感知编码的信息论极限的部分表征。",
+    "tldr": "分析了具有有限通用随机性的输出受限失真源编码在均方误差失真度量下的特殊情况，推导出了高斯分布情况下的明确表达式，并部分刻画了二次高斯速率-失真-感知编码的信息论极限。",
+    "en_tdlr": "The paper analyzes the distortion-rate function of output-constrained lossy source coding with limited common randomness, focusing on the special case of squared error distortion measure. It provides an explicit expression for Gaussian distributions and partially characterizes the information-theoretic limit of quadratic Gaussian rate-distortion-perception coding."
+}

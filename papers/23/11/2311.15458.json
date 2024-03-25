@@ -1,0 +1,12 @@
+{
+    "title": "Causal Models for Longitudinal and Panel Data: A Survey",
+    "abstract": "arXiv:2311.15458v2 Announce Type: replace  Abstract: This survey discusses the recent causal panel data literature. This recent literature has focused on credibly estimating causal effects of binary interventions in settings with longitudinal data, with an emphasis on practical advice for empirical researchers. It pays particular attention to heterogeneity in the causal effects, often in situations where few units are treated and with particular structures on the assignment pattern. The literature has extended earlier work on difference-in-differences or two-way-fixed-effect estimators. It has more generally incorporated factor models or interactive fixed effects. It has also developed novel methods using synthetic control approaches.",
+    "link": "https://arxiv.org/abs/2311.15458",
+    "context": "Title: Causal Models for Longitudinal and Panel Data: A Survey\nAbstract: arXiv:2311.15458v2 Announce Type: replace  Abstract: This survey discusses the recent causal panel data literature. This recent literature has focused on credibly estimating causal effects of binary interventions in settings with longitudinal data, with an emphasis on practical advice for empirical researchers. It pays particular attention to heterogeneity in the causal effects, often in situations where few units are treated and with particular structures on the assignment pattern. The literature has extended earlier work on difference-in-differences or two-way-fixed-effect estimators. It has more generally incorporated factor models or interactive fixed effects. It has also developed novel methods using synthetic control approaches.",
+    "path": "papers/23/11/2311.15458.json",
+    "total_tokens": 714,
+    "translated_title": "纵向和面板数据的因果模型：一项调研",
+    "translated_abstract": "这项调研讨论了最近关于因果面板数据的文献。这些最近的文献主要关注可靠地估计具有纵向数据的二元干预的因果效应，强调了对实证研究人员的实用建议。它特别关注了因果效应中的异质性，在少量单位被处理且为分配模式设定了特定结构的情况下。该文献扩展了早期关于差分法或双因素固定效应估计器的工作。它一般更多地纳入了因子模型或交互固定效应。它还开发了使用合成对照方法的新方法。",
+    "tldr": "该调研总结了最近关于因果面板数据的文献，重点是在具有纵向数据的情况下，可靠地估计二元干预的因果效应，并强调了对实证研究人员的实用建议。",
+    "en_tdlr": "This survey summarizes recent literature on causal panel data, focusing on credibly estimating causal effects of binary interventions in settings with longitudinal data and providing practical advice for empirical researchers."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Attention-Driven Reasoning: Unlocking the Potential of Large Language Models",
+    "abstract": "arXiv:2403.14932v1 Announce Type: cross  Abstract: Large Language Models (LLMs) have shown remarkable capabilities, but their reasoning abilities and underlying mechanisms remain poorly understood. We present a novel approach to enhance LLMs' reasoning through attention mechanism optimization, without additional training data. We identify inefficiencies in the attention distribution caused by non-semantic tokens and propose an algorithm to re-balance the skewed distribution, enabling the model to abstract more nuanced knowledge. Our experiments demonstrate significantly improved reasoning capabilities, particularly for non-STEM questions. We provide insights into the role of attention patterns in LLMs' reasoning and propose a method to enhance these abilities, paving the way for more powerful and versatile language models.",
+    "link": "https://arxiv.org/abs/2403.14932",
+    "context": "Title: Attention-Driven Reasoning: Unlocking the Potential of Large Language Models\nAbstract: arXiv:2403.14932v1 Announce Type: cross  Abstract: Large Language Models (LLMs) have shown remarkable capabilities, but their reasoning abilities and underlying mechanisms remain poorly understood. We present a novel approach to enhance LLMs' reasoning through attention mechanism optimization, without additional training data. We identify inefficiencies in the attention distribution caused by non-semantic tokens and propose an algorithm to re-balance the skewed distribution, enabling the model to abstract more nuanced knowledge. Our experiments demonstrate significantly improved reasoning capabilities, particularly for non-STEM questions. We provide insights into the role of attention patterns in LLMs' reasoning and propose a method to enhance these abilities, paving the way for more powerful and versatile language models.",
+    "path": "papers/24/03/2403.14932.json",
+    "total_tokens": 714,
+    "translated_title": "专注驱动的推理:释放大型语言模型的潜力",
+    "translated_abstract": "大型语言模型（LLMs）展示了卓越的能力，但它们的推理能力和基础机制仍不为人所了解。我们提出了一种通过注意力机制优化来增强LLMs推理能力的新方法，而无需额外的训练数据。我们确定了由非语义标记导致的注意力分布的低效率，并提出了一种算法来重新平衡偏斜分布，使模型能够抽象更加微妙的知识。我们的实验表明，推理能力得到了显着改进，特别是对于非STEM问题。我们深入探讨了注意力模式在LLMs推理中的作用，并提出了一种增强这些能力的方法，为更强大和多功能的语言模型铺平了道路。",
+    "tldr": "通过注意力机制优化，可以显著提高大型语言模型的推理能力，尤其对于非STEM问题。",
+    "en_tdlr": "Enhancing the reasoning abilities of large language models significantly through attention mechanism optimization, particularly for non-STEM questions."
+}

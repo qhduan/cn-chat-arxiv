@@ -1,0 +1,12 @@
+{
+    "title": "Multimodal Fusion with Pre-Trained Model Features in Affective Behaviour Analysis In-the-wild",
+    "abstract": "arXiv:2403.15044v1 Announce Type: cross  Abstract: Multimodal fusion is a significant method for most multimodal tasks. With the recent surge in the number of large pre-trained models, combining both multimodal fusion methods and pre-trained model features can achieve outstanding performance in many multimodal tasks. In this paper, we present our approach, which leverages both advantages for addressing the task of Expression (Expr) Recognition and Valence-Arousal (VA) Estimation. We evaluate the Aff-Wild2 database using pre-trained models, then extract the final hidden layers of the models as features. Following preprocessing and interpolation or convolution to align the extracted features, different models are employed for modal fusion. Our code is available at GitHub - FulgenceWen/ABAW6th.",
+    "link": "https://arxiv.org/abs/2403.15044",
+    "context": "Title: Multimodal Fusion with Pre-Trained Model Features in Affective Behaviour Analysis In-the-wild\nAbstract: arXiv:2403.15044v1 Announce Type: cross  Abstract: Multimodal fusion is a significant method for most multimodal tasks. With the recent surge in the number of large pre-trained models, combining both multimodal fusion methods and pre-trained model features can achieve outstanding performance in many multimodal tasks. In this paper, we present our approach, which leverages both advantages for addressing the task of Expression (Expr) Recognition and Valence-Arousal (VA) Estimation. We evaluate the Aff-Wild2 database using pre-trained models, then extract the final hidden layers of the models as features. Following preprocessing and interpolation or convolution to align the extracted features, different models are employed for modal fusion. Our code is available at GitHub - FulgenceWen/ABAW6th.",
+    "path": "papers/24/03/2403.15044.json",
+    "total_tokens": 736,
+    "translated_title": "在野外情感行为分析中使用预训练模型特征的多模态融合",
+    "translated_abstract": "多模态融合是大多数多模态任务中的重要方法。随着大型预训练模型数量的激增，结合多模态融合方法和预训练模型特征可以在许多多模态任务中取得出色的性能。本文介绍了我们的方法，利用这两种优势来解决表达（Expr）识别和价位-唤醒（VA）估计任务。我们使用预训练模型评估Aff-Wild2数据库，然后提取模型的最终隐藏层作为特征。在进行预处理、插值或卷积以对齐提取的特征后，采用不同模型进行模态融合。我们的代码可以在GitHub上找到- FulgenceWen/ABAW6th。",
+    "tldr": "结合多模态融合方法和预训练模型特征，在野外情感行为分析中取得出色性能",
+    "en_tdlr": "Outstanding performance achieved in affective behavior analysis in-the-wild by combining multimodal fusion methods and pre-trained model features."
+}

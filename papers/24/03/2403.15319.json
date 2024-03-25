@@ -1,0 +1,12 @@
+{
+    "title": "Discounted Subjective Expected Utility in Continuous Time",
+    "abstract": "arXiv:2403.15319v1 Announce Type: new  Abstract: By embedding uncertainty into time, we obtain a conjoint axiomatic characterization of both Exponential Discounting and Subjective Expected Utility that accommodates arbitrary state and outcome spaces. In doing so, we provide a novel and simple time-interpretation of subjective probability. The subjective probability of an event is calibrated using time discounting.",
+    "link": "https://arxiv.org/abs/2403.15319",
+    "context": "Title: Discounted Subjective Expected Utility in Continuous Time\nAbstract: arXiv:2403.15319v1 Announce Type: new  Abstract: By embedding uncertainty into time, we obtain a conjoint axiomatic characterization of both Exponential Discounting and Subjective Expected Utility that accommodates arbitrary state and outcome spaces. In doing so, we provide a novel and simple time-interpretation of subjective probability. The subjective probability of an event is calibrated using time discounting.",
+    "path": "papers/24/03/2403.15319.json",
+    "total_tokens": 502,
+    "translated_title": "连续时间中的折现主观期望效用",
+    "translated_abstract": "通过将不确定性嵌入时间，我们获得了指数折现和主观期望效用的联合公理特征，该特性适应任意状态和结果空间。 在此过程中，我们提供了主观概率的一种新颖而简单的时间解释。 事件的主观概率是通过时间折现来校准的。",
+    "tldr": "将不确定性嵌入时间，提供了一种新颖而简单的时间解释主观概率的方法。",
+    "en_tdlr": "Embedding uncertainty into time provides a novel and simple time interpretation of subjective probability."
+}

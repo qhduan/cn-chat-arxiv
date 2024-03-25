@@ -1,0 +1,12 @@
+{
+    "title": "Tests for almost stochastic dominance",
+    "abstract": "arXiv:2403.15258v1 Announce Type: new  Abstract: We introduce a 2-dimensional stochastic dominance (2DSD) index to characterize both strict and almost stochastic dominance. Based on this index, we derive an estimator for the minimum violation ratio (MVR), also known as the critical parameter, of the almost stochastic ordering condition between two variables. We determine the asymptotic properties of the empirical 2DSD index and MVR for the most frequently used stochastic orders. We also provide conditions under which the bootstrap estimators of these quantities are strongly consistent. As an application, we develop consistent bootstrap testing procedures for almost stochastic dominance. The performance of the tests is checked via simulations and the analysis of real data.",
+    "link": "https://arxiv.org/abs/2403.15258",
+    "context": "Title: Tests for almost stochastic dominance\nAbstract: arXiv:2403.15258v1 Announce Type: new  Abstract: We introduce a 2-dimensional stochastic dominance (2DSD) index to characterize both strict and almost stochastic dominance. Based on this index, we derive an estimator for the minimum violation ratio (MVR), also known as the critical parameter, of the almost stochastic ordering condition between two variables. We determine the asymptotic properties of the empirical 2DSD index and MVR for the most frequently used stochastic orders. We also provide conditions under which the bootstrap estimators of these quantities are strongly consistent. As an application, we develop consistent bootstrap testing procedures for almost stochastic dominance. The performance of the tests is checked via simulations and the analysis of real data.",
+    "path": "papers/24/03/2403.15258.json",
+    "total_tokens": 704,
+    "translated_title": "几乎随机优势的检验",
+    "translated_abstract": "我们引入了一个二维随机优势（2DSD）指数来刻画严格和几乎随机优势。基于这个指数，我们推导了几乎随机排序条件下两个变量之间最小违反比（MVR）的估计量。我们确定了经验2DSD指数和MVR在最常用的随机排序情况下的渐近性质。我们还提供了引导估计这些量的强一致性的条件。作为应用，我们为几乎随机优势开发了一致的引导检验程序。通过模拟和实际数据分析来检验测试的性能。",
+    "tldr": "引入了二维随机优势指数来表征几乎随机优势，推导了几乎随机排序条件下两个变量之间最小违反比的估计量，并提供了一致的引导检验程序。",
+    "en_tdlr": "Introducing a 2DSD index to characterize almost stochastic dominance, deriving an estimator for the minimum violation ratio between two variables under almost stochastic ordering condition, and developing consistent bootstrap testing procedures."
+}

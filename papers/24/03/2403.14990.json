@@ -1,0 +1,11 @@
+{
+    "title": "MasonTigers at SemEval-2024 Task 1: An Ensemble Approach for Semantic Textual Relatedness",
+    "abstract": "arXiv:2403.14990v1 Announce Type: new  Abstract: This paper presents the MasonTigers entry to the SemEval-2024 Task 1 - Semantic Textual Relatedness. The task encompasses supervised (Track A), unsupervised (Track B), and cross-lingual (Track C) approaches across 14 different languages. MasonTigers stands out as one of the two teams who participated in all languages across the three tracks. Our approaches achieved rankings ranging from 11th to 21st in Track A, from 1st to 8th in Track B, and from 5th to 12th in Track C. Adhering to the task-specific constraints, our best performing approaches utilize ensemble of statistical machine learning approaches combined with language-specific BERT based models and sentence transformers.",
+    "link": "https://arxiv.org/abs/2403.14990",
+    "context": "Title: MasonTigers at SemEval-2024 Task 1: An Ensemble Approach for Semantic Textual Relatedness\nAbstract: arXiv:2403.14990v1 Announce Type: new  Abstract: This paper presents the MasonTigers entry to the SemEval-2024 Task 1 - Semantic Textual Relatedness. The task encompasses supervised (Track A), unsupervised (Track B), and cross-lingual (Track C) approaches across 14 different languages. MasonTigers stands out as one of the two teams who participated in all languages across the three tracks. Our approaches achieved rankings ranging from 11th to 21st in Track A, from 1st to 8th in Track B, and from 5th to 12th in Track C. Adhering to the task-specific constraints, our best performing approaches utilize ensemble of statistical machine learning approaches combined with language-specific BERT based models and sentence transformers.",
+    "path": "papers/24/03/2403.14990.json",
+    "total_tokens": 742,
+    "translated_title": "MasonTigers在SemEval-2024任务1中的集成方法研究：语义文本相关性",
+    "translated_abstract": "本文介绍了MasonTigers参与SemEval-2024任务1-语义文本相关性的工作。该任务涵盖了涵盖了监督（Track A）、无监督（Track B）和跨语言（Track C）方法，涉及14种不同语言。MasonTigers是少数同时参与了三个track中所有语言的两支团队之一。我们的方法在Track A中排名从第11到第21，在Track B中排名从第1到第8，在Track C中排名从第5到第12。在遵循特定任务约束的同时，我们的表现最好的方法利用了统计机器学习方法的集成，结合了基于语言的BERT模型和句子变换器。",
+    "tldr": "MasonTigers在SemEval-2024 Task 1中采用集成方法，结合语言特定的BERT模型和句子变换器，在处理语义文本相关性时取得了优异的结果。"
+}

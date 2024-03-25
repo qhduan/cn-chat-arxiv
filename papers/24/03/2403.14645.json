@@ -1,0 +1,12 @@
+{
+    "title": "Designing Multi-Step Action Models for Enterprise AI Adoption",
+    "abstract": "arXiv:2403.14645v1 Announce Type: cross  Abstract: This paper introduces the Multi-Step Action Model (MSAM), a closed-source AI model designed by Empsing to address challenges hindering AI adoption in enterprises. Through a holistic examination, this paper explores MSAM's foundational principles, design architecture, and future trajectory. It evaluates MSAM's performance via rigorous testing methodologies and envisions its potential impact on advancing AI adoption within organizations.",
+    "link": "https://arxiv.org/abs/2403.14645",
+    "context": "Title: Designing Multi-Step Action Models for Enterprise AI Adoption\nAbstract: arXiv:2403.14645v1 Announce Type: cross  Abstract: This paper introduces the Multi-Step Action Model (MSAM), a closed-source AI model designed by Empsing to address challenges hindering AI adoption in enterprises. Through a holistic examination, this paper explores MSAM's foundational principles, design architecture, and future trajectory. It evaluates MSAM's performance via rigorous testing methodologies and envisions its potential impact on advancing AI adoption within organizations.",
+    "path": "papers/24/03/2403.14645.json",
+    "total_tokens": 631,
+    "translated_title": "为企业AI采用设计多步骤行动模型",
+    "translated_abstract": "本文介绍了Empsing设计的闭源AI模型Multi-Step Action Model (MSAM)，旨在解决阻碍企业采用AI的挑战。通过全面的研究，本文探讨了MSAM的基本原则、设计架构和未来发展轨迹。它通过严格的测试方法评估了MSAM的性能，并设想了其对推动组织内AI采用的潜在影响。",
+    "tldr": "本文介绍了Empsing设计的多步骤行动模型(MSAM)，旨在解决企业采用AI所面临的挑战，通过全面探讨设计原则、架构和未来发展，以及评估其性能并展望其潜在影响。",
+    "en_tdlr": "This paper introduces the Multi-Step Action Model (MSAM) designed by Empsing to address challenges hindering AI adoption in enterprises, providing insights into its foundational principles, design architecture, and future trajectory, evaluating its performance, and envisioning its potential impact on advancing AI adoption within organizations."
+}

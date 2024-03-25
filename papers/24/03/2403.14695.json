@@ -1,0 +1,12 @@
+{
+    "title": "Chain-structured neural architecture search for financial time series forecasting",
+    "abstract": "arXiv:2403.14695v1 Announce Type: cross  Abstract: We compare three popular neural architecture search strategies on chain-structured search spaces: Bayesian optimization, the hyperband method, and reinforcement learning in the context of financial time series forecasting.",
+    "link": "https://arxiv.org/abs/2403.14695",
+    "context": "Title: Chain-structured neural architecture search for financial time series forecasting\nAbstract: arXiv:2403.14695v1 Announce Type: cross  Abstract: We compare three popular neural architecture search strategies on chain-structured search spaces: Bayesian optimization, the hyperband method, and reinforcement learning in the context of financial time series forecasting.",
+    "path": "papers/24/03/2403.14695.json",
+    "total_tokens": 483,
+    "translated_title": "针对金融时间序列预测的链式神经架构搜索",
+    "translated_abstract": "我们在链式搜索空间上比较了三种流行的神经架构搜索策略：贝叶斯优化、超带方法和强化学习，这在金融时间序列预测的背景下进行了研究。",
+    "tldr": "在金融时间序列预测领域，比较了贝叶斯优化、超带方法和强化学习等神经架构搜索策略。",
+    "en_tdlr": "Compared three popular neural architecture search strategies - Bayesian optimization, the hyperband method, and reinforcement learning in the context of financial time series forecasting."
+}

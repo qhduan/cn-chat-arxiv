@@ -1,0 +1,11 @@
+{
+    "title": "Deep learning-based method for weather forecasting: A case study in Itoshima",
+    "abstract": "arXiv:2403.14918v1 Announce Type: new  Abstract: Accurate weather forecasting is of paramount importance for a wide range of practical applications, drawing substantial scientific and societal interest. However, the intricacies of weather systems pose substantial challenges to accurate predictions. This research introduces a multilayer perceptron model tailored for weather forecasting in Itoshima, Kyushu, Japan. Our meticulously designed architecture demonstrates superior performance compared to existing models, surpassing benchmarks such as Long Short-Term Memory and Recurrent Neural Networks.",
+    "link": "https://arxiv.org/abs/2403.14918",
+    "context": "Title: Deep learning-based method for weather forecasting: A case study in Itoshima\nAbstract: arXiv:2403.14918v1 Announce Type: new  Abstract: Accurate weather forecasting is of paramount importance for a wide range of practical applications, drawing substantial scientific and societal interest. However, the intricacies of weather systems pose substantial challenges to accurate predictions. This research introduces a multilayer perceptron model tailored for weather forecasting in Itoshima, Kyushu, Japan. Our meticulously designed architecture demonstrates superior performance compared to existing models, surpassing benchmarks such as Long Short-Term Memory and Recurrent Neural Networks.",
+    "path": "papers/24/03/2403.14918.json",
+    "total_tokens": 644,
+    "translated_title": "基于深度学习的天气预测方法：以糸島为例研究",
+    "translated_abstract": "准确的天气预测对于广泛的实际应用至关重要，引起了大量的科学和社会关注。然而，天气系统的复杂性给准确预测带来了重大挑战。本研究引入了一个特别针对日本九州糸島天气预测的多层感知器模型。我们精心设计的架构表现出优越的性能，超越了诸如长短期记忆和循环神经网络等现有模型的基准。",
+    "tldr": "该研究提出了一个针对日本九州糸島天气预测的多层感知器模型，表现出比现有模型更优越的性能。"
+}

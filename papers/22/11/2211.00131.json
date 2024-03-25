@@ -1,0 +1,12 @@
+{
+    "title": "New Concept for the Value Function of Prospect Theory",
+    "abstract": "arXiv:2211.00131v4 Announce Type: replace  Abstract: In the prospect theory, value function is typically concave for gains, commonly convex for losses, with losses usually having a steeper slope than gains. The neural system largely differs from the loss and gains sides. Five new studies on neurons related to this issue have examined neuronal responses to losses, gains, and reference points. This study investigates a new concept of the value function. A value function with a neuronal cusp may show variations and behavior cusps with catastrophe where a trader closes one's position.",
+    "link": "https://arxiv.org/abs/2211.00131",
+    "context": "Title: New Concept for the Value Function of Prospect Theory\nAbstract: arXiv:2211.00131v4 Announce Type: replace  Abstract: In the prospect theory, value function is typically concave for gains, commonly convex for losses, with losses usually having a steeper slope than gains. The neural system largely differs from the loss and gains sides. Five new studies on neurons related to this issue have examined neuronal responses to losses, gains, and reference points. This study investigates a new concept of the value function. A value function with a neuronal cusp may show variations and behavior cusps with catastrophe where a trader closes one's position.",
+    "path": "papers/22/11/2211.00131.json",
+    "total_tokens": 640,
+    "translated_title": "简化理论的价值函数的新概念",
+    "translated_abstract": "在前景理论中，价值函数通常对于收益而言呈凹函数，对于损失而言通常是凸函数，损失的斜率通常比收益的斜率要陡。大脑神经系统在损失和收益方面有很大的不同。本研究对与此问题相关的神经元进行了五项新研究，研究了神经元对损失、收益和参考点的反应。该研究探讨了价值函数的一个新概念。具有神经突的价值函数可能显示出变化和行为突变，导致交易员关闭自己的头寸。",
+    "tldr": "该研究提出了一个新概念的价值函数，可能具有神经突，显示出变化和行为突变。",
+    "en_tdlr": "This study introduces a new concept of the value function with neuronal cusps, showing variations and behavioral discontinuities."
+}

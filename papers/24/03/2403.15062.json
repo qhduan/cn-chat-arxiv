@@ -1,0 +1,12 @@
+{
+    "title": "Construction of a Japanese Financial Benchmark for Large Language Models",
+    "abstract": "arXiv:2403.15062v1 Announce Type: cross  Abstract: With the recent development of large language models (LLMs), models that focus on certain domains and languages have been discussed for their necessity. There is also a growing need for benchmarks to evaluate the performance of current LLMs in each domain. Therefore, in this study, we constructed a benchmark comprising multiple tasks specific to the Japanese and financial domains and performed benchmark measurements on some models. Consequently, we confirmed that GPT-4 is currently outstanding, and that the constructed benchmarks function effectively. According to our analysis, our benchmark can differentiate benchmark scores among models in all performance ranges by combining tasks with different difficulties.",
+    "link": "https://arxiv.org/abs/2403.15062",
+    "context": "Title: Construction of a Japanese Financial Benchmark for Large Language Models\nAbstract: arXiv:2403.15062v1 Announce Type: cross  Abstract: With the recent development of large language models (LLMs), models that focus on certain domains and languages have been discussed for their necessity. There is also a growing need for benchmarks to evaluate the performance of current LLMs in each domain. Therefore, in this study, we constructed a benchmark comprising multiple tasks specific to the Japanese and financial domains and performed benchmark measurements on some models. Consequently, we confirmed that GPT-4 is currently outstanding, and that the constructed benchmarks function effectively. According to our analysis, our benchmark can differentiate benchmark scores among models in all performance ranges by combining tasks with different difficulties.",
+    "path": "papers/24/03/2403.15062.json",
+    "total_tokens": 733,
+    "translated_title": "构建针对大型语言模型的日本金融基准",
+    "translated_abstract": "随着大型语言模型（LLMs）的最新发展，人们开始讨论专注于特定领域和语言的模型的必要性。当前对每个领域中现有LLMs性能进行评估的需求也日益增长。因此，在这项研究中，我们构建了一个包含多个特定于日本和金融领域的任务的基准，并对一些模型进行了基准测量。结果表明，GPT-4目前表现突出，并且构建的基准能够有效发挥作用。根据我们的分析，我们的基准通过结合不同难度的任务，可以区分所有性能范围内各模型的基准分数。",
+    "tldr": "通过构建针对日本金融领域的多任务基准并对多模型进行测试，证实了GPT-4表现出色，该基准有效区分了各性能范围内模型的基准分数。",
+    "en_tdlr": "By constructing a benchmark comprising multiple tasks specific to the Japanese and financial domains and performing benchmark measurements on some models, it was confirmed that GPT-4 is outstanding and the benchmark effectively differentiates benchmark scores among models in all performance ranges."
+}

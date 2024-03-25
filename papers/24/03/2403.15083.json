@@ -1,0 +1,11 @@
+{
+    "title": "SIMAP: A simplicial-map layer for neural networks",
+    "abstract": "arXiv:2403.15083v1 Announce Type: new  Abstract: In this paper, we present SIMAP, a novel layer integrated into deep learning models, aimed at enhancing the interpretability of the output. The SIMAP layer is an enhanced version of Simplicial-Map Neural Networks (SMNNs), an explainable neural network based on support sets and simplicial maps (functions used in topology to transform shapes while preserving their structural connectivity). The novelty of the methodology proposed in this paper is two-fold: Firstly, SIMAP layers work in combination with other deep learning architectures as an interpretable layer substituting classic dense final layers. Secondly, unlike SMNNs, the support set is based on a fixed maximal simplex, the barycentric subdivision being efficiently computed with a matrix-based multiplication algorithm.",
+    "link": "https://arxiv.org/abs/2403.15083",
+    "context": "Title: SIMAP: A simplicial-map layer for neural networks\nAbstract: arXiv:2403.15083v1 Announce Type: new  Abstract: In this paper, we present SIMAP, a novel layer integrated into deep learning models, aimed at enhancing the interpretability of the output. The SIMAP layer is an enhanced version of Simplicial-Map Neural Networks (SMNNs), an explainable neural network based on support sets and simplicial maps (functions used in topology to transform shapes while preserving their structural connectivity). The novelty of the methodology proposed in this paper is two-fold: Firstly, SIMAP layers work in combination with other deep learning architectures as an interpretable layer substituting classic dense final layers. Secondly, unlike SMNNs, the support set is based on a fixed maximal simplex, the barycentric subdivision being efficiently computed with a matrix-based multiplication algorithm.",
+    "path": "papers/24/03/2403.15083.json",
+    "total_tokens": 788,
+    "translated_title": "SIMAP：神经网络的一个单纯同调图层",
+    "translated_abstract": "在本文中，我们介绍了SIMAP，这是一个嵌入深度学习模型中的新颖图层，旨在增强输出的可解释性。SIMAP图层是Simplicial-Map神经网络（SMNNs）的增强版本，是一种基于支持集和单纯同调映射（拓扑学中用来在保持结构连通性的同时转换形状的函数）的可解释神经网络。该论文提出的方法的创新性有两个方面：首先，SIMAP图层与其他深度学习架构配合工作，作为一个可解释的图层替代经典的密集最终图层。其次，与SMNNs不同，支持集基于固定的最大单纯体，其重心分割可以通过基于矩阵的乘法算法高效计算。",
+    "tldr": "SIMAP是一个神经网络图层，与其他深度学习架构结合，作为可解释图层替代经典的密集最终图层，支持集基于固定的最大单纯体。"
+}
