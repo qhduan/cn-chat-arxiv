@@ -1,0 +1,12 @@
+{
+    "title": "Price and Payoff Autocorrelations in a Multi-Period Consumption-Based Asset Pricing Model",
+    "abstract": "arXiv:2204.07506v2 Announce Type: replace  Abstract: This paper highlights the hidden dependence of the basic pricing equation of a multi-period consumption-based asset pricing model on price and payoff autocorrelations. We obtain the approximations of the basic pricing equation that describe the mean price \"to-day,\" mean payoff \"next-day,\" price and payoff volatilities, and price and payoff autocorrelations. The deep conjunction of the consumption-based model with other versions of asset pricing, such as ICAPM, APM, etc. (Cochrane, 2001), emphasizes that our results are valid for other pricing models.",
+    "link": "https://arxiv.org/abs/2204.07506",
+    "context": "Title: Price and Payoff Autocorrelations in a Multi-Period Consumption-Based Asset Pricing Model\nAbstract: arXiv:2204.07506v2 Announce Type: replace  Abstract: This paper highlights the hidden dependence of the basic pricing equation of a multi-period consumption-based asset pricing model on price and payoff autocorrelations. We obtain the approximations of the basic pricing equation that describe the mean price \"to-day,\" mean payoff \"next-day,\" price and payoff volatilities, and price and payoff autocorrelations. The deep conjunction of the consumption-based model with other versions of asset pricing, such as ICAPM, APM, etc. (Cochrane, 2001), emphasizes that our results are valid for other pricing models.",
+    "path": "papers/22/04/2204.07506.json",
+    "total_tokens": 646,
+    "translated_title": "一个多期消费资产定价模型中价格和回报的自相关性",
+    "translated_abstract": "这篇论文突出了多期消费资产定价模型的基本定价方程对价格和回报的自相关性的潜在依赖性。我们得到了描述基本定价方程的近似值，该方程描述了今天的平均价格、明天的平均回报、价格和回报的波动性，以及价格和回报的自相关性。消费资产模型与其他资产定价模型（如ICAPM、APM等）的深度结合强调了我们的结果对其他定价模型也是有效的。",
+    "tldr": "多期消费资产定价模型的基本定价方程受到价格和回报自相关性的影响，揭示了其与其他资产定价模型的关联。",
+    "en_tdlr": "The basic pricing equation of a multi-period consumption-based asset pricing model is influenced by the autocorrelations of prices and payoffs, revealing its connection with other asset pricing models."
+}

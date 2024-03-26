@@ -1,0 +1,12 @@
+{
+    "title": "AI Ethics and Governance in Practice: An Introduction",
+    "abstract": "arXiv:2403.15403v1 Announce Type: cross  Abstract: AI systems may have transformative and long-term effects on individuals and society. To manage these impacts responsibly and direct the development of AI systems toward optimal public benefit, considerations of AI ethics and governance must be a first priority.   In this workbook, we introduce and describe our PBG Framework, a multi-tiered governance model that enables project teams to integrate ethical values and practical principles into their innovation practices and to have clear mechanisms for demonstrating and documenting this.",
+    "link": "https://arxiv.org/abs/2403.15403",
+    "context": "Title: AI Ethics and Governance in Practice: An Introduction\nAbstract: arXiv:2403.15403v1 Announce Type: cross  Abstract: AI systems may have transformative and long-term effects on individuals and society. To manage these impacts responsibly and direct the development of AI systems toward optimal public benefit, considerations of AI ethics and governance must be a first priority.   In this workbook, we introduce and describe our PBG Framework, a multi-tiered governance model that enables project teams to integrate ethical values and practical principles into their innovation practices and to have clear mechanisms for demonstrating and documenting this.",
+    "path": "papers/24/03/2403.15403.json",
+    "total_tokens": 637,
+    "translated_title": "AI伦理与治理实践：导论",
+    "translated_abstract": "AI系统可能对个人和社会产生深远和长期影响。为了负责地管理这些影响，并将AI系统的发展引向最佳的公共利益，必须将AI伦理和治理考虑列为首要任务。在此工作手册中，我们介绍并描述了我们的PBG框架，这是一个多层次的治理模型，使项目团队能够将伦理价值观和实践原则融入其创新实践中，并具备清晰的机制来展示和记录这一点。",
+    "tldr": "介绍了PBG框架，这是一个多层次的治理模型，帮助项目团队将伦理价值观和实践原则融入创新实践中，展示和记录这些价值的清晰机制。",
+    "en_tdlr": "Introduces the PBG Framework, a multi-tiered governance model that helps project teams integrate ethical values and practical principles into their innovation practices with clear mechanisms for demonstrating and documenting these values."
+}

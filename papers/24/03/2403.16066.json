@@ -1,0 +1,12 @@
+{
+    "title": "A Temporal Graph Network Framework for Dynamic Recommendation",
+    "abstract": "arXiv:2403.16066v1 Announce Type: new  Abstract: Recommender systems, crucial for user engagement on platforms like e-commerce and streaming services, often lag behind users' evolving preferences due to static data reliance. After Temporal Graph Networks (TGNs) were proposed, various studies have shown that TGN can significantly improve situations where the features of nodes and edges dynamically change over time. However, despite its promising capabilities, it has not been directly applied in recommender systems to date. Our study bridges this gap by directly implementing Temporal Graph Networks (TGN) in recommender systems, a first in this field. Using real-world datasets and a range of graph and history embedding methods, we show TGN's adaptability, confirming its effectiveness in dynamic recommendation scenarios.",
+    "link": "https://arxiv.org/abs/2403.16066",
+    "context": "Title: A Temporal Graph Network Framework for Dynamic Recommendation\nAbstract: arXiv:2403.16066v1 Announce Type: new  Abstract: Recommender systems, crucial for user engagement on platforms like e-commerce and streaming services, often lag behind users' evolving preferences due to static data reliance. After Temporal Graph Networks (TGNs) were proposed, various studies have shown that TGN can significantly improve situations where the features of nodes and edges dynamically change over time. However, despite its promising capabilities, it has not been directly applied in recommender systems to date. Our study bridges this gap by directly implementing Temporal Graph Networks (TGN) in recommender systems, a first in this field. Using real-world datasets and a range of graph and history embedding methods, we show TGN's adaptability, confirming its effectiveness in dynamic recommendation scenarios.",
+    "path": "papers/24/03/2403.16066.json",
+    "total_tokens": 755,
+    "translated_title": "一个用于动态推荐的时间图网络框架",
+    "translated_abstract": "推荐系统对于用户在电子商务和流媒体服务等平台上的参与至关重要，然而由于静态数据依赖，推荐系统常常落后于用户不断变化的偏好。在时间图网络（TGN）被提出后，各种研究表明TGN可以显著改善节点和边的特征随时间动态变化的情况。然而，尽管其有着良好的潜力，但迄今为止尚未直接应用于推荐系统。我们的研究通过直接在推荐系统中实现时间图网络（TGN）来弥补这一差距，这在该领域尚属首次。通过使用真实世界的数据集和一系列图形和历史嵌入方法，我们展示了TGN的适应性，证实了其在动态推荐场景中的有效性。",
+    "tldr": "该研究首次将时间图网络（TGN）直接应用于推荐系统，展示了其在动态推荐场景中的有效性。",
+    "en_tdlr": "This study first directly implements Temporal Graph Networks (TGN) in recommender systems, demonstrating its effectiveness in dynamic recommendation scenarios."
+}

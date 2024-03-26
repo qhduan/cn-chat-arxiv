@@ -1,0 +1,12 @@
+{
+    "title": "Evaluating Neighbor Explainability for Graph Neural Networks",
+    "abstract": "arXiv:2311.08118v2 Announce Type: replace-cross  Abstract: Explainability in Graph Neural Networks (GNNs) is a new field growing in the last few years. In this publication we address the problem of determining how important is each neighbor for the GNN when classifying a node and how to measure the performance for this specific task. To do this, various known explainability methods are reformulated to get the neighbor importance and four new metrics are presented. Our results show that there is almost no difference between the explanations provided by gradient-based techniques in the GNN domain. In addition, many explainability techniques failed to identify important neighbors when GNNs without self-loops are used.",
+    "link": "https://arxiv.org/abs/2311.08118",
+    "context": "Title: Evaluating Neighbor Explainability for Graph Neural Networks\nAbstract: arXiv:2311.08118v2 Announce Type: replace-cross  Abstract: Explainability in Graph Neural Networks (GNNs) is a new field growing in the last few years. In this publication we address the problem of determining how important is each neighbor for the GNN when classifying a node and how to measure the performance for this specific task. To do this, various known explainability methods are reformulated to get the neighbor importance and four new metrics are presented. Our results show that there is almost no difference between the explanations provided by gradient-based techniques in the GNN domain. In addition, many explainability techniques failed to identify important neighbors when GNNs without self-loops are used.",
+    "path": "papers/23/11/2311.08118.json",
+    "total_tokens": 740,
+    "translated_title": "评价图神经网络的邻居可解释性",
+    "translated_abstract": "图神经网络（GNNs）中的可解释性是近年来新兴领域。在这篇文章中，我们解决了一个问题，即在对节点进行分类时，确定每个邻居对于 GNN 的重要性以及如何衡量这一特定任务的表现。为此，各种已知的可解释性方法被重新构造以获取邻居重要性，并提出了四种新的度量标准。我们的结果表明，在 GNN 领域，基于梯度的技术提供的解释几乎没有差异。此外，许多可解释性技术在使用没有自环的 GNNs 时未能识别重要的邻居。",
+    "tldr": "评价图神经网络中邻居的可解释性，提出新的度量标准并发现基于梯度的方法在GNN领域的解释没有太大差异，同时发现很多技术在没有自环的GNNs下无法准确识别重要邻居。",
+    "en_tdlr": "Evaluating neighbor explainability in graph neural networks, introducing new metrics and finding that gradient-based methods exhibit similar explanations in the GNN domain, while many techniques fail to accurately identify important neighbors in GNNs without self-loops."
+}

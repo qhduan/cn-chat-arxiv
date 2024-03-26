@@ -1,0 +1,11 @@
+{
+    "title": "Sequential choice functions and stability problems",
+    "abstract": "arXiv:2401.00748v2 Announce Type: replace-cross  Abstract: The concept of sequential choice functions is introduced and studied. This concept applies to the reduction of the problem of stable matchings with sequential workers to a situation where the workers are linear.",
+    "link": "https://arxiv.org/abs/2401.00748",
+    "context": "Title: Sequential choice functions and stability problems\nAbstract: arXiv:2401.00748v2 Announce Type: replace-cross  Abstract: The concept of sequential choice functions is introduced and studied. This concept applies to the reduction of the problem of stable matchings with sequential workers to a situation where the workers are linear.",
+    "path": "papers/24/01/2401.00748.json",
+    "total_tokens": 426,
+    "translated_title": "顺序选择函数和稳定性问题",
+    "translated_abstract": "引入并研究了顺序选择函数的概念。该概念适用于将具有顺序工作者的稳定匹配问题缩减为工作者是线性的情况。",
+    "tldr": "引入了顺序选择函数的概念，并将稳定匹配问题转化为工作者是线性的情况。"
+}

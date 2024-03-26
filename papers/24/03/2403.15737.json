@@ -1,0 +1,12 @@
+{
+    "title": "Few-shot Dialogue Strategy Learning for Motivational Interviewing via Inductive Reasoning",
+    "abstract": "arXiv:2403.15737v1 Announce Type: new  Abstract: We consider the task of building a dialogue system that can motivate users to adopt positive lifestyle changes: Motivational Interviewing. Addressing such a task requires a system that can infer \\textit{how} to motivate a user effectively. We propose DIIT, a framework that is capable of learning and applying conversation strategies in the form of natural language inductive rules from expert demonstrations. Automatic and human evaluation on instruction-following large language models show natural language strategy descriptions discovered by DIIR can improve active listening skills, reduce unsolicited advice, and promote more collaborative and less authoritative responses, outperforming various demonstration utilization methods.",
+    "link": "https://arxiv.org/abs/2403.15737",
+    "context": "Title: Few-shot Dialogue Strategy Learning for Motivational Interviewing via Inductive Reasoning\nAbstract: arXiv:2403.15737v1 Announce Type: new  Abstract: We consider the task of building a dialogue system that can motivate users to adopt positive lifestyle changes: Motivational Interviewing. Addressing such a task requires a system that can infer \\textit{how} to motivate a user effectively. We propose DIIT, a framework that is capable of learning and applying conversation strategies in the form of natural language inductive rules from expert demonstrations. Automatic and human evaluation on instruction-following large language models show natural language strategy descriptions discovered by DIIR can improve active listening skills, reduce unsolicited advice, and promote more collaborative and less authoritative responses, outperforming various demonstration utilization methods.",
+    "path": "papers/24/03/2403.15737.json",
+    "total_tokens": 762,
+    "translated_title": "通过归纳推理实现少样本对话策略学习，应用于激励式访谈",
+    "translated_abstract": "我们考虑构建一个对话系统，能够激励用户采纳积极的生活方式变化：激励式访谈。解决这样一个任务需要一个系统能够推断如何有效地激励用户。我们提出了DIIT，一个能够从专家演示中学习和应用自然语言归纳规则形式的对话策略的框架。对指示遵循的大型语言模型进行自动和人工评估显示，DIIR发现的自然语言策略描述能够提高主动倾听技能，减少不请自来的建议，并促进更具协作性和不那么权威性的回应，优于各种演示利用方法。",
+    "tldr": "提出了DIIT框架，通过学习和应用专家演示中的自然语言归纳规则，改善主动倾听技能，减少不请自来的建议，促进更协作和无权威性的回应。",
+    "en_tdlr": "Introduced the DIIT framework to improve active listening skills, reduce unsolicited advice, and promote more collaborative and less authoritative responses by learning and applying natural language inductive rules from expert demonstrations."
+}

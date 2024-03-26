@@ -1,0 +1,11 @@
+{
+    "title": "Universal NER: A Gold-Standard Multilingual Named Entity Recognition Benchmark",
+    "abstract": "arXiv:2311.09122v2 Announce Type: replace  Abstract: We introduce Universal NER (UNER), an open, community-driven project to develop gold-standard NER benchmarks in many languages. The overarching goal of UNER is to provide high-quality, cross-lingually consistent annotations to facilitate and standardize multilingual NER research. UNER v1 contains 18 datasets annotated with named entities in a cross-lingual consistent schema across 12 diverse languages. In this paper, we detail the dataset creation and composition of UNER; we also provide initial modeling baselines on both in-language and cross-lingual learning settings. We release the data, code, and fitted models to the public.",
+    "link": "https://arxiv.org/abs/2311.09122",
+    "context": "Title: Universal NER: A Gold-Standard Multilingual Named Entity Recognition Benchmark\nAbstract: arXiv:2311.09122v2 Announce Type: replace  Abstract: We introduce Universal NER (UNER), an open, community-driven project to develop gold-standard NER benchmarks in many languages. The overarching goal of UNER is to provide high-quality, cross-lingually consistent annotations to facilitate and standardize multilingual NER research. UNER v1 contains 18 datasets annotated with named entities in a cross-lingual consistent schema across 12 diverse languages. In this paper, we detail the dataset creation and composition of UNER; we also provide initial modeling baselines on both in-language and cross-lingual learning settings. We release the data, code, and fitted models to the public.",
+    "path": "papers/23/11/2311.09122.json",
+    "total_tokens": 712,
+    "translated_title": "通用NER:一个金标准的多语言命名实体识别基准",
+    "translated_abstract": "我们介绍了通用NER（UNER），这是一个开放的，社区驱动的项目，旨在开发多种语言的金标准NER基准。UNER的总体目标是提供高质量、跨语言一致的标注，以促进和标准化多语言NER研究。UNER v1包含了在12种不同语言中使用跨语言一致模式标注的18个数据集。在本文中，我们详细介绍了UNER的数据集创建和组成；我们还提供了针对不同语言和跨语言学习设置的初始建模基线。我们向公众发布了数据、代码和拟合模型。",
+    "tldr": "UNER是一个开放的、社区驱动的项目，旨在提供高质量、跨语言一致的命名实体识别基准，以促进和标准化多语言NER研究。"
+}

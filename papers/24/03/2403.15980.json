@@ -1,0 +1,12 @@
+{
+    "title": "Markovian projections for It\\^o semimartingales with jumps",
+    "abstract": "arXiv:2403.15980v1 Announce Type: cross  Abstract: Given a general It\\^o semimartingale, its Markovian projection is an It\\^o process, with Markovian differential characteristics, that matches the one-dimensional marginal laws of the original process. We construct Markovian projections for It\\^o semimartingales with jumps, whose flows of one-dimensional marginal laws are solutions to non-local Fokker--Planck--Kolmogorov equations (FPKEs). As an application, we show how Markovian projections appear in building calibrated diffusion/jump models with both local and stochastic features.",
+    "link": "https://arxiv.org/abs/2403.15980",
+    "context": "Title: Markovian projections for It\\^o semimartingales with jumps\nAbstract: arXiv:2403.15980v1 Announce Type: cross  Abstract: Given a general It\\^o semimartingale, its Markovian projection is an It\\^o process, with Markovian differential characteristics, that matches the one-dimensional marginal laws of the original process. We construct Markovian projections for It\\^o semimartingales with jumps, whose flows of one-dimensional marginal laws are solutions to non-local Fokker--Planck--Kolmogorov equations (FPKEs). As an application, we show how Markovian projections appear in building calibrated diffusion/jump models with both local and stochastic features.",
+    "path": "papers/24/03/2403.15980.json",
+    "total_tokens": 776,
+    "translated_title": "具有跳跃项的Ito半鞅的马尔可夫投影",
+    "translated_abstract": "给定一个一般的Ito半鞅，它的马尔可夫投影是一个Ito过程，具有马尔可夫微分特征，与原始过程的一维边际分布相匹配。我们为具有跳跃项的Ito半鞅构造马尔可夫投影，其一维边际分布的流是非局部的福克-普朗克-科尔莫哥罗夫方程（FPKEs）的解。作为一个应用，我们展示了马尔可夫投影在建立具有局部和随机特征的校准扩散/跳跃模型中的作用。",
+    "tldr": "该论文研究了具有跳跃项的Ito半鞅的马尔可夫投影，提出了解决非局部FPKEs方程的一维边际分布流，以及如何在建立具有局部和随机特征的校准扩散/跳跃模型中应用马尔可夫投影。",
+    "en_tdlr": "This paper discusses the Markovian projection for Ito semimartingales with jumps, presents solutions to non-local FPKEs for one-dimensional marginal laws, and demonstrates the application of Markovian projections in constructing calibrated diffusion/jump models with both local and stochastic features."
+}

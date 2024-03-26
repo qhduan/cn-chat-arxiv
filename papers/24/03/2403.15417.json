@@ -1,0 +1,12 @@
+{
+    "title": "Enhancing Automatic Modulation Recognition for IoT Applications Using Transformers",
+    "abstract": "arXiv:2403.15417v1 Announce Type: cross  Abstract: Automatic modulation recognition (AMR) is critical for determining the modulation type of incoming signals. Integrating advanced deep learning approaches enables rapid processing and minimal resource usage, essential for IoT applications. We have introduced a novel method using Transformer networks for efficient AMR, designed specifically to address the constraints on model size prevalent in IoT environments. Our extensive experiments reveal that our proposed method outperformed advanced deep learning techniques, achieving the highest recognition accuracy.",
+    "link": "https://arxiv.org/abs/2403.15417",
+    "context": "Title: Enhancing Automatic Modulation Recognition for IoT Applications Using Transformers\nAbstract: arXiv:2403.15417v1 Announce Type: cross  Abstract: Automatic modulation recognition (AMR) is critical for determining the modulation type of incoming signals. Integrating advanced deep learning approaches enables rapid processing and minimal resource usage, essential for IoT applications. We have introduced a novel method using Transformer networks for efficient AMR, designed specifically to address the constraints on model size prevalent in IoT environments. Our extensive experiments reveal that our proposed method outperformed advanced deep learning techniques, achieving the highest recognition accuracy.",
+    "path": "papers/24/03/2403.15417.json",
+    "total_tokens": 595,
+    "translated_title": "利用Transformer技术增强物联网应用的自动调制识别",
+    "translated_abstract": "自动调制识别(AMR)对于确定传入信号的调制类型至关重要。结合先进的深度学习方法能够实现快速处理和最小资源使用，这对物联网应用至关重要。我们引入了一种使用Transformer网络的新颖方法，专门设计用于解决物联网环境中普遍存在的模型大小限制。我们进行了大量实验，结果显示我们提出的方法优于先进的深度学习技术，实现了最高的识别准确率。",
+    "tldr": "使用Transformer网络提出了一种高效的自动调制识别方法，在物联网环境中具有最佳的识别准确率。",
+    "en_tdlr": "A novel method utilizing Transformer networks for efficient automatic modulation recognition outperforms advanced deep learning techniques, achieving the highest recognition accuracy in IoT environments."
+}

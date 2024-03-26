@@ -1,0 +1,12 @@
+{
+    "title": "Korean Bio-Medical Corpus (KBMC) for Medical Named Entity Recognition",
+    "abstract": "arXiv:2403.16158v1 Announce Type: new  Abstract: Named Entity Recognition (NER) plays a pivotal role in medical Natural Language Processing (NLP). Yet, there has not been an open-source medical NER dataset specifically for the Korean language. To address this, we utilized ChatGPT to assist in constructing the KBMC (Korean Bio-Medical Corpus), which we are now presenting to the public. With the KBMC dataset, we noticed an impressive 20% increase in medical NER performance compared to models trained on general Korean NER datasets. This research underscores the significant benefits and importance of using specialized tools and datasets, like ChatGPT, to enhance language processing in specialized fields such as healthcare.",
+    "link": "https://arxiv.org/abs/2403.16158",
+    "context": "Title: Korean Bio-Medical Corpus (KBMC) for Medical Named Entity Recognition\nAbstract: arXiv:2403.16158v1 Announce Type: new  Abstract: Named Entity Recognition (NER) plays a pivotal role in medical Natural Language Processing (NLP). Yet, there has not been an open-source medical NER dataset specifically for the Korean language. To address this, we utilized ChatGPT to assist in constructing the KBMC (Korean Bio-Medical Corpus), which we are now presenting to the public. With the KBMC dataset, we noticed an impressive 20% increase in medical NER performance compared to models trained on general Korean NER datasets. This research underscores the significant benefits and importance of using specialized tools and datasets, like ChatGPT, to enhance language processing in specialized fields such as healthcare.",
+    "path": "papers/24/03/2403.16158.json",
+    "total_tokens": 797,
+    "translated_title": "韩国生物医学语料库（KBMC）用于医学命名实体识别",
+    "translated_abstract": "arXiv:2403.16158v1 公告类型: 新 抽象: 命名实体识别（NER）在医学自然语言处理（NLP）中发挥着至关重要的作用。然而，尚无针对韩语的开源医学NER数据集。为解决这一问题，我们利用ChatGPT辅助构建了KBMC（韩国生物医学语料库），现在向公众展示。使用KBMC数据集，我们注意到，与在一般韩语NER数据集上训练的模型相比，医学NER性能提高了惊人的20%。这项研究强调了利用像ChatGPT这样的专门工具和数据集在增强诸如医疗保健等专业领域的语言处理方面的重要优势和重要性。",
+    "tldr": "利用ChatGPT构建了韩国生物医学语料库（KBMC），在医学命名实体识别方面取得了显著的进展，证明了使用专门工具和数据集在医学领域的语言处理中的重要性。",
+    "en_tdlr": "Utilizing ChatGPT to construct the Korean Bio-Medical Corpus (KBMC) led to significant progress in medical named entity recognition, highlighting the importance of using specialized tools and datasets in language processing in the field of healthcare."
+}

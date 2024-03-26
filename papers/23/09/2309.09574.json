@@ -1,0 +1,12 @@
+{
+    "title": "Latent assimilation with implicit neural representations for unknown dynamics",
+    "abstract": "arXiv:2309.09574v2 Announce Type: replace  Abstract: Data assimilation is crucial in a wide range of applications, but it often faces challenges such as high computational costs due to data dimensionality and incomplete understanding of underlying mechanisms. To address these challenges, this study presents a novel assimilation framework, termed Latent Assimilation with Implicit Neural Representations (LAINR). By introducing Spherical Implicit Neural Representations (SINR) along with a data-driven uncertainty estimator of the trained neural networks, LAINR enhances efficiency in assimilation process. Experimental results indicate that LAINR holds certain advantage over existing methods based on AutoEncoders, both in terms of accuracy and efficiency.",
+    "link": "https://arxiv.org/abs/2309.09574",
+    "context": "Title: Latent assimilation with implicit neural representations for unknown dynamics\nAbstract: arXiv:2309.09574v2 Announce Type: replace  Abstract: Data assimilation is crucial in a wide range of applications, but it often faces challenges such as high computational costs due to data dimensionality and incomplete understanding of underlying mechanisms. To address these challenges, this study presents a novel assimilation framework, termed Latent Assimilation with Implicit Neural Representations (LAINR). By introducing Spherical Implicit Neural Representations (SINR) along with a data-driven uncertainty estimator of the trained neural networks, LAINR enhances efficiency in assimilation process. Experimental results indicate that LAINR holds certain advantage over existing methods based on AutoEncoders, both in terms of accuracy and efficiency.",
+    "path": "papers/23/09/2309.09574.json",
+    "total_tokens": 742,
+    "translated_title": "采用隐式神经表示的潜变同化未知动态",
+    "translated_abstract": "数据同化在广泛的应用中至关重要，但常常面临挑战，如由于数据维度和对底层机制的不完全理解而导致的高计算成本。为解决这些挑战，本研究提出了一种新颖的同化框架，称为具有隐式神经表示的潜变同化（LAINR）。通过引入球面隐式神经表示（SINR）以及对训练的神经网络进行数据驱动的不确定性估计器，LAINR提高了同化过程的效率。实验结果表明，与基于自动编码器的现有方法相比，LAINR在准确性和效率方面具有一定优势。",
+    "tldr": "LAINR通过引入球面隐式神经表示（SINR）和数据驱动的不确定性估计器，提高了同化过程的效率，并在准确性和效率方面优于现有基于自动编码器的方法。",
+    "en_tdlr": "LAINR improves the efficiency of the assimilation process by introducing Spherical Implicit Neural Representations (SINR) and data-driven uncertainty estimator, showing advantages over existing methods based on AutoEncoders in terms of accuracy and efficiency."
+}

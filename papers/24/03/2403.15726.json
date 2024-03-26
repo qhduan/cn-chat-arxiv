@@ -1,0 +1,12 @@
+{
+    "title": "Convection-Diffusion Equation: A Theoretically Certified Framework for Neural Networks",
+    "abstract": "arXiv:2403.15726v1 Announce Type: new  Abstract: In this paper, we study the partial differential equation models of neural networks. Neural network can be viewed as a map from a simple base model to a complicate function. Based on solid analysis, we show that this map can be formulated by a convection-diffusion equation. This theoretically certified framework gives mathematical foundation and more understanding of neural networks. Moreover, based on the convection-diffusion equation model, we design a novel network structure, which incorporates diffusion mechanism into network architecture. Extensive experiments on both benchmark datasets and real-world applications validate the performance of the proposed model.",
+    "link": "https://arxiv.org/abs/2403.15726",
+    "context": "Title: Convection-Diffusion Equation: A Theoretically Certified Framework for Neural Networks\nAbstract: arXiv:2403.15726v1 Announce Type: new  Abstract: In this paper, we study the partial differential equation models of neural networks. Neural network can be viewed as a map from a simple base model to a complicate function. Based on solid analysis, we show that this map can be formulated by a convection-diffusion equation. This theoretically certified framework gives mathematical foundation and more understanding of neural networks. Moreover, based on the convection-diffusion equation model, we design a novel network structure, which incorporates diffusion mechanism into network architecture. Extensive experiments on both benchmark datasets and real-world applications validate the performance of the proposed model.",
+    "path": "papers/24/03/2403.15726.json",
+    "total_tokens": 727,
+    "translated_title": "对流扩散方程：神经网络的理论认证框架",
+    "translated_abstract": "在这篇论文中，我们研究了神经网络的偏微分方程模型。神经网络可以被看作是从一个简单的基础模型映射到一个复杂函数。通过扎实的分析，我们展示了这个映射可以被形式化为一个对流扩散方程。这个在理论上认证的框架为神经网络提供了数学基础和更多理解。此外，基于对流扩散方程模型，我们设计了一种新颖的网络结构，将扩散机制融入网络架构中。在基准数据集和真实应用中进行了大量实验，验证了所提出模型的性能。",
+    "tldr": "本文探讨了神经网络的偏微分方程模型，并提出了基于对流扩散方程的神经网络框架及结构设计，在理论上认证了神经网络的数学基础，实验证实了提出模型的性能。",
+    "en_tdlr": "This paper investigates the partial differential equation models of neural networks, proposes a neural network framework based on the convection-diffusion equation, and validates the performance of the proposed model through extensive experiments."
+}

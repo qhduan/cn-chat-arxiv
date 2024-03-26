@@ -1,0 +1,11 @@
+{
+    "title": "LLMs as Compiler for Arabic Programming Language",
+    "abstract": "arXiv:2403.16087v1 Announce Type: cross  Abstract: In this paper we introduce APL (Arabic Programming Language) that uses Large language models (LLM) as semi-compiler to covert Arabic text code to python code then run the code. Designing a full pipeline from the structure of the APL text then a prompt (using prompt engineering) then running the prodcued python code using PyRunner. This project has a three parts first python library, a playground with simple interface and this research paper.",
+    "link": "https://arxiv.org/abs/2403.16087",
+    "context": "Title: LLMs as Compiler for Arabic Programming Language\nAbstract: arXiv:2403.16087v1 Announce Type: cross  Abstract: In this paper we introduce APL (Arabic Programming Language) that uses Large language models (LLM) as semi-compiler to covert Arabic text code to python code then run the code. Designing a full pipeline from the structure of the APL text then a prompt (using prompt engineering) then running the prodcued python code using PyRunner. This project has a three parts first python library, a playground with simple interface and this research paper.",
+    "path": "papers/24/03/2403.16087.json",
+    "total_tokens": 562,
+    "translated_title": "LLM作为阿拉伯编程语言的编译器",
+    "translated_abstract": "在这篇论文中，我们介绍了APL (Arabic Programming Language)，它使用大型语言模型(LLM)作为半编译器，将阿拉伯文本代码转换为Python代码，然后运行该代码。设计了从APL文本结构到提示（使用提示工程）再到使用PyRunner运行生成的Python代码的完整流水线。该项目包括三部分：Python库，具有简单界面的游乐场和这篇研究论文。",
+    "tldr": "本文介绍了APL（阿拉伯编程语言），它使用LLM作为半编译器，将阿拉伯文本代码转换为Python代码并运行，构建了完整的流水线。"
+}

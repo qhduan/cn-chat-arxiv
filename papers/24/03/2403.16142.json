@@ -1,0 +1,12 @@
+{
+    "title": "What Happens to a Dataset Transformed by a Projection-based Concept Removal Method?",
+    "abstract": "arXiv:2403.16142v1 Announce Type: cross  Abstract: We investigate the behavior of methods that use linear projections to remove information about a concept from a language representation, and we consider the question of what happens to a dataset transformed by such a method. A theoretical analysis and experiments on real-world and synthetic data show that these methods inject strong statistical dependencies into the transformed datasets. After applying such a method, the representation space is highly structured: in the transformed space, an instance tends to be located near instances of the opposite label. As a consequence, the original labeling can in some cases be reconstructed by applying an anti-clustering method.",
+    "link": "https://arxiv.org/abs/2403.16142",
+    "context": "Title: What Happens to a Dataset Transformed by a Projection-based Concept Removal Method?\nAbstract: arXiv:2403.16142v1 Announce Type: cross  Abstract: We investigate the behavior of methods that use linear projections to remove information about a concept from a language representation, and we consider the question of what happens to a dataset transformed by such a method. A theoretical analysis and experiments on real-world and synthetic data show that these methods inject strong statistical dependencies into the transformed datasets. After applying such a method, the representation space is highly structured: in the transformed space, an instance tends to be located near instances of the opposite label. As a consequence, the original labeling can in some cases be reconstructed by applying an anti-clustering method.",
+    "path": "papers/24/03/2403.16142.json",
+    "total_tokens": 686,
+    "translated_title": "一种基于投影的概念去除方法对数据集的影响",
+    "translated_abstract": "我们研究了使用线性投影方法从语言表示中去除概念信息的方法的行为，并考虑了经过这种方法转换的数据集会发生什么。理论分析和对真实世界和合成数据的实验表明，这些方法会向转换后的数据集中注入强大的统计依赖性。应用此类方法后，表示空间具有高度结构化：在转换后的空间中，一个实例倾向于位于相反标签的实例附近。因此，在某些情况下，可以通过应用反聚类方法来重建原始标记。",
+    "tldr": "一种基于投影的概念去除方法会在转换后的数据集中注入强大的统计依赖性，并导致表示空间高度结构化，使得可以通过应用反聚类方法重建原始标记。",
+    "en_tdlr": "A projection-based concept removal method injects strong statistical dependencies into the transformed dataset, leading to a highly structured representation space where the original labeling can sometimes be reconstructed by applying an anti-clustering method."
+}

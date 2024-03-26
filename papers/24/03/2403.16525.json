@@ -1,0 +1,12 @@
+{
+    "title": "Deep Learning Based Measure of Name Concentration Risk",
+    "abstract": "arXiv:2403.16525v1 Announce Type: new  Abstract: We propose a new deep learning approach for the quantification of name concentration risk in loan portfolios. Our approach is tailored for small portfolios and allows for both an actuarial as well as a mark-to-market definition of loss. The training of our neural network relies on Monte Carlo simulations with importance sampling which we explicitly formulate for the CreditRisk${+}$ and the ratings-based CreditMetrics model. Numerical results based on simulated as well as real data demonstrate the accuracy of our new approach and its superior performance compared to existing analytical methods for assessing name concentration risk in small and concentrated portfolios.",
+    "link": "https://arxiv.org/abs/2403.16525",
+    "context": "Title: Deep Learning Based Measure of Name Concentration Risk\nAbstract: arXiv:2403.16525v1 Announce Type: new  Abstract: We propose a new deep learning approach for the quantification of name concentration risk in loan portfolios. Our approach is tailored for small portfolios and allows for both an actuarial as well as a mark-to-market definition of loss. The training of our neural network relies on Monte Carlo simulations with importance sampling which we explicitly formulate for the CreditRisk${+}$ and the ratings-based CreditMetrics model. Numerical results based on simulated as well as real data demonstrate the accuracy of our new approach and its superior performance compared to existing analytical methods for assessing name concentration risk in small and concentrated portfolios.",
+    "path": "papers/24/03/2403.16525.json",
+    "total_tokens": 758,
+    "translated_title": "基于深度学习的姓名集中风险度量方法",
+    "translated_abstract": "我们提出了一种新的基于深度学习的方法，用于量化贷款组合中的姓名集中风险。我们的方法针对小型组合进行了定制，允许损失的精算定义和按市场价值核算定义。我们的神经网络的训练依赖于重要性抽样的蒙特卡洛模拟，我们明确为CreditRisk${+}$和基于评级的CreditMetrics模型制定了这一过程。基于模拟和真实数据的数值结果显示了我们新方法的准确性，以及与现有分析方法相比，在评估小型和集中组合中的姓名集中风险方面表现出的卓越性能。",
+    "tldr": "提出了一种基于深度学习的方法，用于量化贷款组合中的姓名集中风险，通过重要性抽样的蒙特卡洛模拟训练神经网络，展示了其相比现有方法在评估小型和集中组合中的姓名集中风险方面的准确性和优越性能。",
+    "en_tdlr": "Introduced a deep learning approach for quantifying name concentration risk in loan portfolios, utilizing Monte Carlo simulations with importance sampling to train neural networks, demonstrating its accuracy and superior performance compared to existing methods in assessing name concentration risk in small and concentrated portfolios."
+}

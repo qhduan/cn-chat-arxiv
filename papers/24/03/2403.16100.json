@@ -1,0 +1,12 @@
+{
+    "title": "Specifying Agent Ethics (Blue Sky Ideas)",
+    "abstract": "arXiv:2403.16100v1 Announce Type: new  Abstract: We consider the question of what properties a Machine Ethics system should have. This question is complicated by the existence of ethical dilemmas with no agreed upon solution. We provide an example to motivate why we do not believe falling back on the elicitation of values from stakeholders is sufficient to guarantee correctness of such systems. We go on to define two broad categories of ethical property that have arisen in our own work and present a challenge to the community to approach this question in a more systematic way.",
+    "link": "https://arxiv.org/abs/2403.16100",
+    "context": "Title: Specifying Agent Ethics (Blue Sky Ideas)\nAbstract: arXiv:2403.16100v1 Announce Type: new  Abstract: We consider the question of what properties a Machine Ethics system should have. This question is complicated by the existence of ethical dilemmas with no agreed upon solution. We provide an example to motivate why we do not believe falling back on the elicitation of values from stakeholders is sufficient to guarantee correctness of such systems. We go on to define two broad categories of ethical property that have arisen in our own work and present a challenge to the community to approach this question in a more systematic way.",
+    "path": "papers/24/03/2403.16100.json",
+    "total_tokens": 593,
+    "translated_title": "指定代理人伦理（蓝天想法）",
+    "translated_abstract": "我们考虑机器伦理系统应该具备什么属性。这个问题由于存在无法达成一致解决方案的伦理困境而变得复杂。我们提供一个例子来激励我们为什么认为仅依赖利益相关者的价值观表达并不足以保证这类系统的正确性。我们继续定义了我们自己工作中出现的两类伦理属性，并向社区提出一个挑战，以更系统化的方式探讨这一问题。",
+    "tldr": "论文讨论了机器伦理系统应该具备的属性，并挑战社区以更系统化的方式探讨这个问题。",
+    "en_tdlr": "The paper discusses the properties a Machine Ethics system should have and challenges the community to approach this question in a more systematic way."
+}

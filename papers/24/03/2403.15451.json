@@ -1,0 +1,12 @@
+{
+    "title": "Towards Enabling FAIR Dataspaces Using Large Language Models",
+    "abstract": "arXiv:2403.15451v1 Announce Type: new  Abstract: Dataspaces have recently gained adoption across various sectors, including traditionally less digitized domains such as culture. Leveraging Semantic Web technologies helps to make dataspaces FAIR, but their complexity poses a significant challenge to the adoption of dataspaces and increases their cost. The advent of Large Language Models (LLMs) raises the question of how these models can support the adoption of FAIR dataspaces. In this work, we demonstrate the potential of LLMs in dataspaces with a concrete example. We also derive a research agenda for exploring this emerging field.",
+    "link": "https://arxiv.org/abs/2403.15451",
+    "context": "Title: Towards Enabling FAIR Dataspaces Using Large Language Models\nAbstract: arXiv:2403.15451v1 Announce Type: new  Abstract: Dataspaces have recently gained adoption across various sectors, including traditionally less digitized domains such as culture. Leveraging Semantic Web technologies helps to make dataspaces FAIR, but their complexity poses a significant challenge to the adoption of dataspaces and increases their cost. The advent of Large Language Models (LLMs) raises the question of how these models can support the adoption of FAIR dataspaces. In this work, we demonstrate the potential of LLMs in dataspaces with a concrete example. We also derive a research agenda for exploring this emerging field.",
+    "path": "papers/24/03/2403.15451.json",
+    "total_tokens": 679,
+    "translated_title": "通过大型语言模型实现FAIR数据空间的可行性",
+    "translated_abstract": "数据空间最近在各个领域都得到了采用，包括传统上数字化程度较低的领域，如文化领域。利用语义网技术有助于使数据空间更具FAIR性，但其复杂性对数据空间的采用构成了重大挑战，并增加了其成本。大型语言模型（LLMs）的出现引出了这样一个问题，即这些模型如何支持FAIR数据空间的采用。在这项工作中，我们通过一个具体示例展示了LLMs在数据空间中的潜力。我们还提出了一个研究议程，以探讨这一新兴领域。",
+    "tldr": "本研究展示了大型语言模型在数据空间中的潜力，并提出了进一步探索该领域的研究议程。",
+    "en_tdlr": "This work demonstrates the potential of Large Language Models in dataspaces with a concrete example and proposes a research agenda for further exploration in this emerging field."
+}

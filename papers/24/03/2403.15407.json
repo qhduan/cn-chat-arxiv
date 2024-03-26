@@ -1,0 +1,12 @@
+{
+    "title": "X-AMR Annotation Tool",
+    "abstract": "arXiv:2403.15407v1 Announce Type: cross  Abstract: This paper presents a novel Cross-document Abstract Meaning Representation (X-AMR) annotation tool designed for annotating key corpus-level event semantics. Leveraging machine assistance through the Prodigy Annotation Tool, we enhance the user experience, ensuring ease and efficiency in the annotation process. Through empirical analyses, we demonstrate the effectiveness of our tool in augmenting an existing event corpus, highlighting its advantages when integrated with GPT-4. Code and annotations: https://github.com/ahmeshaf/gpt_coref",
+    "link": "https://arxiv.org/abs/2403.15407",
+    "context": "Title: X-AMR Annotation Tool\nAbstract: arXiv:2403.15407v1 Announce Type: cross  Abstract: This paper presents a novel Cross-document Abstract Meaning Representation (X-AMR) annotation tool designed for annotating key corpus-level event semantics. Leveraging machine assistance through the Prodigy Annotation Tool, we enhance the user experience, ensuring ease and efficiency in the annotation process. Through empirical analyses, we demonstrate the effectiveness of our tool in augmenting an existing event corpus, highlighting its advantages when integrated with GPT-4. Code and annotations: https://github.com/ahmeshaf/gpt_coref",
+    "path": "papers/24/03/2403.15407.json",
+    "total_tokens": 628,
+    "translated_title": "X-AMR注释工具",
+    "translated_abstract": "本文介绍了一种新型的跨文档抽象意义表征（X-AMR）注释工具，旨在用于注释关键的语料库级事件语义。通过Prodigy注释工具提供的机器辅助，我们增强了用户体验，确保注释过程的简易性和高效性。通过实证分析，我们展示了我们的工具在增强现有事件语料库方面的有效性，突显了其与GPT-4集成时的优势。代码和注释：https://github.com/ahmeshaf/gpt_coref",
+    "tldr": "该论文介绍了一种新型的X-AMR注释工具，通过机器辅助提升用户体验，实现了对关键事件语义的注释，与GPT-4集成表现出色。",
+    "en_tdlr": "This paper introduces a novel X-AMR annotation tool that enhances user experience through machine assistance, aiming to annotate key corpus-level event semantics, showing effectiveness when integrated with GPT-4."
+}

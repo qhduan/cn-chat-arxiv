@@ -1,0 +1,12 @@
+{
+    "title": "RakutenAI-7B: Extending Large Language Models for Japanese",
+    "abstract": "arXiv:2403.15484v1 Announce Type: new  Abstract: We introduce RakutenAI-7B, a suite of Japanese-oriented large language models that achieve the best performance on the Japanese LM Harness benchmarks among the open 7B models. Along with the foundation model, we release instruction- and chat-tuned models, RakutenAI-7B-instruct and RakutenAI-7B-chat respectively, under the Apache 2.0 license.",
+    "link": "https://arxiv.org/abs/2403.15484",
+    "context": "Title: RakutenAI-7B: Extending Large Language Models for Japanese\nAbstract: arXiv:2403.15484v1 Announce Type: new  Abstract: We introduce RakutenAI-7B, a suite of Japanese-oriented large language models that achieve the best performance on the Japanese LM Harness benchmarks among the open 7B models. Along with the foundation model, we release instruction- and chat-tuned models, RakutenAI-7B-instruct and RakutenAI-7B-chat respectively, under the Apache 2.0 license.",
+    "path": "papers/24/03/2403.15484.json",
+    "total_tokens": 587,
+    "translated_title": "RakutenAI-7B：为日本语言扩展大型语言模型",
+    "translated_abstract": "我们介绍了RakutenAI-7B，这是一套以日本为导向的大型语言模型，在日本LM Harness基准测试中取得了最佳性能，优于开放的7B模型。除了基础模型外，我们还发布了根据指导和聊天进行调整的模型，分别是RakutenAI-7B-instruct和RakutenAI-7B-chat，使用Apache 2.0许可发布。",
+    "tldr": "RakutenAI-7B是一套日本导向的大型语言模型，在日本LM Harness基准测试中表现最好，分别发布了指导和聊天调整的模型。",
+    "en_tdlr": "RakutenAI-7B is a suite of Japanese-oriented large language models that achieve the best performance on the Japanese LM Harness benchmarks among the open 7B models, with instruction- and chat-tuned models released."
+}

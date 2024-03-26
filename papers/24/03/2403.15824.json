@@ -1,0 +1,12 @@
+{
+    "title": "Carbon Intensity-Aware Adaptive Inference of DNNs",
+    "abstract": "arXiv:2403.15824v1 Announce Type: cross  Abstract: DNN inference, known for its significant energy consumption and the resulting high carbon footprint, can be made more sustainable by adapting model size and accuracy to the varying carbon intensity throughout the day. Our heuristic algorithm uses larger, high-accuracy models during low-intensity periods and smaller, lower-accuracy ones during high-intensity periods. We also introduce a metric, carbon-emission efficiency, which quantitatively measures the efficacy of adaptive model selection in terms of carbon footprint. The evaluation showed that the proposed approach could improve the carbon emission efficiency in improving the accuracy of vision recognition services by up to 80%.",
+    "link": "https://arxiv.org/abs/2403.15824",
+    "context": "Title: Carbon Intensity-Aware Adaptive Inference of DNNs\nAbstract: arXiv:2403.15824v1 Announce Type: cross  Abstract: DNN inference, known for its significant energy consumption and the resulting high carbon footprint, can be made more sustainable by adapting model size and accuracy to the varying carbon intensity throughout the day. Our heuristic algorithm uses larger, high-accuracy models during low-intensity periods and smaller, lower-accuracy ones during high-intensity periods. We also introduce a metric, carbon-emission efficiency, which quantitatively measures the efficacy of adaptive model selection in terms of carbon footprint. The evaluation showed that the proposed approach could improve the carbon emission efficiency in improving the accuracy of vision recognition services by up to 80%.",
+    "path": "papers/24/03/2403.15824.json",
+    "total_tokens": 771,
+    "translated_title": "基于碳排放强度的深度神经网络自适应推断",
+    "translated_abstract": "DNN推断以其巨大的能耗及由此产生的高碳足迹而闻名，通过根据一天中碳排放强度的变化调整模型大小和准确性，可以使其更加可持续。我们的启发式算法在低强度时段使用更大、更高准确性的模型，在高强度时段使用更小、更低准确性的模型。我们还引入了一个指标，即碳排放效率，以量化自适应模型选择在碳足迹方面的有效性。评估结果表明，所提出的方法能够将视觉识别服务的准确性提升高达80%以上。",
+    "tldr": "通过基于碳排放强度的自适应模型选择，本研究提出的方法能够在低碳强度时段使用更高准确性的模型，在高碳强度时段使用更低准确性的模型，有效改善视觉识别服务的准确性，最多提高碳排放效率达80%。",
+    "en_tdlr": "By adapting model size and accuracy to the varying carbon intensity throughout the day, the proposed method improves the accuracy of vision recognition services by using higher-accuracy models during low-intensity carbon periods and lower-accuracy models during high-intensity periods, achieving up to an 80% increase in carbon emission efficiency."
+}

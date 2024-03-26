@@ -1,0 +1,12 @@
+{
+    "title": "A Transformer approach for Electricity Price Forecasting",
+    "abstract": "arXiv:2403.16108v1 Announce Type: cross  Abstract: This paper presents a novel approach to electricity price forecasting (EPF) using a pure Transformer model. As opposed to other alternatives, no other recurrent network is used in combination to the attention mechanism. Hence, showing that the attention layer is enough for capturing the temporal patterns. The paper also provides fair comparison of the models using the open-source EPF toolbox and provide the code to enhance reproducibility and transparency in EPF research. The results show that the Transformer model outperforms traditional methods, offering a promising solution for reliable and sustainable power system operation.",
+    "link": "https://arxiv.org/abs/2403.16108",
+    "context": "Title: A Transformer approach for Electricity Price Forecasting\nAbstract: arXiv:2403.16108v1 Announce Type: cross  Abstract: This paper presents a novel approach to electricity price forecasting (EPF) using a pure Transformer model. As opposed to other alternatives, no other recurrent network is used in combination to the attention mechanism. Hence, showing that the attention layer is enough for capturing the temporal patterns. The paper also provides fair comparison of the models using the open-source EPF toolbox and provide the code to enhance reproducibility and transparency in EPF research. The results show that the Transformer model outperforms traditional methods, offering a promising solution for reliable and sustainable power system operation.",
+    "path": "papers/24/03/2403.16108.json",
+    "total_tokens": 632,
+    "translated_title": "一种用于电力价格预测的Transformer方法",
+    "translated_abstract": "本文提出了一种使用纯Transformer模型进行电力价格预测（EPF）的新方法。与其他方法不同，没有使用其他递归网络结合注意力机制。因此，表明注意力层足以捕捉时间模式。该论文还通过使用开源EPF工具进行了对模型的公平比较，并提供了代码以增强EPF研究的可再现性和透明度。结果表明，Transformer模型优于传统方法，为可靠和可持续的电力系统运行提供了一种有希望的解决方案。",
+    "tldr": "这种独特的Transformer模型在电力价格预测中取得了更好的表现，为可靠和可持续的电力系统运行提供了有前景的解决方案。",
+    "en_tdlr": "The unique Transformer model outperforms traditional methods in electricity price forecasting, offering a promising solution for reliable and sustainable power system operation."
+}

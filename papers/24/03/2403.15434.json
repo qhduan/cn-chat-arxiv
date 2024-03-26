@@ -1,0 +1,12 @@
+{
+    "title": "ChatPattern: Layout Pattern Customization via Natural Language",
+    "abstract": "arXiv:2403.15434v1 Announce Type: cross  Abstract: Existing works focus on fixed-size layout pattern generation, while the more practical free-size pattern generation receives limited attention. In this paper, we propose ChatPattern, a novel Large-Language-Model (LLM) powered framework for flexible pattern customization. ChatPattern utilizes a two-part system featuring an expert LLM agent and a highly controllable layout pattern generator. The LLM agent can interpret natural language requirements and operate design tools to meet specified needs, while the generator excels in conditional layout generation, pattern modification, and memory-friendly patterns extension. Experiments on challenging pattern generation setting shows the ability of ChatPattern to synthesize high-quality large-scale patterns.",
+    "link": "https://arxiv.org/abs/2403.15434",
+    "context": "Title: ChatPattern: Layout Pattern Customization via Natural Language\nAbstract: arXiv:2403.15434v1 Announce Type: cross  Abstract: Existing works focus on fixed-size layout pattern generation, while the more practical free-size pattern generation receives limited attention. In this paper, we propose ChatPattern, a novel Large-Language-Model (LLM) powered framework for flexible pattern customization. ChatPattern utilizes a two-part system featuring an expert LLM agent and a highly controllable layout pattern generator. The LLM agent can interpret natural language requirements and operate design tools to meet specified needs, while the generator excels in conditional layout generation, pattern modification, and memory-friendly patterns extension. Experiments on challenging pattern generation setting shows the ability of ChatPattern to synthesize high-quality large-scale patterns.",
+    "path": "papers/24/03/2403.15434.json",
+    "total_tokens": 698,
+    "translated_title": "ChatPattern: 利用自然语言进行布局模式定制",
+    "translated_abstract": "现有的作品主要集中在生成固定大小的布局模式，而更实用的自由大小模式生成受到了有限的关注。在本文中，我们提出了ChatPattern，这是一个新颖的基于大语言模型（LLM）的框架，用于灵活的模式定制。ChatPattern利用一个包含专家LLM代理和一个高度可控的布局模式生成器的双部分系统。LLM代理可以解释自然语言要求并操作设计工具以满足指定需求，而生成器擅长于条件布局生成、模式修改和内存友好型模式扩展。在具有挑战性的模式生成设置上的实验表明了ChatPattern合成高质量大规模模式的能力。",
+    "tldr": "ChatPattern利用大语言模型（LLM）的框架实现了灵活的布局模式定制，能够通过自然语言要求生成高质量大规模模式。",
+    "en_tdlr": "ChatPattern enables flexible layout pattern customization through natural language requirements, generating high-quality large-scale patterns."
+}

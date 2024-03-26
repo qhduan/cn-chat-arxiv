@@ -1,0 +1,12 @@
+{
+    "title": "On the Detection of Anomalous or Out-Of-Distribution Data in Vision Models Using Statistical Techniques",
+    "abstract": "arXiv:2403.15497v1 Announce Type: cross  Abstract: Out-of-distribution data and anomalous inputs are vulnerabilities of machine learning systems today, often causing systems to make incorrect predictions. The diverse range of data on which these models are used makes detecting atypical inputs a difficult and important task. We assess a tool, Benford's law, as a method used to quantify the difference between real and corrupted inputs. We believe that in many settings, it could function as a filter for anomalous data points and for signalling out-of-distribution data. We hope to open a discussion on these applications and further areas where this technique is underexplored.",
+    "link": "https://arxiv.org/abs/2403.15497",
+    "context": "Title: On the Detection of Anomalous or Out-Of-Distribution Data in Vision Models Using Statistical Techniques\nAbstract: arXiv:2403.15497v1 Announce Type: cross  Abstract: Out-of-distribution data and anomalous inputs are vulnerabilities of machine learning systems today, often causing systems to make incorrect predictions. The diverse range of data on which these models are used makes detecting atypical inputs a difficult and important task. We assess a tool, Benford's law, as a method used to quantify the difference between real and corrupted inputs. We believe that in many settings, it could function as a filter for anomalous data points and for signalling out-of-distribution data. We hope to open a discussion on these applications and further areas where this technique is underexplored.",
+    "path": "papers/24/03/2403.15497.json",
+    "total_tokens": 709,
+    "translated_title": "通过统计技术在视觉模型中检测异常或超出分布的数据",
+    "translated_abstract": "超出分布的数据和异常输入是当今机器学习系统的漏洞，经常导致系统进行错误预测。这些模型使用的数据范围广泛，因此检测非典型输入是一项困难且重要的任务。我们评估了本福特定律作为一种用于量化真实和受损输入之间差异的方法。我们认为，在许多情境下，它可以作为异常数据点的过滤器，标志着超出分布的数据。我们希望就这些应用和这种技术尚未被充分探索的领域进行讨论。",
+    "tldr": "本文评估了Benford's law作为一种检测视觉模型中异常或超出分布数据的方法，探讨了其在过滤异常数据点和标记超出分布数据方面的潜在应用。",
+    "en_tdlr": "This paper evaluates Benford's law as a technique for detecting anomalous or out-of-distribution data in vision models, discussing its potential applications in filtering anomalous data points and signaling out-of-distribution data."
+}

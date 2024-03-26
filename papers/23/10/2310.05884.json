@@ -1,0 +1,11 @@
+{
+    "title": "A Meta-Learning Perspective on Transformers for Causal Language Modeling",
+    "abstract": "arXiv:2310.05884v2 Announce Type: replace-cross  Abstract: The Transformer architecture has become prominent in developing large causal language models. However, mechanisms to explain its capabilities are not well understood. Focused on the training process, here we establish a meta-learning view of the Transformer architecture when trained for the causal language modeling task, by explicating an inner optimization process within the Transformer. Further, within the inner optimization, we discover and theoretically analyze a special characteristic of the norms of learned token representations within Transformer-based causal language models. Our analysis is supported by experiments in various settings.",
+    "link": "https://arxiv.org/abs/2310.05884",
+    "context": "Title: A Meta-Learning Perspective on Transformers for Causal Language Modeling\nAbstract: arXiv:2310.05884v2 Announce Type: replace-cross  Abstract: The Transformer architecture has become prominent in developing large causal language models. However, mechanisms to explain its capabilities are not well understood. Focused on the training process, here we establish a meta-learning view of the Transformer architecture when trained for the causal language modeling task, by explicating an inner optimization process within the Transformer. Further, within the inner optimization, we discover and theoretically analyze a special characteristic of the norms of learned token representations within Transformer-based causal language models. Our analysis is supported by experiments in various settings.",
+    "path": "papers/23/10/2310.05884.json",
+    "total_tokens": 672,
+    "translated_title": "从元学习视角看Transformer用于因果语言建模",
+    "translated_abstract": "Transformer架构在开发大型因果语言模型方面变得显著。然而，解释其能力的机制尚不为人所了解。本文侧重于训练过程，建立了一个元学习视角来探究Transformer架构在因果语言建模任务训练时的内部优化过程，详细说明了Transformer内部的一个优化过程。此外，在这个内部优化过程中，我们发现并理论分析了Transformer-based因果语言模型中学习到的token表示的范数的特殊特征。我们的分析得到了各种设置中的实验证实支持。",
+    "tldr": "本文从元学习视角探讨了Transformer用于因果语言建模时的内部优化过程，发现并分析了Transformer-based因果语言模型中学习到的token表示范数的特殊特征。"
+}

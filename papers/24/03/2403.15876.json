@@ -1,0 +1,12 @@
+{
+    "title": "Cognitive resilience: Unraveling the proficiency of image-captioning models to interpret masked visual content",
+    "abstract": "arXiv:2403.15876v1 Announce Type: cross  Abstract: This study explores the ability of Image Captioning (IC) models to decode masked visual content sourced from diverse datasets. Our findings reveal the IC model's capability to generate captions from masked images, closely resembling the original content. Notably, even in the presence of masks, the model adeptly crafts descriptive textual information that goes beyond what is observable in the original image-generated captions. While the decoding performance of the IC model experiences a decline with an increase in the masked region's area, the model still performs well when important regions of the image are not masked at high coverage.",
+    "link": "https://arxiv.org/abs/2403.15876",
+    "context": "Title: Cognitive resilience: Unraveling the proficiency of image-captioning models to interpret masked visual content\nAbstract: arXiv:2403.15876v1 Announce Type: cross  Abstract: This study explores the ability of Image Captioning (IC) models to decode masked visual content sourced from diverse datasets. Our findings reveal the IC model's capability to generate captions from masked images, closely resembling the original content. Notably, even in the presence of masks, the model adeptly crafts descriptive textual information that goes beyond what is observable in the original image-generated captions. While the decoding performance of the IC model experiences a decline with an increase in the masked region's area, the model still performs well when important regions of the image are not masked at high coverage.",
+    "path": "papers/24/03/2403.15876.json",
+    "total_tokens": 724,
+    "translated_title": "认知韧性：揭示图像字幕模型解释遮蔽视觉内容的熟练度",
+    "translated_abstract": "这项研究探讨了图像字幕（IC）模型解码来自不同数据集的遮蔽视觉内容的能力。我们的发现揭示了IC模型能够从遮蔽图像生成字幕，这些字幕与原始内容非常相似。值得注意的是，即使存在遮罩，该模型仍能熟练地生成超越原始图像可观察范围的描述性文本信息。虽然IC模型的解码性能随着遮蔽区域面积增加而下降，但在重要区域未被高度遮蔽时，模型仍能表现良好。",
+    "tldr": "该研究发现图像字幕模型在解释遮蔽的视觉内容时表现出很强的能力，即使部分区域被遮蔽，模型仍能准确生成描述性的文本信息。",
+    "en_tdlr": "The study reveals the strong ability of image captioning models to interpret masked visual content, generating descriptive textual information accurately even when parts of the image are masked."
+}

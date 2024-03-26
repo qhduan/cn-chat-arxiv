@@ -1,0 +1,12 @@
+{
+    "title": "Apriori Knowledge in an Era of Computational Opacity: The Role of AI in Mathematical Discovery",
+    "abstract": "arXiv:2403.15437v1 Announce Type: new  Abstract: Computation is central to contemporary mathematics. Many accept that we can acquire genuine mathematical knowledge of the Four Color Theorem from Appel and Haken's program insofar as it is simply a repetitive application of human forms of mathematical reasoning. Modern LLMs / DNNs are, by contrast, opaque to us in significant ways, and this creates obstacles in obtaining mathematical knowledge from them. We argue, however, that if a proof-checker automating human forms of proof-checking is attached to such machines, then we can obtain apriori mathematical knowledge from them, even though the original machines are entirely opaque to us and the proofs they output are not human-surveyable.",
+    "link": "https://arxiv.org/abs/2403.15437",
+    "context": "Title: Apriori Knowledge in an Era of Computational Opacity: The Role of AI in Mathematical Discovery\nAbstract: arXiv:2403.15437v1 Announce Type: new  Abstract: Computation is central to contemporary mathematics. Many accept that we can acquire genuine mathematical knowledge of the Four Color Theorem from Appel and Haken's program insofar as it is simply a repetitive application of human forms of mathematical reasoning. Modern LLMs / DNNs are, by contrast, opaque to us in significant ways, and this creates obstacles in obtaining mathematical knowledge from them. We argue, however, that if a proof-checker automating human forms of proof-checking is attached to such machines, then we can obtain apriori mathematical knowledge from them, even though the original machines are entirely opaque to us and the proofs they output are not human-surveyable.",
+    "path": "papers/24/03/2403.15437.json",
+    "total_tokens": 735,
+    "translated_title": "在计算不透明时代的先验知识：人工智能在数学发现中的作用",
+    "translated_abstract": "计算在当代数学中起着核心作用。许多人认为，我们可以从Appel和Haken的程序中获得四色定理的真正数学知识，因为这只是一种重复应用人类形式的数学推理。然而，相比之下，现代LLMs / DNNs在很大程度上对我们不透明，这在从它们那里获取数学知识方面产生了障碍。我们认为，如果给这些机器添加自动化人类形式的证明检查器，那么我们可以从中获得先验数学知识，即使原始机器对我们完全不透明，它们输出的证明也无法由人类查看。",
+    "tldr": "通过给现代人工智能模型添加自动化人类形式的证明检查器，我们可以从它们那里获取先验数学知识，即使这些机器完全对我们不透明。",
+    "en_tdlr": "By attaching an automated human-like proof-checker to modern AI models, we can obtain apriori mathematical knowledge from them, even though these machines are entirely opaque to us."
+}

@@ -2,237 +2,213 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Human behaviour through a LENS: How Linguistic content triggers Emotions and Norms and determines Strategy choices](https://arxiv.org/abs/2403.15293) | 该研究提出了一个名为LENS的框架，指出语言描述会触发情绪反应和潜在行为规范，从而影响个体的战略选择。 |
-| [^2] | [Measuring Gender and Racial Biases in Large Language Models](https://arxiv.org/abs/2403.15281) | 研究发现在高风险决策中，OpenAI的GPT语言模型对于具有类似背景和技能的女性候选人评分偏高，而对于类似资质的黑人男性候选人评分较低。 |
-| [^3] | [AI Exposure and Strategic Positioning on an Online Work Platform](https://arxiv.org/abs/2403.15262) | 暴露于生成式AI技术的自由职业者在在线工作平台上具有更积极的战略行为，更倾向于在特定领域集中申请工作职位。 |
-| [^4] | [Robust Utility Optimization via a GAN Approach](https://arxiv.org/abs/2403.15243) | 提出了一种生成对抗网络（GAN）方法，用于解决一般和现实设置下的稳健效用优化问题，该方法在实证研究中表现出色，能在没有已知最佳策略的情况下胜过所有其他参考策略 |
-| [^5] | [Teamwork and Spillover Effects in Performance Evaluations](https://arxiv.org/abs/2403.15200) | 同事绩效在团队合作环境中对个人绩效评估产生溢出效应，对经理决策和第三方专家评估均产生显著影响，突出了同事在职业晋升中的重要作用。 |
-| [^6] | [Nonlinear shifts and dislocations in financial market structure and composition](https://arxiv.org/abs/2403.15163) | 通过开发新的数学技术，识别金融市场中的非线性转变，研究新的市场部门的网络结构，以及分析不同投资组合产生的夏普比率分布。 |
-| [^7] | [A Taxmans guide to taxation of crypto assets](https://arxiv.org/abs/2403.15074) | 本文探讨了加密资产的工作原理以及与税收问题相关联的内容 |
-| [^8] | [Construction of a Japanese Financial Benchmark for Large Language Models](https://arxiv.org/abs/2403.15062) | 通过构建针对日本金融领域的多任务基准并对多模型进行测试，证实了GPT-4表现出色，该基准有效区分了各性能范围内模型的基准分数。 |
-| [^9] | [A Markov approach to credit rating migration conditional on economic states](https://arxiv.org/abs/2403.14868) | 该论文提出了一种考虑经济状态波动对违约概率影响的信用评级迁移模型，使用马尔可夫链来描述经济状态和评级的联合过程，并探讨了不同评级哲学如时点评级和整个周期评级。 |
-| [^10] | [The Power of Linear Programming in Sponsored Listings Ranking: Evidence from Field Experiments](https://arxiv.org/abs/2403.14862) | 线性规划在赞助列表排名中的应用为解决在线市场中的排名挑战提供了有力工具 |
-| [^11] | [On the Hull-White model with volatility smile for Valuation Adjustments](https://arxiv.org/abs/2403.14841) | 通过引入具有状态相关系数的SDE和RAnD参数化原始模型，提出了能够有效半解析校准欧式掉期的rHW模型。 |
-| [^12] | [Six Levels of Privacy: A Framework for Financial Synthetic Data](https://arxiv.org/abs/2403.14724) | 该论文介绍了一种用于金融合成数据的“隐私层次”层级，有助于评估隐私保护程度和分类生成方法。 |
-| [^13] | [Chain-structured neural architecture search for financial time series forecasting](https://arxiv.org/abs/2403.14695) | 在金融时间序列预测领域，比较了贝叶斯优化、超带方法和强化学习等神经架构搜索策略。 |
-| [^14] | [Can a GPT4-Powered AI Agent Be a Good Enough Performance Attribution Analyst?](https://arxiv.org/abs/2403.10482) | 大型语言模型和AI代理的整合在绩效归因分析领域标志着一项开创性发展，能自动化和增强投资组合绩效归因分析。 |
-| [^15] | [Path-dependency of capital return in periodic growth processes](https://arxiv.org/abs/2403.08678) | 本研究发现，在周期性增长过程中，资本化的期望值取决于路径，从而导致资本的回报率和时间平均回报率取决于路径，且内部收益率与资本回报率的期望值不同。 |
-| [^16] | [New Concept for the Value Function of Prospect Theory](https://arxiv.org/abs/2211.00131) | 该研究提出了一个新概念的价值函数，可能具有神经突，显示出变化和行为突变。 |
-| [^17] | [Stochastic PDEs for large portfolios with general mean-reverting volatility processes](https://arxiv.org/abs/1906.05898) | 该研究提出了一个结构性随机波动率模型，用于大型信用风险资产组合的损失建模，并证明了在投资组合规模变大时系统会收敛，同时提出了一种密度方程，描述了经验测度过程的极限情况，并且解决方案在特殊加权Sobolev空间中定义。 |
+| [^1] | [Economic DAO Governance: A Contestable Control Approach](https://arxiv.org/abs/2403.16980) | 提出了一种利用顺序拍卖机制的经济DAO治理新方法，解决了DAO面临的控制问题，既避免了公共选择问题，又能促进价值增长和投资。 |
+| [^2] | [The Costs of Competition in Distributing Scarce Research Funds](https://arxiv.org/abs/2403.16934) | 分析竞争性研究资金的分配，探讨竞争资金的经济成本，影响风险研究的资金竞争，以及竞争资金环境对科学家和伦理问题的影响。 |
+| [^3] | [Deep Learning Based Measure of Name Concentration Risk](https://arxiv.org/abs/2403.16525) | 提出了一种基于深度学习的方法，用于量化贷款组合中的姓名集中风险，通过重要性抽样的蒙特卡洛模拟训练神经网络，展示了其相比现有方法在评估小型和集中组合中的姓名集中风险方面的准确性和优越性能。 |
+| [^4] | [Determinants of Uruguay's Real Effective Exchange Rate: A Mundell-Fleming Model Approach](https://arxiv.org/abs/2403.16452) | 研究使用扩展的门德尔-弗莱明模型分析了影响乌拉圭实际有效汇率的因素，结果表明美国贷款利率、通货膨胀和货币供应量的增加与实际有效汇率贬值有关，这与门德尔-弗莱明模型关于浮动汇率的开放经济的理论预期一致。 |
+| [^5] | [Workplace sustainability or financial resilience? Composite-financial resilience index](https://arxiv.org/abs/2403.16296) | 本文研究了企业的财务弹性和职场弹性，提出了综合财务弹性指数作为灾害风险的潜在衡量指标，在COVID-19时代职场弹性可能受到公司财务状况的影响。 |
+| [^6] | [Rank-Dependent Predictable Forward Performance Processes](https://arxiv.org/abs/2403.16228) | 提出了一种基于排名依赖效用的新型可预测前向表现过程，通过解决广义的积分方程来构造这些过程，并提出了一种用Volterra方程理论解决积分方程的新方法。 |
+| [^7] | [Crypto Inverse-Power Options and Fractional Stochastic Volatility](https://arxiv.org/abs/2403.16006) | 本文介绍了一个包含分数随机波动性的解析模型框架，特别关注逆期权，为减轻加密货币汇率风险和调整风险敞口提供了功率类型的泛化逆期权以及相应的定价-套期保值公式。 |
+| [^8] | [Markovian projections for It\^o semimartingales with jumps](https://arxiv.org/abs/2403.15980) | 该论文研究了具有跳跃项的Ito半鞅的马尔可夫投影，提出了解决非局部FPKEs方程的一维边际分布流，以及如何在建立具有局部和随机特征的校准扩散/跳跃模型中应用马尔可夫投影。 |
+| [^9] | [Hedge Fund Index Rules and Construction](https://arxiv.org/abs/2403.15925) | 提出了一种构建对冲基金指数的方法，可以更好地跟踪对冲基金投资表现，允许对冲基金直接对冲与指数相关的产品暴露。 |
+| [^10] | [On Merton's Optimal Portfolio Problem under Sporadic Bankruptcy](https://arxiv.org/abs/2403.15923) | 本文研究了在股票市场遵循几何布朗运动并且遵循恒定利率连续复利的无风险资产的情况下，考虑股票可能在一定随机时间内破产的梅顿最优投资组合问题。通过新型哈密顿-雅可比-贝尔曼方程，将问题形式化为受控马尔可夫扩散，并且严格推导了一个新版本的梅顿比率，最终通过验证定理验证了该模型在现实世界中的适用性。 |
+| [^11] | [Anticipatory Gains and Event-Driven Losses in Blockchain-Based Fan Tokens: Evidence from the FIFA World Cup](https://arxiv.org/abs/2403.15810) | 该研究调查了区块链球迷代币在2022年世界杯比赛中的表现，发现球迷代币在比赛前六个月出现反弹，但随着比赛进行，回报率持续下降，交易量上升，尤其是在高赌注比赛中的失败引起了更严重的损失。 |
+| [^12] | [Deep Limit Order Book Forecasting](https://arxiv.org/abs/2403.09267) | 该研究利用深度学习方法预测纳斯达克交易所股票的限价订单簿中间价格变动，提出了一个创新的操作框架来评估预测的实用性。 |
+| [^13] | [Market Misconduct in Decentralized Finance (DeFi): Analysis, Regulatory Challenges and Policy Implications](https://arxiv.org/abs/2311.17715) | 该论文探讨了区块链金融中的市场不端行为（DeFi）问题，提出了全面定义和分类，通过比较分析和实证研究揭示了其特点和社会影响，同时探讨了DeFi监管框架所面临的挑战。 |
+| [^14] | [New Concept for the Value Function of Prospect Theory](https://arxiv.org/abs/2211.00131) | 该研究提出了一个新概念的价值函数，可能具有神经突，显示出变化和行为突变。 |
+| [^15] | [Price and Payoff Autocorrelations in a Multi-Period Consumption-Based Asset Pricing Model](https://arxiv.org/abs/2204.07506) | 多期消费资产定价模型的基本定价方程受到价格和回报自相关性的影响，揭示了其与其他资产定价模型的关联。 |
+| [^16] | [Theoretical Economics and the Second-Order Economic Theory. What is it?](https://arxiv.org/abs/2112.04566) | 二阶经济理论探讨了由经济体交易的平方和构成的二阶经济变量对宏观经济变量的影响。 |
+| [^17] | [A prototype software framework for transparent, reusable and updatable computational health economic models.](http://arxiv.org/abs/2310.14138) | 这个论文提出了一个计算健康经济模型的原型软件框架，并提取了六个评估标准，旨在促进透明、可重用和可更新的模型开发，以满足社会需求。 |
+| [^18] | [The Distributional Impact of Price Inflation in Pakistan: A Case Study of a New Price Focused Microsimulation Framework, PRICES.](http://arxiv.org/abs/2310.00231) | 本研究利用微模拟模型分析了巴基斯坦价格变动的分布影响，特别关注能源和食品价格的变动。结果表明，能源价格对通货膨胀带来的福利损失的重要性有限。 |
+| [^19] | [Analytical valuation of vulnerable derivative contracts with bilateral cash flows under credit, funding and wrong-way risks.](http://arxiv.org/abs/2308.10568) | 我们研究了存在信用、资金和反向风险的双边现金流易损衍生品合约的估值问题，并开发了一个闭合形式的估值公式和二阶近似方法。通过使用特定的资金策略，我们得到了违约前估值的通用概率表示，并将其应用于股票远期合约的估值。 |
+| [^20] | [Quantum Monte Carlo simulations for financial risk analytics: scenario generation for equity, rate, and credit risk factors.](http://arxiv.org/abs/2303.09682) | 本论文提出了一种用于金融风险分析的量子蒙特卡罗模拟方法，其中将情景生成纳入到量子计算中，模拟了风险因素随时间的演变，并将其馈送到QMC模拟中，实现估算金融资产组合的风险价值，相较于传统蒙特卡罗模拟提供了高达800倍的速度提升。 |
+| [^21] | [The welfare effects of nonlinear health dynamics.](http://arxiv.org/abs/2207.03816) | 这项研究通过估计一个非参数模型，研究了非线性健康动态对经济结果的影响。结果表明，不良健康冲击对身体健康较差的人的长期经济效应更为严重，并增加了资产积累差距。 |
 
 # 详细
 
-[^1]: 透过镜头看人类行为：语言内容如何触发情绪和规范，并决定策略选择
+[^1]: 经济DAO治理：一种可争夺控制方法
 
-    Human behaviour through a LENS: How Linguistic content triggers Emotions and Norms and determines Strategy choices
+    Economic DAO Governance: A Contestable Control Approach
 
-    [https://arxiv.org/abs/2403.15293](https://arxiv.org/abs/2403.15293)
+    [https://arxiv.org/abs/2403.16980](https://arxiv.org/abs/2403.16980)
 
-    该研究提出了一个名为LENS的框架，指出语言描述会触发情绪反应和潜在行为规范，从而影响个体的战略选择。
-
-    
-
-    在过去的二十年里，越来越多的实验研究证明，语言框架影响了经济博弈中人类行为，超越了可用行动的经济后果。本文提出了一个超越传统基于结果偏好模型的新框架。根据LENS模型，对决策问题的语言描述会触发情绪反应并暗示潜在的行为规范，这些规范再相互作用来塑造个体的战略选择。本文审查了支持LENS模型每个路径的实验证据。此外，它确定并讨论了一些由该模型引申出的重要研究问题，指向未来研究的方向。
-
-    arXiv:2403.15293v1 Announce Type: new  Abstract: Over the last two decades, a growing body of experimental research has provided evidence that linguistic frames influence human behaviour in economic games, beyond the economic consequences of the available actions. This article proposes a novel framework that transcends the traditional confines of outcome-based preference models. According to the LENS model, the Linguistic description of the decision problem triggers Emotional responses and suggests potential Norms of behaviour, which then interact to shape an individual's Strategic choice. The article reviews experimental evidence that supports each path of the LENS model. Furthermore, it identifies and discusses several critical research questions that arise from this model, pointing towards avenues for future inquiry.
-    
-[^2]: 在大型语言模型中测量性别和种族偏见
-
-    Measuring Gender and Racial Biases in Large Language Models
-
-    [https://arxiv.org/abs/2403.15281](https://arxiv.org/abs/2403.15281)
-
-    研究发现在高风险决策中，OpenAI的GPT语言模型对于具有类似背景和技能的女性候选人评分偏高，而对于类似资质的黑人男性候选人评分较低。
+    提出了一种利用顺序拍卖机制的经济DAO治理新方法，解决了DAO面临的控制问题，既避免了公共选择问题，又能促进价值增长和投资。
 
     
 
-    在传统的决策过程中，人类决策者的社会偏见可能导致妇女、种族或少数民族等代表性社会群体获得不平等的经济成果。最近，基于大型语言模型的人工智能的增长暗示着潜在的从基于人类到基于 AI 的决策过程的转变。这将如何影响社会群体之间的分配结果？在这里，我们在一个高风险的决策环境中调查了 OpenAI 的 GPT（一种广泛使用的 LLM）的性别和种族偏见，具体评估了来自不同社会群体的应聘者。指示 GPT对约361000份具有随机社会身份的简历进行评分后，我们发现该 LLM 对具有类似工作经验、教育和技能的女性候选人给予更高的评分，而对具有相当资质的黑人男性候选人给予较低的评分。这些偏见可能导致...（文本截断）
+    在本文中，我们提出了一种新形式的DAO治理，利用顺序拍卖机制来克服DAO出现的根深蒂固的控制问题，通过创建一个临时可争夺控制的制度。这种机制避免了投票方法固有的潜在公共选择问题，同时提供了一个可以增强和确保DAO投票和其他DAO非市场治理程序固有价值的工具。它对空头投票具有鲁棒性，且代码可行。它促进了DAO在面对不同监管方法时实现其规范和运营目标的能力。设计是将控制权转移给拥有最有前途商业计划的一方，同时以一种有利于促进其他方投资的方式分配剩余价值。
 
-    arXiv:2403.15281v1 Announce Type: new  Abstract: In traditional decision making processes, social biases of human decision makers can lead to unequal economic outcomes for underrepresented social groups, such as women, racial or ethnic minorities. Recently, the increasing popularity of Large language model based artificial intelligence suggests a potential transition from human to AI based decision making. How would this impact the distributional outcomes across social groups? Here we investigate the gender and racial biases of OpenAIs GPT, a widely used LLM, in a high stakes decision making setting, specifically assessing entry level job candidates from diverse social groups. Instructing GPT to score approximately 361000 resumes with randomized social identities, we find that the LLM awards higher assessment scores for female candidates with similar work experience, education, and skills, while lower scores for black male candidates with comparable qualifications. These biases may res
+    arXiv:2403.16980v1 Announce Type: cross  Abstract: In this article, we propose a new form of DAO governance that uses a sequential auction mechanism to overcome entrenched control issues that have emerged for DAOs by creating a regime of temporary contestable control. The mechanism avoids potential public choice problems inherent in voting approaches but at the same time provides a vehicle that can enhance and secure value than inheres to DAO voting and other DAO non-market governance procedures. It is robust to empty voting and is code feasible. It facilitates the ability of DAOs to meet their normative and operational goals in the face of diverse regulatory approaches. Designed to shift control to the party with the most promising business plan, at the same time it distributes surplus in a way that tends to promote investment by other parties.
     
-[^3]: 在线工作平台上的AI暴露和战略定位
+[^2]: 竞争在分配有限研究经费方面的成本
 
-    AI Exposure and Strategic Positioning on an Online Work Platform
+    The Costs of Competition in Distributing Scarce Research Funds
 
-    [https://arxiv.org/abs/2403.15262](https://arxiv.org/abs/2403.15262)
+    [https://arxiv.org/abs/2403.16934](https://arxiv.org/abs/2403.16934)
 
-    暴露于生成式AI技术的自由职业者在在线工作平台上具有更积极的战略行为，更倾向于在特定领域集中申请工作职位。
-
-    
-
-    AI技术有可能通过提高工人生产力和减少对某些技能或任务的需求来影响劳动力市场结果。这些变化可能会对工作者寻找工作和定位方式产生重要影响。在该项目中，我们研究了暴露于生成式AI技术的自由职业者在2022年12月ChatGPT推出后会如何影响在线工作平台上的战略行为。相对于暴露较少的同行，我们发现，暴露度更高于语言建模技术的自由职业者在ChatGPT推出后会在该平台上申请更多的职位，并增加这些申请在特定专业中的集中度。我们记录了这种效应在自由职业者特征上的异质性，并考虑这些行为如何塑造技术冲击是否以及在多大程度上影响自由职业者在平台上的表现。
-
-    arXiv:2403.15262v1 Announce Type: new  Abstract: AI technologies have the potential to affect labor market outcomes by both increasing worker productivity and reducing the demand for certain skills or tasks. Such changes may have important implications for the ways in which workers seek jobs and position themselves. In this project, we examine how exposure to generative AI technologies affects the strategic behavior of freelancer workers on an online work platform following the launch of ChatGPT in December 2022. Relative to their less exposed counterparts, we show that freelancers that are more exposed to language modeling technologies apply for more job posts on the platform following the launch of ChatGPT and increase the concentration of these applications across specializations. We document heterogeneity in this effect across freelancer characteristics and consider how such behaviors shape whether and to what extent the technological shock affects freelancer performance on the pla
-    
-[^4]: 通过GAN方法实现稳健效用优化
-
-    Robust Utility Optimization via a GAN Approach
-
-    [https://arxiv.org/abs/2403.15243](https://arxiv.org/abs/2403.15243)
-
-    提出了一种生成对抗网络（GAN）方法，用于解决一般和现实设置下的稳健效用优化问题，该方法在实证研究中表现出色，能在没有已知最佳策略的情况下胜过所有其他参考策略
+    分析竞争性研究资金的分配，探讨竞争资金的经济成本，影响风险研究的资金竞争，以及竞争资金环境对科学家和伦理问题的影响。
 
     
 
-    稳健效用优化使投资者能够以结构化方式处理市场不确定性，旨在最大化最坏情况的结果。在这项工作中，我们提出了一种生成对抗网络（GAN）方法，（近似地）解决一般和现实设置下的稳健效用优化问题。特别地，我们通过神经网络（NN）对投资者和市场进行建模，并在极小极大零和博弈中训练它们。这种方法适用于任何连续效用函数，并在具有交易成本的现实市场设置中，只能使用市场的可观察信息。大量实证研究显示了我们方法的多功能性。每当存在最佳参考策略时，我们的方法都能与之媲美，在没有已知最佳策略的（许多）设置中，我们的方法胜过所有其他参考策略。此外，我们可以从研究中得出结论
+    研究资金系统并不是孤立的系统 - 它们嵌入在一个对整个科学系统有着巨大影响的更大系统中。本文旨在从不同角度分析竞争性研究资金的分配：资金决策过程的可靠性如何？竞争性资金的经济成本是多少？为了进行风险研究，为资金竞争如何影响？竞争资金环境如何影响科学家本身，以及必须考虑哪些伦理问题？我们试图找出对研究资金系统的知识的空白；我们提出了对政策制定者和资助机构的建议，包括对决策过程进行实证实验和收集这些过程的数据。通过我们的建议，希望有助于发展改进的组织研究资金的方式。
 
-    arXiv:2403.15243v1 Announce Type: cross  Abstract: Robust utility optimization enables an investor to deal with market uncertainty in a structured way, with the goal of maximizing the worst-case outcome. In this work, we propose a generative adversarial network (GAN) approach to (approximately) solve robust utility optimization problems in general and realistic settings. In particular, we model both the investor and the market by neural networks (NN) and train them in a mini-max zero-sum game. This approach is applicable for any continuous utility function and in realistic market settings with trading costs, where only observable information of the market can be used. A large empirical study shows the versatile usability of our method. Whenever an optimal reference strategy is available, our method performs on par with it and in the (many) settings without known optimal strategy, our method outperforms all other reference strategies. Moreover, we can conclude from our study that the tr
+    arXiv:2403.16934v1 Announce Type: new  Abstract: Research funding systems are not isolated systems - they are embedded in a larger scientific system with an enormous influence on the system. This paper aims to analyze the allocation of competitive research funding from different perspectives: How reliable are decision processes for funding? What are the economic costs of competitive funding? How does competition for funds affect doing risky research? How do competitive funding environments affect scientists themselves, and which ethical issues must be considered? We attempt to identify gaps in our knowledge of research funding systems; we propose recommendations for policymakers and funding agencies, including empirical experiments of decision processes and the collection of data on these processes. With our recommendations we hope to contribute to developing improved ways of organizing research funding.
     
-[^5]: 团队合作与绩效评估中的溢出效应
+[^3]: 基于深度学习的姓名集中风险度量方法
 
-    Teamwork and Spillover Effects in Performance Evaluations
+    Deep Learning Based Measure of Name Concentration Risk
 
-    [https://arxiv.org/abs/2403.15200](https://arxiv.org/abs/2403.15200)
+    [https://arxiv.org/abs/2403.16525](https://arxiv.org/abs/2403.16525)
 
-    同事绩效在团队合作环境中对个人绩效评估产生溢出效应，对经理决策和第三方专家评估均产生显著影响，突出了同事在职业晋升中的重要作用。
-
-    
-
-    本文展示了在工作场所团队合作环境中，同事绩效如何影响个人绩效评估。我们使用足球比赛的高质量数据来衡量个人绩效的一个重要组成部分，射门表现，将其与协作效应隔离开来。采用因果机器学习方法，我们探讨了工人的同质匹配情况，并估计了平均效应和异质效应。研究结果显示绩效评估中存在大量的溢出效应。同事的射门表现显著影响经理的决策和第三方专家对个人绩效的评估。我们的结果强调了同事在塑造职业晋升中所起的重要作用，并突出了一个补充渠道，即同事如何影响职业晋升，进而产生生产率增长和学习效应。我们刻画了受溢出效应影响最大和最小的工人群体。
-
-    arXiv:2403.15200v1 Announce Type: new  Abstract: This article shows how coworker performance affects individual performance evaluation in a teamwork setting at the workplace. We use high-quality data on football matches to measure an important component of individual performance, shooting performance, isolated from collaborative effects. Employing causal machine learning methods, we address the assortative matching of workers and estimate both average and heterogeneous effects. There is substantial evidence for spillover effects in performance evaluations. Coworker shooting performance, meaningfully impacts both, manager decisions and third-party expert evaluations of individual performance. Our results underscore the significant role coworkers play in shaping career advancements and highlight a complementary channel, to productivity gains and learning effects, how coworkers impact career advancement. We characterize the groups of workers that are most and least affected by spillover e
-    
-[^6]: 金融市场结构和构成中的非线性转变与错位
-
-    Nonlinear shifts and dislocations in financial market structure and composition
-
-    [https://arxiv.org/abs/2403.15163](https://arxiv.org/abs/2403.15163)
-
-    通过开发新的数学技术，识别金融市场中的非线性转变，研究新的市场部门的网络结构，以及分析不同投资组合产生的夏普比率分布。
+    提出了一种基于深度学习的方法，用于量化贷款组合中的姓名集中风险，通过重要性抽样的蒙特卡洛模拟训练神经网络，展示了其相比现有方法在评估小型和集中组合中的姓名集中风险方面的准确性和优越性能。
 
     
 
-    本文开发了新的数学技术，以识别划分为新的、更详细的市场部门的一组美国股票之间的时间性转变。尽管在概念上相关，我们的三项分析揭示了关于金融市场的独特见解，对投资经理具有重要意义。首先，我们探讨了一系列方法来识别市场部门结构中的非线性转变，并描述了所使用的度量与捕获到的现象之间的数学联系。其次，我们研究了新市场部门的网络结构，并确定了有意义的部门与部门之间的映射关系。最后，我们对不同样本空间进行了一系列采样实验，并对只做多、做多做空和只做空投资组合产生的夏普比率分布进行了对比。此外，我们还研究了每个顶级投资组合的部门构成。
+    我们提出了一种新的基于深度学习的方法，用于量化贷款组合中的姓名集中风险。我们的方法针对小型组合进行了定制，允许损失的精算定义和按市场价值核算定义。我们的神经网络的训练依赖于重要性抽样的蒙特卡洛模拟，我们明确为CreditRisk${+}$和基于评级的CreditMetrics模型制定了这一过程。基于模拟和真实数据的数值结果显示了我们新方法的准确性，以及与现有分析方法相比，在评估小型和集中组合中的姓名集中风险方面表现出的卓越性能。
 
-    arXiv:2403.15163v1 Announce Type: new  Abstract: This paper develops new mathematical techniques to identify temporal shifts among a collection of US equities partitioned into a new and more detailed set of market sectors. Although conceptually related, our three analyses reveal distinct insights about financial markets, with meaningful implications for investment managers. First, we explore a variety of methods to identify nonlinear shifts in market sector structure and describe the mathematical connection between the measure used and the captured phenomena. Second, we study network structure with respect to our new market sectors and identify meaningfully connected sector-to-sector mappings. Finally, we conduct a series of sampling experiments over different sample spaces and contrast the distribution of Sharpe ratios produced by long-only, long-short and short-only investment portfolios. In addition, we examine the sector composition of the top-performing portfolios for each of thes
+    arXiv:2403.16525v1 Announce Type: new  Abstract: We propose a new deep learning approach for the quantification of name concentration risk in loan portfolios. Our approach is tailored for small portfolios and allows for both an actuarial as well as a mark-to-market definition of loss. The training of our neural network relies on Monte Carlo simulations with importance sampling which we explicitly formulate for the CreditRisk${+}$ and the ratings-based CreditMetrics model. Numerical results based on simulated as well as real data demonstrate the accuracy of our new approach and its superior performance compared to existing analytical methods for assessing name concentration risk in small and concentrated portfolios.
     
-[^7]: 税务人员的加密资产税收指南
+[^4]: 乌拉圭实际有效汇率的决定因素：一种门德尔-弗莱明模型方法
 
-    A Taxmans guide to taxation of crypto assets
+    Determinants of Uruguay's Real Effective Exchange Rate: A Mundell-Fleming Model Approach
 
-    [https://arxiv.org/abs/2403.15074](https://arxiv.org/abs/2403.15074)
+    [https://arxiv.org/abs/2403.16452](https://arxiv.org/abs/2403.16452)
 
-    本文探讨了加密资产的工作原理以及与税收问题相关联的内容
-
-    
-
-    金融系统见证了迅速的技术变革。比特币和其他基于分布式账本技术的加密资产的兴起标志着人们在跨越地理位置的去中心化网络上进行交易和传输价值的方式发生了根本性改变。这已经在监管和税收政策上产生了盲点，因为政府和税收管理机构需要时间了解并对这种创新、革命性和快节奏的技术提供政策响应。由于区块链技术创新的迅猛速度以及去中心化金融、去中心化自治组织和元宇宙的出现，监管当局或税收管理机构的政策干预和指导不太可能赶上或与创新的速度同步。本文试图解释加密资产的工作原理、它们的基础技术并将其与税务问题联系起来。
-
-    arXiv:2403.15074v1 Announce Type: new  Abstract: The Financial system has witnessed rapid technological changes. The rise of Bitcoin and other crypto assets based on Distributed Ledger Technology mark a fundamental change in the way people transact and transmit value over a decentralized network, spread across geographies. This has created regulatory and tax policy blind spots, as governments and tax administrations take time to understand and provide policy responses to this innovative, revolutionary, and fast-paced technology. Due to the breakneck speed of innovation in blockchain technology and advent of Decentralized Finance, Decentralized Autonomous Organizations and the Metaverse, it is unlikely that the policy interventions and guidance by regulatory authorities or tax administrations would be ahead or in sync with the pace of innovation. This paper tries to explain the principles on which crypto assets function, their underlying technology and relates them to the tax issues and
-    
-[^8]: 构建针对大型语言模型的日本金融基准
-
-    Construction of a Japanese Financial Benchmark for Large Language Models
-
-    [https://arxiv.org/abs/2403.15062](https://arxiv.org/abs/2403.15062)
-
-    通过构建针对日本金融领域的多任务基准并对多模型进行测试，证实了GPT-4表现出色，该基准有效区分了各性能范围内模型的基准分数。
+    研究使用扩展的门德尔-弗莱明模型分析了影响乌拉圭实际有效汇率的因素，结果表明美国贷款利率、通货膨胀和货币供应量的增加与实际有效汇率贬值有关，这与门德尔-弗莱明模型关于浮动汇率的开放经济的理论预期一致。
 
     
 
-    随着大型语言模型（LLMs）的最新发展，人们开始讨论专注于特定领域和语言的模型的必要性。当前对每个领域中现有LLMs性能进行评估的需求也日益增长。因此，在这项研究中，我们构建了一个包含多个特定于日本和金融领域的任务的基准，并对一些模型进行了基准测量。结果表明，GPT-4目前表现突出，并且构建的基准能够有效发挥作用。根据我们的分析，我们的基准通过结合不同难度的任务，可以区分所有性能范围内各模型的基准分数。
+    本研究通过应用扩展的门德尔-弗莱明模型来分析影响乌拉圭短期实际有效汇率（REER）的因素。通过分析美国贷款利率（USLR）、货币供应量（M2）、通货膨胀（CPI）和世界利率（WIR）的影响，该论文采用具有Newey-West标准误差的线性回归模型。关键发现显示，美国贷款利率（USLR）、通货膨胀（CPI）和货币供应量（M2）的增加与实际有效汇率的贬值相关。相反，世界利率（WIR）没有显著影响。这些发现与有浮动汇率的开放型经济在门德尔-弗莱明模型中的理论预期一致。因此，当面对比索贬值时，当局应该收紧货币政策、控制通货膨胀、调整财政策略，并促进出口。
 
-    arXiv:2403.15062v1 Announce Type: cross  Abstract: With the recent development of large language models (LLMs), models that focus on certain domains and languages have been discussed for their necessity. There is also a growing need for benchmarks to evaluate the performance of current LLMs in each domain. Therefore, in this study, we constructed a benchmark comprising multiple tasks specific to the Japanese and financial domains and performed benchmark measurements on some models. Consequently, we confirmed that GPT-4 is currently outstanding, and that the constructed benchmarks function effectively. According to our analysis, our benchmark can differentiate benchmark scores among models in all performance ranges by combining tasks with different difficulties.
+    arXiv:2403.16452v1 Announce Type: new  Abstract: This study examines the factors influencing the short-term real effective exchange rate (REER) in Uruguay by applying an extended Mundell-Fleming model. Analyzing the impact of the US lending rate (USLR), money supply (M2), inflation (CPI), and the world interest rate (WIR), the paper uses a linear regression model with Newey-West standard errors. Key findings reveal that an increase in the USLR, CPI, and M2 is associated with a depreciation of the REER. In contrast, WIR shows no significant impact. These findings are consistent with the theoretical expectations of the Mundell-Fleming model regarding open economies under floating exchange rates. Therefore, authorities should tighten monetary policy, control inflation, adjust fiscal strategies, and boost exports in response to Peso depreciation.
     
-[^9]: 基于经济状态的马尔可夫信用评级迁移方法
+[^5]: 职场可持续性还是财务弹性？综合财务弹性指数
 
-    A Markov approach to credit rating migration conditional on economic states
+    Workplace sustainability or financial resilience? Composite-financial resilience index
 
-    [https://arxiv.org/abs/2403.14868](https://arxiv.org/abs/2403.14868)
+    [https://arxiv.org/abs/2403.16296](https://arxiv.org/abs/2403.16296)
 
-    该论文提出了一种考虑经济状态波动对违约概率影响的信用评级迁移模型，使用马尔可夫链来描述经济状态和评级的联合过程，并探讨了不同评级哲学如时点评级和整个周期评级。
-
-    
-
-    我们提出了一个信用评级迁移模型，考虑了经济状态波动对违约概率的影响。经济状态和评级的联合过程被建模为一个时间齐次的马尔可夫链。虽然评级过程本身只有在限制条件下具有马尔可夫性质，但可以使用马尔可夫理论中的方法来推导评级过程的渐近行为。我们利用数学框架来形式化和分析不同的评级哲学，如时点评级（PIT）和整个周期评级（TTC）。此外，我们引入了双变量过程的转移矩阵上的随机次序，以确立“更好”和“更差”评级的一致概念。最后，我们在一个Merton类型的公司价值过程上说明了PIT和TTC评级的构建。
-
-    arXiv:2403.14868v1 Announce Type: new  Abstract: We develop a model for credit rating migration that accounts for the impact of economic state fluctuations on default probabilities. The joint process for the economic state and the rating is modelled as a time-homogeneous Markov chain. While the rating process itself possesses the Markov property only under restrictive conditions, methods from Markov theory can be used to derive the rating process' asymptotic behaviour. We use the mathematical framework to formalise and analyse different rating philosophies, such as point-in-time (PIT) and through-the-cycle (TTC) ratings. Furthermore, we introduce stochastic orders on the bivariate process' transition matrix to establish a consistent notion of "better" and "worse" ratings. Finally, the construction of PIT and TTC ratings is illustrated on a Merton-type firm-value process.
-    
-[^10]: 线性规划在赞助列表排名中的威力：来自现场实验的证据
-
-    The Power of Linear Programming in Sponsored Listings Ranking: Evidence from Field Experiments
-
-    [https://arxiv.org/abs/2403.14862](https://arxiv.org/abs/2403.14862)
-
-    线性规划在赞助列表排名中的应用为解决在线市场中的排名挑战提供了有力工具
+    本文研究了企业的财务弹性和职场弹性，提出了综合财务弹性指数作为灾害风险的潜在衡量指标，在COVID-19时代职场弹性可能受到公司财务状况的影响。
 
     
 
-    赞助列表是许多知名在线市场的主要收入来源之一，如亚马逊、沃尔玛和阿里巴巴。在线市场可能在展示特定商品的网页上除了该商品外，还会展示来自各种第三方卖家的赞助商品的排名列表。针对每次访问确定如何对这些赞助商品进行排名是在线市场的一个关键挑战，这个问题被称为赞助列表排名（SLR）。SLR的主要困难在于平衡最大化整体收入和推荐高质量和相关排名列表之间的权衡。虽然更相关的排名可能导致更多的购买和消费者参与，但市场在制定排名决策时还需要考虑潜在收入。
+    由于市场动荡中存在各种企业风险以及随之而来的财务困境，尤其是在COVID-19时期，本文研究了企业的弹性，并比较了不同类型的弹性，这些弹性可能成为公司隐含回报率异质性的潜在来源。具体来说，本文的创新之处不仅在于量化公司的财务弹性，还在于将其与在COVID-19时代更为重要的职场弹性进行比较。研究通过比较高低弹性公司的盈利预期和隐含折现率，准备了几个关于这两种主要弹性的必要性和不足性的证据。特别地，结果表明了在COVID-19时代公司的财务状况可能放大职场弹性的可能性。本文提出了一个新颖的综合财务弹性指数作为潜在的灾害风险衡量指标，这在衡量公司财务和职场弹性的相关性方面具有重要意义。
 
-    arXiv:2403.14862v1 Announce Type: new  Abstract: Sponsored listing is one of the major revenue sources for many prominent online marketplaces, such as Amazon, Walmart, and Alibaba. When consumers visit a marketplace's webpage for a specific item, in addition to that item, the marketplace might also display a ranked listing of sponsored items from various third-party sellers. These sellers are charged an advertisement fee if a user purchases any of the sponsored items from this listing. Determining how to rank these sponsored items for each incoming visit is a crucial challenge for online marketplaces, a problem known as sponsored listings ranking (SLR). The major difficulty of SLR lies in balancing the trade-off between maximizing the overall revenue and recommending high-quality and relevant ranked listings. While a more relevant ranking may result in more purchases and consumer engagement, the marketplace also needs to take account of the potential revenue when making ranking decisio
+    arXiv:2403.16296v1 Announce Type: new  Abstract: Due to the variety of corporate risks in turmoil markets and the consequent financial distress especially in COVID-19 time, this paper investigates corporate resilience and compares different types of resilience that can be potential sources of heterogeneity in firms' implied rate of return. Specifically, the novelty is not only to quantify firms' financial resilience but also to compare it with workplace resilience which matters more in the COVID-19 era. The study prepares several pieces of evidence of the necessity and insufficiency of these two main types of resilience by comparing earnings expectations and implied discount rates of high- and low-resilience firms. Particularly, results present evidence of the possible amplification of workplace resilience by the financial status of firms in the COVID-19 era. The paper proposes a novel composite-financial resilience index as a potential measure for disaster risk that significantly and 
     
-[^11]: 关于考虑波动率微笑的Hull-White模型用于估值调整
+[^6]: 依赖排名的可预测前向表现过程
 
-    On the Hull-White model with volatility smile for Valuation Adjustments
+    Rank-Dependent Predictable Forward Performance Processes
 
-    [https://arxiv.org/abs/2403.14841](https://arxiv.org/abs/2403.14841)
+    [https://arxiv.org/abs/2403.16228](https://arxiv.org/abs/2403.16228)
 
-    通过引入具有状态相关系数的SDE和RAnD参数化原始模型，提出了能够有效半解析校准欧式掉期的rHW模型。
-
-    
-
-    Affine扩散动力学经常用于估值调整（xVA）计算，因为其具有解析易处理性。然而，这些模型无法捕捉市场隐含的偏斜和微笑，在计算xVA指标时这些是相关的。因此，需要额外的自由度来捕获这些市场特征。本文通过具有状态相关系数的SDE来解决这个问题。这个SDE与有限数量不同AD动态的凸组合一致。我们结合Hull-White一因素模型，其中一个模型参数被改变。我们使用随机AD（RAnD）技术来参数化动态的组合。我们将具有状态相关系数的SDE和原始模型的RAnD参数化称为rHW模型。rHW模型通过Hull-White动力学的解析易处理性实现对欧洲掉期的有效半解析校准。
-
-    arXiv:2403.14841v1 Announce Type: new  Abstract: Affine Diffusion dynamics are frequently used for Valuation Adjustments (xVA) calculations due to their analytic tractability. However, these models cannot capture the market-implied skew and smile, which are relevant when computing xVA metrics. Hence, additional degrees of freedom are required to capture these market features. In this paper, we address this through an SDE with state-dependent coefficients. The SDE is consistent with the convex combination of a finite number of different AD dynamics. We combine Hull-White one-factor models where one model parameter is varied. We use the Randomized AD (RAnD) technique to parameterize the combination of dynamics. We refer to our SDE with state-dependent coefficients and the RAnD parametrization of the original models as the rHW model. The rHW model allows for efficient semi-analytic calibration to European swaptions through the analytic tractability of the Hull-White dynamics. We use a reg
-    
-[^12]: 隐私的六个层次：金融合成数据的框架
-
-    Six Levels of Privacy: A Framework for Financial Synthetic Data
-
-    [https://arxiv.org/abs/2403.14724](https://arxiv.org/abs/2403.14724)
-
-    该论文介绍了一种用于金融合成数据的“隐私层次”层级，有助于评估隐私保护程度和分类生成方法。
+    提出了一种基于排名依赖效用的新型可预测前向表现过程，通过解决广义的积分方程来构造这些过程，并提出了一种用Volterra方程理论解决积分方程的新方法。
 
     
 
-    合成数据在金融应用中变得越来越重要。除了它提供的好处，如改进金融建模和更好的测试程序，它也存在着隐私风险。这些数据可能源自客户信息、商业信息或其他必须受到保护的专有来源。虽然生成合成数据的过程在一定程度上有助于掩盖原始数据，但很难评估隐私保护的程度。因此，我们引入了一组有用于分类合成数据生成方法和逐渐改进的保护措施的"隐私层次"的等级。尽管这六个级别是在金融应用的背景下设计的，但它们在其他行业中也可能适用。我们的论文包括：对金融合成数据的简要概述，它如何被使用，如何评估其价值，隐私风险等。
+    可预测的前向表现过程(PFPPs)是针对一个代理人的随机最优控制框架，该代理人控制一个随机演变系统，但只能事先为一个短时期内规定系统动态。这是一个常见的场景，在这种场景下，控制代理人经常重新校准她的模型。我们介绍了一类基于排名依赖效用的PFPPs，这类模型推广了现有基于期望效用理论(EUT)的模型。在条件完全市场和外生概率失真函数的条件下，我们建立了排名依赖PFPPs的存在性，这些函数会定期更新。我们证明了它们的构造归结为解决一个积分方程，该积分方程推广了以前研究中在EUT下获得的积分方程。然后，我们提出了一种通过Volterra方程理论解决积分方程的新方法。我们在条件完全的Black-Scholes模型特例中说明了我们的结果。
 
-    arXiv:2403.14724v1 Announce Type: cross  Abstract: Synthetic Data is increasingly important in financial applications. In addition to the benefits it provides, such as improved financial modeling and better testing procedures, it poses privacy risks as well. Such data may arise from client information, business information, or other proprietary sources that must be protected. Even though the process by which Synthetic Data is generated serves to obscure the original data to some degree, the extent to which privacy is preserved is hard to assess. Accordingly, we introduce a hierarchy of ``levels'' of privacy that are useful for categorizing Synthetic Data generation methods and the progressively improved protections they offer. While the six levels were devised in the context of financial applications, they may also be appropriate for other industries as well. Our paper includes: A brief overview of Financial Synthetic Data, how it can be used, how its value can be assessed, privacy ris
+    arXiv:2403.16228v1 Announce Type: new  Abstract: Predictable forward performance processes (PFPPs) are stochastic optimal control frameworks for an agent who controls a randomly evolving system but can only prescribe the system dynamics for a short period ahead. This is a common scenario in which a controlling agent frequently re-calibrates her model. We introduce a new class of PFPPs based on rank-dependent utility, generalizing existing models that are based on expected utility theory (EUT). We establish existence of rank-dependent PFPPs under a conditionally complete market and exogenous probability distortion functions which are updated periodically. We show that their construction reduces to solving an integral equation that generalizes the integral equation obtained under EUT in previous studies. We then propose a new approach for solving the integral equation via theory of Volterra equations. We illustrate our result in the special case of conditionally complete Black-Scholes mo
     
-[^13]: 针对金融时间序列预测的链式神经架构搜索
+[^7]: 加密逆功率期权与分数随机波动性
 
-    Chain-structured neural architecture search for financial time series forecasting
+    Crypto Inverse-Power Options and Fractional Stochastic Volatility
 
-    [https://arxiv.org/abs/2403.14695](https://arxiv.org/abs/2403.14695)
+    [https://arxiv.org/abs/2403.16006](https://arxiv.org/abs/2403.16006)
 
-    在金融时间序列预测领域，比较了贝叶斯优化、超带方法和强化学习等神经架构搜索策略。
-
-    
-
-    我们在链式搜索空间上比较了三种流行的神经架构搜索策略：贝叶斯优化、超带方法和强化学习，这在金融时间序列预测的背景下进行了研究。
-
-    arXiv:2403.14695v1 Announce Type: cross  Abstract: We compare three popular neural architecture search strategies on chain-structured search spaces: Bayesian optimization, the hyperband method, and reinforcement learning in the context of financial time series forecasting.
-    
-[^14]: GPT4动力AI代理能成为足够优秀的绩效归因分析师吗？
-
-    Can a GPT4-Powered AI Agent Be a Good Enough Performance Attribution Analyst?
-
-    [https://arxiv.org/abs/2403.10482](https://arxiv.org/abs/2403.10482)
-
-    大型语言模型和AI代理的整合在绩效归因分析领域标志着一项开创性发展，能自动化和增强投资组合绩效归因分析。
+    本文介绍了一个包含分数随机波动性的解析模型框架，特别关注逆期权，为减轻加密货币汇率风险和调整风险敞口提供了功率类型的泛化逆期权以及相应的定价-套期保值公式。
 
     
 
-    绩效归因分析被定义为解释投资组合相对于基准的超额绩效驱动因素的过程，在投资组合管理中占据重要地位，在投资决策过程中起着至关重要的作用，特别是在基金管理行业。根植于牢固的金融和数学框架中，这种分析技术的重要性和方法学已在众多学术研究论文和著作中得到广泛记录。大型语言模型（LLMs）和AI代理的整合标志着该领域的开创性发展。这些代理旨在通过准确计算和分析投资组合表现与基准之间的差异，自动化和增强绩效归因分析。本研究介绍了将AI代理应用于各种重要的绩效归因任务，包括分析
+    最近的经验性证据突显了在加密货币市场中价格和波动率中跃升所起到的关键作用。在本文中，我们介绍了一个分数随机波动性的解析模型框架，包括价格-波动率共跃和短期波动率依赖性。我们特别关注逆期权，包括新兴的Quanto逆期权及其功率类型的泛化，旨在减轻加密货币汇率风险，并调整固有风险敞口。针对这些逆期权导出了基于特征函数的定价-套期保值公式。然后将通用模型框架应用于不对称的拉普拉斯跃变扩散和高斯混合淡定稳定型过程，采用三种分数核，进行广泛的实证分析，包括两个独立的比特币期权数据集上的模型校准，在COVI期间和之后。
 
-    arXiv:2403.10482v1 Announce Type: cross  Abstract: Performance attribution analysis, defined as the process of explaining the drivers of the excess performance of an investment portfolio against a benchmark, stands as a significant aspect of portfolio management and plays a crucial role in the investment decision-making process, particularly within the fund management industry. Rooted in a solid financial and mathematical framework, the importance and methodologies of this analytical technique are extensively documented across numerous academic research papers and books. The integration of large language models (LLMs) and AI agents marks a groundbreaking development in this field. These agents are designed to automate and enhance the performance attribution analysis by accurately calculating and analyzing portfolio performances against benchmarks. In this study, we introduce the application of an AI Agent for a variety of essential performance attribution tasks, including the analysis 
+    arXiv:2403.16006v1 Announce Type: new  Abstract: Recent empirical evidence has highlighted the crucial role of jumps in both price and volatility within the cryptocurrency market. In this paper, we introduce an analytical model framework featuring fractional stochastic volatility, accommodating price--volatility co-jumps and volatility short-term dependency concurrently. We particularly focus on inverse options, including the emerging Quanto inverse options and their power-type generalizations, aimed at mitigating cryptocurrency exchange rate risk and adjusting inherent risk exposure. Characteristic function-based pricing--hedging formulas are derived for these inverse options. The general model framework is then applied to asymmetric Laplace jump-diffusions and Gaussian-mixed tempered stable-type processes, employing three types of fractional kernels, for an extensive empirical analysis involving model calibration on two independent Bitcoin options data sets, during and after the COVI
     
-[^15]: 资本回报在周期性增长过程中的路径依赖性研究
+[^8]: 具有跳跃项的Ito半鞅的马尔可夫投影
 
-    Path-dependency of capital return in periodic growth processes
+    Markovian projections for It\^o semimartingales with jumps
 
-    [https://arxiv.org/abs/2403.08678](https://arxiv.org/abs/2403.08678)
+    [https://arxiv.org/abs/2403.15980](https://arxiv.org/abs/2403.15980)
 
-    本研究发现，在周期性增长过程中，资本化的期望值取决于路径，从而导致资本的回报率和时间平均回报率取决于路径，且内部收益率与资本回报率的期望值不同。
+    该论文研究了具有跳跃项的Ito半鞅的马尔可夫投影，提出了解决非局部FPKEs方程的一维边际分布流，以及如何在建立具有局部和随机特征的校准扩散/跳跃模型中应用马尔可夫投影。
 
     
 
-    研究了周期性增长过程。根据应计基础，利润率的期望值既不直接取决于减值，也不取决于资本化路径。资本化的期望值是路径依赖的。由于依赖路径的资本化，资本的回报率也是路径依赖的，而资本的时间平均回报率与增长周期的期望值回报率不同。在没有中间减值的情况下，内部收益率是路径无关的，因此与资本回报率的期望值不同。结果表明，使权益回报率最大化的旋转周期长度与市场利率无关。杠杆效应通过一个单独的杠杆方程进入增长过程的微观经济学中，杠杆系数可能达到正值或负值。
+    给定一个一般的Ito半鞅，它的马尔可夫投影是一个Ito过程，具有马尔可夫微分特征，与原始过程的一维边际分布相匹配。我们为具有跳跃项的Ito半鞅构造马尔可夫投影，其一维边际分布的流是非局部的福克-普朗克-科尔莫哥罗夫方程（FPKEs）的解。作为一个应用，我们展示了马尔可夫投影在建立具有局部和随机特征的校准扩散/跳跃模型中的作用。
 
-    arXiv:2403.08678v1 Announce Type: new  Abstract: Periodic growth processes are investigated. The expected value of the profit rate, on accrual basis, does not directly depend on divestments, neither on the capitalization path. The expected value of capitalization is path dependent. Because of the path-dependent capitalization, the return rate on capital is path-dependent, and the time-average return rate on capital differs from the expected-value return rate on capital for the growth cycle. In the absence of intermediate divestments, the internal rate of return is path-independent, thereby differing from the expected value of the rate of return on capital. It is shown that the rotation cycle length maximizing the return rate on equity is independent of market interest rate. Leveraging effect enters the microeconomics of the growth processes through a separate leveraging equation, where the leverage coefficient may reach positive or negative values. Correspondingly, from the viewpoint o
+    arXiv:2403.15980v1 Announce Type: cross  Abstract: Given a general It\^o semimartingale, its Markovian projection is an It\^o process, with Markovian differential characteristics, that matches the one-dimensional marginal laws of the original process. We construct Markovian projections for It\^o semimartingales with jumps, whose flows of one-dimensional marginal laws are solutions to non-local Fokker--Planck--Kolmogorov equations (FPKEs). As an application, we show how Markovian projections appear in building calibrated diffusion/jump models with both local and stochastic features.
     
-[^16]: 简化理论的价值函数的新概念
+[^9]: 对冲基金指数规则与构建
+
+    Hedge Fund Index Rules and Construction
+
+    [https://arxiv.org/abs/2403.15925](https://arxiv.org/abs/2403.15925)
+
+    提出了一种构建对冲基金指数的方法，可以更好地跟踪对冲基金投资表现，允许对冲基金直接对冲与指数相关的产品暴露。
+
+    
+
+    一项对冲基金指数对于跟踪对冲基金投资表现非常有用，尤其是对基金赎回的时机。本文提出了一种构建对冲基金指数的方法，它更像是一个量化的基金池，而不是一些早期可复制的市场指数的加权和，这些指数定期重新平衡。构建的指数允许对冲基金直接对冲其与指数相关的产品暴露。这一点非常重要，因为对冲基金是一种透明性较低的资产类别，其回报传统上很难使用流动性工具复制。
+
+    arXiv:2403.15925v1 Announce Type: new  Abstract: A Hedge Fund Index is very useful for tracking the performance of hedge fund investments, especially the timing of fund redemption. This paper presents a methodology for constructing a hedge fund index that is more like a quantitative fund of fund, rather than a weighted sum of a number of early replicable market indices, which are re-balanced periodically. The constructed index allows hedge funds to directly hedge their exposures to index-linked products. That is important given that hedge funds are an asset class with reduced transparency, and the returns are traditionally difficult to replicate using liquid instruments.
+    
+[^10]: 关于间歇性破产下梅顿最优投资组合问题
+
+    On Merton's Optimal Portfolio Problem under Sporadic Bankruptcy
+
+    [https://arxiv.org/abs/2403.15923](https://arxiv.org/abs/2403.15923)
+
+    本文研究了在股票市场遵循几何布朗运动并且遵循恒定利率连续复利的无风险资产的情况下，考虑股票可能在一定随机时间内破产的梅顿最优投资组合问题。通过新型哈密顿-雅可比-贝尔曼方程，将问题形式化为受控马尔可夫扩散，并且严格推导了一个新版本的梅顿比率，最终通过验证定理验证了该模型在现实世界中的适用性。
+
+    
+
+    考虑一个遵循几何布朗运动的股票市场和以恒定利率连续复利的无风险资产。假设股票可以破产，即在一些外生随机时间（独立于股价）内失去全部价值，这被建模为齐次泊松过程的第一到达时间，我们研究了梅顿的最优投资组合问题，旨在最大化在预先选择的有限到期时间内总财富的期望对数效用。首先，我们提出了一种基于新型哈密顿-雅可比-贝尔曼方程的启发式推导。然后，我们将问题形式化为经典的受控马尔可夫扩散，具有一种新类型的终端和运行成本。采用贝尔曼的动态规划原理严格推导出了梅顿比率的新版本，并用适当类型的验证定理进行验证。一个现实世界的例子将后者的比率与经典梅顿的r进行了比较。
+
+    arXiv:2403.15923v1 Announce Type: new  Abstract: Consider a stock market following a geometric Brownian motion and a riskless asset continuously compounded at a constant rate. Assuming the stock can go bankrupt, i.e., lose all of its value, at some exogenous random time (independent of the stock price) modeled as the first arrival time of a homogeneous Poisson process, we study the Merton's optimal portfolio problem consisting of maximizing the expected logarithmic utility of the total wealth at a preselected finite maturity time. First, we present a heuristic derivation based on a new type of Hamilton-Jacobi-Bellman equation. Then, we formally reduce the problem to a classical controlled Markovian diffusion with a new type of terminal and running costs. A new version of Merton's ratio is rigorously derived using Bellman's dynamic programming principle and validated with a suitable type of verification theorem. A real-world example comparing the latter ratio to the classical Merton's r
+    
+[^11]: 区块链球迷代币中的预期收益和事件驱动损失：来自FIFA世界杯的证据
+
+    Anticipatory Gains and Event-Driven Losses in Blockchain-Based Fan Tokens: Evidence from the FIFA World Cup
+
+    [https://arxiv.org/abs/2403.15810](https://arxiv.org/abs/2403.15810)
+
+    该研究调查了区块链球迷代币在2022年世界杯比赛中的表现，发现球迷代币在比赛前六个月出现反弹，但随着比赛进行，回报率持续下降，交易量上升，尤其是在高赌注比赛中的失败引起了更严重的损失。
+
+    
+
+    国家足球队越来越多地发行可交易的基于区块链的球迷代币，以战略性地增强球迷参与度。本研究调查了2022年世界杯比赛对每支球队球迷代币动态表现的影响。事件研究揭示了在世界杯前六个月，球迷代币回报率飙升，受到正向预期效应的推动。然而，盘内分析揭示了球迷代币回报率的反转，随着比赛的进行而持续下降，交易量上涨。为了解释这些发现，我们揭示了高赌注比赛中的失败导致球迷代币回报率骤降，相比低赌注比赛，淘汰赛比赛的幅度加剧。相反，胜利增加了交易量，反映了市场活动的增加，但没有相应的回报。我们将发现与经典市场格言“买谣言，卖消息”相一致，揭示了认知偏差和细微差别。
+
+    arXiv:2403.15810v1 Announce Type: new  Abstract: National football teams increasingly issue tradeable blockchain-based fan tokens to strategically enhance fan engagement. This study investigates the impact of 2022 World Cup matches on the dynamic performance of each team's fan token. The event study uncovers fan token returns surged six months before the World Cup, driven by positive anticipation effects. However, intraday analysis reveals a reversal of fan token returns consistently declining and trading volumes rising as matches unfold. To explain findings, we uncover asymmetries whereby defeats in high-stake matches caused a plunge in fan token returns, compared to low-stake matches, intensifying in magnitude for knockout matches. Contrarily, victories enhance trading volumes, reflecting increased market activity without a corresponding positive effect on returns. We align findings with the classic market adage "buy the rumor, sell the news," unveiling cognitive biases and nuances i
+    
+[^12]: 深度限价订单簿预测
+
+    Deep Limit Order Book Forecasting
+
+    [https://arxiv.org/abs/2403.09267](https://arxiv.org/abs/2403.09267)
+
+    该研究利用深度学习方法预测纳斯达克交易所股票的限价订单簿中间价格变动，提出了一个创新的操作框架来评估预测的实用性。
+
+    
+
+    我们利用尖端的深度学习方法探索了在纳斯达克交易所上交易的一组异质股票的高频限价订单簿中间价格变动的可预测性。在此过程中，我们发布了“LOBFrame”，一个开源代码库，可以高效处理大规模限价订单簿数据，并定量评估最先进的深度学习模型的预测能力。我们的结果是双重的。我们证明股票的微观结构特征影响深度学习方法的有效性，并且它们的高预测能力不一定对应可操作的交易信号。我们认为传统的机器学习指标未能充分评估限价订单簿环境中预测的质量。作为替代，我们提出了一个创新的操作框架，通过专注于准确预测的概率来评估预测的实用性。
+
+    arXiv:2403.09267v1 Announce Type: cross  Abstract: We exploit cutting-edge deep learning methodologies to explore the predictability of high-frequency Limit Order Book mid-price changes for a heterogeneous set of stocks traded on the NASDAQ exchange. In so doing, we release `LOBFrame', an open-source code base, to efficiently process large-scale Limit Order Book data and quantitatively assess state-of-the-art deep learning models' forecasting capabilities. Our results are twofold. We demonstrate that the stocks' microstructural characteristics influence the efficacy of deep learning methods and that their high forecasting power does not necessarily correspond to actionable trading signals. We argue that traditional machine learning metrics fail to adequately assess the quality of forecasts in the Limit Order Book context. As an alternative, we propose an innovative operational framework that assesses predictions' practicality by focusing on the probability of accurately forecasting com
+    
+[^13]: 区块链金融中的市场不端行为（DeFi）：分析、监管挑战和政策意义
+
+    Market Misconduct in Decentralized Finance (DeFi): Analysis, Regulatory Challenges and Policy Implications
+
+    [https://arxiv.org/abs/2311.17715](https://arxiv.org/abs/2311.17715)
+
+    该论文探讨了区块链金融中的市场不端行为（DeFi）问题，提出了全面定义和分类，通过比较分析和实证研究揭示了其特点和社会影响，同时探讨了DeFi监管框架所面临的挑战。
+
+    
+
+    技术进步推动金融创新，重塑了传统金融格局，重新定义了用户与市场之间的互动。区块链和去中心化金融（DeFi）的兴起彰显了技术和金融交织发展的进程。虽然DeFi带来了令人兴奋的机遇，也使生态系统暴露于新形式的市场不端行为之中。本文旨在通过探讨DeFi中的市场不端行为来弥合学术界和监管界的差距，解决DeFi市场不端行为的关键研究问题。我们首先讨论区块链技术如何潜在地促使新形式的市场不端行为出现。然后为理解DeFi市场不端行为提供全面的定义和分类法。通过比较分析和实证测量，我们研究了DeFi中的新形式不端行为，阐明了它们的特征和社会影响。随后，我们探讨了构建DeFi监管框架所面临的挑战。
+
+    arXiv:2311.17715v2 Announce Type: replace  Abstract: Technological advancement drives financial innovation, reshaping the traditional finance landscape and redefining user-market interactions. The rise of blockchain and Decentralized Finance (DeFi) underscores this intertwined evolution of technology and finance. While DeFi has introduced exciting opportunities, it has also exposed the ecosystem to new forms of market misconduct. This paper aims to bridge the academic and regulatory gaps by addressing key research questions about market misconduct in DeFi. We begin by discussing how blockchain technology can potentially enable the emergence of novel forms of market misconduct. We then offer a comprehensive definition and taxonomy for understanding DeFi market misconduct. Through comparative analysis and empirical measurements, we examine the novel forms of misconduct in DeFi, shedding light on their characteristics and social impact. Subsequently, we investigate the challenges of build
+    
+[^14]: 简化理论的价值函数的新概念
 
     New Concept for the Value Function of Prospect Theory
 
@@ -246,18 +222,102 @@
 
     arXiv:2211.00131v4 Announce Type: replace  Abstract: In the prospect theory, value function is typically concave for gains, commonly convex for losses, with losses usually having a steeper slope than gains. The neural system largely differs from the loss and gains sides. Five new studies on neurons related to this issue have examined neuronal responses to losses, gains, and reference points. This study investigates a new concept of the value function. A value function with a neuronal cusp may show variations and behavior cusps with catastrophe where a trader closes one's position.
     
-[^17]: 具有一般均值回归波动率过程的大型投资组合的随机偏微分方程
+[^15]: 一个多期消费资产定价模型中价格和回报的自相关性
 
-    Stochastic PDEs for large portfolios with general mean-reverting volatility processes
+    Price and Payoff Autocorrelations in a Multi-Period Consumption-Based Asset Pricing Model
 
-    [https://arxiv.org/abs/1906.05898](https://arxiv.org/abs/1906.05898)
+    [https://arxiv.org/abs/2204.07506](https://arxiv.org/abs/2204.07506)
 
-    该研究提出了一个结构性随机波动率模型，用于大型信用风险资产组合的损失建模，并证明了在投资组合规模变大时系统会收敛，同时提出了一种密度方程，描述了经验测度过程的极限情况，并且解决方案在特殊加权Sobolev空间中定义。
+    多期消费资产定价模型的基本定价方程受到价格和回报自相关性的影响，揭示了其与其他资产定价模型的关联。
 
     
 
-    我们考虑一个结构性随机波动率模型，用于对一个大型信用风险资产组合的损失进行建模。资产价值和波动率过程都通过系统性布朗运动进行相关，违约由资产价值达到下限确定。我们证明，如果我们的波动率模型来自一类均值回归扩散过程，那么当投资组合变大时系统会收敛，而当波动率函数满足一定的正则性和有界性条件时，经验测度过程的极限具有一个密度，该密度由半空间上的随机初边值问题的解给出。该问题在特殊加权Sobolev空间中定义。我们为解决方案建立了正则性结果，然后证明存在唯一解。与现有文献覆盖的CIR波动率设置相比，我们的结果ho
+    这篇论文突出了多期消费资产定价模型的基本定价方程对价格和回报的自相关性的潜在依赖性。我们得到了描述基本定价方程的近似值，该方程描述了今天的平均价格、明天的平均回报、价格和回报的波动性，以及价格和回报的自相关性。消费资产模型与其他资产定价模型（如ICAPM、APM等）的深度结合强调了我们的结果对其他定价模型也是有效的。
 
-    arXiv:1906.05898v4 Announce Type: replace-cross  Abstract: We consider a structural stochastic volatility model for the loss from a large portfolio of credit risky assets. Both the asset value and the volatility processes are correlated through systemic Brownian motions, with default determined by the asset value reaching a lower boundary. We prove that if our volatility models are picked from a class of mean-reverting diffusions, the system converges as the portfolio becomes large and, when the vol-of-vol function satisfies certain regularity and boundedness conditions, the limit of the empirical measure process has a density given in terms of a solution to a stochastic initial-boundary value problem on a half-space. The problem is defined in a special weighted Sobolev space. Regularity results are established for solutions to this problem, and then we show that there exists a unique solution. In contrast to the CIR volatility setting covered by the existing literature, our results ho
+    arXiv:2204.07506v2 Announce Type: replace  Abstract: This paper highlights the hidden dependence of the basic pricing equation of a multi-period consumption-based asset pricing model on price and payoff autocorrelations. We obtain the approximations of the basic pricing equation that describe the mean price "to-day," mean payoff "next-day," price and payoff volatilities, and price and payoff autocorrelations. The deep conjunction of the consumption-based model with other versions of asset pricing, such as ICAPM, APM, etc. (Cochrane, 2001), emphasizes that our results are valid for other pricing models.
+    
+[^16]: 理论经济学与二阶经济理论。是什么？
+
+    Theoretical Economics and the Second-Order Economic Theory. What is it?
+
+    [https://arxiv.org/abs/2112.04566](https://arxiv.org/abs/2112.04566)
+
+    二阶经济理论探讨了由经济体交易的平方和构成的二阶经济变量对宏观经济变量的影响。
+
+    
+
+    经济体和金融体变量决定宏观经济变量。当前模型考虑经济体变量，这些变量由一定时间间隔{\Delta}内经济体交易的价值和量之和确定。我们称它们为一阶经济变量。我们描述了市场交易价值和量的波动性和相关性如何确定价格波动率。我们认为这样的联系需要考虑到由{\Delta}内经济体交易的平方和组成的二阶经济变量，几乎任何一阶变量都应该有其对应的二阶配对。相应地，经济体二阶变量之和引入了二阶宏观经济变量。二阶宏观经济变量的描述建立了二阶经济理论的主题。我们强调二阶经济理论的复杂性建议了
+
+    arXiv:2112.04566v2 Announce Type: replace  Abstract: The economic and financial variables of economic agents determine macroeconomic variables. Current models consider agents' variables that are determined by the sums of values and volumes of agents' trades during some time interval {\Delta}. We call them first-order economic variables. We describe how the volatilities and correlations of market trade values and volumes determine price volatility. We argue that such a link requests consideration of agents' economic variables of the second order that are composed of sums of squares of agents' transactions during {\Delta}. Almost any variable of the first order should be complemented by its second-order pair. Respectively, the sums of agents' second-order variables introduce macroeconomic variables of the second order. The description of the first- and second-order macroeconomic variables establishes the subject of second-order economic theory. We highlight that the complexity of second-
+    
+[^17]: 一个透明、可重用和可更新的计算健康经济模型的原型软件框架
+
+    A prototype software framework for transparent, reusable and updatable computational health economic models. (arXiv:2310.14138v1 [econ.GN])
+
+    [http://arxiv.org/abs/2310.14138](http://arxiv.org/abs/2310.14138)
+
+    这个论文提出了一个计算健康经济模型的原型软件框架，并提取了六个评估标准，旨在促进透明、可重用和可更新的模型开发，以满足社会需求。
+
+    
+
+    大多数健康经济分析都依赖于计算机。然而，将健康经济模型作为软件（或计算健康经济模型（CHEMs））实施的伦理维度尚不明确。我们提出CHEMs的开发者和资助者对（i）建立社会可接受的用户需求和设计规范，（ii）确保适合目的，以及（iii）支持社会有益的使用承担伦理责任。我们进一步提出一个透明（T）、可重用（R）和可更新（U）的CHEM表明项目团队在很大程度上已履行这些责任。我们提出了六个评估CHEMs的标准：（T1）软件文件开放获取；（T2）项目团队的贡献和判断易于识别；（R1）编程实践促进了通用性和可转移性；（R2）许可证仅限制不道德的重用；（U1）维护基础设施已经就绪；以及（U2）新版本经过系统重新测试和批准。
+
+    Most health economic analyses are undertaken with the aid of computers. However, the ethical dimensions of implementing health economic models as software (or computational health economic models (CHEMs)) are poorly understood. We propose that developers and funders of CHEMs share ethical responsibilities to (i) establish socially acceptable user requirements and design specifications; (ii) ensure fitness for purpose; and (iii) support socially beneficial use. We further propose that a transparent (T), reusable (R) and updatable (U) CHEM is suggestive of a project team that has largely fulfilled these responsibilities. We propose six criteria for assessing CHEMs: (T1) software files are open access; (T2) project team contributions and judgments are easily identified; (R1) programming practices promote generalisability and transferability; (R2) licenses restrict only unethical reuse; (U1) maintenance infrastructure is in place; and (U2) new releases are systematically retested and appro
+    
+[^18]: 巴基斯坦价格通货膨胀的分布影响：新的价格为重点的微模拟框架PRICES的案例研究
+
+    The Distributional Impact of Price Inflation in Pakistan: A Case Study of a New Price Focused Microsimulation Framework, PRICES. (arXiv:2310.00231v1 [econ.GN])
+
+    [http://arxiv.org/abs/2310.00231](http://arxiv.org/abs/2310.00231)
+
+    本研究利用微模拟模型分析了巴基斯坦价格变动的分布影响，特别关注能源和食品价格的变动。结果表明，能源价格对通货膨胀带来的福利损失的重要性有限。
+
+    
+
+    本文利用家庭预算调查数据、收入调查数据和输入产出模型开发了一个微模拟模型，模拟了价格变动的分布影响。我们利用该模型评估了巴基斯坦近期价格变动的分配和福利影响，特别关注能源和食品价格的变动。首先，我们评估了支出的分布模式，国内能源燃料集中在分布的底部，汽油燃料在顶部。电力和汽油燃料的预算份额特别高，而国内燃料相对较低。虽然国内燃料和电力消费的分布模式与其他国家相似，但汽油燃料有特别高的预算弹性。分析表明，尽管能源价格大幅增加，但能源价格对通货膨胀带来的福利损失的重要性有限。近期价格变动的总体分布影响较小。
+
+    This paper developed a microsimulation model to simulate the distributional impact of price changes using Household Budget Survey data, Income Survey data and an Input-Output Model. We use the model to assess the distributional and welfare impact of recent price changes in Pakistan. Particular attention is paid to price changes in energy goods and food. We firstly assessed the distributional pattern of expenditures, with domestic energy fuels concentrated at the bottom of the distribution and motor fuels at the top. The budget share of electricity and motor fuels is particularly high, while domestic fuels is relatively low. While the distributional pattern of domestic fuel and electricity consumption is similar to other countries, there is a particularly high budget elasticity for motor fuels. The analysis shows that despite large increases in energy prices, the importance of energy prices for the welfare losses due to inflation is limited. The overall distributional impact of recent p
+    
+[^19]: 对于存在信用、资金和反向风险的具有双边现金流的易损衍生品合约的分析估值
+
+    Analytical valuation of vulnerable derivative contracts with bilateral cash flows under credit, funding and wrong-way risks. (arXiv:2308.10568v1 [q-fin.PR])
+
+    [http://arxiv.org/abs/2308.10568](http://arxiv.org/abs/2308.10568)
+
+    我们研究了存在信用、资金和反向风险的双边现金流易损衍生品合约的估值问题，并开发了一个闭合形式的估值公式和二阶近似方法。通过使用特定的资金策略，我们得到了违约前估值的通用概率表示，并将其应用于股票远期合约的估值。
+
+    
+
+    我们研究了在存在资金、信用和反向风险的情况下，对具有双边现金流的易损衍生品进行估值的问题，并导出了一个关于平值（ATM）远期合约的闭合形式估值公式，以及一个对于一般情况的二阶近似。我们假设了一个具有异质利率和违约发生的模型，并推导出合约的违约前估值函数的Cauchy问题，其中包括任何供应方风险 - 与计算估值调整（统称XVA）不同。在一个特定的资金策略下，线性化Cauchy问题，我们得到了违约前估值的通用概率表示（定理1）。我们将这个通用框架应用于股票远期合约的估值，并建立了合约可以在特定概率测度下表示为具有适当选择的执行价和到期日的欧式期权的连续投资组合。
+
+    We study the problem of valuing a vulnerable derivative with bilateral cash flows between two counterparties in the presence of funding, credit and wrong-way risks, and derive a closed-form valuation formula for an at-the-money (ATM) forward contract as well as a second order approximation for the general case. We posit a model with heterogeneous interest rates and default occurrence and infer a Cauchy problem for the pre-default valuation function of the contract, which includes ab initio any counterparty risk - as opposed to calculating valuation adjustments collectively known as XVA. Under a specific funding policy which linearises the Cauchy problem, we obtain a generic probabilistic representation for the pre-default valuation (Theorem 1). We apply this general framework to the valuation of an equity forward and establish the contract can be expressed as a continuous portfolio of European options with suitably chosen strikes and expiries under a particular probability measure (The
+    
+[^20]: 量子蒙特卡罗模拟在金融风险分析中的应用：股权、利率和信用风险因素的情景生成
+
+    Quantum Monte Carlo simulations for financial risk analytics: scenario generation for equity, rate, and credit risk factors. (arXiv:2303.09682v1 [quant-ph])
+
+    [http://arxiv.org/abs/2303.09682](http://arxiv.org/abs/2303.09682)
+
+    本论文提出了一种用于金融风险分析的量子蒙特卡罗模拟方法，其中将情景生成纳入到量子计算中，模拟了风险因素随时间的演变，并将其馈送到QMC模拟中，实现估算金融资产组合的风险价值，相较于传统蒙特卡罗模拟提供了高达800倍的速度提升。
+
+    
+
+    蒙特卡罗模拟在金融风险管理中被广泛使用，例如估算风险价值和定价场外衍生品。因为需要大量的情景以实现收敛，所以蒙特卡罗模拟需要高昂的计算成本。量子蒙特卡罗算法是一种有希望的替代方案：它们提供比传统算法更快的速度。最近的研究已经探索了常见风险测度的计算以及通过将输入量子状态初始化为预先计算的概率分布来优化QMC算法。本文着重于将情景生成纳入到量子计算中，通过模拟风险因素随时间的演变进行风险情景生成的量子电路组装。具体而言，我们组装了股权（几何布朗运动）、利率（均值回归模型）和信用（结构性和缩减形式信用模型）风险因素的随机模型的量子电路。然后将这些情景馈送到QMC模拟中，以估算金融资产组合的风险价值。我们的结果表明，与传统蒙特卡罗模拟相比，量子蒙特卡罗提供了一种准确且高效的估算风险价值的方法，速度提升高达800倍。
+
+    Monte Carlo (MC) simulations are widely used in financial risk management, from estimating value-at-risk (VaR) to pricing over-the-counter derivatives. However, they come at a significant computational cost due to the number of scenarios required for convergence. Quantum MC (QMC) algorithms are a promising alternative: they provide a quadratic speed-up as compared to their classical counterparts. Recent studies have explored the calculation of common risk measures and the optimisation of QMC algorithms by initialising the input quantum states with pre-computed probability distributions. In this paper, we focus on incorporating scenario generation into the quantum computation by simulating the evolution of risk factors over time. Specifically, we assemble quantum circuits that implement stochastic models for equity (geometric Brownian motion), interest rate (mean-reversion models), and credit (structural and reduced-form credit models) risk factors. We then feed these scenarios to QMC s
+    
+[^21]: 非线性健康动态的福利效应
+
+    The welfare effects of nonlinear health dynamics. (arXiv:2207.03816v3 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2207.03816](http://arxiv.org/abs/2207.03816)
+
+    这项研究通过估计一个非参数模型，研究了非线性健康动态对经济结果的影响。结果表明，不良健康冲击对身体健康较差的人的长期经济效应更为严重，并增加了资产积累差距。
+
+    
+
+    我们生成了一个连续的健康度量来估计健康动态的非参数模型，结果表明，当身体健康较差的人遭受不利健康冲击时，这些冲击具有很高的持续性。传统的模型无法解释这种模式。我们将这种健康动态纳入了一个生命周期模型中，该模型考虑了消费、储蓄和劳动力参与。在估计模型参数之后，我们模拟了健康冲击对经济结果的影响。我们发现，不良的健康冲击对经济有着长期的不利影响，对身体健康较差的人影响更加严重。此外，不良的健康冲击还增加了这一群体的资产积累差距。传统的健康动态模型无法揭示这些影响。
+
+    We generate a continuous measure of health to estimate a non-parametric model of health dynamics, showing that adverse health shocks are highly persistent when suffered by people in poor health. Canonical models cannot account for this pattern. We incorporate this health dynamic into a life-cycle model of consumption, savings, and labor force participation. After estimating the model parameters, we simulate the effects of health shocks on economic outcomes. We find that bad health shocks have long-term adverse economic effects that are more extreme for those in poor health. Furthermore, bad health shocks also increase the disparity of asset accumulation among this group of people. A canonical model of health dynamics would not reveal these effects.
     
 

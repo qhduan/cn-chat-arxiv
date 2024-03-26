@@ -1,0 +1,12 @@
+{
+    "title": "User-Side Realization",
+    "abstract": "arXiv:2403.15757v1 Announce Type: cross  Abstract: Users are dissatisfied with services. Since the service is not tailor-made for a user, it is natural for dissatisfaction to arise. The problem is, that even if users are dissatisfied, they often do not have the means to resolve their dissatisfaction. The user cannot alter the source code of the service, nor can they force the service provider to change. The user has no choice but to remain dissatisfied or quit the service. User-side realization offers proactive solutions to this problem by providing general algorithms to deal with common problems on the user's side. These algorithms run on the user's side and solve the problems without having the service provider change the service itself.",
+    "link": "https://arxiv.org/abs/2403.15757",
+    "context": "Title: User-Side Realization\nAbstract: arXiv:2403.15757v1 Announce Type: cross  Abstract: Users are dissatisfied with services. Since the service is not tailor-made for a user, it is natural for dissatisfaction to arise. The problem is, that even if users are dissatisfied, they often do not have the means to resolve their dissatisfaction. The user cannot alter the source code of the service, nor can they force the service provider to change. The user has no choice but to remain dissatisfied or quit the service. User-side realization offers proactive solutions to this problem by providing general algorithms to deal with common problems on the user's side. These algorithms run on the user's side and solve the problems without having the service provider change the service itself.",
+    "path": "papers/24/03/2403.15757.json",
+    "total_tokens": 656,
+    "translated_title": "用户端实现",
+    "translated_abstract": "用户对服务感到不满意。由于服务并非量身定制给用户，因此不满意是自然而然的。问题在于，即使用户感到不满意，他们通常也没有解决不满的手段。用户无法修改服务的源代码，也无法强迫服务提供商进行更改。用户别无选择，只能保持不满意或退出服务。用户端实现通过提供通用算法来处理用户端的常见问题，为解决这一问题提供了积极的解决方案。这些算法在用户端运行，并在不需要服务提供商改变服务本身的情况下解决问题。",
+    "tldr": "用户端实现为用户提供了积极的解决方案，通过在用户端运行通用算法来解决常见问题，无需服务提供商改变服务本身。",
+    "en_tdlr": "User-side realization offers proactive solutions to user dissatisfaction by running general algorithms on the user's side to solve common problems, without requiring the service provider to change the service itself."
+}

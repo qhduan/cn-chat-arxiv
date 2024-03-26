@@ -1,0 +1,12 @@
+{
+    "title": "LAMPER: LanguAge Model and Prompt EngineeRing for zero-shot time series classification",
+    "abstract": "arXiv:2403.15875v1 Announce Type: new  Abstract: This study constructs the LanguAge Model with Prompt EngineeRing (LAMPER) framework, designed to systematically evaluate the adaptability of pre-trained language models (PLMs) in accommodating diverse prompts and their integration in zero-shot time series (TS) classification. We deploy LAMPER in experimental assessments using 128 univariate TS datasets sourced from the UCR archive. Our findings indicate that the feature representation capacity of LAMPER is influenced by the maximum input token threshold imposed by PLMs.",
+    "link": "https://arxiv.org/abs/2403.15875",
+    "context": "Title: LAMPER: LanguAge Model and Prompt EngineeRing for zero-shot time series classification\nAbstract: arXiv:2403.15875v1 Announce Type: new  Abstract: This study constructs the LanguAge Model with Prompt EngineeRing (LAMPER) framework, designed to systematically evaluate the adaptability of pre-trained language models (PLMs) in accommodating diverse prompts and their integration in zero-shot time series (TS) classification. We deploy LAMPER in experimental assessments using 128 univariate TS datasets sourced from the UCR archive. Our findings indicate that the feature representation capacity of LAMPER is influenced by the maximum input token threshold imposed by PLMs.",
+    "path": "papers/24/03/2403.15875.json",
+    "total_tokens": 661,
+    "translated_title": "LAMPER：用于零样本时间序列分类的语言模型和提示工程",
+    "translated_abstract": "这项研究构建了LanguAge模型和Prompt EngineeRing（LAMPER）框架，旨在系统评估预训练语言模型（PLMs）在容纳多样提示及其在零样本时间序列（TS）分类中的整合能力。我们在实验评估中部署LAMPER，使用了来源于UCR存档的128个单变量TS数据集。我们的发现表明，LAMPER的特征表示能力受到PLMs强加的最大输入标记阈值的影响。",
+    "tldr": "LAMPER框架旨在评估预训练语言模型在零样本时间序列分类中的适应能力，研究发现其特征表示能力受到PLMs最大输入标记阈值的影响。",
+    "en_tdlr": "LAMPER framework aims to evaluate the adaptability of pre-trained language models in zero-shot time series classification, and the study finds that its feature representation capacity is influenced by the maximum input token threshold imposed by PLMs."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "LlamBERT: Large-scale low-cost data annotation in NLP",
+    "abstract": "arXiv:2403.15938v1 Announce Type: cross  Abstract: Large Language Models (LLMs), such as GPT-4 and Llama 2, show remarkable proficiency in a wide range of natural language processing (NLP) tasks. Despite their effectiveness, the high costs associated with their use pose a challenge. We present LlamBERT, a hybrid approach that leverages LLMs to annotate a small subset of large, unlabeled databases and uses the results for fine-tuning transformer encoders like BERT and RoBERTa. This strategy is evaluated on two diverse datasets: the IMDb review dataset and the UMLS Meta-Thesaurus. Our results indicate that the LlamBERT approach slightly compromises on accuracy while offering much greater cost-effectiveness.",
+    "link": "https://arxiv.org/abs/2403.15938",
+    "context": "Title: LlamBERT: Large-scale low-cost data annotation in NLP\nAbstract: arXiv:2403.15938v1 Announce Type: cross  Abstract: Large Language Models (LLMs), such as GPT-4 and Llama 2, show remarkable proficiency in a wide range of natural language processing (NLP) tasks. Despite their effectiveness, the high costs associated with their use pose a challenge. We present LlamBERT, a hybrid approach that leverages LLMs to annotate a small subset of large, unlabeled databases and uses the results for fine-tuning transformer encoders like BERT and RoBERTa. This strategy is evaluated on two diverse datasets: the IMDb review dataset and the UMLS Meta-Thesaurus. Our results indicate that the LlamBERT approach slightly compromises on accuracy while offering much greater cost-effectiveness.",
+    "path": "papers/24/03/2403.15938.json",
+    "total_tokens": 732,
+    "translated_title": "LlamBERT：在自然语言处理中大规模、低成本的数据注释",
+    "translated_abstract": "大型语言模型(LLMs)，如GPT-4和Llama 2，在各种自然语言处理(NLP)任务中表现出卓越的能力。尽管它们非常有效，但与它们的使用相关的高成本带来了挑战。我们提出了LlamBERT，这是一种混合方法，利用LLMs对大量未标记数据库的小子集进行注释，并将结果用于微调类似BERT和RoBERTa的变压器编码器。这一策略在两个不同的数据集上进行了评估：IMDb影评数据集和UMLS Meta-Thesaurus。我们的结果表明，LlamBERT方法在稍微牺牲准确性的同时，提供了更高的成本效益。",
+    "tldr": "LlamBERT是一种利用大规模语言模型注释未标记数据库并用于微调变压器编码器的混合方法，在降低成本的同时略微牺牲准确性。",
+    "en_tdlr": "LlamBERT is a hybrid approach that leverages large-scale language models to annotate unlabeled databases and fine-tune transformer encoders, offering greater cost-effectiveness with a slight compromise on accuracy."
+}

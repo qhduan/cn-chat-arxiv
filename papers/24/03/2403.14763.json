@@ -1,0 +1,12 @@
+{
+    "title": "Gravitational Duals from Equations of State",
+    "abstract": "arXiv:2403.14763v1 Announce Type: cross  Abstract: Holography relates gravitational theories in five dimensions to four-dimensional quantum field theories in flat space. Under this map, the equation of state of the field theory is encoded in the black hole solutions of the gravitational theory. Solving the five-dimensional Einstein's equations to determine the equation of state is an algorithmic, direct problem. Determining the gravitational theory that gives rise to a prescribed equation of state is a much more challenging, inverse problem. We present a novel approach to solve this problem based on physics-informed neural networks. The resulting algorithm is not only data-driven but also informed by the physics of the Einstein's equations. We successfully apply it to theories with crossovers, first- and second-order phase transitions.",
+    "link": "https://arxiv.org/abs/2403.14763",
+    "context": "Title: Gravitational Duals from Equations of State\nAbstract: arXiv:2403.14763v1 Announce Type: cross  Abstract: Holography relates gravitational theories in five dimensions to four-dimensional quantum field theories in flat space. Under this map, the equation of state of the field theory is encoded in the black hole solutions of the gravitational theory. Solving the five-dimensional Einstein's equations to determine the equation of state is an algorithmic, direct problem. Determining the gravitational theory that gives rise to a prescribed equation of state is a much more challenging, inverse problem. We present a novel approach to solve this problem based on physics-informed neural networks. The resulting algorithm is not only data-driven but also informed by the physics of the Einstein's equations. We successfully apply it to theories with crossovers, first- and second-order phase transitions.",
+    "path": "papers/24/03/2403.14763.json",
+    "total_tokens": 712,
+    "translated_title": "从状态方程到引力对偶",
+    "translated_abstract": "引力双对偶理论将五维引力理论与四维量子场论在平直空间中相关联。在这种映射下，场论的状态方程被编码在引力理论的黑洞解中。解五维爱因斯坦方程以确定状态方程是一个算法性的、直接的问题。确定引力理论从而产生特定状态方程是一个更具挑战性的、反向问题。我们提出了一种基于物理信息神经网络的新方法来解决这个问题。由此产生的算法不仅受数据驱动，还受爱因斯坦方程的物理知识驱动。我们成功地将其应用于具有交叉点、一级和二级相变的理论中。",
+    "tldr": "引力双对偶理论提出了一种基于物理信息神经网络的新方法，可以从预设的状态方程推导出对应的引力理论。",
+    "en_tdlr": "The gravitational duals theory presents a novel approach based on physics-informed neural networks to determine the gravitational theory that corresponds to a prescribed equation of state."
+}

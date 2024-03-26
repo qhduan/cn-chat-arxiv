@@ -1,0 +1,12 @@
+{
+    "title": "Using Contextual Information for Sentence-level Morpheme Segmentation",
+    "abstract": "arXiv:2403.15436v1 Announce Type: new  Abstract: Recent advancements in morpheme segmentation primarily emphasize word-level segmentation, often neglecting the contextual relevance within the sentence. In this study, we redefine the morpheme segmentation task as a sequence-to-sequence problem, treating the entire sentence as input rather than isolating individual words. Our findings reveal that the multilingual model consistently exhibits superior performance compared to monolingual counterparts. While our model did not surpass the performance of the current state-of-the-art, it demonstrated comparable efficacy with high-resource languages while revealing limitations in low-resource language scenarios.",
+    "link": "https://arxiv.org/abs/2403.15436",
+    "context": "Title: Using Contextual Information for Sentence-level Morpheme Segmentation\nAbstract: arXiv:2403.15436v1 Announce Type: new  Abstract: Recent advancements in morpheme segmentation primarily emphasize word-level segmentation, often neglecting the contextual relevance within the sentence. In this study, we redefine the morpheme segmentation task as a sequence-to-sequence problem, treating the entire sentence as input rather than isolating individual words. Our findings reveal that the multilingual model consistently exhibits superior performance compared to monolingual counterparts. While our model did not surpass the performance of the current state-of-the-art, it demonstrated comparable efficacy with high-resource languages while revealing limitations in low-resource language scenarios.",
+    "path": "papers/24/03/2403.15436.json",
+    "total_tokens": 679,
+    "translated_title": "利用上下文信息进行句子级形态素分割",
+    "translated_abstract": "最近形态素分割的发展主要强调单词级别的分割，通常忽视了句子内的上下文相关性。在这项研究中，我们将形态素分割任务重新定义为一个序列到序列的问题，将整个句子作为输入，而不是孤立地处理单个单词。我们的研究发现，多语言模型与单语模型相比始终表现出更高的性能。虽然我们的模型没有超越当前最先进的模型，但在高资源语言中展现出可比较的有效性，同时揭示了在低资源语言场景中的局限性。",
+    "tldr": "将形态素分割任务重新定义为序列到序列问题，并通过多语言模型展示出优异性能，揭示了高资源语言环境下的可比效力，以及低资源语言场景下的局限性。",
+    "en_tdlr": "Redefining morpheme segmentation as a sequence-to-sequence problem and demonstrating superior performance with multilingual models, revealing comparable efficacy in high-resource language scenarios and limitations in low-resource language situations."
+}

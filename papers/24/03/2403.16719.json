@@ -1,0 +1,12 @@
+{
+    "title": "Towards a Formalisation of Value-based Actions and Consequentialist Ethics",
+    "abstract": "arXiv:2403.16719v1 Announce Type: cross  Abstract: Agents act to bring about a state of the world that is more compatible with their personal or institutional values. To formalise this intuition, the paper proposes an action framework based on the STRIPS formalisation. Technically, the contribution expresses actions in terms of Value-based Formal Reasoning (VFR), which provides a set of propositions derived from an Agent's value profile and the Agent's assessment of propositions with respect to the profile. Conceptually, the contribution provides a computational framework for a form of consequentialist ethics which is satisficing, luralistic, act-based, and preferential.",
+    "link": "https://arxiv.org/abs/2403.16719",
+    "context": "Title: Towards a Formalisation of Value-based Actions and Consequentialist Ethics\nAbstract: arXiv:2403.16719v1 Announce Type: cross  Abstract: Agents act to bring about a state of the world that is more compatible with their personal or institutional values. To formalise this intuition, the paper proposes an action framework based on the STRIPS formalisation. Technically, the contribution expresses actions in terms of Value-based Formal Reasoning (VFR), which provides a set of propositions derived from an Agent's value profile and the Agent's assessment of propositions with respect to the profile. Conceptually, the contribution provides a computational framework for a form of consequentialist ethics which is satisficing, luralistic, act-based, and preferential.",
+    "path": "papers/24/03/2403.16719.json",
+    "total_tokens": 697,
+    "translated_title": "迈向基于价值的行动和功利伦理的形式化",
+    "translated_abstract": "代理人的行动旨在实现与其个人或机构价值更相容的世界状态。为了形式化这一直觉，本文提出了一个基于STRIPS形式化的行动框架。技术上，本文的贡献是通过基于价值的形式推理（VFR）来表达行动，VFR提供了从代理人的价值配置文件和代理人对命题与配置文件的评估中推导出的命题集合。从概念上讲，本文为一种满意的、众元的、以行动为基础的和首选的功利伦理提供了一个计算框架。",
+    "tldr": "该论文提出了一种基于代理人的价值配置和评估的行动框架，为满意的、众元的、以行动为基础的和首选的功利伦理提供了计算框架。",
+    "en_tdlr": "The paper presents an action framework based on an Agent's value profile and evaluation, providing a computational framework for a satisficing, pluralistic, act-based, and preferential form of consequentialist ethics."
+}

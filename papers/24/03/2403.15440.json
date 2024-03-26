@@ -1,0 +1,12 @@
+{
+    "title": "Linguistics from a topological viewpoint",
+    "abstract": "arXiv:2403.15440v1 Announce Type: new  Abstract: Typological databases in linguistics are usually categorical-valued. As a result, it is difficult to have a clear visualization of the data. In this paper, we describe a workflow to analyze the topological shapes of South American languages by applying multiple correspondence analysis technique and topological data analysis methods.",
+    "link": "https://arxiv.org/abs/2403.15440",
+    "context": "Title: Linguistics from a topological viewpoint\nAbstract: arXiv:2403.15440v1 Announce Type: new  Abstract: Typological databases in linguistics are usually categorical-valued. As a result, it is difficult to have a clear visualization of the data. In this paper, we describe a workflow to analyze the topological shapes of South American languages by applying multiple correspondence analysis technique and topological data analysis methods.",
+    "path": "papers/24/03/2403.15440.json",
+    "total_tokens": 491,
+    "translated_title": "从拓扑学角度看语言学",
+    "translated_abstract": "语言学中的类型数据库通常是分类值的。因此，很难清晰地可视化数据。在本文中，我们描述了一种工作流程，通过应用多重对应分析技术和拓扑数据分析方法来分析南美语言的拓扑形状。",
+    "tldr": "本文介绍了一种分析南美语言拓扑形状的工作流程，应用了多重对应分析技术和拓扑数据分析方法。",
+    "en_tdlr": "This paper presents a workflow to analyze the topological shapes of South American languages using multiple correspondence analysis technique and topological data analysis methods."
+}

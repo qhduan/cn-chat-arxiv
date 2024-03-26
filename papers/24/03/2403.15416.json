@@ -1,0 +1,12 @@
+{
+    "title": "Fuzzy hyperparameters update in a second order optimization",
+    "abstract": "arXiv:2403.15416v1 Announce Type: cross  Abstract: This research will present a hybrid approach to accelerate convergence in a second order optimization. An online finite difference approximation of the diagonal Hessian matrix will be introduced, along with fuzzy inferencing of several hyperparameters. Competitive results have been achieved",
+    "link": "https://arxiv.org/abs/2403.15416",
+    "context": "Title: Fuzzy hyperparameters update in a second order optimization\nAbstract: arXiv:2403.15416v1 Announce Type: cross  Abstract: This research will present a hybrid approach to accelerate convergence in a second order optimization. An online finite difference approximation of the diagonal Hessian matrix will be introduced, along with fuzzy inferencing of several hyperparameters. Competitive results have been achieved",
+    "path": "papers/24/03/2403.15416.json",
+    "total_tokens": 506,
+    "translated_title": "在二阶优化中模糊超参数更新的研究",
+    "translated_abstract": "本研究将提出一种混合方法，以加速二阶优化中的收敛速度。将介绍对角Hessian矩阵的在线有限差分逼近，以及对几个超参数进行模糊推理。已取得竞争性成果。",
+    "tldr": "介绍了一种在二阶优化中加速收敛的混合方法，利用在线有限差分逼近对角Hessian矩阵，并应用模糊推理于多个超参数。",
+    "en_tdlr": "Introduces a hybrid approach to accelerate convergence in second order optimization, utilizing online finite difference approximation of the diagonal Hessian matrix and fuzzy inferencing of multiple hyperparameters."
+}

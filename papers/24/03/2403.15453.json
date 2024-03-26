@@ -1,0 +1,12 @@
+{
+    "title": "Span-Oriented Information Extraction -- A Unifying Perspective on Information Extraction",
+    "abstract": "arXiv:2403.15453v1 Announce Type: cross  Abstract: Information Extraction refers to a collection of tasks within Natural Language Processing (NLP) that identifies sub-sequences within text and their labels. These tasks have been used for many years to link extract relevant information and to link free text to structured data. However, the heterogeneity among information extraction tasks impedes progress in this area. We therefore offer a unifying perspective centered on what we define to be spans in text. We then re-orient these seemingly incongruous tasks into this unified perspective and then re-present the wide assortment of information extraction tasks as variants of the same basic Span-Oriented Information Extraction task.",
+    "link": "https://arxiv.org/abs/2403.15453",
+    "context": "Title: Span-Oriented Information Extraction -- A Unifying Perspective on Information Extraction\nAbstract: arXiv:2403.15453v1 Announce Type: cross  Abstract: Information Extraction refers to a collection of tasks within Natural Language Processing (NLP) that identifies sub-sequences within text and their labels. These tasks have been used for many years to link extract relevant information and to link free text to structured data. However, the heterogeneity among information extraction tasks impedes progress in this area. We therefore offer a unifying perspective centered on what we define to be spans in text. We then re-orient these seemingly incongruous tasks into this unified perspective and then re-present the wide assortment of information extraction tasks as variants of the same basic Span-Oriented Information Extraction task.",
+    "path": "papers/24/03/2403.15453.json",
+    "total_tokens": 702,
+    "translated_title": "面向跨度的信息抽取--信息抽取的统一视角",
+    "translated_abstract": "arXiv:2403.15453v1 公告类型: 跨 当前摘要: 信息抽取指的是自然语言处理（NLP）中的一系列任务，其目的是识别文本中的子序列及其标签。这些任务多年来被用于提取相关信息并将自由文本链接到结构化数据。然而，信息抽取任务之间的异质性妨碍了该领域的进展。因此，我们提出了一个以文本中的跨度为中心的统一视角。我们将这些看似不协调的任务重新定位到这一统一视角中，并将各种信息抽取任务呈现为相同基本面向跨度的信息抽取任务的变体。",
+    "tldr": "提出了以文本中的跨度为中心的统一视角，将各种信息抽取任务重新定位为相同基本面向跨度的信息抽取任务的变体",
+    "en_tdlr": "Proposes a unified perspective centered on spans in text, re-orienting various information extraction tasks as variants of the same basic Span-Oriented Information Extraction task."
+}

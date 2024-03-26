@@ -1,0 +1,12 @@
+{
+    "title": "DISL: Fueling Research with A Large Dataset of Solidity Smart Contracts",
+    "abstract": "arXiv:2403.16861v1 Announce Type: cross  Abstract: The DISL dataset features a collection of $514,506$ unique Solidity files that have been deployed to Ethereum mainnet. It caters to the need for a large and diverse dataset of real-world smart contracts. DISL serves as a resource for developing machine learning systems and for benchmarking software engineering tools designed for smart contracts. By aggregating every verified smart contract from Etherscan up to January 15, 2024, DISL surpasses existing datasets in size and recency.",
+    "link": "https://arxiv.org/abs/2403.16861",
+    "context": "Title: DISL: Fueling Research with A Large Dataset of Solidity Smart Contracts\nAbstract: arXiv:2403.16861v1 Announce Type: cross  Abstract: The DISL dataset features a collection of $514,506$ unique Solidity files that have been deployed to Ethereum mainnet. It caters to the need for a large and diverse dataset of real-world smart contracts. DISL serves as a resource for developing machine learning systems and for benchmarking software engineering tools designed for smart contracts. By aggregating every verified smart contract from Etherscan up to January 15, 2024, DISL surpasses existing datasets in size and recency.",
+    "path": "papers/24/03/2403.16861.json",
+    "total_tokens": 621,
+    "translated_title": "使用大规模Solidity智能合约数据集推动研究",
+    "translated_abstract": "DISL数据集包含了514,506个部署在以太坊主网上的独特Solidity文件，满足了大规模、多样化的真实世界智能合约数据集的需求。DISL成为了开发机器学习系统和为智能合约设计的软件工程工具进行基准测试的资源。通过收集截至2024年1月15日在Etherscan上验证的每个智能合约，DISL在规模和时效性上超越了现有数据集。",
+    "tldr": "DISL数据集包含了514,506个部署在以太坊主网上的独特Solidity文件，成为了开发智能合约设计工具和基准测试的重要资源。",
+    "en_tdlr": "The DISL dataset comprises 514,506 unique Solidity files deployed on the Ethereum mainnet, serving as a crucial resource for developing smart contract design tools and benchmarking."
+}

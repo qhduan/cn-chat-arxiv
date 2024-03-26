@@ -1,0 +1,11 @@
+{
+    "title": "Human Understanding AI Paper Challenge 2024 -- Dataset Design",
+    "abstract": "arXiv:2403.16509v1 Announce Type: new  Abstract: In 2024, we will hold a research paper competition (the third Human Understanding AI Paper Challenge) for the research and development of artificial intelligence technologies to understand human daily life. This document introduces the datasets that will be provided to participants in the competition, and summarizes the issues to consider in data processing and learning model development.",
+    "link": "https://arxiv.org/abs/2403.16509",
+    "context": "Title: Human Understanding AI Paper Challenge 2024 -- Dataset Design\nAbstract: arXiv:2403.16509v1 Announce Type: new  Abstract: In 2024, we will hold a research paper competition (the third Human Understanding AI Paper Challenge) for the research and development of artificial intelligence technologies to understand human daily life. This document introduces the datasets that will be provided to participants in the competition, and summarizes the issues to consider in data processing and learning model development.",
+    "path": "papers/24/03/2403.16509.json",
+    "total_tokens": 594,
+    "translated_title": "2024年人类理解人工智能论文挑战——数据集设计",
+    "translated_abstract": "arXiv:2403.16509v1 发布类型：新的 摘要：在2024年，我们将举办一场研究论文竞赛（第三届人类理解人工智能论文挑战赛），旨在研究和开发人工智能技术以理解人类日常生活。本文介绍了将提供给参赛者的数据集，并总结了在数据处理和学习模型开发中需要考虑的问题。",
+    "tldr": "2024年人类理解人工智能论文挑战将提供数据集，涉及人工智能技术以理解人类日常生活的研究和开发，重点考虑数据处理和学习模型的问题"
+}

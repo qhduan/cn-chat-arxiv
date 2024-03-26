@@ -1,0 +1,12 @@
+{
+    "title": "Hedge Fund Index Rules and Construction",
+    "abstract": "arXiv:2403.15925v1 Announce Type: new  Abstract: A Hedge Fund Index is very useful for tracking the performance of hedge fund investments, especially the timing of fund redemption. This paper presents a methodology for constructing a hedge fund index that is more like a quantitative fund of fund, rather than a weighted sum of a number of early replicable market indices, which are re-balanced periodically. The constructed index allows hedge funds to directly hedge their exposures to index-linked products. That is important given that hedge funds are an asset class with reduced transparency, and the returns are traditionally difficult to replicate using liquid instruments.",
+    "link": "https://arxiv.org/abs/2403.15925",
+    "context": "Title: Hedge Fund Index Rules and Construction\nAbstract: arXiv:2403.15925v1 Announce Type: new  Abstract: A Hedge Fund Index is very useful for tracking the performance of hedge fund investments, especially the timing of fund redemption. This paper presents a methodology for constructing a hedge fund index that is more like a quantitative fund of fund, rather than a weighted sum of a number of early replicable market indices, which are re-balanced periodically. The constructed index allows hedge funds to directly hedge their exposures to index-linked products. That is important given that hedge funds are an asset class with reduced transparency, and the returns are traditionally difficult to replicate using liquid instruments.",
+    "path": "papers/24/03/2403.15925.json",
+    "total_tokens": 663,
+    "translated_title": "对冲基金指数规则与构建",
+    "translated_abstract": "一项对冲基金指数对于跟踪对冲基金投资表现非常有用，尤其是对基金赎回的时机。本文提出了一种构建对冲基金指数的方法，它更像是一个量化的基金池，而不是一些早期可复制的市场指数的加权和，这些指数定期重新平衡。构建的指数允许对冲基金直接对冲其与指数相关的产品暴露。这一点非常重要，因为对冲基金是一种透明性较低的资产类别，其回报传统上很难使用流动性工具复制。",
+    "tldr": "提出了一种构建对冲基金指数的方法，可以更好地跟踪对冲基金投资表现，允许对冲基金直接对冲与指数相关的产品暴露。",
+    "en_tdlr": "Introduces a methodology for constructing a hedge fund index that better tracks hedge fund investment performance, allowing hedge funds to directly hedge exposures to index-linked products."
+}

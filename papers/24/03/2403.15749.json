@@ -1,0 +1,12 @@
+{
+    "title": "Horoballs and the subgradient method",
+    "abstract": "arXiv:2403.15749v1 Announce Type: cross  Abstract: To explore convex optimization on Hadamard spaces, we consider an iteration in the style of a subgradient algorithm. Traditionally, such methods assume that the underlying spaces are manifolds and that the objectives are geodesically convex: the methods are described using tangent spaces and exponential maps. By contrast, our iteration applies in a general Hadamard space, is framed in the underlying space itself, and relies instead on horospherical convexity of the objective level sets. For this restricted class of objectives, we prove a complexity result of the usual form. Notably, the complexity does not depend on a lower bound on the space curvature.",
+    "link": "https://arxiv.org/abs/2403.15749",
+    "context": "Title: Horoballs and the subgradient method\nAbstract: arXiv:2403.15749v1 Announce Type: cross  Abstract: To explore convex optimization on Hadamard spaces, we consider an iteration in the style of a subgradient algorithm. Traditionally, such methods assume that the underlying spaces are manifolds and that the objectives are geodesically convex: the methods are described using tangent spaces and exponential maps. By contrast, our iteration applies in a general Hadamard space, is framed in the underlying space itself, and relies instead on horospherical convexity of the objective level sets. For this restricted class of objectives, we prove a complexity result of the usual form. Notably, the complexity does not depend on a lower bound on the space curvature.",
+    "path": "papers/24/03/2403.15749.json",
+    "total_tokens": 700,
+    "translated_title": "Horoballs和次梯度方法",
+    "translated_abstract": "为了探索Hadamard空间上的凸优化问题，我们考虑了一种类似于次梯度算法的迭代。传统上，这类方法假设底层空间是流形，并且目标是测地凸的：这些方法是使用切空间和指数映射来描述的。相比之下，我们的迭代适用于一般的Hadamard空间，是在底层空间本身中构建的，并且依赖于客观水平集的horospherical凸性。对于这个受限制的客观类，我们证明了与通常形式的复杂性结果。值得注意的是，复杂性不依赖于空间曲率的下界。",
+    "tldr": "该论文提出了一种在Hadamard空间中进行凸优化的迭代方法，与传统假设不同，其复杂性不依赖于空间曲率的下界。",
+    "en_tdlr": "This paper introduces an iteration method for convex optimization in Hadamard spaces, whose complexity does not depend on a lower bound on space curvature, in contrast to traditional assumptions."
+}

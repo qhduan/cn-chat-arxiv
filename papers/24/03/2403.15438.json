@@ -1,0 +1,12 @@
+{
+    "title": "Unsupervised Adaptive Deep Learning Method For BCI Motor Imagery Decoding",
+    "abstract": "arXiv:2403.15438v1 Announce Type: cross  Abstract: In the context of Brain-Computer Interfaces, we propose an adaptive method that reaches offline performance level while being usable online without requiring supervision. Interestingly, our method does not require retraining the model, as it consists in using a frozen efficient deep learning backbone while continuously realigning data, both at input and latent spaces, based on streaming observations. We demonstrate its efficiency for Motor Imagery brain decoding from electroencephalography data, considering challenging cross-subject scenarios. For reproducibility, we share the code of our experiments.",
+    "link": "https://arxiv.org/abs/2403.15438",
+    "context": "Title: Unsupervised Adaptive Deep Learning Method For BCI Motor Imagery Decoding\nAbstract: arXiv:2403.15438v1 Announce Type: cross  Abstract: In the context of Brain-Computer Interfaces, we propose an adaptive method that reaches offline performance level while being usable online without requiring supervision. Interestingly, our method does not require retraining the model, as it consists in using a frozen efficient deep learning backbone while continuously realigning data, both at input and latent spaces, based on streaming observations. We demonstrate its efficiency for Motor Imagery brain decoding from electroencephalography data, considering challenging cross-subject scenarios. For reproducibility, we share the code of our experiments.",
+    "path": "papers/24/03/2403.15438.json",
+    "total_tokens": 759,
+    "translated_title": "BCI运动想象解码的无监督自适应深度学习方法",
+    "translated_abstract": "在脑-计算机界面的背景下，我们提出了一种自适应方法，能够在线使用而不需要监督，同时达到离线性能水平。有趣的是，我们的方法不需要重新训练模型，而是使用一个冻结的高效深度学习骨干，同时基于实时观察持续地对数据进行重新对齐，无论是在输入空间还是潜在空间。我们展示了该方法在考虑具有挑战性的跨主体场景下，从脑电图数据中对运动想象进行解码的有效性。为了可重现性，我们分享了实验代码。",
+    "tldr": "提出了一种无监督自适应深度学习方法，用于BCI运动想象解码，在不需要监督的情况下达到离线性能水平，同时无需重新训练模型，在实时观察基础上实现数据的持续重新对齐，展示了在跨主体场景下的有效性，并提供实验代码。",
+    "en_tdlr": "Introduced an unsupervised adaptive deep learning method for BCI motor imagery decoding, which achieves offline performance level without supervision, does not require retraining the model, continuously realigns data based on streaming observations, demonstrates efficiency in challenging cross-subject scenarios, and shares experiment code for reproducibility."
+}

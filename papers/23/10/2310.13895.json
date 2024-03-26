@@ -1,0 +1,12 @@
+{
+    "title": "RTSUM: Relation Triple-based Interpretable Summarization with Multi-level Salience Visualization",
+    "abstract": "arXiv:2310.13895v2 Announce Type: replace  Abstract: In this paper, we present RTSUM, an unsupervised summarization framework that utilizes relation triples as the basic unit for summarization. Given an input document, RTSUM first selects salient relation triples via multi-level salience scoring and then generates a concise summary from the selected relation triples by using a text-to-text language model. On the basis of RTSUM, we also develop a web demo for an interpretable summarizing tool, providing fine-grained interpretations with the output summary. With support for customization options, our tool visualizes the salience for textual units at three distinct levels: sentences, relation triples, and phrases. The codes,are publicly available.",
+    "link": "https://arxiv.org/abs/2310.13895",
+    "context": "Title: RTSUM: Relation Triple-based Interpretable Summarization with Multi-level Salience Visualization\nAbstract: arXiv:2310.13895v2 Announce Type: replace  Abstract: In this paper, we present RTSUM, an unsupervised summarization framework that utilizes relation triples as the basic unit for summarization. Given an input document, RTSUM first selects salient relation triples via multi-level salience scoring and then generates a concise summary from the selected relation triples by using a text-to-text language model. On the basis of RTSUM, we also develop a web demo for an interpretable summarizing tool, providing fine-grained interpretations with the output summary. With support for customization options, our tool visualizes the salience for textual units at three distinct levels: sentences, relation triples, and phrases. The codes,are publicly available.",
+    "path": "papers/23/10/2310.13895.json",
+    "total_tokens": 724,
+    "translated_title": "RTSUM：基于关系三元组的可解释摘要与多级显著性可视化",
+    "translated_abstract": "在本文中，我们提出了RTSUM，这是一种利用关系三元组作为摘要基本单元的无监督摘要框架。给定输入文档，RTSUM首先通过多级显著性评分选择显著的关系三元组，然后利用文本到文本语言模型从选定的关系三元组生成简洁摘要。在RTSUM的基础上，我们还开发了一个用于解释性摘要工具的网络演示，提供了对输出摘要的细粒度解释。通过支持自定义选项，我们的工具在三个不同级别上可视化文本单元的显著性：句子、关系三元组和短语。代码已公开可用。",
+    "tldr": "提出了RTSUM框架，利用关系三元组进行摘要生成，并开发了一个可解释的摘要工具，支持多级显著性可视化。",
+    "en_tdlr": "Proposed RTSUM framework utilizing relation triples for summarization and developed an interpretable summarizing tool with multi-level salience visualization."
+}

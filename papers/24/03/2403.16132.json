@@ -1,0 +1,12 @@
+{
+    "title": "Runtime Monitoring and Fault Detection for Neural Network-Controlled Systems",
+    "abstract": "arXiv:2403.16132v1 Announce Type: cross  Abstract: There is an emerging trend in applying deep learning methods to control complex nonlinear systems. This paper considers enhancing the runtime safety of nonlinear systems controlled by neural networks in the presence of disturbance and measurement noise. A robustly stable interval observer is designed to generate sound and precise lower and upper bounds for the neural network, nonlinear function, and system state. The obtained interval is utilised to monitor the real-time system safety and detect faults in the system outputs or actuators. An adaptive cruise control vehicular system is simulated to demonstrate effectiveness of the proposed design.",
+    "link": "https://arxiv.org/abs/2403.16132",
+    "context": "Title: Runtime Monitoring and Fault Detection for Neural Network-Controlled Systems\nAbstract: arXiv:2403.16132v1 Announce Type: cross  Abstract: There is an emerging trend in applying deep learning methods to control complex nonlinear systems. This paper considers enhancing the runtime safety of nonlinear systems controlled by neural networks in the presence of disturbance and measurement noise. A robustly stable interval observer is designed to generate sound and precise lower and upper bounds for the neural network, nonlinear function, and system state. The obtained interval is utilised to monitor the real-time system safety and detect faults in the system outputs or actuators. An adaptive cruise control vehicular system is simulated to demonstrate effectiveness of the proposed design.",
+    "path": "papers/24/03/2403.16132.json",
+    "total_tokens": 678,
+    "translated_title": "神经网络控制系统的运行时监控与故障检测",
+    "translated_abstract": "将深度学习方法应用于控制复杂非线性系统的趋势正在兴起。本文考虑在存在干扰和测量噪声的情况下，提升神经网络控制的非线性系统的运行时安全性。设计了一个稳定区间观测器，用于为神经网络、非线性函数和系统状态生成准确的下界和上界。所获得的区间被用于监控实时系统安全性，并检测系统输出或执行器中的故障。通过对自适应巡航控制车辆系统进行模拟，展示了所提出设计的有效性。",
+    "tldr": "本文设计了稳定的区间观测器，用于增强受神经网络控制的非线性系统的运行时安全性，并能监测系统的安全性并检测故障。",
+    "en_tdlr": "This paper presents a robust interval observer to enhance the runtime safety of nonlinear systems controlled by neural networks, providing real-time monitoring of system safety and fault detection."
+}

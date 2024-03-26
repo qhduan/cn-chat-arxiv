@@ -1,0 +1,12 @@
+{
+    "title": "Learning Directed Acyclic Graphs from Partial Orderings",
+    "abstract": "arXiv:2403.16031v1 Announce Type: cross  Abstract: Directed acyclic graphs (DAGs) are commonly used to model causal relationships among random variables. In general, learning the DAG structure is both computationally and statistically challenging. Moreover, without additional information, the direction of edges may not be estimable from observational data. In contrast, given a complete causal ordering of the variables, the problem can be solved efficiently, even in high dimensions. In this paper, we consider the intermediate problem of learning DAGs when a partial causal ordering of variables is available. We propose a general estimation framework for leveraging the partial ordering and present efficient estimation algorithms for low- and high-dimensional problems. The advantages of the proposed framework are illustrated via numerical studies.",
+    "link": "https://arxiv.org/abs/2403.16031",
+    "context": "Title: Learning Directed Acyclic Graphs from Partial Orderings\nAbstract: arXiv:2403.16031v1 Announce Type: cross  Abstract: Directed acyclic graphs (DAGs) are commonly used to model causal relationships among random variables. In general, learning the DAG structure is both computationally and statistically challenging. Moreover, without additional information, the direction of edges may not be estimable from observational data. In contrast, given a complete causal ordering of the variables, the problem can be solved efficiently, even in high dimensions. In this paper, we consider the intermediate problem of learning DAGs when a partial causal ordering of variables is available. We propose a general estimation framework for leveraging the partial ordering and present efficient estimation algorithms for low- and high-dimensional problems. The advantages of the proposed framework are illustrated via numerical studies.",
+    "path": "papers/24/03/2403.16031.json",
+    "total_tokens": 695,
+    "translated_title": "从偏序关系中学习有向无环图",
+    "translated_abstract": "有向无环图（DAGs）通常用于模拟随机变量之间的因果关系。通常来说，学习DAG结构在计算和统计方面都具有挑战性。此外，在没有额外信息的情况下，边的方向可能无法从观测数据中估计出来。本文考虑了在可用部分因果顺序变量的情况下学习DAGs的中间问题。我们提出了一个利用部分顺序的通用估计框架，并提出了低维和高维问题的有效估计算法。所提出框架的优势通过数值研究进行了说明。",
+    "tldr": "本文针对当可用部分因果顺序变量时学习DAGs的中间问题，提出了一个通用估计框架，并展示了有效的估计算法。",
+    "en_tdlr": "This paper addresses the intermediate problem of learning DAGs when a partial causal ordering of variables is available, proposing a general estimation framework and demonstrating efficient estimation algorithms."
+}

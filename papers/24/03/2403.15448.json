@@ -1,0 +1,11 @@
+{
+    "title": "What is Wrong with End-to-End Learning for Phase Retrieval?",
+    "abstract": "arXiv:2403.15448v1 Announce Type: cross  Abstract: For nonlinear inverse problems that are prevalent in imaging science, symmetries in the forward model are common. When data-driven deep learning approaches are used to solve such problems, these intrinsic symmetries can cause substantial learning difficulties. In this paper, we explain how such difficulties arise and, more importantly, how to overcome them by preprocessing the training set before any learning, i.e., symmetry breaking. We take far-field phase retrieval (FFPR), which is central to many areas of scientific imaging, as an example and show that symmetric breaking can substantially improve data-driven learning. We also formulate the mathematical principle of symmetry breaking.",
+    "link": "https://arxiv.org/abs/2403.15448",
+    "context": "Title: What is Wrong with End-to-End Learning for Phase Retrieval?\nAbstract: arXiv:2403.15448v1 Announce Type: cross  Abstract: For nonlinear inverse problems that are prevalent in imaging science, symmetries in the forward model are common. When data-driven deep learning approaches are used to solve such problems, these intrinsic symmetries can cause substantial learning difficulties. In this paper, we explain how such difficulties arise and, more importantly, how to overcome them by preprocessing the training set before any learning, i.e., symmetry breaking. We take far-field phase retrieval (FFPR), which is central to many areas of scientific imaging, as an example and show that symmetric breaking can substantially improve data-driven learning. We also formulate the mathematical principle of symmetry breaking.",
+    "path": "papers/24/03/2403.15448.json",
+    "total_tokens": 704,
+    "translated_title": "端到端学习在位相恢复中存在什么问题？",
+    "translated_abstract": "针对成像科学中普遍存在的非线性反问题，前向模型中的对称性很常见。当采用数据驱动的深度学习方法来解决这些问题时，这些内在对称性可能导致很大的学习困难。本文解释了这些困难是如何产生的，更重要的是如何通过在任何学习之前对训练集进行预处理，即对称破坏，来克服这些困难。我们以远场相位恢复（FFPR）为例，这对许多科学成像领域至关重要，并展示对称破坏可以显著改善数据驱动学习。我们还制定了对称破坏的数学原理。",
+    "tldr": "对称破坏技术在解决深度学习方法中前向模型对称性造成的困难方面发挥了重要作用。"
+}

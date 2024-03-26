@@ -2,192 +2,259 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Discounted Subjective Expected Utility in Continuous Time](https://arxiv.org/abs/2403.15319) | 将不确定性嵌入时间，提供了一种新颖而简单的时间解释主观概率的方法。 |
-| [^2] | [Human behaviour through a LENS: How Linguistic content triggers Emotions and Norms and determines Strategy choices](https://arxiv.org/abs/2403.15293) | 该研究提出了一个名为LENS的框架，指出语言描述会触发情绪反应和潜在行为规范，从而影响个体的战略选择。 |
-| [^3] | [Measuring Gender and Racial Biases in Large Language Models](https://arxiv.org/abs/2403.15281) | 研究发现在高风险决策中，OpenAI的GPT语言模型对于具有类似背景和技能的女性候选人评分偏高，而对于类似资质的黑人男性候选人评分较低。 |
-| [^4] | [AI Exposure and Strategic Positioning on an Online Work Platform](https://arxiv.org/abs/2403.15262) | 暴露于生成式AI技术的自由职业者在在线工作平台上具有更积极的战略行为，更倾向于在特定领域集中申请工作职位。 |
-| [^5] | [Tests for almost stochastic dominance](https://arxiv.org/abs/2403.15258) | 引入了二维随机优势指数来表征几乎随机优势，推导了几乎随机排序条件下两个变量之间最小违反比的估计量，并提供了一致的引导检验程序。 |
-| [^6] | [Modelling with Discretized Variables](https://arxiv.org/abs/2403.15220) | 该文提出了一种通过离散化方法来实现回归参数点标识的模型，同时保护数据机密性，适用于解决面板数据中多元线性回归参数估计的方法。 |
-| [^7] | [Teamwork and Spillover Effects in Performance Evaluations](https://arxiv.org/abs/2403.15200) | 同事绩效在团队合作环境中对个人绩效评估产生溢出效应，对经理决策和第三方专家评估均产生显著影响，突出了同事在职业晋升中的重要作用。 |
-| [^8] | [On the Weighted Top-Difference Distance: Axioms, Aggregation, and Approximation](https://arxiv.org/abs/2403.15198) | 论文研究了一种在排名中允许对替代方案进行非对称处理的距离函数族，提供了全面的公理化特征描述，并展示了如何有效地为特定目的削弱现有公理。通过在偏好聚合中应用该距离，展示了其在中值选举规则中的适用性，并展示了如何计算共识排名。 |
-| [^9] | [Fast TTC Computation](https://arxiv.org/abs/2403.15111) | 提出了一种基于马尔可夫矩阵的快速TTC计算方法，实现O(1)计算速度，并保留了TTC的所有特性。 |
-| [^10] | [The Power of Linear Programming in Sponsored Listings Ranking: Evidence from Field Experiments](https://arxiv.org/abs/2403.14862) | 线性规划在赞助列表排名中的应用为解决在线市场中的排名挑战提供了有力工具 |
-| [^11] | [Path-dependency of capital return in periodic growth processes](https://arxiv.org/abs/2403.08678) | 本研究发现，在周期性增长过程中，资本化的期望值取决于路径，从而导致资本的回报率和时间平均回报率取决于路径，且内部收益率与资本回报率的期望值不同。 |
-| [^12] | [Causal Models for Longitudinal and Panel Data: A Survey](https://arxiv.org/abs/2311.15458) | 该调研总结了最近关于因果面板数据的文献，重点是在具有纵向数据的情况下，可靠地估计二元干预的因果效应，并强调了对实证研究人员的实用建议。 |
-| [^13] | [New Concept for the Value Function of Prospect Theory](https://arxiv.org/abs/2211.00131) | 该研究提出了一个新概念的价值函数，可能具有神经突，显示出变化和行为突变。 |
-| [^14] | [An Axiomatic Characterization of Draft Rules.](http://arxiv.org/abs/2204.08300) | 该论文研究了选秀规则，提供了一个简单的选秀规则描述，该规则是满足优先级尊重、一物无嫉妒、非浪费和资源单调性的唯一分配规则。同时，该文还证明了三个不可能定理，并且选秀规则满足竞争平衡属性 RP 和 EF1，以及效率。 |
+| [^1] | [Economic DAO Governance: A Contestable Control Approach](https://arxiv.org/abs/2403.16980) | 提出了一种利用顺序拍卖机制的经济DAO治理新方法，解决了DAO面临的控制问题，既避免了公共选择问题，又能促进价值增长和投资。 |
+| [^2] | [The Costs of Competition in Distributing Scarce Research Funds](https://arxiv.org/abs/2403.16934) | 分析竞争性研究资金的分配，探讨竞争资金的经济成本，影响风险研究的资金竞争，以及竞争资金环境对科学家和伦理问题的影响。 |
+| [^3] | [Resistant Inference in Instrumental Variable Models](https://arxiv.org/abs/2403.16844) | 该论文提出了一种针对工具变量模型中弱工具、异常值和重尾误差具有鲁棒性的检验程序框架，通过M-估计器构建抗污染检验，特别展示了基于M-估计器构建的鲁棒CLR统计量具有相同的渐近分布。 |
+| [^4] | [Privacy-Protected Spatial Autoregressive Model](https://arxiv.org/abs/2403.16773) | 提出了一种隐私保护的空间自回归模型，引入了噪声响应和协变量以满足隐私保护要求，并开发了纠正由噪声引入的偏差的技术。 |
+| [^5] | [Quasi-randomization tests for network interference](https://arxiv.org/abs/2403.16673) | 构建条件准随机化检验来解决网络中干扰存在时的推理问题，使零假设在受限人口上成为尖锐。 |
+| [^6] | [Endogenous Fragility in Opaque Supply Chains](https://arxiv.org/abs/2403.16632) | 不可观察的供应商关系驱动企业未能有效分散风险，导致内生脆弱生产网络。 |
+| [^7] | [Determinants of Uruguay's Real Effective Exchange Rate: A Mundell-Fleming Model Approach](https://arxiv.org/abs/2403.16452) | 研究使用扩展的门德尔-弗莱明模型分析了影响乌拉圭实际有效汇率的因素，结果表明美国贷款利率、通货膨胀和货币供应量的增加与实际有效汇率贬值有关，这与门德尔-弗莱明模型关于浮动汇率的开放经济的理论预期一致。 |
+| [^8] | [Optimal testing in a class of nonregular models](https://arxiv.org/abs/2403.16413) | 本文研究了一类非常规模型中的最优假设检验，提出了基于似然比过程的渐近一致最强测试方法，通过随机化、调节常数和用户指定备择假设值等方式实现渐近最优性。 |
+| [^9] | [A new social welfare function with a number of desirable properties](https://arxiv.org/abs/2403.16373) | 通过放宽支配集的方式，提出了一个新的社会福利函数，满足多种理想属性，包括Condorcet胜者原则、Condorcet失败者原则、强Gehrlein稳定性、弱Pareto、强Pareto等。 |
+| [^10] | [The Informativeness of Combined Experimental and Observational Data under Dynamic Selection](https://arxiv.org/abs/2403.16177) | 通过将短期实验数据和观测数据结合，本研究探讨了在没有经典模型限制的情况下，如何推导尖锐的识别界限，以获得被治疗幸存者的平均处理效应。 |
+| [^11] | [Debiased Machine Learning when Nuisance Parameters Appear in Indicator Functions](https://arxiv.org/abs/2403.15934) | 本文提出了平滑指示函数的方法，并为这类模型开发了渐近分布理论，展现了偏差和方差之间的折衷关系，并研究了如何选择最优的平滑程度参数。 |
+| [^12] | [Hedge Fund Index Rules and Construction](https://arxiv.org/abs/2403.15925) | 提出了一种构建对冲基金指数的方法，可以更好地跟踪对冲基金投资表现，允许对冲基金直接对冲与指数相关的产品暴露。 |
+| [^13] | [Difference-in-Differences with Unpoolable Data](https://arxiv.org/abs/2403.15910) | 该研究提出了一种创新方法 UN--DID，用于估计具有不可混合数据的差异中的差异，并通过调整附加协变量、多组和错开采纳来提供有关受试者平均处理效应（ATT）的估计。 |
+| [^14] | [Single-token vs Two-token Blockchain Tokenomics](https://arxiv.org/abs/2403.15429) | 论文研究了由用户和验证者组成的PoS区块链系统中的令牌经济设计，探讨了系统服务提供与适当奖励方案如何共同导致具有可取特征的均衡状态。 |
+| [^15] | [Inference for Regression with Variables Generated from Unstructured Data](https://arxiv.org/abs/2402.15585) | 提出了一种使用联合上游和下游模型进行有效推断的一步策略，显著减少了偏误，在CEO时间利用数据的应用中产生了重要效果，适合应用研究人员。 |
+| [^16] | [Sequential choice functions and stability problems](https://arxiv.org/abs/2401.00748) | 引入了顺序选择函数的概念，并将稳定匹配问题转化为工作者是线性的情况。 |
+| [^17] | [New Concept for the Value Function of Prospect Theory](https://arxiv.org/abs/2211.00131) | 该研究提出了一个新概念的价值函数，可能具有神经突，显示出变化和行为突变。 |
+| [^18] | [Price and Payoff Autocorrelations in a Multi-Period Consumption-Based Asset Pricing Model](https://arxiv.org/abs/2204.07506) | 多期消费资产定价模型的基本定价方程受到价格和回报自相关性的影响，揭示了其与其他资产定价模型的关联。 |
+| [^19] | [Theoretical Economics and the Second-Order Economic Theory. What is it?](https://arxiv.org/abs/2112.04566) | 二阶经济理论探讨了由经济体交易的平方和构成的二阶经济变量对宏观经济变量的影响。 |
+| [^20] | [Online Action Learning in High Dimensions: A Conservative Perspective](https://arxiv.org/abs/2009.13961) | 该论文将$\epsilon_t$-贪心启发式方法扩展到高维度情境中，采用保守导向策略，实现在实用应用中对新奇性的重视，同时限制了采纳不寻常动作，有效控制了累积遗憾。 |
+| [^21] | [A prototype software framework for transparent, reusable and updatable computational health economic models.](http://arxiv.org/abs/2310.14138) | 这个论文提出了一个计算健康经济模型的原型软件框架，并提取了六个评估标准，旨在促进透明、可重用和可更新的模型开发，以满足社会需求。 |
+| [^22] | [The Distributional Impact of Price Inflation in Pakistan: A Case Study of a New Price Focused Microsimulation Framework, PRICES.](http://arxiv.org/abs/2310.00231) | 本研究利用微模拟模型分析了巴基斯坦价格变动的分布影响，特别关注能源和食品价格的变动。结果表明，能源价格对通货膨胀带来的福利损失的重要性有限。 |
+| [^23] | [Cluster-Robust Inference Robust to Large Clusters.](http://arxiv.org/abs/2308.10138) | 本文提出了一种对大型聚类集群具有鲁棒性的聚类鲁棒推断方法，无需尾指数估计且在尾分布情况下也有效。 |
+| [^24] | [The welfare effects of nonlinear health dynamics.](http://arxiv.org/abs/2207.03816) | 这项研究通过估计一个非参数模型，研究了非线性健康动态对经济结果的影响。结果表明，不良健康冲击对身体健康较差的人的长期经济效应更为严重，并增加了资产积累差距。 |
+| [^25] | [Identification and Estimation of Unconditional Policy Effects of an Endogenous Binary Treatment: an Unconditional MTE Approach.](http://arxiv.org/abs/2010.15864) | 本文介绍了一种基于函数影响函数的无条件边际处理效应（MTE）的新方法，研究了处理状态为二元且内生时策略效应的识别与估计。我们证明了无条件策略效应可以表示为对于对待自己的处理状态处于决策困惑的个体而言新定义的无条件MTE的加权平均。对于感兴趣的分位数，我们引入了无条件工具分位数估计（UNIQUE）并证明了其一致性和渐近分布。在实证应用中，我们估计了通过更高的学费补贴引起的大学入学状态变化对工资分布的分位数的影响。 |
 
 # 详细
 
-[^1]: 连续时间中的折现主观期望效用
+[^1]: 经济DAO治理：一种可争夺控制方法
 
-    Discounted Subjective Expected Utility in Continuous Time
+    Economic DAO Governance: A Contestable Control Approach
 
-    [https://arxiv.org/abs/2403.15319](https://arxiv.org/abs/2403.15319)
+    [https://arxiv.org/abs/2403.16980](https://arxiv.org/abs/2403.16980)
 
-    将不确定性嵌入时间，提供了一种新颖而简单的时间解释主观概率的方法。
-
-    
-
-    通过将不确定性嵌入时间，我们获得了指数折现和主观期望效用的联合公理特征，该特性适应任意状态和结果空间。 在此过程中，我们提供了主观概率的一种新颖而简单的时间解释。 事件的主观概率是通过时间折现来校准的。
-
-    arXiv:2403.15319v1 Announce Type: new  Abstract: By embedding uncertainty into time, we obtain a conjoint axiomatic characterization of both Exponential Discounting and Subjective Expected Utility that accommodates arbitrary state and outcome spaces. In doing so, we provide a novel and simple time-interpretation of subjective probability. The subjective probability of an event is calibrated using time discounting.
-    
-[^2]: 透过镜头看人类行为：语言内容如何触发情绪和规范，并决定策略选择
-
-    Human behaviour through a LENS: How Linguistic content triggers Emotions and Norms and determines Strategy choices
-
-    [https://arxiv.org/abs/2403.15293](https://arxiv.org/abs/2403.15293)
-
-    该研究提出了一个名为LENS的框架，指出语言描述会触发情绪反应和潜在行为规范，从而影响个体的战略选择。
+    提出了一种利用顺序拍卖机制的经济DAO治理新方法，解决了DAO面临的控制问题，既避免了公共选择问题，又能促进价值增长和投资。
 
     
 
-    在过去的二十年里，越来越多的实验研究证明，语言框架影响了经济博弈中人类行为，超越了可用行动的经济后果。本文提出了一个超越传统基于结果偏好模型的新框架。根据LENS模型，对决策问题的语言描述会触发情绪反应并暗示潜在的行为规范，这些规范再相互作用来塑造个体的战略选择。本文审查了支持LENS模型每个路径的实验证据。此外，它确定并讨论了一些由该模型引申出的重要研究问题，指向未来研究的方向。
+    在本文中，我们提出了一种新形式的DAO治理，利用顺序拍卖机制来克服DAO出现的根深蒂固的控制问题，通过创建一个临时可争夺控制的制度。这种机制避免了投票方法固有的潜在公共选择问题，同时提供了一个可以增强和确保DAO投票和其他DAO非市场治理程序固有价值的工具。它对空头投票具有鲁棒性，且代码可行。它促进了DAO在面对不同监管方法时实现其规范和运营目标的能力。设计是将控制权转移给拥有最有前途商业计划的一方，同时以一种有利于促进其他方投资的方式分配剩余价值。
 
-    arXiv:2403.15293v1 Announce Type: new  Abstract: Over the last two decades, a growing body of experimental research has provided evidence that linguistic frames influence human behaviour in economic games, beyond the economic consequences of the available actions. This article proposes a novel framework that transcends the traditional confines of outcome-based preference models. According to the LENS model, the Linguistic description of the decision problem triggers Emotional responses and suggests potential Norms of behaviour, which then interact to shape an individual's Strategic choice. The article reviews experimental evidence that supports each path of the LENS model. Furthermore, it identifies and discusses several critical research questions that arise from this model, pointing towards avenues for future inquiry.
+    arXiv:2403.16980v1 Announce Type: cross  Abstract: In this article, we propose a new form of DAO governance that uses a sequential auction mechanism to overcome entrenched control issues that have emerged for DAOs by creating a regime of temporary contestable control. The mechanism avoids potential public choice problems inherent in voting approaches but at the same time provides a vehicle that can enhance and secure value than inheres to DAO voting and other DAO non-market governance procedures. It is robust to empty voting and is code feasible. It facilitates the ability of DAOs to meet their normative and operational goals in the face of diverse regulatory approaches. Designed to shift control to the party with the most promising business plan, at the same time it distributes surplus in a way that tends to promote investment by other parties.
     
-[^3]: 在大型语言模型中测量性别和种族偏见
+[^2]: 竞争在分配有限研究经费方面的成本
 
-    Measuring Gender and Racial Biases in Large Language Models
+    The Costs of Competition in Distributing Scarce Research Funds
 
-    [https://arxiv.org/abs/2403.15281](https://arxiv.org/abs/2403.15281)
+    [https://arxiv.org/abs/2403.16934](https://arxiv.org/abs/2403.16934)
 
-    研究发现在高风险决策中，OpenAI的GPT语言模型对于具有类似背景和技能的女性候选人评分偏高，而对于类似资质的黑人男性候选人评分较低。
-
-    
-
-    在传统的决策过程中，人类决策者的社会偏见可能导致妇女、种族或少数民族等代表性社会群体获得不平等的经济成果。最近，基于大型语言模型的人工智能的增长暗示着潜在的从基于人类到基于 AI 的决策过程的转变。这将如何影响社会群体之间的分配结果？在这里，我们在一个高风险的决策环境中调查了 OpenAI 的 GPT（一种广泛使用的 LLM）的性别和种族偏见，具体评估了来自不同社会群体的应聘者。指示 GPT对约361000份具有随机社会身份的简历进行评分后，我们发现该 LLM 对具有类似工作经验、教育和技能的女性候选人给予更高的评分，而对具有相当资质的黑人男性候选人给予较低的评分。这些偏见可能导致...（文本截断）
-
-    arXiv:2403.15281v1 Announce Type: new  Abstract: In traditional decision making processes, social biases of human decision makers can lead to unequal economic outcomes for underrepresented social groups, such as women, racial or ethnic minorities. Recently, the increasing popularity of Large language model based artificial intelligence suggests a potential transition from human to AI based decision making. How would this impact the distributional outcomes across social groups? Here we investigate the gender and racial biases of OpenAIs GPT, a widely used LLM, in a high stakes decision making setting, specifically assessing entry level job candidates from diverse social groups. Instructing GPT to score approximately 361000 resumes with randomized social identities, we find that the LLM awards higher assessment scores for female candidates with similar work experience, education, and skills, while lower scores for black male candidates with comparable qualifications. These biases may res
-    
-[^4]: 在线工作平台上的AI暴露和战略定位
-
-    AI Exposure and Strategic Positioning on an Online Work Platform
-
-    [https://arxiv.org/abs/2403.15262](https://arxiv.org/abs/2403.15262)
-
-    暴露于生成式AI技术的自由职业者在在线工作平台上具有更积极的战略行为，更倾向于在特定领域集中申请工作职位。
+    分析竞争性研究资金的分配，探讨竞争资金的经济成本，影响风险研究的资金竞争，以及竞争资金环境对科学家和伦理问题的影响。
 
     
 
-    AI技术有可能通过提高工人生产力和减少对某些技能或任务的需求来影响劳动力市场结果。这些变化可能会对工作者寻找工作和定位方式产生重要影响。在该项目中，我们研究了暴露于生成式AI技术的自由职业者在2022年12月ChatGPT推出后会如何影响在线工作平台上的战略行为。相对于暴露较少的同行，我们发现，暴露度更高于语言建模技术的自由职业者在ChatGPT推出后会在该平台上申请更多的职位，并增加这些申请在特定专业中的集中度。我们记录了这种效应在自由职业者特征上的异质性，并考虑这些行为如何塑造技术冲击是否以及在多大程度上影响自由职业者在平台上的表现。
+    研究资金系统并不是孤立的系统 - 它们嵌入在一个对整个科学系统有着巨大影响的更大系统中。本文旨在从不同角度分析竞争性研究资金的分配：资金决策过程的可靠性如何？竞争性资金的经济成本是多少？为了进行风险研究，为资金竞争如何影响？竞争资金环境如何影响科学家本身，以及必须考虑哪些伦理问题？我们试图找出对研究资金系统的知识的空白；我们提出了对政策制定者和资助机构的建议，包括对决策过程进行实证实验和收集这些过程的数据。通过我们的建议，希望有助于发展改进的组织研究资金的方式。
 
-    arXiv:2403.15262v1 Announce Type: new  Abstract: AI technologies have the potential to affect labor market outcomes by both increasing worker productivity and reducing the demand for certain skills or tasks. Such changes may have important implications for the ways in which workers seek jobs and position themselves. In this project, we examine how exposure to generative AI technologies affects the strategic behavior of freelancer workers on an online work platform following the launch of ChatGPT in December 2022. Relative to their less exposed counterparts, we show that freelancers that are more exposed to language modeling technologies apply for more job posts on the platform following the launch of ChatGPT and increase the concentration of these applications across specializations. We document heterogeneity in this effect across freelancer characteristics and consider how such behaviors shape whether and to what extent the technological shock affects freelancer performance on the pla
+    arXiv:2403.16934v1 Announce Type: new  Abstract: Research funding systems are not isolated systems - they are embedded in a larger scientific system with an enormous influence on the system. This paper aims to analyze the allocation of competitive research funding from different perspectives: How reliable are decision processes for funding? What are the economic costs of competitive funding? How does competition for funds affect doing risky research? How do competitive funding environments affect scientists themselves, and which ethical issues must be considered? We attempt to identify gaps in our knowledge of research funding systems; we propose recommendations for policymakers and funding agencies, including empirical experiments of decision processes and the collection of data on these processes. With our recommendations we hope to contribute to developing improved ways of organizing research funding.
     
-[^5]: 几乎随机优势的检验
+[^3]: 工具变量模型中的抗污染推断
 
-    Tests for almost stochastic dominance
+    Resistant Inference in Instrumental Variable Models
 
-    [https://arxiv.org/abs/2403.15258](https://arxiv.org/abs/2403.15258)
+    [https://arxiv.org/abs/2403.16844](https://arxiv.org/abs/2403.16844)
 
-    引入了二维随机优势指数来表征几乎随机优势，推导了几乎随机排序条件下两个变量之间最小违反比的估计量，并提供了一致的引导检验程序。
-
-    
-
-    我们引入了一个二维随机优势（2DSD）指数来刻画严格和几乎随机优势。基于这个指数，我们推导了几乎随机排序条件下两个变量之间最小违反比（MVR）的估计量。我们确定了经验2DSD指数和MVR在最常用的随机排序情况下的渐近性质。我们还提供了引导估计这些量的强一致性的条件。作为应用，我们为几乎随机优势开发了一致的引导检验程序。通过模拟和实际数据分析来检验测试的性能。
-
-    arXiv:2403.15258v1 Announce Type: new  Abstract: We introduce a 2-dimensional stochastic dominance (2DSD) index to characterize both strict and almost stochastic dominance. Based on this index, we derive an estimator for the minimum violation ratio (MVR), also known as the critical parameter, of the almost stochastic ordering condition between two variables. We determine the asymptotic properties of the empirical 2DSD index and MVR for the most frequently used stochastic orders. We also provide conditions under which the bootstrap estimators of these quantities are strongly consistent. As an application, we develop consistent bootstrap testing procedures for almost stochastic dominance. The performance of the tests is checked via simulations and the analysis of real data.
-    
-[^6]: 使用离散变量建模
-
-    Modelling with Discretized Variables
-
-    [https://arxiv.org/abs/2403.15220](https://arxiv.org/abs/2403.15220)
-
-    该文提出了一种通过离散化方法来实现回归参数点标识的模型，同时保护数据机密性，适用于解决面板数据中多元线性回归参数估计的方法。
+    该论文提出了一种针对工具变量模型中弱工具、异常值和重尾误差具有鲁棒性的检验程序框架，通过M-估计器构建抗污染检验，特别展示了基于M-估计器构建的鲁棒CLR统计量具有相同的渐近分布。
 
     
 
-    本文讨论了在计量经济模型中，因变量、一些解释变量或两者均以被截断的区间数据的形式观测到的情况。这种离散化通常是由于敏感变量如收入的保密性造成的。使用这些变量的模型无法对回归参数进行点识别，因为条件矩未知，这导致文献使用区间估计。在这里，我们提出了一种离散化方法，通过该方法可以点识别回归参数，同时保护数据的机密性。我们展示了OLS估计器在面板数据的多元线性回归中的渐近性质。理论发现得到蒙特卡洛实验的支持，并通过应用到澳大利亚性别工资差距上进行了说明。
+    在工具变量模型中，如果数据被污染，经典检验可能会表现得任意。例如，一个异常观测足以改变检验结果。我们开发了一个框架，构建了对工具变量模型中的弱工具、异常值和重尾误差具有鲁棒性的检验程序。该框架基于M-估计量构建。通过推导出经典弱工具鲁棒检验（如安德森-鲁宾检验、K检验和条件似然比（CLR）检验）的影响函数，证明了它们对微小污染的敏感性是无限的。因此，我们构建了抗污染的鲁棒性替代方案。特别地，我们展示了如何基于Mallows类型的M-估计器构建稳健的CLR统计量，并展示其渐近分布与（经典的）CLR统计量相同。理论结果得到了验证。
 
-    arXiv:2403.15220v1 Announce Type: new  Abstract: This paper deals with econometric models in which the dependent variable, some explanatory variables, or both are observed as censored interval data. This discretization often happens due to confidentiality of sensitive variables like income. Models using these variables cannot point identify regression parameters as the conditional moments are unknown, which led the literature to use interval estimates. Here, we propose a discretization method through which the regression parameters can be point identified while preserving data confidentiality. We demonstrate the asymptotic properties of the OLS estimator for the parameters in multivariate linear regressions for cross-sectional data. The theoretical findings are supported by Monte Carlo experiments and illustrated with an application to the Australian gender wage gap.
+    arXiv:2403.16844v1 Announce Type: new  Abstract: The classical tests in the instrumental variable model can behave arbitrarily if the data is contaminated. For instance, one outlying observation can be enough to change the outcome of a test. We develop a framework to construct testing procedures that are robust to weak instruments, outliers and heavy-tailed errors in the instrumental variable model. The framework is constructed upon M-estimators. By deriving the influence functions of the classical weak instrument robust tests, such as the Anderson-Rubin test, K-test and the conditional likelihood ratio (CLR) test, we prove their unbounded sensitivity to infinitesimal contamination. Therefore, we construct contamination resistant/robust alternatives. In particular, we show how to construct a robust CLR statistic based on Mallows type M-estimators and show that its asymptotic distribution is the same as that of the (classical) CLR statistic. The theoretical results are corroborated by a
     
-[^7]: 团队合作与绩效评估中的溢出效应
+[^4]: 隐私保护的空间自回归模型
 
-    Teamwork and Spillover Effects in Performance Evaluations
+    Privacy-Protected Spatial Autoregressive Model
 
-    [https://arxiv.org/abs/2403.15200](https://arxiv.org/abs/2403.15200)
+    [https://arxiv.org/abs/2403.16773](https://arxiv.org/abs/2403.16773)
 
-    同事绩效在团队合作环境中对个人绩效评估产生溢出效应，对经理决策和第三方专家评估均产生显著影响，突出了同事在职业晋升中的重要作用。
-
-    
-
-    本文展示了在工作场所团队合作环境中，同事绩效如何影响个人绩效评估。我们使用足球比赛的高质量数据来衡量个人绩效的一个重要组成部分，射门表现，将其与协作效应隔离开来。采用因果机器学习方法，我们探讨了工人的同质匹配情况，并估计了平均效应和异质效应。研究结果显示绩效评估中存在大量的溢出效应。同事的射门表现显著影响经理的决策和第三方专家对个人绩效的评估。我们的结果强调了同事在塑造职业晋升中所起的重要作用，并突出了一个补充渠道，即同事如何影响职业晋升，进而产生生产率增长和学习效应。我们刻画了受溢出效应影响最大和最小的工人群体。
-
-    arXiv:2403.15200v1 Announce Type: new  Abstract: This article shows how coworker performance affects individual performance evaluation in a teamwork setting at the workplace. We use high-quality data on football matches to measure an important component of individual performance, shooting performance, isolated from collaborative effects. Employing causal machine learning methods, we address the assortative matching of workers and estimate both average and heterogeneous effects. There is substantial evidence for spillover effects in performance evaluations. Coworker shooting performance, meaningfully impacts both, manager decisions and third-party expert evaluations of individual performance. Our results underscore the significant role coworkers play in shaping career advancements and highlight a complementary channel, to productivity gains and learning effects, how coworkers impact career advancement. We characterize the groups of workers that are most and least affected by spillover e
-    
-[^8]: 关于加权顶部差异距离：公理，聚合和近似
-
-    On the Weighted Top-Difference Distance: Axioms, Aggregation, and Approximation
-
-    [https://arxiv.org/abs/2403.15198](https://arxiv.org/abs/2403.15198)
-
-    论文研究了一种在排名中允许对替代方案进行非对称处理的距离函数族，提供了全面的公理化特征描述，并展示了如何有效地为特定目的削弱现有公理。通过在偏好聚合中应用该距离，展示了其在中值选举规则中的适用性，并展示了如何计算共识排名。
+    提出了一种隐私保护的空间自回归模型，引入了噪声响应和协变量以满足隐私保护要求，并开发了纠正由噪声引入的偏差的技术。
 
     
 
-    我们研究了一类在排名中允许对替代方案进行非对称处理并考虑有序列表中顶部和底部位置的不同相关性的距离函数族。我们对我们的距离进行全面的公理化特征描述。在这个过程中，我们检索了现有公理的新特征并展示了如何有效地为我们的目的削弱它们。这种分析突出了我们的距离的一般性，因为它嵌入了文献中之前提出的许多(半)度量。随后，我们展示了，尽管它的一般性水平，我们的距离仍然可以很容易地应用。我们将其应用于偏好聚合，研究相关中值选举规则的特征。我们展示了衍生偏好函数如何在选举规则的背景下满足许多理想特性，从公平性到多数和帕累托相关的特性。我们展示了如何确切计算共识排名。
+    空间自回归（SAR）模型是研究网络效应的重要工具。然而，随着对数据隐私的重视增加，数据提供者经常实施隐私保护措施，使传统的SAR模型变得不适用。在本研究中，我们介绍了一种带有添加噪声响应和协变量的隐私保护的SAR模型，以满足隐私保护要求。然而，在这种情况下，由于无法建立似然函数，传统的拟最大似然估计变得不可行。为了解决这个问题，我们首先考虑了只有噪声添加响应的似然函数的显式表达。然而，由于协变量中的噪声，导数是有偏的。因此，我们开发了可以纠正噪声引入的偏差的技术。相应地，提出了一种类似牛顿-拉弗森的算法来获得估计量，从而导致一个修正的似然估计量。
 
-    arXiv:2403.15198v1 Announce Type: cross  Abstract: We study a family of distance functions on rankings that allow for asymmetric treatments of alternatives and consider the distinct relevance of the top and bottom positions for ordered lists. We provide a full axiomatic characterization of our distance. In doing so, we retrieve new characterizations of existing axioms and show how to effectively weaken them for our purposes. This analysis highlights the generality of our distance as it embeds many (semi)metrics previously proposed in the literature. Subsequently, we show that, notwithstanding its level of generality, our distance is still readily applicable. We apply it to preference aggregation, studying the features of the associated median voting rule. It is shown how the derived preference function satisfies many desirable features in the context of voting rules, ranging from fairness to majority and Pareto-related properties. We show how to compute consensus rankings exactly, and 
+    arXiv:2403.16773v1 Announce Type: cross  Abstract: Spatial autoregressive (SAR) models are important tools for studying network effects. However, with an increasing emphasis on data privacy, data providers often implement privacy protection measures that make classical SAR models inapplicable. In this study, we introduce a privacy-protected SAR model with noise-added response and covariates to meet privacy-protection requirements. However, in this scenario, the traditional quasi-maximum likelihood estimator becomes infeasible because the likelihood function cannot be formulated. To address this issue, we first consider an explicit expression for the likelihood function with only noise-added responses. However, the derivatives are biased owing to the noise in the covariates. Therefore, we develop techniques that can correct the biases introduced by noise. Correspondingly, a Newton-Raphson-type algorithm is proposed to obtain the estimator, leading to a corrected likelihood estimator. To
     
-[^9]: 快速TTC计算
+[^5]: 网络干扰的准随机化检验
 
-    Fast TTC Computation
+    Quasi-randomization tests for network interference
 
-    [https://arxiv.org/abs/2403.15111](https://arxiv.org/abs/2403.15111)
+    [https://arxiv.org/abs/2403.16673](https://arxiv.org/abs/2403.16673)
 
-    提出了一种基于马尔可夫矩阵的快速TTC计算方法，实现O(1)计算速度，并保留了TTC的所有特性。
-
-    
-
-    本文提出了一种基于马尔可夫矩阵的快速计算拍卖机制（TTC）的方法，可以实现O(1)的计算速度，即速度与系统中的代理人和物品数量无关。所提出的方法非常适用于如住房选择等复杂的大维问题。该方法保留了TTC的所有特性，即帕累托效率、个体理性和策略无关性。
-
-    arXiv:2403.15111v1 Announce Type: new  Abstract: This paper proposes a fast Markov Matrix-based methodology for computing Top Trading Cycles (TTC) that delivers O(1) computational speed, that is speed independent of the number of agents and objects in the system. The proposed methodology is well suited for complex large-dimensional problems like housing choice. The methodology retains all the properties of TTC, namely, Pareto-efficiency, individual rationality and strategy-proofness.
-    
-[^10]: 线性规划在赞助列表排名中的威力：来自现场实验的证据
-
-    The Power of Linear Programming in Sponsored Listings Ranking: Evidence from Field Experiments
-
-    [https://arxiv.org/abs/2403.14862](https://arxiv.org/abs/2403.14862)
-
-    线性规划在赞助列表排名中的应用为解决在线市场中的排名挑战提供了有力工具
+    构建条件准随机化检验来解决网络中干扰存在时的推理问题，使零假设在受限人口上成为尖锐。
 
     
 
-    赞助列表是许多知名在线市场的主要收入来源之一，如亚马逊、沃尔玛和阿里巴巴。在线市场可能在展示特定商品的网页上除了该商品外，还会展示来自各种第三方卖家的赞助商品的排名列表。针对每次访问确定如何对这些赞助商品进行排名是在线市场的一个关键挑战，这个问题被称为赞助列表排名（SLR）。SLR的主要困难在于平衡最大化整体收入和推荐高质量和相关排名列表之间的权衡。虽然更相关的排名可能导致更多的购买和消费者参与，但市场在制定排名决策时还需要考虑潜在收入。
+    许多经典的推理方法在人口单位之间存在干扰时失效。这意味着一个单位的处理状态会影响人口中其他单位的潜在结果。在这种情况下测试这种影响的零假设会使零假设非尖锐。解决这种设置中零假设非尖锐性的一个有趣方法是构建条件随机化检验，使得零假设在受限人口上是尖锐的。在随机实验中，条件随机化检验具有有限样本有效性。这种方法可能会带来计算挑战，因为根据实验设计找到这些适当的子人口可能涉及解决一个NP难的问题。在这篇论文中，我们将人口之间的网络视为一个随机变量而不是固定的。我们提出了一种建立条件准随机化检验的新方法。我们的主要思想是
 
-    arXiv:2403.14862v1 Announce Type: new  Abstract: Sponsored listing is one of the major revenue sources for many prominent online marketplaces, such as Amazon, Walmart, and Alibaba. When consumers visit a marketplace's webpage for a specific item, in addition to that item, the marketplace might also display a ranked listing of sponsored items from various third-party sellers. These sellers are charged an advertisement fee if a user purchases any of the sponsored items from this listing. Determining how to rank these sponsored items for each incoming visit is a crucial challenge for online marketplaces, a problem known as sponsored listings ranking (SLR). The major difficulty of SLR lies in balancing the trade-off between maximizing the overall revenue and recommending high-quality and relevant ranked listings. While a more relevant ranking may result in more purchases and consumer engagement, the marketplace also needs to take account of the potential revenue when making ranking decisio
+    arXiv:2403.16673v1 Announce Type: cross  Abstract: Many classical inferential approaches fail to hold when interference exists among the population units. This amounts to the treatment status of one unit affecting the potential outcome of other units in the population. Testing for such spillover effects in this setting makes the null hypothesis non-sharp. An interesting approach to tackling the non-sharp nature of the null hypothesis in this setup is constructing conditional randomization tests such that the null is sharp on the restricted population. In randomized experiments, conditional randomized tests hold finite sample validity. Such approaches can pose computational challenges as finding these appropriate sub-populations based on experimental design can involve solving an NP-hard problem. In this paper, we view the network amongst the population as a random variable instead of being fixed. We propose a new approach that builds a conditional quasi-randomization test. Our main ide
     
-[^11]: 资本回报在周期性增长过程中的路径依赖性研究
+[^6]: 不透明供应链中的内生脆弱性
 
-    Path-dependency of capital return in periodic growth processes
+    Endogenous Fragility in Opaque Supply Chains
 
-    [https://arxiv.org/abs/2403.08678](https://arxiv.org/abs/2403.08678)
+    [https://arxiv.org/abs/2403.16632](https://arxiv.org/abs/2403.16632)
 
-    本研究发现，在周期性增长过程中，资本化的期望值取决于路径，从而导致资本的回报率和时间平均回报率取决于路径，且内部收益率与资本回报率的期望值不同。
-
-    
-
-    研究了周期性增长过程。根据应计基础，利润率的期望值既不直接取决于减值，也不取决于资本化路径。资本化的期望值是路径依赖的。由于依赖路径的资本化，资本的回报率也是路径依赖的，而资本的时间平均回报率与增长周期的期望值回报率不同。在没有中间减值的情况下，内部收益率是路径无关的，因此与资本回报率的期望值不同。结果表明，使权益回报率最大化的旋转周期长度与市场利率无关。杠杆效应通过一个单独的杠杆方程进入增长过程的微观经济学中，杠杆系数可能达到正值或负值。
-
-    arXiv:2403.08678v1 Announce Type: new  Abstract: Periodic growth processes are investigated. The expected value of the profit rate, on accrual basis, does not directly depend on divestments, neither on the capitalization path. The expected value of capitalization is path dependent. Because of the path-dependent capitalization, the return rate on capital is path-dependent, and the time-average return rate on capital differs from the expected-value return rate on capital for the growth cycle. In the absence of intermediate divestments, the internal rate of return is path-independent, thereby differing from the expected value of the rate of return on capital. It is shown that the rotation cycle length maximizing the return rate on equity is independent of market interest rate. Leveraging effect enters the microeconomics of the growth processes through a separate leveraging equation, where the leverage coefficient may reach positive or negative values. Correspondingly, from the viewpoint o
-    
-[^12]: 纵向和面板数据的因果模型：一项调研
-
-    Causal Models for Longitudinal and Panel Data: A Survey
-
-    [https://arxiv.org/abs/2311.15458](https://arxiv.org/abs/2311.15458)
-
-    该调研总结了最近关于因果面板数据的文献，重点是在具有纵向数据的情况下，可靠地估计二元干预的因果效应，并强调了对实证研究人员的实用建议。
+    不可观察的供应商关系驱动企业未能有效分散风险，导致内生脆弱生产网络。
 
     
 
-    这项调研讨论了最近关于因果面板数据的文献。这些最近的文献主要关注可靠地估计具有纵向数据的二元干预的因果效应，强调了对实证研究人员的实用建议。它特别关注了因果效应中的异质性，在少量单位被处理且为分配模式设定了特定结构的情况下。该文献扩展了早期关于差分法或双因素固定效应估计器的工作。它一般更多地纳入了因子模型或交互固定效应。它还开发了使用合成对照方法的新方法。
+    本文研究了供应链不可观察性在产生内生脆弱生产网络中的作用。在一个简单的生产博弈中，企业需要多源采购以对冲供应商风险，但由于不可观察性，企业相对社会最优状态下未能充分分散风险。供应商关系的不可观察性是这一现象的推动力。在上游风险高度相关且供应商关系不可观察的生产网络中，增加另一个供应商所带来的边际风险降低较小，因为这个额外供应商的风险很可能与现有供应商的风险相关。这种情况削弱了企业多样化的动机，导致产生效率低下的脆弱生产网络。
 
-    arXiv:2311.15458v2 Announce Type: replace  Abstract: This survey discusses the recent causal panel data literature. This recent literature has focused on credibly estimating causal effects of binary interventions in settings with longitudinal data, with an emphasis on practical advice for empirical researchers. It pays particular attention to heterogeneity in the causal effects, often in situations where few units are treated and with particular structures on the assignment pattern. The literature has extended earlier work on difference-in-differences or two-way-fixed-effect estimators. It has more generally incorporated factor models or interactive fixed effects. It has also developed novel methods using synthetic control approaches.
+    arXiv:2403.16632v1 Announce Type: new  Abstract: This paper investigates the role of supply chain unobservability in generating endogenously fragile production networks. In a simple production game, in which firms need to multisource to hedge against suppliers' risk under unobservability, firms underdiversify vis-a-vis the social optimum. The unobservability of suppliers' relations is the driver behind this. In production networks where upstream risk is highly correlated and supplier relationships are not observable, the marginal risk reduction of adding an additional supplier is low, because this additional supplier's risk is likely to be correlated to that of existing suppliers. This channel reduces firm incentives to diversify, which gives rise to inefficiently fragile production networks. By solving the social planner problem, I show that, if the risk reduction experienced downstream resulting from upstream diversification were to be internalised by upstream firms, endogenous produ
     
-[^13]: 简化理论的价值函数的新概念
+[^7]: 乌拉圭实际有效汇率的决定因素：一种门德尔-弗莱明模型方法
+
+    Determinants of Uruguay's Real Effective Exchange Rate: A Mundell-Fleming Model Approach
+
+    [https://arxiv.org/abs/2403.16452](https://arxiv.org/abs/2403.16452)
+
+    研究使用扩展的门德尔-弗莱明模型分析了影响乌拉圭实际有效汇率的因素，结果表明美国贷款利率、通货膨胀和货币供应量的增加与实际有效汇率贬值有关，这与门德尔-弗莱明模型关于浮动汇率的开放经济的理论预期一致。
+
+    
+
+    本研究通过应用扩展的门德尔-弗莱明模型来分析影响乌拉圭短期实际有效汇率（REER）的因素。通过分析美国贷款利率（USLR）、货币供应量（M2）、通货膨胀（CPI）和世界利率（WIR）的影响，该论文采用具有Newey-West标准误差的线性回归模型。关键发现显示，美国贷款利率（USLR）、通货膨胀（CPI）和货币供应量（M2）的增加与实际有效汇率的贬值相关。相反，世界利率（WIR）没有显著影响。这些发现与有浮动汇率的开放型经济在门德尔-弗莱明模型中的理论预期一致。因此，当面对比索贬值时，当局应该收紧货币政策、控制通货膨胀、调整财政策略，并促进出口。
+
+    arXiv:2403.16452v1 Announce Type: new  Abstract: This study examines the factors influencing the short-term real effective exchange rate (REER) in Uruguay by applying an extended Mundell-Fleming model. Analyzing the impact of the US lending rate (USLR), money supply (M2), inflation (CPI), and the world interest rate (WIR), the paper uses a linear regression model with Newey-West standard errors. Key findings reveal that an increase in the USLR, CPI, and M2 is associated with a depreciation of the REER. In contrast, WIR shows no significant impact. These findings are consistent with the theoretical expectations of the Mundell-Fleming model regarding open economies under floating exchange rates. Therefore, authorities should tighten monetary policy, control inflation, adjust fiscal strategies, and boost exports in response to Peso depreciation.
+    
+[^8]: 一类非常规模型中的最优检验
+
+    Optimal testing in a class of nonregular models
+
+    [https://arxiv.org/abs/2403.16413](https://arxiv.org/abs/2403.16413)
+
+    本文研究了一类非常规模型中的最优假设检验，提出了基于似然比过程的渐近一致最强测试方法，通过随机化、调节常数和用户指定备择假设值等方式实现渐近最优性。
+
+    
+
+    本文研究了参数依赖支持的非常规统计模型的最优假设检验。我们考虑了单侧和双侧假设检验，并基于似然比过程发展了渐近一致最强的检验。所提出的单侧检验涉及随机化以实现渐近尺寸控制，一些调节常数以避免在极限似然比过程中的不连续性，并一个用户指定的备择假设值以达到渐近最优性。我们的双侧检验在不施加进一步的限制（如无偏性）的情况下变为渐近一致最强。模拟结果展示了所提出检验的理想功效性质。
+
+    arXiv:2403.16413v1 Announce Type: cross  Abstract: This paper studies optimal hypothesis testing for nonregular statistical models with parameter-dependent support. We consider both one-sided and two-sided hypothesis testing and develop asymptotically uniformly most powerful tests based on the likelihood ratio process. The proposed one-sided test involves randomization to achieve asymptotic size control, some tuning constant to avoid discontinuities in the limiting likelihood ratio process, and a user-specified alternative hypothetical value to achieve the asymptotic optimality. Our two-sided test becomes asymptotically uniformly most powerful without imposing further restrictions such as unbiasedness. Simulation results illustrate desirable power properties of the proposed tests.
+    
+[^9]: 一个具有多种理想属性的新社会福利函数
+
+    A new social welfare function with a number of desirable properties
+
+    [https://arxiv.org/abs/2403.16373](https://arxiv.org/abs/2403.16373)
+
+    通过放宽支配集的方式，提出了一个新的社会福利函数，满足多种理想属性，包括Condorcet胜者原则、Condorcet失败者原则、强Gehrlein稳定性、弱Pareto、强Pareto等。
+
+    
+
+    通过以三种方式放宽支配集（例如，从“每个成员击败每个非成员”到“每个成员打败或与每个非成员并列，还要求至少一个成员击败每个非成员”），我们提出了一个新的社会福利函数，满足包括Condorcet胜者原则、Condorcet失败者原则、强Gehrlein稳定性（因此Smith集原则）、匿名性、中立性、弱Pareto、强Pareto、无独裁以及[在成员对多数关系对备选集是一个排序时独立于无关的替代（IIA）]等多种理想属性。如果成员对多数关系是完全传递的，提出的方法将产生与输入多数关系相符的集体偏好关系。因此，在二元域上与赞成投票和多数投票共享相同的集体偏好函数。该方法的运行时间是多项式的。
+
+    arXiv:2403.16373v1 Announce Type: new  Abstract: By relaxing the dominating set in three ways (e.g., from "each member beats every non-member" to "each member beats or ties every non-member, with an additional requirement that at least one member beat every non-member"), we propose a new social welfare function, which satisfies a number of desirable properties including Condorcet winner principle, Condorcet loser principle, strong Gehrlein-stability (hence Smith set principle), anonymity, neutrality, weak Pareto, strong Pareto, non-dictatorship, and [independence of irrelevant alternatives (IIA) when the pairwise majority relation is an ordering on the alternative set]. If the pairwise majority relation is complete and transitive, the proposed method yields a collective preference relation that coincides with the input majority relation. It thus shares the same collective preference function on the dichotomous domain with the approval voting and the majority voting. It runs in polynomi
+    
+[^10]: 结合实验和观测数据在动态选择下的信息性
+
+    The Informativeness of Combined Experimental and Observational Data under Dynamic Selection
+
+    [https://arxiv.org/abs/2403.16177](https://arxiv.org/abs/2403.16177)
+
+    通过将短期实验数据和观测数据结合，本研究探讨了在没有经典模型限制的情况下，如何推导尖锐的识别界限，以获得被治疗幸存者的平均处理效应。
+
+    
+
+    本文解决了在缺乏长期实验数据的情况下利用现有长期观测数据估计被治疗幸存者的平均处理效应（ATETS; Vikstrom等人，2018）的挑战。我们建立了两个理论结果。首先，如果没有模型限制和辅助数据，无法获得ATETS的信息界限。其次，为了推翻这一消极结果，我们探索了最近计量经济学领域结合实验和观测数据的发展作为一个有前途的途径（如Athey等人，2020，2019）；我们确实发现利用短期实验数据在不施加传统模型限制的情况下可能是有信息性的。此外，借鉴Chesher和Rosen（2017），我们探讨了如何系统地推导尖锐的识别界限，利用新的数据组合原则和传统模型限制。应用所提出的方法，
+
+    arXiv:2403.16177v1 Announce Type: new  Abstract: This paper addresses the challenge of estimating the Average Treatment Effect on the Treated Survivors (ATETS; Vikstrom et al., 2018) in the absence of long-term experimental data, utilizing available long-term observational data instead. We establish two theoretical results. First, it is impossible to obtain informative bounds for the ATETS with no model restriction and no auxiliary data. Second, to overturn this negative result, we explore as a promising avenue the recent econometric developments in combining experimental and observational data (e.g., Athey et al., 2020, 2019); we indeed find that exploiting short-term experimental data can be informative without imposing classical model restrictions. Furthermore, building on Chesher and Rosen (2017), we explore how to systematically derive sharp identification bounds, exploiting both the novel data-combination principles and classical model restrictions. Applying the proposed method, 
+    
+[^11]: 当指示函数中出现干扰参数时的去偏机器学习
+
+    Debiased Machine Learning when Nuisance Parameters Appear in Indicator Functions
+
+    [https://arxiv.org/abs/2403.15934](https://arxiv.org/abs/2403.15934)
+
+    本文提出了平滑指示函数的方法，并为这类模型开发了渐近分布理论，展现了偏差和方差之间的折衷关系，并研究了如何选择最优的平滑程度参数。
+
+    
+
+    本文研究了当指示函数中出现干扰参数时的去偏机器学习。一个重要的例子是在最优治疗分配规则下最大化平均福利。为了对感兴趣的参数进行渐近有效推断，当前有关去偏机器学习的文献依赖于矩条件内部函数的Gateaux可微性，当指示函数中出现干扰参数时，这种可微性不成立。本文提出了平滑指示函数的方法，并为这类模型开发了渐近分布理论。所提估计量的渐近行为表现出由于平滑而产生的偏差和方差之间的折衷。我们研究了如何选择控制平滑程度的参数以最小化渐近均方误差的上限。蒙特卡洛模拟支持了渐近分布理论，并且实证结果
+
+    arXiv:2403.15934v1 Announce Type: new  Abstract: This paper studies debiased machine learning when nuisance parameters appear in indicator functions. An important example is maximized average welfare under optimal treatment assignment rules. For asymptotically valid inference for a parameter of interest, the current literature on debiased machine learning relies on Gateaux differentiability of the functions inside moment conditions, which does not hold when nuisance parameters appear in indicator functions. In this paper, we propose smoothing the indicator functions, and develop an asymptotic distribution theory for this class of models. The asymptotic behavior of the proposed estimator exhibits a trade-off between bias and variance due to smoothing. We study how a parameter which controls the degree of smoothing can be chosen optimally to minimize an upper bound of the asymptotic mean squared error. A Monte Carlo simulation supports the asymptotic distribution theory, and an empirical
+    
+[^12]: 对冲基金指数规则与构建
+
+    Hedge Fund Index Rules and Construction
+
+    [https://arxiv.org/abs/2403.15925](https://arxiv.org/abs/2403.15925)
+
+    提出了一种构建对冲基金指数的方法，可以更好地跟踪对冲基金投资表现，允许对冲基金直接对冲与指数相关的产品暴露。
+
+    
+
+    一项对冲基金指数对于跟踪对冲基金投资表现非常有用，尤其是对基金赎回的时机。本文提出了一种构建对冲基金指数的方法，它更像是一个量化的基金池，而不是一些早期可复制的市场指数的加权和，这些指数定期重新平衡。构建的指数允许对冲基金直接对冲其与指数相关的产品暴露。这一点非常重要，因为对冲基金是一种透明性较低的资产类别，其回报传统上很难使用流动性工具复制。
+
+    arXiv:2403.15925v1 Announce Type: new  Abstract: A Hedge Fund Index is very useful for tracking the performance of hedge fund investments, especially the timing of fund redemption. This paper presents a methodology for constructing a hedge fund index that is more like a quantitative fund of fund, rather than a weighted sum of a number of early replicable market indices, which are re-balanced periodically. The constructed index allows hedge funds to directly hedge their exposures to index-linked products. That is important given that hedge funds are an asset class with reduced transparency, and the returns are traditionally difficult to replicate using liquid instruments.
+    
+[^13]: 具有不可混合数据的差异中的差异
+
+    Difference-in-Differences with Unpoolable Data
+
+    [https://arxiv.org/abs/2403.15910](https://arxiv.org/abs/2403.15910)
+
+    该研究提出了一种创新方法 UN--DID，用于估计具有不可混合数据的差异中的差异，并通过调整附加协变量、多组和错开采纳来提供有关受试者平均处理效应（ATT）的估计。
+
+    
+
+    在本研究中，我们确定并放宽了差异中的差异（DID）估计中数据“可混合性”的假设。由于数据隐私问题，往往无法组合来自受试者和对照组的观测数据，因此可混合性不可行。例如，存储在安全设施中的行政健康数据往往无法跨不同司法管辖区组合。我们提出了一种创新方法来估计具有不可混合数据的DID：UN--DID。我们的方法包括对附加协变量、多组和错开采纳进行调整。在没有协变量的情况下，UN--DID和传统DID给出了相同的受试者平均处理效应（ATT）估计。有协变量时，我们通过数学和模拟表明UN--DID和传统DID提供了不同但同样信息丰富的ATT估计。一个实证示例进一步强调了我们方法的实用性。
+
+    arXiv:2403.15910v1 Announce Type: new  Abstract: In this study, we identify and relax the assumption of data "poolability" in difference-in-differences (DID) estimation. Poolability, or the combination of observations from treated and control units into one dataset, is often not possible due to data privacy concerns. For instance, administrative health data stored in secure facilities is often not combinable across jurisdictions. We propose an innovative approach to estimate DID with unpoolable data: UN--DID. Our method incorporates adjustments for additional covariates, multiple groups, and staggered adoption. Without covariates, UN--DID and conventional DID give identical estimates of the average treatment effect on the treated (ATT). With covariates, we show mathematically and through simulations that UN--DID and conventional DID provide different, but equally informative, estimates of the ATT. An empirical example further underscores the utility of our methodology. The UN--DID meth
+    
+[^14]: 单令牌 vs 双令牌区块链经济模型
+
+    Single-token vs Two-token Blockchain Tokenomics
+
+    [https://arxiv.org/abs/2403.15429](https://arxiv.org/abs/2403.15429)
+
+    论文研究了由用户和验证者组成的PoS区块链系统中的令牌经济设计，探讨了系统服务提供与适当奖励方案如何共同导致具有可取特征的均衡状态。
+
+    
+
+    我们考虑了由用户和验证者组成的PoS区块链系统的令牌经济设计中产生的长期均衡，两者都致力于最大化自己的效用。验证者是系统维护者，他们通过执行系统正常运行所需的工作来获得令牌作为奖励，而用户则通过支付这些令牌来获取所需的系统服务水平。我们研究了系统服务提供和适当奖励方案如何共同导致具有可取特征的均衡状态：（1）可持续性：系统保持各方参与，（2）去中心化：多个验证者参与，（3）稳定性：用于与系统交易的基础令牌的价格路径随时间不会发生大幅变化，和（4）可行性：该机制易于实现为智能合约，即不需要在链上进行买回令牌或执行其他操作。
+
+    arXiv:2403.15429v1 Announce Type: cross  Abstract: We consider long-term equilibria that arise in the tokenomics design of proof-of-stake (PoS) blockchain systems that comprise of users and validators, both striving to maximize their own utilities. Validators are system maintainers who get rewarded with tokens for performing the work necessary for the system to function properly, while users compete and pay with such tokens for getting a desired system service level.   We study how the system service provision and suitable rewards schemes together can lead to equilibria with desirable characteristics (1) viability: the system keeps parties engaged, (2) decentralization: multiple validators are participating, (3) stability: the price path of the underlying token used to transact with the system does not change widely over time, and (4) feasibility: the mechanism is easy to implement as a smart contract, i.e., it does not require fiat reserves on-chain for buy back of tokens or to perfor
+    
+[^15]: 使用来自非结构化数据生成的变量进行回归的推断
+
+    Inference for Regression with Variables Generated from Unstructured Data
+
+    [https://arxiv.org/abs/2402.15585](https://arxiv.org/abs/2402.15585)
+
+    提出了一种使用联合上游和下游模型进行有效推断的一步策略，显著减少了偏误，在CEO时间利用数据的应用中产生了重要效果，适合应用研究人员。
+
+    
+
+    分析非结构化数据的主要策略包括两个步骤。首先，使用上游信息检索模型估计感兴趣的潜在经济变量。其次，将估计值视为下游计量经济模型中的“数据”。我们建立了理论论点，解释为什么在实证合理的设置中，这种两步策略会导致偏误的推断。更具建设性的是，我们提出了一个有效推断的一步策略，该策略同时使用上游和下游模型。在模拟中，这一步策略(i) 显著减少了偏误；(ii) 在使用CEO时间利用数据的主要应用中产生了定量重要的效果；(iii) 可以很容易地被应用研究人员采用。
+
+    arXiv:2402.15585v1 Announce Type: new  Abstract: The leading strategy for analyzing unstructured data uses two steps. First, latent variables of economic interest are estimated with an upstream information retrieval model. Second, the estimates are treated as "data" in a downstream econometric model. We establish theoretical arguments for why this two-step strategy leads to biased inference in empirically plausible settings. More constructively, we propose a one-step strategy for valid inference that uses the upstream and downstream models jointly. The one-step strategy (i) substantially reduces bias in simulations; (ii) has quantitatively important effects in a leading application using CEO time-use data; and (iii) can be readily adapted by applied researchers.
+    
+[^16]: 顺序选择函数和稳定性问题
+
+    Sequential choice functions and stability problems
+
+    [https://arxiv.org/abs/2401.00748](https://arxiv.org/abs/2401.00748)
+
+    引入了顺序选择函数的概念，并将稳定匹配问题转化为工作者是线性的情况。
+
+    
+
+    引入并研究了顺序选择函数的概念。该概念适用于将具有顺序工作者的稳定匹配问题缩减为工作者是线性的情况。
+
+    arXiv:2401.00748v2 Announce Type: replace-cross  Abstract: The concept of sequential choice functions is introduced and studied. This concept applies to the reduction of the problem of stable matchings with sequential workers to a situation where the workers are linear.
+    
+[^17]: 简化理论的价值函数的新概念
 
     New Concept for the Value Function of Prospect Theory
 
@@ -201,18 +268,116 @@
 
     arXiv:2211.00131v4 Announce Type: replace  Abstract: In the prospect theory, value function is typically concave for gains, commonly convex for losses, with losses usually having a steeper slope than gains. The neural system largely differs from the loss and gains sides. Five new studies on neurons related to this issue have examined neuronal responses to losses, gains, and reference points. This study investigates a new concept of the value function. A value function with a neuronal cusp may show variations and behavior cusps with catastrophe where a trader closes one's position.
     
-[^14]: 一种关于选秀规则的公理化描述
+[^18]: 一个多期消费资产定价模型中价格和回报的自相关性
 
-    An Axiomatic Characterization of Draft Rules. (arXiv:2204.08300v4 [econ.TH] UPDATED)
+    Price and Payoff Autocorrelations in a Multi-Period Consumption-Based Asset Pricing Model
 
-    [http://arxiv.org/abs/2204.08300](http://arxiv.org/abs/2204.08300)
+    [https://arxiv.org/abs/2204.07506](https://arxiv.org/abs/2204.07506)
 
-    该论文研究了选秀规则，提供了一个简单的选秀规则描述，该规则是满足优先级尊重、一物无嫉妒、非浪费和资源单调性的唯一分配规则。同时，该文还证明了三个不可能定理，并且选秀规则满足竞争平衡属性 RP 和 EF1，以及效率。
+    多期消费资产定价模型的基本定价方程受到价格和回报自相关性的影响，揭示了其与其他资产定价模型的关联。
 
     
 
-    选秀是分配异质且不可分割物品的顺序分配过程，涉及优先级顺序（例如，在职业体育联赛中将球员的合同权分配给团队）。代理人揭示物品的序数偏好，捆绑物品按成对比较进行部分排序。我们提供了一个简单的选秀规则描述：选秀规则是满足优先级尊重（RP）、一物无嫉妒（EF1）、非浪费（NW）和资源单调性（RM）的唯一分配规则。在体育联盟中，RP 和 EF1 对于竞争平衡至关重要。我们还证明了三个相关的不可能定理：（i）弱策略可信性（WSP）与 RP、EF1 和 NW 不相容；（ii）WSP 与 EF1、(帕累托) 效率（EFF）不相容；以及（iii）当存在两个代理人时，策略可信性（SP）与 EF1 和 NW 不相容。然而，选秀规则满足竞争平衡属性 RP 和 EF1，以及效率。
+    这篇论文突出了多期消费资产定价模型的基本定价方程对价格和回报的自相关性的潜在依赖性。我们得到了描述基本定价方程的近似值，该方程描述了今天的平均价格、明天的平均回报、价格和回报的波动性，以及价格和回报的自相关性。消费资产模型与其他资产定价模型（如ICAPM、APM等）的深度结合强调了我们的结果对其他定价模型也是有效的。
 
-    Drafts are sequential allocation procedures for distributing heterogeneous and indivisible objects among agents subject to some priority order (e.g., allocating players' contract rights to teams in professional sports leagues). Agents reveal ordinal preferences over objects and bundles are partially ordered by pairwise comparison. We provide a simple characterization of draft rules: they are the only allocation rules satisfying respectfulness of a priority (RP), envy-freeness up to one object (EF1), non-wastefulness (NW) and resource-monotonicity (RM). RP and EF1 are crucial for competitive balance in sports leagues. We also prove three related impossibility theorems: (i) weak strategy-proofness (WSP) is incompatible with RP, EF1, and NW; (ii) WSP is incompatible with EF1 and (Pareto) efficiency (EFF); and (iii) when there are two agents, strategy-proofness (SP) is incompatible with EF1 and NW. However, draft rules satisfy the competitive-balance properties, RP and EF1, together with E
+    arXiv:2204.07506v2 Announce Type: replace  Abstract: This paper highlights the hidden dependence of the basic pricing equation of a multi-period consumption-based asset pricing model on price and payoff autocorrelations. We obtain the approximations of the basic pricing equation that describe the mean price "to-day," mean payoff "next-day," price and payoff volatilities, and price and payoff autocorrelations. The deep conjunction of the consumption-based model with other versions of asset pricing, such as ICAPM, APM, etc. (Cochrane, 2001), emphasizes that our results are valid for other pricing models.
+    
+[^19]: 理论经济学与二阶经济理论。是什么？
+
+    Theoretical Economics and the Second-Order Economic Theory. What is it?
+
+    [https://arxiv.org/abs/2112.04566](https://arxiv.org/abs/2112.04566)
+
+    二阶经济理论探讨了由经济体交易的平方和构成的二阶经济变量对宏观经济变量的影响。
+
+    
+
+    经济体和金融体变量决定宏观经济变量。当前模型考虑经济体变量，这些变量由一定时间间隔{\Delta}内经济体交易的价值和量之和确定。我们称它们为一阶经济变量。我们描述了市场交易价值和量的波动性和相关性如何确定价格波动率。我们认为这样的联系需要考虑到由{\Delta}内经济体交易的平方和组成的二阶经济变量，几乎任何一阶变量都应该有其对应的二阶配对。相应地，经济体二阶变量之和引入了二阶宏观经济变量。二阶宏观经济变量的描述建立了二阶经济理论的主题。我们强调二阶经济理论的复杂性建议了
+
+    arXiv:2112.04566v2 Announce Type: replace  Abstract: The economic and financial variables of economic agents determine macroeconomic variables. Current models consider agents' variables that are determined by the sums of values and volumes of agents' trades during some time interval {\Delta}. We call them first-order economic variables. We describe how the volatilities and correlations of market trade values and volumes determine price volatility. We argue that such a link requests consideration of agents' economic variables of the second order that are composed of sums of squares of agents' transactions during {\Delta}. Almost any variable of the first order should be complemented by its second-order pair. Respectively, the sums of agents' second-order variables introduce macroeconomic variables of the second order. The description of the first- and second-order macroeconomic variables establishes the subject of second-order economic theory. We highlight that the complexity of second-
+    
+[^20]: 高维度的在线动作学习：一个保守的观点
+
+    Online Action Learning in High Dimensions: A Conservative Perspective
+
+    [https://arxiv.org/abs/2009.13961](https://arxiv.org/abs/2009.13961)
+
+    该论文将$\epsilon_t$-贪心启发式方法扩展到高维度情境中，采用保守导向策略，实现在实用应用中对新奇性的重视，同时限制了采纳不寻常动作，有效控制了累积遗憾。
+
+    
+
+    顺序学习问题在多个研究领域和实际应用中很常见。在本文中，我们将最流行的学习解决方案之一，$\epsilon_t$-贪心启发式，扩展到考虑保守导向的高维情境中。我们通过将原始规则用于采纳全新动作的时间的一部分，分配给在一组有前途的动作中进行更加专注的搜索来实现这一点。所得规则可能对仍然重视惊喜但限制采纳不寻常动作的实际应用有用。我们发现了对于保守高维度衰减$\epsilon_t$-贪心规则的累积遗憾提供了合理边界的概率很高。
+
+    arXiv:2009.13961v4 Announce Type: replace-cross  Abstract: Sequential learning problems are common in several fields of research and practical applications. Examples include dynamic pricing and assortment, design of auctions and incentives and permeate a large number of sequential treatment experiments. In this paper, we extend one of the most popular learning solutions, the $\epsilon_t$-greedy heuristics, to high-dimensional contexts considering a conservative directive. We do this by allocating part of the time the original rule uses to adopt completely new actions to a more focused search in a restrictive set of promising actions. The resulting rule might be useful for practical applications that still values surprises, although at a decreasing rate, while also has restrictions on the adoption of unusual actions. With high probability, we find reasonable bounds for the cumulative regret of a conservative high-dimensional decaying $\epsilon_t$-greedy rule. Also, we provide a lower bo
+    
+[^21]: 一个透明、可重用和可更新的计算健康经济模型的原型软件框架
+
+    A prototype software framework for transparent, reusable and updatable computational health economic models. (arXiv:2310.14138v1 [econ.GN])
+
+    [http://arxiv.org/abs/2310.14138](http://arxiv.org/abs/2310.14138)
+
+    这个论文提出了一个计算健康经济模型的原型软件框架，并提取了六个评估标准，旨在促进透明、可重用和可更新的模型开发，以满足社会需求。
+
+    
+
+    大多数健康经济分析都依赖于计算机。然而，将健康经济模型作为软件（或计算健康经济模型（CHEMs））实施的伦理维度尚不明确。我们提出CHEMs的开发者和资助者对（i）建立社会可接受的用户需求和设计规范，（ii）确保适合目的，以及（iii）支持社会有益的使用承担伦理责任。我们进一步提出一个透明（T）、可重用（R）和可更新（U）的CHEM表明项目团队在很大程度上已履行这些责任。我们提出了六个评估CHEMs的标准：（T1）软件文件开放获取；（T2）项目团队的贡献和判断易于识别；（R1）编程实践促进了通用性和可转移性；（R2）许可证仅限制不道德的重用；（U1）维护基础设施已经就绪；以及（U2）新版本经过系统重新测试和批准。
+
+    Most health economic analyses are undertaken with the aid of computers. However, the ethical dimensions of implementing health economic models as software (or computational health economic models (CHEMs)) are poorly understood. We propose that developers and funders of CHEMs share ethical responsibilities to (i) establish socially acceptable user requirements and design specifications; (ii) ensure fitness for purpose; and (iii) support socially beneficial use. We further propose that a transparent (T), reusable (R) and updatable (U) CHEM is suggestive of a project team that has largely fulfilled these responsibilities. We propose six criteria for assessing CHEMs: (T1) software files are open access; (T2) project team contributions and judgments are easily identified; (R1) programming practices promote generalisability and transferability; (R2) licenses restrict only unethical reuse; (U1) maintenance infrastructure is in place; and (U2) new releases are systematically retested and appro
+    
+[^22]: 巴基斯坦价格通货膨胀的分布影响：新的价格为重点的微模拟框架PRICES的案例研究
+
+    The Distributional Impact of Price Inflation in Pakistan: A Case Study of a New Price Focused Microsimulation Framework, PRICES. (arXiv:2310.00231v1 [econ.GN])
+
+    [http://arxiv.org/abs/2310.00231](http://arxiv.org/abs/2310.00231)
+
+    本研究利用微模拟模型分析了巴基斯坦价格变动的分布影响，特别关注能源和食品价格的变动。结果表明，能源价格对通货膨胀带来的福利损失的重要性有限。
+
+    
+
+    本文利用家庭预算调查数据、收入调查数据和输入产出模型开发了一个微模拟模型，模拟了价格变动的分布影响。我们利用该模型评估了巴基斯坦近期价格变动的分配和福利影响，特别关注能源和食品价格的变动。首先，我们评估了支出的分布模式，国内能源燃料集中在分布的底部，汽油燃料在顶部。电力和汽油燃料的预算份额特别高，而国内燃料相对较低。虽然国内燃料和电力消费的分布模式与其他国家相似，但汽油燃料有特别高的预算弹性。分析表明，尽管能源价格大幅增加，但能源价格对通货膨胀带来的福利损失的重要性有限。近期价格变动的总体分布影响较小。
+
+    This paper developed a microsimulation model to simulate the distributional impact of price changes using Household Budget Survey data, Income Survey data and an Input-Output Model. We use the model to assess the distributional and welfare impact of recent price changes in Pakistan. Particular attention is paid to price changes in energy goods and food. We firstly assessed the distributional pattern of expenditures, with domestic energy fuels concentrated at the bottom of the distribution and motor fuels at the top. The budget share of electricity and motor fuels is particularly high, while domestic fuels is relatively low. While the distributional pattern of domestic fuel and electricity consumption is similar to other countries, there is a particularly high budget elasticity for motor fuels. The analysis shows that despite large increases in energy prices, the importance of energy prices for the welfare losses due to inflation is limited. The overall distributional impact of recent p
+    
+[^23]: 对大型聚类集群具有鲁棒性的聚类鲁棒推断
+
+    Cluster-Robust Inference Robust to Large Clusters. (arXiv:2308.10138v1 [econ.EM])
+
+    [http://arxiv.org/abs/2308.10138](http://arxiv.org/abs/2308.10138)
+
+    本文提出了一种对大型聚类集群具有鲁棒性的聚类鲁棒推断方法，无需尾指数估计且在尾分布情况下也有效。
+
+    
+
+    最近文献Sasaki和Wang (2022)指出，在存在大型聚类集群的情况下，传统的聚类鲁棒标准误差失效。我们提出了一种新的聚类鲁棒推断方法，即使在存在大型聚类集群的情况下也是有效的。具体而言，当聚类大小的分布呈幂律且指数小于2时，我们推导了基于常见聚类鲁棒方差估计值的t统计量的渐近分布。然后，我们提出了一种基于子抽样的推断过程，并证明了其有效性。我们提出的方法不需要尾指数估计，并且在通常的尾分布情况下也保持有效。
+
+    The recent literature Sasaki and Wang (2022) points out that the conventional cluster-robust standard errors fail in the presence of large clusters. We propose a novel method of cluster-robust inference that is valid even in the presence of large clusters. Specifically, we derive the asymptotic distribution for the t-statistics based on the common cluster-robust variance estimators when the distribution of cluster sizes follows a power law with an exponent less than two. We then propose an inference procedure based on subsampling and show its validity. Our proposed method does not require tail index estimation and remains valid under the usual thin-tailed scenarios as well.
+    
+[^24]: 非线性健康动态的福利效应
+
+    The welfare effects of nonlinear health dynamics. (arXiv:2207.03816v3 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2207.03816](http://arxiv.org/abs/2207.03816)
+
+    这项研究通过估计一个非参数模型，研究了非线性健康动态对经济结果的影响。结果表明，不良健康冲击对身体健康较差的人的长期经济效应更为严重，并增加了资产积累差距。
+
+    
+
+    我们生成了一个连续的健康度量来估计健康动态的非参数模型，结果表明，当身体健康较差的人遭受不利健康冲击时，这些冲击具有很高的持续性。传统的模型无法解释这种模式。我们将这种健康动态纳入了一个生命周期模型中，该模型考虑了消费、储蓄和劳动力参与。在估计模型参数之后，我们模拟了健康冲击对经济结果的影响。我们发现，不良的健康冲击对经济有着长期的不利影响，对身体健康较差的人影响更加严重。此外，不良的健康冲击还增加了这一群体的资产积累差距。传统的健康动态模型无法揭示这些影响。
+
+    We generate a continuous measure of health to estimate a non-parametric model of health dynamics, showing that adverse health shocks are highly persistent when suffered by people in poor health. Canonical models cannot account for this pattern. We incorporate this health dynamic into a life-cycle model of consumption, savings, and labor force participation. After estimating the model parameters, we simulate the effects of health shocks on economic outcomes. We find that bad health shocks have long-term adverse economic effects that are more extreme for those in poor health. Furthermore, bad health shocks also increase the disparity of asset accumulation among this group of people. A canonical model of health dynamics would not reveal these effects.
+    
+[^25]: 无条件策略影响的识别与估计：一种内生二元处理的无条件MTE方法
+
+    Identification and Estimation of Unconditional Policy Effects of an Endogenous Binary Treatment: an Unconditional MTE Approach. (arXiv:2010.15864v4 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2010.15864](http://arxiv.org/abs/2010.15864)
+
+    本文介绍了一种基于函数影响函数的无条件边际处理效应（MTE）的新方法，研究了处理状态为二元且内生时策略效应的识别与估计。我们证明了无条件策略效应可以表示为对于对待自己的处理状态处于决策困惑的个体而言新定义的无条件MTE的加权平均。对于感兴趣的分位数，我们引入了无条件工具分位数估计（UNIQUE）并证明了其一致性和渐近分布。在实证应用中，我们估计了通过更高的学费补贴引起的大学入学状态变化对工资分布的分位数的影响。
+
+    
+
+    本文研究了在处理状态为二元且内生时的策略效应的识别和估计。我们基于反映政策目标的函数的影响函数引入了一类新的无条件边际处理效应（MTE）。我们证明了无条件策略效应可以表示为对于对待自己的处理状态处于决策困惑的个体而言新定义的无条件MTE的加权平均。我们提供了识别无条件策略效应的条件。当感兴趣的函数是分位数时，我们引入了无条件工具分位数估计（UNIQUE）并证明了其一致性和渐近分布。在实证应用中，我们估计了通过更高的学费补贴引起的大学入学状态变化对工资分布的分位数的影响。
+
+    This paper studies the identification and estimation of policy effects when treatment status is binary and endogenous. We introduce a new class of unconditional marginal treatment effects (MTE) based on the influence function of the functional underlying the policy target. We show that an unconditional policy effect can be represented as a weighted average of the newly defined unconditional MTEs over the individuals who are indifferent about their treatment status. We provide conditions for point identification of the unconditional policy effects. When a quantile is the functional of interest, we introduce the UNconditional Instrumental Quantile Estimator (UNIQUE) and establish its consistency and asymptotic distribution. In the empirical application, we estimate the effect of changing college enrollment status, induced by higher tuition subsidy, on the quantiles of the wage distribution.
     
 

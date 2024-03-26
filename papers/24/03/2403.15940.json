@@ -1,0 +1,12 @@
+{
+    "title": "Geotokens and Geotransformers",
+    "abstract": "arXiv:2403.15940v1 Announce Type: cross  Abstract: In transformer architectures, position encoding primarily provides a sense of sequence for input tokens. While the original transformer paper's method has shown satisfactory results in general language processing tasks, there have been new proposals, such as Rotary Position Embedding (RoPE), for further improvement. This paper presents geotokens, input components for transformers, each linked to a specific geological location. Unlike typical language sequences, for these tokens, the order is not as vital as the geographical coordinates themselves. To represent the relative position in this context and to keep a balance between the real world distance and the distance in the embedding space, we design a position encoding approach drawing from the RoPE structure but tailored for spherical coordinates.",
+    "link": "https://arxiv.org/abs/2403.15940",
+    "context": "Title: Geotokens and Geotransformers\nAbstract: arXiv:2403.15940v1 Announce Type: cross  Abstract: In transformer architectures, position encoding primarily provides a sense of sequence for input tokens. While the original transformer paper's method has shown satisfactory results in general language processing tasks, there have been new proposals, such as Rotary Position Embedding (RoPE), for further improvement. This paper presents geotokens, input components for transformers, each linked to a specific geological location. Unlike typical language sequences, for these tokens, the order is not as vital as the geographical coordinates themselves. To represent the relative position in this context and to keep a balance between the real world distance and the distance in the embedding space, we design a position encoding approach drawing from the RoPE structure but tailored for spherical coordinates.",
+    "path": "papers/24/03/2403.15940.json",
+    "total_tokens": 739,
+    "translated_title": "地理代币与地理变压器",
+    "translated_abstract": "在变压器架构中，位置编码主要为输入代币提供了序列的意义。原始变压器论文的方法在一般语言处理任务中表现出令人满意的结果，但也有了新的提议，如旋转位置嵌入（RoPE），以进一步改进。本文提出了地理代币，变压器的输入组件，每一个代币与特定地质位置相连。与典型的语言序列不同，对于这些代币，顺序并不像地理坐标本身那样重要。为了在这种情况下表示相对位置，并在真实世界距离和嵌入空间中的距离之间保持平衡，我们设计了一种位置编码方法，借鉴于RoPE结构但专为球面坐标定制。",
+    "tldr": "本文提出了地理代币的概念，将其作为变压器的输入组件与具体地理位置联系起来，设计了一种针对球面坐标的位置编码方法。",
+    "en_tdlr": "This paper introduces the concept of geotokens as input components for transformers linked to specific geological locations, and proposes a position encoding method tailored for spherical coordinates."
+}
