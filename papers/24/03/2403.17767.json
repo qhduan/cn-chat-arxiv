@@ -1,0 +1,12 @@
+{
+    "title": "Asymptotic Bayes risk of semi-supervised learning with uncertain labeling",
+    "abstract": "arXiv:2403.17767v1 Announce Type: cross  Abstract: This article considers a semi-supervised classification setting on a Gaussian mixture model, where the data is not labeled strictly as usual, but instead with uncertain labels. Our main aim is to compute the Bayes risk for this model. We compare the behavior of the Bayes risk and the best known algorithm for this model. This comparison eventually gives new insights over the algorithm.",
+    "link": "https://arxiv.org/abs/2403.17767",
+    "context": "Title: Asymptotic Bayes risk of semi-supervised learning with uncertain labeling\nAbstract: arXiv:2403.17767v1 Announce Type: cross  Abstract: This article considers a semi-supervised classification setting on a Gaussian mixture model, where the data is not labeled strictly as usual, but instead with uncertain labels. Our main aim is to compute the Bayes risk for this model. We compare the behavior of the Bayes risk and the best known algorithm for this model. This comparison eventually gives new insights over the algorithm.",
+    "path": "papers/24/03/2403.17767.json",
+    "total_tokens": 589,
+    "translated_title": "在具有不确定标签的半监督学习中的渐近贝叶斯风险",
+    "translated_abstract": "本文考虑了高斯混合模型上的半监督分类设置，其中数据的标签不像通常那样严格，而是带有不确定标签。我们的主要目标是计算该模型的贝叶斯风险。我们比较了该模型的贝叶斯风险与目前已知的最佳算法的行为。这种比较最终为该算法提供了新的见解。",
+    "tldr": "论文研究了具有不确定标签的半监督学习中的渐近贝叶斯风险计算，并通过与最佳算法比较得出新的见解。",
+    "en_tdlr": "The paper investigates the asymptotic Bayes risk computation in semi-supervised learning with uncertain labels and provides new insights through comparing with the best known algorithm."
+}

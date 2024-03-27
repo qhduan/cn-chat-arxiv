@@ -1,0 +1,12 @@
+{
+    "title": "REFeREE: A REference-FREE Model-Based Metric for Text Simplification",
+    "abstract": "arXiv:2403.17640v1 Announce Type: new  Abstract: Text simplification lacks a universal standard of quality, and annotated reference simplifications are scarce and costly. We propose to alleviate such limitations by introducing REFeREE, a reference-free model-based metric with a 3-stage curriculum. REFeREE leverages an arbitrarily scalable pretraining stage and can be applied to any quality standard as long as a small number of human annotations are available. Our experiments show that our metric outperforms existing reference-based metrics in predicting overall ratings and reaches competitive and consistent performance in predicting specific ratings while requiring no reference simplifications at inference time.",
+    "link": "https://arxiv.org/abs/2403.17640",
+    "context": "Title: REFeREE: A REference-FREE Model-Based Metric for Text Simplification\nAbstract: arXiv:2403.17640v1 Announce Type: new  Abstract: Text simplification lacks a universal standard of quality, and annotated reference simplifications are scarce and costly. We propose to alleviate such limitations by introducing REFeREE, a reference-free model-based metric with a 3-stage curriculum. REFeREE leverages an arbitrarily scalable pretraining stage and can be applied to any quality standard as long as a small number of human annotations are available. Our experiments show that our metric outperforms existing reference-based metrics in predicting overall ratings and reaches competitive and consistent performance in predicting specific ratings while requiring no reference simplifications at inference time.",
+    "path": "papers/24/03/2403.17640.json",
+    "total_tokens": 728,
+    "translated_title": "REFeREE：一种基于模型的无参考文本简化度量标准",
+    "translated_abstract": "arXiv:2403.17640v1 公告类型: 新的 摘要: 文本简化缺乏普遍标准的质量，带注释的参考简化存在稀缺和昂贵的问题。我们提出通过引入REFeREE来缓解这些限制，这是一个具有3阶段课程的基于模型的无参考度量标准。REFeREE利用一个可任意扩展的预训练阶段，并且只要有少量人工注释就可以应用于任何质量标准。我们的实验表明，我们的度量标准在预测总体评分方面优于现有的基于参考的指标，并且在预测特定评分方面达到了竞争性和一致的性能，同时在推理时不需要参考简化。",
+    "tldr": "REFeREE是一种基于模型的无参考文本简化度量标准，能够在预测文本质量方面表现出色，且无需在推理时使用参考简化。",
+    "en_tdlr": "REFeREE is a reference-free model-based metric for text simplification, which excels in predicting text quality and does not require reference simplifications at inference time."
+}

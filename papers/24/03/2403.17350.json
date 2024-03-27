@@ -1,0 +1,12 @@
+{
+    "title": "The Solution of the Zodiac Killer's 340-Character Cipher",
+    "abstract": "arXiv:2403.17350v1 Announce Type: new  Abstract: The case of the Zodiac Killer is one of the most widely known unsolved serial killer cases in history. The unidentified killer murdered five known victims and terrorized the state of California. He also communicated extensively with the press and law enforcement. Besides his murders, Zodiac was known for his use of ciphers. The first Zodiac cipher was solved within a week of its publication, while the second cipher was solved by the authors after 51 years, when it was discovered to be a transposition and homophonic substitution cipher with unusual qualities. In this paper, we detail the historical significance of this cipher and the numerous efforts which culminated in its solution.",
+    "link": "https://arxiv.org/abs/2403.17350",
+    "context": "Title: The Solution of the Zodiac Killer's 340-Character Cipher\nAbstract: arXiv:2403.17350v1 Announce Type: new  Abstract: The case of the Zodiac Killer is one of the most widely known unsolved serial killer cases in history. The unidentified killer murdered five known victims and terrorized the state of California. He also communicated extensively with the press and law enforcement. Besides his murders, Zodiac was known for his use of ciphers. The first Zodiac cipher was solved within a week of its publication, while the second cipher was solved by the authors after 51 years, when it was discovered to be a transposition and homophonic substitution cipher with unusual qualities. In this paper, we detail the historical significance of this cipher and the numerous efforts which culminated in its solution.",
+    "path": "papers/24/03/2403.17350.json",
+    "total_tokens": 692,
+    "translated_title": "Zodiac杀手340字符密码的解决方案",
+    "translated_abstract": "Zodiac杀手案件是历史上最广为人知的未解决连环杀手案件之一。这名身份不明的凶手杀害了五名已知受害者，并恐吓了加利福尼亚州。他还与新闻界和执法部门进行了广泛的沟通。除了他的谋杀行为外，Zodiac还因使用密码而闻名。第一个Zodiac密码在发布后一周内被解决，而第二个密码在51年后被作者解决，发现它是一种具有不寻常特质的转位和同音替换密码。本文详细介绍了这个密码的历史意义以及导致其解密的诸多努力。",
+    "tldr": "本文详细描述了Zodiac杀手第二个密码的解密过程，该密码使用了转位和同音替换密码，并具有不寻常特质。",
+    "en_tdlr": "This paper details the decryption process of the second Zodiac cipher, which utilized a transposition and homophonic substitution cipher with unusual qualities."
+}

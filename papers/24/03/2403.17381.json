@@ -1,0 +1,12 @@
+{
+    "title": "Application-Driven Innovation in Machine Learning",
+    "abstract": "arXiv:2403.17381v1 Announce Type: cross  Abstract: As applications of machine learning proliferate, innovative algorithms inspired by specific real-world challenges have become increasingly important. Such work offers the potential for significant impact not merely in domains of application but also in machine learning itself. In this paper, we describe the paradigm of application-driven research in machine learning, contrasting it with the more standard paradigm of methods-driven research. We illustrate the benefits of application-driven machine learning and how this approach can productively synergize with methods-driven work. Despite these benefits, we find that reviewing, hiring, and teaching practices in machine learning often hold back application-driven innovation. We outline how these processes may be improved.",
+    "link": "https://arxiv.org/abs/2403.17381",
+    "context": "Title: Application-Driven Innovation in Machine Learning\nAbstract: arXiv:2403.17381v1 Announce Type: cross  Abstract: As applications of machine learning proliferate, innovative algorithms inspired by specific real-world challenges have become increasingly important. Such work offers the potential for significant impact not merely in domains of application but also in machine learning itself. In this paper, we describe the paradigm of application-driven research in machine learning, contrasting it with the more standard paradigm of methods-driven research. We illustrate the benefits of application-driven machine learning and how this approach can productively synergize with methods-driven work. Despite these benefits, we find that reviewing, hiring, and teaching practices in machine learning often hold back application-driven innovation. We outline how these processes may be improved.",
+    "path": "papers/24/03/2403.17381.json",
+    "total_tokens": 756,
+    "translated_title": "机器学习中的应用驱动创新",
+    "translated_abstract": "随着机器学习应用的不断增长，受特定现实挑战启发的创新算法变得日益重要。这样的工作不仅在应用领域具有重要影响，也在机器学习本身具有重要影响。本文描述了机器学习中应用驱动研究的范式，将其与更标准的方法驱动研究进行了对比。我们阐明了应用驱动机器学习的好处，以及这种方法如何可以与方法驱动工作有益地协同。尽管具有这些好处，我们发现机器学习中的审查、招聘和教学实践往往阻碍了应用驱动创新。我们概述了如何改进这些流程。",
+    "tldr": "应用驱动研究在机器学习领域具有重要影响，可以与方法驱动研究有益地协同，但目前审查、招聘和教学实践往往阻碍了这种创新。",
+    "en_tdlr": "Application-driven research has significant impact in the field of machine learning and can synergize beneficially with methods-driven work, yet hindered by current reviewing, hiring, and teaching practices."
+}

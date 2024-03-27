@@ -1,0 +1,11 @@
+{
+    "title": "Contrastive Learning for Regression on Hyperspectral Data",
+    "abstract": "arXiv:2403.17014v1 Announce Type: cross  Abstract: Contrastive learning has demonstrated great effectiveness in representation learning especially for image classification tasks. However, there is still a shortage in the studies targeting regression tasks, and more specifically applications on hyperspectral data. In this paper, we propose a contrastive learning framework for the regression tasks for hyperspectral data. To this end, we provide a collection of transformations relevant for augmenting hyperspectral data, and investigate contrastive learning for regression. Experiments on synthetic and real hyperspectral datasets show that the proposed framework and transformations significantly improve the performance of regression models, achieving better scores than other state-of-the-art transformations.",
+    "link": "https://arxiv.org/abs/2403.17014",
+    "context": "Title: Contrastive Learning for Regression on Hyperspectral Data\nAbstract: arXiv:2403.17014v1 Announce Type: cross  Abstract: Contrastive learning has demonstrated great effectiveness in representation learning especially for image classification tasks. However, there is still a shortage in the studies targeting regression tasks, and more specifically applications on hyperspectral data. In this paper, we propose a contrastive learning framework for the regression tasks for hyperspectral data. To this end, we provide a collection of transformations relevant for augmenting hyperspectral data, and investigate contrastive learning for regression. Experiments on synthetic and real hyperspectral datasets show that the proposed framework and transformations significantly improve the performance of regression models, achieving better scores than other state-of-the-art transformations.",
+    "path": "papers/24/03/2403.17014.json",
+    "total_tokens": 709,
+    "translated_title": "对高光谱数据进行回归的对比学习",
+    "translated_abstract": "对比学习在表示学习中表现出很高的效果，特别是在图像分类任务中。然而，目前对于回归任务和特别是高光谱数据应用的研究仍然不足。本文提出了一个针对高光谱数据回归任务的对比学习框架。我们提供了一系列适用于增强高光谱数据的变换，并研究了对比学习用于回归的效果。实验证明，所提出的框架和变换显著提高了回归模型的性能，在合成和实际高光谱数据集上的表现优于其他最先进的方法。",
+    "tldr": "提出了一个对比学习框架，针对高光谱数据的回归任务，通过提供一系列适用于增强高光谱数据的变换，用对比学习来显著提高回归模型性能。"
+}

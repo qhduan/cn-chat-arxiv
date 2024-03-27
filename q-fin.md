@@ -2,322 +2,217 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Economic DAO Governance: A Contestable Control Approach](https://arxiv.org/abs/2403.16980) | 提出了一种利用顺序拍卖机制的经济DAO治理新方法，解决了DAO面临的控制问题，既避免了公共选择问题，又能促进价值增长和投资。 |
-| [^2] | [The Costs of Competition in Distributing Scarce Research Funds](https://arxiv.org/abs/2403.16934) | 分析竞争性研究资金的分配，探讨竞争资金的经济成本，影响风险研究的资金竞争，以及竞争资金环境对科学家和伦理问题的影响。 |
-| [^3] | [Deep Learning Based Measure of Name Concentration Risk](https://arxiv.org/abs/2403.16525) | 提出了一种基于深度学习的方法，用于量化贷款组合中的姓名集中风险，通过重要性抽样的蒙特卡洛模拟训练神经网络，展示了其相比现有方法在评估小型和集中组合中的姓名集中风险方面的准确性和优越性能。 |
-| [^4] | [Determinants of Uruguay's Real Effective Exchange Rate: A Mundell-Fleming Model Approach](https://arxiv.org/abs/2403.16452) | 研究使用扩展的门德尔-弗莱明模型分析了影响乌拉圭实际有效汇率的因素，结果表明美国贷款利率、通货膨胀和货币供应量的增加与实际有效汇率贬值有关，这与门德尔-弗莱明模型关于浮动汇率的开放经济的理论预期一致。 |
-| [^5] | [Workplace sustainability or financial resilience? Composite-financial resilience index](https://arxiv.org/abs/2403.16296) | 本文研究了企业的财务弹性和职场弹性，提出了综合财务弹性指数作为灾害风险的潜在衡量指标，在COVID-19时代职场弹性可能受到公司财务状况的影响。 |
-| [^6] | [Rank-Dependent Predictable Forward Performance Processes](https://arxiv.org/abs/2403.16228) | 提出了一种基于排名依赖效用的新型可预测前向表现过程，通过解决广义的积分方程来构造这些过程，并提出了一种用Volterra方程理论解决积分方程的新方法。 |
-| [^7] | [Crypto Inverse-Power Options and Fractional Stochastic Volatility](https://arxiv.org/abs/2403.16006) | 本文介绍了一个包含分数随机波动性的解析模型框架，特别关注逆期权，为减轻加密货币汇率风险和调整风险敞口提供了功率类型的泛化逆期权以及相应的定价-套期保值公式。 |
-| [^8] | [Markovian projections for It\^o semimartingales with jumps](https://arxiv.org/abs/2403.15980) | 该论文研究了具有跳跃项的Ito半鞅的马尔可夫投影，提出了解决非局部FPKEs方程的一维边际分布流，以及如何在建立具有局部和随机特征的校准扩散/跳跃模型中应用马尔可夫投影。 |
-| [^9] | [Hedge Fund Index Rules and Construction](https://arxiv.org/abs/2403.15925) | 提出了一种构建对冲基金指数的方法，可以更好地跟踪对冲基金投资表现，允许对冲基金直接对冲与指数相关的产品暴露。 |
-| [^10] | [On Merton's Optimal Portfolio Problem under Sporadic Bankruptcy](https://arxiv.org/abs/2403.15923) | 本文研究了在股票市场遵循几何布朗运动并且遵循恒定利率连续复利的无风险资产的情况下，考虑股票可能在一定随机时间内破产的梅顿最优投资组合问题。通过新型哈密顿-雅可比-贝尔曼方程，将问题形式化为受控马尔可夫扩散，并且严格推导了一个新版本的梅顿比率，最终通过验证定理验证了该模型在现实世界中的适用性。 |
-| [^11] | [Anticipatory Gains and Event-Driven Losses in Blockchain-Based Fan Tokens: Evidence from the FIFA World Cup](https://arxiv.org/abs/2403.15810) | 该研究调查了区块链球迷代币在2022年世界杯比赛中的表现，发现球迷代币在比赛前六个月出现反弹，但随着比赛进行，回报率持续下降，交易量上升，尤其是在高赌注比赛中的失败引起了更严重的损失。 |
-| [^12] | [Deep Limit Order Book Forecasting](https://arxiv.org/abs/2403.09267) | 该研究利用深度学习方法预测纳斯达克交易所股票的限价订单簿中间价格变动，提出了一个创新的操作框架来评估预测的实用性。 |
-| [^13] | [Market Misconduct in Decentralized Finance (DeFi): Analysis, Regulatory Challenges and Policy Implications](https://arxiv.org/abs/2311.17715) | 该论文探讨了区块链金融中的市场不端行为（DeFi）问题，提出了全面定义和分类，通过比较分析和实证研究揭示了其特点和社会影响，同时探讨了DeFi监管框架所面临的挑战。 |
-| [^14] | [New Concept for the Value Function of Prospect Theory](https://arxiv.org/abs/2211.00131) | 该研究提出了一个新概念的价值函数，可能具有神经突，显示出变化和行为突变。 |
-| [^15] | [Price and Payoff Autocorrelations in a Multi-Period Consumption-Based Asset Pricing Model](https://arxiv.org/abs/2204.07506) | 多期消费资产定价模型的基本定价方程受到价格和回报自相关性的影响，揭示了其与其他资产定价模型的关联。 |
-| [^16] | [Theoretical Economics and the Second-Order Economic Theory. What is it?](https://arxiv.org/abs/2112.04566) | 二阶经济理论探讨了由经济体交易的平方和构成的二阶经济变量对宏观经济变量的影响。 |
-| [^17] | [A prototype software framework for transparent, reusable and updatable computational health economic models.](http://arxiv.org/abs/2310.14138) | 这个论文提出了一个计算健康经济模型的原型软件框架，并提取了六个评估标准，旨在促进透明、可重用和可更新的模型开发，以满足社会需求。 |
-| [^18] | [The Distributional Impact of Price Inflation in Pakistan: A Case Study of a New Price Focused Microsimulation Framework, PRICES.](http://arxiv.org/abs/2310.00231) | 本研究利用微模拟模型分析了巴基斯坦价格变动的分布影响，特别关注能源和食品价格的变动。结果表明，能源价格对通货膨胀带来的福利损失的重要性有限。 |
-| [^19] | [Analytical valuation of vulnerable derivative contracts with bilateral cash flows under credit, funding and wrong-way risks.](http://arxiv.org/abs/2308.10568) | 我们研究了存在信用、资金和反向风险的双边现金流易损衍生品合约的估值问题，并开发了一个闭合形式的估值公式和二阶近似方法。通过使用特定的资金策略，我们得到了违约前估值的通用概率表示，并将其应用于股票远期合约的估值。 |
-| [^20] | [Quantum Monte Carlo simulations for financial risk analytics: scenario generation for equity, rate, and credit risk factors.](http://arxiv.org/abs/2303.09682) | 本论文提出了一种用于金融风险分析的量子蒙特卡罗模拟方法，其中将情景生成纳入到量子计算中，模拟了风险因素随时间的演变，并将其馈送到QMC模拟中，实现估算金融资产组合的风险价值，相较于传统蒙特卡罗模拟提供了高达800倍的速度提升。 |
-| [^21] | [The welfare effects of nonlinear health dynamics.](http://arxiv.org/abs/2207.03816) | 这项研究通过估计一个非参数模型，研究了非线性健康动态对经济结果的影响。结果表明，不良健康冲击对身体健康较差的人的长期经济效应更为严重，并增加了资产积累差距。 |
+| [^1] | [Ethical considerations when planning, implementing and releasing health economic model software: a new proposal](https://arxiv.org/abs/2403.17798) | 开发者和资助者应遵守研究伦理原则，提议透明、可重用和可更新的计算卫生经济模型软件，以改善社会接受度和使用效果。 |
+| [^2] | [Decoding excellence: Mapping the demand for psychological traits of operations and supply chain professionals through text mining](https://arxiv.org/abs/2403.17546) | 通过文本挖掘和社交网络分析，本研究提出了一种创新方法，以评估OM和SCM专业人员特定心理特质的市场需求。 |
+| [^3] | [The Devil is in the Details: Heterogeneous Effects of the German Minimum Wage on Working Hours and Minijobs](https://arxiv.org/abs/2403.17206) | 德国引入国家最低工资后，发现最低工资显著降低了工资的不平等性，对工作时间整体影响不大，但对迷你工作人员的工作时间有显著减少，并导致迷你工作岗位明显减少，部分转向普通就业和非就业。 |
+| [^4] | [Alternatives to classical option pricing](https://arxiv.org/abs/2403.17187) | 通过引入新的资产类型，我们提出了两种替代的期权定价方法，其中一种方法不需要无风险资产，另一种方法通过保证真实世界和风险中性价格变动概率的相等性，利用自然世界概率下的期望来计算风险中性期权价格。 |
+| [^5] | [Design Insights for Industrial CO2 Capture, Transport, and Storage Systems](https://arxiv.org/abs/2403.17162) | 提出了针对工业设施集群的CO2捕集、输送和储存系统设计方法和见解，应用到路易斯安那州估计最多可捕集 50 百万 tCO2/y 的工业排放，并且成本不到每吨100美元 |
+| [^6] | [High-Dimensional Mean-Variance Spanning Tests](https://arxiv.org/abs/2403.17127) | 该研究提出了一种新的均值-方差跨度假设检验框架，能够在任意测试资产维度上应用，通过使用稳健的学生t统计基于批量均值方法逐个测试矩条件，然后使用柯西组合检验结合p值，证明了相对于现有方法的卓越性能，并在实证应用中探讨了股票分散化中国内与国际间的优势和影响因素。 |
+| [^7] | [The Impact of Pradhan Mantri Ujjwala Yojana on Indian Households](https://arxiv.org/abs/2403.17112) | PMUY对印度贫困家庭的LPG获取有着2.1个百分点的提升，同时在不同地区和社会群体之间存在差异影响，需要政策强调有针对性的干预措施。 |
+| [^8] | [Revisiting Boehmer et al. (2021): Recent Period, Alternative Method, Different Conclusions](https://arxiv.org/abs/2403.17095) | 本文重新审视了Boehmer等人（2021年）关于零售订单不平衡（ROI）对未来股票回报预测能力的开创性工作，发现这些结论对于不同样本时期和ROI识别方法是敏感的。 |
+| [^9] | [Quanto Option Pricing on a Multivariate Levy Process Model with a Generative Artificial Intelligence](https://arxiv.org/abs/2402.17919) | 提出了一种基于多元Levy过程模型和生成人工智能的量价期权定价方法，通过新型的gNTS过程模型和CRealNVP模型实现对奇异期权的定价，为定价外国指数和外汇汇率等基础资产的量价期权提供了可行策略 |
+| [^10] | [Firm-level supply chains to minimize decarbonization unemployment and economic losses](https://arxiv.org/abs/2302.08987) | 通过比较每家公司的系统重要性和二氧化碳排放量，本研究提出了一种最优的减排策略，为实现20%减排目标提供了减少就业和经济损失的解决方案。 |
+| [^11] | [Epistemic Limits of Empirical Finance: Causal Reductionism and Self-Reference.](http://arxiv.org/abs/2311.16570) | 本研究从理论上评估了实证金融和计量经济学研究中常用的科学演绎和因果推断方法的局限性，提出了在资本市场等自我参照和开放系统中单向因果关系的观点可能存在的问题，并呼吁更全面地认识实证金融研究及其中的风险。 |
+| [^12] | [Frequency Regulation with Storage: On Losses and Profits.](http://arxiv.org/abs/2306.02987) | 本文解决了储能操作员如何在提供调频同时更好地交易电力的问题。通过将储能约束在目标电量，本文提出了日前市场交易电量作为调频电量的隐含函数，量化了能源损失所需购买的电量。 |
+| [^13] | [When is cross impact relevant?.](http://arxiv.org/abs/2305.16915) | 本文使用跨越 5 年的 500 种美国上市资产的每秒数据，发现价格形成是在高度流动性资产内自发发生的，然后这些资产的交易会影响较不流动但相关的产品价格。该多维价格形成机制对利率市场有影响，且挑战了财务经济学理论。 |
+| [^14] | [Risk Budgeting Allocation for Dynamic Risk Measures.](http://arxiv.org/abs/2305.11319) | 该论文提出了一种基于动态风险度量的风险分配策略，引入了动态风险贡献的概念进行递归计算，证明了该问题可以被重新表述为一系列严格凸的优化问题，并开发了一种演员-评论家方法解决问题。 |
 
 # 详细
 
-[^1]: 经济DAO治理：一种可争夺控制方法
+[^1]: 计划、实施和发布卫生经济模型软件时的道德考量：一个新提议
 
-    Economic DAO Governance: A Contestable Control Approach
+    Ethical considerations when planning, implementing and releasing health economic model software: a new proposal
 
-    [https://arxiv.org/abs/2403.16980](https://arxiv.org/abs/2403.16980)
+    [https://arxiv.org/abs/2403.17798](https://arxiv.org/abs/2403.17798)
 
-    提出了一种利用顺序拍卖机制的经济DAO治理新方法，解决了DAO面临的控制问题，既避免了公共选择问题，又能促进价值增长和投资。
-
-    
-
-    在本文中，我们提出了一种新形式的DAO治理，利用顺序拍卖机制来克服DAO出现的根深蒂固的控制问题，通过创建一个临时可争夺控制的制度。这种机制避免了投票方法固有的潜在公共选择问题，同时提供了一个可以增强和确保DAO投票和其他DAO非市场治理程序固有价值的工具。它对空头投票具有鲁棒性，且代码可行。它促进了DAO在面对不同监管方法时实现其规范和运营目标的能力。设计是将控制权转移给拥有最有前途商业计划的一方，同时以一种有利于促进其他方投资的方式分配剩余价值。
-
-    arXiv:2403.16980v1 Announce Type: cross  Abstract: In this article, we propose a new form of DAO governance that uses a sequential auction mechanism to overcome entrenched control issues that have emerged for DAOs by creating a regime of temporary contestable control. The mechanism avoids potential public choice problems inherent in voting approaches but at the same time provides a vehicle that can enhance and secure value than inheres to DAO voting and other DAO non-market governance procedures. It is robust to empty voting and is code feasible. It facilitates the ability of DAOs to meet their normative and operational goals in the face of diverse regulatory approaches. Designed to shift control to the party with the most promising business plan, at the same time it distributes surplus in a way that tends to promote investment by other parties.
-    
-[^2]: 竞争在分配有限研究经费方面的成本
-
-    The Costs of Competition in Distributing Scarce Research Funds
-
-    [https://arxiv.org/abs/2403.16934](https://arxiv.org/abs/2403.16934)
-
-    分析竞争性研究资金的分配，探讨竞争资金的经济成本，影响风险研究的资金竞争，以及竞争资金环境对科学家和伦理问题的影响。
+    开发者和资助者应遵守研究伦理原则，提议透明、可重用和可更新的计算卫生经济模型软件，以改善社会接受度和使用效果。
 
     
 
-    研究资金系统并不是孤立的系统 - 它们嵌入在一个对整个科学系统有着巨大影响的更大系统中。本文旨在从不同角度分析竞争性研究资金的分配：资金决策过程的可靠性如何？竞争性资金的经济成本是多少？为了进行风险研究，为资金竞争如何影响？竞争资金环境如何影响科学家本身，以及必须考虑哪些伦理问题？我们试图找出对研究资金系统的知识的空白；我们提出了对政策制定者和资助机构的建议，包括对决策过程进行实证实验和收集这些过程的数据。通过我们的建议，希望有助于发展改进的组织研究资金的方式。
+    大多数卫生经济分析都是在计算机的帮助下进行的。然而，将卫生经济模型作为软件（或计算卫生经济模型（CHEMs））实施的研究伦理道德尚不明确。我们提议，CHEM的开发者和资助者应遵守研究伦理原则，并追求以下目标：（i）社会可接受的用户要求和设计规范；（ii）切合需求的实施；以及（iii）社会受益的发布后使用。我们进一步提议，透明（T）、可重用（R）和可更新（U）的CHEM表明项目团队在很大程度上已实现这些目标。我们提出六个评估TRU CHEMs的标准：（T1）软件文件是公开可用的；（T2）开发者对适当使用的贡献和判断容易识别；（R1）编程实践有利于独立重用模型组件；（R2）许可证允许重用和衍生作品；（U1）
 
-    arXiv:2403.16934v1 Announce Type: new  Abstract: Research funding systems are not isolated systems - they are embedded in a larger scientific system with an enormous influence on the system. This paper aims to analyze the allocation of competitive research funding from different perspectives: How reliable are decision processes for funding? What are the economic costs of competitive funding? How does competition for funds affect doing risky research? How do competitive funding environments affect scientists themselves, and which ethical issues must be considered? We attempt to identify gaps in our knowledge of research funding systems; we propose recommendations for policymakers and funding agencies, including empirical experiments of decision processes and the collection of data on these processes. With our recommendations we hope to contribute to developing improved ways of organizing research funding.
+    arXiv:2403.17798v1 Announce Type: new  Abstract: Most health economic analyses are undertaken with the aid of computers. However, the research ethics of implementing health economic models as software (or computational health economic models (CHEMs)) are poorly understood. We propose that developers and funders of CHEMs should adhere to research ethics principles and pursue the goals of: (i) socially acceptable user requirements and design specifications; (ii) fit for purpose implementations; and (iii) socially beneficial post-release use. We further propose that a transparent (T), reusable (R) and updatable (U) CHEM is suggestive of a project team that has largely met these goals. We propose six criteria for assessing TRU CHEMs: (T1) software files are publicly available; (T2) developer contributions and judgments on appropriate use are easily identified; (R1) programming practices facilitate independent reuse of model components; (R2) licenses permit reuse and derivative works; (U1) 
     
-[^3]: 基于深度学习的姓名集中风险度量方法
+[^2]: 解读卓越：通过文本挖掘揭示运营和供应链专业人员心理特质的需求
 
-    Deep Learning Based Measure of Name Concentration Risk
+    Decoding excellence: Mapping the demand for psychological traits of operations and supply chain professionals through text mining
 
-    [https://arxiv.org/abs/2403.16525](https://arxiv.org/abs/2403.16525)
+    [https://arxiv.org/abs/2403.17546](https://arxiv.org/abs/2403.17546)
 
-    提出了一种基于深度学习的方法，用于量化贷款组合中的姓名集中风险，通过重要性抽样的蒙特卡洛模拟训练神经网络，展示了其相比现有方法在评估小型和集中组合中的姓名集中风险方面的准确性和优越性能。
-
-    
-
-    我们提出了一种新的基于深度学习的方法，用于量化贷款组合中的姓名集中风险。我们的方法针对小型组合进行了定制，允许损失的精算定义和按市场价值核算定义。我们的神经网络的训练依赖于重要性抽样的蒙特卡洛模拟，我们明确为CreditRisk${+}$和基于评级的CreditMetrics模型制定了这一过程。基于模拟和真实数据的数值结果显示了我们新方法的准确性，以及与现有分析方法相比，在评估小型和集中组合中的姓名集中风险方面表现出的卓越性能。
-
-    arXiv:2403.16525v1 Announce Type: new  Abstract: We propose a new deep learning approach for the quantification of name concentration risk in loan portfolios. Our approach is tailored for small portfolios and allows for both an actuarial as well as a mark-to-market definition of loss. The training of our neural network relies on Monte Carlo simulations with importance sampling which we explicitly formulate for the CreditRisk${+}$ and the ratings-based CreditMetrics model. Numerical results based on simulated as well as real data demonstrate the accuracy of our new approach and its superior performance compared to existing analytical methods for assessing name concentration risk in small and concentrated portfolios.
-    
-[^4]: 乌拉圭实际有效汇率的决定因素：一种门德尔-弗莱明模型方法
-
-    Determinants of Uruguay's Real Effective Exchange Rate: A Mundell-Fleming Model Approach
-
-    [https://arxiv.org/abs/2403.16452](https://arxiv.org/abs/2403.16452)
-
-    研究使用扩展的门德尔-弗莱明模型分析了影响乌拉圭实际有效汇率的因素，结果表明美国贷款利率、通货膨胀和货币供应量的增加与实际有效汇率贬值有关，这与门德尔-弗莱明模型关于浮动汇率的开放经济的理论预期一致。
+    通过文本挖掘和社交网络分析，本研究提出了一种创新方法，以评估OM和SCM专业人员特定心理特质的市场需求。
 
     
 
-    本研究通过应用扩展的门德尔-弗莱明模型来分析影响乌拉圭短期实际有效汇率（REER）的因素。通过分析美国贷款利率（USLR）、货币供应量（M2）、通货膨胀（CPI）和世界利率（WIR）的影响，该论文采用具有Newey-West标准误差的线性回归模型。关键发现显示，美国贷款利率（USLR）、通货膨胀（CPI）和货币供应量（M2）的增加与实际有效汇率的贬值相关。相反，世界利率（WIR）没有显著影响。这些发现与有浮动汇率的开放型经济在门德尔-弗莱明模型中的理论预期一致。因此，当面对比索贬值时，当局应该收紧货币政策、控制通货膨胀、调整财政策略，并促进出口。
+    本研究提出了一种创新的方法，通过文本挖掘和社交网络分析，对运营管理（OM）和供应链管理（SCM）专业人员的心理特质进行描述分析。该方法旨在通过结合相关心理构建、文本挖掘技术和创新度量方法，即语义品牌分数，评估特定特质的市场需求。我们将该方法应用于一组OM和SCM专业人员的职位描述数据集，旨在提供他们相关所需技能的描述分布图，包括心理特征。
 
-    arXiv:2403.16452v1 Announce Type: new  Abstract: This study examines the factors influencing the short-term real effective exchange rate (REER) in Uruguay by applying an extended Mundell-Fleming model. Analyzing the impact of the US lending rate (USLR), money supply (M2), inflation (CPI), and the world interest rate (WIR), the paper uses a linear regression model with Newey-West standard errors. Key findings reveal that an increase in the USLR, CPI, and M2 is associated with a depreciation of the REER. In contrast, WIR shows no significant impact. These findings are consistent with the theoretical expectations of the Mundell-Fleming model regarding open economies under floating exchange rates. Therefore, authorities should tighten monetary policy, control inflation, adjust fiscal strategies, and boost exports in response to Peso depreciation.
+    arXiv:2403.17546v1 Announce Type: new  Abstract: The current study proposes an innovative methodology for the profiling of psychological traits of Operations Management (OM) and Supply Chain Management (SCM) professionals. We use innovative methods and tools of text mining and social network analysis to map the demand for relevant skills from a set of job descriptions, with a focus on psychological characteristics. The proposed approach aims to evaluate the market demand for specific traits by combining relevant psychological constructs, text mining techniques, and an innovative measure, namely, the Semantic Brand Score. We apply the proposed methodology to a dataset of job descriptions for OM and SCM professionals, with the objective of providing a mapping of their relevant required skills, including psychological characteristics. In addition, the analysis is then detailed by considering the region of the organization that issues the job description, its organizational size, and the s
     
-[^5]: 职场可持续性还是财务弹性？综合财务弹性指数
+[^3]: 细节决定成败：德国最低工资对工作时间和迷你工作的异质影响
 
-    Workplace sustainability or financial resilience? Composite-financial resilience index
+    The Devil is in the Details: Heterogeneous Effects of the German Minimum Wage on Working Hours and Minijobs
 
-    [https://arxiv.org/abs/2403.16296](https://arxiv.org/abs/2403.16296)
+    [https://arxiv.org/abs/2403.17206](https://arxiv.org/abs/2403.17206)
 
-    本文研究了企业的财务弹性和职场弹性，提出了综合财务弹性指数作为灾害风险的潜在衡量指标，在COVID-19时代职场弹性可能受到公司财务状况的影响。
-
-    
-
-    由于市场动荡中存在各种企业风险以及随之而来的财务困境，尤其是在COVID-19时期，本文研究了企业的弹性，并比较了不同类型的弹性，这些弹性可能成为公司隐含回报率异质性的潜在来源。具体来说，本文的创新之处不仅在于量化公司的财务弹性，还在于将其与在COVID-19时代更为重要的职场弹性进行比较。研究通过比较高低弹性公司的盈利预期和隐含折现率，准备了几个关于这两种主要弹性的必要性和不足性的证据。特别地，结果表明了在COVID-19时代公司的财务状况可能放大职场弹性的可能性。本文提出了一个新颖的综合财务弹性指数作为潜在的灾害风险衡量指标，这在衡量公司财务和职场弹性的相关性方面具有重要意义。
-
-    arXiv:2403.16296v1 Announce Type: new  Abstract: Due to the variety of corporate risks in turmoil markets and the consequent financial distress especially in COVID-19 time, this paper investigates corporate resilience and compares different types of resilience that can be potential sources of heterogeneity in firms' implied rate of return. Specifically, the novelty is not only to quantify firms' financial resilience but also to compare it with workplace resilience which matters more in the COVID-19 era. The study prepares several pieces of evidence of the necessity and insufficiency of these two main types of resilience by comparing earnings expectations and implied discount rates of high- and low-resilience firms. Particularly, results present evidence of the possible amplification of workplace resilience by the financial status of firms in the COVID-19 era. The paper proposes a novel composite-financial resilience index as a potential measure for disaster risk that significantly and 
-    
-[^6]: 依赖排名的可预测前向表现过程
-
-    Rank-Dependent Predictable Forward Performance Processes
-
-    [https://arxiv.org/abs/2403.16228](https://arxiv.org/abs/2403.16228)
-
-    提出了一种基于排名依赖效用的新型可预测前向表现过程，通过解决广义的积分方程来构造这些过程，并提出了一种用Volterra方程理论解决积分方程的新方法。
+    德国引入国家最低工资后，发现最低工资显著降低了工资的不平等性，对工作时间整体影响不大，但对迷你工作人员的工作时间有显著减少，并导致迷你工作岗位明显减少，部分转向普通就业和非就业。
 
     
 
-    可预测的前向表现过程(PFPPs)是针对一个代理人的随机最优控制框架，该代理人控制一个随机演变系统，但只能事先为一个短时期内规定系统动态。这是一个常见的场景，在这种场景下，控制代理人经常重新校准她的模型。我们介绍了一类基于排名依赖效用的PFPPs，这类模型推广了现有基于期望效用理论(EUT)的模型。在条件完全市场和外生概率失真函数的条件下，我们建立了排名依赖PFPPs的存在性，这些函数会定期更新。我们证明了它们的构造归结为解决一个积分方程，该积分方程推广了以前研究中在EUT下获得的积分方程。然后，我们提出了一种通过Volterra方程理论解决积分方程的新方法。我们在条件完全的Black-Scholes模型特例中说明了我们的结果。
+    2015年，德国引入了国家最低工资标准。虽然文献普遍认为对整体就业水平的负面影响至多很有限，但我们深入细节分析了对工作时间维度和迷你工作子集的影响。利用2010年、2014年和2018年德国收入结构调查的数据，我们找到了实证证据表明最低工资显著降低了小时工资和月工资的不平等。虽然各种理论机制建议工作时间会减少，但在平均水平上仍然保持不变。然而，迷你工作人员的工作时间明显减少，这可以与特定的制度框架联系起来。关于就业，结果表明普通工作没有影响，但迷你工作明显减少，这是由于向普通就业和非就业的转变所驱动的。非就业的转变意味着就业的工资弹性为-0.1。
 
-    arXiv:2403.16228v1 Announce Type: new  Abstract: Predictable forward performance processes (PFPPs) are stochastic optimal control frameworks for an agent who controls a randomly evolving system but can only prescribe the system dynamics for a short period ahead. This is a common scenario in which a controlling agent frequently re-calibrates her model. We introduce a new class of PFPPs based on rank-dependent utility, generalizing existing models that are based on expected utility theory (EUT). We establish existence of rank-dependent PFPPs under a conditionally complete market and exogenous probability distortion functions which are updated periodically. We show that their construction reduces to solving an integral equation that generalizes the integral equation obtained under EUT in previous studies. We then propose a new approach for solving the integral equation via theory of Volterra equations. We illustrate our result in the special case of conditionally complete Black-Scholes mo
+    arXiv:2403.17206v1 Announce Type: new  Abstract: In 2015, Germany introduced a national minimum wage. While the literature agrees on at most limited negative effects on the overall employment level, we go into detail and analyze the impact on the working hours dimension and on the subset of minijobs. Using data from the German Structure of Earnings Survey in 2010, 2014, and 2018, we find empirical evidence that the minimum wage significantly reduces inequality in hourly and monthly wages. While various theoretical mechanisms suggest a reduction in working hours, these remain unchanged on average. However, minijobbers experience a notable reduction in working hours which can be linked to the specific institutional framework. Regarding employment, the results show no effects for regular jobs, but there is a noteworthy decline in minijobs, driven by transitions to regular employment and non-employment. The transitions in non-employment imply a wage elasticity of employment of $-0.1$ for m
     
-[^7]: 加密逆功率期权与分数随机波动性
+[^4]: 替代经典期权定价方法
 
-    Crypto Inverse-Power Options and Fractional Stochastic Volatility
+    Alternatives to classical option pricing
 
-    [https://arxiv.org/abs/2403.16006](https://arxiv.org/abs/2403.16006)
+    [https://arxiv.org/abs/2403.17187](https://arxiv.org/abs/2403.17187)
 
-    本文介绍了一个包含分数随机波动性的解析模型框架，特别关注逆期权，为减轻加密货币汇率风险和调整风险敞口提供了功率类型的泛化逆期权以及相应的定价-套期保值公式。
-
-    
-
-    最近的经验性证据突显了在加密货币市场中价格和波动率中跃升所起到的关键作用。在本文中，我们介绍了一个分数随机波动性的解析模型框架，包括价格-波动率共跃和短期波动率依赖性。我们特别关注逆期权，包括新兴的Quanto逆期权及其功率类型的泛化，旨在减轻加密货币汇率风险，并调整固有风险敞口。针对这些逆期权导出了基于特征函数的定价-套期保值公式。然后将通用模型框架应用于不对称的拉普拉斯跃变扩散和高斯混合淡定稳定型过程，采用三种分数核，进行广泛的实证分析，包括两个独立的比特币期权数据集上的模型校准，在COVI期间和之后。
-
-    arXiv:2403.16006v1 Announce Type: new  Abstract: Recent empirical evidence has highlighted the crucial role of jumps in both price and volatility within the cryptocurrency market. In this paper, we introduce an analytical model framework featuring fractional stochastic volatility, accommodating price--volatility co-jumps and volatility short-term dependency concurrently. We particularly focus on inverse options, including the emerging Quanto inverse options and their power-type generalizations, aimed at mitigating cryptocurrency exchange rate risk and adjusting inherent risk exposure. Characteristic function-based pricing--hedging formulas are derived for these inverse options. The general model framework is then applied to asymmetric Laplace jump-diffusions and Gaussian-mixed tempered stable-type processes, employing three types of fractional kernels, for an extensive empirical analysis involving model calibration on two independent Bitcoin options data sets, during and after the COVI
-    
-[^8]: 具有跳跃项的Ito半鞅的马尔可夫投影
-
-    Markovian projections for It\^o semimartingales with jumps
-
-    [https://arxiv.org/abs/2403.15980](https://arxiv.org/abs/2403.15980)
-
-    该论文研究了具有跳跃项的Ito半鞅的马尔可夫投影，提出了解决非局部FPKEs方程的一维边际分布流，以及如何在建立具有局部和随机特征的校准扩散/跳跃模型中应用马尔可夫投影。
+    通过引入新的资产类型，我们提出了两种替代的期权定价方法，其中一种方法不需要无风险资产，另一种方法通过保证真实世界和风险中性价格变动概率的相等性，利用自然世界概率下的期望来计算风险中性期权价格。
 
     
 
-    给定一个一般的Ito半鞅，它的马尔可夫投影是一个Ito过程，具有马尔可夫微分特征，与原始过程的一维边际分布相匹配。我们为具有跳跃项的Ito半鞅构造马尔可夫投影，其一维边际分布的流是非局部的福克-普朗克-科尔莫哥罗夫方程（FPKEs）的解。作为一个应用，我们展示了马尔可夫投影在建立具有局部和随机特征的校准扩散/跳跃模型中的作用。
+    我们提出了两种替代套利免费、市场完备的期权定价方法。第一种方法不需要无风险资产。我们为这种方法制定了一般性框架，并用两个具体例子进行了说明。第二种方法使用了无风险资产。然而，通过确保现实世界和风险中性价格变动概率之间的相等，第二种方法使得可以利用自然世界概率P下的期望来计算风险中性期权价格。这产生了与经典方法中利用风险中性测度Q下计算价格相同的期权价格。第二种方法和第一种方法的两个具体例子需要引入新的、可交易的资产类型，具体来说是股票的永续衍生品和一个累积回报（而不是价格）被折算的股票。
 
-    arXiv:2403.15980v1 Announce Type: cross  Abstract: Given a general It\^o semimartingale, its Markovian projection is an It\^o process, with Markovian differential characteristics, that matches the one-dimensional marginal laws of the original process. We construct Markovian projections for It\^o semimartingales with jumps, whose flows of one-dimensional marginal laws are solutions to non-local Fokker--Planck--Kolmogorov equations (FPKEs). As an application, we show how Markovian projections appear in building calibrated diffusion/jump models with both local and stochastic features.
+    arXiv:2403.17187v1 Announce Type: new  Abstract: We develop two alternate approaches to arbitrage-free, market-complete, option pricing. The first approach requires no riskless asset. We develop the general framework for this approach and illustrate it with two specific examples. The second approach does use a riskless asset. However, by ensuring equality between real-world and risk-neutral price-change probabilities, the second approach enables the computation of risk-neutral option prices utilizing expectations under the natural world probability P. This produces the same option prices as the classical approach in which prices are computed under the risk neutral measure Q. The second approach and the two specific examples of the first approach require the introduction of new, marketable asset types, specifically perpetual derivatives of a stock, and a stock whose cumulative return (rather than price) is deflated.
     
-[^9]: 对冲基金指数规则与构建
+[^5]: 工业CO2捕集、输送和储存系统的设计见解
 
-    Hedge Fund Index Rules and Construction
+    Design Insights for Industrial CO2 Capture, Transport, and Storage Systems
 
-    [https://arxiv.org/abs/2403.15925](https://arxiv.org/abs/2403.15925)
+    [https://arxiv.org/abs/2403.17162](https://arxiv.org/abs/2403.17162)
 
-    提出了一种构建对冲基金指数的方法，可以更好地跟踪对冲基金投资表现，允许对冲基金直接对冲与指数相关的产品暴露。
-
-    
-
-    一项对冲基金指数对于跟踪对冲基金投资表现非常有用，尤其是对基金赎回的时机。本文提出了一种构建对冲基金指数的方法，它更像是一个量化的基金池，而不是一些早期可复制的市场指数的加权和，这些指数定期重新平衡。构建的指数允许对冲基金直接对冲其与指数相关的产品暴露。这一点非常重要，因为对冲基金是一种透明性较低的资产类别，其回报传统上很难使用流动性工具复制。
-
-    arXiv:2403.15925v1 Announce Type: new  Abstract: A Hedge Fund Index is very useful for tracking the performance of hedge fund investments, especially the timing of fund redemption. This paper presents a methodology for constructing a hedge fund index that is more like a quantitative fund of fund, rather than a weighted sum of a number of early replicable market indices, which are re-balanced periodically. The constructed index allows hedge funds to directly hedge their exposures to index-linked products. That is important given that hedge funds are an asset class with reduced transparency, and the returns are traditionally difficult to replicate using liquid instruments.
-    
-[^10]: 关于间歇性破产下梅顿最优投资组合问题
-
-    On Merton's Optimal Portfolio Problem under Sporadic Bankruptcy
-
-    [https://arxiv.org/abs/2403.15923](https://arxiv.org/abs/2403.15923)
-
-    本文研究了在股票市场遵循几何布朗运动并且遵循恒定利率连续复利的无风险资产的情况下，考虑股票可能在一定随机时间内破产的梅顿最优投资组合问题。通过新型哈密顿-雅可比-贝尔曼方程，将问题形式化为受控马尔可夫扩散，并且严格推导了一个新版本的梅顿比率，最终通过验证定理验证了该模型在现实世界中的适用性。
+    提出了针对工业设施集群的CO2捕集、输送和储存系统设计方法和见解，应用到路易斯安那州估计最多可捕集 50 百万 tCO2/y 的工业排放，并且成本不到每吨100美元
 
     
 
-    考虑一个遵循几何布朗运动的股票市场和以恒定利率连续复利的无风险资产。假设股票可以破产，即在一些外生随机时间（独立于股价）内失去全部价值，这被建模为齐次泊松过程的第一到达时间，我们研究了梅顿的最优投资组合问题，旨在最大化在预先选择的有限到期时间内总财富的期望对数效用。首先，我们提出了一种基于新型哈密顿-雅可比-贝尔曼方程的启发式推导。然后，我们将问题形式化为经典的受控马尔可夫扩散，具有一种新类型的终端和运行成本。采用贝尔曼的动态规划原理严格推导出了梅顿比率的新版本，并用适当类型的验证定理进行验证。一个现实世界的例子将后者的比率与经典梅顿的r进行了比较。
+    我们提出了针对工业设施集群的CO2捕集、输送和储存系统的设计方法和见解，以路易斯安那州为案例研究重点。我们的分析框架包括：(1)评估单个设施可捕集的CO2排放规模和浓度，以估算CO2捕集改造的成本，(2)筛选方法用于确定潜在的CO2储存地点并估算其储存能力、注入速度和成本；以及(3)一种以成本最小化为目标的管道基础设施设计方法，连接CO2捕集工厂和储存地点，考虑土地利用模式、现有通行权、人口统计数据以及各种社会和环境公正因素。
 
-    arXiv:2403.15923v1 Announce Type: new  Abstract: Consider a stock market following a geometric Brownian motion and a riskless asset continuously compounded at a constant rate. Assuming the stock can go bankrupt, i.e., lose all of its value, at some exogenous random time (independent of the stock price) modeled as the first arrival time of a homogeneous Poisson process, we study the Merton's optimal portfolio problem consisting of maximizing the expected logarithmic utility of the total wealth at a preselected finite maturity time. First, we present a heuristic derivation based on a new type of Hamilton-Jacobi-Bellman equation. Then, we formally reduce the problem to a classical controlled Markovian diffusion with a new type of terminal and running costs. A new version of Merton's ratio is rigorously derived using Bellman's dynamic programming principle and validated with a suitable type of verification theorem. A real-world example comparing the latter ratio to the classical Merton's r
+    arXiv:2403.17162v1 Announce Type: new  Abstract: We present design methods and insights for CO2 capture, transport, and storage systems for clusters of industrial facilities, with a case-study focus on the state of Louisiana. Our analytical framework includes: (1) evaluating the scale and concentration of capturable CO2 emissions at individual facilities for the purpose of estimating the cost of CO2 capture retrofits, (2) a screening method to identify potential CO2 storage sites and estimate their storage capacities, injectivities, and costs; and (3) an approach for cost-minimized design of pipeline infrastructure connecting CO2 capture plants with storage sites that considers land use patterns, existing rights-of-way, demographics, and a variety of social and environmental justice factors. In applying our framework to Louisiana, we estimate up to 50 million tCO2/y of industrial emissions (out of today's total emissions of 130 MtCO2/y) can be captured at under 100 USD/tCO2, and up to 
     
-[^11]: 区块链球迷代币中的预期收益和事件驱动损失：来自FIFA世界杯的证据
+[^6]: 高维均值-方差跨度测试
 
-    Anticipatory Gains and Event-Driven Losses in Blockchain-Based Fan Tokens: Evidence from the FIFA World Cup
+    High-Dimensional Mean-Variance Spanning Tests
 
-    [https://arxiv.org/abs/2403.15810](https://arxiv.org/abs/2403.15810)
+    [https://arxiv.org/abs/2403.17127](https://arxiv.org/abs/2403.17127)
 
-    该研究调查了区块链球迷代币在2022年世界杯比赛中的表现，发现球迷代币在比赛前六个月出现反弹，但随着比赛进行，回报率持续下降，交易量上升，尤其是在高赌注比赛中的失败引起了更严重的损失。
-
-    
-
-    国家足球队越来越多地发行可交易的基于区块链的球迷代币，以战略性地增强球迷参与度。本研究调查了2022年世界杯比赛对每支球队球迷代币动态表现的影响。事件研究揭示了在世界杯前六个月，球迷代币回报率飙升，受到正向预期效应的推动。然而，盘内分析揭示了球迷代币回报率的反转，随着比赛的进行而持续下降，交易量上涨。为了解释这些发现，我们揭示了高赌注比赛中的失败导致球迷代币回报率骤降，相比低赌注比赛，淘汰赛比赛的幅度加剧。相反，胜利增加了交易量，反映了市场活动的增加，但没有相应的回报。我们将发现与经典市场格言“买谣言，卖消息”相一致，揭示了认知偏差和细微差别。
-
-    arXiv:2403.15810v1 Announce Type: new  Abstract: National football teams increasingly issue tradeable blockchain-based fan tokens to strategically enhance fan engagement. This study investigates the impact of 2022 World Cup matches on the dynamic performance of each team's fan token. The event study uncovers fan token returns surged six months before the World Cup, driven by positive anticipation effects. However, intraday analysis reveals a reversal of fan token returns consistently declining and trading volumes rising as matches unfold. To explain findings, we uncover asymmetries whereby defeats in high-stake matches caused a plunge in fan token returns, compared to low-stake matches, intensifying in magnitude for knockout matches. Contrarily, victories enhance trading volumes, reflecting increased market activity without a corresponding positive effect on returns. We align findings with the classic market adage "buy the rumor, sell the news," unveiling cognitive biases and nuances i
-    
-[^12]: 深度限价订单簿预测
-
-    Deep Limit Order Book Forecasting
-
-    [https://arxiv.org/abs/2403.09267](https://arxiv.org/abs/2403.09267)
-
-    该研究利用深度学习方法预测纳斯达克交易所股票的限价订单簿中间价格变动，提出了一个创新的操作框架来评估预测的实用性。
+    该研究提出了一种新的均值-方差跨度假设检验框架，能够在任意测试资产维度上应用，通过使用稳健的学生t统计基于批量均值方法逐个测试矩条件，然后使用柯西组合检验结合p值，证明了相对于现有方法的卓越性能，并在实证应用中探讨了股票分散化中国内与国际间的优势和影响因素。
 
     
 
-    我们利用尖端的深度学习方法探索了在纳斯达克交易所上交易的一组异质股票的高频限价订单簿中间价格变动的可预测性。在此过程中，我们发布了“LOBFrame”，一个开源代码库，可以高效处理大规模限价订单簿数据，并定量评估最先进的深度学习模型的预测能力。我们的结果是双重的。我们证明股票的微观结构特征影响深度学习方法的有效性，并且它们的高预测能力不一定对应可操作的交易信号。我们认为传统的机器学习指标未能充分评估限价订单簿环境中预测的质量。作为替代，我们提出了一个创新的操作框架，通过专注于准确预测的概率来评估预测的实用性。
+    我们引入了一种新的均值-方差跨度（MVS）假设检验框架。该程序可应用于任何测试资产维度，只需要稳定的资产回报和基准资产数量小于时间周期数量。它涉及使用基于批量均值方法的稳健学生t统计量逐个测试矩条件，并使用柯西组合检验将p值组合在一起。模拟结果表明，该测试相对于最先进的方法表现出卓越性能。对于实证应用，我们研究了股票领域的国内与国际分散化问题。我们发现分散化的优势受经济状况影响，并呈现跨国家变化。我们还强调，拒绝MVS假设源于在国内全球最小方差组合中降低方差的潜力。
 
-    arXiv:2403.09267v1 Announce Type: cross  Abstract: We exploit cutting-edge deep learning methodologies to explore the predictability of high-frequency Limit Order Book mid-price changes for a heterogeneous set of stocks traded on the NASDAQ exchange. In so doing, we release `LOBFrame', an open-source code base, to efficiently process large-scale Limit Order Book data and quantitatively assess state-of-the-art deep learning models' forecasting capabilities. Our results are twofold. We demonstrate that the stocks' microstructural characteristics influence the efficacy of deep learning methods and that their high forecasting power does not necessarily correspond to actionable trading signals. We argue that traditional machine learning metrics fail to adequately assess the quality of forecasts in the Limit Order Book context. As an alternative, we propose an innovative operational framework that assesses predictions' practicality by focusing on the probability of accurately forecasting com
+    arXiv:2403.17127v1 Announce Type: cross  Abstract: We introduce a new framework for the mean-variance spanning (MVS) hypothesis testing. The procedure can be applied to any test-asset dimension and only requires stationary asset returns and the number of benchmark assets to be smaller than the number of time periods. It involves individually testing moment conditions using a robust Student-t statistic based on the batch-mean method and combining the p-values using the Cauchy combination test. Simulations demonstrate the superior performance of the test compared to state-of-the-art approaches. For the empirical application, we look at the problem of domestic versus international diversification in equities. We find that the advantages of diversification are influenced by economic conditions and exhibit cross-country variation. We also highlight that the rejection of the MVS hypothesis originates from the potential to reduce variance within the domestic global minimum-variance portfolio.
     
-[^13]: 区块链金融中的市场不端行为（DeFi）：分析、监管挑战和政策意义
+[^7]: 印度家庭普拉德汉曼特里乌贾拉计划的影响
 
-    Market Misconduct in Decentralized Finance (DeFi): Analysis, Regulatory Challenges and Policy Implications
+    The Impact of Pradhan Mantri Ujjwala Yojana on Indian Households
 
-    [https://arxiv.org/abs/2311.17715](https://arxiv.org/abs/2311.17715)
+    [https://arxiv.org/abs/2403.17112](https://arxiv.org/abs/2403.17112)
 
-    该论文探讨了区块链金融中的市场不端行为（DeFi）问题，提出了全面定义和分类，通过比较分析和实证研究揭示了其特点和社会影响，同时探讨了DeFi监管框架所面临的挑战。
-
-    
-
-    技术进步推动金融创新，重塑了传统金融格局，重新定义了用户与市场之间的互动。区块链和去中心化金融（DeFi）的兴起彰显了技术和金融交织发展的进程。虽然DeFi带来了令人兴奋的机遇，也使生态系统暴露于新形式的市场不端行为之中。本文旨在通过探讨DeFi中的市场不端行为来弥合学术界和监管界的差距，解决DeFi市场不端行为的关键研究问题。我们首先讨论区块链技术如何潜在地促使新形式的市场不端行为出现。然后为理解DeFi市场不端行为提供全面的定义和分类法。通过比较分析和实证测量，我们研究了DeFi中的新形式不端行为，阐明了它们的特征和社会影响。随后，我们探讨了构建DeFi监管框架所面临的挑战。
-
-    arXiv:2311.17715v2 Announce Type: replace  Abstract: Technological advancement drives financial innovation, reshaping the traditional finance landscape and redefining user-market interactions. The rise of blockchain and Decentralized Finance (DeFi) underscores this intertwined evolution of technology and finance. While DeFi has introduced exciting opportunities, it has also exposed the ecosystem to new forms of market misconduct. This paper aims to bridge the academic and regulatory gaps by addressing key research questions about market misconduct in DeFi. We begin by discussing how blockchain technology can potentially enable the emergence of novel forms of market misconduct. We then offer a comprehensive definition and taxonomy for understanding DeFi market misconduct. Through comparative analysis and empirical measurements, we examine the novel forms of misconduct in DeFi, shedding light on their characteristics and social impact. Subsequently, we investigate the challenges of build
-    
-[^14]: 简化理论的价值函数的新概念
-
-    New Concept for the Value Function of Prospect Theory
-
-    [https://arxiv.org/abs/2211.00131](https://arxiv.org/abs/2211.00131)
-
-    该研究提出了一个新概念的价值函数，可能具有神经突，显示出变化和行为突变。
+    PMUY对印度贫困家庭的LPG获取有着2.1个百分点的提升，同时在不同地区和社会群体之间存在差异影响，需要政策强调有针对性的干预措施。
 
     
 
-    在前景理论中，价值函数通常对于收益而言呈凹函数，对于损失而言通常是凸函数，损失的斜率通常比收益的斜率要陡。大脑神经系统在损失和收益方面有很大的不同。本研究对与此问题相关的神经元进行了五项新研究，研究了神经元对损失、收益和参考点的反应。该研究探讨了价值函数的一个新概念。具有神经突的价值函数可能显示出变化和行为突变，导致交易员关闭自己的头寸。
+    这项研究对普拉德汉曼特里乌贾拉计划（PMUY）对印度贫困家庭LPG获取的影响进行了批判性评估。利用倾向得分匹配和双重差分估计器以及国家家庭健康调查（NFHS）数据集，研究发现实施PMUY后，受试者的平均处理效应在LPG消费上增加了2.1个百分点，同时火柴消费减少。区域分析显示不同的影响，北部、西部和南部取得了显著进展，但东部和东北部的影响不那么明显。研究还强调了不同社会群体之间的差异，表明最显著的好处是由社会阶层家庭获得的，而部落家庭几乎没有受到影响。尽管PMUY在促进LPG获取方面取得了初步成功，但维持其使用仍然具有挑战性。政策应强调有针对性的干预措施，增加收入支持。
 
-    arXiv:2211.00131v4 Announce Type: replace  Abstract: In the prospect theory, value function is typically concave for gains, commonly convex for losses, with losses usually having a steeper slope than gains. The neural system largely differs from the loss and gains sides. Five new studies on neurons related to this issue have examined neuronal responses to losses, gains, and reference points. This study investigates a new concept of the value function. A value function with a neuronal cusp may show variations and behavior cusps with catastrophe where a trader closes one's position.
+    arXiv:2403.17112v1 Announce Type: new  Abstract: This study critically evaluates the impact of the Pradhan Mantri Ujjwala Yojana (PMUY) on LPG accessibility among poor households in India. Using Propensity Score Matching and Difference-in-Differences estimators and the National Family Health Survey (NFHS) dataset, the Average Treatment Effect on the interdedly Treated is a modest 2.1 percentage point increase in LPG consumption due to PMUY, with a parallel decrease in firewood consumption. Regional analysis reveals differential impacts, with significant progress in the North, West, and South but less pronounced effects in the East and North East. The study also underscores variance across social groups, with Schedule Caste households showing the most substantial benefits, while Scheduled Tribes households are hardly affected. Despite the PMUY's initial success in facilitating LPG access, sustaining its usage remains challenging. Policy should emphasise targeted interventions, income su
     
-[^15]: 一个多期消费资产定价模型中价格和回报的自相关性
+[^8]: 重新审视Boehmer等人（2021年）：最新时期，替代方法，不同结论
 
-    Price and Payoff Autocorrelations in a Multi-Period Consumption-Based Asset Pricing Model
+    Revisiting Boehmer et al. (2021): Recent Period, Alternative Method, Different Conclusions
 
-    [https://arxiv.org/abs/2204.07506](https://arxiv.org/abs/2204.07506)
+    [https://arxiv.org/abs/2403.17095](https://arxiv.org/abs/2403.17095)
 
-    多期消费资产定价模型的基本定价方程受到价格和回报自相关性的影响，揭示了其与其他资产定价模型的关联。
-
-    
-
-    这篇论文突出了多期消费资产定价模型的基本定价方程对价格和回报的自相关性的潜在依赖性。我们得到了描述基本定价方程的近似值，该方程描述了今天的平均价格、明天的平均回报、价格和回报的波动性，以及价格和回报的自相关性。消费资产模型与其他资产定价模型（如ICAPM、APM等）的深度结合强调了我们的结果对其他定价模型也是有效的。
-
-    arXiv:2204.07506v2 Announce Type: replace  Abstract: This paper highlights the hidden dependence of the basic pricing equation of a multi-period consumption-based asset pricing model on price and payoff autocorrelations. We obtain the approximations of the basic pricing equation that describe the mean price "to-day," mean payoff "next-day," price and payoff volatilities, and price and payoff autocorrelations. The deep conjunction of the consumption-based model with other versions of asset pricing, such as ICAPM, APM, etc. (Cochrane, 2001), emphasizes that our results are valid for other pricing models.
-    
-[^16]: 理论经济学与二阶经济理论。是什么？
-
-    Theoretical Economics and the Second-Order Economic Theory. What is it?
-
-    [https://arxiv.org/abs/2112.04566](https://arxiv.org/abs/2112.04566)
-
-    二阶经济理论探讨了由经济体交易的平方和构成的二阶经济变量对宏观经济变量的影响。
+    本文重新审视了Boehmer等人（2021年）关于零售订单不平衡（ROI）对未来股票回报预测能力的开创性工作，发现这些结论对于不同样本时期和ROI识别方法是敏感的。
 
     
 
-    经济体和金融体变量决定宏观经济变量。当前模型考虑经济体变量，这些变量由一定时间间隔{\Delta}内经济体交易的价值和量之和确定。我们称它们为一阶经济变量。我们描述了市场交易价值和量的波动性和相关性如何确定价格波动率。我们认为这样的联系需要考虑到由{\Delta}内经济体交易的平方和组成的二阶经济变量，几乎任何一阶变量都应该有其对应的二阶配对。相应地，经济体二阶变量之和引入了二阶宏观经济变量。二阶宏观经济变量的描述建立了二阶经济理论的主题。我们强调二阶经济理论的复杂性建议了
+    我们重新评估了Boehmer等人（2021年，BJZZ）关于零售订单不平衡（ROI）对未来股票回报预测能力的开创性工作。首先，我们在更近期的2016-2021年期间复制了他们在2010-2015年的分析。我们发现ROI的预测能力显著下降。具体来说，过去的ROI不能再预测大盘股的周回报，基于过去ROI的多空策略也不再盈利。其次，我们分析了使用替代报价中点（QMP）方法来识别和标记零售交易对主要结论的影响。虽然基于QMP方法的结果与2010-2015年的BJZZ发现一致，但这两种方法在2016-2021年提供了不同的结论。我们的研究表明，BJZZ的原始发现对样本期间和识别ROI的方法敏感。
 
-    arXiv:2112.04566v2 Announce Type: replace  Abstract: The economic and financial variables of economic agents determine macroeconomic variables. Current models consider agents' variables that are determined by the sums of values and volumes of agents' trades during some time interval {\Delta}. We call them first-order economic variables. We describe how the volatilities and correlations of market trade values and volumes determine price volatility. We argue that such a link requests consideration of agents' economic variables of the second order that are composed of sums of squares of agents' transactions during {\Delta}. Almost any variable of the first order should be complemented by its second-order pair. Respectively, the sums of agents' second-order variables introduce macroeconomic variables of the second order. The description of the first- and second-order macroeconomic variables establishes the subject of second-order economic theory. We highlight that the complexity of second-
+    arXiv:2403.17095v1 Announce Type: new  Abstract: We reassess Boehmer et al. (2021, BJZZ)'s seminal work on the predictive power of retail order imbalance (ROI) for future stock returns. First, we replicate their 2010-2015 analysis in the more recent 2016-2021 period. We find that the ROI's predictive power weakens significantly. Specifically, past ROI can no longer predict weekly returns on large-cap stocks, and the long-short strategy based on past ROI is no longer profitable. Second, we analyze the effect of using the alternative quote midpoint (QMP) method to identify and sign retail trades on their main conclusions. While the results based on the QMP method align with BJZZ's findings in 2010-2015, the two methods provide different conclusions in 2016-2021. Our study shows that BJZZ's original findings are sensitive to the sample period and the approach to identify ROIs.
     
-[^17]: 一个透明、可重用和可更新的计算健康经济模型的原型软件框架
+[^9]: 基于多元Levy过程模型的量价期权定价与生成人工智能
 
-    A prototype software framework for transparent, reusable and updatable computational health economic models. (arXiv:2310.14138v1 [econ.GN])
+    Quanto Option Pricing on a Multivariate Levy Process Model with a Generative Artificial Intelligence
 
-    [http://arxiv.org/abs/2310.14138](http://arxiv.org/abs/2310.14138)
+    [https://arxiv.org/abs/2402.17919](https://arxiv.org/abs/2402.17919)
 
-    这个论文提出了一个计算健康经济模型的原型软件框架，并提取了六个评估标准，旨在促进透明、可重用和可更新的模型开发，以满足社会需求。
-
-    
-
-    大多数健康经济分析都依赖于计算机。然而，将健康经济模型作为软件（或计算健康经济模型（CHEMs））实施的伦理维度尚不明确。我们提出CHEMs的开发者和资助者对（i）建立社会可接受的用户需求和设计规范，（ii）确保适合目的，以及（iii）支持社会有益的使用承担伦理责任。我们进一步提出一个透明（T）、可重用（R）和可更新（U）的CHEM表明项目团队在很大程度上已履行这些责任。我们提出了六个评估CHEMs的标准：（T1）软件文件开放获取；（T2）项目团队的贡献和判断易于识别；（R1）编程实践促进了通用性和可转移性；（R2）许可证仅限制不道德的重用；（U1）维护基础设施已经就绪；以及（U2）新版本经过系统重新测试和批准。
-
-    Most health economic analyses are undertaken with the aid of computers. However, the ethical dimensions of implementing health economic models as software (or computational health economic models (CHEMs)) are poorly understood. We propose that developers and funders of CHEMs share ethical responsibilities to (i) establish socially acceptable user requirements and design specifications; (ii) ensure fitness for purpose; and (iii) support socially beneficial use. We further propose that a transparent (T), reusable (R) and updatable (U) CHEM is suggestive of a project team that has largely fulfilled these responsibilities. We propose six criteria for assessing CHEMs: (T1) software files are open access; (T2) project team contributions and judgments are easily identified; (R1) programming practices promote generalisability and transferability; (R2) licenses restrict only unethical reuse; (U1) maintenance infrastructure is in place; and (U2) new releases are systematically retested and appro
-    
-[^18]: 巴基斯坦价格通货膨胀的分布影响：新的价格为重点的微模拟框架PRICES的案例研究
-
-    The Distributional Impact of Price Inflation in Pakistan: A Case Study of a New Price Focused Microsimulation Framework, PRICES. (arXiv:2310.00231v1 [econ.GN])
-
-    [http://arxiv.org/abs/2310.00231](http://arxiv.org/abs/2310.00231)
-
-    本研究利用微模拟模型分析了巴基斯坦价格变动的分布影响，特别关注能源和食品价格的变动。结果表明，能源价格对通货膨胀带来的福利损失的重要性有限。
+    提出了一种基于多元Levy过程模型和生成人工智能的量价期权定价方法，通过新型的gNTS过程模型和CRealNVP模型实现对奇异期权的定价，为定价外国指数和外汇汇率等基础资产的量价期权提供了可行策略
 
     
 
-    本文利用家庭预算调查数据、收入调查数据和输入产出模型开发了一个微模拟模型，模拟了价格变动的分布影响。我们利用该模型评估了巴基斯坦近期价格变动的分配和福利影响，特别关注能源和食品价格的变动。首先，我们评估了支出的分布模式，国内能源燃料集中在分布的底部，汽油燃料在顶部。电力和汽油燃料的预算份额特别高，而国内燃料相对较低。虽然国内燃料和电力消费的分布模式与其他国家相似，但汽油燃料有特别高的预算弹性。分析表明，尽管能源价格大幅增加，但能源价格对通货膨胀带来的福利损失的重要性有限。近期价格变动的总体分布影响较小。
+    在这项研究中，我们讨论了一种机器学习技术，用于基于非高斯Levy过程模型定价两个基础资产的奇异期权。我们介绍了一种名为广义正态温和稳定（gNTS）过程的新型多元Levy过程模型，它由时变多元布朗运动定义。由于gNTS过程的概率密度函数（PDF）不是简单的解析公式给出的，因此我们使用了有条件的真值非体积保持（CRealNVP）模型，这是一种基于流的生成网络。之后，我们讨论了在gNTS模型上的无套利定价，用于定价基础资产包括外国指数和外汇汇率的量价期权。我们还提出了利用蒙特卡洛模拟生成的训练集训练CRealNVP模型来学习gNTS过程的PDF。接下来，我们利用经过训练的CRea...
 
-    This paper developed a microsimulation model to simulate the distributional impact of price changes using Household Budget Survey data, Income Survey data and an Input-Output Model. We use the model to assess the distributional and welfare impact of recent price changes in Pakistan. Particular attention is paid to price changes in energy goods and food. We firstly assessed the distributional pattern of expenditures, with domestic energy fuels concentrated at the bottom of the distribution and motor fuels at the top. The budget share of electricity and motor fuels is particularly high, while domestic fuels is relatively low. While the distributional pattern of domestic fuel and electricity consumption is similar to other countries, there is a particularly high budget elasticity for motor fuels. The analysis shows that despite large increases in energy prices, the importance of energy prices for the welfare losses due to inflation is limited. The overall distributional impact of recent p
+    arXiv:2402.17919v1 Announce Type: new  Abstract: In this study, we discuss a machine learning technique to price exotic options with two underlying assets based on a non-Gaussian Levy process model. We introduce a new multivariate Levy process model named the generalized normal tempered stable (gNTS) process, which is defined by time-changed multivariate Brownian motion. Since the probability density function (PDF) of the gNTS process is not given by a simple analytic formula, we use the conditional real-valued non-volume preserving (CRealNVP) model, which is a sort of flow-based generative networks. After that, we discuss the no-arbitrage pricing on the gNTS model for pricing the quanto option whose underlying assets consist of a foreign index and foreign exchange rate. We also present the training of the CRealNVP model to learn the PDF of the gNTS process using a training set generated by Monte Carlo simulation. Next, we estimate the parameters of the gNTS model with the trained CRea
     
-[^19]: 对于存在信用、资金和反向风险的具有双边现金流的易损衍生品合约的分析估值
+[^10]: 减少脱碳失业和经济损失的企业级供应链
 
-    Analytical valuation of vulnerable derivative contracts with bilateral cash flows under credit, funding and wrong-way risks. (arXiv:2308.10568v1 [q-fin.PR])
+    Firm-level supply chains to minimize decarbonization unemployment and economic losses
 
-    [http://arxiv.org/abs/2308.10568](http://arxiv.org/abs/2308.10568)
+    [https://arxiv.org/abs/2302.08987](https://arxiv.org/abs/2302.08987)
 
-    我们研究了存在信用、资金和反向风险的双边现金流易损衍生品合约的估值问题，并开发了一个闭合形式的估值公式和二阶近似方法。通过使用特定的资金策略，我们得到了违约前估值的通用概率表示，并将其应用于股票远期合约的估值。
-
-    
-
-    我们研究了在存在资金、信用和反向风险的情况下，对具有双边现金流的易损衍生品进行估值的问题，并导出了一个关于平值（ATM）远期合约的闭合形式估值公式，以及一个对于一般情况的二阶近似。我们假设了一个具有异质利率和违约发生的模型，并推导出合约的违约前估值函数的Cauchy问题，其中包括任何供应方风险 - 与计算估值调整（统称XVA）不同。在一个特定的资金策略下，线性化Cauchy问题，我们得到了违约前估值的通用概率表示（定理1）。我们将这个通用框架应用于股票远期合约的估值，并建立了合约可以在特定概率测度下表示为具有适当选择的执行价和到期日的欧式期权的连续投资组合。
-
-    We study the problem of valuing a vulnerable derivative with bilateral cash flows between two counterparties in the presence of funding, credit and wrong-way risks, and derive a closed-form valuation formula for an at-the-money (ATM) forward contract as well as a second order approximation for the general case. We posit a model with heterogeneous interest rates and default occurrence and infer a Cauchy problem for the pre-default valuation function of the contract, which includes ab initio any counterparty risk - as opposed to calculating valuation adjustments collectively known as XVA. Under a specific funding policy which linearises the Cauchy problem, we obtain a generic probabilistic representation for the pre-default valuation (Theorem 1). We apply this general framework to the valuation of an equity forward and establish the contract can be expressed as a continuous portfolio of European options with suitably chosen strikes and expiries under a particular probability measure (The
-    
-[^20]: 量子蒙特卡罗模拟在金融风险分析中的应用：股权、利率和信用风险因素的情景生成
-
-    Quantum Monte Carlo simulations for financial risk analytics: scenario generation for equity, rate, and credit risk factors. (arXiv:2303.09682v1 [quant-ph])
-
-    [http://arxiv.org/abs/2303.09682](http://arxiv.org/abs/2303.09682)
-
-    本论文提出了一种用于金融风险分析的量子蒙特卡罗模拟方法，其中将情景生成纳入到量子计算中，模拟了风险因素随时间的演变，并将其馈送到QMC模拟中，实现估算金融资产组合的风险价值，相较于传统蒙特卡罗模拟提供了高达800倍的速度提升。
+    通过比较每家公司的系统重要性和二氧化碳排放量，本研究提出了一种最优的减排策略，为实现20%减排目标提供了减少就业和经济损失的解决方案。
 
     
 
-    蒙特卡罗模拟在金融风险管理中被广泛使用，例如估算风险价值和定价场外衍生品。因为需要大量的情景以实现收敛，所以蒙特卡罗模拟需要高昂的计算成本。量子蒙特卡罗算法是一种有希望的替代方案：它们提供比传统算法更快的速度。最近的研究已经探索了常见风险测度的计算以及通过将输入量子状态初始化为预先计算的概率分布来优化QMC算法。本文着重于将情景生成纳入到量子计算中，通过模拟风险因素随时间的演变进行风险情景生成的量子电路组装。具体而言，我们组装了股权（几何布朗运动）、利率（均值回归模型）和信用（结构性和缩减形式信用模型）风险因素的随机模型的量子电路。然后将这些情景馈送到QMC模拟中，以估算金融资产组合的风险价值。我们的结果表明，与传统蒙特卡罗模拟相比，量子蒙特卡罗提供了一种准确且高效的估算风险价值的方法，速度提升高达800倍。
+    急需减少碳排放可能导致严格的命令与控制脱碳策略，可能带来负面经济后果。本文分析了欧洲经济的整体企业级生产网络，探讨了如何避免这些方法的最坏结果。我们比较了每家公司的系统重要性和其年二氧化碳排放量，以确定具有最小额外失业和经济损失的最佳减排策略。我们设定了特定的减排目标，研究了各种脱碳情景并量化了它们的经济后果。我们表明，对于减排20％，最有效的策略导致约2％的就业岗位损失和2％的经济产出损失。相比之下，针对最大排放企业的朴素情景，相同目标会导致28％的失业率和33％的产出减少。这表明可以使用企业级生产方式来实现脱碳目标，而不会带来过度的经济损失和失业。
 
-    Monte Carlo (MC) simulations are widely used in financial risk management, from estimating value-at-risk (VaR) to pricing over-the-counter derivatives. However, they come at a significant computational cost due to the number of scenarios required for convergence. Quantum MC (QMC) algorithms are a promising alternative: they provide a quadratic speed-up as compared to their classical counterparts. Recent studies have explored the calculation of common risk measures and the optimisation of QMC algorithms by initialising the input quantum states with pre-computed probability distributions. In this paper, we focus on incorporating scenario generation into the quantum computation by simulating the evolution of risk factors over time. Specifically, we assemble quantum circuits that implement stochastic models for equity (geometric Brownian motion), interest rate (mean-reversion models), and credit (structural and reduced-form credit models) risk factors. We then feed these scenarios to QMC s
+    arXiv:2302.08987v2 Announce Type: replace  Abstract: Urgently needed carbon emission reductions might lead to strict command-and-control decarbonization strategies with potentially negative economic consequences. Analyzing the entire firm-level production network of a European economy, we explore how the worst outcomes of such approaches can be avoided. We compare the systemic relevance of every firm with its annual CO2 emissions to identify optimal emission-reducing strategies with a minimum of additional unemployment and economic losses. Setting specific reduction targets we study various decarbonization scenarios and quantify their economic consequences. We show that for an emission-reduction of 20% the most effective strategy leads to losses of about 2% of jobs and 2% of economic output. In contrast, a naive scenario targeting largest emitters first, results in 28% job losses and 33% output reduction for the same target. This demonstrates that it is possible to use firm-level produ
     
-[^21]: 非线性健康动态的福利效应
+[^11]: 经验金融的认识论限制：因果降解论和自我参照
 
-    The welfare effects of nonlinear health dynamics. (arXiv:2207.03816v3 [econ.GN] UPDATED)
+    Epistemic Limits of Empirical Finance: Causal Reductionism and Self-Reference. (arXiv:2311.16570v3 [q-fin.GN] UPDATED)
 
-    [http://arxiv.org/abs/2207.03816](http://arxiv.org/abs/2207.03816)
+    [http://arxiv.org/abs/2311.16570](http://arxiv.org/abs/2311.16570)
 
-    这项研究通过估计一个非参数模型，研究了非线性健康动态对经济结果的影响。结果表明，不良健康冲击对身体健康较差的人的长期经济效应更为严重，并增加了资产积累差距。
+    本研究从理论上评估了实证金融和计量经济学研究中常用的科学演绎和因果推断方法的局限性，提出了在资本市场等自我参照和开放系统中单向因果关系的观点可能存在的问题，并呼吁更全面地认识实证金融研究及其中的风险。
 
     
 
-    我们生成了一个连续的健康度量来估计健康动态的非参数模型，结果表明，当身体健康较差的人遭受不利健康冲击时，这些冲击具有很高的持续性。传统的模型无法解释这种模式。我们将这种健康动态纳入了一个生命周期模型中，该模型考虑了消费、储蓄和劳动力参与。在估计模型参数之后，我们模拟了健康冲击对经济结果的影响。我们发现，不良的健康冲击对经济有着长期的不利影响，对身体健康较差的人影响更加严重。此外，不良的健康冲击还增加了这一群体的资产积累差距。传统的健康动态模型无法揭示这些影响。
+    在资本市场等自我参照和开放系统中，对于因果降解在研究中的呼声日益高涨。然而，在这样的系统中，单向因果关系的概念在最好的情况下可能是有限制的，在最坏的情况下可能是不稳定或荒谬的。本研究中，我们批判性地评估了在实证金融和计量经济学研究中使用科学演绎和因果推断的做法。然后，我们使用从生态食饵关系中改编的玩具模型来展示竞争性因果链的观点。基于此，我们提出了另一种观点，即当我们承认我们当前的量化金融工具可能在流行假设下仅限于事后因果推断时，我们可能更好地理解实证金融研究及其中所包含的风险。当这些假设受到挑战时，例如在可识别的反身性背景下，单向因果关系的建议就显得非常棘手。
 
-    We generate a continuous measure of health to estimate a non-parametric model of health dynamics, showing that adverse health shocks are highly persistent when suffered by people in poor health. Canonical models cannot account for this pattern. We incorporate this health dynamic into a life-cycle model of consumption, savings, and labor force participation. After estimating the model parameters, we simulate the effects of health shocks on economic outcomes. We find that bad health shocks have long-term adverse economic effects that are more extreme for those in poor health. Furthermore, bad health shocks also increase the disparity of asset accumulation among this group of people. A canonical model of health dynamics would not reveal these effects.
+    The clarion call for causal reduction in the study of capital markets is intensifying. However, in self-referencing and open systems such as capital markets, the idea of unidirectional causation (if applicable) may be limiting at best, and unstable or fallacious at worst. In this research, we critically assess the use of scientific deduction and causal inference within the study of empirical finance and econometrics. We then demonstrate the idea of competing causal chains using a toy model adapted from ecological predator/prey relationships. From this, we develop the alternative view that the study of empirical finance, and the risks contained therein, may be better appreciated once we admit that our current arsenal of quantitative finance tools may be limited to ex post causal inference under popular assumptions. Where these assumptions are challenged, for example in a recognizable reflexive context, the prescription of unidirectional causation proves deeply problematic.
+    
+[^12]: 储能调频：损失与收益分析
+
+    Frequency Regulation with Storage: On Losses and Profits. (arXiv:2306.02987v1 [math.OC])
+
+    [http://arxiv.org/abs/2306.02987](http://arxiv.org/abs/2306.02987)
+
+    本文解决了储能操作员如何在提供调频同时更好地交易电力的问题。通过将储能约束在目标电量，本文提出了日前市场交易电量作为调频电量的隐含函数，量化了能源损失所需购买的电量。
+
+    
+
+    在低碳社会，为了平衡风能和太阳能等间歇性发电，需要存储大量电力，比如通过调频来实现。本文解决了储能操作员的决策问题，他们向电网操作员出售调频电力并在日前市场上交易电力。数学上，本文将未来的频偏轨迹视为反复出现的优化问题中的函数不确定性。我们约束期望的终端电量为某个目标值，以使储能操作员不仅为现在而为未来做出好的决策。由于这个约束，日前市场上交易的电力量是出售给电网操作员的调频电量的一个隐含函数。这个隐含函数量化了提供调频所导致的预期能量损失所需购买的电量。
+
+    Low-carbon societies will need to store vast amounts of electricity to balance intermittent generation from wind and solar energy, for example, through frequency regulation. Here, we derive an analytical solution to the decision-making problem of storage operators who sell frequency regulation power to grid operators and trade electricity on day-ahead markets. Mathematically, we treat future frequency deviation trajectories as functional uncertainties in a receding horizon robust optimization problem. We constrain the expected terminal state-of-charge to be equal to some target to allow storage operators to make good decisions not only for the present but also the future. Thanks to this constraint, the amount of electricity traded on day-ahead markets is an implicit function of the regulation power sold to grid operators. The implicit function quantifies the amount of power that needs to be purchased to cover the expected energy loss that results from providing frequency regulation. We
+    
+[^13]: 交叉影响何时相关？
+
+    When is cross impact relevant?. (arXiv:2305.16915v1 [q-fin.TR])
+
+    [http://arxiv.org/abs/2305.16915](http://arxiv.org/abs/2305.16915)
+
+    本文使用跨越 5 年的 500 种美国上市资产的每秒数据，发现价格形成是在高度流动性资产内自发发生的，然后这些资产的交易会影响较不流动但相关的产品价格。该多维价格形成机制对利率市场有影响，且挑战了财务经济学理论。
+
+    
+
+    一种资产的交易压力可能会影响另一种资产的价格，这种现象被称为交叉影响。本文使用跨越 5 年的 500 种美国上市资产的每秒数据，识别了使交叉影响相关的特征以解释价格回报方差。研究发现，价格形成是在高度流动性资产内自发发生的，然后这些资产的交易会影响较不流动但相关的产品价格，其影响速度受最低交易频率的限制。本文还探究了这种多维价格形成机制对利率市场的影响，发现 10 年期国债期货是主要的流动性储备，影响着利率曲线内现钞债券和期货合约的价格。这种行为挑战了财务经济学理论，该理论认为长期利率是代理人对未来短期利率的预期。
+
+    Trading pressure from one asset can move the price of another, a phenomenon referred to as cross impact. Using tick-by-tick data spanning 5 years for 500 assets listed in the United States, we identify the features that make cross-impact relevant to explain the variance of price returns. We show that price formation occurs endogenously within highly liquid assets. Then, trades in these assets influence the prices of less liquid correlated products, with an impact velocity constrained by their minimum trading frequency. We investigate the implications of such a multidimensional price formation mechanism on interest rate markets. We find that the 10-year bond future serves as the primary liquidity reservoir, influencing the prices of cash bonds and futures contracts within the interest rate curve. Such behaviour challenges the validity of the theory in Financial Economics that regards long-term rates as agents anticipations of future short term rates.
+    
+[^14]: 动态风险度量的风险分配策略
+
+    Risk Budgeting Allocation for Dynamic Risk Measures. (arXiv:2305.11319v1 [q-fin.MF])
+
+    [http://arxiv.org/abs/2305.11319](http://arxiv.org/abs/2305.11319)
+
+    该论文提出了一种基于动态风险度量的风险分配策略，引入了动态风险贡献的概念进行递归计算，证明了该问题可以被重新表述为一系列严格凸的优化问题，并开发了一种演员-评论家方法解决问题。
+
+    
+
+    我们提出了一种风险分配策略，即风险多元化组合策略，在该策略中，使用动态时一致的风险度量来衡量风险。为此，我们引入了一种动态风险贡献的概念，它推广了经典的欧拉贡献，并允许我们以递归方式获得动态风险贡献。我们证明了，对于动态相干畸变风险度量的类别，风险分配问题可以被重新表述为一系列严格凸的优化问题。此外，我们还展示了任何自我融资的动态风险预算策略，其初始财富为1，都是一系列凸优化问题唯一解的缩放版本。此外，我们还开发了一种演员-评论家方法，利用动态风险度量的可激发性，使用深度学习来解决风险预算策略问题。
+
+    We define and develop an approach for risk budgeting allocation -- a risk diversification portfolio strategy -- where risk is measured using a dynamic time-consistent risk measure. For this, we introduce a notion of dynamic risk contributions that generalise the classical Euler contributions and which allow us to obtain dynamic risk contributions in a recursive manner. We prove that, for the class of dynamic coherent distortion risk measures, the risk allocation problem may be recast as a sequence of strictly convex optimisation problems. Moreover, we show that any self-financing dynamic risk budgeting strategy with initial wealth of $1$ is a scaled version of the unique solution of the sequence of convex optimisation problems. Furthermore, we develop an actor-critic approach, leveraging the elicitability of dynamic risk measures, to solve for risk budgeting strategy using deep learning.
     
 

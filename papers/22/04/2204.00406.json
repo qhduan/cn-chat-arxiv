@@ -1,0 +1,11 @@
+{
+    "title": "A Semismooth Newton Stochastic Proximal Point Algorithm with Variance Reduction",
+    "abstract": "arXiv:2204.00406v3 Announce Type: replace-cross  Abstract: We develop an implementable stochastic proximal point (SPP) method for a class of weakly convex, composite optimization problems. The proposed stochastic proximal point algorithm incorporates a variance reduction mechanism and the resulting SPP updates are solved using an inexact semismooth Newton framework. We establish detailed convergence results that take the inexactness of the SPP steps into account and that are in accordance with existing convergence guarantees of (proximal) stochastic variance-reduced gradient methods. Numerical experiments show that the proposed algorithm competes favorably with other state-of-the-art methods and achieves higher robustness with respect to the step size selection.",
+    "link": "https://arxiv.org/abs/2204.00406",
+    "context": "Title: A Semismooth Newton Stochastic Proximal Point Algorithm with Variance Reduction\nAbstract: arXiv:2204.00406v3 Announce Type: replace-cross  Abstract: We develop an implementable stochastic proximal point (SPP) method for a class of weakly convex, composite optimization problems. The proposed stochastic proximal point algorithm incorporates a variance reduction mechanism and the resulting SPP updates are solved using an inexact semismooth Newton framework. We establish detailed convergence results that take the inexactness of the SPP steps into account and that are in accordance with existing convergence guarantees of (proximal) stochastic variance-reduced gradient methods. Numerical experiments show that the proposed algorithm competes favorably with other state-of-the-art methods and achieves higher robustness with respect to the step size selection.",
+    "path": "papers/22/04/2204.00406.json",
+    "total_tokens": 746,
+    "translated_title": "具有方差减少的半光滑牛顿随机近端点算法",
+    "translated_abstract": "我们为一类弱凸性、复合优化问题开发了一个可实施的随机近端点（SPP）方法。所提出的随机近端点算法融合了方差减少机制，由于采用了不精确的半光滑牛顿框架来求解得到的SPP更新。我们建立了详细的收敛性结果，考虑了SPP步骤的不精确性，并符合（近端）随机方差减少梯度方法的现有收敛保证。数值实验表明，所提出的算法与其他最先进的方法竞争优势，并在步长选择方面具有更高的稳健性。",
+    "tldr": "提出了一种具有方差减少机制的半光滑牛顿随机近端点算法，通过在不精确的框架下解决近端点更新，实现了对弱凸性、复合优化问题的有效求解。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "An Open-source End-to-End Logic Optimization Framework for Large-scale Boolean Network with Reinforcement Learning",
+    "abstract": "arXiv:2403.17395v1 Announce Type: new  Abstract: We propose an open-source end-to-end logic optimization framework for large-scale boolean network with reinforcement learning.",
+    "link": "https://arxiv.org/abs/2403.17395",
+    "context": "Title: An Open-source End-to-End Logic Optimization Framework for Large-scale Boolean Network with Reinforcement Learning\nAbstract: arXiv:2403.17395v1 Announce Type: new  Abstract: We propose an open-source end-to-end logic optimization framework for large-scale boolean network with reinforcement learning.",
+    "path": "papers/24/03/2403.17395.json",
+    "total_tokens": 424,
+    "translated_title": "一个开源的端到端逻辑优化框架，用于具有强化学习的大规模布尔网络",
+    "translated_abstract": "我们提出了一个用于具有强化学习的大规模布尔网络的开源端到端逻辑优化框架。",
+    "tldr": "提出了一个开源的端到端逻辑优化框架，用于大规模布尔网络，并应用了强化学习。",
+    "en_tdlr": "Introduced an open-source end-to-end logic optimization framework for large-scale Boolean networks with reinforcement learning."
+}

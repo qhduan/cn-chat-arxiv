@@ -1,0 +1,12 @@
+{
+    "title": "GPT-4 Understands Discourse at Least as Well as Humans Do",
+    "abstract": "arXiv:2403.17196v1 Announce Type: new  Abstract: We test whether a leading AI system GPT-4 understands discourse as well as humans do, using a standardized test of discourse comprehension. Participants are presented with brief stories and then answer eight yes/no questions probing their comprehension of the story. The questions are formatted to assess the separate impacts of directness (stated vs. implied) and salience (main idea vs. details). GPT-4 performs slightly, but not statistically significantly, better than humans given the very high level of human performance. Both GPT-4 and humans exhibit a strong ability to make inferences about information that is not explicitly stated in a story, a critical test of understanding.",
+    "link": "https://arxiv.org/abs/2403.17196",
+    "context": "Title: GPT-4 Understands Discourse at Least as Well as Humans Do\nAbstract: arXiv:2403.17196v1 Announce Type: new  Abstract: We test whether a leading AI system GPT-4 understands discourse as well as humans do, using a standardized test of discourse comprehension. Participants are presented with brief stories and then answer eight yes/no questions probing their comprehension of the story. The questions are formatted to assess the separate impacts of directness (stated vs. implied) and salience (main idea vs. details). GPT-4 performs slightly, but not statistically significantly, better than humans given the very high level of human performance. Both GPT-4 and humans exhibit a strong ability to make inferences about information that is not explicitly stated in a story, a critical test of understanding.",
+    "path": "papers/24/03/2403.17196.json",
+    "total_tokens": 734,
+    "translated_title": "GPT-4至少能够像人类一样理解语篇",
+    "translated_abstract": "我们测试了一种领先的AI系统GPT-4是否像人类一样理解语篇，使用了一项标准化的语篇理解测试。参与者会被呈现简短的故事，然后回答八个是/否问题，探究他们对故事的理解。这些问题的格式旨在评估直接性（陈述 vs. 暗示）和显著性（主要观点 vs. 细节）的独立影响。鉴于人类表现水平非常高，GPT-4的表现略好于人类，但并无统计学显著差异。GPT-4和人类都表现出强大的能力，能够推断故事中未明确陈述的信息，这是对理解力的重要测试。",
+    "tldr": "GPT-4在标准化语篇理解测试中表现出与人类相当的能力，尤其在推断未明确陈述信息方面显示出显著实力",
+    "en_tdlr": "GPT-4 demonstrates discourse comprehension capabilities on par with humans in a standardized test, particularly excelling in making inferences about information not explicitly stated."
+}

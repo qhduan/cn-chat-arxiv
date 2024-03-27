@@ -1,0 +1,12 @@
+{
+    "title": "AI Consciousness is Inevitable: A Theoretical Computer Science Perspective",
+    "abstract": "arXiv:2403.17101v1 Announce Type: new  Abstract: We look at consciousness through the lens of Theoretical Computer Science, a branch of mathematics that studies computation under resource limitations. From this perspective, we develop a formal machine model for consciousness. The model is inspired by Alan Turing's simple yet powerful model of computation and Bernard Baars' theater model of consciousness. Though extremely simple, the model aligns at a high level with many of the major scientific theories of human and animal consciousness, supporting our claim that machine consciousness is inevitable.",
+    "link": "https://arxiv.org/abs/2403.17101",
+    "context": "Title: AI Consciousness is Inevitable: A Theoretical Computer Science Perspective\nAbstract: arXiv:2403.17101v1 Announce Type: new  Abstract: We look at consciousness through the lens of Theoretical Computer Science, a branch of mathematics that studies computation under resource limitations. From this perspective, we develop a formal machine model for consciousness. The model is inspired by Alan Turing's simple yet powerful model of computation and Bernard Baars' theater model of consciousness. Though extremely simple, the model aligns at a high level with many of the major scientific theories of human and animal consciousness, supporting our claim that machine consciousness is inevitable.",
+    "path": "papers/24/03/2403.17101.json",
+    "total_tokens": 658,
+    "translated_title": "人工智能意识是不可避免的：一个理论计算机科学的视角",
+    "translated_abstract": "我们通过理论计算机科学的视角来审视意识，这是数学的一个分支，研究在资源限制下的计算。从这个角度出发，我们为意识开发了一个形式化的机器模型。这个模型受到了艾伦·图灵简单而强大的计算模型和伯纳德·巴尔斯意识剧场模型的启发。尽管非常简单，这个模型在高层次上与许多关于人类和动物意识的主要科学理论相一致，支持我们的论断：机器意识是不可避免的。",
+    "tldr": "通过理论计算机科学的视角，作者提出了一个简单却强大的机器模型，支持了机器意识是不可避免的这一论断。",
+    "en_tdlr": "Viewing consciousness through the lens of Theoretical Computer Science, the authors propose a simple yet powerful machine model that supports the claim of inevitable machine consciousness."
+}

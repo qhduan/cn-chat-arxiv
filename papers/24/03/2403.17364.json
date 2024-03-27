@@ -1,0 +1,12 @@
+{
+    "title": "A Moreau Envelope Approach for LQR Meta-Policy Estimation",
+    "abstract": "arXiv:2403.17364v1 Announce Type: cross  Abstract: We study the problem of policy estimation for the Linear Quadratic Regulator (LQR) in discrete-time linear time-invariant uncertain dynamical systems. We propose a Moreau Envelope-based surrogate LQR cost, built from a finite set of realizations of the uncertain system, to define a meta-policy efficiently adjustable to new realizations. Moreover, we design an algorithm to find an approximate first-order stationary point of the meta-LQR cost function. Numerical results show that the proposed approach outperforms naive averaging of controllers on new realizations of the linear system. We also provide empirical evidence that our method has better sample complexity than Model-Agnostic Meta-Learning (MAML) approaches.",
+    "link": "https://arxiv.org/abs/2403.17364",
+    "context": "Title: A Moreau Envelope Approach for LQR Meta-Policy Estimation\nAbstract: arXiv:2403.17364v1 Announce Type: cross  Abstract: We study the problem of policy estimation for the Linear Quadratic Regulator (LQR) in discrete-time linear time-invariant uncertain dynamical systems. We propose a Moreau Envelope-based surrogate LQR cost, built from a finite set of realizations of the uncertain system, to define a meta-policy efficiently adjustable to new realizations. Moreover, we design an algorithm to find an approximate first-order stationary point of the meta-LQR cost function. Numerical results show that the proposed approach outperforms naive averaging of controllers on new realizations of the linear system. We also provide empirical evidence that our method has better sample complexity than Model-Agnostic Meta-Learning (MAML) approaches.",
+    "path": "papers/24/03/2403.17364.json",
+    "total_tokens": 724,
+    "translated_title": "一种适用于LQR元策略估计的Moreau包络方法",
+    "translated_abstract": "我们研究了在线性时不变离散时间不确定动态系统中的线性二次型调节器（LQR）策略估计问题。我们提出了一种基于Moreau包络的替代LQR成本，由不确定系统的有限实现构建，以定义一个对新实现有效调整的元策略。此外，我们设计了一个算法来找到元LQR成本函数的近似一阶稳定点。数值结果表明，所提出的方法在新实现的线性系统上胜过了控制器的朴素平均。我们还提供了实证证据表明，我们的方法比模型不可知元学习（MAML）方法具有更好的样本复杂性。",
+    "tldr": "提出了一种基于Moreau包络的替代LQR成本，可有效调整到新实现的元策略，并设计了找到近似一阶稳定点的算法。",
+    "en_tdlr": "Proposed a surrogate LQR cost based on Moreau Envelope for efficiently adjusting to new realizations of meta-policy, and designed an algorithm to find an approximate first-order stationary point."
+}

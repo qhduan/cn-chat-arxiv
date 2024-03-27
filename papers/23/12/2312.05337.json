@@ -1,0 +1,12 @@
+{
+    "title": "Artificial Neural Nets and the Representation of Human Concepts",
+    "abstract": "arXiv:2312.05337v2 Announce Type: replace-cross  Abstract: What do artificial neural networks (ANNs) learn? The machine learning (ML) community shares the narrative that ANNs must develop abstract human concepts to perform complex tasks. Some go even further and believe that these concepts are stored in individual units of the network. Based on current research, I systematically investigate the assumptions underlying this narrative. I conclude that ANNs are indeed capable of performing complex prediction tasks, and that they may learn human and non-human concepts to do so. However, evidence indicates that ANNs do not represent these concepts in individual units.",
+    "link": "https://arxiv.org/abs/2312.05337",
+    "context": "Title: Artificial Neural Nets and the Representation of Human Concepts\nAbstract: arXiv:2312.05337v2 Announce Type: replace-cross  Abstract: What do artificial neural networks (ANNs) learn? The machine learning (ML) community shares the narrative that ANNs must develop abstract human concepts to perform complex tasks. Some go even further and believe that these concepts are stored in individual units of the network. Based on current research, I systematically investigate the assumptions underlying this narrative. I conclude that ANNs are indeed capable of performing complex prediction tasks, and that they may learn human and non-human concepts to do so. However, evidence indicates that ANNs do not represent these concepts in individual units.",
+    "path": "papers/23/12/2312.05337.json",
+    "total_tokens": 655,
+    "translated_title": "人工神经网络与人类概念的表示",
+    "translated_abstract": "人工神经网络（ANNs）到底学习到了什么呢？机器学习（ML）社区认为，为了完成复杂任务，人工神经网络必须发展抽象的人类概念。一些人甚至认为这些概念存储在网络的单个单元中。根据当前的研究，我系统地调查了支撑这一说法的假设。我得出结论，人工神经网络的确能够执行复杂的预测任务，为此它们可能学习了人类和非人类的概念。然而，证据表明人工神经网络并没有用单个单元来表示这些概念。",
+    "tldr": "人工神经网络可以学习人类和非人类的概念，但并不是用单个单元来表示这些概念",
+    "en_tdlr": "Artificial neural networks have the capability to learn human and non-human concepts, but they do not represent these concepts in individual units."
+}

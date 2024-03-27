@@ -1,0 +1,12 @@
+{
+    "title": "Addressing Myopic Constrained POMDP Planning with Recursive Dual Ascent",
+    "abstract": "arXiv:2403.17358v1 Announce Type: new  Abstract: Lagrangian-guided Monte Carlo tree search with global dual ascent has been applied to solve large constrained partially observable Markov decision processes (CPOMDPs) online. In this work, we demonstrate that these global dual parameters can lead to myopic action selection during exploration, ultimately leading to suboptimal decision making. To address this, we introduce history-dependent dual variables that guide local action selection and are optimized with recursive dual ascent. We empirically compare the performance of our approach on a motivating toy example and two large CPOMDPs, demonstrating improved exploration, and ultimately, safer outcomes.",
+    "link": "https://arxiv.org/abs/2403.17358",
+    "context": "Title: Addressing Myopic Constrained POMDP Planning with Recursive Dual Ascent\nAbstract: arXiv:2403.17358v1 Announce Type: new  Abstract: Lagrangian-guided Monte Carlo tree search with global dual ascent has been applied to solve large constrained partially observable Markov decision processes (CPOMDPs) online. In this work, we demonstrate that these global dual parameters can lead to myopic action selection during exploration, ultimately leading to suboptimal decision making. To address this, we introduce history-dependent dual variables that guide local action selection and are optimized with recursive dual ascent. We empirically compare the performance of our approach on a motivating toy example and two large CPOMDPs, demonstrating improved exploration, and ultimately, safer outcomes.",
+    "path": "papers/24/03/2403.17358.json",
+    "total_tokens": 718,
+    "translated_title": "处理具有递归双上升的近视受限POMDP规划",
+    "translated_abstract": "Lagrangian-guided Monte Carlo tree search with global dual ascent已应用于在线解决大规模的受限部分可观察马尔可夫决策过程（CPOMDPs）。在这项工作中，我们证明这些全局双上升参数可能导致探索期间的近视行为选择，最终导致次优的决策制定。为了解决这个问题，我们引入了引导本地动作选择并通过递归双向上升进行优化的历史依赖性双变量。我们在一个激励性的玩具示例和两个大型CPOMDP上进行了实证比较，展示了改进的探索能力，最终导致更安全的结果。",
+    "tldr": "引入历史依赖性双变量，并通过递归双向上升进行优化，在大型受限部分可观察马尔可夫决策过程中改进了探索能力和结果安全性。",
+    "en_tdlr": "Introducing history-dependent dual variables optimized with recursive dual ascent improves exploration and safety outcomes in large constrained partially observable Markov decision processes."
+}

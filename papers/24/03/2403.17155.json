@@ -1,0 +1,12 @@
+{
+    "title": "Task-Agnostic Detector for Insertion-Based Backdoor Attacks",
+    "abstract": "arXiv:2403.17155v1 Announce Type: new  Abstract: Textual backdoor attacks pose significant security threats. Current detection approaches, typically relying on intermediate feature representation or reconstructing potential triggers, are task-specific and less effective beyond sentence classification, struggling with tasks like question answering and named entity recognition. We introduce TABDet (Task-Agnostic Backdoor Detector), a pioneering task-agnostic method for backdoor detection. TABDet leverages final layer logits combined with an efficient pooling technique, enabling unified logit representation across three prominent NLP tasks. TABDet can jointly learn from diverse task-specific models, demonstrating superior detection efficacy over traditional task-specific methods.",
+    "link": "https://arxiv.org/abs/2403.17155",
+    "context": "Title: Task-Agnostic Detector for Insertion-Based Backdoor Attacks\nAbstract: arXiv:2403.17155v1 Announce Type: new  Abstract: Textual backdoor attacks pose significant security threats. Current detection approaches, typically relying on intermediate feature representation or reconstructing potential triggers, are task-specific and less effective beyond sentence classification, struggling with tasks like question answering and named entity recognition. We introduce TABDet (Task-Agnostic Backdoor Detector), a pioneering task-agnostic method for backdoor detection. TABDet leverages final layer logits combined with an efficient pooling technique, enabling unified logit representation across three prominent NLP tasks. TABDet can jointly learn from diverse task-specific models, demonstrating superior detection efficacy over traditional task-specific methods.",
+    "path": "papers/24/03/2403.17155.json",
+    "total_tokens": 734,
+    "translated_title": "任务无关的插入式后门攻击检测器",
+    "translated_abstract": "文本后门攻击构成了重大安全威胁。当前的检测方法通常依赖于中间特征表示或重建潜在触发器，对句子分类之外的任务效果不佳，如在问答和命名实体识别等任务上遇到困难。我们引入了TABDet（任务无关后门检测器），这是一种用于后门检测的开创性的任务无关方法。TABDet利用最终层Logits结合高效的池化技术，实现了在三个流行的自然语言处理任务中统一的Logit表示。TABDet可以从多样的任务特定模型中共同学习，展示了对传统任务特定方法的优越检测效果。",
+    "tldr": "TABDet是一种任务无关的后门检测器，通过利用最终层logits和高效的池化技术，在多个自然语言处理任务中实现了统一的logit表示，展示了对传统任务特定方法的优越检测效果。",
+    "en_tdlr": "TABDet is a task-agnostic backdoor detector that achieves unified logit representation across multiple NLP tasks by leveraging final layer logits and an efficient pooling technique, demonstrating superior detection efficacy over traditional task-specific methods."
+}

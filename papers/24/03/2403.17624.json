@@ -1,0 +1,11 @@
+{
+    "title": "The inclusive Synthetic Control Method",
+    "abstract": "arXiv:2403.17624v1 Announce Type: new  Abstract: We introduce the inclusive synthetic control method (iSCM), a modification of synthetic control type methods that allows the inclusion of units potentially affected directly or indirectly by an intervention in the donor pool. This method is well suited for applications with either multiple treated units or in which some of the units in the donor pool might be affected by spillover effects. Our iSCM is very easy to implement using most synthetic control type estimators. As an illustrative empirical example, we re-estimate the causal effect of German reunification on GDP per capita allowing for spillover effects from West Germany to Austria.",
+    "link": "https://arxiv.org/abs/2403.17624",
+    "context": "Title: The inclusive Synthetic Control Method\nAbstract: arXiv:2403.17624v1 Announce Type: new  Abstract: We introduce the inclusive synthetic control method (iSCM), a modification of synthetic control type methods that allows the inclusion of units potentially affected directly or indirectly by an intervention in the donor pool. This method is well suited for applications with either multiple treated units or in which some of the units in the donor pool might be affected by spillover effects. Our iSCM is very easy to implement using most synthetic control type estimators. As an illustrative empirical example, we re-estimate the causal effect of German reunification on GDP per capita allowing for spillover effects from West Germany to Austria.",
+    "path": "papers/24/03/2403.17624.json",
+    "total_tokens": 715,
+    "translated_title": "包容性合成控制方法",
+    "translated_abstract": "我们介绍了包容性合成控制方法（iSCM），这是合成控制方法的一种改进，允许将直接或间接受干预的单元包含在捐赠者组中。这种方法非常适用于具有多个处理单元或在捐赠者池中的一些单位可能受到溢出效应影响的应用。我们的iSCM非常容易使用，可以使用大多数合成控制估计方法实现。作为一个说明性实证示例，我们重新估计了德国统一对人均GDP的因果效应，并考虑了从西德到奥地利的溢出效应。",
+    "tldr": "这种方法是合成控制方法的改进版本，允许在捐赠者组中包含直接或间接受干预的单位，特别适用于具有多个处理单元或捐赠者池中部分单位可能受到溢出效应影响的应用。"
+}

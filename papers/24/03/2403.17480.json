@@ -1,0 +1,12 @@
+{
+    "title": "Capacity Provisioning Motivated Online Non-Convex Optimization Problem with Memory and Switching Cost",
+    "abstract": "arXiv:2403.17480v1 Announce Type: cross  Abstract: An online non-convex optimization problem is considered where the goal is to minimize the flow time (total delay) of a set of jobs by modulating the number of active servers, but with a switching cost associated with changing the number of active servers over time. Each job can be processed by at most one fixed speed server at any time. Compared to the usual online convex optimization (OCO) problem with switching cost, the objective function considered is non-convex and more importantly, at each time, it depends on all past decisions and not just the present one. Both worst-case and stochastic inputs are considered; for both cases, competitive algorithms are derived.",
+    "link": "https://arxiv.org/abs/2403.17480",
+    "context": "Title: Capacity Provisioning Motivated Online Non-Convex Optimization Problem with Memory and Switching Cost\nAbstract: arXiv:2403.17480v1 Announce Type: cross  Abstract: An online non-convex optimization problem is considered where the goal is to minimize the flow time (total delay) of a set of jobs by modulating the number of active servers, but with a switching cost associated with changing the number of active servers over time. Each job can be processed by at most one fixed speed server at any time. Compared to the usual online convex optimization (OCO) problem with switching cost, the objective function considered is non-convex and more importantly, at each time, it depends on all past decisions and not just the present one. Both worst-case and stochastic inputs are considered; for both cases, competitive algorithms are derived.",
+    "path": "papers/24/03/2403.17480.json",
+    "total_tokens": 724,
+    "translated_title": "具有内存和切换成本的在线非凸优化问题的容量调配动机",
+    "translated_abstract": "考虑了一种在线非凸优化问题，其目标是通过调节活动服务器的数量来最小化一组作业的流量时间（总延迟），但在时间变化时改变活动服务器数量会产生切换成本。每个作业在任何时间内最多可以由一个固定速度的服务器处理。与通常具有切换成本的在线凸优化（OCO）问题相比，所考虑的目标函数是非凸的，并且更重要的是，在每个时间点，它取决于所有过去的决策，而不仅仅是当前的决策。考虑了最坏情况和随机输入；对于这两种情况，提出了竞争算法。",
+    "tldr": "该论文考虑了一种在线非凸优化问题，目标是通过调节活动服务器数量最小化作业延迟，引入了切换成本，提出了竞争算法。",
+    "en_tdlr": "This paper addresses an online non-convex optimization problem aiming to minimize job delays by adjusting the number of active servers, introducing switching costs and deriving competitive algorithms."
+}

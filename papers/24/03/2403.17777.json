@@ -1,0 +1,12 @@
+{
+    "title": "Deconvolution from two order statistics",
+    "abstract": "arXiv:2403.17777v1 Announce Type: new  Abstract: Economic data are often contaminated by measurement errors and truncated by ranking. This paper shows that the classical measurement error model with independent and additive measurement errors is identified nonparametrically using only two order statistics of repeated measurements. The identification result confirms a hypothesis by Athey and Haile (2002) for a symmetric ascending auction model with unobserved heterogeneity. Extensions allow for heterogeneous measurement errors, broadening the applicability to additional empirical settings, including asymmetric auctions and wage offer models. We adapt an existing simulated sieve estimator and illustrate its performance in finite samples.",
+    "link": "https://arxiv.org/abs/2403.17777",
+    "context": "Title: Deconvolution from two order statistics\nAbstract: arXiv:2403.17777v1 Announce Type: new  Abstract: Economic data are often contaminated by measurement errors and truncated by ranking. This paper shows that the classical measurement error model with independent and additive measurement errors is identified nonparametrically using only two order statistics of repeated measurements. The identification result confirms a hypothesis by Athey and Haile (2002) for a symmetric ascending auction model with unobserved heterogeneity. Extensions allow for heterogeneous measurement errors, broadening the applicability to additional empirical settings, including asymmetric auctions and wage offer models. We adapt an existing simulated sieve estimator and illustrate its performance in finite samples.",
+    "path": "papers/24/03/2403.17777.json",
+    "total_tokens": 691,
+    "translated_title": "从两个序统计量还原",
+    "translated_abstract": "经济数据经常受到测量误差的污染，并受到排名的截断。本文展示了仅使用重复测量的两个序统计量，就可以非参数地确定具有独立和加法测量误差的经典测量误差模型。该识别结果证实了Athey和Haile（2002）提出的关于具有未观测异质性的对称升价拍卖模型的假设。扩展允许异质的测量误差，从而将适用性扩展到其他经验设置，包括非对称拍卖和工资报价模型。我们改编了现有的模拟筛选估计量，并展示了其在有限样本中的表现。",
+    "tldr": "本文展示了一种使用重复测量的两个序统计量非参数确定经典测量误差模型的方法，扩展了对各种实证设置的适用性。",
+    "en_tdlr": "This paper demonstrates a method to nonparametrically determine the classical measurement error model using only two order statistics of repeated measurements, expanding the applicability to various empirical settings."
+}

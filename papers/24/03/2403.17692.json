@@ -1,0 +1,11 @@
+{
+    "title": "Manifold-Guided Lyapunov Control with Diffusion Models",
+    "abstract": "arXiv:2403.17692v1 Announce Type: cross  Abstract: This paper presents a novel approach to generating stabilizing controllers for a large class of dynamical systems using diffusion models. The core objective is to develop stabilizing control functions by identifying the closest asymptotically stable vector field relative to a predetermined manifold and adjusting the control function based on this finding. To achieve this, we employ a diffusion model trained on pairs consisting of asymptotically stable vector fields and their corresponding Lyapunov functions. Our numerical results demonstrate that this pre-trained model can achieve stabilization over previously unseen systems efficiently and rapidly, showcasing the potential of our approach in fast zero-shot control and generalizability.",
+    "link": "https://arxiv.org/abs/2403.17692",
+    "context": "Title: Manifold-Guided Lyapunov Control with Diffusion Models\nAbstract: arXiv:2403.17692v1 Announce Type: cross  Abstract: This paper presents a novel approach to generating stabilizing controllers for a large class of dynamical systems using diffusion models. The core objective is to develop stabilizing control functions by identifying the closest asymptotically stable vector field relative to a predetermined manifold and adjusting the control function based on this finding. To achieve this, we employ a diffusion model trained on pairs consisting of asymptotically stable vector fields and their corresponding Lyapunov functions. Our numerical results demonstrate that this pre-trained model can achieve stabilization over previously unseen systems efficiently and rapidly, showcasing the potential of our approach in fast zero-shot control and generalizability.",
+    "path": "papers/24/03/2403.17692.json",
+    "total_tokens": 734,
+    "translated_title": "采用扩散模型的流形引导Lyapunov控制",
+    "translated_abstract": "本文提出了一种新方法，利用扩散模型为一大类动态系统生成稳定控制器。核心目标是通过识别与预定流形相对最近的渐近稳定向量场来开发稳定控制函数，并根据这一发现调整控制函数。为实现这一目标，我们采用了一个在渐近稳定向量场及其对应的Lyapunov函数之间进行训练的扩散模型。我们的数值结果表明，该预训练模型可以有效快速地实现对先前未见系统的稳定，展示了我们方法在快速零-shot控制和泛化能力方面的潜力。",
+    "tldr": "使用扩散模型进行流形引导的Lyapunov控制，通过识别最接近预定流形的渐近稳定向量场来生成稳定控制函数，展示了在快速零-shot控制和泛化能力方面的潜力。"
+}

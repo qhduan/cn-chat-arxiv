@@ -1,0 +1,11 @@
+{
+    "title": "Sanity Checks for Explanation Uncertainty",
+    "abstract": "arXiv:2403.17212v1 Announce Type: cross  Abstract: Explanations for machine learning models can be hard to interpret or be wrong. Combining an explanation method with an uncertainty estimation method produces explanation uncertainty. Evaluating explanation uncertainty is difficult. In this paper we propose sanity checks for uncertainty explanation methods, where a weight and data randomization tests are defined for explanations with uncertainty, allowing for quick tests to combinations of uncertainty and explanation methods. We experimentally show the validity and effectiveness of these tests on the CIFAR10 and California Housing datasets, noting that Ensembles seem to consistently pass both tests with Guided Backpropagation, Integrated Gradients, and LIME explanations.",
+    "link": "https://arxiv.org/abs/2403.17212",
+    "context": "Title: Sanity Checks for Explanation Uncertainty\nAbstract: arXiv:2403.17212v1 Announce Type: cross  Abstract: Explanations for machine learning models can be hard to interpret or be wrong. Combining an explanation method with an uncertainty estimation method produces explanation uncertainty. Evaluating explanation uncertainty is difficult. In this paper we propose sanity checks for uncertainty explanation methods, where a weight and data randomization tests are defined for explanations with uncertainty, allowing for quick tests to combinations of uncertainty and explanation methods. We experimentally show the validity and effectiveness of these tests on the CIFAR10 and California Housing datasets, noting that Ensembles seem to consistently pass both tests with Guided Backpropagation, Integrated Gradients, and LIME explanations.",
+    "path": "papers/24/03/2403.17212.json",
+    "total_tokens": 647,
+    "translated_title": "解释不确定性的合理性检查",
+    "translated_abstract": "机器学习模型的解释可能难以解释或出现错误。 将解释方法与不确定性估计方法相结合会产生解释不确定性。 评估解释不确定性是困难的。 本文提出了解释不确定性方法的合理性检查，其中针对带有不确定性的解释定义了权重和数据随机化测试，允许对不确定性和解释方法的组合进行快速测试。 我们在CIFAR10和加利福尼亚房屋数据集上实验证明这些测试的有效性和有效性，注意到Ensemble似乎在Guided Backpropagation，Integrated Gradients和LIME解释上一致通过了这两项测试。",
+    "tldr": "本文提出了解释不确定性方法的合理性检查，可以快速测试不确定性和解释方法的组合。"
+}

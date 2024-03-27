@@ -1,0 +1,12 @@
+{
+    "title": "The N+ Implementation Details of RLHF with PPO: A Case Study on TL;DR Summarization",
+    "abstract": "arXiv:2403.17031v1 Announce Type: new  Abstract: This work is the first to openly reproduce the Reinforcement Learning from Human Feedback (RLHF) scaling behaviors reported in OpenAI's seminal TL;DR summarization work. We create an RLHF pipeline from scratch, enumerate over 20 key implementation details, and share key insights during the reproduction. Our RLHF-trained Pythia models demonstrate significant gains in response quality that scale with model size, with our 2.8B, 6.9B models outperforming OpenAI's released 1.3B checkpoint. We publicly release the trained model checkpoints and code to facilitate further research and accelerate progress in the field (\\url{https://github.com/vwxyzjn/summarize_from_feedback_details}).",
+    "link": "https://arxiv.org/abs/2403.17031",
+    "context": "Title: The N+ Implementation Details of RLHF with PPO: A Case Study on TL;DR Summarization\nAbstract: arXiv:2403.17031v1 Announce Type: new  Abstract: This work is the first to openly reproduce the Reinforcement Learning from Human Feedback (RLHF) scaling behaviors reported in OpenAI's seminal TL;DR summarization work. We create an RLHF pipeline from scratch, enumerate over 20 key implementation details, and share key insights during the reproduction. Our RLHF-trained Pythia models demonstrate significant gains in response quality that scale with model size, with our 2.8B, 6.9B models outperforming OpenAI's released 1.3B checkpoint. We publicly release the trained model checkpoints and code to facilitate further research and accelerate progress in the field (\\url{https://github.com/vwxyzjn/summarize_from_feedback_details}).",
+    "path": "papers/24/03/2403.17031.json",
+    "total_tokens": 763,
+    "translated_title": "带有PPO的RLHF的N+实现细节：TL;DR总结案例研究",
+    "translated_abstract": "这项工作是第一个公开复制了OpenAI在TL;DR总结工作中报告的强化学习来自人类反馈（RLHF）的规模行为。我们从头开始创建了一个RLHF流水线，列举了超过20个关键的实现细节，并在复制过程中分享了关键见解。我们训练的RLHF Pythia模型表现出随着模型规模增长而增加的响应质量的显著提高，我们的28亿、69亿模型优于OpenAI发布的13亿检查点。我们公开发布训练好的模型检查点和代码，以促进进一步研究并加快该领域的进展。",
+    "tldr": "该研究复制了OpenAI在TL;DR总结中报道的RLHF强化学习规模行为，并展示出随着模型规模增大，RLHF训练的Pythia模型在响应质量上取得了显著提高。",
+    "en_tdlr": "This study replicated the RLHF reinforcement learning scaling behaviors reported in TL;DR summarization by OpenAI and demonstrated significant improvements in response quality as the model size increases."
+}

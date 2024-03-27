@@ -1,0 +1,12 @@
+{
+    "title": "Learning the Optimal Power Flow: Environment Design Matters",
+    "abstract": "arXiv:2403.17831v1 Announce Type: new  Abstract: To solve the optimal power flow (OPF) problem, reinforcement learning (RL) emerges as a promising new approach. However, the RL-OPF literature is strongly divided regarding the exact formulation of the OPF problem as an RL environment. In this work, we collect and implement diverse environment design decisions from the literature regarding training data, observation space, episode definition, and reward function choice. In an experimental analysis, we show the significant impact of these environment design options on RL-OPF training performance. Further, we derive some first recommendations regarding the choice of these design decisions. The created environment framework is fully open-source and can serve as a benchmark for future research in the RL-OPF field.",
+    "link": "https://arxiv.org/abs/2403.17831",
+    "context": "Title: Learning the Optimal Power Flow: Environment Design Matters\nAbstract: arXiv:2403.17831v1 Announce Type: new  Abstract: To solve the optimal power flow (OPF) problem, reinforcement learning (RL) emerges as a promising new approach. However, the RL-OPF literature is strongly divided regarding the exact formulation of the OPF problem as an RL environment. In this work, we collect and implement diverse environment design decisions from the literature regarding training data, observation space, episode definition, and reward function choice. In an experimental analysis, we show the significant impact of these environment design options on RL-OPF training performance. Further, we derive some first recommendations regarding the choice of these design decisions. The created environment framework is fully open-source and can serve as a benchmark for future research in the RL-OPF field.",
+    "path": "papers/24/03/2403.17831.json",
+    "total_tokens": 748,
+    "translated_title": "学习最优潮流：环境设计至关重要",
+    "translated_abstract": "为了解决最优潮流（OPF）问题，强化学习（RL）被视为一种有前途的新方法。然而，关于将OPF问题作为RL环境的确切形式，RL-OPF文献存在着很大分歧。本文收集并实现了关于训练数据、观测空间、回合定义和奖励函数选择的文献中各种不同的环境设计决策。在实验分析中，我们展示了这些环境设计选项对RL-OPF训练性能的显著影响。此外，我们提出了一些建议关于这些设计决策的选择。所创建的环境框架是完全开源的，并可以作为RL-OPF领域未来研究的基准。",
+    "tldr": "研究通过实施不同的环境设计决策对强化学习解决最优潮流问题的影响，提出了对这些设计决策的首要建议。",
+    "en_tdlr": "Investigating the impact of different environment design decisions on reinforcement learning for solving the optimal power flow problem and providing initial recommendations on these design decisions."
+}
