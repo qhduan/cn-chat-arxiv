@@ -128,28 +128,29 @@
 | [^124] | [Enhancing Zero-Shot Chain-of-Thought Reasoning in Large Language Models through Logic](https://arxiv.org/abs/2309.13339) | 提出了LoT（Logical Thoughts）提示，一个自我改进框架，利用根植于符号逻辑的原则，特别是归谬法，逐步验证和纠正大型语言模型的零射链推理过程。 |
 | [^125] | [Spanish Resource Grammar version 2023](https://arxiv.org/abs/2309.13318) | 西班牙语资源语法（SRG）的最新版本引入了Freeling形态分析器，并附带一个经过手工验证的树库，为提高语义解析器的训练质量和其他系统带来便利。 |
 | [^126] | [CrossLingR: A Comprehensive Multilingual Receipt Dataset for Cross-Language Information Extraction and Classification](https://arxiv.org/abs/2309.09800) | 本研究介绍了一个全面的多语言数据集CrossLingR，用于推动收据信息提取和物品分类的进展。我们的数据集包含了47,720个标注样本，详细记录了项目名称、相关属性和44个不同的产品类别。通过InstructLLaMA方法论，我们展示了在关键信息提取和物品分类任务中的显著效果。相关资源可在https://github.com/Update-For-Integrated-Business-AI/AMuRD上获取。 |
-| [^127] | [Efficient Document Embeddings via Self-Contrastive Bregman Divergence Learning](https://arxiv.org/abs/2305.16031) | 通过引入自对比连体网络和神经布雷格曼网络，提高了文档嵌入的质量和效率。 |
-| [^128] | [Exploring Representational Disparities Between Multilingual and Bilingual Translation Models](https://arxiv.org/abs/2305.14230) | 本文研究了多语模型和双语模型在表征中的几何差异，发现对于给定的语言对，多语模型的解码器表征在各向同性方面一贯较差，占用的维度也较少。 |
-| [^129] | [Troika: Multi-Path Cross-Modal Traction for Compositional Zero-Shot Learning](https://arxiv.org/abs/2303.15230) | 提出了一种适用于组合式零样本学习的Troika模型，通过建立三个识别分支共同对状态、对象和组合进行建模，在对齐分支特定提示表示和分解的视觉特征的同时，引入了Cross-Modal Traction模块来校准多模态表示之间的偏差。 |
-| [^130] | [Understanding Performance of Long-Document Ranking Models through Comprehensive Evaluation and Leaderboarding](https://arxiv.org/abs/2207.01262) | 在标准收集的初步实验中，我们发现长文档模型在MRR或NDCG方面性能不佳，表现低于FirstP，或平均最多超越5％。我们推测这不是因为模型无法处理长上下文，而是由于相关段落具有位置偏见，往往位于前512个文档标记之中。我们找到证据表明这种偏见至少存在于两个测试集中，这促使我们创建了一个新的收集MS MARCO FarRelevant，其中包含 |
-| [^131] | [Topic Detection and Tracking with Time-Aware Document Embeddings](https://arxiv.org/abs/2112.06166) | 设计了一种将时间和文本信息融合在新闻文档表示中的神经方法，用于事件检测。 |
-| [^132] | [Learning Transfers over Several Programming Languages.](http://arxiv.org/abs/2310.16937) | 这篇论文研究了使用跨语言迁移学习提高编程语言模型性能的问题，并进行了广泛实验验证。该研究表明，跨语言迁移学习在编程语言领域具有潜力，可以帮助低资源语言的用户受益于大规模语言模型。 |
-| [^133] | [Generative Pre-training for Speech with Flow Matching.](http://arxiv.org/abs/2310.16338) | 本文展示了一种使用流匹配的预训练生成模型，该模型可以适应不同的下游任务并获得强大的性能，通过在60k小时的未转录语音上进行预训练，该模型可以与现有的专家模型在语音增强、分离和合成方面进行匹配或超越。 |
-| [^134] | [COPF: Continual Learning Human Preference through Optimal Policy Fitting.](http://arxiv.org/abs/2310.15694) | 通过COPF方法，我们不需要重新训练预训练语言模型，而是使用最优策略拟合和函数正则化来持续学习和适应人类偏好的变化。 |
-| [^135] | [Visual Grounding Helps Learn Word Meanings in Low-Data Regimes.](http://arxiv.org/abs/2310.13257) | 在低数据环境中，使用视觉定位进行监督训练的神经语言模型可以更接近于人类的语言学习能力。 |
-| [^136] | [Large Language Model for Multi-objective Evolutionary Optimization.](http://arxiv.org/abs/2310.12541) | 本论文调查了一种利用大型语言模型（LLM）设计MOEA操作符的新方法，通过适当的提示工程，成功将通用的LLM以零-shot方式作为MOEA/D的黑盒搜索操作符，并通过从LLM行为中学习设计了一个显性的白盒操作符。 |
-| [^137] | [Detecting Sexual Content at the Sentence Level in First Millennium Latin Texts.](http://arxiv.org/abs/2309.14974) | 该研究提出使用深度学习方法在句子级别进行语义分类，以加速人文学科和语言学领域中语料库建设的过程。经过评估，该方法在检测性内容方面表现出高精度和真阳性率，并探索了不同的输入嵌入层对模型性能的影响。 |
-| [^138] | [Is It Really Useful to Jointly Parse Constituency and Dependency Trees? A Revisit.](http://arxiv.org/abs/2309.11888) | 本文重新审视了同时解析短语结构树和依存树的方法，通过采用更高效的解码算法、在训练阶段进行联合建模、提出高阶评分组件以及进行深入实验和分析等四个方面的进展，展示了该方法的潜力和价值。 |
-| [^139] | [Can Large Language Models Discern Evidence for Scientific Hypotheses? Case Studies in the Social Sciences.](http://arxiv.org/abs/2309.06578) | 本文研究了大型语言模型（LLMs）根据科学摘要文本的能力，来辨别支持或反驳特定假设的证据。通过社区驱动的注释建立了一个新的数据集，针对社会科学中的科学假设证据任务。与其他基准进行了性能比较，并为未来研究提供了机会。 |
-| [^140] | [BAN-PL: a Novel Polish Dataset of Banned Harmful and Offensive Content from Wykop.pl web service.](http://arxiv.org/abs/2308.10592) | BAN-PL是波兰语的第一个开放数据集，包含来自Wykop这个类似"波兰版Reddit"的社交网络服务的被标记为有害并删除的内容，将有助于改进自动检测互联网上的冒犯性语言的技术。 |
-| [^141] | [GPT-4 Is Too Smart To Be Safe: Stealthy Chat with LLMs via Cipher.](http://arxiv.org/abs/2308.06463) | 这项研究发现，通过使用密码进行聊天可以绕过大型语言模型（LLMs）的安全对齐技术。研究人员提出了一种名为CipherChat的框架，用于系统地检查安全对齐在非自然语言（密码）中的普适性，并通过实验评估了ChatGPT和GPT-4等最先进的LLMs对不同代表性人类密码在11个安全领域中的影响。 |
-| [^142] | [Generator-Retriever-Generator: A Novel Approach to Open-domain Question Answering.](http://arxiv.org/abs/2307.11278) | 生成器-检索器-生成器（GRG）是一种新方法，将文档检索技术与大型语言模型相结合，以生成开放域问答的准确和信息丰富的答案。 |
-| [^143] | [Othering and low prestige framing of immigrant cuisines in US restaurant reviews and large language models.](http://arxiv.org/abs/2307.07645) | 通过对2.1M英语Yelp评论的餐厅进行语言分析，研究发现移民美食更容易被构架为客观和他者化，而非西方移民美食受欢迎程度更高。 |
-| [^144] | [Unleashing Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration.](http://arxiv.org/abs/2307.05300) | 本论文提出了单人表现提示（SPP）的概念，通过与多个角色进行多轮自我协作，将单个语言模型转化为认知协同者，从而增强其在复杂任务中的问题解决能力和整体性能。 |
-| [^145] | [Advancing Topic Segmentation and Outline Generation in Chinese Texts: The Paragraph-level Topic Representation, Corpus, and Benchmark.](http://arxiv.org/abs/2305.14790) | 本文提出了一种分层的段落级中文主题结构表示，使用句子而不是关键词来表示子主题，构建了大规模、高质量的中文段落级主题结构语料库。 |
-| [^146] | [ChatGPT Needs SPADE (Sustainability, PrivAcy, Digital divide, and Ethics) Evaluation: A Review.](http://arxiv.org/abs/2305.03123) | 本文研究关注ChatGPT面临的可持续性、隐私、数字鸿沟和伦理问题，提出了SPADE评估的必要性，并给出了缓解和建议。 |
-| [^147] | [PWESuite: Phonetic Word Embeddings and Tasks They Facilitate.](http://arxiv.org/abs/2304.02541) | 本论文展示了一套语音单词嵌入及其相关任务，提高了语音信息处理的效果和可重复性。 |
-| [^148] | [Does ChatGPT resemble humans in language use?.](http://arxiv.org/abs/2303.08014) | ChatGPT在大部分语言处理实验中与人类表现相似，能够产生人类一样的语言使用特征。但在两个实验中存在偏差，说明人类和机器语言处理之间仍存在重大差异。 |
+| [^127] | [Training BERT Models to Carry Over a Coding System Developed on One Corpus to Another](https://arxiv.org/abs/2308.03742) | 通过训练BERT模型，成功地将一个在匈牙利文学期刊上开发的编码系统传递到另一个语料库，用以跟踪在1989年匈牙利政治转型时期的文学翻译感知趋势，并展示了模型能够处理标签不平衡问题。 |
+| [^128] | [Efficient Document Embeddings via Self-Contrastive Bregman Divergence Learning](https://arxiv.org/abs/2305.16031) | 通过引入自对比连体网络和神经布雷格曼网络，提高了文档嵌入的质量和效率。 |
+| [^129] | [Exploring Representational Disparities Between Multilingual and Bilingual Translation Models](https://arxiv.org/abs/2305.14230) | 本文研究了多语模型和双语模型在表征中的几何差异，发现对于给定的语言对，多语模型的解码器表征在各向同性方面一贯较差，占用的维度也较少。 |
+| [^130] | [Troika: Multi-Path Cross-Modal Traction for Compositional Zero-Shot Learning](https://arxiv.org/abs/2303.15230) | 提出了一种适用于组合式零样本学习的Troika模型，通过建立三个识别分支共同对状态、对象和组合进行建模，在对齐分支特定提示表示和分解的视觉特征的同时，引入了Cross-Modal Traction模块来校准多模态表示之间的偏差。 |
+| [^131] | [Understanding Performance of Long-Document Ranking Models through Comprehensive Evaluation and Leaderboarding](https://arxiv.org/abs/2207.01262) | 在标准收集的初步实验中，我们发现长文档模型在MRR或NDCG方面性能不佳，表现低于FirstP，或平均最多超越5％。我们推测这不是因为模型无法处理长上下文，而是由于相关段落具有位置偏见，往往位于前512个文档标记之中。我们找到证据表明这种偏见至少存在于两个测试集中，这促使我们创建了一个新的收集MS MARCO FarRelevant，其中包含 |
+| [^132] | [Topic Detection and Tracking with Time-Aware Document Embeddings](https://arxiv.org/abs/2112.06166) | 设计了一种将时间和文本信息融合在新闻文档表示中的神经方法，用于事件检测。 |
+| [^133] | [Learning Transfers over Several Programming Languages.](http://arxiv.org/abs/2310.16937) | 这篇论文研究了使用跨语言迁移学习提高编程语言模型性能的问题，并进行了广泛实验验证。该研究表明，跨语言迁移学习在编程语言领域具有潜力，可以帮助低资源语言的用户受益于大规模语言模型。 |
+| [^134] | [Generative Pre-training for Speech with Flow Matching.](http://arxiv.org/abs/2310.16338) | 本文展示了一种使用流匹配的预训练生成模型，该模型可以适应不同的下游任务并获得强大的性能，通过在60k小时的未转录语音上进行预训练，该模型可以与现有的专家模型在语音增强、分离和合成方面进行匹配或超越。 |
+| [^135] | [COPF: Continual Learning Human Preference through Optimal Policy Fitting.](http://arxiv.org/abs/2310.15694) | 通过COPF方法，我们不需要重新训练预训练语言模型，而是使用最优策略拟合和函数正则化来持续学习和适应人类偏好的变化。 |
+| [^136] | [Visual Grounding Helps Learn Word Meanings in Low-Data Regimes.](http://arxiv.org/abs/2310.13257) | 在低数据环境中，使用视觉定位进行监督训练的神经语言模型可以更接近于人类的语言学习能力。 |
+| [^137] | [Large Language Model for Multi-objective Evolutionary Optimization.](http://arxiv.org/abs/2310.12541) | 本论文调查了一种利用大型语言模型（LLM）设计MOEA操作符的新方法，通过适当的提示工程，成功将通用的LLM以零-shot方式作为MOEA/D的黑盒搜索操作符，并通过从LLM行为中学习设计了一个显性的白盒操作符。 |
+| [^138] | [Detecting Sexual Content at the Sentence Level in First Millennium Latin Texts.](http://arxiv.org/abs/2309.14974) | 该研究提出使用深度学习方法在句子级别进行语义分类，以加速人文学科和语言学领域中语料库建设的过程。经过评估，该方法在检测性内容方面表现出高精度和真阳性率，并探索了不同的输入嵌入层对模型性能的影响。 |
+| [^139] | [Is It Really Useful to Jointly Parse Constituency and Dependency Trees? A Revisit.](http://arxiv.org/abs/2309.11888) | 本文重新审视了同时解析短语结构树和依存树的方法，通过采用更高效的解码算法、在训练阶段进行联合建模、提出高阶评分组件以及进行深入实验和分析等四个方面的进展，展示了该方法的潜力和价值。 |
+| [^140] | [Can Large Language Models Discern Evidence for Scientific Hypotheses? Case Studies in the Social Sciences.](http://arxiv.org/abs/2309.06578) | 本文研究了大型语言模型（LLMs）根据科学摘要文本的能力，来辨别支持或反驳特定假设的证据。通过社区驱动的注释建立了一个新的数据集，针对社会科学中的科学假设证据任务。与其他基准进行了性能比较，并为未来研究提供了机会。 |
+| [^141] | [BAN-PL: a Novel Polish Dataset of Banned Harmful and Offensive Content from Wykop.pl web service.](http://arxiv.org/abs/2308.10592) | BAN-PL是波兰语的第一个开放数据集，包含来自Wykop这个类似"波兰版Reddit"的社交网络服务的被标记为有害并删除的内容，将有助于改进自动检测互联网上的冒犯性语言的技术。 |
+| [^142] | [GPT-4 Is Too Smart To Be Safe: Stealthy Chat with LLMs via Cipher.](http://arxiv.org/abs/2308.06463) | 这项研究发现，通过使用密码进行聊天可以绕过大型语言模型（LLMs）的安全对齐技术。研究人员提出了一种名为CipherChat的框架，用于系统地检查安全对齐在非自然语言（密码）中的普适性，并通过实验评估了ChatGPT和GPT-4等最先进的LLMs对不同代表性人类密码在11个安全领域中的影响。 |
+| [^143] | [Generator-Retriever-Generator: A Novel Approach to Open-domain Question Answering.](http://arxiv.org/abs/2307.11278) | 生成器-检索器-生成器（GRG）是一种新方法，将文档检索技术与大型语言模型相结合，以生成开放域问答的准确和信息丰富的答案。 |
+| [^144] | [Othering and low prestige framing of immigrant cuisines in US restaurant reviews and large language models.](http://arxiv.org/abs/2307.07645) | 通过对2.1M英语Yelp评论的餐厅进行语言分析，研究发现移民美食更容易被构架为客观和他者化，而非西方移民美食受欢迎程度更高。 |
+| [^145] | [Unleashing Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration.](http://arxiv.org/abs/2307.05300) | 本论文提出了单人表现提示（SPP）的概念，通过与多个角色进行多轮自我协作，将单个语言模型转化为认知协同者，从而增强其在复杂任务中的问题解决能力和整体性能。 |
+| [^146] | [Advancing Topic Segmentation and Outline Generation in Chinese Texts: The Paragraph-level Topic Representation, Corpus, and Benchmark.](http://arxiv.org/abs/2305.14790) | 本文提出了一种分层的段落级中文主题结构表示，使用句子而不是关键词来表示子主题，构建了大规模、高质量的中文段落级主题结构语料库。 |
+| [^147] | [ChatGPT Needs SPADE (Sustainability, PrivAcy, Digital divide, and Ethics) Evaluation: A Review.](http://arxiv.org/abs/2305.03123) | 本文研究关注ChatGPT面临的可持续性、隐私、数字鸿沟和伦理问题，提出了SPADE评估的必要性，并给出了缓解和建议。 |
+| [^148] | [PWESuite: Phonetic Word Embeddings and Tasks They Facilitate.](http://arxiv.org/abs/2304.02541) | 本论文展示了一套语音单词嵌入及其相关任务，提高了语音信息处理的效果和可重复性。 |
+| [^149] | [Does ChatGPT resemble humans in language use?.](http://arxiv.org/abs/2303.08014) | ChatGPT在大部分语言处理实验中与人类表现相似，能够产生人类一样的语言使用特征。但在两个实验中存在偏差，说明人类和机器语言处理之间仍存在重大差异。 |
 
 # 详细
 
@@ -1917,7 +1918,21 @@
 
     The process of key information extraction is critical for converting scanned receipts into structured, accessible documents, facilitating the efficient retrieval of vital data. This research introduces an expansive, novel multilingual dataset designed to propel advancements in the domain of receipt information extraction and item classification. Our dataset encompasses 47,720 annotated samples, detailed with item names, associated attributes such as price and brand, and organized into 44 distinct product categories. We unveil the InstructLLaMA methodology, a pioneering approach that demonstrates significant effectiveness, evidenced by an F1 score of 0.76 and an accuracy of 0.68 in tasks of key information extraction and item classification. To support further research and application development, we make available our comprehensive dataset, the InstructLLaMA model, and relevant resources at https://github.com/Update-For-Integrated-Business-AI/AMuRD.
     
-[^127]: 通过自对比布雷格曼散度学习实现高效的文档嵌入
+[^127]: 训练BERT模型将一个语料库上开发的编码系统传递到另一个语料库
+
+    Training BERT Models to Carry Over a Coding System Developed on One Corpus to Another
+
+    [https://arxiv.org/abs/2308.03742](https://arxiv.org/abs/2308.03742)
+
+    通过训练BERT模型，成功地将一个在匈牙利文学期刊上开发的编码系统传递到另一个语料库，用以跟踪在1989年匈牙利政治转型时期的文学翻译感知趋势，并展示了模型能够处理标签不平衡问题。
+
+    
+
+    这篇论文描述了我们如何训练BERT模型将一个在匈牙利文学期刊段落上开发的编码系统传递到另一个语料库。编码系统的目的是跟踪匈牙利在1989年政治转型期间对文学翻译感知的趋势。我们使用10折交叉验证来评估任务性能和注释一致性，并通过超参数调整获得最佳结果和公平比较。为了处理标签不平衡问题，我们使用适应的损失函数和指标。通过从目标领域对抽取测试集来评估领域转移的影响。我们通过模拟估计自举置信区间来建立样本大小，展示了我们的模型可以将一个注释系统传递到目标领域。
+
+    arXiv:2308.03742v2 Announce Type: replace  Abstract: This paper describes how we train BERT models to carry over a coding system developed on the paragraphs of a Hungarian literary journal to another. The aim of the coding system is to track trends in the perception of literary translation around the political transformation in 1989 in Hungary. To evaluate not only task performance but also the consistence of the annotation, moreover, to get better predictions from an ensemble, we use 10-fold crossvalidation. Extensive hyperparameter tuning is used to obtain the best possible results and fair comparisons. To handle label imbalance, we use loss functions and metrics robust to it. Evaluation of the effect of domain shift is carried out by sampling a test set from the target domain. We establish the sample size by estimating the bootstrapped confidence interval via simulations. This way, we show that our models can carry over one annotation system to the target domain. Comparisons are dra
+    
+[^128]: 通过自对比布雷格曼散度学习实现高效的文档嵌入
 
     Efficient Document Embeddings via Self-Contrastive Bregman Divergence Learning
 
@@ -1931,7 +1946,7 @@
 
     arXiv:2305.16031v2 Announce Type: replace  Abstract: Learning quality document embeddings is a fundamental problem in natural language processing (NLP), information retrieval (IR), recommendation systems, and search engines. Despite recent advances in the development of transformer-based models that produce sentence embeddings with self-contrastive learning, the encoding of long documents (Ks of words) is still challenging with respect to both efficiency and quality considerations. Therefore, we train Longfomer-based document encoders using a state-of-the-art unsupervised contrastive learning method (SimCSE). Further on, we complement the baseline method -- siamese neural network -- with additional convex neural networks based on functional Bregman divergence aiming to enhance the quality of the output document representations. We show that overall the combination of a self-contrastive siamese network and our proposed neural Bregman network outperforms the baselines in two linear class
     
-[^128]: 探索多语和双语翻译模型之间的表征差异
+[^129]: 探索多语和双语翻译模型之间的表征差异
 
     Exploring Representational Disparities Between Multilingual and Bilingual Translation Models
 
@@ -1945,7 +1960,7 @@
 
     arXiv:2305.14230v2 Announce Type: replace  Abstract: Multilingual machine translation has proven immensely useful for both parameter efficiency and overall performance across many language pairs via complete multilingual parameter sharing. However, some language pairs in multilingual models can see worse performance than in bilingual models, especially in the one-to-many translation setting. Motivated by their empirical differences, we examine the geometric differences in representations from bilingual models versus those from one-to-many multilingual models. Specifically, we compute the isotropy of these representations using intrinsic dimensionality and IsoScore, in order to measure how the representations utilize the dimensions in their underlying vector space. Using the same evaluation data in both models, we find that for a given language pair, its multilingual model decoder representations are consistently less isotropic and occupy fewer dimensions than comparable bilingual model
     
-[^129]: Troika: 多路径跨模态拖曳对于组合式零样本学习
+[^130]: Troika: 多路径跨模态拖曳对于组合式零样本学习
 
     Troika: Multi-Path Cross-Modal Traction for Compositional Zero-Shot Learning
 
@@ -1959,7 +1974,7 @@
 
     arXiv:2303.15230v2 Announce Type: replace-cross  Abstract: Recent compositional zero-shot learning (CZSL) methods adapt pre-trained vision-language models (VLMs) by constructing trainable prompts only for composed state-object pairs. Relying on learning the joint representation of seen compositions, these methods ignore the explicit modeling of the state and object, thus limiting the exploitation of pre-trained knowledge and generalization to unseen compositions. With a particular focus on the universality of the solution, in this work, we propose a novel paradigm for CZSL models that establishes three identification branches (i.e., Multi-Path) to jointly model the state, object, and composition. The presented Troika is our implementation that aligns the branch-specific prompt representations with decomposed visual features. To calibrate the bias between semantically similar multi-modal representations, we further devise a Cross-Modal Traction module into Troika that shifts the prompt 
     
-[^130]: 通过全面评估和Leaderboarding理解长文档排名模型的性能
+[^131]: 通过全面评估和Leaderboarding理解长文档排名模型的性能
 
     Understanding Performance of Long-Document Ranking Models through Comprehensive Evaluation and Leaderboarding
 
@@ -1973,7 +1988,7 @@
 
     arXiv:2207.01262v2 Announce Type: replace-cross  Abstract: We evaluated 20+ Transformer models for ranking of long documents (including recent LongP models trained with FlashAttention) and compared them with simple FirstP baselines (applying the same model to input truncated to the first 512 tokens). We used MS MARCO Documents v1 as a primary training set and evaluated models in the zero-shot scenario as well as after fine-tuning on other collections.   In our initial experiments with standard collections we found that long-document models underperformed FirstP or outperformed it by at most 5% on average in terms of MRR or NDCG. We then conjectured that this was not due to models inability to process long context but rather due to a positional bias of relevant passages, which tended to be among the first 512 document tokens. We found evidence that this bias was, indeed, present in at least two test sets, which motivated us to create a new collection MS MARCO FarRelevant where the relev
     
-[^131]: 具有时间感知文档嵌入的主题检测和跟踪
+[^132]: 具有时间感知文档嵌入的主题检测和跟踪
 
     Topic Detection and Tracking with Time-Aware Document Embeddings
 
@@ -1987,7 +2002,7 @@
 
     arXiv:2112.06166v2 Announce Type: replace  Abstract: The time at which a message is communicated is a vital piece of metadata in many real-world natural language processing tasks such as Topic Detection and Tracking (TDT). TDT systems aim to cluster a corpus of news articles by event, and in that context, stories that describe the same event are likely to have been written at around the same time. Prior work on time modeling for TDT takes this into account, but does not well capture how time interacts with the semantic nature of the event. For example, stories about a tropical storm are likely to be written within a short time interval, while stories about a movie release may appear over weeks or months. In our work, we design a neural method that fuses temporal and textual information into a single representation of news documents for event detection. We fine-tune these time-aware document embeddings with a triplet loss architecture, integrate the model into downstream TDT systems, an
     
-[^132]: 跨多种编程语言的学习转移
+[^133]: 跨多种编程语言的学习转移
 
     Learning Transfers over Several Programming Languages. (arXiv:2310.16937v1 [cs.CL])
 
@@ -2001,7 +2016,7 @@
 
     Large language models (LLMs) have recently become remarkably good at improving developer productivity for high-resource programming languages. These models use two kinds of data: large amounts of unlabeled code samples for pretraining and relatively smaller amounts of labeled code samples for fine-tuning or in-context learning. Unfortunately, many programming languages are low-resource, lacking labeled samples for most tasks and often even lacking unlabeled samples. Therefore, users of low-resource languages (e.g., legacy or new languages) miss out on the benefits of LLMs. Cross-lingual transfer learning uses data from a source language to improve model performance on a target language. It has been well-studied for natural languages, but has received little attention for programming languages. This paper reports extensive experiments on four tasks using a transformer-based LLM and 11 to 41 programming languages to explore the following questions. First, how well cross-lingual transfer 
     
-[^133]: 带有流匹配的语音生成预训练
+[^134]: 带有流匹配的语音生成预训练
 
     Generative Pre-training for Speech with Flow Matching. (arXiv:2310.16338v1 [eess.AS])
 
@@ -2015,7 +2030,7 @@
 
     Generative models have gained more and more attention in recent years for their remarkable success in tasks that required estimating and sampling data distribution to generate high-fidelity synthetic data. In speech, text-to-speech synthesis and neural vocoder are good examples where generative models have shined. While generative models have been applied to different applications in speech, there exists no general-purpose generative model that models speech directly. In this work, we take a step toward this direction by showing a single pre-trained generative model can be adapted to different downstream tasks with strong performance. Specifically, we pre-trained a generative model, named SpeechFlow, on 60k hours of untranscribed speech with Flow Matching and masked conditions. Experiment results show the pre-trained generative model can be fine-tuned with task-specific data to match or surpass existing expert models on speech enhancement, separation, and synthesis. Our work suggested 
     
-[^134]: COPF: 通过最优策略拟合实现持续学习人类偏好
+[^135]: COPF: 通过最优策略拟合实现持续学习人类偏好
 
     COPF: Continual Learning Human Preference through Optimal Policy Fitting. (arXiv:2310.15694v1 [cs.LG])
 
@@ -2029,7 +2044,7 @@
 
     The technique of Reinforcement Learning from Human Feedback (RLHF) is a commonly employed method to improve pre-trained Language Models (LM), enhancing their ability to conform to human preferences. Nevertheless, the current RLHF-based LMs necessitate full retraining each time novel queries or feedback are introduced, which becomes a challenging task because human preferences can vary between different domains or tasks. Retraining LMs poses practical difficulties in many real-world situations due to the significant time and computational resources required, along with concerns related to data privacy. To address this limitation, we propose a new method called Continual Optimal Policy Fitting (COPF), in which we estimate a series of optimal policies using the Monte Carlo method, and then continually fit the policy sequence with the function regularization. COPF involves a single learning phase and doesn't necessitate complex reinforcement learning. Importantly, it shares the capability 
     
-[^135]: 在低数据环境中，视觉定位有助于学习单词的含义
+[^136]: 在低数据环境中，视觉定位有助于学习单词的含义
 
     Visual Grounding Helps Learn Word Meanings in Low-Data Regimes. (arXiv:2310.13257v1 [cs.CL])
 
@@ -2043,7 +2058,7 @@
 
     Modern neural language models (LMs) are powerful tools for modeling human sentence production and comprehension, and their internal representations are remarkably well-aligned with representations of language in the human brain. But to achieve these results, LMs must be trained in distinctly un-human-like ways -- requiring orders of magnitude more language data than children receive during development, and without any of the accompanying grounding in perception, action, or social behavior. Do models trained more naturalistically -- with grounded supervision -- exhibit more human-like language learning? We investigate this question in the context of word learning, a key sub-task in language acquisition. We train a diverse set of LM architectures, with and without auxiliary supervision from image captioning tasks, on datasets of varying scales. We then evaluate these models on a broad set of benchmarks characterizing models' learning of syntactic categories, lexical relations, semantic f
     
-[^136]: 大型语言模型用于多目标进化优化
+[^137]: 大型语言模型用于多目标进化优化
 
     Large Language Model for Multi-objective Evolutionary Optimization. (arXiv:2310.12541v1 [cs.NE])
 
@@ -2057,7 +2072,7 @@
 
     Multiobjective evolutionary algorithms (MOEAs) are major methods for solving multiobjective optimization problems (MOPs). Many MOEAs have been proposed in the past decades, of which the operators need carefully handcrafted design with domain knowledge. Recently, some attempts have been made to replace the manually designed operators in MOEAs with learning-based operators (e.g., neural network models). However, much effort is still required for designing and training such models, and the learned operators might not generalize well to solve new problems. To tackle the above challenges, this work investigates a novel approach that leverages the powerful large language model (LLM) to design MOEA operators. With proper prompt engineering, we successfully let a general LLM serve as a black-box search operator for decomposition-based MOEA (MOEA/D) in a zero-shot manner. In addition, by learning from the LLM behavior, we further design an explicit white-box operator with randomness and propose
     
-[^137]: 在一千年前的拉丁文本中检测句子级别的性内容
+[^138]: 在一千年前的拉丁文本中检测句子级别的性内容
 
     Detecting Sexual Content at the Sentence Level in First Millennium Latin Texts. (arXiv:2309.14974v1 [cs.CL])
 
@@ -2071,7 +2086,7 @@
 
     In this study, we propose to evaluate the use of deep learning methods for semantic classification at the sentence level to accelerate the process of corpus building in the field of humanities and linguistics, a traditional and time-consuming task. We introduce a novel corpus comprising around 2500 sentences spanning from 300 BCE to 900 CE including sexual semantics (medical, erotica, etc.). We evaluate various sentence classification approaches and different input embedding layers, and show that all consistently outperform simple token-based searches. We explore the integration of idiolectal and sociolectal metadata embeddings (centuries, author, type of writing), but find that it leads to overfitting. Our results demonstrate the effectiveness of this approach, achieving high precision and true positive rates (TPR) of respectively 70.60% and 86.33% using HAN. We evaluate the impact of the dataset size on the model performances (420 instead of 2013), and show that, while our models per
     
-[^138]: 同时解析短语结构树和依存树真的有用吗？重新审视
+[^139]: 同时解析短语结构树和依存树真的有用吗？重新审视
 
     Is It Really Useful to Jointly Parse Constituency and Dependency Trees? A Revisit. (arXiv:2309.11888v1 [cs.CL])
 
@@ -2085,7 +2100,7 @@
 
     This work visits the topic of jointly parsing constituency and dependency trees, i.e., to produce compatible constituency and dependency trees simultaneously for input sentences, which is attractive considering that the two types of trees are complementary in representing syntax. Compared with previous works, we make progress in four aspects: (1) adopting a much more efficient decoding algorithm, (2) exploring joint modeling at the training phase, instead of only at the inference phase, (3) proposing high-order scoring components for constituent-dependency interaction, (4) gaining more insights via in-depth experiments and analysis.
     
-[^139]: 大型语言模型能否辨别科学假设的证据？社会科学案例研究。
+[^140]: 大型语言模型能否辨别科学假设的证据？社会科学案例研究。
 
     Can Large Language Models Discern Evidence for Scientific Hypotheses? Case Studies in the Social Sciences. (arXiv:2309.06578v1 [cs.CL])
 
@@ -2099,7 +2114,7 @@
 
     Hypothesis formulation and testing are central to empirical research. A strong hypothesis is a best guess based on existing evidence and informed by a comprehensive view of relevant literature. However, with exponential increase in the number of scientific articles published annually, manual aggregation and synthesis of evidence related to a given hypothesis is a challenge. Our work explores the ability of current large language models (LLMs) to discern evidence in support or refute of specific hypotheses based on the text of scientific abstracts. We share a novel dataset for the task of scientific hypothesis evidencing using community-driven annotations of studies in the social sciences. We compare the performance of LLMs to several state-of-the-art benchmarks and highlight opportunities for future research in this area. The dataset is available at https://github.com/Sai90000/ScientificHypothesisEvidencing.git
     
-[^140]: BAN-PL: 一份来自Wykop.pl网站的禁止有害和攻击性内容的新波兰数据集
+[^141]: BAN-PL: 一份来自Wykop.pl网站的禁止有害和攻击性内容的新波兰数据集
 
     BAN-PL: a Novel Polish Dataset of Banned Harmful and Offensive Content from Wykop.pl web service. (arXiv:2308.10592v2 [cs.CL] UPDATED)
 
@@ -2113,7 +2128,7 @@
 
     Advances in automated detection of offensive language online, including hate speech and cyberbullying, require improved access to publicly available datasets comprising social media content. In this paper, we introduce BAN-PL, the first open dataset in the Polish language that encompasses texts flagged as harmful and subsequently removed by professional moderators. The dataset encompasses a total of 691,662 pieces of content from a popular social networking service, Wykop, often referred to as the "Polish Reddit", including both posts and comments, and is evenly distributed into two distinct classes: "harmful" and "neutral". We provide a comprehensive description of the data collection and preprocessing procedures, as well as highlight the linguistic specificity of the data. The BAN-PL dataset, along with advanced preprocessing scripts for, i.a., unmasking profanities, will be publicly available.
     
-[^141]: GPT-4太聪明以至于不安全：通过密码与LLMs进行隐蔽聊天
+[^142]: GPT-4太聪明以至于不安全：通过密码与LLMs进行隐蔽聊天
 
     GPT-4 Is Too Smart To Be Safe: Stealthy Chat with LLMs via Cipher. (arXiv:2308.06463v1 [cs.CL])
 
@@ -2127,7 +2142,7 @@
 
     Safety lies at the core of the development of Large Language Models (LLMs). There is ample work on aligning LLMs with human ethics and preferences, including data filtering in pretraining, supervised fine-tuning, reinforcement learning from human feedback, and red teaming, etc. In this study, we discover that chat in cipher can bypass the safety alignment techniques of LLMs, which are mainly conducted in natural languages. We propose a novel framework CipherChat to systematically examine the generalizability of safety alignment to non-natural languages -- ciphers. CipherChat enables humans to chat with LLMs through cipher prompts topped with system role descriptions and few-shot enciphered demonstrations. We use CipherChat to assess state-of-the-art LLMs, including ChatGPT and GPT-4 for different representative human ciphers across 11 safety domains in both English and Chinese. Experimental results show that certain ciphers succeed almost 100% of the time to bypass the safety alignment
     
-[^142]: 生成器-检索器-生成器：开放域问答的新方法
+[^143]: 生成器-检索器-生成器：开放域问答的新方法
 
     Generator-Retriever-Generator: A Novel Approach to Open-domain Question Answering. (arXiv:2307.11278v1 [cs.CL])
 
@@ -2141,7 +2156,7 @@
 
     Open-domain question answering (QA) tasks usually require the retrieval of relevant information from a large corpus to generate accurate answers. We propose a novel approach called Generator-Retriever-Generator (GRG) that combines document retrieval techniques with a large language model (LLM), by first prompting the model to generate contextual documents based on a given question. In parallel, a dual-encoder network retrieves documents that are relevant to the question from an external corpus. The generated and retrieved documents are then passed to the second LLM, which generates the final answer. By combining document retrieval and LLM generation, our approach addresses the challenges of open-domain QA, such as generating informative and contextually relevant answers. GRG outperforms the state-of-the-art generate-then-read and retrieve-then-read pipelines (GENREAD and RFiD) improving their performance at least by +5.2, +4.2, and +1.6 on TriviaQA, NQ, and WebQ datasets, respectively.
     
-[^143]: 美国餐厅评论和大型语言模型中的移民美食他者化和低声望构架
+[^144]: 美国餐厅评论和大型语言模型中的移民美食他者化和低声望构架
 
     Othering and low prestige framing of immigrant cuisines in US restaurant reviews and large language models. (arXiv:2307.07645v1 [cs.CL])
 
@@ -2155,7 +2170,7 @@
 
     Identifying and understanding implicit attitudes toward food can help efforts to mitigate social prejudice due to food's pervasive role as a marker of cultural and ethnic identity. Stereotypes about food are a form of microaggression that contribute to harmful public discourse that may in turn perpetuate prejudice toward ethnic groups and negatively impact economic outcomes for restaurants. Through careful linguistic analyses, we evaluate social theories about attitudes toward immigrant cuisine in a large-scale study of framing differences in 2.1M English language Yelp reviews of restaurants in 14 US states. Controlling for factors such as restaurant price and neighborhood racial diversity, we find that immigrant cuisines are more likely to be framed in objectifying and othering terms of authenticity (e.g., authentic, traditional), exoticism (e.g., exotic, different), and prototypicality (e.g., typical, usual), but that non-Western immigrant cuisines (e.g., Indian, Mexican) receive mor
     
-[^144]: 在大型语言模型中释放认知协同：通过多人格自我协作实现任务解决代理
+[^145]: 在大型语言模型中释放认知协同：通过多人格自我协作实现任务解决代理
 
     Unleashing Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration. (arXiv:2307.05300v1 [cs.AI])
 
@@ -2169,7 +2184,7 @@
 
     Human intelligence thrives on the concept of cognitive synergy, where collaboration and information integration among different cognitive processes yield superior outcomes compared to individual cognitive processes in isolation. Although Large Language Models (LLMs) have demonstrated promising performance as general task-solving agents, they still struggle with tasks that require intensive domain knowledge and complex reasoning. In this work, we propose Solo Performance Prompting (SPP), which transforms a single LLM into a cognitive synergist by engaging in multi-turn self-collaboration with multiple personas. A cognitive synergist refers to an intelligent agent that collaborates with multiple minds, combining their individual strengths and knowledge, to enhance problem-solving and overall performance in complex tasks. By dynamically identifying and simulating different personas based on task inputs, SPP unleashes the potential of cognitive synergy in LLMs. We have discovered that assi
     
-[^145]: 提升中文文本主题划分和纲要生成：段落级主题表示，语料库和基准
+[^146]: 提升中文文本主题划分和纲要生成：段落级主题表示，语料库和基准
 
     Advancing Topic Segmentation and Outline Generation in Chinese Texts: The Paragraph-level Topic Representation, Corpus, and Benchmark. (arXiv:2305.14790v1 [cs.CL])
 
@@ -2183,7 +2198,7 @@
 
     Topic segmentation and outline generation strive to divide a document into coherent topic sections and generate corresponding subheadings. Such a process unveils the discourse topic structure of a document that benefits quickly grasping and understanding the overall context of the document from a higher level. However, research and applications in this field have been restrained due to the lack of proper paragraph-level topic representations and large-scale, high-quality corpora in Chinese compared to the success achieved in English. Addressing these issues, we introduce a hierarchical paragraph-level topic structure representation with title, subheading, and paragraph that comprehensively models the document discourse topic structure. In addition, we ensure a more holistic representation of topic distribution within the document by using sentences instead of keywords to represent sub-topics. Following this representation, we construct the largest Chinese Paragraph-level Topic Structur
     
-[^146]: ChatGPT 需要进行SPADE（可持续性、隐私、数字鸿沟和伦理）评估：一项综述。
+[^147]: ChatGPT 需要进行SPADE（可持续性、隐私、数字鸿沟和伦理）评估：一项综述。
 
     ChatGPT Needs SPADE (Sustainability, PrivAcy, Digital divide, and Ethics) Evaluation: A Review. (arXiv:2305.03123v1 [cs.CY])
 
@@ -2197,7 +2212,7 @@
 
     ChatGPT is another large language model (LLM) inline but due to its performance and ability to converse effectively, it has gained a huge popularity amongst research as well as industrial community. Recently, many studies have been published to show the effectiveness, efficiency, integration, and sentiments of chatGPT and other LLMs. In contrast, this study focuses on the important aspects that are mostly overlooked, i.e. sustainability, privacy, digital divide, and ethics and suggests that not only chatGPT but every subsequent entry in the category of conversational bots should undergo Sustainability, PrivAcy, Digital divide, and Ethics (SPADE) evaluation. This paper discusses in detail about the issues and concerns raised over chatGPT in line with aforementioned characteristics. We support our hypothesis by some preliminary data collection and visualizations along with hypothesized facts. We also suggest mitigations and recommendations for each of the concerns. Furthermore, we also s
     
-[^147]: PWESuite：语音单词嵌入及其任务
+[^148]: PWESuite：语音单词嵌入及其任务
 
     PWESuite: Phonetic Word Embeddings and Tasks They Facilitate. (arXiv:2304.02541v1 [cs.CL])
 
@@ -2211,7 +2226,7 @@
 
     Word embeddings that map words into a fixed-dimensional vector space are the backbone of modern NLP. Most word embedding methods encode semantic information. However, phonetic information, which is important for some tasks, is often overlooked. In this work, we develop several novel methods which leverage articulatory features to build phonetically informed word embeddings, and present a set of phonetic word embeddings to encourage their community development, evaluation and use. While several methods for learning phonetic word embeddings already exist, there is a lack of consistency in evaluating their effectiveness. Thus, we also proposes several ways to evaluate both intrinsic aspects of phonetic word embeddings, such as word retrieval and correlation with sound similarity, and extrinsic performances, such as rhyme and cognate detection and sound analogies. We hope that our suite of tasks will promote reproducibility and provide direction for future research on phonetic word embeddi
     
-[^148]: ChatGPT是否和人类在语言使用上相似?
+[^149]: ChatGPT是否和人类在语言使用上相似?
 
     Does ChatGPT resemble humans in language use?. (arXiv:2303.08014v1 [cs.CL])
 
