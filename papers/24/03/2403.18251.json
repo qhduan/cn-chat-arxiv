@@ -1,0 +1,11 @@
+{
+    "title": "Since the Scientific Literature Is Multilingual, Our Models Should Be Too",
+    "abstract": "arXiv:2403.18251v1 Announce Type: new  Abstract: English has long been assumed the $\\textit{lingua franca}$ of scientific research, and this notion is reflected in the natural language processing (NLP) research involving scientific document representation. In this position piece, we quantitatively show that the literature is largely multilingual and argue that current models and benchmarks should reflect this linguistic diversity. We provide evidence that text-based models fail to create meaningful representations for non-English papers and highlight the negative user-facing impacts of using English-only models non-discriminately across a multilingual domain. We end with suggestions for the NLP community on how to improve performance on non-English documents.",
+    "link": "https://arxiv.org/abs/2403.18251",
+    "context": "Title: Since the Scientific Literature Is Multilingual, Our Models Should Be Too\nAbstract: arXiv:2403.18251v1 Announce Type: new  Abstract: English has long been assumed the $\\textit{lingua franca}$ of scientific research, and this notion is reflected in the natural language processing (NLP) research involving scientific document representation. In this position piece, we quantitatively show that the literature is largely multilingual and argue that current models and benchmarks should reflect this linguistic diversity. We provide evidence that text-based models fail to create meaningful representations for non-English papers and highlight the negative user-facing impacts of using English-only models non-discriminately across a multilingual domain. We end with suggestions for the NLP community on how to improve performance on non-English documents.",
+    "path": "papers/24/03/2403.18251.json",
+    "total_tokens": 721,
+    "translated_title": "由于科学文献是多语言的，我们的模型也应该如此",
+    "translated_abstract": "英语长期以来被认为是科学研究的$\\textit{lingua franca}$，这一观念在涉及科学文献表示的自然语言处理（NLP）研究中得到了体现。在这篇立场论文中，我们定量地展示文献大多是多语言的，并提出当前的模型和基准应该反映这种语言多样性。我们提供证据表明基于文本的模型无法为非英语论文创建有意义的表示，并强调跨多语言领域无差别地使用仅英语模型对用户造成的负面影响。最后，我们提出建议，希望NLP社区能够改善对非英语文档的性能。",
+    "tldr": "论文指出科学文献多语言特性，主张当前模型和基准应反映语言多样性，提出改善非英语文档性能的建议。"
+}

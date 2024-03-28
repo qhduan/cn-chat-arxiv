@@ -1,0 +1,12 @@
+{
+    "title": "Multi-Modal Contrastive Learning for Online Clinical Time-Series Applications",
+    "abstract": "arXiv:2403.18316v1 Announce Type: new  Abstract: Electronic Health Record (EHR) datasets from Intensive Care Units (ICU) contain a diverse set of data modalities. While prior works have successfully leveraged multiple modalities in supervised settings, we apply advanced self-supervised multi-modal contrastive learning techniques to ICU data, specifically focusing on clinical notes and time-series for clinically relevant online prediction tasks. We introduce a loss function Multi-Modal Neighborhood Contrastive Loss (MM-NCL), a soft neighborhood function, and showcase the excellent linear probe and zero-shot performance of our approach.",
+    "link": "https://arxiv.org/abs/2403.18316",
+    "context": "Title: Multi-Modal Contrastive Learning for Online Clinical Time-Series Applications\nAbstract: arXiv:2403.18316v1 Announce Type: new  Abstract: Electronic Health Record (EHR) datasets from Intensive Care Units (ICU) contain a diverse set of data modalities. While prior works have successfully leveraged multiple modalities in supervised settings, we apply advanced self-supervised multi-modal contrastive learning techniques to ICU data, specifically focusing on clinical notes and time-series for clinically relevant online prediction tasks. We introduce a loss function Multi-Modal Neighborhood Contrastive Loss (MM-NCL), a soft neighborhood function, and showcase the excellent linear probe and zero-shot performance of our approach.",
+    "path": "papers/24/03/2403.18316.json",
+    "total_tokens": 686,
+    "translated_title": "用于在线临床时间序列应用的多模态对比学习",
+    "translated_abstract": "电子健康记录（EHR）来自重症监护病房（ICU）的数据集包含多种数据形式。尽管先前的工作在监督设置中成功利用了多种形式，我们将先进的自监督多模态对比学习技术应用于ICU数据，特别关注临床笔记和时间序列，用于临床相关的在线预测任务。我们引入了损失函数多模态邻域对比损失（MM-NCL），一个软邻域函数，并展示了我们方法的出色线性探测和零-shot性能。",
+    "tldr": "该论文利用自监督多模态对比学习技术处理临床时间序列数据，提出了多模态邻域对比损失（MM-NCL）函数，展现出优秀的线性探测和零-shot性能。",
+    "en_tdlr": "This paper applies advanced self-supervised multi-modal contrastive learning techniques to clinical time-series data, introduces the Multi-Modal Neighborhood Contrastive Loss (MM-NCL) function, and demonstrates excellent linear probe and zero-shot performance."
+}

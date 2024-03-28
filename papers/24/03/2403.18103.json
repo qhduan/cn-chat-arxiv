@@ -1,0 +1,12 @@
+{
+    "title": "Tutorial on Diffusion Models for Imaging and Vision",
+    "abstract": "arXiv:2403.18103v1 Announce Type: new  Abstract: The astonishing growth of generative tools in recent years has empowered many exciting applications in text-to-image generation and text-to-video generation. The underlying principle behind these generative tools is the concept of diffusion, a particular sampling mechanism that has overcome some shortcomings that were deemed difficult in the previous approaches. The goal of this tutorial is to discuss the essential ideas underlying the diffusion models. The target audience of this tutorial includes undergraduate and graduate students who are interested in doing research on diffusion models or applying these models to solve other problems.",
+    "link": "https://arxiv.org/abs/2403.18103",
+    "context": "Title: Tutorial on Diffusion Models for Imaging and Vision\nAbstract: arXiv:2403.18103v1 Announce Type: new  Abstract: The astonishing growth of generative tools in recent years has empowered many exciting applications in text-to-image generation and text-to-video generation. The underlying principle behind these generative tools is the concept of diffusion, a particular sampling mechanism that has overcome some shortcomings that were deemed difficult in the previous approaches. The goal of this tutorial is to discuss the essential ideas underlying the diffusion models. The target audience of this tutorial includes undergraduate and graduate students who are interested in doing research on diffusion models or applying these models to solve other problems.",
+    "path": "papers/24/03/2403.18103.json",
+    "total_tokens": 664,
+    "translated_title": "关于图像和视觉扩散模型的教程",
+    "translated_abstract": "近年来生成工具的惊人增长使得文本到图像生成和文本到视频生成等许多令人兴奋的应用成为可能。这些生成工具背后的基本原理是扩散概念，一种特殊的采样机制，克服了以前方法中被认为困难的一些缺点。本教程的目标是讨论扩散模型的基本理念。本教程的目标受众包括对研究扩散模型或将这些模型应用于解决其他问题感兴趣的本科生和研究生。",
+    "tldr": "该教程讨论了图像和视觉领域中扩散模型的基本理念，适合对扩散模型研究或应用感兴趣的本科生和研究生。",
+    "en_tdlr": "This tutorial discusses the fundamental ideas underlying diffusion models in the field of imaging and vision, targeting undergraduate and graduate students interested in researching or applying these models."
+}

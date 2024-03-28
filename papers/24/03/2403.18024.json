@@ -1,0 +1,12 @@
+{
+    "title": "Enriching Word Usage Graphs with Cluster Definitions",
+    "abstract": "arXiv:2403.18024v1 Announce Type: new  Abstract: We present a dataset of word usage graphs (WUGs), where the existing WUGs for multiple languages are enriched with cluster labels functioning as sense definitions. They are generated from scratch by fine-tuned encoder-decoder language models. The conducted human evaluation has shown that these definitions match the existing clusters in WUGs better than the definitions chosen from WordNet by two baseline systems. At the same time, the method is straightforward to use and easy to extend to new languages. The resulting enriched datasets can be extremely helpful for moving on to explainable semantic change modeling.",
+    "link": "https://arxiv.org/abs/2403.18024",
+    "context": "Title: Enriching Word Usage Graphs with Cluster Definitions\nAbstract: arXiv:2403.18024v1 Announce Type: new  Abstract: We present a dataset of word usage graphs (WUGs), where the existing WUGs for multiple languages are enriched with cluster labels functioning as sense definitions. They are generated from scratch by fine-tuned encoder-decoder language models. The conducted human evaluation has shown that these definitions match the existing clusters in WUGs better than the definitions chosen from WordNet by two baseline systems. At the same time, the method is straightforward to use and easy to extend to new languages. The resulting enriched datasets can be extremely helpful for moving on to explainable semantic change modeling.",
+    "path": "papers/24/03/2403.18024.json",
+    "total_tokens": 679,
+    "translated_title": "用聚类定义丰富词语使用图谱",
+    "translated_abstract": "我们提出了一个词语使用图谱（WUGs）数据集，其中现有的多种语言的WUGs加入了作为意义定义的聚类标签。这些标签是通过经过微调的编码器-解码器语言模型从头开始生成的。进行的人类评估表明，这些定义与现有的WUGs中的簇更匹配，比起两个基线系统从WordNet中选择的定义。与此同时，这种方法易于使用且易于扩展到新的语言。产生的丰富数据集对于进行可解释的语义变化建模非常有帮助。",
+    "tldr": "通过聚类定义，将现有多种语言的词语使用图谱WUGs进行丰富，人类评估表明这些定义更好地匹配WUGs中的簇，对于可解释的语义变化建模非常有帮助。",
+    "en_tdlr": "Enriching word usage graphs (WUGs) with cluster labels as sense definitions improves matching with existing clusters compared to WordNet definitions, facilitating explainable semantic change modeling."
+}

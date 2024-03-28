@@ -1,0 +1,12 @@
+{
+    "title": "InceptionTime vs. Wavelet -- A comparison for time series classification",
+    "abstract": "arXiv:2403.18687v1 Announce Type: new  Abstract: Neural networks were used to classify infrasound data. Two different approaches were compared. One based on the direct classification of time series data, using a custom implementation of the InceptionTime network. For the other approach, we generated 2D images of the wavelet transformation of the signals, which were subsequently classified using a ResNet implementation. Choosing appropriate hyperparameter settings, both achieve a classification accuracy of above 90 %, with the direct approach reaching 95.2 %.",
+    "link": "https://arxiv.org/abs/2403.18687",
+    "context": "Title: InceptionTime vs. Wavelet -- A comparison for time series classification\nAbstract: arXiv:2403.18687v1 Announce Type: new  Abstract: Neural networks were used to classify infrasound data. Two different approaches were compared. One based on the direct classification of time series data, using a custom implementation of the InceptionTime network. For the other approach, we generated 2D images of the wavelet transformation of the signals, which were subsequently classified using a ResNet implementation. Choosing appropriate hyperparameter settings, both achieve a classification accuracy of above 90 %, with the direct approach reaching 95.2 %.",
+    "path": "papers/24/03/2403.18687.json",
+    "total_tokens": 608,
+    "translated_title": "InceptionTime与小波--时间序列分类的比较",
+    "translated_abstract": "本文使用神经网络对次声数据进行分类，比较了两种不同的方法。一种是基于直接对时间序列数据进行分类，使用了InceptionTime网络的自定义实现。另一种方法是生成信号的小波变换的2D图像，然后使用ResNet实现进行分类。通过选择适当的超参数设置，两种方法的分类准确率均在90%以上，其中直接方法达到了95.2%。",
+    "tldr": "比较了在时间序列分类中使用InceptionTime直接分类和使用小波变换图像再分类的两种方法，均获得90%以上的分类准确率，其中直接分类方法达到了95.2%。",
+    "en_tdlr": "Compared two methods for time series classification, one using InceptionTime for direct classification and the other using wavelet transformation images for classification, both achieving classification accuracy above 90%, with the direct method reaching 95.2%."
+}

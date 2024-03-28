@@ -1,0 +1,12 @@
+{
+    "title": "Neural Architecture Search for Sentence Classification with BERT",
+    "abstract": "arXiv:2403.18547v1 Announce Type: new  Abstract: Pre training of language models on large text corpora is common practice in Natural Language Processing. Following, fine tuning of these models is performed to achieve the best results on a variety of tasks. In this paper we question the common practice of only adding a single output layer as a classification head on top of the network. We perform an AutoML search to find architectures that outperform the current single layer at only a small compute cost. We validate our classification architecture on a variety of NLP benchmarks from the GLUE dataset.",
+    "link": "https://arxiv.org/abs/2403.18547",
+    "context": "Title: Neural Architecture Search for Sentence Classification with BERT\nAbstract: arXiv:2403.18547v1 Announce Type: new  Abstract: Pre training of language models on large text corpora is common practice in Natural Language Processing. Following, fine tuning of these models is performed to achieve the best results on a variety of tasks. In this paper we question the common practice of only adding a single output layer as a classification head on top of the network. We perform an AutoML search to find architectures that outperform the current single layer at only a small compute cost. We validate our classification architecture on a variety of NLP benchmarks from the GLUE dataset.",
+    "path": "papers/24/03/2403.18547.json",
+    "total_tokens": 665,
+    "translated_title": "使用BERT进行句子分类的神经架构搜索",
+    "translated_abstract": "在自然语言处理中，对大型文本语料库进行语言模型的预训练是常见做法，随后对这些模型进行微调以在各种任务上取得最佳结果。本文质疑仅在网络顶部添加单个输出层作为分类头的常规做法。我们进行自动机器学习搜索，找到一些在较小计算成本下胜过当前单层的架构。我们在GLUE数据集的各种自然语言处理基准上验证了我们的分类架构。",
+    "tldr": "本文质疑了仅在BERT网络顶部添加单个输出层作为分类头的常规做法，通过进行AutoML搜索找到了在较小计算成本下优于当前单层的架构，并在GLUE数据集上进行了验证。",
+    "en_tdlr": "This paper questions the common practice of only adding a single output layer as a classification head on top of BERT network, finds architectures that outperform the current single layer at a small compute cost through AutoML search, and validates the classification architecture on various NLP benchmarks from the GLUE dataset."
+}

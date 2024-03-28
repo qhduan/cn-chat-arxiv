@@ -1,0 +1,12 @@
+{
+    "title": "A Real-Time Rescheduling Algorithm for Multi-robot Plan Execution",
+    "abstract": "arXiv:2403.18145v1 Announce Type: new  Abstract: One area of research in multi-agent path finding is to determine how replanning can be efficiently achieved in the case of agents being delayed during execution. One option is to reschedule the passing order of agents, i.e., the sequence in which agents visit the same location. In response, we propose Switchable-Edge Search (SES), an A*-style algorithm designed to find optimal passing orders. We prove the optimality of SES and evaluate its efficiency via simulations. The best variant of SES takes less than 1 second for small- and medium-sized problems and runs up to 4 times faster than baselines for large-sized problems.",
+    "link": "https://arxiv.org/abs/2403.18145",
+    "context": "Title: A Real-Time Rescheduling Algorithm for Multi-robot Plan Execution\nAbstract: arXiv:2403.18145v1 Announce Type: new  Abstract: One area of research in multi-agent path finding is to determine how replanning can be efficiently achieved in the case of agents being delayed during execution. One option is to reschedule the passing order of agents, i.e., the sequence in which agents visit the same location. In response, we propose Switchable-Edge Search (SES), an A*-style algorithm designed to find optimal passing orders. We prove the optimality of SES and evaluate its efficiency via simulations. The best variant of SES takes less than 1 second for small- and medium-sized problems and runs up to 4 times faster than baselines for large-sized problems.",
+    "path": "papers/24/03/2403.18145.json",
+    "total_tokens": 704,
+    "translated_title": "一个用于多机器人计划执行的实时重调度算法",
+    "translated_abstract": "多智能体路径规划中的一个研究领域是确定在执行过程中智能体延迟时如何有效实现重新规划。一种选择是重新安排智能体的通过顺序，即智能体访问相同位置的顺序。作为回应，我们提出了Switchable-Edge Search（SES），这是一种设计用于找到最优通过顺序的A*风格算法。我们证明了SES的最优性，并通过模拟评估了其效率。SES的最佳变体对于小型和中等规模问题需要不到1秒钟，并且在大型问题上比基线运行快4倍。",
+    "tldr": "该研究提出了一种名为Switchable-Edge Search（SES）的A*风格算法，用于实现智能体通过顺序的重新调度，最佳变体在效率上比基线快4倍。",
+    "en_tdlr": "This study introduces an A*-style algorithm called Switchable-Edge Search (SES) for rescheduling the passing order of agents, with the best variant running up to 4 times faster than baselines in efficiency."
+}

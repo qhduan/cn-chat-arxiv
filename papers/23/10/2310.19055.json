@@ -1,0 +1,12 @@
+{
+    "title": "A Few-Shot Learning Focused Survey on Recent Named Entity Recognition and Relation Classification Methods",
+    "abstract": "arXiv:2310.19055v2 Announce Type: replace  Abstract: Named Entity Recognition (NER) and Relation Classification (RC) are important steps in extracting information from unstructured text and formatting it into a machine-readable format. We present a survey of recent deep learning models that address named entity recognition and relation classification, with focus on few-shot learning performance. Our survey is helpful for researchers in knowing the recent techniques in text mining and extracting structured information from raw text.",
+    "link": "https://arxiv.org/abs/2310.19055",
+    "context": "Title: A Few-Shot Learning Focused Survey on Recent Named Entity Recognition and Relation Classification Methods\nAbstract: arXiv:2310.19055v2 Announce Type: replace  Abstract: Named Entity Recognition (NER) and Relation Classification (RC) are important steps in extracting information from unstructured text and formatting it into a machine-readable format. We present a survey of recent deep learning models that address named entity recognition and relation classification, with focus on few-shot learning performance. Our survey is helpful for researchers in knowing the recent techniques in text mining and extracting structured information from raw text.",
+    "path": "papers/23/10/2310.19055.json",
+    "total_tokens": 587,
+    "translated_title": "最近少样本学习集中的命名实体识别和关系分类方法调研",
+    "translated_abstract": "命名实体识别（NER）和关系分类（RC）是从非结构化文本中提取信息并将其格式化为机器可读格式的重要步骤。我们介绍了最近解决命名实体识别和关系分类问题的深度学习模型的调研，重点关注少样本学习性能。我们的调研有助于研究人员了解文本挖掘和从原始文本中提取结构化信息的最新技术。",
+    "tldr": "调研了最近应用于命名实体识别和关系分类的深度学习模型中少样本学习的性能表现。",
+    "en_tdlr": "Surveyed recent deep learning models for named entity recognition and relation classification with a focus on few-shot learning performance."
+}

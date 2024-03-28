@@ -1,0 +1,12 @@
+{
+    "title": "Antitrust, Amazon, and Algorithmic Auditing",
+    "abstract": "arXiv:2403.18623v1 Announce Type: cross  Abstract: In digital markets, antitrust law and special regulations aim to ensure that markets remain competitive despite the dominating role that digital platforms play today in everyone's life. Unlike traditional markets, market participant behavior is easily observable in these markets. We present a series of empirical investigations into the extent to which Amazon engages in practices that are typically described as self-preferencing. We discuss how the computer science tools used in this paper can be used in a regulatory environment that is based on algorithmic auditing and requires regulating digital markets at scale.",
+    "link": "https://arxiv.org/abs/2403.18623",
+    "context": "Title: Antitrust, Amazon, and Algorithmic Auditing\nAbstract: arXiv:2403.18623v1 Announce Type: cross  Abstract: In digital markets, antitrust law and special regulations aim to ensure that markets remain competitive despite the dominating role that digital platforms play today in everyone's life. Unlike traditional markets, market participant behavior is easily observable in these markets. We present a series of empirical investigations into the extent to which Amazon engages in practices that are typically described as self-preferencing. We discuss how the computer science tools used in this paper can be used in a regulatory environment that is based on algorithmic auditing and requires regulating digital markets at scale.",
+    "path": "papers/24/03/2403.18623.json",
+    "total_tokens": 659,
+    "translated_title": "反垄断、亚马逊和算法审计",
+    "translated_abstract": "在数字市场中，反垄断法和特殊法规旨在确保市场保持竞争，尽管数字平台在每个人生活中扮演着主导角色。与传统市场不同，这些市场中的市场参与者行为很容易被观察到。我们展示了一系列实证调查，探讨亚马逊在多大程度上参与了通常被描述为自我偏好的做法。我们讨论了本文中使用的计算机科学工具如何在基于算法审计的监管环境中使用，并要求在规模上监管数字市场。",
+    "tldr": "本研究调查了亚马逊是否存在自我偏好的做法，讨论了如何利用计算机科学工具进行基于算法审计的监管，以规范数字市场。",
+    "en_tdlr": "The study investigates whether Amazon engages in self-preferencing practices and discusses how computer science tools can be used for algorithmic auditing to regulate digital markets."
+}

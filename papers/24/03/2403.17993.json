@@ -1,0 +1,12 @@
+{
+    "title": "Mixing Artificial and Natural Intelligence: From Statistical Mechanics to AI and Back to Turbulence",
+    "abstract": "arXiv:2403.17993v1 Announce Type: cross  Abstract: The paper reflects on the future role of AI in scientific research, with a special focus on turbulence studies, and examines the evolution of AI, particularly through Diffusion Models rooted in non-equilibrium statistical mechanics. It underscores the significant impact of AI on advancing reduced, Lagrangian models of turbulence through innovative use of deep neural networks. Additionally, the paper reviews various other AI applications in turbulence research and outlines potential challenges and opportunities in the concurrent advancement of AI and statistical hydrodynamics. This discussion sets the stage for a future where AI and turbulence research are intricately intertwined, leading to more profound insights and advancements in both fields.",
+    "link": "https://arxiv.org/abs/2403.17993",
+    "context": "Title: Mixing Artificial and Natural Intelligence: From Statistical Mechanics to AI and Back to Turbulence\nAbstract: arXiv:2403.17993v1 Announce Type: cross  Abstract: The paper reflects on the future role of AI in scientific research, with a special focus on turbulence studies, and examines the evolution of AI, particularly through Diffusion Models rooted in non-equilibrium statistical mechanics. It underscores the significant impact of AI on advancing reduced, Lagrangian models of turbulence through innovative use of deep neural networks. Additionally, the paper reviews various other AI applications in turbulence research and outlines potential challenges and opportunities in the concurrent advancement of AI and statistical hydrodynamics. This discussion sets the stage for a future where AI and turbulence research are intricately intertwined, leading to more profound insights and advancements in both fields.",
+    "path": "papers/24/03/2403.17993.json",
+    "total_tokens": 729,
+    "translated_title": "将人工智能与自然智能相融合：从统计力学到人工智能再到湍流",
+    "translated_abstract": "这篇论文反思了人工智能在科学研究中的未来角色，特别关注了湍流研究，并通过根植于非平衡统计力学的扩散模型来检验人工智能的发展，强调了人工智能通过创新性地利用深度神经网络推动减少的拉格朗日湍流模型的重要影响。此外，论文审查了湍流研究中的各种其他人工智能应用，并概述了在人工智能和统计流体力学的同时发展中的潜在挑战和机会。",
+    "tldr": "人工智能对通过创新性使用深度神经网络推动湍流减少的拉格朗日模型具有重要影响，为AI和湍流研究之间紧密交织的未来铺平道路。",
+    "en_tdlr": "The significant impact of AI on advancing reduced, Lagrangian models of turbulence through innovative use of deep neural networks paves the way for a future where AI and turbulence research are intricately intertwined."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "AcTED: Automatic Acquisition of Typical Event Duration for Semi-supervised Temporal Commonsense QA",
+    "abstract": "arXiv:2403.18504v1 Announce Type: new  Abstract: We propose a voting-driven semi-supervised approach to automatically acquire the typical duration of an event and use it as pseudo-labeled data. The human evaluation demonstrates that our pseudo labels exhibit surprisingly high accuracy and balanced coverage. In the temporal commonsense QA task, experimental results show that using only pseudo examples of 400 events, we achieve performance comparable to the existing BERT-based weakly supervised approaches that require a significant amount of training examples. When compared to the RoBERTa baselines, our best approach establishes state-of-the-art performance with a 7% improvement in Exact Match.",
+    "link": "https://arxiv.org/abs/2403.18504",
+    "context": "Title: AcTED: Automatic Acquisition of Typical Event Duration for Semi-supervised Temporal Commonsense QA\nAbstract: arXiv:2403.18504v1 Announce Type: new  Abstract: We propose a voting-driven semi-supervised approach to automatically acquire the typical duration of an event and use it as pseudo-labeled data. The human evaluation demonstrates that our pseudo labels exhibit surprisingly high accuracy and balanced coverage. In the temporal commonsense QA task, experimental results show that using only pseudo examples of 400 events, we achieve performance comparable to the existing BERT-based weakly supervised approaches that require a significant amount of training examples. When compared to the RoBERTa baselines, our best approach establishes state-of-the-art performance with a 7% improvement in Exact Match.",
+    "path": "papers/24/03/2403.18504.json",
+    "total_tokens": 698,
+    "translated_title": "AcTED：半监督时间常识问答中典型事件持续时间的自动获取",
+    "translated_abstract": "我们提出一种投票驱动的半监督方法，自动获取事件的典型持续时间，并将其用作伪标签数据。人类评估表明，我们的伪标签表现出惊人的高准确性和平衡覆盖率。在时间常识问答任务中，实验结果显示，仅使用400个事件的伪例子，我们实现了与现有基于BERT的弱监督方法相当的性能，而这些方法需要大量的训练样本。与RoBERTa基线相比，我们的最佳方法在准确匹配上实现了7％的提升，建立了最先进的性能。",
+    "tldr": "提出一种投票驱动的半监督方法，自动获取事件的典型持续时间，以此作为伪标签数据，实现了在时间常识问答任务中的最先进性能。"
+}

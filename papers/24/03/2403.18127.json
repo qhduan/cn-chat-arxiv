@@ -1,0 +1,11 @@
+{
+    "title": "A Correction of Pseudo Log-Likelihood Method",
+    "abstract": "arXiv:2403.18127v1 Announce Type: new  Abstract: Pseudo log-likelihood is a type of maximum likelihood estimation (MLE) method used in various fields including contextual bandits, influence maximization of social networks, and causal bandits. However, in previous literature \\citep{li2017provably, zhang2022online, xiong2022combinatorial, feng2023combinatorial1, feng2023combinatorial2}, the log-likelihood function may not be bounded, which may result in the algorithm they proposed not well-defined. In this paper, we give a counterexample that the maximum pseudo log-likelihood estimation fails and then provide a solution to correct the algorithms in \\citep{li2017provably, zhang2022online, xiong2022combinatorial, feng2023combinatorial1, feng2023combinatorial2}.",
+    "link": "https://arxiv.org/abs/2403.18127",
+    "context": "Title: A Correction of Pseudo Log-Likelihood Method\nAbstract: arXiv:2403.18127v1 Announce Type: new  Abstract: Pseudo log-likelihood is a type of maximum likelihood estimation (MLE) method used in various fields including contextual bandits, influence maximization of social networks, and causal bandits. However, in previous literature \\citep{li2017provably, zhang2022online, xiong2022combinatorial, feng2023combinatorial1, feng2023combinatorial2}, the log-likelihood function may not be bounded, which may result in the algorithm they proposed not well-defined. In this paper, we give a counterexample that the maximum pseudo log-likelihood estimation fails and then provide a solution to correct the algorithms in \\citep{li2017provably, zhang2022online, xiong2022combinatorial, feng2023combinatorial1, feng2023combinatorial2}.",
+    "path": "papers/24/03/2403.18127.json",
+    "total_tokens": 695,
+    "translated_title": "修正伪对数似然方法",
+    "translated_abstract": "伪对数似然是一种用于各个领域的最大似然估计（MLE）方法，包括上下文乐队、社交网络的影响最大化和因果乐队。然而，在先前的文献中，对数似然函数可能没有界限，这可能导致他们提出的算法没有定义。本文给出了一个最大伪对数似然估计失败的反例，然后提供了一个解决方案来纠正\\citep{li2017provably, zhang2022online, xiong2022combinatorial, feng2023combinatorial1, feng2023combinatorial2}中的算法。",
+    "tldr": "本文纠正了伪对数似然方法的最大似然估计失败问题，并提出了一种解决方案。"
+}

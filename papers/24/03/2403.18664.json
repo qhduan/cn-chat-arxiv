@@ -1,0 +1,12 @@
+{
+    "title": "Neural Network-Based Piecewise Survival Models",
+    "abstract": "arXiv:2403.18664v1 Announce Type: cross  Abstract: In this paper, a family of neural network-based survival models is presented. The models are specified based on piecewise definitions of the hazard function and the density function on a partitioning of the time; both constant and linear piecewise definitions are presented, resulting in a family of four models. The models can be seen as an extension of the commonly used discrete-time and piecewise exponential models and thereby add flexibility to this set of standard models. Using a simulated dataset the models are shown to perform well compared to the highly expressive, state-of-the-art energy-based model, while only requiring a fraction of the computation time.",
+    "link": "https://arxiv.org/abs/2403.18664",
+    "context": "Title: Neural Network-Based Piecewise Survival Models\nAbstract: arXiv:2403.18664v1 Announce Type: cross  Abstract: In this paper, a family of neural network-based survival models is presented. The models are specified based on piecewise definitions of the hazard function and the density function on a partitioning of the time; both constant and linear piecewise definitions are presented, resulting in a family of four models. The models can be seen as an extension of the commonly used discrete-time and piecewise exponential models and thereby add flexibility to this set of standard models. Using a simulated dataset the models are shown to perform well compared to the highly expressive, state-of-the-art energy-based model, while only requiring a fraction of the computation time.",
+    "path": "papers/24/03/2403.18664.json",
+    "total_tokens": 655,
+    "translated_title": "基于神经网络的分段生存模型",
+    "translated_abstract": "本文提出了一类基于神经网络的生存模型。这些模型是基于对时间进行分割的风险函数和密度函数的分段定义而指定的；文中展示了常数和线性分段定义，得到了四个模型的系列。这些模型可以被看作是常用的离散时间和分段指数模型的延伸，从而为这组标准模型增加了灵活性。使用模拟数据集表明，这些模型表现良好，相较于高度表达能力的最新能量模型，仅需要一小部分计算时间。",
+    "tldr": "本文提出了一类基于神经网络的生存模型，通过分段定义风险函数和密度函数，有效扩展了标准模型并展现出较好的性能。",
+    "en_tdlr": "This paper introduces a family of neural network-based survival models specified by piecewise definitions of hazard and density functions, extending standard models with good performance."
+}

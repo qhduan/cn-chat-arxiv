@@ -1,0 +1,12 @@
+{
+    "title": "Nonlinear model reduction for operator learning",
+    "abstract": "arXiv:2403.18735v1 Announce Type: new  Abstract: Operator learning provides methods to approximate mappings between infinite-dimensional function spaces. Deep operator networks (DeepONets) are a notable architecture in this field. Recently, an extension of DeepONet based on model reduction and neural networks, proper orthogonal decomposition (POD)-DeepONet, has been able to outperform other architectures in terms of accuracy for several benchmark tests. We extend this idea towards nonlinear model order reduction by proposing an efficient framework that combines neural networks with kernel principal component analysis (KPCA) for operator learning. Our results demonstrate the superior performance of KPCA-DeepONet over POD-DeepONet.",
+    "link": "https://arxiv.org/abs/2403.18735",
+    "context": "Title: Nonlinear model reduction for operator learning\nAbstract: arXiv:2403.18735v1 Announce Type: new  Abstract: Operator learning provides methods to approximate mappings between infinite-dimensional function spaces. Deep operator networks (DeepONets) are a notable architecture in this field. Recently, an extension of DeepONet based on model reduction and neural networks, proper orthogonal decomposition (POD)-DeepONet, has been able to outperform other architectures in terms of accuracy for several benchmark tests. We extend this idea towards nonlinear model order reduction by proposing an efficient framework that combines neural networks with kernel principal component analysis (KPCA) for operator learning. Our results demonstrate the superior performance of KPCA-DeepONet over POD-DeepONet.",
+    "path": "papers/24/03/2403.18735.json",
+    "total_tokens": 703,
+    "translated_title": "面向运算学习的非线性模型简化",
+    "translated_abstract": "运算学习提供了一种逼近无限维函数空间之间映射的方法。深度运算网络(DeepONets)是该领域的一个显著架构。最近，基于模型简化和神经网络的DeepONet扩展，proper orthogonal decomposition (POD)-DeepONet，已能够在几个基准测试中的准确度方面胜过其他架构。我们将这一想法扩展到非线性模型阶降的领域，提出了一个将神经网络与核主成分分析(KPCA)结合的高效框架用于运算学习。我们的结果表明，KPCA-DeepONet在准确性方面优于POD-DeepONet。",
+    "tldr": "提出了一种结合神经网络与核主成分分析(KPCA)的高效框架用于运算学习，KPCA-DeepONet在准确性方面表现出优越性。",
+    "en_tdlr": "Proposed an efficient framework that combines neural networks with kernel principal component analysis (KPCA) for operator learning, demonstrating the superior performance of KPCA-DeepONet in terms of accuracy."
+}

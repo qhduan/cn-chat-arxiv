@@ -1,0 +1,12 @@
+{
+    "title": "Limited Attention Allocation in a Stochastic Linear Quadratic System with Multiplicative Noise",
+    "abstract": "arXiv:2403.18528v1 Announce Type: cross  Abstract: This study addresses limited attention allocation in a stochastic linear quadratic system with multiplicative noise. Our approach enables strategic resource allocation to enhance noise estimation and improve control decisions. We provide analytical optimal control and propose a numerical method for optimal attention allocation. Additionally, we apply our ffndings to dynamic mean-variance portfolio selection, showing effective resource allocation across time periods and factors, providing valuable insights for investors.",
+    "link": "https://arxiv.org/abs/2403.18528",
+    "context": "Title: Limited Attention Allocation in a Stochastic Linear Quadratic System with Multiplicative Noise\nAbstract: arXiv:2403.18528v1 Announce Type: cross  Abstract: This study addresses limited attention allocation in a stochastic linear quadratic system with multiplicative noise. Our approach enables strategic resource allocation to enhance noise estimation and improve control decisions. We provide analytical optimal control and propose a numerical method for optimal attention allocation. Additionally, we apply our ffndings to dynamic mean-variance portfolio selection, showing effective resource allocation across time periods and factors, providing valuable insights for investors.",
+    "path": "papers/24/03/2403.18528.json",
+    "total_tokens": 634,
+    "translated_title": "具有乘法噪声的随机线性二次系统中的有限注意分配",
+    "translated_abstract": "本研究探讨了具有乘法噪声的随机线性二次系统中的有限注意分配。我们的方法能够实现战略资源分配，以增强噪声估计并改善控制决策。我们提供了解析最优控制，并提出了一种用于最优注意分配的数值方法。此外，我们将我们的研究成果应用于动态均值方差组合选择，展示了跨时间段和因素的有效资源分配，为投资者提供了有价值的见解。",
+    "tldr": "本研究在具有乘法噪声的随机线性二次系统中解决了有限注意分配问题，通过战略资源分配提高噪声估计并改善控制决策。",
+    "en_tdlr": "This study addresses limited attention allocation in a stochastic linear quadratic system with multiplicative noise, enabling strategic resource allocation to enhance noise estimation and improve control decisions."
+}
