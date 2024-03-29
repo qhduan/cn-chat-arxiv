@@ -2,172 +2,187 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Optimal Rebalancing in Dynamic AMMs](https://arxiv.org/abs/2403.18737) | 该论文提出了在动态AMM中实现最优再平衡的方法，通过引入套利机会来调整持有物，采用便宜计算的近似最优方法取得了性能改进。 |
-| [^2] | [Limited Attention Allocation in a Stochastic Linear Quadratic System with Multiplicative Noise](https://arxiv.org/abs/2403.18528) | 本研究在具有乘法噪声的随机线性二次系统中解决了有限注意分配问题，通过战略资源分配提高噪声估计并改善控制决策。 |
-| [^3] | [Redirecting Flows -- Navigating the Future of the Amazon](https://arxiv.org/abs/2403.18521) | 亚马逊流域及拉丁美洲和加勒比地区正经历环境挑战与变革潜力并存的时刻，本报告旨在揭示各种社会生态问题、技术进步、社区倡议和战略行动，有助于推动区域的生物圈可持续性和韧性。 |
-| [^4] | [Growth rate of liquidity provider's wealth in G3Ms](https://arxiv.org/abs/2403.18177) | 该研究探讨了在G3M中交易费对流动性提供者盈利能力的影响以及LP面临的逆向选择，并计算了LP财富的增长率。 |
-| [^5] | [Revisiting Elastic String Models of Forward Interest Rates](https://arxiv.org/abs/2403.18126) | 该论文重新审视了正向利率的弹性字符串模型，通过解释市场力量对邻近期限利率的自我参照影响，实现了对整个FRC相关结构的准确再现，仅需两个稳定参数。 |
-| [^6] | [Deep Limit Order Book Forecasting](https://arxiv.org/abs/2403.09267) | 该研究利用深度学习方法预测纳斯达克交易所股票的限价订单簿中间价格变动，提出了一个创新的操作框架来评估预测的实用性。 |
-| [^7] | [Closed-form solutions for generic N-token AMM arbitrage](https://arxiv.org/abs/2402.06731) | 本文提出了通用N-token AMM套利的闭合形式解决方案。该解决方案在模拟中表现出比凸优化更好的套利机会，并能更快地利用这些机会。并且，所提出的方法具有并行计算能力，能够在GPU上扩展，为AMM建模提供了一种新方法。此外，该机制的低计算成本还可以实现多资产池的链上套利机器人。 |
-| [^8] | [NLP-based detection of systematic anomalies among the narratives of consumer complaints.](http://arxiv.org/abs/2308.11138) | 本文开发了一种基于自然语言处理的方法，用于检测消费者投诉叙述中的系统异常。这种方法可以解决分类算法对于较小且频繁出现的系统异常检测的问题，并将投诉叙述转化为定量数据进行分析。 |
-| [^9] | [The multidimensional COS method for option pricing.](http://arxiv.org/abs/2307.12843) | 多维COS方法是一种用于定价依赖于多个标的的金融期权的数值工具。本文证明了该方法的收敛性，并分析了数值不确定度对该方法的影响。 |
-| [^10] | [Coevolution of cognition and cooperation in structured populations under reinforcement learning.](http://arxiv.org/abs/2306.11376) | 本研究发现在囚徒困境中，确定的重复交互概率阈值将导致智能体从直觉的背叛者转变为双重过程的合作者；更小的节点度数降低了双重过程合作者的成功率。 |
-| [^11] | [Coarse Wage-Setting and Behavioral Firms.](http://arxiv.org/abs/2206.01114) | 本文研究表明公司粗略的工资设定导致工资在整数上的聚集，同时对公司的市场结果产生了负面影响。 |
+| [^1] | [Flexible Analysis of Individual Heterogeneity in Event Studies: Application to the Child Penalty](https://arxiv.org/abs/2403.19563) | 提供了一个实用工具包，用于分析事件研究中的效应异质性，强调了个体级别效应的重要性，并揭示了线性治疗效应的挑战。 |
+| [^2] | [On the potential of quantum walks for modeling financial return distributions](https://arxiv.org/abs/2403.19502) | 量子漫步算法在模拟金融市场中的资产价格演变方面展现出了巨大的灵活性，能够克服经典模型的局限性，产生复杂的市场倾向，以及更高概率的极端事件。 |
+| [^3] | [Blockchains, MEV and the knapsack problem: a primer](https://arxiv.org/abs/2403.19077) | 本文介绍了区块链中的最大可提取价值（MEV）问题，以及以太坊如何应对MEV问题。文章强调了设计背包拍卖来缓解MEV问题的重要性。 |
+| [^4] | [Towards Standardized Regulations for Block Chain Smart Contracts: Insights from Delphi and SWARA Analysis](https://arxiv.org/abs/2403.19051) | 智能合同的兴起推动了新型电子合同的发展，为遵守传统合同规则并无障碍达成提供了透明和安全的记录保存，尽管可以自动执行且公开展示，但仍需要人为干预来解决争议。 |
+| [^5] | [Long Short-Term Memory Pattern Recognition in Currency Trading](https://arxiv.org/abs/2403.18839) | 本研究通过分析金融市场的Wyckoff阶段框架，探讨了累积模式和交易范围等阶段的重要性，揭示了如何利用LSTM模型分析市场数据以预测价格走势和做出明智决策。 |
+| [^6] | [Repetitive Dilemma Games in Distribution Information Using Interplay of Droop Quota: Meek's Method in Impact of Maximum Compensation and Minimum Cost Routes in Information Role of Marginal Contribution in Two-Sided Matching Markets](https://arxiv.org/abs/2403.18837) | 通过迭代困境博弈理论和双边撮合市场视角，研究了虚假新闻传播和事实核查成本对信息市场平衡的影响，探讨了新闻提供者在选择战略时面临的挑战以及最大奖励和最小化成本路径优化的策略。 |
+| [^7] | [DeepTraderX: Challenging Conventional Trading Strategies with Deep Learning in Multi-Threaded Market Simulations](https://arxiv.org/abs/2403.18831) | DeepTraderX是一个使用深度学习的交易系统，在多线程市场模拟中表现出色，并且可以与文献中最佳策略匹敌。 |
+| [^8] | [Artificial Intelligence-based Analysis of Change in Public Finance between US and International Markets](https://arxiv.org/abs/2403.18823) | 该研究利用人工智能神经网络揭示了美国和国际公共财政之间的关联，并成功预测了国际公共财政的变化。 |
+| [^9] | [Enhancing Financial Data Visualization for Investment Decision-Making](https://arxiv.org/abs/2403.18822) | LSTM网络在金融数据预测中的应用，利用多个特征提升模型捕捉复杂模式，通过可视化关键属性揭示微妙差异，采用25天时间步长内的输入结构捕捉时间上的复杂性 |
+| [^10] | [Most claimed statistical findings in cross-sectional return predictability are likely true](https://arxiv.org/abs/2206.15365) | 该研究提出了一种计算跨断面收益可预测性出版物中虚假发现率的简单方法，并发现至少75%的发现是真实的。 |
+| [^11] | [Few-Shot Learning Patterns in Financial Time-Series for Trend-Following Strategies.](http://arxiv.org/abs/2310.10500) | 这项研究提出了一种在金融时间序列中使用少样本学习的趋势跟踪预测器，能够快速适应新的市场条件，并获得较高的夏普比率。 |
+| [^12] | [Swing Contract Pricing: A Parametric Approach with Adjoint Automatic Differentiation and Neural Networks.](http://arxiv.org/abs/2306.03822) | 本文提出了一种参数化方法来定价具有限制的摇摆合约，并尝试使用神经网络取代一些参数。数值实验表明，相比于现有方法，该方法能在短时间内提供更好的价格。 |
 
 # 详细
 
-[^1]: 动态AMM中的最优再平衡
+[^1]: 事件研究中个体异质性的灵活分析：以子女惩罚为例
 
-    Optimal Rebalancing in Dynamic AMMs
+    Flexible Analysis of Individual Heterogeneity in Event Studies: Application to the Child Penalty
 
-    [https://arxiv.org/abs/2403.18737](https://arxiv.org/abs/2403.18737)
+    [https://arxiv.org/abs/2403.19563](https://arxiv.org/abs/2403.19563)
 
-    该论文提出了在动态AMM中实现最优再平衡的方法，通过引入套利机会来调整持有物，采用便宜计算的近似最优方法取得了性能改进。
-
-    
-
-    动态AMM池，如时间函数做市所发现的那样，会将其持有物重新平衡到新的期望比例（例如，从两种资产之间的50-50移动到其中一种占优势的90-10），通过引入一个套利机会来实现，当其持有物与目标一致时，该套利机会会消失。构造这种套利机会可以简化为通过其交易函数向市场公开的投资组合权重序列的选择问题。从起始权重线性插值到结束权重已被用于降低池向套利者支付的成本以重新平衡。在这里，我们在权重变化很小的极限情况下获得了$\textit{最优}$插值（缺点是需要调用一个超越函数），然后获得了一个便宜计算的近似最优方法，几乎实现了相同的性能改进。然后我们展示了这种方法在一系列市场中的应用。
-
-    arXiv:2403.18737v1 Announce Type: new  Abstract: Dynamic AMM pools, as found in Temporal Function Market Making, rebalance their holdings to a new desired ratio (e.g. moving from being 50-50 between two assets to being 90-10 in favour of one of them) by introducing an arbitrage opportunity that disappears when their holdings are in line with their target. Structuring this arbitrage opportunity reduces to the problem of choosing the sequence of portfolio weights the pool exposes to the market via its trading function. Linear interpolation from start weights to end weights has been used to reduce the cost paid by pools to arbitrageurs to rebalance. Here we obtain the $\textit{optimal}$ interpolation in the limit of small weight changes (which has the downside of requiring a call to a transcendental function) and then obtain a cheap-to-compute approximation to that optimal approach that gives almost the same performance improvement. We then demonstrate this method on a range of market bac
-    
-[^2]: 具有乘法噪声的随机线性二次系统中的有限注意分配
-
-    Limited Attention Allocation in a Stochastic Linear Quadratic System with Multiplicative Noise
-
-    [https://arxiv.org/abs/2403.18528](https://arxiv.org/abs/2403.18528)
-
-    本研究在具有乘法噪声的随机线性二次系统中解决了有限注意分配问题，通过战略资源分配提高噪声估计并改善控制决策。
+    提供了一个实用工具包，用于分析事件研究中的效应异质性，强调了个体级别效应的重要性，并揭示了线性治疗效应的挑战。
 
     
 
-    本研究探讨了具有乘法噪声的随机线性二次系统中的有限注意分配。我们的方法能够实现战略资源分配，以增强噪声估计并改善控制决策。我们提供了解析最优控制，并提出了一种用于最优注意分配的数值方法。此外，我们将我们的研究成果应用于动态均值方差组合选择，展示了跨时间段和因素的有效资源分配，为投资者提供了有价值的见解。
+    我们提供了一个实用工具包，用于分析事件研究中的效应异质性。我们开发了一个估计算法，并调整现有的计量经济结果，提供其理论基础。我们将这些工具应用于荷兰行政数据，以三种方式研究子女惩罚（CP）背景下的个体异质性。首先，我们记录了个体级别CP轨迹的显著异质性，强调超越平均CP的重要性。其次，我们使用个体级别估计来检验托儿服务供给扩展政策的影响。我们的方法揭示了非线性治疗效应，挑战了受限于较少灵活规范的传统政策评估方法。第三，我们使用个体级别估计作为回归变量来研究母女之间CP的代际弹性。在调整测量误差偏差之后，
 
-    arXiv:2403.18528v1 Announce Type: cross  Abstract: This study addresses limited attention allocation in a stochastic linear quadratic system with multiplicative noise. Our approach enables strategic resource allocation to enhance noise estimation and improve control decisions. We provide analytical optimal control and propose a numerical method for optimal attention allocation. Additionally, we apply our ffndings to dynamic mean-variance portfolio selection, showing effective resource allocation across time periods and factors, providing valuable insights for investors.
+    arXiv:2403.19563v1 Announce Type: new  Abstract: We provide a practical toolkit for analyzing effect heterogeneity in event studies. We develop an estimation algorithm and adapt existing econometric results to provide its theoretical justification. We apply these tools to Dutch administrative data to study individual heterogeneity in the child-penalty (CP) context in three ways. First, we document significant heterogeneity in the individual-level CP trajectories, emphasizing the importance of going beyond the average CP. Second, we use individual-level estimates to examine the impact of childcare supply expansion policies. Our approach uncovers nonlinear treatment effects, challenging the conventional policy evaluation methods constrained to less flexible specifications. Third, we use the individual-level estimates as a regressor on the right-hand side to study the intergenerational elasticity of the CP between mothers and daughters. After adjusting for the measurement error bias, we f
     
-[^3]: 重定向流动--探索亚马逊未来
+[^2]: 关于量子漫步用于建模金融回报分布的潜力
 
-    Redirecting Flows -- Navigating the Future of the Amazon
+    On the potential of quantum walks for modeling financial return distributions
 
-    [https://arxiv.org/abs/2403.18521](https://arxiv.org/abs/2403.18521)
+    [https://arxiv.org/abs/2403.19502](https://arxiv.org/abs/2403.19502)
 
-    亚马逊流域及拉丁美洲和加勒比地区正经历环境挑战与变革潜力并存的时刻，本报告旨在揭示各种社会生态问题、技术进步、社区倡议和战略行动，有助于推动区域的生物圈可持续性和韧性。
-
-    
-
-    亚马逊流域及拉丁美洲和加勒比地区正处于一个关键时刻，正在应对紧迫的环境挑战，同时通过创新解决方案有巨大潜力实现变革。本报告阐明了社会生态问题、技术进步、社区主导的倡议和战略行动等多样化领域，这些可以帮助促进整个地区的生物圈可持续性和韧性。
-
-    arXiv:2403.18521v1 Announce Type: new  Abstract: The Amazon Basin, and the Latin America and Caribbean (LAC) region more broadly, stands at a critical juncture, grappling with pressing environmental challenges while holding immense potential for transformative change through innovative solutions. This report illuminates the diverse landscape of social-ecological issues, technological advancements, community-led initiatives, and strategic actions that could help foster biosphere-based sustainability and resilience across the region.
-    
-[^4]: G3M中做市商财富增长率
-
-    Growth rate of liquidity provider's wealth in G3Ms
-
-    [https://arxiv.org/abs/2403.18177](https://arxiv.org/abs/2403.18177)
-
-    该研究探讨了在G3M中交易费对流动性提供者盈利能力的影响以及LP面临的逆向选择，并计算了LP财富的增长率。
+    量子漫步算法在模拟金融市场中的资产价格演变方面展现出了巨大的灵活性，能够克服经典模型的局限性，产生复杂的市场倾向，以及更高概率的极端事件。
 
     
 
-    几何均值市场做市商（G3M），如Uniswap和Balancer，代表一类广泛使用的自动做市商（AMM）。这些G3M的特点在于：每笔交易前后，AMM的储备必须保持相同（加权）的几何均值。本文研究了交易费对G3M中流动性提供者（LP）盈利能力的影响，以及LP面临的由涉及参考市场的套利活动导致的逆向选择。我们的工作扩展了先前研究中描述的G3M模型，将交易费和连续时间套利整合到分析中。在这个背景下，我们分析了具有随机存储过程特征的G3M动态，并计算了LP财富的增长率。特别地，我们的结果与扩展了关于常数乘积市场做市商的结果相一致，通常称为Uniswap v2。
+    准确建模资产价格的时间演变对于理解金融市场至关重要。我们探讨了离散时间量子漫步在建模资产价格演变方面的潜力。从基于量子漫步算法的模型获得的回报分布与从经典方法获得的分布进行了比较。我们关注经典模型的特定局限性，并且阐明量子漫步模型具有克服这些局限性的极大灵活性。其中包括产生具有复杂市场倾向的不对称回报分布以及在某些经典模型中比极端事件具有更高概率。此外，量子漫步中的时间演变具有提供资产价格动态的潜力。
 
-    arXiv:2403.18177v1 Announce Type: new  Abstract: Geometric mean market makers (G3Ms), such as Uniswap and Balancer, represent a widely used class of automated market makers (AMMs). These G3Ms are characterized by the following rule: the reserves of the AMM must maintain the same (weighted) geometric mean before and after each trade. This paper investigates the effects of trading fees on liquidity providers' (LP) profitability in a G3M, as well as the adverse selection faced by LPs due to arbitrage activities involving a reference market. Our work expands the model described in previous studies for G3Ms, integrating transaction fees and continuous-time arbitrage into the analysis. Within this context, we analyze G3M dynamics, characterized by stochastic storage processes, and calculate the growth rate of LP wealth. In particular, our results align with and extend the results concerning the constant product market maker, commonly referred to as Uniswap v2.
+    arXiv:2403.19502v1 Announce Type: new  Abstract: Accurate modeling of the temporal evolution of asset prices is crucial for understanding financial markets. We explore the potential of discrete-time quantum walks to model the evolution of asset prices. Return distributions obtained from a model based on the quantum walk algorithm are compared with those obtained from classical methodologies. We focus on specific limitations of the classical models, and illustrate that the quantum walk model possesses great flexibility in overcoming these. This includes the potential to generate asymmetric return distributions with complex market tendencies and higher probabilities for extreme events than in some of the classical models. Furthermore, the temporal evolution in the quantum walk possesses the potential to provide asset price dynamics.
     
-[^5]: 重新审视正向利率的弹性字符串模型
+[^3]: 区块链、MEV和背包问题：入门指南
 
-    Revisiting Elastic String Models of Forward Interest Rates
+    Blockchains, MEV and the knapsack problem: a primer
 
-    [https://arxiv.org/abs/2403.18126](https://arxiv.org/abs/2403.18126)
+    [https://arxiv.org/abs/2403.19077](https://arxiv.org/abs/2403.19077)
 
-    该论文重新审视了正向利率的弹性字符串模型，通过解释市场力量对邻近期限利率的自我参照影响，实现了对整个FRC相关结构的准确再现，仅需两个稳定参数。
-
-    
-
-    25年前，几位作者提出将正向利率曲线（FRC）建模为一根弹性字符串，沿其传播特异冲击，考虑到不同到期日间回报相关性的独特结构。本文重新审视巴奎和布夏尔（2004）的“刚性”弹性字符串场论，使其微观基础更加透明。我们的模型可以解释市场力量对邻近期限利率的自我参照方式的影响。该模型简洁且能准确地在1994-2023年间再现整个FRC的相关结构，误差低于2%。我们仅需两个参数，其值除了2009-2014年量化宽松期间可能有所变化外非常稳定。时间分辨率（也称为Epps效应）对相关性的依赖也被忠实地再现。
-
-    arXiv:2403.18126v1 Announce Type: new  Abstract: Twenty five years ago, several authors proposed to model the forward interest rate curve (FRC) as an elastic string along which idiosyncratic shocks propagate, accounting for the peculiar structure of the return correlation across different maturities. In this paper, we revisit the specific "stiff'' elastic string field theory of Baaquie and Bouchaud (2004) in a way that makes its micro-foundation more transparent. Our model can be interpreted as capturing the effect of market forces that set the rates of nearby tenors in a self-referential fashion. The model is parsimonious and accurately reproduces the whole correlation structure of the FRC over the time period 1994-2023, with an error below 2%. We need only two parameters, the values of which being very stable except perhaps during the Quantitative Easing period 2009-2014. The dependence of correlation on time resolution (also called the Epps effect) is also faithfully reproduced with
-    
-[^6]: 深度限价订单簿预测
-
-    Deep Limit Order Book Forecasting
-
-    [https://arxiv.org/abs/2403.09267](https://arxiv.org/abs/2403.09267)
-
-    该研究利用深度学习方法预测纳斯达克交易所股票的限价订单簿中间价格变动，提出了一个创新的操作框架来评估预测的实用性。
+    本文介绍了区块链中的最大可提取价值（MEV）问题，以及以太坊如何应对MEV问题。文章强调了设计背包拍卖来缓解MEV问题的重要性。
 
     
 
-    我们利用尖端的深度学习方法探索了在纳斯达克交易所上交易的一组异质股票的高频限价订单簿中间价格变动的可预测性。在此过程中，我们发布了“LOBFrame”，一个开源代码库，可以高效处理大规模限价订单簿数据，并定量评估最先进的深度学习模型的预测能力。我们的结果是双重的。我们证明股票的微观结构特征影响深度学习方法的有效性，并且它们的高预测能力不一定对应可操作的交易信号。我们认为传统的机器学习指标未能充分评估限价订单簿环境中预测的质量。作为替代，我们提出了一个创新的操作框架，通过专注于准确预测的概率来评估预测的实用性。
+    在本文中，我们深入研究了一个被标记为最大可提取价值（MEV）的问题，这个问题在区块链中出现，因为一个区块生产者可以操纵一个区块内交易的顺序。事实上，诸如以太坊等区块链已经花费了大量资源来解决这个问题，并重新设计了区块生产过程以解决MEV。本文概述了MEV问题，并跟踪了以太坊如何适应其存在。区块构建过程的一个关键方面是它是背包问题的一个变体。因此，本文突出了设计拍卖来填充背包——或背包拍卖——以缓解MEV问题的作用。总的来说，本文对主要问题进行了调查，并为希望进一步探讨区块构建和MEV经济学的研究人员和学生提供了易于理解的入门指南。
 
-    arXiv:2403.09267v1 Announce Type: cross  Abstract: We exploit cutting-edge deep learning methodologies to explore the predictability of high-frequency Limit Order Book mid-price changes for a heterogeneous set of stocks traded on the NASDAQ exchange. In so doing, we release `LOBFrame', an open-source code base, to efficiently process large-scale Limit Order Book data and quantitatively assess state-of-the-art deep learning models' forecasting capabilities. Our results are twofold. We demonstrate that the stocks' microstructural characteristics influence the efficacy of deep learning methods and that their high forecasting power does not necessarily correspond to actionable trading signals. We argue that traditional machine learning metrics fail to adequately assess the quality of forecasts in the Limit Order Book context. As an alternative, we propose an innovative operational framework that assesses predictions' practicality by focusing on the probability of accurately forecasting com
+    arXiv:2403.19077v1 Announce Type: new  Abstract: In this paper, we take a close look at a problem labeled maximal extractable value (MEV), which arises in a blockchain due to the ability of a block producer to manipulate the order of transactions within a block. Indeed, blockchains such as Ethereum have spent considerable resources addressing this issue and have redesigned the block production process to account for MEV. This paper provides an overview of the MEV problem and tracks how Ethereum has adapted to its presence. A vital aspect of the block building exercise is that it is a variant of the knapsack problem. Consequently, this paper highlights the role of designing auctions to fill a knapsack--or knapsack auctions--in alleviating the MEV problem. Overall, this paper presents a survey of the main issues and an accessible primer for researchers and students wishing to explore the economics of block building and MEV further.
     
-[^7]: 通用N-token AMM套利的闭合形式解决方案
+[^4]: 朝着区块链智能合同标准化法规的方向：来自Delphi和SWARA分析的见解
 
-    Closed-form solutions for generic N-token AMM arbitrage
+    Towards Standardized Regulations for Block Chain Smart Contracts: Insights from Delphi and SWARA Analysis
 
-    [https://arxiv.org/abs/2402.06731](https://arxiv.org/abs/2402.06731)
+    [https://arxiv.org/abs/2403.19051](https://arxiv.org/abs/2403.19051)
 
-    本文提出了通用N-token AMM套利的闭合形式解决方案。该解决方案在模拟中表现出比凸优化更好的套利机会，并能更快地利用这些机会。并且，所提出的方法具有并行计算能力，能够在GPU上扩展，为AMM建模提供了一种新方法。此外，该机制的低计算成本还可以实现多资产池的链上套利机器人。
-
-    
-
-    凸优化自从自动市场制造商（AMM）诞生以来已经提供了一种确定套利交易的机制。在这里，我们概述了通用闭合形式解决方案，用于$N$个代币的几何平均市场制造商池套利。在模拟中（使用合成和历史数据），此解决方案提供了比凸优化更好的套利机会，并且能够更早地利用这些机会。此外，所提出的方法天然地支持并行计算（与凸优化不同），能够在GPU上进行扩展，为AMM建模提供了一种新方法，提供了一种基于替代数值求解方法的选择。这种新机制的低计算成本还可以实现多资产池的链上套利机器人。
-
-    Convex optimisation has provided a mechanism to determine arbitrage trades on automated market markets (AMMs) since almost their inception. Here we outline generic closed-form solutions for $N$-token geometric mean market maker pool arbitrage, that in simulation (with synthetic and historic data) provide better arbitrage opportunities than convex optimisers and is able to capitalise on those opportunities sooner. Furthermore, the intrinsic parallelism of the proposed approach (unlike convex optimisation) offers the ability to scale on GPUs, opening up a new approach to AMM modelling by offering an alternative to numerical-solver-based methods. The lower computational cost of running this new mechanism can also enable on-chain arbitrage bots for multi-asset pools.
-    
-[^8]: 基于自然语言处理的消费者投诉叙述中系统异常的检测方法
-
-    NLP-based detection of systematic anomalies among the narratives of consumer complaints. (arXiv:2308.11138v1 [stat.ME])
-
-    [http://arxiv.org/abs/2308.11138](http://arxiv.org/abs/2308.11138)
-
-    本文开发了一种基于自然语言处理的方法，用于检测消费者投诉叙述中的系统异常。这种方法可以解决分类算法对于较小且频繁出现的系统异常检测的问题，并将投诉叙述转化为定量数据进行分析。
+    智能合同的兴起推动了新型电子合同的发展，为遵守传统合同规则并无障碍达成提供了透明和安全的记录保存，尽管可以自动执行且公开展示，但仍需要人为干预来解决争议。
 
     
 
-    我们开发了一种基于自然语言处理的方法，用于检测投诉叙述中的系统异常，简称为系统异常。尽管分类算法被用于检测明显的异常，但在较小且频繁出现的系统异常情况下，算法可能会因为各种原因而失效，包括技术原因和人工分析师的自然限制。因此，在分类之后的下一步中，我们将投诉叙述转化为定量数据，然后使用一种算法来检测系统异常。我们使用消费者金融保护局的消费者投诉数据库中的投诉叙述来说明整个过程。
+    数字货币和公共账本区块链的兴起导致了一种新型电子合同的开发，被称为“智能合同”。为了使这些合同被视为有效，它们必须遵守传统的合同规则，并在没有任何障碍的情况下得以达成。一旦编写、加密和签署完毕，智能合同将被记录在区块链账本中，提供透明和安全的记录保存。智能合同提供了多种优势，包括它们能够在不需要人为干预的情况下自动执行，它们在区块链上公开展示合同条款，避免了类似洗钱的金融犯罪，以及防止了合同滥用。然而，由智能合同引发的争议仍需要人为干预，在强制执行这些合同方面存在着独特的挑战，比如证据问题、对辩护的弃权可执行性以及法院...
 
-    We develop an NLP-based procedure for detecting systematic nonmeritorious consumer complaints, simply called systematic anomalies, among complaint narratives. While classification algorithms are used to detect pronounced anomalies, in the case of smaller and frequent systematic anomalies, the algorithms may falter due to a variety of reasons, including technical ones as well as natural limitations of human analysts. Therefore, as the next step after classification, we convert the complaint narratives into quantitative data, which are then analyzed using an algorithm for detecting systematic anomalies. We illustrate the entire procedure using complaint narratives from the Consumer Complaint Database of the Consumer Financial Protection Bureau.
+    arXiv:2403.19051v1 Announce Type: new  Abstract: The rise of digital currency and the public ledger Block Chain has led to the development of a new type of electronic contract known as "smart contracts." For these contracts to be considered valid, they must adhere to traditional contract rules and be concluded without any impediments. Once written, encrypted, and signed, smart contracts are recorded in the Block Chain Ledger, providing transparent and secure record-keeping. Smart contracts offer several benefits, including their ability to execute automatically without requiring human intervention, their provision of public visibility of contract provisions on the Block Chain, their avoidance of financial crimes like Money Laundering, and their prevention of contract abuses. However, disputes arising from smart contracts still require human intervention, presenting unique challenges in enforcing these contracts, such as evidentiary issues, enforceability of waivers of defenses, and jur
     
-[^9]: 多维COS方法用于期权定价
+[^5]: 货币交易中的长短期记忆模式识别
 
-    The multidimensional COS method for option pricing. (arXiv:2307.12843v1 [q-fin.CP])
+    Long Short-Term Memory Pattern Recognition in Currency Trading
 
-    [http://arxiv.org/abs/2307.12843](http://arxiv.org/abs/2307.12843)
+    [https://arxiv.org/abs/2403.18839](https://arxiv.org/abs/2403.18839)
 
-    多维COS方法是一种用于定价依赖于多个标的的金融期权的数值工具。本文证明了该方法的收敛性，并分析了数值不确定度对该方法的影响。
-
-    
-
-    多维COS方法是一种用于定价依赖于多个标的的金融期权的数值工具。该方法利用标的的对数收益率的特征函数φ，并且当支付函数的傅里叶余弦系数v_k以闭式形式给定时，具有优势。然而，在重要情况下，φ和v_k都没有解析地给出，而需要通过数值方法恢复。在本文中，我们证明了多维COS方法的收敛性，包括对φ和v_k的数值不确定度的考虑。我们的分析有助于理解COS方法中对φ和v_k的近似误差如何传播。
-
-    The multidimensional COS method is a numerical tool to price financial options, which depend on several underlyings. The method makes use of the characteristic function $\varphi$ of the logarithmic returns of the underlyings and it is advantageous if the Fourier-cosine coefficients $v_{\boldsymbol{k}}$ of the payoff function are given in closed-form. However, in important cases, neither $\varphi$ nor $v_{\boldsymbol{k}}$ are given analytically but need to be recovered numerically. In this article, we prove the convergence of the multidimensional COS method including numerical uncertainty on $\varphi$ and $v_{\boldsymbol{k}}$. Our analysis helps to understand how the approximation errors on $\varphi$ and $v_{\boldsymbol{k}}$ propagate in the COS method.
-    
-[^10]: 结构化人群中认知和合作的共同演化在增强学习中的研究
-
-    Coevolution of cognition and cooperation in structured populations under reinforcement learning. (arXiv:2306.11376v1 [physics.soc-ph])
-
-    [http://arxiv.org/abs/2306.11376](http://arxiv.org/abs/2306.11376)
-
-    本研究发现在囚徒困境中，确定的重复交互概率阈值将导致智能体从直觉的背叛者转变为双重过程的合作者；更小的节点度数降低了双重过程合作者的成功率。
+    本研究通过分析金融市场的Wyckoff阶段框架，探讨了累积模式和交易范围等阶段的重要性，揭示了如何利用LSTM模型分析市场数据以预测价格走势和做出明智决策。
 
     
 
-    本文研究了受强化学习影响下囚徒困境问题中智能体在规则化网络中相互交互，并能了解到它们是否支付考虑交互的费用。相对于文献中使用的其他行为规则，（i）我们确认了重复交互概率的阈值，从直觉的背叛者转变为双重过程的合作者；（ii）我们发现节点度数扮演了不同的角色，更小的度数降低了双重过程合作者的进化成功率；（iii）我们观察到了更高频繁的沉思。
+    本研究深入分析了通过Richard D. Wyckoff在20世纪早期设计的Wyckoff阶段框架的金融市场。重点关注Wyckoff框架中的累积模式，研究探讨了交易范围和次级测试阶段，阐明了它们在理解市场动态和识别潜在交易机会中的重要性。通过剖析这些阶段的复杂性，本研究揭示了市场结构通过创造流动性，为交易者如何利用这些知识来预测价格走势和做出明智决策提供了见解。有效检测和分析Wyckoff模式需要能够处理复杂市场数据的强大计算模型，其中空间数据最好通过卷积神经网络(CNN)进行分析，而时间数据则通过长短期记忆（LSTM）模型进行分析。
 
-    We study the evolution of behavior under reinforcement learning in a Prisoner's Dilemma where agents interact in a regular network and can learn about whether they play one-shot or repeatedly by incurring a cost of deliberation. With respect to other behavioral rules used in the literature, (i) we confirm the existence of a threshold value of the probability of repeated interaction, switching the emergent behavior from intuitive defector to dual-process cooperator; (ii) we find a different role of the node degree, with smaller degrees reducing the evolutionary success of dual-process cooperators; (iii) we observe a higher frequency of deliberation.
+    arXiv:2403.18839v1 Announce Type: cross  Abstract: This study delves into the analysis of financial markets through the lens of Wyckoff Phases, a framework devised by Richard D. Wyckoff in the early 20th century. Focusing on the accumulation pattern within the Wyckoff framework, the research explores the phases of trading range and secondary test, elucidating their significance in understanding market dynamics and identifying potential trading opportunities. By dissecting the intricacies of these phases, the study sheds light on the creation of liquidity through market structure, offering insights into how traders can leverage this knowledge to anticipate price movements and make informed decisions. The effective detection and analysis of Wyckoff patterns necessitate robust computational models capable of processing complex market data, with spatial data best analyzed using Convolutional Neural Networks (CNNs) and temporal data through Long Short-Term Memory (LSTM) models. The creation
     
-[^11]: 粗略工资设定与行为公司
+[^6]: 在分布信息中使用滴定配额相互作用的重复困境游戏：梅克方法对最大补偿和最小成本路线的影响在双边撮合市场的信息角色中的边际贡献
 
-    Coarse Wage-Setting and Behavioral Firms. (arXiv:2206.01114v4 [econ.GN] UPDATED)
+    Repetitive Dilemma Games in Distribution Information Using Interplay of Droop Quota: Meek's Method in Impact of Maximum Compensation and Minimum Cost Routes in Information Role of Marginal Contribution in Two-Sided Matching Markets
 
-    [http://arxiv.org/abs/2206.01114](http://arxiv.org/abs/2206.01114)
+    [https://arxiv.org/abs/2403.18837](https://arxiv.org/abs/2403.18837)
 
-    本文研究表明公司粗略的工资设定导致工资在整数上的聚集，同时对公司的市场结果产生了负面影响。
+    通过迭代困境博弈理论和双边撮合市场视角，研究了虚假新闻传播和事实核查成本对信息市场平衡的影响，探讨了新闻提供者在选择战略时面临的挑战以及最大奖励和最小化成本路径优化的策略。
 
     
 
-    本文显示出工资在整数上的聚集部分是由公司粗略的工资设定所驱动的。通过对巴西超过2亿新员工的数据进行分析，首先得出了合同工资倾向于集中在整数上的结论。然后，研究表明倾向于以整数工资雇佣工人的公司不够复杂且市场成果较差。接下来，本文提出了一种工资发布模型，在该模型中，由于优化成本的考虑，公司采用了粗略的整数工资，并通过两种研究设计提供了与模型预测相关的证据。最后，本文研究了粗略工资设定对相关经济结果的一些影响。
+    这篇论文是研究计划的初步报告和结果讨论摘要。研究探讨了虚假新闻传播和事实核查成本在信息市场框架内的复杂动态，并利用滴定配额、梅克方法和边际贡献概念分析了供需之间的平衡。通过采用双边撮合市场视角，我们深入研究了在市场中稳定的情况下假新闻被视为真相的影响以及可信度占优势的情景。通过迭代困境博弈理论的应用，我们调查了受到传播虚假新闻和事实核查努力成本影响的新闻提供者的战略选择。我们进一步研究了最大奖励问题以及最小化传播虚假新闻成本路径的策略，并考虑了对市场细分为“...
 
-    This paper shows that the bunching of wages at round numbers is partly driven by firm coarse wage-setting. Using data from over 200 million new hires in Brazil, I first establish that contracted salaries tend to cluster at round numbers. Then, I show that firms that tend to hire workers at round-numbered salaries are less sophisticated and have worse market outcomes. Next, I develop a wage-posting model in which optimization costs lead to the adoption of coarse rounded wages and provide evidence supporting two model predictions using two research designs. Finally, I examine some consequences of coarse wage-setting for relevant economic outcomes.
+    arXiv:2403.18837v1 Announce Type: new  Abstract: This paper is a preliminary report of the research plan and a digest of the results and discussions. On research note explores the complex dynamics of fake news dissemination and fact-checking costs within the framework of information markets and analyzes the equilibrium between supply and demand using the concepts of droop quotas, Meek's method, and marginal contributions. By adopting a two-sided matching market perspective, we delve into scenarios in which markets are stable under the influence of fake news perceived as truth and those in which credibility prevails. Through the application of iterated dilemma game theory, we investigate the strategic choices of news providers affected by the costs associated with spreading fake news and fact-checking efforts. We further examine the maximum reward problem and strategies to minimize the cost path for spreading fake news, and consider a nuanced understanding of market segmentation into "c
+    
+[^7]: DeepTraderX: 使用深度学习挑战传统交易策略在多线程市场模拟中的表现
+
+    DeepTraderX: Challenging Conventional Trading Strategies with Deep Learning in Multi-Threaded Market Simulations
+
+    [https://arxiv.org/abs/2403.18831](https://arxiv.org/abs/2403.18831)
+
+    DeepTraderX是一个使用深度学习的交易系统，在多线程市场模拟中表现出色，并且可以与文献中最佳策略匹敌。
+
+    
+
+    在这篇论文中，我们介绍了DeepTraderX（DTX），这是一个简单基于深度学习的交易系统，并展示了它在多线程市场模拟中的表现。在大约500个模拟市场交易日中，DTX仅通过观察其他策略产生的价格进行学习。通过这样做，它成功地创建了一种从市场数据到要为某个资产下达的报价（买入或卖出订单）的映射关系。DTX在历史Level-2市场数据（即特定可交易资产的限价订单簿）上进行训练，处理每个时间步骤$T$的市场状态$S$，以确定市场订单的价格$P$。训练和测试中使用的市场数据是基于真实历史股票市场数据生成的独特市场时间表。DTX经过了与文献中最佳策略的大量测试，其结果经过了统计分析验证。我们的发现强调了DTX与最佳策略匹敌的能力。
+
+    arXiv:2403.18831v1 Announce Type: cross  Abstract: In this paper, we introduce DeepTraderX (DTX), a simple Deep Learning-based trader, and present results that demonstrate its performance in a multi-threaded market simulation. In a total of about 500 simulated market days, DTX has learned solely by watching the prices that other strategies produce. By doing this, it has successfully created a mapping from market data to quotes, either bid or ask orders, to place for an asset. Trained on historical Level-2 market data, i.e., the Limit Order Book (LOB) for specific tradable assets, DTX processes the market state $S$ at each timestep $T$ to determine a price $P$ for market orders. The market data used in both training and testing was generated from unique market schedules based on real historic stock market data. DTX was tested extensively against the best strategies in the literature, with its results validated by statistical analysis. Our findings underscore DTX's capability to rival, a
+    
+[^8]: 基于人工智能的美国与国际市场公共财政变化分析
+
+    Artificial Intelligence-based Analysis of Change in Public Finance between US and International Markets
+
+    [https://arxiv.org/abs/2403.18823](https://arxiv.org/abs/2403.18823)
+
+    该研究利用人工智能神经网络揭示了美国和国际公共财政之间的关联，并成功预测了国际公共财政的变化。
+
+    
+
+    公共财政是经济治理的基本机制之一，指的是政府实体为资助公共服务、项目和运营活动而做出的金融活动和决策。在当今全球化的背景下，一个国家公共债务领域的细微变化都可能对国际金融产生重大影响，这要求我们对国际和国内市场之间的相关性有一个细致的理解，以帮助投资者做出明智的投资决策。因此，本研究利用人工智能的能力，采用神经网络描绘了美国和国际公共财政之间的相关性，并根据美国公共财政的变化预测国际公共财政的变化。神经网络模型取得了可观的均方误差（MSE）值为2.79，能够确认明显的相关性。
+
+    arXiv:2403.18823v1 Announce Type: new  Abstract: Public finances are one of the fundamental mechanisms of economic governance that refer to the financial activities and decisions made by government entities to fund public services, projects, and operations through assets. In today's globalized landscape, even subtle shifts in one nation's public debt landscape can have significant impacts on that of international finances, necessitating a nuanced understanding of the correlations between international and national markets to help investors make informed investment decisions. Therefore, by leveraging the capabilities of artificial intelligence, this study utilizes neural networks to depict the correlations between US and International Public Finances and predict the changes in international public finances based on the changes in US public finances. With the neural network model achieving a commendable Mean Squared Error (MSE) value of 2.79, it is able to affirm a discernible correlatio
+    
+[^9]: 提升金融数据可视化以辅助投资决策
+
+    Enhancing Financial Data Visualization for Investment Decision-Making
+
+    [https://arxiv.org/abs/2403.18822](https://arxiv.org/abs/2403.18822)
+
+    LSTM网络在金融数据预测中的应用，利用多个特征提升模型捕捉复杂模式，通过可视化关键属性揭示微妙差异，采用25天时间步长内的输入结构捕捉时间上的复杂性
+
+    
+
+    本文探讨了利用长短期记忆（LSTM）网络预测股票动态的潜力，着重于识别微妙的涨跌模式。利用纽约证券交易所（NYSE）的数据集，研究融合了多种特征，以增强LSTM在捕捉复杂模式方面的能力。通过可视化关键属性（如开盘价、收盘价、最低价和最高价），有助于揭示对全面市场理解至关重要的微妙差异。该研究精心设计的LSTM输入结构，灵感来自于已建立的指导方针，结合了25天时间步长内的价格和交易量属性，使得模型能够捕捉时间上的复杂性。
+
+    arXiv:2403.18822v1 Announce Type: cross  Abstract: Navigating the intricate landscape of financial markets requires adept forecasting of stock price movements. This paper delves into the potential of Long Short-Term Memory (LSTM) networks for predicting stock dynamics, with a focus on discerning nuanced rise and fall patterns. Leveraging a dataset from the New York Stock Exchange (NYSE), the study incorporates multiple features to enhance LSTM's capacity in capturing complex patterns. Visualization of key attributes, such as opening, closing, low, and high prices, aids in unraveling subtle distinctions crucial for comprehensive market understanding. The meticulously crafted LSTM input structure, inspired by established guidelines, incorporates both price and volume attributes over a 25-day time step, enabling the model to capture temporal intricacies. A comprehensive methodology, including hyperparameter tuning with Grid Search, Early Stopping, and Callback mechanisms, leads to a remar
+    
+[^10]: 跨断面收益可预测性中的大多数统计发现可能是真实的
+
+    Most claimed statistical findings in cross-sectional return predictability are likely true
+
+    [https://arxiv.org/abs/2206.15365](https://arxiv.org/abs/2206.15365)
+
+    该研究提出了一种计算跨断面收益可预测性出版物中虚假发现率的简单方法，并发现至少75%的发现是真实的。
+
+    
+
+    我提出了跨断面收益可预测性出版物中虚假发现率（FDR）的简单直观界限。这些界限可以通过将先前论文中的摘要统计数据代入计算，并可靠地限制在模拟中的FDR，这些模拟紧密模拟了交叉预测变量之间的相关性。大多数边界发现至少有75%的发现是真实的。最严格的限制发现至少有91%的发现是真实的。令人惊讶的是，哈维、刘和朱（2016年）的估计显示了类似的FDR。我解释了哈维等人得出大多数发现是虚假的结论的原因，是将“虚假”和“不显著”等同起来。
+
+    arXiv:2206.15365v3 Announce Type: replace  Abstract: I develop simple and intuitive bounds for the false discovery rate (FDR) in cross-sectional return predictability publications. The bounds can be calculated by plugging in summary statistics from previous papers and reliably bound the FDR in simulations that closely mimic cross-predictor correlations. Most bounds find that at least 75% of findings are true. The tightest bound finds at least 91% of findings are true. Surprisingly, the estimates in Harvey, Liu, and Zhu (2016) imply a similar FDR. I explain how Harvey et al.'s conclusion that most findings are false stems from equating "false" and "insignificant."
+    
+[^11]: 在金融时间序列中的少样本学习模式用于趋势跟踪策略
+
+    Few-Shot Learning Patterns in Financial Time-Series for Trend-Following Strategies. (arXiv:2310.10500v1 [q-fin.TR])
+
+    [http://arxiv.org/abs/2310.10500](http://arxiv.org/abs/2310.10500)
+
+    这项研究提出了一种在金融时间序列中使用少样本学习的趋势跟踪预测器，能够快速适应新的市场条件，并获得较高的夏普比率。
+
+    
+
+    针对系统化交易策略的预测模型在金融市场条件发生变化时无法迅速适应的问题，我们提出了一种新颖的时间序列趋势跟踪预测器，能够快速适应新的市场条件。我们利用深度学习领域的最新进展，采用少样本学习的方法。我们提出了交叉注意力时间序列趋势网络 - X-Trend，通过对金融时间序列进行关注，从上下文样本集中转移相似模式的趋势，对新的目标情境进行预测和定位。X-Trend能够快速适应新的金融情境，其夏普比率相对于神经预测器提高了18.9%，相对于传统时间序列方法提高了10倍。
+
+    Forecasting models for systematic trading strategies do not adapt quickly when financial market conditions change, as was seen in the advent of the COVID-19 pandemic in 2020, when market conditions changed dramatically causing many forecasting models to take loss-making positions. To deal with such situations, we propose a novel time-series trend-following forecaster that is able to quickly adapt to new market conditions, referred to as regimes. We leverage recent developments from the deep learning community and use few-shot learning. We propose the Cross Attentive Time-Series Trend Network - X-Trend which takes positions attending over a context set of financial time-series regimes. X-Trend transfers trends from similar patterns in the context set to make predictions and take positions for a new distinct target regime. X-Trend is able to quickly adapt to new financial regimes with a Sharpe ratio increase of 18.9% over a neural forecaster and 10-fold over a conventional Time-series 
+    
+[^12]: 摇摆合约定价: 一种带有自动微分和神经网络的参数化方法
+
+    Swing Contract Pricing: A Parametric Approach with Adjoint Automatic Differentiation and Neural Networks. (arXiv:2306.03822v1 [q-fin.MF])
+
+    [http://arxiv.org/abs/2306.03822](http://arxiv.org/abs/2306.03822)
+
+    本文提出了一种参数化方法来定价具有限制的摇摆合约，并尝试使用神经网络取代一些参数。数值实验表明，相比于现有方法，该方法能在短时间内提供更好的价格。
+
+    
+
+    我们提出了两种参数化方法来定价带有强制性限制的摇摆合约。我们的目标是创建近似最优控制的函数，其代表合约期内购买能源的数量。第一种方法涉及明确地定义一个参数化函数来建模最优控制并使用基于随机梯度下降的算法来确定参数。第二种方法基于第一种方法，将参数替换为神经网络。我们的数值实验表明，通过使用Langevin算法，这两种参数化方法都在短时间内提供了比现有方法(如Longstaff和Schwartz提出的方法)更好的价格。
+
+    We propose two parametric approaches to price swing contracts with firm constraints. Our objective is to create approximations for the optimal control, which represents the amounts of energy purchased throughout the contract. The first approach involves explicitly defining a parametric function to model the optimal control, and the parameters using stochastic gradient descent-based algorithms. The second approach builds on the first one, replacing the parameters with neural networks. Our numerical experiments demonstrate that by using Langevin-based algorithms, both parameterizations provide, in a short computation time, better prices compared to state-of-the-art methods (like the one given by Longstaff and Schwartz).
     
 

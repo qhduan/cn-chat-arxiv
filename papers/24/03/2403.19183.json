@@ -1,0 +1,11 @@
+{
+    "title": "Empirical Analysis for Unsupervised Universal Dependency Parse Tree Aggregation",
+    "abstract": "arXiv:2403.19183v1 Announce Type: new  Abstract: Dependency parsing is an essential task in NLP, and the quality of dependency parsers is crucial for many downstream tasks. Parsers' quality often varies depending on the domain and the language involved. Therefore, it is essential to combat the issue of varying quality to achieve stable performance. In various NLP tasks, aggregation methods are used for post-processing aggregation and have been shown to combat the issue of varying quality. However, aggregation methods for post-processing aggregation have not been sufficiently studied in dependency parsing tasks. In an extensive empirical study, we compare different unsupervised post-processing aggregation methods to identify the most suitable dependency tree structure aggregation method.",
+    "link": "https://arxiv.org/abs/2403.19183",
+    "context": "Title: Empirical Analysis for Unsupervised Universal Dependency Parse Tree Aggregation\nAbstract: arXiv:2403.19183v1 Announce Type: new  Abstract: Dependency parsing is an essential task in NLP, and the quality of dependency parsers is crucial for many downstream tasks. Parsers' quality often varies depending on the domain and the language involved. Therefore, it is essential to combat the issue of varying quality to achieve stable performance. In various NLP tasks, aggregation methods are used for post-processing aggregation and have been shown to combat the issue of varying quality. However, aggregation methods for post-processing aggregation have not been sufficiently studied in dependency parsing tasks. In an extensive empirical study, we compare different unsupervised post-processing aggregation methods to identify the most suitable dependency tree structure aggregation method.",
+    "path": "papers/24/03/2403.19183.json",
+    "total_tokens": 717,
+    "translated_title": "无监督通用依存句法树聚合的实证分析",
+    "translated_abstract": "依存分析是自然语言处理中的一个重要任务，依存分析器的质量对许多下游任务至关重要。依存分析器的质量通常取决于涉及的领域和语言。因此，解决质量不稳定的问题以实现稳定性能是至关重要的。在各种自然语言处理任务中，聚合方法用于后处理聚合，已被证明可以解决质量不稳定的问题。然而，在依存分析任务中，对于后处理聚合的聚合方法尚未得到充分研究。在广泛的实证研究中，我们比较了不同的无监督后处理聚合方法，以确定最适合的依存树结构聚合方法。",
+    "tldr": "通过广泛的实证研究比较不同的无监督后处理聚合方法，以确定最适合的依存树结构聚合方法"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Most claimed statistical findings in cross-sectional return predictability are likely true",
+    "abstract": "arXiv:2206.15365v3 Announce Type: replace  Abstract: I develop simple and intuitive bounds for the false discovery rate (FDR) in cross-sectional return predictability publications. The bounds can be calculated by plugging in summary statistics from previous papers and reliably bound the FDR in simulations that closely mimic cross-predictor correlations. Most bounds find that at least 75% of findings are true. The tightest bound finds at least 91% of findings are true. Surprisingly, the estimates in Harvey, Liu, and Zhu (2016) imply a similar FDR. I explain how Harvey et al.'s conclusion that most findings are false stems from equating \"false\" and \"insignificant.\"",
+    "link": "https://arxiv.org/abs/2206.15365",
+    "context": "Title: Most claimed statistical findings in cross-sectional return predictability are likely true\nAbstract: arXiv:2206.15365v3 Announce Type: replace  Abstract: I develop simple and intuitive bounds for the false discovery rate (FDR) in cross-sectional return predictability publications. The bounds can be calculated by plugging in summary statistics from previous papers and reliably bound the FDR in simulations that closely mimic cross-predictor correlations. Most bounds find that at least 75% of findings are true. The tightest bound finds at least 91% of findings are true. Surprisingly, the estimates in Harvey, Liu, and Zhu (2016) imply a similar FDR. I explain how Harvey et al.'s conclusion that most findings are false stems from equating \"false\" and \"insignificant.\"",
+    "path": "papers/22/06/2206.15365.json",
+    "total_tokens": 747,
+    "translated_title": "跨断面收益可预测性中的大多数统计发现可能是真实的",
+    "translated_abstract": "我提出了跨断面收益可预测性出版物中虚假发现率（FDR）的简单直观界限。这些界限可以通过将先前论文中的摘要统计数据代入计算，并可靠地限制在模拟中的FDR，这些模拟紧密模拟了交叉预测变量之间的相关性。大多数边界发现至少有75%的发现是真实的。最严格的限制发现至少有91%的发现是真实的。令人惊讶的是，哈维、刘和朱（2016年）的估计显示了类似的FDR。我解释了哈维等人得出大多数发现是虚假的结论的原因，是将“虚假”和“不显著”等同起来。",
+    "tldr": "该研究提出了一种计算跨断面收益可预测性出版物中虚假发现率的简单方法，并发现至少75%的发现是真实的。",
+    "en_tdlr": "This study presents a simple method to calculate the false discovery rate in cross-sectional return predictability publications, finding that at least 75% of findings are true."
+}

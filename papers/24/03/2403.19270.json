@@ -1,0 +1,11 @@
+{
+    "title": "sDPO: Don't Use Your Data All at Once",
+    "abstract": "arXiv:2403.19270v1 Announce Type: cross  Abstract: As development of large language models (LLM) progresses, aligning them with human preferences has become increasingly important. We propose stepwise DPO (sDPO), an extension of the recently popularized direct preference optimization (DPO) for alignment tuning. This approach involves dividing the available preference datasets and utilizing them in a stepwise manner, rather than employing it all at once. We demonstrate that this method facilitates the use of more precisely aligned reference models within the DPO training framework. Furthermore, sDPO trains the final model to be more performant, even outperforming other popular LLMs with more parameters.",
+    "link": "https://arxiv.org/abs/2403.19270",
+    "context": "Title: sDPO: Don't Use Your Data All at Once\nAbstract: arXiv:2403.19270v1 Announce Type: cross  Abstract: As development of large language models (LLM) progresses, aligning them with human preferences has become increasingly important. We propose stepwise DPO (sDPO), an extension of the recently popularized direct preference optimization (DPO) for alignment tuning. This approach involves dividing the available preference datasets and utilizing them in a stepwise manner, rather than employing it all at once. We demonstrate that this method facilitates the use of more precisely aligned reference models within the DPO training framework. Furthermore, sDPO trains the final model to be more performant, even outperforming other popular LLMs with more parameters.",
+    "path": "papers/24/03/2403.19270.json",
+    "total_tokens": 751,
+    "translated_title": "sDPO：不要一次性使用您的数据",
+    "translated_abstract": "随着大型语言模型（LLM）的发展，将它们与人类偏好相一致变得日益重要。我们提出了分步DPO（sDPO），这是对最近流行的直接偏好优化（DPO）进行调整的一个扩展。这种方法涉及将可用的偏好数据集分割，并以分步方式利用它们，而不是一次性使用。我们演示了这种方法促进了更精确对齐参考模型在DPO训练框架内的使用。此外，sDPO训练最终模型的性能更好，甚至胜过拥有更多参数的其他流行LLM。",
+    "tldr": "sDPO是对直接偏好优化方法的扩展，通过分步利用偏好数据集而非一次性使用，促进更精确对齐参考模型的使用，并训练出性能更优的最终模型，甚至胜过其他具有更多参数的流行大型语言模型。"
+}

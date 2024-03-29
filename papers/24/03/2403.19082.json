@@ -1,0 +1,11 @@
+{
+    "title": "Enhancing Conformal Prediction Using E-Test Statistics",
+    "abstract": "arXiv:2403.19082v1 Announce Type: cross  Abstract: Conformal Prediction (CP) serves as a robust framework that quantifies uncertainty in predictions made by Machine Learning (ML) models. Unlike traditional point predictors, CP generates statistically valid prediction regions, also known as prediction intervals, based on the assumption of data exchangeability. Typically, the construction of conformal predictions hinges on p-values. This paper, however, ventures down an alternative path, harnessing the power of e-test statistics to augment the efficacy of conformal predictions by introducing a BB-predictor (bounded from the below predictor).",
+    "link": "https://arxiv.org/abs/2403.19082",
+    "context": "Title: Enhancing Conformal Prediction Using E-Test Statistics\nAbstract: arXiv:2403.19082v1 Announce Type: cross  Abstract: Conformal Prediction (CP) serves as a robust framework that quantifies uncertainty in predictions made by Machine Learning (ML) models. Unlike traditional point predictors, CP generates statistically valid prediction regions, also known as prediction intervals, based on the assumption of data exchangeability. Typically, the construction of conformal predictions hinges on p-values. This paper, however, ventures down an alternative path, harnessing the power of e-test statistics to augment the efficacy of conformal predictions by introducing a BB-predictor (bounded from the below predictor).",
+    "path": "papers/24/03/2403.19082.json",
+    "total_tokens": 608,
+    "translated_title": "利用E-检验统计增强符合性预测",
+    "translated_abstract": "符合性预测（CP）作为一种稳健的框架，能够量化机器学习（ML）模型所做预测的不确定性。与传统的点预测器不同，CP基于数据可交换性的假设生成统计上有效的预测区域，也称为预测区间。通常，构建符合性预测依赖于p值。然而，本文走上了另一条路径，利用E-检验统计的力量通过引入一个下界预测器（BB-predictor）来增强符合性预测的效力。",
+    "tldr": "该论文利用E-检验统计引入BB-predictor，增强符合性预测效果。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "An Interactive Human-Machine Learning Interface for Collecting and Learning from Complex Annotations",
+    "abstract": "arXiv:2403.19339v1 Announce Type: new  Abstract: Human-Computer Interaction has been shown to lead to improvements in machine learning systems by boosting model performance, accelerating learning and building user confidence. In this work, we aim to alleviate the expectation that human annotators adapt to the constraints imposed by traditional labels by allowing for extra flexibility in the form that supervision information is collected. For this, we propose a human-machine learning interface for binary classification tasks which enables human annotators to utilise counterfactual examples to complement standard binary labels as annotations for a dataset. Finally we discuss the challenges in future extensions of this work.",
+    "link": "https://arxiv.org/abs/2403.19339",
+    "context": "Title: An Interactive Human-Machine Learning Interface for Collecting and Learning from Complex Annotations\nAbstract: arXiv:2403.19339v1 Announce Type: new  Abstract: Human-Computer Interaction has been shown to lead to improvements in machine learning systems by boosting model performance, accelerating learning and building user confidence. In this work, we aim to alleviate the expectation that human annotators adapt to the constraints imposed by traditional labels by allowing for extra flexibility in the form that supervision information is collected. For this, we propose a human-machine learning interface for binary classification tasks which enables human annotators to utilise counterfactual examples to complement standard binary labels as annotations for a dataset. Finally we discuss the challenges in future extensions of this work.",
+    "path": "papers/24/03/2403.19339.json",
+    "total_tokens": 681,
+    "translated_title": "一种用于收集和学习复杂注释的交互式人机学习界面",
+    "translated_abstract": "人机交互已被证明可以通过提升模型性能、加速学习并增强用户信心来改善机器学习系统。本研究旨在减轻人类注释者需适应传统标签所施加的限制的期望，为此，我们提出了一种用于二元分类任务的人机学习界面，使人类注释者可以利用反事实例来补充标准的二元标签作为数据集的注释。最后，我们讨论了将来延伸此工作所面临的挑战。",
+    "tldr": "提出了一种用于二元分类任务的交互式人机学习界面，允许人类注释者利用反事实例来补充标准二元标签，并讨论了未来延伸工作的挑战。",
+    "en_tdlr": "Introduced an interactive human-machine learning interface for binary classification tasks that enables human annotators to utilize counterfactual examples to complement standard binary labels, and discussed challenges in future extensions of this work."
+}

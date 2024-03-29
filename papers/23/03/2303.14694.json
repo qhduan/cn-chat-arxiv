@@ -1,0 +1,12 @@
+{
+    "title": "A stability theorem for bigraded persistence barcodes",
+    "abstract": "arXiv:2303.14694v2 Announce Type: replace-cross  Abstract: We define bigraded persistent homology modules and bigraded barcodes of a finite pseudo-metric space X using the ordinary and double homology of the moment-angle complex associated with the Vietoris-Rips filtration of X. We prove a stability theorem for the bigraded persistent double homology modules and barcodes.",
+    "link": "https://arxiv.org/abs/2303.14694",
+    "context": "Title: A stability theorem for bigraded persistence barcodes\nAbstract: arXiv:2303.14694v2 Announce Type: replace-cross  Abstract: We define bigraded persistent homology modules and bigraded barcodes of a finite pseudo-metric space X using the ordinary and double homology of the moment-angle complex associated with the Vietoris-Rips filtration of X. We prove a stability theorem for the bigraded persistent double homology modules and barcodes.",
+    "path": "papers/23/03/2303.14694.json",
+    "total_tokens": 512,
+    "translated_title": "一个关于双分级持久性条码的稳定性定理",
+    "translated_abstract": "我们使用越托里斯-里普斯滤波的矩角复合体的普通和双重同调定义了有限伪度量空间X的双分级持久同调模和双分级条码。我们证明了关于双分级持久性双同调模和条码的稳定性定理。",
+    "tldr": "使用矩角复合体的同调概念定义了双分级持久性条码，并证明了它们的稳定性定理",
+    "en_tdlr": "Defined bigraded persistent barcodes using the concept of moment-angle complex homology and proved their stability theorem."
+}

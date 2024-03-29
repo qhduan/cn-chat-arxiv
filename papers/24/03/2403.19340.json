@@ -1,0 +1,12 @@
+{
+    "title": "Dataverse: Open-Source ETL (Extract, Transform, Load) Pipeline for Large Language Models",
+    "abstract": "arXiv:2403.19340v1 Announce Type: cross  Abstract: To address the challenges associated with data processing at scale, we propose Dataverse, a unified open-source Extract-Transform-Load (ETL) pipeline for large language models (LLMs) with a user-friendly design at its core. Easy addition of custom processors with block-based interface in Dataverse allows users to readily and efficiently use Dataverse to build their own ETL pipeline. We hope that Dataverse will serve as a vital tool for LLM development and open source the entire library to welcome community contribution. Additionally, we provide a concise, two-minute video demonstration of our system, illustrating its capabilities and implementation.",
+    "link": "https://arxiv.org/abs/2403.19340",
+    "context": "Title: Dataverse: Open-Source ETL (Extract, Transform, Load) Pipeline for Large Language Models\nAbstract: arXiv:2403.19340v1 Announce Type: cross  Abstract: To address the challenges associated with data processing at scale, we propose Dataverse, a unified open-source Extract-Transform-Load (ETL) pipeline for large language models (LLMs) with a user-friendly design at its core. Easy addition of custom processors with block-based interface in Dataverse allows users to readily and efficiently use Dataverse to build their own ETL pipeline. We hope that Dataverse will serve as a vital tool for LLM development and open source the entire library to welcome community contribution. Additionally, we provide a concise, two-minute video demonstration of our system, illustrating its capabilities and implementation.",
+    "path": "papers/24/03/2403.19340.json",
+    "total_tokens": 726,
+    "translated_title": "Dataverse：用于大型语言模型的开源ETL（抽取、转换、加载）管道",
+    "translated_abstract": "为了解决规模化数据处理所面临的挑战，我们提出了Dataverse，一个统一的面向大型语言模型（LLMs）的开源抽取-转换-加载（ETL）管道，其核心具有用户友好的设计。在Dataverse中，通过基于块的界面轻松添加自定义处理器，使用户可以方便高效地使用Dataverse构建自己的ETL管道。我们希望Dataverse将成为LLM开发的重要工具，并开放整个库以欢迎社区贡献。此外，我们提供了一个简洁的、两分钟的系统演示视频，展示其功能和实现。",
+    "tldr": "Dataverse是一个面向大型语言模型的开源ETL管道，提供了用户友好的设计和易于定制的处理器添加功能，旨在成为LLM开发的重要工具，并开源整个库以促进社区贡献。",
+    "en_tdlr": "Dataverse is an open-source ETL pipeline for large language models, offering user-friendly design and easy customization of processors, aiming to be a vital tool for LLM development and open sourcing the entire library to foster community contribution."
+}

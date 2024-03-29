@@ -1,0 +1,12 @@
+{
+    "title": "Bridging Generative Networks with the Common Model of Cognition",
+    "abstract": "arXiv:2403.18827v1 Announce Type: new  Abstract: This article presents a theoretical framework for adapting the Common Model of Cognition to large generative network models within the field of artificial intelligence. This can be accomplished by restructuring modules within the Common Model into shadow production systems that are peripheral to a central production system, which handles higher-level reasoning based on the shadow productions' output. Implementing this novel structure within the Common Model allows for a seamless connection between cognitive architectures and generative neural networks.",
+    "link": "https://arxiv.org/abs/2403.18827",
+    "context": "Title: Bridging Generative Networks with the Common Model of Cognition\nAbstract: arXiv:2403.18827v1 Announce Type: new  Abstract: This article presents a theoretical framework for adapting the Common Model of Cognition to large generative network models within the field of artificial intelligence. This can be accomplished by restructuring modules within the Common Model into shadow production systems that are peripheral to a central production system, which handles higher-level reasoning based on the shadow productions' output. Implementing this novel structure within the Common Model allows for a seamless connection between cognitive architectures and generative neural networks.",
+    "path": "papers/24/03/2403.18827.json",
+    "total_tokens": 522,
+    "translated_title": "将生成网络与认知共同模型相结合",
+    "translated_abstract": "本文提出了一个理论框架，将认知共同模型调整为人工智能领域中的大型生成网络模型。通过将共同模型中的模块重构为周边的影子生成系统，这些影子生成系统辅助处理高层推理，从而实现认知架构与生成神经网络的无缝连接。",
+    "tldr": "通过将模块重构为影子生成系统，实现了认知架构与生成神经网络的无缝连接",
+    "en_tdlr": "Seamless connection between cognitive architectures and generative neural networks is achieved by restructuring modules into shadow production systems."
+}

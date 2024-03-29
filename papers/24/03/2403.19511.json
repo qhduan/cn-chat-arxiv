@@ -1,0 +1,11 @@
+{
+    "title": "Improving Clinical NLP Performance through Language Model-Generated Synthetic Clinical Data",
+    "abstract": "arXiv:2403.19511v1 Announce Type: new  Abstract: Generative models have been showing potential for producing data in mass. This study explores the enhancement of clinical natural language processing performance by utilizing synthetic data generated from advanced language models. Promising results show feasible applications in such a high-stakes domain.",
+    "link": "https://arxiv.org/abs/2403.19511",
+    "context": "Title: Improving Clinical NLP Performance through Language Model-Generated Synthetic Clinical Data\nAbstract: arXiv:2403.19511v1 Announce Type: new  Abstract: Generative models have been showing potential for producing data in mass. This study explores the enhancement of clinical natural language processing performance by utilizing synthetic data generated from advanced language models. Promising results show feasible applications in such a high-stakes domain.",
+    "path": "papers/24/03/2403.19511.json",
+    "total_tokens": 532,
+    "translated_title": "通过语言模型生成的合成临床数据提升临床自然语言处理的性能",
+    "translated_abstract": "生成模型在生产大量数据方面显示出潜力。本研究探讨了利用从先进语言模型生成的合成数据提升临床自然语言处理性能的方法。令人鼓舞的结果显示在这样一个高风险领域中有可行的应用。",
+    "tldr": "通过利用先进语言模型生成的合成数据，本研究探讨了提升临床自然语言处理性能的方法，展示出在高风险领域中可行的应用。"
+}

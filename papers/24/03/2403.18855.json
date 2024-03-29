@@ -1,0 +1,11 @@
+{
+    "title": "Directed Criteria Citation Recommendation and Ranking Through Link Prediction",
+    "abstract": "arXiv:2403.18855v1 Announce Type: cross  Abstract: We explore link prediction as a proxy for automatically surfacing documents from existing literature that might be topically or contextually relevant to a new document. Our model uses transformer-based graph embeddings to encode the meaning of each document, presented as a node within a citation network. We show that the semantic representations that our model generates can outperform other content-based methods in recommendation and ranking tasks. This provides a holistic approach to exploring citation graphs in domains where it is critical that these documents properly cite each other, so as to minimize the possibility of any inconsistencies",
+    "link": "https://arxiv.org/abs/2403.18855",
+    "context": "Title: Directed Criteria Citation Recommendation and Ranking Through Link Prediction\nAbstract: arXiv:2403.18855v1 Announce Type: cross  Abstract: We explore link prediction as a proxy for automatically surfacing documents from existing literature that might be topically or contextually relevant to a new document. Our model uses transformer-based graph embeddings to encode the meaning of each document, presented as a node within a citation network. We show that the semantic representations that our model generates can outperform other content-based methods in recommendation and ranking tasks. This provides a holistic approach to exploring citation graphs in domains where it is critical that these documents properly cite each other, so as to minimize the possibility of any inconsistencies",
+    "path": "papers/24/03/2403.18855.json",
+    "total_tokens": 652,
+    "translated_title": "通过链接预测进行定向标准引文推荐和排名",
+    "translated_abstract": "我们探讨使用链接预测作为自动展示与新文档在主题或上下文上可能相关的现有文献的代理。我们的模型使用基于Transformer的图嵌入来编码每个文档的含义，呈现为引文网络中的节点。我们展示了我们的模型生成的语义表示能够在推荐和排名任务中胜过其他基于内容的方法。这为探索引文图提供了一种整体方法，特别是在那些这些文档正确互相引用至关重要的领域，以便最小化任何不一致性的可能性。",
+    "tldr": "该研究提出使用链接预测作为自动展示相关文献的方法，并通过模型生成的语义表示在推荐和排名任务上取得优越性能。"
+}

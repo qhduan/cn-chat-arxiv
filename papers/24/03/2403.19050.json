@@ -1,0 +1,11 @@
+{
+    "title": "Detecting Generative Parroting through Overfitting Masked Autoencoders",
+    "abstract": "arXiv:2403.19050v1 Announce Type: cross  Abstract: The advent of generative AI models has revolutionized digital content creation, yet it introduces challenges in maintaining copyright integrity due to generative parroting, where models mimic their training data too closely. Our research presents a novel approach to tackle this issue by employing an overfitted Masked Autoencoder (MAE) to detect such parroted samples effectively. We establish a detection threshold based on the mean loss across the training dataset, allowing for the precise identification of parroted content in modified datasets. Preliminary evaluations demonstrate promising results, suggesting our method's potential to ensure ethical use and enhance the legal compliance of generative models.",
+    "link": "https://arxiv.org/abs/2403.19050",
+    "context": "Title: Detecting Generative Parroting through Overfitting Masked Autoencoders\nAbstract: arXiv:2403.19050v1 Announce Type: cross  Abstract: The advent of generative AI models has revolutionized digital content creation, yet it introduces challenges in maintaining copyright integrity due to generative parroting, where models mimic their training data too closely. Our research presents a novel approach to tackle this issue by employing an overfitted Masked Autoencoder (MAE) to detect such parroted samples effectively. We establish a detection threshold based on the mean loss across the training dataset, allowing for the precise identification of parroted content in modified datasets. Preliminary evaluations demonstrate promising results, suggesting our method's potential to ensure ethical use and enhance the legal compliance of generative models.",
+    "path": "papers/24/03/2403.19050.json",
+    "total_tokens": 784,
+    "translated_title": "通过过拟合的遮蔽自编码器检测生成性模仿",
+    "translated_abstract": "生成式人工智能模型的出现彻底改变了数字内容创建的方式，然而由于生成性模仿问题，模型过于模仿其训练数据而给版权完整性带来挑战。本研究提出了一种新方法来解决这个问题，即利用一个过拟合的遮蔽自编码器(MAE)来有效地检测这种模仿样本。我们基于训练数据集上的平均损失建立一个检测阈值，从而精确定位修改后数据集中的模仿内容。初步评估表明了有希望的结果，显示了我们方法确保生成模型的合法使用并加强法律合规性方面的潜力。",
+    "tldr": "本研究提出利用过拟合的遮蔽自编码器(MAE)来检测生成模型中的生成性模仿，建立了基于训练数据集损失的检测阈值，为了确保生成模型的合法使用和提升其法律合规性提供了一种新方法。"
+}

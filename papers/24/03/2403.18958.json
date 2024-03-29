@@ -1,0 +1,11 @@
+{
+    "title": "A State-of-the-practice Release-readiness Checklist for Generative AI-based Software Products",
+    "abstract": "arXiv:2403.18958v1 Announce Type: cross  Abstract: This paper investigates the complexities of integrating Large Language Models (LLMs) into software products, with a focus on the challenges encountered for determining their readiness for release. Our systematic review of grey literature identifies common challenges in deploying LLMs, ranging from pre-training and fine-tuning to user experience considerations. The study introduces a comprehensive checklist designed to guide practitioners in evaluating key release readiness aspects such as performance, monitoring, and deployment strategies, aiming to enhance the reliability and effectiveness of LLM-based applications in real-world settings.",
+    "link": "https://arxiv.org/abs/2403.18958",
+    "context": "Title: A State-of-the-practice Release-readiness Checklist for Generative AI-based Software Products\nAbstract: arXiv:2403.18958v1 Announce Type: cross  Abstract: This paper investigates the complexities of integrating Large Language Models (LLMs) into software products, with a focus on the challenges encountered for determining their readiness for release. Our systematic review of grey literature identifies common challenges in deploying LLMs, ranging from pre-training and fine-tuning to user experience considerations. The study introduces a comprehensive checklist designed to guide practitioners in evaluating key release readiness aspects such as performance, monitoring, and deployment strategies, aiming to enhance the reliability and effectiveness of LLM-based applications in real-world settings.",
+    "path": "papers/24/03/2403.18958.json",
+    "total_tokens": 678,
+    "translated_title": "一份针对生成AI软件产品的最新发布就绪检查清单实践",
+    "translated_abstract": "本文调查了将大型语言模型(LLMs)集成到软件产品中的复杂性，重点关注确定其发布就绪性所遇到的挑战。我们对灰色文献的系统回顾确定了部署LLMs时遇到的常见挑战，从预训练和微调到用户体验等方面。该研究引入了一份全面的检查清单，旨在指导从业者评估关键的发布就绪方面，比如性能、监控和部署策略，旨在提高LLM应用在现实环境中的可靠性和效果。",
+    "tldr": "该研究提出了一份综合性检查清单，旨在指导从业者评估生成AI软件产品的关键发布就绪方面，以提高在真实环境中的可靠性和效果。"
+}

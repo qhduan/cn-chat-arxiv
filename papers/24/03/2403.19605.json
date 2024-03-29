@@ -1,0 +1,12 @@
+{
+    "title": "Data-Adaptive Tradeoffs among Multiple Risks in Distribution-Free Prediction",
+    "abstract": "arXiv:2403.19605v1 Announce Type: cross  Abstract: Decision-making pipelines are generally characterized by tradeoffs among various risk functions. It is often desirable to manage such tradeoffs in a data-adaptive manner. As we demonstrate, if this is done naively, state-of-the art uncertainty quantification methods can lead to significant violations of putative risk guarantees.   To address this issue, we develop methods that permit valid control of risk when threshold and tradeoff parameters are chosen adaptively. Our methodology supports monotone and nearly-monotone risks, but otherwise makes no distributional assumptions.   To illustrate the benefits of our approach, we carry out numerical experiments on synthetic data and the large-scale vision dataset MS-COCO.",
+    "link": "https://arxiv.org/abs/2403.19605",
+    "context": "Title: Data-Adaptive Tradeoffs among Multiple Risks in Distribution-Free Prediction\nAbstract: arXiv:2403.19605v1 Announce Type: cross  Abstract: Decision-making pipelines are generally characterized by tradeoffs among various risk functions. It is often desirable to manage such tradeoffs in a data-adaptive manner. As we demonstrate, if this is done naively, state-of-the art uncertainty quantification methods can lead to significant violations of putative risk guarantees.   To address this issue, we develop methods that permit valid control of risk when threshold and tradeoff parameters are chosen adaptively. Our methodology supports monotone and nearly-monotone risks, but otherwise makes no distributional assumptions.   To illustrate the benefits of our approach, we carry out numerical experiments on synthetic data and the large-scale vision dataset MS-COCO.",
+    "path": "papers/24/03/2403.19605.json",
+    "total_tokens": 721,
+    "translated_title": "数据自适应预测中多重风险的权衡",
+    "translated_abstract": "决策管道通常由各种风险函数之间的权衡特征。通常希望以数据自适应的方式管理这些权衡。我们证明，如果这样做得太幼稚，最先进的不确定性量化方法会导致对假定风险保证的重大违反。为了解决这个问题，我们开发了能够在阈值和权衡参数自适应选择时允许有效控制风险的方法。我们的方法支持单调和几乎单调的风险，但不做任何分布假设。为了说明我们方法的优点，我们在合成数据和大规模视觉数据集MS-COCO上进行了数值实验。",
+    "tldr": "开发了一种能够在数据自适应选择阈值和权衡参数时有效控制风险的方法，支持单调和几乎单调风险，无需分布假设。",
+    "en_tdlr": "Developed a method that allows for effective control of risk when adaptively selecting threshold and tradeoff parameters, supporting monotone and nearly-monotone risks without distributional assumptions."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "AIpom at SemEval-2024 Task 8: Detecting AI-produced Outputs in M4",
+    "abstract": "arXiv:2403.19354v1 Announce Type: new  Abstract: This paper describes AIpom, a system designed to detect a boundary between human-written and machine-generated text (SemEval-2024 Task 8, Subtask C: Human-Machine Mixed Text Detection). We propose a two-stage pipeline combining predictions from an instruction-tuned decoder-only model and encoder-only sequence taggers. AIpom is ranked second on the leaderboard while achieving a Mean Absolute Error of 15.94. Ablation studies confirm the benefits of pipelining encoder and decoder models, particularly in terms of improved performance.",
+    "link": "https://arxiv.org/abs/2403.19354",
+    "context": "Title: AIpom at SemEval-2024 Task 8: Detecting AI-produced Outputs in M4\nAbstract: arXiv:2403.19354v1 Announce Type: new  Abstract: This paper describes AIpom, a system designed to detect a boundary between human-written and machine-generated text (SemEval-2024 Task 8, Subtask C: Human-Machine Mixed Text Detection). We propose a two-stage pipeline combining predictions from an instruction-tuned decoder-only model and encoder-only sequence taggers. AIpom is ranked second on the leaderboard while achieving a Mean Absolute Error of 15.94. Ablation studies confirm the benefits of pipelining encoder and decoder models, particularly in terms of improved performance.",
+    "path": "papers/24/03/2403.19354.json",
+    "total_tokens": 756,
+    "translated_title": "AIpom在SemEval-2024任务8中的应用：在M4中检测AI生成的输出",
+    "translated_abstract": "这篇论文描述了AIpom，一个旨在检测人工撰写和机器生成文本之间边界的系统（SemEval-2024任务8，子任务C：人机混合文本检测）。我们提出了一个两阶段的流程，结合了一个经过指令调整的解码器模型和仅编码器的序列标记器的预测。AIpom在排行榜上排名第二，同时实现了15.94的平均绝对误差。消融研究证实了通过对编码器和解码器模型进行流水线处理在性能改善方面的好处。",
+    "tldr": "本研究提出了AIpom系统，通过结合解码器模型和编码器序列标记器的预测，成功在SemEval-2024任务8中的排名第二，并取得了15.94的平均绝对误差，消融研究表明流水线处理编码器和解码器模型有助于提高性能。",
+    "en_tdlr": "This paper introduces AIpom system, which combines predictions from a decoder model and an encoder sequence tagger, ranked second in SemEval-2024 Task 8 with a Mean Absolute Error of 15.94, and ablation studies show the benefit of pipelining encoder and decoder models for improved performance."
+}
