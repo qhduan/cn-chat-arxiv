@@ -103,17 +103,18 @@
 | [^99] | [MacGyver: Are Large Language Models Creative Problem Solvers?](https://arxiv.org/abs/2311.09682) | 通过创建MACGYVER数据集并与人类比较，研究发现大型语言模型在创意问题解决方面独具挑战性，在知识广度和可行性方面与人类存在独特差异，同时还展示了通过新的提示技术提升大型语言模型的问题解决能力潜力。 |
 | [^100] | [Leveraging Code to Improve In-context Learning for Semantic Parsing](https://arxiv.org/abs/2311.09519) | 通过使用通用编程语言代替领域特定语言（DSLs）和增加结构化领域描述提示，本研究显著改善了语境学习（ICL）对语义解析的有效性，提高了准确性并减少了对大量示范的需求。 |
 | [^101] | [Investigating the Emergent Audio Classification Ability of ASR Foundation Models](https://arxiv.org/abs/2311.09363) | ASR基础模型Whisper和MMS在不经过额外数据训练或添加新参数的情况下，展现了有希望的零-shot音频分类性能。 |
-| [^102] | [MILL: Mutual Verification with Large Language Models for Zero-Shot Query Expansion](https://arxiv.org/abs/2310.19056) | 该论文提出了一种利用大型语言模型进行相互验证的零-shot查询扩展框架，有效解决了查询扩展中已有方法的限制和缺陷。 |
-| [^103] | [Prompt Space Optimizing Few-shot Reasoning Success with Large Language Models](https://arxiv.org/abs/2306.03799) | 提示工程是增强大语言模型能力的必要技术，我们提出了Prompt Space方法，通过文本嵌入和矩阵分解构建提示空间来解决当前方法缺乏确定最佳提示的问题，并取得显著优越表现。 |
-| [^104] | [A Corpus for Sentence-level Subjectivity Detection on English News Articles](https://arxiv.org/abs/2305.18034) | 该研究开发了新的标注指南，建立了用于英语新闻文章句子级主观性检测的语料库，并表明多语境训练的模型在该任务上取得了最佳性能。 |
-| [^105] | [PrOnto: Language Model Evaluations for 859 Languages](https://arxiv.org/abs/2305.12612) | 本研究提出了一种新的评估数据集构建方法，可以为任何具有新约翻译的语言提供预训练语言模型评估的评估数据集，无需手动标注，通过将语句与英文OntoNotes中的语句对齐并投影标注到目标语言。这项工作使得在859种语言中进行语言模型评估成为可能。 |
-| [^106] | [Evaluating Step-by-Step Reasoning through Symbolic Verification](https://arxiv.org/abs/2212.08686) | 文中研究了预训练语言模型（LMs）通过解释或思维链（CoT）进行推理，在推理机制上提出了一种神经符号方法，通过学习逻辑规则和示例进行迭代推理，支持LMs输出自动验证 |
-| [^107] | [SOLD: Sinhala Offensive Language Dataset](https://arxiv.org/abs/2212.00851) | 本文介绍了一种新的低资源语言——僧伽罗语攻击性语言识别数据集(SOLD)，填补了目前攻击性语言识别研究局限于高资源语言的空白。 |
-| [^108] | [Incremental Processing in the Age of Non-Incremental Encoders: An Empirical Assessment of Bidirectional Models for Incremental NLU](https://arxiv.org/abs/2010.05330) | 双向模型在增量界面下的表现得到了支持，而全向BERT模型在增量访问方面受到较大影响，可通过调整训练机制缓解。 |
-| [^109] | [A Comprehensive Study of Knowledge Editing for Large Language Models.](http://arxiv.org/abs/2401.01286) | 本研究全面研究了大型语言模型的知识编辑，旨在有效修改模型的行为，同时保持整体性能。 |
-| [^110] | [A Study on the Calibration of In-context Learning.](http://arxiv.org/abs/2312.04021) | 本研究关注上下文学习（ICL），通过定制提示来调整静态语言模型（LMs），研究了在各种自然语言理解和推理任务中性能和校准之间的平衡。研究发现随着ICL示例数量的增加，模型的校准会先增加而后得到改善，而校准误差主要出现在低样本场景下。此外，微调和CoT提示等方法可能导致校准误差和不可靠的自然语言解释，提示需要针对可靠性场景开发新的方法。 |
-| [^111] | [Large Language Models are Effective Text Rankers with Pairwise Ranking Prompting.](http://arxiv.org/abs/2306.17563) | 本论文提出了一种名为PRP的新技术，通过使用两两排名提示来显著减轻大型语言模型（LLM）的负担，并首次在标准基准测试中实现了最先进的排名性能。 |
-| [^112] | [Self-Prompting Large Language Models for Zero-Shot Open-Domain QA.](http://arxiv.org/abs/2212.08635) | 本论文提出了一种自我提示框架，可以有效利用大型语言模型的参数中存储的知识和指令理解能力，以实现零样本开放域问答，并且实验证明该方法在三个广泛使用的ODQA数据集中显著优于现有的最先进方法。 |
+| [^102] | [LLMRefine: Pinpointing and Refining Large Language Models via Fine-Grained Actionable Feedback](https://arxiv.org/abs/2311.09336) | LLMRefine提出了一种细粒度反馈模型来指导大型语言模型定位缺陷并进行优化，在机器翻译、长篇问答和主题总结等任务中取得显著的改进。 |
+| [^103] | [MILL: Mutual Verification with Large Language Models for Zero-Shot Query Expansion](https://arxiv.org/abs/2310.19056) | 该论文提出了一种利用大型语言模型进行相互验证的零-shot查询扩展框架，有效解决了查询扩展中已有方法的限制和缺陷。 |
+| [^104] | [Prompt Space Optimizing Few-shot Reasoning Success with Large Language Models](https://arxiv.org/abs/2306.03799) | 提示工程是增强大语言模型能力的必要技术，我们提出了Prompt Space方法，通过文本嵌入和矩阵分解构建提示空间来解决当前方法缺乏确定最佳提示的问题，并取得显著优越表现。 |
+| [^105] | [A Corpus for Sentence-level Subjectivity Detection on English News Articles](https://arxiv.org/abs/2305.18034) | 该研究开发了新的标注指南，建立了用于英语新闻文章句子级主观性检测的语料库，并表明多语境训练的模型在该任务上取得了最佳性能。 |
+| [^106] | [PrOnto: Language Model Evaluations for 859 Languages](https://arxiv.org/abs/2305.12612) | 本研究提出了一种新的评估数据集构建方法，可以为任何具有新约翻译的语言提供预训练语言模型评估的评估数据集，无需手动标注，通过将语句与英文OntoNotes中的语句对齐并投影标注到目标语言。这项工作使得在859种语言中进行语言模型评估成为可能。 |
+| [^107] | [Evaluating Step-by-Step Reasoning through Symbolic Verification](https://arxiv.org/abs/2212.08686) | 文中研究了预训练语言模型（LMs）通过解释或思维链（CoT）进行推理，在推理机制上提出了一种神经符号方法，通过学习逻辑规则和示例进行迭代推理，支持LMs输出自动验证 |
+| [^108] | [SOLD: Sinhala Offensive Language Dataset](https://arxiv.org/abs/2212.00851) | 本文介绍了一种新的低资源语言——僧伽罗语攻击性语言识别数据集(SOLD)，填补了目前攻击性语言识别研究局限于高资源语言的空白。 |
+| [^109] | [Incremental Processing in the Age of Non-Incremental Encoders: An Empirical Assessment of Bidirectional Models for Incremental NLU](https://arxiv.org/abs/2010.05330) | 双向模型在增量界面下的表现得到了支持，而全向BERT模型在增量访问方面受到较大影响，可通过调整训练机制缓解。 |
+| [^110] | [A Comprehensive Study of Knowledge Editing for Large Language Models.](http://arxiv.org/abs/2401.01286) | 本研究全面研究了大型语言模型的知识编辑，旨在有效修改模型的行为，同时保持整体性能。 |
+| [^111] | [A Study on the Calibration of In-context Learning.](http://arxiv.org/abs/2312.04021) | 本研究关注上下文学习（ICL），通过定制提示来调整静态语言模型（LMs），研究了在各种自然语言理解和推理任务中性能和校准之间的平衡。研究发现随着ICL示例数量的增加，模型的校准会先增加而后得到改善，而校准误差主要出现在低样本场景下。此外，微调和CoT提示等方法可能导致校准误差和不可靠的自然语言解释，提示需要针对可靠性场景开发新的方法。 |
+| [^112] | [Large Language Models are Effective Text Rankers with Pairwise Ranking Prompting.](http://arxiv.org/abs/2306.17563) | 本论文提出了一种名为PRP的新技术，通过使用两两排名提示来显著减轻大型语言模型（LLM）的负担，并首次在标准基准测试中实现了最先进的排名性能。 |
+| [^113] | [Self-Prompting Large Language Models for Zero-Shot Open-Domain QA.](http://arxiv.org/abs/2212.08635) | 本论文提出了一种自我提示框架，可以有效利用大型语言模型的参数中存储的知识和指令理解能力，以实现零样本开放域问答，并且实验证明该方法在三个广泛使用的ODQA数据集中显著优于现有的最先进方法。 |
 
 # 详细
 
@@ -1531,7 +1532,21 @@
 
     arXiv:2311.09363v2 Announce Type: replace  Abstract: Text and vision foundation models can perform many tasks in a zero-shot setting, a desirable property that enables these systems to be applied in general and low-resource settings. There has been far less work, however, on the zero-shot abilities of ASR foundation models, with these systems typically fine-tuned to specific tasks or constrained to applications that match their training criterion and data annotation. In this work we investigate the ability of Whisper and MMS, ASR foundation models trained primarily for speech recognition, to perform zero-shot audio classification. We use simple template-based text prompts at the decoder and use the resulting decoding probabilities to generate zero-shot predictions. Without training the model on extra data or adding any new parameters, we demonstrate that Whisper shows promising zero-shot classification performance on a range of 8 audio-classification datasets, outperforming the accurac
     
-[^102]: MILL：大型语言模型进行零-shot查询扩展的相互验证
+[^102]: LLMRefine：通过细粒度可操作反馈精确定位和优化大型语言模型
+
+    LLMRefine: Pinpointing and Refining Large Language Models via Fine-Grained Actionable Feedback
+
+    [https://arxiv.org/abs/2311.09336](https://arxiv.org/abs/2311.09336)
+
+    LLMRefine提出了一种细粒度反馈模型来指导大型语言模型定位缺陷并进行优化，在机器翻译、长篇问答和主题总结等任务中取得显著的改进。
+
+    
+
+    最近，大型语言模型（LLM）正在利用人类反馈来提高生成质量。然而，在推断过程中获取人类反馈成本高昂。在这项工作中，我们提出了LLMRefine，一种用于优化推理时间的方法，以改进LLM的输出。其核心思想是利用学习的细粒度反馈模型来准确定位缺陷，并引导LLM进行迭代优化。通过将原始LLM作为编辑建议，LLMRefine通过模拟退火搜索无缺陷文本，权衡探索和开发。我们在三个文本生成任务上进行实验，包括机器翻译，长篇问答（QA）和主题总结。LLMRefine在所有基线方法上一贯表现优异，在翻译任务上取得了高达1.7 MetricX点的改进，在ASQA上为8.1 ROUGE-L，在主题总结上为2.2 ROUGE-L。
+
+    arXiv:2311.09336v2 Announce Type: replace  Abstract: Recent large language models (LLM) are leveraging human feedback to improve their generation quality. However, human feedback is costly to obtain, especially during inference. In this work, we propose LLMRefine, an inference time optimization method to refine LLM's output. The core idea is to use a learned fine-grained feedback model to pinpoint defects and guide LLM to refine them iteratively. Using original LLM as a proposal of edits, LLMRefine searches for defect-less text via simulated annealing, trading off the exploration and exploitation. We conduct experiments on three text generation tasks, including machine translation, long-form question answering (QA), and topical summarization. LLMRefine consistently outperforms all baseline approaches, achieving improvements up to 1.7 MetricX points on translation tasks, 8.1 ROUGE-L on ASQA, 2.2 ROUGE-L on topical summarization.
+    
+[^103]: MILL：大型语言模型进行零-shot查询扩展的相互验证
 
     MILL: Mutual Verification with Large Language Models for Zero-Shot Query Expansion
 
@@ -1545,7 +1560,7 @@
 
     arXiv:2310.19056v3 Announce Type: replace-cross  Abstract: Query expansion, pivotal in search engines, enhances the representation of user information needs with additional terms. While existing methods expand queries using retrieved or generated contextual documents, each approach has notable limitations. Retrieval-based methods often fail to accurately capture search intent, particularly with brief or ambiguous queries. Generation-based methods, utilizing large language models (LLMs), generally lack corpus-specific knowledge and entail high fine-tuning costs. To address these gaps, we propose a novel zero-shot query expansion framework utilizing LLMs for mutual verification. Specifically, we first design a query-query-document generation method, leveraging LLMs' zero-shot reasoning ability to produce diverse sub-queries and corresponding documents. Then, a mutual verification process synergizes generated and retrieved documents for optimal expansion. Our proposed method is fully zero
     
-[^103]: 优化大语言模型的少样本推理成功与提示空间
+[^104]: 优化大语言模型的少样本推理成功与提示空间
 
     Prompt Space Optimizing Few-shot Reasoning Success with Large Language Models
 
@@ -1559,7 +1574,7 @@
 
     arXiv:2306.03799v2 Announce Type: replace  Abstract: Prompt engineering is an essential technique for enhancing the abilities of large language models (LLMs) by providing explicit and specific instructions. It enables LLMs to excel in various tasks, such as arithmetic reasoning, question answering, summarization, relation extraction, machine translation, and sentiment analysis. Researchers have been actively exploring different prompt engineering strategies, such as Chain of Thought (CoT), Zero-CoT, and In-context learning. However, an unresolved problem arises from the fact that current approaches lack a solid mathematical solution for determining optimal prompts. To address this issue in prompt engineering, we propose a new and effective approach called Prompt Space. Our methodology utilizes text embeddings to obtain basis vectors by matrix decomposition, and then constructs a space for representing all prompts. Prompt Space significantly outperforms state-of-the-art prompt paradigms
     
-[^104]: 用于英语新闻文章句子级主观性检测的语料库
+[^105]: 用于英语新闻文章句子级主观性检测的语料库
 
     A Corpus for Sentence-level Subjectivity Detection on English News Articles
 
@@ -1573,7 +1588,7 @@
 
     arXiv:2305.18034v2 Announce Type: replace  Abstract: We develop novel annotation guidelines for sentence-level subjectivity detection, which are not limited to language-specific cues. We use our guidelines to collect NewsSD-ENG, a corpus of 638 objective and 411 subjective sentences extracted from English news articles on controversial topics. Our corpus paves the way for subjectivity detection in English and across other languages without relying on language-specific tools, such as lexicons or machine translation. We evaluate state-of-the-art multilingual transformer-based models on the task in mono-, multi-, and cross-language settings. For this purpose, we re-annotate an existing Italian corpus. We observe that models trained in the multilingual setting achieve the best performance on the task.
     
-[^105]: PrOnto：为859种语言进行语言模型评估
+[^106]: PrOnto：为859种语言进行语言模型评估
 
     PrOnto: Language Model Evaluations for 859 Languages
 
@@ -1587,7 +1602,7 @@
 
     arXiv:2305.12612v2 Announce Type: replace  Abstract: Evaluation datasets are critical resources for measuring the quality of pretrained language models. However, due to the high cost of dataset annotation, these resources are scarce for most languages other than English, making it difficult to assess the quality of language models. In this work, we present a new method for evaluation dataset construction which enables any language with a New Testament translation to receive a suite of evaluation datasets suitable for pretrained language model evaluation. The method critically involves aligning verses with those in the New Testament portion of English OntoNotes, and then projecting annotations from English to the target language, with no manual annotation required. We apply this method to 1051 New Testament translations in 859 and make them publicly available. Additionally, we conduct experiments which demonstrate the efficacy of our method for creating evaluation tasks which can assess
     
-[^106]: 通过符号验证评估逐步推理
+[^107]: 通过符号验证评估逐步推理
 
     Evaluating Step-by-Step Reasoning through Symbolic Verification
 
@@ -1601,7 +1616,7 @@
 
     arXiv:2212.08686v2 Announce Type: replace  Abstract: Pre-trained language models (LMs) have shown remarkable reasoning performance using explanations or chain-of-thoughts (CoT)) for in-context learning. On the other hand, these reasoning tasks are usually presumed to be more approachable for symbolic programming. To understand the mechanism of reasoning of LMs, we curate synthetic datasets containing equivalent (natural, symbolic) data pairs, where symbolic examples contain first-order logic rules and predicates from non-parametric knowledge bases (KBs), supporting automated verification of intermediate reasoning results. Then we revisit neuro-symbolic approaches and propose to learn from demonstrations containing logic rules and corresponding examples to iteratively reason over KBs, recovering Prolog's backward chaining algorithm and supporting automated verification of LMs' outputs. Comprehensive experiments are included to systematically compare LMLP with CoT in deductive reasoning 
     
-[^107]: SOLD：僧伽罗语攻击性语言数据集
+[^108]: SOLD：僧伽罗语攻击性语言数据集
 
     SOLD: Sinhala Offensive Language Dataset
 
@@ -1615,7 +1630,7 @@
 
     arXiv:2212.00851v2 Announce Type: replace-cross  Abstract: The widespread of offensive content online, such as hate speech and cyber-bullying, is a global phenomenon. This has sparked interest in the artificial intelligence (AI) and natural language processing (NLP) communities, motivating the development of various systems trained to detect potentially harmful content automatically. These systems require annotated datasets to train the machine learning (ML) models. However, with a few notable exceptions, most datasets on this topic have dealt with English and a few other high-resource languages. As a result, the research in offensive language identification has been limited to these languages. This paper addresses this gap by tackling offensive language identification in Sinhala, a low-resource Indo-Aryan language spoken by over 17 million people in Sri Lanka. We introduce the Sinhala Offensive Language Dataset (SOLD) and present multiple experiments on this dataset. SOLD is a manuall
     
-[^108]: 增量处理在非增量编码器时代：增量NLU的双向模型的经验评估
+[^109]: 增量处理在非增量编码器时代：增量NLU的双向模型的经验评估
 
     Incremental Processing in the Age of Non-Incremental Encoders: An Empirical Assessment of Bidirectional Models for Incremental NLU
 
@@ -1629,7 +1644,7 @@
 
     arXiv:2010.05330v2 Announce Type: replace  Abstract: While humans process language incrementally, the best language encoders currently used in NLP do not. Both bidirectional LSTMs and Transformers assume that the sequence that is to be encoded is available in full, to be processed either forwards and backwards (BiLSTMs) or as a whole (Transformers). We investigate how they behave under incremental interfaces, when partial output must be provided based on partial input seen up to a certain time step, which may happen in interactive systems. We test five models on various NLU datasets and compare their performance using three incremental evaluation metrics. The results support the possibility of using bidirectional encoders in incremental mode while retaining most of their non-incremental quality. The "omni-directional" BERT model, which achieves better non-incremental performance, is impacted more by the incremental access. This can be alleviated by adapting the training regime (truncat
     
-[^109]: 大型语言模型的知识编辑全面研究
+[^110]: 大型语言模型的知识编辑全面研究
 
     A Comprehensive Study of Knowledge Editing for Large Language Models. (arXiv:2401.01286v1 [cs.CL])
 
@@ -1643,7 +1658,7 @@
 
     Large Language Models (LLMs) have shown extraordinary capabilities in understanding and generating text that closely mirrors human communication. However, a primary limitation lies in the significant computational demands during training, arising from their extensive parameterization. This challenge is further intensified by the dynamic nature of the world, necessitating frequent updates to LLMs to correct outdated information or integrate new knowledge, thereby ensuring their continued relevance. Note that many applications demand continual model adjustments post-training to address deficiencies or undesirable behaviors. There is an increasing interest in efficient, lightweight methods for on-the-fly model modifications. To this end, recent years have seen a burgeoning in the techniques of knowledge editing for LLMs, which aim to efficiently modify LLMs' behaviors within specific domains while preserving overall performance across various inputs. In this paper, we first define the kno
     
-[^110]: 关于上下文学习的校准研究
+[^111]: 关于上下文学习的校准研究
 
     A Study on the Calibration of In-context Learning. (arXiv:2312.04021v3 [cs.CL] UPDATED)
 
@@ -1657,7 +1672,7 @@
 
     Accurate uncertainty quantification is crucial for the safe deployment of language models (LMs), and prior research has demonstrated improvements in the calibration of modern LMs. Our study focuses on in-context learning (ICL), a prevalent method for adapting static LMs through tailored prompts, and examines the balance between performance and calibration across a broad spectrum of natural language understanding and reasoning tasks. Through comprehensive experiments, we observe that, with an increasing number of ICL examples, models initially exhibit increased miscalibration before achieving better calibration and miscalibration tends to arise in low-shot settings. Moreover, we find that methods aimed at improving usability, such as fine-tuning and chain-of-thought (CoT) prompting, can lead to miscalibration and unreliable natural language explanations, suggesting that new methods may be required for scenarios where models are expected to be reliable.
     
-[^111]: 大型语言模型是有效的文本排序器，具有两两排名提示
+[^112]: 大型语言模型是有效的文本排序器，具有两两排名提示
 
     Large Language Models are Effective Text Rankers with Pairwise Ranking Prompting. (arXiv:2306.17563v1 [cs.IR])
 
@@ -1671,7 +1686,7 @@
 
     Ranking documents using Large Language Models (LLMs) by directly feeding the query and candidate documents into the prompt is an interesting and practical problem. However, there has been limited success so far, as researchers have found it difficult to outperform fine-tuned baseline rankers on benchmark datasets. We analyze pointwise and listwise ranking prompts used by existing methods and argue that off-the-shelf LLMs do not fully understand these ranking formulations, possibly due to the nature of how LLMs are trained. In this paper, we propose to significantly reduce the burden on LLMs by using a new technique called Pairwise Ranking Prompting (PRP). Our results are the first in the literature to achieve state-of-the-art ranking performance on standard benchmarks using moderate-sized open-sourced LLMs. On TREC-DL2020, PRP based on the Flan-UL2 model with 20B parameters outperforms the previous best approach in the literature, which is based on the blackbox commercial GPT-4 that ha
     
-[^112]: 自我提示的大型语言模型用于零样本开放域问答
+[^113]: 自我提示的大型语言模型用于零样本开放域问答
 
     Self-Prompting Large Language Models for Zero-Shot Open-Domain QA. (arXiv:2212.08635v2 [cs.CL] UPDATED)
 
