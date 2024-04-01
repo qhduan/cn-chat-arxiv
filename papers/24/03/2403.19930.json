@@ -1,0 +1,12 @@
+{
+    "title": "Are LLMs Effective Backbones for Fine-tuning? An Experimental Investigation of Supervised LLMs on Chinese Short Text Matching",
+    "abstract": "arXiv:2403.19930v1 Announce Type: new  Abstract: The recent success of Large Language Models (LLMs) has garnered significant attention in both academia and industry. Prior research on LLMs has primarily focused on enhancing or leveraging their generalization capabilities in zero- and few-shot settings. However, there has been limited investigation into effectively fine-tuning LLMs for a specific natural language understanding task in supervised settings. In this study, we conduct an experimental analysis by fine-tuning LLMs for the task of Chinese short text matching. We explore various factors that influence performance when fine-tuning LLMs, including task modeling methods, prompt formats, and output formats.",
+    "link": "https://arxiv.org/abs/2403.19930",
+    "context": "Title: Are LLMs Effective Backbones for Fine-tuning? An Experimental Investigation of Supervised LLMs on Chinese Short Text Matching\nAbstract: arXiv:2403.19930v1 Announce Type: new  Abstract: The recent success of Large Language Models (LLMs) has garnered significant attention in both academia and industry. Prior research on LLMs has primarily focused on enhancing or leveraging their generalization capabilities in zero- and few-shot settings. However, there has been limited investigation into effectively fine-tuning LLMs for a specific natural language understanding task in supervised settings. In this study, we conduct an experimental analysis by fine-tuning LLMs for the task of Chinese short text matching. We explore various factors that influence performance when fine-tuning LLMs, including task modeling methods, prompt formats, and output formats.",
+    "path": "papers/24/03/2403.19930.json",
+    "total_tokens": 737,
+    "translated_title": "大语言模型(LLMs)是否是微调的有效骨干？对中文短文本匹配的监督LLMs的实验调查",
+    "translated_abstract": "大语言模型（LLMs）的最近成功在学术界和工业界引起了相当大的关注。先前对LLMs的研究主要集中在增强或利用它们在零-shot和少-shot设置中的泛化能力。然而，在受监督的设置中，对LLMs进行有效微调以用于特定的自然语言理解任务的调查有限。在本研究中，我们通过对中文短文本匹配任务对LLMs进行微调进行了实验分析。我们探讨了影响在微调LLMs时性能的各种因素，包括任务建模方法，提示格式和输出格式。",
+    "tldr": "研究评估了在监督设置中为中文短文本匹配任务微调LLMs的实验分析，探讨了任务建模方法、提示格式和输出格式等因素对性能的影响。",
+    "en_tdlr": "The study conducted an experimental analysis on fine-tuning LLMs for the task of Chinese short text matching in supervised settings, exploring factors such as task modeling methods, prompt formats, and output formats that influence performance."
+}

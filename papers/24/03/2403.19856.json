@@ -1,0 +1,12 @@
+{
+    "title": "Towards a Brazilian History Knowledge Graph",
+    "abstract": "arXiv:2403.19856v1 Announce Type: new  Abstract: This short paper describes the first steps in a project to construct a knowledge graph for Brazilian history based on the Brazilian Dictionary of Historical Biographies (DHBB) and Wikipedia/Wikidata. We contend that large repositories of Brazilian-named entities (people, places, organizations, and political events and movements) would be beneficial for extracting information from Portuguese texts. We show that many of the terms/entities described in the DHBB do not have corresponding concepts (or Q items) in Wikidata, the largest structured database of entities associated with Wikipedia. We describe previous work on extracting information from the DHBB and outline the steps to construct a Wikidata-based historical knowledge graph.",
+    "link": "https://arxiv.org/abs/2403.19856",
+    "context": "Title: Towards a Brazilian History Knowledge Graph\nAbstract: arXiv:2403.19856v1 Announce Type: new  Abstract: This short paper describes the first steps in a project to construct a knowledge graph for Brazilian history based on the Brazilian Dictionary of Historical Biographies (DHBB) and Wikipedia/Wikidata. We contend that large repositories of Brazilian-named entities (people, places, organizations, and political events and movements) would be beneficial for extracting information from Portuguese texts. We show that many of the terms/entities described in the DHBB do not have corresponding concepts (or Q items) in Wikidata, the largest structured database of entities associated with Wikipedia. We describe previous work on extracting information from the DHBB and outline the steps to construct a Wikidata-based historical knowledge graph.",
+    "path": "papers/24/03/2403.19856.json",
+    "total_tokens": 736,
+    "translated_title": "迈向巴西历史知识图谱",
+    "translated_abstract": "这篇简短的论文描述了在基于巴西历史词典（DHBB）和维基百科/维基数据构建巴西历史知识图谱项目的第一步。我们认为，巴西命名实体（人物、地点、组织、政治事件和运动）的大型存储库对从葡萄牙文本中提取信息将是有益的。我们展示了DHBB中描述的许多术语/实体在维基数据中没有相应的概念（或Q项），后者是与维基百科相关的最大结构化实体数据库。我们描述了从DHBB中提取信息的先前工作，并概述了构建基于维基数据的历史知识图谱的步骤。",
+    "tldr": "构建基于巴西历史词典和维基数据的知识图谱，以丰富葡萄牙文本信息提取，填补巴西命名实体在维基数据中缺失的概念。",
+    "en_tdlr": "Building a knowledge graph for Brazilian history based on the Brazilian Dictionary of Historical Biographies and Wikidata to enhance information extraction from Portuguese texts by addressing missing concepts of Brazilian named entities in Wikidata."
+}

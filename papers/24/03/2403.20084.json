@@ -1,0 +1,12 @@
+{
+    "title": "IPA Transcription of Bengali Texts",
+    "abstract": "arXiv:2403.20084v1 Announce Type: new  Abstract: The International Phonetic Alphabet (IPA) serves to systematize phonemes in language, enabling precise textual representation of pronunciation. In Bengali phonology and phonetics, ongoing scholarly deliberations persist concerning the IPA standard and core Bengali phonemes. This work examines prior research, identifies current and potential issues, and suggests a framework for a Bengali IPA standard, facilitating linguistic analysis and NLP resource creation and downstream technology development. In this work, we present a comprehensive study of Bengali IPA transcription and introduce a novel IPA transcription framework incorporating a novel dataset with DL-based benchmarks.",
+    "link": "https://arxiv.org/abs/2403.20084",
+    "context": "Title: IPA Transcription of Bengali Texts\nAbstract: arXiv:2403.20084v1 Announce Type: new  Abstract: The International Phonetic Alphabet (IPA) serves to systematize phonemes in language, enabling precise textual representation of pronunciation. In Bengali phonology and phonetics, ongoing scholarly deliberations persist concerning the IPA standard and core Bengali phonemes. This work examines prior research, identifies current and potential issues, and suggests a framework for a Bengali IPA standard, facilitating linguistic analysis and NLP resource creation and downstream technology development. In this work, we present a comprehensive study of Bengali IPA transcription and introduce a novel IPA transcription framework incorporating a novel dataset with DL-based benchmarks.",
+    "path": "papers/24/03/2403.20084.json",
+    "total_tokens": 618,
+    "translated_title": "孟加拉文本的国际音标转写",
+    "translated_abstract": "国际音标（IPA）用于系统化语言中的音素，实现对发音的精确文本表示。在孟加拉语音韵学中，学术界一直在探讨IPA标准和核心孟加拉音素的问题。本研究检视了先前的研究，识别了当前和潜在的问题，并提出了一个孟加拉IPA标准的框架，促进了语言分析和NLP资源创建以及技术发展。",
+    "tldr": "这项工作对孟加拉文本的国际音标转写进行了全面研究，并引入了一个包含基于DL的基准数据集的新颖IPA转写框架。",
+    "en_tdlr": "This work presents a comprehensive study of IPA transcription for Bengali texts and introduces a novel IPA transcription framework with a new dataset and DL-based benchmarks."
+}

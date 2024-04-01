@@ -1,0 +1,12 @@
+{
+    "title": "User Modeling Challenges in Interactive AI Assistant Systems",
+    "abstract": "arXiv:2403.20134v1 Announce Type: new  Abstract: Interactive Artificial Intelligent(AI) assistant systems are designed to offer timely guidance to help human users to complete a variety tasks. One of the remaining challenges is to understand user's mental states during the task for more personalized guidance. In this work, we analyze users' mental states during task executions and investigate the capabilities and challenges for large language models to interpret user profiles for more personalized user guidance.",
+    "link": "https://arxiv.org/abs/2403.20134",
+    "context": "Title: User Modeling Challenges in Interactive AI Assistant Systems\nAbstract: arXiv:2403.20134v1 Announce Type: new  Abstract: Interactive Artificial Intelligent(AI) assistant systems are designed to offer timely guidance to help human users to complete a variety tasks. One of the remaining challenges is to understand user's mental states during the task for more personalized guidance. In this work, we analyze users' mental states during task executions and investigate the capabilities and challenges for large language models to interpret user profiles for more personalized user guidance.",
+    "path": "papers/24/03/2403.20134.json",
+    "total_tokens": 569,
+    "translated_title": "交互式AI助手系统中的用户建模挑战",
+    "translated_abstract": "交互式人工智能（AI）助手系统旨在提供及时的指导，帮助用户完成各种任务。其中仍然存在的挑战之一是在任务执行过程中了解用户的心理状态，以提供更加个性化的指导。本研究分析了用户在任务执行过程中的心理状态，并研究了大型语言模型解读用户资料以实现更个性化用户指导的能力和挑战。",
+    "tldr": "分析用户在任务执行过程中的心理状态，研究大型语言模型解读用户资料以实现更个性化用户指导的能力和挑战。",
+    "en_tdlr": "Analyzing users' mental states during task executions and exploring the capabilities and challenges for large language models to interpret user profiles for more personalized user guidance."
+}

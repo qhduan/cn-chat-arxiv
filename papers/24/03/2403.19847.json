@@ -1,0 +1,11 @@
+{
+    "title": "Strategic complementarities as stochastic control under sticky price",
+    "abstract": "arXiv:2403.19847v1 Announce Type: new  Abstract: We examine how monetary shocks spread throughout an economic model characterized by sticky prices and general equilibrium, where the pricing strategies of firms are interlinked, fostering a mutually beneficial relationship. In this dynamic equilibrium, pricing choices of firms are influenced by overall economic factors, which are themselves affected by these decisions. We approach this situation using a path integral control method, yielding several important insights. We confirm the presence and uniqueness of the equilibrium and scrutinize the impulse response function (IRF) of output subsequent to a shock affecting the entire economy.",
+    "link": "https://arxiv.org/abs/2403.19847",
+    "context": "Title: Strategic complementarities as stochastic control under sticky price\nAbstract: arXiv:2403.19847v1 Announce Type: new  Abstract: We examine how monetary shocks spread throughout an economic model characterized by sticky prices and general equilibrium, where the pricing strategies of firms are interlinked, fostering a mutually beneficial relationship. In this dynamic equilibrium, pricing choices of firms are influenced by overall economic factors, which are themselves affected by these decisions. We approach this situation using a path integral control method, yielding several important insights. We confirm the presence and uniqueness of the equilibrium and scrutinize the impulse response function (IRF) of output subsequent to a shock affecting the entire economy.",
+    "path": "papers/24/03/2403.19847.json",
+    "total_tokens": 712,
+    "translated_title": "战略互补性作为粘性价格下的随机控制",
+    "translated_abstract": "我们研究了货币冲击在粘性价格和一般均衡经济模型中如何传播，其中公司的定价策略相互关联，促进了一种相互有利的关系。在这种动态均衡中，公司的定价选择受整体经济因素的影响，这些因素本身又受到这些决策的影响。我们采用路径积分控制方法来处理这种情况，得出了几个重要的见解。我们确认了均衡的存在和独特性，并审查了在影响整个经济的冲击之后产出的冲击响应函数（IRF）。",
+    "tldr": "我们研究了货币冲击在粘性价格下的传播，并通过路径积分控制方法确认了均衡的存在和独特性，以及研究了整个经济受到冲击后产出的冲击响应函数。"
+}

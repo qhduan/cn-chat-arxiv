@@ -1,0 +1,12 @@
+{
+    "title": "Adverb Is the Key: Simple Text Data Augmentation with Adverb Deletion",
+    "abstract": "arXiv:2403.20015v1 Announce Type: cross  Abstract: In the field of text data augmentation, rule-based methods are widely adopted for real-world applications owing to their cost-efficiency. However, conventional rule-based approaches suffer from the possibility of losing the original semantics of the given text. We propose a novel text data augmentation strategy that avoids such phenomena through a straightforward deletion of adverbs, which play a subsidiary role in the sentence. Our comprehensive experiments demonstrate the efficiency and effectiveness of our proposed approach for not just single text classification, but also natural language inference that requires semantic preservation. We publicly released our source code for reproducibility.",
+    "link": "https://arxiv.org/abs/2403.20015",
+    "context": "Title: Adverb Is the Key: Simple Text Data Augmentation with Adverb Deletion\nAbstract: arXiv:2403.20015v1 Announce Type: cross  Abstract: In the field of text data augmentation, rule-based methods are widely adopted for real-world applications owing to their cost-efficiency. However, conventional rule-based approaches suffer from the possibility of losing the original semantics of the given text. We propose a novel text data augmentation strategy that avoids such phenomena through a straightforward deletion of adverbs, which play a subsidiary role in the sentence. Our comprehensive experiments demonstrate the efficiency and effectiveness of our proposed approach for not just single text classification, but also natural language inference that requires semantic preservation. We publicly released our source code for reproducibility.",
+    "path": "papers/24/03/2403.20015.json",
+    "total_tokens": 700,
+    "translated_title": "副词是关键：使用副词删除进行简单文本数据增强",
+    "translated_abstract": "在文本数据增强领域，基于规则的方法被广泛采用于现实世界的应用，因为它们具有成本效益。然而，传统的基于规则的方法存在可能丢失给定文本的原始语义的问题。我们提出了一种新颖的文本数据增强策略，通过简单地删除在句子中起辅助作用的副词来避免这种现象。我们的全面实验证明了我们提出的方法的效率和有效性，不仅适用于单一文本分类，还适用于需要语义保留的自然语言推理。我们公开发布了用于可重现性的源代码。",
+    "tldr": "使用简单的副词删除策略，提出了一种新颖的文本数据增强方法，能有效增强文本数据，保留语义，适用于单一文本分类和自然语言推理。",
+    "en_tdlr": "A novel text data augmentation method is proposed by simply deleting adverbs, effectively enhancing text data while preserving semantics, suitable for both single text classification and natural language inference."
+}

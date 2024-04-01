@@ -1,0 +1,12 @@
+{
+    "title": "ChainNet: Structured Metaphor and Metonymy in WordNet",
+    "abstract": "arXiv:2403.20308v1 Announce Type: cross  Abstract: The senses of a word exhibit rich internal structure. In a typical lexicon, this structure is overlooked: a word's senses are encoded as a list without inter-sense relations. We present ChainNet, a lexical resource which for the first time explicitly identifies these structures. ChainNet expresses how senses in the Open English Wordnet are derived from one another: every nominal sense of a word is either connected to another sense by metaphor or metonymy, or is disconnected in the case of homonymy. Because WordNet senses are linked to resources which capture information about their meaning, ChainNet represents the first dataset of grounded metaphor and metonymy.",
+    "link": "https://arxiv.org/abs/2403.20308",
+    "context": "Title: ChainNet: Structured Metaphor and Metonymy in WordNet\nAbstract: arXiv:2403.20308v1 Announce Type: cross  Abstract: The senses of a word exhibit rich internal structure. In a typical lexicon, this structure is overlooked: a word's senses are encoded as a list without inter-sense relations. We present ChainNet, a lexical resource which for the first time explicitly identifies these structures. ChainNet expresses how senses in the Open English Wordnet are derived from one another: every nominal sense of a word is either connected to another sense by metaphor or metonymy, or is disconnected in the case of homonymy. Because WordNet senses are linked to resources which capture information about their meaning, ChainNet represents the first dataset of grounded metaphor and metonymy.",
+    "path": "papers/24/03/2403.20308.json",
+    "total_tokens": 731,
+    "translated_title": "ChainNet: 在WordNet中的结构化隐喻和转喻",
+    "translated_abstract": "一个词的意义展现出丰富的内部结构。在典型的词典中，这种结构往往被忽视：一个词的意义被编码为一个没有意义间关系的列表。我们介绍了ChainNet，这是一个词典资源，首次明确地识别了这些结构。ChainNet表达了在Open English Wordnet中词义如何从彼此衍生出来：一个词的每个名词意义要么通过隐喻或转喻与另一个意义相连，要么在同义词的情况下是断开的。由于WordNet的含义与捕捉其含义信息的资源相连，ChainNet代表了第一个具有基础隐喻和转喻的数据集。",
+    "tldr": "ChainNet是一个词典资源，首次明确地识别了WordNet中词义的结构化隐喻和转喻关系，成为第一个具有基础隐喻和转喻数据集的资源。",
+    "en_tdlr": "ChainNet is a lexical resource that explicitly identifies the structured metaphor and metonymy relations of word meanings in WordNet, making it the first dataset with grounded metaphor and metonymy."
+}
