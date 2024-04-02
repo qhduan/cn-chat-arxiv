@@ -1,0 +1,12 @@
+{
+    "title": "Verifying Claims About Metaphors with Large-Scale Automatic Metaphor Identification",
+    "abstract": "arXiv:2404.01029v1 Announce Type: new  Abstract: There are several linguistic claims about situations where words are more likely to be used as metaphors. However, few studies have sought to verify such claims with large corpora. This study entails a large-scale, corpus-based analysis of certain existing claims about verb metaphors, by applying metaphor detection to sentences extracted from Common Crawl and using the statistics obtained from the results. The verification results indicate that the direct objects of verbs used as metaphors tend to have lower degrees of concreteness, imageability, and familiarity, and that metaphors are more likely to be used in emotional and subjective sentences.",
+    "link": "https://arxiv.org/abs/2404.01029",
+    "context": "Title: Verifying Claims About Metaphors with Large-Scale Automatic Metaphor Identification\nAbstract: arXiv:2404.01029v1 Announce Type: new  Abstract: There are several linguistic claims about situations where words are more likely to be used as metaphors. However, few studies have sought to verify such claims with large corpora. This study entails a large-scale, corpus-based analysis of certain existing claims about verb metaphors, by applying metaphor detection to sentences extracted from Common Crawl and using the statistics obtained from the results. The verification results indicate that the direct objects of verbs used as metaphors tend to have lower degrees of concreteness, imageability, and familiarity, and that metaphors are more likely to be used in emotional and subjective sentences.",
+    "path": "papers/24/04/2404.01029.json",
+    "total_tokens": 751,
+    "translated_title": "使用大规模自动隐喻识别验证关于隐喻的主张",
+    "translated_abstract": "有一些关于词语更可能被用作隐喻的情况的语言主张，但很少有研究试图用大型语料库验证这些主张。本研究通过将隐喻检测应用于从Common Crawl中提取的句子进行大规模基于语料库的分析，验证了关于动词隐喻的某些现有主张，并使用结果获得的统计数据。验证结果表明，作为隐喻使用的动词的直接宾语往往具有较低的具体性、可形象化程度和熟悉度，并且隐喻更可能在情感和主观句子中使用。",
+    "tldr": "通过大规模语料库分析验证了关于动词隐喻的主张，发现隐喻中动词的直接宾语往往具有较低的具体性、可形象化程度和熟悉度，隐喻更可能在情感和主观句子中使用。",
+    "en_tdlr": "Large-scale corpus analysis verified claims about verb metaphors, revealing that direct objects of verbs used as metaphors tend to have lower degrees of concreteness, imageability, and familiarity, and that metaphors are more likely to be used in emotional and subjective sentences."
+}

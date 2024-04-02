@@ -1,0 +1,12 @@
+{
+    "title": "Counterfactual Sensitivity in Quantitative Spatial Models",
+    "abstract": "arXiv:2311.14032v2 Announce Type: replace  Abstract: Counterfactuals in quantitative spatial models are functions of the current state of the world and the model parameters. Current practice treats the current state of the world as perfectly observed, but there is good reason to believe that it is measured with error. This paper provides tools for quantifying uncertainty about counterfactuals when the current state of the world is measured with error. I recommend an empirical Bayes approach to uncertainty quantification, which is both practical and theoretically justified. I apply the proposed method to the applications in Adao, Costinot, and Donaldson (2017) and Allen and Arkolakis (2022) and find non-trivial uncertainty about counterfactuals.",
+    "link": "https://arxiv.org/abs/2311.14032",
+    "context": "Title: Counterfactual Sensitivity in Quantitative Spatial Models\nAbstract: arXiv:2311.14032v2 Announce Type: replace  Abstract: Counterfactuals in quantitative spatial models are functions of the current state of the world and the model parameters. Current practice treats the current state of the world as perfectly observed, but there is good reason to believe that it is measured with error. This paper provides tools for quantifying uncertainty about counterfactuals when the current state of the world is measured with error. I recommend an empirical Bayes approach to uncertainty quantification, which is both practical and theoretically justified. I apply the proposed method to the applications in Adao, Costinot, and Donaldson (2017) and Allen and Arkolakis (2022) and find non-trivial uncertainty about counterfactuals.",
+    "path": "papers/23/11/2311.14032.json",
+    "total_tokens": 722,
+    "translated_title": "定量空间模型中的反事实敏感性",
+    "translated_abstract": "定量空间模型中的反事实是当前世界状态和模型参数的函数。当前做法将当前世界状态视为完全可观测，但我们有充分理由相信存在测量误差。本文提供了一种工具，用于在当前世界状态存在测量误差时量化关于反事实的不确定性。我推荐一种经验贝叶斯方法用于不确定性量化，这既实用又在理论上被证明了。我将所提出的方法应用于Adao, Costinot和Donaldson (2017)以及Allen和Arkolakis (2022)的应用中，并发现有关反事实的非平凡不确定性。",
+    "tldr": "本文提出了一种用于定量空间模型中处理反事实不确定性的方法，利用经验贝叶斯方法量化不确定性，并在两个应用程序中发现了有关反事实的非平凡不确定性。",
+    "en_tdlr": "This paper introduces a method for handling counterfactual uncertainty in quantitative spatial models, quantifying uncertainty using an empirical Bayes approach, and finding non-trivial uncertainty about counterfactuals in two applications."
+}

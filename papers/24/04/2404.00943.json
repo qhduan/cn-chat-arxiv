@@ -1,0 +1,12 @@
+{
+    "title": "Evalverse: Unified and Accessible Library for Large Language Model Evaluation",
+    "abstract": "arXiv:2404.00943v1 Announce Type: cross  Abstract: This paper introduces Evalverse, a novel library that streamlines the evaluation of Large Language Models (LLMs) by unifying disparate evaluation tools into a single, user-friendly framework. Evalverse enables individuals with limited knowledge of artificial intelligence to easily request LLM evaluations and receive detailed reports, facilitated by an integration with communication platforms like Slack. Thus, Evalverse serves as a powerful tool for the comprehensive assessment of LLMs, offering both researchers and practitioners a centralized and easily accessible evaluation framework. Finally, we also provide a demo video for Evalverse, showcasing its capabilities and implementation in a two-minute format.",
+    "link": "https://arxiv.org/abs/2404.00943",
+    "context": "Title: Evalverse: Unified and Accessible Library for Large Language Model Evaluation\nAbstract: arXiv:2404.00943v1 Announce Type: cross  Abstract: This paper introduces Evalverse, a novel library that streamlines the evaluation of Large Language Models (LLMs) by unifying disparate evaluation tools into a single, user-friendly framework. Evalverse enables individuals with limited knowledge of artificial intelligence to easily request LLM evaluations and receive detailed reports, facilitated by an integration with communication platforms like Slack. Thus, Evalverse serves as a powerful tool for the comprehensive assessment of LLMs, offering both researchers and practitioners a centralized and easily accessible evaluation framework. Finally, we also provide a demo video for Evalverse, showcasing its capabilities and implementation in a two-minute format.",
+    "path": "papers/24/04/2404.00943.json",
+    "total_tokens": 706,
+    "translated_title": "Evalverse: 大型语言模型评估的统一和易用库",
+    "translated_abstract": "本文介绍了Evalverse，这是一个新颖的库，通过将不同的评估工具统一到一个用户友好的框架中，简化了对大型语言模型（LLMs）的评估。Evalverse使得对人工智能了解有限的个人可以轻松请求LLMs评估并收到详细报告，利用与Slack等通信平台的集成。因此，Evalverse作为LLMs的全面评估强大工具，为研究人员和从业者提供了集中且易于访问的评估框架。最后，我们还提供了Evalverse的演示视频，展示了它的功能和实现方式，以两分钟的格式展示。",
+    "tldr": "Evalverse是一个统一和易用的库，简化了大型语言模型（LLMs）的评估，为研究人员和从业者提供了集中且易于访问的评估框架。",
+    "en_tdlr": "Evalverse is a unified and accessible library that streamlines the evaluation of Large Language Models (LLMs), providing researchers and practitioners with a centralized and easily accessible evaluation framework."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Call the Dentist! A (Con-)Cavity in the Value of Information",
+    "abstract": "arXiv:2404.01190v1 Announce Type: new  Abstract: A natural way of quantifying the ``amount of information'' in decision problems yields a globally concave value for information. Another (in contrast, adversarial) way almost never does.",
+    "link": "https://arxiv.org/abs/2404.01190",
+    "context": "Title: Call the Dentist! A (Con-)Cavity in the Value of Information\nAbstract: arXiv:2404.01190v1 Announce Type: new  Abstract: A natural way of quantifying the ``amount of information'' in decision problems yields a globally concave value for information. Another (in contrast, adversarial) way almost never does.",
+    "path": "papers/24/04/2404.01190.json",
+    "total_tokens": 444,
+    "translated_title": "叫牙医！信息价值中的（凹）洞",
+    "translated_abstract": "一种自然的量化决策问题中“信息量”的方法产生了一个全局凹的信息价值。另一种（相比之下，具有对抗性的）方法几乎从不这样做。",
+    "tldr": "量化决策问题中信息价值的方法，一个是全局凹的，另一个几乎从不是。",
+    "en_tdlr": "Quantifying the value of information in decision problems results in a globally concave approach, while another adversarial method does not."
+}

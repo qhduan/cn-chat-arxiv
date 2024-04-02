@@ -1,0 +1,12 @@
+{
+    "title": "Returning to the Start: Generating Narratives with Related Endpoints",
+    "abstract": "arXiv:2404.00829v1 Announce Type: new  Abstract: Human writers often bookend their writing with ending sentences that relate back to the beginning sentences in order to compose a satisfying narrative that \"closes the loop.\" Motivated by this observation, we propose RENarGen, a controllable story-generation paradigm that generates narratives by ensuring the first and last sentences are related and then infilling the middle sentences. Our contributions include an initial exploration of how various methods of bookending from Narratology affect language modeling for stories. Automatic and human evaluations indicate RENarGen produces better stories with more narrative closure than current autoregressive models.",
+    "link": "https://arxiv.org/abs/2404.00829",
+    "context": "Title: Returning to the Start: Generating Narratives with Related Endpoints\nAbstract: arXiv:2404.00829v1 Announce Type: new  Abstract: Human writers often bookend their writing with ending sentences that relate back to the beginning sentences in order to compose a satisfying narrative that \"closes the loop.\" Motivated by this observation, we propose RENarGen, a controllable story-generation paradigm that generates narratives by ensuring the first and last sentences are related and then infilling the middle sentences. Our contributions include an initial exploration of how various methods of bookending from Narratology affect language modeling for stories. Automatic and human evaluations indicate RENarGen produces better stories with more narrative closure than current autoregressive models.",
+    "path": "papers/24/04/2404.00829.json",
+    "total_tokens": 703,
+    "translated_title": "返回到开始：生成具有相关终点的叙事",
+    "translated_abstract": "人类作家经常在写作中以与开头句相关的结束句来作为结尾，以构成一个“闭环”的令人满意的叙事。受这一观察的启发，我们提出了RENarGen，一种可控的故事生成范式，通过确保第一句和最后一句相关，然后填充中间句来生成叙事。我们的贡献包括初步探讨了叙事学中各种结尾方法如何影响故事的语言建模。自动化和人工评估表明RENarGen生成的故事比当前的自回归模型具有更好的叙事封闭性。",
+    "tldr": "提出了一种通过确保故事的第一句和最后一句相关性来生成叙事的方法，并探讨了不同叙事学方法如何影响故事的语言建模，实现了更好的故事叙事封闭性。",
+    "en_tdlr": "Introducing a method to generate narratives by ensuring the relatedness of the first and last sentences, exploring the impact of different narratology methods on language modeling in storytelling, achieving better narrative closure."
+}

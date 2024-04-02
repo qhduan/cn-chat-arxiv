@@ -1,0 +1,12 @@
+{
+    "title": "Stress index strategy enhanced with financial news sentiment analysis for the equity markets",
+    "abstract": "arXiv:2404.00012v1 Announce Type: cross  Abstract: This paper introduces a new risk-on risk-off strategy for the stock market, which combines a financial stress indicator with a sentiment analysis done by ChatGPT reading and interpreting Bloomberg daily market summaries. Forecasts of market stress derived from volatility and credit spreads are enhanced when combined with the financial news sentiment derived from GPT-4. As a result, the strategy shows improved performance, evidenced by higher Sharpe ratio and reduced maximum drawdowns. The improved performance is consistent across the NASDAQ, the S&P 500 and the six major equity markets, indicating that the method generalises across equities markets.",
+    "link": "https://arxiv.org/abs/2404.00012",
+    "context": "Title: Stress index strategy enhanced with financial news sentiment analysis for the equity markets\nAbstract: arXiv:2404.00012v1 Announce Type: cross  Abstract: This paper introduces a new risk-on risk-off strategy for the stock market, which combines a financial stress indicator with a sentiment analysis done by ChatGPT reading and interpreting Bloomberg daily market summaries. Forecasts of market stress derived from volatility and credit spreads are enhanced when combined with the financial news sentiment derived from GPT-4. As a result, the strategy shows improved performance, evidenced by higher Sharpe ratio and reduced maximum drawdowns. The improved performance is consistent across the NASDAQ, the S&P 500 and the six major equity markets, indicating that the method generalises across equities markets.",
+    "path": "papers/24/04/2404.00012.json",
+    "total_tokens": 710,
+    "translated_title": "基于财经新闻情感分析的股票市场压力指数策略改进",
+    "translated_abstract": "本文介绍了一种新的股市风险-风险策略，将金融压力指标与通过ChatGPT读取和解释Bloomberg每日市场摘要进行的情感分析相结合。通过将从波动率和信贷利差推导出的市场压力预测与GPT-4推导出的财经新闻情感相结合，改进了策略的表现，表现为更高的夏普比率和降低的最大回撤。改进的表现在纳斯达克、标普500指数和六个主要股票市场中都保持一致，表明该方法在股票市场中具有普遍适用性。",
+    "tldr": "通过将金融压力指标与财经新闻情感分析相结合，提高了股票市场的风险控制策略表现。",
+    "en_tdlr": "The paper introduces an enhanced risk-on risk-off strategy for the stock market by combining financial stress indicator with sentiment analysis from financial news, leading to improved risk control performance."
+}

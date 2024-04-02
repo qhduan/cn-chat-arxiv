@@ -1,0 +1,12 @@
+{
+    "title": "Deep Learning with Parametric Lenses",
+    "abstract": "arXiv:2404.00408v1 Announce Type: new  Abstract: We propose a categorical semantics for machine learning algorithms in terms of lenses, parametric maps, and reverse derivative categories. This foundation provides a powerful explanatory and unifying framework: it encompasses a variety of gradient descent algorithms such as ADAM, AdaGrad, and Nesterov momentum, as well as a variety of loss functions such as MSE and Softmax cross-entropy, and different architectures, shedding new light on their similarities and differences. Furthermore, our approach to learning has examples generalising beyond the familiar continuous domains (modelled in categories of smooth maps) and can be realised in the discrete setting of Boolean and polynomial circuits. We demonstrate the practical significance of our framework with an implementation in Python.",
+    "link": "https://arxiv.org/abs/2404.00408",
+    "context": "Title: Deep Learning with Parametric Lenses\nAbstract: arXiv:2404.00408v1 Announce Type: new  Abstract: We propose a categorical semantics for machine learning algorithms in terms of lenses, parametric maps, and reverse derivative categories. This foundation provides a powerful explanatory and unifying framework: it encompasses a variety of gradient descent algorithms such as ADAM, AdaGrad, and Nesterov momentum, as well as a variety of loss functions such as MSE and Softmax cross-entropy, and different architectures, shedding new light on their similarities and differences. Furthermore, our approach to learning has examples generalising beyond the familiar continuous domains (modelled in categories of smooth maps) and can be realised in the discrete setting of Boolean and polynomial circuits. We demonstrate the practical significance of our framework with an implementation in Python.",
+    "path": "papers/24/04/2404.00408.json",
+    "total_tokens": 759,
+    "translated_title": "使用参数化镜头的深度学习",
+    "translated_abstract": "我们提出了一种基于镜头、参数映射和反向导数范畴的机器学习算法的范畴语义。这一基础提供了一个强大的解释性和统一性框架：它包括各种梯度下降算法，如ADAM、AdaGrad和Nesterov动量，以及各种损失函数，如均方误差和Softmax 交叉熵，并涵盖不同的架构，揭示它们之间的相似性和差异。此外，我们的学习方法具有超越熟悉连续域（在光滑映射范畴中建模）的泛化示例，并且可以在布尔和多项式电路的离散设置中实现。我们通过在Python中实现来演示我们框架的实际重要性。",
+    "tldr": "提出了一种基于镜头的深度学习方法，能够统一各种梯度下降算法和损失函数，同时在连续和离散领域都具有实际意义。",
+    "en_tdlr": "Introduced a deep learning approach based on parametric lenses that unifies various gradient descent algorithms and loss functions, demonstrating practical significance in both continuous and discrete domains."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Meta Learning in Bandits within Shared Affine Subspaces",
+    "abstract": "arXiv:2404.00688v1 Announce Type: new  Abstract: We study the problem of meta-learning several contextual stochastic bandits tasks by leveraging their concentration around a low-dimensional affine subspace, which we learn via online principal component analysis to reduce the expected regret over the encountered bandits. We propose and theoretically analyze two strategies that solve the problem: One based on the principle of optimism in the face of uncertainty and the other via Thompson sampling. Our framework is generic and includes previously proposed approaches as special cases. Besides, the empirical results show that our methods significantly reduce the regret on several bandit tasks.",
+    "link": "https://arxiv.org/abs/2404.00688",
+    "context": "Title: Meta Learning in Bandits within Shared Affine Subspaces\nAbstract: arXiv:2404.00688v1 Announce Type: new  Abstract: We study the problem of meta-learning several contextual stochastic bandits tasks by leveraging their concentration around a low-dimensional affine subspace, which we learn via online principal component analysis to reduce the expected regret over the encountered bandits. We propose and theoretically analyze two strategies that solve the problem: One based on the principle of optimism in the face of uncertainty and the other via Thompson sampling. Our framework is generic and includes previously proposed approaches as special cases. Besides, the empirical results show that our methods significantly reduce the regret on several bandit tasks.",
+    "path": "papers/24/04/2404.00688.json",
+    "total_tokens": 667,
+    "translated_title": "共享仿射子空间中的臂上元学习",
+    "translated_abstract": "我们研究了通过利用多个环境随机臂上任务在低维仿射子空间周围的集中性，通过在线主成分分析来减少在遇到的臂上任务中的预期遗憾的问题。我们提出并理论分析了两种解决该问题的策略：一种基于面对不确定性时的乐观原则，另一种通过汤普森取样。我们的框架是通用的，并包括先前提出的方法作为特例。此外，实证结果表明我们的方法显著减少了几个臂上任务的遗憾。",
+    "tldr": "通过利用低维仿射子空间集中性，我们提出两种策略解决了在多个环境随机臂上任务中减少预期遗憾的问题。",
+    "en_tdlr": "We propose two strategies to address the reduction of expected regret in multiple contextual stochastic bandit tasks by leveraging their concentration around a low-dimensional affine subspace."
+}

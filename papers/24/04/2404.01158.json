@@ -1,0 +1,12 @@
+{
+    "title": "Dialogue with Robots: Proposals for Broadening Participation and Research in the SLIVAR Community",
+    "abstract": "arXiv:2404.01158v1 Announce Type: new  Abstract: The ability to interact with machines using natural human language is becoming not just commonplace, but expected. The next step is not just text interfaces, but speech interfaces and not just with computers, but with all machines including robots. In this paper, we chronicle the recent history of this growing field of spoken dialogue with robots and offer the community three proposals, the first focused on education, the second on benchmarks, and the third on the modeling of language when it comes to spoken interaction with robots. The three proposals should act as white papers for any researcher to take and build upon.",
+    "link": "https://arxiv.org/abs/2404.01158",
+    "context": "Title: Dialogue with Robots: Proposals for Broadening Participation and Research in the SLIVAR Community\nAbstract: arXiv:2404.01158v1 Announce Type: new  Abstract: The ability to interact with machines using natural human language is becoming not just commonplace, but expected. The next step is not just text interfaces, but speech interfaces and not just with computers, but with all machines including robots. In this paper, we chronicle the recent history of this growing field of spoken dialogue with robots and offer the community three proposals, the first focused on education, the second on benchmarks, and the third on the modeling of language when it comes to spoken interaction with robots. The three proposals should act as white papers for any researcher to take and build upon.",
+    "path": "papers/24/04/2404.01158.json",
+    "total_tokens": 737,
+    "translated_title": "与机器人对话：扩大SLIVAR社区参与和研究的提案",
+    "translated_abstract": "使用自然人类语言与机器进行交互的能力不仅变得司空见惯，而且越来越受到期待。下一个步骤不仅是文本界面，而是语音界面，不仅是与计算机，而是与包括机器人在内的所有机器的对话。在本文中，我们记录了最近这一日益增长的与机器人对话领域的历史，并向社区提供了三个提案，第一个侧重于教育，第二个侧重于基准测试，第三个侧重于在涉及与机器人的口头交互时对语言的建模。这三个提案应该作为任何研究人员可借鉴和建立的白皮书。",
+    "tldr": "本文提出了三项提案：教育、基准测试以及涉及与机器人口头交互时对语言建模的研究，以促进扩大SLIVAR社区参与和研究。",
+    "en_tdlr": "This paper proposes three suggestions: education, benchmark testing, and language modeling for oral interaction with robots, in order to promote broader participation and research in the SLIVAR community."
+}

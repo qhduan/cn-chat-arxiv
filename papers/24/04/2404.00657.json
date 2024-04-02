@@ -1,0 +1,12 @@
+{
+    "title": "Observations on Building RAG Systems for Technical Documents",
+    "abstract": "arXiv:2404.00657v1 Announce Type: cross  Abstract: Retrieval augmented generation (RAG) for technical documents creates challenges as embeddings do not often capture domain information. We review prior art for important factors affecting RAG and perform experiments to highlight best practices and potential challenges to build RAG systems for technical documents.",
+    "link": "https://arxiv.org/abs/2404.00657",
+    "context": "Title: Observations on Building RAG Systems for Technical Documents\nAbstract: arXiv:2404.00657v1 Announce Type: cross  Abstract: Retrieval augmented generation (RAG) for technical documents creates challenges as embeddings do not often capture domain information. We review prior art for important factors affecting RAG and perform experiments to highlight best practices and potential challenges to build RAG systems for technical documents.",
+    "path": "papers/24/04/2404.00657.json",
+    "total_tokens": 507,
+    "translated_title": "关于为技术文档构建RAG系统的观察",
+    "translated_abstract": "RAG（检索增强生成）用于技术文档时存在挑战，因为嵌入通常无法捕捉领域信息。我们回顾了影响RAG的重要因素的先前研究，并进行实验以突出构建技术文档RAG系统的最佳实践和潜在挑战。",
+    "tldr": "研究回顾了对技术文档RAG系统构建的重要因素，并通过实验证明了最佳实践和潜在挑战",
+    "en_tdlr": "The study reviews important factors for building RAG systems for technical documents and highlights best practices and potential challenges through experiments."
+}

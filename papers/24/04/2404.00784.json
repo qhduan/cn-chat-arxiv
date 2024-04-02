@@ -1,0 +1,12 @@
+{
+    "title": "Estimating sample paths of Gauss-Markov processes from noisy data",
+    "abstract": "arXiv:2404.00784v1 Announce Type: cross  Abstract: I derive the pointwise conditional means and variances of an arbitrary Gauss-Markov process, given noisy observations of points on a sample path. These moments depend on the process's mean and covariance functions, and on the conditional moments of the sampled points. I study the Brownian motion and bridge as special cases.",
+    "link": "https://arxiv.org/abs/2404.00784",
+    "context": "Title: Estimating sample paths of Gauss-Markov processes from noisy data\nAbstract: arXiv:2404.00784v1 Announce Type: cross  Abstract: I derive the pointwise conditional means and variances of an arbitrary Gauss-Markov process, given noisy observations of points on a sample path. These moments depend on the process's mean and covariance functions, and on the conditional moments of the sampled points. I study the Brownian motion and bridge as special cases.",
+    "path": "papers/24/04/2404.00784.json",
+    "total_tokens": 597,
+    "translated_title": "从嘈杂数据中估计高斯-马尔可夫过程的样本路径",
+    "translated_abstract": "我推导出了对任意高斯-马尔可夫过程的点态条件均值和方差，考虑了对样本路径上的点进行噪声观测。这些时刻依赖于过程的均值和协方差函数，以及被取样点的条件时刻。我研究了布朗运动和桥接作为特殊情况。",
+    "tldr": "从嘈杂数据中估计高斯-马尔可夫过程的样本路径，研究了对任意高斯-马尔可夫过程的点态条件均值和方差以及特殊情况下的布朗运动和桥接。",
+    "en_tdlr": "Estimating sample paths of Gauss-Markov processes from noisy data, studying the pointwise conditional means and variances for an arbitrary Gauss-Markov process, as well as special cases of Brownian motion and bridge."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "R-Spin: Efficient Speaker and Noise-invariant Representation Learning with Acoustic Pieces",
+    "abstract": "arXiv:2311.09117v2 Announce Type: replace  Abstract: This paper introduces Robust Spin (R-Spin), a data-efficient domain-specific self-supervision method for speaker and noise-invariant speech representations by learning discrete acoustic units with speaker-invariant clustering (Spin). R-Spin resolves Spin's issues and enhances content representations by learning to predict acoustic pieces. R-Spin offers a 12X reduction in computational resources compared to previous state-of-the-art methods while outperforming them in severely distorted speech scenarios. This paper provides detailed analyses to show how discrete units contribute to speech encoder training and improving robustness in diverse acoustic environments.",
+    "link": "https://arxiv.org/abs/2311.09117",
+    "context": "Title: R-Spin: Efficient Speaker and Noise-invariant Representation Learning with Acoustic Pieces\nAbstract: arXiv:2311.09117v2 Announce Type: replace  Abstract: This paper introduces Robust Spin (R-Spin), a data-efficient domain-specific self-supervision method for speaker and noise-invariant speech representations by learning discrete acoustic units with speaker-invariant clustering (Spin). R-Spin resolves Spin's issues and enhances content representations by learning to predict acoustic pieces. R-Spin offers a 12X reduction in computational resources compared to previous state-of-the-art methods while outperforming them in severely distorted speech scenarios. This paper provides detailed analyses to show how discrete units contribute to speech encoder training and improving robustness in diverse acoustic environments.",
+    "path": "papers/23/11/2311.09117.json",
+    "total_tokens": 761,
+    "translated_title": "R-Spin: 高效的说话者和噪声不变表示学习与声学片段",
+    "translated_abstract": "本文介绍了Robust Spin（R-Spin），一种数据高效的领域特定的自我监督方法，用于通过学习具有说话者不变聚类（Spin）的离散声学单元来实现说话者和噪声不变的语音表示。 R-Spin通过学习预测声学片段解决了Spin的问题并增强了内容表示。与先前的最先进方法相比，R-Spin在计算资源上实现了12倍的减少，同时在严重失真的语音场景中表现优异。本文提供了详细分析，展示了离散单元如何有助于语音编码器训练以及在多样的声学环境中提高鲁棒性。",
+    "tldr": "R-Spin是一种高效的领域特定自我监督方法，通过学习离散的声学单元来实现说话者和噪声不变的语音表示，相比之前的方法在计算资源上减少12倍同时在严重失真语音场景中表现更好。",
+    "en_tdlr": "R-Spin is an efficient domain-specific self-supervision method that learns discrete acoustic units to achieve speaker and noise-invariant speech representations, offering a 12X reduction in computational resources compared to previous methods while outperforming them in severely distorted speech scenarios."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Convolution-t Distributions",
+    "abstract": "arXiv:2404.00864v1 Announce Type: new  Abstract: We introduce a new class of multivariate heavy-tailed distributions that are convolutions of heterogeneous multivariate t-distributions. Unlike commonly used heavy-tailed distributions, the multivariate convolution-t distributions embody cluster structures with flexible nonlinear dependencies and heterogeneous marginal distributions. Importantly, convolution-t distributions have simple density functions that facilitate estimation and likelihood-based inference. The characteristic features of convolution-t distributions are found to be important in an empirical analysis of realized volatility measures and help identify their underlying factor structure.",
+    "link": "https://arxiv.org/abs/2404.00864",
+    "context": "Title: Convolution-t Distributions\nAbstract: arXiv:2404.00864v1 Announce Type: new  Abstract: We introduce a new class of multivariate heavy-tailed distributions that are convolutions of heterogeneous multivariate t-distributions. Unlike commonly used heavy-tailed distributions, the multivariate convolution-t distributions embody cluster structures with flexible nonlinear dependencies and heterogeneous marginal distributions. Importantly, convolution-t distributions have simple density functions that facilitate estimation and likelihood-based inference. The characteristic features of convolution-t distributions are found to be important in an empirical analysis of realized volatility measures and help identify their underlying factor structure.",
+    "path": "papers/24/04/2404.00864.json",
+    "total_tokens": 647,
+    "translated_title": "卷积t分布",
+    "translated_abstract": "我们介绍了一类新的多元重尾分布，这些分布是异质多元t分布的卷积。与常用的重尾分布不同，多元卷积t分布体现了具有灵活非线性依赖性和异质边缘分布的簇结构。重要的是，卷积t分布具有简单的密度函数，有助于估计和基于似然的推断。发现卷积t分布的特征在实现波动率测量的经验分析中非常重要，并有助于识别其潜在因子结构。",
+    "tldr": "提出了一种新的多元重尾分布，即卷积t分布，具有灵活的非线性依赖性和简单的密度函数，可在实现波动率测量的分析中发挥重要作用。",
+    "en_tdlr": "Introduced a new class of multivariate heavy-tailed distributions, convolution-t distributions, with flexible nonlinear dependencies and simple density functions, which are important in the empirical analysis of realized volatility measures."
+}

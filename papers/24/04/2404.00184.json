@@ -1,0 +1,12 @@
+{
+    "title": "Word Ladders: A Mobile Application for Semantic Data Collection",
+    "abstract": "arXiv:2404.00184v1 Announce Type: new  Abstract: Word Ladders is a free mobile application for Android and iOS, developed for collecting linguistic data, specifically lists of words related to each other through semantic relations of categorical inclusion, within the Abstraction project (ERC-2021-STG-101039777). We hereby provide an overview of Word Ladders, explaining its game logic, motivation and expected results and applications to nlp tasks as well as to the investigation of cognitive scientific open questions",
+    "link": "https://arxiv.org/abs/2404.00184",
+    "context": "Title: Word Ladders: A Mobile Application for Semantic Data Collection\nAbstract: arXiv:2404.00184v1 Announce Type: new  Abstract: Word Ladders is a free mobile application for Android and iOS, developed for collecting linguistic data, specifically lists of words related to each other through semantic relations of categorical inclusion, within the Abstraction project (ERC-2021-STG-101039777). We hereby provide an overview of Word Ladders, explaining its game logic, motivation and expected results and applications to nlp tasks as well as to the investigation of cognitive scientific open questions",
+    "path": "papers/24/04/2404.00184.json",
+    "total_tokens": 593,
+    "translated_title": "单词阶梯：语义数据收集的移动应用",
+    "translated_abstract": "Word Ladders是一个免费的移动应用，可用于Android和iOS，专为收集语言数据而开发，特别是通过分类包含语义关系相关的单词列表，包括在抽象项目（ERC-2021-STG-101039777）中。我们在此提供Word Ladders的概述，解释其游戏逻辑、动机以及预期结果和应用到nlp任务以及对认知科学开放问题的调查。",
+    "tldr": "Word Ladders是一个用于语义数据收集的移动应用，可通过分类包含的语义关系建立单词列表，具有应用于自然语言处理任务以及认知科学问题调查的潜力。",
+    "en_tdlr": "Word Ladders is a mobile application for semantic data collection that establishes word lists through semantic relations of categorical inclusion, with the potential for applications in natural language processing tasks and investigation of cognitive science questions."
+}

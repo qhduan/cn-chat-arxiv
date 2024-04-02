@@ -1,0 +1,12 @@
+{
+    "title": "94% on CIFAR-10 in 3.29 Seconds on a Single GPU",
+    "abstract": "arXiv:2404.00498v1 Announce Type: new  Abstract: CIFAR-10 is among the most widely used datasets in machine learning, facilitating thousands of research projects per year. To accelerate research and reduce the cost of experiments, we introduce training methods for CIFAR-10 which reach 94% accuracy in 3.29 seconds, 95% in 10.4 seconds, and 96% in 46.3 seconds, when run on a single NVIDIA A100 GPU. As one factor contributing to these training speeds, we propose a derandomized variant of horizontal flipping augmentation, which we show improves over the standard method in every case where flipping is beneficial over no flipping at all. Our code is released at https://github.com/KellerJordan/cifar10-airbench.",
+    "link": "https://arxiv.org/abs/2404.00498",
+    "context": "Title: 94% on CIFAR-10 in 3.29 Seconds on a Single GPU\nAbstract: arXiv:2404.00498v1 Announce Type: new  Abstract: CIFAR-10 is among the most widely used datasets in machine learning, facilitating thousands of research projects per year. To accelerate research and reduce the cost of experiments, we introduce training methods for CIFAR-10 which reach 94% accuracy in 3.29 seconds, 95% in 10.4 seconds, and 96% in 46.3 seconds, when run on a single NVIDIA A100 GPU. As one factor contributing to these training speeds, we propose a derandomized variant of horizontal flipping augmentation, which we show improves over the standard method in every case where flipping is beneficial over no flipping at all. Our code is released at https://github.com/KellerJordan/cifar10-airbench.",
+    "path": "papers/24/04/2404.00498.json",
+    "total_tokens": 747,
+    "translated_title": "在单个GPU上以3.29秒实现CIFAR-10数据集94%准确率",
+    "translated_abstract": "CIFAR-10是机器学习中最广泛使用的数据集之一，每年有数千个研究项目以此为基础。为加速研究并降低实验成本，我们提出了针对CIFAR-10的训练方法，使用单个NVIDIA A100 GPU时，可以在3.29秒内达到94%准确率，10.4秒内达到95%，46.3秒内达到96%。作为加速训练速度的一个因素，我们提出了一种去随机化的水平翻转增强方法，我们展示了该方法在每种情况下均优于标准方法，即在适合水平翻转的所有情况下均有所改善。我们的代码已在https://github.com/KellerJordan/cifar10-airbench上发布。",
+    "tldr": "在单个GPU上以3.29秒实现CIFAR-10数据集94%准确率，并提出了一种改进的水平翻转增强方法。",
+    "en_tdlr": "Achieved 94% accuracy on CIFAR-10 dataset in 3.29 seconds on a single GPU, and proposed an improved horizontal flipping augmentation method."
+}

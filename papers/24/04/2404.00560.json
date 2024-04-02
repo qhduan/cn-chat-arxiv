@@ -1,0 +1,12 @@
+{
+    "title": "A Theory for Length Generalization in Learning to Reason",
+    "abstract": "arXiv:2404.00560v1 Announce Type: new  Abstract: Length generalization (LG) is a challenging problem in learning to reason. It refers to the phenomenon that when trained on reasoning problems of smaller lengths or sizes, the resulting model struggles with problems of larger sizes or lengths. Although LG has been studied by many researchers, the challenge remains. This paper proposes a theoretical study of LG for problems whose reasoning processes can be modeled as DAGs (directed acyclic graphs). The paper first identifies and proves the conditions under which LG can be achieved in learning to reason. It then designs problem representations based on the theory to learn to solve challenging reasoning problems like parity, addition, and multiplication, using a Transformer to achieve perfect LG.",
+    "link": "https://arxiv.org/abs/2404.00560",
+    "context": "Title: A Theory for Length Generalization in Learning to Reason\nAbstract: arXiv:2404.00560v1 Announce Type: new  Abstract: Length generalization (LG) is a challenging problem in learning to reason. It refers to the phenomenon that when trained on reasoning problems of smaller lengths or sizes, the resulting model struggles with problems of larger sizes or lengths. Although LG has been studied by many researchers, the challenge remains. This paper proposes a theoretical study of LG for problems whose reasoning processes can be modeled as DAGs (directed acyclic graphs). The paper first identifies and proves the conditions under which LG can be achieved in learning to reason. It then designs problem representations based on the theory to learn to solve challenging reasoning problems like parity, addition, and multiplication, using a Transformer to achieve perfect LG.",
+    "path": "papers/24/04/2404.00560.json",
+    "total_tokens": 727,
+    "translated_title": "学习推理中长度泛化的理论",
+    "translated_abstract": "长度泛化（LG）是学习推理中的一个挑战性问题。它指的是当在较短长度或大小的推理问题上训练时，所得到的模型在处理较长长度或大小的问题时会遇到困难。尽管许多研究人员已经研究了LG，但挑战依然存在。本文提出了一个针对可以被建模为有向无环图（DAGs）的问题的LG的理论研究。该论文首先确定并证明了在学习推理中可以实现LG的条件。然后基于这一理论设计了问题表示，以学习解决诸如奇偶、加法和乘法等具有挑战性的推理问题，使用Transformer实现完美的LG。",
+    "tldr": "该论文提出了针对学习推理中长度泛化问题的理论研究，设计了基于DAGs的问题表示，并使用Transformer来实现完美的长度泛化。",
+    "en_tdlr": "This paper introduces a theoretical study on length generalization in learning to reason, designs problem representations based on DAGs, and utilizes a Transformer to achieve perfect length generalization."
+}

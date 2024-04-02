@@ -1,0 +1,12 @@
+{
+    "title": "SoK: A Review of Differentially Private Linear Models For High-Dimensional Data",
+    "abstract": "arXiv:2404.01141v1 Announce Type: new  Abstract: Linear models are ubiquitous in data science, but are particularly prone to overfitting and data memorization in high dimensions. To guarantee the privacy of training data, differential privacy can be used. Many papers have proposed optimization techniques for high-dimensional differentially private linear models, but a systematic comparison between these methods does not exist. We close this gap by providing a comprehensive review of optimization methods for private high-dimensional linear models. Empirical tests on all methods demonstrate robust and coordinate-optimized algorithms perform best, which can inform future research. Code for implementing all methods is released online.",
+    "link": "https://arxiv.org/abs/2404.01141",
+    "context": "Title: SoK: A Review of Differentially Private Linear Models For High-Dimensional Data\nAbstract: arXiv:2404.01141v1 Announce Type: new  Abstract: Linear models are ubiquitous in data science, but are particularly prone to overfitting and data memorization in high dimensions. To guarantee the privacy of training data, differential privacy can be used. Many papers have proposed optimization techniques for high-dimensional differentially private linear models, but a systematic comparison between these methods does not exist. We close this gap by providing a comprehensive review of optimization methods for private high-dimensional linear models. Empirical tests on all methods demonstrate robust and coordinate-optimized algorithms perform best, which can inform future research. Code for implementing all methods is released online.",
+    "path": "papers/24/04/2404.01141.json",
+    "total_tokens": 703,
+    "translated_title": "SoK: 高维数据中差分私有线性模型的综述",
+    "translated_abstract": "线性模型在数据科学中随处可见，但在高维度中特别容易出现过拟合和数据记忆。为了保证训练数据的隐私性，可以使用差分隐私。许多论文提出了针对高维度差分私有线性模型的优化技术，但这些方法之间缺乏系统比较。我们通过对私有高维线性模型的优化方法进行全面审查来填补这一空白。对所有方法进行的实证测试表明，鲁棒和优化的坐标算法表现最佳，这可为未来研究提供参考。在线发布了所有方法的实现代码。",
+    "tldr": "本文对高维数据中差分私有线性模型的优化方法进行全面审查，发现鲁棒和优化的坐标算法效果最好，可为未来研究提供参考。",
+    "en_tdlr": "This paper provides a comprehensive review of optimization methods for differentially private linear models in high-dimensional data, finding that robust and coordinate-optimized algorithms perform the best, which can inform future research."
+}

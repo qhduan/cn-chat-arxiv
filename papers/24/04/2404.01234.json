@@ -1,0 +1,12 @@
+{
+    "title": "GFLean: An Autoformalisation Framework for Lean via GF",
+    "abstract": "arXiv:2404.01234v1 Announce Type: new  Abstract: We present an autoformalisation framework for the Lean theorem prover, called GFLean. GFLean uses a high-level grammar writing tool called Grammatical Framework (GF) for parsing and linearisation. GFLean is implemented in Haskell. We explain the functionalities of GFLean, its inner working and discuss its limitations. We also discuss how we can use neural network based translation programs and rule based translation programs together complimenting each other to build robust autoformalisation frameworks.",
+    "link": "https://arxiv.org/abs/2404.01234",
+    "context": "Title: GFLean: An Autoformalisation Framework for Lean via GF\nAbstract: arXiv:2404.01234v1 Announce Type: new  Abstract: We present an autoformalisation framework for the Lean theorem prover, called GFLean. GFLean uses a high-level grammar writing tool called Grammatical Framework (GF) for parsing and linearisation. GFLean is implemented in Haskell. We explain the functionalities of GFLean, its inner working and discuss its limitations. We also discuss how we can use neural network based translation programs and rule based translation programs together complimenting each other to build robust autoformalisation frameworks.",
+    "path": "papers/24/04/2404.01234.json",
+    "total_tokens": 635,
+    "translated_title": "GFLean: 基于GF的Lean自动形式化框架",
+    "translated_abstract": "我们提出了一个名为GFLean的自动形式化框架，用于Lean定理证明器。GFLean使用一种称为Grammatical Framework（GF）的高级语法编写工具进行解析和线性化。GFLean是用Haskell实现的。我们解释了GFLean的功能、内部工作原理并讨论其局限性。我们还讨论了如何将基于神经网络的翻译程序和基于规则的翻译程序结合起来，相互补充，构建强大的自动形式化框架。",
+    "tldr": "GFLean是一个自动形式化框架，通过使用GF进行解析和线性化，同时结合神经网络和规则翻译程序，构建了一个强大的autoformalisation框架。",
+    "en_tdlr": "GFLean is an autoformalisation framework that utilizes GF for parsing and linearization, and combines neural network and rule-based translation programs to build a robust autoformalisation framework."
+}

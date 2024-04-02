@@ -1,0 +1,12 @@
+{
+    "title": "A Novel Sector-Based Algorithm for an Optimized Star-Galaxy Classification",
+    "abstract": "arXiv:2404.01049v1 Announce Type: cross  Abstract: This paper introduces a novel sector-based methodology for star-galaxy classification, leveraging the latest Sloan Digital Sky Survey data (SDSS-DR18). By strategically segmenting the sky into sectors aligned with SDSS observational patterns and employing a dedicated convolutional neural network (CNN), we achieve state-of-the-art performance for star galaxy classification. Our preliminary results demonstrate a promising pathway for efficient and precise astronomical analysis, especially in real-time observational settings.",
+    "link": "https://arxiv.org/abs/2404.01049",
+    "context": "Title: A Novel Sector-Based Algorithm for an Optimized Star-Galaxy Classification\nAbstract: arXiv:2404.01049v1 Announce Type: cross  Abstract: This paper introduces a novel sector-based methodology for star-galaxy classification, leveraging the latest Sloan Digital Sky Survey data (SDSS-DR18). By strategically segmenting the sky into sectors aligned with SDSS observational patterns and employing a dedicated convolutional neural network (CNN), we achieve state-of-the-art performance for star galaxy classification. Our preliminary results demonstrate a promising pathway for efficient and precise astronomical analysis, especially in real-time observational settings.",
+    "path": "papers/24/04/2404.01049.json",
+    "total_tokens": 606,
+    "translated_title": "一种优化的星系分类的新型基于区块的算法",
+    "translated_abstract": "本文介绍了一种新颖的基于区块的星系分类方法，利用最新的Sloan数字天文数据库数据（SDSS-DR18）。通过将天空战略性地分割成与SDSS观测模式对齐的区块，并利用专用卷积神经网络（CNN），我们实现了星系分类的最新性能。我们的初步结果展示了一条在实时观测设置中进行高效和精确天文分析的有前途的道路。",
+    "tldr": "提出了一种基于区块的新型星系分类算法，利用SDSS数据和卷积神经网络，在星系分类领域取得了最新的性能表现。",
+    "en_tdlr": "Introducing a novel sector-based algorithm for optimized star-galaxy classification, leveraging SDSS data and CNN to achieve state-of-the-art performance in the field of star-galaxy classification."
+}

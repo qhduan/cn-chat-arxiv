@@ -1,0 +1,12 @@
+{
+    "title": "LLMs as Writing Assistants: Exploring Perspectives on Sense of Ownership and Reasoning",
+    "abstract": "arXiv:2404.00027v1 Announce Type: cross  Abstract: Sense of ownership in writing confines our investment of thoughts, time, and contribution, leading to attachment to the output. However, using writing assistants introduces a mental dilemma, as some content isn't directly our creation. For instance, we tend to credit Large Language Models (LLMs) more in creative tasks, even though all tasks are equal for them. Additionally, while we may not claim complete ownership of LLM-generated content, we freely claim authorship. We conduct a short survey to examine these issues and understand underlying cognitive processes in order to gain a better knowledge of human-computer interaction in writing and improve writing aid systems.",
+    "link": "https://arxiv.org/abs/2404.00027",
+    "context": "Title: LLMs as Writing Assistants: Exploring Perspectives on Sense of Ownership and Reasoning\nAbstract: arXiv:2404.00027v1 Announce Type: cross  Abstract: Sense of ownership in writing confines our investment of thoughts, time, and contribution, leading to attachment to the output. However, using writing assistants introduces a mental dilemma, as some content isn't directly our creation. For instance, we tend to credit Large Language Models (LLMs) more in creative tasks, even though all tasks are equal for them. Additionally, while we may not claim complete ownership of LLM-generated content, we freely claim authorship. We conduct a short survey to examine these issues and understand underlying cognitive processes in order to gain a better knowledge of human-computer interaction in writing and improve writing aid systems.",
+    "path": "papers/24/04/2404.00027.json",
+    "total_tokens": 710,
+    "translated_title": "LLM作为写作助手：探讨所有权感和推理的视角",
+    "translated_abstract": "写作中的所有权感限制了我们对思想、时间和贡献的投入，导致对产出物的依恋。然而，使用写作助手引入了一种心理困境，因为一些内容并非直接我们的创作。我们往往更倾向于在创造性任务中更多地归功于大型语言模型（LLMs），尽管它们对所有任务都是平等的。此外，虽然我们可能不会完全声称对由LLM生成的内容拥有所有权，但却自由地声称作者身份。我们进行了一项简短调查来研究这些问题，并了解潜在的认知过程，以更好地了解人机交互在写作中的应用并改进写作辅助系统。",
+    "tldr": "探讨使用大型语言模型作为写作助手引发的写作所有权感和作者身份认知之间的心理困境。",
+    "en_tdlr": "Investigating the mental dilemma between the sense of ownership and authorship recognition when using Large Language Models as writing assistants."
+}

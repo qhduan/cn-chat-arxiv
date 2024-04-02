@@ -1,0 +1,12 @@
+{
+    "title": "Attesting Distributional Properties of Training Data for Machine Learning",
+    "abstract": "arXiv:2308.09552v3 Announce Type: replace-cross  Abstract: The success of machine learning (ML) has been accompanied by increased concerns about its trustworthiness. Several jurisdictions are preparing ML regulatory frameworks. One such concern is ensuring that model training data has desirable distributional properties for certain sensitive attributes. For example, draft regulations indicate that model trainers are required to show that training datasets have specific distributional properties, such as reflecting diversity of the population. We propose the notion of property attestation allowing a prover (e.g., model trainer) to demonstrate relevant distributional properties of training data to a verifier (e.g., a customer) without revealing the data. We present an effective hybrid property attestation combining property inference with cryptographic mechanisms.",
+    "link": "https://arxiv.org/abs/2308.09552",
+    "context": "Title: Attesting Distributional Properties of Training Data for Machine Learning\nAbstract: arXiv:2308.09552v3 Announce Type: replace-cross  Abstract: The success of machine learning (ML) has been accompanied by increased concerns about its trustworthiness. Several jurisdictions are preparing ML regulatory frameworks. One such concern is ensuring that model training data has desirable distributional properties for certain sensitive attributes. For example, draft regulations indicate that model trainers are required to show that training datasets have specific distributional properties, such as reflecting diversity of the population. We propose the notion of property attestation allowing a prover (e.g., model trainer) to demonstrate relevant distributional properties of training data to a verifier (e.g., a customer) without revealing the data. We present an effective hybrid property attestation combining property inference with cryptographic mechanisms.",
+    "path": "papers/23/08/2308.09552.json",
+    "total_tokens": 669,
+    "translated_title": "机器学习训练数据分布特性的验证",
+    "translated_abstract": "机器学习的成功伴随着对其可信度的增加关注。一些司法管辖区正在准备机器学习监管框架。其中一个关注点是确保模型训练数据具有某些特定敏感属性的理想分布特性。我们提出了财产证明的概念，允许证明者（例如，模型训练者）向验证者（例如，客户）展示训练数据的相关分布特性，而不泄露数据。我们提出了一种有效的混合财产证明，结合了财产推理与加密机制。",
+    "tldr": "提出了一种新型的财产证明概念，可以在不泄露数据的情况下向验证者展示训练数据的分布特性。",
+    "en_tdlr": "Introduces a novel concept of property attestation to demonstrate the distributional properties of training data to a verifier without revealing the data."
+}

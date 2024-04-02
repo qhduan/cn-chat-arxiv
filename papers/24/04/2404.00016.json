@@ -1,0 +1,12 @@
+{
+    "title": "SOMson -- Sonification of Multidimensional Data in Kohonen Maps",
+    "abstract": "arXiv:2404.00016v1 Announce Type: cross  Abstract: Kohonen Maps, aka. Self-organizing maps (SOMs) are neural networks that visualize a high-dimensional feature space on a low-dimensional map. While SOMs are an excellent tool for data examination and exploration, they inherently cause a loss of detail. Visualizations of the underlying data do not integrate well and, therefore, fail to provide an overall picture. Consequently, we suggest SOMson, an interactive sonification of the underlying data, as a data augmentation technique. The sonification increases the amount of information provided simultaneously by the SOM. Instead of a user study, we present an interactive online example, so readers can explore SOMson themselves. Its strengths, weaknesses, and prospects are discussed.",
+    "link": "https://arxiv.org/abs/2404.00016",
+    "context": "Title: SOMson -- Sonification of Multidimensional Data in Kohonen Maps\nAbstract: arXiv:2404.00016v1 Announce Type: cross  Abstract: Kohonen Maps, aka. Self-organizing maps (SOMs) are neural networks that visualize a high-dimensional feature space on a low-dimensional map. While SOMs are an excellent tool for data examination and exploration, they inherently cause a loss of detail. Visualizations of the underlying data do not integrate well and, therefore, fail to provide an overall picture. Consequently, we suggest SOMson, an interactive sonification of the underlying data, as a data augmentation technique. The sonification increases the amount of information provided simultaneously by the SOM. Instead of a user study, we present an interactive online example, so readers can explore SOMson themselves. Its strengths, weaknesses, and prospects are discussed.",
+    "path": "papers/24/04/2404.00016.json",
+    "total_tokens": 726,
+    "translated_title": "SOMson -- 在Kohonen地图中对多维数据进行音频化",
+    "translated_abstract": "Kohonen Maps，又称自组织映射（SOMs），是一种可以将高维特征空间可视化到低维地图上的神经网络。虽然SOMs是数据审查和探索的绝佳工具，但它们固有地会导致信息丢失。地图下的数据可视化并不完全整合，因此无法提供全局图片。因此，我们建议使用SOMson，一种对数据进行交互音频化的数据增强技术。音频化增加了SOM同时提供的信息量。我们没有进行用户研究，而是提供了一个交互式在线示例，让读者可以自行探索SOMson。我们讨论了其优势、劣势和前景。",
+    "tldr": "SOMson提出了一种交互式音频化技术，用于增强Kohonen地图下数据的信息量，解决SOM在提供整体图片时的缺陷。",
+    "en_tdlr": "SOMson proposes an interactive sonification technique to augment the information content of data in Kohonen Maps, addressing the limitation of SOMs in providing an overall picture."
+}

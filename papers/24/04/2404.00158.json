@@ -1,0 +1,12 @@
+{
+    "title": "Fully Zeroth-Order Bilevel Programming via Gaussian Smoothing",
+    "abstract": "arXiv:2404.00158v1 Announce Type: cross  Abstract: In this paper, we study and analyze zeroth-order stochastic approximation algorithms for solving bilvel problems, when neither the upper/lower objective values, nor their unbiased gradient estimates are available. In particular, exploiting Stein's identity, we first use Gaussian smoothing to estimate first- and second-order partial derivatives of functions with two independent block of variables. We then used these estimates in the framework of a stochastic approximation algorithm for solving bilevel optimization problems and establish its non-asymptotic convergence analysis. To the best of our knowledge, this is the first time that sample complexity bounds are established for a fully stochastic zeroth-order bilevel optimization algorithm.",
+    "link": "https://arxiv.org/abs/2404.00158",
+    "context": "Title: Fully Zeroth-Order Bilevel Programming via Gaussian Smoothing\nAbstract: arXiv:2404.00158v1 Announce Type: cross  Abstract: In this paper, we study and analyze zeroth-order stochastic approximation algorithms for solving bilvel problems, when neither the upper/lower objective values, nor their unbiased gradient estimates are available. In particular, exploiting Stein's identity, we first use Gaussian smoothing to estimate first- and second-order partial derivatives of functions with two independent block of variables. We then used these estimates in the framework of a stochastic approximation algorithm for solving bilevel optimization problems and establish its non-asymptotic convergence analysis. To the best of our knowledge, this is the first time that sample complexity bounds are established for a fully stochastic zeroth-order bilevel optimization algorithm.",
+    "path": "papers/24/04/2404.00158.json",
+    "total_tokens": 731,
+    "translated_title": "完全零阶双层规划通过高斯平滑",
+    "translated_abstract": "在本文中，我们研究并分析了零阶随机逼近算法，用于解决双层问题，即在上/下目标值或其无偏梯度估计均不可用的情况下。特别地，利用Stein's identity，我们首先使用高斯平滑来估计具有两个独立变量块的函数的一阶和二阶偏导数。然后将这些估计值应用于随机逼近算法框架，以解决双层优化问题，并建立其非渐近收敛分析。据我们所知，这是首次为完全随机零阶双层优化算法建立了样本复杂度界限。",
+    "tldr": "通过高斯平滑估计函数的一阶和二阶偏导数，用于解决双层优化问题的全零阶随机逼近算法，并建立了其非渐近收敛分析。",
+    "en_tdlr": "A fully stochastic zeroth-order bilevel optimization algorithm is proposed, utilizing Gaussian smoothing to estimate first- and second-order partial derivatives of functions with two independent block of variables, with established sample complexity bounds."
+}

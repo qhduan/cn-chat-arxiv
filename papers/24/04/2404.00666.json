@@ -1,0 +1,12 @@
+{
+    "title": "Accelerated Parameter-Free Stochastic Optimization",
+    "abstract": "arXiv:2404.00666v1 Announce Type: new  Abstract: We propose a method that achieves near-optimal rates for smooth stochastic convex optimization and requires essentially no prior knowledge of problem parameters. This improves on prior work which requires knowing at least the initial distance to optimality d0. Our method, U-DoG, combines UniXGrad (Kavis et al., 2019) and DoG (Ivgi et al., 2023) with novel iterate stabilization techniques. It requires only loose bounds on d0 and the noise magnitude, provides high probability guarantees under sub-Gaussian noise, and is also near-optimal in the non-smooth case. Our experiments show consistent, strong performance on convex problems and mixed results on neural network training.",
+    "link": "https://arxiv.org/abs/2404.00666",
+    "context": "Title: Accelerated Parameter-Free Stochastic Optimization\nAbstract: arXiv:2404.00666v1 Announce Type: new  Abstract: We propose a method that achieves near-optimal rates for smooth stochastic convex optimization and requires essentially no prior knowledge of problem parameters. This improves on prior work which requires knowing at least the initial distance to optimality d0. Our method, U-DoG, combines UniXGrad (Kavis et al., 2019) and DoG (Ivgi et al., 2023) with novel iterate stabilization techniques. It requires only loose bounds on d0 and the noise magnitude, provides high probability guarantees under sub-Gaussian noise, and is also near-optimal in the non-smooth case. Our experiments show consistent, strong performance on convex problems and mixed results on neural network training.",
+    "path": "papers/24/04/2404.00666.json",
+    "total_tokens": 751,
+    "translated_title": "加速的无参数随机优化",
+    "translated_abstract": "我们提出了一种方法，该方法实现了对平滑随机凸优化的近乎最佳收敛速率，并且基本上不需要先验了解问题参数。这改进了之前的工作，之前的工作需要至少知道到最优解的初始距离 d0。我们的方法 U-DoG 将 UniXGrad (Kavis 等人，2019) 和 DoG (Ivgi 等人，2023) 与新颖的迭代稳定技术相结合。它仅需要对 d0 和噪声幅度有松散的界限，在次高斯噪声下提供高概率保证，并且在非平滑情况下也接近最佳。我们的实验表明，在凸问题上能够稳定地表现强大，在神经网络训练上有着不同的成效。",
+    "tldr": "提出了一种加速的无参数随机优化方法，不需要先验了解问题参数，在平滑随机凸优化的情况下实现了近乎最佳收敛速率并表现强大。",
+    "en_tdlr": "Proposed an accelerated parameter-free stochastic optimization method that achieves near-optimal convergence rates in smooth stochastic convex optimization without requiring prior knowledge of problem parameters, demonstrating strong performance."
+}

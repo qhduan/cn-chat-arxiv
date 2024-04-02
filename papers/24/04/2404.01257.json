@@ -1,0 +1,12 @@
+{
+    "title": "New logarithmic step size for stochastic gradient descent",
+    "abstract": "arXiv:2404.01257v1 Announce Type: new  Abstract: In this paper, we propose a novel warm restart technique using a new logarithmic step size for the stochastic gradient descent (SGD) approach. For smooth and non-convex functions, we establish an $O(\\frac{1}{\\sqrt{T}})$ convergence rate for the SGD. We conduct a comprehensive implementation to demonstrate the efficiency of the newly proposed step size on the ~FashionMinst,~ CIFAR10, and CIFAR100 datasets. Moreover, we compare our results with nine other existing approaches and demonstrate that the new logarithmic step size improves test accuracy by $0.9\\%$ for the CIFAR100 dataset when we utilize a convolutional neural network (CNN) model.",
+    "link": "https://arxiv.org/abs/2404.01257",
+    "context": "Title: New logarithmic step size for stochastic gradient descent\nAbstract: arXiv:2404.01257v1 Announce Type: new  Abstract: In this paper, we propose a novel warm restart technique using a new logarithmic step size for the stochastic gradient descent (SGD) approach. For smooth and non-convex functions, we establish an $O(\\frac{1}{\\sqrt{T}})$ convergence rate for the SGD. We conduct a comprehensive implementation to demonstrate the efficiency of the newly proposed step size on the ~FashionMinst,~ CIFAR10, and CIFAR100 datasets. Moreover, we compare our results with nine other existing approaches and demonstrate that the new logarithmic step size improves test accuracy by $0.9\\%$ for the CIFAR100 dataset when we utilize a convolutional neural network (CNN) model.",
+    "path": "papers/24/04/2404.01257.json",
+    "total_tokens": 727,
+    "translated_title": "随机梯度下降的新对数步长",
+    "translated_abstract": "在本文中，我们提出了一种使用新的对数步长的温暖重启技术，用于随机梯度下降（SGD）方法。对于光滑和非凸函数，我们为SGD建立了一个$O(\\frac{1}{\\sqrt{T}})$的收敛速率。我们进行了全面的实现，以展示新提出的步长在FashionMinst、CIFAR10和CIFAR100数据集上的效率。此外，我们与其他九种现有方法进行了比较，并证明了在使用卷积神经网络（CNN）模型时，新的对数步长可以将CIFAR100数据集的测试准确度提高$0.9\\%$。",
+    "tldr": "提出了一种新的对数步长，通过该步长可改善随机梯度下降方法在非凸函数上的收敛速率，并在CNN模型下将CIFAR100数据集的测试准确度提高了0.9%。",
+    "en_tdlr": "Introduced a new logarithmic step size that improves the convergence rate of stochastic gradient descent on non-convex functions and enhances the test accuracy of the CIFAR100 dataset by 0.9% with a CNN model."
+}

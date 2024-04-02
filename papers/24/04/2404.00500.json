@@ -1,0 +1,12 @@
+{
+    "title": "The Shape of Word Embeddings: Recognizing Language Phylogenies through Topological Data Analysis",
+    "abstract": "arXiv:2404.00500v1 Announce Type: new  Abstract: Word embeddings represent language vocabularies as clouds of $d$-dimensional points. We investigate how information is conveyed by the general shape of these clouds, outside of representing the semantic meaning of each token. Specifically, we use the notion of persistent homology from topological data analysis (TDA) to measure the distances between language pairs from the shape of their unlabeled embeddings. We use these distance matrices to construct language phylogenetic trees over 81 Indo-European languages. Careful evaluation shows that our reconstructed trees exhibit strong similarities to the reference tree.",
+    "link": "https://arxiv.org/abs/2404.00500",
+    "context": "Title: The Shape of Word Embeddings: Recognizing Language Phylogenies through Topological Data Analysis\nAbstract: arXiv:2404.00500v1 Announce Type: new  Abstract: Word embeddings represent language vocabularies as clouds of $d$-dimensional points. We investigate how information is conveyed by the general shape of these clouds, outside of representing the semantic meaning of each token. Specifically, we use the notion of persistent homology from topological data analysis (TDA) to measure the distances between language pairs from the shape of their unlabeled embeddings. We use these distance matrices to construct language phylogenetic trees over 81 Indo-European languages. Careful evaluation shows that our reconstructed trees exhibit strong similarities to the reference tree.",
+    "path": "papers/24/04/2404.00500.json",
+    "total_tokens": 746,
+    "translated_title": "单词嵌入的形状：通过拓扑数据分析识别语言谱系",
+    "translated_abstract": "arXiv:2404.00500v1 类型：新 原文摘要：单词嵌入将语言词汇表示为$d$维空间的点云。我们研究了这些点云的一般形状在除了表示每个令牌的语义意义之外传递信息的方式。具体而言，我们使用拓扑数据分析(TDA)中的持久同调概念来测量从它们未标记的嵌入形状计算的语言对之间的距离。我们使用这些距离矩阵在81种印欧语言之间构建语言谱系树。仔细评估表明我们重建的谱系树与参考树呈现出强烈的相似性。",
+    "tldr": "通过拓扑数据分析识别语言谱系，研究了单词嵌入的形状如何传递信息，重建的语言谱系树与参考树展现出强烈的相似性。",
+    "en_tdlr": "Investigating how the shape of word embeddings conveys information beyond semantic meaning, this study reconstructs language phylogenetic trees using topological data analysis and shows strong similarities to the reference tree."
+}

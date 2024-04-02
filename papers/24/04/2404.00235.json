@@ -1,0 +1,12 @@
+{
+    "title": "Information Security and Privacy in the Digital World: Some Selected Topics",
+    "abstract": "arXiv:2404.00235v1 Announce Type: cross  Abstract: In the era of generative artificial intelligence and the Internet of Things, while there is explosive growth in the volume of data and the associated need for processing, analysis, and storage, several new challenges are faced in identifying spurious and fake information and protecting the privacy of sensitive data. This has led to an increasing demand for more robust and resilient schemes for authentication, integrity protection, encryption, non-repudiation, and privacy-preservation of data. The chapters in this book present some of the state-of-the-art research works in the field of cryptography and security in computing and communications.",
+    "link": "https://arxiv.org/abs/2404.00235",
+    "context": "Title: Information Security and Privacy in the Digital World: Some Selected Topics\nAbstract: arXiv:2404.00235v1 Announce Type: cross  Abstract: In the era of generative artificial intelligence and the Internet of Things, while there is explosive growth in the volume of data and the associated need for processing, analysis, and storage, several new challenges are faced in identifying spurious and fake information and protecting the privacy of sensitive data. This has led to an increasing demand for more robust and resilient schemes for authentication, integrity protection, encryption, non-repudiation, and privacy-preservation of data. The chapters in this book present some of the state-of-the-art research works in the field of cryptography and security in computing and communications.",
+    "path": "papers/24/04/2404.00235.json",
+    "total_tokens": 692,
+    "translated_title": "数字世界中的信息安全与隐私：一些精选主题",
+    "translated_abstract": "在生成式人工智能和物联网时代，随着数据量的爆炸性增长以及与之相关的处理、分析和存储需求，我们面临着识别虚假信息、保护敏感数据隐私等多项新挑战。这导致对于更强大和更具韧性的身份验证、完整性保护、加密、不可否认以及数据隐私保护方案需求不断增加。本书的章节呈现了密码学和计算与通信安全领域一些最前沿的研究工作。",
+    "tldr": "数字世界中的信息安全与隐私面临新挑战，需要更强大和更具韧性的安全方案，这本书呈现了密码学和计算与通信安全领域的最前沿研究。",
+    "en_tdlr": "Information security and privacy in the digital world are facing new challenges, requiring more robust and resilient security solutions, and this book presents some of the cutting-edge research in the field of cryptography and security in computing and communications."
+}

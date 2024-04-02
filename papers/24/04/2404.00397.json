@@ -1,0 +1,12 @@
+{
+    "title": "An Analysis of BPE Vocabulary Trimming in Neural Machine Translation",
+    "abstract": "arXiv:2404.00397v1 Announce Type: new  Abstract: We explore threshold vocabulary trimming in Byte-Pair Encoding subword tokenization, a postprocessing step that replaces rare subwords with their component subwords. The technique is available in popular tokenization libraries but has not been subjected to rigorous scientific scrutiny. While the removal of rare subwords is suggested as best practice in machine translation implementations, both as a means to reduce model size and for improving model performance through robustness, our experiments indicate that, across a large space of hyperparameter settings, vocabulary trimming fails to improve performance, and is even prone to incurring heavy degradation.",
+    "link": "https://arxiv.org/abs/2404.00397",
+    "context": "Title: An Analysis of BPE Vocabulary Trimming in Neural Machine Translation\nAbstract: arXiv:2404.00397v1 Announce Type: new  Abstract: We explore threshold vocabulary trimming in Byte-Pair Encoding subword tokenization, a postprocessing step that replaces rare subwords with their component subwords. The technique is available in popular tokenization libraries but has not been subjected to rigorous scientific scrutiny. While the removal of rare subwords is suggested as best practice in machine translation implementations, both as a means to reduce model size and for improving model performance through robustness, our experiments indicate that, across a large space of hyperparameter settings, vocabulary trimming fails to improve performance, and is even prone to incurring heavy degradation.",
+    "path": "papers/24/04/2404.00397.json",
+    "total_tokens": 683,
+    "translated_title": "对神经机器翻译中的BPE词汇修剪进行分析",
+    "translated_abstract": "我们探讨了在字节对编码子词标记化中的阈值词汇修剪，这是一种后处理步骤，用其组成子词替换稀有子词的技术。这种技术在流行的标记化库中可用，但尚未经过严格的科学检验。虽然在机器翻译实现中建议删除稀有子词作为最佳实践，既可减小模型大小，又可通过提高鲁棒性来改善模型性能，但我们的实验表明，在大量的超参数设置空间中，词汇修剪未能提高性能，甚至往往导致严重的性能下降。",
+    "tldr": "在神经机器翻译中，对BPE词汇进行修剪不能提高性能，甚至可能导致严重的性能下降。",
+    "en_tdlr": "Trimming BPE vocabulary in neural machine translation does not improve performance and may even lead to significant degradation."
+}

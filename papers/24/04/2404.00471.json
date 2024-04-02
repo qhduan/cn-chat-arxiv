@@ -1,0 +1,12 @@
+{
+    "title": "Score-Based Diffusion Models for Photoacoustic Tomography Image Reconstruction",
+    "abstract": "arXiv:2404.00471v1 Announce Type: cross  Abstract: Photoacoustic tomography (PAT) is a rapidly-evolving medical imaging modality that combines optical absorption contrast with ultrasound imaging depth. One challenge in PAT is image reconstruction with inadequate acoustic signals due to limited sensor coverage or due to the density of the transducer array. Such cases call for solving an ill-posed inverse reconstruction problem. In this work, we use score-based diffusion models to solve the inverse problem of reconstructing an image from limited PAT measurements. The proposed approach allows us to incorporate an expressive prior learned by a diffusion model on simulated vessel structures while still being robust to varying transducer sparsity conditions.",
+    "link": "https://arxiv.org/abs/2404.00471",
+    "context": "Title: Score-Based Diffusion Models for Photoacoustic Tomography Image Reconstruction\nAbstract: arXiv:2404.00471v1 Announce Type: cross  Abstract: Photoacoustic tomography (PAT) is a rapidly-evolving medical imaging modality that combines optical absorption contrast with ultrasound imaging depth. One challenge in PAT is image reconstruction with inadequate acoustic signals due to limited sensor coverage or due to the density of the transducer array. Such cases call for solving an ill-posed inverse reconstruction problem. In this work, we use score-based diffusion models to solve the inverse problem of reconstructing an image from limited PAT measurements. The proposed approach allows us to incorporate an expressive prior learned by a diffusion model on simulated vessel structures while still being robust to varying transducer sparsity conditions.",
+    "path": "papers/24/04/2404.00471.json",
+    "total_tokens": 770,
+    "translated_title": "基于评分的扩散模型用于光声 tomography 图像重建",
+    "translated_abstract": "光声断层扫描（PAT）是一种迅速发展的医学成像技术，它将光学吸收对比与超声成像深度相结合。PAT 中的一个挑战是由于传感器覆盖范围有限或换能器阵列的密度不足而导致声学信号不足，这种情况需要解决一个逆问题。本研究使用基于评分的扩散模型来解决从有限的PAT测量中重建图像的逆问题。所提出的方法允许我们在对模拟血管结构进行扩散模型学习的基础上，同时在不同的换能器稀疏条件下仍然具有鲁棒性。",
+    "tldr": "本研究提出了使用基于评分的扩散模型来解决光声 tomography 图像重建中由于有限传感器覆盖或换能器密度不足而导致的逆问题，该方法能够在不同的换能器稀疏条件下保持鲁棒性。",
+    "en_tdlr": "This study proposes the use of score-based diffusion models to solve the inverse problem in photoacoustic tomography image reconstruction caused by limited sensor coverage or transducer array density, which remains robust under different transducer sparsity conditions."
+}
