@@ -1,0 +1,12 @@
+{
+    "title": "Africa-Centric Self-Supervised Pre-Training for Multilingual Speech Representation in a Sub-Saharan Context",
+    "abstract": "arXiv:2404.02000v1 Announce Type: new  Abstract: We present the first self-supervised multilingual speech model trained exclusively on African speech. The model learned from nearly 60 000 hours of unlabeled speech segments in 21 languages and dialects spoken in sub-Saharan Africa. On the SSA subset of the FLEURS-102 dataset, our approach based on a HuBERT$_{base}$ (0.09B) architecture shows competitive results, for ASR downstream task, compared to the w2v-bert-51 (0.6B) pre-trained model proposed in the FLEURS benchmark, while being more efficient by using 7x less data and 6x less parameters. Furthermore, in the context of a LID downstream task, our approach outperforms FLEURS baselines accuracy by over 22\\%.",
+    "link": "https://arxiv.org/abs/2404.02000",
+    "context": "Title: Africa-Centric Self-Supervised Pre-Training for Multilingual Speech Representation in a Sub-Saharan Context\nAbstract: arXiv:2404.02000v1 Announce Type: new  Abstract: We present the first self-supervised multilingual speech model trained exclusively on African speech. The model learned from nearly 60 000 hours of unlabeled speech segments in 21 languages and dialects spoken in sub-Saharan Africa. On the SSA subset of the FLEURS-102 dataset, our approach based on a HuBERT$_{base}$ (0.09B) architecture shows competitive results, for ASR downstream task, compared to the w2v-bert-51 (0.6B) pre-trained model proposed in the FLEURS benchmark, while being more efficient by using 7x less data and 6x less parameters. Furthermore, in the context of a LID downstream task, our approach outperforms FLEURS baselines accuracy by over 22\\%.",
+    "path": "papers/24/04/2404.02000.json",
+    "total_tokens": 802,
+    "translated_title": "非洲中心自监督预训练技术在撒哈拉以南地区的多语言语音表征中的应用",
+    "translated_abstract": "我们提出了第一个仅在非洲语音上进行训练的自监督多语言语音模型。该模型从撒哈拉以南非洲地区讲话的21种语言和方言中学习了近60,000小时的未标记语音片段。在FLEURS-102数据集的SSA子集上，我们基于HuBERT$_{base}$ (0.09B) 架构的方法展现出了具有竞争力的结果，与FLEURS基准提出的w2v-bert-51 (0.6B) 预训练模型相比，在ASR下游任务中更加高效，使用的数据量少7倍，参数少6倍。此外，在LID下游任务中，我们的方法在准确率上超过FLEURS基线超过22%。",
+    "tldr": "这项研究提出了首个仅在非洲语音上进行训练的自监督多语言语音模型，相比于常规方法，更高效并在ASR和LID任务中表现出竞争力。",
+    "en_tdlr": "This study introduces the first self-supervised multilingual speech model trained exclusively on African speech, which is more efficient and competitive in ASR and LID tasks compared to conventional methods."
+}

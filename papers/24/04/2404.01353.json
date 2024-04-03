@@ -1,0 +1,12 @@
+{
+    "title": "Efficiently Distilling LLMs for Edge Applications",
+    "abstract": "arXiv:2404.01353v1 Announce Type: cross  Abstract: Supernet training of LLMs is of great interest in industrial applications as it confers the ability to produce a palette of smaller models at constant cost, regardless of the number of models (of different size / latency) produced. We propose a new method called Multistage Low-rank Fine-tuning of Super-transformers (MLFS) for parameter-efficient supernet training. We show that it is possible to obtain high-quality encoder models that are suitable for commercial edge applications, and that while decoder-only models are resistant to a comparable degree of compression, decoders can be effectively sliced for a significant reduction in training time.",
+    "link": "https://arxiv.org/abs/2404.01353",
+    "context": "Title: Efficiently Distilling LLMs for Edge Applications\nAbstract: arXiv:2404.01353v1 Announce Type: cross  Abstract: Supernet training of LLMs is of great interest in industrial applications as it confers the ability to produce a palette of smaller models at constant cost, regardless of the number of models (of different size / latency) produced. We propose a new method called Multistage Low-rank Fine-tuning of Super-transformers (MLFS) for parameter-efficient supernet training. We show that it is possible to obtain high-quality encoder models that are suitable for commercial edge applications, and that while decoder-only models are resistant to a comparable degree of compression, decoders can be effectively sliced for a significant reduction in training time.",
+    "path": "papers/24/04/2404.01353.json",
+    "total_tokens": 666,
+    "translated_title": "用于边缘应用的LLM高效提取方法",
+    "translated_abstract": "在工业应用中，LLMs的超网络训练具有很大的重要性，因为它赋予了以固定成本产生不同大小/延迟模型的能力。我们提出了一种名为MLFS的新方法，用于高效参数的超网络训练。我们展示了可以获得适用于商业边缘应用的高质量编码器模型，并且虽然仅解码器模型对压缩具有相当的抵抗力，但可以有效地对解码器进行切片以大幅减少训练时间。",
+    "tldr": "提出了一种名为MLFS的新方法，用于高效参数的超网络训练，可以获得适用于商业边缘应用的高质量编码器模型，并有效地减少训练时间。",
+    "en_tdlr": "Introduced a new method called MLFS for parameter-efficient supernet training, obtaining high-quality encoder models suitable for commercial edge applications and effectively reducing training time."
+}

@@ -2,138 +2,147 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Using Machine Learning to Forecast Market Direction with Efficient Frontier Coefficients](https://arxiv.org/abs/2404.00825) | 提出了一种利用机器学习预测市场方向的新方法，该方法使用有效边界系数进行资产回报估计，并将市场预测集成到投资组合优化框架中。 |
-| [^2] | [Algorithmic Collusion by Large Language Models](https://arxiv.org/abs/2404.00806) | 大型语言模型的算法定价代理在寡头市场环境中自主勾结，对消费者利益有害，其说明书中的短语变化可能增加勾结。 |
-| [^3] | [From attention to profit: quantitative trading strategy based on transformer](https://arxiv.org/abs/2404.00424) | 该研究介绍了一种基于Transformer的量化交易策略，利用改进的模型架构和情感分析的迁移学习，不仅在捕捉长期依赖关系和建模数据关系方面具有优势，而且能够准确预测未来一段时间内的回报。 |
-| [^4] | [Portfolio management using graph centralities: Review and comparison](https://arxiv.org/abs/2404.00187) | 通过比较新的中心性度量和传统方法，本研究发现基于网络中心性的投资组合优化方法在标准普尔500股票上表现出更好的结果。 |
-| [^5] | [Shared Hardships Strengthen Bonds: Negative Shocks, Embeddedness and Employee Retention](https://arxiv.org/abs/2404.00183) | 明确为负面冲击可以增加员工留任，通过设备相关的冲击导致员工对公司的情感承诺增加，突出了激励一致性在冲击转化为留任中的关键作用。 |
-| [^6] | [Temporal Graph Networks for Graph Anomaly Detection in Financial Networks](https://arxiv.org/abs/2404.00060) | 时间图网络（TGN）在金融网络中的异常检测中表现出显著优势，适应了现代金融系统动态和复杂的特性。 |
-| [^7] | [Investigating Similarities Across Decentralized Financial (DeFi) Services](https://arxiv.org/abs/2404.00034) | 该研究通过采用图表示学习算法，提出了一种方法来研究去中心化金融协议提供的服务之间的相似性，并成功将这些服务分组为具有相似功能的集群。 |
-| [^8] | [Antinetwork among China A-shares](https://arxiv.org/abs/2404.00028) | 本研究首次考虑了负相关性和正相关性，构建了中国A股上市股票之间的加权时间反网络和网络，揭示了在21世纪前24年期间（反）网络之间节点度和强度、同配性系数、平均局部聚类系数以及平均最短路径长度等方面的一些重要差异 |
-| [^9] | [Empowering Credit Scoring Systems with Quantum-Enhanced Machine Learning](https://arxiv.org/abs/2404.00015) | 提出了一种名为Systemic Quantum Score (SQS)的新方法，展示在金融领域生产级应用案例中相比纯经典模型更有优势，能够从较少数据点中提取模式并表现出更好性能。 |
-| [^10] | [Missing Data Imputation With Granular Semantics and AI-driven Pipeline for Bankruptcy Prediction](https://arxiv.org/abs/2404.00013) | 本文介绍了一种具有精确语义的缺失数据插补方法，通过在粒空间中利用特征语义和可靠观测来预测缺失值，从而解决了破产预测中的重要挑战。 |
-| [^11] | [Stress index strategy enhanced with financial news sentiment analysis for the equity markets](https://arxiv.org/abs/2404.00012) | 通过将金融压力指标与财经新闻情感分析相结合，提高了股票市场的风险控制策略表现。 |
-| [^12] | [Labor Market Effects of the Venezuelan Refugee Crisis in Brazil](https://arxiv.org/abs/2302.04201) | 巴西委内瑞拉难民危机对罗赖马州劳动力市场的影响表明，虽然巴西人的月工资增加约2％，但主要受无难民参与的部门和职业影响，同时非正规市场中的移民抵消了正规市场的替代效应。 |
-| [^13] | [Time-aware Metapath Feature Augmentation for Ponzi Detection in Ethereum](https://arxiv.org/abs/2210.16863) | 该研究介绍了一种用于以太坊Ponzi检测的时序元路径特征增强方法，旨在捕获交易模式信息中的时间依赖性。 |
-| [^14] | [A Pomeranzian Growth Theory of the Great Divergence](https://arxiv.org/abs/2108.03110) | 基于欧洲土地限制缓解导致的大分歧假设，这个研究构建了一个增长模型，对农业和制造业部门进行了形式化，并展示了经济从马尔萨斯状态向非马尔萨斯状态转变的过程。 |
-| [^15] | [Influencing Competition Through Shelf Design](https://arxiv.org/abs/2010.09227) | 货架设计对产品需求有显著影响，研究发现竞争效应通常更强，但并非总是如此。 |
-| [^16] | [Productivity, Inputs Misallocation, and the Financial Crisis.](http://arxiv.org/abs/2306.08760) | 本文对定量衡量同质产业内资源错配的常规方法进行了重新评估，并提出了一种基于已识别的政策变化的比较分析策略。研究表明，金融危机对生产要素的影响导致资源配置严重失调，而政策干预可能会损害整体经济效率。 |
+| [^1] | [BERTopic-Driven Stock Market Predictions: Unraveling Sentiment Insights](https://arxiv.org/abs/2404.02053) | 这项研究利用BERTopic分析股市评论中的情感，整合深度学习模型，显示情感分析显著提升了股市预测性能，揭示了NLP在丰富金融分析方面的潜力。 |
+| [^2] | [Supervised Autoencoder MLP for Financial Time Series Forecasting](https://arxiv.org/abs/2404.01866) | 通过监督型自编码器的使用和参数调整，可以显著提升金融时间序列预测的效果，对投资策略性能有重要影响。 |
+| [^3] | [Multicriteria Analysis Model in Sustainable Corn Farming Area Planning](https://arxiv.org/abs/2404.01782) | 该研究开发了一个多准则分析模型，通过整合生态、经济和社会方面来评估可持续玉米农业区规划的替代方案。 |
+| [^4] | [Intelligent Optimization of Mine Environmental Damage Assessment and Repair Strategies Based on Deep Learning](https://arxiv.org/abs/2404.01624) | 本研究使用了LSTM-GRU门控长短期记忆网络模型和支持向量机（SVM），构建了一套主动投资股票策略，以优化矿山环境损害评估和修复策略。 |
+| [^5] | [Watanabe's expansion: A Solution for the convexity conundrum](https://arxiv.org/abs/2404.01522) | 提出了一种用于定价CMS衍生品的新方法，并应用Watanabe的扩展到不同波动率情况下进行数值比较 |
+| [^6] | [Non-stationary Financial Risk Factors and Macroeconomic Vulnerability for the UK](https://arxiv.org/abs/2404.01451) | 本研究提出非稳态因子模型作为金融压力的衡量，能够捕捉分布的尾部 |
+| [^7] | [Automatic detection of relevant information, predictions and forecasts in financial news through topic modelling with Latent Dirichlet Allocation](https://arxiv.org/abs/2404.01338) | 该研究提出了一种新颖的自然语言处理系统，通过Latent Dirichlet Allocation (LDA)进行相关的主题建模，帮助投资者从非结构化文本源中检测财经事件中的相关信息、预测和预测 |
+| [^8] | [Detection of Temporality at Discourse Level on Financial News by Combining Natural Language Processing and Machine Learning](https://arxiv.org/abs/2404.01337) | 通过结合自然语言处理和机器学习技术，提出了一种新颖的系统，旨在在金融新闻中检测篇章级别的关键声明的时间性，以分析句法和语义依赖关系，区分上下文信息和有价值的预测。 |
+| [^9] | [Methods of Stochastic Field Theory in Non-Equilibrium Systems -- Spontaneous Symmetry Breaking of Ergodicity](https://arxiv.org/abs/2404.01333) | 研究了非平衡系统中随机场理论的方法，探讨了对称性破缺现象和自发对称性破缺的起源和影响。 |
+| [^10] | [Empowering Credit Scoring Systems with Quantum-Enhanced Machine Learning](https://arxiv.org/abs/2404.00015) | 提出了一种名为Systemic Quantum Score (SQS)的新方法，展示在金融领域生产级应用案例中相比纯经典模型更有优势，能够从较少数据点中提取模式并表现出更好性能。 |
+| [^11] | [Optimal transmission expansion planning in the context of renewable energy integration policies.](http://arxiv.org/abs/2302.10562) | 本文研究了在可再生能源整合政策背景下，输电系统基础设施扩建对能源市场结构的影响。利用优化模型，我们考虑了投资运营商和发电公司在竞争市场中的决策，研究了不同因素对可再生能源份额的影响。 |
 
 # 详细
 
-[^1]: 利用机器学习预测市场方向与有效边界系数
+[^1]: BERTopic驱动的股市预测：解析情感洞见
 
-    Using Machine Learning to Forecast Market Direction with Efficient Frontier Coefficients
+    BERTopic-Driven Stock Market Predictions: Unraveling Sentiment Insights
 
-    [https://arxiv.org/abs/2404.00825](https://arxiv.org/abs/2404.00825)
+    [https://arxiv.org/abs/2404.02053](https://arxiv.org/abs/2404.02053)
 
-    提出了一种利用机器学习预测市场方向的新方法，该方法使用有效边界系数进行资产回报估计，并将市场预测集成到投资组合优化框架中。
-
-    
-
-    我们提出了一种新方法，用于改善投资组合优化中资产回报的估计。该方法首先使用在线决策树执行月度市场方向预测。决策树是在从投资组合理论中提取的一组新特征上进行训练的：有效边界函数系数。有效边界可以被分解为其函数形式，即平方根二次多项式，该函数的系数捕捉了组成当前时间段市场的所有成分的信息。为了使这些预测可操作，这些方向预测被集成到一个投资组合优化框架中，该框架使用基于市场预测的预期回报作为回报向量的估计。这个条件期望是使用倒数密尔斯比率来计算的，资本资产定价模型用于将市场预测转化为个体
-
-    arXiv:2404.00825v1 Announce Type: new  Abstract: We propose a novel method to improve estimation of asset returns for portfolio optimization. This approach first performs a monthly directional market forecast using an online decision tree. The decision tree is trained on a novel set of features engineered from portfolio theory: the efficient frontier functional coefficients. Efficient frontiers can be decomposed to their functional form, a square-root second-order polynomial, and the coefficients of this function captures the information of all the constituents that compose the market in the current time period. To make these forecasts actionable, these directional forecasts are integrated to a portfolio optimization framework using expected returns conditional on the market forecast as an estimate for the return vector. This conditional expectation is calculated using the inverse Mills ratio, and the Capital Asset Pricing Model is used to translate the market forecast to individual as
-    
-[^2]: 大型语言模型的算法勾结
-
-    Algorithmic Collusion by Large Language Models
-
-    [https://arxiv.org/abs/2404.00806](https://arxiv.org/abs/2404.00806)
-
-    大型语言模型的算法定价代理在寡头市场环境中自主勾结，对消费者利益有害，其说明书中的短语变化可能增加勾结。
+    这项研究利用BERTopic分析股市评论中的情感，整合深度学习模型，显示情感分析显著提升了股市预测性能，揭示了NLP在丰富金融分析方面的潜力。
 
     
 
-    arXiv:2404.00806v1 公告类型:交叉摘要:算法定价的兴起引起了对算法勾结的担忧。我们对基于大型语言模型（LLMs）特别是GPT-4的算法定价代理进行实验。我们发现：（1）基于LLM的代理在定价任务上表现出色，（2）基于LLM的定价代理在寡头市场环境中自主勾结，损害消费者利益，（3）LLM说明书中看似无害短语("提示")的变化可能会增加勾结。这些结果也适用于拍卖设置。我们的发现强调了有关算法定价的反垄断监管的必要性，并发现了基于LLM的定价代理所面临的监管挑战。
+    这篇论文探讨了自然语言处理（NLP）和金融分析的交叉领域，重点关注情感分析在股价预测中的影响。我们采用了BERTopic，一种先进的NLP技术，分析从股市评论中得出的主题的情感。我们的方法将这种情感分析与各种深度学习模型相整合，这些模型以其在时间序列和股票预测任务中的有效性而闻名。通过全面的实验，我们证明了整合主题情感显著提升了这些模型的性能。结果表明，股市评论中的主题提供了对股市波动和价格趋势的隐含、有价值的洞见。这项研究通过展示NLP在丰富金融分析方面的潜力，为实时情感分析和探索情感和情景相关性打开了研究途径。
 
-    arXiv:2404.00806v1 Announce Type: cross  Abstract: The rise of algorithmic pricing raises concerns of algorithmic collusion. We conduct experiments with algorithmic pricing agents based on Large Language Models (LLMs), and specifically GPT-4. We find that (1) LLM-based agents are adept at pricing tasks, (2) LLM-based pricing agents autonomously collude in oligopoly settings to the detriment of consumers, and (3) variation in seemingly innocuous phrases in LLM instructions ("prompts") may increase collusion. These results extend to auction settings. Our findings underscore the need for antitrust regulation regarding algorithmic pricing, and uncover regulatory challenges unique to LLM-based pricing agents.
+    arXiv:2404.02053v1 Announce Type: new  Abstract: This paper explores the intersection of Natural Language Processing (NLP) and financial analysis, focusing on the impact of sentiment analysis in stock price prediction. We employ BERTopic, an advanced NLP technique, to analyze the sentiment of topics derived from stock market comments. Our methodology integrates this sentiment analysis with various deep learning models, renowned for their effectiveness in time series and stock prediction tasks. Through comprehensive experiments, we demonstrate that incorporating topic sentiment notably enhances the performance of these models. The results indicate that topics in stock market comments provide implicit, valuable insights into stock market volatility and price trends. This study contributes to the field by showcasing the potential of NLP in enriching financial analysis and opens up avenues for further research into real-time sentiment analysis and the exploration of emotional and contextua
     
-[^3]: 从注意力到利润：基于Transformer的量化交易策略
+[^2]: 监督型自编码器多层感知机用于金融时间序列预测
 
-    From attention to profit: quantitative trading strategy based on transformer
+    Supervised Autoencoder MLP for Financial Time Series Forecasting
 
-    [https://arxiv.org/abs/2404.00424](https://arxiv.org/abs/2404.00424)
+    [https://arxiv.org/abs/2404.01866](https://arxiv.org/abs/2404.01866)
 
-    该研究介绍了一种基于Transformer的量化交易策略，利用改进的模型架构和情感分析的迁移学习，不仅在捕捉长期依赖关系和建模数据关系方面具有优势，而且能够准确预测未来一段时间内的回报。
-
-    
-
-    传统量化交易实践中，应对复杂动态的金融市场一直是个持久挑战。先前的机器学习方法往往难以充分捕捉各种市场变量，经常忽视长期信息并且无法捕捉可能带来利润的基本信号。本文引入了改进的Transformer架构，并设计了一个基于该模型的新型因子。通过从情感分析进行迁移学习，所提出的模型不仅发挥了其原有的长距离依赖捕捉和建模复杂数据关系的优势，而且能够处理具有数值输入的任务，并准确预测未来一段时间内的回报。该研究收集了2010年至2019年中国资本市场4,601只股票的5,000,000多条滚动数据。研究结果证明了该模型在预测股票表现方面的卓越性能。
-
-    arXiv:2404.00424v1 Announce Type: cross  Abstract: In traditional quantitative trading practice, navigating the complicated and dynamic financial market presents a persistent challenge. Former machine learning approaches have struggled to fully capture various market variables, often ignore long-term information and fail to catch up with essential signals that may lead the profit. This paper introduces an enhanced transformer architecture and designs a novel factor based on the model. By transfer learning from sentiment analysis, the proposed model not only exploits its original inherent advantages in capturing long-range dependencies and modelling complex data relationships but is also able to solve tasks with numerical inputs and accurately forecast future returns over a period. This work collects more than 5,000,000 rolling data of 4,601 stocks in the Chinese capital market from 2010 to 2019. The results of this study demonstrated the model's superior performance in predicting stock
-    
-[^4]: 使用图中心性的投资组合管理: 回顾与比较
-
-    Portfolio management using graph centralities: Review and comparison
-
-    [https://arxiv.org/abs/2404.00187](https://arxiv.org/abs/2404.00187)
-
-    通过比较新的中心性度量和传统方法，本研究发现基于网络中心性的投资组合优化方法在标准普尔500股票上表现出更好的结果。
+    通过监督型自编码器的使用和参数调整，可以显著提升金融时间序列预测的效果，对投资策略性能有重要影响。
 
     
 
-    我们调查了将网络中心性度量应用于投资组合优化的方法，通过概括[Pozzi, Di Matteo and Aste, \emph{风险在金融市场间的传播: 更好地投资于外围}, Scientific Reports 3:1665, 2013]中的方法，但该方法相对于网络理论的最新成果存在显著局限性。在本文中，我们系统比较了最初提出的方法在标准普尔500股票上的许多可能变体。我们使用了27年的每日数据作为训练集，以及随后一年作为测试集。因此，我们根据不同的观点选择了最佳的基于网络的方法，包括例如最高的夏普比率和最高的预期收益。我们强调了新的中心性度量，并进行了彻底的分析，结果显示与传统方法相比有显著更强的结果。根据我们的分析，这种方法为投资组合选择提供了多种优势，包括更高的收益和更好的风险分散。
+    本文研究了如何通过使用神经网络中的监督型自编码器来增强金融时间序列预测，旨在改善投资策略表现。具体研究了噪声增强和三重障碍标记对风险调整回报的影响，使用夏普比率和信息比率。研究重点关注了从2010年1月1日至2022年4月30日期间作为交易资产的标普500指数，EUR/USD和BTC/USD。研究结果表明，具有平衡噪声增强和瓶颈大小的监督型自编码器显著提升了策略效果。然而，过多的噪声和大的瓶颈大小可能会损害表现，突出了精确参数调整的重要性。本文还提出了一种新的优化指标的推导，可与三重障碍标记一起使用。这项研究的结果对政策具有重要影响，暗示金融市场预测工具的持续改进。
 
-    arXiv:2404.00187v1 Announce Type: new  Abstract: We investigate an application of network centrality measures to portfolio optimization, by generalizing the method in [Pozzi, Di Matteo and Aste, \emph{Spread of risks across financial markets: better to invest in the peripheries}, Scientific Reports 3:1665, 2013], that however had significant limitations with respect to the state of the art in network theory. In this paper, we systematically compare many possible variants of the originally proposed method on S\&P 500 stocks. We use daily data from twenty-seven years as training set and their following year as test set. We thus select the best network-based methods according to different viewpoints including for instance the highest Sharpe Ratio and the highest expected return. We give emphasis in new centrality measures and we also conduct a thorough analysis, which reveals significantly stronger results compared to those with more traditional methods. According to our analysis, this gr
+    arXiv:2404.01866v1 Announce Type: new  Abstract: This paper investigates the enhancement of financial time series forecasting with the use of neural networks through supervised autoencoders, aiming to improve investment strategy performance. It specifically examines the impact of noise augmentation and triple barrier labeling on risk-adjusted returns, using the Sharpe and Information Ratios. The study focuses on the S&P 500 index, EUR/USD, and BTC/USD as the traded assets from January 1, 2010, to April 30, 2022. Findings indicate that supervised autoencoders, with balanced noise augmentation and bottleneck size, significantly boost strategy effectiveness. However, excessive noise and large bottleneck sizes can impair performance, highlighting the importance of precise parameter tuning. This paper also presents a derivation of a novel optimization metric that can be used with triple barrier labeling. The results of this study have substantial policy implications, suggesting that financi
     
-[^5]: 分享困境增强联系：负面冲击、内嵌性和员工留任
+[^3]: 可持续玉米种植区规划中的多准则分析模型
 
-    Shared Hardships Strengthen Bonds: Negative Shocks, Embeddedness and Employee Retention
+    Multicriteria Analysis Model in Sustainable Corn Farming Area Planning
 
-    [https://arxiv.org/abs/2404.00183](https://arxiv.org/abs/2404.00183)
+    [https://arxiv.org/abs/2404.01782](https://arxiv.org/abs/2404.01782)
 
-    明确为负面冲击可以增加员工留任，通过设备相关的冲击导致员工对公司的情感承诺增加，突出了激励一致性在冲击转化为留任中的关键作用。
-
-    
-
-    意外事件——“冲击”——是解释内嵌性和员工留任变化的动力，在劳动力流动的不断演变模型中发挥作用。大量研究努力探讨如何让受重视的员工免受不利冲击。然而，本文提供实证证据表明，当公司和员工与这些冲击相关的激励相一致时，明确为负面冲击可以增加员工留任。通过对来自21家卡车公司的466,236条通信记录和45,873次就业记录的独特数据集进行生存分析，我们展示了设备相关的冲击往往会延长就业期限。 设备冲击还产生矛盾的积极情绪，表明员工对公司的情感承诺增加。我们的结果突出了激励一致性在冲击最终如何转化为留任中的重要调节作用。
-
-    arXiv:2404.00183v1 Announce Type: new  Abstract: Unexpected events -- "shocks" -- are the motive force in explaining changes in embeddedness and retention within the unfolding model of labor turnover. Substantial research effort has examined strategies for insulating valued employees from adverse shocks. However, this paper provides empirical evidence that unambiguously negative shocks can increase employee retention when underlying firm and employee incentives with respect to these shocks are aligned. Using survival analysis on a unique data set of 466,236 communication records and 45,873 employment spells from 21 trucking companies, we show how equipment-related shocks tend to increase the duration of employment. Equipment shocks also generate paradoxically positive sentiments that demonstrate an increase in employees' affective commitment to the firm. Our results highlight the important moderating role aligned incentives have in how shocks ultimately translate into retention. Shared
-    
-[^6]: 金融网络中的时间图网络用于异常检测
-
-    Temporal Graph Networks for Graph Anomaly Detection in Financial Networks
-
-    [https://arxiv.org/abs/2404.00060](https://arxiv.org/abs/2404.00060)
-
-    时间图网络（TGN）在金融网络中的异常检测中表现出显著优势，适应了现代金融系统动态和复杂的特性。
+    该研究开发了一个多准则分析模型，通过整合生态、经济和社会方面来评估可持续玉米农业区规划的替代方案。
 
     
 
-    本文探讨了利用时间图网络（TGN）进行金融异常检测，在金融科技和数字化金融交易时代这是一个迫切需要。我们提出了一个全面的框架，利用TGN捕捉金融网络中边的动态变化，用于欺诈检测。我们比较了TGN与静态图神经网络（GNN）基线以及使用DGraph数据集进行现实金融场景下的前沿超图神经网络基线的性能。结果表明，TGN在AUC指标方面显著优于其他模型。这种优越性能突显了TGN作为检测金融欺诈的有效工具的潜力，展示了其适应现代金融系统动态和复杂性的能力。我们还在TGN框架内尝试了各种图嵌入模块，并比较了它们的有效性。
+    该研究旨在开发一个多准则分析框架，评估可持续玉米农业区规划的替代方案，考虑生态、经济和社会方面的综合作为可持续性的支柱。研究方法采用定性和定量方法，将生态、经济和社会方面整合到多准则分析中。分析涉及土地评价、子准则识别和数据整合，使用多维缩放和层次分析法以优先发展可持续玉米农业区域。
 
-    arXiv:2404.00060v1 Announce Type: cross  Abstract: This paper explores the utilization of Temporal Graph Networks (TGN) for financial anomaly detection, a pressing need in the era of fintech and digitized financial transactions. We present a comprehensive framework that leverages TGN, capable of capturing dynamic changes in edges within financial networks, for fraud detection. Our study compares TGN's performance against static Graph Neural Network (GNN) baselines, as well as cutting-edge hypergraph neural network baselines using DGraph dataset for a realistic financial context. Our results demonstrate that TGN significantly outperforms other models in terms of AUC metrics. This superior performance underlines TGN's potential as an effective tool for detecting financial fraud, showcasing its ability to adapt to the dynamic and complex nature of modern financial systems. We also experimented with various graph embedding modules within the TGN framework and compared the effectiveness of 
+    arXiv:2404.01782v1 Announce Type: new  Abstract: This study aims to develop a framework for multicriteria analysis to evaluate alternatives for sustainable corn agricultural area planning, considering the integration of ecological, economic, and social aspects as pillars of sustainability. The research method uses qualitative and quantitative approaches to integrate ecological, economic, and social aspects in the multicriteria analysis. The analysis involves land evaluation, subcriteria identification, and data integration using Multidimensional Scaling and Analytical Hierarchy Process methods to prioritize developing sustainable corn agricultural areas. Based on the results of the RAP-Corn analysis, it indicates that the ecological dimension depicts less sustainability. The AHP results yield weight distribution and highly relevant scores that describe tangible preferences. Priority directions are grouped as strategic steps toward achieving the goals of sustainable corn agricultural ar
     
-[^7]: 探究去中心化金融（DeFi）服务之间的相似性
+[^4]: 基于深度学习的矿山环境损害评估和修复策略智能优化
 
-    Investigating Similarities Across Decentralized Financial (DeFi) Services
+    Intelligent Optimization of Mine Environmental Damage Assessment and Repair Strategies Based on Deep Learning
 
-    [https://arxiv.org/abs/2404.00034](https://arxiv.org/abs/2404.00034)
+    [https://arxiv.org/abs/2404.01624](https://arxiv.org/abs/2404.01624)
 
-    该研究通过采用图表示学习算法，提出了一种方法来研究去中心化金融协议提供的服务之间的相似性，并成功将这些服务分组为具有相似功能的集群。
-
-    
-
-    我们探讨了采用图表示学习（GRL）算法来研究去中心化金融（DeFi）协议提供的服务之间的相似性。我们使用以太坊交易数据来识别DeFi构建模块，这些是协议特定的智能合约集，它们在单个交易中以组合方式使用，并封装了执行特定金融服务（如加密资产交换或借贷）的逻辑。我们提出了一种基于智能合约属性和智能合约调用的图结构将这些模块分类进集群的方法。我们利用GRL从构建模块创建嵌入向量，并利用凝聚模型对其进行聚类。为了评估它们是否有效地分组为具有相似功能的集群，我们将它们与八个金融功能类别关联，并将此信息用作目标l
-
-    arXiv:2404.00034v1 Announce Type: cross  Abstract: We explore the adoption of graph representation learning (GRL) algorithms to investigate similarities across services offered by Decentralized Finance (DeFi) protocols. Following existing literature, we use Ethereum transaction data to identify the DeFi building blocks. These are sets of protocol-specific smart contracts that are utilized in combination within single transactions and encapsulate the logic to conduct specific financial services such as swapping or lending cryptoassets. We propose a method to categorize these blocks into clusters based on their smart contract attributes and the graph structure of their smart contract calls. We employ GRL to create embedding vectors from building blocks and agglomerative models for clustering them. To evaluate whether they are effectively grouped in clusters of similar functionalities, we associate them with eight financial functionality categories and use this information as the target l
-    
-[^8]: 中国A股之间的反网络
-
-    Antinetwork among China A-shares
-
-    [https://arxiv.org/abs/2404.00028](https://arxiv.org/abs/2404.00028)
-
-    本研究首次考虑了负相关性和正相关性，构建了中国A股上市股票之间的加权时间反网络和网络，揭示了在21世纪前24年期间（反）网络之间节点度和强度、同配性系数、平均局部聚类系数以及平均最短路径长度等方面的一些重要差异
+    本研究使用了LSTM-GRU门控长短期记忆网络模型和支持向量机（SVM），构建了一套主动投资股票策略，以优化矿山环境损害评估和修复策略。
 
     
 
-    基于涨跌幅时间序列之间的相关关系构建的金融网络得到了广泛研究。然而，这些研究忽视了负相关性的重要性。本文首次考虑了负相关性和正相关性，并相应地构建了上海和深圳证券交易所上市股票之间的加权时间反网络和网络。对21世纪前24年的(反)网络，系统分析了节点的度和强度、同配性系数、平均局部聚类系数和平均最短路径长度。本文揭示了这些拓扑测量指标在反网络和网络之间的一些基本差异。这些差异的发现在理解
+    在最近几十年里，金融量化已迅速兴起并成熟。对于像基金、投资机构这样的金融机构，他们越来越不满于被动地构建具有平均市场回报的投资组合的情况，而是更加关注主动的量化策略投资组合。这需要引入主动股票投资基金管理模型。目前，在我国的股票基金投资市场中，有许多主动量化投资策略，所使用的算法也各不相同，如支持向量机（SVM）、随机森林（random forest）、RNN循环记忆网络等。本文关注这一趋势，以金融股票投资领域中新兴的门控长短期记忆网络模型LSTM-GRU为基础构建一套主动投资股票策略，并结合支持向量机（SVM）在该领域中的广泛应用。
 
-    arXiv:2404.00028v1 Announce Type: cross  Abstract: The correlation-based financial networks, constructed with the correlation relationships among the time series of fluctuations of daily logarithmic prices of stocks, are intensively studied. However, these studies ignore the importance of negative correlations. This paper is the first time to consider the negative and positive correlations separately, and accordingly to construct weighted temporal antinetwork and network among stocks listed in the Shanghai and Shenzhen stock exchanges. For (anti)networks during the first 24 years of the 21st century, the node's degree and strength, the assortativity coefficient, the average local clustering coefficient, and the average shortest path length are analyzed systematically. This paper unveils some essential differences in these topological measurements between antinetwork and network. The findings of the differences between antinetwork and network have an important role in understanding the 
+    arXiv:2404.01624v1 Announce Type: cross  Abstract: In recent decades, financial quantification has emerged and matured rapidly. For financial institutions such as funds, investment institutions are increasingly dissatisfied with the situation of passively constructing investment portfolios with average market returns, and are paying more and more attention to active quantitative strategy investment portfolios. This requires the introduction of active stock investment fund management models. Currently, in my country's stock fund investment market, there are many active quantitative investment strategies, and the algorithms used vary widely, such as SVM, random forest, RNN recurrent memory network, etc. This article focuses on this trend, using the emerging LSTM-GRU gate-controlled long short-term memory network model in the field of financial stock investment as a basis to build a set of active investment stock strategies, and combining it with SVM, which has been widely used in the fie
     
-[^9]: 利用量子增强机器学习赋能信用评分系统
+[^5]: Watanabe的扩展：凸性难题的解决方案
+
+    Watanabe's expansion: A Solution for the convexity conundrum
+
+    [https://arxiv.org/abs/2404.01522](https://arxiv.org/abs/2404.01522)
+
+    提出了一种用于定价CMS衍生品的新方法，并应用Watanabe的扩展到不同波动率情况下进行数值比较
+
+    
+
+    在这篇论文中，我们提出了一种用于定价CMS衍生品的新方法。我们使用Mallaivin的微积分来建立CMS衍生品价格与二次付款之间的无模型联系。然后，我们在本地和随机本地波动率的情况下应用Watanabe的扩展到二次付款案例。我们的近似是通用的。为了评估它们的准确性，我们将在正常SABR模型下数值比较这些近似与市场标准：Hagan的近似和蒙特卡洛模拟。
+
+    arXiv:2404.01522v1 Announce Type: new  Abstract: In this paper, we present a new method for pricing CMS derivatives. We use Mallaivin's calculus to establish a model-free connection between the price of a CMS derivative and a quadratic payoff. Then, we apply Watanabe's expansions to quadratic payoffs case under local and stochastic local volatility. Our approximations are generic. To evaluate their accuracy, we will compare the approximations numerically under the normal SABR model against the market standards: Hagan's approximation, and a Monte Carlo simulation.
+    
+[^6]: 英国非稳态金融风险因素和宏观经济脆弱性研究
+
+    Non-stationary Financial Risk Factors and Macroeconomic Vulnerability for the UK
+
+    [https://arxiv.org/abs/2404.01451](https://arxiv.org/abs/2404.01451)
+
+    本研究提出非稳态因子模型作为金融压力的衡量，能够捕捉分布的尾部
+
+    
+
+    跟踪金融脆弱性的累积是金融稳定政策的关键组成部分。由于金融系统的复杂性，这项任务充满挑战，已经提出了几种关于如何实现这一目标的建议。本文提倡摆脱稳态范式，而是提出非稳态因子模型作为金融压力的衡量。非稳态因子模型的主要优势在于，一些流行的金融压力指标虽然描述了金融压力指标的方差-协方差结构，但新指数能够捕捉分布的尾部。
+
+    arXiv:2404.01451v1 Announce Type: new  Abstract: Tracking the build-up of financial vulnerabilities is a key component of financial stability policy. Due to the complexity of the financial system, this task is daunting, and there have been several proposals on how to manage this goal. One way to do this is by the creation of indices that act as a signal for the policy maker. While factor modelling in finance and economics has a rich history, most of the applications tend to focus on stationary factors. Nevertheless, financial stress (and in particular tail events) can exhibit a high degree of inertia. This paper advocates moving away from the stationary paradigm and instead proposes non-stationary factor models as measures of financial stress. Key advantage of a non-stationary factor model is that while some popular measures of financial stress describe the variance-covariance structure of the financial stress indicators, the new index can capture the tails of the distribution. To show
+    
+[^7]: 通过Latent Dirichlet Allocation主题建模自动检测财经新闻中的相关信息、预测和预测
+
+    Automatic detection of relevant information, predictions and forecasts in financial news through topic modelling with Latent Dirichlet Allocation
+
+    [https://arxiv.org/abs/2404.01338](https://arxiv.org/abs/2404.01338)
+
+    该研究提出了一种新颖的自然语言处理系统，通过Latent Dirichlet Allocation (LDA)进行相关的主题建模，帮助投资者从非结构化文本源中检测财经事件中的相关信息、预测和预测
+
+    
+
+    arXiv:2404.01338v1通告类型:新摘要:金融新闻是一种非结构化的信息源，可以开采以从中提取知识，用于市场筛选应用。从持续的金融新闻流中手动提取相关信息是繁琐的，超出了许多投资者的技能范围，他们最多只能关注几个来源和作者。因此，我们专注于对金融新闻的分析，以识别相关文本，并在该文本中进行预测和预测。我们提出了一种新颖的自然语言处理（NLP）系统，帮助投资者通过考虑话语层面上的相关性和时态性，从非结构化文本源中检测相关的财经事件。首先，我们将文本分割以将相关文本归为一组。其次，我们应用共指解析来发现段落内部的依赖关系。最后，我们利用Latent Dirichlet Allocation (LDA)进行相关主题建模。
+
+    arXiv:2404.01338v1 Announce Type: new  Abstract: Financial news items are unstructured sources of information that can be mined to extract knowledge for market screening applications. Manual extraction of relevant information from the continuous stream of finance-related news is cumbersome and beyond the skills of many investors, who, at most, can follow a few sources and authors. Accordingly, we focus on the analysis of financial news to identify relevant text and, within that text, forecasts and predictions. We propose a novel Natural Language Processing (NLP) system to assist investors in the detection of relevant financial events in unstructured textual sources by considering both relevance and temporality at the discursive level. Firstly, we segment the text to group together closely related text. Secondly, we apply co-reference resolution to discover internal dependencies within segments. Finally, we perform relevant topic modelling with Latent Dirichlet Allocation (LDA) to separ
+    
+[^8]: 结合自然语言处理和机器学习在金融新闻中检测篇章级别的时间性
+
+    Detection of Temporality at Discourse Level on Financial News by Combining Natural Language Processing and Machine Learning
+
+    [https://arxiv.org/abs/2404.01337](https://arxiv.org/abs/2404.01337)
+
+    通过结合自然语言处理和机器学习技术，提出了一种新颖的系统，旨在在金融新闻中检测篇章级别的关键声明的时间性，以分析句法和语义依赖关系，区分上下文信息和有价值的预测。
+
+    
+
+    Finance-related news, such as Bloomberg News, CNN Business, and Forbes, provide valuable real data for market screening systems. Experts in these news articles not only provide technical analyses but also share opinions considering political, sociological, and cultural factors. We propose a novel system that utilizes Natural Language Processing and Machine Learning techniques to detect the temporality of key statements in finance-related news at the discourse level, aiming to differentiate between context information and valuable predictions by analyzing syntactic and semantic dependencies.
+
+    arXiv:2404.01337v1 Announce Type: new  Abstract: Finance-related news such as Bloomberg News, CNN Business and Forbes are valuable sources of real data for market screening systems. In news, an expert shares opinions beyond plain technical analyses that include context such as political, sociological and cultural factors. In the same text, the expert often discusses the performance of different assets. Some key statements are mere descriptions of past events while others are predictions. Therefore, understanding the temporality of the key statements in a text is essential to separate context information from valuable predictions. We propose a novel system to detect the temporality of finance-related news at discourse level that combines Natural Language Processing and Machine Learning techniques, and exploits sophisticated features such as syntactic and semantic dependencies. More specifically, we seek to extract the dominant tenses of the main statements, which may be either explicit 
+    
+[^9]: 非平衡系统中随机场理论的方法 -- 随机性破缺的自发对称性
+
+    Methods of Stochastic Field Theory in Non-Equilibrium Systems -- Spontaneous Symmetry Breaking of Ergodicity
+
+    [https://arxiv.org/abs/2404.01333](https://arxiv.org/abs/2404.01333)
+
+    研究了非平衡系统中随机场理论的方法，探讨了对称性破缺现象和自发对称性破缺的起源和影响。
+
+    
+
+    最近，几项与对称性破缺现象、'自发随机性'和'遍历性破缺'相关的研究引起了诸多领域的重大影响，例如经济学和金融领域。我们从数学和有效场论的角度探讨了这些原始对称性在作用上的起源和影响。自然地，每当系统遵循某种对称性时，一旦系统陷入最小化动力学系统的有效作用量的真空态，这种对称性将会自发破缺。
+
+    arXiv:2404.01333v1 Announce Type: cross  Abstract: Recently, a couple of investigations related to symmetry breaking phenomena, 'spontaneous stochasticity' and 'ergodicity breaking' have led to significant impacts in a variety of fields related to the stochastic processes such as economics and finance. We investigate on the origins and effects of those original symmetries in the action from the mathematical and the effective field theory points of view. It is naturally expected that whenever the system respects any symmetry, it would be spontaneously broken once the system falls into a vacuum state which minimizes an effective action of the dynamical system.
+    
+[^10]: 利用量子增强机器学习赋能信用评分系统
 
     Empowering Credit Scoring Systems with Quantum-Enhanced Machine Learning
 
@@ -147,102 +156,18 @@
 
     arXiv:2404.00015v1 Announce Type: cross  Abstract: Quantum Kernels are projected to provide early-stage usefulness for quantum machine learning. However, highly sophisticated classical models are hard to surpass without losing interpretability, particularly when vast datasets can be exploited. Nonetheless, classical models struggle once data is scarce and skewed. Quantum feature spaces are projected to find better links between data features and the target class to be predicted even in such challenging scenarios and most importantly, enhanced generalization capabilities. In this work, we propose a novel approach called Systemic Quantum Score (SQS) and provide preliminary results indicating potential advantage over purely classical models in a production grade use case for the Finance sector. SQS shows in our specific study an increased capacity to extract patterns out of fewer data points as well as improved performance over data-hungry algorithms such as XGBoost, providing advantage i
     
-[^10]: 具有精确语义和AI驱动流程的缺失数据插补及破产预测
+[^11]: 在可再生能源整合政策背景下的最优输电扩建规划
 
-    Missing Data Imputation With Granular Semantics and AI-driven Pipeline for Bankruptcy Prediction
+    Optimal transmission expansion planning in the context of renewable energy integration policies. (arXiv:2302.10562v3 [math.OC] UPDATED)
 
-    [https://arxiv.org/abs/2404.00013](https://arxiv.org/abs/2404.00013)
+    [http://arxiv.org/abs/2302.10562](http://arxiv.org/abs/2302.10562)
 
-    本文介绍了一种具有精确语义的缺失数据插补方法，通过在粒空间中利用特征语义和可靠观测来预测缺失值，从而解决了破产预测中的重要挑战。
-
-    
-
-    本文着重设计了一个用于预测破产的流程。缺失值、高维数据以及高度类别不平衡的数据库是该任务中的主要挑战。本文介绍了一种具有精确语义的缺失数据插补新方法。探讨了粒计算的优点以定义此方法。利用特征语义和可靠观测在低维空间、粒空间中预测缺失值。围绕每个缺失条目形成粒子，考虑到一些高度相关的特征和最可靠的最近观测以保持数据库对缺失条目的相关性和可靠性。然后在这些上下文粒子中进行跨粒子预测进行插补。也就是说，上下文粒子使得在巨大数据库中进行一小部分相关的插补成为可能。
-
-    arXiv:2404.00013v1 Announce Type: cross  Abstract: This work focuses on designing a pipeline for the prediction of bankruptcy. The presence of missing values, high dimensional data, and highly class-imbalance databases are the major challenges in the said task. A new method for missing data imputation with granular semantics has been introduced here. The merits of granular computing have been explored here to define this method. The missing values have been predicted using the feature semantics and reliable observations in a low-dimensional space, in the granular space. The granules are formed around every missing entry, considering a few of the highly correlated features and most reliable closest observations to preserve the relevance and reliability, the context, of the database against the missing entries. An intergranular prediction is then carried out for the imputation within those contextual granules. That is, the contextual granules enable a small relevant fraction of the huge 
-    
-[^11]: 基于财经新闻情感分析的股票市场压力指数策略改进
-
-    Stress index strategy enhanced with financial news sentiment analysis for the equity markets
-
-    [https://arxiv.org/abs/2404.00012](https://arxiv.org/abs/2404.00012)
-
-    通过将金融压力指标与财经新闻情感分析相结合，提高了股票市场的风险控制策略表现。
+    本文研究了在可再生能源整合政策背景下，输电系统基础设施扩建对能源市场结构的影响。利用优化模型，我们考虑了投资运营商和发电公司在竞争市场中的决策，研究了不同因素对可再生能源份额的影响。
 
     
 
-    本文介绍了一种新的股市风险-风险策略，将金融压力指标与通过ChatGPT读取和解释Bloomberg每日市场摘要进行的情感分析相结合。通过将从波动率和信贷利差推导出的市场压力预测与GPT-4推导出的财经新闻情感相结合，改进了策略的表现，表现为更高的夏普比率和降低的最大回撤。改进的表现在纳斯达克、标普500指数和六个主要股票市场中都保持一致，表明该方法在股票市场中具有普遍适用性。
+    本文评估了可再生能源驱动的输电系统基础设施扩建对分散式能源市场总发电结构的影响程度。为此，我们使用了一个优化的双层模型，其中一个以最大化福利为目标的输电系统运营商在上层进行输电线路投资，并在下层考虑电力市场动态。为了考虑到自由化的能源市场结构，我们假设在下层的发电公司以完全竞争中的价格接受者身份进行容量投资。考虑到不同的输电基础设施扩展预算、碳排放税和可再生能源发电容量扩展的货币激励，我们研究了这些因素的不同组合如何影响可再生能源在发电结构中的份额。我们将提出的建模评估应用于一个具有三个节点的示例和一个考虑了简化repr的案例研究
 
-    arXiv:2404.00012v1 Announce Type: cross  Abstract: This paper introduces a new risk-on risk-off strategy for the stock market, which combines a financial stress indicator with a sentiment analysis done by ChatGPT reading and interpreting Bloomberg daily market summaries. Forecasts of market stress derived from volatility and credit spreads are enhanced when combined with the financial news sentiment derived from GPT-4. As a result, the strategy shows improved performance, evidenced by higher Sharpe ratio and reduced maximum drawdowns. The improved performance is consistent across the NASDAQ, the S&P 500 and the six major equity markets, indicating that the method generalises across equities markets.
-    
-[^12]: 巴西委内瑞拉难民危机对劳动力市场的影响
-
-    Labor Market Effects of the Venezuelan Refugee Crisis in Brazil
-
-    [https://arxiv.org/abs/2302.04201](https://arxiv.org/abs/2302.04201)
-
-    巴西委内瑞拉难民危机对罗赖马州劳动力市场的影响表明，虽然巴西人的月工资增加约2％，但主要受无难民参与的部门和职业影响，同时非正规市场中的移民抵消了正规市场的替代效应。
-
-    
-
-    我们利用巴西正式工人普遍使用的行政面板数据，研究了委内瑞拉危机对巴西劳动力市场的影响，重点关注边境州罗赖马。差异处理结果表明，罗赖马州的巴西人月工资增长了约2％，主要是由那些从事没有难民参与的部门和职业的人驱动的。研究发现，巴西人几乎没有失业，但发现本地工人转移到没有移民的职业。我们还发现，非正规市场中的移民抵消了正规市场中的替代效应。
-
-    arXiv:2302.04201v2 Announce Type: replace  Abstract: We use administrative panel data on the universe of Brazilian formal workers to investigate the labor market effects of the Venezuelan crisis in Brazil, focusing on the border state of Roraima. The results using difference-in-differences show that the monthly wages of Brazilians in Roraima increased by around 2 percent, which was mostly driven by those working in sectors and occupations with no refugee involvement. The study finds negligible job displacement for Brazilians but finds evidence of native workers moving to occupations without immigrants. We also find that immigrants in the informal market offset the substitution effects in the formal market.
-    
-[^13]: 以太坊Ponzi检测的时序元路径特征增强
-
-    Time-aware Metapath Feature Augmentation for Ponzi Detection in Ethereum
-
-    [https://arxiv.org/abs/2210.16863](https://arxiv.org/abs/2210.16863)
-
-    该研究介绍了一种用于以太坊Ponzi检测的时序元路径特征增强方法，旨在捕获交易模式信息中的时间依赖性。
-
-    
-
-    随着强调去中心化的Web 3.0的发展，区块链技术迎来了自己的革命，并带来了许多挑战，特别是在加密货币领域。最近，大量的犯罪行为不断在区块链上出现，如庞氏骗局和钓鱼欺诈，这严重危害了去中心化金融。现有基于图的区块链异常行为检测方法通常侧重于构建同质交易图，而没有区分节点和边的异质性，导致交易模式信息的部分丢失。尽管现有的异质建模方法可以通过元路径描述更丰富的信息，但提取的元路径通常忽视实体之间的时间依赖性，并且不反映真实行为。本文引入了时间感知元路径特征增强（TMFAug）作为一种即插即用模块，用于捕获
-
-    arXiv:2210.16863v2 Announce Type: replace  Abstract: With the development of Web 3.0 which emphasizes decentralization, blockchain technology ushers in its revolution and also brings numerous challenges, particularly in the field of cryptocurrency. Recently, a large number of criminal behaviors continuously emerge on blockchain, such as Ponzi schemes and phishing scams, which severely endanger decentralized finance. Existing graph-based abnormal behavior detection methods on blockchain usually focus on constructing homogeneous transaction graphs without distinguishing the heterogeneity of nodes and edges, resulting in partial loss of transaction pattern information. Although existing heterogeneous modeling methods can depict richer information through metapaths, the extracted metapaths generally neglect temporal dependencies between entities and do not reflect real behavior. In this paper, we introduce Time-aware Metapath Feature Augmentation (TMFAug) as a plug-and-play module to captu
-    
-[^14]: 一个关于大分歧的波莫兰增长理论
-
-    A Pomeranzian Growth Theory of the Great Divergence
-
-    [https://arxiv.org/abs/2108.03110](https://arxiv.org/abs/2108.03110)
-
-    基于欧洲土地限制缓解导致的大分歧假设，这个研究构建了一个增长模型，对农业和制造业部门进行了形式化，并展示了经济从马尔萨斯状态向非马尔萨斯状态转变的过程。
-
-    
-
-    这项研究构建了一个关于大分歧的增长模型，形式化了波莫兰兹（2000）的假设，即欧洲土地限制的缓解导致了自19世纪以来欧洲与中国经济增长之间的分歧。该模型由农业和制造业组成。农业部门从土地上生产生活必需品、来自制造业的中间品和劳动力。制造业部门通过全职制造业工人的实践成长来生产商品。家庭做出生育决策。在模型中，对土地供应的大规模外生性正面冲击使经济从马尔萨斯状态转变为非马尔萨斯状态，其中所有工人都从事农业生产，人均收入恒定，到参与农业生产的工人比例逐渐减少。
-
-    arXiv:2108.03110v3 Announce Type: replace  Abstract: This study constructs a growth model of the Great Divergence that formalizes Pomeranz's (2000) hypothesis that the relief of land constraints in Europe has caused divergence in economic growth between Europe and China since the 19th century. The model consists of the agricultural and manufacturing sectors. The agricultural sector produces subsistence goods from land, intermediate goods from the manufacturing sector, and labor. The manufacturing sector produces goods from labor, and its productivity grows through the learning-by-doing of full-time manufacturing workers. Households make fertility decisions. In the model, a large exogenous positive shock in land supply causes the transition of the economy from the Malthusian state, in which all workers are engaged in agricultural production and per capita income is constant, to the non-Malthusian state, in which the share of workers engaged in agricultural production gradually decreases
-    
-[^15]: 通过货架设计影响竞争
-
-    Influencing Competition Through Shelf Design
-
-    [https://arxiv.org/abs/2010.09227](https://arxiv.org/abs/2010.09227)
-
-    货架设计对产品需求有显著影响，研究发现竞争效应通常更强，但并非总是如此。
-
-    
-
-    货架设计决策强烈影响产品需求。特别是将产品放置在理想位置会增加需求。货架位置对需求有主要影响，但也存在基于附近产品相对位置的次要影响。直觉上，相邻位置的产品更有可能被比较，产生积极和消极效应。通过修改GEV类模型，以允许需求受竞争对手的接近程度调节，这两种效应会自然产生。
-
-    arXiv:2010.09227v3 Announce Type: replace  Abstract: Shelf design decisions strongly influence product demand. In particular, placing products in desirable locations increases demand. This primary effect on shelf position is clear, but there is a secondary effect based on the relative positioning of nearby products. Intuitively, products located next to each other are more likely to be compared having positive and negative effects. On the one hand, locations closer to relatively strong products will be undesirable, as these strong products will draw demand from others -- an effect that is stronger for those in close proximity. On the other hand, because strong products tend to attract more traffic, locations closer to them elicit high consumer attention by increased visibility. Modifying the GEV class of models to allow demand to be moderated by competitors' proximity, these two effects emerge naturally. We found that although the competition effect is usually stronger, it is not alway
-    
-[^16]: 生产率、要素错配与金融危机
-
-    Productivity, Inputs Misallocation, and the Financial Crisis. (arXiv:2306.08760v1 [econ.GN])
-
-    [http://arxiv.org/abs/2306.08760](http://arxiv.org/abs/2306.08760)
-
-    本文对定量衡量同质产业内资源错配的常规方法进行了重新评估，并提出了一种基于已识别的政策变化的比较分析策略。研究表明，金融危机对生产要素的影响导致资源配置严重失调，而政策干预可能会损害整体经济效率。
-
-    
-
-    本文重新评估了定量衡量同质产业内资源错配的常规方法，该方法通常使用一个输入边际产品的离散度来衡量。我的研究发现，这一统计量包括固有的生产率异质性和特有的生产率冲击，而不考虑所研究的输入。利用美国和欧洲制造业公司的资产负债表数据，我发现总生产要素生产率波动值占资本边际产品的方差的7％，劳动力为9％，材料输入为10％。因此，这个指数以表面价值表示时，无法识别出任何生产要素的政策引发的错配。为了克服这一局限性，我提出了一种基于已识别的政策变化的比较分析策略。这种方法允许研究人员在相对的条件下评估诱导失配，同时控制TFP波动性的差异。我发现金融危机对生产要素的影响是不均衡的，导致资源配置严重失调。通过比较不同地区和行业的金融危机前和金融危机期间，经济金融环境稳定的情况，我发现金融危机对制造业的负面影响比服务业更为明显，对欧洲业务更为严重，而且这种失调是由于金融紧缩政策引起的。这一研究表明，政策干预可能会导致资源配置失调，损害整体经济效率。
-
-    This paper reevaluates the conventional approach to quantifying within-industry resource misallocation, typically measured by the dispersion of an input marginal product. My findings suggest that this statistic incorporates inherent productivity heterogeneity and idiosyncratic productivity shocks, irrespective of the input under scrutiny. Using balance sheet data from American and European manufacturing firms, I show that total factor productivity (TFP) volatility accounts for 7% of the variance in the marginal product of capital, 9% for labor, and 10% for material inputs. Consequently, this index, taken at face value, fails to identify policy-induced misallocation for any production input. To overcome this limitation, I propose a comparative analysis strategy driven by an identified policy variation. This approach allows the researcher to assess induced misallocation in relative terms whilst controlling for differences in TFP volatility. I show that the financial crisis had an uneven 
+    This paper assesses the extent to which a renewables-driven expansion of the transmission system infrastructure impacts the total generation mix in the decentralised energy market. For that, we employ an optimisation bi-level model in which a welfare-maximizing transmission system operator makes investments in transmission lines at the upper level while considering power market dynamics at the lower level. To account for the deregulated energy market structure, we assume that the generation companies at the lower level make capacity investments as price-takers in perfect competition. Considering alternative transmission infrastructure expansion budgets, carbon emission taxes and monetary incentives for renewable generation capacity expansion, we study how alternative compositions of these factors affect the share of renewable generation in the generation mix. We apply the proposed modelling assessment to an illustrative three-node instance and a case study considering a simplified repr
     
 

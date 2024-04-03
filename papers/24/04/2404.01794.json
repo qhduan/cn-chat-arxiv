@@ -1,0 +1,12 @@
+{
+    "title": "Imitation Game: A Model-based and Imitation Learning Deep Reinforcement Learning Hybrid",
+    "abstract": "arXiv:2404.01794v1 Announce Type: new  Abstract: Autonomous and learning systems based on Deep Reinforcement Learning have firmly established themselves as a foundation for approaches to creating resilient and efficient Cyber-Physical Energy Systems. However, most current approaches suffer from two distinct problems: Modern model-free algorithms such as Soft Actor Critic need a high number of samples to learn a meaningful policy, as well as a fallback to ward against concept drifts (e. g., catastrophic forgetting). In this paper, we present the work in progress towards a hybrid agent architecture that combines model-based Deep Reinforcement Learning with imitation learning to overcome both problems.",
+    "link": "https://arxiv.org/abs/2404.01794",
+    "context": "Title: Imitation Game: A Model-based and Imitation Learning Deep Reinforcement Learning Hybrid\nAbstract: arXiv:2404.01794v1 Announce Type: new  Abstract: Autonomous and learning systems based on Deep Reinforcement Learning have firmly established themselves as a foundation for approaches to creating resilient and efficient Cyber-Physical Energy Systems. However, most current approaches suffer from two distinct problems: Modern model-free algorithms such as Soft Actor Critic need a high number of samples to learn a meaningful policy, as well as a fallback to ward against concept drifts (e. g., catastrophic forgetting). In this paper, we present the work in progress towards a hybrid agent architecture that combines model-based Deep Reinforcement Learning with imitation learning to overcome both problems.",
+    "path": "papers/24/04/2404.01794.json",
+    "total_tokens": 694,
+    "translated_title": "模仿游戏：基于模型和模仿学习的深度强化学习混合方法",
+    "translated_abstract": "基于深度强化学习的自主学习系统已经被牢固地确立为创建具有韧性和高效能的网络能源系统方法的基础。然而，大多数当前方法存在两个明显问题：像Soft Actor Critic这样的现代无模型算法需要大量样本来学习有意义的策略，以及需要应对概念漂移（例如，灾难性遗忘）的备用措施。在本文中，我们提出了一个混合代理架构的进行中工作，将基于模型的深度强化学习与模仿学习相结合，以克服这两个问题。",
+    "tldr": "深度强化学习的研究结合了基于模型的方法和模仿学习，以解决训练样本需求高和概念漂移等问题。",
+    "en_tdlr": "The research in deep reinforcement learning combines model-based methods and imitation learning to address issues such as high training sample requirements and concept drift."
+}

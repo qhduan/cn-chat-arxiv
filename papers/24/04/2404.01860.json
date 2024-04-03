@@ -1,0 +1,12 @@
+{
+    "title": "Self-StrAE at SemEval-2024 Task 1: Making Self-Structuring AutoEncoders Learn More With Less",
+    "abstract": "arXiv:2404.01860v1 Announce Type: new  Abstract: This paper presents two simple improvements to the Self-Structuring AutoEncoder (Self-StrAE). Firstly, we show that including reconstruction to the vocabulary as an auxiliary objective improves representation quality. Secondly, we demonstrate that increasing the number of independent channels leads to significant improvements in embedding quality, while simultaneously reducing the number of parameters. Surprisingly, we demonstrate that this trend can be followed to the extreme, even to point of reducing the total number of non-embedding parameters to seven. Our system can be pre-trained from scratch with as little as 10M tokens of input data, and proves effective across English, Spanish and Afrikaans.",
+    "link": "https://arxiv.org/abs/2404.01860",
+    "context": "Title: Self-StrAE at SemEval-2024 Task 1: Making Self-Structuring AutoEncoders Learn More With Less\nAbstract: arXiv:2404.01860v1 Announce Type: new  Abstract: This paper presents two simple improvements to the Self-Structuring AutoEncoder (Self-StrAE). Firstly, we show that including reconstruction to the vocabulary as an auxiliary objective improves representation quality. Secondly, we demonstrate that increasing the number of independent channels leads to significant improvements in embedding quality, while simultaneously reducing the number of parameters. Surprisingly, we demonstrate that this trend can be followed to the extreme, even to point of reducing the total number of non-embedding parameters to seven. Our system can be pre-trained from scratch with as little as 10M tokens of input data, and proves effective across English, Spanish and Afrikaans.",
+    "path": "papers/24/04/2404.01860.json",
+    "total_tokens": 757,
+    "translated_title": "Self-StrAE在SemEval-2024任务1中：让自我结构化自编码器用更少的数据学习更多",
+    "translated_abstract": "这篇论文介绍了两项对自我结构化自编码器(Self-StrAE)进行改进的简单方法。首先，我们展示将重构作为辅助目标包括到词汇中可以提高表示质量。其次，我们证明增加独立通道的数量可以显著提高嵌入质量，同时减少参数数量。令人惊讶的是，我们证明这种趋势可以被极端地遵循，甚至可以将非嵌入参数的总数减少至七个。我们的系统可以从头开始使用至少1000万个输入数据标记进行预训练，并在英语、西班牙语和南非荷兰语之间表现出效果。",
+    "tldr": "Self-StrAE 在自编码器中添加重构作为辅助目标，同时增加独立通道数量以显著提高嵌入质量，并成功将非嵌入参数数量减少到七个。",
+    "en_tdlr": "Self-StrAE improves representation quality by including reconstruction as an auxiliary objective and enhances embedding quality by increasing the number of independent channels, even reducing the total number of non-embedding parameters to seven."
+}

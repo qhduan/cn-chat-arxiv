@@ -1,0 +1,11 @@
+{
+    "title": "Addressing Heterogeneity in Federated Load Forecasting with Personalization Layers",
+    "abstract": "arXiv:2404.01517v1 Announce Type: new  Abstract: The advent of smart meters has enabled pervasive collection of energy consumption data for training short-term load forecasting models. In response to privacy concerns, federated learning (FL) has been proposed as a privacy-preserving approach for training, but the quality of trained models degrades as client data becomes heterogeneous. In this paper we propose the use of personalization layers for load forecasting in a general framework called PL-FL. We show that PL-FL outperforms FL and purely local training, while requiring lower communication bandwidth than FL. This is done through extensive simulations on three different datasets from the NREL ComStock repository.",
+    "link": "https://arxiv.org/abs/2404.01517",
+    "context": "Title: Addressing Heterogeneity in Federated Load Forecasting with Personalization Layers\nAbstract: arXiv:2404.01517v1 Announce Type: new  Abstract: The advent of smart meters has enabled pervasive collection of energy consumption data for training short-term load forecasting models. In response to privacy concerns, federated learning (FL) has been proposed as a privacy-preserving approach for training, but the quality of trained models degrades as client data becomes heterogeneous. In this paper we propose the use of personalization layers for load forecasting in a general framework called PL-FL. We show that PL-FL outperforms FL and purely local training, while requiring lower communication bandwidth than FL. This is done through extensive simulations on three different datasets from the NREL ComStock repository.",
+    "path": "papers/24/04/2404.01517.json",
+    "total_tokens": 724,
+    "translated_title": "使用个性化层解决联邦负载预测中的异质性问题",
+    "translated_abstract": "智能电表的出现使得可以广泛收集用电数据来训练短期负载预测模型。为了应对隐私问题，提出了联邦学习（FL）作为训练的隐私保护方法，但随着客户数据的异质性增加，所训练模型的质量会下降。本文提出了在一个名为PL-FL的通用框架中使用个性化层进行负载预测。我们展示了PL-FL胜过FL和纯本地训练，同时还比FL需要更低的通信带宽。通过在来自NREL ComStock数据仓库的三个不同数据集上进行广泛的模拟完成了这一点。",
+    "tldr": "提出了在负载预测中使用个性化层的通用框架PL-FL，通过研究表明PL-FL在低通信带宽要求下优于FL和纯本地训练。"
+}

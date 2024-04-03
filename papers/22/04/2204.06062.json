@@ -1,0 +1,12 @@
+{
+    "title": "Local and global topological complexity measures OF ReLU neural network functions",
+    "abstract": "arXiv:2204.06062v2 Announce Type: replace-cross  Abstract: We apply a generalized piecewise-linear (PL) version of Morse theory due to Grunert-Kuhnel-Rote to define and study new local and global notions of topological complexity for fully-connected feedforward ReLU neural network functions, F: R^n -> R. Along the way, we show how to construct, for each such F, a canonical polytopal complex K(F) and a deformation retract of the domain onto K(F), yielding a convenient compact model for performing calculations. We also give a construction showing that local complexity can be arbitrarily high.",
+    "link": "https://arxiv.org/abs/2204.06062",
+    "context": "Title: Local and global topological complexity measures OF ReLU neural network functions\nAbstract: arXiv:2204.06062v2 Announce Type: replace-cross  Abstract: We apply a generalized piecewise-linear (PL) version of Morse theory due to Grunert-Kuhnel-Rote to define and study new local and global notions of topological complexity for fully-connected feedforward ReLU neural network functions, F: R^n -> R. Along the way, we show how to construct, for each such F, a canonical polytopal complex K(F) and a deformation retract of the domain onto K(F), yielding a convenient compact model for performing calculations. We also give a construction showing that local complexity can be arbitrarily high.",
+    "path": "papers/22/04/2204.06062.json",
+    "total_tokens": 693,
+    "translated_title": "ReLU神经网络函数的局部和全局拓扑复杂度测量",
+    "translated_abstract": "我们应用了Grunert-Kuhnel-Rote提出的广义分段线性(PL)莫尔斯理论来定义和研究全连接前馈ReLU神经网络函数 F: R^n -> R 的新局部和全局拓扑复杂度概念。在此过程中，我们展示了如何为每个这样的 F 构建一个规范多面体复合体 K(F)，并且定义了定义域到 K(F) 的形变缩并，从而得到一个方便的紧凑模型进行计算。我们还给出了一个构造，表明局部复杂度可以任意高。",
+    "tldr": "应用广义分段线性莫尔斯理论定义和研究了ReLU神经网络函数的局部和全局拓扑复杂度，提出了一个便于计算的紧凑模型，并证明局部复杂度可以任意高。",
+    "en_tdlr": "New local and global topological complexity measures for ReLU neural network functions were defined and studied using a generalized piecewise-linear Morse theory, introducing a compact model for calculations and demonstrating arbitrarily high local complexity."
+}

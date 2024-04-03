@@ -1,0 +1,12 @@
+{
+    "title": "VortexViz: Finding Vortex Boundaries by Learning from Particle Trajectories",
+    "abstract": "arXiv:2404.01352v1 Announce Type: cross  Abstract: Vortices are studied in various scientific disciplines, offering insights into fluid flow behavior. Visualizing the boundary of vortices is crucial for understanding flow phenomena and detecting flow irregularities. This paper addresses the challenge of accurately extracting vortex boundaries using deep learning techniques. While existing methods primarily train on velocity components, we propose a novel approach incorporating particle trajectories (streamlines or pathlines) into the learning process. By leveraging the regional/local characteristics of the flow field captured by streamlines or pathlines, our methodology aims to enhance the accuracy of vortex boundary extraction.",
+    "link": "https://arxiv.org/abs/2404.01352",
+    "context": "Title: VortexViz: Finding Vortex Boundaries by Learning from Particle Trajectories\nAbstract: arXiv:2404.01352v1 Announce Type: cross  Abstract: Vortices are studied in various scientific disciplines, offering insights into fluid flow behavior. Visualizing the boundary of vortices is crucial for understanding flow phenomena and detecting flow irregularities. This paper addresses the challenge of accurately extracting vortex boundaries using deep learning techniques. While existing methods primarily train on velocity components, we propose a novel approach incorporating particle trajectories (streamlines or pathlines) into the learning process. By leveraging the regional/local characteristics of the flow field captured by streamlines or pathlines, our methodology aims to enhance the accuracy of vortex boundary extraction.",
+    "path": "papers/24/04/2404.01352.json",
+    "total_tokens": 725,
+    "translated_title": "VortexViz: 通过学习粒子轨迹来发现涡旋边界",
+    "translated_abstract": "涡旋在各种科学学科中都得到了研究，在提供流体流动行为洞察的同时，可视化涡旋的边界对于理解流动现象和检测流动不规则性至关重要。本文解决了使用深度学习技术准确提取涡旋边界的挑战。虽然现有方法主要是基于速度分量进行训练，我们提出了一种新颖的方法，将粒子轨迹（流线或路径线）纳入学习过程。通过利用流线或路径线捕获的流场的区域/局部特征，我们的方法旨在增强涡旋边界提取的准确性。",
+    "tldr": "通过将粒子轨迹纳入学习过程，该方法旨在通过利用流线或路径线捕获的流场的区域/局部特征来提高涡旋边界提取的准确性。",
+    "en_tdlr": "By incorporating particle trajectories into the learning process, this method aims to enhance the accuracy of vortex boundary extraction by leveraging the regional/local characteristics of the flow field captured by streamlines or pathlines."
+}

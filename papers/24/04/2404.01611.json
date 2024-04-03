@@ -1,0 +1,12 @@
+{
+    "title": "Audio Simulation for Sound Source Localization in Virtual Evironment",
+    "abstract": "arXiv:2404.01611v1 Announce Type: new  Abstract: Non-line-of-sight localization in signal-deprived environments is a challenging yet pertinent problem. Acoustic methods in such predominantly indoor scenarios encounter difficulty due to the reverberant nature. In this study, we aim to locate sound sources to specific locations within a virtual environment by leveraging physically grounded sound propagation simulations and machine learning methods. This process attempts to overcome the issue of data insufficiency to localize sound sources to their location of occurrence especially in post-event localization. We achieve 0.786+/- 0.0136 F1-score using an audio transformer spectrogram approach.",
+    "link": "https://arxiv.org/abs/2404.01611",
+    "context": "Title: Audio Simulation for Sound Source Localization in Virtual Evironment\nAbstract: arXiv:2404.01611v1 Announce Type: new  Abstract: Non-line-of-sight localization in signal-deprived environments is a challenging yet pertinent problem. Acoustic methods in such predominantly indoor scenarios encounter difficulty due to the reverberant nature. In this study, we aim to locate sound sources to specific locations within a virtual environment by leveraging physically grounded sound propagation simulations and machine learning methods. This process attempts to overcome the issue of data insufficiency to localize sound sources to their location of occurrence especially in post-event localization. We achieve 0.786+/- 0.0136 F1-score using an audio transformer spectrogram approach.",
+    "path": "papers/24/04/2404.01611.json",
+    "total_tokens": 672,
+    "translated_title": "虚拟环境中声源定位的音频模拟",
+    "translated_abstract": "非直射定位在信号匮乏的环境中是一个具有挑战性但又相关的问题。在主要为室内场景的这种情况下，声学方法遇到困难，这是由于反射的特性。本研究旨在通过利用物理基础的声传播模拟和机器学习方法，在虚拟环境中将声源定位到特定位置。该过程试图克服数据不足的问题，特别是在事件发生后的声源定位。我们使用音频变换器频谱图方法实现了0.786+/-0,0136的F1分数。",
+    "tldr": "本研究通过音频模拟和机器学习方法，在虚拟环境中实现了声源定位到特定位置的准确性，有效克服了数据不足的问题。",
+    "en_tdlr": "This study achieves accurate sound source localization to specific locations within a virtual environment using audio simulation and machine learning methods, effectively overcoming the issue of data insufficiency."
+}

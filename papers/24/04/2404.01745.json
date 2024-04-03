@@ -1,0 +1,12 @@
+{
+    "title": "Unleash the Potential of CLIP for Video Highlight Detection",
+    "abstract": "arXiv:2404.01745v1 Announce Type: cross  Abstract: Multimodal and large language models (LLMs) have revolutionized the utilization of open-world knowledge, unlocking novel potentials across various tasks and applications. Among these domains, the video domain has notably benefited from their capabilities. In this paper, we present Highlight-CLIP (HL-CLIP), a method designed to excel in the video highlight detection task by leveraging the pre-trained knowledge embedded in multimodal models. By simply fine-tuning the multimodal encoder in combination with our innovative saliency pooling technique, we have achieved the state-of-the-art performance in the highlight detection task, the QVHighlight Benchmark, to the best of our knowledge.",
+    "link": "https://arxiv.org/abs/2404.01745",
+    "context": "Title: Unleash the Potential of CLIP for Video Highlight Detection\nAbstract: arXiv:2404.01745v1 Announce Type: cross  Abstract: Multimodal and large language models (LLMs) have revolutionized the utilization of open-world knowledge, unlocking novel potentials across various tasks and applications. Among these domains, the video domain has notably benefited from their capabilities. In this paper, we present Highlight-CLIP (HL-CLIP), a method designed to excel in the video highlight detection task by leveraging the pre-trained knowledge embedded in multimodal models. By simply fine-tuning the multimodal encoder in combination with our innovative saliency pooling technique, we have achieved the state-of-the-art performance in the highlight detection task, the QVHighlight Benchmark, to the best of our knowledge.",
+    "path": "papers/24/04/2404.01745.json",
+    "total_tokens": 746,
+    "translated_title": "发挥CLIP在视频精彩片段检测中的潜力",
+    "translated_abstract": "多模态和大型语言模型（LLMs）已经彻底改变了开放世界知识的利用方式，在各种任务和应用中释放出了新的潜力。在这些领域中，视频领域显著受益于它们的能力。在本文中，我们提出了Highlight-CLIP（HL-CLIP），一种旨在通过利用多模态模型中预训练知识在视频精彩片段检测任务中表现卓越的方法。通过简单地微调多模态编码器，结合我们创新的显著性池化技术，我们在精彩片段检测任务中达到了最先进的性能，根据我们所知道的最佳成绩，此任务是QVHighlight Benchmark。",
+    "tldr": "使用Highlight-CLIP方法，在视频精彩片段检测任务中通过利用多模态模型的预训练知识和创新的显著性池化技术，取得了最先进的性能。",
+    "en_tdlr": "By leveraging pre-trained knowledge in multimodal models and an innovative saliency pooling technique, the Highlight-CLIP method achieves state-of-the-art performance in video highlight detection task."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "The Unreasonable Effectiveness of Random Target Embeddings for Continuous-Output Neural Machine Translation",
+    "abstract": "arXiv:2310.20620v2 Announce Type: replace  Abstract: Continuous-output neural machine translation (CoNMT) replaces the discrete next-word prediction problem with an embedding prediction. The semantic structure of the target embedding space (i.e., closeness of related words) is intuitively believed to be crucial. We challenge this assumption and show that completely random output embeddings can outperform laboriously pretrained ones, especially on larger datasets. Further investigation shows this surprising effect is strongest for rare words, due to the geometry of their embeddings. We shed further light on this finding by designing a mixed strategy that combines random and pre-trained embeddings for different tokens.",
+    "link": "https://arxiv.org/abs/2310.20620",
+    "context": "Title: The Unreasonable Effectiveness of Random Target Embeddings for Continuous-Output Neural Machine Translation\nAbstract: arXiv:2310.20620v2 Announce Type: replace  Abstract: Continuous-output neural machine translation (CoNMT) replaces the discrete next-word prediction problem with an embedding prediction. The semantic structure of the target embedding space (i.e., closeness of related words) is intuitively believed to be crucial. We challenge this assumption and show that completely random output embeddings can outperform laboriously pretrained ones, especially on larger datasets. Further investigation shows this surprising effect is strongest for rare words, due to the geometry of their embeddings. We shed further light on this finding by designing a mixed strategy that combines random and pre-trained embeddings for different tokens.",
+    "path": "papers/23/10/2310.20620.json",
+    "total_tokens": 760,
+    "translated_title": "随机目标嵌入对连续输出神经机器翻译的非理性有效性",
+    "translated_abstract": "连续输出神经机器翻译（CoNMT）将离散的下一个词预测问题替换为嵌入预测。目标嵌入空间的语义结构（即相关词之间的接近程度）在直觉上被认为至关重要。我们挑战了这一假设，并展示完全随机的输出嵌入可以胜过费力预训练的嵌入，特别是在较大的数据集上。进一步的研究显示，这一令人惊讶的效果对于罕见词最为显著，这是由于它们的嵌入的几何性质。我们通过设计一种混合策略，结合不同标记的随机和预训练嵌入，进一步阐明了这一发现。",
+    "tldr": "随机目标嵌入在连续输出神经机器翻译中表现出非理性有效性，尤其在较大的数据集上并且对罕见词效果最为显著。",
+    "en_tdlr": "The unreasonably effective random target embeddings in continuous-output neural machine translation challenge the assumption of the importance of semantic structure and show superior performance, especially for rare words on larger datasets."
+}

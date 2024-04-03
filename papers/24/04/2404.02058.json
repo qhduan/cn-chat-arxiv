@@ -1,0 +1,12 @@
+{
+    "title": "Generalizable, Fast, and Accurate DeepQSPR with fastprop Part 1: Framework and Benchmarks",
+    "abstract": "arXiv:2404.02058v1 Announce Type: new  Abstract: Quantitative Structure Property Relationship studies aim to define a mapping between molecular structure and arbitrary quantities of interest. This was historically accomplished via the development of descriptors which requires significant domain expertise and struggles to generalize. Thus the field has morphed into Molecular Property Prediction and been given over to learned representations which are highly generalizable. The paper introduces fastprop, a DeepQSPR framework which uses a cogent set of molecular level descriptors to meet and exceed the performance of learned representations on diverse datasets in dramatically less time. fastprop is freely available on github at github.com/JacksonBurns/fastprop.",
+    "link": "https://arxiv.org/abs/2404.02058",
+    "context": "Title: Generalizable, Fast, and Accurate DeepQSPR with fastprop Part 1: Framework and Benchmarks\nAbstract: arXiv:2404.02058v1 Announce Type: new  Abstract: Quantitative Structure Property Relationship studies aim to define a mapping between molecular structure and arbitrary quantities of interest. This was historically accomplished via the development of descriptors which requires significant domain expertise and struggles to generalize. Thus the field has morphed into Molecular Property Prediction and been given over to learned representations which are highly generalizable. The paper introduces fastprop, a DeepQSPR framework which uses a cogent set of molecular level descriptors to meet and exceed the performance of learned representations on diverse datasets in dramatically less time. fastprop is freely available on github at github.com/JacksonBurns/fastprop.",
+    "path": "papers/24/04/2404.02058.json",
+    "total_tokens": 727,
+    "translated_title": "具有快速prop的可推广、快速和准确的DeepQSPR Part 1: 框架和基准测试",
+    "translated_abstract": "量化结构-性质关系研究旨在定义分子结构与任意感兴趣的数量之间的映射。历史上，这是通过开发描述符来实现的，这需要显著的领域专业知识，并且难以泛化。因此，该领域已经演变为分子属性预测，并转为使用高度可推广的学习表示。该论文介绍了fastprop，一种DeepQSPR框架，使用一组明智的分子级描述符，在极大缩短的时间内满足并超越了多样数据集上学习表示的性能。fastprop可以在github上免费获取，网址为github.com/JacksonBurns/fastprop。",
+    "tldr": "fastprop是一种DeepQSPR框架，通过使用分子级描述符，在极大缩短时间内，在多样数据集上达到并超越了学习表示的性能。",
+    "en_tdlr": "fastprop is a DeepQSPR framework that achieves and surpasses the performance of learned representations on diverse datasets in dramatically less time by utilizing molecular level descriptors."
+}

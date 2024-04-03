@@ -1,0 +1,12 @@
+{
+    "title": "Watanabe's expansion: A Solution for the convexity conundrum",
+    "abstract": "arXiv:2404.01522v1 Announce Type: new  Abstract: In this paper, we present a new method for pricing CMS derivatives. We use Mallaivin's calculus to establish a model-free connection between the price of a CMS derivative and a quadratic payoff. Then, we apply Watanabe's expansions to quadratic payoffs case under local and stochastic local volatility. Our approximations are generic. To evaluate their accuracy, we will compare the approximations numerically under the normal SABR model against the market standards: Hagan's approximation, and a Monte Carlo simulation.",
+    "link": "https://arxiv.org/abs/2404.01522",
+    "context": "Title: Watanabe's expansion: A Solution for the convexity conundrum\nAbstract: arXiv:2404.01522v1 Announce Type: new  Abstract: In this paper, we present a new method for pricing CMS derivatives. We use Mallaivin's calculus to establish a model-free connection between the price of a CMS derivative and a quadratic payoff. Then, we apply Watanabe's expansions to quadratic payoffs case under local and stochastic local volatility. Our approximations are generic. To evaluate their accuracy, we will compare the approximations numerically under the normal SABR model against the market standards: Hagan's approximation, and a Monte Carlo simulation.",
+    "path": "papers/24/04/2404.01522.json",
+    "total_tokens": 633,
+    "translated_title": "Watanabe的扩展：凸性难题的解决方案",
+    "translated_abstract": "在这篇论文中，我们提出了一种用于定价CMS衍生品的新方法。我们使用Mallaivin的微积分来建立CMS衍生品价格与二次付款之间的无模型联系。然后，我们在本地和随机本地波动率的情况下应用Watanabe的扩展到二次付款案例。我们的近似是通用的。为了评估它们的准确性，我们将在正常SABR模型下数值比较这些近似与市场标准：Hagan的近似和蒙特卡洛模拟。",
+    "tldr": "提出了一种用于定价CMS衍生品的新方法，并应用Watanabe的扩展到不同波动率情况下进行数值比较",
+    "en_tdlr": "Introduces a new method for pricing CMS derivatives and applies Watanabe's expansions to compare the approximations under different volatilities."
+}

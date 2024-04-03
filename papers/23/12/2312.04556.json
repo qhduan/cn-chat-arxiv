@@ -1,0 +1,12 @@
+{
+    "title": "Large Language Models for Mathematicians",
+    "abstract": "arXiv:2312.04556v2 Announce Type: replace-cross  Abstract: Large language models (LLMs) such as ChatGPT have received immense interest for their general-purpose language understanding and, in particular, their ability to generate high-quality text or computer code. For many professions, LLMs represent an invaluable tool that can speed up and improve the quality of work. In this note, we discuss to what extent they can aid professional mathematicians. We first provide a mathematical description of the transformer model used in all modern language models. Based on recent studies, we then outline best practices and potential issues and report on the mathematical abilities of language models. Finally, we shed light on the potential of LLMs to change how mathematicians work.",
+    "link": "https://arxiv.org/abs/2312.04556",
+    "context": "Title: Large Language Models for Mathematicians\nAbstract: arXiv:2312.04556v2 Announce Type: replace-cross  Abstract: Large language models (LLMs) such as ChatGPT have received immense interest for their general-purpose language understanding and, in particular, their ability to generate high-quality text or computer code. For many professions, LLMs represent an invaluable tool that can speed up and improve the quality of work. In this note, we discuss to what extent they can aid professional mathematicians. We first provide a mathematical description of the transformer model used in all modern language models. Based on recent studies, we then outline best practices and potential issues and report on the mathematical abilities of language models. Finally, we shed light on the potential of LLMs to change how mathematicians work.",
+    "path": "papers/23/12/2312.04556.json",
+    "total_tokens": 739,
+    "translated_title": "数学家的大型语言模型",
+    "translated_abstract": "大型语言模型（LLMs）如ChatGPT因其通用语言理解的能力以及生成高质量文本或计算机代码的能力而备受关注。对许多职业来说，LLMs代表一种无价的工具，可以加快工作速度并提高工作质量。本文讨论它们在帮助专业数学家方面的作用程度。我们首先提供了所有现代语言模型中使用的Transformer模型的数学描述。基于最近的研究，我们概述了最佳实践和潜在问题，并报告了语言模型的数学能力。最后，我们探讨了LLMs改变数学家工作方式的潜力。",
+    "tldr": "大型语言模型（LLMs）如ChatGPT因其通用语言理解的能力以及生成高质量文本或计算机代码的能力而备受关注，对数学家的潜在帮助和改变工作方式的影响进行了讨论。",
+    "en_tdlr": "Large language models (LLMs) such as ChatGPT have drawn immense interest for their general-purpose language understanding and high-quality text or code generation capabilities, with a focus on discussing their potential aid and impact on changing the work practices of mathematicians."
+}

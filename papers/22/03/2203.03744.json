@@ -1,0 +1,12 @@
+{
+    "title": "Identifying the Deviator",
+    "abstract": "arXiv:2203.03744v2 Announce Type: replace-cross  Abstract: A group of players are supposed to follow a prescribed profile of strategies. If they follow this profile, they will reach a given target. We show that if the target is not reached because some player deviates, then an outside observer can identify the deviator. We also construct identification methods in two nontrivial cases.",
+    "link": "https://arxiv.org/abs/2203.03744",
+    "context": "Title: Identifying the Deviator\nAbstract: arXiv:2203.03744v2 Announce Type: replace-cross  Abstract: A group of players are supposed to follow a prescribed profile of strategies. If they follow this profile, they will reach a given target. We show that if the target is not reached because some player deviates, then an outside observer can identify the deviator. We also construct identification methods in two nontrivial cases.",
+    "path": "papers/22/03/2203.03744.json",
+    "total_tokens": 530,
+    "translated_title": "识别出现偏离的玩家",
+    "translated_abstract": "一组玩家应该遵循既定的策略概要。如果他们遵循这个概要，他们将达到一个给定的目标。我们表明，如果目标没有达到是因为某个玩家偏离了，那么一个外部观察者可以识别出这个偏离者。我们还在两种非平凡情况下构建了识别方法。",
+    "tldr": "如果一组玩家没有达到目标是因为有玩家偏离了规定策略，外部观察者可以识别出这个偏离者。",
+    "en_tdlr": "An outside observer can identify the deviator if a group of players fail to reach the target due to deviation from prescribed strategies."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Detecting Gender Bias in Course Evaluations",
+    "abstract": "arXiv:2404.01857v1 Announce Type: cross  Abstract: An outtake from the findnings of a master thesis studying gender bias in course evaluations through the lense of machine learning and nlp. We use different methods to examine and explore the data and find differences in what students write about courses depending on gender of the examiner. Data from English and Swedish courses are evaluated and compared, in order to capture more nuance in the gender bias that might be found. Here we present the results from the work so far, but this is an ongoing project and there is more work to do.",
+    "link": "https://arxiv.org/abs/2404.01857",
+    "context": "Title: Detecting Gender Bias in Course Evaluations\nAbstract: arXiv:2404.01857v1 Announce Type: cross  Abstract: An outtake from the findnings of a master thesis studying gender bias in course evaluations through the lense of machine learning and nlp. We use different methods to examine and explore the data and find differences in what students write about courses depending on gender of the examiner. Data from English and Swedish courses are evaluated and compared, in order to capture more nuance in the gender bias that might be found. Here we present the results from the work so far, but this is an ongoing project and there is more work to do.",
+    "path": "papers/24/04/2404.01857.json",
+    "total_tokens": 677,
+    "translated_title": "在课程评价中检测性别偏见",
+    "translated_abstract": "这是一篇研究利用机器学习和自然语言处理从硕士论文研究中发现课程评价中性别偏见的截图。我们使用不同方法来检测和探索数据，发现学生对课程的评价会因考官的性别而有所不同。评估和比较了来自英语和瑞典课程的数据，以捕捉可能存在的性别偏见中更多的细微差别。我们在这里展示了到目前为止的工作结果，但这是一个正在进行的项目，还有更多的工作要做。",
+    "tldr": "通过机器学习和自然语言处理，研究发现课程评价中的性别偏见，比较英语和瑞典课程数据，揭示了学生对课程的评价主观性因考官性别而存在差异。",
+    "en_tdlr": "Revealing the subjectivity of course evaluations based on the gender of the examiner through machine learning and NLP, comparing data from English and Swedish courses to expose differences in students' feedback."
+}

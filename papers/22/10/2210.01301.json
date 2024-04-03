@@ -1,0 +1,12 @@
+{
+    "title": "GIDN: A Lightweight Graph Inception Diffusion Network for High-efficient Link Prediction",
+    "abstract": "arXiv:2210.01301v3 Announce Type: replace  Abstract: In this paper, we propose a Graph Inception Diffusion Networks(GIDN) model. This model generalizes graph diffusion in different feature spaces, and uses the inception module to avoid the large amount of computations caused by complex network structures. We evaluate GIDN model on Open Graph Benchmark(OGB) datasets, reached an 11% higher performance than AGDN on ogbl-collab dataset.",
+    "link": "https://arxiv.org/abs/2210.01301",
+    "context": "Title: GIDN: A Lightweight Graph Inception Diffusion Network for High-efficient Link Prediction\nAbstract: arXiv:2210.01301v3 Announce Type: replace  Abstract: In this paper, we propose a Graph Inception Diffusion Networks(GIDN) model. This model generalizes graph diffusion in different feature spaces, and uses the inception module to avoid the large amount of computations caused by complex network structures. We evaluate GIDN model on Open Graph Benchmark(OGB) datasets, reached an 11% higher performance than AGDN on ogbl-collab dataset.",
+    "path": "papers/22/10/2210.01301.json",
+    "total_tokens": 559,
+    "translated_title": "GIDN：用于高效链接预测的轻量级图创世扩散网络",
+    "translated_abstract": "在本文中，我们提出了一种图创世扩散网络（GIDN）模型。该模型在不同特征空间中泛化了图扩散，并使用创世模块来避免复杂网络结构引起的大量计算。我们在Open Graph Benchmark（OGB）数据集上评估了GIDN模型，在ogbl-collab数据集上比AGDN表现提高了11%。",
+    "tldr": "GIDN模型通过创世模块在不同特征空间中泛化了图扩散，以达到更高的性能表现。",
+    "en_tdlr": "GIDN model generalizes graph diffusion in different feature spaces using inception module to achieve better performance."
+}

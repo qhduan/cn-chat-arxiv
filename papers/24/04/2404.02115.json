@@ -1,0 +1,12 @@
+{
+    "title": "GINopic: Topic Modeling with Graph Isomorphism Network",
+    "abstract": "arXiv:2404.02115v1 Announce Type: new  Abstract: Topic modeling is a widely used approach for analyzing and exploring large document collections. Recent research efforts have incorporated pre-trained contextualized language models, such as BERT embeddings, into topic modeling. However, they often neglect the intrinsic informational value conveyed by mutual dependencies between words. In this study, we introduce GINopic, a topic modeling framework based on graph isomorphism networks to capture the correlation between words. By conducting intrinsic (quantitative as well as qualitative) and extrinsic evaluations on diverse benchmark datasets, we demonstrate the effectiveness of GINopic compared to existing topic models and highlight its potential for advancing topic modeling.",
+    "link": "https://arxiv.org/abs/2404.02115",
+    "context": "Title: GINopic: Topic Modeling with Graph Isomorphism Network\nAbstract: arXiv:2404.02115v1 Announce Type: new  Abstract: Topic modeling is a widely used approach for analyzing and exploring large document collections. Recent research efforts have incorporated pre-trained contextualized language models, such as BERT embeddings, into topic modeling. However, they often neglect the intrinsic informational value conveyed by mutual dependencies between words. In this study, we introduce GINopic, a topic modeling framework based on graph isomorphism networks to capture the correlation between words. By conducting intrinsic (quantitative as well as qualitative) and extrinsic evaluations on diverse benchmark datasets, we demonstrate the effectiveness of GINopic compared to existing topic models and highlight its potential for advancing topic modeling.",
+    "path": "papers/24/04/2404.02115.json",
+    "total_tokens": 720,
+    "translated_title": "GINopic：利用图同构网络进行主题建模",
+    "translated_abstract": "主题建模是分析和探索大型文档集合的广泛使用方法。 最近的研究工作将预训练的上下文化语言模型，如BERT嵌入，纳入主题建模中。 然而，它们通常忽略了单词之间相互依赖传达的固有信息价值。 本研究介绍了GINopic，一种基于图同构网络的主题建模框架，以捕捉单词之间的相关性。 通过在不同基准数据集上进行内在的（定量和定性）和外部的评估，我们展示了与现有主题模型相比，GINopic的有效性，并突出了其推进主题建模的潜力。",
+    "tldr": "GINopic是一种主题建模框架，利用图同构网络捕捉单词之间的相关性，相比于现有主题模型，展示了更好的有效性和推进主题建模的潜力。",
+    "en_tdlr": "GINopic is a topic modeling framework that captures the correlation between words using graph isomorphism networks, demonstrating better effectiveness compared to existing topic models and potential for advancing topic modeling."
+}

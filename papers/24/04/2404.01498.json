@@ -1,0 +1,12 @@
+{
+    "title": "Existence, uniqueness, and regularity of solutions to nonlinear and non-smooth parabolic obstacle problems",
+    "abstract": "arXiv:2404.01498v1 Announce Type: cross  Abstract: We establish the existence, uniqueness, and $W^{1,2,p}$-regularity of solutions to fully nonlinear parabolic obstacle problems when the obstacle is the pointwise supremum of arbitrary functions in $W^{1,2,p}$ and the operator is only assumed to be measurable in the state and time variables. The results hold for a large class of non-smooth obstacles, including all convex obstacles. Applied to stopping problems, they imply that the decision maker never stops at a convex kink of the stopping payoff. The proof relies on new $W^{1,2,p}$-estimates for obstacle problems where the obstacle is the maximum of finitely many functions in $W^{1,2,p}$.",
+    "link": "https://arxiv.org/abs/2404.01498",
+    "context": "Title: Existence, uniqueness, and regularity of solutions to nonlinear and non-smooth parabolic obstacle problems\nAbstract: arXiv:2404.01498v1 Announce Type: cross  Abstract: We establish the existence, uniqueness, and $W^{1,2,p}$-regularity of solutions to fully nonlinear parabolic obstacle problems when the obstacle is the pointwise supremum of arbitrary functions in $W^{1,2,p}$ and the operator is only assumed to be measurable in the state and time variables. The results hold for a large class of non-smooth obstacles, including all convex obstacles. Applied to stopping problems, they imply that the decision maker never stops at a convex kink of the stopping payoff. The proof relies on new $W^{1,2,p}$-estimates for obstacle problems where the obstacle is the maximum of finitely many functions in $W^{1,2,p}$.",
+    "path": "papers/24/04/2404.01498.json",
+    "total_tokens": 797,
+    "translated_title": "非线性和非光滑抛物障碍问题解的存在性、唯一性和正则性",
+    "translated_abstract": "我们建立了解决完全非线性抛物障碍问题的解的存在性、唯一性和$W^{1,2,p}$-正则性，当障碍是$W^{1,2,p}$中任意函数的点wise最大值，并且假设操作符在状态和时间变量中只是可测的。这些结果适用于一大类非光滑障碍物，包括所有凸障碍物。应用于停止问题，它们暗示决策者永远不会在停止回报的凸拐点停下。证明依赖于新的$W^{1,2,p}$-估计，其中障碍是$W^{1,2,p}$中有限多个函数的最大值。",
+    "tldr": "该论文建立了解决非线性和非光滑抛物障碍问题时解的存在性、唯一性和正则性，为一大类非光滑障碍物提供了新的理论支持，如决策过程中永远不会在凸拐点停下。",
+    "en_tdlr": "This paper establishes the existence, uniqueness, and regularity of solutions to fully nonlinear parabolic obstacle problems, providing new theoretical support for a large class of non-smooth obstacles, such as never stopping at convex kinks in decision processes."
+}

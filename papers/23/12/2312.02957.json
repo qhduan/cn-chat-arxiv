@@ -1,0 +1,11 @@
+{
+    "title": "Classification for everyone : Building geography agnostic models for fairer recognition",
+    "abstract": "arXiv:2312.02957v3 Announce Type: replace-cross  Abstract: In this paper, we analyze different methods to mitigate inherent geographical biases present in state of the art image classification models. We first quantitatively present this bias in two datasets - The Dollar Street Dataset and ImageNet, using images with location information. We then present different methods which can be employed to reduce this bias. Finally, we analyze the effectiveness of the different techniques on making these models more robust to geographical locations of the images.",
+    "link": "https://arxiv.org/abs/2312.02957",
+    "context": "Title: Classification for everyone : Building geography agnostic models for fairer recognition\nAbstract: arXiv:2312.02957v3 Announce Type: replace-cross  Abstract: In this paper, we analyze different methods to mitigate inherent geographical biases present in state of the art image classification models. We first quantitatively present this bias in two datasets - The Dollar Street Dataset and ImageNet, using images with location information. We then present different methods which can be employed to reduce this bias. Finally, we analyze the effectiveness of the different techniques on making these models more robust to geographical locations of the images.",
+    "path": "papers/23/12/2312.02957.json",
+    "total_tokens": 593,
+    "translated_title": "为所有人构建地理不可知模型的分类：消除地域偏见",
+    "translated_abstract": "在本文中，我们分析了减轻现有最先进图像分类模型中固有地理偏见的不同方法。我们首先定量地展示了这种偏见在两个数据集上 - Dollar Street数据集和ImageNet上的存在，使用带有位置信息的图片。然后，我们提出了可以用来减少这种偏见的不同方法。最后，我们分析了不同技术对于使这些模型更加鲁棒到图像地理位置的有效性。",
+    "tldr": "本文分析了消除现有图像分类模型中地理偏见的方法，并探讨了如何使这些模型更加鲁棒到图像的地理位置。"
+}

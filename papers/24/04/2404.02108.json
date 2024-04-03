@@ -1,0 +1,12 @@
+{
+    "title": "Variance-Reduced Policy Gradient Approaches for Infinite Horizon Average Reward Markov Decision Processes",
+    "abstract": "arXiv:2404.02108v1 Announce Type: new  Abstract: We present two Policy Gradient-based methods with general parameterization in the context of infinite horizon average reward Markov Decision Processes. The first approach employs Implicit Gradient Transport for variance reduction, ensuring an expected regret of the order $\\tilde{\\mathcal{O}}(T^{3/5})$. The second approach, rooted in Hessian-based techniques, ensures an expected regret of the order $\\tilde{\\mathcal{O}}(\\sqrt{T})$. These results significantly improve the state of the art of the problem, which achieves a regret of $\\tilde{\\mathcal{O}}(T^{3/4})$.",
+    "link": "https://arxiv.org/abs/2404.02108",
+    "context": "Title: Variance-Reduced Policy Gradient Approaches for Infinite Horizon Average Reward Markov Decision Processes\nAbstract: arXiv:2404.02108v1 Announce Type: new  Abstract: We present two Policy Gradient-based methods with general parameterization in the context of infinite horizon average reward Markov Decision Processes. The first approach employs Implicit Gradient Transport for variance reduction, ensuring an expected regret of the order $\\tilde{\\mathcal{O}}(T^{3/5})$. The second approach, rooted in Hessian-based techniques, ensures an expected regret of the order $\\tilde{\\mathcal{O}}(\\sqrt{T})$. These results significantly improve the state of the art of the problem, which achieves a regret of $\\tilde{\\mathcal{O}}(T^{3/4})$.",
+    "path": "papers/24/04/2404.02108.json",
+    "total_tokens": 794,
+    "translated_title": "适用于无限时域平均奖励马尔可夫决策过程的方差缩减策略梯度方法",
+    "translated_abstract": "我们在无限时域平均奖励马尔可夫决策过程的背景下，提出了两种基于策略梯度的方法，具有一般参数化。第一种方法使用隐式梯度传输进行方差缩减，确保期望后悔的数量级为$\\tilde{\\mathcal{O}}(T^{3/5})$。第二种方法，根植于基于Hessian的技术，确保期望后悔的数量级为$\\tilde{\\mathcal{O}}(\\sqrt{T})$。这些结果显著改进了该问题的现有技术水平，其后悔率为$\\tilde{\\mathcal{O}}(T^{3/4})。",
+    "tldr": "提出了两种基于策略梯度的方法，分别利用隐式梯度传输和基于Hessian的技术，分别确保了$\\tilde{\\mathcal{O}}(T^{3/5})$和$\\tilde{\\mathcal{O}}(\\sqrt{T})$数量级的期望后悔。",
+    "en_tdlr": "Two Policy Gradient-based methods were proposed, utilizing Implicit Gradient Transport and Hessian-based techniques respectively, ensuring expected regrets of $\\tilde{\\mathcal{O}}(T^{3/5})$ and $\\tilde{\\mathcal{O}(\\sqrt{T})$."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Generative AI-Based Text Generation Methods Using Pre-Trained GPT-2 Model",
+    "abstract": "arXiv:2404.01786v1 Announce Type: new  Abstract: This work delved into the realm of automatic text generation, exploring a variety of techniques ranging from traditional deterministic approaches to more modern stochastic methods. Through analysis of greedy search, beam search, top-k sampling, top-p sampling, contrastive searching, and locally typical searching, this work has provided valuable insights into the strengths, weaknesses, and potential applications of each method. Each text-generating method is evaluated using several standard metrics and a comparative study has been made on the performance of the approaches. Finally, some future directions of research in the field of automatic text generation are also identified.",
+    "link": "https://arxiv.org/abs/2404.01786",
+    "context": "Title: Generative AI-Based Text Generation Methods Using Pre-Trained GPT-2 Model\nAbstract: arXiv:2404.01786v1 Announce Type: new  Abstract: This work delved into the realm of automatic text generation, exploring a variety of techniques ranging from traditional deterministic approaches to more modern stochastic methods. Through analysis of greedy search, beam search, top-k sampling, top-p sampling, contrastive searching, and locally typical searching, this work has provided valuable insights into the strengths, weaknesses, and potential applications of each method. Each text-generating method is evaluated using several standard metrics and a comparative study has been made on the performance of the approaches. Finally, some future directions of research in the field of automatic text generation are also identified.",
+    "path": "papers/24/04/2404.01786.json",
+    "total_tokens": 708,
+    "translated_title": "基于预训练GPT-2模型的生成式AI文本生成方法",
+    "translated_abstract": "这项工作深入探讨了自动文本生成领域，探索了从传统确定性方法到更现代的随机方法的各种技术。通过分析贪婪搜索、束搜索、top-k抽样、top-p抽样、对比搜索和本地典型搜索，这项工作为每种方法的优势、劣势和潜在应用提供了有价值的见解。每种文本生成方法都使用几个标准度量标准进行评估，并对这些方法的性能进行了比较研究。最后，还确定了自动文本生成领域研究的一些未来方向。",
+    "tldr": "通过分析各种传统和现代的文本生成技术，该研究提供了对每种方法优势、劣势和潜在应用的宝贵见解，并对这些方法的性能进行了比较研究。",
+    "en_tdlr": "By analyzing various traditional and modern text generation techniques, the study provides valuable insights into the strengths, weaknesses, and potential applications of each method, along with a comparative study on their performance."
+}
