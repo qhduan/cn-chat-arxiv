@@ -1,0 +1,12 @@
+{
+    "title": "An inversion problem for optical spectrum data via physics-guided machine learning",
+    "abstract": "arXiv:2404.02387v1 Announce Type: cross  Abstract: We propose the regularized recurrent inference machine (rRIM), a novel machine-learning approach to solve the challenging problem of deriving the pairing glue function from measured optical spectra. The rRIM incorporates physical principles into both training and inference and affords noise robustness, flexibility with out-of-distribution data, and reduced data requirements. It effectively obtains reliable pairing glue functions from experimental optical spectra and yields promising solutions for similar inverse problems of the Fredholm integral equation of the first kind.",
+    "link": "https://arxiv.org/abs/2404.02387",
+    "context": "Title: An inversion problem for optical spectrum data via physics-guided machine learning\nAbstract: arXiv:2404.02387v1 Announce Type: cross  Abstract: We propose the regularized recurrent inference machine (rRIM), a novel machine-learning approach to solve the challenging problem of deriving the pairing glue function from measured optical spectra. The rRIM incorporates physical principles into both training and inference and affords noise robustness, flexibility with out-of-distribution data, and reduced data requirements. It effectively obtains reliable pairing glue functions from experimental optical spectra and yields promising solutions for similar inverse problems of the Fredholm integral equation of the first kind.",
+    "path": "papers/24/04/2404.02387.json",
+    "total_tokens": 703,
+    "translated_title": "通过物理引导的机器学习解决光谱数据的反演问题",
+    "translated_abstract": "我们提出了一种新颖的机器学习方法——正则化递归推理机(rRIM)，用于解决从测量到的光谱中推导配对粘合函数的挑战性问题。rRIM将物理原理融入训练和推理中，具有噪声鲁棒性、可以处理超出分布数据和减少数据需求的灵活性。它有效地从实验光谱中获取可靠的配对粘合函数，并为第一类Fredholm积分方程类似的反问题提供了有希望的解决方案。",
+    "tldr": "提出了正则化递归推理机(rRIM)，一种通过物理引导的机器学习方法，用于从实验光谱中推导配对粘合函数，具有噪声鲁棒性和灵活性，可解决第一类Fredholm积分方程的类似反问题。",
+    "en_tdlr": "Introduced the regularized recurrent inference machine (rRIM), a physics-guided machine learning approach, for deriving pairing glue function from experimental optical spectra with noise robustness and flexibility, providing promising solutions for similar inverse problems of the first kind Fredholm integral equation."
+}

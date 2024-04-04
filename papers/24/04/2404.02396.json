@@ -1,0 +1,12 @@
+{
+    "title": "Enhancing Diffusion-based Point Cloud Generation with Smoothness Constraint",
+    "abstract": "arXiv:2404.02396v1 Announce Type: cross  Abstract: Diffusion models have been popular for point cloud generation tasks. Existing works utilize the forward diffusion process to convert the original point distribution into a noise distribution and then learn the reverse diffusion process to recover the point distribution from the noise distribution. However, the reverse diffusion process can produce samples with non-smooth points on the surface because of the ignorance of the point cloud geometric properties. We propose alleviating the problem by incorporating the local smoothness constraint into the diffusion framework for point cloud generation. Experiments demonstrate the proposed model can generate realistic shapes and smoother point clouds, outperforming multiple state-of-the-art methods.",
+    "link": "https://arxiv.org/abs/2404.02396",
+    "context": "Title: Enhancing Diffusion-based Point Cloud Generation with Smoothness Constraint\nAbstract: arXiv:2404.02396v1 Announce Type: cross  Abstract: Diffusion models have been popular for point cloud generation tasks. Existing works utilize the forward diffusion process to convert the original point distribution into a noise distribution and then learn the reverse diffusion process to recover the point distribution from the noise distribution. However, the reverse diffusion process can produce samples with non-smooth points on the surface because of the ignorance of the point cloud geometric properties. We propose alleviating the problem by incorporating the local smoothness constraint into the diffusion framework for point cloud generation. Experiments demonstrate the proposed model can generate realistic shapes and smoother point clouds, outperforming multiple state-of-the-art methods.",
+    "path": "papers/24/04/2404.02396.json",
+    "total_tokens": 712,
+    "translated_title": "利用平滑约束增强基于扩散的点云生成",
+    "translated_abstract": "扩散模型在点云生成任务中很受欢迎。现有作品利用前向扩散过程将原始点分布转换为噪声分布，然后学习逆扩散过程从噪声分布中恢复点分布。然而，由于忽视点云的几何特性，逆扩散过程可能会在表面上产生具有非平滑点的样本。我们提出通过将局部平滑约束纳入扩散框架中来缓解这个问题，用于点云生成。实验表明，所提出的模型可以生成逼真的形状和更加平滑的点云，优于多种最先进的方法。",
+    "tldr": "提出利用局部平滑约束在扩散框架中增强点云生成，实验结果表明该模型可以生成逼真且更加平滑的点云，优于多种最先进的方法。",
+    "en_tdlr": "Introducing local smoothness constraint into the diffusion framework enhances point cloud generation by generating realistic shapes and smoother point clouds, outperforming multiple state-of-the-art methods according to experiments."
+}

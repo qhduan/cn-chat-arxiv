@@ -1,0 +1,11 @@
+{
+    "title": "Catalytic Role Of Noise And Necessity Of Inductive Biases In The Emergence Of Compositional Communication",
+    "abstract": "arXiv:2111.06464v2 Announce Type: replace-cross  Abstract: Communication is compositional if complex signals can be represented as a combination of simpler subparts. In this paper, we theoretically show that inductive biases on both the training framework and the data are needed to develop a compositional communication. Moreover, we prove that compositionality spontaneously arises in the signaling games, where agents communicate over a noisy channel. We experimentally confirm that a range of noise levels, which depends on the model and the data, indeed promotes compositionality. Finally, we provide a comprehensive study of this dependence and report results in terms of recently studied compositionality metrics: topographical similarity, conflict count, and context independence.",
+    "link": "https://arxiv.org/abs/2111.06464",
+    "context": "Title: Catalytic Role Of Noise And Necessity Of Inductive Biases In The Emergence Of Compositional Communication\nAbstract: arXiv:2111.06464v2 Announce Type: replace-cross  Abstract: Communication is compositional if complex signals can be represented as a combination of simpler subparts. In this paper, we theoretically show that inductive biases on both the training framework and the data are needed to develop a compositional communication. Moreover, we prove that compositionality spontaneously arises in the signaling games, where agents communicate over a noisy channel. We experimentally confirm that a range of noise levels, which depends on the model and the data, indeed promotes compositionality. Finally, we provide a comprehensive study of this dependence and report results in terms of recently studied compositionality metrics: topographical similarity, conflict count, and context independence.",
+    "path": "papers/21/11/2111.06464.json",
+    "total_tokens": 729,
+    "translated_title": "噪声在组合式沟通中的催化作用和归纳偏见的必要性",
+    "translated_abstract": "沟通是组合式的，如果复杂信号可以表示为较简单子部分的组合。本文理论上表明，训练框架和数据上的归纳偏见对于发展组合式沟通是必要的。此外，我们证明组合性会在信号博弈中自发出现，代理在嘈杂通道上传输信息。我们通过实验证实，一系列噪声水平（取决于模型和数据）确实促进了组合性。最后，我们对这种依赖关系进行了全面研究，并报告了最近研究的组合性度量结果：拓扑相似性、冲突计数和上下文独立性。",
+    "tldr": "噪声和归纳偏见的作用使得组合式沟通自发产生，并且一定范围内的噪声有助于促进组合性的发展。"
+}

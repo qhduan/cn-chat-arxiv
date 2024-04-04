@@ -1,0 +1,12 @@
+{
+    "title": "Farkas' Lemma and Complete Indifference",
+    "abstract": "arXiv:2404.02620v1 Announce Type: new  Abstract: In a finite two player game consider the matrix of one player's payoff difference between any two consecutive pure strategies. Define the half space induced by a column vector of this matrix as the set of vectors that form an obtuse angle with this column vector. We use Farkas' lemma to show that this player can be made indifferent between all pure strategies if and only if the union of all these half spaces covers the whole vector space. This result leads to a necessary (and almost sufficient) condition for a game to have a completely mixed Nash equilibrium. We demonstrate its usefulness by providing the class of all symmetric two player three strategy games that have a unique and completely mixed symmetric Nash equilibrium.",
+    "link": "https://arxiv.org/abs/2404.02620",
+    "context": "Title: Farkas' Lemma and Complete Indifference\nAbstract: arXiv:2404.02620v1 Announce Type: new  Abstract: In a finite two player game consider the matrix of one player's payoff difference between any two consecutive pure strategies. Define the half space induced by a column vector of this matrix as the set of vectors that form an obtuse angle with this column vector. We use Farkas' lemma to show that this player can be made indifferent between all pure strategies if and only if the union of all these half spaces covers the whole vector space. This result leads to a necessary (and almost sufficient) condition for a game to have a completely mixed Nash equilibrium. We demonstrate its usefulness by providing the class of all symmetric two player three strategy games that have a unique and completely mixed symmetric Nash equilibrium.",
+    "path": "papers/24/04/2404.02620.json",
+    "total_tokens": 798,
+    "translated_title": "Farkas引理与完全冷漠",
+    "translated_abstract": "在一个有限的双人游戏中，考虑其中一个玩家的支付差异矩阵，即任意两个连续纯策略之间的差异。定义由这个矩阵的列向量诱导的超平面为与该列向量形成钝角的向量集合。我们利用Farkas引理表明，如果所有这些半空间的并覆盖整个向量空间，则该玩家可以对所有纯策略保持中立。这一结果导致了一个游戏具有完全混合纳什均衡的必要（且几乎充分）条件。我们通过提供所有具有唯一且完全混合对称纳什均衡的对称双人三策略游戏的类别来展示其有用性。",
+    "tldr": "利用Farkas引理，证明了在有限的双人游戏中，当所有半空间的并覆盖整个向量空间时，某玩家可以对所有纯策略保持中立，并提出了拥有唯一完全混合对称纳什均衡的特定游戏类别。",
+    "en_tdlr": "Using Farkas' lemma, it is shown that in a finite two-player game, a player can be made indifferent between all pure strategies when the union of all half spaces covers the whole vector space, and a specific class of games with unique and completely mixed symmetric Nash equilibrium is identified."
+}

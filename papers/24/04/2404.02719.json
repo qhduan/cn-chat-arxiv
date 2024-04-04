@@ -1,0 +1,12 @@
+{
+    "title": "Can We Understand Plasticity Through Neural Collapse?",
+    "abstract": "arXiv:2404.02719v1 Announce Type: cross  Abstract: This paper explores the connection between two recently identified phenomena in deep learning: plasticity loss and neural collapse. We analyze their correlation in different scenarios, revealing a significant association during the initial training phase on the first task. Additionally, we introduce a regularization approach to mitigate neural collapse, demonstrating its effectiveness in alleviating plasticity loss in this specific setting.",
+    "link": "https://arxiv.org/abs/2404.02719",
+    "context": "Title: Can We Understand Plasticity Through Neural Collapse?\nAbstract: arXiv:2404.02719v1 Announce Type: cross  Abstract: This paper explores the connection between two recently identified phenomena in deep learning: plasticity loss and neural collapse. We analyze their correlation in different scenarios, revealing a significant association during the initial training phase on the first task. Additionally, we introduce a regularization approach to mitigate neural collapse, demonstrating its effectiveness in alleviating plasticity loss in this specific setting.",
+    "path": "papers/24/04/2404.02719.json",
+    "total_tokens": 594,
+    "translated_title": "我们能否通过神经坍塌来理解可塑性？",
+    "translated_abstract": "这篇论文探讨了深度学习中两个最近确定的现象之间的联系：可塑性损失和神经坍塌。我们分析了它们在不同场景中的相关性，在第一个任务的初始训练阶段揭示了显著的关联。此外，我们引入了一种正则化方法来缓解神经坍塌，证明了在这种特定情况下减轻可塑性损失的有效性。",
+    "tldr": "论文探讨了深度学习中可塑性损失和神经坍塌的关联，并引入了一种正则化方法来缓解神经坍塌，从而减轻了可塑性损失。",
+    "en_tdlr": "The paper explores the correlation between plasticity loss and neural collapse in deep learning, and introduces a regularization approach to mitigate neural collapse, thereby alleviating plasticity loss."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Comment on \"Machine learning conservation laws from differential equations\"",
+    "abstract": "arXiv:2404.02896v1 Announce Type: new  Abstract: In lieu of abstract, first paragraph reads: Six months after the author derived a constant of motion for a 1D damped harmonic oscillator [1], a similar result appeared by Liu, Madhavan, and Tegmark [2, 3], without citing the author. However, their derivation contained six serious errors, causing both their method and result to be incorrect. In this Comment, those errors are reviewed.",
+    "link": "https://arxiv.org/abs/2404.02896",
+    "context": "Title: Comment on \"Machine learning conservation laws from differential equations\"\nAbstract: arXiv:2404.02896v1 Announce Type: new  Abstract: In lieu of abstract, first paragraph reads: Six months after the author derived a constant of motion for a 1D damped harmonic oscillator [1], a similar result appeared by Liu, Madhavan, and Tegmark [2, 3], without citing the author. However, their derivation contained six serious errors, causing both their method and result to be incorrect. In this Comment, those errors are reviewed.",
+    "path": "papers/24/04/2404.02896.json",
+    "total_tokens": 515,
+    "translated_title": "对“从微分方程中学习守恒定律”一文的评论",
+    "translated_abstract": "在此评论中，作者回顾了刘, 马德哈万和泰格马克提出的与作者提出的一维阻尼谐振子的守恒量相类似的结果，指出他们推导中存在六个严重错误，导致他们的方法和结果均不正确。",
+    "tldr": "评论了另一篇关于从微分方程中学习守恒定律的文章中存在的严重推导错误"
+}

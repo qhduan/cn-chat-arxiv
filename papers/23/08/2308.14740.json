@@ -1,0 +1,12 @@
+{
+    "title": "Total Selfie: Generating Full-Body Selfies",
+    "abstract": "arXiv:2308.14740v2 Announce Type: replace-cross  Abstract: We present a method to generate full-body selfies from photographs originally taken at arms length. Because self-captured photos are typically taken close up, they have limited field of view and exaggerated perspective that distorts facial shapes. We instead seek to generate the photo some one else would take of you from a few feet away. Our approach takes as input four selfies of your face and body, a background image, and generates a full-body selfie in a desired target pose. We introduce a novel diffusion-based approach to combine all of this information into high-quality, well-composed photos of you with the desired pose and background.",
+    "link": "https://arxiv.org/abs/2308.14740",
+    "context": "Title: Total Selfie: Generating Full-Body Selfies\nAbstract: arXiv:2308.14740v2 Announce Type: replace-cross  Abstract: We present a method to generate full-body selfies from photographs originally taken at arms length. Because self-captured photos are typically taken close up, they have limited field of view and exaggerated perspective that distorts facial shapes. We instead seek to generate the photo some one else would take of you from a few feet away. Our approach takes as input four selfies of your face and body, a background image, and generates a full-body selfie in a desired target pose. We introduce a novel diffusion-based approach to combine all of this information into high-quality, well-composed photos of you with the desired pose and background.",
+    "path": "papers/23/08/2308.14740.json",
+    "total_tokens": 686,
+    "translated_title": "全景自拍：生成全身自拍照片",
+    "translated_abstract": "我们提出了一种方法，从最初处于手臂长度位置的照片中生成全身自拍照片。由于自拍照片通常是近距离拍摄的，因此其视野有限，透视效果夸张，扭曲了面部形状。我们希望生成别人从几英尺外拍摄的您的照片。我们的方法以您的面部和身体的四张自拍照片、背景图像为输入，并生成一个指定目标姿势的全身自拍照片。我们介绍了一种基于扩散的新方法，将所有这些信息结合成您具有所需姿势和背景的高质量、构图合理的照片。",
+    "tldr": "该方法能够从近距离自拍照片生成出一张别人从几英尺外拍摄的您的全身自拍照片。",
+    "en_tdlr": "This method can generate a full-body selfie of you taken by someone else from a few feet away from close-up selfies."
+}

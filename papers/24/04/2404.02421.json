@@ -1,0 +1,11 @@
+{
+    "title": "Revisiting subword tokenization: A case study on affixal negation in large language models",
+    "abstract": "arXiv:2404.02421v1 Announce Type: new  Abstract: In this work, we measure the impact of affixal negation on modern English large language models (LLMs). In affixal negation, the negated meaning is expressed through a negative morpheme, which is potentially challenging for LLMs as their tokenizers are often not morphologically plausible. We conduct extensive experiments using LLMs with different subword tokenization methods, which lead to several insights on the interaction between tokenization performance and negation sensitivity. Despite some interesting mismatches between tokenization accuracy and negation detection performance, we show that models can, on the whole, reliably recognize the meaning of affixal negation.",
+    "link": "https://arxiv.org/abs/2404.02421",
+    "context": "Title: Revisiting subword tokenization: A case study on affixal negation in large language models\nAbstract: arXiv:2404.02421v1 Announce Type: new  Abstract: In this work, we measure the impact of affixal negation on modern English large language models (LLMs). In affixal negation, the negated meaning is expressed through a negative morpheme, which is potentially challenging for LLMs as their tokenizers are often not morphologically plausible. We conduct extensive experiments using LLMs with different subword tokenization methods, which lead to several insights on the interaction between tokenization performance and negation sensitivity. Despite some interesting mismatches between tokenization accuracy and negation detection performance, we show that models can, on the whole, reliably recognize the meaning of affixal negation.",
+    "path": "papers/24/04/2404.02421.json",
+    "total_tokens": 754,
+    "translated_title": "重新审视亚字词标记：基于大型语言模型中前缀否定的案例研究",
+    "translated_abstract": "在这项工作中，我们衡量了前缀否定对现代英文大型语言模型（LLMs）的影响。在前缀否定中，否定的含义通过一个负面形态素来表达，这对LLMs可能具有挑战性，因为它们的标记器通常不具备形态学上的合理性。我们使用具有不同亚字词标记方法的LLMs进行了广泛实验，这些实验为我们提供了关于标记性能与否定敏感性之间交互作用的几点见解。尽管在标记准确性和否定检测性能之间存在一些有趣的不匹配，但我们表明模型整体上可以可靠地识别前缀否定的含义。",
+    "tldr": "研究衡量了前缀否定对大型语言模型的影响，发现尽管存在一些不匹配，模型整体上能够可靠地识别前缀否定的含义。"
+}

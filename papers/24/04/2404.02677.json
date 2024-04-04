@@ -1,0 +1,12 @@
+{
+    "title": "The VoicePrivacy 2024 Challenge Evaluation Plan",
+    "abstract": "arXiv:2404.02677v1 Announce Type: cross  Abstract: The task of the challenge is to develop a voice anonymization system for speech data which conceals the speaker's voice identity while protecting linguistic content and emotional states. The organizers provide development and evaluation datasets and evaluation scripts, as well as baseline anonymization systems and a list of training resources formed on the basis of the participants' requests. Participants apply their developed anonymization systems, run evaluation scripts and submit evaluation results and anonymized speech data to the organizers. Results will be presented at a workshop held in conjunction with Interspeech 2024 to which all participants are invited to present their challenge systems and to submit additional workshop papers.",
+    "link": "https://arxiv.org/abs/2404.02677",
+    "context": "Title: The VoicePrivacy 2024 Challenge Evaluation Plan\nAbstract: arXiv:2404.02677v1 Announce Type: cross  Abstract: The task of the challenge is to develop a voice anonymization system for speech data which conceals the speaker's voice identity while protecting linguistic content and emotional states. The organizers provide development and evaluation datasets and evaluation scripts, as well as baseline anonymization systems and a list of training resources formed on the basis of the participants' requests. Participants apply their developed anonymization systems, run evaluation scripts and submit evaluation results and anonymized speech data to the organizers. Results will be presented at a workshop held in conjunction with Interspeech 2024 to which all participants are invited to present their challenge systems and to submit additional workshop papers.",
+    "path": "papers/24/04/2404.02677.json",
+    "total_tokens": 713,
+    "translated_title": "VoicePrivacy 2024挑战评估计划",
+    "translated_abstract": "挑战的任务是为语音数据开发一种声音匿名化系统，该系统隐藏说话者的语音身份，同时保护语言内容和情感状态。组织者提供开发和评估数据集、评估脚本，以及基于参与者要求形成的基线匿名化系统和培训资源列表。参与者应用他们开发的匿名化系统，运行评估脚本，并将评估结果和匿名化的语音数据提交给组织者。结果将在与Interspeech 2024同期举办的研讨会上展示，所有参与者都被邀请展示他们的挑战系统并提交额外的研讨会论文。",
+    "tldr": "该挑战旨在开发一种声音匿名化系统，用于隐藏说话者的声音身份，同时保护语言内容和情感状态，并通过组织者提供的数据集和评估脚本进行评估。",
+    "en_tdlr": "The challenge aims to develop a voice anonymization system that conceals the speaker's voice identity while protecting linguistic content and emotional states, with evaluation conducted using datasets and scripts provided by the organizers."
+}

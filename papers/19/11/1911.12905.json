@@ -1,0 +1,12 @@
+{
+    "title": "Simulation-based reinforcement learning for real-world autonomous driving",
+    "abstract": "arXiv:1911.12905v4 Announce Type: replace-cross  Abstract: We use reinforcement learning in simulation to obtain a driving system controlling a full-size real-world vehicle. The driving policy takes RGB images from a single camera and their semantic segmentation as input. We use mostly synthetic data, with labelled real-world data appearing only in the training of the segmentation network.   Using reinforcement learning in simulation and synthetic data is motivated by lowering costs and engineering effort.   In real-world experiments we confirm that we achieved successful sim-to-real policy transfer. Based on the extensive evaluation, we analyze how design decisions about perception, control, and training impact the real-world performance.",
+    "link": "https://arxiv.org/abs/1911.12905",
+    "context": "Title: Simulation-based reinforcement learning for real-world autonomous driving\nAbstract: arXiv:1911.12905v4 Announce Type: replace-cross  Abstract: We use reinforcement learning in simulation to obtain a driving system controlling a full-size real-world vehicle. The driving policy takes RGB images from a single camera and their semantic segmentation as input. We use mostly synthetic data, with labelled real-world data appearing only in the training of the segmentation network.   Using reinforcement learning in simulation and synthetic data is motivated by lowering costs and engineering effort.   In real-world experiments we confirm that we achieved successful sim-to-real policy transfer. Based on the extensive evaluation, we analyze how design decisions about perception, control, and training impact the real-world performance.",
+    "path": "papers/19/11/1911.12905.json",
+    "total_tokens": 700,
+    "translated_title": "模拟强化学习用于现实世界自动驾驶",
+    "translated_abstract": "我们利用模拟强化学习来获得控制全尺寸真实世界车辆的驾驶系统。驾驶策略以来自单个摄像头的RGB图像及其语义分割作为输入。我们主要使用合成数据，只有在分割网络的训练中才出现标记的真实世界数据。在真实世界实验中，我们确认实现了成功的模拟到真实策略转移。基于广泛的评估，我们分析了关于感知、控制和训练的设计决策如何影响真实世界性能。",
+    "tldr": "该论文利用模拟强化学习和合成数据来实现对真实世界自动驾驶系统的控制，成功实现了模拟到真实策略转移，并分析了设计决策对真实世界性能的影响。",
+    "en_tdlr": "This paper utilizes simulation-based reinforcement learning and synthetic data to control real-world autonomous driving systems, successfully achieving sim-to-real policy transfer and analyzing the impact of design decisions on real-world performance."
+}

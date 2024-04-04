@@ -1,0 +1,12 @@
+{
+    "title": "Collapse of Self-trained Language Models",
+    "abstract": "arXiv:2404.02305v1 Announce Type: cross  Abstract: In various fields of knowledge creation, including science, new ideas often build on pre-existing information. In this work, we explore this concept within the context of language models. Specifically, we explore the potential of self-training models on their own outputs, akin to how humans learn and build on their previous thoughts and actions. While this approach is intuitively appealing, our research reveals its practical limitations. We find that extended self-training of the GPT-2 model leads to a significant degradation in performance, resulting in repetitive and collapsed token output.",
+    "link": "https://arxiv.org/abs/2404.02305",
+    "context": "Title: Collapse of Self-trained Language Models\nAbstract: arXiv:2404.02305v1 Announce Type: cross  Abstract: In various fields of knowledge creation, including science, new ideas often build on pre-existing information. In this work, we explore this concept within the context of language models. Specifically, we explore the potential of self-training models on their own outputs, akin to how humans learn and build on their previous thoughts and actions. While this approach is intuitively appealing, our research reveals its practical limitations. We find that extended self-training of the GPT-2 model leads to a significant degradation in performance, resulting in repetitive and collapsed token output.",
+    "path": "papers/24/04/2404.02305.json",
+    "total_tokens": 672,
+    "translated_title": "自训练语言模型的崩溃",
+    "translated_abstract": "在各个知识创造领域，包括科学，新思想往往建立在现有信息之上。在这项工作中，我们探讨了这个概念在语言模型的背景下的应用。具体而言，我们探讨了自我训练模型在其自身输出上的潜力，类似于人类学习并建立在他们以前的思想和行动上。虽然这种方法在直观上很有吸引力，但我们的研究揭示了它的实际局限性。我们发现对GPT-2模型进行长时间的自训练会导致性能显著下降，导致重复和崩溃的令牌输出。",
+    "tldr": "自我训练的语言模型在延长训练时表现出显著的性能下降，导致重复和崩溃的标记输出。",
+    "en_tdlr": "Extended self-training of language models leads to significant performance degradation, resulting in repetitive and collapsed token output."
+}

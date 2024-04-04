@@ -1,0 +1,12 @@
+{
+    "title": "New methods for drug synergy prediction",
+    "abstract": "arXiv:2404.02484v1 Announce Type: cross  Abstract: In this mini-review, we explore the new prediction methods for drug combination synergy relying on high-throughput combinatorial screens. The fast progress of the field is witnessed in the more than thirty original machine learning methods published since 2021, a clear majority of them based on deep learning techniques. We aim to put these papers under a unifying lens by highlighting the core technologies, the data sources, the input data types and synergy scores used in the methods, as well as the prediction scenarios and evaluation protocols that the papers deal with. Our finding is that the best methods accurately solve the synergy prediction scenarios involving known drugs or cell lines while the scenarios involving new drugs or cell lines still fall short of an accurate prediction level.",
+    "link": "https://arxiv.org/abs/2404.02484",
+    "context": "Title: New methods for drug synergy prediction\nAbstract: arXiv:2404.02484v1 Announce Type: cross  Abstract: In this mini-review, we explore the new prediction methods for drug combination synergy relying on high-throughput combinatorial screens. The fast progress of the field is witnessed in the more than thirty original machine learning methods published since 2021, a clear majority of them based on deep learning techniques. We aim to put these papers under a unifying lens by highlighting the core technologies, the data sources, the input data types and synergy scores used in the methods, as well as the prediction scenarios and evaluation protocols that the papers deal with. Our finding is that the best methods accurately solve the synergy prediction scenarios involving known drugs or cell lines while the scenarios involving new drugs or cell lines still fall short of an accurate prediction level.",
+    "path": "papers/24/04/2404.02484.json",
+    "total_tokens": 765,
+    "translated_title": "药物协同作用预测的新方法",
+    "translated_abstract": "在这篇小型综述中，我们探讨了依赖于高通量组合筛选的药物组合协同作用的新预测方法。自2021年以来，该领域取得了迅速进展，已发表了超过30种原创机器学习方法，其中绝大多数是基于深度学习技术的。我们旨在通过突显方法中使用的核心技术、数据来源、输入数据类型和协同得分，以及论文所涉及的预测情景和评估协议，将这些论文放在一个统一的视角下。我们的发现是，最佳方法准确地解决了涉及已知药物或细胞系的协同作用预测情景，而涉及新药物或细胞系的情景仍未达到准确预测水平。",
+    "tldr": "最佳方法准确解决了涉及已知药物或细胞系的药物协同作用预测情景，但仍未达到准确预测新药物或细胞系的水平。",
+    "en_tdlr": "The best methods accurately solve the synergy prediction scenarios involving known drugs or cell lines, but still fall short in accurately predicting scenarios involving new drugs or cell lines."
+}

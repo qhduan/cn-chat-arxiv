@@ -1,0 +1,12 @@
+{
+    "title": "Responsible Reporting for Frontier AI Development",
+    "abstract": "arXiv:2404.02675v1 Announce Type: cross  Abstract: Mitigating the risks from frontier AI systems requires up-to-date and reliable information about those systems. Organizations that develop and deploy frontier systems have significant access to such information. By reporting safety-critical information to actors in government, industry, and civil society, these organizations could improve visibility into new and emerging risks posed by frontier systems. Equipped with this information, developers could make better informed decisions on risk management, while policymakers could design more targeted and robust regulatory infrastructure. We outline the key features of responsible reporting and propose mechanisms for implementing them in practice.",
+    "link": "https://arxiv.org/abs/2404.02675",
+    "context": "Title: Responsible Reporting for Frontier AI Development\nAbstract: arXiv:2404.02675v1 Announce Type: cross  Abstract: Mitigating the risks from frontier AI systems requires up-to-date and reliable information about those systems. Organizations that develop and deploy frontier systems have significant access to such information. By reporting safety-critical information to actors in government, industry, and civil society, these organizations could improve visibility into new and emerging risks posed by frontier systems. Equipped with this information, developers could make better informed decisions on risk management, while policymakers could design more targeted and robust regulatory infrastructure. We outline the key features of responsible reporting and propose mechanisms for implementing them in practice.",
+    "path": "papers/24/04/2404.02675.json",
+    "total_tokens": 749,
+    "translated_title": "为前沿人工智能开发负责任地报道",
+    "translated_abstract": "缓解前沿人工智能系统带来的风险需要获取最新和可靠的关于这些系统的信息。开发和部署前沿系统的组织对这些信息具有重要的获取途径。通过向政府、工业界和公民社会的相关方报告安全关键信息，这些组织可以增进对前沿系统带来的新兴风险的可见度。有了这些信息，开发者可以做出更为明智的风险管理决策，决策者也可以设计更加有针对性和健全的监管基础设施。我们概述了负责任地报道的关键特点并提出了在实践中实施它们的机制。",
+    "tldr": "通过负责任地向政府、工业界和公民社会的相关方报告安全关键信息，前沿人工智能系统开发组织可以提高风险可见度，帮助开发者做出明智的决策并协助决策者设计更有针对性和健全的监管基础设施。",
+    "en_tdlr": "By responsibly reporting safety-critical information to government, industry, and civil society actors, organizations developing frontier AI systems can enhance risk visibility, assist developers in making informed decisions, and aid policymakers in designing more targeted and robust regulatory infrastructure."
+}

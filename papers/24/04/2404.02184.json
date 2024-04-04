@@ -1,0 +1,12 @@
+{
+    "title": "What is to be gained by ensemble models in analysis of spectroscopic data?",
+    "abstract": "arXiv:2404.02184v1 Announce Type: new  Abstract: An empirical study was carried out to compare different implementations of ensemble models aimed at improving prediction in spectroscopic data. A wide range of candidate models were fitted to benchmark datasets from regression and classification settings. A statistical analysis using linear mixed model was carried out on prediction performance criteria resulting from model fits over random splits of the data. The results showed that the ensemble classifiers were able to consistently outperform candidate models in our application",
+    "link": "https://arxiv.org/abs/2404.02184",
+    "context": "Title: What is to be gained by ensemble models in analysis of spectroscopic data?\nAbstract: arXiv:2404.02184v1 Announce Type: new  Abstract: An empirical study was carried out to compare different implementations of ensemble models aimed at improving prediction in spectroscopic data. A wide range of candidate models were fitted to benchmark datasets from regression and classification settings. A statistical analysis using linear mixed model was carried out on prediction performance criteria resulting from model fits over random splits of the data. The results showed that the ensemble classifiers were able to consistently outperform candidate models in our application",
+    "path": "papers/24/04/2404.02184.json",
+    "total_tokens": 574,
+    "translated_title": "集成模型在分析光谱数据中的益处是什么？",
+    "translated_abstract": "进行了一项实证研究，比较了旨在改善光谱数据预测的不同集成模型实现。将一系列候选模型拟合到回归和分类设置的基准数据集中。利用线性混合模型对模型拟合的预测性能指标进行统计分析，该分析结果基于数据的随机拆分。结果显示，在我们的应用中，集成分类器能够始终优于候选模型。",
+    "tldr": "集成模型在光谱数据分析中表现出优异的预测性能，能够持续优于其他候选模型",
+    "en_tdlr": "Ensemble models demonstrate superior predictive performance in the analysis of spectroscopic data, consistently outperforming other candidate models"
+}
