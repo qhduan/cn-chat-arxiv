@@ -16,7 +16,6 @@ from bs4 import BeautifulSoup
 from tqdm.auto import tqdm
 from pebble import concurrent, ProcessPool
 
-
 if os.environ.get('OPENAI_AZURE_BASE') is not None:
     openai.api_base = os.environ.get('OPENAI_AZURE_BASE')
     openai.api_key = os.environ.get('OPENAI_AZURE_API_KEY')
@@ -25,6 +24,11 @@ if os.environ.get('OPENAI_AZURE_BASE') is not None:
     openai.api_type = "azure"
 elif os.environ.get('OPENAI_API_KEY') is not None:
     openai.api_key = os.environ.get('OPENAI_API_KEY')
+    if os.environ.get('OPENAI_API_BASE') is not None:
+        openai.api_base = os.environ.get('OPENAI_API_BASE')
+    openai_model = "gpt-3.5-turbo"
+    if os.environ.get('OPENAI_API_MODEL') is not None:
+        openai_model = os.environ.get('OPENAI_API_MODEL')
 else:
     print('Please set OPENAI_API_KEY or OPENAI_AZURE_API_KEY and OPENAI_AZURE_BASE')
     exit(1)
@@ -82,7 +86,7 @@ def call_chat(context):
             prompt = deepcopy(prompt_temp_openai)
             prompt[-1]['content'] = context
             ret = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo",
+                model=openai_model,
                 messages=prompt
             )
             answer = ret['choices'][0]['message']['content']
