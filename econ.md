@@ -2,97 +2,112 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Partial Identification of Individual-Level Parameters Using Aggregate Data in a Nonparametric Binary Outcome Model](https://arxiv.org/abs/2403.07236) | 本文提出了一种方法，在已被聚合的数据中部分识别出二值结果模型中的个体水平参数，同时尽可能少地对数据生成过程施加限制。 |
-| [^2] | [Tackling Interference Induced by Data Training Loops in A/B Tests: A Weighted Training Approach.](http://arxiv.org/abs/2310.17496) | 该论文提出了一种名为加权训练的方法，用于解决A/B测试中由数据训练循环引起的干扰。该方法通过训练模型预测每个数据点在实验组或控制组中出现的概率，并在模型训练过程中应用加权损失，从而实现了最小方差的估计结果，并且不会引起训练分布的变化。 |
-| [^3] | [Maximally Machine-Learnable Portfolios.](http://arxiv.org/abs/2306.05568) | 本文通过 MACE 算法，以随机森林和受限岭回归优化组合权重，实现了最大程度的可预测性和盈利能力，适用于任何预测算法和预测器集，可以处理大型组合。 |
-| [^4] | [Rational social distancing in epidemics with uncertain vaccination timing.](http://arxiv.org/abs/2305.13618) | 本文研究了疫情期间的社交距离策略，考虑到疫苗接种时间的不确定性，发现如果疫苗预期时间越早，且接种时间知道的越准确，人们遵守社交距离的动力越强。 |
-| [^5] | [Power sector effects of alternative options for electrifying heavy-duty vehicles: go electric, and charge smartly.](http://arxiv.org/abs/2303.16629) | 研究了电动公路系统和电池电动车的替代方案对于电力部门的影响，发现可灵活充电的车辆共享BEV的电力部门成本最低，而使用电力燃料的重型车辆的成本最高。 |
-| [^6] | [Monotone additive statistics.](http://arxiv.org/abs/2102.00618) | 这篇论文提供了单调可加统计量的完整刻画，探讨了其在个体和群体决策模型中的多个应用，并对稳态单调时间偏好进行了扩展，为时间风险态度和多个折现因子的汇总提供了新的视角。 |
+| [^1] | [Designing Simple Mechanisms](https://arxiv.org/abs/2403.18694) | 论文探讨了哪些机制容易操作以及如何使参与者能够轻松看出一个机制是激励相容的，并总结了三个不同方面使机制简单的最新答案。 |
+| [^2] | [Statistical Inference of Optimal Allocations I: Regularities and their Implications](https://arxiv.org/abs/2403.18248) | 这项研究提出了一种函数可微方法来解决统计最优分配问题，通过对排序运算符的一般属性进行详细分析，推导出值函数的Hadamard可微性，并展示了如何利用函数偏微分法直接推导出值函数过程的渐近性质。 |
+| [^3] | [Zonal vs. Nodal Pricing: An Analysis of Different Pricing Rules in the German Day-Ahead Market](https://arxiv.org/abs/2403.09265) | 德国电力市场研究了区域和节点定价模型的比较，发现不同配置下的平均价格差异小，总成本相似。 |
+| [^4] | [Economic Complexity Limits Accuracy of Price Probability Predictions by Gaussian Distributions.](http://arxiv.org/abs/2309.02447) | 经济复杂性限制了利用高斯分布进行价格概率预测的准确性，因为预测需要对经济变量进行描述，而这些变量的统计矩需要对经济或市场交易的幂次进行计算。 |
+| [^5] | [Productivity, Inputs Misallocation, and the Financial Crisis.](http://arxiv.org/abs/2306.08760) | 本文对定量衡量同质产业内资源错配的常规方法进行了重新评估，并提出了一种基于已识别的政策变化的比较分析策略。研究表明，金融危机对生产要素的影响导致资源配置严重失调，而政策干预可能会损害整体经济效率。 |
+| [^6] | [Security Issuance, Institutional Investors and Quid Pro Quo: Insights from SPACs.](http://arxiv.org/abs/2211.16643) | SPAC中的优质投资者参与可以创造价值，非优质投资者则仅参与交换条件安排，这不仅仅是代理成本还能使更多公司上市。 |
+| [^7] | [Do t-Statistic Hurdles Need to be Raised?.](http://arxiv.org/abs/2204.10275) | 许多学者呼吁提高统计障碍来防止错误发现，但经验证明这些呼吁在实践中不太合理。已发表的数据存在偏差，未观察到的结果需要外推，导致修订障碍的识别能力不强。与之相反，只针对已发表的发现进行统计分析可以得到较强的识别能力。 |
 
 # 详细
 
-[^1]: 在非参数二值结果模型中使用聚合数据部分识别个体水平参数
+[^1]: 设计简单机制
 
-    Partial Identification of Individual-Level Parameters Using Aggregate Data in a Nonparametric Binary Outcome Model
+    Designing Simple Mechanisms
 
-    [https://arxiv.org/abs/2403.07236](https://arxiv.org/abs/2403.07236)
+    [https://arxiv.org/abs/2403.18694](https://arxiv.org/abs/2403.18694)
 
-    本文提出了一种方法，在已被聚合的数据中部分识别出二值结果模型中的个体水平参数，同时尽可能少地对数据生成过程施加限制。
-
-    
-
-    众所周知，个体水平变量之间的关系可能与对这些变量进行聚合后得到的关系不同。当研究人员希望了解个体水平关系但只能获得已被聚合的数据时，聚合问题变得相关。本文提出了一种方法，从聚合数据中部分识别出条件平均结果的线性组合，当感兴趣的结果是二值时，同时对潜在数据生成过程施加尽可能少的限制。我使用允许研究人员施加额外形状限制的优化程序构建了鉴别集。我还提供了一致性结果并构建了一种推论程序，该程序在只提供有关每个变量的边际信息的聚合数据中是有效的。我将该方法应用于模拟和实际数据。
-
-    arXiv:2403.07236v1 Announce Type: new  Abstract: It is well known that the relationship between variables at the individual level can be different from the relationship between those same variables aggregated over individuals. This problem of aggregation becomes relevant when the researcher wants to learn individual-level relationships, but only has access to data that has been aggregated. In this paper, I develop a methodology to partially identify linear combinations of conditional average outcomes from aggregate data when the outcome of interest is binary, while imposing as few restrictions on the underlying data generating process as possible. I construct identified sets using an optimization program that allows for researchers to impose additional shape restrictions. I also provide consistency results and construct an inference procedure that is valid with aggregate data, which only provides marginal information about each variable. I apply the methodology to simulated and real-wo
-    
-[^2]: 解决A/B测试中数据训练循环引起的干扰：一种加权训练方法
-
-    Tackling Interference Induced by Data Training Loops in A/B Tests: A Weighted Training Approach. (arXiv:2310.17496v1 [stat.ME])
-
-    [http://arxiv.org/abs/2310.17496](http://arxiv.org/abs/2310.17496)
-
-    该论文提出了一种名为加权训练的方法，用于解决A/B测试中由数据训练循环引起的干扰。该方法通过训练模型预测每个数据点在实验组或控制组中出现的概率，并在模型训练过程中应用加权损失，从而实现了最小方差的估计结果，并且不会引起训练分布的变化。
+    论文探讨了哪些机制容易操作以及如何使参与者能够轻松看出一个机制是激励相容的，并总结了三个不同方面使机制简单的最新答案。
 
     
 
-    在现代推荐系统中，标准流程涉及使用历史数据训练机器学习模型来预测用户行为并持续改进推荐。然而，这些数据训练循环可能在A/B测试中引入干扰，其中控制组和实验组算法生成的数据，可能具有不同的分布，被合并在一起。为了解决这些挑战，我们提出了一种新颖的方法，称为加权训练。该方法包括训练一个模型来预测每个数据点出现在实验组或控制组数据中的概率，并在模型训练过程中应用加权损失。我们通过模拟研究证明了这种方法在所有估计量中具有最小的方差，且不会导致训练分布发生变化。我们通过模拟研究证明了与其他方法相比，我们的方法具有较低的偏差和方差。
+    哪些机制容易操作？参与者何时能够轻松地看到一个机制是激励相容的？我将从经济学家是如何提出这些问题的角度入手。然后我将讨论三个最近得到的答案，涵盖了使机制简单的不同方面。
 
-    In modern recommendation systems, the standard pipeline involves training machine learning models on historical data to predict user behaviors and improve recommendations continuously. However, these data training loops can introduce interference in A/B tests, where data generated by control and treatment algorithms, potentially with different distributions, are combined. To address these challenges, we introduce a novel approach called weighted training. This approach entails training a model to predict the probability of each data point appearing in either the treatment or control data and subsequently applying weighted losses during model training. We demonstrate that this approach achieves the least variance among all estimators without causing shifts in the training distributions. Through simulation studies, we demonstrate the lower bias and variance of our approach compared to other methods.
+    arXiv:2403.18694v1 Announce Type: new  Abstract: Which mechanisms are simple to play? When is it easy for participants to see that a mechanism is incentive-compatible? I will start by explaining how and why economists came to ask these questions. Then I will discuss three recent answers, that capture different aspects of what makes a mechanism simple.
     
-[^3]: 最大机器学习组合的构建方法
+[^2]: 统计推断中的最优分配I：规律性及其影响
 
-    Maximally Machine-Learnable Portfolios. (arXiv:2306.05568v1 [econ.EM])
+    Statistical Inference of Optimal Allocations I: Regularities and their Implications
 
-    [http://arxiv.org/abs/2306.05568](http://arxiv.org/abs/2306.05568)
+    [https://arxiv.org/abs/2403.18248](https://arxiv.org/abs/2403.18248)
 
-    本文通过 MACE 算法，以随机森林和受限岭回归优化组合权重，实现了最大程度的可预测性和盈利能力，适用于任何预测算法和预测器集，可以处理大型组合。
-
-    
-
-    对于股票回报，任何形式的可预测性都可以增强调整风险后的盈利能力。本文开发了一种协作机器学习算法，优化组合权重，以使得合成证券最大程度的可预测。具体来说，我们引入了MACE，Alternating Conditional Expectations的多元扩展，通过在方程的一侧使用随机森林和受限岭回归在另一侧实现了上述目标。相较于Lo和MacKinlay的最大可预测组合方法，本文有两个关键改进。第一，它适用于任何（非线性）预测算法和预测器集。第二，它可以处理大型组合。我们进行了日频和月频的实验，并发现在使用很少的条件信息时，可预测性和盈利能力显著增加。有趣的是，可预测性在好时和坏时都存在，并且MACE成功地导航了两者。
-
-    When it comes to stock returns, any form of predictability can bolster risk-adjusted profitability. We develop a collaborative machine learning algorithm that optimizes portfolio weights so that the resulting synthetic security is maximally predictable. Precisely, we introduce MACE, a multivariate extension of Alternating Conditional Expectations that achieves the aforementioned goal by wielding a Random Forest on one side of the equation, and a constrained Ridge Regression on the other. There are two key improvements with respect to Lo and MacKinlay's original maximally predictable portfolio approach. First, it accommodates for any (nonlinear) forecasting algorithm and predictor set. Second, it handles large portfolios. We conduct exercises at the daily and monthly frequency and report significant increases in predictability and profitability using very little conditioning information. Interestingly, predictability is found in bad as well as good times, and MACE successfully navigates
-    
-[^4]: 疫情期间不确定疫苗接种时间的合理社交距离策略
-
-    Rational social distancing in epidemics with uncertain vaccination timing. (arXiv:2305.13618v1 [econ.TH])
-
-    [http://arxiv.org/abs/2305.13618](http://arxiv.org/abs/2305.13618)
-
-    本文研究了疫情期间的社交距离策略，考虑到疫苗接种时间的不确定性，发现如果疫苗预期时间越早，且接种时间知道的越准确，人们遵守社交距离的动力越强。
+    这项研究提出了一种函数可微方法来解决统计最优分配问题，通过对排序运算符的一般属性进行详细分析，推导出值函数的Hadamard可微性，并展示了如何利用函数偏微分法直接推导出值函数过程的渐近性质。
 
     
 
-    在疫情期间，人们会减少社交和经济活动以降低感染风险。这些社交距离策略将依赖于疫情进展的信息，同时也取决于人们预计疫情何时会结束，例如由于疫苗接种。通常情况下，由于可用信息不完全且不确定，很难做出最优决策。本文展示了最优决策如何依赖于对疫苗接种时间的了解，研究了一种微分博弈，并建立了个体决策和纳什均衡。本文表明，预计接种时间越早，且接种时间知道的越准确，人们遵守社交距离的动力越强。特别需要注意的是，在疫苗接种预计早于疫情结束之前，均衡社交距离仅会与无接种策略均衡有实质性偏差。
+    在这篇论文中，我们提出了一种用于解决统计最优分配问题的函数可微方法。通过对排序运算符的一般属性进行详细分析，我们首先推导出了值函数的Hadamard可微性。在我们的框架中，Hausdorff测度的概念以及几何测度论中的面积和共面积积分公式是核心。基于我们的Hadamard可微性结果，我们展示了如何利用函数偏微分法直接推导出二元约束最优分配问题的值函数过程以及两步ROC曲线估计量的渐近性质。此外，利用对凸和局部Lipschitz泛函的深刻见解，我们得到了最优分配问题的值函数的额外一般Frechet可微性结果。这些引人入胜的发现激励了我们
 
-    During epidemics people reduce their social and economic activity to lower their risk of infection. Such social distancing strategies will depend on information about the course of the epidemic but also on when they expect the epidemic to end, for instance due to vaccination. Typically it is difficult to make optimal decisions, because the available information is incomplete and uncertain. Here, we show how optimal decision making depends on knowledge about vaccination timing in a differential game in which individual decision making gives rise to Nash equilibria, and the arrival of the vaccine is described by a probability distribution. We show that the earlier the vaccination is expected to happen and the more precisely the timing of the vaccination is known, the stronger is the incentive to socially distance. In particular, equilibrium social distancing only meaningfully deviates from the no-vaccination equilibrium course if the vaccine is expected to arrive before the epidemic woul
+    arXiv:2403.18248v1 Announce Type: new  Abstract: In this paper, we develp a functional differentiability approach for solving statistical optimal allocation problems. We first derive Hadamard differentiability of the value function through a detailed analysis of the general properties of the sorting operator. Central to our framework are the concept of Hausdorff measure and the area and coarea integration formulas from geometric measure theory. Building on our Hadamard differentiability results, we demonstrate how the functional delta method can be used to directly derive the asymptotic properties of the value function process for binary constrained optimal allocation problems, as well as the two-step ROC curve estimator. Moreover, leveraging profound insights from geometric functional analysis on convex and local Lipschitz functionals, we obtain additional generic Fr\'echet differentiability results for the value functions of optimal allocation problems. These compelling findings moti
     
-[^5]: 重型车辆电气化的替代方案的电力部门影响:电气化和智能充电
+[^3]: 区域vs. 节点定价：德国日前市场不同定价规则的分析
 
-    Power sector effects of alternative options for electrifying heavy-duty vehicles: go electric, and charge smartly. (arXiv:2303.16629v1 [econ.GN])
+    Zonal vs. Nodal Pricing: An Analysis of Different Pricing Rules in the German Day-Ahead Market
 
-    [http://arxiv.org/abs/2303.16629](http://arxiv.org/abs/2303.16629)
+    [https://arxiv.org/abs/2403.09265](https://arxiv.org/abs/2403.09265)
 
-    研究了电动公路系统和电池电动车的替代方案对于电力部门的影响，发现可灵活充电的车辆共享BEV的电力部门成本最低，而使用电力燃料的重型车辆的成本最高。
-
-    
-
-    在乘用车领域，电池电动车(BEV)已成为去碳化交通的最有前途的选择。对于重型车辆(HDV)，技术领域似乎更为开放。除了BEV外，还讨论了用于动态供电的电动公路系统(ERS)，以及使用氢燃料电池或电力燃料的卡车间接电气化。在这里，我们研究了这些替代方案的电力部门影响。我们将基于未来德国高可再生能源份额的情景，应用一个开源的容量扩展模型，利用详细的以路线为基础的卡车交通数据。结果表明，可灵活充电的车辆共享BEV的电力部门成本最低，而使用电力燃料的重型车辆的成本最高。如果BEV和ERS-BEV没有以优化的方式充电，电力部门成本会增加，但仍远低于使用氢或电力燃料的情景。这是相对较小电池、高度灵活的BEV在短途和中途步骤转移和超出道路广泛使用的优势的结果。
-
-    In the passenger car segment, battery-electric vehicles (BEV) have emerged as the most promising option to decarbonize transportation. For heavy-duty vehicles (HDV), the technology space still appears to be more open. Aside from BEV, electric road systems (ERS) for dynamic power transfer are discussed, as well as indirect electrification with trucks that use hydrogen fuel cells or e-fuels. Here we investigate the power sector implications of these alternative options. We apply an open-source capacity expansion model to future scenarios of Germany with high renewable energy shares, drawing on detailed route-based truck traffic data. Results show that power sector costs are lowest for flexibly charged BEV that also carry out vehicle-to-grid operations, and highest for HDV using e-fuels. If BEV and ERS-BEV are not charged in an optimized way, power sector costs increase, but are still substantially lower than in scenarios with hydrogen or e-fuels. This is a consequence of the relatively p
-    
-[^6]: 单调可加统计量
-
-    Monotone additive statistics. (arXiv:2102.00618v4 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2102.00618](http://arxiv.org/abs/2102.00618)
-
-    这篇论文提供了单调可加统计量的完整刻画，探讨了其在个体和群体决策模型中的多个应用，并对稳态单调时间偏好进行了扩展，为时间风险态度和多个折现因子的汇总提供了新的视角。
+    德国电力市场研究了区域和节点定价模型的比较，发现不同配置下的平均价格差异小，总成本相似。
 
     
 
-    期望是一种关于随机优胜关系单调且关于独立随机变量之和可加的描述性统计量的示例。我们提供了这类统计量的完整刻画，并探讨了在个体和群体决策模型中的多个应用。其中包括对稳态单调时间偏好的表示，将Fishburn和Rubinstein（1982）的工作扩展到时间抽奖。这种扩展为时间风险态度以及多个折现因子的汇总提供了新的视角。
+    欧洲电力市场基于拥有统一日前价格的大型定价区域。能源转型导致供需变化和再调度成本增加。为了确保市场清算高效和拥塞管理，欧盟委员会委托进行出价区域审查（BZR）以重新评估欧洲出价区域的配置。基于BZR背景下公布的独特数据集，我们比较了德国电力市场的各种定价规则。我们比较了国内、区域和节点模型的市场清算和定价，包括它们的发电成本和相关的再调度成本。此外，我们研究了不同的非统一定价规则及其对德国电力市场的经济影响。我们的结果表明，不同区域的平均价格差异较小。不同配置下的总成本相似，降低了...
 
-    The expectation is an example of a descriptive statistic that is monotone with respect to stochastic dominance, and additive for sums of independent random variables. We provide a complete characterization of such statistics, and explore a number of applications to models of individual and group decision-making. These include a representation of stationary monotone time preferences, extending the work of Fishburn and Rubinstein (1982) to time lotteries. This extension offers a new perspective on risk attitudes toward time, as well as on the aggregation of multiple discount factors.
+    arXiv:2403.09265v1 Announce Type: new  Abstract: The European electricity market is based on large pricing zones with a uniform day-ahead price. The energy transition leads to shifts in supply and demand and increasing redispatch costs. In an attempt to ensure efficient market clearing and congestion management, the EU Commission has mandated the Bidding Zone Review (BZR) to reevaluate the configuration of European bidding zones. Based on a unique data set published in the context of the BZR, we compare various pricing rules for the German power market. We compare market clearing and pricing for national, zonal, and nodal models, including their generation costs and associated redispatch costs. Moreover, we investigate different non-uniform pricing rules and their economic implications for the German electricity market. Our results indicate that the differences in the average prices in different zones are small. The total costs across different configurations are similar and the reduct
+    
+[^4]: 高斯分布在价格概率预测中的经济复杂性限制
+
+    Economic Complexity Limits Accuracy of Price Probability Predictions by Gaussian Distributions. (arXiv:2309.02447v1 [q-fin.GN])
+
+    [http://arxiv.org/abs/2309.02447](http://arxiv.org/abs/2309.02447)
+
+    经济复杂性限制了利用高斯分布进行价格概率预测的准确性，因为预测需要对经济变量进行描述，而这些变量的统计矩需要对经济或市场交易的幂次进行计算。
+
+    
+
+    价格和回报概率预测的准确性在资产定价和投资组合理论的可靠性中具有重要作用。我们开发了逐步逼近的方法，将整个股市的市场概率预测与特定公司股票的价格和回报概率预测相连接，同时也展示了经济复杂性限制了任何预测的准确性。这种限制的经济根源在于价格和回报的统计矩需要对经济变量进行描述，这些变量是在平均时间间隔内经济或市场交易的m次幂之和。试图预测受单一风险影响的股票的第n个统计矩会导致对经济主体的n维风险评级向量进行估计。而这些风险评级向量起到了坐标的作用
+
+    The accuracy of predictions of price and return probabilities substantially determines the reliability of asset pricing and portfolio theories. We develop successive approximations that link up predictions of the market-based probabilities of price and return for the whole stock market with predictions of price and return probabilities for stocks of a particular company and show that economic complexity limits the accuracy of any forecasts. The economic origin of the restrictions lies in the fact that the predictions of the m-th statistical moments of price and return require descriptions of the economic variables composed by sums of the m-th powers of economic or market transactions during an averaging time interval. The attempts to predict the n-th statistical moments of price and return of stocks that are under the action of a single risk result in estimates of the n-dimensional risk rating vectors for economic agents. In turn, the risk rating vectors play the role of coordinates fo
+    
+[^5]: 生产率、要素错配与金融危机
+
+    Productivity, Inputs Misallocation, and the Financial Crisis. (arXiv:2306.08760v1 [econ.GN])
+
+    [http://arxiv.org/abs/2306.08760](http://arxiv.org/abs/2306.08760)
+
+    本文对定量衡量同质产业内资源错配的常规方法进行了重新评估，并提出了一种基于已识别的政策变化的比较分析策略。研究表明，金融危机对生产要素的影响导致资源配置严重失调，而政策干预可能会损害整体经济效率。
+
+    
+
+    本文重新评估了定量衡量同质产业内资源错配的常规方法，该方法通常使用一个输入边际产品的离散度来衡量。我的研究发现，这一统计量包括固有的生产率异质性和特有的生产率冲击，而不考虑所研究的输入。利用美国和欧洲制造业公司的资产负债表数据，我发现总生产要素生产率波动值占资本边际产品的方差的7％，劳动力为9％，材料输入为10％。因此，这个指数以表面价值表示时，无法识别出任何生产要素的政策引发的错配。为了克服这一局限性，我提出了一种基于已识别的政策变化的比较分析策略。这种方法允许研究人员在相对的条件下评估诱导失配，同时控制TFP波动性的差异。我发现金融危机对生产要素的影响是不均衡的，导致资源配置严重失调。通过比较不同地区和行业的金融危机前和金融危机期间，经济金融环境稳定的情况，我发现金融危机对制造业的负面影响比服务业更为明显，对欧洲业务更为严重，而且这种失调是由于金融紧缩政策引起的。这一研究表明，政策干预可能会导致资源配置失调，损害整体经济效率。
+
+    This paper reevaluates the conventional approach to quantifying within-industry resource misallocation, typically measured by the dispersion of an input marginal product. My findings suggest that this statistic incorporates inherent productivity heterogeneity and idiosyncratic productivity shocks, irrespective of the input under scrutiny. Using balance sheet data from American and European manufacturing firms, I show that total factor productivity (TFP) volatility accounts for 7% of the variance in the marginal product of capital, 9% for labor, and 10% for material inputs. Consequently, this index, taken at face value, fails to identify policy-induced misallocation for any production input. To overcome this limitation, I propose a comparative analysis strategy driven by an identified policy variation. This approach allows the researcher to assess induced misallocation in relative terms whilst controlling for differences in TFP volatility. I show that the financial crisis had an uneven 
+    
+[^6]: SPAC的发行、机构投资者和交换条件：洞察力
+
+    Security Issuance, Institutional Investors and Quid Pro Quo: Insights from SPACs. (arXiv:2211.16643v3 [q-fin.GN] UPDATED)
+
+    [http://arxiv.org/abs/2211.16643](http://arxiv.org/abs/2211.16643)
+
+    SPAC中的优质投资者参与可以创造价值，非优质投资者则仅参与交换条件安排，这不仅仅是代理成本还能使更多公司上市。
+
+    
+
+    证券发行受信息和代理成本的影响。然而，很难将它们分开考虑。我们考虑SPAC并分别评估这些影响。为此，我们确定产生价值相关信息的优质投资者：他们的参与与更高的SPAC成功和公告日回报相关。然而，非优质投资者仅参与交换条件安排。他们今天从发行人（优惠）获得高回报，这意味着他们更有可能参与由这些发行人发起的低回报未来交易（条件）。因此，交换条件不是纯代理成本，而是部分使更多的公司上市的转移。
+
+    Security issuance is subject to informational and agency-related frictions. However, it is difficult to separate their effects. We consider SPACs and assess those effects separately. To this end, we identify premium investors who produce value-relevant information: their participation is associated with higher SPAC success and announcement-day returns. Non-premium investors, however, engage only in quid pro quo arrangements. Their high returns today from issuers (quid) mean they are more likely to participate in low-returns future deals initiated by those issuers (quo). Thus quid pro quo is not pure agency cost but partly a transfer that enables more firms to go public.
+    
+[^7]: 是否需要提高t-统计障碍？
+
+    Do t-Statistic Hurdles Need to be Raised?. (arXiv:2204.10275v2 [q-fin.GN] UPDATED)
+
+    [http://arxiv.org/abs/2204.10275](http://arxiv.org/abs/2204.10275)
+
+    许多学者呼吁提高统计障碍来防止错误发现，但经验证明这些呼吁在实践中不太合理。已发表的数据存在偏差，未观察到的结果需要外推，导致修订障碍的识别能力不强。与之相反，只针对已发表的发现进行统计分析可以得到较强的识别能力。
+
+    
+
+    许多学者呼吁提高统计障碍，以防止学术出版物中的错误发现。我展示了这些呼吁在经验上不太可能被证明成立。已发表的数据存在偏差：未能达到现有障碍的结果经常是不可观测的。这些未观察到的结果必须进行外推，导致修订障碍的识别能力不强。相比之下，只能针对已发表发现的统计方法（例如经验贝叶斯收缩和局部FDR）可以被强烈识别，因为有关已发表发现的数据非常丰富。我在一个一般理论和关于截面回报可预测性文献的实证分析中证明了这些结果。
+
+    Many scholars have called for raising statistical hurdles to guard against false discoveries in academic publications. I show these calls are unlikely to be justified empirically. Published data exhibit bias: results that fail to meet existing hurdles are often unobserved. These unobserved results must be extrapolated, leading to weak identification of revised hurdles. In contrast, statistics that can target only published findings (e.g. empirical Bayes shrinkage and the local FDR) can be strongly identified, as data on published findings is plentiful. I demonstrate these results in a general theory and in an empirical analysis of the cross-sectional return predictability literature.
     
 
