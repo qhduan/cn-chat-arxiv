@@ -2,103 +2,104 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Guarantees of confidentiality via Hammersley-Chapman-Robbins bounds](https://arxiv.org/abs/2404.02866) | 通过添加噪声到最后层的激活来保护隐私，使用HCR界限可量化保护机密性的可信度 |
-| [^2] | [Statistical Inference of Optimal Allocations I: Regularities and their Implications](https://arxiv.org/abs/2403.18248) | 这项研究提出了一种函数可微方法来解决统计最优分配问题，通过对排序运算符的一般属性进行详细分析，推导出值函数的Hadamard可微性，并展示了如何利用函数偏微分法直接推导出值函数过程的渐近性质。 |
-| [^3] | [Mean-field Analysis on Two-layer Neural Networks from a Kernel Perspective](https://arxiv.org/abs/2403.14917) | 本文通过核方法的视角研究了两层神经网络在平均场极限下的特征学习能力，展示了它们比任何核方法更有效地学习多个再现核希尔伯特空间的并集，并且神经网络会获得与目标函数对齐的数据相关核。 |
-| [^4] | [Provable Privacy with Non-Private Pre-Processing](https://arxiv.org/abs/2403.13041) | 提出了一个框架，能够评估非私密数据相关预处理算法引起的额外隐私成本，并利用平滑DP和预处理算法的有界敏感性建立整体隐私保证的上限 |
-| [^5] | [Causal Bayesian Optimization via Exogenous Distribution Learning](https://arxiv.org/abs/2402.02277) | 本文引入了一种新的方法，通过学习外源变量的分布，提高了结构化因果模型的近似精度，并将因果贝叶斯优化扩展到更一般的因果方案。 |
-| [^6] | [Multinomial belief networks](https://arxiv.org/abs/2311.16909) | 提出了一种深度生成模型，用于处理具有多项式计数数据的分析需求，并能够从数据中完全自动提取出生物意义的元签名。 |
+| [^1] | [On the rates of convergence for learning with convolutional neural networks](https://arxiv.org/abs/2403.16459) | 该研究提出了对具有一定权重约束的CNNs的新逼近上界，以及对前馈神经网络的覆盖数做了新的分析，为基于CNNs的学习问题推导了收敛速率，并在学习平滑函数和二元分类方面取得了极小最优的结果。 |
+| [^2] | [Selecting informative conformal prediction sets with false coverage rate control](https://arxiv.org/abs/2403.12295) | 提出了一种新的统一框架，用于构建信息丰富的符合预测集，同时控制所选样本的虚警覆盖率。 |
+| [^3] | [Federated Transfer Learning with Differential Privacy](https://arxiv.org/abs/2403.11343) | 本文提出了具有差分隐私的联邦迁移学习框架，通过利用多个异构源数据集的信息来增强对目标数据集的学习，同时考虑隐私约束。 |
+| [^4] | [Extremal graphical modeling with latent variables](https://arxiv.org/abs/2403.09604) | 提出了一种针对混合变量的极端图模型的学习方法，能够有效恢复条件图和潜变量数量。 |
+| [^5] | [Minimizing the Thompson Sampling Regret-to-Sigma Ratio (TS-RSR): a provably efficient algorithm for batch Bayesian Optimization](https://arxiv.org/abs/2403.04764) | 该论文提出了一种用于批量贝叶斯优化的高效算法，通过最小化Thompson抽样近似的遗憾与不确定性比率，成功协调每个批次的动作选择，同时实现高概率的理论保证，并在非凸测试函数上表现出色. |
+| [^6] | [Misspecification uncertainties in near-deterministic regression](https://arxiv.org/abs/2402.01810) | 该论文研究了近确定性回归中错误规范化的不确定性问题，并提出了一种组合模型，以准确预测和控制参数不确定性。 |
 | [^7] | [Faithful and Robust Local Interpretability for Textual Predictions.](http://arxiv.org/abs/2311.01605) | 提出了一种名为FRED的新颖方法，用于解释文本预测。FRED可以识别文档中的关键词，并且通过与最先进的方法进行的实证评估证明了其在提供对文本模型的深入见解方面的有效性。 |
-| [^8] | [SepVAE: a contrastive VAE to separate pathological patterns from healthy ones.](http://arxiv.org/abs/2307.06206) | SepVAE是一种对比VAE方法，可以从健康数据和患者数据中分离出共同的和特定的变化因素。在多个应用中表现出比现有方法更好的性能。 |
-| [^9] | [Statistically Optimal K-means Clustering via Nonnegative Low-rank Semidefinite Programming.](http://arxiv.org/abs/2305.18436) | 本文提出了一种与NMF算法一样简单且可扩展的K均值聚类算法，该算法通过解决非负低秩半定规划问题获得了强大的统计最优性保证，实验证明该算法在合成和实际数据集上表现优异。 |
-| [^10] | [Silent Abandonment in Contact Centers: Estimating Customer Patience from Uncertain Data.](http://arxiv.org/abs/2304.11754) | 该研究探究了客户在联系中心无声放弃的现象，通过不确定数据估计客户等待的耐心，揭示了这种现象对代理人时间和能力的浪费。 |
-| [^11] | [Online Continuous Hyperparameter Optimization for Contextual Bandits.](http://arxiv.org/abs/2302.09440) | 该论文提出了面向上下文强化学习的在线连续超参数调整框架CDT，能够动态地在搜索空间内学习最优参数配置。 |
+| [^8] | [ExIFFI and EIF+: Interpretability and Enhanced Generalizability to Extend the Extended Isolation Forest.](http://arxiv.org/abs/2310.05468) | 本研究介绍了EIF+和ExIFFI两种改进了扩展孤立森林的方法，分别增强了模型的推广能力和解释性能，实验结果表明其在异常检测任务中具有优势。 |
+| [^9] | [On the expressivity of embedding quantum kernels.](http://arxiv.org/abs/2309.14419) | 量子核方法是量子和经典机器学习之间最自然的联系之一。本文探讨了嵌入式量子核的表达能力，并得出结论：通过引入计算普适性，任何核函数都可以表示为量子特征映射和嵌入式量子核。 |
+| [^10] | [Sharpness-Aware Minimization and the Edge of Stability.](http://arxiv.org/abs/2309.12488) | 本研究通过类似的计算方法，为锐度感知最小化(SAM)，一种改进泛化性能的梯度下降变种，确定了一个稳定性边界，该边界取决于梯度的范数。 |
+| [^11] | [Stochastic Controlled Averaging for Federated Learning with Communication Compression.](http://arxiv.org/abs/2308.08165) | 本文提出了两种压缩联邦学习算法(SCALLION和SCAFCOM)，通过重新审视经典的随机控制平均法并提出了等价但更高效/简化的形式，减少了上行通信成本。 |
+| [^12] | [Linear convergence of Nesterov-1983 with the strong convexity.](http://arxiv.org/abs/2306.09694) | 本文使用高分辨率微分方程框架回答了Nesterov-1983和FISTA是否在强凸函数上线性收敛的问题，并指出线性收敛性不依赖于强凸性条件。 |
 
 # 详细
 
-[^1]: 通过Hammersley-Chapman-Robbins界限保证机密性
+[^1]: 关于使用卷积神经网络进行学习收敛速率的研究
 
-    Guarantees of confidentiality via Hammersley-Chapman-Robbins bounds
+    On the rates of convergence for learning with convolutional neural networks
 
-    [https://arxiv.org/abs/2404.02866](https://arxiv.org/abs/2404.02866)
+    [https://arxiv.org/abs/2403.16459](https://arxiv.org/abs/2403.16459)
 
-    通过添加噪声到最后层的激活来保护隐私，使用HCR界限可量化保护机密性的可信度
-
-    
-
-    在深度神经网络推断过程中通过向最后几层的激活添加噪声来保护隐私是可能的。这些层中的激活被称为“特征”（少见的称为“嵌入”或“特征嵌入”）。添加的噪声有助于防止从嘈杂的特征中重建输入。通过对所有可能的无偏估计量的方差进行下限估计，量化了由此添加的噪声产生的机密性。经典不等式Hammersley和Chapman以及Robbins提供便利的、可计算的界限-- HCR界限。数值实验表明，对于包含10个类别的图像分类数据集“MNIST”和“CIFAR-10”，HCR界限在小型神经网络上表现良好。HCR界限似乎单独无法保证
-
-    arXiv:2404.02866v1 Announce Type: new  Abstract: Protecting privacy during inference with deep neural networks is possible by adding noise to the activations in the last layers prior to the final classifiers or other task-specific layers. The activations in such layers are known as "features" (or, less commonly, as "embeddings" or "feature embeddings"). The added noise helps prevent reconstruction of the inputs from the noisy features. Lower bounding the variance of every possible unbiased estimator of the inputs quantifies the confidentiality arising from such added noise. Convenient, computationally tractable bounds are available from classic inequalities of Hammersley and of Chapman and Robbins -- the HCR bounds. Numerical experiments indicate that the HCR bounds are on the precipice of being effectual for small neural nets with the data sets, "MNIST" and "CIFAR-10," which contain 10 classes each for image classification. The HCR bounds appear to be insufficient on their own to guar
-    
-[^2]: 统计推断中的最优分配I：规律性及其影响
-
-    Statistical Inference of Optimal Allocations I: Regularities and their Implications
-
-    [https://arxiv.org/abs/2403.18248](https://arxiv.org/abs/2403.18248)
-
-    这项研究提出了一种函数可微方法来解决统计最优分配问题，通过对排序运算符的一般属性进行详细分析，推导出值函数的Hadamard可微性，并展示了如何利用函数偏微分法直接推导出值函数过程的渐近性质。
+    该研究提出了对具有一定权重约束的CNNs的新逼近上界，以及对前馈神经网络的覆盖数做了新的分析，为基于CNNs的学习问题推导了收敛速率，并在学习平滑函数和二元分类方面取得了极小最优的结果。
 
     
 
-    在这篇论文中，我们提出了一种用于解决统计最优分配问题的函数可微方法。通过对排序运算符的一般属性进行详细分析，我们首先推导出了值函数的Hadamard可微性。在我们的框架中，Hausdorff测度的概念以及几何测度论中的面积和共面积积分公式是核心。基于我们的Hadamard可微性结果，我们展示了如何利用函数偏微分法直接推导出二元约束最优分配问题的值函数过程以及两步ROC曲线估计量的渐近性质。此外，利用对凸和局部Lipschitz泛函的深刻见解，我们得到了最优分配问题的值函数的额外一般Frechet可微性结果。这些引人入胜的发现激励了我们
+    我们研究了卷积神经网络（CNNs）的逼近和学习能力。第一个结果证明了在权重上有一定约束条件下CNNs的新逼近上界。第二个结果给出了对前馈神经网络的覆盖数的新分析，其中CNNs是其特例。该分析详细考虑了权重的大小，在某些情况下给出了比现有文献更好的上界。利用这两个结果，我们能够推导基于CNNs的估计器在许多学习问题中的收敛速率。特别地，我们在非参数回归设置中为基于CNNs的最小二乘学习平滑函数建立了极小最优的收敛速率。对于二元分类，我们推导了具有铰链损失和逻辑损失的CNN分类器的收敛速度。同时还表明所得到的速率在几种情况下是极小最优的。
 
-    arXiv:2403.18248v1 Announce Type: new  Abstract: In this paper, we develp a functional differentiability approach for solving statistical optimal allocation problems. We first derive Hadamard differentiability of the value function through a detailed analysis of the general properties of the sorting operator. Central to our framework are the concept of Hausdorff measure and the area and coarea integration formulas from geometric measure theory. Building on our Hadamard differentiability results, we demonstrate how the functional delta method can be used to directly derive the asymptotic properties of the value function process for binary constrained optimal allocation problems, as well as the two-step ROC curve estimator. Moreover, leveraging profound insights from geometric functional analysis on convex and local Lipschitz functionals, we obtain additional generic Fr\'echet differentiability results for the value functions of optimal allocation problems. These compelling findings moti
+    arXiv:2403.16459v1 Announce Type: new  Abstract: We study the approximation and learning capacities of convolutional neural networks (CNNs). Our first result proves a new approximation bound for CNNs with certain constraint on the weights. Our second result gives a new analysis on the covering number of feed-forward neural networks, which include CNNs as special cases. The analysis carefully takes into account the size of the weights and hence gives better bounds than existing literature in some situations. Using these two results, we are able to derive rates of convergence for estimators based on CNNs in many learning problems. In particular, we establish minimax optimal convergence rates of the least squares based on CNNs for learning smooth functions in the nonparametric regression setting. For binary classification, we derive convergence rates for CNN classifiers with hinge loss and logistic loss. It is also shown that the obtained rates are minimax optimal in several settings.
     
-[^3]: 从核方法的角度对两层神经网络进行平均场分析
+[^2]: 通过控制虚警覆盖率选择信息量丰富的符合预测集
 
-    Mean-field Analysis on Two-layer Neural Networks from a Kernel Perspective
+    Selecting informative conformal prediction sets with false coverage rate control
 
-    [https://arxiv.org/abs/2403.14917](https://arxiv.org/abs/2403.14917)
+    [https://arxiv.org/abs/2403.12295](https://arxiv.org/abs/2403.12295)
 
-    本文通过核方法的视角研究了两层神经网络在平均场极限下的特征学习能力，展示了它们比任何核方法更有效地学习多个再现核希尔伯特空间的并集，并且神经网络会获得与目标函数对齐的数据相关核。
-
-    
-
-    在本文中，我们通过核方法的视角研究了两层神经网络在平均场极限下的特征学习能力。为了聚焦于第一层诱导的核的动态，我们利用了两个时间尺度的极限，其中第二层比第一层移动得快得多。在这个极限下，学习问题被简化为在内在核上的最小化问题。然后，我们展示了平均场 Langevin 动力学的全局收敛性，并推导了时间和粒子离散化误差。我们还证明了两层神经网络可以比任何核方法更有效地学习多个再现核希尔伯特空间的并集，并且神经网络会获得与目标函数对齐的数据相关核。此外，我们还开发了一个收敛到全局最优的标签噪声过程，并展示自由度出现作为一种隐式正则化。
-
-    arXiv:2403.14917v1 Announce Type: new  Abstract: In this paper, we study the feature learning ability of two-layer neural networks in the mean-field regime through the lens of kernel methods. To focus on the dynamics of the kernel induced by the first layer, we utilize a two-timescale limit, where the second layer moves much faster than the first layer. In this limit, the learning problem is reduced to the minimization problem over the intrinsic kernel. Then, we show the global convergence of the mean-field Langevin dynamics and derive time and particle discretization error. We also demonstrate that two-layer neural networks can learn a union of multiple reproducing kernel Hilbert spaces more efficiently than any kernel methods, and neural networks acquire data-dependent kernel which aligns with the target function. In addition, we develop a label noise procedure, which converges to the global optimum and show that the degrees of freedom appears as an implicit regularization.
-    
-[^4]: 具有非私密预处理的可证明隐私
-
-    Provable Privacy with Non-Private Pre-Processing
-
-    [https://arxiv.org/abs/2403.13041](https://arxiv.org/abs/2403.13041)
-
-    提出了一个框架，能够评估非私密数据相关预处理算法引起的额外隐私成本，并利用平滑DP和预处理算法的有界敏感性建立整体隐私保证的上限
+    提出了一种新的统一框架，用于构建信息丰富的符合预测集，同时控制所选样本的虚警覆盖率。
 
     
 
-    当分析差分私密（DP）机器学习管道时，通常会忽略数据相关的预处理的潜在隐私成本。在这项工作中，我们提出了一个通用框架，用于评估由非私密数据相关预处理算法引起的额外隐私成本。我们的框架通过利用两个新的技术概念建立了整体隐私保证的上限：一种称为平滑DP的DP变体以及预处理算法的有界敏感性。
+    在监督学习中，包括回归和分类，符合方法为任何机器学习预测器提供预测结果/标签的预测集合，具有有限样本覆盖率。在这里我们考虑了这样一种情况，即这种预测集合是经过选择过程得到的。该选择过程要求选择的预测集在某种明确定义的意义上是“信息量丰富的”。我们考虑了分类和回归设置，在这些设置中，分析人员可能只考虑具有预测标签集或预测区间足够小、不包括空值或遵守其他适当的“单调”约束的样本为具有信息量丰富的。虽然这涵盖了各种应用中可能感兴趣的许多设置，我们开发了一个统一的框架，用来构建这样的信息量丰富的符合预测集，同时控制所选样本上的虚警覆盖率（FCR）。
 
-    arXiv:2403.13041v1 Announce Type: cross  Abstract: When analysing Differentially Private (DP) machine learning pipelines, the potential privacy cost of data-dependent pre-processing is frequently overlooked in privacy accounting. In this work, we propose a general framework to evaluate the additional privacy cost incurred by non-private data-dependent pre-processing algorithms. Our framework establishes upper bounds on the overall privacy guarantees by utilising two new technical notions: a variant of DP termed Smooth DP and the bounded sensitivity of the pre-processing algorithms. In addition to the generic framework, we provide explicit overall privacy guarantees for multiple data-dependent pre-processing algorithms, such as data imputation, quantization, deduplication and PCA, when used in combination with several DP algorithms. Notably, this framework is also simple to implement, allowing direct integration into existing DP pipelines.
+    arXiv:2403.12295v1 Announce Type: cross  Abstract: In supervised learning, including regression and classification, conformal methods provide prediction sets for the outcome/label with finite sample coverage for any machine learning predictors. We consider here the case where such prediction sets come after a selection process. The selection process requires that the selected prediction sets be `informative' in a well defined sense. We consider both the classification and regression settings where the analyst may consider as informative only the sample with prediction label sets or prediction intervals small enough, excluding null values, or obeying other appropriate `monotone' constraints. While this covers many settings of possible interest in various applications, we develop a unified framework for building such informative conformal prediction sets while controlling the false coverage rate (FCR) on the selected sample. While conformal prediction sets after selection have been the f
     
-[^5]: 因果贝叶斯优化通过外源分布学习
+[^3]: 具有差分隐私的联邦迁移学习
 
-    Causal Bayesian Optimization via Exogenous Distribution Learning
+    Federated Transfer Learning with Differential Privacy
 
-    [https://arxiv.org/abs/2402.02277](https://arxiv.org/abs/2402.02277)
+    [https://arxiv.org/abs/2403.11343](https://arxiv.org/abs/2403.11343)
 
-    本文引入了一种新的方法，通过学习外源变量的分布，提高了结构化因果模型的近似精度，并将因果贝叶斯优化扩展到更一般的因果方案。
-
-    
-
-    在结构化因果模型中，将目标变量最大化作为操作目标是一个重要的问题。现有的因果贝叶斯优化（CBO）方法要么依赖于改变因果结构以最大化奖励的硬干预，要么引入动作节点到内生变量中，以调整数据生成机制以实现目标。本文引入了一种新的方法来学习外源变量的分布，这在现有方法中通常被忽略或通过期望进行边缘化。外源分布学习提高了通常通过有限观测数据训练的代理模型中的结构化因果模型的近似精度。此外，学习到的外源分布将现有的CBO扩展到超出加性噪声模型（ANM）的一般因果方案。恢复外源变量使我们能够为噪声或未观测到的隐藏变量使用更灵活的先验。引入了一种新的CBO方法。
-
-    Maximizing a target variable as an operational objective in a structured causal model is an important problem. Existing Causal Bayesian Optimization (CBO) methods either rely on hard interventions that alter the causal structure to maximize the reward; or introduce action nodes to endogenous variables so that the data generation mechanisms are adjusted to achieve the objective. In this paper, a novel method is introduced to learn the distribution of exogenous variables, which is typically ignored or marginalized through expectation by existing methods.   Exogenous distribution learning improves the approximation accuracy of structured causal models in a surrogate model that is usually trained with limited observational data. Moreover, the learned exogenous distribution extends existing CBO to general causal schemes beyond Additive Noise Models (ANM). The recovery of exogenous variables allows us to use a more flexible prior for noise or unobserved hidden variables. A new CBO method is 
-    
-[^6]: 多项式信念网络
-
-    Multinomial belief networks
-
-    [https://arxiv.org/abs/2311.16909](https://arxiv.org/abs/2311.16909)
-
-    提出了一种深度生成模型，用于处理具有多项式计数数据的分析需求，并能够从数据中完全自动提取出生物意义的元签名。
+    本文提出了具有差分隐私的联邦迁移学习框架，通过利用多个异构源数据集的信息来增强对目标数据集的学习，同时考虑隐私约束。
 
     
 
-    机器学习中的贝叶斯方法在需要量化不确定性、处理缺失观测、样本稀缺或数据稀疏时是具有吸引力的。为了满足这些分析需求，我们提出了一种用于多项式计数数据的深层生成模型，其中网络的权重和隐藏单元均服从狄利克雷分布。我们制定了一个利用一系列增广关系的吉布斯抽样过程，类似于周-丛-陈模型。我们将该模型应用于小规模手写数字和一个大型的DNA突变癌症实验数据集，并展示了该模型如何能够完全数据驱动地提取出生物意义的元签名。
+    联邦学习越来越受到欢迎，数据异构性和隐私性是两个突出的挑战。在本文中，我们在联邦迁移学习框架内解决了这两个问题，旨在通过利用来自多个异构源数据集的信息来增强对目标数据集的学习，同时遵守隐私约束。我们严格制定了\textit{联邦差分隐私}的概念，为每个数据集提供隐私保证，而无需假设有一个受信任的中央服务器。在这个隐私约束下，我们研究了三个经典的统计问题，即单变量均值估计、低维线性回归和高维线性回归。通过研究极小值率并确定这些问题的隐私成本，我们展示了联邦差分隐私是已建立的局部和中央模型之间的一种中间隐私模型。
 
-    arXiv:2311.16909v2 Announce Type: replace-cross  Abstract: A Bayesian approach to machine learning is attractive when we need to quantify uncertainty, deal with missing observations, when samples are scarce, or when the data is sparse. All of these commonly apply when analysing healthcare data. To address these analytical requirements, we propose a deep generative model for multinomial count data where both the weights and hidden units of the network are Dirichlet distributed. A Gibbs sampling procedure is formulated that takes advantage of a series of augmentation relations, analogous to the Zhou--Cong--Chen model. We apply the model on small handwritten digits, and a large experimental dataset of DNA mutations in cancer, and we show how the model is able to extract biologically meaningful meta-signatures in a fully data-driven way.
+    arXiv:2403.11343v1 Announce Type: new  Abstract: Federated learning is gaining increasing popularity, with data heterogeneity and privacy being two prominent challenges. In this paper, we address both issues within a federated transfer learning framework, aiming to enhance learning on a target data set by leveraging information from multiple heterogeneous source data sets while adhering to privacy constraints. We rigorously formulate the notion of \textit{federated differential privacy}, which offers privacy guarantees for each data set without assuming a trusted central server. Under this privacy constraint, we study three classical statistical problems, namely univariate mean estimation, low-dimensional linear regression, and high-dimensional linear regression. By investigating the minimax rates and identifying the costs of privacy for these problems, we show that federated differential privacy is an intermediate privacy model between the well-established local and central models of 
+    
+[^4]: 混合变量的极端图模型
+
+    Extremal graphical modeling with latent variables
+
+    [https://arxiv.org/abs/2403.09604](https://arxiv.org/abs/2403.09604)
+
+    提出了一种针对混合变量的极端图模型的学习方法，能够有效恢复条件图和潜变量数量。
+
+    
+
+    极端图模型编码多变量极端条件独立结构，并为量化罕见事件风险提供强大工具。我们提出了面向潜变量的可延伸图模型的可行凸规划方法，将 H\"usler-Reiss 精度矩阵分解为编码观察变量之间的图结构的稀疏部分和编码少量潜变量对观察变量的影响的低秩部分。我们提供了\texttt{eglatent}的有限样本保证，并展示它能一致地恢复条件图以及潜变量的数量。
+
+    arXiv:2403.09604v1 Announce Type: cross  Abstract: Extremal graphical models encode the conditional independence structure of multivariate extremes and provide a powerful tool for quantifying the risk of rare events. Prior work on learning these graphs from data has focused on the setting where all relevant variables are observed. For the popular class of H\"usler-Reiss models, we propose the \texttt{eglatent} method, a tractable convex program for learning extremal graphical models in the presence of latent variables. Our approach decomposes the H\"usler-Reiss precision matrix into a sparse component encoding the graphical structure among the observed variables after conditioning on the latent variables, and a low-rank component encoding the effect of a few latent variables on the observed variables. We provide finite-sample guarantees of \texttt{eglatent} and show that it consistently recovers the conditional graph as well as the number of latent variables. We highlight the improved 
+    
+[^5]: 将Thompson抽样遗憾与Sigma比率（TS-RSR）最小化：一种用于批量贝叶斯优化的经过证明的高效算法
+
+    Minimizing the Thompson Sampling Regret-to-Sigma Ratio (TS-RSR): a provably efficient algorithm for batch Bayesian Optimization
+
+    [https://arxiv.org/abs/2403.04764](https://arxiv.org/abs/2403.04764)
+
+    该论文提出了一种用于批量贝叶斯优化的高效算法，通过最小化Thompson抽样近似的遗憾与不确定性比率，成功协调每个批次的动作选择，同时实现高概率的理论保证，并在非凸测试函数上表现出色.
+
+    
+
+    本文提出了一个新的方法，用于批量贝叶斯优化（BO），其中抽样通过最小化Thompson抽样方法的遗憾与不确定性比率来进行。我们的目标是能够协调每个批次中选择的动作，以最小化点之间的冗余，同时关注具有高预测均值或高不确定性的点。我们对算法的遗憾提供了高概率的理论保证。最后，从数字上看，我们证明了我们的方法在一系列非凸测试函数上达到了最先进的性能，在平均值上比几个竞争对手的基准批量BO算法表现提高了一个数量级。
+
+    arXiv:2403.04764v1 Announce Type: new  Abstract: This paper presents a new approach for batch Bayesian Optimization (BO), where the sampling takes place by minimizing a Thompson Sampling approximation of a regret to uncertainty ratio. Our objective is able to coordinate the actions chosen in each batch in a way that minimizes redundancy between points whilst focusing on points with high predictive means or high uncertainty. We provide high-probability theoretical guarantees on the regret of our algorithm. Finally, numerically, we demonstrate that our method attains state-of-the-art performance on a range of nonconvex test functions, where it outperforms several competitive benchmark batch BO algorithms by an order of magnitude on average.
+    
+[^6]: 近确定性回归中的错误规范化不确定性
+
+    Misspecification uncertainties in near-deterministic regression
+
+    [https://arxiv.org/abs/2402.01810](https://arxiv.org/abs/2402.01810)
+
+    该论文研究了近确定性回归中错误规范化的不确定性问题，并提出了一种组合模型，以准确预测和控制参数不确定性。
+
+    
+
+    期望损失是模型泛化误差的上界，可用于学习的鲁棒PAC-Bayes边界。然而，损失最小化被认为忽略了错误规范化，即模型不能完全复制观测结果。这导致大数据或欠参数化极限下对参数不确定性的显著低估。我们分析近确定性、错误规范化和欠参数化替代模型的泛化误差，这是科学和工程中广泛相关的一个领域。我们证明后验分布必须覆盖每个训练点，以避免发散的泛化误差，并导出一个符合这个约束的组合模型。对于线性模型，这种高效的方法产生的额外开销最小。这种高效方法在模型问题上进行了演示，然后应用于原子尺度机器学习中的高维数据集。
+
+    The expected loss is an upper bound to the model generalization error which admits robust PAC-Bayes bounds for learning. However, loss minimization is known to ignore misspecification, where models cannot exactly reproduce observations. This leads to significant underestimates of parameter uncertainties in the large data, or underparameterized, limit. We analyze the generalization error of near-deterministic, misspecified and underparametrized surrogate models, a regime of broad relevance in science and engineering. We show posterior distributions must cover every training point to avoid a divergent generalization error and derive an ensemble {ansatz} that respects this constraint, which for linear models incurs minimal overhead. The efficient approach is demonstrated on model problems before application to high dimensional datasets in atomistic machine learning. Parameter uncertainties from misspecification survive in the underparametrized limit, giving accurate prediction and boundin
     
 [^7]: 对于文本预测的忠实和稳健的本地可解释性
 
@@ -114,60 +115,74 @@
 
     Interpretability is essential for machine learning models to be trusted and deployed in critical domains. However, existing methods for interpreting text models are often complex, lack solid mathematical foundations, and their performance is not guaranteed. In this paper, we propose FRED (Faithful and Robust Explainer for textual Documents), a novel method for interpreting predictions over text. FRED identifies key words in a document that significantly impact the prediction when removed. We establish the reliability of FRED through formal definitions and theoretical analyses on interpretable classifiers. Additionally, our empirical evaluation against state-of-the-art methods demonstrates the effectiveness of FRED in providing insights into text models.
     
-[^8]: SepVAE: 一种对比VAE用于分离病理模式和健康模式
+[^8]: ExIFFI和EIF+：解释性和增强的推广能力以扩展扩展孤立森林
 
-    SepVAE: a contrastive VAE to separate pathological patterns from healthy ones. (arXiv:2307.06206v1 [cs.CV])
+    ExIFFI and EIF+: Interpretability and Enhanced Generalizability to Extend the Extended Isolation Forest. (arXiv:2310.05468v1 [stat.ML])
 
-    [http://arxiv.org/abs/2307.06206](http://arxiv.org/abs/2307.06206)
+    [http://arxiv.org/abs/2310.05468](http://arxiv.org/abs/2310.05468)
 
-    SepVAE是一种对比VAE方法，可以从健康数据和患者数据中分离出共同的和特定的变化因素。在多个应用中表现出比现有方法更好的性能。
-
-    
-
-    对比分析VAE（CA-VAEs）是一类变分自编码器（VAEs），旨在从背景数据集（BG）（即健康人群）和目标数据集（TG）（即患者）之间分离共同变化因素和仅存在于目标数据集中的因素。为此，这些方法将潜在空间分为一组显著特征（即特定于目标数据集）和一组共同特征（即存在于两个数据集中）。目前，所有模型都未能有效防止潜在空间之间的信息共享，并捕捉所有显著的变化因素。为此，我们引入了两个关键的正则化损失：共同表示和显著表示之间的解缠绕项，以及显著空间中背景和目标样本之间的分类项。我们展示了对三个医学应用和一个自然图像数据集（CelebA）的先前CA-VAEs方法的更好性能。代码和数据集可在GitHub上获取。
-
-    Contrastive Analysis VAE (CA-VAEs) is a family of Variational auto-encoders (VAEs) that aims at separating the common factors of variation between a background dataset (BG) (i.e., healthy subjects) and a target dataset (TG) (i.e., patients) from the ones that only exist in the target dataset. To do so, these methods separate the latent space into a set of salient features (i.e., proper to the target dataset) and a set of common features (i.e., exist in both datasets). Currently, all models fail to prevent the sharing of information between latent spaces effectively and to capture all salient factors of variation. To this end, we introduce two crucial regularization losses: a disentangling term between common and salient representations and a classification term between background and target samples in the salient space. We show a better performance than previous CA-VAEs methods on three medical applications and a natural images dataset (CelebA). Code and datasets are available on GitHu
-    
-[^9]: 通过非负低秩半定规划实现最优K均值聚类
-
-    Statistically Optimal K-means Clustering via Nonnegative Low-rank Semidefinite Programming. (arXiv:2305.18436v1 [stat.ML])
-
-    [http://arxiv.org/abs/2305.18436](http://arxiv.org/abs/2305.18436)
-
-    本文提出了一种与NMF算法一样简单且可扩展的K均值聚类算法，该算法通过解决非负低秩半定规划问题获得了强大的统计最优性保证，实验证明该算法在合成和实际数据集上表现优异。
+    本研究介绍了EIF+和ExIFFI两种改进了扩展孤立森林的方法，分别增强了模型的推广能力和解释性能，实验结果表明其在异常检测任务中具有优势。
 
     
 
-    K均值聚类是一种广泛应用于大数据集中发现模式的机器学习方法。半定规划（SDP）松弛最近被提出用于解决K均值优化问题，具有很强的统计最优性保证。但实现SDP求解器的巨大成本使得这些保证无法应用于实际数据集。相比之下，非负矩阵分解（NMF）是一种简单的聚类算法，被机器学习从业者广泛使用，但缺乏坚实的统计基础或严格的保证。在本文中，我们描述了一种类似于NMF的算法，通过使用非凸Burer-Monteiro分解方法解决半定规划松弛的K均值公式的非负低秩限制。所得到的算法与最先进的NMF算法一样简单和可扩展，同时也享有与SDP相同的强大的统计最优性保证。在我们的实验中，我们证明了我们的算法优于现有的NMF算法，并在合成和实际数据集上表现与最先进的SDP求解器相当。
+    异常检测是一种重要的无监督机器学习任务，涉及在复杂数据集和系统中识别异常行为。虽然机器学习算法和决策支持系统（DSS）提供了有效的解决方案，但仅仅定位异常往往在实际应用中不足。这些系统的用户通常需要了解预测背后的原因，以便进行根本原因分析并增强对模型的信任。然而，由于异常检测的无监督性质，创建可解释的工具是具有挑战性的。本文介绍了EIF+，这是扩展孤立森林（EIF）的增强变体，旨在增强泛化能力。此外，我们提出了ExIFFI，一种将扩展孤立森林与解释性功能（特征排名）相结合的新方法。实验结果提供了以孤立基于方法进行异常检测的综合比较分析。
 
-    $K$-means clustering is a widely used machine learning method for identifying patterns in large datasets. Semidefinite programming (SDP) relaxations have recently been proposed for solving the $K$-means optimization problem that enjoy strong statistical optimality guarantees, but the prohibitive cost of implementing an SDP solver renders these guarantees inaccessible to practical datasets. By contrast, nonnegative matrix factorization (NMF) is a simple clustering algorithm that is widely used by machine learning practitioners, but without a solid statistical underpinning nor rigorous guarantees. In this paper, we describe an NMF-like algorithm that works by solving a nonnegative low-rank restriction of the SDP relaxed $K$-means formulation using a nonconvex Burer--Monteiro factorization approach. The resulting algorithm is just as simple and scalable as state-of-the-art NMF algorithms, while also enjoying the same strong statistical optimality guarantees as the SDP. In our experiments,
+    Anomaly detection, an essential unsupervised machine learning task, involves identifying unusual behaviors within complex datasets and systems. While Machine Learning algorithms and decision support systems (DSSs) offer effective solutions for this task, simply pinpointing anomalies often falls short in real-world applications. Users of these systems often require insight into the underlying reasons behind predictions to facilitate Root Cause Analysis and foster trust in the model. However, due to the unsupervised nature of anomaly detection, creating interpretable tools is challenging. This work introduces EIF+, an enhanced variant of Extended Isolation Forest (EIF), designed to enhance generalization capabilities. Additionally, we present ExIFFI, a novel approach that equips Extended Isolation Forest with interpretability features, specifically feature rankings. Experimental results provide a comprehensive comparative analysis of Isolation-based approaches for Anomaly Detection, incl
     
-[^10]: 无声放弃：如何从不确定数据中估计客户等待的耐心
+[^9]: 关于嵌入式量子核的表达能力
 
-    Silent Abandonment in Contact Centers: Estimating Customer Patience from Uncertain Data. (arXiv:2304.11754v1 [cs.SI])
+    On the expressivity of embedding quantum kernels. (arXiv:2309.14419v1 [quant-ph])
 
-    [http://arxiv.org/abs/2304.11754](http://arxiv.org/abs/2304.11754)
+    [http://arxiv.org/abs/2309.14419](http://arxiv.org/abs/2309.14419)
 
-    该研究探究了客户在联系中心无声放弃的现象，通过不确定数据估计客户等待的耐心，揭示了这种现象对代理人时间和能力的浪费。
-
-    
-
-    为了提高服务质量，公司为客户提供与代理人进行交互的机会，其中大部分交流是基于文本的。这已成为近年来客户与公司交流的最受欢迎的渠道之一。然而，联系中心面临运营挑战，因为客户体验的常见代理，例如是否知道客户已放弃排队和他们等待服务的意愿（耐心），受到信息不确定性的影响。我们的研究聚焦于主要不确定性来源的影响：客户的无声放弃。这些客户在等待回答他们的查询时离开系统，但没有给出任何指示，例如关闭互动的移动应用程序。因此，系统不知道他们已经离开，并浪费代理人的时间和能力，直到意识到这一事实。本文表明，放弃客户中的30％-67％放弃时会采取无声放弃策略。
-
-    In the quest to improve services, companies offer customers the opportunity to interact with agents through contact centers, where the communication is mainly text-based. This has become one of the favorite channels of communication with companies in recent years. However, contact centers face operational challenges, since the measurement of common proxies for customer experience, such as knowledge of whether customers have abandoned the queue and their willingness to wait for service (patience), are subject to information uncertainty. We focus this research on the impact of a main source of such uncertainty: silent abandonment by customers. These customers leave the system while waiting for a reply to their inquiry, but give no indication of doing so, such as closing the mobile app of the interaction. As a result, the system is unaware that they have left and waste agent time and capacity until this fact is realized. In this paper, we show that 30%-67% of the abandoning customers aban
-    
-[^11]: 在上下文强化学习领域进行在线连续超参数优化
-
-    Online Continuous Hyperparameter Optimization for Contextual Bandits. (arXiv:2302.09440v2 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2302.09440](http://arxiv.org/abs/2302.09440)
-
-    该论文提出了面向上下文强化学习的在线连续超参数调整框架CDT，能够动态地在搜索空间内学习最优参数配置。
+    量子核方法是量子和经典机器学习之间最自然的联系之一。本文探讨了嵌入式量子核的表达能力，并得出结论：通过引入计算普适性，任何核函数都可以表示为量子特征映射和嵌入式量子核。
 
     
 
-    在随机上下文强化学习中，代理根据过去的经验从时间相关行动集中依次采取行动，以最小化总后悔。与许多其他机器学习算法一样，强化学习的性能严重依赖于其多个超参数，并且理论推导出的参数值可能导致实际上不令人满意的结果。此外，在强化学习环境下使用离线优化方法（如交叉验证）选择超参数是不可行的，因为决策必须实时进行。因此，我们提出了第一个面向上下文强化学习的在线连续超参数调整框架，以学习飞行中的最佳参数配置。具体而言，我们使用了一个名为CDT（Continuous Dynamic Tuning）的双层强化学习框架，并将超参数优化形式化为非平稳连续武器强化学习，在其中每个武器代表一种超参数组合。
+    在核方法的背景下，量子核与经典机器学习之间建立了最自然的联系。核方法依赖于内积特征向量，这些特征向量存在于大型特征空间中。量子核通常通过显式构造量子特征态并计算它们的内积来评估，这里称为嵌入式量子核。由于经典核通常在不使用特征向量的情况下进行评估，我们想知道嵌入式量子核的表达能力如何。在这项工作中，我们提出了一个基本问题：是否所有的量子核都可以表达为量子特征态的内积？我们的第一个结果是肯定的：通过调用计算普适性，我们发现对于任何核函数，总是存在对应的量子特征映射和嵌入式量子核。然而，问题更关注的是有效的构造方式。在第二部分中
 
-    In stochastic contextual bandits, an agent sequentially makes actions from a time-dependent action set based on past experience to minimize the cumulative regret. Like many other machine learning algorithms, the performance of bandits heavily depends on their multiple hyperparameters, and theoretically derived parameter values may lead to unsatisfactory results in practice. Moreover, it is infeasible to use offline tuning methods like cross-validation to choose hyperparameters under the bandit environment, as the decisions should be made in real time. To address this challenge, we propose the first online continuous hyperparameter tuning framework for contextual bandits to learn the optimal parameter configuration within a search space on the fly. Specifically, we use a double-layer bandit framework named CDT (Continuous Dynamic Tuning) and formulate the hyperparameter optimization as a non-stationary continuum-armed bandit, where each arm represents a combination of hyperparameters, a
+    One of the most natural connections between quantum and classical machine learning has been established in the context of kernel methods. Kernel methods rely on kernels, which are inner products of feature vectors living in large feature spaces. Quantum kernels are typically evaluated by explicitly constructing quantum feature states and then taking their inner product, here called embedding quantum kernels. Since classical kernels are usually evaluated without using the feature vectors explicitly, we wonder how expressive embedding quantum kernels are. In this work, we raise the fundamental question: can all quantum kernels be expressed as the inner product of quantum feature states? Our first result is positive: Invoking computational universality, we find that for any kernel function there always exists a corresponding quantum feature map and an embedding quantum kernel. The more operational reading of the question is concerned with efficient constructions, however. In a second part
+    
+[^10]: 锐度感知最小化和稳定性边界。
+
+    Sharpness-Aware Minimization and the Edge of Stability. (arXiv:2309.12488v1 [cs.LG])
+
+    [http://arxiv.org/abs/2309.12488](http://arxiv.org/abs/2309.12488)
+
+    本研究通过类似的计算方法，为锐度感知最小化(SAM)，一种改进泛化性能的梯度下降变种，确定了一个稳定性边界，该边界取决于梯度的范数。
+
+    
+
+    最近的实验表明，当使用梯度下降(GD)训练神经网络时，损失函数的Hessian矩阵的操作符范数会增长，直到接近$2/\eta$，之后会在该值周围波动。根据对损失函数的局部二次逼近，$2/\eta$被称为“稳定性边界”。我们使用类似的计算方法，为锐度感知最小化(SAM)确定了一个“稳定性边界”，SAM是一种改进泛化性能的GD变种。与GD不同，SAM的稳定性边界取决于梯度的范数。通过三个深度学习任务的实证，我们观察到SAM在这个分析中确定的稳定性边界上运行。
+
+    Recent experiments have shown that, often, when training a neural network with gradient descent (GD) with a step size $\eta$, the operator norm of the Hessian of the loss grows until it approximately reaches $2/\eta$, after which it fluctuates around this value.  The quantity $2/\eta$ has been called the "edge of stability" based on consideration of a local quadratic approximation of the loss. We perform a similar calculation to arrive at an "edge of stability" for Sharpness-Aware Minimization (SAM), a variant of GD which has been shown to improve its generalization. Unlike the case for GD, the resulting SAM-edge depends on the norm of the gradient. Using three deep learning training tasks, we see empirically that SAM operates on the edge of stability identified by this analysis.
+    
+[^11]: 带有通信压缩的随机控制平均法在联邦学习中的应用
+
+    Stochastic Controlled Averaging for Federated Learning with Communication Compression. (arXiv:2308.08165v1 [math.OC] CROSS LISTED)
+
+    [http://arxiv.org/abs/2308.08165](http://arxiv.org/abs/2308.08165)
+
+    本文提出了两种压缩联邦学习算法(SCALLION和SCAFCOM)，通过重新审视经典的随机控制平均法并提出了等价但更高效/简化的形式，减少了上行通信成本。
+
+    
+
+    通信压缩是一种旨在减少通过无线传输的信息量的技术，在联邦学习中引起了极大的关注，因为它有潜力减轻通信开销。然而，通信压缩在联邦学习中带来了新的挑战，包括压缩引起的信息失真以及联邦学习的特性，如部分参与和数据异构性。尽管近年来有所发展，压缩联邦学习方法的性能尚未充分利用。现有方法要么不能适应任意的数据异构性或部分参与，要么要求对压缩有严格的条件。在本文中，我们重新审视了具有开销减半的上行通信成本的经典随机控制平均法，并提出了两种压缩联邦学习算法，SCALLION和SCAFCOM。
+
+    Communication compression, a technique aiming to reduce the information volume to be transmitted over the air, has gained great interests in Federated Learning (FL) for the potential of alleviating its communication overhead. However, communication compression brings forth new challenges in FL due to the interplay of compression-incurred information distortion and inherent characteristics of FL such as partial participation and data heterogeneity. Despite the recent development, the performance of compressed FL approaches has not been fully exploited. The existing approaches either cannot accommodate arbitrary data heterogeneity or partial participation, or require stringent conditions on compression.  In this paper, we revisit the seminal stochastic controlled averaging method by proposing an equivalent but more efficient/simplified formulation with halved uplink communication costs. Building upon this implementation, we propose two compressed FL algorithms, SCALLION and SCAFCOM, to s
+    
+[^12]: 具有强凸性的 Nesterov-1983 的线性收敛性
+
+    Linear convergence of Nesterov-1983 with the strong convexity. (arXiv:2306.09694v1 [math.OC])
+
+    [http://arxiv.org/abs/2306.09694](http://arxiv.org/abs/2306.09694)
+
+    本文使用高分辨率微分方程框架回答了Nesterov-1983和FISTA是否在强凸函数上线性收敛的问题，并指出线性收敛性不依赖于强凸性条件。
+
+    
+
+    对于现代基于梯度的优化，Nesterov 的加速梯度下降法是一个开创性里程碑，该方法在[Nesterov，1983]中提出，简称为Nesterov-1983。此后，重要的进展之一是它的近端推广，名为快速迭代收缩阈值算法（FISTA），广泛应用于图像科学和工程。然而，目前仍未知道Nesterov-1983和FISTA是否在强凸函数上线性收敛，而这已被列为综合评审[Chambolle和Pock，2016，附录B]中的未解决问题。本文通过使用高分辨率微分方程框架来回答这个问题。与先前采用的相空间表示一起，构造Lyapunov函数的关键区别在于动能的系数随迭代而变化。此外，我们指出，上述两种算法的线性收敛性没有依赖于强凸函数的条件。
+
+    For modern gradient-based optimization, a developmental landmark is Nesterov's accelerated gradient descent method, which is proposed in [Nesterov, 1983], so shorten as Nesterov-1983. Afterward, one of the important progresses is its proximal generalization, named the fast iterative shrinkage-thresholding algorithm (FISTA), which is widely used in image science and engineering. However, it is unknown whether both Nesterov-1983 and FISTA converge linearly on the strongly convex function, which has been listed as the open problem in the comprehensive review [Chambolle and Pock, 2016, Appendix B]. In this paper, we answer this question by the use of the high-resolution differential equation framework. Along with the phase-space representation previously adopted, the key difference here in constructing the Lyapunov function is that the coefficient of the kinetic energy varies with the iteration. Furthermore, we point out that the linear convergence of both the two algorithms above has no d
     
 
