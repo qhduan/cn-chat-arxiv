@@ -2,22 +2,9 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Visibility graph analysis of crude oil futures markets: Insights from the COVID-19 pandemic and Russia-Ukraine conflict.](http://arxiv.org/abs/2310.18903) | 该研究通过可见度图方法对原油期货市场进行了深入分析，发现了VG的幂律衰减和显著聚类特性。研究结果揭示了原油期货市场的小世界属性和复杂同类混合特征。WTI和Brent市场表现一致，而SC市场有所偏离。 |
+
 
 # 详细
 
-[^1]: 原油期货市场的可见度图分析：来自COVID-19疫情和俄乌冲突的见解
 
-    Visibility graph analysis of crude oil futures markets: Insights from the COVID-19 pandemic and Russia-Ukraine conflict. (arXiv:2310.18903v1 [q-fin.ST])
-
-    [http://arxiv.org/abs/2310.18903](http://arxiv.org/abs/2310.18903)
-
-    该研究通过可见度图方法对原油期货市场进行了深入分析，发现了VG的幂律衰减和显著聚类特性。研究结果揭示了原油期货市场的小世界属性和复杂同类混合特征。WTI和Brent市场表现一致，而SC市场有所偏离。
-
-    
-
-    在全球金融市场受到俄乌冲突和COVID-19疫情的重大影响的背景下，本研究对三个主要的原油期货市场（WTI、Brent和上海（SC））进行了彻底的分析。采用可见度图（VG）方法，我们使用日常和高频数据来研究静态和动态特性。我们发现大多数VG度分布显示出明显的幂律衰减，并强调了原油期货VG内的显著聚类特性。我们的研究结果还证实了聚类系数与节点度数之间的负相关关系，并进一步揭示了所有VG不仅遵循小世界属性，而且呈现复杂的同类混合。通过VG的时变特性，我们发现WTI和Brent表现出一致的行为，而具有独特交易机制的SC市场则有所偏离。5分钟VG的同类混合系数提供了一种深入分析原油期货市场的方法。
-
-    Drawing inspiration from the significant impact of the ongoing Russia-Ukraine conflict and the recent COVID-19 pandemic on global financial markets, this study conducts a thorough analysis of three key crude oil futures markets: WTI, Brent, and Shanghai (SC). Employing the visibility graph (VG) methodology, we examine both static and dynamic characteristics using daily and high-frequency data. We identified a clear power-law decay in most VG degree distributions and highlighted the pronounced clustering tendencies within crude oil futures VGs. Our results also confirm an inverse correlation between clustering coefficient and node degree and further reveal that all VGs not only adhere to the small-world property but also exhibit intricate assortative mixing. Through the time-varying characteristics of VGs, we found that WTI and Brent demonstrate aligned behavior, while the SC market, with its unique trading mechanics, deviates. The 5-minute VGs' assortativity coefficient provides a deep
-    
 
