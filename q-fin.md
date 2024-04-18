@@ -2,37 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Bounding the approach to oligarchy in a variant of the yard-sale model.](http://arxiv.org/abs/2310.16098) | 在一个修改庭售模型的动力学下，我们通过引入一阶微分不等式限制了寡头政权的接近程度，并展示了这个改良系统适用于匹配真实的财富分布。 |
-| [^2] | [Derivative Pricing using Quantum Signal Processing.](http://arxiv.org/abs/2307.14310) | 这项研究介绍了一种基于量子信号处理的方法，将金融衍生品的回报直接编码到量子幅度中，减少了对昂贵的量子算术的需求，并显著降低了所需的量子资源。 |
+| [^1] | [The Costs of Swapping on the Uniswap Protocol.](http://arxiv.org/abs/2309.13648) | 首次对去中心化交易所（DEX）的交易成本进行了实证研究，发现交易成本的组成因交易特征而异，对小规模交换来说，gas成本占主导地位，对大规模交换来说，价格冲击和滑点占据了大部分，且交易迷因币PEPE时，对抗性滑点的概率也具有差异。 |
 
 # 详细
 
-[^1]: 对庭售模型变种中寡头政权的限制
+[^1]: Uniswap协议的交换成本
 
-    Bounding the approach to oligarchy in a variant of the yard-sale model. (arXiv:2310.16098v1 [cond-mat.stat-mech])
+    The Costs of Swapping on the Uniswap Protocol. (arXiv:2309.13648v1 [cs.CR])
 
-    [http://arxiv.org/abs/2310.16098](http://arxiv.org/abs/2310.16098)
+    [http://arxiv.org/abs/2309.13648](http://arxiv.org/abs/2309.13648)
 
-    在一个修改庭售模型的动力学下，我们通过引入一阶微分不等式限制了寡头政权的接近程度，并展示了这个改良系统适用于匹配真实的财富分布。
-
-    
-
-    我们展示了在改良的庭售模型动力学下经济不平等的基尼系数的分析结果。通过修改经典系统中的二进制交易，引入了庭售模型的变种。通过使用与微分格朗沃尔不等式结合的一阶微分不等式，我们证明了这种动力学下的基尼系数是单调的，但寡头政权的接近程度可以被限制住。我们推导了带有重新分配税的改良系统的渐进性质，并且表明与原始的有税庭售模型一致，这暗示了这个改良系统适用于匹配真实的财富分布。
-
-    We present analytical results for the Gini coefficient of economic inequality under the dynamics of a modified Yard-Sale Model of kinetic asset exchange. A variant of the Yard-Sale Model is introduced by modifying the underlying binary transaction of the classical system. It is shown that the Gini coefficient is monotone under the resulting dynamics but the approach to oligarchy, as measured by the Gini index, can be bounded by a first-order differential inequality used in conjunction with the differential Gronwall inequality. The asymptotics of the modified system, with a redistributive tax, are derived and shown to agree with the original, taxed Yard-Sale Model, which implies the modified system is as suitable for matching real wealth distributions.
-    
-[^2]: 使用量子信号处理进行衍生品定价
-
-    Derivative Pricing using Quantum Signal Processing. (arXiv:2307.14310v1 [quant-ph])
-
-    [http://arxiv.org/abs/2307.14310](http://arxiv.org/abs/2307.14310)
-
-    这项研究介绍了一种基于量子信号处理的方法，将金融衍生品的回报直接编码到量子幅度中，减少了对昂贵的量子算术的需求，并显著降低了所需的量子资源。
+    首次对去中心化交易所（DEX）的交易成本进行了实证研究，发现交易成本的组成因交易特征而异，对小规模交换来说，gas成本占主导地位，对大规模交换来说，价格冲击和滑点占据了大部分，且交易迷因币PEPE时，对抗性滑点的概率也具有差异。
 
     
 
-    在量子计算机上进行金融衍生品定价通常包括量子算术组件，这些组件对应的电路所需的量子资源很重。在本文中，我们介绍了一种基于量子信号处理（QSP）的方法，直接将金融衍生品的回报编码到量子幅度中，减轻了昂贵的量子算术对量子电路的负担。与现有文献中的当前最先进方法相比，我们发现对于实际感兴趣的衍生品合约，应用QSP显著减小了所有度量标准下所需的资源，尤其是T门的总数约减16倍，逻辑量子比特数约减4倍。此外，我们估计达到量子优势所需的逻辑时钟速率也降低了约5倍。总体而言，我们发现达到量子优势所需的逻辑量子比特为4.7k个，而能够执行10^9个T门的量子设备所需。
+    我们首次深入地对去中心化交易所（DEX）交易成本进行了实证研究。我们使用Uniswap Labs界面上的USDC-ETH（5bps）和PEPE-ETH（30bps）池的报价价格，评估了在DEX上交易的效率。我们的主要工具是滑点——交易实际执行价格与报价价格之间的差异，我们将其分解为良性和对抗性组成部分。我们还提出了一种另类的量化和识别由于对抗性事务重新排序引起的滑点的方法，我们称之为重新排序滑点，它不需要报价价格或mempool数据来计算。我们发现交易成本的组成因交易特征而异。具体而言，对于小规模交换，gas成本占主导地位，而对于大规模交换，价格冲击和滑点占据了大部分。此外，当交易PEPE（一种流行的“迷因币”）时，对抗性滑点的概率也有所不同。
 
-    Pricing financial derivatives on quantum computers typically includes quantum arithmetic components which contribute heavily to the quantum resources required by the corresponding circuits. In this manuscript, we introduce a method based on Quantum Signal Processing (QSP) to encode financial derivative payoffs directly into quantum amplitudes, alleviating the quantum circuits from the burden of costly quantum arithmetic. Compared to current state-of-the-art approaches in the literature, we find that for derivative contracts of practical interest, the application of QSP significantly reduces the required resources across all metrics considered, most notably the total number of T-gates by $\sim 16$x and the number of logical qubits by $\sim 4$x. Additionally, we estimate that the logical clock rate needed for quantum advantage is also reduced by a factor of $\sim 5$x. Overall, we find that quantum advantage will require $4.7$k logical qubits, and quantum devices that can execute $10^9$ T
+    We present the first in-depth empirical characterization of the costs of trading on a decentralized exchange (DEX). Using quoted prices from the Uniswap Labs interface for two pools -- USDC-ETH (5bps) and PEPE-ETH (30bps) -- we evaluate the efficiency of trading on DEXs. Our main tool is slippage -- the difference between the realized execution price of a trade, and its quoted price -- which we breakdown into its benign and adversarial components. We also present an alternative way to quantify and identify slippage due to adversarial reordering of transactions, which we call reordering slippage, that does not require quoted prices or mempool data to calculate. We find that the composition of transaction costs varies tremendously with the trade's characteristics. Specifically, while for small swaps, gas costs dominate costs, for large swaps price-impact and slippage account for the majority of it. Moreover, when trading PEPE, a popular 'memecoin', the probability of adversarial slippage
     
 
