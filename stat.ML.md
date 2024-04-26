@@ -2,82 +2,127 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Multiclass Learning from Noisy Labels for Non-decomposable Performance Measures](https://rss.arxiv.org/abs/2402.01055) | 本论文提出了用于从带有噪声标签的数据中学习非可分解性能度量的多类学习算法。这些算法分别适用于单调凸性和线性比率两类性能度量，并基于类条件噪声模型进行噪声校正。 |
-| [^2] | [Robust Learning of Noisy Time Series Collections Using Stochastic Process Models with Motion Codes](https://arxiv.org/abs/2402.14081) | 使用具有学习谱核的混合高斯过程的潜变量模型方法，针对嘈杂时间序列数据进行鲁棒学习。 |
-| [^3] | [Free-form Flows: Make Any Architecture a Normalizing Flow.](http://arxiv.org/abs/2310.16624) | 本文提出了一种训练过程，通过使用变量转换公式梯度的高效估计器，克服了归一化流设计在解析逆变换方面的限制。这使得任何保持维度的神经网络都可以作为生成模型进行最大似然训练，并在分子生成和反问题基准测试中取得优秀的结果。 |
-| [^4] | [Anytime-valid t-tests and confidence sequences for Gaussian means with unknown variance.](http://arxiv.org/abs/2310.03722) | 本文提出了两种新的“e-process”和置信序列方法，分别通过替换Lai的混合方法，并分析了所得结果的宽度。 |
-| [^5] | [Multi-study R-learner for Heterogeneous Treatment Effect Estimation.](http://arxiv.org/abs/2306.01086) | 本文提出了一种名为多研究R-learner的方法，能够很好地估计多研究中的异质性处理效应，具有鲁棒性，并在现实癌症数据实验中表现出更小的估计误差。 |
+| [^1] | [High-dimensional analysis of ridge regression for non-identically distributed data with a variance profile](https://arxiv.org/abs/2403.20200) | 研究了对于独立但非独立同分布数据的高维回归模型，提出了在岭正则化参数趋近于零时高维回归中的双谷现象。 |
+| [^2] | [Auditing Fairness under Unobserved Confounding](https://arxiv.org/abs/2403.14713) | 在未观测混杂因素的情况下，本文展示了即使在放宽或甚至在排除所有相关风险因素被观测到的假设的情况下，仍然可以给出对高风险个体分配率的信息丰富的界限。 |
+| [^3] | [A Theoretical Analysis of Nash Learning from Human Feedback under General KL-Regularized Preference](https://arxiv.org/abs/2402.07314) | 本论文从理论层面分析了一种关于一般偏好下纳什学习从人类反馈中的方法，通过对两个竞争的LLM进行博弈来找到一种一致生成响应的策略。 |
+| [^4] | [Dropout Regularization Versus $\ell_2$-Penalization in the Linear Model.](http://arxiv.org/abs/2306.10529) | 研究发现，线性回归模型中采用dropout技术的统计行为具有更加微妙的与$\ell_2$正则化的联系，dropout并不像预期中那样具有稳定的正则化效果。 |
+| [^5] | [Interpolation property of shallow neural networks.](http://arxiv.org/abs/2304.10552) | 本文证明了浅层神经网络可以插值任何数据集，即损失函数具有全局最小值为零的性质，此外还给出了该全局最小值处的惯性矩阵的表征，并提供了一种实用的概率方法来寻找插值点。 |
+| [^6] | [Bagging Provides Assumption-free Stability.](http://arxiv.org/abs/2301.12600) | 本文证明了Bagging技术可提供无偏差稳定性，适用于各种数据分布和算法，具有良好的实证效果。 |
+| [^7] | [A Recipe for Well-behaved Graph Neural Approximations of Complex Dynamics.](http://arxiv.org/abs/2301.04900) | 本文介绍了一种行为良好的图神经网络近似复杂动力学的方法，包括必要的偏置和适当的神经网络结构，并提出了评估泛化能力和推断时预测置信度的方法。 |
+| [^8] | [Exceedance Probability Forecasting via Regression for Significant Wave Height Prediction.](http://arxiv.org/abs/2206.09821) | 本论文提出了一种基于回归的超标概率预测方法，用于预测显著波高，通过利用预测来估计超标概率，取得了更好的效果。 |
 
 # 详细
 
-[^1]: 从有噪声标签学习非可分解性能度量的多类学习
+[^1]: 对具有方差轮廓的非独立同分布数据的岭回归进行高维分析
 
-    Multiclass Learning from Noisy Labels for Non-decomposable Performance Measures
+    High-dimensional analysis of ridge regression for non-identically distributed data with a variance profile
 
-    [https://rss.arxiv.org/abs/2402.01055](https://rss.arxiv.org/abs/2402.01055)
+    [https://arxiv.org/abs/2403.20200](https://arxiv.org/abs/2403.20200)
 
-    本论文提出了用于从带有噪声标签的数据中学习非可分解性能度量的多类学习算法。这些算法分别适用于单调凸性和线性比率两类性能度量，并基于类条件噪声模型进行噪声校正。
-
-    
-
-    近年来，学习从带有噪声标签的数据中得到良好分类器引起了广泛关注。大多数关于从有噪声标签学习的工作都集中在标准的基于损失的性能度量上。然而，许多机器学习问题需要使用非可分解性能度量，这些度量不能表示为单个示例上的损失的期望或总和；其中包括类不平衡设置中的H-mean，Q-mean和G-mean，以及信息检索中的Micro F1。在本文中，我们设计了算法，用于学习两类广泛的多类非可分解性能度量，即单调凸性和线性比率，它们包括上述所有示例。我们的工作基于Narasimhan等人的Frank-Wolfe和Bisection算法(2015)。在这两种情况下，我们在广泛研究的类条件噪声模型家族下开发了算法的噪声校正版本。我们提供了遗憾(超额风险)上界。
-
-    There has been much interest in recent years in learning good classifiers from data with noisy labels. Most work on learning from noisy labels has focused on standard loss-based performance measures. However, many machine learning problems require using non-decomposable performance measures which cannot be expressed as the expectation or sum of a loss on individual examples; these include for example the H-mean, Q-mean and G-mean in class imbalance settings, and the Micro $F_1$ in information retrieval. In this paper, we design algorithms to learn from noisy labels for two broad classes of multiclass non-decomposable performance measures, namely, monotonic convex and ratio-of-linear, which encompass all the above examples. Our work builds on the Frank-Wolfe and Bisection based methods of Narasimhan et al. (2015). In both cases, we develop noise-corrected versions of the algorithms under the widely studied family of class-conditional noise models. We provide regret (excess risk) bounds 
-    
-[^2]: 使用具有运动代码的随机过程模型对嘈杂时间序列集合进行鲁棒学习
-
-    Robust Learning of Noisy Time Series Collections Using Stochastic Process Models with Motion Codes
-
-    [https://arxiv.org/abs/2402.14081](https://arxiv.org/abs/2402.14081)
-
-    使用具有学习谱核的混合高斯过程的潜变量模型方法，针对嘈杂时间序列数据进行鲁棒学习。
+    研究了对于独立但非独立同分布数据的高维回归模型，提出了在岭正则化参数趋近于零时高维回归中的双谷现象。
 
     
 
-    虽然时间序列分类和预测问题已经得到广泛研究，但具有任意时间序列长度的嘈杂时间序列数据的情况仍具挑战性。每个时间序列实例可以看作是嘈杂动态模型的一个样本实现，其特点是连续随机过程。对于许多应用，数据是混合的，由多个随机过程建模的几种类型的嘈杂时间序列序列组成，使得预测和分类任务变得更具挑战性。我们不是简单地将数据回归到每种时间序列类型，而是采用具有学习谱核的混合高斯过程的潜变量模型方法。更具体地说，我们为每种类型的嘈杂时间序列数据自动分配一个称为其运动代码的签名向量。然后，在每个分配的运动代码的条件下，我们推断出相关性的稀疏近似。
+    针对独立但非独立同分布数据，我们提出研究高维回归模型。假设观测到的预测变量集合是带有方差轮廓的随机矩阵，并且其维度以相应速率增长。在假设随机效应模型的情况下，我们研究了具有这种方差轮廓的岭估计器的线性回归的预测风险。在这种设置下，我们提供了该风险的确定性等价物以及岭估计器的自由度。对于某些方差轮廓类别，我们的工作突出了在岭正则化参数趋于零时，高维回归中的最小模最小二乘估计器出现双谷现象。我们还展示了一些方差轮廓f...
 
-    arXiv:2402.14081v1 Announce Type: cross  Abstract: While time series classification and forecasting problems have been extensively studied, the cases of noisy time series data with arbitrary time sequence lengths have remained challenging. Each time series instance can be thought of as a sample realization of a noisy dynamical model, which is characterized by a continuous stochastic process. For many applications, the data are mixed and consist of several types of noisy time series sequences modeled by multiple stochastic processes, making the forecasting and classification tasks even more challenging. Instead of regressing data naively and individually to each time series type, we take a latent variable model approach using a mixtured Gaussian processes with learned spectral kernels. More specifically, we auto-assign each type of noisy time series data a signature vector called its motion code. Then, conditioned on each assigned motion code, we infer a sparse approximation of the corr
+    arXiv:2403.20200v1 Announce Type: cross  Abstract: High-dimensional linear regression has been thoroughly studied in the context of independent and identically distributed data. We propose to investigate high-dimensional regression models for independent but non-identically distributed data. To this end, we suppose that the set of observed predictors (or features) is a random matrix with a variance profile and with dimensions growing at a proportional rate. Assuming a random effect model, we study the predictive risk of the ridge estimator for linear regression with such a variance profile. In this setting, we provide deterministic equivalents of this risk and of the degree of freedom of the ridge estimator. For certain class of variance profile, our work highlights the emergence of the well-known double descent phenomenon in high-dimensional regression for the minimum norm least-squares estimator when the ridge regularization parameter goes to zero. We also exhibit variance profiles f
     
-[^3]: 自由形式流动：使任何架构成为归一化流
+[^2]: 在未观测混杂因素下审计公平性
 
-    Free-form Flows: Make Any Architecture a Normalizing Flow. (arXiv:2310.16624v1 [cs.LG])
+    Auditing Fairness under Unobserved Confounding
 
-    [http://arxiv.org/abs/2310.16624](http://arxiv.org/abs/2310.16624)
+    [https://arxiv.org/abs/2403.14713](https://arxiv.org/abs/2403.14713)
 
-    本文提出了一种训练过程，通过使用变量转换公式梯度的高效估计器，克服了归一化流设计在解析逆变换方面的限制。这使得任何保持维度的神经网络都可以作为生成模型进行最大似然训练，并在分子生成和反问题基准测试中取得优秀的结果。
-
-    
-
-    归一化流是直接最大化可能性的生成模型。以前，归一化流的设计在很大程度上受到对解析逆变换的需要限制。通过使用对变量转换公式的梯度的高效估计器进行训练，我们克服了这个限制。这使得任何保持维度的神经网络都可以通过最大似然训练作为生成模型。我们的方法允许将重点放在精确调整归纳偏见以适应手头的任务上。具体而言，我们在分子生成基准测试中利用$E(n)$-等变网络取得了出色的结果。此外，我们的方法在一个反问题基准测试中也具有竞争力，同时采用现成的ResNet架构。
-
-    Normalizing Flows are generative models that directly maximize the likelihood. Previously, the design of normalizing flows was largely constrained by the need for analytical invertibility. We overcome this constraint by a training procedure that uses an efficient estimator for the gradient of the change of variables formula. This enables any dimension-preserving neural network to serve as a generative model through maximum likelihood training. Our approach allows placing the emphasis on tailoring inductive biases precisely to the task at hand. Specifically, we achieve excellent results in molecule generation benchmarks utilizing $E(n)$-equivariant networks. Moreover, our method is competitive in an inverse problem benchmark, while employing off-the-shelf ResNet architectures.
-    
-[^4]: 未知方差下的高斯均值的任意有效T检验和置信序列
-
-    Anytime-valid t-tests and confidence sequences for Gaussian means with unknown variance. (arXiv:2310.03722v1 [math.ST])
-
-    [http://arxiv.org/abs/2310.03722](http://arxiv.org/abs/2310.03722)
-
-    本文提出了两种新的“e-process”和置信序列方法，分别通过替换Lai的混合方法，并分析了所得结果的宽度。
+    在未观测混杂因素的情况下，本文展示了即使在放宽或甚至在排除所有相关风险因素被观测到的假设的情况下，仍然可以给出对高风险个体分配率的信息丰富的界限。
 
     
 
-    在1976年，Lai构造了一个非平凡的均值$\mu$的高斯分布的置信序列，该分布的方差$\sigma$是未知的。他使用了关于$\sigma$的不适当（右Haar）混合和关于$\mu$的不适当（平坦）混合。在本文中，我们详细说明了他构建的细节，其中使用了广义的不可积分鞅和扩展的维尔不等式。尽管这确实产生了一个顺序T检验，但由于他的鞅不可积分，它并没有产生一个“e-process”。在本文中，我们为相同的设置开发了两个新的“e-process”和置信序列：一个是在缩减滤波器中的测试鞅，另一个是在规范数据滤波器中的“e-process”。这些分别是通过将Lai的平坦混合替换为高斯混合，并将对$\sigma$的右Haar混合替换为在零空间下的最大似然估计，就像在通用推断中一样。我们还分析了所得结果的宽度。
+    决策系统中的一个基本问题是跨越人口统计线存在不公平性。然而，不公平性可能难以量化，特别是如果我们对公平性的理解依赖于难以衡量的风险等观念（例如，对于那些没有其治疗就会死亡的人平等获得治疗）。审计这种不公平性需要准确测量个体风险，而在未观测混杂的现实环境中，难以估计。在这些未观测到的因素“解释”明显差异的情况下，我们可能低估或高估不公平性。在本文中，我们展示了即使在放宽或（令人惊讶地）甚至在排除所有相关风险因素被观测到的假设的情况下，仍然可以对高风险个体的分配率给出信息丰富的界限。我们利用了在许多实际环境中（例如引入新型治疗）我们拥有在任何分配之前的数据的事实。
 
-    In 1976, Lai constructed a nontrivial confidence sequence for the mean $\mu$ of a Gaussian distribution with unknown variance $\sigma$. Curiously, he employed both an improper (right Haar) mixture over $\sigma$ and an improper (flat) mixture over $\mu$. Here, we elaborate carefully on the details of his construction, which use generalized nonintegrable martingales and an extended Ville's inequality. While this does yield a sequential t-test, it does not yield an ``e-process'' (due to the nonintegrability of his martingale). In this paper, we develop two new e-processes and confidence sequences for the same setting: one is a test martingale in a reduced filtration, while the other is an e-process in the canonical data filtration. These are respectively obtained by swapping Lai's flat mixture for a Gaussian mixture, and swapping the right Haar mixture over $\sigma$ with the maximum likelihood estimate under the null, as done in universal inference. We also analyze the width of resulting 
+    arXiv:2403.14713v1 Announce Type: cross  Abstract: A fundamental problem in decision-making systems is the presence of inequity across demographic lines. However, inequity can be difficult to quantify, particularly if our notion of equity relies on hard-to-measure notions like risk (e.g., equal access to treatment for those who would die without it). Auditing such inequity requires accurate measurements of individual risk, which is difficult to estimate in the realistic setting of unobserved confounding. In the case that these unobservables "explain" an apparent disparity, we may understate or overstate inequity. In this paper, we show that one can still give informative bounds on allocation rates among high-risk individuals, even while relaxing or (surprisingly) even when eliminating the assumption that all relevant risk factors are observed. We utilize the fact that in many real-world settings (e.g., the introduction of a novel treatment) we have data from a period prior to any alloc
     
-[^5]: 多研究R-learner用于异质性处理效应估计
+[^3]: 一种关于一般KL正则化偏好下纳什学习从人类反馈中的理论分析
 
-    Multi-study R-learner for Heterogeneous Treatment Effect Estimation. (arXiv:2306.01086v1 [stat.ME])
+    A Theoretical Analysis of Nash Learning from Human Feedback under General KL-Regularized Preference
 
-    [http://arxiv.org/abs/2306.01086](http://arxiv.org/abs/2306.01086)
+    [https://arxiv.org/abs/2402.07314](https://arxiv.org/abs/2402.07314)
 
-    本文提出了一种名为多研究R-learner的方法，能够很好地估计多研究中的异质性处理效应，具有鲁棒性，并在现实癌症数据实验中表现出更小的估计误差。
+    本论文从理论层面分析了一种关于一般偏好下纳什学习从人类反馈中的方法，通过对两个竞争的LLM进行博弈来找到一种一致生成响应的策略。
 
     
 
-    我们提出了一种通用的算法类来估计多个研究中的异质性处理效应。我们的方法称为多研究R-learner，可以概括R-learner以考虑研究间的异质性并实现调整混淆的跨研究鲁棒性。多研究R-learner能够灵活地融合许多机器学习技术以估计异质性处理效应、困扰函数和成员概率。我们表明，多研究R-learner处理效应估计器在序列估计框架内是渐近正常的。此外，我们通过现实癌症数据实验证明，随着研究间的异质性增加，与R-learner相比，我们的方法估计误差更小。
+    来自人类反馈的强化学习（RLHF）从一个概率偏好模型提供的偏好信号中学习，该模型以一个提示和两个响应作为输入，并产生一个分数，表示对一个响应相对于另一个响应的偏好程度。迄今为止，最流行的RLHF范式是基于奖励的，它从奖励建模的初始步骤开始，然后使用构建的奖励为后续的奖励优化阶段提供奖励信号。然而，奖励函数的存在是一个强假设，基于奖励的RLHF在表达能力上有局限性，不能捕捉到真实世界中复杂的人类偏好。在这项工作中，我们为最近提出的学习范式Nash学习从人类反馈（NLHF）提供了理论洞察力，该学习范式考虑了一个一般的偏好模型，并将对齐过程定义为两个竞争的LLM之间的博弈。学习目标是找到一个一致生成响应的策略。
 
-    We propose a general class of algorithms for estimating heterogeneous treatment effects on multiple studies. Our approach, called the multi-study R-learner, generalizes the R-learner to account for between-study heterogeneity and achieves cross-study robustness of confounding adjustment. The multi-study R-learner is flexible in its ability to incorporate many machine learning techniques for estimating heterogeneous treatment effects, nuisance functions, and membership probabilities. We show that the multi-study R-learner treatment effect estimator is asymptotically normal within the series estimation framework. Moreover, we illustrate via realistic cancer data experiments that our approach results in lower estimation error than the R-learner as between-study heterogeneity increases.
+    Reinforcement Learning from Human Feedback (RLHF) learns from the preference signal provided by a probabilistic preference model, which takes a prompt and two responses as input, and produces a score indicating the preference of one response against another. So far, the most popular RLHF paradigm is reward-based, which starts with an initial step of reward modeling, and the constructed reward is then used to provide a reward signal for the subsequent reward optimization stage. However, the existence of a reward function is a strong assumption and the reward-based RLHF is limited in expressivity and cannot capture the real-world complicated human preference.   In this work, we provide theoretical insights for a recently proposed learning paradigm, Nash learning from human feedback (NLHF), which considered a general preference model and formulated the alignment process as a game between two competitive LLMs. The learning objective is to find a policy that consistently generates responses
+    
+[^4]: 线性模型中的Dropout正则化与$\ell_2$-Penalization比较
+
+    Dropout Regularization Versus $\ell_2$-Penalization in the Linear Model. (arXiv:2306.10529v1 [math.ST])
+
+    [http://arxiv.org/abs/2306.10529](http://arxiv.org/abs/2306.10529)
+
+    研究发现，线性回归模型中采用dropout技术的统计行为具有更加微妙的与$\ell_2$正则化的联系，dropout并不像预期中那样具有稳定的正则化效果。
+
+    
+
+    本研究探讨了线性回归模型中采用dropout的梯度下降算法的统计行为。具体而言，推导了迭代的期望和协方差矩阵的非渐近性界限。与文献中广泛引用的dropout与$\ell_2$正则化的期望联系不同的是，结果表明了由于梯度下降动态与dropout引入的附加随机性之间的相互作用，两者之间存在着更加微妙的关系。我们还研究了一种简化版的dropout，它不具有正则化作用，并收敛于最小平方估计器。
+
+    We investigate the statistical behavior of gradient descent iterates with dropout in the linear regression model. In particular, non-asymptotic bounds for expectations and covariance matrices of the iterates are derived. In contrast with the widely cited connection between dropout and $\ell_2$-regularization in expectation, the results indicate a much more subtle relationship, owing to interactions between the gradient descent dynamics and the additional randomness induced by dropout. We also study a simplified variant of dropout which does not have a regularizing effect and converges to the least squares estimator.
+    
+[^5]: 浅层神经网络的插值性质
+
+    Interpolation property of shallow neural networks. (arXiv:2304.10552v1 [cs.LG])
+
+    [http://arxiv.org/abs/2304.10552](http://arxiv.org/abs/2304.10552)
+
+    本文证明了浅层神经网络可以插值任何数据集，即损失函数具有全局最小值为零的性质，此外还给出了该全局最小值处的惯性矩阵的表征，并提供了一种实用的概率方法来寻找插值点。
+
+    
+
+    我们研究了超参数化神经网络的损失函数全局最小值的几何性质。在大多数优化问题中，损失函数是凸函数，这种情况下我们只有一个全局最小值，或者是非凸函数，在这种情况下我们有一个有限的全局最小值。在本文中，我们证明了在超参数化范围内，对于非小次数多项式的激活函数，浅层神经网络可以插值任何数据集，即损失函数具有全局最小值为零的性质。此外，如果存在这样的全局最小值，则全局最小值的轮廓有无穷多个点。此外，我们给出了在全局最小值处求解损失函数的海塞矩阵的表征，并在最后一节中，我们提供了一种实用的概率方法来寻找插值点。
+
+    We study the geometry of global minima of the loss landscape of overparametrized neural networks. In most optimization problems, the loss function is convex, in which case we only have a global minima, or nonconvex, with a discrete number of global minima. In this paper, we prove that in the overparametrized regime, a shallow neural network can interpolate any data set, i.e. the loss function has a global minimum value equal to zero as long as the activation function is not a polynomial of small degree. Additionally, if such a global minimum exists, then the locus of global minima has infinitely many points. Furthermore, we give a characterization of the Hessian of the loss function evaluated at the global minima, and in the last section, we provide a practical probabilistic method of finding the interpolation point.
+    
+[^6]: Bagging提供无偏差稳定性。
+
+    Bagging Provides Assumption-free Stability. (arXiv:2301.12600v2 [stat.ML] UPDATED)
+
+    [http://arxiv.org/abs/2301.12600](http://arxiv.org/abs/2301.12600)
+
+    本文证明了Bagging技术可提供无偏差稳定性，适用于各种数据分布和算法，具有良好的实证效果。
+
+    
+
+    Bagging是稳定机器学习模型的一个重要技术。在本文中，我们针对任何模型的稳定性推导了一个有限样本保证。我们的结果不对数据分布、基本算法的属性或协变量的维数进行任何假设。我们的保证适用于多种变体的Bagging，并且是最优的常数。实证结果验证了我们的发现，表明Bagging成功稳定了即使是高度不稳定的基本算法。
+
+    Bagging is an important technique for stabilizing machine learning models. In this paper, we derive a finite-sample guarantee on the stability of bagging for any model. Our result places no assumptions on the distribution of the data, on the properties of the base algorithm, or on the dimensionality of the covariates. Our guarantee applies to many variants of bagging and is optimal up to a constant. Empirical results validate our findings, showing that bagging successfully stabilizes even highly unstable base algorithms.
+    
+[^7]: 一种行为良好的图神经近似复杂动力学的方法
+
+    A Recipe for Well-behaved Graph Neural Approximations of Complex Dynamics. (arXiv:2301.04900v2 [cond-mat.stat-mech] UPDATED)
+
+    [http://arxiv.org/abs/2301.04900](http://arxiv.org/abs/2301.04900)
+
+    本文介绍了一种行为良好的图神经网络近似复杂动力学的方法，包括必要的偏置和适当的神经网络结构，并提出了评估泛化能力和推断时预测置信度的方法。
+
+    
+
+    数据驱动的常微分方程近似提供了一种有前景的方法来发现动力系统模型，特别是对于缺乏明确原理的复杂系统。本文着重研究了一类由网络邻接矩阵耦合的常微分方程系统描述的复杂系统。许多现实世界中的系统，包括金融、社交和神经系统，属于这类动力学模型。我们提出了使用神经网络近似这种动力系统的关键要素，包括必要的偏置和适当的神经网络结构。强调与静态监督学习的区别，我们提倡在统计学习理论的经典假设之外评估泛化能力。为了在推断时估计预测的置信度，我们引入了一个专用的空模型。通过研究各种复杂网络动力学，我们展示了神经网络的能力。
+
+    Data-driven approximations of ordinary differential equations offer a promising alternative to classical methods in discovering a dynamical system model, particularly in complex systems lacking explicit first principles. This paper focuses on a complex system whose dynamics is described with a system of ordinary differential equations, coupled via a network adjacency matrix. Numerous real-world systems, including financial, social, and neural systems, belong to this class of dynamical models. We propose essential elements for approximating such dynamical systems using neural networks, including necessary biases and an appropriate neural architecture. Emphasizing the differences from static supervised learning, we advocate for evaluating generalization beyond classical assumptions of statistical learning theory. To estimate confidence in prediction during inference time, we introduce a dedicated null model. By studying various complex network dynamics, we demonstrate the neural network'
+    
+[^8]: 基于回归的超标概率预测方法用于显著波高预测
+
+    Exceedance Probability Forecasting via Regression for Significant Wave Height Prediction. (arXiv:2206.09821v2 [stat.ML] UPDATED)
+
+    [http://arxiv.org/abs/2206.09821](http://arxiv.org/abs/2206.09821)
+
+    本论文提出了一种基于回归的超标概率预测方法，用于预测显著波高，通过利用预测来估计超标概率，取得了更好的效果。
+
+    
+
+    显著波高预测是海洋数据分析中的一个关键问题。预测显著波高对于估计波能产生是至关重要的。此外，及时预测大浪的到来对于确保航海作业的安全很重要。我们将预测显著波高的极端值作为超标概率预测问题。因此，我们旨在估计显著波高将超过预定义阈值的概率。通常使用概率二分类模型来解决这个任务。相反，我们提出了一种基于预测模型的新方法。该方法利用未来观测的预测来根据累积分布函数估计超标概率。我们使用来自加拿大哈利法克斯海岸的浮标数据进行了实验。结果表明，所提出的方法更好。
+
+    Significant wave height forecasting is a key problem in ocean data analytics. Predicting the significant wave height is crucial for estimating the energy production from waves. Moreover, the timely prediction of large waves is important to ensure the safety of maritime operations, e.g. passage of vessels. We frame the task of predicting extreme values of significant wave height as an exceedance probability forecasting problem. Accordingly, we aim at estimating the probability that the significant wave height will exceed a predefined threshold. This task is usually solved using a probabilistic binary classification model. Instead, we propose a novel approach based on a forecasting model. The method leverages the forecasts for the upcoming observations to estimate the exceedance probability according to the cumulative distribution function. We carried out experiments using data from a buoy placed in the coast of Halifax, Canada. The results suggest that the proposed methodology is better
     
 
