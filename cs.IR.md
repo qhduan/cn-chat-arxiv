@@ -2,52 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Detecting Generated Native Ads in Conversational Search](https://arxiv.org/abs/2402.04889) | 本论文研究了LLM是否可以用作对抗生成式原生广告的对策，并通过构建广告倾向查询数据集和带自动整合广告的生成答案数据集进行实验证明。 |
-| [^2] | [Faithful Path Language Modelling for Explainable Recommendation over Knowledge Graph.](http://arxiv.org/abs/2310.16452) | 本文提出了一个名为PEARLM的方法，通过语言建模开展基于路径的知识图谱推荐，解决了现有方法中对预训练知识图谱嵌入的依赖以及未充分利用实体和关系之间相互依赖性的问题，还避免了生成不准确的解释。实验结果表明，与现有方法相比，我们的方法效果显著。 |
-| [^3] | [Group Membership Bias.](http://arxiv.org/abs/2308.02887) | 研究分析了群组偏见对排名质量的影响，指出在不纠正群组偏见的情况下，所谓的公平排名不真正公平。 |
+| [^1] | [Unbiased Learning to Rank Meets Reality: Lessons from Baidu's Large-Scale Search Dataset](https://arxiv.org/abs/2404.02543) | 本研究从百度搜索引擎发布的大规模搜索数据集出发，探讨了无偏向学习排序技术在实际搜索引擎中的表现，发现与排名损失和查询-文档特征选择相比，ULTR技术并未带来明显的性能改进。 |
+| [^2] | [The Power of Noise: Redefining Retrieval for RAG Systems.](http://arxiv.org/abs/2401.14887) | 本研究通过分析和评估检索增强生成（RAG）系统中的信息检索（IR）组件，填补了目前研究中忽视的领域，在有效的RAG的提示表述中，不相关文档的包含可能会对系统性能产生负面影响。 |
+| [^3] | [Next Visit Diagnosis Prediction via Medical Code-Centric Multimodal Contrastive EHR Modelling with Hierarchical Regularisation.](http://arxiv.org/abs/2401.11648) | 通过医学代码中心的多模态对比EHR建模预测下次就诊诊断，并通过分层正则化提高性能。 |
 
 # 详细
 
-[^1]: 发现对话式搜索中的生成式原生广告
+[^1]: 无偏向学习排序遇到现实：百度大规模搜索数据集的经验教训
 
-    Detecting Generated Native Ads in Conversational Search
+    Unbiased Learning to Rank Meets Reality: Lessons from Baidu's Large-Scale Search Dataset
 
-    [https://arxiv.org/abs/2402.04889](https://arxiv.org/abs/2402.04889)
+    [https://arxiv.org/abs/2404.02543](https://arxiv.org/abs/2404.02543)
 
-    本论文研究了LLM是否可以用作对抗生成式原生广告的对策，并通过构建广告倾向查询数据集和带自动整合广告的生成答案数据集进行实验证明。
-
-    
-
-    对话式搜索引擎如YouChat和Microsoft Copilot使用大型语言模型（LLM）为查询生成答案。将此技术用于生成并整合广告，而不是将广告与有机搜索结果分开放置，只是一小步。这种类型的广告类似于原生广告和产品放置，两者都是非常有效的微妙和操纵性广告形式。在考虑到与LLM相关的高计算成本时，信息搜索者将很可能在不久的将来面临这种LLM技术的使用，因此供应商需要开发可持续的商业模式。本文研究了LLM是否也可以用作对抗生成式原生广告的对策，即阻止它们。为此，我们编制了一个大型的广告倾向查询数据集和带自动整合广告的生成答案数据集进行实验。
-
-    Conversational search engines such as YouChat and Microsoft Copilot use large language models (LLMs) to generate answers to queries. It is only a small step to also use this technology to generate and integrate advertising within these answers - instead of placing ads separately from the organic search results. This type of advertising is reminiscent of native advertising and product placement, both of which are very effective forms of subtle and manipulative advertising. It is likely that information seekers will be confronted with such use of LLM technology in the near future, especially when considering the high computational costs associated with LLMs, for which providers need to develop sustainable business models. This paper investigates whether LLMs can also be used as a countermeasure against generated native ads, i.e., to block them. For this purpose we compile a large dataset of ad-prone queries and of generated answers with automatically integrated ads to experiment with fin
-    
-[^2]: 可解释的基于路径的知识图推荐中的忠实路径语言建模
-
-    Faithful Path Language Modelling for Explainable Recommendation over Knowledge Graph. (arXiv:2310.16452v1 [cs.IR])
-
-    [http://arxiv.org/abs/2310.16452](http://arxiv.org/abs/2310.16452)
-
-    本文提出了一个名为PEARLM的方法，通过语言建模开展基于路径的知识图谱推荐，解决了现有方法中对预训练知识图谱嵌入的依赖以及未充分利用实体和关系之间相互依赖性的问题，还避免了生成不准确的解释。实验结果表明，与现有方法相比，我们的方法效果显著。
+    本研究从百度搜索引擎发布的大规模搜索数据集出发，探讨了无偏向学习排序技术在实际搜索引擎中的表现，发现与排名损失和查询-文档特征选择相比，ULTR技术并未带来明显的性能改进。
 
     
 
-    针对知识图谱中的路径推理方法在提高推荐系统透明度方面的潜力，本文提出了一种名为PEARLM的新方法，该方法通过语言建模有效捕获用户行为和产品端知识。我们的方法通过语言模型直接从知识图谱上的路径中学习知识图谱嵌入，并将实体和关系统一在同一优化空间中。序列解码的约束保证了路径对知识图谱的忠实性。在两个数据集上的实验证明了我们方法与现有最先进方法的有效性。
+    无偏向学习排序（ULTR）是一个用于学习用户点击数据的成熟框架，而这些数据往往受收集数据的排名者的偏见影响。虽然在理论上得到证明并在模拟中进行了广泛测试，但ULTR技术缺乏经验验证，尤其是在现代搜索引擎中。百度搜索引擎发布的WSDM Cup 2023数据集为评估主要ULTR技术在真实世界中的表现提供了难得的机会。尽管在WSDM Cup 2023期间有多次提交，以及随后的NTCIR ULTRE-2任务，但目前还不清楚观察到的改进是否源自应用ULTR或其他学习技术。我们重新审视并扩展了现有实验。我们发现，无偏向学习排序技术并不能明显提升性能，尤其是与排名损失和查询-文档特征选择带来的明显差异相比。
 
-    Path reasoning methods over knowledge graphs have gained popularity for their potential to improve transparency in recommender systems. However, the resulting models still rely on pre-trained knowledge graph embeddings, fail to fully exploit the interdependence between entities and relations in the KG for recommendation, and may generate inaccurate explanations. In this paper, we introduce PEARLM, a novel approach that efficiently captures user behaviour and product-side knowledge through language modelling. With our approach, knowledge graph embeddings are directly learned from paths over the KG by the language model, which also unifies entities and relations in the same optimisation space. Constraints on the sequence decoding additionally guarantee path faithfulness with respect to the KG. Experiments on two datasets show the effectiveness of our approach compared to state-of-the-art baselines. Source code and datasets: AVAILABLE AFTER GETTING ACCEPTED.
+    arXiv:2404.02543v1 Announce Type: cross  Abstract: Unbiased learning-to-rank (ULTR) is a well-established framework for learning from user clicks, which are often biased by the ranker collecting the data. While theoretically justified and extensively tested in simulation, ULTR techniques lack empirical validation, especially on modern search engines. The dataset released for the WSDM Cup 2023, collected from Baidu's search engine, offers a rare opportunity to assess the real-world performance of prominent ULTR techniques. Despite multiple submissions during the WSDM Cup 2023 and the subsequent NTCIR ULTRE-2 task, it remains unclear whether the observed improvements stem from applying ULTR or other learning techniques. We revisit and extend the available experiments. We find that unbiased learning-to-rank techniques do not bring clear performance improvements, especially compared to the stark differences brought by the choice of ranking loss and query-document features. Our experiments 
     
-[^3]: 群组成员偏见
+[^2]: 噪声的力量：重新定义RAG系统的检索
 
-    Group Membership Bias. (arXiv:2308.02887v1 [cs.IR])
+    The Power of Noise: Redefining Retrieval for RAG Systems. (arXiv:2401.14887v1 [cs.IR])
 
-    [http://arxiv.org/abs/2308.02887](http://arxiv.org/abs/2308.02887)
+    [http://arxiv.org/abs/2401.14887](http://arxiv.org/abs/2401.14887)
 
-    研究分析了群组偏见对排名质量的影响，指出在不纠正群组偏见的情况下，所谓的公平排名不真正公平。
+    本研究通过分析和评估检索增强生成（RAG）系统中的信息检索（IR）组件，填补了目前研究中忽视的领域，在有效的RAG的提示表述中，不相关文档的包含可能会对系统性能产生负面影响。
 
     
 
-    当从用户交互中学习排名时，搜索和推荐系统必须解决用户行为中的偏见问题，以提供高质量的排名。在排名文献中最近研究的一种偏见类型是敏感属性（如性别）对用户对项目效用的判断产生的影响。例如，在寻找某个专业领域时，一些用户可能对男性候选人比女性候选人更有偏见。我们将这种偏见称为群组成员偏见或群组偏见。越来越多的人希望获得不仅具有高效用性而且对个人和敏感群体也公平的排名。基于价值的公平度量依赖于项目的估计价值或效用。在群组偏见的情况下，敏感群体的效用被低估，因此，在不纠正这种偏见的情况下，所谓的公平排名并不真正公平。首先，本文分析了群组偏见对排名质量以及两个众所周知的情况的影响
+    检索增强生成（RAG）系统相对于传统的大型语言模型（LLMs）代表了一个重大进步。RAG系统通过整合通过信息检索（IR）阶段检索的外部数据来增强其生成能力，克服了标准LLMs的限制，后者仅限于其预先训练的知识和有限的上下文窗口。这个领域的大部分研究主要集中在RAG系统内LLMs的生成方面。我们的研究填补了这一空白，通过全面而批判性地分析IR组件对RAG系统的影响。本文分析了一个检索器在有效的RAG的提示表述中应该具备的特征，重点关注应该检索哪种类型的文档。我们评估了各种因素，如文档与提示的相关性，它们的位置以及上下文中包含的数量。我们的发现揭示出，包含不相关的文档可能会…
 
-    When learning to rank from user interactions, search and recommendation systems must address biases in user behavior to provide a high-quality ranking. One type of bias that has recently been studied in the ranking literature is when sensitive attributes, such as gender, have an impact on a user's judgment about an item's utility. For example, in a search for an expertise area, some users may be biased towards clicking on male candidates over female candidates. We call this type of bias group membership bias or group bias for short. Increasingly, we seek rankings that not only have high utility but are also fair to individuals and sensitive groups. Merit-based fairness measures rely on the estimated merit or utility of the items. With group bias, the utility of the sensitive groups is under-estimated, hence, without correcting for this bias, a supposedly fair ranking is not truly fair. In this paper, first, we analyze the impact of group bias on ranking quality as well as two well-know
+    Retrieval-Augmented Generation (RAG) systems represent a significant advancement over traditional Large Language Models (LLMs). RAG systems enhance their generation ability by incorporating external data retrieved through an Information Retrieval (IR) phase, overcoming the limitations of standard LLMs, which are restricted to their pre-trained knowledge and limited context window. Most research in this area has predominantly concentrated on the generative aspect of LLMs within RAG systems. Our study fills this gap by thoroughly and critically analyzing the influence of IR components on RAG systems. This paper analyzes which characteristics a retriever should possess for an effective RAG's prompt formulation, focusing on the type of documents that should be retrieved. We evaluate various elements, such as the relevance of the documents to the prompt, their position, and the number included in the context. Our findings reveal, among other insights, that including irrelevant documents can
+    
+[^3]: 通过具有分层正则化的医学代码中心的多模态对比EHR建模预测下次就诊诊断
+
+    Next Visit Diagnosis Prediction via Medical Code-Centric Multimodal Contrastive EHR Modelling with Hierarchical Regularisation. (arXiv:2401.11648v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2401.11648](http://arxiv.org/abs/2401.11648)
+
+    通过医学代码中心的多模态对比EHR建模预测下次就诊诊断，并通过分层正则化提高性能。
+
+    
+
+    在医疗保健中，利用电子健康记录（EHR）预测下次就诊的诊断是一项必要的任务，对于制定医疗保健提供者和患者的主动未来计划至关重要。然而，之前的许多研究并没有充分解决EHR数据固有的异构和分层特征，必然导致次优的性能。为此，我们提出了NECHO，一种新颖的医学代码中心的多模态对比EHR学习框架，其中包括分层正则化。首先，我们使用定制的网络设计和一对双模态对比损失融合涵盖医学代码、人口统计数据和临床笔记的多方面信息，所有这些都围绕着医学代码表现。我们还使用医学本体中的父级信息来规范特定模态的编码器，以学习EHR数据的层次结构。对MIMIC-III数据进行的一系列实验证明了我们方法的有效性。
+
+    Predicting next visit diagnosis using Electronic Health Records (EHR) is an essential task in healthcare, critical for devising proactive future plans for both healthcare providers and patients. Nonetheless, many preceding studies have not sufficiently addressed the heterogeneous and hierarchical characteristics inherent in EHR data, inevitably leading to sub-optimal performance. To this end, we propose NECHO, a novel medical code-centric multimodal contrastive EHR learning framework with hierarchical regularisation. First, we integrate multifaceted information encompassing medical codes, demographics, and clinical notes using a tailored network design and a pair of bimodal contrastive losses, all of which pivot around a medical code representation. We also regularise modality-specific encoders using a parental level information in medical ontology to learn hierarchical structure of EHR data. A series of experiments on MIMIC-III data demonstrates effectiveness of our approach.
     
 
