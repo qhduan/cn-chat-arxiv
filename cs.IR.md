@@ -2,52 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Unbiased Learning to Rank Meets Reality: Lessons from Baidu's Large-Scale Search Dataset](https://arxiv.org/abs/2404.02543) | 本研究从百度搜索引擎发布的大规模搜索数据集出发，探讨了无偏向学习排序技术在实际搜索引擎中的表现，发现与排名损失和查询-文档特征选择相比，ULTR技术并未带来明显的性能改进。 |
-| [^2] | [The Power of Noise: Redefining Retrieval for RAG Systems.](http://arxiv.org/abs/2401.14887) | 本研究通过分析和评估检索增强生成（RAG）系统中的信息检索（IR）组件，填补了目前研究中忽视的领域，在有效的RAG的提示表述中，不相关文档的包含可能会对系统性能产生负面影响。 |
-| [^3] | [Next Visit Diagnosis Prediction via Medical Code-Centric Multimodal Contrastive EHR Modelling with Hierarchical Regularisation.](http://arxiv.org/abs/2401.11648) | 通过医学代码中心的多模态对比EHR建模预测下次就诊诊断，并通过分层正则化提高性能。 |
+| [^1] | [Disaggregated Multi-Tower: Topology-aware Modeling Technique for Efficient Large-Scale Recommendation](https://arxiv.org/abs/2403.00877) | Disaggregated Multi-Tower提出了一种面向拓扑感知的建模技术，通过SPTT、TM和TP三个组件实现了高效的大规模推荐，加速性能提升了1.9倍。 |
+| [^2] | [Language Models As Semantic Indexers.](http://arxiv.org/abs/2310.07815) | 本文介绍了一种使用生成性语言模型学习语义ID的自监督框架LMINDEXER。 |
+| [^3] | [Large language models can accurately predict searcher preferences.](http://arxiv.org/abs/2309.10621) | 大型语言模型可以通过从真实用户那里获取高质量的第一方数据来准确预测搜索者的偏好。 |
 
 # 详细
 
-[^1]: 无偏向学习排序遇到现实：百度大规模搜索数据集的经验教训
+[^1]: Disaggregated Multi-Tower: 面向拓扑感知的高效大规模推荐建模技术
 
-    Unbiased Learning to Rank Meets Reality: Lessons from Baidu's Large-Scale Search Dataset
+    Disaggregated Multi-Tower: Topology-aware Modeling Technique for Efficient Large-Scale Recommendation
 
-    [https://arxiv.org/abs/2404.02543](https://arxiv.org/abs/2404.02543)
+    [https://arxiv.org/abs/2403.00877](https://arxiv.org/abs/2403.00877)
 
-    本研究从百度搜索引擎发布的大规模搜索数据集出发，探讨了无偏向学习排序技术在实际搜索引擎中的表现，发现与排名损失和查询-文档特征选择相比，ULTR技术并未带来明显的性能改进。
-
-    
-
-    无偏向学习排序（ULTR）是一个用于学习用户点击数据的成熟框架，而这些数据往往受收集数据的排名者的偏见影响。虽然在理论上得到证明并在模拟中进行了广泛测试，但ULTR技术缺乏经验验证，尤其是在现代搜索引擎中。百度搜索引擎发布的WSDM Cup 2023数据集为评估主要ULTR技术在真实世界中的表现提供了难得的机会。尽管在WSDM Cup 2023期间有多次提交，以及随后的NTCIR ULTRE-2任务，但目前还不清楚观察到的改进是否源自应用ULTR或其他学习技术。我们重新审视并扩展了现有实验。我们发现，无偏向学习排序技术并不能明显提升性能，尤其是与排名损失和查询-文档特征选择带来的明显差异相比。
-
-    arXiv:2404.02543v1 Announce Type: cross  Abstract: Unbiased learning-to-rank (ULTR) is a well-established framework for learning from user clicks, which are often biased by the ranker collecting the data. While theoretically justified and extensively tested in simulation, ULTR techniques lack empirical validation, especially on modern search engines. The dataset released for the WSDM Cup 2023, collected from Baidu's search engine, offers a rare opportunity to assess the real-world performance of prominent ULTR techniques. Despite multiple submissions during the WSDM Cup 2023 and the subsequent NTCIR ULTRE-2 task, it remains unclear whether the observed improvements stem from applying ULTR or other learning techniques. We revisit and extend the available experiments. We find that unbiased learning-to-rank techniques do not bring clear performance improvements, especially compared to the stark differences brought by the choice of ranking loss and query-document features. Our experiments 
-    
-[^2]: 噪声的力量：重新定义RAG系统的检索
-
-    The Power of Noise: Redefining Retrieval for RAG Systems. (arXiv:2401.14887v1 [cs.IR])
-
-    [http://arxiv.org/abs/2401.14887](http://arxiv.org/abs/2401.14887)
-
-    本研究通过分析和评估检索增强生成（RAG）系统中的信息检索（IR）组件，填补了目前研究中忽视的领域，在有效的RAG的提示表述中，不相关文档的包含可能会对系统性能产生负面影响。
+    Disaggregated Multi-Tower提出了一种面向拓扑感知的建模技术，通过SPTT、TM和TP三个组件实现了高效的大规模推荐，加速性能提升了1.9倍。
 
     
 
-    检索增强生成（RAG）系统相对于传统的大型语言模型（LLMs）代表了一个重大进步。RAG系统通过整合通过信息检索（IR）阶段检索的外部数据来增强其生成能力，克服了标准LLMs的限制，后者仅限于其预先训练的知识和有限的上下文窗口。这个领域的大部分研究主要集中在RAG系统内LLMs的生成方面。我们的研究填补了这一空白，通过全面而批判性地分析IR组件对RAG系统的影响。本文分析了一个检索器在有效的RAG的提示表述中应该具备的特征，重点关注应该检索哪种类型的文档。我们评估了各种因素，如文档与提示的相关性，它们的位置以及上下文中包含的数量。我们的发现揭示出，包含不相关的文档可能会…
+    我们研究了深度学习推荐模型的扁平架构、常见的分布式训练模式和分层数据中心拓扑之间的不匹配。为了解决相关的低效性，我们提出了Disaggregated Multi-Tower（DMT），这是一种建模技术，包括（1）语义保留的Tower Transform（SPTT），一个将单片全局嵌入查找过程分解为不相交塔以利用数据中心位置关系的新型训练模式；（2）Tower Module（TM），一个附加到每个塔的协同稠密组件，通过分层特征交互降低模型复杂性和通信量；和（3）Tower Partitioner（TP），一个特征分区器，系统地创建具有有意义特征交互和负载平衡分配的塔，通过学习的嵌入来保持模型质量和训练吞吐量。我们展示了DMT相比于最新的方法可以实现高达1.9倍的加速。
 
-    Retrieval-Augmented Generation (RAG) systems represent a significant advancement over traditional Large Language Models (LLMs). RAG systems enhance their generation ability by incorporating external data retrieved through an Information Retrieval (IR) phase, overcoming the limitations of standard LLMs, which are restricted to their pre-trained knowledge and limited context window. Most research in this area has predominantly concentrated on the generative aspect of LLMs within RAG systems. Our study fills this gap by thoroughly and critically analyzing the influence of IR components on RAG systems. This paper analyzes which characteristics a retriever should possess for an effective RAG's prompt formulation, focusing on the type of documents that should be retrieved. We evaluate various elements, such as the relevance of the documents to the prompt, their position, and the number included in the context. Our findings reveal, among other insights, that including irrelevant documents can
+    arXiv:2403.00877v1 Announce Type: new  Abstract: We study a mismatch between the deep learning recommendation models' flat architecture, common distributed training paradigm and hierarchical data center topology. To address the associated inefficiencies, we propose Disaggregated Multi-Tower (DMT), a modeling technique that consists of (1) Semantic-preserving Tower Transform (SPTT), a novel training paradigm that decomposes the monolithic global embedding lookup process into disjoint towers to exploit data center locality; (2) Tower Module (TM), a synergistic dense component attached to each tower to reduce model complexity and communication volume through hierarchical feature interaction; and (3) Tower Partitioner (TP), a feature partitioner to systematically create towers with meaningful feature interactions and load balanced assignments to preserve model quality and training throughput via learned embeddings. We show that DMT can achieve up to 1.9x speedup compared to the state-of-th
     
-[^3]: 通过具有分层正则化的医学代码中心的多模态对比EHR建模预测下次就诊诊断
+[^2]: 语言模型作为语义索引器
 
-    Next Visit Diagnosis Prediction via Medical Code-Centric Multimodal Contrastive EHR Modelling with Hierarchical Regularisation. (arXiv:2401.11648v2 [cs.LG] UPDATED)
+    Language Models As Semantic Indexers. (arXiv:2310.07815v1 [cs.IR])
 
-    [http://arxiv.org/abs/2401.11648](http://arxiv.org/abs/2401.11648)
+    [http://arxiv.org/abs/2310.07815](http://arxiv.org/abs/2310.07815)
 
-    通过医学代码中心的多模态对比EHR建模预测下次就诊诊断，并通过分层正则化提高性能。
+    本文介绍了一种使用生成性语言模型学习语义ID的自监督框架LMINDEXER。
 
     
 
-    在医疗保健中，利用电子健康记录（EHR）预测下次就诊的诊断是一项必要的任务，对于制定医疗保健提供者和患者的主动未来计划至关重要。然而，之前的许多研究并没有充分解决EHR数据固有的异构和分层特征，必然导致次优的性能。为此，我们提出了NECHO，一种新颖的医学代码中心的多模态对比EHR学习框架，其中包括分层正则化。首先，我们使用定制的网络设计和一对双模态对比损失融合涵盖医学代码、人口统计数据和临床笔记的多方面信息，所有这些都围绕着医学代码表现。我们还使用医学本体中的父级信息来规范特定模态的编码器，以学习EHR数据的层次结构。对MIMIC-III数据进行的一系列实验证明了我们方法的有效性。
+    语义标识符（ID）是信息检索中的一个重要概念，旨在保留对象（如文档和项）内部的语义。先前的研究通常采用两阶段流程来学习语义ID，首先使用现成的文本编码器获取嵌入，并根据嵌入来推导ID。然而，每个步骤都会引入潜在的信息损失，并且文本编码器生成的潜在空间内的嵌入分布通常与语义索引所需的预期分布存在固有的不匹配。然而，设计一个既能学习文档的语义表示又能同时学习其分层结构的方法并不容易，因为语义ID是离散和顺序结构的，并且语义监督是不充分的。在本文中，我们引入了LMINDEXER，它是一个自监督框架，用于使用生成性语言模型学习语义ID。
 
-    Predicting next visit diagnosis using Electronic Health Records (EHR) is an essential task in healthcare, critical for devising proactive future plans for both healthcare providers and patients. Nonetheless, many preceding studies have not sufficiently addressed the heterogeneous and hierarchical characteristics inherent in EHR data, inevitably leading to sub-optimal performance. To this end, we propose NECHO, a novel medical code-centric multimodal contrastive EHR learning framework with hierarchical regularisation. First, we integrate multifaceted information encompassing medical codes, demographics, and clinical notes using a tailored network design and a pair of bimodal contrastive losses, all of which pivot around a medical code representation. We also regularise modality-specific encoders using a parental level information in medical ontology to learn hierarchical structure of EHR data. A series of experiments on MIMIC-III data demonstrates effectiveness of our approach.
+    Semantic identifier (ID) is an important concept in information retrieval that aims to preserve the semantics of objects such as documents and items inside their IDs. Previous studies typically adopt a two-stage pipeline to learn semantic IDs by first procuring embeddings using off-the-shelf text encoders and then deriving IDs based on the embeddings. However, each step introduces potential information loss and there is usually an inherent mismatch between the distribution of embeddings within the latent space produced by text encoders and the anticipated distribution required for semantic indexing. Nevertheless, it is non-trivial to design a method that can learn the document's semantic representations and its hierarchical structure simultaneously, given that semantic IDs are discrete and sequentially structured, and the semantic supervision is deficient. In this paper, we introduce LMINDEXER, a self-supervised framework to learn semantic IDs with a generative language model. We tackl
+    
+[^3]: 大型语言模型能够准确预测搜索者的偏好
+
+    Large language models can accurately predict searcher preferences. (arXiv:2309.10621v1 [cs.IR])
+
+    [http://arxiv.org/abs/2309.10621](http://arxiv.org/abs/2309.10621)
+
+    大型语言模型可以通过从真实用户那里获取高质量的第一方数据来准确预测搜索者的偏好。
+
+    
+
+    相关性标签是评估和优化搜索系统的关键。获取大量相关性标签通常需要第三方标注人员，但存在低质量数据的风险。本论文介绍了一种改进标签质量的替代方法，通过从真实用户那里获得仔细反馈来获取高质量的第一方数据。
+
+    Relevance labels, which indicate whether a search result is valuable to a searcher, are key to evaluating and optimising search systems. The best way to capture the true preferences of users is to ask them for their careful feedback on which results would be useful, but this approach does not scale to produce a large number of labels. Getting relevance labels at scale is usually done with third-party labellers, who judge on behalf of the user, but there is a risk of low-quality data if the labeller doesn't understand user needs. To improve quality, one standard approach is to study real users through interviews, user studies and direct feedback, find areas where labels are systematically disagreeing with users, then educate labellers about user needs through judging guidelines, training and monitoring. This paper introduces an alternate approach for improving label quality. It takes careful feedback from real users, which by definition is the highest-quality first-party gold data that 
     
 
