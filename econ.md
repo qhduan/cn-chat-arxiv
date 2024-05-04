@@ -2,22 +2,9 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Identification with possibly invalid IVs.](http://arxiv.org/abs/2401.03990) | 本文提出了一种新的识别策略，通过使用准工具变量（准IVs）来识别模型。与传统的工具变量方法相比，使用互补的准IVs可以更容易找到。具体而言，通过结合一个被排除但可能内生的准IV和一个外生但可能被包含的准IV，可以实现识别。这种方法在处理离散或连续内生处理的模型上具有广泛适用性。 |
+
 
 # 详细
 
-[^1]: 可能无效工具变量下的识别
 
-    Identification with possibly invalid IVs. (arXiv:2401.03990v1 [econ.EM])
-
-    [http://arxiv.org/abs/2401.03990](http://arxiv.org/abs/2401.03990)
-
-    本文提出了一种新的识别策略，通过使用准工具变量（准IVs）来识别模型。与传统的工具变量方法相比，使用互补的准IVs可以更容易找到。具体而言，通过结合一个被排除但可能内生的准IV和一个外生但可能被包含的准IV，可以实现识别。这种方法在处理离散或连续内生处理的模型上具有广泛适用性。
-
-    
-
-    本文提出了一种新颖的识别策略，依赖于准工具变量（准IVs）。准IV是一个相关但可能无效的IV，因为它并非完全外生和/或被排除在外。我们展示了在两个互补的准IV共同相关的条件下，可以识别一系列具有离散或连续内生处理的模型。这些模型通常通过IV实现识别，例如具有秩不变性的分位数模型，具有齐次处理效应的加法模型和局部平均处理效应模型。为了实现识别，我们将一个被排除但可能是内生的准IV（例如“相关代理”，如先前的处理选择）与一个外生的（在被排除的准IV条件下）但可能被包含的准IV（例如随机分配或外生市场冲击）结合起来。在实践中，我们的识别策略应该更具吸引力，因为互补准IV比标准IV更容易找到。我们的方法还具有……
-
-    This paper proposes a novel identification strategy relying on quasi-instrumental variables (quasi-IVs). A quasi-IV is a relevant but possibly invalid IV because it is not completely exogenous and/or excluded. We show that a variety of models with discrete or continuous endogenous treatment, which are usually identified with an IV - quantile models with rank invariance additive models with homogenous treatment effects, and local average treatment effect models - can be identified under the joint relevance of two complementary quasi-IVs instead. To achieve identification we complement one excluded but possibly endogenous quasi-IV (e.g., ``relevant proxies'' such as previous treatment choice) with one exogenous (conditional on the excluded quasi-IV) but possibly included quasi-IV (e.g., random assignment or exogenous market shocks). In practice, our identification strategy should be attractive since complementary quasi-IVs should be easier to find than standard IVs. Our approach also hol
-    
 
