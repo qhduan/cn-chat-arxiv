@@ -2,52 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [On Improved Semi-parametric Bounds for Tail Probability and Expected Loss](https://arxiv.org/abs/2404.02400) | 本研究提出了对累积随机实现的尾部概率和期望线性损失的新的更尖锐界限，这些界限在基础分布半参数的情况下不受限制，补充了已有的结果，开辟了丰富的实际应用。 |
-| [^2] | [Causal Effects in Matching Mechanisms with Strategically Reported Preferences.](http://arxiv.org/abs/2307.14282) | 本文提供一种考虑了策略性误报的因果效应识别方法，可以对学校分配对未来结果产生的影响进行准确度量。我们的方法适用于各种机制，并能够得到对策略行为鲁棒的因果效应的尖锐边界。 |
-| [^3] | [Online Learning of Order Flow and Market Impact with Bayesian Change-Point Detection Methods.](http://arxiv.org/abs/2307.02375) | 本文提出了使用贝叶斯变点检测方法识别实时订单流变化的方法，并通过开发一种新的BOCPD方法，可以更准确地预测订单流和市场影响。实证结果表明，我们的模型在样本外预测性能上优于现有模型。 |
+| [^1] | [Partial Identification of Individual-Level Parameters Using Aggregate Data in a Nonparametric Binary Outcome Model](https://arxiv.org/abs/2403.07236) | 本文提出了一种方法，在已被聚合的数据中部分识别出二值结果模型中的个体水平参数，同时尽可能少地对数据生成过程施加限制。 |
+| [^2] | [Unveiling the Interplay between Central Bank Digital Currency and Bank Deposits.](http://arxiv.org/abs/2308.10359) | 本研究分析了中央银行数字货币（CBDC）引入后对金融稳定性的风险。当CBDC和存款完全可替代时，中央银行可以通过提供贷款来中性化CBDC的影响，贷款利率取决于抵押约束的严格程度。然而，当CBDC和存款不完全可替代时，中央银行无法使银行对来自CBDC的竞争无所适从。 |
+| [^3] | [Inference in Predictive Quantile Regressions.](http://arxiv.org/abs/2306.00296) | 研究当预测回归变量具有近似单位根时，预测分位数回归的推断问题, 并提出一种完全修正的预测测试方法, 在小样本下有可靠的大小，并在预测回归问题最为严重时具有很好的功效。 |
+| [^4] | [A Theory of Rational Housing Bubbles with Phase Transitions.](http://arxiv.org/abs/2303.11365) | 本研究针对观察到的租售价格比存在断层现象，通过交叉世代模型证明，在购房者收入增加时，经济体呈现出从基本面到基本面和泡沫平衡的相变，当购房者收入更高时，泡沫变得不可避免，存在基于预期推动的房地产繁荣和崩溃，并且固有基本面均衡是低效的。 |
 
 # 详细
 
-[^1]: 关于累积随机实现的尾部概率和期望损失的改进半参数界限
+[^1]: 在非参数二值结果模型中使用聚合数据部分识别个体水平参数
 
-    On Improved Semi-parametric Bounds for Tail Probability and Expected Loss
+    Partial Identification of Individual-Level Parameters Using Aggregate Data in a Nonparametric Binary Outcome Model
 
-    [https://arxiv.org/abs/2404.02400](https://arxiv.org/abs/2404.02400)
+    [https://arxiv.org/abs/2403.07236](https://arxiv.org/abs/2403.07236)
 
-    本研究提出了对累积随机实现的尾部概率和期望线性损失的新的更尖锐界限，这些界限在基础分布半参数的情况下不受限制，补充了已有的结果，开辟了丰富的实际应用。
-
-    
-
-    我们重新审视了当个别实现是独立的时，累积随机实现的尾部行为的基本问题，并在半参数的基础分布未受限制的情况下，开发了对尾部概率和期望线性损失的新的更尖锐的界限。我们的尖锐界限很好地补充了文献中已经建立的结果，包括基于聚合的方法，后者经常未能充分考虑独立性并使用不够优雅的证明。新的见解包括在非相同情况下的证明，达到界限的分布具有相等的范围属性，并且每个随机变量对总和的期望值的影响可以通过对Korkine恒等式的推广来孤立出来。我们表明，新的界限不仅补充了现有结果，而且开拓了大量的实际应用，包括改进定价。
-
-    arXiv:2404.02400v1 Announce Type: new  Abstract: We revisit the fundamental issue of tail behavior of accumulated random realizations when individual realizations are independent, and we develop new sharper bounds on the tail probability and expected linear loss. The underlying distribution is semi-parametric in the sense that it remains unrestricted other than the assumed mean and variance. Our sharp bounds complement well-established results in the literature, including those based on aggregation, which often fail to take full account of independence and use less elegant proofs. New insights include a proof that in the non-identical case, the distributions attaining the bounds have the equal range property, and that the impact of each random variable on the expected value of the sum can be isolated using an extension of the Korkine identity. We show that the new bounds not only complement the extant results but also open up abundant practical applications, including improved pricing 
-    
-[^2]: 匹配机制中的因果效应与策略性报告偏好
-
-    Causal Effects in Matching Mechanisms with Strategically Reported Preferences. (arXiv:2307.14282v1 [econ.EM])
-
-    [http://arxiv.org/abs/2307.14282](http://arxiv.org/abs/2307.14282)
-
-    本文提供一种考虑了策略性误报的因果效应识别方法，可以对学校分配对未来结果产生的影响进行准确度量。我们的方法适用于各种机制，并能够得到对策略行为鲁棒的因果效应的尖锐边界。
+    本文提出了一种方法，在已被聚合的数据中部分识别出二值结果模型中的个体水平参数，同时尽可能少地对数据生成过程施加限制。
 
     
 
-    越来越多的中央机构使用分配机制将学生分配到学校，以反映学生的偏好和学校的优先权。然而，大多数现实世界的机制会给学生提供一种策略性并误报他们的偏好的激励。在本文中，我们提供了一种识别因果效应的方法，该方法考虑了策略性的误报。误报可能使现有的点识别方法无效，我们推导出对策略行为鲁棒的因果效应的尖锐边界。我们的方法适用于任何机制，只要存在描述该机制分配规则的配对分数和截点。我们使用智利一个延迟接受机制的数据，该机制将学生分配到1000多个大学专业组合。学生出于策略考虑而行动，因为智利的机制限制了学生在偏好中提交的专业数量为八个。
+    众所周知，个体水平变量之间的关系可能与对这些变量进行聚合后得到的关系不同。当研究人员希望了解个体水平关系但只能获得已被聚合的数据时，聚合问题变得相关。本文提出了一种方法，从聚合数据中部分识别出条件平均结果的线性组合，当感兴趣的结果是二值时，同时对潜在数据生成过程施加尽可能少的限制。我使用允许研究人员施加额外形状限制的优化程序构建了鉴别集。我还提供了一致性结果并构建了一种推论程序，该程序在只提供有关每个变量的边际信息的聚合数据中是有效的。我将该方法应用于模拟和实际数据。
 
-    A growing number of central authorities use assignment mechanisms to allocate students to schools in a way that reflects student preferences and school priorities. However, most real-world mechanisms give students an incentive to be strategic and misreport their preferences. In this paper, we provide an identification approach for causal effects of school assignment on future outcomes that accounts for strategic misreporting. Misreporting may invalidate existing point-identification approaches, and we derive sharp bounds for causal effects that are robust to strategic behavior. Our approach applies to any mechanism as long as there exist placement scores and cutoffs that characterize that mechanism's allocation rule. We use data from a deferred acceptance mechanism that assigns students to more than 1,000 university-major combinations in Chile. Students behave strategically because the mechanism in Chile constrains the number of majors that students submit in their preferences to eight
+    arXiv:2403.07236v1 Announce Type: new  Abstract: It is well known that the relationship between variables at the individual level can be different from the relationship between those same variables aggregated over individuals. This problem of aggregation becomes relevant when the researcher wants to learn individual-level relationships, but only has access to data that has been aggregated. In this paper, I develop a methodology to partially identify linear combinations of conditional average outcomes from aggregate data when the outcome of interest is binary, while imposing as few restrictions on the underlying data generating process as possible. I construct identified sets using an optimization program that allows for researchers to impose additional shape restrictions. I also provide consistency results and construct an inference procedure that is valid with aggregate data, which only provides marginal information about each variable. I apply the methodology to simulated and real-wo
     
-[^3]: 在线学习订单流与市场影响的贝叶斯变点检测方法
+[^2]: 揭示中央银行数字货币与银行存款之间的相互作用
 
-    Online Learning of Order Flow and Market Impact with Bayesian Change-Point Detection Methods. (arXiv:2307.02375v1 [q-fin.TR])
+    Unveiling the Interplay between Central Bank Digital Currency and Bank Deposits. (arXiv:2308.10359v1 [econ.TH])
 
-    [http://arxiv.org/abs/2307.02375](http://arxiv.org/abs/2307.02375)
+    [http://arxiv.org/abs/2308.10359](http://arxiv.org/abs/2308.10359)
 
-    本文提出了使用贝叶斯变点检测方法识别实时订单流变化的方法，并通过开发一种新的BOCPD方法，可以更准确地预测订单流和市场影响。实证结果表明，我们的模型在样本外预测性能上优于现有模型。
+    本研究分析了中央银行数字货币（CBDC）引入后对金融稳定性的风险。当CBDC和存款完全可替代时，中央银行可以通过提供贷款来中性化CBDC的影响，贷款利率取决于抵押约束的严格程度。然而，当CBDC和存款不完全可替代时，中央银行无法使银行对来自CBDC的竞争无所适从。
 
     
 
-    金融订单流表现出明显的持久性，买入（卖出）交易常常会在一定时间段后跟随着进一步的买入（卖出）交易。这种持久性可以归因于大订单的划分和逐步执行。因此，可能会出现不同的订单流模式，可以通过适用于市场数据的适当时间序列模型来识别。在本文中，我们提出了使用贝叶斯在线变点检测（BOCPD）方法来实时识别制度性转变，并实现订单流和市场影响的在线预测。为了提高我们方法的有效性，我们开发了一种使用评分驱动方法的新型BOCPD方法。该方法适应每个制度内的时间相关性和时间变化参数。通过对纳斯达克数据的实证应用，我们发现：（i）我们新提出的模型展示出优于现有假设独立同分布的模型的样本外预测性能。
+    我们扩展了Niepelt（2022年）的实际商业周期模型，分析引入中央银行数字货币（CBDC）后面临的金融稳定风险。CBDC与商业银行存款竞争，成为家庭的流动性来源。我们考虑了支付工具之间的不同可替代性程度，并通过引入银行从中央银行借款时必须遵守的抵押约束来审查Niepelt（2022年）中的等价结果。当CBDC和存款完全可替代时，中央银行可以向银行提供贷款，使引入CBDC对实体经济中性。我们表明，中央银行的贷款利率的最优水平取决于抵押约束的限制性程度：抵押约束越严格，中央银行需要发布的贷款利率越低。然而，当CBDC和存款不完全可替代时，中央银行无法使银行对来自CBDC的竞争无所适从。因此，引入CBDC后将出现负面影响。
 
-    Financial order flow exhibits a remarkable level of persistence, wherein buy (sell) trades are often followed by subsequent buy (sell) trades over extended periods. This persistence can be attributed to the division and gradual execution of large orders. Consequently, distinct order flow regimes might emerge, which can be identified through suitable time series models applied to market data. In this paper, we propose the use of Bayesian online change-point detection (BOCPD) methods to identify regime shifts in real-time and enable online predictions of order flow and market impact. To enhance the effectiveness of our approach, we have developed a novel BOCPD method using a score-driven approach. This method accommodates temporal correlations and time-varying parameters within each regime. Through empirical application to NASDAQ data, we have found that: (i) Our newly proposed model demonstrates superior out-of-sample predictive performance compared to existing models that assume i.i.d.
+    We extend the Real Business Cycle model in Niepelt (2022) to analyze the risk to financial stability following the introduction of a central bank digital currency (CBDC). CBDC competes with commercial bank deposits as households' source of liquidity. We consider different degrees of substitutability between payment instruments and review the equivalence result in Niepelt (2022) by introducing a collateral constraint banks must respect when borrowing from the central bank. When CBDC and deposits are perfect substitutes, the central bank can offer loans to banks that render the introduction of CBDC neutral to the real economy. We show that the optimal level of the central bank's lending rate depends on the restrictiveness of the collateral constraint: the tighter it is, the lower the loan rate the central bank needs to post. However, when CBDC and deposits are imperfect substitutes, the central bank cannot make banks indifferent to the competition from CBDC. It follows that the introduct
+    
+[^3]: 预测分位数回归中的推断
+
+    Inference in Predictive Quantile Regressions. (arXiv:2306.00296v1 [econ.EM])
+
+    [http://arxiv.org/abs/2306.00296](http://arxiv.org/abs/2306.00296)
+
+    研究当预测回归变量具有近似单位根时，预测分位数回归的推断问题, 并提出一种完全修正的预测测试方法, 在小样本下有可靠的大小，并在预测回归问题最为严重时具有很好的功效。
+
+    
+
+    本文研究了当预测回归变量具有近似单位根时，预测分位数回归的推断问题。我们通过奥恩斯坦-乌伦贝克过程的函数推导出了分位数回归估计量及其异方差性和自相关一致（HAC）t统计量的渐近分布。然后，我们提出了一种完全修正的预测测试方法，用于具有持续回归变量的分位预测性。当预测变量具有近似单位根时，所提出的测试采用了FM风格修正，并在局部到单位性参数上使用Bonferroni边界。当预测变量的最大根在平稳范围内时，它会切换到具有稍微保守临界值的标准预测分位数回归测试。模拟结果表明，该测试在小样本下有可靠的大小，并在预测回归问题最为严重时，即预测变量是持久性和内生性时具有很好的功效。我们采用这种新的方法论来分析一个实际的数据集。
+
+    This paper studies inference in predictive quantile regressions when the predictive regressor has a near-unit root. We derive asymptotic distributions for the quantile regression estimator and its heteroskedasticity and autocorrelation consistent (HAC) t-statistic in terms of functionals of Ornstein-Uhlenbeck processes. We then propose a switching-fully modified (FM) predictive test for quantile predictability with persistent regressors. The proposed test employs an FM style correction with a Bonferroni bound for the local-to-unity parameter when the predictor has a near unit root. It switches to a standard predictive quantile regression test with a slightly conservative critical value when the largest root of the predictor lies in the stationary range. Simulations indicate that the test has reliable size in small samples and particularly good power when the predictor is persistent and endogenous, i.e., when the predictive regression problem is most acute. We employ this new methodolog
+    
+[^4]: 有关具有相变的理性房地产泡沫的理论
+
+    A Theory of Rational Housing Bubbles with Phase Transitions. (arXiv:2303.11365v1 [econ.TH])
+
+    [http://arxiv.org/abs/2303.11365](http://arxiv.org/abs/2303.11365)
+
+    本研究针对观察到的租售价格比存在断层现象，通过交叉世代模型证明，在购房者收入增加时，经济体呈现出从基本面到基本面和泡沫平衡的相变，当购房者收入更高时，泡沫变得不可避免，存在基于预期推动的房地产繁荣和崩溃，并且固有基本面均衡是低效的。
+
+    
+
+    根据实证观察到的租售价格比，表明基本面与房价存在断层。本文在一个存在完美住房和租赁市场的交叉世代模型中分析平衡的房价。我们证明经济体呈现出二阶段相变：随着购房者收入的增加，平衡制度从仅基本面到基本面和泡沫平衡共存发生了转变。当购房者收入更高时，基本面均衡消失，房地产泡沫变得不可避免。包含泡沫的预期推动房地产繁荣以及它们的崩溃可能会发生。与广为人知的相反，尽管房产是一种生产性的不可再生资产，但固有基本面均衡是低效的。
+
+    Empirically observed rent-price ratios suggest a disconnection between fundamentals and prices. We analyze equilibrium housing prices in an overlapping generations model with perfect housing and rental markets. We prove that the economy exhibits a two-stage phase transition: as the income of home buyers rises, the equilibrium regime changes from fundamental only to coexistence of fundamental and bubbly equilibria. With even higher incomes, fundamental equilibria disappear and housing bubbles become inevitable. Expectation-driven housing booms containing a bubble and their collapse can occur. Contrary to widely-held beliefs, fundamental equilibria in the coexistence region are inefficient despite housing being a productive non-reproducible asset.
     
 
