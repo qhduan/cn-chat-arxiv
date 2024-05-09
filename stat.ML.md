@@ -2,97 +2,112 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Chain of Thought Empowers Transformers to Solve Inherently Serial Problems](https://arxiv.org/abs/2402.12875) | 思维链赋予变压器模型执行固有串行计算的能力，提高了变压器在算术和符号推理任务中的准确性。 |
-| [^2] | [Misspecification uncertainties in near-deterministic regression](https://arxiv.org/abs/2402.01810) | 该论文研究了近确定性回归中错误规范化的不确定性问题，并提出了一种组合模型，以准确预测和控制参数不确定性。 |
-| [^3] | [Scalable network reconstruction in subquadratic time.](http://arxiv.org/abs/2401.01404) | 这篇论文提出了一个可扩展的网络重建算法，能够在次二次时间内实现结果，通过随机的二阶邻居搜索产生最佳的边候选。 |
-| [^4] | [Bayesian Quantile Regression with Subset Selection: A Posterior Summarization Perspective.](http://arxiv.org/abs/2311.02043) | 本研究提出了一种基于贝叶斯决策分析的方法，对于任何贝叶斯回归模型，可以得到每个条件分位数的最佳和可解释的线性估计值和不确定性量化。该方法是一种适用于特定分位数子集选择的有效工具。 |
-| [^5] | [MLP-Mixer as a Wide and Sparse MLP.](http://arxiv.org/abs/2306.01470) | 深度学习中常用的MLP有潜力提高性能。本研究揭示MLP-Mixer 可以作为具有稀疏权重的宽MLP有效地工作。 |
-| [^6] | [The Projected Covariance Measure for assumption-lean variable significance testing.](http://arxiv.org/abs/2211.02039) | 该论文介绍了一种假设简约的变量重要性检验方法，利用非参数或机器学习方法实现稳健的误差控制和高功效。 |
+| [^1] | [Sensitivity-Aware Amortized Bayesian Inference.](http://arxiv.org/abs/2310.11122) | 本文提出了一种敏感性感知的摊销贝叶斯推断方法，通过权重共享和神经网络来进行似然和先验规范的训练，以及对数据扰动和预处理程序的敏感性评估。 |
+| [^2] | [Contextualized Policy Recovery: Modeling and Interpreting Medical Decisions with Adaptive Imitation Learning.](http://arxiv.org/abs/2310.07918) | 本论文提出了一种上下文化政策恢复方法用于建模复杂的医疗决策过程，以解决现有模型在准确性和可解释性之间的权衡问题。该方法将决策策略拆分为上下文特定策略，通过多任务学习来实现建模，并提供复杂行为的简洁描述。 |
+| [^3] | [Bayesian taut splines for estimating the number of modes.](http://arxiv.org/abs/2307.05825) | 本研究提出了一种贝叶斯紧系数样条方法，用于估计概率密度函数中模式的数量。该方法结合了核估计器和组合样条，实现了特征探索、模型选择和模式检验，并允许引入专家判断。通过在体育分析中的案例研究中的验证，证明了该方法的实用性。 |
+| [^4] | [Entropic covariance models.](http://arxiv.org/abs/2306.03590) | 本文提出了一个通用的线性约束协方差矩阵变换的框架，并提出了一种估计方法，解决了一个凸问题，允许相对简单的渐近性和有限样本分析。研究的重点是关于建模相关矩阵和稀疏性方面的内容。 |
+| [^5] | [A Study of Bayesian Neural Network Surrogates for Bayesian Optimization.](http://arxiv.org/abs/2305.20028) | 本文研究贝叶斯神经网络替代高斯过程模型作为贝叶斯优化中的代理模型，并在多个基准问题上证明了其优于标准GP代理的能力。 |
+| [^6] | [StepMix: A Python Package for Pseudo-Likelihood Estimation of Generalized Mixture Models with External Variables.](http://arxiv.org/abs/2304.03853) | StepMix是一个用于外部变量广义混合模型的伪似然估计的Python包，提供了单步和逐步估计方法，帮助从业人员进行模型估计、选择和解释。 |
+| [^7] | [Investigating the Impact of Model Width and Density on Generalization in Presence of Label Noise.](http://arxiv.org/abs/2208.08003) | 本文研究发现标签噪声会导致双丘降曲线出现“最终上升”，即在足够大的噪声样本比率下，中等宽度下实现最佳泛化性能。随机丢弃可训练参数来减少密度可在标签噪声下改善泛化性能。 |
 
 # 详细
 
-[^1]: 思维链激发变压器解决固有串行问题的能力
+[^1]: 敏感性感知的摊销贝叶斯推断
 
-    Chain of Thought Empowers Transformers to Solve Inherently Serial Problems
+    Sensitivity-Aware Amortized Bayesian Inference. (arXiv:2310.11122v1 [stat.ML])
 
-    [https://arxiv.org/abs/2402.12875](https://arxiv.org/abs/2402.12875)
+    [http://arxiv.org/abs/2310.11122](http://arxiv.org/abs/2310.11122)
 
-    思维链赋予变压器模型执行固有串行计算的能力，提高了变压器在算术和符号推理任务中的准确性。
-
-    
-
-    指导模型生成一系列中间步骤，即思维链（CoT），是提高大型语言模型（LLMs）在算术和符号推理任务上准确性的高效方法。然而，CoT背后的机制仍不清楚。这项工作通过表达性的视角提供了对解码器专用变压器的CoT能力的理论理解。在概念上，CoT赋予模型执行固有串行计算的能力，而这种能力在变压器中缺乏，特别是当深度较低时。先前的作品已经表明，在没有CoT的情况下，具有有限精度$\mathsf{poly}(n)$嵌入尺寸的恒定深度变压器只能在$\mathsf{TC}^0$中解决问题。我们首先展示了具有常数位精度的恒定深度变压器的更紧密的表达性上界，它只能解决$\mathsf{AC}^0$中的问题。
-
-    arXiv:2402.12875v1 Announce Type: new  Abstract: Instructing the model to generate a sequence of intermediate steps, a.k.a., a chain of thought (CoT), is a highly effective method to improve the accuracy of large language models (LLMs) on arithmetics and symbolic reasoning tasks. However, the mechanism behind CoT remains unclear. This work provides a theoretical understanding of the power of CoT for decoder-only transformers through the lens of expressiveness. Conceptually, CoT empowers the model with the ability to perform inherently serial computation, which is otherwise lacking in transformers, especially when depth is low. Given input length $n$, previous works have shown that constant-depth transformers with finite precision $\mathsf{poly}(n)$ embedding size can only solve problems in $\mathsf{TC}^0$ without CoT. We first show an even tighter expressiveness upper bound for constant-depth transformers with constant-bit precision, which can only solve problems in $\mathsf{AC}^0$, a 
-    
-[^2]: 近确定性回归中的错误规范化不确定性
-
-    Misspecification uncertainties in near-deterministic regression
-
-    [https://arxiv.org/abs/2402.01810](https://arxiv.org/abs/2402.01810)
-
-    该论文研究了近确定性回归中错误规范化的不确定性问题，并提出了一种组合模型，以准确预测和控制参数不确定性。
+    本文提出了一种敏感性感知的摊销贝叶斯推断方法，通过权重共享和神经网络来进行似然和先验规范的训练，以及对数据扰动和预处理程序的敏感性评估。
 
     
 
-    期望损失是模型泛化误差的上界，可用于学习的鲁棒PAC-Bayes边界。然而，损失最小化被认为忽略了错误规范化，即模型不能完全复制观测结果。这导致大数据或欠参数化极限下对参数不确定性的显著低估。我们分析近确定性、错误规范化和欠参数化替代模型的泛化误差，这是科学和工程中广泛相关的一个领域。我们证明后验分布必须覆盖每个训练点，以避免发散的泛化误差，并导出一个符合这个约束的组合模型。对于线性模型，这种高效的方法产生的额外开销最小。这种高效方法在模型问题上进行了演示，然后应用于原子尺度机器学习中的高维数据集。
+    贝叶斯推断是在不确定性下进行概率推理和决策的强大框架。现代贝叶斯工作流程中的基本选择涉及似然函数和先验分布的规范、后验逼近器和数据。每个选择都可以显着影响基于模型的推断和后续决策，因此需要进行敏感性分析。在这项工作中，我们提出了一种多方面的方法，将敏感性分析整合到摊销贝叶斯推断（ABI，即基于神经网络的模拟推断）中。首先，我们利用权重共享在训练过程中编码替代似然和先验规范之间的结构相似性，以最小的计算开销。其次，我们利用神经网络的快速推断来评估对各种数据扰动或预处理程序的敏感性。与大多数其他贝叶斯方法相比，这两个步骤都避免了昂贵的计算。
 
-    The expected loss is an upper bound to the model generalization error which admits robust PAC-Bayes bounds for learning. However, loss minimization is known to ignore misspecification, where models cannot exactly reproduce observations. This leads to significant underestimates of parameter uncertainties in the large data, or underparameterized, limit. We analyze the generalization error of near-deterministic, misspecified and underparametrized surrogate models, a regime of broad relevance in science and engineering. We show posterior distributions must cover every training point to avoid a divergent generalization error and derive an ensemble {ansatz} that respects this constraint, which for linear models incurs minimal overhead. The efficient approach is demonstrated on model problems before application to high dimensional datasets in atomistic machine learning. Parameter uncertainties from misspecification survive in the underparametrized limit, giving accurate prediction and boundin
+    Bayesian inference is a powerful framework for making probabilistic inferences and decisions under uncertainty. Fundamental choices in modern Bayesian workflows concern the specification of the likelihood function and prior distributions, the posterior approximator, and the data. Each choice can significantly influence model-based inference and subsequent decisions, thereby necessitating sensitivity analysis. In this work, we propose a multifaceted approach to integrate sensitivity analyses into amortized Bayesian inference (ABI, i.e., simulation-based inference with neural networks). First, we utilize weight sharing to encode the structural similarities between alternative likelihood and prior specifications in the training process with minimal computational overhead. Second, we leverage the rapid inference of neural networks to assess sensitivity to various data perturbations or pre-processing procedures. In contrast to most other Bayesian approaches, both steps circumvent the costly
     
-[^3]: 可扩展的子二次时间网络重建
+[^2]: 上下文化政策恢复：通过自适应模仿学习对医疗决策进行建模和解释
 
-    Scalable network reconstruction in subquadratic time. (arXiv:2401.01404v1 [cs.DS])
+    Contextualized Policy Recovery: Modeling and Interpreting Medical Decisions with Adaptive Imitation Learning. (arXiv:2310.07918v1 [cs.LG])
 
-    [http://arxiv.org/abs/2401.01404](http://arxiv.org/abs/2401.01404)
+    [http://arxiv.org/abs/2310.07918](http://arxiv.org/abs/2310.07918)
 
-    这篇论文提出了一个可扩展的网络重建算法，能够在次二次时间内实现结果，通过随机的二阶邻居搜索产生最佳的边候选。
-
-    
-
-    网络重建是指在只有关于条件偶联的观测数据，例如时间序列或图模型的独立样本的情况下，确定N个节点之间未观测到的成对耦合。针对这个问题提出的算法的可扩展性的主要障碍是似乎无法避免的二次复杂度O(N^2)，即要考虑每种可能的成对耦合至少一次，尽管大多数感兴趣的网络都是稀疏的，非零耦合的数量只有O(N)。在这里，我们提出了一个适用于广泛重建问题的通用算法，其在子二次时间内实现结果，其数据相关复杂度宽松上界为O(N^(3/2)logN)，但具有更典型的对数线性复杂度O(Nlog^2 N)。我们的算法依赖于一个随机的二阶邻居搜索，产生了最佳的边候选。
-
-    Network reconstruction consists in determining the unobserved pairwise couplings between $N$ nodes given only observational data on the resulting behavior that is conditioned on those couplings -- typically a time-series or independent samples from a graphical model. A major obstacle to the scalability of algorithms proposed for this problem is a seemingly unavoidable quadratic complexity of $O(N^2)$, corresponding to the requirement of each possible pairwise coupling being contemplated at least once, despite the fact that most networks of interest are sparse, with a number of non-zero couplings that is only $O(N)$. Here we present a general algorithm applicable to a broad range of reconstruction problems that achieves its result in subquadratic time, with a data-dependent complexity loosely upper bounded by $O(N^{3/2}\log N)$, but with a more typical log-linear complexity of $O(N\log^2N)$. Our algorithm relies on a stochastic second neighbor search that produces the best edge candidat
-    
-[^4]: 基于子集选择的贝叶斯分位回归：后验总结视角
-
-    Bayesian Quantile Regression with Subset Selection: A Posterior Summarization Perspective. (arXiv:2311.02043v1 [stat.ME])
-
-    [http://arxiv.org/abs/2311.02043](http://arxiv.org/abs/2311.02043)
-
-    本研究提出了一种基于贝叶斯决策分析的方法，对于任何贝叶斯回归模型，可以得到每个条件分位数的最佳和可解释的线性估计值和不确定性量化。该方法是一种适用于特定分位数子集选择的有效工具。
+    本论文提出了一种上下文化政策恢复方法用于建模复杂的医疗决策过程，以解决现有模型在准确性和可解释性之间的权衡问题。该方法将决策策略拆分为上下文特定策略，通过多任务学习来实现建模，并提供复杂行为的简洁描述。
 
     
 
-    分位回归是一种强大的工具，用于推断协变量如何影响响应分布的特定分位数。现有方法要么分别估计每个感兴趣分位数的条件分位数，要么使用半参数或非参数模型估计整个条件分布。前者经常产生不适合实际数据的模型，并且不在分位数之间共享信息，而后者则以复杂且受限制的模型为特点，难以解释和计算效率低下。此外，这两种方法都不适合于特定分位数的子集选择。相反，我们从贝叶斯决策分析的角度出发，提出了线性分位估计、不确定性量化和子集选择的基本问题。对于任何贝叶斯回归模型，我们为每个基于模型的条件分位数推导出最佳和可解释的线性估计值和不确定性量化。我们的方法引入了一种分位数聚焦的方法。
+    可解释的策略学习旨在从观察到的行为中估计可理解的决策策略；然而，现有模型在准确性和可解释性之间存在权衡。这种权衡限制了基于数据驱动的对人类决策过程的解释，例如，审计医疗决策的偏见和次优实践，我们需要决策过程的模型，能够提供复杂行为的简洁描述。现有方法基本上由于将潜在决策过程表示为通用策略而负担了这种权衡，而实际上人类决策是动态的，可以随上下文信息而大幅改变。因此，我们提出了上下文化政策恢复（CPR），将建模复杂决策过程的问题重新定义为多任务学习问题，其中复杂决策策略由特定上下文的策略组成。CPR将每个上下文特定策略建模为线性的观察-动作映射
 
-    Quantile regression is a powerful tool for inferring how covariates affect specific percentiles of the response distribution. Existing methods either estimate conditional quantiles separately for each quantile of interest or estimate the entire conditional distribution using semi- or non-parametric models. The former often produce inadequate models for real data and do not share information across quantiles, while the latter are characterized by complex and constrained models that can be difficult to interpret and computationally inefficient. Further, neither approach is well-suited for quantile-specific subset selection. Instead, we pose the fundamental problems of linear quantile estimation, uncertainty quantification, and subset selection from a Bayesian decision analysis perspective. For any Bayesian regression model, we derive optimal and interpretable linear estimates and uncertainty quantification for each model-based conditional quantile. Our approach introduces a quantile-focu
+    Interpretable policy learning seeks to estimate intelligible decision policies from observed actions; however, existing models fall short by forcing a tradeoff between accuracy and interpretability. This tradeoff limits data-driven interpretations of human decision-making process. e.g. to audit medical decisions for biases and suboptimal practices, we require models of decision processes which provide concise descriptions of complex behaviors. Fundamentally, existing approaches are burdened by this tradeoff because they represent the underlying decision process as a universal policy, when in fact human decisions are dynamic and can change drastically with contextual information. Thus, we propose Contextualized Policy Recovery (CPR), which re-frames the problem of modeling complex decision processes as a multi-task learning problem in which complex decision policies are comprised of context-specific policies. CPR models each context-specific policy as a linear observation-to-action mapp
     
-[^5]: MLP-Mixer作为宽且稀疏的MLP
+[^3]: 贝叶斯紧系数样条估计模式的数量
 
-    MLP-Mixer as a Wide and Sparse MLP. (arXiv:2306.01470v1 [cs.LG])
+    Bayesian taut splines for estimating the number of modes. (arXiv:2307.05825v1 [stat.ME])
 
-    [http://arxiv.org/abs/2306.01470](http://arxiv.org/abs/2306.01470)
+    [http://arxiv.org/abs/2307.05825](http://arxiv.org/abs/2307.05825)
 
-    深度学习中常用的MLP有潜力提高性能。本研究揭示MLP-Mixer 可以作为具有稀疏权重的宽MLP有效地工作。
-
-    
-
-    多层感知器(MLP)是深度学习中被广泛应用于多种问题的基础组件。然而，最近基于MLP的架构(特别是MLP-Mixer)的实证成功表明，提高MLP的性能仍具有潜在的潜力。在本研究中，我们发现MLP-Mixer有效地作为具有某些稀疏权重的宽MLP。最初，我们澄清Mixer的混合层可以作为具有稀疏权重且由Kronecker乘积表示的更宽MLP的有效表达。该表达式自然地定义了一组置换-Kronecker(PK)家族，可以被视为混合层的一般类，也可以被视为Monarch矩阵的一种近似。随后，由于PK家族有效构成具有稀疏权重的宽MLP，因此，可以应用Golubeva、Neyshabur和Gur-Ari(2021)提出的假设，即预测性能：
-
-    Multi-layer perceptron (MLP) is a fundamental component of deep learning that has been extensively employed for various problems. However, recent empirical successes in MLP-based architectures, particularly the progress of the MLP-Mixer, have revealed that there is still hidden potential in improving MLPs to achieve better performance. In this study, we reveal that the MLP-Mixer works effectively as a wide MLP with certain sparse weights. Initially, we clarify that the mixing layer of the Mixer has an effective expression as a wider MLP whose weights are sparse and represented by the Kronecker product. This expression naturally defines a permuted-Kronecker (PK) family, which can be regarded as a general class of mixing layers and is also regarded as an approximation of Monarch matrices. Subsequently, because the PK family effectively constitutes a wide MLP with sparse weights, one can apply the hypothesis proposed by Golubeva, Neyshabur and Gur-Ari (2021) that the prediction performanc
-    
-[^6]: 假设简约的变量重要性检验的投影协方差测量
-
-    The Projected Covariance Measure for assumption-lean variable significance testing. (arXiv:2211.02039v2 [math.ST] UPDATED)
-
-    [http://arxiv.org/abs/2211.02039](http://arxiv.org/abs/2211.02039)
-
-    该论文介绍了一种假设简约的变量重要性检验方法，利用非参数或机器学习方法实现稳健的误差控制和高功效。
+    本研究提出了一种贝叶斯紧系数样条方法，用于估计概率密度函数中模式的数量。该方法结合了核估计器和组合样条，实现了特征探索、模型选择和模式检验，并允许引入专家判断。通过在体育分析中的案例研究中的验证，证明了该方法的实用性。
 
     
 
-    在统计学中，对于给定附加协变量Z，测试变量或变量组X对于预测响应Y的重要性是一项普遍任务。一种简单但常见的方法是指定一个线性模型，然后测试X的回归系数是否为非零。然而，当模型错误指定时，测试的功效可能很差，例如当X参与复杂的交互作用，或者导致许多错误拒绝。在这项工作中，我们研究了测试条件均值独立的无模型假设，即给定X和Z，Y的条件均值不依赖于X。我们提出了一个简单而通用的框架，可以利用灵活的非参数或机器学习方法，如加法模型或随机森林，实现稳健的误差控制和高功效。该过程包括使用这些方法进行回归，首先使用一半的数据估计以X和Z为基础的Y的一种投影形式。
+    概率密度函数中模式的数量代表模型的复杂性，也可以看作现有亚群体的数量。尽管其相关性，对其估计的研究非常有限。我们针对单变量情况提出一个新颖的方法，致力于预测准确性，受到了问题的一些被忽视的方面的启发。我们认为解决方案需要结构，模式的主观且不确定性，以及融合全局和局部密度特性的整体视图的便利性。我们的方法结合了灵活的核估计器和简洁的组合样条。特征探索、模型选择和模式检验都在贝叶斯推理范式中实现，为软解决方案提供了便利，并允许在过程中引入专家判断。我们的提议的实用性通过在体育分析中的案例研究中进行了验证，并展示了多个陪伴的可视化。
 
-    Testing the significance of a variable or group of variables $X$ for predicting a response $Y$, given additional covariates $Z$, is a ubiquitous task in statistics. A simple but common approach is to specify a linear model, and then test whether the regression coefficient for $X$ is non-zero. However, when the model is misspecified, the test may have poor power, for example when $X$ is involved in complex interactions, or lead to many false rejections. In this work we study the problem of testing the model-free null of conditional mean independence, i.e. that the conditional mean of $Y$ given $X$ and $Z$ does not depend on $X$. We propose a simple and general framework that can leverage flexible nonparametric or machine learning methods, such as additive models or random forests, to yield both robust error control and high power. The procedure involves using these methods to perform regressions, first to estimate a form of projection of $Y$ on $X$ and $Z$ using one half of the data, an
+    The number of modes in a probability density function is representative of the model's complexity and can also be viewed as the number of existing subpopulations. Despite its relevance, little research has been devoted to its estimation. Focusing on the univariate setting, we propose a novel approach targeting prediction accuracy inspired by some overlooked aspects of the problem. We argue for the need for structure in the solutions, the subjective and uncertain nature of modes, and the convenience of a holistic view blending global and local density properties. Our method builds upon a combination of flexible kernel estimators and parsimonious compositional splines. Feature exploration, model selection and mode testing are implemented in the Bayesian inference paradigm, providing soft solutions and allowing to incorporate expert judgement in the process. The usefulness of our proposal is illustrated through a case study in sports analytics, showcasing multiple companion visualisation 
+    
+[^4]: 熵协方差模型
+
+    Entropic covariance models. (arXiv:2306.03590v1 [math.ST])
+
+    [http://arxiv.org/abs/2306.03590](http://arxiv.org/abs/2306.03590)
+
+    本文提出了一个通用的线性约束协方差矩阵变换的框架，并提出了一种估计方法，解决了一个凸问题，允许相对简单的渐近性和有限样本分析。研究的重点是关于建模相关矩阵和稀疏性方面的内容。
+
+    
+
+    在协方差矩阵估计中，找到合适的模型和有效的估计方法是一项挑战。文献中通常采用两种方法，一种是对协方差矩阵或其逆施加线性约束，另一种是考虑施加在协方差矩阵的矩阵对数上的线性约束。本文提出了一个通用的线性约束协方差矩阵变换的框架，包括上述例子。我们提出的估计方法解决了一个凸问题，并产生了一个M估计量，允许相对简单的渐近性和有限样本分析。在开发了一般理论之后，我们集中在建模相关矩阵和稀疏性方面。我们的几何洞察力允许我们扩展协方差矩阵建模中的一些最新结果。这包括提供相关矩阵空间的无限制参数化，这是一种替代利用变换的最新结果。我们还展示了如何对协方差矩阵的Cholesky因子施加稀疏性限制，这与现有方法不同。
+
+    In covariance matrix estimation, one of the challenges lies in finding a suitable model and an efficient estimation method. Two commonly used approaches in the literature involve imposing linear restrictions on the covariance matrix or its inverse. Another approach considers linear restrictions on the matrix logarithm of the covariance matrix. In this paper, we present a general framework for linear restrictions on different transformations of the covariance matrix, including the mentioned examples. Our proposed estimation method solves a convex problem and yields an M-estimator, allowing for relatively straightforward asymptotic and finite sample analysis. After developing the general theory, we focus on modelling correlation matrices and on sparsity. Our geometric insights allow to extend various recent results in covariance matrix modelling. This includes providing unrestricted parametrizations of the space of correlation matrices, which is alternative to a recent result utilizing t
+    
+[^5]: 贝叶斯神经网络替代贝叶斯优化中的高斯过程模型
+
+    A Study of Bayesian Neural Network Surrogates for Bayesian Optimization. (arXiv:2305.20028v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.20028](http://arxiv.org/abs/2305.20028)
+
+    本文研究贝叶斯神经网络替代高斯过程模型作为贝叶斯优化中的代理模型，并在多个基准问题上证明了其优于标准GP代理的能力。
+
+    
+
+    贝叶斯优化是一种高效的优化方法，适用于难以查询的目标函数。这些目标函数通常由高斯过程（GP）代理模型表示，其易于优化并支持精确推理。虽然标准的GP代理已经在贝叶斯优化中被广泛应用，但贝叶斯神经网络（BNNs）最近成为了一个实用的函数逼近器，与标准的GP相比具有许多优点，例如天然处理非平稳性以及学习高维数据的表示。在本文中，我们研究了BNN作为标准GP代理的替代品。我们考虑了各种有限宽度BNN的近似推理过程，包括高质量Hamiltonian Monte Carlo，低成本的随机MCMC和启发式方法（如深度集成）。我们还考虑了无限宽度BNN和部分随机模型，例如深度核学习。我们评估了这些代理模型在多个基准问题上的表现，并证明它们在某些情况下可以优于标准GP代理。我们的结果表明，BNN是传统代理模型在贝叶斯优化中的一个很有前途的替代选择。
+
+    Bayesian optimization is a highly efficient approach to optimizing objective functions which are expensive to query. These objectives are typically represented by Gaussian process (GP) surrogate models which are easy to optimize and support exact inference. While standard GP surrogates have been well-established in Bayesian optimization, Bayesian neural networks (BNNs) have recently become practical function approximators, with many benefits over standard GPs such as the ability to naturally handle non-stationarity and learn representations for high-dimensional data. In this paper, we study BNNs as alternatives to standard GP surrogates for optimization. We consider a variety of approximate inference procedures for finite-width BNNs, including high-quality Hamiltonian Monte Carlo, low-cost stochastic MCMC, and heuristics such as deep ensembles. We also consider infinite-width BNNs and partially stochastic models such as deep kernel learning. We evaluate this collection of surrogate mod
+    
+[^6]: StepMix: 一个用于外部变量广义混合模型的伪似然估计的Python包
+
+    StepMix: A Python Package for Pseudo-Likelihood Estimation of Generalized Mixture Models with External Variables. (arXiv:2304.03853v1 [stat.ME])
+
+    [http://arxiv.org/abs/2304.03853](http://arxiv.org/abs/2304.03853)
+
+    StepMix是一个用于外部变量广义混合模型的伪似然估计的Python包，提供了单步和逐步估计方法，帮助从业人员进行模型估计、选择和解释。
+
+    
+
+    StepMix是一个用于广义有限混合模型(潜在剖面和潜在类分析)与外部变量(协变量和远程结果)的伪似然估计(单步、两步和三步方法)的开源软件包。在许多社会科学的应用中，主要目标不仅是将个体聚类成潜在类别，还包括使用这些类别来开发更复杂的统计模型。这些模型通常分为一个将潜在类别与观察指标相关联的测量模型和一个将协变量和结果变量与潜在类别相关联的结构模型。测量和结构模型可以使用所谓的一步法共同估计，也可以使用逐步方法逐步估计，对于从业人员来说，这些方法在估计潜在类别的可解释性方面具有显著优势。除了一步法，StepMix还实现了文献中提出的最重要的逐步估计方法，提供了用户友好的界面，方便模型的估计、选择和解释。
+
+    StepMix is an open-source software package for the pseudo-likelihood estimation (one-, two- and three-step approaches) of generalized finite mixture models (latent profile and latent class analysis) with external variables (covariates and distal outcomes). In many applications in social sciences, the main objective is not only to cluster individuals into latent classes, but also to use these classes to develop more complex statistical models. These models generally divide into a measurement model that relates the latent classes to observed indicators, and a structural model that relates covariates and outcome variables to the latent classes. The measurement and structural models can be estimated jointly using the so-called one-step approach or sequentially using stepwise methods, which present significant advantages for practitioners regarding the interpretability of the estimated latent classes. In addition to the one-step approach, StepMix implements the most important stepwise estim
+    
+[^7]: 研究模型宽度和密度对标签噪声下泛化性能的影响
+
+    Investigating the Impact of Model Width and Density on Generalization in Presence of Label Noise. (arXiv:2208.08003v4 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2208.08003](http://arxiv.org/abs/2208.08003)
+
+    本文研究发现标签噪声会导致双丘降曲线出现“最终上升”，即在足够大的噪声样本比率下，中等宽度下实现最佳泛化性能。随机丢弃可训练参数来减少密度可在标签噪声下改善泛化性能。
+
+    
+
+    扩大过参数化神经网络的规模是实现最先进性能的关键。这是通过双丘降现象捕捉的，其中测试损失随着模型宽度的增加呈现出降低-增加-降低的模式。然而，标签噪声对测试损失曲线的影响尚未被充分探索。在本文中，我们揭示了一个有趣的现象，即标签噪声导致原本观察到的双丘降曲线出现了“最终上升”。具体而言，在足够大的噪声样本比率下，中等宽度下实现最佳泛化性能。通过理论分析，我们将这种现象归因于标签噪声引起的测试损失方差形状转换。此外，我们将最终上升现象扩展到模型密度，并提供了第一个理论表征，表明随机丢弃可训练参数来减少密度可在标签噪声下改善泛化性能。
+
+    Increasing the size of overparameterized neural networks has been a key in achieving state-of-the-art performance. This is captured by the double descent phenomenon, where the test loss follows a decreasing-increasing-decreasing pattern as model width increases. However, the effect of label noise on the test loss curve has not been fully explored. In this work, we uncover an intriguing phenomenon where label noise leads to a \textit{final ascent} in the originally observed double descent curve. Specifically, under a sufficiently large noise-to-sample-size ratio, optimal generalization is achieved at intermediate widths. Through theoretical analysis, we attribute this phenomenon to the shape transition of test loss variance induced by label noise. Furthermore, we extend the final ascent phenomenon to model density and provide the first theoretical characterization showing that reducing density by randomly dropping trainable parameters improves generalization under label noise. We also t
     
 

@@ -2,52 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [FollowIR: Evaluating and Teaching Information Retrieval Models to Follow Instructions](https://arxiv.org/abs/2403.15246) | 该论文引入了FollowIR数据集，包含严格的说明书评估基准和训练集，帮助信息检索模型更好地遵循真实世界的说明书。议论基于TREC会议的历史，旨在使信息检索模型能够根据详细说明书理解和判断相关性。 |
-| [^2] | [Recommendation Fairness in Social Networks Over Time](https://arxiv.org/abs/2402.03450) | 本研究研究了社交网络推荐系统中推荐公平性随时间推移而变化的情况，并与动态网络属性进行了关联分析。结果表明，推荐公平性随时间改善，而少数群体比例和同质性与公平性有关。 |
-| [^3] | [Link Me Baby One More Time: Social Music Discovery on Spotify.](http://arxiv.org/abs/2401.08818) | 本研究探讨了在社交音乐推荐中影响音乐互动的社交和环境因素。研究发现，接收者与发送者音乐品味相似、分享的音轨适合接收者的品味、接收者与发送者具有更强和更亲密的联系以及分享的艺术家在接收者的关系中受欢迎，这些因素都会增加接收者与新艺术家的互动。 |
+| [^1] | [Generative-Contrastive Heterogeneous Graph Neural Network](https://arxiv.org/abs/2404.02810) | 本研究提出了一种生成-对比异构图神经网络，通过对比视图增强策略、位置感知和语义感知正样本采样策略以及分层对比学习策略来克服图数据增强的限制。 |
+| [^2] | [Entity Disambiguation via Fusion Entity Decoding](https://arxiv.org/abs/2404.01626) | 提出了一种通过融合实体描述进行实体消歧的编码-解码模型。 |
+| [^3] | [ResumeFlow: An LLM-facilitated Pipeline for Personalized Resume Generation and Refinement](https://arxiv.org/abs/2402.06221) | ResumeFlow是一种利用LLM技术的工具，能够帮助求职者根据特定的职位要求生成个性化的简历，从而解决了手动定制简历的耗时和容易出错的问题。 |
+| [^4] | [Macro Graph Neural Networks for Online Billion-Scale Recommender Systems.](http://arxiv.org/abs/2401.14939) | 本文提出了宏观图神经网络（MAG）来解决Graph Neural Networks在亿级推荐系统中预测点击率（CTR）的挑战。MAG通过将行为模式相似的微观节点分组，将节点数量从数十亿减少到数百个，从而解决了计算复杂度的问题。 |
+| [^5] | [Medication Recommendation via Domain Knowledge Informed Deep Learning.](http://arxiv.org/abs/2305.19604) | 提出一种基于动态领域知识的药物推荐框架DKINet，将领域知识与患者临床表现相结合，此为首次实验。 |
 
 # 详细
 
-[^1]: FollowIR: 评估和教授信息检索模型以遵循说明书
+[^1]: 生成-对比异构图神经网络
 
-    FollowIR: Evaluating and Teaching Information Retrieval Models to Follow Instructions
+    Generative-Contrastive Heterogeneous Graph Neural Network
 
-    [https://arxiv.org/abs/2403.15246](https://arxiv.org/abs/2403.15246)
+    [https://arxiv.org/abs/2404.02810](https://arxiv.org/abs/2404.02810)
 
-    该论文引入了FollowIR数据集，包含严格的说明书评估基准和训练集，帮助信息检索模型更好地遵循真实世界的说明书。议论基于TREC会议的历史，旨在使信息检索模型能够根据详细说明书理解和判断相关性。
-
-    
-
-    现代大型语言模型（LLMs）能够遵循长且复杂的说明书，从而实现多样化的用户任务。然而，尽管信息检索（IR）模型使用LLMs作为其架构的支柱，几乎所有这些模型仍然只接受查询作为输入，没有说明书。对于最近一些接受说明书的模型来说，它们如何使用这些说明书还不清楚。我们引入了FollowIR数据集，其中包含严格的说明书评估基准，以及一个训练集，帮助IR模型学习更好地遵循现实世界的说明书。FollowIR基于TREC会议的悠久历史：正如TREC为人类标注员提供说明书（也称为叙述）来判断文档的相关性一样，因此IR模型应该能够根据这些详细说明书理解和确定相关性。我们的评估基准从三个经过深度判断的TREC收藏开始
-
-    arXiv:2403.15246v1 Announce Type: cross  Abstract: Modern Large Language Models (LLMs) are capable of following long and complex instructions that enable a diverse amount of user tasks. However, despite Information Retrieval (IR) models using LLMs as the backbone of their architectures, nearly all of them still only take queries as input, with no instructions. For the handful of recent models that do take instructions, it's unclear how they use them. We introduce our dataset FollowIR, which contains a rigorous instruction evaluation benchmark as well as a training set for helping IR models learn to better follow real-world instructions. FollowIR builds off the long history of the TREC conferences: as TREC provides human annotators with instructions (also known as narratives) to determine document relevance, so should IR models be able to understand and decide relevance based on these detailed instructions. Our evaluation benchmark starts with three deeply judged TREC collections and al
-    
-[^2]: 社交网络随时间推移中的推荐公平性
-
-    Recommendation Fairness in Social Networks Over Time
-
-    [https://arxiv.org/abs/2402.03450](https://arxiv.org/abs/2402.03450)
-
-    本研究研究了社交网络推荐系统中推荐公平性随时间推移而变化的情况，并与动态网络属性进行了关联分析。结果表明，推荐公平性随时间改善，而少数群体比例和同质性与公平性有关。
+    本研究提出了一种生成-对比异构图神经网络，通过对比视图增强策略、位置感知和语义感知正样本采样策略以及分层对比学习策略来克服图数据增强的限制。
 
     
 
-    在社交推荐系统中，推荐模型提供不同人口群体（如性别或种族）公平的可见性是至关重要的。现有大多数研究只研究了网络的固定快照，而忽视了网络随时间推移的变化。为了填补这一研究空白，我们研究了推荐公平性随时间的演变及其与动态网络属性的关系。我们通过评估六种推荐算法的公平性，并分析公平性与网络属性随时间的关联，来研究三个真实世界动态网络。我们还通过研究替代演化结果和不同网络属性的对照情景，来研究对网络属性的干预如何影响公平性。我们在实证数据集上的结果表明，不论推荐方法如何，推荐公平性随时间的改善。我们还发现两个网络属性，少数群体比例和同质性，与公平性有关。
+    异构图表达了现实世界中复杂关系，包括多种类型的节点和边。受自监督学习启发，对比异构图神经网络(HGNNs)利用数据增强和辨别器展现了巨大潜力用于下游任务。然而，由于图的离散和抽象特性，数据增强仍然存在限制。为了解决上述限制，我们提出了一种新颖的\textit{生成-对比异构图神经网络(GC-HGNN)}。
 
-    In social recommender systems, it is crucial that the recommendation models provide equitable visibility for different demographic groups, such as gender or race. Most existing research has addressed this problem by only studying individual static snapshots of networks that typically change over time. To address this gap, we study the evolution of recommendation fairness over time and its relation to dynamic network properties. We examine three real-world dynamic networks by evaluating the fairness of six recommendation algorithms and analyzing the association between fairness and network properties over time. We further study how interventions on network properties influence fairness by examining counterfactual scenarios with alternative evolution outcomes and differing network properties. Our results on empirical datasets suggest that recommendation fairness improves over time, regardless of the recommendation method. We also find that two network properties, minority ratio, and homo
+    arXiv:2404.02810v1 Announce Type: new  Abstract: Heterogeneous Graphs (HGs) can effectively model complex relationships in the real world by multi-type nodes and edges. In recent years, inspired by self-supervised learning, contrastive Heterogeneous Graphs Neural Networks (HGNNs) have shown great potential by utilizing data augmentation and discriminators for downstream tasks. However, data augmentation is still limited due to the discrete and abstract nature of graphs. To tackle the above limitations, we propose a novel \textit{Generative-Contrastive Heterogeneous Graph Neural Network (GC-HGNN)}. Specifically, we first propose a heterogeneous graph generative learning enhanced contrastive paradigm. This paradigm includes: 1) A contrastive view augmentation strategy by using masked autoencoder. 2) Position-aware and semantics-aware positive sample sampling strategy for generate hard negative samples. 3) A hierarchical contrastive learning strategy for capturing local and global informa
     
-[^3]: Link Me Baby One More Time: 在 Spotify 上的社交音乐发现
+[^2]: 通过融合实体解码进行实体消歧
 
-    Link Me Baby One More Time: Social Music Discovery on Spotify. (arXiv:2401.08818v1 [cs.SI])
+    Entity Disambiguation via Fusion Entity Decoding
 
-    [http://arxiv.org/abs/2401.08818](http://arxiv.org/abs/2401.08818)
+    [https://arxiv.org/abs/2404.01626](https://arxiv.org/abs/2404.01626)
 
-    本研究探讨了在社交音乐推荐中影响音乐互动的社交和环境因素。研究发现，接收者与发送者音乐品味相似、分享的音轨适合接收者的品味、接收者与发送者具有更强和更亲密的联系以及分享的艺术家在接收者的关系中受欢迎，这些因素都会增加接收者与新艺术家的互动。
+    提出了一种通过融合实体描述进行实体消歧的编码-解码模型。
 
     
 
-    我们探讨影响个人之间音乐推荐和发现结果的社交和环境因素。具体来说，我们使用 Spotify 的数据来研究用户之间发送链接导致接收者与分享的艺术家的音乐互动。我们考虑了几个可能影响这一过程的因素，如发送者与接收者的关系强度，用户在 Spotify 社交网络中的角色，他们的音乐社交凝聚力，以及新艺术家与接收者的品味相似程度。我们发现，当接收者与发送者的音乐品味相似且分享的音轨适合他们的品味时，他们更有可能与新艺术家互动；当他们与发送者有更强和更亲密的联系时，也更有可能互动；以及当分享的艺术家在接收者的关系中受欢迎时，也更有可能互动。最后，我们利用这些发现构建了一个随机森林分类器，用于预测分享的音乐轨道是否会导致接收者的互动。
+    实体消歧（ED）是将模糊实体的提及链接到知识库中的指代实体的过程，在实体链接（EL）中起着核心作用。现有的生成式方法在标准化的ZELDA基准下展示出比分类方法更高的准确性。然而，生成式方法需要大规模的预训练且生成效率低下。最重要的是，实体描述经常被忽视，而这些描述可能包含区分相似实体的关键信息。我们提出了一种编码-解码模型，以更详细的实体描述来进行实体消歧。给定文本和候选实体，编码器学习文本与每个候选实体之间的交互，为每个实体候选产生表示。解码器随后将实体候选的表示融合在一起，并选择正确的实体。
 
-    We explore the social and contextual factors that influence the outcome of person-to-person music recommendations and discovery. Specifically, we use data from Spotify to investigate how a link sent from one user to another results in the receiver engaging with the music of the shared artist. We consider several factors that may influence this process, such as the strength of the sender-receiver relationship, the user's role in the Spotify social network, their music social cohesion, and how similar the new artist is to the receiver's taste. We find that the receiver of a link is more likely to engage with a new artist when (1) they have similar music taste to the sender and the shared track is a good fit for their taste, (2) they have a stronger and more intimate tie with the sender, and (3) the shared artist is popular with the receiver's connections. Finally, we use these findings to build a Random Forest classifier to predict whether a shared music track will result in the receiver
+    arXiv:2404.01626v1 Announce Type: new  Abstract: Entity disambiguation (ED), which links the mentions of ambiguous entities to their referent entities in a knowledge base, serves as a core component in entity linking (EL). Existing generative approaches demonstrate improved accuracy compared to classification approaches under the standardized ZELDA benchmark. Nevertheless, generative approaches suffer from the need for large-scale pre-training and inefficient generation. Most importantly, entity descriptions, which could contain crucial information to distinguish similar entities from each other, are often overlooked. We propose an encoder-decoder model to disambiguate entities with more detailed entity descriptions. Given text and candidate entities, the encoder learns interactions between the text and each candidate entity, producing representations for each entity candidate. The decoder then fuses the representations of entity candidates together and selects the correct entity. Our 
+    
+[^3]: ResumeFlow: 一种个性化简历生成和修订的LLM辅助流程
+
+    ResumeFlow: An LLM-facilitated Pipeline for Personalized Resume Generation and Refinement
+
+    [https://arxiv.org/abs/2402.06221](https://arxiv.org/abs/2402.06221)
+
+    ResumeFlow是一种利用LLM技术的工具，能够帮助求职者根据特定的职位要求生成个性化的简历，从而解决了手动定制简历的耗时和容易出错的问题。
+
+    
+
+    对于许多求职者来说，制作符合特定职位要求的理想简历是一项具有挑战性的任务，尤其是对于初入职场的求职者来说。虽然强烈建议求职者根据他们申请的具体职位定制简历，但手动根据工作描述和职位要求来定制简历通常 (1) 非常耗时，且 (2) 容易出错。此外，在申请多个职位时进行这样的定制步骤可能导致编辑简历质量不高。为了解决这个问题，在本演示论文中，我们提出了ResumeFlow: 一种利用大型语言模型（LLM）的工具，使终端用户只需提供详细的简历和所需的职位发布信息，就能在几秒钟内获得一个针对该特定职位发布的个性化简历。我们提出的流程利用了最先进的LLM（如OpenAI的GPT-4和Google的......）
+
+    Crafting the ideal, job-specific resume is a challenging task for many job applicants, especially for early-career applicants. While it is highly recommended that applicants tailor their resume to the specific role they are applying for, manually tailoring resumes to job descriptions and role-specific requirements is often (1) extremely time-consuming, and (2) prone to human errors. Furthermore, performing such a tailoring step at scale while applying to several roles may result in a lack of quality of the edited resumes. To tackle this problem, in this demo paper, we propose ResumeFlow: a Large Language Model (LLM) aided tool that enables an end user to simply provide their detailed resume and the desired job posting, and obtain a personalized resume specifically tailored to that specific job posting in the matter of a few seconds. Our proposed pipeline leverages the language understanding and information extraction capabilities of state-of-the-art LLMs such as OpenAI's GPT-4 and Goog
+    
+[^4]: 在线亿级推荐系统的宏观图神经网络
+
+    Macro Graph Neural Networks for Online Billion-Scale Recommender Systems. (arXiv:2401.14939v1 [cs.IR])
+
+    [http://arxiv.org/abs/2401.14939](http://arxiv.org/abs/2401.14939)
+
+    本文提出了宏观图神经网络（MAG）来解决Graph Neural Networks在亿级推荐系统中预测点击率（CTR）的挑战。MAG通过将行为模式相似的微观节点分组，将节点数量从数十亿减少到数百个，从而解决了计算复杂度的问题。
+
+    
+
+    鉴于聚合数十亿个邻居所涉及的计算复杂度令图神经网络（GNNs）在亿级推荐系统中预测点击率（CTR）面临长期挑战，本文提出了一种名为“宏观推荐图（MAG）”的更适合亿级推荐的方法。MAG通过将行为模式相似的微观节点（用户和物品）分组，将节点数量从数十亿个减少到数百个，从而解决了基础设施中的计算复杂度问题。
+
+    Predicting Click-Through Rate (CTR) in billion-scale recommender systems poses a long-standing challenge for Graph Neural Networks (GNNs) due to the overwhelming computational complexity involved in aggregating billions of neighbors. To tackle this, GNN-based CTR models usually sample hundreds of neighbors out of the billions to facilitate efficient online recommendations. However, sampling only a small portion of neighbors results in a severe sampling bias and the failure to encompass the full spectrum of user or item behavioral patterns. To address this challenge, we name the conventional user-item recommendation graph as "micro recommendation graph" and introduce a more suitable MAcro Recommendation Graph (MAG) for billion-scale recommendations. MAG resolves the computational complexity problems in the infrastructure by reducing the node count from billions to hundreds. Specifically, MAG groups micro nodes (users and items) with similar behavior patterns to form macro nodes. Subsequ
+    
+[^5]: 通过领域知识启示的深度学习进行药物推荐
+
+    Medication Recommendation via Domain Knowledge Informed Deep Learning. (arXiv:2305.19604v1 [cs.AI])
+
+    [http://arxiv.org/abs/2305.19604](http://arxiv.org/abs/2305.19604)
+
+    提出一种基于动态领域知识的药物推荐框架DKINet，将领域知识与患者临床表现相结合，此为首次实验。
+
+    
+
+    药物推荐是医疗保健的基本但至关重要的分支，提供机会为复杂健康状况的患者支持临床医生更精确的药物处方。从电子健康记录（EHR）中学习推荐药物是先前研究中最常见的方法。然而，大多数研究忽视了根据患者的EHR中的临床表现纳入领域知识的问题。为了解决这些问题，我们提出了一种新颖的基于动态领域知识的药物推荐框架，即领域知识启示网络（DKINet），用于将领域知识与可观察的患者临床表现相结合。特别是，我们首先设计了一个基于领域知识的编码器来捕捉领域信息，然后开发了一个数据驱动的编码器将领域知识整合到可观察的EHR中。
+
+    Medication recommendation is a fundamental yet crucial branch of healthcare, which provides opportunities to support clinical physicians with more accurate medication prescriptions for patients with complex health conditions. Learning from electronic health records (EHR) to recommend medications is the most common way in previous studies. However, most of them neglect incorporating domain knowledge according to the clinical manifestations in the EHR of the patient. To address these issues, we propose a novel \textbf{D}omain \textbf{K}nowledge \textbf{I}nformed \textbf{Net}work (DKINet) to integrate domain knowledge with observable clinical manifestations of the patient, which is the first dynamic domain knowledge informed framework toward medication recommendation. In particular, we first design a knowledge-driven encoder to capture the domain information and then develop a data-driven encoder to integrate domain knowledge into the observable EHR. To endow the model with the capability
     
 

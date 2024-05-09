@@ -2,37 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Limit Order Book Dynamics and Order Size Modelling Using Compound Hawkes Process](https://arxiv.org/abs/2312.08927) | 本文提出了一种使用复合霍克斯进程建模限价单簿动态和订单尺寸的新方法，以校准分布抽取每个事件的订单尺寸，并在模型中保持正的价差。进一步地，我们根据时间条件模型参数支持经验观察，并使用改进的非参数方法校准霍克斯核函数和抑制性交叉激发核函数。 |
-| [^2] | [The Growth, Geography, and Implications of Trade in Digital Products.](http://arxiv.org/abs/2310.02253) | 本研究通过引入一个新的数字产品出口和进口数据集，探讨了数字产品贸易的五个关键方面：1）数字产品出口的起源更加空间集中；2）数字产品贸易增长速度快于实物贸易；3）数字产品贸易规模足够大，可以在一定程度上抵消实物贸易逆差；4）将经济增长与温室气体排放分离的国家在数字产品领域拥有较大且增长更快的出口；5）数字产品被纳入经济复杂性的衡量指标中。 |
+| [^1] | [Zonal vs. Nodal Pricing: An Analysis of Different Pricing Rules in the German Day-Ahead Market](https://arxiv.org/abs/2403.09265) | 德国电力市场研究了区域和节点定价模型的比较，发现不同配置下的平均价格差异小，总成本相似。 |
+| [^2] | [Dimensionality reduction techniques to support insider trading detection](https://arxiv.org/abs/2403.00707) | 提出了一种无监督机器学习方法，利用主成分分析和自动编码器作为降维技术，用于支持市场监控以识别潜在内幕交易活动。 |
+| [^3] | [An Intraday GARCH Model for Discrete Price Changes and Irregularly Spaced Observations.](http://arxiv.org/abs/2211.12376) | 这篇论文提出了一种新的适用于高频价格的日内GARCH模型，该模型考虑了不规则时间间隔观测、同时交易、价格离散性和市场微观结构噪声。通过使用平滑样条捕捉交易持续时间与价格波动性之间的关系，并且使用零膨胀Skellam分布的得分驱动框架，该模型可以很好地拟合数据，并且可以用于测量每日实现波动性。 |
 
 # 详细
 
-[^1]: 限价单簿动态与订单尺寸建模：复合霍克斯进程
+[^1]: 区域vs. 节点定价：德国日前市场不同定价规则的分析
 
-    Limit Order Book Dynamics and Order Size Modelling Using Compound Hawkes Process
+    Zonal vs. Nodal Pricing: An Analysis of Different Pricing Rules in the German Day-Ahead Market
 
-    [https://arxiv.org/abs/2312.08927](https://arxiv.org/abs/2312.08927)
+    [https://arxiv.org/abs/2403.09265](https://arxiv.org/abs/2403.09265)
 
-    本文提出了一种使用复合霍克斯进程建模限价单簿动态和订单尺寸的新方法，以校准分布抽取每个事件的订单尺寸，并在模型中保持正的价差。进一步地，我们根据时间条件模型参数支持经验观察，并使用改进的非参数方法校准霍克斯核函数和抑制性交叉激发核函数。
-
-    
-
-    霍克斯进程已在文献中多种方式被用于模拟限价单簿动态，但往往仅关注事件间隔，而订单尺寸通常被假设为常数。我们提出了一种新颖的方法，使用复合霍克斯进程来模拟限价单簿，其中每个事件的订单尺寸来自校准分布。该方法以一种新颖的方式构建，使进程的价差始终保持正值。此外，我们根据时间条件模型参数以支持经验观察。我们使用改进的非参数方法来校准霍克斯核函数，并允许抑制性交叉激发核函数。我们展示了在纳斯达克交易所中一只股票的限价单簿上的结果和适度程度。
-
-    Hawkes Process has been used to model Limit Order Book (LOB) dynamics in several ways in the literature however the focus has been limited to capturing the inter-event times while the order size is usually assumed to be constant. We propose a novel methodology of using Compound Hawkes Process for the LOB where each event has an order size sampled from a calibrated distribution. The process is formulated in a novel way such that the spread of the process always remains positive. Further, we condition the model parameters on time of day to support empirical observations. We make use of an enhanced non-parametric method to calibrate the Hawkes kernels and allow for inhibitory cross-excitation kernels. We showcase the results and quality of fits for an equity stock's LOB in the NASDAQ exchange.
-    
-[^2]: 数字产品的增长、地理和贸易影响
-
-    The Growth, Geography, and Implications of Trade in Digital Products. (arXiv:2310.02253v1 [econ.GN])
-
-    [http://arxiv.org/abs/2310.02253](http://arxiv.org/abs/2310.02253)
-
-    本研究通过引入一个新的数字产品出口和进口数据集，探讨了数字产品贸易的五个关键方面：1）数字产品出口的起源更加空间集中；2）数字产品贸易增长速度快于实物贸易；3）数字产品贸易规模足够大，可以在一定程度上抵消实物贸易逆差；4）将经济增长与温室气体排放分离的国家在数字产品领域拥有较大且增长更快的出口；5）数字产品被纳入经济复杂性的衡量指标中。
+    德国电力市场研究了区域和节点定价模型的比较，发现不同配置下的平均价格差异小，总成本相似。
 
     
 
-    尽管全球努力协调国际贸易统计数据，我们对数字产品的贸易及其影响的理解仍然不清楚。在这里，我们通过引入一个新的数字产品出口和进口数据集，研究数字产品贸易的五个关键方面。首先，我们表明与实物商品贸易相比，数字产品出口的起源更加空间集中。其次，我们表明在2016年至2021年之间，数字产品贸易增长速度快于实物贸易，年均增长率为20%，而实物贸易为6%。第三，我们表明数字产品贸易规模足够大，可以在一定程度上抵消一些重要的贸易平衡估计，如美国的实物贸易逆差。第四，我们表明那些将经济增长与温室气体排放分离的国家，在数字产品领域拥有较大且增长更快的出口。最后，我们将数字产品纳入经济复杂性的衡量指标中。
+    欧洲电力市场基于拥有统一日前价格的大型定价区域。能源转型导致供需变化和再调度成本增加。为了确保市场清算高效和拥塞管理，欧盟委员会委托进行出价区域审查（BZR）以重新评估欧洲出价区域的配置。基于BZR背景下公布的独特数据集，我们比较了德国电力市场的各种定价规则。我们比较了国内、区域和节点模型的市场清算和定价，包括它们的发电成本和相关的再调度成本。此外，我们研究了不同的非统一定价规则及其对德国电力市场的经济影响。我们的结果表明，不同区域的平均价格差异较小。不同配置下的总成本相似，降低了...
 
-    Despite global efforts to harmonize international trade statistics, our understanding about trade in digital products and its implications remains elusive. Here, we study five key aspects of trade in digital products by introducing a novel dataset on the exports and imports of digital products. First, we show that compared to trade in physical goods, the origin of digital products exports is more spatially concentrated. Second, we show that between 2016 and 2021 trade in digital products grew faster than physical trade, at an annualized growth rate of 20% compared to 6% for physical trade. Third, we show that trade in digital products is large enough to partly offset some important trade balance estimates, like the physical trade deficit of the United States. Fourth, we show that countries that have decoupled economic growth from greenhouse gas emissions have larger and faster growing exports in digital product sectors. Finally, we add digital products to measures of economic complexit
+    arXiv:2403.09265v1 Announce Type: new  Abstract: The European electricity market is based on large pricing zones with a uniform day-ahead price. The energy transition leads to shifts in supply and demand and increasing redispatch costs. In an attempt to ensure efficient market clearing and congestion management, the EU Commission has mandated the Bidding Zone Review (BZR) to reevaluate the configuration of European bidding zones. Based on a unique data set published in the context of the BZR, we compare various pricing rules for the German power market. We compare market clearing and pricing for national, zonal, and nodal models, including their generation costs and associated redispatch costs. Moreover, we investigate different non-uniform pricing rules and their economic implications for the German electricity market. Our results indicate that the differences in the average prices in different zones are small. The total costs across different configurations are similar and the reduct
+    
+[^2]: 降维技术用于支持内幕交易检测
+
+    Dimensionality reduction techniques to support insider trading detection
+
+    [https://arxiv.org/abs/2403.00707](https://arxiv.org/abs/2403.00707)
+
+    提出了一种无监督机器学习方法，利用主成分分析和自动编码器作为降维技术，用于支持市场监控以识别潜在内幕交易活动。
+
+    
+
+    识别市场滥用是一项非常复杂的活动，需要分析大量复杂的数据集。我们提出了一种无监督机器学习方法，用于上下文异常检测，可以支持旨在识别潜在内幕交易活动的市场监控。该方法基于重建范式，采用主成分分析和自动编码器作为降维技术。该方法的唯一输入是每位投资者在对我们具有价格敏感事件（PSE）的资产上的交易位置。在确定与交易配置文件相关的重建错误后，我们会施加几个条件，以识别那些行为可疑的投资者，其行为可能涉及与PSE有关的内幕交易。作为案例研究，我们将我们的方法应用于围绕收购要约的意大利股票的投资者解析数据。
+
+    arXiv:2403.00707v1 Announce Type: new  Abstract: Identification of market abuse is an extremely complicated activity that requires the analysis of large and complex datasets. We propose an unsupervised machine learning method for contextual anomaly detection, which allows to support market surveillance aimed at identifying potential insider trading activities. This method lies in the reconstruction-based paradigm and employs principal component analysis and autoencoders as dimensionality reduction techniques. The only input of this method is the trading position of each investor active on the asset for which we have a price sensitive event (PSE). After determining reconstruction errors related to the trading profiles, several conditions are imposed in order to identify investors whose behavior could be suspicious of insider trading related to the PSE. As a case study, we apply our method to investor resolved data of Italian stocks around takeover bids.
+    
+[^3]: 一种适用于离散价格变动和不规则时间间隔观测的日内GARCH模型
+
+    An Intraday GARCH Model for Discrete Price Changes and Irregularly Spaced Observations. (arXiv:2211.12376v3 [q-fin.ST] UPDATED)
+
+    [http://arxiv.org/abs/2211.12376](http://arxiv.org/abs/2211.12376)
+
+    这篇论文提出了一种新的适用于高频价格的日内GARCH模型，该模型考虑了不规则时间间隔观测、同时交易、价格离散性和市场微观结构噪声。通过使用平滑样条捕捉交易持续时间与价格波动性之间的关系，并且使用零膨胀Skellam分布的得分驱动框架，该模型可以很好地拟合数据，并且可以用于测量每日实现波动性。
+
+    
+
+    我们提出了一种新颖的基于观测的高频价格模型。我们考虑了不规则时间间隔观测、同时交易、价格离散性和市场微观结构噪声。使用平滑样条捕捉交易持续时间与价格波动性之间的关系，以及交易持续时间和价格波动性的日内模式。动态模型基于具有时间变化波动性的零膨胀Skellam分布的得分驱动框架。通过包括移动平均分量来滤除市场微观结构噪声。该模型采用最大似然方法进行估计。在对IBM股票的实证研究中，我们证明了该模型对数据拟合较好。除了对日内波动性建模外，它还可以用于测量每日实现波动性。
+
+    We develop a novel observation-driven model for high-frequency prices. We account for irregularly spaced observations, simultaneous transactions, discreteness of prices, and market microstructure noise. The relation between trade durations and price volatility, as well as intraday patterns of trade durations and price volatility, is captured using smoothing splines. The dynamic model is based on the zero-inflated Skellam distribution with time-varying volatility in a score-driven framework. Market microstructure noise is filtered by including a moving average component. The model is estimated by the maximum likelihood method. In an empirical study of the IBM stock, we demonstrate that the model provides a good fit to the data. Besides modeling intraday volatility, it can also be used to measure daily realized volatility.
     
 
