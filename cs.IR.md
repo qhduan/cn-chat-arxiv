@@ -2,82 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Generative-Contrastive Heterogeneous Graph Neural Network](https://arxiv.org/abs/2404.02810) | 本研究提出了一种生成-对比异构图神经网络，通过对比视图增强策略、位置感知和语义感知正样本采样策略以及分层对比学习策略来克服图数据增强的限制。 |
-| [^2] | [Entity Disambiguation via Fusion Entity Decoding](https://arxiv.org/abs/2404.01626) | 提出了一种通过融合实体描述进行实体消歧的编码-解码模型。 |
-| [^3] | [ResumeFlow: An LLM-facilitated Pipeline for Personalized Resume Generation and Refinement](https://arxiv.org/abs/2402.06221) | ResumeFlow是一种利用LLM技术的工具，能够帮助求职者根据特定的职位要求生成个性化的简历，从而解决了手动定制简历的耗时和容易出错的问题。 |
-| [^4] | [Macro Graph Neural Networks for Online Billion-Scale Recommender Systems.](http://arxiv.org/abs/2401.14939) | 本文提出了宏观图神经网络（MAG）来解决Graph Neural Networks在亿级推荐系统中预测点击率（CTR）的挑战。MAG通过将行为模式相似的微观节点分组，将节点数量从数十亿减少到数百个，从而解决了计算复杂度的问题。 |
-| [^5] | [Medication Recommendation via Domain Knowledge Informed Deep Learning.](http://arxiv.org/abs/2305.19604) | 提出一种基于动态领域知识的药物推荐框架DKINet，将领域知识与患者临床表现相结合，此为首次实验。 |
+| [^1] | [Cobweb: An Incremental and Hierarchical Model of Human-Like Category Learning](https://arxiv.org/abs/2403.03835) | Cobweb是一种类似人类类别学习系统，采用类别效用度量构建分层组织的类似树状结构，能够捕捉心理效应并在单一模型中展现出实例和原型学习的灵活性，为将来研究人类类别学习提供了基础。 |
+| [^2] | [REFORM: Removing False Correlation in Multi-level Interaction for CTR Prediction.](http://arxiv.org/abs/2309.14891) | REFORM是一个CTR预测框架，通过两个流式叠加的循环结构利用了多级高阶特征表示，并消除了误关联。 |
+| [^3] | [Multi-behavior Recommendation with SVD Graph Neural Networks.](http://arxiv.org/abs/2309.06912) | 本研究提出了一种使用SVD图神经网络进行多行为推荐的模型MB-SVD，通过考虑用户在不同行为下的偏好，改善了推荐效果，同时更好地解决了冷启动问题。 |
 
 # 详细
 
-[^1]: 生成-对比异构图神经网络
+[^1]: Cobweb：一种增量和分层式的人类类别学习模型
 
-    Generative-Contrastive Heterogeneous Graph Neural Network
+    Cobweb: An Incremental and Hierarchical Model of Human-Like Category Learning
 
-    [https://arxiv.org/abs/2404.02810](https://arxiv.org/abs/2404.02810)
+    [https://arxiv.org/abs/2403.03835](https://arxiv.org/abs/2403.03835)
 
-    本研究提出了一种生成-对比异构图神经网络，通过对比视图增强策略、位置感知和语义感知正样本采样策略以及分层对比学习策略来克服图数据增强的限制。
-
-    
-
-    异构图表达了现实世界中复杂关系，包括多种类型的节点和边。受自监督学习启发，对比异构图神经网络(HGNNs)利用数据增强和辨别器展现了巨大潜力用于下游任务。然而，由于图的离散和抽象特性，数据增强仍然存在限制。为了解决上述限制，我们提出了一种新颖的\textit{生成-对比异构图神经网络(GC-HGNN)}。
-
-    arXiv:2404.02810v1 Announce Type: new  Abstract: Heterogeneous Graphs (HGs) can effectively model complex relationships in the real world by multi-type nodes and edges. In recent years, inspired by self-supervised learning, contrastive Heterogeneous Graphs Neural Networks (HGNNs) have shown great potential by utilizing data augmentation and discriminators for downstream tasks. However, data augmentation is still limited due to the discrete and abstract nature of graphs. To tackle the above limitations, we propose a novel \textit{Generative-Contrastive Heterogeneous Graph Neural Network (GC-HGNN)}. Specifically, we first propose a heterogeneous graph generative learning enhanced contrastive paradigm. This paradigm includes: 1) A contrastive view augmentation strategy by using masked autoencoder. 2) Position-aware and semantics-aware positive sample sampling strategy for generate hard negative samples. 3) A hierarchical contrastive learning strategy for capturing local and global informa
-    
-[^2]: 通过融合实体解码进行实体消歧
-
-    Entity Disambiguation via Fusion Entity Decoding
-
-    [https://arxiv.org/abs/2404.01626](https://arxiv.org/abs/2404.01626)
-
-    提出了一种通过融合实体描述进行实体消歧的编码-解码模型。
+    Cobweb是一种类似人类类别学习系统，采用类别效用度量构建分层组织的类似树状结构，能够捕捉心理效应并在单一模型中展现出实例和原型学习的灵活性，为将来研究人类类别学习提供了基础。
 
     
 
-    实体消歧（ED）是将模糊实体的提及链接到知识库中的指代实体的过程，在实体链接（EL）中起着核心作用。现有的生成式方法在标准化的ZELDA基准下展示出比分类方法更高的准确性。然而，生成式方法需要大规模的预训练且生成效率低下。最重要的是，实体描述经常被忽视，而这些描述可能包含区分相似实体的关键信息。我们提出了一种编码-解码模型，以更详细的实体描述来进行实体消歧。给定文本和候选实体，编码器学习文本与每个候选实体之间的交互，为每个实体候选产生表示。解码器随后将实体候选的表示融合在一起，并选择正确的实体。
+    Cobweb是一种类似人类的类别学习系统，与其他增量分类模型不同的是，它利用类别效用度量构建分层组织的类似树状结构。先前的研究表明，Cobweb能够捕捉心理效应，如基本水平、典型性和扇形效应。然而，对Cobweb作为人类分类模型的更广泛评估仍然缺乏。本研究填补了这一空白。它确定了Cobweb与经典的人类类别学习效应的一致性。还探讨了Cobweb展现出在单一模型中既有实例又有原型学习的灵活性。这些发现为将来研究Cobweb作为人类类别学习的综合模型奠定了基础。
 
-    arXiv:2404.01626v1 Announce Type: new  Abstract: Entity disambiguation (ED), which links the mentions of ambiguous entities to their referent entities in a knowledge base, serves as a core component in entity linking (EL). Existing generative approaches demonstrate improved accuracy compared to classification approaches under the standardized ZELDA benchmark. Nevertheless, generative approaches suffer from the need for large-scale pre-training and inefficient generation. Most importantly, entity descriptions, which could contain crucial information to distinguish similar entities from each other, are often overlooked. We propose an encoder-decoder model to disambiguate entities with more detailed entity descriptions. Given text and candidate entities, the encoder learns interactions between the text and each candidate entity, producing representations for each entity candidate. The decoder then fuses the representations of entity candidates together and selects the correct entity. Our 
+    arXiv:2403.03835v1 Announce Type: cross  Abstract: Cobweb, a human like category learning system, differs from other incremental categorization models in constructing hierarchically organized cognitive tree-like structures using the category utility measure. Prior studies have shown that Cobweb can capture psychological effects such as the basic level, typicality, and fan effects. However, a broader evaluation of Cobweb as a model of human categorization remains lacking. The current study addresses this gap. It establishes Cobweb's alignment with classical human category learning effects. It also explores Cobweb's flexibility to exhibit both exemplar and prototype like learning within a single model. These findings set the stage for future research on Cobweb as a comprehensive model of human category learning.
     
-[^3]: ResumeFlow: 一种个性化简历生成和修订的LLM辅助流程
+[^2]: REFORM: 移除CTR预测中的误关联的多级交互
 
-    ResumeFlow: An LLM-facilitated Pipeline for Personalized Resume Generation and Refinement
+    REFORM: Removing False Correlation in Multi-level Interaction for CTR Prediction. (arXiv:2309.14891v1 [cs.IR])
 
-    [https://arxiv.org/abs/2402.06221](https://arxiv.org/abs/2402.06221)
+    [http://arxiv.org/abs/2309.14891](http://arxiv.org/abs/2309.14891)
 
-    ResumeFlow是一种利用LLM技术的工具，能够帮助求职者根据特定的职位要求生成个性化的简历，从而解决了手动定制简历的耗时和容易出错的问题。
-
-    
-
-    对于许多求职者来说，制作符合特定职位要求的理想简历是一项具有挑战性的任务，尤其是对于初入职场的求职者来说。虽然强烈建议求职者根据他们申请的具体职位定制简历，但手动根据工作描述和职位要求来定制简历通常 (1) 非常耗时，且 (2) 容易出错。此外，在申请多个职位时进行这样的定制步骤可能导致编辑简历质量不高。为了解决这个问题，在本演示论文中，我们提出了ResumeFlow: 一种利用大型语言模型（LLM）的工具，使终端用户只需提供详细的简历和所需的职位发布信息，就能在几秒钟内获得一个针对该特定职位发布的个性化简历。我们提出的流程利用了最先进的LLM（如OpenAI的GPT-4和Google的......）
-
-    Crafting the ideal, job-specific resume is a challenging task for many job applicants, especially for early-career applicants. While it is highly recommended that applicants tailor their resume to the specific role they are applying for, manually tailoring resumes to job descriptions and role-specific requirements is often (1) extremely time-consuming, and (2) prone to human errors. Furthermore, performing such a tailoring step at scale while applying to several roles may result in a lack of quality of the edited resumes. To tackle this problem, in this demo paper, we propose ResumeFlow: a Large Language Model (LLM) aided tool that enables an end user to simply provide their detailed resume and the desired job posting, and obtain a personalized resume specifically tailored to that specific job posting in the matter of a few seconds. Our proposed pipeline leverages the language understanding and information extraction capabilities of state-of-the-art LLMs such as OpenAI's GPT-4 and Goog
-    
-[^4]: 在线亿级推荐系统的宏观图神经网络
-
-    Macro Graph Neural Networks for Online Billion-Scale Recommender Systems. (arXiv:2401.14939v1 [cs.IR])
-
-    [http://arxiv.org/abs/2401.14939](http://arxiv.org/abs/2401.14939)
-
-    本文提出了宏观图神经网络（MAG）来解决Graph Neural Networks在亿级推荐系统中预测点击率（CTR）的挑战。MAG通过将行为模式相似的微观节点分组，将节点数量从数十亿减少到数百个，从而解决了计算复杂度的问题。
+    REFORM是一个CTR预测框架，通过两个流式叠加的循环结构利用了多级高阶特征表示，并消除了误关联。
 
     
 
-    鉴于聚合数十亿个邻居所涉及的计算复杂度令图神经网络（GNNs）在亿级推荐系统中预测点击率（CTR）面临长期挑战，本文提出了一种名为“宏观推荐图（MAG）”的更适合亿级推荐的方法。MAG通过将行为模式相似的微观节点（用户和物品）分组，将节点数量从数十亿个减少到数百个，从而解决了基础设施中的计算复杂度问题。
+    点击率（CTR）预测是在线广告和推荐系统中的关键任务，准确的预测对于用户定位和个性化推荐至关重要。最近的一些前沿方法主要关注复杂的隐式和显式特征交互。然而，这些方法忽视了由混淆因子或选择偏差引起的误关联问题。这个问题在这些交互的复杂性和冗余性下变得更加严重。我们提出了一种CTR预测框架，称为REFORM，在多级特征交互中移除了误关联。所提出的REFORM框架通过两个流式叠加的循环结构利用了大量的多级高阶特征表示，并消除了误关联。该框架有两个关键组成部分：I. 多级叠加循环（MSR）结构使模型能够高效地捕捉到来自特征空间的多样非线性交互。
 
-    Predicting Click-Through Rate (CTR) in billion-scale recommender systems poses a long-standing challenge for Graph Neural Networks (GNNs) due to the overwhelming computational complexity involved in aggregating billions of neighbors. To tackle this, GNN-based CTR models usually sample hundreds of neighbors out of the billions to facilitate efficient online recommendations. However, sampling only a small portion of neighbors results in a severe sampling bias and the failure to encompass the full spectrum of user or item behavioral patterns. To address this challenge, we name the conventional user-item recommendation graph as "micro recommendation graph" and introduce a more suitable MAcro Recommendation Graph (MAG) for billion-scale recommendations. MAG resolves the computational complexity problems in the infrastructure by reducing the node count from billions to hundreds. Specifically, MAG groups micro nodes (users and items) with similar behavior patterns to form macro nodes. Subsequ
+    Click-through rate (CTR) prediction is a critical task in online advertising and recommendation systems, as accurate predictions are essential for user targeting and personalized recommendations. Most recent cutting-edge methods primarily focus on investigating complex implicit and explicit feature interactions. However, these methods neglect the issue of false correlations caused by confounding factors or selection bias. This problem is further magnified by the complexity and redundancy of these interactions. We propose a CTR prediction framework that removes false correlation in multi-level feature interaction, termed REFORM. The proposed REFORM framework exploits a wide range of multi-level high-order feature representations via a two-stream stacked recurrent structure while eliminating false correlations. The framework has two key components: I. The multi-level stacked recurrent (MSR) structure enables the model to efficiently capture diverse nonlinear interactions from feature spa
     
-[^5]: 通过领域知识启示的深度学习进行药物推荐
+[^3]: 用SVD图神经网络进行多行为推荐
 
-    Medication Recommendation via Domain Knowledge Informed Deep Learning. (arXiv:2305.19604v1 [cs.AI])
+    Multi-behavior Recommendation with SVD Graph Neural Networks. (arXiv:2309.06912v1 [cs.IR])
 
-    [http://arxiv.org/abs/2305.19604](http://arxiv.org/abs/2305.19604)
+    [http://arxiv.org/abs/2309.06912](http://arxiv.org/abs/2309.06912)
 
-    提出一种基于动态领域知识的药物推荐框架DKINet，将领域知识与患者临床表现相结合，此为首次实验。
+    本研究提出了一种使用SVD图神经网络进行多行为推荐的模型MB-SVD，通过考虑用户在不同行为下的偏好，改善了推荐效果，同时更好地解决了冷启动问题。
 
     
 
-    药物推荐是医疗保健的基本但至关重要的分支，提供机会为复杂健康状况的患者支持临床医生更精确的药物处方。从电子健康记录（EHR）中学习推荐药物是先前研究中最常见的方法。然而，大多数研究忽视了根据患者的EHR中的临床表现纳入领域知识的问题。为了解决这些问题，我们提出了一种新颖的基于动态领域知识的药物推荐框架，即领域知识启示网络（DKINet），用于将领域知识与可观察的患者临床表现相结合。特别是，我们首先设计了一个基于领域知识的编码器来捕捉领域信息，然后开发了一个数据驱动的编码器将领域知识整合到可观察的EHR中。
+    图神经网络(GNNs)广泛应用于推荐系统领域，为用户提供个性化推荐并取得显著成果。最近，融入对比学习的GNNs在处理推荐系统的稀疏数据问题方面表现出了很大的潜力。然而，现有的对比学习方法在解决冷启动问题和抵抗噪声干扰方面仍然存在限制，尤其是对于多行为推荐。为了缓解上述问题，本研究提出了一种基于GNNs的多行为推荐模型MB-SVD，利用奇异值分解(SVD)图来提高模型性能。具体而言，MB-SVD考虑了用户在不同行为下的偏好，改善了推荐效果，同时更好地解决了冷启动问题。我们的模型引入了一种创新的方法论，将多行为对比学习范式融入到模型中，以提高模型的性能。
 
-    Medication recommendation is a fundamental yet crucial branch of healthcare, which provides opportunities to support clinical physicians with more accurate medication prescriptions for patients with complex health conditions. Learning from electronic health records (EHR) to recommend medications is the most common way in previous studies. However, most of them neglect incorporating domain knowledge according to the clinical manifestations in the EHR of the patient. To address these issues, we propose a novel \textbf{D}omain \textbf{K}nowledge \textbf{I}nformed \textbf{Net}work (DKINet) to integrate domain knowledge with observable clinical manifestations of the patient, which is the first dynamic domain knowledge informed framework toward medication recommendation. In particular, we first design a knowledge-driven encoder to capture the domain information and then develop a data-driven encoder to integrate domain knowledge into the observable EHR. To endow the model with the capability
+    Graph Neural Networks (GNNs) has been extensively employed in the field of recommender systems, offering users personalized recommendations and yielding remarkable outcomes. Recently, GNNs incorporating contrastive learning have demonstrated promising performance in handling sparse data problem of recommendation system. However, existing contrastive learning methods still have limitations in addressing the cold-start problem and resisting noise interference especially for multi-behavior recommendation. To mitigate the aforementioned issues, the present research posits a GNNs based multi-behavior recommendation model MB-SVD that utilizes Singular Value Decomposition (SVD) graphs to enhance model performance. In particular, MB-SVD considers user preferences under different behaviors, improving recommendation effectiveness while better addressing the cold-start problem. Our model introduces an innovative methodology, which subsume multi-behavior contrastive learning paradigm to proficient
     
 
