@@ -2,67 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Prompt-enhanced Federated Content Representation Learning for Cross-domain Recommendation.](http://arxiv.org/abs/2401.14678) | 这项研究提出了一种提升Prompt的联邦内容表示学习方法，用于解决跨领域推荐中的隐私泄露和知识转移挑战。 |
-| [^2] | [REFORM: Removing False Correlation in Multi-level Interaction for CTR Prediction.](http://arxiv.org/abs/2309.14891) | REFORM是一个CTR预测框架，通过两个流式叠加的循环结构利用了多级高阶特征表示，并消除了误关联。 |
-| [^3] | [Using Large Language Models to Generate, Validate, and Apply User Intent Taxonomies.](http://arxiv.org/abs/2309.13063) | 通过使用大型语言模型生成用户意图分类，我们提出了一种新方法来分析和验证日志数据中的用户意图，从而解决了手动或基于机器学习的标注方法在大型和不断变化的数据集上的问题。 |
-| [^4] | [A Unified Review of Deep Learning for Automated Medical Coding.](http://arxiv.org/abs/2201.02797) | 本文综述了深度学习在自动医疗编码领域的发展，提出了一个统一框架，总结了最新的高级模型，并讨论了未来发展的挑战和方向。 |
+| [^1] | [C-Pack: Packaged Resources To Advance General Chinese Embedding.](http://arxiv.org/abs/2309.07597) | C-Pack是一套推进普通汉语嵌入领域的资源，包括全面汉语文本嵌入基准、大规模文本嵌入数据集和涵盖多个尺寸的嵌入模型系列。该资源集在C-MTEB基准上实现了最高+10%的表现，并通过整合和优化一套训练方法进一步提升了效果。此外，C-Pack还发布了英语文本嵌入数据和模型，实现了最先进的性能。该资源集可公开获取。 |
+| [^2] | [Temporal Interest Network for Click-Through Rate Prediction.](http://arxiv.org/abs/2308.08487) | 本文提出了时间兴趣网络（TIN），用于捕捉行为与目标之间的四重语义和时间相关性，以预测点击率的效果和已有方法对这种相关性的学习程度尚不清楚。 |
 
 # 详细
 
-[^1]: 提升Prompt的联邦内容表示学习用于跨领域推荐
+[^1]: C-Pack: 推进普通汉语嵌入的打包资源
 
-    Prompt-enhanced Federated Content Representation Learning for Cross-domain Recommendation. (arXiv:2401.14678v1 [cs.IR])
+    C-Pack: Packaged Resources To Advance General Chinese Embedding. (arXiv:2309.07597v1 [cs.CL])
 
-    [http://arxiv.org/abs/2401.14678](http://arxiv.org/abs/2401.14678)
+    [http://arxiv.org/abs/2309.07597](http://arxiv.org/abs/2309.07597)
 
-    这项研究提出了一种提升Prompt的联邦内容表示学习方法，用于解决跨领域推荐中的隐私泄露和知识转移挑战。
-
-    
-
-    随着数据稀疏问题的缓解，跨领域推荐作为有效的技术已经在近年来得到广泛研究。然而，之前的研究工作可能会导致领域隐私泄露，因为它们在训练过程中需要将各个领域的数据聚合到一个中央服务器上。虽然一些研究通过联邦学习对隐私进行保护的跨领域推荐进行了研究，但仍存在以下限制：1）它们需要将用户的个人信息上传到中央服务器，存在用户隐私泄露的风险。2）现有的联邦方法主要依赖于原子项目ID来表示项目，这使它们无法在统一的特征空间中对项目进行建模，增加了领域之间的知识转移的挑战。3）它们都基于知道领域之间重叠用户的前提，这在实际应用中是不可行的。为了解决上述限制，我们着眼于隐私保护跨领域推荐。
-
-    Cross-domain Recommendation (CDR) as one of the effective techniques in alleviating the data sparsity issues has been widely studied in recent years. However, previous works may cause domain privacy leakage since they necessitate the aggregation of diverse domain data into a centralized server during the training process. Though several studies have conducted privacy preserving CDR via Federated Learning (FL), they still have the following limitations: 1) They need to upload users' personal information to the central server, posing the risk of leaking user privacy. 2) Existing federated methods mainly rely on atomic item IDs to represent items, which prevents them from modeling items in a unified feature space, increasing the challenge of knowledge transfer among domains. 3) They are all based on the premise of knowing overlapped users between domains, which proves impractical in real-world applications. To address the above limitations, we focus on Privacy-preserving Cross-domain Reco
-    
-[^2]: REFORM: 移除CTR预测中的误关联的多级交互
-
-    REFORM: Removing False Correlation in Multi-level Interaction for CTR Prediction. (arXiv:2309.14891v1 [cs.IR])
-
-    [http://arxiv.org/abs/2309.14891](http://arxiv.org/abs/2309.14891)
-
-    REFORM是一个CTR预测框架，通过两个流式叠加的循环结构利用了多级高阶特征表示，并消除了误关联。
+    C-Pack是一套推进普通汉语嵌入领域的资源，包括全面汉语文本嵌入基准、大规模文本嵌入数据集和涵盖多个尺寸的嵌入模型系列。该资源集在C-MTEB基准上实现了最高+10%的表现，并通过整合和优化一套训练方法进一步提升了效果。此外，C-Pack还发布了英语文本嵌入数据和模型，实现了最先进的性能。该资源集可公开获取。
 
     
 
-    点击率（CTR）预测是在线广告和推荐系统中的关键任务，准确的预测对于用户定位和个性化推荐至关重要。最近的一些前沿方法主要关注复杂的隐式和显式特征交互。然而，这些方法忽视了由混淆因子或选择偏差引起的误关联问题。这个问题在这些交互的复杂性和冗余性下变得更加严重。我们提出了一种CTR预测框架，称为REFORM，在多级特征交互中移除了误关联。所提出的REFORM框架通过两个流式叠加的循环结构利用了大量的多级高阶特征表示，并消除了误关联。该框架有两个关键组成部分：I. 多级叠加循环（MSR）结构使模型能够高效地捕捉到来自特征空间的多样非线性交互。
+    我们介绍了C-Pack，这是一套显著推进普通汉语嵌入领域的资源。C-Pack包括三个关键资源。1）C-MTEB是一个涵盖6个任务和35个数据集的全面汉语文本嵌入基准。2）C-MTP是一个从标记和未标记的汉语语料库中策划的大规模文本嵌入数据集，用于训练嵌入模型。3）C-TEM是一个涵盖多个尺寸的嵌入模型系列。我们的模型在C-MTEB上的表现优于之前的所有汉语文本嵌入达到了发布时的最高+10%。我们还整合和优化了C-TEM的整套训练方法。除了我们关于普通汉语嵌入的资源外，我们还发布了我们的英语文本嵌入数据和模型。这些英语模型在MTEB基准上实现了最先进的性能；与此同时，我们发布的英语数据比汉语数据大2倍。所有这些资源都可以在https://github.com/FlagOpen/FlagEmbedding上公开获取。
 
-    Click-through rate (CTR) prediction is a critical task in online advertising and recommendation systems, as accurate predictions are essential for user targeting and personalized recommendations. Most recent cutting-edge methods primarily focus on investigating complex implicit and explicit feature interactions. However, these methods neglect the issue of false correlations caused by confounding factors or selection bias. This problem is further magnified by the complexity and redundancy of these interactions. We propose a CTR prediction framework that removes false correlation in multi-level feature interaction, termed REFORM. The proposed REFORM framework exploits a wide range of multi-level high-order feature representations via a two-stream stacked recurrent structure while eliminating false correlations. The framework has two key components: I. The multi-level stacked recurrent (MSR) structure enables the model to efficiently capture diverse nonlinear interactions from feature spa
+    We introduce C-Pack, a package of resources that significantly advance the field of general Chinese embeddings. C-Pack includes three critical resources. 1) C-MTEB is a comprehensive benchmark for Chinese text embeddings covering 6 tasks and 35 datasets. 2) C-MTP is a massive text embedding dataset curated from labeled and unlabeled Chinese corpora for training embedding models. 3) C-TEM is a family of embedding models covering multiple sizes. Our models outperform all prior Chinese text embeddings on C-MTEB by up to +10% upon the time of the release. We also integrate and optimize the entire suite of training methods for C-TEM. Along with our resources on general Chinese embedding, we release our data and models for English text embeddings. The English models achieve state-of-the-art performance on MTEB benchmark; meanwhile, our released English data is 2 times larger than the Chinese data. All these resources are made publicly available at https://github.com/FlagOpen/FlagEmbedding.
     
-[^3]: 使用大型语言模型生成、验证和应用用户意图分类方法
+[^2]: 点击率预测的时间兴趣网络
 
-    Using Large Language Models to Generate, Validate, and Apply User Intent Taxonomies. (arXiv:2309.13063v1 [cs.IR])
+    Temporal Interest Network for Click-Through Rate Prediction. (arXiv:2308.08487v1 [cs.IR])
 
-    [http://arxiv.org/abs/2309.13063](http://arxiv.org/abs/2309.13063)
+    [http://arxiv.org/abs/2308.08487](http://arxiv.org/abs/2308.08487)
 
-    通过使用大型语言模型生成用户意图分类，我们提出了一种新方法来分析和验证日志数据中的用户意图，从而解决了手动或基于机器学习的标注方法在大型和不断变化的数据集上的问题。
-
-    
-
-    日志数据可以揭示用户与网络搜索服务的交互方式、用户的需求以及满意程度等宝贵信息。然而，分析日志数据中的用户意图并不容易，尤其是对于新的网络搜索形式，如人工智能驱动的聊天。为了理解日志数据中的用户意图，我们需要一种能够用有意义的分类方式标记它们的方法，以捕捉其多样性和动态性。现有的方法依赖于手动或基于机器学习的标注，这些方法对于大型且不断变化的数据集而言，要么代价高昂要么不够灵活。我们提出了一种使用大型语言模型(LLM)的新方法，这种模型能够生成丰富且相关的概念、描述和示例来表示用户意图。然而，使用LLM生成用户意图分类并将其应用于日志分析可能存在两个主要问题：这样的分类得不到外部验证，并且可能存在不良的反馈回路。为了克服这些问题，我们提出了一种新的方法，通过人工专家和评估者来验证。
-
-    Log data can reveal valuable information about how users interact with web search services, what they want, and how satisfied they are. However, analyzing user intents in log data is not easy, especially for new forms of web search such as AI-driven chat. To understand user intents from log data, we need a way to label them with meaningful categories that capture their diversity and dynamics. Existing methods rely on manual or ML-based labeling, which are either expensive or inflexible for large and changing datasets. We propose a novel solution using large language models (LLMs), which can generate rich and relevant concepts, descriptions, and examples for user intents. However, using LLMs to generate a user intent taxonomy and apply it to do log analysis can be problematic for two main reasons: such a taxonomy is not externally validated, and there may be an undesirable feedback loop. To overcome these issues, we propose a new methodology with human experts and assessors to verify th
-    
-[^4]: 深度学习在自动医疗编码中的应用综述
-
-    A Unified Review of Deep Learning for Automated Medical Coding. (arXiv:2201.02797v3 [cs.CL] UPDATED)
-
-    [http://arxiv.org/abs/2201.02797](http://arxiv.org/abs/2201.02797)
-
-    本文综述了深度学习在自动医疗编码领域的发展，提出了一个统一框架，总结了最新的高级模型，并讨论了未来发展的挑战和方向。
+    本文提出了时间兴趣网络（TIN），用于捕捉行为与目标之间的四重语义和时间相关性，以预测点击率的效果和已有方法对这种相关性的学习程度尚不清楚。
 
     
 
-    自动医疗编码是医疗运营和服务的基本任务，通过从临床文档中预测医疗编码来管理非结构化数据。近年来，深度学习和自然语言处理的进步已广泛应用于该任务。但基于深度学习的自动医疗编码缺乏对神经网络架构设计的统一视图。本综述提出了一个统一框架，以提供对医疗编码模型组件的一般理解，并总结了在此框架下最近的高级模型。我们的统一框架将医疗编码分解为四个主要组件，即用于文本特征提取的编码器模块、构建深度编码器架构的机制、用于将隐藏表示转换成医疗代码的解码器模块以及辅助信息的使用。最后，我们介绍了基准和真实世界中的使用情况，讨论了关键的研究挑战和未来方向。
+    用户行为的历史是预测点击率最重要的特征之一，因为它们与目标项目具有强烈的语义和时间相关性。虽然已有文献分别研究了这些相关性，但尚未分析它们的组合，即行为语义、目标语义、行为时间和目标时间的四重相关性。这种相关性对性能的影响以及现有方法学习这种相关性的程度尚不清楚。为了填补这一空白，我们在实践中测量了四重相关性，并观察到直观而强大的四重模式。我们测量了几种代表性的用户行为方法的学习相关性，但令人惊讶的是，它们都没有学习到这样的模式，特别是时间模式。在本文中，我们提出了时间兴趣网络（TIN）来捕捉行为与目标之间的四重语义和时间相关性。
 
-    Automated medical coding, an essential task for healthcare operation and delivery, makes unstructured data manageable by predicting medical codes from clinical documents. Recent advances in deep learning and natural language processing have been widely applied to this task. However, deep learning-based medical coding lacks a unified view of the design of neural network architectures. This review proposes a unified framework to provide a general understanding of the building blocks of medical coding models and summarizes recent advanced models under the proposed framework. Our unified framework decomposes medical coding into four main components, i.e., encoder modules for text feature extraction, mechanisms for building deep encoder architectures, decoder modules for transforming hidden representations into medical codes, and the usage of auxiliary information. Finally, we introduce the benchmarks and real-world usage and discuss key research challenges and future directions.
+    The history of user behaviors constitutes one of the most significant characteristics in predicting the click-through rate (CTR), owing to their strong semantic and temporal correlation with the target item. While the literature has individually examined each of these correlations, research has yet to analyze them in combination, that is, the quadruple correlation of (behavior semantics, target semantics, behavior temporal, and target temporal). The effect of this correlation on performance and the extent to which existing methods learn it remain unknown. To address this gap, we empirically measure the quadruple correlation and observe intuitive yet robust quadruple patterns. We measure the learned correlation of several representative user behavior methods, but to our surprise, none of them learn such a pattern, especially the temporal one.  In this paper, we propose the Temporal Interest Network (TIN) to capture the quadruple semantic and temporal correlation between behaviors and th
     
 

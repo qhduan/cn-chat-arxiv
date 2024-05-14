@@ -2,112 +2,262 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [RNNs are not Transformers (Yet): The Key Bottleneck on In-context Retrieval](https://arxiv.org/abs/2402.18510) | 本文研究了RNNs和Transformer在处理算法问题时的表现能力差距，发现RNNs存在关键瓶颈，即无法完美地从上下文中检索信息，导致无法像Transformer那样轻松解决需要这种能力的任务。 |
-| [^2] | [Information-Theoretic Safe Bayesian Optimization](https://arxiv.org/abs/2402.15347) | 提出了一种信息论安全探索准则，结合贝叶斯优化收益函数，形成了一种新颖的安全贝叶斯优化选择准则。 |
-| [^3] | [Logistic-beta processes for modeling dependent random probabilities with beta marginals](https://arxiv.org/abs/2402.07048) | 本文提出了一种新颖的logistic-beta过程用于建模具有beta边际分布的相关随机概率。该过程具有灵活的相关结构和计算优势，并通过非参数二分类回归模拟研究进行了验证。 |
-| [^4] | [Riemann-Lebesgue Forest for Regression](https://arxiv.org/abs/2402.04550) | 提出了一种新颖的集成方法Riemann-Lebesgue Forest (RLF)用于回归问题，通过划分函数的值域为多个区间来逼近可测函数的思想，开发了一种新的树学习算法Riemann-Lebesgue Tree。通过Hoeffding分解和Stein方法推导了RLF在不同参数设置下的渐近性能，并在仿真数据和真实世界数据集上的实验中证明了RLF与原始随机森林相比具有竞争力的性能。 |
-| [^5] | [Neurosymbolic Grounding for Compositional World Models.](http://arxiv.org/abs/2310.12690) | 本论文介绍了一种名为Cosmos的框架，用于对象为中心的世界建模，通过使用神经符号化基础和视觉-语言基础模型，实现了在未见过的输入场景上的高性能组合泛化能力。 |
-| [^6] | [Flexible and efficient spatial extremes emulation via variational autoencoders.](http://arxiv.org/abs/2307.08079) | 本文提出了一种新的空间极端值模型，通过集成在变分自动编码器的结构中，可以灵活、高效地模拟具有非平稳相关性的极端事件。实验证明，在时间效率和性能上，相对于传统的贝叶斯推断和许多具有平稳相关性的空间极端值模型，我们的方法具有优势。 |
-| [^7] | [Adjusted Wasserstein Distributionally Robust Estimator in Statistical Learning.](http://arxiv.org/abs/2303.15579) | 本文提出了一种统计学习中的调整Wasserstein分布鲁棒估计方法，能够提高估计的统计性能，保持样本外性能保证，特别适用于广义线性模型。 |
+| [^1] | [DTOR: Decision Tree Outlier Regressor to explain anomalies](https://arxiv.org/abs/2403.10903) | DTOR是一种决策树异常值回归器，通过估计异常检测模型生成的异常分数来产生基于规则的解释，具有鲁棒性，适用于具有大量特征数据集。 |
+| [^2] | [Learning to Defer to a Population: A Meta-Learning Approach](https://arxiv.org/abs/2403.02683) | 通过元学习，本研究提出一种学习推迟对人群的方法，该方法可以在测试时适应前所未见的专家，从而更好地面对困难决策。 |
+| [^3] | [Physics-constrained polynomial chaos expansion for scientific machine learning and uncertainty quantification](https://arxiv.org/abs/2402.15115) | 提出一种物理约束的多项式混沌展开方法，将科学机器学习与不确定性量化无缝集成，有效地实现SciML任务中的不确定性量化和在UQ任务中利用SciML提高不确定性评估。 |
+| [^4] | [Probability Tools for Sequential Random Projection](https://arxiv.org/abs/2402.14026) | 该论文提出了适用于顺序随机投影的概率框架，通过构建停止过程并采用混合方法，实现了对一系列相互连接的浓缩事件的分析，从而创造了对Johnson-Lindenstrauss引理的非平凡鞅扩展。 |
+| [^5] | [HyperAgent: A Simple, Scalable, Efficient and Provable Reinforcement Learning Framework for Complex Environments](https://arxiv.org/abs/2402.10228) | HyperAgent提出了一种简单、高效、可扩展的强化学习框架，在复杂环境下能够实现高效的计算和数据选择，是首个达到可证明可扩展的每步计算复杂度以及次线性后悔的方法。 |
+| [^6] | [Deeper or Wider: A Perspective from Optimal Generalization Error with Sobolev Loss](https://arxiv.org/abs/2402.00152) | 本文比较了更深的神经网络和更宽的神经网络在Sobolev损失的最优泛化误差方面的表现，研究发现神经网络的架构受多种因素影响，参数数量更多倾向于选择更宽的网络，而样本点数量和损失函数规则性更高倾向于选择更深的网络。 |
+| [^7] | [Calibrating dimension reduction hyperparameters in the presence of noise](https://arxiv.org/abs/2312.02946) | 本文提出了一个框架，用于在噪声存在的情况下校准降维超参数，探索了困惑度和维度数量的作用。 |
+| [^8] | [Convergence Rates for Stochastic Approximation: Biased Noise with Unbounded Variance, and Applications.](http://arxiv.org/abs/2312.02828) | 本论文研究了带有无界方差的有偏噪声对随机逼近算法的收敛速度的影响，并介绍了该算法在各个领域的应用。 |
+| [^9] | [Multi-unit soft sensing permits few-shot learning.](http://arxiv.org/abs/2309.15828) | 多单元软测量是利用可转移性学习算法改进软测量的一种方法，能够通过解决多个任务来增强软测量的性能，并且特别适用于具有多个实现的进程。 |
+| [^10] | [Properties of Discrete Sliced Wasserstein Losses.](http://arxiv.org/abs/2307.10352) | 本文研究了离散切割Wasserstein损失的性质，并探讨了其正则性和优化性质以及通过蒙特卡洛近似的方法。 |
+| [^11] | [Learning Active Subspaces and Discovering Important Features with Gaussian Radial Basis Functions Neural Networks.](http://arxiv.org/abs/2307.05639) | 本论文提出了一种修改的径向基函数神经网络模型，通过学习精度矩阵，从训练完成后的模型中提取有用信息，包括活跃子空间的方向和输入变量重要性的排序。 |
+| [^12] | [Posterior Collapse in Linear Conditional and Hierarchical Variational Autoencoders.](http://arxiv.org/abs/2306.05023) | 本文研究了高度相似的变分后验分布和先验分布之间的后验崩溃现象，特别地，通过对线性条件VAE和分层VAE进行分析，证明了这种现象是由于潜在变量层次关系不清晰而引起的。 |
+| [^13] | [MAGDiff: Covariate Data Set Shift Detection via Activation Graphs of Deep Neural Networks.](http://arxiv.org/abs/2305.13271) | MAGDiff是一种新的表示法，可以从神经网络分类器中提取，可以有效地检测协变数据集转移，而不需要训练新模型。这可以通过对比神经网络激活图来计算，并通过两个样本 Kolmogorov-Smirnov 测试进行实证验证。 |
+| [^14] | [Generalization with quantum geometry for learning unitaries.](http://arxiv.org/abs/2303.13462) | 本文研究了量子机器学习模型的泛化能力，使用数据的量子费舍尔信息度量来评估成功训练和泛化所需的电路参数和训练数据的数量，并展示通过去除对称性来提高泛化能力，同时发现超出分布泛化能力可以比使用相同分布更优。 |
+| [^15] | [Post-Episodic Reinforcement Learning Inference.](http://arxiv.org/abs/2302.08854) | 我们提出了一种后期情节式强化学习推断的方法，能够评估反事实的自适应策略并估计动态处理效应，通过重新加权的$Z$-估计方法稳定情节变化的估计方差。 |
+| [^16] | [Reinforcement Learning in Modern Biostatistics: Constructing Optimal Adaptive Interventions.](http://arxiv.org/abs/2203.02605) | 本文是关于将强化学习应用于自适应干预中的第一份统一调查，强化学习在动态治疗方案和移动健康中即时自适应干预这两个领域中都具有很大的应用潜力。在这两个领域之间存在相似和不同之处需要考虑，并且这里存在巨大的合作机会。 |
+| [^17] | [Rule Generation for Classification: Scalability, Interpretability, and Fairness.](http://arxiv.org/abs/2104.10751) | 这项研究介绍了一种新的基于规则的分类优化方法，利用列生成线性规划实现可扩展性，并通过分配成本系数和引入额外约束解决了解释性和公平性问题。该方法在局部解释性和公平性之间取得了良好的平衡。 |
 
 # 详细
 
-[^1]: RNNs还不是Transformer：在上下文检索中的关键瓶颈
+[^1]: DTOR：决策树异常值回归器用于解释异常
 
-    RNNs are not Transformers (Yet): The Key Bottleneck on In-context Retrieval
+    DTOR: Decision Tree Outlier Regressor to explain anomalies
 
-    [https://arxiv.org/abs/2402.18510](https://arxiv.org/abs/2402.18510)
+    [https://arxiv.org/abs/2403.10903](https://arxiv.org/abs/2403.10903)
 
-    本文研究了RNNs和Transformer在处理算法问题时的表现能力差距，发现RNNs存在关键瓶颈，即无法完美地从上下文中检索信息，导致无法像Transformer那样轻松解决需要这种能力的任务。
-
-    
-
-    本文探讨循环神经网络（RNNs）和Transformer在解决算法问题时的表示能力差距。我们重点关注RNNs是否能在处理长序列时，通过Chain-of-Thought (CoT)提示，与Transformer的性能相匹配。我们的理论分析显示CoT可以改进RNNs，但无法弥补与Transformer之间的差距。关键瓶颈在于RNNs无法完全从上下文中检索信息，即使经过CoT的增强：对于几个明确或隐式需要这种能力的任务，如联想召回和确定图是否为树，我们证明RNNs表达能力不足以解决这些任务，而Transformer可以轻松解决。相反，我们证明采用增强RNNs上下文检索能力的技术，包括
-
-    arXiv:2402.18510v1 Announce Type: cross  Abstract: This paper investigates the gap in representation powers of Recurrent Neural Networks (RNNs) and Transformers in the context of solving algorithmic problems. We focus on understanding whether RNNs, known for their memory efficiency in handling long sequences, can match the performance of Transformers, particularly when enhanced with Chain-of-Thought (CoT) prompting. Our theoretical analysis reveals that CoT improves RNNs but is insufficient to close the gap with Transformers. A key bottleneck lies in the inability of RNNs to perfectly retrieve information from the context, even with CoT: for several tasks that explicitly or implicitly require this capability, such as associative recall and determining if a graph is a tree, we prove that RNNs are not expressive enough to solve the tasks while Transformers can solve them with ease. Conversely, we prove that adopting techniques to enhance the in-context retrieval capability of RNNs, inclu
-    
-[^2]: 信息论安全贝叶斯优化
-
-    Information-Theoretic Safe Bayesian Optimization
-
-    [https://arxiv.org/abs/2402.15347](https://arxiv.org/abs/2402.15347)
-
-    提出了一种信息论安全探索准则，结合贝叶斯优化收益函数，形成了一种新颖的安全贝叶斯优化选择准则。
+    DTOR是一种决策树异常值回归器，通过估计异常检测模型生成的异常分数来产生基于规则的解释，具有鲁棒性，适用于具有大量特征数据集。
 
     
 
-    我们考虑了一个顺序决策任务，其目标是在不评估违反先验未知（安全）约束的参数的情况下优化未知函数。一个常见的方法是在未知函数上放置高斯过程先验，并且仅允许在高概率安全区域内进行评估。大多数当前方法依赖于对域的离散化，并且不能直接扩展到连续情况。此外，它们利用约束的规则假设的方式引入了一个额外的关键超参数。在本文中，我们提出了一个信息论安全探索准则，该准则直接利用GP后验来识别最具信息的安全参数进行评估。将这一探索准则与众所周知的贝叶斯优化收益函数结合起来，产生了一种新颖的安全贝叶斯优化选择准则。
+    解释异常值的出现以及其产生机制在各种领域中可能非常重要。故障、欺诈、威胁等问题，除了被正确识别之外，通常需要有效的解释以有效执行可操作的对抗措施。越来越广泛地使用复杂的机器学习方法来识别异常值，使得这样的解释更具挑战性。我们提出了决策树异常值回归器（DTOR），这是一种通过估计异常检测模型生成的异常分数来为单个数据点生成基于规则的解释的技术。这是通过首先应用决策树回归器来计算估计分数，然后提取与数据点分数相关联的相对路径来实现的。我们的结果表明，即使在具有大量特征的数据集中，DTOR的鲁棒性也得到了证实。此外，与其他基于规则的方法相比
 
-    arXiv:2402.15347v1 Announce Type: cross  Abstract: We consider a sequential decision making task, where the goal is to optimize an unknown function without evaluating parameters that violate an a~priori unknown (safety) constraint. A common approach is to place a Gaussian process prior on the unknown functions and allow evaluations only in regions that are safe with high probability. Most current methods rely on a discretization of the domain and cannot be directly extended to the continuous case. Moreover, the way in which they exploit regularity assumptions about the constraint introduces an additional critical hyperparameter. In this paper, we propose an information-theoretic safe exploration criterion that directly exploits the GP posterior to identify the most informative safe parameters to evaluate. The combination of this exploration criterion with a well known Bayesian optimization acquisition function yields a novel safe Bayesian optimization selection criterion. Our approach 
+    arXiv:2403.10903v1 Announce Type: cross  Abstract: Explaining outliers occurrence and mechanism of their occurrence can be extremely important in a variety of domains. Malfunctions, frauds, threats, in addition to being correctly identified, oftentimes need a valid explanation in order to effectively perform actionable counteracts. The ever more widespread use of sophisticated Machine Learning approach to identify anomalies make such explanations more challenging. We present the Decision Tree Outlier Regressor (DTOR), a technique for producing rule-based explanations for individual data points by estimating anomaly scores generated by an anomaly detection model. This is accomplished by first applying a Decision Tree Regressor, which computes the estimation score, and then extracting the relative path associated with the data point score. Our results demonstrate the robustness of DTOR even in datasets with a large number of features. Additionally, in contrast to other rule-based approac
     
-[^3]: 用于建模具有beta边际分布的相关随机概率的logistic-beta过程
+[^2]: 学习推迟对人群的学习：一种元学习方法
 
-    Logistic-beta processes for modeling dependent random probabilities with beta marginals
+    Learning to Defer to a Population: A Meta-Learning Approach
 
-    [https://arxiv.org/abs/2402.07048](https://arxiv.org/abs/2402.07048)
+    [https://arxiv.org/abs/2403.02683](https://arxiv.org/abs/2403.02683)
 
-    本文提出了一种新颖的logistic-beta过程用于建模具有beta边际分布的相关随机概率。该过程具有灵活的相关结构和计算优势，并通过非参数二分类回归模拟研究进行了验证。
-
-    
-
-    beta分布被广泛应用于概率建模，并在统计学和机器学习中被广泛使用，尤其在贝叶斯非参数领域。尽管其被广泛使用，但在建模相关随机概率的灵活和计算方便的随机过程扩展方面，相关工作有限。我们提出了一种新颖的随机过程，称为logistic-beta过程，其logistic变换生成具有常见beta边际分布的随机过程。类似于高斯过程，logistic-beta过程可以建模离散和连续域（例如空间或时间）上的相关性，并通过相关核函数具有高度灵活的相关结构。此外，它的正态方差-均值混合表示导致了高效的后验推理算法。通过非参数二分类回归模拟研究，展示了logistic-beta过程的灵活性和计算优势。
-
-    The beta distribution serves as a canonical tool for modeling probabilities and is extensively used in statistics and machine learning, especially in the field of Bayesian nonparametrics. Despite its widespread use, there is limited work on flexible and computationally convenient stochastic process extensions for modeling dependent random probabilities. We propose a novel stochastic process called the logistic-beta process, whose logistic transformation yields a stochastic process with common beta marginals. Similar to the Gaussian process, the logistic-beta process can model dependence on both discrete and continuous domains, such as space or time, and has a highly flexible dependence structure through correlation kernels. Moreover, its normal variance-mean mixture representation leads to highly effective posterior inference algorithms. The flexibility and computational benefits of logistic-beta processes are demonstrated through nonparametric binary regression simulation studies. Fur
-    
-[^4]: Riemann-Lebesgue Forest回归方法的研究
-
-    Riemann-Lebesgue Forest for Regression
-
-    [https://arxiv.org/abs/2402.04550](https://arxiv.org/abs/2402.04550)
-
-    提出了一种新颖的集成方法Riemann-Lebesgue Forest (RLF)用于回归问题，通过划分函数的值域为多个区间来逼近可测函数的思想，开发了一种新的树学习算法Riemann-Lebesgue Tree。通过Hoeffding分解和Stein方法推导了RLF在不同参数设置下的渐近性能，并在仿真数据和真实世界数据集上的实验中证明了RLF与原始随机森林相比具有竞争力的性能。
+    通过元学习，本研究提出一种学习推迟对人群的方法，该方法可以在测试时适应前所未见的专家，从而更好地面对困难决策。
 
     
 
-    我们提出了一种新颖的用于回归问题的集成方法，称为Riemann-Lebesgue Forest (RLF)。RLF的核心思想是通过将函数的值域划分为几个区间来模拟可测函数的逼近方式。基于这个思想，我们开发了一种新的树学习算法，称为Riemann-Lebesgue Tree，它在每个非叶节点上有机会从响应Y或特征空间X中的方向进行切割。我们通过Hoeffding分解和Stein方法来推导不同参数设置下RLF的渐近性能。当底层函数Y=f(X)遵循加法回归模型时，RLF与Scornet等人的论证（2014年）保持一致。通过在仿真数据和真实世界数据集上的实验证明，RLF与原始随机森林相比具有竞争力的性能。
+    arXiv:2403.02683v1 公告类型：新 摘要：学习推迟（L2D）框架允许自主系统通过将困难决策委托给人类专家来保持安全和健壮。所有现有的关于L2D的工作都假设每个专家都可以很好地确定，并且如果任何专家发生变化，系统应该重新训练。在这项工作中，我们减轻了这一限制，制定了一个L2D系统，它可以在测试时应对前所未见的专家。我们通过使用元学习来实现这一点，考虑了基于优化和基于模型的变体。给定一个小的上下文集来描述当前可用的专家，我们的框架可以快速调整它的推迟策略。对于基于模型的方法，我们采用了一个注意力机制，能够寻找上下文集中与给定测试点相似的点，从而更精确地评估专家的能力。
 
-    We propose a novel ensemble method called Riemann-Lebesgue Forest (RLF) for regression. The core idea of RLF is to mimic the way how a measurable function can be approximated by partitioning its range into a few intervals. With this idea in mind, we develop a new tree learner named Riemann-Lebesgue Tree which has a chance to split the node from response $Y$ or a direction in feature space $\mathbf{X}$ at each non-terminal node. We generalize the asymptotic performance of RLF under different parameter settings mainly through Hoeffding decomposition \cite{Vaart} and Stein's method \cite{Chen2010NormalAB}. When the underlying function $Y=f(\mathbf{X})$ follows an additive regression model, RLF is consistent with the argument from \cite{Scornet2014ConsistencyOR}. The competitive performance of RLF against original random forest \cite{Breiman2001RandomF} is demonstrated by experiments in simulation data and real world datasets.
+    arXiv:2403.02683v1 Announce Type: new  Abstract: The learning to defer (L2D) framework allows autonomous systems to be safe and robust by allocating difficult decisions to a human expert. All existing work on L2D assumes that each expert is well-identified, and if any expert were to change, the system should be re-trained. In this work, we alleviate this constraint, formulating an L2D system that can cope with never-before-seen experts at test-time. We accomplish this by using meta-learning, considering both optimization- and model-based variants. Given a small context set to characterize the currently available expert, our framework can quickly adapt its deferral policy. For the model-based approach, we employ an attention mechanism that is able to look for points in the context set that are similar to a given test point, leading to an even more precise assessment of the expert's abilities. In the experiments, we validate our methods on image recognition, traffic sign detection, and s
     
-[^5]: 神经符号化基础上的组合式世界建模
+[^3]: 物理约束的多项式混沌展开用于科学机器学习和不确定性量化
 
-    Neurosymbolic Grounding for Compositional World Models. (arXiv:2310.12690v1 [cs.LG])
+    Physics-constrained polynomial chaos expansion for scientific machine learning and uncertainty quantification
 
-    [http://arxiv.org/abs/2310.12690](http://arxiv.org/abs/2310.12690)
+    [https://arxiv.org/abs/2402.15115](https://arxiv.org/abs/2402.15115)
 
-    本论文介绍了一种名为Cosmos的框架，用于对象为中心的世界建模，通过使用神经符号化基础和视觉-语言基础模型，实现了在未见过的输入场景上的高性能组合泛化能力。
-
-    
-
-    我们引入了Cosmos，一个针对组合泛化（CG）设计的以对象为中心的世界建模框架，即在通过已知的视觉“原子”组合获得的未见过的输入场景上具有高性能。Cosmos的核心洞察力是使用一种新颖的神经符号化基础。具体来说，该框架引入了两个新工具：（i）神经符号化场景编码，使用神经编码器计算每个场景中的实体的实向量表示，并使用描述实体属性的可组合符号向量，以及（ii）神经符号化注意机制，将这些实体与学习到的交互规则绑定起来。Cosmos是端到端可微分的；此外，与传统的神经符号化方法需要手动将表示映射为符号不同，它使用视觉-语言基础模型计算实体的符号属性。通过对已建立的blocks场景进行两种不同形式的CG评估，我们验证了Cosmos的有效性。
-
-    We introduce Cosmos, a framework for object-centric world modeling that is designed for compositional generalization (CG), i.e., high performance on unseen input scenes obtained through the composition of known visual "atoms." The central insight behind Cosmos is the use of a novel form of neurosymbolic grounding. Specifically, the framework introduces two new tools: (i) neurosymbolic scene encodings, which represent each entity in a scene using a real vector computed using a neural encoder, as well as a vector of composable symbols describing attributes of the entity, and (ii) a neurosymbolic attention mechanism that binds these entities to learned rules of interaction. Cosmos is end-to-end differentiable; also, unlike traditional neurosymbolic methods that require representations to be manually mapped to symbols, it computes an entity's symbolic attributes using vision-language foundation models. Through an evaluation that considers two different forms of CG on an established blocks-
-    
-[^6]: 通过变分自动 编码器实现灵活高效的空间极端值模拟
-
-    Flexible and efficient spatial extremes emulation via variational autoencoders. (arXiv:2307.08079v1 [stat.ML])
-
-    [http://arxiv.org/abs/2307.08079](http://arxiv.org/abs/2307.08079)
-
-    本文提出了一种新的空间极端值模型，通过集成在变分自动编码器的结构中，可以灵活、高效地模拟具有非平稳相关性的极端事件。实验证明，在时间效率和性能上，相对于传统的贝叶斯推断和许多具有平稳相关性的空间极端值模型，我们的方法具有优势。
+    提出一种物理约束的多项式混沌展开方法，将科学机器学习与不确定性量化无缝集成，有效地实现SciML任务中的不确定性量化和在UQ任务中利用SciML提高不确定性评估。
 
     
 
-    许多现实世界的过程具有复杂的尾依赖结构，这种结构无法使用传统的高斯过程来描述。更灵活的空间极端值模型， 如高斯尺度混合模型和单站点调节模型，具有吸引人的极端依赖性质，但往往难以拟合和模拟。本文中，我们提出了一种新的空间极端值模型，具有灵活和非平稳的相关性属性，并将其集成到变分自动编码器 (extVAE) 的编码-解码结构中。 extVAE 可以作为一个时空模拟器，对潜在的机制模型输出状态的分布进行建模，并产生具有与输入相同属性的输出，尤其是在尾部区域。通过广泛的模拟研究，我们证明我们的extVAE比传统的贝叶斯推断更高效，并且在具有 平稳相关性结构的许多空间极端值模型中表现 更好。
+    我们提出了一种新颖的物理约束的多项式混沌展开作为一种替代建模方法，能够执行科学机器学习（SciML）和不确定性量化（UQ）任务。所提出的方法具有独特的能力：将SciML与UQ无缝集成，从而能够有效地量化SciML任务中的不确定性，并利用SciML来改善UQ相关任务中的不确定性评估。该替代模型可以有效地纳入多种物理约束，如支配偏微分方程（PDEs）及其相关的初始和边界条件约束，不等式型约束（如单调性，凸性，非负性等），以及在训练过程中添加额外先验信息以辅助有限数据。这确保了物理上合理的预测，并显著减少了昂贵计算的需求。
 
-    Many real-world processes have complex tail dependence structures that cannot be characterized using classical Gaussian processes. More flexible spatial extremes models such as Gaussian scale mixtures and single-station conditioning models exhibit appealing extremal dependence properties but are often exceedingly prohibitive to fit and simulate from. In this paper, we develop a new spatial extremes model that has flexible and non-stationary dependence properties, and we integrate it in the encoding-decoding structure of a variational autoencoder (extVAE). The extVAE can be used as a spatio-temporal emulator that characterizes the distribution of potential mechanistic model output states and produces outputs that have the same properties as the inputs, especially in the tail. Through extensive simulation studies, we show that our extVAE is vastly more time-efficient than traditional Bayesian inference while also outperforming many spatial extremes models with a stationary dependence str
+    arXiv:2402.15115v1 Announce Type: cross  Abstract: We present a novel physics-constrained polynomial chaos expansion as a surrogate modeling method capable of performing both scientific machine learning (SciML) and uncertainty quantification (UQ) tasks. The proposed method possesses a unique capability: it seamlessly integrates SciML into UQ and vice versa, which allows it to quantify the uncertainties in SciML tasks effectively and leverage SciML for improved uncertainty assessment during UQ-related tasks. The proposed surrogate model can effectively incorporate a variety of physical constraints, such as governing partial differential equations (PDEs) with associated initial and boundary conditions constraints, inequality-type constraints (e.g., monotonicity, convexity, non-negativity, among others), and additional a priori information in the training process to supplement limited data. This ensures physically realistic predictions and significantly reduces the need for expensive comp
     
-[^7]: 统计学习中的调整Wasserstein分布鲁棒估计
+[^4]: 用于顺序随机投影的概率工具
 
-    Adjusted Wasserstein Distributionally Robust Estimator in Statistical Learning. (arXiv:2303.15579v1 [stat.ML])
+    Probability Tools for Sequential Random Projection
 
-    [http://arxiv.org/abs/2303.15579](http://arxiv.org/abs/2303.15579)
+    [https://arxiv.org/abs/2402.14026](https://arxiv.org/abs/2402.14026)
 
-    本文提出了一种统计学习中的调整Wasserstein分布鲁棒估计方法，能够提高估计的统计性能，保持样本外性能保证，特别适用于广义线性模型。
+    该论文提出了适用于顺序随机投影的概率框架，通过构建停止过程并采用混合方法，实现了对一系列相互连接的浓缩事件的分析，从而创造了对Johnson-Lindenstrauss引理的非平凡鞅扩展。
 
     
 
-    我们在统计学习中提出了一种调整的Wasserstein分布鲁棒估计——基于Wasserstein分布鲁棒估计（WDRO）的非线性转换。这种转换将提高WDRO的统计性能，因为调整后的WDRO估计器渐进无偏并且均方误差趋近于零。调整后的WDRO不会削弱WDRO的样本外性能保证。我们提出了调整WDRO估计器的存在的充分条件，并给出了计算调整WDRO估计器的过程。具体而言，我们将展示如何在广义线性模型中开发调整WDRO估计器。数值实验表明，调整后的估计器比经典估计器具有更好的实际性能。
+    我们引入了第一个专为顺序随机投影定制的概率框架，这种方法植根于面对不确定性的顺序决策的挑战。分析受到随机变量的顺序依赖和高维性质的影响，这是顺序决策过程中固有的自适应机制的副产品。我们的工作特点是构建了一个停止过程，便于分析一系列以顺序方式相互连接的浓缩事件。通过在从停止过程得出的自规范过程内采用混合方法，我们实现了所需的非渐近概率界限。该界限代表了对Johnson-Lindenstrauss（JL）引理的一个非平凡的鞅扩展，标志着对随机投影和顺序分析的文献做出了开创性贡献。
 
-    We propose an adjusted Wasserstein distributionally robust estimator -- based on a nonlinear transformation of the Wasserstein distributionally robust (WDRO) estimator in statistical learning. This transformation will improve the statistical performance of WDRO because the adjusted WDRO estimator is asymptotically unbiased and has an asymptotically smaller mean squared error. The adjusted WDRO will not mitigate the out-of-sample performance guarantee of WDRO. Sufficient conditions for the existence of the adjusted WDRO estimator are presented, and the procedure for the computation of the adjusted WDRO estimator is given. Specifically, we will show how the adjusted WDRO estimator is developed in the generalized linear model. Numerical experiments demonstrate the favorable practical performance of the adjusted estimator over the classic one.
+    arXiv:2402.14026v1 Announce Type: cross  Abstract: We introduce the first probabilistic framework tailored for sequential random projection, an approach rooted in the challenges of sequential decision-making under uncertainty. The analysis is complicated by the sequential dependence and high-dimensional nature of random variables, a byproduct of the adaptive mechanisms inherent in sequential decision processes. Our work features a novel construction of a stopped process, facilitating the analysis of a sequence of concentration events that are interconnected in a sequential manner. By employing the method of mixtures within a self-normalized process, derived from the stopped process, we achieve a desired non-asymptotic probability bound. This bound represents a non-trivial martingale extension of the Johnson-Lindenstrauss (JL) lemma, marking a pioneering contribution to the literature on random projection and sequential analysis.
+    
+[^5]: HyperAgent：一种简单、可扩展、高效且可证明用于复杂环境的强化学习框架
+
+    HyperAgent: A Simple, Scalable, Efficient and Provable Reinforcement Learning Framework for Complex Environments
+
+    [https://arxiv.org/abs/2402.10228](https://arxiv.org/abs/2402.10228)
+
+    HyperAgent提出了一种简单、高效、可扩展的强化学习框架，在复杂环境下能够实现高效的计算和数据选择，是首个达到可证明可扩展的每步计算复杂度以及次线性后悔的方法。
+
+    
+
+    为了在资源约束下解决复杂任务，强化学习（RL）代理需要简单、高效、可扩展、具有大状态空间和不断积累的交互数据。我们提出了HyperAgent，这是一个具有超模型、索引抽样方案和增量更新机制的RL框架，可以在一般价值函数逼近中进行计算高效的顺序后验逼近和数据高效的动作选择，超越了共轭性。HyperAgent的实现简单，只需要在DDQN中添加一个模块和一行额外代码。在实践中，HyperAgent在大规模深度RL基准测试中表现出稳健的性能，无论是在数据还是计算方面都获得了显着的效率提升。在理论上，在实际可扩展的算法中，HyperAgent是第一个能够实现可证明可扩展的每步计算复杂度以及次线性后悔的方法。
+
+    arXiv:2402.10228v1 Announce Type: cross  Abstract: To solve complex tasks under resource constraints, reinforcement learning (RL) agents need to be simple, efficient, and scalable with (1) large state space and (2) increasingly accumulated data of interactions. We propose the HyperAgent, a RL framework with hypermodel, index sampling schemes and incremental update mechanism, enabling computation-efficient sequential posterior approximation and data-efficient action selection under general value function approximation beyond conjugacy. The implementation of \HyperAgent is simple as it only adds one module and one line of code additional to DDQN. Practically, HyperAgent demonstrates its robust performance in large-scale deep RL benchmarks with significant efficiency gain in terms of both data and computation. Theoretically, among the practically scalable algorithms, HyperAgent is the first method to achieve provably scalable per-step computational complexity as well as sublinear regret u
+    
+[^6]: 更深还是更宽: 从Sobolev损失的最优泛化误差角度看
+
+    Deeper or Wider: A Perspective from Optimal Generalization Error with Sobolev Loss
+
+    [https://arxiv.org/abs/2402.00152](https://arxiv.org/abs/2402.00152)
+
+    本文比较了更深的神经网络和更宽的神经网络在Sobolev损失的最优泛化误差方面的表现，研究发现神经网络的架构受多种因素影响，参数数量更多倾向于选择更宽的网络，而样本点数量和损失函数规则性更高倾向于选择更深的网络。
+
+    
+
+    构建神经网络的架构是机器学习界一个具有挑战性的追求，到底是更深还是更宽一直是一个持续的问题。本文探索了更深的神经网络（DeNNs）和具有有限隐藏层的更宽的神经网络（WeNNs）在Sobolev损失的最优泛化误差方面的比较。通过分析研究发现，神经网络的架构可以受到多种因素的显著影响，包括样本点的数量，神经网络内的参数以及损失函数的规则性。具体而言，更多的参数倾向于选择WeNNs，而更多的样本点和更高的损失函数规则性倾向于选择DeNNs。最后，我们将这个理论应用于使用深度Ritz和物理感知神经网络（PINN）方法解决偏微分方程的问题。
+
+    Constructing the architecture of a neural network is a challenging pursuit for the machine learning community, and the dilemma of whether to go deeper or wider remains a persistent question. This paper explores a comparison between deeper neural networks (DeNNs) with a flexible number of layers and wider neural networks (WeNNs) with limited hidden layers, focusing on their optimal generalization error in Sobolev losses. Analytical investigations reveal that the architecture of a neural network can be significantly influenced by various factors, including the number of sample points, parameters within the neural networks, and the regularity of the loss function. Specifically, a higher number of parameters tends to favor WeNNs, while an increased number of sample points and greater regularity in the loss function lean towards the adoption of DeNNs. We ultimately apply this theory to address partial differential equations using deep Ritz and physics-informed neural network (PINN) methods,
+    
+[^7]: 在噪声存在的情况下校准降维超参数
+
+    Calibrating dimension reduction hyperparameters in the presence of noise
+
+    [https://arxiv.org/abs/2312.02946](https://arxiv.org/abs/2312.02946)
+
+    本文提出了一个框架，用于在噪声存在的情况下校准降维超参数，探索了困惑度和维度数量的作用。
+
+    
+
+    降维工具的目标是构建高维数据的低维表示。这些工具被用于噪声降低、可视化和降低计算成本等各种原因。然而，在降维文献中几乎没有讨论过的一个基本问题是过拟合，而在其他建模问题中这个问题已经被广泛讨论。如果我们将数据解释为信号和噪声的组合，先前的研究对降维技术的评判是其是否能够捕捉到数据的全部内容，即信号和噪声。在其他建模问题的背景下，我们会采用特征选择、交叉验证和正则化等技术来防止过拟合，但在进行降维时却没有采取类似的预防措施。本文提出了一个框架，用于在噪声存在的情况下建模降维问题，并利用该框架探索了困惑度和维度数量的作用。
+
+    The goal of dimension reduction tools is to construct a low-dimensional representation of high-dimensional data. These tools are employed for a variety of reasons such as noise reduction, visualization, and to lower computational costs. However, there is a fundamental issue that is highly discussed in other modeling problems, but almost entirely ignored in the dimension reduction literature: overfitting. If we interpret data as a combination of signal and noise, prior works judge dimension reduction techniques on their ability to capture the entirety of the data, i.e. both the signal and the noise. In the context of other modeling problems, techniques such as feature-selection, cross-validation, and regularization are employed to combat overfitting, but no such precautions are taken when performing dimension reduction. In this paper, we present a framework that models dimension reduction problems in the presence of noise and use this framework to explore the role perplexity and number 
+    
+[^8]: 随机逼近的收敛速度：带有无界方差的有偏噪声和应用
+
+    Convergence Rates for Stochastic Approximation: Biased Noise with Unbounded Variance, and Applications. (arXiv:2312.02828v2 [stat.ML] UPDATED)
+
+    [http://arxiv.org/abs/2312.02828](http://arxiv.org/abs/2312.02828)
+
+    本论文研究了带有无界方差的有偏噪声对随机逼近算法的收敛速度的影响，并介绍了该算法在各个领域的应用。
+
+    
+
+    1951年罗宾斯和莫洛引入的随机逼近（SA）算法已经成为解方程$\mathbf{f}({\boldsymbol{\theta}}) = \mathbf{0}$的标准方法，当只有$\mathbf{f}(\cdot)$的带噪声测量可用时。如果对于某个函数$J(\cdot)$，$\mathbf{f}({\boldsymbol{\theta}}) = \nabla J({\boldsymbol{\theta}})$，那么SA也可以用来寻找$J(\cdot)$的一个稳定点。在每个时间$t$，当前的猜测${\boldsymbol{\theta}}_t$通过形式为$\mathbf{f}({\boldsymbol{\theta}}_t) + {\boldsymbol{\xi}}_{t+1}$的带噪声测量更新为${\boldsymbol{\theta}}_{t+1}$。在许多文献中，假设误差项${\boldsymbol{\xi}}_{t+1}$的条件均值为零，和/或者它的条件方差随$t$（而不是${\boldsymbol{\theta}}_t$）被限制。多年来，SA已经应用于各种领域，本文重点研究其中一个领域。
+
+    The Stochastic Approximation (SA) algorithm introduced by Robbins and Monro in 1951 has been a standard method for solving equations of the form $\mathbf{f}({\boldsymbol {\theta}}) = \mathbf{0}$, when only noisy measurements of $\mathbf{f}(\cdot)$ are available. If $\mathbf{f}({\boldsymbol {\theta}}) = \nabla J({\boldsymbol {\theta}})$ for some function $J(\cdot)$, then SA can also be used to find a stationary point of $J(\cdot)$. At each time $t$, the current guess ${\boldsymbol {\theta}}_t$ is updated to ${\boldsymbol {\theta}}_{t+1}$ using a noisy measurement of the form $\mathbf{f}({\boldsymbol {\theta}}_t) + {\boldsymbol {\xi}}_{t+1}$. In much of the literature, it is assumed that the error term ${\boldsymbol {\xi}}_{t+1}$ has zero conditional mean, and/or that its conditional variance is bounded as a function of $t$ (though not necessarily with respect to ${\boldsymbol {\theta}}_t$). Over the years, SA has been applied to a variety of areas, out of which the focus in this paper i
+    
+[^9]: 多单元软测量允许少样本学习
+
+    Multi-unit soft sensing permits few-shot learning. (arXiv:2309.15828v1 [stat.ML])
+
+    [http://arxiv.org/abs/2309.15828](http://arxiv.org/abs/2309.15828)
+
+    多单元软测量是利用可转移性学习算法改进软测量的一种方法，能够通过解决多个任务来增强软测量的性能，并且特别适用于具有多个实现的进程。
+
+    
+
+    近期的研究探索了利用具有可转移性的学习算法来改进软测量的各种方法。总体来说，当一个软测量通过解决多个任务来学习时，其性能可以得到加强。可转移性的有用性取决于所设计的学习任务的相关性。在软测量要应用于有多个实现的进程（例如，有多个可用数据的系统或设备）时，尤其相关。然后，每个实现都提供一个软测量学习任务，并且合理地期望这些不同任务之间具有强相关性。在这种设置中应用可转移性导致了我们所称的多单元软测量，其中软测量通过从所有实现的数据中学习来建模一个进程。本文探讨了多单元软测量的学习能力，它被构建为一个分层模型，并使用...
+
+    Recent literature has explored various ways to improve soft sensors using learning algorithms with transferability. Broadly put, the performance of a soft sensor may be strengthened when it is learned by solving multiple tasks. The usefulness of transferability depends on how strongly related the devised learning tasks are. A particularly relevant case for transferability, is when a soft sensor is to be developed for a process of which there are many realizations, e.g. system or device with many implementations from which data is available. Then, each realization presents a soft sensor learning task, and it is reasonable to expect that the different tasks are strongly related. Applying transferability in this setting leads to what we call multi-unit soft sensing, where a soft sensor models a process by learning from data from all of its realizations.  This paper explores the learning abilities of a multi-unit soft sensor, which is formulated as a hierarchical model and implemented usin
+    
+[^10]: 离散切割Wasserstein损失的性质
+
+    Properties of Discrete Sliced Wasserstein Losses. (arXiv:2307.10352v1 [stat.ML])
+
+    [http://arxiv.org/abs/2307.10352](http://arxiv.org/abs/2307.10352)
+
+    本文研究了离散切割Wasserstein损失的性质，并探讨了其正则性和优化性质以及通过蒙特卡洛近似的方法。
+
+    
+
+    切割Wasserstein（SW）距离已成为比较概率测度的Wasserstein距离的一种流行替代方法。广泛应用包括图像处理、领域自适应和生成建模，常常需要优化一些参数以最小化SW，该参数充当离散概率测度之间的损失函数（因为具有密度的测度在数值上是无法实现的）。所有这些优化问题都存在相同的子问题，即最小化切割Wasserstein能量。在本文中，我们研究了$\mathcal{E}: Y \longmapsto \mathrm{SW}_2^2(\gamma_Y, \gamma_Z)$的属性，即两个具有与一个测度的支撑相同数量的离散均匀测度之间的SW距离作为支撑$Y \in \mathbb{R}^{n \times d}$函数的能量。我们研究了这个能量的正则性和优化性质，以及其通过蒙特卡洛近似$\mathcal{E}_p$（使用SW中的期望估计）。
+
+    The Sliced Wasserstein (SW) distance has become a popular alternative to the Wasserstein distance for comparing probability measures. Widespread applications include image processing, domain adaptation and generative modelling, where it is common to optimise some parameters in order to minimise SW, which serves as a loss function between discrete probability measures (since measures admitting densities are numerically unattainable). All these optimisation problems bear the same sub-problem, which is minimising the Sliced Wasserstein energy. In this paper we study the properties of $\mathcal{E}: Y \longmapsto \mathrm{SW}_2^2(\gamma_Y, \gamma_Z)$, i.e. the SW distance between two uniform discrete measures with the same amount of points as a function of the support $Y \in \mathbb{R}^{n \times d}$ of one of the measures. We investigate the regularity and optimisation properties of this energy, as well as its Monte-Carlo approximation $\mathcal{E}_p$ (estimating the expectation in SW using 
+    
+[^11]: 使用高斯径向基函数神经网络学习活跃子空间并发现重要特征
+
+    Learning Active Subspaces and Discovering Important Features with Gaussian Radial Basis Functions Neural Networks. (arXiv:2307.05639v1 [cs.LG])
+
+    [http://arxiv.org/abs/2307.05639](http://arxiv.org/abs/2307.05639)
+
+    本论文提出了一种修改的径向基函数神经网络模型，通过学习精度矩阵，从训练完成后的模型中提取有用信息，包括活跃子空间的方向和输入变量重要性的排序。
+
+    
+
+    提供一个既能达到强大预测性能，又能被人类解释的模型是机器学习研究中最困难的挑战之一，由于这两个目标的冲突性。为解决这个挑战，我们提出了一种修改的径向基函数神经网络模型，通过为其高斯核添加可学习的精度矩阵。我们展示了训练完成后可以从精度矩阵的谱中提取宝贵的信息。特别是，特征向量解释了模型最敏感的方向，揭示了活跃子空间，并提出了用于监督降维的潜在应用。同时，特征向量凸显了输入和潜在变量之间的绝对变化关系，从而使我们能够基于其对预测的重要性提取输入变量的排序。
+
+    Providing a model that achieves a strong predictive performance and at the same time is interpretable by humans is one of the most difficult challenges in machine learning research due to the conflicting nature of these two objectives. To address this challenge, we propose a modification of the Radial Basis Function Neural Network model by equipping its Gaussian kernel with a learnable precision matrix. We show that precious information is contained in the spectrum of the precision matrix that can be extracted once the training of the model is completed. In particular, the eigenvectors explain the directions of maximum sensitivity of the model revealing the active subspace and suggesting potential applications for supervised dimensionality reduction. At the same time, the eigenvectors highlight the relationship in terms of absolute variation between the input and the latent variables, thereby allowing us to extract a ranking of the input variables based on their importance to the predi
+    
+[^12]: 线性条件VAE和分层VAE中的后验崩溃现象
+
+    Posterior Collapse in Linear Conditional and Hierarchical Variational Autoencoders. (arXiv:2306.05023v1 [stat.ML])
+
+    [http://arxiv.org/abs/2306.05023](http://arxiv.org/abs/2306.05023)
+
+    本文研究了高度相似的变分后验分布和先验分布之间的后验崩溃现象，特别地，通过对线性条件VAE和分层VAE进行分析，证明了这种现象是由于潜在变量层次关系不清晰而引起的。
+
+    
+
+    在变分自编码器（VAE）中，后验崩溃现象指的是变分后验分布与先验分布的相似度过高，导致编码器提取的潜在变量保存的输入数据信息较少，无法为解码器的数据重建过程产生有意义的表示。尽管该现象一直是VAEs性能的研究热点，但是对于后验崩溃的理论却相对薄弱，特别是在非标准的VAEs中。本文通过对两类重要而常见又较少研究的VAEs进行非平凡的理论分析，即具有两个潜在变量层次的线性条件VAE和分层VAE，提升了对后验崩溃的理论认识，证明了其成因。
+
+    The posterior collapse phenomenon in variational autoencoders (VAEs), where the variational posterior distribution closely matches the prior distribution, can hinder the quality of the learned latent variables. As a consequence of posterior collapse, the latent variables extracted by the encoder in VAEs preserve less information from the input data and thus fail to produce meaningful representations as input to the reconstruction process in the decoder. While this phenomenon has been an actively addressed topic related to VAEs performance, the theory for posterior collapse remains underdeveloped, especially beyond the standard VAEs. In this work, we advance the theoretical understanding of posterior collapse to two important and prevalent yet less studied classes of VAEs: conditional VAEs and hierarchical VAEs. Specifically, via a non-trivial theoretical analysis of linear conditional VAEs and hierarchical VAEs with two levels of latent, we prove that the cause of posterior collapses i
+    
+[^13]: MAGDiff: 利用深度神经网络激活图检测协变数据集转移
+
+    MAGDiff: Covariate Data Set Shift Detection via Activation Graphs of Deep Neural Networks. (arXiv:2305.13271v1 [stat.ML])
+
+    [http://arxiv.org/abs/2305.13271](http://arxiv.org/abs/2305.13271)
+
+    MAGDiff是一种新的表示法，可以从神经网络分类器中提取，可以有效地检测协变数据集转移，而不需要训练新模型。这可以通过对比神经网络激活图来计算，并通过两个样本 Kolmogorov-Smirnov 测试进行实证验证。
+
+    
+
+    尽管神经网络被广泛应用于各种任务，但像其他机器学习方法一样，它们受到数据转移的影响，在训练数据与实际应用数据之间分布存在差异时，其性能会受到严重影响。本文提出了一种称为 MAGDiff 的新表示方法，可以从任何给定的神经网络分类器中提取出来，并且可以有效地检测协变数据集转移，而不需要训练专门用于此任务的新模型。这些表示形式是通过比较神经网络激活图来计算的，对于属于训练分布和目标分布的样本，提供了强大的数据和任务自适应统计量，用于检测常用的数据集转移的两个样本测试。我们通过测量两个样本 Kolmogorov-Smirnov（KS）测试的统计功率进行了实证验证。
+
+    Despite their successful application to a variety of tasks, neural networks remain limited, like other machine learning methods, by their sensitivity to shifts in the data: their performance can be severely impacted by differences in distribution between the data on which they were trained and that on which they are deployed. In this article, we propose a new family of representations, called MAGDiff, that we extract from any given neural network classifier and that allows for efficient covariate data shift detection without the need to train a new model dedicated to this task. These representations are computed by comparing the activation graphs of the neural network for samples belonging to the training distribution and to the target distribution, and yield powerful data- and task-adapted statistics for the two-sample tests commonly used for data set shift detection. We demonstrate this empirically by measuring the statistical powers of two-sample Kolmogorov-Smirnov (KS) tests on sev
+    
+[^14]: 利用量子几何进行学习幺正变换的泛化
+
+    Generalization with quantum geometry for learning unitaries. (arXiv:2303.13462v1 [quant-ph])
+
+    [http://arxiv.org/abs/2303.13462](http://arxiv.org/abs/2303.13462)
+
+    本文研究了量子机器学习模型的泛化能力，使用数据的量子费舍尔信息度量来评估成功训练和泛化所需的电路参数和训练数据的数量，并展示通过去除对称性来提高泛化能力，同时发现超出分布泛化能力可以比使用相同分布更优。
+
+    
+
+    泛化是量子机器学习模型从训练数据学习准确预测新数据的能力。在这里，我们引入数据的量子费舍尔信息度量(DQFIM)来确定模型何时能够泛化。对于幺正变换的可变学习，DQFIM量化了成功训练和泛化所需的电路参数和训练数据的数量。我们应用DQFIM来解释何时恒定数量的训练状态和多项式数量的参数足以实现泛化。此外，通过从训练数据中删除对称性，可以提高泛化能力。最后，我们显示，使用不同数据分布进行训练和测试的超出分布泛化能力可以比使用相同分布的能力更优。我们的研究为提高量子机器学习中的泛化能力开辟了新的方法。
+
+    Generalization is the ability of quantum machine learning models to make accurate predictions on new data by learning from training data. Here, we introduce the data quantum Fisher information metric (DQFIM) to determine when a model can generalize. For variational learning of unitaries, the DQFIM quantifies the amount of circuit parameters and training data needed to successfully train and generalize. We apply the DQFIM to explain when a constant number of training states and polynomial number of parameters are sufficient for generalization. Further, we can improve generalization by removing symmetries from training data. Finally, we show that out-of-distribution generalization, where training and testing data are drawn from different data distributions, can be better than using the same distribution. Our work opens up new approaches to improve generalization in quantum machine learning.
+    
+[^15]: 后期情节式强化学习推断
+
+    Post-Episodic Reinforcement Learning Inference. (arXiv:2302.08854v2 [stat.ML] UPDATED)
+
+    [http://arxiv.org/abs/2302.08854](http://arxiv.org/abs/2302.08854)
+
+    我们提出了一种后期情节式强化学习推断的方法，能够评估反事实的自适应策略并估计动态处理效应，通过重新加权的$Z$-估计方法稳定情节变化的估计方差。
+
+    
+
+    我们考虑从情节式强化学习算法收集的数据进行估计和推断；即在每个时期（也称为情节）以顺序方式与单个受试单元多次交互的自适应试验算法。我们的目标是在收集数据后能够评估反事实的自适应策略，并估计结构参数，如动态处理效应，这可以用于信用分配（例如，第一个时期的行动对最终结果的影响）。这些感兴趣的参数可以构成矩方程的解，但不是总体损失函数的最小化器，在静态数据情况下导致了$Z$-估计方法。然而，这样的估计量在自适应数据收集的情况下不能渐近正态。我们提出了一种重新加权的$Z$-估计方法，使用精心设计的自适应权重来稳定情节变化的估计方差，这是由非...
+
+    We consider estimation and inference with data collected from episodic reinforcement learning (RL) algorithms; i.e. adaptive experimentation algorithms that at each period (aka episode) interact multiple times in a sequential manner with a single treated unit. Our goal is to be able to evaluate counterfactual adaptive policies after data collection and to estimate structural parameters such as dynamic treatment effects, which can be used for credit assignment (e.g. what was the effect of the first period action on the final outcome). Such parameters of interest can be framed as solutions to moment equations, but not minimizers of a population loss function, leading to $Z$-estimation approaches in the case of static data. However, such estimators fail to be asymptotically normal in the case of adaptive data collection. We propose a re-weighted $Z$-estimation approach with carefully designed adaptive weights to stabilize the episode-varying estimation variance, which results from the non
+    
+[^16]: 现代生物统计中的强化学习：构建最优自适应干预
+
+    Reinforcement Learning in Modern Biostatistics: Constructing Optimal Adaptive Interventions. (arXiv:2203.02605v2 [stat.ML] UPDATED)
+
+    [http://arxiv.org/abs/2203.02605](http://arxiv.org/abs/2203.02605)
+
+    本文是关于将强化学习应用于自适应干预中的第一份统一调查，强化学习在动态治疗方案和移动健康中即时自适应干预这两个领域中都具有很大的应用潜力。在这两个领域之间存在相似和不同之处需要考虑，并且这里存在巨大的合作机会。
+
+    
+
+    近年来，强化学习（RL）在与健康相关的序列性决策中占据了重要地位，成为交付自适应干预（AIs）的越来越流行的工具。然而，尽管具有潜在优势，但其现实应用仍然受到限制，部分是由于方法论和应用社区之间的协同不足。在这项工作中，我们提供了关于学习AIs的RL方法的第一份统一调查，利用RL的通用方法论伞来桥接动态治疗方案和移动健康中即时自适应干预这两个AI领域。我们概述了这两个AI领域之间的异同，并讨论了它们对使用RL的影响。最后，我们利用自己在两个领域中设计案例研究的经验，说明了在AIs领域中，统计学、RL和医疗研究人员之间的巨大合作机会。
+
+    In recent years, reinforcement learning (RL) has acquired a prominent position in the space of health-related sequential decision-making, becoming an increasingly popular tool for delivering adaptive interventions (AIs). However, despite potential benefits, its real-life application is still limited, partly due to a poor synergy between the methodological and the applied communities. In this work, we provide the first unified survey on RL methods for learning AIs, using the common methodological umbrella of RL to bridge the two AI areas of dynamic treatment regimes and just-in-time adaptive interventions in mobile health. We outline similarities and differences between these two AI domains and discuss their implications for using RL. Finally, we leverage our experience in designing case studies in both areas to illustrate the tremendous collaboration opportunities between statistical, RL, and healthcare researchers in the space of AIs.
+    
+[^17]: 分类规则生成：可扩展性，解释性和公平性
+
+    Rule Generation for Classification: Scalability, Interpretability, and Fairness. (arXiv:2104.10751v3 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2104.10751](http://arxiv.org/abs/2104.10751)
+
+    这项研究介绍了一种新的基于规则的分类优化方法，利用列生成线性规划实现可扩展性，并通过分配成本系数和引入额外约束解决了解释性和公平性问题。该方法在局部解释性和公平性之间取得了良好的平衡。
+
+    
+
+    我们引入了一种新的基于规则的分类优化方法，具有约束条件。所提出的方法利用列生成线性规划，因此可扩展到大型数据集。所得定价子问题被证明是NP难问题。我们采用基于决策树的启发式方法，并解决了一个代理定价子问题以加速。该方法返回一组规则以及它们的最优权重，指示每个规则对学习的重要性。我们通过为规则分配成本系数和引入额外约束来解决解释性和公平性问题。具体而言，我们关注局部解释性，并将公平性的一般分离准则推广到多个敏感属性和类别。我们在一系列数据集上测试了所提出方法的性能，并提供了一个案例研究来详细阐述其不同方面。所提出的基于规则的学习方法在局部解释性和公平性之间达到了良好的平衡点。
+
+    We introduce a new rule-based optimization method for classification with constraints. The proposed method leverages column generation for linear programming, and hence, is scalable to large datasets. The resulting pricing subproblem is shown to be NP-Hard. We recourse to a decision tree-based heuristic and solve a proxy pricing subproblem for acceleration. The method returns a set of rules along with their optimal weights indicating the importance of each rule for learning. We address interpretability and fairness by assigning cost coefficients to the rules and introducing additional constraints. In particular, we focus on local interpretability and generalize separation criterion in fairness to multiple sensitive attributes and classes. We test the performance of the proposed methodology on a collection of datasets and present a case study to elaborate on its different aspects. The proposed rule-based learning method exhibits a good compromise between local interpretability and fairn
     
 
