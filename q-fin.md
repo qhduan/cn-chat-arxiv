@@ -2,67 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Contagion Effects of the Silicon Valley Bank Run.](http://arxiv.org/abs/2308.06642) | 本文分析了硅谷银行失败的传染效应及其对其他银行的负面影响。无保险存款、未实现损失、银行规模和现金持有对溢出产生显著影响，而高质量资产或流动性证券对溢出没有帮助。在硅谷银行失败后，中型银行立即受到压力，随着时间的推移，负面溢出变得普遍。 |
-| [^2] | [Health Impacts of Public Pawnshops in Industrializing Tokyo.](http://arxiv.org/abs/2305.09352) | 该研究发现公共当铺的贷款贡献了历史性的婴儿和胎儿死亡率下降，私人当铺没有这样的影响。 |
-| [^3] | [Continuous-Time Monotone Mean-Variance Portfolio Selection.](http://arxiv.org/abs/2211.12168) | 本文研究了在跳跃扩散模型下连续时间的单调均值方差组合选择，并首次给出了不同于传统均值方差偏好的明确解决方案。该研究结果对于未来对单调均值方差和单调资本资产定价模型的实证测试具有重要的理论依据。 |
-| [^4] | [The Power of Non-Superpowers.](http://arxiv.org/abs/2209.10206) | 这篇论文提出了一个博弈论模型，研究了在非超级大国具有异质偏好和资源分配的情况下，它们如何通过联盟的形成来影响超级大国的竞争，并揭示了非超级大国对超级大国具有一定的影响力。 |
+| [^1] | [Partially Law-Invariant Risk Measures.](http://arxiv.org/abs/2401.17265) | 这篇论文介绍了部分律法不变性的概念，通过刻画部分律法不变的一致风险度量的表示公式，将决策理论和金融风险管理的文献联系起来，提出了新的风险度量，并在模型不确定性下的风险评估中展示了其应用。 |
+| [^2] | [The allocation of FIFA World Cup slots based on the Elo method and pairwise comparisons.](http://arxiv.org/abs/2310.19100) | 本文提出了一种合理的方法，基于球队之间的比赛来分配FIFA世界杯席位。研究结果显示欧洲和南美球队应该获得更多席位，并建议透明地根据历史表现来分配席位。 |
+| [^3] | [Extreme ATM skew in a local volatility model with discontinuity: joint density approach.](http://arxiv.org/abs/2305.10849) | 本文研究了一种本地波动率模型，其中波动率在基础价格高于或低于某一阈值时分别取两个特定取值。通过联合分布方法，确认了该模型下当阈值位于平价处时，隐含波动率偏斜的幂律行为。 |
 
 # 详细
 
-[^1]: 硅谷银行挤兑的传染效应分析
+[^1]: 部分律法不变风险度量
 
-    Contagion Effects of the Silicon Valley Bank Run. (arXiv:2308.06642v1 [econ.GN])
+    Partially Law-Invariant Risk Measures. (arXiv:2401.17265v1 [q-fin.RM])
 
-    [http://arxiv.org/abs/2308.06642](http://arxiv.org/abs/2308.06642)
+    [http://arxiv.org/abs/2401.17265](http://arxiv.org/abs/2401.17265)
 
-    本文分析了硅谷银行失败的传染效应及其对其他银行的负面影响。无保险存款、未实现损失、银行规模和现金持有对溢出产生显著影响，而高质量资产或流动性证券对溢出没有帮助。在硅谷银行失败后，中型银行立即受到压力，随着时间的推移，负面溢出变得普遍。
-
-    
-
-    本文分析了与硅谷银行（SVB）失败相关的传染效应，并确定了导致银行股票回报下降的特定脆弱性。我们发现，无保险存款、持有到期计提证券的未实现损失、银行规模和现金持有对后续负面溢出产生了显著影响，而高质量资产或持有流动性证券并未帮助减轻负面溢出。有趣的是，股票在硅谷银行发生后表现较差的银行在前一年联邦储备利率上调后也有较低的回报率。股市部分预期了与无保险存款的依赖相关的风险，但未计价由于利率上调而产生的未实现损失或与银行规模相关的风险。在硅谷银行失败后，中型银行立即遭受了特定压力，随着时间的推移，负面溢出变得普遍，除最大规模的银行外。
-
-    This paper analyzes the contagion effects associated with the failure of Silicon Valley Bank (SVB) and identifies bank-specific vulnerabilities contributing to the subsequent declines in banks' stock returns. We find that uninsured deposits, unrealized losses in held-to-maturity securities, bank size, and cash holdings had a significant impact, while better-quality assets or holdings of liquid securities did not help mitigate the negative spillovers. Interestingly, banks whose stocks performed worse post SVB also had lower returns in the previous year following Federal Reserve interest rate hikes. The stock market partially anticipated risks associated with uninsured deposit reliance, but did not price in unrealized losses due to interest rate hikes nor risks linked to bank size. While mid-sized banks experienced particular stress immediately after the SVB failure, over time negative spillovers became widespread except for the largest banks.
-    
-[^2]: 东京工业化时期公共当铺对健康的影响
-
-    Health Impacts of Public Pawnshops in Industrializing Tokyo. (arXiv:2305.09352v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.09352](http://arxiv.org/abs/2305.09352)
-
-    该研究发现公共当铺的贷款贡献了历史性的婴儿和胎儿死亡率下降，私人当铺没有这样的影响。
+    这篇论文介绍了部分律法不变性的概念，通过刻画部分律法不变的一致风险度量的表示公式，将决策理论和金融风险管理的文献联系起来，提出了新的风险度量，并在模型不确定性下的风险评估中展示了其应用。
 
     
 
-    本研究是首次调查收入低下人口财务机构是否促进了历史性的死亡率下降。我们使用战前东京市的区级面板数据发现，公共当铺贷款与婴儿和胎儿死亡率的降低有关，可能是通过改善营养和卫生措施实现的。简单计算表明，从1927年到1935年推广公共当铺导致婴儿死亡率和胎儿死亡率分别下降了6%和8%。相反，私人当铺没有与健康改善的显着关联。我们的发现丰富了不断扩大的人口统计和金融历史文献。
+    我们引入了部分律法不变性的概念，推广了统计和金融应用中广泛使用的律法不变风险度量的概念。这个新概念是由决策理论和金融风险管理的实际考虑所激发的，从而连接了决策理论和金融风险管理的文献。我们通过一种新颖的表示公式充分地刻画了部分律法不变的一致风险度量，这个表示公式与律法不变的一致风险度量的经典公式几乎没有相似之处。我们引入了强部分律法不变性的概念，从而可以得到与经典公式类似的表示公式。我们提出了几类新的风险度量，包括预期损失和熵风险度量的部分律法不变版本，并且展示了它们在模型不确定性下的风险评估应用。
 
-    This study is the first to investigate whether financial institutions for low-income populations have contributed to the historical decline in mortality rates. Using ward-level panel data from prewar Tokyo City, we found that public pawn loans were associated with reductions in infant and fetal death rates, potentially through improved nutrition and hygiene measures. Simple calculations suggest that popularizing public pawnshops led to a 6% and 8% decrease in infant mortality and fetal death rates, respectively, from 1927 to 1935. Contrarily, private pawnshops showed no significant association with health improvements. Our findings enrich the expanding literature on demographics and financial histories.
+    We introduce the concept of partial law invariance, generalizing the concept of law-invariant risk measures widely used in statistical and financial applications. This new concept is motivated by practical considerations of decision-making under uncertainty, thus connecting the literature on decision theory and that on financial risk management. We fully characterize partially law-invariant coherent risk measures via a novel representation formula, which, surprisingly, has little resemblance to the classical formula for law-invariant coherent risk measures. A notion of strong partial law invariance is introduced, allowing for a representation formula akin to the classical one. We propose a few classes of new risk measures, including partially law-invariant versions of the Expected Shortfall and the entropic risk measures, and illustrate their applications in risk assessment under model uncertainty.
     
-[^3]: 连续时间单调均值方差组合选择
+[^2]: 基于Elo方法和两两比较的FIFA世界杯席位分配
 
-    Continuous-Time Monotone Mean-Variance Portfolio Selection. (arXiv:2211.12168v4 [q-fin.MF] UPDATED)
+    The allocation of FIFA World Cup slots based on the Elo method and pairwise comparisons. (arXiv:2310.19100v1 [econ.GN])
 
-    [http://arxiv.org/abs/2211.12168](http://arxiv.org/abs/2211.12168)
+    [http://arxiv.org/abs/2310.19100](http://arxiv.org/abs/2310.19100)
 
-    本文研究了在跳跃扩散模型下连续时间的单调均值方差组合选择，并首次给出了不同于传统均值方差偏好的明确解决方案。该研究结果对于未来对单调均值方差和单调资本资产定价模型的实证测试具有重要的理论依据。
-
-    
-
-    我们研究了在跳跃扩散模型下的连续时间单调均值方差(MMV)偏好的组合选择，并给出了与传统均值方差(MV)偏好不同的明确解决方案。我们证明了MMV的模糊度测度可以限制在非负的Dol\'eans-Dade指数上。我们发现当金融市场的跳跃大小可以大于风险市场价格的倒数时，MMV可以修复MV的非单调性。这个结果与Dybvig和Ingersoll的最早结果完全可比。此外，我们验证了两个基金的隔离有效性，并建立了MMV投资者的单调资本资产定价模型（单调CAPM）。我们还研究了在限制交易模型中的MMV，并提供了三个具体的数值示例来展示MMV的效率。我们的发现可以成为未来对MMV和单调CAPM有效性进行实证测试的重要理论依据。
-
-    We study the continuous-time portfolio selection under monotone mean-variance (MMV) preferences in a jump-diffusion model and give an explicit solution different from that under classical mean-variance (MV) preferences for the first time. We prove that ambiguity measures of MMV can be restricted on non-negative Dol\'eans-Dade exponentials. We find that MMV can fix the non-monotonicity of MV when the jump size of the financial market can be larger than the inverse of the market price of risk. Such result is completely comparable to the earliest result of Dybvig and Ingersoll. Further, we verify the validity of two-fund separation and establish the monotone capital asset pricing model (monotone CAPM) for MMV investors. We also study MMV in a constrained trading model and provide three specific numerical examples to show MMV's efficiency. Our finding can be an important theoretical basis for future empirical tests of MMV and monotone CAPM's effectiveness.
-    
-[^4]: 非超级大国的力量
-
-    The Power of Non-Superpowers. (arXiv:2209.10206v3 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2209.10206](http://arxiv.org/abs/2209.10206)
-
-    这篇论文提出了一个博弈论模型，研究了在非超级大国具有异质偏好和资源分配的情况下，它们如何通过联盟的形成来影响超级大国的竞争，并揭示了非超级大国对超级大国具有一定的影响力。
+    本文提出了一种合理的方法，基于球队之间的比赛来分配FIFA世界杯席位。研究结果显示欧洲和南美球队应该获得更多席位，并建议透明地根据历史表现来分配席位。
 
     
 
-    我们提出了一个博弈论模型，研究非超级大国在具有异质偏好和资源分配的情况下如何塑造超级大国在势力范围内的竞争。两个超级大国进行提供俱乐部公共品的斯塔克尔伯格博弈，而非超级大国则通过形成联盟来加入俱乐部并考虑外部性的存在。联盟的形成取决于非超级大国的特征，影响着超级大国的行为，从而影响俱乐部的规模。从这个意义上说，非超级大国对超级大国拥有一定的影响力。我们研究了子博弈完美纳什均衡，并模拟了游戏，以描绘美国和中国如何根据其他国家来形成他们的俱乐部。
+    许多世界体育锦标赛的资格赛是根据不同的球队组进行比赛，以确定给定数量的席位。本文提供了一种合理的方法，基于这些球队之间的比赛来分配席位。我们重点关注FIFA世界杯，因为存在正式的评级系统，并且最近扩展到48个队伍。我们的提议改进了FIFA世界排名的方法，以比较五个大洲的实力。根据样本长度、考虑的球队组以及评级更新频率的不同，介绍了各种不同的分配方案。结果显示，更多的欧洲和南美球队应该参加FIFA世界杯。按照应得席位数对大洲进行排名与FIFA政策暗示的排名不同。我们建议至少通过透明的方式，基于历史表现来分配一些FIFA世界杯席位，类似于接入列表
 
-    We propose a game-theoretic model to investigate how non-superpowers with heterogenous preferences and endowments shape the superpower competition for a sphere of influence. Two superpowers play a Stackelberg game of providing club goods while non-superpowers form coalitions to join a club in the presence of externalities. The coalition formation, which depends on the characteristics of non-superpowers, influences the behavior of superpowers and thus the club size. In this sense, non-superpowers have a power over superpowers. We study the subgame perfect Nash equilibrium and simulate the game to characterize how the US and China form their clubs depending on other countries.
+    Qualifications for several world championships in sports are organised such that different sets of teams play in their own tournament for a predetermined number of slots. This paper provides a reasonable approach to allocate the slots based on matches between these sets of teams. We focus on the FIFA World Cup due to the existence of an official rating system and its recent expansion to 48 teams. Our proposal adapts the methodology of the FIFA World Ranking to compare the strengths of five confederations. Various allocations are presented depending on the length of the sample, the set of teams considered, as well as the frequency of rating updates. The results show that more European and South American teams should play in the FIFA World Cup. The ranking of continents by the number of deserved slots is different from the ranking implied by FIFA policy. We recommend allocating at least some FIFA World Cup slots transparently, based on historical performances, similar to the access list 
+    
+[^3]: 具有不连续性的本地波动率模型中的极端ATM偏斜：联合密度方法
+
+    Extreme ATM skew in a local volatility model with discontinuity: joint density approach. (arXiv:2305.10849v1 [q-fin.MF])
+
+    [http://arxiv.org/abs/2305.10849](http://arxiv.org/abs/2305.10849)
+
+    本文研究了一种本地波动率模型，其中波动率在基础价格高于或低于某一阈值时分别取两个特定取值。通过联合分布方法，确认了该模型下当阈值位于平价处时，隐含波动率偏斜的幂律行为。
+
+    
+
+    本文研究了一种本地波动率模型，其中波动率取两个可能的值，具体取决于基础价格是否高于或低于给定的阈值。该模型已知，并且已经得出了许多结果。特别是，最近已经得出了欧式期权明确的定价公式，并应用于确定当阈值位于平价处时，隐含波动率偏斜的幂律行为。这些结果是基于拉普拉斯变换技术获得的。本文的目的是演示如何通过另一种方法获得相同的结果。这种替代方法基于该模型与Skew Brownian运动的自然关系，并且是通过系统地使用该随机过程及其某些函数的联合分布来实现的。
+
+    This paper concerns a local volatility model in which volatility takes two possible values, and the specific value depends on whether the underlying price is above or below a given threshold value. The model is known, and a number of results have been obtained for it. In particular, explicit pricing formulas for European options have been recently obtained and applied to establish a power law behaviour of the implied volatility skew in the case when the threshold is taken at the money. These results have been obtained by techniques based on the Laplace transform. The purpose of the present paper is to demonstrate how to obtain the same results by another method. This alternative approach is based on the natural relationship of the model with Skew Brownian motion and consists in the systematic use of the joint distribution of this stochastic process and some of its functionals.
     
 

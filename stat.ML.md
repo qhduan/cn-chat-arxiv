@@ -2,262 +2,172 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [DTOR: Decision Tree Outlier Regressor to explain anomalies](https://arxiv.org/abs/2403.10903) | DTOR是一种决策树异常值回归器，通过估计异常检测模型生成的异常分数来产生基于规则的解释，具有鲁棒性，适用于具有大量特征数据集。 |
-| [^2] | [Learning to Defer to a Population: A Meta-Learning Approach](https://arxiv.org/abs/2403.02683) | 通过元学习，本研究提出一种学习推迟对人群的方法，该方法可以在测试时适应前所未见的专家，从而更好地面对困难决策。 |
-| [^3] | [Physics-constrained polynomial chaos expansion for scientific machine learning and uncertainty quantification](https://arxiv.org/abs/2402.15115) | 提出一种物理约束的多项式混沌展开方法，将科学机器学习与不确定性量化无缝集成，有效地实现SciML任务中的不确定性量化和在UQ任务中利用SciML提高不确定性评估。 |
-| [^4] | [Probability Tools for Sequential Random Projection](https://arxiv.org/abs/2402.14026) | 该论文提出了适用于顺序随机投影的概率框架，通过构建停止过程并采用混合方法，实现了对一系列相互连接的浓缩事件的分析，从而创造了对Johnson-Lindenstrauss引理的非平凡鞅扩展。 |
-| [^5] | [HyperAgent: A Simple, Scalable, Efficient and Provable Reinforcement Learning Framework for Complex Environments](https://arxiv.org/abs/2402.10228) | HyperAgent提出了一种简单、高效、可扩展的强化学习框架，在复杂环境下能够实现高效的计算和数据选择，是首个达到可证明可扩展的每步计算复杂度以及次线性后悔的方法。 |
-| [^6] | [Deeper or Wider: A Perspective from Optimal Generalization Error with Sobolev Loss](https://arxiv.org/abs/2402.00152) | 本文比较了更深的神经网络和更宽的神经网络在Sobolev损失的最优泛化误差方面的表现，研究发现神经网络的架构受多种因素影响，参数数量更多倾向于选择更宽的网络，而样本点数量和损失函数规则性更高倾向于选择更深的网络。 |
-| [^7] | [Calibrating dimension reduction hyperparameters in the presence of noise](https://arxiv.org/abs/2312.02946) | 本文提出了一个框架，用于在噪声存在的情况下校准降维超参数，探索了困惑度和维度数量的作用。 |
-| [^8] | [Convergence Rates for Stochastic Approximation: Biased Noise with Unbounded Variance, and Applications.](http://arxiv.org/abs/2312.02828) | 本论文研究了带有无界方差的有偏噪声对随机逼近算法的收敛速度的影响，并介绍了该算法在各个领域的应用。 |
-| [^9] | [Multi-unit soft sensing permits few-shot learning.](http://arxiv.org/abs/2309.15828) | 多单元软测量是利用可转移性学习算法改进软测量的一种方法，能够通过解决多个任务来增强软测量的性能，并且特别适用于具有多个实现的进程。 |
-| [^10] | [Properties of Discrete Sliced Wasserstein Losses.](http://arxiv.org/abs/2307.10352) | 本文研究了离散切割Wasserstein损失的性质，并探讨了其正则性和优化性质以及通过蒙特卡洛近似的方法。 |
-| [^11] | [Learning Active Subspaces and Discovering Important Features with Gaussian Radial Basis Functions Neural Networks.](http://arxiv.org/abs/2307.05639) | 本论文提出了一种修改的径向基函数神经网络模型，通过学习精度矩阵，从训练完成后的模型中提取有用信息，包括活跃子空间的方向和输入变量重要性的排序。 |
-| [^12] | [Posterior Collapse in Linear Conditional and Hierarchical Variational Autoencoders.](http://arxiv.org/abs/2306.05023) | 本文研究了高度相似的变分后验分布和先验分布之间的后验崩溃现象，特别地，通过对线性条件VAE和分层VAE进行分析，证明了这种现象是由于潜在变量层次关系不清晰而引起的。 |
-| [^13] | [MAGDiff: Covariate Data Set Shift Detection via Activation Graphs of Deep Neural Networks.](http://arxiv.org/abs/2305.13271) | MAGDiff是一种新的表示法，可以从神经网络分类器中提取，可以有效地检测协变数据集转移，而不需要训练新模型。这可以通过对比神经网络激活图来计算，并通过两个样本 Kolmogorov-Smirnov 测试进行实证验证。 |
-| [^14] | [Generalization with quantum geometry for learning unitaries.](http://arxiv.org/abs/2303.13462) | 本文研究了量子机器学习模型的泛化能力，使用数据的量子费舍尔信息度量来评估成功训练和泛化所需的电路参数和训练数据的数量，并展示通过去除对称性来提高泛化能力，同时发现超出分布泛化能力可以比使用相同分布更优。 |
-| [^15] | [Post-Episodic Reinforcement Learning Inference.](http://arxiv.org/abs/2302.08854) | 我们提出了一种后期情节式强化学习推断的方法，能够评估反事实的自适应策略并估计动态处理效应，通过重新加权的$Z$-估计方法稳定情节变化的估计方差。 |
-| [^16] | [Reinforcement Learning in Modern Biostatistics: Constructing Optimal Adaptive Interventions.](http://arxiv.org/abs/2203.02605) | 本文是关于将强化学习应用于自适应干预中的第一份统一调查，强化学习在动态治疗方案和移动健康中即时自适应干预这两个领域中都具有很大的应用潜力。在这两个领域之间存在相似和不同之处需要考虑，并且这里存在巨大的合作机会。 |
-| [^17] | [Rule Generation for Classification: Scalability, Interpretability, and Fairness.](http://arxiv.org/abs/2104.10751) | 这项研究介绍了一种新的基于规则的分类优化方法，利用列生成线性规划实现可扩展性，并通过分配成本系数和引入额外约束解决了解释性和公平性问题。该方法在局部解释性和公平性之间取得了良好的平衡。 |
+| [^1] | [Learning the mechanisms of network growth](https://arxiv.org/abs/2404.00793) | 我们提出了一种新的模型选择方法，通过在大量合成网络数据上训练分类器，设计出易于计算、解析可处理且具有解释性的动态特征类型，实现了几乎完美的网络分类，超过了目前技术水平。 |
+| [^2] | [Rethinking Adversarial Inverse Reinforcement Learning: From the Angles of Policy Imitation and Transferable Reward Recovery](https://arxiv.org/abs/2403.14593) | 重新思考对抗逆强化学习中的策略模仿和可转移奖励恢复，提出了一个混合框架PPO-AIRL + SAC以解决SAC算法在AIRL训练中无法全面解开奖励函数的问题。 |
+| [^3] | [A Short Survey on Importance Weighting for Machine Learning](https://arxiv.org/abs/2403.10175) | 重要性加权是统计学和机器学习中的基本程序，通过对目标函数或概率分布进行加权，可以保证监督学习在训练和测试分布之间差异的情况下具有统计上期望的性质 |
+| [^4] | [Criterion collapse and loss distribution control](https://arxiv.org/abs/2402.09802) | 该论文研究了"准则崩溃"的概念，即优化一个度量指标意味着另一个度量指标的最优性。研究结果发现，对于损失的伯努利分布，CVaR和DRO的结果远超出现有研究，同时发现了一些特定条件下，单调准则如倾斜ERM无法避免崩溃，而非单调的替代方案可以。 |
+| [^5] | [A Generalized Approach to Online Convex Optimization](https://arxiv.org/abs/2402.08621) | 这是一篇关于在线凸优化的论文，作者分析了不同环境下的问题并提出了一种通用的解决方法，该方法可以转化为相应的线性优化算法，并可以在面对不同类型对手时获得可比较的遗憾界限。 |
+| [^6] | [A structured regression approach for evaluating model performance across intersectional subgroups.](http://arxiv.org/abs/2401.14893) | 这项工作介绍了一种结构回归方法，用于评估模型在不同交叉子群体间的性能。它可以提供可靠的系统性能估计，即使对于很小的子群体。 |
+| [^7] | [Anytime-valid t-tests and confidence sequences for Gaussian means with unknown variance.](http://arxiv.org/abs/2310.03722) | 本文提出了两种新的“e-process”和置信序列方法，分别通过替换Lai的混合方法，并分析了所得结果的宽度。 |
+| [^8] | [Convergence Guarantees for Stochastic Subgradient Methods in Nonsmooth Nonconvex Optimization.](http://arxiv.org/abs/2307.10053) | 本文研究了非平滑非凸优化中随机次梯度方法的收敛性质，并提出了一种新的框架，证明了其在单时间尺度和双时间尺度情况下的全局收敛性，包括了多种已知的SGD类型方法。对于有限和形式的目标函数，证明了这些方法能够在随机选择的步长和初始点上找到Clarke稳定点。 |
+| [^9] | [Locally Adaptive Federated Learning via Stochastic Polyak Stepsizes.](http://arxiv.org/abs/2307.06306) | 本文将随机Polyak步长方法扩展到联邦学习，提出了新的局部自适应和几乎无需调参的FedSPS和FedDecSPS变体。我们证明了当插值条件满足时，FedSPS以线性速度收敛，一般情况下收敛到解的邻域。 |
+| [^10] | [Sequence Generation via Subsequence Similarity: Theory and Application to UAV Identification.](http://arxiv.org/abs/2301.08403) | 本文探究了一种单次生成模型的多样性，主要聚焦于子序列相似性如何影响整个序列相似性，并通过生成子序列相似的序列来增强数据集。 |
+| [^11] | [Long-term Causal Inference Under Persistent Confounding via Data Combination.](http://arxiv.org/abs/2202.07234) | 本研究通过数据组合解决了长期治疗效果识别和估计中的持续未测量混淆因素挑战，并提出了三种新的识别策略和估计器。 |
 
 # 详细
 
-[^1]: DTOR：决策树异常值回归器用于解释异常
+[^1]: 学习网络增长机制
 
-    DTOR: Decision Tree Outlier Regressor to explain anomalies
+    Learning the mechanisms of network growth
 
-    [https://arxiv.org/abs/2403.10903](https://arxiv.org/abs/2403.10903)
+    [https://arxiv.org/abs/2404.00793](https://arxiv.org/abs/2404.00793)
 
-    DTOR是一种决策树异常值回归器，通过估计异常检测模型生成的异常分数来产生基于规则的解释，具有鲁棒性，适用于具有大量特征数据集。
-
-    
-
-    解释异常值的出现以及其产生机制在各种领域中可能非常重要。故障、欺诈、威胁等问题，除了被正确识别之外，通常需要有效的解释以有效执行可操作的对抗措施。越来越广泛地使用复杂的机器学习方法来识别异常值，使得这样的解释更具挑战性。我们提出了决策树异常值回归器（DTOR），这是一种通过估计异常检测模型生成的异常分数来为单个数据点生成基于规则的解释的技术。这是通过首先应用决策树回归器来计算估计分数，然后提取与数据点分数相关联的相对路径来实现的。我们的结果表明，即使在具有大量特征的数据集中，DTOR的鲁棒性也得到了证实。此外，与其他基于规则的方法相比
-
-    arXiv:2403.10903v1 Announce Type: cross  Abstract: Explaining outliers occurrence and mechanism of their occurrence can be extremely important in a variety of domains. Malfunctions, frauds, threats, in addition to being correctly identified, oftentimes need a valid explanation in order to effectively perform actionable counteracts. The ever more widespread use of sophisticated Machine Learning approach to identify anomalies make such explanations more challenging. We present the Decision Tree Outlier Regressor (DTOR), a technique for producing rule-based explanations for individual data points by estimating anomaly scores generated by an anomaly detection model. This is accomplished by first applying a Decision Tree Regressor, which computes the estimation score, and then extracting the relative path associated with the data point score. Our results demonstrate the robustness of DTOR even in datasets with a large number of features. Additionally, in contrast to other rule-based approac
-    
-[^2]: 学习推迟对人群的学习：一种元学习方法
-
-    Learning to Defer to a Population: A Meta-Learning Approach
-
-    [https://arxiv.org/abs/2403.02683](https://arxiv.org/abs/2403.02683)
-
-    通过元学习，本研究提出一种学习推迟对人群的方法，该方法可以在测试时适应前所未见的专家，从而更好地面对困难决策。
+    我们提出了一种新的模型选择方法，通过在大量合成网络数据上训练分类器，设计出易于计算、解析可处理且具有解释性的动态特征类型，实现了几乎完美的网络分类，超过了目前技术水平。
 
     
 
-    arXiv:2403.02683v1 公告类型：新 摘要：学习推迟（L2D）框架允许自主系统通过将困难决策委托给人类专家来保持安全和健壮。所有现有的关于L2D的工作都假设每个专家都可以很好地确定，并且如果任何专家发生变化，系统应该重新训练。在这项工作中，我们减轻了这一限制，制定了一个L2D系统，它可以在测试时应对前所未见的专家。我们通过使用元学习来实现这一点，考虑了基于优化和基于模型的变体。给定一个小的上下文集来描述当前可用的专家，我们的框架可以快速调整它的推迟策略。对于基于模型的方法，我们采用了一个注意力机制，能够寻找上下文集中与给定测试点相似的点，从而更精确地评估专家的能力。
+    我们提出了一种面向动态真实网络的新模型选择方法。我们的方法涉及在大量合成网络数据上训练分类器。数据是通过模拟动态网络的九种最先进的随机图模型生成的，选定参数范围以确保网络规模随时间呈指数增长。我们设计了一种概念上新颖的动态特征类型，它计算在特定时间间隔内一组顶点收到的新链接数。所提出的特征易于计算，解析上可处理，并具有解释性。我们的方法实现了对合成网络的几乎完美分类，超过当前技术水平。将我们的分类方法应用于真实世界的引文网络，对文献中声称的具有优先附着、适应性和老化的模型最好地适应真实世界的引文网络的说法具有可靠性，尽管有时，预测可能。
 
-    arXiv:2403.02683v1 Announce Type: new  Abstract: The learning to defer (L2D) framework allows autonomous systems to be safe and robust by allocating difficult decisions to a human expert. All existing work on L2D assumes that each expert is well-identified, and if any expert were to change, the system should be re-trained. In this work, we alleviate this constraint, formulating an L2D system that can cope with never-before-seen experts at test-time. We accomplish this by using meta-learning, considering both optimization- and model-based variants. Given a small context set to characterize the currently available expert, our framework can quickly adapt its deferral policy. For the model-based approach, we employ an attention mechanism that is able to look for points in the context set that are similar to a given test point, leading to an even more precise assessment of the expert's abilities. In the experiments, we validate our methods on image recognition, traffic sign detection, and s
+    arXiv:2404.00793v1 Announce Type: cross  Abstract: We propose a novel model-selection method for dynamic real-life networks. Our approach involves training a classifier on a large body of synthetic network data. The data is generated by simulating nine state-of-the-art random graph models for dynamic networks, with parameter range chosen to ensure exponential growth of the network size in time. We design a conceptually novel type of dynamic features that count new links received by a group of vertices in a particular time interval. The proposed features are easy to compute, analytically tractable, and interpretable. Our approach achieves a near-perfect classification of synthetic networks, exceeding the state-of-the-art by a large margin. Applying our classification method to real-world citation networks gives credibility to the claims in the literature that models with preferential attachment, fitness and aging fit real-world citation networks best, although sometimes, the predicted m
     
-[^3]: 物理约束的多项式混沌展开用于科学机器学习和不确定性量化
+[^2]: 重新思考对抗逆强化学习：从策略模仿和可转移奖励恢复的角度
 
-    Physics-constrained polynomial chaos expansion for scientific machine learning and uncertainty quantification
+    Rethinking Adversarial Inverse Reinforcement Learning: From the Angles of Policy Imitation and Transferable Reward Recovery
 
-    [https://arxiv.org/abs/2402.15115](https://arxiv.org/abs/2402.15115)
+    [https://arxiv.org/abs/2403.14593](https://arxiv.org/abs/2403.14593)
 
-    提出一种物理约束的多项式混沌展开方法，将科学机器学习与不确定性量化无缝集成，有效地实现SciML任务中的不确定性量化和在UQ任务中利用SciML提高不确定性评估。
-
-    
-
-    我们提出了一种新颖的物理约束的多项式混沌展开作为一种替代建模方法，能够执行科学机器学习（SciML）和不确定性量化（UQ）任务。所提出的方法具有独特的能力：将SciML与UQ无缝集成，从而能够有效地量化SciML任务中的不确定性，并利用SciML来改善UQ相关任务中的不确定性评估。该替代模型可以有效地纳入多种物理约束，如支配偏微分方程（PDEs）及其相关的初始和边界条件约束，不等式型约束（如单调性，凸性，非负性等），以及在训练过程中添加额外先验信息以辅助有限数据。这确保了物理上合理的预测，并显著减少了昂贵计算的需求。
-
-    arXiv:2402.15115v1 Announce Type: cross  Abstract: We present a novel physics-constrained polynomial chaos expansion as a surrogate modeling method capable of performing both scientific machine learning (SciML) and uncertainty quantification (UQ) tasks. The proposed method possesses a unique capability: it seamlessly integrates SciML into UQ and vice versa, which allows it to quantify the uncertainties in SciML tasks effectively and leverage SciML for improved uncertainty assessment during UQ-related tasks. The proposed surrogate model can effectively incorporate a variety of physical constraints, such as governing partial differential equations (PDEs) with associated initial and boundary conditions constraints, inequality-type constraints (e.g., monotonicity, convexity, non-negativity, among others), and additional a priori information in the training process to supplement limited data. This ensures physically realistic predictions and significantly reduces the need for expensive comp
-    
-[^4]: 用于顺序随机投影的概率工具
-
-    Probability Tools for Sequential Random Projection
-
-    [https://arxiv.org/abs/2402.14026](https://arxiv.org/abs/2402.14026)
-
-    该论文提出了适用于顺序随机投影的概率框架，通过构建停止过程并采用混合方法，实现了对一系列相互连接的浓缩事件的分析，从而创造了对Johnson-Lindenstrauss引理的非平凡鞅扩展。
+    重新思考对抗逆强化学习中的策略模仿和可转移奖励恢复，提出了一个混合框架PPO-AIRL + SAC以解决SAC算法在AIRL训练中无法全面解开奖励函数的问题。
 
     
 
-    我们引入了第一个专为顺序随机投影定制的概率框架，这种方法植根于面对不确定性的顺序决策的挑战。分析受到随机变量的顺序依赖和高维性质的影响，这是顺序决策过程中固有的自适应机制的副产品。我们的工作特点是构建了一个停止过程，便于分析一系列以顺序方式相互连接的浓缩事件。通过在从停止过程得出的自规范过程内采用混合方法，我们实现了所需的非渐近概率界限。该界限代表了对Johnson-Lindenstrauss（JL）引理的一个非平凡的鞅扩展，标志着对随机投影和顺序分析的文献做出了开创性贡献。
+    对抗逆强化学习（AIRL）作为模仿学习中的基石方法。本文重新思考了AIRL的两个不同角度：策略模仿和可转移奖励恢复。我们从用Soft Actor-Critic（SAC）替换AIRL中的内置算法开始，以增强样本效率，这要归功于SAC的离策略形式和相对于AIRL而言可识别的马尔可夫决策过程（MDP）模型。这确实在策略模仿方面表现出显著的改进，但不慎给可转移奖励恢复带来了缺点。为了解决这个问题，我们阐述了SAC算法本身在AIRL训练过程中无法全面解开奖励函数，提出了一个混合框架，PPO-AIRL + SAC，以获得令人满意的转移效果。此外，我们分析了环境提取解开的奖励的能力。
 
-    arXiv:2402.14026v1 Announce Type: cross  Abstract: We introduce the first probabilistic framework tailored for sequential random projection, an approach rooted in the challenges of sequential decision-making under uncertainty. The analysis is complicated by the sequential dependence and high-dimensional nature of random variables, a byproduct of the adaptive mechanisms inherent in sequential decision processes. Our work features a novel construction of a stopped process, facilitating the analysis of a sequence of concentration events that are interconnected in a sequential manner. By employing the method of mixtures within a self-normalized process, derived from the stopped process, we achieve a desired non-asymptotic probability bound. This bound represents a non-trivial martingale extension of the Johnson-Lindenstrauss (JL) lemma, marking a pioneering contribution to the literature on random projection and sequential analysis.
+    arXiv:2403.14593v1 Announce Type: new  Abstract: Adversarial inverse reinforcement learning (AIRL) stands as a cornerstone approach in imitation learning. This paper rethinks the two different angles of AIRL: policy imitation and transferable reward recovery. We begin with substituting the built-in algorithm in AIRL with soft actor-critic (SAC) during the policy optimization process to enhance sample efficiency, thanks to the off-policy formulation of SAC and identifiable Markov decision process (MDP) models with respect to AIRL. It indeed exhibits a significant improvement in policy imitation but accidentally brings drawbacks to transferable reward recovery. To learn this issue, we illustrate that the SAC algorithm itself is not feasible to disentangle the reward function comprehensively during the AIRL training process, and propose a hybrid framework, PPO-AIRL + SAC, for satisfactory transfer effect. Additionally, we analyze the capability of environments to extract disentangled rewa
     
-[^5]: HyperAgent：一种简单、可扩展、高效且可证明用于复杂环境的强化学习框架
+[^3]: 机器学习中的重要性加权简要调查
 
-    HyperAgent: A Simple, Scalable, Efficient and Provable Reinforcement Learning Framework for Complex Environments
+    A Short Survey on Importance Weighting for Machine Learning
 
-    [https://arxiv.org/abs/2402.10228](https://arxiv.org/abs/2402.10228)
+    [https://arxiv.org/abs/2403.10175](https://arxiv.org/abs/2403.10175)
 
-    HyperAgent提出了一种简单、高效、可扩展的强化学习框架，在复杂环境下能够实现高效的计算和数据选择，是首个达到可证明可扩展的每步计算复杂度以及次线性后悔的方法。
-
-    
-
-    为了在资源约束下解决复杂任务，强化学习（RL）代理需要简单、高效、可扩展、具有大状态空间和不断积累的交互数据。我们提出了HyperAgent，这是一个具有超模型、索引抽样方案和增量更新机制的RL框架，可以在一般价值函数逼近中进行计算高效的顺序后验逼近和数据高效的动作选择，超越了共轭性。HyperAgent的实现简单，只需要在DDQN中添加一个模块和一行额外代码。在实践中，HyperAgent在大规模深度RL基准测试中表现出稳健的性能，无论是在数据还是计算方面都获得了显着的效率提升。在理论上，在实际可扩展的算法中，HyperAgent是第一个能够实现可证明可扩展的每步计算复杂度以及次线性后悔的方法。
-
-    arXiv:2402.10228v1 Announce Type: cross  Abstract: To solve complex tasks under resource constraints, reinforcement learning (RL) agents need to be simple, efficient, and scalable with (1) large state space and (2) increasingly accumulated data of interactions. We propose the HyperAgent, a RL framework with hypermodel, index sampling schemes and incremental update mechanism, enabling computation-efficient sequential posterior approximation and data-efficient action selection under general value function approximation beyond conjugacy. The implementation of \HyperAgent is simple as it only adds one module and one line of code additional to DDQN. Practically, HyperAgent demonstrates its robust performance in large-scale deep RL benchmarks with significant efficiency gain in terms of both data and computation. Theoretically, among the practically scalable algorithms, HyperAgent is the first method to achieve provably scalable per-step computational complexity as well as sublinear regret u
-    
-[^6]: 更深还是更宽: 从Sobolev损失的最优泛化误差角度看
-
-    Deeper or Wider: A Perspective from Optimal Generalization Error with Sobolev Loss
-
-    [https://arxiv.org/abs/2402.00152](https://arxiv.org/abs/2402.00152)
-
-    本文比较了更深的神经网络和更宽的神经网络在Sobolev损失的最优泛化误差方面的表现，研究发现神经网络的架构受多种因素影响，参数数量更多倾向于选择更宽的网络，而样本点数量和损失函数规则性更高倾向于选择更深的网络。
+    重要性加权是统计学和机器学习中的基本程序，通过对目标函数或概率分布进行加权，可以保证监督学习在训练和测试分布之间差异的情况下具有统计上期望的性质
 
     
 
-    构建神经网络的架构是机器学习界一个具有挑战性的追求，到底是更深还是更宽一直是一个持续的问题。本文探索了更深的神经网络（DeNNs）和具有有限隐藏层的更宽的神经网络（WeNNs）在Sobolev损失的最优泛化误差方面的比较。通过分析研究发现，神经网络的架构可以受到多种因素的显著影响，包括样本点的数量，神经网络内的参数以及损失函数的规则性。具体而言，更多的参数倾向于选择WeNNs，而更多的样本点和更高的损失函数规则性倾向于选择DeNNs。最后，我们将这个理论应用于使用深度Ritz和物理感知神经网络（PINN）方法解决偏微分方程的问题。
+    重要性加权是统计学和机器学习中的一项基本程序，根据某种意义上实例的重要性对目标函数或概率分布进行加权。这一简单而有用的思想的广泛应用导致了许多重要性加权的应用。例如，据知，在关于训练和测试分布之间差异的假设下的监督学习，通过密度比的重要性加权可以保证统计上期望的性质。这项调查总结了机器学习和相关研究中重要性加权的广泛应用。
 
-    Constructing the architecture of a neural network is a challenging pursuit for the machine learning community, and the dilemma of whether to go deeper or wider remains a persistent question. This paper explores a comparison between deeper neural networks (DeNNs) with a flexible number of layers and wider neural networks (WeNNs) with limited hidden layers, focusing on their optimal generalization error in Sobolev losses. Analytical investigations reveal that the architecture of a neural network can be significantly influenced by various factors, including the number of sample points, parameters within the neural networks, and the regularity of the loss function. Specifically, a higher number of parameters tends to favor WeNNs, while an increased number of sample points and greater regularity in the loss function lean towards the adoption of DeNNs. We ultimately apply this theory to address partial differential equations using deep Ritz and physics-informed neural network (PINN) methods,
+    arXiv:2403.10175v1 Announce Type: cross  Abstract: Importance weighting is a fundamental procedure in statistics and machine learning that weights the objective function or probability distribution based on the importance of the instance in some sense. The simplicity and usefulness of the idea has led to many applications of importance weighting. For example, it is known that supervised learning under an assumption about the difference between the training and test distributions, called distribution shift, can guarantee statistically desirable properties through importance weighting by their density ratio. This survey summarizes the broad applications of importance weighting in machine learning and related research.
     
-[^7]: 在噪声存在的情况下校准降维超参数
+[^4]: 准则崩溃和损失分布控制
 
-    Calibrating dimension reduction hyperparameters in the presence of noise
+    Criterion collapse and loss distribution control
 
-    [https://arxiv.org/abs/2312.02946](https://arxiv.org/abs/2312.02946)
+    [https://arxiv.org/abs/2402.09802](https://arxiv.org/abs/2402.09802)
 
-    本文提出了一个框架，用于在噪声存在的情况下校准降维超参数，探索了困惑度和维度数量的作用。
-
-    
-
-    降维工具的目标是构建高维数据的低维表示。这些工具被用于噪声降低、可视化和降低计算成本等各种原因。然而，在降维文献中几乎没有讨论过的一个基本问题是过拟合，而在其他建模问题中这个问题已经被广泛讨论。如果我们将数据解释为信号和噪声的组合，先前的研究对降维技术的评判是其是否能够捕捉到数据的全部内容，即信号和噪声。在其他建模问题的背景下，我们会采用特征选择、交叉验证和正则化等技术来防止过拟合，但在进行降维时却没有采取类似的预防措施。本文提出了一个框架，用于在噪声存在的情况下建模降维问题，并利用该框架探索了困惑度和维度数量的作用。
-
-    The goal of dimension reduction tools is to construct a low-dimensional representation of high-dimensional data. These tools are employed for a variety of reasons such as noise reduction, visualization, and to lower computational costs. However, there is a fundamental issue that is highly discussed in other modeling problems, but almost entirely ignored in the dimension reduction literature: overfitting. If we interpret data as a combination of signal and noise, prior works judge dimension reduction techniques on their ability to capture the entirety of the data, i.e. both the signal and the noise. In the context of other modeling problems, techniques such as feature-selection, cross-validation, and regularization are employed to combat overfitting, but no such precautions are taken when performing dimension reduction. In this paper, we present a framework that models dimension reduction problems in the presence of noise and use this framework to explore the role perplexity and number 
-    
-[^8]: 随机逼近的收敛速度：带有无界方差的有偏噪声和应用
-
-    Convergence Rates for Stochastic Approximation: Biased Noise with Unbounded Variance, and Applications. (arXiv:2312.02828v2 [stat.ML] UPDATED)
-
-    [http://arxiv.org/abs/2312.02828](http://arxiv.org/abs/2312.02828)
-
-    本论文研究了带有无界方差的有偏噪声对随机逼近算法的收敛速度的影响，并介绍了该算法在各个领域的应用。
+    该论文研究了"准则崩溃"的概念，即优化一个度量指标意味着另一个度量指标的最优性。研究结果发现，对于损失的伯努利分布，CVaR和DRO的结果远超出现有研究，同时发现了一些特定条件下，单调准则如倾斜ERM无法避免崩溃，而非单调的替代方案可以。
 
     
 
-    1951年罗宾斯和莫洛引入的随机逼近（SA）算法已经成为解方程$\mathbf{f}({\boldsymbol{\theta}}) = \mathbf{0}$的标准方法，当只有$\mathbf{f}(\cdot)$的带噪声测量可用时。如果对于某个函数$J(\cdot)$，$\mathbf{f}({\boldsymbol{\theta}}) = \nabla J({\boldsymbol{\theta}})$，那么SA也可以用来寻找$J(\cdot)$的一个稳定点。在每个时间$t$，当前的猜测${\boldsymbol{\theta}}_t$通过形式为$\mathbf{f}({\boldsymbol{\theta}}_t) + {\boldsymbol{\xi}}_{t+1}$的带噪声测量更新为${\boldsymbol{\theta}}_{t+1}$。在许多文献中，假设误差项${\boldsymbol{\xi}}_{t+1}$的条件均值为零，和/或者它的条件方差随$t$（而不是${\boldsymbol{\theta}}_t$）被限制。多年来，SA已经应用于各种领域，本文重点研究其中一个领域。
+    在这项工作中，我们考虑了"准则崩溃"的概念，即优化一个度量指标意味着另一个度量指标的最优性，特别关注各种学习准则下崩溃成误差概率最小化器的条件，从DRO和OCE风险（CVaR、倾斜ERM）到文献中探索的最新上升-下降算法的非单调准则（洪水、SoftAD）。我们展示了在伯努利分布损失的背景下，CVaR和DRO的现有结果远远超越了崩溃的范围，然后扩大了我们的范围，包括代理损失，展示了像倾斜ERM这样的单调准则无法避免崩溃的条件，而非单调的替代方案可以。
 
-    The Stochastic Approximation (SA) algorithm introduced by Robbins and Monro in 1951 has been a standard method for solving equations of the form $\mathbf{f}({\boldsymbol {\theta}}) = \mathbf{0}$, when only noisy measurements of $\mathbf{f}(\cdot)$ are available. If $\mathbf{f}({\boldsymbol {\theta}}) = \nabla J({\boldsymbol {\theta}})$ for some function $J(\cdot)$, then SA can also be used to find a stationary point of $J(\cdot)$. At each time $t$, the current guess ${\boldsymbol {\theta}}_t$ is updated to ${\boldsymbol {\theta}}_{t+1}$ using a noisy measurement of the form $\mathbf{f}({\boldsymbol {\theta}}_t) + {\boldsymbol {\xi}}_{t+1}$. In much of the literature, it is assumed that the error term ${\boldsymbol {\xi}}_{t+1}$ has zero conditional mean, and/or that its conditional variance is bounded as a function of $t$ (though not necessarily with respect to ${\boldsymbol {\theta}}_t$). Over the years, SA has been applied to a variety of areas, out of which the focus in this paper i
+    arXiv:2402.09802v1 Announce Type: cross  Abstract: In this work, we consider the notion of "criterion collapse," in which optimization of one metric implies optimality in another, with a particular focus on conditions for collapse into error probability minimizers under a wide variety of learning criteria, ranging from DRO and OCE risks (CVaR, tilted ERM) to non-monotonic criteria underlying recent ascent-descent algorithms explored in the literature (Flooding, SoftAD). We show how collapse in the context of losses with a Bernoulli distribution goes far beyond existing results for CVaR and DRO, then expand our scope to include surrogate losses, showing conditions where monotonic criteria such as tilted ERM cannot avoid collapse, whereas non-monotonic alternatives can.
     
-[^9]: 多单元软测量允许少样本学习
+[^5]: 一种广义的在线凸优化方法
 
-    Multi-unit soft sensing permits few-shot learning. (arXiv:2309.15828v1 [stat.ML])
+    A Generalized Approach to Online Convex Optimization
 
-    [http://arxiv.org/abs/2309.15828](http://arxiv.org/abs/2309.15828)
+    [https://arxiv.org/abs/2402.08621](https://arxiv.org/abs/2402.08621)
 
-    多单元软测量是利用可转移性学习算法改进软测量的一种方法，能够通过解决多个任务来增强软测量的性能，并且特别适用于具有多个实现的进程。
-
-    
-
-    近期的研究探索了利用具有可转移性的学习算法来改进软测量的各种方法。总体来说，当一个软测量通过解决多个任务来学习时，其性能可以得到加强。可转移性的有用性取决于所设计的学习任务的相关性。在软测量要应用于有多个实现的进程（例如，有多个可用数据的系统或设备）时，尤其相关。然后，每个实现都提供一个软测量学习任务，并且合理地期望这些不同任务之间具有强相关性。在这种设置中应用可转移性导致了我们所称的多单元软测量，其中软测量通过从所有实现的数据中学习来建模一个进程。本文探讨了多单元软测量的学习能力，它被构建为一个分层模型，并使用...
-
-    Recent literature has explored various ways to improve soft sensors using learning algorithms with transferability. Broadly put, the performance of a soft sensor may be strengthened when it is learned by solving multiple tasks. The usefulness of transferability depends on how strongly related the devised learning tasks are. A particularly relevant case for transferability, is when a soft sensor is to be developed for a process of which there are many realizations, e.g. system or device with many implementations from which data is available. Then, each realization presents a soft sensor learning task, and it is reasonable to expect that the different tasks are strongly related. Applying transferability in this setting leads to what we call multi-unit soft sensing, where a soft sensor models a process by learning from data from all of its realizations.  This paper explores the learning abilities of a multi-unit soft sensor, which is formulated as a hierarchical model and implemented usin
-    
-[^10]: 离散切割Wasserstein损失的性质
-
-    Properties of Discrete Sliced Wasserstein Losses. (arXiv:2307.10352v1 [stat.ML])
-
-    [http://arxiv.org/abs/2307.10352](http://arxiv.org/abs/2307.10352)
-
-    本文研究了离散切割Wasserstein损失的性质，并探讨了其正则性和优化性质以及通过蒙特卡洛近似的方法。
+    这是一篇关于在线凸优化的论文，作者分析了不同环境下的问题并提出了一种通用的解决方法，该方法可以转化为相应的线性优化算法，并可以在面对不同类型对手时获得可比较的遗憾界限。
 
     
 
-    切割Wasserstein（SW）距离已成为比较概率测度的Wasserstein距离的一种流行替代方法。广泛应用包括图像处理、领域自适应和生成建模，常常需要优化一些参数以最小化SW，该参数充当离散概率测度之间的损失函数（因为具有密度的测度在数值上是无法实现的）。所有这些优化问题都存在相同的子问题，即最小化切割Wasserstein能量。在本文中，我们研究了$\mathcal{E}: Y \longmapsto \mathrm{SW}_2^2(\gamma_Y, \gamma_Z)$的属性，即两个具有与一个测度的支撑相同数量的离散均匀测度之间的SW距离作为支撑$Y \in \mathbb{R}^{n \times d}$函数的能量。我们研究了这个能量的正则性和优化性质，以及其通过蒙特卡洛近似$\mathcal{E}_p$（使用SW中的期望估计）。
+    在本文中，我们分析了不同环境下的在线凸优化问题。我们证明了任何用于具有完全自适应对手的在线线性优化的算法都是用于在线凸优化的算法。我们还证明了任何需要全信息反馈的算法都可以转化为具有可比较的遗憾界限的半匹配反馈算法。此外，我们还证明了使用确定性半匹配反馈的全自适应对手设计的算法在面对无知对手时可以使用只有随机半匹配反馈的算法获得相似的界限。我们利用这一结果描述了将一阶算法转化为零阶算法的通用元算法，这些算法具有可比较的遗憾界限。我们的框架使我们能够分析各种设置中的在线优化问题，包括全信息反馈、半匹配反馈、随机遗憾、对抗遗憾和各种形式的非平稳遗憾。利用我们的分析结果，
 
-    The Sliced Wasserstein (SW) distance has become a popular alternative to the Wasserstein distance for comparing probability measures. Widespread applications include image processing, domain adaptation and generative modelling, where it is common to optimise some parameters in order to minimise SW, which serves as a loss function between discrete probability measures (since measures admitting densities are numerically unattainable). All these optimisation problems bear the same sub-problem, which is minimising the Sliced Wasserstein energy. In this paper we study the properties of $\mathcal{E}: Y \longmapsto \mathrm{SW}_2^2(\gamma_Y, \gamma_Z)$, i.e. the SW distance between two uniform discrete measures with the same amount of points as a function of the support $Y \in \mathbb{R}^{n \times d}$ of one of the measures. We investigate the regularity and optimisation properties of this energy, as well as its Monte-Carlo approximation $\mathcal{E}_p$ (estimating the expectation in SW using 
+    In this paper, we analyze the problem of online convex optimization in different settings. We show that any algorithm for online linear optimization with fully adaptive adversaries is an algorithm for online convex optimization. We also show that any such algorithm that requires full-information feedback may be transformed to an algorithm with semi-bandit feedback with comparable regret bound. We further show that algorithms that are designed for fully adaptive adversaries using deterministic semi-bandit feedback can obtain similar bounds using only stochastic semi-bandit feedback when facing oblivious adversaries. We use this to describe general meta-algorithms to convert first order algorithms to zeroth order algorithms with comparable regret bounds. Our framework allows us to analyze online optimization in various settings, such full-information feedback, bandit feedback, stochastic regret, adversarial regret and various forms of non-stationary regret. Using our analysis, we provide
     
-[^11]: 使用高斯径向基函数神经网络学习活跃子空间并发现重要特征
+[^6]: 评估模型在交叉子群体间性能的结构回归方法
 
-    Learning Active Subspaces and Discovering Important Features with Gaussian Radial Basis Functions Neural Networks. (arXiv:2307.05639v1 [cs.LG])
+    A structured regression approach for evaluating model performance across intersectional subgroups. (arXiv:2401.14893v1 [cs.LG])
 
-    [http://arxiv.org/abs/2307.05639](http://arxiv.org/abs/2307.05639)
+    [http://arxiv.org/abs/2401.14893](http://arxiv.org/abs/2401.14893)
 
-    本论文提出了一种修改的径向基函数神经网络模型，通过学习精度矩阵，从训练完成后的模型中提取有用信息，包括活跃子空间的方向和输入变量重要性的排序。
-
-    
-
-    提供一个既能达到强大预测性能，又能被人类解释的模型是机器学习研究中最困难的挑战之一，由于这两个目标的冲突性。为解决这个挑战，我们提出了一种修改的径向基函数神经网络模型，通过为其高斯核添加可学习的精度矩阵。我们展示了训练完成后可以从精度矩阵的谱中提取宝贵的信息。特别是，特征向量解释了模型最敏感的方向，揭示了活跃子空间，并提出了用于监督降维的潜在应用。同时，特征向量凸显了输入和潜在变量之间的绝对变化关系，从而使我们能够基于其对预测的重要性提取输入变量的排序。
-
-    Providing a model that achieves a strong predictive performance and at the same time is interpretable by humans is one of the most difficult challenges in machine learning research due to the conflicting nature of these two objectives. To address this challenge, we propose a modification of the Radial Basis Function Neural Network model by equipping its Gaussian kernel with a learnable precision matrix. We show that precious information is contained in the spectrum of the precision matrix that can be extracted once the training of the model is completed. In particular, the eigenvectors explain the directions of maximum sensitivity of the model revealing the active subspace and suggesting potential applications for supervised dimensionality reduction. At the same time, the eigenvectors highlight the relationship in terms of absolute variation between the input and the latent variables, thereby allowing us to extract a ranking of the input variables based on their importance to the predi
-    
-[^12]: 线性条件VAE和分层VAE中的后验崩溃现象
-
-    Posterior Collapse in Linear Conditional and Hierarchical Variational Autoencoders. (arXiv:2306.05023v1 [stat.ML])
-
-    [http://arxiv.org/abs/2306.05023](http://arxiv.org/abs/2306.05023)
-
-    本文研究了高度相似的变分后验分布和先验分布之间的后验崩溃现象，特别地，通过对线性条件VAE和分层VAE进行分析，证明了这种现象是由于潜在变量层次关系不清晰而引起的。
+    这项工作介绍了一种结构回归方法，用于评估模型在不同交叉子群体间的性能。它可以提供可靠的系统性能估计，即使对于很小的子群体。
 
     
 
-    在变分自编码器（VAE）中，后验崩溃现象指的是变分后验分布与先验分布的相似度过高，导致编码器提取的潜在变量保存的输入数据信息较少，无法为解码器的数据重建过程产生有意义的表示。尽管该现象一直是VAEs性能的研究热点，但是对于后验崩溃的理论却相对薄弱，特别是在非标准的VAEs中。本文通过对两类重要而常见又较少研究的VAEs进行非平凡的理论分析，即具有两个潜在变量层次的线性条件VAE和分层VAE，提升了对后验崩溃的理论认识，证明了其成因。
+    在人工智能公平性评估中，分解式评估是一项核心任务，目标是衡量人工智能系统在由人口统计学或其他敏感属性组合定义的不同子群体中的性能。标准方法是将评估数据分层到子群体中，并分别计算每个组的性能指标。然而，即使对于中等规模的评估数据集来说，在考虑到交叉子群体时样本数量也会迅速变小，这大大限制了许多分解评估中对交叉群体的考虑程度。在本研究中，我们引入了一种结构回归方法来进行分解评估，我们证明即使对于非常小的子群体，该方法也能产生可靠的系统性能估计。我们还提供了相应的推断策略来构建置信区间，并探索了拟合优度测试如何揭示交叉子群体所经历的与公平相关的伤害的结构。
 
-    The posterior collapse phenomenon in variational autoencoders (VAEs), where the variational posterior distribution closely matches the prior distribution, can hinder the quality of the learned latent variables. As a consequence of posterior collapse, the latent variables extracted by the encoder in VAEs preserve less information from the input data and thus fail to produce meaningful representations as input to the reconstruction process in the decoder. While this phenomenon has been an actively addressed topic related to VAEs performance, the theory for posterior collapse remains underdeveloped, especially beyond the standard VAEs. In this work, we advance the theoretical understanding of posterior collapse to two important and prevalent yet less studied classes of VAEs: conditional VAEs and hierarchical VAEs. Specifically, via a non-trivial theoretical analysis of linear conditional VAEs and hierarchical VAEs with two levels of latent, we prove that the cause of posterior collapses i
+    Disaggregated evaluation is a central task in AI fairness assessment, with the goal to measure an AI system's performance across different subgroups defined by combinations of demographic or other sensitive attributes. The standard approach is to stratify the evaluation data across subgroups and compute performance metrics separately for each group. However, even for moderately-sized evaluation datasets, sample sizes quickly get small once considering intersectional subgroups, which greatly limits the extent to which intersectional groups are considered in many disaggregated evaluations. In this work, we introduce a structured regression approach to disaggregated evaluation that we demonstrate can yield reliable system performance estimates even for very small subgroups. We also provide corresponding inference strategies for constructing confidence intervals and explore how goodness-of-fit testing can yield insight into the structure of fairness-related harms experienced by intersectio
     
-[^13]: MAGDiff: 利用深度神经网络激活图检测协变数据集转移
+[^7]: 未知方差下的高斯均值的任意有效T检验和置信序列
 
-    MAGDiff: Covariate Data Set Shift Detection via Activation Graphs of Deep Neural Networks. (arXiv:2305.13271v1 [stat.ML])
+    Anytime-valid t-tests and confidence sequences for Gaussian means with unknown variance. (arXiv:2310.03722v1 [math.ST])
 
-    [http://arxiv.org/abs/2305.13271](http://arxiv.org/abs/2305.13271)
+    [http://arxiv.org/abs/2310.03722](http://arxiv.org/abs/2310.03722)
 
-    MAGDiff是一种新的表示法，可以从神经网络分类器中提取，可以有效地检测协变数据集转移，而不需要训练新模型。这可以通过对比神经网络激活图来计算，并通过两个样本 Kolmogorov-Smirnov 测试进行实证验证。
-
-    
-
-    尽管神经网络被广泛应用于各种任务，但像其他机器学习方法一样，它们受到数据转移的影响，在训练数据与实际应用数据之间分布存在差异时，其性能会受到严重影响。本文提出了一种称为 MAGDiff 的新表示方法，可以从任何给定的神经网络分类器中提取出来，并且可以有效地检测协变数据集转移，而不需要训练专门用于此任务的新模型。这些表示形式是通过比较神经网络激活图来计算的，对于属于训练分布和目标分布的样本，提供了强大的数据和任务自适应统计量，用于检测常用的数据集转移的两个样本测试。我们通过测量两个样本 Kolmogorov-Smirnov（KS）测试的统计功率进行了实证验证。
-
-    Despite their successful application to a variety of tasks, neural networks remain limited, like other machine learning methods, by their sensitivity to shifts in the data: their performance can be severely impacted by differences in distribution between the data on which they were trained and that on which they are deployed. In this article, we propose a new family of representations, called MAGDiff, that we extract from any given neural network classifier and that allows for efficient covariate data shift detection without the need to train a new model dedicated to this task. These representations are computed by comparing the activation graphs of the neural network for samples belonging to the training distribution and to the target distribution, and yield powerful data- and task-adapted statistics for the two-sample tests commonly used for data set shift detection. We demonstrate this empirically by measuring the statistical powers of two-sample Kolmogorov-Smirnov (KS) tests on sev
-    
-[^14]: 利用量子几何进行学习幺正变换的泛化
-
-    Generalization with quantum geometry for learning unitaries. (arXiv:2303.13462v1 [quant-ph])
-
-    [http://arxiv.org/abs/2303.13462](http://arxiv.org/abs/2303.13462)
-
-    本文研究了量子机器学习模型的泛化能力，使用数据的量子费舍尔信息度量来评估成功训练和泛化所需的电路参数和训练数据的数量，并展示通过去除对称性来提高泛化能力，同时发现超出分布泛化能力可以比使用相同分布更优。
+    本文提出了两种新的“e-process”和置信序列方法，分别通过替换Lai的混合方法，并分析了所得结果的宽度。
 
     
 
-    泛化是量子机器学习模型从训练数据学习准确预测新数据的能力。在这里，我们引入数据的量子费舍尔信息度量(DQFIM)来确定模型何时能够泛化。对于幺正变换的可变学习，DQFIM量化了成功训练和泛化所需的电路参数和训练数据的数量。我们应用DQFIM来解释何时恒定数量的训练状态和多项式数量的参数足以实现泛化。此外，通过从训练数据中删除对称性，可以提高泛化能力。最后，我们显示，使用不同数据分布进行训练和测试的超出分布泛化能力可以比使用相同分布的能力更优。我们的研究为提高量子机器学习中的泛化能力开辟了新的方法。
+    在1976年，Lai构造了一个非平凡的均值$\mu$的高斯分布的置信序列，该分布的方差$\sigma$是未知的。他使用了关于$\sigma$的不适当（右Haar）混合和关于$\mu$的不适当（平坦）混合。在本文中，我们详细说明了他构建的细节，其中使用了广义的不可积分鞅和扩展的维尔不等式。尽管这确实产生了一个顺序T检验，但由于他的鞅不可积分，它并没有产生一个“e-process”。在本文中，我们为相同的设置开发了两个新的“e-process”和置信序列：一个是在缩减滤波器中的测试鞅，另一个是在规范数据滤波器中的“e-process”。这些分别是通过将Lai的平坦混合替换为高斯混合，并将对$\sigma$的右Haar混合替换为在零空间下的最大似然估计，就像在通用推断中一样。我们还分析了所得结果的宽度。
 
-    Generalization is the ability of quantum machine learning models to make accurate predictions on new data by learning from training data. Here, we introduce the data quantum Fisher information metric (DQFIM) to determine when a model can generalize. For variational learning of unitaries, the DQFIM quantifies the amount of circuit parameters and training data needed to successfully train and generalize. We apply the DQFIM to explain when a constant number of training states and polynomial number of parameters are sufficient for generalization. Further, we can improve generalization by removing symmetries from training data. Finally, we show that out-of-distribution generalization, where training and testing data are drawn from different data distributions, can be better than using the same distribution. Our work opens up new approaches to improve generalization in quantum machine learning.
+    In 1976, Lai constructed a nontrivial confidence sequence for the mean $\mu$ of a Gaussian distribution with unknown variance $\sigma$. Curiously, he employed both an improper (right Haar) mixture over $\sigma$ and an improper (flat) mixture over $\mu$. Here, we elaborate carefully on the details of his construction, which use generalized nonintegrable martingales and an extended Ville's inequality. While this does yield a sequential t-test, it does not yield an ``e-process'' (due to the nonintegrability of his martingale). In this paper, we develop two new e-processes and confidence sequences for the same setting: one is a test martingale in a reduced filtration, while the other is an e-process in the canonical data filtration. These are respectively obtained by swapping Lai's flat mixture for a Gaussian mixture, and swapping the right Haar mixture over $\sigma$ with the maximum likelihood estimate under the null, as done in universal inference. We also analyze the width of resulting 
     
-[^15]: 后期情节式强化学习推断
+[^8]: 非平滑非凸优化中随机次梯度方法的收敛性保证
 
-    Post-Episodic Reinforcement Learning Inference. (arXiv:2302.08854v2 [stat.ML] UPDATED)
+    Convergence Guarantees for Stochastic Subgradient Methods in Nonsmooth Nonconvex Optimization. (arXiv:2307.10053v1 [math.OC])
 
-    [http://arxiv.org/abs/2302.08854](http://arxiv.org/abs/2302.08854)
+    [http://arxiv.org/abs/2307.10053](http://arxiv.org/abs/2307.10053)
 
-    我们提出了一种后期情节式强化学习推断的方法，能够评估反事实的自适应策略并估计动态处理效应，通过重新加权的$Z$-估计方法稳定情节变化的估计方差。
-
-    
-
-    我们考虑从情节式强化学习算法收集的数据进行估计和推断；即在每个时期（也称为情节）以顺序方式与单个受试单元多次交互的自适应试验算法。我们的目标是在收集数据后能够评估反事实的自适应策略，并估计结构参数，如动态处理效应，这可以用于信用分配（例如，第一个时期的行动对最终结果的影响）。这些感兴趣的参数可以构成矩方程的解，但不是总体损失函数的最小化器，在静态数据情况下导致了$Z$-估计方法。然而，这样的估计量在自适应数据收集的情况下不能渐近正态。我们提出了一种重新加权的$Z$-估计方法，使用精心设计的自适应权重来稳定情节变化的估计方差，这是由非...
-
-    We consider estimation and inference with data collected from episodic reinforcement learning (RL) algorithms; i.e. adaptive experimentation algorithms that at each period (aka episode) interact multiple times in a sequential manner with a single treated unit. Our goal is to be able to evaluate counterfactual adaptive policies after data collection and to estimate structural parameters such as dynamic treatment effects, which can be used for credit assignment (e.g. what was the effect of the first period action on the final outcome). Such parameters of interest can be framed as solutions to moment equations, but not minimizers of a population loss function, leading to $Z$-estimation approaches in the case of static data. However, such estimators fail to be asymptotically normal in the case of adaptive data collection. We propose a re-weighted $Z$-estimation approach with carefully designed adaptive weights to stabilize the episode-varying estimation variance, which results from the non
-    
-[^16]: 现代生物统计中的强化学习：构建最优自适应干预
-
-    Reinforcement Learning in Modern Biostatistics: Constructing Optimal Adaptive Interventions. (arXiv:2203.02605v2 [stat.ML] UPDATED)
-
-    [http://arxiv.org/abs/2203.02605](http://arxiv.org/abs/2203.02605)
-
-    本文是关于将强化学习应用于自适应干预中的第一份统一调查，强化学习在动态治疗方案和移动健康中即时自适应干预这两个领域中都具有很大的应用潜力。在这两个领域之间存在相似和不同之处需要考虑，并且这里存在巨大的合作机会。
+    本文研究了非平滑非凸优化中随机次梯度方法的收敛性质，并提出了一种新的框架，证明了其在单时间尺度和双时间尺度情况下的全局收敛性，包括了多种已知的SGD类型方法。对于有限和形式的目标函数，证明了这些方法能够在随机选择的步长和初始点上找到Clarke稳定点。
 
     
 
-    近年来，强化学习（RL）在与健康相关的序列性决策中占据了重要地位，成为交付自适应干预（AIs）的越来越流行的工具。然而，尽管具有潜在优势，但其现实应用仍然受到限制，部分是由于方法论和应用社区之间的协同不足。在这项工作中，我们提供了关于学习AIs的RL方法的第一份统一调查，利用RL的通用方法论伞来桥接动态治疗方案和移动健康中即时自适应干预这两个AI领域。我们概述了这两个AI领域之间的异同，并讨论了它们对使用RL的影响。最后，我们利用自己在两个领域中设计案例研究的经验，说明了在AIs领域中，统计学、RL和医疗研究人员之间的巨大合作机会。
+    本文研究了随机梯度下降（SGD）方法及其变种在训练由非平滑激活函数构建的神经网络中的收敛性质。我们提出了一种新颖的框架，为更新动量项和变量的步长分配了不同的时间尺度。在一些温和的条件下，我们证明了我们提出的框架在单时间尺度和双时间尺度情况下的全局收敛性。我们还证明了我们提出的框架包含了很多已知的SGD类型方法，包括heavy-ball SGD、SignSGD、Lion、normalized SGD和clipped SGD。此外，当目标函数采用有限和形式时，我们基于我们提出的框架证明了这些SGD类型方法的收敛性质。特别地，在温和的假设下，我们证明了这些SGD类型方法在随机选择的步长和初始点上能够找到目标函数的Clarke稳定点。
 
-    In recent years, reinforcement learning (RL) has acquired a prominent position in the space of health-related sequential decision-making, becoming an increasingly popular tool for delivering adaptive interventions (AIs). However, despite potential benefits, its real-life application is still limited, partly due to a poor synergy between the methodological and the applied communities. In this work, we provide the first unified survey on RL methods for learning AIs, using the common methodological umbrella of RL to bridge the two AI areas of dynamic treatment regimes and just-in-time adaptive interventions in mobile health. We outline similarities and differences between these two AI domains and discuss their implications for using RL. Finally, we leverage our experience in designing case studies in both areas to illustrate the tremendous collaboration opportunities between statistical, RL, and healthcare researchers in the space of AIs.
+    In this paper, we investigate the convergence properties of the stochastic gradient descent (SGD) method and its variants, especially in training neural networks built from nonsmooth activation functions. We develop a novel framework that assigns different timescales to stepsizes for updating the momentum terms and variables, respectively. Under mild conditions, we prove the global convergence of our proposed framework in both single-timescale and two-timescale cases. We show that our proposed framework encompasses a wide range of well-known SGD-type methods, including heavy-ball SGD, SignSGD, Lion, normalized SGD and clipped SGD. Furthermore, when the objective function adopts a finite-sum formulation, we prove the convergence properties for these SGD-type methods based on our proposed framework. In particular, we prove that these SGD-type methods find the Clarke stationary points of the objective function with randomly chosen stepsizes and initial points under mild assumptions. Preli
     
-[^17]: 分类规则生成：可扩展性，解释性和公平性
+[^9]: 通过随机Polyak步长的局部自适应联邦学习
 
-    Rule Generation for Classification: Scalability, Interpretability, and Fairness. (arXiv:2104.10751v3 [cs.LG] UPDATED)
+    Locally Adaptive Federated Learning via Stochastic Polyak Stepsizes. (arXiv:2307.06306v1 [cs.LG])
 
-    [http://arxiv.org/abs/2104.10751](http://arxiv.org/abs/2104.10751)
+    [http://arxiv.org/abs/2307.06306](http://arxiv.org/abs/2307.06306)
 
-    这项研究介绍了一种新的基于规则的分类优化方法，利用列生成线性规划实现可扩展性，并通过分配成本系数和引入额外约束解决了解释性和公平性问题。该方法在局部解释性和公平性之间取得了良好的平衡。
+    本文将随机Polyak步长方法扩展到联邦学习，提出了新的局部自适应和几乎无需调参的FedSPS和FedDecSPS变体。我们证明了当插值条件满足时，FedSPS以线性速度收敛，一般情况下收敛到解的邻域。
 
     
 
-    我们引入了一种新的基于规则的分类优化方法，具有约束条件。所提出的方法利用列生成线性规划，因此可扩展到大型数据集。所得定价子问题被证明是NP难问题。我们采用基于决策树的启发式方法，并解决了一个代理定价子问题以加速。该方法返回一组规则以及它们的最优权重，指示每个规则对学习的重要性。我们通过为规则分配成本系数和引入额外约束来解决解释性和公平性问题。具体而言，我们关注局部解释性，并将公平性的一般分离准则推广到多个敏感属性和类别。我们在一系列数据集上测试了所提出方法的性能，并提供了一个案例研究来详细阐述其不同方面。所提出的基于规则的学习方法在局部解释性和公平性之间达到了良好的平衡点。
+    最先进的联邦学习算法，如FedAvg，需要精心调整的步长才能达到最佳性能。现有自适应联邦方法提出的改进仅涉及额外的超参数调整，如动量参数，并且仅考虑在服务器聚合轮次中的适应性，而不是局部的。这些方法在许多实际场景下效率低下，因为它们需要过多的超参数调整，并且不能捕捉局部几何信息。本文将最近提出的随机Polyak步长方法扩展到联邦学习环境，并提出了新的局部自适应和几乎无需调参的分布式SPS变体（FedSPS和FedDecSPS）。我们证明当插值条件（过参数化）满足时，FedSPS在强凸和凸设置中以线性速度收敛，一般情况下收敛到解的邻域。
 
-    We introduce a new rule-based optimization method for classification with constraints. The proposed method leverages column generation for linear programming, and hence, is scalable to large datasets. The resulting pricing subproblem is shown to be NP-Hard. We recourse to a decision tree-based heuristic and solve a proxy pricing subproblem for acceleration. The method returns a set of rules along with their optimal weights indicating the importance of each rule for learning. We address interpretability and fairness by assigning cost coefficients to the rules and introducing additional constraints. In particular, we focus on local interpretability and generalize separation criterion in fairness to multiple sensitive attributes and classes. We test the performance of the proposed methodology on a collection of datasets and present a case study to elaborate on its different aspects. The proposed rule-based learning method exhibits a good compromise between local interpretability and fairn
+    State-of-the-art federated learning algorithms such as FedAvg require carefully tuned stepsizes to achieve their best performance. The improvements proposed by existing adaptive federated methods involve tuning of additional hyperparameters such as momentum parameters, and consider adaptivity only in the server aggregation round, but not locally. These methods can be inefficient in many practical scenarios because they require excessive tuning of hyperparameters and do not capture local geometric information. In this work, we extend the recently proposed stochastic Polyak stepsize (SPS) to the federated learning setting, and propose new locally adaptive and nearly parameter-free distributed SPS variants (FedSPS and FedDecSPS). We prove that FedSPS converges linearly in strongly convex and sublinearly in convex settings when the interpolation condition (overparametrization) is satisfied, and converges to a neighborhood of the solution in the general case. We extend our proposed method t
+    
+[^10]: 通过子序列相似性生成序列：理论及其在无人机识别中的应用
+
+    Sequence Generation via Subsequence Similarity: Theory and Application to UAV Identification. (arXiv:2301.08403v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2301.08403](http://arxiv.org/abs/2301.08403)
+
+    本文探究了一种单次生成模型的多样性，主要聚焦于子序列相似性如何影响整个序列相似性，并通过生成子序列相似的序列来增强数据集。
+
+    
+
+    生成人工合成序列的能力在广泛的应用中至关重要，而深度学习架构和生成框架的最新进展已经极大地促进了这一过程。本文使用一种单次生成模型来采样，通过相似性生成子序列，并证明了子序列相似性对整个序列相似性的影响，给出了相应的界限。我们使用一种一次性生成模型来从单个序列的范围内取样，并生成子序列相似的序列，证明了数据集增强方面的实用性。
+
+    The ability to generate synthetic sequences is crucial for a wide range of applications, and recent advances in deep learning architectures and generative frameworks have greatly facilitated this process. Particularly, unconditional one-shot generative models constitute an attractive line of research that focuses on capturing the internal information of a single image or video to generate samples with similar contents. Since many of those one-shot models are shifting toward efficient non-deep and non-adversarial approaches, we examine the versatility of a one-shot generative model for augmenting whole datasets. In this work, we focus on how similarity at the subsequence level affects similarity at the sequence level, and derive bounds on the optimal transport of real and generated sequences based on that of corresponding subsequences. We use a one-shot generative model to sample from the vicinity of individual sequences and generate subsequence-similar ones and demonstrate the improvem
+    
+[^11]: 长期持续混淆情况下的因果推断与数据组合研究
+
+    Long-term Causal Inference Under Persistent Confounding via Data Combination. (arXiv:2202.07234v3 [stat.ME] UPDATED)
+
+    [http://arxiv.org/abs/2202.07234](http://arxiv.org/abs/2202.07234)
+
+    本研究通过数据组合解决了长期治疗效果识别和估计中的持续未测量混淆因素挑战，并提出了三种新的识别策略和估计器。
+
+    
+
+    我们研究了当实验数据和观察数据同时存在时，长期治疗效果的识别和估计问题。由于长期结果仅在长时间延迟后才观察到，在实验数据中无法测量，但在观察数据中有记录。然而，这两种类型的数据都包含对一些短期结果的观察。在本文中，我们独特地解决了持续未测量混淆因素的挑战，即一些未测量混淆因素可以同时影响治疗、短期结果和长期结果，而这会使得之前文献中的识别策略无效。为了解决这个挑战，我们利用多个短期结果的连续结构，为平均长期治疗效果提出了三种新的识别策略。我们进一步提出了三种对应的估计器，并证明了它们的渐近一致性和渐近正态性。最后，我们将我们的方法应用于估计长期治疗效果。
+
+    We study the identification and estimation of long-term treatment effects when both experimental and observational data are available. Since the long-term outcome is observed only after a long delay, it is not measured in the experimental data, but only recorded in the observational data. However, both types of data include observations of some short-term outcomes. In this paper, we uniquely tackle the challenge of persistent unmeasured confounders, i.e., some unmeasured confounders that can simultaneously affect the treatment, short-term outcomes and the long-term outcome, noting that they invalidate identification strategies in previous literature. To address this challenge, we exploit the sequential structure of multiple short-term outcomes, and develop three novel identification strategies for the average long-term treatment effect. We further propose three corresponding estimators and prove their asymptotic consistency and asymptotic normality. We finally apply our methods to esti
     
 
