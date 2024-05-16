@@ -2,37 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [The allocation of FIFA World Cup slots based on the Elo method and pairwise comparisons.](http://arxiv.org/abs/2310.19100) | 本文提出了一种合理的方法，基于球队之间的比赛来分配FIFA世界杯席位。研究结果显示欧洲和南美球队应该获得更多席位，并建议透明地根据历史表现来分配席位。 |
-| [^2] | [Long-term Causal Inference Under Persistent Confounding via Data Combination.](http://arxiv.org/abs/2202.07234) | 本研究通过数据组合解决了长期治疗效果识别和估计中的持续未测量混淆因素挑战，并提出了三种新的识别策略和估计器。 |
+| [^1] | [Speed, Accuracy, and Complexity](https://arxiv.org/abs/2403.11240) | 本文重新审视了使用反应时间来推断问题复杂性的有效性，提出了一个新方法来正确推断问题的复杂性，强调了在简单和复杂问题中决策速度都很快的特点，并探讨了反应时间与能力之间的非单调关系。 |
+| [^2] | [LLM Voting: Human Choices and AI Collective Decision Making](https://arxiv.org/abs/2402.01766) | 本文研究了大型语言模型（LLMs），特别是OpenAI的GPT4和LLaMA2的投票行为，并揭示了LLMs与人类在决策和偏见方面的差异。研究发现，在投票辅助中使用LLMs可能会导致更同质化的集体结果，强调了谨慎将LLMs整合到民主过程中的必要性。 |
+| [^3] | [Estimating Individual Responses when Tomorrow Matters.](http://arxiv.org/abs/2310.09105) | 本论文提出了一种基于回归的方法，用于估计个体对对立情况的反应。通过应用该方法于意大利的调查数据，研究发现考虑个体的信念对税收政策对消费决策的影响很重要。 |
+| [^4] | [Synthetic Control Methods by Density Matching under Implicit Endogeneitiy.](http://arxiv.org/abs/2307.11127) | 本文提出了一种新型的合成对照方法，通过密度匹配来解决现有SCMs中的隐式内生性问题。该方法通过将经过处理单元的结果密度与未处理单元的密度进行加权平均来估计SC权重。 |
 
 # 详细
 
-[^1]: 基于Elo方法和两两比较的FIFA世界杯席位分配
+[^1]: 速度、准确性和复杂性
 
-    The allocation of FIFA World Cup slots based on the Elo method and pairwise comparisons. (arXiv:2310.19100v1 [econ.GN])
+    Speed, Accuracy, and Complexity
 
-    [http://arxiv.org/abs/2310.19100](http://arxiv.org/abs/2310.19100)
+    [https://arxiv.org/abs/2403.11240](https://arxiv.org/abs/2403.11240)
 
-    本文提出了一种合理的方法，基于球队之间的比赛来分配FIFA世界杯席位。研究结果显示欧洲和南美球队应该获得更多席位，并建议透明地根据历史表现来分配席位。
-
-    
-
-    许多世界体育锦标赛的资格赛是根据不同的球队组进行比赛，以确定给定数量的席位。本文提供了一种合理的方法，基于这些球队之间的比赛来分配席位。我们重点关注FIFA世界杯，因为存在正式的评级系统，并且最近扩展到48个队伍。我们的提议改进了FIFA世界排名的方法，以比较五个大洲的实力。根据样本长度、考虑的球队组以及评级更新频率的不同，介绍了各种不同的分配方案。结果显示，更多的欧洲和南美球队应该参加FIFA世界杯。按照应得席位数对大洲进行排名与FIFA政策暗示的排名不同。我们建议至少通过透明的方式，基于历史表现来分配一些FIFA世界杯席位，类似于接入列表
-
-    Qualifications for several world championships in sports are organised such that different sets of teams play in their own tournament for a predetermined number of slots. This paper provides a reasonable approach to allocate the slots based on matches between these sets of teams. We focus on the FIFA World Cup due to the existence of an official rating system and its recent expansion to 48 teams. Our proposal adapts the methodology of the FIFA World Ranking to compare the strengths of five confederations. Various allocations are presented depending on the length of the sample, the set of teams considered, as well as the frequency of rating updates. The results show that more European and South American teams should play in the FIFA World Cup. The ranking of continents by the number of deserved slots is different from the ranking implied by FIFA policy. We recommend allocating at least some FIFA World Cup slots transparently, based on historical performances, similar to the access list 
-    
-[^2]: 长期持续混淆情况下的因果推断与数据组合研究
-
-    Long-term Causal Inference Under Persistent Confounding via Data Combination. (arXiv:2202.07234v3 [stat.ME] UPDATED)
-
-    [http://arxiv.org/abs/2202.07234](http://arxiv.org/abs/2202.07234)
-
-    本研究通过数据组合解决了长期治疗效果识别和估计中的持续未测量混淆因素挑战，并提出了三种新的识别策略和估计器。
+    本文重新审视了使用反应时间来推断问题复杂性的有效性，提出了一个新方法来正确推断问题的复杂性，强调了在简单和复杂问题中决策速度都很快的特点，并探讨了反应时间与能力之间的非单调关系。
 
     
 
-    我们研究了当实验数据和观察数据同时存在时，长期治疗效果的识别和估计问题。由于长期结果仅在长时间延迟后才观察到，在实验数据中无法测量，但在观察数据中有记录。然而，这两种类型的数据都包含对一些短期结果的观察。在本文中，我们独特地解决了持续未测量混淆因素的挑战，即一些未测量混淆因素可以同时影响治疗、短期结果和长期结果，而这会使得之前文献中的识别策略无效。为了解决这个挑战，我们利用多个短期结果的连续结构，为平均长期治疗效果提出了三种新的识别策略。我们进一步提出了三种对应的估计器，并证明了它们的渐近一致性和渐近正态性。最后，我们将我们的方法应用于估计长期治疗效果。
+    这篇论文重新审视了使用反应时间来推断问题复杂性的有效性。重新审视了一个经典的Wald模型，将信噪比作为问题复杂性的度量。虽然在问题复杂性上，选择质量是单调的，但期望的停止时间是倒U形的。事实上，决策在非常简单和非常复杂的问题中都很快：在简单问题中很快就能理解哪个选择是最好的，而在复杂问题中将会成本过高--这一洞察力也适用于一般的昂贵信息获取模型。这种非单调性也构成了反应时间与能力之间模糊关系的基础，即更高的能力意味着在非常复杂的问题中决策更慢，但在简单问题中决策更快。最后，本文提出了一种新方法，根据选择对激励变化的反应更多来正确推断问题的复杂性。
 
-    We study the identification and estimation of long-term treatment effects when both experimental and observational data are available. Since the long-term outcome is observed only after a long delay, it is not measured in the experimental data, but only recorded in the observational data. However, both types of data include observations of some short-term outcomes. In this paper, we uniquely tackle the challenge of persistent unmeasured confounders, i.e., some unmeasured confounders that can simultaneously affect the treatment, short-term outcomes and the long-term outcome, noting that they invalidate identification strategies in previous literature. To address this challenge, we exploit the sequential structure of multiple short-term outcomes, and develop three novel identification strategies for the average long-term treatment effect. We further propose three corresponding estimators and prove their asymptotic consistency and asymptotic normality. We finally apply our methods to esti
+    arXiv:2403.11240v1 Announce Type: new  Abstract: This paper re-examines the validity of using response time to infer problem complexity. It revisits a canonical Wald model of optimal stopping, taking signal-to-noise ratio as a measure of problem complexity. While choice quality is monotone in problem complexity, expected stopping time is inverse $U$-shaped. Indeed decisions are fast in both very simple and very complex problems: in simple problems it is quick to understand which alternative is best, while in complex problems it would be too costly -- an insight which extends to general costly information acquisition models. This non-monotonicity also underlies an ambiguous relationship between response time and ability, whereby higher ability entails slower decisions in very complex problems, but faster decisions in simple problems. Finally, this paper proposes a new method to correctly infer problem complexity based on the finding that choices react more to changes in incentives in mo
+    
+[^2]: LLM投票：人类选择和AI集体决策
+
+    LLM Voting: Human Choices and AI Collective Decision Making
+
+    [https://arxiv.org/abs/2402.01766](https://arxiv.org/abs/2402.01766)
+
+    本文研究了大型语言模型（LLMs），特别是OpenAI的GPT4和LLaMA2的投票行为，并揭示了LLMs与人类在决策和偏见方面的差异。研究发现，在投票辅助中使用LLMs可能会导致更同质化的集体结果，强调了谨慎将LLMs整合到民主过程中的必要性。
+
+    
+
+    本文研究了大型语言模型（LLMs），特别是OpenAI的GPT4和LLaMA2的投票行为，并与人类投票模式进行了对比。我们的方法包括进行人类投票实验以建立人类偏好的基准，并与LLM代理进行平行实验。研究聚焦于集体结果和个体偏好，揭示了人类和LLMs之间在决策和固有偏见方面的差异。我们观察到LLMs在偏好多样性和一致性之间存在权衡，相比人类选民的多样偏好，LLMs有更趋向于一致选择的倾向。这一发现表明，在投票辅助中使用LLMs可能会导致更同质化的集体结果，强调了谨慎将LLMs整合到民主过程中的必要性。
+
+    This paper investigates the voting behaviors of Large Language Models (LLMs), particularly OpenAI's GPT4 and LLaMA2, and their alignment with human voting patterns. Our approach included a human voting experiment to establish a baseline for human preferences and a parallel experiment with LLM agents. The study focused on both collective outcomes and individual preferences, revealing differences in decision-making and inherent biases between humans and LLMs. We observed a trade-off between preference diversity and alignment in LLMs, with a tendency towards more uniform choices as compared to the diverse preferences of human voters. This finding indicates that LLMs could lead to more homogenized collective outcomes when used in voting assistance, underscoring the need for cautious integration of LLMs into democratic processes.
+    
+[^3]: 估计明天重要时的个体反应
+
+    Estimating Individual Responses when Tomorrow Matters. (arXiv:2310.09105v1 [econ.EM])
+
+    [http://arxiv.org/abs/2310.09105](http://arxiv.org/abs/2310.09105)
+
+    本论文提出了一种基于回归的方法，用于估计个体对对立情况的反应。通过应用该方法于意大利的调查数据，研究发现考虑个体的信念对税收政策对消费决策的影响很重要。
+
+    
+
+    我们提出了一种基于回归的方法，用于估计个体的期望如何影响他们对对立情况的反应。我们提供了基于回归估计的平均偏效应恢复结构效应的条件。我们提出了一个依赖于主观信念数据的实用的三步估计方法。我们在一个消费和储蓄模型中说明了我们的方法，重点关注不仅改变当前收入而且影响对未来收入的信念的所得税的影响。通过将我们的方法应用于意大利的调查数据，我们发现考虑个体的信念对评估税收政策对消费决策的影响很重要。
+
+    We propose a regression-based approach to estimate how individuals' expectations influence their responses to a counterfactual change. We provide conditions under which average partial effects based on regression estimates recover structural effects. We propose a practical three-step estimation method that relies on subjective beliefs data. We illustrate our approach in a model of consumption and saving, focusing on the impact of an income tax that not only changes current income but also affects beliefs about future income. By applying our approach to survey data from Italy, we find that considering individuals' beliefs matter for evaluating the impact of tax policies on consumption decisions.
+    
+[^4]: 通过密度匹配实现的合成对照方法下的隐式内生性问题
+
+    Synthetic Control Methods by Density Matching under Implicit Endogeneitiy. (arXiv:2307.11127v1 [econ.EM])
+
+    [http://arxiv.org/abs/2307.11127](http://arxiv.org/abs/2307.11127)
+
+    本文提出了一种新型的合成对照方法，通过密度匹配来解决现有SCMs中的隐式内生性问题。该方法通过将经过处理单元的结果密度与未处理单元的密度进行加权平均来估计SC权重。
+
+    
+
+    合成对照方法（SCMs）已成为比较案例研究中因果推断的重要工具。SCMs的基本思想是通过使用来自未处理单元的观测结果的加权和来估计经过处理单元的反事实结果。合成对照（SC）的准确性对于估计因果效应至关重要，因此，SC权重的估计成为了研究的焦点。在本文中，我们首先指出现有的SCMs存在一个隐式内生性问题，即未处理单元的结果与反事实结果模型中的误差项之间的相关性。我们展示了这个问题会对因果效应估计器产生偏差。然后，我们提出了一种基于密度匹配的新型SCM，假设经过处理单元的结果密度可以用未处理单元的密度的加权平均来近似（即混合模型）。基于这一假设，我们通过匹配来估计SC权重。
+
+    Synthetic control methods (SCMs) have become a crucial tool for causal inference in comparative case studies. The fundamental idea of SCMs is to estimate counterfactual outcomes for a treated unit by using a weighted sum of observed outcomes from untreated units. The accuracy of the synthetic control (SC) is critical for estimating the causal effect, and hence, the estimation of SC weights has been the focus of much research. In this paper, we first point out that existing SCMs suffer from an implicit endogeneity problem, which is the correlation between the outcomes of untreated units and the error term in the model of a counterfactual outcome. We show that this problem yields a bias in the causal effect estimator. We then propose a novel SCM based on density matching, assuming that the density of outcomes of the treated unit can be approximated by a weighted average of the densities of untreated units (i.e., a mixture model). Based on this assumption, we estimate SC weights by matchi
     
 

@@ -2,50 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Using Contextual Information for Sentence-level Morpheme Segmentation](https://arxiv.org/abs/2403.15436) | 将形态素分割任务重新定义为序列到序列问题，并通过多语言模型展示出优异性能，揭示了高资源语言环境下的可比效力，以及低资源语言场景下的局限性。 |
-| [^2] | [Enhancing Hokkien Dual Translation by Exploring and Standardizing of Four Writing Systems](https://arxiv.org/abs/2403.12024) | 通过开发双语翻译模型，探索台湾福建话和繁体中文/英文之间的翻译，引入限制单语语料库并将所有台湾福建话文字系统规范为福建话汉字，从而提高翻译性能。 |
-| [^3] | [Efficient Pruning of Large Language Model with Adaptive Estimation Fusion](https://arxiv.org/abs/2403.10799) | 提出了一种简单而高效的剪枝方法，能够自适应地模拟每个子结构的重要性，并根据多层结构的结果自适应地融合粗粒度和细粒度的估计。 |
-| [^4] | [VidProM: A Million-scale Real Prompt-Gallery Dataset for Text-to-Video Diffusion Models](https://arxiv.org/abs/2403.06098) | VidProM是一个包含167万个独特文本到视频提示的大规模数据集，对于文本到视频扩散模型带来了新的研究进展，揭示了真实用户提示对视频生成的重要性。 |
-| [^5] | [Tell, Don't Show!: Language Guidance Eases Transfer Across Domains in Images and Videos](https://arxiv.org/abs/2403.05535) | 该论文提出了LaGTran框架，利用文本描述来引导知识转移，在处理具有挑战性的数据集上表现出显著优势。 |
-| [^6] | [ParallelPARC: A Scalable Pipeline for Generating Natural-Language Analogies](https://arxiv.org/abs/2403.01139) | 设计了ParallelPARC流水线，利用大型语言模型生成复杂段落类比数据集，评估各种类比类型，并展示出人类在类比识别中的优势。 |
-| [^7] | [Direct Alignment of Draft Model for Speculative Decoding with Chat-Fine-Tuned LLMs](https://arxiv.org/abs/2403.00858) | 通过提出的框架，我们训练了一种用于Llama 2 Chat 7B或更大模型的草案模型，实现了加速推理，仅占原始大小的1.64％。 |
-| [^8] | [Where Visual Speech Meets Language: VSP-LLM Framework for Efficient and Context-Aware Visual Speech Processing](https://arxiv.org/abs/2402.15151) | 提出了一个新颖的VSP-LLM框架，用于最大化上下文建模能力，实现视觉语音识别和翻译的多任务执行。 |
-| [^9] | [Are Sounds Sound for Phylogenetic Reconstruction?](https://arxiv.org/abs/2402.02807) | 本文通过对十个不同语言家族的多样数据集进行研究，首次在系统发育重建中比较了基于声音和基于同源的方法的表现。结果显示，基于词汇同源的重建谱系与真实谱系平均更接近，提高了约三分之一。 |
-| [^10] | [Primacy Effect of ChatGPT.](http://arxiv.org/abs/2310.13206) | ChatGPT在选择答案时表现出初印象效应，即更倾向于选择提示中较早位置的标签作为答案。 |
-| [^11] | [Language Models as Black-Box Optimizers for Vision-Language Models.](http://arxiv.org/abs/2309.05950) | 本论文介绍了一种新的视觉-语言模型 (VLMs) 微调方法，通过自然语言提示来避免访问模型参数，采用聊天式的语言模型作为黑盒优化器，在少样本图像分类任务中达到效果。 |
-| [^12] | [Are Models Trained on Indian Legal Data Fair?.](http://arxiv.org/abs/2303.07247) | 本文从印度的法律领域出发，通过对在印地语法律文档上训练的模型在保释预测任务中的算法偏见传递进行了初步调查。结果表明，决策树模型在与印度教徒和穆斯林相关的输入特征上具有0.237的整体公平性差距。 |
+| [^1] | [A Survey of Large Language Models in Medicine: Principles, Applications, and Challenges](https://rss.arxiv.org/abs/2311.05112) | 本综述提供了医学中大型语言模型（LLMs）的原理、应用和挑战的全面概述。同时回答了医学LLMs的构建、下游性能、实际应用、挑战以及更好构建和利用的问题。旨在为构建有效的医学LLMs提供见解和实用资源。 |
+| [^2] | [Efficient Pruning of Large Language Model with Adaptive Estimation Fusion](https://arxiv.org/abs/2403.10799) | 提出了一种简单而高效的剪枝方法，能够自适应地模拟每个子结构的重要性，并根据多层结构的结果自适应地融合粗粒度和细粒度的估计。 |
+| [^3] | [BiLLM: Pushing the Limit of Post-Training Quantization for LLMs](https://arxiv.org/abs/2402.04291) | BiLLM是一种针对预训练LLMs的1位后训练量化方案，通过识别重要的权重和优化二值化，成功实现了高准确度的推理。 |
+| [^4] | [LLM Voting: Human Choices and AI Collective Decision Making](https://arxiv.org/abs/2402.01766) | 本文研究了大型语言模型（LLMs），特别是OpenAI的GPT4和LLaMA2的投票行为，并揭示了LLMs与人类在决策和偏见方面的差异。研究发现，在投票辅助中使用LLMs可能会导致更同质化的集体结果，强调了谨慎将LLMs整合到民主过程中的必要性。 |
+| [^5] | [Not My Voice! A Taxonomy of Ethical and Safety Harms of Speech Generators](https://arxiv.org/abs/2402.01708) | 语音生成技术的广泛应用给社会带来了伦理和安全风险。本文通过分析语音生成事件，总结出特定伤害模式，并将其分类。这些特定伤害涉及到受影响个体的曝光程度以及相关利益相关者和技术系统之间的相互作用。 |
+| [^6] | [Multilingual Text-to-Image Generation Magnifies Gender Stereotypes and Prompt Engineering May Not Help You](https://arxiv.org/abs/2401.16092) | 多语言文本到图像生成模型存在性别偏见；通过MAGBIG评估模型时，发现模型对不同语言具有重要差异；我们呼吁研究多语言模型领域消除性别偏见。 |
+| [^7] | [ChatQA: Building GPT-4 Level Conversational QA Models.](http://arxiv.org/abs/2401.10225) | ChatQA是一系列对话问答模型，可以达到GPT-4级别的准确性。通过两阶段的指令调整方法，可以显著提高大型语言模型在零-shot对话问答中的结果。使用密集检索器进行问答数据集的微调可以实现与最先进的查询重写模型相当的结果，同时降低部署成本。ChatQA-70B在10个对话问答数据集上的平均得分超过了GPT-4，且不依赖于任何来自OpenAI GPT模型的合成数据。 |
+| [^8] | [Beyond Turing: A Comparative Analysis of Approaches for Detecting Machine-Generated Text.](http://arxiv.org/abs/2311.12373) | 该论文对比了三种不同方法用于检测人类生成和机器生成文本的能力，并发现它们在性能上存在显著差异，为进一步研究和开发具有鲁棒性和高度区分性的模型提供了重要参考。 |
+| [^9] | [Kid-Whisper: Towards Bridging the Performance Gap in Automatic Speech Recognition for Children VS. Adults.](http://arxiv.org/abs/2309.07927) | 本文主要研究利用My Science Tutor（MyST）儿童语音语料库和更有效的数据预处理来改进自动语音识别（ASR）系统对儿童语音的识别性能。将Whisper系统整合到儿童语音识别中，显示了表现可行和高效。 |
+| [^10] | [Tackling Fake News in Bengali: Unraveling the Impact of Summarization vs. Augmentation on Pre-trained Language Models.](http://arxiv.org/abs/2307.06979) | 本论文研究了孟加拉语中假新闻的检测问题。通过使用总结和扩充技术，结合预训练语言模型，提出了一种四重方法来分类孟加拉语的假新闻文章。研究表明，总结和扩充在孟加拉语假新闻检测中具有有效性。 |
+| [^11] | [VisualGPTScore: Visio-Linguistic Reasoning with Multimodal Generative Pre-Training Scores.](http://arxiv.org/abs/2306.01879) | 我们提出了VisualGPTScore方法，能够使用多模态生成分数捕捉文本标题可能性，并在图像条件语言模型上进行计算，具备组合推理能力。 |
+| [^12] | [Tailoring Instructions to Student's Learning Levels Boosts Knowledge Distillation.](http://arxiv.org/abs/2305.09651) | 本文提出了一种个性化指导的学习技术，称为LGTM，其利用蒸馏效应选择样本以增强学生的泛化能力，在GLUE基准测试的6个文本分类任务中优于10个常见的知识蒸馏基线算法。 |
+| [^13] | [Cleansing Jewel: A Neural Spelling Correction Model Built On Google OCR-ed Tibetan Manuscripts.](http://arxiv.org/abs/2304.03427) | 本文提出了一种基于谷歌OCR扫描的藏文手稿的神经拼写纠错模型，可以自动纠正OCR输出中的噪声。 |
 
 # 详细
 
-[^1]: 利用上下文信息进行句子级形态素分割
+[^1]: 医学中的大型语言模型调查：原理、应用和挑战
 
-    Using Contextual Information for Sentence-level Morpheme Segmentation
+    A Survey of Large Language Models in Medicine: Principles, Applications, and Challenges
 
-    [https://arxiv.org/abs/2403.15436](https://arxiv.org/abs/2403.15436)
+    [https://rss.arxiv.org/abs/2311.05112](https://rss.arxiv.org/abs/2311.05112)
 
-    将形态素分割任务重新定义为序列到序列问题，并通过多语言模型展示出优异性能，揭示了高资源语言环境下的可比效力，以及低资源语言场景下的局限性。
-
-    
-
-    最近形态素分割的发展主要强调单词级别的分割，通常忽视了句子内的上下文相关性。在这项研究中，我们将形态素分割任务重新定义为一个序列到序列的问题，将整个句子作为输入，而不是孤立地处理单个单词。我们的研究发现，多语言模型与单语模型相比始终表现出更高的性能。虽然我们的模型没有超越当前最先进的模型，但在高资源语言中展现出可比较的有效性，同时揭示了在低资源语言场景中的局限性。
-
-    arXiv:2403.15436v1 Announce Type: new  Abstract: Recent advancements in morpheme segmentation primarily emphasize word-level segmentation, often neglecting the contextual relevance within the sentence. In this study, we redefine the morpheme segmentation task as a sequence-to-sequence problem, treating the entire sentence as input rather than isolating individual words. Our findings reveal that the multilingual model consistently exhibits superior performance compared to monolingual counterparts. While our model did not surpass the performance of the current state-of-the-art, it demonstrated comparable efficacy with high-resource languages while revealing limitations in low-resource language scenarios.
-    
-[^2]: 探索和规范四种文字系统，增强福建话的双语翻译
-
-    Enhancing Hokkien Dual Translation by Exploring and Standardizing of Four Writing Systems
-
-    [https://arxiv.org/abs/2403.12024](https://arxiv.org/abs/2403.12024)
-
-    通过开发双语翻译模型，探索台湾福建话和繁体中文/英文之间的翻译，引入限制单语语料库并将所有台湾福建话文字系统规范为福建话汉字，从而提高翻译性能。
+    本综述提供了医学中大型语言模型（LLMs）的原理、应用和挑战的全面概述。同时回答了医学LLMs的构建、下游性能、实际应用、挑战以及更好构建和利用的问题。旨在为构建有效的医学LLMs提供见解和实用资源。
 
     
 
-    arXiv:2403.12024v1 公告类型: 新 提要: 机器翻译主要集中在高资源语言（HRLs），而低资源语言（LRLs）如台湾福建话相对未被深入探索。本研究旨在通过开发台湾福建话与繁体中文和英文之间的双语翻译模型来解决这一差距。我们使用一个专门针对繁体中文的预训练LLaMA2-7B模型来利用台湾福建话汉字与繁体中文之间的拼音相似性。我们的全面实验涉及台湾福建话各种文字系统之间的翻译任务，以及台湾福建话与其他高资源语言之间的翻译。我们发现使用有限的单语语料库还进一步改善了模型对台湾福建话的能力。然后，我们利用我们的翻译模型将所有台湾福建话文字系统规范为福建话汉字，从而进一步提高性能。
+    大型语言模型（LLMs），如ChatGPT，由于其理解和生成人类语言的能力而受到了广泛关注。在人工智能和临床医学中，LLMs在协助医生进行患者护理方面正在成为一个有前景的研究方向。本综述提供了医学中LLMs的原理、应用和面临的挑战的全面概述。我们回答了以下具体问题：1）如何构建医学LLMs？2）什么是医学LLMs的下游性能评估指标？3）在现实临床实践中，如何利用医学LLMs？4）使用医学LLMs会出现哪些挑战？5）如何更好地构建和利用医学LLMs？本综述旨在提供关于医学中LLMs的机遇和挑战的见解，并作为构建有效的医学LLMs的实用资源。我们还维护并定期更新一个清单
 
-    arXiv:2403.12024v1 Announce Type: new  Abstract: Machine translation focuses mainly on high-resource languages (HRLs), while low-resource languages (LRLs) like Taiwanese Hokkien are relatively under-explored. This study aims to address this gap by developing a dual translation model between Taiwanese Hokkien and both Traditional Mandarin Chinese and English. We employ a pre-trained LLaMA2-7B model specialized in Traditional Mandarin Chinese to leverage the orthographic similarities between Taiwanese Hokkien Han and Traditional Mandarin Chinese. Our comprehensive experiments involve translation tasks across various writing systems of Taiwanese Hokkien and between Taiwanese Hokkien and other HRLs. We find that the use of a limited monolingual corpus also further improve the model's Taiwanese Hokkien capabilities. We then utilize our translation model to standardize all Taiwanese Hokkien writing systems into Hokkien Han, resulting in further performance improvements. Additionally, we intr
+    Large language models (LLMs), such as ChatGPT, have received substantial attention due to their capabilities for understanding and generating human language. LLMs in medicine to assist physicians for patient care are emerging as a promising research direction in both artificial intelligence and clinical medicine. This review provides a comprehensive overview of the principles, applications, and challenges faced by LLMs in medicine. We address the following specific questions: 1) How should medical LLMs be built? 2) What are the measures for the downstream performance of medical LLMs? 3) How should medical LLMs be utilized in real-world clinical practice? 4) What challenges arise from the use of medical LLMs? and 5) How should we better construct and utilize medical LLMs? This review aims to provide insights into the opportunities and challenges of LLMs in medicine, and serve as a practical resource for constructing effective medical LLMs. We also maintain and regularly updated list of 
     
-[^3]: 使用自适应估计融合高效剪枝大型语言模型
+[^2]: 使用自适应估计融合高效剪枝大型语言模型
 
     Efficient Pruning of Large Language Model with Adaptive Estimation Fusion
 
@@ -59,130 +46,158 @@
 
     arXiv:2403.10799v1 Announce Type: cross  Abstract: Large language models (LLMs) have become crucial for many generative downstream tasks, leading to an inevitable trend and significant challenge to deploy them efficiently on resource-constrained devices. Structured pruning is a widely used method to address this challenge. However, when dealing with the complex structure of the multiple decoder layers, general methods often employ common estimation approaches for pruning. These approaches lead to a decline in accuracy for specific downstream tasks. In this paper, we introduce a simple yet efficient method that adaptively models the importance of each substructure. Meanwhile, it can adaptively fuse coarse-grained and finegrained estimations based on the results from complex and multilayer structures. All aspects of our design seamlessly integrate into the endto-end pruning framework. Our experimental results, compared with state-of-the-art methods on mainstream datasets, demonstrate ave
     
-[^4]: VidProM：一个百万规模的真实即时图库数据集，用于文本到视频扩散模型
+[^3]: BiLLM: 推动LLMs的后训练量化极限
 
-    VidProM: A Million-scale Real Prompt-Gallery Dataset for Text-to-Video Diffusion Models
+    BiLLM: Pushing the Limit of Post-Training Quantization for LLMs
 
-    [https://arxiv.org/abs/2403.06098](https://arxiv.org/abs/2403.06098)
+    [https://arxiv.org/abs/2402.04291](https://arxiv.org/abs/2402.04291)
 
-    VidProM是一个包含167万个独特文本到视频提示的大规模数据集，对于文本到视频扩散模型带来了新的研究进展，揭示了真实用户提示对视频生成的重要性。
-
-    
-
-    Sora的到来标志着文本到视频扩散模型的新时代的到来，带来了视频生成和潜在应用方面的显著进步。然而，Sora以及其他文本到视频扩散模型高度依赖提示，但目前尚没有公开可用的包含文本到视频提示研究的数据集。本文介绍了VidProM，这是第一个由167万个来自真实用户的独特文本到视频提示组成的大规模数据集。此外，该数据集包括由四种最先进的扩散模型生成的669万个视频以及一些相关数据。我们首先展示了这一大规模数据集的策展过程，这是一个耗时且昂贵的过程。随后，我们展示了所提出的VidProM与DiffusionDB之间的区别，后者是一个用于图像生成的大规模提示图库数据集。通过对这些提示的分析，我们确定了一个专门的新提示数据集的必要性。
-
-    arXiv:2403.06098v1 Announce Type: cross  Abstract: The arrival of Sora marks a new era for text-to-video diffusion models, bringing significant advancements in video generation and potential applications. However, Sora, as well as other text-to-video diffusion models, highly relies on the prompts, and there is no publicly available dataset featuring a study of text-to-video prompts. In this paper, we introduce VidProM, the first large-scale dataset comprising 1.67 million unique text-to-video prompts from real users. Additionally, the dataset includes 6.69 million videos generated by four state-of-the-art diffusion models and some related data. We initially demonstrate the curation of this large-scale dataset, which is a time-consuming and costly process. Subsequently, we show how the proposed VidProM differs from DiffusionDB, a large-scale prompt-gallery dataset for image generation. Based on the analysis of these prompts, we identify the necessity for a new prompt dataset specificall
-    
-[^5]: 讲述，而不是展示！：语言指导有助于在图像和视频领域之间进行转移
-
-    Tell, Don't Show!: Language Guidance Eases Transfer Across Domains in Images and Videos
-
-    [https://arxiv.org/abs/2403.05535](https://arxiv.org/abs/2403.05535)
-
-    该论文提出了LaGTran框架，利用文本描述来引导知识转移，在处理具有挑战性的数据集上表现出显著优势。
+    BiLLM是一种针对预训练LLMs的1位后训练量化方案，通过识别重要的权重和优化二值化，成功实现了高准确度的推理。
 
     
 
-    我们介绍了LaGTran，这是一个新颖的框架，利用即可获得或易于获取的文本描述，引导从带标签的源数据到具有域偏移的无标签目标数据的鲁棒性知识转移。受到我们观察到更富语义的文本模态具有更有利的转移特性的启发，我们设计了一个转移机制，使用源训练的文本分类器在目标文本描述上生成预测，并利用这些预测作为相应图像的监督。我们的方法以语言指导为驱动，出奇地简单易行，却在具有挑战性的数据集如GeoNet和DomainNet上显著优于以往所有方法，验证了其极其有效性。
+    预训练的大型语言模型（LLMs）具有出色的通用语言处理能力，但对内存和计算资源有很大的需求。作为一种强大的压缩技术，二值化可以将模型权重极大地减少到仅1位，降低了昂贵的计算和内存需求。然而，现有的量化技术在超低位宽下无法保持LLM的性能。针对这一挑战，我们提出了BiLLM，这是一种针对预训练LLM定制的开创性的1位后训练量化方案。基于LLMs的权重分布，BiLLM首先识别和结构选择重要的权重，并通过有效的二值化残差逼近策略来最小化压缩损失。此外，考虑到非重要权重的钟形分布，我们提出了一种最佳分割搜索方法，以准确地将它们分组和二值化。BiLLM首次实现了高准确度的推理。
 
-    arXiv:2403.05535v1 Announce Type: cross  Abstract: We introduce LaGTran, a novel framework that utilizes readily available or easily acquired text descriptions to guide robust transfer of discriminative knowledge from labeled source to unlabeled target data with domain shifts. While unsupervised adaptation methods have been established to address this problem, they show limitations in handling challenging domain shifts due to their exclusive operation within the pixel-space. Motivated by our observation that semantically richer text modality has more favorable transfer properties, we devise a transfer mechanism to use a source-trained text-classifier to generate predictions on the target text descriptions, and utilize these predictions as supervision for the corresponding images. Our approach driven by language guidance is surprisingly easy and simple, yet significantly outperforms all prior approaches on challenging datasets like GeoNet and DomainNet, validating its extreme effectiven
+    Pretrained large language models (LLMs) exhibit exceptional general language processing capabilities but come with significant demands on memory and computational resources. As a powerful compression technology, binarization can extremely reduce model weights to a mere 1 bit, lowering the expensive computation and memory requirements. However, existing quantization techniques fall short of maintaining LLM performance under ultra-low bit-widths. In response to this challenge, we present BiLLM, a groundbreaking 1-bit post-training quantization scheme tailored for pretrained LLMs. Based on the weight distribution of LLMs, BiLLM first identifies and structurally selects salient weights, and minimizes the compression loss through an effective binary residual approximation strategy. Moreover, considering the bell-shaped distribution of the non-salient weights, we propose an optimal splitting search to group and binarize them accurately. BiLLM achieving for the first time high-accuracy infere
     
-[^6]: ParallelPARC: 生成自然语言类比的可扩展流水线
+[^4]: LLM投票：人类选择和AI集体决策
 
-    ParallelPARC: A Scalable Pipeline for Generating Natural-Language Analogies
+    LLM Voting: Human Choices and AI Collective Decision Making
 
-    [https://arxiv.org/abs/2403.01139](https://arxiv.org/abs/2403.01139)
+    [https://arxiv.org/abs/2402.01766](https://arxiv.org/abs/2402.01766)
 
-    设计了ParallelPARC流水线，利用大型语言模型生成复杂段落类比数据集，评估各种类比类型，并展示出人类在类比识别中的优势。
-
-    
-
-    Analogy-making对于人类认知至关重要，使我们能够适应新颖情境--这是当前人工智能系统仍然缺乏的能力。大多数类比数据集今天关注简单的类比（例如，词类比）；包含复杂类型类比的数据集通常是手工策划的，并且非常小。我们认为这限制了计算类比的进展。在这项工作中，我们设计了一个数据生成流水线，ParallelPARC（Parallel Paragraph Creator），利用最先进的大型语言模型（LLM）来创建基于段落的复杂类比，以及简单和具有挑战性的干扰项。我们展示了我们的流水线，并创建了ProPara-Logy，一个关于科学过程间类比的数据集。我们发布了一个由人类验证过的金标准数据集，以及一个自动生成的银标准数据集。我们在二进制和多选环境中测试了LLMs和人类对类比的识别，发现人类胜过最佳模型。
-
-    arXiv:2403.01139v1 Announce Type: cross  Abstract: Analogy-making is central to human cognition, allowing us to adapt to novel situations -- an ability that current AI systems still lack. Most analogy datasets today focus on simple analogies (e.g., word analogies); datasets including complex types of analogies are typically manually curated and very small. We believe that this holds back progress in computational analogy. In this work, we design a data generation pipeline, ParallelPARC (Parallel Paragraph Creator) leveraging state-of-the-art Large Language Models (LLMs) to create complex, paragraph-based analogies, as well as distractors, both simple and challenging. We demonstrate our pipeline and create ProPara-Logy, a dataset of analogies between scientific processes. We publish a gold-set, validated by humans, and a silver-set, generated automatically. We test LLMs' and humans' analogy recognition in binary and multiple-choice settings, and found that humans outperform the best mod
-    
-[^7]: 直接与Chat-Fine-Tuned LLMs的草案模型对齐
-
-    Direct Alignment of Draft Model for Speculative Decoding with Chat-Fine-Tuned LLMs
-
-    [https://arxiv.org/abs/2403.00858](https://arxiv.org/abs/2403.00858)
-
-    通过提出的框架，我们训练了一种用于Llama 2 Chat 7B或更大模型的草案模型，实现了加速推理，仅占原始大小的1.64％。
+    本文研究了大型语言模型（LLMs），特别是OpenAI的GPT4和LLaMA2的投票行为，并揭示了LLMs与人类在决策和偏见方面的差异。研究发现，在投票辅助中使用LLMs可能会导致更同质化的集体结果，强调了谨慎将LLMs整合到民主过程中的必要性。
 
     
 
-    文本生成与大型语言模型（LLMs）由于其自回归本质、巨大的参数数量和有限的内存带宽而被认为是内存密集型，通常导致低令牌速率。猜测解码已被提出作为LLM推理加速的解决方案。然而，在现代开源LLM系列中，例如Llama 2 7B，由于草案模型通常不可用，因此需要训练高质量的草案模型以通过猜测解码实现推理加速。在本文中，我们提出了一个简单的草案模型训练框架，用于直接与Chat-capable目标模型对齐。通过我们提出的框架，我们训练出Llama 2 Chat Drafter 115M，这是一个适用于Llama 2 Chat 7B或更大模型的草案模型，仅占原始大小的1.64％。我们的训练框架仅包括预训练、蒸馏数据集生成和使用知识蒸馏进行微调，没有额外的对齐步骤。
+    本文研究了大型语言模型（LLMs），特别是OpenAI的GPT4和LLaMA2的投票行为，并与人类投票模式进行了对比。我们的方法包括进行人类投票实验以建立人类偏好的基准，并与LLM代理进行平行实验。研究聚焦于集体结果和个体偏好，揭示了人类和LLMs之间在决策和固有偏见方面的差异。我们观察到LLMs在偏好多样性和一致性之间存在权衡，相比人类选民的多样偏好，LLMs有更趋向于一致选择的倾向。这一发现表明，在投票辅助中使用LLMs可能会导致更同质化的集体结果，强调了谨慎将LLMs整合到民主过程中的必要性。
 
-    arXiv:2403.00858v1 Announce Type: cross  Abstract: Text generation with Large Language Models (LLMs) is known to be memory bound due to the combination of their auto-regressive nature, huge parameter counts, and limited memory bandwidths, often resulting in low token rates. Speculative decoding has been proposed as a solution for LLM inference acceleration. However, since draft models are often unavailable in the modern open-source LLM families, e.g., for Llama 2 7B, training a high-quality draft model is required to enable inference acceleration via speculative decoding. In this paper, we propose a simple draft model training framework for direct alignment to chat-capable target models. With the proposed framework, we train Llama 2 Chat Drafter 115M, a draft model for Llama 2 Chat 7B or larger, with only 1.64\% of the original size. Our training framework only consists of pretraining, distillation dataset generation, and finetuning with knowledge distillation, with no additional align
+    This paper investigates the voting behaviors of Large Language Models (LLMs), particularly OpenAI's GPT4 and LLaMA2, and their alignment with human voting patterns. Our approach included a human voting experiment to establish a baseline for human preferences and a parallel experiment with LLM agents. The study focused on both collective outcomes and individual preferences, revealing differences in decision-making and inherent biases between humans and LLMs. We observed a trade-off between preference diversity and alignment in LLMs, with a tendency towards more uniform choices as compared to the diverse preferences of human voters. This finding indicates that LLMs could lead to more homogenized collective outcomes when used in voting assistance, underscoring the need for cautious integration of LLMs into democratic processes.
     
-[^8]: 视觉语音遇见语言：VSP-LLM框架用于高效和上下文感知的视觉语音处理
+[^5]: 不是我的声音！语音生成器的伦理和安全伤害分类法
 
-    Where Visual Speech Meets Language: VSP-LLM Framework for Efficient and Context-Aware Visual Speech Processing
+    Not My Voice! A Taxonomy of Ethical and Safety Harms of Speech Generators
 
-    [https://arxiv.org/abs/2402.15151](https://arxiv.org/abs/2402.15151)
+    [https://arxiv.org/abs/2402.01708](https://arxiv.org/abs/2402.01708)
 
-    提出了一个新颖的VSP-LLM框架，用于最大化上下文建模能力，实现视觉语音识别和翻译的多任务执行。
-
-    
-
-    在视觉语音处理中，由于唇部运动的模糊性质，上下文建模能力是最重要的要求之一。例如，同音异义词，即具有相同唇部运动但产生不同声音的单词，可以通过考虑上下文来区分。本文提出了一种新颖的框架，称为集成LLM的视觉语音处理（VSP-LLM），通过引入LLM的强大能力来最大化上下文建模能力。具体来说，VSP-LLM旨在执行视觉语音识别和翻译的多任务，其中给定的指令控制任务类型。通过利用自监督视觉语音模型，将输入视频映射到LLM的输入潜在空间。针对输入帧存在冗余信息的事实，我们提出了一种新颖的去重方法，通过使用视觉语音单元减少嵌入的视觉特征。
-
-    arXiv:2402.15151v1 Announce Type: cross  Abstract: In visual speech processing, context modeling capability is one of the most important requirements due to the ambiguous nature of lip movements. For example, homophenes, words that share identical lip movements but produce different sounds, can be distinguished by considering the context. In this paper, we propose a novel framework, namely Visual Speech Processing incorporated with LLMs (VSP-LLM), to maximize the context modeling ability by bringing the overwhelming power of LLMs. Specifically, VSP-LLM is designed to perform multi-tasks of visual speech recognition and translation, where the given instructions control the type of task. The input video is mapped to the input latent space of a LLM by employing a self-supervised visual speech model. Focused on the fact that there is redundant information in input frames, we propose a novel deduplication method that reduces the embedded visual features by employing visual speech units. Thr
-    
-[^9]: 声音对于系统发育重建可靠吗？
-
-    Are Sounds Sound for Phylogenetic Reconstruction?
-
-    [https://arxiv.org/abs/2402.02807](https://arxiv.org/abs/2402.02807)
-
-    本文通过对十个不同语言家族的多样数据集进行研究，首次在系统发育重建中比较了基于声音和基于同源的方法的表现。结果显示，基于词汇同源的重建谱系与真实谱系平均更接近，提高了约三分之一。
+    语音生成技术的广泛应用给社会带来了伦理和安全风险。本文通过分析语音生成事件，总结出特定伤害模式，并将其分类。这些特定伤害涉及到受影响个体的曝光程度以及相关利益相关者和技术系统之间的相互作用。
 
     
 
-    在传统的语言进化研究中，学者们通常强调声音规律和对应关系对于语言家族谱系推断的重要性。然而，迄今为止，计算方法往往没有充分考虑到这一潜力。大多数计算方法仍然依赖于词汇同源作为语言学系统发育重建的主要数据来源，尽管也有一些研究中的作者赞赏比较声音序列的好处。基于十个来自不同语言家族的多样数据集和现代自动同源和声音对应检测方法，我们首次测试了基于声音和基于同源的方法在系统发育重建中的性能。结果表明，通过词汇同源重建的谱系在广义四元组距离上与真实谱系平均更接近，提升了约三分之一。
+    人工智能广泛采用语音生成技术给社会带来了一系列重大的伦理和安全风险，亟需解决。例如，在美国，越来越多的语音生成事件与警察受到恶作剧袭击有关，匿名行为者制造合成的声音打电话给警察，要求关闭学校和医院，或者以暴力手段进入无辜市民的家中。这样的事件表明，多模态生成人工智能的风险和伤害并不存在于孤立状态，而是源于多个利益相关者和技术人工智能系统之间的互动。本文通过分析语音生成事件，研究特定伤害模式的出现。我们发现特定伤害可以根据受影响个体的曝光程度进行分类，即他们是语音生成系统的主体、与之互动、受其影响或被排除在外。同样，特定伤害也与相关利益相关者和技术系统之间的相互作用有关。
 
-    In traditional studies on language evolution, scholars often emphasize the importance of sound laws and sound correspondences for phylogenetic inference of language family trees. However, to date, computational approaches have typically not taken this potential into account. Most computational studies still rely on lexical cognates as major data source for phylogenetic reconstruction in linguistics, although there do exist a few studies in which authors praise the benefits of comparing words at the level of sound sequences. Building on (a) ten diverse datasets from different language families, and (b) state-of-the-art methods for automated cognate and sound correspondence detection, we test, for the first time, the performance of sound-based versus cognate-based approaches to phylogenetic reconstruction. Our results show that phylogenies reconstructed from lexical cognates are topologically closer, by approximately one third with respect to the generalized quartet distance on average, 
+    The rapid and wide-scale adoption of AI to generate human speech poses a range of significant ethical and safety risks to society that need to be addressed. For example, a growing number of speech generation incidents are associated with swatting attacks in the United States, where anonymous perpetrators create synthetic voices that call police officers to close down schools and hospitals, or to violently gain access to innocent citizens' homes. Incidents like this demonstrate that multimodal generative AI risks and harms do not exist in isolation, but arise from the interactions of multiple stakeholders and technical AI systems. In this paper we analyse speech generation incidents to study how patterns of specific harms arise. We find that specific harms can be categorised according to the exposure of affected individuals, that is to say whether they are a subject of, interact with, suffer due to, or are excluded from speech generation systems. Similarly, specific harms are also a con
     
-[^10]: ChatGPT的初印象效应
+[^6]: 多语言文本到图像生成放大了性别刻板印象，并且修正工程可能无法帮助您
 
-    Primacy Effect of ChatGPT. (arXiv:2310.13206v1 [cs.CL])
+    Multilingual Text-to-Image Generation Magnifies Gender Stereotypes and Prompt Engineering May Not Help You
 
-    [http://arxiv.org/abs/2310.13206](http://arxiv.org/abs/2310.13206)
+    [https://arxiv.org/abs/2401.16092](https://arxiv.org/abs/2401.16092)
 
-    ChatGPT在选择答案时表现出初印象效应，即更倾向于选择提示中较早位置的标签作为答案。
-
-    
-
-    通过在ChatGPT上进行实验和分析，我们研究了ChatGPT的初印象效应，即选择较早位置的标签作为答案的倾向。我们发现：i）ChatGPT的决策对提示中标签的顺序敏感；ii）ChatGPT更倾向于选择较早位置的标签作为答案。我们希望我们的实验和分析能为构建更可靠的基于ChatGPT的解决方案提供额外的见解。
-
-    Instruction-tuned large language models (LLMs), such as ChatGPT, have led to promising zero-shot performance in discriminative natural language understanding (NLU) tasks. This involves querying the LLM using a prompt containing the question, and the candidate labels to choose from. The question-answering capabilities of ChatGPT arise from its pre-training on large amounts of human-written text, as well as its subsequent fine-tuning on human preferences, which motivates us to ask: Does ChatGPT also inherits humans' cognitive biases? In this paper, we study the primacy effect of ChatGPT: the tendency of selecting the labels at earlier positions as the answer. We have two main findings: i) ChatGPT's decision is sensitive to the order of labels in the prompt; ii) ChatGPT has a clearly higher chance to select the labels at earlier positions as the answer. We hope that our experiments and analyses provide additional insights into building more reliable ChatGPT-based solutions. We release the
-    
-[^11]: 语言模型作为视觉-语言模型的黑盒优化器
-
-    Language Models as Black-Box Optimizers for Vision-Language Models. (arXiv:2309.05950v1 [cs.CL])
-
-    [http://arxiv.org/abs/2309.05950](http://arxiv.org/abs/2309.05950)
-
-    本论文介绍了一种新的视觉-语言模型 (VLMs) 微调方法，通过自然语言提示来避免访问模型参数，采用聊天式的语言模型作为黑盒优化器，在少样本图像分类任务中达到效果。
+    多语言文本到图像生成模型存在性别偏见；通过MAGBIG评估模型时，发现模型对不同语言具有重要差异；我们呼吁研究多语言模型领域消除性别偏见。
 
     
 
-    预训练在大规模网络数据集上的视觉-语言模型 (VLMs) 展示了在各种视觉和多模态任务中的显著能力。目前，VLMs 的微调方法主要在白盒环境中操作，需要访问模型参数进行反向传播。然而，许多 VLMs 依赖于专有数据且不开源，限制了使用白盒方法进行微调。鉴于像 ChatGPT 这样的受欢迎私有大型语言模型 (LLMs) 仍然提供基于语言的用户界面，我们旨在通过自然语言提示开发一种新的 VLMs 微调方法，从而避免访问模型参数、特征嵌入或输出 logits 的需要。在这种设置下，我们提出使用基于聊天的 LLMs 作为黑盒优化器，以在使用 CLIP 进行少样本图像分类的示例任务中寻找最佳文本提示。具体而言，我们采用自动"爬山"程序，它能收敛到有效的提示上。
+    最近，文本到图像生成模型在图像质量、灵活性和文本对齐方面取得了令人惊讶的结果，并因此在越来越多的应用中得到应用。通过改善多语言能力，更多的社群现在可以访问这种技术。然而，正如我们将展示的那样，多语言模型与单语模型一样受到(性别)偏见的困扰。此外，人们自然期望这些模型在不同语言之间提供类似的结果，但事实并非如此，不同语言之间存在重要的差异。因此，我们提出了一个旨在促进没有性别偏见的多语言模型研究的新基准MAGBIG。我们研究了多语言T2I模型是否通过MAGBIG放大了性别偏见。为此，我们使用多语言提示请求特定职业或特质的人像图像(使用形容词)。我们的结果不仅表明模型偏离了规范的假设，...
 
-    Vision-language models (VLMs) pre-trained on web-scale datasets have demonstrated remarkable capabilities across a variety of vision and multimodal tasks. Currently, fine-tuning methods for VLMs mainly operate in a white-box setting, requiring access to model parameters for backpropagation. However, many VLMs rely on proprietary data and are not open-source, which restricts the use of white-box approaches for fine-tuning. Given that popular private large language models (LLMs) like ChatGPT still offer a language-based user interface, we aim to develop a novel fine-tuning approach for VLMs through natural language prompts, thereby avoiding the need to access model parameters, feature embeddings, or output logits. In this setup, we propose employing chat-based LLMs as black-box optimizers to search for the best text prompt on the illustrative task of few-shot image classification using CLIP. Specifically, we adopt an automatic "hill-climbing" procedure that converges on an effective prom
+    Text-to-image generation models have recently achieved astonishing results in image quality, flexibility, and text alignment and are consequently employed in a fast-growing number of applications. Through improvements in multilingual abilities, a larger community now has access to this kind of technology. Yet, as we will show, multilingual models suffer similarly from (gender) biases as monolingual models. Furthermore, the natural expectation is that these models will provide similar results across languages, but this is not the case and there are important differences between languages. Thus, we propose a novel benchmark MAGBIG intending to foster research in multilingual models without gender bias. We investigate whether multilingual T2I models magnify gender bias with MAGBIG. To this end, we use multilingual prompts requesting portrait images of persons of a certain occupation or trait (using adjectives). Our results show not only that models deviate from the normative assumption th
     
-[^12]: 印度法律数据训练的模型是否公平？
+[^7]: ChatQA: 构建GPT-4级对话问答模型
 
-    Are Models Trained on Indian Legal Data Fair?. (arXiv:2303.07247v2 [cs.CL] UPDATED)
+    ChatQA: Building GPT-4 Level Conversational QA Models. (arXiv:2401.10225v1 [cs.CL])
 
-    [http://arxiv.org/abs/2303.07247](http://arxiv.org/abs/2303.07247)
+    [http://arxiv.org/abs/2401.10225](http://arxiv.org/abs/2401.10225)
 
-    本文从印度的法律领域出发，通过对在印地语法律文档上训练的模型在保释预测任务中的算法偏见传递进行了初步调查。结果表明，决策树模型在与印度教徒和穆斯林相关的输入特征上具有0.237的整体公平性差距。
+    ChatQA是一系列对话问答模型，可以达到GPT-4级别的准确性。通过两阶段的指令调整方法，可以显著提高大型语言模型在零-shot对话问答中的结果。使用密集检索器进行问答数据集的微调可以实现与最先进的查询重写模型相当的结果，同时降低部署成本。ChatQA-70B在10个对话问答数据集上的平均得分超过了GPT-4，且不依赖于任何来自OpenAI GPT模型的合成数据。
 
     
 
-    自然语言处理和人工智能的最新进展与应用在多个领域（如法律、医疗和心理健康）取得了很大成功。最近提出了基于人工智能的语言模型（如判决预测）用于法律领域。然而，这些模型从训练数据中捕捉到了社会偏见。虽然NLP领域的偏见和公平性已经得到研究，但大多数研究主要定位在西方背景下。本文从印度的法律领域出发，对公平性进行了初步调查。我们重点研究了在印地语法律文档上训练的模型在保释预测任务中传递学习到的算法偏见。我们使用群体平等评估公平性差距，并展示了一个决策树模型在保释预测任务中，在与印度教徒和穆斯林相关的输入特征上具有0.237的整体公平性差距。此外，我们强调了对印度法律领域的公平性研究的必要性。
+    在这项工作中，我们介绍了ChatQA，一系列具有GPT-4级别准确性的对话问答模型。具体地，我们提出了一个两阶段的指令调整方法，可以显著提高大型语言模型（LLM）在零-shot对话问答中的结果。为了处理对话问答中的检索问题，我们在多轮问答数据集上进行了密集检索器的微调，这样可以提供与使用最先进的查询重写模型相当的结果，同时大大降低部署成本。值得注意的是，我们的ChatQA-70B可以在10个对话问答数据集的平均分上超过GPT-4（54.14 vs. 53.90），而不依赖于OpenAI GPT模型的任何合成数据。
 
-    Recent advances and applications of language technology and artificial intelligence have enabled much success across multiple domains like law, medical and mental health. AI-based Language Models, like Judgement Prediction, have recently been proposed for the legal sector. However, these models are strife with encoded social biases picked up from the training data. While bias and fairness have been studied across NLP, most studies primarily locate themselves within a Western context. In this work, we present an initial investigation of fairness from the Indian perspective in the legal domain. We highlight the propagation of learnt algorithmic biases in the bail prediction task for models trained on Hindi legal documents. We evaluate the fairness gap using demographic parity and show that a decision tree model trained for the bail prediction task has an overall fairness disparity of 0.237 between input features associated with Hindus and Muslims. Additionally, we highlight the need for 
+    In this work, we introduce ChatQA, a family of conversational question answering (QA) models, that obtain GPT-4 level accuracies. Specifically, we propose a two-stage instruction tuning method that can significantly improve the zero-shot conversational QA results from large language models (LLMs). To handle retrieval in conversational QA, we fine-tune a dense retriever on a multi-turn QA dataset, which provides comparable results to using the state-of-the-art query rewriting model while largely reducing deployment cost. Notably, our ChatQA-70B can outperform GPT-4 in terms of average score on 10 conversational QA datasets (54.14 vs. 53.90), without relying on any synthetic data from OpenAI GPT models.
+    
+[^8]: 超越图灵: 检测机器生成文本的方法比较分析
+
+    Beyond Turing: A Comparative Analysis of Approaches for Detecting Machine-Generated Text. (arXiv:2311.12373v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2311.12373](http://arxiv.org/abs/2311.12373)
+
+    该论文对比了三种不同方法用于检测人类生成和机器生成文本的能力，并发现它们在性能上存在显著差异，为进一步研究和开发具有鲁棒性和高度区分性的模型提供了重要参考。
+
+    
+
+    在预训练语言模型（PLMs）生成文本方面取得了显著进展，然而区分人类生成和机器生成的文本越来越具有挑战性。本论文对三种不同的方法进行了深入评估，用于解决这个任务：传统的浅层学习、语言模型（LM）微调和多语言模型微调。这些方法在广泛的机器生成文本上经过严格测试，提供了一个评估它们在区分人类和机器构造语言方面能力的基准。结果显示不同方法的性能存在显著差异，因此强调了在这一关键NLP领域的持续需求。本研究提供了有价值的见解，并为未来旨在创建强大且高度区分性模型的研究铺平了道路。
+
+    Significant progress has been made on text generation by pre-trained language models (PLMs), yet distinguishing between human and machine-generated text poses an escalating challenge. This paper offers an in-depth evaluation of three distinct methods used to address this task: traditional shallow learning, Language Model (LM) fine-tuning, and Multilingual Model fine-tuning. These approaches are rigorously tested on a wide range of machine-generated texts, providing a benchmark of their competence in distinguishing between human-authored and machine-authored linguistic constructs. The results reveal considerable differences in performance across methods, thus emphasizing the continued need for advancement in this crucial area of NLP. This study offers valuable insights and paves the way for future research aimed at creating robust and highly discriminative models.
+    
+[^9]: Kid-Whisper: 助力填补儿童与成人自动语音识别性能差距的研究
+
+    Kid-Whisper: Towards Bridging the Performance Gap in Automatic Speech Recognition for Children VS. Adults. (arXiv:2309.07927v1 [eess.AS])
+
+    [http://arxiv.org/abs/2309.07927](http://arxiv.org/abs/2309.07927)
+
+    本文主要研究利用My Science Tutor（MyST）儿童语音语料库和更有效的数据预处理来改进自动语音识别（ASR）系统对儿童语音的识别性能。将Whisper系统整合到儿童语音识别中，显示了表现可行和高效。
+
+    
+
+    最近自动语音识别（ASR）系统的进展，例如Whisper，展示了这些系统在足够的数据条件下接近人类水平的性能潜力。然而，这一进展并不适用于儿童ASR，原因是适用于儿童的专用数据库的可用性有限，且儿童语音具有与成人不同的特征。最近的一项研究调查了利用My Science Tutor（MyST）儿童语音语料库提高Whisper识别儿童语音的性能。本文在这些研究结果的基础上，通过更有效的数据预处理增强了MyST数据集的实用性。我们还强调了改进儿童ASR性能的重要挑战。结果展示了将Whisper有效整合到儿童语音识别中的可行性和高效性。
+
+    Recent advancements in Automatic Speech Recognition (ASR) systems, exemplified by Whisper, have demonstrated the potential of these systems to approach human-level performance given sufficient data. However, this progress doesn't readily extend to ASR for children due to the limited availability of suitable child-specific databases and the distinct characteristics of children's speech. A recent study investigated leveraging the My Science Tutor (MyST) children's speech corpus to enhance Whisper's performance in recognizing children's speech. This paper builds on these findings by enhancing the utility of the MyST dataset through more efficient data preprocessing. We also highlight important challenges towards improving children's ASR performance. The results showcase the viable and efficient integration of Whisper for effective children's speech recognition.
+    
+[^10]: 解决孟加拉语中的假新闻问题：揭示总结与扩充对预训练语言模型的影响
+
+    Tackling Fake News in Bengali: Unraveling the Impact of Summarization vs. Augmentation on Pre-trained Language Models. (arXiv:2307.06979v1 [cs.CL])
+
+    [http://arxiv.org/abs/2307.06979](http://arxiv.org/abs/2307.06979)
+
+    本论文研究了孟加拉语中假新闻的检测问题。通过使用总结和扩充技术，结合预训练语言模型，提出了一种四重方法来分类孟加拉语的假新闻文章。研究表明，总结和扩充在孟加拉语假新闻检测中具有有效性。
+
+    
+
+    随着社交媒体和在线新闻来源的兴起，假新闻已成为全球性的重大问题。然而，在像孟加拉语这样的低资源语言中检测假新闻在研究中受到了有限的关注。本文提出了一种方法，利用总结和扩充技术以及五种预训练语言模型来分类孟加拉语的假新闻文章。我们的方法包括将英语新闻文章进行翻译，并使用扩充技术来解决假新闻文章的不足问题。我们的研究还着重于通过总结新闻来解决基于BERT模型的令牌长度限制。通过广泛的实验和严格的评估，我们展示了总结和扩充在孟加拉语假新闻检测中的有效性。我们使用三个独立的测试数据集来评估我们的模型。当将BanglaBERT基础模型与扩充技术相结合时，取得了令人印象深刻的准确性。
+
+    With the rise of social media and online news sources, fake news has become a significant issue globally. However, the detection of fake news in low resource languages like Bengali has received limited attention in research. In this paper, we propose a methodology consisting of four distinct approaches to classify fake news articles in Bengali using summarization and augmentation techniques with five pre-trained language models. Our approach includes translating English news articles and using augmentation techniques to curb the deficit of fake news articles. Our research also focused on summarizing the news to tackle the token length limitation of BERT based models. Through extensive experimentation and rigorous evaluation, we show the effectiveness of summarization and augmentation in the case of Bengali fake news detection. We evaluated our models using three separate test datasets. The BanglaBERT Base model, when combined with augmentation techniques, achieved an impressive accurac
+    
+[^11]: VisualGPTScore: 多模态生成预训练分数的视觉语义推理。
+
+    VisualGPTScore: Visio-Linguistic Reasoning with Multimodal Generative Pre-Training Scores. (arXiv:2306.01879v1 [cs.CV])
+
+    [http://arxiv.org/abs/2306.01879](http://arxiv.org/abs/2306.01879)
+
+    我们提出了VisualGPTScore方法，能够使用多模态生成分数捕捉文本标题可能性，并在图像条件语言模型上进行计算，具备组合推理能力。
+
+    
+
+    本文提出了一种名为 VisualGPTScore 的方法，使用多模态生成分数来捕捉文本标题可能性，并使用图像条件语言模型在图像上运算。与传统观点认为的VLM只是无意义的单词袋模型不同，我们的 VisualGPTScore 在 ARO 和 Crepe 等最近提出的图像文本检索基准测试中展现了顶尖的性能，证明了其具备组合推理能力。
+
+    Vision-language models (VLMs) discriminatively pre-trained with contrastive image-text matching losses such as $P(\text{match}|\text{text}, \text{image})$ have been criticized for lacking compositional understanding. This means they might output similar scores even if the original caption is rearranged into a different semantic statement. To address this, we propose to use the ${\bf V}$isual ${\bf G}$enerative ${\bf P}$re-${\bf T}$raining Score (${\bf VisualGPTScore}$) of $P(\text{text}|\text{image})$, a $\textit{multimodal generative}$ score that captures the likelihood of a text caption conditioned on an image using an image-conditioned language model. Contrary to the belief that VLMs are mere bag-of-words models, our off-the-shelf VisualGPTScore demonstrates top-tier performance on recently proposed image-text retrieval benchmarks like ARO and Crepe that assess compositional reasoning. Furthermore, we factorize VisualGPTScore into a product of the $\textit{marginal}$ P(text) and the
+    
+[^12]: 个性化指导有助于知识蒸馏
+
+    Tailoring Instructions to Student's Learning Levels Boosts Knowledge Distillation. (arXiv:2305.09651v1 [cs.CL])
+
+    [http://arxiv.org/abs/2305.09651](http://arxiv.org/abs/2305.09651)
+
+    本文提出了一种个性化指导的学习技术，称为LGTM，其利用蒸馏效应选择样本以增强学生的泛化能力，在GLUE基准测试的6个文本分类任务中优于10个常见的知识蒸馏基线算法。
+
+    
+
+    先前研究表明，能力超群的教师模型并不一定能够让学生水平得到提升，这凸显了当前教师培训实践和有效知识传授之间的不一致性。为了提高教师培训过程的指导效果，本文引入了蒸馏效应的概念，以确定每个训练样本对学生泛化能力的影响。我们提出了一种名为学好教师很重要（LGTM）的有效训练技术，以将蒸馏效应纳入教师的学习过程中。通过优先选择可能提升学生泛化能力的样本，我们的LGTM在GLUE基准测试的6个文本分类任务中优于10个常见的知识蒸馏基线算法。
+
+    It has been commonly observed that a teacher model with superior performance does not necessarily result in a stronger student, highlighting a discrepancy between current teacher training practices and effective knowledge transfer. In order to enhance the guidance of the teacher training process, we introduce the concept of distillation influence to determine the impact of distillation from each training sample on the student's generalization ability. In this paper, we propose Learning Good Teacher Matters (LGTM), an efficient training technique for incorporating distillation influence into the teacher's learning process. By prioritizing samples that are likely to enhance the student's generalization ability, our LGTM outperforms 10 common knowledge distillation baselines on 6 text classification tasks in the GLUE benchmark.
+    
+[^13]: 基于谷歌OCR扫描的藏文手稿的神经拼写纠错模型
+
+    Cleansing Jewel: A Neural Spelling Correction Model Built On Google OCR-ed Tibetan Manuscripts. (arXiv:2304.03427v1 [cs.CL])
+
+    [http://arxiv.org/abs/2304.03427](http://arxiv.org/abs/2304.03427)
+
+    本文提出了一种基于谷歌OCR扫描的藏文手稿的神经拼写纠错模型，可以自动纠正OCR输出中的噪声。
+
+    
+
+    人文学者在研究历史、宗教和社会政治结构等方面经常依赖于古代手稿。虽然OCR技术可以将这些宝贵手稿数字化，但多数手稿因磨损而过时，OCR程序没办法识别翻页的虚淡或污渍。本文提出了一种基于谷歌OCR扫描的藏文手稿的神经拼写纠错模型，可以自动纠正OCR输出中的噪声。本文分为四个部分：数据集、模型架构、训练和分析。首先，我们对原始藏文电子文本语料库进行了特征工程，并将其转化为两组结构化数据框——一组匹配的玩具数据和一组匹配的真实数据。然后，我们在Transformer架构中实现了置信度得分机制来执行拼写校正任务。根据损失和字符错误率，我们的Transformer + 置信度得分机制比其他常用的拼写校正算法表现更好。
+
+    Scholars in the humanities rely heavily on ancient manuscripts to study history, religion, and socio-political structures in the past. Many efforts have been devoted to digitizing these precious manuscripts using OCR technology, but most manuscripts were blemished over the centuries so that an Optical Character Recognition (OCR) program cannot be expected to capture faded graphs and stains on pages. This work presents a neural spelling correction model built on Google OCR-ed Tibetan Manuscripts to auto-correct OCR-ed noisy output. This paper is divided into four sections: dataset, model architecture, training and analysis. First, we feature-engineered our raw Tibetan etext corpus into two sets of structured data frames -- a set of paired toy data and a set of paired real data. Then, we implemented a Confidence Score mechanism into the Transformer architecture to perform spelling correction tasks. According to the Loss and Character Error Rate, our Transformer + Confidence score mechani
     
 

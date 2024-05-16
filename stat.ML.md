@@ -2,172 +2,157 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Learning the mechanisms of network growth](https://arxiv.org/abs/2404.00793) | 我们提出了一种新的模型选择方法，通过在大量合成网络数据上训练分类器，设计出易于计算、解析可处理且具有解释性的动态特征类型，实现了几乎完美的网络分类，超过了目前技术水平。 |
-| [^2] | [Rethinking Adversarial Inverse Reinforcement Learning: From the Angles of Policy Imitation and Transferable Reward Recovery](https://arxiv.org/abs/2403.14593) | 重新思考对抗逆强化学习中的策略模仿和可转移奖励恢复，提出了一个混合框架PPO-AIRL + SAC以解决SAC算法在AIRL训练中无法全面解开奖励函数的问题。 |
-| [^3] | [A Short Survey on Importance Weighting for Machine Learning](https://arxiv.org/abs/2403.10175) | 重要性加权是统计学和机器学习中的基本程序，通过对目标函数或概率分布进行加权，可以保证监督学习在训练和测试分布之间差异的情况下具有统计上期望的性质 |
-| [^4] | [Criterion collapse and loss distribution control](https://arxiv.org/abs/2402.09802) | 该论文研究了"准则崩溃"的概念，即优化一个度量指标意味着另一个度量指标的最优性。研究结果发现，对于损失的伯努利分布，CVaR和DRO的结果远超出现有研究，同时发现了一些特定条件下，单调准则如倾斜ERM无法避免崩溃，而非单调的替代方案可以。 |
-| [^5] | [A Generalized Approach to Online Convex Optimization](https://arxiv.org/abs/2402.08621) | 这是一篇关于在线凸优化的论文，作者分析了不同环境下的问题并提出了一种通用的解决方法，该方法可以转化为相应的线性优化算法，并可以在面对不同类型对手时获得可比较的遗憾界限。 |
-| [^6] | [A structured regression approach for evaluating model performance across intersectional subgroups.](http://arxiv.org/abs/2401.14893) | 这项工作介绍了一种结构回归方法，用于评估模型在不同交叉子群体间的性能。它可以提供可靠的系统性能估计，即使对于很小的子群体。 |
-| [^7] | [Anytime-valid t-tests and confidence sequences for Gaussian means with unknown variance.](http://arxiv.org/abs/2310.03722) | 本文提出了两种新的“e-process”和置信序列方法，分别通过替换Lai的混合方法，并分析了所得结果的宽度。 |
-| [^8] | [Convergence Guarantees for Stochastic Subgradient Methods in Nonsmooth Nonconvex Optimization.](http://arxiv.org/abs/2307.10053) | 本文研究了非平滑非凸优化中随机次梯度方法的收敛性质，并提出了一种新的框架，证明了其在单时间尺度和双时间尺度情况下的全局收敛性，包括了多种已知的SGD类型方法。对于有限和形式的目标函数，证明了这些方法能够在随机选择的步长和初始点上找到Clarke稳定点。 |
-| [^9] | [Locally Adaptive Federated Learning via Stochastic Polyak Stepsizes.](http://arxiv.org/abs/2307.06306) | 本文将随机Polyak步长方法扩展到联邦学习，提出了新的局部自适应和几乎无需调参的FedSPS和FedDecSPS变体。我们证明了当插值条件满足时，FedSPS以线性速度收敛，一般情况下收敛到解的邻域。 |
-| [^10] | [Sequence Generation via Subsequence Similarity: Theory and Application to UAV Identification.](http://arxiv.org/abs/2301.08403) | 本文探究了一种单次生成模型的多样性，主要聚焦于子序列相似性如何影响整个序列相似性，并通过生成子序列相似的序列来增强数据集。 |
-| [^11] | [Long-term Causal Inference Under Persistent Confounding via Data Combination.](http://arxiv.org/abs/2202.07234) | 本研究通过数据组合解决了长期治疗效果识别和估计中的持续未测量混淆因素挑战，并提出了三种新的识别策略和估计器。 |
+| [^1] | [Sliced-Wasserstein Estimation with Spherical Harmonics as Control Variates](https://rss.arxiv.org/abs/2402.01493) | 这种方法提出了一种新的蒙特卡罗方法，使用球谐函数作为控制变量来近似计算切片华瑟斯坦距离。与蒙特卡罗相比，该方法具有更好的收敛速度和理论性质。 |
+| [^2] | [Integrating Large Language Models in Causal Discovery: A Statistical Causal Approach](https://rss.arxiv.org/abs/2402.01454) | 本文提出了一种在因果发现中集成大型语言模型的方法，通过将统计因果提示与知识增强相结合，可以使统计因果发现结果接近真实情况并进一步改进结果。 |
+| [^3] | [Conformalized Adaptive Forecasting of Heterogeneous Trajectories](https://arxiv.org/abs/2402.09623) | 本研究提出了一种新的符合性方法，通过结合在线符合性预测技术和解决回归中异方差性的方法，生成了同时预测边界，并能够可靠地覆盖新随机轨迹的整个路径。这种方法不仅有精确的有限样本保证，而且往往比之前的方法具有更丰富的预测结果。 |
+| [^4] | [Standard Gaussian Process is All You Need for High-Dimensional Bayesian Optimization](https://arxiv.org/abs/2402.02746) | 标准 Gaussian 过程在高维贝叶斯优化中表现优秀，经验证据显示其在函数估计和协方差建模中克服了高维输入困难，比专门为高维优化设计的方法表现更好。 |
+| [^5] | [Optimal Multi-Distribution Learning.](http://arxiv.org/abs/2312.05134) | 本论文提出了一种最优化多分布学习的方法，通过自适应采样来实现数据高效的学习。针对Vapnik-Chervonenkis (VC)维数为d的假设类，算法可以生成一个ε-最优随机假设，并且样本复杂度与最佳下界保持一致。同时，该算法的思想和理论还被进一步扩展以适应Rademacher类。最终提出的算法是奥拉克尔高效的，仅访问假设类。 |
+| [^6] | [MINDE: Mutual Information Neural Diffusion Estimation.](http://arxiv.org/abs/2310.09031) | MINDE是一种基于得分函数扩散模型的新方法，用于估计随机变量之间的互信息。该方法在准确性和自一致性测试方面优于其他文献中的主要替代方法。 |
+| [^7] | [Stationarity without mean reversion: Improper Gaussian process regression and improper kernels.](http://arxiv.org/abs/2310.02877) | 本论文展示了使用具有无限方差的不恰当高斯过程先验来定义静止但不均值回归过程的可能性，并引入了一类特殊的不恰当核函数来实现此目的。 |
+| [^8] | [Kernel Limit of Recurrent Neural Networks Trained on Ergodic Data Sequences.](http://arxiv.org/abs/2308.14555) | 本文研究了循环神经网络在遍历数据序列上训练时的核极限，利用数学方法对其渐近特性进行了描述，并证明了RNN收敛到与随机代数方程的不动点耦合的无穷维ODE的解。这对于理解和改进循环神经网络具有重要意义。 |
+| [^9] | [Nonparametric regression using over-parameterized shallow ReLU neural networks.](http://arxiv.org/abs/2306.08321) | 本文表明，对于学习某些光滑函数类，具有适当权重限制或正则化的过参数化神经网络可以达到最小最优收敛速率。作者通过对过度参数化的神经网络进行了实验，成功证明在浅层ReLU神经网络中使用最小二乘估计值是最小化最优的。同时作者还得出了神经网络的本地Rademacher复杂度的一个新的上界。 |
+| [^10] | [Some Fundamental Aspects about Lipschitz Continuity of Neural Network Functions.](http://arxiv.org/abs/2302.10886) | 本文深入研究和描述神经网络实现的函数的Lipschitz行为，在多种设置下进行实证研究，并揭示了神经网络函数Lipschitz连续性的基本和有趣的特性，其中最引人注目的是在Lipschitz常数的上限和下限中识别出了明显的双下降趋势。 |
 
 # 详细
 
-[^1]: 学习网络增长机制
+[^1]: 使用球谐函数作为控制变量的切片华瑟斯坦估计
 
-    Learning the mechanisms of network growth
+    Sliced-Wasserstein Estimation with Spherical Harmonics as Control Variates
 
-    [https://arxiv.org/abs/2404.00793](https://arxiv.org/abs/2404.00793)
+    [https://rss.arxiv.org/abs/2402.01493](https://rss.arxiv.org/abs/2402.01493)
 
-    我们提出了一种新的模型选择方法，通过在大量合成网络数据上训练分类器，设计出易于计算、解析可处理且具有解释性的动态特征类型，实现了几乎完美的网络分类，超过了目前技术水平。
-
-    
-
-    我们提出了一种面向动态真实网络的新模型选择方法。我们的方法涉及在大量合成网络数据上训练分类器。数据是通过模拟动态网络的九种最先进的随机图模型生成的，选定参数范围以确保网络规模随时间呈指数增长。我们设计了一种概念上新颖的动态特征类型，它计算在特定时间间隔内一组顶点收到的新链接数。所提出的特征易于计算，解析上可处理，并具有解释性。我们的方法实现了对合成网络的几乎完美分类，超过当前技术水平。将我们的分类方法应用于真实世界的引文网络，对文献中声称的具有优先附着、适应性和老化的模型最好地适应真实世界的引文网络的说法具有可靠性，尽管有时，预测可能。
-
-    arXiv:2404.00793v1 Announce Type: cross  Abstract: We propose a novel model-selection method for dynamic real-life networks. Our approach involves training a classifier on a large body of synthetic network data. The data is generated by simulating nine state-of-the-art random graph models for dynamic networks, with parameter range chosen to ensure exponential growth of the network size in time. We design a conceptually novel type of dynamic features that count new links received by a group of vertices in a particular time interval. The proposed features are easy to compute, analytically tractable, and interpretable. Our approach achieves a near-perfect classification of synthetic networks, exceeding the state-of-the-art by a large margin. Applying our classification method to real-world citation networks gives credibility to the claims in the literature that models with preferential attachment, fitness and aging fit real-world citation networks best, although sometimes, the predicted m
-    
-[^2]: 重新思考对抗逆强化学习：从策略模仿和可转移奖励恢复的角度
-
-    Rethinking Adversarial Inverse Reinforcement Learning: From the Angles of Policy Imitation and Transferable Reward Recovery
-
-    [https://arxiv.org/abs/2403.14593](https://arxiv.org/abs/2403.14593)
-
-    重新思考对抗逆强化学习中的策略模仿和可转移奖励恢复，提出了一个混合框架PPO-AIRL + SAC以解决SAC算法在AIRL训练中无法全面解开奖励函数的问题。
+    这种方法提出了一种新的蒙特卡罗方法，使用球谐函数作为控制变量来近似计算切片华瑟斯坦距离。与蒙特卡罗相比，该方法具有更好的收敛速度和理论性质。
 
     
 
-    对抗逆强化学习（AIRL）作为模仿学习中的基石方法。本文重新思考了AIRL的两个不同角度：策略模仿和可转移奖励恢复。我们从用Soft Actor-Critic（SAC）替换AIRL中的内置算法开始，以增强样本效率，这要归功于SAC的离策略形式和相对于AIRL而言可识别的马尔可夫决策过程（MDP）模型。这确实在策略模仿方面表现出显著的改进，但不慎给可转移奖励恢复带来了缺点。为了解决这个问题，我们阐述了SAC算法本身在AIRL训练过程中无法全面解开奖励函数，提出了一个混合框架，PPO-AIRL + SAC，以获得令人满意的转移效果。此外，我们分析了环境提取解开的奖励的能力。
+    切片华瑟斯坦（SW）距离是概率测度之间的华瑟斯坦距离的平均值，结果为相关的一维投影的华瑟斯坦距离。因此，SW距离可以写成对球面上均匀测度的积分，并且可以使用蒙特卡罗框架来计算SW距离。球谐函数是球面上的多项式，它们构成了球面上可积函数集合的正交基。将这两个事实结合在一起，提出了一种新的蒙特卡罗方法，称为球谐控制变量（SHCV），用于使用球谐函数作为控制变量近似计算SW距离。结果表明，该方法具有良好的理论性质，例如在变量之间存在一定形式的线性依赖时，混合高斯测度的无误差特性。此外，与蒙特卡罗相比，得到了更快的收敛速度。
 
-    arXiv:2403.14593v1 Announce Type: new  Abstract: Adversarial inverse reinforcement learning (AIRL) stands as a cornerstone approach in imitation learning. This paper rethinks the two different angles of AIRL: policy imitation and transferable reward recovery. We begin with substituting the built-in algorithm in AIRL with soft actor-critic (SAC) during the policy optimization process to enhance sample efficiency, thanks to the off-policy formulation of SAC and identifiable Markov decision process (MDP) models with respect to AIRL. It indeed exhibits a significant improvement in policy imitation but accidentally brings drawbacks to transferable reward recovery. To learn this issue, we illustrate that the SAC algorithm itself is not feasible to disentangle the reward function comprehensively during the AIRL training process, and propose a hybrid framework, PPO-AIRL + SAC, for satisfactory transfer effect. Additionally, we analyze the capability of environments to extract disentangled rewa
+    The Sliced-Wasserstein (SW) distance between probability measures is defined as the average of the Wasserstein distances resulting for the associated one-dimensional projections. As a consequence, the SW distance can be written as an integral with respect to the uniform measure on the sphere and the Monte Carlo framework can be employed for calculating the SW distance. Spherical harmonics are polynomials on the sphere that form an orthonormal basis of the set of square-integrable functions on the sphere. Putting these two facts together, a new Monte Carlo method, hereby referred to as Spherical Harmonics Control Variates (SHCV), is proposed for approximating the SW distance using spherical harmonics as control variates. The resulting approach is shown to have good theoretical properties, e.g., a no-error property for Gaussian measures under a certain form of linear dependency between the variables. Moreover, an improved rate of convergence, compared to Monte Carlo, is established for g
     
-[^3]: 机器学习中的重要性加权简要调查
+[^2]: 在因果发现中集成大型语言模型: 一种统计因果方法
 
-    A Short Survey on Importance Weighting for Machine Learning
+    Integrating Large Language Models in Causal Discovery: A Statistical Causal Approach
 
-    [https://arxiv.org/abs/2403.10175](https://arxiv.org/abs/2403.10175)
+    [https://rss.arxiv.org/abs/2402.01454](https://rss.arxiv.org/abs/2402.01454)
 
-    重要性加权是统计学和机器学习中的基本程序，通过对目标函数或概率分布进行加权，可以保证监督学习在训练和测试分布之间差异的情况下具有统计上期望的性质
-
-    
-
-    重要性加权是统计学和机器学习中的一项基本程序，根据某种意义上实例的重要性对目标函数或概率分布进行加权。这一简单而有用的思想的广泛应用导致了许多重要性加权的应用。例如，据知，在关于训练和测试分布之间差异的假设下的监督学习，通过密度比的重要性加权可以保证统计上期望的性质。这项调查总结了机器学习和相关研究中重要性加权的广泛应用。
-
-    arXiv:2403.10175v1 Announce Type: cross  Abstract: Importance weighting is a fundamental procedure in statistics and machine learning that weights the objective function or probability distribution based on the importance of the instance in some sense. The simplicity and usefulness of the idea has led to many applications of importance weighting. For example, it is known that supervised learning under an assumption about the difference between the training and test distributions, called distribution shift, can guarantee statistically desirable properties through importance weighting by their density ratio. This survey summarizes the broad applications of importance weighting in machine learning and related research.
-    
-[^4]: 准则崩溃和损失分布控制
-
-    Criterion collapse and loss distribution control
-
-    [https://arxiv.org/abs/2402.09802](https://arxiv.org/abs/2402.09802)
-
-    该论文研究了"准则崩溃"的概念，即优化一个度量指标意味着另一个度量指标的最优性。研究结果发现，对于损失的伯努利分布，CVaR和DRO的结果远超出现有研究，同时发现了一些特定条件下，单调准则如倾斜ERM无法避免崩溃，而非单调的替代方案可以。
+    本文提出了一种在因果发现中集成大型语言模型的方法，通过将统计因果提示与知识增强相结合，可以使统计因果发现结果接近真实情况并进一步改进结果。
 
     
 
-    在这项工作中，我们考虑了"准则崩溃"的概念，即优化一个度量指标意味着另一个度量指标的最优性，特别关注各种学习准则下崩溃成误差概率最小化器的条件，从DRO和OCE风险（CVaR、倾斜ERM）到文献中探索的最新上升-下降算法的非单调准则（洪水、SoftAD）。我们展示了在伯努利分布损失的背景下，CVaR和DRO的现有结果远远超越了崩溃的范围，然后扩大了我们的范围，包括代理损失，展示了像倾斜ERM这样的单调准则无法避免崩溃的条件，而非单调的替代方案可以。
+    在实际的统计因果发现（SCD）中，将领域专家知识作为约束嵌入到算法中被广泛接受，因为这对于创建一致有意义的因果模型是重要的，尽管识别背景知识的挑战被认可。为了克服这些挑战，本文提出了一种新的因果推断方法，即通过将LLM的“统计因果提示（SCP）”与SCD方法和基于知识的因果推断（KBCI）相结合，对SCD进行先验知识增强。实验证明，GPT-4可以使LLM-KBCI的输出与带有LLM-KBCI的先验知识的SCD结果接近真实情况，如果GPT-4经历了SCP，那么SCD的结果还可以进一步改善。而且，即使LLM不含有数据集的信息，LLM仍然可以通过其背景知识来改进SCD。
 
-    arXiv:2402.09802v1 Announce Type: cross  Abstract: In this work, we consider the notion of "criterion collapse," in which optimization of one metric implies optimality in another, with a particular focus on conditions for collapse into error probability minimizers under a wide variety of learning criteria, ranging from DRO and OCE risks (CVaR, tilted ERM) to non-monotonic criteria underlying recent ascent-descent algorithms explored in the literature (Flooding, SoftAD). We show how collapse in the context of losses with a Bernoulli distribution goes far beyond existing results for CVaR and DRO, then expand our scope to include surrogate losses, showing conditions where monotonic criteria such as tilted ERM cannot avoid collapse, whereas non-monotonic alternatives can.
+    In practical statistical causal discovery (SCD), embedding domain expert knowledge as constraints into the algorithm is widely accepted as significant for creating consistent meaningful causal models, despite the recognized challenges in systematic acquisition of the background knowledge. To overcome these challenges, this paper proposes a novel methodology for causal inference, in which SCD methods and knowledge based causal inference (KBCI) with a large language model (LLM) are synthesized through "statistical causal prompting (SCP)" for LLMs and prior knowledge augmentation for SCD. Experiments have revealed that GPT-4 can cause the output of the LLM-KBCI and the SCD result with prior knowledge from LLM-KBCI to approach the ground truth, and that the SCD result can be further improved, if GPT-4 undergoes SCP. Furthermore, it has been clarified that an LLM can improve SCD with its background knowledge, even if the LLM does not contain information on the dataset. The proposed approach
     
-[^5]: 一种广义的在线凸优化方法
+[^3]: 多元轨迹的符合性自适应预测方法
 
-    A Generalized Approach to Online Convex Optimization
+    Conformalized Adaptive Forecasting of Heterogeneous Trajectories
 
-    [https://arxiv.org/abs/2402.08621](https://arxiv.org/abs/2402.08621)
+    [https://arxiv.org/abs/2402.09623](https://arxiv.org/abs/2402.09623)
 
-    这是一篇关于在线凸优化的论文，作者分析了不同环境下的问题并提出了一种通用的解决方法，该方法可以转化为相应的线性优化算法，并可以在面对不同类型对手时获得可比较的遗憾界限。
-
-    
-
-    在本文中，我们分析了不同环境下的在线凸优化问题。我们证明了任何用于具有完全自适应对手的在线线性优化的算法都是用于在线凸优化的算法。我们还证明了任何需要全信息反馈的算法都可以转化为具有可比较的遗憾界限的半匹配反馈算法。此外，我们还证明了使用确定性半匹配反馈的全自适应对手设计的算法在面对无知对手时可以使用只有随机半匹配反馈的算法获得相似的界限。我们利用这一结果描述了将一阶算法转化为零阶算法的通用元算法，这些算法具有可比较的遗憾界限。我们的框架使我们能够分析各种设置中的在线优化问题，包括全信息反馈、半匹配反馈、随机遗憾、对抗遗憾和各种形式的非平稳遗憾。利用我们的分析结果，
-
-    In this paper, we analyze the problem of online convex optimization in different settings. We show that any algorithm for online linear optimization with fully adaptive adversaries is an algorithm for online convex optimization. We also show that any such algorithm that requires full-information feedback may be transformed to an algorithm with semi-bandit feedback with comparable regret bound. We further show that algorithms that are designed for fully adaptive adversaries using deterministic semi-bandit feedback can obtain similar bounds using only stochastic semi-bandit feedback when facing oblivious adversaries. We use this to describe general meta-algorithms to convert first order algorithms to zeroth order algorithms with comparable regret bounds. Our framework allows us to analyze online optimization in various settings, such full-information feedback, bandit feedback, stochastic regret, adversarial regret and various forms of non-stationary regret. Using our analysis, we provide
-    
-[^6]: 评估模型在交叉子群体间性能的结构回归方法
-
-    A structured regression approach for evaluating model performance across intersectional subgroups. (arXiv:2401.14893v1 [cs.LG])
-
-    [http://arxiv.org/abs/2401.14893](http://arxiv.org/abs/2401.14893)
-
-    这项工作介绍了一种结构回归方法，用于评估模型在不同交叉子群体间的性能。它可以提供可靠的系统性能估计，即使对于很小的子群体。
+    本研究提出了一种新的符合性方法，通过结合在线符合性预测技术和解决回归中异方差性的方法，生成了同时预测边界，并能够可靠地覆盖新随机轨迹的整个路径。这种方法不仅有精确的有限样本保证，而且往往比之前的方法具有更丰富的预测结果。
 
     
 
-    在人工智能公平性评估中，分解式评估是一项核心任务，目标是衡量人工智能系统在由人口统计学或其他敏感属性组合定义的不同子群体中的性能。标准方法是将评估数据分层到子群体中，并分别计算每个组的性能指标。然而，即使对于中等规模的评估数据集来说，在考虑到交叉子群体时样本数量也会迅速变小，这大大限制了许多分解评估中对交叉群体的考虑程度。在本研究中，我们引入了一种结构回归方法来进行分解评估，我们证明即使对于非常小的子群体，该方法也能产生可靠的系统性能估计。我们还提供了相应的推断策略来构建置信区间，并探索了拟合优度测试如何揭示交叉子群体所经历的与公平相关的伤害的结构。
+    本文提出了一种新的符合性方法，用于生成同时预测边界，以具有足够高的概率覆盖新随机轨迹的整个路径。鉴于在运动规划应用中需要可靠的不确定性估计，其中不同物体的行为可能更或更少可预测，我们将来自单个和多个时间序列的在线符合性预测技术，以及解决回归中的异方差性的方法进行了融合。该解决方案既有原则性，提供了精确的有限样本保证，又有效，通常比先前的方法具有更丰富的预测结果。
 
-    Disaggregated evaluation is a central task in AI fairness assessment, with the goal to measure an AI system's performance across different subgroups defined by combinations of demographic or other sensitive attributes. The standard approach is to stratify the evaluation data across subgroups and compute performance metrics separately for each group. However, even for moderately-sized evaluation datasets, sample sizes quickly get small once considering intersectional subgroups, which greatly limits the extent to which intersectional groups are considered in many disaggregated evaluations. In this work, we introduce a structured regression approach to disaggregated evaluation that we demonstrate can yield reliable system performance estimates even for very small subgroups. We also provide corresponding inference strategies for constructing confidence intervals and explore how goodness-of-fit testing can yield insight into the structure of fairness-related harms experienced by intersectio
+    arXiv:2402.09623v1 Announce Type: cross  Abstract: This paper presents a new conformal method for generating simultaneous forecasting bands guaranteed to cover the entire path of a new random trajectory with sufficiently high probability. Prompted by the need for dependable uncertainty estimates in motion planning applications where the behavior of diverse objects may be more or less unpredictable, we blend different techniques from online conformal prediction of single and multiple time series, as well as ideas for addressing heteroscedasticity in regression. This solution is both principled, providing precise finite-sample guarantees, and effective, often leading to more informative predictions than prior methods.
     
-[^7]: 未知方差下的高斯均值的任意有效T检验和置信序列
+[^4]: 标准 Gaussian 过程在高维贝叶斯优化中足以应对
 
-    Anytime-valid t-tests and confidence sequences for Gaussian means with unknown variance. (arXiv:2310.03722v1 [math.ST])
+    Standard Gaussian Process is All You Need for High-Dimensional Bayesian Optimization
 
-    [http://arxiv.org/abs/2310.03722](http://arxiv.org/abs/2310.03722)
+    [https://arxiv.org/abs/2402.02746](https://arxiv.org/abs/2402.02746)
 
-    本文提出了两种新的“e-process”和置信序列方法，分别通过替换Lai的混合方法，并分析了所得结果的宽度。
-
-    
-
-    在1976年，Lai构造了一个非平凡的均值$\mu$的高斯分布的置信序列，该分布的方差$\sigma$是未知的。他使用了关于$\sigma$的不适当（右Haar）混合和关于$\mu$的不适当（平坦）混合。在本文中，我们详细说明了他构建的细节，其中使用了广义的不可积分鞅和扩展的维尔不等式。尽管这确实产生了一个顺序T检验，但由于他的鞅不可积分，它并没有产生一个“e-process”。在本文中，我们为相同的设置开发了两个新的“e-process”和置信序列：一个是在缩减滤波器中的测试鞅，另一个是在规范数据滤波器中的“e-process”。这些分别是通过将Lai的平坦混合替换为高斯混合，并将对$\sigma$的右Haar混合替换为在零空间下的最大似然估计，就像在通用推断中一样。我们还分析了所得结果的宽度。
-
-    In 1976, Lai constructed a nontrivial confidence sequence for the mean $\mu$ of a Gaussian distribution with unknown variance $\sigma$. Curiously, he employed both an improper (right Haar) mixture over $\sigma$ and an improper (flat) mixture over $\mu$. Here, we elaborate carefully on the details of his construction, which use generalized nonintegrable martingales and an extended Ville's inequality. While this does yield a sequential t-test, it does not yield an ``e-process'' (due to the nonintegrability of his martingale). In this paper, we develop two new e-processes and confidence sequences for the same setting: one is a test martingale in a reduced filtration, while the other is an e-process in the canonical data filtration. These are respectively obtained by swapping Lai's flat mixture for a Gaussian mixture, and swapping the right Haar mixture over $\sigma$ with the maximum likelihood estimate under the null, as done in universal inference. We also analyze the width of resulting 
-    
-[^8]: 非平滑非凸优化中随机次梯度方法的收敛性保证
-
-    Convergence Guarantees for Stochastic Subgradient Methods in Nonsmooth Nonconvex Optimization. (arXiv:2307.10053v1 [math.OC])
-
-    [http://arxiv.org/abs/2307.10053](http://arxiv.org/abs/2307.10053)
-
-    本文研究了非平滑非凸优化中随机次梯度方法的收敛性质，并提出了一种新的框架，证明了其在单时间尺度和双时间尺度情况下的全局收敛性，包括了多种已知的SGD类型方法。对于有限和形式的目标函数，证明了这些方法能够在随机选择的步长和初始点上找到Clarke稳定点。
+    标准 Gaussian 过程在高维贝叶斯优化中表现优秀，经验证据显示其在函数估计和协方差建模中克服了高维输入困难，比专门为高维优化设计的方法表现更好。
 
     
 
-    本文研究了随机梯度下降（SGD）方法及其变种在训练由非平滑激活函数构建的神经网络中的收敛性质。我们提出了一种新颖的框架，为更新动量项和变量的步长分配了不同的时间尺度。在一些温和的条件下，我们证明了我们提出的框架在单时间尺度和双时间尺度情况下的全局收敛性。我们还证明了我们提出的框架包含了很多已知的SGD类型方法，包括heavy-ball SGD、SignSGD、Lion、normalized SGD和clipped SGD。此外，当目标函数采用有限和形式时，我们基于我们提出的框架证明了这些SGD类型方法的收敛性质。特别地，在温和的假设下，我们证明了这些SGD类型方法在随机选择的步长和初始点上能够找到目标函数的Clarke稳定点。
+    长期以来，人们普遍认为使用标准 Gaussian 过程（GP）进行贝叶斯优化（BO），即标准 BO，在高维优化问题中效果不佳。这种观念可以部分归因于 Gaussian 过程在协方差建模和函数估计中对高维输入的困难。虽然这些担忧看起来合理，但缺乏支持这种观点的经验证据。本文系统地研究了在各种合成和真实世界基准问题上，使用标准 GP 回归进行高维优化的贝叶斯优化。令人惊讶的是，标准 GP 的表现始终位于最佳范围内，往往比专门为高维优化设计的现有 BO 方法表现更好。与刻板印象相反，我们发现标准 GP 可以作为学习高维目标函数的能力强大的代理。在没有强结构假设的情况下，使用标准 GP 进行 BO 可以获得非常好的性能。
 
-    In this paper, we investigate the convergence properties of the stochastic gradient descent (SGD) method and its variants, especially in training neural networks built from nonsmooth activation functions. We develop a novel framework that assigns different timescales to stepsizes for updating the momentum terms and variables, respectively. Under mild conditions, we prove the global convergence of our proposed framework in both single-timescale and two-timescale cases. We show that our proposed framework encompasses a wide range of well-known SGD-type methods, including heavy-ball SGD, SignSGD, Lion, normalized SGD and clipped SGD. Furthermore, when the objective function adopts a finite-sum formulation, we prove the convergence properties for these SGD-type methods based on our proposed framework. In particular, we prove that these SGD-type methods find the Clarke stationary points of the objective function with randomly chosen stepsizes and initial points under mild assumptions. Preli
+    There has been a long-standing and widespread belief that Bayesian Optimization (BO) with standard Gaussian process (GP), referred to as standard BO, is ineffective in high-dimensional optimization problems. This perception may partly stem from the intuition that GPs struggle with high-dimensional inputs for covariance modeling and function estimation. While these concerns seem reasonable, empirical evidence supporting this belief is lacking. In this paper, we systematically investigated BO with standard GP regression across a variety of synthetic and real-world benchmark problems for high-dimensional optimization. Surprisingly, the performance with standard GP consistently ranks among the best, often outperforming existing BO methods specifically designed for high-dimensional optimization by a large margin. Contrary to the stereotype, we found that standard GP can serve as a capable surrogate for learning high-dimensional target functions. Without strong structural assumptions, BO wit
     
-[^9]: 通过随机Polyak步长的局部自适应联邦学习
+[^5]: 最优化多分布学习
 
-    Locally Adaptive Federated Learning via Stochastic Polyak Stepsizes. (arXiv:2307.06306v1 [cs.LG])
+    Optimal Multi-Distribution Learning. (arXiv:2312.05134v2 [cs.LG] UPDATED)
 
-    [http://arxiv.org/abs/2307.06306](http://arxiv.org/abs/2307.06306)
+    [http://arxiv.org/abs/2312.05134](http://arxiv.org/abs/2312.05134)
 
-    本文将随机Polyak步长方法扩展到联邦学习，提出了新的局部自适应和几乎无需调参的FedSPS和FedDecSPS变体。我们证明了当插值条件满足时，FedSPS以线性速度收敛，一般情况下收敛到解的邻域。
-
-    
-
-    最先进的联邦学习算法，如FedAvg，需要精心调整的步长才能达到最佳性能。现有自适应联邦方法提出的改进仅涉及额外的超参数调整，如动量参数，并且仅考虑在服务器聚合轮次中的适应性，而不是局部的。这些方法在许多实际场景下效率低下，因为它们需要过多的超参数调整，并且不能捕捉局部几何信息。本文将最近提出的随机Polyak步长方法扩展到联邦学习环境，并提出了新的局部自适应和几乎无需调参的分布式SPS变体（FedSPS和FedDecSPS）。我们证明当插值条件（过参数化）满足时，FedSPS在强凸和凸设置中以线性速度收敛，一般情况下收敛到解的邻域。
-
-    State-of-the-art federated learning algorithms such as FedAvg require carefully tuned stepsizes to achieve their best performance. The improvements proposed by existing adaptive federated methods involve tuning of additional hyperparameters such as momentum parameters, and consider adaptivity only in the server aggregation round, but not locally. These methods can be inefficient in many practical scenarios because they require excessive tuning of hyperparameters and do not capture local geometric information. In this work, we extend the recently proposed stochastic Polyak stepsize (SPS) to the federated learning setting, and propose new locally adaptive and nearly parameter-free distributed SPS variants (FedSPS and FedDecSPS). We prove that FedSPS converges linearly in strongly convex and sublinearly in convex settings when the interpolation condition (overparametrization) is satisfied, and converges to a neighborhood of the solution in the general case. We extend our proposed method t
-    
-[^10]: 通过子序列相似性生成序列：理论及其在无人机识别中的应用
-
-    Sequence Generation via Subsequence Similarity: Theory and Application to UAV Identification. (arXiv:2301.08403v2 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2301.08403](http://arxiv.org/abs/2301.08403)
-
-    本文探究了一种单次生成模型的多样性，主要聚焦于子序列相似性如何影响整个序列相似性，并通过生成子序列相似的序列来增强数据集。
+    本论文提出了一种最优化多分布学习的方法，通过自适应采样来实现数据高效的学习。针对Vapnik-Chervonenkis (VC)维数为d的假设类，算法可以生成一个ε-最优随机假设，并且样本复杂度与最佳下界保持一致。同时，该算法的思想和理论还被进一步扩展以适应Rademacher类。最终提出的算法是奥拉克尔高效的，仅访问假设类。
 
     
 
-    生成人工合成序列的能力在广泛的应用中至关重要，而深度学习架构和生成框架的最新进展已经极大地促进了这一过程。本文使用一种单次生成模型来采样，通过相似性生成子序列，并证明了子序列相似性对整个序列相似性的影响，给出了相应的界限。我们使用一种一次性生成模型来从单个序列的范围内取样，并生成子序列相似的序列，证明了数据集增强方面的实用性。
+    多分布学习（MDL）旨在学习一个共享模型，使得在k个不同的数据分布下，最小化最坏情况风险，已成为适应健壮性、公平性、多组合作等需求的统一框架。实现数据高效的MDL需要在学习过程中进行自适应采样，也称为按需采样。然而，最优样本复杂度的上下界之间存在较大差距。针对Vapnik-Chervonenkis（VC）维数为d的假设类，我们提出了一种新颖的算法，可生成一个ε-最优随机假设，其样本复杂度接近于（d+k）/ε^2（在某些对数因子中），与已知的最佳下界匹配。我们的算法思想和理论被进一步扩展，以适应Rademacher类。提出的算法是奥拉克尔高效的，仅仅访问假设类
 
-    The ability to generate synthetic sequences is crucial for a wide range of applications, and recent advances in deep learning architectures and generative frameworks have greatly facilitated this process. Particularly, unconditional one-shot generative models constitute an attractive line of research that focuses on capturing the internal information of a single image or video to generate samples with similar contents. Since many of those one-shot models are shifting toward efficient non-deep and non-adversarial approaches, we examine the versatility of a one-shot generative model for augmenting whole datasets. In this work, we focus on how similarity at the subsequence level affects similarity at the sequence level, and derive bounds on the optimal transport of real and generated sequences based on that of corresponding subsequences. We use a one-shot generative model to sample from the vicinity of individual sequences and generate subsequence-similar ones and demonstrate the improvem
+    Multi-distribution learning (MDL), which seeks to learn a shared model that minimizes the worst-case risk across $k$ distinct data distributions, has emerged as a unified framework in response to the evolving demand for robustness, fairness, multi-group collaboration, etc. Achieving data-efficient MDL necessitates adaptive sampling, also called on-demand sampling, throughout the learning process. However, there exist substantial gaps between the state-of-the-art upper and lower bounds on the optimal sample complexity. Focusing on a hypothesis class of Vapnik-Chervonenkis (VC) dimension $d$, we propose a novel algorithm that yields an $varepsilon$-optimal randomized hypothesis with a sample complexity on the order of $(d+k)/\varepsilon^2$ (modulo some logarithmic factor), matching the best-known lower bound. Our algorithmic ideas and theory have been further extended to accommodate Rademacher classes. The proposed algorithms are oracle-efficient, which access the hypothesis class solely
     
-[^11]: 长期持续混淆情况下的因果推断与数据组合研究
+[^6]: MINDE: 互信息神经扩散估计
 
-    Long-term Causal Inference Under Persistent Confounding via Data Combination. (arXiv:2202.07234v3 [stat.ME] UPDATED)
+    MINDE: Mutual Information Neural Diffusion Estimation. (arXiv:2310.09031v1 [cs.LG])
 
-    [http://arxiv.org/abs/2202.07234](http://arxiv.org/abs/2202.07234)
+    [http://arxiv.org/abs/2310.09031](http://arxiv.org/abs/2310.09031)
 
-    本研究通过数据组合解决了长期治疗效果识别和估计中的持续未测量混淆因素挑战，并提出了三种新的识别策略和估计器。
+    MINDE是一种基于得分函数扩散模型的新方法，用于估计随机变量之间的互信息。该方法在准确性和自一致性测试方面优于其他文献中的主要替代方法。
 
     
 
-    我们研究了当实验数据和观察数据同时存在时，长期治疗效果的识别和估计问题。由于长期结果仅在长时间延迟后才观察到，在实验数据中无法测量，但在观察数据中有记录。然而，这两种类型的数据都包含对一些短期结果的观察。在本文中，我们独特地解决了持续未测量混淆因素的挑战，即一些未测量混淆因素可以同时影响治疗、短期结果和长期结果，而这会使得之前文献中的识别策略无效。为了解决这个挑战，我们利用多个短期结果的连续结构，为平均长期治疗效果提出了三种新的识别策略。我们进一步提出了三种对应的估计器，并证明了它们的渐近一致性和渐近正态性。最后，我们将我们的方法应用于估计长期治疗效果。
+    在这项工作中，我们提出了一种估计随机变量之间互信息（MI）的新方法。我们的方法基于Girsanov定理的原创解释，允许我们使用基于得分的扩散模型来估计两个密度函数之间的Kullback-Leibler散度，该估计是它们得分函数之间的差异。作为副产品，我们的方法还能够估计随机变量的熵。借助这样的构建模块，我们提出了一种通用的测量MI的方法，该方法分为两个方向展开：一个使用条件扩散过程，另一个使用联合扩散过程，可以同时对两个随机变量进行建模。我们的结果来自于对我们方法的各种变体进行彻底的实验协议，表明我们的方法比文献中的主要替代方法更准确，尤其是对于具有挑战性的分布。此外，我们的方法通过了MI自一致性测试，包括...
 
-    We study the identification and estimation of long-term treatment effects when both experimental and observational data are available. Since the long-term outcome is observed only after a long delay, it is not measured in the experimental data, but only recorded in the observational data. However, both types of data include observations of some short-term outcomes. In this paper, we uniquely tackle the challenge of persistent unmeasured confounders, i.e., some unmeasured confounders that can simultaneously affect the treatment, short-term outcomes and the long-term outcome, noting that they invalidate identification strategies in previous literature. To address this challenge, we exploit the sequential structure of multiple short-term outcomes, and develop three novel identification strategies for the average long-term treatment effect. We further propose three corresponding estimators and prove their asymptotic consistency and asymptotic normality. We finally apply our methods to esti
+    In this work we present a new method for the estimation of Mutual Information (MI) between random variables. Our approach is based on an original interpretation of the Girsanov theorem, which allows us to use score-based diffusion models to estimate the Kullback Leibler divergence between two densities as a difference between their score functions. As a by-product, our method also enables the estimation of the entropy of random variables. Armed with such building blocks, we present a general recipe to measure MI, which unfolds in two directions: one uses conditional diffusion process, whereas the other uses joint diffusion processes that allow simultaneous modelling of two random variables. Our results, which derive from a thorough experimental protocol over all the variants of our approach, indicate that our method is more accurate than the main alternatives from the literature, especially for challenging distributions. Furthermore, our methods pass MI self-consistency tests, includin
+    
+[^7]: 无均值回归：不恰当高斯过程回归和不恰当核
+
+    Stationarity without mean reversion: Improper Gaussian process regression and improper kernels. (arXiv:2310.02877v1 [stat.ML])
+
+    [http://arxiv.org/abs/2310.02877](http://arxiv.org/abs/2310.02877)
+
+    本论文展示了使用具有无限方差的不恰当高斯过程先验来定义静止但不均值回归过程的可能性，并引入了一类特殊的不恰当核函数来实现此目的。
+
+    
+
+    高斯过程（GP）回归在机器学习应用中已经广泛流行。GP回归的行为取决于协方差函数的选择。在机器学习应用中，静止协方差函数是首选。然而，（非周期性的）静止协方差函数总是均值回归的，因此在应用于不通过到固定全局均值值的数据时可能表现出病态行为。在本文中，我们展示了使用具有无限方差的不恰当GP先验来定义静止但不均值回归过程是可能的。为此，我们引入了一大类只能在这种不恰当的范围内定义的不恰当核函数。具体地，我们引入了平滑行走核，它产生无限平滑的样本，以及一类不恰当的Matern核，它可以被定义为任意整数j倍可微。所得到的后验分布可以用解析的方式计算出来。
+
+    Gaussian processes (GP) regression has gained substantial popularity in machine learning applications. The behavior of a GP regression depends on the choice of covariance function. Stationary covariance functions are favorite in machine learning applications. However, (non-periodic) stationary covariance functions are always mean reverting and can therefore exhibit pathological behavior when applied to data that does not relax to a fixed global mean value. In this paper, we show that it is possible to use improper GP prior with infinite variance to define processes that are stationary but not mean reverting. To this aim, we introduce a large class of improper kernels that can only be defined in this improper regime. Specifically, we introduce the Smooth Walk kernel, which produces infinitely smooth samples, and a family of improper Mat\'ern kernels, which can be defined to be $j$-times differentiable for any integer $j$. The resulting posterior distributions can be computed analyticall
+    
+[^8]: 循环神经网络在遍历数据序列上训练的核极限
+
+    Kernel Limit of Recurrent Neural Networks Trained on Ergodic Data Sequences. (arXiv:2308.14555v1 [cs.LG])
+
+    [http://arxiv.org/abs/2308.14555](http://arxiv.org/abs/2308.14555)
+
+    本文研究了循环神经网络在遍历数据序列上训练时的核极限，利用数学方法对其渐近特性进行了描述，并证明了RNN收敛到与随机代数方程的不动点耦合的无穷维ODE的解。这对于理解和改进循环神经网络具有重要意义。
+
+    
+
+    本文开发了数学方法来描述循环神经网络（RNN）的渐近特性，其中隐藏单元的数量、序列中的数据样本、隐藏状态的更新和训练步骤同时趋于无穷大。对于具有简化权重矩阵的RNN，我们证明了RNN收敛到与随机代数方程的不动点耦合的无穷维ODE的解。分析需要解决RNN所特有的几个挑战。在典型的均场应用中（例如前馈神经网络），离散的更新量为$\mathcal{O}(\frac{1}{N})$，更新的次数为$\mathcal{O}(N)$。因此，系统可以表示为适当ODE/PDE的Euler逼近，当$N \rightarrow \infty$时收敛到该ODE/PDE。然而，RNN的隐藏层更新为$\mathcal{O}(1)$。因此，RNN不能表示为ODE/PDE的离散化和标准均场技术。
+
+    Mathematical methods are developed to characterize the asymptotics of recurrent neural networks (RNN) as the number of hidden units, data samples in the sequence, hidden state updates, and training steps simultaneously grow to infinity. In the case of an RNN with a simplified weight matrix, we prove the convergence of the RNN to the solution of an infinite-dimensional ODE coupled with the fixed point of a random algebraic equation. The analysis requires addressing several challenges which are unique to RNNs. In typical mean-field applications (e.g., feedforward neural networks), discrete updates are of magnitude $\mathcal{O}(\frac{1}{N})$ and the number of updates is $\mathcal{O}(N)$. Therefore, the system can be represented as an Euler approximation of an appropriate ODE/PDE, which it will converge to as $N \rightarrow \infty$. However, the RNN hidden layer updates are $\mathcal{O}(1)$. Therefore, RNNs cannot be represented as a discretization of an ODE/PDE and standard mean-field tec
+    
+[^9]: 利用过参数化的浅层ReLU神经网络的非参数回归
+
+    Nonparametric regression using over-parameterized shallow ReLU neural networks. (arXiv:2306.08321v1 [stat.ML])
+
+    [http://arxiv.org/abs/2306.08321](http://arxiv.org/abs/2306.08321)
+
+    本文表明，对于学习某些光滑函数类，具有适当权重限制或正则化的过参数化神经网络可以达到最小最优收敛速率。作者通过对过度参数化的神经网络进行了实验，成功证明在浅层ReLU神经网络中使用最小二乘估计值是最小化最优的。同时作者还得出了神经网络的本地Rademacher复杂度的一个新的上界。
+
+    
+
+    如果权重得到合适的限制或正则化，那么可以证明过度参数化的神经网络可以达到某些光滑函数类的学习最小最优收敛速率（最多对数因数）。具体地，我们考虑使用浅层ReLU神经网络的非参数回归来估计未知的$d$变量函数。假设回归函数是从具有光滑度$\alpha < (d+3)/2$的Holder空间或对应于浅层神经网络的变化空间中学习的，后者可以视为无限宽的神经网络。在这种情况下，我们证明了基于具有权重某些范数约束的浅层神经网络的最小二乘估计值是最小化最优的，如果网络宽度足够大。作为副产品，我们得到了一个新的和神经网络的本地Rademacher复杂度无关的上界，这可能是有独立兴趣的。
+
+    It is shown that over-parameterized neural networks can achieve minimax optimal rates of convergence (up to logarithmic factors) for learning functions from certain smooth function classes, if the weights are suitably constrained or regularized. Specifically, we consider the nonparametric regression of estimating an unknown $d$-variate function by using shallow ReLU neural networks. It is assumed that the regression function is from the H\"older space with smoothness $\alpha<(d+3)/2$ or a variation space corresponding to shallow neural networks, which can be viewed as an infinitely wide neural network. In this setting, we prove that least squares estimators based on shallow neural networks with certain norm constraints on the weights are minimax optimal, if the network width is sufficiently large. As a byproduct, we derive a new size-independent bound for the local Rademacher complexity of shallow ReLU neural networks, which may be of independent interest.
+    
+[^10]: 神经网络函数的Lipschitz连续性的一些基本方面
+
+    Some Fundamental Aspects about Lipschitz Continuity of Neural Network Functions. (arXiv:2302.10886v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2302.10886](http://arxiv.org/abs/2302.10886)
+
+    本文深入研究和描述神经网络实现的函数的Lipschitz行为，在多种设置下进行实证研究，并揭示了神经网络函数Lipschitz连续性的基本和有趣的特性，其中最引人注目的是在Lipschitz常数的上限和下限中识别出了明显的双下降趋势。
+
+    
+
+    Lipschitz连续性是任何预测模型的一个简单但关键的功能性质，它处于模型的稳健性、泛化性和对抗性脆弱性的核心。本文旨在深入研究和描述神经网络实现的函数的Lipschitz行为。因此，我们通过耗尽最简单和最一般的下限和上限的极限，在各种不同设置下进行实证研究（即，体系结构、损失、优化器、标签噪音等），虽然这一选择主要是受计算难度结果的驱动，但它也非常丰富，并揭示了神经网络函数Lipschitz连续性的几个基本和有趣的特性，我们还补充了适当的理论论证。
+
+    Lipschitz continuity is a simple yet crucial functional property of any predictive model for it lies at the core of the model's robustness, generalisation, as well as adversarial vulnerability. Our aim is to thoroughly investigate and characterise the Lipschitz behaviour of the functions realised by neural networks. Thus, we carry out an empirical investigation in a range of different settings (namely, architectures, losses, optimisers, label noise, and more) by exhausting the limits of the simplest and the most general lower and upper bounds. Although motivated primarily by computational hardness results, this choice nevertheless turns out to be rather resourceful and sheds light on several fundamental and intriguing traits of the Lipschitz continuity of neural network functions, which we also supplement with suitable theoretical arguments. As a highlight of this investigation, we identify a striking double descent trend in both upper and lower bounds to the Lipschitz constant with in
     
 
