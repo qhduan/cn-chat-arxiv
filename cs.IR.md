@@ -2,22 +2,9 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [CDRNP: Cross-Domain Recommendation to Cold-Start Users via Neural Process.](http://arxiv.org/abs/2401.12732) | CDRNP是一种通过神经网络将用户表示从源领域转移到目标领域，解决用户冷启动问题的跨领域推荐方法。 |
+
 
 # 详细
 
-[^1]: CDRNP: 通过神经过程实现跨领域推荐以解决冷启动用户问题
 
-    CDRNP: Cross-Domain Recommendation to Cold-Start Users via Neural Process. (arXiv:2401.12732v1 [cs.IR])
-
-    [http://arxiv.org/abs/2401.12732](http://arxiv.org/abs/2401.12732)
-
-    CDRNP是一种通过神经网络将用户表示从源领域转移到目标领域，解决用户冷启动问题的跨领域推荐方法。
-
-    
-
-    跨领域推荐（CDR）已被证明是解决用户冷启动问题的一种有效方法，旨在通过从源领域转移用户偏好来为目标领域的用户进行推荐。传统的CDR研究遵循嵌入和映射（EMCDR）范 paradigm，通过学习一个用户共享映射函数将用户表示从源领域转移到目标领域，忽视了用户特定偏好。最近的CDR研究尝试在元学习范 paradigm 下学习用户特定映射函数，将每个用户的CDR视为独立任务，但忽视了用户之间的偏好相关性，限制了用于表示用户的有益信息。此外，这两个范 paradigm 都忽略了映射过程中来自两个领域的用户-项目显式交互。为了解决上述问题，本文提出了一种新的CDR框架，使用神经过程（NP），称为CDRNP。
-
-    Cross-domain recommendation (CDR) has been proven as a promising way to tackle the user cold-start problem, which aims to make recommendations for users in the target domain by transferring the user preference derived from the source domain. Traditional CDR studies follow the embedding and mapping (EMCDR) paradigm, which transfers user representations from the source to target domain by learning a user-shared mapping function, neglecting the user-specific preference. Recent CDR studies attempt to learn user-specific mapping functions in meta-learning paradigm, which regards each user's CDR as an individual task, but neglects the preference correlations among users, limiting the beneficial information for user representations. Moreover, both of the paradigms neglect the explicit user-item interactions from both domains during the mapping process. To address the above issues, this paper proposes a novel CDR framework with neural process (NP), termed as CDRNP. Particularly, it develops th
-    
 
