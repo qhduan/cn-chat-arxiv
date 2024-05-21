@@ -2,67 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Interpersonal trust: Asymptotic analysis of a stochastic coordination game with multi-agent learning](https://arxiv.org/abs/2402.03894) | 本研究探讨了一群智能体的人际信任，发现随着时间推移，整个群体要么始终合作，要么始终背叛。通过模拟实验发现，智能体的记忆和群体规模对结果产生影响。研究结果表明，不同的群体可能会因为机会的原因而趋向于高或低信任状态，但社会背景也会起到重要作用。 |
-| [^2] | [Long-term Effects of India's Childhood Immunization Program on Earnings and Consumption Expenditure: Comment.](http://arxiv.org/abs/2401.11100) | Summan, Nandi, and Bloom发现，印度通用免疫计划对婴儿的免疫暴露对其成年后的周薪和人均家庭消费有正向影响。然而，他们的研究结果可能受到年龄和出生年份这两个相关变量的影响，且可能与调查期间的趋势相关。 |
-| [^3] | [The Measure Preserving Martingale Sinkhorn Algorithm.](http://arxiv.org/abs/2310.13797) | 本文提供了一种保度量幂插值方法，可以通过类似于熵最优输运中使用的Sinkhorn系统来获得测度之间的插值。 |
-| [^4] | [Uniform Pessimistic Risk and Optimal Portfolio.](http://arxiv.org/abs/2303.07158) | 本文提出了一种称为统一悲观风险的综合$\alpha$-风险版本和基于风险获得最优组合的计算算法，该方法可以用于估计韩国股票的悲观最优组合模型。 |
+| [^1] | [Using the Dual-Privacy Framework to Understand Consumers' Perceived Privacy Violations Under Different Firm Practices in Online Advertising](https://arxiv.org/abs/2403.03612) | 使用双重隐私框架研究在线广告中消费者对不同公司实践下的知觉隐私侵犯，发现不同广告实践中数据流动和消费者跟踪方式的差异会导致不同程度的隐私侵犯感受。 |
+| [^2] | [$\rho$-arbitrage and $\rho$-consistent pricing for star-shaped risk measures](https://arxiv.org/abs/2202.07610) | 引入弱大损失敏感性公理确保最优投资组合的存在，给出了（强）$\rho$-剧本的特征，利用条件推导了外部金融合同的（强）$\rho$-一致价格区间。 |
+| [^3] | [Tiebout Meets Schelling Online: Sorting in Cybercommunities.](http://arxiv.org/abs/2110.05608) | 本文研究了在线社群中的分类问题，发现隔离发生与群体比例和数量的组合相关，建议优化策略是使两个群体所选的平台质量相同。 |
 
 # 详细
 
-[^1]: 人际信任：具有多智能体学习的随机协调博弈的渐近分析
+[^1]: 使用双重隐私框架理解在线广告中消费者对不同公司实践下的知觉隐私侵犯
 
-    Interpersonal trust: Asymptotic analysis of a stochastic coordination game with multi-agent learning
+    Using the Dual-Privacy Framework to Understand Consumers' Perceived Privacy Violations Under Different Firm Practices in Online Advertising
 
-    [https://arxiv.org/abs/2402.03894](https://arxiv.org/abs/2402.03894)
+    [https://arxiv.org/abs/2403.03612](https://arxiv.org/abs/2403.03612)
 
-    本研究探讨了一群智能体的人际信任，发现随着时间推移，整个群体要么始终合作，要么始终背叛。通过模拟实验发现，智能体的记忆和群体规模对结果产生影响。研究结果表明，不同的群体可能会因为机会的原因而趋向于高或低信任状态，但社会背景也会起到重要作用。
-
-    
-
-    我们研究了一群智能体的人际信任，探讨了机会是否会决定一个群体最终是处于高信任还是低信任状态。我们用离散时间、随机匹配的协调博弈模型来建模。智能体对邻居的行为采用指数平滑学习规则。我们发现，随着时间推移，整个群体要么始终合作，要么始终背叛，这种情况以概率1发生。通过模拟，我们研究了游戏中收益分布和指数平滑学习（智能体的记忆）的影响。我们发现，随着智能体记忆的增加或群体规模的增加，实际动态开始与过程的期望相似。我们得出结论，不同的群体可能仅仅是由于机会的原因而收敛到高或低信任的状态，尽管游戏参数（社会背景）可能起着重要作用。
-
-    We study the interpersonal trust of a population of agents, asking whether chance may decide if a population ends up in a high trust or low trust state. We model this by a discrete time, random matching stochastic coordination game. Agents are endowed with an exponential smoothing learning rule about the behaviour of their neighbours. We find that, with probability one in the long run the whole population either always cooperates or always defects. By simulation we study the impact of the distributions of the payoffs in the game and of the exponential smoothing learning (memory of the agents). We find, that as the agent memory increases or as the size of the population increases, the actual dynamics start to resemble the expectation of the process. We conclude that it is indeed possible that different populations may converge upon high or low trust between its citizens simply by chance, though the game parameters (context of the society) may be quite telling.
-    
-[^2]: 印度儿童免疫计划对收入和消费支出的长期影响：评述
-
-    Long-term Effects of India's Childhood Immunization Program on Earnings and Consumption Expenditure: Comment. (arXiv:2401.11100v1 [econ.GN])
-
-    [http://arxiv.org/abs/2401.11100](http://arxiv.org/abs/2401.11100)
-
-    Summan, Nandi, and Bloom发现，印度通用免疫计划对婴儿的免疫暴露对其成年后的周薪和人均家庭消费有正向影响。然而，他们的研究结果可能受到年龄和出生年份这两个相关变量的影响，且可能与调查期间的趋势相关。
+    使用双重隐私框架研究在线广告中消费者对不同公司实践下的知觉隐私侵犯，发现不同广告实践中数据流动和消费者跟踪方式的差异会导致不同程度的隐私侵犯感受。
 
     
 
-    Summan、Nandi和Bloom（2023；SNB）发现，晚期八十年代印度婴儿接受印度通用免疫计划（UIP）的暴露使其早期成年时的周薪增加了0.138个对数点，人均家庭消费增加了0.028个点。但这些结果是通过回归年龄和出生年份这两个变量得出的，而这两个变量构造时几乎是共线的。因此，这些结果可以归因于一年调查期间的趋势，如通货膨胀。随机化实验表明，当真实影响为零时，SNB估计器的平均值为0.088个点（工资）和0.039个点（消费）。
+    针对收集和使用个人数据的隐私问题，在线广告行业一直在开发隐私增强技术（PETs），例如谷歌的隐私沙箱计划。本研究利用双重隐私框架来理解消费者对当前和提议的在线广告实践的知觉隐私侵犯（PPVs）。关键思路是，不同实践在个体数据是否离开消费者的设备以及如何跟踪和定位消费者上存在差异；这些不同影响隐私偏好的内在和工具组成部分，在不同实践下导致不同的PPVs。我们进行了针对美国消费者的在线研究，以获取不同广告实践中的PPVs。我们的发现证实了跟踪...
 
-    Summan, Nandi, and Bloom (2023; SNB) finds that exposure of babies to India's Universal Immunization Programme (UIP) in the late 1980s increased their weekly wages in early adulthood by 0.138 log points and per-capita household consumption 0.028 points. But the results are attained by regressing on age, in years, while controlling for year of birth--two variables that, as constructed, are nearly collinear. The results are therefore attributable to trends during the one-year survey period, such as inflation. A randomization exercise shows that when the true impacts are zero, the SNB estimator averages 0.088 points for wages and 0.039 points for consumption.
+    arXiv:2403.03612v1 Announce Type: new  Abstract: In response to privacy concerns about collecting and using personal data, the online advertising industry has been developing privacy-enhancing technologies (PETs), e.g., under Google's Privacy Sandbox initiative. In this research, we use the dual-privacy framework, which postulates that consumers have intrinsic and instrumental preferences for privacy, to understand consumers' perceived privacy violations (PPVs) for current and proposed online advertising practices. The key idea is that different practices differ in whether individual data leaves the consumer's machine or not and in how they track and target consumers; these affect, respectively, the intrinsic and instrumental components of privacy preferences differently, leading to different PPVs for different practices. We conducted online studies focused on consumers in the United States to elicit PPVs for various advertising practices. Our findings confirm the intuition that tracki
     
-[^3]: 保度量幂丁格鲁沉降算法
+[^2]: $\rho$-剧本和星形风险度量的$\rho$-一致定价
 
-    The Measure Preserving Martingale Sinkhorn Algorithm. (arXiv:2310.13797v1 [q-fin.CP])
+    $\rho$-arbitrage and $\rho$-consistent pricing for star-shaped risk measures
 
-    [http://arxiv.org/abs/2310.13797](http://arxiv.org/abs/2310.13797)
+    [https://arxiv.org/abs/2202.07610](https://arxiv.org/abs/2202.07610)
 
-    本文提供了一种保度量幂插值方法，可以通过类似于熵最优输运中使用的Sinkhorn系统来获得测度之间的插值。
+    引入弱大损失敏感性公理确保最优投资组合的存在，给出了（强）$\rho$-剧本的特征，利用条件推导了外部金融合同的（强）$\rho$-一致价格区间。
 
     
 
-    我们提供了一种保度量幂插值方法，该方法通过解决类似于熵最优输运中使用的Sinkhorn系统来获得的测度之间的插值。
+    本文重新审视了一个期限金融市场中的均值-风险组合选择问题，其中风险由星形风险度量$\rho$量化。我们做出了三点贡献。首先，我们引入了弱大损失敏感性的新公理，并展示了它是确保最优组合存在的关键。其次，我们给出了（强）$\rho$-剧本的原始和对偶特征。最后，我们利用不存在（强）$\rho$-剧本的条件，明确推导了一个外部金融合同的（强）$\rho$-一致价格区间。
 
-    We provide a martingale interpolation between measures that can be obtained by solving a Sinkhorn like system analogous to the one used in Entropic Optimal Transport.
+    arXiv:2202.07610v2 Announce Type: replace  Abstract: This paper revisits mean-risk portfolio selection in a one-period financial market, where risk is quantified by a star-shaped risk measure $\rho$. We make three contributions. First, we introduce the new axiom of weak sensitivity to large losses and show that it is key to ensure the existence of optimal portfolios. Second, we give primal and dual characterisations of (strong) $\rho$-arbitrage. Finally, we use our conditions for the absence of (strong) $\rho$-arbitrage to explicitly derive the (strong) $\rho$-consistent price interval for an external financial contract.
     
-[^4]: 统一悲观风险和最优组合
+[^3]: Tiebout meets Schelling online: 网络社群中的分类
 
-    Uniform Pessimistic Risk and Optimal Portfolio. (arXiv:2303.07158v1 [q-fin.PM])
+    Tiebout Meets Schelling Online: Sorting in Cybercommunities. (arXiv:2110.05608v2 [econ.GN] UPDATED)
 
-    [http://arxiv.org/abs/2303.07158](http://arxiv.org/abs/2303.07158)
+    [http://arxiv.org/abs/2110.05608](http://arxiv.org/abs/2110.05608)
 
-    本文提出了一种称为统一悲观风险的综合$\alpha$-风险版本和基于风险获得最优组合的计算算法，该方法可以用于估计韩国股票的悲观最优组合模型。
+    本文研究了在线社群中的分类问题，发现隔离发生与群体比例和数量的组合相关，建议优化策略是使两个群体所选的平台质量相同。
 
-    This paper proposes a version of integrated $\alpha$-risk called the uniform pessimistic risk and a computational algorithm to obtain an optimal portfolio based on the risk. The proposed method can be used to estimate the pessimistic optimal portfolio models for Korean stocks.
+    
 
-    资产配置的最优性已经在风险度量的理论分析中得到广泛讨论。悲观主义是一种超越传统最优组合模型的最有吸引力的方法之一，$\alpha$-风险在推导出广泛的悲观最优组合中起着关键作用。然而，由悲观风险评估的最优组合的估计仍然具有挑战性，因为缺乏可用的估计模型和计算算法。在本研究中，我们提出了一种称为统一悲观风险的综合$\alpha$-风险版本和基于风险获得最优组合的计算算法。此外，我们从多个分位数回归、适当的评分规则和分布鲁棒优化三个不同的方法来研究所提出的风险的理论性质。同时，统一悲观风险被应用于估计韩国股票的悲观最优组合模型。
+    本文提出了一个简化的模型来解决在线分类的问题。有两个大型的同质群体。每个人都必须在两个在线平台之间选择，其中一个平台拥有更好的便利设施。每个人都喜欢在网上与属于自己群体的人互动，但不喜欢与异类在同一个平台上。与居住区分类的Tiebout模型不同，两个平台都有无限容量，所以任何时候都可以任意更换。我们发现，一个在线平台从集成到隔离的转变是由当前的Schelling比率和每个平台上的每个群体的绝对数量的组合所引起的。也就是说，重要的是引起转变的集合而不是临界点。在某些情况下，一个群体从一个平台的逃逸可以被另一个群体比例的改变所触发，使那些离开的人变得更有利。如果希望在两个社群之间进行在线整合，那么最佳政策是明确的：使每个人的首选平台的质量都相同。
 
-    The optimality of allocating assets has been widely discussed with the theoretical analysis of risk measures. Pessimism is one of the most attractive approaches beyond the conventional optimal portfolio model, and the $\alpha$-risk plays a crucial role in deriving a broad class of pessimistic optimal portfolios. However, estimating an optimal portfolio assessed by a pessimistic risk is still challenging due to the absence of an available estimation model and a computational algorithm. In this study, we propose a version of integrated $\alpha$-risk called the uniform pessimistic risk and the computational algorithm to obtain an optimal portfolio based on the risk. Further, we investigate the theoretical properties of the proposed risk in view of three different approaches: multiple quantile regression, the proper scoring rule, and distributionally robust optimization. Also, the uniform pessimistic risk is applied to estimate the pessimistic optimal portfolio models for the Korean stock 
+    This paper proposes a stylised model to address the issue of online sorting. There are two large homogeneous groups of individuals. Everyone must choose between two online platforms, one of which has superior amenities. Each individual enjoys interacting online with those from their own group but dislikes being on the same platform as those in the other group. Unlike a Tiebout model of residential sorting, both platforms have unlimited capacity so at any moment anyone is free to switch. We find that an online platform is tipped from integrated to segregated by a combination of the current Schelling ratio and the absolute numbers of each group on each platform. That is, it is tipping sets and not tipping points that matter. In certain cases, the flight of one group from a platform can be triggered by a change in the group ratio in favor of those in the group that leave. If online integration of the two communities is the desired outcome then the optimal policy is clear: make the preferr
     
 

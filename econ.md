@@ -2,97 +2,112 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Imputation of Counterfactual Outcomes when the Errors are Predictable](https://arxiv.org/abs/2403.08130) | 提出了一种当误差相关时的潜在结果的改进预测器，不限于线性模型，可改善大类强混合误差过程的均方误差。 |
-| [^2] | [Interpersonal trust: Asymptotic analysis of a stochastic coordination game with multi-agent learning](https://arxiv.org/abs/2402.03894) | 本研究探讨了一群智能体的人际信任，发现随着时间推移，整个群体要么始终合作，要么始终背叛。通过模拟实验发现，智能体的记忆和群体规模对结果产生影响。研究结果表明，不同的群体可能会因为机会的原因而趋向于高或低信任状态，但社会背景也会起到重要作用。 |
-| [^3] | [Long-term Effects of India's Childhood Immunization Program on Earnings and Consumption Expenditure: Comment.](http://arxiv.org/abs/2401.11100) | Summan, Nandi, and Bloom发现，印度通用免疫计划对婴儿的免疫暴露对其成年后的周薪和人均家庭消费有正向影响。然而，他们的研究结果可能受到年龄和出生年份这两个相关变量的影响，且可能与调查期间的趋势相关。 |
-| [^4] | [Data-Driven Fixed-Point Tuning for Truncated Realized Variations.](http://arxiv.org/abs/2311.00905) | 本文提出了一种基于数据驱动的截断实现变异的固定点调整方法，有效估计积分波动性。 |
-| [^5] | [Asymptotic equivalence of Principal Component and Quasi Maximum Likelihood estimators in Large Approximate Factor Models.](http://arxiv.org/abs/2307.09864) | 在大型近似因子模型中，我们证明主成分估计的因子载荷与准极大似然估计的载荷等价，同时这两种估计也与不可行最小二乘估计的载荷等价。我们还证明了准极大似然估计的协方差矩阵与不可行最小二乘的协方差矩阵等价，从而可以简化准极大似然估计的置信区间的估计过程。所有结果都适用于假设异方差跨截面的一般情况。 |
-| [^6] | [A Theory of Auditability for Allocation and Social Choice Mechanisms.](http://arxiv.org/abs/2305.09314) | 本文为分配和社会选择问题开发了一个可审计性的通用理论，发现不同机制的审计性差异很大，立即接受机制最大可审计，而延迟接受机制最小可审计，多数表决机制也有其独特的审计性。 |
+| [^1] | [Using the Dual-Privacy Framework to Understand Consumers' Perceived Privacy Violations Under Different Firm Practices in Online Advertising](https://arxiv.org/abs/2403.03612) | 使用双重隐私框架研究在线广告中消费者对不同公司实践下的知觉隐私侵犯，发现不同广告实践中数据流动和消费者跟踪方式的差异会导致不同程度的隐私侵犯感受。 |
+| [^2] | [Testing for Stationary or Persistent Coefficient Randomness in Predictive Regressions.](http://arxiv.org/abs/2309.04926) | 本研究考虑了预测回归中系数随机性的检验，并发现在随机系数的持久性方面会影响各种检验的功效。我们建议在实际应用中根据潜在随机系数的持久性选择最合适的检验方法。 |
+| [^3] | [Quasi Maximum Likelihood Estimation of High-Dimensional Factor Models.](http://arxiv.org/abs/2303.11777) | 本文回顾了高维时间序列面板的因子模型的拟极大似然估计，特别是当允许偏离截面和时间上相关时，细微的异质成分的相关，我们展示了因子模型具有维度的优势属性。 |
+| [^4] | [Binary Mechanisms under Privacy-Preserving Noise.](http://arxiv.org/abs/2301.06967) | 这项研究探讨了在个体代理人的报告偏好经过隐私保护的噪声转换后进行公共物品供应的机制设计，并研究了保留公共决策、追求效率以及减轻噪声对收入影响之间的权衡。 |
+| [^5] | [Robust Design and Evaluation of Predictive Algorithms under Unobserved Confounding.](http://arxiv.org/abs/2212.09844) | 本文提出了一种统一的方法来设计和评估在存在未观察到的混淆数据中的预测算法，通过对预测性能估计量的边界进行去偏倚的机器学习估计，从而解决了预测算法在选择性观察情境中的问题。 |
+| [^6] | [Information-theoretic limitations of data-based price discrimination.](http://arxiv.org/abs/2204.12723) | 本文研究基于数据的价格歧视，揭示了任何基于数据的定价策略在收入生成方面的信息论限制，提出了新的经验收益最大化（ERM）策略，并实现了最优收敛速率。 |
+| [^7] | [Tiebout Meets Schelling Online: Sorting in Cybercommunities.](http://arxiv.org/abs/2110.05608) | 本文研究了在线社群中的分类问题，发现隔离发生与群体比例和数量的组合相关，建议优化策略是使两个群体所选的平台质量相同。 |
 
 # 详细
 
-[^1]: 在错误可预测时对反事实结果进行插补
+[^1]: 使用双重隐私框架理解在线广告中消费者对不同公司实践下的知觉隐私侵犯
 
-    Imputation of Counterfactual Outcomes when the Errors are Predictable
+    Using the Dual-Privacy Framework to Understand Consumers' Perceived Privacy Violations Under Different Firm Practices in Online Advertising
 
-    [https://arxiv.org/abs/2403.08130](https://arxiv.org/abs/2403.08130)
+    [https://arxiv.org/abs/2403.03612](https://arxiv.org/abs/2403.03612)
 
-    提出了一种当误差相关时的潜在结果的改进预测器，不限于线性模型，可改善大类强混合误差过程的均方误差。
-
-    
-
-    因果推断的关键输入是插补的反事实结果。插补错误可能源自于使用未处理观测值估计预测模型的抽样不确定性，或源自未被模型捕捉的样本外信息。尽管文献集中于抽样不确定性，但它随着样本量消失。经常被忽视的是样本外误差如果是相互或序列相关的话，可能对缺失的反事实结果具有信息性。在时间序列设置中，受Goldberger (1962)的最佳线性无偏预测器（\blup）的启发，我们提出了一种改进的预测器，用于当误差相关时的潜在结果。所提出的\pup\;在实践中非常实用，因为它不限于线性模型，可以与已经开发的一致估计器一起使用，并改善了大类强混合误差过程的均方误差。
-
-    arXiv:2403.08130v1 Announce Type: new  Abstract: A crucial input into causal inference is the imputed counterfactual outcome.   Imputation error can arise because of sampling uncertainty from estimating the prediction model using the untreated observations, or from out-of-sample information not captured by the model. While the literature has focused on sampling uncertainty, it vanishes with the sample size. Often overlooked is the possibility that the out-of-sample error can be informative about the missing counterfactual outcome if it is mutually or serially correlated. Motivated by the best linear unbiased predictor (\blup) of \citet{goldberger:62} in a time series setting, we propose an improved predictor of potential outcome when the errors are correlated. The proposed \pup\; is practical as it is not restricted to linear models,   can be used with consistent estimators already developed, and improves mean-squared error for a large class of strong mixing error processes. Ignoring p
-    
-[^2]: 人际信任：具有多智能体学习的随机协调博弈的渐近分析
-
-    Interpersonal trust: Asymptotic analysis of a stochastic coordination game with multi-agent learning
-
-    [https://arxiv.org/abs/2402.03894](https://arxiv.org/abs/2402.03894)
-
-    本研究探讨了一群智能体的人际信任，发现随着时间推移，整个群体要么始终合作，要么始终背叛。通过模拟实验发现，智能体的记忆和群体规模对结果产生影响。研究结果表明，不同的群体可能会因为机会的原因而趋向于高或低信任状态，但社会背景也会起到重要作用。
+    使用双重隐私框架研究在线广告中消费者对不同公司实践下的知觉隐私侵犯，发现不同广告实践中数据流动和消费者跟踪方式的差异会导致不同程度的隐私侵犯感受。
 
     
 
-    我们研究了一群智能体的人际信任，探讨了机会是否会决定一个群体最终是处于高信任还是低信任状态。我们用离散时间、随机匹配的协调博弈模型来建模。智能体对邻居的行为采用指数平滑学习规则。我们发现，随着时间推移，整个群体要么始终合作，要么始终背叛，这种情况以概率1发生。通过模拟，我们研究了游戏中收益分布和指数平滑学习（智能体的记忆）的影响。我们发现，随着智能体记忆的增加或群体规模的增加，实际动态开始与过程的期望相似。我们得出结论，不同的群体可能仅仅是由于机会的原因而收敛到高或低信任的状态，尽管游戏参数（社会背景）可能起着重要作用。
+    针对收集和使用个人数据的隐私问题，在线广告行业一直在开发隐私增强技术（PETs），例如谷歌的隐私沙箱计划。本研究利用双重隐私框架来理解消费者对当前和提议的在线广告实践的知觉隐私侵犯（PPVs）。关键思路是，不同实践在个体数据是否离开消费者的设备以及如何跟踪和定位消费者上存在差异；这些不同影响隐私偏好的内在和工具组成部分，在不同实践下导致不同的PPVs。我们进行了针对美国消费者的在线研究，以获取不同广告实践中的PPVs。我们的发现证实了跟踪...
 
-    We study the interpersonal trust of a population of agents, asking whether chance may decide if a population ends up in a high trust or low trust state. We model this by a discrete time, random matching stochastic coordination game. Agents are endowed with an exponential smoothing learning rule about the behaviour of their neighbours. We find that, with probability one in the long run the whole population either always cooperates or always defects. By simulation we study the impact of the distributions of the payoffs in the game and of the exponential smoothing learning (memory of the agents). We find, that as the agent memory increases or as the size of the population increases, the actual dynamics start to resemble the expectation of the process. We conclude that it is indeed possible that different populations may converge upon high or low trust between its citizens simply by chance, though the game parameters (context of the society) may be quite telling.
+    arXiv:2403.03612v1 Announce Type: new  Abstract: In response to privacy concerns about collecting and using personal data, the online advertising industry has been developing privacy-enhancing technologies (PETs), e.g., under Google's Privacy Sandbox initiative. In this research, we use the dual-privacy framework, which postulates that consumers have intrinsic and instrumental preferences for privacy, to understand consumers' perceived privacy violations (PPVs) for current and proposed online advertising practices. The key idea is that different practices differ in whether individual data leaves the consumer's machine or not and in how they track and target consumers; these affect, respectively, the intrinsic and instrumental components of privacy preferences differently, leading to different PPVs for different practices. We conducted online studies focused on consumers in the United States to elicit PPVs for various advertising practices. Our findings confirm the intuition that tracki
     
-[^3]: 印度儿童免疫计划对收入和消费支出的长期影响：评述
+[^2]: 预测回归中固定系数随机性的检验：稳态与持久性系数的影响
 
-    Long-term Effects of India's Childhood Immunization Program on Earnings and Consumption Expenditure: Comment. (arXiv:2401.11100v1 [econ.GN])
+    Testing for Stationary or Persistent Coefficient Randomness in Predictive Regressions. (arXiv:2309.04926v1 [econ.EM])
 
-    [http://arxiv.org/abs/2401.11100](http://arxiv.org/abs/2401.11100)
+    [http://arxiv.org/abs/2309.04926](http://arxiv.org/abs/2309.04926)
 
-    Summan, Nandi, and Bloom发现，印度通用免疫计划对婴儿的免疫暴露对其成年后的周薪和人均家庭消费有正向影响。然而，他们的研究结果可能受到年龄和出生年份这两个相关变量的影响，且可能与调查期间的趋势相关。
-
-    
-
-    Summan、Nandi和Bloom（2023；SNB）发现，晚期八十年代印度婴儿接受印度通用免疫计划（UIP）的暴露使其早期成年时的周薪增加了0.138个对数点，人均家庭消费增加了0.028个点。但这些结果是通过回归年龄和出生年份这两个变量得出的，而这两个变量构造时几乎是共线的。因此，这些结果可以归因于一年调查期间的趋势，如通货膨胀。随机化实验表明，当真实影响为零时，SNB估计器的平均值为0.088个点（工资）和0.039个点（消费）。
-
-    Summan, Nandi, and Bloom (2023; SNB) finds that exposure of babies to India's Universal Immunization Programme (UIP) in the late 1980s increased their weekly wages in early adulthood by 0.138 log points and per-capita household consumption 0.028 points. But the results are attained by regressing on age, in years, while controlling for year of birth--two variables that, as constructed, are nearly collinear. The results are therefore attributable to trends during the one-year survey period, such as inflation. A randomization exercise shows that when the true impacts are zero, the SNB estimator averages 0.088 points for wages and 0.039 points for consumption.
-    
-[^4]: 数据驱动的截断实现变异的固定点调整方法
-
-    Data-Driven Fixed-Point Tuning for Truncated Realized Variations. (arXiv:2311.00905v1 [math.ST])
-
-    [http://arxiv.org/abs/2311.00905](http://arxiv.org/abs/2311.00905)
-
-    本文提出了一种基于数据驱动的截断实现变异的固定点调整方法，有效估计积分波动性。
+    本研究考虑了预测回归中系数随机性的检验，并发现在随机系数的持久性方面会影响各种检验的功效。我们建议在实际应用中根据潜在随机系数的持久性选择最合适的检验方法。
 
     
 
-    在估计存在跳跃的半鞅的积分波动性和相关泛函时，许多方法需要指定调整参数的使用。在现有的理论中，调整参数被假设为确定性的，并且其值仅在渐近约束条件下指定。然而，在实证研究和模拟研究中，它们通常被选择为随机和数据相关的，实际上仅依赖于启发式方法。在本文中，我们考虑了一种基于一种随机固定点迭代的半鞅带跳跃的截断实现变异的新颖数据驱动调整程序。我们的方法是高度自动化的，可以减轻关于调整参数的微妙决策的需求，并且可以仅使用关于采样频率的信息进行实施。我们展示了我们的方法可以导致渐进有效的积分波动性估计，并展示了其在
+    本研究考虑了预测回归中系数随机性的检验。我们关注系数随机性检验在随机系数的持久性方面的影响。我们发现，当随机系数是稳态的或I(0)时，Nyblom的LM检验在功效上不是最优的，这一点已经针对集成或I(1)随机系数的备择假设得到了证实。我们通过构建一些在随机系数为稳态时具有更高功效的检验来证明这一点，尽管在随机系数为集成时，这些检验在功效上被LM检验所支配。这意味着在不同的背景下，系数随机性的最佳检验是不同的，从而实证研究者应该考虑潜在随机系数的持久性，并相应地选择多个检验。特别是，我们通过理论和数值研究表明，LM检验与一种Wald型检验的乘积是一个较好的检验方法。
 
-    Many methods for estimating integrated volatility and related functionals of semimartingales in the presence of jumps require specification of tuning parameters for their use. In much of the available theory, tuning parameters are assumed to be deterministic, and their values are specified only up to asymptotic constraints. However, in empirical work and in simulation studies, they are typically chosen to be random and data-dependent, with explicit choices in practice relying on heuristics alone. In this paper, we consider novel data-driven tuning procedures for the truncated realized variations of a semimartingale with jumps, which are based on a type of stochastic fixed-point iteration. Being effectively automated, our approach alleviates the need for delicate decision-making regarding tuning parameters, and can be implemented using information regarding sampling frequency alone. We show our methods can lead to asymptotically efficient estimation of integrated volatility and exhibit 
+    This study considers tests for coefficient randomness in predictive regressions. Our focus is on how tests for coefficient randomness are influenced by the persistence of random coefficient. We find that when the random coefficient is stationary, or I(0), Nyblom's (1989) LM test loses its optimality (in terms of power), which is established against the alternative of integrated, or I(1), random coefficient. We demonstrate this by constructing tests that are more powerful than the LM test when random coefficient is stationary, although these tests are dominated in terms of power by the LM test when random coefficient is integrated. This implies that the best test for coefficient randomness differs from context to context, and practitioners should take into account the persistence of potentially random coefficient and choose from several tests accordingly. In particular, we show through theoretical and numerical investigations that the product of the LM test and a Wald-type test proposed
     
-[^5]: 大型近似因子模型中主成分和准极大似然估计量的渐近等价性分析
+[^3]: 高维因子模型的拟极大似然估计
 
-    Asymptotic equivalence of Principal Component and Quasi Maximum Likelihood estimators in Large Approximate Factor Models. (arXiv:2307.09864v1 [econ.EM])
+    Quasi Maximum Likelihood Estimation of High-Dimensional Factor Models. (arXiv:2303.11777v1 [econ.EM])
 
-    [http://arxiv.org/abs/2307.09864](http://arxiv.org/abs/2307.09864)
+    [http://arxiv.org/abs/2303.11777](http://arxiv.org/abs/2303.11777)
 
-    在大型近似因子模型中，我们证明主成分估计的因子载荷与准极大似然估计的载荷等价，同时这两种估计也与不可行最小二乘估计的载荷等价。我们还证明了准极大似然估计的协方差矩阵与不可行最小二乘的协方差矩阵等价，从而可以简化准极大似然估计的置信区间的估计过程。所有结果都适用于假设异方差跨截面的一般情况。
-
-    
-
-    我们证明在一个$n$维的稳定时间序列向量的近似因子模型中，通过主成分估计的因子载荷在$n\to\infty$时与准极大似然估计得到的载荷等价。这两种估计量在$n\to\infty$时也与如果观察到因子时的不可行最小二乘估计等价。我们还证明了准极大似然估计的渐近协方差矩阵的传统三明治形式与不可行最小二乘的简单渐近协方差矩阵等价。这提供了一种简单的方法来估计准极大似然估计的渐近置信区间，而不需要估计复杂的海森矩阵和费谢尔信息矩阵。所有结果均适用于假设异方差跨截面的一般情况。
-
-    We prove that in an approximate factor model for an $n$-dimensional vector of stationary time series the factor loadings estimated via Principal Components are asymptotically equivalent, as $n\to\infty$, to those estimated by Quasi Maximum Likelihood. Both estimators are, in turn, also asymptotically equivalent, as $n\to\infty$, to the unfeasible Ordinary Least Squares estimator we would have if the factors were observed. We also show that the usual sandwich form of the asymptotic covariance matrix of the Quasi Maximum Likelihood estimator is asymptotically equivalent to the simpler asymptotic covariance matrix of the unfeasible Ordinary Least Squares. This provides a simple way to estimate asymptotic confidence intervals for the Quasi Maximum Likelihood estimator without the need of estimating the Hessian and Fisher information matrices whose expressions are very complex. All our results hold in the general case in which the idiosyncratic components are cross-sectionally heteroskedast
-    
-[^6]: 一种关于分配和社会选择机制的可审计性理论
-
-    A Theory of Auditability for Allocation and Social Choice Mechanisms. (arXiv:2305.09314v1 [econ.TH])
-
-    [http://arxiv.org/abs/2305.09314](http://arxiv.org/abs/2305.09314)
-
-    本文为分配和社会选择问题开发了一个可审计性的通用理论，发现不同机制的审计性差异很大，立即接受机制最大可审计，而延迟接受机制最小可审计，多数表决机制也有其独特的审计性。
+    本文回顾了高维时间序列面板的因子模型的拟极大似然估计，特别是当允许偏离截面和时间上相关时，细微的异质成分的相关，我们展示了因子模型具有维度的优势属性。
 
     
 
-    在集中市场机制中，个体可能无法完全观察其他参与者的类型报告。因此，机制设计者可能会偏离承诺的机制，而个体无法检测到这些偏差。本文为分配和社会选择问题开发了一个可审计性的通用理论。我们发现着名机制的审计性之间存在明显差异：立即接受机制在某种程度上是最大可审计的，因为只有两个个体就可以检测到任何偏差，而另一方面，延迟接受机制在某种程度上是最小可审计的，因为除非某些个体拥有关于每个人报告的全部信息，否则可能会漏掉一些偏差。第一价格和第二价格拍卖机制也存在类似差异。此外，我们给出了对于社会选择问题的多数表决机制的简单描述，并评估了审计性。
+    我们回顾了高维时间序列面板的因子模型的拟极大似然估计。我们考虑了两种情况：（1）当未指定因子的动态模型时估计（Bai和Li，2016）；（2）基于Kalman平滑器和期望最大化算法的估计，从而允许显式建模因子动态（Doz等人，2012）。我们的兴趣在于近似因子模型，即当我们允许偏离截面和时间上相关时，细微的异质成分的相关。尽管这种设置似乎使估计更加困难，但我们实际上展示了因子模型没有受到维度诅咒问题的影响，反而具有维度的优势属性。特别地，我们展示了如果数据的截面维数N增长到无穷大，则：（i）模型的确认仍然是可能的，（ii）由于使用精确因子模型对数似然而导致的误规范误差会减少。
 
-    In centralized market mechanisms individuals may not fully observe other participants' type reports. Hence, the mechanism designer may deviate from the promised mechanism without the individuals being able to detect these deviations. In this paper, we develop a general theory of auditability for allocation and social choice problems. We find a stark contrast between the auditabilities of prominent mechanisms: the Immediate Acceptance mechanism is maximally auditable, in a sense that any deviation can always be detected by just two individuals, whereas, on the other extreme, the Deferred Acceptance mechanism is minimally auditable, in a sense that some deviations may go undetected unless some individuals possess full information about everyone's reports. There is a similar contrast between the first-price and the second-price auction mechanisms. Additionally, we give a simple characterization of the majority voting mechanism for social choice problems, and we evaluate the auditability o
+    We review Quasi Maximum Likelihood estimation of factor models for high-dimensional panels of time series. We consider two cases: (1) estimation when no dynamic model for the factors is specified (Bai and Li, 2016); (2) estimation based on the Kalman smoother and the Expectation Maximization algorithm thus allowing to model explicitly the factor dynamics (Doz et al., 2012). Our interest is in approximate factor models, i.e., when we allow for the idiosyncratic components to be mildly cross-sectionally, as well as serially, correlated. Although such setting apparently makes estimation harder, we show, in fact, that factor models do not suffer of the curse of dimensionality problem, but instead they enjoy a blessing of dimensionality property. In particular, we show that if the cross-sectional dimension of the data, $N$, grows to infinity, then: (i) identification of the model is still possible, (ii) the mis-specification error due to the use of an exact factor model log-likelihood vanis
+    
+[^4]: 二进制机制下的隐私保护噪声机构设计
+
+    Binary Mechanisms under Privacy-Preserving Noise. (arXiv:2301.06967v2 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2301.06967](http://arxiv.org/abs/2301.06967)
+
+    这项研究探讨了在个体代理人的报告偏好经过隐私保护的噪声转换后进行公共物品供应的机制设计，并研究了保留公共决策、追求效率以及减轻噪声对收入影响之间的权衡。
+
+    
+
+    我们研究了在个体代理人报告的偏好经过噪声保护的情况下进行公共物品供应的机制设计。该模型是一个具有转移和拟线性效用的标准二进制模型。代理人报告他们对公共物品的偏好，这些偏好会被随机“翻转”，以便任何个体报告都可以被解释为噪声的结果。我们研究了在存在噪声的情况下保留公共决策（噪声敏感性），追求效率以及减轻噪声对收入的影响之间的平衡。
+
+    We study mechanism design for public-good provision under a noisy privacy-preserving transformation of individual agents' reported preferences. The setting is a standard binary model with transfers and quasi-linear utility. Agents report their preferences for the public good, which are randomly ``flipped,'' so that any individual report may be explained away as the outcome of noise. We study the tradeoffs between preserving the public decisions made in the presence of noise (noise sensitivity), pursuing efficiency, and mitigating the effect of noise on revenue.
+    
+[^5]: 在未观察到的混淆下，预测算法的鲁棒设计和评估
+
+    Robust Design and Evaluation of Predictive Algorithms under Unobserved Confounding. (arXiv:2212.09844v4 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2212.09844](http://arxiv.org/abs/2212.09844)
+
+    本文提出了一种统一的方法来设计和评估在存在未观察到的混淆数据中的预测算法，通过对预测性能估计量的边界进行去偏倚的机器学习估计，从而解决了预测算法在选择性观察情境中的问题。
+
+    
+
+    预测算法在人类决策者作出选择后选择性地观察到结果的情境中进行重要决策。通常存在着未观察到的混淆因素影响决策者的选择和结果。我们提出了一种统一的方法，用于在存在未观察到的混淆数据下对预测算法进行鲁棒设计和评估。我们的方法对于预测算法的条件平均结果在已观察到的协变量和已识别的干扰参数上可能的变化程度提出了一般性的假设，从而形式化了用于填充缺失数据的常用实证策略，如代理结果和工具变量。我们开发了去偏倚的机器学习估计器，用于对大类预测性能估计量的边界，例如结果的条件似然、预测算法的均方误差、真/假阳性率等等。
+
+    Predictive algorithms inform consequential decisions in settings where the outcome is selectively observed given some choices made by human decision makers. There often exists unobserved confounders that affected the decision maker's choice and the outcome. We propose a unified methodology for the robust design and evaluation of predictive algorithms in selectively observed data under such unobserved confounding. Our approach imposes general assumptions on how much the outcome may vary on average between unselected and selected units conditional on observed covariates and identified nuisance parameters, formalizing popular empirical strategies for imputing missing data such as proxy outcomes and instrumental variables. We develop debiased machine learning estimators for the bounds on a large class of predictive performance estimands, such as the conditional likelihood of the outcome, a predictive algorithm's mean square error, true/false positive rate, and many others, under these assu
+    
+[^6]: 基于数据的价格歧视的信息论限制研究
+
+    Information-theoretic limitations of data-based price discrimination. (arXiv:2204.12723v3 [cs.GT] UPDATED)
+
+    [http://arxiv.org/abs/2204.12723](http://arxiv.org/abs/2204.12723)
+
+    本文研究基于数据的价格歧视，揭示了任何基于数据的定价策略在收入生成方面的信息论限制，提出了新的经验收益最大化（ERM）策略，并实现了最优收敛速率。
+
+    
+
+    本文研究了基于估值和外生变量数据随机样本的第三度价格歧视（3PD），其中外生变量是连续的，数据分布对卖方来说是未知的。本文的主要结果有两个方面。第一组结果是定价策略无关的，揭示了任何基于数据的定价策略在收入生成方面的信息论限制，分为3PD和均匀定价两种情况。第二组结果提出了$K$-markets经验收益最大化（ERM）策略，并显示$K$-markets ERM和均匀ERM策略实现了收入收敛到各自真实分布3PD和均匀定价最优解的最优收敛速率。我们的理论和数值结果表明，当样本量足够小的时候，均匀（即$1$-market）ERM策略产生的收入比$K$-markets ERM策略更高，反之亦然。
+
+    This paper studies third-degree price discrimination (3PD) based on a random sample of valuation and covariate data, where the covariate is continuous, and the distribution of the data is unknown to the seller. The main results of this paper are twofold. The first set of results is pricing strategy independent and reveals the fundamental information-theoretic limitation of any data-based pricing strategy in revenue generation for two cases: 3PD and uniform pricing. The second set of results proposes the $K$-markets empirical revenue maximization (ERM) strategy and shows that the $K$-markets ERM and the uniform ERM strategies achieve the optimal rate of convergence in revenue to that generated by their respective true-distribution 3PD and uniform pricing optima. Our theoretical and numerical results suggest that the uniform (i.e., $1$-market) ERM strategy generates a larger revenue than the $K$-markets ERM strategy when the sample size is small enough, and vice versa.
+    
+[^7]: Tiebout meets Schelling online: 网络社群中的分类
+
+    Tiebout Meets Schelling Online: Sorting in Cybercommunities. (arXiv:2110.05608v2 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2110.05608](http://arxiv.org/abs/2110.05608)
+
+    本文研究了在线社群中的分类问题，发现隔离发生与群体比例和数量的组合相关，建议优化策略是使两个群体所选的平台质量相同。
+
+    
+
+    本文提出了一个简化的模型来解决在线分类的问题。有两个大型的同质群体。每个人都必须在两个在线平台之间选择，其中一个平台拥有更好的便利设施。每个人都喜欢在网上与属于自己群体的人互动，但不喜欢与异类在同一个平台上。与居住区分类的Tiebout模型不同，两个平台都有无限容量，所以任何时候都可以任意更换。我们发现，一个在线平台从集成到隔离的转变是由当前的Schelling比率和每个平台上的每个群体的绝对数量的组合所引起的。也就是说，重要的是引起转变的集合而不是临界点。在某些情况下，一个群体从一个平台的逃逸可以被另一个群体比例的改变所触发，使那些离开的人变得更有利。如果希望在两个社群之间进行在线整合，那么最佳政策是明确的：使每个人的首选平台的质量都相同。
+
+    This paper proposes a stylised model to address the issue of online sorting. There are two large homogeneous groups of individuals. Everyone must choose between two online platforms, one of which has superior amenities. Each individual enjoys interacting online with those from their own group but dislikes being on the same platform as those in the other group. Unlike a Tiebout model of residential sorting, both platforms have unlimited capacity so at any moment anyone is free to switch. We find that an online platform is tipped from integrated to segregated by a combination of the current Schelling ratio and the absolute numbers of each group on each platform. That is, it is tipping sets and not tipping points that matter. In certain cases, the flight of one group from a platform can be triggered by a change in the group ratio in favor of those in the group that leave. If online integration of the two communities is the desired outcome then the optimal policy is clear: make the preferr
     
 
