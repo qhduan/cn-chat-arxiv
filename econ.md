@@ -2,112 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Economic DAO Governance: A Contestable Control Approach](https://arxiv.org/abs/2403.16980) | 提出了一种利用顺序拍卖机制的经济DAO治理新方法，解决了DAO面临的控制问题，既避免了公共选择问题，又能促进价值增长和投资。 |
-| [^2] | [Labor Market Effects of the Venezuelan Refugee Crisis in Brazil](https://arxiv.org/abs/2302.04201) | 巴西委内瑞拉难民危机对罗赖马州劳动力市场的影响表明，虽然巴西人的月工资增加约2％，但主要受无难民参与的部门和职业影响，同时非正规市场中的移民抵消了正规市场的替代效应。 |
-| [^3] | [Real-time Prediction of the Great Recession and the Covid-19 Recession.](http://arxiv.org/abs/2310.08536) | 本研究使用罚函数逻辑回归模型对美国的大衰退和COVID-19衰退进行了实时预测，结果表明在衰退预测领域应用罚函数逻辑回归模型能够取得更高的预测准确性。 |
-| [^4] | [On Optimal Set Estimation for Partially Identified Binary Choice Models.](http://arxiv.org/abs/2310.02414) | 本文重新考虑了部分识别模型估计中的最优性概念，并提出了在所有设计中收敛于识别区域的替代方法。 |
-| [^5] | [Coarse Information Design.](http://arxiv.org/abs/2305.18020) | 该论文研究了具有连续状态和离散信号空间的信息设计问题，在凸价值函数下，最优信息结构是区间分段的，同时在对数凸环境中，信息会变得更加粗糙。 |
-| [^6] | [Optimism and overconfidence.](http://arxiv.org/abs/2304.08343) | 本文重新审视了标准的道德风险模型，提出了乐观和过度自信的定义，并表征这些定义与该模型参数的关系。 |
-| [^7] | [Power sector effects of alternative options for electrifying heavy-duty vehicles: go electric, and charge smartly.](http://arxiv.org/abs/2303.16629) | 研究了电动公路系统和电池电动车的替代方案对于电力部门的影响，发现可灵活充电的车辆共享BEV的电力部门成本最低，而使用电力燃料的重型车辆的成本最高。 |
+| [^1] | [Comprehensive OOS Evaluation of Predictive Algorithms with Statistical Decision Theory](https://arxiv.org/abs/2403.11016) | 使用统计决策理论（SDT）进行全面的样本外（OOS）评估，取代当前机器学习（ML）研究中常见的K-fold和公共任务框架验证方法。 |
+| [^2] | [Towards Generalizing Inferences from Trials to Target Populations](https://arxiv.org/abs/2402.17042) | 本研究在试图解决从试验结果推广到目标种群的外部有效性挑战方面取得了重要进展 |
+| [^3] | [Characteristics and Predictive Modeling of Short-term Impacts of Hurricanes on the US Employment.](http://arxiv.org/abs/2307.13686) | 本研究研究了美国飓风影响后的短期就业变化，发现初始月份的县级就业变化平均较小，但在极端风暴之后可能出现大规模的就业损失。风暴后就业冲击与风暴危害指标和影响的地理空间细节呈负相关，并且非风暴因素也强烈影响短期就业变化。 |
+| [^4] | [Long Story Short: Omitted Variable Bias in Causal Machine Learning.](http://arxiv.org/abs/2112.13398) | 在因果机器学习中，我们通过推导出遗漏变量偏差的尖锐上界，为广泛的线性泛函因果参数提供了一种简单而通用的方法。这种方法可以应用于许多传统的因果推断研究目标，并且仅取决于潜变量在结果和参数的Riesz表示器中所导致的额外变异。 |
 
 # 详细
 
-[^1]: 经济DAO治理：一种可争夺控制方法
+[^1]: 预测算法的全面OOS评估与统计决策理论
 
-    Economic DAO Governance: A Contestable Control Approach
+    Comprehensive OOS Evaluation of Predictive Algorithms with Statistical Decision Theory
 
-    [https://arxiv.org/abs/2403.16980](https://arxiv.org/abs/2403.16980)
+    [https://arxiv.org/abs/2403.11016](https://arxiv.org/abs/2403.11016)
 
-    提出了一种利用顺序拍卖机制的经济DAO治理新方法，解决了DAO面临的控制问题，既避免了公共选择问题，又能促进价值增长和投资。
-
-    
-
-    在本文中，我们提出了一种新形式的DAO治理，利用顺序拍卖机制来克服DAO出现的根深蒂固的控制问题，通过创建一个临时可争夺控制的制度。这种机制避免了投票方法固有的潜在公共选择问题，同时提供了一个可以增强和确保DAO投票和其他DAO非市场治理程序固有价值的工具。它对空头投票具有鲁棒性，且代码可行。它促进了DAO在面对不同监管方法时实现其规范和运营目标的能力。设计是将控制权转移给拥有最有前途商业计划的一方，同时以一种有利于促进其他方投资的方式分配剩余价值。
-
-    arXiv:2403.16980v1 Announce Type: cross  Abstract: In this article, we propose a new form of DAO governance that uses a sequential auction mechanism to overcome entrenched control issues that have emerged for DAOs by creating a regime of temporary contestable control. The mechanism avoids potential public choice problems inherent in voting approaches but at the same time provides a vehicle that can enhance and secure value than inheres to DAO voting and other DAO non-market governance procedures. It is robust to empty voting and is code feasible. It facilitates the ability of DAOs to meet their normative and operational goals in the face of diverse regulatory approaches. Designed to shift control to the party with the most promising business plan, at the same time it distributes surplus in a way that tends to promote investment by other parties.
-    
-[^2]: 巴西委内瑞拉难民危机对劳动力市场的影响
-
-    Labor Market Effects of the Venezuelan Refugee Crisis in Brazil
-
-    [https://arxiv.org/abs/2302.04201](https://arxiv.org/abs/2302.04201)
-
-    巴西委内瑞拉难民危机对罗赖马州劳动力市场的影响表明，虽然巴西人的月工资增加约2％，但主要受无难民参与的部门和职业影响，同时非正规市场中的移民抵消了正规市场的替代效应。
+    使用统计决策理论（SDT）进行全面的样本外（OOS）评估，取代当前机器学习（ML）研究中常见的K-fold和公共任务框架验证方法。
 
     
 
-    我们利用巴西正式工人普遍使用的行政面板数据，研究了委内瑞拉危机对巴西劳动力市场的影响，重点关注边境州罗赖马。差异处理结果表明，罗赖马州的巴西人月工资增长了约2％，主要是由那些从事没有难民参与的部门和职业的人驱动的。研究发现，巴西人几乎没有失业，但发现本地工人转移到没有移民的职业。我们还发现，非正规市场中的移民抵消了正规市场中的替代效应。
+    我们认为，应当使用统计决策理论（SDT）进行全面的样本外（OOS）评估，取代机器学习（ML）研究中当前的K-fold和公共任务框架验证的做法。SDT为在所有可能的（1）训练样本、（2）可能生成训练数据的人群和（3）预测利益人群之间进行全面的OOS评估提供了一个形式化框架。关于特征（3），我们强调SDT要求从业者直接面对未来可能不同于过去的可能性，并在构建预测算法时考虑从一个人群推断到另一个人群的可能需要。SDT在抽象上是简单的，但在实施时往往需要大量计算。我们讨论了当预测准确性通过均方误差或误分类率衡量时，SDT的可行实施进展。
 
-    arXiv:2302.04201v2 Announce Type: replace  Abstract: We use administrative panel data on the universe of Brazilian formal workers to investigate the labor market effects of the Venezuelan crisis in Brazil, focusing on the border state of Roraima. The results using difference-in-differences show that the monthly wages of Brazilians in Roraima increased by around 2 percent, which was mostly driven by those working in sectors and occupations with no refugee involvement. The study finds negligible job displacement for Brazilians but finds evidence of native workers moving to occupations without immigrants. We also find that immigrants in the informal market offset the substitution effects in the formal market.
+    arXiv:2403.11016v1 Announce Type: new  Abstract: We argue that comprehensive out-of-sample (OOS) evaluation using statistical decision theory (SDT) should replace the current practice of K-fold and Common Task Framework validation in machine learning (ML) research. SDT provides a formal framework for performing comprehensive OOS evaluation across all possible (1) training samples, (2) populations that may generate training data, and (3) populations of prediction interest. Regarding feature (3), we emphasize that SDT requires the practitioner to directly confront the possibility that the future may not look like the past and to account for a possible need to extrapolate from one population to another when building a predictive algorithm. SDT is simple in abstraction, but it is often computationally demanding to implement. We discuss progress in tractable implementation of SDT when prediction accuracy is measured by mean square error or by misclassification rate. We summarize research st
     
-[^3]: 实时预测大衰退和COVID-19衰退的研究
+[^2]: 通向从试验推广推理到目标种群的泛化
 
-    Real-time Prediction of the Great Recession and the Covid-19 Recession. (arXiv:2310.08536v1 [econ.EM])
+    Towards Generalizing Inferences from Trials to Target Populations
 
-    [http://arxiv.org/abs/2310.08536](http://arxiv.org/abs/2310.08536)
+    [https://arxiv.org/abs/2402.17042](https://arxiv.org/abs/2402.17042)
 
-    本研究使用罚函数逻辑回归模型对美国的大衰退和COVID-19衰退进行了实时预测，结果表明在衰退预测领域应用罚函数逻辑回归模型能够取得更高的预测准确性。
-
-    
-
-    本研究使用一系列标准和罚函数逻辑回归模型对美国的大衰退和COVID-19衰退进行建模和预测。通过密切观察五个选择的预测因子的变动、它们的回归系数和衰退的预测概率来审视这两个衰退。实证分析探讨了众多宏观经济和金融指标对于NBER衰退指标的预测内容。使用一组统计评估指标评估了底层模型的预测能力。结果强烈支持在衰退预测领域应用罚函数逻辑回归模型。具体而言，分析表明，在美国大衰退的预测中，不同预测时间范围内混合使用不同的罚函数逻辑回归模型的效果要明显优于标准逻辑回归模型，因为它们实现了更高的预测准确性。
-
-    A series of standard and penalized logistic regression models is employed to model and forecast the Great Recession and the Covid-19 recession in the US. These two recessions are scrutinized by closely examining the movement of five chosen predictors, their regression coefficients, and the predicted probabilities of recession. The empirical analysis explores the predictive content of numerous macroeconomic and financial indicators with respect to NBER recession indicator. The predictive ability of the underlying models is evaluated using a set of statistical evaluation metrics. The results strongly support the application of penalized logistic regression models in the area of recession prediction. Specifically, the analysis indicates that a mixed usage of different penalized logistic regression models over different forecast horizons largely outperform standard logistic regression models in the prediction of Great recession in the US, as they achieve higher predictive accuracy across 5
-    
-[^4]: 关于部分识别二项选择模型的最优集估计
-
-    On Optimal Set Estimation for Partially Identified Binary Choice Models. (arXiv:2310.02414v1 [econ.EM])
-
-    [http://arxiv.org/abs/2310.02414](http://arxiv.org/abs/2310.02414)
-
-    本文重新考虑了部分识别模型估计中的最优性概念，并提出了在所有设计中收敛于识别区域的替代方法。
+    本研究在试图解决从试验结果推广到目标种群的外部有效性挑战方面取得了重要进展
 
     
 
-    在本文中，我们重新考虑了部分识别模型估计中的最优性概念。我们以半参数二项选择模型为例，以离散协变量作为示例，说明了一般问题。该模型在一定程度上是部分识别的，例如Bierens和Hartog（1988）所示。通过实施Manski（1975）提出的最大分数程序，可以构建模型中回归系数的集合估计。对于许多设计，该方法收敛于这些参数的识别集，因此在某种意义上是最优的。但是，正如Komarova（2013）所示，对于其他情况，最大分数目标函数给出了识别集的边界区域。这激发了寻求其他优化方法的动力，这些方法在所有设计中都收敛于识别区域，并且我们提出并比较了这些方法。一个是Hodges类型的估计器，将最大分数估计器与现有程序相结合。第二个是两步法
+    随机对照试验（RCTs）在产生内部有效估计方面起着至关重要的作用，而对扩展这些发现以获得外部有效估计至关重要，以促进更广泛的科学探究。本文探讨了应对这些外部有效性挑战的前沿，概括了2023年秋季在布朗大学计算与实验数学研究所（ICERM）举行的一次跨学科研讨会的精华。该研讨会汇集了来自社会科学、医学、公共卫生、统计学、计算机科学和教育等各个领域的专家，以解决每个学科在推断实验结果方面面临的独特障碍。我们的研究提出了三个关键贡献：我们整合正在进行的努力，突出了
 
-    In this paper we reconsider the notion of optimality in estimation of partially identified models. We illustrate the general problem in the context of a semiparametric binary choice model with discrete covariates as an example of a model which is partially identified as shown in, e.g. Bierens and Hartog (1988). A set estimator for the regression coefficients in the model can be constructed by implementing the Maximum Score procedure proposed by Manski (1975). For many designs this procedure converges to the identified set for these parameters, and so in one sense is optimal. But as shown in Komarova (2013) for other cases the Maximum Score objective function gives an outer region of the identified set. This motivates alternative methods that are optimal in one sense that they converge to the identified region in all designs, and we propose and compare such procedures. One is a Hodges type estimator combining the Maximum Score estimator with existing procedures. A second is a two step e
+    arXiv:2402.17042v1 Announce Type: cross  Abstract: Randomized Controlled Trials (RCTs) are pivotal in generating internally valid estimates with minimal assumptions, serving as a cornerstone for researchers dedicated to advancing causal inference methods. However, extending these findings beyond the experimental cohort to achieve externally valid estimates is crucial for broader scientific inquiry. This paper delves into the forefront of addressing these external validity challenges, encapsulating the essence of a multidisciplinary workshop held at the Institute for Computational and Experimental Research in Mathematics (ICERM), Brown University, in Fall 2023. The workshop congregated experts from diverse fields including social science, medicine, public health, statistics, computer science, and education, to tackle the unique obstacles each discipline faces in extrapolating experimental findings. Our study presents three key contributions: we integrate ongoing efforts, highlighting me
     
-[^5]: 粗糙的信息设计
+[^3]: 美国就业短期受飓风影响的特征和预测建模
 
-    Coarse Information Design. (arXiv:2305.18020v1 [econ.TH])
+    Characteristics and Predictive Modeling of Short-term Impacts of Hurricanes on the US Employment. (arXiv:2307.13686v1 [econ.EM])
 
-    [http://arxiv.org/abs/2305.18020](http://arxiv.org/abs/2305.18020)
+    [http://arxiv.org/abs/2307.13686](http://arxiv.org/abs/2307.13686)
 
-    该论文研究了具有连续状态和离散信号空间的信息设计问题，在凸价值函数下，最优信息结构是区间分段的，同时在对数凸环境中，信息会变得更加粗糙。
-
-    
-
-    我们研究了一个具有连续状态和离散信号空间的信息设计问题。我们发现设计者的中间价值函数仅通过其曲率影响解决方案。先验分布与边际价值函数之间存在对偶关系。在凸价值函数下，最优信息结构是区间分段的。此外，在对数凸环境中，一个审查中心将出现并且对于远离它的状态，信息变得更粗糙。我们确定了审查中心并提供了对于先验分布和价值函数来说信息结构的比较静态分析。该分析可扩展到S形价值函数。
-
-    We study an information design problem with continuous state and discrete signal space. We find that the designer's interim value function affects the solution only through its curvature. There is a dual relation between the prior distribution and the marginal value function. Under convex value functions, the optimal information structure is interval-partitional. Moreover, in logconcave environments, a center of scrutiny emerges and information becomes coarser for states farther from it. We locate the scrutiny center and provide comparative statics on information structure with respect to prior distributions and value functions. The analysis can be extended to S-shaped value functions.
-    
-[^6]: 乐观与过度自信（经济学模型方面）
-
-    Optimism and overconfidence. (arXiv:2304.08343v1 [econ.TH])
-
-    [http://arxiv.org/abs/2304.08343](http://arxiv.org/abs/2304.08343)
-
-    本文重新审视了标准的道德风险模型，提出了乐观和过度自信的定义，并表征这些定义与该模型参数的关系。
+    本研究研究了美国飓风影响后的短期就业变化，发现初始月份的县级就业变化平均较小，但在极端风暴之后可能出现大规模的就业损失。风暴后就业冲击与风暴危害指标和影响的地理空间细节呈负相关，并且非风暴因素也强烈影响短期就业变化。
 
     
 
-    本文重新审视了标准道德风险模型，其中代理人对合同的偏好源于付出昂贵的努力选择。作者通过实证检验的公理来表征模型的行为内容，并展示了该模型的参数被识别。作者提出相对（过度）自信和乐观主义的一般行为定义，并按道德风险模型的参数来表征这些定义。正式结果基于一个简单而强大的洞察力：道德风险模型与众所周知的“变分”不确定性选择模型密切相关。
+    本研究研究了美国飓风影响后的短期就业变化。对1990年至2021年的飓风事件进行分析发现，初始月份的县级就业变化平均较小，但在极端风暴之后可能出现大规模的就业损失（> 30％）。整体上的小幅变动部分是不同就业部门之间的补偿结果，例如建筑业和休闲酒店业。就业损失在服务业中相对明显。风暴后就业冲击与风暴危害指标（如极端风和降水量）以及影响的地理空间细节（如风暴实体距离）呈负相关。此外，县级特征等非风暴因素也强烈影响短期就业变化。研究结果对短期就业变化的预测建模具有启示作用，特别是在服务业和高—
 
-    I revisit the standard moral-hazard model, in which an agent's preference over contracts is rooted in costly effort choice. I characterise the behavioural content of the model in terms of empirically testable axioms, and show that the model's parameters are identified. I propose general behavioural definitions of relative (over)confidence and optimism, and characterise these in terms of the parameters of the moral-hazard model. My formal results are rooted in a simple but powerful insight: that the moral-hazard model is closely related to the well-known 'variational' model of choice under uncertainty.
+    This study examines the short-term employment changes in the US after hurricane impacts. An analysis of hurricane events during 1990-2021 suggests that county-level employment changes in the initial month are small on average, though large employment losses (>30%) can occur after extreme storms. The overall small changes are partly a result of compensation among different employment sectors, such as the construction and leisure and hospitality sectors. Employment losses tend to be relatively pronounced in the service-providing industries. The post-storm employment shock is negatively correlated with the metrics of storm hazards (e.g., extreme wind and precipitation) and geospatial details of impacts (e.g., storm-entity distance). Additionally, non-storm factors such as county characteristics also strongly affect short-term employment changes. The findings inform predictive modeling of short-term employment changes, which shows promising skills for service-providing industries and high-
     
-[^7]: 重型车辆电气化的替代方案的电力部门影响:电气化和智能充电
+[^4]: 《长话短说：因果机器学习中的遗漏变量偏差》
 
-    Power sector effects of alternative options for electrifying heavy-duty vehicles: go electric, and charge smartly. (arXiv:2303.16629v1 [econ.GN])
+    Long Story Short: Omitted Variable Bias in Causal Machine Learning. (arXiv:2112.13398v4 [econ.EM] UPDATED)
 
-    [http://arxiv.org/abs/2303.16629](http://arxiv.org/abs/2303.16629)
+    [http://arxiv.org/abs/2112.13398](http://arxiv.org/abs/2112.13398)
 
-    研究了电动公路系统和电池电动车的替代方案对于电力部门的影响，发现可灵活充电的车辆共享BEV的电力部门成本最低，而使用电力燃料的重型车辆的成本最高。
+    在因果机器学习中，我们通过推导出遗漏变量偏差的尖锐上界，为广泛的线性泛函因果参数提供了一种简单而通用的方法。这种方法可以应用于许多传统的因果推断研究目标，并且仅取决于潜变量在结果和参数的Riesz表示器中所导致的额外变异。
 
     
 
-    在乘用车领域，电池电动车(BEV)已成为去碳化交通的最有前途的选择。对于重型车辆(HDV)，技术领域似乎更为开放。除了BEV外，还讨论了用于动态供电的电动公路系统(ERS)，以及使用氢燃料电池或电力燃料的卡车间接电气化。在这里，我们研究了这些替代方案的电力部门影响。我们将基于未来德国高可再生能源份额的情景，应用一个开源的容量扩展模型，利用详细的以路线为基础的卡车交通数据。结果表明，可灵活充电的车辆共享BEV的电力部门成本最低，而使用电力燃料的重型车辆的成本最高。如果BEV和ERS-BEV没有以优化的方式充电，电力部门成本会增加，但仍远低于使用氢或电力燃料的情景。这是相对较小电池、高度灵活的BEV在短途和中途步骤转移和超出道路广泛使用的优势的结果。
+    我们推导了一类广泛的因果参数的遗漏变量偏差的一般但简单的尖锐上界，这些参数可以被认定为结果的条件期望函数的线性泛函。这样的泛函包括许多因果推断研究中的传统调查目标，例如（加权）潜在结果的平均值、平均处理效应（包括子组效应，如对待处理对象的影响）、（加权）平均导数和来自协变量分布变化的策略效应 - 全部适用于一般的非参数因果模型。我们的构造依赖于目标泛函的Riesz-Fréchet表示。具体来说，我们展示了偏差上界仅取决于潜变量在结果和感兴趣参数的Riesz表示器中所创建的附加变化。此外，在许多重要情况下（例如平均处理效应和平均导数）
 
-    In the passenger car segment, battery-electric vehicles (BEV) have emerged as the most promising option to decarbonize transportation. For heavy-duty vehicles (HDV), the technology space still appears to be more open. Aside from BEV, electric road systems (ERS) for dynamic power transfer are discussed, as well as indirect electrification with trucks that use hydrogen fuel cells or e-fuels. Here we investigate the power sector implications of these alternative options. We apply an open-source capacity expansion model to future scenarios of Germany with high renewable energy shares, drawing on detailed route-based truck traffic data. Results show that power sector costs are lowest for flexibly charged BEV that also carry out vehicle-to-grid operations, and highest for HDV using e-fuels. If BEV and ERS-BEV are not charged in an optimized way, power sector costs increase, but are still substantially lower than in scenarios with hydrogen or e-fuels. This is a consequence of the relatively p
+    We derive general, yet simple, sharp bounds on the size of the omitted variable bias for a broad class of causal parameters that can be identified as linear functionals of the conditional expectation function of the outcome. Such functionals encompass many of the traditional targets of investigation in causal inference studies, such as, for example, (weighted) average of potential outcomes, average treatment effects (including subgroup effects, such as the effect on the treated), (weighted) average derivatives, and policy effects from shifts in covariate distribution -- all for general, nonparametric causal models. Our construction relies on the Riesz-Frechet representation of the target functional. Specifically, we show how the bound on the bias depends only on the additional variation that the latent variables create both in the outcome and in the Riesz representer for the parameter of interest. Moreover, in many important cases (e.g, average treatment effects and avearage derivative
     
 
