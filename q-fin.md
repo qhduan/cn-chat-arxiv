@@ -2,37 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Using the Dual-Privacy Framework to Understand Consumers' Perceived Privacy Violations Under Different Firm Practices in Online Advertising](https://arxiv.org/abs/2403.03612) | 使用双重隐私框架研究在线广告中消费者对不同公司实践下的知觉隐私侵犯，发现不同广告实践中数据流动和消费者跟踪方式的差异会导致不同程度的隐私侵犯感受。 |
-| [^2] | [Kites and Quails: Monetary Policy and Communication with Strategic Financial Markets.](http://arxiv.org/abs/2305.08958) | 研究者开发了一个简单的博弈论模型，以确定系统性金融风险与货币政策目标之间的关联。当央行的政策目标包含金融部门稳定性时，市场可能会因为政策制定者的目标偏差而产生低效率。研究者提出了通过任命一位对市场稳定性重视较小的"风筝式"央行家来解决这个问题。 |
+| [^1] | [The Sponge Cake Dilemma over the Nile: Achieving Fairness in Resource Allocation through Rawlsian Theory and Algorithms.](http://arxiv.org/abs/2310.11472) | 通过融合Rawlsian理论和算法手段，本文研究了水资源分配中的公平性问题。蛋糕切割模型在考虑战略因素的同时，寻找与Rawlsian公平原则相一致的解决方案，为解决尼罗河水资源争端提供了有价值的方法。 |
+| [^2] | [Latent Factor Analysis in Short Panels.](http://arxiv.org/abs/2306.14004) | 本研究提出了短面板中潜在因子分析的推理工具，生成似然比统计量并得出了AUMPI特征，经实证应用发现短子期特有波动率呈上升趋势。 |
+| [^3] | [Collective Arbitrage and the Value of Cooperation.](http://arxiv.org/abs/2306.11599) | 该论文提出了集体套利和集体超复制的概念，建立了对应的二元定理版本，证明了合作交易的优势。 |
+| [^4] | [Deep Learning the Efficient Frontier of Convex Vector Optimization Problems.](http://arxiv.org/abs/2205.07077) | 本文设计了一种神经网络架构，用于逼近满足Slater条件的凸向量优化问题的弱效前沿，并成功克服了维度灾难。 |
 
 # 详细
 
-[^1]: 使用双重隐私框架理解在线广告中消费者对不同公司实践下的知觉隐私侵犯
+[^1]: 尼罗河上的海绵蛋糕困境：通过Rawlsian理论和算法实现资源分配的公平性
 
-    Using the Dual-Privacy Framework to Understand Consumers' Perceived Privacy Violations Under Different Firm Practices in Online Advertising
+    The Sponge Cake Dilemma over the Nile: Achieving Fairness in Resource Allocation through Rawlsian Theory and Algorithms. (arXiv:2310.11472v1 [econ.GN])
 
-    [https://arxiv.org/abs/2403.03612](https://arxiv.org/abs/2403.03612)
+    [http://arxiv.org/abs/2310.11472](http://arxiv.org/abs/2310.11472)
 
-    使用双重隐私框架研究在线广告中消费者对不同公司实践下的知觉隐私侵犯，发现不同广告实践中数据流动和消费者跟踪方式的差异会导致不同程度的隐私侵犯感受。
-
-    
-
-    针对收集和使用个人数据的隐私问题，在线广告行业一直在开发隐私增强技术（PETs），例如谷歌的隐私沙箱计划。本研究利用双重隐私框架来理解消费者对当前和提议的在线广告实践的知觉隐私侵犯（PPVs）。关键思路是，不同实践在个体数据是否离开消费者的设备以及如何跟踪和定位消费者上存在差异；这些不同影响隐私偏好的内在和工具组成部分，在不同实践下导致不同的PPVs。我们进行了针对美国消费者的在线研究，以获取不同广告实践中的PPVs。我们的发现证实了跟踪...
-
-    arXiv:2403.03612v1 Announce Type: new  Abstract: In response to privacy concerns about collecting and using personal data, the online advertising industry has been developing privacy-enhancing technologies (PETs), e.g., under Google's Privacy Sandbox initiative. In this research, we use the dual-privacy framework, which postulates that consumers have intrinsic and instrumental preferences for privacy, to understand consumers' perceived privacy violations (PPVs) for current and proposed online advertising practices. The key idea is that different practices differ in whether individual data leaves the consumer's machine or not and in how they track and target consumers; these affect, respectively, the intrinsic and instrumental components of privacy preferences differently, leading to different PPVs for different practices. We conducted online studies focused on consumers in the United States to elicit PPVs for various advertising practices. Our findings confirm the intuition that tracki
-    
-[^2]: 风筝与鹌鹑：货币政策及其与策略性金融市场的沟通
-
-    Kites and Quails: Monetary Policy and Communication with Strategic Financial Markets. (arXiv:2305.08958v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.08958](http://arxiv.org/abs/2305.08958)
-
-    研究者开发了一个简单的博弈论模型，以确定系统性金融风险与货币政策目标之间的关联。当央行的政策目标包含金融部门稳定性时，市场可能会因为政策制定者的目标偏差而产生低效率。研究者提出了通过任命一位对市场稳定性重视较小的"风筝式"央行家来解决这个问题。
+    通过融合Rawlsian理论和算法手段，本文研究了水资源分配中的公平性问题。蛋糕切割模型在考虑战略因素的同时，寻找与Rawlsian公平原则相一致的解决方案，为解决尼罗河水资源争端提供了有价值的方法。
 
     
 
-    我们开发了一个简单的博弈论模型，以确定在决策者和金融市场是策略性参与者、政策惊喜对市场稳定性产生负面影响的情况下，明确将金融市场稳定性纳入央行目标函数的后果。我们发现，在政策目标中包括金融部门稳定性可能会引起低效率，因为市场对政策制定者目标的预期会偏误投资选择。当央行拥有其政策意图的私人信息时，平衡通信是模糊的，因为完全信息的沟通是不可信的。任命一位“风筝式”央行家，他对市场稳定性的重视较小，可以减少这些低效率。如果互动是重复的，央行通过保留前瞻性指导惩罚任何滥用市场权力的行为，可以提高沟通透明度和整体效率。
+    本文通过整合规范和实证的视角，研究了水资源争端。约翰·罗尔斯的正义理论提供了道德指导，维护所有流域国家的合理获取权利。然而，通过蛋糕切割模型进行实证分析揭示了现实世界中的战略约束。虽然罗尔斯定义了期望的目标，但蛋糕切割提供了基于实际行为的算法手段。尼罗河流域争端说明了这种综合。罗尔斯认为水资源具有天然权利，但无限制的竞争可能导致垄断。在自利等局限性存在的情况下，他的原则本身无法防止不利的结果。这就是蛋糕切割在存在偏见主张的情况下提供价值的地方。其模型确定了与罗尔斯公平原则相符的安排，并纳入了战略考虑。本文详细介绍了蛋糕切割理论，回顾了水资源冲突文献，研究了尼罗河案例，探讨了合作与非合作的情况。
 
-    We develop a simple game-theoretic model to determine the consequences of explicitly including financial market stability in the central bank objective function, when policymakers and the financial market are strategic players, and market stability is negatively affected by policy surprises. We find that the inclusion of financial sector stability among the policy objectives can induce an inefficiency, whereby market anticipation of policymakers' goals biases investment choices. When the central bank has private information about its policy intentions, the equilibrium communication is vague, because fully informative communication is not credible. The appointment of a ``kitish'' central banker, who puts little weight on market stability, reduces these inefficiencies. If interactions are repeated, communication transparency and overall efficiency can be improved if the central bank punishes any abuse of market power by withholding forward guidance. At the same time, repeated interaction
+    This article examines water disputes through an integrated framework combining normative and positive perspectives. John Rawls' theory of justice provides moral guidance, upholding rights to reasonable access for all riparian states. However, positive analysis using cake-cutting models reveals real-world strategic constraints. While Rawls defines desired ends, cake-cutting offers algorithmic means grounded in actual behaviors. The Nile River basin dispute illustrates this synthesis. Rawls suggests inherent rights to water, but unrestricted competition could enable monopoly. His principles alone cannot prevent unfavorable outcomes, given limitations like self-interest. This is where cake-cutting provides value despite biased claims. Its models identify arrangements aligning with Rawlsian fairness while incorporating strategic considerations. The article details the cake-cutting theory, reviews water conflicts literature, examines the Nile case, explores cooperative vs. non-cooperative g
+    
+[^2]: 短面板中的潜在因子分析
+
+    Latent Factor Analysis in Short Panels. (arXiv:2306.14004v1 [econ.EM])
+
+    [http://arxiv.org/abs/2306.14004](http://arxiv.org/abs/2306.14004)
+
+    本研究提出了短面板中潜在因子分析的推理工具，生成似然比统计量并得出了AUMPI特征，经实证应用发现短子期特有波动率呈上升趋势。
+
+    
+
+    我们开发了短面板中潜在因子分析的推理工具。 在大的横截面维度n和固定时间序列维度T的伪最大似然设置中，依赖于错误的对角线T×T协方差矩阵，而不强加球形或高斯性。 我们概述了潜在因子和误差协方差估计的渐近分布，以及基于似然比统计量的渐近一致最有力不变（AUMPI）测试的渐近分布，测试因子的数量。 我们从确保正态变量中正定二次形式的单调似然比属性的不等式中导出了AUMPI特征。 对美国一大批月度股票收益的实证应用基于所选因子数量，将短子期的牛市与熊市之后的日期系统和特有风险分开。 我们观察到，样本期间特有波动率呈上升趋势，而系统风险保持稳定。
+
+    We develop inferential tools for latent factor analysis in short panels. The pseudo maximum likelihood setting under a large cross-sectional dimension $n$ and a fixed time series dimension $T$ relies on a diagonal $T \times T$ covariance matrix of the errors without imposing sphericity or Gaussianity. We outline the asymptotic distributions of the latent factor and error covariance estimates as well as of an asymptotically uniformly most powerful invariant (AUMPI) test based on the likelihood ratio statistic for tests of the number of factors. We derive the AUMPI characterization from inequalities ensuring the monotone likelihood ratio property for positive definite quadratic forms in normal variables. An empirical application to a large panel of monthly U.S. stock returns separates date after date systematic and idiosyncratic risks in short subperiods of bear vs. bull market based on the selected number of factors. We observe an uptrend in idiosyncratic volatility while the systematic
+    
+[^3]: 集体套利与合作价值
+
+    Collective Arbitrage and the Value of Cooperation. (arXiv:2306.11599v1 [q-fin.MF])
+
+    [http://arxiv.org/abs/2306.11599](http://arxiv.org/abs/2306.11599)
+
+    该论文提出了集体套利和集体超复制的概念，建立了对应的二元定理版本，证明了合作交易的优势。
+
+    
+
+    我们在一个代理投资并允许通过交易合作的环境中介绍了集体套利和集体超复制的概念。我们相应地建立了资产定价和定价对冲二元定理的版本。例子展示了我们方法的优势。
+
+    We introduce the notions of Collective Arbitrage and of Collective Super-replication in a setting where agents are investing in their markets and are allowed to cooperate through exchanges. We accordingly establish versions of the fundamental theorem of asset pricing and of the pricing-hedging duality. Examples show the advantage of our approach.
+    
+[^4]: 深度学习凸向量优化问题的高效前沿
+
+    Deep Learning the Efficient Frontier of Convex Vector Optimization Problems. (arXiv:2205.07077v3 [math.OC] UPDATED)
+
+    [http://arxiv.org/abs/2205.07077](http://arxiv.org/abs/2205.07077)
+
+    本文设计了一种神经网络架构，用于逼近满足Slater条件的凸向量优化问题的弱效前沿，并成功克服了维度灾难。
+
+    
+
+    本文设计了一种神经网络架构，用于逼近满足Slater条件的凸向量优化问题（CVOP）的弱效前沿。所提出的机器学习方法既提供了弱效前沿的内部和外部逼近，又给出了每个逼近的有效点上误差的上界。在数值案例研究中，我们证明了该算法能够有效地逼近CVOP的真实弱效前沿，即使是对于大规模问题（即多目标、变量和约束），克服了维度灾难。
+
+    In this paper, we design a neural network architecture to approximate the weakly efficient frontier of convex vector optimization problems (CVOP) satisfying Slater's condition. The proposed machine learning methodology provides both an inner and outer approximation of the weakly efficient frontier, as well as an upper bound to the error at each approximated efficient point. In numerical case studies we demonstrate that the proposed algorithm is effectively able to approximate the true weakly efficient frontier of CVOPs. This remains true even for large problems (i.e., many objectives, variables, and constraints) and thus overcoming the curse of dimensionality.
     
 
