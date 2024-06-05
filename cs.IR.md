@@ -2,97 +2,112 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [FedHCDR: Federated Cross-Domain Recommendation with Hypergraph Signal Decoupling](https://arxiv.org/abs/2403.02630) | 该研究提出了FedHCDR框架，通过超图信号解耦的方式解决了联邦跨领域推荐中不同领域数据异质性的问题。 |
-| [^2] | [Interpreting Conversational Dense Retrieval by Rewriting-Enhanced Inversion of Session Embedding](https://arxiv.org/abs/2402.12774) | 提出了CONVINV方法，通过增强的重写将不透明的对话式会话嵌入转换为明确可解释的文本，同时保持原始检索性能。 |
-| [^3] | [Rewriting the Code: A Simple Method for Large Language Model Augmented Code Search.](http://arxiv.org/abs/2401.04514) | 本论文提出一种扩展的生成增强检索（GAR）框架，通过对代码进行重写来解决代码搜索中存在的风格不匹配问题，实验结果表明该方法显著提高了检索准确性。 |
-| [^4] | [TSRankLLM: A Two-Stage Adaptation of LLMs for Text Ranking.](http://arxiv.org/abs/2311.16720) | TSRankLLM提出了一种两阶段适应方法用于文本排序，通过连续预训练和改进的优化策略，实现了更好的性能。 |
-| [^5] | [Mixer: Image to Multi-Modal Retrieval Learning for Industrial Application.](http://arxiv.org/abs/2305.03972) | 提出了一种新的可伸缩高效的图像到跨模态检索范式Mixer，解决了领域差距、跨模态数据对齐和融合、繁杂的数据训练标签以及海量查询和及时响应等问题。 |
-| [^6] | [RLTP: Reinforcement Learning to Pace for Delayed Impression Modeling in Preloaded Ads.](http://arxiv.org/abs/2302.02592) | RLTP算法是一个强化学习算法，用于解决广告预加载过程中的延迟印象现象。 |
+| [^1] | [Approximate Nearest Neighbor Search with Window Filters](https://rss.arxiv.org/abs/2402.00943) | 这篇论文提出了一种使用窗口过滤的近似最近邻搜索方法，能够在各种语义搜索问题中实现高速搜索，并在多个基准数据集上取得了显著的速度提升。 |
+| [^2] | [RAM-EHR: Retrieval Augmentation Meets Clinical Predictions on Electronic Health Records](https://arxiv.org/abs/2403.00815) | RAM-EHR通过增强检索并利用总结知识，提高了针对电子健康记录的临床预测效果。 |
+| [^3] | [ARL2: Aligning Retrievers for Black-box Large Language Models via Self-guided Adaptive Relevance Labeling](https://arxiv.org/abs/2402.13542) | ARL2提出了一种检索器学习技术，利用LLMs作为标注者，并采用自适应自训练策略，能够有效减少注释成本，并在NQ和MMLU上取得了5.4%和4.6%的准确度提升。 |
+| [^4] | [Generalizing Conversational Dense Retrieval via LLM-Cognition Data Augmentation](https://arxiv.org/abs/2402.07092) | 本文提出了一种通过LLM-认知数据增强的方法来广义对话密集检索。该方法首先生成多级增强对话，捕捉多样的对话环境。其次，通过认知感知过程减少错误生成情况，并通过难度自适应样本筛选器选择具有挑战性的样本。 |
+| [^5] | [C-RAG: Certified Generation Risks for Retrieval-Augmented Language Models](https://arxiv.org/abs/2402.03181) | C-RAG是第一个用于认证检索增强语言模型生成风险的框架，通过提供符合风险分析和生成风险的上界，确保生成结果的可信性。 |
+| [^6] | [Data-efficient Fine-tuning for LLM-based Recommendation](https://arxiv.org/abs/2401.17197) | 本论文中介绍了基于LLM的推荐中的数据高效微调的方法，通过剪枝数据来减少LLM的微调成本，并提出了两种目标来实现高准确性的数据剪枝。 |
+| [^7] | [Evaluating ChatGPT as a Recommender System: A Rigorous Approach.](http://arxiv.org/abs/2309.03613) | 这项研究评估了ChatGPT作为推荐系统的能力，通过探索其利用用户偏好进行推荐、重新排序推荐列表、利用相似用户信息以及处理冷启动情况的能力，并使用三个数据集进行了全面实验。 |
 
 # 详细
 
-[^1]: FedHCDR: 具有超图信号解耦的联邦跨领域推荐
+[^1]: 使用窗口过滤的近似最近邻搜索
 
-    FedHCDR: Federated Cross-Domain Recommendation with Hypergraph Signal Decoupling
+    Approximate Nearest Neighbor Search with Window Filters
 
-    [https://arxiv.org/abs/2403.02630](https://arxiv.org/abs/2403.02630)
+    [https://rss.arxiv.org/abs/2402.00943](https://rss.arxiv.org/abs/2402.00943)
 
-    该研究提出了FedHCDR框架，通过超图信号解耦的方式解决了联邦跨领域推荐中不同领域数据异质性的问题。
-
-    
-
-    近年来，跨领域推荐（CDR）备受关注，利用来自多个领域的用户数据来增强推荐性能。然而，当前的CDR方法需要跨领域共享用户数据，违反了《通用数据保护条例》（GDPR）。因此，已提出了许多联邦跨领域推荐（FedCDR）方法。然而，不同领域间的数据异质性不可避免地影响了联邦学习的整体性能。在这项研究中，我们提出了FedHCDR，一种具有超图信号解耦的新型联邦跨领域推荐框架。具体地，为了解决不同领域之间的数据异质性，我们引入一种称为超图信号解耦（HSD）的方法，将用户特征解耦为领域独有和领域共享特征。该方法采用高通和低通超图滤波器来进行解耦。
-
-    arXiv:2403.02630v1 Announce Type: new  Abstract: In recent years, Cross-Domain Recommendation (CDR) has drawn significant attention, which utilizes user data from multiple domains to enhance the recommendation performance. However, current CDR methods require sharing user data across domains, thereby violating the General Data Protection Regulation (GDPR). Consequently, numerous approaches have been proposed for Federated Cross-Domain Recommendation (FedCDR). Nevertheless, the data heterogeneity across different domains inevitably influences the overall performance of federated learning. In this study, we propose FedHCDR, a novel Federated Cross-Domain Recommendation framework with Hypergraph signal decoupling. Specifically, to address the data heterogeneity across domains, we introduce an approach called hypergraph signal decoupling (HSD) to decouple the user features into domain-exclusive and domain-shared features. The approach employs high-pass and low-pass hypergraph filters to de
-    
-[^2]: 通过增强的重写来解释对话式密集检索的会话嵌入
-
-    Interpreting Conversational Dense Retrieval by Rewriting-Enhanced Inversion of Session Embedding
-
-    [https://arxiv.org/abs/2402.12774](https://arxiv.org/abs/2402.12774)
-
-    提出了CONVINV方法，通过增强的重写将不透明的对话式会话嵌入转换为明确可解释的文本，同时保持原始检索性能。
+    这篇论文提出了一种使用窗口过滤的近似最近邻搜索方法，能够在各种语义搜索问题中实现高速搜索，并在多个基准数据集上取得了显著的速度提升。
 
     
 
-    对话式密集检索已被证明在对话式搜索中非常有效。然而，对话式密集检索的一个主要局限性是它们缺乏可解释性，从而阻碍了对模型行为的直观理解以进行有针对性的改进。本文提出了CONVINV，一种简单而有效的方法，可以揭示可解释的对话式密集检索模型。CONVINV将不透明的对话式会话嵌入转换为明确可解释的文本，同时尽可能忠实地保持其原始检索性能。这种转换是通过训练一种基于专门查询编码器的最近提出的Vec2Text模型来实现的，利用了会话和查询嵌入在现有对话式密集检索中共享相同空间的事实。为了进一步增强可解释性，我们建议将外部可解释的查询重写纳入转换过程中。
+    我们定义并研究了$\textit{c-近似窗口搜索}$问题：近似最近邻搜索其中数据集中的每个点都有一个数值标签，目标是在任意标签范围内找到查询点的最近邻。许多语义搜索问题，例如带有时间戳过滤器的图像和文档搜索，或带有成本过滤器的产品搜索，是这个问题的自然例子。我们提出并在理论上分析了一种基于模块化树的框架，用于将解决传统c-近似最近邻问题的索引转化为解决窗口搜索的数据结构。在标准的最近邻基准数据集上，配备了随机标签值、对抗性构建的嵌入以及带有真实时间戳的图像搜索嵌入，我们获得了与现有解决方案相比高达75倍的速度提升，同时保持相同的召回率。
 
-    arXiv:2402.12774v1 Announce Type: new  Abstract: Conversational dense retrieval has shown to be effective in conversational search. However, a major limitation of conversational dense retrieval is their lack of interpretability, hindering intuitive understanding of model behaviors for targeted improvements. This paper presents CONVINV, a simple yet effective approach to shed light on interpretable conversational dense retrieval models. CONVINV transforms opaque conversational session embeddings into explicitly interpretable text while faithfully maintaining their original retrieval performance as much as possible. Such transformation is achieved by training a recently proposed Vec2Text model based on the ad-hoc query encoder, leveraging the fact that the session and query embeddings share the same space in existing conversational dense retrieval. To further enhance interpretability, we propose to incorporate external interpretable query rewrites into the transformation process. Extensi
+    We define and investigate the problem of $\textit{c-approximate window search}$: approximate nearest neighbor search where each point in the dataset has a numeric label, and the goal is to find nearest neighbors to queries within arbitrary label ranges. Many semantic search problems, such as image and document search with timestamp filters, or product search with cost filters, are natural examples of this problem. We propose and theoretically analyze a modular tree-based framework for transforming an index that solves the traditional c-approximate nearest neighbor problem into a data structure that solves window search. On standard nearest neighbor benchmark datasets equipped with random label values, adversarially constructed embeddings, and image search embeddings with real timestamps, we obtain up to a $75\times$ speedup over existing solutions at the same level of recall.
     
-[^3]: 重写代码：一种用于大型语言模型增强代码搜索的简单方法
+[^2]: RAM-EHR: 电子健康记录上的检索增强与临床预测相遇
 
-    Rewriting the Code: A Simple Method for Large Language Model Augmented Code Search. (arXiv:2401.04514v1 [cs.SE])
+    RAM-EHR: Retrieval Augmentation Meets Clinical Predictions on Electronic Health Records
 
-    [http://arxiv.org/abs/2401.04514](http://arxiv.org/abs/2401.04514)
+    [https://arxiv.org/abs/2403.00815](https://arxiv.org/abs/2403.00815)
 
-    本论文提出一种扩展的生成增强检索（GAR）框架，通过对代码进行重写来解决代码搜索中存在的风格不匹配问题，实验结果表明该方法显著提高了检索准确性。
-
-    
-
-    在代码搜索中，生成增强检索（GAR）框架是一种有前景的策略，通过生成示例代码片段来增强查询，以解决代码片段和自然语言查询之间的主要模态不匹配问题，尤其是在大型语言模型（LLM）展示了代码生成能力的情况下。然而，我们的初步调查发现，LLM增强框架所提供的改进有一定的限制。这种限制可能是因为生成的代码，尽管在功能上准确，但在代码库中与基准代码之间经常显示出明显的风格偏差。在本文中，我们扩展了基础GAR框架，并提出了一种简单而有效的方法，通过对代码库中的代码进行重写（ReCo）来进行风格规范化。实验结果表明，ReCo显著提高了检索准确性。
-
-    In code search, the Generation-Augmented Retrieval (GAR) framework, which generates exemplar code snippets to augment queries, has emerged as a promising strategy to address the principal challenge of modality misalignment between code snippets and natural language queries, particularly with the demonstrated code generation capabilities of Large Language Models (LLMs). Nevertheless, our preliminary investigations indicate that the improvements conferred by such an LLM-augmented framework are somewhat constrained. This limitation could potentially be ascribed to the fact that the generated codes, albeit functionally accurate, frequently display a pronounced stylistic deviation from the ground truth code in the codebase. In this paper, we extend the foundational GAR framework and propose a simple yet effective method that additionally Rewrites the Code (ReCo) within the codebase for style normalization. Experimental results demonstrate that ReCo significantly boosts retrieval accuracy ac
-    
-[^4]: TSRankLLM: 一种用于文本排序的两阶段LLM适应方法
-
-    TSRankLLM: A Two-Stage Adaptation of LLMs for Text Ranking. (arXiv:2311.16720v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2311.16720](http://arxiv.org/abs/2311.16720)
-
-    TSRankLLM提出了一种两阶段适应方法用于文本排序，通过连续预训练和改进的优化策略，实现了更好的性能。
+    RAM-EHR通过增强检索并利用总结知识，提高了针对电子健康记录的临床预测效果。
 
     
 
-    文本排序是各种信息检索应用中的关键任务，最近预训练语言模型（PLMs），特别是大型语言模型（LLMs）的成功引起了人们对其在文本排序中的应用的兴趣。为了消除PLMs和文本排序之间的不匹配问题，许多学者已经广泛探索了使用有监督排序数据进行微调的方法。然而，以前的研究主要集中在仅编码器和编码器-解码器PLMs上，缺乏对仅解码器LLM的研究。一个例外是RankLLaMA，它建议直接使用有监督的微调（SFT）来全面探索LLaMA。在我们的工作中，我们认为采用两阶段渐进范式会更有益。首先，我们建议使用大规模弱监督语料库对LLMs进行连续预训练（CPT）。其次，我们执行与RankLLaMA一致的SFT，并进一步提出了改进的优化策略。我们在多个基准测试上的实验结果表明我们方法具有卓越的性能。
+    我们提出了RAM-EHR，这是一个用于改善电子健康记录（EHR）上临床预测的检索增强（Retrieval Augmentation）流程。RAM-EHR首先收集多个知识来源，将它们转换为文本格式，并使用密集检索来获取与医学概念相关的信息。这一策略解决了与复杂概念名称相关的困难。RAM-EHR然后增广了与一致性正则化代码联合训练的本地EHR预测模型，以捕获来自患者就诊和总结知识的互补信息。在两个EHR数据集上的实验表明，RAM-EHR相对于之前的知识增强基线效果显著（AUROC增益3.4％，AUPR增益7.2％），强调了RAM-EHR的总结知识对临床预测任务的有效性。代码将发布在\url{https://github.com/ritaranx/RAM-EHR}。
 
-    Text ranking is a critical task in various information retrieval applications, and the recent success of pre-trained language models (PLMs), especially large language models (LLMs), has sparked interest in their application to text ranking. To eliminate the misalignment between PLMs and text ranking, fine-tuning with supervised ranking data has been widely explored. However, previous studies focus mainly on encoder-only and encoder-decoder PLMs, and decoder-only LLM research is still lacking. An exception to this is RankLLaMA, which suggests direct supervised fine-tuning (SFT) to explore LLaMA fully. In our work, we argue that a two-stage progressive paradigm would be more beneficial. First, we suggest continual pre-training (CPT) on LLMs by using a large-scale weakly-supervised corpus. Second, we perform SFT consistent with RankLLaMA, and propose an improved optimization strategy further. Our experimental results on multiple benchmarks demonstrate the superior performance of our metho
+    arXiv:2403.00815v1 Announce Type: cross  Abstract: We present RAM-EHR, a Retrieval AugMentation pipeline to improve clinical predictions on Electronic Health Records (EHRs). RAM-EHR first collects multiple knowledge sources, converts them into text format, and uses dense retrieval to obtain information related to medical concepts. This strategy addresses the difficulties associated with complex names for the concepts. RAM-EHR then augments the local EHR predictive model co-trained with consistency regularization to capture complementary information from patient visits and summarized knowledge. Experiments on two EHR datasets show the efficacy of RAM-EHR over previous knowledge-enhanced baselines (3.4% gain in AUROC and 7.2% gain in AUPR), emphasizing the effectiveness of the summarized knowledge from RAM-EHR for clinical prediction tasks. The code will be published at \url{https://github.com/ritaranx/RAM-EHR}.
     
-[^5]: Mixer: 应用于工业应用的图像到跨模态检索学习
+[^3]: ARL2: 通过自导自适应相关性标记将检索器与黑盒大型语言模型对齐
 
-    Mixer: Image to Multi-Modal Retrieval Learning for Industrial Application. (arXiv:2305.03972v1 [cs.IR])
+    ARL2: Aligning Retrievers for Black-box Large Language Models via Self-guided Adaptive Relevance Labeling
 
-    [http://arxiv.org/abs/2305.03972](http://arxiv.org/abs/2305.03972)
+    [https://arxiv.org/abs/2402.13542](https://arxiv.org/abs/2402.13542)
 
-    提出了一种新的可伸缩高效的图像到跨模态检索范式Mixer，解决了领域差距、跨模态数据对齐和融合、繁杂的数据训练标签以及海量查询和及时响应等问题。
-
-    
-
-    跨模态检索一直是电子商务平台和内容分享社交媒体中普遍存在的需求，其中查询是一张图片，文档是具有图片和文本描述的项目。然而，目前这种检索任务仍面临诸多挑战，包括领域差距、跨模态数据对齐和融合、繁杂的数据训练标签以及海量查询和及时响应等问题。为此，我们提出了一种名为Mixer的新型可伸缩和高效的图像查询到跨模态检索学习范式。Mixer通过自适应地整合多模态数据、更高效地挖掘偏斜和嘈杂的数据，并可扩展到高负载量，解决了这些问题。
-
-    Cross-modal retrieval, where the query is an image and the doc is an item with both image and text description, is ubiquitous in e-commerce platforms and content-sharing social media. However, little research attention has been paid to this important application. This type of retrieval task is challenging due to the facts: 1)~domain gap exists between query and doc. 2)~multi-modality alignment and fusion. 3)~skewed training data and noisy labels collected from user behaviors. 4)~huge number of queries and timely responses while the large-scale candidate docs exist. To this end, we propose a novel scalable and efficient image query to multi-modal retrieval learning paradigm called Mixer, which adaptively integrates multi-modality data, mines skewed and noisy data more efficiently and scalable to high traffic. The Mixer consists of three key ingredients: First, for query and doc image, a shared encoder network followed by separate transformation networks are utilized to account for their
-    
-[^6]: RLTP算法：用于预加载广告中的延迟印象建模的强化学习算法
-
-    RLTP: Reinforcement Learning to Pace for Delayed Impression Modeling in Preloaded Ads. (arXiv:2302.02592v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2302.02592](http://arxiv.org/abs/2302.02592)
-
-    RLTP算法是一个强化学习算法，用于解决广告预加载过程中的延迟印象现象。
+    ARL2提出了一种检索器学习技术，利用LLMs作为标注者，并采用自适应自训练策略，能够有效减少注释成本，并在NQ和MMLU上取得了5.4%和4.6%的准确度提升。
 
     
 
-    为了增加品牌知名度，许多广告商与广告平台签订合同购买广告流量，然后将广告投放到目标受众中。在整个广告投放期间，广告商通常希望广告获得特定的印象数，并期望广告展示的效果越好越好（如高点击率）。广告平台通过实时调整流量请求的选择概率来满足需求。然而，发布者的策略也会影响广告投放过程，这是广告平台无法控制的。预加载是许多类型广告（如视频广告）的常用策略，以确保在流量请求后显示的响应时间是合理的，这将导致延迟印象现象。传统的配速算法无法很好地处理预加载的特性，因为它们依赖于即时反馈信号。
+    arXiv:2402.13542v1 公告类型: 交叉 摘要: 检索增强生成通过整合外部知识源的相关信息改进大型语言模型（LLMs），使LLMs能够适应特定领域，并减轻知识密集任务中的幻觉。然而，由于其分开的训练过程和LLMs的黑盒特性，现有的检索器通常与LLMs不匹配。为解决这一挑战，我们提出了ARL2，一种利用LLMs作为标注者的检索器学习技术。ARL2利用LLMs注释和评分相关证据，从而能够从强大的LLM监督中学习检索器。此外，ARL2使用自适应自训练策略来策划高质量和多样性相关性数据，可以有效降低标注成本。大量实验表明ARL2的有效性，与最先进方法相比，在NQ上提高了5.4%的准确率，在MMLU上提高了4.6%。
 
-    To increase brand awareness, many advertisers conclude contracts with advertising platforms to purchase traffic and then deliver advertisements to target audiences. In a whole delivery period, advertisers usually desire a certain impression count for the ads, and they also expect that the delivery performance is as good as possible (e.g., obtaining high click-through rate). Advertising platforms employ pacing algorithms to satisfy the demands via adjusting the selection probabilities to traffic requests in real-time. However, the delivery procedure is also affected by the strategies from publishers, which cannot be controlled by advertising platforms. Preloading is a widely used strategy for many types of ads (e.g., video ads) to make sure that the response time for displaying after a traffic request is legitimate, which results in delayed impression phenomenon. Traditional pacing algorithms cannot handle the preloading nature well because they rely on immediate feedback signals, and m
+    arXiv:2402.13542v1 Announce Type: cross  Abstract: Retrieval-augmented generation enhances large language models (LLMs) by incorporating relevant information from external knowledge sources. This enables LLMs to adapt to specific domains and mitigate hallucinations in knowledge-intensive tasks. However, existing retrievers are often misaligned with LLMs due to their separate training processes and the black-box nature of LLMs. To address this challenge, we propose ARL2, a retriever learning technique that harnesses LLMs as labelers. ARL2 leverages LLMs to annotate and score relevant evidence, enabling learning the retriever from robust LLM supervision. Furthermore, ARL2 uses an adaptive self-training strategy for curating high-quality and diverse relevance data, which can effectively reduce the annotation cost. Extensive experiments demonstrate the effectiveness of ARL2, achieving accuracy improvements of 5.4% on NQ and 4.6% on MMLU compared to the state-of-the-art methods. Additionall
+    
+[^4]: 通过LLM-认知数据增强广义对话密集检索
+
+    Generalizing Conversational Dense Retrieval via LLM-Cognition Data Augmentation
+
+    [https://arxiv.org/abs/2402.07092](https://arxiv.org/abs/2402.07092)
+
+    本文提出了一种通过LLM-认知数据增强的方法来广义对话密集检索。该方法首先生成多级增强对话，捕捉多样的对话环境。其次，通过认知感知过程减少错误生成情况，并通过难度自适应样本筛选器选择具有挑战性的样本。
+
+    
+
+    对话式搜索利用多轮自然语言环境来检索相关段落。现有的对话密集检索模型大多将对话视为一系列固定的问题和回答，忽视了严重的数据稀疏性问题 - 也就是说，用户可以以不同的方式进行对话，而这些备选对话是未记录的。因此，它们经常难以推广到真实场景中的多样对话。在这项工作中，我们提出了一种通过LLM-认知数据增强广义对话密集检索的框架(ConvAug)。ConvAug首先生成多级增强对话，以捕捉对话环境的多样性。受人类认知方式的启发，我们设计了一种认知感知过程，以减少错误的正例、负例和幻觉的生成。此外，我们还开发了一种难度自适应样本筛选器，用于选择复杂对话的具有挑战性的样本。
+
+    Conversational search utilizes muli-turn natural language contexts to retrieve relevant passages. Existing conversational dense retrieval models mostly view a conversation as a fixed sequence of questions and responses, overlooking the severe data sparsity problem -- that is, users can perform a conversation in various ways, and these alternate conversations are unrecorded. Consequently, they often struggle to generalize to diverse conversations in real-world scenarios. In this work, we propose a framework for generalizing Conversational dense retrieval via LLM-cognition data Augmentation (ConvAug). ConvAug first generates multi-level augmented conversations to capture the diverse nature of conversational contexts. Inspired by human cognition, we devise a cognition-aware process to mitigate the generation of false positives, false negatives, and hallucinations. Moreover, we develop a difficulty-adaptive sample filter that selects challenging samples for complex conversations, thereby g
+    
+[^5]: C-RAG: 针对检索增强语言模型的认证生成风险
+
+    C-RAG: Certified Generation Risks for Retrieval-Augmented Language Models
+
+    [https://arxiv.org/abs/2402.03181](https://arxiv.org/abs/2402.03181)
+
+    C-RAG是第一个用于认证检索增强语言模型生成风险的框架，通过提供符合风险分析和生成风险的上界，确保生成结果的可信性。
+
+    
+
+    尽管大型语言模型（LLMs）在各种应用中具备令人印象深刻的能力，但它们仍然存在可信度问题，如幻觉和错位。检索增强语言模型（RAG）被提出来增强生成结果的可信性，通过引入外部知识。但是，对于RAG模型的生成风险的理论理解尚未被研究。本文回答了以下问题：1）RAG是否确实能够降低生成风险，2）如何对RAG和传统LLM的生成风险提供可证明的保证，以及3）哪些充分条件使得RAG模型能够降低生成风险。我们提出了C-RAG，第一个用于认证RAG模型生成风险的框架。具体而言，我们为RAG模型提供了符合风险分析，并确保了生成风险的上界，我们称之为符合生成风险。我们还对一般有界风险下的符合生成风险提供了理论保证。
+
+    Despite the impressive capabilities of large language models (LLMs) across diverse applications, they still suffer from trustworthiness issues, such as hallucinations and misalignments. Retrieval-augmented language models (RAG) have been proposed to enhance the credibility of generations by grounding external knowledge, but the theoretical understandings of their generation risks remains unexplored. In this paper, we answer: 1) whether RAG can indeed lead to low generation risks, 2) how to provide provable guarantees on the generation risks of RAG and vanilla LLMs, and 3) what sufficient conditions enable RAG models to reduce generation risks. We propose C-RAG, the first framework to certify generation risks for RAG models. Specifically, we provide conformal risk analysis for RAG models and certify an upper confidence bound of generation risks, which we refer to as conformal generation risk. We also provide theoretical guarantees on conformal generation risks for general bounded risk f
+    
+[^6]: 基于LLM的推荐的数据高效微调
+
+    Data-efficient Fine-tuning for LLM-based Recommendation
+
+    [https://arxiv.org/abs/2401.17197](https://arxiv.org/abs/2401.17197)
+
+    本论文中介绍了基于LLM的推荐中的数据高效微调的方法，通过剪枝数据来减少LLM的微调成本，并提出了两种目标来实现高准确性的数据剪枝。
+
+    
+
+    近年来，利用大型语言模型（LLM）进行推荐引起了广泛关注，其中微调在LLM的适应中起着关键作用。然而，快速扩展的推荐数据上微调LLM的成本限制了它们的实际应用。为了解决这一挑战，少样本微调提供了一种快速适应LLM到新的推荐数据的方法。我们提出了为高效的LLM推荐任务剪枝数据的任务，旨在找到适合LLM的少样本微调的代表样本。虽然核心集选择与所提出的任务密切相关，但现有的核心集选择方法往往依赖于次优启发式指标或需要在大规模推荐数据上进行昂贵的优化。
+
+    Leveraging Large Language Models (LLMs) for recommendation has recently garnered considerable attention, where fine-tuning plays a key role in LLMs' adaptation. However, the cost of fine-tuning LLMs on rapidly expanding recommendation data limits their practical application. To address this challenge, few-shot fine-tuning offers a promising approach to quickly adapt LLMs to new recommendation data. We propose the task of data pruning for efficient LLM-based recommendation, aimed at identifying representative samples tailored for LLMs' few-shot fine-tuning. While coreset selection is closely related to the proposed task, existing coreset selection methods often rely on suboptimal heuristic metrics or entail costly optimization on large-scale recommendation data.   To tackle these issues, we introduce two objectives for the data pruning task in the context of LLM-based recommendation: 1) high accuracy aims to identify the influential samples that can lead to high overall performance; and
+    
+[^7]: 评估ChatGPT作为推荐系统的严谨方法
+
+    Evaluating ChatGPT as a Recommender System: A Rigorous Approach. (arXiv:2309.03613v1 [cs.IR])
+
+    [http://arxiv.org/abs/2309.03613](http://arxiv.org/abs/2309.03613)
+
+    这项研究评估了ChatGPT作为推荐系统的能力，通过探索其利用用户偏好进行推荐、重新排序推荐列表、利用相似用户信息以及处理冷启动情况的能力，并使用三个数据集进行了全面实验。
+
+    
+
+    由于其卓越的自然语言处理能力，大型AI语言模型近年来备受关注。它们在语言相关任务中具有重要贡献，包括基于提示的学习，因此对于各种特定任务非常有价值。这种方法释放了它们的全部潜力，提高了准确性和泛化性。研究界正在积极探索它们的应用，ChatGPT也因此获得了认可。尽管大型语言模型已经有了广泛的研究，但其在推荐场景中的潜力仍待探索。本研究旨在填补这一空白，通过探究ChatGPT作为零-shot推荐系统的能力。我们的目标包括评估其利用用户偏好进行推荐、重新排序现有推荐列表、利用相似用户的信息以及处理冷启动情况的能力。我们通过对三个数据集（MovieLens Small、Last.FM和Facebook Bo）进行全面实验来评估ChatGPT的性能。
+
+    Recent popularity surrounds large AI language models due to their impressive natural language capabilities. They contribute significantly to language-related tasks, including prompt-based learning, making them valuable for various specific tasks. This approach unlocks their full potential, enhancing precision and generalization. Research communities are actively exploring their applications, with ChatGPT receiving recognition. Despite extensive research on large language models, their potential in recommendation scenarios still needs to be explored. This study aims to fill this gap by investigating ChatGPT's capabilities as a zero-shot recommender system. Our goals include evaluating its ability to use user preferences for recommendations, reordering existing recommendation lists, leveraging information from similar users, and handling cold-start situations. We assess ChatGPT's performance through comprehensive experiments using three datasets (MovieLens Small, Last.FM, and Facebook Bo
     
 
