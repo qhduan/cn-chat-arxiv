@@ -2,52 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Entangled vs. Separable Choice](https://arxiv.org/abs/2403.09045) | 这项研究探讨了描述两个决策者行为的联合概率选择规则，发现存在可以满足可分离限制但不可分离的纠缠选择规则，这一结果对规则的限制性质进行了深入探讨。 |
-| [^2] | [Long-term Effects of India's Childhood Immunization Program on Earnings and Consumption Expenditure: Comment.](http://arxiv.org/abs/2401.11100) | Summan, Nandi, and Bloom发现，印度通用免疫计划对婴儿的免疫暴露对其成年后的周薪和人均家庭消费有正向影响。然而，他们的研究结果可能受到年龄和出生年份这两个相关变量的影响，且可能与调查期间的趋势相关。 |
-| [^3] | [The Impact of Stocks on Correlations of Crop Yields and Prices and on Revenue Insurance Premiums using Semiparametric Quantile Regression.](http://arxiv.org/abs/2308.11805) | 本文使用半参数分位回归研究了股票对作物产量和价格相关性以及收益保险费用的影响。通过惩罚B样条来估计储存条件下的联合分布，并通过模拟研究验证了该方法的有效性。应用该方法进行估计后发现玉米和大豆在美国的储存条件下具有相关性，并计算出相应的收益保险费用。 |
+| [^1] | [On the use of artificial intelligence in financial regulations and the impact on financial stability.](http://arxiv.org/abs/2310.11293) | 人工智能在金融监管方面的应用有助于微观监管，但对于宏观监管来说存在挑战。尽管如此，由于成本效益和准确性的优势，AI很可能取代高水平的建议和决策。 |
+| [^2] | [Efficient Wrong-Way Risk Modelling for Funding Valuation Adjustments.](http://arxiv.org/abs/2209.12222) | 本文提出了一种高效而稳健的方法，将逆向风险（WWR）纳入资金估值调整（FVA）建模。 |
 
 # 详细
 
-[^1]: 纠缠vs.可分离选择
+[^1]: 关于人工智能在金融监管中的应用及对金融稳定的影响
 
-    Entangled vs. Separable Choice
+    On the use of artificial intelligence in financial regulations and the impact on financial stability. (arXiv:2310.11293v1 [econ.GN])
 
-    [https://arxiv.org/abs/2403.09045](https://arxiv.org/abs/2403.09045)
+    [http://arxiv.org/abs/2310.11293](http://arxiv.org/abs/2310.11293)
 
-    这项研究探讨了描述两个决策者行为的联合概率选择规则，发现存在可以满足可分离限制但不可分离的纠缠选择规则，这一结果对规则的限制性质进行了深入探讨。
-
-    
-
-    我们研究了描述两个决策者行为的联合概率选择规则，每个决策者面临可能不同的菜单。当这些选择规则可以分解为每个个体的自主选择，仅通过它们的个体概率选择规则相关联时，它们是可分离的。尽管最近对研究这种规则很感兴趣，但对它们的限制的完整刻画仍然是一个未解的问题。一个合理的猜想是，这种对可分离联合选择的限制可以分解成个人选择的限制。我们将这些限制命名为可分离的，并且证明了如果至少一个决策者的概率选择规则唯一地确定了对确定性选择规则的分布，则该猜想成立。否则，存在满足可分离限制但不可分离的纠缠选择规则。纠缠选择的可能性使得其特征化变得复杂。
-
-    arXiv:2403.09045v1 Announce Type: new  Abstract: We study joint probabilistic choice rules that describe the behavior of two decision makers, each facing a possibly different menu. These choice rules are separable when they can be factored into autonomous choices from each individual solely correlated through their individual probabilistic choice rules. Despite recent interest in studying such rules, a complete characterization of the restrictions on them remains an open question. A reasonable conjecture is that such restrictions on separable joint choice can be factored into individual choice restrictions. We name these restrictions separable and show that this conjecture is true if and only if the probabilistic choice rule of at least one decision maker uniquely identifies the distribution over deterministic choice rules. Otherwise, entangled choice rules exist that satisfy separable restrictions yet are not separable. The possibility of entangled choice complicates the characterizat
-    
-[^2]: 印度儿童免疫计划对收入和消费支出的长期影响：评述
-
-    Long-term Effects of India's Childhood Immunization Program on Earnings and Consumption Expenditure: Comment. (arXiv:2401.11100v1 [econ.GN])
-
-    [http://arxiv.org/abs/2401.11100](http://arxiv.org/abs/2401.11100)
-
-    Summan, Nandi, and Bloom发现，印度通用免疫计划对婴儿的免疫暴露对其成年后的周薪和人均家庭消费有正向影响。然而，他们的研究结果可能受到年龄和出生年份这两个相关变量的影响，且可能与调查期间的趋势相关。
+    人工智能在金融监管方面的应用有助于微观监管，但对于宏观监管来说存在挑战。尽管如此，由于成本效益和准确性的优势，AI很可能取代高水平的建议和决策。
 
     
 
-    Summan、Nandi和Bloom（2023；SNB）发现，晚期八十年代印度婴儿接受印度通用免疫计划（UIP）的暴露使其早期成年时的周薪增加了0.138个对数点，人均家庭消费增加了0.028个点。但这些结果是通过回归年龄和出生年份这两个变量得出的，而这两个变量构造时几乎是共线的。因此，这些结果可以归因于一年调查期间的趋势，如通货膨胀。随机化实验表明，当真实影响为零时，SNB估计器的平均值为0.088个点（工资）和0.039个点（消费）。
+    人工智能（AI）正在金融监管领域迅速发展。对于微观监管（如消费者保护和常规银行监管）来说，由于数据丰富、时间周期短、目标明确和重复决策，AI将受益。然而，对于关注整个金融系统稳定的宏观监管来说，由于不经常发生且大多数是独特事件，AI学习受到挑战。在极度压力下，分布式的人类决策比集中式的AI决策更具优势，而且由于巨大的错误成本，这也引发了对于宏观监管中AI使用的质疑。尽管如此，由于成本效益、稳健性和准确性优于人类监管者，AI很可能悄然取代越来越高水平的建议和决策而被广泛使用。我们提出六个判断AI使用适合性的标准。
 
-    Summan, Nandi, and Bloom (2023; SNB) finds that exposure of babies to India's Universal Immunization Programme (UIP) in the late 1980s increased their weekly wages in early adulthood by 0.138 log points and per-capita household consumption 0.028 points. But the results are attained by regressing on age, in years, while controlling for year of birth--two variables that, as constructed, are nearly collinear. The results are therefore attributable to trends during the one-year survey period, such as inflation. A randomization exercise shows that when the true impacts are zero, the SNB estimator averages 0.088 points for wages and 0.039 points for consumption.
+    Artificial intelligence (AI) is making rapid inroads in financial regulations. It will benefit micro regulations, concerned with issues like consumer protection and routine banking regulations, because of ample data, short time horizons, clear objectives, and repeated decisions that leave plenty of data for AI to train on. It is different with macro regulations focused on the stability of the entire financial system. Here, infrequent and mostly unique events frustrate AI learning. Distributed human decision making in times of extreme stress has strong advantages over centralised AI decisions, which, coupled with the catastrophic cost of mistakes, raises questions about AI used in macro regulations. However, AI will likely become widely used by stealth as it takes over increasingly high level advice and decisions, driven by significant cost efficiencies, robustness and accuracy compared to human regulators. We propose six criteria against which to judge the suitability of AI use by the 
     
-[^3]: 股票对作物产量和价格相关性以及收益保险费用的影响：使用半参数分位回归研究
+[^2]: 用于资金估值调整的高效逆向风险建模
 
-    The Impact of Stocks on Correlations of Crop Yields and Prices and on Revenue Insurance Premiums using Semiparametric Quantile Regression. (arXiv:2308.11805v1 [econ.GN])
+    Efficient Wrong-Way Risk Modelling for Funding Valuation Adjustments. (arXiv:2209.12222v3 [q-fin.CP] UPDATED)
 
-    [http://arxiv.org/abs/2308.11805](http://arxiv.org/abs/2308.11805)
+    [http://arxiv.org/abs/2209.12222](http://arxiv.org/abs/2209.12222)
 
-    本文使用半参数分位回归研究了股票对作物产量和价格相关性以及收益保险费用的影响。通过惩罚B样条来估计储存条件下的联合分布，并通过模拟研究验证了该方法的有效性。应用该方法进行估计后发现玉米和大豆在美国的储存条件下具有相关性，并计算出相应的收益保险费用。
+    本文提出了一种高效而稳健的方法，将逆向风险（WWR）纳入资金估值调整（FVA）建模。
 
     
 
-    作物产量和收获价格常常被认为是负相关的，因此通过稳定收益来作为自然风险管理对冲。储存理论认为，该相关性是从前几年的库存中得出的一个递增函数。储存条件下的二阶矩对于短缺期间的价格波动和对冲需求具有影响，而空间上变化的产量-价格相关结构对于谁从商品支持政策中受益具有影响。在本文中，我们提出使用惩罚B样条的半参数分位回归（SQR）来估计储存条件下的产量和价格的联合分布。通过全面的模拟研究验证的提出方法，允许使用SQR从真实的联合分布中抽样。然后，将其应用于估计美国玉米和大豆的储存条件下的相关性和收益保险费用。对于这两种作物，Cornbelt c
+    逆向风险（WWR）是资金估值调整（FVA）建模中的重要组成部分。然而，标准假设是市场风险、交易对手违约和拨款成本之间独立。本文旨在评估WWR的影响，不需要运行包括所有信贷和拨款过程的Monte Carlo模拟。我们提议将曝光概况分为两部分：独立和WWR驱动的部分。对于前者，曝光可以从标准xVA计算中重复使用。我们用随机驱动器表示曝光概述的第二部分，并通过常见的高斯随机因子进行近似处理。在仿射设置内，所提出的近似方法是通用的，是现有xVA计算的附加内容，并提供了一种将WWR纳入FVA建模的高效且稳健的方法。借助利率掉期和代表性的多币种掉期组合的案例研究进行了说明。
 
-    Crop yields and harvest prices are often considered to be negatively correlated, thus acting as a natural risk management hedge through stabilizing revenues. Storage theory gives reason to believe that the correlation is an increasing function of stocks carried over from previous years. Stock-conditioned second moments have implications for price movements during shortages and for hedging needs, while spatially varying yield-price correlation structures have implications for who benefits from commodity support policies. In this paper, we propose to use semi-parametric quantile regression (SQR) with penalized B-splines to estimate a stock-conditioned joint distribution of yield and price. The proposed method, validated through a comprehensive simulation study, enables sampling from the true joint distribution using SQR. Then it is applied to approximate stock-conditioned correlation and revenue insurance premium for both corn and soybeans in the United States. For both crops, Cornbelt c
+    Wrong-Way Risk (WWR) is an important component in Funding Valuation Adjustment (FVA) modelling. Yet, the standard assumption is independence between market risks and the counterparty defaults and funding costs. This typical industrial setting is our point of departure, where we aim to assess the impact of WWR without running a full Monte Carlo simulation with all credit and funding processes. We propose to split the exposure profile into two parts: an independent and a WWR-driven part. For the former, exposures can be re-used from the standard xVA calculation. We express the second part of the exposure profile in terms of the stochastic drivers and approximate these by a common Gaussian stochastic factor. Within the affine setting, the proposed approximation is generic, is an add-on to the existing xVA calculations and provides an efficient and robust way to include WWR in FVA modelling. Case studies for an interest rate swap and a representative multi-currency portfolio of swaps illus
     
 
