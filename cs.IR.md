@@ -2,157 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Are Large Language Models Good at Utility Judgments?](https://arxiv.org/abs/2403.19216) | 大型语言模型（LLMs）在评估段落实用性方面的能力进行了全面研究，实验发现受过良好指导的LLMs可以... |
-| [^2] | [Interpretable User Satisfaction Estimation for Conversational Systems with Large Language Models](https://arxiv.org/abs/2403.12388) | 本文提出了一种名为SPUR的方法，通过LLMs更有效地从自然语言话语中提取用户满意度的可解释信号，并能够利用迭代提示框架进行用户满意度评估。 |
-| [^3] | [FedHCDR: Federated Cross-Domain Recommendation with Hypergraph Signal Decoupling](https://arxiv.org/abs/2403.02630) | 该研究提出了FedHCDR框架，通过超图信号解耦的方式解决了联邦跨领域推荐中不同领域数据异质性的问题。 |
-| [^4] | [Model Editing at Scale leads to Gradual and Catastrophic Forgetting](https://arxiv.org/abs/2401.07453) | 评估了当前模型编辑方法在规模化情况下的表现，发现随着模型被顺序编辑多个事实，它会逐渐遗忘先前的事实及执行下游任务的能力。 |
-| [^5] | [Analysis and Validation of Image Search Engines in Histopathology.](http://arxiv.org/abs/2401.03271) | 本文对组织病理学图像搜索引擎进行了分析和验证，对其性能进行了评估。研究发现，某些搜索引擎在效率和速度上表现出色，但精度较低，而其他搜索引擎的准确率较高，但运行效率较低。 |
-| [^6] | [Video Recommendation Using Social Network Analysis and User Viewing Patterns.](http://arxiv.org/abs/2308.12743) | 本论文旨在填补现有基于隐性反馈的视频推荐系统研究空白，通过社交网络分析和用户观看模式来构建有效的视频推荐模型。 |
-| [^7] | [DAPR: A Benchmark on Document-Aware Passage Retrieval.](http://arxiv.org/abs/2305.13915) | DAPR是一个文档感知段落检索的基准测试，挑战在于如何从长文档中找到正确的段落并返回准确结果。 |
-| [^8] | [Mixer: Image to Multi-Modal Retrieval Learning for Industrial Application.](http://arxiv.org/abs/2305.03972) | 提出了一种新的可伸缩高效的图像到跨模态检索范式Mixer，解决了领域差距、跨模态数据对齐和融合、繁杂的数据训练标签以及海量查询和及时响应等问题。 |
-| [^9] | [Algorithmic neutrality.](http://arxiv.org/abs/2303.05103) | 研究算法中立性以及与算法偏见的关系，以搜索引擎为案例研究，得出搜索中立性是不可能的结论。 |
-| [^10] | [Visual Acuity Prediction on Real-Life Patient Data Using a Machine Learning Based Multistage System.](http://arxiv.org/abs/2204.11970) | 本研究提供了一种使用机器学习技术开发预测模型的多阶段系统，可高精度预测三种眼疾患者的视力变化，并辅助眼科医生进行临床决策和患者咨询。 |
+| [^1] | [SciMMIR: Benchmarking Scientific Multi-modal Information Retrieval.](http://arxiv.org/abs/2401.13478) | SciMMIR是一个专门用于科学领域的多模态信息检索基准，通过开放获取的论文集合提取与科学领域相关的图像-文本配对，从而弥补了现有基准在此领域中的差距。 |
+| [^2] | [Block-Diagonal Orthogonal Relation and Matrix Entity for Knowledge Graph Embedding.](http://arxiv.org/abs/2401.05967) | 这个论文提出了一种新型知识图谱嵌入模型OrthogonalE，利用矩阵表示实体和块对角正交矩阵表示关系，增强了模型的灵活性和广泛性，并在实验中表现出比最先进模型更好的性能和较少的参数数量。 |
+| [^3] | [A Comprehensive Survey on Deep Learning Techniques in Educational Data Mining.](http://arxiv.org/abs/2309.04761) | 本调研综合审查了在教育数据挖掘中深度学习技术的最新研究进展，包括对知识跟踪、学生不良行为检测、性能预测和个性化推荐等典型教育场景的应用。同时提供了公共数据集和处理工具的综合概述，并指出了未来的研究方向。 |
+| [^4] | [LLaMA-E: Empowering E-commerce Authoring with Multi-Aspect Instruction Following.](http://arxiv.org/abs/2308.04913) | LLaMA-E是一种统一且定制的指导语言模型，旨在解决电子商务创作过程中遇到的各种任务，包括广告生成、查询增强的产品标题改写、产品分类、购买意图推测和常规问答。 |
 
 # 详细
 
-[^1]: 大型语言模型擅长实用性判断吗？
+[^1]: SciMMIR:科学多模态信息检索的基准评测
 
-    Are Large Language Models Good at Utility Judgments?
+    SciMMIR: Benchmarking Scientific Multi-modal Information Retrieval. (arXiv:2401.13478v1 [cs.IR])
 
-    [https://arxiv.org/abs/2403.19216](https://arxiv.org/abs/2403.19216)
+    [http://arxiv.org/abs/2401.13478](http://arxiv.org/abs/2401.13478)
 
-    大型语言模型（LLMs）在评估段落实用性方面的能力进行了全面研究，实验发现受过良好指导的LLMs可以...
-
-    
-
-    检索增强生成（RAG）被认为是缓解大型语言模型（LLMs）幻觉问题的一种有前途的方法，并且近期已受到研究人员的广泛关注。由于检索模型在语义理解上的局限性，RAG的成功在很大程度上取决于LLMs识别具有实用性的段落的能力。最近的研究探讨了LLMs评估检索中段落相关性的能力，但对评估支持问答的段落实用性的工作还很有限。在本工作中，我们进行了一项关于LLMs在开放域QA实用性评估方面能力的全面研究。具体而言，我们引入了一个基准测试程序和不同特征的候选段落集合，促进了与五个代表性LLMs的一系列实验。我们的实验证明：（i）受过良好指导的LLMs可以进行...
-
-    arXiv:2403.19216v1 Announce Type: new  Abstract: Retrieval-augmented generation (RAG) is considered to be a promising approach to alleviate the hallucination issue of large language models (LLMs), and it has received widespread attention from researchers recently. Due to the limitation in the semantic understanding of retrieval models, the success of RAG heavily lies on the ability of LLMs to identify passages with utility. Recent efforts have explored the ability of LLMs to assess the relevance of passages in retrieval, but there has been limited work on evaluating the utility of passages in supporting question answering. In this work, we conduct a comprehensive study about the capabilities of LLMs in utility evaluation for open-domain QA. Specifically, we introduce a benchmarking procedure and collection of candidate passages with different characteristics, facilitating a series of experiments with five representative LLMs. Our experiments reveal that: (i) well-instructed LLMs can di
-    
-[^2]: 基于大型语言模型的可解释对话系统用户满意度估计
-
-    Interpretable User Satisfaction Estimation for Conversational Systems with Large Language Models
-
-    [https://arxiv.org/abs/2403.12388](https://arxiv.org/abs/2403.12388)
-
-    本文提出了一种名为SPUR的方法，通过LLMs更有效地从自然语言话语中提取用户满意度的可解释信号，并能够利用迭代提示框架进行用户满意度评估。
+    SciMMIR是一个专门用于科学领域的多模态信息检索基准，通过开放获取的论文集合提取与科学领域相关的图像-文本配对，从而弥补了现有基准在此领域中的差距。
 
     
 
-    准确而可解释的用户满意度估计对于了解、评估和持续改进对话系统至关重要。本文表明，与基于特征化的机器学习模型或文本嵌入的现有方法相比，LLMs能够更有效地从自然语言话语中提取用户满意度的可解释信号。此外，LLM可以通过一个迭代提示框架，并利用标记示例的监督进行用户满意度评估。
+    多模态信息检索（MMIR）是一个快速发展的领域，通过先进的表示学习和跨模态对齐研究，在图像-文本配对方面取得了显著进展。然而，在科学领域内评估图像-文本配对的MMIR性能的当前基准存在明显差距，学术语言中描述的图表和表格图像通常不起重要作用。为了弥补这一差距，我们利用开放获取的论文集合构建了一个专门的科学MMIR（SciMMIR）基准，以提取与科学领域相关的数据。该基准包含了530K个精心策划的从科学文档中提取的图像-文本配对，这些图像-文本配对来自于具有详细标题的科学文档中的图表和表格。我们还使用两级子集-子类别层次注释对图像-文本配对进行了注释，以促进对基准模型的更全面评估。我们对零样本和微调进行了评估。
 
-    arXiv:2403.12388v1 Announce Type: cross  Abstract: Accurate and interpretable user satisfaction estimation (USE) is critical for understanding, evaluating, and continuously improving conversational systems. Users express their satisfaction or dissatisfaction with diverse conversational patterns in both general-purpose (ChatGPT and Bing Copilot) and task-oriented (customer service chatbot) conversational systems. Existing approaches based on featurized ML models or text embeddings fall short in extracting generalizable patterns and are hard to interpret. In this work, we show that LLMs can extract interpretable signals of user satisfaction from their natural language utterances more effectively than embedding-based approaches. Moreover, an LLM can be tailored for USE via an iterative prompting framework using supervision from labeled examples. The resulting method, Supervised Prompting for User satisfaction Rubrics (SPUR), not only has higher accuracy but is more interpretable as it sco
+    Multi-modal information retrieval (MMIR) is a rapidly evolving field, where significant progress, particularly in image-text pairing, has been made through advanced representation learning and cross-modality alignment research. However, current benchmarks for evaluating MMIR performance in image-text pairing within the scientific domain show a notable gap, where chart and table images described in scholarly language usually do not play a significant role. To bridge this gap, we develop a specialised scientific MMIR (SciMMIR) benchmark by leveraging open-access paper collections to extract data relevant to the scientific domain. This benchmark comprises 530K meticulously curated image-text pairs, extracted from figures and tables with detailed captions in scientific documents. We further annotate the image-text pairs with two-level subset-subcategory hierarchy annotations to facilitate a more comprehensive evaluation of the baselines. We conducted zero-shot and fine-tuning evaluations o
     
-[^3]: FedHCDR: 具有超图信号解耦的联邦跨领域推荐
+[^2]: 知识图谱嵌入的分块对角正交关系和矩阵实体
 
-    FedHCDR: Federated Cross-Domain Recommendation with Hypergraph Signal Decoupling
+    Block-Diagonal Orthogonal Relation and Matrix Entity for Knowledge Graph Embedding. (arXiv:2401.05967v1 [cs.CL])
 
-    [https://arxiv.org/abs/2403.02630](https://arxiv.org/abs/2403.02630)
+    [http://arxiv.org/abs/2401.05967](http://arxiv.org/abs/2401.05967)
 
-    该研究提出了FedHCDR框架，通过超图信号解耦的方式解决了联邦跨领域推荐中不同领域数据异质性的问题。
-
-    
-
-    近年来，跨领域推荐（CDR）备受关注，利用来自多个领域的用户数据来增强推荐性能。然而，当前的CDR方法需要跨领域共享用户数据，违反了《通用数据保护条例》（GDPR）。因此，已提出了许多联邦跨领域推荐（FedCDR）方法。然而，不同领域间的数据异质性不可避免地影响了联邦学习的整体性能。在这项研究中，我们提出了FedHCDR，一种具有超图信号解耦的新型联邦跨领域推荐框架。具体地，为了解决不同领域之间的数据异质性，我们引入一种称为超图信号解耦（HSD）的方法，将用户特征解耦为领域独有和领域共享特征。该方法采用高通和低通超图滤波器来进行解耦。
-
-    arXiv:2403.02630v1 Announce Type: new  Abstract: In recent years, Cross-Domain Recommendation (CDR) has drawn significant attention, which utilizes user data from multiple domains to enhance the recommendation performance. However, current CDR methods require sharing user data across domains, thereby violating the General Data Protection Regulation (GDPR). Consequently, numerous approaches have been proposed for Federated Cross-Domain Recommendation (FedCDR). Nevertheless, the data heterogeneity across different domains inevitably influences the overall performance of federated learning. In this study, we propose FedHCDR, a novel Federated Cross-Domain Recommendation framework with Hypergraph signal decoupling. Specifically, to address the data heterogeneity across domains, we introduce an approach called hypergraph signal decoupling (HSD) to decouple the user features into domain-exclusive and domain-shared features. The approach employs high-pass and low-pass hypergraph filters to de
-    
-[^4]: 规模化模型编辑会导致渐进性和突发性遗忘
-
-    Model Editing at Scale leads to Gradual and Catastrophic Forgetting
-
-    [https://arxiv.org/abs/2401.07453](https://arxiv.org/abs/2401.07453)
-
-    评估了当前模型编辑方法在规模化情况下的表现，发现随着模型被顺序编辑多个事实，它会逐渐遗忘先前的事实及执行下游任务的能力。
+    这个论文提出了一种新型知识图谱嵌入模型OrthogonalE，利用矩阵表示实体和块对角正交矩阵表示关系，增强了模型的灵活性和广泛性，并在实验中表现出比最先进模型更好的性能和较少的参数数量。
 
     
 
-    在大型语言模型中编辑知识是一种具有吸引力的能力，它使我们能够在预训练期间纠正错误学习的事实，同时使用不断增长的新事实列表更新模型。我们认为，为了使模型编辑具有实际效用，我们必须能够对同一模型进行多次编辑。因此，我们评估了当前规模下的模型编辑方法，重点关注两种最先进的方法：ROME 和 MEMIT。我们发现，随着模型被顺序编辑多个事实，它不断地遗忘先前编辑过的事实以及执行下游任务的能力。这种遗忘分为两个阶段--初始的渐进性遗忘阶段，随后是突然或灾难性的遗忘。
+    知识图谱嵌入的主要目标是学习实体和关系的低维表示以预测缺失的事实。旋转-based方法如RotatE和QuatE在知识图谱嵌入中表现良好，但面临两个挑战：模型的灵活性有限，需要与实体维度成比例地增加关系大小，并且难以推广到更高维度的旋转。为了解决这些问题，我们引入了OrthogonalE，一种新颖的知识图谱嵌入模型，它利用矩阵表示实体和块对角正交矩阵与Riemannian优化表示关系。这种方法增强了知识图谱嵌入模型的广泛性和灵活性。实验结果表明，我们的新型知识图谱嵌入模型OrthogonalE既具有广泛性又具有灵活性，明显优于最先进的知识图谱嵌入模型，并显著减少了关系参数的数量。
 
-    arXiv:2401.07453v2 Announce Type: replace-cross  Abstract: Editing knowledge in large language models is an attractive capability to have which allows us to correct incorrectly learnt facts during pre-training, as well as update the model with an ever-growing list of new facts. While existing model editing techniques have shown promise, they are usually evaluated using metrics for reliability, specificity and generalization over one or few edits. We argue that for model editing to have practical utility, we must be able to make multiple edits to the same model. With this in mind, we evaluate the current model editing methods at scale, focusing on two state of the art methods: ROME and MEMIT. We find that as the model is edited sequentially with multiple facts, it continually forgets previously edited facts and the ability to perform downstream tasks. This forgetting happens in two phases -- an initial gradual but progressive forgetting phase followed by abrupt or catastrophic forgettin
+    The primary aim of Knowledge Graph embeddings (KGE) is to learn low-dimensional representations of entities and relations for predicting missing facts. While rotation-based methods like RotatE and QuatE perform well in KGE, they face two challenges: limited model flexibility requiring proportional increases in relation size with entity dimension, and difficulties in generalizing the model for higher-dimensional rotations. To address these issues, we introduce OrthogonalE, a novel KGE model employing matrices for entities and block-diagonal orthogonal matrices with Riemannian optimization for relations. This approach enhances the generality and flexibility of KGE models. The experimental results indicate that our new KGE model, OrthogonalE, is both general and flexible, significantly outperforming state-of-the-art KGE models while substantially reducing the number of relation parameters.
     
-[^5]: 组织病理学图像搜索引擎的分析与验证
+[^3]: 在教育数据挖掘中深度学习技术的综合调研
 
-    Analysis and Validation of Image Search Engines in Histopathology. (arXiv:2401.03271v1 [eess.IV])
+    A Comprehensive Survey on Deep Learning Techniques in Educational Data Mining. (arXiv:2309.04761v1 [cs.LG])
 
-    [http://arxiv.org/abs/2401.03271](http://arxiv.org/abs/2401.03271)
+    [http://arxiv.org/abs/2309.04761](http://arxiv.org/abs/2309.04761)
 
-    本文对组织病理学图像搜索引擎进行了分析和验证，对其性能进行了评估。研究发现，某些搜索引擎在效率和速度上表现出色，但精度较低，而其他搜索引擎的准确率较高，但运行效率较低。
-
-    
-
-    在组织学和病理学图像档案中搜索相似图像是一项关键任务，可以在各种目的中帮助患者匹配，从分类和诊断到预后和预测。全玻片图像是组织标本的高度详细数字表示，匹配全玻片图像可以作为患者匹配的关键方法。本文对四种搜索方法，视觉词袋（BoVW）、Yottixel、SISH、RetCCL及其一些潜在变种进行了广泛的分析和验证。我们分析了它们的算法和结构，并评估了它们的性能。为了进行评估，我们使用了四个内部数据集（1269位患者）和三个公共数据集（1207位患者），总计超过200,000个属于五个主要部位的38个不同类别/亚型的图像块。某些搜索引擎，例如BoVW，表现出显着的效率和速度，但精度较低。相反，其他搜索引擎例如SISH表现出较高的准确率，但运行效率较低。
-
-    Searching for similar images in archives of histology and histopathology images is a crucial task that may aid in patient matching for various purposes, ranging from triaging and diagnosis to prognosis and prediction. Whole slide images (WSIs) are highly detailed digital representations of tissue specimens mounted on glass slides. Matching WSI to WSI can serve as the critical method for patient matching. In this paper, we report extensive analysis and validation of four search methods bag of visual words (BoVW), Yottixel, SISH, RetCCL, and some of their potential variants. We analyze their algorithms and structures and assess their performance. For this evaluation, we utilized four internal datasets ($1269$ patients) and three public datasets ($1207$ patients), totaling more than $200,000$ patches from $38$ different classes/subtypes across five primary sites. Certain search engines, for example, BoVW, exhibit notable efficiency and speed but suffer from low accuracy. Conversely, searc
-    
-[^6]: 使用社交网络分析和用户观看模式的视频推荐方法
-
-    Video Recommendation Using Social Network Analysis and User Viewing Patterns. (arXiv:2308.12743v1 [cs.SI])
-
-    [http://arxiv.org/abs/2308.12743](http://arxiv.org/abs/2308.12743)
-
-    本论文旨在填补现有基于隐性反馈的视频推荐系统研究空白，通过社交网络分析和用户观看模式来构建有效的视频推荐模型。
+    本调研综合审查了在教育数据挖掘中深度学习技术的最新研究进展，包括对知识跟踪、学生不良行为检测、性能预测和个性化推荐等典型教育场景的应用。同时提供了公共数据集和处理工具的综合概述，并指出了未来的研究方向。
 
     
 
-    随着视频点播平台的迅猛崛起，用户面临着从大量内容中筛选出与自己喜好相符的节目的挑战。为了解决这个信息过载的困境，视频点播服务越来越多地加入了利用算法分析用户行为并建议个性化内容的推荐系统。然而，大多数现有的推荐系统依赖于用户明确的反馈，如评分和评论，但这种反馈的收集往往困难且耗时。因此，在建立有效的视频推荐模型方面，利用用户的隐性反馈模式可能提供了一条替代途径，避免了对明确评分的需求。然而，现有文献对于基于隐性反馈的推荐系统，特别是在建模视频观看行为方面，尚缺乏足够的探索。因此，本文旨在填补这一研究空白。
+    教育数据挖掘(EDM)作为研究的重要领域，利用计算技术来分析教育数据。随着教育数据的复杂性和多样性增加，深度学习技术在解决分析和建模这些数据所面临的挑战方面表现出了显著的优势。本调研旨在系统地审查深度学习在EDM领域的最新研究进展。我们首先提供了关于EDM和深度学习的简要介绍，强调了它们在现代教育环境中的重要性。接下来，我们详细回顾了在四个典型教育场景中应用的深度学习技术，包括知识跟踪、学生不良行为检测、性能预测和个性化推荐。此外，我们还提供了EDM的公共数据集和处理工具的综合概述。最后，我们指出了该研究领域的新兴趋势和未来方向。
 
-    With the meteoric rise of video-on-demand (VOD) platforms, users face the challenge of sifting through an expansive sea of content to uncover shows that closely match their preferences. To address this information overload dilemma, VOD services have increasingly incorporated recommender systems powered by algorithms that analyze user behavior and suggest personalized content. However, a majority of existing recommender systems depend on explicit user feedback in the form of ratings and reviews, which can be difficult and time-consuming to collect at scale. This presents a key research gap, as leveraging users' implicit feedback patterns could provide an alternative avenue for building effective video recommendation models, circumventing the need for explicit ratings. However, prior literature lacks sufficient exploration into implicit feedback-based recommender systems, especially in the context of modeling video viewing behavior. Therefore, this paper aims to bridge this research gap 
+    Educational Data Mining (EDM) has emerged as a vital field of research, which harnesses the power of computational techniques to analyze educational data. With the increasing complexity and diversity of educational data, Deep Learning techniques have shown significant advantages in addressing the challenges associated with analyzing and modeling this data. This survey aims to systematically review the state-of-the-art in EDM with Deep Learning. We begin by providing a brief introduction to EDM and Deep Learning, highlighting their relevance in the context of modern education. Next, we present a detailed review of Deep Learning techniques applied in four typical educational scenarios, including knowledge tracing, undesirable student detecting, performance prediction, and personalized recommendation. Furthermore, a comprehensive overview of public datasets and processing tools for EDM is provided. Finally, we point out emerging trends and future directions in this research area.
     
-[^7]: DAPR：文档感知段落检索的基准测试
+[^4]: LLaMA-E：多方面指导下的电子商务创作增强系统
 
-    DAPR: A Benchmark on Document-Aware Passage Retrieval. (arXiv:2305.13915v1 [cs.IR])
+    LLaMA-E: Empowering E-commerce Authoring with Multi-Aspect Instruction Following. (arXiv:2308.04913v1 [cs.CL])
 
-    [http://arxiv.org/abs/2305.13915](http://arxiv.org/abs/2305.13915)
+    [http://arxiv.org/abs/2308.04913](http://arxiv.org/abs/2308.04913)
 
-    DAPR是一个文档感知段落检索的基准测试，挑战在于如何从长文档中找到正确的段落并返回准确结果。
-
-    
-
-    最近的神经检索主要关注短文本的排名，并且在处理长文档方面存在挑战。现有的工作主要评估排名段落或整个文档。然而，许多情况下，用户希望从庞大的语料库中找到长文档中的相关段落，例如法律案例，研究论文等，此时段落往往提供很少的文档上下文，这就挑战了当前的方法找到正确的文档并返回准确的结果。为了填补这个空白，我们提出并命名了Document-Aware Passage Retrieval（DAPR）任务，并构建了一个包括来自不同领域的多个数据集的基准测试，涵盖了DAPR和整个文档检索。在实验中，我们通过不同的方法，包括在文档摘要中添加文档级别的内容，汇总段落表示和使用BM25进行混合检索，扩展了最先进的神经段落检索器。这个混合检索系统，总体基准测试显示，我们提出的DAPR任务是一个具有挑战性和重要性的问题，需要进一步研究。
-
-    Recent neural retrieval mainly focuses on ranking short texts and is challenged with long documents. Existing work mainly evaluates either ranking passages or whole documents. However, there are many cases where the users want to find a relevant passage within a long document from a huge corpus, e.g. legal cases, research papers, etc. In this scenario, the passage often provides little document context and thus challenges the current approaches to finding the correct document and returning accurate results. To fill this gap, we propose and name this task Document-Aware Passage Retrieval (DAPR) and build a benchmark including multiple datasets from various domains, covering both DAPR and whole-document retrieval. In experiments, we extend the state-of-the-art neural passage retrievers with document-level context via different approaches including prepending document summary, pooling over passage representations, and hybrid retrieval with BM25. The hybrid-retrieval systems, the overall b
-    
-[^8]: Mixer: 应用于工业应用的图像到跨模态检索学习
-
-    Mixer: Image to Multi-Modal Retrieval Learning for Industrial Application. (arXiv:2305.03972v1 [cs.IR])
-
-    [http://arxiv.org/abs/2305.03972](http://arxiv.org/abs/2305.03972)
-
-    提出了一种新的可伸缩高效的图像到跨模态检索范式Mixer，解决了领域差距、跨模态数据对齐和融合、繁杂的数据训练标签以及海量查询和及时响应等问题。
+    LLaMA-E是一种统一且定制的指导语言模型，旨在解决电子商务创作过程中遇到的各种任务，包括广告生成、查询增强的产品标题改写、产品分类、购买意图推测和常规问答。
 
     
 
-    跨模态检索一直是电子商务平台和内容分享社交媒体中普遍存在的需求，其中查询是一张图片，文档是具有图片和文本描述的项目。然而，目前这种检索任务仍面临诸多挑战，包括领域差距、跨模态数据对齐和融合、繁杂的数据训练标签以及海量查询和及时响应等问题。为此，我们提出了一种名为Mixer的新型可伸缩和高效的图像查询到跨模态检索学习范式。Mixer通过自适应地整合多模态数据、更高效地挖掘偏斜和嘈杂的数据，并可扩展到高负载量，解决了这些问题。
+    电子商务创作涉及创建吸引人、丰富且有针对性的促销内容，以推动产品销售。大型语言模型（LLM）的出现引入了一种创新的范例，为解决这种情景中的各种创作任务提供了统一的解决方案。然而，基于通用语料库和常识知识训练的主流LLM在适应电子商务产品和客户独特的复杂和个性化特征方面存在局限性。此外，像GPT-3.5这样的LLM需要进行远程访问，引发了在传输过程中保护大量客户隐私数据的担忧。本文提出了LLaMA-E，针对多样化的电子商务创作任务的统一且定制的指导语言模型。具体而言，领域专家从广告生成、查询增强的产品标题改写、产品分类、购买意图推测和常规问答等任务中创建了种子指导集合。这些任务能够...
 
-    Cross-modal retrieval, where the query is an image and the doc is an item with both image and text description, is ubiquitous in e-commerce platforms and content-sharing social media. However, little research attention has been paid to this important application. This type of retrieval task is challenging due to the facts: 1)~domain gap exists between query and doc. 2)~multi-modality alignment and fusion. 3)~skewed training data and noisy labels collected from user behaviors. 4)~huge number of queries and timely responses while the large-scale candidate docs exist. To this end, we propose a novel scalable and efficient image query to multi-modal retrieval learning paradigm called Mixer, which adaptively integrates multi-modality data, mines skewed and noisy data more efficiently and scalable to high traffic. The Mixer consists of three key ingredients: First, for query and doc image, a shared encoder network followed by separate transformation networks are utilized to account for their
-    
-[^9]: 算法中立性
-
-    Algorithmic neutrality. (arXiv:2303.05103v2 [cs.CY] UPDATED)
-
-    [http://arxiv.org/abs/2303.05103](http://arxiv.org/abs/2303.05103)
-
-    研究算法中立性以及与算法偏见的关系，以搜索引擎为案例研究，得出搜索中立性是不可能的结论。
-
-    
-
-    偏见影响着越来越多掌控我们生活的算法。预测性警务系统错误地高估有色人种社区的犯罪率；招聘算法削弱了合格的女性候选人的机会；人脸识别软件难以识别黑皮肤的面部。算法偏见已经受到了重视，相比之下，算法中立性却基本被忽视了。算法中立性是我的研究主题。我提出了三个问题。算法中立性是什么？算法中立性是否可能？当我们考虑算法中立性时，我们可以从算法偏见中学到什么？为了具体回答这些问题，我选择了一个案例研究：搜索引擎。借鉴关于科学中立性的研究，我认为只有当搜索引擎的排名不受某些价值观的影响时，搜索引擎才是中立的，比如政治意识形态或搜索引擎运营商的经济利益。我认为搜索中立性是不可能的。
-
-    Bias infects the algorithms that wield increasing control over our lives. Predictive policing systems overestimate crime in communities of color; hiring algorithms dock qualified female candidates; and facial recognition software struggles to recognize dark-skinned faces. Algorithmic bias has received significant attention. Algorithmic neutrality, in contrast, has been largely neglected. Algorithmic neutrality is my topic. I take up three questions. What is algorithmic neutrality? Is algorithmic neutrality possible? When we have algorithmic neutrality in mind, what can we learn about algorithmic bias? To answer these questions in concrete terms, I work with a case study: search engines. Drawing on work about neutrality in science, I say that a search engine is neutral only if certain values -- like political ideologies or the financial interests of the search engine operator -- play no role in how the search engine ranks pages. Search neutrality, I argue, is impossible. Its impossibili
-    
-[^10]: 基于机器学习的多阶段系统对真实患者数据进行视力预测
-
-    Visual Acuity Prediction on Real-Life Patient Data Using a Machine Learning Based Multistage System. (arXiv:2204.11970v2 [eess.IV] UPDATED)
-
-    [http://arxiv.org/abs/2204.11970](http://arxiv.org/abs/2204.11970)
-
-    本研究提供了一种使用机器学习技术开发预测模型的多阶段系统，可高精度预测三种眼疾患者的视力变化，并辅助眼科医生进行临床决策和患者咨询。
-
-    
-
-    现实生活中，眼科学中的玻璃体手术药物治疗是治疗年龄相关性黄斑变性（AMD）、糖尿病性黄斑水肿（DME）和视网膜静脉阻塞（RVO）相关疾病的一种普遍治疗方法。然而，在真实世界的情况下，由于数据的异质性和不完整性，患者往往会在多年时间内失去视力，尽管接受治疗。本文采用多种IT系统，提出了一种用于研究的数据集成流程，该流程融合了德国一家最佳医疗保健医院的眼科部门的不同IT系统。经过使用机器学习技术开发预测模型，我们实现了对患者视力的预测。我们的结果表明，我们的系统可以为三种疾病的预测提供高准确性。此外，我们还展示了我们的系统可以作为工具，辅助眼科医生进行临床决策和患者咨询。
-
-    In ophthalmology, intravitreal operative medication therapy (IVOM) is a widespread treatment for diseases related to the age-related macular degeneration (AMD), the diabetic macular edema (DME), as well as the retinal vein occlusion (RVO). However, in real-world settings, patients often suffer from loss of vision on time scales of years despite therapy, whereas the prediction of the visual acuity (VA) and the earliest possible detection of deterioration under real-life conditions is challenging due to heterogeneous and incomplete data. In this contribution, we present a workflow for the development of a research-compatible data corpus fusing different IT systems of the department of ophthalmology of a German maximum care hospital. The extensive data corpus allows predictive statements of the expected progression of a patient and his or her VA in each of the three diseases. We found out for the disease AMD a significant deterioration of the visual acuity over time. Within our proposed m
+    E-commerce authoring involves creating attractive, abundant, and targeted promotional content to drive product sales. The emergence of large language models (LLMs) introduces an innovative paradigm, offering a unified solution to address various authoring tasks within this scenario. However, mainstream LLMs trained on general corpora with common sense knowledge reveal limitations in fitting complex and personalized features unique to e-commerce products and customers. Furthermore, LLMs like GPT-3.5 necessitate remote accessibility, raising concerns about safeguarding voluminous customer privacy data during transmission. This paper proposes the LLaMA-E, the unified and customized instruction-following language models focusing on diverse e-commerce authoring tasks. Specifically, the domain experts create the seed instruction set from the tasks of ads generation, query-enhanced product title rewriting, product classification, purchase intent speculation, and general Q&A. These tasks enabl
     
 
