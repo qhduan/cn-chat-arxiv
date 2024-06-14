@@ -2,82 +2,112 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Single-token vs Two-token Blockchain Tokenomics](https://arxiv.org/abs/2403.15429) | 论文研究了由用户和验证者组成的PoS区块链系统中的令牌经济设计，探讨了系统服务提供与适当奖励方案如何共同导致具有可取特征的均衡状态。 |
-| [^2] | [Non-robustness of diffusion estimates on networks with measurement error](https://arxiv.org/abs/2403.05704) | 测量误差对网络扩散估计产生了严重的非鲁棒性，即使误差很小，也会导致扩散程度被低估，并且初始种子的微小误差会大大改变预期扩散路径。 |
-| [^3] | [Community Enforcement with Endogenous Records](https://arxiv.org/abs/2401.00839) | 社区在匿名随机匹配下，通过内生记录实现强制执行，发现玩家行动的互补性可能削弱他们维持合作的能力。 |
-| [^4] | [Claim Reserving via Inverse Probability Weighting: A Micro-Level Chain-Ladder Method.](http://arxiv.org/abs/2307.10808) | 本文提出了一种通过逆概率加权技术将个体级别的细粒度信息融入到赔偿准备中的方法，为统计上合理的聚合赔偿准备提供了一种简约的宏观级别方法。 |
-| [^5] | [Bounds, Heuristics, and Prophet Inequalities for Assortment Optimization.](http://arxiv.org/abs/2109.14861) | 本文引入了离散选择模型中的赔率比，并利用它们制定了界限来解决组合优化问题。我们还提出了一种有洞察力的公司模型来评估个性化组合的潜在收益。数值研究表明，当产品效用具有异质性且方差较小时，个性化组合可以带来巨大的收益。 |
+| [^1] | [Learning Macroeconomic Policies based on Microfoundations: A Stackelberg Mean Field Game Approach](https://arxiv.org/abs/2403.12093) | 本研究提出了基于Stackelberg Mean Field Game的方法，可以有效地学习宏观经济政策，并在模型预训练和无模型Stackelberg均场强化学习算法的基础上取得了实验结果表明其优越性。 |
+| [^2] | [Asymptotic Theory for Two-Way Clustering](https://arxiv.org/abs/2301.03805) | 该论文证明了针对表现出两路依赖性和集群异质性样本的新中心极限定理，弥补了先前只适用于具有同质性要求的两路聚类推断理论，并在推断上对线性回归进行了验证。 |
+| [^3] | [Local Identification in the Instrumental Variable Multivariate Quantile Regression Model.](http://arxiv.org/abs/2401.11422) | 提出了基于最优输运的多元分位数回归模型，考虑结果变量中条目之间的相关性，并提供了局部识别结果。结果表明，所需的仪器变量（IV）的支持大小与结果向量的维度无关，只需IV足够信息量。 |
+| [^4] | [The Mean Squared Error of the Ridgeless Least Squares Estimator under General Assumptions on Regression Errors.](http://arxiv.org/abs/2305.12883) | 该论文研究了基于一般回归误差假设的无噪声回归最小二乘估计值的均方误差，并发现包含大量不重要的参数可以有效地降低估计器的均方误差。 |
+| [^5] | [Covert learning and disclosure.](http://arxiv.org/abs/2304.02989) | 本研究研究了一个信息获取和传递的模型，在该模型中，发送者选择有选择性地忽视信息，而不是欺骗接收者。本文阐明了欺骗可能性如何决定发送者选择获取和传递的信息，并确定了发送者和接收者最优的伪造环境。 |
+| [^6] | [Artificial Intelligence and Dual Contract.](http://arxiv.org/abs/2303.12350) | 本文通过实验研究了人工智能算法在双重合同问题中能够自主设计激励相容的合同，无需外部引导或通信，并且不同AI算法支持的委托人可以采用混合和零和博弈行为，更具智能的委托人往往会变得合作。 |
+| [^7] | [Finding all stable matchings with assignment constraints.](http://arxiv.org/abs/2204.03989) | 本文提出了一个算法，可以寻找受分配约束的稳定匹配，并输出所有的稳定匹配。这为市场设计者提供了测试和实施具有分配约束的稳定匹配的工具。 |
 
 # 详细
 
-[^1]: 单令牌 vs 双令牌区块链经济模型
+[^1]: 基于微观基础的宏观经济政策学习：一种斯塔克尔贝格均场博弈方法
 
-    Single-token vs Two-token Blockchain Tokenomics
+    Learning Macroeconomic Policies based on Microfoundations: A Stackelberg Mean Field Game Approach
 
-    [https://arxiv.org/abs/2403.15429](https://arxiv.org/abs/2403.15429)
+    [https://arxiv.org/abs/2403.12093](https://arxiv.org/abs/2403.12093)
 
-    论文研究了由用户和验证者组成的PoS区块链系统中的令牌经济设计，探讨了系统服务提供与适当奖励方案如何共同导致具有可取特征的均衡状态。
-
-    
-
-    我们考虑了由用户和验证者组成的PoS区块链系统的令牌经济设计中产生的长期均衡，两者都致力于最大化自己的效用。验证者是系统维护者，他们通过执行系统正常运行所需的工作来获得令牌作为奖励，而用户则通过支付这些令牌来获取所需的系统服务水平。我们研究了系统服务提供和适当奖励方案如何共同导致具有可取特征的均衡状态：（1）可持续性：系统保持各方参与，（2）去中心化：多个验证者参与，（3）稳定性：用于与系统交易的基础令牌的价格路径随时间不会发生大幅变化，和（4）可行性：该机制易于实现为智能合约，即不需要在链上进行买回令牌或执行其他操作。
-
-    arXiv:2403.15429v1 Announce Type: cross  Abstract: We consider long-term equilibria that arise in the tokenomics design of proof-of-stake (PoS) blockchain systems that comprise of users and validators, both striving to maximize their own utilities. Validators are system maintainers who get rewarded with tokens for performing the work necessary for the system to function properly, while users compete and pay with such tokens for getting a desired system service level.   We study how the system service provision and suitable rewards schemes together can lead to equilibria with desirable characteristics (1) viability: the system keeps parties engaged, (2) decentralization: multiple validators are participating, (3) stability: the price path of the underlying token used to transact with the system does not change widely over time, and (4) feasibility: the mechanism is easy to implement as a smart contract, i.e., it does not require fiat reserves on-chain for buy back of tokens or to perfor
-    
-[^2]: 测量误差对网络扩散估计的非鲁棒性
-
-    Non-robustness of diffusion estimates on networks with measurement error
-
-    [https://arxiv.org/abs/2403.05704](https://arxiv.org/abs/2403.05704)
-
-    测量误差对网络扩散估计产生了严重的非鲁棒性，即使误差很小，也会导致扩散程度被低估，并且初始种子的微小误差会大大改变预期扩散路径。
+    本研究提出了基于Stackelberg Mean Field Game的方法，可以有效地学习宏观经济政策，并在模型预训练和无模型Stackelberg均场强化学习算法的基础上取得了实验结果表明其优越性。
 
     
 
-    网络扩散模型被用于研究疾病传播、信息传播和技术采用等问题。然而，构建这些模型的网络中极有可能存在少量测量误差。我们展示了扩散估计对这种测量误差的非常非鲁棒性。首先，我们展示即使测量误差几乎可以忽略不计，错过链接的比例接近于零，关于扩散程度的预测也会大大低估真实情况。其次，初始种子身份的微小测量误差会导致预期扩散路径的位置发生很大偏移。我们展示了即使微小的测量误差只是局部性质，这两项结果仍然成立。即使在基础传播数可持续估计的条件下，预测中存在这种非鲁棒性。可能的解决方案，比如估计测量误差的方法。
+    有效的宏观经济政策在促进经济增长和社会稳定方面起着至关重要的作用。本文基于Stackelberg Mean Field Game（SMFG）模型，将最优宏观经济政策问题建模，其中政府作为政策制定的领导者，大规模家庭动态响应为追随者。这种建模方法捕捉了政府和大规模家庭之间的非对称动态博弈，并可以解释地评估基于微观基础的宏观经济政策效果，这是现有方法难以实现的。我们还提出了一种解决SMFG的方法，将真实数据进行预训练，并结合一种无模型的Stackelberg均场强化学习（SMFRL）算法，该算法可以独立于先前的环境知识和转变运行。我们的实验结果展示了SMFG方法在经济政策方面优于其他方法的优越性。
 
-    arXiv:2403.05704v1 Announce Type: new  Abstract: Network diffusion models are used to study things like disease transmission, information spread, and technology adoption. However, small amounts of mismeasurement are extremely likely in the networks constructed to operationalize these models. We show that estimates of diffusions are highly non-robust to this measurement error. First, we show that even when measurement error is vanishingly small, such that the share of missed links is close to zero, forecasts about the extent of diffusion will greatly underestimate the truth. Second, a small mismeasurement in the identity of the initial seed generates a large shift in the locations of expected diffusion path. We show that both of these results still hold when the vanishing measurement error is only local in nature. Such non-robustness in forecasting exists even under conditions where the basic reproductive number is consistently estimable. Possible solutions, such as estimating the measu
+    arXiv:2403.12093v1 Announce Type: cross  Abstract: Effective macroeconomic policies play a crucial role in promoting economic growth and social stability. This paper models the optimal macroeconomic policy problem based on the \textit{Stackelberg Mean Field Game} (SMFG), where the government acts as the leader in policy-making, and large-scale households dynamically respond as followers. This modeling method captures the asymmetric dynamic game between the government and large-scale households, and interpretably evaluates the effects of macroeconomic policies based on microfoundations, which is difficult for existing methods to achieve. We also propose a solution for SMFGs, incorporating pre-training on real data and a model-free \textit{Stackelberg mean-field reinforcement learning }(SMFRL) algorithm, which operates independently of prior environmental knowledge and transitions. Our experimental results showcase the superiority of the SMFG method over other economic policies in terms 
     
-[^3]: 具有内生记录的社区执行
+[^2]: 两路聚类的渐近理论
 
-    Community Enforcement with Endogenous Records
+    Asymptotic Theory for Two-Way Clustering
 
-    [https://arxiv.org/abs/2401.00839](https://arxiv.org/abs/2401.00839)
+    [https://arxiv.org/abs/2301.03805](https://arxiv.org/abs/2301.03805)
 
-    社区在匿名随机匹配下，通过内生记录实现强制执行，发现玩家行动的互补性可能削弱他们维持合作的能力。
-
-    
-
-    我研究了在匿名随机匹配下的重复博弈，玩家可以擦除记录中的信号。当玩家寿命足够长且具有严格主导行动时，在所有均衡中，他们会几乎以概率1玩其主导行动。当玩家的预期寿命居中时，在次模博囚困境中存在一种可净化的均衡，其中合作的水平是正的，但在超模博囚困境中不存在。因此，一个社区可以维持的最大合作水平与玩家的预期寿命不是单调的，并且玩家行动的互补性可能会削弱他们维持合作的能力。
-
-    arXiv:2401.00839v2 Announce Type: replace  Abstract: I study repeated games with anonymous random matching where players can erase signals from their records. When players are sufficiently long-lived and have strictly dominant actions, they will play their dominant actions with probability close to one in all equilibria. When players' expected lifespans are intermediate, there exist purifiable equilibria with a positive level of cooperation in the submodular prisoner's dilemma but not in the supermodular prisoner's dilemma. Therefore, the maximal level of cooperation a community can sustain is not monotone with respect to players' expected lifespans and the complementarity in players' actions can undermine their abilities to sustain cooperation.
-    
-[^4]: 通过逆概率加权的赔偿准备金：一种微观层面的链条梯级方法
-
-    Claim Reserving via Inverse Probability Weighting: A Micro-Level Chain-Ladder Method. (arXiv:2307.10808v1 [econ.EM])
-
-    [http://arxiv.org/abs/2307.10808](http://arxiv.org/abs/2307.10808)
-
-    本文提出了一种通过逆概率加权技术将个体级别的细粒度信息融入到赔偿准备中的方法，为统计上合理的聚合赔偿准备提供了一种简约的宏观级别方法。
+    该论文证明了针对表现出两路依赖性和集群异质性样本的新中心极限定理，弥补了先前只适用于具有同质性要求的两路聚类推断理论，并在推断上对线性回归进行了验证。
 
     
 
-    赔偿准备常常使用宏观级别或聚合模型完成，其中链条梯级法是最流行的方法。然而，这些方法是启发式构建的，依赖于过度简化的数据假设，忽视了投保人的异质性，导致缺乏准确性。相反，微观层面的准备金利用精细信息进行随机建模以获得更好的预测，但通常以对从业人员不具吸引力的复杂模型为代价。在本文中，我们介绍了一种简约的宏观级别方法，可以在个体级别上融入细粒度信息。我们通过将赔偿准备问题视为人群抽样问题，并提出了一种使用逆概率加权技术的估计方法，其权重由投保人属性驱动。该框架为频率和
+    本文证明了对于表现出两路依赖性和集群异质性的样本，存在一种新的中心极限定理。至今，在具有两路依赖性和集群异质性情况下的统计推断一直是一个悬而未决的问题。现有的两路聚类推断理论要求集群间具有相同的分布（所谓的独立交换性假设所导出的），而在现有的一路聚类理论中并不需要这样的同质性要求。因此，新的结果从理论上证实了两路聚类是一路聚类的更稳健版本，并与应用实践一致。该结果应用于线性回归，显示了标准插补方差估计是有效的推断方法。
 
-    Claim reserving is primarily accomplished using macro-level or aggregate models, with the Chain-Ladder method being the most popular one. However, these methods are heuristically constructed, rely on oversimplified data assumptions, neglect the heterogeneity of policyholders, and so lead to a lack of accuracy. In contrast, micro-level reserving leverages on stochastic modeling with granular information for improved predictions, but usually comes at the cost of more complex models that are unattractive to practitioners. In this paper, we introduce a simplistic macro-level type approach that can incorporate granular information at the individual level. We do so by considering a novel framework in which we view the claim reserving problem as a population sampling problem and propose an estimator using inverse probability weighting techniques, with weights driven by policyholder attributes. The framework provides a statistically sound method for aggregate claim reserving in a frequency and
+    arXiv:2301.03805v2 Announce Type: replace  Abstract: This paper proves a new central limit theorem for a sample that exhibits two-way dependence and heterogeneity across clusters. Statistical inference for situations with both two-way dependence and cluster heterogeneity has thus far been an open issue. The existing theory for two-way clustering inference requires identical distributions across clusters (implied by the so-called separate exchangeability assumption). Yet no such homogeneity requirement is needed in the existing theory for one-way clustering. The new result therefore theoretically justifies the view that two-way clustering is a more robust version of one-way clustering, consistent with applied practice. The result is applied to linear regression, where it is shown that a standard plug-in variance estimator is valid for inference.
     
-[^5]: 界限、启发式和预言不等式在组合优化中的应用
+[^3]: 仪器变量多元分位数回归模型中的局部识别
 
-    Bounds, Heuristics, and Prophet Inequalities for Assortment Optimization. (arXiv:2109.14861v4 [econ.TH] UPDATED)
+    Local Identification in the Instrumental Variable Multivariate Quantile Regression Model. (arXiv:2401.11422v1 [econ.EM])
 
-    [http://arxiv.org/abs/2109.14861](http://arxiv.org/abs/2109.14861)
+    [http://arxiv.org/abs/2401.11422](http://arxiv.org/abs/2401.11422)
 
-    本文引入了离散选择模型中的赔率比，并利用它们制定了界限来解决组合优化问题。我们还提出了一种有洞察力的公司模型来评估个性化组合的潜在收益。数值研究表明，当产品效用具有异质性且方差较小时，个性化组合可以带来巨大的收益。
+    提出了基于最优输运的多元分位数回归模型，考虑结果变量中条目之间的相关性，并提供了局部识别结果。结果表明，所需的仪器变量（IV）的支持大小与结果向量的维度无关，只需IV足够信息量。
 
     
 
-    我们引入了离散选择模型中的赔率比，并利用它们来制定界限，以便开发适用于完全单调约束下的组合优化问题的启发式算法，并评估个性化组合的效益。这些启发式算法仅需要底层离散选择模型的第一和最后选择概率，具有广泛的适用性，高效率，并带有最坏情况性能保证。我们提出了一个有洞察力的公司模型，以在极限情况下评估个性化组合的潜在收益。我们的数值研究表明，当产品的平均效用在不同的消费者类型之间具有异质性时，而且效用的方差很小时，公司可以从个性化组合中获得可观的收益。我们通过理论发现支持这些观察结果和其他结果。对于常规的DCM模型，我们展示了一个有洞察力的公司可以获得多达$n$倍的预期收益。
+    Chernozhukov和Hansen（2005）引入的仪器变量（IV）分位数回归模型是分析内生性情况下分位数处理效应的有用工具，但当结果变量是多维的时，它对每个变量不同维度的联合分布保持沉默。为了克服这个限制，我们提出了一个基于最优输运的考虑结果变量中条目之间相关性的多元分位数回归模型。然后，我们为模型提供了一个局部识别结果。令人惊讶的是，我们发现，所需的用于识别的IV的支持大小与结果向量的维度无关，只要IV足够信息量。我们的结果来自我们建立的一个具有独立理论意义的一般识别定理。
 
-    We introduce odds-ratios in discrete choice models and utilize them to formulate bounds instrumental to the development of heuristics for the assortment optimization problem subject to totally unimodular constraints, and to the assess the benefit of personalized assortments. These heuristics, which only require the first and last-choice probabilities of the underlying discrete choice model, are broadly applicable, efficient, and come with worst-case performance guarantees. We propose a clairvoyant firm model to assess, in the limit, the potential benefits of personalized assortments. Our numerical study indicates that when the mean utilities of the products are heterogeneous among the consumer types, and the variance of the utilities is small, then firms can gain substantial benefits from personalized assortments. We support these observations, and others, with theoretical findings. For regular DCMs, we show that a clairvoyant firm can generate up to $n$ times more in expected revenues
+    The instrumental variable (IV) quantile regression model introduced by Chernozhukov and Hansen (2005) is a useful tool for analyzing quantile treatment effects in the presence of endogeneity, but when outcome variables are multidimensional, it is silent on the joint distribution of different dimensions of each variable. To overcome this limitation, we propose an IV model built on the optimal-transport-based multivariate quantile that takes into account the correlation between the entries of the outcome variable. We then provide a local identification result for the model. Surprisingly, we find that the support size of the IV required for the identification is independent of the dimension of the outcome vector, as long as the IV is sufficiently informative. Our result follows from a general identification theorem that we establish, which has independent theoretical significance.
+    
+[^4]: 基于一般回归误差假设来研究无噪声回归最小二乘估计值的均方误差
+
+    The Mean Squared Error of the Ridgeless Least Squares Estimator under General Assumptions on Regression Errors. (arXiv:2305.12883v1 [math.ST])
+
+    [http://arxiv.org/abs/2305.12883](http://arxiv.org/abs/2305.12883)
+
+    该论文研究了基于一般回归误差假设的无噪声回归最小二乘估计值的均方误差，并发现包含大量不重要的参数可以有效地降低估计器的均方误差。
+
+    
+
+    近年来，最小$\ell_2$范数（无岭）插值最小二乘估计器的研究方兴未艾。然而，大多数分析都局限于简单的回归误差结构，假设误差是独立同分布的，具有零均值和相同的方差，与特征向量无关。此外，这些理论分析的主要重点是样本外预测风险。本文通过检查无岭插值最小二乘估计器的均方误差，允许更一般的回归误差假设，打破了现有文献的局限性。具体而言，我们研究过度参数化的潜在好处，通过描绘有限样本中的均方误差来表征均方误差。我们的研究结果表明，相对于样本量，包含大量不重要的参数可以有效地降低估计器的均方误差。
+
+    In recent years, there has been a significant growth in research focusing on minimum $\ell_2$ norm (ridgeless) interpolation least squares estimators. However, the majority of these analyses have been limited to a simple regression error structure, assuming independent and identically distributed errors with zero mean and common variance, independent of the feature vectors. Additionally, the main focus of these theoretical analyses has been on the out-of-sample prediction risk. This paper breaks away from the existing literature by examining the mean squared error of the ridgeless interpolation least squares estimator, allowing for more general assumptions about the regression errors. Specifically, we investigate the potential benefits of overparameterization by characterizing the mean squared error in a finite sample. Our findings reveal that including a large number of unimportant parameters relative to the sample size can effectively reduce the mean squared error of the estimator. N
+    
+[^5]: 隐秘的学习和披露
+
+    Covert learning and disclosure. (arXiv:2304.02989v1 [econ.TH])
+
+    [http://arxiv.org/abs/2304.02989](http://arxiv.org/abs/2304.02989)
+
+    本研究研究了一个信息获取和传递的模型，在该模型中，发送者选择有选择性地忽视信息，而不是欺骗接收者。本文阐明了欺骗可能性如何决定发送者选择获取和传递的信息，并确定了发送者和接收者最优的伪造环境。
+
+    
+
+    本研究研究了一个信息获取和传递的模型，在该模型中，发送者误报其发现的能力受到限制。在均衡状态下，发送者选择有选择性地忽视信息，而不是欺骗接收者。虽然不会产生欺骗，但我强调了欺骗可能性如何决定发送者选择获取和传递的信息。然后，本文转向比较静态分析，阐明了发送者如何从其声明更可验证中受益，并表明这类似于增加其承诺能力。最后，本文确定了发送者和接收者最优的伪造环境。
+
+    I study a model of information acquisition and transmission in which the sender's ability to misreport her findings is limited. In equilibrium, the sender only influences the receiver by choosing to remain selectively ignorant, rather than by deceiving her about the discoveries. Although deception does not occur, I highlight how deception possibilities determine what information the sender chooses to acquire and transmit. I then turn to comparative statics, characterizing in which sense the sender benefits from her claims being more verifiable, showing this is akin to increasing her commitment power. Finally, I characterize sender- and receiver-optimal falsification environments.
+    
+[^6]: 人工智能与双重合同
+
+    Artificial Intelligence and Dual Contract. (arXiv:2303.12350v1 [cs.AI])
+
+    [http://arxiv.org/abs/2303.12350](http://arxiv.org/abs/2303.12350)
+
+    本文通过实验研究了人工智能算法在双重合同问题中能够自主设计激励相容的合同，无需外部引导或通信，并且不同AI算法支持的委托人可以采用混合和零和博弈行为，更具智能的委托人往往会变得合作。
+
+    
+
+    随着人工智能算法的快速进步，人们希望算法很快就能在各个领域取代人类决策者，例如合同设计。我们通过实验研究了由人工智能（多智能体Q学习）驱动的算法在双重委托-代理问题的经典“双重合同”模型中的行为。我们发现，这些AI算法可以自主学习设计合适的激励相容合同，而无需外部引导或者它们之间的通信。我们强调，由不同AI算法支持的委托人可以采用混合和零和博弈行为。我们还发现，更具智能的委托人往往会变得合作，而智能较低的委托人则会出现内生性近视并倾向于竞争。在最优合同下，代理的较低合同激励由委托人之间的勾结策略维持。
+
+    With the dramatic progress of artificial intelligence algorithms in recent times, it is hoped that algorithms will soon supplant human decision-makers in various fields, such as contract design. We analyze the possible consequences by experimentally studying the behavior of algorithms powered by Artificial Intelligence (Multi-agent Q-learning) in a workhorse \emph{dual contract} model for dual-principal-agent problems. We find that the AI algorithms autonomously learn to design incentive-compatible contracts without external guidance or communication among themselves. We emphasize that the principal, powered by distinct AI algorithms, can play mixed-sum behavior such as collusion and competition. We find that the more intelligent principals tend to become cooperative, and the less intelligent principals are endogenizing myopia and tend to become competitive. Under the optimal contract, the lower contract incentive to the agent is sustained by collusive strategies between the principals
+    
+[^7]: 寻找受分配约束的所有稳定匹配
+
+    Finding all stable matchings with assignment constraints. (arXiv:2204.03989v3 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2204.03989](http://arxiv.org/abs/2204.03989)
+
+    本文提出了一个算法，可以寻找受分配约束的稳定匹配，并输出所有的稳定匹配。这为市场设计者提供了测试和实施具有分配约束的稳定匹配的工具。
+
+    
+
+    本文考虑了受到分配约束的稳定匹配。这些匹配需要包含某些分配对，坚持排除其他某些分配对，并且是稳定的。我们的主要贡献是提出了一个算法来确定分配约束与稳定性的兼容性。只要存在与分配约束一致的稳定匹配，我们的算法将输出所有稳定匹配（每个解的多项式时间）。这为市场设计者提供了（i）测试具有分配约束的稳定匹配可行性的工具，以及（ii）实施它们的单独工具。
+
+    In this paper we consider stable matchings that are subject to assignment constraints. These are matchings that require certain assigned pairs to be included, insist that some other assigned pairs are not, and, importantly, are stable. Our main contribution is an algorithm that determines when assignment constraints are compatible with stability. Whenever a stable matching consistent with the assignment constraints exists, our algorithm will output all of them (each in polynomial time per solution). This provides market designers with (i) a tool to test the feasibility of stable matchings with assignment constraints, and (ii) a separate tool to implement them.
     
 
