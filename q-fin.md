@@ -2,112 +2,97 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [The Cost of Coming Out](https://arxiv.org/abs/2403.03649) | 通过在线视频游戏中的创新数据和自然实验，研究揭露性取向对玩家偏好的影响。 |
-| [^2] | [Semi-parametric financial risk forecasting incorporating multiple realized measures](https://arxiv.org/abs/2402.09985) | 本研究提出了一个半参数金融风险预测框架，它利用多个实现指标建模联合VaR和ES，并采用非对称拉普拉斯分布进行贝叶斯推断。实证结果表明，该框架在涵盖COVID-19期间的多个股市上表现良好。 |
-| [^3] | [SpotV2Net: Multivariate Intraday Spot Volatility Forecasting via Vol-of-Vol-Informed Graph Attention Networks.](http://arxiv.org/abs/2401.06249) | SpotV2Net是一种基于图注意力网络的多元日内现货波动率预测模型，通过将金融资产表示为图中的节点，并考虑非参数高频傅里叶估计的现货波动率和共波动率作为节点特征，以及波动率和共波动率的傅里叶估计作为节点边缘的特征，SpotV2Net显示出了改进的准确性，并且在日内多步预测时保持了准确性。 |
-| [^4] | [Sourcing Investment Targets for Venture and Growth Capital Using Multivariate Time Series Transformer.](http://arxiv.org/abs/2309.16888) | 这个论文介绍了一种新颖的方法，利用Transformer-based Multivariate Time Series Classifier (TMTSC)来预测风险投资和成长资本的候选公司的成功可能性，以优化投资目标的选择。通过对相关的方法进行了全面回顾和实验验证，证明了该方法的有效性。 |
-| [^5] | [Statistical inference for rough volatility: Central limit theorems.](http://arxiv.org/abs/2210.01216) | 本文提出了基于高频价格观测的一致且渐进混合正态的$H$估计器，用于对粗糙波动性的统计推断。这种估计器在参数化粗糙波动模型中收敛速度最优。 |
-| [^6] | [Equity--Linked Life Insurances on Maximum of Several Assets.](http://arxiv.org/abs/2111.04038) | 本文提出了一种基于贝叶斯马尔科夫-切换向量自回归过程的定价和对冲方法，用于股权链接人寿保险产品，具有依赖经济变量并且简化的优点。 |
-| [^7] | [Options Pricing under Bayesian MS-VAR Process.](http://arxiv.org/abs/2109.05998) | 本文研究了基于贝叶斯MS-VAR过程的期权定价方法，相较于先前依赖于切换过程的期权定价方法而言更加方便易用。 |
+| [^1] | [Social Environment Design](https://arxiv.org/abs/2402.14090) | 该论文提出了一种新的研究议程，介绍了社会环境设计作为一种用于自动化政策制定的AI通用框架，旨在捕捉一般经济环境，通过AI模拟系统分析政府和经济政策，并强调未来基于AI的政策制定研究中的关键挑战。 |
+| [^2] | [Robust Functional Data Analysis for Stochastic Evolution Equations in Infinite Dimensions.](http://arxiv.org/abs/2401.16286) | 本文提出了一种在无限维度中解决随机演化方程的稳健函数数据分析方法，通过考虑横截面和时间结构的相互作用，有效地测量了协变量的变化，具有可辨识性和收敛速度，并能揭示与协变量的缩放极限一致。 |
+| [^3] | [StockFormer: A Swing Trading Strategy Based on STL Decomposition and Self-Attention Networks.](http://arxiv.org/abs/2401.06139) | StockFormer是一种基于STL分解和自注意力网络的摆动交易策略，使用TopKDropout方法来提高股票选取能力。在测试中，其预测结果优于其他十个行业模型，达到了62.39%的市场趋势检测准确率，并取得了在关键预测准确度指标上的优秀表现。在回测中，StockFormer的摆动交易策略累计收益率为13.19%。 |
+| [^4] | [A Model of Enclosures: Coordination, Conflict, and Efficiency in the Transformation of Land Property Rights.](http://arxiv.org/abs/2311.01592) | 本研究使用聚合博弈的框架，研究了土地所有制体制的转变过程，发现人口密度、技术改进、围地成本、群体凝聚力和谈判力的变化，以及政策和制度环境等因素会影响土地私有化的效率。 |
+| [^5] | [Exploitation Business: Leveraging Information Asymmetry.](http://arxiv.org/abs/2310.09802) | 该论文调查了“利用信息不对称的剥削业务”模式，即通过资本化信息不对称来剥削弱势群体，特别关注以非专家为目标的企业或欺诈者利用信息不对称向绝望个体销售产品或服务。 |
+| [^6] | [The Growth, Geography, and Implications of Trade in Digital Products.](http://arxiv.org/abs/2310.02253) | 本研究通过引入一个新的数字产品出口和进口数据集，探讨了数字产品贸易的五个关键方面：1）数字产品出口的起源更加空间集中；2）数字产品贸易增长速度快于实物贸易；3）数字产品贸易规模足够大，可以在一定程度上抵消实物贸易逆差；4）将经济增长与温室气体排放分离的国家在数字产品领域拥有较大且增长更快的出口；5）数字产品被纳入经济复杂性的衡量指标中。 |
 
 # 详细
 
-[^1]: 揭露的成本
+[^1]: 社会环境设计
 
-    The Cost of Coming Out
+    Social Environment Design
 
-    [https://arxiv.org/abs/2403.03649](https://arxiv.org/abs/2403.03649)
+    [https://arxiv.org/abs/2402.14090](https://arxiv.org/abs/2402.14090)
 
-    通过在线视频游戏中的创新数据和自然实验，研究揭露性取向对玩家偏好的影响。
-
-    
-
-    社会污名和歧视的恐惧导致全球许多个体在公开披露其性取向时犹豫不决。鉴于隐瞒身份的巨大代价，理解反对LGB情绪的程度和对出柜的反应至关重要。然而，披露自己的性取向是个人选择，使得数据获取复杂化并引入内生性问题。本文通过使用一种创新的数据源（一个热门在线视频游戏）和一个自然实验来解决这些挑战。我们利用可玩角色身份的外生变化来识别出披露对玩家对该角色的已显露偏好的影响。借助详细的日常数据，我们监测玩家在全球各地对角色的偏好，并采用合成控制方法来分离披露对玩家偏好的影响。我们的研究发现了一个显著
-
-    arXiv:2403.03649v1 Announce Type: new  Abstract: The fear of social stigma and discrimination leads many individuals worldwide to hesitate in openly disclosing their sexual orientation. Due to the large costs of concealing identity, it is crucial to understand the extent of anti-LGB sentiments and reactions to coming out. However, disclosing one's sexual orientation is a personal choice, complicating data access and introducing endogeneity issues. This paper tackles these challenges by using an innovative data source from a popular online video game together with a natural experiment. We exploit exogenous variation in the identity of a playable character to identify the effects of disclosure on players' revealed preferences for that character. Leveraging detailed daily data, we monitor players' preferences for the character across diverse regions globally and employ synthetic control methods to isolate the effect of the disclosure on players' preferences. Our findings reveal a substant
-    
-[^2]: 半参数金融风险预测模型中引入多个实现指标
-
-    Semi-parametric financial risk forecasting incorporating multiple realized measures
-
-    [https://arxiv.org/abs/2402.09985](https://arxiv.org/abs/2402.09985)
-
-    本研究提出了一个半参数金融风险预测框架，它利用多个实现指标建模联合VaR和ES，并采用非对称拉普拉斯分布进行贝叶斯推断。实证结果表明，该框架在涵盖COVID-19期间的多个股市上表现良好。
+    该论文提出了一种新的研究议程，介绍了社会环境设计作为一种用于自动化政策制定的AI通用框架，旨在捕捉一般经济环境，通过AI模拟系统分析政府和经济政策，并强调未来基于AI的政策制定研究中的关键挑战。
 
     
 
-    本文提出了一种半参数联合VaR和ES预测框架，其中引入了多个实现指标。该框架通过使用多个实现指标作为外生变量来扩展分位数回归模型VaR。然后，利用实现指标的信息来建模VaR和ES之间的时变关系。最后，使用模拟量和实现指标之间的同期相关性建立的度量方程来完成模型。基于非对称拉普拉斯分布的准似然方法实现了对该模型的贝叶斯推断。使用自适应马尔可夫链蒙特卡洛方法对模型进行估计。经验证实，该框架在涵盖COVID-19期间的2000年1月至2022年6月间的六个股市上具有较好的预测性能。
+    人工智能（AI）作为一种用于改善政府和经济政策制定的技术具有潜力。本文提出了一个新的研究议程，介绍了社会环境设计，这是一种用于自动化政策制定的AI通用框架，与强化学习、经济与计算社会选择社区相连接。该框架旨在捕捉一般经济环境，包括对政策目标的投票，并为通过AI模拟对政府和经济政策进行系统分析提供指导。我们强调了未来基于AI的政策制定研究中的关键开放问题。通过解决这些挑战，我们希望实现各种社会福利目标，从而促进更具道德和负责任的决策制定。
 
-    arXiv:2402.09985v1 Announce Type: new  Abstract: A semi-parametric joint Value-at-Risk (VaR) and Expected Shortfall (ES) forecasting framework employing multiple realized measures is developed. The proposed framework extends the quantile regression using multiple realized measures as exogenous variables to model the VaR. Then, the information from realized measures is used to model the time-varying relationship between VaR and ES. Finally, a measurement equation that models the contemporaneous dependence between the quantile and realized measures is used to complete the model. A quasi-likelihood, built on the asymmetric Laplace distribution, enables the Bayesian inference for the proposed model. An adaptive Markov Chain Monte Carlo method is used for the model estimation. The empirical section evaluates the performance of the proposed framework with six stock markets from January 2000 to June 2022, covering the period of COVID-19. Three realized measures, including 5-minute realized va
+    arXiv:2402.14090v1 Announce Type: new  Abstract: Artificial Intelligence (AI) holds promise as a technology that can be used to improve government and economic policy-making. This paper proposes a new research agenda towards this end by introducing Social Environment Design, a general framework for the use of AI for automated policy-making that connects with the Reinforcement Learning, EconCS, and Computational Social Choice communities. The framework seeks to capture general economic environments, includes voting on policy objectives, and gives a direction for the systematic analysis of government and economic policy through AI simulation. We highlight key open problems for future research in AI-based policy-making. By solving these challenges, we hope to achieve various social welfare objectives, thereby promoting more ethical and responsible decision making.
     
-[^3]: SpotV2Net：基于Vol-of-Vol-Informed Graph Attention Networks的多元日内现货波动率预测
+[^2]: 无限维度中随机演化方程的稳健函数数据分析
 
-    SpotV2Net: Multivariate Intraday Spot Volatility Forecasting via Vol-of-Vol-Informed Graph Attention Networks. (arXiv:2401.06249v1 [q-fin.ST])
+    Robust Functional Data Analysis for Stochastic Evolution Equations in Infinite Dimensions. (arXiv:2401.16286v1 [stat.ME])
 
-    [http://arxiv.org/abs/2401.06249](http://arxiv.org/abs/2401.06249)
+    [http://arxiv.org/abs/2401.16286](http://arxiv.org/abs/2401.16286)
 
-    SpotV2Net是一种基于图注意力网络的多元日内现货波动率预测模型，通过将金融资产表示为图中的节点，并考虑非参数高频傅里叶估计的现货波动率和共波动率作为节点特征，以及波动率和共波动率的傅里叶估计作为节点边缘的特征，SpotV2Net显示出了改进的准确性，并且在日内多步预测时保持了准确性。
-
-    
-
-    本文介绍了一种基于图注意力网络结构的多元日内现货波动率预测模型SpotV2Net。SpotV2Net将金融资产表示为图中的节点，并将现货波动率和共波动率的非参数高频傅里叶估计作为节点特征。此外，它还将波动率的傅里叶估计和波动率的共波动率作为节点边缘的特征。我们使用道琼斯工业指数成分股的高频价格进行了大量的实证实验来测试SpotV2Net的预测准确性。我们得到的结果表明，与其他计量经济学和机器学习模型相比，SpotV2Net显示出更高的准确性。此外，我们的结果还表明，SpotV2Net在进行日内多步预测时保持准确性。为了解释SpotV2Net产生的预测结果，我们采用了GNNExplainer，这是一个与模型无关的可解释性方法。
-
-    This paper introduces SpotV2Net, a multivariate intraday spot volatility forecasting model based on a Graph Attention Network architecture. SpotV2Net represents financial assets as nodes within a graph and includes non-parametric high-frequency Fourier estimates of the spot volatility and co-volatility as node features. Further, it incorporates Fourier estimates of the spot volatility of volatility and co-volatility of volatility as features for node edges. We test the forecasting accuracy of SpotV2Net in an extensive empirical exercise, conducted with high-frequency prices of the components of the Dow Jones Industrial Average index. The results we obtain suggest that SpotV2Net shows improved accuracy, compared to alternative econometric and machine-learning-based models. Further, our results show that SpotV2Net maintains accuracy when performing intraday multi-step forecasts. To interpret the forecasts produced by SpotV2Net, we employ GNNExplainer, a model-agnostic interpretability to
-    
-[^4]: 使用多元时间序列转换器获取风险投资和成长资本的投资目标
-
-    Sourcing Investment Targets for Venture and Growth Capital Using Multivariate Time Series Transformer. (arXiv:2309.16888v1 [cs.LG])
-
-    [http://arxiv.org/abs/2309.16888](http://arxiv.org/abs/2309.16888)
-
-    这个论文介绍了一种新颖的方法，利用Transformer-based Multivariate Time Series Classifier (TMTSC)来预测风险投资和成长资本的候选公司的成功可能性，以优化投资目标的选择。通过对相关的方法进行了全面回顾和实验验证，证明了该方法的有效性。
+    本文提出了一种在无限维度中解决随机演化方程的稳健函数数据分析方法，通过考虑横截面和时间结构的相互作用，有效地测量了协变量的变化，具有可辨识性和收敛速度，并能揭示与协变量的缩放极限一致。
 
     
 
-    本文探讨了数据驱动方法在私募股权（PE）行业中的应用，特别是在为风险投资（VC）和成长资本（GC）寻找投资目标（即公司）方面。我们对相关方法进行了全面的回顾，并提出了一种新颖的方法，利用基于Transformer的多元时间序列分类器（TMTSC）来预测任何候选公司的成功可能性。我们的研究目标是通过将寻找投资问题正式定义为多元时间序列分类任务，优化VC和GC投资的寻找效果。我们依次介绍了我们实现的关键组成部分，这些部分共同 contribut 到了在VC/GC寻找中成功应用TMTSC：输入特征、模型架构、优化目标以及基于投资者的数据增强和划分。我们在四个数据集上进行了大量实验，并将其与三个流行的基准线进行了对比。
+    本文针对Hilbert空间中的随机演化方程，使用函数数据分析技术来稳健地测量协变量的变化。对于这样的方程，基于横截面协方差的标准技术经常无法识别出统计上相关的随机驱动因素和检测异常值，因为它们忽略了横截面和时间结构之间的相互作用。因此，我们开发了一种估计理论，用于估计方程的潜在随机驱动因素的连续二次协变量，而不是可观察解过程的静态协方差。我们在弱条件下得到了可辨识性的结果，建立了基于装满渐近性的收敛速度和中心极限定理，并提供了长时间渐近性的估计结果，以估计潜在驱动因素的静态协变量。应用于利率结构数据，我们的方法揭示了与协变量的缩放极限的根本一致性。
 
-    This paper addresses the growing application of data-driven approaches within the Private Equity (PE) industry, particularly in sourcing investment targets (i.e., companies) for Venture Capital (VC) and Growth Capital (GC). We present a comprehensive review of the relevant approaches and propose a novel approach leveraging a Transformer-based Multivariate Time Series Classifier (TMTSC) for predicting the success likelihood of any candidate company. The objective of our research is to optimize sourcing performance for VC and GC investments by formally defining the sourcing problem as a multivariate time series classification task. We consecutively introduce the key components of our implementation which collectively contribute to the successful application of TMTSC in VC/GC sourcing: input features, model architecture, optimization target, and investor-centric data augmentation and split. Our extensive experiments on four datasets, benchmarked towards three popular baselines, demonstrat
+    This article addresses the robust measurement of covariations in the context of solutions to stochastic evolution equations in Hilbert spaces using functional data analysis. For such equations, standard techniques for functional data based on cross-sectional covariances are often inadequate for identifying statistically relevant random drivers and detecting outliers since they overlook the interplay between cross-sectional and temporal structures. Therefore, we develop an estimation theory for the continuous quadratic covariation of the latent random driver of the equation instead of a static covariance of the observable solution process. We derive identifiability results under weak conditions, establish rates of convergence and a central limit theorem based on infill asymptotics, and provide long-time asymptotics for estimation of a static covariation of the latent driver. Applied to term structure data, our approach uncovers a fundamental alignment with scaling limits of covariations
     
-[^5]: 基于粗糙波动性的统计推断：中心极限定理
+[^3]: StockFormer: 一种基于STL分解和自注意力网络的摆动交易策略
 
-    Statistical inference for rough volatility: Central limit theorems. (arXiv:2210.01216v2 [math.ST] UPDATED)
+    StockFormer: A Swing Trading Strategy Based on STL Decomposition and Self-Attention Networks. (arXiv:2401.06139v1 [q-fin.TR])
 
-    [http://arxiv.org/abs/2210.01216](http://arxiv.org/abs/2210.01216)
+    [http://arxiv.org/abs/2401.06139](http://arxiv.org/abs/2401.06139)
 
-    本文提出了基于高频价格观测的一致且渐进混合正态的$H$估计器，用于对粗糙波动性的统计推断。这种估计器在参数化粗糙波动模型中收敛速度最优。
-
-    
-
-    近年来，存在大量经验证据表明随机波动性是粗糙的。换句话说，随机波动性的局部行为比半鞘型过程更加不规则，类似于分数布朗运动，Hurst参数$H<0.5$。本文基于高频价格观测，推导出了一致且渐进混合正态的$H$估计器。与之前的工作不同的是，我们在半参数设置下工作，不假设任何先验关系与真实波动率之间的关系。此外，我们的估计器在参数化粗糙波动模型中获得了最小最大意义下的最优收敛速度。
-
-    In recent years, there has been substantive empirical evidence that stochastic volatility is rough. In other words, the local behavior of stochastic volatility is much more irregular than semimartingales and resembles that of a fractional Brownian motion with Hurst parameter $H<0.5$. In this paper, we derive a consistent and asymptotically mixed normal estimator of $H$ based on high-frequency price observations. In contrast to previous works, we work in a semiparametric setting and do not assume any a priori relationship between volatility estimators and true volatility. Furthermore, our estimator attains a rate of convergence that is known to be optimal in a minimax sense in parametric rough volatility models.
-    
-[^6]: 基于多个资产的股权链接人寿保险
-
-    Equity--Linked Life Insurances on Maximum of Several Assets. (arXiv:2111.04038v3 [q-fin.MF] UPDATED)
-
-    [http://arxiv.org/abs/2111.04038](http://arxiv.org/abs/2111.04038)
-
-    本文提出了一种基于贝叶斯马尔科夫-切换向量自回归过程的定价和对冲方法，用于股权链接人寿保险产品，具有依赖经济变量并且简化的优点。
+    StockFormer是一种基于STL分解和自注意力网络的摆动交易策略，使用TopKDropout方法来提高股票选取能力。在测试中，其预测结果优于其他十个行业模型，达到了62.39%的市场趋势检测准确率，并取得了在关键预测准确度指标上的优秀表现。在回测中，StockFormer的摆动交易策略累计收益率为13.19%。
 
     
 
-    本文提出了基于贝叶斯马尔科夫-切换向量自回归（MS-VAR）过程的分离资金和单位链接人寿保险产品的定价和对冲方法。我们假设切换制度的过程由一个均匀马尔科夫过程和一个残差过程所生成，残差过程遵循一个异方差模型。我们模型的优势在于它依赖于经济变量并且不复杂。
+    在持续的市场重新校准和投资者乐观情绪增加的背景下，美国股市正在经历复苏，这促使我们需要一些先进的工具来保护和增长投资组合。针对这一需求，我们介绍了一种名为"Stockformer"的先进深度学习框架，用于优化摆动交易，并采用了TopKDropout方法来增强股票选取能力。通过整合STL分解和自注意力网络，Stockformer利用标普500的复杂数据来提升股票收益预测的准确性。我们的方法包括将数据分为训练和验证集（2021年1月至2023年1月）以及测试集（2023年2月至6月）。在测试期间，Stockformer的预测结果优于其他十个行业模型，在关键预测准确度指标（MAE，RMSE，MAPE）方面具有卓越的精度，检测市场趋势的准确率达到了62.39%。在我们的回测中，Stockformer的摆动交易策略累计收益率为13.19%，年化收益为...
 
-    This paper presents pricing and hedging methods for segregated funds and unit-linked life insurance products that are based on a Bayesian Markov--Switching Vector Autoregressive (MS--VAR) process. Here we assumed that a regime-switching process is generated by a homogeneous Markov process and a residual process follows a heteroscedastic model. An advantage of our model is it depends on economic variables and is not complicated.
+    Amidst ongoing market recalibration and increasing investor optimism, the U.S. stock market is experiencing a resurgence, prompting the need for sophisticated tools to protect and grow portfolios. Addressing this, we introduce "Stockformer," a cutting-edge deep learning framework optimized for swing trading, featuring the TopKDropout method for enhanced stock selection. By integrating STL decomposition and self-attention networks, Stockformer utilizes the S&P 500's complex data to refine stock return predictions. Our methodology entailed segmenting data for training and validation (January 2021 to January 2023) and testing (February to June 2023). During testing, Stockformer's predictions outperformed ten industry models, achieving superior precision in key predictive accuracy indicators (MAE, RMSE, MAPE), with a remarkable accuracy rate of 62.39% in detecting market trends. In our backtests, Stockformer's swing trading strategy yielded a cumulative return of 13.19% and an annualized r
     
-[^7]: 基于贝叶斯MS-VAR过程的期权定价方法
+[^4]: 《围地模型：土地产权转变中的协调、冲突和效率》
 
-    Options Pricing under Bayesian MS-VAR Process. (arXiv:2109.05998v3 [q-fin.MF] UPDATED)
+    A Model of Enclosures: Coordination, Conflict, and Efficiency in the Transformation of Land Property Rights. (arXiv:2311.01592v1 [econ.GN])
 
-    [http://arxiv.org/abs/2109.05998](http://arxiv.org/abs/2109.05998)
+    [http://arxiv.org/abs/2311.01592](http://arxiv.org/abs/2311.01592)
 
-    本文研究了基于贝叶斯MS-VAR过程的期权定价方法，相较于先前依赖于切换过程的期权定价方法而言更加方便易用。
+    本研究使用聚合博弈的框架，研究了土地所有制体制的转变过程，发现人口密度、技术改进、围地成本、群体凝聚力和谈判力的变化，以及政策和制度环境等因素会影响土地私有化的效率。
 
     
 
-    本文研究了基于风险中性估值方法，基于贝叶斯马尔可夫-转换向量自回归(MS-BVAR)过程的期权定价方法。贝叶斯MS-VAR过程的一种特例是为经济变量之间的相互依赖和经济变量预测而广泛使用的BVAR过程。在本文中，我们假设切换过程由均匀马尔可夫过程和残差过程遵循一个条件异方差模型而产生。通过直接计算和概率测度的变换，对于某些常用期权，我们导出了价格公式。我们模型的优点在于其依赖于经济变量且易于使用，相较于先前依赖于切换过程的期权定价论文而言更加方便。
+    历史学家和政治经济学家长期以来一直在讨论导致边疆地区土地、公共领域和各种习俗土地所有制转变为更为排他形式的私人财产的过程。我们使用聚合博弈的框架，研究土地所有制体制，在这种体制下，通过占有和使用来确立对土地的获取权，然后探索可能引发去中心化私有化过程的因素。人口密度、技术改进的潜力、围地成本、群体凝聚力和谈判力变化、以及政策和制度环境等因素决定了财产制度的平衡组合。尽管在某些情况下去中心化的过程可以产生有效的围地和技术转变，但在其他情况下，结果却达不到最佳状态。这是由不同的溢出效应相互作用引起的，导致围地和技术转变的效率低于理想状态。
 
-    In this paper, we have studied option pricing methods that are based on a Bayesian Markov-Switching Vector Autoregressive (MS--BVAR) process using a risk-neutral valuation approach. A BVAR process, which is a special case of the Bayesian MS--VAR process is widely used to model interdependencies of economic variables and forecast economic variables. Here we assumed that a regime-switching process is generated by a homogeneous Markov process and a residual process follows a conditional heteroscedastic model. With a direct calculation and change of probability measure, for some frequently used options, we derived pricing formulas. An advantage of our model is it depends on economic variables and is easy to use compared to previous option pricing papers, which depend on regime-switching.
+    Historians and political economists have long debated the processes that led land in frontier regions, managed commons, and a variety of customary landholding regimes to be enclosed and transformed into more exclusive forms of private property. Using the framework of aggregative games, we examine land-holding regimes where access to land is established via possession and use, and then explore the factors that may initiate decentralized privatization processes. Factors including population density, potential for technology improvement, enclosure costs, shifts in group cohesion and bargaining power, or the policy and institutional environment determine the equilibrium mix of property regimes. While decentralized processes yield efficient enclosure and technological transformation in some circumstances, in others, the outcomes fall short of second-best. This stems from the interaction of different spillover effects, leading to inefficiently low rates of enclosure and technological transfo
+    
+[^5]: 利用信息不对称的剥削业务
+
+    Exploitation Business: Leveraging Information Asymmetry. (arXiv:2310.09802v1 [cs.CY])
+
+    [http://arxiv.org/abs/2310.09802](http://arxiv.org/abs/2310.09802)
+
+    该论文调查了“利用信息不对称的剥削业务”模式，即通过资本化信息不对称来剥削弱势群体，特别关注以非专家为目标的企业或欺诈者利用信息不对称向绝望个体销售产品或服务。
+
+    
+
+    本文调查了“利用信息不对称的剥削业务”模式，该模式利用信息不对称来剥削弱势群体。它主要关注以非专家为目标的企业或欺诈者，他们利用信息不对称向绝望的个体销售产品或服务。这种现象也被描述为“基于信息剥削的盈利活动”，它依赖于个体对信息的有限获取、缺乏专业知识以及对错失机会的恐惧。
+
+    This paper investigates the "Exploitation Business" model, which capitalizes on information asymmetry to exploit vulnerable populations. It focuses on businesses targeting non-experts or fraudsters who capitalize on information asymmetry to sell their products or services to desperate individuals. This phenomenon is also described as "profit-making activities based on informational exploitation," which thrives on individuals' limited access to information, lack of expertise, and Fear of Missing Out (FOMO).
+    
+[^6]: 数字产品的增长、地理和贸易影响
+
+    The Growth, Geography, and Implications of Trade in Digital Products. (arXiv:2310.02253v1 [econ.GN])
+
+    [http://arxiv.org/abs/2310.02253](http://arxiv.org/abs/2310.02253)
+
+    本研究通过引入一个新的数字产品出口和进口数据集，探讨了数字产品贸易的五个关键方面：1）数字产品出口的起源更加空间集中；2）数字产品贸易增长速度快于实物贸易；3）数字产品贸易规模足够大，可以在一定程度上抵消实物贸易逆差；4）将经济增长与温室气体排放分离的国家在数字产品领域拥有较大且增长更快的出口；5）数字产品被纳入经济复杂性的衡量指标中。
+
+    
+
+    尽管全球努力协调国际贸易统计数据，我们对数字产品的贸易及其影响的理解仍然不清楚。在这里，我们通过引入一个新的数字产品出口和进口数据集，研究数字产品贸易的五个关键方面。首先，我们表明与实物商品贸易相比，数字产品出口的起源更加空间集中。其次，我们表明在2016年至2021年之间，数字产品贸易增长速度快于实物贸易，年均增长率为20%，而实物贸易为6%。第三，我们表明数字产品贸易规模足够大，可以在一定程度上抵消一些重要的贸易平衡估计，如美国的实物贸易逆差。第四，我们表明那些将经济增长与温室气体排放分离的国家，在数字产品领域拥有较大且增长更快的出口。最后，我们将数字产品纳入经济复杂性的衡量指标中。
+
+    Despite global efforts to harmonize international trade statistics, our understanding about trade in digital products and its implications remains elusive. Here, we study five key aspects of trade in digital products by introducing a novel dataset on the exports and imports of digital products. First, we show that compared to trade in physical goods, the origin of digital products exports is more spatially concentrated. Second, we show that between 2016 and 2021 trade in digital products grew faster than physical trade, at an annualized growth rate of 20% compared to 6% for physical trade. Third, we show that trade in digital products is large enough to partly offset some important trade balance estimates, like the physical trade deficit of the United States. Fourth, we show that countries that have decoupled economic growth from greenhouse gas emissions have larger and faster growing exports in digital product sectors. Finally, we add digital products to measures of economic complexit
     
 
