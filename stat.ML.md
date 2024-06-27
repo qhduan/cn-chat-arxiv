@@ -2,172 +2,157 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Discrete Latent Graph Generative Modeling with Diffusion Bridges](https://arxiv.org/abs/2403.16883) | GLAD是一个在离散潜在空间上操作的图生成模型，通过适应扩散桥结构学习其离散潜在空间的先验，避免了依赖于原始数据空间的分解，在图生成任务中表现出优越性。 |
-| [^2] | [Computational-Statistical Gaps for Improper Learning in Sparse Linear Regression](https://arxiv.org/abs/2402.14103) | 该研究探讨了稀疏线性回归中的计算统计差距问题，为了高效地找到可以在样本上实现非平凡预测误差的潜在密集估计的回归向量，需要至少 $\Omega(k \log (d/k))$ 个样本。 |
-| [^3] | [Multi-class Temporal Logic Neural Networks](https://arxiv.org/abs/2402.12397) | 提出了一种结合神经网络和信号时间逻辑的方法，用于多类别时间序列数据的分类，关键贡献包括引入边界概念和利用STL属性增强结果的可解释性。 |
-| [^4] | [Accelerating Look-ahead in Bayesian Optimization: Multilevel Monte Carlo is All you Need](https://arxiv.org/abs/2402.02111) | 本文利用多层蒙特卡洛方法加速贝叶斯优化中的前瞻过程，并证明在涉及嵌套期望和最大化的问题中具有优势。 |
-| [^5] | [On the numerical reliability of nonsmooth autodiff: a MaxPool case study.](http://arxiv.org/abs/2401.02736) | 本文研究了涉及非平滑MaxPool操作的神经网络自动微分的数值可靠性，并发现最近的研究表明AD几乎在每个地方都与导数相符，即使在存在非平滑操作的情况下也是如此。但在实践中，AD使用的是浮点数，需要探索可能导致AD数值不正确的情况。通过研究不同选择的非平滑MaxPool雅可比矩阵对训练过程的影响，我们找到了分歧区和补偿区两个可能导致AD数值不正确的子集。 |
-| [^6] | [Analysis of learning a flow-based generative model from limited sample complexity.](http://arxiv.org/abs/2310.03575) | 我们分析了从有限样本复杂度中训练基于流的生成模型的问题，并提供了尖锐的端到端分析。我们找到了学习到的速度场的紧凑特性，并描述了生成流的近似，该近似将基本高斯密度推向目标密度。我们还提供了生成混合物均值与目标混合物均值之间距离的闭式公式，并证明其衰减速度为$\Theta_n(\frac{1}{n})$，这实际上是贝叶斯最优的。 |
-| [^7] | [Regularization and Optimal Multiclass Learning.](http://arxiv.org/abs/2309.13692) | 本研究旨在研究正则化在多类别学习中的作用，以及其在一些特定情景下的最优学习算法。我们使用一对一包含图(OIGs)展示了结构风险最小化、最大熵原则和贝叶斯推理等算法原则的最优学习算法。 |
-| [^8] | [Information Geometry of Wasserstein Statistics on Shapes and Affine Deformations.](http://arxiv.org/abs/2307.12508) | 在这篇论文中，我们研究了Wasserstein统计在仿射变形统计模型中的信息几何特征，比较了信息几何和Wasserstein几何的估计器的优缺点，并发现Wasserstein估计量在椭圆对称仿射变形模型中是矩估计量，在波形为高斯分布时与信息几何估计量重合。 |
-| [^9] | [Latent Optimal Paths by Gumbel Propagation for Variational Bayesian Dynamic Programming.](http://arxiv.org/abs/2306.02568) | 该论文使用动态规划和Gumbel传播在VAE的潜在空间中获得结构化稀疏最优路径，从而使得模型可以依赖于未观察到的结构特征信息，并成功实现了文本转语音和歌声合成。 |
-| [^10] | [Combining Distance to Class Centroids and Outlier Discounting for Improved Learning with Noisy Labels.](http://arxiv.org/abs/2303.09470) | 本文提出了结合类中心距离和异常值折扣的方法，用于解决在存在噪声标签的情况下训练机器学习模型的问题，并通过实验证明了其有效性 。 |
-| [^11] | [Controlling Moments with Kernel Stein Discrepancies.](http://arxiv.org/abs/2211.05408) | 本研究分析了核斯坦离差（KSD）控制性质，发现标准KSD无法控制矩的收敛，提出了可控制矩和弱收敛的下游扩散KSD，并且发展了可以准确描述$q$-Wasserstein收敛的KSD。 |
+| [^1] | [Robustly estimating heterogeneity in factorial data using Rashomon Partitions](https://arxiv.org/abs/2404.02141) | 通过使用拉细孟划分集，我们能够在因子数据中稳健地估计异质性，并将因子空间划分成协变量组合的“池”，以便区分结果的差异。 |
+| [^2] | [Listening to the Noise: Blind Denoising with Gibbs Diffusion](https://arxiv.org/abs/2402.19455) | 引入了Gibbs扩散（GDiff）方法，通过交替采样信号先验和噪声分布族，以及蒙特卡洛采样来推断噪声参数，解决了盲去噪中需要知道噪声水平和协方差的问题。 |
+| [^3] | [Robustness to Subpopulation Shift with Domain Label Noise via Regularized Annotation of Domains](https://arxiv.org/abs/2402.11039) | 提出了一种名为RAD的方法，通过领域标注的正则化来训练鲁棒的最后一层分类器，无需显式的领域标注，在具有领域标签噪声的情况下表现优越。 |
+| [^4] | [Iterated Denoising Energy Matching for Sampling from Boltzmann Densities](https://arxiv.org/abs/2402.06121) | 提出了一种基于迭代算法的新颖采样方法，通过利用能量函数和梯度进行训练，无需数据样本。该方法能够高效生成统计独立的样本，并且在高维度上具有可扩展性。通过利用扩散的快速模式混合行为，实现了对能量景观的平滑，从而实现了高效的探索和学习。 |
+| [^5] | [Vanilla Bayesian Optimization Performs Great in High Dimension](https://arxiv.org/abs/2402.02229) | 本文研究了高维情况下贝叶斯优化算法的问题，并提出了一种改进方法，通过对先验假设进行简单的缩放，使普通贝叶斯优化在高维任务中表现出色。 |
+| [^6] | [Hierarchical Causal Models.](http://arxiv.org/abs/2401.05330) | 提出了一种分层因果模型来解决关于分层数据的因果问题，通过添加内部板来扩展结构因果模型和因果图模型。发现分层数据可以实现因果识别，即使使用非分层数据是不可能的。开发了用于分层数据的估计技术。 |
+| [^7] | [Contextual Dynamic Pricing with Strategic Buyers.](http://arxiv.org/abs/2307.04055) | 本文研究了具有策略性买家的情境动态定价问题，提出了一种策略动态定价策略，将买家的策略行为纳入在线学习中，以最大化卖方的累计收益。 |
+| [^8] | [A Meta-Learning Method for Estimation of Causal Excursion Effects to Assess Time-Varying Moderation.](http://arxiv.org/abs/2306.16297) | 这项研究介绍了一种元学习方法，用于评估因果偏离效应，以评估干预效果随时间的变化或通过个体特征、环境或过去的反应来调节。目前的数据分析方法需要预先指定观察到的高维历史的特征来构建重要干扰参数的工作模型，而机器学习算法可以自动进行特征构建，但其朴素应用存在问题。 |
+| [^9] | [Linear Neural Network Layers Promote Learning Single- and Multiple-Index Models.](http://arxiv.org/abs/2305.15598) | 本研究探究了过度参数化的深度神经网络的偏见，发现在ReLU网络中添加线性层有助于逼近具有低秩线性算子和低表示成本函数组成的函数，从而得到一个与低维子空间垂直方向近乎恒定的插值函数。 |
+| [^10] | [STEEL: Singularity-aware Reinforcement Learning.](http://arxiv.org/abs/2301.13152) | 这篇论文介绍了一种新的批量强化学习算法STEEL，在具有连续状态和行动的无限时马尔可夫决策过程中，不依赖于绝对连续假设，通过最大均值偏差和分布鲁棒优化确保异常情况下的性能。 |
 
 # 详细
 
-[^1]: 带扩散桥的离散潜在图生成建模
+[^1]: 使用拉细孟划分在因子数据中稳健估计异质性
 
-    Discrete Latent Graph Generative Modeling with Diffusion Bridges
+    Robustly estimating heterogeneity in factorial data using Rashomon Partitions
 
-    [https://arxiv.org/abs/2403.16883](https://arxiv.org/abs/2403.16883)
+    [https://arxiv.org/abs/2404.02141](https://arxiv.org/abs/2404.02141)
 
-    GLAD是一个在离散潜在空间上操作的图生成模型，通过适应扩散桥结构学习其离散潜在空间的先验，避免了依赖于原始数据空间的分解，在图生成任务中表现出优越性。
-
-    
-
-    学习潜在空间中的图生成模型相比于在原始数据空间上操作的模型受到较少关注，迄今表现出的性能乏善可陈。我们提出了GLAD，一个潜在空间图生成模型。与大多数先前的潜在空间图生成模型不同，GLAD在保留图结构的离散性质方面运行，无需进行诸如潜在空间连续性等不自然的假设。我们通过将扩散桥调整到其结构，来学习我们离散潜在空间的先验。通过在适当构建的潜在空间上操作，我们避免依赖于常用于在原始数据空间操作的模型中的分解。我们在一系列图基准数据集上进行实验，明显展示了离散潜在空间的优越性，并取得了最先进的图生成性能，使GLA
-
-    arXiv:2403.16883v1 Announce Type: new  Abstract: Learning graph generative models over latent spaces has received less attention compared to models that operate on the original data space and has so far demonstrated lacklustre performance. We present GLAD a latent space graph generative model. Unlike most previous latent space graph generative models, GLAD operates on a discrete latent space that preserves to a significant extent the discrete nature of the graph structures making no unnatural assumptions such as latent space continuity. We learn the prior of our discrete latent space by adapting diffusion bridges to its structure. By operating over an appropriately constructed latent space we avoid relying on decompositions that are often used in models that operate in the original data space. We present experiments on a series of graph benchmark datasets which clearly show the superiority of the discrete latent space and obtain state of the art graph generative performance, making GLA
-    
-[^2]: 稀疏线性回归中不当学习的计算统计差距
-
-    Computational-Statistical Gaps for Improper Learning in Sparse Linear Regression
-
-    [https://arxiv.org/abs/2402.14103](https://arxiv.org/abs/2402.14103)
-
-    该研究探讨了稀疏线性回归中的计算统计差距问题，为了高效地找到可以在样本上实现非平凡预测误差的潜在密集估计的回归向量，需要至少 $\Omega(k \log (d/k))$ 个样本。
+    通过使用拉细孟划分集，我们能够在因子数据中稳健地估计异质性，并将因子空间划分成协变量组合的“池”，以便区分结果的差异。
 
     
 
-    我们研究了稀疏线性回归中不当学习的计算统计差距。具体来说，给定来自维度为 $d$ 的 $k$-稀疏线性模型的 $n$ 个样本，我们询问了在时间多项式中的最小样本复杂度，以便高效地找到一个对这 $n$ 个样本达到非平凡预测误差的潜在密集估计的回归向量。信息理论上，这可以用 $\Theta(k \log (d/k))$ 个样本实现。然而，尽管在文献中很显著，但没有已知的多项式时间算法可以在不附加对模型的其他限制的情况下使用少于 $\Theta(d)$ 个样本达到相同的保证。类似地，现有的困难结果要么仅限于适当设置，在该设置中估计值也必须是稀疏的，要么仅适用于特定算法。
+    许多统计分析，无论是在观测数据还是随机对照试验中，都会问：感兴趣的结果如何随可观察协变量组合变化？不同的药物组合如何影响健康结果，科技采纳如何依赖激励和人口统计学？我们的目标是将这个因子空间划分成协变量组合的“池”，在这些池中结果会发生差异（但池内部不会发生），而现有方法要么寻找一个单一的“最优”分割，要么从可能分割的整个集合中抽样。这两种方法都忽视了这样一个事实：特别是在协变量之间存在相关结构的情况下，可能以许多种方式划分协变量空间，在统计上是无法区分的，尽管对政策或科学有着非常不同的影响。我们提出了一种名为拉细孟划分集的替代视角
 
-    arXiv:2402.14103v1 Announce Type: new  Abstract: We study computational-statistical gaps for improper learning in sparse linear regression. More specifically, given $n$ samples from a $k$-sparse linear model in dimension $d$, we ask what is the minimum sample complexity to efficiently (in time polynomial in $d$, $k$, and $n$) find a potentially dense estimate for the regression vector that achieves non-trivial prediction error on the $n$ samples. Information-theoretically this can be achieved using $\Theta(k \log (d/k))$ samples. Yet, despite its prominence in the literature, there is no polynomial-time algorithm known to achieve the same guarantees using less than $\Theta(d)$ samples without additional restrictions on the model. Similarly, existing hardness results are either restricted to the proper setting, in which the estimate must be sparse as well, or only apply to specific algorithms.   We give evidence that efficient algorithms for this task require at least (roughly) $\Omega(
+    arXiv:2404.02141v1 Announce Type: cross  Abstract: Many statistical analyses, in both observational data and randomized control trials, ask: how does the outcome of interest vary with combinations of observable covariates? How do various drug combinations affect health outcomes, or how does technology adoption depend on incentives and demographics? Our goal is to partition this factorial space into ``pools'' of covariate combinations where the outcome differs across the pools (but not within a pool). Existing approaches (i) search for a single ``optimal'' partition under assumptions about the association between covariates or (ii) sample from the entire set of possible partitions. Both these approaches ignore the reality that, especially with correlation structure in covariates, many ways to partition the covariate space may be statistically indistinguishable, despite very different implications for policy or science. We develop an alternative perspective, called Rashomon Partition Set
     
-[^3]: 多类别时间逻辑神经网络
+[^2]: 听噪声：使用Gibbs扩散进行盲去噪
 
-    Multi-class Temporal Logic Neural Networks
+    Listening to the Noise: Blind Denoising with Gibbs Diffusion
 
-    [https://arxiv.org/abs/2402.12397](https://arxiv.org/abs/2402.12397)
+    [https://arxiv.org/abs/2402.19455](https://arxiv.org/abs/2402.19455)
 
-    提出了一种结合神经网络和信号时间逻辑的方法，用于多类别时间序列数据的分类，关键贡献包括引入边界概念和利用STL属性增强结果的可解释性。
-
-    
-
-    时间序列数据可以代表无人系统（如无人机和自动驾驶汽车）的行为。在这一领域，二元和多类别分类问题受到了广泛关注。神经网络是一种流行的分类数据的方法；然而，它们缺乏可解释性，这在从中提取有意义的信息方面构成了重要挑战。信号时间逻辑（STL）是一种描述定时行为属性的形式化语言。我们提出了一种将所有这些元素结合在一起的方法：使用表示STL规范的神经网络进行时间序列数据的多类别分类。我们提供了两个关键贡献：1）我们引入了多类别分类的边界概念，2）我们引入了基于STL的属性来增强结果的可解释性。我们在两个数据集上评估了我们的方法，并与最先进的基准进行了比较。
-
-    arXiv:2402.12397v1 Announce Type: cross  Abstract: Time-series data can represent the behaviors of autonomous systems, such as drones and self-driving cars. The problem of binary and multi-class classification has received a lot of attention in this field. Neural networks represent a popular approach to classifying data; However, they lack interpretability, which poses a significant challenge in extracting meaningful information from them. Signal Temporal Logic (STL) is a formalism to describe the properties of timed behaviors. We propose a method that combines all of the above: neural networks that represent STL specifications for multi-class classification of time-series data. We offer two key contributions: 1) We introduce a notion of margin for multi-class classification, and 2) we introduce the use of STL-based attributes for enhancing the interpretability of the results. We evaluate our method on two datasets and compare with state-of-the-art baselines.
-    
-[^4]: 加速贝叶斯优化中的前瞻：多层蒙特卡洛就够了
-
-    Accelerating Look-ahead in Bayesian Optimization: Multilevel Monte Carlo is All you Need
-
-    [https://arxiv.org/abs/2402.02111](https://arxiv.org/abs/2402.02111)
-
-    本文利用多层蒙特卡洛方法加速贝叶斯优化中的前瞻过程，并证明在涉及嵌套期望和最大化的问题中具有优势。
+    引入了Gibbs扩散（GDiff）方法，通过交替采样信号先验和噪声分布族，以及蒙特卡洛采样来推断噪声参数，解决了盲去噪中需要知道噪声水平和协方差的问题。
 
     
 
-    我们利用多层蒙特卡洛(MLMC)来提高涉及嵌套期望和最大化的多步前瞻贝叶斯优化(BO)方法的性能。普通蒙特卡洛的复杂度在嵌套操作中会降低，而MLMC能够以规范蒙特卡洛收敛速度解决这类问题，而且不依赖于维度和平滑性假设。我们的理论研究主要关注一步和两步前瞻采集函数的近似改进，但正如我们所讨论的，这种方法在多种方面是可推广的，包括超越BO的背景。我们通过数值验证了我们的发现，并在几个基准示例中展示了MLMC在BO中的优势。代码在这里获取：https://github.com/Shangda-Yang/MLMCBO。
+    近年来，去噪问题与深度生成模型的发展密不可分。特别是，扩散模型被训练成去噪器，它们所建模的分布与贝叶斯图像中的去噪先验相符。然而，通过基于扩散的后验采样进行去噪需要知道噪声水平和协方差，这阻碍了盲去噪。我们通过引入 Gibbs扩散（GDiff）克服了这一限制，这是一种通用方法论，可以处理信号和噪声参数的后验采样。假设任意参数化的高斯噪声，我们开发了一种Gibbs算法，交替地从条件扩散模型中进行采样，该模型经过训练将信号先验映射到噪声分布族，以及一个蒙特卡洛采样器来推断噪声参数。我们的理论分析突出了潜在的缺陷，指导了诊断的使用，并量化了Gibbs s中的错误。
 
-    We leverage multilevel Monte Carlo (MLMC) to improve the performance of multi-step look-ahead Bayesian optimization (BO) methods that involve nested expectations and maximizations. The complexity rate of naive Monte Carlo degrades for nested operations, whereas MLMC is capable of achieving the canonical Monte Carlo convergence rate for this type of problem, independently of dimension and without any smoothness assumptions. Our theoretical study focuses on the approximation improvements for one- and two-step look-ahead acquisition functions, but, as we discuss, the approach is generalizable in various ways, including beyond the context of BO. Findings are verified numerically and the benefits of MLMC for BO are illustrated on several benchmark examples. Code is available here https://github.com/Shangda-Yang/MLMCBO.
+    arXiv:2402.19455v1 Announce Type: cross  Abstract: In recent years, denoising problems have become intertwined with the development of deep generative models. In particular, diffusion models are trained like denoisers, and the distribution they model coincide with denoising priors in the Bayesian picture. However, denoising through diffusion-based posterior sampling requires the noise level and covariance to be known, preventing blind denoising. We overcome this limitation by introducing Gibbs Diffusion (GDiff), a general methodology addressing posterior sampling of both the signal and the noise parameters. Assuming arbitrary parametric Gaussian noise, we develop a Gibbs algorithm that alternates sampling steps from a conditional diffusion model trained to map the signal prior to the family of noise distributions, and a Monte Carlo sampler to infer the noise parameters. Our theoretical analysis highlights potential pitfalls, guides diagnostic usage, and quantifies errors in the Gibbs s
     
-[^5]: 关于非平滑自动微分的数值可靠性：MaxPool案例研究
+[^3]: 具有领域标签噪声的亚群体转移鲁棒性通过领域标注的正则化
 
-    On the numerical reliability of nonsmooth autodiff: a MaxPool case study. (arXiv:2401.02736v1 [cs.LG])
+    Robustness to Subpopulation Shift with Domain Label Noise via Regularized Annotation of Domains
 
-    [http://arxiv.org/abs/2401.02736](http://arxiv.org/abs/2401.02736)
+    [https://arxiv.org/abs/2402.11039](https://arxiv.org/abs/2402.11039)
 
-    本文研究了涉及非平滑MaxPool操作的神经网络自动微分的数值可靠性，并发现最近的研究表明AD几乎在每个地方都与导数相符，即使在存在非平滑操作的情况下也是如此。但在实践中，AD使用的是浮点数，需要探索可能导致AD数值不正确的情况。通过研究不同选择的非平滑MaxPool雅可比矩阵对训练过程的影响，我们找到了分歧区和补偿区两个可能导致AD数值不正确的子集。
-
-    
-
-    本文考虑了涉及非平滑MaxPool操作的神经网络自动微分（AD）的可靠性问题。我们研究了在不同精度级别（16位、32位、64位）和卷积架构（LeNet、VGG和ResNet）以及不同数据集（MNIST、CIFAR10、SVHN和ImageNet）上的AD行为。尽管AD可能是错误的，但最近的研究表明，它在几乎每个地方都与导数相符，即使在存在非平滑操作（如MaxPool和ReLU）的情况下也是如此。另一方面，在实践中，AD使用的是浮点数（而不是实数），因此需要探索AD可能在数值上不正确的子集。这些子集包括分歧区（AD在实数上不正确）和补偿区（AD在浮点数上不正确但在实数上正确）。我们使用SGD进行训练过程，并研究了MaxPool非平滑雅可比矩阵的不同选择对训练过程的影响。
-
-    This paper considers the reliability of automatic differentiation (AD) for neural networks involving the nonsmooth MaxPool operation. We investigate the behavior of AD across different precision levels (16, 32, 64 bits) and convolutional architectures (LeNet, VGG, and ResNet) on various datasets (MNIST, CIFAR10, SVHN, and ImageNet). Although AD can be incorrect, recent research has shown that it coincides with the derivative almost everywhere, even in the presence of nonsmooth operations (such as MaxPool and ReLU). On the other hand, in practice, AD operates with floating-point numbers (not real numbers), and there is, therefore, a need to explore subsets on which AD can be numerically incorrect. These subsets include a bifurcation zone (where AD is incorrect over reals) and a compensation zone (where AD is incorrect over floating-point numbers but correct over reals). Using SGD for the training process, we study the impact of different choices of the nonsmooth Jacobian for the MaxPool
-    
-[^6]: 从有限的样本复杂度中学习基于流的生成模型的分析
-
-    Analysis of learning a flow-based generative model from limited sample complexity. (arXiv:2310.03575v1 [stat.ML])
-
-    [http://arxiv.org/abs/2310.03575](http://arxiv.org/abs/2310.03575)
-
-    我们分析了从有限样本复杂度中训练基于流的生成模型的问题，并提供了尖锐的端到端分析。我们找到了学习到的速度场的紧凑特性，并描述了生成流的近似，该近似将基本高斯密度推向目标密度。我们还提供了生成混合物均值与目标混合物均值之间距离的闭式公式，并证明其衰减速度为$\Theta_n(\frac{1}{n})$，这实际上是贝叶斯最优的。
+    提出了一种名为RAD的方法，通过领域标注的正则化来训练鲁棒的最后一层分类器，无需显式的领域标注，在具有领域标签噪声的情况下表现优越。
 
     
 
-    我们研究训练一个由两层自编码器参数化的流式生成模型，以从高维高斯混合模型中抽样的问题。我们对这个问题进行了尖锐的端到端分析。首先，我们提供了一个紧密的闭式特征化学习到的速度场，当参数化为一个在目标分布上从有限数量的样本$ n $中进行训练的浅层去噪自编码器时。在此分析的基础上，我们提供了对应的生成流的尖锐描述，将基本高斯密度推向目标密度的近似。特别地，我们提供了生成混合物的均值与目标混合物均值之间的距离的闭式公式，我们证明这个距离会衰减为$\Theta_n(\frac{1}{n})$。最后，这个速率被证明实际上是贝叶斯最优的。
+    现有针对最优组准确性(WGA)进行最后一层重新训练的方法在训练数据中过于依赖于良好标注的组。我们理论上和实践中展示了，基于注释的数据增强使用下采样或上加权用于WGA是容易受到领域标注噪声干扰，在高噪声情况下接近使用原始经验风险最小化训练的模型的WGA。我们引入了领域标注正则化(RAD)来训练具有鲁棒性的最后一层分类器，而无需明确的领域标注。我们的结果表明，RAD与其他最近提出的无领域标注技术具有竞争力。最重要的是，即使在训练数据中仅有5%的噪声，RAD也在几个公开可用数据集上胜过最先进的依赖注释的方法。
 
-    We study the problem of training a flow-based generative model, parametrized by a two-layer autoencoder, to sample from a high-dimensional Gaussian mixture. We provide a sharp end-to-end analysis of the problem. First, we provide a tight closed-form characterization of the learnt velocity field, when parametrized by a shallow denoising auto-encoder trained on a finite number $n$ of samples from the target distribution. Building on this analysis, we provide a sharp description of the corresponding generative flow, which pushes the base Gaussian density forward to an approximation of the target density. In particular, we provide closed-form formulae for the distance between the mean of the generated mixture and the mean of the target mixture, which we show decays as $\Theta_n(\frac{1}{n})$. Finally, this rate is shown to be in fact Bayes-optimal.
+    arXiv:2402.11039v1 Announce Type: new  Abstract: Existing methods for last layer retraining that aim to optimize worst-group accuracy (WGA) rely heavily on well-annotated groups in the training data. We show, both in theory and practice, that annotation-based data augmentations using either downsampling or upweighting for WGA are susceptible to domain annotation noise, and in high-noise regimes approach the WGA of a model trained with vanilla empirical risk minimization. We introduce Regularized Annotation of Domains (RAD) in order to train robust last layer classifiers without the need for explicit domain annotations. Our results show that RAD is competitive with other recently proposed domain annotation-free techniques. Most importantly, RAD outperforms state-of-the-art annotation-reliant methods even with only 5% noise in the training data for several publicly available datasets.
     
-[^7]: 正则化与最优多类别学习
+[^4]: 通过迭代去噪能量匹配从玻尔兹曼密度中进行采样
 
-    Regularization and Optimal Multiclass Learning. (arXiv:2309.13692v1 [cs.LG])
+    Iterated Denoising Energy Matching for Sampling from Boltzmann Densities
 
-    [http://arxiv.org/abs/2309.13692](http://arxiv.org/abs/2309.13692)
+    [https://arxiv.org/abs/2402.06121](https://arxiv.org/abs/2402.06121)
 
-    本研究旨在研究正则化在多类别学习中的作用，以及其在一些特定情景下的最优学习算法。我们使用一对一包含图(OIGs)展示了结构风险最小化、最大熵原则和贝叶斯推理等算法原则的最优学习算法。
-
-    
-
-    以经验风险最小化（ERM）为代表的典型学习算法已被发现在一些学习非均匀收敛的情景中无法成功应用。因此，在机器学习实践中存在许多更丰富的算法技术来控制模型容量。然而，在这些更一般的情境中，没有一种技术或原则能够脱颖而出来描述最优学习的特征。本文旨在表征正则化在多类别学习中的作用，这可能是ERM失败的最简单情景，而标签集是任意的。我们利用一对一包含图（OIGs）展示了与传统算法原则相结合的最优学习算法：奥卡姆剃刀原则所体现的结构风险最小化（SRM），最大熵原则和贝叶斯推理。值得注意的是，我们引入了一种在结构风险最小化上进行放松的最优学习器。
-
-    The quintessential learning algorithm of empirical risk minimization (ERM) is known to fail in various settings for which uniform convergence does not characterize learning. It is therefore unsurprising that the practice of machine learning is rife with considerably richer algorithmic techniques for successfully controlling model capacity. Nevertheless, no such technique or principle has broken away from the pack to characterize optimal learning in these more general settings.  The purpose of this work is to characterize the role of regularization in perhaps the simplest setting for which ERM fails: multiclass learning with arbitrary label sets. Using one-inclusion graphs (OIGs), we exhibit optimal learning algorithms that dovetail with tried-and-true algorithmic principles: Occam's Razor as embodied by structural risk minimization (SRM), the principle of maximum entropy, and Bayesian reasoning. Most notably, we introduce an optimal learner which relaxes structural risk minimization on
-    
-[^8]: 形状和仿射变形的Wasserstein统计的信息几何
-
-    Information Geometry of Wasserstein Statistics on Shapes and Affine Deformations. (arXiv:2307.12508v1 [math.ST])
-
-    [http://arxiv.org/abs/2307.12508](http://arxiv.org/abs/2307.12508)
-
-    在这篇论文中，我们研究了Wasserstein统计在仿射变形统计模型中的信息几何特征，比较了信息几何和Wasserstein几何的估计器的优缺点，并发现Wasserstein估计量在椭圆对称仿射变形模型中是矩估计量，在波形为高斯分布时与信息几何估计量重合。
+    提出了一种基于迭代算法的新颖采样方法，通过利用能量函数和梯度进行训练，无需数据样本。该方法能够高效生成统计独立的样本，并且在高维度上具有可扩展性。通过利用扩散的快速模式混合行为，实现了对能量景观的平滑，从而实现了高效的探索和学习。
 
     
 
-    信息几何和Wasserstein几何是介绍概率分布流形中的两个主要结构，它们捕捉了不同的特征。我们在仿射变形统计模型的Li和Zhao（2023）框架中研究了Wasserstein几何的特征，它是位置-尺度模型的多维泛化。我们比较了基于信息几何和Wasserstein几何的估计器的优点和缺点。在Wasserstein几何中，概率分布的形状和仿射变形是分离的，表明在对波形扰动具有鲁棒性的同时，会损失Fisher效率。我们证明了在椭圆对称仿射变形模型的情况下Wasserstein估计量是矩估计量。它与信息几何估计量（最大似然估计量）仅在波形为高斯分布时重合。Wasserstein效率的作用是...
+    高效地从未标准化的概率分布中生成统计独立的样本，比如多体系统的平衡样本，是科学中的一个基础问题。在本文中，我们提出了迭代去噪能量匹配（iDEM），这是一种迭代算法，它利用了一种新颖的随机得分匹配目标，仅使用能量函数及其梯度 - 而不是数据样本 - 来训练扩散基础的采样器。具体而言，iDEM在以下两个步骤之间交替进行：（I）从扩散基础的采样器中采样高模型密度的区域，和（II）使用这些样本在我们的随机匹配目标中进一步改进采样器。iDEM在高维度上是可扩展的，内部匹配目标是无需模拟的，并且不需要MCMC样本。此外，通过利用扩散的快速模式混合行为，iDEM平滑了能量背景，实现了高效的探索和学习的分摊采样器。我们对一系列任务进行了iDEM的评估...
 
-    Information geometry and Wasserstein geometry are two main structures introduced in a manifold of probability distributions, and they capture its different characteristics. We study characteristics of Wasserstein geometry in the framework of Li and Zhao (2023) for the affine deformation statistical model, which is a multi-dimensional generalization of the location-scale model. We compare merits and demerits of estimators based on information geometry and Wasserstein geometry. The shape of a probability distribution and its affine deformation are separated in the Wasserstein geometry, showing its robustness against the waveform perturbation in exchange for the loss in Fisher efficiency. We show that the Wasserstein estimator is the moment estimator in the case of the elliptically symmetric affine deformation model. It coincides with the information-geometrical estimator (maximum-likelihood estimator) when and only when the waveform is Gaussian. The role of the Wasserstein efficiency is 
+    Efficiently generating statistically independent samples from an unnormalized probability distribution, such as equilibrium samples of many-body systems, is a foundational problem in science. In this paper, we propose Iterated Denoising Energy Matching (iDEM), an iterative algorithm that uses a novel stochastic score matching objective leveraging solely the energy function and its gradient -- and no data samples -- to train a diffusion-based sampler. Specifically, iDEM alternates between (I) sampling regions of high model density from a diffusion-based sampler and (II) using these samples in our stochastic matching objective to further improve the sampler. iDEM is scalable to high dimensions as the inner matching objective, is simulation-free, and requires no MCMC samples. Moreover, by leveraging the fast mode mixing behavior of diffusion, iDEM smooths out the energy landscape enabling efficient exploration and learning of an amortized sampler. We evaluate iDEM on a suite of tasks rang
     
-[^9]: Gumbel传播下的潜在最优路径变分贝叶斯动态规划
+[^5]: 高维情况下，普通贝叶斯优化算法表现出色
 
-    Latent Optimal Paths by Gumbel Propagation for Variational Bayesian Dynamic Programming. (arXiv:2306.02568v1 [stat.ML])
+    Vanilla Bayesian Optimization Performs Great in High Dimension
 
-    [http://arxiv.org/abs/2306.02568](http://arxiv.org/abs/2306.02568)
+    [https://arxiv.org/abs/2402.02229](https://arxiv.org/abs/2402.02229)
 
-    该论文使用动态规划和Gumbel传播在VAE的潜在空间中获得结构化稀疏最优路径，从而使得模型可以依赖于未观察到的结构特征信息，并成功实现了文本转语音和歌声合成。
-
-    
-
-    我们提出了一种统一方法，使用动态规划和Gumbel传播在变分自编码器（VAE）的潜在空间中获取结构化稀疏最优路径。我们通过概率软化解，即随机最优路径，来解决经典最优路径问题，并将广泛的DP问题转化为有向无环图，其中所有可能的路径遵循Gibbs分布。我们通过Gumbel分布的属性显示Gibbs分布与消息传递算法的等价性，并提供了变分贝叶斯推理所需的所有要素。我们的方法获取了潜在最优路径，使生成任务的端到端训练成为可能，其中模型依赖于未观察到的结构特征的信息。我们验证了我们方法的行为，并展示了其在两个真实世界应用中的适用性：文本转语音和歌声合成。
-
-    We propose a unified approach to obtain structured sparse optimal paths in the latent space of a variational autoencoder (VAE) using dynamic programming and Gumbel propagation. We solve the classical optimal path problem by a probability softening solution, called the stochastic optimal path, and transform a wide range of DP problems into directed acyclic graphs in which all possible paths follow a Gibbs distribution. We show the equivalence of the Gibbs distribution to a message-passing algorithm by the properties of the Gumbel distribution and give all the ingredients required for variational Bayesian inference. Our approach obtaining latent optimal paths enables end-to-end training for generative tasks in which models rely on the information of unobserved structural features. We validate the behavior of our approach and showcase its applicability in two real-world applications: text-to-speech and singing voice synthesis.
-    
-[^10]: 结合类中心距离和异常值折扣的方法，提高在存在噪声标签的情况下训练机器学习模型的效果
-
-    Combining Distance to Class Centroids and Outlier Discounting for Improved Learning with Noisy Labels. (arXiv:2303.09470v1 [cs.LG])
-
-    [http://arxiv.org/abs/2303.09470](http://arxiv.org/abs/2303.09470)
-
-    本文提出了结合类中心距离和异常值折扣的方法，用于解决在存在噪声标签的情况下训练机器学习模型的问题，并通过实验证明了其有效性 。
+    本文研究了高维情况下贝叶斯优化算法的问题，并提出了一种改进方法，通过对先验假设进行简单的缩放，使普通贝叶斯优化在高维任务中表现出色。
 
     
 
-    本文提出了一种新的方法，用于解决在存在噪声标签的情况下训练机器学习模型的挑战。通过在物品的潜在空间中巧妙地使用距离类中心的方法，再结合折扣策略以减少距离所有类中心（即异常值）远的样本的重要性，我们的方法有效解决了噪声标签的问题。我们的方法是基于这样的想法：在训练的早期阶段，距离各自类中心更远的样本更可能是噪声。通过在几个流行的基准数据集上进行广泛实验，我们证明了我们的方法的有效性。结果表明，我们的方法在存在噪声标签的情况下，可以明显提高分类准确性，表现优于当前领域的最优方法。
+    长期以来，高维问题一直被认为是贝叶斯优化算法的软肋。受到维度噪音的刺激，许多算法旨在通过对目标应用各种简化假设来提高其性能。本文通过识别导致普通贝叶斯优化在高维任务中不适用的退化现象，并进一步展示了现有算法如何通过降低模型复杂度来应对这些退化现象。此外，我们还提出了一种对普通贝叶斯优化算法中典型先验假设的改进方法，该方法在不对目标施加结构性限制的情况下将复杂性降低到可管理的水平。我们的修改方法——通过维度对高斯过程长度先验进行简单的缩放——揭示了标准贝叶斯优化在高维情况下的显著改进，明确表明其效果远远超出以往的预期。
 
-    In this paper, we propose a new approach for addressing the challenge of training machine learning models in the presence of noisy labels. By combining a clever usage of distance to class centroids in the items' latent space with a discounting strategy to reduce the importance of samples far away from all the class centroids (i.e., outliers), our method effectively addresses the issue of noisy labels. Our approach is based on the idea that samples farther away from their respective class centroid in the early stages of training are more likely to be noisy. We demonstrate the effectiveness of our method through extensive experiments on several popular benchmark datasets. Our results show that our approach outperforms the state-of-the-art in this area, achieving significant improvements in classification accuracy when the dataset contains noisy labels.
+    High-dimensional problems have long been considered the Achilles' heel of Bayesian optimization algorithms. Spurred by the curse of dimensionality, a large collection of algorithms aim to make it more performant in this setting, commonly by imposing various simplifying assumptions on the objective. In this paper, we identify the degeneracies that make vanilla Bayesian optimization poorly suited to high-dimensional tasks, and further show how existing algorithms address these degeneracies through the lens of lowering the model complexity. Moreover, we propose an enhancement to the prior assumptions that are typical to vanilla Bayesian optimization algorithms, which reduces the complexity to manageable levels without imposing structural restrictions on the objective. Our modification - a simple scaling of the Gaussian process lengthscale prior with the dimensionality - reveals that standard Bayesian optimization works drastically better than previously thought in high dimensions, clearly
     
-[^11]: 用核斯坦离差控制矩
+[^6]: 分层因果模型
 
-    Controlling Moments with Kernel Stein Discrepancies. (arXiv:2211.05408v2 [stat.ML] UPDATED)
+    Hierarchical Causal Models. (arXiv:2401.05330v1 [stat.ME])
 
-    [http://arxiv.org/abs/2211.05408](http://arxiv.org/abs/2211.05408)
+    [http://arxiv.org/abs/2401.05330](http://arxiv.org/abs/2401.05330)
 
-    本研究分析了核斯坦离差（KSD）控制性质，发现标准KSD无法控制矩的收敛，提出了可控制矩和弱收敛的下游扩散KSD，并且发展了可以准确描述$q$-Wasserstein收敛的KSD。
+    提出了一种分层因果模型来解决关于分层数据的因果问题，通过添加内部板来扩展结构因果模型和因果图模型。发现分层数据可以实现因果识别，即使使用非分层数据是不可能的。开发了用于分层数据的估计技术。
 
     
 
-    核斯坦离差（KSD）用于衡量分布逼近的质量，并且可以在目标密度具有不可计算的归一化常数时计算。显著的应用包括诊断近似MCMC采样器和非归一化统计模型的适配度检验。本文分析了KSD的收敛控制性质。我们首先证明了用于弱收敛控制的标准KSD无法控制矩的收敛。为了解决这个限制，我们提供了一组充分条件，下游扩散KSD可以同时控制矩和弱收敛。作为一个直接的结果，我们发展了对于每个$q>0$，第一组已知可以准确描述$q$-Wasserstein收敛的KSD。
+    科学家们经常想要从分层数据中学习因果关系，这些数据是从嵌套在单位内部的子单元收集的。比如学校中的学生、病人的细胞或州中的城市。在这种情况下，单位级变量（例如每个学校的预算）可能会影响子单位级变量（例如每个学校每个学生的考试成绩），反之亦然。为了解决关于分层数据的因果问题，我们提出了分层因果模型，它通过添加内部板来扩展结构因果模型和因果图模型。我们开发了一种用于分层因果模型的通用图形识别技术，该技术扩展了do-计算。我们发现许多情况下，即使使用非分层数据是不可能的，分层数据也可以实现因果识别，也就是说，如果我们只有子单位级变量的单位级汇总（例如学校的平均考试成绩，而不是每个学生的成绩）。我们开发了用于分层数据的估计技术。
 
-    Kernel Stein discrepancies (KSDs) measure the quality of a distributional approximation and can be computed even when the target density has an intractable normalizing constant. Notable applications include the diagnosis of approximate MCMC samplers and goodness-of-fit tests for unnormalized statistical models. The present work analyzes the convergence control properties of KSDs. We first show that standard KSDs used for weak convergence control fail to control moment convergence. To address this limitation, we next provide sufficient conditions under which alternative diffusion KSDs control both moment and weak convergence. As an immediate consequence we develop, for each $q > 0$, the first KSDs known to exactly characterize $q$-Wasserstein convergence.
+    Scientists often want to learn about cause and effect from hierarchical data, collected from subunits nested inside units. Consider students in schools, cells in patients, or cities in states. In such settings, unit-level variables (e.g. each school's budget) may affect subunit-level variables (e.g. the test scores of each student in each school) and vice versa. To address causal questions with hierarchical data, we propose hierarchical causal models, which extend structural causal models and causal graphical models by adding inner plates. We develop a general graphical identification technique for hierarchical causal models that extends do-calculus. We find many situations in which hierarchical data can enable causal identification even when it would be impossible with non-hierarchical data, that is, if we had only unit-level summaries of subunit-level variables (e.g. the school's average test score, rather than each student's score). We develop estimation techniques for hierarchical 
+    
+[^7]: 具有策略性买家的情境动态定价
+
+    Contextual Dynamic Pricing with Strategic Buyers. (arXiv:2307.04055v1 [stat.ML])
+
+    [http://arxiv.org/abs/2307.04055](http://arxiv.org/abs/2307.04055)
+
+    本文研究了具有策略性买家的情境动态定价问题，提出了一种策略动态定价策略，将买家的策略行为纳入在线学习中，以最大化卖方的累计收益。
+
+    
+
+    个性化定价是企业常用的一种针对个体特征制定价格的策略。在这个过程中，买家也可以通过操纵特征数据来获取更低的价格，但这也会导致特定的操作成本。这种策略行为可能会阻碍企业最大化利润。本文研究了具有策略性买家的情境动态定价问题。卖方无法观察到买家的真实特征，而只能观察到买家根据策略行为操纵后的特征。此外，卖方只能观察到买家对产品的估值，而无法直接获取具体数值，只能得到一个二进制的响应，表示是否发生销售。鉴于这些挑战，我们提出了一种策略动态定价策略，将买家的策略行为纳入在线学习中，以最大化卖方的累计收益。首先证明了现有的不考虑策略性的定价策略的存在限制。
+
+    Personalized pricing, which involves tailoring prices based on individual characteristics, is commonly used by firms to implement a consumer-specific pricing policy. In this process, buyers can also strategically manipulate their feature data to obtain a lower price, incurring certain manipulation costs. Such strategic behavior can hinder firms from maximizing their profits. In this paper, we study the contextual dynamic pricing problem with strategic buyers. The seller does not observe the buyer's true feature, but a manipulated feature according to buyers' strategic behavior. In addition, the seller does not observe the buyers' valuation of the product, but only a binary response indicating whether a sale happens or not. Recognizing these challenges, we propose a strategic dynamic pricing policy that incorporates the buyers' strategic behavior into the online learning to maximize the seller's cumulative revenue. We first prove that existing non-strategic pricing policies that neglect
+    
+[^8]: 一种用于评估时变调节因素的因果偏离效应估计的元学习方法
+
+    A Meta-Learning Method for Estimation of Causal Excursion Effects to Assess Time-Varying Moderation. (arXiv:2306.16297v1 [stat.ME])
+
+    [http://arxiv.org/abs/2306.16297](http://arxiv.org/abs/2306.16297)
+
+    这项研究介绍了一种元学习方法，用于评估因果偏离效应，以评估干预效果随时间的变化或通过个体特征、环境或过去的反应来调节。目前的数据分析方法需要预先指定观察到的高维历史的特征来构建重要干扰参数的工作模型，而机器学习算法可以自动进行特征构建，但其朴素应用存在问题。
+
+    
+
+    可穿戴技术和智能手机提供的数字化健康干预的双重革命显著增加了移动健康（mHealth）干预在各个健康科学领域的可及性和采纳率。顺序随机实验称为微随机试验（MRTs）已经越来越受欢迎，用于实证评估这些mHealth干预组成部分的有效性。MRTs产生了一类新的因果估计量，称为“因果偏离效应”，使健康科学家能够评估干预效果随时间的变化或通过个体特征、环境或过去的反应来调节。然而，目前用于估计因果偏离效应的数据分析方法需要预先指定观察到的高维历史的特征来构建重要干扰参数的工作模型。虽然机器学习算法在自动特征构建方面具有优势，但其朴素应用导致了问题。
+
+    Twin revolutions in wearable technologies and smartphone-delivered digital health interventions have significantly expanded the accessibility and uptake of mobile health (mHealth) interventions across various health science domains. Sequentially randomized experiments called micro-randomized trials (MRTs) have grown in popularity to empirically evaluate the effectiveness of these mHealth intervention components. MRTs have given rise to a new class of causal estimands known as "causal excursion effects", which enable health scientists to assess how intervention effectiveness changes over time or is moderated by individual characteristics, context, or responses in the past. However, current data analysis methods for estimating causal excursion effects require pre-specified features of the observed high-dimensional history to construct a working model of an important nuisance parameter. While machine learning algorithms are ideal for automatic feature construction, their naive application
+    
+[^9]: 线性神经网络层促进学习单指数和多指数模型
+
+    Linear Neural Network Layers Promote Learning Single- and Multiple-Index Models. (arXiv:2305.15598v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.15598](http://arxiv.org/abs/2305.15598)
+
+    本研究探究了过度参数化的深度神经网络的偏见，发现在ReLU网络中添加线性层有助于逼近具有低秩线性算子和低表示成本函数组成的函数，从而得到一个与低维子空间垂直方向近乎恒定的插值函数。
+
+    
+
+    本文探究了深度大于两层的过度参数化神经网络的隐含偏见。我们的框架考虑了一类深度不同但容量相同的网络，它们具有不同的显式定义的表示成本。神经网络架构诱导的函数的表示成本是网络表示该函数所需的平方权重之和的最小值；它反映了与该架构相关的函数空间偏差。结果表明，将线性层添加到ReLU网络会产生一个表示成本，这有利于使用两层网络来逼近由低秩线性算子和具有低表示成本的函数组成的函数。具体来说，使用神经网络以最小的表示成本拟合训练数据会得到一个与低维子空间垂直方向近乎恒定的插值函数。
+
+    This paper explores the implicit bias of overparameterized neural networks of depth greater than two layers. Our framework considers a family of networks of varying depths that all have the same capacity but different implicitly defined representation costs. The representation cost of a function induced by a neural network architecture is the minimum sum of squared weights needed for the network to represent the function; it reflects the function space bias associated with the architecture. Our results show that adding linear layers to a ReLU network yields a representation cost that favors functions that can be approximated by a low-rank linear operator composed with a function with low representation cost using a two-layer network. Specifically, using a neural network to fit training data with minimum representation cost yields an interpolating function that is nearly constant in directions orthogonal to a low-dimensional subspace. This means that the learned network will approximate
+    
+[^10]: STEEL: 奇异性感知的强化学习
+
+    STEEL: Singularity-aware Reinforcement Learning. (arXiv:2301.13152v3 [stat.ML] UPDATED)
+
+    [http://arxiv.org/abs/2301.13152](http://arxiv.org/abs/2301.13152)
+
+    这篇论文介绍了一种新的批量强化学习算法STEEL，在具有连续状态和行动的无限时马尔可夫决策过程中，不依赖于绝对连续假设，通过最大均值偏差和分布鲁棒优化确保异常情况下的性能。
+
+    
+
+    批量强化学习旨在利用预先收集的数据，在动态环境中找到最优策略，以最大化期望总回报。然而，几乎所有现有算法都依赖于目标策略诱导的分布绝对连续假设，以便通过变换测度使用批量数据来校准目标策略。本文提出了一种新的批量强化学习算法，不需要在具有连续状态和行动的无限时马尔可夫决策过程中绝对连续性假设。我们称这个算法为STEEL：SingulariTy-awarE rEinforcement Learning。我们的算法受到关于离线评估的新误差分析的启发，其中我们使用了最大均值偏差，以及带有分布鲁棒优化的策略定向误差评估方法，以确保异常情况下的性能，并提出了一种用于处理奇异情况的定向算法。
+
+    Batch reinforcement learning (RL) aims at leveraging pre-collected data to find an optimal policy that maximizes the expected total rewards in a dynamic environment. Nearly all existing algorithms rely on the absolutely continuous assumption on the distribution induced by target policies with respect to the data distribution, so that the batch data can be used to calibrate target policies via the change of measure. However, the absolute continuity assumption could be violated in practice (e.g., no-overlap support), especially when the state-action space is large or continuous. In this paper, we propose a new batch RL algorithm without requiring absolute continuity in the setting of an infinite-horizon Markov decision process with continuous states and actions. We call our algorithm STEEL: SingulariTy-awarE rEinforcement Learning. Our algorithm is motivated by a new error analysis on off-policy evaluation, where we use maximum mean discrepancy, together with distributionally robust opti
     
 
