@@ -2,67 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Coarse graining correlation matrices according to macrostructures: Financial markets as a paradigm](https://arxiv.org/abs/2402.05364) | 本文通过将Pearson相关矩阵粗粒化，根据市场部门来分析金融市场的相关结构，并比较了粗粒化和Pearson矩阵在市场状态演变和转换矩阵上的结果。结果表明，粗粒化和Pearson矩阵对市场状态的行为是相似的，并且相关变量数量减少了数个数量级。 |
-| [^2] | [Augmented Dynamic Gordon Growth Model.](http://arxiv.org/abs/2201.06012) | 本文介绍了一种增强的动态戈登增长模型，通过引入时间变化的即期利率和戈登增长模型扩充了模型。利用风险中性估值方法和局部风险最小化策略，获得了红利支付的欧式看涨和看跌期权、Margrabe交换期权以及股权链接的人寿保险产品的定价和对冲公式。同时提供了该模型的最大似然估计。 |
-| [^3] | [Equity--Linked Life Insurances on Maximum of Several Assets.](http://arxiv.org/abs/2111.04038) | 本文提出了一种基于贝叶斯马尔科夫-切换向量自回归过程的定价和对冲方法，用于股权链接人寿保险产品，具有依赖经济变量并且简化的优点。 |
-| [^4] | [Options Pricing under Bayesian MS-VAR Process.](http://arxiv.org/abs/2109.05998) | 本文研究了基于贝叶斯MS-VAR过程的期权定价方法，相较于先前依赖于切换过程的期权定价方法而言更加方便易用。 |
+| [^1] | [They were robbed! Scoring by the middlemost to attenuate biased judging in boxing](https://arxiv.org/abs/2402.06594) | 通过根据裁判在每个回合中的胜者来决定胜利者的评分方法，可以减少拳击裁判的偏见对比赛结果的影响。 |
+| [^2] | [Forecasting and Backtesting Gradient Allocations of Expected Shortfall.](http://arxiv.org/abs/2401.11701) | 本研究探讨了期望损失的梯度配置，并提出了基于联合可识别性和多目标可引出性的回测方法、以及基于Murphy图表的稳健预测评估方法。 |
 
 # 详细
 
-[^1]: 根据宏观结构来粗粒化相关矩阵：以金融市场为范例
+[^1]: 他们被抢劫了！通过中间值评分减少拳击裁判的偏见
 
-    Coarse graining correlation matrices according to macrostructures: Financial markets as a paradigm
+    They were robbed! Scoring by the middlemost to attenuate biased judging in boxing
 
-    [https://arxiv.org/abs/2402.05364](https://arxiv.org/abs/2402.05364)
+    [https://arxiv.org/abs/2402.06594](https://arxiv.org/abs/2402.06594)
 
-    本文通过将Pearson相关矩阵粗粒化，根据市场部门来分析金融市场的相关结构，并比较了粗粒化和Pearson矩阵在市场状态演变和转换矩阵上的结果。结果表明，粗粒化和Pearson矩阵对市场状态的行为是相似的，并且相关变量数量减少了数个数量级。
-
-    
-
-    我们通过将Pearson相关矩阵根据市场部门进行粗粒化，使用Guhr的相关方法得到Guhr矩阵，来分析金融市场的相关结构。我们将市场状态的演变和相应的转换矩阵的结果与使用Pearson相关矩阵得到的进行比较。我们发现，粗粒化和Pearson矩阵对于市场状态的行为是相似的。然而，相关变量的数量减少了数个数量级。
-
-    We analyze correlation structures in financial markets by coarse graining the Pearson correlation matrices according to market sectors to obtain Guhr matrices using Guhr's correlation method according to Ref. [P. Rinn {\it et. al.}, Europhysics Letters 110, 68003 (2015)]. We compare the results for the evolution of market states and the corresponding transition matrices with those obtained using Pearson correlation matrices. The behavior of market states is found to be similar for both the coarse grained and Pearson matrices. However, the number of relevant variables is reduced by orders of magnitude.
-    
-[^2]: 增强的动态戈登增长模型
-
-    Augmented Dynamic Gordon Growth Model. (arXiv:2201.06012v3 [q-fin.MF] UPDATED)
-
-    [http://arxiv.org/abs/2201.06012](http://arxiv.org/abs/2201.06012)
-
-    本文介绍了一种增强的动态戈登增长模型，通过引入时间变化的即期利率和戈登增长模型扩充了模型。利用风险中性估值方法和局部风险最小化策略，获得了红利支付的欧式看涨和看跌期权、Margrabe交换期权以及股权链接的人寿保险产品的定价和对冲公式。同时提供了该模型的最大似然估计。
+    通过根据裁判在每个回合中的胜者来决定胜利者的评分方法，可以减少拳击裁判的偏见对比赛结果的影响。
 
     
 
-    本文引入了一种动态的戈登增长模型，其通过时间变化的即期利率和戈登增长模型来扩充。利用风险中性估值方法和局部风险最小化策略，我们获得了红利支付的欧式看涨和看跌期权、Margrabe交换期权以及股权链接的人寿保险产品的定价和对冲公式。此外，我们还提供了该模型的最大似然估计。
+    拳击长期存在着偏见评判的问题，不仅影响职业拳击赛事，也影响奥运比赛。所谓的“抢劫”现象让拳击运动的粉丝和运动员们对此产生了疑虑。为了解决这个问题，我们提出了一种简化的拳击评分调整方法：根据裁判在每个回合中的胜者来决定胜利者，而不是依靠裁判对整场比赛的总体评分。这种方法基于社会选择理论，采用多数规则和中间值聚合函数，对偏袒裁判构成协调问题，减弱其影响力。我们的模型分析和模拟结果表明，这种方法可以显著减少偏袒裁判影响比赛结果的可能性。
 
-    In this paper, we introduce a dynamic Gordon growth model, which is augmented by a time-varying spot interest rate and the Gordon growth model for dividends. Using the risk-neutral valuation method and locally risk-minimizing strategy, we obtain pricing and hedging formulas for the dividend--paying European call and put options, Margrabe exchange options, and equity--linked life insurance products. Also, we provide ML estimator of the model.
+    Boxing has a long-standing problem with biased judging, impacting both professional and Olympic bouts. ''Robberies'', where boxers are widely seen as being denied rightful victories, threaten to drive fans and athletes away from the sport. To tackle this problem, we propose a minimalist adjustment in how boxing is scored: the winner would be decided by the majority of round-by-round victories according to the judges, rather than relying on the judges' overall bout scores. This approach, rooted in social choice theory and utilising majority rule and middlemost aggregation functions, creates a coordination problem for partisan judges and attenuates their influence. Our model analysis and simulations demonstrate the potential to significantly decrease the likelihood of a partisan judge swaying the result of a bout.
     
-[^3]: 基于多个资产的股权链接人寿保险
+[^2]: 预测和回测期望损失的梯度配置
 
-    Equity--Linked Life Insurances on Maximum of Several Assets. (arXiv:2111.04038v3 [q-fin.MF] UPDATED)
+    Forecasting and Backtesting Gradient Allocations of Expected Shortfall. (arXiv:2401.11701v1 [q-fin.RM])
 
-    [http://arxiv.org/abs/2111.04038](http://arxiv.org/abs/2111.04038)
+    [http://arxiv.org/abs/2401.11701](http://arxiv.org/abs/2401.11701)
 
-    本文提出了一种基于贝叶斯马尔科夫-切换向量自回归过程的定价和对冲方法，用于股权链接人寿保险产品，具有依赖经济变量并且简化的优点。
-
-    
-
-    本文提出了基于贝叶斯马尔科夫-切换向量自回归（MS-VAR）过程的分离资金和单位链接人寿保险产品的定价和对冲方法。我们假设切换制度的过程由一个均匀马尔科夫过程和一个残差过程所生成，残差过程遵循一个异方差模型。我们模型的优势在于它依赖于经济变量并且不复杂。
-
-    This paper presents pricing and hedging methods for segregated funds and unit-linked life insurance products that are based on a Bayesian Markov--Switching Vector Autoregressive (MS--VAR) process. Here we assumed that a regime-switching process is generated by a homogeneous Markov process and a residual process follows a heteroscedastic model. An advantage of our model is it depends on economic variables and is not complicated.
-    
-[^4]: 基于贝叶斯MS-VAR过程的期权定价方法
-
-    Options Pricing under Bayesian MS-VAR Process. (arXiv:2109.05998v3 [q-fin.MF] UPDATED)
-
-    [http://arxiv.org/abs/2109.05998](http://arxiv.org/abs/2109.05998)
-
-    本文研究了基于贝叶斯MS-VAR过程的期权定价方法，相较于先前依赖于切换过程的期权定价方法而言更加方便易用。
+    本研究探讨了期望损失的梯度配置，并提出了基于联合可识别性和多目标可引出性的回测方法、以及基于Murphy图表的稳健预测评估方法。
 
     
 
-    本文研究了基于风险中性估值方法，基于贝叶斯马尔可夫-转换向量自回归(MS-BVAR)过程的期权定价方法。贝叶斯MS-VAR过程的一种特例是为经济变量之间的相互依赖和经济变量预测而广泛使用的BVAR过程。在本文中，我们假设切换过程由均匀马尔可夫过程和残差过程遵循一个条件异方差模型而产生。通过直接计算和概率测度的变换，对于某些常用期权，我们导出了价格公式。我们模型的优点在于其依赖于经济变量且易于使用，相较于先前依赖于切换过程的期权定价论文而言更加方便。
+    资本配置是一种量化各种风险源对总体风险的贡献的过程。梯度配置规则，也称为欧拉原则，是一种常见的资本配置规则，根据该规则分配的资本可以捕捉边际风险的多元化效益作为总体风险的组成部分。本研究以期望损失（ES）作为监管标准，重点关注ES的梯度配置，也称为ES贡献。我们在传统和比较回测的框架下对ES贡献元组进行全面处理，基于联合可识别性和多目标可引出性的概念。为了对抗衡函数选择进行稳健的预测评估，我们进一步开发了ES贡献的Murphy图表作为图形工具，以检查在一类抗衡函数下是否存在某个预测优于另一个预测。最后，利用最近的多元配置概念。
 
-    In this paper, we have studied option pricing methods that are based on a Bayesian Markov-Switching Vector Autoregressive (MS--BVAR) process using a risk-neutral valuation approach. A BVAR process, which is a special case of the Bayesian MS--VAR process is widely used to model interdependencies of economic variables and forecast economic variables. Here we assumed that a regime-switching process is generated by a homogeneous Markov process and a residual process follows a conditional heteroscedastic model. With a direct calculation and change of probability measure, for some frequently used options, we derived pricing formulas. An advantage of our model is it depends on economic variables and is easy to use compared to previous option pricing papers, which depend on regime-switching.
+    Capital allocation is a procedure for quantifying the contribution of each source of risk to aggregated risk. The gradient allocation rule, also known as the Euler principle, is a prevalent rule of capital allocation under which the allocated capital captures the diversification benefit of the marginal risk as a component of overall risk. This research concentrates on Expected Shortfall (ES) as a regulatory standard and focuses on the gradient allocations of ES, also called ES contributions. We achieve the comprehensive treatment of backtesting the tuple of ES contributions in the framework of the traditional and comparative backtests based on the concepts of joint identifiability and multi-objective elicitability. For robust forecast evaluation against the choice of scoring function, we further develop Murphy diagrams for ES contributions as graphical tools to check whether one forecast dominates another under a class of scoring functions. Finally, leveraging the recent concept of mul
     
 
