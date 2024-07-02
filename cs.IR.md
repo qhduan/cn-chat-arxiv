@@ -2,52 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [JMLR: Joint Medical LLM and Retrieval Training for Enhancing Reasoning and Professional Question Answering Capability](https://arxiv.org/abs/2402.17887) | JMLR通过联合训练信息检索系统和大型语言模型，在医学领域提高问题回答系统性能，降低计算资源需求，增强模型利用医疗知识进行推理和回答问题的能力。 |
-| [^2] | [GRILLBot In Practice: Lessons and Tradeoffs Deploying Large Language Models for Adaptable Conversational Task Assistants](https://arxiv.org/abs/2402.07647) | 本论文介绍了GRILLBot在实践中的应用，该系统是用于复杂实际任务的多模态助手，并处理了开发和部署中的实际问题和挑战。作者提出了一种混合架构，利用大型语言模型和专门模型来保证任务导向的问题回答和实时任务调整的性能和低延迟，以及通过代码生成方法实现的对话状态管理。该论文对于构建适应性会话任务助手具有重要的创新和贡献。 |
-| [^3] | [A Hierarchical Neural Framework for Classification and its Explanation in Large Unstructured Legal Documents.](http://arxiv.org/abs/2309.10563) | 本论文提出了一个名为MESc的分层神经框架，用于分类和解释大型非结构化法律文件。通过将文件分成多个部分并使用大型语言模型的嵌入和无监督聚类，该框架能够实现从长文档中预测判决并提取解释。 |
+| [^1] | [Mamba4Rec: Towards Efficient Sequential Recommendation with Selective State Space Models](https://arxiv.org/abs/2403.03900) | Mamba4Rec是首个探索选择性状态空间模型用于高效序列推荐的工作，能够在保持推断效率的同时提升模型性能。 |
+| [^2] | [Towards Efficient and Effective Unlearning of Large Language Models for Recommendation](https://arxiv.org/abs/2403.03536) | 提出了E2URec，这是为了解决大型语言模型在推荐系统中遗忘特定用户数据所面临的效率和有效性方面的挑战。 |
+| [^3] | [MuGI: Enhancing Information Retrieval through Multi-Text Generation Intergration with Large Language Models.](http://arxiv.org/abs/2401.06311) | MuGI是一个简单而有效的多文本生成集成框架，它通过与大型语言模型合作生成多个伪参考文献，并将其与查询集成以提升信息检索性能。在实验中，MuGI模型在TREC DL数据集上的BM25性能上取得了18%以上的增强，并在BEIR上提高了7.5%。 |
+| [^4] | [Autumn: A Scalable Read Optimized LSM-tree based Key-Value Stores with Fast Point and Range Read Speed.](http://arxiv.org/abs/2305.05074) | Autumn是一个可扩展的、面向读操作优化的LSM-tree键值存储引擎，其创新之处在于通过动态调整相邻两层之间的容量比来不断提高读性能，使得点读和区间读成本从之前最优的$O(logN)$复杂度优化到了$O(\sqrt{logN})$。 |
 
 # 详细
 
-[^1]: JMLR：联合医疗LLM和检索训练以增强推理和专业问题回答能力
+[^1]: Mamba4Rec：针对具有选择性状态空间模型的高效序列推荐
 
-    JMLR: Joint Medical LLM and Retrieval Training for Enhancing Reasoning and Professional Question Answering Capability
+    Mamba4Rec: Towards Efficient Sequential Recommendation with Selective State Space Models
 
-    [https://arxiv.org/abs/2402.17887](https://arxiv.org/abs/2402.17887)
+    [https://arxiv.org/abs/2403.03900](https://arxiv.org/abs/2403.03900)
 
-    JMLR通过联合训练信息检索系统和大型语言模型，在医学领域提高问题回答系统性能，降低计算资源需求，增强模型利用医疗知识进行推理和回答问题的能力。
-
-    
-
-    随着医疗数据的爆炸性增长和人工智能技术的快速发展，精准医学已经成为增强医疗服务质量和效率的关键。在这种背景下，大型语言模型（LLMs）在医疗知识获取和问题回答系统中发挥越来越重要的作用。为了进一步提高这些系统在医学领域的性能，我们介绍了一种创新方法，在微调阶段同时训练信息检索（IR）系统和LLM。我们称之为联合医疗LLM和检索训练（JMLR）的方法旨在克服传统模型在处理医学问题回答任务时面临的挑战。通过采用同步训练机制，JMLR减少了对计算资源的需求，并增强了模型利用医疗知识进行推理和回答问题的能力。
-
-    arXiv:2402.17887v1 Announce Type: new  Abstract: With the explosive growth of medical data and the rapid development of artificial intelligence technology, precision medicine has emerged as a key to enhancing the quality and efficiency of healthcare services. In this context, Large Language Models (LLMs) play an increasingly vital role in medical knowledge acquisition and question-answering systems. To further improve the performance of these systems in the medical domain, we introduce an innovative method that jointly trains an Information Retrieval (IR) system and an LLM during the fine-tuning phase. This approach, which we call Joint Medical LLM and Retrieval Training (JMLR), is designed to overcome the challenges faced by traditional models in handling medical question-answering tasks. By employing a synchronized training mechanism, JMLR reduces the demand for computational resources and enhances the model's ability to leverage medical knowledge for reasoning and answering question
-    
-[^2]: GRILLBot在实践中的应用：部署大型语言模型以建立适应性会话任务助手的经验与权衡
-
-    GRILLBot In Practice: Lessons and Tradeoffs Deploying Large Language Models for Adaptable Conversational Task Assistants
-
-    [https://arxiv.org/abs/2402.07647](https://arxiv.org/abs/2402.07647)
-
-    本论文介绍了GRILLBot在实践中的应用，该系统是用于复杂实际任务的多模态助手，并处理了开发和部署中的实际问题和挑战。作者提出了一种混合架构，利用大型语言模型和专门模型来保证任务导向的问题回答和实时任务调整的性能和低延迟，以及通过代码生成方法实现的对话状态管理。该论文对于构建适应性会话任务助手具有重要的创新和贡献。
+    Mamba4Rec是首个探索选择性状态空间模型用于高效序列推荐的工作，能够在保持推断效率的同时提升模型性能。
 
     
 
-    我们致力于解决构建复杂实际任务的实际多模态助手的难题。我们描述了开发和部署GRILLBot的实践性和挑战性，该系统是Alexa Prize TaskBot挑战赛中获得第一和第二名的系统（分别在2022年和2023年）。在我们的开放助手工具包（OAT）框架的基础上，我们提出了一种混合架构，利用大型语言模型（LLMs）和为需要非常低延迟的特定子任务调优的专门模型。OAT使我们能够以结构化且可部署的方式定义何时、如何以及使用哪些LLMs。对于知识驱动的问题回答和实时任务调整，我们展示了LLM在任务背景和世界知识上的推理能力超过延迟问题。对于对话状态管理，我们实现了一种代码生成方法，并展示了专门的较小模型具有84％的有效性和100倍的低延迟。总体而言，我们提供了洞见，并讨论了权衡选择。
+    序列推荐旨在估计动态用户偏好和历史用户行为之间的顺序依赖关系。本文提出了Mamba4Rec，这是首个探索选择性SSM潜力以实现高效序列推荐的工作。通过基本的Mamba块构建，结合一系列顺序建模技术，我们进一步提升了模型性能，同时保持了推断效率。实验证明，Mamba4Rec能够很好地处理序列推荐的有效性问题。
 
-    We tackle the challenge of building real-world multimodal assistants for complex real-world tasks. We describe the practicalities and challenges of developing and deploying GRILLBot, a leading (first and second prize winning in 2022 and 2023) system deployed in the Alexa Prize TaskBot Challenge. Building on our Open Assistant Toolkit (OAT) framework, we propose a hybrid architecture that leverages Large Language Models (LLMs) and specialised models tuned for specific subtasks requiring very low latency. OAT allows us to define when, how and which LLMs should be used in a structured and deployable manner. For knowledge-grounded question answering and live task adaptations, we show that LLM reasoning abilities over task context and world knowledge outweigh latency concerns. For dialogue state management, we implement a code generation approach and show that specialised smaller models have 84% effectiveness with 100x lower latency. Overall, we provide insights and discuss tradeoffs for de
+    arXiv:2403.03900v1 Announce Type: new  Abstract: Sequential recommendation aims to estimate the dynamic user preferences and sequential dependencies among historical user behaviors. Although Transformer-based models have proven to be effective for sequential recommendation, they suffer from the inference inefficiency problem stemming from the quadratic computational complexity of attention operators, especially for long-range behavior sequences. Inspired by the recent success of state space models (SSMs), we propose Mamba4Rec, which is the first work to explore the potential of selective SSMs for efficient sequential recommendation. Built upon the basic Mamba block which is a selective SSM with an efficient hardware-aware parallel algorithm, we incorporate a series of sequential modeling techniques to further promote the model performance and meanwhile maintain the inference efficiency. Experiments on two public datasets demonstrate that Mamba4Rec is able to well address the effectiven
     
-[^3]: 一个用于分类和解释大型非结构化法律文件的分层神经框架
+[^2]: 为推荐而设计的大型语言模型的高效和有效的遗忘
 
-    A Hierarchical Neural Framework for Classification and its Explanation in Large Unstructured Legal Documents. (arXiv:2309.10563v1 [cs.IR])
+    Towards Efficient and Effective Unlearning of Large Language Models for Recommendation
 
-    [http://arxiv.org/abs/2309.10563](http://arxiv.org/abs/2309.10563)
+    [https://arxiv.org/abs/2403.03536](https://arxiv.org/abs/2403.03536)
 
-    本论文提出了一个名为MESc的分层神经框架，用于分类和解释大型非结构化法律文件。通过将文件分成多个部分并使用大型语言模型的嵌入和无监督聚类，该框架能够实现从长文档中预测判决并提取解释。
+    提出了E2URec，这是为了解决大型语言模型在推荐系统中遗忘特定用户数据所面临的效率和有效性方面的挑战。
 
     
 
-    自动法律判决预测及其解释常常面临长达数万字的案例文件和非统一结构的问题。在没有结构标注的文件上预测判决并提取解释变得更具挑战性。本论文将这一问题定义为“稀缺标注法律文件”，并通过一种称为MESc（基于多阶段编码器的带聚类的监督）的深度学习分类框架来探索缺乏结构信息和长文档的特点。具体来说，我们将文档分成多个部分，从自定义微调的大型语言模型的最后四个层中提取它们的嵌入，并试图通过无监督聚类来近似它们的结构。然后，我们利用另一组Transformer编码器层学习部分之间的表示。我们探索了多十亿参数的大型语言模型在这种情况下的适应性。
+    大型语言模型（LLMs）的显著进展产生了一项有前途的研究方向，即利用LLMs作为推荐系统（LLMRec）。 LLMRec的有效性源自LLMs固有的开放世界知识和推理能力。 LLMRec通过基于用户互动数据的指导调整获得推荐功能。 然而，为了保护用户隐私并优化效用，LLMRec还必须有意忘记特定用户数据，这通常称为推荐遗忘。 在LLMs时代，推荐遗忘在\textit{效率}和\textit{有效性}方面为LLMRec带来了新挑战。 现有的遗忘方法需要更新LLMRec中数十亿参数，这是昂贵且耗时的。 此外，它们在遗忘过程中总是影响模型效用。 为此，我们提出了\textbf{E2URec}，第一
 
-    Automatic legal judgment prediction and its explanation suffer from the problem of long case documents exceeding tens of thousands of words, in general, and having a non-uniform structure. Predicting judgments from such documents and extracting their explanation becomes a challenging task, more so on documents with no structural annotation. We define this problem as "scarce annotated legal documents" and explore their lack of structural information and their long lengths with a deep learning-based classification framework which we call MESc; "Multi-stage Encoder-based Supervised with-clustering"; for judgment prediction. Specifically, we divide a document into parts to extract their embeddings from the last four layers of a custom fine-tuned Large Language Model, and try to approximate their structure through unsupervised clustering. Which we use in another set of transformer encoder layers to learn the inter-chunk representations. We explore the adaptability of LLMs with multi-billion
+    arXiv:2403.03536v1 Announce Type: cross  Abstract: The significant advancements in large language models (LLMs) give rise to a promising research direction, i.e., leveraging LLMs as recommenders (LLMRec). The efficacy of LLMRec arises from the open-world knowledge and reasoning capabilities inherent in LLMs. LLMRec acquires the recommendation capabilities through instruction tuning based on user interaction data. However, in order to protect user privacy and optimize utility, it is also crucial for LLMRec to intentionally forget specific user data, which is generally referred to as recommendation unlearning. In the era of LLMs, recommendation unlearning poses new challenges for LLMRec in terms of \textit{inefficiency} and \textit{ineffectiveness}. Existing unlearning methods require updating billions of parameters in LLMRec, which is costly and time-consuming. Besides, they always impact the model utility during the unlearning process. To this end, we propose \textbf{E2URec}, the first
+    
+[^3]: MuGI:通过与大型语言模型的多文本生成集成增强信息检索
+
+    MuGI: Enhancing Information Retrieval through Multi-Text Generation Intergration with Large Language Models. (arXiv:2401.06311v1 [cs.IR])
+
+    [http://arxiv.org/abs/2401.06311](http://arxiv.org/abs/2401.06311)
+
+    MuGI是一个简单而有效的多文本生成集成框架，它通过与大型语言模型合作生成多个伪参考文献，并将其与查询集成以提升信息检索性能。在实验中，MuGI模型在TREC DL数据集上的BM25性能上取得了18%以上的增强，并在BEIR上提高了7.5%。
+
+    
+
+    大型语言模型（LLM）已经成为语言技术领域的一个重要力量。它们强大的推理能力和广泛的知识库使其在各个自然语言处理领域，包括信息检索（IR）方面具备了出色的零-shot泛化能力。在本文中，我们对LLM生成的文档在IR中的实用性进行了深入研究。我们引入了一个简单而有效的框架，即多文本生成集成（MuGI），来增强现有的IR方法。具体而言，我们引导LLM生成多个伪参考文献，并将其与查询进行集成以进行检索。无需训练的MuGI模型超越了现有的查询扩展策略，在TREC DL数据集上的BM25上取得了新的标准，并在BEIR上提高了7.5%。通过MuGI，我们构建了一个快速且高保真度的重排序方法。
+
+    Large Language Models (LLMs) have emerged as a pivotal force in language technology. Their robust reasoning capabilities and expansive knowledge repositories have enabled exceptional zero-shot generalization abilities across various facets of the natural language processing field, including information retrieval (IR). In this paper, we conduct an in-depth investigation into the utility of documents generated by LLMs for IR. We introduce a simple yet effective framework, Multi-Text Generation Integration (MuGI), to augment existing IR methodologies. Specifically, we prompt LLMs to generate multiple pseudo references and integrate with query for retrieval. The training-free MuGI model eclipses existing query expansion strategies, setting a new standard in sparse retrieval. It outstrips supervised counterparts like ANCE and DPR, achieving a notable over 18% enhancement in BM25 on the TREC DL dataset and a 7.5% increase on BEIR. Through MuGI, we have forged a rapid and high-fidelity re-ran
+    
+[^4]: Autumn：基于LSM-tree的可扩展的面向读操作优化的键值存储引擎
+
+    Autumn: A Scalable Read Optimized LSM-tree based Key-Value Stores with Fast Point and Range Read Speed. (arXiv:2305.05074v1 [cs.DB])
+
+    [http://arxiv.org/abs/2305.05074](http://arxiv.org/abs/2305.05074)
+
+    Autumn是一个可扩展的、面向读操作优化的LSM-tree键值存储引擎，其创新之处在于通过动态调整相邻两层之间的容量比来不断提高读性能，使得点读和区间读成本从之前最优的$O(logN)$复杂度优化到了$O(\sqrt{logN})$。
+
+    
+
+    基于Log Structured Merge Trees (LSM-tree)的键值存储引擎被广泛应用于许多存储系统中，以支持更新、点读和区间读等各种操作。本文中，我们提出了一个名为Autumn的可扩展的、面向读操作优化的基于LSM-tree的键值存储引擎，它具有最少的点读和区间读成本。通过动态调整相邻两层之间的容量比来不断提高读性能，点读和区间读成本从之前最优的$O(logN)$复杂度优化到了$O(\sqrt{logN})$，并应用了新的Garnering合并策略。Autumn是一个可扩展的、面向读操作优化的LSM-tree键值存储引擎。
+
+    The Log Structured Merge Trees (LSM-tree) based key-value stores are widely used in many storage systems to support a variety of operations such as updates, point reads, and range reads. Traditionally, LSM-tree's merge policy organizes data into multiple levels of exponentially increasing capacity to support high-speed writes. However, we contend that the traditional merge policies are not optimized for reads. In this work, we present Autumn, a scalable and read optimized LSM-tree based key-value stores with minimal point and range read cost. The key idea in improving the read performance is to dynamically adjust the capacity ratio between two adjacent levels as more data are stored. As a result, smaller levels gradually increase their capacities and merge more often. In particular, the point and range read cost improves from the previous best known $O(logN)$ complexity to $O(\sqrt{logN})$ in Autumn by applying the new novel Garnering merge policy. While Garnering merge policy optimize
     
 
