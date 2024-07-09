@@ -2,82 +2,97 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [A Gaussian smooth transition vector autoregressive model: An application to the macroeconomic effects of severe weather shocks](https://arxiv.org/abs/2403.14216) | 提出了一种新的高斯平滑过渡向量自回归模型，能够更好地捕捉复杂的转换动态，并在实证应用中发现美国经济逐渐适应了严重天气带来的影响。 |
-| [^2] | [Two-Person adversarial games are zero-sum: A resolution of the Luce-Raiffa-Aumann (LRA) conjecture](https://arxiv.org/abs/2403.04029) | 该论文通过将两个社区汇聚在对抗游戏的总纲下，重新表述了有关两人对抗游戏的定理，并连接了策略零和游戏和多线性收益的n人游戏的公理化。 |
-| [^3] | [Trimmed Mean Group Estimation of Average Treatment Effects in Ultra Short T Panels under Correlated Heterogeneity.](http://arxiv.org/abs/2310.11680) | 本文在相关异质性下，提出了一种修剪均值组（TMG）估计器，可以在面板数据时间维度很小的情况下以不规则的速度保持一致性。该方法具有较好的性质和性能，并提供了相关异质性的检验方法。通过实证应用展示了该方法的实用性。 |
-| [^4] | [Duration Dependence and Heterogeneity: Learning from Early Notice of Layoff.](http://arxiv.org/abs/2305.17344) | 本文通过解雇通知的长度变化，区分了失业期限制和不良选择对失业退出率的影响，发现48周失业退出率的下降主要是由于留存求职者的质量恶化造成的， |
-| [^5] | [Bootstrap-Assisted Inference for Generalized Grenander-type Estimators.](http://arxiv.org/abs/2303.13598) | 本文研究了广义Grenander型估计量的大样本分布特性，提出了Bootstrap-Aided推断方法，解决了标准非参数Bootstrap难以逼近广义Grenander型估计量的大样本分布的问题。 |
+| [^1] | [Incentive-Compatible Vertiport Reservation in Advanced Air Mobility: An Auction-Based Approach](https://arxiv.org/abs/2403.18166) | 本论文提出了一种激励兼容且个体理性的vertiport预订机制，旨在协调多个运营商操作的电动垂直起降（eVTOL）飞行器在vertiports之间移动，最大化所有运营商的总估值同时最小化vertiports的拥堵。 |
+| [^2] | [Bandit Profit-maximization for Targeted Marketing](https://arxiv.org/abs/2403.01361) | 该论文研究了针对目标营销的强盗利润最大化问题，并提出了在敌对强盗情境下的近乎最优算法。 |
+| [^3] | [Fuzzy Classification Aggregation](https://arxiv.org/abs/2402.17620) | 对于模糊分类问题，我们证明了满足弱一致性条件的独立聚合规则属于加权算术平均数的家族，并给出了$m= p= 2$的特征化结果。 |
+| [^4] | [On Connected Strongly-Proportional Cake-Cutting](https://arxiv.org/abs/2312.15326) | 该论文研究了一种公平划分可划分异质资源的问题，即蛋糕切分。该论文确定了存在一种连通的强比例切分方式，并提供了相应的算法和简单刻画。 |
+| [^5] | [Risk Aversion and Insurance Propensity.](http://arxiv.org/abs/2310.09173) | 这篇论文提供了一个新的风险厌恶基础，通过展示充分利用保险机会的倾向来描述这种态度，并且成功地将风险厌恶与不同保险倾向联系起来，为比较风险厌恶提供了一种新的解释。 |
+| [^6] | [The Newsvendor with Advice.](http://arxiv.org/abs/2305.07993) | 本文开发了第一个整合了机器学习预测的新闻经销商模型，利用预测来优化库存水平以避免下限和提高性能。 |
 
 # 详细
 
-[^1]: 一种高斯平滑过渡向量自回归模型：对严重天气冲击的宏观经济影响的应用
+[^1]: 具有激励兼容性的先进空中移动中的Vertiport预订：基于拍卖的方法
 
-    A Gaussian smooth transition vector autoregressive model: An application to the macroeconomic effects of severe weather shocks
+    Incentive-Compatible Vertiport Reservation in Advanced Air Mobility: An Auction-Based Approach
 
-    [https://arxiv.org/abs/2403.14216](https://arxiv.org/abs/2403.14216)
+    [https://arxiv.org/abs/2403.18166](https://arxiv.org/abs/2403.18166)
 
-    提出了一种新的高斯平滑过渡向量自回归模型，能够更好地捕捉复杂的转换动态，并在实证应用中发现美国经济逐渐适应了严重天气带来的影响。
-
-    
-
-    我们介绍了一种新的平滑过渡向量自回归模型，其具有高斯条件分布和转换权重，对于第$p$阶模型，这些权重取决于前$p$个观测值的完整分布。具体而言，每个状态的转换权重随其相对加权似然性而增加。这种数据驱动方法有助于捕捉复杂的转换动态，增强逐渐状态转变的识别。在一个关于严重天气冲击对宏观经济影响的实证应用中，我们发现在1961年第1季度至2022年第3季度的美国月度数据中，冲击的影响在样本早期的状态和某些危机时期比在样本后期主导的状态中更为显著。这表明美国经济总体上逐渐适应了随时间增加的严重天气。
-
-    arXiv:2403.14216v1 Announce Type: new  Abstract: We introduce a new smooth transition vector autoregressive model with a Gaussian conditional distribution and transition weights that, for a $p$th order model, depend on the full distribution of the preceding $p$ observations. Specifically, the transition weight of each regime increases in its relative weighted likelihood. This data-driven approach facilitates capturing complex switching dynamics, enhancing the identification of gradual regime shifts. In an empirical application to the macroeconomic effects of a severe weather shock, we find that in monthly U.S. data from 1961:1 to 2022:3, the impacts of the shock are stronger in the regime prevailing in the early part of the sample and in certain crisis periods than in the regime dominating the latter part of the sample. This suggests overall adaptation of the U.S. economy to increased severe weather over time.
-    
-[^2]: 两人对抗游戏是零和的：解决了卢斯-赖法-奥曼（LRA）猜想
-
-    Two-Person adversarial games are zero-sum: A resolution of the Luce-Raiffa-Aumann (LRA) conjecture
-
-    [https://arxiv.org/abs/2403.04029](https://arxiv.org/abs/2403.04029)
-
-    该论文通过将两个社区汇聚在对抗游戏的总纲下，重新表述了有关两人对抗游戏的定理，并连接了策略零和游戏和多线性收益的n人游戏的公理化。
+    本论文提出了一种激励兼容且个体理性的vertiport预订机制，旨在协调多个运营商操作的电动垂直起降（eVTOL）飞行器在vertiports之间移动，最大化所有运营商的总估值同时最小化vertiports的拥堵。
 
     
 
-    这封信件：（i）重新表述了Adler-Daskalakis-Papadimitriou（2009）和Raimondo（2023）关于两人对抗游戏的定理，将其作为带有简化证明的广义结果，（ii）连接了Moulin-Vial（1978）关于策略零和游戏的工作，以及Fishburn-Roberts（1976，1978）关于多线性收益的n人游戏的公理化。提供的简化和连接突出了Aumann（1961）、Shapley（1964）和Rosenthal（1974）研究的两人零和游戏，以及计算机科学领域的最新算法工作。我们通过将两个社区汇聚在对抗游戏的总纲下，为该主题提供了富有成效的重新定向。
+    预计未来先进空中移动（AAM）的崛起将成为一个数十亿美元的产业。市场机制被认为是AAM运营的一个重要组成部分，其中包括具有私人估值的异构运营商。本文研究了设计一种机制来协调由多个具有与其机群关联的异构估值的运营商操作的电动垂直起降（eVTOL）飞行器在vertiports之间移动的问题，同时强制执行vertiports的到达、离开和停车约束。特别是，我们提出了一种激励兼容且个体理性的vertiport预订机制，该机制最大化了一个社会福利度量标准，从而包括最大化所有运营商的总估值同时最小化vertiports的拥堵。此外，我们提高了设计这一机制的计算可处理性
 
-    arXiv:2403.04029v1 Announce Type: new  Abstract: This letter: (i) reformulates the theorems of Adler-Daskalakis-Papadimitriou (2009) and Raimondo (2023) on two-player adversarial games as a generalized result with a simplified proof, (ii) forges connections to work on strategically zero-sum games by Moulin-Vial (1978), and on axiomatizations of multi-linear utilities of n-person games by Fishburn-Roberts (1976, 1978). The simplification and the connections on offer give prominence to two-person zero-sum games studied by Aumann (1961), Shapley (1964) and Rosenthal (1974), and also to recent algorithmic work in computer science. We give a productive reorientation to the subject by bringing the two communities together under the rubric of adversarial games.
+    arXiv:2403.18166v1 Announce Type: cross  Abstract: The rise of advanced air mobility (AAM) is expected to become a multibillion-dollar industry in the near future. Market-based mechanisms are touted to be an integral part of AAM operations, which comprise heterogeneous operators with private valuations. In this work, we study the problem of designing a mechanism to coordinate the movement of electric vertical take-off and landing (eVTOL) aircraft, operated by multiple operators each having heterogeneous valuations associated with their fleet, between vertiports, while enforcing the arrival, departure, and parking constraints at vertiports. Particularly, we propose an incentive-compatible and individually rational vertiport reservation mechanism that maximizes a social welfare metric, which encapsulates the objective of maximizing the overall valuations of all operators while minimizing the congestion at vertiports. Additionally, we improve the computational tractability of designing th
     
-[^3]: 在相关异质性下，短期面板中关于平均处理效应的修剪均值组估计方法
+[^2]: 针对目标营销的强盗利润最大化
 
-    Trimmed Mean Group Estimation of Average Treatment Effects in Ultra Short T Panels under Correlated Heterogeneity. (arXiv:2310.11680v1 [econ.EM])
+    Bandit Profit-maximization for Targeted Marketing
 
-    [http://arxiv.org/abs/2310.11680](http://arxiv.org/abs/2310.11680)
+    [https://arxiv.org/abs/2403.01361](https://arxiv.org/abs/2403.01361)
 
-    本文在相关异质性下，提出了一种修剪均值组（TMG）估计器，可以在面板数据时间维度很小的情况下以不规则的速度保持一致性。该方法具有较好的性质和性能，并提供了相关异质性的检验方法。通过实证应用展示了该方法的实用性。
-
-    
-
-    在相关异质性下，常用的两路固定效应估计方法存在偏差并可能导致误导性推断。本文提出了一种新的修剪均值组估计器（TMG estimator），即使面板的时间维度与回归变量数目一样小，也能以不规则的n^{1/3}速度保持一致性。本文还提供了适用于具有时间效应的面板的扩展方法，并提出了一种相关异质性的豪斯曼式检验。通过蒙特卡洛实验，研究了TMG估计器（带有和不带有时间效应）在小样本情况下的性质，结果表明其性能令人满意，优于文献中提出的其他修剪估计器。同时，所提出的相关异质性检验显示出正确的大小和令人满意的功效。通过实证应用，展示了TMG方法的实用性。
-
-    Under correlated heterogeneity, the commonly used two-way fixed effects estimator is biased and can lead to misleading inference. This paper proposes a new trimmed mean group (TMG) estimator which is consistent at the irregular rate of n^{1/3} even if the time dimension of the panel is as small as the number of its regressors. Extensions to panels with time effects are provided, and a Hausman-type test of correlated heterogeneity is proposed. Small sample properties of the TMG estimator (with and without time effects) are investigated by Monte Carlo experiments and shown to be satisfactory and perform better than other trimmed estimators proposed in the literature. The proposed test of correlated heterogeneity is also shown to have the correct size and satisfactory power. The utility of the TMG approach is illustrated with an empirical application.
-    
-[^4]: 基于解雇提前通知长度的失业期限制和异质性研究
-
-    Duration Dependence and Heterogeneity: Learning from Early Notice of Layoff. (arXiv:2305.17344v1 [econ.GN])
-
-    [http://arxiv.org/abs/2305.17344](http://arxiv.org/abs/2305.17344)
-
-    本文通过解雇通知的长度变化，区分了失业期限制和不良选择对失业退出率的影响，发现48周失业退出率的下降主要是由于留存求职者的质量恶化造成的，
+    该论文研究了针对目标营销的强盗利润最大化问题，并提出了在敌对强盗情境下的近乎最优算法。
 
     
 
-    本文提出了一种新的方法，利用解雇通知的长度变化来区分失业期限制和不良选择对失业退出率的影响。作者在离散时间下构建了混合风险模型，并规定了变通知长度如何实现对结构失业期限制的鉴别，同时允许工人间的任意异质性。作者运用弱化矩(GMM)方法对数据进行估计，结果表明，48周失业退出率的下降主要是由于留存的求职者质量恶化造成的。此外，作者发现个人退出失业的可能性一开始减少，然后在失业福利用尽之前增加，并在此后保持稳定。这些发现与一个标准的搜索模型相一致，在这个模型中，搜索的回报随着时间的推移而减少，并且不良选择的影响在失业初期最为显著。
+    我们研究了一个顺序利润最大化问题，优化价格和像营销支出这样的辅助变量。具体来说，我们旨在在一个任意序列的多个需求曲线上最大化利润，每个曲线依赖于一个不同的辅助变量，但共享相同的价格。一个典型的例子是针对营销，其中一家公司（卖方）希望在多个市场上销售产品。公司可以为不同市场投入不同的营销支出以优化客户获取，但必须在所有市场上保持相同的价格。此外，市场可能具有异质的需求曲线，每个需求曲线对价格和营销支出的响应方式不同。公司的目标是最大化毛利润，即总收入减去营销成本。
 
-    This paper presents a novel approach to distinguish the impact of duration-dependent forces and adverse selection on the exit rate from unemployment by leveraging variation in the length of layoff notices. I formulate a Mixed Hazard model in discrete time and specify the conditions under which variation in notice length enables the identification of structural duration dependence while allowing for arbitrary heterogeneity across workers. Utilizing data from the Displaced Worker Supplement (DWS), I employ the Generalized Method of Moments (GMM) to estimate the model. According to the estimates, the decline in the exit rate over the first 48 weeks of unemployment is largely due to the worsening composition of surviving jobseekers. Furthermore, I find that an individual's likelihood of exiting unemployment decreases initially, then increases until unemployment benefits run out, and remains steady thereafter. These findings are consistent with a standard search model where returns to searc
+    arXiv:2403.01361v1 Announce Type: new  Abstract: We study a sequential profit-maximization problem, optimizing for both price and ancillary variables like marketing expenditures. Specifically, we aim to maximize profit over an arbitrary sequence of multiple demand curves, each dependent on a distinct ancillary variable, but sharing the same price. A prototypical example is targeted marketing, where a firm (seller) wishes to sell a product over multiple markets. The firm may invest different marketing expenditures for different markets to optimize customer acquisition, but must maintain the same price across all markets. Moreover, markets may have heterogeneous demand curves, each responding to prices and marketing expenditures differently. The firm's objective is to maximize its gross profit, the total revenue minus marketing costs.   Our results are near-optimal algorithms for this class of problems in an adversarial bandit setting, where demand curves are arbitrary non-adaptive seque
     
-[^5]: 广义Grenander型估计量的Bootstrap-Aided推断
+[^3]: 模糊分类聚合
 
-    Bootstrap-Assisted Inference for Generalized Grenander-type Estimators. (arXiv:2303.13598v1 [math.ST])
+    Fuzzy Classification Aggregation
 
-    [http://arxiv.org/abs/2303.13598](http://arxiv.org/abs/2303.13598)
+    [https://arxiv.org/abs/2402.17620](https://arxiv.org/abs/2402.17620)
 
-    本文研究了广义Grenander型估计量的大样本分布特性，提出了Bootstrap-Aided推断方法，解决了标准非参数Bootstrap难以逼近广义Grenander型估计量的大样本分布的问题。
+    对于模糊分类问题，我们证明了满足弱一致性条件的独立聚合规则属于加权算术平均数的家族，并给出了$m= p= 2$的特征化结果。
 
     
 
-    Westling和Carone（2020）提出了一个框架来研究广义Grenander型估计量的大样本分布特性，这是一类用于单调函数的非参数估计器的多才多艺的类。这些估计量的极限分布可表示为高斯过程的最大凸支撑线的左导数，该高斯过程的协方差核可以很复杂，其单项式均值可以是未知阶数（如果感兴趣的函数的平坦度未知）。标准的非参数bootstrap即使知道均值的单项式顺序，也无法一致地逼近广义Grenander型估计量的大样本分布，这使得在应用中进行统计推断成为具有挑战性的任务。为了解决这个推断问题，我们提出了一种广义Grenander型估计量的bootstrap辅助推断程序。该程序依赖于一个精心设计但自动化的变换e
+    我们考虑一个问题，即一组个体必须将$m$个对象分类到$p$个类别中，并通过聚合个体分类来实现。我们证明，如果$m\geq 3$，$m\geq p\geq 2$，并且分类是模糊的，也就是说，对象属于某一类别的程度不同，则满足弱一致性条件的独立聚合规则属于加权算术平均数的家族。我们还获得了$m= p= 2$的特征化结果。
 
-    Westling and Carone (2020) proposed a framework for studying the large sample distributional properties of generalized Grenander-type estimators, a versatile class of nonparametric estimators of monotone functions. The limiting distribution of those estimators is representable as the left derivative of the greatest convex minorant of a Gaussian process whose covariance kernel can be complicated and whose monomial mean can be of unknown order (when the degree of flatness of the function of interest is unknown). The standard nonparametric bootstrap is unable to consistently approximate the large sample distribution of the generalized Grenander-type estimators even if the monomial order of the mean is known, making statistical inference a challenging endeavour in applications. To address this inferential problem, we present a bootstrap-assisted inference procedure for generalized Grenander-type estimators. The procedure relies on a carefully crafted, yet automatic, transformation of the e
+    arXiv:2402.17620v1 Announce Type: new  Abstract: We consider the problem where a set of individuals has to classify $m$ objects into $p$ categories and does so by aggregating the individual classifications. We show that if $m\geq 3$, $m\geq p\geq 2$, and classifications are fuzzy, that is, objects belong to a category to a certain degree, then an independent aggregator rule that satisfies a weak unanimity condition belongs to the family of Weighted Arithmetic Means. We also obtain characterization results for $m= p= 2$.
+    
+[^4]: 关于连通且强比例切蛋糕的研究
+
+    On Connected Strongly-Proportional Cake-Cutting
+
+    [https://arxiv.org/abs/2312.15326](https://arxiv.org/abs/2312.15326)
+
+    该论文研究了一种公平划分可划分异质资源的问题，即蛋糕切分。该论文确定了存在一种连通的强比例切分方式，并提供了相应的算法和简单刻画。
+
+    
+
+    我们研究了在一组代理人中如何公平地分配可划分的异质资源，也称为蛋糕。我们确定了存在着一种分配方式，每个代理人都会收到一个价值严格超过他们比例份额的连续部分，也称为*强比例分配*。我们提出了一个算法，可以使用最多$n \cdot 2^{n-1}$个查询来确定是否存在一个连通的强比例分配。对于具有严格正估值的代理人，我们提供了一个更简单的刻画，并且证明了确定是否存在一个连通的强比例分配所需的查询数量是$\Theta(n^2)$。我们的证明是构造性的，并且当存在时，给出了一个连通的强比例分配，使用了类似数量的查询。
+
+    arXiv:2312.15326v2 Announce Type: replace-cross Abstract: We investigate the problem of fairly dividing a divisible heterogeneous resource, also known as a cake, among a set of agents. We characterize the existence of an allocation in which every agent receives a contiguous piece worth strictly more than their proportional share, also known as a *strongly-proportional allocation*. The characterization is supplemented with an algorithm that determines the existence of a connected strongly-proportional allocation using at most $n \cdot 2^{n-1}$ queries. We provide a simpler characterization for agents with strictly positive valuations, and show that the number of queries required to determine the existence of a connected strongly-proportional allocation is in $\Theta(n^2)$. Our proofs are constructive and yield a connected strongly-proportional allocation, when it exists, using a similar number of queries.
+    
+[^5]: 风险厌恶和保险倾向
+
+    Risk Aversion and Insurance Propensity. (arXiv:2310.09173v1 [econ.TH])
+
+    [http://arxiv.org/abs/2310.09173](http://arxiv.org/abs/2310.09173)
+
+    这篇论文提供了一个新的风险厌恶基础，通过展示充分利用保险机会的倾向来描述这种态度，并且成功地将风险厌恶与不同保险倾向联系起来，为比较风险厌恶提供了一种新的解释。
+
+    
+
+    我们通过展示充分利用保险机会的倾向来提供一个新的风险厌恶基础，这个基础适用于任何概率的复杂偏好，与Arrow (1963)和Pratt (1964)的经典作品所提供的风险厌恶的谨慎解释相一致。在我们的主要结果中，我们首先以充分保险的倾向表征了Arrow-Pratt的风险厌恶，以部分保险的倾向表现出了Rothschild和Stiglitz(1970)的更强风险厌恶。然后我们将该分析扩展到比较风险厌恶，通过展示Yaari(1969)的概念对应于对充分保险的比较倾向，而Ross(1981)的更强概念对应于对部分保险的比较倾向。
+
+    We provide a new foundation of risk aversion by showing that the propension to exploit insurance opportunities fully describes this attitude. Our foundation, which applies to any probabilistically sophisticated preference, well accords with the commonly held prudential interpretation of risk aversion that dates back to the seminal works of Arrow (1963) and Pratt (1964).  In our main results, we first characterize the Arrow-Pratt risk aversion in terms of propension to full insurance and the stronger notion of risk aversion of Rothschild and Stiglitz (1970) in terms of propension to partial insurance. We then extend the analysis to comparative risk aversion by showing that the notion of Yaari (1969) corresponds to comparative propension to full insurance, while the stronger notion of Ross (1981) corresponds to comparative propension to partial insurance.
+    
+[^6]: 带有建议的新闻经销商模型
+
+    The Newsvendor with Advice. (arXiv:2305.07993v1 [math.OC])
+
+    [http://arxiv.org/abs/2305.07993](http://arxiv.org/abs/2305.07993)
+
+    本文开发了第一个整合了机器学习预测的新闻经销商模型，利用预测来优化库存水平以避免下限和提高性能。
+
+    
+
+    标准的新闻经销商模型假设需求是随机的，同时对于超额或不足的成本进行成本分析。优化存货水平可以利用著名的关键分位公式来确定。虽然模型已经在许多应用程序中被利用，但在实践中，通常了解问题的更多特征和特点。利用这些特征，通常会使用机器学习来预测库存水平，而不是经典的新闻经销商方法。一系列新兴的研究已经展示了如何将机器学习预测纳入模型中，以规避下限并提高性能。本文开发了第一个整合了机器学习预测的新闻经销商模型。本文考虑了一个重复的新闻经销商设置，并具有非静止需求。每个周期都有一个预测需求，并且正如在机器学习中的情况，预测可能是有噪声的。目标是使库存管理算法利用这些预测来优化库存水平。
+
+    The standard newsvendor model assumes a stochastic demand distribution as well as costs for overages and underages. The celebrated critical fractile formula can be used to determine the optimal inventory levels. While the model has been leveraged in numerous applications, often in practice more characteristics and features of the problem are known. Using these features, it is common to employ machine learning to predict inventory levels over the classic newsvendor approach.  An emerging line of work has shown how to use incorporate machine learned predictions into models to circumvent lower bounds and give improved performance. This paper develops the first newsvendor model that incorporates machine learned predictions. The paper considers a repeated newsvendor setting with nonstationary demand. There is a prediction is for each period's demand and, as is the case in machine learning, the prediction can be noisy. The goal is for an inventory management algorithm to take advantage of th
     
 
