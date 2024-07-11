@@ -2,22 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [CAGRA: Highly Parallel Graph Construction and Approximate Nearest Neighbor Search for GPUs.](http://arxiv.org/abs/2308.15136) | CAGRA是一种面向GPU的高度并行图构建和近似最近邻搜索方法，在近似最近邻搜索领域取得了显著的效率提升。 |
+| [^1] | [Transforming LLMs into Cross-modal and Cross-lingual RetrievalSystems](https://arxiv.org/abs/2404.01616) | 提出使用LLMs初始化多模态DE检索系统，实现在102种语言中匹配语音和文本的能力，无需在LLM预训练期间使用语音数据，且相比先前系统取得10%的Recall@1绝对改进 |
+| [^2] | [An Experiment with the Use of ChatGPT for LCSH Subject Assignment on Electronic Theses and Dissertations](https://arxiv.org/abs/2403.16424) | 该研究探讨了利用大型语言模型生成美国国会图书馆主题标头的潜力，展示了其对于解决学术图书馆待编目项目积压问题具有战略应对意义，同时也强调了人类编目员仍然在验证和增强生成主题标头方面的重要性。 |
 
 # 详细
 
-[^1]: CAGRA：面向GPU的高度并行图构建和近似最近邻搜索
+[^1]: 将LLMs转化为跨模态和跨语言检索系统
 
-    CAGRA: Highly Parallel Graph Construction and Approximate Nearest Neighbor Search for GPUs. (arXiv:2308.15136v1 [cs.DS])
+    Transforming LLMs into Cross-modal and Cross-lingual RetrievalSystems
 
-    [http://arxiv.org/abs/2308.15136](http://arxiv.org/abs/2308.15136)
+    [https://arxiv.org/abs/2404.01616](https://arxiv.org/abs/2404.01616)
 
-    CAGRA是一种面向GPU的高度并行图构建和近似最近邻搜索方法，在近似最近邻搜索领域取得了显著的效率提升。
+    提出使用LLMs初始化多模态DE检索系统，实现在102种语言中匹配语音和文本的能力，无需在LLM预训练期间使用语音数据，且相比先前系统取得10%的Recall@1绝对改进
 
     
 
-    近似最近邻搜索（ANNS）在数据挖掘和人工智能领域中起着关键作用，涵盖了信息检索、计算机视觉、自然语言处理和推荐系统等各个学科。近年来，数据量急剧增加，穷举精确最近邻搜索的计算成本往往是禁止性的，必须采用近似技术。尽管图形化方法的平衡性能和召回率在ANNS算法中最近引起了广泛关注，但只有少数研究探索了利用GPU和多核处理器的强大计算能力，尽管广泛使用了大规模并行和通用计算能力。为了弥补这一差距，我们引入了一种基于并行计算硬件的新颖接近图和搜索算法。通过利用现代硬件的高性能能力，我们的方法实现了显著的效率提升。具体而言，我们的方法实现了高效的图构建和近似最近邻搜索。
+    大型语言模型（LLMs）是在仅基于文本数据进行训练的，这超出了具有配对语音和文本数据的语言范围。同时，基于双编码器（DE）的检索系统将查询和文档投影到相同的嵌入空间中，并在检索和双语文本挖掘中展示了成功。为了在许多语言中匹配语音和文本，我们建议使用LLMs初始化多模态DE检索系统。与传统方法不同，我们的系统在LLM预训练期间不需要语音数据，并且可以利用LLM的多语言文本理解能力来匹配检索训练期间看不见的语言中的语音和文本。我们的多模态LLM-based检索系统能够在102种语言中匹配语音和文本，尽管只在21种语言上进行了训练。我们的系统优于先前专门在所有102种语言上训练的系统。在这些语言中，我们在Recall@1上实现了10％的绝对改进。
 
-    Approximate Nearest Neighbor Search (ANNS) plays a critical role in various disciplines spanning data mining and artificial intelligence, from information retrieval and computer vision to natural language processing and recommender systems. Data volumes have soared in recent years and the computational cost of an exhaustive exact nearest neighbor search is often prohibitive, necessitating the adoption of approximate techniques. The balanced performance and recall of graph-based approaches have more recently garnered significant attention in ANNS algorithms, however, only a few studies have explored harnessing the power of GPUs and multi-core processors despite the widespread use of massively parallel and general-purpose computing. To bridge this gap, we introduce a novel parallel computing hardware-based proximity graph and search algorithm. By leveraging the high-performance capabilities of modern hardware, our approach achieves remarkable efficiency gains. In particular, our method s
+    arXiv:2404.01616v1 Announce Type: new  Abstract: Large language models (LLMs) are trained on text-only data that go far beyond the languages with paired speech and text data. At the same time, Dual Encoder (DE) based retrieval systems project queries and documents into the same embedding space and have demonstrated their success in retrieval and bi-text mining. To match speech and text in many languages, we propose using LLMs to initialize multi-modal DE retrieval systems. Unlike traditional methods, our system doesn't require speech data during LLM pre-training and can exploit LLM's multilingual text understanding capabilities to match speech and text in languages unseen during retrieval training. Our multi-modal LLM-based retrieval system is capable of matching speech and text in 102 languages despite only training on 21 languages. Our system outperforms previous systems trained explicitly on all 102 languages. We achieve a 10% absolute improvement in Recall@1 averaged across these l
+    
+[^2]: 使用ChatGPT为电子学位论文指定LCSH主题的实验
+
+    An Experiment with the Use of ChatGPT for LCSH Subject Assignment on Electronic Theses and Dissertations
+
+    [https://arxiv.org/abs/2403.16424](https://arxiv.org/abs/2403.16424)
+
+    该研究探讨了利用大型语言模型生成美国国会图书馆主题标头的潜力，展示了其对于解决学术图书馆待编目项目积压问题具有战略应对意义，同时也强调了人类编目员仍然在验证和增强生成主题标头方面的重要性。
+
+    
+
+    该研究探讨了利用大型语言模型（LLMs）生成美国国会图书馆主题标头（LCSH）的潜力。作者使用ChatGPT根据电子学位论文的标题和摘要生成主题标头。结果显示，尽管一些生成的主题标头是有效的，但存在特定性和详尽性方面的问题。该研究展示了LLMs可以作为学术图书馆待编目项目的战略性应对措施，同时也提供了一种成本效益高且快速生成LCSH的方法。然而，人类编目员仍然是验证和增强LLMs生成的LCSH的有效性、详尽性和特定性的必要条件。
+
+    arXiv:2403.16424v1 Announce Type: new  Abstract: This study delves into the potential use of Large Language Models (LLMs) for generating Library of Congress Subject Headings (LCSH). The authors employed ChatGPT to generate subject headings for electronic theses and dissertations (ETDs) based on their titles and summaries. The results revealed that although some generated subject headings were valid, there were issues regarding specificity and exhaustiveness. The study showcases that LLMs can serve as a strategic response to the backlog of items awaiting cataloging in academic libraries, while also offering a cost-effective approach for promptly generating LCSH. Nonetheless, human catalogers remain essential for verifying and enhancing the validity, exhaustiveness, and specificity of LCSH generated by LLMs.
     
 
