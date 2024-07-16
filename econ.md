@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [The Impact of Equal Opportunity on Statistical Discrimination.](http://arxiv.org/abs/2310.04585) | 本文通过修改统计性歧视模型，考虑了由机器学习生成的可合同化信念，给监管者提供了一种超过肯定行动的工具，通过要求公司选取一个平衡不同群体真正阳性率的决策策略，实现机会平等来消除统计性歧视。 |
-| [^2] | [Probabilistic Verification in Mechanism Design.](http://arxiv.org/abs/1908.05556) | 该论文介绍了机制设计中的概率验证模型，通过选择统计测试来验证代理人的声明，并判断是否有最佳测试筛选所有其他类型。这个方法能够利润最大化并不断插值解决验证的问题。 |
+| [^1] | [Explosive growth from AI automation: A review of the arguments.](http://arxiv.org/abs/2309.11690) | AI自动化的爆炸性增长是可能的，可能会加速全球经济增长，但目前对此的高度自信是不合适的。 |
+| [^2] | [Characterizing the Feasible Payoff Set of OLG Repeated Games.](http://arxiv.org/abs/2303.12988) | 本研究完整描述了OLG重复博弈的收益集合，发现随着玩家贴现因子接近1，可行收益集合变得更小。 |
 
 # 详细
 
-[^1]: 机会平等对统计性歧视的影响
+[^1]: AI自动化的爆炸性增长: 论证综述
 
-    The Impact of Equal Opportunity on Statistical Discrimination. (arXiv:2310.04585v1 [econ.TH])
+    Explosive growth from AI automation: A review of the arguments. (arXiv:2309.11690v1 [econ.GN])
 
-    [http://arxiv.org/abs/2310.04585](http://arxiv.org/abs/2310.04585)
+    [http://arxiv.org/abs/2309.11690](http://arxiv.org/abs/2309.11690)
 
-    本文通过修改统计性歧视模型，考虑了由机器学习生成的可合同化信念，给监管者提供了一种超过肯定行动的工具，通过要求公司选取一个平衡不同群体真正阳性率的决策策略，实现机会平等来消除统计性歧视。
-
-    
-
-    本文修改了Coate和Loury（1993）的经典统计性歧视模型，假设公司对个体未观察到的类别的信念是由机器学习生成的，因此是可合同化的。这扩展了监管者的工具箱，超出了像肯定行动这样的无信念规定。可合同化的信念使得要求公司选择一个决策策略，使得不同群体之间的真正阳性率相等（算法公平文献中所称的机会平等）成为可能。尽管肯定行动不一定能消除统计性歧视，但本文表明实施机会平等可以做到。
-
-    I modify the canonical statistical discrimination model of Coate and Loury (1993) by assuming the firm's belief about an individual's unobserved class is machine learning-generated and, therefore, contractible. This expands the toolkit of a regulator beyond belief-free regulations like affirmative action. Contractible beliefs make it feasible to require the firm to select a decision policy that equalizes true positive rates across groups -- what the algorithmic fairness literature calls equal opportunity. While affirmative action does not necessarily end statistical discrimination, I show that imposing equal opportunity does.
-    
-[^2]: 机制设计中的概率验证
-
-    Probabilistic Verification in Mechanism Design. (arXiv:1908.05556v2 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/1908.05556](http://arxiv.org/abs/1908.05556)
-
-    该论文介绍了机制设计中的概率验证模型，通过选择统计测试来验证代理人的声明，并判断是否有最佳测试筛选所有其他类型。这个方法能够利润最大化并不断插值解决验证的问题。
+    AI自动化的爆炸性增长是可能的，可能会加速全球经济增长，但目前对此的高度自信是不合适的。
 
     
 
-    我们在机制设计背景下引入了一个概率验证模型。委托人选择一个统计测试来验证代理人的声明。代理人的真实类型决定了他可以通过每个测试的概率。我们刻画了每个类型是否有一个相关的测试，最好地筛选出所有其他类型，无论社会选择规则如何。如果这个条件成立，那么测试技术可以用一个易于处理的简化形式表示。我们使用这个简化形式来解决验证的利润最大化机制。随着验证的改进，解决方案从无验证解决方案到完全剩余提取不断插值。
+    我们研究了大规模AI自动化是否能够使全球经济增长加速达到约一个数量级，类似于工业革命所带来的经济增长效应。我们确定了这种增长的三个主要驱动因素：1）AI“劳动力”的可扩展性使得规模递增再现，2）AI劳动力的快速扩张，以及3）在短时间内进行的快速自动化带来的产出大幅增加。在这个背景下，我们评估了九个反对论点，包括监管障碍、产能瓶颈、匹配问题和自动化的速度。我们暂时评估了这些论点，发现大多数都不太可能成为决定因素。我们得出结论认为，如果AI能够广泛替代人力劳动，爆炸性增长似乎是有可能的，但目前对这一说法的高度自信似乎是不合理的。关于AI监管响应的强度、生产中的物理瓶颈和AI的经济价值，仍然存在关键问题。
 
-    We introduce a model of probabilistic verification in a mechanism design setting. The principal selects a statistical test to verify the agent's claim. The agent's true type determines the probability with which he can pass each test. We characterize whether each type has an associated test that best screens out all other types, no matter the social choice rule. If this condition holds, then the testing technology can be represented in a tractable reduced form. We use this reduced form to solve for profit-maximizing mechanisms with verification. As verification improves, the solution continuously interpolates from the no-verification solution to full surplus extraction.
+    We examine whether substantial AI automation could accelerate global economic growth by about an order of magnitude, akin to the economic growth effects of the Industrial Revolution. We identify three primary drivers for such growth: 1) the scalability of an AI ``labor force" restoring a regime of increasing returns to scale, 2) the rapid expansion of an AI labor force, and 3) a massive increase in output from rapid automation occurring over a brief period of time. Against this backdrop, we evaluate nine counterarguments, including regulatory hurdles, production bottlenecks, alignment issues, and the pace of automation. We tentatively assess these arguments, finding most are unlikely deciders. We conclude that explosive growth seems plausible with AI capable of broadly substituting for human labor, but high confidence in this claim seems currently unwarranted. Key questions remain about the intensity of regulatory responses to AI, physical bottlenecks in production, the economic value 
+    
+[^2]: 描述OLG重复博弈可行收益集合的特征
+
+    Characterizing the Feasible Payoff Set of OLG Repeated Games. (arXiv:2303.12988v1 [econ.TH])
+
+    [http://arxiv.org/abs/2303.12988](http://arxiv.org/abs/2303.12988)
+
+    本研究完整描述了OLG重复博弈的收益集合，发现随着玩家贴现因子接近1，可行收益集合变得更小。
+
+    
+
+    本文研究了OLG重复博弈的可行收益集合，并给出了完整的特征描述。本文还首次提供了关于由玩家贴现因子和交互长度引起的可行收益集合的新比较静态。而令人惊讶的是，随着玩家贴现因子接近1，可行收益集合变得更小了。
+
+    We study the set of feasible payoffs of OLG repeated games. We first provide a complete characterization of the feasible payoffs. Second, we provide a novel comparative statics of the feasible payoff set with respect to players' discount factor and the length of interaction. Perhaps surprisingly, the feasible payoff set becomes smaller as the players' discount factor approaches to one.
     
 
