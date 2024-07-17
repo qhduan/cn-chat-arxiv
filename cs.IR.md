@@ -2,82 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Scaling Laws For Dense Retrieval](https://arxiv.org/abs/2403.18684) | 该研究探究了密集检索模型的性能是否遵循其他神经模型的缩放规律，并提出使用对比对数似然作为评估指标进行了广泛实验。 |
-| [^2] | [Leveraging Large Language Models for Relevance Judgments in Legal Case Retrieval](https://arxiv.org/abs/2403.18405) | 设计一种新颖的几轮工作流程，专门用于法律案例的相关判断，能够通过模仿人类注释者的过程并整合专家推理，提高相关性判断的准确性。 |
-| [^3] | [LLM-Assisted Multi-Teacher Continual Learning for Visual Question Answering in Robotic Surgery](https://arxiv.org/abs/2402.16664) | LLM辅助的多教师持续学习为机器人手术中的视觉问答系统更新提供了解决新任务需求的方法，同时解决了外科领域中的大领域转变和数据不平衡问题。 |
-| [^4] | [A Roadmap to Pluralistic Alignment](https://arxiv.org/abs/2402.05070) | 这篇论文提出了一条通向多元对齐的路线图，以解决设计AI系统能够服务于人们具有不同价值观和观点的需求。论文介绍了对齐定义和实现多元主义的三种方式，并提出了三种多元基准类别来评估和测试多元对齐的效果。 |
-| [^5] | [Uncertainty Calibration for Counterfactual Propensity Estimation in Recommendation.](http://arxiv.org/abs/2303.12973) | 本文提出了多种不确定性校准技术，以改进推荐系统中倾向性估计的效果。经过实验验证，校准后的IPS估计器在Coat和yahoo数据集上表现更好。 |
+| [^1] | [Knowledge Navigation: Inferring the Interlocking Map of Knowledge from Research Trajectories.](http://arxiv.org/abs/2401.11742) | 本研究利用自然语言处理技术引入了一种创新的嵌入方案，推断出了知识交错地图，揭示了知识之间错综复杂的联系，并展示了多个应用场景。 |
+| [^2] | [Towards Automatic Sampling of User Behaviors for Sequential Recommender Systems.](http://arxiv.org/abs/2311.00388) | 本论文提出了一个名为AutoSAM的自动采样框架，用于对连续推荐系统中的用户行为进行非均匀处理。该框架通过自适应地学习历史行为的偏斜分布，并采样出信息丰富的子集，以构建更具可泛化性的连续推荐系统。 |
+| [^3] | [CompoDiff: Versatile Composed Image Retrieval With Latent Diffusion.](http://arxiv.org/abs/2303.11916) | CompoDiff 是一种多功能的组合图像检索模型，通过接受各种条件，具有潜在扩散的能力，并在 FashionIQ 上实现了新的零样本最新技术水平。其特征位于完整的 CLIP 嵌入空间中，可以直接用于所有利用 CLIP 空间的模型。 |
 
 # 详细
 
-[^1]: 密集检索的扩展规律
+[^1]: 知识导航：从研究轨迹中推断知识的交错地图
 
-    Scaling Laws For Dense Retrieval
+    Knowledge Navigation: Inferring the Interlocking Map of Knowledge from Research Trajectories. (arXiv:2401.11742v2 [cs.IR] UPDATED)
 
-    [https://arxiv.org/abs/2403.18684](https://arxiv.org/abs/2403.18684)
+    [http://arxiv.org/abs/2401.11742](http://arxiv.org/abs/2401.11742)
 
-    该研究探究了密集检索模型的性能是否遵循其他神经模型的缩放规律，并提出使用对比对数似然作为评估指标进行了广泛实验。
-
-    
-
-    将神经模型扩展到更大规模已经在多项任务中取得了显著进展，特别是在语言生成方面。先前的研究发现，神经模型的性能常遵循可预测的扩展规律，与训练集大小和模型大小等因素相关。这一洞察力非常宝贵，尤其是随着大规模实验变得越来越耗费资源。然而，由于检索指标的离散性以及检索任务中训练数据和模型大小之间的复杂关系，密集检索中的这种扩展规律尚未得到充分探讨。在本研究中，我们调查了密集检索模型的性能是否遵循其他神经模型的缩放规律。我们建议使用对比对数似然作为评估指标，并对实现了不同参数数量并使用不同数量的数据训练的密集检索模型进行了广泛实验。
-
-    arXiv:2403.18684v1 Announce Type: cross  Abstract: Scaling up neural models has yielded significant advancements in a wide array of tasks, particularly in language generation. Previous studies have found that the performance of neural models frequently adheres to predictable scaling laws, correlated with factors such as training set size and model size. This insight is invaluable, especially as large-scale experiments grow increasingly resource-intensive. Yet, such scaling law has not been fully explored in dense retrieval due to the discrete nature of retrieval metrics and complex relationships between training data and model sizes in retrieval tasks. In this study, we investigate whether the performance of dense retrieval models follows the scaling law as other neural models. We propose to use contrastive log-likelihood as the evaluation metric and conduct extensive experiments with dense retrieval models implemented with different numbers of parameters and trained with different amo
-    
-[^2]: 利用大型语言模型进行法律案例检索中的相关性判断
-
-    Leveraging Large Language Models for Relevance Judgments in Legal Case Retrieval
-
-    [https://arxiv.org/abs/2403.18405](https://arxiv.org/abs/2403.18405)
-
-    设计一种新颖的几轮工作流程，专门用于法律案例的相关判断，能够通过模仿人类注释者的过程并整合专家推理，提高相关性判断的准确性。
+    本研究利用自然语言处理技术引入了一种创新的嵌入方案，推断出了知识交错地图，揭示了知识之间错综复杂的联系，并展示了多个应用场景。
 
     
 
-    收集法律案例检索的相关判决是一项具有挑战性且耗时的任务。准确判断两个法律案例之间的相关性需要阅读冗长的文本并具备高水平的领域专业知识以提取法律事实并作出司法判断。随着先进的大型语言模型的出现，一些最近的研究表明使用LLM（Large Language Models）进行相关性判断是有前途的。然而，将一般性大型语言模型应用于法律案例检索中可靠的相关性判断的方法尚未得到充分探讨。为了填补这一研究空白，我们设计了一种新颖的几轮工作流程，专门用于法律案例的相关判断。所提出的工作流程将注释过程分解为一系列阶段，模仿人类注释者所使用的过程，并使专家推理能够灵活地整合以增强相关性判断的准确性。
+    "如果我看得更远，那是因为我站在巨人的肩膀上。"艾萨克·牛顿的著名声明暗示了新知识建立在现有基础之上的事实，这意味着知识之间存在着相互依赖的关系，而这种关系在科学体系的历史发展中一直未被揭示。通过利用自然语言处理技术，本研究引入了一种创新的嵌入方案，旨在推断“知识交错地图”。这个地图是从数百万学者的研究轨迹中推导出来的，揭示了知识之间错综复杂的联系。我们验证了推断出的地图有效地勾画了学科边界，并捕捉到了不同概念之间复杂的关系。交错地图的实用性通过多个应用展示出来。首先，我们展示了在知识空间中的多步类比推理和概念之间的功能连接。
 
-    arXiv:2403.18405v1 Announce Type: new  Abstract: Collecting relevant judgments for legal case retrieval is a challenging and time-consuming task. Accurately judging the relevance between two legal cases requires a considerable effort to read the lengthy text and a high level of domain expertise to extract Legal Facts and make juridical judgments. With the advent of advanced large language models, some recent studies have suggested that it is promising to use LLMs for relevance judgment. Nonetheless, the method of employing a general large language model for reliable relevance judgments in legal case retrieval is yet to be thoroughly explored. To fill this research gap, we devise a novel few-shot workflow tailored to the relevant judgment of legal cases. The proposed workflow breaks down the annotation process into a series of stages, imitating the process employed by human annotators and enabling a flexible integration of expert reasoning to enhance the accuracy of relevance judgments.
+    "If I have seen further, it is by standing on the shoulders of giants," Isaac Newton's renowned statement hints that new knowledge builds upon existing foundations, which means there exists an interdependent relationship between knowledge, which, yet uncovered, is implied in the historical development of scientific systems for hundreds of years. By leveraging natural language processing techniques, this study introduces an innovative embedding scheme designed to infer the "knowledge interlocking map." This map, derived from the research trajectories of millions of scholars, reveals the intricate connections among knowledge. We validate that the inferred map effectively delineates disciplinary boundaries and captures the intricate relationships between diverse concepts. The utility of the interlocking map is showcased through multiple applications. Firstly, we demonstrated the multi-step analogy inferences within the knowledge space and the functional connectivity between concepts in di
     
-[^3]: LLM辅助的多教师持续学习在机器人手术中的视觉问答
+[^2]: 实现自动采样对于连续推荐系统中用户行为的研究
 
-    LLM-Assisted Multi-Teacher Continual Learning for Visual Question Answering in Robotic Surgery
+    Towards Automatic Sampling of User Behaviors for Sequential Recommender Systems. (arXiv:2311.00388v1 [cs.IR])
 
-    [https://arxiv.org/abs/2402.16664](https://arxiv.org/abs/2402.16664)
+    [http://arxiv.org/abs/2311.00388](http://arxiv.org/abs/2311.00388)
 
-    LLM辅助的多教师持续学习为机器人手术中的视觉问答系统更新提供了解决新任务需求的方法，同时解决了外科领域中的大领域转变和数据不平衡问题。
-
-    
-
-    视觉问答(VQA)在促进机器人辅助手术教育方面可能至关重要。在实践中，学员的需求不断发展，比如学习更多种类的手术，适应不同的机器人，以及为一种手术学习新的外科器械和技术。因此，在机器人手术中需要通过多个资源的顺序数据流持续更新VQA系统，以解决新任务。在外科场景中，存储成本和患者数据隐私通常限制了在更新模型时旧数据的可用性，这需要一个无样本的持续学习(CL)设置。然而，先前的研究忽视了外科领域的两个重要问题：i)来自不同科室或临床中心收集的各种外科手术的大领域转变，ii)由于外科器械或活动的不均匀出现而导致的严重数据不平衡。
-
-    arXiv:2402.16664v1 Announce Type: new  Abstract: Visual question answering (VQA) can be fundamentally crucial for promoting robotic-assisted surgical education. In practice, the needs of trainees are constantly evolving, such as learning more surgical types, adapting to different robots, and learning new surgical instruments and techniques for one surgery. Therefore, continually updating the VQA system by a sequential data stream from multiple resources is demanded in robotic surgery to address new tasks. In surgical scenarios, the storage cost and patient data privacy often restrict the availability of old data when updating the model, necessitating an exemplar-free continual learning (CL) setup. However, prior studies overlooked two vital problems of the surgical domain: i) large domain shifts from diverse surgical operations collected from multiple departments or clinical centers, and ii) severe data imbalance arising from the uneven presence of surgical instruments or activities du
-    
-[^4]: 通往多元对齐的路线图
-
-    A Roadmap to Pluralistic Alignment
-
-    [https://arxiv.org/abs/2402.05070](https://arxiv.org/abs/2402.05070)
-
-    这篇论文提出了一条通向多元对齐的路线图，以解决设计AI系统能够服务于人们具有不同价值观和观点的需求。论文介绍了对齐定义和实现多元主义的三种方式，并提出了三种多元基准类别来评估和测试多元对齐的效果。
+    本论文提出了一个名为AutoSAM的自动采样框架，用于对连续推荐系统中的用户行为进行非均匀处理。该框架通过自适应地学习历史行为的偏斜分布，并采样出信息丰富的子集，以构建更具可泛化性的连续推荐系统。
 
     
 
-    随着人工智能系统的权力和普及程度的增加，设计能够为不同价值观和观点的人服务的人工智能系统变得愈发重要。然而，将模型对齐以服务多元人类价值观仍然是一个待解决的研究问题。在本文中，我们提出了一条通向多元对齐的路线图，具体使用语言模型作为测试平台。我们确定和形式化了三种可能的方式来定义和实现人工智能系统中的多元主义：1）Overton多元模型，展示合理反应的光谱；2）可操控的多元模型，可以调整以反映特定的观点；3）分布多元模型，在分布中很好地校准给定人群的模型。我们还提出和形式化了三种可能的多元基准类别：1）多目标基准；2）权衡可操控基准，鼓励模型对任意权衡进行调整；3）陪审团多元基准，明确地模拟了不同陪审团的意见。
+    由于连续推荐系统能够有效捕捉动态用户偏好，因此它们在推荐领域中广受欢迎。当前连续推荐系统的一个默认设置是将每个历史行为均匀地视为正向交互。然而，实际上，这种设置有可能导致性能不佳，因为每个商品对用户的兴趣有不同的贡献。例如，购买的商品应该比点击的商品更重要。因此，我们提出了一个通用的自动采样框架，名为AutoSAM，用于非均匀地处理历史行为。具体而言，AutoSAM通过在标准的连续推荐架构中增加一个采样器层，自适应地学习原始输入的偏斜分布，并采样出信息丰富的子集，以构建更具可泛化性的连续推荐系统。为了克服非可微分采样操作的挑战，同时引入多个决策因素进行采样，我们还提出了进一步的方法。
 
-    With increased power and prevalence of AI systems, it is ever more critical that AI systems are designed to serve all, i.e., people with diverse values and perspectives. However, aligning models to serve pluralistic human values remains an open research question. In this piece, we propose a roadmap to pluralistic alignment, specifically using language models as a test bed. We identify and formalize three possible ways to define and operationalize pluralism in AI systems: 1) Overton pluralistic models that present a spectrum of reasonable responses; 2) Steerably pluralistic models that can steer to reflect certain perspectives; and 3) Distributionally pluralistic models that are well-calibrated to a given population in distribution. We also propose and formalize three possible classes of pluralistic benchmarks: 1) Multi-objective benchmarks, 2) Trade-off steerable benchmarks, which incentivize models to steer to arbitrary trade-offs, and 3) Jury-pluralistic benchmarks which explicitly m
+    Sequential recommender systems (SRS) have gained widespread popularity in recommendation due to their ability to effectively capture dynamic user preferences. One default setting in the current SRS is to uniformly consider each historical behavior as a positive interaction. Actually, this setting has the potential to yield sub-optimal performance, as each item makes a distinct contribution to the user's interest. For example, purchased items should be given more importance than clicked ones. Hence, we propose a general automatic sampling framework, named AutoSAM, to non-uniformly treat historical behaviors. Specifically, AutoSAM augments the standard sequential recommendation architecture with an additional sampler layer to adaptively learn the skew distribution of the raw input, and then sample informative sub-sets to build more generalizable SRS. To overcome the challenges of non-differentiable sampling actions and also introduce multiple decision factors for sampling, we further int
     
-[^5]: 推荐系统中反事实倾向估计的不确定性校准
+[^3]: CompoDiff: 基于潜在扩散的多功能组合图像检索
 
-    Uncertainty Calibration for Counterfactual Propensity Estimation in Recommendation. (arXiv:2303.12973v1 [cs.AI])
+    CompoDiff: Versatile Composed Image Retrieval With Latent Diffusion. (arXiv:2303.11916v1 [cs.CV])
 
-    [http://arxiv.org/abs/2303.12973](http://arxiv.org/abs/2303.12973)
+    [http://arxiv.org/abs/2303.11916](http://arxiv.org/abs/2303.11916)
 
-    本文提出了多种不确定性校准技术，以改进推荐系统中倾向性估计的效果。经过实验验证，校准后的IPS估计器在Coat和yahoo数据集上表现更好。
+    CompoDiff 是一种多功能的组合图像检索模型，通过接受各种条件，具有潜在扩散的能力，并在 FashionIQ 上实现了新的零样本最新技术水平。其特征位于完整的 CLIP 嵌入空间中，可以直接用于所有利用 CLIP 空间的模型。
 
     
 
-    在推荐系统中，由于选择偏差，许多评分信息都丢失了，这被称为非随机缺失。反事实逆倾向评分（IPS）被用于衡量每个观察到的评分的填充错误。虽然在多种情况下有效，但我们认为IPS估计的性能受到倾向性估计不确定性的限制。本文提出了多种代表性的不确定性校准技术，以改进推荐系统中倾向性估计的不确定性校准。通过对偏误和推广界限的理论分析表明，经过校准的IPS估计器优于未校准的IPS估计器。 Coat和yahoo数据集上的实验结果表明，不确定性校准得到改进，从而使推荐结果更好。
+    本文提出了一种新颖的基于扩散的模型 CompoDiff，用于解决具有潜在扩散的组合图像检索（CIR）问题，并提供了一个由 1800 万个参考图像、条件和相应的目标图像三元组组成的新数据集，用于训练模型。CompoDiff 不仅在像 FashionIQ 这样的 CIR 基准测试上实现了新的零样本最新技术水平，而且还通过接收各种条件（如负文本和图像遮罩条件），使得 CIR 更加多功能，这是现有 CIR 方法所不具备的。此外，CompoDiff 特征位于完整的 CLIP 嵌入空间中，因此它们可以直接用于利用 CLIP 空间的所有现有模型。训练所使用的代码和数据集，以及预训练权重可在 https://github.com/navervision/CompoDiff 上获得。
 
-    In recommendation systems, a large portion of the ratings are missing due to the selection biases, which is known as Missing Not At Random. The counterfactual inverse propensity scoring (IPS) was used to weight the imputation error of every observed rating. Although effective in multiple scenarios, we argue that the performance of IPS estimation is limited due to the uncertainty miscalibration of propensity estimation. In this paper, we propose the uncertainty calibration for the propensity estimation in recommendation systems with multiple representative uncertainty calibration techniques. Theoretical analysis on the bias and generalization bound shows the superiority of the calibrated IPS estimator over the uncalibrated one. Experimental results on the coat and yahoo datasets shows that the uncertainty calibration is improved and hence brings the better recommendation results.
+    This paper proposes a novel diffusion-based model, CompoDiff, for solving Composed Image Retrieval (CIR) with latent diffusion and presents a newly created dataset of 18 million reference images, conditions, and corresponding target image triplets to train the model. CompoDiff not only achieves a new zero-shot state-of-the-art on a CIR benchmark such as FashionIQ but also enables a more versatile CIR by accepting various conditions, such as negative text and image mask conditions, which are unavailable with existing CIR methods. In addition, the CompoDiff features are on the intact CLIP embedding space so that they can be directly used for all existing models exploiting the CLIP space. The code and dataset used for the training, and the pre-trained weights are available at https://github.com/navervision/CompoDiff
     
 

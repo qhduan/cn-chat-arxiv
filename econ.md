@@ -2,37 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Explosive growth from AI automation: A review of the arguments.](http://arxiv.org/abs/2309.11690) | AI自动化的爆炸性增长是可能的，可能会加速全球经济增长，但目前对此的高度自信是不合适的。 |
-| [^2] | [Characterizing the Feasible Payoff Set of OLG Repeated Games.](http://arxiv.org/abs/2303.12988) | 本研究完整描述了OLG重复博弈的收益集合，发现随着玩家贴现因子接近1，可行收益集合变得更小。 |
+| [^1] | [Entangled vs. Separable Choice](https://arxiv.org/abs/2403.09045) | 这项研究探讨了描述两个决策者行为的联合概率选择规则，发现存在可以满足可分离限制但不可分离的纠缠选择规则，这一结果对规则的限制性质进行了深入探讨。 |
+| [^2] | [Hierarchical DCC-HEAVY Model for High-Dimensional Covariance Matrices.](http://arxiv.org/abs/2305.08488) | 本文提出了一种新的HD DCC-HEAVY类层次因子模型，用于高维收益的条件协方差矩阵，具有复杂的协方差非对称动力学并独立于资产的横截面维度。实证结果显示该模型相较于标准基准和已有的层次因子模型具有更好的内样拟合和统计经济意义上显著的外样增益。 |
+| [^3] | [New Solution based on Hodge Decomposition for Abstract Games.](http://arxiv.org/abs/2109.14539) | 本文提出了基于Hodge分解的抽象博弈新解决方案HPC，通过使用微分形式和Hodge分解等几何工具，克服了传统解决方案的弱点，并具备了中立性、强单调性、优势循环逆独立性和对互相优势的敏感性等特性。 |
 
 # 详细
 
-[^1]: AI自动化的爆炸性增长: 论证综述
+[^1]: 纠缠vs.可分离选择
 
-    Explosive growth from AI automation: A review of the arguments. (arXiv:2309.11690v1 [econ.GN])
+    Entangled vs. Separable Choice
 
-    [http://arxiv.org/abs/2309.11690](http://arxiv.org/abs/2309.11690)
+    [https://arxiv.org/abs/2403.09045](https://arxiv.org/abs/2403.09045)
 
-    AI自动化的爆炸性增长是可能的，可能会加速全球经济增长，但目前对此的高度自信是不合适的。
-
-    
-
-    我们研究了大规模AI自动化是否能够使全球经济增长加速达到约一个数量级，类似于工业革命所带来的经济增长效应。我们确定了这种增长的三个主要驱动因素：1）AI“劳动力”的可扩展性使得规模递增再现，2）AI劳动力的快速扩张，以及3）在短时间内进行的快速自动化带来的产出大幅增加。在这个背景下，我们评估了九个反对论点，包括监管障碍、产能瓶颈、匹配问题和自动化的速度。我们暂时评估了这些论点，发现大多数都不太可能成为决定因素。我们得出结论认为，如果AI能够广泛替代人力劳动，爆炸性增长似乎是有可能的，但目前对这一说法的高度自信似乎是不合理的。关于AI监管响应的强度、生产中的物理瓶颈和AI的经济价值，仍然存在关键问题。
-
-    We examine whether substantial AI automation could accelerate global economic growth by about an order of magnitude, akin to the economic growth effects of the Industrial Revolution. We identify three primary drivers for such growth: 1) the scalability of an AI ``labor force" restoring a regime of increasing returns to scale, 2) the rapid expansion of an AI labor force, and 3) a massive increase in output from rapid automation occurring over a brief period of time. Against this backdrop, we evaluate nine counterarguments, including regulatory hurdles, production bottlenecks, alignment issues, and the pace of automation. We tentatively assess these arguments, finding most are unlikely deciders. We conclude that explosive growth seems plausible with AI capable of broadly substituting for human labor, but high confidence in this claim seems currently unwarranted. Key questions remain about the intensity of regulatory responses to AI, physical bottlenecks in production, the economic value 
-    
-[^2]: 描述OLG重复博弈可行收益集合的特征
-
-    Characterizing the Feasible Payoff Set of OLG Repeated Games. (arXiv:2303.12988v1 [econ.TH])
-
-    [http://arxiv.org/abs/2303.12988](http://arxiv.org/abs/2303.12988)
-
-    本研究完整描述了OLG重复博弈的收益集合，发现随着玩家贴现因子接近1，可行收益集合变得更小。
+    这项研究探讨了描述两个决策者行为的联合概率选择规则，发现存在可以满足可分离限制但不可分离的纠缠选择规则，这一结果对规则的限制性质进行了深入探讨。
 
     
 
-    本文研究了OLG重复博弈的可行收益集合，并给出了完整的特征描述。本文还首次提供了关于由玩家贴现因子和交互长度引起的可行收益集合的新比较静态。而令人惊讶的是，随着玩家贴现因子接近1，可行收益集合变得更小了。
+    我们研究了描述两个决策者行为的联合概率选择规则，每个决策者面临可能不同的菜单。当这些选择规则可以分解为每个个体的自主选择，仅通过它们的个体概率选择规则相关联时，它们是可分离的。尽管最近对研究这种规则很感兴趣，但对它们的限制的完整刻画仍然是一个未解的问题。一个合理的猜想是，这种对可分离联合选择的限制可以分解成个人选择的限制。我们将这些限制命名为可分离的，并且证明了如果至少一个决策者的概率选择规则唯一地确定了对确定性选择规则的分布，则该猜想成立。否则，存在满足可分离限制但不可分离的纠缠选择规则。纠缠选择的可能性使得其特征化变得复杂。
 
-    We study the set of feasible payoffs of OLG repeated games. We first provide a complete characterization of the feasible payoffs. Second, we provide a novel comparative statics of the feasible payoff set with respect to players' discount factor and the length of interaction. Perhaps surprisingly, the feasible payoff set becomes smaller as the players' discount factor approaches to one.
+    arXiv:2403.09045v1 Announce Type: new  Abstract: We study joint probabilistic choice rules that describe the behavior of two decision makers, each facing a possibly different menu. These choice rules are separable when they can be factored into autonomous choices from each individual solely correlated through their individual probabilistic choice rules. Despite recent interest in studying such rules, a complete characterization of the restrictions on them remains an open question. A reasonable conjecture is that such restrictions on separable joint choice can be factored into individual choice restrictions. We name these restrictions separable and show that this conjecture is true if and only if the probabilistic choice rule of at least one decision maker uniquely identifies the distribution over deterministic choice rules. Otherwise, entangled choice rules exist that satisfy separable restrictions yet are not separable. The possibility of entangled choice complicates the characterizat
+    
+[^2]: 高维协方差矩阵的分层DCC-HEAVY模型
+
+    Hierarchical DCC-HEAVY Model for High-Dimensional Covariance Matrices. (arXiv:2305.08488v1 [econ.EM])
+
+    [http://arxiv.org/abs/2305.08488](http://arxiv.org/abs/2305.08488)
+
+    本文提出了一种新的HD DCC-HEAVY类层次因子模型，用于高维收益的条件协方差矩阵，具有复杂的协方差非对称动力学并独立于资产的横截面维度。实证结果显示该模型相较于标准基准和已有的层次因子模型具有更好的内样拟合和统计经济意义上显著的外样增益。
+
+    
+
+    我们引入了一种新的HD DCC-HEAVY类层次因子模型，用于高维收益的条件协方差矩阵，采用相应的来自更高频数据的实现度量。该建模方法具有复杂的协方差非对称动力学以及简单的估计和预测方案，独立于所考虑的资产的横截面维度。实证分析表明，HD DCC-HEAVY模型具有更好的内样拟合，并相对于标准基准和现有的层次因子模型提供了统计和经济意义上显著的外样增益。在不同市场条件下，结果是稳健的。
+
+    We introduce a new HD DCC-HEAVY class of hierarchical-type factor models for conditional covariance matrices of high-dimensional returns, employing the corresponding realized measures built from higher-frequency data. The modelling approach features sophisticated asymmetric dynamics in covariances coupled with straightforward estimation and forecasting schemes, independent of the cross-sectional dimension of the assets under consideration. Empirical analyses suggest the HD DCC-HEAVY models have a better in-sample fit, and deliver statistically and economically significant out-of-sample gains relative to the standard benchmarks and existing hierarchical factor models. The results are robust under different market conditions.
+    
+[^3]: 基于Hodge分解的抽象博弈新解决方案
+
+    New Solution based on Hodge Decomposition for Abstract Games. (arXiv:2109.14539v4 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2109.14539](http://arxiv.org/abs/2109.14539)
+
+    本文提出了基于Hodge分解的抽象博弈新解决方案HPC，通过使用微分形式和Hodge分解等几何工具，克服了传统解决方案的弱点，并具备了中立性、强单调性、优势循环逆独立性和对互相优势的敏感性等特性。
+
+    
+
+    本文提出了Hodge潜力选择（HPC），一种针对具有非自反优势关系的抽象博弈的新解决方案。该解决方案利用微分形式和Hodge分解等几何工具对抽象博弈进行了建模。我们提供了一个可行的算法，以及一种新的抽象博弈数据结构。从博弈的角度来看，HPC克服了传统解决方案的一些弱点。在完全情况下，HPC与Copeland选择一致，并且可以扩展到解决具有边际优势的博弈。我们证明了Hodge潜力选择具备中立性、强单调性、优势循环逆独立性和对互相优势的敏感性等三个普遍的公理特性。为了将HPC与Copeland选择在大样本的博弈中进行比较，我们设计了使用不同规模和完整性的随机生成的抽象博弈的数值实验。实验结果展示了HPC在统计方面的优势。
+
+    This paper proposes Hodge Potential Choice (HPC), a new solution for abstract games with irreflexive dominance relations. This solution is formulated by involving geometric tools like differential forms and Hodge decomposition onto abstract games. We provide a workable algorithm for the proposed solution with a new data structure of abstract games. From the view of gaming, HPC overcomes several weaknesses of conventional solutions. HPC coincides with Copeland Choice in complete cases and can be extended to slove games with marginal strengths. It will be proven that the Hodge potential choice possesses three prevalent axiomatic properties: neutrality, strong monotonicity, dominance cycle s reversing independence, and sensitivity to mutual dominance. To compare the HPC with Copeland Choice in large samples of games, we design digital experiments with randomly generated abstract games with different sizes and completeness. The experimental results present the advantage of HPC in the stati
     
 

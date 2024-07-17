@@ -2,157 +2,157 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Functional-Edged Network Modeling](https://arxiv.org/abs/2404.00218) | 本研究提出了一种功能边缘网络模型，通过将边视为功能数据，并引入额外维度来表示函数，使用Tucker功能分解处理功能邻接张量，进行模型推断以解决不规则观测问题，并通过正则化使基础矩阵对称化，最终展示了模型的理想属性。 |
-| [^2] | [A Conservative Approach for Few-Shot Transfer in Off-Dynamics Reinforcement Learning](https://arxiv.org/abs/2312.15474) | 提出了一种受最近模仿学习和保守RL算法进展启发的创新方法，在离线动力学强化学习中的少样本转移过程中引入惩罚来调节源训练策略生成的轨迹。 |
-| [^3] | [Handling The Non-Smooth Challenge in Tensor SVD: A Multi-Objective Tensor Recovery Framework](https://arxiv.org/abs/2311.13958) | 提出一种具有可学习张量核范数的新型张量恢复模型，引入交替近端乘子方法（APMM）优化算法，解决处理非光滑变化的张量数据挑战 |
-| [^4] | [A Survey on Uncertainty Quantification for Deep Learning: An Uncertainty Source Perspective](https://arxiv.org/abs/2302.13425) | 本研究对深度学习的不确定性量化进行了调查，从不确定性来源的角度分析不同方法，以评估DNN预测的置信度。 |
-| [^5] | [Stable generative modeling using diffusion maps.](http://arxiv.org/abs/2401.04372) | 本文提出了一种稳定的生成建模方法，通过将扩散映射与朗之万动力学相结合，在仅有有限数量的训练样本的情况下生成新样本，并解决了时间步长僵硬随机微分方程中的稳定性问题。 |
-| [^6] | [Enhancing Low-Precision Sampling via Stochastic Gradient Hamiltonian Monte Carlo.](http://arxiv.org/abs/2310.16320) | 本文研究了使用低精度和全精度梯度累加器的随机梯度Hamiltonian Monte Carlo (SGHMC)在低精度采样中的应用。实验证明，在非对数凹分布下，低精度SGHMC相对于低精度采样器（SGLD）实现了二次改进。 |
-| [^7] | [Heteroscedastic sparse high-dimensional linear regression with a partitioned empirical Bayes ECM algorithm.](http://arxiv.org/abs/2309.08783) | 本文提出了一种解决高维度稀疏线性回归中异方差问题的方法，通过基于分区经验贝叶斯ECM算法的异方差高维度线性回归模型来实现。这个模型可以处理残差方差不恒定的情况，并且可以使用插值的经验贝叶斯估计超参数来灵活地调整方差模型。 |
-| [^8] | [UTOPIA: Universally Trainable Optimal Prediction Intervals Aggregation.](http://arxiv.org/abs/2306.16549) | 本论文提出了一种新的技术，称为UTOPIA，用于聚合多个预测区间以减小其宽度并保证覆盖率。该方法基于线性或凸规划，易于实现，适用范围广泛。 |
-| [^9] | [Counterfactual Generative Models for Time-Varying Treatments.](http://arxiv.org/abs/2305.15742) | 本文研究了时间变量处理情况下的反事实生成模型，能够捕捉整个反事实分布，并且能够有效推断反事实分布的某些统计量，适用于医疗保健和公共政策制定领域。 |
-| [^10] | [Factorized Fusion Shrinkage for Dynamic Relational Data.](http://arxiv.org/abs/2210.00091) | 本文提出了一种动态关系数据的分解融合压缩模型，通过对分解矩阵的行向量的逐次差值施加全局-局部压缩先验获得收缩，并具有许多有利的性质。 |
+| [^1] | [Learning Network Representations with Disentangled Graph Auto-Encoder](https://rss.arxiv.org/abs/2402.01143) | 本文介绍了解缠离散图自编码器(DGA)和解缠变分图自编码器(DVGA)的方法，利用生成模型来学习解缠表示。 |
+| [^2] | [Discrete Latent Graph Generative Modeling with Diffusion Bridges](https://arxiv.org/abs/2403.16883) | GLAD是一个在离散潜在空间上操作的图生成模型，通过适应扩散桥结构学习其离散潜在空间的先验，避免了依赖于原始数据空间的分解，在图生成任务中表现出优越性。 |
+| [^3] | [Bipartite Graph Variational Auto-Encoder with Fair Latent Representation to Account for Sampling Bias in Ecological Networks](https://arxiv.org/abs/2403.02011) | 本研究提出了一种公平潜在表示的二分图变分自动编码器方法，以解决生态网络中的抽样偏差问题，通过在损失函数中引入额外的HSIC惩罚项，确保了潜在空间结构与连续变量的独立性。 |
+| [^4] | [Rao-Blackwellising Bayesian Causal Inference](https://arxiv.org/abs/2402.14781) | 本文结合顺序化的MCMC结构学习技术和梯度图学习的最新进展，构建了一个有效的贝叶斯因果推断框架，将因果结构推断问题分解为变量拓扑顺序推断和变量父节点集合推断，同时使用高斯过程进行因果机制建模实现精确边缘化，引入了一个Rao-Blackwell化方案。 |
+| [^5] | [Interpretable Multi-Source Data Fusion Through Latent Variable Gaussian Process](https://arxiv.org/abs/2402.04146) | 这篇论文提出了一种基于潜变量高斯过程的多源数据融合框架，用于解决多个数据源之间质量和全面性差异给系统优化带来的问题。 |
+| [^6] | [Multi-Armed Bandits with Interference](https://arxiv.org/abs/2402.01845) | 这篇论文研究了在在线平台中与干扰进行的实验。在多臂赌博机问题中，学习者分配不同的臂给每个实验单元，根据单元之间的空间距离和对手选择的匹配函数来决定每个单元在每轮的回报。研究发现，转换政策能够实现最佳的预期遗憾，但任何转换政策都会遭受一定的遗憾现象。 |
+| [^7] | [Frequentist Guarantees of Distributed (Non)-Bayesian Inference](https://arxiv.org/abs/2311.08214) | 本文针对通过通信网络连接的代理之间的分布式(非)贝叶斯推断问题建立了频率特性，探讨了在适当假设下分布式贝叶斯推断在参数效率和不确定性量化方面的表现，以及通信图设计和大小对后验收缩率的影响。 |
+| [^8] | [Gradients Look Alike: Sensitivity is Often Overestimated in DP-SGD.](http://arxiv.org/abs/2307.00310) | 本文开发了一种新的DP-SGD分析方法，可以在训练过程中对许多数据点的隐私泄漏进行更准确的评估。 |
+| [^9] | [Designing Decision Support Systems Using Counterfactual Prediction Sets.](http://arxiv.org/abs/2306.03928) | 本文提出了一种基于反事实预测集的决策支持系统设计方法，不同于传统的单一标签预测，它使用符合预测器构建预测集，并引导人类专家从中选择标签值。 |
+| [^10] | [When Do Neural Nets Outperform Boosted Trees on Tabular Data?.](http://arxiv.org/abs/2305.02997) | 这项研究通过对176个数据集的比较分析发现，在许多数据集中，GBDT和NN之间的性能差异可以忽略不计，或者GBDT的轻微超参数调整比选择最佳算法更重要。此外，研究人员对965个元特征进行了分析，发现GBDT在高维稀疏数据上表现更好。 |
 
 # 详细
 
-[^1]: 功能边缘网络建模
+[^1]: 用解缠离散图自编码器学习网络表示
 
-    Functional-Edged Network Modeling
+    Learning Network Representations with Disentangled Graph Auto-Encoder
 
-    [https://arxiv.org/abs/2404.00218](https://arxiv.org/abs/2404.00218)
+    [https://rss.arxiv.org/abs/2402.01143](https://rss.arxiv.org/abs/2402.01143)
 
-    本研究提出了一种功能边缘网络模型，通过将边视为功能数据，并引入额外维度来表示函数，使用Tucker功能分解处理功能邻接张量，进行模型推断以解决不规则观测问题，并通过正则化使基础矩阵对称化，最终展示了模型的理想属性。
-
-    
-
-    与现有作品形成对比，现有作品都将节点视为函数，并使用边来表示不同函数之间的关系。我们的目标是网络建模，其中边是功能数据，并将邻接矩阵转换为功能邻接张量，引入一个额外的维度专门用于函数表示。我们使用Tucker功能分解来处理功能邻接张量，为进一步考虑节点之间的社区，对基础矩阵进行正则化使其对称化。此外，为了处理功能边的不规则观测，我们进行模型推断以解决张量完成问题，通过Riemann共轭梯度下降方法进行优化。除此之外，我们还推导出几个定理来展示功能边缘网络模型的理想属性。最后，我们使用模拟数据和真实地铁系统数据评估了我们提出的模型的有效性。
-
-    arXiv:2404.00218v1 Announce Type: cross  Abstract: Contrasts with existing works which all consider nodes as functions and use edges to represent the relationships between different functions. We target at network modeling whose edges are functional data and transform the adjacency matrix into a functional adjacency tensor, introducing an additional dimension dedicated to function representation. Tucker functional decomposition is used for the functional adjacency tensor, and to further consider the community between nodes, we regularize the basis matrices to be symmetrical. Furthermore, to deal with irregular observations of the functional edges, we conduct model inference to solve a tensor completion problem. It is optimized by a Riemann conjugate gradient descent method. Besides these, we also derive several theorems to show the desirable properties of the functional edged network model. Finally, we evaluate the efficacy of our proposed model using simulation data and real metro sys
-    
-[^2]: 在离线动力学强化学习中的少样本转移的保守方法
-
-    A Conservative Approach for Few-Shot Transfer in Off-Dynamics Reinforcement Learning
-
-    [https://arxiv.org/abs/2312.15474](https://arxiv.org/abs/2312.15474)
-
-    提出了一种受最近模仿学习和保守RL算法进展启发的创新方法，在离线动力学强化学习中的少样本转移过程中引入惩罚来调节源训练策略生成的轨迹。
+    本文介绍了解缠离散图自编码器(DGA)和解缠变分图自编码器(DVGA)的方法，利用生成模型来学习解缠表示。
 
     
 
-    离线动力学强化学习（ODRL）旨在将策略从源环境转移到具有不同但相似动力学特征的目标环境。在这种情况下，传统RL代理过度依赖源环境的动力学，导致发现在该环境中表现卓越的策略，但在目标环境中表现不佳。在少样本框架中，引入了来自目标环境的有限数量转换以促进更有效的转移。为了解决这一挑战，我们提出了一种受最近模仿学习和保守RL算法进展启发的创新方法。所提出的方法引入了一个惩罚来调节源训练策略生成的轨迹。我们在代表不同离线动力学条件的各种环境中评估了我们的方法，在这些环境中访问目标环境是极端困难的。
+    (变分)图自编码器广泛用于学习图结构化数据的表示。然而，现实世界图的形成是一个由潜在因素影响的复杂和异质的过程。现有的编码器基本上是整体的，忽视了潜在因素的纠缠。这不仅使得图分析任务不太有效，而且使得理解和解释这些表示变得更加困难。用(变分)图自编码器学习解缠的图表示面临着重要挑战，在现有文献中尚未得到充分探索。在本文中，我们介绍了解缠离散图自编码器(DGA)和解缠变分图自编码器(DVGA)的方法，利用生成模型来学习解缠表示。具体地，我们首先设计了一个解缠的图卷积网络，使用多通道消息传递层作为编码器，聚合与每个节点相关的信息。
 
-    arXiv:2312.15474v2 Announce Type: replace  Abstract: Off-dynamics Reinforcement Learning (ODRL) seeks to transfer a policy from a source environment to a target environment characterized by distinct yet similar dynamics. In this context, traditional RL agents depend excessively on the dynamics of the source environment, resulting in the discovery of policies that excel in this environment but fail to provide reasonable performance in the target one. In the few-shot framework, a limited number of transitions from the target environment are introduced to facilitate a more effective transfer. Addressing this challenge, we propose an innovative approach inspired by recent advancements in Imitation Learning and conservative RL algorithms. The proposed method introduces a penalty to regulate the trajectories generated by the source-trained policy. We evaluate our method across various environments representing diverse off-dynamics conditions, where access to the target environment is extreme
+    The (variational) graph auto-encoder is extensively employed for learning representations of graph-structured data. However, the formation of real-world graphs is a complex and heterogeneous process influenced by latent factors. Existing encoders are fundamentally holistic, neglecting the entanglement of latent factors. This not only makes graph analysis tasks less effective but also makes it harder to understand and explain the representations. Learning disentangled graph representations with (variational) graph auto-encoder poses significant challenges, and remains largely unexplored in the existing literature. In this article, we introduce the Disentangled Graph Auto-Encoder (DGA) and Disentangled Variational Graph Auto-Encoder (DVGA), approaches that leverage generative models to learn disentangled representations. Specifically, we first design a disentangled graph convolutional network with multi-channel message-passing layers, as the encoder aggregating information related to eac
     
-[^3]: 处理张量奇异值分解中的非光滑挑战：多目标张量恢复框架
+[^2]: 带扩散桥的离散潜在图生成建模
 
-    Handling The Non-Smooth Challenge in Tensor SVD: A Multi-Objective Tensor Recovery Framework
+    Discrete Latent Graph Generative Modeling with Diffusion Bridges
 
-    [https://arxiv.org/abs/2311.13958](https://arxiv.org/abs/2311.13958)
+    [https://arxiv.org/abs/2403.16883](https://arxiv.org/abs/2403.16883)
 
-    提出一种具有可学习张量核范数的新型张量恢复模型，引入交替近端乘子方法（APMM）优化算法，解决处理非光滑变化的张量数据挑战
-
-    
-
-    最近，许多基于张量奇异值分解（t-SVD）的张量恢复方法在处理视觉数据（如彩色图像和视频）方面表现出潜力。然而，当面对显示出非光滑变化的张量数据时，这些方法通常会遭受严重的性能退化。虽然在现实世界中经常观察到这种情况，但传统的基于t-SVD的方法却忽视了这一点。在这项工作中，我们引入了一种新颖的张量恢复模型，其中包括可学习的张量核范数，以解决这一挑战。我们开发了一种名为交替近端乘子方法（APMM）的新优化算法，以迭代地解决提出的张量补全模型。理论分析证明了所提出的APMM收敛到优化问题的Karush-Kuhn-Tucker（KKT）点。此外，我们基于APMM提出了一个多目标张量恢复框架，以有效探索协
-
-    arXiv:2311.13958v2 Announce Type: replace-cross  Abstract: Recently, numerous tensor singular value decomposition (t-SVD)-based tensor recovery methods have shown promise in processing visual data, such as color images and videos. However, these methods often suffer from severe performance degradation when confronted with tensor data exhibiting non-smooth changes. It has been commonly observed in real-world scenarios but ignored by the traditional t-SVD-based methods. In this work, we introduce a novel tensor recovery model with a learnable tensor nuclear norm to address such a challenge. We develop a new optimization algorithm named the Alternating Proximal Multiplier Method (APMM) to iteratively solve the proposed tensor completion model. Theoretical analysis demonstrates the convergence of the proposed APMM to the Karush-Kuhn-Tucker (KKT) point of the optimization problem. In addition, we propose a multi-objective tensor recovery framework based on APMM to efficiently explore the co
-    
-[^4]: 对深度学习的不确定性量化进行调查：从不确定性来源的角度分析
-
-    A Survey on Uncertainty Quantification for Deep Learning: An Uncertainty Source Perspective
-
-    [https://arxiv.org/abs/2302.13425](https://arxiv.org/abs/2302.13425)
-
-    本研究对深度学习的不确定性量化进行了调查，从不确定性来源的角度分析不同方法，以评估DNN预测的置信度。
+    GLAD是一个在离散潜在空间上操作的图生成模型，通过适应扩散桥结构学习其离散潜在空间的先验，避免了依赖于原始数据空间的分解，在图生成任务中表现出优越性。
 
     
 
-    深度神经网络(DNNs)在计算机视觉、自然语言处理以及科学与工程领域取得了巨大成功。然而，人们也认识到DNNs有时会做出意外、错误但过于自信的预测。这可能导致在自动驾驶、医学诊断和灾难响应等高风险应用中出现严重后果。不确定性量化（UQ）旨在估计DNN预测的置信度，超越预测准确性。近年来，已经开发了许多针对DNNs的UQ方法。系统地对这些UQ方法进行分类并比较它们的优势和劣势具有极大的实际价值。然而，现有调查大多集中在从神经网络架构角度或贝叶斯角度对UQ方法进行分类，忽略了每种方法可能引入的不确定性来源。
+    学习潜在空间中的图生成模型相比于在原始数据空间上操作的模型受到较少关注，迄今表现出的性能乏善可陈。我们提出了GLAD，一个潜在空间图生成模型。与大多数先前的潜在空间图生成模型不同，GLAD在保留图结构的离散性质方面运行，无需进行诸如潜在空间连续性等不自然的假设。我们通过将扩散桥调整到其结构，来学习我们离散潜在空间的先验。通过在适当构建的潜在空间上操作，我们避免依赖于常用于在原始数据空间操作的模型中的分解。我们在一系列图基准数据集上进行实验，明显展示了离散潜在空间的优越性，并取得了最先进的图生成性能，使GLA
 
-    arXiv:2302.13425v3 Announce Type: replace  Abstract: Deep neural networks (DNNs) have achieved tremendous success in making accurate predictions for computer vision, natural language processing, as well as science and engineering domains. However, it is also well-recognized that DNNs sometimes make unexpected, incorrect, but overconfident predictions. This can cause serious consequences in high-stake applications, such as autonomous driving, medical diagnosis, and disaster response. Uncertainty quantification (UQ) aims to estimate the confidence of DNN predictions beyond prediction accuracy. In recent years, many UQ methods have been developed for DNNs. It is of great practical value to systematically categorize these UQ methods and compare their advantages and disadvantages. However, existing surveys mostly focus on categorizing UQ methodologies from a neural network architecture perspective or a Bayesian perspective and ignore the source of uncertainty that each methodology can incor
+    arXiv:2403.16883v1 Announce Type: new  Abstract: Learning graph generative models over latent spaces has received less attention compared to models that operate on the original data space and has so far demonstrated lacklustre performance. We present GLAD a latent space graph generative model. Unlike most previous latent space graph generative models, GLAD operates on a discrete latent space that preserves to a significant extent the discrete nature of the graph structures making no unnatural assumptions such as latent space continuity. We learn the prior of our discrete latent space by adapting diffusion bridges to its structure. By operating over an appropriately constructed latent space we avoid relying on decompositions that are often used in models that operate in the original data space. We present experiments on a series of graph benchmark datasets which clearly show the superiority of the discrete latent space and obtain state of the art graph generative performance, making GLA
     
-[^5]: 使用扩散映射进行稳定的生成建模
+[^3]: 公平潜在表示的二分图变分自动编码器，以解决生态网络中的抽样偏差问题
 
-    Stable generative modeling using diffusion maps. (arXiv:2401.04372v1 [stat.ML])
+    Bipartite Graph Variational Auto-Encoder with Fair Latent Representation to Account for Sampling Bias in Ecological Networks
 
-    [http://arxiv.org/abs/2401.04372](http://arxiv.org/abs/2401.04372)
+    [https://arxiv.org/abs/2403.02011](https://arxiv.org/abs/2403.02011)
 
-    本文提出了一种稳定的生成建模方法，通过将扩散映射与朗之万动力学相结合，在仅有有限数量的训练样本的情况下生成新样本，并解决了时间步长僵硬随机微分方程中的稳定性问题。
-
-    
-
-    我们考虑从仅有足够数量的训练样本可得到的未知分布中抽样的问题。在生成建模的背景下，这样的设置最近引起了相当大的关注。本文中，我们提出了一种将扩散映射和朗之万动力学相结合的生成模型。扩散映射用于从可用的训练样本中近似得到漂移项，然后在离散时间的朗之万采样器中实现生成新样本。通过将核带宽设置为与未调整的朗之万算法中使用的时间步长匹配，我们的方法可以有效地避免通常与时间步长僵硬随机微分方程相关的稳定性问题。更准确地说，我们引入了一种新颖的分裂步骤方案，确保生成的样本保持在训练样本的凸包内。我们的框架可以自然地扩展为生成条件样本。我们展示了性能。
-
-    We consider the problem of sampling from an unknown distribution for which only a sufficiently large number of training samples are available. Such settings have recently drawn considerable interest in the context of generative modelling. In this paper, we propose a generative model combining diffusion maps and Langevin dynamics. Diffusion maps are used to approximate the drift term from the available training samples, which is then implemented in a discrete-time Langevin sampler to generate new samples. By setting the kernel bandwidth to match the time step size used in the unadjusted Langevin algorithm, our method effectively circumvents any stability issues typically associated with time-stepping stiff stochastic differential equations. More precisely, we introduce a novel split-step scheme, ensuring that the generated samples remain within the convex hull of the training samples. Our framework can be naturally extended to generate conditional samples. We demonstrate the performance
-    
-[^6]: 增强低精度采样：随机梯度Hamiltonian Monte Carlo
-
-    Enhancing Low-Precision Sampling via Stochastic Gradient Hamiltonian Monte Carlo. (arXiv:2310.16320v1 [stat.ML])
-
-    [http://arxiv.org/abs/2310.16320](http://arxiv.org/abs/2310.16320)
-
-    本文研究了使用低精度和全精度梯度累加器的随机梯度Hamiltonian Monte Carlo (SGHMC)在低精度采样中的应用。实验证明，在非对数凹分布下，低精度SGHMC相对于低精度采样器（SGLD）实现了二次改进。
+    本研究提出了一种公平潜在表示的二分图变分自动编码器方法，以解决生态网络中的抽样偏差问题，通过在损失函数中引入额外的HSIC惩罚项，确保了潜在空间结构与连续变量的独立性。
 
     
 
-    低精度训练已经成为一种有前景的低成本技术，可以在不牺牲太多准确性的情况下提高深度神经网络的训练效率。其贝叶斯对应物可以进一步提供不确定性量化和改进的泛化准确性。本文研究了在强对数凹和非对数凹分布下，使用低精度和全精度梯度累加器的随机梯度Hamiltonian Monte Carlo (SGHMC)。从理论上讲，我们的结果表明，为了在非对数凹分布下实现2-Wasserstein距离的ε误差，低精度SGHMC相对于低精度采样器（随机梯度Langevin动力学，SGLD）实现了二次改进（$\widetilde{\mathbf{O}}\left({\epsilon^{-2}{\mu^*}^{-2}\log^2\left({\epsilon^{-1}}\right)}\right)$ vs $\widetilde{\mathbf{O}}\left({{\epsilon}^{-4}{\lambda^{*}}^{-1}\log^5\left({\epsilon^{-1}}\right)}\right)$）。另外，基于真实数据集的实验证明了低精度SGHMC相对于SGLD在非对数凹分布下的优越性。
+    我们提出一种方法，使用图嵌入来表示二分网络，以解决研究生态网络所面临的挑战，比如连接植物和传粉者等网络，需考虑许多协变量，尤其要控制抽样偏差。我们将变分图自动编码器方法调整为二分情况，从而能够在潜在空间中生成嵌入，其中两组节点的位置基于它们的连接概率。我们将在社会学中常考虑的公平性框架转化为生态学中的抽样偏差问题。通过在损失函数中添加Hilbert-Schmidt独立准则（HSIC）作为额外惩罚项，我们确保潜在空间结构与连续变量（与抽样过程相关）无关。最后，我们展示了我们的方法如何改变我们对生态网络的理解。
 
-    Low-precision training has emerged as a promising low-cost technique to enhance the training efficiency of deep neural networks without sacrificing much accuracy. Its Bayesian counterpart can further provide uncertainty quantification and improved generalization accuracy. This paper investigates low-precision sampling via Stochastic Gradient Hamiltonian Monte Carlo (SGHMC) with low-precision and full-precision gradient accumulators for both strongly log-concave and non-log-concave distributions. Theoretically, our results show that, to achieve $\epsilon$-error in the 2-Wasserstein distance for non-log-concave distributions, low-precision SGHMC achieves quadratic improvement ($\widetilde{\mathbf{O}}\left({\epsilon^{-2}{\mu^*}^{-2}\log^2\left({\epsilon^{-1}}\right)}\right)$) compared to the state-of-the-art low-precision sampler, Stochastic Gradient Langevin Dynamics (SGLD) ($\widetilde{\mathbf{O}}\left({{\epsilon}^{-4}{\lambda^{*}}^{-1}\log^5\left({\epsilon^{-1}}\right)}\right)$). Moreo
+    arXiv:2403.02011v1 Announce Type: cross  Abstract: We propose a method to represent bipartite networks using graph embeddings tailored to tackle the challenges of studying ecological networks, such as the ones linking plants and pollinators, where many covariates need to be accounted for, in particular to control for sampling bias. We adapt the variational graph auto-encoder approach to the bipartite case, which enables us to generate embeddings in a latent space where the two sets of nodes are positioned based on their probability of connection. We translate the fairness framework commonly considered in sociology in order to address sampling bias in ecology. By incorporating the Hilbert-Schmidt independence criterion (HSIC) as an additional penalty term in the loss we optimize, we ensure that the structure of the latent space is independent of continuous variables, which are related to the sampling process. Finally, we show how our approach can change our understanding of ecological n
     
-[^7]: 高维度稀疏线性回归中的异方差问题及基于分区经验贝叶斯ECM算法的解决方法
+[^4]: Rao-Blackwellising Bayesian Causal Inference
 
-    Heteroscedastic sparse high-dimensional linear regression with a partitioned empirical Bayes ECM algorithm. (arXiv:2309.08783v1 [stat.ME])
+    Rao-Blackwellising Bayesian Causal Inference
 
-    [http://arxiv.org/abs/2309.08783](http://arxiv.org/abs/2309.08783)
+    [https://arxiv.org/abs/2402.14781](https://arxiv.org/abs/2402.14781)
 
-    本文提出了一种解决高维度稀疏线性回归中异方差问题的方法，通过基于分区经验贝叶斯ECM算法的异方差高维度线性回归模型来实现。这个模型可以处理残差方差不恒定的情况，并且可以使用插值的经验贝叶斯估计超参数来灵活地调整方差模型。
-
-    
-
-    高维度数据的稀疏线性回归方法通常假设残差具有常数方差。当这一假设被违背时，会导致估计系数的偏差，预测区间长度不合适以及增加I型错误。本文提出一种基于分区经验贝叶斯期望条件最大化(H-PROBE)算法的异方差高维度线性回归模型。H-PROBE是一种计算效率高的最大后验估计方法，基于参数扩展的期望条件最大化(PX-ECM)算法。它通过插值的经验贝叶斯估计超参数，在回归参数上假设最小。方差模型使用了多元对数伽马分布理论的最新进展，并可以包含假设会影响异质性的协变量。我们的方法的动机是通过T2高分辨率神经影像研究与失语指数(AQ)相关性。
-
-    Sparse linear regression methods for high-dimensional data often assume that residuals have constant variance. When this assumption is violated, it can lead to bias in estimated coefficients, prediction intervals with improper length, and increased type I errors. This paper proposes a heteroscedastic (H) high-dimensional linear regression model through a partitioned empirical Bayes Expectation Conditional Maximization (H-PROBE) algorithm. H-PROBE is a computationally efficient maximum a posteriori (MAP) estimation approach based on a Parameter-Expanded Expectation-Conditional-Maximization (PX-ECM) algorithm. It requires minimal prior assumptions on the regression parameters through plug-in empirical Bayes estimates of hyperparameters. The variance model uses recent advances in multivariate log-Gamma distribution theory and can include covariates hypothesized to impact heterogeneity. The motivation of our approach is a study relating Aphasia Quotient (AQ) to high-resolution T2 neuroimag
-    
-[^8]: UTOPIA：通用可训练的最优预测区间聚合
-
-    UTOPIA: Universally Trainable Optimal Prediction Intervals Aggregation. (arXiv:2306.16549v1 [stat.ME])
-
-    [http://arxiv.org/abs/2306.16549](http://arxiv.org/abs/2306.16549)
-
-    本论文提出了一种新的技术，称为UTOPIA，用于聚合多个预测区间以减小其宽度并保证覆盖率。该方法基于线性或凸规划，易于实现，适用范围广泛。
+    本文结合顺序化的MCMC结构学习技术和梯度图学习的最新进展，构建了一个有效的贝叶斯因果推断框架，将因果结构推断问题分解为变量拓扑顺序推断和变量父节点集合推断，同时使用高斯过程进行因果机制建模实现精确边缘化，引入了一个Rao-Blackwell化方案。
 
     
 
-    预测的不确定性量化是一个有趣的问题，在生物医学科学、经济研究和天气预报等各个领域有重要的应用。构建预测区间的方法有很多，如分位数回归和一致性预测等。然而，模型错误规定（尤其是在高维情况下）或次优的构造通常会导致有偏或过宽的预测区间。在本文中，我们提出了一种新颖且广泛适用的技术，用于聚合多个预测区间以最小化预测带的平均宽度和覆盖保证，称为通用可训练的最优预测区间聚合（UTOPIA）。该方法还允许我们根据基本的基函数直接构建预测带。我们的方法基于线性或凸规划，易于实现。我们提出的所有方法都得到了实验证明。
+    贝叶斯因果推断，即推断用于下游因果推理任务中的因果模型的后验概率，构成了一个在文献中鲜有探讨的难解的计算推断问题。本文将基于顺序的MCMC结构学习技术与最近梯度图学习的进展相结合，构建了一个有效的贝叶斯因果推断框架。具体而言，我们将推断因果结构的问题分解为(i)推断变量之间的拓扑顺序以及(ii)推断每个变量的父节点集合。当限制每个变量的父节点数量时，我们可以在多项式时间内完全边缘化父节点集合。我们进一步使用高斯过程来建模未知的因果机制，从而允许其精确边缘化。这引入了一个Rao-Blackwell化方案，其中除了因果顺序之外，模型中的所有组件都被消除。
 
-    Uncertainty quantification for prediction is an intriguing problem with significant applications in various fields, such as biomedical science, economic studies, and weather forecasts. Numerous methods are available for constructing prediction intervals, such as quantile regression and conformal predictions, among others. Nevertheless, model misspecification (especially in high-dimension) or sub-optimal constructions can frequently result in biased or unnecessarily-wide prediction intervals. In this paper, we propose a novel and widely applicable technique for aggregating multiple prediction intervals to minimize the average width of the prediction band along with coverage guarantee, called Universally Trainable Optimal Predictive Intervals Aggregation (UTOPIA). The method also allows us to directly construct predictive bands based on elementary basis functions. Our approach is based on linear or convex programming which is easy to implement. All of our proposed methodologies are suppo
+    arXiv:2402.14781v1 Announce Type: cross  Abstract: Bayesian causal inference, i.e., inferring a posterior over causal models for the use in downstream causal reasoning tasks, poses a hard computational inference problem that is little explored in literature. In this work, we combine techniques from order-based MCMC structure learning with recent advances in gradient-based graph learning into an effective Bayesian causal inference framework. Specifically, we decompose the problem of inferring the causal structure into (i) inferring a topological order over variables and (ii) inferring the parent sets for each variable. When limiting the number of parents per variable, we can exactly marginalise over the parent sets in polynomial time. We further use Gaussian processes to model the unknown causal mechanisms, which also allows their exact marginalisation. This introduces a Rao-Blackwellization scheme, where all components are eliminated from the model, except for the causal order, for whi
     
-[^9]: 时间变化处理的反事实生成模型
+[^5]: 可解释的多源数据融合通过潜变量高斯过程
 
-    Counterfactual Generative Models for Time-Varying Treatments. (arXiv:2305.15742v1 [stat.ML])
+    Interpretable Multi-Source Data Fusion Through Latent Variable Gaussian Process
 
-    [http://arxiv.org/abs/2305.15742](http://arxiv.org/abs/2305.15742)
+    [https://arxiv.org/abs/2402.04146](https://arxiv.org/abs/2402.04146)
 
-    本文研究了时间变量处理情况下的反事实生成模型，能够捕捉整个反事实分布，并且能够有效推断反事实分布的某些统计量，适用于医疗保健和公共政策制定领域。
-
-    
-
-    估计平均因果效应是测试新疗法的常用做法。然而，平均效应会掩盖反事实分布中重要的个体特征，可能会引起安全、公平和道德方面的担忧。这个问题在时间设置中更加严重，因为处理是时序的和时变的，对反事实分布产生了错综复杂的影响。本文提出了一种新的条件生成建模方法，以捕获整个反事实分布，允许对反事实分布的某些统计量进行有效推断。这使得所提出的方法尤其适用于医疗保健和公共政策制定领域。我们的生成建模方法通过边际结构模型谨慎地解决了观察数据和目标反事实分布之间的分布不匹配。在合成和真实数据上，我们的方法优于现有的基线方法。
-
-    Estimating average causal effects is a common practice to test new treatments. However, the average effect ''masks'' important individual characteristics in the counterfactual distribution, which may lead to safety, fairness, and ethical concerns. This issue is exacerbated in the temporal setting, where the treatment is sequential and time-varying, leading to an intricate influence on the counterfactual distribution. In this paper, we propose a novel conditional generative modeling approach to capture the whole counterfactual distribution, allowing efficient inference on certain statistics of the counterfactual distribution. This makes the proposed approach particularly suitable for healthcare and public policy making. Our generative modeling approach carefully tackles the distribution mismatch in the observed data and the targeted counterfactual distribution via a marginal structural model. Our method outperforms state-of-the-art baselines on both synthetic and real data.
-    
-[^10]: 动态关系数据的分解融合压缩模型
-
-    Factorized Fusion Shrinkage for Dynamic Relational Data. (arXiv:2210.00091v2 [stat.ME] UPDATED)
-
-    [http://arxiv.org/abs/2210.00091](http://arxiv.org/abs/2210.00091)
-
-    本文提出了一种动态关系数据的分解融合压缩模型，通过对分解矩阵的行向量的逐次差值施加全局-局部压缩先验获得收缩，并具有许多有利的性质。
+    这篇论文提出了一种基于潜变量高斯过程的多源数据融合框架，用于解决多个数据源之间质量和全面性差异给系统优化带来的问题。
 
     
 
-    现代数据科学应用经常涉及具有动态结构的复杂关系数据。此类动态关系数据的突变通常出现在由于干预而经历制度变化的系统中。在这种情况下，我们考虑一种分解融合压缩模型，其中所有分解因子都被动态地收缩到组内融合结构，收缩通过对分解矩阵的行向量的逐次差值施加全局-局部压缩先验来获得。所提出的先验在估计的动态潜在因子的比较和聚类方面具有许多有利的性质。比较估计的潜在因子涉及相邻和长期比较，考虑到比较的时间范围作为变量。在某些条件下，我们证明后验分布达到最小化最大风险，直到对数因子。在计算方面，我们提出了一个结构化的均值场变分方法。
+    随着人工智能（AI）和机器学习（ML）的出现，各个科学和工程领域已经利用数据驱动的替代模型来建模来自大量信息源（数据）的复杂系统。这种增加导致了开发出用于执行特定功能的优越系统所需的成本和时间的显著降低。这样的替代模型往往广泛地融合多个数据来源，可能是发表的论文、专利、开放资源库或其他资源。然而，对于已知和未知的信息来源的基础物理参数的质量和全面性的差异，可能对系统优化过程产生后续影响，却没有得到充分的关注。为了解决这个问题，提出了一种基于潜变量高斯过程（LVGP）的多源数据融合框架。
 
-    Modern data science applications often involve complex relational data with dynamic structures. An abrupt change in such dynamic relational data is typically observed in systems that undergo regime changes due to interventions. In such a case, we consider a factorized fusion shrinkage model in which all decomposed factors are dynamically shrunk towards group-wise fusion structures, where the shrinkage is obtained by applying global-local shrinkage priors to the successive differences of the row vectors of the factorized matrices. The proposed priors enjoy many favorable properties in comparison and clustering of the estimated dynamic latent factors. Comparing estimated latent factors involves both adjacent and long-term comparisons, with the time range of comparison considered as a variable. Under certain conditions, we demonstrate that the posterior distribution attains the minimax optimal rate up to logarithmic factors. In terms of computation, we present a structured mean-field vari
+    With the advent of artificial intelligence (AI) and machine learning (ML), various domains of science and engineering communites has leveraged data-driven surrogates to model complex systems from numerous sources of information (data). The proliferation has led to significant reduction in cost and time involved in development of superior systems designed to perform specific functionalities. A high proposition of such surrogates are built extensively fusing multiple sources of data, may it be published papers, patents, open repositories, or other resources. However, not much attention has been paid to the differences in quality and comprehensiveness of the known and unknown underlying physical parameters of the information sources that could have downstream implications during system optimization. Towards resolving this issue, a multi-source data fusion framework based on Latent Variable Gaussian Process (LVGP) is proposed. The individual data sources are tagged as a characteristic cate
+    
+[^6]: 具有干扰的多臂赌博机问题
+
+    Multi-Armed Bandits with Interference
+
+    [https://arxiv.org/abs/2402.01845](https://arxiv.org/abs/2402.01845)
+
+    这篇论文研究了在在线平台中与干扰进行的实验。在多臂赌博机问题中，学习者分配不同的臂给每个实验单元，根据单元之间的空间距离和对手选择的匹配函数来决定每个单元在每轮的回报。研究发现，转换政策能够实现最佳的预期遗憾，但任何转换政策都会遭受一定的遗憾现象。
+
+    
+
+    在当代在线平台上，与干扰进行实验是一个重大挑战。以往有关干扰实验的研究集中在政策的最终输出上，而对于累计性能则了解不足。为了填补这一空白，我们引入了“具有干扰的多臂赌博机”（MABI）问题，在时间段为T轮的情况下，学习者为N个实验单元中的每个分配一个臂。每个单元在每一轮的回报取决于“所有”单元的治疗方式，而单元之间的空间距离会导致单元的影响力逐渐衰减。此外，我们使用了一个通用设置，其中回报函数由对手选择，并且在轮次和单元之间可以任意变化。我们首先证明了转换政策能够对最佳固定臂政策实现最优的“预期”遗憾，遗憾值为$O(\sqrt T)$。然而，任何一个转换政策的遗憾（作为一个随机变量）都会遭受一定的遗憾现象。
+
+    Experimentation with interference poses a significant challenge in contemporary online platforms. Prior research on experimentation with interference has concentrated on the final output of a policy. The cumulative performance, while equally crucial, is less well understood. To address this gap, we introduce the problem of {\em Multi-armed Bandits with Interference} (MABI), where the learner assigns an arm to each of $N$ experimental units over a time horizon of $T$ rounds. The reward of each unit in each round depends on the treatments of {\em all} units, where the influence of a unit decays in the spatial distance between units. Furthermore, we employ a general setup wherein the reward functions are chosen by an adversary and may vary arbitrarily across rounds and units. We first show that switchback policies achieve an optimal {\em expected} regret $\tilde O(\sqrt T)$ against the best fixed-arm policy. Nonetheless, the regret (as a random variable) for any switchback policy suffers 
+    
+[^7]: 分布式(非)贝叶斯推断的频率保证
+
+    Frequentist Guarantees of Distributed (Non)-Bayesian Inference
+
+    [https://arxiv.org/abs/2311.08214](https://arxiv.org/abs/2311.08214)
+
+    本文针对通过通信网络连接的代理之间的分布式(非)贝叶斯推断问题建立了频率特性，探讨了在适当假设下分布式贝叶斯推断在参数效率和不确定性量化方面的表现，以及通信图设计和大小对后验收缩率的影响。
+
+    
+
+    受分析大型分散数据集的需求推动，分布式贝叶斯推断已成为跨多个领域（包括统计学、电气工程和经济学）的关键研究领域。本文针对通过通信网络连接的代理之间的分布式(非)贝叶斯推断问题建立了频率特性，如后验一致性、渐近正态性和后验收缩率。我们的结果表明，在通信图上的适当假设下，分布式贝叶斯推断保留了参数效率，同时在不确定性量化方面增强了鲁棒性。我们还通过研究设计和通信图的大小如何影响后验收缩率来探讨了统计效率和通信效率之间的权衡。此外，我们将我们的分析扩展到时变图，并将结果应用于指数f
+
+    arXiv:2311.08214v2 Announce Type: replace-cross  Abstract: Motivated by the need to analyze large, decentralized datasets, distributed Bayesian inference has become a critical research area across multiple fields, including statistics, electrical engineering, and economics. This paper establishes Frequentist properties, such as posterior consistency, asymptotic normality, and posterior contraction rates, for the distributed (non-)Bayes Inference problem among agents connected via a communication network. Our results show that, under appropriate assumptions on the communication graph, distributed Bayesian inference retains parametric efficiency while enhancing robustness in uncertainty quantification. We also explore the trade-off between statistical efficiency and communication efficiency by examining how the design and size of the communication graph impact the posterior contraction rate. Furthermore, We extend our analysis to time-varying graphs and apply our results to exponential f
+    
+[^8]: 梯度相似：敏感度经常被过高估计在DP-SGD中
+
+    Gradients Look Alike: Sensitivity is Often Overestimated in DP-SGD. (arXiv:2307.00310v1 [cs.LG])
+
+    [http://arxiv.org/abs/2307.00310](http://arxiv.org/abs/2307.00310)
+
+    本文开发了一种新的DP-SGD分析方法，可以在训练过程中对许多数据点的隐私泄漏进行更准确的评估。
+
+    
+
+    差分隐私随机梯度下降（DP-SGD）是私有深度学习的标准算法。虽然已知其隐私分析在最坏情况下是紧密的，但是一些实证结果表明，在常见的基准数据集上训练时，所得到的模型对许多数据点的隐私泄漏显著减少。在本文中，我们为DP-SGD开发了一种新的分析方法，捕捉到在数据集中具有相似邻居的点享受更好隐私性的直觉。形式上来说，这是通过修改从训练数据集计算得到的模型更新的每步隐私性分析来实现的。我们进一步开发了一个新的组合定理，以有效地利用这个新的每步分析来推理整个训练过程。总而言之，我们的评估结果表明，这种新颖的DP-SGD分析使我们能够正式地显示DP-SGD对许多数据点的隐私泄漏显著减少。
+
+    Differentially private stochastic gradient descent (DP-SGD) is the canonical algorithm for private deep learning. While it is known that its privacy analysis is tight in the worst-case, several empirical results suggest that when training on common benchmark datasets, the models obtained leak significantly less privacy for many datapoints. In this paper, we develop a new analysis for DP-SGD that captures the intuition that points with similar neighbors in the dataset enjoy better privacy than outliers. Formally, this is done by modifying the per-step privacy analysis of DP-SGD to introduce a dependence on the distribution of model updates computed from a training dataset. We further develop a new composition theorem to effectively use this new per-step analysis to reason about an entire training run. Put all together, our evaluation shows that this novel DP-SGD analysis allows us to now formally show that DP-SGD leaks significantly less privacy for many datapoints. In particular, we ob
+    
+[^9]: 使用反事实预测集设计决策支持系统
+
+    Designing Decision Support Systems Using Counterfactual Prediction Sets. (arXiv:2306.03928v1 [cs.LG])
+
+    [http://arxiv.org/abs/2306.03928](http://arxiv.org/abs/2306.03928)
+
+    本文提出了一种基于反事实预测集的决策支持系统设计方法，不同于传统的单一标签预测，它使用符合预测器构建预测集，并引导人类专家从中选择标签值。
+
+    
+
+    分类任务的决策支持系统通常被设计用于预测地面实况标签的值。然而，由于它们的预测并不完美，这些系统还需要让人类专家了解何时以及如何使用这些预测来更新自己的预测。不幸的是，这被证明是具有挑战性的。最近有人认为，另一种类型的决策支持系统可能会避开这个挑战。这些系统不是提供单个标签预测，而是使用符合预测器构建一组标签预测值，即预测集，并强制要求专家从预测集中预测一个标签值。然而，这些系统的设计和评估迄今仍依赖于样式化的专家模型，这引发了人们对它们的承诺的质疑。本文从在线学习的角度重新审视了这种系统的设计，并开发了一种不需要。
+
+    Decision support systems for classification tasks are predominantly designed to predict the value of the ground truth labels. However, since their predictions are not perfect, these systems also need to make human experts understand when and how to use these predictions to update their own predictions. Unfortunately, this has been proven challenging. In this context, it has been recently argued that an alternative type of decision support systems may circumvent this challenge. Rather than providing a single label prediction, these systems provide a set of label prediction values constructed using a conformal predictor, namely a prediction set, and forcefully ask experts to predict a label value from the prediction set. However, the design and evaluation of these systems have so far relied on stylized expert models, questioning their promise. In this paper, we revisit the design of this type of systems from the perspective of online learning and develop a methodology that does not requi
+    
+[^10]: 神经网络何时在表格数据上胜过增强树？
+
+    When Do Neural Nets Outperform Boosted Trees on Tabular Data?. (arXiv:2305.02997v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.02997](http://arxiv.org/abs/2305.02997)
+
+    这项研究通过对176个数据集的比较分析发现，在许多数据集中，GBDT和NN之间的性能差异可以忽略不计，或者GBDT的轻微超参数调整比选择最佳算法更重要。此外，研究人员对965个元特征进行了分析，发现GBDT在高维稀疏数据上表现更好。
+
+    
+
+    表格数据是机器学习中最常用的数据类型之一。尽管神经网络（NN）在表格数据上取得了最近的进展，但人们仍在积极讨论NN是否通常优于梯度提升决策树（GBDT）在表格数据上的表现，一些最近的工作要么认为GBDT在表格数据上一贯优于NN，要么认为NN优于GBDT。在这项工作中，我们退一步问：'这重要吗？'我们通过对176个数据集比较19种算法，进行了迄今为止最大的表格数据分析，并发现'NN vs. GBDT'争论被过分强调：令人惊讶的是，在相当多的数据集中，GBDT和NN之间的性能差异要么可以忽略不计，要么GBDT的轻微超参数调整比选择最佳算法更重要。接下来，我们分析了965个元特征，以确定数据集的哪些特性使NN或GBDT更适合表现良好。例如，我们发现GBDT要比NN在高维稀疏数据上表现更好。
+
+    Tabular data is one of the most commonly used types of data in machine learning. Despite recent advances in neural nets (NNs) for tabular data, there is still an active discussion on whether or not NNs generally outperform gradient-boosted decision trees (GBDTs) on tabular data, with several recent works arguing either that GBDTs consistently outperform NNs on tabular data, or vice versa. In this work, we take a step back and ask, 'does it matter?' We conduct the largest tabular data analysis to date, by comparing 19 algorithms across 176 datasets, and we find that the 'NN vs. GBDT' debate is overemphasized: for a surprisingly high number of datasets, either the performance difference between GBDTs and NNs is negligible, or light hyperparameter tuning on a GBDT is more important than selecting the best algorithm. Next, we analyze 965 metafeatures to determine what properties of a dataset make NNs or GBDTs better-suited to perform well. For example, we find that GBDTs are much better th
     
 
