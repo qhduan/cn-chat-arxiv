@@ -2,52 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Entangled vs. Separable Choice](https://arxiv.org/abs/2403.09045) | 这项研究探讨了描述两个决策者行为的联合概率选择规则，发现存在可以满足可分离限制但不可分离的纠缠选择规则，这一结果对规则的限制性质进行了深入探讨。 |
-| [^2] | [Hierarchical DCC-HEAVY Model for High-Dimensional Covariance Matrices.](http://arxiv.org/abs/2305.08488) | 本文提出了一种新的HD DCC-HEAVY类层次因子模型，用于高维收益的条件协方差矩阵，具有复杂的协方差非对称动力学并独立于资产的横截面维度。实证结果显示该模型相较于标准基准和已有的层次因子模型具有更好的内样拟合和统计经济意义上显著的外样增益。 |
-| [^3] | [New Solution based on Hodge Decomposition for Abstract Games.](http://arxiv.org/abs/2109.14539) | 本文提出了基于Hodge分解的抽象博弈新解决方案HPC，通过使用微分形式和Hodge分解等几何工具，克服了传统解决方案的弱点，并具备了中立性、强单调性、优势循环逆独立性和对互相优势的敏感性等特性。 |
+| [^1] | [Competing Mechanisms in Games Played Through Agents: Theory and Experiment](https://arxiv.org/abs/2403.03317) | 本文提出了通过代理人进行的竞争机制游戏（CMGPTA），并设计了实验来研究这一机制在实践中的表现。 |
+| [^2] | [Bundling Demand in K-12 Broadband Procurement](https://arxiv.org/abs/2402.07277) | 该研究评估了K-12学校在宽带互联网采购中通过捆绑需求的效果。研究发现，参与者的价格平均下降了三分之一，购买的宽带速度增加了六倍。参与学校节省的金额至少等于联邦政府的补贴金额。根据弱假设，参与学校获得了巨大的福利提升。 |
+| [^3] | [Startup Acquisitions: Acquihires and Talent Hoarding.](http://arxiv.org/abs/2308.10046) | 该论文提出了一个创业公司收购模型，指出收购会导致低效的 "人才囤积"。研究发现，即使没有竞争效应，收购也可能是垄断行为的结果，导致人才分配低效，并对消费者剩余和被收购员工的工作稳定性产生负面影响。 |
+| [^4] | [Faster estimation of dynamic discrete choice models using index sufficiency.](http://arxiv.org/abs/2304.02171) | 本文提出了一种利用指标充分性实现动态离散选择模型的快速估算器，通过限制参数空间并降低计算量，达到了快速估算的效果，估算结果与高计算量估算器的渐近效果等价。在模型中，我们使用了等式约束，并提供了关于子空间维度的一系列结果。在英国快餐市场的实证应用中，我们证明了该方法的优越性。 |
 
 # 详细
 
-[^1]: 纠缠vs.可分离选择
+[^1]: 在代理人进行游戏时的竞争机制：理论与实验
 
-    Entangled vs. Separable Choice
+    Competing Mechanisms in Games Played Through Agents: Theory and Experiment
 
-    [https://arxiv.org/abs/2403.09045](https://arxiv.org/abs/2403.09045)
+    [https://arxiv.org/abs/2403.03317](https://arxiv.org/abs/2403.03317)
 
-    这项研究探讨了描述两个决策者行为的联合概率选择规则，发现存在可以满足可分离限制但不可分离的纠缠选择规则，这一结果对规则的限制性质进行了深入探讨。
-
-    
-
-    我们研究了描述两个决策者行为的联合概率选择规则，每个决策者面临可能不同的菜单。当这些选择规则可以分解为每个个体的自主选择，仅通过它们的个体概率选择规则相关联时，它们是可分离的。尽管最近对研究这种规则很感兴趣，但对它们的限制的完整刻画仍然是一个未解的问题。一个合理的猜想是，这种对可分离联合选择的限制可以分解成个人选择的限制。我们将这些限制命名为可分离的，并且证明了如果至少一个决策者的概率选择规则唯一地确定了对确定性选择规则的分布，则该猜想成立。否则，存在满足可分离限制但不可分离的纠缠选择规则。纠缠选择的可能性使得其特征化变得复杂。
-
-    arXiv:2403.09045v1 Announce Type: new  Abstract: We study joint probabilistic choice rules that describe the behavior of two decision makers, each facing a possibly different menu. These choice rules are separable when they can be factored into autonomous choices from each individual solely correlated through their individual probabilistic choice rules. Despite recent interest in studying such rules, a complete characterization of the restrictions on them remains an open question. A reasonable conjecture is that such restrictions on separable joint choice can be factored into individual choice restrictions. We name these restrictions separable and show that this conjecture is true if and only if the probabilistic choice rule of at least one decision maker uniquely identifies the distribution over deterministic choice rules. Otherwise, entangled choice rules exist that satisfy separable restrictions yet are not separable. The possibility of entangled choice complicates the characterizat
-    
-[^2]: 高维协方差矩阵的分层DCC-HEAVY模型
-
-    Hierarchical DCC-HEAVY Model for High-Dimensional Covariance Matrices. (arXiv:2305.08488v1 [econ.EM])
-
-    [http://arxiv.org/abs/2305.08488](http://arxiv.org/abs/2305.08488)
-
-    本文提出了一种新的HD DCC-HEAVY类层次因子模型，用于高维收益的条件协方差矩阵，具有复杂的协方差非对称动力学并独立于资产的横截面维度。实证结果显示该模型相较于标准基准和已有的层次因子模型具有更好的内样拟合和统计经济意义上显著的外样增益。
+    本文提出了通过代理人进行的竞争机制游戏（CMGPTA），并设计了实验来研究这一机制在实践中的表现。
 
     
 
-    我们引入了一种新的HD DCC-HEAVY类层次因子模型，用于高维收益的条件协方差矩阵，采用相应的来自更高频数据的实现度量。该建模方法具有复杂的协方差非对称动力学以及简单的估计和预测方案，独立于所考虑的资产的横截面维度。实证分析表明，HD DCC-HEAVY模型具有更好的内样拟合，并相对于标准基准和现有的层次因子模型提供了统计和经济意义上显著的外样增益。在不同市场条件下，结果是稳健的。
+    本文提出了通过代理人进行的竞争机制游戏（CMGPTA），这是GPTA（Prat和Rustichini（2003））的延伸，其中委托人可以提供任意规定了对每个代理人的转移时间表的机制，前提是所有代理人的消息。我们利用离径处的偏差者报告机制（DRMs）和单一的转移时间表来确定均衡分配。我们设计了一个实验室实验来实施DRMs。我们观察到，实施的结果更经常是有效的，而不是随机的。大部分时间，代理人确实会告诉一个偏离的委托人的身份，尽管在虚报上进行（心照不宣的）共谋可能有利可图。随着游戏的进行，代理人学会了如何与他们的对手代理人进行交易，跨组的虚报共谋的平均预测概率从实验开始时的约9%增加到实验结束时几乎达到20%。
 
-    We introduce a new HD DCC-HEAVY class of hierarchical-type factor models for conditional covariance matrices of high-dimensional returns, employing the corresponding realized measures built from higher-frequency data. The modelling approach features sophisticated asymmetric dynamics in covariances coupled with straightforward estimation and forecasting schemes, independent of the cross-sectional dimension of the assets under consideration. Empirical analyses suggest the HD DCC-HEAVY models have a better in-sample fit, and deliver statistically and economically significant out-of-sample gains relative to the standard benchmarks and existing hierarchical factor models. The results are robust under different market conditions.
+    arXiv:2403.03317v1 Announce Type: new  Abstract: This paper proposes Competing Mechanism Games Played Through Agent (CMGPTA), an extension of the GPTA (Prat and Rustichini (2003)), where a Principal can offer any arbitrary mechanism that specifies a transfer schedule for each agent conditional on all Agents' messages. We identify the set of equilibrium allocations using deviator-reporting mechanisms (DRMs) on the path and single transfer schedules off the path. We design a lab experiment implementing DRMs. We observe that implemented outcomes are efficient more often than random. A majority of the time, Agents do tell the truth on the identity of a deviating Principal, despite potential gains from (tacit) collusion on false reports. As play progresses, Agents learn to play with their counterparty Agent with the average predicted probability of collusion on false reports across groups increasing from about 9% at the beginning of the experiment to just under 20% by the end. However, grou
     
-[^3]: 基于Hodge分解的抽象博弈新解决方案
+[^2]: K-12宽带采购中的需求捆绑效应
 
-    New Solution based on Hodge Decomposition for Abstract Games. (arXiv:2109.14539v4 [econ.TH] UPDATED)
+    Bundling Demand in K-12 Broadband Procurement
 
-    [http://arxiv.org/abs/2109.14539](http://arxiv.org/abs/2109.14539)
+    [https://arxiv.org/abs/2402.07277](https://arxiv.org/abs/2402.07277)
 
-    本文提出了基于Hodge分解的抽象博弈新解决方案HPC，通过使用微分形式和Hodge分解等几何工具，克服了传统解决方案的弱点，并具备了中立性、强单调性、优势循环逆独立性和对互相优势的敏感性等特性。
+    该研究评估了K-12学校在宽带互联网采购中通过捆绑需求的效果。研究发现，参与者的价格平均下降了三分之一，购买的宽带速度增加了六倍。参与学校节省的金额至少等于联邦政府的补贴金额。根据弱假设，参与学校获得了巨大的福利提升。
 
     
 
-    本文提出了Hodge潜力选择（HPC），一种针对具有非自反优势关系的抽象博弈的新解决方案。该解决方案利用微分形式和Hodge分解等几何工具对抽象博弈进行了建模。我们提供了一个可行的算法，以及一种新的抽象博弈数据结构。从博弈的角度来看，HPC克服了传统解决方案的一些弱点。在完全情况下，HPC与Copeland选择一致，并且可以扩展到解决具有边际优势的博弈。我们证明了Hodge潜力选择具备中立性、强单调性、优势循环逆独立性和对互相优势的敏感性等三个普遍的公理特性。为了将HPC与Copeland选择在大样本的博弈中进行比较，我们设计了使用不同规模和完整性的随机生成的抽象博弈的数值实验。实验结果展示了HPC在统计方面的优势。
+    我们评估了K-12学校通过捆绑需求获得宽带互联网的效果。2014年，新泽西州从分散的采购方式转变为将学校分为四个区域组合的新采购系统。采用事件研究方法，我们发现参与者的价格平均下降了三分之一，购买的宽带速度增加了六倍。我们对该计划导致的学校支出变化进行了界定，发现参与者节省的金额至少等于他们从联邦政府获得的"E-rate"补贴总额。在对需求进行弱假设的情况下，我们表明参与学校获得了巨大的福利提升。
 
-    This paper proposes Hodge Potential Choice (HPC), a new solution for abstract games with irreflexive dominance relations. This solution is formulated by involving geometric tools like differential forms and Hodge decomposition onto abstract games. We provide a workable algorithm for the proposed solution with a new data structure of abstract games. From the view of gaming, HPC overcomes several weaknesses of conventional solutions. HPC coincides with Copeland Choice in complete cases and can be extended to slove games with marginal strengths. It will be proven that the Hodge potential choice possesses three prevalent axiomatic properties: neutrality, strong monotonicity, dominance cycle s reversing independence, and sensitivity to mutual dominance. To compare the HPC with Copeland Choice in large samples of games, we design digital experiments with randomly generated abstract games with different sizes and completeness. The experimental results present the advantage of HPC in the stati
+    We evaluate the effects of bundling demand for broadband internet by K-12 schools. In 2014, New Jersey switched from decentralized procurements to a new procurement system that bundled schools into four regional groups. Using an event study approach, we find that, on average, prices for participants decreased by one-third, and broadband speed purchased increased sixfold. We bound the change in school expenditures due to the program and find that participants saved at least as much as their total "E-rate" subsidy from the federal government. Under weak assumptions on demand, we show that participating schools experienced large welfare gains.
+    
+[^3]: 创业公司收购：人才抢购和人才囤积
+
+    Startup Acquisitions: Acquihires and Talent Hoarding. (arXiv:2308.10046v1 [econ.GN])
+
+    [http://arxiv.org/abs/2308.10046](http://arxiv.org/abs/2308.10046)
+
+    该论文提出了一个创业公司收购模型，指出收购会导致低效的 "人才囤积"。研究发现，即使没有竞争效应，收购也可能是垄断行为的结果，导致人才分配低效，并对消费者剩余和被收购员工的工作稳定性产生负面影响。
+
+    
+
+    我们提出了一个创业公司收购模型，可能导致低效的 "人才囤积"。我们开发了一个有两个竞争公司的模型，这些公司可以收购和整合一个在不同领域运营的创业公司，这种收购改善了收购公司的竞争力。我们表明，即使没有经典的竞争效应，这种收购也可能不是良性的，而是垄断行为的结果，导致人才分配低效。此外，我们还表明，这种人才囤积可能会降低消费者剩余，并导致被收购员工的工作不稳定性增加。
+
+    We present a model of startup acquisitions, which may give rise to inefficient "talent hoarding." We develop a model with two competing firms that can acquire and integrate (or "acquihire") a startup operating in an orthogonal market. Such an acquihire improves the competitiveness of the acquiring firm. We show that even absent the classical competition effects, acquihires need not be benign but can be the result of oligopolistic behavior, leading to an inefficient allocation of talent. Further, we show that such talent hoarding may reduce consumer surplus and lead to more job volatility for acquihired employees.
+    
+[^4]: 利用指标充分性实现动态离散选择模型的快速估算
+
+    Faster estimation of dynamic discrete choice models using index sufficiency. (arXiv:2304.02171v1 [econ.EM])
+
+    [http://arxiv.org/abs/2304.02171](http://arxiv.org/abs/2304.02171)
+
+    本文提出了一种利用指标充分性实现动态离散选择模型的快速估算器，通过限制参数空间并降低计算量，达到了快速估算的效果，估算结果与高计算量估算器的渐近效果等价。在模型中，我们使用了等式约束，并提供了关于子空间维度的一系列结果。在英国快餐市场的实证应用中，我们证明了该方法的优越性。
+
+    
+
+    许多具有理想统计性质的动态离散选择模型估算器可能需要大量计算。本文提出了一种方法，通过利用指标充分性，在限制参数空间并降低计算量的情况下，快速估算一类广泛的动态离散选择问题。我们提出了一个估算器，该估算器使用等式约束，并显示它渐近等效于无约束的高计算量估算器。由于我们提议估算器的计算收益是由限制参数空间至满足等式约束的子空间所致，因此我们提供了一系列关于这个子空间维度的结果。最后，我们通过估算英国快餐市场的动态模型来展示我们方法的优势。
+
+    Many estimators of dynamic discrete choice models with permanent unobserved heterogeneity have desirable statistical properties but may be computationally intensive. In this paper we propose a method to quicken estimation for a broad class of dynamic discrete choice problems by exploiting index sufficiency. Index sufficiency implies a set of equality constraints which restrict the structural parameter of interest to belong in a subspace of the parameter space. We propose an estimator that uses the equality constraints, and show it is asymptotically equivalent to the unconstrained, computationally heavy estimator. Since the computational gains of our proposed estimator are due to the restriction of the parameter space to the subspace satisfying the equality constraints, we provide a series of results on the dimension of this subspace. Finally, we demonstrate the advantages of our approach by estimating a dynamic model of the U.K. fast food market.
     
 
