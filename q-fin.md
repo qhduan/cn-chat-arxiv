@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [On non-negative solutions of stochastic Volterra equations with jumps and non-Lipschitz coefficients](https://arxiv.org/abs/2402.19203) | 该论文研究了具有跳跃和非Lipschitz系数的随机Volterra方程的非负解的强存在和路径唯一性条件，并将结果应用于Lévy驱动的随机Volterra方程，尤其在数学金融中定义了alpha-稳定Cox-Ingersoll-Ross过程的Volterra扩展。 |
-| [^2] | [The Arrival of Fast Internet and Employment in Africa: Comment.](http://arxiv.org/abs/2401.13694) | 研究作者通过差异分析自然实验发现，非洲海底互联网电缆的到来对个人和企业级就业以及夜间光照排放产生了正面影响，但这些影响主要由于地理编码错误、卫星更换引起的间断以及对待疗区的定义不准确等原因而产生。 |
+| [^1] | [Understanding the least well-kept secret of high-frequency trading.](http://arxiv.org/abs/2307.15599) | 本研究通过分析市场做市商问题，揭示了交易量不平衡与价格走势的细微关系，结果表明，报价预测性交易量不平衡是最优的。 |
+| [^2] | [Testing Forecast Rationality for Measures of Central Tendency.](http://arxiv.org/abs/1910.12545) | 本文测试了经济调查中用于预测的中心趋势度量的合理性，发现对称分布情况下的识别问题并提出了新型合理性检验。在应用到纽约联邦储备银行的调查中，发现收入预测可以作为众数预测合理化，但不可作为均值或中位数预测合理化，且在不同样本分层下存在异质性。 |
 
 # 详细
 
-[^1]: 关于具有跳跃和非Lipschitz系数的随机Volterra方程的非负解
+[^1]: 理解高频交易中最不为人知的秘密
 
-    On non-negative solutions of stochastic Volterra equations with jumps and non-Lipschitz coefficients
+    Understanding the least well-kept secret of high-frequency trading. (arXiv:2307.15599v1 [q-fin.TR])
 
-    [https://arxiv.org/abs/2402.19203](https://arxiv.org/abs/2402.19203)
+    [http://arxiv.org/abs/2307.15599](http://arxiv.org/abs/2307.15599)
 
-    该论文研究了具有跳跃和非Lipschitz系数的随机Volterra方程的非负解的强存在和路径唯一性条件，并将结果应用于Lévy驱动的随机Volterra方程，尤其在数学金融中定义了alpha-稳定Cox-Ingersoll-Ross过程的Volterra扩展。
-
-    
-
-    我们考虑具有跳跃的一维随机Volterra方程，在其中我们建立了关于卷积核和系数的条件，从而确立了非负连续增函数解的强存在性和路径唯一性。通过利用最近在arXiv:2302.07758中开发的方法，我们展示了通过使用方程的非负逼近来实现强存在性，其收敛性是通过Yamada-Watanabe逼近技术的变体证明的。我们将结果应用于Lévy驱动的随机Volterra方程。特别地，我们能够定义所谓的alpha-稳定Cox-Ingersoll-Ross过程的Volterra扩展，这在数学金融中特别有应用。
-
-    arXiv:2402.19203v1 Announce Type: cross  Abstract: We consider one-dimensional stochastic Volterra equations with jumps for which we establish conditions upon the convolution kernel and coefficients for the strong existence and pathwise uniqueness of a non-negative c\`adl\`ag solution. By using the approach recently developed in arXiv:2302.07758, we show the strong existence by using a nonnegative approximation of the equation whose convergence is proved via a variant of the Yamada--Watanabe approximation technique. We apply our results to L\'evy-driven stochastic Volterra equations. In particular, we are able to define a Volterra extension of the so-called alpha-stable Cox--Ingersoll--Ross process, which is especially used for applications in Mathematical Finance.
-    
-[^2]: 快速互联网的到来与非洲就业：评论
-
-    The Arrival of Fast Internet and Employment in Africa: Comment. (arXiv:2401.13694v1 [econ.GN])
-
-    [http://arxiv.org/abs/2401.13694](http://arxiv.org/abs/2401.13694)
-
-    研究作者通过差异分析自然实验发现，非洲海底互联网电缆的到来对个人和企业级就业以及夜间光照排放产生了正面影响，但这些影响主要由于地理编码错误、卫星更换引起的间断以及对待疗区的定义不准确等原因而产生。
+    本研究通过分析市场做市商问题，揭示了交易量不平衡与价格走势的细微关系，结果表明，报价预测性交易量不平衡是最优的。
 
     
 
-    Hjort和Poulsen（2019）将公元2010年前后非洲海岸上的海底互联网电缆的错位到达作为一种差异分析自然实验，研究了宽带接入对个人和企业级就业以及夜间光照排放的正面影响。本论文发现这些结果主要由于地理编码错误、2009年底卫星更换引起的间断以及一个对待疗区的定义不清晰的技术基础、比几乎所有数据来源的空间分辨率窄，且对宽带可用性地理分布的代表性较弱。
+    在限价订单簿中，交易量不平衡经常被认为是预测未来价格走势的可靠指标。本研究旨在分析价格与交易量不平衡之间的关系细微差别。为此，我们研究了一个市场做市商问题，通过该问题可以将交易量不平衡视为对价格走势的最优响应。在我们的模型中，存在一个驱动中间价格的基准价格，它遵循具有不确定区间的模型。一个市场做市商了解基准价格以及未来中间价格跳动的概率。她控制她在最佳买入和卖出价格报价的交易量。解决她的优化问题让我们能够内生地理解价格-交易量不平衡的关系，并确认特别是报价预测性交易量不平衡是最优的。市场做市商控制问题的价值函数可以被视为一组函数，以市场做市商的库存水平为索引。
 
-    Hjort and Poulsen (2019) frames the staggered arrival of submarine Internet cables on the shores of Africa circa 2010 as a difference-in-differences natural experiment in broadband access. The paper finds positive impacts on individual- and firm-level employment and nighttime light emissions. These results are largely ascribable to geocoding errors; to discontinuities from a satellite changeover at end-2009; and to a definition of the treated zone that has unclear technological basis, is narrower than the spatial resolution of nearly all the data sources, and is weakly representative of the geography of broadband availability.
+    Volume imbalance in a limit order book is often considered as a reliable indicator for predicting future price moves. In this work, we seek to analyse the nuances of the relationship between prices and volume imbalance. To this end, we study a market-making problem which allows us to view the imbalance as an optimal response to price moves. In our model, there is an underlying efficient price driving the mid-price, which follows the model with uncertainty zones. A single market maker knows the underlying efficient price and consequently the probability of a mid-price jump in the future. She controls the volumes she quotes at the best bid and ask prices. Solving her optimization problem allows us to understand endogenously the price-imbalance connection and to confirm in particular that it is optimal to quote a predictive imbalance. The value function of the market maker's control problem can be viewed as a family of functions, indexed by the level of the market maker's inventory, solvi
+    
+[^2]: 对中心趋势度量的预测合理性进行测试
+
+    Testing Forecast Rationality for Measures of Central Tendency. (arXiv:1910.12545v4 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/1910.12545](http://arxiv.org/abs/1910.12545)
+
+    本文测试了经济调查中用于预测的中心趋势度量的合理性，发现对称分布情况下的识别问题并提出了新型合理性检验。在应用到纽约联邦储备银行的调查中，发现收入预测可以作为众数预测合理化，但不可作为均值或中位数预测合理化，且在不同样本分层下存在异质性。
+
+    
+
+    经济调查的合理受访者可能会报告任何中心趋势度量（例如均值、中位数、众数或任何凸组合）作为点预测。本文提出了一种在受访者使用的中心趋势度量未知时的预测合理性测试方法。我们克服了当中心趋势度量相等或位于彼此的局部邻域内时（对于（几乎）对称的分布情况），出现的识别问题。作为构建块，我们还提出了对众数预测的新型合理性检验。我们将测试应用于纽约联邦储备银行的消费者预期调查中的收入预测。我们发现这些预测可以作为众数预测合理化，但不可以作为均值或中位数预测合理化。我们还发现在样本分层中，受访者使用的中心度量存在收入、年龄、工作稳定性和过去就业状态的异质性。
+
+    Rational respondents to economic surveys may report as a point forecast any measure of the central tendency of their (possibly latent) predictive distribution, for example the mean, median, mode, or any convex combination thereof. We propose tests of forecast rationality when the measure of central tendency used by the respondent is unknown. We overcome an identification problem that arises when the measures of central tendency are equal or in a local neighborhood of each other, as is the case for (exactly or nearly) symmetric distributions. As a building block, we also present novel tests for the rationality of mode forecasts. We apply our tests to income forecasts from the Federal Reserve Bank of New York's Survey of Consumer Expectations. We find these forecasts are rationalizable as mode forecasts, but not as mean or median forecasts. We also find heterogeneity in the measure of centrality used by respondents when stratifying the sample by past income, age, job stability, and past 
     
 
