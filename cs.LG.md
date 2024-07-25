@@ -2,547 +2,547 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Solving a Real-World Optimization Problem Using Proximal Policy Optimization with Curriculum Learning and Reward Engineering](https://arxiv.org/abs/2404.02577) | 使用课程学习和奖励工程的近端策略优化来解决实际问题。 |
-| [^2] | [SyllabusQA: A Course Logistics Question Answering Dataset](https://arxiv.org/abs/2403.14666) | SyllabusQA数据集是一个包含63个真实课程大纲的开源数据集，对36个专业涵盖5,078对多样化的开放式课程逻辑相关问题-答案对进行了详细收集，旨在评估答案事实性，多个强基线模型在该任务上表现出色，但仍存在与人类之间的显著差距。 |
-| [^3] | [Graph Neural Networks for Learning Equivariant Representations of Neural Networks](https://arxiv.org/abs/2403.12143) | 本研究提出了将神经网络表示为参数的计算图的方法，利用图神经网络和变压器来实现置换对称性，使得单个模型能够处理具有多种架构的神经计算图。 |
-| [^4] | [Unsupervised End-to-End Training with a Self-Defined Bio-Inspired Target](https://arxiv.org/abs/2403.12116) | 本研究提出了一种使用Winner-Take-All（WTA）选择性和生物启发的稳态机制相结合的“自定义目标”方法，旨在解决无监督学习方法在边缘AI硬件上的计算资源稀缺性问题。 |
-| [^5] | [Interpretable Machine Learning for TabPFN](https://arxiv.org/abs/2403.10923) | TabPFN模型在低数据情况下实现了良好的分类性能，并能够以秒级速度生成后验预测分布，我们提出了几种专为TabPFN设计的可解释性方法的改进，实现了更高效的计算。 |
-| [^6] | [WorkArena: How Capable Are Web Agents at Solving Common Knowledge Work Tasks?](https://arxiv.org/abs/2403.07718) | 该研究探究了基于大型语言模型的代理在通过web浏览器与软件交互时的能力，提出了WorkArena和BrowserGym两个工具，在29个任务的基准测试中显示出潜力，但也揭示了实现完全任务自动化仍存在挑战。 |
-| [^7] | [Smooth Tchebycheff Scalarization for Multi-Objective Optimization](https://arxiv.org/abs/2402.19078) | 通过光滑 Tchebycheff 标量化方法，本文提出了一种轻量级的方法，用于梯度型多目标优化，具有更低的计算复杂性但仍能找到所有帕累托解。 |
-| [^8] | [Minimax Optimality of Score-based Diffusion Models: Beyond the Density Lower Bound Assumptions](https://arxiv.org/abs/2402.15602) | 该研究展示了基于分数的扩散模型的采样具有极小均方误差，可以获得扩散模型生成样本的总变差误差的上界，这突破了仅做次高斯假设的限制。 |
-| [^9] | [GenCeption: Evaluate Multimodal LLMs with Unlabeled Unimodal Data](https://arxiv.org/abs/2402.14973) | 提出了一种名为GenCeption的新型MLLM评估框架，可以仅利用单模态数据评估跨模态语义一致性，并有效反映模型产生幻觉的倾向，具有较强的相关性和潜力于流行的MLLM基准结果。 |
-| [^10] | [Automated Security Response through Online Learning with Adaptive Conjectures](https://arxiv.org/abs/2402.12499) | 该论文通过自适应猜想的在线学习，提出了一种适用于IT基础设施的自动化安全响应方法，其中游戏参与者通过Bayesian学习调整猜想，并通过推演更新策略，最终实现了最佳拟合，提高了推演在猜想模型下的性能。 |
-| [^11] | [RanDumb: A Simple Approach that Questions the Efficacy of Continual Representation Learning](https://arxiv.org/abs/2402.08823) | RanDumb是一种简单的方法，通过固定的随机变换嵌入原始像素并学习简单的线性分类器，质疑了持续表示学习的效果。 实验结果显示，RanDumb在众多持续学习基准测试中明显优于使用深度网络进行持续学习的表示学习。 |
-| [^12] | [Synergizing Spatial Optimization with Large Language Models for Open-Domain Urban Itinerary Planning](https://arxiv.org/abs/2402.07204) | 本文提出了Open-domain Urban Itinerary Planning (OUIP)任务，用于根据用户以自然语言描述的请求直接生成行程，通过结合空间优化和大型语言模型(LLM)，提供个性化的城市行程定制服务。 |
-| [^13] | [No Dimensional Sampling Coresets for Classification](https://arxiv.org/abs/2402.05280) | 本文通过敏感性抽样框架提出了无维度的核心子集用于分类问题，该子集的大小与维度无关，并适用于各种损失函数和分布输入。 |
-| [^14] | [Rendering Wireless Environments Useful for Gradient Estimators: A Zero-Order Stochastic Federated Learning Method](https://arxiv.org/abs/2401.17460) | 提出了一种新颖的零阶随机联邦学习方法，通过利用无线通信通道的特性，在学习算法中考虑了无线通道，避免了资源的浪费和分析难度。 |
-| [^15] | [Gaussian Splashing: Dynamic Fluid Synthesis with Gaussian Splatting.](http://arxiv.org/abs/2401.15318) | 高斯喷溅技术相结合物理基础动画和3D高斯喷溅，可以在虚拟场景中创造出无可比拟的效果，同时实现渲染、视图合成以及固体和流体的动态管理和交互。 |
-| [^16] | [Tweets to Citations: Unveiling the Impact of Social Media Influencers on AI Research Visibility.](http://arxiv.org/abs/2401.13782) | 本文研究了社交媒体影响者在提高机器学习研究的可见性方面的作用，发现被这些影响者认可的论文引用次数显著增加，中位数引用次数比对照组高2-3倍。此外，该研究还探讨了被展示作者的地理、性别和机构多样性。 |
-| [^17] | [An exploratory study on automatic identification of assumptions in the development of deep learning frameworks.](http://arxiv.org/abs/2401.03653) | 本研究以构建一个新的最大假设数据集为基础，针对深度学习框架开发中手动识别假设的问题进行了探索性研究。在该研究中，我们发现手动识别假设的成本高，因此探讨了使用传统机器学习模型和流行的深度学习模型来识别假设的性能。 |
-| [^18] | [AI Control: Improving Safety Despite Intentional Subversion.](http://arxiv.org/abs/2312.06942) | 本研究针对大型语言模型的安全问题，探索了一系列旨在确保安全性的技术流程，能够对抗模型有意破坏的情况，为解决编程问题提供了可靠的解决方案。 |
-| [^19] | [ConvNet vs Transformer, Supervised vs CLIP: Beyond ImageNet Accuracy.](http://arxiv.org/abs/2311.09215) | ConvNet和Transformer架构在监督和CLIP训练下，超越了ImageNet准确率的对比分析中发现它们在错误类型、输出校准、可转移性和特征的不变性等方面存在差异，突出了需要更加细致分析的必要性。 |
-| [^20] | [Removing Spurious Concepts from Neural Network Representations via Joint Subspace Estimation.](http://arxiv.org/abs/2310.11991) | 该论文提出了一种通过联合子空间估计从神经网络表示中消除错误概念的迭代算法，并在计算机视觉和自然语言处理的基准数据集上展示了其优越性能。 |
-| [^21] | [Defending Our Privacy With Backdoors.](http://arxiv.org/abs/2310.08320) | 本研究提出了一种基于后门攻击的防御方法，通过对模型进行策略性插入后门，对齐敏感短语与中性术语的嵌入，以删除训练数据中的私人信息。实证结果显示该方法的有效性。 |
-| [^22] | [Leveraging Self-Consistency for Data-Efficient Amortized Bayesian Inference.](http://arxiv.org/abs/2310.04395) | 该论文提出了一种利用自一致性改进数据有效的摊余贝叶斯推理方法，通过反转贝叶斯定理并利用近似表示的联合模型估计边际似然，加速条件神经密度估计器的学习动力学。 |
-| [^23] | [Era Splitting.](http://arxiv.org/abs/2309.14496) | 本研究提出了两种新的分裂准则，使得决策树模型能够利用时代信息进行优化，从而将超分布泛化研究中的思想应用于决策树模型。 |
-| [^24] | [A Semi-Supervised Approach for Power System Event Identification.](http://arxiv.org/abs/2309.10095) | 提出了一种新颖的半监督框架，通过加入无标签的事件样本来评估提升现有事件识别方法的有效性。 |
-| [^25] | [Constrained Stein Variational Trajectory Optimization.](http://arxiv.org/abs/2308.12110) | CSVTO是一种受限斯坦变分轨迹优化算法，它通过斯坦变分梯度下降方法生成多样的约束满足轨迹集合，提高了在具有任意约束的问题中的优化性能和鲁棒性。 |
-| [^26] | [FedPop: Federated Population-based Hyperparameter Tuning.](http://arxiv.org/abs/2308.08634) | FedPop是一种用于解决联邦学习中超参数调优问题的新算法，它采用基于人口的进化算法来优化客户端和服务器上的超参数。 |
-| [^27] | [A data-centric deep learning approach to airway segmentation.](http://arxiv.org/abs/2308.00008) | 我们提出了一种基于数据的深度学习技术来进行气道分割，通过插值和图像分割提高数据质量，采用集成学习策略在多个尺度上聚合气道树，性能优于基线模型，适用于任何2D深度学习模型。 |
-| [^28] | [Efficient Semi-Supervised Federated Learning for Heterogeneous Participants.](http://arxiv.org/abs/2307.15870) | 本论文提出了一种高效的半监督异构参与者联邦学习系统，通过引入聚类正则化来改进模型在数据非独立同分布情况下的性能，并对模型收敛性进行了理论和实验研究。 |
-| [^29] | [Batched Predictors Generalize within Distribution.](http://arxiv.org/abs/2307.09379) | 批量预测器提供了指数级更强的泛化保证，可应用于离线测试前化合物质量的预测任务。 |
-| [^30] | [Sharp Convergence Rates for Matching Pursuit.](http://arxiv.org/abs/2307.07679) | 本文通过提升现有的下界来匹配最佳上界，对匹配追踪的性能进行了精确描述，并构造了一个最坏情况的字典来证明现有上界的无法改进。 |
-| [^31] | [Recurrent Memory Decision Transformer.](http://arxiv.org/abs/2306.09459) | 本文提出了循环记忆决策变压器（RMDT）模型，用于处理强化学习中的长序列问题。在Atari游戏和MoJoCo控制问题上的实验表明，采用循环记忆机制的RMDT模型显着优于其没有循环记忆机制的对应模型。 |
-| [^32] | [Machine Learning Based Missing Values Imputation in Categorical Datasets.](http://arxiv.org/abs/2306.06338) | 本文研究了使用机器学习算法预测和插补分类数据集中的缺失值，使用ECOC框架的集成模型相比于单个模型效果更好，但使用深度学习存在挑战和局限性。 |
-| [^33] | [Unsupervised anomaly localization in high-resolution breast scans using deep pluralistic image completion.](http://arxiv.org/abs/2305.03098) | 本文提出了一种利用深度多元图像完成方法进行乳腺扫描异常定位的无监督方法，该方法通过探索完成的多元性来提高评估标准的精度。 |
-| [^34] | [Counterfactual Learning on Graphs: A Survey.](http://arxiv.org/abs/2304.01391) | 本文综述了图上反事实学习的研究进展，包括反事实公平性、可解释性、链路预测等不同应用问题，并提出了未来的研究方向。 |
-| [^35] | [Laplacian Segmentation Networks: Improved Epistemic Uncertainty from Spatial Aleatoric Uncertainty.](http://arxiv.org/abs/2303.13123) | 所提出的拉普拉斯分割网络可同时捕获图像分割中的认知和随机不确定性，成功将高认知不确定性分配到OOF目标中。 |
-| [^36] | [First-order ANIL learns linear representations despite misspecified latent dimension.](http://arxiv.org/abs/2303.01335) | 本研究表明，在存在架构误指定的情况下，初阶ANIL可以成功学习到线性的共享表示。这个结果是基于对无限数量任务的极限情况下的推导。 |
+| [^1] | [A Survey on Hypergraph Neural Networks: An In-Depth and Step-By-Step Guide](https://arxiv.org/abs/2404.01039) | 该研究是第一份致力于超图神经网络的调查报告，深入介绍了HNN架构、训练策略和应用，为从事数据挖掘和机器学习的研究人员提供了重要的指导。 |
+| [^2] | [MambaMixer: Efficient Selective State Space Models with Dual Token and Channel Selection](https://arxiv.org/abs/2403.19888) | MambaMixer是一种新的架构，提出了具有数据依赖权重的双重选择机制，称为选择性标记和通道混合器，对长序列建模具有潜在优势。 |
+| [^3] | [The Elements of Differentiable Programming](https://arxiv.org/abs/2403.14606) | 可微分编程是一个新的编程范式，使得复杂程序能够端对端地进行微分，实现基于梯度的参数优化。 |
+| [^4] | [A Unified Framework for Model Editing](https://arxiv.org/abs/2403.14236) | 这个统一框架结合了“定位和编辑”模型编辑技术，最大化保留某些向量表示并记忆新事实信息。 |
+| [^5] | [RigorLLM: Resilient Guardrails for Large Language Models against Undesired Content](https://arxiv.org/abs/2403.13031) | RigorLLM提出了一种新颖的框架，旨在高效有效地调节LLMs的有害和不安全输入和输出，包括能量数据增强、最小-最大优化安全输入后缀，以及基于数据增强的鲁棒KNN与LLMs融合模型。 |
+| [^6] | [MELTing point: Mobile Evaluation of Language Transformers](https://arxiv.org/abs/2403.12844) | 该研究对移动设备上大型语言模型（LLMs）的执行进行了首次系统性研究，并创建了自动化基础架构MELT来支持其评估和性能测试。 |
+| [^7] | [Dissecting Language Models: Machine Unlearning via Selective Pruning](https://arxiv.org/abs/2403.01267) | 介绍了一种针对大型语言模型的机器去学习方法，通过选择性修剪神经元来实现去学习，发现LLMs中的神经元在特定任务中具有不同的重要性。 |
+| [^8] | [A Library of Mirrors: Deep Neural Nets in Low Dimensions are Convex Lasso Models with Reflection Features](https://arxiv.org/abs/2403.01046) | 证明在1-D数据上训练神经网络等价于解决一个具有固定特征字典矩阵的凸Lasso问题，为全局最优网络和解空间提供了洞察。 |
+| [^9] | [Supervised machine learning for microbiomics: bridging the gap between current and best practices](https://arxiv.org/abs/2402.17621) | 该研究通过分析大量期刊文章，总结了监督机器学习在微生物组学中的现有实践，探讨了实验设计方法的优缺点，并提出了如何避免常见实验设计缺陷的指导。 |
+| [^10] | [Efficient Unbiased Sparsification](https://arxiv.org/abs/2402.14925) | 该论文描述了对于排列不变或者可加可分的分裂函数，高效的无偏稀疏化特征。 |
+| [^11] | [SLADE: Detecting Dynamic Anomalies in Edge Streams without Labels via Self-Supervised Learning](https://arxiv.org/abs/2402.11933) | SLADE通过自监督学习在边缘流中迅速检测动态异常，无需依赖标签，主要通过观察节点交互模式的偏差来检测节点状态转变。 |
+| [^12] | [World Model on Million-Length Video And Language With RingAttention](https://arxiv.org/abs/2402.08268) | 该论文介绍了一个使用百万长度的视频和语言序列进行联合建模的环形注意力世界模型。该模型通过利用视频序列中的时间信息和语言的文本知识以及逐渐增加上下文大小的方法提高了AI辅助人类的能力。 |
+| [^13] | [Solving Deep Reinforcement Learning Benchmarks with Linear Policy Networks](https://arxiv.org/abs/2402.06912) | 本研究通过使用进化策略(ES)来优化神经网络的权重，以通过直接策略搜索解决深度强化学习(DRL)基准问题。研究结果显示，ES可以在许多基准任务中找到有效的线性策略，与当前使用更大网络的DRL方法相比，这表明当前的基准问题比以往认为的更容易解决。 |
+| [^14] | [SAE: Single Architecture Ensemble Neural Networks](https://arxiv.org/abs/2402.06580) | SAE是一种单一架构集合神经网络方法，通过学习集合输入的最佳退出数量和深度，在任务上显示出优越的准确性和置信度校准。它能够根据特定架构或应用程序灵活地定制其配置。 |
+| [^15] | [Heterophily-Aware Fair Recommendation using Graph Convolutional Networks](https://arxiv.org/abs/2402.03365) | 本文提出了一种利用图卷积网络的公平推荐系统，名为HetroFair，旨在提高项目侧的公平性。HetroFair使用公平注意力和异质性特征加权两个组件来生成具有公平性意识的嵌入。 |
+| [^16] | [Learning Best-in-Class Policies for the Predict-then-Optimize Framework](https://arxiv.org/abs/2402.03256) | 我们提出了一种新颖的决策感知替代损失函数家族，用于predict-then-optimize框架，并且通过数值证据证实了其在误设置下的优越性。 |
+| [^17] | [Copyright Protection in Generative AI: A Technical Perspective](https://arxiv.org/abs/2402.02333) | 本文从技术角度全面概述了在生成型人工智能中的版权保护问题，包括数据版权和模型版权两个方面，并提出了一些创新的方法和技术。 |
+| [^18] | [Arrows of Time for Large Language Models](https://arxiv.org/abs/2401.17505) | 这篇论文通过研究自回归大型语言模型的时间方向性，发现了模型在建模自然语言能力上存在时间上的不对称性。从信息理论的角度来看，这种差异理论上是不应该存在的。通过稀疏性和计算复杂性的考虑，提供了一个理论框架来解释这种不对称性的出现。 |
+| [^19] | [Towards Learning from Graphs with Heterophily: Progress and Future.](http://arxiv.org/abs/2401.09769) | 本调查综合概述了关于从带有异质性的图中学习的现有研究，并根据学习策略、模型架构和实际应用等方面对方法进行了分类。同时讨论了现有研究的主要挑战，并提出了未来研究的潜在方向。 |
+| [^20] | [High-Probability Convergence for Composite and Distributed Stochastic Minimization and Variational Inequalities with Heavy-Tailed Noise.](http://arxiv.org/abs/2310.01860) | 提出了一种针对复合式和分布式优化问题的新的随机方法，通过剪裁梯度差值实现了紧致的高概率收敛性分析。 |
+| [^21] | [On the Trade-offs between Adversarial Robustness and Actionable Explanations.](http://arxiv.org/abs/2309.16452) | 本论文研究了对抗鲁棒模型对可操作解释的影响，并通过理论和实证分析比较了对抗性鲁棒和非鲁棒模型生成的追索结果的成本和有效性之间的差异。 |
+| [^22] | [Towards Robust Continual Learning with Bayesian Adaptive Moment Regularization.](http://arxiv.org/abs/2309.08546) | 基于贝叶斯自适应时刻正则化的鲁棒性持续学习方法能够在机器人应用中有效地解决灾难性遗忘问题，并具有轻量级和任务实验室等优势。 |
+| [^23] | [Symplectic Structure-Aware Hamiltonian (Graph) Embeddings.](http://arxiv.org/abs/2309.04885) | 本文提出了SAH-GNN，一种在图神经网络中应用结构感知的辛系统哈密顿嵌入方法。与传统方法不同，SAH-GNN通过在训练过程中自适应学习辛结构，避免了依赖预定义标准辛结构形式的限制，并能够适应不同的图数据集，同时保持物理意义上的能量守恒。 |
+| [^24] | [Learning a Patent-Informed Biomedical Knowledge Graph Reveals Technological Potential of Drug Repositioning Candidates.](http://arxiv.org/abs/2309.03227) | 本研究提出了一种使用药物专利和生物医学数据库相结合的方法，识别具有技术潜力和科学证据的药物再定位候选物。通过构建科学的生物医学知识图谱和基于专利的生物医学知识图谱，我们可以综合分析多种信息源，为药物再定位研究提供新的视角。 |
+| [^25] | [Detecting Throat Cancer from Speech Signals Using Machine Learning: A Reproducible Literature Review.](http://arxiv.org/abs/2307.09230) | 本研究对使用机器学习和人工智能从语音记录中检测喉癌的文献进行了综述，发现了22篇相关论文，讨论了它们的方法和结果。研究使用了神经网络和梅尔频率倒谱系数提取音频特征，并通过迁移学习实现了分类，取得了一定的准确率。 |
+| [^26] | [Optimizer's Information Criterion: Dissecting and Correcting Bias in Data-Driven Optimization.](http://arxiv.org/abs/2306.10081) | 这项研究提出了一个称为优化器的信息准则(OIC)的通用偏差校正方法，帮助解决数据驱动优化中的乐观偏差问题。该方法直接近似一阶偏差，并且不需要解决额外的优化问题，是在决策选择方面的一个创新。 |
+| [^27] | [When Does Bottom-up Beat Top-down in Hierarchical Community Detection?.](http://arxiv.org/abs/2306.00833) | 本文研究了使用自下而上算法恢复Hierarchical Stochastic Block Model的树形结构和社区结构的理论保证，并确定了其在中间层次上达到了确切恢复信息理论阈值。 |
+| [^28] | [Vector-Valued Variation Spaces and Width Bounds for DNNs: Insights on Weight Decay Regularization.](http://arxiv.org/abs/2305.16534) | 该论文提供了关于通过加权衰减训练的多输出ReLU神经网络的函数类型和相应的解决方案的新见解。 |
+| [^29] | [Retrieving Texts based on Abstract Descriptions.](http://arxiv.org/abs/2305.12517) | 本研究针对语义检索问题，提出了一种基于摘要描述的文本检索模型，通过改进当前的文本嵌入方法，在标准最近邻搜索中取得了显著性能提升。 |
+| [^30] | [Euler Characteristic Tools For Topological Data Analysis.](http://arxiv.org/abs/2303.14040) | 本文研究了欧拉特征技术在拓扑数据分析中的应用，利用点运算欧拉特征得到欧拉特征轮廓，在监督和无监督任务中实现了最先进性能，并提供了欧拉轮廓及其混合变换捕捉信息的启发式方法。 |
+| [^31] | [Label-efficient Time Series Representation Learning: A Review.](http://arxiv.org/abs/2302.06433) | 这篇综述介绍了针对时间序列数据中标记数据稀缺性问题的现有方法，并提供了一个新颖的分类系统来归纳这些方法。该综述总结了每种方法的最新进展并提出了未来的研究方向。 |
+| [^32] | [Physics-informed Information Field Theory for Modeling Physical Systems with Uncertainty Quantification.](http://arxiv.org/abs/2301.07609) | 该论文扩展了信息场理论(IFT)到物理信息场理论(PIFT)，将描述场的物理定律的信息编码为函数先验。从这个PIFT得出的后验与任何数值方案无关，并且可以捕捉多种模式。 |
+| [^33] | [$\Phi$-DVAE: Physics-Informed Dynamical Variational Autoencoders for Unstructured Data Assimilation.](http://arxiv.org/abs/2209.15609) | 本文提出了一种物理指导的动态变分自编码器 ($\Phi$-DVAE) 用于将非结构化数据同化到物理模型中，解决了传统方法在未知映射情况下无法实现一致模型与数据综合的问题。 |
+| [^34] | [Targeted Adaptive Design.](http://arxiv.org/abs/2205.14208) | TAD是一种新的目标自适应设计算法，可以通过高斯过程代理模型在指定公差中确定产生期望设计特征的最佳控制设置，相比其他自适应设计算法，具有更高的精度和效率。 |
+| [^35] | [EXACT: How to Train Your Accuracy.](http://arxiv.org/abs/2205.09615) | 本文提出了一种新的分类任务优化框架，通过引入随机性，优化期望准确率，取得了强有力的替代分类损失的结果。 |
+| [^36] | [Privacy-preserving machine learning with tensor networks.](http://arxiv.org/abs/2202.12319) | 本文展示了张量网络架构在保护隐私的机器学习中具有潜在优势，并提出了确保鲁棒性的明确条件。 |
 
 # 详细
 
-[^1]: 使用课程学习和奖励工程的近端策略优化解决实际优化问题
+[^1]: 基于超图神经网络的调查：深入和分步指南
 
-    Solving a Real-World Optimization Problem Using Proximal Policy Optimization with Curriculum Learning and Reward Engineering
+    A Survey on Hypergraph Neural Networks: An In-Depth and Step-By-Step Guide
 
-    [https://arxiv.org/abs/2404.02577](https://arxiv.org/abs/2404.02577)
+    [https://arxiv.org/abs/2404.01039](https://arxiv.org/abs/2404.01039)
 
-    使用课程学习和奖励工程的近端策略优化来解决实际问题。
+    该研究是第一份致力于超图神经网络的调查报告，深入介绍了HNN架构、训练策略和应用，为从事数据挖掘和机器学习的研究人员提供了重要的指导。
 
     
 
-    我们提出了一个通过课程学习原则和精心设计的奖励工程训练的近端策略优化（PPO）代理，来优化一个现实世界中的高吞吐量废物分类设施。我们的工作解决了有效平衡操作安全性、优化容量和最小化资源使用等竞争性目标的挑战。一个从头开始训练的基本代理在这些多重标准上失败解决问题，因为其固有复杂性。
+    高阶相互作用在现实世界中的复杂系统和应用中无处不在，因此，对于高阶相互作用的深度学习已成为数据挖掘和机器学习社区的一项重要议程。由于高阶相互作用网络在数学上被表达为超图，超图神经网络（HNNs）已成为在超图上进行表示学习的强大工具。鉴于这一新趋势，我们提出了首份致力于HNNs的调查报告，其中包含深入和分步指南。总体而言，本调查概述了HNN架构、训练策略和应用。首先，我们将现有的HNNs分解为四个设计组成部分：（i）输入特征，（ii）输入结构，（iii）消息传递方案，和（iv）训练策略。其次，我们考察HNNs如何通过各自的组成部分处理和学习高阶相互作用。第三，我们总结了HNNs在推荐、生物和医学中的最新应用。
 
-    arXiv:2404.02577v1 Announce Type: new  Abstract: We present a proximal policy optimization (PPO) agent trained through curriculum learning (CL) principles and meticulous reward engineering to optimize a real-world high-throughput waste sorting facility. Our work addresses the challenge of effectively balancing the competing objectives of operational safety, volume optimization, and minimizing resource usage. A vanilla agent trained from scratch on these multiple criteria fails to solve the problem due to its inherent complexities. This problem is particularly difficult due to the environment's extremely delayed rewards with long time horizons and class (or action) imbalance, with important actions being infrequent in the optimal policy. This forces the agent to anticipate long-term action consequences and prioritize rare but rewarding behaviours, creating a non-trivial reinforcement learning task. Our five-stage CL approach tackles these challenges by gradually increasing the complexit
+    arXiv:2404.01039v1 Announce Type: new  Abstract: Higher-order interactions (HOIs) are ubiquitous in real-world complex systems and applications, and thus investigation of deep learning for HOIs has become a valuable agenda for the data mining and machine learning communities. As networks of HOIs are expressed mathematically as hypergraphs, hypergraph neural networks (HNNs) have emerged as a powerful tool for representation learning on hypergraphs. Given the emerging trend, we present the first survey dedicated to HNNs, with an in-depth and step-by-step guide. Broadly, the present survey overviews HNN architectures, training strategies, and applications. First, we break existing HNNs down into four design components: (i) input features, (ii) input structures, (iii) message-passing schemes, and (iv) training strategies. Second, we examine how HNNs address and learn HOIs with each of their components. Third, we overview the recent applications of HNNs in recommendation, biological and med
     
-[^2]: SyllabusQA：一个课程逻辑问题回答数据集
+[^2]: MambaMixer：具有双重标记和通道选择的高效选择性状态空间模型
 
-    SyllabusQA: A Course Logistics Question Answering Dataset
+    MambaMixer: Efficient Selective State Space Models with Dual Token and Channel Selection
 
-    [https://arxiv.org/abs/2403.14666](https://arxiv.org/abs/2403.14666)
+    [https://arxiv.org/abs/2403.19888](https://arxiv.org/abs/2403.19888)
 
-    SyllabusQA数据集是一个包含63个真实课程大纲的开源数据集，对36个专业涵盖5,078对多样化的开放式课程逻辑相关问题-答案对进行了详细收集，旨在评估答案事实性，多个强基线模型在该任务上表现出色，但仍存在与人类之间的显著差距。
+    MambaMixer是一种新的架构，提出了具有数据依赖权重的双重选择机制，称为选择性标记和通道混合器，对长序列建模具有潜在优势。
 
     
 
-    自动化教学助理和聊天机器人有显著潜力减轻人类教师的工作量，尤其是对于与课程逻辑相关的问题回答，这对学生很重要，但对教师来说是重复的。然而，由于隐私问题，缺乏公开可用的数据集。我们介绍了SyllabusQA，这是一个开源数据集，包含63个真实课程大纲，涵盖36个专业，包含5,078对多样化的开放式课程逻辑相关问题-答案对，问题类型和答案格式都是多样的。由于许多逻辑相关问题包含关键信息，如考试日期，评估答案的事实性很重要。我们在该任务上对几个强基线进行了基准测试，从大型语言模型提示到检索增强生成。我们发现，尽管在传统的文本相似性指标上接近人类表现，但在准确性方面仍存在显著差距。
+    深度学习的最新进展主要依赖于Transformers，因为它们具有数据依赖性并且能够实现大规模学习。然而，这些架构中的注意力模块展现出输入大小的二次时间和空间，限制了它们用于长序列建模的可扩展性。尽管最近有尝试为多维数据设计高效有效的架构主干，例如图像和多变量时间序列，但现有模型要么是数据独立的，要么无法允许跨维度和内部维度之间的通信。最近，状态空间模型（SSMs），尤其是具有高效硬件感知实现的选择性状态空间模型，展现出了用于长序列建模的潜在优势。受到SSMs成功的启发，我们提出了MambaMixer，一种新的具有数据依赖权重的架构，使用跨标记和通道的双重选择机制，称为选择性标记和通道混合器。
 
-    arXiv:2403.14666v1 Announce Type: cross  Abstract: Automated teaching assistants and chatbots have significant potential to reduce the workload of human instructors, especially for logistics-related question answering, which is important to students yet repetitive for instructors. However, due to privacy concerns, there is a lack of publicly available datasets. We introduce SyllabusQA, an open-source dataset with 63 real course syllabi covering 36 majors, containing 5,078 open-ended course logistics-related question-answer pairs that are diverse in both question types and answer formats. Since many logistics-related questions contain critical information like the date of an exam, it is important to evaluate the factuality of answers. We benchmark several strong baselines on this task, from large language model prompting to retrieval-augmented generation. We find that despite performing close to humans on traditional metrics of textual similarity, there remains a significant gap between
+    arXiv:2403.19888v1 Announce Type: cross  Abstract: Recent advances in deep learning have mainly relied on Transformers due to their data dependency and ability to learn at scale. The attention module in these architectures, however, exhibits quadratic time and space in input size, limiting their scalability for long-sequence modeling. Despite recent attempts to design efficient and effective architecture backbone for multi-dimensional data, such as images and multivariate time series, existing models are either data independent, or fail to allow inter- and intra-dimension communication. Recently, State Space Models (SSMs), and more specifically Selective State Space Models, with efficient hardware-aware implementation, have shown promising potential for long sequence modeling. Motivated by the success of SSMs, we present MambaMixer, a new architecture with data-dependent weights that uses a dual selection mechanism across tokens and channels, called Selective Token and Channel Mixer. M
     
-[^3]: 用于学习神经网络等变表示的图神经网络
+[^3]: 可微分编程的要素
 
-    Graph Neural Networks for Learning Equivariant Representations of Neural Networks
+    The Elements of Differentiable Programming
 
-    [https://arxiv.org/abs/2403.12143](https://arxiv.org/abs/2403.12143)
+    [https://arxiv.org/abs/2403.14606](https://arxiv.org/abs/2403.14606)
 
-    本研究提出了将神经网络表示为参数的计算图的方法，利用图神经网络和变压器来实现置换对称性，使得单个模型能够处理具有多种架构的神经计算图。
+    可微分编程是一个新的编程范式，使得复杂程序能够端对端地进行微分，实现基于梯度的参数优化。
 
     
 
-    处理其他神经网络参数的神经网络在诸如分类隐式神经表示、生成神经网络权重和预测泛化错误等领域中得到应用。然而，现有方法要么忽视神经网络中固有的置换对称性，要么依赖复杂的权重共享模式来实现等变性，同时忽略网络架构本身的影响。在本文中，我们提出将神经网络表示为参数的计算图，这使我们能够利用强大的保留置换对称性的图神经网络和变压器。因此，我们的方法使得单个模型能够对具有多样架构的神经计算图进行编码。我们展示了我们的方法在包括分类和编辑隐式神经表示、预测泛化错误等多种任务中的有效性。
+    人工智能最近取得了显著进展，这得益于大型模型、庞大数据集、加速硬件，以及可微分编程的变革性力量。这种新的编程范式使复杂计算机程序（包括具有控制流和数据结构的程序）能够进行端对端的微分，从而实现对程序参数的基于梯度的优化。不仅仅是程序的微分，可微分编程也包括了程序优化、概率等多个领域的概念。本书介绍了可微分编程所需的基本概念，并采用了优化和概率两个主要视角进行阐述。
 
-    arXiv:2403.12143v1 Announce Type: cross  Abstract: Neural networks that process the parameters of other neural networks find applications in domains as diverse as classifying implicit neural representations, generating neural network weights, and predicting generalization errors. However, existing approaches either overlook the inherent permutation symmetry in the neural network or rely on intricate weight-sharing patterns to achieve equivariance, while ignoring the impact of the network architecture itself. In this work, we propose to represent neural networks as computational graphs of parameters, which allows us to harness powerful graph neural networks and transformers that preserve permutation symmetry. Consequently, our approach enables a single model to encode neural computational graphs with diverse architectures. We showcase the effectiveness of our method on a wide range of tasks, including classification and editing of implicit neural representations, predicting generalizati
+    arXiv:2403.14606v1 Announce Type: new  Abstract: Artificial intelligence has recently experienced remarkable advances, fueled by large models, vast datasets, accelerated hardware, and, last but not least, the transformative power of differentiable programming. This new programming paradigm enables end-to-end differentiation of complex computer programs (including those with control flows and data structures), making gradient-based optimization of program parameters possible. As an emerging paradigm, differentiable programming builds upon several areas of computer science and applied mathematics, including automatic differentiation, graphical models, optimization and statistics. This book presents a comprehensive review of the fundamental concepts useful for differentiable programming. We adopt two main perspectives, that of optimization and that of probability, with clear analogies between the two. Differentiable programming is not merely the differentiation of programs, but also the t
     
-[^4]: 基于自定义生物启发目标的无监督端到端训练
+[^4]: 一个统一的模型编辑框架
 
-    Unsupervised End-to-End Training with a Self-Defined Bio-Inspired Target
+    A Unified Framework for Model Editing
 
-    [https://arxiv.org/abs/2403.12116](https://arxiv.org/abs/2403.12116)
+    [https://arxiv.org/abs/2403.14236](https://arxiv.org/abs/2403.14236)
 
-    本研究提出了一种使用Winner-Take-All（WTA）选择性和生物启发的稳态机制相结合的“自定义目标”方法，旨在解决无监督学习方法在边缘AI硬件上的计算资源稀缺性问题。
+    这个统一框架结合了“定位和编辑”模型编辑技术，最大化保留某些向量表示并记忆新事实信息。
 
     
 
-    当前的无监督学习方法依赖于通过深度学习技术（如自监督学习）进行端到端训练，具有较高的计算需求，或者采用通过类似Hebbian学习的生物启发方法逐层训练，使用与监督学习不兼容的局部学习规则。为了解决这一挑战，在这项工作中，我们引入了一种使用网络最终层的胜者通吃（WTA）选择性的“自定义目标”，并通过生物启发的稳态机制进行正则化。
+    模型编辑是一个不断发展的领域，专注于更新模型中嵌入的知识。在各种方法中，ROME和MEMIT作为主要的“定位和编辑”模型编辑技术脱颖而出。而MEMIT可以批量编辑记忆，ROME则一次只能改变一个事实。本文引入了一个统一的框架，将ROME和MEMIT纳入一个单一的概念框架，优化同一目标，我们称之为“保存-记忆”目标。该目标旨在在记忆新事实信息的同时保留某些选定向量的表示。具体来说，ROME使用等式约束优化此目标，而MEMIT采用更灵活的最小二乘约束。除了批量编辑外，MEMIT还可以在多个层面编辑模型。我们将编辑的分布从多个层面分开，区别于优化目标。
 
-    arXiv:2403.12116v1 Announce Type: cross  Abstract: Current unsupervised learning methods depend on end-to-end training via deep learning techniques such as self-supervised learning, with high computational requirements, or employ layer-by-layer training using bio-inspired approaches like Hebbian learning, using local learning rules incompatible with supervised learning. Both approaches are problematic for edge AI hardware that relies on sparse computational resources and would strongly benefit from alternating between unsupervised and supervised learning phases - thus leveraging widely available unlabeled data from the environment as well as labeled training datasets. To solve this challenge, in this work, we introduce a 'self-defined target' that uses Winner-Take-All (WTA) selectivity at the network's final layer, complemented by regularization through biologically inspired homeostasis mechanism. This approach, framework-agnostic and compatible with both global (Backpropagation) and l
+    arXiv:2403.14236v1 Announce Type: cross  Abstract: Model editing is a growing area focused on updating the knowledge embedded within models. Among the various methodologies, ROME and MEMIT stand out as leading "locate-and-edit" model editing techniques. While MEMIT enables batched editing of memories, ROME is limited to changing one fact at a time. This paper introduces a unifying framework that brings ROME and MEMIT under a single conceptual umbrella, optimizing for the same goal, which we call the "preservation-memorization" objective. This objective aims to preserve the representations of certain selected vectors while memorizing the representations of new factual information. Specifically, ROME optimizes this objective using an equality constraint, whereas MEMIT employs a more flexible least-square constraint. In addition to making batched edits, MEMIT also edits the model at multiple layers. We disentangle the distribution of edits to multiple layers from the optimization objectiv
     
-[^5]: TabPFN的可解释机器学习
+[^5]: RigorLLM：针对大型语言模型抵御不良内容的鲁棒防护栏
 
-    Interpretable Machine Learning for TabPFN
+    RigorLLM: Resilient Guardrails for Large Language Models against Undesired Content
 
-    [https://arxiv.org/abs/2403.10923](https://arxiv.org/abs/2403.10923)
+    [https://arxiv.org/abs/2403.13031](https://arxiv.org/abs/2403.13031)
 
-    TabPFN模型在低数据情况下实现了良好的分类性能，并能够以秒级速度生成后验预测分布，我们提出了几种专为TabPFN设计的可解释性方法的改进，实现了更高效的计算。
+    RigorLLM提出了一种新颖的框架，旨在高效有效地调节LLMs的有害和不安全输入和输出，包括能量数据增强、最小-最大优化安全输入后缀，以及基于数据增强的鲁棒KNN与LLMs融合模型。
 
     
 
-    最近开发的Prior-Data Fitted Networks（PFNs）已经显示出在低数据情况下具有非常有希望的应用结果。TabPFN模型是PFN的一种特殊情况，适用于表格数据，在不需要学习参数或超参数调整的情况下，能够在短短几秒钟内实现多种分类任务的最先进性能，并且能够生成后验预测分布。TabPFN因此成为了许多领域应用中非常吸引人的选择。然而，该方法的一个主要缺点是缺乏可解释性。因此，我们提出了几种针对TabPFN专门设计的流行解释性方法的改进。通过利用该模型的独特性质，我们的改进允许比现有实现更高效的计算。特别是，我们展示了通过避免...
+    大语言模型（LLMs）的最新进展展示了其在不同领域的各种任务中的显著能力。然而，LLMs中出现的偏见以及在恶意输入下产生有害内容的潜力，尤其是对抗性攻击下，都带来了重大挑战。本文提出了面向大型语言模型的鲁棒防护栏（RigorLLM），这是一个新颖的框架，旨在高效有效地调节LLMs的有害和不安全输入和输出。通过采用多方面的方法，包括通过朗之万动力学进行基于能量的训练数据增强、通过极小极大优化针对输入优化安全后缀，以及基于我们的数据增强将鲁棒KNN与LLMs融合的基于融合的模型，RigorLLM为有害内容的调节提供了强大的解决方案。我们的实验评估
 
-    arXiv:2403.10923v1 Announce Type: cross  Abstract: The recently developed Prior-Data Fitted Networks (PFNs) have shown very promising results for applications in low-data regimes. The TabPFN model, a special case of PFNs for tabular data, is able to achieve state-of-the-art performance on a variety of classification tasks while producing posterior predictive distributions in mere seconds by in-context learning without the need for learning parameters or hyperparameter tuning. This makes TabPFN a very attractive option for a wide range of domain applications. However, a major drawback of the method is its lack of interpretability. Therefore, we propose several adaptations of popular interpretability methods that we specifically design for TabPFN. By taking advantage of the unique properties of the model, our adaptations allow for more efficient computations than existing implementations. In particular, we show how in-context learning facilitates the estimation of Shapley values by avoid
+    arXiv:2403.13031v1 Announce Type: cross  Abstract: Recent advancements in Large Language Models (LLMs) have showcased remarkable capabilities across various tasks in different domains. However, the emergence of biases and the potential for generating harmful content in LLMs, particularly under malicious inputs, pose significant challenges. Current mitigation strategies, while effective, are not resilient under adversarial attacks. This paper introduces Resilient Guardrails for Large Language Models (RigorLLM), a novel framework designed to efficiently and effectively moderate harmful and unsafe inputs and outputs for LLMs. By employing a multi-faceted approach that includes energy-based training data augmentation through Langevin dynamics, optimizing a safe suffix for inputs via minimax optimization, and integrating a fusion-based model combining robust KNN with LLMs based on our data augmentation, RigorLLM offers a robust solution to harmful content moderation. Our experimental evalua
     
-[^6]: WorkArena：Web代理在解决常见知识工作任务中的能力如何？
+[^6]: MELTing point: 移动语言转换器的评估
 
-    WorkArena: How Capable Are Web Agents at Solving Common Knowledge Work Tasks?
+    MELTing point: Mobile Evaluation of Language Transformers
 
-    [https://arxiv.org/abs/2403.07718](https://arxiv.org/abs/2403.07718)
+    [https://arxiv.org/abs/2403.12844](https://arxiv.org/abs/2403.12844)
 
-    该研究探究了基于大型语言模型的代理在通过web浏览器与软件交互时的能力，提出了WorkArena和BrowserGym两个工具，在29个任务的基准测试中显示出潜力，但也揭示了实现完全任务自动化仍存在挑战。
+    该研究对移动设备上大型语言模型（LLMs）的执行进行了首次系统性研究，并创建了自动化基础架构MELT来支持其评估和性能测试。
 
     
 
-    我们研究了基于大型语言模型的代理与软件通过web浏览器交互的应用。与先前的研究不同，我们关注衡量这些代理执行任务的能力，这些任务涵盖了利用企业软件系统的知识工作者的典型日常工作。为此，我们提出了WorkArena，一个基于广泛使用的ServiceNow平台的29个任务的远程主机基准。我们还介绍了BrowserGym，这是一个用于设计和评估这些代理的环境，提供了丰富的行为和多模态观察。我们的实证评估显示，尽管当前的代理在WorkArena上表现出了潜力，但要实现完全任务自动化仍存在相当大的差距。值得注意的是，我们的分析揭示了开源和闭源LLMs之间显著的性能差距，突出了未来探索和发展领域的一个重要领域。
+    Transformers已经彻底改变了机器学习领域，逐渐应用于日常任务，赋予我们的计算机“智能的火花”。然而，它们的运行时需求阻碍了它们在移动设备上的广泛部署。在个人设备变得越来越强大，以及迅速隐私问题变得更加紧迫的情况下，我们探讨了大型语言模型（LLMs）在移动设备上执行的现状。为了实现这一目标，我们创建了自己的自动化基础架构MELT，支持在设备上无界面执行和评估LLMs，并支持不同的模型、设备和框架，包括Android、iOS和Nvidia Jetson设备。我们评估了流行的指令微调的LLMs，并利用不同的框架来测量它们的端到端和细粒度性能，跟踪它们的内存和能耗需求。
 
-    arXiv:2403.07718v1 Announce Type: cross  Abstract: We study the use of large language model-based agents for interacting with software via web browsers. Unlike prior work, we focus on measuring the agents' ability to perform tasks that span the typical daily work of knowledge workers utilizing enterprise software systems. To this end, we propose WorkArena, a remote-hosted benchmark of 29 tasks based on the widely-used ServiceNow platform. We also introduce BrowserGym, an environment for the design and evaluation of such agents, offering a rich set of actions as well as multimodal observations. Our empirical evaluation reveals that while current agents show promise on WorkArena, there remains a considerable gap towards achieving full task automation. Notably, our analysis uncovers a significant performance disparity between open and closed-source LLMs, highlighting a critical area for future exploration and development in the field.
+    arXiv:2403.12844v1 Announce Type: new  Abstract: Transformers have revolutionized the machine learning landscape, gradually making their way into everyday tasks and equipping our computers with ``sparks of intelligence''. However, their runtime requirements have prevented them from being broadly deployed on mobile. As personal devices become increasingly powerful and prompt privacy becomes an ever more pressing issue, we explore the current state of mobile execution of Large Language Models (LLMs). To achieve this, we have created our own automation infrastructure, MELT, which supports the headless execution and benchmarking of LLMs on device, supporting different models, devices and frameworks, including Android, iOS and Nvidia Jetson devices. We evaluate popular instruction fine-tuned LLMs and leverage different frameworks to measure their end-to-end and granular performance, tracing their memory and energy requirements along the way.   Our analysis is the first systematic study of o
     
-[^7]: 光滑 Tchebycheff 标量化用于多目标优化
+[^7]: 解剖语言模型：通过选择性修剪实现机器去学习
 
-    Smooth Tchebycheff Scalarization for Multi-Objective Optimization
+    Dissecting Language Models: Machine Unlearning via Selective Pruning
 
-    [https://arxiv.org/abs/2402.19078](https://arxiv.org/abs/2402.19078)
+    [https://arxiv.org/abs/2403.01267](https://arxiv.org/abs/2403.01267)
 
-    通过光滑 Tchebycheff 标量化方法，本文提出了一种轻量级的方法，用于梯度型多目标优化，具有更低的计算复杂性但仍能找到所有帕累托解。
+    介绍了一种针对大型语言模型的机器去学习方法，通过选择性修剪神经元来实现去学习，发现LLMs中的神经元在特定任务中具有不同的重要性。
 
     
 
-    多目标优化问题在许多现实世界应用中都能找到，在这些问题中，目标经常相互冲突，不能通过单个解进行优化。在过去的几十年中，已经提出了许多方法来找到帕累托解，这些解代表了对于给定问题的不同最佳权衡。然而，这些现有方法可能具有较高的计算复杂性，或者可能不能具备解决一般可微分多目标优化问题的良好理论属性。在本项工作中，通过利用光滑优化技术，我们提出了一种新颖且轻量的光滑 Tchebycheff 标量化方法，用于基于梯度的多目标优化。它对于找到所有帕累托解具有良好的理论属性，同时相对于其他方法具有显着较低的计算复杂性。在各种实验结果上
+    本文引入了一种专门为大型语言模型（LLMs）设计的机器去学习方法。我们提出了一种针对LLMs的选择性修剪方法，根据神经元对特定能力的相对重要性来移除神经元，而非整体网络性能。该方法是一种高效的计算和数据方法，用于识别和删除能够实现特定行为的神经元。我们的研究发现，LLMs中的前馈神经元和注意力神经元是专门化的；也就是说，对于特定任务，某些神经元比其他神经元更为关键。
 
-    arXiv:2402.19078v1 Announce Type: cross  Abstract: Multi-objective optimization problems can be found in many real-world applications, where the objectives often conflict each other and cannot be optimized by a single solution. In the past few decades, numerous methods have been proposed to find Pareto solutions that represent different optimal trade-offs among the objectives for a given problem. However, these existing methods could have high computational complexity or may not have good theoretical properties for solving a general differentiable multi-objective optimization problem. In this work, by leveraging the smooth optimization technique, we propose a novel and lightweight smooth Tchebycheff scalarization approach for gradient-based multi-objective optimization. It has good theoretical properties for finding all Pareto solutions with valid trade-off preferences, while enjoying significantly lower computational complexity compared to other methods. Experimental results on variou
+    arXiv:2403.01267v1 Announce Type: cross  Abstract: Understanding and shaping the behaviour of Large Language Models (LLMs) is increasingly important as applications become more powerful and more frequently adopted. This paper introduces a machine unlearning method specifically designed for LLMs. We introduce a selective pruning method for LLMs that removes neurons based on their relative importance on a targeted capability compared to overall network performance. This approach is a compute- and data-efficient method for identifying and removing neurons that enable specific behaviours. Our findings reveal that both feed-forward and attention neurons in LLMs are specialized; that is, for specific tasks, certain neurons are more crucial than others.
     
-[^8]: 基于分数的扩散模型的极小化最优性：超越密度下界假设
+[^8]: 一个镜子的库：低维深度神经网络是具有反射特征的凸Lasso模型
 
-    Minimax Optimality of Score-based Diffusion Models: Beyond the Density Lower Bound Assumptions
+    A Library of Mirrors: Deep Neural Nets in Low Dimensions are Convex Lasso Models with Reflection Features
 
-    [https://arxiv.org/abs/2402.15602](https://arxiv.org/abs/2402.15602)
+    [https://arxiv.org/abs/2403.01046](https://arxiv.org/abs/2403.01046)
 
-    该研究展示了基于分数的扩散模型的采样具有极小均方误差，可以获得扩散模型生成样本的总变差误差的上界，这突破了仅做次高斯假设的限制。
+    证明在1-D数据上训练神经网络等价于解决一个具有固定特征字典矩阵的凸Lasso问题，为全局最优网络和解空间提供了洞察。
 
     
 
-    我们从非参数统计的角度研究了在大样本场景下得分扩散模型抽样的渐近误差。我们展示了基于核的得分估计器可以实现对 $p_0*\mathcal{N}(0,t\boldsymbol{I}_d)$ 的得分函数的最优均方误差为 $\widetilde{O}\left(n^{-1} t^{-\frac{d+2}{2}}(t^{\frac{d}{2}} \vee 1)\right)$，其中 $n$ 和 $d$ 分别代表样本大小和维度，$t$ 在上下受到 $n$ 的多项式的限制，并且 $p_0$ 是任意次亚高斯分布。因此，这导致在仅进行次高斯假设时，扩散模型生成的样本分布的总变差误差的上界为 $\widetilde{O}\left(n^{-1/2} t^{-\frac{d}{4}}\right)$。如果此外，$p_0$ 属于 $\beta\le 2$ 的 $\beta$-Sobolev空间的非参数族，通过采用早停策略，我们得到该扩散模型的样本的分布的总变差误差的上界为 $\widetilde{O}\left(n^{-1/2} t^{-\frac{d}{4}}\right)$。
+    我们证明在1-D数据上训练神经网络等价于解决一个带有固定、明确定义的特征字典矩阵的凸Lasso问题。具体的字典取决于激活函数和深度。我们考虑具有分段线性激活函数的两层网络，深窄的ReLU网络最多有4层，以及具有符号激活和任意深度的矩形和树网络。有趣的是，在ReLU网络中，第四层创建代表训练数据关于自身的反射的特征。Lasso表示法揭示了全局最优网络和解空间的洞察。
 
-    arXiv:2402.15602v1 Announce Type: cross  Abstract: We study the asymptotic error of score-based diffusion model sampling in large-sample scenarios from a non-parametric statistics perspective. We show that a kernel-based score estimator achieves an optimal mean square error of $\widetilde{O}\left(n^{-1} t^{-\frac{d+2}{2}}(t^{\frac{d}{2}} \vee 1)\right)$ for the score function of $p_0*\mathcal{N}(0,t\boldsymbol{I}_d)$, where $n$ and $d$ represent the sample size and the dimension, $t$ is bounded above and below by polynomials of $n$, and $p_0$ is an arbitrary sub-Gaussian distribution. As a consequence, this yields an $\widetilde{O}\left(n^{-1/2} t^{-\frac{d}{4}}\right)$ upper bound for the total variation error of the distribution of the sample generated by the diffusion model under a mere sub-Gaussian assumption. If in addition, $p_0$ belongs to the nonparametric family of the $\beta$-Sobolev space with $\beta\le 2$, by adopting an early stopping strategy, we obtain that the diffusion
+    arXiv:2403.01046v1 Announce Type: cross  Abstract: We prove that training neural networks on 1-D data is equivalent to solving a convex Lasso problem with a fixed, explicitly defined dictionary matrix of features. The specific dictionary depends on the activation and depth. We consider 2-layer networks with piecewise linear activations, deep narrow ReLU networks with up to 4 layers, and rectangular and tree networks with sign activation and arbitrary depth. Interestingly in ReLU networks, a fourth layer creates features that represent reflections of training data about themselves. The Lasso representation sheds insight to globally optimal networks and the solution landscape.
     
-[^9]: GenCeption：使用未标记的单模态数据评估多模态LLM
+[^9]: 用于微生物组学的监督机器学习：弥合当前和最佳实践之间的差距
 
-    GenCeption: Evaluate Multimodal LLMs with Unlabeled Unimodal Data
+    Supervised machine learning for microbiomics: bridging the gap between current and best practices
 
-    [https://arxiv.org/abs/2402.14973](https://arxiv.org/abs/2402.14973)
+    [https://arxiv.org/abs/2402.17621](https://arxiv.org/abs/2402.17621)
 
-    提出了一种名为GenCeption的新型MLLM评估框架，可以仅利用单模态数据评估跨模态语义一致性，并有效反映模型产生幻觉的倾向，具有较强的相关性和潜力于流行的MLLM基准结果。
+    该研究通过分析大量期刊文章，总结了监督机器学习在微生物组学中的现有实践，探讨了实验设计方法的优缺点，并提出了如何避免常见实验设计缺陷的指导。
 
     
 
-    多模态大型语言模型（MLLMs）通常使用昂贵的带标注的多模态基准进行评估。然而，这些基准通常难以跟上MLLM评估的快速发展要求。我们提出了GenCeption，这是一个新颖的无需注释的MLLM评估框架，仅需要单模态数据来评估跨模态语义一致性，并反映出模型产生幻觉的倾向。类似于流行的DrawCeption游戏，GenCeption从一个非文本样本开始，并经历一系列迭代的描述和生成步骤。迭代之间的语义漂移使用GC@T指标进行量化。我们的实证发现验证了GenCeption的有效性，并显示出与流行的MLLM基准结果的强相关性。GenCeption可以通过利用普遍存在且以前未见的单模态数据来扩展，以减轻训练数据的污染。
+    机器学习（ML）将加速临床微生物组学创新，如疾病诊断和预后。这将需要高质量、可重现、可解释的工作流程，其预测能力达到或超过监管机构对临床工具设定的高门槛。我们通过深入分析2021-2022年发表的100篇同行评议的期刊文章，捕捉了当前将监督ML应用于微生物组学数据的实践的一个快照。我们采用数据驱动方法，引导讨论各种实验设计方法的优点，包括关键考虑因素，如如何减轻小数据集大小的影响同时避免数据泄漏。我们进一步提供关于如何避免可能损害模型性能、可信度和可重复性的常见实验设计缺陷的指南。讨论附有一个互动在线教程。
 
-    arXiv:2402.14973v1 Announce Type: cross  Abstract: Multimodal Large Language Models (MLLMs) are commonly evaluated using costly annotated multimodal benchmarks. However, these benchmarks often struggle to keep pace with the rapidly advancing requirements of MLLM evaluation. We propose GenCeption, a novel and annotation-free MLLM evaluation framework that merely requires unimodal data to assess inter-modality semantic coherence and inversely reflects the models' inclination to hallucinate. Analogous to the popular DrawCeption game, GenCeption initiates with a non-textual sample and undergoes a series of iterative description and generation steps. Semantic drift across iterations is quantified using the GC@T metric. Our empirical findings validate GenCeption's efficacy, showing strong correlations with popular MLLM benchmarking results. GenCeption may be extended to mitigate training data contamination by utilizing ubiquitous, previously unseen unimodal data.
+    arXiv:2402.17621v1 Announce Type: cross  Abstract: Machine learning (ML) is set to accelerate innovations in clinical microbiomics, such as in disease diagnostics and prognostics. This will require high-quality, reproducible, interpretable workflows whose predictive capabilities meet or exceed the high thresholds set for clinical tools by regulatory agencies. Here, we capture a snapshot of current practices in the application of supervised ML to microbiomics data, through an in-depth analysis of 100 peer-reviewed journal articles published in 2021-2022. We apply a data-driven approach to steer discussion of the merits of varied approaches to experimental design, including key considerations such as how to mitigate the effects of small dataset size while avoiding data leakage. We further provide guidance on how to avoid common experimental design pitfalls that can hurt model performance, trustworthiness, and reproducibility. Discussion is accompanied by an interactive online tutorial th
     
-[^10]: 通过自适应猜想的在线学习实现自动化安全响应
+[^10]: 高效无偏稀疏化
 
-    Automated Security Response through Online Learning with Adaptive Conjectures
+    Efficient Unbiased Sparsification
 
-    [https://arxiv.org/abs/2402.12499](https://arxiv.org/abs/2402.12499)
+    [https://arxiv.org/abs/2402.14925](https://arxiv.org/abs/2402.14925)
 
-    该论文通过自适应猜想的在线学习，提出了一种适用于IT基础设施的自动化安全响应方法，其中游戏参与者通过Bayesian学习调整猜想，并通过推演更新策略，最终实现了最佳拟合，提高了推演在猜想模型下的性能。
+    该论文描述了对于排列不变或者可加可分的分裂函数，高效的无偏稀疏化特征。
 
     
 
-    我们研究了针对IT基础设施的自动化安全响应，并将攻击者和防御者之间的互动形式表述为一个部分观测、非平稳博弈。我们放宽了游戏模型正确规定的标准假设，并考虑每个参与者对模型有一个概率性猜想，可能在某种意义上错误规定，即真实模型的概率为0。这种形式允许我们捕捉关于基础设施和参与者意图的不确定性。为了在线学习有效的游戏策略，我们设计了一种新颖的方法，其中一个参与者通过贝叶斯学习迭代地调整其猜想，并通过推演更新其策略。我们证明了猜想会收敛到最佳拟合，并提供了在具有猜测模型的情况下推演实现性能改进的上限。为了刻画游戏的稳定状态，我们提出了Berk-Nash平衡的一个变种。
+    一个向量$p\in \mathbb{R}^n$的无偏$m$-稀疏化是一个具有平均值为$p$，最多有$m<n$个非零坐标的随机向量$Q\in \mathbb{R}^n。 无偏稀疏化可以压缩原始向量而不引入偏差；它出现在各种情境中，比如联邦学习和采样稀疏概率分布。 理想情况下，无偏稀疏化还应该最小化一个度量$Q$与原始$p$之间距离有多远的分裂函数$\mathsf{Div}(Q,p)$的期望值。 如果$Q$在这个意义上是最优的，那么我们称之为高效。 我们的主要结果描述了对于既是排列不变又是可加可分的分裂函数的高效无偏稀疏化。 令人惊讶的是，排列不变分裂函数的表征对于分裂函数的选择是健壮的，也就是说，我们针对平方欧氏距离的最优$Q$的类与我们的类重合了op
 
-    arXiv:2402.12499v1 Announce Type: cross  Abstract: We study automated security response for an IT infrastructure and formulate the interaction between an attacker and a defender as a partially observed, non-stationary game. We relax the standard assumption that the game model is correctly specified and consider that each player has a probabilistic conjecture about the model, which may be misspecified in the sense that the true model has probability 0. This formulation allows us to capture uncertainty about the infrastructure and the intents of the players. To learn effective game strategies online, we design a novel method where a player iteratively adapts its conjecture using Bayesian learning and updates its strategy through rollout. We prove that the conjectures converge to best fits, and we provide a bound on the performance improvement that rollout enables with a conjectured model. To characterize the steady state of the game, we propose a variant of the Berk-Nash equilibrium. We 
+    arXiv:2402.14925v1 Announce Type: cross  Abstract: An unbiased $m$-sparsification of a vector $p\in \mathbb{R}^n$ is a random vector $Q\in \mathbb{R}^n$ with mean $p$ that has at most $m<n$ nonzero coordinates. Unbiased sparsification compresses the original vector without introducing bias; it arises in various contexts, such as in federated learning and sampling sparse probability distributions. Ideally, unbiased sparsification should also minimize the expected value of a divergence function $\mathsf{Div}(Q,p)$ that measures how far away $Q$ is from the original $p$. If $Q$ is optimal in this sense, then we call it efficient. Our main results describe efficient unbiased sparsifications for divergences that are either permutation-invariant or additively separable. Surprisingly, the characterization for permutation-invariant divergences is robust to the choice of divergence function, in the sense that our class of optimal $Q$ for squared Euclidean distance coincides with our class of op
     
-[^11]: RanDumb: 一种质疑持续表示学习效果的简单方法
+[^11]: SLADE：通过自监督学习在边缘流中检测动态异常
 
-    RanDumb: A Simple Approach that Questions the Efficacy of Continual Representation Learning
+    SLADE: Detecting Dynamic Anomalies in Edge Streams without Labels via Self-Supervised Learning
 
-    [https://arxiv.org/abs/2402.08823](https://arxiv.org/abs/2402.08823)
+    [https://arxiv.org/abs/2402.11933](https://arxiv.org/abs/2402.11933)
 
-    RanDumb是一种简单的方法，通过固定的随机变换嵌入原始像素并学习简单的线性分类器，质疑了持续表示学习的效果。 实验结果显示，RanDumb在众多持续学习基准测试中明显优于使用深度网络进行持续学习的表示学习。
+    SLADE通过自监督学习在边缘流中迅速检测动态异常，无需依赖标签，主要通过观察节点交互模式的偏差来检测节点状态转变。
 
     
 
-    我们提出了RanDumb来检验持续表示学习的效果。RanDumb将原始像素使用一个固定的随机变换嵌入，这个变换近似了RBF-Kernel，在看到任何数据之前初始化，并学习一个简单的线性分类器。我们提出了一个令人惊讶且一致的发现：在众多持续学习基准测试中，RanDumb在性能上明显优于使用深度网络进行持续学习的表示学习，这表明在这些情景下表示学习的性能较差。RanDumb不存储样本，并在数据上进行单次遍历，一次处理一个样本。它与GDumb相辅相成，在GDumb性能特别差的低样本情况下运行。当将RanDumb扩展到使用预训练模型替换随机变换的情景时，我们得出相同一致的结论。我们的调查结果既令人惊讶又令人担忧，因为表示学习在这些情况下表现糟糕。
+    为了检测真实世界图中的异常，如社交、电子邮件和金融网络，已经开发了各种方法。在大多数真实世界图随时间增长，自然地表示为边缘流的情况下，我们的目标是：(a)在异常发生时即时检测异常，(b)适应动态变化的状态，(c)处理动态异常标签的稀缺性。在本文中，我们提出了SLADE（边缘流异常检测的自监督学习），用于在边缘流中快速检测动态异常，而不依赖于标签。SLADE通过观察节点在时间上相互作用模式的偏差来检测节点进入异常状态的转变。为此，它训练一个深度神经网络执行两个自监督任务：(a)最小化节点表示中的漂移，(b)从短期生成长期交互模式。
 
-    arXiv:2402.08823v1 Announce Type: cross Abstract: We propose RanDumb to examine the efficacy of continual representation learning. RanDumb embeds raw pixels using a fixed random transform which approximates an RBF-Kernel, initialized before seeing any data, and learns a simple linear classifier on top. We present a surprising and consistent finding: RanDumb significantly outperforms the continually learned representations using deep networks across numerous continual learning benchmarks, demonstrating the poor performance of representation learning in these scenarios. RanDumb stores no exemplars and performs a single pass over the data, processing one sample at a time. It complements GDumb, operating in a low-exemplar regime where GDumb has especially poor performance. We reach the same consistent conclusions when RanDumb is extended to scenarios with pretrained models replacing the random transform with pretrained feature extractor. Our investigation is both surprising and alarming as
+    arXiv:2402.11933v1 Announce Type: new  Abstract: To detect anomalies in real-world graphs, such as social, email, and financial networks, various approaches have been developed. While they typically assume static input graphs, most real-world graphs grow over time, naturally represented as edge streams. In this context, we aim to achieve three goals: (a) instantly detecting anomalies as they occur, (b) adapting to dynamically changing states, and (c) handling the scarcity of dynamic anomaly labels. In this paper, we propose SLADE (Self-supervised Learning for Anomaly Detection in Edge Streams) for rapid detection of dynamic anomalies in edge streams, without relying on labels. SLADE detects the shifts of nodes into abnormal states by observing deviations in their interaction patterns over time. To this end, it trains a deep neural network to perform two self-supervised tasks: (a) minimizing drift in node representations and (b) generating long-term interaction patterns from short-term 
     
-[^12]: 结合空间优化和大型语言模型的开放领域城市行程规划
+[^12]: 百万长度视频和语言的环形注意力世界模型
 
-    Synergizing Spatial Optimization with Large Language Models for Open-Domain Urban Itinerary Planning
+    World Model on Million-Length Video And Language With RingAttention
 
-    [https://arxiv.org/abs/2402.07204](https://arxiv.org/abs/2402.07204)
+    [https://arxiv.org/abs/2402.08268](https://arxiv.org/abs/2402.08268)
 
-    本文提出了Open-domain Urban Itinerary Planning (OUIP)任务，用于根据用户以自然语言描述的请求直接生成行程，通过结合空间优化和大型语言模型(LLM)，提供个性化的城市行程定制服务。
+    该论文介绍了一个使用百万长度的视频和语言序列进行联合建模的环形注意力世界模型。该模型通过利用视频序列中的时间信息和语言的文本知识以及逐渐增加上下文大小的方法提高了AI辅助人类的能力。
 
     
 
-    本文首次提出了Open-domain Urban Itinerary Planning (OUIP)任务，用于根据用户以自然语言描述的请求直接生成行程。OUIP与传统行程规划不同，传统规划限制了用户表达更详细的需求，阻碍了真正的个性化。最近，大型语言模型(LLM)在处理多样化任务方面表现出潜力。然而，由于非实时信息、不完整的知识和不足的空间意识，它们无法独立地提供满意的用户体验。鉴于此，我们提出了一个名为ItiNera的OUIP系统，将空间优化与大型语言模型(LLM)相结合，根据用户需求提供个性化的城市行程定制服务。具体来说，我们开发了一个基于LLM的流水线，用于提取和更新兴趣点特征，以创建用户自己的个性化兴趣点数据库。对于每个用户请求，我们利用LLM进行协同实现优化。
+    当前的语言模型在理解难以用文字描述的世界方面表现不佳，并且在处理复杂的长篇任务时遇到困难。视频序列提供了只有语言和静态图像所不具备的宝贵时间信息，因此它们在与语言进行联合建模时具有吸引力。这种模型可以对人类的文本知识和物理世界进行理解，为辅助人类提供更广泛的人工智能能力。然而，从百万个标记的视频和语言序列中学习面临着记忆约束、计算复杂性和数据有限性的挑战。为了应对这些挑战，我们策划了一个包含多样化视频和书籍的大型数据集，利用环形注意力技术对长序列进行可扩展的训练，逐渐增加上下文大小从4K到1M个标记。本文的贡献如下：
 
-    In this paper, we for the first time propose the task of Open-domain Urban Itinerary Planning (OUIP) for citywalk, which directly generates itineraries based on users' requests described in natural language. OUIP is different from conventional itinerary planning, which limits users from expressing more detailed needs and hinders true personalization. Recently, large language models (LLMs) have shown potential in handling diverse tasks. However, due to non-real-time information, incomplete knowledge, and insufficient spatial awareness, they are unable to independently deliver a satisfactory user experience in OUIP. Given this, we present ItiNera, an OUIP system that synergizes spatial optimization with Large Language Models (LLMs) to provide services that customize urban itineraries based on users' needs. Specifically, we develop an LLM-based pipeline for extracting and updating POI features to create a user-owned personalized POI database. For each user request, we leverage LLM in coop
+    Current language models fall short in understanding aspects of the world not easily described in words, and struggle with complex, long-form tasks. Video sequences offer valuable temporal information absent in language and static images, making them attractive for joint modeling with language. Such models could develop a understanding of both human textual knowledge and the physical world, enabling broader AI capabilities for assisting humans. However, learning from millions of tokens of video and language sequences poses challenges due to memory constraints, computational complexity, and limited datasets. To address these challenges, we curate a large dataset of diverse videos and books, utilize the RingAttention technique to scalably train on long sequences, and gradually increase context size from 4K to 1M tokens. This paper makes the following contributions: (a) Largest context size neural network: We train one of the largest context size transformers on long video and language seq
     
-[^13]: 无维度抽样核心子集用于分类问题
+[^13]: 用线性策略网络解决深度强化学习基准问题
 
-    No Dimensional Sampling Coresets for Classification
+    Solving Deep Reinforcement Learning Benchmarks with Linear Policy Networks
 
-    [https://arxiv.org/abs/2402.05280](https://arxiv.org/abs/2402.05280)
+    [https://arxiv.org/abs/2402.06912](https://arxiv.org/abs/2402.06912)
 
-    本文通过敏感性抽样框架提出了无维度的核心子集用于分类问题，该子集的大小与维度无关，并适用于各种损失函数和分布输入。
+    本研究通过使用进化策略(ES)来优化神经网络的权重，以通过直接策略搜索解决深度强化学习(DRL)基准问题。研究结果显示，ES可以在许多基准任务中找到有效的线性策略，与当前使用更大网络的DRL方法相比，这表明当前的基准问题比以往认为的更容易解决。
 
     
 
-    我们通过敏感性抽样框架对于分类问题的核心子集的已知内容进行了精炼和概括。这种核心子集寻求输入数据的最小可能子集，以便可以在核心子集上优化损失函数，并确保对于原始数据的逼近保证。我们的分析提供了第一个无维度核心子集，因此大小与维度无关。此外，我们的结果是通用的，适用于分布输入并且可以使用独立同分布样本，因此可以提供样本复杂度边界，并适用于各种损失函数。我们开发的关键工具是主要敏感性抽样方法的Radamacher复杂度版本，这可能是一个独立感兴趣的工具。
+    尽管深度强化学习(DRL)算法能够学习有效的策略来解决像Atari游戏和机器人任务这样的挑战性问题，但算法复杂，训练时间往往较长。本研究探讨了进化策略(ES)与基于梯度的深度强化学习方法之间的表现差异。我们使用ES通过神经进化优化神经网络的权重，通过直接策略搜索来完成。我们对常规网络和由一个从观测到动作的单一线性层组成的策略网络进行基准测试；对于三种经典的ES方法和三种基于梯度的方法，如PPO。我们的结果表明，ES可以在许多RL基准任务中找到有效的线性策略，而DRL方法只能使用更大的网络找到成功的策略，这表明当前的基准问题比以前认为的更容易解决。有趣的是，即使对于更复杂的任务，ES的结果也与基于梯度的方法相当。
 
-    We refine and generalize what is known about coresets for classification problems via the sensitivity sampling framework. Such coresets seek the smallest possible subsets of input data, so one can optimize a loss function on the coreset and ensure approximation guarantees with respect to the original data. Our analysis provides the first no dimensional coresets, so the size does not depend on the dimension. Moreover, our results are general, apply for distributional input and can use iid samples, so provide sample complexity bounds, and work for a variety of loss functions. A key tool we develop is a Radamacher complexity version of the main sensitivity sampling approach, which can be of independent interest.
+    Although Deep Reinforcement Learning (DRL) methods can learn effective policies for challenging problems such as Atari games and robotics tasks, algorithms are complex and training times are often long. This study investigates how evolution strategies (ES) perform compared to gradient-based deep reinforcement learning methods. We use ES to optimize the weights of a neural network via neuroevolution, performing direct policy search. We benchmark both regular networks and policy networks consisting of a single linear layer from observations to actions; for three classical ES methods and for three gradient-based methods such as PPO. Our results reveal that ES can find effective linear policies for many RL benchmark tasks, in contrast to DRL methods that can only find successful policies using much larger networks, suggesting that current benchmarks are easier to solve than previously assumed. Interestingly, also for higher complexity tasks, ES achieves results comparable to gradient-based
     
-[^14]: 使无线环境对梯度估计器有用：一种零阶随机联邦学习方法
+[^14]: SAE: 单一架构集合神经网络
 
-    Rendering Wireless Environments Useful for Gradient Estimators: A Zero-Order Stochastic Federated Learning Method
+    SAE: Single Architecture Ensemble Neural Networks
 
-    [https://arxiv.org/abs/2401.17460](https://arxiv.org/abs/2401.17460)
+    [https://arxiv.org/abs/2402.06580](https://arxiv.org/abs/2402.06580)
 
-    提出了一种新颖的零阶随机联邦学习方法，通过利用无线通信通道的特性，在学习算法中考虑了无线通道，避免了资源的浪费和分析难度。
+    SAE是一种单一架构集合神经网络方法，通过学习集合输入的最佳退出数量和深度，在任务上显示出优越的准确性和置信度校准。它能够根据特定架构或应用程序灵活地定制其配置。
 
     
 
-    联邦学习（FL）是一种新颖的机器学习方法，允许多个边缘设备协同训练模型，而无需公开原始数据。然而，当设备和服务器通过无线信道通信时，该方法面临着通信和计算瓶颈。通过利用一个通信高效的框架，我们提出了一种新颖的零阶（ZO）方法，采用一点梯度估计器，利用无线通信通道的特性，而无需知道通道状态系数。这是第一种将无线通道包含在学习算法本身中的方法，而不是浪费资源来分析和消除其影响。这项工作的两个主要困难是，在FL中，目标函数通常不是凸的，这使得将FL扩展到ZO方法具有挑战性，以及包括影响的难度。
+    单一神经网络架构的集合能够在任务上显示出优越的准确性和置信度校准。最近的方法通过提前退出或多输入多输出框架将集合压缩到单一网络中。然而，这些方法的景观迄今为止是零散的，因此很难选择适合特定任务的方法。此外，这些方法的算法性能落后于独立神经网络的集合，并需要广泛的架构调整。我们提出了一种新的方法，将这些方法统一到单一架构集合中。我们的方法在单一神经网络中学习集合输入的最佳退出数量和深度。这使得SAE框架可以根据特定架构或应用程序灵活地定制其配置。我们评估了在各种网络架构类型和大小上进行图像分类和回归的SAE。我们展示了与基线相当的准确性或置信度校准。
 
-    Federated learning (FL) is a novel approach to machine learning that allows multiple edge devices to collaboratively train a model without disclosing their raw data. However, several challenges hinder the practical implementation of this approach, especially when devices and the server communicate over wireless channels, as it suffers from communication and computation bottlenecks in this case. By utilizing a communication-efficient framework, we propose a novel zero-order (ZO) method with a one-point gradient estimator that harnesses the nature of the wireless communication channel without requiring the knowledge of the channel state coefficient. It is the first method that includes the wireless channel in the learning algorithm itself instead of wasting resources to analyze it and remove its impact. The two main difficulties of this work are that in FL, the objective function is usually not convex, which makes the extension of FL to ZO methods challenging, and that including the impa
+    Ensembles of separate neural networks (NNs) have shown superior accuracy and confidence calibration over single NN across tasks. Recent methods compress ensembles within a single network via early exits or multi-input multi-output frameworks. However, the landscape of these methods is fragmented thus far, making it difficult to choose the right approach for a given task. Furthermore, the algorithmic performance of these methods is behind the ensemble of separate NNs and requires extensive architecture tuning. We propose a novel methodology unifying these approaches into a Single Architecture Ensemble (SAE). Our method learns the optimal number and depth of exits per ensemble input in a single NN. This enables the SAE framework to flexibly tailor its configuration for a given architecture or application. We evaluate SAEs on image classification and regression across various network architecture types and sizes. We demonstrate competitive accuracy or confidence calibration to baselines w
     
-[^15]: 高斯喷溅：利用高斯飘落动态合成流体
+[^15]: 利用图卷积网络的異质友善推荐方法
 
-    Gaussian Splashing: Dynamic Fluid Synthesis with Gaussian Splatting. (arXiv:2401.15318v1 [cs.GR])
+    Heterophily-Aware Fair Recommendation using Graph Convolutional Networks
 
-    [http://arxiv.org/abs/2401.15318](http://arxiv.org/abs/2401.15318)
+    [https://arxiv.org/abs/2402.03365](https://arxiv.org/abs/2402.03365)
 
-    高斯喷溅技术相结合物理基础动画和3D高斯喷溅，可以在虚拟场景中创造出无可比拟的效果，同时实现渲染、视图合成以及固体和流体的动态管理和交互。
+    本文提出了一种利用图卷积网络的公平推荐系统，名为HetroFair，旨在提高项目侧的公平性。HetroFair使用公平注意力和异质性特征加权两个组件来生成具有公平性意识的嵌入。
 
     
 
-    我们展示了将物理基础动画与3D高斯喷溅（3DGS）相结合的可行性，以在使用3DGS重建的虚拟场景中创建新效果。利用高斯喷溅和基于位置的动力学（PBD）在底层表示中的一致性，我们以连贯的方式管理渲染、视图合成以及固体和流体的动态。类似于高斯着色器，我们通过添加法线增强每个高斯核，将核的方向与表面法线对齐，以改进PBD模拟。这种方法有效消除了固体旋转变形产生的尖峰噪声。它还使我们能够将基于物理的渲染集成到流体的动态表面反射中。因此，我们的框架能够真实地复现动态流体上的表面亮点，并促进场景对象与流体之间的交互。
+    近年来，图神经网络（GNNs）已成为提高推荐系统准确性和性能的流行工具。现代推荐系统不仅设计为为最终用户服务，还要让其他参与者（如项目和项目供应商）从中受益。这些参与者可能具有不同或冲突的目标和利益，这引发了对公平性和流行度偏差考虑的需求。基于GNN的推荐方法也面临不公平性和流行度偏差的挑战，其归一化和聚合过程受到这些挑战的影响。在本文中，我们提出了一种公平的基于GNN的推荐系统，称为HetroFair，旨在提高项目侧的公平性。HetroFair使用两个独立的组件生成具有公平性意识的嵌入：i）公平注意力，它在GNN的归一化过程中结合了点积，以减少节点度数的影响；ii）异质性特征加权，为不同的特征分配不同的权重。
 
-    We demonstrate the feasibility of integrating physics-based animations of solids and fluids with 3D Gaussian Splatting (3DGS) to create novel effects in virtual scenes reconstructed using 3DGS. Leveraging the coherence of the Gaussian splatting and position-based dynamics (PBD) in the underlying representation, we manage rendering, view synthesis, and the dynamics of solids and fluids in a cohesive manner. Similar to Gaussian shader, we enhance each Gaussian kernel with an added normal, aligning the kernel's orientation with the surface normal to refine the PBD simulation. This approach effectively eliminates spiky noises that arise from rotational deformation in solids. It also allows us to integrate physically based rendering to augment the dynamic surface reflections on fluids. Consequently, our framework is capable of realistically reproducing surface highlights on dynamic fluids and facilitating interactions between scene objects and fluids from new views. For more information, pl
+    In recent years, graph neural networks (GNNs) have become a popular tool to improve the accuracy and performance of recommender systems. Modern recommender systems are not only designed to serve the end users, but also to benefit other participants, such as items and items providers. These participants may have different or conflicting goals and interests, which raise the need for fairness and popularity bias considerations. GNN-based recommendation methods also face the challenges of unfairness and popularity bias and their normalization and aggregation processes suffer from these challenges. In this paper, we propose a fair GNN-based recommender system, called HetroFair, to improve items' side fairness. HetroFair uses two separate components to generate fairness-aware embeddings: i) fairness-aware attention which incorporates dot product in the normalization process of GNNs, to decrease the effect of nodes' degrees, and ii) heterophily feature weighting to assign distinct weights to 
     
-[^16]: 从推特到引用：揭示社交媒体影响者对人工智能研究可见性的影响
+[^16]: 学习Predict-then-Optimize框架中的最优策略
 
-    Tweets to Citations: Unveiling the Impact of Social Media Influencers on AI Research Visibility. (arXiv:2401.13782v1 [cs.DL])
+    Learning Best-in-Class Policies for the Predict-then-Optimize Framework
 
-    [http://arxiv.org/abs/2401.13782](http://arxiv.org/abs/2401.13782)
+    [https://arxiv.org/abs/2402.03256](https://arxiv.org/abs/2402.03256)
 
-    本文研究了社交媒体影响者在提高机器学习研究的可见性方面的作用，发现被这些影响者认可的论文引用次数显著增加，中位数引用次数比对照组高2-3倍。此外，该研究还探讨了被展示作者的地理、性别和机构多样性。
+    我们提出了一种新颖的决策感知替代损失函数家族，用于predict-then-optimize框架，并且通过数值证据证实了其在误设置下的优越性。
 
     
 
-    随着人工智能和机器学习会议上被接受的论文数量达到数千篇，研究人员如何获取和阅读研究论文变得不清楚。本文研究了社交媒体影响者在增强机器学习研究可见性中的作用，特别是他们分享的论文引用次数。我们编制了一个包括8000多篇论文的全面数据集，涵盖了2018年12月至2023年10月的推特，以及基于出版年份、会议地点和摘要主题进行1：1匹配的对照组。我们的分析揭示了这些影响者认可的论文引用次数显著增加，中位数引用次数比对照组高2-3倍。此外，该研究还深入研究了被展示作者的地理、性别和机构多样性。这些发现突显了社交媒体在学术交流中的不断扩大的影响力，并强调了当今数字化时代不断发展的生态系统的重要性。
+    我们提出了一种新颖的决策感知替代损失函数家族，称为Perturbation Gradient（PG）损失，用于predict-then-optimize框架。这些损失直接近似了下游决策损失，并可以使用现成的基于梯度的方法进行优化。重要的是，与现有的替代损失不同，我们的PG损失的近似误差随着样本数量的增加而消失。这意味着优化我们的替代损失可以在渐近意义下得到最佳策略，即使在误设置下也是如此。这是第一个在误设置下的这样的结果，我们提供了数值证据证实了当基础模型误设置且噪声不是中心对称时，我们的PG损失在实践中显著优于现有的提案。鉴于在实践中误设置很常见--特别是当我们可能更喜欢一个更简单、更可解释的模型时--PG损失提供了一种新颖的、理论上有依据的、可计算的决策感知方法。
 
-    As the number of accepted papers at AI and ML conferences reaches into the thousands, it has become unclear how researchers access and read research publications. In this paper, we investigate the role of social media influencers in enhancing the visibility of machine learning research, particularly the citation counts of papers they share. We have compiled a comprehensive dataset of over 8,000 papers, spanning tweets from December 2018 to October 2023, alongside 1:1 matched controls based on publication year, venue, and abstract topics. Our analysis reveals a significant increase in citations for papers endorsed by these influencers, with median citation counts 2-3 times higher than those of the control group. Additionally, the study delves into the geographic, gender, and institutional diversity of highlighted authors. These findings highlight the expanding influence of social media in scholarly communication and underscore the importance of an evolving ecosystem in today's digital a
+    We propose a novel family of decision-aware surrogate losses, called Perturbation Gradient (PG) losses, for the predict-then-optimize framework. These losses directly approximate the downstream decision loss and can be optimized using off-the-shelf gradient-based methods. Importantly, unlike existing surrogate losses, the approximation error of our PG losses vanishes as the number of samples grows. This implies that optimizing our surrogate loss yields a best-in-class policy asymptotically, even in misspecified settings. This is the first such result in misspecified settings and we provide numerical evidence confirming our PG losses substantively outperform existing proposals when the underlying model is misspecified and the noise is not centrally symmetric. Insofar as misspecification is commonplace in practice -- especially when we might prefer a simpler, more interpretable model -- PG losses offer a novel, theoretically justified, method for computationally tractable decision-aware 
     
-[^17]: 关于深度学习框架开发中自动识别假设的探索性研究
+[^17]: 生成型人工智能中的版权保护：技术视角
 
-    An exploratory study on automatic identification of assumptions in the development of deep learning frameworks. (arXiv:2401.03653v2 [cs.SE] UPDATED)
+    Copyright Protection in Generative AI: A Technical Perspective
 
-    [http://arxiv.org/abs/2401.03653](http://arxiv.org/abs/2401.03653)
+    [https://arxiv.org/abs/2402.02333](https://arxiv.org/abs/2402.02333)
 
-    本研究以构建一个新的最大假设数据集为基础，针对深度学习框架开发中手动识别假设的问题进行了探索性研究。在该研究中，我们发现手动识别假设的成本高，因此探讨了使用传统机器学习模型和流行的深度学习模型来识别假设的性能。
+    本文从技术角度全面概述了在生成型人工智能中的版权保护问题，包括数据版权和模型版权两个方面，并提出了一些创新的方法和技术。
 
     
 
-    利益相关方在深度学习框架开发中经常做出假设。这些假设涉及各种软件构件（例如需求、设计决策和技术债务），可能会被证明无效，从而导致系统故障。现有的假设管理方法和工具通常依赖于手动识别假设。然而，假设分散在深度学习框架开发的各种源头（例如代码注释、提交、拉取请求和问题）中，手动识别假设成本较高（例如时间和资源消耗）。为了解决深度学习框架开发中手动识别假设的问题，我们构建了一个新的并且最大的假设数据集（称为AssuEval），该数据集收集自GitHub上的TensorFlow和Keras代码库；我们探讨了七个传统的机器学习模型（例如支持向量机、分类回归树）和一个流行的深度学习模型的性能。
+    近年来，生成型人工智能（Generative AI）取得了快速发展，扩展了其创建文本、图像、音频和代码等合成内容的能力。这些深度生成模型（Deep Generative Models，DGMs）生成的内容高保真度和真实性引发了重大的版权问题。关于如何有效保护DGMs中的版权问题，已经进行了各种法律辩论。本文从技术角度提供了版权保护的全面概述。我们从两个不同的视角来进行研究：一是与数据所有者所持有的源数据相关的版权，二是与模型构建者所维护的生成模型相关的版权。对于数据版权，我们深入探讨了数据所有者如何保护其内容，并在不侵犯这些权利的情况下使用DGMs。对于模型版权，我们的讨论延伸到防止模型盗窃和识别特定模型生成的输出的策略。最后，我们强调了一些创新的方法和技术来处理这些版权问题。
 
-    Stakeholders constantly make assumptions in the development of deep learning (DL) frameworks. These assumptions are related to various types of software artifacts (e.g., requirements, design decisions, and technical debt) and can turn out to be invalid, leading to system failures. Existing approaches and tools for assumption management usually depend on manual identification of assumptions. However, assumptions are scattered in various sources (e.g., code comments, commits, pull requests, and issues) of DL framework development, and manually identifying assumptions has high costs (e.g., time and resources). To overcome the issues of manually identifying assumptions in DL framework development, we constructed a new and largest dataset (i.e., AssuEval) of assumptions collected from the TensorFlow and Keras repositories on GitHub; explored the performance of seven traditional machine learning models (e.g., Support Vector Machine, Classification and Regression Trees), a popular DL model (i
+    Generative AI has witnessed rapid advancement in recent years, expanding their capabilities to create synthesized content such as text, images, audio, and code. The high fidelity and authenticity of contents generated by these Deep Generative Models (DGMs) have sparked significant copyright concerns. There have been various legal debates on how to effectively safeguard copyrights in DGMs. This work delves into this issue by providing a comprehensive overview of copyright protection from a technical perspective. We examine from two distinct viewpoints: the copyrights pertaining to the source data held by the data owners and those of the generative models maintained by the model builders. For data copyright, we delve into methods data owners can protect their content and DGMs can be utilized without infringing upon these rights. For model copyright, our discussion extends to strategies for preventing model theft and identifying outputs generated by specific models. Finally, we highlight 
     
-[^18]: AI 控制：尽管存在意图性破坏，但提高安全性
+[^18]: 大型语言模型中的时间箭头
 
-    AI Control: Improving Safety Despite Intentional Subversion. (arXiv:2312.06942v3 [cs.LG] UPDATED)
+    Arrows of Time for Large Language Models
 
-    [http://arxiv.org/abs/2312.06942](http://arxiv.org/abs/2312.06942)
+    [https://arxiv.org/abs/2401.17505](https://arxiv.org/abs/2401.17505)
 
-    本研究针对大型语言模型的安全问题，探索了一系列旨在确保安全性的技术流程，能够对抗模型有意破坏的情况，为解决编程问题提供了可靠的解决方案。
+    这篇论文通过研究自回归大型语言模型的时间方向性，发现了模型在建模自然语言能力上存在时间上的不对称性。从信息理论的角度来看，这种差异理论上是不应该存在的。通过稀疏性和计算复杂性的考虑，提供了一个理论框架来解释这种不对称性的出现。
 
     
 
-    随着大型语言模型（LLMs）变得更加强大并且越来越多地自主部署，防止它们导致有害结果将变得越来越重要。研究人员已经探索了各种安全技术，例如使用模型来审核其他模型的输出，或使用红队技术揭示微妙的失效模式。然而，研究人员尚未评估这些技术在模型有意尝试破坏它们时是否仍然确保安全。在本文中，我们开发和评估了一系列对有意破坏具有鲁棒性的安全技术流程（“协议”）。我们研究了一个场景，通过使用强大但不可信的模型（在我们的情况下是GPT-4）、使用较弱的可信模型（在我们的情况下是GPT-3.5）以及有限的高质量可信劳动力访问，我们希望解决一系列编程问题。我们研究了旨在永远不提交包含后门的解决方案的协议，其中我们...
+    我们通过时间方向性的视角研究了自回归大型语言模型的概率建模。我们在实证上发现这类模型在建模自然语言能力上存在时间上的不对称性：预测下一个记号和预测前一个记号时的平均对数困惑度存在差异。这种差异既微妙又在不同的模态（语言、模型大小、训练时间等）下非常一致。从信息理论的角度来看，这在理论上是令人惊讶的，不应该存在这样的差异。我们提供了一个理论框架，解释了这种不对称性如何出现在稀疏性和计算复杂性考虑中，并概述了我们的结果带来的一些展望。
 
-    As large language models (LLMs) become more powerful and are deployed more autonomously, it will be increasingly important to prevent them from causing harmful outcomes. Researchers have investigated a variety of safety techniques for this purpose, e.g. using models to review the outputs of other models, or red-teaming techniques to surface subtle failure modes. However, researchers have not evaluated whether such techniques still ensure safety if the model is itself intentionally trying to subvert them. In this paper, we develop and evaluate pipelines of safety techniques ("protocols") that are robust to intentional subversion.  We investigate a scenario in which we want to solve a sequence of programming problems, using access to a powerful but untrusted model (in our case, GPT-4), access to a less powerful trusted model (in our case, GPT-3.5), and limited access to high-quality trusted labor. We investigate protocols that aim to never submit solutions containing backdoors, which we 
+    We study the probabilistic modeling performed by Autoregressive Large Language Models through the angle of time directionality. We empirically find a time asymmetry exhibited by such models in their ability to model natural language: a difference in the average log-perplexity when trying to predict the next token versus when trying to predict the previous one. This difference is at the same time subtle and very consistent across various modalities (language, model size, training time, ...). Theoretically, this is surprising: from an information-theoretic point of view, there should be no such difference. We provide a theoretical framework to explain how such an asymmetry can appear from sparsity and computational complexity considerations, and outline a number of perspectives opened by our results.
     
-[^19]: ConvNet vs Transformer, Supervised vs CLIP: 超越ImageNet准确率
+[^19]: 走向异质图学习：进展与未来
 
-    ConvNet vs Transformer, Supervised vs CLIP: Beyond ImageNet Accuracy. (arXiv:2311.09215v2 [cs.CV] UPDATED)
+    Towards Learning from Graphs with Heterophily: Progress and Future. (arXiv:2401.09769v1 [cs.SI])
 
-    [http://arxiv.org/abs/2311.09215](http://arxiv.org/abs/2311.09215)
+    [http://arxiv.org/abs/2401.09769](http://arxiv.org/abs/2401.09769)
 
-    ConvNet和Transformer架构在监督和CLIP训练下，超越了ImageNet准确率的对比分析中发现它们在错误类型、输出校准、可转移性和特征的不变性等方面存在差异，突出了需要更加细致分析的必要性。
+    本调查综合概述了关于从带有异质性的图中学习的现有研究，并根据学习策略、模型架构和实际应用等方面对方法进行了分类。同时讨论了现有研究的主要挑战，并提出了未来研究的潜在方向。
 
     
 
-    现代计算机视觉为实践者提供了多种模型选择，对于特定应用从多个选项中选择模型可能具有挑战性。传统上，通过它们在ImageNet上的分类准确率来比较竞争模型架构和训练协议。然而，这个单一指标无法完全捕捉到对于专业任务至关重要的性能细微差别。在这项工作中，我们对ConvNet和Vision Transformer架构在监督和CLIP训练范式下进行了深入的比较分析，超越了ImageNet的准确率。尽管我们选择的模型在ImageNet准确率和计算需求上相似，我们发现它们在许多其他方面存在差异：错误类型、输出校准、可转移性和特征的不变性等。传统指标无法捕捉到的这种模型特性差异，突出了在选择不同模型时需要更加细致分析的必要性。
+    图是用来模拟现实世界实体之间复杂关系的结构化数据。最近，异质图，其中连接的节点往往具有不同的标签或不同的特征，引起了广泛关注并找到了许多应用。与此同时，人们也在不断努力推进从异质图中学习。虽然有关该主题的调查存在，但它们只关注于异质图神经网络（GNNs），而忽略了异质图学习的其他子主题。在本调查中，我们全面回顾了关于从带有异质性的图中学习的现有研究。首先，我们收集了180多篇论文，介绍了该领域的发展。然后，我们根据层次分类法对现有方法进行了系统分类，包括学习策略、模型架构和实际应用。最后，我们讨论了现有研究的主要挑战，并突出了未来研究的潜在方向。
 
-    Modern computer vision offers a great variety of models to practitioners, and selecting a model from multiple options for specific applications can be challenging. Conventionally, competing model architectures and training protocols are compared by their classification accuracy on ImageNet. However, this single metric does not fully capture performance nuances critical for specialized tasks. In this work, we conduct an in-depth comparative analysis of model behaviors beyond ImageNet accuracy, for both ConvNet and Vision Transformer architectures, each across supervised and CLIP training paradigms. Although our selected models have similar ImageNet accuracies and compute requirements, we find that they differ in many other aspects: types of mistakes, output calibration, transferability, and feature invariance, among others. This diversity in model characteristics, not captured by traditional metrics, highlights the need for more nuanced analysis when choosing among different models. Our
+    Graphs are structured data that models complex relations between real-world entities. Heterophilous graphs, where linked nodes are prone to be with different labels or dissimilar features, have recently attracted significant attention and found many applications. Meanwhile, increasing efforts have been made to advance learning from heterophilous graphs. Although there exist surveys on the relevant topic, they focus on heterophilous GNNs, which are only sub-topics of heterophilous graph learning. In this survey, we comprehensively overview existing works on learning from graphs with heterophily.First, we collect over 180 publications and introduce the development of this field. Then, we systematically categorize existing methods based on a hierarchical taxonomy including learning strategies, model architectures and practical applications. Finally, we discuss the primary challenges of existing studies and highlight promising avenues for future research.More publication details and corres
     
-[^20]: 通过联合子空间估计消除神经网络表示中的错误概念
+[^20]: 高概率下具有重尾噪声的复合式和分布式随机最小化和变分不等式收敛性分析
 
-    Removing Spurious Concepts from Neural Network Representations via Joint Subspace Estimation. (arXiv:2310.11991v1 [cs.LG])
+    High-Probability Convergence for Composite and Distributed Stochastic Minimization and Variational Inequalities with Heavy-Tailed Noise. (arXiv:2310.01860v1 [math.OC])
 
-    [http://arxiv.org/abs/2310.11991](http://arxiv.org/abs/2310.11991)
+    [http://arxiv.org/abs/2310.01860](http://arxiv.org/abs/2310.01860)
 
-    该论文提出了一种通过联合子空间估计从神经网络表示中消除错误概念的迭代算法，并在计算机视觉和自然语言处理的基准数据集上展示了其优越性能。
+    提出了一种针对复合式和分布式优化问题的新的随机方法，通过剪裁梯度差值实现了紧致的高概率收敛性分析。
 
     
 
-    神经网络中的错误相关性经常会影响到模型在样本外的泛化能力。常见的策略是通过从神经网络表示中消除错误概念来缓解这个问题。现有的错误概念消除方法往往过于激进，不经意间会消除与模型主要任务相关的特征，从而影响模型性能。我们提出了一种迭代算法，通过共同识别神经网络表示中的两个低维正交子空间来分离错误和主要任务的概念。我们在计算机视觉（Waterbirds，CelebA）和自然语言处理（MultiNLI）的基准数据集上评估了该算法，并表明它优于现有的概念消除方法。
+    近年来，对于具有轻微噪声假设的随机一阶优化方法的高概率分析受到了广泛关注。通常情况下，当噪声是重尾的时候，梯度剪裁是推导出良好的高概率保证的关键算法要素之一。然而，如果不加以处理地实现，剪裁操作会破坏常用的复合式和分布式优化方法（如Prox-SGD/Parallel SGD）的收敛性，即使在没有任何噪声的情况下也是如此。因此，许多高概率分析的工作仅考虑无约束的非分布式问题，现有的复合式/分布式问题的收敛性结果并不包括一些重要的特殊情况（如强凸问题），也不是最优的。为了解决这个问题，我们提出了基于梯度差值剪裁的复合式和分布式优化的新的随机方法，并证明了紧致的高概率收敛性结果（包括几乎所有的场景）。
 
-    Out-of-distribution generalization in neural networks is often hampered by spurious correlations. A common strategy is to mitigate this by removing spurious concepts from the neural network representation of the data. Existing concept-removal methods tend to be overzealous by inadvertently eliminating features associated with the main task of the model, thereby harming model performance. We propose an iterative algorithm that separates spurious from main-task concepts by jointly identifying two low-dimensional orthogonal subspaces in the neural network representation. We evaluate the algorithm on benchmark datasets for computer vision (Waterbirds, CelebA) and natural language processing (MultiNLI), and show that it outperforms existing concept removal methods
+    High-probability analysis of stochastic first-order optimization methods under mild assumptions on the noise has been gaining a lot of attention in recent years. Typically, gradient clipping is one of the key algorithmic ingredients to derive good high-probability guarantees when the noise is heavy-tailed. However, if implemented na\"ively, clipping can spoil the convergence of the popular methods for composite and distributed optimization (Prox-SGD/Parallel SGD) even in the absence of any noise. Due to this reason, many works on high-probability analysis consider only unconstrained non-distributed problems, and the existing results for composite/distributed problems do not include some important special cases (like strongly convex problems) and are not optimal. To address this issue, we propose new stochastic methods for composite and distributed optimization based on the clipping of stochastic gradient differences and prove tight high-probability convergence results (including nearly
     
-[^21]: 使用后门技术保护我们的隐私
+[^21]: 关于对抗鲁棒性和可操作解释之间的权衡
 
-    Defending Our Privacy With Backdoors. (arXiv:2310.08320v1 [cs.LG])
+    On the Trade-offs between Adversarial Robustness and Actionable Explanations. (arXiv:2309.16452v1 [cs.LG])
 
-    [http://arxiv.org/abs/2310.08320](http://arxiv.org/abs/2310.08320)
+    [http://arxiv.org/abs/2309.16452](http://arxiv.org/abs/2309.16452)
 
-    本研究提出了一种基于后门攻击的防御方法，通过对模型进行策略性插入后门，对齐敏感短语与中性术语的嵌入，以删除训练数据中的私人信息。实证结果显示该方法的有效性。
+    本论文研究了对抗鲁棒模型对可操作解释的影响，并通过理论和实证分析比较了对抗性鲁棒和非鲁棒模型生成的追索结果的成本和有效性之间的差异。
 
     
 
-    在使用未经筛选、常常包含敏感信息的网页数据训练大型人工智能模型的情况下，隐私问题成为了一个重要的关注点。其中一个问题是，攻击者可以利用隐私攻击的方法提取出训练数据的信息。然而，如何在不降低模型性能的情况下去除特定信息是一个不容易解决且具有挑战性的问题。我们提出了一个基于后门攻击的简单而有效的防御方法，用于从模型中删除私人信息，如个人姓名，特别是针对文本编码器的。具体而言，通过策略性地插入后门，我们将敏感短语的嵌入与中性术语的嵌入对齐，例如用"a person"代替人名。我们的实证结果通过对零样本分类器使用专门的隐私攻击测试表明了我们基于后门的防御方法的效果。我们的方法提供了一个新的"双重用途"的视角。
+    随着机器学习模型在各种高风险环境中的应用越来越广泛，确保这些模型的预测不仅具有对抗性鲁棒性，而且还能向相关利益相关者提供可解释性变得越来越重要。然而，目前尚不清楚是否可以同时实现这两个概念，或者它们之间是否存在权衡。在这项工作中，我们首次尝试研究对抗性鲁棒模型对可操作解释的影响，这些解释为最终用户提供了追索权利。我们在理论和实证层面上分析了先进算法生成的追索结果的成本（实施的容易程度）和有效性（获得正向模型预测的概率），并比较了对抗性鲁棒和非鲁棒模型生成的追索结果之间的差异。具体而言，我们推导出对抗性鲁棒和非鲁棒模型生成的追索结果的成本和有效性之间的理论界限。
 
-    The proliferation of large AI models trained on uncurated, often sensitive web-scraped data has raised significant privacy concerns. One of the concerns is that adversaries can extract information about the training data using privacy attacks. Unfortunately, the task of removing specific information from the models without sacrificing performance is not straightforward and has proven to be challenging. We propose a rather easy yet effective defense based on backdoor attacks to remove private information such as names of individuals from models, and focus in this work on text encoders. Specifically, through strategic insertion of backdoors, we align the embeddings of sensitive phrases with those of neutral terms-"a person" instead of the person's name. Our empirical results demonstrate the effectiveness of our backdoor-based defense on CLIP by assessing its performance using a specialized privacy attack for zero-shot classifiers. Our approach provides not only a new "dual-use" perspecti
+    As machine learning models are increasingly being employed in various high-stakes settings, it becomes important to ensure that predictions of these models are not only adversarially robust, but also readily explainable to relevant stakeholders. However, it is unclear if these two notions can be simultaneously achieved or if there exist trade-offs between them. In this work, we make one of the first attempts at studying the impact of adversarially robust models on actionable explanations which provide end users with a means for recourse. We theoretically and empirically analyze the cost (ease of implementation) and validity (probability of obtaining a positive model prediction) of recourses output by state-of-the-art algorithms when the underlying models are adversarially robust vs. non-robust. More specifically, we derive theoretical bounds on the differences between the cost and the validity of the recourses generated by state-of-the-art algorithms for adversarially robust vs. non-ro
     
-[^22]: 利用自一致性提高数据有效的摊余贝叶斯推理方法
+[^22]: 基于贝叶斯自适应时刻正则化的鲁棒性持续学习
 
-    Leveraging Self-Consistency for Data-Efficient Amortized Bayesian Inference. (arXiv:2310.04395v1 [cs.LG])
+    Towards Robust Continual Learning with Bayesian Adaptive Moment Regularization. (arXiv:2309.08546v1 [cs.LG])
 
-    [http://arxiv.org/abs/2310.04395](http://arxiv.org/abs/2310.04395)
+    [http://arxiv.org/abs/2309.08546](http://arxiv.org/abs/2309.08546)
 
-    该论文提出了一种利用自一致性改进数据有效的摊余贝叶斯推理方法，通过反转贝叶斯定理并利用近似表示的联合模型估计边际似然，加速条件神经密度估计器的学习动力学。
+    基于贝叶斯自适应时刻正则化的鲁棒性持续学习方法能够在机器人应用中有效地解决灾难性遗忘问题，并具有轻量级和任务实验室等优势。
 
     
 
-    我们提出了一种方法，通过利用参数$\theta$和数据$y$的概率联合模型$p(\theta, y)$中的通用对称性，改进了摊余贝叶斯推理（ABI）的效率和准确性。简言之，我们反转贝叶斯定理，并基于近似表示的联合模型估计边际似然。在完美近似情况下，边际似然在所有参数值上都是常数定义的。然而，近似误差导致不同参数值的边际似然估计中存在不可取的方差。我们将这种对称性的违反形式化为损失函数，加速条件神经密度估计器的学习动力学。我们将我们的方法应用于具有显式似然（基于似然）的双峰玩具问题和具有隐式似然（基于模拟）的现实模型。
+    为了追求长期自主性，机器人代理必须不断适应不断变化的环境并学习解决新任务。持续学习试图克服灾难性遗忘的挑战，即学习解决新任务导致模型忘记先前学到的信息。基于先验的持续学习方法对于机器人应用具有吸引力，因为它们在空间效率上很高，并且通常不会随着任务数量的增加而增加计算复杂性。尽管具有这些理想的特性，但基于先验的方法通常在重要的基准测试中失败，因此与基于记忆的方法相比，在潜在应用方面有限。我们引入了贝叶斯自适应时刻正则化（BAdam），一种新的基于先验的方法，它更好地约束参数增长，降低灾难性遗忘。我们的方法在机器人应用中具有一系列理想的特性，例如轻量级和任务实验室。
 
-    We propose a method to improve the efficiency and accuracy of amortized Bayesian inference (ABI) by leveraging universal symmetries in the probabilistic joint model $p(\theta, y)$ of parameters $\theta$ and data $y$. In a nutshell, we invert Bayes' theorem and estimate the marginal likelihood based on approximate representations of the joint model. Upon perfect approximation, the marginal likelihood is constant across all parameter values by definition. However, approximation error leads to undesirable variance in the marginal likelihood estimates across different parameter values. We formulate violations of this symmetry as a loss function to accelerate the learning dynamics of conditional neural density estimators. We apply our method to a bimodal toy problem with an explicit likelihood (likelihood-based) and a realistic model with an implicit likelihood (simulation-based).
+    The pursuit of long-term autonomy mandates that robotic agents must continuously adapt to their changing environments and learn to solve new tasks. Continual learning seeks to overcome the challenge of catastrophic forgetting, where learning to solve new tasks causes a model to forget previously learnt information. Prior-based continual learning methods are appealing for robotic applications as they are space efficient and typically do not increase in computational complexity as the number of tasks grows. Despite these desirable properties, prior-based approaches typically fail on important benchmarks and consequently are limited in their potential applications compared to their memory-based counterparts. We introduce Bayesian adaptive moment regularization (BAdam), a novel prior-based method that better constrains parameter growth, leading to lower catastrophic forgetting. Our method boasts a range of desirable properties for robotic applications such as being lightweight and task lab
     
-[^23]: Era Splitting.（arXiv:2309.14496v1 [cs.LG]）
+[^23]: 结构感知的辛系统哈密顿（图）嵌入
 
-    Era Splitting. (arXiv:2309.14496v1 [cs.LG])
+    Symplectic Structure-Aware Hamiltonian (Graph) Embeddings. (arXiv:2309.04885v1 [cs.LG])
 
-    [http://arxiv.org/abs/2309.14496](http://arxiv.org/abs/2309.14496)
+    [http://arxiv.org/abs/2309.04885](http://arxiv.org/abs/2309.04885)
 
-    本研究提出了两种新的分裂准则，使得决策树模型能够利用时代信息进行优化，从而将超分布泛化研究中的思想应用于决策树模型。
+    本文提出了SAH-GNN，一种在图神经网络中应用结构感知的辛系统哈密顿嵌入方法。与传统方法不同，SAH-GNN通过在训练过程中自适应学习辛结构，避免了依赖预定义标准辛结构形式的限制，并能够适应不同的图数据集，同时保持物理意义上的能量守恒。
 
     
 
-    现实生活中的机器学习问题在时间和空间上会呈现出数据的分布变化。这种行为超出了传统的经验风险最小化范式的范围，该范式假设数据在时间和地点上是独立同分布的。新兴的超分布泛化领域通过将环境或时代信息融入算法中，来应对这个现实。迄今为止，大部分研究都集中在线性模型和/或神经网络上。在本研究中，我们针对决策树模型，包括随机森林和梯度提升决策树，开发了两种新的分裂准则，使得树模型能够利用与每个数据点相关的时代信息，来找到在数据的所有不相交时代中都是最优的切分点，从而将超分布泛化研究中的思想应用于决策树模型。
+    在传统的图神经网络（GNNs）中，固定嵌入流形的假设常常限制了其对不同图几何结构的适应性。最近，提出了基于哈密顿系统的GNNs，通过将物理定律纳入节点特征更新中，来解决这类嵌入的动态特性。在这项工作中，我们提出了SAH-GNN，一种新颖的方法，将哈密顿动力学推广到更灵活的节点特征更新中。与现有的受哈密顿启发的GNNs不同，SAH-GNN在训练过程中采用辛斯蒂费尔流形上的黎曼优化，自适应地学习潜在的辛结构，从而规避了现有依赖预定义标准辛结构形式的哈密顿GNNs的局限性。这一创新使得SAH-GNN能够在没有大量超参数调整的情况下自动适应各种图数据集。此外，它在训练过程中保持能量守恒，使得隐式哈密顿系统具有物理意义。
 
-    Real life machine learning problems exhibit distributional shifts in the data from one time to another or from on place to another. This behavior is beyond the scope of the traditional empirical risk minimization paradigm, which assumes i.i.d. distribution of data over time and across locations. The emerging field of out-of-distribution (OOD) generalization addresses this reality with new theory and algorithms which incorporate environmental, or era-wise information into the algorithms. So far, most research has been focused on linear models and/or neural networks. In this research we develop two new splitting criteria for decision trees, which allow us to apply ideas from OOD generalization research to decision tree models, including random forest and gradient-boosting decision trees. The new splitting criteria use era-wise information associated with each data point to allow tree-based models to find split points that are optimal across all disjoint eras in the data, instead of optim
+    In traditional Graph Neural Networks (GNNs), the assumption of a fixed embedding manifold often limits their adaptability to diverse graph geometries. Recently, Hamiltonian system-inspired GNNs are proposed to address the dynamic nature of such embeddings by incorporating physical laws into node feature updates. In this work, we present SAH-GNN, a novel approach that generalizes Hamiltonian dynamics for more flexible node feature updates. Unlike existing Hamiltonian-inspired GNNs, SAH-GNN employs Riemannian optimization on the symplectic Stiefel manifold to adaptively learn the underlying symplectic structure during training, circumventing the limitations of existing Hamiltonian GNNs that rely on a pre-defined form of standard symplectic structure. This innovation allows SAH-GNN to automatically adapt to various graph datasets without extensive hyperparameter tuning. Moreover, it conserves energy during training such that the implicit Hamiltonian system is physically meaningful. To thi
     
-[^24]: 一种用于电力系统事件识别的半监督方法
+[^24]: 学习基于专利的生物医学知识图谱揭示药物再定位候选物的技术潜力
 
-    A Semi-Supervised Approach for Power System Event Identification. (arXiv:2309.10095v1 [cs.LG])
+    Learning a Patent-Informed Biomedical Knowledge Graph Reveals Technological Potential of Drug Repositioning Candidates. (arXiv:2309.03227v1 [cs.AI])
 
-    [http://arxiv.org/abs/2309.10095](http://arxiv.org/abs/2309.10095)
+    [http://arxiv.org/abs/2309.03227](http://arxiv.org/abs/2309.03227)
 
-    提出了一种新颖的半监督框架，通过加入无标签的事件样本来评估提升现有事件识别方法的有效性。
+    本研究提出了一种使用药物专利和生物医学数据库相结合的方法，识别具有技术潜力和科学证据的药物再定位候选物。通过构建科学的生物医学知识图谱和基于专利的生物医学知识图谱，我们可以综合分析多种信息源，为药物再定位研究提供新的视角。
 
     
 
-    事件识别被越来越认识到对于提高电力系统的可靠性、安全性和稳定性至关重要。随着相量测量装置的日益普及和数据科学的进步，通过机器学习分类技术探索基于数据驱动的事件识别具有很大的潜力。然而，由于工作量大和实时事件类型（类）的不确定性，获取精确标注的事件数据样本仍然具有挑战性。因此，使用半监督学习技术（同时使用有标签和无标签样本）是很自然的选择。
+    药物再定位是一种发现现有药物新治疗用途的有前途的策略，近年来在计算科学文献中使用生物医学数据库进行了广泛探索。然而，药物再定位候选物的技术潜力经常被忽视。本研究提出了一种新的方法，综合分析药物专利和生物医学数据库等多种信息源，识别具有技术潜力和科学证据的药物再定位候选物。首先，我们构建了一个科学的生物医学知识图谱（s-BKG），包括来自生物医学数据库的药物、疾病和基因之间的关系。我们的方法涉及识别在s-BKG中与目标疾病关联有限但在空间上紧密相邻的药物作为潜在的药物候选物。然后，我们通过添加药物专利信息构建了一个基于专利的生物医学知识图谱（p-BKG）。
 
-    Event identification is increasingly recognized as crucial for enhancing the reliability, security, and stability of the electric power system. With the growing deployment of Phasor Measurement Units (PMUs) and advancements in data science, there are promising opportunities to explore data-driven event identification via machine learning classification techniques. However, obtaining accurately-labeled eventful PMU data samples remains challenging due to its labor-intensive nature and uncertainty about the event type (class) in real-time. Thus, it is natural to use semi-supervised learning techniques, which make use of both labeled and unlabeled samples. %We propose a novel semi-supervised framework to assess the effectiveness of incorporating unlabeled eventful samples to enhance existing event identification methodologies. We evaluate three categories of classical semi-supervised approaches: (i) self-training, (ii) transductive support vector machines (TSVM), and (iii) graph-based lab
+    Drug repositioning-a promising strategy for discovering new therapeutic uses for existing drugs-has been increasingly explored in the computational science literature using biomedical databases. However, the technological potential of drug repositioning candidates has often been overlooked. This study presents a novel protocol to comprehensively analyse various sources such as pharmaceutical patents and biomedical databases, and identify drug repositioning candidates with both technological potential and scientific evidence. To this end, first, we constructed a scientific biomedical knowledge graph (s-BKG) comprising relationships between drugs, diseases, and genes derived from biomedical databases. Our protocol involves identifying drugs that exhibit limited association with the target disease but are closely located in the s-BKG, as potential drug candidates. We constructed a patent-informed biomedical knowledge graph (p-BKG) by adding pharmaceutical patent information. Finally, we d
     
-[^25]: 受限斯坦变分轨迹优化
+[^25]: 使用机器学习从语音信号中检测喉癌：可复现的文献综述
 
-    Constrained Stein Variational Trajectory Optimization. (arXiv:2308.12110v1 [cs.RO] CROSS LISTED)
+    Detecting Throat Cancer from Speech Signals Using Machine Learning: A Reproducible Literature Review. (arXiv:2307.09230v1 [cs.LG])
 
-    [http://arxiv.org/abs/2308.12110](http://arxiv.org/abs/2308.12110)
+    [http://arxiv.org/abs/2307.09230](http://arxiv.org/abs/2307.09230)
 
-    CSVTO是一种受限斯坦变分轨迹优化算法，它通过斯坦变分梯度下降方法生成多样的约束满足轨迹集合，提高了在具有任意约束的问题中的优化性能和鲁棒性。
+    本研究对使用机器学习和人工智能从语音记录中检测喉癌的文献进行了综述，发现了22篇相关论文，讨论了它们的方法和结果。研究使用了神经网络和梅尔频率倒谱系数提取音频特征，并通过迁移学习实现了分类，取得了一定的准确率。
 
     
 
-    我们提出了一种受限斯坦变分轨迹优化（CSVTO）算法，用于在一组轨迹上进行带约束的轨迹优化。我们将受限轨迹优化视为一种新颖的对轨迹分布约束的函数最小化形式，避免将约束视为目标函数的惩罚，从而使我们能够生成多样的满足约束的轨迹集合。我们的方法使用斯坦变分梯度下降（SVGD）寻找一组粒子，近似表示一个低成本轨迹的分布，并遵守约束。CSVTO适用于具有任意等式和不等式约束的问题，并包括一种新颖的粒子重新采样步骤来避免局部最小值。通过明确生成多样的轨迹集合，CSVTO能够更好地避免不良的局部最小值，并且对初始化更具鲁棒性。我们证明，CSVTO在具有高度约束的挑战性问题上优于基线方法。
+    本文对使用机器学习和人工智能从语音记录中检测喉癌的当前文献进行了范围评估。我们找到了22篇相关论文，并讨论了它们的方法和结果。我们将这些论文分为两组 - 九篇进行二分类，13篇进行多类别分类。这些论文提出了一系列方法，其中最常见的是使用神经网络。在分类之前还从音频中提取了许多特征，其中最常见的是梅尔频率倒谱系数。在这次搜索中未找到任何带有代码库的论文，因此无法复现。因此，我们创建了一个公开可用的代码库来训练自己的分类器。我们在一个多类别问题上使用迁移学习，将三种病理和健康对照进行分类。使用这种技术，我们取得了53.54%的加权平均召回率、83.14%的敏感性和特异性。
 
-    We present Constrained Stein Variational Trajectory Optimization (CSVTO), an algorithm for performing trajectory optimization with constraints on a set of trajectories in parallel. We frame constrained trajectory optimization as a novel form of constrained functional minimization over trajectory distributions, which avoids treating the constraints as a penalty in the objective and allows us to generate diverse sets of constraint-satisfying trajectories. Our method uses Stein Variational Gradient Descent (SVGD) to find a set of particles that approximates a distribution over low-cost trajectories while obeying constraints. CSVTO is applicable to problems with arbitrary equality and inequality constraints and includes a novel particle resampling step to escape local minima. By explicitly generating diverse sets of trajectories, CSVTO is better able to avoid poor local minima and is more robust to initialization. We demonstrate that CSVTO outperforms baselines in challenging highly-constr
+    In this work we perform a scoping review of the current literature on the detection of throat cancer from speech recordings using machine learning and artificial intelligence. We find 22 papers within this area and discuss their methods and results. We split these papers into two groups - nine performing binary classification, and 13 performing multi-class classification. The papers present a range of methods with neural networks being most commonly implemented. Many features are also extracted from the audio before classification, with the most common bring mel-frequency cepstral coefficients. None of the papers found in this search have associated code repositories and as such are not reproducible. Therefore, we create a publicly available code repository of our own classifiers. We use transfer learning on a multi-class problem, classifying three pathologies and healthy controls. Using this technique we achieve an unweighted average recall of 53.54%, sensitivity of 83.14%, and specif
     
-[^26]: FedPop: 联邦式基于人口的超参数调优
+[^26]: 优化器的信息准则：剖析和纠正数据驱动优化中的偏差
 
-    FedPop: Federated Population-based Hyperparameter Tuning. (arXiv:2308.08634v1 [cs.LG])
+    Optimizer's Information Criterion: Dissecting and Correcting Bias in Data-Driven Optimization. (arXiv:2306.10081v2 [cs.LG] UPDATED)
 
-    [http://arxiv.org/abs/2308.08634](http://arxiv.org/abs/2308.08634)
+    [http://arxiv.org/abs/2306.10081](http://arxiv.org/abs/2306.10081)
 
-    FedPop是一种用于解决联邦学习中超参数调优问题的新算法，它采用基于人口的进化算法来优化客户端和服务器上的超参数。
+    这项研究提出了一个称为优化器的信息准则(OIC)的通用偏差校正方法，帮助解决数据驱动优化中的乐观偏差问题。该方法直接近似一阶偏差，并且不需要解决额外的优化问题，是在决策选择方面的一个创新。
 
     
 
-    联邦学习（FL）是一种分布式机器学习（ML）范式，多个客户端在不集中本地数据的情况下共同训练ML模型。与传统的ML流程类似，FL中的客户端本地优化和服务器聚合过程对超参数（HP）的选择非常敏感。尽管在集中式ML中对调优HP进行了广泛研究，但将这些方法应用于FL时会产生次优结果。这主要是因为它们的“调优后训练”框架对于计算能力有限的FL不合适。虽然一些方法已经提出用于FL中的HP调优，但这些方法仅限于客户端本地更新的HP。在这项工作中，我们提出了一种名为联邦式基于人口的超参数调优（FedPop）的新型HP调优算法，以解决这个重要但具有挑战性的问题。FedPop采用基于人口的进化算法来优化HP，此算法适用于客户端和服务器上的各种HP类型。
+    在数据驱动的优化中，所得决策的样本表现通常存在着对真实表现的乐观偏差，这种现象通常被称为优化器的诅咒，与机器学习中的过拟合密切相关。传统的纠正这种偏差的技术，如交叉验证，需要反复解决额外的优化问题，因此计算代价很高。我们开发了一种通用的偏差校正方法，建立在我们称之为优化器的信息准则（OIC）的基础上，直接近似一阶偏差，不需要解决任何额外的优化问题。我们的OIC将著名的赤池信息准则推广到数据驱动优化中，关键是评估客观表现，不仅涉及模型拟合，还涉及其与下游优化的相互作用。因此，它可以用于决策选择而不仅仅是模型选择。我们将我们的方法应用于一系列问题的数据驱动优化。
 
-    Federated Learning (FL) is a distributed machine learning (ML) paradigm, in which multiple clients collaboratively train ML models without centralizing their local data. Similar to conventional ML pipelines, the client local optimization and server aggregation procedure in FL are sensitive to the hyperparameter (HP) selection. Despite extensive research on tuning HPs for centralized ML, these methods yield suboptimal results when employed in FL. This is mainly because their "training-after-tuning" framework is unsuitable for FL with limited client computation power. While some approaches have been proposed for HP-Tuning in FL, they are limited to the HPs for client local updates. In this work, we propose a novel HP-tuning algorithm, called Federated Population-based Hyperparameter Tuning (FedPop), to address this vital yet challenging problem. FedPop employs population-based evolutionary algorithms to optimize the HPs, which accommodates various HP types at both client and server sides
+    In data-driven optimization, the sample performance of the obtained decision typically incurs an optimistic bias against the true performance, a phenomenon commonly known as the Optimizer's Curse and intimately related to overfitting in machine learning. Common techniques to correct this bias, such as cross-validation, require repeatedly solving additional optimization problems and are therefore computationally expensive. We develop a general bias correction approach, building on what we call Optimizer's Information Criterion (OIC), that directly approximates the first-order bias and does not require solving any additional optimization problems. Our OIC generalizes the celebrated Akaike Information Criterion to evaluate the objective performance in data-driven optimization, which crucially involves not only model fitting but also its interplay with the downstream optimization. As such it can be used for decision selection instead of only model selection. We apply our approach to a rang
     
-[^27]: 基于数据的深度学习方法进行气道分割
+[^27]: 自下而上何时击败自上而下进行分层社区检测？
 
-    A data-centric deep learning approach to airway segmentation. (arXiv:2308.00008v1 [eess.IV])
+    When Does Bottom-up Beat Top-down in Hierarchical Community Detection?. (arXiv:2306.00833v1 [cs.SI])
 
-    [http://arxiv.org/abs/2308.00008](http://arxiv.org/abs/2308.00008)
+    [http://arxiv.org/abs/2306.00833](http://arxiv.org/abs/2306.00833)
 
-    我们提出了一种基于数据的深度学习技术来进行气道分割，通过插值和图像分割提高数据质量，采用集成学习策略在多个尺度上聚合气道树，性能优于基线模型，适用于任何2D深度学习模型。
+    本文研究了使用自下而上算法恢复Hierarchical Stochastic Block Model的树形结构和社区结构的理论保证，并确定了其在中间层次上达到了确切恢复信息理论阈值。
 
     
 
-    气道树异常的形态和分布可以用于诊断和疾病表征各种慢性呼吸状况。在这方面，气道分割在生成整个气道树轮廓以估计疾病范围和严重程度方面起着关键作用。在本研究中，我们提出了一种基于数据的深度学习技术来分割气道树。所提出的技术利用插值和图像分割来提高数据的有用性和质量。然后，我们实施了一个集成学习策略来聚合不同尺度下的分割的气道树。在分割性能方面（Dice相似系数），当使用组合损失时，我们的方法平均优于基线模型2.5%。此外，我们提出的技术使用GPU较少，灵活性高，可以部署在任何2D深度学习模型上。
+    网络的分层聚类是指查找一组社区的树形结构，其中层次结构的较低级别显示更细粒度的社区结构。解决这一问题的算法有两个主要类别：自上而下的算法和自下而上的算法。本文研究了使用自下而上算法恢复分层随机块模型的树形结构和社区结构的理论保证。我们还确定了这种自下而上算法在层次结构的中间层次上达到了确切恢复信息理论阈值。值得注意的是，这些恢复条件相对于现有的自上而下算法的条件来说，限制更少。
 
-    The morphology and distribution of airway tree abnormalities enables diagnosis and disease characterisation across a variety of chronic respiratory conditions. In this regard, airway segmentation plays a critical role in the production of the outline of the entire airway tree to enable estimation of disease extent and severity. In this study, we propose a data-centric deep learning technique to segment the airway tree. The proposed technique utilises interpolation and image split to improve data usefulness and quality. Then, an ensemble learning strategy is implemented to aggregate the segmented airway trees at different scales. In terms of segmentation performance (dice similarity coefficient), our method outperforms the baseline model by 2.5% on average when a combined loss is used. Further, our proposed technique has a low GPU usage and high flexibility enabling it to be deployed on any 2D deep learning model.
+    Hierarchical clustering of networks consists in finding a tree of communities, such that lower levels of the hierarchy reveal finer-grained community structures. There are two main classes of algorithms tackling this problem. Divisive ($\textit{top-down}$) algorithms recursively partition the nodes into two communities, until a stopping rule indicates that no further split is needed. In contrast, agglomerative ($\textit{bottom-up}$) algorithms first identify the smallest community structure and then repeatedly merge the communities using a $\textit{linkage}$ method. In this article, we establish theoretical guarantees for the recovery of the hierarchical tree and community structure of a Hierarchical Stochastic Block Model by a bottom-up algorithm. We also establish that this bottom-up algorithm attains the information-theoretic threshold for exact recovery at intermediate levels of the hierarchy. Notably, these recovery conditions are less restrictive compared to those existing for to
     
-[^28]: 高效的半监督异构参与者联邦学习
+[^28]: 向量值变分空间和DNN的宽度界：关于权重衰减正则化的见解。
 
-    Efficient Semi-Supervised Federated Learning for Heterogeneous Participants. (arXiv:2307.15870v1 [cs.LG])
+    Vector-Valued Variation Spaces and Width Bounds for DNNs: Insights on Weight Decay Regularization. (arXiv:2305.16534v1 [stat.ML])
 
-    [http://arxiv.org/abs/2307.15870](http://arxiv.org/abs/2307.15870)
+    [http://arxiv.org/abs/2305.16534](http://arxiv.org/abs/2305.16534)
 
-    本论文提出了一种高效的半监督异构参与者联邦学习系统，通过引入聚类正则化来改进模型在数据非独立同分布情况下的性能，并对模型收敛性进行了理论和实验研究。
+    该论文提供了关于通过加权衰减训练的多输出ReLU神经网络的函数类型和相应的解决方案的新见解。
 
     
 
-    联邦学习（FL）允许多个客户端在私有数据上协同训练机器学习模型，但在资源有限的环境中训练和部署大型模型用于广泛应用是具有挑战性的。幸运的是，分离式联邦学习（SFL）通过减轻客户端的计算和通信负担提供了优秀的解决方案。SFL通常假设客户端具有标记的数据进行本地训练，然而在实践中并非总是如此。以前的研究采用半监督技术来利用FL中的无标记数据，但数据的非独立同分布性提出了确保训练效率的另一个挑战。在这里，我们提出了一种新颖的系统Pseudo-Clustering Semi-SFL，用于在标记数据位于服务器上的情境下训练模型。通过引入聚类正则化，可以提高数据非独立同分布情况下的模型性能。此外，我们对模型收敛性进行了理论和实验研究，发现了...
+    深度神经网络(DNNs)通过梯度下降最小化损失项和平方权重和相应，对应于训练加权衰减的常见方法。本文提供了有关这种常见学习框架的新见解。我们表征了训练加权衰减以获得多输出(向量值)ReLU神经网络学习的函数类型。这扩展了先前限于单输出(标量值)网络的表征。这种表征需要定义我们称之为向量值变分(VV)空间的新类神经函数空间。我们通过一种新的表征定理证明，神经网络(NNs)是通过VV空间中提出学习问题的最优解。这个新的表征定理表明，这些学习问题的解存在于宽度受训练数据数限制的向量值神经网络中。接下来，通过与多任务lasso问题的新联系，我们导出了
 
-    Federated Learning (FL) has emerged to allow multiple clients to collaboratively train machine learning models on their private data. However, training and deploying large models for broader applications is challenging in resource-constrained environments. Fortunately, Split Federated Learning (SFL) offers an excellent solution by alleviating the computation and communication burden on the clients SFL often assumes labeled data for local training on clients, however, it is not the case in practice.Prior works have adopted semi-supervised techniques for leveraging unlabeled data in FL, but data non-IIDness poses another challenge to ensure training efficiency. Herein, we propose Pseudo-Clustering Semi-SFL, a novel system for training models in scenarios where labeled data reside on the server. By introducing Clustering Regularization, model performance under data non-IIDness can be improved. Besides, our theoretical and experimental investigations into model convergence reveal that the 
+    Deep neural networks (DNNs) trained to minimize a loss term plus the sum of squared weights via gradient descent corresponds to the common approach of training with weight decay. This paper provides new insights into this common learning framework. We characterize the kinds of functions learned by training with weight decay for multi-output (vector-valued) ReLU neural networks. This extends previous characterizations that were limited to single-output (scalar-valued) networks. This characterization requires the definition of a new class of neural function spaces that we call vector-valued variation (VV) spaces. We prove that neural networks (NNs) are optimal solutions to learning problems posed over VV spaces via a novel representer theorem. This new representer theorem shows that solutions to these learning problems exist as vector-valued neural networks with widths bounded in terms of the number of training data. Next, via a novel connection to the multi-task lasso problem, we derive
     
-[^29]: 批量预测器在分布内具有广义性。
+[^29]: 基于摘要描述的文本检索
 
-    Batched Predictors Generalize within Distribution. (arXiv:2307.09379v1 [stat.ML])
+    Retrieving Texts based on Abstract Descriptions. (arXiv:2305.12517v2 [cs.CL] UPDATED)
 
-    [http://arxiv.org/abs/2307.09379](http://arxiv.org/abs/2307.09379)
+    [http://arxiv.org/abs/2305.12517](http://arxiv.org/abs/2305.12517)
 
-    批量预测器提供了指数级更强的泛化保证，可应用于离线测试前化合物质量的预测任务。
+    本研究针对语义检索问题，提出了一种基于摘要描述的文本检索模型，通过改进当前的文本嵌入方法，在标准最近邻搜索中取得了显著性能提升。
 
     
 
-    我们研究了批量预测器的广义性质，即任务是预测一小组（或批量）示例的均值标签的模型。批量预测范式对于部署在离线测试前确定一组化合物的质量的模型尤为相关。通过利用适当的Rademacher复杂性的广义化，我们证明批量预测器具有指数级更强的泛化保证，与标准的逐个样本方法相比。令人惊讶的是，该提议的上界独立于过参数化。我们的理论洞察力在各种任务、架构和应用中通过实验证实。
+    虽然针对文本的信息提取，指令优化的大型语言模型表现优异，但对于在大规模文档集合中定位符合给定描述的文本（语义检索）并不适用。基于嵌入向量的相似度搜索可以通过查询执行检索，但嵌入中的相似度定义不明确且不一致，并且对于许多用例来说都是次优的。那么，什么是有效检索的好的查询表示？我们确定了根据内容的摘要描述检索句子的明确定义且一致的任务。我们展示了当前文本嵌入的不足，并提出了一种替代模型，在标准最近邻搜索中的表现显著提升。该模型使用通过提示LLM获得的正负样本对进行训练。虽然很容易从LLM中获得训练材料，但LLM无法直接执行检索任务。
 
-    We study the generalization properties of batched predictors, i.e., models tasked with predicting the mean label of a small set (or batch) of examples. The batched prediction paradigm is particularly relevant for models deployed to determine the quality of a group of compounds in preparation for offline testing. By utilizing a suitable generalization of the Rademacher complexity, we prove that batched predictors come with exponentially stronger generalization guarantees as compared to the standard per-sample approach. Surprisingly, the proposed bound holds independently of overparametrization. Our theoretical insights are validated experimentally for various tasks, architectures, and applications.
+    While instruction-tuned Large Language Models (LLMs) excel at extracting information from text, they are not suitable for locating texts conforming to a given description in a large document collection (semantic retrieval). Similarity search over embedding vectors does allow to perform retrieval by query, but the similarity reflected in the embedding is ill-defined and non-consistent, and is sub-optimal for many use cases. What, then, is a good query representation for effective retrieval?  We identify the well defined and consistent task of retrieving sentences based on abstract descriptions of their content. We demonstrate the inadequacy of current text embeddings and propose an alternative model that significantly improves when used in standard nearest neighbor search. The model is trained using positive and negative pairs sourced through prompting a LLM. While it is easy to source the training material from an LLM, the retrieval task cannot be performed by the LLM directly. This de
     
-[^30]: 匹配追踪的快速收敛速度
+[^30]: 拓扑数据分析中的欧拉特征工具
 
-    Sharp Convergence Rates for Matching Pursuit. (arXiv:2307.07679v1 [stat.ML])
+    Euler Characteristic Tools For Topological Data Analysis. (arXiv:2303.14040v1 [cs.LG])
 
-    [http://arxiv.org/abs/2307.07679](http://arxiv.org/abs/2307.07679)
+    [http://arxiv.org/abs/2303.14040](http://arxiv.org/abs/2303.14040)
 
-    本文通过提升现有的下界来匹配最佳上界，对匹配追踪的性能进行了精确描述，并构造了一个最坏情况的字典来证明现有上界的无法改进。
+    本文研究了欧拉特征技术在拓扑数据分析中的应用，利用点运算欧拉特征得到欧拉特征轮廓，在监督和无监督任务中实现了最先进性能，并提供了欧拉轮廓及其混合变换捕捉信息的启发式方法。
 
     
 
-    本文研究了匹配追踪的基本限制，即通过字典中的元素的稀疏线性组合来近似目标函数的纯贪婪算法。当目标函数包含在对应于字典的变化空间中时，许多令人印象深刻的研究在过去几十年中获得了匹配追踪的收敛速度的上界和下界，但它们并不匹配。本文的主要贡献是填补这一差距，并获得匹配追踪性能的精确描述。我们通过改进现有的下界以匹配最佳上界来实现这一目标。具体来说，我们构造了一个最坏情况的字典，证明了现有的上界不能改进。事实证明，与其他贪婪算法变体不同，收敛速度是次优的，并且由解某个非线性方程的解决方案决定。这使我们得出结论，任意程度的收缩都会改善匹配追踪效果。
+    本文研究了拓扑数据分析中的欧拉特征技术。从数据构建的一族单纯复合体的点运算欧拉特征，得到所谓的欧拉特征轮廓。我们展示了这个简单描述符以极低的计算成本在监督任务中实现了最先进性能。受信号分析的启发，我们计算欧拉特征轮廓的混合变换。这些积分变换将欧拉特征技术与勒贝格积分混合，提供高效压缩拓扑信号。因此，它们在无监督设置中表现出卓越的性能。在定性方面，我们提供了关于欧拉轮廓及其混合变换所捕捉的拓扑和几何信息的众多启发式方法。最后，我们证明了这些描述符的稳定性结果以及在随机设置下的渐近保证。
 
-    We study the fundamental limits of matching pursuit, or the pure greedy algorithm, for approximating a target function by a sparse linear combination of elements from a dictionary. When the target function is contained in the variation space corresponding to the dictionary, many impressive works over the past few decades have obtained upper and lower bounds on the convergence rate of matching pursuit, but they do not match. The main contribution of this paper is to close this gap and obtain a sharp characterization of the performance of matching pursuit. We accomplish this by improving the existing lower bounds to match the best upper bound. Specifically, we construct a worst case dictionary which proves that the existing upper bound cannot be improved. It turns out that, unlike other greedy algorithm variants, the converge rate is suboptimal and is determined by the solution to a certain non-linear equation. This enables us to conclude that any amount of shrinkage improves matching pu
+    In this article, we study Euler characteristic techniques in topological data analysis. Pointwise computing the Euler characteristic of a family of simplicial complexes built from data gives rise to the so-called Euler characteristic profile. We show that this simple descriptor achieve state-of-the-art performance in supervised tasks at a very low computational cost. Inspired by signal analysis, we compute hybrid transforms of Euler characteristic profiles. These integral transforms mix Euler characteristic techniques with Lebesgue integration to provide highly efficient compressors of topological signals. As a consequence, they show remarkable performances in unsupervised settings. On the qualitative side, we provide numerous heuristics on the topological and geometric information captured by Euler profiles and their hybrid transforms. Finally, we prove stability results for these descriptors as well as asymptotic guarantees in random settings.
     
-[^31]: 循环记忆决策变压器
+[^31]: 标签效率的时间序列表示学习：一项综述
 
-    Recurrent Memory Decision Transformer. (arXiv:2306.09459v1 [cs.LG])
+    Label-efficient Time Series Representation Learning: A Review. (arXiv:2302.06433v2 [cs.LG] UPDATED)
 
-    [http://arxiv.org/abs/2306.09459](http://arxiv.org/abs/2306.09459)
+    [http://arxiv.org/abs/2302.06433](http://arxiv.org/abs/2302.06433)
 
-    本文提出了循环记忆决策变压器（RMDT）模型，用于处理强化学习中的长序列问题。在Atari游戏和MoJoCo控制问题上的实验表明，采用循环记忆机制的RMDT模型显着优于其没有循环记忆机制的对应模型。
+    这篇综述介绍了针对时间序列数据中标记数据稀缺性问题的现有方法，并提供了一个新颖的分类系统来归纳这些方法。该综述总结了每种方法的最新进展并提出了未来的研究方向。
 
     
 
-    变革性模型最初是为自然语言问题而开发的，最近在离线强化学习任务中得到广泛应用。这是因为代理的历史可以表示为序列，并且整个任务可以缩减为序列建模任务。然而，变压器操作的二次复杂性限制了上下文的潜在增加。因此，为了在自然语言中处理长序列，使用了不同版本的记忆机制。在本文中，我们提出了循环记忆决策变压器（RMDT），这是一种在强化学习问题中使用循环记忆机制的模型。我们在Atari游戏和MoJoCo控制问题上进行了彻底的实验，并表明我们提出的模型在Atari游戏上显着优于没有循环记忆机制的对应模型。我们还仔细研究了记忆对所提出的模型绩效的影响。这些发现为开发更高效和更有效的处理长序列的强化学习模型提供了启示。
+    标记数据的稀缺性是在现实世界中应用深度学习模型于时间序列数据时的主要挑战之一。因此，最近已经开发了几种方法，例如迁移学习，自监督学习和半监督学习，以促进深度学习模型从有限的时间序列标签中获取学习能力。在本综述中，我们首次提供了一个新颖的分类系统，用来根据它们对外部数据源的依赖，对解决时间序列数据中标记数据稀缺性问题的现有方法进行分类。此外，我们对每种方法的最新进展进行了审查，并总结了当前工作的局限性，并提供了可能在这一领域取得更好进展的未来方向。
 
-    Transformative models, originally developed for natural language problems, have recently been widely used in offline reinforcement learning tasks. This is due to the fact that the agent's history can be represented as a sequence, and the whole task can be reduced to the sequence modeling task. However, the quadratic complexity of the transformer operation limits the potential increase in context. Therefore, to work with long sequences in a natural language, different versions of the memory mechanism are used. In this paper, we propose the Recurrent Memory Decision Transformer (RMDT), a model that uses a recurrent memory mechanism for reinforcement learning problems. We conduct thorough experiments on Atari games and MoJoCo control problems, and show that our proposed model is significantly superior to its counterparts without the recurrent memory mechanism on Atari games. We also carefully study the effect of memory on the performance of the proposed model. These findings shed light on
+    The scarcity of labeled data is one of the main challenges of applying deep learning models on time series data in the real world. Therefore, several approaches, e.g., transfer learning, self-supervised learning, and semi-supervised learning, have been recently developed to promote the learning capability of deep learning models from the limited time series labels. In this survey, for the first time, we provide a novel taxonomy to categorize existing approaches that address the scarcity of labeled data problem in time series data based on their dependency on external data sources. Moreover, we present a review of the recent advances in each approach and conclude the limitations of the current works and provide future directions that could yield better progress in the field.
     
-[^32]: 基于机器学习的分类数据集缺失值插补研究
+[^32]: 物理学知识作为不确定性量化模型的信息场理论
 
-    Machine Learning Based Missing Values Imputation in Categorical Datasets. (arXiv:2306.06338v1 [cs.LG])
+    Physics-informed Information Field Theory for Modeling Physical Systems with Uncertainty Quantification. (arXiv:2301.07609v2 [stat.ML] UPDATED)
 
-    [http://arxiv.org/abs/2306.06338](http://arxiv.org/abs/2306.06338)
+    [http://arxiv.org/abs/2301.07609](http://arxiv.org/abs/2301.07609)
 
-    本文研究了使用机器学习算法预测和插补分类数据集中的缺失值，使用ECOC框架的集成模型相比于单个模型效果更好，但使用深度学习存在挑战和局限性。
+    该论文扩展了信息场理论(IFT)到物理信息场理论(PIFT)，将描述场的物理定律的信息编码为函数先验。从这个PIFT得出的后验与任何数值方案无关，并且可以捕捉多种模式。
 
     
 
-    本研究探讨了使用机器学习算法在分类数据集中预测和插补缺失值的方法。我们着重研究了使用误差纠正输出码(ECOC)框架的集成模型，包括基于SVM和KNN的集成模型，以及结合了SVM、KNN和MLP模型的集成分类器。我们将这些算法应用于三个数据集: CPU数据集、甲状腺功能减退数据集和乳腺癌数据集。实验结果表明，机器学习算法能够在预测和插补缺失值方面取得良好的性能，具体结果因数据集和缺失值模式而异。采用误差纠正输出码(ECOC)框架的集成模型相对于单个模型在提高预测准确性和鲁棒性方面特别有效。然而，使用深度学习进行缺失值插补也存在挑战和局限性。
+    数据驱动的方法结合物理学知识是建模系统的强有力技术。此类模型的目标是通过将测量结果与已知物理定律相结合，高效地求解基本场。由于许多系统包含未知元素，如缺失参数、嘈杂数据或不完整的物理定律，因此这通常被视为一种不确定性量化问题。处理所有变量的常见技术通常取决于用于近似后验的数值方案，并且希望有一种不依赖于任何离散化的方法。信息场理论（IFT）提供了对不一定是高斯场的场进行统计学的工具。我们通过将描述场的物理定律的信息编码为函数先验来扩展IFT到物理信息场理论（PIFT）。从这个PIFT得出的后验与任何数值方案无关，并且可以捕捉多种模式。
 
-    This study explored the use of machine learning algorithms for predicting and imputing missing values in categorical datasets. We focused on ensemble models that use the error correction output codes (ECOC) framework, including SVM-based and KNN-based ensemble models, as well as an ensemble classifier that combines SVM, KNN, and MLP models. We applied these algorithms to three datasets: the CPU dataset, the hypothyroid dataset, and the Breast Cancer dataset. Our experiments showed that the machine learning algorithms were able to achieve good performance in predicting and imputing the missing values, with some variations depending on the specific dataset and missing value pattern. The ensemble models using the error correction output codes (ECOC) framework were particularly effective in improving the accuracy and robustness of the predictions, compared to individual models. However, there are also challenges and limitations to using deep learning for missing value imputation, including
+    Data-driven approaches coupled with physical knowledge are powerful techniques to model systems. The goal of such models is to efficiently solve for the underlying field by combining measurements with known physical laws. As many systems contain unknown elements, such as missing parameters, noisy data, or incomplete physical laws, this is widely approached as an uncertainty quantification problem. The common techniques to handle all the variables typically depend on the numerical scheme used to approximate the posterior, and it is desirable to have a method which is independent of any such discretization. Information field theory (IFT) provides the tools necessary to perform statistics over fields that are not necessarily Gaussian. We extend IFT to physics-informed IFT (PIFT) by encoding the functional priors with information about the physical laws which describe the field. The posteriors derived from this PIFT remain independent of any numerical scheme and can capture multiple modes,
     
-[^33]: 使用深度多元图像完成进行高分辨率乳腺扫描的无监督异常定位
+[^33]: $\Phi$-DVAE: 物理指导的动态变分自编码器用于非结构化数据同化
 
-    Unsupervised anomaly localization in high-resolution breast scans using deep pluralistic image completion. (arXiv:2305.03098v1 [eess.IV])
+    $\Phi$-DVAE: Physics-Informed Dynamical Variational Autoencoders for Unstructured Data Assimilation. (arXiv:2209.15609v2 [stat.ML] UPDATED)
 
-    [http://arxiv.org/abs/2305.03098](http://arxiv.org/abs/2305.03098)
+    [http://arxiv.org/abs/2209.15609](http://arxiv.org/abs/2209.15609)
 
-    本文提出了一种利用深度多元图像完成方法进行乳腺扫描异常定位的无监督方法，该方法通过探索完成的多元性来提高评估标准的精度。
+    本文提出了一种物理指导的动态变分自编码器 ($\Phi$-DVAE) 用于将非结构化数据同化到物理模型中，解决了传统方法在未知映射情况下无法实现一致模型与数据综合的问题。
 
     
 
-    数字乳腺摄影中的自动肿瘤检测是一项困难的任务，由于肿瘤很少出现，乳房组织变异和高分辨率。针对这个问题，鉴于异常图像的稀缺性和正常图像的丰富性，异常检测/定位方法可能非常适合。然而，机器学习中大部分异常定位研究集中在非医学数据集上，我们发现这些方法在医学图像数据集上适应性不足。这个问题可以通过解决图像完成视角下的任务得到缓解，其中异常的存在可以通过原始外观与其环境条件下自动完成之间的差异来指示。然而，在DBT数据集中，往往有很多相同环境条件下的有效的正常完成，使这个评估标准不太精确。为了解决这个问题，我们考虑通过探索完成的多元性来进行图像完成。
+    在数据同化中，将非结构化数据纳入物理模型是一个具有挑战性的问题。传统方法通常关注具有明确定义观测算子的情况，其函数形式通常被假定为已知。这阻止了这些方法在从数据空间到模型空间的映射未知的配置中实现一致的模型与数据综合。为了解决这些问题，在本文中我们开发了一种物理指导的动态变分自编码器($\Phi$-DVAE)，将多样化的数据流嵌入到由微分方程描述的时变物理系统中。我们的方法结合了一个标准的、可能是非线性的潜在状态空间模型滤波器和一个变分自编码器，将非结构化数据同化到潜在的动态系统中。在我们的示例系统中，非结构化数据采用视频数据和速度场测量的形式，但该方法的适用性足够通用，可以允许任意未知的观测算子。
 
-    Automated tumor detection in Digital Breast Tomosynthesis (DBT) is a difficult task due to natural tumor rarity, breast tissue variability, and high resolution. Given the scarcity of abnormal images and the abundance of normal images for this problem, an anomaly detection/localization approach could be well-suited. However, most anomaly localization research in machine learning focuses on non-medical datasets, and we find that these methods fall short when adapted to medical imaging datasets. The problem is alleviated when we solve the task from the image completion perspective, in which the presence of anomalies can be indicated by a discrepancy between the original appearance and its auto-completion conditioned on the surroundings. However, there are often many valid normal completions given the same surroundings, especially in the DBT dataset, making this evaluation criterion less precise. To address such an issue, we consider pluralistic image completion by exploring the distributi
+    Incorporating unstructured data into physical models is a challenging problem that is emerging in data assimilation. Traditional approaches focus on well-defined observation operators whose functional forms are typically assumed to be known. This prevents these methods from achieving a consistent model-data synthesis in configurations where the mapping from data-space to model-space is unknown. To address these shortcomings, in this paper we develop a physics-informed dynamical variational autoencoder ($\Phi$-DVAE) to embed diverse data streams into time-evolving physical systems described by differential equations. Our approach combines a standard, possibly nonlinear, filter for the latent state-space model and a VAE, to assimilate the unstructured data into the latent dynamical system. Unstructured data, in our example systems, comes in the form of video data and velocity field measurements, however the methodology is suitably generic to allow for arbitrary unknown observation operat
     
-[^34]: 图上反事实学习：综述
+[^34]: 目标自适应设计
 
-    Counterfactual Learning on Graphs: A Survey. (arXiv:2304.01391v1 [cs.LG])
+    Targeted Adaptive Design. (arXiv:2205.14208v2 [cs.LG] UPDATED)
 
-    [http://arxiv.org/abs/2304.01391](http://arxiv.org/abs/2304.01391)
+    [http://arxiv.org/abs/2205.14208](http://arxiv.org/abs/2205.14208)
 
-    本文综述了图上反事实学习的研究进展，包括反事实公平性、可解释性、链路预测等不同应用问题，并提出了未来的研究方向。
+    TAD是一种新的目标自适应设计算法，可以通过高斯过程代理模型在指定公差中确定产生期望设计特征的最佳控制设置，相比其他自适应设计算法，具有更高的精度和效率。
 
     
 
-    图结构数据在现实世界中非常普遍，如社交网络、分子图和交易网络。图神经网络（GNNs）在图表示学习方面取得了巨大的成功，促进了各种下游任务。然而，GNN具有一些缺点，如缺乏可解释性、容易继承训练数据的偏见，不能建模因果关系。最近，图上反事实学习已经显示出在缓解这些缺点方面具有很有前途的结果。为了促进这个有前途的方向的发展，本综述将分类和全面地评估反事实图学习论文，为每个类别提供背景和激励性例子、一般框架和代表性方法的讨论。最后，我们总结了图上反事实学习的挑战和机遇，并指出未来的研究方向。
+    现代先进制造和高级材料设计往往需要在较高维度的过程控制参数空间中搜索最佳结构、性能和性能参数的设置。从前者到后者的映射必须通过嘈杂的实验或昂贵的模拟来确定。我们把这个问题抽象成一个数学框架，其中必须通过昂贵的嘈杂测量来确定从控制空间到设计空间的未知函数，该函数在指定的公差范围内定位产生期望设计特征的最佳控制设置，并量化不确定性。我们描述了目标自适应设计 (TAD)，这是一种有效执行这个采样任务的新算法。TAD 在每个迭代阶段创建一个未知映射的高斯过程代理模型，建议一批新的控制设置进行实验采样，并优化更新的目标设计特征的对数预测似然。
 
-    Graph-structured data are pervasive in the real-world such as social networks, molecular graphs and transaction networks. Graph neural networks (GNNs) have achieved great success in representation learning on graphs, facilitating various downstream tasks. However, GNNs have several drawbacks such as lacking interpretability, can easily inherit the bias of the training data and cannot model the casual relations. Recently, counterfactual learning on graphs has shown promising results in alleviating these drawbacks. Various graph counterfactual learning approaches have been proposed for counterfactual fairness, explainability, link prediction and other applications on graphs. To facilitate the development of this promising direction, in this survey, we categorize and comprehensively review papers on graph counterfactual learning. We divide existing methods into four categories based on research problems studied. For each category, we provide background and motivating examples, a general f
+    Modern advanced manufacturing and advanced materials design often require searches of relatively high-dimensional process control parameter spaces for settings that result in optimal structure, property, and performance parameters. The mapping from the former to the latter must be determined from noisy experiments or from expensive simulations. We abstract this problem to a mathematical framework in which an unknown function from a control space to a design space must be ascertained by means of expensive noisy measurements, which locate optimal control settings generating desired design features within specified tolerances, with quantified uncertainty. We describe targeted adaptive design (TAD), a new algorithm that performs this sampling task efficiently. TAD creates a Gaussian process surrogate model of the unknown mapping at each iterative stage, proposing a new batch of control settings to sample experimentally and optimizing the updated log-predictive likelihood of the target desi
     
-[^35]: 拉普拉斯分割网络: 从空间数据不确定性到改进的认知不确定性
+[^35]: EXACT: 如何提高准确率的训练方法。
 
-    Laplacian Segmentation Networks: Improved Epistemic Uncertainty from Spatial Aleatoric Uncertainty. (arXiv:2303.13123v1 [cs.CV])
+    EXACT: How to Train Your Accuracy. (arXiv:2205.09615v4 [cs.LG] UPDATED)
 
-    [http://arxiv.org/abs/2303.13123](http://arxiv.org/abs/2303.13123)
+    [http://arxiv.org/abs/2205.09615](http://arxiv.org/abs/2205.09615)
 
-    所提出的拉普拉斯分割网络可同时捕获图像分割中的认知和随机不确定性，成功将高认知不确定性分配到OOF目标中。
+    本文提出了一种新的分类任务优化框架，通过引入随机性，优化期望准确率，取得了强有力的替代分类损失的结果。
 
     
 
-    媒体图像常常会出现非正常的情况，例如因为位置或扫描器的不同或图像损坏等原因而经常出现，这种媒体图像可能会对下游临床诊断或治疗产生影响。为了确保对这种错误分割的鲁棒性，我们提出了拉普拉斯分割网络（LSN），其能够共同建模图像分割中的认知（模型）不确定性和空间数据（随机）不确定性。我们使用具有空间相关性的logit分布捕获数据的不确定性。对于模型不确定性，我们提出了针对高维输出和具有跳过连接的大型神经网络的第一个拉普拉斯权重后验的逼近。从实证上，我们证明了建模空间像素相关性使得拉普拉斯分割网络能够将高认知不确定性成功分配到图像中的OOF目标。
+    分类任务通常会以准确率作为评估标准。然而，准确率是不连续的，无法直接使用梯度上升进行优化。流行的方法是通过最小化交叉熵、铰链损失或其他替代损失来优化，但这可能导致次优结果。本文提出了一种新的优化框架，通过向模型的输出引入随机性并优化期望准确率，即随机模型的准确率。对线性模型和深度图像分类进行了广泛的实验，结果表明所提出的优化方法是广泛使用的分类损失的强有力替代方案。
 
-    Out of distribution (OOD) medical images are frequently encountered, e.g. because of site- or scanner differences, or image corruption. OOD images come with a risk of incorrect image segmentation, potentially negatively affecting downstream diagnoses or treatment. To ensure robustness to such incorrect segmentations, we propose Laplacian Segmentation Networks (LSN) that jointly model epistemic (model) and aleatoric (data) uncertainty in image segmentation. We capture data uncertainty with a spatially correlated logit distribution. For model uncertainty, we propose the first Laplace approximation of the weight posterior that scales to large neural networks with skip connections that have high-dimensional outputs. Empirically, we demonstrate that modelling spatial pixel correlation allows the Laplacian Segmentation Network to successfully assign high epistemic uncertainty to out-of-distribution objects appearing within images.
+    Classification tasks are usually evaluated in terms of accuracy. However, accuracy is discontinuous and cannot be directly optimized using gradient ascent. Popular methods minimize cross-entropy, hinge loss, or other surrogate losses, which can lead to suboptimal results. In this paper, we propose a new optimization framework by introducing stochasticity to a model's output and optimizing expected accuracy, i.e. accuracy of the stochastic model. Extensive experiments on linear models and deep image classification show that the proposed optimization method is a powerful alternative to widely used classification losses.
     
-[^36]: 初阶ANIL在存在误指定的潜在维度情况下学习线性表示
+[^36]: 保护隐私的张量网络机器学习
 
-    First-order ANIL learns linear representations despite misspecified latent dimension. (arXiv:2303.01335v2 [cs.LG] UPDATED)
+    Privacy-preserving machine learning with tensor networks. (arXiv:2202.12319v2 [cs.CR] UPDATED)
 
-    [http://arxiv.org/abs/2303.01335](http://arxiv.org/abs/2303.01335)
+    [http://arxiv.org/abs/2202.12319](http://arxiv.org/abs/2202.12319)
 
-    本研究表明，在存在架构误指定的情况下，初阶ANIL可以成功学习到线性的共享表示。这个结果是基于对无限数量任务的极限情况下的推导。
+    本文展示了张量网络架构在保护隐私的机器学习中具有潜在优势，并提出了确保鲁棒性的明确条件。
 
     
 
-    最近，由于在少样本分类和强化学习中的经验成功，元学习引起了极大的关注。元学习方法利用来自以前任务的数据以一种样本高效的方式学习新任务。特别是，模型无关的方法寻找起始点，从该起始点开始梯度下降可以迅速适应任何新任务。尽管经验上建议这样的方法通过在预训练期间学习共享表示表现良好，但对于这种行为的理论证据有限。更重要的是，并没有严格证明这些方法在存在架构误指定的情况下仍会学习到共享结构。在这个方向上，本文在无限数量的任务的极限情况下展示了，使用线性双层网络结构的初阶ANIL成功地学习到了线性的共享表示。即使是在参数化误指定的情况下，这个结果仍然成立，即网络的宽度大于
+    张量网络被广泛用于提供低能量态的高效表示，最近被提出作为机器学习架构的一种新方法。本文展示了张量网络架构在保护隐私的机器学习中具有潜在优势，这对于处理医疗记录等任务非常重要。首先，我们描述了前馈神经网络中存在的新隐私漏洞，并在合成和真实数据集中进行了说明。然后，我们提出了确保对这种漏洞具有鲁棒性的明确条件，这涉及到在规范对称性下等价的模型的刻画。我们严格证明了张量网络架构满足这些条件。在此过程中，我们定义了一种新型的矩阵乘积态的规范形式，具有高度的规律性并修正了残余规范问题。
 
-    Due to its empirical success in few-shot classification and reinforcement learning, meta-learning has recently received significant interest. Meta-learning methods leverage data from previous tasks to learn a new task in a sample-efficient manner. In particular, model-agnostic methods look for initialisation points from which gradient descent quickly adapts to any new task. Although it has been empirically suggested that such methods perform well by learning shared representations during pretraining, there is limited theoretical evidence of such behavior. More importantly, it has not been rigorously shown that these methods still learn a shared structure, despite architectural misspecifications. In this direction, this work shows, in the limit of an infinite number of tasks, that first-order ANIL with a linear two-layer network architecture successfully learns linear shared representations. This result even holds with a misspecified network parameterisation; having a width larger than 
+    Tensor networks, widely used for providing efficient representations of low-energy states of local quantum many-body systems, have been recently proposed as machine learning architectures which could present advantages with respect to traditional ones. In this work we show that tensor network architectures have especially prospective properties for privacy-preserving machine learning, which is important in tasks such as the processing of medical records. First, we describe a new privacy vulnerability that is present in feedforward neural networks, illustrating it in synthetic and real-world datasets. Then, we develop well-defined conditions to guarantee robustness to such vulnerability, which involve the characterization of models equivalent under gauge symmetry. We rigorously prove that such conditions are satisfied by tensor-network architectures. In doing so, we define a novel canonical form for matrix product states, which has a high degree of regularity and fixes the residual gaug
     
 

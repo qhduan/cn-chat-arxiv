@@ -2,127 +2,112 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Graph Neural Networks for Learning Equivariant Representations of Neural Networks](https://arxiv.org/abs/2403.12143) | 本研究提出了将神经网络表示为参数的计算图的方法，利用图神经网络和变压器来实现置换对称性，使得单个模型能够处理具有多种架构的神经计算图。 |
-| [^2] | [Interpretable Machine Learning for TabPFN](https://arxiv.org/abs/2403.10923) | TabPFN模型在低数据情况下实现了良好的分类性能，并能够以秒级速度生成后验预测分布，我们提出了几种专为TabPFN设计的可解释性方法的改进，实现了更高效的计算。 |
-| [^3] | [Minimax Optimality of Score-based Diffusion Models: Beyond the Density Lower Bound Assumptions](https://arxiv.org/abs/2402.15602) | 该研究展示了基于分数的扩散模型的采样具有极小均方误差，可以获得扩散模型生成样本的总变差误差的上界，这突破了仅做次高斯假设的限制。 |
-| [^4] | [Removing Spurious Concepts from Neural Network Representations via Joint Subspace Estimation.](http://arxiv.org/abs/2310.11991) | 该论文提出了一种通过联合子空间估计从神经网络表示中消除错误概念的迭代算法，并在计算机视觉和自然语言处理的基准数据集上展示了其优越性能。 |
-| [^5] | [Batched Predictors Generalize within Distribution.](http://arxiv.org/abs/2307.09379) | 批量预测器提供了指数级更强的泛化保证，可应用于离线测试前化合物质量的预测任务。 |
-| [^6] | [Sharp Convergence Rates for Matching Pursuit.](http://arxiv.org/abs/2307.07679) | 本文通过提升现有的下界来匹配最佳上界，对匹配追踪的性能进行了精确描述，并构造了一个最坏情况的字典来证明现有上界的无法改进。 |
-| [^7] | [Mixture of segmentation for heterogeneous functional data.](http://arxiv.org/abs/2303.10712) | 本文提出了一种混合分割模型，可以处理异质性功能数据，通过动态规划的EM算法近似最大似然估计器，方法在模拟与真实数据集上得到验证。 |
-| [^8] | [First-order ANIL learns linear representations despite misspecified latent dimension.](http://arxiv.org/abs/2303.01335) | 本研究表明，在存在架构误指定的情况下，初阶ANIL可以成功学习到线性的共享表示。这个结果是基于对无限数量任务的极限情况下的推导。 |
+| [^1] | [A Library of Mirrors: Deep Neural Nets in Low Dimensions are Convex Lasso Models with Reflection Features](https://arxiv.org/abs/2403.01046) | 证明在1-D数据上训练神经网络等价于解决一个具有固定特征字典矩阵的凸Lasso问题，为全局最优网络和解空间提供了洞察。 |
+| [^2] | [Learning Best-in-Class Policies for the Predict-then-Optimize Framework](https://arxiv.org/abs/2402.03256) | 我们提出了一种新颖的决策感知替代损失函数家族，用于predict-then-optimize框架，并且通过数值证据证实了其在误设置下的优越性。 |
+| [^3] | [When Does Bottom-up Beat Top-down in Hierarchical Community Detection?.](http://arxiv.org/abs/2306.00833) | 本文研究了使用自下而上算法恢复Hierarchical Stochastic Block Model的树形结构和社区结构的理论保证，并确定了其在中间层次上达到了确切恢复信息理论阈值。 |
+| [^4] | [Vector-Valued Variation Spaces and Width Bounds for DNNs: Insights on Weight Decay Regularization.](http://arxiv.org/abs/2305.16534) | 该论文提供了关于通过加权衰减训练的多输出ReLU神经网络的函数类型和相应的解决方案的新见解。 |
+| [^5] | [Physics-informed Information Field Theory for Modeling Physical Systems with Uncertainty Quantification.](http://arxiv.org/abs/2301.07609) | 该论文扩展了信息场理论(IFT)到物理信息场理论(PIFT)，将描述场的物理定律的信息编码为函数先验。从这个PIFT得出的后验与任何数值方案无关，并且可以捕捉多种模式。 |
+| [^6] | [$\Phi$-DVAE: Physics-Informed Dynamical Variational Autoencoders for Unstructured Data Assimilation.](http://arxiv.org/abs/2209.15609) | 本文提出了一种物理指导的动态变分自编码器 ($\Phi$-DVAE) 用于将非结构化数据同化到物理模型中，解决了传统方法在未知映射情况下无法实现一致模型与数据综合的问题。 |
+| [^7] | [Targeted Adaptive Design.](http://arxiv.org/abs/2205.14208) | TAD是一种新的目标自适应设计算法，可以通过高斯过程代理模型在指定公差中确定产生期望设计特征的最佳控制设置，相比其他自适应设计算法，具有更高的精度和效率。 |
 
 # 详细
 
-[^1]: 用于学习神经网络等变表示的图神经网络
+[^1]: 一个镜子的库：低维深度神经网络是具有反射特征的凸Lasso模型
 
-    Graph Neural Networks for Learning Equivariant Representations of Neural Networks
+    A Library of Mirrors: Deep Neural Nets in Low Dimensions are Convex Lasso Models with Reflection Features
 
-    [https://arxiv.org/abs/2403.12143](https://arxiv.org/abs/2403.12143)
+    [https://arxiv.org/abs/2403.01046](https://arxiv.org/abs/2403.01046)
 
-    本研究提出了将神经网络表示为参数的计算图的方法，利用图神经网络和变压器来实现置换对称性，使得单个模型能够处理具有多种架构的神经计算图。
-
-    
-
-    处理其他神经网络参数的神经网络在诸如分类隐式神经表示、生成神经网络权重和预测泛化错误等领域中得到应用。然而，现有方法要么忽视神经网络中固有的置换对称性，要么依赖复杂的权重共享模式来实现等变性，同时忽略网络架构本身的影响。在本文中，我们提出将神经网络表示为参数的计算图，这使我们能够利用强大的保留置换对称性的图神经网络和变压器。因此，我们的方法使得单个模型能够对具有多样架构的神经计算图进行编码。我们展示了我们的方法在包括分类和编辑隐式神经表示、预测泛化错误等多种任务中的有效性。
-
-    arXiv:2403.12143v1 Announce Type: cross  Abstract: Neural networks that process the parameters of other neural networks find applications in domains as diverse as classifying implicit neural representations, generating neural network weights, and predicting generalization errors. However, existing approaches either overlook the inherent permutation symmetry in the neural network or rely on intricate weight-sharing patterns to achieve equivariance, while ignoring the impact of the network architecture itself. In this work, we propose to represent neural networks as computational graphs of parameters, which allows us to harness powerful graph neural networks and transformers that preserve permutation symmetry. Consequently, our approach enables a single model to encode neural computational graphs with diverse architectures. We showcase the effectiveness of our method on a wide range of tasks, including classification and editing of implicit neural representations, predicting generalizati
-    
-[^2]: TabPFN的可解释机器学习
-
-    Interpretable Machine Learning for TabPFN
-
-    [https://arxiv.org/abs/2403.10923](https://arxiv.org/abs/2403.10923)
-
-    TabPFN模型在低数据情况下实现了良好的分类性能，并能够以秒级速度生成后验预测分布，我们提出了几种专为TabPFN设计的可解释性方法的改进，实现了更高效的计算。
+    证明在1-D数据上训练神经网络等价于解决一个具有固定特征字典矩阵的凸Lasso问题，为全局最优网络和解空间提供了洞察。
 
     
 
-    最近开发的Prior-Data Fitted Networks（PFNs）已经显示出在低数据情况下具有非常有希望的应用结果。TabPFN模型是PFN的一种特殊情况，适用于表格数据，在不需要学习参数或超参数调整的情况下，能够在短短几秒钟内实现多种分类任务的最先进性能，并且能够生成后验预测分布。TabPFN因此成为了许多领域应用中非常吸引人的选择。然而，该方法的一个主要缺点是缺乏可解释性。因此，我们提出了几种针对TabPFN专门设计的流行解释性方法的改进。通过利用该模型的独特性质，我们的改进允许比现有实现更高效的计算。特别是，我们展示了通过避免...
+    我们证明在1-D数据上训练神经网络等价于解决一个带有固定、明确定义的特征字典矩阵的凸Lasso问题。具体的字典取决于激活函数和深度。我们考虑具有分段线性激活函数的两层网络，深窄的ReLU网络最多有4层，以及具有符号激活和任意深度的矩形和树网络。有趣的是，在ReLU网络中，第四层创建代表训练数据关于自身的反射的特征。Lasso表示法揭示了全局最优网络和解空间的洞察。
 
-    arXiv:2403.10923v1 Announce Type: cross  Abstract: The recently developed Prior-Data Fitted Networks (PFNs) have shown very promising results for applications in low-data regimes. The TabPFN model, a special case of PFNs for tabular data, is able to achieve state-of-the-art performance on a variety of classification tasks while producing posterior predictive distributions in mere seconds by in-context learning without the need for learning parameters or hyperparameter tuning. This makes TabPFN a very attractive option for a wide range of domain applications. However, a major drawback of the method is its lack of interpretability. Therefore, we propose several adaptations of popular interpretability methods that we specifically design for TabPFN. By taking advantage of the unique properties of the model, our adaptations allow for more efficient computations than existing implementations. In particular, we show how in-context learning facilitates the estimation of Shapley values by avoid
+    arXiv:2403.01046v1 Announce Type: cross  Abstract: We prove that training neural networks on 1-D data is equivalent to solving a convex Lasso problem with a fixed, explicitly defined dictionary matrix of features. The specific dictionary depends on the activation and depth. We consider 2-layer networks with piecewise linear activations, deep narrow ReLU networks with up to 4 layers, and rectangular and tree networks with sign activation and arbitrary depth. Interestingly in ReLU networks, a fourth layer creates features that represent reflections of training data about themselves. The Lasso representation sheds insight to globally optimal networks and the solution landscape.
     
-[^3]: 基于分数的扩散模型的极小化最优性：超越密度下界假设
+[^2]: 学习Predict-then-Optimize框架中的最优策略
 
-    Minimax Optimality of Score-based Diffusion Models: Beyond the Density Lower Bound Assumptions
+    Learning Best-in-Class Policies for the Predict-then-Optimize Framework
 
-    [https://arxiv.org/abs/2402.15602](https://arxiv.org/abs/2402.15602)
+    [https://arxiv.org/abs/2402.03256](https://arxiv.org/abs/2402.03256)
 
-    该研究展示了基于分数的扩散模型的采样具有极小均方误差，可以获得扩散模型生成样本的总变差误差的上界，这突破了仅做次高斯假设的限制。
-
-    
-
-    我们从非参数统计的角度研究了在大样本场景下得分扩散模型抽样的渐近误差。我们展示了基于核的得分估计器可以实现对 $p_0*\mathcal{N}(0,t\boldsymbol{I}_d)$ 的得分函数的最优均方误差为 $\widetilde{O}\left(n^{-1} t^{-\frac{d+2}{2}}(t^{\frac{d}{2}} \vee 1)\right)$，其中 $n$ 和 $d$ 分别代表样本大小和维度，$t$ 在上下受到 $n$ 的多项式的限制，并且 $p_0$ 是任意次亚高斯分布。因此，这导致在仅进行次高斯假设时，扩散模型生成的样本分布的总变差误差的上界为 $\widetilde{O}\left(n^{-1/2} t^{-\frac{d}{4}}\right)$。如果此外，$p_0$ 属于 $\beta\le 2$ 的 $\beta$-Sobolev空间的非参数族，通过采用早停策略，我们得到该扩散模型的样本的分布的总变差误差的上界为 $\widetilde{O}\left(n^{-1/2} t^{-\frac{d}{4}}\right)$。
-
-    arXiv:2402.15602v1 Announce Type: cross  Abstract: We study the asymptotic error of score-based diffusion model sampling in large-sample scenarios from a non-parametric statistics perspective. We show that a kernel-based score estimator achieves an optimal mean square error of $\widetilde{O}\left(n^{-1} t^{-\frac{d+2}{2}}(t^{\frac{d}{2}} \vee 1)\right)$ for the score function of $p_0*\mathcal{N}(0,t\boldsymbol{I}_d)$, where $n$ and $d$ represent the sample size and the dimension, $t$ is bounded above and below by polynomials of $n$, and $p_0$ is an arbitrary sub-Gaussian distribution. As a consequence, this yields an $\widetilde{O}\left(n^{-1/2} t^{-\frac{d}{4}}\right)$ upper bound for the total variation error of the distribution of the sample generated by the diffusion model under a mere sub-Gaussian assumption. If in addition, $p_0$ belongs to the nonparametric family of the $\beta$-Sobolev space with $\beta\le 2$, by adopting an early stopping strategy, we obtain that the diffusion
-    
-[^4]: 通过联合子空间估计消除神经网络表示中的错误概念
-
-    Removing Spurious Concepts from Neural Network Representations via Joint Subspace Estimation. (arXiv:2310.11991v1 [cs.LG])
-
-    [http://arxiv.org/abs/2310.11991](http://arxiv.org/abs/2310.11991)
-
-    该论文提出了一种通过联合子空间估计从神经网络表示中消除错误概念的迭代算法，并在计算机视觉和自然语言处理的基准数据集上展示了其优越性能。
+    我们提出了一种新颖的决策感知替代损失函数家族，用于predict-then-optimize框架，并且通过数值证据证实了其在误设置下的优越性。
 
     
 
-    神经网络中的错误相关性经常会影响到模型在样本外的泛化能力。常见的策略是通过从神经网络表示中消除错误概念来缓解这个问题。现有的错误概念消除方法往往过于激进，不经意间会消除与模型主要任务相关的特征，从而影响模型性能。我们提出了一种迭代算法，通过共同识别神经网络表示中的两个低维正交子空间来分离错误和主要任务的概念。我们在计算机视觉（Waterbirds，CelebA）和自然语言处理（MultiNLI）的基准数据集上评估了该算法，并表明它优于现有的概念消除方法。
+    我们提出了一种新颖的决策感知替代损失函数家族，称为Perturbation Gradient（PG）损失，用于predict-then-optimize框架。这些损失直接近似了下游决策损失，并可以使用现成的基于梯度的方法进行优化。重要的是，与现有的替代损失不同，我们的PG损失的近似误差随着样本数量的增加而消失。这意味着优化我们的替代损失可以在渐近意义下得到最佳策略，即使在误设置下也是如此。这是第一个在误设置下的这样的结果，我们提供了数值证据证实了当基础模型误设置且噪声不是中心对称时，我们的PG损失在实践中显著优于现有的提案。鉴于在实践中误设置很常见--特别是当我们可能更喜欢一个更简单、更可解释的模型时--PG损失提供了一种新颖的、理论上有依据的、可计算的决策感知方法。
 
-    Out-of-distribution generalization in neural networks is often hampered by spurious correlations. A common strategy is to mitigate this by removing spurious concepts from the neural network representation of the data. Existing concept-removal methods tend to be overzealous by inadvertently eliminating features associated with the main task of the model, thereby harming model performance. We propose an iterative algorithm that separates spurious from main-task concepts by jointly identifying two low-dimensional orthogonal subspaces in the neural network representation. We evaluate the algorithm on benchmark datasets for computer vision (Waterbirds, CelebA) and natural language processing (MultiNLI), and show that it outperforms existing concept removal methods
+    We propose a novel family of decision-aware surrogate losses, called Perturbation Gradient (PG) losses, for the predict-then-optimize framework. These losses directly approximate the downstream decision loss and can be optimized using off-the-shelf gradient-based methods. Importantly, unlike existing surrogate losses, the approximation error of our PG losses vanishes as the number of samples grows. This implies that optimizing our surrogate loss yields a best-in-class policy asymptotically, even in misspecified settings. This is the first such result in misspecified settings and we provide numerical evidence confirming our PG losses substantively outperform existing proposals when the underlying model is misspecified and the noise is not centrally symmetric. Insofar as misspecification is commonplace in practice -- especially when we might prefer a simpler, more interpretable model -- PG losses offer a novel, theoretically justified, method for computationally tractable decision-aware 
     
-[^5]: 批量预测器在分布内具有广义性。
+[^3]: 自下而上何时击败自上而下进行分层社区检测？
 
-    Batched Predictors Generalize within Distribution. (arXiv:2307.09379v1 [stat.ML])
+    When Does Bottom-up Beat Top-down in Hierarchical Community Detection?. (arXiv:2306.00833v1 [cs.SI])
 
-    [http://arxiv.org/abs/2307.09379](http://arxiv.org/abs/2307.09379)
+    [http://arxiv.org/abs/2306.00833](http://arxiv.org/abs/2306.00833)
 
-    批量预测器提供了指数级更强的泛化保证，可应用于离线测试前化合物质量的预测任务。
-
-    
-
-    我们研究了批量预测器的广义性质，即任务是预测一小组（或批量）示例的均值标签的模型。批量预测范式对于部署在离线测试前确定一组化合物的质量的模型尤为相关。通过利用适当的Rademacher复杂性的广义化，我们证明批量预测器具有指数级更强的泛化保证，与标准的逐个样本方法相比。令人惊讶的是，该提议的上界独立于过参数化。我们的理论洞察力在各种任务、架构和应用中通过实验证实。
-
-    We study the generalization properties of batched predictors, i.e., models tasked with predicting the mean label of a small set (or batch) of examples. The batched prediction paradigm is particularly relevant for models deployed to determine the quality of a group of compounds in preparation for offline testing. By utilizing a suitable generalization of the Rademacher complexity, we prove that batched predictors come with exponentially stronger generalization guarantees as compared to the standard per-sample approach. Surprisingly, the proposed bound holds independently of overparametrization. Our theoretical insights are validated experimentally for various tasks, architectures, and applications.
-    
-[^6]: 匹配追踪的快速收敛速度
-
-    Sharp Convergence Rates for Matching Pursuit. (arXiv:2307.07679v1 [stat.ML])
-
-    [http://arxiv.org/abs/2307.07679](http://arxiv.org/abs/2307.07679)
-
-    本文通过提升现有的下界来匹配最佳上界，对匹配追踪的性能进行了精确描述，并构造了一个最坏情况的字典来证明现有上界的无法改进。
+    本文研究了使用自下而上算法恢复Hierarchical Stochastic Block Model的树形结构和社区结构的理论保证，并确定了其在中间层次上达到了确切恢复信息理论阈值。
 
     
 
-    本文研究了匹配追踪的基本限制，即通过字典中的元素的稀疏线性组合来近似目标函数的纯贪婪算法。当目标函数包含在对应于字典的变化空间中时，许多令人印象深刻的研究在过去几十年中获得了匹配追踪的收敛速度的上界和下界，但它们并不匹配。本文的主要贡献是填补这一差距，并获得匹配追踪性能的精确描述。我们通过改进现有的下界以匹配最佳上界来实现这一目标。具体来说，我们构造了一个最坏情况的字典，证明了现有的上界不能改进。事实证明，与其他贪婪算法变体不同，收敛速度是次优的，并且由解某个非线性方程的解决方案决定。这使我们得出结论，任意程度的收缩都会改善匹配追踪效果。
+    网络的分层聚类是指查找一组社区的树形结构，其中层次结构的较低级别显示更细粒度的社区结构。解决这一问题的算法有两个主要类别：自上而下的算法和自下而上的算法。本文研究了使用自下而上算法恢复分层随机块模型的树形结构和社区结构的理论保证。我们还确定了这种自下而上算法在层次结构的中间层次上达到了确切恢复信息理论阈值。值得注意的是，这些恢复条件相对于现有的自上而下算法的条件来说，限制更少。
 
-    We study the fundamental limits of matching pursuit, or the pure greedy algorithm, for approximating a target function by a sparse linear combination of elements from a dictionary. When the target function is contained in the variation space corresponding to the dictionary, many impressive works over the past few decades have obtained upper and lower bounds on the convergence rate of matching pursuit, but they do not match. The main contribution of this paper is to close this gap and obtain a sharp characterization of the performance of matching pursuit. We accomplish this by improving the existing lower bounds to match the best upper bound. Specifically, we construct a worst case dictionary which proves that the existing upper bound cannot be improved. It turns out that, unlike other greedy algorithm variants, the converge rate is suboptimal and is determined by the solution to a certain non-linear equation. This enables us to conclude that any amount of shrinkage improves matching pu
+    Hierarchical clustering of networks consists in finding a tree of communities, such that lower levels of the hierarchy reveal finer-grained community structures. There are two main classes of algorithms tackling this problem. Divisive ($\textit{top-down}$) algorithms recursively partition the nodes into two communities, until a stopping rule indicates that no further split is needed. In contrast, agglomerative ($\textit{bottom-up}$) algorithms first identify the smallest community structure and then repeatedly merge the communities using a $\textit{linkage}$ method. In this article, we establish theoretical guarantees for the recovery of the hierarchical tree and community structure of a Hierarchical Stochastic Block Model by a bottom-up algorithm. We also establish that this bottom-up algorithm attains the information-theoretic threshold for exact recovery at intermediate levels of the hierarchy. Notably, these recovery conditions are less restrictive compared to those existing for to
     
-[^7]: 异质性功能数据的混合分割模型
+[^4]: 向量值变分空间和DNN的宽度界：关于权重衰减正则化的见解。
 
-    Mixture of segmentation for heterogeneous functional data. (arXiv:2303.10712v1 [stat.ME])
+    Vector-Valued Variation Spaces and Width Bounds for DNNs: Insights on Weight Decay Regularization. (arXiv:2305.16534v1 [stat.ML])
 
-    [http://arxiv.org/abs/2303.10712](http://arxiv.org/abs/2303.10712)
+    [http://arxiv.org/abs/2305.16534](http://arxiv.org/abs/2305.16534)
 
-    本文提出了一种混合分割模型，可以处理异质性功能数据，通过动态规划的EM算法近似最大似然估计器，方法在模拟与真实数据集上得到验证。
-
-    
-
-    本文针对时间和人口异质性的功能数据提出了一种混合分割模型，旨在保持功能结构的同时表示异质性。 讨论了最大似然估计器的可辨识性和一致性，并采用动态规划的EM算法来近似最大似然估计器。 该方法在模拟数据上进行了说明，并在用电量真实数据集上得到了应用。
-
-    In this paper we consider functional data with heterogeneity in time and in population. We propose a mixture model with segmentation of time to represent this heterogeneity while keeping the functional structure. Maximum likelihood estimator is considered, proved to be identifiable and consistent. In practice, an EM algorithm is used, combined with dynamic programming for the maximization step, to approximate the maximum likelihood estimator. The method is illustrated on a simulated dataset, and used on a real dataset of electricity consumption.
-    
-[^8]: 初阶ANIL在存在误指定的潜在维度情况下学习线性表示
-
-    First-order ANIL learns linear representations despite misspecified latent dimension. (arXiv:2303.01335v2 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2303.01335](http://arxiv.org/abs/2303.01335)
-
-    本研究表明，在存在架构误指定的情况下，初阶ANIL可以成功学习到线性的共享表示。这个结果是基于对无限数量任务的极限情况下的推导。
+    该论文提供了关于通过加权衰减训练的多输出ReLU神经网络的函数类型和相应的解决方案的新见解。
 
     
 
-    最近，由于在少样本分类和强化学习中的经验成功，元学习引起了极大的关注。元学习方法利用来自以前任务的数据以一种样本高效的方式学习新任务。特别是，模型无关的方法寻找起始点，从该起始点开始梯度下降可以迅速适应任何新任务。尽管经验上建议这样的方法通过在预训练期间学习共享表示表现良好，但对于这种行为的理论证据有限。更重要的是，并没有严格证明这些方法在存在架构误指定的情况下仍会学习到共享结构。在这个方向上，本文在无限数量的任务的极限情况下展示了，使用线性双层网络结构的初阶ANIL成功地学习到了线性的共享表示。即使是在参数化误指定的情况下，这个结果仍然成立，即网络的宽度大于
+    深度神经网络(DNNs)通过梯度下降最小化损失项和平方权重和相应，对应于训练加权衰减的常见方法。本文提供了有关这种常见学习框架的新见解。我们表征了训练加权衰减以获得多输出(向量值)ReLU神经网络学习的函数类型。这扩展了先前限于单输出(标量值)网络的表征。这种表征需要定义我们称之为向量值变分(VV)空间的新类神经函数空间。我们通过一种新的表征定理证明，神经网络(NNs)是通过VV空间中提出学习问题的最优解。这个新的表征定理表明，这些学习问题的解存在于宽度受训练数据数限制的向量值神经网络中。接下来，通过与多任务lasso问题的新联系，我们导出了
 
-    Due to its empirical success in few-shot classification and reinforcement learning, meta-learning has recently received significant interest. Meta-learning methods leverage data from previous tasks to learn a new task in a sample-efficient manner. In particular, model-agnostic methods look for initialisation points from which gradient descent quickly adapts to any new task. Although it has been empirically suggested that such methods perform well by learning shared representations during pretraining, there is limited theoretical evidence of such behavior. More importantly, it has not been rigorously shown that these methods still learn a shared structure, despite architectural misspecifications. In this direction, this work shows, in the limit of an infinite number of tasks, that first-order ANIL with a linear two-layer network architecture successfully learns linear shared representations. This result even holds with a misspecified network parameterisation; having a width larger than 
+    Deep neural networks (DNNs) trained to minimize a loss term plus the sum of squared weights via gradient descent corresponds to the common approach of training with weight decay. This paper provides new insights into this common learning framework. We characterize the kinds of functions learned by training with weight decay for multi-output (vector-valued) ReLU neural networks. This extends previous characterizations that were limited to single-output (scalar-valued) networks. This characterization requires the definition of a new class of neural function spaces that we call vector-valued variation (VV) spaces. We prove that neural networks (NNs) are optimal solutions to learning problems posed over VV spaces via a novel representer theorem. This new representer theorem shows that solutions to these learning problems exist as vector-valued neural networks with widths bounded in terms of the number of training data. Next, via a novel connection to the multi-task lasso problem, we derive
+    
+[^5]: 物理学知识作为不确定性量化模型的信息场理论
+
+    Physics-informed Information Field Theory for Modeling Physical Systems with Uncertainty Quantification. (arXiv:2301.07609v2 [stat.ML] UPDATED)
+
+    [http://arxiv.org/abs/2301.07609](http://arxiv.org/abs/2301.07609)
+
+    该论文扩展了信息场理论(IFT)到物理信息场理论(PIFT)，将描述场的物理定律的信息编码为函数先验。从这个PIFT得出的后验与任何数值方案无关，并且可以捕捉多种模式。
+
+    
+
+    数据驱动的方法结合物理学知识是建模系统的强有力技术。此类模型的目标是通过将测量结果与已知物理定律相结合，高效地求解基本场。由于许多系统包含未知元素，如缺失参数、嘈杂数据或不完整的物理定律，因此这通常被视为一种不确定性量化问题。处理所有变量的常见技术通常取决于用于近似后验的数值方案，并且希望有一种不依赖于任何离散化的方法。信息场理论（IFT）提供了对不一定是高斯场的场进行统计学的工具。我们通过将描述场的物理定律的信息编码为函数先验来扩展IFT到物理信息场理论（PIFT）。从这个PIFT得出的后验与任何数值方案无关，并且可以捕捉多种模式。
+
+    Data-driven approaches coupled with physical knowledge are powerful techniques to model systems. The goal of such models is to efficiently solve for the underlying field by combining measurements with known physical laws. As many systems contain unknown elements, such as missing parameters, noisy data, or incomplete physical laws, this is widely approached as an uncertainty quantification problem. The common techniques to handle all the variables typically depend on the numerical scheme used to approximate the posterior, and it is desirable to have a method which is independent of any such discretization. Information field theory (IFT) provides the tools necessary to perform statistics over fields that are not necessarily Gaussian. We extend IFT to physics-informed IFT (PIFT) by encoding the functional priors with information about the physical laws which describe the field. The posteriors derived from this PIFT remain independent of any numerical scheme and can capture multiple modes,
+    
+[^6]: $\Phi$-DVAE: 物理指导的动态变分自编码器用于非结构化数据同化
+
+    $\Phi$-DVAE: Physics-Informed Dynamical Variational Autoencoders for Unstructured Data Assimilation. (arXiv:2209.15609v2 [stat.ML] UPDATED)
+
+    [http://arxiv.org/abs/2209.15609](http://arxiv.org/abs/2209.15609)
+
+    本文提出了一种物理指导的动态变分自编码器 ($\Phi$-DVAE) 用于将非结构化数据同化到物理模型中，解决了传统方法在未知映射情况下无法实现一致模型与数据综合的问题。
+
+    
+
+    在数据同化中，将非结构化数据纳入物理模型是一个具有挑战性的问题。传统方法通常关注具有明确定义观测算子的情况，其函数形式通常被假定为已知。这阻止了这些方法在从数据空间到模型空间的映射未知的配置中实现一致的模型与数据综合。为了解决这些问题，在本文中我们开发了一种物理指导的动态变分自编码器($\Phi$-DVAE)，将多样化的数据流嵌入到由微分方程描述的时变物理系统中。我们的方法结合了一个标准的、可能是非线性的潜在状态空间模型滤波器和一个变分自编码器，将非结构化数据同化到潜在的动态系统中。在我们的示例系统中，非结构化数据采用视频数据和速度场测量的形式，但该方法的适用性足够通用，可以允许任意未知的观测算子。
+
+    Incorporating unstructured data into physical models is a challenging problem that is emerging in data assimilation. Traditional approaches focus on well-defined observation operators whose functional forms are typically assumed to be known. This prevents these methods from achieving a consistent model-data synthesis in configurations where the mapping from data-space to model-space is unknown. To address these shortcomings, in this paper we develop a physics-informed dynamical variational autoencoder ($\Phi$-DVAE) to embed diverse data streams into time-evolving physical systems described by differential equations. Our approach combines a standard, possibly nonlinear, filter for the latent state-space model and a VAE, to assimilate the unstructured data into the latent dynamical system. Unstructured data, in our example systems, comes in the form of video data and velocity field measurements, however the methodology is suitably generic to allow for arbitrary unknown observation operat
+    
+[^7]: 目标自适应设计
+
+    Targeted Adaptive Design. (arXiv:2205.14208v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2205.14208](http://arxiv.org/abs/2205.14208)
+
+    TAD是一种新的目标自适应设计算法，可以通过高斯过程代理模型在指定公差中确定产生期望设计特征的最佳控制设置，相比其他自适应设计算法，具有更高的精度和效率。
+
+    
+
+    现代先进制造和高级材料设计往往需要在较高维度的过程控制参数空间中搜索最佳结构、性能和性能参数的设置。从前者到后者的映射必须通过嘈杂的实验或昂贵的模拟来确定。我们把这个问题抽象成一个数学框架，其中必须通过昂贵的嘈杂测量来确定从控制空间到设计空间的未知函数，该函数在指定的公差范围内定位产生期望设计特征的最佳控制设置，并量化不确定性。我们描述了目标自适应设计 (TAD)，这是一种有效执行这个采样任务的新算法。TAD 在每个迭代阶段创建一个未知映射的高斯过程代理模型，建议一批新的控制设置进行实验采样，并优化更新的目标设计特征的对数预测似然。
+
+    Modern advanced manufacturing and advanced materials design often require searches of relatively high-dimensional process control parameter spaces for settings that result in optimal structure, property, and performance parameters. The mapping from the former to the latter must be determined from noisy experiments or from expensive simulations. We abstract this problem to a mathematical framework in which an unknown function from a control space to a design space must be ascertained by means of expensive noisy measurements, which locate optimal control settings generating desired design features within specified tolerances, with quantified uncertainty. We describe targeted adaptive design (TAD), a new algorithm that performs this sampling task efficiently. TAD creates a Gaussian process surrogate model of the unknown mapping at each iterative stage, proposing a new batch of control settings to sample experimentally and optimizing the updated log-predictive likelihood of the target desi
     
 
