@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Well Posedness of Utility Maximization Problems Under Partial Information in a Market with Gaussian Drift](https://arxiv.org/abs/2205.08614) | 本文研究了金融市场中的效用最大化问题的良定义性，为具有高斯漂移的部分信息市场提供了模型参数的充分条件。 |
+| [^1] | [Child Care, Time Allocation, and Life Cycle.](http://arxiv.org/abs/2304.11531) | 本研究使用日本聚合数据，探究有子女夫妇的时间和经济成本对育儿惩罚的影响。资产增加会导致女性工作时间减少，儿童抚养时间增加。父母休假的收入替代率增加25%会使休假比例增加20%，而工资永久增加10%会导致儿童抚养和休闲时间略微增加。 |
 
 # 详细
 
-[^1]: 在具有高斯漂移的部分信息市场中的效用最大化问题的良定义性研究
+[^1]: 儿童抚养、时间分配和人生周期
 
-    Well Posedness of Utility Maximization Problems Under Partial Information in a Market with Gaussian Drift
+    Child Care, Time Allocation, and Life Cycle. (arXiv:2304.11531v1 [econ.GN])
 
-    [https://arxiv.org/abs/2205.08614](https://arxiv.org/abs/2205.08614)
+    [http://arxiv.org/abs/2304.11531](http://arxiv.org/abs/2304.11531)
 
-    本文研究了金融市场中的效用最大化问题的良定义性，为具有高斯漂移的部分信息市场提供了模型参数的充分条件。
+    本研究使用日本聚合数据，探究有子女夫妇的时间和经济成本对育儿惩罚的影响。资产增加会导致女性工作时间减少，儿童抚养时间增加。父母休假的收入替代率增加25%会使休假比例增加20%，而工资永久增加10%会导致儿童抚养和休闲时间略微增加。
 
     
 
-    本文研究了金融市场中的效用最大化问题的良定义性，其中股票回报依赖于隐藏的高斯均值回归漂移过程。由于该过程可能是无界的，对于不受上界限制的效用函数，无法保证其良定义性。对于相对风险厌恶小于对数效用的功率效用函数，这导致了对模型参数的选择限制，例如投资周期和控制资产价格和漂移过程方差的参数。我们推导出了模型参数的充分条件，以实现具有完全和部分信息的模型的终端财富的有界最大预期效用。
+    本研究旨在探讨育儿的时间和经济成本对有子女夫妇寿命的影响，以探索育儿惩罚的起源。使用包括超过200,000名日本人的“基本社会调查”的日本聚合数据，本研究将Blundell等人（2018）介绍的家庭模型扩展为具有独特劳动生产率冲击的异质婚姻夫妇的人生周期模型。我们然后定量分析了时间分配偏好，包括儿童抚养。在将模型计算值拟合到数据之后，我们对婚姻夫妇进行了基于其教育背景的政策模拟。计算结果表明，资产增加会导致女性工作时间减少，儿童抚养时间增加。此外，父母休假的收入替代率增加25％会使休假比例增加20％，而工资永久增加10％会导致儿童抚养和休闲时间略微增加。
 
-    arXiv:2205.08614v2 Announce Type: replace Abstract: This paper investigates well posedness of utility maximization problems for financial markets where stock returns depend on a hidden Gaussian mean reverting drift process. Since that process is potentially unbounded, well posedness cannot be guaranteed for utility functions which are not bounded from above. For power utility with relative risk aversion smaller than those of log-utility this leads to restrictions on the choice of model parameters such as the investment horizon and parameters controlling the variance of the asset price and drift processes. We derive sufficient conditions to the model parameters leading to bounded maximum expected utility of terminal wealth for models with full and partial information.
+    This study examines the impact of the time and financial costs of parenting on the lifespan of married couples to explore the origins of the child penalty. Using Japanese aggregate data from the "Basic Survey of Social Life," which includes a sample of over two hundred thousand Japanese people, the study extends the family model introduced by Blundell et al.(2018) to a life cycle model of heterogeneous married couples with idiosyncratic labor productivity shocks. We then quantitatively analyze the time allocation preferences, including child care. After fitting the model's calculated values to the data, we conduct policy simulations for married couples based on their educational background. The calculations demonstrate that an increase in assets leads to a decrease in female work hours and an increase in childcare hours. Additionally, a 25 % increase in the income replacement rate for parental leave increases the take-up of parental leave by 20 %, while a permanent 10 % increase in wag
     
 

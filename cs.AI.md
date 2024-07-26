@@ -2,57 +2,79 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [MambaMixer: Efficient Selective State Space Models with Dual Token and Channel Selection](https://arxiv.org/abs/2403.19888) | MambaMixer是一种新的架构，提出了具有数据依赖权重的双重选择机制，称为选择性标记和通道混合器，对长序列建模具有潜在优势。 |
-| [^2] | [The Elements of Differentiable Programming](https://arxiv.org/abs/2403.14606) | 可微分编程是一个新的编程范式，使得复杂程序能够端对端地进行微分，实现基于梯度的参数优化。 |
-| [^3] | [A Unified Framework for Model Editing](https://arxiv.org/abs/2403.14236) | 这个统一框架结合了“定位和编辑”模型编辑技术，最大化保留某些向量表示并记忆新事实信息。 |
-| [^4] | [RigorLLM: Resilient Guardrails for Large Language Models against Undesired Content](https://arxiv.org/abs/2403.13031) | RigorLLM提出了一种新颖的框架，旨在高效有效地调节LLMs的有害和不安全输入和输出，包括能量数据增强、最小-最大优化安全输入后缀，以及基于数据增强的鲁棒KNN与LLMs融合模型。 |
-| [^5] | [To Help or Not to Help: LLM-based Attentive Support for Human-Robot Group Interactions](https://arxiv.org/abs/2403.12533) | 该论文提出了基于LLM的专注支持交互概念，使机器人能够在不干扰群体的情况下支持和帮助人类。 |
-| [^6] | [KIF: A Framework for Virtual Integration of Heterogeneous Knowledge Bases using Wikidata](https://arxiv.org/abs/2403.10304) | KIF框架利用Wikidata作为通用语言，结合用户定义的映射，实现了异构知识库的虚拟集成，形成类似于扩展Wikidata的虚拟知识库，可通过过滤接口或SPARQL进行查询。 |
-| [^7] | [MCFEND: A Multi-source Benchmark Dataset for Chinese Fake News Detection](https://arxiv.org/abs/2403.09092) | MCFEND是第一个用于中文假新闻检测的多源基准数据集，解决了单一来源数据集应用于多源新闻数据时性能下降的问题。 |
-| [^8] | [PathM3: A Multimodal Multi-Task Multiple Instance Learning Framework for Whole Slide Image Classification and Captioning](https://arxiv.org/abs/2403.08967) | 提出了一种 PathM3 框架，用于WSI分类和字幕生成，采用了多模态、多任务、多实例学习方法，通过查询式transformer有效对齐WSIs与诊断性字幕。 |
-| [^9] | [A Library of Mirrors: Deep Neural Nets in Low Dimensions are Convex Lasso Models with Reflection Features](https://arxiv.org/abs/2403.01046) | 证明在1-D数据上训练神经网络等价于解决一个具有固定特征字典矩阵的凸Lasso问题，为全局最优网络和解空间提供了洞察。 |
-| [^10] | [Understanding Iterative Combinatorial Auction Designs via Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2402.19420) | 多智能体强化学习算法可能有助于理解迭代组合拍卖，但其有效部署具有挑战性，需要考虑保持游戏可处理性以及避免各种算法的陷阱。 |
-| [^11] | [CHATATC: Large Language Model-Driven Conversational Agents for Supporting Strategic Air Traffic Flow Management](https://arxiv.org/abs/2402.14850) | 本研究探讨了如何将大型语言模型应用于非安全关键的战略交通流量管理环境，提出了一个名为CHATATC的模型，通过训练大量历史数据集实现对话系统，并测试了其查询和响应能力。 |
-| [^12] | [RefuteBench: Evaluating Refuting Instruction-Following for Large Language Models](https://arxiv.org/abs/2402.13463) | 本文提出了一个名为RefuteBench的基准测试，旨在评估大型语言模型对反驳指令的遵循能力，发现LLMs倾向于固执于其内部知识而无法遵从用户反馈。 |
-| [^13] | [Solving Deep Reinforcement Learning Benchmarks with Linear Policy Networks](https://arxiv.org/abs/2402.06912) | 本研究通过使用进化策略(ES)来优化神经网络的权重，以通过直接策略搜索解决深度强化学习(DRL)基准问题。研究结果显示，ES可以在许多基准任务中找到有效的线性策略，与当前使用更大网络的DRL方法相比，这表明当前的基准问题比以往认为的更容易解决。 |
-| [^14] | [Circuit Partitioning for Multi-Core Quantum Architectures with Deep Reinforcement Learning](https://arxiv.org/abs/2401.17976) | 本文使用深度强化学习技术，提出了一种适应多核量子架构的电路分区方法，旨在推动量子计算和图分区领域的发展。 |
-| [^15] | [Arrows of Time for Large Language Models](https://arxiv.org/abs/2401.17505) | 这篇论文通过研究自回归大型语言模型的时间方向性，发现了模型在建模自然语言能力上存在时间上的不对称性。从信息理论的角度来看，这种差异理论上是不应该存在的。通过稀疏性和计算复杂性的考虑，提供了一个理论框架来解释这种不对称性的出现。 |
-| [^16] | [How well can large language models explain business processes?.](http://arxiv.org/abs/2401.12846) | 该论文介绍了一个用于生成业务流程解释的SAX4BPM框架，该框架通过与大型语言模型（LLM）集成来综合各种输入要素，以提供更好的情境感知解释（SAX）。 |
-| [^17] | [Towards Learning from Graphs with Heterophily: Progress and Future.](http://arxiv.org/abs/2401.09769) | 本调查综合概述了关于从带有异质性的图中学习的现有研究，并根据学习策略、模型架构和实际应用等方面对方法进行了分类。同时讨论了现有研究的主要挑战，并提出了未来研究的潜在方向。 |
-| [^18] | [Learning a Patent-Informed Biomedical Knowledge Graph Reveals Technological Potential of Drug Repositioning Candidates.](http://arxiv.org/abs/2309.03227) | 本研究提出了一种使用药物专利和生物医学数据库相结合的方法，识别具有技术潜力和科学证据的药物再定位候选物。通过构建科学的生物医学知识图谱和基于专利的生物医学知识图谱，我们可以综合分析多种信息源，为药物再定位研究提供新的视角。 |
-| [^19] | [Privacy-preserving machine learning with tensor networks.](http://arxiv.org/abs/2202.12319) | 本文展示了张量网络架构在保护隐私的机器学习中具有潜在优势，并提出了确保鲁棒性的明确条件。 |
+| [^1] | [Empowering Biomedical Discovery with AI Agents](https://arxiv.org/abs/2404.02831) | AI科学家代理结合人类创造力和专业知识，利用机器学习工具赋能生物医学研究，对多个领域产生影响。 |
+| [^2] | [The Larger the Better? Improved LLM Code-Generation via Budget Reallocation](https://arxiv.org/abs/2404.00725) | 较小的语言模型可以在相同预算下产生可靠的改进，但在无法进行单元测试的情况下，较小的模型选择排名次于较大模型的单个输出。 |
+| [^3] | [ReMamber: Referring Image Segmentation with Mamba Twister](https://arxiv.org/abs/2403.17839) | 提出了ReMamber，一种整合了Mamba和多模态Mamba Twister块的新型RIS架构，通过其独特的通道和空间扭曲机制实现图像-文本交互，取得了三个基准测试的最新技术成果 |
+| [^4] | [AutoRE: Document-Level Relation Extraction with Large Language Models](https://arxiv.org/abs/2403.14888) | AutoRE 是一种端到端的文档级关系抽取模型，采用了一种名为RHF的新颖关系抽取范式，可有效处理分布在文档中的多个关系和三元组事实。 |
+| [^5] | [A Unified Framework for Model Editing](https://arxiv.org/abs/2403.14236) | 这个统一框架结合了“定位和编辑”模型编辑技术，最大化保留某些向量表示并记忆新事实信息。 |
+| [^6] | [Identifying Semantic Induction Heads to Understand In-Context Learning](https://arxiv.org/abs/2402.13055) | 该研究通过分析注意力头的操作，揭示了结合了句法依赖和知识图关系的语义感应头的出现，从而更好地理解了大型语言模型的上下文学习能力。 |
+| [^7] | [HyperMoE: Towards Better Mixture of Experts via Transferring Among Experts](https://arxiv.org/abs/2402.12656) | HyperMoE通过Hypernetworks框架整合知识传递的概念，解决了在专家选择过程中专家知识稀疏性和可用性之间的矛盾。 |
+| [^8] | [3D Diffuser Actor: Policy Diffusion with 3D Scene Representations](https://arxiv.org/abs/2402.10885) | 通过策略扩散和3D场景表示相结合，提出了3D Diffuser Actor，一个神经策略架构，可以根据语言指令构建3D视觉场景表示，并对机器人末端执行器的3D旋转和平移进行迭代去噪。 |
+| [^9] | [Unsupervised Outlier Detection using Random Subspace and Subsampling Ensembles of Dirichlet Process Mixtures.](http://arxiv.org/abs/2401.00773) | 提出一种基于随机子空间和子抽样集合的Dirichlet过程高斯混合模型的无监督异常检测方法，提高了计算效率和检测器的鲁棒性。 |
+| [^10] | [P-ROCKET: Pruning Random Convolution Kernels for Time Series Classification.](http://arxiv.org/abs/2309.08499) | 本研究提出了一种名为P-ROCKET的方法，通过在特征选择的角度删除卷积核，从而实现对时间序列分类中的随机卷积核进行剪枝。 |
+| [^11] | [The Belebele Benchmark: a Parallel Reading Comprehension Dataset in 122 Language Variants.](http://arxiv.org/abs/2308.16884) | Belebele是一个包含122种语言变体的多选机器阅读理解数据集，可用于评估文本模型在高、中和低资源语言中的性能。尽管英语为中心的大型语言模型在跨语言转移方面表现良好，但小型多语言遮蔽语言模型在其他语言上表现更佳。 |
+| [^12] | [The most likely common cause.](http://arxiv.org/abs/2306.17557) | 对于因果不充分的情况下的共同原因问题，我们使用广义最大似然方法来识别共同原因C，与最大熵原则密切相关。对于两个二元对称变量的研究揭示了类似于二阶相变的条件概率非解析行为。 |
+| [^13] | [Hierarchical Classification of Research Fields in the "Web of Science" Using Deep Learning.](http://arxiv.org/abs/2302.00390) | 本文提出了一个使用深度学习进行层次分类的系统，可以自动将学术出版物通过抽象进行分类，实现了对研究活动在不同层次结构中的全面分类，并允许跨学科和跨领域的单标签和多标签分类。 |
 
 # 详细
 
-[^1]: MambaMixer：具有双重标记和通道选择的高效选择性状态空间模型
+[^1]: 利用AI代理赋能生物医学发现
 
-    MambaMixer: Efficient Selective State Space Models with Dual Token and Channel Selection
+    Empowering Biomedical Discovery with AI Agents
 
-    [https://arxiv.org/abs/2403.19888](https://arxiv.org/abs/2403.19888)
+    [https://arxiv.org/abs/2404.02831](https://arxiv.org/abs/2404.02831)
 
-    MambaMixer是一种新的架构，提出了具有数据依赖权重的双重选择机制，称为选择性标记和通道混合器，对长序列建模具有潜在优势。
-
-    
-
-    深度学习的最新进展主要依赖于Transformers，因为它们具有数据依赖性并且能够实现大规模学习。然而，这些架构中的注意力模块展现出输入大小的二次时间和空间，限制了它们用于长序列建模的可扩展性。尽管最近有尝试为多维数据设计高效有效的架构主干，例如图像和多变量时间序列，但现有模型要么是数据独立的，要么无法允许跨维度和内部维度之间的通信。最近，状态空间模型（SSMs），尤其是具有高效硬件感知实现的选择性状态空间模型，展现出了用于长序列建模的潜在优势。受到SSMs成功的启发，我们提出了MambaMixer，一种新的具有数据依赖权重的架构，使用跨标记和通道的双重选择机制，称为选择性标记和通道混合器。
-
-    arXiv:2403.19888v1 Announce Type: cross  Abstract: Recent advances in deep learning have mainly relied on Transformers due to their data dependency and ability to learn at scale. The attention module in these architectures, however, exhibits quadratic time and space in input size, limiting their scalability for long-sequence modeling. Despite recent attempts to design efficient and effective architecture backbone for multi-dimensional data, such as images and multivariate time series, existing models are either data independent, or fail to allow inter- and intra-dimension communication. Recently, State Space Models (SSMs), and more specifically Selective State Space Models, with efficient hardware-aware implementation, have shown promising potential for long sequence modeling. Motivated by the success of SSMs, we present MambaMixer, a new architecture with data-dependent weights that uses a dual selection mechanism across tokens and channels, called Selective Token and Channel Mixer. M
-    
-[^2]: 可微分编程的要素
-
-    The Elements of Differentiable Programming
-
-    [https://arxiv.org/abs/2403.14606](https://arxiv.org/abs/2403.14606)
-
-    可微分编程是一个新的编程范式，使得复杂程序能够端对端地进行微分，实现基于梯度的参数优化。
+    AI科学家代理结合人类创造力和专业知识，利用机器学习工具赋能生物医学研究，对多个领域产生影响。
 
     
 
-    人工智能最近取得了显著进展，这得益于大型模型、庞大数据集、加速硬件，以及可微分编程的变革性力量。这种新的编程范式使复杂计算机程序（包括具有控制流和数据结构的程序）能够进行端对端的微分，从而实现对程序参数的基于梯度的优化。不仅仅是程序的微分，可微分编程也包括了程序优化、概率等多个领域的概念。本书介绍了可微分编程所需的基本概念，并采用了优化和概率两个主要视角进行阐述。
+    我们设想“AI科学家”作为系统，能够进行怀疑性学习和推理，通过将机器学习工具与实验平台集成的协作代理，赋能生物医学研究。生物医学AI代理不是要剔除人类在发现过程中的作用，而是结合人类的创造力和专业知识，利用AI分析大型数据集、导航假设空间，并执行重复性任务的能力。这些代理擅长各种任务，包括自我评估和规划发现工作流程。它们利用大型语言模型和生成模型进行结构化记忆，以便持续学习，并利用机器学习工具整合科学知识、生物原理和理论。AI代理可以影响从混合细胞模拟、可编程控制表型到细胞电路设计以及新疗法开发等领域。
 
-    arXiv:2403.14606v1 Announce Type: new  Abstract: Artificial intelligence has recently experienced remarkable advances, fueled by large models, vast datasets, accelerated hardware, and, last but not least, the transformative power of differentiable programming. This new programming paradigm enables end-to-end differentiation of complex computer programs (including those with control flows and data structures), making gradient-based optimization of program parameters possible. As an emerging paradigm, differentiable programming builds upon several areas of computer science and applied mathematics, including automatic differentiation, graphical models, optimization and statistics. This book presents a comprehensive review of the fundamental concepts useful for differentiable programming. We adopt two main perspectives, that of optimization and that of probability, with clear analogies between the two. Differentiable programming is not merely the differentiation of programs, but also the t
+    arXiv:2404.02831v1 Announce Type: new  Abstract: We envision 'AI scientists' as systems capable of skeptical learning and reasoning that empower biomedical research through collaborative agents that integrate machine learning tools with experimental platforms. Rather than taking humans out of the discovery process, biomedical AI agents combine human creativity and expertise with AI's ability to analyze large datasets, navigate hypothesis spaces, and execute repetitive tasks. AI agents are proficient in a variety of tasks, including self-assessment and planning of discovery workflows. These agents use large language models and generative models to feature structured memory for continual learning and use machine learning tools to incorporate scientific knowledge, biological principles, and theories. AI agents can impact areas ranging from hybrid cell simulation, programmable control of phenotypes, and the design of cellular circuits to the development of new therapies.
     
-[^3]: 一个统一的模型编辑框架
+[^2]: 越大越好吗？通过预算重新分配改进LLM代码生成
+
+    The Larger the Better? Improved LLM Code-Generation via Budget Reallocation
+
+    [https://arxiv.org/abs/2404.00725](https://arxiv.org/abs/2404.00725)
+
+    较小的语言模型可以在相同预算下产生可靠的改进，但在无法进行单元测试的情况下，较小的模型选择排名次于较大模型的单个输出。
+
+    
+
+    人们普遍认为，大型语言模型(LLMs)比较小的模型更好。然而，更大的模型在推断过程中也需要更多的时间和计算资源。这就引出了一个问题：当两个模型在相同的预算下运行时会发生什么？（例如，计算资源，运行时间）。为了解决这个问题，我们分析了各种大小的代码生成LLMs，并进行比较，例如运行一个70B模型一次与从13B模型生成五个输出并选择一个的情况。我们的研究结果表明，在标准单元测试设置中，反复使用较小的模型可以产生一致的改进，在五个任务中最高可达15%的增益。另一方面，在无法进行单元测试的情况下，从较小模型中基于排名的候选选择表现不及来自较大模型的单个输出。我们的结果突显了使用较小模型而非较大模型的潜力。
+
+    arXiv:2404.00725v1 Announce Type: cross  Abstract: It is a common belief that large language models (LLMs) are better than smaller-sized ones. However, larger models also require significantly more time and compute during inference. This begs the question: what happens when both models operate under the same budget? (e.g., compute, run-time). To address this question, we analyze code generation LLMs of various sizes and make comparisons such as running a 70B model once vs. generating five outputs from a 13B model and selecting one. Our findings reveal that, in a standard unit-test setup, the repeated use of smaller models can yield consistent improvements, with gains of up to 15% across five tasks. On the other hand, in scenarios where unit-tests are unavailable, a ranking-based selection of candidates from the smaller model falls short of the performance of a single output from larger ones. Our results highlight the potential of using smaller models instead of larger ones, and the imp
+    
+[^3]: ReMamber：使用Mamba Twister实现引用图像分割
+
+    ReMamber: Referring Image Segmentation with Mamba Twister
+
+    [https://arxiv.org/abs/2403.17839](https://arxiv.org/abs/2403.17839)
+
+    提出了ReMamber，一种整合了Mamba和多模态Mamba Twister块的新型RIS架构，通过其独特的通道和空间扭曲机制实现图像-文本交互，取得了三个基准测试的最新技术成果
+
+    
+
+    引用图像分割（RIS）利用变换器在解释复杂的视觉-语言任务方面取得了巨大成功。然而，二次计算成本使其在捕捉远程视觉-语言依赖性方面消耗资源。幸运的是，Mamba通过高效的线性复杂度在处理方面解决了这个问题。然而，将Mamba直接应用于多模态交互会面临挑战，主要原因是因为通道交互不足，无法有效融合多模态数据。在本文中，我们提出了ReMamber，这是一种整合了Mamba和多模态Mamba Twister块强大功能的新型RIS架构。Mamba Twister通过其独特的通道和空间扭曲机制明确建模图像-文本交互，并通过其独特的通道和空间扭曲机制融合文本和视觉特征。我们在三个具有挑战性的基准测试中取得了最新技术成果。此外，我们对ReMamber进行了彻底分析，并讨论其他...
+
+    arXiv:2403.17839v1 Announce Type: cross  Abstract: Referring Image Segmentation (RIS) leveraging transformers has achieved great success on the interpretation of complex visual-language tasks. However, the quadratic computation cost makes it resource-consuming in capturing long-range visual-language dependencies. Fortunately, Mamba addresses this with efficient linear complexity in processing. However, directly applying Mamba to multi-modal interactions presents challenges, primarily due to inadequate channel interactions for the effective fusion of multi-modal data. In this paper, we propose ReMamber, a novel RIS architecture that integrates the power of Mamba with a multi-modal Mamba Twister block. The Mamba Twister explicitly models image-text interaction, and fuses textual and visual features through its unique channel and spatial twisting mechanism. We achieve the state-of-the-art on three challenging benchmarks. Moreover, we conduct thorough analyses of ReMamber and discuss other
+    
+[^4]: AutoRE：使用大型语言模型进行文档级关系抽取
+
+    AutoRE: Document-Level Relation Extraction with Large Language Models
+
+    [https://arxiv.org/abs/2403.14888](https://arxiv.org/abs/2403.14888)
+
+    AutoRE 是一种端到端的文档级关系抽取模型，采用了一种名为RHF的新颖关系抽取范式，可有效处理分布在文档中的多个关系和三元组事实。
+
+    
+
+    大型语言模型(LLMs)展示了在理解和生成文本方面的异常能力，这激励着许多研究人员利用它们进行信息抽取(IE)任务，包括关系抽取(RE)。然而，大多数现有方法主要设计用于句子级关系抽取(SentRE)任务，这通常涵盖了单个句子内的一组关系和三元组事实。此外，一些方法采用将关系作为候选选择集成到提示模板中的方式，导致在处理分布在给定文档中的多个关系和三元组事实时效率低下，性能亚优，并在处理文档级关系抽取(DocRE)任务时面临独特挑战。为了克服这些限制，我们介绍了AutoRE，这是一个端到端的DocRE模型，采用了一种名为RHF(Re
+
+    arXiv:2403.14888v1 Announce Type: cross  Abstract: Large Language Models (LLMs) have demonstrated exceptional abilities in comprehending and generating text, motivating numerous researchers to utilize them for Information Extraction (IE) purposes, including Relation Extraction (RE). Nonetheless, most existing methods are predominantly designed for Sentence-level Relation Extraction (SentRE) tasks, which typically encompass a restricted set of relations and triplet facts within a single sentence. Furthermore, certain approaches resort to treating relations as candidate choices integrated into prompt templates, leading to inefficient processing and suboptimal performance when tackling Document-Level Relation Extraction (DocRE) tasks, which entail handling multiple relations and triplet facts distributed across a given document, posing distinct challenges. To overcome these limitations, we introduce AutoRE, an end-to-end DocRE model that adopts a novel RE extraction paradigm named RHF (Re
+    
+[^5]: 一个统一的模型编辑框架
 
     A Unified Framework for Model Editing
 
@@ -66,228 +88,116 @@
 
     arXiv:2403.14236v1 Announce Type: cross  Abstract: Model editing is a growing area focused on updating the knowledge embedded within models. Among the various methodologies, ROME and MEMIT stand out as leading "locate-and-edit" model editing techniques. While MEMIT enables batched editing of memories, ROME is limited to changing one fact at a time. This paper introduces a unifying framework that brings ROME and MEMIT under a single conceptual umbrella, optimizing for the same goal, which we call the "preservation-memorization" objective. This objective aims to preserve the representations of certain selected vectors while memorizing the representations of new factual information. Specifically, ROME optimizes this objective using an equality constraint, whereas MEMIT employs a more flexible least-square constraint. In addition to making batched edits, MEMIT also edits the model at multiple layers. We disentangle the distribution of edits to multiple layers from the optimization objectiv
     
-[^4]: RigorLLM：针对大型语言模型抵御不良内容的鲁棒防护栏
+[^6]: 识别语义感应头以理解上下文学习
 
-    RigorLLM: Resilient Guardrails for Large Language Models against Undesired Content
+    Identifying Semantic Induction Heads to Understand In-Context Learning
 
-    [https://arxiv.org/abs/2403.13031](https://arxiv.org/abs/2403.13031)
+    [https://arxiv.org/abs/2402.13055](https://arxiv.org/abs/2402.13055)
 
-    RigorLLM提出了一种新颖的框架，旨在高效有效地调节LLMs的有害和不安全输入和输出，包括能量数据增强、最小-最大优化安全输入后缀，以及基于数据增强的鲁棒KNN与LLMs融合模型。
-
-    
-
-    大语言模型（LLMs）的最新进展展示了其在不同领域的各种任务中的显著能力。然而，LLMs中出现的偏见以及在恶意输入下产生有害内容的潜力，尤其是对抗性攻击下，都带来了重大挑战。本文提出了面向大型语言模型的鲁棒防护栏（RigorLLM），这是一个新颖的框架，旨在高效有效地调节LLMs的有害和不安全输入和输出。通过采用多方面的方法，包括通过朗之万动力学进行基于能量的训练数据增强、通过极小极大优化针对输入优化安全后缀，以及基于我们的数据增强将鲁棒KNN与LLMs融合的基于融合的模型，RigorLLM为有害内容的调节提供了强大的解决方案。我们的实验评估
-
-    arXiv:2403.13031v1 Announce Type: cross  Abstract: Recent advancements in Large Language Models (LLMs) have showcased remarkable capabilities across various tasks in different domains. However, the emergence of biases and the potential for generating harmful content in LLMs, particularly under malicious inputs, pose significant challenges. Current mitigation strategies, while effective, are not resilient under adversarial attacks. This paper introduces Resilient Guardrails for Large Language Models (RigorLLM), a novel framework designed to efficiently and effectively moderate harmful and unsafe inputs and outputs for LLMs. By employing a multi-faceted approach that includes energy-based training data augmentation through Langevin dynamics, optimizing a safe suffix for inputs via minimax optimization, and integrating a fusion-based model combining robust KNN with LLMs based on our data augmentation, RigorLLM offers a robust solution to harmful content moderation. Our experimental evalua
-    
-[^5]: 是否帮助：基于LLM的专注支持与人机群体互动
-
-    To Help or Not to Help: LLM-based Attentive Support for Human-Robot Group Interactions
-
-    [https://arxiv.org/abs/2403.12533](https://arxiv.org/abs/2403.12533)
-
-    该论文提出了基于LLM的专注支持交互概念，使机器人能够在不干扰群体的情况下支持和帮助人类。
+    该研究通过分析注意力头的操作，揭示了结合了句法依赖和知识图关系的语义感应头的出现，从而更好地理解了大型语言模型的上下文学习能力。
 
     
 
-    机器人如何在人类群体中提供不引人注目的物理支持？我们提出了Attentive Support，这是一个新颖的机器人与人类群体进行支持的交互概念。它将场景感知、对话获取、情况理解和行为生成与大规模语言模型（LLMs）的常识推理能力相结合。除了遵循用户的指令，Attentive Support能够决定何时以及如何支持人类，并在不干扰群体时保持沉默。通过多样化的场景，我们展示和评估了机器人的专注行为，当需要时支持和帮助人类，而如果不需要帮助，则不会干扰。
+    虽然大型语言模型(LLMs)已经展示出卓越的性能，但它们推理逻辑的不透明性引发了对其可靠性的担忧。为了更好地理解LLMs，我们对注意力头的操作进行了详细分析，并旨在更好地理解LLMs的上下文学习。具体而言，我们研究了注意力头是否编码了自然语言中存在的两种类型的关系：从句子中解析的句法依赖和知识图中的关系。我们发现某些注意力头表现出一种模式，即当关注头标记时，它们会回忆起尾标记，并增加这些尾标记的输出逻辑。更重要的是，这种语义感应头的制定与语言模型上下文学习能力的出现存在密切关联。语义注意力头的研究推动了我们的
 
-    arXiv:2403.12533v1 Announce Type: cross  Abstract: How can a robot provide unobtrusive physical support within a group of humans? We present Attentive Support, a novel interaction concept for robots to support a group of humans. It combines scene perception, dialogue acquisition, situation understanding, and behavior generation with the common-sense reasoning capabilities of Large Language Models (LLMs). In addition to following user instructions, Attentive Support is capable of deciding when and how to support the humans, and when to remain silent to not disturb the group. With a diverse set of scenarios, we show and evaluate the robot's attentive behavior, which supports and helps the humans when required, while not disturbing if no help is needed.
+    arXiv:2402.13055v1 Announce Type: cross  Abstract: Although large language models (LLMs) have demonstrated remarkable performance, the lack of transparency in their inference logic raises concerns about their trustworthiness. To gain a better understanding of LLMs, we conduct a detailed analysis of the operations of attention heads and aim to better understand the in-context learning of LLMs. Specifically, we investigate whether attention heads encode two types of relationships between tokens present in natural languages: the syntactic dependency parsed from sentences and the relation within knowledge graphs. We find that certain attention heads exhibit a pattern where, when attending to head tokens, they recall tail tokens and increase the output logits of those tail tokens. More crucially, the formulation of such semantic induction heads has a close correlation with the emergence of the in-context learning ability of language models. The study of semantic attention heads advances our
     
-[^6]: KIF：使用Wikidata进行异构知识库虚拟集成的框架
+[^7]: HyperMoE: 通过专家之间的知识传递实现更好的专家混合
 
-    KIF: A Framework for Virtual Integration of Heterogeneous Knowledge Bases using Wikidata
+    HyperMoE: Towards Better Mixture of Experts via Transferring Among Experts
 
-    [https://arxiv.org/abs/2403.10304](https://arxiv.org/abs/2403.10304)
+    [https://arxiv.org/abs/2402.12656](https://arxiv.org/abs/2402.12656)
 
-    KIF框架利用Wikidata作为通用语言，结合用户定义的映射，实现了异构知识库的虚拟集成，形成类似于扩展Wikidata的虚拟知识库，可通过过滤接口或SPARQL进行查询。
-
-    
-
-    我们提出了一个知识集成框架（称为KIF），该框架使用Wikidata作为通用语言来集成异构知识库。这些知识库可以是三元组存储、关系型数据库、CSV文件等，可以或不可以使用RDF的Wikidata方言。KIF利用Wikidata的数据模型和词汇以及用户定义的映射来展示集成库的统一视图，同时跟踪其陈述的上下文和出处。结果是一个行为类似于“扩展Wikidata”的虚拟知识库，可以通过高效过滤接口或使用SPARQL进行查询。我们展示了KIF的设计和实现，讨论了我们如何在化学领域（涉及Wikidata、PubChem和IBM CIRCA）中使用它解决实际集成问题，并介绍了KIF的性能和开销的实验结果。
-
-    arXiv:2403.10304v1 Announce Type: new  Abstract: We present a knowledge integration framework (called KIF) that uses Wikidata as a lingua franca to integrate heterogeneous knowledge bases. These can be triplestores, relational databases, CSV files, etc., which may or may not use the Wikidata dialect of RDF. KIF leverages Wikidata's data model and vocabulary plus user-defined mappings to expose a unified view of the integrated bases while keeping track of the context and provenance of their statements. The result is a virtual knowledge base which behaves like an "extended Wikidata" and which can be queried either through an efficient filter interface or using SPARQL. We present the design and implementation of KIF, discuss how we have used it to solve a real integration problem in the domain of chemistry (involving Wikidata, PubChem, and IBM CIRCA), and present experimental results on the performance and overhead of KIF.
-    
-[^7]: MCFEND：用于中文假新闻检测的多源基准数据集
-
-    MCFEND: A Multi-source Benchmark Dataset for Chinese Fake News Detection
-
-    [https://arxiv.org/abs/2403.09092](https://arxiv.org/abs/2403.09092)
-
-    MCFEND是第一个用于中文假新闻检测的多源基准数据集，解决了单一来源数据集应用于多源新闻数据时性能下降的问题。
+    HyperMoE通过Hypernetworks框架整合知识传递的概念，解决了在专家选择过程中专家知识稀疏性和可用性之间的矛盾。
 
     
 
-    虚假新闻在各个在线来源的普遍传播对公众产生了重要影响。现有的中文假新闻检测数据集仅限于来自微博的新闻。然而，来自多个来源的虚假新闻在内容和社会背景等各个方面表现出多样性。仅在单一新闻来源上训练的方法几乎无法适用于现实场景。我们的初步实验表明，学习自一个大型中文假新闻检测数据集Weibo-21的最先进方法的F1分数，当测试数据改变为多源新闻数据时，从0.943急剧下降到0.470，未能识别超过三分之一的多源虚假新闻。为解决这一限制，我们构建了用于中文假新闻检测的第一个多源基准数据集MCFEND，由我们从各种来源收集的新闻组成。
+    混合专家(MoE)在语言模型中被证明有效地增强了模型的能力，通过动态地将每个输入标记路由到特定的专家子集进行处理。尽管取得了成功，但大多数现有方法在专家知识的稀疏性和可用性之间面临挑战：通过增加对专家知识的使用来增强性能，往往会导致在专家选择过程中稀疏度减少。为了缓解这一矛盾，我们提出了HyperMoE，这是一个建立在Hypernetworks之上的新颖MoE框架。该框架将MoE的计算过程与多任务学习中的知识传递概念进行了集成。基于未选择专家信息生成的特定模块作为补充信息，允许未被选中的专家的知识在保持选择稀疏性的同时被使用。
 
-    arXiv:2403.09092v1 Announce Type: cross  Abstract: The prevalence of fake news across various online sources has had a significant influence on the public. Existing Chinese fake news detection datasets are limited to news sourced solely from Weibo. However, fake news originating from multiple sources exhibits diversity in various aspects, including its content and social context. Methods trained on purely one single news source can hardly be applicable to real-world scenarios. Our pilot experiment demonstrates that the F1 score of the state-of-the-art method that learns from a large Chinese fake news detection dataset, Weibo-21, drops significantly from 0.943 to 0.470 when the test data is changed to multi-source news data, failing to identify more than one-third of the multi-source fake news. To address this limitation, we constructed the first multi-source benchmark dataset for Chinese fake news detection, termed MCFEND, which is composed of news we collected from diverse sources suc
+    arXiv:2402.12656v1 Announce Type: cross  Abstract: The Mixture of Experts (MoE) for language models has been proven effective in augmenting the capacity of models by dynamically routing each input token to a specific subset of experts for processing. Despite the success, most existing methods face a challenge for balance between sparsity and the availability of expert knowledge: enhancing performance through increased use of expert knowledge often results in diminishing sparsity during expert selection. To mitigate this contradiction, we propose HyperMoE, a novel MoE framework built upon Hypernetworks. This framework integrates the computational processes of MoE with the concept of knowledge transferring in multi-task learning. Specific modules generated based on the information of unselected experts serve as supplementary information, which allows the knowledge of experts not selected to be used while maintaining selection sparsity. Our comprehensive empirical evaluations across multi
     
-[^8]: PathM3: 一种用于全切片图像分类和字幕生成的多模态多任务多实例学习框架
+[^8]: 基于3D场景表示的3D扩散器Actor：通过策略扩散进行机器人操作
 
-    PathM3: A Multimodal Multi-Task Multiple Instance Learning Framework for Whole Slide Image Classification and Captioning
+    3D Diffuser Actor: Policy Diffusion with 3D Scene Representations
 
-    [https://arxiv.org/abs/2403.08967](https://arxiv.org/abs/2403.08967)
+    [https://arxiv.org/abs/2402.10885](https://arxiv.org/abs/2402.10885)
 
-    提出了一种 PathM3 框架，用于WSI分类和字幕生成，采用了多模态、多任务、多实例学习方法，通过查询式transformer有效对齐WSIs与诊断性字幕。
-
-    
-
-    在计算组织病理学领域，整个切片图像（WSIs）和诊断性字幕都为做出诊断决策提供了宝贵的见解。然而，将WSIs与诊断性字幕对齐是一个重大挑战，主要源自两个因素：1）巨型像素WSIs不适合直接输入深度学习模型，而图块间的冗余性和相关性要求更多注意；2）真实的WSI诊断性字幕极其有限，使得难以训练出有效的模型。
-
-    arXiv:2403.08967v1 Announce Type: cross  Abstract: In the field of computational histopathology, both whole slide images (WSIs) and diagnostic captions provide valuable insights for making diagnostic decisions. However, aligning WSIs with diagnostic captions presents a significant challenge. This difficulty arises from two main factors: 1) Gigapixel WSIs are unsuitable for direct input into deep learning models, and the redundancy and correlation among the patches demand more attention; and 2) Authentic WSI diagnostic captions are extremely limited, making it difficult to train an effective model. To overcome these obstacles, we present PathM3, a multimodal, multi-task, multiple instance learning (MIL) framework for WSI classification and captioning. PathM3 adapts a query-based transformer to effectively align WSIs with diagnostic captions. Given that histopathology visual patterns are redundantly distributed across WSIs, we aggregate each patch feature with MIL method that considers t
-    
-[^9]: 一个镜子的库：低维深度神经网络是具有反射特征的凸Lasso模型
-
-    A Library of Mirrors: Deep Neural Nets in Low Dimensions are Convex Lasso Models with Reflection Features
-
-    [https://arxiv.org/abs/2403.01046](https://arxiv.org/abs/2403.01046)
-
-    证明在1-D数据上训练神经网络等价于解决一个具有固定特征字典矩阵的凸Lasso问题，为全局最优网络和解空间提供了洞察。
+    通过策略扩散和3D场景表示相结合，提出了3D Diffuser Actor，一个神经策略架构，可以根据语言指令构建3D视觉场景表示，并对机器人末端执行器的3D旋转和平移进行迭代去噪。
 
     
 
-    我们证明在1-D数据上训练神经网络等价于解决一个带有固定、明确定义的特征字典矩阵的凸Lasso问题。具体的字典取决于激活函数和深度。我们考虑具有分段线性激活函数的两层网络，深窄的ReLU网络最多有4层，以及具有符号激活和任意深度的矩形和树网络。有趣的是，在ReLU网络中，第四层创建代表训练数据关于自身的反射的特征。Lasso表示法揭示了全局最优网络和解空间的洞察。
+    我们将扩散策略和3D场景表示相结合，用于机器人操作。扩散策略通过条件扩散模型学习基于机器人和环境状态的动作分布。最近，它们已经表现出优于确定性和其他基于状态的动作分布学习方法。3D机器人策略使用从单个或多个摄像头视角获取的感应深度聚合的3D场景特征表示。它们已经证明比其2D对应物在摄像机视角上具有更好的泛化能力。我们统一了这两条线路的工作，并提出了3D扩散器Actor，这是一个神经策略架构，它在给定语言指令的情况下，构建视觉场景的3D表示，并在其上进行条件迭代去噪机器人末端执行器的3D旋转和平移。在每个去噪迭代中，我们的模型将末端执行器姿态估计表示为3D场景令牌，并预测t
 
-    arXiv:2403.01046v1 Announce Type: cross  Abstract: We prove that training neural networks on 1-D data is equivalent to solving a convex Lasso problem with a fixed, explicitly defined dictionary matrix of features. The specific dictionary depends on the activation and depth. We consider 2-layer networks with piecewise linear activations, deep narrow ReLU networks with up to 4 layers, and rectangular and tree networks with sign activation and arbitrary depth. Interestingly in ReLU networks, a fourth layer creates features that represent reflections of training data about themselves. The Lasso representation sheds insight to globally optimal networks and the solution landscape.
+    arXiv:2402.10885v1 Announce Type: cross  Abstract: We marry diffusion policies and 3D scene representations for robot manipulation. Diffusion policies learn the action distribution conditioned on the robot and environment state using conditional diffusion models. They have recently shown to outperform both deterministic and alternative state-conditioned action distribution learning methods. 3D robot policies use 3D scene feature representations aggregated from a single or multiple camera views using sensed depth. They have shown to generalize better than their 2D counterparts across camera viewpoints. We unify these two lines of work and present 3D Diffuser Actor, a neural policy architecture that, given a language instruction, builds a 3D representation of the visual scene and conditions on it to iteratively denoise 3D rotations and translations for the robot's end-effector. At each denoising iteration, our model represents end-effector pose estimates as 3D scene tokens and predicts t
     
-[^10]: 通过多智能体强化学习理解迭代组合拍卖设计
+[^9]: 使用随机子空间和Dirichlet过程混合模型的子抽样集合进行无监督异常检测
 
-    Understanding Iterative Combinatorial Auction Designs via Multi-Agent Reinforcement Learning
+    Unsupervised Outlier Detection using Random Subspace and Subsampling Ensembles of Dirichlet Process Mixtures. (arXiv:2401.00773v2 [cs.LG] UPDATED)
 
-    [https://arxiv.org/abs/2402.19420](https://arxiv.org/abs/2402.19420)
+    [http://arxiv.org/abs/2401.00773](http://arxiv.org/abs/2401.00773)
 
-    多智能体强化学习算法可能有助于理解迭代组合拍卖，但其有效部署具有挑战性，需要考虑保持游戏可处理性以及避免各种算法的陷阱。
-
-    
-
-    迭代组合拍卖在高风险场景如频谱拍卖中被广泛使用。然而，这类拍卖难以在理论上理解，使得竞标者很难决定如何行动以及设计者很难优化拍卖规则以确保理想的结果，如高收入或福利。本文探讨了多智能体强化学习算法是否能够用于理解迭代组合拍卖，鉴于这些算法最近在其他领域已经显示出实证成功。我们发现，多智能体强化学习确实可以受益于拍卖分析，但有效部署并不容易。我们首先描述了保持结果游戏可处理的建模决策，同时不牺牲诸如信息不完全或竞标者间不对称等重要特征。我们还讨论了如何避免各种多智能体强化学习算法的陷阱，如何克服挑战以及如何应对各种问题。
-
-    arXiv:2402.19420v1 Announce Type: cross  Abstract: Iterative combinatorial auctions are widely used in high stakes settings such as spectrum auctions. Such auctions can be hard to understand analytically, making it difficult for bidders to determine how to behave and for designers to optimize auction rules to ensure desirable outcomes such as high revenue or welfare. In this paper, we investigate whether multi-agent reinforcement learning (MARL) algorithms can be used to understand iterative combinatorial auctions, given that these algorithms have recently shown empirical success in several other domains. We find that MARL can indeed benefit auction analysis, but that deploying it effectively is nontrivial. We begin by describing modelling decisions that keep the resulting game tractable without sacrificing important features such as imperfect information or asymmetry between bidders. We also discuss how to navigate pitfalls of various MARL algorithms, how to overcome challenges in ver
-    
-[^11]: CHATATC：用于支持战略空中交通流量管理的大型语言模型驱动的对话系统
-
-    CHATATC: Large Language Model-Driven Conversational Agents for Supporting Strategic Air Traffic Flow Management
-
-    [https://arxiv.org/abs/2402.14850](https://arxiv.org/abs/2402.14850)
-
-    本研究探讨了如何将大型语言模型应用于非安全关键的战略交通流量管理环境，提出了一个名为CHATATC的模型，通过训练大量历史数据集实现对话系统，并测试了其查询和响应能力。
+    提出一种基于随机子空间和子抽样集合的Dirichlet过程高斯混合模型的无监督异常检测方法，提高了计算效率和检测器的鲁棒性。
 
     
 
-    生成人工智能（AI）和大型语言模型（LLMs）已经通过诸如ChatGPT等公开可用工具快速走红。LLMs在个人和专业领域的应用得到推动，是由于人类用户与ChatGPT等计算机应用之间自然的互动，以及强大的摘要和文本生成能力。在这项工作中，我们调查了这些生成AI工具如何在非安全关键的战略交通流量管理环境中部署。具体来说，我们基于包含超过80,000个GDP实施、修订和取消的大量历史数据集，对CHATATC进行训练。我们测试了CHATATC的查询和响应能力，记录了成功之处（例如，提供正确的GDP率、持续时间和原因）以及不足之处（例如，最高水平）
+    概率混合模型被认为是一种有价值的工具，用于无监督异常检测，因为它们具有解释性，并且在统计原理上有直观基础。在这个框架内，Dirichlet过程混合模型作为传统有限混合模型在聚类和异常检测任务中的一个引人注目的替代选择。然而，尽管它们明显具有优势，但在无监督异常检测中广泛采用Dirichlet过程混合模型受到与构建检测器过程中的计算效率和对异常值的敏感性有关的挑战的阻碍。为了解决这些挑战，我们提出了一种基于Dirichlet过程高斯混合模型集合的新型异常检测方法。所提出的方法是一种完全无监督的算法，利用了随机子空间和子抽样集合，不仅确保了高效计算，还增强了结果异常检测器的鲁棒性。
 
-    arXiv:2402.14850v1 Announce Type: cross  Abstract: Generative artificial intelligence (AI) and large language models (LLMs) have gained rapid popularity through publicly available tools such as ChatGPT. The adoption of LLMs for personal and professional use is fueled by the natural interactions between human users and computer applications such as ChatGPT, along with powerful summarization and text generation capabilities. Given the widespread use of such generative AI tools, in this work we investigate how these tools can be deployed in a non-safety critical, strategic traffic flow management setting. Specifically, we train an LLM, CHATATC, based on a large historical data set of Ground Delay Program (GDP) issuances, spanning 2000-2023 and consisting of over 80,000 GDP implementations, revisions, and cancellations. We test the query and response capabilities of CHATATC, documenting successes (e.g., providing correct GDP rates, durations, and reason) and shortcomings (e.g,. superlative
+    Probabilistic mixture models are acknowledged as a valuable tool for unsupervised outlier detection owing to their interpretability and intuitive grounding in statistical principles. Within this framework, Dirichlet process mixture models emerge as a compelling alternative to conventional finite mixture models for both clustering and outlier detection tasks. However, despite their evident advantages, the widespread adoption of Dirichlet process mixture models in unsupervised outlier detection has been hampered by challenges related to computational inefficiency and sensitivity to outliers during the construction of detectors. To tackle these challenges, we propose a novel outlier detection method based on ensembles of Dirichlet process Gaussian mixtures. The proposed method is a fully unsupervised algorithm that capitalizes on random subspace and subsampling ensembles, not only ensuring efficient computation but also enhancing the robustness of the resulting outlier detector. Moreover,
     
-[^12]: RefuteBench：评估用于大型语言模型的反驳指令遵循
+[^10]: P-ROCKET: 针对时间序列分类的随机卷积核剪枝
 
-    RefuteBench: Evaluating Refuting Instruction-Following for Large Language Models
+    P-ROCKET: Pruning Random Convolution Kernels for Time Series Classification. (arXiv:2309.08499v1 [cs.LG])
 
-    [https://arxiv.org/abs/2402.13463](https://arxiv.org/abs/2402.13463)
+    [http://arxiv.org/abs/2309.08499](http://arxiv.org/abs/2309.08499)
 
-    本文提出了一个名为RefuteBench的基准测试，旨在评估大型语言模型对反驳指令的遵循能力，发现LLMs倾向于固执于其内部知识而无法遵从用户反馈。
-
-    
-
-    大型语言模型（LLMs）的应用范围日益扩大。在实际使用中，用户可能根据模型的输出提供反馈，希望得到一个可以根据他们的反馈完成响应的响应模型。然而，模型能否恰当地响应用户的反驳反馈并始终执行下去尚未得到彻底分析。基于这一问题，本文提出了一个全面的基准测试，RefuteBench，涵盖了诸如问答、机器翻译和电子邮件撰写等任务。评估旨在评估模型是否能够积极接受反驳指令形式的反馈，并是否能够在对话中始终遵循用户需求。我们对众多LLMs进行了评估，并发现LLMs倾向固执，即倾向于其内部知识，经常未能遵守用户反馈。
-
-    arXiv:2402.13463v1 Announce Type: cross  Abstract: The application scope of large language models (LLMs) is increasingly expanding. In practical use, users might provide feedback based on the model's output, hoping for a responsive model that can complete responses according to their feedback. Whether the model can appropriately respond to users' refuting feedback and consistently follow through with execution has not been thoroughly analyzed. In light of this, this paper proposes a comprehensive benchmark, RefuteBench, covering tasks such as question answering, machine translation, and email writing. The evaluation aims to assess whether models can positively accept feedback in form of refuting instructions and whether they can consistently adhere to user demands throughout the conversation. We conduct evaluations on numerous LLMs and find that LLMs are stubborn, i.e. exhibit inclination to their internal knowledge, often failing to comply with user feedback. Additionally, as the leng
-    
-[^13]: 用线性策略网络解决深度强化学习基准问题
-
-    Solving Deep Reinforcement Learning Benchmarks with Linear Policy Networks
-
-    [https://arxiv.org/abs/2402.06912](https://arxiv.org/abs/2402.06912)
-
-    本研究通过使用进化策略(ES)来优化神经网络的权重，以通过直接策略搜索解决深度强化学习(DRL)基准问题。研究结果显示，ES可以在许多基准任务中找到有效的线性策略，与当前使用更大网络的DRL方法相比，这表明当前的基准问题比以往认为的更容易解决。
+    本研究提出了一种名为P-ROCKET的方法，通过在特征选择的角度删除卷积核，从而实现对时间序列分类中的随机卷积核进行剪枝。
 
     
 
-    尽管深度强化学习(DRL)算法能够学习有效的策略来解决像Atari游戏和机器人任务这样的挑战性问题，但算法复杂，训练时间往往较长。本研究探讨了进化策略(ES)与基于梯度的深度强化学习方法之间的表现差异。我们使用ES通过神经进化优化神经网络的权重，通过直接策略搜索来完成。我们对常规网络和由一个从观测到动作的单一线性层组成的策略网络进行基准测试；对于三种经典的ES方法和三种基于梯度的方法，如PPO。我们的结果表明，ES可以在许多RL基准任务中找到有效的线性策略，而DRL方法只能使用更大的网络找到成功的策略，这表明当前的基准问题比以前认为的更容易解决。有趣的是，即使对于更复杂的任务，ES的结果也与基于梯度的方法相当。
+    在最近几年，两个时间序列分类模型ROCKET和MINIROCKET因其低训练成本和最先进的准确性而受到广泛关注。ROCKET和MINIROCKET利用无需训练的随机一维卷积核，可以快速从时间序列数据中提取特征，从而实现线性分类器的高效拟合。然而，为了全面捕捉有用的特征，需要大量的随机卷积核，这对于资源受限的设备来说是不兼容的。因此，我们设计了一种启发式进化算法S-ROCKET，用于识别和剪枝冗余的卷积核。然而，进化算法本身的特性导致在S-ROCKET中评估卷积核是一个耗时的过程。本文中，与直接评估具有非显著差异的随机卷积核的S-ROCKET不同，我们从特征选择的角度删除卷积核，通过消除序列中的相关连接来实现。
 
-    Although Deep Reinforcement Learning (DRL) methods can learn effective policies for challenging problems such as Atari games and robotics tasks, algorithms are complex and training times are often long. This study investigates how evolution strategies (ES) perform compared to gradient-based deep reinforcement learning methods. We use ES to optimize the weights of a neural network via neuroevolution, performing direct policy search. We benchmark both regular networks and policy networks consisting of a single linear layer from observations to actions; for three classical ES methods and for three gradient-based methods such as PPO. Our results reveal that ES can find effective linear policies for many RL benchmark tasks, in contrast to DRL methods that can only find successful policies using much larger networks, suggesting that current benchmarks are easier to solve than previously assumed. Interestingly, also for higher complexity tasks, ES achieves results comparable to gradient-based
+    In recent years, two time series classification models, ROCKET and MINIROCKET, have attracted much attention for their low training cost and state-of-the-art accuracy. Utilizing random 1-D convolutional kernels without training, ROCKET and MINIROCKET can rapidly extract features from time series data, allowing for the efficient fitting of linear classifiers. However, to comprehensively capture useful features, a large number of random kernels are required, which is incompatible for resource-constrained devices. Therefore, a heuristic evolutionary algorithm named S-ROCKET is devised to recognize and prune redundant kernels. Nevertheless, the inherent nature of evolutionary algorithms renders the evaluation of kernels within S-ROCKET an unacceptable time-consuming process. In this paper, diverging from S-ROCKET, which directly evaluates random kernels with nonsignificant differences, we remove kernels from a feature selection perspective by eliminating associating connections in the sequ
     
-[^14]: 使用深度强化学习对多核量子架构进行电路分区
+[^11]: Belebele基准数据集：122种语言变体的并行阅读理解数据集
 
-    Circuit Partitioning for Multi-Core Quantum Architectures with Deep Reinforcement Learning
+    The Belebele Benchmark: a Parallel Reading Comprehension Dataset in 122 Language Variants. (arXiv:2308.16884v1 [cs.CL])
 
-    [https://arxiv.org/abs/2401.17976](https://arxiv.org/abs/2401.17976)
+    [http://arxiv.org/abs/2308.16884](http://arxiv.org/abs/2308.16884)
 
-    本文使用深度强化学习技术，提出了一种适应多核量子架构的电路分区方法，旨在推动量子计算和图分区领域的发展。
-
-    
-
-    量子计算利用量子力学的独特性质，具有解决经典难题的巨大潜力。量子架构的可扩展性仍然是一个重要挑战。多核量子架构被提出来解决可扩展性问题，引发了硬件、通信和编译等一系列新的挑战。其中之一是将量子算法适应到量子计算机的不同核心中。本文提出了一种使用深度强化学习进行电路分区的新方法，为量子计算和图分区的进展做出了贡献。这项工作是将深度强化学习技术整合到量子电路映射中的第一步，为解决此类问题开辟了一种新的范式。
-
-    Quantum computing holds immense potential for solving classically intractable problems by leveraging the unique properties of quantum mechanics. The scalability of quantum architectures remains a significant challenge. Multi-core quantum architectures are proposed to solve the scalability problem, arising a new set of challenges in hardware, communications and compilation, among others. One of these challenges is to adapt a quantum algorithm to fit within the different cores of the quantum computer. This paper presents a novel approach for circuit partitioning using Deep Reinforcement Learning, contributing to the advancement of both quantum computing and graph partitioning. This work is the first step in integrating Deep Reinforcement Learning techniques into Quantum Circuit Mapping, opening the door to a new paradigm of solutions to such problems.
-    
-[^15]: 大型语言模型中的时间箭头
-
-    Arrows of Time for Large Language Models
-
-    [https://arxiv.org/abs/2401.17505](https://arxiv.org/abs/2401.17505)
-
-    这篇论文通过研究自回归大型语言模型的时间方向性，发现了模型在建模自然语言能力上存在时间上的不对称性。从信息理论的角度来看，这种差异理论上是不应该存在的。通过稀疏性和计算复杂性的考虑，提供了一个理论框架来解释这种不对称性的出现。
+    Belebele是一个包含122种语言变体的多选机器阅读理解数据集，可用于评估文本模型在高、中和低资源语言中的性能。尽管英语为中心的大型语言模型在跨语言转移方面表现良好，但小型多语言遮蔽语言模型在其他语言上表现更佳。
 
     
 
-    我们通过时间方向性的视角研究了自回归大型语言模型的概率建模。我们在实证上发现这类模型在建模自然语言能力上存在时间上的不对称性：预测下一个记号和预测前一个记号时的平均对数困惑度存在差异。这种差异既微妙又在不同的模态（语言、模型大小、训练时间等）下非常一致。从信息理论的角度来看，这在理论上是令人惊讶的，不应该存在这样的差异。我们提供了一个理论框架，解释了这种不对称性如何出现在稀疏性和计算复杂性考虑中，并概述了我们的结果带来的一些展望。
+    我们提出了Belebele，一个包含122种语言变体的多选机器阅读理解（MRC）数据集。该数据集极大地扩展了自然语言理解（NLU）基准的语言覆盖范围，使得可以评估文本模型在高、中和低资源语言中的性能。每个问题都基于Flores-200数据集中的一个短篇文章，并提供了四个多选答案。问题经过精心策划，以区分具有不同通用语言理解水平的模型。单独的英语数据集已经足够困难，可以挑战最先进的语言模型。由于完全并行，该数据集可以直接比较所有语言的模型性能。我们使用该数据集评估多语言遮蔽语言模型（MLMs）和大型语言模型（LLMs）的能力。我们展示了广泛的结果，并发现尽管英语为中心的LLMs之间存在显著的跨语言转移，但小型MLMs在其他语言上的表现相对较好。
 
-    We study the probabilistic modeling performed by Autoregressive Large Language Models through the angle of time directionality. We empirically find a time asymmetry exhibited by such models in their ability to model natural language: a difference in the average log-perplexity when trying to predict the next token versus when trying to predict the previous one. This difference is at the same time subtle and very consistent across various modalities (language, model size, training time, ...). Theoretically, this is surprising: from an information-theoretic point of view, there should be no such difference. We provide a theoretical framework to explain how such an asymmetry can appear from sparsity and computational complexity considerations, and outline a number of perspectives opened by our results.
+    We present Belebele, a multiple-choice machine reading comprehension (MRC) dataset spanning 122 language variants. Significantly expanding the language coverage of natural language understanding (NLU) benchmarks, this dataset enables the evaluation of text models in high-, medium-, and low-resource languages. Each question is based on a short passage from the Flores-200 dataset and has four multiple-choice answers. The questions were carefully curated to discriminate between models with different levels of general language comprehension. The English dataset on its own proves difficult enough to challenge state-of-the-art language models. Being fully parallel, this dataset enables direct comparison of model performance across all languages. We use this dataset to evaluate the capabilities of multilingual masked language models (MLMs) and large language models (LLMs). We present extensive results and find that despite significant cross-lingual transfer in English-centric LLMs, much small
     
-[^16]: 大型语言模型能够如何解释业务流程？
+[^12]: 最可能的共同原因
 
-    How well can large language models explain business processes?. (arXiv:2401.12846v1 [cs.AI])
+    The most likely common cause. (arXiv:2306.17557v1 [physics.data-an])
 
-    [http://arxiv.org/abs/2401.12846](http://arxiv.org/abs/2401.12846)
+    [http://arxiv.org/abs/2306.17557](http://arxiv.org/abs/2306.17557)
 
-    该论文介绍了一个用于生成业务流程解释的SAX4BPM框架，该框架通过与大型语言模型（LLM）集成来综合各种输入要素，以提供更好的情境感知解释（SAX）。
-
-    
-
-    大型语言模型（LLMs）可能在未来的AI辅助业务流程管理系统（ABPMSs）中发挥重要作用，其功能涵盖系统生命周期的各个阶段。其中一个系统功能是情境感知解释（SAX），它涉及生成在考虑所解释条件出现的流程上下文的前提下既符合因果关系又可人类解读的解释。在本文中，我们介绍了开发用于生成SAX解释的SAX4BPM框架。SAX4BPM套件包括一组服务和一个中央知识库。这些服务的功能是获取构成SAX解释的各种知识要素。其中一个创新性的关键组成部分是因果过程执行视图。在本工作中，我们将该框架与LLM集成，以利用其综合各种输入要素的能力，从而改进SAX解释的质量。
-
-    Large Language Models (LLMs) are likely to play a prominent role in future AI-augmented business process management systems (ABPMSs) catering functionalities across all system lifecycle stages. One such system's functionality is Situation-Aware eXplainability (SAX), which relates to generating causally sound and yet human-interpretable explanations that take into account the process context in which the explained condition occurred. In this paper, we present the SAX4BPM framework developed to generate SAX explanations. The SAX4BPM suite consists of a set of services and a central knowledge repository. The functionality of these services is to elicit the various knowledge ingredients that underlie SAX explanations. A key innovative component among these ingredients is the causal process execution view. In this work, we integrate the framework with an LLM to leverage its power to synthesize the various input ingredients for the sake of improved SAX explanations. Since the use of LLMs for
-    
-[^17]: 走向异质图学习：进展与未来
-
-    Towards Learning from Graphs with Heterophily: Progress and Future. (arXiv:2401.09769v1 [cs.SI])
-
-    [http://arxiv.org/abs/2401.09769](http://arxiv.org/abs/2401.09769)
-
-    本调查综合概述了关于从带有异质性的图中学习的现有研究，并根据学习策略、模型架构和实际应用等方面对方法进行了分类。同时讨论了现有研究的主要挑战，并提出了未来研究的潜在方向。
+    对于因果不充分的情况下的共同原因问题，我们使用广义最大似然方法来识别共同原因C，与最大熵原则密切相关。对于两个二元对称变量的研究揭示了类似于二阶相变的条件概率非解析行为。
 
     
 
-    图是用来模拟现实世界实体之间复杂关系的结构化数据。最近，异质图，其中连接的节点往往具有不同的标签或不同的特征，引起了广泛关注并找到了许多应用。与此同时，人们也在不断努力推进从异质图中学习。虽然有关该主题的调查存在，但它们只关注于异质图神经网络（GNNs），而忽略了异质图学习的其他子主题。在本调查中，我们全面回顾了关于从带有异质性的图中学习的现有研究。首先，我们收集了180多篇论文，介绍了该领域的发展。然后，我们根据层次分类法对现有方法进行了系统分类，包括学习策略、模型架构和实际应用。最后，我们讨论了现有研究的主要挑战，并突出了未来研究的潜在方向。
+    对于两个随机变量A和B的共同原因原则在因果不充分的情况下进行了研究，当它们的共同原因C被认为已经存在，但只观测到了A和B的联合概率。因此，C不能被唯一确定（潜在混杂因子问题）。我们展示了广义最大似然方法可以应用于这种情况，并且允许识别与共同原因原则一致的C。它与最大熵原则密切相关。对两个二元对称变量的研究揭示了条件概率的非解析行为，类似于二阶相变。这发生在观察到的概率分布从相关到反相关的过渡期间。讨论了广义似然方法与其他方法（如预测似然和最小共同原因熵）之间的关系。
 
-    Graphs are structured data that models complex relations between real-world entities. Heterophilous graphs, where linked nodes are prone to be with different labels or dissimilar features, have recently attracted significant attention and found many applications. Meanwhile, increasing efforts have been made to advance learning from heterophilous graphs. Although there exist surveys on the relevant topic, they focus on heterophilous GNNs, which are only sub-topics of heterophilous graph learning. In this survey, we comprehensively overview existing works on learning from graphs with heterophily.First, we collect over 180 publications and introduce the development of this field. Then, we systematically categorize existing methods based on a hierarchical taxonomy including learning strategies, model architectures and practical applications. Finally, we discuss the primary challenges of existing studies and highlight promising avenues for future research.More publication details and corres
+    The common cause principle for two random variables $A$ and $B$ is examined in the case of causal insufficiency, when their common cause $C$ is known to exist, but only the joint probability of $A$ and $B$ is observed. As a result, $C$ cannot be uniquely identified (the latent confounder problem). We show that the generalized maximum likelihood method can be applied to this situation and allows identification of $C$ that is consistent with the common cause principle. It closely relates to the maximum entropy principle. Investigation of the two binary symmetric variables reveals a non-analytic behavior of conditional probabilities reminiscent of a second-order phase transition. This occurs during the transition from correlation to anti-correlation in the observed probability distribution. The relation between the generalized likelihood approach and alternative methods, such as predictive likelihood and the minimum common cause entropy, is discussed. The consideration of the common cause
     
-[^18]: 学习基于专利的生物医学知识图谱揭示药物再定位候选物的技术潜力
+[^13]: 使用深度学习在"Web of Science"中对研究领域进行层次分类
 
-    Learning a Patent-Informed Biomedical Knowledge Graph Reveals Technological Potential of Drug Repositioning Candidates. (arXiv:2309.03227v1 [cs.AI])
+    Hierarchical Classification of Research Fields in the "Web of Science" Using Deep Learning. (arXiv:2302.00390v2 [cs.DL] UPDATED)
 
-    [http://arxiv.org/abs/2309.03227](http://arxiv.org/abs/2309.03227)
+    [http://arxiv.org/abs/2302.00390](http://arxiv.org/abs/2302.00390)
 
-    本研究提出了一种使用药物专利和生物医学数据库相结合的方法，识别具有技术潜力和科学证据的药物再定位候选物。通过构建科学的生物医学知识图谱和基于专利的生物医学知识图谱，我们可以综合分析多种信息源，为药物再定位研究提供新的视角。
-
-    
-
-    药物再定位是一种发现现有药物新治疗用途的有前途的策略，近年来在计算科学文献中使用生物医学数据库进行了广泛探索。然而，药物再定位候选物的技术潜力经常被忽视。本研究提出了一种新的方法，综合分析药物专利和生物医学数据库等多种信息源，识别具有技术潜力和科学证据的药物再定位候选物。首先，我们构建了一个科学的生物医学知识图谱（s-BKG），包括来自生物医学数据库的药物、疾病和基因之间的关系。我们的方法涉及识别在s-BKG中与目标疾病关联有限但在空间上紧密相邻的药物作为潜在的药物候选物。然后，我们通过添加药物专利信息构建了一个基于专利的生物医学知识图谱（p-BKG）。
-
-    Drug repositioning-a promising strategy for discovering new therapeutic uses for existing drugs-has been increasingly explored in the computational science literature using biomedical databases. However, the technological potential of drug repositioning candidates has often been overlooked. This study presents a novel protocol to comprehensively analyse various sources such as pharmaceutical patents and biomedical databases, and identify drug repositioning candidates with both technological potential and scientific evidence. To this end, first, we constructed a scientific biomedical knowledge graph (s-BKG) comprising relationships between drugs, diseases, and genes derived from biomedical databases. Our protocol involves identifying drugs that exhibit limited association with the target disease but are closely located in the s-BKG, as potential drug candidates. We constructed a patent-informed biomedical knowledge graph (p-BKG) by adding pharmaceutical patent information. Finally, we d
-    
-[^19]: 保护隐私的张量网络机器学习
-
-    Privacy-preserving machine learning with tensor networks. (arXiv:2202.12319v2 [cs.CR] UPDATED)
-
-    [http://arxiv.org/abs/2202.12319](http://arxiv.org/abs/2202.12319)
-
-    本文展示了张量网络架构在保护隐私的机器学习中具有潜在优势，并提出了确保鲁棒性的明确条件。
+    本文提出了一个使用深度学习进行层次分类的系统，可以自动将学术出版物通过抽象进行分类，实现了对研究活动在不同层次结构中的全面分类，并允许跨学科和跨领域的单标签和多标签分类。
 
     
 
-    张量网络被广泛用于提供低能量态的高效表示，最近被提出作为机器学习架构的一种新方法。本文展示了张量网络架构在保护隐私的机器学习中具有潜在优势，这对于处理医疗记录等任务非常重要。首先，我们描述了前馈神经网络中存在的新隐私漏洞，并在合成和真实数据集中进行了说明。然后，我们提出了确保对这种漏洞具有鲁棒性的明确条件，这涉及到在规范对称性下等价的模型的刻画。我们严格证明了张量网络架构满足这些条件。在此过程中，我们定义了一种新型的矩阵乘积态的规范形式，具有高度的规律性并修正了残余规范问题。
+    本文提出了一个层次分类系统，通过使用抽象将学术出版物自动分类到三级层次标签集（学科、领域、子领域）中，以多类别设置进行分类。该系统可以通过文章的知识生产和引用的影响，对研究活动在所述层次结构中进行全面的分类，并允许这些活动被归为多个类别。该分类系统在Microsoft Academic Graph (版本2018-05-17)的160 million份摘要片段中区分了44个学科、718个领域和1,485个子领域。我们以模块化和分布式方式进行批量训练，以解决和允许跨学科和跨领域的单标签和多标签分类。总共，我们在所有考虑的模型（卷积神经网络，循环神经网络，变形器）中进行了3,140次实验。分类准确率> 90％。
 
-    Tensor networks, widely used for providing efficient representations of low-energy states of local quantum many-body systems, have been recently proposed as machine learning architectures which could present advantages with respect to traditional ones. In this work we show that tensor network architectures have especially prospective properties for privacy-preserving machine learning, which is important in tasks such as the processing of medical records. First, we describe a new privacy vulnerability that is present in feedforward neural networks, illustrating it in synthetic and real-world datasets. Then, we develop well-defined conditions to guarantee robustness to such vulnerability, which involve the characterization of models equivalent under gauge symmetry. We rigorously prove that such conditions are satisfied by tensor-network architectures. In doing so, we define a novel canonical form for matrix product states, which has a high degree of regularity and fixes the residual gaug
+    This paper presents a hierarchical classification system that automatically categorizes a scholarly publication using its abstract into a three-tier hierarchical label set (discipline, field, subfield) in a multi-class setting. This system enables a holistic categorization of research activities in the mentioned hierarchy in terms of knowledge production through articles and impact through citations, permitting those activities to fall into multiple categories. The classification system distinguishes 44 disciplines, 718 fields and 1,485 subfields among 160 million abstract snippets in Microsoft Academic Graph (version 2018-05-17). We used batch training in a modularized and distributed fashion to address and allow for interdisciplinary and interfield classifications in single-label and multi-label settings. In total, we have conducted 3,140 experiments in all considered models (Convolutional Neural Networks, Recurrent Neural Networks, Transformers). The classification accuracy is > 90%
     
 
