@@ -2,112 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Adaptive Bounding Box Uncertainties via Two-Step Conformal Prediction](https://arxiv.org/abs/2403.07263) | 通过两步形式预测方法，本文实现了自适应边界框不确定性的量化，保证了对象边界框不确定性区间的覆盖率，包括了错误分类的对象，同时确保边界框区间能够适应物体大小，实现更平衡的覆盖率。 |
-| [^2] | [Optimizing Adaptive Experiments: A Unified Approach to Regret Minimization and Best-Arm Identification](https://arxiv.org/abs/2402.10592) | 提出了一种统一模型，同时考虑了实验内部性能和实验后结果，在优化大规模人群中的表现方面提供了尖锐理论，揭示了新颖的见解 |
-| [^3] | [Scalable Kernel Logistic Regression with Nystr\"om Approximation: Theoretical Analysis and Application to Discrete Choice Modelling](https://arxiv.org/abs/2402.06763) | 本文介绍了使用Nystr\"om近似方法解决大规模数据集上核逻辑回归的可扩展性问题。研究提供了理论分析并验证了不同的地标选择方法的性能。 |
-| [^4] | [Information Leakage Detection through Approximate Bayes-optimal Prediction.](http://arxiv.org/abs/2401.14283) | 本论文通过建立一个理论框架，利用统计学习理论和信息论来准确量化和检测信息泄漏，通过近似贝叶斯预测的对数损失和准确性来准确估计互信息。 |
-| [^5] | [Geometric Learning with Positively Decomposable Kernels.](http://arxiv.org/abs/2310.13821) | 本文提出了使用正可分解核的几何学习方法，该方法通过在RKKS中学习而不需要访问核的分解，为非欧几里德数据的核学习提供了一条路径，并为RKKS方法提供了理论基础。 |
-| [^6] | [Monte Carlo inference for semiparametric Bayesian regression.](http://arxiv.org/abs/2306.05498) | 本文介绍了一种简单、通用和高效的半参数贝叶斯回归的蒙特卡洛推断策略，可用于联合后验一致性，即使经典的似然函数是难以处理或未知的。 |
-| [^7] | [Sequential Knockoffs for Variable Selection in Reinforcement Learning.](http://arxiv.org/abs/2303.14281) | 本论文介绍了一种新颖的序列 Knockoffs (SEEK)算法，用于在强化学习系统中实现变量选择，该算法估计了最小充分状态，确保学习进程良好而不会减缓。 |
+| [^1] | [Interaction Screening and Pseudolikelihood Approaches for Tensor Learning in Ising Models.](http://arxiv.org/abs/2310.13232) | 本文研究了在Ising模型中的张量学习中，通过伪似然方法和相互作用筛选方法可以恢复出底层的超网络结构，并且性能比较表明张量恢复速率与最大耦合强度呈指数关系。 |
+| [^2] | [Martian time-series unraveled: A multi-scale nested approach with factorial variational autoencoders.](http://arxiv.org/abs/2305.16189) | 该论文提出了一种因子高斯混合变分自动编码器，用于多尺度聚类和源分离，通过利用小波散射协方差来提供随机过程的低维表示，能够区分不同的非高斯随机过程，并在MRO数据集上展现了更好的性能。 |
+| [^3] | [Adaptive, Rate-Optimal Hypothesis Testing in Nonparametric IV Models.](http://arxiv.org/abs/2006.09587) | 我们提出了一种自适应检验方法，用于处理非参数仪器变量模型中的结构函数的不等式和等式限制。该方法可以适应未知的平滑度和工具强度，并达到了最小值率的自适应最优检验率。 |
 
 # 详细
 
-[^1]: 通过两步形式预测实现自适应边界框不确定性
+[^1]: Ising模型中的张量学习的相互作用筛选和伪似然方法
 
-    Adaptive Bounding Box Uncertainties via Two-Step Conformal Prediction
+    Interaction Screening and Pseudolikelihood Approaches for Tensor Learning in Ising Models. (arXiv:2310.13232v1 [stat.ME])
 
-    [https://arxiv.org/abs/2403.07263](https://arxiv.org/abs/2403.07263)
+    [http://arxiv.org/abs/2310.13232](http://arxiv.org/abs/2310.13232)
 
-    通过两步形式预测方法，本文实现了自适应边界框不确定性的量化，保证了对象边界框不确定性区间的覆盖率，包括了错误分类的对象，同时确保边界框区间能够适应物体大小，实现更平衡的覆盖率。
-
-    
-
-    量化模型的预测不确定性对于像自动驾驶这样的安全关键应用至关重要。我们考虑为多物体检测量化这种不确定性。具体来说，我们利用形式预测来获得具有保证覆盖率的物体边界框不确定性区间。这样做的一个挑战是边界框的预测取决于物体的类别标签。因此，我们开发了一种新颖的两步形式方法，将对预测类别标签的不确定性传播到边界框的不确定性区间中。这样，我们的形式覆盖保证的有效性更广泛，包括了被错误分类的物体，确保它们在需要最大安全保证时的实用性。此外，我们研究了新颖的集成和分位数回归形式，以确保边界框区间能够适应物体大小，从而实现更平衡的覆盖率。
-
-    arXiv:2403.07263v1 Announce Type: cross  Abstract: Quantifying a model's predictive uncertainty is essential for safety-critical applications such as autonomous driving. We consider quantifying such uncertainty for multi-object detection. In particular, we leverage conformal prediction to obtain uncertainty intervals with guaranteed coverage for object bounding boxes. One challenge in doing so is that bounding box predictions are conditioned on the object's class label. Thus, we develop a novel two-step conformal approach that propagates uncertainty in predicted class labels into the uncertainty intervals for the bounding boxes. This broadens the validity of our conformal coverage guarantees to include incorrectly classified objects, ensuring their usefulness when maximal safety assurances are required. Moreover, we investigate novel ensemble and quantile regression formulations to ensure the bounding box intervals are adaptive to object size, leading to a more balanced coverage across
-    
-[^2]: 优化自适应实验：最小化后悔和最佳臂识别的统一方法
-
-    Optimizing Adaptive Experiments: A Unified Approach to Regret Minimization and Best-Arm Identification
-
-    [https://arxiv.org/abs/2402.10592](https://arxiv.org/abs/2402.10592)
-
-    提出了一种统一模型，同时考虑了实验内部性能和实验后结果，在优化大规模人群中的表现方面提供了尖锐理论，揭示了新颖的见解
+    本文研究了在Ising模型中的张量学习中，通过伪似然方法和相互作用筛选方法可以恢复出底层的超网络结构，并且性能比较表明张量恢复速率与最大耦合强度呈指数关系。
 
     
 
-    进行自适应实验的从业者通常面临两个竞争性优先级：通过在实验过程中有效地分配治疗来降低实验成本，以及迅速收集信息以结束实验并在整个人群中实施治疗。当前，文献意见分歧，有关最小化后悔的研究独立地处理前者的优先级，而有关最佳臂识别的研究则专注于后者。本文提出了一种统一模型，考虑到实验内部性能和实验后结果。我们随后提供了一个针对大规模人群的最佳性能的尖锐理论，将文献中的经典结果统一起来。这种统一还揭示了新的见解。例如，理论揭示了类似最近提出的顶部两个Thompson抽样算法等熟悉算法可被调整以优化广泛类别的目标。
+    本文研究了在$k$-spin Ising模型中的张量恢复中，伪似然方法和相互作用筛选方法两种已知的Ising结构学习方法。我们证明，在适当的正则化下，这两种方法可以使用样本数对数级别大小的样本恢复出底层的超网络结构，且与最大相互作用强度和最大节点度指数级依赖。我们还对这两种方法的张量恢复速率与交互阶数$k$的确切关系进行了跟踪，并允许$k$随样本数和节点数增长。最后，我们通过仿真研究对这两种方法的性能进行了比较讨论，结果也显示了张量恢复速率与最大耦合强度之间的指数依赖关系。
 
-    arXiv:2402.10592v1 Announce Type: new  Abstract: Practitioners conducting adaptive experiments often encounter two competing priorities: reducing the cost of experimentation by effectively assigning treatments during the experiment itself, and gathering information swiftly to conclude the experiment and implement a treatment across the population. Currently, the literature is divided, with studies on regret minimization addressing the former priority in isolation, and research on best-arm identification focusing solely on the latter. This paper proposes a unified model that accounts for both within-experiment performance and post-experiment outcomes. We then provide a sharp theory of optimal performance in large populations that unifies canonical results in the literature. This unification also uncovers novel insights. For example, the theory reveals that familiar algorithms, like the recently proposed top-two Thompson sampling algorithm, can be adapted to optimize a broad class of obj
+    In this paper, we study two well known methods of Ising structure learning, namely the pseudolikelihood approach and the interaction screening approach, in the context of tensor recovery in $k$-spin Ising models. We show that both these approaches, with proper regularization, retrieve the underlying hypernetwork structure using a sample size logarithmic in the number of network nodes, and exponential in the maximum interaction strength and maximum node-degree. We also track down the exact dependence of the rate of tensor recovery on the interaction order $k$, that is allowed to grow with the number of samples and nodes, for both the approaches. Finally, we provide a comparative discussion of the performance of the two approaches based on simulation studies, which also demonstrate the exponential dependence of the tensor recovery rate on the maximum coupling strength.
     
-[^3]: 使用Nystr\"om近似的可扩展核逻辑回归：理论分析和离散选择建模应用
+[^2]: 火星时间序列分解：一种多尺度嵌套方法中的因子变分自编码器
 
-    Scalable Kernel Logistic Regression with Nystr\"om Approximation: Theoretical Analysis and Application to Discrete Choice Modelling
+    Martian time-series unraveled: A multi-scale nested approach with factorial variational autoencoders. (arXiv:2305.16189v1 [cs.LG])
 
-    [https://arxiv.org/abs/2402.06763](https://arxiv.org/abs/2402.06763)
+    [http://arxiv.org/abs/2305.16189](http://arxiv.org/abs/2305.16189)
 
-    本文介绍了使用Nystr\"om近似方法解决大规模数据集上核逻辑回归的可扩展性问题。研究提供了理论分析并验证了不同的地标选择方法的性能。
-
-    
-
-    将基于核的机器学习技术应用于使用大规模数据集的离散选择建模时，经常面临存储需求和模型中涉及的大量参数的挑战。这种复杂性影响了大规模模型的高效训练。本文通过引入Nystr\"om近似方法解决了可扩展性问题，用于大规模数据集上的核逻辑回归。研究首先进行了理论分析，其中：i) 对KLR解的集合进行了描述，ii) 给出了使用Nystr\"om近似的KLR解的上界，并最后描述了专门用于Nystr\"om KLR的优化算法的特化。之后，对Nystr\"om KLR进行了计算验证。测试了四种地标选择方法，包括基本均匀采样、k-means采样策略和基于杠杆得分的两种非均匀方法。这些策略的性能进行了评估。
-
-    The application of kernel-based Machine Learning (ML) techniques to discrete choice modelling using large datasets often faces challenges due to memory requirements and the considerable number of parameters involved in these models. This complexity hampers the efficient training of large-scale models. This paper addresses these problems of scalability by introducing the Nystr\"om approximation for Kernel Logistic Regression (KLR) on large datasets. The study begins by presenting a theoretical analysis in which: i) the set of KLR solutions is characterised, ii) an upper bound to the solution of KLR with Nystr\"om approximation is provided, and finally iii) a specialisation of the optimisation algorithms to Nystr\"om KLR is described. After this, the Nystr\"om KLR is computationally validated. Four landmark selection methods are tested, including basic uniform sampling, a k-means sampling strategy, and two non-uniform methods grounded in leverage scores. The performance of these strategi
-    
-[^4]: 通过近似贝叶斯最优预测检测信息泄漏
-
-    Information Leakage Detection through Approximate Bayes-optimal Prediction. (arXiv:2401.14283v1 [stat.ML])
-
-    [http://arxiv.org/abs/2401.14283](http://arxiv.org/abs/2401.14283)
-
-    本论文通过建立一个理论框架，利用统计学习理论和信息论来准确量化和检测信息泄漏，通过近似贝叶斯预测的对数损失和准确性来准确估计互信息。
+    该论文提出了一种因子高斯混合变分自动编码器，用于多尺度聚类和源分离，通过利用小波散射协方差来提供随机过程的低维表示，能够区分不同的非高斯随机过程，并在MRO数据集上展现了更好的性能。
 
     
 
-    在今天的以数据驱动的世界中，公开可获得的信息的增加加剧了信息泄漏（IL）的挑战，引发了安全问题。IL涉及通过系统的可观察信息无意地将秘密（敏感）信息暴露给未经授权的方，传统的统计方法通过估计可观察信息和秘密信息之间的互信息（MI）来检测IL，面临维度灾难、收敛、计算复杂度和MI估计错误等挑战。此外，虽然新兴的监督机器学习（ML）方法在二进制系统敏感信息的检测上有效，但缺乏一个全面的理论框架。为了解决这些限制，我们使用统计学习理论和信息论建立了一个理论框架来准确量化和检测IL。我们证明了可以通过近似贝叶斯预测的对数损失和准确性来准确估计MI。
+    无监督的源分离涉及通过混合操作记录的未知源信号的分解，其中对源的先验知识有限，仅可以访问信号混合数据集。这个问题本质上是不适用的，并且进一步受到时间序列数据中源展现出的多种时间尺度的挑战。为了解决这个问题，我们提出了一种无监督的多尺度聚类和源分离框架，通过利用小波散射协方差来提供随机过程的低维表示，能够区分不同的非高斯随机过程。在这个表示空间中，我们开发了一个因子高斯混合变分自动编码器，它被训练用于(1)概率地对不同时间尺度上的源进行聚类和逐层非监督源分离，(2)在每个时间尺度上提取低维表示，(3)学习源信号的因子表示，(4)在表示空间中进行采样，以生成未知源信号。我们在MRO上的三个频道的可见数据集上进行了评估，结果表明所提出的方法比目前最先进的技术具有更好的性能。
 
-    In today's data-driven world, the proliferation of publicly available information intensifies the challenge of information leakage (IL), raising security concerns. IL involves unintentionally exposing secret (sensitive) information to unauthorized parties via systems' observable information. Conventional statistical approaches, which estimate mutual information (MI) between observable and secret information for detecting IL, face challenges such as the curse of dimensionality, convergence, computational complexity, and MI misestimation. Furthermore, emerging supervised machine learning (ML) methods, though effective, are limited to binary system-sensitive information and lack a comprehensive theoretical framework. To address these limitations, we establish a theoretical framework using statistical learning theory and information theory to accurately quantify and detect IL. We demonstrate that MI can be accurately estimated by approximating the log-loss and accuracy of the Bayes predict
+    Unsupervised source separation involves unraveling an unknown set of source signals recorded through a mixing operator, with limited prior knowledge about the sources, and only access to a dataset of signal mixtures. This problem is inherently ill-posed and is further challenged by the variety of time-scales exhibited by sources in time series data. Existing methods typically rely on a preselected window size that limits their capacity to handle multi-scale sources. To address this issue, instead of operating in the time domain, we propose an unsupervised multi-scale clustering and source separation framework by leveraging wavelet scattering covariances that provide a low-dimensional representation of stochastic processes, capable of distinguishing between different non-Gaussian stochastic processes. Nested within this representation space, we develop a factorial Gaussian-mixture variational autoencoder that is trained to (1) probabilistically cluster sources at different time-scales a
     
-[^5]: 使用正可分解核的几何学习
+[^3]: 非参数IV模型中的自适应高效假设检验
 
-    Geometric Learning with Positively Decomposable Kernels. (arXiv:2310.13821v1 [cs.LG])
+    Adaptive, Rate-Optimal Hypothesis Testing in Nonparametric IV Models. (arXiv:2006.09587v3 [econ.EM] UPDATED)
 
-    [http://arxiv.org/abs/2310.13821](http://arxiv.org/abs/2310.13821)
+    [http://arxiv.org/abs/2006.09587](http://arxiv.org/abs/2006.09587)
 
-    本文提出了使用正可分解核的几何学习方法，该方法通过在RKKS中学习而不需要访问核的分解，为非欧几里德数据的核学习提供了一条路径，并为RKKS方法提供了理论基础。
-
-    
-
-    核方法是机器学习中强大的工具。经典的核方法基于正定核，将数据空间映射到重现核希尔伯特空间(RKHS)。对于非欧几里德数据空间，很难找到正定核。在这种情况下，我们提出使用基于重现核控制空间(RKKS)的方法，这些方法只需要具有正分解的核。我们证明了在RKKS中学习时，并不需要访问这个分解。然后我们研究了使核正可分解的条件。我们证明在可处理的正则性假设下，不变核在齐次空间上允许正分解。这使得它们比正定核更容易构造，为非欧几里德数据的核学习提供了一条路径。同样，这为RKKS方法提供了一般的理论基础。
-
-    Kernel methods are powerful tools in machine learning. Classical kernel methods are based on positive-definite kernels, which map data spaces into reproducing kernel Hilbert spaces (RKHS). For non-Euclidean data spaces, positive-definite kernels are difficult to come by. In this case, we propose the use of reproducing kernel Krein space (RKKS) based methods, which require only kernels that admit a positive decomposition. We show that one does not need to access this decomposition in order to learn in RKKS. We then investigate the conditions under which a kernel is positively decomposable. We show that invariant kernels admit a positive decomposition on homogeneous spaces under tractable regularity assumptions. This makes them much easier to construct than positive-definite kernels, providing a route for learning with kernels for non-Euclidean data. By the same token, this provides theoretical foundations for RKKS-based methods in general.
-    
-[^6]: 半参数贝叶斯回归的蒙特卡洛推断
-
-    Monte Carlo inference for semiparametric Bayesian regression. (arXiv:2306.05498v1 [stat.ME])
-
-    [http://arxiv.org/abs/2306.05498](http://arxiv.org/abs/2306.05498)
-
-    本文介绍了一种简单、通用和高效的半参数贝叶斯回归的蒙特卡洛推断策略，可用于联合后验一致性，即使经典的似然函数是难以处理或未知的。
+    我们提出了一种自适应检验方法，用于处理非参数仪器变量模型中的结构函数的不等式和等式限制。该方法可以适应未知的平滑度和工具强度，并达到了最小值率的自适应最优检验率。
 
     
 
-    数据转换对于参数回归模型的广泛适用性至关重要，但对于贝叶斯分析，联合推断转换和模型参数通常需要限制性参数转换或非参数表示，这对实现和理论分析来说计算效率低下且繁琐，限制了他们在实践中的可用性。本文介绍了一种简单、通用和高效的策略，直接通过将转换与独立变量和因变量的边缘分布相连的方式来定位未知转换和所有回归模型参数的后验分布，并通过贝叶斯非参数模型使用贝叶斯自举方法。关键是，这种方法在广泛的回归模型中都可以实现(1)联合后验一致性，包括多个模型错配情况，和(2)高效的蒙特卡罗算法，即使经典的似然函数是难以处理或未知的。
+    我们提出了一种新的自适应假设检验方法，用于非参数仪器变量（NPIV）模型中结构函数的不等式（如单调性、凸性）和等式（如参数、半参数）限制。我们的检验统计量基于修改版的留一法样本模拟，计算受限和不受限筛子NPIV估计量间的二次距离。我们提供了计算简单、数据驱动的筛子调参和Bonferroni调整卡方临界值的选择。我们的检验适应未知的内生性平滑度和工具强度，达到了$L^2$最小值率的自适应最优检验率。也就是说，在复合零假设下其类型I误差的总体和其类型II误差的总体均不能被任何其他NPIV模型的假设检验所提高。我们还提出了基于数据的置信区间。
 
-    Data transformations are essential for broad applicability of parametric regression models. However, for Bayesian analysis, joint inference of the transformation and model parameters typically involves restrictive parametric transformations or nonparametric representations that are computationally inefficient and cumbersome for implementation and theoretical analysis, which limits their usability in practice. This paper introduces a simple, general, and efficient strategy for joint posterior inference of an unknown transformation and all regression model parameters. The proposed approach directly targets the posterior distribution of the transformation by linking it with the marginal distributions of the independent and dependent variables, and then deploys a Bayesian nonparametric model via the Bayesian bootstrap. Crucially, this approach delivers (1) joint posterior consistency under general conditions, including multiple model misspecifications, and (2) efficient Monte Carlo (not Ma
-    
-[^7]: 基于序列 Knockoffs 的强化学习变量选择
-
-    Sequential Knockoffs for Variable Selection in Reinforcement Learning. (arXiv:2303.14281v1 [stat.ML])
-
-    [http://arxiv.org/abs/2303.14281](http://arxiv.org/abs/2303.14281)
-
-    本论文介绍了一种新颖的序列 Knockoffs (SEEK)算法，用于在强化学习系统中实现变量选择，该算法估计了最小充分状态，确保学习进程良好而不会减缓。
-
-    
-
-    在强化学习的实际应用中，通常很难获得一个既简洁又满足马尔可夫属性的状态表示，而不需要使用先验知识。因此，常规做法是构造一个比必要的要大的状态，例如将连续时间点上的测量串联起来。然而，增加状态的维数可能会减缓学习进程并使学习策略模糊不清。我们引入了一个在马尔可夫决策过程(MDP)中的最小充分状态的概念，作为原始状态下最小的子向量，使该过程仍然是MDP，并且与原始过程共享相同的最优策略。我们提出了一种新颖的序列 Knockoffs (SEEK)算法，用于估计高维复杂非线性动力学系统中的最小充分状态。在大样本中，所提出的方法控制了假发现率，并且选择所有充分的变量的概率趋近于1。
-
-    In real-world applications of reinforcement learning, it is often challenging to obtain a state representation that is parsimonious and satisfies the Markov property without prior knowledge. Consequently, it is common practice to construct a state which is larger than necessary, e.g., by concatenating measurements over contiguous time points. However, needlessly increasing the dimension of the state can slow learning and obfuscate the learned policy. We introduce the notion of a minimal sufficient state in a Markov decision process (MDP) as the smallest subvector of the original state under which the process remains an MDP and shares the same optimal policy as the original process. We propose a novel sequential knockoffs (SEEK) algorithm that estimates the minimal sufficient state in a system with high-dimensional complex nonlinear dynamics. In large samples, the proposed method controls the false discovery rate, and selects all sufficient variables with probability approaching one. As
+    We propose a new adaptive hypothesis test for inequality (e.g., monotonicity, convexity) and equality (e.g., parametric, semiparametric) restrictions on a structural function in a nonparametric instrumental variables (NPIV) model. Our test statistic is based on a modified leave-one-out sample analog of a quadratic distance between the restricted and unrestricted sieve NPIV estimators. We provide computationally simple, data-driven choices of sieve tuning parameters and Bonferroni adjusted chi-squared critical values. Our test adapts to the unknown smoothness of alternative functions in the presence of unknown degree of endogeneity and unknown strength of the instruments. It attains the adaptive minimax rate of testing in $L^2$.  That is, the sum of its type I error uniformly over the composite null and its type II error uniformly over nonparametric alternative models cannot be improved by any other hypothesis test for NPIV models of unknown regularities. Data-driven confidence sets in 
     
 

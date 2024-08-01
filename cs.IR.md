@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Repeated Padding as Data Augmentation for Sequential Recommendation](https://arxiv.org/abs/2403.06372) | 本文提出了一种名为"RepPad"的简单而有效的填充方法，旨在充分利用填充空间来提高顺序推荐模型的性能和训练效率。 |
-| [^2] | [C-RAG: Certified Generation Risks for Retrieval-Augmented Language Models](https://arxiv.org/abs/2402.03181) | C-RAG是第一个用于认证检索增强语言模型生成风险的框架，通过提供符合风险分析和生成风险的上界，确保生成结果的可信性。 |
+| [^1] | [Multi-Tower Multi-Interest Recommendation with User Representation Repel](https://arxiv.org/abs/2403.05122) | 提出了一种具有用户表示排斥的新型多塔多兴趣框架，解决了多兴趣学习方法面临的训练和部署目标差异、无法访问商品信息以及难以工业采用等问题。 |
+| [^2] | [LLMs may Dominate Information Access: Neural Retrievers are Biased Towards LLM-Generated Texts.](http://arxiv.org/abs/2310.20501) | 近期的研究发现，大型语言模型（LLMs）对信息检索系统产生了一种偏见，倾向于将LLM生成的文档排名较高。这种“来源偏见”可能对信息访问产生重大影响。 |
 
 # 详细
 
-[^1]: 重复填充作为顺序推荐的数据增强
+[^1]: 具有用户表示排斥的多塔多兴趣推荐
 
-    Repeated Padding as Data Augmentation for Sequential Recommendation
+    Multi-Tower Multi-Interest Recommendation with User Representation Repel
 
-    [https://arxiv.org/abs/2403.06372](https://arxiv.org/abs/2403.06372)
+    [https://arxiv.org/abs/2403.05122](https://arxiv.org/abs/2403.05122)
 
-    本文提出了一种名为"RepPad"的简单而有效的填充方法，旨在充分利用填充空间来提高顺序推荐模型的性能和训练效率。
-
-    
-
-    顺序推荐旨在根据用户的历史互动提供个性化建议。在训练顺序模型时，填充是一种被广泛采用的技术，主要原因有两个：1）绝大多数模型只能处理固定长度的序列；2）基于批处理的训练需要确保每个批次中的序列具有相同的长度。通常使用特殊值0作为填充内容，不包含实际信息并在模型计算中被忽略。这种常识填充策略引出了一个以前从未探讨过的问题：我们能否通过填充其他内容充分利用这一闲置输入空间，进一步提高模型性能和训练效率？ 在本文中，我们提出了一种简单而有效的填充方法，名为RepPad (重复填充)。
-
-    arXiv:2403.06372v1 Announce Type: new  Abstract: Sequential recommendation aims to provide users with personalized suggestions based on their historical interactions. When training sequential models, padding is a widely adopted technique for two main reasons: 1) The vast majority of models can only handle fixed-length sequences; 2) Batching-based training needs to ensure that the sequences in each batch have the same length. The special value \emph{0} is usually used as the padding content, which does not contain the actual information and is ignored in the model calculations. This common-sense padding strategy leads us to a problem that has never been explored before: \emph{Can we fully utilize this idle input space by padding other content to further improve model performance and training efficiency?}   In this paper, we propose a simple yet effective padding method called \textbf{Rep}eated \textbf{Pad}ding (\textbf{RepPad}). Specifically, we use the original interaction sequences as
-    
-[^2]: C-RAG: 针对检索增强语言模型的认证生成风险
-
-    C-RAG: Certified Generation Risks for Retrieval-Augmented Language Models
-
-    [https://arxiv.org/abs/2402.03181](https://arxiv.org/abs/2402.03181)
-
-    C-RAG是第一个用于认证检索增强语言模型生成风险的框架，通过提供符合风险分析和生成风险的上界，确保生成结果的可信性。
+    提出了一种具有用户表示排斥的新型多塔多兴趣框架，解决了多兴趣学习方法面临的训练和部署目标差异、无法访问商品信息以及难以工业采用等问题。
 
     
 
-    尽管大型语言模型（LLMs）在各种应用中具备令人印象深刻的能力，但它们仍然存在可信度问题，如幻觉和错位。检索增强语言模型（RAG）被提出来增强生成结果的可信性，通过引入外部知识。但是，对于RAG模型的生成风险的理论理解尚未被研究。本文回答了以下问题：1）RAG是否确实能够降低生成风险，2）如何对RAG和传统LLM的生成风险提供可证明的保证，以及3）哪些充分条件使得RAG模型能够降低生成风险。我们提出了C-RAG，第一个用于认证RAG模型生成风险的框架。具体而言，我们为RAG模型提供了符合风险分析，并确保了生成风险的上界，我们称之为符合生成风险。我们还对一般有界风险下的符合生成风险提供了理论保证。
+    在信息过载的时代，学术界和工业界都深刻认识到推荐系统的价值。特别是多兴趣序列推荐是近年来受到越来越多关注的一个子领域。通过生成多用户表示，多兴趣学习模型在理论上和经验上都比单用户表示模型具有更强的表达能力。尽管该领域取得了重大进展，但仍存在三个主要问题困扰着多兴趣学习方法的性能和可采用性，即训练和部署目标之间的差异、无法访问商品信息以及由于其单塔架构而难以工业采用。我们通过提出一种具有用户表示排斥的新型多塔多兴趣框架来解决这些挑战。通过跨多个大规模实验结果，我们证明了我们的方法的有效性。
 
-    Despite the impressive capabilities of large language models (LLMs) across diverse applications, they still suffer from trustworthiness issues, such as hallucinations and misalignments. Retrieval-augmented language models (RAG) have been proposed to enhance the credibility of generations by grounding external knowledge, but the theoretical understandings of their generation risks remains unexplored. In this paper, we answer: 1) whether RAG can indeed lead to low generation risks, 2) how to provide provable guarantees on the generation risks of RAG and vanilla LLMs, and 3) what sufficient conditions enable RAG models to reduce generation risks. We propose C-RAG, the first framework to certify generation risks for RAG models. Specifically, we provide conformal risk analysis for RAG models and certify an upper confidence bound of generation risks, which we refer to as conformal generation risk. We also provide theoretical guarantees on conformal generation risks for general bounded risk f
+    arXiv:2403.05122v1 Announce Type: cross  Abstract: In the era of information overload, the value of recommender systems has been profoundly recognized in academia and industry alike. Multi-interest sequential recommendation, in particular, is a subfield that has been receiving increasing attention in recent years. By generating multiple-user representations, multi-interest learning models demonstrate superior expressiveness than single-user representation models, both theoretically and empirically. Despite major advancements in the field, three major issues continue to plague the performance and adoptability of multi-interest learning methods, the difference between training and deployment objectives, the inability to access item information, and the difficulty of industrial adoption due to its single-tower architecture. We address these challenges by proposing a novel multi-tower multi-interest framework with user representation repel. Experimental results across multiple large-scale 
+    
+[^2]: LLM可能主导信息访问：神经检索器对LLM生成的文本存在偏见。
+
+    LLMs may Dominate Information Access: Neural Retrievers are Biased Towards LLM-Generated Texts. (arXiv:2310.20501v2 [cs.IR] UPDATED)
+
+    [http://arxiv.org/abs/2310.20501](http://arxiv.org/abs/2310.20501)
+
+    近期的研究发现，大型语言模型（LLMs）对信息检索系统产生了一种偏见，倾向于将LLM生成的文档排名较高。这种“来源偏见”可能对信息访问产生重大影响。
+
+    
+
+    最近，大型语言模型（LLMs）的出现在信息检索（IR）应用，尤其是在网络搜索方面，彻底改变了范式。由于其在生成类人文本方面的卓越能力，LLMs在互联网上创造了大量的文本。因此，LLMs时代的IR系统面临一个新的挑战：索引的文档不仅是由人类撰写的，而且还包括由LLMs自动生成的文档。这些LLM生成的文档如何影响IR系统是一个紧迫且尚未探索的问题。在这项工作中，我们在涉及人类编写和LLM生成的文本的不同IR模型的场景中进行了定量评估。令人惊讶的是，我们的研究结果表明，神经检索模型倾向于将LLM生成的文档排名较高。我们将这种神经检索模型对LLM生成文本的偏见称为“来源偏见”。此外，我们发现这种偏见不仅限于f方相当的情况，而且在分类任务上也存在。
+
+    Recently, the emergence of large language models (LLMs) has revolutionized the paradigm of information retrieval (IR) applications, especially in web search. With their remarkable capabilities in generating human-like texts, LLMs have created enormous texts on the Internet. As a result, IR systems in the LLMs era are facing a new challenge: the indexed documents now are not only written by human beings but also automatically generated by the LLMs. How these LLM-generated documents influence the IR systems is a pressing and still unexplored question. In this work, we conduct a quantitative evaluation of different IR models in scenarios where both human-written and LLM-generated texts are involved. Surprisingly, our findings indicate that neural retrieval models tend to rank LLM-generated documents higher. We refer to this category of biases in neural retrieval models towards the LLM-generated text as the \textbf{source bias}. Moreover, we discover that this bias is not confined to the f
     
 
