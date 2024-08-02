@@ -2,172 +2,202 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Learning to Plan for Language Modeling from Unlabeled Data](https://arxiv.org/abs/2404.00614) | 通过自监督学习目标训练一个用于规划未来写作过程的模块，扩展了成功的语言模型公式到更抽象的规划中，改善了语言建模的性能，特别是在文本结构方面，同时新的规划模块可以大规模训练并轻松与社区共享。 |
-| [^2] | [FrameQuant: Flexible Low-Bit Quantization for Transformers](https://arxiv.org/abs/2403.06082) | 提出一种简单的方案，通过融合框架将Transformer模型量化为仅两位，仅有轻微精度下降。 |
-| [^3] | [Designing Informative Metrics for Few-Shot Example Selection](https://arxiv.org/abs/2403.03861) | 提出了一种基于复杂度的提示选择方法，用于将示例与测试句子的句法-语义复杂度对齐，在少样本NER任务中取得了显著的性能提升。 |
-| [^4] | [Human vs. Machine: Language Models and Wargames](https://arxiv.org/abs/2403.03407) | 人工智能大型语言模型在战争游戏中与人类响应存在一致性，但也存在显著的差异，这表明在政策制定者交出自主权或听从基于AI的战略建议之前应谨慎对待。 |
-| [^5] | [Training Language Model Agents without Modifying Language Models](https://arxiv.org/abs/2402.11359) | 提出一种新的方法，在不修改语言模型的情况下训练语言模型代理，通过进化代理的功能来解决下游任务 |
-| [^6] | [AttackEval: How to Evaluate the Effectiveness of Jailbreak Attacking on Large Language Models.](http://arxiv.org/abs/2401.09002) | 本研究提出一种新方法评估大型语言模型上越狱攻击效果，引入粗粒度和细粒度评估框架，提供了更全面和细致的评估角度，并开发了专门的真实数据集作为基准，为未来研究建立了基础资源。 |
-| [^7] | [LLM in a flash: Efficient Large Language Model Inference with Limited Memory.](http://arxiv.org/abs/2312.11514) | 本文提出了一种在有限内存条件下高效运行大型语言模型的方法，通过将模型参数存储在闪存中并按需传输到DRAM的方式来解决内存限制的挑战。该方法通过构建推理成本模型并优化数据传输和读取方式，引入了窗口化和行列绑定两种主要技术。 |
-| [^8] | [LLMs may Dominate Information Access: Neural Retrievers are Biased Towards LLM-Generated Texts.](http://arxiv.org/abs/2310.20501) | 近期的研究发现，大型语言模型（LLMs）对信息检索系统产生了一种偏见，倾向于将LLM生成的文档排名较高。这种“来源偏见”可能对信息访问产生重大影响。 |
-| [^9] | [CompA: Addressing the Gap in Compositional Reasoning in Audio-Language Models.](http://arxiv.org/abs/2310.08753) | CompA提出了由两个专家注释的音频-语言模型组合推理基准数据集，用于评估ALMs在理解音频中声音事件的顺序和属性绑定方面的表现。 |
-| [^10] | [Characterizing Learning Curves During Language Model Pre-Training: Learning, Forgetting, and Stability.](http://arxiv.org/abs/2308.15419) | 本研究通过从五个英语语言模型预训练运行中提取学习曲线，揭示了语言模型在预训练期间的学习过程。结果表明，语言模型在学习生成更长、更连贯的文本之前，会生成短而重复的短语。同时，频繁出现的标记在预训练过程中更早学习，具有更小的变异性，并且很少被遗忘。较短、更频繁的上下文与稳定和快速获得的预测有关。词类的影响较小，但名词倾向于较晚获得且遗忘率较低。 |
-| [^11] | [SILO Language Models: Isolating Legal Risk In a Nonparametric Datastore.](http://arxiv.org/abs/2308.04430) | SILO是一种新的语言模型，通过在推理过程中对非参数化的数据存储进行查询，实现在面临法律风险和模型性能之间的权衡，并支持数据归属和数据生产者退出模型的功能。 |
+| [^1] | [A Hybrid Strategy for Chat Transcript Summarization](https://rss.arxiv.org/abs/2402.01510) | 这篇论文介绍了一种混合策略用于聊天记录摘要化，该策略首先结合了抽取和生成式摘要化技术，然后通过强化学习优化摘要的质量。这种方法在大规模部署的聊天记录摘要化中表现出了很好的效果。 |
+| [^2] | [The opportunities and risks of large language models in mental health](https://arxiv.org/abs/2403.14814) | 大型语言模型在心理健康领域有望提供新颖的解决方案，但应注意其应用可能带来的风险，并积极采取策略减轻这些风险。 |
+| [^3] | [A Hybrid Intelligence Method for Argument Mining](https://arxiv.org/abs/2403.09713) | 提出了一种混合(人类+AI)方法HyEnA，用于从意见文本中提取论点，结合了自动化处理速度和人类理解推理能力，在公民反馈语料库上取得了更高的覆盖率和准确率。 |
+| [^4] | [Multitask Multilingual Model Adaptation with Featurized Low-Rank Mixtures](https://arxiv.org/abs/2402.17934) | 提出了一种名为FLix的新型参数高效微调方法，适用于多任务多语言调整，通过关联每个独特数据集特征与其低秩权重更新参数，实现了更好的泛化能力和性能表现。 |
+| [^5] | [ChunkAttention: Efficient Self-Attention with Prefix-Aware KV Cache and Two-Phase Partition](https://arxiv.org/abs/2402.15220) | ChunkAttention是一种前缀感知的自注意力模块，通过将键/值张量分解为较小的块并结构化到辅助前缀树中，实现了在运行时改善内存利用率的KV缓存，同时设计了两阶段分区算法以提高自注意力计算中的数据局部性。 |
+| [^6] | [DefInt: A Default-interventionist Framework for Efficient Reasoning with Hybrid Large Language Models](https://arxiv.org/abs/2402.02563) | DefInt提出了一种默认干预框架，通过默认使用较小规模的语言模型生成推理思路，然后通过反思推理干预解决复杂推理问题，从而提高混合大型语言模型的效率和准确性。 |
+| [^7] | [KGLens: A Parameterized Knowledge Graph Solution to Assess What an LLM Does and Doesn't Know](https://arxiv.org/abs/2312.11539) | KGLens 是一个旨在衡量知识图与大型语言模型（LLMs）之间对齐程度的框架，帮助找出LLMs相对于知识图的知识不足之处。 |
+| [^8] | [Improving Small Language Models' Mathematical Reasoning via Equation-of-Thought Distillation.](http://arxiv.org/abs/2401.11864) | 本研究提出了思维方程蒸馏（EoTD）技术和集合思维蒸馏（ETD）框架，通过构建基于方程的表示和使用多个思维过程的推理数据集来改进小型语言模型（SLMs）的数学推理能力，实验结果表明，EoTD和ETD显著提升了SLMs的推理能力。 |
+| [^9] | [Narrowing the Knowledge Evaluation Gap: Open-Domain Question Answering with Multi-Granularity Answers.](http://arxiv.org/abs/2401.04695) | 本研究提出了一种名为GRANOLA QA的评估设置，在开放领域问答中使用多粒度答案来评估预测的答案的准确性和信息量。作者提出了一种简单的方法来丰富现有数据集，并创建了一个多粒度版本的数据集。实验结果表明... |
+| [^10] | [A Survey of Text Watermarking in the Era of Large Language Models.](http://arxiv.org/abs/2312.07913) | 本文综述了大语言模型时代的文本水印技术，包括不同技术的概述和比较、算法评估方法、应用场景以及当前挑战和未来发展方向。 |
+| [^11] | [Instructive Dialogue Summarization with Query Aggregations.](http://arxiv.org/abs/2310.10981) | 传统的对话摘要方法无法考虑用户的特定兴趣，而指导对话摘要的引入可以帮助扩展对话摘要模型的能力。我们提出了一个三步方法来合成高质量的查询摘要三元组，并通过在多个数据集上训练一个统一模型来扩展对话摘要模型的能力。 |
+| [^12] | [Psychoacoustic Challenges Of Speech Enhancement On VoIP Platforms.](http://arxiv.org/abs/2310.07161) | 本研究在VoIP通信领域中探索了声学转换的复杂性，并通过分析心理声学指标，揭示了语音增强对VoIP系统的影响。 |
+| [^13] | [Geolocation Predicting of Tweets Using BERT-Based Models.](http://arxiv.org/abs/2303.07865) | 该论文提出基于BERT模型的推文地理位置预测方法，可以实现全球和美国上的中位误差分别小于30公里和15公里的定位精度。 |
 
 # 详细
 
-[^1]: 从未标记数据中学习语言建模规划
+[^1]: 一种混合策略用于聊天记录摘要化
 
-    Learning to Plan for Language Modeling from Unlabeled Data
+    A Hybrid Strategy for Chat Transcript Summarization
 
-    [https://arxiv.org/abs/2404.00614](https://arxiv.org/abs/2404.00614)
+    [https://rss.arxiv.org/abs/2402.01510](https://rss.arxiv.org/abs/2402.01510)
 
-    通过自监督学习目标训练一个用于规划未来写作过程的模块，扩展了成功的语言模型公式到更抽象的规划中，改善了语言建模的性能，特别是在文本结构方面，同时新的规划模块可以大规模训练并轻松与社区共享。
-
-    
-
-    通过训练来预测未标记语料库中的下一个标记，大型语言模型学会执行许多任务，而无需任何标记数据。然而，它们的下一个标记预测目标可以说限制了它们在需要规划的场景中的性能，比如写作一篇连贯的文章。在这篇论文中，我们通过自监督学习目标训练一个用于规划未来写作过程的模块。通过根据生成的潜在计划进行条件化，我们的模型以无监督的方式将成功的语言模型公式扩展到更抽象的规划中。实验上，我们证明了我们的方法在一般情况下改善了语言建模的性能，特别是在文本结构方面。由于我们的框架使用的是无监督且外部于语言模型的规划模块，因此新的规划模块可以大规模训练，并且能够轻松地与社区共享。
-
-    arXiv:2404.00614v1 Announce Type: cross  Abstract: By training to predict the next token in an unlabeled corpus, large language models learn to perform many tasks without any labeled data. However, their next-token-prediction objective arguably limits their performance in scenarios that require planning, such as writing a coherent article. In this paper, we train a module for planning the future writing process via a self-supervised learning objective. By conditioning on generated latent plans, our model extends the successful language model formula to more abstract planning in an unsupervised way. Empirically, we demonstrate that our method improves language modeling performance in general, particularly with respect to the text structure. Because our framework uses a planner module that is unsupervised and external to the language model, new planner modules can be trained at large scale and easily be shared with the community.
-    
-[^2]: FrameQuant: Transformer的灵活低比特量化方法
-
-    FrameQuant: Flexible Low-Bit Quantization for Transformers
-
-    [https://arxiv.org/abs/2403.06082](https://arxiv.org/abs/2403.06082)
-
-    提出一种简单的方案，通过融合框架将Transformer模型量化为仅两位，仅有轻微精度下降。
+    这篇论文介绍了一种混合策略用于聊天记录摘要化，该策略首先结合了抽取和生成式摘要化技术，然后通过强化学习优化摘要的质量。这种方法在大规模部署的聊天记录摘要化中表现出了很好的效果。
 
     
 
-    Transformer是许多视觉和自然语言处理任务强大基础模型的支柱。然而，它们的计算和内存/存储空间占用较大，因此为这些模型提供服务往往需要昂贵的高端硬件。为了缓解这一困难，后训练量化试图修改预训练模型并将其量化为八位或更低的位数，显着提高计算/内存/延迟效率。既可以成功将这些模型量化为四位，但性能有所损失。在这项工作中，我们概述了一个简单的方案，将基于Transformer的模型量化为仅两位（加一些额外开销），仅会有轻微的精度下降。我们的制定关键在于从谐波分析中借鉴了一种称为融合框架的概念。我们的主要发现是，量化不应该在原始权重空间中进行，而是应该在融合框架表示中进行。
+    文本摘要化是将一段文本压缩成较少句子的过程，同时保留其内容。在这个背景下，聊天记录是客户（来电者）和客服人员之间的数字或在线对话的文本副本。本文提出了一种本地开发的混合方法，首先结合抽取和生成式摘要化技术，对缺乏标点或未标点的聊天记录进行压缩，产生更易读的带标点摘要，然后通过强化学习优化摘要的整体质量。广泛的测试、评估、比较和验证证明了这种方法在没有手动生成的参考摘要的情况下，对于大规模部署的聊天记录摘要化的有效性。
 
-    arXiv:2403.06082v1 Announce Type: cross  Abstract: Transformers are the backbone of powerful foundation models for many Vision and Natural Language Processing tasks. But their compute and memory/storage footprint is large, and so, serving such models is expensive often requiring high-end hardware. To mitigate this difficulty, Post-Training Quantization seeks to modify a pre-trained model and quantize it to eight bits or lower, significantly boosting compute/memory/latency efficiency. Such models have been successfully quantized to four bits with some performance loss. In this work, we outline a simple scheme to quantize Transformer-based models to just two bits (plus some overhead) with only a small drop in accuracy. Key to our formulation is a concept borrowed from Harmonic analysis called Fusion Frames. Our main finding is that the quantization must take place not in the original weight space, but instead in the Fusion Frame representations. If quantization is interpreted as the addi
+    Text summarization is the process of condensing a piece of text to fewer sentences, while still preserving its content. Chat transcript, in this context, is a textual copy of a digital or online conversation between a customer (caller) and agent(s). This paper presents an indigenously (locally) developed hybrid method that first combines extractive and abstractive summarization techniques in compressing ill-punctuated or un-punctuated chat transcripts to produce more readable punctuated summaries and then optimizes the overall quality of summarization through reinforcement learning. Extensive testing, evaluations, comparisons, and validation have demonstrated the efficacy of this approach for large-scale deployment of chat transcript summarization, in the absence of manually generated reference (annotated) summaries.
     
-[^3]: 为少样本示例选择设计信息度量
+[^2]: 大型语言模型在心理健康领域的机会和风险
 
-    Designing Informative Metrics for Few-Shot Example Selection
+    The opportunities and risks of large language models in mental health
 
-    [https://arxiv.org/abs/2403.03861](https://arxiv.org/abs/2403.03861)
+    [https://arxiv.org/abs/2403.14814](https://arxiv.org/abs/2403.14814)
 
-    提出了一种基于复杂度的提示选择方法，用于将示例与测试句子的句法-语义复杂度对齐，在少样本NER任务中取得了显著的性能提升。
-
-    
-
-    预训练语言模型（PLMs）在提供适当格式的示例时展现出了卓越的少样本学习能力。然而，选择“最佳”示例仍然是一个未解决的挑战。我们提出了一种基于复杂度的提示选择方法，适用于序列标注任务。该方法避免了训练一个专门用于选择示例的模型，而是使用特定的度量标准来对齐测试句子和示例的句法-语义复杂度。我们使用句子和单词级别的度量标准，将示例的复杂度与考虑中的（测试）句子进行匹配。我们的结果表明，我们的方法能够从PLMs中提取出更好的性能：在少样本NER上实现了最先进的性能，在CoNLL2003数据集上对GPT-4的F1分数实现了5%的绝对改善。我们还在像GPT-j-6B这样的较小模型中看到了高达28.85个点（F1/Acc.）的显著增益。
-
-    arXiv:2403.03861v1 Announce Type: new  Abstract: Pretrained language models (PLMs) have shown remarkable few-shot learning capabilities when provided with properly formatted examples. However, selecting the "best" examples remains an open challenge. We propose a complexity-based prompt selection approach for sequence tagging tasks. This approach avoids the training of a dedicated model for selection of examples, and instead uses certain metrics to align the syntactico-semantic complexity of test sentences and examples. We use both sentence- and word-level metrics to match the complexity of examples to the (test) sentence being considered. Our results demonstrate that our approach extracts greater performance from PLMs: it achieves state-of-the-art performance on few-shot NER, achieving a 5% absolute improvement in F1 score on the CoNLL2003 dataset for GPT-4. We also see large gains of upto 28.85 points (F1/Acc.) in smaller models like GPT-j-6B.
-    
-[^4]: 人类对抗机器：语言模型与战争游戏
-
-    Human vs. Machine: Language Models and Wargames
-
-    [https://arxiv.org/abs/2403.03407](https://arxiv.org/abs/2403.03407)
-
-    人工智能大型语言模型在战争游戏中与人类响应存在一致性，但也存在显著的差异，这表明在政策制定者交出自主权或听从基于AI的战略建议之前应谨慎对待。
+    大型语言模型在心理健康领域有望提供新颖的解决方案，但应注意其应用可能带来的风险，并积极采取策略减轻这些风险。
 
     
 
-    战争游戏在军事战略的发展和国家对威胁或攻击的响应中有着悠久的历史。人工智能（AI）的出现承诺了更好的决策制定和增强的军事效果。然而，关于AI系统，尤其是大型语言模型（LLMs），与人类的行为有何不同仍存在争议。为此，我们进行了一项战争游戏实验，共有107位国家安全专家人类参与者参与，旨在研究在一个虚构的美中情景中的危机升级，并比较人类参与者与LLM模拟响应之间的差异。我们发现LLM和人类响应存在显著一致性，但在战争游戏中模拟和人类参与者之间也存在显著的定量和定性差异，这促使决策者在交出自主权或遵循基于AI的战略建议之前谨慎对待。
+    全球心理健康问题的发生率正在上升，人们越来越意识到现有的心理保健模式无法充分扩展以满足需求。随着大型语言模型（LLMs）的出现，人们对它们具有创造新颖、大规模解决方案以支持心理健康的承诺感到乐观。尽管它们还处于初期阶段，LLMs已被应用于与心理健康相关的任务。本综述总结了已有文献中关于利用LLMs提供心理健康教育、评估和干预的努力，并突出了每个领域中产生积极影响的关键机会。然后，我们强调了将LLMs应用于心理健康领域所伴随的风险，并鼓励采用策略来减轻这些风险。对于心理健康支持的迫切需求必须与负责任的心理健康LLMs的开发、测试和部署相平衡。特别关键的是确保心理健康...
 
-    arXiv:2403.03407v1 Announce Type: cross  Abstract: Wargames have a long history in the development of military strategy and the response of nations to threats or attacks. The advent of artificial intelligence (AI) promises better decision-making and increased military effectiveness. However, there is still debate about how AI systems, especially large language models (LLMs), behave as compared to humans. To this end, we use a wargame experiment with 107 national security expert human players designed to look at crisis escalation in a fictional US-China scenario and compare human players to LLM-simulated responses. We find considerable agreement in the LLM and human responses but also significant quantitative and qualitative differences between simulated and human players in the wargame, motivating caution to policymakers before handing over autonomy or following AI-based strategy recommendations.
+    arXiv:2403.14814v1 Announce Type: cross  Abstract: Global rates of mental health concerns are rising and there is increasing realization that existing models of mental healthcare will not adequately expand to meet the demand. With the emergence of large language models (LLMs) has come great optimism regarding their promise to create novel, large-scale solutions to support mental health. Despite their nascence, LLMs have already been applied to mental health-related tasks. In this review, we summarize the extant literature on efforts to use LLMs to provide mental health education, assessment, and intervention and highlight key opportunities for positive impact in each area. We then highlight risks associated with LLMs application to mental health and encourage adoption of strategies to mitigate these risks. The urgent need for mental health support must be balanced with responsible development, testing, and deployment of mental health LLMs. Especially critical is ensuring that mental he
     
-[^5]: 在不修改语言模型的情况下训练语言模型代理
+[^3]: 一种用于论证挖掘的混合智能方法
 
-    Training Language Model Agents without Modifying Language Models
+    A Hybrid Intelligence Method for Argument Mining
 
-    [https://arxiv.org/abs/2402.11359](https://arxiv.org/abs/2402.11359)
+    [https://arxiv.org/abs/2403.09713](https://arxiv.org/abs/2403.09713)
 
-    提出一种新的方法，在不修改语言模型的情况下训练语言模型代理，通过进化代理的功能来解决下游任务
-
-    
-
-    研究人员和实践者最近已经将强大的大型语言模型（LLMs）重新定义为代理，使它们能够通过使用专门的功能自动化地完成复杂任务。为了促进LLM代理的发展，我们提出了一种在不修改LLM权重的情况下训练LLM代理的新范式，当LLM难以或无法进行修改时尤其有用。受到人类不断锻造工具以适应现实任务的启发，而不是改变我们的生物结构以适应一组静态工具，我们提出逐步锻造代理的功能，以更好地解决下游任务，而不是修改LLM权重。通过将这些功能视为可学习的“代理参数”并利用人工智能模型训练的基本思想，我们开发了AgentOptimizer，利用LLM更新代理的功能，并设计了一种代理训练算法
-
-    arXiv:2402.11359v1 Announce Type: new  Abstract: Researchers and practitioners have recently reframed powerful Large Language Models (LLMs) as agents, enabling them to automate complex tasks largely via the use of specialized functions. To facilitate the development of LLM agents, we present a novel paradigm of training LLM agents without modifying the LLM weights, which is particularly useful when the LLMs are difficult or inaccessible for modifications. Inspired by how humans continuously forge tools to adapt to real-world tasks, rather than change our biological structure to fit a static set of tools, we propose to progressively forge agent's functions to better solve the downstream tasks instead of modifying the LLM weights. By treating the functions as learnable `agent parameters' and leveraging the fundamental idea of model training in artificial intelligence, we develop AgentOptimizer that employs the LLM to update agents' functions and devise an agent training algorithm with tw
-    
-[^6]: 评估大型语言模型上越狱攻击效果的方法研究
-
-    AttackEval: How to Evaluate the Effectiveness of Jailbreak Attacking on Large Language Models. (arXiv:2401.09002v1 [cs.CL])
-
-    [http://arxiv.org/abs/2401.09002](http://arxiv.org/abs/2401.09002)
-
-    本研究提出一种新方法评估大型语言模型上越狱攻击效果，引入粗粒度和细粒度评估框架，提供了更全面和细致的评估角度，并开发了专门的真实数据集作为基准，为未来研究建立了基础资源。
+    提出了一种混合(人类+AI)方法HyEnA，用于从意见文本中提取论点，结合了自动化处理速度和人类理解推理能力，在公民反馈语料库上取得了更高的覆盖率和准确率。
 
     
 
-    在我们的研究中，我们开创性地提出了一种评估大型语言模型（LLMs）上越狱攻击效果的新方法，与传统的健壮性评估方法不同。我们的研究引入了两个不同的评估框架：粗粒度评估和细粒度评估。每个框架都使用从0到1的评分范围，提供了独特的视角，能够更全面和细致地评估攻击效果，并帮助攻击者更好地优化攻击提示。此外，我们还开发了一个专门用于越狱任务的全面的真实数据集。这个数据集不仅是我们当前研究的关键基准，也为未来研究建立了一个基础资源，可以在这个不断发展的领域中进行一致和比较的分析。通过与传统评估方法的精心比较，我们发现我们的评估方法与之相一致。
+    大规模调查工具能够收集公民反馈意见语料库。从庞大且嘈杂的意见集中提取关键论点有助于快速准确地理解意见。完全自动化的方法可以提取论点，但(1)需要大规模标记数据集，导致较高的注释成本; (2)对已知观点效果良好，但对新颖观点效果欠佳。我们提出了HyEnA，一种混合(人类+AI)方法，用于从主观文本中提取论点，结合了自动化处理的速度和人类的理解和推理能力。我们在三个公民反馈语料库上评估了HyEnA。我们发现，一方面，与一组各种意见进行比较时，HyEnA在高覆盖率和准确率方面优于最先进的自动化方法，证实了人类洞察的必要性。另一方面，HyEnA需要较少的人力工作量，且不会牺牲质量。
 
-    In our research, we pioneer a novel approach to evaluate the effectiveness of jailbreak attacks on Large Language Models (LLMs), such as GPT-4 and LLaMa2, diverging from traditional robustness-focused binary evaluations. Our study introduces two distinct evaluation frameworks: a coarse-grained evaluation and a fine-grained evaluation. Each framework, using a scoring range from 0 to 1, offers a unique perspective, enabling a more comprehensive and nuanced evaluation of attack effectiveness and empowering attackers to refine their attack prompts with greater understanding. Furthermore, we have developed a comprehensive ground truth dataset specifically tailored for jailbreak tasks. This dataset not only serves as a crucial benchmark for our current study but also establishes a foundational resource for future research, enabling consistent and comparative analyses in this evolving field. Upon meticulous comparison with traditional evaluation methods, we discovered that our evaluation alig
+    arXiv:2403.09713v1 Announce Type: new  Abstract: Large-scale survey tools enable the collection of citizen feedback in opinion corpora. Extracting the key arguments from a large and noisy set of opinions helps in understanding the opinions quickly and accurately. Fully automated methods can extract arguments but (1) require large labeled datasets that induce large annotation costs and (2) work well for known viewpoints, but not for novel points of view. We propose HyEnA, a hybrid (human + AI) method for extracting arguments from opinionated texts, combining the speed of automated processing with the understanding and reasoning capabilities of humans. We evaluate HyEnA on three citizen feedback corpora. We find that, on the one hand, HyEnA achieves higher coverage and precision than a state-of-the-art automated method when compared to a common set of diverse opinions, justifying the need for human insight. On the other hand, HyEnA requires less human effort and does not compromise quali
     
-[^7]: 闪存LLM：在有限内存下高效运行大型语言模型
+[^4]: 用特征化低秩混合进行多任务多语言模型适应
 
-    LLM in a flash: Efficient Large Language Model Inference with Limited Memory. (arXiv:2312.11514v2 [cs.CL] UPDATED)
+    Multitask Multilingual Model Adaptation with Featurized Low-Rank Mixtures
 
-    [http://arxiv.org/abs/2312.11514](http://arxiv.org/abs/2312.11514)
+    [https://arxiv.org/abs/2402.17934](https://arxiv.org/abs/2402.17934)
 
-    本文提出了一种在有限内存条件下高效运行大型语言模型的方法，通过将模型参数存储在闪存中并按需传输到DRAM的方式来解决内存限制的挑战。该方法通过构建推理成本模型并优化数据传输和读取方式，引入了窗口化和行列绑定两种主要技术。
-
-    
-
-    大型语言模型（LLM）在现代自然语言处理中起着至关重要的作用，在各种任务中表现出色。然而，它们庞大的计算和内存需求带来了挑战，特别是对于具有有限DRAM容量的设备而言。本文通过将模型参数存储在闪存中，并按需将其传输到DRAM的方式，解决了超过可用DRAM容量的LLM高效运行的挑战。我们的方法涉及构建一个考虑闪存特性的推理成本模型，引导我们在两个关键领域进行优化：减少从闪存传输的数据量，并以较大、更连续的块读取数据。在这个受硬件启发的框架内，我们引入了两个主要技术。首先，“窗口化”通过重复使用之前激活的神经元来策略性地减少数据传输，其次，“行列绑定”适应了闪存的顺序数据访问特点，
-
-    Large language models (LLMs) are central to modern natural language processing, delivering exceptional performance in various tasks. However, their substantial computational and memory requirements present challenges, especially for devices with limited DRAM capacity. This paper tackles the challenge of efficiently running LLMs that exceed the available DRAM capacity by storing the model parameters in flash memory, but bringing them on demand to DRAM. Our method involves constructing an inference cost model that takes into account the characteristics of flash memory, guiding us to optimize in two critical areas: reducing the volume of data transferred from flash and reading data in larger, more contiguous chunks. Within this hardware-informed framework, we introduce two principal techniques. First, "windowing" strategically reduces data transfer by reusing previously activated neurons, and second, "row-column bundling", tailored to the sequential data access strengths of flash memory, 
-    
-[^8]: LLM可能主导信息访问：神经检索器对LLM生成的文本存在偏见。
-
-    LLMs may Dominate Information Access: Neural Retrievers are Biased Towards LLM-Generated Texts. (arXiv:2310.20501v2 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2310.20501](http://arxiv.org/abs/2310.20501)
-
-    近期的研究发现，大型语言模型（LLMs）对信息检索系统产生了一种偏见，倾向于将LLM生成的文档排名较高。这种“来源偏见”可能对信息访问产生重大影响。
+    提出了一种名为FLix的新型参数高效微调方法，适用于多任务多语言调整，通过关联每个独特数据集特征与其低秩权重更新参数，实现了更好的泛化能力和性能表现。
 
     
 
-    最近，大型语言模型（LLMs）的出现在信息检索（IR）应用，尤其是在网络搜索方面，彻底改变了范式。由于其在生成类人文本方面的卓越能力，LLMs在互联网上创造了大量的文本。因此，LLMs时代的IR系统面临一个新的挑战：索引的文档不仅是由人类撰写的，而且还包括由LLMs自动生成的文档。这些LLM生成的文档如何影响IR系统是一个紧迫且尚未探索的问题。在这项工作中，我们在涉及人类编写和LLM生成的文本的不同IR模型的场景中进行了定量评估。令人惊讶的是，我们的研究结果表明，神经检索模型倾向于将LLM生成的文档排名较高。我们将这种神经检索模型对LLM生成文本的偏见称为“来源偏见”。此外，我们发现这种偏见不仅限于f方相当的情况，而且在分类任务上也存在。
+    预训练大型语言模型（LLMs）适应数十甚至数百种人类语言的各种下游任务在计算上是昂贵的。参数高效微调（PEFT）通过只调整少量参数显著减少了适应成本。然而，直接将像 LoRA（Hu 等人，2022）这样的 PEFT 方法应用于不同数据集混合可能导致性能次优，原因在于有限的参数容量和不同数据集之间的负面互相影响。在这项工作中，我们提出了特征化低秩混合（FLix），这是一种针对有效的多任务多语言调整的新型 PEFT 方法。FLix将每个独特数据集特征（例如数据集的语言或任务）与其自己的低秩权重更新参数相关联。通过为每个数据集组合特定于特征的参数，FLix能够适应多种数据集混合，并更好地泛化到未见数据集。我们的实验表明，FLix 可以在提供更好性能的同时显著减少适应成本。
 
-    Recently, the emergence of large language models (LLMs) has revolutionized the paradigm of information retrieval (IR) applications, especially in web search. With their remarkable capabilities in generating human-like texts, LLMs have created enormous texts on the Internet. As a result, IR systems in the LLMs era are facing a new challenge: the indexed documents now are not only written by human beings but also automatically generated by the LLMs. How these LLM-generated documents influence the IR systems is a pressing and still unexplored question. In this work, we conduct a quantitative evaluation of different IR models in scenarios where both human-written and LLM-generated texts are involved. Surprisingly, our findings indicate that neural retrieval models tend to rank LLM-generated documents higher. We refer to this category of biases in neural retrieval models towards the LLM-generated text as the \textbf{source bias}. Moreover, we discover that this bias is not confined to the f
+    arXiv:2402.17934v1 Announce Type: cross  Abstract: Adapting pretrained large language models (LLMs) to various downstream tasks in tens or hundreds of human languages is computationally expensive. Parameter-efficient fine-tuning (PEFT) significantly reduces the adaptation cost, by tuning only a small amount of parameters. However, directly applying PEFT methods such as LoRA (Hu et al., 2022) on diverse dataset mixtures could lead to suboptimal performance due to limited parameter capacity and negative interference among different datasets. In this work, we propose Featurized Low-rank Mixtures (FLix), a novel PEFT method designed for effective multitask multilingual tuning. FLix associates each unique dataset feature, such as the dataset's language or task, with its own low-rank weight update parameters. By composing feature-specific parameters for each dataset, FLix can accommodate diverse dataset mixtures and generalize better to unseen datasets. Our experiments show that FLix leads t
     
-[^9]: CompA: 解决音频-语言模型中的组合推理差距
+[^5]: ChunkAttention: 具有前缀感知KV缓存和两阶段分区的高效自注意力
 
-    CompA: Addressing the Gap in Compositional Reasoning in Audio-Language Models. (arXiv:2310.08753v1 [cs.SD])
+    ChunkAttention: Efficient Self-Attention with Prefix-Aware KV Cache and Two-Phase Partition
 
-    [http://arxiv.org/abs/2310.08753](http://arxiv.org/abs/2310.08753)
+    [https://arxiv.org/abs/2402.15220](https://arxiv.org/abs/2402.15220)
 
-    CompA提出了由两个专家注释的音频-语言模型组合推理基准数据集，用于评估ALMs在理解音频中声音事件的顺序和属性绑定方面的表现。
-
-    
-
-    音频的基本特性是其组合性。使用对比方法（例如CLAP）训练的音频-语言模型（ALMs）能够学习音频和语言模态之间的共享表示，从而在许多下游应用中提高性能，包括零样本音频分类、音频检索等。然而，这些模型在有效执行组合推理方面的能力还很少被探索，需要进一步的研究。本文提出了CompA，这是一个由两个专家注释的基准数据集，其中大多数是真实世界的音频样本，用于评估ALMs的组合推理能力。我们的CompA-order评估ALMs在理解音频中声音事件的顺序或发生时的表现如何，而CompA-attribute评估声音事件的属性绑定。每个基准数据集中的实例包含两个音频-标题对，其中两个音频具有相同的声音事件，但组合方式不同。
-
-    A fundamental characteristic of audio is its compositional nature. Audio-language models (ALMs) trained using a contrastive approach (e.g., CLAP) that learns a shared representation between audio and language modalities have improved performance in many downstream applications, including zero-shot audio classification, audio retrieval, etc. However, the ability of these models to effectively perform compositional reasoning remains largely unexplored and necessitates additional research. In this paper, we propose CompA, a collection of two expert-annotated benchmarks with a majority of real-world audio samples, to evaluate compositional reasoning in ALMs. Our proposed CompA-order evaluates how well an ALM understands the order or occurrence of acoustic events in audio, and CompA-attribute evaluates attribute binding of acoustic events. An instance from either benchmark consists of two audio-caption pairs, where both audios have the same acoustic events but with different compositions. A
-    
-[^10]: 语言模型预训练期间学习曲线的特征化：学习、遗忘和稳定性
-
-    Characterizing Learning Curves During Language Model Pre-Training: Learning, Forgetting, and Stability. (arXiv:2308.15419v1 [cs.CL])
-
-    [http://arxiv.org/abs/2308.15419](http://arxiv.org/abs/2308.15419)
-
-    本研究通过从五个英语语言模型预训练运行中提取学习曲线，揭示了语言模型在预训练期间的学习过程。结果表明，语言模型在学习生成更长、更连贯的文本之前，会生成短而重复的短语。同时，频繁出现的标记在预训练过程中更早学习，具有更小的变异性，并且很少被遗忘。较短、更频繁的上下文与稳定和快速获得的预测有关。词类的影响较小，但名词倾向于较晚获得且遗忘率较低。
+    ChunkAttention是一种前缀感知的自注意力模块，通过将键/值张量分解为较小的块并结构化到辅助前缀树中，实现了在运行时改善内存利用率的KV缓存，同时设计了两阶段分区算法以提高自注意力计算中的数据局部性。
 
     
 
-    在本文中，我们从五个自回归英语语言模型预训练运行中提取学习曲线，用于上下文中的100万个标记。我们观察到，在学习生成更长、更连贯文本之前，语言模型会生成短而重复的短语。我们定量描述了单个上下文中标记的学习曲线的最终surprisal、运行内变异性、获得年龄、遗忘度和跨运行变异性。更频繁的标记达到较低的最终surprisal，其内部和预训练运行间变异性较小，学习得更早，并且在预训练过程中很少被“遗忘”。更高的n-gram概率进一步加强了这些效果。与目标标记无关，较短、更频繁的上下文与较稳定和快速获得的预测略有相关。词类的影响也较小，尽管名词倾向于较晚获得且遗忘率较低。
+    自注意力是大型语言模型（LLMs）的重要组成部分，但对于长序列来说是推理延迟的一个显著来源。在多租户LLMs服务场景中，通过利用多个LLM请求在前缀中共享系统提示的概率，可以优化自注意力的计算和内存操作成本。本文介绍了ChunkAttention，一种具有前缀感知的自注意力模块，可以在运行时检测多个请求之间匹配的提示前缀，并共享它们的键/值张量以改进KV缓存的内存利用率。这是通过将整体键/值张量分解为较小的块，并将它们结构化到辅助前缀树中来实现的。因此，在基于前缀树的KV缓存之上，我们设计了一个高效的自注意力内核，其中实现了两阶段分区算法，以改善自注意力计算中的数据局部性。
 
-    How do language models learn to make predictions during pre-training? To study this question, we extract learning curves from five autoregressive English language model pre-training runs, for 1M tokens in context. We observe that the language models generate short repetitive phrases before learning to generate longer and more coherent text. We quantify the final surprisal, within-run variability, age of acquisition, forgettability, and cross-run variability of learning curves for individual tokens in context. More frequent tokens reach lower final surprisals, exhibit less variability within and across pre-training runs, are learned earlier, and are less likely to be "forgotten" during pre-training. Higher n-gram probabilities further accentuate these effects. Independent of the target token, shorter and more frequent contexts correlate with marginally more stable and quickly acquired predictions. Effects of part-of-speech are also small, although nouns tend to be acquired later and les
+    arXiv:2402.15220v1 Announce Type: cross  Abstract: Self-attention is an essential component of large language models(LLMs) but a significant source of inference latency for long sequences. In multi-tenant LLMs serving scenarios, the compute and memory operation cost of self-attention can be optimized by using the probability that multiple LLM requests have shared system prompts in prefixes. In this paper, we introduce ChunkAttention, a prefix-aware self-attention module that can detect matching prompt prefixes across multiple requests and share their key/value tensors in memory at runtime to improve the memory utilization of KV cache. This is achieved by breaking monolithic key/value tensors into smaller chunks and structuring them into the auxiliary prefix tree. Consequently, on top of the prefix-tree based KV cache, we design an efficient self-attention kernel, where a two-phase partition algorithm is implemented to improve the data locality during self-attention computation in the p
     
-[^11]: SILO语言模型：在非参数化数据存储中隔离法律风险
+[^6]: DefInt：一种用于高效处理混合大型语言模型推理的默认干预框架
 
-    SILO Language Models: Isolating Legal Risk In a Nonparametric Datastore. (arXiv:2308.04430v1 [cs.CL])
+    DefInt: A Default-interventionist Framework for Efficient Reasoning with Hybrid Large Language Models
 
-    [http://arxiv.org/abs/2308.04430](http://arxiv.org/abs/2308.04430)
+    [https://arxiv.org/abs/2402.02563](https://arxiv.org/abs/2402.02563)
 
-    SILO是一种新的语言模型，通过在推理过程中对非参数化的数据存储进行查询，实现在面临法律风险和模型性能之间的权衡，并支持数据归属和数据生产者退出模型的功能。
+    DefInt提出了一种默认干预框架，通过默认使用较小规模的语言模型生成推理思路，然后通过反思推理干预解决复杂推理问题，从而提高混合大型语言模型的效率和准确性。
 
     
 
-    在对将语言模型（LMs）训练在受版权或受其他限制的数据上的合法性进行激烈辩论的同时，我们展示了仅在低风险文本（例如过期版权图书或政府文件）上训练时，模型性能显著下降的问题，原因是该文本的规模和领域覆盖有限。我们提出了SILO，一种新的语言模型，在推理过程中管理这种风险-性能权衡。SILO通过以下方式构建：（1）在我们策划的新语料库“开放许可证语料库”（OLC）上训练参数化的LM，该语料库包含228B个公共领域和许可文本。（2）通过非参数化的数据存储（例如包含受版权保护的图书或新闻的数据）对其进行扩充，该数据存储仅在推理过程中被查询。该数据存储允许使用高风险数据而无需对其进行训练，支持句级数据归属，并使数据生产者可以通过从存储中删除内容来选择退出模型。这些功能可以促进对数据使用规范的遵循。
+    大型语言模型（LLMs）在各种任务中展示出令人印象深刻的新能力，但在处理复杂推理问题方面仍面临挑战。以往的研究如连锁推理（CoT）和思维树（ToT）主要关注提高准确性，但忽视了不断增加的标记成本，这对于具有巨大解空间的开放性实际任务来说可能特别问题。受人类认知的双过程理论的启发，我们提出了一种默认干预框架（DefInt），以释放混合LLMs的协同潜力。默认情况下，DefInt使用较小规模的语言模型生成低成本的推理思路，类似于“系统1”产生的快速直觉。如果这些直觉被认为低置信度，则DefInt将调用放大的语言模型的反思推理作为“系统2”的干预，可以覆盖默认思考并纠正推理过程。实验在五个实际数据集上展示了DefInt论文中的有效性。
 
-    The legality of training language models (LMs) on copyrighted or otherwise restricted data is under intense debate. However, as we show, model performance significantly degrades if trained only on low-risk text (e.g., out-of-copyright books or government documents), due to its limited size and domain coverage. We present SILO, a new language model that manages this risk-performance tradeoff during inference. SILO is built by (1) training a parametric LM on Open License Corpus (OLC), a new corpus we curate with 228B tokens of public domain and permissively licensed text and (2) augmenting it with a more general and easily modifiable nonparametric datastore (e.g., containing copyrighted books or news) that is only queried during inference. The datastore allows use of high-risk data without training on it, supports sentence-level data attribution, and enables data producers to opt out from the model by removing content from the store. These capabilities can foster compliance with data-use
+    Large language models (LLMs) have shown impressive emergent abilities in a wide range of tasks, but still face challenges in handling complex reasoning problems. Previous works like chain-of-thought (CoT) and tree-of-thoughts(ToT) have predominately focused on enhancing accuracy, but overlook the rapidly increasing token cost, which could be particularly problematic for open-ended real-world tasks with huge solution spaces. Motivated by the dual process theory of human cognition, we propose a Default-Interventionist framework (DefInt) to unleash the synergistic potential of hybrid LLMs. By default, DefInt uses smaller-scale language models to generate low-cost reasoning thoughts, which resembles the fast intuitions produced by System 1. If the intuitions are considered with low confidence, DefInt will invoke the reflective reasoning of scaled-up language models as the intervention of System 2, which can override the default thoughts and rectify the reasoning process. Experiments on fiv
+    
+[^7]: KGLens：一个参数化知识图解决方案，用于评估LLM知道和不知道的内容
+
+    KGLens: A Parameterized Knowledge Graph Solution to Assess What an LLM Does and Doesn't Know
+
+    [https://arxiv.org/abs/2312.11539](https://arxiv.org/abs/2312.11539)
+
+    KGLens 是一个旨在衡量知识图与大型语言模型（LLMs）之间对齐程度的框架，帮助找出LLMs相对于知识图的知识不足之处。
+
+    
+
+    衡量知识图（KG）与大型语言模型（LLMs）之间的对齐程度是评估事实性并识别LLMs的知识盲点的有效方法。然而，这种方法面临两个主要挑战，包括将KGs转化为自然语言和高效评估这些广泛且复杂的结构。在本文中，我们提出了KGLens--一个旨在衡量KGs和LLMs之间对齐程度，并找出LLMs相对于KGs的知识缺陷的新颖框架。KGLens具有一个图引导的问题生成器，用于将KGs转化为自然语言，以及一个基于参数化KG结构的精心设计的采样策略，以加快KG的遍历。我们使用来自Wikidata的三个领域特定KG进行实验，这些KG包括超过19,000条边，700个关系和21,000个实体。我们跨越8个LLMs的分析表明，KGLens不仅
+
+    arXiv:2312.11539v2 Announce Type: replace  Abstract: Measuring the alignment between a Knowledge Graph (KG) and Large Language Models (LLMs) is an effective method to assess the factualness and identify the knowledge blind spots of LLMs. However, this approach encounters two primary challenges including the translation of KGs into natural language and the efficient evaluation of these extensive and complex structures. In this paper, we present KGLens--a novel framework aimed at measuring the alignment between KGs and LLMs, and pinpointing the LLMs' knowledge deficiencies relative to KGs. KGLens features a graph-guided question generator for converting KGs into natural language, along with a carefully designed sampling strategy based on parameterized KG structure to expedite KG traversal. We conducted experiments using three domain-specific KGs from Wikidata, which comprise over 19,000 edges, 700 relations, and 21,000 entities. Our analysis across eight LLMs reveals that KGLens not only
+    
+[^8]: 通过思维方程蒸馏改进小型语言模型的数学推理能力
+
+    Improving Small Language Models' Mathematical Reasoning via Equation-of-Thought Distillation. (arXiv:2401.11864v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2401.11864](http://arxiv.org/abs/2401.11864)
+
+    本研究提出了思维方程蒸馏（EoTD）技术和集合思维蒸馏（ETD）框架，通过构建基于方程的表示和使用多个思维过程的推理数据集来改进小型语言模型（SLMs）的数学推理能力，实验结果表明，EoTD和ETD显著提升了SLMs的推理能力。
+
+    
+
+    本研究解决了将先进的大型语言模型（LLMs）的数学推理能力压缩到具有小于十亿参数的小型语言模型（SLMs）中的挑战，同时不损害性能。我们引入了一种新颖的思维方程蒸馏（EoTD）技术，将推理过程封装为基于方程的表示，构建了一个EoTD数据集来对SLMs进行微调。此外，我们提出了集合思维蒸馏（ETD）框架，以提升SLMs的推理性能。这包括创建一个包含多个思维过程（包括思维链、思维程序和思维方程）的推理数据集，并将其用于微调。我们的实验证明，EoTD显著提升了SLMs的推理能力，而ETD使这些模型实现了最先进的推理性能。
+
+    This work addresses the challenge of democratizing advanced Large Language Models (LLMs) by compressing their mathematical reasoning capabilities into sub-billion parameter Small Language Models (SLMs) without compromising performance. We introduce Equation-of-Thought Distillation (EoTD), a novel technique that encapsulates the reasoning process into equation-based representations to construct an EoTD dataset for fine-tuning SLMs. Additionally, we propose the Ensemble Thoughts Distillation (ETD) framework to enhance the reasoning performance of SLMs. This involves creating a reasoning dataset with multiple thought processes, including Chain-of-Thought (CoT), Program-of-Thought (PoT), and Equation-of-Thought (EoT), and using it for fine-tuning. Our experimental findings demonstrate that EoTD significantly boosts the reasoning abilities of SLMs, while ETD enables these models to achieve state-of-the-art reasoning performance.
+    
+[^9]: 缩小知识评估差距：多层次答案的开放领域问答
+
+    Narrowing the Knowledge Evaluation Gap: Open-Domain Question Answering with Multi-Granularity Answers. (arXiv:2401.04695v1 [cs.CL])
+
+    [http://arxiv.org/abs/2401.04695](http://arxiv.org/abs/2401.04695)
+
+    本研究提出了一种名为GRANOLA QA的评估设置，在开放领域问答中使用多粒度答案来评估预测的答案的准确性和信息量。作者提出了一种简单的方法来丰富现有数据集，并创建了一个多粒度版本的数据集。实验结果表明...
+
+    
+
+    事实性问题通常可以以不同层次的粒度正确回答。例如，“1961年8月4日”和“1961年”都是对“巴拉克·奥巴马是在什么时候出生的？”这个问题的正确答案。然而，标准的问答评估协议并没有明确考虑这一点，而是将预测的答案与单一粒度层次的答案进行比较。在这项工作中，我们提出了GRANOLA QA，一种新颖的评估设置，其中预测的答案根据准确性和信息量与一组多粒度答案进行评估。我们提出了一种简单的方法来丰富现有数据集的多粒度答案，并创建了GRANOLA-EQ，一个多粒度版本的EntityQuestions数据集。我们在GRANOLA-EQ上评估了一系列解码方法，包括一种新的算法，称为Decoding with Response Aggregation (DRAG)，该算法旨在将响应的粒度与模型的不确定性对齐。我们的实验显示...
+
+    Factual questions typically can be answered correctly at different levels of granularity. For example, both ``August 4, 1961'' and ``1961'' are correct answers to the question ``When was Barack Obama born?''. Standard question answering (QA) evaluation protocols, however, do not explicitly take this into account and compare a predicted answer against answers of a single granularity level. In this work, we propose GRANOLA QA, a novel evaluation setting where a predicted answer is evaluated in terms of accuracy and informativeness against a set of multi-granularity answers. We present a simple methodology for enriching existing datasets with multi-granularity answers, and create GRANOLA-EQ, a multi-granularity version of the EntityQuestions dataset. We evaluate a range of decoding methods on GRANOLA-EQ, including a new algorithm, called Decoding with Response Aggregation (DRAG), that is geared towards aligning the response granularity with the model's uncertainty. Our experiments show th
+    
+[^10]: 大语言模型时代文本水印技术综述
+
+    A Survey of Text Watermarking in the Era of Large Language Models. (arXiv:2312.07913v3 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2312.07913](http://arxiv.org/abs/2312.07913)
+
+    本文综述了大语言模型时代的文本水印技术，包括不同技术的概述和比较、算法评估方法、应用场景以及当前挑战和未来发展方向。
+
+    
+
+    文本水印算法在版权保护中起着至关重要的作用，然而其能力和应用场景一直受限。大语言模型的最新发展为文本水印技术的进步打开了新的机会。大语言模型不仅通过其文本理解和生成能力增强了文本水印算法的能力，还需要使用文本水印算法来保护自身的版权。本文对当前文本水印技术的现状进行了全面的调查，包括四个主要方面：（1）不同文本水印技术的概述和比较；（2）文本水印算法的评估方法，包括成功率、对文本质量的影响、鲁棒性和防篡改性；（3）文本水印技术的潜在应用场景；（4）当前挑战和未来发展方向。
+
+    Text watermarking algorithms play a crucial role in the copyright protection of textual content, yet their capabilities and application scenarios have been limited historically. The recent developments in large language models (LLMs) have opened new opportunities for the advancement of text watermarking techniques. LLMs not only enhance the capabilities of text watermarking algorithms through their text understanding and generation abilities but also necessitate the use of text watermarking algorithms for their own copyright protection. This paper conducts a comprehensive survey of the current state of text watermarking technology, covering four main aspects: (1) an overview and comparison of different text watermarking techniques; (2) evaluation methods for text watermarking algorithms, including their success rates, impact on text quality, robustness, and unforgeability; (3) potential application scenarios for text watermarking technology; (4) current challenges and future directions
+    
+[^11]: 使用查询聚合的指导性对话摘要
+
+    Instructive Dialogue Summarization with Query Aggregations. (arXiv:2310.10981v1 [cs.CL])
+
+    [http://arxiv.org/abs/2310.10981](http://arxiv.org/abs/2310.10981)
+
+    传统的对话摘要方法无法考虑用户的特定兴趣，而指导对话摘要的引入可以帮助扩展对话摘要模型的能力。我们提出了一个三步方法来合成高质量的查询摘要三元组，并通过在多个数据集上训练一个统一模型来扩展对话摘要模型的能力。
+
+    
+
+    传统的对话摘要方法直接生成摘要，不考虑用户的特定兴趣。这在用户更加关注特定主题或方面的情况下会带来挑战。随着指导调优语言模型的进步，我们引入了指导对话来扩展对话摘要模型的能力集。为了克服指导性对话摘要数据的稀缺性，我们提出了一种三步方法来合成高质量的基于查询的摘要三元组。这个过程包括以摘要为锚点的查询生成、查询过滤和基于查询的摘要生成。通过在三个摘要数据集上训练一个统一的模型InstructDS（指导性对话摘要），我们扩展了对话摘要模型的能力。我们在包括对话摘要和对话阅读理解的四个数据集上对我们的方法进行评估。
+
+    Conventional dialogue summarization methods directly generate summaries and do not consider user's specific interests. This poses challenges in cases where the users are more focused on particular topics or aspects. With the advancement of instruction-finetuned language models, we introduce instruction-tuning to dialogues to expand the capability set of dialogue summarization models. To overcome the scarcity of instructive dialogue summarization data, we propose a three-step approach to synthesize high-quality query-based summarization triples. This process involves summary-anchored query generation, query filtering, and query-based summary generation. By training a unified model called InstructDS (Instructive Dialogue Summarization) on three summarization datasets with multi-purpose instructive triples, we expand the capability of dialogue summarization models. We evaluate our method on four datasets, including dialogue summarization and dialogue reading comprehension. Experimental re
+    
+[^12]: VoIP平台上语音增强的心理声学挑战
+
+    Psychoacoustic Challenges Of Speech Enhancement On VoIP Platforms. (arXiv:2310.07161v1 [cs.SD])
+
+    [http://arxiv.org/abs/2310.07161](http://arxiv.org/abs/2310.07161)
+
+    本研究在VoIP通信领域中探索了声学转换的复杂性，并通过分析心理声学指标，揭示了语音增强对VoIP系统的影响。
+
+    
+
+    在VoIP（互联网语音传输协议）通信中，由声学转换引入的复杂性需要进行严格的分析。本研究基于对专有发送端降噪效果的探索，对Google Meets和Zoom等平台进行了细致评估。研究利用Deep Noise Suppression（DNS）2020数据集，确保了针对各种降噪设置和接收器接口的结构化考察。通过将Oaxaca分解引入到声学-语音扰动分析中，本研究引入了一种方法论的创新，该分解通常是经济计量学工具，在此处重新用于分析VoIP系统中的声学-语音扰动。为了进一步确定这些转换的影响，利用心理声学指标，特别是PESQ和STOI，来提供对语音改变的全面理解。总体而言，所获得的观点突出显示了VoIP影响的声学动力学的复杂景观。
+
+    Within the ambit of VoIP (Voice over Internet Protocol) telecommunications, the complexities introduced by acoustic transformations merit rigorous analysis. This research, rooted in the exploration of proprietary sender-side denoising effects, meticulously evaluates platforms such as Google Meets and Zoom. The study draws upon the Deep Noise Suppression (DNS) 2020 dataset, ensuring a structured examination tailored to various denoising settings and receiver interfaces. A methodological novelty is introduced via the Oaxaca decomposition, traditionally an econometric tool, repurposed herein to analyze acoustic-phonetic perturbations within VoIP systems. To further ground the implications of these transformations, psychoacoustic metrics, specifically PESQ and STOI, were harnessed to furnish a comprehensive understanding of speech alterations. Cumulatively, the insights garnered underscore the intricate landscape of VoIP-influenced acoustic dynamics. In addition to the primary findings, a 
+    
+[^13]: 基于BERT模型的推文地理位置预测
+
+    Geolocation Predicting of Tweets Using BERT-Based Models. (arXiv:2303.07865v1 [cs.CL])
+
+    [http://arxiv.org/abs/2303.07865](http://arxiv.org/abs/2303.07865)
+
+    该论文提出基于BERT模型的推文地理位置预测方法，可以实现全球和美国上的中位误差分别小于30公里和15公里的定位精度。
+
+    
+
+    该研究旨在解决推文/用户地理位置预测任务，并提供了处理文本大数据地理标记的灵活方法。该方法采用基于神经网络的自然语言处理来估计坐标对（经度，纬度）和二维高斯混合模型（GMM）。提出的模型的范围已经在Twitter数据集上使用预训练的BERT模型进行调整。性能指标表明，对于在推文内容和元数据上训练和评估的模型，全球范围内的中位误差小于30公里，美国范围内的中位误差小于15公里。
+
+    This research is aimed to solve the tweet/user geolocation prediction task and provide a flexible methodology for the geotagging of textual big data. The suggested approach implements neural networks for natural language processing (NLP) to estimate the location as coordinate pairs (longitude, latitude) and two-dimensional Gaussian Mixture Models (GMMs). The scope of proposed models has been finetuned on a Twitter dataset using pretrained Bidirectional Encoder Representations from Transformers (BERT) as base models. Performance metrics show a median error of fewer than 30 km on a worldwide-level, and fewer than 15 km on the US-level datasets for the models trained and evaluated on text features of tweets' content and metadata context.
     
 

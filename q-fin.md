@@ -2,37 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Convergence of the deep BSDE method for stochastic control problems formulated through the stochastic maximum principle](https://arxiv.org/abs/2401.17472) | 本文研究了基于深度BSDE方法和随机最大原则的随机控制问题，提供了该方法的收敛结果，并展示了在高维问题中相比其他方法具有卓越性能。 |
-| [^2] | [Dynamic Risk Measurement by EVT based on Stochastic Volatility models via MCMC.](http://arxiv.org/abs/2201.09434) | 本文介绍了一种基于随机波动模型和极值理论的动态风险测量模型，结合重尾分布和杠杆效应，能够更有效地避免金融风险。 |
+| [^1] | [Measuring the Dunkelflaute: How (not) to analyze variable renewable energy shortage](https://arxiv.org/abs/2402.06758) | 该论文探讨了如何定义、量化和比较可变可再生能源短缺事件，讨论了不同方法的优缺点，并提出了进一步的研究方法。 |
+| [^2] | [Towards Enhanced Local Explainability of Random Forests: a Proximity-Based Approach.](http://arxiv.org/abs/2310.12428) | 这项研究提出了一种利用随机森林模型的特征空间中的邻近性来解释模型预测的方法，为模型预测提供了局部的解释性，与现有方法相辅相成。通过实验证明了这种方法在债券定价模型中的有效性。 |
+| [^3] | [Multinomial Backtesting of Distortion Risk Measures.](http://arxiv.org/abs/2201.06319) | 这项研究提出了一种适用于一般失真风险测度的多项式反向测试方法，通过分层和随机化风险水平，扩展了反向测试模型的适用范围。 |
 
 # 详细
 
-[^1]: 通过随机最大原则，基于深度BSDE方法的随机控制问题的收敛性研究
+[^1]: 测量Dunkelflaute：如何（不）分析可变可再生能源短缺
 
-    Convergence of the deep BSDE method for stochastic control problems formulated through the stochastic maximum principle
+    Measuring the Dunkelflaute: How (not) to analyze variable renewable energy shortage
 
-    [https://arxiv.org/abs/2401.17472](https://arxiv.org/abs/2401.17472)
+    [https://arxiv.org/abs/2402.06758](https://arxiv.org/abs/2402.06758)
 
-    本文研究了基于深度BSDE方法和随机最大原则的随机控制问题，提供了该方法的收敛结果，并展示了在高维问题中相比其他方法具有卓越性能。
-
-    
-
-    众所周知，随机控制的决策问题可以通过前向后向随机微分方程（FBSDE）来表述。最近，Ji等人（2022）提出了一种基于随机最大原则（SMP）的高效深度学习算法。本文提供了该深度SMP-BSDE算法的收敛结果，并将其性能与其他现有方法进行比较。通过采用类似于Han和Long（2020）的策略，我们推导出后验误差估计，并展示了总近似误差可以由损失函数值和离散化误差的值来限制。我们在高维随机控制问题的数值例子中展示了该算法在漂移控制和扩散控制的情况下，相比现有算法表现出的卓越性能。
-
-    It is well-known that decision-making problems from stochastic control can be formulated by means of forward-backward stochastic differential equation (FBSDE). Recently, the authors of Ji et al. 2022 proposed an efficient deep learning-based algorithm which was based on the stochastic maximum principle (SMP). In this paper, we provide a convergence result for this deep SMP-BSDE algorithm and compare its performance with other existing methods. In particular, by adopting a similar strategy as in Han and Long 2020, we derive a posteriori error estimate, and show that the total approximation error can be bounded by the value of the loss functional and the discretization error. We present numerical examples for high-dimensional stochastic control problems, both in case of drift- and diffusion control, which showcase superior performance compared to existing algorithms.
-    
-[^2]: 通过MCMC基于随机波动模型的EVT动态风险测量
-
-    Dynamic Risk Measurement by EVT based on Stochastic Volatility models via MCMC. (arXiv:2201.09434v4 [stat.AP] UPDATED)
-
-    [http://arxiv.org/abs/2201.09434](http://arxiv.org/abs/2201.09434)
-
-    本文介绍了一种基于随机波动模型和极值理论的动态风险测量模型，结合重尾分布和杠杆效应，能够更有效地避免金融风险。
+    该论文探讨了如何定义、量化和比较可变可再生能源短缺事件，讨论了不同方法的优缺点，并提出了进一步的研究方法。
 
     
 
-    本文旨在描述金融市场回报和波动性的典型事实特征，并解决资产回报的尾部特征未被充分考虑的问题，以更有效地避免风险和生产性地管理股票市场风险。因此，本文将重尾分布和杠杆效应引入SV模型。然后，通过MCMC估算模型参数。随后，全面描述了金融市场回报的重尾分布，并将其与极值理论相结合，以拟合标准残差的尾部分布。其后，建立了一种新的金融风险测量模型，称为SV-EVT-VaR动态模型。通过使用每日的标普500指数和模拟回报，达成了实证结果，揭示了SV-EVT模型在外样本回测中可以优于其他模型。
+    随着可变可再生能源在全球能源系统中的重要性日益增加，人们对于了解可变可再生能源短缺（“Dunkelflauten”）时期的兴趣也越来越大。在不同的可再生能源发电技术和地点之间定义、量化和比较这种短缺事件，是一个非常复杂的挑战。不同文献中存在着各种方法，如水文学、风能和太阳能分析，或能源系统建模。先前分析的研究对象范围从特定位置的单一技术到多个地区的多样化技术组合，要么关注可变可再生能源的供应，要么关注其与电力需求的不匹配。我们提供了一种量化可变可再生能源短缺的方法概述。我们解释并批判性地讨论了不同方法在定义和识别短缺事件方面的优点和挑战，并提出了进一步的方法。
 
-    This paper aims to characterize the typical factual characteristics of financial market returns and volatility and address the problem that the tail characteristics of asset returns have been not sufficiently considered, as an attempt to more effectively avoid risks and productively manage stock market risks. Thus, in this paper, the fat-tailed distribution and the leverage effect are introduced into the SV model. Next, the model parameters are estimated through MCMC. Subsequently, the fat-tailed distribution of financial market returns is comprehensively characterized and then incorporated with extreme value theory to fit the tail distribution of standard residuals. Afterward, a new financial risk measurement model is built, which is termed the SV-EVT-VaR-based dynamic model. With the use of daily S&P 500 index and simulated returns, the empirical results are achieved, which reveal that the SV-EVT-based models can outperform other models for out-of-sample data in backtesting and depic
+    As variable renewable energy sources increasingly gain importance in global energy systems, there is a growing interest in understanding periods of variable renewable energy shortage (``Dunkelflauten''). Defining, quantifying, and comparing such shortage events across different renewable generation technologies and locations presents a surprisingly intricate challenge. Various approaches exist in different bodies of literature, such as hydrology, wind and solar energy analysis, or energy system modeling. The subject of interest in previous analyses ranges from single technologies in specific locations to diverse technology portfolios across multiple regions, focusing either on supply from variable renewables or its mismatch with electricity demand. We provide an overview of methods for quantifying variable renewable energy shortage. We explain and critically discuss the merits and challenges of different approaches for defining and identifying shortage events and propose further method
+    
+[^2]: 实现随机森林的局部可解释性增强：基于邻近性的方法
+
+    Towards Enhanced Local Explainability of Random Forests: a Proximity-Based Approach. (arXiv:2310.12428v1 [stat.ML])
+
+    [http://arxiv.org/abs/2310.12428](http://arxiv.org/abs/2310.12428)
+
+    这项研究提出了一种利用随机森林模型的特征空间中的邻近性来解释模型预测的方法，为模型预测提供了局部的解释性，与现有方法相辅相成。通过实验证明了这种方法在债券定价模型中的有效性。
+
+    
+
+    我们提出一种新的方法来解释随机森林（RF）模型的样本外性能，利用了任何RF都可以被表述为自适应加权K最近邻（KNN）模型的事实。具体而言，我们利用RF在特征空间中学到的点之间的邻近性，将随机森林的预测重写为训练数据点目标标签的加权平均值。这种线性性质有助于在训练集观测中为任何模型预测生成属性，从而为RF预测提供了局部的解释性，补充了SHAP等已有方法，这些方法则为特征空间维度上的模型预测生成属性。我们在训练于美国公司债券交易数据的债券定价模型中演示了这种方法，并将其与各种现有的模型解释方法进行了比较。
+
+    We initiate a novel approach to explain the out of sample performance of random forest (RF) models by exploiting the fact that any RF can be formulated as an adaptive weighted K nearest-neighbors model. Specifically, we use the proximity between points in the feature space learned by the RF to re-write random forest predictions exactly as a weighted average of the target labels of training data points. This linearity facilitates a local notion of explainability of RF predictions that generates attributions for any model prediction across observations in the training set, and thereby complements established methods like SHAP, which instead generates attributions for a model prediction across dimensions of the feature space. We demonstrate this approach in the context of a bond pricing model trained on US corporate bond trades, and compare our approach to various existing approaches to model explainability.
+    
+[^3]: 多项式失真风险测度的反向测试方法
+
+    Multinomial Backtesting of Distortion Risk Measures. (arXiv:2201.06319v2 [q-fin.RM] UPDATED)
+
+    [http://arxiv.org/abs/2201.06319](http://arxiv.org/abs/2201.06319)
+
+    这项研究提出了一种适用于一般失真风险测度的多项式反向测试方法，通过分层和随机化风险水平，扩展了反向测试模型的适用范围。
+
+    
+
+    我们通过提出一种适用于一般失真风险测度的多项式反向测试方法，扩展了反向测试模型适用的风险测度范围。该方法依赖于风险水平的分层和随机化。我们通过数值案例研究展示了我们方法的表现。
+
+    We extend the scope of risk measures for which backtesting models are available by proposing a multinomial backtesting method for general distortion risk measures. The method relies on a stratification and randomization of risk levels. We illustrate the performance of our methods in numerical case studies.
     
 
