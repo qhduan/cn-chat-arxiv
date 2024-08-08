@@ -2,67 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Position Paper: Challenges and Opportunities in Topological Deep Learning](https://arxiv.org/abs/2402.08871) | 拓扑深度学习将拓扑特征引入深度学习模型，可作为图表示学习和几何深度学习的补充，给各种机器学习环境提供了自然选择。本文讨论了拓扑深度学习中的开放问题，并提出了未来的研究机会。 |
-| [^2] | [Position Paper: Bayesian Deep Learning in the Age of Large-Scale AI](https://arxiv.org/abs/2402.00809) | 《在大规模人工智能时代的贝叶斯深度学习》这篇立场论文探讨了贝叶斯深度学习在各种不同设置下的优势，并指出了与之相关的挑战和有趣的研究方向。未来的研究重点将放在如何将大规模基础模型与贝叶斯深度学习相结合，以发挥它们的全部潜力。 |
-| [^3] | [Towards Enhanced Local Explainability of Random Forests: a Proximity-Based Approach.](http://arxiv.org/abs/2310.12428) | 这项研究提出了一种利用随机森林模型的特征空间中的邻近性来解释模型预测的方法，为模型预测提供了局部的解释性，与现有方法相辅相成。通过实验证明了这种方法在债券定价模型中的有效性。 |
-| [^4] | [Learning-Based Optimal Control with Performance Guarantees for Unknown Systems with Latent States.](http://arxiv.org/abs/2303.17963) | 本文提出了一种面向未知具有潜在状态系统的学习优化控制方法，并给出了概率性能保证，同时提出了一种验证任意控制律性能的方法。 |
+| [^1] | [$L^1$ Estimation: On the Optimality of Linear Estimators.](http://arxiv.org/abs/2309.09129) | 该论文研究了在$L^1$保真度条件下，从噪声观测中估计随机变量$X$的问题。结果表明，唯一能够引入线性条件中位数的先验分布是高斯分布。此外，还研究了其他$L^p$损失，并观察到对于$p \in [1,2]$，高斯分布是唯一引入线性最优贝叶斯估计器的先验分布。扩展还涵盖了特定指数族条件分布的噪声模型。 |
+| [^2] | [Algorithmic Collective Action in Machine Learning.](http://arxiv.org/abs/2302.04262) | 本文研究了机器学习中的算法集体行动的理论模型，并在大量实验中验证了该算法可以大大提高分类准确性，特别是在数据结构复杂和集体规模大的情况下。 |
 
 # 详细
 
-[^1]: 位置论文：拓扑深度学习中的挑战与机遇
+[^1]: $L^1$估计：线性估计器的最优性
 
-    Position Paper: Challenges and Opportunities in Topological Deep Learning
+    $L^1$ Estimation: On the Optimality of Linear Estimators. (arXiv:2309.09129v1 [math.ST])
 
-    [https://arxiv.org/abs/2402.08871](https://arxiv.org/abs/2402.08871)
+    [http://arxiv.org/abs/2309.09129](http://arxiv.org/abs/2309.09129)
 
-    拓扑深度学习将拓扑特征引入深度学习模型，可作为图表示学习和几何深度学习的补充，给各种机器学习环境提供了自然选择。本文讨论了拓扑深度学习中的开放问题，并提出了未来的研究机会。
-
-    
-
-    拓扑深度学习是一个快速发展的领域，它利用拓扑特征来理解和设计深度学习模型。本文认为，通过融入拓扑概念，拓扑深度学习可以补充图表示学习和几何深度学习，并成为各种机器学习环境下的自然选择。为此，本文讨论了拓扑深度学习中的开放问题，涵盖了从实用益处到理论基础的各个方面。针对每个问题，它概述了潜在的解决方案和未来的研究机会。同时，本文也是对科学界的邀请，希望积极参与拓扑深度学习研究，开发这个新兴领域的潜力。
-
-    arXiv:2402.08871v1 Announce Type: new Abstract: Topological deep learning (TDL) is a rapidly evolving field that uses topological features to understand and design deep learning models. This paper posits that TDL may complement graph representation learning and geometric deep learning by incorporating topological concepts, and can thus provide a natural choice for various machine learning settings. To this end, this paper discusses open problems in TDL, ranging from practical benefits to theoretical foundations. For each problem, it outlines potential solutions and future research opportunities. At the same time, this paper serves as an invitation to the scientific community to actively participate in TDL research to unlock the potential of this emerging field.
-    
-[^2]: 《在大规模人工智能时代的贝叶斯深度学习》的立场论文
-
-    Position Paper: Bayesian Deep Learning in the Age of Large-Scale AI
-
-    [https://arxiv.org/abs/2402.00809](https://arxiv.org/abs/2402.00809)
-
-    《在大规模人工智能时代的贝叶斯深度学习》这篇立场论文探讨了贝叶斯深度学习在各种不同设置下的优势，并指出了与之相关的挑战和有趣的研究方向。未来的研究重点将放在如何将大规模基础模型与贝叶斯深度学习相结合，以发挥它们的全部潜力。
+    该论文研究了在$L^1$保真度条件下，从噪声观测中估计随机变量$X$的问题。结果表明，唯一能够引入线性条件中位数的先验分布是高斯分布。此外，还研究了其他$L^p$损失，并观察到对于$p \in [1,2]$，高斯分布是唯一引入线性最优贝叶斯估计器的先验分布。扩展还涵盖了特定指数族条件分布的噪声模型。
 
     
 
-    在当前的深度学习研究领域中，人们主要关注在涉及大规模图像和语言数据集的监督任务中实现高预测准确性。然而，更广泛的视角揭示了许多被忽视的度量标准、任务和数据类型，如不确定性、主动和持续学习以及科学数据，这些方面需要关注。贝叶斯深度学习（BDL）是一条有前景的道路，可以在这些不同的设置中提供优势。本文认为BDL可以提升深度学习的能力。它重新审视了BDL的优势、承认了现有的挑战，并重点介绍了一些旨在解决这些障碍的有趣的研究方向。展望未来，讨论集中在可能的方式上，将大规模基础模型与BDL相结合，以充分发挥它们的潜力。
+    在$L^1$保真度条件下，考虑从噪声观测$Y=X+Z$中估计随机变量$X$的问题，其中$Z$是标准正态分布。众所周知，在这种情况下，最优的贝叶斯估计器是条件中位数。本文表明，在条件中位数中引入线性的唯一先验分布是高斯分布。同时，还提供了其他几个结果。特别地，证明了如果对于所有$y$，条件分布$P_{X|Y=y}$都是对称的，则$X$必须服从高斯分布。此外，我们考虑了其他的$L^p$损失，并观察到以下现象：对于$p \in [1,2]$，高斯分布是唯一引入线性最优贝叶斯估计器的先验分布，对于$p \in (2,\infty)$，有无穷多个先验分布可以引入线性性。最后，还提供了扩展，以涵盖导致特定指数族条件分布的噪声模型。
 
-    In the current landscape of deep learning research, there is a predominant emphasis on achieving high predictive accuracy in supervised tasks involving large image and language datasets. However, a broader perspective reveals a multitude of overlooked metrics, tasks, and data types, such as uncertainty, active and continual learning, and scientific data, that demand attention. Bayesian deep learning (BDL) constitutes a promising avenue, offering advantages across these diverse settings. This paper posits that BDL can elevate the capabilities of deep learning. It revisits the strengths of BDL, acknowledges existing challenges, and highlights some exciting research avenues aimed at addressing these obstacles. Looking ahead, the discussion focuses on possible ways to combine large-scale foundation models with BDL to unlock their full potential.
+    Consider the problem of estimating a random variable $X$ from noisy observations $Y = X+ Z$, where $Z$ is standard normal, under the $L^1$ fidelity criterion. It is well known that the optimal Bayesian estimator in this setting is the conditional median. This work shows that the only prior distribution on $X$ that induces linearity in the conditional median is Gaussian.  Along the way, several other results are presented. In particular, it is demonstrated that if the conditional distribution $P_{X|Y=y}$ is symmetric for all $y$, then $X$ must follow a Gaussian distribution. Additionally, we consider other $L^p$ losses and observe the following phenomenon: for $p \in [1,2]$, Gaussian is the only prior distribution that induces a linear optimal Bayesian estimator, and for $p \in (2,\infty)$, infinitely many prior distributions on $X$ can induce linearity. Finally, extensions are provided to encompass noise models leading to conditional distributions from certain exponential families.
     
-[^3]: 实现随机森林的局部可解释性增强：基于邻近性的方法
+[^2]: 机器学习中算法集体行动的研究
 
-    Towards Enhanced Local Explainability of Random Forests: a Proximity-Based Approach. (arXiv:2310.12428v1 [stat.ML])
+    Algorithmic Collective Action in Machine Learning. (arXiv:2302.04262v2 [cs.LG] UPDATED)
 
-    [http://arxiv.org/abs/2310.12428](http://arxiv.org/abs/2310.12428)
+    [http://arxiv.org/abs/2302.04262](http://arxiv.org/abs/2302.04262)
 
-    这项研究提出了一种利用随机森林模型的特征空间中的邻近性来解释模型预测的方法，为模型预测提供了局部的解释性，与现有方法相辅相成。通过实验证明了这种方法在债券定价模型中的有效性。
-
-    
-
-    我们提出一种新的方法来解释随机森林（RF）模型的样本外性能，利用了任何RF都可以被表述为自适应加权K最近邻（KNN）模型的事实。具体而言，我们利用RF在特征空间中学到的点之间的邻近性，将随机森林的预测重写为训练数据点目标标签的加权平均值。这种线性性质有助于在训练集观测中为任何模型预测生成属性，从而为RF预测提供了局部的解释性，补充了SHAP等已有方法，这些方法则为特征空间维度上的模型预测生成属性。我们在训练于美国公司债券交易数据的债券定价模型中演示了这种方法，并将其与各种现有的模型解释方法进行了比较。
-
-    We initiate a novel approach to explain the out of sample performance of random forest (RF) models by exploiting the fact that any RF can be formulated as an adaptive weighted K nearest-neighbors model. Specifically, we use the proximity between points in the feature space learned by the RF to re-write random forest predictions exactly as a weighted average of the target labels of training data points. This linearity facilitates a local notion of explainability of RF predictions that generates attributions for any model prediction across observations in the training set, and thereby complements established methods like SHAP, which instead generates attributions for a model prediction across dimensions of the feature space. We demonstrate this approach in the context of a bond pricing model trained on US corporate bond trades, and compare our approach to various existing approaches to model explainability.
-    
-[^4]: 面向未知具有潜在状态系统的学习优化控制方法
-
-    Learning-Based Optimal Control with Performance Guarantees for Unknown Systems with Latent States. (arXiv:2303.17963v1 [eess.SY])
-
-    [http://arxiv.org/abs/2303.17963](http://arxiv.org/abs/2303.17963)
-
-    本文提出了一种面向未知具有潜在状态系统的学习优化控制方法，并给出了概率性能保证，同时提出了一种验证任意控制律性能的方法。
+    本文研究了机器学习中的算法集体行动的理论模型，并在大量实验中验证了该算法可以大大提高分类准确性，特别是在数据结构复杂和集体规模大的情况下。
 
     
 
-    随着控制工程方法应用于越来越复杂的系统，数据驱动的系统辨识方法成为物理建模的有希望的替代方法。然而，许多这些方法依赖于状态测量的可用性，而复杂系统的状态通常不是直接可测量的。因此，可能需要同时估计动力学和潜在状态，从而更加具有挑战性地设计具有性能保证的控制器。本文提出了一种新方法，用于计算具有潜在状态的未知非线性系统的最优输入轨迹。对结果输入轨迹进行了概率性能保证，并提出了一种验证任意控制律性能的方法。本文在数值模拟中展示了所提出方法的有效性。
+    我们对在采用机器学习算法的数字平台上进行算法集体行动进行了原则性研究。我们提出了一个简单的理论模型，描述了一群人与公司的学习算法进行交互的情况。集体汇聚参与个体的数据并通过一种算法策略指导参与者修改自己的数据以实现集体目标。我们在三种基本的学习理论设置下研究了这种模型的结果：非参数最优学习算法，参数风险最小化和梯度下降优化。在每个设置中，我们提出了协调的算法策略，并根据集体规模的大小来表征自然的成功标准。为了补充我们的理论，我们对涉及数以万计自由职业平台简历的技能分类任务进行了系统实验。通过 BERT 模型的两千多次训练运行，我们证明了我们的算法集体行动可以显著提高分类准确性，比集中式学习算法和独立修改数据的非协调方法要好得多。我们的实验表明，算法集体行动的有效性至关重要的依赖于集体的规模和数据的基本结构。
 
-    As control engineering methods are applied to increasingly complex systems, data-driven approaches for system identification appear as a promising alternative to physics-based modeling. While many of these approaches rely on the availability of state measurements, the states of a complex system are often not directly measurable. It may then be necessary to jointly estimate the dynamics and a latent state, making it considerably more challenging to design controllers with performance guarantees. This paper proposes a novel method for the computation of an optimal input trajectory for unknown nonlinear systems with latent states. Probabilistic performance guarantees are derived for the resulting input trajectory, and an approach to validate the performance of arbitrary control laws is presented. The effectiveness of the proposed method is demonstrated in a numerical simulation.
+    We initiate a principled study of algorithmic collective action on digital platforms that deploy machine learning algorithms. We propose a simple theoretical model of a collective interacting with a firm's learning algorithm. The collective pools the data of participating individuals and executes an algorithmic strategy by instructing participants how to modify their own data to achieve a collective goal. We investigate the consequences of this model in three fundamental learning-theoretic settings: the case of a nonparametric optimal learning algorithm, a parametric risk minimizer, and gradient-based optimization. In each setting, we come up with coordinated algorithmic strategies and characterize natural success criteria as a function of the collective's size. Complementing our theory, we conduct systematic experiments on a skill classification task involving tens of thousands of resumes from a gig platform for freelancers. Through more than two thousand model training runs of a BERT
     
 

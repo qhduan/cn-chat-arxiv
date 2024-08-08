@@ -2,52 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [On Connected Strongly-Proportional Cake-Cutting](https://arxiv.org/abs/2312.15326) | 该论文研究了一种公平划分可划分异质资源的问题，即蛋糕切分。该论文确定了存在一种连通的强比例切分方式，并提供了相应的算法和简单刻画。 |
-| [^2] | [PySDTest: a Python Package for Stochastic Dominance Tests.](http://arxiv.org/abs/2307.10694) | PySDTest是一个用于随机支配测试的Python包，可以实现多种随机支配测试方法并计算临界值，允许多种随机支配假设。在比特币和标普500指数的比较中发现标普500指数在二阶随机上支配比特币的回报。 |
-| [^3] | [Visibility graph analysis of the grains and oilseeds indices.](http://arxiv.org/abs/2304.05760) | 本研究对粮油指数及其五个子指数进行了可见性图分析，六个可见性图都表现出幂律分布的度分布和小世界特征。玉米和大豆指数的可见性图表现出较弱的同配混合模式。 |
+| [^1] | [Ex-Ante Design of Persuasion Games](https://arxiv.org/abs/2312.02465) | 研究了先见之明机制设计设置中的信息披露激励，提出了一种新的原则，揭示了全局激励约束受到有限后验信念下的“最坏情况”惩罚的影响，同时发现接收方在解决最优分配问题时将从对确定性结果进行随机化中受益。 |
+| [^2] | [Sources of capital growth.](http://arxiv.org/abs/2309.03403) | 资本增长和加速不依赖于净储蓄或消费的限制，对经济教育和公共政策有重要影响。 |
+| [^3] | [Productivity, Inputs Misallocation, and the Financial Crisis.](http://arxiv.org/abs/2306.08760) | 本文对定量衡量同质产业内资源错配的常规方法进行了重新评估，并提出了一种基于已识别的政策变化的比较分析策略。研究表明，金融危机对生产要素的影响导致资源配置严重失调，而政策干预可能会损害整体经济效率。 |
+| [^4] | [Agricultural Shocks and Social Conflict in Southeast Asia.](http://arxiv.org/abs/2304.10027) | 该研究分析了东南亚农业与社会冲突的关联性，发现在稻谷收获季节中，政治暴力增加而社会动荡减少。研究揭示了政策制定者在农业经济中管理社会冲突的必要性。 |
 
 # 详细
 
-[^1]: 关于连通且强比例切蛋糕的研究
+[^1]: 先见之明的说服博弈设计
 
-    On Connected Strongly-Proportional Cake-Cutting
+    Ex-Ante Design of Persuasion Games
 
-    [https://arxiv.org/abs/2312.15326](https://arxiv.org/abs/2312.15326)
+    [https://arxiv.org/abs/2312.02465](https://arxiv.org/abs/2312.02465)
 
-    该论文研究了一种公平划分可划分异质资源的问题，即蛋糕切分。该论文确定了存在一种连通的强比例切分方式，并提供了相应的算法和简单刻画。
-
-    
-
-    我们研究了在一组代理人中如何公平地分配可划分的异质资源，也称为蛋糕。我们确定了存在着一种分配方式，每个代理人都会收到一个价值严格超过他们比例份额的连续部分，也称为*强比例分配*。我们提出了一个算法，可以使用最多$n \cdot 2^{n-1}$个查询来确定是否存在一个连通的强比例分配。对于具有严格正估值的代理人，我们提供了一个更简单的刻画，并且证明了确定是否存在一个连通的强比例分配所需的查询数量是$\Theta(n^2)$。我们的证明是构造性的，并且当存在时，给出了一个连通的强比例分配，使用了类似数量的查询。
-
-    arXiv:2312.15326v2 Announce Type: replace-cross Abstract: We investigate the problem of fairly dividing a divisible heterogeneous resource, also known as a cake, among a set of agents. We characterize the existence of an allocation in which every agent receives a contiguous piece worth strictly more than their proportional share, also known as a *strongly-proportional allocation*. The characterization is supplemented with an algorithm that determines the existence of a connected strongly-proportional allocation using at most $n \cdot 2^{n-1}$ queries. We provide a simpler characterization for agents with strictly positive valuations, and show that the number of queries required to determine the existence of a connected strongly-proportional allocation is in $\Theta(n^2)$. Our proofs are constructive and yield a connected strongly-proportional allocation, when it exists, using a similar number of queries.
-    
-[^2]: PySDTest: 一个用于随机支配测试的Python包
-
-    PySDTest: a Python Package for Stochastic Dominance Tests. (arXiv:2307.10694v1 [econ.EM])
-
-    [http://arxiv.org/abs/2307.10694](http://arxiv.org/abs/2307.10694)
-
-    PySDTest是一个用于随机支配测试的Python包，可以实现多种随机支配测试方法并计算临界值，允许多种随机支配假设。在比特币和标普500指数的比较中发现标普500指数在二阶随机上支配比特币的回报。
+    研究了先见之明机制设计设置中的信息披露激励，提出了一种新的原则，揭示了全局激励约束受到有限后验信念下的“最坏情况”惩罚的影响，同时发现接收方在解决最优分配问题时将从对确定性结果进行随机化中受益。
 
     
 
-    我们介绍了PySDTest，一个用于随机支配测试的Python包。PySDTest可以实现Barrett和Donald（2003）、Linton等人（2005）、Linton等人（2010）、Donald和Hsu（2016）及其扩展的测试程序。PySDTest提供了多种计算临界值的选项，包括引导法、子采样法和数值Δ法。此外，PySDTest允许多种随机支配假设，包括多个前景下的随机最大化和前景支配假设。我们简要介绍了随机支配和测试方法的概念，并提供了使用PySDTest的实际指导。作为实证示例，我们将PySDTest应用于比特币和标普500指数的每日回报之间的组合选择问题。我们发现标普500指数的回报在二阶随机上支配比特币的回报。
+    接受方的承诺如何影响贝叶斯说服中信息披露的激励？我们研究了许多发送方的说服博弈，其中单个接收方在发送方设计信息环境之前承诺一个后验依赖的行动配置或分配。我们在先见之明机制设计设置中提出了一种新的类似披露的原则，其中发送方报告是布莱克韦尔实验，并用它来表征我们模型中可实施的分配集合。我们展示了全局激励约束受到“最坏情况”惩罚的固定，该固定在有限后验信念中独立于分配的值。此外，当解决受约束的最优分配时，与标准机制设计模型形成对比，接收方将从能够对确定性结果进行随机化中获益。最后，我们将结果应用于分析多商品分配问题中的效率。
 
-    We introduce PySDTest, a Python package for statistical tests of stochastic dominance. PySDTest can implement the testing procedures of Barrett and Donald (2003), Linton et al. (2005), Linton et al. (2010), Donald and Hsu (2016), and their extensions. PySDTest provides several options to compute the critical values including bootstrap, subsampling, and numerical delta methods. In addition, PySDTest allows various notions of the stochastic dominance hypothesis, including stochastic maximality among multiple prospects and prospect dominance. We briefly give an overview of the concepts of stochastic dominance and testing methods. We then provide a practical guidance for using PySDTest. For an empirical illustration, we apply PySDTest to the portfolio choice problem between the daily returns of Bitcoin and S&P 500 index. We find that the S&P 500 index returns second-order stochastically dominate the Bitcoin returns.
+    arXiv:2312.02465v3 Announce Type: replace  Abstract: How does receiver commitment affect incentives for information revelation in Bayesian persuasion? We study many-sender persuasion games where a single receiver commits to a posterior-dependent action profile, or allocation, before senders design the informational environment. We develop a novel revelation-like principle for ex-ante mechanism design settings where sender reports are Blackwell experiments and use it to characterize the set of implementable allocations in our model. We show global incentive constraints are pinned down by "worst-case" punishments at finitely many posterior beliefs, whose values are independent of the allocation. Moreover, the receiver will generically benefit from the ability to randomize over deterministic outcomes when solving for the constrained optimal allocation, in contrast to standard mechanism design models. Finally, we apply our results to analyze efficiency in multi-good allocation problems, fu
     
-[^3]: 粮油指数的可见性图分析
+[^2]: 资本增长的来源
 
-    Visibility graph analysis of the grains and oilseeds indices. (arXiv:2304.05760v1 [econ.GN])
+    Sources of capital growth. (arXiv:2309.03403v1 [econ.GN])
 
-    [http://arxiv.org/abs/2304.05760](http://arxiv.org/abs/2304.05760)
+    [http://arxiv.org/abs/2309.03403](http://arxiv.org/abs/2309.03403)
 
-    本研究对粮油指数及其五个子指数进行了可见性图分析，六个可见性图都表现出幂律分布的度分布和小世界特征。玉米和大豆指数的可见性图表现出较弱的同配混合模式。
+    资本增长和加速不依赖于净储蓄或消费的限制，对经济教育和公共政策有重要影响。
 
     
 
-    粮油指数（GOI）及其小麦、玉米、大豆、稻米和大麦等五个子指数是每日价格指数，反映了全球主要农产品现货市场价格的变化。本文对GOI及其五个子指数进行了可见性图（VG）分析。最大似然估计表明，VG的度分布都显示出幂律尾巴，除了稻米。六个VG的平均聚类系数都很大（>0.5），并与VG的平均度数展现了良好的幂律关系。对于每个VG，节点的聚类系数在大度数时与其度数成反比，在小度数时与其度数成幂律相关。所有六个VG都表现出小世界特征，但程度不同。度-度相关系数表明，玉米和大豆指数的VG表现出较弱的同配混合模式，而其他四个VG的同配混合模式较弱。
+    根据国民账户数据显示，净储蓄或消费的变化与市值资本增长率的变化（资本加速度）之间没有影响。因此，资本增长和加速似乎不依赖于净储蓄或消费的限制。我们探讨了这种可能性，并讨论了对经济教育和公共政策的影响。
 
-    The Grains and Oilseeds Index (GOI) and its sub-indices of wheat, maize, soyabeans, rice, and barley are daily price indexes reflect the price changes of the global spot markets of staple agro-food crops. In this paper, we carry out a visibility graph (VG) analysis of the GOI and its five sub-indices. Maximum likelihood estimation shows that the degree distributions of the VGs display power-law tails, except for rice. The average clustering coefficients of the six VGs are quite large (>0.5) and exhibit a nice power-law relation with respect to the average degrees of the VGs. For each VG, the clustering coefficients of nodes are inversely proportional to their degrees for large degrees and are correlated to their degrees as a power law for small degrees. All the six VGs exhibit small-world characteristics to some extent. The degree-degree correlation coefficients shows that the VGs for maize and soyabeans indices exhibit weak assortative mixing patterns, while the other four VGs are wea
+    Data from national accounts show no effect of change in net saving or consumption, in ratio to market-value capital, on change in growth rate of market-value capital (capital acceleration). Thus it appears that capital growth and acceleration arrive without help from net saving or consumption restraint. We explore ways in which this is possible, and discuss implications for economic teaching and public policy
+    
+[^3]: 生产率、要素错配与金融危机
+
+    Productivity, Inputs Misallocation, and the Financial Crisis. (arXiv:2306.08760v1 [econ.GN])
+
+    [http://arxiv.org/abs/2306.08760](http://arxiv.org/abs/2306.08760)
+
+    本文对定量衡量同质产业内资源错配的常规方法进行了重新评估，并提出了一种基于已识别的政策变化的比较分析策略。研究表明，金融危机对生产要素的影响导致资源配置严重失调，而政策干预可能会损害整体经济效率。
+
+    
+
+    本文重新评估了定量衡量同质产业内资源错配的常规方法，该方法通常使用一个输入边际产品的离散度来衡量。我的研究发现，这一统计量包括固有的生产率异质性和特有的生产率冲击，而不考虑所研究的输入。利用美国和欧洲制造业公司的资产负债表数据，我发现总生产要素生产率波动值占资本边际产品的方差的7％，劳动力为9％，材料输入为10％。因此，这个指数以表面价值表示时，无法识别出任何生产要素的政策引发的错配。为了克服这一局限性，我提出了一种基于已识别的政策变化的比较分析策略。这种方法允许研究人员在相对的条件下评估诱导失配，同时控制TFP波动性的差异。我发现金融危机对生产要素的影响是不均衡的，导致资源配置严重失调。通过比较不同地区和行业的金融危机前和金融危机期间，经济金融环境稳定的情况，我发现金融危机对制造业的负面影响比服务业更为明显，对欧洲业务更为严重，而且这种失调是由于金融紧缩政策引起的。这一研究表明，政策干预可能会导致资源配置失调，损害整体经济效率。
+
+    This paper reevaluates the conventional approach to quantifying within-industry resource misallocation, typically measured by the dispersion of an input marginal product. My findings suggest that this statistic incorporates inherent productivity heterogeneity and idiosyncratic productivity shocks, irrespective of the input under scrutiny. Using balance sheet data from American and European manufacturing firms, I show that total factor productivity (TFP) volatility accounts for 7% of the variance in the marginal product of capital, 9% for labor, and 10% for material inputs. Consequently, this index, taken at face value, fails to identify policy-induced misallocation for any production input. To overcome this limitation, I propose a comparative analysis strategy driven by an identified policy variation. This approach allows the researcher to assess induced misallocation in relative terms whilst controlling for differences in TFP volatility. I show that the financial crisis had an uneven 
+    
+[^4]: 东南亚农业冲击与社会冲突
+
+    Agricultural Shocks and Social Conflict in Southeast Asia. (arXiv:2304.10027v1 [econ.GN])
+
+    [http://arxiv.org/abs/2304.10027](http://arxiv.org/abs/2304.10027)
+
+    该研究分析了东南亚农业与社会冲突的关联性，发现在稻谷收获季节中，政治暴力增加而社会动荡减少。研究揭示了政策制定者在农业经济中管理社会冲突的必要性。
+
+    
+
+    社会冲突是不可避免的，但其发生和强度随时间和地点的不同而异。在低收入经济体中，农业就业和收入的重要性较大，政治暴力和社会冲突可能与该行业相关。我们使用涵盖七个东南亚国家13年期间的冲突数据来研究这种联系。我们重点关注稻谷收获季节中冲突事件的变化，这是该地区生产和消费最多的谷物作物。我们观察到在收获季节的稻米生产地区，政治暴力增加而社会动荡减少。通过考虑与稻谷价格和生长季节降雨相关的冲击，并比较主要是灌溉与主要是雨养稻生产实践的地区，我们研究了可能导致这种效果的不同机制。这些发现为政策制定者提供了重要的见解。
+
+    Social conflicts are inevitable, but their occurrence and intensity have varied over time and across locations. In lower-income economies, where employment and income from agriculture are substantial, forms of political violence and social conflict may be linked with this sector. We investigate this linkage using granular conflict data covering a 13-year period across seven Southeast Asian countries. We focus on changes in conflict incidents during the rice harvest season, which is the most produced and consumed cereal crop in the region. We observe an increase in political violence but a decrease in social unrest in rice-producing areas during the harvest season. We investigate different plausible mechanisms that may lead to such effects, by incorporating shocks associated with rice prices and growing season rainfall, and by comparing regions with predominantly irrigated vs predominantly rainfed rice production practices. These findings offer important insights to policymakers as they
     
 

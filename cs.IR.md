@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Artificial Intelligence for Literature Reviews: Opportunities and Challenges](https://arxiv.org/abs/2402.08565) | 这篇论文综述了人工智能在系统文献综述中的应用，尤其关注了在筛选和提取阶段的半自动化过程。该研究使用一个包括传统特征和人工智能特征的框架来考察21个领先的文献综述工具，并分析了11个利用大型语言模型进行文献搜索和学术写作辅助的最新工具。最后，论文讨论了该领域的当前趋势、主要研究挑战和发展方向。 |
+| [^1] | [LiRank: Industrial Large Scale Ranking Models at LinkedIn](https://arxiv.org/abs/2402.06859) | LiRank是领英的一个大规模排名框架，它应用了最先进的建模架构和优化方法，并提出了新的建模改进和技术，通过A/B测试取得了有效的结果。 |
 
 # 详细
 
-[^1]: 文献综述中的人工智能：机遇与挑战
+[^1]: LiRank: 领英的工业规模排名模型
 
-    Artificial Intelligence for Literature Reviews: Opportunities and Challenges
+    LiRank: Industrial Large Scale Ranking Models at LinkedIn
 
-    [https://arxiv.org/abs/2402.08565](https://arxiv.org/abs/2402.08565)
+    [https://arxiv.org/abs/2402.06859](https://arxiv.org/abs/2402.06859)
 
-    这篇论文综述了人工智能在系统文献综述中的应用，尤其关注了在筛选和提取阶段的半自动化过程。该研究使用一个包括传统特征和人工智能特征的框架来考察21个领先的文献综述工具，并分析了11个利用大型语言模型进行文献搜索和学术写作辅助的最新工具。最后，论文讨论了该领域的当前趋势、主要研究挑战和发展方向。
+    LiRank是领英的一个大规模排名框架，它应用了最先进的建模架构和优化方法，并提出了新的建模改进和技术，通过A/B测试取得了有效的结果。
 
     
 
-    本文对人工智能在系统文献综述（SLR）中的应用进行了全面的综述。SLR是一种严谨有序的方法论，用于评估和整合关于特定主题的先前研究。许多工具已被开发用于辅助和部分自动化SLR过程。人工智能在这个领域的日益重要角色显示了为研究人员提供更有效支持的巨大潜力，朝着文献综述的半自动化创建方向发展。我们的研究重点关注人工智能技术在SLR的半自动化中的应用，特别是在筛选和提取阶段。我们使用一个将23个传统特征与11个人工智能特征相结合的框架，对21个领先的SLR工具进行了考察。我们还分析了使用大型语言模型进行文献搜索和辅助学术写作的11个最新工具。最后，本文讨论了该领域的当前趋势，概述了主要的研究挑战，并提出了发展方向。
+    我们介绍了LiRank，这是领英的一个大规模排名框架，它将最先进的建模架构和优化方法应用于生产。我们揭示了几个建模改进，包括Residual DCN，它在著名的DCNv2架构中添加了注意力和残差连接。我们分享了将SOTA架构组合和调优以创建统一模型的见解，包括Dense Gating、Transformers和Residual DCN。我们还提出了用于校准的新技术，并描述了如何将基于深度学习的探索/利用方法应用于生产环境。为了实现大规模排名模型的有效、生产级服务，我们详细介绍了使用量化和词汇压缩训练和压缩模型的方法。我们提供了Feed排名、职位推荐和广告点击率（CTR）预测等大规模使用案例的部署设置细节。通过阐明最有效的技术方法，我们总结了各种A/B测试的经验教训。
 
-    This manuscript presents a comprehensive review of the use of Artificial Intelligence (AI) in Systematic Literature Reviews (SLRs). A SLR is a rigorous and organised methodology that assesses and integrates previous research on a given topic. Numerous tools have been developed to assist and partially automate the SLR process. The increasing role of AI in this field shows great potential in providing more effective support for researchers, moving towards the semi-automatic creation of literature reviews. Our study focuses on how AI techniques are applied in the semi-automation of SLRs, specifically in the screening and extraction phases. We examine 21 leading SLR tools using a framework that combines 23 traditional features with 11 AI features. We also analyse 11 recent tools that leverage large language models for searching the literature and assisting academic writing. Finally, the paper discusses current trends in the field, outlines key research challenges, and suggests directions f
+    We present LiRank, a large-scale ranking framework at LinkedIn that brings to production state-of-the-art modeling architectures and optimization methods. We unveil several modeling improvements, including Residual DCN, which adds attention and residual connections to the famous DCNv2 architecture. We share insights into combining and tuning SOTA architectures to create a unified model, including Dense Gating, Transformers and Residual DCN. We also propose novel techniques for calibration and describe how we productionalized deep learning based explore/exploit methods. To enable effective, production-grade serving of large ranking models, we detail how to train and compress models using quantization and vocabulary compression. We provide details about the deployment setup for large-scale use cases of Feed ranking, Jobs Recommendations, and Ads click-through rate (CTR) prediction. We summarize our learnings from various A/B tests by elucidating the most effective technical approaches. T
     
 
