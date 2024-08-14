@@ -2,112 +2,127 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Causal Representation Learning from Multiple Distributions: A General Setting](https://arxiv.org/abs/2402.05052) | 本文研究了一个通用的、完全非参数的因果表示学习设置，旨在在多个分布之间学习因果关系，无需假设硬干预。通过稀疏性约束，可以从多个分布中恢复出因果关系。 |
-| [^2] | [Improving and Unifying Discrete&Continuous-time Discrete Denoising Diffusion](https://arxiv.org/abs/2402.03701) | 本文提出了一种改进和统一离散和连续时间离散去噪扩散的方法。通过数学简化和推导，使得离散扩散的训练更准确易优化，并且实现了精确和加速的采样。同时，成功地统一了离散时间和连续时间离散扩散。 |
-| [^3] | [Featurizing Koopman Mode Decomposition](https://arxiv.org/abs/2312.09146) | 本文提出了一种命名为FKMD的先进KMD技术，通过时间嵌入和马氏距离缩放，可以增强对高维动力系统的分析和预测，特别适用于特征未知的情况，并在丙氨酸二肽数据降维和分析Lorenz吸引子和癌症研究中细胞信号问题方面取得了显著改进。 |
-| [^4] | [Deep Backtracking Counterfactuals for Causally Compliant Explanations.](http://arxiv.org/abs/2310.07665) | 本研究提供了一种实用方法，用于在深度生成组件的结构因果模型中计算回溯反事实。通过在因果模型的结构化潜在空间中解决优化问题，我们的方法能够生成反事实，并且与其他方法相比具备了多功能、模块化和符合因果关系的特点。 |
-| [^5] | [Active Learning in Symbolic Regression Performance with Physical Constraints.](http://arxiv.org/abs/2305.10379) | 本文探讨了利用进化符号回归作为主动学习中的方法来提出哪些数据应该被采集，通过“委员会查询”来减少所需数据，并在重新发现已知方程所需的数据方面实现最新的结果。 |
-| [^6] | [Manifold Learning by Mixture Models of VAEs for Inverse Problems.](http://arxiv.org/abs/2303.15244) | 本文提出了一种用混合VAE模型学习流形的方法，并将其用于解决逆问题，结果表现出良好的性能，可用于模糊和电阻抗层析成像。 |
-| [^7] | [Policy Gradient Converges to the Globally Optimal Policy for Nearly Linear-Quadratic Regulators.](http://arxiv.org/abs/2303.08431) | 本论文研究了强化学习方法在几乎线性二次型调节器系统中找到最优策略的问题，提出了一个策略梯度算法，可以以线性速率收敛于全局最优解。 |
+| [^1] | [How Transformers Learn Causal Structure with Gradient Descent](https://arxiv.org/abs/2402.14735) | Transformers通过梯度下降学习因果结构的过程中，关键的证据是注意力矩阵的梯度编码了token之间的互信息 |
+| [^2] | [Extending the Reach of First-Order Algorithms for Nonconvex Min-Max Problems with Cohypomonotonicity](https://arxiv.org/abs/2402.05071) | 本文研究了具有连带偏序特性的非凸极小极大问题，提出了一阶算法的适用范围，并在理论上证明了算法的复杂度保证。 |
+| [^3] | [An Ensemble Score Filter for Tracking High-Dimensional Nonlinear Dynamical Systems.](http://arxiv.org/abs/2309.00983) | 我们提出了一种集成评分滤波器（EnSF），在处理高维非线性滤波问题时具有卓越的准确性。EnSF利用评分模型在伪时域中描述滤波密度的演化，并通过评分函数存储信息，相比于使用蒙特卡罗样本的粒子滤波器和集成卡尔曼滤波器具有更好的效果。 |
+| [^4] | [Computational Lower Bounds for Graphon Estimation via Low-degree Polynomials.](http://arxiv.org/abs/2308.15728) | 通过低次多项式计算图论估计存在计算障碍，传统的优化估计方法具有指数级的计算复杂度，而最优多项式时间估计器只能达到较慢的估计错误率。 |
+| [^5] | [Neural networks can detect model-free static arbitrage strategies.](http://arxiv.org/abs/2306.16422) | 本文证明了神经网络可以检测金融市场中的无模型静态套利机会，并可应用于交易证券数量较多的金融市场。我们的方法具有易处理性、有效性和稳健性，并使用真实金融数据进行了示例验证。 |
+| [^6] | [Performative Prediction with Bandit Feedback: Learning through Reparameterization.](http://arxiv.org/abs/2305.01094) | 本文提出一种新的在线反馈的实现式预测框架，解决了在模型部署自身改变数据分布的情况下优化准确性的问题。 |
+| [^7] | [Convergence of Message Passing Graph Neural Networks with Generic Aggregation On Large Random Graphs.](http://arxiv.org/abs/2304.11140) | 本文研究了消息传递图神经网络在随机图模型上的收敛性，将收敛结论从只适用于度规范化平均聚合函数扩展到所有传统聚合函数，并考虑了聚合函数采用逐个坐标最大值时的情况。 |
+| [^8] | [flexBART: Flexible Bayesian regression trees with categorical predictors.](http://arxiv.org/abs/2211.04459) | 本论文提出了一种新的灵活贝叶斯回归树模型flexBART，可以在划分分类水平的离散集时，将多个水平分配给决策树节点的两个分支，从而实现了对分类预测变量的灵活建模，跨级别的数据部分汇总能力也得到了改进。 |
 
 # 详细
 
-[^1]: 从多个分布中进行因果表示学习：一个通用设置
+[^1]: Transformers如何通过梯度下降学习因果结构
 
-    Causal Representation Learning from Multiple Distributions: A General Setting
+    How Transformers Learn Causal Structure with Gradient Descent
 
-    [https://arxiv.org/abs/2402.05052](https://arxiv.org/abs/2402.05052)
+    [https://arxiv.org/abs/2402.14735](https://arxiv.org/abs/2402.14735)
 
-    本文研究了一个通用的、完全非参数的因果表示学习设置，旨在在多个分布之间学习因果关系，无需假设硬干预。通过稀疏性约束，可以从多个分布中恢复出因果关系。
-
-    
-
-    在许多问题中，测量变量（例如图像像素）只是隐藏的因果变量（例如潜在的概念或对象）的数学函数。为了在不断变化的环境中进行预测或对系统进行适当的更改，恢复隐藏的因果变量$Z_i$以及由图$\mathcal{G}_Z$表示的它们的因果关系是有帮助的。这个问题最近被称为因果表示学习。本文关注来自多个分布（来自异构数据或非平稳时间序列）的因果表示学习的通用、完全非参数的设置，不需要假设分布改变背后存在硬干预。我们旨在在这个基本情况下开发通用解决方案；作为副产品，这有助于看到其他假设（如参数因果模型或硬干预）提供的独特好处。我们证明在恢复过程中对图的稀疏性约束下，可以从多个分布中学习出因果关系。
-
-    In many problems, the measured variables (e.g., image pixels) are just mathematical functions of the hidden causal variables (e.g., the underlying concepts or objects). For the purpose of making predictions in changing environments or making proper changes to the system, it is helpful to recover the hidden causal variables $Z_i$ and their causal relations represented by graph $\mathcal{G}_Z$. This problem has recently been known as causal representation learning. This paper is concerned with a general, completely nonparametric setting of causal representation learning from multiple distributions (arising from heterogeneous data or nonstationary time series), without assuming hard interventions behind distribution changes. We aim to develop general solutions in this fundamental case; as a by product, this helps see the unique benefit offered by other assumptions such as parametric causal models or hard interventions. We show that under the sparsity constraint on the recovered graph over
-    
-[^2]: 改进和统一离散和连续时间离散去噪扩散
-
-    Improving and Unifying Discrete&Continuous-time Discrete Denoising Diffusion
-
-    [https://arxiv.org/abs/2402.03701](https://arxiv.org/abs/2402.03701)
-
-    本文提出了一种改进和统一离散和连续时间离散去噪扩散的方法。通过数学简化和推导，使得离散扩散的训练更准确易优化，并且实现了精确和加速的采样。同时，成功地统一了离散时间和连续时间离散扩散。
+    Transformers通过梯度下降学习因果结构的过程中，关键的证据是注意力矩阵的梯度编码了token之间的互信息
 
     
 
-    离散扩散模型在自然离散数据如语言和图形上得到了广泛关注。虽然离散时间离散扩散已经建立了一段时间，但直到最近Campbell等人（2022）才引入了连续时间离散扩散的第一个框架。然而，他们的训练和采样过程与离散时间版本有很大差异，需要非平凡的近似才能进行可行性分析。本文首先介绍了一系列对变分下界的数学简化，这些简化使离散扩散的训练更加准确和易于优化。此外，我们推导出了一种简单的反向去噪公式，能够实现精确和加速的采样，更重要的是能够优雅地统一离散时间和连续时间离散扩散。通过更简单的分析公式，前向和现在也包括了后向概率可以灵活地适应任何噪声分布。
+    Transformers在序列建模任务上取得了令人难以置信的成功，这在很大程度上归功于自注意机制，它允许信息在序列的不同部分之间传递。自注意机制使得transformers能够编码因果结构，从而使其特别适合序列建模。然而，transformers通过梯度训练算法学习这种因果结构的过程仍然不太清楚。为了更好地理解这个过程，我们引入了一个需要学习潜在因果结构的上下文学习任务。我们证明了简化的两层transformer上的梯度下降可以学会解决这个任务，通过在第一层注意力中编码潜在因果图来完成。我们证明的关键洞察是注意力矩阵的梯度编码了token之间的互信息。由于数据处理不等式的结果，注意力矩阵中最大的条目...
 
-    Discrete diffusion models have seen a surge of attention with applications on naturally discrete data such as language and graphs. Although discrete-time discrete diffusion has been established for a while, only recently Campbell et al. (2022) introduced the first framework for continuous-time discrete diffusion. However, their training and sampling processes differ significantly from the discrete-time version, necessitating nontrivial approximations for tractability. In this paper, we first present a series of mathematical simplifications of the variational lower bound that enable more accurate and easy-to-optimize training for discrete diffusion. In addition, we derive a simple formulation for backward denoising that enables exact and accelerated sampling, and importantly, an elegant unification of discrete-time and continuous-time discrete diffusion. Thanks to simpler analytical formulations, both forward and now also backward probabilities can flexibly accommodate any noise distrib
+    arXiv:2402.14735v1 Announce Type: new  Abstract: The incredible success of transformers on sequence modeling tasks can be largely attributed to the self-attention mechanism, which allows information to be transferred between different parts of a sequence. Self-attention allows transformers to encode causal structure which makes them particularly suitable for sequence modeling. However, the process by which transformers learn such causal structure via gradient-based training algorithms remains poorly understood. To better understand this process, we introduce an in-context learning task that requires learning latent causal structure. We prove that gradient descent on a simplified two-layer transformer learns to solve this task by encoding the latent causal graph in the first attention layer. The key insight of our proof is that the gradient of the attention matrix encodes the mutual information between tokens. As a consequence of the data processing inequality, the largest entries of th
     
-[^3]: 对Koopman模态分解进行特征化处理
+[^2]: 扩展具有连带偏序特性的非凸极小极大问题的一阶算法的适用范围
 
-    Featurizing Koopman Mode Decomposition
+    Extending the Reach of First-Order Algorithms for Nonconvex Min-Max Problems with Cohypomonotonicity
 
-    [https://arxiv.org/abs/2312.09146](https://arxiv.org/abs/2312.09146)
+    [https://arxiv.org/abs/2402.05071](https://arxiv.org/abs/2402.05071)
 
-    本文提出了一种命名为FKMD的先进KMD技术，通过时间嵌入和马氏距离缩放，可以增强对高维动力系统的分析和预测，特别适用于特征未知的情况，并在丙氨酸二肽数据降维和分析Lorenz吸引子和癌症研究中细胞信号问题方面取得了显著改进。
-
-    
-
-    本文介绍了一种先进的Koopman模态分解（KMD）技术：命名为特征化Koopman模态分解（FKMD），该技术利用时间嵌入和马氏距离缩放来增强对高维动力系统的分析和预测。时间嵌入扩展了观测空间，更好地捕捉基础流形结构，而应用于核函数或随机傅里叶特征的马氏距离缩放，则根据系统的动态调整观测值。这有助于在不事先知道良好特征的情况下对KMD进行特征化处理。我们发现，FKMD中的马氏距离缩放可用于对丙氨酸二肽数据进行有效的降维。我们还展示了FKMD如何改善对高维Lorenz吸引子和癌症研究中的细胞信号问题的预测。
-
-    arXiv:2312.09146v3 Announce Type: replace-cross  Abstract: This article introduces an advanced Koopman mode decomposition (KMD) technique -- coined Featurized Koopman Mode Decomposition (FKMD) -- that uses time embedding and Mahalanobis scaling to enhance analysis and prediction of high dimensional dynamical systems. The time embedding expands the observation space to better capture underlying manifold structure, while the Mahalanobis scaling, applied to kernel or random Fourier features, adjusts observations based on the system's dynamics. This aids in featurizing KMD in cases where good features are not a priori known. We find that the Mahalanobis scaling from FKMD can be used for effective dimensionality reduction of alanine dipeptide data. We also show that FKMD improves predictions for a high-dimensional Lorenz attractor and a cell signaling problem from cancer research.
-    
-[^4]: 深度回溯对因果一致解释的反事实推理
-
-    Deep Backtracking Counterfactuals for Causally Compliant Explanations. (arXiv:2310.07665v1 [cs.AI])
-
-    [http://arxiv.org/abs/2310.07665](http://arxiv.org/abs/2310.07665)
-
-    本研究提供了一种实用方法，用于在深度生成组件的结构因果模型中计算回溯反事实。通过在因果模型的结构化潜在空间中解决优化问题，我们的方法能够生成反事实，并且与其他方法相比具备了多功能、模块化和符合因果关系的特点。
+    本文研究了具有连带偏序特性的非凸极小极大问题，提出了一阶算法的适用范围，并在理论上证明了算法的复杂度保证。
 
     
 
-    反事实推理可以通过回答在改变情况下会观察到什么来提供有价值的见解，条件是根据实际观察。虽然经典的介入式解释已经得到了广泛研究，回溯原则被提出作为一种保持所有因果定律完整性的替代哲学，但其研究较少。在本研究中，我们介绍了在由深度生成组件组成的结构因果模型中计算回溯反事实的实用方法。为此，我们对结构分配施加了条件，通过在因果模型的结构化潜在空间中解决一个可行的约束优化问题来生成反事实。我们的方法还可以与反事实解释领域的方法进行比较。与这些方法相比，我们的方法代表了一种多功能、模块化和遵守因果的替代方案。
+    本文关注满足rho-连带偏序特性或在rho-弱Minty变分不等式（MVI）中存在解的约束，L-光滑的非凸非凹极小极大问题，其中参数rho>0的较大值对应更高的非凸性程度。这些问题类包括两个玩家强化学习，交互主导的极小极大问题以及某些经典极小极大算法无法解决的合成测试问题。已有猜想认为一阶方法可容忍最大rho为1/L，但现有文献中的结果已停滞在更严格的要求rho<1/2L。通过简单的论证，我们获得了具有连带偏序特性或弱MVI条件下，rho<1/L的最优或最佳已知复杂度保证。我们分析的算法是Halpern和Krasnosel'skiĭ-Mann (KM)迭代的非精确变种。我们还提供了算法和复杂度g...
 
-    Counterfactuals can offer valuable insights by answering what would have been observed under altered circumstances, conditional on a factual observation. Whereas the classical interventional interpretation of counterfactuals has been studied extensively, backtracking constitutes a less studied alternative the backtracking principle has emerged as an alternative philosophy where all causal laws are kept intact. In the present work, we introduce a practical method for computing backtracking counterfactuals in structural causal models that consist of deep generative components. To this end, we impose conditions on the structural assignments that enable the generation of counterfactuals by solving a tractable constrained optimization problem in the structured latent space of a causal model. Our formulation also facilitates a comparison with methods in the field of counterfactual explanations. Compared to these, our method represents a versatile, modular and causally compliant alternative. 
+    We focus on constrained, $L$-smooth, nonconvex-nonconcave min-max problems either satisfying $\rho$-cohypomonotonicity or admitting a solution to the $\rho$-weakly Minty Variational Inequality (MVI), where larger values of the parameter $\rho>0$ correspond to a greater degree of nonconvexity. These problem classes include examples in two player reinforcement learning, interaction dominant min-max problems, and certain synthetic test problems on which classical min-max algorithms fail. It has been conjectured that first-order methods can tolerate value of $\rho$ no larger than $\frac{1}{L}$, but existing results in the literature have stagnated at the tighter requirement $\rho < \frac{1}{2L}$. With a simple argument, we obtain optimal or best-known complexity guarantees with cohypomonotonicity or weak MVI conditions for $\rho < \frac{1}{L}$. The algorithms we analyze are inexact variants of Halpern and Krasnosel'ski\u{\i}-Mann (KM) iterations. We also provide algorithms and complexity g
     
-[^5]: 基于物理约束的符号回归中主动学习的表现
+[^3]: 用于跟踪高维非线性动力系统的集成评分滤波器
 
-    Active Learning in Symbolic Regression Performance with Physical Constraints. (arXiv:2305.10379v1 [cs.LG])
+    An Ensemble Score Filter for Tracking High-Dimensional Nonlinear Dynamical Systems. (arXiv:2309.00983v1 [stat.ML])
 
-    [http://arxiv.org/abs/2305.10379](http://arxiv.org/abs/2305.10379)
+    [http://arxiv.org/abs/2309.00983](http://arxiv.org/abs/2309.00983)
 
-    本文探讨了利用进化符号回归作为主动学习中的方法来提出哪些数据应该被采集，通过“委员会查询”来减少所需数据，并在重新发现已知方程所需的数据方面实现最新的结果。
-
-    
-
-    进化符号回归（SR）是一种将符号方程拟合到数据中的方法，可以得到简洁易懂的模型。本文探讨使用SR作为主动学习中的方法来提出哪些数据应该被采集，在此过程中考虑物理约束。基于主动学习的SR通过“委员会查询”来提出下一步实验。物理约束可以在非常低的数据情况下改善所建议的方程。这些方法可以减少SR所需的数据，并在重新发现已知方程所需的数据方面实现最新的结果。
-
-    Evolutionary symbolic regression (SR) fits a symbolic equation to data, which gives a concise interpretable model. We explore using SR as a method to propose which data to gather in an active learning setting with physical constraints. SR with active learning proposes which experiments to do next. Active learning is done with query by committee, where the Pareto frontier of equations is the committee. The physical constraints improve proposed equations in very low data settings. These approaches reduce the data required for SR and achieves state of the art results in data required to rediscover known equations.
-    
-[^6]: 用混合VAE模型学习流形来解决逆问题
-
-    Manifold Learning by Mixture Models of VAEs for Inverse Problems. (arXiv:2303.15244v1 [cs.LG])
-
-    [http://arxiv.org/abs/2303.15244](http://arxiv.org/abs/2303.15244)
-
-    本文提出了一种用混合VAE模型学习流形的方法，并将其用于解决逆问题，结果表现出良好的性能，可用于模糊和电阻抗层析成像。
+    我们提出了一种集成评分滤波器（EnSF），在处理高维非线性滤波问题时具有卓越的准确性。EnSF利用评分模型在伪时域中描述滤波密度的演化，并通过评分函数存储信息，相比于使用蒙特卡罗样本的粒子滤波器和集成卡尔曼滤波器具有更好的效果。
 
     
 
-    在实践中，使用生成模型表示高维数据的流形已被证明具有计算效率。然而，这要求数据流形具有全局参数化。为了表示任意拓扑的流形，我们提出了学习变分自编码器的混合模型。这里，每个编码器-解码器对表示流形的一个图表。我们提出了一种损失函数来最大化似然估计模型权重，并选择一个架构，为我们提供图表及其逆的解析表达式。一旦学习了流形，我们将其用于通过将数据拟合项限制在学习的流形上来解决逆问题。为了解决所产生的最小化问题，我们在学习的流形上提出了一种黎曼梯度下降算法。我们展示了我们的方法在低维玩具例子以及模糊和电阻抗层析成像方面的性能。
+    我们提出了一种集成评分滤波器（EnSF）来解决高维非线性滤波问题，并具有卓越的准确性。现有的滤波方法（如粒子滤波器或集成卡尔曼滤波器）在处理高维和高度非线性问题时存在低准确性的主要缺陷。EnSF通过利用基于评分的扩散模型，在伪时域中定义，来描述滤波密度的演化，从而攻克了这一挑战。EnSF在评分函数中存储了递归更新的滤波密度函数的信息，而不是在一组有限的蒙特卡罗样本中存储信息（用于粒子滤波器和集成卡尔曼滤波器）。与训练神经网络来近似评分函数的现有扩散模型不同，我们开发了一种无需训练的评分估计方法，使用基于小批量的蒙特卡罗估计器来直接近似任何伪空间-时间位置处的评分函数，从而提供了足够准确的估计。
 
-    Representing a manifold of very high-dimensional data with generative models has been shown to be computationally efficient in practice. However, this requires that the data manifold admits a global parameterization. In order to represent manifolds of arbitrary topology, we propose to learn a mixture model of variational autoencoders. Here, every encoder-decoder pair represents one chart of a manifold. We propose a loss function for maximum likelihood estimation of the model weights and choose an architecture that provides us the analytical expression of the charts and of their inverses. Once the manifold is learned, we use it for solving inverse problems by minimizing a data fidelity term restricted to the learned manifold. To solve the arising minimization problem we propose a Riemannian gradient descent algorithm on the learned manifold. We demonstrate the performance of our method for low-dimensional toy examples as well as for deblurring and electrical impedance tomography on cert
+    We propose an ensemble score filter (EnSF) for solving high-dimensional nonlinear filtering problems with superior accuracy. A major drawback of existing filtering methods, e.g., particle filters or ensemble Kalman filters, is the low accuracy in handling high-dimensional and highly nonlinear problems. EnSF attacks this challenge by exploiting the score-based diffusion model, defined in a pseudo-temporal domain, to characterizing the evolution of the filtering density. EnSF stores the information of the recursively updated filtering density function in the score function, in stead of storing the information in a set of finite Monte Carlo samples (used in particle filters and ensemble Kalman filters). Unlike existing diffusion models that train neural networks to approximate the score function, we develop a training-free score estimation that uses mini-batch-based Monte Carlo estimator to directly approximate the score function at any pseudo-spatial-temporal location, which provides suf
     
-[^7]: 政策梯度算法收敛于几乎线性二次型调节器的全局最优策略
+[^4]: 通过低次多项式计算图论估计的下界
 
-    Policy Gradient Converges to the Globally Optimal Policy for Nearly Linear-Quadratic Regulators. (arXiv:2303.08431v1 [cs.LG])
+    Computational Lower Bounds for Graphon Estimation via Low-degree Polynomials. (arXiv:2308.15728v1 [math.ST])
 
-    [http://arxiv.org/abs/2303.08431](http://arxiv.org/abs/2303.08431)
+    [http://arxiv.org/abs/2308.15728](http://arxiv.org/abs/2308.15728)
 
-    本论文研究了强化学习方法在几乎线性二次型调节器系统中找到最优策略的问题，提出了一个策略梯度算法，可以以线性速率收敛于全局最优解。
+    通过低次多项式计算图论估计存在计算障碍，传统的优化估计方法具有指数级的计算复杂度，而最优多项式时间估计器只能达到较慢的估计错误率。
 
     
 
-    决策者只获得了非完整信息的非线性控制系统在各种应用中普遍存在。本研究探索了强化学习方法，以找到几乎线性二次型调节器系统中最优策略。我们考虑一个动态系统，结合线性和非线性组成部分，并由相同结构的策略进行管理。在假设非线性组成部分包含具有小型Lipschitz系数的内核的情况下，我们对成本函数的优化进行了表征。虽然成本函数通常是非凸的，但我们确立了全局最优解附近局部的强凸性和光滑性。此外，我们提出了一种初始化机制，以利用这些属性。在此基础上，我们设计了一个策略梯度算法，可以保证以线性速率收敛于全局最优解。
+    图论估计是网络分析中最基本的问题之一，在过去十年中受到了相当大的关注。从统计学的角度来看，高等提出了对于随机块模型（SBM）和非参数图论估计的图论估计的极小极差误差率。统计优化估计是基于约束最小二乘法，并且在维度上具有指数级的计算复杂度。从计算的角度来看，已知的最优多项式时间估计器是基于通用奇异值阈值（USVT），但是它只能达到比极小极差错误率慢得多的估计错误率。人们自然会想知道这样的差距是否是必要的。USVT的计算优化性或图论估计中的计算障碍的存在一直是一个长期存在的问题。在这项工作中，我们对此迈出了第一步，并为图论估计的计算障碍提供了严格的证据。
 
-    Nonlinear control systems with partial information to the decision maker are prevalent in a variety of applications. As a step toward studying such nonlinear systems, this work explores reinforcement learning methods for finding the optimal policy in the nearly linear-quadratic regulator systems. In particular, we consider a dynamic system that combines linear and nonlinear components, and is governed by a policy with the same structure. Assuming that the nonlinear component comprises kernels with small Lipschitz coefficients, we characterize the optimization landscape of the cost function. Although the cost function is nonconvex in general, we establish the local strong convexity and smoothness in the vicinity of the global optimizer. Additionally, we propose an initialization mechanism to leverage these properties. Building on the developments, we design a policy gradient algorithm that is guaranteed to converge to the globally optimal policy with a linear rate.
+    Graphon estimation has been one of the most fundamental problems in network analysis and has received considerable attention in the past decade. From the statistical perspective, the minimax error rate of graphon estimation has been established by Gao et al (2015) for both stochastic block model (SBM) and nonparametric graphon estimation. The statistical optimal estimators are based on constrained least squares and have computational complexity exponential in the dimension. From the computational perspective, the best-known polynomial-time estimator is based on universal singular value thresholding (USVT), but it can only achieve a much slower estimation error rate than the minimax one. It is natural to wonder if such a gap is essential. The computational optimality of the USVT or the existence of a computational barrier in graphon estimation has been a long-standing open problem. In this work, we take the first step towards it and provide rigorous evidence for the computational barrie
+    
+[^5]: 神经网络可以检测无模型静态套利策略
+
+    Neural networks can detect model-free static arbitrage strategies. (arXiv:2306.16422v1 [q-fin.CP])
+
+    [http://arxiv.org/abs/2306.16422](http://arxiv.org/abs/2306.16422)
+
+    本文证明了神经网络可以检测金融市场中的无模型静态套利机会，并可应用于交易证券数量较多的金融市场。我们的方法具有易处理性、有效性和稳健性，并使用真实金融数据进行了示例验证。
+
+    
+
+    本文利用理论和数值方法证明了神经网络可以在市场存在套利机会时检测出无模型静态套利机会。由于使用了神经网络，我们的方法可以应用于交易证券数量较多的金融市场，并确保相应交易策略的几乎即时执行。为了证明其易处理性、有效性和稳健性，我们提供了使用真实金融数据的示例。从技术角度来看，我们证明了单个神经网络可以近似解决一类凸半无限规划问题，这是推导出我们的理论结果的关键。
+
+    In this paper we demonstrate both theoretically as well as numerically that neural networks can detect model-free static arbitrage opportunities whenever the market admits some. Due to the use of neural networks, our method can be applied to financial markets with a high number of traded securities and ensures almost immediate execution of the corresponding trading strategies. To demonstrate its tractability, effectiveness, and robustness we provide examples using real financial data. From a technical point of view, we prove that a single neural network can approximately solve a class of convex semi-infinite programs, which is the key result in order to derive our theoretical results that neural networks can detect model-free static arbitrage strategies whenever the financial market admits such opportunities.
+    
+[^6]: 通过重新参数化学习实现在线反馈的实现式预测
+
+    Performative Prediction with Bandit Feedback: Learning through Reparameterization. (arXiv:2305.01094v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.01094](http://arxiv.org/abs/2305.01094)
+
+    本文提出一种新的在线反馈的实现式预测框架，解决了在模型部署自身改变数据分布的情况下优化准确性的问题。
+
+    
+
+    本文提出了在数据分布由模型部署自身改变的情形下预测的一个框架——实现式预测。现有研究的重点在于优化准确性，但是其假设往往难以在实践中得到满足。本文针对这类问题，提出了一种两层零阶优化算法，通过重新参数化实现式预测目标，从而将非凸的目标转化为凸的目标。
+
+    Performative prediction, as introduced by Perdomo et al. (2020), is a framework for studying social prediction in which the data distribution itself changes in response to the deployment of a model. Existing work on optimizing accuracy in this setting hinges on two assumptions that are easily violated in practice: that the performative risk is convex over the deployed model, and that the mapping from the model to the data distribution is known to the model designer in advance. In this paper, we initiate the study of tractable performative prediction problems that do not require these assumptions. To tackle this more challenging setting, we develop a two-level zeroth-order optimization algorithm, where one level aims to compute the distribution map, and the other level reparameterizes the performative prediction objective as a function of the induced data distribution. Under mild conditions, this reparameterization allows us to transform the non-convex objective into a convex one and ac
+    
+[^7]: 基于消息传递的图神经网络在大规模随机图上的通用聚合收敛性研究
+
+    Convergence of Message Passing Graph Neural Networks with Generic Aggregation On Large Random Graphs. (arXiv:2304.11140v1 [stat.ML])
+
+    [http://arxiv.org/abs/2304.11140](http://arxiv.org/abs/2304.11140)
+
+    本文研究了消息传递图神经网络在随机图模型上的收敛性，将收敛结论从只适用于度规范化平均聚合函数扩展到所有传统聚合函数，并考虑了聚合函数采用逐个坐标最大值时的情况。
+
+    
+
+    本文研究了消息传递图神经网络在随机图模型上的收敛性，当节点数量趋近于无限时，该网络模型能收敛于其连续模型。迄今为止，该收敛性结果只适用于聚合函数采用度规范化平均值形式的网络结构。我们将此结果扩展到包含所有传统消息传递图神经网络的大类聚合函数上，例如基于注意力和最大卷积的网络。在一定假设下，我们给出了高概率的非渐进上限来量化这种收敛性。我们的主要结果基于McDiarmid不等式。有趣的是，我们特别处理了聚合函数采用逐个坐标最大值的情况，因为它需要非常不同的证明技巧，并产生了定性不同的收敛率。
+
+    We study the convergence of message passing graph neural networks on random graph models to their continuous counterpart as the number of nodes tends to infinity. Until now, this convergence was only known for architectures with aggregation functions in the form of degree-normalized means. We extend such results to a very large class of aggregation functions, that encompasses all classically used message passing graph neural networks, such as attention-based mesage passing or max convolutional message passing on top of (degree-normalized) convolutional message passing. Under mild assumptions, we give non asymptotic bounds with high probability to quantify this convergence. Our main result is based on the McDiarmid inequality. Interestingly, we treat the case where the aggregation is a coordinate-wise maximum separately, at it necessitates a very different proof technique and yields a qualitatively different convergence rate.
+    
+[^8]: flexBART:具有分类预测变量的灵活贝叶斯回归树
+
+    flexBART: Flexible Bayesian regression trees with categorical predictors. (arXiv:2211.04459v2 [stat.ME] UPDATED)
+
+    [http://arxiv.org/abs/2211.04459](http://arxiv.org/abs/2211.04459)
+
+    本论文提出了一种新的灵活贝叶斯回归树模型flexBART，可以在划分分类水平的离散集时，将多个水平分配给决策树节点的两个分支，从而实现了对分类预测变量的灵活建模，跨级别的数据部分汇总能力也得到了改进。
+
+    
+
+    大多数贝叶斯加法回归树（BART）的实现方法采用独热编码将分类预测变量替换为多个二进制指标，每个指标对应于每个级别或类别。用这些指标构建的回归树通过反复删除一个级别来划分分类水平的离散集。然而，绝大多数分割不能使用此策略构建，严重限制了BART在跨级别的数据部分汇总方面的能力。受对棒球数据和邻里犯罪动态分析的启发，我们通过重新实现以能够将多个水平分配给决策树节点的两个分支的回归树来克服了这个限制。为了对聚合为小区域的空间数据建模，我们进一步提出了一个新的决策规则先验，通过从适当定义的网络的随机生成树中删除一个随机边来创建空间连续的区域。我们的重新实现，可在R的flexBART软件包中使用，允许灵活地建模分类预测变量并改进跨不同级别的数据部分汇总。
+
+    Most implementations of Bayesian additive regression trees (BART) one-hot encode categorical predictors, replacing each one with several binary indicators, one for every level or category. Regression trees built with these indicators partition the discrete set of categorical levels by repeatedly removing one level at a time. Unfortunately, the vast majority of partitions cannot be built with this strategy, severely limiting BART's ability to partially pool data across groups of levels. Motivated by analyses of baseball data and neighborhood-level crime dynamics, we overcame this limitation by re-implementing BART with regression trees that can assign multiple levels to both branches of a decision tree node. To model spatial data aggregated into small regions, we further proposed a new decision rule prior that creates spatially contiguous regions by deleting a random edge from a random spanning tree of a suitably defined network. Our re-implementation, which is available in the flexBART
     
 

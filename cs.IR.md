@@ -2,37 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Ghost Sentence: A Tool for Everyday Users to Copyright Data from Large Language Models](https://arxiv.org/abs/2403.15740) | 通过在文档中插入个人密码并识别生成内容中的“幽灵句子”，普通用户可以确认大型语言模型是否滥用其数据，从而实现数据版权保护。 |
-| [^2] | [PK-ICR: Persona-Knowledge Interactive Context Retrieval for Grounded Dialogue.](http://arxiv.org/abs/2302.06674) | PK-ICR是一种基于角色和知识的互动上下文检索方法，可以在复杂的多场景对话中同时识别角色和知识。通过利用神经问答检索模型，该方法可以在较少的计算资源下实现检索，并且通过引入空-正向排名测试方法来提高排名性能。 |
+| [^1] | [An Empirical Study of Training ID-Agnostic Multi-modal Sequential Recommenders](https://arxiv.org/abs/2403.17372) | 通过研究现有的多模态相关的顺序推荐方法，提炼出视觉编码器、文本编码器、多模态融合模块和顺序架构这四个核心组件。 |
+| [^2] | [Enhancing Real-World Complex Network Representations with Hyperedge Augmentation](https://arxiv.org/abs/2402.13033) | 提出了一种新颖的图增强方法Hyperedge Augmentation (HyperAug)，通过构建直接从原始数据形成的虚拟超边，以解决现实世界复杂网络表示中高阶节点关系的问题 |
+| [^3] | [Large language models can rate news outlet credibility.](http://arxiv.org/abs/2304.00228) | 本文评估了 ChatGPT 是否能够评估新闻机构的可信度，结果表明 ChatGPT 可以为不同语言和讽刺性资源的新闻机构提供评级及其背景说明，并且这些评级与人类专家的评级相关。LLMs可以成为事实检查应用程序中可信度评级的经济参考。 |
 
 # 详细
 
-[^1]: Ghost Sentence：一种供普通用户使用的工具，用于对大型语言模型中的数据进行版权保护
+[^1]: 训练独立于ID的多模态顺序推荐器的实证研究
 
-    Ghost Sentence: A Tool for Everyday Users to Copyright Data from Large Language Models
+    An Empirical Study of Training ID-Agnostic Multi-modal Sequential Recommenders
 
-    [https://arxiv.org/abs/2403.15740](https://arxiv.org/abs/2403.15740)
+    [https://arxiv.org/abs/2403.17372](https://arxiv.org/abs/2403.17372)
 
-    通过在文档中插入个人密码并识别生成内容中的“幽灵句子”，普通用户可以确认大型语言模型是否滥用其数据，从而实现数据版权保护。
-
-    
-
-    Web用户数据在预训练大型语言模型（LLMs）及其微调变种的生态系统中起着核心作用。本文提出了一种方法，建议用户在其文档中反复插入个人密码，使LLMs能够记忆这些密码。这些用户文档中隐藏的密码，被称为“幽灵句子”，一旦它们出现在LLMs生成的内容中，用户就可以确信他们的数据被用于训练。为了探索这种版权工具的有效性和用法，我们利用幽灵句子定义了“用户训练数据识别”任务。我们创建了来自不同来源、不同规模的多个数据集，并使用不同规模的LLMs进行测试。为了评估，我们引入了一个最后$k$个单词验证的方式。
-
-    arXiv:2403.15740v1 Announce Type: new  Abstract: Web user data plays a central role in the ecosystem of pre-trained large language models (LLMs) and their fine-tuned variants. Billions of data are crawled from the web and fed to LLMs. How can \textit{\textbf{everyday web users}} confirm if LLMs misuse their data without permission? In this work, we suggest that users repeatedly insert personal passphrases into their documents, enabling LLMs to memorize them. These concealed passphrases in user documents, referred to as \textit{ghost sentences}, once they are identified in the generated content of LLMs, users can be sure that their data is used for training. To explore the effectiveness and usage of this copyrighting tool, we define the \textit{user training data identification} task with ghost sentences. Multiple datasets from various sources at different scales are created and tested with LLMs of different sizes. For evaluation, we introduce a last $k$ words verification manner along 
-    
-[^2]: PK-ICR: 基于角色和知识的互动上下文检索进行基于场景对话
-
-    PK-ICR: Persona-Knowledge Interactive Context Retrieval for Grounded Dialogue. (arXiv:2302.06674v2 [cs.CL] UPDATED)
-
-    [http://arxiv.org/abs/2302.06674](http://arxiv.org/abs/2302.06674)
-
-    PK-ICR是一种基于角色和知识的互动上下文检索方法，可以在复杂的多场景对话中同时识别角色和知识。通过利用神经问答检索模型，该方法可以在较少的计算资源下实现检索，并且通过引入空-正向排名测试方法来提高排名性能。
+    通过研究现有的多模态相关的顺序推荐方法，提炼出视觉编码器、文本编码器、多模态融合模块和顺序架构这四个核心组件。
 
     
 
-    鉴别与对话系统相关的角色和知识对于基于场景的对话应答生成至关重要。然而，目前每个对话基本上都是孤立研究的，而最近的工作中引入了更实际的多场景对话任务。我们将角色和知识双上下文识别定义为为给定的对话同时识别角色和知识的任务，在复杂的多场景对话设置中可能具有提升重要性。我们开发了一种新的基于检索的检索方法，可以同时利用对话的所有上下文信息。我们的方法通过使用神经问答检索模型，需要较少的计算资源。我们进一步介绍了一种新的空-正向排名测试方法，用于衡量与数据增强相关的语义差异样本（即困难负样本）的排名性能。
+    顺序推荐旨在基于历史交互来预测未来用户-物品交互。许多顺序推荐方法集中在用户ID和物品ID上，人类通过多模态信号（如文本和图像）感知世界的方式启发了研究人员探索如何构建不使用ID的多模态信息的顺序推荐。然而，多模态学习的复杂性体现在不同的特征提取器、融合方法和预训练模型中。因此，设计一个简单且通用的多模态顺序推荐（MMSR）框架仍然是一个巨大挑战。我们系统总结了现有的多模态相关的顺序推荐方法，并将精华提炼成四个核心组件：视觉编码器、文本编码器、多模态融合模块和顺序架构。沿着这些维度，我们剖析了模型设计，并回答了以下问题
 
-    Identifying relevant persona or knowledge for conversational systems is critical to grounded dialogue response generation. However, each grounding has been mostly researched in isolation with more practical multi-context dialogue tasks introduced in recent works. We define Persona and Knowledge Dual Context Identification as the task to identify persona and knowledge jointly for a given dialogue, which could be of elevated importance in complex multi-context dialogue settings. We develop a novel grounding retrieval method that utilizes all contexts of dialogue simultaneously. Our method requires less computational power via utilizing neural QA retrieval models. We further introduce our novel null-positive rank test which measures ranking performance on semantically dissimilar samples (i.e. hard negatives) in relation to data augmentation.
+    arXiv:2403.17372v1 Announce Type: new  Abstract: Sequential Recommendation (SR) aims to predict future user-item interactions based on historical interactions. While many SR approaches concentrate on user IDs and item IDs, the human perception of the world through multi-modal signals, like text and images, has inspired researchers to delve into constructing SR from multi-modal information without using IDs. However, the complexity of multi-modal learning manifests in diverse feature extractors, fusion methods, and pre-trained models. Consequently, designing a simple and universal \textbf{M}ulti-\textbf{M}odal \textbf{S}equential \textbf{R}ecommendation (\textbf{MMSR}) framework remains a formidable challenge. We systematically summarize the existing multi-modal related SR methods and distill the essence into four core components: visual encoder, text encoder, multimodal fusion module, and sequential architecture. Along these dimensions, we dissect the model designs, and answer the foll
+    
+[^2]: 用超边增强改进现实世界复杂网络表示
+
+    Enhancing Real-World Complex Network Representations with Hyperedge Augmentation
+
+    [https://arxiv.org/abs/2402.13033](https://arxiv.org/abs/2402.13033)
+
+    提出了一种新颖的图增强方法Hyperedge Augmentation (HyperAug)，通过构建直接从原始数据形成的虚拟超边，以解决现实世界复杂网络表示中高阶节点关系的问题
+
+    
+
+    arXiv:2402.13033v1 公告类型: 新摘要: 图增强方法在改进图神经网络（GNNs）的性能和增强泛化能力中起着至关重要的作用。现有的图增强方法主要扰动图结构，通常限于成对节点关系。这些方法无法完全解决真实世界大规模网络的复杂性，这些网络通常涉及高阶节点关系，而不仅仅是成对关系。同时，由于缺乏可用于形成高阶边的数据，真实世界图数据集主要被建模为简单图。因此，将高阶边重新配置为图增强策略的一部分是一个有前途的研究路径，可解决前述问题。在本文中，我们提出了超边增强（HyperAug），一种新颖的图增强方法，直接从原始数据构建虚拟超边，并产生辅助节点。
+
+    arXiv:2402.13033v1 Announce Type: new  Abstract: Graph augmentation methods play a crucial role in improving the performance and enhancing generalisation capabilities in Graph Neural Networks (GNNs). Existing graph augmentation methods mainly perturb the graph structures and are usually limited to pairwise node relations. These methods cannot fully address the complexities of real-world large-scale networks that often involve higher-order node relations beyond only being pairwise. Meanwhile, real-world graph datasets are predominantly modelled as simple graphs, due to the scarcity of data that can be used to form higher-order edges. Therefore, reconfiguring the higher-order edges as an integration into graph augmentation strategies lights up a promising research path to address the aforementioned issues. In this paper, we present Hyperedge Augmentation (HyperAug), a novel graph augmentation method that constructs virtual hyperedges directly form the raw data, and produces auxiliary nod
+    
+[^3]: 大型语言模型可评估新闻机构的可信度。
+
+    Large language models can rate news outlet credibility. (arXiv:2304.00228v1 [cs.CL])
+
+    [http://arxiv.org/abs/2304.00228](http://arxiv.org/abs/2304.00228)
+
+    本文评估了 ChatGPT 是否能够评估新闻机构的可信度，结果表明 ChatGPT 可以为不同语言和讽刺性资源的新闻机构提供评级及其背景说明，并且这些评级与人类专家的评级相关。LLMs可以成为事实检查应用程序中可信度评级的经济参考。
+
+    
+
+    虽然大型语言模型（LLMs）在各种自然语言处理任务中表现出色，但它们容易产生幻象。现代最先进的聊天机器人，如新的 Bing，尝试通过直接从互联网收集信息来解决这个问题。在这种情况下，区分值得信赖的信息源对于向用户提供适当的准确性背景至关重要。本文评估了知名的LLM ChatGPT是否能够评估新闻机构的可信度。在适当的指导下，ChatGPT可以为不同语言和讽刺性资源的新闻机构提供评级及其背景说明。我们的结果表明，这些评级与人类专家的评级相关（Spearmam's $\rho=0.54, p<0.001$）。这些发现表明，LLMs可以成为事实检查应用程序中可信度评级的经济参考。未来的LLMs应增强它们的对齐性。
+
+    Although large language models (LLMs) have shown exceptional performance in various natural language processing tasks, they are prone to hallucinations. State-of-the-art chatbots, such as the new Bing, attempt to mitigate this issue by gathering information directly from the internet to ground their answers. In this setting, the capacity to distinguish trustworthy sources is critical for providing appropriate accuracy contexts to users. Here we assess whether ChatGPT, a prominent LLM, can evaluate the credibility of news outlets. With appropriate instructions, ChatGPT can provide ratings for a diverse set of news outlets, including those in non-English languages and satirical sources, along with contextual explanations. Our results show that these ratings correlate with those from human experts (Spearmam's $\rho=0.54, p<0.001$). These findings suggest that LLMs could be an affordable reference for credibility ratings in fact-checking applications. Future LLMs should enhance their align
     
 
