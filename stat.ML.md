@@ -2,52 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Inferring Dynamic Networks from Marginals with Iterative Proportional Fitting](https://arxiv.org/abs/2402.18697) | 通过识别一个生成网络模型，我们建立了一个设置，IPF可以恢复最大似然估计，揭示了关于在这种设置中使用IPF的隐含假设，并可以为IPF的参数估计提供结构相关的误差界。 |
-| [^2] | [Shotgun crystal structure prediction using machine-learned formation energies.](http://arxiv.org/abs/2305.02158) | 本研究使用机器学习方法在多个结构预测标准测试中精确识别含有100个以上原子的许多材料的全局最小结构，并以单次能量评估为基础，取代了重复的第一原理能量计算过程。 |
-| [^3] | [Valid Inference after Causal Discovery.](http://arxiv.org/abs/2208.05949) | 本研究开发了工具以实现因果发现后的有效推断，解决了使用相同数据运行因果发现算法后估计因果效应导致经典置信区间的覆盖保证无效问题。 |
+| [^1] | [Operator SVD with Neural Networks via Nested Low-Rank Approximation](https://arxiv.org/abs/2402.03655) | 本文提出了一个新的优化框架，使用嵌套的低秩近似方法通过神经网络实现运算符的奇异值分解。该方法通过无约束优化公式隐式高效地保持学习函数的正交性。 |
+| [^2] | [Quantum Inception Score](https://arxiv.org/abs/2311.12163) | 通过量子启蒙分数，我们提出了一个用于评估量子生成模型质量的新指标，证明量子生成模型在质量上优于经典生成模型，并利用量子波动定理揭示了其物理限制。 |
+| [^3] | [S4Sleep: Elucidating the design space of deep-learning-based sleep stage classification models.](http://arxiv.org/abs/2310.06715) | 本研究解析了基于深度学习的睡眠阶段分类模型的设计空间，找到了适用于不同输入表示的稳健架构，并在睡眠数据集上实现了显著的性能提升。 |
+| [^4] | [A comprehensive study of spike and slab shrinkage priors for structurally sparse Bayesian neural networks.](http://arxiv.org/abs/2308.09104) | 本论文研究了在贝叶斯神经网络中使用Lasso和Horseshoe两种缩减技术进行模型压缩的方法。为了实现结构稀疏，通过提出尖峰与块组稀疏Lasso和尖峰与块组Horseshoe先验，并开发了可计算的变分推断方法。该方法可以在保持推理效率的同时实现深度神经网络的模型压缩。 |
+| [^5] | [Recent Advances in Optimal Transport for Machine Learning.](http://arxiv.org/abs/2306.16156) | 最优输运在机器学习中的最新进展包括生成建模和迁移学习等领域，并且计算最优输运的发展也与机器学习实践相互影响。 |
 
 # 详细
 
-[^1]: 从边际推断动态网络的方法：迭代比例拟合
+[^1]: 使用神经网络通过嵌套低秩近似实现运算符的奇异值分解
 
-    Inferring Dynamic Networks from Marginals with Iterative Proportional Fitting
+    Operator SVD with Neural Networks via Nested Low-Rank Approximation
 
-    [https://arxiv.org/abs/2402.18697](https://arxiv.org/abs/2402.18697)
+    [https://arxiv.org/abs/2402.03655](https://arxiv.org/abs/2402.03655)
 
-    通过识别一个生成网络模型，我们建立了一个设置，IPF可以恢复最大似然估计，揭示了关于在这种设置中使用IPF的隐含假设，并可以为IPF的参数估计提供结构相关的误差界。
-
-    
-
-    来自现实数据约束的常见网络推断问题是如何从时间聚合的邻接矩阵和时间变化边际（即行向量和列向量之和）推断动态网络。先前的方法为了解决这个问题重新利用了经典的迭代比例拟合（IPF）过程，也称为Sinkhorn算法，并取得了令人满意的经验结果。然而，使用IPF的统计基础尚未得到很好的理解：在什么情况下，IPF提供了从边际准确估计动态网络的原则性，以及它在多大程度上估计了网络？在这项工作中，我们确定了这样一个设置，通过识别一个生成网络模型，IPF可以恢复其最大似然估计。我们的模型揭示了关于在这种设置中使用IPF的隐含假设，并使得可以进行新的分析，如有关IPF参数估计的结构相关误差界。当IPF失败时
-
-    arXiv:2402.18697v1 Announce Type: cross  Abstract: A common network inference problem, arising from real-world data constraints, is how to infer a dynamic network from its time-aggregated adjacency matrix and time-varying marginals (i.e., row and column sums). Prior approaches to this problem have repurposed the classic iterative proportional fitting (IPF) procedure, also known as Sinkhorn's algorithm, with promising empirical results. However, the statistical foundation for using IPF has not been well understood: under what settings does IPF provide principled estimation of a dynamic network from its marginals, and how well does it estimate the network? In this work, we establish such a setting, by identifying a generative network model whose maximum likelihood estimates are recovered by IPF. Our model both reveals implicit assumptions on the use of IPF in such settings and enables new analyses, such as structure-dependent error bounds on IPF's parameter estimates. When IPF fails to c
-    
-[^2]: 使用机器学习的形成能量预测方法进行猎枪晶体结构预测
-
-    Shotgun crystal structure prediction using machine-learned formation energies. (arXiv:2305.02158v1 [physics.comp-ph])
-
-    [http://arxiv.org/abs/2305.02158](http://arxiv.org/abs/2305.02158)
-
-    本研究使用机器学习方法在多个结构预测标准测试中精确识别含有100个以上原子的许多材料的全局最小结构，并以单次能量评估为基础，取代了重复的第一原理能量计算过程。
+    本文提出了一个新的优化框架，使用嵌套的低秩近似方法通过神经网络实现运算符的奇异值分解。该方法通过无约束优化公式隐式高效地保持学习函数的正交性。
 
     
 
-    可以通过找到原子构型能量曲面的全局或局部极小值来预测组装原子的稳定或亚稳定晶体结构。通常，这需要重复的第一原理能量计算，这在包含30个以上原子的大型系统中是不实际的。本研究使用简单但功能强大的机器学习工作流，使用机器学习辅助第一原理能量计算，对大量虚拟创建的晶体结构进行非迭代式单次筛选，从而在解决晶体结构预测问题方面取得了重大进展。
+    在许多机器学习和科学计算问题中，计算给定线性算子的特征值分解（EVD）或找到其主要特征值和特征函数是一项基础任务。对于高维特征值问题，训练神经网络参数化特征函数被认为是传统数值线性代数技术的有希望的替代方法。本文提出了一个新的优化框架，基于截断奇异值分解的低秩近似表征，并伴随着称为嵌套的学习方法，以正确的顺序学习前L个奇异值和奇异函数。所提出的方法通过无约束优化公式隐式高效地促进了学习函数的正交性，这个公式可以很容易地通过现成的基于梯度的优化算法求解。我们展示了所提出的优化框架在使用案例中的有效性。
 
-    Stable or metastable crystal structures of assembled atoms can be predicted by finding the global or local minima of the energy surface with respect to the atomic configurations. Generally, this requires repeated first-principles energy calculations that are impractical for large systems, such as those containing more than 30 atoms in the unit cell. Here, we have made significant progress in solving the crystal structure prediction problem with a simple but powerful machine-learning workflow; using a machine-learning surrogate for first-principles energy calculations, we performed non-iterative, single-shot screening using a large library of virtually created crystal structures. The present method relies on two key technical components: transfer learning, which enables a highly accurate energy prediction of pre-relaxed crystalline states given only a small set of training samples from first-principles calculations, and generative models to create promising and diverse crystal structure
+    Computing eigenvalue decomposition (EVD) of a given linear operator, or finding its leading eigenvalues and eigenfunctions, is a fundamental task in many machine learning and scientific computing problems. For high-dimensional eigenvalue problems, training neural networks to parameterize the eigenfunctions is considered as a promising alternative to the classical numerical linear algebra techniques. This paper proposes a new optimization framework based on the low-rank approximation characterization of a truncated singular value decomposition, accompanied by new techniques called nesting for learning the top-$L$ singular values and singular functions in the correct order. The proposed method promotes the desired orthogonality in the learned functions implicitly and efficiently via an unconstrained optimization formulation, which is easy to solve with off-the-shelf gradient-based optimization algorithms. We demonstrate the effectiveness of the proposed optimization framework for use cas
     
-[^3]: 因果发现后的有效推断
+[^2]: 量子启蒙分数
 
-    Valid Inference after Causal Discovery. (arXiv:2208.05949v2 [stat.ME] UPDATED)
+    Quantum Inception Score
 
-    [http://arxiv.org/abs/2208.05949](http://arxiv.org/abs/2208.05949)
+    [https://arxiv.org/abs/2311.12163](https://arxiv.org/abs/2311.12163)
 
-    本研究开发了工具以实现因果发现后的有效推断，解决了使用相同数据运行因果发现算法后估计因果效应导致经典置信区间的覆盖保证无效问题。
+    通过量子启蒙分数，我们提出了一个用于评估量子生成模型质量的新指标，证明量子生成模型在质量上优于经典生成模型，并利用量子波动定理揭示了其物理限制。
 
     
 
-    因果发现和因果效应估计是因果推断中的两个基本任务。虽然已经针对每个任务单独开发了许多方法，但是同时应用这些方法时会出现统计上的挑战：在对相同数据运行因果发现算法后估计因果效应会导致"双重挑选"，从而使经典置信区间的覆盖保证无效。为此，我们开发了针对因果发现后有效的推断工具。通过实证研究，我们发现，天真组合因果发现算法和随后推断算法会导致高度膨胀的误覆盖率，而应用我们的方法则提供可靠的覆盖并实现比数据分割更准确的因果发现。
+    受到经典生成模型在机器学习中取得巨大成功的启发，近期开始了对它们量子版本的热切探索。为了开始这一探索之旅，开发一个相关的度量标准来评估量子生成模型的质量是很重要的；在经典情况下，一个这样的例子便是启蒙分数。在本文中，我们提出了量子启蒙分数，它将质量与用于对给定数据集进行分类的量子通道的Holevo信息联系起来。我们证明，在这个提出的度量标准下，量子生成模型提供比它们的经典对应物更好的质量，因为存在着由不对称性的资源理论和纠缠所表征的量子相干性。此外，我们利用量子波动定理来表征限制量子生成模型质量的物理限制。最后，我们应用量子启蒙分数来
 
-    Causal discovery and causal effect estimation are two fundamental tasks in causal inference. While many methods have been developed for each task individually, statistical challenges arise when applying these methods jointly: estimating causal effects after running causal discovery algorithms on the same data leads to "double dipping," invalidating the coverage guarantees of classical confidence intervals. To this end, we develop tools for valid post-causal-discovery inference. Across empirical studies, we show that a naive combination of causal discovery and subsequent inference algorithms leads to highly inflated miscoverage rates; on the other hand, applying our method provides reliable coverage while achieving more accurate causal discovery than data splitting.
+    arXiv:2311.12163v2 Announce Type: replace-cross  Abstract: Motivated by the great success of classical generative models in machine learning, enthusiastic exploration of their quantum version has recently started. To depart on this journey, it is important to develop a relevant metric to evaluate the quality of quantum generative models; in the classical case, one such example is the inception score. In this paper, we propose the quantum inception score, which relates the quality to the Holevo information of the quantum channel that classifies a given dataset. We prove that, under this proposed measure, the quantum generative models provide better quality than their classical counterparts because of the presence of quantum coherence, characterized by the resource theory of asymmetry, and entanglement. Furthermore, we harness the quantum fluctuation theorem to characterize the physical limitation of the quality of quantum generative models. Finally, we apply the quantum inception score 
+    
+[^3]: S4Sleep: 解析基于深度学习的睡眠阶段分类模型的设计空间
+
+    S4Sleep: Elucidating the design space of deep-learning-based sleep stage classification models. (arXiv:2310.06715v1 [cs.LG])
+
+    [http://arxiv.org/abs/2310.06715](http://arxiv.org/abs/2310.06715)
+
+    本研究解析了基于深度学习的睡眠阶段分类模型的设计空间，找到了适用于不同输入表示的稳健架构，并在睡眠数据集上实现了显著的性能提升。
+
+    
+
+    对于多通道睡眠脑电图记录进行睡眠阶段打分是一项耗时且存在显著的评分人员之间差异的任务。因此，应用机器学习算法可以带来很大的益处。虽然已经为此提出了许多算法，但某些关键的架构决策并未得到系统性的探索。在本研究中，我们详细调查了广泛的编码器-预测器架构范畴内的这些设计选择。我们找到了适用于时间序列和声谱图输入表示的稳健架构。这些架构将结构化状态空间模型作为组成部分，对广泛的SHHS数据集的性能进行了统计显著的提升。这些改进通过统计和系统误差估计进行了评估。我们预计，从本研究中获得的架构洞察不仅对未来的睡眠分期研究有价值，而且对整体睡眠研究都有价值。
+
+    Scoring sleep stages in polysomnography recordings is a time-consuming task plagued by significant inter-rater variability. Therefore, it stands to benefit from the application of machine learning algorithms. While many algorithms have been proposed for this purpose, certain critical architectural decisions have not received systematic exploration. In this study, we meticulously investigate these design choices within the broad category of encoder-predictor architectures. We identify robust architectures applicable to both time series and spectrogram input representations. These architectures incorporate structured state space models as integral components, leading to statistically significant advancements in performance on the extensive SHHS dataset. These improvements are assessed through both statistical and systematic error estimations. We anticipate that the architectural insights gained from this study will not only prove valuable for future research in sleep staging but also hol
+    
+[^4]: 基于尖峰与块缩减先验的结构稀疏贝叶斯神经网络的全面研究
+
+    A comprehensive study of spike and slab shrinkage priors for structurally sparse Bayesian neural networks. (arXiv:2308.09104v1 [stat.ML])
+
+    [http://arxiv.org/abs/2308.09104](http://arxiv.org/abs/2308.09104)
+
+    本论文研究了在贝叶斯神经网络中使用Lasso和Horseshoe两种缩减技术进行模型压缩的方法。为了实现结构稀疏，通过提出尖峰与块组稀疏Lasso和尖峰与块组Horseshoe先验，并开发了可计算的变分推断方法。该方法可以在保持推理效率的同时实现深度神经网络的模型压缩。
+
+    
+
+    网络复杂度和计算效率已经成为深度学习中越来越重要的方面。稀疏深度学习通过减少过参数化的深度神经网络来恢复底层目标函数的稀疏表示，解决了这些挑战。具体而言，通过结构稀疏（如节点稀疏）压缩的深度神经架构提供了低延迟推理、更高的数据吞吐量和更低的能量消耗。在本文中，我们研究了两种广泛应用的缩减技术，Lasso和Horseshoe，在贝叶斯神经网络中进行模型压缩。为此，我们提出了基于尖峰与块组稀疏Lasso (SS-GL)和基于尖峰与块组Horseshoe (SS-GHS)先验的结构稀疏贝叶斯神经网络，并开发了可计算的变分推断，包括对伯努利变量的连续松弛。我们确定了变分推断的收缩速率。
+
+    Network complexity and computational efficiency have become increasingly significant aspects of deep learning. Sparse deep learning addresses these challenges by recovering a sparse representation of the underlying target function by reducing heavily over-parameterized deep neural networks. Specifically, deep neural architectures compressed via structured sparsity (e.g. node sparsity) provide low latency inference, higher data throughput, and reduced energy consumption. In this paper, we explore two well-established shrinkage techniques, Lasso and Horseshoe, for model compression in Bayesian neural networks. To this end, we propose structurally sparse Bayesian neural networks which systematically prune excessive nodes with (i) Spike-and-Slab Group Lasso (SS-GL), and (ii) Spike-and-Slab Group Horseshoe (SS-GHS) priors, and develop computationally tractable variational inference including continuous relaxation of Bernoulli variables. We establish the contraction rates of the variational 
+    
+[^5]: 机器学习中最优输运的最新进展
+
+    Recent Advances in Optimal Transport for Machine Learning. (arXiv:2306.16156v1 [cs.LG])
+
+    [http://arxiv.org/abs/2306.16156](http://arxiv.org/abs/2306.16156)
+
+    最优输运在机器学习中的最新进展包括生成建模和迁移学习等领域，并且计算最优输运的发展也与机器学习实践相互影响。
+
+    
+
+    最近，最优输运被提出作为机器学习中比较和操作概率分布的概率框架。这个框架源于其丰富的历史和理论，并提供了新的解决方案，如生成建模和迁移学习。在这项调查中，我们探讨了最优输运在2012年至2022年期间对机器学习的贡献，重点关注机器学习的四个子领域：有监督学习、无监督学习、迁移学习和强化学习。我们还突出了计算最优输运的最新发展，并与机器学习实践相互影响。
+
+    Recently, Optimal Transport has been proposed as a probabilistic framework in Machine Learning for comparing and manipulating probability distributions. This is rooted in its rich history and theory, and has offered new solutions to different problems in machine learning, such as generative modeling and transfer learning. In this survey we explore contributions of Optimal Transport for Machine Learning over the period 2012 -- 2022, focusing on four sub-fields of Machine Learning: supervised, unsupervised, transfer and reinforcement learning. We further highlight the recent development in computational Optimal Transport, and its interplay with Machine Learning practice.
     
 
