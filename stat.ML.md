@@ -2,82 +2,97 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Operator SVD with Neural Networks via Nested Low-Rank Approximation](https://arxiv.org/abs/2402.03655) | 本文提出了一个新的优化框架，使用嵌套的低秩近似方法通过神经网络实现运算符的奇异值分解。该方法通过无约束优化公式隐式高效地保持学习函数的正交性。 |
-| [^2] | [Quantum Inception Score](https://arxiv.org/abs/2311.12163) | 通过量子启蒙分数，我们提出了一个用于评估量子生成模型质量的新指标，证明量子生成模型在质量上优于经典生成模型，并利用量子波动定理揭示了其物理限制。 |
-| [^3] | [S4Sleep: Elucidating the design space of deep-learning-based sleep stage classification models.](http://arxiv.org/abs/2310.06715) | 本研究解析了基于深度学习的睡眠阶段分类模型的设计空间，找到了适用于不同输入表示的稳健架构，并在睡眠数据集上实现了显著的性能提升。 |
-| [^4] | [A comprehensive study of spike and slab shrinkage priors for structurally sparse Bayesian neural networks.](http://arxiv.org/abs/2308.09104) | 本论文研究了在贝叶斯神经网络中使用Lasso和Horseshoe两种缩减技术进行模型压缩的方法。为了实现结构稀疏，通过提出尖峰与块组稀疏Lasso和尖峰与块组Horseshoe先验，并开发了可计算的变分推断方法。该方法可以在保持推理效率的同时实现深度神经网络的模型压缩。 |
-| [^5] | [Recent Advances in Optimal Transport for Machine Learning.](http://arxiv.org/abs/2306.16156) | 最优输运在机器学习中的最新进展包括生成建模和迁移学习等领域，并且计算最优输运的发展也与机器学习实践相互影响。 |
+| [^1] | [skscope: Fast Sparsity-Constrained Optimization in Python](https://arxiv.org/abs/2403.18540) | skscope是一个Python库，通过只需编写目标函数，就能快速实现稀疏约束优化问题的解决，并且在高维参数空间下，其高效实现使得求解器能够迅速获得稀疏解，速度比基准凸求解器快80倍。 |
+| [^2] | [Uncertainty estimation in satellite precipitation interpolation with machine learning](https://arxiv.org/abs/2311.07511) | 该研究使用机器学习算法对卫星和测站数据进行插值，通过量化预测不确定性来提高降水数据集的分辨率。 |
+| [^3] | [Copula-based transferable models for synthetic population generation](https://arxiv.org/abs/2302.09193) | 提出了一种基于Copula的新框架，利用不同人口样本以及相似边际依赖性，引入空间组件并考虑多种信息源，用于生成合成但现实的目标人口表示。 |
+| [^4] | [Estimating Treatment Effects using Multiple Surrogates: The Role of the Surrogate Score and the Surrogate Index](https://arxiv.org/abs/1603.09326) | 利用现代数据集中大量中间结果的事实，即使没有单个替代指标满足统计替代条件，使用多个替代指标也可能是有效的。 |
+| [^5] | [Leveraging Variational Autoencoders for Parameterized MMSE Channel Estimation.](http://arxiv.org/abs/2307.05352) | 本文提出利用变分自编码器进行信道估计，通过对条件高斯信道模型的内部结构进行参数化逼近来获得均方根误差最优信道估计器，同时给出了基于变分自编码器的估计器的实用性考虑和三种不同训练方式的估计器变体。 |
+| [^6] | [Accelerated stochastic approximation with state-dependent noise.](http://arxiv.org/abs/2307.01497) | 该论文研究了一类具有状态相关噪声的随机平滑凸优化问题。通过引入两种非欧几里得加速随机逼近算法，实现了在精度、问题参数和小批量大小方面的最优性。 |
 
 # 详细
 
-[^1]: 使用神经网络通过嵌套低秩近似实现运算符的奇异值分解
+[^1]: skscope：Python中的快速稀疏约束优化
 
-    Operator SVD with Neural Networks via Nested Low-Rank Approximation
+    skscope: Fast Sparsity-Constrained Optimization in Python
 
-    [https://arxiv.org/abs/2402.03655](https://arxiv.org/abs/2402.03655)
+    [https://arxiv.org/abs/2403.18540](https://arxiv.org/abs/2403.18540)
 
-    本文提出了一个新的优化框架，使用嵌套的低秩近似方法通过神经网络实现运算符的奇异值分解。该方法通过无约束优化公式隐式高效地保持学习函数的正交性。
-
-    
-
-    在许多机器学习和科学计算问题中，计算给定线性算子的特征值分解（EVD）或找到其主要特征值和特征函数是一项基础任务。对于高维特征值问题，训练神经网络参数化特征函数被认为是传统数值线性代数技术的有希望的替代方法。本文提出了一个新的优化框架，基于截断奇异值分解的低秩近似表征，并伴随着称为嵌套的学习方法，以正确的顺序学习前L个奇异值和奇异函数。所提出的方法通过无约束优化公式隐式高效地促进了学习函数的正交性，这个公式可以很容易地通过现成的基于梯度的优化算法求解。我们展示了所提出的优化框架在使用案例中的有效性。
-
-    Computing eigenvalue decomposition (EVD) of a given linear operator, or finding its leading eigenvalues and eigenfunctions, is a fundamental task in many machine learning and scientific computing problems. For high-dimensional eigenvalue problems, training neural networks to parameterize the eigenfunctions is considered as a promising alternative to the classical numerical linear algebra techniques. This paper proposes a new optimization framework based on the low-rank approximation characterization of a truncated singular value decomposition, accompanied by new techniques called nesting for learning the top-$L$ singular values and singular functions in the correct order. The proposed method promotes the desired orthogonality in the learned functions implicitly and efficiently via an unconstrained optimization formulation, which is easy to solve with off-the-shelf gradient-based optimization algorithms. We demonstrate the effectiveness of the proposed optimization framework for use cas
-    
-[^2]: 量子启蒙分数
-
-    Quantum Inception Score
-
-    [https://arxiv.org/abs/2311.12163](https://arxiv.org/abs/2311.12163)
-
-    通过量子启蒙分数，我们提出了一个用于评估量子生成模型质量的新指标，证明量子生成模型在质量上优于经典生成模型，并利用量子波动定理揭示了其物理限制。
+    skscope是一个Python库，通过只需编写目标函数，就能快速实现稀疏约束优化问题的解决，并且在高维参数空间下，其高效实现使得求解器能够迅速获得稀疏解，速度比基准凸求解器快80倍。
 
     
 
-    受到经典生成模型在机器学习中取得巨大成功的启发，近期开始了对它们量子版本的热切探索。为了开始这一探索之旅，开发一个相关的度量标准来评估量子生成模型的质量是很重要的；在经典情况下，一个这样的例子便是启蒙分数。在本文中，我们提出了量子启蒙分数，它将质量与用于对给定数据集进行分类的量子通道的Holevo信息联系起来。我们证明，在这个提出的度量标准下，量子生成模型提供比它们的经典对应物更好的质量，因为存在着由不对称性的资源理论和纠缠所表征的量子相干性。此外，我们利用量子波动定理来表征限制量子生成模型质量的物理限制。最后，我们应用量子启蒙分数来
+    在稀疏约束优化（SCO）上应用迭代求解器需要繁琐的数学推导和仔细的编程/调试，这限制了这些求解器的广泛影响。本文介绍了库skscope，以克服此障碍。借助skscope，用户只需编写目标函数即可解决SCO问题。本文通过两个例子演示了skscope的方便之处，其中只需四行代码就可以解决稀疏线性回归和趋势过滤。更重要的是，skscope的高效实现使得最先进的求解器可以快速获得稀疏解，而无需考虑参数空间的高维度。数值实验显示，skscope中的可用求解器可以实现比基准凸求解器获得的竞争松弛解高达80倍的加速度。skscope已经发布在Python软件包索引（PyPI）和Conda上。
 
-    arXiv:2311.12163v2 Announce Type: replace-cross  Abstract: Motivated by the great success of classical generative models in machine learning, enthusiastic exploration of their quantum version has recently started. To depart on this journey, it is important to develop a relevant metric to evaluate the quality of quantum generative models; in the classical case, one such example is the inception score. In this paper, we propose the quantum inception score, which relates the quality to the Holevo information of the quantum channel that classifies a given dataset. We prove that, under this proposed measure, the quantum generative models provide better quality than their classical counterparts because of the presence of quantum coherence, characterized by the resource theory of asymmetry, and entanglement. Furthermore, we harness the quantum fluctuation theorem to characterize the physical limitation of the quality of quantum generative models. Finally, we apply the quantum inception score 
+    arXiv:2403.18540v1 Announce Type: cross  Abstract: Applying iterative solvers on sparsity-constrained optimization (SCO) requires tedious mathematical deduction and careful programming/debugging that hinders these solvers' broad impact. In the paper, the library skscope is introduced to overcome such an obstacle. With skscope, users can solve the SCO by just programming the objective function. The convenience of skscope is demonstrated through two examples in the paper, where sparse linear regression and trend filtering are addressed with just four lines of code. More importantly, skscope's efficient implementation allows state-of-the-art solvers to quickly attain the sparse solution regardless of the high dimensionality of parameter space. Numerical experiments reveal the available solvers in skscope can achieve up to 80x speedup on the competing relaxation solutions obtained via the benchmarked convex solver. skscope is published on the Python Package Index (PyPI) and Conda, and its 
     
-[^3]: S4Sleep: 解析基于深度学习的睡眠阶段分类模型的设计空间
+[^2]: 用机器学习进行卫星降水插值的不确定性估计
 
-    S4Sleep: Elucidating the design space of deep-learning-based sleep stage classification models. (arXiv:2310.06715v1 [cs.LG])
+    Uncertainty estimation in satellite precipitation interpolation with machine learning
 
-    [http://arxiv.org/abs/2310.06715](http://arxiv.org/abs/2310.06715)
+    [https://arxiv.org/abs/2311.07511](https://arxiv.org/abs/2311.07511)
 
-    本研究解析了基于深度学习的睡眠阶段分类模型的设计空间，找到了适用于不同输入表示的稳健架构，并在睡眠数据集上实现了显著的性能提升。
-
-    
-
-    对于多通道睡眠脑电图记录进行睡眠阶段打分是一项耗时且存在显著的评分人员之间差异的任务。因此，应用机器学习算法可以带来很大的益处。虽然已经为此提出了许多算法，但某些关键的架构决策并未得到系统性的探索。在本研究中，我们详细调查了广泛的编码器-预测器架构范畴内的这些设计选择。我们找到了适用于时间序列和声谱图输入表示的稳健架构。这些架构将结构化状态空间模型作为组成部分，对广泛的SHHS数据集的性能进行了统计显著的提升。这些改进通过统计和系统误差估计进行了评估。我们预计，从本研究中获得的架构洞察不仅对未来的睡眠分期研究有价值，而且对整体睡眠研究都有价值。
-
-    Scoring sleep stages in polysomnography recordings is a time-consuming task plagued by significant inter-rater variability. Therefore, it stands to benefit from the application of machine learning algorithms. While many algorithms have been proposed for this purpose, certain critical architectural decisions have not received systematic exploration. In this study, we meticulously investigate these design choices within the broad category of encoder-predictor architectures. We identify robust architectures applicable to both time series and spectrogram input representations. These architectures incorporate structured state space models as integral components, leading to statistically significant advancements in performance on the extensive SHHS dataset. These improvements are assessed through both statistical and systematic error estimations. We anticipate that the architectural insights gained from this study will not only prove valuable for future research in sleep staging but also hol
-    
-[^4]: 基于尖峰与块缩减先验的结构稀疏贝叶斯神经网络的全面研究
-
-    A comprehensive study of spike and slab shrinkage priors for structurally sparse Bayesian neural networks. (arXiv:2308.09104v1 [stat.ML])
-
-    [http://arxiv.org/abs/2308.09104](http://arxiv.org/abs/2308.09104)
-
-    本论文研究了在贝叶斯神经网络中使用Lasso和Horseshoe两种缩减技术进行模型压缩的方法。为了实现结构稀疏，通过提出尖峰与块组稀疏Lasso和尖峰与块组Horseshoe先验，并开发了可计算的变分推断方法。该方法可以在保持推理效率的同时实现深度神经网络的模型压缩。
+    该研究使用机器学习算法对卫星和测站数据进行插值，通过量化预测不确定性来提高降水数据集的分辨率。
 
     
 
-    网络复杂度和计算效率已经成为深度学习中越来越重要的方面。稀疏深度学习通过减少过参数化的深度神经网络来恢复底层目标函数的稀疏表示，解决了这些挑战。具体而言，通过结构稀疏（如节点稀疏）压缩的深度神经架构提供了低延迟推理、更高的数据吞吐量和更低的能量消耗。在本文中，我们研究了两种广泛应用的缩减技术，Lasso和Horseshoe，在贝叶斯神经网络中进行模型压缩。为此，我们提出了基于尖峰与块组稀疏Lasso (SS-GL)和基于尖峰与块组Horseshoe (SS-GHS)先验的结构稀疏贝叶斯神经网络，并开发了可计算的变分推断，包括对伯努利变量的连续松弛。我们确定了变分推断的收缩速率。
+    合并卫星和测站数据并利用机器学习产生高分辨率降水数据集，但预测不确定性估计往往缺失。我们通过对比六种算法，大部分是针对这一任务而设计的新算法，来量化空间插值中的预测不确定性。在连续美国的15年月度数据上，我们比较了分位数回归（QR）、分位数回归森林（QRF）、广义随机森林（GRF）、梯度提升机（GBM）、轻梯度提升机（LightGBM）和分位数回归神经网络（QRNN）。它们能够在九个分位水平（0.025、0.050、0.100、0.250、0.500、0.750、0.900、0.950、0.975）上发布预测降水分位数，以近似完整概率分布，评估时采用分位数评分函数和分位数评分规则。特征重要性分析揭示了卫星降水（PERSIA
 
-    Network complexity and computational efficiency have become increasingly significant aspects of deep learning. Sparse deep learning addresses these challenges by recovering a sparse representation of the underlying target function by reducing heavily over-parameterized deep neural networks. Specifically, deep neural architectures compressed via structured sparsity (e.g. node sparsity) provide low latency inference, higher data throughput, and reduced energy consumption. In this paper, we explore two well-established shrinkage techniques, Lasso and Horseshoe, for model compression in Bayesian neural networks. To this end, we propose structurally sparse Bayesian neural networks which systematically prune excessive nodes with (i) Spike-and-Slab Group Lasso (SS-GL), and (ii) Spike-and-Slab Group Horseshoe (SS-GHS) priors, and develop computationally tractable variational inference including continuous relaxation of Bernoulli variables. We establish the contraction rates of the variational 
+    arXiv:2311.07511v2 Announce Type: replace-cross  Abstract: Merging satellite and gauge data with machine learning produces high-resolution precipitation datasets, but uncertainty estimates are often missing. We address this gap by benchmarking six algorithms, mostly novel for this task, for quantifying predictive uncertainty in spatial interpolation. On 15 years of monthly data over the contiguous United States (CONUS), we compared quantile regression (QR), quantile regression forests (QRF), generalized random forests (GRF), gradient boosting machines (GBM), light gradient boosting machines (LightGBM), and quantile regression neural networks (QRNN). Their ability to issue predictive precipitation quantiles at nine quantile levels (0.025, 0.050, 0.100, 0.250, 0.500, 0.750, 0.900, 0.950, 0.975), approximating the full probability distribution, was evaluated using quantile scoring functions and the quantile scoring rule. Feature importance analysis revealed satellite precipitation (PERSIA
     
-[^5]: 机器学习中最优输运的最新进展
+[^3]: 基于Copula的可转移模型用于合成人口生成
 
-    Recent Advances in Optimal Transport for Machine Learning. (arXiv:2306.16156v1 [cs.LG])
+    Copula-based transferable models for synthetic population generation
 
-    [http://arxiv.org/abs/2306.16156](http://arxiv.org/abs/2306.16156)
+    [https://arxiv.org/abs/2302.09193](https://arxiv.org/abs/2302.09193)
 
-    最优输运在机器学习中的最新进展包括生成建模和迁移学习等领域，并且计算最优输运的发展也与机器学习实践相互影响。
+    提出了一种基于Copula的新框架，利用不同人口样本以及相似边际依赖性，引入空间组件并考虑多种信息源，用于生成合成但现实的目标人口表示。
 
     
 
-    最近，最优输运被提出作为机器学习中比较和操作概率分布的概率框架。这个框架源于其丰富的历史和理论，并提供了新的解决方案，如生成建模和迁移学习。在这项调查中，我们探讨了最优输运在2012年至2022年期间对机器学习的贡献，重点关注机器学习的四个子领域：有监督学习、无监督学习、迁移学习和强化学习。我们还突出了计算最优输运的最新发展，并与机器学习实践相互影响。
+    人口综合涉及生成微观代理目标人口的合成但现实的表示，用于行为建模和模拟。 传统方法通常依赖于目标人口样本，如人口普查数据或旅行调查，由于高成本和较小的样本量，在较小的地理尺度上存在局限性。 我们提出了一种基于Copula的新框架，用于为仅已知经验边际分布的目标人口生成合成数据。 该方法利用来自具有相似边际依赖性的不同人口的样本，将空间组件引入到人口综合中，并考虑各种信息源用于更真实的生成器。 具体而言，该过程涉及将数据标准化并将其视为给定Copula的实现，然后在融入关于
 
-    Recently, Optimal Transport has been proposed as a probabilistic framework in Machine Learning for comparing and manipulating probability distributions. This is rooted in its rich history and theory, and has offered new solutions to different problems in machine learning, such as generative modeling and transfer learning. In this survey we explore contributions of Optimal Transport for Machine Learning over the period 2012 -- 2022, focusing on four sub-fields of Machine Learning: supervised, unsupervised, transfer and reinforcement learning. We further highlight the recent development in computational Optimal Transport, and its interplay with Machine Learning practice.
+    arXiv:2302.09193v2 Announce Type: replace-cross  Abstract: Population synthesis involves generating synthetic yet realistic representations of a target population of micro-agents for behavioral modeling and simulation. Traditional methods, often reliant on target population samples, such as census data or travel surveys, face limitations due to high costs and small sample sizes, particularly at smaller geographical scales. We propose a novel framework based on copulas to generate synthetic data for target populations where only empirical marginal distributions are known. This method utilizes samples from different populations with similar marginal dependencies, introduces a spatial component into population synthesis, and considers various information sources for more realistic generators. Concretely, the process involves normalizing the data and treat it as realizations of a given copula, and then training a generative model before incorporating the information on the marginals of the
+    
+[^4]: 利用多个替代指标估计治疗效果：替代分数和替代指数的作用
+
+    Estimating Treatment Effects using Multiple Surrogates: The Role of the Surrogate Score and the Surrogate Index
+
+    [https://arxiv.org/abs/1603.09326](https://arxiv.org/abs/1603.09326)
+
+    利用现代数据集中大量中间结果的事实，即使没有单个替代指标满足统计替代条件，使用多个替代指标也可能是有效的。
+
+    
+
+    估计治疗效果长期作用是许多领域感兴趣的问题。 估计此类治疗效果的一个常见挑战在于长期结果在需要做出政策决策的时间范围内是未观察到的。 克服这种缺失数据问题的一种方法是分析治疗效果对中间结果的影响，通常称为统计替代指标，如果满足条件：在统计替代指标的条件下，治疗和结果是独立的。  替代条件的有效性经常是有争议的。 在现代数据集中，研究人员通常观察到大量中间结果，可能是数百个或数千个，被认为位于治疗和长期感兴趣的结果之间的因果链上或附近。 即使没有个别代理满足统计替代条件，使用多个代理也可以。
+
+    arXiv:1603.09326v4 Announce Type: replace-cross  Abstract: Estimating the long-term effects of treatments is of interest in many fields. A common challenge in estimating such treatment effects is that long-term outcomes are unobserved in the time frame needed to make policy decisions. One approach to overcome this missing data problem is to analyze treatments effects on an intermediate outcome, often called a statistical surrogate, if it satisfies the condition that treatment and outcome are independent conditional on the statistical surrogate. The validity of the surrogacy condition is often controversial. Here we exploit that fact that in modern datasets, researchers often observe a large number, possibly hundreds or thousands, of intermediate outcomes, thought to lie on or close to the causal chain between the treatment and the long-term outcome of interest. Even if none of the individual proxies satisfies the statistical surrogacy criterion by itself, using multiple proxies can be 
+    
+[^5]: 利用变分自编码器进行参数化MMSE信道估计
+
+    Leveraging Variational Autoencoders for Parameterized MMSE Channel Estimation. (arXiv:2307.05352v1 [eess.SP])
+
+    [http://arxiv.org/abs/2307.05352](http://arxiv.org/abs/2307.05352)
+
+    本文提出利用变分自编码器进行信道估计，通过对条件高斯信道模型的内部结构进行参数化逼近来获得均方根误差最优信道估计器，同时给出了基于变分自编码器的估计器的实用性考虑和三种不同训练方式的估计器变体。
+
+    
+
+    在本文中，我们提出利用基于生成神经网络的变分自编码器进行信道估计。变分自编码器以一种新颖的方式将真实但未知的信道分布建模为条件高斯分布。所得到的信道估计器利用变分自编码器的内部结构对来自条件高斯信道模型的均方误差最优估计器进行参数化逼近。我们提供了严格的分析，以确定什么条件下基于变分自编码器的估计器是均方误差最优的。然后，我们提出了使基于变分自编码器的估计器实用的考虑因素，并提出了三种不同的估计器变体，它们在训练和评估阶段对信道知识的获取方式不同。特别地，仅基于噪声导频观测进行训练的所提出的估计器变体非常值得注意，因为它不需要获取信道训练。
+
+    In this manuscript, we propose to utilize the generative neural network-based variational autoencoder for channel estimation. The variational autoencoder models the underlying true but unknown channel distribution as a conditional Gaussian distribution in a novel way. The derived channel estimator exploits the internal structure of the variational autoencoder to parameterize an approximation of the mean squared error optimal estimator resulting from the conditional Gaussian channel models. We provide a rigorous analysis under which conditions a variational autoencoder-based estimator is mean squared error optimal. We then present considerations that make the variational autoencoder-based estimator practical and propose three different estimator variants that differ in their access to channel knowledge during the training and evaluation phase. In particular, the proposed estimator variant trained solely on noisy pilot observations is particularly noteworthy as it does not require access
+    
+[^6]: 具有状态相关噪声的加速随机逼近
+
+    Accelerated stochastic approximation with state-dependent noise. (arXiv:2307.01497v1 [math.OC])
+
+    [http://arxiv.org/abs/2307.01497](http://arxiv.org/abs/2307.01497)
+
+    该论文研究了一类具有状态相关噪声的随机平滑凸优化问题。通过引入两种非欧几里得加速随机逼近算法，实现了在精度、问题参数和小批量大小方面的最优性。
+
+    
+
+    我们考虑具有一般噪声假设的随机平滑凸优化问题的一类问题，在这些问题中，随机梯度观测的噪声的方差与算法产生的近似解的"亚最优性" 相关。这类问题在多种应用中自然而然地出现，特别是在统计学中的广义线性回归问题中。然而，据我们所知，现有的解决这类问题的随机逼近算法在精度、问题参数和小批量大小的依赖性方面都未达到最优。我们讨论了两种非欧几里得加速随机逼近算法——随机加速梯度下降（SAGD）和随机梯度外推（SGE）——它们具有一种特殊的对偶关系
+
+    We consider a class of stochastic smooth convex optimization problems under rather general assumptions on the noise in the stochastic gradient observation. As opposed to the classical problem setting in which the variance of noise is assumed to be uniformly bounded, herein we assume that the variance of stochastic gradients is related to the "sub-optimality" of the approximate solutions delivered by the algorithm. Such problems naturally arise in a variety of applications, in particular, in the well-known generalized linear regression problem in statistics. However, to the best of our knowledge, none of the existing stochastic approximation algorithms for solving this class of problems attain optimality in terms of the dependence on accuracy, problem parameters, and mini-batch size.  We discuss two non-Euclidean accelerated stochastic approximation routines--stochastic accelerated gradient descent (SAGD) and stochastic gradient extrapolation (SGE)--which carry a particular duality rela
     
 

@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [From Time-inconsistency to Time-consistency for Optimal Stopping Problems](https://arxiv.org/abs/2404.02498) | 该论文研究了具有时间不一致偏好的最优停止问题，通过对时间不一致性水平的衡量，发现了概率失真导致时间不一致性的程度与转变为复杂策略所需的时间之间的关系。 |
-| [^2] | [Local Volatility in Interest Rate Models.](http://arxiv.org/abs/2301.13595) | 本文提出了一种实现利率模型中本地波动率的新方法，并在蒙特卡罗计算中应用。该方法很有效，但在短期和低期限互换中存在定价错误。 |
+| [^1] | [Spanning Multi-Asset Payoffs With ReLUs](https://arxiv.org/abs/2403.14231) | 提出了一种用ReLU解决跨度多资产回报问题的方法，通过前馈神经网络提供了更好的离散跨度避险结果。 |
+| [^2] | [Neural networks for insurance pricing with frequency and severity data: a benchmark study from data preprocessing to technical tariff.](http://arxiv.org/abs/2310.12671) | 本研究通过深度学习结构的神经网络对频率-严重性保险定价进行了基准研究，比较了不同模型的性能，并提出了一种联合精算神经网络(CANN)的方法。 |
 
 # 详细
 
-[^1]: 从时间不一致到时间一致的最优停止问题
+[^1]: 用ReLU跨度多资产回报
 
-    From Time-inconsistency to Time-consistency for Optimal Stopping Problems
+    Spanning Multi-Asset Payoffs With ReLUs
 
-    [https://arxiv.org/abs/2404.02498](https://arxiv.org/abs/2404.02498)
+    [https://arxiv.org/abs/2403.14231](https://arxiv.org/abs/2403.14231)
 
-    该论文研究了具有时间不一致偏好的最优停止问题，通过对时间不一致性水平的衡量，发现了概率失真导致时间不一致性的程度与转变为复杂策略所需的时间之间的关系。
-
-    
-
-    对于具有时间不一致偏好的最优停止问题，我们通过将从天真策略转变为复杂策略所需的时间来衡量时间不一致的固有水平。特别是，在重复实验中，当天真代理可以观察到她的实际行动序列与最初计划不一致时，她会根据后续实际行为的观察选择立即行动。该过程重复进行，直到她的实际行动序列在任何时间点都与她的计划一致。我们表明，对于累积概率理论的偏好值，其中时间不一致由于概率失真导致，概率失真程度越高，时间不一致程度就越严重，需要的时间转变从天真策略到复杂策略也更多。
-
-    arXiv:2404.02498v1 Announce Type: new  Abstract: For optimal stopping problems with time-inconsistent preference, we measure the inherent level of time-inconsistency by taking the time needed to turn the naive strategies into the sophisticated ones. In particular, when in a repeated experiment the naive agent can observe her actual sequence of actions which are inconsistent with what she has planned at the initial time, she then chooses her immediate action based on the observations on her later actual behavior. The procedure is repeated until her actual sequence of actions are consistent with her plan at any time. We show that for the preference value of cumulative prospect theory, in which the time-inconsistency is due to the probability distortion, the higher the degree of probability distortion, the more severe the level of time-inconsistency, and the more time required to turn the naive strategies into the sophisticated ones.
-    
-[^2]: 利率模型中的本地波动率
-
-    Local Volatility in Interest Rate Models. (arXiv:2301.13595v2 [q-fin.PR] UPDATED)
-
-    [http://arxiv.org/abs/2301.13595](http://arxiv.org/abs/2301.13595)
-
-    本文提出了一种实现利率模型中本地波动率的新方法，并在蒙特卡罗计算中应用。该方法很有效，但在短期和低期限互换中存在定价错误。
+    提出了一种用ReLU解决跨度多资产回报问题的方法，通过前馈神经网络提供了更好的离散跨度避险结果。
 
     
 
-    提出了一种在利率模型中实现本地波动率的新方法。该方法的主要工具是小波动率近似。此近似方法非常有效，可以用于校准所有平值互换。它快速又精确。为了重现所有可用的互换价格，我们需要考虑正向波动率对当前互换率的依赖性。在此，我们假设正向波动率是一个确定性函数，具有在网格上的每一点上的行权价格、到期时间和到期时间的决定。我们确定这些函数并将它们应用于蒙特卡罗计算中。实验证明，这种方法运行良好。然而，在短期和低期限互换中，我们观察到互换定价错误。为了解决这个问题，我们需要修改场景生成过程。
+    我们提出了利用香草篮子期权的分布式形式来解决多资产回报的跨度问题。我们发现，只有当回报函数为偶函数且绝对齐次函数时，此问题才有唯一解，并且我们建立了一个基于傅立叶的公式来计算解决方案。金融回报通常是分段线性的，导致可能可以明确推导出解决方案，但在数值上可能难以利用。相比于基于单资产香草避险的行业偏爱方法，单隐藏层前馈神经网络为离散跨度提供了一种自然而高效的数值替代方法。我们测试了这种方法用于一些典型回报，并发现与单资产香草避险的产业偏好方法相比，利用香草篮子期权获得了更好的避险结果。
 
-    A new approach to Local Volatility implementation in the interest rate model is presented. The major tool of this approach is a small volatility approximation. This approximation works very well and it can be used to calibrate all ATM swaptions. It works fast and accurate. In order to reproduce all available swaption prices we need to take into account the dependence of forward volatility on the current swap rate. Here we assume that forward volatility is a deterministic function on strike, tenor, and expiration at every point on the grid. We determine these functions and apply them in Monte-Carlo calculations. It was demonstrated that this approach works well. However, in the case of short term and low tenor swaptions we observed errors in swaption pricing. To fix this problem we need to modify the scenario generation process.
+    arXiv:2403.14231v1 Announce Type: new  Abstract: We propose a distributional formulation of the spanning problem of a multi-asset payoff by vanilla basket options. This problem is shown to have a unique solution if and only if the payoff function is even and absolutely homogeneous, and we establish a Fourier-based formula to calculate the solution. Financial payoffs are typically piecewise linear, resulting in a solution that may be derived explicitly, yet may also be hard to numerically exploit. One-hidden-layer feedforward neural networks instead provide a natural and efficient numerical alternative for discrete spanning. We test this approach for a selection of archetypal payoffs and obtain better hedging results with vanilla basket options compared to industry-favored approaches based on single-asset vanilla hedges.
+    
+[^2]: 利用频率和严重性数据进行保险定价的神经网络：从数据预处理到技术定价的基准研究
+
+    Neural networks for insurance pricing with frequency and severity data: a benchmark study from data preprocessing to technical tariff. (arXiv:2310.12671v1 [cs.LG])
+
+    [http://arxiv.org/abs/2310.12671](http://arxiv.org/abs/2310.12671)
+
+    本研究通过深度学习结构的神经网络对频率-严重性保险定价进行了基准研究，比较了不同模型的性能，并提出了一种联合精算神经网络(CANN)的方法。
+
+    
+
+    保险公司通常使用广义线性模型来建模索赔的频率和严重性数据。由于其在其他领域的成功，机器学习技术在精算工具箱中越来越受欢迎。本文通过深度学习结构为频率-严重性保险定价与机器学习相关的文献做出了贡献。我们在四个保险数据集上进行了基准研究，这些数据集包含有多种类型的输入特征和频率-严重性目标。我们详细比较了广义线性模型在分箱输入数据、梯度提升树模型、前馈神经网络（FFNN）和联合精算神经网络（CANN）上的性能。我们的CANN将通过GLM和GBM分别建立的基线预测与神经网络校正相结合。我们解释了数据预处理步骤，特别关注通常存在于表格保险数据集中的多种类型的输入特征，比如邮编和数字编码。
+
+    Insurers usually turn to generalized linear models for modelling claim frequency and severity data. Due to their success in other fields, machine learning techniques are gaining popularity within the actuarial toolbox. Our paper contributes to the literature on frequency-severity insurance pricing with machine learning via deep learning structures. We present a benchmark study on four insurance data sets with frequency and severity targets in the presence of multiple types of input features. We compare in detail the performance of: a generalized linear model on binned input data, a gradient-boosted tree model, a feed-forward neural network (FFNN), and the combined actuarial neural network (CANN). Our CANNs combine a baseline prediction established with a GLM and GBM, respectively, with a neural network correction. We explain the data preprocessing steps with specific focus on the multiple types of input features typically present in tabular insurance data sets, such as postal codes, nu
     
 
