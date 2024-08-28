@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [SpeechDPR: End-to-End Spoken Passage Retrieval for Open-Domain Spoken Question Answering.](http://arxiv.org/abs/2401.13463) | SpeechDPR是第一个用于开放领域口语问答的端到端框架，能够从口语存档中检索可能包含答案的段落。通过融合无监督ASR和文本密集检索器的知识，SpeechDPR能够获得较好的性能，并且在UASR性能较差时表现更加鲁棒。 |
-| [^2] | [A transformer-based method for zero and few-shot biomedical named entity recognition.](http://arxiv.org/abs/2305.04928) | 本文提出了一种基于Transformer的生物医学领域零样本和少样本NER方法。此方法利用预训练学习给定和潜在类别之间的语义关系，将多类标记分类任务转换为二元标记分类，能够在不同数量的样本情况下达到良好的识别效果。 |
+| [^1] | [Explain then Rank: Scale Calibration of Neural Rankers Using Natural Language Explanations from Large Language Models](https://arxiv.org/abs/2402.12276) | 本研究探讨了大型语言模型（LLMs）利用提供与规模校准相关的查询和文档对的不确定性测量的潜力，以解决神经排序器的规模校准问题。 |
+| [^2] | [From Variability to Stability: Advancing RecSys Benchmarking Practices](https://arxiv.org/abs/2402.09766) | 本论文提出了一种新的基准测试方法，通过使用多样化的开放数据集，并在多个度量指标上评估多种协同过滤算法，来研究数据集特征对算法性能的影响。这一方法填补了推荐系统算法比较中的不足之处，推进了评估实践。 |
 
 # 详细
 
-[^1]: SpeechDPR: 开放领域口语问答的端到端口语段落检索
+[^1]: 用大型语言模型的自然语言解释进行神经排序器的规模校准解释和排名
 
-    SpeechDPR: End-to-End Spoken Passage Retrieval for Open-Domain Spoken Question Answering. (arXiv:2401.13463v1 [cs.CL])
+    Explain then Rank: Scale Calibration of Neural Rankers Using Natural Language Explanations from Large Language Models
 
-    [http://arxiv.org/abs/2401.13463](http://arxiv.org/abs/2401.13463)
+    [https://arxiv.org/abs/2402.12276](https://arxiv.org/abs/2402.12276)
 
-    SpeechDPR是第一个用于开放领域口语问答的端到端框架，能够从口语存档中检索可能包含答案的段落。通过融合无监督ASR和文本密集检索器的知识，SpeechDPR能够获得较好的性能，并且在UASR性能较差时表现更加鲁棒。
-
-    
-
-    口语问答(SQA)是机器通过在给定口语段落中找到答案范围来回答用户问题的关键。过去的SQA方法没有使用ASR，以避免识别错误和词汇外问题。然而，实际的开放领域SQA(openSQA)问题中，机器需要首先从口语存档中检索可能包含答案的段落。本文提出了第一个已知的用于openSQA问题检索组件的端到端框架SpeechDPR。SpeechDPR通过从无监督ASR(UASR)和文本密集检索器(TDR)的级联模型中提炼知识，学习句子级语义表示。不需要手动转录的语音数据。初步实验表明，与级联的UASR和TDR模型相比，性能相当，并且在UASR性能较差时显著提高，验证了这种方法更加鲁棒。
-
-    Spoken Question Answering (SQA) is essential for machines to reply to user's question by finding the answer span within a given spoken passage. SQA has been previously achieved without ASR to avoid recognition errors and Out-of-Vocabulary (OOV) problems. However, the real-world problem of Open-domain SQA (openSQA), in which the machine needs to first retrieve passages that possibly contain the answer from a spoken archive in addition, was never considered. This paper proposes the first known end-to-end framework, Speech Dense Passage Retriever (SpeechDPR), for the retrieval component of the openSQA problem. SpeechDPR learns a sentence-level semantic representation by distilling knowledge from the cascading model of unsupervised ASR (UASR) and text dense retriever (TDR). No manually transcribed speech data is needed. Initial experiments showed performance comparable to the cascading model of UASR and TDR, and significantly better when UASR was poor, verifying this approach is more robus
-    
-[^2]: 基于Transformer的零样本和少样本生物医学命名实体识别方法
-
-    A transformer-based method for zero and few-shot biomedical named entity recognition. (arXiv:2305.04928v1 [cs.CL])
-
-    [http://arxiv.org/abs/2305.04928](http://arxiv.org/abs/2305.04928)
-
-    本文提出了一种基于Transformer的生物医学领域零样本和少样本NER方法。此方法利用预训练学习给定和潜在类别之间的语义关系，将多类标记分类任务转换为二元标记分类，能够在不同数量的样本情况下达到良好的识别效果。
+    本研究探讨了大型语言模型（LLMs）利用提供与规模校准相关的查询和文档对的不确定性测量的潜力，以解决神经排序器的规模校准问题。
 
     
 
-    在生物医学领域中，有监督的命名实体识别（NER）依赖于具有给定命名实体的大量注释文本，其创建可能耗时且昂贵。此外，提取新实体通常需要进行额外的注释任务和重新训练模型。为解决这些挑战，本文提出了一种基于Transformer的生物医学领域零样本和少样本NER方法。该方法基于将多类标记分类任务转换为二元标记分类（标记包含搜索的实体或不包含搜索的实体），并在更多的数据集和生物医学实体上进行预训练，从而可学习到给定和潜在类别之间的语义关系。在9种不同的生物医学实体上，我们在零样本NER、一次样本NER、10次样本NER和100次样本NER上实现了平均F1得分分别为35.44％、50.10％、69.94％和79.51％。
+    排名系统中的规模校准过程涉及调整排序器的输出，以使其与重要品质（如点击率或相关性）相对应，这对于反映现实价值以及提高系统的效果和可靠性至关重要。虽然已经研究了学习排序模型中的校准排序损失，但调整神经排序器的规模的特定问题，这些模型擅长处理文本信息，尚未得到充分研究。神经排序模型擅长处理文本数据，但将现有规模校准技术应用到这些模型会面临重大挑战，因为它们的复杂性和需要大量训练，往往导致次优结果。
 
-    Supervised named entity recognition (NER) in the biomedical domain is dependent on large sets of annotated texts with the given named entities, whose creation can be time-consuming and expensive. Furthermore, the extraction of new entities often requires conducting additional annotation tasks and retraining the model. To address these challenges, this paper proposes a transformer-based method for zero- and few-shot NER in the biomedical domain. The method is based on transforming the task of multi-class token classification into binary token classification (token contains the searched entity or does not contain the searched entity) and pre-training on a larger amount of datasets and biomedical entities, from where the method can learn semantic relations between the given and potential classes. We have achieved average F1 scores of 35.44% for zero-shot NER, 50.10% for one-shot NER, 69.94% for 10-shot NER, and 79.51% for 100-shot NER on 9 diverse evaluated biomedical entities with PubMed
+    arXiv:2402.12276v1 Announce Type: new  Abstract: The process of scale calibration in ranking systems involves adjusting the outputs of rankers to correspond with significant qualities like click-through rates or relevance, crucial for mirroring real-world value and thereby boosting the system's effectiveness and reliability. Although there has been research on calibrated ranking losses within learning-to-rank models, the particular issue of adjusting the scale for neural rankers, which excel in handling textual information, has not been thoroughly examined. Neural ranking models are adept at processing text data, yet the application of existing scale calibration techniques to these models poses significant challenges due to their complexity and the intensive training they require, often resulting in suboptimal outcomes.   This study delves into the potential of large language models (LLMs) to provide uncertainty measurements for a query and document pair that correlate with the scale-c
+    
+[^2]: 从变动性到稳定性：推荐系统基准化实践的进展
+
+    From Variability to Stability: Advancing RecSys Benchmarking Practices
+
+    [https://arxiv.org/abs/2402.09766](https://arxiv.org/abs/2402.09766)
+
+    本论文提出了一种新的基准测试方法，通过使用多样化的开放数据集，并在多个度量指标上评估多种协同过滤算法，来研究数据集特征对算法性能的影响。这一方法填补了推荐系统算法比较中的不足之处，推进了评估实践。
+
+    
+
+    在快速发展的推荐系统领域中，新的算法经常通过对一组有限的任意选择的数据集进行评估来声称自己具有最先进的性能。然而，由于数据集特征对算法性能有重大影响，这种方法可能无法全面反映它们的有效性。为了解决这个问题，本文引入了一种新的基准测试方法，以促进公平和稳健的推荐系统算法比较，从而推进评估实践。通过利用包括本文介绍的两个数据集在内的30个开放数据集，并在9个度量指标上评估11种协同过滤算法，我们对数据集特征对算法性能的影响进行了重要的研究。我们进一步研究了将多个数据集的结果聚合成一个统一排名的可行性。通过严格的实验分析，我们发现......
+
+    arXiv:2402.09766v1 Announce Type: cross  Abstract: In the rapidly evolving domain of Recommender Systems (RecSys), new algorithms frequently claim state-of-the-art performance based on evaluations over a limited set of arbitrarily selected datasets. However, this approach may fail to holistically reflect their effectiveness due to the significant impact of dataset characteristics on algorithm performance. Addressing this deficiency, this paper introduces a novel benchmarking methodology to facilitate a fair and robust comparison of RecSys algorithms, thereby advancing evaluation practices. By utilizing a diverse set of $30$ open datasets, including two introduced in this work, and evaluating $11$ collaborative filtering algorithms across $9$ metrics, we critically examine the influence of dataset characteristics on algorithm performance. We further investigate the feasibility of aggregating outcomes from multiple datasets into a unified ranking. Through rigorous experimental analysis, 
     
 
