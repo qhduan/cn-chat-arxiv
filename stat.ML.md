@@ -2,67 +2,142 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Integrated path stability selection](https://arxiv.org/abs/2403.15877) | 该论文提出了一种基于集成稳定路径的新稳定选择方法，能够在实践中提高特征选择的灵敏度并更好地校准目标假阳性数量。 |
-| [^2] | [Inference with Mondrian Random Forests.](http://arxiv.org/abs/2310.09702) | 本文在回归设置下给出了Mondrian随机森林的估计中心极限定理和去偏过程，使其能够进行统计推断和实现最小极大估计速率。 |
-| [^3] | [Causal structure learning with momentum: Sampling distributions over Markov Equivalence Classes of DAGs.](http://arxiv.org/abs/2310.05655) | 本文提出了一种非可逆连续时间马尔科夫链，即“因果Zig-Zag采样器”，用于推断贝叶斯网络结构。通过使用动量变量，该采样器可以显著改善混合性能。 |
-| [^4] | [Active and Passive Causal Inference Learning.](http://arxiv.org/abs/2308.09248) | 这篇论文介绍了主动和被动因果推断学习的重要假设和技术，并以讨论因果推断的缺失方面结束，为读者提供了一个多样性起点。 |
+| [^1] | [A Statistical Framework of Watermarks for Large Language Models: Pivot, Detection Efficiency and Optimal Rules](https://arxiv.org/abs/2404.01245) | 该论文提出了一个通用框架，用于设计大型语言模型水印的统计效率和检测规则，通过关键统计量和秘密密钥控制误报率，同时评估水印检测规则的能力。 |
+| [^2] | [Probabilistic Forecasting with Stochastic Interpolants and F\"ollmer Processes](https://arxiv.org/abs/2403.13724) | 提出了一个基于生成建模的动态系统概率预测框架，利用随机插值器构建虚构的随机动力学，在有限时间内无偏见地生成未来系统状态的概率性预测集合 |
+| [^3] | [CASPER: Causality-Aware Spatiotemporal Graph Neural Networks for Spatiotemporal Time Series Imputation](https://arxiv.org/abs/2403.11960) | CASPER提出了一种因果关系感知的方法来处理时空时间序列数据插补问题，避免过度利用非因果关系，提高数据分析的准确性。 |
+| [^4] | [Minimal Assumptions for Optimal Serology Classification: Theory and Implications for Multidimensional Settings and Impure Training Data.](http://arxiv.org/abs/2309.00645) | 本研究提出了一种血清分类的技术，可以在多维和有杂质的训练数据情况下，通过对样本的分类和估计患病率来减少误差。该方法不需要直接访问条件概率密度函数，而是将数据嵌入参数化的曲线空间，并通过最小化经验误差来优化空间。 |
+| [^5] | [Exact recovery for the non-uniform Hypergraph Stochastic Block Model.](http://arxiv.org/abs/2304.13139) | 本文首次建立了非均匀超图随机块模型（HSBM）下的精确恢复的尖锐阈值，提供了两种有效算法，并依赖于非均匀随机超图的邻接矩阵的集中和正则化进行理论分析。 |
+| [^6] | [Reduce, Reuse, Recycle: Compositional Generation with Energy-Based Diffusion Models and MCMC.](http://arxiv.org/abs/2302.11552) | 该论文提出了一种基于能量扩散模型和MCMC的组合生成方法，旨在解决现有技术在组合生成中的失败问题，并提出了新的成功的解决方案。 |
+| [^7] | [Lipschitz-regularized gradient flows and generative particle algorithms for high-dimensional scarce data.](http://arxiv.org/abs/2210.17230) | 构建了一种新的生成算法类，能够有效地学习稀缺高维数据的任意目标分布并生成新样本，具有很好的数据整合能力。 |
+| [^8] | [Compressed Empirical Measures (in finite dimensions).](http://arxiv.org/abs/2204.08847) | 本论文探讨了在有限维再生核希尔伯特空间中压缩经验测度的方法，导出了关于这样一个近似的核心集必须有的大小的高概率下限，并开发了一些技术以将压缩方法应用于具体的推断问题。 |
+| [^9] | [Misspecification-robust likelihood-free inference in high dimensions.](http://arxiv.org/abs/2002.09377) | 通过基于贝叶斯优化的扩展方法和差异函数，我们实现了高维参数空间的鲁棒性强的误差分布自由推断。 |
 
 # 详细
 
-[^1]: 集成路径稳定选择
+[^1]: 大型语言模型水印的统计框架: 枢轴、检测效率和最优规则
 
-    Integrated path stability selection
+    A Statistical Framework of Watermarks for Large Language Models: Pivot, Detection Efficiency and Optimal Rules
 
-    [https://arxiv.org/abs/2403.15877](https://arxiv.org/abs/2403.15877)
+    [https://arxiv.org/abs/2404.01245](https://arxiv.org/abs/2404.01245)
 
-    该论文提出了一种基于集成稳定路径的新稳定选择方法，能够在实践中提高特征选择的灵敏度并更好地校准目标假阳性数量。
-
-    
-
-    稳定选择是一种广泛用于改善特征选择算法性能的方法。然而，已发现稳定选择过于保守，导致灵敏度较低。此外，对期望的假阳性数量的理论界限E(FP)相对较松，难以知道实践中会有多少假阳性。在本文中，我们提出一种基于集成稳定路径而非最大化稳定路径的新方法。这产生了对E(FP)更紧密的界限，导致实践中具有更高灵敏度的特征选择标准，并且在与目标E(FP)匹配方面更好地校准。我们提出的方法与原始稳定选择算法需要相同数量的计算，且仅需要用户指定一个输入参数，即E(FP)的目标值。我们提供了性能的理论界限。
-
-    arXiv:2403.15877v1 Announce Type: cross  Abstract: Stability selection is a widely used method for improving the performance of feature selection algorithms. However, stability selection has been found to be highly conservative, resulting in low sensitivity. Further, the theoretical bound on the expected number of false positives, E(FP), is relatively loose, making it difficult to know how many false positives to expect in practice. In this paper, we introduce a novel method for stability selection based on integrating the stability paths rather than maximizing over them. This yields a tighter bound on E(FP), resulting in a feature selection criterion that has higher sensitivity in practice and is better calibrated in terms of matching the target E(FP). Our proposed method requires the same amount of computation as the original stability selection algorithm, and only requires the user to specify one input parameter, a target value for E(FP). We provide theoretical bounds on performance
-    
-[^2]: 带有Mondrian随机森林的推理
-
-    Inference with Mondrian Random Forests. (arXiv:2310.09702v1 [math.ST])
-
-    [http://arxiv.org/abs/2310.09702](http://arxiv.org/abs/2310.09702)
-
-    本文在回归设置下给出了Mondrian随机森林的估计中心极限定理和去偏过程，使其能够进行统计推断和实现最小极大估计速率。
+    该论文提出了一个通用框架，用于设计大型语言模型水印的统计效率和检测规则，通过关键统计量和秘密密钥控制误报率，同时评估水印检测规则的能力。
 
     
 
-    随机森林是一种常用的分类和回归方法，在最近几年中提出了许多不同的变体。一个有趣的例子是Mondrian随机森林，其中底层树是根据Mondrian过程构建的。在本文中，我们给出了Mondrian随机森林在回归设置下的估计的中心极限定理。当与偏差表征和一致方差估计器相结合时，这允许进行渐近有效的统计推断，如构建置信区间，对未知的回归函数进行推断。我们还提供了一种去偏过程，用于Mondrian随机森林，使其能够在适当的参数调整下实现$\beta$-H\"older回归函数的最小极大估计速率，对于所有的$\beta$和任意维度。
+    自ChatGPT于2022年11月推出以来，将几乎不可察觉的统计信号嵌入到大型语言模型（LLMs）生成的文本中，也被称为水印，已被用作从其人类撰写对应物上可证检测LLM生成文本的原则性方法。 本文介绍了一个通用灵活的框架，用于推理水印的统计效率并设计强大的检测规则。受水印检测的假设检验公式启发，我们的框架首先选择文本的枢轴统计量和由LLM提供给验证器的秘密密钥，以实现控制误报率（将人类撰写的文本错误地检测为LLM生成的错误）。 接下来，该框架允许通过获取渐近错误负率（将LLM生成文本错误地检测为人类撰写的错误）的封闭形式表达式来评估水印检测规则的能力。
 
-    Random forests are popular methods for classification and regression, and many different variants have been proposed in recent years. One interesting example is the Mondrian random forest, in which the underlying trees are constructed according to a Mondrian process. In this paper we give a central limit theorem for the estimates made by a Mondrian random forest in the regression setting. When combined with a bias characterization and a consistent variance estimator, this allows one to perform asymptotically valid statistical inference, such as constructing confidence intervals, on the unknown regression function. We also provide a debiasing procedure for Mondrian random forests which allows them to achieve minimax-optimal estimation rates with $\beta$-H\"older regression functions, for all $\beta$ and in arbitrary dimension, assuming appropriate parameter tuning.
+    arXiv:2404.01245v1 Announce Type: cross  Abstract: Since ChatGPT was introduced in November 2022, embedding (nearly) unnoticeable statistical signals into text generated by large language models (LLMs), also known as watermarking, has been used as a principled approach to provable detection of LLM-generated text from its human-written counterpart. In this paper, we introduce a general and flexible framework for reasoning about the statistical efficiency of watermarks and designing powerful detection rules. Inspired by the hypothesis testing formulation of watermark detection, our framework starts by selecting a pivotal statistic of the text and a secret key -- provided by the LLM to the verifier -- to enable controlling the false positive rate (the error of mistakenly detecting human-written text as LLM-generated). Next, this framework allows one to evaluate the power of watermark detection rules by obtaining a closed-form expression of the asymptotic false negative rate (the error of 
     
-[^3]: 使用动量进行因果结构学习：在DAG的Markov等价类上采样分布
+[^2]: 使用随机插值器和F\"ollmer过程进行概率预测
 
-    Causal structure learning with momentum: Sampling distributions over Markov Equivalence Classes of DAGs. (arXiv:2310.05655v1 [stat.ML])
+    Probabilistic Forecasting with Stochastic Interpolants and F\"ollmer Processes
 
-    [http://arxiv.org/abs/2310.05655](http://arxiv.org/abs/2310.05655)
+    [https://arxiv.org/abs/2403.13724](https://arxiv.org/abs/2403.13724)
 
-    本文提出了一种非可逆连续时间马尔科夫链，即“因果Zig-Zag采样器”，用于推断贝叶斯网络结构。通过使用动量变量，该采样器可以显著改善混合性能。
-
-    
-
-    在推断贝叶斯网络结构（有向无环图，DAG）的背景下，我们设计了一种非可逆连续时间马尔科夫链，即“因果Zig-Zag采样器”，该采样器针对一类观测等价（Markov等价）DAG的概率分布。这些类别以完成的部分有向无环图（CPDAG）表示。非可逆马尔科夫链依赖于Chickering的贪婪等价搜索（GES）中使用的操作符，并且具有一个动量变量，经实验证明可以显著改善混合性能。可能的目标分布包括基于DAG先验和Markov等价似然的后验分布。我们提供了一个高效的实现，其中我们开发了新的算法来列举、计数、均匀采样和应用GES操作符的可能移动，所有这些算法都显著改进了现有技术。
-
-    In the context of inferring a Bayesian network structure (directed acyclic graph, DAG for short), we devise a non-reversible continuous time Markov chain, the "Causal Zig-Zag sampler", that targets a probability distribution over classes of observationally equivalent (Markov equivalent) DAGs. The classes are represented as completed partially directed acyclic graphs (CPDAGs). The non-reversible Markov chain relies on the operators used in Chickering's Greedy Equivalence Search (GES) and is endowed with a momentum variable, which improves mixing significantly as we show empirically. The possible target distributions include posterior distributions based on a prior over DAGs and a Markov equivalent likelihood. We offer an efficient implementation wherein we develop new algorithms for listing, counting, uniformly sampling, and applying possible moves of the GES operators, all of which significantly improve upon the state-of-the-art.
-    
-[^4]: 主动和被动因果推断学习
-
-    Active and Passive Causal Inference Learning. (arXiv:2308.09248v1 [cs.LG])
-
-    [http://arxiv.org/abs/2308.09248](http://arxiv.org/abs/2308.09248)
-
-    这篇论文介绍了主动和被动因果推断学习的重要假设和技术，并以讨论因果推断的缺失方面结束，为读者提供了一个多样性起点。
+    提出了一个基于生成建模的动态系统概率预测框架，利用随机插值器构建虚构的随机动力学，在有限时间内无偏见地生成未来系统状态的概率性预测集合
 
     
 
-    这篇论文是机器学习研究人员、工程师和学生对因果推断感兴趣但尚未熟悉的一个起点。我们首先列举了一组重要的用于因果识别的假设，如可交换性、积极性、一致性和干扰的缺失。基于这些假设，我们构建了一套重要的因果推断技术，并将其分为两类：主动和被动方法。我们描述和讨论了主动方法中的随机对照试验和基于强化学习的方法。然后我们描述了被动方法中的经典方法，如匹配和逆概率加权，以及最近的基于深度学习的算法。通过介绍本文中一些因果推断的缺失方面，如碰撞偏差，我们期望本文为读者提供了一个多样性起点。
+    我们提出了一个基于生成建模的动态系统概率预测框架。在给定系统随时间的状态观测之后，我们将预测问题构建为从给定当前状态的条件分布中进行采样得到未来系统状态的分布。为此，我们利用了随机插值器的框架，这有助于构建在任意基础分布和目标之间的生成模型。我们设计了一个虚构的、非物理的随机动力学，其以当前系统状态作为初始条件，并在有限时间内无偏见地生成一个来自目标条件分布的样本。因此，这个过程将以当前状态为中心的点状质量映射到一个概率性的预测集合。我们证明了实现这一任务的随机微分方程(SDE)中的漂移系数是非奇异的，并且可以学习。
 
-    This paper serves as a starting point for machine learning researchers, engineers and students who are interested in but not yet familiar with causal inference. We start by laying out an important set of assumptions that are collectively needed for causal identification, such as exchangeability, positivity, consistency and the absence of interference. From these assumptions, we build out a set of important causal inference techniques, which we do so by categorizing them into two buckets; active and passive approaches. We describe and discuss randomized controlled trials and bandit-based approaches from the active category. We then describe classical approaches, such as matching and inverse probability weighting, in the passive category, followed by more recent deep learning based algorithms. By finishing the paper with some of the missing aspects of causal inference from this paper, such as collider biases, we expect this paper to provide readers with a diverse set of starting points f
+    arXiv:2403.13724v1 Announce Type: new  Abstract: We propose a framework for probabilistic forecasting of dynamical systems based on generative modeling. Given observations of the system state over time, we formulate the forecasting problem as sampling from the conditional distribution of the future system state given its current state. To this end, we leverage the framework of stochastic interpolants, which facilitates the construction of a generative model between an arbitrary base distribution and the target. We design a fictitious, non-physical stochastic dynamics that takes as initial condition the current system state and produces as output a sample from the target conditional distribution in finite time and without bias. This process therefore maps a point mass centered at the current state onto a probabilistic ensemble of forecasts. We prove that the drift coefficient entering the stochastic differential equation (SDE) achieving this task is non-singular, and that it can be lear
+    
+[^3]: CASPER：因果关系感知时空图神经网络用于时空时间序列插补
+
+    CASPER: Causality-Aware Spatiotemporal Graph Neural Networks for Spatiotemporal Time Series Imputation
+
+    [https://arxiv.org/abs/2403.11960](https://arxiv.org/abs/2403.11960)
+
+    CASPER提出了一种因果关系感知的方法来处理时空时间序列数据插补问题，避免过度利用非因果关系，提高数据分析的准确性。
+
+    
+
+    arXiv:2403.11960v1 公告类型：新 提要：时空时间序列是理解人类活动及其影响的基础，通常通过放置在不同位置的监测传感器收集。收集到的数据通常包含由于各种故障而导致的缺失值，这对数据分析有重要影响。为了填补缺失值，已经提出了许多方法。在恢复特定数据点时，大多数现有方法倾向于考虑与该点相关的所有信息，无论它们是否具有因果关系。在数据收集过程中，包括一些未知混杂因素是不可避免的，例如时间序列中的背景噪声和构建的传感器网络中的非因果快捷边。这些混杂因素可能在输入和输出之间开辟反向路径，换句话说，它们建立了输入和输出之间的非因果相关性。
+
+    arXiv:2403.11960v1 Announce Type: new  Abstract: Spatiotemporal time series is the foundation of understanding human activities and their impacts, which is usually collected via monitoring sensors placed at different locations. The collected data usually contains missing values due to various failures, which have significant impact on data analysis. To impute the missing values, a lot of methods have been introduced. When recovering a specific data point, most existing methods tend to take into consideration all the information relevant to that point regardless of whether they have a cause-and-effect relationship. During data collection, it is inevitable that some unknown confounders are included, e.g., background noise in time series and non-causal shortcut edges in the constructed sensor network. These confounders could open backdoor paths between the input and output, in other words, they establish non-causal correlations between the input and output. Over-exploiting these non-causa
+    
+[^4]: 对于多维和杂质训练数据的最优血清分类的最小假设：理论和应用
+
+    Minimal Assumptions for Optimal Serology Classification: Theory and Implications for Multidimensional Settings and Impure Training Data. (arXiv:2309.00645v1 [stat.ML])
+
+    [http://arxiv.org/abs/2309.00645](http://arxiv.org/abs/2309.00645)
+
+    本研究提出了一种血清分类的技术，可以在多维和有杂质的训练数据情况下，通过对样本的分类和估计患病率来减少误差。该方法不需要直接访问条件概率密度函数，而是将数据嵌入参数化的曲线空间，并通过最小化经验误差来优化空间。
+
+    
+
+    在血清学中，减少偏差估计和诊断分类器仍然是一个具有挑战性的任务。理论上，这些问题可以转化为建模测量结果的类别-条件概率密度函数（PDFs），它们控制所有后续分析。然而，即使对于仅具有少数维度（例如目标抗原）的测量输出，这个任务也很快受到维度诅咒的影响。为了解决这个问题，我们提出了一种技术，利用经验训练数据在任意维度上分类样本和估计患病率，而不需要直接访问条件PDFs。我们通过一个引理来解释这个方法，该引理将相对条件概率与最小误差分类边界联系起来。这使我们能够制定一个优化问题：（i）将数据嵌入参数化的曲线空间；（ii）根据样本相对于坐标轴的位置对样本进行分类；（iii）通过最小化经验
+
+    Minimizing error in prevalence estimates and diagnostic classifiers remains a challenging task in serology. In theory, these problems can be reduced to modeling class-conditional probability densities (PDFs) of measurement outcomes, which control all downstream analyses. However, this task quickly succumbs to the curse of dimensionality, even for assay outputs with only a few dimensions (e.g. target antigens). To address this problem, we propose a technique that uses empirical training data to classify samples and estimate prevalence in arbitrary dimension without direct access to the conditional PDFs. We motivate this method via a lemma that relates relative conditional probabilities to minimum-error classification boundaries. This leads us to formulate an optimization problem that: (i) embeds the data in a parameterized, curved space; (ii) classifies samples based on their position relative to a coordinate axis; and (iii) subsequently optimizes the space by minimizing the empirical c
+    
+[^5]: 非均匀超图随机块模型的精确恢复
+
+    Exact recovery for the non-uniform Hypergraph Stochastic Block Model. (arXiv:2304.13139v1 [math.ST])
+
+    [http://arxiv.org/abs/2304.13139](http://arxiv.org/abs/2304.13139)
+
+    本文首次建立了非均匀超图随机块模型（HSBM）下的精确恢复的尖锐阈值，提供了两种有效算法，并依赖于非均匀随机超图的邻接矩阵的集中和正则化进行理论分析。
+
+    
+
+    考虑在非均匀超图随机块模型（HSBM）下的随机超图中的社区检测问题，其中每个超边独立地以某些给定概率出现，该概率仅取决于其顶点的标签。我们在本文中首次建立了在这种非均匀情况下实现精确恢复的尖锐阈值，受到次要约束；尤其是，我们考虑了具有K类别的模型和对称二进制模型（K=2）。关键点是通过聚合所有均匀层的信息，即使在考虑每个层时似乎不可能实现精确恢复，我们也可以获得精确恢复。我们提供了两种有效算法，成功地在阈值以上实现了精确恢复。我们算法的理论分析依赖于非均匀随机超图的邻接矩阵的集中和正则化，这可能具有独立的兴趣。我们还解决了一些实际问题
+
+    Consider the community detection problem in random hypergraphs under the non-uniform hypergraph stochastic block model (HSBM), where each hyperedge appears independently with some given probability depending only on the labels of its vertices. We establish, for the first time in the literature, a sharp threshold for exact recovery under this non-uniform case, subject to minor constraints; in particular, we consider the model with $K$ classes as well as the symmetric binary model ($K=2$). One crucial point here is that by aggregating information from all the uniform layers, we may obtain exact recovery even in cases when this may appear impossible if each layer were considered alone. Two efficient algorithms that successfully achieve exact recovery above the threshold are provided. The theoretical analysis of our algorithms relies on the concentration and regularization of the adjacency matrix for non-uniform random hypergraphs, which could be of independent interest. We also address so
+    
+[^6]: 减少、重复利用、回收：基于能量扩散模型和MCMC的组合生成
+
+    Reduce, Reuse, Recycle: Compositional Generation with Energy-Based Diffusion Models and MCMC. (arXiv:2302.11552v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2302.11552](http://arxiv.org/abs/2302.11552)
+
+    该论文提出了一种基于能量扩散模型和MCMC的组合生成方法，旨在解决现有技术在组合生成中的失败问题，并提出了新的成功的解决方案。
+
+    
+
+    自从扩散模型问世以来，它在许多领域中已经迅速成为生成模型的主要方法。它们可以被解释为学习一系列时变的对数概率密度函数的梯度。这种解释已经激发了基于分类器和无分类器指导的思想成为后续控制扩散模型的方法。在这项工作中，我们建立在这些想法的基础上，利用扩散模型的分数-based解释，探索了用于涉及组合生成和指导的条件、修改和重复使用扩散模型的替代方法。特别是，我们调查了为什么某些类型的组合使用当前技术失败，并介绍了一些解决方案。我们得出结论，采样者(而不是模型)对此失败负有责任，并提出了新的采样器，受MCMC的启发，使组合生成成功。此外，我们提出了一种基于能量的扩散模型参数化方法，它使得逼近目标分布更加容易。
+
+    Since their introduction, diffusion models have quickly become the prevailing approach to generative modeling in many domains. They can be interpreted as learning the gradients of a time-varying sequence of log-probability density functions. This interpretation has motivated classifier-based and classifier-free guidance as methods for post-hoc control of diffusion models. In this work, we build upon these ideas using the score-based interpretation of diffusion models, and explore alternative ways to condition, modify, and reuse diffusion models for tasks involving compositional generation and guidance. In particular, we investigate why certain types of composition fail using current techniques and present a number of solutions. We conclude that the sampler (not the model) is responsible for this failure and propose new samplers, inspired by MCMC, which enable successful compositional generation. Further, we propose an energy-based parameterization of diffusion models which enables the 
+    
+[^7]: Lipschitz正则化梯度流和高维稀缺数据的生成粒子算法
+
+    Lipschitz-regularized gradient flows and generative particle algorithms for high-dimensional scarce data. (arXiv:2210.17230v3 [stat.ML] UPDATED)
+
+    [http://arxiv.org/abs/2210.17230](http://arxiv.org/abs/2210.17230)
+
+    构建了一种新的生成算法类，能够有效地学习稀缺高维数据的任意目标分布并生成新样本，具有很好的数据整合能力。
+
+    
+
+    我们构建了一种新的生成算法类，能够有效地从可能稀缺、高维的数据中学习任意目标分布，并生成新的样本。这些生成算法是基于粒子的，并且是通过Lipschitz正则化Kullback-Leibler或其他f-散度的梯度流来构造的，其中来自源分布的数据可以稳定地作为粒子传输到目标分布的附近。作为数据整合的一个突出结果，我们证明了所提出的算法可以正确传输维数超过54K的基因表达数据点，而样本量通常只有几百个。
+
+    We build a new class of generative algorithms capable of efficiently learning an arbitrary target distribution from possibly scarce, high-dimensional data and subsequently generate new samples. These generative algorithms are particle-based and are constructed as gradient flows of Lipschitz-regularized Kullback-Leibler or other $f$-divergences, where data from a source distribution can be stably transported as particles, towards the vicinity of the target distribution. As a highlighted result in data integration, we demonstrate that the proposed algorithms correctly transport gene expression data points with dimension exceeding 54K, while the sample size is typically only in the hundreds.
+    
+[^8]: 有限维下的压缩经验测度
+
+    Compressed Empirical Measures (in finite dimensions). (arXiv:2204.08847v2 [stat.ML] UPDATED)
+
+    [http://arxiv.org/abs/2204.08847](http://arxiv.org/abs/2204.08847)
+
+    本论文探讨了在有限维再生核希尔伯特空间中压缩经验测度的方法，导出了关于这样一个近似的核心集必须有的大小的高概率下限，并开发了一些技术以将压缩方法应用于具体的推断问题。
+
+    
+
+    我们研究了有限维再生核希尔伯特空间（RKHSs）中压缩经验测度的方法。在这种情况下，经验测度包含在一个自然的凸集中，并且可以使用凸优化方法来近似。在某些条件下，这种近似会导致数据点的coreset。控制这样一个coreset必须有多大的一个关键数量是包含在经验凸集中的经验测量周围的最大球的大小。我们的大部分工作是在各种条件下导出关于这样一个球的大小的高概率下限。我们通过开发技术，使得我们能够将压缩方法应用于具体的推断问题，如核岭回归，来补充这种下限的派生。我们最后介绍了一种无限维RKHS的构造，其中压缩很差，突出了我们面临的一些困难。
+
+    We study approaches for compressing the empirical measure in the context of finite dimensional reproducing kernel Hilbert spaces (RKHSs).In this context, the empirical measure is contained within a natural convex set and can be approximated using convex optimization methods.Such an approximation gives under certain conditions rise to a coreset of data points. A key quantity that controls how large such a coreset has to be is the size of the largest ball around the empirical measure that is contained within the empirical convex set. The bulk of our work is concerned with deriving high probability lower bounds on the size of such a ball under various conditions. We complement this derivation of the lower bound by developing techniques that allow us to apply the compression approach to concrete inference problems such as kernel ridge regression. We conclude with a construction of an infinite dimensional RKHS for which the compression is poor, highlighting some of the difficulties one face
+    
+[^9]: 高维情形下鲁棒性强的误差分布自由推断方法
+
+    Misspecification-robust likelihood-free inference in high dimensions. (arXiv:2002.09377v3 [stat.CO] UPDATED)
+
+    [http://arxiv.org/abs/2002.09377](http://arxiv.org/abs/2002.09377)
+
+    通过基于贝叶斯优化的扩展方法和差异函数，我们实现了高维参数空间的鲁棒性强的误差分布自由推断。
+
+    
+
+    基于模拟器的统计模型的误差分布自由推断已经发展成为实践中有用的工具。然而，具有多个参数的模型仍然是逼近贝叶斯计算（ABC）推断的挑战。为了在高维参数空间中进行误差分布自由推断，我们引入了一种基于贝叶斯优化的扩展方法来概率化地逼近差异函数，这种方法适合于对参数空间的高效探索。我们的方法通过为每个参数使用单独的采集函数和差异函数来实现高维参数空间的计算可扩展性。有效的加性采集结构与指数损失-似然相结合，提供了一个对模型参数的误差模型说明的鲁棒性强的边际后验分布。
+
+    Likelihood-free inference for simulator-based statistical models has developed rapidly from its infancy to a useful tool for practitioners. However, models with more than a handful of parameters still generally remain a challenge for the Approximate Bayesian Computation (ABC) based inference. To advance the possibilities for performing likelihood-free inference in higher dimensional parameter spaces, we introduce an extension of the popular Bayesian optimisation based approach to approximate discrepancy functions in a probabilistic manner which lends itself to an efficient exploration of the parameter space. Our approach achieves computational scalability for higher dimensional parameter spaces by using separate acquisition functions and discrepancies for each parameter. The efficient additive acquisition structure is combined with exponentiated loss -likelihood to provide a misspecification-robust characterisation of the marginal posterior distribution for all model parameters. The me
     
 

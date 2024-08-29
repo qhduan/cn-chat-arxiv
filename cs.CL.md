@@ -2,202 +2,112 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [A Computational Analysis of Lyric Similarity Perception](https://arxiv.org/abs/2404.02342) | 该研究通过比较分析计算方法对模拟歌词相似度与人类感知的关联，发现基于BERT模型嵌入、歌词音频和音素组件相似性的计算模型对感知上的歌词相似度具有指示作用。 |
-| [^2] | [CMAT: A Multi-Agent Collaboration Tuning Framework for Enhancing Small Language Models](https://arxiv.org/abs/2404.01663) | CMAT框架引入了TinyAgent模型，并提出了一种新颖的系统，通过环境反馈进行自适应权重更新，增强了语言智能体的能力和长期记忆。 |
-| [^3] | [Learning to Decode Collaboratively with Multiple Language Models](https://arxiv.org/abs/2403.03870) | 学习了一种协作解码方法，通过在标记级别交错生成来教授多个大型语言模型协作，无需直接监督，在特定任务中融合每个模型的专业知识，提高了联合系统的性能。 |
-| [^4] | [DIVERSE: Deciphering Internet Views on the U.S. Military Through Video Comment Stance Analysis, A Novel Benchmark Dataset for Stance Classification](https://arxiv.org/abs/2403.03334) | 本文提出了一个名为DIVERSE的数据集，其中包含超过173,000条YouTube视频评论，标注了这些评论对美国军事视频的立场，采用了一种通过人类引导、机器辅助的标注方法，使用了句子中的弱信号作为支持指标。 |
-| [^5] | [RAVEL: Evaluating Interpretability Methods on Disentangling Language Model Representations](https://arxiv.org/abs/2402.17700) | RAVEL数据集介绍了一种新方法MDAS，该方法在解开语言模型表示方面取得了最新的成果，强调了跨激活特征的重要性。 |
-| [^6] | [OWSM-CTC: An Open Encoder-Only Speech Foundation Model for Speech Recognition, Translation, and Language Identification](https://arxiv.org/abs/2402.12654) | 提出了OWSM-CTC，这是一种基于Connectionist Temporal Classification的新型仅编码器语音基础模型，训练有180k小时的公共音频数据，用于多语言自动语音识别（ASR）、语音翻译（ST）和语言识别。 |
-| [^7] | [A StrongREJECT for Empty Jailbreaks](https://arxiv.org/abs/2402.10260) | 提出了一种新的基准 StrongREJECT，通过使用更高质量的问题，更好地区分有效和无效的空破解方法。 |
-| [^8] | [LLaVA-Docent: Instruction Tuning with Multimodal Large Language Model to Support Art Appreciation Education](https://arxiv.org/abs/2402.06264) | 本研究利用多模态大型语言模型（MLLM）开发了LLaVA-Docent模型，以支持艺术鉴赏教育。通过综述文献和专家咨询，构建了数据框架，并使用该框架生成了虚拟对话数据集用于训练MLLM。该研究对于解决传统艺术鉴赏教育中的资源限制和主流教育中的科学技术工程和数学偏重具有重要意义。 |
-| [^9] | [Unified Speech-Text Pretraining for Spoken Dialog Modeling](https://arxiv.org/abs/2402.05706) | 本研究提出了一个名为统一口语对话模型（USDM）的广泛语音文本模型框架，用于生成与输入语音相关的连贯口语回复。通过使用多步骤的语音文本推理方式和广义语音文本预训练方案，该方法能够有效捕捉跨模态语义，并生成自然流畅的口语回复。 |
-| [^10] | [OWSM v3.1: Better and Faster Open Whisper-Style Speech Models based on E-Branchformer.](http://arxiv.org/abs/2401.16658) | 该论文介绍了OWSM v3.1基于E-Branchformer的更好和更快的开放式Whisper风格语音模型。这个模型通过提高性能和效率，超越了之前的版本，并实现了更快的推理速度。该论文还公开发布了相关的数据和模型。 |
-| [^11] | [LQ-LoRA: Low-rank Plus Quantized Matrix Decomposition for Efficient Language Model Finetuning.](http://arxiv.org/abs/2311.12023) | LQ-LoRA是一种低秩加量化矩阵分解方法，用于内存高效的语言模型微调。它通过将每个预训练矩阵分解为高精度低秩部分和内存高效的量化部分，实现了动态配置量化参数以及对重构目标进行加权的优化，并在微调实验中表现出了优于QLoRA和GPTQ-LoRA的效果。 |
-| [^12] | [Affective Visual Dialog: A Large-Scale Benchmark for Emotional Reasoning Based on Visually Grounded Conversations.](http://arxiv.org/abs/2308.16349) | 我们引入了一个名为AffectVisDial的大规模数据集，其中包含50,000个基于视觉的对话，我们训练了情感视觉对话模型来解决基于对话的问答、情感预测和情感解释任务，展示出了有希望的情感推理能力。 |
-| [^13] | [Exploiting the Potential of Seq2Seq Models as Robust Few-Shot Learners.](http://arxiv.org/abs/2307.14856) | Seq2Seq模型作为少样本学习器的潜力在解码器和编码-解码模型中进行了广泛研究，提出了两种能有效提升Seq2Seq模型上下文学习能力的方法，并在各种任务中显示出显著的性能改进。 |
+| [^1] | [A Statistical Framework of Watermarks for Large Language Models: Pivot, Detection Efficiency and Optimal Rules](https://arxiv.org/abs/2404.01245) | 该论文提出了一个通用框架，用于设计大型语言模型水印的统计效率和检测规则，通过关键统计量和秘密密钥控制误报率，同时评估水印检测规则的能力。 |
+| [^2] | [eRST: A Signaled Graph Theory of Discourse Relations and Organization](https://arxiv.org/abs/2403.13560) | 提出了增强修辞结构理论（eRST），这是一个基于修辞结构理论（RST）拓展的计算话语分析的新理论框架，解决了RST和其他现有框架存在的问题，并提供了相关工具和英文语料库。 |
+| [^3] | [Look Before You Leap: Towards Decision-Aware and Generalizable Tool-Usage for Large Language Models](https://arxiv.org/abs/2402.16696) | 提出了一种决策感知和可泛化的工具使用框架，以帮助大型语言模型在操作工具时提高灵活性和泛化能力 |
+| [^4] | [Stick to your Role! Stability of Personal Values Expressed in Large Language Models](https://arxiv.org/abs/2402.14846) | 本文提出研究在大型语言模型中个人价值在不同背景下的表达稳定性，通过模拟对话的方式进行评估，对19个LLMs进行比较研究。 |
+| [^5] | [Deciphering the lmpact of Pretraining Data on Large Language Models through Machine Unlearning](https://arxiv.org/abs/2402.11537) | 通过对五个主要类别的预训练数据的48个数据集进行系统分析，研究了它们对大型语言模型性能的影响，并发现了一些“高影响数据”，如书籍，与模型能力相关联，为LLMs的优化提供了见解。 |
+| [^6] | [Faithfulness Measurable Masked Language Models.](http://arxiv.org/abs/2310.07819) | 本论文提出了一种可度量忠实性的掩码语言模型，通过使用一种新颖的微调方法，将屏蔽令牌作为设计使其成为分布内，以解决解释自然语言处理模型时常见的问题。 |
+| [^7] | [HC3 Plus: A Semantic-Invariant Human ChatGPT Comparison Corpus.](http://arxiv.org/abs/2309.02731) | 本文介绍了HC3 Plus，一个语义不变的人类ChatGPT对比语料库。与以往的工作相比，该语料库考虑了更多类型的任务，包括语义不变任务。研究发现，在语义不变任务中检测模型生成的文本更加困难。通过大量任务指令微调和Tk-instruct，建立了一个更强大的模型。 |
 
 # 详细
 
-[^1]: 歌词相似度感知的计算分析
+[^1]: 大型语言模型水印的统计框架: 枢轴、检测效率和最优规则
 
-    A Computational Analysis of Lyric Similarity Perception
+    A Statistical Framework of Watermarks for Large Language Models: Pivot, Detection Efficiency and Optimal Rules
 
-    [https://arxiv.org/abs/2404.02342](https://arxiv.org/abs/2404.02342)
+    [https://arxiv.org/abs/2404.01245](https://arxiv.org/abs/2404.01245)
 
-    该研究通过比较分析计算方法对模拟歌词相似度与人类感知的关联，发现基于BERT模型嵌入、歌词音频和音素组件相似性的计算模型对感知上的歌词相似度具有指示作用。
-
-    
-
-    在包含人声的音乐作品中，歌词对艺术表达起着重要作用。因此，先前的研究引入了推荐系统的概念，该系统建议类似于用户喜爱或个性化偏好的歌词，有助于在数百万音轨中发现歌词。然而，许多系统并未充分考虑人类对歌词相似度的感知，主要是由于该领域的研究有限。为弥补这一差距，我们进行了对计算方法建模歌词相似度与人类感知进行了比较分析。结果表明，基于预训练的BERT模型嵌入之间的相似性、歌词来源的音频以及音素组件的计算模型指示了感知上的歌词相似度。该发现强调了语义、风格和音韵相似性在人类感知中的重要性。
-
-    arXiv:2404.02342v1 Announce Type: new  Abstract: In musical compositions that include vocals, lyrics significantly contribute to artistic expression. Consequently, previous studies have introduced the concept of a recommendation system that suggests lyrics similar to a user's favorites or personalized preferences, aiding in the discovery of lyrics among millions of tracks. However, many of these systems do not fully consider human perceptions of lyric similarity, primarily due to limited research in this area. To bridge this gap, we conducted a comparative analysis of computational methods for modeling lyric similarity with human perception. Results indicated that computational models based on similarities between embeddings from pre-trained BERT-based models, the audio from which the lyrics are derived, and phonetic components are indicative of perceptual lyric similarity. This finding underscores the importance of semantic, stylistic, and phonetic similarities in human perception abo
-    
-[^2]: CMAT: 用于增强小型语言模型的多智能体协作调整框架
-
-    CMAT: A Multi-Agent Collaboration Tuning Framework for Enhancing Small Language Models
-
-    [https://arxiv.org/abs/2404.01663](https://arxiv.org/abs/2404.01663)
-
-    CMAT框架引入了TinyAgent模型，并提出了一种新颖的系统，通过环境反馈进行自适应权重更新，增强了语言智能体的能力和长期记忆。
+    该论文提出了一个通用框架，用于设计大型语言模型水印的统计效率和检测规则，通过关键统计量和秘密密钥控制误报率，同时评估水印检测规则的能力。
 
     
 
-    开放的大型语言模型（LLMs）显著推动了自然语言处理领域的发展，在各种任务中展现出卓越的性能。尽管LLMs取得了显著进展，但它们的有效操作仍然严重依赖于人类输入来准确引导对话流程，智能体调整是一种关键的优化技术，涉及人类对模型的调整，以更好地响应这种引导。针对这一依赖性，我们的工作引入了TinyAgent模型，该模型经过精心策划的高质量数据集训练。我们还提出了Collaborative Multi-Agent Tuning（CMAT）框架，这是一个创新性系统，旨在通过根据环境反馈进行自适应权重更新来增强语言智能体的能力。该框架促进了多个智能体之间的协作学习和实时适应，增强了它们的上下文感知和长期记忆。
+    自ChatGPT于2022年11月推出以来，将几乎不可察觉的统计信号嵌入到大型语言模型（LLMs）生成的文本中，也被称为水印，已被用作从其人类撰写对应物上可证检测LLM生成文本的原则性方法。 本文介绍了一个通用灵活的框架，用于推理水印的统计效率并设计强大的检测规则。受水印检测的假设检验公式启发，我们的框架首先选择文本的枢轴统计量和由LLM提供给验证器的秘密密钥，以实现控制误报率（将人类撰写的文本错误地检测为LLM生成的错误）。 接下来，该框架允许通过获取渐近错误负率（将LLM生成文本错误地检测为人类撰写的错误）的封闭形式表达式来评估水印检测规则的能力。
 
-    arXiv:2404.01663v1 Announce Type: new  Abstract: Open large language models (LLMs) have significantly advanced the field of natural language processing, showcasing impressive performance across various tasks.Despite the significant advancements in LLMs, their effective operation still relies heavily on human input to accurately guide the dialogue flow, with agent tuning being a crucial optimization technique that involves human adjustments to the model for better response to such guidance.Addressing this dependency, our work introduces the TinyAgent model, trained on a meticulously curated high-quality dataset. We also present the Collaborative Multi-Agent Tuning (CMAT) framework, an innovative system designed to augment language agent capabilities through adaptive weight updates based on environmental feedback. This framework fosters collaborative learning and real-time adaptation among multiple intelligent agents, enhancing their context-awareness and long-term memory. In this resear
+    arXiv:2404.01245v1 Announce Type: cross  Abstract: Since ChatGPT was introduced in November 2022, embedding (nearly) unnoticeable statistical signals into text generated by large language models (LLMs), also known as watermarking, has been used as a principled approach to provable detection of LLM-generated text from its human-written counterpart. In this paper, we introduce a general and flexible framework for reasoning about the statistical efficiency of watermarks and designing powerful detection rules. Inspired by the hypothesis testing formulation of watermark detection, our framework starts by selecting a pivotal statistic of the text and a secret key -- provided by the LLM to the verifier -- to enable controlling the false positive rate (the error of mistakenly detecting human-written text as LLM-generated). Next, this framework allows one to evaluate the power of watermark detection rules by obtaining a closed-form expression of the asymptotic false negative rate (the error of 
     
-[^3]: 学习多个语言模型的协作解码方法
+[^2]: eRST：一种表征话语关系和组织的信号图论
 
-    Learning to Decode Collaboratively with Multiple Language Models
+    eRST: A Signaled Graph Theory of Discourse Relations and Organization
 
-    [https://arxiv.org/abs/2403.03870](https://arxiv.org/abs/2403.03870)
+    [https://arxiv.org/abs/2403.13560](https://arxiv.org/abs/2403.13560)
 
-    学习了一种协作解码方法，通过在标记级别交错生成来教授多个大型语言模型协作，无需直接监督，在特定任务中融合每个模型的专业知识，提高了联合系统的性能。
-
-    
-
-    我们提出了一种方法，通过在标记级别交错它们的生成来教授多个大型语言模型（LLM）协作。我们将下一个标记由哪个LLM生成的决策建模为潜变量。通过在我们的潜变量模型下优化训练集的边际似然，基础LLM自动学习何时生成自身以及何时调用其中一个“助手”语言模型来生成，而无需直接监督。在解码过程中进行标记级协作允许融合每个模型的专业知识，以符合特定任务的方式。我们的协作解码在跨领域设置中特别有用，其中通用基础LLM学会调用领域专家模型。在执行指令、领域特定问答和推理任务时，我们展示了联合系统的性能优于单独模型。通过对学习到的潜
-
-    arXiv:2403.03870v1 Announce Type: new  Abstract: We propose a method to teach multiple large language models (LLM) to collaborate by interleaving their generations at the token level. We model the decision of which LLM generates the next token as a latent variable. By optimizing the marginal likelihood of a training set under our latent variable model, the base LLM automatically learns when to generate itself and when to call on one of the ``assistant'' language models to generate, all without direct supervision. Token-level collaboration during decoding allows for a fusion of each model's expertise in a manner tailored to the specific task at hand. Our collaborative decoding is especially useful in cross-domain settings where a generalist base LLM learns to invoke domain expert models. On instruction-following, domain-specific QA, and reasoning tasks, we show that the performance of the joint system exceeds that of the individual models. Through qualitative analysis of the learned lat
-    
-[^4]: DIVERSE：通过视频评论态度分析解读互联网对美国军事的看法，一个用于立场分类的新颖基准数据集
-
-    DIVERSE: Deciphering Internet Views on the U.S. Military Through Video Comment Stance Analysis, A Novel Benchmark Dataset for Stance Classification
-
-    [https://arxiv.org/abs/2403.03334](https://arxiv.org/abs/2403.03334)
-
-    本文提出了一个名为DIVERSE的数据集，其中包含超过173,000条YouTube视频评论，标注了这些评论对美国军事视频的立场，采用了一种通过人类引导、机器辅助的标注方法，使用了句子中的弱信号作为支持指标。
+    提出了增强修辞结构理论（eRST），这是一个基于修辞结构理论（RST）拓展的计算话语分析的新理论框架，解决了RST和其他现有框架存在的问题，并提供了相关工具和英文语料库。
 
     
 
-    社交媒体文本的立场检测是涉及识别在有争议主题上拥有相反观点的用户群组的下游任务的关键组成部分，如疫苗接种和争论中。具体来说，立场提供了对实体立场的指示。本文介绍了DIVERSE，这是一个包含对超过173,000个YouTube视频评论进行标注的数据集，标注了这些评论对于美国军事视频的立场。这些立场通过一种由人类引导、机器辅助的标注方法进行标注，该方法利用了句子中蕴含的语气弱信号作为支持指标，而非使用人类手动注释。这些弱信号包括仇恨言论和讽刺的存在，特定关键词的存在，文本的情感以及从两个大型语言模型中推断的立场。然后，在每个评论被注释之前，这些弱信号使用数据编程模型进行 consol
+    在这篇文章中，我们提出了增强修辞结构理论（eRST），这是一个基于修辞结构理论（RST）拓展的计算话语分析的新理论框架。该框架包括具有树状打断、非投射和并发关系的话语关系图，以及给出我们分析解释性基础的隐式和显式信号。我们调查了RST和其他现有框架（如分段话语表示理论（SDRT）、宾夕法尼亚话语树库（PDTB）和话语依赖）的缺陷，并利用所提出的理论中的构建来解决这些问题。我们为数据提供了注释、搜索和可视化工具，并提供和评估了一个根据我们的框架标注的英文语料库，包括12种口头和书面体裁，涵盖了超过200K词元。最后，我们讨论了自动解析、评估度量和应用。
 
-    arXiv:2403.03334v1 Announce Type: cross  Abstract: Stance detection of social media text is a key component of downstream tasks involving the identification of groups of users with opposing opinions on contested topics such as vaccination and within arguments. In particular, stance provides an indication of an opinion towards an entity. This paper introduces DIVERSE, a dataset of over 173,000 YouTube video comments annotated for their stance towards videos of the U.S. military. The stance is annotated through a human-guided, machine-assisted labeling methodology that makes use of weak signals of tone within the sentence as supporting indicators, as opposed to using manual annotations by humans. These weak signals consist of the presence of hate speech and sarcasm, the presence of specific keywords, the sentiment of the text, and the stance inference from two Large Language Models. The weak signals are then consolidated using a data programming model before each comment is annotated wit
+    arXiv:2403.13560v1 Announce Type: new  Abstract: In this article we present Enhanced Rhetorical Structure Theory (eRST), a new theoretical framework for computational discourse analysis, based on an expansion of Rhetorical Structure Theory (RST). The framework encompasses discourse relation graphs with tree-breaking, nonprojective and concurrent relations, as well as implicit and explicit signals which give explainable rationales to our analyses. We survey shortcomings of RST and other existing frameworks, such as Segmented Discourse Representation Theory (SDRT), the Penn Discourse Treebank (PDTB) and Discourse Dependencies, and address these using constructs in the proposed theory. We provide annotation, search and visualization tools for data, and present and evaluate a freely available corpus of English annotated according to our framework, encompassing 12 spoken and written genres with over 200K tokens. Finally, we discuss automatic parsing, evaluation metrics and applications for 
     
-[^5]: RAVEL: 在解开语言模型表示方面评估可解释性方法
+[^3]: 在大型语言模型中审慎行事：迈向决策感知和可泛化的工具使用
 
-    RAVEL: Evaluating Interpretability Methods on Disentangling Language Model Representations
+    Look Before You Leap: Towards Decision-Aware and Generalizable Tool-Usage for Large Language Models
 
-    [https://arxiv.org/abs/2402.17700](https://arxiv.org/abs/2402.17700)
+    [https://arxiv.org/abs/2402.16696](https://arxiv.org/abs/2402.16696)
 
-    RAVEL数据集介绍了一种新方法MDAS，该方法在解开语言模型表示方面取得了最新的成果，强调了跨激活特征的重要性。
-
-    
-
-    个别神经元参与多个高级概念的表示。不同的可解释性方法在多大程度上能成功解开这些角色？为了帮助解决这个问题，我们介绍了RAVEL（Resolving Attribute-Value Entanglements in Language Models），这是一个数据集，可以实现对多种现有可解释性方法进行紧密控制的定量比较。我们利用由此产生的概念框架来定义新的Multi-task Distributed Alignment Search（MDAS）方法，该方法能够找到满足多个因果标准的分布式表示。以Llama2-7B作为目标语言模型，MDAS在RAVEL上取得了最新的成果，展示了超越神经元级别分析以识别跨激活的特征的重要性。我们在https://github.com/explanare/ravel上发布了我们的基准。
-
-    arXiv:2402.17700v1 Announce Type: new  Abstract: Individual neurons participate in the representation of multiple high-level concepts. To what extent can different interpretability methods successfully disentangle these roles? To help address this question, we introduce RAVEL (Resolving Attribute-Value Entanglements in Language Models), a dataset that enables tightly controlled, quantitative comparisons between a variety of existing interpretability methods. We use the resulting conceptual framework to define the new method of Multi-task Distributed Alignment Search (MDAS), which allows us to find distributed representations satisfying multiple causal criteria. With Llama2-7B as the target language model, MDAS achieves state-of-the-art results on RAVEL, demonstrating the importance of going beyond neuron-level analyses to identify features distributed across activations. We release our benchmark at https://github.com/explanare/ravel.
-    
-[^6]: OWSM-CTC:一种用于语音识别、翻译和语言识别的开放编码器基础模型
-
-    OWSM-CTC: An Open Encoder-Only Speech Foundation Model for Speech Recognition, Translation, and Language Identification
-
-    [https://arxiv.org/abs/2402.12654](https://arxiv.org/abs/2402.12654)
-
-    提出了OWSM-CTC，这是一种基于Connectionist Temporal Classification的新型仅编码器语音基础模型，训练有180k小时的公共音频数据，用于多语言自动语音识别（ASR）、语音翻译（ST）和语言识别。
+    提出了一种决策感知和可泛化的工具使用框架，以帮助大型语言模型在操作工具时提高灵活性和泛化能力
 
     
 
-    近来对能够在单个模型中执行多个语音处理任务的大型语音模型越来越感兴趣。这些模型通常采用编码器-解码器或仅解码器架构，因为它们在许多领域中非常流行且性能良好。然而，与非自回归模型相比，自回归模型在推断时可能会比较慢，并且还存在幻觉的潜在风险。尽管先前的研究观察到非自回归模型在小规模任务中产生了令人满意的结果，但尚不清楚它们是否可以扩展到不同语言和任务的语音转文本生成中。受Open Whisper-style Speech Model (OWSM)项目的启发，我们提出了OWSM-CTC，这是一种基于Connectionist Temporal Classification (CTC)的新型仅编码器的语音基础模型。它使用18万小时的公共音频数据进行训练，用于多语言自动语音识别（ASR）、语音翻译（ST）和语言识别。
+    工具增强的大型语言模型（LLM）在获取最新知识和缓解产生幻觉问题方面引起了广泛关注。当前，先进的闭源LLM（如ChatGPT）通过提示和上下文学习技术展示出令人惊讶的工具使用能力。为了增强开源LLM（如LLaMA）在操作工具方面的能力，当前的努力集中于基于模板驱动或基于标记触发的工具使用。然而，前者由于受到限制的工具交互，限制了LLM灵活地解决各种用户查询，而后者在使用新工具时限制了泛化能力，因为工具使用学习基于任务和工具特定的数据集。为了缓解这些问题，本文提出了一种决策感知和可泛化的工具使用框架（DEER）。具体而言，我们首先构建具有多个决策分支的工具使用样本。
 
-    arXiv:2402.12654v1 Announce Type: new  Abstract: There has been an increasing interest in large speech models that can perform multiple speech processing tasks in a single model. Such models usually adopt the encoder-decoder or decoder-only architecture due to their popularity and good performance in many domains. However, autoregressive models can be slower during inference compared to non-autoregressive models and also have potential risks of hallucination. Though prior studies observed promising results of non-autoregressive models for certain tasks at small scales, it remains unclear if they can be scaled to speech-to-text generation in diverse languages and tasks. Inspired by the Open Whisper-style Speech Model (OWSM) project, we propose OWSM-CTC, a novel encoder-only speech foundation model based on Connectionist Temporal Classification (CTC). It is trained on 180k hours of public audio data for multilingual automatic speech recognition (ASR), speech translation (ST), and languag
+    arXiv:2402.16696v1 Announce Type: new  Abstract: Tool-augmented large language models (LLMs) are attracting widespread attention when accessing up-to-date knowledge and alleviating hallucination issues. Nowadays, advanced closed-source LLMs (e.g., ChatGPT) have demonstrated surprising tool-usage capabilities through prompting and in-context learning techniques. To empower the capabilities of open-source LLMs (e.g., LLaMA) in manipulating tools, current efforts focus on either template-driven or token-triggered tool-usage. However, the former hampers LLMs' flexibility to address diverse user's queries due to constrained tool interactions, while the latter limits the generalizability when engaging with new tools, since tool-usage learning is based on task- and tool-specific datasets. To alleviate these concerns, in this paper, we propose a decision-aware and generalizable tool-usage framework (DEER). Specifically, we first construct the tool-usage samples with multiple decision branches 
     
-[^7]: 一种用于空破解的强REJECT方法
+[^4]: 坚持你的角色！个人价值在大型语言模型中的稳定性
 
-    A StrongREJECT for Empty Jailbreaks
+    Stick to your Role! Stability of Personal Values Expressed in Large Language Models
 
-    [https://arxiv.org/abs/2402.10260](https://arxiv.org/abs/2402.10260)
+    [https://arxiv.org/abs/2402.14846](https://arxiv.org/abs/2402.14846)
 
-    提出了一种新的基准 StrongREJECT，通过使用更高质量的问题，更好地区分有效和无效的空破解方法。
-
-    
-
-    大型语言模型（LLMs）的兴起引起了对“破解”的关注，这种破解允许模型被恶意使用。然而，目前没有标准的基准来衡量破解的严重程度，导致破解论文的作者不得不自行创建标准。我们表明这些基准经常包含模棱两可或无法回答的问题，并使用倾向于高估低质量模型响应的滥用潜力的评分标准。一些破解技术使问题更加严重，因为它们即使对于良性问题也会降低模型响应的质量：我们展示了几种破解技术显着降低了GPT-4在MMLU上的零射击表现。破解还会使从“未经审查”的开源模型中获取有害响应变得更加困难。我们提出了一个新的基准，StrongREJECT，通过使用更高质量的问题更好地区分有效和无效的破解方法。
-
-    arXiv:2402.10260v1 Announce Type: cross  Abstract: The rise of large language models (LLMs) has drawn attention to the existence of "jailbreaks" that allow the models to be used maliciously. However, there is no standard benchmark for measuring the severity of a jailbreak, leaving authors of jailbreak papers to create their own. We show that these benchmarks often include vague or unanswerable questions and use grading criteria that are biased towards overestimating the misuse potential of low-quality model responses. Some jailbreak techniques make the problem worse by decreasing the quality of model responses even on benign questions: we show that several jailbreaking techniques substantially reduce the zero-shot performance of GPT-4 on MMLU. Jailbreaks can also make it harder to elicit harmful responses from an "uncensored" open-source model. We present a new benchmark, StrongREJECT, which better discriminates between effective and ineffective jailbreaks by using a higher-quality que
-    
-[^8]: LLaVA-Docent：利用多模态大型语言模型支持艺术鉴赏教育的教学调优
-
-    LLaVA-Docent: Instruction Tuning with Multimodal Large Language Model to Support Art Appreciation Education
-
-    [https://arxiv.org/abs/2402.06264](https://arxiv.org/abs/2402.06264)
-
-    本研究利用多模态大型语言模型（MLLM）开发了LLaVA-Docent模型，以支持艺术鉴赏教育。通过综述文献和专家咨询，构建了数据框架，并使用该框架生成了虚拟对话数据集用于训练MLLM。该研究对于解决传统艺术鉴赏教育中的资源限制和主流教育中的科学技术工程和数学偏重具有重要意义。
+    本文提出研究在大型语言模型中个人价值在不同背景下的表达稳定性，通过模拟对话的方式进行评估，对19个LLMs进行比较研究。
 
     
 
-    艺术鉴赏对于培养学习者的批判性思维和情感智力至关重要。然而，传统的艺术鉴赏教育常面临艺术资源有限的问题，特别是对于弱势学生，并且在主流教育中过度强调科学技术工程和数学科目。为了应对这些挑战，最近的技术进步为创新解决方案铺平了道路。本研究探索了多模态大型语言模型（MLLM）在艺术鉴赏教育中的应用，重点是开发了LLaVA-Docent模型来利用这些进展。我们的方法包括全面的文献综述和与领域专家的咨询，从而形成了一个强大的数据框架。利用这个框架，我们生成了一个虚拟对话数据集，该数据集被GPT-4利用。这个数据集对于训练MLLM（即LLaVA-Docent）起到了关键作用。六名研究人员进行了定量和定性评估。
+    通过基准测试或心理问卷的标准方式研究大型语言模型(LLMs)是提供许多来源于类似最小背景的不同查询（例如多项选择问题）。然而，由于LLM高度依赖于背景，因此从这种最小背景评估中得出的结论可能对模型在部署中的行为（在那里它将暴露于许多新背景）的说明很少。我们认为，依赖于背景的特性应该作为LLM比较的另一个维度来研究，而不是其他维度，如认知能力、知识或模型大小。在本文中，我们提出了一个关于在不同背景下（模拟对不同话题的对话）价值表达稳定性的案例研究，并使用标准心理学问卷（PVQ）和行为下游任务进行测量。我们考虑了来自五个家族的19个开源LLM。借鉴心理学方法，我们研究了等级稳定性。
 
-    Art appreciation is vital in nurturing critical thinking and emotional intelligence among learners. However, traditional art appreciation education has often been hindered by limited access to art resources, especially for disadvantaged students, and an imbalanced emphasis on STEM subjects in mainstream education. In response to these challenges, recent technological advancements have paved the way for innovative solutions. This study explores the application of multi-modal large language models (MLLMs) in art appreciation education, focusing on developing LLaVA-Docent, a model that leverages these advancements. Our approach involved a comprehensive literature review and consultations with experts in the field, leading to developing a robust data framework. Utilizing this framework, we generated a virtual dialogue dataset that was leveraged by GPT-4. This dataset was instrumental in training the MLLM, named LLaVA-Docent. Six researchers conducted quantitative and qualitative evaluation
+    arXiv:2402.14846v1 Announce Type: cross  Abstract: The standard way to study Large Language Models (LLMs) through benchmarks or psychology questionnaires is to provide many different queries from similar minimal contexts (e.g. multiple choice questions). However, due to LLM's highly context-dependent nature, conclusions from such minimal-context evaluations may be little informative about the model's behavior in deployment (where it will be exposed to many new contexts). We argue that context-dependence should be studied as another dimension of LLM comparison alongside others such as cognitive abilities, knowledge, or model size. In this paper, we present a case-study about the stability of value expression over different contexts (simulated conversations on different topics), and as measured using a standard psychology questionnaire (PVQ) and a behavioral downstream task. We consider 19 open-sourced LLMs from five families. Reusing methods from psychology, we study Rank-order stabilit
     
-[^9]: 面向口语对话建模的统一语音文本预训练方法
+[^5]: 通过机器去学习研究预训练数据对大型语言模型的影响
 
-    Unified Speech-Text Pretraining for Spoken Dialog Modeling
+    Deciphering the lmpact of Pretraining Data on Large Language Models through Machine Unlearning
 
-    [https://arxiv.org/abs/2402.05706](https://arxiv.org/abs/2402.05706)
+    [https://arxiv.org/abs/2402.11537](https://arxiv.org/abs/2402.11537)
 
-    本研究提出了一个名为统一口语对话模型（USDM）的广泛语音文本模型框架，用于生成与输入语音相关的连贯口语回复。通过使用多步骤的语音文本推理方式和广义语音文本预训练方案，该方法能够有效捕捉跨模态语义，并生成自然流畅的口语回复。
-
-    
-
-    近期的研究表明，扩展大型语言模型（LLM）以直接理解和合成语音具有良好的结果，但用于口语对话建模的基于LLM的策略仍然难以实现，需要进一步研究。本文提出了一个广泛的语音文本LLM框架，命名为统一口语对话模型（USDM），以在不依赖于自动语音识别（ASR）或文本到语音（TTS）解决方案的情况下生成与给定输入语音相关的连贯口语回复和有机的韵律特征。我们的方法采用了一种多步骤的语音文本推理方式，利用了底层LLM所展示的推理链能力。我们还提出了一种广义的语音文本预训练方案，有助于捕捉跨模态语义。自动和人工评估结果表明，所提出的方法能够有效生成自然流畅的口语回复，并且优于之前的和级联的基线模型。详细的比较研究
-
-    While recent work shows promising results in expanding the capabilities of large language models (LLM) to directly understand and synthesize speech, an LLM-based strategy for modeling spoken dialogs remains elusive and calls for further investigation. This work proposes an extensive speech-text LLM framework, named the Unified Spoken Dialog Model (USDM), to generate coherent spoken responses with organic prosodic features relevant to the given input speech without relying on automatic speech recognition (ASR) or text-to-speech (TTS) solutions. Our approach employs a multi-step speech-text inference scheme that leverages chain-of-reasoning capabilities exhibited by the underlying LLM. We also propose a generalized speech-text pretraining scheme that helps with capturing cross-modal semantics. Automatic and human evaluations show that the proposed approach is effective in generating natural-sounding spoken responses, outperforming both prior and cascaded baselines. Detailed comparative s
-    
-[^10]: OWSM v3.1: 基于E-Branchformer的更好和更快的开放式Whisper风格语音模型
-
-    OWSM v3.1: Better and Faster Open Whisper-Style Speech Models based on E-Branchformer. (arXiv:2401.16658v1 [cs.CL])
-
-    [http://arxiv.org/abs/2401.16658](http://arxiv.org/abs/2401.16658)
-
-    该论文介绍了OWSM v3.1基于E-Branchformer的更好和更快的开放式Whisper风格语音模型。这个模型通过提高性能和效率，超越了之前的版本，并实现了更快的推理速度。该论文还公开发布了相关的数据和模型。
+    通过对五个主要类别的预训练数据的48个数据集进行系统分析，研究了它们对大型语言模型性能的影响，并发现了一些“高影响数据”，如书籍，与模型能力相关联，为LLMs的优化提供了见解。
 
     
 
-    最近的研究倡导采用完全开放的基础模型来推动透明度和开放科学。作为一个初步的步骤，开放式Whisper风格语音模型(OWSM)使用公开可用的数据和开源工具重新复制了OpenAI的Whisper。为了复制Whisper，之前的OWSM v1到v3模型仍然基于Transformer，这可能导致性能不如其他最先进的语音编码器。在这项工作中，我们旨在提高OWSM的性能和效率，而无需额外的训练数据。我们提出了基于E-Branchformer的OWSM v3.1模型，有两个规模，即100M和1B。1B模型是目前公开可用的最大的基于E-Branchformer的语音模型。它在大部分评估基准上表现出比之前的OWSM v3更好的性能，同时演示了高达25%的更快推理速度。我们公开发布数据准备脚本、预训练模型和训练日志。
+    通过在具有各种来源的语料库上进行预训练，大型语言模型（LLMs）取得了令人印象深刻的性能。然而，预训练语料库的每个组成部分的影响仍然不明确。因此，预训练语料库的组织仍然是经验性的，并且可能偏离最佳状态。为了解决这个问题，我们系统地分析了来自LLMs预训练数据的5个主要类别的48个数据集的影响，并使用关于九个主要模型能力类别的基准来衡量它们对LLMs的影响。我们的分析提供了关于多个语料库对LLMs性能贡献的实证结果，以及它们的联合影响模式，包括互补的、正交的和相关的关系。我们还确定了一组“高影响数据”，如书籍，与一组模型能力相关联。这些发现为我们提供了关于组织数据以支持LLMs优化的见解。
 
-    Recent studies have advocated for fully open foundation models to promote transparency and open science. As an initial step, the Open Whisper-style Speech Model (OWSM) reproduced OpenAI's Whisper using publicly available data and open-source toolkits. With the aim of reproducing Whisper, the previous OWSM v1 through v3 models were still based on Transformer, which might lead to inferior performance compared to other state-of-the-art speech encoders. In this work, we aim to improve the performance and efficiency of OWSM without extra training data. We present E-Branchformer based OWSM v3.1 models at two scales, i.e., 100M and 1B. The 1B model is the largest E-Branchformer based speech model that has been made publicly available. It outperforms the previous OWSM v3 in a vast majority of evaluation benchmarks, while demonstrating up to 25% faster inference speed. We publicly release the data preparation scripts, pre-trained models and training logs.
+    arXiv:2402.11537v1 Announce Type: cross  Abstract: Through pretraining on a corpus with various sources, Large Language Models (LLMs) have gained impressive performance. However, the impact of each component of the pretraining corpus remains opaque. As a result, the organization of the pretraining corpus is still empirical and may deviate from the optimal. To address this issue, we systematically analyze the impact of 48 datasets from 5 major categories of pretraining data of LLMs and measure their impacts on LLMs using benchmarks about nine major categories of model capabilities. Our analyses provide empirical results about the contribution of multiple corpora on the performances of LLMs, along with their joint impact patterns, including complementary, orthogonal, and correlational relationships. We also identify a set of ``high-impact data'' such as Books that is significantly related to a set of model capabilities. These findings provide insights into the organization of data to sup
     
-[^11]: LQ-LoRA: 低秩加量化矩阵分解用于有效的语言模型微调
+[^6]: 可度量忠实性的掩码语言模型
 
-    LQ-LoRA: Low-rank Plus Quantized Matrix Decomposition for Efficient Language Model Finetuning. (arXiv:2311.12023v2 [cs.CL] UPDATED)
+    Faithfulness Measurable Masked Language Models. (arXiv:2310.07819v1 [cs.CL])
 
-    [http://arxiv.org/abs/2311.12023](http://arxiv.org/abs/2311.12023)
+    [http://arxiv.org/abs/2310.07819](http://arxiv.org/abs/2310.07819)
 
-    LQ-LoRA是一种低秩加量化矩阵分解方法，用于内存高效的语言模型微调。它通过将每个预训练矩阵分解为高精度低秩部分和内存高效的量化部分，实现了动态配置量化参数以及对重构目标进行加权的优化，并在微调实验中表现出了优于QLoRA和GPTQ-LoRA的效果。
-
-    
-
-    我们提出了一种简单的方法，用于对预训练语言模型进行内存高效的自适应。我们的方法使用迭代算法将每个预训练矩阵分解为高精度低秩部分和内存高效的量化部分。在微调过程中，量化部分保持固定，只有低秩部分被更新。我们提出了量化部分的整数线性规划表达，可以根据总体内存预算动态配置量化参数（例如比特宽度、块大小）给定每个矩阵。我们进一步探索了数据感知版本的算法，该算法使用Fisher信息矩阵的近似来加权矩阵分解过程中的重构目标。在RoBERTa和LLaMA-2（7B和70B）的微调实验中，我们的低秩加量化矩阵分解方法（LQ-LoRA）优于强基线方法QLoRA和GPTQ-LoRA，并实现了激进的量化。
-
-    We propose a simple approach for memory-efficient adaptation of pretrained language models. Our approach uses an iterative algorithm to decompose each pretrained matrix into a high-precision low-rank component and a memory-efficient quantized component. During finetuning, the quantized component remains fixed and only the low-rank component is updated. We present an integer linear programming formulation of the quantization component which enables dynamic configuration of quantization parameters (e.g., bit-width, block size) for each matrix given an overall target memory budget. We further explore a data-aware version of the algorithm which uses an approximation of the Fisher information matrix to weight the reconstruction objective during matrix decomposition. Experiments on finetuning RoBERTa and LLaMA-2 (7B and 70B) demonstrate that our low-rank plus quantized matrix decomposition approach (LQ-LoRA) outperforms strong QLoRA and GPTQ-LoRA baselines and enables aggressive quantization
-    
-[^12]: 情感视觉对话：基于视觉对话理解情感形成的大规模基准
-
-    Affective Visual Dialog: A Large-Scale Benchmark for Emotional Reasoning Based on Visually Grounded Conversations. (arXiv:2308.16349v1 [cs.CL])
-
-    [http://arxiv.org/abs/2308.16349](http://arxiv.org/abs/2308.16349)
-
-    我们引入了一个名为AffectVisDial的大规模数据集，其中包含50,000个基于视觉的对话，我们训练了情感视觉对话模型来解决基于对话的问答、情感预测和情感解释任务，展示出了有希望的情感推理能力。
+    本论文提出了一种可度量忠实性的掩码语言模型，通过使用一种新颖的微调方法，将屏蔽令牌作为设计使其成为分布内，以解决解释自然语言处理模型时常见的问题。
 
     
 
-    我们引入了情感视觉对话，作为一个测试平台，用于研究理解在基于视觉对话中情感形成的过程。这项任务涉及三项技能：（1）基于对话的问答，（2）基于对话的情感预测，以及（3）基于对话生成情感解释。我们的主要贡献是构建了一个大规模数据集，称为AffectVisDial，包含50,000个10轮的基于视觉的对话，还包括总结的情感归因和基于对话的情感解释，总共需要27180个工作小时。我们解释了收集该数据集的设计决策，并介绍了与对话参与者相关的提问者和回答者任务。我们训练和展示了来自最先进模型的坚实的情感视觉对话基线。值得注意的是，我们模型生成的回答显示出有希望的情感推理能力。
+    解释自然语言处理模型的常见方法是使用重要性度量来表达哪些令牌对于预测很重要。然而，尽管这些解释具有说服力，但往往是错误的。因此，测量它们的忠实性至关重要。其中一种度量标准是如果令牌确实很重要，那么屏蔽它们应该导致模型性能变差。然而，令牌屏蔽会引入区域外问题，而现有的解决方案在计算上很昂贵并且使用代理模型。此外，其他指标的适用范围非常有限。在这项工作中，我们提出了一种固有的忠实性可度量模型来应对这些挑战。通过使用一种新颖的微调方法来实现这一目标，该方法将屏蔽令牌作为设计使其成为分布内。这与现有方法不同，现有方法完全与模型无关，但在实践中不适用。我们通过将其应用于各种任务和数据集来证明我们方法的普适性。
 
-    We introduce Affective Visual Dialog, an emotion explanation and reasoning task as a testbed for research on understanding the formation of emotions in visually grounded conversations. The task involves three skills: (1) Dialog-based Question Answering (2) Dialog-based Emotion Prediction and (3) Affective emotion explanation generation based on the dialog. Our key contribution is the collection of a large-scale dataset, dubbed AffectVisDial, consisting of 50K 10-turn visually grounded dialogs as well as concluding emotion attributions and dialog-informed textual emotion explanations, resulting in a total of 27,180 working hours. We explain our design decisions in collecting the dataset and introduce the questioner and answerer tasks that are associated with the participants in the conversation. We train and demonstrate solid Affective Visual Dialog baselines adapted from state-of-the-art models. Remarkably, the responses generated by our models show promising emotional reasoning abilit
+    A common approach to explain NLP models, is to use importance measures that express which tokens are important for a prediction. Unfortunately, such explanations are often wrong despite being persuasive. Therefore, it is essential to measure their faithfulness. One such metric is if tokens are truly important, then masking them should result in worse model performance. However, token masking introduces out-of-distribution issues and existing solutions are computationally expensive and employ proxy-models. Furthermore, other metrics are very limited in scope. In this work, we propose an inherently faithfulness measurable model that addresses these challenges. This is achieved by using a novel fine-tuning method that incorporates masking, such that masking tokens become in-distribution by design. This differs from existing approaches, which are completely model-agnostic but are inapplicable in practice. We demonstrate the generality of our approach by applying it to various tasks and val
     
-[^13]: 发挥Seq2Seq模型作为稳健少样本学习器的潜力
+[^7]: HC3 Plus：一个语义不变的人类ChatGPT对比语料库
 
-    Exploiting the Potential of Seq2Seq Models as Robust Few-Shot Learners. (arXiv:2307.14856v1 [cs.CL])
+    HC3 Plus: A Semantic-Invariant Human ChatGPT Comparison Corpus. (arXiv:2309.02731v1 [cs.CL])
 
-    [http://arxiv.org/abs/2307.14856](http://arxiv.org/abs/2307.14856)
+    [http://arxiv.org/abs/2309.02731](http://arxiv.org/abs/2309.02731)
 
-    Seq2Seq模型作为少样本学习器的潜力在解码器和编码-解码模型中进行了广泛研究，提出了两种能有效提升Seq2Seq模型上下文学习能力的方法，并在各种任务中显示出显著的性能改进。
+    本文介绍了HC3 Plus，一个语义不变的人类ChatGPT对比语料库。与以往的工作相比，该语料库考虑了更多类型的任务，包括语义不变任务。研究发现，在语义不变任务中检测模型生成的文本更加困难。通过大量任务指令微调和Tk-instruct，建立了一个更强大的模型。
 
     
 
-    在上下文学习中，只有解码器模型具有明显优势，而编码-解码（即Seq2Seq）模型在依赖于权重更新的方法中表现出色。最近，一些研究表明Seq2Seq模型可以进行少样本学习，但这仅限于与Seq2Seq体系结构相匹配的任务，如摘要和翻译。受到这些初始研究的启发，我们首次进行了广泛的实验，比较了解码器和编码-解码模型在各种任务的上下文少样本学习能力。此外，我们提出了两种能更有效地引发Seq2Seq模型上下文学习能力的方法：目标对齐提示和基于融合的方法。值得注意的是，我们的方法在性能上超过了一个体积是其六倍的解码器模型，并且相较于常规Seq2Seq模型显示出显著的性能改进。
+    ChatGPT因其出色的性能而引起了人们的广泛关注，但人们对其潜在风险，尤其是对AI生成内容（AIGC）的检测越来越关注，这对未经训练的人类来说往往很难识别。目前用于检测ChatGPT生成文本的数据集主要集中在问答方面，但往往忽视了具有语义不变性的任务，如摘要、翻译和改写。我们的研究表明，在语义不变任务上检测模型生成的文本更加困难。为了填补这一空白，我们引入了一个更广泛、更全面的数据集，考虑了比以前的工作更多类型的任务，包括语义不变任务。此外，经过大量任务指令微调的模型表现出很强的性能。基于以前的成功，我们进一步指导微调了Tk-instruct，并构建了一个更强大的模型。
 
-    In-context learning, which offers substantial advantages over fine-tuning, is predominantly observed in decoder-only models, while encoder-decoder (i.e., seq2seq) models excel in methods that rely on weight updates. Recently, a few studies have demonstrated the feasibility of few-shot learning with seq2seq models; however, this has been limited to tasks that align well with the seq2seq architecture, such as summarization and translation. Inspired by these initial studies, we provide a first-ever extensive experiment comparing the in-context few-shot learning capabilities of decoder-only and encoder-decoder models on a broad range of tasks. Furthermore, we propose two methods to more effectively elicit in-context learning ability in seq2seq models: objective-aligned prompting and a fusion-based approach. Remarkably, our approach outperforms a decoder-only model that is six times larger and exhibits significant performance improvements compared to conventional seq2seq models across a var
+    ChatGPT has gained significant interest due to its impressive performance, but people are increasingly concerned about its potential risks, particularly around the detection of AI-generated content (AIGC), which is often difficult for untrained humans to identify. Current datasets utilized for detecting ChatGPT-generated text primarily center around question-answering, yet they tend to disregard tasks that possess semantic-invariant properties, such as summarization, translation, and paraphrasing. Our primary studies demonstrate that detecting model-generated text on semantic-invariant tasks is more difficult. To fill this gap, we introduce a more extensive and comprehensive dataset that considers more types of tasks than previous work, including semantic-invariant tasks. In addition, the model after a large number of task instruction fine-tuning shows a strong powerful performance. Owing to its previous success, we further instruct fine-tuning Tk-instruct and built a more powerful det
     
 
