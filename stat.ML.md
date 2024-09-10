@@ -2,82 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Partial Rankings of Optimizers](https://arxiv.org/abs/2402.16565) | 该论文介绍了一种基于多个标准进行优化器基准测试的框架，通过利用次序信息并允许不可比性，避免了聚合的缺点，可以识别产生中心或离群排序的测试函数，并评估基准测试套件的质量。 |
-| [^2] | [Invariant kernels on Riemannian symmetric spaces: a harmonic-analytic approach.](http://arxiv.org/abs/2310.19270) | 本文证明了在非欧几里德对称空间上定义的经典高斯核在任意参数选择下都不是正定的，通过发展新的几何和分析论证，并且给出了正定性的严格刻画以及L$^{\!\scriptscriptstyle p}$-$\hspace{0.02cm}$Godement定理的必要和充分条件。 |
-| [^3] | [Seismic Data Interpolation based on Denoising Diffusion Implicit Models with Resampling.](http://arxiv.org/abs/2307.04226) | 本研究提出了一种基于去噪扩散隐式模型和重采样的地震数据插值方法，通过使用多头自注意力和余弦噪声计划，实现了稳定训练生成对抗网络，并提高了已知迹线信息的利用率。 |
-| [^4] | [Probabilistic matching of real and generated data statistics in generative adversarial networks.](http://arxiv.org/abs/2306.10943) | 本文提出一种通过向生成器损失函数中添加KL散度项的方法，来保证生成数据统计分布与真实数据的相应分布重合，并在实验中展示了此方法的优越性能。 |
-| [^5] | [A Hypergraph-Based Machine Learning Ensemble Network Intrusion Detection System.](http://arxiv.org/abs/2211.03933) | 该论文提出了一种基于超图的机器学习集成网络入侵检测系统，使用超图捕捉端口扫描攻击的演化模式，并使用派生的度量来训练NIDS，从而允许在高精度、高准确率、高召回率性能下实时监测和检测端口扫描活动、其他类型的攻击和敌对入侵，解决了传统NIDS面临的挑战。 |
+| [^1] | [Rolling Diffusion Models](https://arxiv.org/abs/2402.09470) | 本文介绍了一种滚动扩散模型，用于处理时间数据，通过滑动窗口去噪并根据帧在序列中的时间先后分配不同的噪声量，更好地捕捉到复杂的时间动态。通过实验证明，在视频预测和混沌流体动力学预测任务中，该模型优于传统扩散方法。 |
+| [^2] | [Online Graph Topology Learning from Matrix-valued Time Series](https://arxiv.org/abs/2107.08020) | 本文通过研究矩阵值时间序列的统计分析，提出了在线图拓扑学习的方法。首先，将VAR模型扩展为矩阵变量模型以适用于图形学习。其次，提出了两种在线过程，针对低维和高维情况快速更新系数的估计。这些方法在高维情况下引入了一种新的Lasso-type进行拓扑处理。 |
+| [^3] | [CA-PCA: Manifold Dimension Estimation, Adapted for Curvature.](http://arxiv.org/abs/2309.13478) | 本文提出了CA-PCA算法，它基于曲率校准的局部PCA版本，通过考虑底层流形的曲率，改进了维度估计器的性能。 |
+| [^4] | [Estimation and inference for the Wasserstein distance between mixing measures in topic models.](http://arxiv.org/abs/2206.12768) | 本文提出了对混合模型中混合测度的Wasserstein距离的新的规范解释，并提供了在主题模型中进行此距离推断的工具。 |
+| [^5] | [Graph Neural Network Sensitivity Under Probabilistic Error Model.](http://arxiv.org/abs/2203.07831) | 本文研究了概率误差模型对图卷积网络（GCN）性能的影响，并证明了误差模型下邻接矩阵的受限性。通过实验验证了这种误差界限，并研究了GCN在这种概率误差模型下的准确性敏感性。 |
 
 # 详细
 
-[^1]: 优化器的部分排序
+[^1]: 滚动扩散模型
 
-    Partial Rankings of Optimizers
+    Rolling Diffusion Models
 
-    [https://arxiv.org/abs/2402.16565](https://arxiv.org/abs/2402.16565)
+    [https://arxiv.org/abs/2402.09470](https://arxiv.org/abs/2402.09470)
 
-    该论文介绍了一种基于多个标准进行优化器基准测试的框架，通过利用次序信息并允许不可比性，避免了聚合的缺点，可以识别产生中心或离群排序的测试函数，并评估基准测试套件的质量。
-
-    
-
-    我们提出了一个根据多个标准在各种测试函数上对优化器进行基准测试的框架。基于最近引入的用于偏序/排序的无集合泛函深度函数，它充分利用了次序信息并允许不可比性。我们的方法描述了所有部分顺序/排序的分布，避免了聚合的臭名昭著的缺点。这允许识别产生优化器的中心或离群排序的测试函数，并评估基准测试套件的质量。
-
-    arXiv:2402.16565v1 Announce Type: cross  Abstract: We introduce a framework for benchmarking optimizers according to multiple criteria over various test functions. Based on a recently introduced union-free generic depth function for partial orders/rankings, it fully exploits the ordinal information and allows for incomparability. Our method describes the distribution of all partial orders/rankings, avoiding the notorious shortcomings of aggregation. This permits to identify test functions that produce central or outlying rankings of optimizers and to assess the quality of benchmarking suites.
-    
-[^2]: 在黎曼对称空间上的不变核：一种谐波分析方法
-
-    Invariant kernels on Riemannian symmetric spaces: a harmonic-analytic approach. (arXiv:2310.19270v1 [cs.LG])
-
-    [http://arxiv.org/abs/2310.19270](http://arxiv.org/abs/2310.19270)
-
-    本文证明了在非欧几里德对称空间上定义的经典高斯核在任意参数选择下都不是正定的，通过发展新的几何和分析论证，并且给出了正定性的严格刻画以及L$^{\!\scriptscriptstyle p}$-$\hspace{0.02cm}$Godement定理的必要和充分条件。
+    本文介绍了一种滚动扩散模型，用于处理时间数据，通过滑动窗口去噪并根据帧在序列中的时间先后分配不同的噪声量，更好地捕捉到复杂的时间动态。通过实验证明，在视频预测和混沌流体动力学预测任务中，该模型优于传统扩散方法。
 
     
 
-    本文旨在证明经典的高斯核，在非欧几里德对称空间上定义时，对于任意参数选择都不是正定的。为了实现这一目标，本文发展了新的几何和分析论证。这些论证提供了高斯核正定性的严格刻画，但仅限于在低维中通过数值计算处理的有限情况。其中最重要的结果是L$^{\!\scriptscriptstyle p}$-$\hspace{0.02cm}$Godement定理（其中$p = 1,2$），它提供了定义在非紧型对称空间上的核是正定的可验证的必要和充分条件。一种著名的定理，有时被称为Bochner-Godement定理，已经给出了这样的条件，并且在适用范围上更加广泛，但应用起来尤为困难。除了与高斯核的关联外，在本文中的新结果为s提供了一个蓝图。
+    最近，扩散模型越来越多地应用于时间数据，如视频、流体力学模拟或气候数据。这些方法通常将后续帧在扩散过程中的噪声量视为相等。本文探讨了滚动扩散：一种使用滑动窗口去噪的新方法。它确保扩散过程逐渐通过时间进行破坏，通过将更多的噪声分配给序列中出现较晚的帧，反映出随着生成过程的展开，对未来的不确定性越来越大。通过实证研究，我们表明当时间动态复杂时，滚动扩散优于标准扩散。特别是在使用Kinetics-600视频数据集进行视频预测任务和混沌流体动力学预测实验中证明了这一结果。
 
-    This work aims to prove that the classical Gaussian kernel, when defined on a non-Euclidean symmetric space, is never positive-definite for any choice of parameter. To achieve this goal, the paper develops new geometric and analytical arguments. These provide a rigorous characterization of the positive-definiteness of the Gaussian kernel, which is complete but for a limited number of scenarios in low dimensions that are treated by numerical computations. Chief among these results are the L$^{\!\scriptscriptstyle p}$-$\hspace{0.02cm}$Godement theorems (where $p = 1,2$), which provide verifiable necessary and sufficient conditions for a kernel defined on a symmetric space of non-compact type to be positive-definite. A celebrated theorem, sometimes called the Bochner-Godement theorem, already gives such conditions and is far more general in its scope, but is especially hard to apply. Beyond the connection with the Gaussian kernel, the new results in this work lay out a blueprint for the s
+    arXiv:2402.09470v1 Announce Type: new  Abstract: Diffusion models have recently been increasingly applied to temporal data such as video, fluid mechanics simulations, or climate data. These methods generally treat subsequent frames equally regarding the amount of noise in the diffusion process. This paper explores Rolling Diffusion: a new approach that uses a sliding window denoising process. It ensures that the diffusion process progressively corrupts through time by assigning more noise to frames that appear later in a sequence, reflecting greater uncertainty about the future as the generation process unfolds. Empirically, we show that when the temporal dynamics are complex, Rolling Diffusion is superior to standard diffusion. In particular, this result is demonstrated in a video prediction task using the Kinetics-600 video dataset and in a chaotic fluid dynamics forecasting experiment.
     
-[^3]: 基于去噪扩散隐式模型和重采样的地震数据插值
+[^2]: 基于矩阵值时间序列的在线图拓扑学习
 
-    Seismic Data Interpolation based on Denoising Diffusion Implicit Models with Resampling. (arXiv:2307.04226v1 [physics.geo-ph])
+    Online Graph Topology Learning from Matrix-valued Time Series
 
-    [http://arxiv.org/abs/2307.04226](http://arxiv.org/abs/2307.04226)
+    [https://arxiv.org/abs/2107.08020](https://arxiv.org/abs/2107.08020)
 
-    本研究提出了一种基于去噪扩散隐式模型和重采样的地震数据插值方法，通过使用多头自注意力和余弦噪声计划，实现了稳定训练生成对抗网络，并提高了已知迹线信息的利用率。
-
-    
-
-    地震数据空间扩展上缺失剖面导致地震数据不完整是地震采集中普遍存在的问题，由于障碍物和经济限制，这严重影响了地下地质结构的成像质量。最近，基于深度学习的地震插值方法取得了令人期待的进展，但稳定训练生成对抗网络并不容易，如果测试和训练中的缺失模式不匹配，性能退化通常是显著的。在本文中，我们提出了一种新的地震去噪扩散隐式模型和重采样方法。模型训练建立在去噪扩散概率模型的基础上，其中U-Net配备了多头自注意力以匹配每个步骤中的噪声。余弦噪声计划作为全局噪声配置，通过加速过度信息的传递来促进已知迹线信息的高度利用。
-
-    The incompleteness of the seismic data caused by missing traces along the spatial extension is a common issue in seismic acquisition due to the existence of obstacles and economic constraints, which severely impairs the imaging quality of subsurface geological structures. Recently, deep learning-based seismic interpolation methods have attained promising progress, while achieving stable training of generative adversarial networks is not easy, and performance degradation is usually notable if the missing patterns in the testing and training do not match. In this paper, we propose a novel seismic denoising diffusion implicit model with resampling. The model training is established on the denoising diffusion probabilistic model, where U-Net is equipped with the multi-head self-attention to match the noise in each step. The cosine noise schedule, serving as the global noise configuration, promotes the high utilization of known trace information by accelerating the passage of the excessive 
-    
-[^4]: 生成对抗网络中真实数据和生成数据统计的概率匹配
-
-    Probabilistic matching of real and generated data statistics in generative adversarial networks. (arXiv:2306.10943v1 [stat.ML])
-
-    [http://arxiv.org/abs/2306.10943](http://arxiv.org/abs/2306.10943)
-
-    本文提出一种通过向生成器损失函数中添加KL散度项的方法，来保证生成数据统计分布与真实数据的相应分布重合，并在实验中展示了此方法的优越性能。
+    本文通过研究矩阵值时间序列的统计分析，提出了在线图拓扑学习的方法。首先，将VAR模型扩展为矩阵变量模型以适用于图形学习。其次，提出了两种在线过程，针对低维和高维情况快速更新系数的估计。这些方法在高维情况下引入了一种新的Lasso-type进行拓扑处理。
 
     
 
-    生成对抗网络是一种强大的生成建模方法。虽然生成样本往往难以区分真实数据，但不能保证它们遵循真实数据分布。本文提出了一种方法，确保某些生成数据统计分布与真实数据的相应分布重合。为此，我们在生成器损失函数中添加了Kullback-Leibler项：KL散度是在每次迭代中从小批量值获得的相应生成分布和由条件能量模型表示的真实分布之间的差异。我们在一个合成数据集和两个实际数据集上评估了该方法，并展示了我们方法的优越性能。
+    本文研究了矩阵值时间序列的统计分析。这些数据是在一个传感器网络上收集的（通常是一组空间位置），观测到每个传感器的每个时间点的特征向量。因此，每个传感器由一个向量时序列来描述。我们希望识别这些传感器之间的依赖结构，并用图形来表示它。当每个传感器只有一个特征时，矢量自回归模型已被广泛应用于推断格兰杰因果关系的结构。所得到的图被称为因果图。我们的第一个贡献是将VAR模型扩展为矩阵变量模型，以用于图形学习的目的。其次，我们提出了两种在线过程，分别适用于低维和高维情况，在新样本到达时可以快速更新系数的估计。特别是在高维情况下，引入了一种新的Lasso-type，并对其进行了拓扑处理。
 
-    Generative adversarial networks constitute a powerful approach to generative modeling. While generated samples often are indistinguishable from real data, there is no guarantee that they will follow the true data distribution. In this work, we propose a method to ensure that the distributions of certain generated data statistics coincide with the respective distributions of the real data. In order to achieve this, we add a Kullback-Leibler term to the generator loss function: the KL divergence is taken between the true distributions as represented by a conditional energy-based model, and the corresponding generated distributions obtained from minibatch values at each iteration. We evaluate the method on a synthetic dataset and two real-world datasets and demonstrate improved performance of our method.
+    This paper is concerned with the statistical analysis of matrix-valued time series. These are data collected over a network of sensors (typically a set of spatial locations) along time, where a vector of features is observed per time instant per sensor. Thus each sensor is characterized by a vectorial time series. We would like to identify the dependency structure among these sensors and represent it by a graph. When there is only one feature per sensor, the vector auto-regressive models have been widely adapted to infer the structure of Granger causality. The resulting graph is referred to as causal graph. Our first contribution is then extending VAR models to matrix-variate models to serve the purpose of graph learning. Secondly, we propose two online procedures respectively in low and high dimensions, which can update quickly the estimates of coefficients when new samples arrive. In particular in high dimensional regime, a novel Lasso-type is introduced and we develop its homotopy a
     
-[^5]: 基于超图的机器学习集成网络入侵检测系统
+[^3]: CA-PCA: 测量曲率的流形维度估计
 
-    A Hypergraph-Based Machine Learning Ensemble Network Intrusion Detection System. (arXiv:2211.03933v2 [cs.CR] UPDATED)
+    CA-PCA: Manifold Dimension Estimation, Adapted for Curvature. (arXiv:2309.13478v1 [stat.ML])
 
-    [http://arxiv.org/abs/2211.03933](http://arxiv.org/abs/2211.03933)
+    [http://arxiv.org/abs/2309.13478](http://arxiv.org/abs/2309.13478)
 
-    该论文提出了一种基于超图的机器学习集成网络入侵检测系统，使用超图捕捉端口扫描攻击的演化模式，并使用派生的度量来训练NIDS，从而允许在高精度、高准确率、高召回率性能下实时监测和检测端口扫描活动、其他类型的攻击和敌对入侵，解决了传统NIDS面临的挑战。
+    本文提出了CA-PCA算法，它基于曲率校准的局部PCA版本，通过考虑底层流形的曲率，改进了维度估计器的性能。
 
     
 
-    网络入侵检测系统(NIDS)在检测恶意攻击时仍然面临挑战。NIDS通常在离线状态下开发，但面对自动生成的端口扫描渗透尝试时，会导致从对手适应到NIDS响应的显着时间滞后。为了解决这些问题，我们使用以Internet协议地址和目标端口为重点的超图来捕捉端口扫描攻击的演化模式。然后使用派生的基于超图的度量来训练一个集成机器学习(ML)的NIDS，从而允许在高精度、高准确率、高召回率性能下实时调整，监测和检测端口扫描活动、其他类型的攻击和敌对入侵。这个ML自适应的NIDS是通过以下几个部分的组合开发出来的：(1)入侵示例，(2)NIDS更新规则，(3)触发NIDS重新训练请求的攻击阈值选择，以及(4)在没有先前网络性质知识的情况下的生产环境。
+    高维数据分析算法的成功常归因于流形假设，即假设数据分布在或接近低维流形上。在进行维度约简之前，确定或估计该流形的维度通常是有用的。现有的维度估计方法使用平坦单位球进行校准。本文提出了CA-PCA，一种基于二次嵌入校准的局部PCA版本，以考虑底层流形的曲率。大量的精心实验表明，这种适应性改进了估计器在各种设置下的性能。
 
-    Network intrusion detection systems (NIDS) to detect malicious attacks continue to meet challenges. NIDS are often developed offline while they face auto-generated port scan infiltration attempts, resulting in a significant time lag from adversarial adaption to NIDS response. To address these challenges, we use hypergraphs focused on internet protocol addresses and destination ports to capture evolving patterns of port scan attacks. The derived set of hypergraph-based metrics are then used to train an ensemble machine learning (ML) based NIDS that allows for real-time adaption in monitoring and detecting port scanning activities, other types of attacks, and adversarial intrusions at high accuracy, precision and recall performances. This ML adapting NIDS was developed through the combination of (1) intrusion examples, (2) NIDS update rules, (3) attack threshold choices to trigger NIDS retraining requests, and (4) a production environment with no prior knowledge of the nature of network 
+    The success of algorithms in the analysis of high-dimensional data is often attributed to the manifold hypothesis, which supposes that this data lie on or near a manifold of much lower dimension. It is often useful to determine or estimate the dimension of this manifold before performing dimension reduction, for instance. Existing methods for dimension estimation are calibrated using a flat unit ball. In this paper, we develop CA-PCA, a version of local PCA based instead on a calibration of a quadratic embedding, acknowledging the curvature of the underlying manifold. Numerous careful experiments show that this adaptation improves the estimator in a wide range of settings.
+    
+[^4]: 主题模型中混合测度的Wasserstein距离的估计和推断
+
+    Estimation and inference for the Wasserstein distance between mixing measures in topic models. (arXiv:2206.12768v2 [math.ST] UPDATED)
+
+    [http://arxiv.org/abs/2206.12768](http://arxiv.org/abs/2206.12768)
+
+    本文提出了对混合模型中混合测度的Wasserstein距离的新的规范解释，并提供了在主题模型中进行此距离推断的工具。
+
+    
+
+    在混合模型的统计分析中，混合测度的Wasserstein距离已经成为了一个核心问题。本研究提出了这种距离的新的规范解释，并提供了在主题模型中进行混合测度的Wasserstein距离推断的工具。我们考虑了一般可识别混合模型的情况，其中包括了多个来自集合$\mathcal{A}$内带有任意度量$d$的分布的混合，我们证明了混合测度的Wasserstein距离是唯一地表征出混合元素集合$\mathcal{A}$上度量$d$的最有区分性的凸扩展。虽然Wasserstein距离在混合模型的研究中已被广泛使用，但缺乏公理证明。我们的结果确立了这个度量作为一个规范选择。特准化这个度量到主题模型，我们考虑了这个距离的估计和推断。虽然$i$
+
+    The Wasserstein distance between mixing measures has come to occupy a central place in the statistical analysis of mixture models. This work proposes a new canonical interpretation of this distance and provides tools to perform inference on the Wasserstein distance between mixing measures in topic models.  We consider the general setting of an identifiable mixture model consisting of mixtures of distributions from a set $\mathcal{A}$ equipped with an arbitrary metric $d$, and show that the Wasserstein distance between mixing measures is uniquely characterized as the most discriminative convex extension of the metric $d$ to the set of mixtures of elements of $\mathcal{A}$. The Wasserstein distance between mixing measures has been widely used in the study of such models, but without axiomatic justification. Our results establish this metric to be a canonical choice.  Specializing our results to topic models, we consider estimation and inference of this distance. Though upper bounds for i
+    
+[^5]: 图形神经网络在概率误差模型下的敏感性
+
+    Graph Neural Network Sensitivity Under Probabilistic Error Model. (arXiv:2203.07831v3 [stat.ML] UPDATED)
+
+    [http://arxiv.org/abs/2203.07831](http://arxiv.org/abs/2203.07831)
+
+    本文研究了概率误差模型对图卷积网络（GCN）性能的影响，并证明了误差模型下邻接矩阵的受限性。通过实验验证了这种误差界限，并研究了GCN在这种概率误差模型下的准确性敏感性。
+
+    
+
+    图卷积网络（GCN）可以通过图卷积成功学习图信号表示。图卷积依赖于图滤波器，其中包含数据的拓扑依赖关系并传播数据特征。然而，在传播矩阵（例如邻接矩阵）中的估计误差可能对图滤波器和GCNs产生重大影响。本文研究概率图误差模型对GCN性能的影响。我们证明了在误差模型下的邻接矩阵受到图大小和误差概率函数的限制。我们进一步分析了带有自循环的归一化邻接矩阵的上界。最后，我们通过在合成数据集上运行实验来说明误差界限，并研究简单GCN在这种概率误差模型下的准确性敏感性。
+
+    Graph convolutional networks (GCNs) can successfully learn the graph signal representation by graph convolution. The graph convolution depends on the graph filter, which contains the topological dependency of data and propagates data features. However, the estimation errors in the propagation matrix (e.g., the adjacency matrix) can have a significant impact on graph filters and GCNs. In this paper, we study the effect of a probabilistic graph error model on the performance of the GCNs. We prove that the adjacency matrix under the error model is bounded by a function of graph size and error probability. We further analytically specify the upper bound of a normalized adjacency matrix with self-loop added. Finally, we illustrate the error bounds by running experiments on a synthetic dataset and study the sensitivity of a simple GCN under this probabilistic error model on accuracy.
     
 
