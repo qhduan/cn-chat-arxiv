@@ -2,82 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Rolling Diffusion Models](https://arxiv.org/abs/2402.09470) | 本文介绍了一种滚动扩散模型，用于处理时间数据，通过滑动窗口去噪并根据帧在序列中的时间先后分配不同的噪声量，更好地捕捉到复杂的时间动态。通过实验证明，在视频预测和混沌流体动力学预测任务中，该模型优于传统扩散方法。 |
-| [^2] | [Online Graph Topology Learning from Matrix-valued Time Series](https://arxiv.org/abs/2107.08020) | 本文通过研究矩阵值时间序列的统计分析，提出了在线图拓扑学习的方法。首先，将VAR模型扩展为矩阵变量模型以适用于图形学习。其次，提出了两种在线过程，针对低维和高维情况快速更新系数的估计。这些方法在高维情况下引入了一种新的Lasso-type进行拓扑处理。 |
-| [^3] | [CA-PCA: Manifold Dimension Estimation, Adapted for Curvature.](http://arxiv.org/abs/2309.13478) | 本文提出了CA-PCA算法，它基于曲率校准的局部PCA版本，通过考虑底层流形的曲率，改进了维度估计器的性能。 |
-| [^4] | [Estimation and inference for the Wasserstein distance between mixing measures in topic models.](http://arxiv.org/abs/2206.12768) | 本文提出了对混合模型中混合测度的Wasserstein距离的新的规范解释，并提供了在主题模型中进行此距离推断的工具。 |
-| [^5] | [Graph Neural Network Sensitivity Under Probabilistic Error Model.](http://arxiv.org/abs/2203.07831) | 本文研究了概率误差模型对图卷积网络（GCN）性能的影响，并证明了误差模型下邻接矩阵的受限性。通过实验验证了这种误差界限，并研究了GCN在这种概率误差模型下的准确性敏感性。 |
+| [^1] | [Nowcasting with mixed frequency data using Gaussian processes](https://arxiv.org/abs/2402.10574) | 使用高斯过程和贝叶斯添加回归树作为线性惩罚估计的灵活扩展，解决了混合频率数据中的频率不匹配问题，提高了现场预测的准确性。 |
+| [^2] | [Optimal Regularization for a Data Source](https://arxiv.org/abs/2212.13597) | 本文研究了基于优化的方法中凸正则化的能力和局限性问题，通过研究给定分布情况下，对数据采用何种正则化方法是最优的。 |
+| [^3] | [Optimal Differentially Private Learning with Public Data.](http://arxiv.org/abs/2306.15056) | 本论文研究了具有公共数据的最优差分隐私学习，并解决了在训练差分隐私模型时如何利用公共数据提高准确性的问题。 |
+| [^4] | [Memory of recurrent networks: Do we compute it right?.](http://arxiv.org/abs/2305.01457) | 本文研究了线性回声状态网络的记忆容量计算问题。通过发现数值评估的不准确性主要源于数值方面的问题，提出了基于掩码矩阵MC相对于中立性的稳健数值方法，该方法可以解决数值评估中的误差问题。 |
 
 # 详细
 
-[^1]: 滚动扩散模型
+[^1]: 使用高斯过程进行混合频率数据的现场预测
 
-    Rolling Diffusion Models
+    Nowcasting with mixed frequency data using Gaussian processes
 
-    [https://arxiv.org/abs/2402.09470](https://arxiv.org/abs/2402.09470)
+    [https://arxiv.org/abs/2402.10574](https://arxiv.org/abs/2402.10574)
 
-    本文介绍了一种滚动扩散模型，用于处理时间数据，通过滑动窗口去噪并根据帧在序列中的时间先后分配不同的噪声量，更好地捕捉到复杂的时间动态。通过实验证明，在视频预测和混沌流体动力学预测任务中，该模型优于传统扩散方法。
-
-    
-
-    最近，扩散模型越来越多地应用于时间数据，如视频、流体力学模拟或气候数据。这些方法通常将后续帧在扩散过程中的噪声量视为相等。本文探讨了滚动扩散：一种使用滑动窗口去噪的新方法。它确保扩散过程逐渐通过时间进行破坏，通过将更多的噪声分配给序列中出现较晚的帧，反映出随着生成过程的展开，对未来的不确定性越来越大。通过实证研究，我们表明当时间动态复杂时，滚动扩散优于标准扩散。特别是在使用Kinetics-600视频数据集进行视频预测任务和混沌流体动力学预测实验中证明了这一结果。
-
-    arXiv:2402.09470v1 Announce Type: new  Abstract: Diffusion models have recently been increasingly applied to temporal data such as video, fluid mechanics simulations, or climate data. These methods generally treat subsequent frames equally regarding the amount of noise in the diffusion process. This paper explores Rolling Diffusion: a new approach that uses a sliding window denoising process. It ensures that the diffusion process progressively corrupts through time by assigning more noise to frames that appear later in a sequence, reflecting greater uncertainty about the future as the generation process unfolds. Empirically, we show that when the temporal dynamics are complex, Rolling Diffusion is superior to standard diffusion. In particular, this result is demonstrated in a video prediction task using the Kinetics-600 video dataset and in a chaotic fluid dynamics forecasting experiment.
-    
-[^2]: 基于矩阵值时间序列的在线图拓扑学习
-
-    Online Graph Topology Learning from Matrix-valued Time Series
-
-    [https://arxiv.org/abs/2107.08020](https://arxiv.org/abs/2107.08020)
-
-    本文通过研究矩阵值时间序列的统计分析，提出了在线图拓扑学习的方法。首先，将VAR模型扩展为矩阵变量模型以适用于图形学习。其次，提出了两种在线过程，针对低维和高维情况快速更新系数的估计。这些方法在高维情况下引入了一种新的Lasso-type进行拓扑处理。
+    使用高斯过程和贝叶斯添加回归树作为线性惩罚估计的灵活扩展，解决了混合频率数据中的频率不匹配问题，提高了现场预测的准确性。
 
     
 
-    本文研究了矩阵值时间序列的统计分析。这些数据是在一个传感器网络上收集的（通常是一组空间位置），观测到每个传感器的每个时间点的特征向量。因此，每个传感器由一个向量时序列来描述。我们希望识别这些传感器之间的依赖结构，并用图形来表示它。当每个传感器只有一个特征时，矢量自回归模型已被广泛应用于推断格兰杰因果关系的结构。所得到的图被称为因果图。我们的第一个贡献是将VAR模型扩展为矩阵变量模型，以用于图形学习的目的。其次，我们提出了两种在线过程，分别适用于低维和高维情况，在新样本到达时可以快速更新系数的估计。特别是在高维情况下，引入了一种新的Lasso-type，并对其进行了拓扑处理。
+    我们提出并讨论了用于混合数据采样（MIDAS）回归的贝叶斯机器学习方法。这涉及使用受限和非受限的MIDAS变体处理频率不匹配，并指定许多预测变量与因变量之间的函数关系。我们使用高斯过程（GP）和贝叶斯添加回归树（BART）作为线性惩罚估计的灵活扩展。在现场预测和预测练习中，我们专注于季度美国产出增长和GDP价格指数的通货膨胀。这些新模型以计算效率的方式利用宏观经济大数据，并在多个维度上提供了预测准确度的增益。
 
-    This paper is concerned with the statistical analysis of matrix-valued time series. These are data collected over a network of sensors (typically a set of spatial locations) along time, where a vector of features is observed per time instant per sensor. Thus each sensor is characterized by a vectorial time series. We would like to identify the dependency structure among these sensors and represent it by a graph. When there is only one feature per sensor, the vector auto-regressive models have been widely adapted to infer the structure of Granger causality. The resulting graph is referred to as causal graph. Our first contribution is then extending VAR models to matrix-variate models to serve the purpose of graph learning. Secondly, we propose two online procedures respectively in low and high dimensions, which can update quickly the estimates of coefficients when new samples arrive. In particular in high dimensional regime, a novel Lasso-type is introduced and we develop its homotopy a
+    arXiv:2402.10574v1 Announce Type: new  Abstract: We propose and discuss Bayesian machine learning methods for mixed data sampling (MIDAS) regressions. This involves handling frequency mismatches with restricted and unrestricted MIDAS variants and specifying functional relationships between many predictors and the dependent variable. We use Gaussian processes (GP) and Bayesian additive regression trees (BART) as flexible extensions to linear penalized estimation. In a nowcasting and forecasting exercise we focus on quarterly US output growth and inflation in the GDP deflator. The new models leverage macroeconomic Big Data in a computationally efficient way and offer gains in predictive accuracy along several dimensions.
     
-[^3]: CA-PCA: 测量曲率的流形维度估计
+[^2]: 适用于数据源的最优正则化方法
 
-    CA-PCA: Manifold Dimension Estimation, Adapted for Curvature. (arXiv:2309.13478v1 [stat.ML])
+    Optimal Regularization for a Data Source
 
-    [http://arxiv.org/abs/2309.13478](http://arxiv.org/abs/2309.13478)
+    [https://arxiv.org/abs/2212.13597](https://arxiv.org/abs/2212.13597)
 
-    本文提出了CA-PCA算法，它基于曲率校准的局部PCA版本，通过考虑底层流形的曲率，改进了维度估计器的性能。
-
-    
-
-    高维数据分析算法的成功常归因于流形假设，即假设数据分布在或接近低维流形上。在进行维度约简之前，确定或估计该流形的维度通常是有用的。现有的维度估计方法使用平坦单位球进行校准。本文提出了CA-PCA，一种基于二次嵌入校准的局部PCA版本，以考虑底层流形的曲率。大量的精心实验表明，这种适应性改进了估计器在各种设置下的性能。
-
-    The success of algorithms in the analysis of high-dimensional data is often attributed to the manifold hypothesis, which supposes that this data lie on or near a manifold of much lower dimension. It is often useful to determine or estimate the dimension of this manifold before performing dimension reduction, for instance. Existing methods for dimension estimation are calibrated using a flat unit ball. In this paper, we develop CA-PCA, a version of local PCA based instead on a calibration of a quadratic embedding, acknowledging the curvature of the underlying manifold. Numerous careful experiments show that this adaptation improves the estimator in a wide range of settings.
-    
-[^4]: 主题模型中混合测度的Wasserstein距离的估计和推断
-
-    Estimation and inference for the Wasserstein distance between mixing measures in topic models. (arXiv:2206.12768v2 [math.ST] UPDATED)
-
-    [http://arxiv.org/abs/2206.12768](http://arxiv.org/abs/2206.12768)
-
-    本文提出了对混合模型中混合测度的Wasserstein距离的新的规范解释，并提供了在主题模型中进行此距离推断的工具。
+    本文研究了基于优化的方法中凸正则化的能力和局限性问题，通过研究给定分布情况下，对数据采用何种正则化方法是最优的。
 
     
 
-    在混合模型的统计分析中，混合测度的Wasserstein距离已经成为了一个核心问题。本研究提出了这种距离的新的规范解释，并提供了在主题模型中进行混合测度的Wasserstein距离推断的工具。我们考虑了一般可识别混合模型的情况，其中包括了多个来自集合$\mathcal{A}$内带有任意度量$d$的分布的混合，我们证明了混合测度的Wasserstein距离是唯一地表征出混合元素集合$\mathcal{A}$上度量$d$的最有区分性的凸扩展。虽然Wasserstein距离在混合模型的研究中已被广泛使用，但缺乏公理证明。我们的结果确立了这个度量作为一个规范选择。特准化这个度量到主题模型，我们考虑了这个距离的估计和推断。虽然$i$
+    在基于优化的逆问题和统计估计中，常常通过加入促使数据保真性的准则和促进解的所需结构性质的正则化项来解决问题。选择适当的正则化约束通常由前领域知识和计算考虑共同驱动。凸正则化项在计算上具有吸引力，但在提升结构类型方面存在局限性。另一方面，非凸正则化项在促进结构类型方面更具灵活性，并且在某些应用中展示出了强大的实证性能，但同时也带来了解决相关优化问题的计算挑战。本文通过研究以下问题，寻求对凸正则化在效能和局限性方面的系统理解：给定一个分布，对于从该分布中抽取的数据，什么是最优的正则化方法？
 
-    The Wasserstein distance between mixing measures has come to occupy a central place in the statistical analysis of mixture models. This work proposes a new canonical interpretation of this distance and provides tools to perform inference on the Wasserstein distance between mixing measures in topic models.  We consider the general setting of an identifiable mixture model consisting of mixtures of distributions from a set $\mathcal{A}$ equipped with an arbitrary metric $d$, and show that the Wasserstein distance between mixing measures is uniquely characterized as the most discriminative convex extension of the metric $d$ to the set of mixtures of elements of $\mathcal{A}$. The Wasserstein distance between mixing measures has been widely used in the study of such models, but without axiomatic justification. Our results establish this metric to be a canonical choice.  Specializing our results to topic models, we consider estimation and inference of this distance. Though upper bounds for i
+    In optimization-based approaches to inverse problems and to statistical estimation, it is common to augment criteria that enforce data fidelity with a regularizer that promotes desired structural properties in the solution. The choice of a suitable regularizer is typically driven by a combination of prior domain information and computational considerations. Convex regularizers are attractive computationally but they are limited in the types of structure they can promote. On the other hand, nonconvex regularizers are more flexible in the forms of structure they can promote and they have showcased strong empirical performance in some applications, but they come with the computational challenge of solving the associated optimization problems. In this paper, we seek a systematic understanding of the power and the limitations of convex regularization by investigating the following questions: Given a distribution, what is the optimal regularizer for data drawn from the distribution? What pro
     
-[^5]: 图形神经网络在概率误差模型下的敏感性
+[^3]: 具有公共数据的最优差分隐私学习
 
-    Graph Neural Network Sensitivity Under Probabilistic Error Model. (arXiv:2203.07831v3 [stat.ML] UPDATED)
+    Optimal Differentially Private Learning with Public Data. (arXiv:2306.15056v1 [cs.LG])
 
-    [http://arxiv.org/abs/2203.07831](http://arxiv.org/abs/2203.07831)
+    [http://arxiv.org/abs/2306.15056](http://arxiv.org/abs/2306.15056)
 
-    本文研究了概率误差模型对图卷积网络（GCN）性能的影响，并证明了误差模型下邻接矩阵的受限性。通过实验验证了这种误差界限，并研究了GCN在这种概率误差模型下的准确性敏感性。
+    本论文研究了具有公共数据的最优差分隐私学习，并解决了在训练差分隐私模型时如何利用公共数据提高准确性的问题。
 
     
 
-    图卷积网络（GCN）可以通过图卷积成功学习图信号表示。图卷积依赖于图滤波器，其中包含数据的拓扑依赖关系并传播数据特征。然而，在传播矩阵（例如邻接矩阵）中的估计误差可能对图滤波器和GCNs产生重大影响。本文研究概率图误差模型对GCN性能的影响。我们证明了在误差模型下的邻接矩阵受到图大小和误差概率函数的限制。我们进一步分析了带有自循环的归一化邻接矩阵的上界。最后，我们通过在合成数据集上运行实验来说明误差界限，并研究简单GCN在这种概率误差模型下的准确性敏感性。
+    差分隐私能够确保训练机器学习模型不泄漏私密数据。然而，差分隐私的代价是模型的准确性降低或样本复杂度增加。在实践中，我们可能可以访问不涉及隐私问题的辅助公共数据。这促使了最近研究公共数据在提高差分隐私模型准确性方面的作用。在本研究中，我们假设有一定数量的公共数据，并解决以下基本开放问题：1.在有公共数据的情况下，训练基于私有数据集的差分隐私模型的最优（最坏情况）误差是多少？哪些算法是最优的？2.如何利用公共数据在实践中改进差分隐私模型训练？我们在本地模型和中心模型的差分隐私问题下考虑这些问题。为了回答第一个问题，我们证明了对三个基本问题的最优误差率的紧密（最高常数因子）下界和上界。这三个问题是：均值估计，经验风险最小化和凸奇化。
 
-    Graph convolutional networks (GCNs) can successfully learn the graph signal representation by graph convolution. The graph convolution depends on the graph filter, which contains the topological dependency of data and propagates data features. However, the estimation errors in the propagation matrix (e.g., the adjacency matrix) can have a significant impact on graph filters and GCNs. In this paper, we study the effect of a probabilistic graph error model on the performance of the GCNs. We prove that the adjacency matrix under the error model is bounded by a function of graph size and error probability. We further analytically specify the upper bound of a normalized adjacency matrix with self-loop added. Finally, we illustrate the error bounds by running experiments on a synthetic dataset and study the sensitivity of a simple GCN under this probabilistic error model on accuracy.
+    Differential Privacy (DP) ensures that training a machine learning model does not leak private data. However, the cost of DP is lower model accuracy or higher sample complexity. In practice, we may have access to auxiliary public data that is free of privacy concerns. This has motivated the recent study of what role public data might play in improving the accuracy of DP models. In this work, we assume access to a given amount of public data and settle the following fundamental open questions: 1. What is the optimal (worst-case) error of a DP model trained over a private data set while having access to side public data? What algorithms are optimal? 2. How can we harness public data to improve DP model training in practice? We consider these questions in both the local and central models of DP. To answer the first question, we prove tight (up to constant factors) lower and upper bounds that characterize the optimal error rates of three fundamental problems: mean estimation, empirical ris
+    
+[^4]: 循环神经网络的记忆：我们计算得对吗？
+
+    Memory of recurrent networks: Do we compute it right?. (arXiv:2305.01457v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.01457](http://arxiv.org/abs/2305.01457)
+
+    本文研究了线性回声状态网络的记忆容量计算问题。通过发现数值评估的不准确性主要源于数值方面的问题，提出了基于掩码矩阵MC相对于中立性的稳健数值方法，该方法可以解决数值评估中的误差问题。
+
+    
+
+    文献中对于循环神经网络的记忆容量（MC）的数值评估常常与已经建立的理论界限相矛盾。本文研究了线性回声状态网络的情况，对应的Kalman可控矩阵的秩已被证明等于总记忆容量。我们揭示了关于记忆不准确的数值评估的各种原因，并表明这些问题是纯粹数值方面上的，往往在近期文献中被忽视。更明确地说，我们证明了当线性MC的Krylov结构被忽略时，理论MC和它的经验值之间会存在差距。解决这一问题的方法是，利用MC相对于输入掩码矩阵的中立性，开发出稳健的数值方法。模拟结果显示，我们提出的方法得到的记忆曲线与理论完全一致。
+
+    Numerical evaluations of the memory capacity (MC) of recurrent neural networks reported in the literature often contradict well-established theoretical bounds. In this paper, we study the case of linear echo state networks, for which the total memory capacity has been proven to be equal to the rank of the corresponding Kalman controllability matrix. We shed light on various reasons for the inaccurate numerical estimations of the memory, and we show that these issues, often overlooked in the recent literature, are of an exclusively numerical nature. More explicitly, we prove that when the Krylov structure of the linear MC is ignored, a gap between the theoretical MC and its empirical counterpart is introduced. As a solution, we develop robust numerical approaches by exploiting a result of MC neutrality with respect to the input mask matrix. Simulations show that the memory curves that are recovered using the proposed methods fully agree with the theory.
     
 
