@@ -2,82 +2,97 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Bayesian Quantile Regression with Subset Selection: A Posterior Summarization Perspective.](http://arxiv.org/abs/2311.02043) | 本研究提出了一种基于贝叶斯决策分析的方法，对于任何贝叶斯回归模型，可以得到每个条件分位数的最佳和可解释的线性估计值和不确定性量化。该方法是一种适用于特定分位数子集选择的有效工具。 |
-| [^2] | [Understanding black-box models with dependent inputs through a generalization of Hoeffding's decomposition.](http://arxiv.org/abs/2310.06567) | 通过提出一个新的框架，我们可以解释有关依赖输入的黑箱模型。我们证明了在一些合理的假设下，非线性函数可以唯一分解为每个可能子集的函数之和。这个框架有效地推广了Hoeffding分解，并提供了新颖的可解释性指标。 |
-| [^3] | [Parallel-in-Time Probabilistic Numerical ODE Solvers.](http://arxiv.org/abs/2310.01145) | 本文提出了一种并行时间概率数值ODE求解器，通过将数值模拟问题视为贝叶斯状态估计问题，并利用贝叶斯滤波和平滑的框架，实现了在并行处理所有时间步骤的同时将时间开销降低到对数级别。 |
-| [^4] | [Label Alignment Regularization for Distribution Shift.](http://arxiv.org/abs/2211.14960) | 这篇论文提出了一种用于无监督领域自适应的正则化方法，通过鼓励目标域中的预测与其前几个奇异向量对齐来实现。与传统方法不同的是，这个方法通过正则化分类器与无监督目标数据对齐，而不是正则化表示。通过消除对最优联合风险假设的依赖，该方法展示了很好的效果。 |
-| [^5] | [Optimality and complexity of classification by random projection.](http://arxiv.org/abs/2108.06339) | 本文研究了一组低复杂度分类器，该分类器可以近似于任意连续函数和布尔函数，且在给定类条件密度的情况下，其误差与最优误差相同。 |
+| [^1] | [A Systematic Approach to Robustness Modelling for Deep Convolutional Neural Networks.](http://arxiv.org/abs/2401.13751) | 本论文提出一种系统化方法，用于针对深度卷积神经网络进行鲁棒性建模。研究发现隐藏层数量对模型的推广性能有影响，同时还测试了模型大小、浮点精度、训练数据和模型输出的噪声水平等参数。为了改进模型的预测能力和计算成本，提出了一种使用诱发故障来建模故障概率的方法。 |
+| [^2] | [The Computational Complexity of Finding Stationary Points in Non-Convex Optimization.](http://arxiv.org/abs/2310.09157) | 本文研究了在非凸优化中找到光滑目标函数的近似稳定点的计算复杂性和查询复杂性，并给出了相应的结果。对于$d=2$的情况，提供了一种零阶算法，只需要少量的函数值查询即可找到$\varepsilon$-近似稳定点。 |
+| [^3] | [fmeffects: An R Package for Forward Marginal Effects.](http://arxiv.org/abs/2310.02008) | fmeffects是第一个实现前向边际效应（FMEs）的R软件包。 |
+| [^4] | [Score diffusion models without early stopping: finite Fisher information is all you need.](http://arxiv.org/abs/2308.12240) | 无早停的分数扩散模型不需要得分函数的Lipschitz均匀条件，只需要有限的费舍尔信息。 |
+| [^5] | [Identifiable causal inference with noisy treatment and no side information.](http://arxiv.org/abs/2306.10614) | 本论文提出了一种在没有侧面信息和具有复杂非线性依赖性的情况下，纠正因治疗变量不准确测量引起的因果效应估计偏差的模型，并证明了该模型的因果效应估计是可识别的。该方法使用了深度潜在变量模型和分摊权重变分客观函数进行训练。 |
+| [^6] | [Identification and multiply robust estimation in causal mediation analysis with treatment noncompliance.](http://arxiv.org/abs/2304.10025) | 本文针对治疗不服从性提出了一种半参数框架来评估因果中介效应，提出了一组假设来识别自然中介效应并推导出成倍稳健估计器。 |
 
 # 详细
 
-[^1]: 基于子集选择的贝叶斯分位回归：后验总结视角
+[^1]: 一种针对深度卷积神经网络的鲁棒性建模的系统化方法
 
-    Bayesian Quantile Regression with Subset Selection: A Posterior Summarization Perspective. (arXiv:2311.02043v1 [stat.ME])
+    A Systematic Approach to Robustness Modelling for Deep Convolutional Neural Networks. (arXiv:2401.13751v1 [cs.LG])
 
-    [http://arxiv.org/abs/2311.02043](http://arxiv.org/abs/2311.02043)
+    [http://arxiv.org/abs/2401.13751](http://arxiv.org/abs/2401.13751)
 
-    本研究提出了一种基于贝叶斯决策分析的方法，对于任何贝叶斯回归模型，可以得到每个条件分位数的最佳和可解释的线性估计值和不确定性量化。该方法是一种适用于特定分位数子集选择的有效工具。
-
-    
-
-    分位回归是一种强大的工具，用于推断协变量如何影响响应分布的特定分位数。现有方法要么分别估计每个感兴趣分位数的条件分位数，要么使用半参数或非参数模型估计整个条件分布。前者经常产生不适合实际数据的模型，并且不在分位数之间共享信息，而后者则以复杂且受限制的模型为特点，难以解释和计算效率低下。此外，这两种方法都不适合于特定分位数的子集选择。相反，我们从贝叶斯决策分析的角度出发，提出了线性分位估计、不确定性量化和子集选择的基本问题。对于任何贝叶斯回归模型，我们为每个基于模型的条件分位数推导出最佳和可解释的线性估计值和不确定性量化。我们的方法引入了一种分位数聚焦的方法。
-
-    Quantile regression is a powerful tool for inferring how covariates affect specific percentiles of the response distribution. Existing methods either estimate conditional quantiles separately for each quantile of interest or estimate the entire conditional distribution using semi- or non-parametric models. The former often produce inadequate models for real data and do not share information across quantiles, while the latter are characterized by complex and constrained models that can be difficult to interpret and computationally inefficient. Further, neither approach is well-suited for quantile-specific subset selection. Instead, we pose the fundamental problems of linear quantile estimation, uncertainty quantification, and subset selection from a Bayesian decision analysis perspective. For any Bayesian regression model, we derive optimal and interpretable linear estimates and uncertainty quantification for each model-based conditional quantile. Our approach introduces a quantile-focu
-    
-[^2]: 通过Hoeffding分解的推广，理解有关依赖输入的黑箱模型
-
-    Understanding black-box models with dependent inputs through a generalization of Hoeffding's decomposition. (arXiv:2310.06567v1 [math.FA])
-
-    [http://arxiv.org/abs/2310.06567](http://arxiv.org/abs/2310.06567)
-
-    通过提出一个新的框架，我们可以解释有关依赖输入的黑箱模型。我们证明了在一些合理的假设下，非线性函数可以唯一分解为每个可能子集的函数之和。这个框架有效地推广了Hoeffding分解，并提供了新颖的可解释性指标。
+    本论文提出一种系统化方法，用于针对深度卷积神经网络进行鲁棒性建模。研究发现隐藏层数量对模型的推广性能有影响，同时还测试了模型大小、浮点精度、训练数据和模型输出的噪声水平等参数。为了改进模型的预测能力和计算成本，提出了一种使用诱发故障来建模故障概率的方法。
 
     
 
-    解释黑箱模型的主要挑战之一是能够将非互不相关随机输入的平方可积函数唯一分解为每个可能子集的函数之和。然而，处理输入之间的依赖关系可能很复杂。我们提出了一个新的框架来研究这个问题，将三个数学领域联系起来：概率论、函数分析和组合数学。我们表明，在输入上的两个合理假设下（非完美的函数依赖性和非退化的随机依赖性），总是可以唯一分解这样一个函数。这种“规范分解”相对直观，揭示了非线性相关输入的非线性函数的线性特性。在这个框架中，我们有效地推广了众所周知的Hoeffding分解，可以看作是一个特殊情况。黑箱模型的斜投影为新颖的可解释性指标提供了可能。
+    当有大量标记数据可用时，卷积神经网络已经被证明在许多领域都可以广泛应用。最近的趋势是使用具有越来越多可调参数的模型，以提高模型准确性，降低模型损失或创建更具对抗鲁棒性的模型，而这些目标通常相互矛盾。特别是，最近的理论研究提出了对更大模型能否推广到受控的训练和测试集之外的数据的疑问。因此，我们研究了ResNet模型中隐藏层的数量在MNIST、CIFAR10和CIFAR100数据集上的作用。我们测试了各种参数，包括模型的大小、浮点精度，以及训练数据和模型输出的噪声水平。为了改进模型的预测能力和计算成本，我们提供了一种使用诱发故障来建模故障概率的方法。
 
-    One of the main challenges for interpreting black-box models is the ability to uniquely decompose square-integrable functions of non-mutually independent random inputs into a sum of functions of every possible subset of variables. However, dealing with dependencies among inputs can be complicated. We propose a novel framework to study this problem, linking three domains of mathematics: probability theory, functional analysis, and combinatorics. We show that, under two reasonable assumptions on the inputs (non-perfect functional dependence and non-degenerate stochastic dependence), it is always possible to decompose uniquely such a function. This ``canonical decomposition'' is relatively intuitive and unveils the linear nature of non-linear functions of non-linearly dependent inputs. In this framework, we effectively generalize the well-known Hoeffding decomposition, which can be seen as a particular case. Oblique projections of the black-box model allow for novel interpretability indic
+    Convolutional neural networks have shown to be widely applicable to a large number of fields when large amounts of labelled data are available. The recent trend has been to use models with increasingly larger sets of tunable parameters to increase model accuracy, reduce model loss, or create more adversarially robust models -- goals that are often at odds with one another. In particular, recent theoretical work raises questions about the ability for even larger models to generalize to data outside of the controlled train and test sets. As such, we examine the role of the number of hidden layers in the ResNet model, demonstrated on the MNIST, CIFAR10, CIFAR100 datasets. We test a variety of parameters including the size of the model, the floating point precision, and the noise level of both the training data and the model output. To encapsulate the model's predictive power and computational cost, we provide a method that uses induced failures to model the probability of failure as a fun
     
-[^3]: 并行时间概率数值ODE求解器
+[^2]: 寻找非凸优化中的稳定点的计算复杂性
 
-    Parallel-in-Time Probabilistic Numerical ODE Solvers. (arXiv:2310.01145v1 [math.NA])
+    The Computational Complexity of Finding Stationary Points in Non-Convex Optimization. (arXiv:2310.09157v1 [math.OC])
 
-    [http://arxiv.org/abs/2310.01145](http://arxiv.org/abs/2310.01145)
+    [http://arxiv.org/abs/2310.09157](http://arxiv.org/abs/2310.09157)
 
-    本文提出了一种并行时间概率数值ODE求解器，通过将数值模拟问题视为贝叶斯状态估计问题，并利用贝叶斯滤波和平滑的框架，实现了在并行处理所有时间步骤的同时将时间开销降低到对数级别。
-
-    
-
-    针对常微分方程(ODE)的概率数值求解器将动力系统的数值仿真问题视为贝叶斯状态估计问题。除了生成ODE解的后验分布并因此量化方法本身的数值逼近误差之外，这种形式化方法的一个不常被注意到的优势是通过在贝叶斯滤波和平滑的框架中进行数值模拟而获得的算法灵活性。在本文中，我们利用这种灵活性，基于时间并行迭代扩展卡尔曼平滑器的公式化，提出了一种并行时间概率数值ODE求解器。与当前的概率求解器依次按时间顺序模拟动力系统不同，所提出的方法以并行方式处理所有时间步骤，从而将时间开销从线性降低到对数级别的时间步骤数。我们通过在多种问题上展示了我们方法的有效性。
-
-    Probabilistic numerical solvers for ordinary differential equations (ODEs) treat the numerical simulation of dynamical systems as problems of Bayesian state estimation. Aside from producing posterior distributions over ODE solutions and thereby quantifying the numerical approximation error of the method itself, one less-often noted advantage of this formalism is the algorithmic flexibility gained by formulating numerical simulation in the framework of Bayesian filtering and smoothing. In this paper, we leverage this flexibility and build on the time-parallel formulation of iterated extended Kalman smoothers to formulate a parallel-in-time probabilistic numerical ODE solver. Instead of simulating the dynamical system sequentially in time, as done by current probabilistic solvers, the proposed method processes all time steps in parallel and thereby reduces the span cost from linear to logarithmic in the number of time steps. We demonstrate the effectiveness of our approach on a variety o
-    
-[^4]: 分布偏移的标签对齐正则化
-
-    Label Alignment Regularization for Distribution Shift. (arXiv:2211.14960v2 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2211.14960](http://arxiv.org/abs/2211.14960)
-
-    这篇论文提出了一种用于无监督领域自适应的正则化方法，通过鼓励目标域中的预测与其前几个奇异向量对齐来实现。与传统方法不同的是，这个方法通过正则化分类器与无监督目标数据对齐，而不是正则化表示。通过消除对最优联合风险假设的依赖，该方法展示了很好的效果。
+    本文研究了在非凸优化中找到光滑目标函数的近似稳定点的计算复杂性和查询复杂性，并给出了相应的结果。对于$d=2$的情况，提供了一种零阶算法，只需要少量的函数值查询即可找到$\varepsilon$-近似稳定点。
 
     
 
-    最近的研究强调了监督学习中的标签对齐属性（LAP），即数据集中所有标签的向量大部分在数据矩阵的前几个奇异向量的张成空间内。受到这一观察的启发，我们提出了一种无监督领域自适应的正则化方法，鼓励目标域中的预测与其前几个奇异向量对齐。与传统的领域适应方法专注于正则化表示不同，我们相反，通过在源域和目标域中使用LAP，用正则化分类器与无监督目标数据对齐。理论分析表明，在一定的假设下，我们的解决方案位于目标域数据的前几个右奇异向量的张成空间内，并与最优解对齐。通过消除经典领域适应理论中常见的最优联合风险假设的依赖，我们展示了该方法的有效性。
+    寻找非凸但光滑目标函数$f$在无限制的$d$维域上的近似稳定点，即梯度近似为零的点，是经典非凸优化中最基本的问题之一。然而，当问题的维度$d$与近似误差独立时，这个问题的计算复杂性和查询复杂性仍不十分清楚。在本文中，我们展示了以下计算复杂性和查询复杂性结果：1.在无限制的域中寻找近似稳定点的问题是PLS完全问题。2.对于$d=2$，我们提供了一种零阶算法，用于寻找$\varepsilon$-近似稳定点，只需要对目标函数进行最多$O(1/\varepsilon)$次函数值查询。3.我们证明当$d=2$时，任何算法至少需要$\Omega(1/\varepsilon)$次对目标函数和/或梯度的查询来找到$\varepsilon$-近似稳定点。
 
-    Recent work has highlighted the label alignment property (LAP) in supervised learning, where the vector of all labels in the dataset is mostly in the span of the top few singular vectors of the data matrix. Drawing inspiration from this observation, we propose a regularization method for unsupervised domain adaptation that encourages alignment between the predictions in the target domain and its top singular vectors. Unlike conventional domain adaptation approaches that focus on regularizing representations, we instead regularize the classifier to align with the unsupervised target data, guided by the LAP in both the source and target domains. Theoretical analysis demonstrates that, under certain assumptions, our solution resides within the span of the top right singular vectors of the target domain data and aligns with the optimal solution. By removing the reliance on the commonly used optimal joint risk assumption found in classic domain adaptation theory, we showcase the effectivene
+    Finding approximate stationary points, i.e., points where the gradient is approximately zero, of non-convex but smooth objective functions $f$ over unrestricted $d$-dimensional domains is one of the most fundamental problems in classical non-convex optimization. Nevertheless, the computational and query complexity of this problem are still not well understood when the dimension $d$ of the problem is independent of the approximation error. In this paper, we show the following computational and query complexity results:  1. The problem of finding approximate stationary points over unrestricted domains is PLS-complete.  2. For $d = 2$, we provide a zero-order algorithm for finding $\varepsilon$-approximate stationary points that requires at most $O(1/\varepsilon)$ value queries to the objective function.  3. We show that any algorithm needs at least $\Omega(1/\varepsilon)$ queries to the objective function and/or its gradient to find $\varepsilon$-approximate stationary points when $d=2$.
     
-[^5]: 随机投影分类的最优性和复杂度。
+[^3]: fmeffects: 一个用于前向边际效应的R软件包
 
-    Optimality and complexity of classification by random projection. (arXiv:2108.06339v3 [cs.LG] UPDATED)
+    fmeffects: An R Package for Forward Marginal Effects. (arXiv:2310.02008v1 [cs.LG])
 
-    [http://arxiv.org/abs/2108.06339](http://arxiv.org/abs/2108.06339)
+    [http://arxiv.org/abs/2310.02008](http://arxiv.org/abs/2310.02008)
 
-    本文研究了一组低复杂度分类器，该分类器可以近似于任意连续函数和布尔函数，且在给定类条件密度的情况下，其误差与最优误差相同。
+    fmeffects是第一个实现前向边际效应（FMEs）的R软件包。
 
     
 
-    分类器的泛化误差与选择分类器的函数集的复杂度有关。我们研究了一组低复杂度分类器，包括通过随机一维特征做阈值处理。该特征通过将数据嵌入到由高次单项式参数化的更高维空间中后在随机直线上进行投影而得到。具体而言，扩展的数据被投影n次，并从这n个中选出表现在训练数据上最好的分类器。我们证明了这种类型的分类器是极其灵活的，因为它有可能近似于任何在紧致集上的连续函数，以及将支撑集拆分为可测子集的任何布尔函数。特别地，如果给定类条件密度的完全知识，则这些低复杂度分类器的误差将在k和n趋近于无穷大时收敛到最优（贝叶斯）误差。
+    前向边际效应（FMEs）作为一种通用有效的模型不可知解释方法最近被引入。它们以“如果我们将$x$改变$h$，那么预测结果$\widehat{y}$会发生什么变化？”的形式提供易于理解和可操作的模型解释。本文介绍了fmeffects软件包，这是FMEs的第一个软件实现。讨论了相关的理论背景、软件包功能和处理方式，以及软件设计和未来扩展的选项。
 
-    The generalization error of a classifier is related to the complexity of the set of functions among which the classifier is chosen. We study a family of low-complexity classifiers consisting of thresholding a random one-dimensional feature. The feature is obtained by projecting the data on a random line after embedding it into a higher-dimensional space parametrized by monomials of order up to k. More specifically, the extended data is projected n-times and the best classifier among those n, based on its performance on training data, is chosen. We show that this type of classifier is extremely flexible, as it is likely to approximate, to an arbitrary precision, any continuous function on a compact set as well as any boolean function on a compact set that splits the support into measurable subsets. In particular, given full knowledge of the class conditional densities, the error of these low-complexity classifiers would converge to the optimal (Bayes) error as k and n go to infinity. On
+    Forward marginal effects (FMEs) have recently been introduced as a versatile and effective model-agnostic interpretation method. They provide comprehensible and actionable model explanations in the form of: If we change $x$ by an amount $h$, what is the change in predicted outcome $\widehat{y}$? We present the R package fmeffects, the first software implementation of FMEs. The relevant theoretical background, package functionality and handling, as well as the software design and options for future extensions are discussed in this paper.
+    
+[^4]: 无早停的分数扩散模型：有限费舍尔信息就足够了
+
+    Score diffusion models without early stopping: finite Fisher information is all you need. (arXiv:2308.12240v1 [math.ST])
+
+    [http://arxiv.org/abs/2308.12240](http://arxiv.org/abs/2308.12240)
+
+    无早停的分数扩散模型不需要得分函数的Lipschitz均匀条件，只需要有限的费舍尔信息。
+
+    
+
+    分数扩散模型是一种围绕着与随机微分方程相关的得分函数估计的生成模型。在获得近似的得分函数之后，利用它来模拟相应的时间逆过程，最终实现近似数据样本的生成。尽管这些模型具有显著的实际意义，但在涉及非常规得分和估计器的情况下，仍存在一个显著的挑战，即缺乏全面的定量结果。在几乎所有的Kullback Leibler散度的相关结果中，都假设得分函数或其近似在时间上是Lipschitz均匀的。然而，在实践中，这个条件非常严格，或者很难建立。为了解决这个问题，先前的研究主要是关注分数扩散模型的早停版本在KL散度上的收敛界限，并且...
+
+    Diffusion models are a new class of generative models that revolve around the estimation of the score function associated with a stochastic differential equation. Subsequent to its acquisition, the approximated score function is then harnessed to simulate the corresponding time-reversal process, ultimately enabling the generation of approximate data samples. Despite their evident practical significance these models carry, a notable challenge persists in the form of a lack of comprehensive quantitative results, especially in scenarios involving non-regular scores and estimators. In almost all reported bounds in Kullback Leibler (KL) divergence, it is assumed that either the score function or its approximation is Lipschitz uniformly in time. However, this condition is very restrictive in practice or appears to be difficult to establish.  To circumvent this issue, previous works mainly focused on establishing convergence bounds in KL for an early stopped version of the diffusion model and
+    
+[^5]: 带有嘈杂治疗和没有侧面信息的可识别因果推断
+
+    Identifiable causal inference with noisy treatment and no side information. (arXiv:2306.10614v1 [cs.LG])
+
+    [http://arxiv.org/abs/2306.10614](http://arxiv.org/abs/2306.10614)
+
+    本论文提出了一种在没有侧面信息和具有复杂非线性依赖性的情况下，纠正因治疗变量不准确测量引起的因果效应估计偏差的模型，并证明了该模型的因果效应估计是可识别的。该方法使用了深度潜在变量模型和分摊权重变分客观函数进行训练。
+
+    
+
+    在某些因果推断场景中，治疗（即原因）变量的测量存在不准确性，例如在流行病学或计量经济学中。未能纠正测量误差的影响可能导致偏差的因果效应估计。以前的研究没有从因果视角研究解决这个问题的方法，同时允许复杂的非线性依赖关系并且不假设可以访问侧面信息。对于这样的场景，本论文提出了一个模型，它假设存在一个连续的治疗变量，该变量测量不准确。建立在现有测量误差模型的基础上，我们证明了我们的模型的因果效应估计是可识别的，即使没有测量误差方差或其他侧面信息的知识。我们的方法依赖于深度潜在变量模型，其中高斯条件由神经网络参数化，并且我们开发了一个分摊权重变分客观函数来训练该模型。
+
+    In some causal inference scenarios, the treatment (i.e. cause) variable is measured inaccurately, for instance in epidemiology or econometrics. Failure to correct for the effect of this measurement error can lead to biased causal effect estimates. Previous research has not studied methods that address this issue from a causal viewpoint while allowing for complex nonlinear dependencies and without assuming access to side information. For such as scenario, this paper proposes a model that assumes a continuous treatment variable which is inaccurately measured. Building on existing results for measurement error models, we prove that our model's causal effect estimates are identifiable, even without knowledge of the measurement error variance or other side information. Our method relies on a deep latent variable model where Gaussian conditionals are parameterized by neural networks, and we develop an amortized importance-weighted variational objective for training the model. Empirical resul
+    
+[^6]: 用于因果中介分析中具有治疗不服从性的识别和倍增稳健估计
+
+    Identification and multiply robust estimation in causal mediation analysis with treatment noncompliance. (arXiv:2304.10025v1 [stat.ME])
+
+    [http://arxiv.org/abs/2304.10025](http://arxiv.org/abs/2304.10025)
+
+    本文针对治疗不服从性提出了一种半参数框架来评估因果中介效应，提出了一组假设来识别自然中介效应并推导出成倍稳健估计器。
+
+    
+
+    在实验和观察研究中，人们通常对了解干预方案如何改善最终结果的潜在机制感兴趣。因果中介分析旨在达到此目的，但主要限于治疗完全服从的情况，只有少数情况需要排除限制。在本文中，我们建立了一个半参数框架，用于在无需排除限制的情况下评估具有治疗不服从性的因果中介效应。我们提出了一组假设来识别整个研究人群的自然中介效应，并进一步针对由潜在服从行为特征化的亚人群中的主要自然中介效应进行识别。我们推导出了主要自然中介效应估计量的有效影响函数，这激励了一组倍增稳健估计器进行推论。这些被识别估计量的半参数效率理论。
+
+    In experimental and observational studies, there is often interest in understanding the potential mechanism by which an intervention program improves the final outcome. Causal mediation analyses have been developed for this purpose but are primarily restricted to the case of perfect treatment compliance, with a few exceptions that require exclusion restriction. In this article, we establish a semiparametric framework for assessing causal mediation in the presence of treatment noncompliance without exclusion restriction. We propose a set of assumptions to identify the natural mediation effects for the entire study population and further, for the principal natural mediation effects within subpopulations characterized by the potential compliance behaviour. We derive the efficient influence functions for the principal natural mediation effect estimands, which motivate a set of multiply robust estimators for inference. The semiparametric efficiency theory for the identified estimands is der
     
 
