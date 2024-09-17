@@ -2,97 +2,127 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Distribution-Free Fair Federated Learning with Small Samples](https://arxiv.org/abs/2402.16158) | 本文介绍了一种用于分布无关公平学习的后处理算法FedFaiREE，适用于去中心化具有小样本的环境。 |
-| [^2] | [Revisiting Convergence of AdaGrad with Relaxed Assumptions](https://arxiv.org/abs/2402.13794) | 重新审视了AdaGrad在非凸光滑优化问题上的收敛性，提出了通用噪声模型，得出了概率收敛速度，无需先验知识，且可以在噪声参数足够小时加速至更快的速度。 |
-| [^3] | [Variational Bayes image restoration with compressive autoencoders](https://arxiv.org/abs/2311.17744) | 使用压缩自动编码器代替最先进的生成模型，提出了一种在图像恢复中的新方法。 |
-| [^4] | [Four Facets of Forecast Felicity: Calibration, Predictiveness, Randomness and Regret.](http://arxiv.org/abs/2401.14483) | 本文展示了校准和遗憾在评估预测中的概念等价性，将评估问题构建为一个预测者、一个赌徒和自然之间的博弈，并将预测的评估与结果的随机性联系起来。 |
-| [^5] | [Reflection coupling for unadjusted generalized Hamiltonian Monte Carlo in the nonconvex stochastic gradient case.](http://arxiv.org/abs/2310.18774) | 该论文研究了非凸随机梯度情况下未调整的广义哈密尔顿蒙特卡罗中的反射耦合，证明了Wasserstein 1距离的收敛性，并提供了定量高斯集中界限，同时还给出了Wasserstein 2距离、总变差和相对熵的收敛性。 |
-| [^6] | [Stationary Kernels and Gaussian Processes on Lie Groups and their Homogeneous Spaces II: non-compact symmetric spaces.](http://arxiv.org/abs/2301.13088) | 本文开发了构建非欧几里得空间上静止高斯过程的实用技术，能够对定义在这些空间上的先验和后验高斯过程进行实际采样和计算协方差核。 |
+| [^1] | [Conformal Off-Policy Prediction for Multi-Agent Systems](https://arxiv.org/abs/2403.16871) | 这项工作介绍了MA-COPP，这是第一个解决涉及多智能体系统的离策略预测问题的一致预测方法。 |
+| [^2] | [Assumption-lean and Data-adaptive Post-Prediction Inference](https://arxiv.org/abs/2311.14220) | 这项工作介绍了一种假设简化和数据自适应的后预测推断（POP-Inf）过程，可以有效且有力地基于机器学习预测结果进行统计推断。 |
+| [^3] | [A Survey on Statistical Theory of Deep Learning: Approximation, Training Dynamics, and Generative Models.](http://arxiv.org/abs/2401.07187) | 该论文综述了深度学习的统计理论，包括近似方法、训练动态和生成模型。在非参数框架中，结果揭示了神经网络过度风险的快速收敛速率，以及如何通过梯度方法训练网络以找到良好的泛化解决方案。 |
+| [^4] | [Generative neural networks for characteristic functions.](http://arxiv.org/abs/2401.04778) | 本论文研究了利用生成神经网络模拟特征函数的问题，并通过构建一个普适且无需假设的生成神经网络来解决。研究基于最大均值差异度量，并提出了有关逼近质量的有限样本保证。 |
+| [^5] | [Energy based diffusion generator for efficient sampling of Boltzmann distributions.](http://arxiv.org/abs/2401.02080) | 介绍了一种称为基于能量的扩散生成器的新型采样器，用于从任意目标分布中生成样本，并通过扩散模型和广义哈密顿动力学提高采样性能。在各种复杂分布函数上的实证评估中表现出优越性。 |
+| [^6] | [Learning Capacity: A Measure of the Effective Dimensionality of a Model.](http://arxiv.org/abs/2305.17332) | 学习能力是一种度量模型有效维度的方法，它可以帮助我们判断是否需要获取更多数据或者寻找新的体系结构以提高性能。 |
+| [^7] | [Sarah Frank-Wolfe: Methods for Constrained Optimization with Best Rates and Practical Features.](http://arxiv.org/abs/2304.11737) | 本论文介绍了两种新的随机FW有限和最小化算法变体，适用于凸函数和非凸函数，且具有最佳收敛保证。同时两种方法不需要永久收集大批数据和全确定性梯度。 |
+| [^8] | [High-dimensional and universally consistent k-sample tests.](http://arxiv.org/abs/1910.08883) | 本文证明了独立性测试实现了普遍一致的k样本检验，并且发现非参数独立性测试通常比多元方差分析(MANOVA)测试在高斯分布情况下表现更好。 |
 
 # 详细
 
-[^1]: 分布无关公平联邦学习与小样本
+[^1]: 多智能体系统的一致离策略预测
 
-    Distribution-Free Fair Federated Learning with Small Samples
+    Conformal Off-Policy Prediction for Multi-Agent Systems
 
-    [https://arxiv.org/abs/2402.16158](https://arxiv.org/abs/2402.16158)
+    [https://arxiv.org/abs/2403.16871](https://arxiv.org/abs/2403.16871)
 
-    本文介绍了一种用于分布无关公平学习的后处理算法FedFaiREE，适用于去中心化具有小样本的环境。
-
-    
-
-    随着联邦学习在实际应用中变得越来越重要，因为它具有去中心化数据训练的能力，解决跨群体的公平性问题变得至关重要。然而，大多数现有的用于确保公平性的机器学习算法是为集中化数据环境设计的，通常需要大样本和分布假设，强调了迫切需要针对具有有限样本和分布无关保证的去中心化和异构系统进行公平性技术的调整。为了解决这个问题，本文介绍了FedFaiREE，这是一种专门用于去中心化环境中小样本的分布无关公平学习的后处理算法。我们的方法考虑到了去中心化环境中的独特挑战，例如客户异质性、通信成本和小样本大小。我们为bot提供严格的理论保证
-
-    arXiv:2402.16158v1 Announce Type: cross  Abstract: As federated learning gains increasing importance in real-world applications due to its capacity for decentralized data training, addressing fairness concerns across demographic groups becomes critically important. However, most existing machine learning algorithms for ensuring fairness are designed for centralized data environments and generally require large-sample and distributional assumptions, underscoring the urgent need for fairness techniques adapted for decentralized and heterogeneous systems with finite-sample and distribution-free guarantees. To address this issue, this paper introduces FedFaiREE, a post-processing algorithm developed specifically for distribution-free fair learning in decentralized settings with small samples. Our approach accounts for unique challenges in decentralized environments, such as client heterogeneity, communication costs, and small sample sizes. We provide rigorous theoretical guarantees for bot
-    
-[^2]: 重新审视AdaGrad在宽松假设下的收敛性
-
-    Revisiting Convergence of AdaGrad with Relaxed Assumptions
-
-    [https://arxiv.org/abs/2402.13794](https://arxiv.org/abs/2402.13794)
-
-    重新审视了AdaGrad在非凸光滑优化问题上的收敛性，提出了通用噪声模型，得出了概率收敛速度，无需先验知识，且可以在噪声参数足够小时加速至更快的速度。
+    这项工作介绍了MA-COPP，这是第一个解决涉及多智能体系统的离策略预测问题的一致预测方法。
 
     
 
-    在这项研究中，我们重新审视了AdaGrad在非凸光滑优化问题上的收敛性，包括AdaGrad作为一种特殊情况。我们考虑了一个通用的噪声模型，其中噪声的大小由函数值差和梯度大小控制。这个模型涵盖了广泛范围的噪声，包括有界噪声、次高斯噪声、仿射方差噪声和预期光滑度，并且在许多实际应用中被证明更加现实。我们的分析得出了一个概率收敛速度，根据通用噪声，可以达到( \tilde{\mathcal{O}}(1/\sqrt{T}))。这个速度不依赖于先前对问题参数的了解，当与函数值差和噪声水平相关的参数足够小时，它可以加速到(\tilde{\mathcal{O}}(1/T))，其中(T)表示总迭代次数。收敛速度因此匹配了下限速度。
+    离策略预测（OPP），即仅使用在一个正常（行为）策略下收集的数据来预测目标策略的结果，在数据驱动的安全关键系统分析中是一个重要问题，在这种系统中，部署新策略可能是不安全的。为了实现可信的离策略预测，最近关于一致离策略预测（COPP）的工作利用一致预测框架来在目标过程下推导带有概率保证的预测区域。现有的COPP方法可以考虑由策略切换引起的分布偏移，但仅限于单智能体系统和标量结果（例如，奖励）。在这项工作中，我们介绍了MA-COPP，这是第一个解决涉及多智能体系统的OPP问题的一致预测方法，在一个或多个“自我”智能体改变策略时为所有智能体轨迹推导联合预测区域。与单智能体场景不同，这种情况下
 
-    arXiv:2402.13794v1 Announce Type: cross  Abstract: In this study, we revisit the convergence of AdaGrad with momentum (covering AdaGrad as a special case) on non-convex smooth optimization problems. We consider a general noise model where the noise magnitude is controlled by the function value gap together with the gradient magnitude. This model encompasses a broad range of noises including bounded noise, sub-Gaussian noise, affine variance noise and the expected smoothness, and it has been shown to be more realistic in many practical applications. Our analysis yields a probabilistic convergence rate which, under the general noise, could reach at (\tilde{\mathcal{O}}(1/\sqrt{T})). This rate does not rely on prior knowledge of problem-parameters and could accelerate to (\tilde{\mathcal{O}}(1/T)) where (T) denotes the total number iterations, when the noise parameters related to the function value gap and noise level are sufficiently small. The convergence rate thus matches the lower rat
+    arXiv:2403.16871v1 Announce Type: cross  Abstract: Off-Policy Prediction (OPP), i.e., predicting the outcomes of a target policy using only data collected under a nominal (behavioural) policy, is a paramount problem in data-driven analysis of safety-critical systems where the deployment of a new policy may be unsafe. To achieve dependable off-policy predictions, recent work on Conformal Off-Policy Prediction (COPP) leverage the conformal prediction framework to derive prediction regions with probabilistic guarantees under the target process. Existing COPP methods can account for the distribution shifts induced by policy switching, but are limited to single-agent systems and scalar outcomes (e.g., rewards). In this work, we introduce MA-COPP, the first conformal prediction method to solve OPP problems involving multi-agent systems, deriving joint prediction regions for all agents' trajectories when one or more "ego" agents change their policies. Unlike the single-agent scenario, this se
     
-[^3]: 使用压缩自动编码器的变分贝叶斯图像恢复
+[^2]: 假设简化和数据自适应的后预测推断
 
-    Variational Bayes image restoration with compressive autoencoders
+    Assumption-lean and Data-adaptive Post-Prediction Inference
 
-    [https://arxiv.org/abs/2311.17744](https://arxiv.org/abs/2311.17744)
+    [https://arxiv.org/abs/2311.14220](https://arxiv.org/abs/2311.14220)
 
-    使用压缩自动编码器代替最先进的生成模型，提出了一种在图像恢复中的新方法。
-
-    
-
-    逆问题的正则化在计算成像中至关重要。近年来，神经网络学习有效图像表示的能力已被利用来设计强大的数据驱动正则化器。本文首先提出使用压缩自动编码器。这些网络可以被看作具有灵活潜在先验的变分自动编码器，比起最先进的生成模型更小更容易训练。
-
-    arXiv:2311.17744v2 Announce Type: replace-cross  Abstract: Regularization of inverse problems is of paramount importance in computational imaging. The ability of neural networks to learn efficient image representations has been recently exploited to design powerful data-driven regularizers. While state-of-the-art plug-and-play methods rely on an implicit regularization provided by neural denoisers, alternative Bayesian approaches consider Maximum A Posteriori (MAP) estimation in the latent space of a generative model, thus with an explicit regularization. However, state-of-the-art deep generative models require a huge amount of training data compared to denoisers. Besides, their complexity hampers the optimization involved in latent MAP derivation. In this work, we first propose to use compressive autoencoders instead. These networks, which can be seen as variational autoencoders with a flexible latent prior, are smaller and easier to train than state-of-the-art generative models. As a
-    
-[^4]: 预测的四个方面：校准、预测性、随机性和遗憾
-
-    Four Facets of Forecast Felicity: Calibration, Predictiveness, Randomness and Regret. (arXiv:2401.14483v1 [cs.LG])
-
-    [http://arxiv.org/abs/2401.14483](http://arxiv.org/abs/2401.14483)
-
-    本文展示了校准和遗憾在评估预测中的概念等价性，将评估问题构建为一个预测者、一个赌徒和自然之间的博弈，并将预测的评估与结果的随机性联系起来。
+    这项工作介绍了一种假设简化和数据自适应的后预测推断（POP-Inf）过程，可以有效且有力地基于机器学习预测结果进行统计推断。
 
     
 
-    机器学习是关于预测的。然而，预测只有经过评估后才具有其有用性。机器学习传统上关注损失类型及其相应的遗憾。目前，机器学习社区重新对校准产生了兴趣。在这项工作中，我们展示了校准和遗憾在评估预测中的概念等价性。我们将评估问题构建为一个预测者、一个赌徒和自然之间的博弈。通过对赌徒和预测者施加直观的限制，校准和遗憾自然地成为了这个框架的一部分。此外，这个博弈将预测的评估与结果的随机性联系起来。相对于预测而言，结果的随机性等同于关于结果的好的预测。我们称这两个方面为校准和遗憾、预测性和随机性，即预测的四个方面。
+    现代科学研究面临的主要挑战是黄金标准数据的有限可用性，而获取这些数据既耗费时间又费力。随着机器学习（ML）的快速发展，科学家们依赖于ML算法使用易得的协变量来预测这些黄金标准结果。然而，这些预测结果常常直接用于后续的统计分析中，忽略了预测过程引入的不精确性和异质性。这可能导致虚假的正面结果和无效的科学结论。在这项工作中，我们介绍了一种假设简化和数据自适应的后预测推断（POP-Inf）过程，它允许基于ML预测结果进行有效和有力的推断。它的“假设简化”属性保证在广泛的统计量上不基于ML预测做出可靠的统计推断。它的“数据自适应”特性保证了相较于现有方法的效率提高。
 
-    Machine learning is about forecasting. Forecasts, however, obtain their usefulness only through their evaluation. Machine learning has traditionally focused on types of losses and their corresponding regret. Currently, the machine learning community regained interest in calibration. In this work, we show the conceptual equivalence of calibration and regret in evaluating forecasts. We frame the evaluation problem as a game between a forecaster, a gambler and nature. Putting intuitive restrictions on gambler and forecaster, calibration and regret naturally fall out of the framework. In addition, this game links evaluation of forecasts to randomness of outcomes. Random outcomes with respect to forecasts are equivalent to good forecasts with respect to outcomes. We call those dual aspects, calibration and regret, predictiveness and randomness, the four facets of forecast felicity.
+    A primary challenge facing modern scientific research is the limited availability of gold-standard data which can be both costly and labor-intensive to obtain. With the rapid development of machine learning (ML), scientists have relied on ML algorithms to predict these gold-standard outcomes with easily obtained covariates. However, these predicted outcomes are often used directly in subsequent statistical analyses, ignoring imprecision and heterogeneity introduced by the prediction procedure. This will likely result in false positive findings and invalid scientific conclusions. In this work, we introduce an assumption-lean and data-adaptive Post-Prediction Inference (POP-Inf) procedure that allows valid and powerful inference based on ML-predicted outcomes. Its "assumption-lean" property guarantees reliable statistical inference without assumptions on the ML-prediction, for a wide range of statistical quantities. Its "data-adaptive'" feature guarantees an efficiency gain over existing
     
-[^5]: 非凸随机梯度情况下未调整的广义哈密尔顿蒙特卡罗中的反射耦合
+[^3]: 深度学习的统计理论综述：近似，训练动态和生成模型
 
-    Reflection coupling for unadjusted generalized Hamiltonian Monte Carlo in the nonconvex stochastic gradient case. (arXiv:2310.18774v1 [math.PR])
+    A Survey on Statistical Theory of Deep Learning: Approximation, Training Dynamics, and Generative Models. (arXiv:2401.07187v1 [stat.ML])
 
-    [http://arxiv.org/abs/2310.18774](http://arxiv.org/abs/2310.18774)
+    [http://arxiv.org/abs/2401.07187](http://arxiv.org/abs/2401.07187)
 
-    该论文研究了非凸随机梯度情况下未调整的广义哈密尔顿蒙特卡罗中的反射耦合，证明了Wasserstein 1距离的收敛性，并提供了定量高斯集中界限，同时还给出了Wasserstein 2距离、总变差和相对熵的收敛性。
-
-    
-
-    在可能非凸的条件下，建立了具有随机梯度的广义哈密尔顿蒙特卡罗的Wasserstein 1距离的收敛性，其中包括动力学Langevin扩散的分裂方案算法。作为结果，提供了经验平均值的定量高斯集中界限。此外，还给出了Wasserstein 2距离、总变差和相对熵的收敛性，以及数值偏差估计。
-
-    Contraction in Wasserstein 1-distance with explicit rates is established for generalized Hamiltonian Monte Carlo with stochastic gradients under possibly nonconvex conditions. The algorithms considered include splitting schemes of kinetic Langevin diffusion. As consequence, quantitative Gaussian concentration bounds are provided for empirical averages. Convergence in Wasserstein 2-distance, total variation and relative entropy are also given, together with numerical bias estimates.
-    
-[^6]: Lie 群和它们的齐次空间上的静止核和高斯过程 II：非紧对称空间
-
-    Stationary Kernels and Gaussian Processes on Lie Groups and their Homogeneous Spaces II: non-compact symmetric spaces. (arXiv:2301.13088v2 [stat.ME] UPDATED)
-
-    [http://arxiv.org/abs/2301.13088](http://arxiv.org/abs/2301.13088)
-
-    本文开发了构建非欧几里得空间上静止高斯过程的实用技术，能够对定义在这些空间上的先验和后验高斯过程进行实际采样和计算协方差核。
+    该论文综述了深度学习的统计理论，包括近似方法、训练动态和生成模型。在非参数框架中，结果揭示了神经网络过度风险的快速收敛速率，以及如何通过梯度方法训练网络以找到良好的泛化解决方案。
 
     
 
-    高斯过程是机器学习中最重要的时空模型之一，它可以编码有关建模函数的先验信息，并可用于精确或近似贝叶斯学习。在许多应用中，特别是在物理科学和工程领域，以及地质统计学和神经科学等领域，对对称性的不变性是可以考虑的最基本形式之一。高斯过程协方差对这些对称性的不变性引发了对这些空间的平稳性概念的最自然的推广。在这项工作中，我们开发了建立静止高斯过程的构造性和实用技术，用于在对称性背景下出现的非欧几里得空间的非常大的类。我们的技术使得能够（i）计算协方差核和（ii）从这些空间上定义的先验和后验高斯过程中实际地进行采样。
+    在这篇文章中，我们从三个角度回顾了关于神经网络统计理论的文献。第一部分回顾了在回归或分类的非参数框架下关于神经网络过度风险的结果。这些结果依赖于神经网络的显式构造，以及采用了近似理论的工具，导致过度风险的快速收敛速率。通过这些构造，可以用样本大小、数据维度和函数平滑性来表达网络的宽度和深度。然而，他们的基本分析仅适用于深度神经网络高度非凸的全局极小值点。这促使我们在第二部分回顾神经网络的训练动态。具体而言，我们回顾了那些试图回答“基于梯度方法训练的神经网络如何找到能够在未见数据上有良好泛化性能的解”的论文。尤其是两个知名的
 
-    Gaussian processes are arguably the most important class of spatiotemporal models within machine learning. They encode prior information about the modeled function and can be used for exact or approximate Bayesian learning. In many applications, particularly in physical sciences and engineering, but also in areas such as geostatistics and neuroscience, invariance to symmetries is one of the most fundamental forms of prior information one can consider. The invariance of a Gaussian process' covariance to such symmetries gives rise to the most natural generalization of the concept of stationarity to such spaces. In this work, we develop constructive and practical techniques for building stationary Gaussian processes on a very large class of non-Euclidean spaces arising in the context of symmetries. Our techniques make it possible to (i) calculate covariance kernels and (ii) sample from prior and posterior Gaussian processes defined on such spaces, both in a practical manner. This work is 
+    In this article, we review the literature on statistical theories of neural networks from three perspectives. In the first part, results on excess risks for neural networks are reviewed in the nonparametric framework of regression or classification. These results rely on explicit constructions of neural networks, leading to fast convergence rates of excess risks, in that tools from the approximation theory are adopted. Through these constructions, the width and depth of the networks can be expressed in terms of sample size, data dimension, and function smoothness. Nonetheless, their underlying analysis only applies to the global minimizer in the highly non-convex landscape of deep neural networks. This motivates us to review the training dynamics of neural networks in the second part. Specifically, we review papers that attempt to answer ``how the neural network trained via gradient-based methods finds the solution that can generalize well on unseen data.'' In particular, two well-know
+    
+[^4]: 利用生成神经网络模拟特征函数
+
+    Generative neural networks for characteristic functions. (arXiv:2401.04778v1 [stat.ML])
+
+    [http://arxiv.org/abs/2401.04778](http://arxiv.org/abs/2401.04778)
+
+    本论文研究了利用生成神经网络模拟特征函数的问题，并通过构建一个普适且无需假设的生成神经网络来解决。研究基于最大均值差异度量，并提出了有关逼近质量的有限样本保证。
+
+    
+
+    在这项工作中，我们提供了一个模拟算法来从一个（多元）特征函数中模拟，该特征函数仅以黑盒格式可访问。我们构建了一个生成神经网络，其损失函数利用最大均值差异度量的特定表示，直接结合目标特征函数。这种构造具有普遍性，不依赖于维度，并且不需要对给定特征函数进行任何假设。此外，还得出了关于最大均值差异度量的逼近质量的有限样本保证。该方法在一个短期模拟研究中进行了说明。
+
+    In this work, we provide a simulation algorithm to simulate from a (multivariate) characteristic function, which is only accessible in a black-box format. We construct a generative neural network, whose loss function exploits a specific representation of the Maximum-Mean-Discrepancy metric to directly incorporate the targeted characteristic function. The construction is universal in the sense that it is independent of the dimension and that it does not require any assumptions on the given characteristic function. Furthermore, finite sample guarantees on the approximation quality in terms of the Maximum-Mean Discrepancy metric are derived. The method is illustrated in a short simulation study.
+    
+[^5]: 基于能量的扩散生成器用于高效采样Boltzmann分布
+
+    Energy based diffusion generator for efficient sampling of Boltzmann distributions. (arXiv:2401.02080v1 [cs.LG])
+
+    [http://arxiv.org/abs/2401.02080](http://arxiv.org/abs/2401.02080)
+
+    介绍了一种称为基于能量的扩散生成器的新型采样器，用于从任意目标分布中生成样本，并通过扩散模型和广义哈密顿动力学提高采样性能。在各种复杂分布函数上的实证评估中表现出优越性。
+
+    
+
+    我们介绍了一种称为基于能量的扩散生成器的新型采样器，用于从任意目标分布中生成样本。采样模型采用类似变分自编码器的结构，利用解码器将来自简单分布的潜在变量转换为逼近目标分布的随机变量，并设计了基于扩散模型的编码器。利用扩散模型对复杂分布的强大建模能力，我们可以获得生成样本和目标分布之间的Kullback-Leibler散度的准确变分估计。此外，我们提出了基于广义哈密顿动力学的解码器，进一步提高采样性能。通过实证评估，我们展示了我们的方法在各种复杂分布函数上的有效性，展示了其相对于现有方法的优越性。
+
+    We introduce a novel sampler called the energy based diffusion generator for generating samples from arbitrary target distributions. The sampling model employs a structure similar to a variational autoencoder, utilizing a decoder to transform latent variables from a simple distribution into random variables approximating the target distribution, and we design an encoder based on the diffusion model. Leveraging the powerful modeling capacity of the diffusion model for complex distributions, we can obtain an accurate variational estimate of the Kullback-Leibler divergence between the distributions of the generated samples and the target. Moreover, we propose a decoder based on generalized Hamiltonian dynamics to further enhance sampling performance. Through empirical evaluation, we demonstrate the effectiveness of our method across various complex distribution functions, showcasing its superiority compared to existing methods.
+    
+[^6]: 学习能力：模型有效维度的度量方式
+
+    Learning Capacity: A Measure of the Effective Dimensionality of a Model. (arXiv:2305.17332v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.17332](http://arxiv.org/abs/2305.17332)
+
+    学习能力是一种度量模型有效维度的方法，它可以帮助我们判断是否需要获取更多数据或者寻找新的体系结构以提高性能。
+
+    
+
+    我们利用热力学和推理之间的正式对应关系，将样本数量视为反温度，定义了一种“学习能力”，这是模型有效维度的度量方式。我们发现，对于许多在典型数据集上训练的深度网络，学习能力仅占参数数量的一小部分，取决于用于训练的样本数量，并且在数值上与从PAC-Bayesian框架获得的能力概念一致。学习能力作为测试误差的函数不会出现双峰下降。我们展示了模型的学习能力在非常小和非常大的样本大小处饱和，这提供了指导，说明是否应该获取更多数据或者寻找新的体系结构以提高性能。我们展示了如何使用学习能力来理解有效维数，即使是非参数模型，如随机森林。
+
+    We exploit a formal correspondence between thermodynamics and inference, where the number of samples can be thought of as the inverse temperature, to define a "learning capacity'' which is a measure of the effective dimensionality of a model. We show that the learning capacity is a tiny fraction of the number of parameters for many deep networks trained on typical datasets, depends upon the number of samples used for training, and is numerically consistent with notions of capacity obtained from the PAC-Bayesian framework. The test error as a function of the learning capacity does not exhibit double descent. We show that the learning capacity of a model saturates at very small and very large sample sizes; this provides guidelines, as to whether one should procure more data or whether one should search for new architectures, to improve performance. We show how the learning capacity can be used to understand the effective dimensionality, even for non-parametric models such as random fores
+    
+[^7]: Sarah Frank-Wolfe：具有最佳速率和实用特点的约束优化方法
+
+    Sarah Frank-Wolfe: Methods for Constrained Optimization with Best Rates and Practical Features. (arXiv:2304.11737v1 [math.OC])
+
+    [http://arxiv.org/abs/2304.11737](http://arxiv.org/abs/2304.11737)
+
+    本论文介绍了两种新的随机FW有限和最小化算法变体，适用于凸函数和非凸函数，且具有最佳收敛保证。同时两种方法不需要永久收集大批数据和全确定性梯度。
+
+    
+
+    Frank-Wolfe（FW）方法是解决机器学习应用中出现的结构化约束优化问题的流行方法。近年来，受到大数据集的启发，FW的随机版本变得更加流行，因为计算全梯度代价过高。本文介绍了两种新的FW随机有限和最小化算法变体。我们的算法既适用于凸函数又适用于非凸函数。我们的方法不存在永久收集大批数据的问题，这是许多投影无约束随机方法的共同问题。此外，我们的第二种方法既不需要大批量的数据也不需要全确定性梯度，这是许多有限和问题技术的典型弱点。我们方法的更快收敛速度在实践中得到了验证。
+
+    The Frank-Wolfe (FW) method is a popular approach for solving optimization problems with structured constraints that arise in machine learning applications. In recent years, stochastic versions of FW have gained popularity, motivated by large datasets for which the computation of the full gradient is prohibitively expensive. In this paper, we present two new variants of the FW algorithms for stochastic finite-sum minimization. Our algorithms have the best convergence guarantees of existing stochastic FW approaches for both convex and non-convex objective functions. Our methods do not have the issue of permanently collecting large batches, which is common to many stochastic projection-free approaches. Moreover, our second approach does not require either large batches or full deterministic gradients, which is a typical weakness of many techniques for finite-sum problems. The faster theoretical rates of our approaches are confirmed experimentally.
+    
+[^8]: 高维度和普遍一致的k样本检验
+
+    High-dimensional and universally consistent k-sample tests. (arXiv:1910.08883v4 [stat.ML] UPDATED)
+
+    [http://arxiv.org/abs/1910.08883](http://arxiv.org/abs/1910.08883)
+
+    本文证明了独立性测试实现了普遍一致的k样本检验，并且发现非参数独立性测试通常比多元方差分析(MANOVA)测试在高斯分布情况下表现更好。
+
+    
+
+    k样本检验问题涉及确定$k$组数据点是否都来自同一个分布。尽管多元方差分析(MANOVA)是生物医学中常用的k样本检验方法，但它依赖于强大且通常不合适的参数假设。此外，独立性测试和k样本测试密切相关，一些普遍一致的高维独立性测试，如距离相关(Discrepancy)和Hilbert-Schmidt独立性准则(Hsic)，具有坚实的理论和实证性质。在本文中，我们证明了独立性测试实现了普遍一致的k样本检验，并且k样本统计量，如Energy和Maximum Mean Discrepancy(MMD)，与Discrepancy完全等价。对非参数独立性测试的实证评估表明，它们通常比流行的MANOVA测试表现更好，即使在高斯分布的场景中也是如此。
+
+    The k-sample testing problem involves determining whether $k$ groups of data points are each drawn from the same distribution. The standard method for k-sample testing in biomedicine is Multivariate analysis of variance (MANOVA), despite that it depends on strong, and often unsuitable, parametric assumptions. Moreover, independence testing and k-sample testing are closely related, and several universally consistent high-dimensional independence tests such as distance correlation (Dcorr) and Hilbert-Schmidt-Independence-Criterion (Hsic) enjoy solid theoretical and empirical properties. In this paper, we prove that independence tests achieve universally consistent k-sample testing and that k-sample statistics such as Energy and Maximum Mean Discrepancy (MMD) are precisely equivalent to Dcorr. An empirical evaluation of nonparametric independence tests showed that they generally perform better than the popular MANOVA test, even in Gaussian distributed scenarios. The evaluation included se
     
 
