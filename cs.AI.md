@@ -2,77 +2,111 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Severity Controlled Text-to-Image Generative Model Bias Manipulation](https://arxiv.org/abs/2404.02530) | 本文揭示了文本到图像生成模型对偏见操纵的敏感性，并提出了一种通过定量控制模型偏见来操纵输出严重性的技术，从而实现精确提示工程生成新颖图像的方法。 |
-| [^2] | [Counterfactual contrastive learning: robust representations via causal image synthesis](https://arxiv.org/abs/2403.09605) | 本研究提出了CF-SimCLR，一种反事实对照学习方法，利用近似反事实推断创造正样本，大大提高了模型对采集偏移的稳健性，并在多个数据集上取得了较高的下游性能。 |
-| [^3] | [Data Augmentation is Dead, Long Live Data Augmentation](https://arxiv.org/abs/2402.14895) | 数据增强不过是更好地微调模型，零唁态和少样本数据生成可提高性能 |
-| [^4] | [COBIAS: Contextual Reliability in Bias Assessment](https://arxiv.org/abs/2402.14889) | 我们提出了COBIAS，旨在通过考虑多样情境的用户输入内容，衡量语句的情境可靠性，从而培养偏见意识。 |
-| [^5] | [Building ethical guidelines for generative AI in scientific research.](http://arxiv.org/abs/2401.15284) | 本文提出了一个初步的框架，通过五个关键主题的分析和缓解策略来建立科学研究中生成AI的伦理指南。全球共识、专业培训和合理的执行对于促进AI的益处和维护研究诚信至关重要。 |
-| [^6] | [Towards Goal-oriented Large Language Model Prompting: A Survey.](http://arxiv.org/abs/2401.14043) | 本文调查了大型语言模型(LLM)中目标导向提示工程的重要性。通过对35个代表性研究的回顾，我们发现引导LLM遵循人类的逻辑思维的目标导向提示公式显著提高了LLM的性能。我们还提出了一个新的分类体系，并总结了十个适用任务来展示我们框架的广泛适用性。同时，我们提出了四个未来的方向，以推动目标导向提示工程的进一步发展。 |
-| [^7] | [Information That Matters: Exploring Information Needs of People Affected by Algorithmic Decisions.](http://arxiv.org/abs/2401.13324) | 本研究探讨了受算法决策影响的人的信息需求，发现解释往往不能满足他们的关注点，导致对监管框架的理解和遵守产生障碍。为了解决这个问题，研究团队提出了XAI初学者问题库，涵盖了就业预测和健康监测两个领域中受影响利益相关者的信息需求。 |
-| [^8] | [AI Alignment in the Design of Interactive AI: Specification Alignment, Process Alignment, and Evaluation Support.](http://arxiv.org/abs/2311.00710) | 本文关注AI在界面设计和评估中的对齐问题，提出了规范对齐、过程对齐和评估支持等三个对齐目标，并介绍了代理过程和过程海湾的概念。 |
-| [^9] | [Large language models can replicate cross-cultural differences in personality.](http://arxiv.org/abs/2310.10679) | 大型语言模型GPT-4成功复制了使用十项人格问卷测量的大五人格的跨文化差异，但其结果表明平均评级有上升偏差和较低的变异性与结构效度。 |
-| [^10] | [Diverse Neural Audio Embeddings -- Bringing Features back !.](http://arxiv.org/abs/2309.08751) | 本文通过在音频分类任务中学习多样化的特征表示，包括领域特定的音高、音色和神经表示，以及端到端架构，为学习稳健、多样化的表示铺平了道路，并显著提高了性能。 |
-| [^11] | [Learning by Self-Explaining.](http://arxiv.org/abs/2309.08395) | 学习通过自我解释（LSX）是一种新的学习范式，通过给予解释和批评者的反馈来改进学习者的性能。这种方法适用于图像分类等基本任务，并有潜力在人工智能研究中发挥作用。 |
+| [^1] | [Rethinking Kullback-Leibler Divergence in Knowledge Distillation for Large Language Models](https://arxiv.org/abs/2404.02657) | 本研究重新思考了大型语言模型知识蒸馏中对Kullback-Leibler散度的应用，发现逆Kullback-Leibler和正向Kullback-Leibler散度在优化目标上相似，为此提出了一种自适应Kullback-Leiber散度方法。 |
+| [^2] | [QNCD: Quantization Noise Correction for Diffusion Models](https://arxiv.org/abs/2403.19140) | 研究提出了一个统一的量化噪声校正方案（QNCD），旨在减小扩散模型中的量化噪声，解决了后训练量化对采样加速的影响问题。 |
+| [^3] | [LLaVA-Docent: Instruction Tuning with Multimodal Large Language Model to Support Art Appreciation Education](https://arxiv.org/abs/2402.06264) | 本研究利用多模态大型语言模型（MLLM）开发了LLaVA-Docent模型，以支持艺术鉴赏教育。通过综述文献和专家咨询，构建了数据框架，并使用该框架生成了虚拟对话数据集用于训练MLLM。该研究对于解决传统艺术鉴赏教育中的资源限制和主流教育中的科学技术工程和数学偏重具有重要意义。 |
+| [^4] | [Interpretable classifiers for tabular data via discretization and feature selection](https://arxiv.org/abs/2402.05680) | 通过离散化和特征选择的方法，我们提出了一种从表格数据中计算出准确又易解释的分类器的方法。在实验证明该方法在准确度上与随机森林和XGBoost等现有方法相当，并且在多种情况下实际上超过了参考结果。 |
+| [^5] | [TSIS: A Supplementary Algorithm to t-SMILES for Fragment-based Molecular Representation](https://arxiv.org/abs/2402.02164) | 本研究引入了TSIS算法作为t-SMILES的补充，用于改进基于字符串的分子表示方法。实验证明，TSIS模型在处理语法中的长期依赖性方面表现优于其他模型。 |
+| [^6] | [Integrating Generative AI in Hackathons: Opportunities, Challenges, and Educational Implications](https://arxiv.org/abs/2401.17434) | 引入生成式人工智能的黑客马拉松在软件行业中发挥重要作用，并在教育领域带来了机遇和挑战。 |
+| [^7] | [Building ethical guidelines for generative AI in scientific research.](http://arxiv.org/abs/2401.15284) | 本文提出了一个初步的框架，通过五个关键主题的分析和缓解策略来建立科学研究中生成AI的伦理指南。全球共识、专业培训和合理的执行对于促进AI的益处和维护研究诚信至关重要。 |
+| [^8] | [Deep Neural Network Benchmarks for Selective Classification.](http://arxiv.org/abs/2401.12708) | 本论文研究了用于选择性分类的深度神经网络，目的是设计一种选择机制来平衡被拒绝的预测比例和所选预测的预测性能改进。 |
+| [^9] | [Continual Learning: Forget-free Winning Subnetworks for Video Representations.](http://arxiv.org/abs/2312.11973) | 本研究基于"彩票票据假设"，提出了一种连续学习方法，通过利用稀疏子网络和FSO进行任务增量学习、少样本类增量学习和视频增量学习，实现高效学习和有效的权重重用。 |
+| [^10] | [Rank Collapse Causes Over-Smoothing and Over-Correlation in Graph Neural Networks.](http://arxiv.org/abs/2308.16800) | 本文研究了图神经网络中的平滑过度和特征关联过高现象，发现固定不变的子空间导致了节点表示的等级崩塌。在该子空间中平滑向量的存在导致过度平滑，即使避免过度平滑也会导致过高的关联。为了解决这个问题，我们提出了一种克罗内克积之和作为一种有效方法。 |
+| [^11] | [Conditioning Score-Based Generative Models by Neuro-Symbolic Constraints.](http://arxiv.org/abs/2308.16534) | 本文提出了一种方法，通过神经符号约束来调节基于评分的生成模型，实现了在非条件生成模型下强制执行任意的逻辑约束，从而获得了一个有效的、无需额外训练的条件采样算法。 |
+| [^12] | [Testing GPT-4 with Wolfram Alpha and Code Interpreter plug-ins on math and science problems.](http://arxiv.org/abs/2308.05713) | 本研究测试了GPT-4在科学和数学问题上使用Wolfram Alpha和Code Interpreter插件的效果，结果表明插件显著提升了GPT的问题解决能力，但接口故障仍然是其可靠性的主要挑战。 |
+| [^13] | [The Ethics of AI Value Chains.](http://arxiv.org/abs/2307.16787) | 本文提出了AI价值链的概念，以满足AI伦理研究和干预的需求。通过综合评估AI价值链涉及的伦理问题，我们提出了四个未来方向，旨在推动更具伦理的AI发展和使用。 |
+| [^14] | [Fairness Under Demographic Scarce Regime.](http://arxiv.org/abs/2307.13081) | 这项研究探讨了在人口信息不完全可用的情况下如何提高公平性。研究发现，在替代敏感属性的属性分类器中引入不确定性意识，并对推断出的不确定性最低的人口信息样本进行公平性约束可以实现更好的公平性和准确性权衡。 |
+| [^15] | [About the Cost of Central Privacy in Density Estimation.](http://arxiv.org/abs/2306.14535) | 本研究对于利普希茨和 Sobolev 空间中的非参数密度估计，通过考虑中心隐私的影响，发现了直方图估计器在 L2 风险下对于利普希茨分布是最优的，并且在正常差分隐私情况下也是如此；同时发现，在一些情况下，施加隐私会降低对于 Sobolev 密度的正则极小风险估计。此外，本研究还发现在纯投影估计设定下，所谓的投影估计器对于相同类密度几乎是最优的。 |
+| [^16] | [PlaSma: Making Small Language Models Better Procedural Knowledge Models for (Counterfactual) Planning.](http://arxiv.org/abs/2305.19472) | PlaSma提出了一种使用小型语言模型进行过程知识和计划能力的新方法， |
+| [^17] | [On the Creativity of Large Language Models.](http://arxiv.org/abs/2304.00008) | 这篇论文探讨了大型语言模型的创造性问题，分析了与之相关的机器创造性的难点和易点，并重点分析了这些技术在创意产业中的社会影响。 |
 
 # 详细
 
-[^1]: 严重控制的文本到图像生成模型偏见操纵
+[^1]: 在大型语言模型知识蒸馏中重新思考Kullback-Leibler散度
 
-    Severity Controlled Text-to-Image Generative Model Bias Manipulation
+    Rethinking Kullback-Leibler Divergence in Knowledge Distillation for Large Language Models
 
-    [https://arxiv.org/abs/2404.02530](https://arxiv.org/abs/2404.02530)
+    [https://arxiv.org/abs/2404.02657](https://arxiv.org/abs/2404.02657)
 
-    本文揭示了文本到图像生成模型对偏见操纵的敏感性，并提出了一种通过定量控制模型偏见来操纵输出严重性的技术，从而实现精确提示工程生成新颖图像的方法。
-
-    
-
-    文本到图像（T2I）生成模型正在广泛流行，尤其是在公共领域。然而，它们固有的偏见和潜在的恶意操纵还未被充分探讨。本文揭示了T2I模型对此类操纵的易感性，并首次提出了通过针对嵌入式语言模型动态且高效地利用模型偏见的新可能性。通过利用向量代数的数学基础，我们的技术实现了对模型偏见通过严重性的输出操纵的可扩展和方便控制。作为副产品，该控制还允许一种精确的提示工程，以生成通常不太可能通过常规文本提示生成的图像。我们还展示了我们的操纵技术在平衡生成类别频率方面的建设应用 - 如在模型去偏。我们的技术不需要训练，并且也以后门的形式构建。
-
-    arXiv:2404.02530v1 Announce Type: cross  Abstract: Text-to-image (T2I) generative models are gaining wide popularity, especially in public domains. However, their intrinsic bias and potential malicious manipulations remain under-explored. Charting the susceptibility of T2I models to such manipulation, we first expose the new possibility of a dynamic and computationally efficient exploitation of model bias by targeting the embedded language models. By leveraging mathematical foundations of vector algebra, our technique enables a scalable and convenient control over the severity of output manipulation through model bias. As a by-product, this control also allows a form of precise prompt engineering to generate images which are generally implausible with regular text prompts. We also demonstrate a constructive application of our manipulation for balancing the frequency of generated classes - as in model debiasing. Our technique does not require training and is also framed as a backdoor at
-    
-[^2]: 反事实对照学习：通过因果图像合成获得稳健表示
-
-    Counterfactual contrastive learning: robust representations via causal image synthesis
-
-    [https://arxiv.org/abs/2403.09605](https://arxiv.org/abs/2403.09605)
-
-    本研究提出了CF-SimCLR，一种反事实对照学习方法，利用近似反事实推断创造正样本，大大提高了模型对采集偏移的稳健性，并在多个数据集上取得了较高的下游性能。
+    本研究重新思考了大型语言模型知识蒸馏中对Kullback-Leibler散度的应用，发现逆Kullback-Leibler和正向Kullback-Leibler散度在优化目标上相似，为此提出了一种自适应Kullback-Leiber散度方法。
 
     
 
-    对比预训练已被广泛认为能够提高下游任务性能和模型泛化能力，特别是在有限标签设置中。然而，它对增强管道的选择敏感。正样本应保留语义信息同时破坏域特定信息。标准增强管道通过预定义的光度变换模拟域特定变化，但如果我们能够模拟真实的领域变化呢？在这项工作中，我们展示了如何利用最近在反事实图像生成方面的进展来实现这一目的。我们提出了CF-SimCLR，一种反事实对照学习方法，它利用近似反事实推断进行正样本创建。对胸部X光和乳腺X光等五个数据集的全面评估表明，CF-SimCLR显著提高了对获取偏移的稳健性，在两种数据集上的下游性能更好。
+    Kullback-Leibler散度在知识蒸馏中被广泛应用于压缩大型语言模型。本研究从经验和理论上证明了，在LLMs的知识蒸馏中，与之前断言的逆Kullback-Leibler（RKL）散度寻找模式并因此优于寻找平均值的正向Kullback-Leibler（FKL）散度相反，实际上在知识蒸馏中都没有体现出寻找模式或寻找平均值的特性。相反，发现RKL和FKL具有相同的优化目标，并在足够数量的时代之后都会收敛。然而，由于实际约束，LLMs很少被训练如此多的时代。同时，我们进一步发现，RKL在分布的尾部，而FKL在开始时代侧重于分布的头部。因此，我们提出了一种简单而有效的自适应Kullback-Leiber（AKL）散度方法，该方法自适应地分配权重来组合F
 
-    arXiv:2403.09605v1 Announce Type: cross  Abstract: Contrastive pretraining is well-known to improve downstream task performance and model generalisation, especially in limited label settings. However, it is sensitive to the choice of augmentation pipeline. Positive pairs should preserve semantic information while destroying domain-specific information. Standard augmentation pipelines emulate domain-specific changes with pre-defined photometric transformations, but what if we could simulate realistic domain changes instead? In this work, we show how to utilise recent progress in counterfactual image generation to this effect. We propose CF-SimCLR, a counterfactual contrastive learning approach which leverages approximate counterfactual inference for positive pair creation. Comprehensive evaluation across five datasets, on chest radiography and mammography, demonstrates that CF-SimCLR substantially improves robustness to acquisition shift with higher downstream performance on both in- an
+    arXiv:2404.02657v1 Announce Type: cross  Abstract: Kullback-Leiber divergence has been widely used in Knowledge Distillation (KD) to compress Large Language Models (LLMs). Contrary to prior assertions that reverse Kullback-Leibler (RKL) divergence is mode-seeking and thus preferable over the mean-seeking forward Kullback-Leibler (FKL) divergence, this study empirically and theoretically demonstrates that neither mode-seeking nor mean-seeking properties manifest in KD for LLMs. Instead, RKL and FKL are found to share the same optimization objective and both converge after a sufficient number of epochs. However, due to practical constraints, LLMs are seldom trained for such an extensive number of epochs. Meanwhile, we further find that RKL focuses on the tail part of the distributions, while FKL focuses on the head part at the beginning epochs. Consequently, we propose a simple yet effective Adaptive Kullback-Leiber (AKL) divergence method, which adaptively allocates weights to combine F
     
-[^3]: 数据增强已死，数据增强万岁
+[^2]: QNCD：扩散模型的量化噪声校正
 
-    Data Augmentation is Dead, Long Live Data Augmentation
+    QNCD: Quantization Noise Correction for Diffusion Models
 
-    [https://arxiv.org/abs/2402.14895](https://arxiv.org/abs/2402.14895)
+    [https://arxiv.org/abs/2403.19140](https://arxiv.org/abs/2403.19140)
 
-    数据增强不过是更好地微调模型，零唁态和少样本数据生成可提高性能
-
-    
-
-    文本数据增强（DA）是一个繁荣的研究领域，不断提出新颖的技术来创建人工数据，已经在小数据环境中表现出很高的效率，至少对于文本分类任务而言。在本文中，我们质疑这些结果，表明经典的数据增强只是一种更好地进行微调的方式，并且在应用数据增强之前花更多时间进行微调会抵消其效果。这是一个重要的贡献，因为它回答了最近几年留下的几个问题，即：哪种DA技术表现最佳（只要它们生成的数据与训练集足够接近，不会损害训练），为什么DA表现出积极的结果（简化网络训练）。此外，我们还展示了通过对话代理（如ChatGPT或LLama2）零唁态和少样本数据生成可以提高性能，从而得出了结论，此法可以提高模型性能。
-
-    arXiv:2402.14895v1 Announce Type: cross  Abstract: Textual data augmentation (DA) is a prolific field of study where novel techniques to create artificial data are regularly proposed, and that has demonstrated great efficiency on small data settings, at least for text classification tasks. In this paper, we challenge those results, showing that classical data augmentation is simply a way of performing better fine-tuning, and that spending more time fine-tuning before applying data augmentation negates its effect. This is a significant contribution as it answers several questions that were left open in recent years, namely~: which DA technique performs best (all of them as long as they generate data close enough to the training set as to not impair training) and why did DA show positive results (facilitates training of network). We furthermore show that zero and few-shot data generation via conversational agents such as ChatGPT or LLama2 can increase performances, concluding that this f
-    
-[^4]: COBIAS：偏见评估中的情境可靠性
-
-    COBIAS: Contextual Reliability in Bias Assessment
-
-    [https://arxiv.org/abs/2402.14889](https://arxiv.org/abs/2402.14889)
-
-    我们提出了COBIAS，旨在通过考虑多样情境的用户输入内容，衡量语句的情境可靠性，从而培养偏见意识。
+    研究提出了一个统一的量化噪声校正方案（QNCD），旨在减小扩散模型中的量化噪声，解决了后训练量化对采样加速的影响问题。
 
     
 
-    大型语言模型（LLMs）是基于固有偏见数据训练的。以往的去偏见模型研究依赖基准数据集来衡量模型性能。然而，这些数据集由于对偏见的极其主观理解而存在多个缺陷，凸显出对情境探索的迫切需求。我们提出考虑输入用户内容的情境，考虑到输入语句可能存在的多种情况。这种方法将允许培养偏见意识的框架，而不是伤害用户参与的防护设施。我们的贡献有两个方面：(i) 我们创建了一个包含2287个陈词滥调语句以及添加情境要点的数据集；(ii) 我们开发了面向情境的偏见指标和评估分数（COBIAS）来评估语句在衡量偏见方面的情境可靠性。我们的度量是衡量偏见基准数据集情境可靠性的重要预测因子。
+    扩散模型在图像合成领域引起了革命，建立了质量和创造力的新基准。然而，它们在迭代去噪过程中需要的密集计算阻碍了它们的广泛采用。后训练量化（PTQ）提供了一种解决方案，可以加速采样，尽管以低比特设置极大降低了样本质量。针对这一问题，我们的研究引入了一个统一的量化噪声校正方案（QNCD），旨在减小整个采样过程中的量化噪声。我们确定了两个主要的量化挑战：内部和外部量化噪声。内部量化噪声主要由于嵌入在resblock模块中而加剧，扩展了激活量化范围，在每个单独的去噪步骤中增加了干扰。此外，外部量化噪声源自整个去噪过程中的累积量化偏差，改变了数据分布。
 
-    arXiv:2402.14889v1 Announce Type: cross  Abstract: Large Language Models (LLMs) are trained on inherently biased data. Previous works on debiasing models rely on benchmark datasets to measure model performance. However, these datasets suffer from several pitfalls due to the extremely subjective understanding of bias, highlighting a critical need for contextual exploration. We propose understanding the context of user inputs with consideration of the diverse situations in which input statements are possible. This approach would allow for frameworks that foster bias awareness rather than guardrails that hurt user engagement. Our contribution is twofold: (i) we create a dataset of 2287 stereotyped statements augmented with points for adding context; (ii) we develop the Context-Oriented Bias Indicator and Assessment Score (COBIAS) to assess statements' contextual reliability in measuring bias. Our metric is a significant predictor of the contextual reliability of bias-benchmark datasets ($
+    arXiv:2403.19140v1 Announce Type: cross  Abstract: Diffusion models have revolutionized image synthesis, setting new benchmarks in quality and creativity. However, their widespread adoption is hindered by the intensive computation required during the iterative denoising process. Post-training quantization (PTQ) presents a solution to accelerate sampling, aibeit at the expense of sample quality, extremely in low-bit settings. Addressing this, our study introduces a unified Quantization Noise Correction Scheme (QNCD), aimed at minishing quantization noise throughout the sampling process. We identify two primary quantization challenges: intra and inter quantization noise. Intra quantization noise, mainly exacerbated by embeddings in the resblock module, extends activation quantization ranges, increasing disturbances in each single denosing step. Besides, inter quantization noise stems from cumulative quantization deviations across the entire denoising process, altering data distributions 
     
-[^5]: 在科学研究中建立生成AI的伦理指南
+[^3]: LLaVA-Docent：利用多模态大型语言模型支持艺术鉴赏教育的教学调优
+
+    LLaVA-Docent: Instruction Tuning with Multimodal Large Language Model to Support Art Appreciation Education
+
+    [https://arxiv.org/abs/2402.06264](https://arxiv.org/abs/2402.06264)
+
+    本研究利用多模态大型语言模型（MLLM）开发了LLaVA-Docent模型，以支持艺术鉴赏教育。通过综述文献和专家咨询，构建了数据框架，并使用该框架生成了虚拟对话数据集用于训练MLLM。该研究对于解决传统艺术鉴赏教育中的资源限制和主流教育中的科学技术工程和数学偏重具有重要意义。
+
+    
+
+    艺术鉴赏对于培养学习者的批判性思维和情感智力至关重要。然而，传统的艺术鉴赏教育常面临艺术资源有限的问题，特别是对于弱势学生，并且在主流教育中过度强调科学技术工程和数学科目。为了应对这些挑战，最近的技术进步为创新解决方案铺平了道路。本研究探索了多模态大型语言模型（MLLM）在艺术鉴赏教育中的应用，重点是开发了LLaVA-Docent模型来利用这些进展。我们的方法包括全面的文献综述和与领域专家的咨询，从而形成了一个强大的数据框架。利用这个框架，我们生成了一个虚拟对话数据集，该数据集被GPT-4利用。这个数据集对于训练MLLM（即LLaVA-Docent）起到了关键作用。六名研究人员进行了定量和定性评估。
+
+    Art appreciation is vital in nurturing critical thinking and emotional intelligence among learners. However, traditional art appreciation education has often been hindered by limited access to art resources, especially for disadvantaged students, and an imbalanced emphasis on STEM subjects in mainstream education. In response to these challenges, recent technological advancements have paved the way for innovative solutions. This study explores the application of multi-modal large language models (MLLMs) in art appreciation education, focusing on developing LLaVA-Docent, a model that leverages these advancements. Our approach involved a comprehensive literature review and consultations with experts in the field, leading to developing a robust data framework. Utilizing this framework, we generated a virtual dialogue dataset that was leveraged by GPT-4. This dataset was instrumental in training the MLLM, named LLaVA-Docent. Six researchers conducted quantitative and qualitative evaluation
+    
+[^4]: 通过离散化和特征选择的可解释性表格数据分类器
+
+    Interpretable classifiers for tabular data via discretization and feature selection
+
+    [https://arxiv.org/abs/2402.05680](https://arxiv.org/abs/2402.05680)
+
+    通过离散化和特征选择的方法，我们提出了一种从表格数据中计算出准确又易解释的分类器的方法。在实验证明该方法在准确度上与随机森林和XGBoost等现有方法相当，并且在多种情况下实际上超过了参考结果。
+
+    
+
+    我们引入了一种从表格数据中计算出具有解释性且准确的分类器的方法。所得到的分类器是简短的DNF公式，通过将原始数据离散化为布尔形式，然后使用特征选择结合非常快速的算法来产生最佳的布尔分类器。我们通过14个实验来演示该方法，得到的结果的准确度主要与随机森林、XGBoost以及文献中相同数据集的现有结果相似。在多种情况下，我们的方法实际上在准确度方面优于参考结果，尽管我们研究的主要目标是我们的分类器的即时可解释性。我们还证明了一个关于从现实数据中获得的分类器与来自数据背景分布的最佳分类器相对应的概率的新结果。
+
+    We introduce a method for computing immediately human interpretable yet accurate classifiers from tabular data. The classifiers obtained are short DNF-formulas, computed via first discretizing the original data to Boolean form and then using feature selection coupled with a very fast algorithm for producing the best possible Boolean classifier for the setting. We demonstrate the approach via 14 experiments, obtaining results with accuracies mainly similar to ones obtained via random forests, XGBoost, and existing results for the same datasets in the literature. In several cases, our approach in fact outperforms the reference results in relation to accuracy, even though the main objective of our study is the immediate interpretability of our classifiers. We also prove a new result on the probability that the classifier we obtain from real-life data corresponds to the ideally best classifier with respect to the background distribution the data comes from.
+    
+[^5]: TSIS: t-SMILES的补充算法用于基于片段的分子表示
+
+    TSIS: A Supplementary Algorithm to t-SMILES for Fragment-based Molecular Representation
+
+    [https://arxiv.org/abs/2402.02164](https://arxiv.org/abs/2402.02164)
+
+    本研究引入了TSIS算法作为t-SMILES的补充，用于改进基于字符串的分子表示方法。实验证明，TSIS模型在处理语法中的长期依赖性方面表现优于其他模型。
+
+    
+
+    字符串基本的分子表示方法，如SMILES，在线性表示分子信息方面是事实上的标准。然而，必须使用配对符号和解析算法导致了长的语法依赖关系，使得即使是最先进的深度学习模型也难以准确理解语法和语义。尽管DeepSMILES和SELFIES已经解决了某些限制，但它们仍然在处理高级语法方面存在困难，使得一些字符串难以阅读。本研究引入了一个补充算法TSIS（TSID简化），用于t-SMILES家族。TSIS与另一个基于片段的线性解决方案SAFE进行了比较实验，结果表明SAFE在处理语法中的长期依赖性时存在挑战。TSIS继续使用t-SMILES中定义的树作为其基础数据结构，这使其与SAFE模型有所不同。TSIS模型的性能超过了SAFE模型，表明t-SMILES的树结构起到了重要作用。
+
+    String-based molecular representations, such as SMILES, are a de facto standard for linearly representing molecular information. However, the must be paired symbols and the parsing algorithm result in long grammatical dependencies, making it difficult for even state-of-the-art deep learning models to accurately comprehend the syntax and semantics. Although DeepSMILES and SELFIES have addressed certain limitations, they still struggle with advanced grammar, which makes some strings difficult to read. This study introduces a supplementary algorithm, TSIS (TSID Simplified), to t-SMILES family. Comparative experiments between TSIS and another fragment-based linear solution, SAFE, indicate that SAFE presents challenges in managing long-term dependencies in grammar. TSIS continues to use the tree defined in t-SMILES as its foundational data structure, which sets it apart from the SAFE model. The performance of TSIS models surpasses that of SAFE models, indicating that the tree structure of t
+    
+[^6]: 在黑客马拉松中集成生成式人工智能: 机遇，挑战和教育影响
+
+    Integrating Generative AI in Hackathons: Opportunities, Challenges, and Educational Implications
+
+    [https://arxiv.org/abs/2401.17434](https://arxiv.org/abs/2401.17434)
+
+    引入生成式人工智能的黑客马拉松在软件行业中发挥重要作用，并在教育领域带来了机遇和挑战。
+
+    
+
+    黑客马拉松和软件竞赛在软件行业中变得越来越重要，它们对组织和学生的创新和技能发展起到重要推动作用。这些平台使公司能够迅速原型化想法，而学生则获得丰富的学习经验，增强他们的实践技能。多年来，黑客马拉松已经从简单的竞争活动转变为重要的教育工具，将理论知识与实际问题解决相结合。将黑客马拉松纳入计算机科学和软件工程课程的整合旨在在合作的环境中对齐教育能力，通过产学合作促进同行之间的连接和丰富学习。然而，高级技术，特别是人工智能（AI）和机器学习的融合进黑客马拉松正在改变它们的结构和结果。这种演变带来了机遇，如增强的学习体验，
+
+    Hackathons and software competitions, increasingly pivotal in the software industry, serve as vital catalysts for innovation and skill development for both organizations and students. These platforms enable companies to prototype ideas swiftly, while students gain enriched learning experiences, enhancing their practical skills. Over the years, hackathons have transitioned from mere competitive events to significant educational tools, fusing theoretical knowledge with real-world problem-solving. The integration of hackathons into computer science and software engineering curricula aims to align educational proficiencies within a collaborative context, promoting peer connectivity and enriched learning via industry-academia collaborations. However, the infusion of advanced technologies, notably artificial intelligence (AI), and machine learning, into hackathons is revolutionizing their structure and outcomes. This evolution brings forth both opportunities, like enhanced learning experienc
+    
+[^7]: 在科学研究中建立生成AI的伦理指南
 
     Building ethical guidelines for generative AI in scientific research. (arXiv:2401.15284v1 [cs.CY])
 
@@ -86,88 +120,144 @@
 
     Generative artificial intelligence tools like large language models are rapidly transforming academic research and real world applications. However, discussions on ethical guidelines for generative AI in science remain fragmented, underscoring the urgent need for consensus based standards. This paper offers an initial framework by developing analyses and mitigation strategies across five key themes: understanding model limitations regarding truthfulness and bias; respecting privacy, confidentiality, and copyright; avoiding plagiarism and policy violations when incorporating model output; ensuring applications provide overall benefit; and using AI transparently and reproducibly. Common scenarios are outlined to demonstrate potential ethical violations. We argue that global consensus coupled with professional training and reasonable enforcement are critical to promoting the benefits of AI while safeguarding research integrity.
     
-[^6]: 朝着目标导向的大型语言模型提示方法：一项调查
+[^8]: 用于选择性分类的深度神经网络基准
 
-    Towards Goal-oriented Large Language Model Prompting: A Survey. (arXiv:2401.14043v1 [cs.CL])
+    Deep Neural Network Benchmarks for Selective Classification. (arXiv:2401.12708v1 [cs.LG])
 
-    [http://arxiv.org/abs/2401.14043](http://arxiv.org/abs/2401.14043)
+    [http://arxiv.org/abs/2401.12708](http://arxiv.org/abs/2401.12708)
 
-    本文调查了大型语言模型(LLM)中目标导向提示工程的重要性。通过对35个代表性研究的回顾，我们发现引导LLM遵循人类的逻辑思维的目标导向提示公式显著提高了LLM的性能。我们还提出了一个新的分类体系，并总结了十个适用任务来展示我们框架的广泛适用性。同时，我们提出了四个未来的方向，以推动目标导向提示工程的进一步发展。
-
-    
-
-    大型语言模型(LLM)在各种下游任务中显示出卓越的性能，而提示工程在优化LLM性能中起着关键作用。本文旨在强调设计提示的限制，同时保持人类追求LLM像人类思考的人类学假设。通过对35个代表性研究的回顾，我们展示了目标导向提示公式的重要性，该公式指导LLM遵循人类的逻辑思维，显著提高了LLM的性能。此外，我们引入了一个新的分类体系，将目标导向提示方法分为五个相互关联的阶段，并通过总结十个适用任务来展示我们框架的广泛适用性。最后，我们提出了四个未来的方向，希望进一步强调和推动目标导向提示工程。
-
-    Large Language Models (LLMs) have shown prominent performance in various downstream tasks in which prompt engineering plays a pivotal role in optimizing LLMs' performance. This paper, not as an overview of current prompt engineering methods, aims to highlight the limitation of designing prompts while holding an anthropomorphic assumption that expects LLMs to think like humans. From our review of 35 representative studies, we demonstrate that a goal-oriented prompt formulation, which guides LLMs to follow established human logical thinking, significantly improves the performance of LLMs. Furthermore, We introduce a novel taxonomy that categorizes goal-oriented prompting methods into five interconnected stages and we demonstrate the broad applicability of our framework by summarizing ten applicable tasks. With four future directions proposed, we hope to further emphasize and promote goal-oriented prompt engineering.
-    
-[^7]: 有关算法决策的信息：探索受到算法决策影响的人的信息需求。
-
-    Information That Matters: Exploring Information Needs of People Affected by Algorithmic Decisions. (arXiv:2401.13324v1 [cs.HC])
-
-    [http://arxiv.org/abs/2401.13324](http://arxiv.org/abs/2401.13324)
-
-    本研究探讨了受算法决策影响的人的信息需求，发现解释往往不能满足他们的关注点，导致对监管框架的理解和遵守产生障碍。为了解决这个问题，研究团队提出了XAI初学者问题库，涵盖了就业预测和健康监测两个领域中受影响利益相关者的信息需求。
+    本论文研究了用于选择性分类的深度神经网络，目的是设计一种选择机制来平衡被拒绝的预测比例和所选预测的预测性能改进。
 
     
 
-    AI系统的解释很少涉及到受算法决策影响的人的信息需求。这种传达信息与受影响利益相关者所关心的信息之间的差距可能阻碍对监管框架（如AI法案）的理解和遵守。为了解决这个差距，我们提出了“XAI初学者问题库”：这是一个涵盖两个算法决策应用领域（就业预测和健康监测）中受影响利益相关者信息需求的目录，包括数据、系统背景、系统使用和系统规范等类别。信息需求是通过访谈研究收集的，参与者根据自己的问题获得解释。参与者还报告了他们的理解和决策信心，结果显示，尽管在接受解释后信心倾向于增加，但参与者也面临着理解上的挑战，如无法解释为什么自己的理解感觉不完整。解释还对理解产生了影响。
+    随着机器学习模型在许多具有社会敏感性的任务中的部署增加，对可靠和可信预测的需求也日益增长。实现这些要求的一种方法是允许模型在存在高错误风险时放弃进行预测。这需要为模型添加选择机制，该机制选择模型将提供预测的例子。选择性分类框架旨在设计一个平衡被拒绝预测比例（即模型不进行预测的例子比例）与在所选预测上的预测性能改进之间的机制。存在多个选择性分类框架，其中大多数依赖于深度神经网络架构。然而，现有方法的实证评估仍局限于部分方法和设置之间的比较，给实践者提供了很少的见解。
 
-    Explanations of AI systems rarely address the information needs of people affected by algorithmic decision-making (ADM). This gap between conveyed information and information that matters to affected stakeholders can impede understanding and adherence to regulatory frameworks such as the AI Act. To address this gap, we present the "XAI Novice Question Bank": A catalog of affected stakeholders' information needs in two ADM use cases (employment prediction and health monitoring), covering the categories data, system context, system usage, and system specifications. Information needs were gathered in an interview study where participants received explanations in response to their inquiries. Participants further reported their understanding and decision confidence, showing that while confidence tended to increase after receiving explanations, participants also met understanding challenges, such as being unable to tell why their understanding felt incomplete. Explanations further influenced
+    With the increasing deployment of machine learning models in many socially-sensitive tasks, there is a growing demand for reliable and trustworthy predictions. One way to accomplish these requirements is to allow a model to abstain from making a prediction when there is a high risk of making an error. This requires adding a selection mechanism to the model, which selects those examples for which the model will provide a prediction. The selective classification framework aims to design a mechanism that balances the fraction of rejected predictions (i.e., the proportion of examples for which the model does not make a prediction) versus the improvement in predictive performance on the selected predictions. Multiple selective classification frameworks exist, most of which rely on deep neural network architectures. However, the empirical evaluation of the existing approaches is still limited to partial comparisons among methods and settings, providing practitioners with little insight into 
     
-[^8]: AI互动中的AI对齐：规范对齐，过程对齐和评估支持
+[^9]: 连续学习: 面向视频表示的免遗忘优胜子网络
 
-    AI Alignment in the Design of Interactive AI: Specification Alignment, Process Alignment, and Evaluation Support. (arXiv:2311.00710v1 [cs.HC])
+    Continual Learning: Forget-free Winning Subnetworks for Video Representations. (arXiv:2312.11973v2 [cs.CV] UPDATED)
 
-    [http://arxiv.org/abs/2311.00710](http://arxiv.org/abs/2311.00710)
+    [http://arxiv.org/abs/2312.11973](http://arxiv.org/abs/2312.11973)
 
-    本文关注AI在界面设计和评估中的对齐问题，提出了规范对齐、过程对齐和评估支持等三个对齐目标，并介绍了代理过程和过程海湾的概念。
-
-    
-
-    AI对齐是确保AI产生期望结果而避免不良副作用的整体问题。虽然通常从安全和人类价值的角度考虑AI对齐，但也可以在设计和评估交互式AI系统的界面的背景下考虑AI对齐。本文将AI对齐的概念映射到基本的三步交互循环中，得出相应的对齐目标：1）规范对齐：确保用户能够高效可靠地将目标传达给AI；2）过程对齐：提供验证和可选择控制AI执行过程的能力；3）评估支持：确保用户能够验证和理解AI的输出。我们还介绍了代理过程的概念，它被定义为AI实际过程的简化、分离派生但可控制的表示；以及过程海湾的概念，它突显人类和AI过程之间的差异。
-
-    AI alignment considers the overall problem of ensuring an AI produces desired outcomes, without undesirable side effects. While often considered from the perspectives of safety and human values, AI alignment can also be considered in the context of designing and evaluating interfaces for interactive AI systems. This paper maps concepts from AI alignment onto a basic, three step interaction cycle, yielding a corresponding set of alignment objectives: 1) specification alignment: ensuring the user can efficiently and reliably communicate objectives to the AI, 2) process alignment: providing the ability to verify and optionally control the AI's execution process, and 3) evaluation support: ensuring the user can verify and understand the AI's output. We also introduce the concepts of a surrogate process, defined as a simplified, separately derived, but controllable representation of the AI's actual process; and the notion of a Process Gulf, which highlights how differences between human and
-    
-[^9]: 大型语言模型可以复制跨文化个性差异
-
-    Large language models can replicate cross-cultural differences in personality. (arXiv:2310.10679v1 [cs.CL])
-
-    [http://arxiv.org/abs/2310.10679](http://arxiv.org/abs/2310.10679)
-
-    大型语言模型GPT-4成功复制了使用十项人格问卷测量的大五人格的跨文化差异，但其结果表明平均评级有上升偏差和较低的变异性与结构效度。
+    本研究基于"彩票票据假设"，提出了一种连续学习方法，通过利用稀疏子网络和FSO进行任务增量学习、少样本类增量学习和视频增量学习，实现高效学习和有效的权重重用。
 
     
 
-    我们使用一项大规模实验(N=8000)来确定GPT-4是否可以复制使用十项人格问卷测量的大五人格的跨文化差异。我们选择美国和韩国作为文化对比，因为先前的研究表明这两个国家的人之间存在显著的人格差异。我们操纵了模拟的目标（美国 vs. 韩国），问卷的语言（英语 vs. 韩语）以及语言模型（GPT-4 vs. GPT-3.5）。我们的结果表明，GPT-4复制了每个因子的跨文化差异。然而，平均评级具有上升偏差，并且比人类样本的变异性更低，以及结构效度较低。总的来说，我们提供了初步的证据说明LLMs可以促进跨文化心理研究。
+    受到"彩票票据假设"（LTH）的启发，该假设强调在较大的密集网络中存在高效子网络，研究了在适当的稀疏条件下表现优秀的优胜子网络（WSN）在各种连续学习任务中的应用。它利用来自密集网络的预先存在的权重，在任务增量学习（TIL）场景中实现高效学习。在少样本类增量学习（FSCIL）中，设计了一种称为软子网络（SoftNet）的WSN变体，以防止数据样本稀缺时的过拟合。此外，考虑了WSN权重的稀疏重用，用于视频增量学习（VIL）。考虑了在WSN中使用傅立叶子神经运算器（FSO），它能够对视频进行紧凑编码，并在不同带宽下识别可重用的子网络。我们将FSO集成到不同的连续学习架构中，包括VIL、TIL和FSCIL。
 
-    We use a large-scale experiment (N=8000) to determine whether GPT-4 can replicate cross-cultural differences in the Big Five, measured using the Ten-Item Personality Inventory. We used the US and South Korea as the cultural pair, given that prior research suggests substantial personality differences between people from these two countries. We manipulated the target of the simulation (US vs. Korean), the language of the inventory (English vs. Korean), and the language model (GPT-4 vs. GPT-3.5). Our results show that GPT-4 replicated the cross-cultural differences for each factor. However, mean ratings had an upward bias and exhibited lower variation than in the human samples, as well as lower structural validity. Overall, we provide preliminary evidence that LLMs can aid cross-cultural psychological research.
+    Inspired by the Lottery Ticket Hypothesis (LTH), which highlights the existence of efficient subnetworks within larger, dense networks, a high-performing Winning Subnetwork (WSN) in terms of task performance under appropriate sparsity conditions is considered for various continual learning tasks. It leverages pre-existing weights from dense networks to achieve efficient learning in Task Incremental Learning (TIL) scenarios. In Few-Shot Class Incremental Learning (FSCIL), a variation of WSN referred to as the Soft subnetwork (SoftNet) is designed to prevent overfitting when the data samples are scarce. Furthermore, the sparse reuse of WSN weights is considered for Video Incremental Learning (VIL). The use of Fourier Subneural Operator (FSO) within WSN is considered. It enables compact encoding of videos and identifies reusable subnetworks across varying bandwidths. We have integrated FSO into different architectural frameworks for continual learning, including VIL, TIL, and FSCIL. Our c
     
-[^10]: 多样的神经音频嵌入 - 恢复特征！
+[^10]: 图神经网络中的等级崩塌导致平滑过度和关联过高
 
-    Diverse Neural Audio Embeddings -- Bringing Features back !. (arXiv:2309.08751v1 [cs.SD])
+    Rank Collapse Causes Over-Smoothing and Over-Correlation in Graph Neural Networks. (arXiv:2308.16800v1 [cs.LG])
 
-    [http://arxiv.org/abs/2309.08751](http://arxiv.org/abs/2309.08751)
+    [http://arxiv.org/abs/2308.16800](http://arxiv.org/abs/2308.16800)
 
-    本文通过在音频分类任务中学习多样化的特征表示，包括领域特定的音高、音色和神经表示，以及端到端架构，为学习稳健、多样化的表示铺平了道路，并显著提高了性能。
-
-    
-
-    随着现代人工智能架构的出现，从端到端的架构开始流行。这种转变导致了神经架构在没有领域特定偏见/知识的情况下进行训练，根据任务进行优化。本文中，我们通过多样的特征表示（在本例中是领域特定的）学习音频嵌入。对于涉及数百种声音分类的情况，我们学习分别针对音高、音色和神经表示等多样的音频属性建立稳健的嵌入，同时也通过端到端架构进行学习。我们观察到手工制作的嵌入，例如基于音高和音色的嵌入，虽然单独使用时无法击败完全端到端的表示，但将这些嵌入与端到端嵌入相结合可以显著提高性能。这项工作将为在端到端模型中引入一些领域专业知识来学习稳健、多样化的表示铺平道路，并超越仅训练端到端模型的性能。
-
-    With the advent of modern AI architectures, a shift has happened towards end-to-end architectures. This pivot has led to neural architectures being trained without domain-specific biases/knowledge, optimized according to the task. We in this paper, learn audio embeddings via diverse feature representations, in this case, domain-specific. For the case of audio classification over hundreds of categories of sound, we learn robust separate embeddings for diverse audio properties such as pitch, timbre, and neural representation, along with also learning it via an end-to-end architecture. We observe handcrafted embeddings, e.g., pitch and timbre-based, although on their own, are not able to beat a fully end-to-end representation, yet adding these together with end-to-end embedding helps us, significantly improve performance. This work would pave the way to bring some domain expertise with end-to-end models to learn robust, diverse representations, surpassing the performance of just training 
-    
-[^11]: 学习通过自我解释
-
-    Learning by Self-Explaining. (arXiv:2309.08395v1 [cs.AI])
-
-    [http://arxiv.org/abs/2309.08395](http://arxiv.org/abs/2309.08395)
-
-    学习通过自我解释（LSX）是一种新的学习范式，通过给予解释和批评者的反馈来改进学习者的性能。这种方法适用于图像分类等基本任务，并有潜力在人工智能研究中发挥作用。
+    本文研究了图神经网络中的平滑过度和特征关联过高现象，发现固定不变的子空间导致了节点表示的等级崩塌。在该子空间中平滑向量的存在导致过度平滑，即使避免过度平滑也会导致过高的关联。为了解决这个问题，我们提出了一种克罗内克积之和作为一种有效方法。
 
     
 
-    人工智能研究长期以来一直从生物学中寻找灵感，特别是人类智能。与目前主要将解释视为模型检查手段的人工智能研究相比，从心理学中发现自我解释在代理学习过程中的好处有些被忽视了。受到这个启发，我们引入了一种新的学习范式，称为学习通过自我解释 (LSX)。其中的基本思想是，一个学习模块 (学习者) 执行一个基本任务，比如图像分类，并对其决策进行解释。随后，一个内部批评者模块基于原始任务评估这些解释的质量。最后，学习者通过批评者的反馈得到改进，并根据需要重复这个循环。背后的直觉是，如果批评者能够根据相应的解释执行相同的任务，则该解释被认为是“好”的。尽管有许多实现可能性，但本文旨在提供关于实施学习通过自我解释的一般指导原则。有待进一步的研究和实践来探索这一学习范式的潜力。
+    我们的研究揭示了深度图神经网络中平滑过度和特征关联过高的新理论见解。我们展示了固定不变子空间的普遍存在，它表现出一种相对的行为，不受特征转换的影响。我们的工作阐明了与收敛到常数状态和节点状态的过分分离相关的最新观察结果，因为子空间的放大只取决于聚合函数的频谱。在线性场景中，这导致节点表示由低维子空间主导，并且具有与特征转换无关的渐近收敛速率。当平滑向量跨越这个子空间时，这会导致节点表示的等级崩塌，从而导致过度平滑，即使避免过度平滑也会导致过高的关联。在我们的理论指导下，我们提出了一种克罗内克积之和作为一种有益特性，可以可靠地防止过度平滑、过高关联和等级崩塌。
 
-    Artificial intelligence (AI) research has a long track record of drawing inspirations from findings from biology, in particular human intelligence. In contrast to current AI research that mainly treats explanations as a means for model inspection, a somewhat neglected finding from human psychology is the benefit of self-explaining in an agents' learning process. Motivated by this, we introduce a novel learning paradigm, termed Learning by Self-Explaining (LSX). The underlying idea is that a learning module (learner) performs a base task, e.g. image classification, and provides explanations to its decisions. An internal critic module next evaluates the quality of these explanations given the original task. Finally, the learner is refined with the critic's feedback and the loop is repeated as required. The intuition behind this is that an explanation is considered "good" if the critic can perform the same task given the respective explanation. Despite many implementation possibilities th
+    Our study reveals new theoretical insights into over-smoothing and feature over-correlation in deep graph neural networks. We show the prevalence of invariant subspaces, demonstrating a fixed relative behavior that is unaffected by feature transformations. Our work clarifies recent observations related to convergence to a constant state and a potential over-separation of node states, as the amplification of subspaces only depends on the spectrum of the aggregation function. In linear scenarios, this leads to node representations being dominated by a low-dimensional subspace with an asymptotic convergence rate independent of the feature transformations. This causes a rank collapse of the node representations, resulting in over-smoothing when smooth vectors span this subspace, and over-correlation even when over-smoothing is avoided. Guided by our theory, we propose a sum of Kronecker products as a beneficial property that can provably prevent over-smoothing, over-correlation, and rank c
+    
+[^11]: 通过神经符号约束来调节基于评分的生成模型
+
+    Conditioning Score-Based Generative Models by Neuro-Symbolic Constraints. (arXiv:2308.16534v1 [cs.LG])
+
+    [http://arxiv.org/abs/2308.16534](http://arxiv.org/abs/2308.16534)
+
+    本文提出了一种方法，通过神经符号约束来调节基于评分的生成模型，实现了在非条件生成模型下强制执行任意的逻辑约束，从而获得了一个有效的、无需额外训练的条件采样算法。
+
+    
+
+    基于评分和扩散模型已经成为一种有效的条件和非条件生成方法。然而，条件生成基于特定训练的条件模型或分类器指导，这需要训练一个噪声依赖的分类器，即使对于未损坏数据的分类器已经给出。我们提出了一种方法，可以从非条件评分生成模型中采样，可以强制执行任意的逻辑约束，而无需进行额外的训练。首先，我们展示了如何操纵学习得到的评分，以便在用户定义的约束条件下从非归一化分布中采样。然后，我们定义了一个灵活而数值稳定的神经符号框架，用于编码软逻辑约束。将这两个组成部分结合起来，我们获得了一个一般的但是近似的条件采样算法。我们进一步开发了有效的启发式方法来改进近似。最后，我们展示了我们方法的有效性。
+
+    Score-based and diffusion models have emerged as effective approaches for both conditional and unconditional generation. Still conditional generation is based on either a specific training of a conditional model or classifier guidance, which requires training a noise-dependent classifier, even when the classifier for uncorrupted data is given. We propose an approach to sample from unconditional score-based generative models enforcing arbitrary logical constraints, without any additional training. Firstly, we show how to manipulate the learned score in order to sample from an un-normalized distribution conditional on a user-defined constraint. Then, we define a flexible and numerically stable neuro-symbolic framework for encoding soft logical constraints. Combining these two ingredients we obtain a general, but approximate, conditional sampling algorithm. We further developed effective heuristics aimed at improving the approximation. Finally, we show the effectiveness of our approach fo
+    
+[^12]: 通过在数学和科学问题上使用Wolfram Alpha和Code Interpreter插件测试GPT-4
+
+    Testing GPT-4 with Wolfram Alpha and Code Interpreter plug-ins on math and science problems. (arXiv:2308.05713v1 [cs.AI])
+
+    [http://arxiv.org/abs/2308.05713](http://arxiv.org/abs/2308.05713)
+
+    本研究测试了GPT-4在科学和数学问题上使用Wolfram Alpha和Code Interpreter插件的效果，结果表明插件显著提升了GPT的问题解决能力，但接口故障仍然是其可靠性的主要挑战。
+
+    
+
+    本报告描述了在2023年6月至8月期间对大型语言模型GPT-4在科学和数学领域进行的105个原创问题的测试，其中使用了Wolfram Alpha和Code Interpreter插件。我们的测试表明，这些插件显著增强了GPT解决这些问题的能力。然而，仍然经常出现“接口”故障；也就是说，GPT经常在问题的表述上遇到困难，无法从插件中得到有用的答案。解决这些接口故障似乎是使GPT成为可靠的大学级计算问题工具的关键挑战。
+
+    This report describes a test of the large language model GPT-4 with the Wolfram Alpha and the Code Interpreter plug-ins on 105 original problems in science and math, at the high school and college levels, carried out in June-August 2023. Our tests suggest that the plug-ins significantly enhance GPT's ability to solve these problems. Having said that, there are still often "interface" failures; that is, GPT often has trouble formulating problems in a way that elicits useful answers from the plug-ins. Fixing these interface failures seems like a central challenge in making GPT a reliable tool for college-level calculation problems.
+    
+[^13]: AI价值链的伦理问题
+
+    The Ethics of AI Value Chains. (arXiv:2307.16787v2 [cs.CY] UPDATED)
+
+    [http://arxiv.org/abs/2307.16787](http://arxiv.org/abs/2307.16787)
+
+    本文提出了AI价值链的概念，以满足AI伦理研究和干预的需求。通过综合评估AI价值链涉及的伦理问题，我们提出了四个未来方向，旨在推动更具伦理的AI发展和使用。
+
+    
+
+    对于对人工智能伦理感兴趣的研究人员、从业人员和政策制定者，他们需要更多综合的方法来研究和干预在多种背景和活动规模下的AI系统。本文提出了AI价值链作为一个满足这一需求的综合概念。为了更清晰地理论化AI价值链，并在概念上将其与供应链区分开来，我们回顾了战略管理、服务科学、经济地理学、行业、政府和应用研究文献中关于价值链和AI价值链的理论。然后，我们对涵盖AI价值链涉及的伦理问题的67个来源进行综合评估。根据我们综合评估的结果，我们提出了四个未来方向，研究人员、从业人员和政策制定者可以采取这些方向来推动在AI价值链上实现更具伦理的发展和使用。我们的综述和建议有助于推进研究议程的发展。
+
+    Researchers, practitioners, and policymakers with an interest in AI ethics need more integrative approaches for studying and intervening in AI systems across many contexts and scales of activity. This paper presents AI value chains as an integrative concept that satisfies that need. To more clearly theorize AI value chains and conceptually distinguish them from supply chains, we review theories of value chains and AI value chains from the strategic management, service science, economic geography, industry, government, and applied research literature. We then conduct an integrative review of a sample of 67 sources that cover the ethical concerns implicated in AI value chains. Building upon the findings of our integrative review, we recommend four future directions that researchers, practitioners, and policymakers can take to advance more ethical practices of AI development and use across AI value chains. Our review and recommendations contribute to the advancement of research agendas, i
+    
+[^14]: 人口稀缺制度下的公平性研究
+
+    Fairness Under Demographic Scarce Regime. (arXiv:2307.13081v1 [cs.LG])
+
+    [http://arxiv.org/abs/2307.13081](http://arxiv.org/abs/2307.13081)
+
+    这项研究探讨了在人口信息不完全可用的情况下如何提高公平性。研究发现，在替代敏感属性的属性分类器中引入不确定性意识，并对推断出的不确定性最低的人口信息样本进行公平性约束可以实现更好的公平性和准确性权衡。
+
+    
+
+    大多数现有的公平性研究假设模型可以完全访问人口信息。然而，由于数据采集期间未保留记录或出于隐私原因，存在人口信息部分可用的情况。这种情况被称为人口稀缺制度。先前的研究表明，训练一个属性分类器来替代缺失的敏感属性（代理）仍然可以改善公平性。然而，与真实敏感属性相比，使用代理敏感属性会加剧公平性和准确性之间的权衡。为了解决这个限制，我们提出了一个框架来构建属性分类器，以实现更好的公平性和准确性的权衡。我们的方法在属性分类器中引入不确定性意识，并对具有推断出的最低不确定性的人口信息的样本强制执行公平性。我们通过实验证明，在具有不确定敏感属性的样本上强制执行公平约束会损害算法的总体准确性，但可以提高公平性。
+
+    Most existing works on fairness assume the model has full access to demographic information. However, there exist scenarios where demographic information is partially available because a record was not maintained throughout data collection or due to privacy reasons. This setting is known as demographic scarce regime. Prior research have shown that training an attribute classifier to replace the missing sensitive attributes (proxy) can still improve fairness. However, the use of proxy-sensitive attributes worsens fairness-accuracy trade-offs compared to true sensitive attributes. To address this limitation, we propose a framework to build attribute classifiers that achieve better fairness-accuracy trade-offs. Our method introduces uncertainty awareness in the attribute classifier and enforces fairness on samples with demographic information inferred with the lowest uncertainty. We show empirically that enforcing fairness constraints on samples with uncertain sensitive attributes is detr
+    
+[^15]: 关于中心隐私在密度估计中的成本
+
+    About the Cost of Central Privacy in Density Estimation. (arXiv:2306.14535v2 [cs.AI] UPDATED)
+
+    [http://arxiv.org/abs/2306.14535](http://arxiv.org/abs/2306.14535)
+
+    本研究对于利普希茨和 Sobolev 空间中的非参数密度估计，通过考虑中心隐私的影响，发现了直方图估计器在 L2 风险下对于利普希茨分布是最优的，并且在正常差分隐私情况下也是如此；同时发现，在一些情况下，施加隐私会降低对于 Sobolev 密度的正则极小风险估计。此外，本研究还发现在纯投影估计设定下，所谓的投影估计器对于相同类密度几乎是最优的。
+
+    
+
+    我们研究利普希茨和 Sobolev 空间中的非参数密度估计，在中心隐私条件下进行。我们考虑了隐私预算不是常数的情况。我们考虑了经典的中心差分隐私定义，以及较新的中心集中差分隐私概念。我们证实了 Barber & Duchi (2014) 的结果，即直方图估计器在对于 L2 风险下对于利普希茨分布是最优的，并且在正常差分隐私情况下也是如此，我们将其扩展到其他范数和隐私概念。然后，我们研究更高程度的光滑性，得出两个结论：首先，与常数隐私预算需要的情况相反（Wasserman &amp; Zhou, 2010），在 Sobolev 密度上施加隐私会降低正则极小风险估计。其次，在这种新的纯投影估计设定下，所谓的投影估计器对于相同类密度是几乎最优的。
+
+    We study non-parametric density estimation for densities in Lipschitz and Sobolev spaces, and under central privacy. In particular, we investigate regimes where the privacy budget is not supposed to be constant. We consider the classical definition of central differential privacy, but also the more recent notion of central concentrated differential privacy. We recover the result of Barber \& Duchi (2014) stating that histogram estimators are optimal against Lipschitz distributions for the L2 risk, and under regular differential privacy, and we extend it to other norms and notions of privacy. Then, we investigate higher degrees of smoothness, drawing two conclusions: First, and contrary to what happens with constant privacy budget (Wasserman \& Zhou, 2010), there are regimes where imposing privacy degrades the regular minimax risk of estimation on Sobolev densities. Second, so-called projection estimators are near-optimal against the same classes of densities in this new setup with pure
+    
+[^16]: PlaSma: 为 (反事实) 计划制定增强过程知识模型的小型语言模型
+
+    PlaSma: Making Small Language Models Better Procedural Knowledge Models for (Counterfactual) Planning. (arXiv:2305.19472v1 [cs.CL])
+
+    [http://arxiv.org/abs/2305.19472](http://arxiv.org/abs/2305.19472)
+
+    PlaSma提出了一种使用小型语言模型进行过程知识和计划能力的新方法，
+
+    
+
+    过程规划是机器的一项重要而又复杂的任务，它将一个高级目标分解为一系列时间顺序的步骤。它需要整合常识知识以推理出常常是反事实的复杂情境，例如 "没有电话时安排医生的约会"。当前的方法使用大型语言模型 (LLM) 取得了令人鼓舞的结果，但受到昂贵的 API 调用和可复现性问题的限制。本文提出使用更小的语言模型来进行规划，我们介绍了 PlaSma，这是一种新的双重方法，使小型语言模型具有过程知识和 (反事实) 计划能力。更具体地说，我们开发了符号过程知识蒸馏来增强小型语言模型中的隐含知识，以及一种推理算法来促进更结构化和准确的推理。此外，我们还引入了一个新的任务，反事实规划。
+
+    Procedural planning, which entails decomposing a high-level goal into a sequence of temporally ordered steps, is an important yet intricate task for machines. It involves integrating common-sense knowledge to reason about complex contextualized situations that are often counterfactual, e.g. "scheduling a doctor's appointment without a phone". While current approaches show encouraging results using large language models (LLMs), they are hindered by drawbacks such as costly API calls and reproducibility issues. In this paper, we advocate planning using smaller language models. We present PlaSma, a novel two-pronged approach to endow small language models with procedural knowledge and (counterfactual) planning capabilities. More concretely, we develop symbolic procedural knowledge distillation to enhance the implicit knowledge in small language models and an inference-time algorithm to facilitate more structured and accurate reasoning. In addition, we introduce a novel task, Counterfactua
+    
+[^17]: 关于大型语言模型的创造性研究
+
+    On the Creativity of Large Language Models. (arXiv:2304.00008v1 [cs.AI])
+
+    [http://arxiv.org/abs/2304.00008](http://arxiv.org/abs/2304.00008)
+
+    这篇论文探讨了大型语言模型的创造性问题，分析了与之相关的机器创造性的难点和易点，并重点分析了这些技术在创意产业中的社会影响。
+
+    
+
+    大型语言模型(LLMs)正在颠覆人工智能的多个领域。其中最显著的应用之一是创作，例如诗歌或故事：生成的输出通常具有惊人的质量。但是，一个自然的问题是：LLMs真的可以被认为是创造性的吗？在本文中，我们首先通过创造性理论的角度分析了LLMs的发展，探讨了关键的未解决问题和挑战。然后，我们在与LLMs相关的机器创造性方面确定了一组“易”和“难”问题，并对其进行了讨论。最后，我们分析了这些技术在创意产业中的社会影响。
+
+    Large Language Models (LLMs) are revolutionizing several areas of Artificial Intelligence. One of the most remarkable applications is creative writing, e.g., poetry or storytelling: the generated outputs are often of astonishing quality. However, a natural question arise: can LLMs really be considered creative? In this article we firstly analyze the development of LLMs under the lens of creativity theories, investigating the key open questions and challenges. Then, we identify a set of "easy" and "hard" problems in machine creativity, discussing them in relation to LLMs. Finally, we analyze the societal impact of these technologies with a particular focus on the creative industries.
     
 
