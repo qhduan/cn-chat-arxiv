@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [The optimality of (stochastic) veto delegation](https://arxiv.org/abs/2208.14829) | 本研究分析了委托人和代理人之间的最优授权问题，发现当委托人对非现状选项更具风险规避性时，最优的授权机制是使用否决来平衡代理人的激励，在特定条件下使用否决。 |
-| [^2] | [Buyer-Optimal Algorithmic Consumption.](http://arxiv.org/abs/2309.12122) | 该文分析了一个双边交易模型，提出了一种买方最优的算法消费模型，该模型实现了高价位下少推荐和低价位下多推荐产品的策略，同时提高算法精确性可以提高最大均衡价格，而知悉买方价值则会导致价格分布的扩散和买方收益的收缩。 |
+| [^1] | [A note on the stability of Monotone Markov Chains.](http://arxiv.org/abs/2401.11568) | 本文解决了验证单调马尔可夫链分裂条件的挑战，引入了简单可行的条件来保证全局稳定性。 |
+| [^2] | [Respecting priorities versus respecting preferences in school choice: When is there a trade-off?.](http://arxiv.org/abs/2212.02881) | 这项研究提出了一种关于学校选择市场的新条件，使得学生提议的延迟接受算法（DA）在符合优先级的唯一分配时保持高效。该条件通过限制偏好和优先级在影响分配的相关部分上的关系来推广先前的条件，对于扩大DA的高效性范围具有显著作用。研究还探讨了该条件对现有实证研究结果的启示。 |
 
 # 详细
 
-[^1]: （随机）否决授权的优化
+[^1]: 关于单调马尔可夫链稳定性的注解
 
-    The optimality of (stochastic) veto delegation
+    A note on the stability of Monotone Markov Chains. (arXiv:2401.11568v1 [math.PR])
 
-    [https://arxiv.org/abs/2208.14829](https://arxiv.org/abs/2208.14829)
+    [http://arxiv.org/abs/2401.11568](http://arxiv.org/abs/2401.11568)
 
-    本研究分析了委托人和代理人之间的最优授权问题，发现当委托人对非现状选项更具风险规避性时，最优的授权机制是使用否决来平衡代理人的激励，在特定条件下使用否决。
-
-    
-
-    我们分析了委托人和代理人之间的最优授权问题，假设后者具有独立于状态的偏好。我们证明，如果委托人对非现状选项更具风险规避性，那么最优机制是“否决机制”。在否决机制中，委托人使用否决（即保持现状）来平衡代理人的激励，不对非现状选项进行随机选择。我们在一维设置中描述了最优否决机制。在解决方案中，只有当状态超过临界阈值时，委托人才使用否决。
-
-    We analyze the optimal delegation problem between a principal and an agent, assuming that the latter has state-independent preferences. We demonstrate that if the principal is more risk-averse than the agent toward non-status quo options, an optimal mechanism is a {\em veto mechanism}. In a veto mechanism, the principal uses veto (i.e., maintaining the status quo) to balance the agent's incentives and does not randomize among non-status quo options. We characterize the optimal veto mechanism in a one-dimensional setting. In the solution, the principal uses veto only when the state surpasses a critical threshold.
-    
-[^2]: 买方最优的算法消费模型分析
-
-    Buyer-Optimal Algorithmic Consumption. (arXiv:2309.12122v1 [econ.TH])
-
-    [http://arxiv.org/abs/2309.12122](http://arxiv.org/abs/2309.12122)
-
-    该文分析了一个双边交易模型，提出了一种买方最优的算法消费模型，该模型实现了高价位下少推荐和低价位下多推荐产品的策略，同时提高算法精确性可以提高最大均衡价格，而知悉买方价值则会导致价格分布的扩散和买方收益的收缩。
+    本文解决了验证单调马尔可夫链分裂条件的挑战，引入了简单可行的条件来保证全局稳定性。
 
     
 
-    我们分析了一个双边交易模型，其中买方对产品的价值和卖方的成本是不确定的，卖方选择产品价格，并且基于其价值和价格通过算法推荐产品。我们描述了一个最大化买方预期收益的算法，并且表明在高价位下的最优算法过少推荐产品，在低价位下过多推荐。算法的精确性提高了最大均衡价格，可能提高卖方成本的所有价格，而告知卖方买方的价值则会导致均衡价格的均值保持扩散和买方收益的均值保持收缩。
+    本文研究单调马尔可夫链，这是马尔可夫链的一个子类，广泛应用于运筹学和经济学领域。虽然保证这些链的全局稳定性的属性已经有了很好的研究，但其建立往往依赖于满足某种分裂条件。我们通过引入简单且适用的条件来解决验证分裂条件的挑战，这些条件可以保证全局稳定性。通过包括自回归过程和投资组合分配问题在内的各种示例，证明了这些条件的简单性。
 
-    We analyze a bilateral trade model in which the buyer's value for the product and the seller's costs are uncertain, the seller chooses the product price, and the product is recommended by an algorithm based on its value and price. We characterize an algorithm that maximizes the buyer's expected payoff and show that the optimal algorithm underrecommends the product at high prices and overrecommends at low prices. Higher algorithm precision increases the maximal equilibrium price and may increase prices across all of the seller's costs, whereas informing the seller about the buyer's value results in a mean-preserving spread of equilibrium prices and a mean-preserving contraction of the buyer's payoff.
+    This note studies monotone Markov chains a subclass of Markov chains with extensive applications in operations research and economics. While the properties that ensure the global stability of these chains are well studied, their establishment often relies on the fulfillment of a certain splitting condition. We address the challenges of verifying the splitting condition, by introducing simple, applicable conditions that ensure global stability. The simplicity of these conditions is demonstrated through various examples including autoregressive processes and portfolio allocation problems.
+    
+[^2]: 尊重优先级与尊重偏好在学校选择中存在权衡吗？
+
+    Respecting priorities versus respecting preferences in school choice: When is there a trade-off?. (arXiv:2212.02881v2 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2212.02881](http://arxiv.org/abs/2212.02881)
+
+    这项研究提出了一种关于学校选择市场的新条件，使得学生提议的延迟接受算法（DA）在符合优先级的唯一分配时保持高效。该条件通过限制偏好和优先级在影响分配的相关部分上的关系来推广先前的条件，对于扩大DA的高效性范围具有显著作用。研究还探讨了该条件对现有实证研究结果的启示。
+
+    
+
+    学区在决定使用哪种匹配算法时，面临的一个经典权衡是无法同时尊重优先级和偏好。学生提议的延迟接受算法（DA）尊重优先级，但可能导致效率低下的分配。我们提出了一种关于学校选择市场的新条件，在这种条件下，DA是高效的。我们的条件通过对偏好和优先级在影响分配的相关部分上的关系加以限制来推广了先前的条件。只要有一种唯一的分配符合优先级，我们的条件就能涵盖所有环境中DA是高效的。通过样例和模拟，我们展示了我们的条件如何显著扩大DA高效性的已知范围。我们还讨论了我们的条件如何解释现有的实证研究结果。
+
+    A classic trade-off that school districts face when deciding which matching algorithm to use is that it is not possible to always respect both priorities and preferences. The student-proposing deferred acceptance algorithm (DA) respects priorities but can lead to inefficient allocations. We identify a new condition on school choice markets under which DA is efficient. Our condition generalizes earlier conditions by placing restrictions on how preferences and priorities relate to one another only on the parts that are relevant for the assignment. Whenever there is a unique allocation that respects priorities, our condition captures all the environments for which DA is efficient. We show through stylized examples and simulations that our condition significantly expands the range of known environments for which DA is efficient. We also discuss how our condition sheds light on existing empirical findings.
     
 

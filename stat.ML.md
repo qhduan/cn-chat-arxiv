@@ -2,82 +2,97 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Efficient reductions between some statistical models](https://arxiv.org/abs/2402.07717) | 本研究提出了一种在不知道源统计模型参数的情况下，高效地将样本从源模型转换为目标模型的方法，并构造了几个归约方法。这些归约方法能适应不同的问题，例如专家混合模型、相位恢复和信号降噪等，并且可以处理缺失数据。此外，该研究还指出了一个潜在的应用，即将一个差分隐私机制转换为另一个机制。 |
-| [^2] | [Deep Neural Network Benchmarks for Selective Classification.](http://arxiv.org/abs/2401.12708) | 本论文研究了用于选择性分类的深度神经网络，目的是设计一种选择机制来平衡被拒绝的预测比例和所选预测的预测性能改进。 |
-| [^3] | [Initial Guessing Bias: How Untrained Networks Favor Some Classes.](http://arxiv.org/abs/2306.00809) | 本文提出了“初始猜测偏差”现象，即在未经过训练的神经网络中，由于架构选择的影响，模型往往会将所有预测指向同一个类别。该现象对架构选择和初始化有实际指导意义，并具有理论后果，例如节点置换对称性的崩溃和深度带来的非平凡差异。 |
-| [^4] | [It begins with a boundary: A geometric view on probabilistically robust learning.](http://arxiv.org/abs/2305.18779) | 本文探讨了深度神经网络对于对抗生成的示例缺乏鲁棒性的问题，并提出了一种从几何角度出发的新颖视角，介绍一族概率非局部周长函数来优化概率鲁棒学习（PRL）的原始表述，以提高其鲁棒性。 |
-| [^5] | [Canonical foliations of neural networks: application to robustness.](http://arxiv.org/abs/2203.00922) | 本文探讨了利用黎曼几何和叶面理论创新应用于神经网络鲁棒性的新视角，提出了一种适用于数据空间的以曲率为考量因素的 two-step spectral 对抗攻击方法。 |
+| [^1] | [Subsampling is not Magic: Why Large Batch Sizes Work for Differentially Private Stochastic Optimisation](https://arxiv.org/abs/2402.03990) | 通过研究差分隐私随机梯度下降（DP-SGD）中的总梯度方差，我们发现大批次大小有助于减小則采樣引起的方差，从而提高优化效果。 |
+| [^2] | [Estimation and Inference in Distributional Reinforcement Learning.](http://arxiv.org/abs/2309.17262) | 本文研究了分布式强化学习中的估计和推断问题，通过使用等价确定法，在提供生成模型的情况下以高效的方式解决了分布式策略评估问题。 |
+| [^3] | [Targeting Relative Risk Heterogeneity with Causal Forests.](http://arxiv.org/abs/2309.15793) | 本研究提出了一种通过修改因果森林方法，以相对风险为目标，从而捕捉到治疗效应异质性的潜在来源。 |
+| [^4] | [Optimal Heterogeneous Collaborative Linear Regression and Contextual Bandits.](http://arxiv.org/abs/2306.06291) | 本文提出了一种新的估计器MOLAR，它利用协同线性回归和上下文臂问题中的稀疏异质性来提高估计精度，并且相比独立方法具有更好的表现。 |
+| [^5] | [repliclust: Synthetic Data for Cluster Analysis.](http://arxiv.org/abs/2303.14301) | repliclust 是一个 Python 包，用于生成具有聚类的合成数据集，基于数据集的原型，提供了放置集群中心、采样集群形状、选择每个集群的数据点数量以及为集群分配概率分布的算法。 |
+| [^6] | [Finite time analysis of temporal difference learning with linear function approximation: Tail averaging and regularisation.](http://arxiv.org/abs/2210.05918) | 本研究通过引入尾平均和正则化技术，对时序差异(TD)学习算法进行了有限时间行为的研究。我们得出结论，尾平均TD能以最优速率 $O(1/t)$ 收敛，并且初始误差衰减速率更快。此外，正则化的TD版本在具有病态特征的问题上很有用。 |
 
 # 详细
 
-[^1]: 一些统计模型之间的高效归约
+[^1]: 則采樣并不是魔法: 大批量大小為什麼適用於差分隱私隨機優化
 
-    Efficient reductions between some statistical models
+    Subsampling is not Magic: Why Large Batch Sizes Work for Differentially Private Stochastic Optimisation
 
-    [https://arxiv.org/abs/2402.07717](https://arxiv.org/abs/2402.07717)
+    [https://arxiv.org/abs/2402.03990](https://arxiv.org/abs/2402.03990)
 
-    本研究提出了一种在不知道源统计模型参数的情况下，高效地将样本从源模型转换为目标模型的方法，并构造了几个归约方法。这些归约方法能适应不同的问题，例如专家混合模型、相位恢复和信号降噪等，并且可以处理缺失数据。此外，该研究还指出了一个潜在的应用，即将一个差分隐私机制转换为另一个机制。
-
-    
-
-    我们研究了在不知道源模型参数的情况下，近似地将来自源统计模型的样本转换为目标统计模型的样本的问题，并构造了几个计算上高效的这种统计实验之间的归约。具体而言，我们提供了计算上高效的程序，可以近似将均匀分布、Erlang分布和拉普拉斯分布的位置模型归约到一般的目标族。我们通过建立一些经典的高维问题之间的非渐近归约来说明我们的方法，包括专家混合模型、相位恢复和信号降噪等。值得注意的是，这些归约保持了结构，并可以适应缺失数据。我们还指出了将一个差分隐私机制转换为另一个机制的可能应用。
-
-    We study the problem of approximately transforming a sample from a source statistical model to a sample from a target statistical model without knowing the parameters of the source model, and construct several computationally efficient such reductions between statistical experiments. In particular, we provide computationally efficient procedures that approximately reduce uniform, Erlang, and Laplace location models to general target families. We illustrate our methodology by establishing nonasymptotic reductions between some canonical high-dimensional problems, spanning mixtures of experts, phase retrieval, and signal denoising. Notably, the reductions are structure preserving and can accommodate missing data. We also point to a possible application in transforming one differentially private mechanism to another.
-    
-[^2]: 用于选择性分类的深度神经网络基准
-
-    Deep Neural Network Benchmarks for Selective Classification. (arXiv:2401.12708v1 [cs.LG])
-
-    [http://arxiv.org/abs/2401.12708](http://arxiv.org/abs/2401.12708)
-
-    本论文研究了用于选择性分类的深度神经网络，目的是设计一种选择机制来平衡被拒绝的预测比例和所选预测的预测性能改进。
+    通过研究差分隐私随机梯度下降（DP-SGD）中的总梯度方差，我们发现大批次大小有助于减小則采樣引起的方差，从而提高优化效果。
 
     
 
-    随着机器学习模型在许多具有社会敏感性的任务中的部署增加，对可靠和可信预测的需求也日益增长。实现这些要求的一种方法是允许模型在存在高错误风险时放弃进行预测。这需要为模型添加选择机制，该机制选择模型将提供预测的例子。选择性分类框架旨在设计一个平衡被拒绝预测比例（即模型不进行预测的例子比例）与在所选预测上的预测性能改进之间的机制。存在多个选择性分类框架，其中大多数依赖于深度神经网络架构。然而，现有方法的实证评估仍局限于部分方法和设置之间的比较，给实践者提供了很少的见解。
+    我們研究了批次大小對差分隱私隨機梯度下降（DP-SGD）中總梯度方差的影響，尋求對大批次大小有用性的理論解釋。由於DP-SGD是現代差分隱私深度學習的基礎，其性質已被廣泛研究，最近的工作在實踐中發現大批次大小有益。然而，對於這種好處的理論解釋目前最多只能說是啟發式的。我們首先觀察到，在DP-SGD中，總梯度方差可以分解為由則采樣和噪聲引起的方差。然後，我們證明在無限次迭代的極限情況下，有效的噪聲引起的方差對批次大小是不變的。剩下的則采樣引起的方差隨著批次大小的增大而減小，因此大批次大小減小了有效的總梯度方差。我們在數值上確認這種漸進的情況在實際環境中是相關的，當批次大小不小的時候會起作用，並且發現
 
-    With the increasing deployment of machine learning models in many socially-sensitive tasks, there is a growing demand for reliable and trustworthy predictions. One way to accomplish these requirements is to allow a model to abstain from making a prediction when there is a high risk of making an error. This requires adding a selection mechanism to the model, which selects those examples for which the model will provide a prediction. The selective classification framework aims to design a mechanism that balances the fraction of rejected predictions (i.e., the proportion of examples for which the model does not make a prediction) versus the improvement in predictive performance on the selected predictions. Multiple selective classification frameworks exist, most of which rely on deep neural network architectures. However, the empirical evaluation of the existing approaches is still limited to partial comparisons among methods and settings, providing practitioners with little insight into 
+    We study the effect of the batch size to the total gradient variance in differentially private stochastic gradient descent (DP-SGD), seeking a theoretical explanation for the usefulness of large batch sizes. As DP-SGD is the basis of modern DP deep learning, its properties have been widely studied, and recent works have empirically found large batch sizes to be beneficial. However, theoretical explanations of this benefit are currently heuristic at best. We first observe that the total gradient variance in DP-SGD can be decomposed into subsampling-induced and noise-induced variances. We then prove that in the limit of an infinite number of iterations, the effective noise-induced variance is invariant to the batch size. The remaining subsampling-induced variance decreases with larger batch sizes, so large batches reduce the effective total gradient variance. We confirm numerically that the asymptotic regime is relevant in practical settings when the batch size is not small, and find tha
     
-[^3]: 初始猜测偏差：未经过训练的神经网络倾向于某些类别
+[^2]: 分布式强化学习中的估计和推断
 
-    Initial Guessing Bias: How Untrained Networks Favor Some Classes. (arXiv:2306.00809v1 [cs.LG])
+    Estimation and Inference in Distributional Reinforcement Learning. (arXiv:2309.17262v1 [stat.ML])
 
-    [http://arxiv.org/abs/2306.00809](http://arxiv.org/abs/2306.00809)
+    [http://arxiv.org/abs/2309.17262](http://arxiv.org/abs/2309.17262)
 
-    本文提出了“初始猜测偏差”现象，即在未经过训练的神经网络中，由于架构选择的影响，模型往往会将所有预测指向同一个类别。该现象对架构选择和初始化有实际指导意义，并具有理论后果，例如节点置换对称性的崩溃和深度带来的非平凡差异。
-
-    
-
-    神经网络的初始状态在调节后续的训练过程中扮演重要角色。在分类问题的背景下，我们提供了理论分析，证明神经网络的结构可以在训练之前，甚至在不存在显式偏差的情况下，使模型将所有预测都指向同一个类别。我们展示了这种现象的存在，称为“初始猜测偏差”（Initial Guessing Bias，IGB），这取决于架构选择，例如激活函数、最大池化层和网络深度。我们对IGB进行的分析具有实际意义，可以指导架构的选择和初始化。我们还强调理论后果，例如节点置换对称性的崩溃、自平均的破坏、某些均场近似的有效性以及深度带来的非平凡差异。
-
-    The initial state of neural networks plays a central role in conditioning the subsequent training dynamics. In the context of classification problems, we provide a theoretical analysis demonstrating that the structure of a neural network can condition the model to assign all predictions to the same class, even before the beginning of training, and in the absence of explicit biases. We show that the presence of this phenomenon, which we call "Initial Guessing Bias" (IGB), depends on architectural choices such as activation functions, max-pooling layers, and network depth. Our analysis of IGB has practical consequences, in that it guides architecture selection and initialization. We also highlight theoretical consequences, such as the breakdown of node-permutation symmetry, the violation of self-averaging, the validity of some mean-field approximations, and the non-trivial differences arising with depth.
-    
-[^4]: 从几何角度看待概率鲁棒学习中的边界问题
-
-    It begins with a boundary: A geometric view on probabilistically robust learning. (arXiv:2305.18779v1 [cs.LG])
-
-    [http://arxiv.org/abs/2305.18779](http://arxiv.org/abs/2305.18779)
-
-    本文探讨了深度神经网络对于对抗生成的示例缺乏鲁棒性的问题，并提出了一种从几何角度出发的新颖视角，介绍一族概率非局部周长函数来优化概率鲁棒学习（PRL）的原始表述，以提高其鲁棒性。
+    本文研究了分布式强化学习中的估计和推断问题，通过使用等价确定法，在提供生成模型的情况下以高效的方式解决了分布式策略评估问题。
 
     
 
-    尽管深度神经网络在许多分类任务上已经实现了超人类的表现，但它们往往对于对抗生成的示例缺乏鲁棒性，因此需要将经验风险最小化（ERM）重构为对抗性鲁棒的框架。最近，关注点已经转向了介于对抗性训练提供的鲁棒性和ERM提供的更高干净准确性和更快训练时间之间的方法。本文从几何角度出发，对一种这样的方法——概率鲁棒学习（PRL）（Robey等人，ICML，2022）进行了新颖的几何视角的探讨。我们提出了一个几何框架来理解PRL，这使我们能够确定其原始表述中的微妙缺陷，并介绍了一族概率非局部周长函数来解决这一问题。我们使用新颖的松弛方法证明了解的存在，并研究了引入的非局部周长函数的特性以及局部极限。
+    本文从统计效率的角度研究了分布式强化学习。我们研究了分布式策略评估，旨在估计由给定策略π获得的随机回报的完整分布（表示为η^π）。在提供生成模型的情况下，我们使用等价确定法构造了估计器η^π。我们证明，在这种情况下，通过具有大小为O(|S||A|/(ε^(2p)(1-γ)^(2p+2)))的数据集可以保证估计器η^π和真实分布η^π之间的p-Wasserstein距离小于ε的概率很高。这意味着分布式策略评估问题可以以高效利用样本的方式解决。此外，我们还证明，在不同的温和假设下，通过具有大小为O(|S||A|/(ε^2(1-γ)^4))的数据集就足以确保Kolmogorov距离和总变差。
 
-    Although deep neural networks have achieved super-human performance on many classification tasks, they often exhibit a worrying lack of robustness towards adversarially generated examples. Thus, considerable effort has been invested into reformulating Empirical Risk Minimization (ERM) into an adversarially robust framework. Recently, attention has shifted towards approaches which interpolate between the robustness offered by adversarial training and the higher clean accuracy and faster training times of ERM. In this paper, we take a fresh and geometric view on one such method -- Probabilistically Robust Learning (PRL) (Robey et al., ICML, 2022). We propose a geometric framework for understanding PRL, which allows us to identify a subtle flaw in its original formulation and to introduce a family of probabilistic nonlocal perimeter functionals to address this. We prove existence of solutions using novel relaxation methods and study properties as well as local limits of the introduced per
+    In this paper, we study distributional reinforcement learning from the perspective of statistical efficiency.  We investigate distributional policy evaluation, aiming to estimate the complete distribution of the random return (denoted $\eta^\pi$) attained by a given policy $\pi$.  We use the certainty-equivalence method to construct our estimator $\hat\eta^\pi$, given a generative model is available.  We show that in this circumstance we need a dataset of size $\widetilde O\left(\frac{|\mathcal{S}||\mathcal{A}|}{\epsilon^{2p}(1-\gamma)^{2p+2}}\right)$ to guarantee a $p$-Wasserstein metric between $\hat\eta^\pi$ and $\eta^\pi$ is less than $\epsilon$ with high probability.  This implies the distributional policy evaluation problem can be solved with sample efficiency.  Also, we show that under different mild assumptions a dataset of size $\widetilde O\left(\frac{|\mathcal{S}||\mathcal{A}|}{\epsilon^{2}(1-\gamma)^{4}}\right)$ suffices to ensure the Kolmogorov metric and total variation m
     
-[^5]: 神经网络的规范叶面：鲁棒性应用研究
+[^3]: 用因果森林针对相对风险异质性进行目标化
 
-    Canonical foliations of neural networks: application to robustness. (arXiv:2203.00922v2 [stat.ML] UPDATED)
+    Targeting Relative Risk Heterogeneity with Causal Forests. (arXiv:2309.15793v1 [stat.ME])
 
-    [http://arxiv.org/abs/2203.00922](http://arxiv.org/abs/2203.00922)
+    [http://arxiv.org/abs/2309.15793](http://arxiv.org/abs/2309.15793)
 
-    本文探讨了利用黎曼几何和叶面理论创新应用于神经网络鲁棒性的新视角，提出了一种适用于数据空间的以曲率为考量因素的 two-step spectral 对抗攻击方法。
+    本研究提出了一种通过修改因果森林方法，以相对风险为目标，从而捕捉到治疗效应异质性的潜在来源。
 
     
 
-    深度学习模型易受到对抗攻击。而对抗学习正在变得至关重要。本文提出了一种新的神经网络鲁棒性视角，采用黎曼几何和叶面理论。通过创建考虑数据空间曲率的新对抗攻击，即 two-step spectral attack，来说明这个想法。数据空间被视为一个配备了神经网络的 Fisher 信息度量（FIM）拉回的（退化的）黎曼流形。大多数情况下，该度量仅为半正定，其内核成为研究的核心对象。从该核中导出一个规范叶面。横向叶的曲率给出了适当的修正，从而得到了两步近似的测地线和一种新的高效对抗攻击。该方法首先在一个 2D 玩具示例中进行演示。
+    在临床试验分析中，治疗效应异质性（TEH）即种群中不同亚群的治疗效应的变异性是非常重要的。因果森林（Wager和Athey，2018）是解决这个问题的一种非常流行的方法，但像许多其他发现TEH的方法一样，它用于分离亚群的标准侧重于绝对风险的差异。这可能会削弱统计功效，掩盖了相对风险中的细微差别，而相对风险通常是临床关注的更合适的数量。在这项工作中，我们提出并实现了一种修改因果森林以针对相对风险的方法，使用基于广义线性模型（GLM）比较的新颖节点分割过程。我们在模拟和真实数据上展示了结果，表明相对风险的因果森林可以捕捉到其他未观察到的异质性源。
 
-    Deep learning models are known to be vulnerable to adversarial attacks. Adversarial learning is therefore becoming a crucial task. We propose a new vision on neural network robustness using Riemannian geometry and foliation theory. The idea is illustrated by creating a new adversarial attack that takes into account the curvature of the data space. This new adversarial attack called the two-step spectral attack is a piece-wise linear approximation of a geodesic in the data space. The data space is treated as a (degenerate) Riemannian manifold equipped with the pullback of the Fisher Information Metric (FIM) of the neural network. In most cases, this metric is only semi-definite and its kernel becomes a central object to study. A canonical foliation is derived from this kernel. The curvature of transverse leaves gives the appropriate correction to get a two-step approximation of the geodesic and hence a new efficient adversarial attack. The method is first illustrated on a 2D toy example
+    Treatment effect heterogeneity (TEH), or variability in treatment effect for different subgroups within a population, is of significant interest in clinical trial analysis. Causal forests (Wager and Athey, 2018) is a highly popular method for this problem, but like many other methods for detecting TEH, its criterion for separating subgroups focuses on differences in absolute risk. This can dilute statistical power by masking nuance in the relative risk, which is often a more appropriate quantity of clinical interest. In this work, we propose and implement a methodology for modifying causal forests to target relative risk using a novel node-splitting procedure based on generalized linear model (GLM) comparison. We present results on simulated and real-world data that suggest relative risk causal forests can capture otherwise unobserved sources of heterogeneity.
+    
+[^4]: 最优异构协同线性回归和上下文臂研究
+
+    Optimal Heterogeneous Collaborative Linear Regression and Contextual Bandits. (arXiv:2306.06291v1 [stat.ML])
+
+    [http://arxiv.org/abs/2306.06291](http://arxiv.org/abs/2306.06291)
+
+    本文提出了一种新的估计器MOLAR，它利用协同线性回归和上下文臂问题中的稀疏异质性来提高估计精度，并且相比独立方法具有更好的表现。
+
+    
+
+    大型和复杂的数据集往往来自于几个可能是异构的来源。协同学习方法通过利用数据集之间的共性提高效率，同时考虑可能出现的差异。在这里，我们研究协同线性回归和上下文臂问题，其中每个实例的相关参数等于全局参数加上一个稀疏的实例特定术语。我们提出了一种名为MOLAR的新型二阶段估计器，它通过首先构建实例线性回归估计的逐项中位数，然后将实例特定估计值收缩到中位数附近来利用这种结构。与独立最小二乘估计相比，MOLAR提高了估计误差对数据维度的依赖性。然后，我们将MOLAR应用于开发用于稀疏异构协同上下文臂的方法，这些方法相比独立臂模型具有更好的遗憾保证。我们进一步证明了我们的贡献优于先前在文献中报道的算法。
+
+    Large and complex datasets are often collected from several, possibly heterogeneous sources. Collaborative learning methods improve efficiency by leveraging commonalities across datasets while accounting for possible differences among them. Here we study collaborative linear regression and contextual bandits, where each instance's associated parameters are equal to a global parameter plus a sparse instance-specific term. We propose a novel two-stage estimator called MOLAR that leverages this structure by first constructing an entry-wise median of the instances' linear regression estimates, and then shrinking the instance-specific estimates towards the median. MOLAR improves the dependence of the estimation error on the data dimension, compared to independent least squares estimates. We then apply MOLAR to develop methods for sparsely heterogeneous collaborative contextual bandits, which lead to improved regret guarantees compared to independent bandit methods. We further show that our 
+    
+[^5]: repliclust：聚类分析的合成数据
+
+    repliclust: Synthetic Data for Cluster Analysis. (arXiv:2303.14301v1 [cs.LG])
+
+    [http://arxiv.org/abs/2303.14301](http://arxiv.org/abs/2303.14301)
+
+    repliclust 是一个 Python 包，用于生成具有聚类的合成数据集，基于数据集的原型，提供了放置集群中心、采样集群形状、选择每个集群的数据点数量以及为集群分配概率分布的算法。
+
+    
+
+    我们介绍了 repliclust（来自于 repli-cate 和 clust-er），这是一个用于生成具有聚类的合成数据集的 Python 包。我们的方法基于数据集的原型，即高级几何描述，用户可以从中创建许多不同的数据集，并具有所需的几何特性。我们软件的架构是模块化和面向对象的，将数据生成分解成放置集群中心的算法、采样集群形状的算法、选择每个集群的数据点数量的算法以及为集群分配概率分布的算法。repliclust.org 项目网页提供了简明的用户指南和全面的文档。
+
+    We present repliclust (from repli-cate and clust-er), a Python package for generating synthetic data sets with clusters. Our approach is based on data set archetypes, high-level geometric descriptions from which the user can create many different data sets, each possessing the desired geometric characteristics. The architecture of our software is modular and object-oriented, decomposing data generation into algorithms for placing cluster centers, sampling cluster shapes, selecting the number of data points for each cluster, and assigning probability distributions to clusters. The project webpage, repliclust.org, provides a concise user guide and thorough documentation.
+    
+[^6]: 有限时间内使用线性函数逼近进行时序差异学习的分析：尾平均和正则化
+
+    Finite time analysis of temporal difference learning with linear function approximation: Tail averaging and regularisation. (arXiv:2210.05918v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2210.05918](http://arxiv.org/abs/2210.05918)
+
+    本研究通过引入尾平均和正则化技术，对时序差异(TD)学习算法进行了有限时间行为的研究。我们得出结论，尾平均TD能以最优速率 $O(1/t)$ 收敛，并且初始误差衰减速率更快。此外，正则化的TD版本在具有病态特征的问题上很有用。
+
+    
+
+    本文研究了将流行的时序差异(TD)学习算法与尾平均相结合时的有限时间行为。我们在不需要关于底层投影TD不动点矩阵的特征值信息的步长选择下，推导了尾平均TD迭代的参数误差的有限时间界。我们的分析表明，尾平均TD以期望速率和高概率收敛于最优的 $O(1/t)$ 速率。此外，我们的界限展示了初始误差(偏差)的更快衰减速率，这是对所有迭代的平均值的改进。我们还提出并分析了一种结合正则化的TD变体。通过分析，我们得出结论认为正则化的TD版本在具有病态特征的问题上是有用的。
+
+    We study the finite-time behaviour of the popular temporal difference (TD) learning algorithm when combined with tail-averaging. We derive finite time bounds on the parameter error of the tail-averaged TD iterate under a step-size choice that does not require information about the eigenvalues of the matrix underlying the projected TD fixed point. Our analysis shows that tail-averaged TD converges at the optimal $O\left(1/t\right)$ rate, both in expectation and with high probability. In addition, our bounds exhibit a sharper rate of decay for the initial error (bias), which is an improvement over averaging all iterates. We also propose and analyse a variant of TD that incorporates regularisation. From analysis, we conclude that the regularised version of TD is useful for problems with ill-conditioned features.
     
 
