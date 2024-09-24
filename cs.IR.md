@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Train Once, Use Flexibly: A Modular Framework for Multi-Aspect Neural News Recommendation.](http://arxiv.org/abs/2307.16089) | 这项研究提出了一种模块化框架MANNeR，用于灵活的多方面（神经）新闻推荐，支持在推理时对各个方面进行临时定制。通过度量学习和灵活的相似度得分组合，MANNeR实现了更好的多方面推荐效果。 |
-| [^2] | [Visualising Personal Data Flows: Insights from a Case Study of Booking.com.](http://arxiv.org/abs/2304.09603) | 本文以Booking.com为基础，以可视化个人数据流为研究，展示公司如何分享消费者个人数据，并讨论使用隐私政策告知客户个人数据流的挑战和限制。本案例研究为未来更以数据流为导向的隐私政策分析和建立更全面的个人数据流本体论的研究提供了参考。 |
+| [^1] | [DRAGIN: Dynamic Retrieval Augmented Generation based on the Real-time Information Needs of Large Language Models](https://arxiv.org/abs/2403.10081) | 提出了一种新框架DRAGIN，旨在解决大型语言模型在文本生成过程中动态检索和生成中存在的问题。 |
+| [^2] | [Large language models in biomedical natural language processing: benchmarks, baselines, and recommendations.](http://arxiv.org/abs/2305.16326) | 本文研究了GPT-3和GPT-4在生物医学自然语言处理中的表现，分析了它们可能产生的错误类型，并提供了使用这些模型的建议。 |
 
 # 详细
 
-[^1]: 一次训练，灵活应用：多方面神经新闻推荐的模块化框架
+[^1]: DRAGIN：基于大型语言模型实时信息需求的动态检索增强生成
 
-    Train Once, Use Flexibly: A Modular Framework for Multi-Aspect Neural News Recommendation. (arXiv:2307.16089v1 [cs.IR])
+    DRAGIN: Dynamic Retrieval Augmented Generation based on the Real-time Information Needs of Large Language Models
 
-    [http://arxiv.org/abs/2307.16089](http://arxiv.org/abs/2307.16089)
+    [https://arxiv.org/abs/2403.10081](https://arxiv.org/abs/2403.10081)
 
-    这项研究提出了一种模块化框架MANNeR，用于灵活的多方面（神经）新闻推荐，支持在推理时对各个方面进行临时定制。通过度量学习和灵活的相似度得分组合，MANNeR实现了更好的多方面推荐效果。
-
-    
-
-    最近，神经网络新闻推荐器（NNR）通过（1）将候选新闻与用户历史之间的主题或情感等方面进行对齐，或者（2）在这些方面上推广推荐来扩展基于内容的推荐。这种定制是通过将额外的约束“硬编码”到NNR的架构和/或训练目标中来实现的：因此，任何对期望的推荐行为的更改都需要修改目标重新训练模型，从而阻碍了多方面新闻推荐的广泛应用。在这项工作中，我们引入了MANNeR，这是一个灵活的多方面（神经）新闻推荐的模块化框架，支持在推理时对各个方面进行临时定制。以度量学习为核心，MANNeR获得了专门针对各个方面的新闻编码器，然后灵活地将各个方面的相似度得分组合起来进行最终排序。在两个标准的新闻推荐基准测试上（一个是英文，一个是挪威文），MANNeR的评估结果表明...
-
-    Recent neural news recommenders (NNR) extend content-based recommendation by (1) aligning additional aspects such as topic or sentiment between the candidate news and user history or (2) diversifying recommendations w.r.t. these aspects. This customization is achieved by ``hardcoding'' additional constraints into NNR's architecture and/or training objectives: any change in the desired recommendation behavior thus requires the model to be retrained with a modified objective, impeding wide adoption of multi-aspect news recommenders. In this work, we introduce MANNeR, a modular framework for flexible multi-aspect (neural) news recommendation that supports ad-hoc customization over individual aspects at inference time. With metric-based learning at its core, MANNeR obtains aspect-specialized news encoders and then flexibly combines aspect-specific similarity scores for final ranking. Evaluation on two standard news recommendation benchmarks (one in English, one in Norwegian) shows that MAN
-    
-[^2]: 可视化个人数据流：以Booking.com为例的案例研究
-
-    Visualising Personal Data Flows: Insights from a Case Study of Booking.com. (arXiv:2304.09603v1 [cs.CR])
-
-    [http://arxiv.org/abs/2304.09603](http://arxiv.org/abs/2304.09603)
-
-    本文以Booking.com为基础，以可视化个人数据流为研究，展示公司如何分享消费者个人数据，并讨论使用隐私政策告知客户个人数据流的挑战和限制。本案例研究为未来更以数据流为导向的隐私政策分析和建立更全面的个人数据流本体论的研究提供了参考。
+    提出了一种新框架DRAGIN，旨在解决大型语言模型在文本生成过程中动态检索和生成中存在的问题。
 
     
 
-    商业机构持有和处理的个人数据量越来越多。政策和法律不断变化，要求这些公司在收集、存储、处理和共享这些数据方面更加透明。本文报告了我们以Booking.com为案例研究，从他们的隐私政策中提取个人数据流的可视化工作。通过展示该公司如何分享其消费者的个人数据，我们提出了问题，并扩展了有关使用隐私政策告知客户个人数据流范围的挑战和限制的讨论。更重要的是，本案例研究可以为未来更以数据流为导向的隐私政策分析和在复杂商业生态系统中建立更全面的个人数据流本体论的研究提供参考。
+    动态检索增强生成（RAG）范式在大型语言模型（LLMs）的文本生成过程中主动决定何时以及何时检索。该范式的两个关键元素是确定激活检索模块的最佳时机（决定何时检索）以及一旦触发检索，制定适当的查询（确定要检索什么）。然而，当前动态RAG方法在两个方面都存在不足。首先，决定何时进行检索的策略通常依赖于静态规则。此外，决定要检索什么的策略通常局限于LLM的最近一句或最后几个标记，而LLM的实时信息需求可能跨越整个上下文。为克服这些局限性，我们引入了一个新框架DRAGIN， 即基于LLMs实时信息需求的动态检索增强生成。
 
-    Commercial organisations are holding and processing an ever-increasing amount of personal data. Policies and laws are continually changing to require these companies to be more transparent regarding collection, storage, processing and sharing of this data. This paper reports our work of taking Booking.com as a case study to visualise personal data flows extracted from their privacy policy. By showcasing how the company shares its consumers' personal data, we raise questions and extend discussions on the challenges and limitations of using privacy policy to inform customers the true scale and landscape of personal data flows. More importantly, this case study can inform us about future research on more data flow-oriented privacy policy analysis and on the construction of a more comprehensive ontology on personal data flows in complicated business ecosystems.
+    arXiv:2403.10081v1 Announce Type: new  Abstract: Dynamic retrieval augmented generation (RAG) paradigm actively decides when and what to retrieve during the text generation process of Large Language Models (LLMs). There are two key elements of this paradigm: identifying the optimal moment to activate the retrieval module (deciding when to retrieve) and crafting the appropriate query once retrieval is triggered (determining what to retrieve). However, current dynamic RAG methods fall short in both aspects. Firstly, the strategies for deciding when to retrieve often rely on static rules. Moreover, the strategies for deciding what to retrieve typically limit themselves to the LLM's most recent sentence or the last few tokens, while the LLM's real-time information needs may span across the entire context. To overcome these limitations, we introduce a new framework, DRAGIN, i.e., Dynamic Retrieval Augmented Generation based on the real-time Information Needs of LLMs. Our framework is specif
+    
+[^2]: 生物医学自然语言处理中的大型语言模型: 基准、基线和建议
+
+    Large language models in biomedical natural language processing: benchmarks, baselines, and recommendations. (arXiv:2305.16326v1 [cs.CL])
+
+    [http://arxiv.org/abs/2305.16326](http://arxiv.org/abs/2305.16326)
+
+    本文研究了GPT-3和GPT-4在生物医学自然语言处理中的表现，分析了它们可能产生的错误类型，并提供了使用这些模型的建议。
+
+    
+
+    生物医学文献呈指数级增长，手动筛选和提取知识变得困难。自动从生物医学文献中提取信息的生物医学自然语言处理（BioNLP）技术有助于减轻这种负担。近年来，如GPT-3和GPT-4等大型语言模型（LLMs）因其卓越的性能而受到重视。但是，它们在BioNLP任务中的有效性以及对方法开发和下游用户的影响仍未得到研究。本研究（1）在四个应用程序中在八个BioNLP数据集中建立了GPT-3和GPT-4在零-shot和一-shot设置下的基准表现，包括命名实体识别，关系提取，多标签文档分类和语义相似性和推理；（2）审查了LLMs产生的错误，并将错误分为三种类型：缺失，不一致和不需要的人工内容；（3）提出了使用LLMs的建议。
+
+    Biomedical literature is growing rapidly, making it challenging to curate and extract knowledge manually. Biomedical natural language processing (BioNLP) techniques that can automatically extract information from biomedical literature help alleviate this burden. Recently, large Language Models (LLMs), such as GPT-3 and GPT-4, have gained significant attention for their impressive performance. However, their effectiveness in BioNLP tasks and impact on method development and downstream users remain understudied. This pilot study (1) establishes the baseline performance of GPT-3 and GPT-4 at both zero-shot and one-shot settings in eight BioNLP datasets across four applications: named entity recognition, relation extraction, multi-label document classification, and semantic similarity and reasoning, (2) examines the errors produced by the LLMs and categorized the errors into three types: missingness, inconsistencies, and unwanted artificial content, and (3) provides suggestions for using L
     
 
