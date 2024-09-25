@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [DRAGIN: Dynamic Retrieval Augmented Generation based on the Real-time Information Needs of Large Language Models](https://arxiv.org/abs/2403.10081) | 提出了一种新框架DRAGIN，旨在解决大型语言模型在文本生成过程中动态检索和生成中存在的问题。 |
-| [^2] | [Large language models in biomedical natural language processing: benchmarks, baselines, and recommendations.](http://arxiv.org/abs/2305.16326) | 本文研究了GPT-3和GPT-4在生物医学自然语言处理中的表现，分析了它们可能产生的错误类型，并提供了使用这些模型的建议。 |
+| [^1] | [Projected Gradient Descent for Spectral Compressed Sensing via Symmetric Hankel Factorization](https://arxiv.org/abs/2403.09031) | 提出了一种新的投影梯度下降方法（SHGD），通过对称因子分解进行谱压缩感知，减少了计算和存储成本，引入了新的因子分解歧义。 |
+| [^2] | [C-Pack: Packaged Resources To Advance General Chinese Embedding.](http://arxiv.org/abs/2309.07597) | C-Pack是一套推进普通汉语嵌入领域的资源，包括全面汉语文本嵌入基准、大规模文本嵌入数据集和涵盖多个尺寸的嵌入模型系列。该资源集在C-MTEB基准上实现了最高+10%的表现，并通过整合和优化一套训练方法进一步提升了效果。此外，C-Pack还发布了英语文本嵌入数据和模型，实现了最先进的性能。该资源集可公开获取。 |
 
 # 详细
 
-[^1]: DRAGIN：基于大型语言模型实时信息需求的动态检索增强生成
+[^1]: 基于对称 Hankel 因子分解的谱压缩感知的投影梯度下降
 
-    DRAGIN: Dynamic Retrieval Augmented Generation based on the Real-time Information Needs of Large Language Models
+    Projected Gradient Descent for Spectral Compressed Sensing via Symmetric Hankel Factorization
 
-    [https://arxiv.org/abs/2403.10081](https://arxiv.org/abs/2403.10081)
+    [https://arxiv.org/abs/2403.09031](https://arxiv.org/abs/2403.09031)
 
-    提出了一种新框架DRAGIN，旨在解决大型语言模型在文本生成过程中动态检索和生成中存在的问题。
-
-    
-
-    动态检索增强生成（RAG）范式在大型语言模型（LLMs）的文本生成过程中主动决定何时以及何时检索。该范式的两个关键元素是确定激活检索模块的最佳时机（决定何时检索）以及一旦触发检索，制定适当的查询（确定要检索什么）。然而，当前动态RAG方法在两个方面都存在不足。首先，决定何时进行检索的策略通常依赖于静态规则。此外，决定要检索什么的策略通常局限于LLM的最近一句或最后几个标记，而LLM的实时信息需求可能跨越整个上下文。为克服这些局限性，我们引入了一个新框架DRAGIN， 即基于LLMs实时信息需求的动态检索增强生成。
-
-    arXiv:2403.10081v1 Announce Type: new  Abstract: Dynamic retrieval augmented generation (RAG) paradigm actively decides when and what to retrieve during the text generation process of Large Language Models (LLMs). There are two key elements of this paradigm: identifying the optimal moment to activate the retrieval module (deciding when to retrieve) and crafting the appropriate query once retrieval is triggered (determining what to retrieve). However, current dynamic RAG methods fall short in both aspects. Firstly, the strategies for deciding when to retrieve often rely on static rules. Moreover, the strategies for deciding what to retrieve typically limit themselves to the LLM's most recent sentence or the last few tokens, while the LLM's real-time information needs may span across the entire context. To overcome these limitations, we introduce a new framework, DRAGIN, i.e., Dynamic Retrieval Augmented Generation based on the real-time Information Needs of LLMs. Our framework is specif
-    
-[^2]: 生物医学自然语言处理中的大型语言模型: 基准、基线和建议
-
-    Large language models in biomedical natural language processing: benchmarks, baselines, and recommendations. (arXiv:2305.16326v1 [cs.CL])
-
-    [http://arxiv.org/abs/2305.16326](http://arxiv.org/abs/2305.16326)
-
-    本文研究了GPT-3和GPT-4在生物医学自然语言处理中的表现，分析了它们可能产生的错误类型，并提供了使用这些模型的建议。
+    提出了一种新的投影梯度下降方法（SHGD），通过对称因子分解进行谱压缩感知，减少了计算和存储成本，引入了新的因子分解歧义。
 
     
 
-    生物医学文献呈指数级增长，手动筛选和提取知识变得困难。自动从生物医学文献中提取信息的生物医学自然语言处理（BioNLP）技术有助于减轻这种负担。近年来，如GPT-3和GPT-4等大型语言模型（LLMs）因其卓越的性能而受到重视。但是，它们在BioNLP任务中的有效性以及对方法开发和下游用户的影响仍未得到研究。本研究（1）在四个应用程序中在八个BioNLP数据集中建立了GPT-3和GPT-4在零-shot和一-shot设置下的基准表现，包括命名实体识别，关系提取，多标签文档分类和语义相似性和推理；（2）审查了LLMs产生的错误，并将错误分为三种类型：缺失，不一致和不需要的人工内容；（3）提出了使用LLMs的建议。
+    当前谱压缩感知方法通过 Hankel 矩阵完成采用对称因子分解来展示 Hankel 矩阵的低秩性质。然而，先前的非凸梯度方法只利用不对称因子分解来实现谱压缩感知。在本文中，我们提出了一种新颖的投影梯度下降方法，通过对称因子分解进行谱压缩感知，名为对称 Hankel 投影梯度下降（SHGD），它仅更新一个矩阵并避免了平衡正则化项。与基于不对称因子分解的先前梯度方法相比，SHGD减少了大约一半的计算和存储成本。此外，我们工作中使用的对称因子分解与先前的低秩分解模型完全不同，引入了在复正交变换下的新因子分解歧义。我们为我们的分解设计了新颖的距离度量。
 
-    Biomedical literature is growing rapidly, making it challenging to curate and extract knowledge manually. Biomedical natural language processing (BioNLP) techniques that can automatically extract information from biomedical literature help alleviate this burden. Recently, large Language Models (LLMs), such as GPT-3 and GPT-4, have gained significant attention for their impressive performance. However, their effectiveness in BioNLP tasks and impact on method development and downstream users remain understudied. This pilot study (1) establishes the baseline performance of GPT-3 and GPT-4 at both zero-shot and one-shot settings in eight BioNLP datasets across four applications: named entity recognition, relation extraction, multi-label document classification, and semantic similarity and reasoning, (2) examines the errors produced by the LLMs and categorized the errors into three types: missingness, inconsistencies, and unwanted artificial content, and (3) provides suggestions for using L
+    arXiv:2403.09031v1 Announce Type: new  Abstract: Current spectral compressed sensing methods via Hankel matrix completion employ symmetric factorization to demonstrate the low-rank property of the Hankel matrix. However, previous non-convex gradient methods only utilize asymmetric factorization to achieve spectral compressed sensing. In this paper, we propose a novel nonconvex projected gradient descent method for spectral compressed sensing via symmetric factorization named Symmetric Hankel Projected Gradient Descent (SHGD), which updates only one matrix and avoids a balancing regularization term. SHGD reduces about half of the computation and storage costs compared to the prior gradient method based on asymmetric factorization. {Besides, the symmetric factorization employed in our work is completely novel to the prior low-rank factorization model, introducing a new factorization ambiguity under complex orthogonal transformation}. Novel distance metrics are designed for our factorizat
+    
+[^2]: C-Pack: 推进普通汉语嵌入的打包资源
+
+    C-Pack: Packaged Resources To Advance General Chinese Embedding. (arXiv:2309.07597v1 [cs.CL])
+
+    [http://arxiv.org/abs/2309.07597](http://arxiv.org/abs/2309.07597)
+
+    C-Pack是一套推进普通汉语嵌入领域的资源，包括全面汉语文本嵌入基准、大规模文本嵌入数据集和涵盖多个尺寸的嵌入模型系列。该资源集在C-MTEB基准上实现了最高+10%的表现，并通过整合和优化一套训练方法进一步提升了效果。此外，C-Pack还发布了英语文本嵌入数据和模型，实现了最先进的性能。该资源集可公开获取。
+
+    
+
+    我们介绍了C-Pack，这是一套显著推进普通汉语嵌入领域的资源。C-Pack包括三个关键资源。1）C-MTEB是一个涵盖6个任务和35个数据集的全面汉语文本嵌入基准。2）C-MTP是一个从标记和未标记的汉语语料库中策划的大规模文本嵌入数据集，用于训练嵌入模型。3）C-TEM是一个涵盖多个尺寸的嵌入模型系列。我们的模型在C-MTEB上的表现优于之前的所有汉语文本嵌入达到了发布时的最高+10%。我们还整合和优化了C-TEM的整套训练方法。除了我们关于普通汉语嵌入的资源外，我们还发布了我们的英语文本嵌入数据和模型。这些英语模型在MTEB基准上实现了最先进的性能；与此同时，我们发布的英语数据比汉语数据大2倍。所有这些资源都可以在https://github.com/FlagOpen/FlagEmbedding上公开获取。
+
+    We introduce C-Pack, a package of resources that significantly advance the field of general Chinese embeddings. C-Pack includes three critical resources. 1) C-MTEB is a comprehensive benchmark for Chinese text embeddings covering 6 tasks and 35 datasets. 2) C-MTP is a massive text embedding dataset curated from labeled and unlabeled Chinese corpora for training embedding models. 3) C-TEM is a family of embedding models covering multiple sizes. Our models outperform all prior Chinese text embeddings on C-MTEB by up to +10% upon the time of the release. We also integrate and optimize the entire suite of training methods for C-TEM. Along with our resources on general Chinese embedding, we release our data and models for English text embeddings. The English models achieve state-of-the-art performance on MTEB benchmark; meanwhile, our released English data is 2 times larger than the Chinese data. All these resources are made publicly available at https://github.com/FlagOpen/FlagEmbedding.
     
 
