@@ -2,112 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Realism in Action: Anomaly-Aware Diagnosis of Brain Tumors from Medical Images Using YOLOv8 and DeiT.](http://arxiv.org/abs/2401.03302) | 本研究利用深度学习技术在具有挑战性的情况下检测和分类脑肿瘤，并解决了在罕见情况下的肿瘤检测问题。研究使用了来自国家脑映射实验室的数据集，通过修改样本数量和患者分布，使模型能够应对真实世界场景中的异常情况。 |
-| [^2] | [Optimal vintage factor analysis with deflation varimax.](http://arxiv.org/abs/2310.10545) | 本文提出了一种采用通货紧缩变量旋转的拟合因子分析方法，在每一行上逐步求解正交矩阵，相比于传统方法具有更好的计算性能和灵活性，并且在更广泛的背景下提供了理论保证。 |
-| [^3] | [Non-backtracking Graph Neural Networks.](http://arxiv.org/abs/2310.07430) | 非回溯图神经网络(NBA-GNN)通过不考虑先前访问节点的消息来解决图神经网络本地更新中的冗余问题，并且在随机块模型恢复方面表现出良好的性能。 |
-| [^4] | [Non-Smooth Weakly-Convex Finite-sum Coupled Compositional Optimization.](http://arxiv.org/abs/2310.03234) | 本文研究了一种新的组合优化问题，称为非光滑弱凸有限和耦合组合优化(NSWC FCCO)，通过扩展已有的研究，我们研究了非光滑弱凸FCCO的问题，并提出了一种单循环算法来找到Moreau环的ε-稳定点。 |
-| [^5] | [WASA: WAtermark-based Source Attribution for Large Language Model-Generated Data.](http://arxiv.org/abs/2310.00646) | 本文提出了一种基于水印的框架WASA，通过允许大型语言模型生成带有嵌入源信息的合成文本水印来解决源归属和数据来源的问题。 |
-| [^6] | [On Collaboration in Distributed Parameter Estimation with Resource Constraints.](http://arxiv.org/abs/2307.06442) | 在资源约束下的分布参数估计中，我们研究了传感器/代理数据收集和协作策略，通过最大化费舍尔信息或最小化Cramer-Rao界来解决传感器/代理的数据收集和协作策略设计问题。 |
-| [^7] | [Projective Proximal Gradient Descent for A Class of Nonconvex Nonsmooth Optimization Problems: Fast Convergence Without Kurdyka-Lojasiewicz (KL) Property.](http://arxiv.org/abs/2304.10499) | 本文提出了一个投影近端梯度下降算法(PPGD)，成功地解决了一类非凸非光滑优化问题。该算法可以实现局部快速收敛，当迭代次数 $k \geq k_0$ 时，PPGD 可以以 $\cO(1/k^2)$ 的快速收敛率收敛。 |
+| [^1] | [Efficient Combinatorial Optimization via Heat Diffusion](https://arxiv.org/abs/2403.08757) | 通过热扩散实现了高效的组合优化，克服了现有方法在搜索全局最优时效率有限的问题。 |
+| [^2] | [Efficient Solvers for Partial Gromov-Wasserstein](https://arxiv.org/abs/2402.03664) | 本文提出了两个基于Frank-Wolfe算法的新的高效求解器来解决偏差Gromov-Wasserstein问题，并且证明了PGW问题构成了度量测度空间的度量。 |
+| [^3] | [Model Averaging and Double Machine Learning.](http://arxiv.org/abs/2401.01645) | 本文介绍了一种将双机器学习和模型平均化相结合的方法，用于估计结构参数。研究表明，这种方法比起常见的基于单一学习器的替代方法更加鲁棒，适用于处理部分未知的函数形式。 |
+| [^4] | [Bivariate DeepKriging for Large-scale Spatial Interpolation of Wind Fields.](http://arxiv.org/abs/2307.08038) | 本文提出了一种名为双变量深度克里金的方法，它利用空间相关的深度神经网络(DNN)和嵌入层以及基于自助法和集成DNN的无分布不确定性量化方法，用于大规模空间插值风场的预测和估计。 |
+| [^5] | [Realising Synthetic Active Inference Agents, Part II: Variational Message Updates.](http://arxiv.org/abs/2306.02733) | 本文讨论了解决广义自由能（FE）目标的合成主动推理代理的变分信息更新和消息传递算法，通过对T形迷宫导航任务的模拟比较，表明AIF可引起认知行为。 |
 
 # 详细
 
-[^1]: 行动中的现实主义：使用YOLOv8和DeiT从医学图像中诊断脑肿瘤的异常感知
+[^1]: 通过热扩散实现高效的组合优化
 
-    Realism in Action: Anomaly-Aware Diagnosis of Brain Tumors from Medical Images Using YOLOv8 and DeiT. (arXiv:2401.03302v1 [eess.IV])
+    Efficient Combinatorial Optimization via Heat Diffusion
 
-    [http://arxiv.org/abs/2401.03302](http://arxiv.org/abs/2401.03302)
+    [https://arxiv.org/abs/2403.08757](https://arxiv.org/abs/2403.08757)
 
-    本研究利用深度学习技术在具有挑战性的情况下检测和分类脑肿瘤，并解决了在罕见情况下的肿瘤检测问题。研究使用了来自国家脑映射实验室的数据集，通过修改样本数量和患者分布，使模型能够应对真实世界场景中的异常情况。
-
-    
-
-    在医学科学领域，由于脑肿瘤在患者中的罕见程度，可靠地检测和分类脑肿瘤仍然是一个艰巨的挑战。因此，在异常情况下检测肿瘤的能力对于确保及时干预和改善患者结果至关重要。本研究利用深度学习技术在具有挑战性的情况下检测和分类脑肿瘤。来自国家脑映射实验室（NBML）的精选数据集包括81名患者，其中包括30例肿瘤病例和51例正常病例。检测和分类流程被分为两个连续的任务。检测阶段包括全面的数据分析和预处理，以修改图像样本和每个类别的患者数量，以符合真实世界场景中的异常分布（9个正常样本对应1个肿瘤样本）。此外，在测试中除了常见的评估指标外，我们还采用了... [摘要长度已达到上限]
-
-    In the field of medical sciences, reliable detection and classification of brain tumors from images remains a formidable challenge due to the rarity of tumors within the population of patients. Therefore, the ability to detect tumors in anomaly scenarios is paramount for ensuring timely interventions and improved patient outcomes. This study addresses the issue by leveraging deep learning (DL) techniques to detect and classify brain tumors in challenging situations. The curated data set from the National Brain Mapping Lab (NBML) comprises 81 patients, including 30 Tumor cases and 51 Normal cases. The detection and classification pipelines are separated into two consecutive tasks. The detection phase involved comprehensive data analysis and pre-processing to modify the number of image samples and the number of patients of each class to anomaly distribution (9 Normal per 1 Tumor) to comply with real world scenarios. Next, in addition to common evaluation metrics for the testing, we emplo
-    
-[^2]: 优化拟合因子分析与通货紧缩变量旋转
-
-    Optimal vintage factor analysis with deflation varimax. (arXiv:2310.10545v1 [stat.ML])
-
-    [http://arxiv.org/abs/2310.10545](http://arxiv.org/abs/2310.10545)
-
-    本文提出了一种采用通货紧缩变量旋转的拟合因子分析方法，在每一行上逐步求解正交矩阵，相比于传统方法具有更好的计算性能和灵活性，并且在更广泛的背景下提供了理论保证。
+    通过热扩散实现了高效的组合优化，克服了现有方法在搜索全局最优时效率有限的问题。
 
     
 
-    通货紧缩变量旋转是一种重要的因子分析方法，旨在首先找到原始数据的低维表示，然后寻求旋转，使旋转后的低维表示具有科学意义。尽管Principal Component Analysis (PCA) followed by the varimax rotation被广泛应用于拟合因子分析，但由于varimax rotation需要在正交矩阵集合上解非凸优化问题，因此很难提供理论保证。本文提出了一种逐行求解正交矩阵的通货紧缩变量旋转过程。除了在计算上的优势和灵活性之外，我们还能在广泛的背景下对所提出的过程进行完全的理论保证。在PCA之后采用这种新的varimax方法作为第二步，我们进一步分析了这个两步过程在一个更一般的因子模型的情况下。
+    论文探讨了通过热扩散来实现高效的组合优化。针对现有方法只能在每次迭代中访问解空间的一小部分这一限制，提出了一种框架来解决一般的组合优化问题，并且在一系列最具挑战性和广泛遇到的组合优化中展现出卓越性能。
 
-    Vintage factor analysis is one important type of factor analysis that aims to first find a low-dimensional representation of the original data, and then to seek a rotation such that the rotated low-dimensional representation is scientifically meaningful. Perhaps the most widely used vintage factor analysis is the Principal Component Analysis (PCA) followed by the varimax rotation. Despite its popularity, little theoretical guarantee can be provided mainly because varimax rotation requires to solve a non-convex optimization over the set of orthogonal matrices.  In this paper, we propose a deflation varimax procedure that solves each row of an orthogonal matrix sequentially. In addition to its net computational gain and flexibility, we are able to fully establish theoretical guarantees for the proposed procedure in a broad context.  Adopting this new varimax approach as the second step after PCA, we further analyze this two step procedure under a general class of factor models. Our resul
+    arXiv:2403.08757v1 Announce Type: cross  Abstract: Combinatorial optimization problems are widespread but inherently challenging due to their discrete nature.The primary limitation of existing methods is that they can only access a small fraction of the solution space at each iteration, resulting in limited efficiency for searching the global optimal. To overcome this challenge, diverging from conventional efforts of expanding the solver's search scope, we focus on enabling information to actively propagate to the solver through heat diffusion. By transforming the target function while preserving its optima, heat diffusion facilitates information flow from distant regions to the solver, providing more efficient navigation. Utilizing heat diffusion, we propose a framework for solving general combinatorial optimization problems. The proposed methodology demonstrates superior performance across a range of the most challenging and widely encountered combinatorial optimizations. Echoing rec
     
-[^3]: 非回溯图神经网络
+[^2]: 高效求解偏差Gromov-Wasserstein问题
 
-    Non-backtracking Graph Neural Networks. (arXiv:2310.07430v1 [cs.LG])
+    Efficient Solvers for Partial Gromov-Wasserstein
 
-    [http://arxiv.org/abs/2310.07430](http://arxiv.org/abs/2310.07430)
+    [https://arxiv.org/abs/2402.03664](https://arxiv.org/abs/2402.03664)
 
-    非回溯图神经网络(NBA-GNN)通过不考虑先前访问节点的消息来解决图神经网络本地更新中的冗余问题，并且在随机块模型恢复方面表现出良好的性能。
-
-    
-
-    著名的图神经网络的消息传递更新允许使用本地和计算上可跟踪的更新来表示大规模图。然而，本地更新受到回溯的影响，即消息通过同一条边两次流动并重访先前访问的节点。由于消息流的数量随着更新的次数呈指数级增加，本地更新中的冗余阻碍了图神经网络准确识别下游任务的特定消息流。在这项工作中，我们通过非回溯的图神经网络（NBA-GNN）解决了这种冗余，该网络在更新消息时不考虑先前访问节点的消息。我们进一步研究了NBA-GNN如何缓解GNN的过度压缩，并建立了NBA-GNN和非回溯更新在随机块模型恢复方面出色性能之间的联系。我们通过实验证实了我们的NBA-
-
-    The celebrated message-passing updates for graph neural networks allow the representation of large-scale graphs with local and computationally tractable updates. However, the local updates suffer from backtracking, i.e., a message flows through the same edge twice and revisits the previously visited node. Since the number of message flows increases exponentially with the number of updates, the redundancy in local updates prevents the graph neural network from accurately recognizing a particular message flow for downstream tasks. In this work, we propose to resolve such a redundancy via the non-backtracking graph neural network (NBA-GNN) that updates a message without incorporating the message from the previously visited node. We further investigate how NBA-GNN alleviates the over-squashing of GNNs, and establish a connection between NBA-GNN and the impressive performance of non-backtracking updates for stochastic block model recovery. We empirically verify the effectiveness of our NBA-
-    
-[^4]: 非光滑弱凸有限和耦合组合优化
-
-    Non-Smooth Weakly-Convex Finite-sum Coupled Compositional Optimization. (arXiv:2310.03234v1 [math.OC])
-
-    [http://arxiv.org/abs/2310.03234](http://arxiv.org/abs/2310.03234)
-
-    本文研究了一种新的组合优化问题，称为非光滑弱凸有限和耦合组合优化(NSWC FCCO)，通过扩展已有的研究，我们研究了非光滑弱凸FCCO的问题，并提出了一种单循环算法来找到Moreau环的ε-稳定点。
+    本文提出了两个基于Frank-Wolfe算法的新的高效求解器来解决偏差Gromov-Wasserstein问题，并且证明了PGW问题构成了度量测度空间的度量。
 
     
 
-    本文研究了一类新的组合优化问题，称为非光滑弱凸有限和耦合组合优化(NSWC FCCO)。由于其在机器学习和人工智能领域的广泛应用以及其解决基于经验风险最小化的随机算法的局限性，FCCO引起了越来越多的关注。然而，目前对于FCCO的研究假设内外函数都是光滑的，限制了其能够解决更多种类的问题的潜力。我们的研究从非光滑弱凸FCCO的角度进行了扩展，其中外函数是弱凸且非递减的，内函数是弱凸的。我们分析了一种单循环算法，并确定其在找到Moreau环的ε-稳定点的复杂度。
+    偏差Gromov-Wasserstein（PGW）问题可以比较具有不均匀质量的度量空间中的测度，从而实现这些空间之间的不平衡和部分匹配。本文证明了PGW问题可以转化为Gromov-Wasserstein问题的一个变种，类似于把偏差最优运输问题转化为最优运输问题。这个转化导致了两个新的求解器，基于Frank-Wolfe算法，数学和计算上等价，提供了高效的PGW问题解决方案。我们进一步证明了PGW问题构成了度量测度空间的度量。最后，我们通过与现有基线方法在形状匹配和正样本未标记学习问题上的计算时间和性能比较，验证了我们提出的求解器的有效性。
 
-    This paper investigates new families of compositional optimization problems, called $\underline{\bf n}$on-$\underline{\bf s}$mooth $\underline{\bf w}$eakly-$\underline{\bf c}$onvex $\underline{\bf f}$inite-sum $\underline{\bf c}$oupled $\underline{\bf c}$ompositional $\underline{\bf o}$ptimization (NSWC FCCO). There has been a growing interest in FCCO due to its wide-ranging applications in machine learning and AI, as well as its ability to address the shortcomings of stochastic algorithms based on empirical risk minimization. However, current research on FCCO presumes that both the inner and outer functions are smooth, limiting their potential to tackle a more diverse set of problems. Our research expands on this area by examining non-smooth weakly-convex FCCO, where the outer function is weakly convex and non-decreasing, and the inner function is weakly-convex. We analyze a single-loop algorithm and establish its complexity for finding an $\epsilon$-stationary point of the Moreau env
+    The partial Gromov-Wasserstein (PGW) problem facilitates the comparison of measures with unequal masses residing in potentially distinct metric spaces, thereby enabling unbalanced and partial matching across these spaces. In this paper, we demonstrate that the PGW problem can be transformed into a variant of the Gromov-Wasserstein problem, akin to the conversion of the partial optimal transport problem into an optimal transport problem. This transformation leads to two new solvers, mathematically and computationally equivalent, based on the Frank-Wolfe algorithm, that provide efficient solutions to the PGW problem. We further establish that the PGW problem constitutes a metric for metric measure spaces. Finally, we validate the effectiveness of our proposed solvers in terms of computation time and performance on shape-matching and positive-unlabeled learning problems, comparing them against existing baselines.
     
-[^5]: WASA：基于水印的大型语言模型生成数据的源归属
+[^3]: 模型平均化和双机器学习
 
-    WASA: WAtermark-based Source Attribution for Large Language Model-Generated Data. (arXiv:2310.00646v1 [cs.LG])
+    Model Averaging and Double Machine Learning. (arXiv:2401.01645v1 [econ.EM])
 
-    [http://arxiv.org/abs/2310.00646](http://arxiv.org/abs/2310.00646)
+    [http://arxiv.org/abs/2401.01645](http://arxiv.org/abs/2401.01645)
 
-    本文提出了一种基于水印的框架WASA，通过允许大型语言模型生成带有嵌入源信息的合成文本水印来解决源归属和数据来源的问题。
-
-    
-
-    大型语言模型（LLM）的出色性能和其商业化的巨大潜力引发了对其训练数据知识产权（IP）的严重关注。特别是，LLM生成的合成文本可能侵犯被用于训练LLM的数据的知识产权。为此，我们能够（a）通过水印识别出对LLM生成的合成文本做出贡献的数据提供者（源归属）；以及（b）验证文本数据是否来自于某个数据提供者对LLM进行了训练（数据来源）。在本文中，我们展示了通过水印技术可以解决这两个问题，即通过让LLM生成具有嵌入源信息的合成文本水印来实现。我们确定了这种水印技术框架的关键特性（例如源归属准确性、抵抗对手攻击的鲁棒性），并提出了一个满足这些要求的WAtermarking for Source Attribution（WASA）框架.
-
-    The impressive performances of large language models (LLMs) and their immense potential for commercialization have given rise to serious concerns over the intellectual property (IP) of their training data. In particular, the synthetic texts generated by LLMs may infringe the IP of the data being used to train the LLMs. To this end, it is imperative to be able to (a) identify the data provider who contributed to the generation of a synthetic text by an LLM (source attribution) and (b) verify whether the text data from a data provider has been used to train an LLM (data provenance). In this paper, we show that both problems can be solved by watermarking, i.e., by enabling an LLM to generate synthetic texts with embedded watermarks that contain information about their source(s). We identify the key properties of such watermarking frameworks (e.g., source attribution accuracy, robustness against adversaries), and propose a WAtermarking for Source Attribution (WASA) framework that satisfies
-    
-[^6]: 在资源约束下的分布参数估计中的协作研究
-
-    On Collaboration in Distributed Parameter Estimation with Resource Constraints. (arXiv:2307.06442v1 [cs.LG])
-
-    [http://arxiv.org/abs/2307.06442](http://arxiv.org/abs/2307.06442)
-
-    在资源约束下的分布参数估计中，我们研究了传感器/代理数据收集和协作策略，通过最大化费舍尔信息或最小化Cramer-Rao界来解决传感器/代理的数据收集和协作策略设计问题。
+    本文介绍了一种将双机器学习和模型平均化相结合的方法，用于估计结构参数。研究表明，这种方法比起常见的基于单一学习器的替代方法更加鲁棒，适用于处理部分未知的函数形式。
 
     
 
-    我们研究了考虑资源约束和不同传感器/代理收集的观测之间的相关性的参数估计的传感器/代理数据收集和协作策略。具体地，我们考虑了一组传感器/代理，每个传感器/代理样本来自多元高斯分布的不同变量，并且具有不同的估计目标，我们将传感器/代理的数据收集和协作策略设计问题阐述为费舍尔信息最大化（或Cramer-Rao界最小化）问题。当变量之间的相关性知识可用时，我们可以分析地识别出两个特定情况：（1）不能利用样本之间的相关性知识进行协作估计的情况，（2）最优数据收集策略涉及投资有限资源以协作采样和转移已知统计信息的情况。
+    本文讨论了将双重/无偏机器学习（DDML）与stacking（一种模型平均化方法，用于结合多个候选学习器）相结合，用于估计结构参数。我们引入了两种新的DDML stacking方法：短stacking利用DDML的交叉拟合步骤大大减少了计算负担，而汇总stacking可以在交叉拟合的折叠上强制执行通用 stacking权重。通过经过校准的模拟研究和两个应用程序，即估计引用和工资中的性别差距，我们展示了DDML与stacking相比基于单个预选学习器的常见替代方法对于部分未知的函数形式更加鲁棒。我们提供了实现我们方案的Stata和R软件。
 
-    We study sensor/agent data collection and collaboration policies for parameter estimation, accounting for resource constraints and correlation between observations collected by distinct sensors/agents. Specifically, we consider a group of sensors/agents each samples from different variables of a multivariate Gaussian distribution and has different estimation objectives, and we formulate a sensor/agent's data collection and collaboration policy design problem as a Fisher information maximization (or Cramer-Rao bound minimization) problem. When the knowledge of correlation between variables is available, we analytically identify two particular scenarios: (1) where the knowledge of the correlation between samples cannot be leveraged for collaborative estimation purposes and (2) where the optimal data collection policy involves investing scarce resources to collaboratively sample and transfer information that is not of immediate interest and whose statistics are already known, with the sol
+    This paper discusses pairing double/debiased machine learning (DDML) with stacking, a model averaging method for combining multiple candidate learners, to estimate structural parameters. We introduce two new stacking approaches for DDML: short-stacking exploits the cross-fitting step of DDML to substantially reduce the computational burden and pooled stacking enforces common stacking weights over cross-fitting folds. Using calibrated simulation studies and two applications estimating gender gaps in citations and wages, we show that DDML with stacking is more robust to partially unknown functional forms than common alternative approaches based on single pre-selected learners. We provide Stata and R software implementing our proposals.
     
-[^7]: 一类非凸非光滑优化问题的投影近端梯度下降算法：不需要 Kurdyka-Lojasiewicz（KL）性质也能实现快速收敛
+[^4]: 大规模空间插值风场的双变量深度克里金方法
 
-    Projective Proximal Gradient Descent for A Class of Nonconvex Nonsmooth Optimization Problems: Fast Convergence Without Kurdyka-Lojasiewicz (KL) Property. (arXiv:2304.10499v1 [math.OC])
+    Bivariate DeepKriging for Large-scale Spatial Interpolation of Wind Fields. (arXiv:2307.08038v1 [stat.ML])
 
-    [http://arxiv.org/abs/2304.10499](http://arxiv.org/abs/2304.10499)
+    [http://arxiv.org/abs/2307.08038](http://arxiv.org/abs/2307.08038)
 
-    本文提出了一个投影近端梯度下降算法(PPGD)，成功地解决了一类非凸非光滑优化问题。该算法可以实现局部快速收敛，当迭代次数 $k \geq k_0$ 时，PPGD 可以以 $\cO(1/k^2)$ 的快速收敛率收敛。
+    本文提出了一种名为双变量深度克里金的方法，它利用空间相关的深度神经网络(DNN)和嵌入层以及基于自助法和集成DNN的无分布不确定性量化方法，用于大规模空间插值风场的预测和估计。
 
     
 
-    非凸非光滑优化问题在统计学和机器学习中具有重要意义且具有挑战性。在本文中，我们提出了解决一类非凸非光滑优化问题的投影近端梯度下降算法(PPGD)，其中非凸性和非光滑性源自一个非凸但分段凸的非光滑正则化项。与现有基于 Kurdyka-\L{}ojasiewicz (K\L{}) 性质对非凸非光滑问题进行加速 PGD 方法的收敛分析不同，我们提供了一种新的理论分析，证明了 PPGD 在温和假设下在一类非凸非光滑问题中实现了快速局部收敛。证明了当迭代次数 $k \geq k_0$ 时，PPGD 可以以 $\cO(1/k^2)$ 的快速收敛率收敛，其中 $k_0$ 是一个有限的常数。该算法在光滑且凸目标函数的一阶方法具有利普希茨连续梯度的情况下实现了局部 Nesterov 的最优收敛速度。实验结果表明......（此处省略）。
+    高空间分辨率的风场数据对于气候、海洋和气象研究中的各种应用至关重要。由于风数据往往具有非高斯分布、高空间变异性和异质性，因此对具有两个维度速度的双变量风场进行大规模空间插值或下缩放是一项具有挑战性的任务。在空间统计学中，常用cokriging来预测双变量空间场。然而，cokriging预测器除了对高斯过程有效外，并不是最优的。此外，对于大型数据集，cokriging计算量巨大。在本文中，我们提出了一种称为双变量深度克里金的方法，它是一个由空间径向基函数构建的空间相关的深度神经网络(DNN)和嵌入层，用于双变量空间数据预测。然后，我们基于自助法和集成DNN开发了一种无分布不确定性量化方法。我们提出的方法优于传统的cokriging方法。
 
-    Nonconvex and nonsmooth optimization problems are important and challenging for statistics and machine learning. In this paper, we propose Projected Proximal Gradient Descent (PPGD) which solves a class of nonconvex and nonsmooth optimization problems, where the nonconvexity and nonsmoothness come from a nonsmooth regularization term which is nonconvex but piecewise convex. In contrast with existing convergence analysis of accelerated PGD methods for nonconvex and nonsmooth problems based on the Kurdyka-\L{}ojasiewicz (K\L{}) property, we provide a new theoretical analysis showing local fast convergence of PPGD. It is proved that PPGD achieves a fast convergence rate of $\cO(1/k^2)$ when the iteration number $k \ge k_0$ for a finite $k_0$ on a class of nonconvex and nonsmooth problems under mild assumptions, which is locally Nesterov's optimal convergence rate of first-order methods on smooth and convex objective function with Lipschitz continuous gradient. Experimental results demonst
+    High spatial resolution wind data are essential for a wide range of applications in climate, oceanographic and meteorological studies. Large-scale spatial interpolation or downscaling of bivariate wind fields having velocity in two dimensions is a challenging task because wind data tend to be non-Gaussian with high spatial variability and heterogeneity. In spatial statistics, cokriging is commonly used for predicting bivariate spatial fields. However, the cokriging predictor is not optimal except for Gaussian processes. Additionally, cokriging is computationally prohibitive for large datasets. In this paper, we propose a method, called bivariate DeepKriging, which is a spatially dependent deep neural network (DNN) with an embedding layer constructed by spatial radial basis functions for bivariate spatial data prediction. We then develop a distribution-free uncertainty quantification method based on bootstrap and ensemble DNN. Our proposed approach outperforms the traditional cokriging 
+    
+[^5]: 实现合成主动推理代理，第二部分：变分信息更新
+
+    Realising Synthetic Active Inference Agents, Part II: Variational Message Updates. (arXiv:2306.02733v1 [stat.ML])
+
+    [http://arxiv.org/abs/2306.02733](http://arxiv.org/abs/2306.02733)
+
+    本文讨论了解决广义自由能（FE）目标的合成主动推理代理的变分信息更新和消息传递算法，通过对T形迷宫导航任务的模拟比较，表明AIF可引起认知行为。
+
+    
+
+    自由能原理（FEP）描述生物代理通过相应环境的生成模型最小化变分自由能（FE）。主动推理（AIF）是FEP的推论，描述了代理人通过最小化期望的FE目标来探索和利用其环境。在两篇相关论文中，我们通过自由形式Forney-style因子图（FFG）上的消息传递，描述了一种可扩展的合成AIF代理的认知方法。本文（第二部分）根据变分演算法，导出了最小化CFFG上（广义）FE目标的消息传递算法。比较了模拟Bethe和广义FE代理之间的差异，说明了合成AIF如何在T形迷宫导航任务上引起认知行为。通过对合成AIF代理的完整消息传递描述，可以推导和重用该代理在不同环境下的行为。
+
+    The Free Energy Principle (FEP) describes (biological) agents as minimising a variational Free Energy (FE) with respect to a generative model of their environment. Active Inference (AIF) is a corollary of the FEP that describes how agents explore and exploit their environment by minimising an expected FE objective. In two related papers, we describe a scalable, epistemic approach to synthetic AIF agents, by message passing on free-form Forney-style Factor Graphs (FFGs). A companion paper (part I) introduces a Constrained FFG (CFFG) notation that visually represents (generalised) FE objectives for AIF. The current paper (part II) derives message passing algorithms that minimise (generalised) FE objectives on a CFFG by variational calculus. A comparison between simulated Bethe and generalised FE agents illustrates how synthetic AIF induces epistemic behaviour on a T-maze navigation task. With a full message passing account of synthetic AIF agents, it becomes possible to derive and reuse 
     
 

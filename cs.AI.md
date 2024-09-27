@@ -2,187 +2,217 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [RAP: Retrieval-Augmented Planner for Adaptive Procedure Planning in Instructional Videos](https://arxiv.org/abs/2403.18600) | 提出了一种新的实际设置，称为指导视频中的自适应程序规划，克服了在实际场景中步骤长度变化的模型不具有泛化能力、理解步骤之间的时间关系知识对于生成合理且可执行的计划至关重要以及用步骤级标签或序列级标签标注指导视频耗时且劳动密集的问题 |
-| [^2] | [ChatDiet: Empowering Personalized Nutrition-Oriented Food Recommender Chatbots through an LLM-Augmented Framework](https://arxiv.org/abs/2403.00781) | 这项研究介绍了ChatDiet，一个借助LLM技术构建的框架，能够帮助个性化营养导向食品推荐聊天机器人提供个性化和可解释的推荐。 |
-| [^3] | [Are LLMs Ready for Real-World Materials Discovery?](https://arxiv.org/abs/2402.05200) | LLMs在材料科学中的应用受限，无法实现实际应用。我们提出了基于材料科学知识和假设测试的MatSci-LLMs框架，并描述了关键的材料科学信息提取挑战。 |
-| [^4] | [Towards Autonomous Supply Chains: Definition, Characteristics, Conceptual Framework, and Autonomy Levels.](http://arxiv.org/abs/2401.14183) | 本论文提出了自主供应链（ASC）的正式定义、特征和辅助概念，提出了一个分层概念框架和供应链自治参考模型。通过案例研究展示了基于这些概念的初始ASC实施。 |
-| [^5] | [Realism in Action: Anomaly-Aware Diagnosis of Brain Tumors from Medical Images Using YOLOv8 and DeiT.](http://arxiv.org/abs/2401.03302) | 本研究利用深度学习技术在具有挑战性的情况下检测和分类脑肿瘤，并解决了在罕见情况下的肿瘤检测问题。研究使用了来自国家脑映射实验室的数据集，通过修改样本数量和患者分布，使模型能够应对真实世界场景中的异常情况。 |
-| [^6] | [Couples can be tractable: New algorithms and hardness results for the Hospitals / Residents problem with Couples.](http://arxiv.org/abs/2311.00405) | 本研究提出了一种新的多项式时间算法，用于解决带夫妻的医院/居民问题，并证明了算法的多项式时间可解性以及对稳定B匹配问题的应用。算法能够找到一个接近可行的稳定匹配，并应用于不同类型的实例。 |
-| [^7] | [Non-Smooth Weakly-Convex Finite-sum Coupled Compositional Optimization.](http://arxiv.org/abs/2310.03234) | 本文研究了一种新的组合优化问题，称为非光滑弱凸有限和耦合组合优化(NSWC FCCO)，通过扩展已有的研究，我们研究了非光滑弱凸FCCO的问题，并提出了一种单循环算法来找到Moreau环的ε-稳定点。 |
-| [^8] | [WASA: WAtermark-based Source Attribution for Large Language Model-Generated Data.](http://arxiv.org/abs/2310.00646) | 本文提出了一种基于水印的框架WASA，通过允许大型语言模型生成带有嵌入源信息的合成文本水印来解决源归属和数据来源的问题。 |
-| [^9] | [Benchmarking Cognitive Biases in Large Language Models as Evaluators.](http://arxiv.org/abs/2309.17012) | 本研究对15个不同大小的大型语言模型进行了评估，发现它们作为评估器存在认知偏差，尤其在文本质量评估中表现出较强的偏见，这对其鲁棒性提出了质疑。同时，研究还发现了人类和机器偏好之间的相关性。 |
-| [^10] | [TempFuser: Learning Tactical and Agile Flight Maneuvers in Aerial Dogfights using a Long Short-Term Temporal Fusion Transformer.](http://arxiv.org/abs/2308.03257) | TempFuser是一种长短时序融合转换器，能够学习空中格斗中的战术和敏捷飞行动作。经过训练，模型成功地学会了复杂的战斗动作，并在面对高级对手时展现出人类一样的战术动作。 |
-| [^11] | [Unified Embedding Based Personalized Retrieval in Etsy Search.](http://arxiv.org/abs/2306.04833) | 本论文提出了一种将图形、转换和基于术语的嵌入结合起来的统一嵌入模型，并利用端到端训练模型进行个性化检索，以解决Etsy搜索中的语义差距问题。同时，本文分享了特征工程、硬负采样策略和应用变压器模型的新策略，以构建具有工业规模的模型来改善整体搜索体验。 |
-| [^12] | [An Interpretable Machine Learning System to Identify EEG Patterns on the Ictal-Interictal-Injury Continuum.](http://arxiv.org/abs/2211.05207) | 该论文设计了一种可解释的深度学习模型，以预测ICU脑电监测中常见的6种脑波图案的存在，并提供高质量的解释和三种解释方法，这对于建立AI的信任和临床采用至关重要。 |
+| [^1] | [SliceIt! -- A Dual Simulator Framework for Learning Robot Food Slicing](https://arxiv.org/abs/2404.02569) | 提出了一个用于在模拟环境中安全高效地学习机器人食物切割任务的Dual Simulator框架。 |
+| [^2] | [Threats, Attacks, and Defenses in Machine Unlearning: A Survey](https://arxiv.org/abs/2403.13682) | 机器遗忘（MU）通过知识去除过程来解决训练数据相关的人工智能治理问题，提高了AI系统的安全和负责任使用。 |
+| [^3] | [AI-enhanced Collective Intelligence: The State of the Art and Prospects](https://arxiv.org/abs/2403.10433) | 人类和人工智能形成的多层次集体智能网络，可以实现超越任一单独实体的集体智能水平。 |
+| [^4] | [Quantum Image Denoising with Machine Learning: A Novel Approach to Improve Quantum Image Processing Quality and Reliability](https://arxiv.org/abs/2402.11645) | 提出一种新方法，通过使用机器学习模型识别和校正量子处理图像中的噪声，以提高量子图像处理的质量和可靠性，实现与经典计算机类似的处理结果。 |
+| [^5] | [An Empirical Study on Cross-lingual Vocabulary Adaptation for Efficient Generative LLM Inference](https://arxiv.org/abs/2402.10712) | 通过实证研究，本文探讨了各种跨语言词汇适应方法对提高生成LLM推理效率的影响。 |
+| [^6] | [Generative Adversarial Bayesian Optimization for Surrogate Objectives](https://arxiv.org/abs/2402.06532) | 提出了生成对抗贝叶斯优化（GABO）算法，通过使用自适应源批评家正则化，将优化轨迹限制在代理函数可靠的区域内，解决了离线模型基于策略优化中代理模型预测不准确的问题。在多个离线优化任务中，GABO表现优于现有基准方法。 |
+| [^7] | [Fast Inference Through The Reuse Of Attention Maps In Diffusion Models.](http://arxiv.org/abs/2401.01008) | 本文提出了一种无需训练的方法，通过重用注意力映射来实现Text-to-image diffusion models中的快速推理，以提高效率。 |
+| [^8] | [Learning Interactive Real-World Simulators.](http://arxiv.org/abs/2310.06114) | 通过生成建模学习交互体验的通用模拟器，以模拟人类、机器人和其他交互式代理人对真实世界中行为的响应。 |
+| [^9] | [Serving Deep Learning Model in Relational Databases.](http://arxiv.org/abs/2310.04696) | 本文研究了在关系数据库中为深度学习模型提供服务的架构，并强调了三个关键范式：深度学习中心架构、UDF中心架构和关系中心架构。尽管每个架构都在特定的使用场景中有潜力，但还需要解决它们之间的集成问题和中间地带。 |
+| [^10] | [Discrete, compositional, and symbolic representations through attractor dynamics.](http://arxiv.org/abs/2310.01807) | 这项工作探讨了如何通过模拟吸引子动力学来更加神经可行地实现离散化，从而将连续的表示空间划分为对应于符号序列的分区。通过引入符号空间结构，可以在丰富的感知输入的吸引子支持表示空间中实现组合性。 |
+| [^11] | [Learning to Receive Help: Intervention-Aware Concept Embedding Models.](http://arxiv.org/abs/2309.16928) | 这项研究提出了一种干预感知的概念嵌入模型，用于提高神经架构对概念干预的响应性，并解决了概念干预顺序和模型架构的依赖性的问题。 |
+| [^12] | [Alternative Telescopic Displacement: An Efficient Multimodal Alignment Method.](http://arxiv.org/abs/2306.16950) | 备选的变焦位移是一种高效的多模态对齐方法，通过交替移动和扩展特征信息来融合多模态数据，可以稳健地捕捉不同模态特征之间的高级交互作用，从而显著提高多模态学习的性能，并在多个任务上优于其他流行的多模态方案。 |
+| [^13] | [Revolutionizing Agrifood Systems with Artificial Intelligence: A Survey.](http://arxiv.org/abs/2305.01899) | 这篇论文探讨了人工智能技术在农业食品系统中的应用，重点关注了农业、畜牧业和渔业等领域。人工智能技术在农业食品分类、生长监测、产量预测和品质评估等方面表现出强大的能力，同时也提出了未来研究方向以及潜在的挑战和限制。 |
+| [^14] | [Bayesian Matrix Decomposition and Applications.](http://arxiv.org/abs/2302.11337) | 本书旨在介绍贝叶斯矩阵分解的概念和工具，并总结了贝叶斯矩阵分解方法在不同领域的应用。 |
 
 # 详细
 
-[^1]: RAP：检索增强型规划器用于指导视频中的自适应程序规划
+[^1]: SliceIt! -- 一个用于学习机器人食物切割的双重模拟器框架
 
-    RAP: Retrieval-Augmented Planner for Adaptive Procedure Planning in Instructional Videos
+    SliceIt! -- A Dual Simulator Framework for Learning Robot Food Slicing
 
-    [https://arxiv.org/abs/2403.18600](https://arxiv.org/abs/2403.18600)
+    [https://arxiv.org/abs/2404.02569](https://arxiv.org/abs/2404.02569)
 
-    提出了一种新的实际设置，称为指导视频中的自适应程序规划，克服了在实际场景中步骤长度变化的模型不具有泛化能力、理解步骤之间的时间关系知识对于生成合理且可执行的计划至关重要以及用步骤级标签或序列级标签标注指导视频耗时且劳动密集的问题
-
-    
-
-    指导视频中的程序规划涉及根据初始和目标状态的视觉观察生成一系列动作步骤。尽管这一任务取得了快速进展，仍然存在一些关键挑战需要解决：（1）自适应程序：先前的工作存在一个不切实际的假设，即动作步骤的数量是已知且固定的，导致在实际场景中，步骤长度变化的模型不具有泛化能力。（2）时间关系：理解步骤之间的时间关系知识对于生成合理且可执行的计划至关重要。（3）注释成本：用步骤级标签（即时间戳）或序列级标签（即动作类别）标注指导视频是耗时且劳动密集的，限制了其泛化能力到大规模数据集。在这项工作中，我们提出了一个新的实际设置，称为指导视频中的自适应程序规划
-
-    arXiv:2403.18600v1 Announce Type: cross  Abstract: Procedure Planning in instructional videos entails generating a sequence of action steps based on visual observations of the initial and target states. Despite the rapid progress in this task, there remain several critical challenges to be solved: (1) Adaptive procedures: Prior works hold an unrealistic assumption that the number of action steps is known and fixed, leading to non-generalizable models in real-world scenarios where the sequence length varies. (2) Temporal relation: Understanding the step temporal relation knowledge is essential in producing reasonable and executable plans. (3) Annotation cost: Annotating instructional videos with step-level labels (i.e., timestamp) or sequence-level labels (i.e., action category) is demanding and labor-intensive, limiting its generalizability to large-scale datasets.In this work, we propose a new and practical setting, called adaptive procedure planning in instructional videos, where the
-    
-[^2]: ChatDiet：通过LLM增强框架赋能个性化营养导向食品推荐聊天机器人
-
-    ChatDiet: Empowering Personalized Nutrition-Oriented Food Recommender Chatbots through an LLM-Augmented Framework
-
-    [https://arxiv.org/abs/2403.00781](https://arxiv.org/abs/2403.00781)
-
-    这项研究介绍了ChatDiet，一个借助LLM技术构建的框架，能够帮助个性化营养导向食品推荐聊天机器人提供个性化和可解释的推荐。
+    提出了一个用于在模拟环境中安全高效地学习机器人食物切割任务的Dual Simulator框架。
 
     
 
-    食物对健康的深远影响使得先进的营养导向食品推荐服务成为必要。传统方法往往缺乏个性化、可解释性和互动性等关键元素。虽然大型语言模型（LLMs）带来了解释性和可解释性，但它们单独的使用未能实现真正的个性化。本文介绍了ChatDiet，一种新颖的LLM驱动框架，专门设计用于个性化营养导向食品推荐聊天机器人。ChatDiet集成了个人和人群模型，辅以一个协调器，无缝检索和处理相关信息。其结果是动态提供个性化和可解释的食品推荐，根据个人用户喜好定制。我们对ChatDiet进行了评估，包括一个引人入胜的案例研究，在案例研究中建立了一个因果个人模型来估计个人营养效果。
+    厨房机器人可以通过减轻日常烦琐任务的负担，提高家庭体验。然而，在处理危险工具（如厨房刀具）时，这些机器人必须在共享人类环境中灵巧且安全地执行任务。本研究旨在使机器人能够自主且安全地学习食物切割任务。具体来说，我们的目标是通过适应性控制，使用协作机器人或工业机器人手臂执行食物切割任务，以适应不同材料属性。我们的方法包括使用强化学习（RL）训练机器人以合规方式操作刀具，减少食物和切菜板施加的接触力。然而，在现实世界中训练机器人可能效率低下、危险，并导致大量食物浪费。因此，我们提出了SliceIt!，这是一个用于在模拟环境中安全高效地学习机器人食物切割任务的框架。
 
-    arXiv:2403.00781v1 Announce Type: cross  Abstract: The profound impact of food on health necessitates advanced nutrition-oriented food recommendation services. Conventional methods often lack the crucial elements of personalization, explainability, and interactivity. While Large Language Models (LLMs) bring interpretability and explainability, their standalone use falls short of achieving true personalization. In this paper, we introduce ChatDiet, a novel LLM-powered framework designed specifically for personalized nutrition-oriented food recommendation chatbots. ChatDiet integrates personal and population models, complemented by an orchestrator, to seamlessly retrieve and process pertinent information. The result is a dynamic delivery of personalized and explainable food recommendations, tailored to individual user preferences. Our evaluation of ChatDiet includes a compelling case study, where we establish a causal personal model to estimate individual nutrition effects. Our assessmen
+    arXiv:2404.02569v1 Announce Type: cross  Abstract: Cooking robots can enhance the home experience by reducing the burden of daily chores. However, these robots must perform their tasks dexterously and safely in shared human environments, especially when handling dangerous tools such as kitchen knives. This study focuses on enabling a robot to autonomously and safely learn food-cutting tasks. More specifically, our goal is to enable a collaborative robot or industrial robot arm to perform food-slicing tasks by adapting to varying material properties using compliance control. Our approach involves using Reinforcement Learning (RL) to train a robot to compliantly manipulate a knife, by reducing the contact forces exerted by the food items and by the cutting board. However, training the robot in the real world can be inefficient, and dangerous, and result in a lot of food waste. Therefore, we proposed SliceIt!, a framework for safely and efficiently learning robot food-slicing tasks in sim
     
-[^3]: LLMs是否准备好应用于真实世界的材料发现？
+[^2]: 机器学习中的威胁、攻击和防御：一项调查
 
-    Are LLMs Ready for Real-World Materials Discovery?
+    Threats, Attacks, and Defenses in Machine Unlearning: A Survey
 
-    [https://arxiv.org/abs/2402.05200](https://arxiv.org/abs/2402.05200)
+    [https://arxiv.org/abs/2403.13682](https://arxiv.org/abs/2403.13682)
 
-    LLMs在材料科学中的应用受限，无法实现实际应用。我们提出了基于材料科学知识和假设测试的MatSci-LLMs框架，并描述了关键的材料科学信息提取挑战。
-
-    
-
-    大型语言模型（LLMs）为材料科学中的强大语言处理工具提供了令人兴奋的可能性，加快了材料研究的进展。然而，LLMs在实际应用中仍存在不足，无法成为实用的材料科学工具。本文通过展示LLMs在材料科学中的相关失败案例，揭示了LLMs在理解和推理复杂、相互关联的材料科学知识方面的现有限制。鉴于这些缺点，我们提出了一种开发基于材料科学知识和假设生成与测试的材料科学LLMs（MatSci-LLMs）的框架。实现高性能的MatSci-LLMs的路径在很大程度上取决于建立高质量的多模态数据集，这些数据集来自科学文献，其中存在各种信息提取挑战。因此，我们描述了关键的材料科学信息提取挑战。
-
-    Large Language Models (LLMs) create exciting possibilities for powerful language processing tools to accelerate research in materials science. While LLMs have great potential to accelerate materials understanding and discovery, they currently fall short in being practical materials science tools. In this position paper, we show relevant failure cases of LLMs in materials science that reveal current limitations of LLMs related to comprehending and reasoning over complex, interconnected materials science knowledge. Given those shortcomings, we outline a framework for developing Materials Science LLMs (MatSci-LLMs) that are grounded in materials science knowledge and hypothesis generation followed by hypothesis testing. The path to attaining performant MatSci-LLMs rests in large part on building high-quality, multi-modal datasets sourced from scientific literature where various information extraction challenges persist. As such, we describe key materials science information extraction cha
-    
-[^4]: 强调自主供应链：定义、特征、概念框架和自主水平
-
-    Towards Autonomous Supply Chains: Definition, Characteristics, Conceptual Framework, and Autonomy Levels. (arXiv:2401.14183v1 [cs.AI])
-
-    [http://arxiv.org/abs/2401.14183](http://arxiv.org/abs/2401.14183)
-
-    本论文提出了自主供应链（ASC）的正式定义、特征和辅助概念，提出了一个分层概念框架和供应链自治参考模型。通过案例研究展示了基于这些概念的初始ASC实施。
+    机器遗忘（MU）通过知识去除过程来解决训练数据相关的人工智能治理问题，提高了AI系统的安全和负责任使用。
 
     
 
-    最近的全球性干扰，如大流行和地缘政治冲突，深刻暴露了传统供应链的脆弱性，需要探索更有弹性的替代方案。自主供应链（ASC）作为潜在解决方案出现，提供了在动荡的贸易环境中增加可见性、灵活性和弹性的优势。尽管工业界和学术界多年来一直在讨论ASC，但缺乏良好建立的理论基础。本文通过提供ASC的正式定义以及其定义特征和辅助概念来填补这一研究空白。我们提出了一个名为MIISI模型的分层概念框架。通过一个重点关注肉类供应链的案例研究，展示了基于这一概念模型的初始ASC实施。此外，我们还引入了一个七级供应链自治参考模型，描绘了实现完全供应链自治的轨迹。
+    机器遗忘（MU）最近引起了相当大的关注，因为它有潜力通过从训练的机器学习模型中消除特定数据的影响来实现安全人工智能。这个被称为知识去除的过程解决了与训练数据相关的人工智能治理问题，如数据质量、敏感性、版权限制和过时性。这种能力对于确保遵守诸如被遗忘权等隐私法规也至关重要。此外，有效的知识去除有助于减轻有害结果的风险，防范偏见、误导和未经授权的数据利用，从而增强了AI系统的安全和负责任使用。已经开展了设计高效的遗忘方法的工作，通过研究MU服务以与现有的机器学习作为服务集成，使用户能够提交请求从训练语料库中删除特定数据。
 
-    Recent global disruptions, such as the pandemic and geopolitical conflicts, have profoundly exposed vulnerabilities in traditional supply chains, requiring exploration of more resilient alternatives. Autonomous supply chains (ASCs) have emerged as a potential solution, offering increased visibility, flexibility, and resilience in turbulent trade environments. Despite discussions in industry and academia over several years, ASCs lack well-established theoretical foundations. This paper addresses this research gap by presenting a formal definition of ASC along with its defining characteristics and auxiliary concepts. We propose a layered conceptual framework called the MIISI model. An illustrative case study focusing on the meat supply chain demonstrates an initial ASC implementation based on this conceptual model. Additionally, we introduce a seven-level supply chain autonomy reference model, delineating a trajectory towards achieving a full supply chain autonomy. Recognising that this 
+    arXiv:2403.13682v2 Announce Type: replace-cross  Abstract: Machine Unlearning (MU) has gained considerable attention recently for its potential to achieve Safe AI by removing the influence of specific data from trained machine learning models. This process, known as knowledge removal, addresses AI governance concerns of training data such as quality, sensitivity, copyright restrictions, and obsolescence. This capability is also crucial for ensuring compliance with privacy regulations such as the Right To Be Forgotten. Furthermore, effective knowledge removal mitigates the risk of harmful outcomes, safeguarding against biases, misinformation, and unauthorized data exploitation, thereby enhancing the safe and responsible use of AI systems. Efforts have been made to design efficient unlearning approaches, with MU services being examined for integration with existing machine learning as a service, allowing users to submit requests to remove specific data from the training corpus. However, 
     
-[^5]: 行动中的现实主义：使用YOLOv8和DeiT从医学图像中诊断脑肿瘤的异常感知
+[^3]: AI增强的集体智能：现状与展望
 
-    Realism in Action: Anomaly-Aware Diagnosis of Brain Tumors from Medical Images Using YOLOv8 and DeiT. (arXiv:2401.03302v1 [eess.IV])
+    AI-enhanced Collective Intelligence: The State of the Art and Prospects
 
-    [http://arxiv.org/abs/2401.03302](http://arxiv.org/abs/2401.03302)
+    [https://arxiv.org/abs/2403.10433](https://arxiv.org/abs/2403.10433)
 
-    本研究利用深度学习技术在具有挑战性的情况下检测和分类脑肿瘤，并解决了在罕见情况下的肿瘤检测问题。研究使用了来自国家脑映射实验室的数据集，通过修改样本数量和患者分布，使模型能够应对真实世界场景中的异常情况。
-
-    
-
-    在医学科学领域，由于脑肿瘤在患者中的罕见程度，可靠地检测和分类脑肿瘤仍然是一个艰巨的挑战。因此，在异常情况下检测肿瘤的能力对于确保及时干预和改善患者结果至关重要。本研究利用深度学习技术在具有挑战性的情况下检测和分类脑肿瘤。来自国家脑映射实验室（NBML）的精选数据集包括81名患者，其中包括30例肿瘤病例和51例正常病例。检测和分类流程被分为两个连续的任务。检测阶段包括全面的数据分析和预处理，以修改图像样本和每个类别的患者数量，以符合真实世界场景中的异常分布（9个正常样本对应1个肿瘤样本）。此外，在测试中除了常见的评估指标外，我们还采用了... [摘要长度已达到上限]
-
-    In the field of medical sciences, reliable detection and classification of brain tumors from images remains a formidable challenge due to the rarity of tumors within the population of patients. Therefore, the ability to detect tumors in anomaly scenarios is paramount for ensuring timely interventions and improved patient outcomes. This study addresses the issue by leveraging deep learning (DL) techniques to detect and classify brain tumors in challenging situations. The curated data set from the National Brain Mapping Lab (NBML) comprises 81 patients, including 30 Tumor cases and 51 Normal cases. The detection and classification pipelines are separated into two consecutive tasks. The detection phase involved comprehensive data analysis and pre-processing to modify the number of image samples and the number of patients of each class to anomaly distribution (9 Normal per 1 Tumor) to comply with real world scenarios. Next, in addition to common evaluation metrics for the testing, we emplo
-    
-[^6]: 夫妻可以被解决：新的算法和对带夫妻的医院/居民问题的难度结果
-
-    Couples can be tractable: New algorithms and hardness results for the Hospitals / Residents problem with Couples. (arXiv:2311.00405v1 [cs.DS])
-
-    [http://arxiv.org/abs/2311.00405](http://arxiv.org/abs/2311.00405)
-
-    本研究提出了一种新的多项式时间算法，用于解决带夫妻的医院/居民问题，并证明了算法的多项式时间可解性以及对稳定B匹配问题的应用。算法能够找到一个接近可行的稳定匹配，并应用于不同类型的实例。
+    人类和人工智能形成的多层次集体智能网络，可以实现超越任一单独实体的集体智能水平。
 
     
 
-    在本文中，我们研究了带夫妻的医院/居民问题（Hospitals / Residents problem with Couples，简称HRC），其中解的一种是稳定匹配，或者报告不存在。我们提出了一种新的多项式时间算法，可以在带夫妻的HRC实例中找到一个接近可行的稳定匹配（通过最多调整医院的容量1个单位），其中夫妻的偏好是子响应性的（即，如果一个成员转移到一个更好的医院，那么夫妻也会变得更好）和子完备性的（即，对于每对个别可接受的医院都是夫妻一起可接受的），通过将其规约到稳定固定问题的实例。我们还提出了一个针对HRC子响应性、子完备实例的多项式时间算法，该实例是一个双重市场，或者所有夫妻属于几种可能类型之一。我们证明了我们的算法也意味着稳定B匹配问题的多项式时间可解性，其中底层图是带有环的多重图。
+    目前的社会挑战超出了人类个体或集体努力的能力。随着人工智能的发展，其在人类集体中的角色将从辅助工具转变为参与式成员。人类和人工智能拥有互补的能力，当二者协同作用时，可以实现一种超越单独人类或人工智能集体能力的集体智能水平。然而，人工智能系统中的交互本质上是复杂的，涉及复杂的过程和相互依赖关系。本综述从网络科学的视角出发，构想了一个多层次的人工智能集体智能表示，包括认知层、物理层和信息层。在这个多层网络中，人类和人工智能代理展现出不同的特征；人类在多样性方面从表层到深层属性不同，而人工智能代理在程度上也有所区别。
 
-    In this paper we study the {\sc Hospitals / Residents problem with Couples} ({\sc hrc}), where a solution is a stable matching or a report that none exists. We present a novel polynomial-time algorithm that can find a near-feasible stable matching (adjusting the hospitals' capacities by at most 1) in an {\sc hrc} instance where the couples' preferences are sub-responsive (i.e., if one member switches to a better hospital, than the couple also improves) and sub-complete (i.e., each pair of hospitals that are individually acceptable to both members are jointly acceptable for the couple) by reducing it to an instance of the {\sc Stable Fixtures} problem. We also present a polynomial-time algorithm for {\sc hrc} in a sub-responsive, sub-complete instance that is a Dual Market, or where all couples are one of several possible types. We show that our algorithm also implies the polynomial-time solvability of a stable b-matching problem, where the underlying graph is a multigraph with loops.  
+    arXiv:2403.10433v1 Announce Type: cross  Abstract: The current societal challenges exceed the capacity of human individual or collective effort alone. As AI evolves, its role within human collectives is poised to vary from an assistive tool to a participatory member. Humans and AI possess complementary capabilities that, when synergized, can achieve a level of collective intelligence that surpasses the collective capabilities of either humans or AI in isolation. However, the interactions in human-AI systems are inherently complex, involving intricate processes and interdependencies. This review incorporates perspectives from network science to conceptualize a multilayer representation of human-AI collective intelligence, comprising a cognition layer, a physical layer, and an information layer. Within this multilayer network, humans and AI agents exhibit varying characteristics; humans differ in diversity from surface-level to deep-level attributes, while AI agents range in degrees of f
     
-[^7]: 非光滑弱凸有限和耦合组合优化
+[^4]: 借助机器学习进行量子图像去噪：改进量子图像处理质量和可靠性的新方法
 
-    Non-Smooth Weakly-Convex Finite-sum Coupled Compositional Optimization. (arXiv:2310.03234v1 [math.OC])
+    Quantum Image Denoising with Machine Learning: A Novel Approach to Improve Quantum Image Processing Quality and Reliability
 
-    [http://arxiv.org/abs/2310.03234](http://arxiv.org/abs/2310.03234)
+    [https://arxiv.org/abs/2402.11645](https://arxiv.org/abs/2402.11645)
 
-    本文研究了一种新的组合优化问题，称为非光滑弱凸有限和耦合组合优化(NSWC FCCO)，通过扩展已有的研究，我们研究了非光滑弱凸FCCO的问题，并提出了一种单循环算法来找到Moreau环的ε-稳定点。
-
-    
-
-    本文研究了一类新的组合优化问题，称为非光滑弱凸有限和耦合组合优化(NSWC FCCO)。由于其在机器学习和人工智能领域的广泛应用以及其解决基于经验风险最小化的随机算法的局限性，FCCO引起了越来越多的关注。然而，目前对于FCCO的研究假设内外函数都是光滑的，限制了其能够解决更多种类的问题的潜力。我们的研究从非光滑弱凸FCCO的角度进行了扩展，其中外函数是弱凸且非递减的，内函数是弱凸的。我们分析了一种单循环算法，并确定其在找到Moreau环的ε-稳定点的复杂度。
-
-    This paper investigates new families of compositional optimization problems, called $\underline{\bf n}$on-$\underline{\bf s}$mooth $\underline{\bf w}$eakly-$\underline{\bf c}$onvex $\underline{\bf f}$inite-sum $\underline{\bf c}$oupled $\underline{\bf c}$ompositional $\underline{\bf o}$ptimization (NSWC FCCO). There has been a growing interest in FCCO due to its wide-ranging applications in machine learning and AI, as well as its ability to address the shortcomings of stochastic algorithms based on empirical risk minimization. However, current research on FCCO presumes that both the inner and outer functions are smooth, limiting their potential to tackle a more diverse set of problems. Our research expands on this area by examining non-smooth weakly-convex FCCO, where the outer function is weakly convex and non-decreasing, and the inner function is weakly-convex. We analyze a single-loop algorithm and establish its complexity for finding an $\epsilon$-stationary point of the Moreau env
-    
-[^8]: WASA：基于水印的大型语言模型生成数据的源归属
-
-    WASA: WAtermark-based Source Attribution for Large Language Model-Generated Data. (arXiv:2310.00646v1 [cs.LG])
-
-    [http://arxiv.org/abs/2310.00646](http://arxiv.org/abs/2310.00646)
-
-    本文提出了一种基于水印的框架WASA，通过允许大型语言模型生成带有嵌入源信息的合成文本水印来解决源归属和数据来源的问题。
+    提出一种新方法，通过使用机器学习模型识别和校正量子处理图像中的噪声，以提高量子图像处理的质量和可靠性，实现与经典计算机类似的处理结果。
 
     
 
-    大型语言模型（LLM）的出色性能和其商业化的巨大潜力引发了对其训练数据知识产权（IP）的严重关注。特别是，LLM生成的合成文本可能侵犯被用于训练LLM的数据的知识产权。为此，我们能够（a）通过水印识别出对LLM生成的合成文本做出贡献的数据提供者（源归属）；以及（b）验证文本数据是否来自于某个数据提供者对LLM进行了训练（数据来源）。在本文中，我们展示了通过水印技术可以解决这两个问题，即通过让LLM生成具有嵌入源信息的合成文本水印来实现。我们确定了这种水印技术框架的关键特性（例如源归属准确性、抵抗对手攻击的鲁棒性），并提出了一个满足这些要求的WAtermarking for Source Attribution（WASA）框架.
+    Quantum Image Processing（QIP）是一个旨在利用量子计算优势来操作和分析图像的领域。然而，QIP面临两个挑战：量子比特的限制和量子机器中存在的噪声。在这项研究中，我们提出了一种新方法来解决QIP中的噪声问题。通过训练和使用一个机器学习模型，该模型能够识别并校正量子处理图像中的噪声，我们可以弥补机器造成的嘈杂，并以比经典计算机更高的效率检索出与之类似的处理结果。该模型通过学习包括现有处理图像和来自开放获取数据集的量子处理图像的数据集进行训练。该模型将能够为我们提供每个像素的置信水平及其潜在原始值。为了评估该模型在弥补Q处理中的损失和退相干方面的准确性
 
-    The impressive performances of large language models (LLMs) and their immense potential for commercialization have given rise to serious concerns over the intellectual property (IP) of their training data. In particular, the synthetic texts generated by LLMs may infringe the IP of the data being used to train the LLMs. To this end, it is imperative to be able to (a) identify the data provider who contributed to the generation of a synthetic text by an LLM (source attribution) and (b) verify whether the text data from a data provider has been used to train an LLM (data provenance). In this paper, we show that both problems can be solved by watermarking, i.e., by enabling an LLM to generate synthetic texts with embedded watermarks that contain information about their source(s). We identify the key properties of such watermarking frameworks (e.g., source attribution accuracy, robustness against adversaries), and propose a WAtermarking for Source Attribution (WASA) framework that satisfies
+    arXiv:2402.11645v1 Announce Type: cross  Abstract: Quantum Image Processing (QIP) is a field that aims to utilize the benefits of quantum computing for manipulating and analyzing images. However, QIP faces two challenges: the limitation of qubits and the presence of noise in a quantum machine. In this research we propose a novel approach to address the issue of noise in QIP. By training and employing a machine learning model that identifies and corrects the noise in quantum processed images, we can compensate for the noisiness caused by the machine and retrieve a processing result similar to that performed by a classical computer with higher efficiency. The model is trained by learning a dataset consisting of both existing processed images and quantum processed images from open access datasets. This model will be capable of providing us with the confidence level for each pixel and its potential original value. To assess the model's accuracy in compensating for loss and decoherence in Q
     
-[^9]: 作为评估器的大型语言模型中认知偏差的基准测试
+[^5]: 一项关于跨语言词汇适应用于高效生成LLM推理的实证研究
 
-    Benchmarking Cognitive Biases in Large Language Models as Evaluators. (arXiv:2309.17012v1 [cs.CL])
+    An Empirical Study on Cross-lingual Vocabulary Adaptation for Efficient Generative LLM Inference
 
-    [http://arxiv.org/abs/2309.17012](http://arxiv.org/abs/2309.17012)
+    [https://arxiv.org/abs/2402.10712](https://arxiv.org/abs/2402.10712)
 
-    本研究对15个不同大小的大型语言模型进行了评估，发现它们作为评估器存在认知偏差，尤其在文本质量评估中表现出较强的偏见，这对其鲁棒性提出了质疑。同时，研究还发现了人类和机器偏好之间的相关性。
-
-    
-
-    最近的研究表明，大型语言模型（LLMs）通过简单的提示和上下文学习作为自动评估器非常有效。本研究组装了15个大小不同的LLMs，并通过其他LLMs的偏好排名来评估它们的输出响应，例如System Star比System Square更好。然后，我们引入了用于评估LLMs输出中六种不同认知偏差的认知偏差基准测试（CoBBLEr），如自我中心偏差，即模型更喜欢将自己的输出在评估中排名较高。我们发现LLMs是有偏见的文本质量评估器，在每个评估中都表现出对我们偏见基准的强烈迹象（在所有模型上的平均比较约为40%），这对它们作为评估器的鲁棒性提出了质疑。此外，我们还研究了人类和机器偏好之间的相关性，并计算了平均的Rank-Biased O值。
-
-    Large Language Models (LLMs) have recently been shown to be effective as automatic evaluators with simple prompting and in-context learning. In this work, we assemble 15 LLMs of four different size ranges and evaluate their output responses by preference ranking from the other LLMs as evaluators, such as System Star is better than System Square. We then evaluate the quality of ranking outputs introducing the Cognitive Bias Benchmark for LLMs as Evaluators (CoBBLEr), a benchmark to measure six different cognitive biases in LLM evaluation outputs, such as the Egocentric bias where a model prefers to rank its own outputs highly in evaluation. We find that LLMs are biased text quality evaluators, exhibiting strong indications on our bias benchmark (average of 40% of comparisons across all models) within each of their evaluations that question their robustness as evaluators. Furthermore, we examine the correlation between human and machine preferences and calculate the average Rank-Biased O
-    
-[^10]: TempFuser: 使用长短时序融合转换器学习空中格斗中的战术和敏捷飞行动作
-
-    TempFuser: Learning Tactical and Agile Flight Maneuvers in Aerial Dogfights using a Long Short-Term Temporal Fusion Transformer. (arXiv:2308.03257v2 [cs.RO] UPDATED)
-
-    [http://arxiv.org/abs/2308.03257](http://arxiv.org/abs/2308.03257)
-
-    TempFuser是一种长短时序融合转换器，能够学习空中格斗中的战术和敏捷飞行动作。经过训练，模型成功地学会了复杂的战斗动作，并在面对高级对手时展现出人类一样的战术动作。
+    通过实证研究，本文探讨了各种跨语言词汇适应方法对提高生成LLM推理效率的影响。
 
     
 
-    在空中战斗中，空战动作对战术机动和敏捷战斗机的空气动力学都提出了复杂的挑战。在本文中，我们介绍了TempFuser，一种新颖的长短时序融合转换器，旨在学习空中格斗中的战术和敏捷飞行动作。我们的方法利用两种不同的基于LSTM的输入嵌入来编码长期稀疏和短期密集的状态表示。通过将这些嵌入通过转换器编码器进行整合，我们的模型捕获了战斗机的战术和敏捷性，使其能够生成端到端的飞行指令，确保占据优势位置并超越对手。经过对高保真飞行模拟器中多种类型对手飞机的广泛训练，我们的模型成功地学习了执行复杂的战斗动作，且始终表现优于多个基准模型。值得注意的是，我们的模型在面对高级对手时展现出人类一样的战术动作。
+    arXiv:2402.10712v1 通告类型: 跨领域 摘要: 最先进的生成大型语言模型(LLMs)的发展在很大程度上依赖于英语为中心的分词器、词汇和预训练数据。尽管一些LLMs具有多语言能力，但最近的研究表明，当生成英语以外的其他语言时，它们的推理效率会下降。这导致推理时间和成本增加。已经提出了跨语言词汇适应方法，用于将模型调整到目标语言，旨在提高下游性能。然而，这些方法对提高生成LLM推理效率的有效性尚未得到探究。在本文中，我们对五种生成LLMs（包括单语和多语模型）在四种语言类型多样且四种自然语言理解任务上进行了各种跨语言词汇适应方法的实证研究。
 
-    In aerial combat, dogfighting poses intricate challenges that demand an understanding of both strategic maneuvers and the aerodynamics of agile fighter aircraft. In this paper, we introduce TempFuser, a novel long short-term temporal fusion transformer designed to learn tactical and agile flight maneuvers in aerial dogfights. Our approach employs two distinct LSTM-based input embeddings to encode long-term sparse and short-term dense state representations. By integrating these embeddings through a transformer encoder, our model captures the tactics and agility of fighter jets, enabling it to generate end-to-end flight commands that secure dominant positions and outmaneuver the opponent. After extensive training against various types of opponent aircraft in a high-fidelity flight simulator, our model successfully learns to perform complex fighter maneuvers, consistently outperforming several baseline models. Notably, our model exhibits human-like strategic maneuvers even when facing adv
+    arXiv:2402.10712v1 Announce Type: cross  Abstract: The development of state-of-the-art generative large language models (LLMs) disproportionately relies on English-centric tokenizers, vocabulary and pre-training data. Despite the fact that some LLMs have multilingual capabilities, recent studies have shown that their inference efficiency deteriorates when generating text in languages other than English. This results in increased inference time and costs. Cross-lingual vocabulary adaptation methods have been proposed for adapting models to a target language aiming to improve downstream performance. However, the effectiveness of these methods on increasing inference efficiency of generative LLMs has yet to be explored. In this paper, we perform an empirical study of various cross-lingual vocabulary adaptation methods on five generative LLMs (including monolingual and multilingual models) across four typologically-diverse languages and four natural language understanding tasks. We find th
     
-[^11]: Etsy搜索中统一嵌入式个性化检索的方法
+[^6]: 生成对抗贝叶斯优化用于代理目标
 
-    Unified Embedding Based Personalized Retrieval in Etsy Search. (arXiv:2306.04833v1 [cs.IR])
+    Generative Adversarial Bayesian Optimization for Surrogate Objectives
 
-    [http://arxiv.org/abs/2306.04833](http://arxiv.org/abs/2306.04833)
+    [https://arxiv.org/abs/2402.06532](https://arxiv.org/abs/2402.06532)
 
-    本论文提出了一种将图形、转换和基于术语的嵌入结合起来的统一嵌入模型，并利用端到端训练模型进行个性化检索，以解决Etsy搜索中的语义差距问题。同时，本文分享了特征工程、硬负采样策略和应用变压器模型的新策略，以构建具有工业规模的模型来改善整体搜索体验。
-
-    
-
-    基于嵌入式神经网络的信息检索已经成为解决尾查询中经常出现的语义差距问题的普遍方法。与此同时，热门查询通常缺乏上下文，有广泛的意图，用户历史互动的附加上下文有助于解决问题。本文介绍了我们解决语义差距问题的新方法，以及一种用于个性化语义检索的端到端训练模型。我们建议学习一种统一的嵌入模型，包括基于图形、变压器和术语的嵌入，同时分享了我们的设计选择，以在性能和效率之间实现最佳权衡。我们分享了特征工程、硬负采样策略和变压器模型的应用方面的经验教训，包括用于提高搜索相关性和部署此类模型的一种新颖的预训练策略和其他技巧。我们的个性化检索模型显着提高了整体搜索体验。
-
-    Embedding-based neural retrieval is a prevalent approach to address the semantic gap problem which often arises in product search on tail queries. In contrast, popular queries typically lack context and have a broad intent where additional context from users historical interaction can be helpful. In this paper, we share our novel approach to address both: the semantic gap problem followed by an end to end trained model for personalized semantic retrieval. We propose learning a unified embedding model incorporating graph, transformer and term-based embeddings end to end and share our design choices for optimal tradeoff between performance and efficiency. We share our learnings in feature engineering, hard negative sampling strategy, and application of transformer model, including a novel pre-training strategy and other tricks for improving search relevance and deploying such a model at industry scale. Our personalized retrieval model significantly improves the overall search experience,
-    
-[^12]: 一种可解释的机器学习系统来识别癫痫-间隙-损伤连续状态下的脑电图图案
-
-    An Interpretable Machine Learning System to Identify EEG Patterns on the Ictal-Interictal-Injury Continuum. (arXiv:2211.05207v3 [cs.CV] UPDATED)
-
-    [http://arxiv.org/abs/2211.05207](http://arxiv.org/abs/2211.05207)
-
-    该论文设计了一种可解释的深度学习模型，以预测ICU脑电监测中常见的6种脑波图案的存在，并提供高质量的解释和三种解释方法，这对于建立AI的信任和临床采用至关重要。
+    提出了生成对抗贝叶斯优化（GABO）算法，通过使用自适应源批评家正则化，将优化轨迹限制在代理函数可靠的区域内，解决了离线模型基于策略优化中代理模型预测不准确的问题。在多个离线优化任务中，GABO表现优于现有基准方法。
 
     
 
-    在许多医学领域，人们呼吁在用于临床工作的机器学习系统中增加可解释性。在本文中，我们设计了一个可解释的深度学习模型，用于预测ICU脑电监测中常见的6种脑波图案（癫痫、LPD、GPD、LRDA、GRDA、其他）的存在。每个预测都配有一个高质量的解释，借助于专门的用户界面提供支持。此新型模型架构学习了一组原型示例（“原型”），并通过将新的EEG片段与这些原型进行比较来做出决策。这些原型可以是单类（仅与一个类相关）或双类（与两个类相关）。我们提出了三种主要的模型解释方法：1）使用全局结构保持方法，将1275维cEEG潜在特征映射到二维空间中，可视化癫痫-间隙-损伤连续状态，从而深入了解其高维结构。2）我们提出了一种交互式解释方法，使人类专家能够查询模型预测的不同方面，并以自然语言接收经过专家验证的解释。3）我们可视化了导致模型做出某个决策的输入的最重要特征，允许详细检查输入和输出之间的关系。总的来说，我们展示了解释性模型分类EEG图案和提供专家友好的解释的实用性，这两个方面对于建立AI的信任和临床采用至关重要。
+    离线基于模型的策略优化通过在优化过程中不查询真实的目标函数来优化学习到的代理目标函数。然而，在优化过程中经常遇到代理模型预测不准确的情况。为了解决这个问题，我们提出了使用自适应源批评家正则化的生成对抗贝叶斯优化（GABO），这是一个任务不可知的贝叶斯优化框架，采用了Lipschitz有界源批评家模型来约束优化轨迹，使其在代理函数可靠的区域内。我们证明，在连续输入空间先验的一定假设下，我们的算法动态调整源批评家正则化的强度。在各种科学领域的多个离线优化任务中，GABO优于现有基准方法。我们的代码可在https://github.com/michael-s-yao/gabo 查询。
 
-    In many medical subfields, there is a call for greater interpretability in the machine learning systems used for clinical work. In this paper, we design an interpretable deep learning model to predict the presence of 6 types of brainwave patterns (Seizure, LPD, GPD, LRDA, GRDA, other) commonly encountered in ICU EEG monitoring. Each prediction is accompanied by a high-quality explanation delivered with the assistance of a specialized user interface. This novel model architecture learns a set of prototypical examples (``prototypes'') and makes decisions by comparing a new EEG segment to these prototypes. These prototypes are either single-class (affiliated with only one class) or dual-class (affiliated with two classes).  We present three main ways of interpreting the model: 1) Using global-structure preserving methods, we map the 1275-dimensional cEEG latent features to a 2D space to visualize the ictal-interictal-injury continuum and gain insight into its high-dimensional structure. 2
+    Offline model-based policy optimization seeks to optimize a learned surrogate objective function without querying the true oracle objective during optimization. However, inaccurate surrogate model predictions are frequently encountered along the optimization trajectory. To address this limitation, we propose generative adversarial Bayesian optimization (GABO) using adaptive source critic regularization, a task-agnostic framework for Bayesian optimization that employs a Lipschitz-bounded source critic model to constrain the optimization trajectory to regions where the surrogate function is reliable. We show that under certain assumptions for the continuous input space prior, our algorithm dynamically adjusts the strength of the source critic regularization. GABO outperforms existing baselines on a number of different offline optimization tasks across a variety of scientific domains. Our code is available at https://github.com/michael-s-yao/gabo
+    
+[^7]: Text-to-image diffusion models中通过重用注意力映射实现快速推理
+
+    Fast Inference Through The Reuse Of Attention Maps In Diffusion Models. (arXiv:2401.01008v1 [cs.CV])
+
+    [http://arxiv.org/abs/2401.01008](http://arxiv.org/abs/2401.01008)
+
+    本文提出了一种无需训练的方法，通过重用注意力映射来实现Text-to-image diffusion models中的快速推理，以提高效率。
+
+    
+
+    文字到图像扩散模型在灵活和逼真的图像合成方面展示了前所未有的能力。然而，生成单个图像所需的迭代过程既昂贵又具有较高的延迟，促使研究人员进一步研究其效率。我们提出了一种无需调整采样步长的无需训练的方法。具体地说，我们发现重复计算注意力映射既耗时又冗余，因此我们建议在采样过程中结构化地重用注意力映射。我们的初步重用策略受到初级ODE理论的启发，该理论认为在采样过程的后期重用最合适。在注意到这种理论方法的一些局限性后，我们通过实验证明了一种更好的方法。
+
+    Text-to-image diffusion models have demonstrated unprecedented abilities at flexible and realistic image synthesis. However, the iterative process required to produce a single image is costly and incurs a high latency, prompting researchers to further investigate its efficiency. Typically, improvements in latency have been achieved in two ways: (1) training smaller models through knowledge distillation (KD); and (2) adopting techniques from ODE-theory to facilitate larger step sizes. In contrast, we propose a training-free approach that does not alter the step-size of the sampler. Specifically, we find the repeated calculation of attention maps to be both costly and redundant; therefore, we propose a structured reuse of attention maps during sampling. Our initial reuse policy is motivated by rudimentary ODE-theory, which suggests that reuse is most suitable late in the sampling procedure. After noting a number of limitations in this theoretical approach, we empirically search for a bet
+    
+[^8]: 学习交互式现实世界模拟器
+
+    Learning Interactive Real-World Simulators. (arXiv:2310.06114v1 [cs.AI])
+
+    [http://arxiv.org/abs/2310.06114](http://arxiv.org/abs/2310.06114)
+
+    通过生成建模学习交互体验的通用模拟器，以模拟人类、机器人和其他交互式代理人对真实世界中行为的响应。
+
+    
+
+    训练在互联网数据上的生成模型已经彻底改变了文本、图像和视频内容的创建方式。也许生成模型的下一个里程碑是在人类、机器人和其他交互式代理人采取行动时模拟真实的体验。实际应用范围从游戏和电影中的可控内容创建，到仅在模拟环境中训练可以直接部署在现实世界中的体验式代理人。我们探索了通过生成建模来学习现实世界交互的通用模拟器(UniSim)的可能性。我们首先重要地观察到，用于学习现实世界模拟器的自然数据集通常在不同的方面丰富多样（例如，图像数据中丰富的物体，机器人数据中密集采样的动作，导航数据中多样的移动）。通过精心协调各种数据集，每个数据集都提供整体体验的不同方面，UniSim可以模拟人类与环境的交互方式。
+
+    Generative models trained on internet data have revolutionized how text, image, and video content can be created. Perhaps the next milestone for generative models is to simulate realistic experience in response to actions taken by humans, robots, and other interactive agents. Applications of a real-world simulator range from controllable content creation in games and movies, to training embodied agents purely in simulation that can be directly deployed in the real world. We explore the possibility of learning a universal simulator (UniSim) of real-world interaction through generative modeling. We first make the important observation that natural datasets available for learning a real-world simulator are often rich along different axes (e.g., abundant objects in image data, densely sampled actions in robotics data, and diverse movements in navigation data). With careful orchestration of diverse datasets, each providing a different aspect of the overall experience, UniSim can emulate how
+    
+[^9]: 在关系数据库中为深度学习模型提供服务
+
+    Serving Deep Learning Model in Relational Databases. (arXiv:2310.04696v2 [cs.DB] UPDATED)
+
+    [http://arxiv.org/abs/2310.04696](http://arxiv.org/abs/2310.04696)
+
+    本文研究了在关系数据库中为深度学习模型提供服务的架构，并强调了三个关键范式：深度学习中心架构、UDF中心架构和关系中心架构。尽管每个架构都在特定的使用场景中有潜力，但还需要解决它们之间的集成问题和中间地带。
+
+    
+
+    在不同商业和科学领域中，在关系数据上为深度学习模型提供服务已经成为一个重要需求，并引发了最近日益增长的兴趣。本文通过全面探索代表性架构来满足这个需求。我们强调了三个关键范式：尖端的深度学习中心架构将深度学习计算转移到专用的深度学习框架上。潜在的UDF中心架构将一个或多个张量计算封装到数据库系统中的用户定义函数(UDFs)中。潜在的关系中心架构旨在通过关系运算来表示大规模的张量计算。虽然每个架构在特定的使用场景中都显示出了潜力，但我们确定了这些架构之间的无缝集成和中间地带之间的紧急需求。我们深入研究了妨碍集成的差距，并探索了创新的策略。
+
+    Serving deep learning (DL) models on relational data has become a critical requirement across diverse commercial and scientific domains, sparking growing interest recently. In this visionary paper, we embark on a comprehensive exploration of representative architectures to address the requirement. We highlight three pivotal paradigms: The state-of-the-artDL-Centricarchitecture offloadsDL computations to dedicated DL frameworks. The potential UDF-Centric architecture encapsulates one or more tensor computations into User Defined Functions (UDFs) within the database system. The potentialRelation-Centricarchitecture aims to represent a large-scale tensor computation through relational operators. While each of these architectures demonstrates promise in specific use scenarios, we identify urgent requirements for seamless integration of these architectures and the middle ground between these architectures. We delve into the gaps that impede the integration and explore innovative strategies 
+    
+[^10]: 通过吸引子动力学实现离散、组合和符号表示
+
+    Discrete, compositional, and symbolic representations through attractor dynamics. (arXiv:2310.01807v1 [cs.AI])
+
+    [http://arxiv.org/abs/2310.01807](http://arxiv.org/abs/2310.01807)
+
+    这项工作探讨了如何通过模拟吸引子动力学来更加神经可行地实现离散化，从而将连续的表示空间划分为对应于符号序列的分区。通过引入符号空间结构，可以在丰富的感知输入的吸引子支持表示空间中实现组合性。
+
+    
+
+    组合性是离散符号系统（如语言和程序）的重要特征，它使得这些系统尽管使用有限的符号集合，但仍具有无限的容量。它在认知科学和人工智能领域的推理中都具有很好的抽象性。然而，连续和符号处理之间的界面通常是通过算法级别上的量化或softmax采样步骤来实现的。在本研究中，我们通过模拟吸引子动力学将离散化实现得更加神经可行，这种方法将连续的表示空间划分为对应于符号序列的分区。在吸引子网络的基础上，引入了新的训练方法，我们展示了在丰富的感知输入的吸引子支持表示空间中引入符号空间结构可以产生组合性。最后，我们认为我们的模型展示了一种信息增长的过程。
+
+    Compositionality is an important feature of discrete symbolic systems, such as language and programs, as it enables them to have infinite capacity despite a finite symbol set. It serves as a useful abstraction for reasoning in both cognitive science and in AI, yet the interface between continuous and symbolic processing is often imposed by fiat at the algorithmic level, such as by means of quantization or a softmax sampling step. In this work, we explore how discretization could be implemented in a more neurally plausible manner through the modeling of attractor dynamics that partition the continuous representation space into basins that correspond to sequences of symbols. Building on established work in attractor networks and introducing novel training methods, we show that imposing structure in the symbolic space can produce compositionality in the attractor-supported representation space of rich sensory inputs. Lastly, we argue that our model exhibits the process of an information b
+    
+[^11]: 学习接受帮助：干预感知的概念嵌入模型
+
+    Learning to Receive Help: Intervention-Aware Concept Embedding Models. (arXiv:2309.16928v1 [cs.LG])
+
+    [http://arxiv.org/abs/2309.16928](http://arxiv.org/abs/2309.16928)
+
+    这项研究提出了一种干预感知的概念嵌入模型，用于提高神经架构对概念干预的响应性，并解决了概念干预顺序和模型架构的依赖性的问题。
+
+    
+
+    概念瓶颈模型（CBMs）通过使用一组高级概念构建和解释神经架构的预测，以解决其不透明性的问题。这些模型的一个特殊属性是它们允许概念干预，用户可以纠正被错误预测的概念，从而提高模型的性能。然而，最近的研究表明，干预有效性可能严重依赖于干预概念的顺序以及模型的架构和训练超参数。我们认为，这源于CBM在训练时缺乏模型适应概念干预的激励。为了解决这个问题，我们提出了干预感知的概念嵌入模型（IntCEMs），这是一种基于CBM的新型架构和训练范式，可以提高模型对测试时干预的响应性。我们的模型以端到端的方式学习了一个概念干预策略，从中可以采样有意义的干预轨迹。
+
+    Concept Bottleneck Models (CBMs) tackle the opacity of neural architectures by constructing and explaining their predictions using a set of high-level concepts. A special property of these models is that they permit concept interventions, wherein users can correct mispredicted concepts and thus improve the model's performance. Recent work, however, has shown that intervention efficacy can be highly dependent on the order in which concepts are intervened on and on the model's architecture and training hyperparameters. We argue that this is rooted in a CBM's lack of train-time incentives for the model to be appropriately receptive to concept interventions. To address this, we propose Intervention-aware Concept Embedding models (IntCEMs), a novel CBM-based architecture and training paradigm that improves a model's receptiveness to test-time interventions. Our model learns a concept intervention policy in an end-to-end fashion from where it can sample meaningful intervention trajectories a
+    
+[^12]: 备选的变焦位移：一种高效的多模态对齐方法
+
+    Alternative Telescopic Displacement: An Efficient Multimodal Alignment Method. (arXiv:2306.16950v1 [cs.CV])
+
+    [http://arxiv.org/abs/2306.16950](http://arxiv.org/abs/2306.16950)
+
+    备选的变焦位移是一种高效的多模态对齐方法，通过交替移动和扩展特征信息来融合多模态数据，可以稳健地捕捉不同模态特征之间的高级交互作用，从而显著提高多模态学习的性能，并在多个任务上优于其他流行的多模态方案。
+
+    
+
+    特征对齐是融合多模态数据的主要方式。我们提出了一种特征对齐方法，可以完全融合多模态信息，通过在特征空间中交替移动和扩展来实现不同模态之间的一致表示。所提出的方法能够稳健地捕捉不同模态特征之间的高级交互作用，从而显著提高多模态学习的性能。我们还表明，所提出的方法在多个任务上优于其他流行的多模态方案。对ETT和MIT-BIH-Arrhythmia数据集的实验评估表明，所提出的方法达到了最先进的性能。
+
+    Feature alignment is the primary means of fusing multimodal data. We propose a feature alignment method that fully fuses multimodal information, which alternately shifts and expands feature information from different modalities to have a consistent representation in a feature space. The proposed method can robustly capture high-level interactions between features of different modalities, thus significantly improving the performance of multimodal learning. We also show that the proposed method outperforms other popular multimodal schemes on multiple tasks. Experimental evaluation of ETT and MIT-BIH-Arrhythmia, datasets shows that the proposed method achieves state of the art performance.
+    
+[^13]: 人工智能革命：农业食品系统的全面调查
+
+    Revolutionizing Agrifood Systems with Artificial Intelligence: A Survey. (arXiv:2305.01899v1 [cs.AI])
+
+    [http://arxiv.org/abs/2305.01899](http://arxiv.org/abs/2305.01899)
+
+    这篇论文探讨了人工智能技术在农业食品系统中的应用，重点关注了农业、畜牧业和渔业等领域。人工智能技术在农业食品分类、生长监测、产量预测和品质评估等方面表现出强大的能力，同时也提出了未来研究方向以及潜在的挑战和限制。
+
+    
+
+    随着全球人口的迅速增长，转变农业食品系统，使其更具生产力、效率、安全和可持续性，是缓解潜在粮食短缺的关键。最近，深度学习等人工智能技术在语言、视觉、遥感和农业食品系统应用等各个领域均显示出了其强大的能力。然而，人工智能对农业食品系统的整体影响仍不清楚。本文全面回顾了人工智能技术如何改变农业食品系统，并为现代农业食品行业做出贡献。首先，我们总结了农业食品系统中的数据获取方法，包括获取、存储和处理技术。其次，我们详细介绍了人工智能技术在农业、畜牧业和渔业等领域中的进展情况，涵盖了农业食品分类、生长监测、产量预测和品质评估等主题。此外，我们还提出了未来研究方向，并讨论了在农业食品系统应用人工智能技术中潜在的挑战和限制。
+
+    With the world population rapidly increasing, transforming our agrifood systems to be more productive, efficient, safe, and sustainable is crucial to mitigate potential food shortages. Recently, artificial intelligence (AI) techniques such as deep learning (DL) have demonstrated their strong abilities in various areas, including language, vision, remote sensing (RS), and agrifood systems applications. However, the overall impact of AI on agrifood systems remains unclear. In this paper, we thoroughly review how AI techniques can transform agrifood systems and contribute to the modern agrifood industry. Firstly, we summarize the data acquisition methods in agrifood systems, including acquisition, storage, and processing techniques. Secondly, we present a progress review of AI methods in agrifood systems, specifically in agriculture, animal husbandry, and fishery, covering topics such as agrifood classification, growth monitoring, yield prediction, and quality assessment. Furthermore, we 
+    
+[^14]: 贝叶斯矩阵分解及应用
+
+    Bayesian Matrix Decomposition and Applications. (arXiv:2302.11337v2 [math.NA] UPDATED)
+
+    [http://arxiv.org/abs/2302.11337](http://arxiv.org/abs/2302.11337)
+
+    本书旨在介绍贝叶斯矩阵分解的概念和工具，并总结了贝叶斯矩阵分解方法在不同领域的应用。
+
+    
+
+    本书的唯一目的是为了给出贝叶斯矩阵分解概念和数学工具的自包含介绍，以便在后续章节中无缝引入矩阵分解技术及其应用。然而，我们清楚地意识到我们无法覆盖关于贝叶斯矩阵分解的所有有用和有趣的结果，并且由于讨论的范围有限，例如分析变分推理以进行优化的分离分析。我们将读者引导到贝叶斯分析领域的文献中，以便更详细地介绍相关领域。本书主要总结了重要的贝叶斯矩阵分解方法（例如实值分解、非负矩阵分解、贝叶斯插值分解）的目的和意义，以及这些方法的起源和复杂性对其应用提供的启示。数学先决条件是第一门课程。
+
+    The sole aim of this book is to give a self-contained introduction to concepts and mathematical tools in Bayesian matrix decomposition in order to seamlessly introduce matrix decomposition techniques and their applications in subsequent sections. However, we clearly realize our inability to cover all the useful and interesting results concerning Bayesian matrix decomposition and given the paucity of scope to present this discussion, e.g., the separated analysis of variational inference for conducting the optimization. We refer the reader to literature in the field of Bayesian analysis for a more detailed introduction to the related fields.  This book is primarily a summary of purpose, significance of important Bayesian matrix decomposition methods, e.g., real-valued decomposition, nonnegative matrix factorization, Bayesian interpolative decomposition, and the origin and complexity of the methods which shed light on their applications. The mathematical prerequisite is a first course in 
     
 
