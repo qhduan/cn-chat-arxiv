@@ -2,29 +2,43 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [The 'Must Stock' Challenge in Academic Publishing: Pricing Implications of Transformative Agreements](https://arxiv.org/abs/2403.03597) | 转型协议如“发布和阅读”方案将为期刊出版商带来好处，无论其期刊中的发表数量增长还是下降，可能会提高新参与者的准入壁垞。 |
-| [^2] | [Does the Use of Unusual Combinations of Datasets Contribute to Greater Scientific Impact?](https://arxiv.org/abs/2402.05024) | 使用不寻常的数据集组合可以显著贡献于科学和更广泛的影响，并促进科学的进步。 |
-| [^3] | [Fourier Neural Network Approximation of Transition Densities in Finance.](http://arxiv.org/abs/2309.03966) | 本文提出了FourNet，一种使用高斯激活函数的单层神经网络，能够以任意精度逼近具有已知傅里叶变换的过渡密度，并通过严密的误差分析给出了估计误差和非负性损失的界限。 |
-| [^4] | [Proof-of-work consensus by quantum sampling.](http://arxiv.org/abs/2305.19865) | 本文提出了一种基于量子取样的工作量证明共识机制(CGBS-PoW)，采用Fock态和高斯波色子取样，具有巨大的加速和节能效益。 |
-| [^5] | [Axioms for Automated Market Makers: A Mathematical Framework in FinTech and Decentralized Finance.](http://arxiv.org/abs/2210.01227) | 本文提出了一个自动市场制造商（AMMs）的公理框架，通过对底层效用函数施加合理的公理，描述了资产互换规模和结果定价预测的特性，并定义了一种新的价格影响度量方法。分析表明，大多数现有的AMMs满足这些公理。此外，还提出了一种新的费用结构，使得AMM对交易拆分不敏感，并提出了一种具有良好分析特性并提供较大范围内无发散损失的新型AMM。 |
+| [^1] | [A Taxmans guide to taxation of crypto assets](https://arxiv.org/abs/2403.15074) | 本文探讨了加密资产的工作原理以及与税收问题相关联的内容 |
+| [^2] | [Quantum Amplitude Loading for Rainbow Options Pricing](https://arxiv.org/abs/2402.05574) | 本研究提出了一种新颖的方法，利用量子计算机为彩虹期权定价。我们通过延迟转换到定价空间来提高效率，同时分析了处理指数函数的两种幅度加载技术。实验证明了我们的量子定价模型，在量子金融领域做出了贡献。 |
+| [^3] | [Does the Use of Unusual Combinations of Datasets Contribute to Greater Scientific Impact?](https://arxiv.org/abs/2402.05024) | 使用不寻常的数据集组合可以显著贡献于科学和更广泛的影响，并促进科学的进步。 |
+| [^4] | [Incentivizing Data Sharing for Energy Forecasting: Analytics Markets with Correlated Data.](http://arxiv.org/abs/2310.06000) | 该论文开发了一个考虑相关性的分析市场，通过采用Shapley值的归因策略来分配收入，促进了数据共享以提高能源预测的准确性。 |
+| [^5] | [Why Are Immigrants Always Accused of Stealing People's Jobs?.](http://arxiv.org/abs/2303.13319) | 移民在一个配给职位的匹配模型中可能降低本地工人的就业率，但移民对本地福利的总体影响取决于劳动力市场的状态，当劳动力市场繁荣时，移民的影响可能是正面的。 |
 
 # 详细
 
-[^1]: 学术出版中的“必备存货”挑战：转型协议的定价影响
+[^1]: 税务人员的加密资产税收指南
 
-    The 'Must Stock' Challenge in Academic Publishing: Pricing Implications of Transformative Agreements
+    A Taxmans guide to taxation of crypto assets
 
-    [https://arxiv.org/abs/2403.03597](https://arxiv.org/abs/2403.03597)
+    [https://arxiv.org/abs/2403.15074](https://arxiv.org/abs/2403.15074)
 
-    转型协议如“发布和阅读”方案将为期刊出版商带来好处，无论其期刊中的发表数量增长还是下降，可能会提高新参与者的准入壁垞。
+    本文探讨了加密资产的工作原理以及与税收问题相关联的内容
 
     
 
-    顶尖学术期刊的高度相关性使它们成为“必备存货”产品，赋予其通常是商业所有者的非凡市场力量。 为了解决这个问题，全球各地的大学联盟与许多出版社谈判所谓的“转型协议”。 这将为标准开放获取出版打开道路。 尽管存在几种合同设计，但“发布和阅读”（PAR）方案是最接近完全开放获取环境理想的方案：出版商会为每篇发表支付固定的按案例收费，其中包括对其丰富的图书馆收费。 反过来，所有订阅费用都将被免除。 我从理论上推导出，无论这些出版商的期刊中的发表数量增长还是下降，这种合同设计都有利于包括的出版商。 因此，广泛使用PAR合同很可能会提高新参与者的准入壁垒。
+    金融系统见证了迅速的技术变革。比特币和其他基于分布式账本技术的加密资产的兴起标志着人们在跨越地理位置的去中心化网络上进行交易和传输价值的方式发生了根本性改变。这已经在监管和税收政策上产生了盲点，因为政府和税收管理机构需要时间了解并对这种创新、革命性和快节奏的技术提供政策响应。由于区块链技术创新的迅猛速度以及去中心化金融、去中心化自治组织和元宇宙的出现，监管当局或税收管理机构的政策干预和指导不太可能赶上或与创新的速度同步。本文试图解释加密资产的工作原理、它们的基础技术并将其与税务问题联系起来。
 
-    arXiv:2403.03597v1 Announce Type: new  Abstract: The high relevance of top-notch academic journals turns them into 'must stock' products that assign its often commercial owners with extraordinary market power. Intended to tackle this, university consortia around the globe negotiate so-called 'transformative agreements' with many publishing houses. It shall pave the way towards standard open-access publishing. While several contract designs exist, the 'publish-and-read' (PAR) scheme is the one that comes closest to the ideal of an entirely open access environment: Publishers are paid a fixed case-by-case rate for each publication, which includes a fee for their extensive libraries. In turn, all subscription payments are waived. I theoretically derive that this contract design benefits the included publishers regardless of whether the number of publications in these publishers' journals grows or declines. Consequently, widespread PAR contracts are likely to raise entry barriers for new (
+    arXiv:2403.15074v1 Announce Type: new  Abstract: The Financial system has witnessed rapid technological changes. The rise of Bitcoin and other crypto assets based on Distributed Ledger Technology mark a fundamental change in the way people transact and transmit value over a decentralized network, spread across geographies. This has created regulatory and tax policy blind spots, as governments and tax administrations take time to understand and provide policy responses to this innovative, revolutionary, and fast-paced technology. Due to the breakneck speed of innovation in blockchain technology and advent of Decentralized Finance, Decentralized Autonomous Organizations and the Metaverse, it is unlikely that the policy interventions and guidance by regulatory authorities or tax administrations would be ahead or in sync with the pace of innovation. This paper tries to explain the principles on which crypto assets function, their underlying technology and relates them to the tax issues and
     
-[^2]: 使用不寻常的数据集组合是否有助于更大的科学影响力？
+[^2]: 彩虹期权定价的量子幅度加载
+
+    Quantum Amplitude Loading for Rainbow Options Pricing
+
+    [https://arxiv.org/abs/2402.05574](https://arxiv.org/abs/2402.05574)
+
+    本研究提出了一种新颖的方法，利用量子计算机为彩虹期权定价。我们通过延迟转换到定价空间来提高效率，同时分析了处理指数函数的两种幅度加载技术。实验证明了我们的量子定价模型，在量子金融领域做出了贡献。
+
+    
+
+    本工作介绍了一种新颖的方法，利用量子计算机为彩虹期权定价，这是一种与路径无关的多资产衍生品。利用迭代量子幅度估计方法，我们提出了一个端到端的量子电路实现，强调通过延迟转换到定价空间来提高效率。此外，我们分析了两种处理指数函数的幅度加载技术。在IBM QASM模拟器上进行的实验证明了我们的量子定价模型，为量子金融领域的发展做出了贡献。
+
+    This work introduces a novel approach to price rainbow options, a type of path-independent multi-asset derivatives, with quantum computers. Leveraging the Iterative Quantum Amplitude Estimation method, we present an end-to-end quantum circuit implementation, emphasizing efficiency by delaying the transition to price space. Moreover, we analyze two different amplitude loading techniques for handling exponential functions. Experiments on the IBM QASM simulator validate our quantum pricing model, contributing to the evolving field of quantum finance.
+    
+[^3]: 使用不寻常的数据集组合是否有助于更大的科学影响力？
 
     Does the Use of Unusual Combinations of Datasets Contribute to Greater Scientific Impact?
 
@@ -38,46 +52,32 @@
 
     Scientific datasets play a crucial role in contemporary data-driven research, as they allow for the progress of science by facilitating the discovery of new patterns and phenomena. This mounting demand for empirical research raises important questions on how strategic data utilization in research projects can stimulate scientific advancement. In this study, we examine the hypothesis inspired by the recombination theory, which suggests that innovative combinations of existing knowledge, including the use of unusual combinations of datasets, can lead to high-impact discoveries. We investigate the scientific outcomes of such atypical data combinations in more than 30,000 publications that leverage over 6,000 datasets curated within one of the largest social science databases, ICPSR. This study offers four important insights. First, combining datasets, particularly those infrequently paired, significantly contributes to both scientific and broader impacts (e.g., dissemination to the genera
     
-[^3]: 金融中傅里叶神经网络逼近过渡密度
+[^4]: 鼓励数据共享以进行能源预测：具有相关数据的分析市场
 
-    Fourier Neural Network Approximation of Transition Densities in Finance. (arXiv:2309.03966v1 [q-fin.CP])
+    Incentivizing Data Sharing for Energy Forecasting: Analytics Markets with Correlated Data. (arXiv:2310.06000v1 [econ.GN])
 
-    [http://arxiv.org/abs/2309.03966](http://arxiv.org/abs/2309.03966)
+    [http://arxiv.org/abs/2310.06000](http://arxiv.org/abs/2310.06000)
 
-    本文提出了FourNet，一种使用高斯激活函数的单层神经网络，能够以任意精度逼近具有已知傅里叶变换的过渡密度，并通过严密的误差分析给出了估计误差和非负性损失的界限。
-
-    
-
-    本文引入了FourNet，一种新颖的单层前馈神经网络（FFNN）方法，用于逼近具有封闭形式的傅里叶变换（即特征函数）可用的过渡密度。FourNet的一个独特特点在于它使用了高斯激活函数，使得精确的傅里叶和逆傅里叶变换成为可能，并与高斯混合模型进行类比。我们从数学上证明了FourNet能够以任意精度逼近过渡密度，并仅使用有限数量的神经元。FourNet的参数通过最小化基于已知特征函数和FFNN的傅里叶变换的损失函数来学习，同时采用了策略性采样方法来增强训练。通过严密而全面的误差分析，我们推导出了$L_2$估计误差和估计密度中非负性的潜在（逐点）损失的信息界限。
-
-    This paper introduces FourNet, a novel single-layer feed-forward neural network (FFNN) method designed to approximate transition densities for which closed-form expressions of their Fourier transforms, i.e. characteristic functions, are available. A unique feature of FourNet lies in its use of a Gaussian activation function, enabling exact Fourier and inverse Fourier transformations and drawing analogies with the Gaussian mixture model. We mathematically establish FourNet's capacity to approximate transition densities in the $L_2$-sense arbitrarily well with finite number of neurons. The parameters of FourNet are learned by minimizing a loss function derived from the known characteristic function and the Fourier transform of the FFNN, complemented by a strategic sampling approach to enhance training. Through a rigorous and comprehensive error analysis, we derive informative bounds for the $L_2$ estimation error and the potential (pointwise) loss of nonnegativity in the estimated densit
-    
-[^4]: 量子取样的工作量证明共识机制
-
-    Proof-of-work consensus by quantum sampling. (arXiv:2305.19865v1 [quant-ph])
-
-    [http://arxiv.org/abs/2305.19865](http://arxiv.org/abs/2305.19865)
-
-    本文提出了一种基于量子取样的工作量证明共识机制(CGBS-PoW)，采用Fock态和高斯波色子取样，具有巨大的加速和节能效益。
+    该论文开发了一个考虑相关性的分析市场，通过采用Shapley值的归因策略来分配收入，促进了数据共享以提高能源预测的准确性。
 
     
 
-    自其2011年出现以来，波色子取样因其相对于其他量子算法的简单性和近期要求而成为展示量子优势的优选候选。本文提出将一种变种——粗粒度波色子取样(CGBS)——作为区块链共识的量子工作量证明(PoW)机制。用户使用依赖于当前块信息的输入状态进行波色子取样，并将其提交到网络中。然后确定可用于验证样本和奖励成功矿工的CGBS策略。通过将向提交诚实样本的矿工提供奖励并对提交不诚实样本的矿工进行惩罚的组合，找到了一个激励诚实节点的纳什均衡。该方案适用于Fock态波色子取样和高斯波色子取样，并相对于使用经典硬件进行计算提供了巨大的加速和节能效益。
+    准确地预测不确定的电力产量对于电力市场的社会福利具有益处，可以减少平衡资源的需求。将这种预测描述为一项分析任务，当前文献提出了以分析市场作为激励手段来改善精度的数据共享方法，例如利用时空相关性。挑战在于，当相关数据用作预测的输入特征时，重叠信息的价值在于收入分配方面使市场设计复杂化，因为这种价值在本质上是组合的。我们为风力预测应用开发了一个考虑相关性的分析市场。为了分配收入，我们采用了基于Shapley值的归因策略，将代理人的特征视为玩家，将他们的相互作用视为一个特征函数博弈。我们说明了描述这种博弈的多种选项，每个选项都有因果细微差别，影响着特征相关时的市场行为。
 
-    Since its advent in 2011, boson-sampling has been a preferred candidate for demonstrating quantum advantage because of its simplicity and near-term requirements compared to other quantum algorithms. We propose to use a variant, called coarse-grained boson-sampling (CGBS), as a quantum Proof-of-Work (PoW) scheme for blockchain consensus. The users perform boson-sampling using input states that depend on the current block information, and commit their samples to the network. Afterward, CGBS strategies are determined which can be used to both validate samples and to reward successful miners. By combining rewards to miners committing honest samples together with penalties to miners committing dishonest samples, a Nash equilibrium is found that incentivizes honest nodes. The scheme works for both Fock state boson sampling and Gaussian boson sampling and provides dramatic speedup and energy savings relative to computation by classical hardware.
+    Reliably forecasting uncertain power production is beneficial for the social welfare of electricity markets by reducing the need for balancing resources. Describing such forecasting as an analytics task, the current literature proposes analytics markets as an incentive for data sharing to improve accuracy, for instance by leveraging spatio-temporal correlations. The challenge is that, when used as input features for forecasting, correlated data complicates the market design with respect to the revenue allocation, as the value of overlapping information is inherently combinatorial. We develop a correlation-aware analytics market for a wind power forecasting application. To allocate revenue, we adopt a Shapley value-based attribution policy, framing the features of agents as players and their interactions as a characteristic function game. We illustrate that there are multiple options to describe such a game, each having causal nuances that influence market behavior when features are cor
     
-[^5]: 自动市场制造商的公理：金融科技和去中心化金融领域的数学框架
+[^5]: 为什么移民总被指责窃取人们的工作?
 
-    Axioms for Automated Market Makers: A Mathematical Framework in FinTech and Decentralized Finance. (arXiv:2210.01227v2 [q-fin.MF] UPDATED)
+    Why Are Immigrants Always Accused of Stealing People's Jobs?. (arXiv:2303.13319v1 [econ.GN])
 
-    [http://arxiv.org/abs/2210.01227](http://arxiv.org/abs/2210.01227)
+    [http://arxiv.org/abs/2303.13319](http://arxiv.org/abs/2303.13319)
 
-    本文提出了一个自动市场制造商（AMMs）的公理框架，通过对底层效用函数施加合理的公理，描述了资产互换规模和结果定价预测的特性，并定义了一种新的价格影响度量方法。分析表明，大多数现有的AMMs满足这些公理。此外，还提出了一种新的费用结构，使得AMM对交易拆分不敏感，并提出了一种具有良好分析特性并提供较大范围内无发散损失的新型AMM。
+    移民在一个配给职位的匹配模型中可能降低本地工人的就业率，但移民对本地福利的总体影响取决于劳动力市场的状态，当劳动力市场繁荣时，移民的影响可能是正面的。
 
     
 
-    在这项工作中，我们考虑了自动市场制造商（AMMs）的公理框架。通过对底层效用函数施加合理的公理，我们能够描述资产互换的规模和结果定价预测的特性。通过提供这些通用的AMM公理，我们定义了一种新的价格影响度量方法，可以用来量化不同构造之间的成本。我们分析了许多现有的AMMs，并证明了其中大多数满足我们的公理。我们还考虑了费用和发散损失的问题。在此过程中，我们提出了一种新的费用结构，使得AMM对交易拆分不敏感。最后，我们提出了一种具有良好分析特性并提供较大范围内无发散损失的新型AMM。
+    移民总是被指责窃取人们的工作。然而，在劳动力市场的新古典模型中，每个人都有工作可做，也没有工作可被窃取（没有失业，因此想工作的人都可以工作）。在标准匹配模型中，存在一些失业，但由于劳动力需求完全弹性，因此新进入劳动力市场的人被吸收时不会影响求职者的前景。再次说明，当移民到达时没有工作会被窃取。本文显示，在一个具有就业配给的匹配模型中，移民的进入会降低本地工人的就业率。此外，当劳动力市场不景气时，就业率的降幅更大，因为那时工作更加稀缺。因为移民降低了劳动力市场的紧张程度，使得公司更容易招聘，并改善公司利润。移民对本地福利的总体影响取决于劳动力市场的状态。当劳动力市场出现衰退时总体影响始终是负面的，并且当劳动力市场繁荣时可能是正面的。
 
-    Within this work we consider an axiomatic framework for Automated Market Makers (AMMs). By imposing reasonable axioms on the underlying utility function, we are able to characterize the properties of the swap size of the assets and of the resulting pricing oracle. In providing these general AMM axioms, we define a novel measure of price impacts that can be used to quantify those costs between different constructions. We have analyzed many existing AMMs and shown that the vast majority of them satisfy our axioms. We have also considered the question of fees and divergence loss. In doing so, we have proposed a new fee structure so as to make the AMM indifferent to transaction splitting. Finally, we have proposed a novel AMM that has nice analytical properties and provides a large range over which there is no divergence loss.
+    Immigrants are always accused of stealing people's jobs. Yet, in a neoclassical model of the labor market, there are jobs for everybody and no jobs to steal. (There is no unemployment, so anybody who wants to work can work.) In standard matching models, there is some unemployment, but labor demand is perfectly elastic so new entrants into the labor force are absorbed without affecting jobseekers' prospects. Once again, no jobs are stolen when immigrants arrive. This paper shows that in a matching model with job rationing, in contrast, the entry of immigrants reduces the employment rate of native workers. Moreover, the reduction in employment rate is sharper when the labor market is depressed -- because jobs are more scarce then. Because immigration reduces labor-market tightness, it makes it easier for firms to recruit and improves firm profits. The overall effect of immigration on native welfare depends on the state of the labor market. It is always negative when the labor market is i
     
 

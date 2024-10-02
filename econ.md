@@ -2,29 +2,58 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [The 'Must Stock' Challenge in Academic Publishing: Pricing Implications of Transformative Agreements](https://arxiv.org/abs/2403.03597) | 转型协议如“发布和阅读”方案将为期刊出版商带来好处，无论其期刊中的发表数量增长还是下降，可能会提高新参与者的准入壁垞。 |
-| [^2] | [Does the Use of Unusual Combinations of Datasets Contribute to Greater Scientific Impact?](https://arxiv.org/abs/2402.05024) | 使用不寻常的数据集组合可以显著贡献于科学和更广泛的影响，并促进科学的进步。 |
-| [^3] | [Regulation of Algorithmic Collusion.](http://arxiv.org/abs/2401.15794) | 本文提供了算法定价中的算法合谋监管的定义，允许监管机构通过对数据的统计测试来审计算法，良好算法通过增加数据来通过审计，而达到高于竞争价格的算法则无法通过审计。 |
-| [^4] | [GARHCX-NoVaS: A Model-free Approach to Incorporate Exogenous Variables.](http://arxiv.org/abs/2308.13346) | 这项工作探索了一种无模型方法GARHCX-NoVaS，将外生变量引入预测过程，提高市场波动率的预测准确性。模拟研究证实了NoVaS的优越性。 |
-| [^5] | [Balanced Donor Coordination.](http://arxiv.org/abs/2305.10286) | 这篇论文提出了一种既尊重个人意愿又高效的捐赠机制，通过以高效的方式分配每个捐赠者的贡献，没有任何捐助人有动机重新分配他们的捐款。 |
+| [^1] | [Incentive-Compatible Vertiport Reservation in Advanced Air Mobility: An Auction-Based Approach](https://arxiv.org/abs/2403.18166) | 本论文提出了一种激励兼容且个体理性的vertiport预订机制，旨在协调多个运营商操作的电动垂直起降（eVTOL）飞行器在vertiports之间移动，最大化所有运营商的总估值同时最小化vertiports的拥堵。 |
+| [^2] | [On the Redistribution of Maximal Extractable Value: A Dynamic Mechanism](https://arxiv.org/abs/2402.15849) | 该论文提出了一个动态机制，通过更新最大可提取价值（MEV）提取率，以在矿工和用户之间维持健康平衡。 |
+| [^3] | [Functional Spatial Autoregressive Models](https://arxiv.org/abs/2402.14763) | 介绍了一种新颖的功能性空间自回归模型，提出了确保数据实现唯一性的条件，并提出了一种用于功能参数的正则化两阶段最小二乘估计器，以解决内生性问题，同时还提出了一种用于检测空间效应的简单Wald类型检验 |
+| [^4] | [Does the Use of Unusual Combinations of Datasets Contribute to Greater Scientific Impact?](https://arxiv.org/abs/2402.05024) | 使用不寻常的数据集组合可以显著贡献于科学和更广泛的影响，并促进科学的进步。 |
+| [^5] | [Incentivizing Data Sharing for Energy Forecasting: Analytics Markets with Correlated Data.](http://arxiv.org/abs/2310.06000) | 该论文开发了一个考虑相关性的分析市场，通过采用Shapley值的归因策略来分配收入，促进了数据共享以提高能源预测的准确性。 |
+| [^6] | [Why Are Immigrants Always Accused of Stealing People's Jobs?.](http://arxiv.org/abs/2303.13319) | 移民在一个配给职位的匹配模型中可能降低本地工人的就业率，但移民对本地福利的总体影响取决于劳动力市场的状态，当劳动力市场繁荣时，移民的影响可能是正面的。 |
 
 # 详细
 
-[^1]: 学术出版中的“必备存货”挑战：转型协议的定价影响
+[^1]: 具有激励兼容性的先进空中移动中的Vertiport预订：基于拍卖的方法
 
-    The 'Must Stock' Challenge in Academic Publishing: Pricing Implications of Transformative Agreements
+    Incentive-Compatible Vertiport Reservation in Advanced Air Mobility: An Auction-Based Approach
 
-    [https://arxiv.org/abs/2403.03597](https://arxiv.org/abs/2403.03597)
+    [https://arxiv.org/abs/2403.18166](https://arxiv.org/abs/2403.18166)
 
-    转型协议如“发布和阅读”方案将为期刊出版商带来好处，无论其期刊中的发表数量增长还是下降，可能会提高新参与者的准入壁垞。
+    本论文提出了一种激励兼容且个体理性的vertiport预订机制，旨在协调多个运营商操作的电动垂直起降（eVTOL）飞行器在vertiports之间移动，最大化所有运营商的总估值同时最小化vertiports的拥堵。
 
     
 
-    顶尖学术期刊的高度相关性使它们成为“必备存货”产品，赋予其通常是商业所有者的非凡市场力量。 为了解决这个问题，全球各地的大学联盟与许多出版社谈判所谓的“转型协议”。 这将为标准开放获取出版打开道路。 尽管存在几种合同设计，但“发布和阅读”（PAR）方案是最接近完全开放获取环境理想的方案：出版商会为每篇发表支付固定的按案例收费，其中包括对其丰富的图书馆收费。 反过来，所有订阅费用都将被免除。 我从理论上推导出，无论这些出版商的期刊中的发表数量增长还是下降，这种合同设计都有利于包括的出版商。 因此，广泛使用PAR合同很可能会提高新参与者的准入壁垒。
+    预计未来先进空中移动（AAM）的崛起将成为一个数十亿美元的产业。市场机制被认为是AAM运营的一个重要组成部分，其中包括具有私人估值的异构运营商。本文研究了设计一种机制来协调由多个具有与其机群关联的异构估值的运营商操作的电动垂直起降（eVTOL）飞行器在vertiports之间移动的问题，同时强制执行vertiports的到达、离开和停车约束。特别是，我们提出了一种激励兼容且个体理性的vertiport预订机制，该机制最大化了一个社会福利度量标准，从而包括最大化所有运营商的总估值同时最小化vertiports的拥堵。此外，我们提高了设计这一机制的计算可处理性
 
-    arXiv:2403.03597v1 Announce Type: new  Abstract: The high relevance of top-notch academic journals turns them into 'must stock' products that assign its often commercial owners with extraordinary market power. Intended to tackle this, university consortia around the globe negotiate so-called 'transformative agreements' with many publishing houses. It shall pave the way towards standard open-access publishing. While several contract designs exist, the 'publish-and-read' (PAR) scheme is the one that comes closest to the ideal of an entirely open access environment: Publishers are paid a fixed case-by-case rate for each publication, which includes a fee for their extensive libraries. In turn, all subscription payments are waived. I theoretically derive that this contract design benefits the included publishers regardless of whether the number of publications in these publishers' journals grows or declines. Consequently, widespread PAR contracts are likely to raise entry barriers for new (
+    arXiv:2403.18166v1 Announce Type: cross  Abstract: The rise of advanced air mobility (AAM) is expected to become a multibillion-dollar industry in the near future. Market-based mechanisms are touted to be an integral part of AAM operations, which comprise heterogeneous operators with private valuations. In this work, we study the problem of designing a mechanism to coordinate the movement of electric vertical take-off and landing (eVTOL) aircraft, operated by multiple operators each having heterogeneous valuations associated with their fleet, between vertiports, while enforcing the arrival, departure, and parking constraints at vertiports. Particularly, we propose an incentive-compatible and individually rational vertiport reservation mechanism that maximizes a social welfare metric, which encapsulates the objective of maximizing the overall valuations of all operators while minimizing the congestion at vertiports. Additionally, we improve the computational tractability of designing th
     
-[^2]: 使用不寻常的数据集组合是否有助于更大的科学影响力？
+[^2]: 关于最大可提取价值再分配的动态机制
+
+    On the Redistribution of Maximal Extractable Value: A Dynamic Mechanism
+
+    [https://arxiv.org/abs/2402.15849](https://arxiv.org/abs/2402.15849)
+
+    该论文提出了一个动态机制，通过更新最大可提取价值（MEV）提取率，以在矿工和用户之间维持健康平衡。
+
+    
+
+    最大可提取价值（MEV）已经成为区块链系统设计领域的一个新前沿。去中心化和金融的结合赋予了区块生产者（即矿工）不仅选择和添加交易到区块链的权力，更重要的是，还可以对其进行排序，以尽可能多地从中获利。虽然这种价格对于区块生产者提供的服务来说可能是不可避免的，但链上用户从长远来看可能更愿意使用不那么掠夺性的系统。本文提出将MEV提取率纳入协议设计空间中。我们的目标是利用此参数来维持矿工（需要得到补偿）和用户（需要感到被鼓励进行交易）之间的健康平衡。受EIP-1559引入的交易费原则的启发，我们设计了一个动态机制，旨在通过更新MEV提取率来达到稳定目标。
+
+    arXiv:2402.15849v1 Announce Type: cross  Abstract: Maximal Extractable Value (MEV) has emerged as a new frontier in the design of blockchain systems. The marriage between decentralization and finance gives the power to block producers (a.k.a., miners) not only to select and add transactions to the blockchain but, crucially, also to order them so as to extract as much financial gain as possible for themselves. Whilst this price may be unavoidable for the service provided by block producers, users of the chain may in the long run prefer to use less predatory systems. In this paper, we propose to make the MEV extraction rate part of the protocol design space. Our aim is to leverage this parameter to maintain a healthy balance between miners (who need to be compensated) and users (who need to feel encouraged to transact). Inspired by the principles introduced by EIP-1559 for transaction fees, we design a dynamic mechanism which updates the MEV extraction rate with the goal of stabilizing i
+    
+[^3]: 功能性空间自回归模型
+
+    Functional Spatial Autoregressive Models
+
+    [https://arxiv.org/abs/2402.14763](https://arxiv.org/abs/2402.14763)
+
+    介绍了一种新颖的功能性空间自回归模型，提出了确保数据实现唯一性的条件，并提出了一种用于功能参数的正则化两阶段最小二乘估计器，以解决内生性问题，同时还提出了一种用于检测空间效应的简单Wald类型检验
+
+    
+
+    这项研究介绍了一种新颖的空间自回归模型，其中因变量是可能显示与附近单位的结果函数存在功能自相关性的函数。这种模型可以被描述为一个同时的积分方程系统，通常情况下并没有唯一解。针对这个问题，我们提出了一个简单的空间交互作用量大小的条件，以确保数据实现的唯一性。为了估计，为了考虑由空间相互作用引起的内生性，我们提出了一个基于基函数逼近的正则化两阶段最小二乘估计量。估计量的渐近性质，包括一致性和渐近正态性，在一定条件下进行了研究。此外，我们提出了一种简单的Wald类型检验，用于检测空间效应的存在。作为实证示例，我们应用了prop。
+
+    arXiv:2402.14763v1 Announce Type: new  Abstract: This study introduces a novel spatial autoregressive model in which the dependent variable is a function that may exhibit functional autocorrelation with the outcome functions of nearby units. This model can be characterized as a simultaneous integral equation system, which, in general, does not necessarily have a unique solution. For this issue, we provide a simple condition on the magnitude of the spatial interaction to ensure the uniqueness in data realization. For estimation, to account for the endogeneity caused by the spatial interaction, we propose a regularized two-stage least squares estimator based on a basis approximation for the functional parameter. The asymptotic properties of the estimator including the consistency and asymptotic normality are investigated under certain conditions. Additionally, we propose a simple Wald-type test for detecting the presence of spatial effects. As an empirical illustration, we apply the prop
+    
+[^4]: 使用不寻常的数据集组合是否有助于更大的科学影响力？
 
     Does the Use of Unusual Combinations of Datasets Contribute to Greater Scientific Impact?
 
@@ -38,46 +67,32 @@
 
     Scientific datasets play a crucial role in contemporary data-driven research, as they allow for the progress of science by facilitating the discovery of new patterns and phenomena. This mounting demand for empirical research raises important questions on how strategic data utilization in research projects can stimulate scientific advancement. In this study, we examine the hypothesis inspired by the recombination theory, which suggests that innovative combinations of existing knowledge, including the use of unusual combinations of datasets, can lead to high-impact discoveries. We investigate the scientific outcomes of such atypical data combinations in more than 30,000 publications that leverage over 6,000 datasets curated within one of the largest social science databases, ICPSR. This study offers four important insights. First, combining datasets, particularly those infrequently paired, significantly contributes to both scientific and broader impacts (e.g., dissemination to the genera
     
-[^3]: 算法定价中的算法合谋监管
+[^5]: 鼓励数据共享以进行能源预测：具有相关数据的分析市场
 
-    Regulation of Algorithmic Collusion. (arXiv:2401.15794v1 [cs.GT])
+    Incentivizing Data Sharing for Energy Forecasting: Analytics Markets with Correlated Data. (arXiv:2310.06000v1 [econ.GN])
 
-    [http://arxiv.org/abs/2401.15794](http://arxiv.org/abs/2401.15794)
+    [http://arxiv.org/abs/2310.06000](http://arxiv.org/abs/2310.06000)
 
-    本文提供了算法定价中的算法合谋监管的定义，允许监管机构通过对数据的统计测试来审计算法，良好算法通过增加数据来通过审计，而达到高于竞争价格的算法则无法通过审计。
-
-    
-
-    考虑到在竞争市场中，卖方使用算法根据他们收集到的数据调整价格。在这种情况下，算法可能得出高于竞争价格的价格，从而使卖方受益，而损害消费者（即市场中的买方）。本文为定价算法提供了合理的算法非合谋的定义。该定义允许监管机构通过对所收集数据的统计测试来对算法进行实证审计。良好的算法，即在市场条件下近似优化价格的算法，可以通过增加足够数据来通过审计。相反，达到高于竞争价格的算法无法通过审计。该定义允许卖方拥有与供需相互关联且可能影响良好算法所使用的价格的有用辅助信息。本文还分析了统计互补性。
-
-    Consider sellers in a competitive market that use algorithms to adapt their prices from data that they collect. In such a context it is plausible that algorithms could arrive at prices that are higher than the competitive prices and this may benefit sellers at the expense of consumers (i.e., the buyers in the market). This paper gives a definition of plausible algorithmic non-collusion for pricing algorithms. The definition allows a regulator to empirically audit algorithms by applying a statistical test to the data that they collect. Algorithms that are good, i.e., approximately optimize prices to market conditions, can be augmented to contain the data sufficient to pass the audit. Algorithms that have colluded on, e.g., supra-competitive prices cannot pass the audit. The definition allows sellers to possess useful side information that may be correlated with supply and demand and could affect the prices used by good algorithms. The paper provides an analysis of the statistical comple
-    
-[^4]: GARHCX-NoVaS：一种无模型方法用于引入外生变量
-
-    GARHCX-NoVaS: A Model-free Approach to Incorporate Exogenous Variables. (arXiv:2308.13346v1 [econ.EM])
-
-    [http://arxiv.org/abs/2308.13346](http://arxiv.org/abs/2308.13346)
-
-    这项工作探索了一种无模型方法GARHCX-NoVaS，将外生变量引入预测过程，提高市场波动率的预测准确性。模拟研究证实了NoVaS的优越性。
+    该论文开发了一个考虑相关性的分析市场，通过采用Shapley值的归因策略来分配收入，促进了数据共享以提高能源预测的准确性。
 
     
 
-    在这项工作中，我们进一步探讨了最近提出的正态化和方差稳定（NoVaS）转化在包含外生变量后的预测能力。在实践中，尤其是在金融计量经济学领域，如果将基本面和情绪等额外知识纳入预测过程中，可能有助于提高市场波动率的预测准确性。在经典方法中，人们通常应用GARCHX型方法来包括外生变量。作为一种无模型预测方法，已经证明NoVaS比经典的GARCHX型方法更准确、更稳定。我们关注的是在考虑外生协变量后，新颖的NoVaS方法是否仍然保持其优势。我们提供了基于GARCHX模型的NoVaS转换，并声明了包含外生变量的相应预测过程。同时，模拟研究验证了NoVaS的性能。
+    准确地预测不确定的电力产量对于电力市场的社会福利具有益处，可以减少平衡资源的需求。将这种预测描述为一项分析任务，当前文献提出了以分析市场作为激励手段来改善精度的数据共享方法，例如利用时空相关性。挑战在于，当相关数据用作预测的输入特征时，重叠信息的价值在于收入分配方面使市场设计复杂化，因为这种价值在本质上是组合的。我们为风力预测应用开发了一个考虑相关性的分析市场。为了分配收入，我们采用了基于Shapley值的归因策略，将代理人的特征视为玩家，将他们的相互作用视为一个特征函数博弈。我们说明了描述这种博弈的多种选项，每个选项都有因果细微差别，影响着特征相关时的市场行为。
 
-    In this work, we further explore the forecasting ability of a recently proposed normalizing and variance-stabilizing (NoVaS) transformation after wrapping exogenous variables. In practice, especially in the area of financial econometrics, extra knowledge such as fundamentals- and sentiments-based information could be beneficial to improve the prediction accuracy of market volatility if they are incorporated into the forecasting process. In a classical approach, people usually apply GARCHX-type methods to include the exogenous variables. Being a Model-free prediction method, NoVaS has been shown to be more accurate and stable than classical GARCH-type methods. We are interested in whether the novel NoVaS method can also sustain its superiority after exogenous covariates are taken into account. We provide the NoVaS transformation based on GARCHX model and then claim the corresponding prediction procedure with exogenous variables existing. Also, simulation studies verify that the NoVaS me
+    Reliably forecasting uncertain power production is beneficial for the social welfare of electricity markets by reducing the need for balancing resources. Describing such forecasting as an analytics task, the current literature proposes analytics markets as an incentive for data sharing to improve accuracy, for instance by leveraging spatio-temporal correlations. The challenge is that, when used as input features for forecasting, correlated data complicates the market design with respect to the revenue allocation, as the value of overlapping information is inherently combinatorial. We develop a correlation-aware analytics market for a wind power forecasting application. To allocate revenue, we adopt a Shapley value-based attribution policy, framing the features of agents as players and their interactions as a characteristic function game. We illustrate that there are multiple options to describe such a game, each having causal nuances that influence market behavior when features are cor
     
-[^5]: 平衡捐赠者协调
+[^6]: 为什么移民总被指责窃取人们的工作?
 
-    Balanced Donor Coordination. (arXiv:2305.10286v1 [econ.TH])
+    Why Are Immigrants Always Accused of Stealing People's Jobs?. (arXiv:2303.13319v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.10286](http://arxiv.org/abs/2305.10286)
+    [http://arxiv.org/abs/2303.13319](http://arxiv.org/abs/2303.13319)
 
-    这篇论文提出了一种既尊重个人意愿又高效的捐赠机制，通过以高效的方式分配每个捐赠者的贡献，没有任何捐助人有动机重新分配他们的捐款。
+    移民在一个配给职位的匹配模型中可能降低本地工人的就业率，但移民对本地福利的总体影响取决于劳动力市场的状态，当劳动力市场繁荣时，移民的影响可能是正面的。
 
     
 
-    慈善通常由个人捐赠者或中央组织（如政府或市政机构）进行，他们收集个人捐款并将它们分配给一组慈善机构。一方面，个人慈善尊重捐赠者的意愿，但由于缺乏协调而可能效率低下。另一方面，集中慈善可能更有效，但可能忽略个人捐赠者的意愿。我们提出了一种机制，它结合了两种方法的优点，通过以高效的方式分配每个捐赠者的贡献，没有任何捐助人有动机重新分配他们的捐款。在假设Leontief效用函数（即每个捐赠者均希望最大化所有慈善机构的最小贡献的个人加权之和）的情况下，我们的机制是组策略正确、偏好单调、贡献单调、最大化纳什福利并可以计算。
+    移民总是被指责窃取人们的工作。然而，在劳动力市场的新古典模型中，每个人都有工作可做，也没有工作可被窃取（没有失业，因此想工作的人都可以工作）。在标准匹配模型中，存在一些失业，但由于劳动力需求完全弹性，因此新进入劳动力市场的人被吸收时不会影响求职者的前景。再次说明，当移民到达时没有工作会被窃取。本文显示，在一个具有就业配给的匹配模型中，移民的进入会降低本地工人的就业率。此外，当劳动力市场不景气时，就业率的降幅更大，因为那时工作更加稀缺。因为移民降低了劳动力市场的紧张程度，使得公司更容易招聘，并改善公司利润。移民对本地福利的总体影响取决于劳动力市场的状态。当劳动力市场出现衰退时总体影响始终是负面的，并且当劳动力市场繁荣时可能是正面的。
 
-    Charity is typically done either by individual donors, who donate money to the charities that they support, or by centralized organizations such as governments or municipalities, which collect the individual contributions and distribute them among a set of charities. On the one hand, individual charity respects the will of the donors but may be inefficient due to a lack of coordination. On the other hand, centralized charity is potentially more efficient but may ignore the will of individual donors. We present a mechanism that combines the advantages of both methods by distributing the contribution of each donor in an efficient way such that no subset of donors has an incentive to redistribute their donations. Assuming Leontief utilities (i.e., each donor is interested in maximizing an individually weighted minimum of all contributions across the charities), our mechanism is group-strategyproof, preference-monotonic, contribution-monotonic, maximizes Nash welfare, and can be computed u
+    Immigrants are always accused of stealing people's jobs. Yet, in a neoclassical model of the labor market, there are jobs for everybody and no jobs to steal. (There is no unemployment, so anybody who wants to work can work.) In standard matching models, there is some unemployment, but labor demand is perfectly elastic so new entrants into the labor force are absorbed without affecting jobseekers' prospects. Once again, no jobs are stolen when immigrants arrive. This paper shows that in a matching model with job rationing, in contrast, the entry of immigrants reduces the employment rate of native workers. Moreover, the reduction in employment rate is sharper when the labor market is depressed -- because jobs are more scarce then. Because immigration reduces labor-market tightness, it makes it easier for firms to recruit and improves firm profits. The overall effect of immigration on native welfare depends on the state of the labor market. It is always negative when the labor market is i
     
 
