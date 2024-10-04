@@ -2,67 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Not flexible enough? Impacts of electric carsharing on a power sector with variable renewables](https://arxiv.org/abs/2402.19380) | 电动汽车共享对未来电力部门的影响进行了研究，结合了三种开源定量方法，旨在提供一种调和当前汽车使用习惯与减少汽车车队规模之间的途径。 |
-| [^2] | [Differential Sensitivity in Discontinuous Models.](http://arxiv.org/abs/2310.06151) | 本论文提出了一个通用框架，用于解决模型函数具有不连续性和/或输入变量是离散的情况下的差分敏感性计算问题。作者应用该框架进行了复合风险模型的敏感性分析和再保险信用风险的数值研究。 |
-| [^3] | [Optimal Robust Reinsurance with Multiple Insurers.](http://arxiv.org/abs/2308.11828) | 本研究探讨了一种面对多种模型不确定性的再保险商策略，其通过设计最大化预期财富的再保险合同，并在保险商模型的重心失真下定价，解决了连续时间的领导者-追随者博弈问题。 |
-| [^4] | [Socioeconomic disparities in mobility behavior during the COVID-19 pandemic in developing countries.](http://arxiv.org/abs/2305.06888) | 本研究通过手机数据发现，在COVID-19大流行期间，生活在低财富社区的城市用户更不可能采取自我隔离的行动，贫穷用户中那些曾经通勤上班到高财富社区的人则特别容易受到影响。 |
+| [^1] | [Matching under Imperfectly Transferable Utility](https://arxiv.org/abs/2403.05222) | 本文研究了不完全可转移效用下的匹配模型及其估计方法，为匹配经济学领域提供了重要贡献。 |
+| [^2] | [Regret-Optimal Federated Transfer Learning for Kernel Regression with Applications in American Option Pricing.](http://arxiv.org/abs/2309.04557) | 本论文提出了一种遗憾最优算法的迭代方案，用于联邦迁移学习，在核回归模型中具体化，并提出了一个几乎遗憾最优的启发式算法，可以减小生成参数与专门参数之间的累积偏差。 |
+| [^3] | [Why Are Immigrants Always Accused of Stealing People's Jobs?.](http://arxiv.org/abs/2303.13319) | 移民在一个配给职位的匹配模型中可能降低本地工人的就业率，但移民对本地福利的总体影响取决于劳动力市场的状态，当劳动力市场繁荣时，移民的影响可能是正面的。 |
 
 # 详细
 
-[^1]: 电动汽车共享对具有可变可再生能源的电力部门的影响
+[^1]: 不完全可转移效用下的匹配
 
-    Not flexible enough? Impacts of electric carsharing on a power sector with variable renewables
+    Matching under Imperfectly Transferable Utility
 
-    [https://arxiv.org/abs/2402.19380](https://arxiv.org/abs/2402.19380)
+    [https://arxiv.org/abs/2403.05222](https://arxiv.org/abs/2403.05222)
 
-    电动汽车共享对未来电力部门的影响进行了研究，结合了三种开源定量方法，旨在提供一种调和当前汽车使用习惯与减少汽车车队规模之间的途径。
-
-    
-
-    电动化汽车车队是减缓交通部门温室气体排放的主要策略。然而，仅仅电动化并不能解决与汽车相关的所有负面外部性。在考虑到其他问题，如街道空间以及对用于电池电动汽车的矿物资源的担忧时，减少汽车车队规模将是有益的，尤其是在城市中。汽车共享可以提供一种调和当前汽车使用习惯与减少汽车车队规模之间的途径。然而，它也可能减少电动汽车与可变可再生电力的网格互动潜力。我们研究了电动汽车共享可能如何影响未来的电力部门。我们结合了三种开源定量方法，包括对汽车行程日记进行序列聚类、生成合成电动车时间序列的概率工具，以及一个优化模型。
-
-    arXiv:2402.19380v1 Announce Type: new  Abstract: Electrifying the car fleet is a major strategy for mitigating greenhouse gas emissions in the transport sector. However, electrification alone will not solve all the negative externalities associated with cars. In light of other problems such as street space as well as concerns about the use of mineral resources for battery electric cars, reducing the car fleet size would be beneficial, particularly in cities. Carsharing could offer a way to reconcile current car usage habits with a reduction in the car fleet size. However, it could also reduce the potential of electric cars to align their grid interactions with variable renewable electricity generation. We investigate how electric carsharing may impact the power sector in the future. We combine three open-source quantitative methods, including sequence clustering of car travel diaries, a probabilistic tool to generate synthetic electric vehicle time series, and an optimization model of 
-    
-[^2]: 不连续模型中的差分敏感性
-
-    Differential Sensitivity in Discontinuous Models. (arXiv:2310.06151v1 [stat.CO])
-
-    [http://arxiv.org/abs/2310.06151](http://arxiv.org/abs/2310.06151)
-
-    本论文提出了一个通用框架，用于解决模型函数具有不连续性和/或输入变量是离散的情况下的差分敏感性计算问题。作者应用该框架进行了复合风险模型的敏感性分析和再保险信用风险的数值研究。
+    本文研究了不完全可转移效用下的匹配模型及其估计方法，为匹配经济学领域提供了重要贡献。
 
     
 
-    差分敏感性测度为解释从仿真到算法预测等各种应用中使用的复杂计算模型提供了有价值的工具。对模型输出在模型参数方向上的导数可以揭示输入-输出关系以及模型参数和输入变量的相对重要性。然而，当模型函数具有不连续性和/或输入变量是离散的时，如何进行这样的导数计算尚不清楚。我们提出了一个通用的框架来解决这些问题，考虑到与通过阶跃函数影响模型输出的随机输入变量（风险因子）相关的失真的量化输出风险测度的导数。我们证明，在满足弱技术条件的情况下，这些导数是有定义的，并推导出相应的公式。我们将我们的结果应用于复合风险模型的敏感性分析，并对再保险信用风险进行了数值研究。
+    在本文中，我们研究了具有不完全可转移效用（ITU）的匹配模型。我们提供了激励性的例子，讨论了ITU匹配模型的理论基础，并介绍了估计它们的方法。我们还探讨了相关主题，并概述了相关文献。本文已作为《匹配经济学手册》的一章草案提交，由Che、Chiappori和Salani'e编辑。
 
-    Differential sensitivity measures provide valuable tools for interpreting complex computational models used in applications ranging from simulation to algorithmic prediction. Taking the derivative of the model output in direction of a model parameter can reveal input-output relations and the relative importance of model parameters and input variables. Nonetheless, it is unclear how such derivatives should be taken when the model function has discontinuities and/or input variables are discrete. We present a general framework for addressing such problems, considering derivatives of quantile-based output risk measures, with respect to distortions to random input variables (risk factors), which impact the model output through step-functions. We prove that, subject to weak technical conditions, the derivatives are well-defined and derive the corresponding formulas. We apply our results to the sensitivity analysis of compound risk models and to a numerical study of reinsurance credit risk in
+    arXiv:2403.05222v1 Announce Type: new  Abstract: In this paper, we examine matching models with imperfectly transferable utility (ITU). We provide motivating examples, discuss the theoretical foundations of ITU matching models and present methods for estimating them. We also explore connected topics and provide an overview of the related literature. This paper has been submitted as a draft chapter for the Handbook of the Economics of Matching, edited by Che, Chiappori and Salani\'e.
     
-[^3]: 多家保险商的最优鲁棒再保险研究
+[^2]: 用于核回归的遗憾最优联邦迁移学习及其在美式期权定价中的应用
 
-    Optimal Robust Reinsurance with Multiple Insurers. (arXiv:2308.11828v1 [q-fin.RM])
+    Regret-Optimal Federated Transfer Learning for Kernel Regression with Applications in American Option Pricing. (arXiv:2309.04557v1 [cs.LG])
 
-    [http://arxiv.org/abs/2308.11828](http://arxiv.org/abs/2308.11828)
+    [http://arxiv.org/abs/2309.04557](http://arxiv.org/abs/2309.04557)
 
-    本研究探讨了一种面对多种模型不确定性的再保险商策略，其通过设计最大化预期财富的再保险合同，并在保险商模型的重心失真下定价，解决了连续时间的领导者-追随者博弈问题。
-
-    
-
-    我们研究了一家面临多个模型不确定性的再保险商。再保险商向$n$家保险商提供合同，其索赔遵循不同的复合泊松过程。由于再保险商对于保险商的索赔严重程度分布和频率存在不确定性，他们设计了最大化预期财富的再保险合同，同时还需要承担一个熵惩罚。而保险商则寻求在无歧义的情况下最大化他们的预期效用。我们解决了这个连续时间的领导者-追随者博弈问题，得到再保险商在保险商模型的重心失真下的定价方式。我们将这些结果应用到比例再保险和超额损失再保险合同，并进行了数值解析。此外，我们还解决了再保险商在模糊情况下最大化他们的预期效用的相关问题，并比较了解的不同。
-
-    We study a reinsurer who faces multiple sources of model uncertainty. The reinsurer offers contracts to $n$ insurers whose claims follow different compound Poisson processes. As the reinsurer is uncertain about the insurers' claim severity distributions and frequencies, they design reinsurance contracts that maximise their expected wealth subject to an entropy penalty. Insurers meanwhile seek to maximise their expected utility without ambiguity. We solve this continuous-time Stackelberg game for general reinsurance contracts and find that the reinsurer prices under a distortion of the barycentre of the insurers' models. We apply our results to proportional reinsurance and excess-of-loss reinsurance contracts, and illustrate the solutions numerically. Furthermore, we solve the related problem where the reinsurer maximises, still under ambiguity, their expected utility and compare the solutions.
-    
-[^4]: 发展中国家COVID-19疫情期间的社会经济差异与出行行为
-
-    Socioeconomic disparities in mobility behavior during the COVID-19 pandemic in developing countries. (arXiv:2305.06888v1 [physics.soc-ph])
-
-    [http://arxiv.org/abs/2305.06888](http://arxiv.org/abs/2305.06888)
-
-    本研究通过手机数据发现，在COVID-19大流行期间，生活在低财富社区的城市用户更不可能采取自我隔离的行动，贫穷用户中那些曾经通勤上班到高财富社区的人则特别容易受到影响。
+    本论文提出了一种遗憾最优算法的迭代方案，用于联邦迁移学习，在核回归模型中具体化，并提出了一个几乎遗憾最优的启发式算法，可以减小生成参数与专门参数之间的累积偏差。
 
     
 
-    手机数据在量化COVID-19疫情期间的人类流动中发挥了关键作用。现有研究主要关注高收入国家的地区总体情况，掩盖了疫情对最脆弱群体的强烈影响。我们结合来自移动电话和人口普查的地理位置数据，研究了2020年3月至12月期间3个大洲的6个中等收入国家，揭示了不同社会经济群体应对疫情的行为差异。当疫情爆发时，生活在低财富社区中的城市用户更不可能通过自我隔离在家中、搬迁到农村地区或者停止通勤工作来应对。贫穷用户中，那些在疫情之前曾通勤上班到高财富社区的人则面临着重大风险。
+    我们提出了一种最优的迭代方案，用于联邦迁移学习，其中中心计划者可以访问同一学习模型 $f_{\theta}$ 的数据集 ${\cal D}_1,\dots,{\cal D}_N$。我们的目标是在尊重模型 $f_{\theta(T)}$ 的损失函数的情况下，尽量减小生成参数 $\{\theta_i(t)\}_{t=0}^T$ 在所有 $T$ 次迭代中与每个数据集得到的专门参数$\theta^\star_{1},\ldots,\theta^\star_N$ 的累积偏差。我们仅允许每个专门模型（节点/代理）和中心计划者（服务器）在每次迭代（轮）之间进行持续通信。对于模型 $f_{\theta}$ 是有限秩核回归的情况，我们得出了遗憾最优算法的显式更新公式。通过利用遗憾最优算法中的对称性，我们进一步开发了一种几乎遗憾最优的启发式算法，其运行需要较少的 $\mathcal{O}(Np^2)$ 个基本运算。
 
-    Mobile phone data have played a key role in quantifying human mobility during the COVID-19 pandemic. Existing studies on mobility patterns have primarily focused on regional aggregates in high-income countries, obfuscating the accentuated impact of the pandemic on the most vulnerable populations. By combining geolocation data from mobile phones and population census for 6 middle-income countries across 3 continents between March and December 2020, we uncovered common disparities in the behavioral response to the pandemic across socioeconomic groups. When the pandemic hit, urban users living in low-wealth neighborhoods were less likely to respond by self-isolating at home, relocating to rural areas, or refraining from commuting to work. The gap in the behavioral responses between socioeconomic groups persisted during the entire observation period. Among low-wealth users, those who used to commute to work in high-wealth neighborhoods pre-pandemic were particularly at risk, facing both th
+    We propose an optimal iterative scheme for federated transfer learning, where a central planner has access to datasets ${\cal D}_1,\dots,{\cal D}_N$ for the same learning model $f_{\theta}$. Our objective is to minimize the cumulative deviation of the generated parameters $\{\theta_i(t)\}_{t=0}^T$ across all $T$ iterations from the specialized parameters $\theta^\star_{1},\ldots,\theta^\star_N$ obtained for each dataset, while respecting the loss function for the model $f_{\theta(T)}$ produced by the algorithm upon halting. We only allow for continual communication between each of the specialized models (nodes/agents) and the central planner (server), at each iteration (round). For the case where the model $f_{\theta}$ is a finite-rank kernel regression, we derive explicit updates for the regret-optimal algorithm. By leveraging symmetries within the regret-optimal algorithm, we further develop a nearly regret-optimal heuristic that runs with $\mathcal{O}(Np^2)$ fewer elementary operati
+    
+[^3]: 为什么移民总被指责窃取人们的工作?
+
+    Why Are Immigrants Always Accused of Stealing People's Jobs?. (arXiv:2303.13319v1 [econ.GN])
+
+    [http://arxiv.org/abs/2303.13319](http://arxiv.org/abs/2303.13319)
+
+    移民在一个配给职位的匹配模型中可能降低本地工人的就业率，但移民对本地福利的总体影响取决于劳动力市场的状态，当劳动力市场繁荣时，移民的影响可能是正面的。
+
+    
+
+    移民总是被指责窃取人们的工作。然而，在劳动力市场的新古典模型中，每个人都有工作可做，也没有工作可被窃取（没有失业，因此想工作的人都可以工作）。在标准匹配模型中，存在一些失业，但由于劳动力需求完全弹性，因此新进入劳动力市场的人被吸收时不会影响求职者的前景。再次说明，当移民到达时没有工作会被窃取。本文显示，在一个具有就业配给的匹配模型中，移民的进入会降低本地工人的就业率。此外，当劳动力市场不景气时，就业率的降幅更大，因为那时工作更加稀缺。因为移民降低了劳动力市场的紧张程度，使得公司更容易招聘，并改善公司利润。移民对本地福利的总体影响取决于劳动力市场的状态。当劳动力市场出现衰退时总体影响始终是负面的，并且当劳动力市场繁荣时可能是正面的。
+
+    Immigrants are always accused of stealing people's jobs. Yet, in a neoclassical model of the labor market, there are jobs for everybody and no jobs to steal. (There is no unemployment, so anybody who wants to work can work.) In standard matching models, there is some unemployment, but labor demand is perfectly elastic so new entrants into the labor force are absorbed without affecting jobseekers' prospects. Once again, no jobs are stolen when immigrants arrive. This paper shows that in a matching model with job rationing, in contrast, the entry of immigrants reduces the employment rate of native workers. Moreover, the reduction in employment rate is sharper when the labor market is depressed -- because jobs are more scarce then. Because immigration reduces labor-market tightness, it makes it easier for firms to recruit and improves firm profits. The overall effect of immigration on native welfare depends on the state of the labor market. It is always negative when the labor market is i
     
 
