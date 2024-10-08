@@ -2,97 +2,112 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Latent Attention for Linear Time Transformers](https://arxiv.org/abs/2402.17512) | 提出了一种基于潜在向量定义注意力的方法，将标准transformer中的注意力机制的时间复杂度从二次方降低到与时间线性相关，表现与标准注意力媲美，但允许上下文窗口扩展到远远超出标准的范围。 |
-| [^2] | [Average gradient outer product as a mechanism for deep neural collapse](https://arxiv.org/abs/2402.13728) | 本文通过提供证据表明，深度神经网络中的神经坍塌主要是通过平均梯度外积进行深度特征学习的，权重的奇异结构与AGOP高度相关，导致类内变异坍塌。 |
-| [^3] | [Statistical Test for Generated Hypotheses by Diffusion Models](https://arxiv.org/abs/2402.11789) | 本研究提出了一种统计检验方法，通过选择性推断框架，在考虑生成图像是由训练的扩散模型产生的条件下，量化医学图像诊断结果的可靠性。 |
-| [^4] | [DISCOUNT: Distributional Counterfactual Explanation With Optimal Transport.](http://arxiv.org/abs/2401.13112) | 本文提出了使用最优传输进行分布式对抗解释的方法DISCOUNT，将对抗解释的概念扩展到整个输入输出分布，并通过统计置信度来支撑这一方法。 |
-| [^5] | [Spectrum-Aware Adjustment: A New Debiasing Framework with Applications to Principal Components Regression.](http://arxiv.org/abs/2309.07810) | 这项研究介绍了一种新的去偏方法框架，用于解决高维线性回归中现有技术对协变量分布的限制问题。研究者们发现，现有方法在处理非高斯分布、异质性设计矩阵和缺乏可靠特征协方差估计时遇到困难。为了解决这些问题，他们提出了一种新的策略，该策略利用缩放的梯度下降步骤进行去偏校正。 |
-| [^6] | [Benchmarks and Custom Package for Electrical Load Forecasting.](http://arxiv.org/abs/2307.07191) | 本文提供了一个全面的电力负荷预测存档，包括负荷领域特定的特征工程，帮助模型更好地模拟负荷数据，并提供了一种新的损失函数来最小化后续任务的成本。 |
+| [^1] | [Postprocessing of point predictions for probabilistic forecasting of electricity prices: Diversity matters](https://arxiv.org/abs/2404.02270) | 将点预测转换为概率预测的电力价格后处理方法中，结合Isotonic Distributional Regression与其他两种方法的预测分布可以实现显著的性能提升。 |
+| [^2] | [Jailbreaking Leading Safety-Aligned LLMs with Simple Adaptive Attacks](https://arxiv.org/abs/2404.02151) | 展示了对齐的LLM对简单自适应越狱攻击不具有鲁棒性，并成功实现了在多个模型上几乎100%的攻击成功率，同时还介绍了对于不公开logprobs的模型如何进行越狱以及如何在受污染的模型中查找木马字符串的方法。 |
+| [^3] | [An Analysis of Switchback Designs in Reinforcement Learning](https://arxiv.org/abs/2403.17285) | 本文通过提出“弱信号分析”框架，研究了强化学习中往返设计对平均处理效应估计准确性的影响，发现在大部分奖励误差为正相关时，往返设计比每日切换策略更有效，增加政策切换频率可以降低平均处理效应估计器的均方误差。 |
+| [^4] | [High-Dimensional Tail Index Regression: with An Application to Text Analyses of Viral Posts in Social Media](https://arxiv.org/abs/2403.01318) | 提出了高维尾指数回归方法，利用正则化估计和去偏方法进行推断，支持理论的仿真研究，并在社交媒体病毒帖子文本分析中应用。 |
+| [^5] | [An Elementary Predictor Obtaining $2\sqrt{T}$ Distance to Calibration](https://arxiv.org/abs/2402.11410) | 给出了一种简单、高效、确定性的算法，该算法的校准距离误差最多为$2\sqrt{T}$ |
+| [^6] | [Multiply Robust Causal Mediation Analysis with Continuous Treatments](https://arxiv.org/abs/2105.09254) | 本文提出了一种适用于连续治疗环境的多重稳健因果中介分析估计器，采用了核平滑方法，并具有多重稳健性和渐近正态性。 |
+| [^7] | [CST-YOLO: A Novel Method for Blood Cell Detection Based on Improved YOLOv7 and CNN-Swin Transformer.](http://arxiv.org/abs/2306.14590) | 本论文提出了一种CST-YOLO算法，基于改进的YOLOv7和CNN-Swin Transformer，引入了几个有用的模型，有效提高了血细胞检测精度，实验结果显示其在三个血细胞数据集上均优于现有最先进算法。 |
 
 # 详细
 
-[^1]: Latent Attention for Linear Time Transformers
+[^1]: 电力价格概率预测的点预测后处理：多样性至关重要
 
-    Latent Attention for Linear Time Transformers
+    Postprocessing of point predictions for probabilistic forecasting of electricity prices: Diversity matters
 
-    [https://arxiv.org/abs/2402.17512](https://arxiv.org/abs/2402.17512)
+    [https://arxiv.org/abs/2404.02270](https://arxiv.org/abs/2404.02270)
 
-    提出了一种基于潜在向量定义注意力的方法，将标准transformer中的注意力机制的时间复杂度从二次方降低到与时间线性相关，表现与标准注意力媲美，但允许上下文窗口扩展到远远超出标准的范围。
-
-    
-
-    标准transformer中的注意力机制的时间复杂度随着序列长度的增加呈二次方增长。我们引入一种通过定义潜在向量的注意力来将其降低到与时间线性相关的方法。该方法可以轻松作为标准注意力机制的替代品。我们的“Latte Transformer”模型可用于双向和单向任务，因果版本允许一种在推理语言生成任务中内存和时间高效的递归实现。标准transformer的下一个标记预测随着序列长度线性增长，而Latte Transformer计算下一个标记所需的时间是恒定的。我们的方法的实证表现可与标准注意力媲美，但允许将上下文窗口扩展到远远超出标准注意力实际可行的范围。
-
-    arXiv:2402.17512v1 Announce Type: new  Abstract: The time complexity of the standard attention mechanism in a transformer scales quadratically with the length of the sequence. We introduce a method to reduce this to linear scaling with time, based on defining attention via latent vectors. The method is readily usable as a drop-in replacement for the standard attention mechanism. Our "Latte Transformer" model can be implemented for both bidirectional and unidirectional tasks, with the causal version allowing a recurrent implementation which is memory and time-efficient during inference of language generation tasks. Whilst next token prediction scales linearly with the sequence length for a standard transformer, a Latte Transformer requires constant time to compute the next token. The empirical performance of our method is comparable to standard attention, yet allows scaling to context windows much larger than practical in standard attention.
-    
-[^2]: 平均梯度外积作为深度神经坍塌机制的研究
-
-    Average gradient outer product as a mechanism for deep neural collapse
-
-    [https://arxiv.org/abs/2402.13728](https://arxiv.org/abs/2402.13728)
-
-    本文通过提供证据表明，深度神经网络中的神经坍塌主要是通过平均梯度外积进行深度特征学习的，权重的奇异结构与AGOP高度相关，导致类内变异坍塌。
+    将点预测转换为概率预测的电力价格后处理方法中，结合Isotonic Distributional Regression与其他两种方法的预测分布可以实现显著的性能提升。
 
     
 
-    Deep Neural Collapse (DNC)指的是深度神经网络(DNNs)最后几层数据表示的惊人刚性结构。尽管这种现象在各种情境中都得到了测量，但其出现只有部分被理解。本文提供了充分证据，表明DNC主要是通过平均梯度外积(AGOP)进行深度特征学习而发生的。相比于解释神经坍塌的特征不可知方法，如无约束特征模型，这一进展更进一步。我们继续提供证据表明，权重的右奇异向量和奇异值是DNN中类内变异坍塌的主要因素。正如最近的研究所示，这种奇异结构与AGOP的高度相关。然后我们在实验和理论上证明了AGOP在随机初始化的神经网络中引发神经坍塌。
+    依赖于电力价格的预测分布进行操作决策相较于仅基于点预测的决策可以带来显著更高的利润。然而，在学术和工业环境中开发的大多数模型仅提供点预测。为了解决这一问题，我们研究了三种将点预测转换为概率预测的后处理方法：分位数回归平均、一致性预测和最近引入的等温分布回归。我们发现，虽然等温分布回归表现最为多样化，但将其预测分布与另外两种方法结合使用，相较于具有正态分布误差的基准模型，在德国电力市场的4.5年测试期间（涵盖COVID大流行和乌克兰战争），实现了约7.5%的改进。值得注意的是，这种组合的性能与最先进的Dis
 
-    arXiv:2402.13728v1 Announce Type: new  Abstract: Deep Neural Collapse (DNC) refers to the surprisingly rigid structure of the data representations in the final layers of Deep Neural Networks (DNNs). Though the phenomenon has been measured in a wide variety of settings, its emergence is only partially understood. In this work, we provide substantial evidence that DNC formation occurs primarily through deep feature learning with the average gradient outer product (AGOP). This takes a step further compared to efforts that explain neural collapse via feature-agnostic approaches, such as the unconstrained features model. We proceed by providing evidence that the right singular vectors and values of the weights are responsible for the majority of within-class variability collapse in DNNs. As shown in recent work, this singular structure is highly correlated with that of the AGOP. We then establish experimentally and theoretically that AGOP induces neural collapse in a randomly initialized ne
+    arXiv:2404.02270v1 Announce Type: new  Abstract: Operational decisions relying on predictive distributions of electricity prices can result in significantly higher profits compared to those based solely on point forecasts. However, the majority of models developed in both academic and industrial settings provide only point predictions. To address this, we examine three postprocessing methods for converting point forecasts into probabilistic ones: Quantile Regression Averaging, Conformal Prediction, and the recently introduced Isotonic Distributional Regression. We find that while IDR demonstrates the most varied performance, combining its predictive distributions with those of the other two methods results in an improvement of ca. 7.5% compared to a benchmark model with normally distributed errors, over a 4.5-year test period in the German power market spanning the COVID pandemic and the war in Ukraine. Remarkably, the performance of this combination is at par with state-of-the-art Dis
     
-[^3]: 通过扩散模型生成的假设的统计检验
+[^2]: 用简单自适应攻击越狱功能对齐的LLM
 
-    Statistical Test for Generated Hypotheses by Diffusion Models
+    Jailbreaking Leading Safety-Aligned LLMs with Simple Adaptive Attacks
 
-    [https://arxiv.org/abs/2402.11789](https://arxiv.org/abs/2402.11789)
+    [https://arxiv.org/abs/2404.02151](https://arxiv.org/abs/2404.02151)
 
-    本研究提出了一种统计检验方法，通过选择性推断框架，在考虑生成图像是由训练的扩散模型产生的条件下，量化医学图像诊断结果的可靠性。
-
-    
-
-    AI的增强性能加速了其融入科学研究。特别是，利用生成式AI创建科学假设是很有前途的，并且正在越来越多地应用于各个领域。然而，当使用AI生成的假设进行关键决策（如医学诊断）时，验证它们的可靠性至关重要。在本研究中，我们考虑使用扩散模型生成的图像进行医学诊断任务，并提出了一种统计检验来量化其可靠性。所提出的统计检验的基本思想是使用选择性推断框架，我们考虑在生成的图像是由经过训练的扩散模型产生的这一事实条件下的统计检验。利用所提出的方法，医学图像诊断结果的统计可靠性可以以p值的形式量化，从而实现在控制错误率的情况下进行决策。
-
-    arXiv:2402.11789v1 Announce Type: cross  Abstract: The enhanced performance of AI has accelerated its integration into scientific research. In particular, the use of generative AI to create scientific hypotheses is promising and is increasingly being applied across various fields. However, when employing AI-generated hypotheses for critical decisions, such as medical diagnoses, verifying their reliability is crucial. In this study, we consider a medical diagnostic task using generated images by diffusion models, and propose a statistical test to quantify its reliability. The basic idea behind the proposed statistical test is to employ a selective inference framework, where we consider a statistical test conditional on the fact that the generated images are produced by a trained diffusion model. Using the proposed method, the statistical reliability of medical image diagnostic results can be quantified in the form of a p-value, allowing for decision-making with a controlled error rate. 
-    
-[^4]: DISCOUNT: 使用最优传输进行分布式对抗解释
-
-    DISCOUNT: Distributional Counterfactual Explanation With Optimal Transport. (arXiv:2401.13112v1 [cs.AI])
-
-    [http://arxiv.org/abs/2401.13112](http://arxiv.org/abs/2401.13112)
-
-    本文提出了使用最优传输进行分布式对抗解释的方法DISCOUNT，将对抗解释的概念扩展到整个输入输出分布，并通过统计置信度来支撑这一方法。
+    展示了对齐的LLM对简单自适应越狱攻击不具有鲁棒性，并成功实现了在多个模型上几乎100%的攻击成功率，同时还介绍了对于不公开logprobs的模型如何进行越狱以及如何在受污染的模型中查找木马字符串的方法。
 
     
 
-    对抗解释是在黑盒决策模型中提供洞察力和可解释性的事实方法，通过确定导致不同结果的替代输入实例来实现。本文将对抗解释的概念扩展到分布上下文，从个体数据点扩大到整个输入输出分布，命名为分布式对抗解释。在分布式对抗解释中，我们的重点转向分析事实和对抗的分布属性，类似于评估个体实例及其结果决策的经典方法。我们利用最优传输来构建一个机会约束优化问题，旨在导出与事实对应的对抗分布，以统计置信度做支撑。我们提出的优化方法DISCOUNT在输入和输出分布之间平衡这种置信度。
+    我们展示了即使是最新的安全对齐的LLM也不具有抵抗简单自适应越狱攻击的稳健性。首先，我们展示了如何成功利用对logprobs的访问进行越狱：我们最初设计了一个对抗性提示模板（有时会适应目标LLM），然后我们在后缀上应用随机搜索以最大化目标logprob（例如token“Sure”），可能会进行多次重启。通过这种方式，我们实现了对GPT-3.5/4、Llama-2-Chat-7B/13B/70B、Gemma-7B和针对GCG攻击进行对抗训练的HarmBench上的R2D2等几乎100%的攻击成功率--根据GPT-4的评判。我们还展示了如何通过转移或预填充攻击以100%的成功率对所有不暴露logprobs的Claude模型进行越狱。此外，我们展示了如何在受污染的模型中使用对一组受限制的token执行随机搜索以查找木马字符串的方法--这项任务与许多其他任务共享相同的属性。
 
-    Counterfactual Explanations (CE) is the de facto method for providing insight and interpretability in black-box decision-making models by identifying alternative input instances that lead to different outcomes. This paper extends the concept of CEs to a distributional context, broadening the scope from individual data points to entire input and output distributions, named Distributional Counterfactual Explanation (DCE). In DCE, our focus shifts to analyzing the distributional properties of the factual and counterfactual, drawing parallels to the classical approach of assessing individual instances and their resulting decisions. We leverage Optimal Transport (OT) to frame a chance-constrained optimization problem, aiming to derive a counterfactual distribution that closely aligns with its factual counterpart, substantiated by statistical confidence. Our proposed optimization method, DISCOUNT, strategically balances this confidence across both input and output distributions. This algorit
+    arXiv:2404.02151v1 Announce Type: cross  Abstract: We show that even the most recent safety-aligned LLMs are not robust to simple adaptive jailbreaking attacks. First, we demonstrate how to successfully leverage access to logprobs for jailbreaking: we initially design an adversarial prompt template (sometimes adapted to the target LLM), and then we apply random search on a suffix to maximize the target logprob (e.g., of the token "Sure"), potentially with multiple restarts. In this way, we achieve nearly 100\% attack success rate -- according to GPT-4 as a judge -- on GPT-3.5/4, Llama-2-Chat-7B/13B/70B, Gemma-7B, and R2D2 from HarmBench that was adversarially trained against the GCG attack. We also show how to jailbreak all Claude models -- that do not expose logprobs -- via either a transfer or prefilling attack with 100\% success rate. In addition, we show how to use random search on a restricted set of tokens for finding trojan strings in poisoned models -- a task that shares many s
     
-[^5]: Spectrum-Aware Adjustment: 一种新的去偏方法框架及其在主成分回归中的应用
+[^3]: 对强化学习中的往返设计进行的分析
 
-    Spectrum-Aware Adjustment: A New Debiasing Framework with Applications to Principal Components Regression. (arXiv:2309.07810v1 [math.ST])
+    An Analysis of Switchback Designs in Reinforcement Learning
 
-    [http://arxiv.org/abs/2309.07810](http://arxiv.org/abs/2309.07810)
+    [https://arxiv.org/abs/2403.17285](https://arxiv.org/abs/2403.17285)
 
-    这项研究介绍了一种新的去偏方法框架，用于解决高维线性回归中现有技术对协变量分布的限制问题。研究者们发现，现有方法在处理非高斯分布、异质性设计矩阵和缺乏可靠特征协方差估计时遇到困难。为了解决这些问题，他们提出了一种新的策略，该策略利用缩放的梯度下降步骤进行去偏校正。
-
-    
-
-    我们引入了一个新的去偏方法框架，用于解决高维线性回归中现代去偏技术对协变量分布的约束问题。我们研究了特征数和样本数都很大且相近的普遍情况。在这种情况下，现代去偏技术使用自由度校正来除去正则化估计量的收缩偏差并进行推断。然而，该方法要求观测样本是独立同分布的，协变量遵循均值为零的高斯分布，并且能够获得可靠的特征协方差矩阵估计。当（i）协变量具有非高斯分布、重尾或非对称分布，（ii）设计矩阵的行呈异质性或存在依赖性，以及（iii）缺乏可靠的特征协方差估计时，这种方法就会遇到困难。为了应对这些问题，我们提出了一种新的策略，其中去偏校正是一步缩放的梯度下降步骤（适当缩放）。
-
-    We introduce a new debiasing framework for high-dimensional linear regression that bypasses the restrictions on covariate distributions imposed by modern debiasing technology. We study the prevalent setting where the number of features and samples are both large and comparable. In this context, state-of-the-art debiasing technology uses a degrees-of-freedom correction to remove shrinkage bias of regularized estimators and conduct inference. However, this method requires that the observed samples are i.i.d., the covariates follow a mean zero Gaussian distribution, and reliable covariance matrix estimates for observed features are available. This approach struggles when (i) covariates are non-Gaussian with heavy tails or asymmetric distributions, (ii) rows of the design exhibit heterogeneity or dependencies, and (iii) reliable feature covariance estimates are lacking.  To address these, we develop a new strategy where the debiasing correction is a rescaled gradient descent step (suitably
-    
-[^6]: 用于电力负荷预测的基准和自定义包
-
-    Benchmarks and Custom Package for Electrical Load Forecasting. (arXiv:2307.07191v1 [cs.LG])
-
-    [http://arxiv.org/abs/2307.07191](http://arxiv.org/abs/2307.07191)
-
-    本文提供了一个全面的电力负荷预测存档，包括负荷领域特定的特征工程，帮助模型更好地模拟负荷数据，并提供了一种新的损失函数来最小化后续任务的成本。
+    本文通过提出“弱信号分析”框架，研究了强化学习中往返设计对平均处理效应估计准确性的影响，发现在大部分奖励误差为正相关时，往返设计比每日切换策略更有效，增加政策切换频率可以降低平均处理效应估计器的均方误差。
 
     
 
-    负荷预测在电力行业中具有重要意义，可以为后续任务如电网调度提供参考，从而带来巨大的经济效益。然而，负荷预测与传统的时间序列预测之间存在许多差异。一方面，负荷预测的目标是最小化后续任务（如电网调度）的成本，而不仅仅追求预测准确性。另一方面，负荷受到许多外部因素的影响，如温度或日历变量。此外，预测的规模（如建筑级负荷和聚合级负荷）也会对预测结果产生重大影响。在本文中，我们提供了一个全面的负荷预测存档，其中包括负荷领域特定的特征工程，以帮助预测模型更好地模拟负荷数据。此外，与传统的损失函数仅追求准确性不同，我们还提供了一种方法来...
+    本文提供了对A/B测试中往返设计的详细研究，这些设计随时间在基准和新策略之间交替。我们的目标是全面评估这些设计对其产生的平均处理效应（ATE）估计器准确性的影响。我们提出了一个新颖的“弱信号分析”框架，大大简化了这些ATE的均方误差（MSE）在马尔科夫决策过程环境中的计算。我们的研究结果表明：(i) 当大部分奖励误差呈正相关时，往返设计比每日切换策略的交替设计更有效。此外，增加政策切换的频率往往会降低ATE估计器的MSE。(ii) 然而，当误差不相关时，所有这些设计变得渐近等效。(iii) 在大多数误差为负相关时
 
-    Load forecasting is of great significance in the power industry as it can provide a reference for subsequent tasks such as power grid dispatch, thus bringing huge economic benefits. However, there are many differences between load forecasting and traditional time series forecasting. On the one hand, load forecasting aims to minimize the cost of subsequent tasks such as power grid dispatch, rather than simply pursuing prediction accuracy. On the other hand, the load is largely influenced by many external factors, such as temperature or calendar variables. In addition, the scale of predictions (such as building-level loads and aggregated-level loads) can also significantly impact the predicted results. In this paper, we provide a comprehensive load forecasting archive, which includes load domain-specific feature engineering to help forecasting models better model load data. In addition, different from the traditional loss function which only aims for accuracy, we also provide a method to
+    arXiv:2403.17285v1 Announce Type: cross  Abstract: This paper offers a detailed investigation of switchback designs in A/B testing, which alternate between baseline and new policies over time. Our aim is to thoroughly evaluate the effects of these designs on the accuracy of their resulting average treatment effect (ATE) estimators. We propose a novel "weak signal analysis" framework, which substantially simplifies the calculations of the mean squared errors (MSEs) of these ATEs in Markov decision process environments. Our findings suggest that (i) when the majority of reward errors are positively correlated, the switchback design is more efficient than the alternating-day design which switches policies in a daily basis. Additionally, increasing the frequency of policy switches tends to reduce the MSE of the ATE estimator. (ii) When the errors are uncorrelated, however, all these designs become asymptotically equivalent. (iii) In cases where the majority of errors are negative correlate
+    
+[^4]: 高维尾指数回归：以社交媒体病毒帖子文本分析为例
+
+    High-Dimensional Tail Index Regression: with An Application to Text Analyses of Viral Posts in Social Media
+
+    [https://arxiv.org/abs/2403.01318](https://arxiv.org/abs/2403.01318)
+
+    提出了高维尾指数回归方法，利用正则化估计和去偏方法进行推断，支持理论的仿真研究，并在社交媒体病毒帖子文本分析中应用。
+
+    
+
+    受社交媒体病毒帖子的点赞分布（如点赞数量）经验性幂律的启发，我们引入了高维尾指数回归及其参数的估计和推断方法。我们提出了一种正则化估计量，证明了它的一致性，并推导了其收敛速度。为了进行推断，我们提出了去偏正则化估计，证明了去偏估计量的渐近正态性。仿真研究支持了我们的理论。这些方法被应用于对涉及 LGBTQ+ 话题的 X（原 Twitter）病毒帖子的文本分析。
+
+    arXiv:2403.01318v1 Announce Type: cross  Abstract: Motivated by the empirical power law of the distributions of credits (e.g., the number of "likes") of viral posts in social media, we introduce the high-dimensional tail index regression and methods of estimation and inference for its parameters. We propose a regularized estimator, establish its consistency, and derive its convergence rate. To conduct inference, we propose to debias the regularized estimate, and establish the asymptotic normality of the debiased estimator. Simulation studies support our theory. These methods are applied to text analyses of viral posts in X (formerly Twitter) concerning LGBTQ+.
+    
+[^5]: 获得$2\sqrt{T}$到校准的基本预测器
+
+    An Elementary Predictor Obtaining $2\sqrt{T}$ Distance to Calibration
+
+    [https://arxiv.org/abs/2402.11410](https://arxiv.org/abs/2402.11410)
+
+    给出了一种简单、高效、确定性的算法，该算法的校准距离误差最多为$2\sqrt{T}$
+
+    
+
+    Blasiok等人[2023]提出了校准距离作为一种自然的校准误差度量，与预期的校准误差(ECE)不同，它是连续的。最近，Qiao和Zheng [2024]给出了一个非构造性的论证，建立了一种在线预测器的存在，该预测器可以在对抗设置中获得$O(\sqrt{T})$的校准距离，而对于ECE来说是不可能的。他们将找到一种明确的、高效的算法作为一个需要解决的问题。我们解决了这个问题，并给出了一个非常简单、高效、确定性的算法，该算法的校准距离误差最多为$2\sqrt{T}$。
+
+    arXiv:2402.11410v1 Announce Type: new  Abstract: Blasiok et al. [2023] proposed distance to calibration as a natural measure of calibration error that unlike expected calibration error (ECE) is continuous. Recently, Qiao and Zheng [2024] gave a non-constructive argument establishing the existence of an online predictor that can obtain $O(\sqrt{T})$ distance to calibration in the adversarial setting, which is known to be impossible for ECE. They leave as an open problem finding an explicit, efficient algorithm. We resolve this problem and give an extremely simple, efficient, deterministic algorithm that obtains distance to calibration error at most $2\sqrt{T}$.
+    
+[^6]: 在连续治疗下的多重稳健因果中介分析
+
+    Multiply Robust Causal Mediation Analysis with Continuous Treatments
+
+    [https://arxiv.org/abs/2105.09254](https://arxiv.org/abs/2105.09254)
+
+    本文提出了一种适用于连续治疗环境的多重稳健因果中介分析估计器，采用了核平滑方法，并具有多重稳健性和渐近正态性。
+
+    
+
+    在许多应用中，研究人员对治疗或暴露对感兴趣的结果的直接和间接的因果效应。中介分析为鉴定和估计这些因果效应提供了一个严谨的框架。对于二元治疗，Tchetgen Tchetgen和Shpitser (2012)提出了直接和间接效应的高效估计器，基于参数的影响函数。这些估计器具有良好的性质，如多重稳健性和渐近正态性，同时允许对干扰参数进行低于根号n的收敛速度。然而，在涉及连续治疗的情况下，这些基于影响函数的估计器没有准备好应用，除非进行强参数假设。在这项工作中，我们利用核平滑方法提出了一种适用于连续治疗环境的估计器，受到Tchetgen Tchetgen的影响函数估计器的启发。
+
+    In many applications, researchers are interested in the direct and indirect causal effects of a treatment or exposure on an outcome of interest. Mediation analysis offers a rigorous framework for identifying and estimating these causal effects. For binary treatments, efficient estimators for the direct and indirect effects are presented in Tchetgen Tchetgen and Shpitser (2012) based on the influence function of the parameter of interest. These estimators possess desirable properties, such as multiple-robustness and asymptotic normality, while allowing for slower than root-n rates of convergence for the nuisance parameters. However, in settings involving continuous treatments, these influence function-based estimators are not readily applicable without making strong parametric assumptions. In this work, utilizing a kernel-smoothing approach, we propose an estimator suitable for settings with continuous treatments inspired by the influence function-based estimator of Tchetgen Tchetgen an
+    
+[^7]: CST-YOLO: 一种基于改进的YOLOv7和CNN-Swin Transformer的血细胞检测新方法
+
+    CST-YOLO: A Novel Method for Blood Cell Detection Based on Improved YOLOv7 and CNN-Swin Transformer. (arXiv:2306.14590v1 [cs.CV])
+
+    [http://arxiv.org/abs/2306.14590](http://arxiv.org/abs/2306.14590)
+
+    本论文提出了一种CST-YOLO算法，基于改进的YOLOv7和CNN-Swin Transformer，引入了几个有用的模型，有效提高了血细胞检测精度，实验结果显示其在三个血细胞数据集上均优于现有最先进算法。
+
+    
+
+    血细胞检测是计算机视觉中典型的小物体检测问题。本文提出了一种CST-YOLO模型，基于YOLOv7结构并使用CNN-Swin Transformer（CST）进行增强，这是一种CNN-Transformer融合的新尝试。同时，我们还引入了三个有用的模型：加权高效层聚合网络（W-ELAN）、多尺度通道分割（MCS）和级联卷积层（CatConv），以提高小物体检测精度。实验结果表明，我们提出的CST-YOLO在三个血细胞数据集上分别达到了92.7、95.6和91.1 mAP@0.5，优于最先进的物体检测器，如YOLOv5和YOLOv7。我们的代码可在https://github.com/mkang315/CST-YOLO上找到。
+
+    Blood cell detection is a typical small-scale object detection problem in computer vision. In this paper, we propose a CST-YOLO model for blood cell detection based on YOLOv7 architecture and enhance it with the CNN-Swin Transformer (CST), which is a new attempt at CNN-Transformer fusion. We also introduce three other useful modules: Weighted Efficient Layer Aggregation Networks (W-ELAN), Multiscale Channel Split (MCS), and Concatenate Convolutional Layers (CatConv) in our CST-YOLO to improve small-scale object detection precision. Experimental results show that the proposed CST-YOLO achieves 92.7, 95.6, and 91.1 mAP@0.5 respectively on three blood cell datasets, outperforming state-of-the-art object detectors, e.g., YOLOv5 and YOLOv7. Our code is available at https://github.com/mkang315/CST-YOLO.
     
 
