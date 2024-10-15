@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Robust Faber--Schauder approximation based on discrete observations of an antiderivative.](http://arxiv.org/abs/2211.11907) | 本文提出了从反导数离散观测中重构Faber-Schauder系数的方法，并发现了在估计过程中只有最终产生的系数会受到位置的影响及初始值的依赖，并通过放弃这些系数获取了高质量的估计值。 |
+| [^1] | [Does AI help humans make better decisions? A methodological framework for experimental evaluation](https://arxiv.org/abs/2403.12108) | 引入一种新的实验框架用于评估人类是否通过使用AI可以做出更好的决策，在单盲实验设计中比较了三种决策系统的表现 |
 
 # 详细
 
-[^1]: 基于反导数离散观测的Faber-Schauder逼近的鲁棒性
+[^1]: AI是否有助于人类做出更好的决策？一种用于实验评估的方法论框架
 
-    Robust Faber--Schauder approximation based on discrete observations of an antiderivative. (arXiv:2211.11907v3 [math.NA] UPDATED)
+    Does AI help humans make better decisions? A methodological framework for experimental evaluation
 
-    [http://arxiv.org/abs/2211.11907](http://arxiv.org/abs/2211.11907)
+    [https://arxiv.org/abs/2403.12108](https://arxiv.org/abs/2403.12108)
 
-    本文提出了从反导数离散观测中重构Faber-Schauder系数的方法，并发现了在估计过程中只有最终产生的系数会受到位置的影响及初始值的依赖，并通过放弃这些系数获取了高质量的估计值。
+    引入一种新的实验框架用于评估人类是否通过使用AI可以做出更好的决策，在单盲实验设计中比较了三种决策系统的表现
 
     
 
-    本文研究从连续函数$f$ 的反导数$F$ 的离散观测中重构Faber-Schauder系数的问题。我们的方法是通过分段二次样条插值来描述这个问题。我们提供了一个闭合形式的解和深入的误差分析。这些结果导致了一些令人惊讶的观察，这些观察还在古典二次样条插值这一主题上投下了新的光：它们表明，这种方法的众所周知的不稳定性只能在最终一代的估计Faber-Schauder系数中找到，这些系数遭受非局部性和对初始值和给定数据的强依赖性。相比之下，所有其他的Faber-Schauder系数只依赖于数据的局部性，独立于初始值，且具有统一的误差界。因此，我们得出结论，只需放弃最终生成的系数，我们就可以获得一个鲁棒且良好的我们所研究问题的估计值。
+    基于数据驱动算法的人工智能（AI）在当今社会变得无处不在。然而，在许多情况下，尤其是当利益高昂时，人类仍然作出最终决策。因此，关键问题是AI是否有助于人类比单独的人类或单独的AI做出更好的决策。我们引入了一种新的方法论框架，用于实验性地回答这个问题，而不需要额外的假设。我们使用基于基准潜在结果的标准分类指标测量决策者做出正确决策的能力。我们考虑了一个单盲实验设计，在这个设计中，提供AI生成的建议在不同案例中被随机分配给最终决策的人类。在这种实验设计下，我们展示了如何比较三种替代决策系统的性能--仅人类、人类与AI、仅AI。
 
-    We study the problem of reconstructing the Faber--Schauder coefficients of a continuous function $f$ from discrete observations of its antiderivative $F$. Our approach starts with formulating this problem through piecewise quadratic spline interpolation. We then provide a closed-form solution and an in-depth error analysis. These results lead to some surprising observations, which also throw new light on the classical topic of quadratic spline interpolation itself: They show that the well-known instabilities of this method can be located exclusively within the final generation of estimated Faber--Schauder coefficients, which suffer from non-locality and strong dependence on the initial value and the given data. By contrast, all other Faber--Schauder coefficients depend only locally on the data, are independent of the initial value, and admit uniform error bounds. We thus conclude that a robust and well-behaved estimator for our problem can be obtained by simply dropping the final-gener
+    arXiv:2403.12108v1 Announce Type: new  Abstract: The use of Artificial Intelligence (AI) based on data-driven algorithms has become ubiquitous in today's society. Yet, in many cases and especially when stakes are high, humans still make final decisions. The critical question, therefore, is whether AI helps humans make better decisions as compared to a human alone or AI an alone. We introduce a new methodological framework that can be used to answer experimentally this question with no additional assumptions. We measure a decision maker's ability to make correct decisions using standard classification metrics based on the baseline potential outcome. We consider a single-blinded experimental design, in which the provision of AI-generated recommendations is randomized across cases with a human making final decisions. Under this experimental design, we show how to compare the performance of three alternative decision-making systems--human-alone, human-with-AI, and AI-alone. We apply the pr
     
 
