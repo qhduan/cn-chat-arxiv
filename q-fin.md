@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Does AI help humans make better decisions? A methodological framework for experimental evaluation](https://arxiv.org/abs/2403.12108) | 引入一种新的实验框架用于评估人类是否通过使用AI可以做出更好的决策，在单盲实验设计中比较了三种决策系统的表现 |
+| [^1] | [Flexible heat pumps: must-have or nice to have in a power sector with renewables?.](http://arxiv.org/abs/2307.12918) | 本研究使用开源的电力部门模型，研究了2030年德国大规模扩张分散式热泵对电力部门的影响。结果表明，热泵的推广可以通过太阳能光伏等可再生能源实现，且额外的备用容量和电力储存需求有限。 |
 
 # 详细
 
-[^1]: AI是否有助于人类做出更好的决策？一种用于实验评估的方法论框架
+[^1]: 灵活的热泵：在可再生能源领域中的电力部门中是必需还是可选？
 
-    Does AI help humans make better decisions? A methodological framework for experimental evaluation
+    Flexible heat pumps: must-have or nice to have in a power sector with renewables?. (arXiv:2307.12918v1 [econ.GN])
 
-    [https://arxiv.org/abs/2403.12108](https://arxiv.org/abs/2403.12108)
+    [http://arxiv.org/abs/2307.12918](http://arxiv.org/abs/2307.12918)
 
-    引入一种新的实验框架用于评估人类是否通过使用AI可以做出更好的决策，在单盲实验设计中比较了三种决策系统的表现
+    本研究使用开源的电力部门模型，研究了2030年德国大规模扩张分散式热泵对电力部门的影响。结果表明，热泵的推广可以通过太阳能光伏等可再生能源实现，且额外的备用容量和电力储存需求有限。
 
     
 
-    基于数据驱动算法的人工智能（AI）在当今社会变得无处不在。然而，在许多情况下，尤其是当利益高昂时，人类仍然作出最终决策。因此，关键问题是AI是否有助于人类比单独的人类或单独的AI做出更好的决策。我们引入了一种新的方法论框架，用于实验性地回答这个问题，而不需要额外的假设。我们使用基于基准潜在结果的标准分类指标测量决策者做出正确决策的能力。我们考虑了一个单盲实验设计，在这个设计中，提供AI生成的建议在不同案例中被随机分配给最终决策的人类。在这种实验设计下，我们展示了如何比较三种替代决策系统的性能--仅人类、人类与AI、仅AI。
+    热泵是减少供暖领域化石燃料使用的关键技术。向热泵的转变意味着冬季寒冷月份电力需求的增加。使用开源的电力部门模型，我们研究了2030年德国的分散式热泵大规模扩张对电力部门的影响，结合不同规模的缓冲热存储。假设热泵额外使用的电力在年度平衡中必须完全由可再生能源覆盖，我们量化了可再生能源所需的额外投资。如果风力扩张潜力有限，热泵的推广也可以通过太阳能光伏在欧洲互联连接的情况下作为附加成本较小的选择。即使在时间上不灵活的热泵的情况下，对额外备用容量和电力储存的需求通常仍然有限。我们进一步发现，在2至6小时的较小热存储容量下，系统的供需平衡仍然能够得到满足。
 
-    arXiv:2403.12108v1 Announce Type: new  Abstract: The use of Artificial Intelligence (AI) based on data-driven algorithms has become ubiquitous in today's society. Yet, in many cases and especially when stakes are high, humans still make final decisions. The critical question, therefore, is whether AI helps humans make better decisions as compared to a human alone or AI an alone. We introduce a new methodological framework that can be used to answer experimentally this question with no additional assumptions. We measure a decision maker's ability to make correct decisions using standard classification metrics based on the baseline potential outcome. We consider a single-blinded experimental design, in which the provision of AI-generated recommendations is randomized across cases with a human making final decisions. Under this experimental design, we show how to compare the performance of three alternative decision-making systems--human-alone, human-with-AI, and AI-alone. We apply the pr
+    Heat pumps are a key technology for reducing fossil fuel use in the heating sector. A transition to heat pumps implies an increase in electricity demand, especially in cold winter months. Using an open-source power sector model, we examine the power sector impacts of a massive expansion of decentralized heat pumps in Germany in 2030, combined with buffer heat storage of different sizes. Assuming that the additional electricity used by heat pumps has to be fully covered by renewable energies in a yearly balance, we quantify the required additional investments in renewable energy sources. If wind power expansion potentials are limited, the roll-out of heat pumps can also be accompanied by solar PV with little additional costs, making use of the European interconnection. The need for additional firm capacity and electricity storage generally remains limited even in the case of temporally inflexible heat pumps. We further find that relatively small heat storage capacities of 2 to 6 hours c
     
 
