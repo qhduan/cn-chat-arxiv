@@ -2,97 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [A Probabilistic Model to explain Self-Supervised Representation Learning](https://rss.arxiv.org/abs/2402.01399) | 该论文提出了一个概率模型来解释自监督表示学习的机制，并展示了鉴别性自监督算法在表示中近似诱导潜变量结构的统一理论框架。 |
-| [^2] | [Distributional Reinforcement Learning by Sinkhorn Divergence](https://rss.arxiv.org/abs/2202.00769) | 本文提出了SinkhornDRL方法，使用Sinkhorn散度来减小当前和目标Bellman回报分布之间的差异，并通过理论证明和实证实验展示了该方法的优越性。 |
-| [^3] | [A Novel Gaussian Min-Max Theorem and its Applications](https://arxiv.org/abs/2402.07356) | 本文介绍了一个新的高斯最小最大定理，扩展了经典定理对于独立但非恒定分布的情况。此外，该定理在高维统计学、机器学习、非光滑优化和信号处理等领域有广泛的应用。 |
-| [^4] | [An accelerated first-order regularized momentum descent ascent algorithm for stochastic nonconvex-concave minimax problems.](http://arxiv.org/abs/2310.15448) | 本文提出了一种加速的算法来解决随机非凸-凹极小极大问题，并证明了该算法迭代复杂度达到了最佳已知界限。 |
-| [^5] | [Variance-Aware Regret Bounds for Stochastic Contextual Dueling Bandits.](http://arxiv.org/abs/2310.00968) | 本文提出了一种新的算法，用于解决对决争夺中固有不确定性的问题，算法具有计算效率和方差感知遗憾界限。 |
-| [^6] | [Random Function Descent.](http://arxiv.org/abs/2305.01377) | 本文提出了随机函数下降(RFD)算法，可以在随机环境中计算出步长并且与贝叶斯优化中的梯度下降算法相同。在合成基准测试中，RFD算法比未调整的Adam方法表现更好，提出的heuristic扩展可与调整后的Adam方法相媲美。 |
+| [^1] | [Beyond Lengthscales: No-regret Bayesian Optimisation With Unknown Hyperparameters Of Any Type](https://rss.arxiv.org/abs/2402.01632) | 这篇论文提出了一种新的贝叶斯优化算法，可以处理具有任意类型未知超参数的情况，并具有无遗憾特性。 |
+| [^2] | [Fourier Circuits in Neural Networks: Unlocking the Potential of Large Language Models in Mathematical Reasoning and Modular Arithmetic](https://arxiv.org/abs/2402.09469) | 本研究探索了神经网络和Transformer在数学推理和模运算中的潜力。我们分析了单隐藏层神经网络和单层Transformer在解决复杂代数学习任务中的特征。阐明了边缘最大化原则对单隐藏层神经网络的影响。 |
+| [^3] | [Scalable Structure Learning for Sparse Context-Specific Causal Systems](https://arxiv.org/abs/2402.07762) | 提出了一种可扩展的混合算法，用于学习特定背景模型，通过结合基于顺序的MCMC算法和稀疏性假设实现可扩展学习，该方法在准确性和可扩展性方面表现良好。 |
+| [^4] | [Understanding What Affects Generalization Gap in Visual Reinforcement Learning: Theory and Empirical Evidence](https://arxiv.org/abs/2402.02701) | 本文通过理论和实证研究，揭示了在测试环境具有干扰因素时影响视觉强化学习中泛化差距的关键因素。结果表明，最小化训练和测试环境之间的表示距离是减少泛化差距最关键的因素。 |
+| [^5] | [TaCo: Targeted Concept Removal in Output Embeddings for NLP via Information Theory and Explainability.](http://arxiv.org/abs/2312.06499) | 本论文提出了一种新颖的方法，通过对NLP模型的嵌入层级进行操作，借鉴了最新的解释性人工智能技术，通过嵌入转换来消除隐含的敏感信息，从而实现模型的公平性。 |
 
 # 详细
 
-[^1]: 解释自监督表示学习的概率模型
+[^1]: 超越尺度：具有任意类型未知超参数的无遗憾贝叶斯优化
 
-    A Probabilistic Model to explain Self-Supervised Representation Learning
+    Beyond Lengthscales: No-regret Bayesian Optimisation With Unknown Hyperparameters Of Any Type
 
-    [https://rss.arxiv.org/abs/2402.01399](https://rss.arxiv.org/abs/2402.01399)
+    [https://rss.arxiv.org/abs/2402.01632](https://rss.arxiv.org/abs/2402.01632)
 
-    该论文提出了一个概率模型来解释自监督表示学习的机制，并展示了鉴别性自监督算法在表示中近似诱导潜变量结构的统一理论框架。
-
-    
-
-    自监督学习（SSL）通过利用辅助的无监督任务，例如对语义相关样本进行分类，如不同的数据增强或模态来学习表示。在众多SSL方法中，对比方法（例如SimCLR，CLIP和VicREG）因学习到的表示在下游性能上接近有监督学习而受到关注。然而，这些方法背后的机制的理论理解仍然存在困难。我们提出了一个生成潜变量模型来表示数据，并展示了几类具有鉴别性的自监督算法（包括对比方法）近似诱导其表示中的潜变量结构，从而提供了一个统一的理论框架。我们还证明了与互信息和投影头的相关性。通过生成式地拟合我们的模型（如SimVE），在常见的基准测试上（例如FashionMNIST，CIFAR10，CelebA），性能优于之前的VAE方法。
-
-    Self-supervised learning (SSL) learns representations by leveraging an auxiliary unsupervised task, such as classifying semantically related samples, e.g. different data augmentations or modalities. Of the many approaches to SSL, contrastive methods, e.g. SimCLR, CLIP and VicREG, have gained attention for learning representations that achieve downstream performance close to that of supervised learning. However, a theoretical understanding of the mechanism behind these methods eludes. We propose a generative latent variable model for the data and show that several families of discriminative self-supervised algorithms, including contrastive methods, approximately induce its latent structure over representations, providing a unifying theoretical framework. We also justify links to mutual information and the use of a projection head. Fitting our model generatively, as SimVE, improves performance over previous VAE methods on common benchmarks (e.g. FashionMNIST, CIFAR10, CelebA), narrows th
-    
-[^2]: 使用Sinkhorn散度的分布式强化学习
-
-    Distributional Reinforcement Learning by Sinkhorn Divergence
-
-    [https://rss.arxiv.org/abs/2202.00769](https://rss.arxiv.org/abs/2202.00769)
-
-    本文提出了SinkhornDRL方法，使用Sinkhorn散度来减小当前和目标Bellman回报分布之间的差异，并通过理论证明和实证实验展示了该方法的优越性。
+    这篇论文提出了一种新的贝叶斯优化算法，可以处理具有任意类型未知超参数的情况，并具有无遗憾特性。
 
     
 
-    分布式强化学习的实证成功高度依赖于分布表示和分布散度的选择。本文提出了Sinkhorn分布强化学习 (SinkhornDRL)的方法，该方法从回报分布中学习无限制的统计量，并利用Sinkhorn散度来减小当前和目标Bellman回报分布之间的差异。从理论上来讲，我们证明了SinkhornDRL的收缩性质，与Sinkhorn散度在Wasserstein距离和最大均值差异 (MMD)之间的插值性质一致。我们还建立了Sinkhorn散度与带有正则化Moment Matching行为的正则化MMD之间的等价关系，从而解释了SinkhornDRL的优越性。在实证上，我们展示了SinkhornDRL在Atari游戏套件上始终表现比现有算法更好或可比。
+    贝叶斯优化需要拟合高斯过程模型，而拟合高斯过程模型需要指定超参数 - 大部分理论文献假设这些超参数是已知的。之前的理论研究通常假设数据在空间中均匀填充，而常用的高斯过程超参数的最大似然估计器只有在这种情况下才是一致的。然而，在贝叶斯优化中，数据不一定满足这种均匀填充的条件。由于无法保证超参数估计的正确性，并且这些超参数可以显著影响高斯过程拟合，因此对具有未知超参数的贝叶斯优化进行理论分析非常具有挑战性。之前提出的具有无遗憾特性的算法仅能处理特殊情况下的未知长度尺度、再生核希尔伯特空间范数，并且仅适用于频率派的情况。我们提出了一种新的算法，命名为HE-GP-UCB，它是第一个具有无遗憾特性的算法，在具有未知超参数的情况下实现了贝叶斯优化。
 
-    The empirical success of distributional reinforcement learning~(RL) highly depends on the distribution representation and the choice of distribution divergence. In this paper, we propose \textit{Sinkhorn distributional RL~(SinkhornDRL)} that learns unrestricted statistics from return distributions and leverages Sinkhorn divergence to minimize the difference between current and target Bellman return distributions. Theoretically, we prove the contraction properties of SinkhornDRL, consistent with the interpolation nature of Sinkhorn divergence between Wasserstein distance and Maximum Mean Discrepancy~(MMD). We also establish the equivalence between Sinkhorn divergence and a regularized MMD with a regularized Moment Matching behavior, contributing to explaining the superiority of SinkhornDRL. Empirically, we show that SinkhornDRL is consistently better or comparable to existing algorithms on the Atari games suite.
+    Bayesian optimisation requires fitting a Gaussian process model, which in turn requires specifying hyperparameters - most of the theoretical literature assumes those hyperparameters are known. The commonly used maximum likelihood estimator for hyperparameters of the Gaussian process is consistent only if the data fills the space uniformly, which does not have to be the case in Bayesian optimisation. Since no guarantees exist regarding the correctness of hyperparameter estimation, and those hyperparameters can significantly affect the Gaussian process fit, theoretical analysis of Bayesian optimisation with unknown hyperparameters is very challenging. Previously proposed algorithms with the no-regret property were only able to handle the special case of unknown lengthscales, reproducing kernel Hilbert space norm and applied only to the frequentist case. We propose a novel algorithm, HE-GP-UCB, which is the first algorithm enjoying the no-regret property in the case of unknown hyperparame
     
-[^3]: 一个新的高斯最小最大定理及其应用
+[^2]: 神经网络中的傅立叶电路：解锁大规模语言模型在数学推理和模运算中的潜力
 
-    A Novel Gaussian Min-Max Theorem and its Applications
+    Fourier Circuits in Neural Networks: Unlocking the Potential of Large Language Models in Mathematical Reasoning and Modular Arithmetic
 
-    [https://arxiv.org/abs/2402.07356](https://arxiv.org/abs/2402.07356)
+    [https://arxiv.org/abs/2402.09469](https://arxiv.org/abs/2402.09469)
 
-    本文介绍了一个新的高斯最小最大定理，扩展了经典定理对于独立但非恒定分布的情况。此外，该定理在高维统计学、机器学习、非光滑优化和信号处理等领域有广泛的应用。
-
-    
-
-    Gordon的一个著名结果允许比较两个高斯过程的最小最大行为，如果满足某些不等式条件。这个结果的结果包括高斯最小最大（GMT）和凸高斯最小最大（CGMT）定理，这些定理在高维统计学、机器学习、非光滑优化和信号处理方面有广泛的应用。目前为止，没有发现满足这些不等式的其他一对高斯过程。在本文中，我们确定了这样一对新的高斯过程。由此得到的定理将经典的GMT定理和CGMT定理从基本过程中的底层高斯矩阵具有iid行的情况扩展到具有独立但非恒定分布的情况。新的CGMT定理应用于多源高斯回归问题，以及属于的二元分类问题。
-
-    A celebrated result by Gordon allows one to compare the min-max behavior of two Gaussian processes if certain inequality conditions are met. The consequences of this result include the Gaussian min-max (GMT) and convex Gaussian min-max (CGMT) theorems which have had far-reaching implications in high-dimensional statistics, machine learning, non-smooth optimization, and signal processing. Both theorems rely on a pair of Gaussian processes, first identified by Slepian, that satisfy Gordon's comparison inequalities. To date, no other pair of Gaussian processes satisfying these inequalities has been discovered. In this paper, we identify such a new pair. The resulting theorems extend the classical GMT and CGMT Theorems from the case where the underlying Gaussian matrix in the primary process has iid rows to where it has independent but non-identically-distributed ones. The new CGMT is applied to the problems of multi-source Gaussian regression, as well as to binary classification of genera
-    
-[^4]: 一种加速的一阶正则动量下降算法用于随机非凸-凹极小极大问题
-
-    An accelerated first-order regularized momentum descent ascent algorithm for stochastic nonconvex-concave minimax problems. (arXiv:2310.15448v1 [math.OC])
-
-    [http://arxiv.org/abs/2310.15448](http://arxiv.org/abs/2310.15448)
-
-    本文提出了一种加速的算法来解决随机非凸-凹极小极大问题，并证明了该算法迭代复杂度达到了最佳已知界限。
+    本研究探索了神经网络和Transformer在数学推理和模运算中的潜力。我们分析了单隐藏层神经网络和单层Transformer在解决复杂代数学习任务中的特征。阐明了边缘最大化原则对单隐藏层神经网络的影响。
 
     
 
-    随机非凸极小极大问题近年来在机器学习、信号处理等领域引起了广泛关注。本文提出了一种加速的一阶正则动量下降算法（FORMDA）用于解决随机非凸-凹极小极大问题。证明了该算法的迭代复杂度为$\tilde{\mathcal{O}}(\varepsilon ^{-6.5})$以达到$\varepsilon$-稳定点，这在目标函数稳定性下实现了解决随机非凸-凹极小极大问题的最佳已知复杂度界限。
+    在机器学习不断发展的背景下，理解神经网络和Transformer所利用的内部表示是一个关键挑战。本研究在近期的研究基础上，对网络采用特定计算策略背后的原因进行了探索。我们的研究聚焦于涉及k个输入的复杂代数学习任务，即模运算的加法。我们对单隐藏层神经网络和单层Transformer在解决这一任务中学到的特征进行了深入的分析。我们理论框架的一个关键是阐明边缘最大化原则对单隐藏层神经网络采用的特征的影响。其中，p表示模数，Dp表示k个输入的模运算数据集，m表示网络输出。
 
-    Stochastic nonconvex minimax problems have attracted wide attention in machine learning, signal processing and many other fields in recent years. In this paper, we propose an accelerated first-order regularized momentum descent ascent algorithm (FORMDA) for solving stochastic nonconvex-concave minimax problems. The iteration complexity of the algorithm is proved to be $\tilde{\mathcal{O}}(\varepsilon ^{-6.5})$ to obtain an $\varepsilon$-stationary point, which achieves the best-known complexity bound for single-loop algorithms to solve the stochastic nonconvex-concave minimax problems under the stationarity of the objective function.
+    arXiv:2402.09469v1 Announce Type: new  Abstract: In the evolving landscape of machine learning, a pivotal challenge lies in deciphering the internal representations harnessed by neural networks and Transformers. Building on recent progress toward comprehending how networks execute distinct target functions, our study embarks on an exploration of the underlying reasons behind networks adopting specific computational strategies. We direct our focus to the complex algebraic learning task of modular addition involving $k$ inputs. Our research presents a thorough analytical characterization of the features learned by stylized one-hidden layer neural networks and one-layer Transformers in addressing this task.   A cornerstone of our theoretical framework is the elucidation of how the principle of margin maximization shapes the features adopted by one-hidden layer neural networks. Let $p$ denote the modulus, $D_p$ denote the dataset of modular arithmetic with $k$ inputs and $m$ denote the net
     
-[^5]: 随机情境对决争夺决策的方差感知遗憾界限
+[^3]: 可扩展的稀疏特定背景下因果系统的结构学习
 
-    Variance-Aware Regret Bounds for Stochastic Contextual Dueling Bandits. (arXiv:2310.00968v1 [cs.LG])
+    Scalable Structure Learning for Sparse Context-Specific Causal Systems
 
-    [http://arxiv.org/abs/2310.00968](http://arxiv.org/abs/2310.00968)
+    [https://arxiv.org/abs/2402.07762](https://arxiv.org/abs/2402.07762)
 
-    本文提出了一种新的算法，用于解决对决争夺中固有不确定性的问题，算法具有计算效率和方差感知遗憾界限。
-
-    
-
-    对决争夺是一个重要的决策框架，涉及到偏好反馈的决策，这是一个适用于人机交互的各种应用场景的有价值特性，例如排名、信息检索和推荐系统。虽然在对决争夺中已经做出了大量的努力来最小化累计遗憾，但目前研究中存在一个明显的空白，即遗憾界限未考虑到对决手表间成对比较的固有不确定性。直观地说，更大的不确定性意味着问题的难度更高。为了填补这个空白，本文研究了情境对决争夺的问题，其中决策手表的二元对比是由广义线性模型（GLM）生成的。我们提出了一种新的SupLinUCB类型的算法，这个算法具有计算效率和一个感知方差遗憾界限$\tilde O\big(d\sqrt{\sum_{t=1}^T\sigma_t^2} + d\big)$，其中$\sigma_t$是每轮成对比较的方差。
-
-    Dueling bandits is a prominent framework for decision-making involving preferential feedback, a valuable feature that fits various applications involving human interaction, such as ranking, information retrieval, and recommendation systems. While substantial efforts have been made to minimize the cumulative regret in dueling bandits, a notable gap in the current research is the absence of regret bounds that account for the inherent uncertainty in pairwise comparisons between the dueling arms. Intuitively, greater uncertainty suggests a higher level of difficulty in the problem. To bridge this gap, this paper studies the problem of contextual dueling bandits, where the binary comparison of dueling arms is generated from a generalized linear model (GLM). We propose a new SupLinUCB-type algorithm that enjoys computational efficiency and a variance-aware regret bound $\tilde O\big(d\sqrt{\sum_{t=1}^T\sigma_t^2} + d\big)$, where $\sigma_t$ is the variance of the pairwise comparison in round
-    
-[^6]: 随机函数下降法
-
-    Random Function Descent. (arXiv:2305.01377v1 [math.OC])
-
-    [http://arxiv.org/abs/2305.01377](http://arxiv.org/abs/2305.01377)
-
-    本文提出了随机函数下降(RFD)算法，可以在随机环境中计算出步长并且与贝叶斯优化中的梯度下降算法相同。在合成基准测试中，RFD算法比未调整的Adam方法表现更好，提出的heuristic扩展可与调整后的Adam方法相媲美。
+    提出了一种可扩展的混合算法，用于学习特定背景模型，通过结合基于顺序的MCMC算法和稀疏性假设实现可扩展学习，该方法在准确性和可扩展性方面表现良好。
 
     
 
-    虽然梯度下降方法在机器学习中十分常见，但是选择正确的步长经常需要进行“超参数调整”。这是因为回溯程序如Armijo's准则依赖于每个步骤中的质量评估，而这些评估在随机情况下不可用。由于优化方案可以用Taylor逼近来解释，我们将Taylor逼近替换为条件期望（最佳的$L^2$估计），提出了“随机函数下降”（RFD）。 在Bayesian优化中常见的一些轻微假设的情况下，我们证明了RFD与梯度下降算法是相同的，但是在随机情况下具有可计算的步长。我们在合成基准测试中比未调整的Adam方法表现更好。为了缩小与调整后的Adam算法之间的性能差距，我们提出了一种启发式扩展，可与调整后的Adam方法相媲美。
+    已经提出了几种表示共同分布分类变量之间特定背景下关系的方法，并且提出了结构学习算法。然而，由于大量特定背景模型的存在，现有的基于优化的方法在可扩展性方面受到限制，而基于约束的方法比约束DAG学习算法更容易出错，因为必须测试更多关系。我们提出了一种混合算法来学习特定背景模型，能够扩展到数百个变量，并且测试的约束不多于标准DAG学习算法。通过结合基于顺序的MCMC算法和类似于DAG模型常用的稀疏性假设，实现了可扩展的学习。为了实现这种方法，我们解决了Alon和Balogh最近提出的一个开放问题的特殊情况。经过在合成数据和真实世界示例上的实验证明，该方法在准确性和可扩展性方面表现良好。
 
-    While gradient based methods are ubiquitous in machine learning, selecting the right step size often requires "hyperparameter tuning". This is because backtracking procedures like Armijo's rule depend on quality evaluations in every step, which are not available in a stochastic context. Since optimization schemes can be motivated using Taylor approximations, we replace the Taylor approximation with the conditional expectation (the best $L^2$ estimator) and propose "Random Function Descent" (RFD). Under light assumptions common in Bayesian optimization, we prove that RFD is identical to gradient descent, but with calculable step sizes, even in a stochastic context. We beat untuned Adam in synthetic benchmarks. To close the performance gap to tuned Adam, we propose a heuristic extension competitive with tuned Adam.
+    Several approaches to graphically representing context-specific relations among jointly distributed categorical variables have been proposed, along with structure learning algorithms. While existing optimization-based methods have limited scalability due to the large number of context-specific models, the constraint-based methods are more prone to error than even constraint-based DAG learning algorithms since more relations must be tested. We present a hybrid algorithm for learning context-specific models that scales to hundreds of variables while testing no more constraints than standard DAG learning algorithms. Scalable learning is achieved through a combination of an order-based MCMC algorithm and sparsity assumptions analogous to those typically invoked for DAG models. To implement the method, we solve a special case of an open problem recently posed by Alon and Balogh. The method is shown to perform well on synthetic data and real world examples, in terms of both accuracy and scal
+    
+[^4]: 理解影响视觉强化学习中泛化差距的因素：理论和实证证据
+
+    Understanding What Affects Generalization Gap in Visual Reinforcement Learning: Theory and Empirical Evidence
+
+    [https://arxiv.org/abs/2402.02701](https://arxiv.org/abs/2402.02701)
+
+    本文通过理论和实证研究，揭示了在测试环境具有干扰因素时影响视觉强化学习中泛化差距的关键因素。结果表明，最小化训练和测试环境之间的表示距离是减少泛化差距最关键的因素。
+
+    
+
+    最近，有许多努力致力于在视觉强化学习中学习对连续控制有用的策略。在这种场景下，学习一个具有泛化能力的策略非常重要，因为测试环境可能与训练环境不同，例如在部署过程中存在干扰因素。许多实际算法被提出来解决这个问题。然而，据我们所知，它们中没有一种算法能够从理论上解释泛化差距的影响因素以及为什么他们的方法有效。在本文中，我们通过在测试环境具有干扰因素时理论上回答影响泛化差距的关键因素来解决这个问题。我们的理论表明，最小化训练和测试环境之间的表示距离（与人类直觉一致）对于减少泛化差距的效益至关重要。我们的理论结果得到了DM数据的实证证据的支持。
+
+    Recently, there are many efforts attempting to learn useful policies for continuous control in visual reinforcement learning (RL). In this scenario, it is important to learn a generalizable policy, as the testing environment may differ from the training environment, e.g., there exist distractors during deployment. Many practical algorithms are proposed to handle this problem. However, to the best of our knowledge, none of them provide a theoretical understanding of what affects the generalization gap and why their proposed methods work. In this paper, we bridge this issue by theoretically answering the key factors that contribute to the generalization gap when the testing environment has distractors. Our theories indicate that minimizing the representation distance between training and testing environments, which aligns with human intuition, is the most critical for the benefit of reducing the generalization gap. Our theoretical results are supported by the empirical evidence in the DM
+    
+[^5]: TaCo：通过信息论和可解释性在NLP中的输出嵌入中实现有针对性的概念去除
+
+    TaCo: Targeted Concept Removal in Output Embeddings for NLP via Information Theory and Explainability. (arXiv:2312.06499v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2312.06499](http://arxiv.org/abs/2312.06499)
+
+    本论文提出了一种新颖的方法，通过对NLP模型的嵌入层级进行操作，借鉴了最新的解释性人工智能技术，通过嵌入转换来消除隐含的敏感信息，从而实现模型的公平性。
+
+    
+
+    自然语言处理（NLP）模型的公平性已成为一个关键问题。信息论表明，为了实现公平性，模型不应能够预测敏感变量，如性别、种族和年龄。然而，与这些变量相关的信息通常以隐式的方式出现在语言中，这给识别和减少偏见带来了挑战。为了解决这个问题，我们提出了一种新颖的方法，在NLP模型的嵌入层级上操作，独立于具体的架构。我们的方法借鉴了最近解释性人工智能技术的进展，并采用嵌入转换来消除选定变量中的隐式信息。通过直接操纵最后一层的嵌入，我们的方法能够无缝集成到现有模型中，而无需进行重大修改或重训练。在评估中，我们展示了该后处理方法显著降低了与性别相关的关联性。
+
+    The fairness of Natural Language Processing (NLP) models has emerged as a crucial concern. Information theory indicates that to achieve fairness, a model should not be able to predict sensitive variables, such as gender, ethnicity, and age. However, information related to these variables often appears implicitly in language, posing a challenge in identifying and mitigating biases effectively. To tackle this issue, we present a novel approach that operates at the embedding level of an NLP model, independent of the specific architecture. Our method leverages insights from recent advances in XAI techniques and employs an embedding transformation to eliminate implicit information from a selected variable. By directly manipulating the embeddings in the final layer, our approach enables a seamless integration into existing models without requiring significant modifications or retraining. In evaluation, we show that the proposed post-hoc approach significantly reduces gender-related associati
     
 
