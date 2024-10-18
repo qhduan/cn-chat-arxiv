@@ -2,82 +2,112 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Beyond Lengthscales: No-regret Bayesian Optimisation With Unknown Hyperparameters Of Any Type](https://rss.arxiv.org/abs/2402.01632) | 这篇论文提出了一种新的贝叶斯优化算法，可以处理具有任意类型未知超参数的情况，并具有无遗憾特性。 |
-| [^2] | [Fourier Circuits in Neural Networks: Unlocking the Potential of Large Language Models in Mathematical Reasoning and Modular Arithmetic](https://arxiv.org/abs/2402.09469) | 本研究探索了神经网络和Transformer在数学推理和模运算中的潜力。我们分析了单隐藏层神经网络和单层Transformer在解决复杂代数学习任务中的特征。阐明了边缘最大化原则对单隐藏层神经网络的影响。 |
-| [^3] | [Scalable Structure Learning for Sparse Context-Specific Causal Systems](https://arxiv.org/abs/2402.07762) | 提出了一种可扩展的混合算法，用于学习特定背景模型，通过结合基于顺序的MCMC算法和稀疏性假设实现可扩展学习，该方法在准确性和可扩展性方面表现良好。 |
-| [^4] | [Understanding What Affects Generalization Gap in Visual Reinforcement Learning: Theory and Empirical Evidence](https://arxiv.org/abs/2402.02701) | 本文通过理论和实证研究，揭示了在测试环境具有干扰因素时影响视觉强化学习中泛化差距的关键因素。结果表明，最小化训练和测试环境之间的表示距离是减少泛化差距最关键的因素。 |
-| [^5] | [TaCo: Targeted Concept Removal in Output Embeddings for NLP via Information Theory and Explainability.](http://arxiv.org/abs/2312.06499) | 本论文提出了一种新颖的方法，通过对NLP模型的嵌入层级进行操作，借鉴了最新的解释性人工智能技术，通过嵌入转换来消除隐含的敏感信息，从而实现模型的公平性。 |
+| [^1] | [Moments of Clarity: Streamlining Latent Spaces in Machine Learning using Moment Pooling](https://arxiv.org/abs/2403.08854) | 提出了一种称为Moment Pooling的新方法，通过将Deep Sets中的求和泛化为任意的多变量矩，显著降低机器学习网络的潜在空间维度，在固定的潜在维度下实现更高的有效潜在维度，从而可以直接可视化和解释内部表示。 |
+| [^2] | [Distributional Off-policy Evaluation with Bellman Residual Minimization](https://arxiv.org/abs/2402.01900) | 这篇论文研究了使用Bellman残差最小化的方法来解决分布式离线策略评估问题，并提出了一种称为能量Bellman残差最小化（EBRM）的方法来估计返回分布。在可实现性假设下，建立了EBRM估计器的有限样本误差界。 |
+| [^3] | [Stage-Aware Learning for Dynamic Treatments.](http://arxiv.org/abs/2310.19300) | 本论文提出了一种针对动态治疗的阶段感知学习方法，该方法通过估计DTR并优先考虑治疗轨迹与最佳治疗方案在决策阶段上的一致性，在提高样本效率和稳定性方面取得了重要进展。 |
+| [^4] | [Concentration for high-dimensional linear processes with dependent innovations.](http://arxiv.org/abs/2307.12395) | 本论文提出了一种针对高维线性过程的具有相关创新的集中度不等式，并利用该不等式获得了线性过程滞后自协方差矩阵最大分量范数的集中度界限。这些结果在估计高维向量自回归过程、时间序列引导和长期协方差矩阵估计中具有重要应用价值。 |
+| [^5] | [Online-to-PAC Conversions: Generalization Bounds via Regret Analysis.](http://arxiv.org/abs/2305.19674) | 本文提出了在线学习游戏“泛化游戏”的框架，将在线学习算法的表现和统计学习算法的泛化界限联系了起来，并得出了一些标准的泛化限制。 |
+| [^6] | [Orthogonal polynomial approximation and Extended Dynamic Mode Decomposition in chaos.](http://arxiv.org/abs/2305.08074) | 本文在简单的混沌映射上证明了扩展动态模态分解（EDMD）对于多项式可观测字典有指数效率，从而有效处理了混沌动力学中的正则函数问题，并展示了在这种情况下使用EDMD产生的预测和Koopman谱数据收敛至物理上有意义的极限。 |
+| [^7] | [FAStEN: an efficient adaptive method for feature selection and estimation in high-dimensional functional regressions.](http://arxiv.org/abs/2303.14801) | 提出了一种新的自适应方法FAStEN，用于在高维函数回归问题中执行特征选择和参数估计，通过利用函数主成分和对偶增广Lagrangian问题的稀疏性质，具有显著的计算效率和选择准确性。 |
 
 # 详细
 
-[^1]: 超越尺度：具有任意类型未知超参数的无遗憾贝叶斯优化
+[^1]: 清晰瞬间：使用Moment Pooling简化机器学习中的潜在空间
 
-    Beyond Lengthscales: No-regret Bayesian Optimisation With Unknown Hyperparameters Of Any Type
+    Moments of Clarity: Streamlining Latent Spaces in Machine Learning using Moment Pooling
 
-    [https://rss.arxiv.org/abs/2402.01632](https://rss.arxiv.org/abs/2402.01632)
+    [https://arxiv.org/abs/2403.08854](https://arxiv.org/abs/2403.08854)
 
-    这篇论文提出了一种新的贝叶斯优化算法，可以处理具有任意类型未知超参数的情况，并具有无遗憾特性。
-
-    
-
-    贝叶斯优化需要拟合高斯过程模型，而拟合高斯过程模型需要指定超参数 - 大部分理论文献假设这些超参数是已知的。之前的理论研究通常假设数据在空间中均匀填充，而常用的高斯过程超参数的最大似然估计器只有在这种情况下才是一致的。然而，在贝叶斯优化中，数据不一定满足这种均匀填充的条件。由于无法保证超参数估计的正确性，并且这些超参数可以显著影响高斯过程拟合，因此对具有未知超参数的贝叶斯优化进行理论分析非常具有挑战性。之前提出的具有无遗憾特性的算法仅能处理特殊情况下的未知长度尺度、再生核希尔伯特空间范数，并且仅适用于频率派的情况。我们提出了一种新的算法，命名为HE-GP-UCB，它是第一个具有无遗憾特性的算法，在具有未知超参数的情况下实现了贝叶斯优化。
-
-    Bayesian optimisation requires fitting a Gaussian process model, which in turn requires specifying hyperparameters - most of the theoretical literature assumes those hyperparameters are known. The commonly used maximum likelihood estimator for hyperparameters of the Gaussian process is consistent only if the data fills the space uniformly, which does not have to be the case in Bayesian optimisation. Since no guarantees exist regarding the correctness of hyperparameter estimation, and those hyperparameters can significantly affect the Gaussian process fit, theoretical analysis of Bayesian optimisation with unknown hyperparameters is very challenging. Previously proposed algorithms with the no-regret property were only able to handle the special case of unknown lengthscales, reproducing kernel Hilbert space norm and applied only to the frequentist case. We propose a novel algorithm, HE-GP-UCB, which is the first algorithm enjoying the no-regret property in the case of unknown hyperparame
-    
-[^2]: 神经网络中的傅立叶电路：解锁大规模语言模型在数学推理和模运算中的潜力
-
-    Fourier Circuits in Neural Networks: Unlocking the Potential of Large Language Models in Mathematical Reasoning and Modular Arithmetic
-
-    [https://arxiv.org/abs/2402.09469](https://arxiv.org/abs/2402.09469)
-
-    本研究探索了神经网络和Transformer在数学推理和模运算中的潜力。我们分析了单隐藏层神经网络和单层Transformer在解决复杂代数学习任务中的特征。阐明了边缘最大化原则对单隐藏层神经网络的影响。
+    提出了一种称为Moment Pooling的新方法，通过将Deep Sets中的求和泛化为任意的多变量矩，显著降低机器学习网络的潜在空间维度，在固定的潜在维度下实现更高的有效潜在维度，从而可以直接可视化和解释内部表示。
 
     
 
-    在机器学习不断发展的背景下，理解神经网络和Transformer所利用的内部表示是一个关键挑战。本研究在近期的研究基础上，对网络采用特定计算策略背后的原因进行了探索。我们的研究聚焦于涉及k个输入的复杂代数学习任务，即模运算的加法。我们对单隐藏层神经网络和单层Transformer在解决这一任务中学到的特征进行了深入的分析。我们理论框架的一个关键是阐明边缘最大化原则对单隐藏层神经网络采用的特征的影响。其中，p表示模数，Dp表示k个输入的模运算数据集，m表示网络输出。
+    许多机器学习应用涉及学习数据的潜在表示，通常是高维且难以直接解释。在这项工作中，我们提出了“Moment Pooling”，这是Deep Sets网络的一个自然延伸，可大幅减少这些网络的潜在空间维度，同时维持甚至提高性能。Moment Pooling将Deep Sets中的求和泛化为任意的多变量矩，使模型能够在固定的潜在维度下实现更高的有效潜在维度。我们将Moment Pooling应用于夸克/胶子喷注分类的对撞机物理任务，通过将Energy Flow Networks（EFNs）扩展为Moment EFNs。我们发现，具有小至1的潜在维度的Moment EFNs表现与具有较高潜在维度的普通EFNs类似。这种小潜在维度使内部表示可以直接可视化和解释。
 
-    arXiv:2402.09469v1 Announce Type: new  Abstract: In the evolving landscape of machine learning, a pivotal challenge lies in deciphering the internal representations harnessed by neural networks and Transformers. Building on recent progress toward comprehending how networks execute distinct target functions, our study embarks on an exploration of the underlying reasons behind networks adopting specific computational strategies. We direct our focus to the complex algebraic learning task of modular addition involving $k$ inputs. Our research presents a thorough analytical characterization of the features learned by stylized one-hidden layer neural networks and one-layer Transformers in addressing this task.   A cornerstone of our theoretical framework is the elucidation of how the principle of margin maximization shapes the features adopted by one-hidden layer neural networks. Let $p$ denote the modulus, $D_p$ denote the dataset of modular arithmetic with $k$ inputs and $m$ denote the net
+    arXiv:2403.08854v1 Announce Type: cross  Abstract: Many machine learning applications involve learning a latent representation of data, which is often high-dimensional and difficult to directly interpret. In this work, we propose "Moment Pooling", a natural extension of Deep Sets networks which drastically decrease latent space dimensionality of these networks while maintaining or even improving performance. Moment Pooling generalizes the summation in Deep Sets to arbitrary multivariate moments, which enables the model to achieve a much higher effective latent dimensionality for a fixed latent dimension. We demonstrate Moment Pooling on the collider physics task of quark/gluon jet classification by extending Energy Flow Networks (EFNs) to Moment EFNs. We find that Moment EFNs with latent dimensions as small as 1 perform similarly to ordinary EFNs with higher latent dimension. This small latent dimension allows for the internal representation to be directly visualized and interpreted, w
     
-[^3]: 可扩展的稀疏特定背景下因果系统的结构学习
+[^2]: 使用Bellman残差最小化的分布式离线策略评估
 
-    Scalable Structure Learning for Sparse Context-Specific Causal Systems
+    Distributional Off-policy Evaluation with Bellman Residual Minimization
 
-    [https://arxiv.org/abs/2402.07762](https://arxiv.org/abs/2402.07762)
+    [https://arxiv.org/abs/2402.01900](https://arxiv.org/abs/2402.01900)
 
-    提出了一种可扩展的混合算法，用于学习特定背景模型，通过结合基于顺序的MCMC算法和稀疏性假设实现可扩展学习，该方法在准确性和可扩展性方面表现良好。
-
-    
-
-    已经提出了几种表示共同分布分类变量之间特定背景下关系的方法，并且提出了结构学习算法。然而，由于大量特定背景模型的存在，现有的基于优化的方法在可扩展性方面受到限制，而基于约束的方法比约束DAG学习算法更容易出错，因为必须测试更多关系。我们提出了一种混合算法来学习特定背景模型，能够扩展到数百个变量，并且测试的约束不多于标准DAG学习算法。通过结合基于顺序的MCMC算法和类似于DAG模型常用的稀疏性假设，实现了可扩展的学习。为了实现这种方法，我们解决了Alon和Balogh最近提出的一个开放问题的特殊情况。经过在合成数据和真实世界示例上的实验证明，该方法在准确性和可扩展性方面表现良好。
-
-    Several approaches to graphically representing context-specific relations among jointly distributed categorical variables have been proposed, along with structure learning algorithms. While existing optimization-based methods have limited scalability due to the large number of context-specific models, the constraint-based methods are more prone to error than even constraint-based DAG learning algorithms since more relations must be tested. We present a hybrid algorithm for learning context-specific models that scales to hundreds of variables while testing no more constraints than standard DAG learning algorithms. Scalable learning is achieved through a combination of an order-based MCMC algorithm and sparsity assumptions analogous to those typically invoked for DAG models. To implement the method, we solve a special case of an open problem recently posed by Alon and Balogh. The method is shown to perform well on synthetic data and real world examples, in terms of both accuracy and scal
-    
-[^4]: 理解影响视觉强化学习中泛化差距的因素：理论和实证证据
-
-    Understanding What Affects Generalization Gap in Visual Reinforcement Learning: Theory and Empirical Evidence
-
-    [https://arxiv.org/abs/2402.02701](https://arxiv.org/abs/2402.02701)
-
-    本文通过理论和实证研究，揭示了在测试环境具有干扰因素时影响视觉强化学习中泛化差距的关键因素。结果表明，最小化训练和测试环境之间的表示距离是减少泛化差距最关键的因素。
+    这篇论文研究了使用Bellman残差最小化的方法来解决分布式离线策略评估问题，并提出了一种称为能量Bellman残差最小化（EBRM）的方法来估计返回分布。在可实现性假设下，建立了EBRM估计器的有限样本误差界。
 
     
 
-    最近，有许多努力致力于在视觉强化学习中学习对连续控制有用的策略。在这种场景下，学习一个具有泛化能力的策略非常重要，因为测试环境可能与训练环境不同，例如在部署过程中存在干扰因素。许多实际算法被提出来解决这个问题。然而，据我们所知，它们中没有一种算法能够从理论上解释泛化差距的影响因素以及为什么他们的方法有效。在本文中，我们通过在测试环境具有干扰因素时理论上回答影响泛化差距的关键因素来解决这个问题。我们的理论表明，最小化训练和测试环境之间的表示距离（与人类直觉一致）对于减少泛化差距的效益至关重要。我们的理论结果得到了DM数据的实证证据的支持。
+    我们考虑分布式离线策略评估的问题，它是许多分布式强化学习（DRL）算法的基础。与大多数现有的方法（依赖于最大值-扩展的统计距离，如最大值Wasserstein距离）不同，我们研究用于量化分布式Bellman残差的期望-扩展的统计距离，并且证明它可以上界估计返回分布的期望误差。基于这个有吸引力的性质，通过将Bellman残差最小化框架推广到DRL，我们提出了一种称为能量Bellman残差最小化（EBRM）的方法来估计返回分布。我们在可实现性假设下建立了EBRM估计器的有限样本误差界。此外，我们引入了一种基于多步引导过程的方法的变体，以实现多步扩展。通过选择适当的步长，我们获得了更好的误差界。
 
-    Recently, there are many efforts attempting to learn useful policies for continuous control in visual reinforcement learning (RL). In this scenario, it is important to learn a generalizable policy, as the testing environment may differ from the training environment, e.g., there exist distractors during deployment. Many practical algorithms are proposed to handle this problem. However, to the best of our knowledge, none of them provide a theoretical understanding of what affects the generalization gap and why their proposed methods work. In this paper, we bridge this issue by theoretically answering the key factors that contribute to the generalization gap when the testing environment has distractors. Our theories indicate that minimizing the representation distance between training and testing environments, which aligns with human intuition, is the most critical for the benefit of reducing the generalization gap. Our theoretical results are supported by the empirical evidence in the DM
+    We consider the problem of distributional off-policy evaluation which serves as the foundation of many distributional reinforcement learning (DRL) algorithms. In contrast to most existing works (that rely on supremum-extended statistical distances such as supremum-Wasserstein distance), we study the expectation-extended statistical distance for quantifying the distributional Bellman residuals and show that it can upper bound the expected error of estimating the return distribution. Based on this appealing property, by extending the framework of Bellman residual minimization to DRL, we propose a method called Energy Bellman Residual Minimizer (EBRM) to estimate the return distribution. We establish a finite-sample error bound for the EBRM estimator under the realizability assumption. Furthermore, we introduce a variant of our method based on a multi-step bootstrapping procedure to enable multi-step extension. By selecting an appropriate step level, we obtain a better error bound for thi
     
-[^5]: TaCo：通过信息论和可解释性在NLP中的输出嵌入中实现有针对性的概念去除
+[^3]: 针对动态治疗的阶段感知学习
 
-    TaCo: Targeted Concept Removal in Output Embeddings for NLP via Information Theory and Explainability. (arXiv:2312.06499v2 [cs.CL] UPDATED)
+    Stage-Aware Learning for Dynamic Treatments. (arXiv:2310.19300v1 [stat.ML])
 
-    [http://arxiv.org/abs/2312.06499](http://arxiv.org/abs/2312.06499)
+    [http://arxiv.org/abs/2310.19300](http://arxiv.org/abs/2310.19300)
 
-    本论文提出了一种新颖的方法，通过对NLP模型的嵌入层级进行操作，借鉴了最新的解释性人工智能技术，通过嵌入转换来消除隐含的敏感信息，从而实现模型的公平性。
+    本论文提出了一种针对动态治疗的阶段感知学习方法，该方法通过估计DTR并优先考虑治疗轨迹与最佳治疗方案在决策阶段上的一致性，在提高样本效率和稳定性方面取得了重要进展。
 
     
 
-    自然语言处理（NLP）模型的公平性已成为一个关键问题。信息论表明，为了实现公平性，模型不应能够预测敏感变量，如性别、种族和年龄。然而，与这些变量相关的信息通常以隐式的方式出现在语言中，这给识别和减少偏见带来了挑战。为了解决这个问题，我们提出了一种新颖的方法，在NLP模型的嵌入层级上操作，独立于具体的架构。我们的方法借鉴了最近解释性人工智能技术的进展，并采用嵌入转换来消除选定变量中的隐式信息。通过直接操纵最后一层的嵌入，我们的方法能够无缝集成到现有模型中，而无需进行重大修改或重训练。在评估中，我们展示了该后处理方法显著降低了与性别相关的关联性。
+    最近对动态治疗方案（DTRs）的研究取得了重要进展，提出了强大的优化治疗搜索算法，根据个体具体需求量身定制，并能最大化其预期的临床效益。然而，现有算法在优化治疗下可能会受到样本量不足的困扰，尤其是在涉及长时间决策阶段的慢性疾病中。为了解决这些挑战，我们提出了一种新颖的个体化学习方法，重点是估计DTR，并优先考虑观察到的治疗轨迹与最佳治疗方案在决策阶段上的一致性。通过放宽观察到的轨迹必须完全与最佳治疗一致的限制，我们的方法大大提高了基于倒数概率加权方法的样本效率和稳定性。具体而言，所提出的学习方案构建了一个更通用的框架，包括了流行的结果加权学习框架。
 
-    The fairness of Natural Language Processing (NLP) models has emerged as a crucial concern. Information theory indicates that to achieve fairness, a model should not be able to predict sensitive variables, such as gender, ethnicity, and age. However, information related to these variables often appears implicitly in language, posing a challenge in identifying and mitigating biases effectively. To tackle this issue, we present a novel approach that operates at the embedding level of an NLP model, independent of the specific architecture. Our method leverages insights from recent advances in XAI techniques and employs an embedding transformation to eliminate implicit information from a selected variable. By directly manipulating the embeddings in the final layer, our approach enables a seamless integration into existing models without requiring significant modifications or retraining. In evaluation, we show that the proposed post-hoc approach significantly reduces gender-related associati
+    Recent advances in dynamic treatment regimes (DTRs) provide powerful optimal treatment searching algorithms, which are tailored to individuals' specific needs and able to maximize their expected clinical benefits. However, existing algorithms could suffer from insufficient sample size under optimal treatments, especially for chronic diseases involving long stages of decision-making. To address these challenges, we propose a novel individualized learning method which estimates the DTR with a focus on prioritizing alignment between the observed treatment trajectory and the one obtained by the optimal regime across decision stages. By relaxing the restriction that the observed trajectory must be fully aligned with the optimal treatments, our approach substantially improves the sample efficiency and stability of inverse probability weighted based methods. In particular, the proposed learning scheme builds a more general framework which includes the popular outcome weighted learning framewo
+    
+[^4]: 高维线性过程中具有相关创新的集中度
+
+    Concentration for high-dimensional linear processes with dependent innovations. (arXiv:2307.12395v1 [math.ST])
+
+    [http://arxiv.org/abs/2307.12395](http://arxiv.org/abs/2307.12395)
+
+    本论文提出了一种针对高维线性过程的具有相关创新的集中度不等式，并利用该不等式获得了线性过程滞后自协方差矩阵最大分量范数的集中度界限。这些结果在估计高维向量自回归过程、时间序列引导和长期协方差矩阵估计中具有重要应用价值。
+
+    
+
+    我们针对具有子韦布尔尾的混合序列上的线性过程的$l_\infty$范数开发了集中不等式。这些不等式利用了Beveridge-Nelson分解，将问题简化为向量混合序列或其加权和的上确界范数的集中度。这个不等式用于得到线性过程的滞后$h$自协方差矩阵的最大分量范数的集中度界限。这些结果对于使用$l_1$正则化估计的高维向量自回归过程的估计界限、时间序列的高维高斯引导、以及长期协方差矩阵估计非常有用。
+
+    We develop concentration inequalities for the $l_\infty$ norm of a vector linear processes on mixingale sequences with sub-Weibull tails. These inequalities make use of the Beveridge-Nelson decomposition, which reduces the problem to concentration for sup-norm of a vector-mixingale or its weighted sum. This inequality is used to obtain a concentration bound for the maximum entrywise norm of the lag-$h$ autocovariance matrices of linear processes. These results are useful for estimation bounds for high-dimensional vector-autoregressive processes estimated using $l_1$ regularisation, high-dimensional Gaussian bootstrap for time series, and long-run covariance matrix estimation.
+    
+[^5]: 在线到PAC的转换: 通过遗憾分析得出泛化界限
+
+    Online-to-PAC Conversions: Generalization Bounds via Regret Analysis. (arXiv:2305.19674v1 [stat.ML])
+
+    [http://arxiv.org/abs/2305.19674](http://arxiv.org/abs/2305.19674)
+
+    本文提出了在线学习游戏“泛化游戏”的框架，将在线学习算法的表现和统计学习算法的泛化界限联系了起来，并得出了一些标准的泛化限制。
+
+    
+
+    我们提出了一个新的框架，通过在线学习的视角推导出统计学习算法的泛化界限。具体而言，我们构建了一个在线学习游戏称为“泛化游戏”，其中在线学习器试图与固定的统计学习算法竞争，预测独立同分布数据点训练集上的泛化间隙序列。我们通过展示在这个游戏中存在有界遗憾的在线学习算法与统计学习设置之间的联系来建立这种关联，这意味着统计学习算法的泛化错误存在一个界限，直到与统计学习方法的复杂性无关的鞅浓度项。这种技术允许我们恢复几个标准的泛化限制，包括一系列的PAC-Bayesian保证和信息理论保证，以及它们的推广。
+
+    We present a new framework for deriving bounds on the generalization bound of statistical learning algorithms from the perspective of online learning. Specifically, we construct an online learning game called the "generalization game", where an online learner is trying to compete with a fixed statistical learning algorithm in predicting the sequence of generalization gaps on a training set of i.i.d. data points. We establish a connection between the online and statistical learning setting by showing that the existence of an online learning algorithm with bounded regret in this game implies a bound on the generalization error of the statistical learning algorithm, up to a martingale concentration term that is independent of the complexity of the statistical learning method. This technique allows us to recover several standard generalization bounds including a range of PAC-Bayesian and information-theoretic guarantees, as well as generalizations thereof.
+    
+[^6]: 正交多项式逼近和扩展动态模态分解在混沌中的应用
+
+    Orthogonal polynomial approximation and Extended Dynamic Mode Decomposition in chaos. (arXiv:2305.08074v1 [math.NA])
+
+    [http://arxiv.org/abs/2305.08074](http://arxiv.org/abs/2305.08074)
+
+    本文在简单的混沌映射上证明了扩展动态模态分解（EDMD）对于多项式可观测字典有指数效率，从而有效处理了混沌动力学中的正则函数问题，并展示了在这种情况下使用EDMD产生的预测和Koopman谱数据收敛至物理上有意义的极限。
+
+    
+
+    扩展动态模态分解（EDMD）是一种数据驱动的工具，用于动态的预测和模型简化，在物理科学领域得到广泛应用。虽然这种方法在概念上很简单，但在确定性混沌中，它的性质或者它的收敛性还不清楚。特别是，EDMD的最小二乘逼近如何处理需要描绘混沌动力学含义的正则函数的类别，这也是不清楚的。本文在分析上简单的一个圆环展开映射的最简单例子上，发展了关于EDMD的一般的、严格的理论。证明了一个新的关于在单位圆上的正交多项式（OPUC）的理论结果，我们证明在无限数据极限时，针对多项式的可观测字典的最小二乘投影具有指数效率。因此，我们展示了在这种情况下使用EDMD产生的预测和Koopman谱数据收敛到物理上有意义的极限的指数速率。
+
+    Extended Dynamic Mode Decomposition (EDMD) is a data-driven tool for forecasting and model reduction of dynamics, which has been extensively taken up in the physical sciences. While the method is conceptually simple, in deterministic chaos it is unclear what its properties are or even what it converges to. In particular, it is not clear how EDMD's least-squares approximation treats the classes of regular functions needed to make sense of chaotic dynamics.  In this paper we develop a general, rigorous theory of EDMD on the simplest examples of chaotic maps: analytic expanding maps of the circle. Proving a new result in the theory of orthogonal polynomials on the unit circle (OPUC), we show that in the infinite-data limit, the least-squares projection is exponentially efficient for polynomial observable dictionaries. As a result, we show that the forecasts and Koopman spectral data produced using EDMD in this setting converge to the physically meaningful limits, at an exponential rate.  
+    
+[^7]: 高维函数回归中特征选择和估计的一种高效自适应方法--FAStEN
+
+    FAStEN: an efficient adaptive method for feature selection and estimation in high-dimensional functional regressions. (arXiv:2303.14801v1 [stat.ME])
+
+    [http://arxiv.org/abs/2303.14801](http://arxiv.org/abs/2303.14801)
+
+    提出了一种新的自适应方法FAStEN，用于在高维函数回归问题中执行特征选择和参数估计，通过利用函数主成分和对偶增广Lagrangian问题的稀疏性质，具有显著的计算效率和选择准确性。
+
+    
+
+    函数回归分析是许多当代科学应用的已建立工具。涉及大规模和复杂数据集的回归问题是普遍存在的，特征选择对于避免过度拟合和实现准确预测至关重要。我们提出了一种新的、灵活的、超高效的方法，用于在稀疏高维函数回归问题中执行特征选择，并展示了如何将其扩展到标量对函数框架中。我们的方法将函数数据、优化和机器学习技术相结合，以同时执行特征选择和参数估计。我们利用函数主成分的特性以及对偶增广Lagrangian问题的稀疏性质，显著降低了计算成本，并引入了自适应方案来提高选择准确性。通过广泛的模拟研究，我们将我们的方法与最佳现有竞争对手进行了基准测试，并证明了我们的方法的高效性。
+
+    Functional regression analysis is an established tool for many contemporary scientific applications. Regression problems involving large and complex data sets are ubiquitous, and feature selection is crucial for avoiding overfitting and achieving accurate predictions. We propose a new, flexible, and ultra-efficient approach to perform feature selection in a sparse high dimensional function-on-function regression problem, and we show how to extend it to the scalar-on-function framework. Our method combines functional data, optimization, and machine learning techniques to perform feature selection and parameter estimation simultaneously. We exploit the properties of Functional Principal Components, and the sparsity inherent to the Dual Augmented Lagrangian problem to significantly reduce computational cost, and we introduce an adaptive scheme to improve selection accuracy. Through an extensive simulation study, we benchmark our approach to the best existing competitors and demonstrate a 
     
 
