@@ -2,112 +2,172 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Can Large Language Models Identify Authorship?](https://arxiv.org/abs/2403.08213) | 大型语言模型在作者识别方面的潜力尚未得到充分探索，本文通过全面评估解决了LLMs在作者验证和归属中的三个关键研究问题。 |
-| [^2] | [LLM4Decompile: Decompiling Binary Code with Large Language Models](https://arxiv.org/abs/2403.05286) | 发布首批开放访问的反编译LLM，预训练在40亿个C源代码和汇编代码标记上，引入了第一个考虑重新编译性和重新执行性的反编译数据集。 |
-| [^3] | [PHAnToM: Personality Has An Effect on Theory-of-Mind Reasoning in Large Language Models](https://arxiv.org/abs/2403.02246) | 通过提示引发特定人格对大型语言模型的心理理论推理能力产生显著影响，特别是来自黑暗三合会的特质对多种LLMs在不同ToM任务中具有较大效应。 |
-| [^4] | [Fine-grained and Explainable Factuality Evaluation for Multimodal Summarization](https://arxiv.org/abs/2402.11414) | 提出两种细粒度和可解释的评估框架，用于评估多模态摘要模型的事实性，其中无参考事实性评估框架具有更广泛的应用场景，实验证实了方法的有效性。 |
-| [^5] | [DNABERT-S: Learning Species-Aware DNA Embedding with Genome Foundation Models](https://arxiv.org/abs/2402.08777) | DNABERT-S是一种专门用于创建物种感知的DNA嵌入的基因组基础模型。为了提高对长读DNA序列的嵌入效果，引入了Manifold Instance Mixup (MI-Mix)对比目标方法来训练模型。 |
-| [^6] | [Improving Reinforcement Learning from Human Feedback with Efficient Reward Model Ensemble.](http://arxiv.org/abs/2401.16635) | 本论文提出一种通过高效的奖励模型集成来改进人工反馈强化学习的方法，以解决由于奖励模型预测不准确而导致RLHF输出与人类价值观不一致的问题。 |
-| [^7] | [Interactive Concept Learning for Uncovering Latent Themes in Large Text Collections.](http://arxiv.org/abs/2305.05094) | 本研究提出了一种交互式框架，用于在大型文本集合中揭示潜在的、被领域专家视为相关的概念，既实现了自动化又减少了手动编码的工作量。 |
+| [^1] | [TravelPlanner: A Benchmark for Real-World Planning with Language Agents](https://rss.arxiv.org/abs/2402.01622) | 本论文提出了一种用于自然语言代理的新的规划基准TravelPlanner，它关注于旅行规划这一常见的真实世界场景。经过全面评估，发现目前的语言代理仍无法处理如此复杂的规划任务，即使最先进的GPT-4也只能达到0.6%的成功率。 |
+| [^2] | [Few-Shot Adversarial Prompt Learning on Vision-Language Models](https://arxiv.org/abs/2403.14774) | 本文提出了一个少样本对抗提示框架，在视觉-语言模型中通过有限数据调整输入序列，显著提升对抗鲁棒性，并通过端到端学习对抗性相关的文本监督。 |
+| [^3] | [Interpreting Context Look-ups in Transformers: Investigating Attention-MLP Interactions](https://arxiv.org/abs/2402.15055) | 该研究探究了Transformer中注意力头和MLP之间的相互作用，并揭示了特定上下文下激活特定token预测的机制，从而阐明在LLMs中注意力如何促成依赖上下文的专门化处理。 |
+| [^4] | [From Keywords to Structured Summaries: Streamlining Scholarly Knowledge Access](https://arxiv.org/abs/2402.14622) | 该论文突出了信息检索引擎在科学界的重要性，并提出了一种通过结构化记录和先进信息技术工具实现的解决方案，以革新研究人员访问和过滤文章的方式。 |
+| [^5] | [Reinforcement Learning with Dynamic Multi-Reward Weighting for Multi-Style Controllable Generation](https://arxiv.org/abs/2402.14146) | 本文提出了一种使用强化学习来控制多种风格生成的方法，通过动态权重调整多重奖励，实现了在生成文本时同时控制多种风格。 |
+| [^6] | [Learning to Poison Large Language Models During Instruction Tuning](https://arxiv.org/abs/2402.13459) | 通过设计新的数据注入攻击攻击LLMs，并提出一种梯度引导后门触发器学习方法，通过实验验证表明成功地破坏模型输出，仅改变1%的指导调优样本即可导致性能下降率达到约80％。 |
+| [^7] | [Generative AI Security: Challenges and Countermeasures](https://arxiv.org/abs/2402.12617) | 生成式人工智能的安全挑战及对策研究。 |
+| [^8] | [Jailbreaking Proprietary Large Language Models using Word Substitution Cipher](https://arxiv.org/abs/2402.10601) | 本文使用密码技术编码了越狱提示，成功地绕过了大型语言模型对有害问题的检测，实验结果显示攻击成功率高达59.42%。 |
+| [^9] | [Reconfidencing LLMs from the Grouping Loss Perspective](https://arxiv.org/abs/2402.04957) | 本论文研究了大型语言模型的信心问题，发现现有的校准方法不足以解决由于分组损失导致的预测分数与实际概率偏离的问题。我们提出了一种解决方案，可以重新确定LLMs，改善它们的自信度。 |
+| [^10] | [Let Me Teach You: Pedagogical Foundations of Feedback for Language Models.](http://arxiv.org/abs/2307.00279) | 这篇观点文章介绍了一个基于教育学理念的反馈框架FELT，用于对大型语言模型进行反馈，以提高模型与人类偏好的一致性。该框架不仅简化了现有的手工设计反馈，还为NLF研究开辟了新方向。 |
+| [^11] | [GPT-SW3: An Autoregressive Language Model for the Nordic Languages.](http://arxiv.org/abs/2305.12987) | GPT-SW3是面向北欧语言的第一个本地化大型生成语言模型，本文介绍了其开发过程，可作为其他研究人员开发面向较小语言的大型生成模型的指南和参考。 |
 
 # 详细
 
-[^1]: 大型语言模型能否识别作者身份？
+[^1]: TravelPlanner: 一种用于自然语言代理的真实世界规划基准
 
-    Can Large Language Models Identify Authorship?
+    TravelPlanner: A Benchmark for Real-World Planning with Language Agents
 
-    [https://arxiv.org/abs/2403.08213](https://arxiv.org/abs/2403.08213)
+    [https://rss.arxiv.org/abs/2402.01622](https://rss.arxiv.org/abs/2402.01622)
 
-    大型语言模型在作者识别方面的潜力尚未得到充分探索，本文通过全面评估解决了LLMs在作者验证和归属中的三个关键研究问题。
-
-    
-
-    精准识别作者身份对验证内容真实性和减少误导信息至关重要。 大型语言模型（LLMs）展示了出色的推理和问题解决能力。然而，它们在作者分析（包括作者验证和归属）方面的潜力仍未得到充分探索。 本文对LLMs在这些关键任务中进行了全面评估。 传统研究依赖于手工制作的文体特征，而最先进的方法利用预先训练的语言模型中的文本嵌入。 这些方法通常需要在标记数据上进行微调，然而在跨领域应用中往往表现出性能下降，并提供有限的可解释性。 本文旨在回答三个研究问题：（1）LLMs能否有效执行零样本、端到端的作者验证？（2）LLMs能否准确进行作者身份归属？
-
-    arXiv:2403.08213v1 Announce Type: new  Abstract: The ability to accurately identify authorship is crucial for verifying content authenticity and mitigating misinformation. Large Language Models (LLMs) have demonstrated exceptional capacity for reasoning and problem-solving. However, their potential in authorship analysis, encompassing authorship verification and attribution, remains underexplored. This paper conducts a comprehensive evaluation of LLMs in these critical tasks. Traditional studies have depended on hand-crafted stylistic features, whereas state-of-the-art approaches leverage text embeddings from pre-trained language models. These methods, which typically require fine-tuning on labeled data, often suffer from performance degradation in cross-domain applications and provide limited explainability. This work seeks to address three research questions: (1) Can LLMs perform zero-shot, end-to-end authorship verification effectively? (2) Are LLMs capable of accurately attributing
-    
-[^2]: LLM4Decompile：使用大型语言模型对二进制代码进行反编译
-
-    LLM4Decompile: Decompiling Binary Code with Large Language Models
-
-    [https://arxiv.org/abs/2403.05286](https://arxiv.org/abs/2403.05286)
-
-    发布首批开放访问的反编译LLM，预训练在40亿个C源代码和汇编代码标记上，引入了第一个考虑重新编译性和重新执行性的反编译数据集。
+    本论文提出了一种用于自然语言代理的新的规划基准TravelPlanner，它关注于旅行规划这一常见的真实世界场景。经过全面评估，发现目前的语言代理仍无法处理如此复杂的规划任务，即使最先进的GPT-4也只能达到0.6%的成功率。
 
     
 
-    反编译旨在将编译代码恢复为可读性强的源代码，但在名称和结构等细节方面存在困难。大型语言模型（LLMs）在编程任务中显示出潜力，激发了它们在反编译中的应用。然而，目前尚无用于反编译的开源LLM。此外，现有的反编译评估系统主要考虑标记级准确性，而很大程度上忽略了代码的可执行性，这是任何程序最重要的特征。因此，我们发布了首批开放访问的反编译LLM，范围从10亿到330亿，预先训练了40亿个令牌的C源代码和相应的汇编代码。这些开源LLM可以作为该领域进一步发展的基线。为了确保实际程序评估，我们引入了Decompile-Eval，这是第一个考虑重新编译性和重新执行性的反编译数据集。该基准强调了评估的重要性。
+    自规划起初就是人工智能的核心追求之一，但早期的人工智能代理大多集中在受限环境下，因为缺乏进行人类水平规划所需的许多认知基础。最近，由大型语言模型（LLM）驱动的语言代理展现出了工具使用和推理等有趣的能力。这些语言代理能否在超出先前人工智能代理范围的更复杂环境中进行规划？为了推进这项研究，我们提出了TravelPlanner，这是一个新的规划基准，专注于旅行规划这个常见的真实世界规划场景。它提供了一个丰富的沙盒环境，各种用于访问近400万个数据记录的工具，并包含1225个精心策划的规划意图和参考计划。综合评估显示，当前的语言代理尚不具备处理如此复杂的规划任务的能力-即使是GPT-4的成功率也只有0.6%。
 
-    arXiv:2403.05286v1 Announce Type: cross  Abstract: Decompilation aims to restore compiled code to human-readable source code, but struggles with details like names and structure. Large language models (LLMs) show promise for programming tasks, motivating their application to decompilation. However, there does not exist any open-source LLM for decompilation. Moreover, existing decompilation evaluation systems mainly consider token-level accuracy and largely ignore code executability, which is the most important feature of any program. Therefore, we release the first open-access decompilation LLMs ranging from 1B to 33B pre-trained on 4 billion tokens of C source code and the corresponding assembly code. The open-source LLMs can serve as baselines for further development in the field. To ensure practical program evaluation, we introduce Decompile-Eval, the first dataset that considers re-compilability and re-executability for decompilation. The benchmark emphasizes the importance of eval
+    Planning has been part of the core pursuit for artificial intelligence since its conception, but earlier AI agents mostly focused on constrained settings because many of the cognitive substrates necessary for human-level planning have been lacking. Recently, language agents powered by large language models (LLMs) have shown interesting capabilities such as tool use and reasoning. Are these language agents capable of planning in more complex settings that are out of the reach of prior AI agents? To advance this investigation, we propose TravelPlanner, a new planning benchmark that focuses on travel planning, a common real-world planning scenario. It provides a rich sandbox environment, various tools for accessing nearly four million data records, and 1,225 meticulously curated planning intents and reference plans. Comprehensive evaluations show that the current language agents are not yet capable of handling such complex planning tasks-even GPT-4 only achieves a success rate of 0.6%. La
     
-[^3]: PHAnToM：人格对大型语言模型的心理理论推理产生影响
+[^2]: 视觉-语言模型上的少样本对抗提示学习
 
-    PHAnToM: Personality Has An Effect on Theory-of-Mind Reasoning in Large Language Models
+    Few-Shot Adversarial Prompt Learning on Vision-Language Models
 
-    [https://arxiv.org/abs/2403.02246](https://arxiv.org/abs/2403.02246)
+    [https://arxiv.org/abs/2403.14774](https://arxiv.org/abs/2403.14774)
 
-    通过提示引发特定人格对大型语言模型的心理理论推理能力产生显著影响，特别是来自黑暗三合会的特质对多种LLMs在不同ToM任务中具有较大效应。
-
-    
-
-    大型语言模型（LLMs）方面的最新进展表明，它们在自然语言处理的许多任务中的能力与甚至优于人类。尽管取得了这一进展，LLMs在社会认知推理方面仍然不足，而人类在这方面天生就很擅长。受到心理学研究中某些人格特质与心理理论（ToM）推理之间联系的启发，以及关于提示工程研究在影响LLMs能力方面的超敏感性的启发，本研究调查了使用提示在LLMs中引发人格如何影响它们的ToM推理能力。我们的研究结果表明，某些引发的人格特质可以显著影响LLMs在三种不同的ToM任务中的推理能力。特别是，来自黑暗三合会(Dark Triad)的特质对于像GPT-3.5、Llama 2和Mistral这样的LLMs在不同的ToM任务中具有较大的变量效应。我们发现，具有某些人格特质的LLMs在执行ToM任务时表现出不同的表现。
-
-    arXiv:2403.02246v1 Announce Type: new  Abstract: Recent advances in large language models (LLMs) demonstrate that their capabilities are comparable, or even superior, to humans in many tasks in natural language processing. Despite this progress, LLMs are still inadequate at social-cognitive reasoning, which humans are naturally good at. Drawing inspiration from psychological research on the links between certain personality traits and Theory-of-Mind (ToM) reasoning, and from prompt engineering research on the hyper-sensitivity of prompts in affecting LLMs capabilities, this study investigates how inducing personalities in LLMs using prompts affects their ToM reasoning capabilities. Our findings show that certain induced personalities can significantly affect the LLMs' reasoning capabilities in three different ToM tasks. In particular, traits from the Dark Triad have a larger variable effect on LLMs like GPT-3.5, Llama 2, and Mistral across the different ToM tasks. We find that LLMs tha
-    
-[^4]: 用于多模态摘要的细粒度可解释事实评估
-
-    Fine-grained and Explainable Factuality Evaluation for Multimodal Summarization
-
-    [https://arxiv.org/abs/2402.11414](https://arxiv.org/abs/2402.11414)
-
-    提出两种细粒度和可解释的评估框架，用于评估多模态摘要模型的事实性，其中无参考事实性评估框架具有更广泛的应用场景，实验证实了方法的有效性。
+    本文提出了一个少样本对抗提示框架，在视觉-语言模型中通过有限数据调整输入序列，显著提升对抗鲁棒性，并通过端到端学习对抗性相关的文本监督。
 
     
 
-    多模态摘要旨在生成基于输入文本和图像的简洁摘要。然而，现有方法可能存在事实性输出的问题。为了评估多模态摘要模型的事实性，我们提出了两种细粒度和可解释的评估框架（FALLACIOUS）用于不同的应用场景，即基于参考的事实性评估框架和无参考的事实性评估框架。值得注意的是，无参考事实性评估框架不需要基准真值，因此具有更广泛的应用场景。为了评估所提出框架的有效性，我们计算了我们的框架与其他指标之间的相关性。实验结果显示了我们提出方法的有效性。我们将通过GitHub发布我们的代码和数据集。
+    深度神经网络对于微不可见的对抗性扰动的脆弱性已经引起了广泛关注。受到视觉-语言基础模型成功的启发，先前的努力通过将对抗性视觉特征与文本监督对齐来实现零样本对抗鲁棒性。但在实践中，由于包括重大适应成本、次优文本监督和未受控制的自然泛化能力在内的多个问题，它们仍然不尽人意。为了解决这些问题，本文提出了一个少样本对抗提示框架，通过有限的数据调整输入序列使得对抗鲁棒性得到显著提升。具体而言，我们通过提供对抗相关的文本监督，该监督是从对抗性示例中端到端学习的，来实现这一点。我们还提出了一个增强多模态特征一致性并鼓励不同
 
-    arXiv:2402.11414v1 Announce Type: new  Abstract: Multimodal summarization aims to generate a concise summary based on the input text and image. However, the existing methods potentially suffer from unfactual output. To evaluate the factuality of multimodal summarization models, we propose two fine-grained and explainable evaluation frameworks (FALLACIOUS) for different application scenarios, i.e. reference-based factuality evaluation framework and reference-free factuality evaluation framework. Notably, the reference-free factuality evaluation framework doesn't need ground truth and hence it has a wider application scenario. To evaluate the effectiveness of the proposed frameworks, we compute the correlation between our frameworks and the other metrics. The experimental results show the effectiveness of our proposed method. We will release our code and dataset via github.
+    arXiv:2403.14774v1 Announce Type: cross  Abstract: The vulnerability of deep neural networks to imperceptible adversarial perturbations has attracted widespread attention. Inspired by the success of vision-language foundation models, previous efforts achieved zero-shot adversarial robustness by aligning adversarial visual features with text supervision. However, in practice, they are still unsatisfactory due to several issues, including heavy adaptation cost, suboptimal text supervision, and uncontrolled natural generalization capacity. In this paper, to address these issues, we propose a few-shot adversarial prompt framework where adapting input sequences with limited data makes significant adversarial robustness improvement. Specifically, we achieve this by providing adversarially correlated text supervision that is end-to-end learned from adversarial examples. We also propose a novel training objective that enhances the consistency of multi-modal features while encourages differenti
     
-[^5]: DNABERT-S: 学习具有基因组基础模型的物种感知DNA嵌入
+[^3]: 在Transformer中解释上下文查找：探究注意力-MLP交互
 
-    DNABERT-S: Learning Species-Aware DNA Embedding with Genome Foundation Models
+    Interpreting Context Look-ups in Transformers: Investigating Attention-MLP Interactions
 
-    [https://arxiv.org/abs/2402.08777](https://arxiv.org/abs/2402.08777)
+    [https://arxiv.org/abs/2402.15055](https://arxiv.org/abs/2402.15055)
 
-    DNABERT-S是一种专门用于创建物种感知的DNA嵌入的基因组基础模型。为了提高对长读DNA序列的嵌入效果，引入了Manifold Instance Mixup (MI-Mix)对比目标方法来训练模型。
-
-    
-
-    有效的DNA嵌入在基因组分析中仍然至关重要，特别是在缺乏用于模型微调的标记数据的情况下，尽管基因组基础模型已经取得了显著进展。一个典型的例子是宏基因组分箱，这是微生物组研究中的一个关键过程，旨在通过来自可能包含成千上万个不同的、通常没有经过表征的物种的复杂混合DNA序列的物种来对DNA序列进行分组。为了填补有效的DNA嵌入模型的缺陷，我们引入了DNABERT-S，这是一个专门用于创建物种感知的DNA嵌入的基因组基础模型。为了鼓励对易出错的长读DNA序列进行有效嵌入，我们引入了Manifold Instance Mixup(MI-Mix)，一种对比目标，它在随机选择的层次中混合DNA序列的隐藏表示，并训练模型以在输出层识别和区分这些混合比例。
-
-    arXiv:2402.08777v1 Announce Type: cross Abstract: Effective DNA embedding remains crucial in genomic analysis, particularly in scenarios lacking labeled data for model fine-tuning, despite the significant advancements in genome foundation models. A prime example is metagenomics binning, a critical process in microbiome research that aims to group DNA sequences by their species from a complex mixture of DNA sequences derived from potentially thousands of distinct, often uncharacterized species. To fill the lack of effective DNA embedding models, we introduce DNABERT-S, a genome foundation model that specializes in creating species-aware DNA embeddings. To encourage effective embeddings to error-prone long-read DNA sequences, we introduce Manifold Instance Mixup (MI-Mix), a contrastive objective that mixes the hidden representations of DNA sequences at randomly selected layers and trains the model to recognize and differentiate these mixed proportions at the output layer. We further enha
-    
-[^6]: 通过高效的奖励模型集成改进人工反馈强化学习
-
-    Improving Reinforcement Learning from Human Feedback with Efficient Reward Model Ensemble. (arXiv:2401.16635v1 [cs.LG])
-
-    [http://arxiv.org/abs/2401.16635](http://arxiv.org/abs/2401.16635)
-
-    本论文提出一种通过高效的奖励模型集成来改进人工反馈强化学习的方法，以解决由于奖励模型预测不准确而导致RLHF输出与人类价值观不一致的问题。
+    该研究探究了Transformer中注意力头和MLP之间的相互作用，并揭示了特定上下文下激活特定token预测的机制，从而阐明在LLMs中注意力如何促成依赖上下文的专门化处理。
 
     
 
-    人工反馈强化学习（RLHF）是一种广泛使用的方法，用于将大型语言模型与人类价值观对齐。然而，RLHF依赖于通过有限的人类偏好数据训练的奖励模型，这可能导致不准确的预测。因此，RLHF可能产生与人类价值观不一致的输出。为了缓解这个问题，我们提出了一种奖励集成方法，可以使奖励模型做出更准确的预测。考虑到使用基于大型语言模型的奖励模型集成可能具有计算和资源昂贵的问题，我们探索了包括线性层集成和基于LoRA的集成在内的高效集成方法。实证上，我们使用我们的集成奖励模型运行Best-of-$n$和Proximal Policy Optimization，并验证我们的集成方法有助于改善RLHF输出的对齐性能。
+    在本文中，我们研究了注意力头和Multilayer Perceptron中专门预测特定token的"next-token"神经元之间的相互作用。通过促使像GPT-4这样的LLM解释这些模型内部，我们可以阐明激活某些next-token神经元的注意力机制。我们的分析确定了识别与预测特定token相关的上下文的attention heads，通过残差连接激活相关联的神经元。我们专注于在较早的层中始终激活相同next-token神经元的attention heads。探索这些不同的激活模式揭示了为不同语言上下文专门化的头与生成某些tokens相关联。总体而言，我们的方法结合了神经解释和探测孤立的组件，以阐明注意力如何使LLMs中的依赖上下文的专门处理成为可能。
 
-    Reinforcement Learning from Human Feedback (RLHF) is a widely adopted approach for aligning large language models with human values. However, RLHF relies on a reward model that is trained with a limited amount of human preference data, which could lead to inaccurate predictions. As a result, RLHF may produce outputs that are misaligned with human values. To mitigate this issue, we contribute a reward ensemble method that allows the reward model to make more accurate predictions. As using an ensemble of large language model-based reward models can be computationally and resource-expensive, we explore efficient ensemble methods including linear-layer ensemble and LoRA-based ensemble. Empirically, we run Best-of-$n$ and Proximal Policy Optimization with our ensembled reward models, and verify that our ensemble methods help improve the alignment performance of RLHF outputs.
+    arXiv:2402.15055v1 Announce Type: cross  Abstract: In this paper, we investigate the interplay between attention heads and specialized "next-token" neurons in the Multilayer Perceptron that predict specific tokens. By prompting an LLM like GPT-4 to explain these model internals, we can elucidate attention mechanisms that activate certain next-token neurons. Our analysis identifies attention heads that recognize contexts relevant to predicting a particular token, activating the associated neuron through the residual connection. We focus specifically on heads in earlier layers consistently activating the same next-token neuron across similar prompts. Exploring these differential activation patterns reveals that heads that specialize for distinct linguistic contexts are tied to generating certain tokens. Overall, our method combines neural explanations and probing isolated components to illuminate how attention enables context-dependent, specialized processing in LLMs.
     
-[^7]: 大型文本集合中的交互式概念学习用于揭示潜在主题
+[^4]: 从关键词到结构化摘要: 精简学术知识获取
 
-    Interactive Concept Learning for Uncovering Latent Themes in Large Text Collections. (arXiv:2305.05094v1 [cs.CL])
+    From Keywords to Structured Summaries: Streamlining Scholarly Knowledge Access
 
-    [http://arxiv.org/abs/2305.05094](http://arxiv.org/abs/2305.05094)
+    [https://arxiv.org/abs/2402.14622](https://arxiv.org/abs/2402.14622)
 
-    本研究提出了一种交互式框架，用于在大型文本集合中揭示潜在的、被领域专家视为相关的概念，既实现了自动化又减少了手动编码的工作量。
+    该论文突出了信息检索引擎在科学界的重要性，并提出了一种通过结构化记录和先进信息技术工具实现的解决方案，以革新研究人员访问和过滤文章的方式。
 
     
 
-    跨越不同学科领域的专家们通常有兴趣理解大型文本集合。传统上，这个挑战可以通过嘈杂的无监督技术（如主题模型）或手动主题发现流程来处理。在本文中，我们扩展了主题的定义，不仅考虑词分布，还包括被领域专家视为相关的概念。然后，我们提出了一个交互式框架，可以在不同的抽象级别上接收和编码专家反馈。我们的框架在自动化和手动编码之间取得平衡，允许专家控制他们的研究，同时减少所需的手动工作量。
+    这篇短文强调了信息检索引擎在科学界日益重要，指出传统基于关键词的搜索引擎由于出版物数量不断增加而效率低下。提出的解决方案涉及结构化记录，支持先进的信息技术工具，包括可视化仪表板，以彻底改变研究人员如何访问和过滤文章，取代传统的文本密集型方法。这一愿景通过一个以“传染病的繁殖数估计”研究主题为中心的概念验证得以体现，使用经过调整的大型语言模型(LLM)自动创建结构化记录以填充一个超越关键词的后端数据库。结果是一个下一代信息检索方法，可在https://orkg.org/usecases/r0-estimates 上访问。
 
-    Experts across diverse disciplines are often interested in making sense of large text collections. Traditionally, this challenge is approached either by noisy unsupervised techniques such as topic models, or by following a manual theme discovery process. In this paper, we expand the definition of a theme to account for more than just a word distribution, and include generalized concepts deemed relevant by domain experts. Then, we propose an interactive framework that receives and encodes expert feedback at different levels of abstraction. Our framework strikes a balance between automation and manual coding, allowing experts to maintain control of their study while reducing the manual effort required.
+    arXiv:2402.14622v1 Announce Type: cross  Abstract: This short paper highlights the growing importance of information retrieval (IR) engines in the scientific community, addressing the inefficiency of traditional keyword-based search engines due to the rising volume of publications. The proposed solution involves structured records, underpinning advanced information technology (IT) tools, including visualization dashboards, to revolutionize how researchers access and filter articles, replacing the traditional text-heavy approach. This vision is exemplified through a proof of concept centered on the ``reproductive number estimate of infectious diseases'' research theme, using a fine-tuned large language model (LLM) to automate the creation of structured records to populate a backend database that now goes beyond keywords. The result is a next-generation IR method accessible at https://orkg.org/usecases/r0-estimates.
+    
+[^5]: 使用动态多重奖励加权的强化学习用于多样式可控生成
+
+    Reinforcement Learning with Dynamic Multi-Reward Weighting for Multi-Style Controllable Generation
+
+    [https://arxiv.org/abs/2402.14146](https://arxiv.org/abs/2402.14146)
+
+    本文提出了一种使用强化学习来控制多种风格生成的方法，通过动态权重调整多重奖励，实现了在生成文本时同时控制多种风格。
+
+    
+
+    风格是表达各种信息的文本中的一个组成部分，包括人际动态（例如正式性）和作者的情绪或态度（例如厌恶）。人类经常同时采用多种风格。一个待解决的问题是如何明确控制大型语言模型，使它们在生成文本时编织目标风格：例如，生成既消极又无毒的文本。先前的工作探讨了对单一风格的控制生成，或者对风格和其他属性的控制生成。在本文中，我们将这扩展到同时控制多种风格。具体而言，我们研究了用于受控多样式生成的强化学习（RL）方法的多种风格奖励的各种公式。这些奖励公式包括来自鉴别器的校准输出以及通过鉴别器梯度幅度进行动态加权。
+
+    arXiv:2402.14146v1 Announce Type: new  Abstract: Style is an integral component of text that expresses a diverse set of information, including interpersonal dynamics (e.g. formality) and the author's emotions or attitudes (e.g. disgust). Humans often employ multiple styles simultaneously. An open question is how large language models can be explicitly controlled so that they weave together target styles when generating text: for example, to produce text that is both negative and non-toxic. Previous work investigates the controlled generation of a single style, or else controlled generation of a style and other attributes. In this paper, we expand this into controlling multiple styles simultaneously. Specifically, we investigate various formulations of multiple style rewards for a reinforcement learning (RL) approach to controlled multi-style generation. These reward formulations include calibrated outputs from discriminators and dynamic weighting by discriminator gradient magnitudes. W
+    
+[^6]: 学习在指导调优期间操纵大型语言模型
+
+    Learning to Poison Large Language Models During Instruction Tuning
+
+    [https://arxiv.org/abs/2402.13459](https://arxiv.org/abs/2402.13459)
+
+    通过设计新的数据注入攻击攻击LLMs，并提出一种梯度引导后门触发器学习方法，通过实验验证表明成功地破坏模型输出，仅改变1%的指导调优样本即可导致性能下降率达到约80％。
+
+    
+
+    大型语言模型（LLMs）的出现标志着语言处理和推理能力方面的重大突破。虽然它们取得了显著进展，但LLMs面临着数据注入攻击的漏洞，其中对手将后门触发器插入训练数据，以操纵输出以进行恶意行为。本研究通过设计一种新的数据注入攻击，旨在利用指导调优过程，进一步识别LLMs中的额外安全风险。我们提出了一种新颖的梯度引导后门触发器学习方法，以有效识别敌对触发器，确保对传统防御手段的规避，同时保持内容的完整性。通过对各种LLMs和任务的实验验证，我们的策略表明在破坏模型输出方面取得了很高的成功率；仅对4,000个指导调优样本中的1％进行注入就导致性能降低率（PDR）约为80％。我们的工作高
+
+    arXiv:2402.13459v1 Announce Type: cross  Abstract: The advent of Large Language Models (LLMs) has marked significant achievements in language processing and reasoning capabilities. Despite their advancements, LLMs face vulnerabilities to data poisoning attacks, where adversaries insert backdoor triggers into training data to manipulate outputs for malicious purposes. This work further identifies additional security risks in LLMs by designing a new data poisoning attack tailored to exploit the instruction tuning process. We propose a novel gradient-guided backdoor trigger learning approach to identify adversarial triggers efficiently, ensuring an evasion of detection by conventional defenses while maintaining content integrity. Through experimental validation across various LLMs and tasks, our strategy demonstrates a high success rate in compromising model outputs; poisoning only 1\% of 4,000 instruction tuning samples leads to a Performance Drop Rate (PDR) of around 80\%. Our work high
+    
+[^7]: 生成式人工智能安全：挑战与对策
+
+    Generative AI Security: Challenges and Countermeasures
+
+    [https://arxiv.org/abs/2402.12617](https://arxiv.org/abs/2402.12617)
+
+    生成式人工智能的安全挑战及对策研究。
+
+    
+
+    arXiv:2402.12617v1 公告类型：跨领域 摘要：生成式人工智能在许多行业的不断扩展引发了人们的兴奋和增加的关注。本文深入探讨了生成式人工智能所带来的独特安全挑战，并概述了管理这些风险的潜在研究方向。
+
+    arXiv:2402.12617v1 Announce Type: cross  Abstract: Generative AI's expanding footprint across numerous industries has led to both excitement and increased scrutiny. This paper delves into the unique security challenges posed by Generative AI, and outlines potential research directions for managing these risks.
+    
+[^8]: 使用单词替换密码来越狱专有的大型语言模型
+
+    Jailbreaking Proprietary Large Language Models using Word Substitution Cipher
+
+    [https://arxiv.org/abs/2402.10601](https://arxiv.org/abs/2402.10601)
+
+    本文使用密码技术编码了越狱提示，成功地绕过了大型语言模型对有害问题的检测，实验结果显示攻击成功率高达59.42%。
+
+    
+
+    大型语言模型（LLMs）遵循道德和伦理准则，但仍然容易受到名为Jailbreak的创意提示的影响，这些提示可以绕过对齐过程。然而，大多数越狱提示包含自然语言（主要是英语）中的有害问题，可以被LLMs自身检测到。本文提出了使用密码技术编码的越狱提示。我们首先在最先进的LLM，GPT-4上进行了一个试点研究，解码了使用各种密码技术加密的几个安全句子，发现简单的单词替换密码可以被最有效地解码。受此结果启发，我们使用这种编码技术来编写越狱提示。我们提供了将不安全单词映射到安全单词，并使用这些映射的单词提出不安全问题的映射。实验结果显示，我们提出的越狱攻击成功率（高达59.42%）。
+
+    arXiv:2402.10601v1 Announce Type: cross  Abstract: Large Language Models (LLMs) are aligned to moral and ethical guidelines but remain susceptible to creative prompts called Jailbreak that can bypass the alignment process. However, most jailbreaking prompts contain harmful questions in the natural language (mainly English), which can be detected by the LLM themselves. In this paper, we present jailbreaking prompts encoded using cryptographic techniques. We first present a pilot study on the state-of-the-art LLM, GPT-4, in decoding several safe sentences that have been encrypted using various cryptographic techniques and find that a straightforward word substitution cipher can be decoded most effectively. Motivated by this result, we use this encoding technique for writing jailbreaking prompts. We present a mapping of unsafe words with safe words and ask the unsafe question using these mapped words. Experimental results show an attack success rate (up to 59.42%) of our proposed jailbrea
+    
+[^9]: 从分组损失的角度重构大型语言模型的信心
+
+    Reconfidencing LLMs from the Grouping Loss Perspective
+
+    [https://arxiv.org/abs/2402.04957](https://arxiv.org/abs/2402.04957)
+
+    本论文研究了大型语言模型的信心问题，发现现有的校准方法不足以解决由于分组损失导致的预测分数与实际概率偏离的问题。我们提出了一种解决方案，可以重新确定LLMs，改善它们的自信度。
+
+    
+
+    大型语言模型（LLMs），包括ChatGPT和LLaMA，在自信的口吻中容易生成虚假答案。尽管引导和校准信心分数的努力已被证明是有用的，但最近的研究发现，控制不确定性必须超越校准: 由于分组损失的影响，预测分数可能明显偏离实际的后验概率。在这项工作中，我们构建了一个新的评估数据集，从知识库中获取，以评估对Mistral和LLaMA的答案给出的信心分数。实验表明，它们倾向于过于自信。此外，我们还展示了它们在某些答案上比其他答案更过于自信，例如取决于查询中人的国籍。在不确定性量化理论中，这就是分组损失。为了解决这个问题，我们提出了一种重新确定LLMs的解决方案，不仅取消校准，还取消分组损失。经过重新确定的LLMs经过处理后，表示改进的自信度。
+
+    Large Language Models (LLMs), including ChatGPT and LLaMA, are susceptible to generating hallucinated answers in a confident tone. While efforts to elicit and calibrate confidence scores have proven useful, recent findings show that controlling uncertainty must go beyond calibration: predicted scores may deviate significantly from the actual posterior probabilities due to the impact of grouping loss. In this work, we construct a new evaluation dataset derived from a knowledge base to assess confidence scores given to answers of Mistral and LLaMA. Experiments show that they tend to be overconfident. Further, we show that they are more overconfident on some answers than others, \emph{eg} depending on the nationality of the person in the query. In uncertainty-quantification theory, this is grouping loss. To address this, we propose a solution to reconfidence LLMs, canceling not only calibration but also grouping loss. The LLMs, after the reconfidencing process, indicate improved confidenc
+    
+[^10]: 让我来教你：语言模型的反馈教育基础
+
+    Let Me Teach You: Pedagogical Foundations of Feedback for Language Models. (arXiv:2307.00279v1 [cs.CL])
+
+    [http://arxiv.org/abs/2307.00279](http://arxiv.org/abs/2307.00279)
+
+    这篇观点文章介绍了一个基于教育学理念的反馈框架FELT，用于对大型语言模型进行反馈，以提高模型与人类偏好的一致性。该框架不仅简化了现有的手工设计反馈，还为NLF研究开辟了新方向。
+
+    
+
+    自然语言反馈（NLF）是将大型语言模型（LLMs）与人类偏好对齐的一个越来越受欢迎的途径。尽管NLF可以传达丰富多样的信息，但往往是手工设计的和随意的。在不同的世界中，教育学研究长期以来建立了几种有效的反馈模型。在这篇观点文章中，我们汇编了来自教育学的思想，引入了一种名为FELT的LLMs反馈框架，概述了反馈空间的各种特征以及基于这些变量的反馈内容分类法。我们的分类法不仅提供了对反馈空间的一般映射，还提供了教育学确定的离散类别，使我们能够从经验上证明不同反馈类型对修订生成的影响。除了简化现有的NLF设计，FELT还为NLF研究带来了新的未开发的方向。我们将我们的分类法提供给社区，为映射我们的类别提供指南和示例。
+
+    Natural Language Feedback (NLF) is an increasingly popular avenue to align Large Language Models (LLMs) to human preferences. Despite the richness and diversity of the information it can convey, NLF is often hand-designed and arbitrary. In a different world, research in pedagogy has long established several effective feedback models. In this opinion piece, we compile ideas from pedagogy to introduce FELT, a feedback framework for LLMs that outlines the various characteristics of the feedback space, and a feedback content taxonomy based on these variables. Our taxonomy offers both a general mapping of the feedback space, as well as pedagogy-established discrete categories, allowing us to empirically demonstrate the impact of different feedback types on revised generations. In addition to streamlining existing NLF designs, FELT also brings out new, unexplored directions for research in NLF. We make our taxonomy available to the community, providing guides and examples for mapping our cat
+    
+[^11]: GPT-SW3：一种面向北欧语言的自回归语言模型
+
+    GPT-SW3: An Autoregressive Language Model for the Nordic Languages. (arXiv:2305.12987v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2305.12987](http://arxiv.org/abs/2305.12987)
+
+    GPT-SW3是面向北欧语言的第一个本地化大型生成语言模型，本文介绍了其开发过程，可作为其他研究人员开发面向较小语言的大型生成模型的指南和参考。
+
+    
+
+    本文详细介绍了开发面向北欧语言的第一个本地化大型生成语言模型GPT-SW3的过程。我们涵盖了开发过程的所有部分，从数据收集和处理，训练配置和指令微调，到评估和发布策略的考虑。我们希望本文能够作为指南和参考，帮助其他研究人员开发面向较小语言的大型生成模型。
+
+    This paper details the process of developing the first native large generative language model for the Nordic languages, GPT-SW3. We cover all parts of the development process, from data collection and processing, training configuration and instruction finetuning, to evaluation and considerations for release strategies. We hope that this paper can serve as a guide and reference for other researchers that undertake the development of large generative models for smaller languages.
     
 
