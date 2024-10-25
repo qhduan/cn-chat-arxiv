@@ -2,22 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [From attention to profit: quantitative trading strategy based on transformer](https://arxiv.org/abs/2404.00424) | 该研究介绍了一种基于Transformer的量化交易策略，利用改进的模型架构和情感分析的迁移学习，不仅在捕捉长期依赖关系和建模数据关系方面具有优势，而且能够准确预测未来一段时间内的回报。 |
+| [^1] | [Global Factors in Non-core Bank Funding and Exchange Rate Flexibility.](http://arxiv.org/abs/2310.11552) | 全球因素对发达经济体银行体系中非核心与核心资金比率的波动起主导作用，汇率灵活性能够在2008-2009年以外的时期减小这种影响。 |
+| [^2] | [Resolving a Clearing Member's Default, A Radner Equilibrium Approach.](http://arxiv.org/abs/2310.02608) | 本研究通过使用Radner均衡方法，评估了清算成员违约的对冲和清算成本，并提供了相应的解析和数值解。这为中央对手方（CCP）在决定在哪个市场对冲和拍卖或清算违约的投资组合时提供了理性的决策依据。 |
 
 # 详细
 
-[^1]: 从注意力到利润：基于Transformer的量化交易策略
+[^1]: 非核心银行资金和汇率灵活性中的全球因素
 
-    From attention to profit: quantitative trading strategy based on transformer
+    Global Factors in Non-core Bank Funding and Exchange Rate Flexibility. (arXiv:2310.11552v1 [econ.GN])
 
-    [https://arxiv.org/abs/2404.00424](https://arxiv.org/abs/2404.00424)
+    [http://arxiv.org/abs/2310.11552](http://arxiv.org/abs/2310.11552)
 
-    该研究介绍了一种基于Transformer的量化交易策略，利用改进的模型架构和情感分析的迁移学习，不仅在捕捉长期依赖关系和建模数据关系方面具有优势，而且能够准确预测未来一段时间内的回报。
+    全球因素对发达经济体银行体系中非核心与核心资金比率的波动起主导作用，汇率灵活性能够在2008-2009年以外的时期减小这种影响。
 
     
 
-    传统量化交易实践中，应对复杂动态的金融市场一直是个持久挑战。先前的机器学习方法往往难以充分捕捉各种市场变量，经常忽视长期信息并且无法捕捉可能带来利润的基本信号。本文引入了改进的Transformer架构，并设计了一个基于该模型的新型因子。通过从情感分析进行迁移学习，所提出的模型不仅发挥了其原有的长距离依赖捕捉和建模复杂数据关系的优势，而且能够处理具有数值输入的任务，并准确预测未来一段时间内的回报。该研究收集了2010年至2019年中国资本市场4,601只股票的5,000,000多条滚动数据。研究结果证明了该模型在预测股票表现方面的卓越性能。
+    我们展示了发达经济体银行体系中非核心与核心资金比率的波动由少数几个既有实物性又有金融性质的全球因素驱动，国家特定因素没有发挥重要作用。汇率灵活性有助于减小非核心与核心比率受到全球因素的影响，但仅在重大全球金融震荡期间（如2008-2009年）明显起作用。
 
-    arXiv:2404.00424v1 Announce Type: cross  Abstract: In traditional quantitative trading practice, navigating the complicated and dynamic financial market presents a persistent challenge. Former machine learning approaches have struggled to fully capture various market variables, often ignore long-term information and fail to catch up with essential signals that may lead the profit. This paper introduces an enhanced transformer architecture and designs a novel factor based on the model. By transfer learning from sentiment analysis, the proposed model not only exploits its original inherent advantages in capturing long-range dependencies and modelling complex data relationships but is also able to solve tasks with numerical inputs and accurately forecast future returns over a period. This work collects more than 5,000,000 rolling data of 4,601 stocks in the Chinese capital market from 2010 to 2019. The results of this study demonstrated the model's superior performance in predicting stock
+    We show that fluctuations in the ratio of non-core to core funding in the banking systems of advanced economies are driven by a handful of global factors of both real and financial natures, with country-specific factors playing no significant roles. Exchange rate flexibility helps insulate the non-core to core ratio from such global factors but only significantly so outside periods of major global financial disruptions, as in 2008-2009.
+    
+[^2]: 解决结算成员违约问题的Radner均衡方法
+
+    Resolving a Clearing Member's Default, A Radner Equilibrium Approach. (arXiv:2310.02608v1 [q-fin.RM])
+
+    [http://arxiv.org/abs/2310.02608](http://arxiv.org/abs/2310.02608)
+
+    本研究通过使用Radner均衡方法，评估了清算成员违约的对冲和清算成本，并提供了相应的解析和数值解。这为中央对手方（CCP）在决定在哪个市场对冲和拍卖或清算违约的投资组合时提供了理性的决策依据。
+
+    
+
+    对于构成投资银行对冲投资组合主要部分的标准衍生品，通过中央对手方（CCP）进行中央清算已成为主导。CCP的关键任务之一是提供高效和适当的清算成员违约解决程序。当清算成员违约时，CCP可以对其头寸进行对冲和拍卖或清算。拍卖的对手方信用风险成本已经在Bastide、Crépey、Drapeau和Tadese（2023）中用XVA指标进行了分析。在这项工作中，我们评估对冲或清算的成本。通过比较违约前后的市场均衡，使用Radner均衡方法对投资组合配置和价格发现进行了研究。我们展示了Radner均衡的独特存在，并为椭圆分布市场中的后者提供了解析和数值解。使用这些工具，CCP可以理性地决定在哪个市场对冲和拍卖或清算违约的投资组合。
+
+    For vanilla derivatives that constitute the bulk of investment banks' hedging portfolios, central clearing through central counterparties (CCPs) has become hegemonic. A key mandate of a CCP is to provide an efficient and proper clearing member default resolution procedure. When a clearing member defaults, the CCP can hedge and auction or liquidate its positions. The counterparty credit risk cost of auctioning has been analyzed in terms of XVA metrics in Bastide, Cr{\'e}pey, Drapeau, and Tadese (2023). In this work we assess the costs of hedging or liquidating. This is done by comparing pre- and post-default market equilibria, using a Radner equilibrium approach for portfolio allocation and price discovery in each case. We show that the Radner equilibria uniquely exist and we provide both analytical and numerical solutions for the latter in elliptically distributed markets. Using such tools, a CCP could decide rationally on which market to hedge and auction or liquidate defaulted portfo
     
 
