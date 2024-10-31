@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Doubly Robust Inference in Causal Latent Factor Models](https://arxiv.org/abs/2402.11652) | 提出了一种双重稳健的估计量框架，可以在现代数据丰富的环境中估计存在未观察混杂因素下平均处理效应，具有良好的有限样本和渐近性质，并在参数速率下将其误差收敛为零均值高斯分布。 |
-| [^2] | [Selling Multiple Complements with Packaging Costs.](http://arxiv.org/abs/2306.14247) | 研究了一种以包装成本为代价的多个互补品的销售，提出了一种社会福利最大化的密封式竞标拍卖，保证公平透明的定价并具有对市场集中的偏好。 |
+| [^1] | [Extract Mechanisms from Heterogeneous Effects: Identification Strategy for Mediation Analysis](https://arxiv.org/abs/2403.04131) | 该论文开发了一种新的识别策略，通过将总处理效应进行分解，将复杂的中介问题转化为简单的线性回归问题，实现了因果效应和中介效应的同时估计，建立了新的因果中介和因果调节之间的联系。 |
+| [^2] | [Unveiling the Interplay between Central Bank Digital Currency and Bank Deposits.](http://arxiv.org/abs/2308.10359) | 本研究分析了中央银行数字货币（CBDC）引入后对金融稳定性的风险。当CBDC和存款完全可替代时，中央银行可以通过提供贷款来中性化CBDC的影响，贷款利率取决于抵押约束的严格程度。然而，当CBDC和存款不完全可替代时，中央银行无法使银行对来自CBDC的竞争无所适从。 |
 
 # 详细
 
-[^1]: 因果潜在因子模型中的双重稳健推断
+[^1]: 从异质效应中提取机制：中介分析的识别策略
 
-    Doubly Robust Inference in Causal Latent Factor Models
+    Extract Mechanisms from Heterogeneous Effects: Identification Strategy for Mediation Analysis
 
-    [https://arxiv.org/abs/2402.11652](https://arxiv.org/abs/2402.11652)
+    [https://arxiv.org/abs/2403.04131](https://arxiv.org/abs/2403.04131)
 
-    提出了一种双重稳健的估计量框架，可以在现代数据丰富的环境中估计存在未观察混杂因素下平均处理效应，具有良好的有限样本和渐近性质，并在参数速率下将其误差收敛为零均值高斯分布。
-
-    
-
-    本文介绍了一种在现代数据丰富环境中估计存在未观察混杂因素下的平均处理效应的新框架，该环境具有大量单位和结果。所提出的估计量是双重稳健的，结合了结果填补、倒数概率加权以及一种用于矩阵补全的新型交叉配对程序。我们推导了有限样本和渐近保证，并展示了新估计量的误差收敛到参数速率下的零均值高斯分布。模拟结果展示了本文分析的估计量的形式特性的实际相关性。
-
-    arXiv:2402.11652v1 Announce Type: cross  Abstract: This article introduces a new framework for estimating average treatment effects under unobserved confounding in modern data-rich environments featuring large numbers of units and outcomes. The proposed estimator is doubly robust, combining outcome imputation, inverse probability weighting, and a novel cross-fitting procedure for matrix completion. We derive finite-sample and asymptotic guarantees, and show that the error of the new estimator converges to a mean-zero Gaussian distribution at a parametric rate. Simulation results demonstrate the practical relevance of the formal properties of the estimators analyzed in this article.
-    
-[^2]: 以包装成本为代价的多个互补品的销售
-
-    Selling Multiple Complements with Packaging Costs. (arXiv:2306.14247v1 [econ.TH])
-
-    [http://arxiv.org/abs/2306.14247](http://arxiv.org/abs/2306.14247)
-
-    研究了一种以包装成本为代价的多个互补品的销售，提出了一种社会福利最大化的密封式竞标拍卖，保证公平透明的定价并具有对市场集中的偏好。
+    该论文开发了一种新的识别策略，通过将总处理效应进行分解，将复杂的中介问题转化为简单的线性回归问题，实现了因果效应和中介效应的同时估计，建立了新的因果中介和因果调节之间的联系。
 
     
 
-    本文研究了一种包装分配问题，其中多个不可分割物品分配给个人。卖方将分配偏好规定为包装上的成本节省。作者提出了一个社会福利最大化的密封式竞标拍卖，使用新颖的成本函数图表达卖方偏好，促进使用线性规划找到匿名、有竞争性、包线性价格。如果代理按实情竞标，这些价格支持瓦尔拉斯均衡。作者提供了瓦尔拉斯均衡的必要条件和充分条件，并且拍卖保证公平透明的定价并具有对市场集中的偏好。
+    理解因果机制对于解释和概括经验现象至关重要。因果中介分析提供了量化中介效应的统计技术。然而，现有方法通常需要强大的识别假设或复杂的研究设计。我们开发了一种新的识别策略，简化了这些假设，实现了因果效应和中介效应的同时估计。该策略基于总处理效应的新型分解，将具有挑战性的中介问题转化为简单的线性回归问题。新方法建立了因果中介和因果调节之间的新联系。我们讨论了几种研究设计和估计器，以增加我们的识别策略在各种实证研究中的可用性。我们通过在实验中估计因果中介效应来演示我们方法的应用。
 
-    I consider a package assignment problem where multiple units of indivisible items are allocated among individuals. The seller specifies allocation preferences as cost savings on packages. I propose a social welfare maximising, sealed-bid auction with a novel cost function graph to express seller preferences. It facilitates the use of linear programming to find anonymous, competitive, package-linear prices. If agents bid truthfully, these prices support a Walrasian equilibrium. I provide necessary and sufficient conditions, and additional sufficient conditions, for the existence of Walrasian equilibria. The auction guarantees fair and transparent pricing and admits preferences over the market concentration.
+    arXiv:2403.04131v1 Announce Type: cross  Abstract: Understanding causal mechanisms is essential for explaining and generalizing empirical phenomena. Causal mediation analysis offers statistical techniques to quantify mediation effects. However, existing methods typically require strong identification assumptions or sophisticated research designs. We develop a new identification strategy that simplifies these assumptions, enabling the simultaneous estimation of causal and mediation effects. The strategy is based on a novel decomposition of total treatment effects, which transforms the challenging mediation problem into a simple linear regression problem. The new method establishes a new link between causal mediation and causal moderation. We discuss several research designs and estimators to increase the usability of our identification strategy for a variety of empirical studies. We demonstrate the application of our method by estimating the causal mediation effect in experiments concer
+    
+[^2]: 揭示中央银行数字货币与银行存款之间的相互作用
+
+    Unveiling the Interplay between Central Bank Digital Currency and Bank Deposits. (arXiv:2308.10359v1 [econ.TH])
+
+    [http://arxiv.org/abs/2308.10359](http://arxiv.org/abs/2308.10359)
+
+    本研究分析了中央银行数字货币（CBDC）引入后对金融稳定性的风险。当CBDC和存款完全可替代时，中央银行可以通过提供贷款来中性化CBDC的影响，贷款利率取决于抵押约束的严格程度。然而，当CBDC和存款不完全可替代时，中央银行无法使银行对来自CBDC的竞争无所适从。
+
+    
+
+    我们扩展了Niepelt（2022年）的实际商业周期模型，分析引入中央银行数字货币（CBDC）后面临的金融稳定风险。CBDC与商业银行存款竞争，成为家庭的流动性来源。我们考虑了支付工具之间的不同可替代性程度，并通过引入银行从中央银行借款时必须遵守的抵押约束来审查Niepelt（2022年）中的等价结果。当CBDC和存款完全可替代时，中央银行可以向银行提供贷款，使引入CBDC对实体经济中性。我们表明，中央银行的贷款利率的最优水平取决于抵押约束的限制性程度：抵押约束越严格，中央银行需要发布的贷款利率越低。然而，当CBDC和存款不完全可替代时，中央银行无法使银行对来自CBDC的竞争无所适从。因此，引入CBDC后将出现负面影响。
+
+    We extend the Real Business Cycle model in Niepelt (2022) to analyze the risk to financial stability following the introduction of a central bank digital currency (CBDC). CBDC competes with commercial bank deposits as households' source of liquidity. We consider different degrees of substitutability between payment instruments and review the equivalence result in Niepelt (2022) by introducing a collateral constraint banks must respect when borrowing from the central bank. When CBDC and deposits are perfect substitutes, the central bank can offer loans to banks that render the introduction of CBDC neutral to the real economy. We show that the optimal level of the central bank's lending rate depends on the restrictiveness of the collateral constraint: the tighter it is, the lower the loan rate the central bank needs to post. However, when CBDC and deposits are imperfect substitutes, the central bank cannot make banks indifferent to the competition from CBDC. It follows that the introduct
     
 
