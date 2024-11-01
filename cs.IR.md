@@ -2,67 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Dual-Granularity Medication Recommendation Based on Causal Inference](https://arxiv.org/abs/2403.00880) | 提出了DGMed框架，利用因果推断和创新的特征对齐方法进行双粒度药物推荐 |
-| [^2] | [Retention Induced Biases in a Recommendation System with Heterogeneous Users](https://arxiv.org/abs/2402.13959) | 通过研究留存引发的偏见，发现改变推荐算法会导致推荐系统的行为在过渡期间与其新稳态不同，从而破坏了A/B实验作为评估RS改进的可靠性。 |
-| [^3] | [Fair Ranking under Disparate Uncertainty](https://arxiv.org/abs/2309.01610) | 提出了一种新的公平排名标准Equal-Opportunity Ranking（EOR），将底层相关性模型的不确定性差异考虑在内，通过组内公平抽奖实现公平排名。 |
-| [^4] | [ChatQA: Building GPT-4 Level Conversational QA Models.](http://arxiv.org/abs/2401.10225) | ChatQA是一系列对话问答模型，可以达到GPT-4级别的准确性。通过两阶段的指令调整方法，可以显著提高大型语言模型在零-shot对话问答中的结果。使用密集检索器进行问答数据集的微调可以实现与最先进的查询重写模型相当的结果，同时降低部署成本。ChatQA-70B在10个对话问答数据集上的平均得分超过了GPT-4，且不依赖于任何来自OpenAI GPT模型的合成数据。 |
+| [^1] | [Microstructures and Accuracy of Graph Recall by Large Language Models](https://arxiv.org/abs/2402.11821) | 本研究首次系统研究了大型语言模型对图形召回的准确性和偏见微结构，探讨了它们与人类的异同以及对其他图形推理任务的影响。 |
+| [^2] | [End-to-end Learnable Clustering for Intent Learning in Recommendation.](http://arxiv.org/abs/2401.05975) | 本文提出了一种用于推荐中意图学习的端到端可学习聚类方法ELCRec，该方法解决了现有方法中的复杂优化问题和大规模数据集聚类的可扩展性问题。 |
 
 # 详细
 
-[^1]: 基于因果推断的双粒度药物推荐
+[^1]: 大型语言模型对图形召回的微结构和准确性
 
-    Dual-Granularity Medication Recommendation Based on Causal Inference
+    Microstructures and Accuracy of Graph Recall by Large Language Models
 
-    [https://arxiv.org/abs/2403.00880](https://arxiv.org/abs/2403.00880)
+    [https://arxiv.org/abs/2402.11821](https://arxiv.org/abs/2402.11821)
 
-    提出了DGMed框架，利用因果推断和创新的特征对齐方法进行双粒度药物推荐
-
-    
-
-    随着医疗需求增长和机器学习技术的进步，基于人工智能的诊断和治疗系统备受关注。药物推荐旨在将患者的长期健康记录与医学知识整合，为特定疾病推荐准确和安全的药物组合。然而，大多数现有研究将药物推荐系统仅视为传统推荐系统的变体，忽视了药物和疾病之间的异质性。为解决这一挑战，我们提出了DGMed，一个用于药物推荐的框架。DGMed利用因果推断揭示医学实体之间的联系，并提出了一种创新的特征对齐方法来解决异质性问题。具体而言，该研究首先应用因果推断分析历史记录中药物对特定疾病的量化治疗效果，揭示...
-
-    arXiv:2403.00880v1 Announce Type: cross  Abstract: As medical demands grow and machine learning technology advances, AI-based diagnostic and treatment systems are garnering increasing attention. Medication recommendation aims to integrate patients' long-term health records with medical knowledge, recommending accuracy and safe medication combinations for specific conditions. However, most existing researches treat medication recommendation systems merely as variants of traditional recommendation systems, overlooking the heterogeneity between medications and diseases. To address this challenge, we propose DGMed, a framework for medication recommendation. DGMed utilizes causal inference to uncover the connections among medical entities and presents an innovative feature alignment method to tackle heterogeneity issues. Specifically, this study first applies causal inference to analyze the quantified therapeutic effects of medications on specific diseases from historical records, uncoverin
-    
-[^2]: 具有异构用户的推荐系统中的留存引发偏见
-
-    Retention Induced Biases in a Recommendation System with Heterogeneous Users
-
-    [https://arxiv.org/abs/2402.13959](https://arxiv.org/abs/2402.13959)
-
-    通过研究留存引发的偏见，发现改变推荐算法会导致推荐系统的行为在过渡期间与其新稳态不同，从而破坏了A/B实验作为评估RS改进的可靠性。
+    本研究首次系统研究了大型语言模型对图形召回的准确性和偏见微结构，探讨了它们与人类的异同以及对其他图形推理任务的影响。
 
     
 
-    我研究了一个具有用户流入和流失动态的推荐系统（RS）的概念模型。当流入和流失达到平衡时，用户分布达到稳定状态。改变推荐算法会改变稳定状态并产生过渡期。在这个期间，RS的行为与其新稳态不同。特别是，在过渡期内获得的A/B实验指标是RS长期性能的偏见指标。然而，学者和实践者经常在引入新算法后不久进行A/B测试以验证其有效性。然而，这种被广泛认为是评估RS改进的黄金标准的A/B实验范式可能产生错误结论。我还简要讨论了用户保留动态造成的数据偏见。
+    图形数据对许多应用至关重要，其中很多数据以文本格式描述关系。因此，准确地召回和编码先前文本中描述的图形是大型语言模型(LLMs)需要展示的基本但关键能力，以执行涉及图形结构信息的推理任务。人类在图形召回方面的表现已被认知科学家研究了几十年，发现其经常呈现与人类处理社会关系一致的某些结构性偏见模式。然而，迄今为止，我们很少了解LLMs在类似图形召回任务中的行为：它们召回的图形是否也呈现某些偏见模式，如果是，它们与人类的表现有何不同并如何影响其他图形推理任务？在这项研究中，我们进行了第一次对LLMs进行图形召回的系统研究，研究其准确性和偏见微结构（局部结构）。
 
-    arXiv:2402.13959v1 Announce Type: new  Abstract: I examine a conceptual model of a recommendation system (RS) with user inflow and churn dynamics. When inflow and churn balance out, the user distribution reaches a steady state. Changing the recommendation algorithm alters the steady state and creates a transition period. During this period, the RS behaves differently from its new steady state. In particular, A/B experiment metrics obtained in transition periods are biased indicators of the RS's long term performance. Scholars and practitioners, however, often conduct A/B tests shortly after introducing new algorithms to validate their effectiveness. This A/B experiment paradigm, widely regarded as the gold standard for assessing RS improvements, may consequently yield false conclusions. I also briefly discuss the data bias caused by the user retention dynamics.
+    arXiv:2402.11821v1 Announce Type: cross  Abstract: Graphs data is crucial for many applications, and much of it exists in the relations described in textual format. As a result, being able to accurately recall and encode a graph described in earlier text is a basic yet pivotal ability that LLMs need to demonstrate if they are to perform reasoning tasks that involve graph-structured information. Human performance at graph recall by has been studied by cognitive scientists for decades, and has been found to often exhibit certain structural patterns of bias that align with human handling of social relationships. To date, however, we know little about how LLMs behave in analogous graph recall tasks: do their recalled graphs also exhibit certain biased patterns, and if so, how do they compare with humans and affect other graph reasoning tasks? In this work, we perform the first systematical study of graph recall by LLMs, investigating the accuracy and biased microstructures (local structura
     
-[^3]: 不同不确定性下的公平排名
+[^2]: 用于推荐中意图学习的端到端可学习聚类方法
 
-    Fair Ranking under Disparate Uncertainty
+    End-to-end Learnable Clustering for Intent Learning in Recommendation. (arXiv:2401.05975v1 [cs.IR])
 
-    [https://arxiv.org/abs/2309.01610](https://arxiv.org/abs/2309.01610)
+    [http://arxiv.org/abs/2401.05975](http://arxiv.org/abs/2401.05975)
 
-    提出了一种新的公平排名标准Equal-Opportunity Ranking（EOR），将底层相关性模型的不确定性差异考虑在内，通过组内公平抽奖实现公平排名。
-
-    
-
-    排名是一种广泛使用的方法，用于将人类评估者的注意力集中在可管理的选项子集上。它作为人类决策过程的一部分的使用范围从在电子商务网站上展示潜在相关产品到为人工审查优先处理大学申请。虽然排名可以通过将关注集中在最有前途的选项上使人类评估更加高效，但我们认为，如果底层相关性模型的不确定性在不同组别的选项之间存在差异，排名可能会引入不公平。不幸的是，这种不确定性差异似乎普遍存在，常常对少数群体造成损害，因为这些群体的相关性估计可能由于缺乏数据或合适的特征而具有更高的不确定性。为了解决这个公平问题，我们提出了Equal-Opportunity Ranking（EOR）作为排名的新公平标准，并展示它对应于在相关选项之间进行组内公平抽奖
-
-    arXiv:2309.01610v2 Announce Type: replace  Abstract: Ranking is a ubiquitous method for focusing the attention of human evaluators on a manageable subset of options. Its use as part of human decision-making processes ranges from surfacing potentially relevant products on an e-commerce site to prioritizing college applications for human review. While ranking can make human evaluation more effective by focusing attention on the most promising options, we argue that it can introduce unfairness if the uncertainty of the underlying relevance model differs between groups of options. Unfortunately, such disparity in uncertainty appears widespread, often to the detriment of minority groups for which relevance estimates can have higher uncertainty due to a lack of data or appropriate features. To address this fairness issue, we propose Equal-Opportunity Ranking (EOR) as a new fairness criterion for ranking and show that it corresponds to a group-wise fair lottery among the relevant options even
-    
-[^4]: ChatQA: 构建GPT-4级对话问答模型
-
-    ChatQA: Building GPT-4 Level Conversational QA Models. (arXiv:2401.10225v1 [cs.CL])
-
-    [http://arxiv.org/abs/2401.10225](http://arxiv.org/abs/2401.10225)
-
-    ChatQA是一系列对话问答模型，可以达到GPT-4级别的准确性。通过两阶段的指令调整方法，可以显著提高大型语言模型在零-shot对话问答中的结果。使用密集检索器进行问答数据集的微调可以实现与最先进的查询重写模型相当的结果，同时降低部署成本。ChatQA-70B在10个对话问答数据集上的平均得分超过了GPT-4，且不依赖于任何来自OpenAI GPT模型的合成数据。
+    本文提出了一种用于推荐中意图学习的端到端可学习聚类方法ELCRec，该方法解决了现有方法中的复杂优化问题和大规模数据集聚类的可扩展性问题。
 
     
 
-    在这项工作中，我们介绍了ChatQA，一系列具有GPT-4级别准确性的对话问答模型。具体地，我们提出了一个两阶段的指令调整方法，可以显著提高大型语言模型（LLM）在零-shot对话问答中的结果。为了处理对话问答中的检索问题，我们在多轮问答数据集上进行了密集检索器的微调，这样可以提供与使用最先进的查询重写模型相当的结果，同时大大降低部署成本。值得注意的是，我们的ChatQA-70B可以在10个对话问答数据集的平均分上超过GPT-4（54.14 vs. 53.90），而不依赖于OpenAI GPT模型的任何合成数据。
+    挖掘用户的意图在序列推荐中起着关键作用。最近的方法ICLRec使用对比学习和聚类来提取用户的潜在意图。尽管它已经显示出有效性，但现有的方法存在复杂和繁琐的交替优化问题，导致两个主要问题。首先，在广义期望最大化(EM)框架中分离表示学习和聚类优化经常导致次优性能。其次，在整个数据集上进行聚类会影响大规模行业数据的可扩展性。为了解决这些挑战，我们提出了一种新颖的意图学习方法，称为ELCRec，它将表示学习集成到一个端到端可学习聚类框架中进行推荐。
 
-    In this work, we introduce ChatQA, a family of conversational question answering (QA) models, that obtain GPT-4 level accuracies. Specifically, we propose a two-stage instruction tuning method that can significantly improve the zero-shot conversational QA results from large language models (LLMs). To handle retrieval in conversational QA, we fine-tune a dense retriever on a multi-turn QA dataset, which provides comparable results to using the state-of-the-art query rewriting model while largely reducing deployment cost. Notably, our ChatQA-70B can outperform GPT-4 in terms of average score on 10 conversational QA datasets (54.14 vs. 53.90), without relying on any synthetic data from OpenAI GPT models.
+    Mining users' intents plays a crucial role in sequential recommendation. The recent approach, ICLRec, was introduced to extract underlying users' intents using contrastive learning and clustering. While it has shown effectiveness, the existing method suffers from complex and cumbersome alternating optimization, leading to two main issues. Firstly, the separation of representation learning and clustering optimization within a generalized expectation maximization (EM) framework often results in sub-optimal performance. Secondly, performing clustering on the entire dataset hampers scalability for large-scale industry data. To address these challenges, we propose a novel intent learning method called \underline{ELCRec}, which integrates representation learning into an \underline{E}nd-to-end \underline{L}earnable \underline{C}lustering framework for \underline{Rec}ommendation. Specifically, we encode users' behavior sequences and initialize the cluster centers as learnable network parameter
     
 

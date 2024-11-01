@@ -2,37 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Extract Mechanisms from Heterogeneous Effects: Identification Strategy for Mediation Analysis](https://arxiv.org/abs/2403.04131) | 该论文开发了一种新的识别策略，通过将总处理效应进行分解，将复杂的中介问题转化为简单的线性回归问题，实现了因果效应和中介效应的同时估计，建立了新的因果中介和因果调节之间的联系。 |
-| [^2] | [Unveiling the Interplay between Central Bank Digital Currency and Bank Deposits.](http://arxiv.org/abs/2308.10359) | 本研究分析了中央银行数字货币（CBDC）引入后对金融稳定性的风险。当CBDC和存款完全可替代时，中央银行可以通过提供贷款来中性化CBDC的影响，贷款利率取决于抵押约束的严格程度。然而，当CBDC和存款不完全可替代时，中央银行无法使银行对来自CBDC的竞争无所适从。 |
+| [^1] | [Quasi-randomization tests for network interference](https://arxiv.org/abs/2403.16673) | 构建条件准随机化检验来解决网络中干扰存在时的推理问题，使零假设在受限人口上成为尖锐。 |
+| [^2] | [Continuous-Time Best-Response and Related Dynamics in Tullock Contests with Convex Costs](https://arxiv.org/abs/2402.08541) | 本研究证明了在具有凸成本的Tullock竞赛中，连续时间最优响应动态收敛到唯一均衡点，并提供了计算近似均衡的算法。同时，我们还证明了相关离散时间动态的收敛性，这表明均衡是这些游戏中代理人行为的可靠预测器。 |
+| [^3] | [Game Connectivity and Adaptive Dynamics.](http://arxiv.org/abs/2309.10609) | 通过分析最佳响应图的连通特性，我们证明了几乎每个具有纯纳什均衡的“大型”通用游戏都是连通的。这对于游戏中的动态过程有着重要意义，因为许多自适应动态会导致均衡。 |
 
 # 详细
 
-[^1]: 从异质效应中提取机制：中介分析的识别策略
+[^1]: 网络干扰的准随机化检验
 
-    Extract Mechanisms from Heterogeneous Effects: Identification Strategy for Mediation Analysis
+    Quasi-randomization tests for network interference
 
-    [https://arxiv.org/abs/2403.04131](https://arxiv.org/abs/2403.04131)
+    [https://arxiv.org/abs/2403.16673](https://arxiv.org/abs/2403.16673)
 
-    该论文开发了一种新的识别策略，通过将总处理效应进行分解，将复杂的中介问题转化为简单的线性回归问题，实现了因果效应和中介效应的同时估计，建立了新的因果中介和因果调节之间的联系。
-
-    
-
-    理解因果机制对于解释和概括经验现象至关重要。因果中介分析提供了量化中介效应的统计技术。然而，现有方法通常需要强大的识别假设或复杂的研究设计。我们开发了一种新的识别策略，简化了这些假设，实现了因果效应和中介效应的同时估计。该策略基于总处理效应的新型分解，将具有挑战性的中介问题转化为简单的线性回归问题。新方法建立了因果中介和因果调节之间的新联系。我们讨论了几种研究设计和估计器，以增加我们的识别策略在各种实证研究中的可用性。我们通过在实验中估计因果中介效应来演示我们方法的应用。
-
-    arXiv:2403.04131v1 Announce Type: cross  Abstract: Understanding causal mechanisms is essential for explaining and generalizing empirical phenomena. Causal mediation analysis offers statistical techniques to quantify mediation effects. However, existing methods typically require strong identification assumptions or sophisticated research designs. We develop a new identification strategy that simplifies these assumptions, enabling the simultaneous estimation of causal and mediation effects. The strategy is based on a novel decomposition of total treatment effects, which transforms the challenging mediation problem into a simple linear regression problem. The new method establishes a new link between causal mediation and causal moderation. We discuss several research designs and estimators to increase the usability of our identification strategy for a variety of empirical studies. We demonstrate the application of our method by estimating the causal mediation effect in experiments concer
-    
-[^2]: 揭示中央银行数字货币与银行存款之间的相互作用
-
-    Unveiling the Interplay between Central Bank Digital Currency and Bank Deposits. (arXiv:2308.10359v1 [econ.TH])
-
-    [http://arxiv.org/abs/2308.10359](http://arxiv.org/abs/2308.10359)
-
-    本研究分析了中央银行数字货币（CBDC）引入后对金融稳定性的风险。当CBDC和存款完全可替代时，中央银行可以通过提供贷款来中性化CBDC的影响，贷款利率取决于抵押约束的严格程度。然而，当CBDC和存款不完全可替代时，中央银行无法使银行对来自CBDC的竞争无所适从。
+    构建条件准随机化检验来解决网络中干扰存在时的推理问题，使零假设在受限人口上成为尖锐。
 
     
 
-    我们扩展了Niepelt（2022年）的实际商业周期模型，分析引入中央银行数字货币（CBDC）后面临的金融稳定风险。CBDC与商业银行存款竞争，成为家庭的流动性来源。我们考虑了支付工具之间的不同可替代性程度，并通过引入银行从中央银行借款时必须遵守的抵押约束来审查Niepelt（2022年）中的等价结果。当CBDC和存款完全可替代时，中央银行可以向银行提供贷款，使引入CBDC对实体经济中性。我们表明，中央银行的贷款利率的最优水平取决于抵押约束的限制性程度：抵押约束越严格，中央银行需要发布的贷款利率越低。然而，当CBDC和存款不完全可替代时，中央银行无法使银行对来自CBDC的竞争无所适从。因此，引入CBDC后将出现负面影响。
+    许多经典的推理方法在人口单位之间存在干扰时失效。这意味着一个单位的处理状态会影响人口中其他单位的潜在结果。在这种情况下测试这种影响的零假设会使零假设非尖锐。解决这种设置中零假设非尖锐性的一个有趣方法是构建条件随机化检验，使得零假设在受限人口上是尖锐的。在随机实验中，条件随机化检验具有有限样本有效性。这种方法可能会带来计算挑战，因为根据实验设计找到这些适当的子人口可能涉及解决一个NP难的问题。在这篇论文中，我们将人口之间的网络视为一个随机变量而不是固定的。我们提出了一种建立条件准随机化检验的新方法。我们的主要思想是
 
-    We extend the Real Business Cycle model in Niepelt (2022) to analyze the risk to financial stability following the introduction of a central bank digital currency (CBDC). CBDC competes with commercial bank deposits as households' source of liquidity. We consider different degrees of substitutability between payment instruments and review the equivalence result in Niepelt (2022) by introducing a collateral constraint banks must respect when borrowing from the central bank. When CBDC and deposits are perfect substitutes, the central bank can offer loans to banks that render the introduction of CBDC neutral to the real economy. We show that the optimal level of the central bank's lending rate depends on the restrictiveness of the collateral constraint: the tighter it is, the lower the loan rate the central bank needs to post. However, when CBDC and deposits are imperfect substitutes, the central bank cannot make banks indifferent to the competition from CBDC. It follows that the introduct
+    arXiv:2403.16673v1 Announce Type: cross  Abstract: Many classical inferential approaches fail to hold when interference exists among the population units. This amounts to the treatment status of one unit affecting the potential outcome of other units in the population. Testing for such spillover effects in this setting makes the null hypothesis non-sharp. An interesting approach to tackling the non-sharp nature of the null hypothesis in this setup is constructing conditional randomization tests such that the null is sharp on the restricted population. In randomized experiments, conditional randomized tests hold finite sample validity. Such approaches can pose computational challenges as finding these appropriate sub-populations based on experimental design can involve solving an NP-hard problem. In this paper, we view the network amongst the population as a random variable instead of being fixed. We propose a new approach that builds a conditional quasi-randomization test. Our main ide
+    
+[^2]: Tullock竞赛中基于连续时间最优响应和相关动态的凸成本模型
+
+    Continuous-Time Best-Response and Related Dynamics in Tullock Contests with Convex Costs
+
+    [https://arxiv.org/abs/2402.08541](https://arxiv.org/abs/2402.08541)
+
+    本研究证明了在具有凸成本的Tullock竞赛中，连续时间最优响应动态收敛到唯一均衡点，并提供了计算近似均衡的算法。同时，我们还证明了相关离散时间动态的收敛性，这表明均衡是这些游戏中代理人行为的可靠预测器。
+
+    
+
+    Tullock竞赛模型适用于各种现实情景，包括PoW区块链矿工之间的竞争、寻租和游说活动。我们利用李雅普诺夫方式的论证结果表明，在具有凸成本的Tullock竞赛中，连续时间最优响应动态收敛到唯一均衡点。然后，我们利用这一结果提供了一种计算近似均衡的算法。我们还证明了相关离散时间动态的收敛性，例如，当代理人对其他代理人的经验平均行动做出最优响应时。这些结果表明均衡是这些游戏中代理人行为的可靠预测器。
+
+    Tullock contests model real-life scenarios that range from competition among proof-of-work blockchain miners to rent-seeking and lobbying activities. We show that continuous-time best-response dynamics in Tullock contests with convex costs converges to the unique equilibrium using Lyapunov-style arguments. We then use this result to provide an algorithm for computing an approximate equilibrium. We also establish convergence of related discrete-time dynamics, e.g., when the agents best-respond to the empirical average action of other agents. These results indicate that the equilibrium is a reliable predictor of the agents' behavior in these games.
+    
+[^3]: 游戏连通性与自适应动态
+
+    Game Connectivity and Adaptive Dynamics. (arXiv:2309.10609v1 [econ.TH])
+
+    [http://arxiv.org/abs/2309.10609](http://arxiv.org/abs/2309.10609)
+
+    通过分析最佳响应图的连通特性，我们证明了几乎每个具有纯纳什均衡的“大型”通用游戏都是连通的。这对于游戏中的动态过程有着重要意义，因为许多自适应动态会导致均衡。
+
+    
+
+    我们通过分析最佳响应图的连通特性，分析了游戏的典型结构。特别是，我们证明了几乎每个具有纯纳什均衡的“大型”通用游戏都是连通的，这意味着每个非均衡的行动配置都可以通过最佳响应路径到达每个纯纳什均衡。这对于游戏中的动态过程有着重要意义：许多自适应动态，例如带有惯性的最佳响应动态，在连通的游戏中会导致均衡。因此，存在简单的、不耦合的自适应动态，按周期游戏将几乎确定地收敛到具有纯纳什均衡的“大型”通用游戏的情况下。
+
+    We analyse the typical structure of games in terms of the connectivity properties of their best-response graphs. In particular, we show that almost every 'large' generic game that has a pure Nash equilibrium is connected, meaning that every non-equilibrium action profile can reach every pure Nash equilibrium via best-response paths. This has implications for dynamics in games: many adaptive dynamics, such as the best-response dynamic with inertia, lead to equilibrium in connected games. It follows that there are simple, uncoupled, adaptive dynamics for which period-by-period play converges almost surely to a pure Nash equilibrium in almost every 'large' generic game that has one. We build on recent results in probabilistic combinatorics for our characterisation of game connectivity.
     
 
