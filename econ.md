@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Unveiling the Potential of Robustness in Evaluating Causal Inference Models](https://arxiv.org/abs/2402.18392) | 介绍了一种新颖的分布式健壮度量（DRM）方法，以解决选择理想因果推断模型中健壮估计器的挑战。 |
-| [^2] | [Persuading a Learning Agent](https://arxiv.org/abs/2402.09721) | 在一个重复的贝叶斯说服问题中，即使没有承诺能力，委托人可以通过使用上下文无遗憾学习算法来实现与经典无学习模型中具有承诺的委托人的最优效用无限接近的效果；在代理人使用上下文无交换遗憾学习算法的情况下，委托人无法获得比具有承诺的无学习模型中的最优效用更高的效用。 |
+| [^1] | [The contribution of US broadband infrastructure subsidy and investment programs to GDP using input-output modeling](https://arxiv.org/abs/2311.02431) | 这篇论文研究了美国宽带基础设施补贴和投资计划对国内生产总值的贡献。通过投入产出模型探索了宽带支出对宏观经济的影响。 |
+| [^2] | [Design of Cluster-Randomized Trials with Cross-Cluster Interference.](http://arxiv.org/abs/2310.18836) | 该论文提出了一种新的集群随机试验设计方法，考虑了交叉集群干扰的问题。通过排除可能受到干扰影响的单元，提出了新的估计器，并证明了这种方法可以大大减少偏差。这项研究还提供了优化估计器收敛速率的集群设计方法。 |
 
 # 详细
 
-[^1]: 揭示健壮性在评估因果推断模型中的潜力
+[^1]: 美国宽带基础设施补贴和投资计划对国内生产总值的贡献：基于投入产出模型
 
-    Unveiling the Potential of Robustness in Evaluating Causal Inference Models
+    The contribution of US broadband infrastructure subsidy and investment programs to GDP using input-output modeling
 
-    [https://arxiv.org/abs/2402.18392](https://arxiv.org/abs/2402.18392)
+    [https://arxiv.org/abs/2311.02431](https://arxiv.org/abs/2311.02431)
 
-    介绍了一种新颖的分布式健壮度量（DRM）方法，以解决选择理想因果推断模型中健壮估计器的挑战。
-
-    
-
-    越来越多对个性化决策制定的需求导致人们对估计条件平均处理效应（CATE）产生了兴趣。机器学习和因果推断的交叉领域已经产生了各种有效的CATE估计器。然而，在实践中使用这些估计器通常受制于缺乏反事实标签，因此使用传统的交叉验证等模型选择程序来选择理想的CATE估计器变得具有挑战性。现有的CATE估计器选择方法，如插值和伪结果度量，面临着两个固有挑战。首先，它们需要确定度量形式和拟合干扰参数或插件学习者的基础机器学习模型。其次，它们缺乏针对选择健壮估计器的特定重点。为解决这些挑战，本文引入了一种新颖的方法，分布式健壮度量（DRM）。
-
-    arXiv:2402.18392v1 Announce Type: cross  Abstract: The growing demand for personalized decision-making has led to a surge of interest in estimating the Conditional Average Treatment Effect (CATE). The intersection of machine learning and causal inference has yielded various effective CATE estimators. However, deploying these estimators in practice is often hindered by the absence of counterfactual labels, making it challenging to select the desirable CATE estimator using conventional model selection procedures like cross-validation. Existing approaches for CATE estimator selection, such as plug-in and pseudo-outcome metrics, face two inherent challenges. Firstly, they are required to determine the metric form and the underlying machine learning models for fitting nuisance parameters or plug-in learners. Secondly, they lack a specific focus on selecting a robust estimator. To address these challenges, this paper introduces a novel approach, the Distributionally Robust Metric (DRM), for 
-    
-[^2]: 说服一位学习代理
-
-    Persuading a Learning Agent
-
-    [https://arxiv.org/abs/2402.09721](https://arxiv.org/abs/2402.09721)
-
-    在一个重复的贝叶斯说服问题中，即使没有承诺能力，委托人可以通过使用上下文无遗憾学习算法来实现与经典无学习模型中具有承诺的委托人的最优效用无限接近的效果；在代理人使用上下文无交换遗憾学习算法的情况下，委托人无法获得比具有承诺的无学习模型中的最优效用更高的效用。
+    这篇论文研究了美国宽带基础设施补贴和投资计划对国内生产总值的贡献。通过投入产出模型探索了宽带支出对宏观经济的影响。
 
     
 
-    我们研究了一个重复的贝叶斯说服问题（更一般地，任何具有完全信息的广义委托-代理问题），其中委托人没有承诺能力，代理人使用算法来学习如何对委托人的信号做出响应。我们将这个问题简化为一个一次性的广义委托-代理问题，代理人近似地最佳响应。通过这个简化，我们可以证明：如果代理人使用上下文无遗憾学习算法，则委托人可以保证其效用与经典无学习模型中具有承诺的委托人的最优效用之间可以无限接近；如果代理人使用上下文无交换遗憾学习算法，则委托人无法获得比具有承诺的无学习模型中的最优效用更高的效用。委托人在学习模型与非学习模型中可以获得的效用之间的差距是有界的。
+    尽管被公认为一种重要的福利，超过五分之一的美国人口没有订阅固定宽带服务。例如，尽管年收入超过7万美元的市民中只有不到4%没有宽带，但收入低于2万美元的市民中有26%没有宽带。为了解决这个问题，拜登政府通过《两党基础设施法》实施了有史以来规模最大的宽带投资计划，旨在解决这种差距，并将宽带连接扩展到所有公民。支持者表示，这将从根本上减少美国的数字鸿沟。然而，批评者认为，该计划导致经济周期的后期出现了前所未有的借贷，留下了很少的财政余地。因此，在这篇论文中，我们将研究宽带的可用性、采用情况和需求，然后构建一个投入产出模型，以探索宽带支出对国内生产总值（GDP）的宏观经济影响。最后，我们量化了部门间的影响。
 
-    arXiv:2402.09721v1 Announce Type: cross  Abstract: We study a repeated Bayesian persuasion problem (and more generally, any generalized principal-agent problem with complete information) where the principal does not have commitment power and the agent uses algorithms to learn to respond to the principal's signals. We reduce this problem to a one-shot generalized principal-agent problem with an approximately-best-responding agent. This reduction allows us to show that: if the agent uses contextual no-regret learning algorithms, then the principal can guarantee a utility that is arbitrarily close to the principal's optimal utility in the classic non-learning model with commitment; if the agent uses contextual no-swap-regret learning algorithms, then the principal cannot obtain any utility significantly more than the optimal utility in the non-learning model with commitment. The difference between the principal's obtainable utility in the learning model and the non-learning model is bound
+    More than one-fifth of the US population does not subscribe to a fixed broadband service despite being a recognized merit good. For example, less than 4% of citizens earning more than US \$70k annually do not have broadband, compared to 26% of those earning below US \$20k annually. To address this, the Biden Administration has undertaken one of the largest broadband investment programs ever via The Bipartisan Infrastructure Law, with the aim of addressing this disparity and expanding broadband connectivity to all citizens. Proponents state this will reduce the US digital divide once-and-for-all. However, detractors say the program leads to unprecedented borrowing at a late stage of the economic cycle, leaving little fiscal headroom. Subsequently, in this paper, we examine broadband availability, adoption, and need and then construct an input-output model to explore the macroeconomic impacts of broadband spending in Gross Domestic Product (GDP) terms. Finally, we quantify inter-sectoral
+    
+[^2]: 设计具有交叉集群干扰的集群随机试验
+
+    Design of Cluster-Randomized Trials with Cross-Cluster Interference. (arXiv:2310.18836v1 [stat.ME])
+
+    [http://arxiv.org/abs/2310.18836](http://arxiv.org/abs/2310.18836)
+
+    该论文提出了一种新的集群随机试验设计方法，考虑了交叉集群干扰的问题。通过排除可能受到干扰影响的单元，提出了新的估计器，并证明了这种方法可以大大减少偏差。这项研究还提供了优化估计器收敛速率的集群设计方法。
+
+    
+
+    集群随机试验经常涉及空间上分布不规律且没有明显分离社区的单元。在这种情况下，由于潜在的交叉集群干扰，集群构建是设计的一个关键方面。现有的文献依赖于部分干扰模型，该模型将集群视为给定，并假设没有交叉集群干扰。我们通过允许干扰与单元之间的地理距离衰减来放宽这个假设。这导致了一个偏差-方差的权衡：构建较少、较大的集群可以减少干扰引起的偏差，但会增加方差。我们提出了一种新的估计器，排除可能受到交叉集群干扰影响的单元，并显示相对于传统的均值差估计器，这大大降低了渐近偏差。然后，我们研究了优化估计器收敛速率的集群设计。我们提供了一个新的设计的正式证明，该设计选择了集群的数量。
+
+    Cluster-randomized trials often involve units that are irregularly distributed in space without well-separated communities. In these settings, cluster construction is a critical aspect of the design due to the potential for cross-cluster interference. The existing literature relies on partial interference models, which take clusters as given and assume no cross-cluster interference. We relax this assumption by allowing interference to decay with geographic distance between units. This induces a bias-variance trade-off: constructing fewer, larger clusters reduces bias due to interference but increases variance. We propose new estimators that exclude units most potentially impacted by cross-cluster interference and show that this substantially reduces asymptotic bias relative to conventional difference-in-means estimators. We then study the design of clusters to optimize the estimators' rates of convergence. We provide formal justification for a new design that chooses the number of clus
     
 

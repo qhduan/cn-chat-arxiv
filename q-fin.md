@@ -2,52 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Functional Limit Theorems for Hawkes Processes.](http://arxiv.org/abs/2401.11495) | Hawkes过程的长期行为由子事件的平均数量和离散程度决定。对于亚临界过程，提供了FLLNs和FCLTs，具体形式取决于子事件的离散程度。对于具有弱离散子事件的临界Hawkes过程，不存在功能中心极限定理。通过缩放后的强度过程和缩放后的Hawkes过程的分布与极限过程之间的Wasserstein距离的上界，给出了收敛速度。具有高度离散子事件的临界Hawkes过程与亚临界过程共享许多属性，功能极限定理成立。 |
-| [^2] | [Continuous-Time q-learning for McKean-Vlasov Control Problems.](http://arxiv.org/abs/2306.16208) | 本文研究了连续时间q-learning在熵正则化强化学习框架下用于McKean-Vlasov控制问题，并揭示了两种不同的q函数的存在及其积分表示。 |
-| [^3] | [Common Idiosyncratic Quantile Risk.](http://arxiv.org/abs/2208.14267) | 该论文提出了一种新的风险类型，称为共同的特异性分位数风险，其揭示了投资者如何定价正向和负向风险的新见解，对总体市场回报也具有预测能力。 |
+| [^1] | [On Merton's Optimal Portfolio Problem under Sporadic Bankruptcy](https://arxiv.org/abs/2403.15923) | 本文研究了在股票市场遵循几何布朗运动并且遵循恒定利率连续复利的无风险资产的情况下，考虑股票可能在一定随机时间内破产的梅顿最优投资组合问题。通过新型哈密顿-雅可比-贝尔曼方程，将问题形式化为受控马尔可夫扩散，并且严格推导了一个新版本的梅顿比率，最终通过验证定理验证了该模型在现实世界中的适用性。 |
+| [^2] | [The contribution of US broadband infrastructure subsidy and investment programs to GDP using input-output modeling](https://arxiv.org/abs/2311.02431) | 这篇论文研究了美国宽带基础设施补贴和投资计划对国内生产总值的贡献。通过投入产出模型探索了宽带支出对宏观经济的影响。 |
+| [^3] | [Neural Hawkes: Non-Parametric Estimation in High Dimension and Causality Analysis in Cryptocurrency Markets.](http://arxiv.org/abs/2401.09361) | 这篇论文提出了一种名为神经霍克斯的方法，它能够在高维度情况下进行非参数估计，并用于加密货币市场的因果分析。该方法通过解决第二类Fredholm积分方程来推断标记霍克斯核，并使用物理信息神经网络进行数值计算。该方法在模拟数据上得到了广泛的验证，并应用于分析加密货币市场的微观结构和因果关系。 |
 
 # 详细
 
-[^1]: Hawkes过程的功能极限定理
+[^1]: 关于间歇性破产下梅顿最优投资组合问题
 
-    Functional Limit Theorems for Hawkes Processes. (arXiv:2401.11495v1 [math.PR])
+    On Merton's Optimal Portfolio Problem under Sporadic Bankruptcy
 
-    [http://arxiv.org/abs/2401.11495](http://arxiv.org/abs/2401.11495)
+    [https://arxiv.org/abs/2403.15923](https://arxiv.org/abs/2403.15923)
 
-    Hawkes过程的长期行为由子事件的平均数量和离散程度决定。对于亚临界过程，提供了FLLNs和FCLTs，具体形式取决于子事件的离散程度。对于具有弱离散子事件的临界Hawkes过程，不存在功能中心极限定理。通过缩放后的强度过程和缩放后的Hawkes过程的分布与极限过程之间的Wasserstein距离的上界，给出了收敛速度。具有高度离散子事件的临界Hawkes过程与亚临界过程共享许多属性，功能极限定理成立。
-
-    
-
-    我们证明Hawkes过程的长期行为完全由子事件的平均数量和离散程度确定。对于亚临界过程，我们在过程的核函数的最小条件下提供了FLLNs和FCLTs，极限定理的具体形式严重取决于子事件的离散程度。对于具有弱离散子事件的临界Hawkes过程，功能中心极限定理不成立。相反，我们证明了经过缩放的强度过程和经过缩放的Hawkes过程分别行为类似于无均值回归的CIR过程和整合的CIR过程。通过建立缩放的Hawkes过程的分布与相应极限过程之间的Wasserstein距离的上界，我们给出了收敛速度。相反，具有高度离散子事件的临界Hawkes过程与亚临界过程共享许多属性。特别是，功能极限定理成立。然而，与亚临界过程不同的是，亚临界过程没有离散子事件，具有强离散子事件的临界Hawkes过程没有功能中心极限定理。
-
-    We prove that the long-run behavior of Hawkes processes is fully determined by the average number and the dispersion of child events. For subcritical processes we provide FLLNs and FCLTs under minimal conditions on the kernel of the process with the precise form of the limit theorems depending strongly on the dispersion of child events. For a critical Hawkes process with weakly dispersed child events, functional central limit theorems do not hold. Instead, we prove that the rescaled intensity processes and rescaled Hawkes processes behave like CIR-processes without mean-reversion, respectively integrated CIR-processes. We provide the rate of convergence by establishing an upper bound on the Wasserstein distance between the distributions of rescaled Hawkes process and the corresponding limit process. By contrast, critical Hawkes process with heavily dispersed child events share many properties of subcritical ones. In particular, functional limit theorems hold. However, unlike subcritica
-    
-[^2]: 连续时间q-learning用于McKean-Vlasov控制问题
-
-    Continuous-Time q-learning for McKean-Vlasov Control Problems. (arXiv:2306.16208v1 [cs.LG])
-
-    [http://arxiv.org/abs/2306.16208](http://arxiv.org/abs/2306.16208)
-
-    本文研究了连续时间q-learning在熵正则化强化学习框架下用于McKean-Vlasov控制问题，并揭示了两种不同的q函数的存在及其积分表示。
+    本文研究了在股票市场遵循几何布朗运动并且遵循恒定利率连续复利的无风险资产的情况下，考虑股票可能在一定随机时间内破产的梅顿最优投资组合问题。通过新型哈密顿-雅可比-贝尔曼方程，将问题形式化为受控马尔可夫扩散，并且严格推导了一个新版本的梅顿比率，最终通过验证定理验证了该模型在现实世界中的适用性。
 
     
 
-    本文研究了q-learning，在熵正则化强化学习框架下，用于连续时间的McKean-Vlasov控制问题。与Jia和Zhou（2022c）的单个代理控制问题不同，代理之间的均场相互作用使得q函数的定义更加复杂，我们揭示了自然产生两种不同q函数的情况：（i）被称为集成q函数（用$q$表示），作为Gu、Guo、Wei和Xu（2023）引入的集成Q函数的一阶近似，可以通过涉及测试策略的弱鞅条件进行学习；（ii）作为策略改进迭代中所使用的实质q函数（用$q_e$表示）。我们证明了这两个q函数在所有测试策略下通过积分表示相关联。基于集成q函数的弱鞅条件和我们提出的搜索方法，我们设计了算法来学习两个q函数以解决Mckean-Vlasov控制问题。
+    考虑一个遵循几何布朗运动的股票市场和以恒定利率连续复利的无风险资产。假设股票可以破产，即在一些外生随机时间（独立于股价）内失去全部价值，这被建模为齐次泊松过程的第一到达时间，我们研究了梅顿的最优投资组合问题，旨在最大化在预先选择的有限到期时间内总财富的期望对数效用。首先，我们提出了一种基于新型哈密顿-雅可比-贝尔曼方程的启发式推导。然后，我们将问题形式化为经典的受控马尔可夫扩散，具有一种新类型的终端和运行成本。采用贝尔曼的动态规划原理严格推导出了梅顿比率的新版本，并用适当类型的验证定理进行验证。一个现实世界的例子将后者的比率与经典梅顿的r进行了比较。
 
-    This paper studies the q-learning, recently coined as the continuous-time counterpart of Q-learning by Jia and Zhou (2022c), for continuous time Mckean-Vlasov control problems in the setting of entropy-regularized reinforcement learning. In contrast to the single agent's control problem in Jia and Zhou (2022c), the mean-field interaction of agents render the definition of q-function more subtle, for which we reveal that two distinct q-functions naturally arise: (i) the integrated q-function (denoted by $q$) as the first-order approximation of the integrated Q-function introduced in Gu, Guo, Wei and Xu (2023) that can be learnt by a weak martingale condition involving test policies; and (ii) the essential q-function (denoted by $q_e$) that is employed in the policy improvement iterations. We show that two q-functions are related via an integral representation under all test policies. Based on the weak martingale condition of the integrated q-function and our proposed searching method of
+    arXiv:2403.15923v1 Announce Type: new  Abstract: Consider a stock market following a geometric Brownian motion and a riskless asset continuously compounded at a constant rate. Assuming the stock can go bankrupt, i.e., lose all of its value, at some exogenous random time (independent of the stock price) modeled as the first arrival time of a homogeneous Poisson process, we study the Merton's optimal portfolio problem consisting of maximizing the expected logarithmic utility of the total wealth at a preselected finite maturity time. First, we present a heuristic derivation based on a new type of Hamilton-Jacobi-Bellman equation. Then, we formally reduce the problem to a classical controlled Markovian diffusion with a new type of terminal and running costs. A new version of Merton's ratio is rigorously derived using Bellman's dynamic programming principle and validated with a suitable type of verification theorem. A real-world example comparing the latter ratio to the classical Merton's r
     
-[^3]: 共同的特异性分位数风险
+[^2]: 美国宽带基础设施补贴和投资计划对国内生产总值的贡献：基于投入产出模型
 
-    Common Idiosyncratic Quantile Risk. (arXiv:2208.14267v2 [q-fin.GN] UPDATED)
+    The contribution of US broadband infrastructure subsidy and investment programs to GDP using input-output modeling
 
-    [http://arxiv.org/abs/2208.14267](http://arxiv.org/abs/2208.14267)
+    [https://arxiv.org/abs/2311.02431](https://arxiv.org/abs/2311.02431)
 
-    该论文提出了一种新的风险类型，称为共同的特异性分位数风险，其揭示了投资者如何定价正向和负向风险的新见解，对总体市场回报也具有预测能力。
+    这篇论文研究了美国宽带基础设施补贴和投资计划对国内生产总值的贡献。通过投入产出模型探索了宽带支出对宏观经济的影响。
 
     
 
-    我们发现了一种新的风险类型，其特征在于资产回报的横截面分位数具有共性。我们提出的新型分位数风险因子与特定分位数的风险溢酬相关，并揭示了投资者如何定价正向和负向风险的新见解。与以往文献相比，我们在不做混淆假设或汇总可能的非线性信息的情况下恢复了横截面分位数的共同结构。我们讨论了新的分位数风险因子与流行的波动率和下行风险因子的不同之处，并确定了哪些分位数依赖性风险应该得到更大的补偿。分位数因子也具有对总体市场回报的预测能力。
+    尽管被公认为一种重要的福利，超过五分之一的美国人口没有订阅固定宽带服务。例如，尽管年收入超过7万美元的市民中只有不到4%没有宽带，但收入低于2万美元的市民中有26%没有宽带。为了解决这个问题，拜登政府通过《两党基础设施法》实施了有史以来规模最大的宽带投资计划，旨在解决这种差距，并将宽带连接扩展到所有公民。支持者表示，这将从根本上减少美国的数字鸿沟。然而，批评者认为，该计划导致经济周期的后期出现了前所未有的借贷，留下了很少的财政余地。因此，在这篇论文中，我们将研究宽带的可用性、采用情况和需求，然后构建一个投入产出模型，以探索宽带支出对国内生产总值（GDP）的宏观经济影响。最后，我们量化了部门间的影响。
 
-    We identify a new type of risk that is characterised by commonalities in the quantiles of the cross-sectional distribution of asset returns. Our newly proposed quantile risk factor is associated with a quantile-specific risk premium and provides new insights into how upside and downside risks are priced by investors. In contrast to the previous literature, we recover the common structure in cross-sectional quantiles without making confounding assumptions or aggregating potentially non-linear information. We discuss how the new quantile-based risk factor differs from popular volatility and downside risk factors, and we identify where the quantile-dependent risks deserve greater compensation. Quantile factors also have predictive power for aggregate market returns.
+    More than one-fifth of the US population does not subscribe to a fixed broadband service despite being a recognized merit good. For example, less than 4% of citizens earning more than US \$70k annually do not have broadband, compared to 26% of those earning below US \$20k annually. To address this, the Biden Administration has undertaken one of the largest broadband investment programs ever via The Bipartisan Infrastructure Law, with the aim of addressing this disparity and expanding broadband connectivity to all citizens. Proponents state this will reduce the US digital divide once-and-for-all. However, detractors say the program leads to unprecedented borrowing at a late stage of the economic cycle, leaving little fiscal headroom. Subsequently, in this paper, we examine broadband availability, adoption, and need and then construct an input-output model to explore the macroeconomic impacts of broadband spending in Gross Domestic Product (GDP) terms. Finally, we quantify inter-sectoral
+    
+[^3]: 神经霍克斯：高维度的非参数估计和加密货币市场的因果分析
+
+    Neural Hawkes: Non-Parametric Estimation in High Dimension and Causality Analysis in Cryptocurrency Markets. (arXiv:2401.09361v1 [q-fin.TR])
+
+    [http://arxiv.org/abs/2401.09361](http://arxiv.org/abs/2401.09361)
+
+    这篇论文提出了一种名为神经霍克斯的方法，它能够在高维度情况下进行非参数估计，并用于加密货币市场的因果分析。该方法通过解决第二类Fredholm积分方程来推断标记霍克斯核，并使用物理信息神经网络进行数值计算。该方法在模拟数据上得到了广泛的验证，并应用于分析加密货币市场的微观结构和因果关系。
+
+    
+
+    我们提出了一种新颖的标记霍克斯核推断方法，称之为基于矩的神经霍克斯估计方法。霍克斯过程可以通过它们的一阶和二阶统计特性完全描述，通过第二类Fredholm积分方程。利用最新的物理信息神经网络求解偏微分方程的进展，我们提出了一种在高维度下求解这个积分方程的数值过程。结合适应性训练流程，我们给出了一组通用的超参数，能够在各种核形状范围内产生稳健的结果。我们在模拟数据上进行了大量的数值验证。最后，我们提出了两个应用该方法于加密货币市场微观结构分析。在第一个应用中，我们提取了BTC-USD交易到达率对成交量的影响，第二个应用中，我们分析了15种加密货币之间的因果关系及其方向。
+
+    We propose a novel approach to marked Hawkes kernel inference which we name the moment-based neural Hawkes estimation method. Hawkes processes are fully characterized by their first and second order statistics through a Fredholm integral equation of the second kind. Using recent advances in solving partial differential equations with physics-informed neural networks, we provide a numerical procedure to solve this integral equation in high dimension. Together with an adapted training pipeline, we give a generic set of hyperparameters that produces robust results across a wide range of kernel shapes. We conduct an extensive numerical validation on simulated data. We finally propose two applications of the method to the analysis of the microstructure of cryptocurrency markets. In a first application we extract the influence of volume on the arrival rate of BTC-USD trades and in a second application we analyze the causality relationships and their directions amongst a universe of 15 crypto
     
 
