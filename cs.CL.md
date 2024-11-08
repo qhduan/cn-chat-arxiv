@@ -2,67 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [The Fine Line: Navigating Large Language Model Pretraining with Down-streaming Capability Analysis](https://arxiv.org/abs/2404.01204) | 本文对大型语言模型在预训练过程中不同能力的综合分析揭示了其动态差异，填补了现有标度定律中的缺失。 |
-| [^2] | [Ensemble-Based Unsupervised Discontinuous Constituency Parsing by Tree Averaging](https://arxiv.org/abs/2403.00143) | 通过树平均法构建集成解析器，稳定并提升无监督不连续成分句法分析性能，实验结果表明该方法在所有指标上均优于基准线 |
-| [^3] | [DropBP: Accelerating Fine-Tuning of Large Language Models by Dropping Backward Propagation](https://arxiv.org/abs/2402.17812) | DropBP提出了一种新颖的方式来加速大型语言模型的微调，通过在反向传播过程中随机丢弃层以减少计算成本同时保持准确性。 |
-| [^4] | [Deep Learning Based Amharic Chatbot for FAQs in Universities](https://arxiv.org/abs/2402.01720) | 本文提出了一个基于深度学习的阿姆哈拉语常见问题解答聊天机器人模型，可以帮助大学生解答常见问题，通过使用自然语言处理和深度学习技术，采用多种机器学习模型算法进行分析和分类，取得了最好的成绩。 |
+| [^1] | [Long-form factuality in large language models](https://arxiv.org/abs/2403.18802) | 该论文提出了一种通过使用大型语言模型将长篇回应分解为单个事实，并通过发送搜索查询到Google搜索，评估事实准确性的方法，并扩展了F1分数作为长篇事实性的聚合度量。 |
+| [^2] | [Gradient Cuff: Detecting Jailbreak Attacks on Large Language Models by Exploring Refusal Loss Landscapes](https://arxiv.org/abs/2403.00867) | 本文提出了一种名为Gradient Cuff的方法，通过探索拒绝损失地形图来检测对大语言模型的越狱攻击，成功设计了一种有效的两步检测策略。 |
+| [^3] | [Personalized Large Language Models](https://arxiv.org/abs/2402.09269) | 本文研究了个性化大型语言模型的方法，通过比较微调和零样本推理的方法，在主观任务中发现个性化微调能提高模型的推理能力，在情感识别和仇恨言论检测方面也获得了一致的性能提升。 |
+| [^4] | [Textless Low-Resource Speech-to-Speech Translation With Unit Language Models](https://arxiv.org/abs/2305.15405) | 提出了一种新的框架，用于训练只需要几十小时平行语音数据的无文本低资源语音到语音翻译系统，并通过单元到单元的序列到序列翻译任务和无监督反向翻译目标来提高模型性能 |
+| [^5] | [SciEval: A Multi-Level Large Language Model Evaluation Benchmark for Scientific Research.](http://arxiv.org/abs/2308.13149) | SciEval是一个综合且多学科的评估基准，用于评估大型语言模型在科学研究中的能力。它基于布鲁姆的分类法，包括客观和主观问题，并设计了一个防止数据泄漏的“动态”子集。实验结果表明，尽管GPT-4在某些方面取得了较高的得分，但仍存在挑战。 |
 
 # 详细
 
-[^1]: 大型语言模型预训练与下游能力分析的微妙平衡
+[^1]: 大型语言模型中的长篇事实性
 
-    The Fine Line: Navigating Large Language Model Pretraining with Down-streaming Capability Analysis
+    Long-form factuality in large language models
 
-    [https://arxiv.org/abs/2404.01204](https://arxiv.org/abs/2404.01204)
+    [https://arxiv.org/abs/2403.18802](https://arxiv.org/abs/2403.18802)
 
-    本文对大型语言模型在预训练过程中不同能力的综合分析揭示了其动态差异，填补了现有标度定律中的缺失。
-
-    
-
-    揭示反映最终模型性能的早期指标是大规模预训练的一个核心原则。现有的标度定律展示了预训练损失与训练浮点数之间的幂律相关性，这对于大型语言模型当前训练状态的重要指标十分关键。然而，这一原则只关注模型在训练数据上的压缩特性，导致与下游任务能力的提升之间存在不一致性。一些后续研究试图将标度定律扩展到更复杂的指标（如超参数），但仍然缺乏对预训练过程中各种能力之间动态差异的全面分析。为解决上述限制，本文对各种预训练中间检查点下模型能力进行了全面比较。
-
-    arXiv:2404.01204v1 Announce Type: new  Abstract: Uncovering early-stage metrics that reflect final model performance is one core principle for large-scale pretraining. The existing scaling law demonstrates the power-law correlation between pretraining loss and training flops, which serves as an important indicator of the current training state for large language models. However, this principle only focuses on the model's compression properties on the training data, resulting in an inconsistency with the ability improvements on the downstream tasks. Some follow-up works attempted to extend the scaling-law to more complex metrics (such as hyperparameters), but still lacked a comprehensive analysis of the dynamic differences among various capabilities during pretraining. To address the aforementioned limitations, this paper undertakes a comprehensive comparison of model capabilities at various pretraining intermediate checkpoints. Through this analysis, we confirm that specific downstream
-    
-[^2]: 基于集成的无监督不连续成分句法分析：树平均法
-
-    Ensemble-Based Unsupervised Discontinuous Constituency Parsing by Tree Averaging
-
-    [https://arxiv.org/abs/2403.00143](https://arxiv.org/abs/2403.00143)
-
-    通过树平均法构建集成解析器，稳定并提升无监督不连续成分句法分析性能，实验结果表明该方法在所有指标上均优于基准线
+    该论文提出了一种通过使用大型语言模型将长篇回应分解为单个事实，并通过发送搜索查询到Google搜索，评估事实准确性的方法，并扩展了F1分数作为长篇事实性的聚合度量。
 
     
 
-    我们解决了无监督不连续成分句法分析的问题，在这个问题中我们观察到先前唯一模型的性能存在高方差。我们提出通过对现有不连续解析器的不同运行构建一个集成，并通过平均预测树来稳定和提升性能。首先，我们针对不同的二元性和连续性设置提供了全面的树平均计算复杂度分析（以P和NP完全为单位）。然后，我们开发了一种高效的精确算法来处理这一任务，在我们的实验中对所有样本运行时间均合理。在三个数据集上的结果显示我们的方法在所有指标上均优于所有基准线，我们还对我们的方法进行了深入分析。
+    大型语言模型（LLMs）在回答开放性主题的事实性提示时，经常生成包含事实错误的内容。为了在开放领域中对模型的长篇事实性进行基准测试，我们首先使用GPT-4生成了一个名为LongFact的提示集，其中包含数千个囊括38个主题的问题。然后，我们提出LLM代理可以通过一种名为Search-Augmented Factuality Evaluator（SAFE）的方法作为长篇事实性的自动评估器。SAFE利用LLM将长篇回应分解为一组单独的事实，并通过发送搜索查询到Google搜索以及确定一个事实是否得到搜索结果支持的多步推理过程来评估每个事实的准确性。此外，我们还提议将F1分数扩展为长篇事实性的聚合度量。为此，我们平衡了回应中支持事实的百分比（精度）与
 
-    arXiv:2403.00143v1 Announce Type: cross  Abstract: We address unsupervised discontinuous constituency parsing, where we observe a high variance in the performance of the only previous model. We propose to build an ensemble of different runs of the existing discontinuous parser by averaging the predicted trees, to stabilize and boost performance. To begin with, we provide comprehensive computational complexity analysis (in terms of P and NP-complete) for tree averaging under different setups of binarity and continuity. We then develop an efficient exact algorithm to tackle the task, which runs in a reasonable time for all samples in our experiments. Results on three datasets show our method outperforms all baselines in all metrics; we also provide in-depth analyses of our approach.
+    arXiv:2403.18802v1 Announce Type: cross  Abstract: Large language models (LLMs) often generate content that contains factual errors when responding to fact-seeking prompts on open-ended topics. To benchmark a model's long-form factuality in open domains, we first use GPT-4 to generate LongFact, a prompt set comprising thousands of questions spanning 38 topics. We then propose that LLM agents can be used as automated evaluators for long-form factuality through a method which we call Search-Augmented Factuality Evaluator (SAFE). SAFE utilizes an LLM to break down a long-form response into a set of individual facts and to evaluate the accuracy of each fact using a multi-step reasoning process comprising sending search queries to Google Search and determining whether a fact is supported by the search results. Furthermore, we propose extending F1 score as an aggregated metric for long-form factuality. To do so, we balance the percentage of supported facts in a response (precision) with the 
     
-[^3]: DropBP：通过丢弃反向传播加速大型语言模型的微调
+[^2]: 梯度被罚：通过探索拒绝损失地形图来检测针对大语言模型的越狱攻击
 
-    DropBP: Accelerating Fine-Tuning of Large Language Models by Dropping Backward Propagation
+    Gradient Cuff: Detecting Jailbreak Attacks on Large Language Models by Exploring Refusal Loss Landscapes
 
-    [https://arxiv.org/abs/2402.17812](https://arxiv.org/abs/2402.17812)
+    [https://arxiv.org/abs/2403.00867](https://arxiv.org/abs/2403.00867)
 
-    DropBP提出了一种新颖的方式来加速大型语言模型的微调，通过在反向传播过程中随机丢弃层以减少计算成本同时保持准确性。
-
-    
-
-    训练深度神经网络通常涉及正向和反向传播过程中的大量计算成本。传统的层次丢弃技术在训练过程中丢弃某些层以减少计算负担。然而，在正向传播过程中丢弃层会对训练过程产生不利影响，降低准确性。本文提出了DropBP，这是一种旨在减少计算成本同时保持准确性的新方法。DropBP在反向传播过程中随机丢弃层，不影响正向传播。此外，DropBP计算每个层的敏感性以分配适当的丢失率，从而稳定训练过程。DropBP旨在通过反向传播增强训练过程的效率，从而加速使用反向传播进行完全微调和参数高效微调。
-
-    arXiv:2402.17812v1 Announce Type: cross  Abstract: Training deep neural networks typically involves substantial computational costs during both forward and backward propagation. The conventional layer dropping techniques drop certain layers during training for reducing the computations burden. However, dropping layers during forward propagation adversely affects the training process by degrading accuracy. In this paper, we propose Dropping Backward Propagation (DropBP), a novel approach designed to reduce computational costs while maintaining accuracy. DropBP randomly drops layers during the backward propagation, which does not deviate forward propagation. Moreover, DropBP calculates the sensitivity of each layer to assign appropriate drop rate, thereby stabilizing the training process. DropBP is designed to enhance the efficiency of the training process with backpropagation, thereby enabling the acceleration of both full fine-tuning and parameter-efficient fine-tuning using backpropag
-    
-[^4]: 基于深度学习的阿姆哈拉语常见问题解答聊天机器人
-
-    Deep Learning Based Amharic Chatbot for FAQs in Universities
-
-    [https://arxiv.org/abs/2402.01720](https://arxiv.org/abs/2402.01720)
-
-    本文提出了一个基于深度学习的阿姆哈拉语常见问题解答聊天机器人模型，可以帮助大学生解答常见问题，通过使用自然语言处理和深度学习技术，采用多种机器学习模型算法进行分析和分类，取得了最好的成绩。
+    本文提出了一种名为Gradient Cuff的方法，通过探索拒绝损失地形图来检测对大语言模型的越狱攻击，成功设计了一种有效的两步检测策略。
 
     
 
-    大学生常常花费大量时间向管理员或教师寻求常见问题的答案。这对双方来说都很繁琐，需要找到一个解决方案。为此，本文提出了一个聊天机器人模型，利用自然语言处理和深度学习技术，在阿姆哈拉语中回答常见问题。聊天机器人是通过人工智能模拟人类对话的计算机程序，作为虚拟助手处理问题和其他任务。所提出的聊天机器人程序使用标记化、规范化、去除停用词和词干提取对阿姆哈拉语输入句子进行分析和分类。采用了三种机器学习模型算法来分类标记和检索合适的回答：支持向量机（SVM）、多项式朴素贝叶斯和通过TensorFlow、Keras和NLTK实现的深度神经网络。深度学习模型取得了最好的成绩。
+    大型语言模型（LLMs）正成为一种突出的生成式AI工具，用户输入查询，LLM生成答案。为了减少伤害和滥用，人们通过使用先进的训练技术如来自人类反馈的强化学习（RLHF）来将这些LLMs与人类价值观保持一致。然而，最近的研究突显了LLMs对于试图颠覆嵌入的安全防护措施的对抗性越狱尝试的脆弱性。为了解决这一挑战，本文定义并调查了LLMs的拒绝损失，然后提出了一种名为Gradient Cuff的方法来检测越狱尝试。Gradient Cuff利用拒绝损失地形图中观察到的独特特性，包括功能值及其光滑性，设计了一种有效的两步检测策略。
 
-    University students often spend a considerable amount of time seeking answers to common questions from administrators or teachers. This can become tedious for both parties, leading to a need for a solution. In response, this paper proposes a chatbot model that utilizes natural language processing and deep learning techniques to answer frequently asked questions (FAQs) in the Amharic language. Chatbots are computer programs that simulate human conversation through the use of artificial intelligence (AI), acting as a virtual assistant to handle questions and other tasks. The proposed chatbot program employs tokenization, normalization, stop word removal, and stemming to analyze and categorize Amharic input sentences. Three machine learning model algorithms were used to classify tokens and retrieve appropriate responses: Support Vector Machine (SVM), Multinomial Na\"ive Bayes, and deep neural networks implemented through TensorFlow, Keras, and NLTK. The deep learning model achieved the be
+    arXiv:2403.00867v1 Announce Type: cross  Abstract: Large Language Models (LLMs) are becoming a prominent generative AI tool, where the user enters a query and the LLM generates an answer. To reduce harm and misuse, efforts have been made to align these LLMs to human values using advanced training techniques such as Reinforcement Learning from Human Feedback (RLHF). However, recent studies have highlighted the vulnerability of LLMs to adversarial jailbreak attempts aiming at subverting the embedded safety guardrails. To address this challenge, this paper defines and investigates the Refusal Loss of LLMs and then proposes a method called Gradient Cuff to detect jailbreak attempts. Gradient Cuff exploits the unique properties observed in the refusal loss landscape, including functional values and its smoothness, to design an effective two-step detection strategy. Experimental results on two aligned LLMs (LLaMA-2-7B-Chat and Vicuna-7B-V1.5) and six types of jailbreak attacks (GCG, AutoDAN,
+    
+[^3]: 个性化的大型语言模型
+
+    Personalized Large Language Models
+
+    [https://arxiv.org/abs/2402.09269](https://arxiv.org/abs/2402.09269)
+
+    本文研究了个性化大型语言模型的方法，通过比较微调和零样本推理的方法，在主观任务中发现个性化微调能提高模型的推理能力，在情感识别和仇恨言论检测方面也获得了一致的性能提升。
+
+    
+
+    近年来，大型语言模型（LLM）在自然语言处理（NLP）任务中取得了显著的进展。然而，它们的通用性在需要个性化回应的场景（如推荐系统和聊天机器人）中存在一定的局限性。本文研究了个性化LLM的方法，比较了微调和零样本推理方法在主观任务中的效果。结果表明，与非个性化模型相比，个性化微调改善了模型的推理能力。在情感识别和仇恨言论检测的数据集上进行的实验表明，个性化方法在不同的LLM架构上获得了一致的性能提升。这些发现强调了在主观文本理解任务中提升LLM能力的个性化的重要性。
+
+    arXiv:2402.09269v1 Announce Type: cross Abstract: Large language models (LLMs) have significantly advanced Natural Language Processing (NLP) tasks in recent years. However, their universal nature poses limitations in scenarios requiring personalized responses, such as recommendation systems and chatbots. This paper investigates methods to personalize LLMs, comparing fine-tuning and zero-shot reasoning approaches on subjective tasks. Results demonstrate that personalized fine-tuning improves model reasoning compared to non-personalized models. Experiments on datasets for emotion recognition and hate speech detection show consistent performance gains with personalized methods across different LLM architectures. These findings underscore the importance of personalization for enhancing LLM capabilities in subjective text perception tasks.
+    
+[^4]: 具有单元语言模型的无文本低资源语音到语音翻译
+
+    Textless Low-Resource Speech-to-Speech Translation With Unit Language Models
+
+    [https://arxiv.org/abs/2305.15405](https://arxiv.org/abs/2305.15405)
+
+    提出了一种新的框架，用于训练只需要几十小时平行语音数据的无文本低资源语音到语音翻译系统，并通过单元到单元的序列到序列翻译任务和无监督反向翻译目标来提高模型性能
+
+    
+
+    现有的语音到语音翻译模型大致分为两类：使用数百小时平行语音数据训练的无文本模型，或者将文本作为中间步骤的无监督模型。这两种方法限制了为广泛语言构建语音到语音翻译模型的可能性，因为它们排除了主要口语的语言以及缺乏大规模平行语音数据的语言对。我们提出了一个新的框架，用于训练只需要几十小时平行语音数据的无文本低资源语音到语音翻译（S2ST）系统。我们将S2ST重新构建为一个单元到单元的序列到序列翻译任务，并首先在大规模单语言语音数据上进行预训练。然后，我们使用少量平行语音数据（$20-60$小时）对其进行微调。最后，我们通过无监督反向翻译目标改善模型性能。我们为英语到德语，德语
+
+    arXiv:2305.15405v2 Announce Type: replace  Abstract: Existing speech-to-speech translation models fall into two camps: textless models trained with hundreds of hours of parallel speech data or unsupervised models that leverage text as an intermediate step. Both approaches limit building speech-to-speech translation models for a wide range of languages, as they exclude languages that are primarily spoken and language pairs that lack large-scale parallel speech data. We present a new framework for training textless low-resource speech-to-speech translation (S2ST) systems that only need dozens of hours of parallel speech data. We reformulate S2ST as a unit-to-unit seq2seq translation task, and start by pretraining a model on large-scale monolingual speech data. Then, we finetune it with a small amount of parallel speech data ($20-60$ hours). Lastly, we improve model performance through an unsupervised backtranslation objective. We train and evaluate our models for English-to-German, Germa
+    
+[^5]: SciEval: 用于科学研究的多级大型语言模型评估基准
+
+    SciEval: A Multi-Level Large Language Model Evaluation Benchmark for Scientific Research. (arXiv:2308.13149v1 [cs.CL])
+
+    [http://arxiv.org/abs/2308.13149](http://arxiv.org/abs/2308.13149)
+
+    SciEval是一个综合且多学科的评估基准，用于评估大型语言模型在科学研究中的能力。它基于布鲁姆的分类法，包括客观和主观问题，并设计了一个防止数据泄漏的“动态”子集。实验结果表明，尽管GPT-4在某些方面取得了较高的得分，但仍存在挑战。
+
+    
+
+    最近，使用大型语言模型（LLMs）进行科学研究引起了越来越多的关注。已经提出了许多基准来评估LLMs在科学研究中的能力。然而，目前的基准主要基于预先收集的客观问题。这种设计存在数据泄漏问题，并且缺乏对主观问答能力的评估。在本文中，我们提出了SciEval，这是一个综合、多学科的评估基准，以解决这些问题。基于布鲁姆的分类法，SciEval涵盖了四个维度来系统评估科学研究能力。特别地，我们设计了一个基于科学原理的“动态”子集，以防止评估出现潜在的数据泄漏。SciEval包含了客观和主观问题。这些特点使SciEval成为评估LLMs科学研究能力的更有效的基准。对最先进的LLMs进行了全面实验，结果显示，尽管GPT-4取得了较高的得分，但在某些方面仍存在挑战。
+
+    Recently, there has been growing interest in using Large Language Models (LLMs) for scientific research. Numerous benchmarks have been proposed to evaluate the ability of LLMs for scientific research. However, current benchmarks are mostly based on pre-collected objective questions. This design suffers from data leakage problem and lacks the evaluation of subjective Q/A ability. In this paper, we propose SciEval, a comprehensive and multi-disciplinary evaluation benchmark to address these issues. Based on Bloom's taxonomy, SciEval covers four dimensions to systematically evaluate scientific research ability. In particular, we design a "dynamic" subset based on scientific principles to prevent evaluation from potential data leakage. Both objective and subjective questions are included in SciEval. These characteristics make SciEval a more effective benchmark for scientific research ability evaluation of LLMs. Comprehensive experiments on most advanced LLMs show that, although GPT-4 achie
     
 

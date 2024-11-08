@@ -2,202 +2,142 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [From Similarity to Superiority: Channel Clustering for Time Series Forecasting](https://arxiv.org/abs/2404.01340) | 通过对通道进行聚类，实现了一种新颖的通道策略，有效平衡了个体通道处理和通道之间必要交互作用，从而提高了时间序列预测性能。 |
-| [^2] | [Initialisation and Topology Effects in Decentralised Federated Learning](https://arxiv.org/abs/2403.15855) | 分散式联邦学习的有效性受到连接设备网络拓扑结构的显著影响，我们提出了基于底层网络节点特征向量中心性分布的改进神经网络初始化策略，大大提高了训练效率。 |
-| [^3] | [Policy Mirror Descent with Lookahead](https://arxiv.org/abs/2403.14156) | 提出了一种新类别的策略镜像下降算法$h$-PMD，它通过在PMD更新规则中结合多步贪心策略改进和前瞻深度$h，以解决折扣无限时间视角下的马尔可夫决策过程。 |
-| [^4] | [A Learnable Prior Improves Inverse Tumor Growth Modeling](https://arxiv.org/abs/2403.04500) | 提出了一种新颖的框架，以结合深度学习集成进行初始参数估计，促进了有效的下游演化抽样，有效地估计了从磁共振图像中脑肿瘤细胞浓度，DL-Prior在其中起着关键作用 |
-| [^5] | [Ensemble-Based Unsupervised Discontinuous Constituency Parsing by Tree Averaging](https://arxiv.org/abs/2403.00143) | 通过树平均法构建集成解析器，稳定并提升无监督不连续成分句法分析性能，实验结果表明该方法在所有指标上均优于基准线 |
-| [^6] | [Deep Learning Based Amharic Chatbot for FAQs in Universities](https://arxiv.org/abs/2402.01720) | 本文提出了一个基于深度学习的阿姆哈拉语常见问题解答聊天机器人模型，可以帮助大学生解答常见问题，通过使用自然语言处理和深度学习技术，采用多种机器学习模型算法进行分析和分类，取得了最好的成绩。 |
-| [^7] | [A dynamical clipping approach with task feedback for Proximal Policy Optimization](https://arxiv.org/abs/2312.07624) | 提出了一种基于任务反馈的动态剪裁方法，通过增加最大累积回报来优化近端策略优化的性能。 |
-| [^8] | [Incorporating Riemannian Geometric Features for Learning Coefficient of Pressure Distributions on Airplane Wings.](http://arxiv.org/abs/2401.09452) | 该论文提出了一种将黎曼几何特征应用于学习翼面压力系数分布的方法，以提高气动系数的预测准确性。 |
-| [^9] | [Teach Large Language Models to Forget Privacy.](http://arxiv.org/abs/2401.00870) | 这项研究提出了Prompt2Forget（P2F）框架，通过教导大型语言模型（LLM）忘记隐私信息，解决了LLM本地隐私挑战。P2F方法将问题分解为片段并生成虚构答案，模糊化模型对原始输入的记忆。实验证明，P2F具有很强的模糊化能力，并且可以在各种应用场景下自适应使用，无需手动设置。 |
-| [^10] | [D3: Data Diversity Design for Systematic Generalization in Visual Question Answering.](http://arxiv.org/abs/2309.08798) | 本论文研究了视觉问答中系统一般化的关键因素，发现简单任务的多样性在实现系统一般化中起到了重要的作用，这意味着不必收集大量和多样的复杂任务。 |
-| [^11] | [Breaking the Metric Voting Distortion Barrier.](http://arxiv.org/abs/2306.17838) | 这篇论文研究了社会选择中的度量扭曲问题，提出了一个新的投票规则，该规则可以选择距离选民平均距离较小的候选人。之前的研究发现确定性投票规则的度量扭曲限制为3，但在无限制的情况下，我们对该问题仍然了解有限。 |
-| [^12] | [Virtual Human Generative Model: Masked Modeling Approach for Learning Human Characteristics.](http://arxiv.org/abs/2306.10656) | 本论文提出了一种名为VHGM的深度生成模型，基于掩码建模的方法来学习健康属性、生活方式和人格之间的关系。通过使用异构表格数据集，VHGM有效地学习了超过1,800个属性。该模型具有潜在的应用前景，例如用于医疗属性的虚拟测量和生活方式的假设验证。 |
-| [^13] | [CatE: Embedding $\mathcal{ALC}$ ontologies using category-theoretical semantics.](http://arxiv.org/abs/2305.07163) | 本文介绍了一种使用范畴论语义的方法CatE，该方法可以高效地将本体公理投影到图形中，并生成本体论的嵌入，从而在知识图谱的链接预测任务上取得更好的表现。 |
+| [^1] | [Grid-Mapping Pseudo-Count Constraint for Offline Reinforcement Learning](https://arxiv.org/abs/2404.02545) | 提出了一种用于连续领域的新的计数方法，称为格点映射伪计数方法（GPC），以适应离线环境中的强化学习问题，并在惩罚Q值的同时减少计算成本。 |
+| [^2] | [Long-form factuality in large language models](https://arxiv.org/abs/2403.18802) | 该论文提出了一种通过使用大型语言模型将长篇回应分解为单个事实，并通过发送搜索查询到Google搜索，评估事实准确性的方法，并扩展了F1分数作为长篇事实性的聚合度量。 |
+| [^3] | [Gradient Cuff: Detecting Jailbreak Attacks on Large Language Models by Exploring Refusal Loss Landscapes](https://arxiv.org/abs/2403.00867) | 本文提出了一种名为Gradient Cuff的方法，通过探索拒绝损失地形图来检测对大语言模型的越狱攻击，成功设计了一种有效的两步检测策略。 |
+| [^4] | [Combinatorial Client-Master Multiagent Deep Reinforcement Learning for Task Offloading in Mobile Edge Computing](https://arxiv.org/abs/2402.11653) | 深度强化学习在移动边缘计算中的任务卸载问题中的应用面临着连续和离散资源约束的挑战，但有望实现高效的任务分配。 |
+| [^5] | [Personalized Large Language Models](https://arxiv.org/abs/2402.09269) | 本文研究了个性化大型语言模型的方法，通过比较微调和零样本推理的方法，在主观任务中发现个性化微调能提高模型的推理能力，在情感识别和仇恨言论检测方面也获得了一致的性能提升。 |
+| [^6] | [Robust multimodal models have outlier features and encode more concepts.](http://arxiv.org/abs/2310.13040) | 健壮的多模态模型展示了异常特征和更多概念的编码方式。 |
+| [^7] | [Language Aligned Visual Representations Predict Human Behavior in Naturalistic Learning Tasks.](http://arxiv.org/abs/2306.09377) | 语言对齐的视觉表示方式比纯视觉表示方式更有效地预测人类在自然学习任务中的行为。 |
+| [^8] | [Learning to Communicate and Collaborate in a Competitive Multi-Agent Setup to Clean the Ocean from Macroplastics.](http://arxiv.org/abs/2304.05872) | 本文提出了一种基于图神经网络（GNN）的、用于多智能体交互式海洋废弃物清理的通信机制，使得不同代理之间可以协作竞争并实现收集废弃物的最大化。 |
+| [^9] | [Evaluating explainability for machine learning predictions using model-agnostic metrics.](http://arxiv.org/abs/2302.12094) | 本文提出了一种使用模型无关的度量标准，用于评估机器学习模型的预测结果的可解释性。这些度量标准将各个解释能力方面总结成标量，提供全面的理解并促进决策者和利益相关者之间的沟通，从而提高整体的透明度。 |
 
 # 详细
 
-[^1]: 从相似到优越：时间序列预测的通道聚类
+[^1]: 离线强化学习的格点映射伪计数约束
 
-    From Similarity to Superiority: Channel Clustering for Time Series Forecasting
+    Grid-Mapping Pseudo-Count Constraint for Offline Reinforcement Learning
 
-    [https://arxiv.org/abs/2404.01340](https://arxiv.org/abs/2404.01340)
+    [https://arxiv.org/abs/2404.02545](https://arxiv.org/abs/2404.02545)
 
-    通过对通道进行聚类，实现了一种新颖的通道策略，有效平衡了个体通道处理和通道之间必要交互作用，从而提高了时间序列预测性能。
-
-    
-
-    时间序列预测在最近几十年吸引了很多关注。先前的研究表明，独立通道策略通过单独处理不同通道来提高预测性能，但在未知实例上导致了差劲的泛化，并忽略了通道之间潜在的必要交互作用。相反，依赖通道策略将所有通道混合在一起，甚至包含无关紧要和随意的信息，然而这会导致过度平滑的问题并限制了预测的准确性。目前缺乏一种能够有效平衡个体通道处理以提高预测性能而又不忽视通道之间必要交互作用的通道策略。受到我们观察到的时间序列模型练习提高对混合通道的结果与一对通道之间本质相似性之间的关联的启发，我们开发了一种新颖且适应性的方法
-
-    arXiv:2404.01340v1 Announce Type: cross  Abstract: Time series forecasting has attracted significant attention in recent decades. Previous studies have demonstrated that the Channel-Independent (CI) strategy improves forecasting performance by treating different channels individually, while it leads to poor generalization on unseen instances and ignores potentially necessary interactions between channels. Conversely, the Channel-Dependent (CD) strategy mixes all channels with even irrelevant and indiscriminate information, which, however, results in oversmoothing issues and limits forecasting accuracy. There is a lack of channel strategy that effectively balances individual channel treatment for improved forecasting performance without overlooking essential interactions between channels. Motivated by our observation of a correlation between the time series model's performance boost against channel mixing and the intrinsic similarity on a pair of channels, we developed a novel and adapt
-    
-[^2]: 初始值和拓扑结构在分散式联邦学习中的影响
-
-    Initialisation and Topology Effects in Decentralised Federated Learning
-
-    [https://arxiv.org/abs/2403.15855](https://arxiv.org/abs/2403.15855)
-
-    分散式联邦学习的有效性受到连接设备网络拓扑结构的显著影响，我们提出了基于底层网络节点特征向量中心性分布的改进神经网络初始化策略，大大提高了训练效率。
+    提出了一种用于连续领域的新的计数方法，称为格点映射伪计数方法（GPC），以适应离线环境中的强化学习问题，并在惩罚Q值的同时减少计算成本。
 
     
 
-    具有完全分散式特征的联邦学习使得在网络上分布式设备上对个体机器学习模型进行协作训练，同时保持训练数据本地化。这种方法增强了数据隐私性，消除了单点故障和中央协调的必要性。我们的研究强调了分散式联邦学习的有效性受到连接设备的网络拓扑结构的显著影响。一个简化的数值模型用于研究这些系统的早期行为，使我们得出了一个利用底层网络节点的特征向量中心性分布的改进人工神经网络初始值策略，从而大大提高了训练效率。此外，我们的研究探讨了在我们提出的初始化策略下的比例行为和环境参数的选择。这项工作为更多研究打开了道路。
+    离线强化学习是从静态数据集中学习而不与环境进行交互的方法，这确保了安全性并因此具有良好的应用前景。然而，直接应用朴素的强化学习方法通常在离线环境中失败，因为由于超出分布（OOD）行为引起的函数逼近误差。为了解决这个问题，现有算法主要惩罚OOD行为的Q值，其约束的质量也很重要。不精确的约束可能导致次优解，而精确的约束则需要显著的计算成本。在本文中，我们提出了一种新颖的连续领域计数方法，称为格点映射伪计数方法（GPC），以适当地惩罚Q值并减少计算成本。所提出的方法将状态和动作空间映射到离散空间，并通过伪计数约束它们的Q值。这是一个理论性
 
-    arXiv:2403.15855v1 Announce Type: cross  Abstract: Fully decentralised federated learning enables collaborative training of individual machine learning models on distributed devices on a network while keeping the training data localised. This approach enhances data privacy and eliminates both the single point of failure and the necessity for central coordination. Our research highlights that the effectiveness of decentralised federated learning is significantly influenced by the network topology of connected devices. A simplified numerical model for studying the early behaviour of these systems leads us to an improved artificial neural network initialisation strategy, which leverages the distribution of eigenvector centralities of the nodes of the underlying network, leading to a radically improved training efficiency. Additionally, our study explores the scaling behaviour and choice of environmental parameters under our proposed initialisation strategy. This work paves the way for mor
+    arXiv:2404.02545v1 Announce Type: cross  Abstract: Offline reinforcement learning learns from a static dataset without interacting with the environment, which ensures security and thus owns a good prospect of application. However, directly applying naive reinforcement learning methods usually fails in an offline environment due to function approximation errors caused by out-of-distribution(OOD) actions. To solve this problem, existing algorithms mainly penalize the Q-value of OOD actions, the quality of whose constraints also matter. Imprecise constraints may lead to suboptimal solutions, while precise constraints require significant computational costs. In this paper, we propose a novel count-based method for continuous domains, called Grid-Mapping Pseudo-Count method(GPC), to penalize the Q-value appropriately and reduce the computational cost. The proposed method maps the state and action space to discrete space and constrains their Q-values through the pseudo-count. It is theoretic
     
-[^3]: 具有前瞻特性的策略镜像下降算法
+[^2]: 大型语言模型中的长篇事实性
 
-    Policy Mirror Descent with Lookahead
+    Long-form factuality in large language models
 
-    [https://arxiv.org/abs/2403.14156](https://arxiv.org/abs/2403.14156)
+    [https://arxiv.org/abs/2403.18802](https://arxiv.org/abs/2403.18802)
 
-    提出了一种新类别的策略镜像下降算法$h$-PMD，它通过在PMD更新规则中结合多步贪心策略改进和前瞻深度$h，以解决折扣无限时间视角下的马尔可夫决策过程。
-
-    
-
-    策略镜像下降（PMD）作为一种多功能算法框架，包括几种重要的策略梯度算法，如自然策略梯度，并与最先进的强化学习（RL）算法（如TRPO和PPO）相联系。PMD可以看作是实现正则化1步贪心策略改进的软策略迭代算法。然而，1步贪心策略可能不是最佳选择，最近在RL领域取得了显着的实证成功，如AlphaGo和AlphaZero已经证明，相对于多步骤，贪心方法可以超越它们的1步骤对应物。在这项工作中，我们提出了一种新类别的PMD算法，称为$h$-PMD，它将具有前瞻深度$h$的多步贪心策略改进结合到PMD更新规则中。为了解决折扣无限时间视角下的马尔可夫决策过程，其中折扣因子为$\gamma$，我们展示了$h$-PMD可以推广标准的PMD。
-
-    arXiv:2403.14156v1 Announce Type: cross  Abstract: Policy Mirror Descent (PMD) stands as a versatile algorithmic framework encompassing several seminal policy gradient algorithms such as natural policy gradient, with connections with state-of-the-art reinforcement learning (RL) algorithms such as TRPO and PPO. PMD can be seen as a soft Policy Iteration algorithm implementing regularized 1-step greedy policy improvement. However, 1-step greedy policies might not be the best choice and recent remarkable empirical successes in RL such as AlphaGo and AlphaZero have demonstrated that greedy approaches with respect to multiple steps outperform their 1-step counterpart. In this work, we propose a new class of PMD algorithms called $h$-PMD which incorporates multi-step greedy policy improvement with lookahead depth $h$ to the PMD update rule. To solve discounted infinite horizon Markov Decision Processes with discount factor $\gamma$, we show that $h$-PMD which generalizes the standard PMD enj
-    
-[^4]: 一种可学习的先验改进了逆肿瘤生长建模
-
-    A Learnable Prior Improves Inverse Tumor Growth Modeling
-
-    [https://arxiv.org/abs/2403.04500](https://arxiv.org/abs/2403.04500)
-
-    提出了一种新颖的框架，以结合深度学习集成进行初始参数估计，促进了有效的下游演化抽样，有效地估计了从磁共振图像中脑肿瘤细胞浓度，DL-Prior在其中起着关键作用
+    该论文提出了一种通过使用大型语言模型将长篇回应分解为单个事实，并通过发送搜索查询到Google搜索，评估事实准确性的方法，并扩展了F1分数作为长篇事实性的聚合度量。
 
     
 
-    生物物理建模，特别是涉及偏微分方程（PDEs）的建模，为个体化疾病治疗方案提供了巨大潜力。然而，这些模型的逆问题求解方面提出了巨大挑战，要么是由于基于模型的方法的高计算要求，要么是深度学习（DL）方法的有限鲁棒性。我们提出了一个新颖的框架，以一种协同的方式利用两种方法的独特优势。我们的方法结合了DL集成进行初始参数估计，从而促进了初始化为基于DL的先验的有效下游进化抽样。我们展示了将快速深度学习算法与高精度演化策略结合起来在从磁共振图像中估计脑肿瘤细胞浓度方面的有效性。DL-Prior起着关键作用，显著约束了效果。
+    大型语言模型（LLMs）在回答开放性主题的事实性提示时，经常生成包含事实错误的内容。为了在开放领域中对模型的长篇事实性进行基准测试，我们首先使用GPT-4生成了一个名为LongFact的提示集，其中包含数千个囊括38个主题的问题。然后，我们提出LLM代理可以通过一种名为Search-Augmented Factuality Evaluator（SAFE）的方法作为长篇事实性的自动评估器。SAFE利用LLM将长篇回应分解为一组单独的事实，并通过发送搜索查询到Google搜索以及确定一个事实是否得到搜索结果支持的多步推理过程来评估每个事实的准确性。此外，我们还提议将F1分数扩展为长篇事实性的聚合度量。为此，我们平衡了回应中支持事实的百分比（精度）与
 
-    arXiv:2403.04500v1 Announce Type: cross  Abstract: Biophysical modeling, particularly involving partial differential equations (PDEs), offers significant potential for tailoring disease treatment protocols to individual patients. However, the inverse problem-solving aspect of these models presents a substantial challenge, either due to the high computational requirements of model-based approaches or the limited robustness of deep learning (DL) methods. We propose a novel framework that leverages the unique strengths of both approaches in a synergistic manner. Our method incorporates a DL ensemble for initial parameter estimation, facilitating efficient downstream evolutionary sampling initialized with this DL-based prior. We showcase the effectiveness of integrating a rapid deep-learning algorithm with a high-precision evolution strategy in estimating brain tumor cell concentrations from magnetic resonance images. The DL-Prior plays a pivotal role, significantly constraining the effect
+    arXiv:2403.18802v1 Announce Type: cross  Abstract: Large language models (LLMs) often generate content that contains factual errors when responding to fact-seeking prompts on open-ended topics. To benchmark a model's long-form factuality in open domains, we first use GPT-4 to generate LongFact, a prompt set comprising thousands of questions spanning 38 topics. We then propose that LLM agents can be used as automated evaluators for long-form factuality through a method which we call Search-Augmented Factuality Evaluator (SAFE). SAFE utilizes an LLM to break down a long-form response into a set of individual facts and to evaluate the accuracy of each fact using a multi-step reasoning process comprising sending search queries to Google Search and determining whether a fact is supported by the search results. Furthermore, we propose extending F1 score as an aggregated metric for long-form factuality. To do so, we balance the percentage of supported facts in a response (precision) with the 
     
-[^5]: 基于集成的无监督不连续成分句法分析：树平均法
+[^3]: 梯度被罚：通过探索拒绝损失地形图来检测针对大语言模型的越狱攻击
 
-    Ensemble-Based Unsupervised Discontinuous Constituency Parsing by Tree Averaging
+    Gradient Cuff: Detecting Jailbreak Attacks on Large Language Models by Exploring Refusal Loss Landscapes
 
-    [https://arxiv.org/abs/2403.00143](https://arxiv.org/abs/2403.00143)
+    [https://arxiv.org/abs/2403.00867](https://arxiv.org/abs/2403.00867)
 
-    通过树平均法构建集成解析器，稳定并提升无监督不连续成分句法分析性能，实验结果表明该方法在所有指标上均优于基准线
-
-    
-
-    我们解决了无监督不连续成分句法分析的问题，在这个问题中我们观察到先前唯一模型的性能存在高方差。我们提出通过对现有不连续解析器的不同运行构建一个集成，并通过平均预测树来稳定和提升性能。首先，我们针对不同的二元性和连续性设置提供了全面的树平均计算复杂度分析（以P和NP完全为单位）。然后，我们开发了一种高效的精确算法来处理这一任务，在我们的实验中对所有样本运行时间均合理。在三个数据集上的结果显示我们的方法在所有指标上均优于所有基准线，我们还对我们的方法进行了深入分析。
-
-    arXiv:2403.00143v1 Announce Type: cross  Abstract: We address unsupervised discontinuous constituency parsing, where we observe a high variance in the performance of the only previous model. We propose to build an ensemble of different runs of the existing discontinuous parser by averaging the predicted trees, to stabilize and boost performance. To begin with, we provide comprehensive computational complexity analysis (in terms of P and NP-complete) for tree averaging under different setups of binarity and continuity. We then develop an efficient exact algorithm to tackle the task, which runs in a reasonable time for all samples in our experiments. Results on three datasets show our method outperforms all baselines in all metrics; we also provide in-depth analyses of our approach.
-    
-[^6]: 基于深度学习的阿姆哈拉语常见问题解答聊天机器人
-
-    Deep Learning Based Amharic Chatbot for FAQs in Universities
-
-    [https://arxiv.org/abs/2402.01720](https://arxiv.org/abs/2402.01720)
-
-    本文提出了一个基于深度学习的阿姆哈拉语常见问题解答聊天机器人模型，可以帮助大学生解答常见问题，通过使用自然语言处理和深度学习技术，采用多种机器学习模型算法进行分析和分类，取得了最好的成绩。
+    本文提出了一种名为Gradient Cuff的方法，通过探索拒绝损失地形图来检测对大语言模型的越狱攻击，成功设计了一种有效的两步检测策略。
 
     
 
-    大学生常常花费大量时间向管理员或教师寻求常见问题的答案。这对双方来说都很繁琐，需要找到一个解决方案。为此，本文提出了一个聊天机器人模型，利用自然语言处理和深度学习技术，在阿姆哈拉语中回答常见问题。聊天机器人是通过人工智能模拟人类对话的计算机程序，作为虚拟助手处理问题和其他任务。所提出的聊天机器人程序使用标记化、规范化、去除停用词和词干提取对阿姆哈拉语输入句子进行分析和分类。采用了三种机器学习模型算法来分类标记和检索合适的回答：支持向量机（SVM）、多项式朴素贝叶斯和通过TensorFlow、Keras和NLTK实现的深度神经网络。深度学习模型取得了最好的成绩。
+    大型语言模型（LLMs）正成为一种突出的生成式AI工具，用户输入查询，LLM生成答案。为了减少伤害和滥用，人们通过使用先进的训练技术如来自人类反馈的强化学习（RLHF）来将这些LLMs与人类价值观保持一致。然而，最近的研究突显了LLMs对于试图颠覆嵌入的安全防护措施的对抗性越狱尝试的脆弱性。为了解决这一挑战，本文定义并调查了LLMs的拒绝损失，然后提出了一种名为Gradient Cuff的方法来检测越狱尝试。Gradient Cuff利用拒绝损失地形图中观察到的独特特性，包括功能值及其光滑性，设计了一种有效的两步检测策略。
 
-    University students often spend a considerable amount of time seeking answers to common questions from administrators or teachers. This can become tedious for both parties, leading to a need for a solution. In response, this paper proposes a chatbot model that utilizes natural language processing and deep learning techniques to answer frequently asked questions (FAQs) in the Amharic language. Chatbots are computer programs that simulate human conversation through the use of artificial intelligence (AI), acting as a virtual assistant to handle questions and other tasks. The proposed chatbot program employs tokenization, normalization, stop word removal, and stemming to analyze and categorize Amharic input sentences. Three machine learning model algorithms were used to classify tokens and retrieve appropriate responses: Support Vector Machine (SVM), Multinomial Na\"ive Bayes, and deep neural networks implemented through TensorFlow, Keras, and NLTK. The deep learning model achieved the be
+    arXiv:2403.00867v1 Announce Type: cross  Abstract: Large Language Models (LLMs) are becoming a prominent generative AI tool, where the user enters a query and the LLM generates an answer. To reduce harm and misuse, efforts have been made to align these LLMs to human values using advanced training techniques such as Reinforcement Learning from Human Feedback (RLHF). However, recent studies have highlighted the vulnerability of LLMs to adversarial jailbreak attempts aiming at subverting the embedded safety guardrails. To address this challenge, this paper defines and investigates the Refusal Loss of LLMs and then proposes a method called Gradient Cuff to detect jailbreak attempts. Gradient Cuff exploits the unique properties observed in the refusal loss landscape, including functional values and its smoothness, to design an effective two-step detection strategy. Experimental results on two aligned LLMs (LLaMA-2-7B-Chat and Vicuna-7B-V1.5) and six types of jailbreak attacks (GCG, AutoDAN,
     
-[^7]: 一种基于任务反馈的动态剪裁方法用于近端策略优化
+[^4]: 移动边缘计算中组合式客户端-主控多智能体深度强化学习用于任务卸载
 
-    A dynamical clipping approach with task feedback for Proximal Policy Optimization
+    Combinatorial Client-Master Multiagent Deep Reinforcement Learning for Task Offloading in Mobile Edge Computing
 
-    [https://arxiv.org/abs/2312.07624](https://arxiv.org/abs/2312.07624)
+    [https://arxiv.org/abs/2402.11653](https://arxiv.org/abs/2402.11653)
 
-    提出了一种基于任务反馈的动态剪裁方法，通过增加最大累积回报来优化近端策略优化的性能。
-
-    
-
-    近端策略优化（PPO）已被广泛应用于各个领域，包括大型语言模型（LLM）优化和机器人学习等。然而，PPO受到固定剪裁边界的限制。具体而言，目前没有理论证明最佳剪裁边界在整个训练过程中始终保持一致。通过用一个独特的剪裁边界截断新旧策略的比率，可以确保稳定的训练并实现最佳的训练性能。此外，先前的研究表明，固定的剪裁边界限制了agent的探索。因此，研究一种动态剪裁边界以增强PPO的性能是非常有益的。与以往的剪裁方法不同，我们考虑将在强化学习（RL）任务中增加最大累积回报视作RL任务的偏好，并提出了一个双层近端策略优化范式。
-
-    arXiv:2312.07624v2 Announce Type: replace-cross  Abstract: Proximal Policy Optimization (PPO) has been broadly applied to various domains, including Large Language Model (LLM) optimization and Robotics learning, etc. However, PPO is limited by a fixed setting for the clipping bound. Specifically, there is no theoretical proof that the optimal clipping bound remains consistent throughout the entire training process. Truncating the ratio of the new and old policies with a unique clipping bound ensures stable training and can achieve the best training performance. Additionally, previous research suggests that a fixed clipping bound limits the agent's exploration. Therefore, researching a dynamical clipping bound to enhance PPO's performance can be highly beneficial. Different from previous clipping approaches, we consider increasing the maximum cumulative Return in reinforcement learning (RL) tasks as the preference of the RL task, and propose a bi-level proximal policy optimization parad
-    
-[^8]: 使用黎曼几何特征学习飞机机翼上的压力系数
-
-    Incorporating Riemannian Geometric Features for Learning Coefficient of Pressure Distributions on Airplane Wings. (arXiv:2401.09452v1 [cs.LG])
-
-    [http://arxiv.org/abs/2401.09452](http://arxiv.org/abs/2401.09452)
-
-    该论文提出了一种将黎曼几何特征应用于学习翼面压力系数分布的方法，以提高气动系数的预测准确性。
+    深度强化学习在移动边缘计算中的任务卸载问题中的应用面临着连续和离散资源约束的挑战，但有望实现高效的任务分配。
 
     
 
-    飞机的气动系数受其几何形状的显著影响，尤其是当攻角较大时。在空气动力学领域，传统的基于多项式的参数化方法使用尽可能少的参数来描述翼型的几何形状。然而，由于翼的三维几何形状比二维翼型复杂，基于多项式的参数化方法难以准确表示翼在三维空间中的整体形状。现有的基于深度学习的方法可以提取用于描述二维翼型或翼截面形状的大量潜在神经表示。最近的研究表明，直接将几何特征作为神经网络的输入可以提高预测的气动系数的准确性。受几何理论的启发，我们提出了将黎曼几何特征纳入学习翼面压力系数分布的方法。我们的方法计算几何特征（黎曼）。
+    最近，出现了大量执行计算密集型任务的移动应用程序，如视频流媒体、数据挖掘、虚拟现实、增强现实、图像处理、视频处理、人脸识别和在线游戏。移动边缘计算（MEC）已经成为一种满足用户设备（UDs）日益增长的计算需求的有前途的技术。MEC中的任务卸载是一种策略，通过在UDs和MEC服务器之间分配任务来满足UDs的需求。深度强化学习（DRL）在任务卸载问题中受到关注，因为它可以适应动态变化并最小化在线计算复杂性。然而，UDs和MEC服务器上的各种类型的连续和离散资源约束对有效的基于DRL的任务卸载设计构成挑战。
 
-    The aerodynamic coefficients of aircrafts are significantly impacted by its geometry, especially when the angle of attack (AoA) is large. In the field of aerodynamics, traditional polynomial-based parameterization uses as few parameters as possible to describe the geometry of an airfoil. However, because the 3D geometry of a wing is more complicated than the 2D airfoil, polynomial-based parameterizations have difficulty in accurately representing the entire shape of a wing in 3D space. Existing deep learning-based methods can extract massive latent neural representations for the shape of 2D airfoils or 2D slices of wings. Recent studies highlight that directly taking geometric features as inputs to the neural networks can improve the accuracy of predicted aerodynamic coefficients. Motivated by geometry theory, we propose to incorporate Riemannian geometric features for learning Coefficient of Pressure (CP) distributions on wing surfaces. Our method calculates geometric features (Rieman
+    arXiv:2402.11653v1 Announce Type: new  Abstract: Recently, there has been an explosion of mobile applications that perform computationally intensive tasks such as video streaming, data mining, virtual reality, augmented reality, image processing, video processing, face recognition, and online gaming. However, user devices (UDs), such as tablets and smartphones, have a limited ability to perform the computation needs of the tasks. Mobile edge computing (MEC) has emerged as a promising technology to meet the increasing computing demands of UDs. Task offloading in MEC is a strategy that meets the demands of UDs by distributing tasks between UDs and MEC servers. Deep reinforcement learning (DRL) is gaining attention in task-offloading problems because it can adapt to dynamic changes and minimize online computational complexity. However, the various types of continuous and discrete resource constraints on UDs and MEC servers pose challenges to the design of an efficient DRL-based task-offlo
     
-[^9]: 教导大型语言模型忘记隐私
+[^5]: 个性化的大型语言模型
 
-    Teach Large Language Models to Forget Privacy. (arXiv:2401.00870v1 [cs.CR])
+    Personalized Large Language Models
 
-    [http://arxiv.org/abs/2401.00870](http://arxiv.org/abs/2401.00870)
+    [https://arxiv.org/abs/2402.09269](https://arxiv.org/abs/2402.09269)
 
-    这项研究提出了Prompt2Forget（P2F）框架，通过教导大型语言模型（LLM）忘记隐私信息，解决了LLM本地隐私挑战。P2F方法将问题分解为片段并生成虚构答案，模糊化模型对原始输入的记忆。实验证明，P2F具有很强的模糊化能力，并且可以在各种应用场景下自适应使用，无需手动设置。
-
-    
-
-    大型语言模型（LLM）已被证明具有强大的能力，但隐私泄露的风险仍然是一个重要问题。传统的保护隐私方法，如差分隐私和同态加密，在只有黑盒API的环境下是不足够的，要求模型透明性或大量计算资源。我们提出了Prompt2Forget（P2F），这是第一个设计用于解决LLM本地隐私挑战的框架，通过教导LLM忘记来实现。该方法涉及将完整问题分解为较小的片段，生成虚构的答案，并使模型对原始输入的记忆模糊化。我们根据不同领域的包含隐私敏感信息的问题创建了基准数据集。P2F实现了零-shot泛化，可以在多种应用场景下自适应，无需手动调整。实验结果表明，P2F具有很强的模糊化LLM记忆的能力，而不会损失任何实用性。
-
-    Large Language Models (LLMs) have proven powerful, but the risk of privacy leakage remains a significant concern. Traditional privacy-preserving methods, such as Differential Privacy and Homomorphic Encryption, are inadequate for black-box API-only settings, demanding either model transparency or heavy computational resources. We propose Prompt2Forget (P2F), the first framework designed to tackle the LLM local privacy challenge by teaching LLM to forget. The method involves decomposing full questions into smaller segments, generating fabricated answers, and obfuscating the model's memory of the original input. A benchmark dataset was crafted with questions containing privacy-sensitive information from diverse fields. P2F achieves zero-shot generalization, allowing adaptability across a wide range of use cases without manual adjustments. Experimental results indicate P2F's robust capability to obfuscate LLM's memory, attaining a forgetfulness score of around 90\% without any utility los
-    
-[^10]: D3: 数据多样性设计为系统一般化在视觉问答中。
-
-    D3: Data Diversity Design for Systematic Generalization in Visual Question Answering. (arXiv:2309.08798v1 [cs.AI])
-
-    [http://arxiv.org/abs/2309.08798](http://arxiv.org/abs/2309.08798)
-
-    本论文研究了视觉问答中系统一般化的关键因素，发现简单任务的多样性在实现系统一般化中起到了重要的作用，这意味着不必收集大量和多样的复杂任务。
+    本文研究了个性化大型语言模型的方法，通过比较微调和零样本推理的方法，在主观任务中发现个性化微调能提高模型的推理能力，在情感识别和仇恨言论检测方面也获得了一致的性能提升。
 
     
 
-    系统一般化是智能的关键方面，它指的是通过结合已知的子任务和概念来推广到新任务的能力。已经显示影响系统一般化的一个关键因素是训练数据的多样性。然而，多样性可以以多种方式定义，因为数据具有许多变化因素。对于不同方面的数据多样性如何影响系统一般化的更细致的理解尚缺乏。我们在视觉问答（VQA）问题中提供了新的证据，揭示了简单任务的多样性（即由几个子任务和概念组成的任务）在实现系统一般化中的关键作用。这意味着收集大量和多样化的复杂任务可能并非必要，这可能成本高昂。我们证明了这个结果与训练和测试数据之间的相似性无关，并适用于众所周知的神经网络家族。
+    近年来，大型语言模型（LLM）在自然语言处理（NLP）任务中取得了显著的进展。然而，它们的通用性在需要个性化回应的场景（如推荐系统和聊天机器人）中存在一定的局限性。本文研究了个性化LLM的方法，比较了微调和零样本推理方法在主观任务中的效果。结果表明，与非个性化模型相比，个性化微调改善了模型的推理能力。在情感识别和仇恨言论检测的数据集上进行的实验表明，个性化方法在不同的LLM架构上获得了一致的性能提升。这些发现强调了在主观文本理解任务中提升LLM能力的个性化的重要性。
 
-    Systematic generalization is a crucial aspect of intelligence, which refers to the ability to generalize to novel tasks by combining known subtasks and concepts. One critical factor that has been shown to influence systematic generalization is the diversity of training data. However, diversity can be defined in various ways, as data have many factors of variation. A more granular understanding of how different aspects of data diversity affect systematic generalization is lacking. We present new evidence in the problem of Visual Question Answering (VQA) that reveals that the diversity of simple tasks (i.e. tasks formed by a few subtasks and concepts) plays a key role in achieving systematic generalization. This implies that it may not be essential to gather a large and varied number of complex tasks, which could be costly to obtain. We demonstrate that this result is independent of the similarity between the training and testing data and applies to well-known families of neural network 
+    arXiv:2402.09269v1 Announce Type: cross Abstract: Large language models (LLMs) have significantly advanced Natural Language Processing (NLP) tasks in recent years. However, their universal nature poses limitations in scenarios requiring personalized responses, such as recommendation systems and chatbots. This paper investigates methods to personalize LLMs, comparing fine-tuning and zero-shot reasoning approaches on subjective tasks. Results demonstrate that personalized fine-tuning improves model reasoning compared to non-personalized models. Experiments on datasets for emotion recognition and hate speech detection show consistent performance gains with personalized methods across different LLM architectures. These findings underscore the importance of personalization for enhancing LLM capabilities in subjective text perception tasks.
     
-[^11]: 打破度量投票扭曲的障碍
+[^6]: 健壮的多模态模型具有异常特征并编码更多概念
 
-    Breaking the Metric Voting Distortion Barrier. (arXiv:2306.17838v1 [cs.GT])
+    Robust multimodal models have outlier features and encode more concepts. (arXiv:2310.13040v1 [cs.LG])
 
-    [http://arxiv.org/abs/2306.17838](http://arxiv.org/abs/2306.17838)
+    [http://arxiv.org/abs/2310.13040](http://arxiv.org/abs/2310.13040)
 
-    这篇论文研究了社会选择中的度量扭曲问题，提出了一个新的投票规则，该规则可以选择距离选民平均距离较小的候选人。之前的研究发现确定性投票规则的度量扭曲限制为3，但在无限制的情况下，我们对该问题仍然了解有限。
-
-    
-
-    我们考虑社会选择中度量扭曲的经典问题。假设我们有一个选举，有n名选民和m名候选人，他们位于一个共享的度量空间中。我们希望设计一个投票规则，选择一个平均距离选民较小的候选人。然而，我们不能直接获得度量空间中的距离信息，每个选民只能给出候选人的排序列表。我们能否设计一条规则，无论选举实例和底层度量空间如何，都能选择出一个与真正最优解的代价只相差一个小因子（称为扭曲度）的候选人？许多研究的成果将确定性投票规则的度量扭曲限制为3，这是确定性规则和许多其他投票规则类别的最佳结果。然而，在没有任何限制的情况下，我们对该问题仍然了解有限：尽管最佳下界已经降低到2.112，但现有规则的扭曲度仍然相对较高。
-
-    We consider the following well studied problem of metric distortion in social choice. Suppose we have an election with $n$ voters and $m$ candidates who lie in a shared metric space. We would like to design a voting rule that chooses a candidate whose average distance to the voters is small. However, instead of having direct access to the distances in the metric space, each voter gives us a ranked list of the candidates in order of distance. Can we design a rule that regardless of the election instance and underlying metric space, chooses a candidate whose cost differs from the true optimum by only a small factor (known as the distortion)?  A long line of work culminated in finding deterministic voting rules with metric distortion $3$, which is the best possible for deterministic rules and many other classes of voting rules. However, without any restrictions, there is still a significant gap in our understanding: Even though the best lower bound is substantially lower at $2.112$, the b
-    
-[^12]: 虚拟人类生成模型：基于掩码建模的方法来学习人类特征
-
-    Virtual Human Generative Model: Masked Modeling Approach for Learning Human Characteristics. (arXiv:2306.10656v1 [cs.LG])
-
-    [http://arxiv.org/abs/2306.10656](http://arxiv.org/abs/2306.10656)
-
-    本论文提出了一种名为VHGM的深度生成模型，基于掩码建模的方法来学习健康属性、生活方式和人格之间的关系。通过使用异构表格数据集，VHGM有效地学习了超过1,800个属性。该模型具有潜在的应用前景，例如用于医疗属性的虚拟测量和生活方式的假设验证。
+    健壮的多模态模型展示了异常特征和更多概念的编码方式。
 
     
 
-    识别医疗属性、生活方式和人格之间的关系对于理解和改善身体和精神状况至关重要。本文提出了一种名为虚拟人类生成模型（VHGM）的机器学习模型，用于估计有关医疗保健、生活方式和个性的属性。VHGM是一个深度生成模型，使用掩码建模训练，在已知属性的条件下学习属性的联合分布。利用异构表格数据集，VHGM高效地学习了超过1,800个属性。我们数值评估了VHGM及其训练技术的性能。作为VHGM的概念验证，我们提出了几个应用程序，演示了用户情境，例如医疗属性的虚拟测量和生活方式的假设验证。
+    什么区分健壮模型与非健壮模型？随着大规模多模态模型（如CLIP）的出现，这个问题引起了人们的关注。这些模型在自然分布转变方面表现出了前所未有的健壮性。尽管已经证明了健壮性的差异可以追溯到训练数据上的差异，但迄今为止还不清楚这对于模型学习到了什么意味着。在这项工作中，我们通过探测12个具有不同骨干（ResNets和ViTs）和预训练集（OpenAI，LAION-400M，LAION-2B，YFCC15M，CC12M和DataComp）的健壮多模态模型的表示空间来填补这一空白。我们发现这些模型的表示空间中存在两个健壮性的特征：（1）健壮模型具有由其激活特征表征的异常特征，其中一些特征值比平均值高几个数量级。这些异常特征在模型的表示空间中引入了特权方向。我们证明了...
 
-    Identifying the relationship between healthcare attributes, lifestyles, and personality is vital for understanding and improving physical and mental conditions. Machine learning approaches are promising for modeling their relationships and offering actionable suggestions. In this paper, we propose Virtual Human Generative Model (VHGM), a machine learning model for estimating attributes about healthcare, lifestyles, and personalities. VHGM is a deep generative model trained with masked modeling to learn the joint distribution of attributes conditioned on known ones. Using heterogeneous tabular datasets, VHGM learns more than 1,800 attributes efficiently. We numerically evaluate the performance of VHGM and its training techniques. As a proof-of-concept of VHGM, we present several applications demonstrating user scenarios, such as virtual measurements of healthcare attributes and hypothesis verifications of lifestyles.
+    What distinguishes robust models from non-robust ones? This question has gained traction with the appearance of large-scale multimodal models, such as CLIP. These models have demonstrated unprecedented robustness with respect to natural distribution shifts. While it has been shown that such differences in robustness can be traced back to differences in training data, so far it is not known what that translates to in terms of what the model has learned. In this work, we bridge this gap by probing the representation spaces of 12 robust multimodal models with various backbones (ResNets and ViTs) and pretraining sets (OpenAI, LAION-400M, LAION-2B, YFCC15M, CC12M and DataComp). We find two signatures of robustness in the representation spaces of these models: (1) Robust models exhibit outlier features characterized by their activations, with some being several orders of magnitude above average. These outlier features induce privileged directions in the model's representation space. We demon
     
-[^13]: CatE：使用范畴论语义嵌入$\mathcal{ALC}$本体论
+[^7]: 对齐语言的视觉表示预测人类在自然学习任务中的行为
 
-    CatE: Embedding $\mathcal{ALC}$ ontologies using category-theoretical semantics. (arXiv:2305.07163v1 [cs.LO])
+    Language Aligned Visual Representations Predict Human Behavior in Naturalistic Learning Tasks. (arXiv:2306.09377v1 [cs.LG])
 
-    [http://arxiv.org/abs/2305.07163](http://arxiv.org/abs/2305.07163)
+    [http://arxiv.org/abs/2306.09377](http://arxiv.org/abs/2306.09377)
 
-    本文介绍了一种使用范畴论语义的方法CatE，该方法可以高效地将本体公理投影到图形中，并生成本体论的嵌入，从而在知识图谱的链接预测任务上取得更好的表现。
+    语言对齐的视觉表示方式比纯视觉表示方式更有效地预测人类在自然学习任务中的行为。
 
     
 
-    与语义Web本体一起进行机器学习遵循几个策略之一，其中包括将本体投影到图形结构中，并将图形嵌入或基于图形的机器学习方法应用于生成的图形。已经开发出了几种将本体公理投影到图形中的方法。然而，这些方法在它们可以投影的公理类型（全面性）、它们是否可逆（单射性）以及它们如何利用语义信息方面存在局限性。这些限制限制了它们可以应用的任务类型。逻辑语言的范畴论语义以范畴而不是集合的形式形式化解释，并且范畴具有类似于图形的结构。我们开发了CatE，它使用$\mathcal{ALC}$描述逻辑的范畴论公式来生成本体公理的图形表示。CatE投影具有全面性和单射性，因此克服了其他基于图形本体论的方法的限制。CatE还通过将$\mathcal{ALC}$的语法编码为一种范畴来利用语义信息，这使我们能够为本体论生成嵌入。我们在知识图谱的链接预测任务上评估了CatE，并表明它优于现有方法。
+    人类具备识别和概括自然物体相关特征的能力，在各种情境中有所帮助。为了研究这种现象并确定最有效的表示方式以预测人类行为，我们进行了两个涉及类别学习和奖励学习的实验。我们的实验使用逼真的图像作为刺激物，并要求参与者基于所有试验的新型刺激物作出准确的决策，因此需要泛化。在两个任务中，底层规则是使用人类相似性判断提取的刺激维度生成的简单线性函数。值得注意的是，参与者在几次试验内就成功地确定了相关的刺激特征，证明了有效的泛化。我们进行了广泛的模型比较，评估了各种深度学习模型的表示对人类选择的逐次预测准确性。有趣的是，自然语言处理任务（如语言建模和机器翻译）训练的模型表示优于视觉任务训练的模型表示，表明对齐语言的视觉表示可能更有效地预测人类在自然学习任务中的行为。
 
-    Machine learning with Semantic Web ontologies follows several strategies, one of which involves projecting ontologies into graph structures and applying graph embeddings or graph-based machine learning methods to the resulting graphs. Several methods have been developed that project ontology axioms into graphs. However, these methods are limited in the type of axioms they can project (totality), whether they are invertible (injectivity), and how they exploit semantic information. These limitations restrict the kind of tasks to which they can be applied. Category-theoretical semantics of logic languages formalizes interpretations using categories instead of sets, and categories have a graph-like structure. We developed CatE, which uses the category-theoretical formulation of the semantics of the Description Logic $\mathcal{ALC}$ to generate a graph representation for ontology axioms. The CatE projection is total and injective, and therefore overcomes limitations of other graph-based ont
+    Humans possess the ability to identify and generalize relevant features of natural objects, which aids them in various situations. To investigate this phenomenon and determine the most effective representations for predicting human behavior, we conducted two experiments involving category learning and reward learning. Our experiments used realistic images as stimuli, and participants were tasked with making accurate decisions based on novel stimuli for all trials, thereby necessitating generalization. In both tasks, the underlying rules were generated as simple linear functions using stimulus dimensions extracted from human similarity judgments. Notably, participants successfully identified the relevant stimulus features within a few trials, demonstrating effective generalization. We performed an extensive model comparison, evaluating the trial-by-trial predictive accuracy of diverse deep learning models' representations of human choices. Intriguingly, representations from models train
+    
+[^8]: 在竞争性多智能体环境中学习沟通和协作以清理海洋废弃塑料
+
+    Learning to Communicate and Collaborate in a Competitive Multi-Agent Setup to Clean the Ocean from Macroplastics. (arXiv:2304.05872v1 [cs.AI])
+
+    [http://arxiv.org/abs/2304.05872](http://arxiv.org/abs/2304.05872)
+
+    本文提出了一种基于图神经网络（GNN）的、用于多智能体交互式海洋废弃物清理的通信机制，使得不同代理之间可以协作竞争并实现收集废弃物的最大化。
+
+    
+
+    在许多实际应用中，协作与竞争之间的平衡对于人工智能代理至关重要。本文使用多智能体强化学习（MARL）建立在一个高影响问题上，通过对海洋废弃塑料的收集实现了协作与竞争的平衡。我们提出了一种基于图神经网络（GNN）的通信机制，它增加了代理的观察空间。在我们自定义的环境中，代理控制着收集塑料的船只。这种通信机制使代理能够使用二进制信号来开发通信协议。虽然代理的集体目标是尽可能地清理海洋废弃塑料，但代理会因个人收集到的废弃塑料数量而获得奖励。因此，代理必须学会有效地沟通并保持竞争关系。
+
+    Finding a balance between collaboration and competition is crucial for artificial agents in many real-world applications. We investigate this using a Multi-Agent Reinforcement Learning (MARL) setup on the back of a high-impact problem. The accumulation and yearly growth of plastic in the ocean cause irreparable damage to many aspects of oceanic health and the marina system. To prevent further damage, we need to find ways to reduce macroplastics from known plastic patches in the ocean. Here we propose a Graph Neural Network (GNN) based communication mechanism that increases the agents' observation space. In our custom environment, agents control a plastic collecting vessel. The communication mechanism enables agents to develop a communication protocol using a binary signal. While the goal of the agent collective is to clean up as much as possible, agents are rewarded for the individual amount of macroplastics collected. Hence agents have to learn to communicate effectively while maintai
+    
+[^9]: 评估使用模型无关的度量标准解释机器学习预测的可解释性
+
+    Evaluating explainability for machine learning predictions using model-agnostic metrics. (arXiv:2302.12094v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2302.12094](http://arxiv.org/abs/2302.12094)
+
+    本文提出了一种使用模型无关的度量标准，用于评估机器学习模型的预测结果的可解释性。这些度量标准将各个解释能力方面总结成标量，提供全面的理解并促进决策者和利益相关者之间的沟通，从而提高整体的透明度。
+
+    
+
+    人工智能技术的快速发展带来了管理和监管方面的众多挑战。人工智能系统正在被整合到各个行业和领域，决策者需全面细致地了解这些系统的能力和限制。这个需求的一个关键方面是能够解释机器学习模型的结果，这对于提高透明度和信任度以及帮助模型在道德上进行训练至关重要。本文提出了新颖的度量标准，用于量化AI模型预测结果是否可以通过其特征进行易于解释。我们的度量标准将解释能力的不同方面总结为标量，提供对模型预测的更全面的理解，促进决策者和利益相关者之间的沟通，从而提高整体的透明度。
+
+    Rapid advancements in artificial intelligence (AI) technology have brought about a plethora of new challenges in terms of governance and regulation. AI systems are being integrated into various industries and sectors, creating a demand from decision-makers to possess a comprehensive and nuanced understanding of the capabilities and limitations of these systems. One critical aspect of this demand is the ability to explain the results of machine learning models, which is crucial to promoting transparency and trust in AI systems, as well as fundamental in helping machine learning models to be trained ethically. In this paper, we present novel metrics to quantify the degree of which AI model predictions can be easily explainable by its features. Our metrics summarize different aspects of explainability into scalars, providing a more comprehensive understanding of model predictions and facilitating communication between decision-makers and stakeholders, thereby increasing the overall transp
     
 

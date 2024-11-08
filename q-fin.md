@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Generative AI at Work.](http://arxiv.org/abs/2304.11771) | 该论文研究了基于生成式人工智能的对话助手在客户支持中心使用的情况，发现该工具平均增加了14%的生产力。AI模型有助于更好的传播知识、帮助新工人学习并提高员工满意度。 |
+| [^1] | [Idiosyncratic Risk, Government Debt and Inflation](https://arxiv.org/abs/2403.00471) | 公共债务扩张可能会提高自然利率并导致通货膨胀，特别是在活跃的货币政策下，持续升高的公共债务可能会使实现通货紧缩的最后一“英里”变得更加困难。 |
 
 # 详细
 
-[^1]: 工作中的生成式人工智能
+[^1]: 特质风险、政府债务和通货膨胀
 
-    Generative AI at Work. (arXiv:2304.11771v1 [econ.GN])
+    Idiosyncratic Risk, Government Debt and Inflation
 
-    [http://arxiv.org/abs/2304.11771](http://arxiv.org/abs/2304.11771)
+    [https://arxiv.org/abs/2403.00471](https://arxiv.org/abs/2403.00471)
 
-    该论文研究了基于生成式人工智能的对话助手在客户支持中心使用的情况，发现该工具平均增加了14%的生产力。AI模型有助于更好的传播知识、帮助新工人学习并提高员工满意度。
+    公共债务扩张可能会提高自然利率并导致通货膨胀，特别是在活跃的货币政策下，持续升高的公共债务可能会使实现通货紧缩的最后一“英里”变得更加困难。
 
     
 
-    我们研究了基于生成式人工智能的对话助手在客户支持中心使用的情况，使用了5000名客户支持代理的数据。使用这个工具可以平均增加14%的生产力，以每小时解决的问题数量为衡量标准，在新手和低技能工人中的影响最大，而对经验丰富和高技能工人的影响最小。我们提供了暗示性证据表明，AI模型传播了更有能力的工人可能具有的隐含知识，并帮助新工人沿着经验曲线前进。此外，我们还表明，AI辅助改善客户情绪，减少管理干预的请求，并提高员工保留率。
+    公共债务对价格稳定有何重要性？如果私营部门为了保险特质风险而有用，政府债务扩张可能会提高自然利率并导致通货膨胀。正如我在一个易处理的模型中展示的那样，这在存在积极的泰勒规则的情况下成立，并且并不需要未来财政巩固的缺席。进一步使用一个完整的2资产HANK模型进行分析，揭示了这一机制的定量影响在很大程度上取决于资产市场的结构：在标准假设下，公共债务对自然利率的影响要么过于强大，要么过于弱。采用简明的方法来克服这个问题，我的框架表明公共债务对活跃的货币政策下通货膨胀产生相关影响：特别是，持续升高的公共债务可能使实现通货紧缩的最后一“英里”变得更加困难，除非央行明确考虑其影响。
 
-    We study the staggered introduction of a generative AI-based conversational assistant using data from 5,000 customer support agents. Access to the tool increases productivity, as measured by issues resolved per hour, by 14 percent on average, with the greatest impact on novice and low-skilled workers, and minimal impact on experienced and highly skilled workers. We provide suggestive evidence that the AI model disseminates the potentially tacit knowledge of more able workers and helps newer workers move down the experience curve. In addition, we show that AI assistance improves customer sentiment, reduces requests for managerial intervention, and improves employee retention.
+    arXiv:2403.00471v1 Announce Type: new  Abstract: How does public debt matter for price stability? If it is useful for the private sector to insure idiosyncratic risk, government debt expansions can increase the natural rate of interest and create inflation. As I demonstrate using a tractable model, this holds in the presence of an active Taylor rule and does not require the absence of future fiscal consolidation. Further analysis using a full-blown 2-asset HANK model reveals the quantitative magnitude of the mechanism to crucially depend on the structure of the asset market: under standard assumptions, the effect of public debt on the natural rate is either overly strong or overly weak. Employing a parsimonious way to overcome this issue, my framework suggests relevant effects of public debt on inflation under active monetary policy: In particular, persistently elevated public debt may make it harder to go the last "mile of disinflation" unless central banks explicitly take its effect 
     
 
