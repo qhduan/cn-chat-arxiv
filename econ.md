@@ -2,52 +2,97 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Bayesian Bi-level Sparse Group Regressions for Macroeconomic Forecasting](https://arxiv.org/abs/2404.02671) | 提出了基于贝叶斯双层稀疏组回归的机器学习方法，可以进行高维宏观经济预测，并且理论证明其具有最小极限速率的收缩性，能够恢复模型参数，支持集包含模型的支持集。 |
-| [^2] | [Limited substitutability, relative price changes and the uplifting of public natural capital values.](http://arxiv.org/abs/2308.04400) | 本研究通过全球元分析得出，生态系统服务相对价格每年约为2.2%，用于公共项目评估和环境经济会计中的调整。 |
-| [^3] | [Time-Varying Parameters as Ridge Regressions.](http://arxiv.org/abs/2009.00401) | 该论文提出了一种实际上是基于岭回归的时变参数模型，这比传统的状态空间方法计算更快，调整更容易，有助于研究经济结构性变化。 |
+| [^1] | [Shill-Proof Auctions](https://arxiv.org/abs/2404.00475) | 本文研究了免疫作弊的拍卖形式，发现荷兰式拍卖（设有适当保留价）是唯一的最优且强免疫作弊的拍卖，同时荷兰式拍卖（没有保留价）是唯一同时高效和弱免疫作弊的先验独立拍卖。 |
+| [^2] | [Robust Learning for Optimal Dynamic Treatment Regimes with Observational Data](https://arxiv.org/abs/2404.00221) | 学习利用观测数据提出了一种逐步双重强健方法，通过向后归纳解决了最佳动态治疗方案的问题 |
+| [^3] | [Costly Persuasion by a Partially Informed Sender.](http://arxiv.org/abs/2401.14087) | 本研究探讨了具有高昂成本的贝叶斯说服模型，研究对象是一位私人且部分信息知情的发送者在进行公共实验。研究发现实验中好消息和坏消息的成本差异对均衡结果具有重要影响，坏消息成本高时，存在唯一的分离均衡，接收者受益于发送者的私有信息；而好消息成本高时，均衡情况可能出现汇集和部分汇集均衡，接收者可能会因为发送者私有信息而受到损害。 |
+| [^4] | [Model-Agnostic Covariate-Assisted Inference on Partially Identified Causal Effects.](http://arxiv.org/abs/2310.08115) | 提出了一种模型不可知的推断方法，在部分可辨识的因果估计中应用广泛。该方法基于最优输运问题的对偶理论，能够适应随机实验和观测研究，并且具有统一有效和双重鲁棒性。 |
+| [^5] | [Persuasion as Transportation.](http://arxiv.org/abs/2307.07672) | 本研究通过将说服问题归约为最优运输的Monge-Kantorovich问题，揭示了贝叶斯说服模型中多接收方问题的显式解集和结构性结果，并推广了价值的对偶表示和凹化公式。 |
+| [^6] | [Bayes = Blackwell, Almost.](http://arxiv.org/abs/2302.13956) | 存在其他的更新规则可以使信息的价值变为正值，作者找到了所有这些规则。 |
 
 # 详细
 
-[^1]: 基于贝叶斯双层稀疏组回归的宏观经济预测
+[^1]: 免疫作弊拍卖
 
-    Bayesian Bi-level Sparse Group Regressions for Macroeconomic Forecasting
+    Shill-Proof Auctions
 
-    [https://arxiv.org/abs/2404.02671](https://arxiv.org/abs/2404.02671)
+    [https://arxiv.org/abs/2404.00475](https://arxiv.org/abs/2404.00475)
 
-    提出了基于贝叶斯双层稀疏组回归的机器学习方法，可以进行高维宏观经济预测，并且理论证明其具有最小极限速率的收缩性，能够恢复模型参数，支持集包含模型的支持集。
-
-    
-
-    我们提出了一种机器学习方法，在已知具有组结构的协变量的高维设置中进行最优宏观经济预测。我们的模型涵盖了许多时间序列、混合频率和未知非线性的预测设置。我们引入了时间序列计量经济学中的双层稀疏概念，即稀疏性在组水平和组内均成立，我们假设真实模型符合这一假设。我们提出了一种引起双层稀疏性的先验，相应的后验分布被证明以最小极限速率收缩，恢复模型参数，并且其支持集在渐近上包含模型的支持集。我们的理论允许组间相关性，而同一组中的预测变量可以通过强相关性以及共同特征和模式进行表征。通过全面展示有限样本的性能来说明。
-
-    arXiv:2404.02671v1 Announce Type: new  Abstract: We propose a Machine Learning approach for optimal macroeconomic forecasting in a high-dimensional setting with covariates presenting a known group structure. Our model encompasses forecasting settings with many series, mixed frequencies, and unknown nonlinearities. We introduce in time-series econometrics the concept of bi-level sparsity, i.e. sparsity holds at both the group level and within groups, and we assume the true model satisfies this assumption. We propose a prior that induces bi-level sparsity, and the corresponding posterior distribution is demonstrated to contract at the minimax-optimal rate, recover the model parameters, and have a support that includes the support of the model asymptotically. Our theory allows for correlation between groups, while predictors in the same group can be characterized by strong covariation as well as common characteristics and patterns. Finite sample performance is illustrated through comprehe
-    
-[^2]: 有限的替代性、相对价格变动与公共自然资本价值的提升
-
-    Limited substitutability, relative price changes and the uplifting of public natural capital values. (arXiv:2308.04400v1 [econ.GN])
-
-    [http://arxiv.org/abs/2308.04400](http://arxiv.org/abs/2308.04400)
-
-    本研究通过全球元分析得出，生态系统服务相对价格每年约为2.2%，用于公共项目评估和环境经济会计中的调整。
+    本文研究了免疫作弊的拍卖形式，发现荷兰式拍卖（设有适当保留价）是唯一的最优且强免疫作弊的拍卖，同时荷兰式拍卖（没有保留价）是唯一同时高效和弱免疫作弊的先验独立拍卖。
 
     
 
-    随着全球经济的不断增长，生态系统服务往往停滞或减少。经济学理论已经揭示了如何将这种相对稀缺性的转变反映到公共项目评估和环境经济会计中，但缺乏实证证据来将理论付诸实践。为了估计可用于进行此类调整的生态系统服务相对价格变化，我们对环境价值评估研究进行了全球元分析，以推导出意愿支付收入弹性作为有限替代性程度的代理。基于749个收入-意愿支付对，我们估计意愿支付收入弹性约为0.78（95-CI：0.6至1.0）。将这些结果与生态系统服务相对稀缺性变化的全球数据集结合起来，我们估计生态系统服务相对价格每年约为2.2％。在对非木材林生态系统的自然资本估值中应用了这些结果。
+    在单品拍卖中，一个欺诈性的卖家可能会伪装成一个或多个竞标者，以操纵成交价格。本文对那些免疫作弊的拍卖格式进行了表征：一个利润最大化的卖家没有任何动机提交任何虚假报价。我们区分了强免疫作弊，即一个了解竞标者估值的卖家永远无法从作弊中获利，和弱免疫作弊，它仅要求从作弊中得到的平衡预期利润为非正。荷兰式拍卖（设有适当保留价）是唯一的最优和强免疫作弊拍卖。此外，荷兰式拍卖（没有保留价）是唯一的具有先验独立性的拍卖，既高效又弱免疫作弊。虽然存在多种策略证明、弱免疫作弊和最优拍卖；任何最优拍卖只能满足集合 {静态、策略证明、弱免疫作弊} 中的两个性质。
 
-    As the global economy continues to grow, ecosystem services tend to stagnate or degrow. Economic theory has shown how such shifts in relative scarcities can be reflected in the appraisal of public projects and environmental-economic accounting, but empirical evidence has been lacking to put the theory into practice. To estimate the relative price change in ecosystem services that can be used to make such adjustments, we perform a global meta-analysis of environmental valuation studies to derive income elasticities of willingness to pay (WTP) for ecosystem services as a proxy for the degree of limited substitutability. Based on 749 income-WTP pairs, we estimate an income elasticity of WTP of around 0.78 (95-CI: 0.6 to 1.0). Combining these results with a global data set on shifts in the relative scarcity of ecosystem services, we estimate relative price change of ecosystem services of around 2.2 percent per year. In an application to natural capital valuation of non-timber forest ecosys
+    arXiv:2404.00475v1 Announce Type: new  Abstract: In a single-item auction, a duplicitous seller may masquerade as one or more bidders in order to manipulate the clearing price. This paper characterizes auction formats that are shill-proof: a profit-maximizing seller has no incentive to submit any shill bids. We distinguish between strong shill-proofness, in which a seller with full knowledge of bidders' valuations can never profit from shilling, and weak shill-proofness, which requires only that the expected equilibrium profit from shilling is nonpositive. The Dutch auction (with suitable reserve) is the unique optimal and strongly shill-proof auction. Moreover, the Dutch auction (with no reserve) is the unique prior-independent auction that is both efficient and weakly shill-proof. While there are a multiplicity of strategy-proof, weakly shill-proof, and optimal auctions; any optimal auction can satisfy only two properties in the set {static, strategy-proof, weakly shill-proof}.
     
-[^3]: 使用岭回归法的时变参数模型
+[^2]: 利用观测数据进行强健学习以获得最佳动态治疗方案
 
-    Time-Varying Parameters as Ridge Regressions. (arXiv:2009.00401v3 [econ.EM] UPDATED)
+    Robust Learning for Optimal Dynamic Treatment Regimes with Observational Data
 
-    [http://arxiv.org/abs/2009.00401](http://arxiv.org/abs/2009.00401)
+    [https://arxiv.org/abs/2404.00221](https://arxiv.org/abs/2404.00221)
 
-    该论文提出了一种实际上是基于岭回归的时变参数模型，这比传统的状态空间方法计算更快，调整更容易，有助于研究经济结构性变化。
+    学习利用观测数据提出了一种逐步双重强健方法，通过向后归纳解决了最佳动态治疗方案的问题
 
     
 
-    时变参数模型(TVPs)经常被用于经济学中来捕捉结构性变化。我强调了一个被忽视的事实——这些实际上是岭回归。这使得计算、调整和实现比状态空间范式更容易。在高维情况下，解决等价的双重岭问题的计算非常快,关键的“时间变化量”通常是由交叉验证来调整的。使用两步回归岭回归来处理不断变化的波动性。我考虑了基于稀疏性(算法选择哪些参数变化, 哪些不变)和降低秩约束的扩展(变化与因子模型相关联)。为了展示这种方法的有用性, 我使用它来研究加拿大货币政策的演变, 并使用大规模时变局部投影估计约4600个TVPs, 这一任务完全可以利用这种新方法完成。
+    许多公共政策和医疗干预涉及其治疗分配中的动态性，治疗通常依据先前治疗的历史和相关特征对每个阶段的效果具有异质性。本文研究了统计学习最佳动态治疗方案(DTR)，根据个体的历史指导每个阶段的最佳治疗分配。我们提出了一种基于观测数据的逐步双重强健方法，在顺序可忽略性假设下学习最佳DTR。该方法通过向后归纳解决了顺序治疗分配问题，在每一步中，我们结合倾向评分和行动值函数(Q函数)的估计量，构建了政策价值的增强反向概率加权估计量。
 
-    Time-varying parameters (TVPs) models are frequently used in economics to capture structural change. I highlight a rather underutilized fact -- that these are actually ridge regressions. Instantly, this makes computations, tuning, and implementation much easier than in the state-space paradigm. Among other things, solving the equivalent dual ridge problem is computationally very fast even in high dimensions, and the crucial "amount of time variation" is tuned by cross-validation. Evolving volatility is dealt with using a two-step ridge regression. I consider extensions that incorporate sparsity (the algorithm selects which parameters vary and which do not) and reduced-rank restrictions (variation is tied to a factor model). To demonstrate the usefulness of the approach, I use it to study the evolution of monetary policy in Canada using large time-varying local projections. The application requires the estimation of about 4600 TVPs, a task well within the reach of the new method.
+    arXiv:2404.00221v1 Announce Type: cross  Abstract: Many public policies and medical interventions involve dynamics in their treatment assignments, where treatments are sequentially assigned to the same individuals across multiple stages, and the effect of treatment at each stage is usually heterogeneous with respect to the history of prior treatments and associated characteristics. We study statistical learning of optimal dynamic treatment regimes (DTRs) that guide the optimal treatment assignment for each individual at each stage based on the individual's history. We propose a step-wise doubly-robust approach to learn the optimal DTR using observational data under the assumption of sequential ignorability. The approach solves the sequential treatment assignment problem through backward induction, where, at each step, we combine estimators of propensity scores and action-value functions (Q-functions) to construct augmented inverse probability weighting estimators of values of policies 
+    
+[^3]: 高昂的说服成本与部分信息的发送者
+
+    Costly Persuasion by a Partially Informed Sender. (arXiv:2401.14087v1 [econ.TH])
+
+    [http://arxiv.org/abs/2401.14087](http://arxiv.org/abs/2401.14087)
+
+    本研究探讨了具有高昂成本的贝叶斯说服模型，研究对象是一位私人且部分信息知情的发送者在进行公共实验。研究发现实验中好消息和坏消息的成本差异对均衡结果具有重要影响，坏消息成本高时，存在唯一的分离均衡，接收者受益于发送者的私有信息；而好消息成本高时，均衡情况可能出现汇集和部分汇集均衡，接收者可能会因为发送者私有信息而受到损害。
+
+    
+
+    本文研究了由一个拥有私有且部分信息的发送者进行的昂贵的贝叶斯说服模型，该发送者进行了一个公共实验。实验的成本是发送者信念的加权对数似然比函数的期望减少。这个模型通过一个沃尔德的顺序抽样问题得到微基础，其中好消息和坏消息的成本不同。我们关注满足D1准则的均衡。均衡结果取决于实验中获得好消息和坏消息的相对成本。如果坏消息的成本更高，则存在唯一的分离均衡，并且接收者明确受益于发送者的私有信息。如果好消息的成本更高，则单点交叉特性不成立。可能存在汇集和部分汇集均衡，在某些均衡中，接收者会明确受到发送者私有信息的伤害。
+
+    I study a model of costly Bayesian persuasion by a privately and partially informed sender who conducts a public experiment. The cost of running an experiment is the expected reduction of a weighted log-likelihood ratio function of the sender's belief. This is microfounded by a Wald's sequential sampling problem where good news and bad news cost differently. I focus on equilibria that satisfy the D1 criterion. The equilibrium outcome depends on the relative costs of drawing good and bad news in the experiment. If bad news is more costly, there exists a unique separating equilibrium, and the receiver unambiguously benefits from the sender's private information. If good news is more costly, the single-crossing property fails. There may exist pooling and partial pooling equilibria, and in some equilibria, the receiver strictly suffers from sender private information.
+    
+[^4]: 模型不可知的辅助推断方法在部分可辨识因果效应上的应用
+
+    Model-Agnostic Covariate-Assisted Inference on Partially Identified Causal Effects. (arXiv:2310.08115v1 [econ.EM])
+
+    [http://arxiv.org/abs/2310.08115](http://arxiv.org/abs/2310.08115)
+
+    提出了一种模型不可知的推断方法，在部分可辨识的因果估计中应用广泛。该方法基于最优输运问题的对偶理论，能够适应随机实验和观测研究，并且具有统一有效和双重鲁棒性。
+
+    
+
+    很多因果估计是部分可辨识的，因为它们依赖于潜在结果之间的不可观察联合分布。基于前处理协变量的分层可以获得更明确的部分可辨识性范围；然而，除非协变量为离散且支撑度相对较小，否则这种方法通常需要对给定协变量的潜在结果的条件分布进行一致估计。因此，现有的方法在模型错误或一致性假设被违反时可能失败。在本研究中，我们提出了一种基于最优输运问题的对偶理论的统一且模型不可知的推断方法，适用于广泛类别的部分可辨识估计。在随机实验中，我们的方法可以结合任何对条件分布的估计，并提供统一有效的推断，即使初始估计是任意不准确的。此外，我们的方法在观测研究中也是双重鲁棒的。
+
+    Many causal estimands are only partially identifiable since they depend on the unobservable joint distribution between potential outcomes. Stratification on pretreatment covariates can yield sharper partial identification bounds; however, unless the covariates are discrete with relatively small support, this approach typically requires consistent estimation of the conditional distributions of the potential outcomes given the covariates. Thus, existing approaches may fail under model misspecification or if consistency assumptions are violated. In this study, we propose a unified and model-agnostic inferential approach for a wide class of partially identified estimands, based on duality theory for optimal transport problems. In randomized experiments, our approach can wrap around any estimates of the conditional distributions and provide uniformly valid inference, even if the initial estimates are arbitrarily inaccurate. Also, our approach is doubly robust in observational studies. Notab
+    
+[^5]: 说服作为交通工具
+
+    Persuasion as Transportation. (arXiv:2307.07672v1 [econ.TH])
+
+    [http://arxiv.org/abs/2307.07672](http://arxiv.org/abs/2307.07672)
+
+    本研究通过将说服问题归约为最优运输的Monge-Kantorovich问题，揭示了贝叶斯说服模型中多接收方问题的显式解集和结构性结果，并推广了价值的对偶表示和凹化公式。
+
+    
+
+    我们考虑了一个贝叶斯说服模型，其中有一个知情的发送方和几个不知情的接收方。发送方可以通过私人信号影响接收方的信念，而发送方的目标取决于诱导信念的组合。我们将说服问题归约为最优运输的Monge-Kantorovich问题。借助最优运输理论的洞见，我们确定了几类多接收方问题的显式解集，得到了一般的结构性结果，导出了价值的对偶表示，并将著名的凹化公式推广到多接收方问题上。
+
+    We consider a model of Bayesian persuasion with one informed sender and several uninformed receivers. The sender can affect receivers' beliefs via private signals, and the sender's objective depends on the combination of induced beliefs.  We reduce the persuasion problem to the Monge-Kantorovich problem of optimal transportation. Using insights from optimal transportation theory, we identify several classes of multi-receiver problems that admit explicit solutions, get general structural results, derive a dual representation for the value, and generalize the celebrated concavification formula for the value to multi-receiver problems.
+    
+[^6]: Bayes = Blackwell, 差不多。
+
+    Bayes = Blackwell, Almost. (arXiv:2302.13956v3 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2302.13956](http://arxiv.org/abs/2302.13956)
+
+    存在其他的更新规则可以使信息的价值变为正值，作者找到了所有这些规则。
+
+    
+
+    存在着除了Bayes'定律之外的更新规则，可以使信息的价值变为正值。我找到了所有这些规则。
+
+    There are updating rules other than Bayes' law that render the value of information positive. I find all of them.
     
 
