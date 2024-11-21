@@ -3,10 +3,9 @@
 | Ref | Title | Summary |
 | --- | --- | --- |
 | [^1] | [Robust Learning for Optimal Dynamic Treatment Regimes with Observational Data](https://arxiv.org/abs/2404.00221) | 学习利用观测数据提出了一种逐步双重强健方法，通过向后归纳解决了最佳动态治疗方案的问题 |
-| [^2] | [Multistep Consistency Models](https://arxiv.org/abs/2403.06807) | 本文提出了多步一致性模型，通过在一致性模型和扩散模型之间插值，实现了采样速度和采样质量的平衡。 |
-| [^3] | [Mixed-Output Gaussian Process Latent Variable Models](https://arxiv.org/abs/2402.09122) | 本文提出了一种基于高斯过程潜变量模型的贝叶斯非参数方法，可以用于信号分离，并且能够处理包含纯组分信号加权和的情况，适用于光谱学和其他领域的多种应用。 |
-| [^4] | [Contextual Combinatorial Bandits with Probabilistically Triggered Arms.](http://arxiv.org/abs/2303.17110) | 本文研究了带有概率触发臂的情境组合赌博机，在不同条件下设计了C$^2$-UCB-T算法和VAC$^2$-UCB算法，并分别导出了对应的遗憾值上限，为相关应用提供了理论支持。 |
-| [^5] | [Sufficient Invariant Learning for Distribution Shift.](http://arxiv.org/abs/2210.13533) | 本文研究了分布转移情况下的充分不变学习，观察到之前的工作只学习了部分不变特征，我们提出了学习充分不变特征的重要性，并指出在分布转移时，从训练集中学习的部分不变特征可能不适用于测试集，限制了性能提升。 |
+| [^2] | [Delegating Data Collection in Decentralized Machine Learning.](http://arxiv.org/abs/2309.01837) | 这项研究在分散机器学习生态系统中研究了委托的数据收集问题，通过设计最优契约解决了模型质量评估的不确定性和对最优性能缺乏预先知识的挑战。 |
+| [^3] | [Deep quantum neural networks form Gaussian processes.](http://arxiv.org/abs/2305.09957) | 本文证明了基于Haar随机酉或正交深量子神经网络的某些模型的输出会收敛于高斯过程。然而，这种高斯过程不能用于通过贝叶斯统计学来有效预测QNN的输出。 |
+| [^4] | [Generalization on the Unseen, Logic Reasoning and Degree Curriculum.](http://arxiv.org/abs/2301.13105) | 本文研究了在逻辑推理任务中对未知数据的泛化能力，提供了网络架构在该设置下的表现证据，发现了一类网络模型在未知数据上学习了最小度插值器，并对长度普通化现象提供了解释。 |
 
 # 详细
 
@@ -24,60 +23,46 @@
 
     arXiv:2404.00221v1 Announce Type: cross  Abstract: Many public policies and medical interventions involve dynamics in their treatment assignments, where treatments are sequentially assigned to the same individuals across multiple stages, and the effect of treatment at each stage is usually heterogeneous with respect to the history of prior treatments and associated characteristics. We study statistical learning of optimal dynamic treatment regimes (DTRs) that guide the optimal treatment assignment for each individual at each stage based on the individual's history. We propose a step-wise doubly-robust approach to learn the optimal DTR using observational data under the assumption of sequential ignorability. The approach solves the sequential treatment assignment problem through backward induction, where, at each step, we combine estimators of propensity scores and action-value functions (Q-functions) to construct augmented inverse probability weighting estimators of values of policies 
     
-[^2]: 多步一致性模型
+[^2]: 委托分散机器学习中的数据收集
 
-    Multistep Consistency Models
+    Delegating Data Collection in Decentralized Machine Learning. (arXiv:2309.01837v1 [cs.LG])
 
-    [https://arxiv.org/abs/2403.06807](https://arxiv.org/abs/2403.06807)
+    [http://arxiv.org/abs/2309.01837](http://arxiv.org/abs/2309.01837)
 
-    本文提出了多步一致性模型，通过在一致性模型和扩散模型之间插值，实现了采样速度和采样质量的平衡。
-
-    
-
-    扩散模型相对容易训练，但生成样本需要许多步骤。一致性模型更难训练，但可以在一个步骤中生成样本。本文提出了多步一致性模型：通过一致性模型和TRACT的统一，可以在一致性模型和扩散模型之间进行插值：在采样速度和采样质量之间取得平衡。具体来说，1步一致性模型是传统的一致性模型，而我们展示了$\infty$步一致性模型是扩散模型。多步一致性模型在实践中表现良好。将样本预算从单步增加到2-8步，我们可以更轻松地训练模型，生成更高质量的样本，同时保留大部分采样速度优势。在Imagenet 64上8步达到1.4的FID，在Imagenet128上8步达到2.1的FID。
-
-    arXiv:2403.06807v1 Announce Type: new  Abstract: Diffusion models are relatively easy to train but require many steps to generate samples. Consistency models are far more difficult to train, but generate samples in a single step.   In this paper we propose Multistep Consistency Models: A unification between Consistency Models (Song et al., 2023) and TRACT (Berthelot et al., 2023) that can interpolate between a consistency model and a diffusion model: a trade-off between sampling speed and sampling quality. Specifically, a 1-step consistency model is a conventional consistency model whereas we show that a $\infty$-step consistency model is a diffusion model.   Multistep Consistency Models work really well in practice. By increasing the sample budget from a single step to 2-8 steps, we can train models more easily that generate higher quality samples, while retaining much of the sampling speed benefits. Notable results are 1.4 FID on Imagenet 64 in 8 step and 2.1 FID on Imagenet128 in 8 
-    
-[^3]: 混合输出高斯过程潜变量模型
-
-    Mixed-Output Gaussian Process Latent Variable Models
-
-    [https://arxiv.org/abs/2402.09122](https://arxiv.org/abs/2402.09122)
-
-    本文提出了一种基于高斯过程潜变量模型的贝叶斯非参数方法，可以用于信号分离，并且能够处理包含纯组分信号加权和的情况，适用于光谱学和其他领域的多种应用。
+    这项研究在分散机器学习生态系统中研究了委托的数据收集问题，通过设计最优契约解决了模型质量评估的不确定性和对最优性能缺乏预先知识的挑战。
 
     
 
-    本文提出了一种贝叶斯非参数的信号分离方法，其中信号可以根据潜变量变化。我们的主要贡献是增加了高斯过程潜变量模型（GPLVMs），以包括每个数据点由已知数量的纯组分信号的加权和组成的情况，并观察多个输入位置。我们的框架允许使用各种关于每个观测权重的先验。这种灵活性使我们能够表示包括用于估计分数组成的总和为一约束和用于分类的二进制权重的用例。我们的贡献对于光谱学尤其相关，因为改变条件可能导致基础纯组分信号在样本之间变化。为了展示对光谱学和其他领域的适用性，我们考虑了几个应用：一个具有不同温度的近红外光谱数据集。
+    受分散机器学习生态系统的出现的启发，我们研究了数据收集的委托问题。以契约理论为出发点，我们设计了解决两个基本机器学习挑战的最优和近似最优契约：模型质量评估的不确定性和对任何模型最优性能的缺乏知识。我们证明，通过简单的线性契约可以解决不确定性问题，即使委托人只有一个小的测试集，也能实现1-1/e的一等效用水平。此外，我们给出了委托人测试集大小的充分条件，可以达到对最优效用的逼近。为了解决对最优性能缺乏预先知识的问题，我们提出了一个凸问题，可以自适应和高效地计算最优契约。
 
-    arXiv:2402.09122v1 Announce Type: cross Abstract: This work develops a Bayesian non-parametric approach to signal separation where the signals may vary according to latent variables. Our key contribution is to augment Gaussian Process Latent Variable Models (GPLVMs) to incorporate the case where each data point comprises the weighted sum of a known number of pure component signals, observed across several input locations. Our framework allows the use of a range of priors for the weights of each observation. This flexibility enables us to represent use cases including sum-to-one constraints for estimating fractional makeup, and binary weights for classification. Our contributions are particularly relevant to spectroscopy, where changing conditions may cause the underlying pure component signals to vary from sample to sample. To demonstrate the applicability to both spectroscopy and other domains, we consider several applications: a near-infrared spectroscopy data set with varying temper
+    Motivated by the emergence of decentralized machine learning ecosystems, we study the delegation of data collection. Taking the field of contract theory as our starting point, we design optimal and near-optimal contracts that deal with two fundamental machine learning challenges: lack of certainty in the assessment of model quality and lack of knowledge regarding the optimal performance of any model. We show that lack of certainty can be dealt with via simple linear contracts that achieve 1-1/e fraction of the first-best utility, even if the principal has a small test set. Furthermore, we give sufficient conditions on the size of the principal's test set that achieves a vanishing additive approximation to the optimal utility. To address the lack of a priori knowledge regarding the optimal performance, we give a convex program that can adaptively and efficiently compute the optimal contract.
     
-[^4]: 带有概率触发臂的情境组合赌博机
+[^3]: 深度量子神经网络对应高斯过程
 
-    Contextual Combinatorial Bandits with Probabilistically Triggered Arms. (arXiv:2303.17110v1 [cs.LG])
+    Deep quantum neural networks form Gaussian processes. (arXiv:2305.09957v1 [quant-ph])
 
-    [http://arxiv.org/abs/2303.17110](http://arxiv.org/abs/2303.17110)
+    [http://arxiv.org/abs/2305.09957](http://arxiv.org/abs/2305.09957)
 
-    本文研究了带有概率触发臂的情境组合赌博机，在不同条件下设计了C$^2$-UCB-T算法和VAC$^2$-UCB算法，并分别导出了对应的遗憾值上限，为相关应用提供了理论支持。
-
-    
-
-    本研究探讨了在捕捉广泛应用范围的一系列平滑条件下的带有概率触发臂的情境组合赌博机(C$^2$MAB-T)，例如情境级联赌博机和情境最大化赌博机。在模拟触发概率(TPM)的条件下，我们设计了C$^2$-UCB-T算法，并提出了一种新的分析方法，实现了一个$\tilde{O}(d\sqrt{KT})$的遗憾值上限，消除了一个可能指数级增长的因子$O(1/p_{\min})$，其中$d$是情境的维数，$p_{\min}$是能被触发的任何臂的最小正概率，批大小$K$是每轮能被触发的臂的最大数量。在方差调制(VM)或触发概率和方差调制(TPVM)条件下，我们提出了一种新的方差自适应算法VAC$^2$-UCB，并导出了一个$\tilde{O}(d\sqrt{T})$的遗憾值上限，该上限与批大小$K$无关。作为一个有价值的副产品，我们发现我们的一个...
-
-    We study contextual combinatorial bandits with probabilistically triggered arms (C$^2$MAB-T) under a variety of smoothness conditions that capture a wide range of applications, such as contextual cascading bandits and contextual influence maximization bandits. Under the triggering probability modulated (TPM) condition, we devise the C$^2$-UCB-T algorithm and propose a novel analysis that achieves an $\tilde{O}(d\sqrt{KT})$ regret bound, removing a potentially exponentially large factor $O(1/p_{\min})$, where $d$ is the dimension of contexts, $p_{\min}$ is the minimum positive probability that any arm can be triggered, and batch-size $K$ is the maximum number of arms that can be triggered per round. Under the variance modulated (VM) or triggering probability and variance modulated (TPVM) conditions, we propose a new variance-adaptive algorithm VAC$^2$-UCB and derive a regret bound $\tilde{O}(d\sqrt{T})$, which is independent of the batch-size $K$. As a valuable by-product, we find our a
-    
-[^5]: 分布转移的充分不变学习
-
-    Sufficient Invariant Learning for Distribution Shift. (arXiv:2210.13533v2 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2210.13533](http://arxiv.org/abs/2210.13533)
-
-    本文研究了分布转移情况下的充分不变学习，观察到之前的工作只学习了部分不变特征，我们提出了学习充分不变特征的重要性，并指出在分布转移时，从训练集中学习的部分不变特征可能不适用于测试集，限制了性能提升。
+    本文证明了基于Haar随机酉或正交深量子神经网络的某些模型的输出会收敛于高斯过程。然而，这种高斯过程不能用于通过贝叶斯统计学来有效预测QNN的输出。
 
     
 
-    机器学习算法在各种应用中展现出了卓越的性能。然而，在训练集和测试集的分布不同的情况下，保证性能仍然具有挑战性。为了改善分布转移情况下的性能，已经提出了一些方法，通过学习跨组或领域的不变特征来提高性能。然而，我们观察到之前的工作只部分地学习了不变特征。虽然先前的工作侧重于有限的不变特征，但我们首次提出了充分不变特征的重要性。由于只有训练集是经验性的，从训练集中学习得到的部分不变特征可能不存在于分布转移时的测试集中。因此，分布转移情况下的性能提高可能受到限制。本文认为从训练集中学习充分的不变特征对于分布转移情况至关重要。
+    众所周知，从独立同分布的先验条件开始初始化的人工神经网络在隐藏层神经元数目足够大的极限下收敛到高斯过程。本文证明了量子神经网络（QNNs）也存在类似的结果。特别地，我们证明了基于Haar随机酉或正交深QNNs的某些模型的输出在希尔伯特空间维度$d$足够大时会收敛于高斯过程。由于输入状态、测量的可观测量以及酉矩阵的元素不独立等因素的作用，本文对这一结果的推导比经典情形更加微妙。我们分析的一个重要后果是，这个结果得到的高斯过程不能通过贝叶斯统计学来有效地预测QNN的输出。此外，我们的定理表明，Haar随机QNNs中的测量现象比以前认为的要更严重，我们证明了演员的集中现象。
 
-    Machine learning algorithms have shown remarkable performance in diverse applications. However, it is still challenging to guarantee performance in distribution shifts when distributions of training and test datasets are different. There have been several approaches to improve the performance in distribution shift cases by learning invariant features across groups or domains. However, we observe that the previous works only learn invariant features partially. While the prior works focus on the limited invariant features, we first raise the importance of the sufficient invariant features. Since only training sets are given empirically, the learned partial invariant features from training sets might not be present in the test sets under distribution shift. Therefore, the performance improvement on distribution shifts might be limited. In this paper, we argue that learning sufficient invariant features from the training set is crucial for the distribution shift case. Concretely, we newly 
+    It is well known that artificial neural networks initialized from independent and identically distributed priors converge to Gaussian processes in the limit of large number of neurons per hidden layer. In this work we prove an analogous result for Quantum Neural Networks (QNNs). Namely, we show that the outputs of certain models based on Haar random unitary or orthogonal deep QNNs converge to Gaussian processes in the limit of large Hilbert space dimension $d$. The derivation of this result is more nuanced than in the classical case due the role played by the input states, the measurement observable, and the fact that the entries of unitary matrices are not independent. An important consequence of our analysis is that the ensuing Gaussian processes cannot be used to efficiently predict the outputs of the QNN via Bayesian statistics. Furthermore, our theorems imply that the concentration of measure phenomenon in Haar random QNNs is much worse than previously thought, as we prove that ex
+    
+[^4]: 对未知数据的泛化、逻辑推理和学位课程的概述
+
+    Generalization on the Unseen, Logic Reasoning and Degree Curriculum. (arXiv:2301.13105v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2301.13105](http://arxiv.org/abs/2301.13105)
+
+    本文研究了在逻辑推理任务中对未知数据的泛化能力，提供了网络架构在该设置下的表现证据，发现了一类网络模型在未知数据上学习了最小度插值器，并对长度普通化现象提供了解释。
+
+    
+
+    本文考虑了逻辑（布尔）函数的学习，重点在于对未知数据的泛化（GOTU）设定，这是一种强大的分布外泛化的案例。这是由于某些推理任务（例如算术/逻辑）中数据的丰富组合性质使得代表性数据采样具有挑战性，并且在GOTU下成功学习为第一个“推理”学习者展示了一个小插图。然后，我们研究了通过(S)GD训练的不同网络架构在GOTU下的表现，并提供了理论和实验证据，证明了一个类别的网络模型（包括Transformer的实例、随机特征模型和对角线线性网络）在未知数据上学习了最小度插值器。我们还提供了证据表明，其他具有更大学习速率或均场网络的实例达到了渗漏最小度解。这些发现带来了两个影响：（1）我们提供了对长度普通化的解释
+
+    This paper considers the learning of logical (Boolean) functions with focus on the generalization on the unseen (GOTU) setting, a strong case of out-of-distribution generalization. This is motivated by the fact that the rich combinatorial nature of data in certain reasoning tasks (e.g., arithmetic/logic) makes representative data sampling challenging, and learning successfully under GOTU gives a first vignette of an 'extrapolating' or 'reasoning' learner. We then study how different network architectures trained by (S)GD perform under GOTU and provide both theoretical and experimental evidence that for a class of network models including instances of Transformers, random features models, and diagonal linear networks, a min-degree-interpolator is learned on the unseen. We also provide evidence that other instances with larger learning rates or mean-field networks reach leaky min-degree solutions. These findings lead to two implications: (1) we provide an explanation to the length genera
     
 

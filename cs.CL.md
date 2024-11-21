@@ -2,82 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Divide-or-Conquer? Which Part Should You Distill Your LLM?](https://arxiv.org/abs/2402.15000) | 本文提出了一种将推理任务分解为问题分解阶段和问题解决阶段的策略，发现问题分解阶段相比问题解决更容易提炼为较小模型，并证实该策略胜过单阶段解决方案。 |
-| [^2] | [Findings of the First Workshop on Simulating Conversational Intelligence in Chat](https://arxiv.org/abs/2402.06420) | 第一届模拟对话智能研讨会的目标是汇集对开放领域对话研究进行实时人类评估的模拟智能对话模型。论文主要提供了共享任务的概述，并附上了一个将在研讨会后发布的深入分析共享任务结果的链接。 |
-| [^3] | [Re-Reading Improves Reasoning in Language Models.](http://arxiv.org/abs/2309.06275) | 许多研究关注于如何引导和结构化大型语言模型的推理过程，但很少有研究关注于输入问题本身。本研究引入了一种称为“重新阅读”的提示策略，通过深入阅读输入提示中的问题信息，提供了更深入的洞察、更准确的模式识别和更有效的推理能力。 |
-| [^4] | [Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation.](http://arxiv.org/abs/2307.11019) | 本研究初步分析了大型语言模型的事实知识边界，并研究了检索增强对开放域问答任务中大型语言模型的影响。结果显示大型语言模型在回答问题时表现出自信，并且回答准确。 |
-| [^5] | [How to Choose How to Choose Your Chatbot: A Massively Multi-System MultiReference Data Set for Dialog Metric Evaluation.](http://arxiv.org/abs/2305.14533) | 该研究发布了MMSMR数据集，该数据集包含8个参考对话，旨在促进对话度量和评估的未来工作。该研究使用1750个系统对其进行了评估，以了解稳健相关性并了解测试集中所需的内容。 |
+| [^1] | [Neuron Patching: Neuron-level Model Editing on Code Generation and LLMs](https://rss.arxiv.org/abs/2312.05356) | 这项工作介绍了一种神经元层面的模型编辑方法，能够在编码任务中修补LLM模型，并且在API序列推荐、代码生成和伪代码到代码转换等任务中得到了验证和评估。 |
+| [^2] | [Rich Semantic Knowledge Enhanced Large Language Models for Few-shot Chinese Spell Checking](https://arxiv.org/abs/2403.08492) | 本文使用富含语义知识的大型语言模型在少样本中文拼写检查任务上取得了比BERT模型更好的性能。 |
+| [^3] | [Basic syntax from speech: Spontaneous concatenation in unsupervised deep neural networks.](http://arxiv.org/abs/2305.01626) | 该论文提出了一种基于语音的完全无监督的方法，可以直接从原始语音中建立基础语法模型。作者发现，在基于声音的单词记录上训练的卷积神经网络可以自发连接两个或三个单词，并且可以学会将单词嵌入到新的未见过的单词组合中，这是之前未报道的属性，这一发现对我们理解神经网络的学习方式和建立从原始声学输入中的语法及其演化的模型都有重要的意义。 |
 
 # 详细
 
-[^1]: 划分还是征服？你应该提炼LLM的哪一部分？
+[^1]: Neuron Patching: 神经元层面的模型编辑与代码生成
 
-    Divide-or-Conquer? Which Part Should You Distill Your LLM?
+    Neuron Patching: Neuron-level Model Editing on Code Generation and LLMs
 
-    [https://arxiv.org/abs/2402.15000](https://arxiv.org/abs/2402.15000)
+    [https://rss.arxiv.org/abs/2312.05356](https://rss.arxiv.org/abs/2312.05356)
 
-    本文提出了一种将推理任务分解为问题分解阶段和问题解决阶段的策略，发现问题分解阶段相比问题解决更容易提炼为较小模型，并证实该策略胜过单阶段解决方案。
-
-    
-
-    最近的研究表明，大型语言模型（LLMs）在被鼓励先解决主要任务的子任务时可以更好地解决推理任务。本文设计了一种类似的策略，将推理任务分解为问题分解阶段和问题解决阶段，并展示该策略能够胜过单阶段解决方案。此外，我们假设与解决问题相比，分解阶段更容易被提炼为较小的模型，因为后者需要大量的领域知识，而前者只需要学习一般的问题解决策略。我们提出了提炼这两种能力的方法，并评估了它们对推理结果和推理成本的影响。我们发现我们可以提炼问题分解阶段，并同时在任务、数据集和模型之间实现良好的泛化。然而，要提炼问题解决阶段就更困难了。
-
-    arXiv:2402.15000v1 Announce Type: new  Abstract: Recent methods have demonstrated that Large Language Models (LLMs) can solve reasoning tasks better when they are encouraged to solve subtasks of the main task first. In this paper we devise a similar strategy that breaks down reasoning tasks into a problem decomposition phase and a problem solving phase and show that the strategy is able to outperform a single stage solution. Further, we hypothesize that the decomposition should be easier to distill into a smaller model compared to the problem solving because the latter requires large amounts of domain knowledge while the former only requires learning general problem solving strategies. We propose methods to distill these two capabilities and evaluate their impact on reasoning outcomes and inference cost. We find that we can distill the problem decomposition phase and at the same time achieve good generalization across tasks, datasets, and models. However, it is harder to distill the pr
-    
-[^2]: 第一届模拟对话智能研讨会的研究结果
-
-    Findings of the First Workshop on Simulating Conversational Intelligence in Chat
-
-    [https://arxiv.org/abs/2402.06420](https://arxiv.org/abs/2402.06420)
-
-    第一届模拟对话智能研讨会的目标是汇集对开放领域对话研究进行实时人类评估的模拟智能对话模型。论文主要提供了共享任务的概述，并附上了一个将在研讨会后发布的深入分析共享任务结果的链接。
+    这项工作介绍了一种神经元层面的模型编辑方法，能够在编码任务中修补LLM模型，并且在API序列推荐、代码生成和伪代码到代码转换等任务中得到了验证和评估。
 
     
 
-    本研讨会旨在汇集从事开放领域对话研究的专家。在这个快速发展的研究领域中仍然存在许多挑战，如从对话中学习信息、进行真实和令人信服的人工智能和推理模拟。SCI-CHAT是之前关于开放领域对话的研讨会的延续，但着重于模拟智能对话，并通过人类评估来判断其质量。模型的目标是在多轮对话中能够跟随一个具有挑战性的主题，同时提出、反驳和推理论证。该研讨会包括研究路径和共享任务。本文的主要目标是概述共享任务，并提供一个链接，链接将包含在研讨会上展示后对共享任务结果进行深入分析的另一篇论文。
+    大型语言模型在软件工程中得到了成功应用，特别是在代码生成方面。更新这些模型的新知识非常昂贵，通常需要全面实现其价值。在本文中，我们提出了一种新颖有效的模型编辑方法MENT，用于在编码任务中修补LLM模型。基于生成式LLM的机制，MENT可以在预测下一个令牌时进行模型编辑，并进一步支持常见的编码任务。MENT具有高效、有效和可靠的特点。它可以通过修补1或2个神经元来纠正神经模型。作为神经元层面上生成模型编辑的先驱工作，我们规范了编辑过程并介绍了相关概念。此外，我们还引入了新的衡量方法来评估其泛化能力，并建立了一个用于进一步研究的基准。我们的方法在三个编码任务上进行了评估，包括API序列推荐、行级代码生成和伪代码到代码转换。
 
-    The aim of this workshop is to bring together experts working on open-domain dialogue research. In this speedily advancing research area many challenges still exist, such as learning information from conversations, engaging in realistic and convincing simulation of human intelligence and reasoning. SCI-CHAT follows previous workshops on open domain dialogue but with a focus on the simulation of intelligent conversation as judged in a live human evaluation. Models aim to include the ability to follow a challenging topic over a multi-turn conversation, while positing, refuting and reasoning over arguments. The workshop included both a research track and shared task. The main goal of this paper is to provide an overview of the shared task and a link to an additional paper that will include an in depth analysis of the shared task results following presentation at the workshop.
+    Large Language Models are successfully adopted in software engineering, especially in code generation. Updating these models with new knowledge is very expensive, and is often required to fully realize their value. In this paper, we propose a novel and effective model editing approach, \textsc{MENT}, to patch LLMs in coding tasks. Based on the mechanism of generative LLMs, \textsc{MENT} enables model editing in next-token predictions, and further supports common coding tasks. \textsc{MENT} is effective, efficient, and reliable. It can correct a neural model by patching 1 or 2 neurons. As the pioneer work on neuron-level model editing of generative models, we formalize the editing process and introduce the involved concepts. Besides, we also introduce new measures to evaluate its generalization ability, and build a benchmark for further study. Our approach is evaluated on three coding tasks, including API-seq recommendation, line-level code generation, and pseudocode-to-code transaction
     
-[^3]: 重新阅读改善语言模型的推理能力
+[^2]: 富含语义知识增强的大型语言模型用于少样本中文拼写检查
 
-    Re-Reading Improves Reasoning in Language Models. (arXiv:2309.06275v1 [cs.CL])
+    Rich Semantic Knowledge Enhanced Large Language Models for Few-shot Chinese Spell Checking
 
-    [http://arxiv.org/abs/2309.06275](http://arxiv.org/abs/2309.06275)
+    [https://arxiv.org/abs/2403.08492](https://arxiv.org/abs/2403.08492)
 
-    许多研究关注于如何引导和结构化大型语言模型的推理过程，但很少有研究关注于输入问题本身。本研究引入了一种称为“重新阅读”的提示策略，通过深入阅读输入提示中的问题信息，提供了更深入的洞察、更准确的模式识别和更有效的推理能力。
-
-    
-
-    推理对于大型语言模型（LLM）是一个重要而具有挑战性的问题。目前的研究主要集中在开发多样化的提示策略，以引导和结构化LLM的推理过程。然而，这些基于仅解码的因果语言模型的方法通常在单个前向传递中操作输入问题，可能会忽略人类推理中丰富的前后交互。对于嵌入在提示中的输入问题这一关键维度，目前关注较少。为此，我们引入了一种简单但高效的提示策略，称为“重新阅读”。从人类学习和问题解决中汲取灵感，重新阅读意味着重访嵌在输入提示中的问题信息。这种方法与认知增强的原则完美契合，使LLM能够深入洞察、识别复杂的模式、建立 mor
-
-    Reasoning presents a significant and challenging issue for Large Language Models (LLMs). The predominant focus of research has revolved around developing diverse prompting strategies to guide and structure the reasoning processes of LLMs. However, these approaches based on decoder-only causal language models often operate the input question in a single forward pass, potentially missing the rich, back-and-forth interactions inherent in human reasoning. Scant attention has been paid to a critical dimension, i.e., the input question itself embedded within the prompts. In response, we introduce a deceptively simple yet highly effective prompting strategy, termed question "re-reading". Drawing inspiration from human learning and problem-solving, re-reading entails revisiting the question information embedded within input prompts. This approach aligns seamlessly with the cognitive principle of reinforcement, enabling LLMs to extract deeper insights, identify intricate patterns, establish mor
-    
-[^4]: 用检索增强研究大型语言模型的事实知识边界
-
-    Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation. (arXiv:2307.11019v2 [cs.CL] UPDATED)
-
-    [http://arxiv.org/abs/2307.11019](http://arxiv.org/abs/2307.11019)
-
-    本研究初步分析了大型语言模型的事实知识边界，并研究了检索增强对开放域问答任务中大型语言模型的影响。结果显示大型语言模型在回答问题时表现出自信，并且回答准确。
+    本文使用富含语义知识的大型语言模型在少样本中文拼写检查任务上取得了比BERT模型更好的性能。
 
     
 
-    知识密集型任务（例如，开放域问答（QA））需要大量的事实知识，并经常依赖外部信息进行协助。最近，大型语言模型（LLMs）（例如，ChatGPT）在解决包括知识密集型任务在内的各种任务上展现出了惊人的能力。然而，目前尚不清楚LLMs在感知其事实知识边界方面表现如何，特别是在使用检索增强时的行为。在本研究中，我们对LLMs的事实知识边界进行了初步分析，并研究了检索增强对LLMs在开放域QA上的影响。具体而言，我们关注了三个主要研究问题，并通过检查LLMs的QA性能、先验判断和后验判断来进行分析。我们提供了证据表明LLMs对于自己回答问题的能力和回答的准确性充满了自信。
+    本文探讨了使用一种名为RS-LLM（基于丰富语义的LLMs）的上下文学习方法将大型语言模型（LLMs）引入作为基础模型，以及在我们的框架中引入各种中文丰富语义信息的影响。实验结果表明，通过引入少量特定的中文丰富语义结构，LLMs在少样本中文拼写检查任务上比基于BERT模型表现更好。
 
-    Knowledge-intensive tasks (e.g., open-domain question answering (QA)) require a substantial amount of factual knowledge and often rely on external information for assistance. Recently, large language models (LLMs) (e.g., ChatGPT), have demonstrated impressive prowess in solving a wide range of tasks with world knowledge, including knowledge-intensive tasks. However, it remains unclear how well LLMs are able to perceive their factual knowledge boundaries, particularly how they behave when incorporating retrieval augmentation. In this study, we present an initial analysis of the factual knowledge boundaries of LLMs and how retrieval augmentation affects LLMs on open-domain QA. Specially, we focus on three primary research questions and analyze them by examining QA performance, priori judgement and posteriori judgement of LLMs. We show evidence that LLMs possess unwavering confidence in their capabilities to respond to questions and the accuracy of their responses. Furthermore, retrieval 
+    arXiv:2403.08492v1 Announce Type: new  Abstract: Chinese Spell Checking (CSC) is a widely used technology, which plays a vital role in speech to text (STT) and optical character recognition (OCR). Most of the existing CSC approaches relying on BERT architecture achieve excellent performance. However, limited by the scale of the foundation model, BERT-based method does not work well in few-shot scenarios, showing certain limitations in practical applications. In this paper, we explore using an in-context learning method named RS-LLM (Rich Semantic based LLMs) to introduce large language models (LLMs) as the foundation model. Besides, we study the impact of introducing various Chinese rich semantic information in our framework. We found that by introducing a small number of specific Chinese rich semantic structures, LLMs achieve better performance than the BERT-based model on few-shot CSC task. Furthermore, we conduct experiments on multiple datasets, and the experimental results verifie
     
-[^5]: 如何选择您的聊天机器人：用于对话指标评估的大规模多系统多参考数据集
+[^3]: 基于语音的基础语法：自发联接的自监督深度神经网络
 
-    How to Choose How to Choose Your Chatbot: A Massively Multi-System MultiReference Data Set for Dialog Metric Evaluation. (arXiv:2305.14533v1 [cs.CL])
+    Basic syntax from speech: Spontaneous concatenation in unsupervised deep neural networks. (arXiv:2305.01626v1 [cs.CL])
 
-    [http://arxiv.org/abs/2305.14533](http://arxiv.org/abs/2305.14533)
+    [http://arxiv.org/abs/2305.01626](http://arxiv.org/abs/2305.01626)
 
-    该研究发布了MMSMR数据集，该数据集包含8个参考对话，旨在促进对话度量和评估的未来工作。该研究使用1750个系统对其进行了评估，以了解稳健相关性并了解测试集中所需的内容。
+    该论文提出了一种基于语音的完全无监督的方法，可以直接从原始语音中建立基础语法模型。作者发现，在基于声音的单词记录上训练的卷积神经网络可以自发连接两个或三个单词，并且可以学会将单词嵌入到新的未见过的单词组合中，这是之前未报道的属性，这一发现对我们理解神经网络的学习方式和建立从原始声学输入中的语法及其演化的模型都有重要的意义。
 
     
 
-    我们发布了MMSMR，这是一个大规模多系统多参考数据集，旨在促进对话的度量和评估的未来工作。用于对话评估的自动指标应该是人类判断的可靠代理；然而，目前对其稳健性的验证还远远不够令人满意。为了量化稳健性相关性并了解测试集中所需的内容，我们扩展了单参考评估集，推出了一个包含8个参考对话的数据集，并介绍了这个新的语言学习对话数据集。然后我们训练了1750个系统，并在我们的新测试集和DailyDialog数据集上对它们进行了评估。我们发布了这个新的测试集，以及每个系统在各种数据集上的模型超参数、推理输出和指标分数。
+    语法的计算模型主要基于文本。本文提出了一种完全无监督的方法，可以直接从原始语音中建立基础语法模型。我们重点研究了最普遍和基本的语法特性之一——联接。我们介绍了自发联接现象：卷积神经网络(CNN)在个别单词的声学记录上训练时，开始产生输出，这些输出将两个甚至三个单词连接在一起，而不会接触到具有多个单词的输入数据。此外，训练两个单词的网络可以学习将单词嵌入到新的未见过的单词组合中。据我们所知，这是在生成对抗网络环境下训练的原始语音CNN以前未报道的属性，它不仅对我们理解这些体系结构的学习方式有影响，还对建立从原始声学输入中的语法及其演化的模型有影响。
 
-    We release MMSMR, a Massively Multi-System MultiReference dataset to enable future work on metrics and evaluation for dialog. Automatic metrics for dialogue evaluation should be robust proxies for human judgments; however, the verification of robustness is currently far from satisfactory. To quantify the robustness correlation and understand what is necessary in a test set, we create and release an 8-reference dialog dataset by extending single-reference evaluation sets and introduce this new language learning conversation dataset. We then train 1750 systems and evaluate them on our novel test set and the DailyDialog dataset. We release the novel test set, and model hyper parameters, inference outputs, and metric scores for each system on a variety of datasets.
+    Computational models of syntax are predominantly text-based. Here we propose that basic syntax can be modeled directly from raw speech in a fully unsupervised way. We focus on one of the most ubiquitous and basic properties of syntax -- concatenation. We introduce spontaneous concatenation: a phenomenon where convolutional neural networks (CNNs) trained on acoustic recordings of individual words start generating outputs with two or even three words concatenated without ever accessing data with multiple words in the input. Additionally, networks trained on two words learn to embed words into novel unobserved word combinations. To our knowledge, this is a previously unreported property of CNNs trained on raw speech in the Generative Adversarial Network setting and has implications both for our understanding of how these architectures learn as well as for modeling syntax and its evolution from raw acoustic inputs.
     
 
