@@ -2,52 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [A mean-field model of optimal investment](https://arxiv.org/abs/2404.02871) | 该论文建立了一个关于最优投资的随机均场博弈模型，证明了均衡的存在性和唯一性，探讨了有限和无限时间范围的情况，同时研究了确定性对应物。 |
-| [^2] | [Robust Learning for Optimal Dynamic Treatment Regimes with Observational Data](https://arxiv.org/abs/2404.00221) | 学习利用观测数据提出了一种逐步双重强健方法，通过向后归纳解决了最佳动态治疗方案的问题 |
-| [^3] | [Adjustment with Many Regressors Under Covariate-Adaptive Randomizations.](http://arxiv.org/abs/2304.08184) | 本文关注协变量自适应随机化中的因果推断，在使用回归调整时需要权衡效率与估计误差成本。作者提供了关于经过回归调整的平均处理效应（ATE）估计器的统一推断理论。 |
+| [^1] | [Understanding and avoiding the "weights of regression": Heterogeneous effects, misspecification, and longstanding solutions](https://arxiv.org/abs/2403.03299) | 处理的回归系数通常不等于平均处理效应（ATE），且可能不是直接科学或政策感兴趣的数量。研究人员提出各种解释、边界和诊断辅助工具来解释这种差异。 |
+| [^2] | [Does regional variation in wage levels identify the effects of a national minimum wage?.](http://arxiv.org/abs/2307.01284) | 本文研究了国家最低工资对就业和工资的因果效应，并发现受影响比例设计存在偏差，导致对真实因果效应的拒绝率过高。我还提出了两种诊断方法来验证这种设计，对于有效最低工资设计，Lee(1999)强调的识别假设至关重要。 |
+| [^3] | [Strategic Ambiguity in Global Games.](http://arxiv.org/abs/2303.12263) | 论文研究全球博弈中的策略模糊性对玩家行为的影响，发现模糊质量信息下更多玩家选择恒定收益行动，而低质量信息下更多玩家选择前期最优反应。在金融危机应用中，更模糊质量的新闻会引发债务危机，而质量低的新闻会引发货币危机。 |
 
 # 详细
 
-[^1]: 一个关于最优投资的均场模型
+[^1]: 理解和避免“回归权重”：异质效应、误设和长久解决方案
 
-    A mean-field model of optimal investment
+    Understanding and avoiding the "weights of regression": Heterogeneous effects, misspecification, and longstanding solutions
 
-    [https://arxiv.org/abs/2404.02871](https://arxiv.org/abs/2404.02871)
+    [https://arxiv.org/abs/2403.03299](https://arxiv.org/abs/2403.03299)
 
-    该论文建立了一个关于最优投资的随机均场博弈模型，证明了均衡的存在性和唯一性，探讨了有限和无限时间范围的情况，同时研究了确定性对应物。
-
-    
-
-    我们建立了一个关于最优投资的随机均场博弈的均衡存在性和唯一性。分析涵盖了有限和无限时间范围，代表公司与大量相同和不可区分的公司群体之间的均场相互作用通过生产商品的售价进行建模。在均衡状态下，这个价格以代表公司的预期(最优控制)生产能力的非线性函数来表示。均场均衡存在性和唯一性的证明依赖于先验估计和非线性积分方程的研究，但对于有限和无限时间范围的情况采用了不同的技术。此外，我们还研究了所讨论的均场博弈的确定性对应物。
-
-    arXiv:2404.02871v1 Announce Type: cross  Abstract: We establish the existence and uniqueness of the equilibrium for a stochastic mean-field game of optimal investment. The analysis covers both finite and infinite time horizons, and the mean-field interaction of the representative company with a mass of identical and indistinguishable firms is modeled through the time-dependent price at which the produced good is sold. At equilibrium, this price is given in terms of a nonlinear function of the expected (optimally controlled) production capacity of the representative company at each time. The proof of the existence and uniqueness of the mean-field equilibrium relies on a priori estimates and the study of nonlinear integral equations, but employs different techniques for the finite and infinite horizon cases. Additionally, we investigate the deterministic counterpart of the mean-field game under study.
-    
-[^2]: 利用观测数据进行强健学习以获得最佳动态治疗方案
-
-    Robust Learning for Optimal Dynamic Treatment Regimes with Observational Data
-
-    [https://arxiv.org/abs/2404.00221](https://arxiv.org/abs/2404.00221)
-
-    学习利用观测数据提出了一种逐步双重强健方法，通过向后归纳解决了最佳动态治疗方案的问题
+    处理的回归系数通常不等于平均处理效应（ATE），且可能不是直接科学或政策感兴趣的数量。研究人员提出各种解释、边界和诊断辅助工具来解释这种差异。
 
     
 
-    许多公共政策和医疗干预涉及其治疗分配中的动态性，治疗通常依据先前治疗的历史和相关特征对每个阶段的效果具有异质性。本文研究了统计学习最佳动态治疗方案(DTR)，根据个体的历史指导每个阶段的最佳治疗分配。我们提出了一种基于观测数据的逐步双重强健方法，在顺序可忽略性假设下学习最佳DTR。该方法通过向后归纳解决了顺序治疗分配问题，在每一步中，我们结合倾向评分和行动值函数(Q函数)的估计量，构建了政策价值的增强反向概率加权估计量。
+    许多领域的研究人员努力通过在处理（D）和观察到的混杂因素（X）上对结果数据（Y）进行回归来估计治疗效应。即使不存在未观察到的混杂因素，处理的回归系数也会报告分层特定处理效应的加权平均值。当无法排除异质处理效应时，得到的系数通常不等于平均处理效应（ATE），也不太可能是直接科学或政策感兴趣的数量。系数与ATE之间的差异导致研究人员提出各种解释、边界和诊断辅助工具。我们注意到，在处理效应在X中是异质的时，对Y关于D和X的线性回归可能存在误设。回归的“权重”，对此我们提供了一种新的...
 
-    arXiv:2404.00221v1 Announce Type: cross  Abstract: Many public policies and medical interventions involve dynamics in their treatment assignments, where treatments are sequentially assigned to the same individuals across multiple stages, and the effect of treatment at each stage is usually heterogeneous with respect to the history of prior treatments and associated characteristics. We study statistical learning of optimal dynamic treatment regimes (DTRs) that guide the optimal treatment assignment for each individual at each stage based on the individual's history. We propose a step-wise doubly-robust approach to learn the optimal DTR using observational data under the assumption of sequential ignorability. The approach solves the sequential treatment assignment problem through backward induction, where, at each step, we combine estimators of propensity scores and action-value functions (Q-functions) to construct augmented inverse probability weighting estimators of values of policies 
+    arXiv:2403.03299v1 Announce Type: cross  Abstract: Researchers in many fields endeavor to estimate treatment effects by regressing outcome data (Y) on a treatment (D) and observed confounders (X). Even absent unobserved confounding, the regression coefficient on the treatment reports a weighted average of strata-specific treatment effects (Angrist, 1998). Where heterogeneous treatment effects cannot be ruled out, the resulting coefficient is thus not generally equal to the average treatment effect (ATE), and is unlikely to be the quantity of direct scientific or policy interest. The difference between the coefficient and the ATE has led researchers to propose various interpretational, bounding, and diagnostic aids (Humphreys, 2009; Aronow and Samii, 2016; Sloczynski, 2022; Chattopadhyay and Zubizarreta, 2023). We note that the linear regression of Y on D and X can be misspecified when the treatment effect is heterogeneous in X. The "weights of regression", for which we provide a new (m
     
-[^3]: 协变量自适应随机化下的多个回归器的调整
+[^2]: 区域工资水平的变化能否确定国家最低工资的影响？
 
-    Adjustment with Many Regressors Under Covariate-Adaptive Randomizations. (arXiv:2304.08184v1 [econ.EM])
+    Does regional variation in wage levels identify the effects of a national minimum wage?. (arXiv:2307.01284v1 [econ.EM])
 
-    [http://arxiv.org/abs/2304.08184](http://arxiv.org/abs/2304.08184)
+    [http://arxiv.org/abs/2307.01284](http://arxiv.org/abs/2307.01284)
 
-    本文关注协变量自适应随机化中的因果推断，在使用回归调整时需要权衡效率与估计误差成本。作者提供了关于经过回归调整的平均处理效应（ATE）估计器的统一推断理论。
+    本文研究了国家最低工资对就业和工资的因果效应，并发现受影响比例设计存在偏差，导致对真实因果效应的拒绝率过高。我还提出了两种诊断方法来验证这种设计，对于有效最低工资设计，Lee(1999)强调的识别假设至关重要。
 
     
 
-    本文针对协变量自适应随机化（CAR）中的因果推断使用回归调整（RA）时存在的权衡进行了研究。RA可以通过整合未用于随机分配的协变量信息来提高因果估计器的效率。但是，当回归器数量与样本量同阶时，RA的估计误差不能渐近忽略，会降低估计效率。没有考虑RA成本的结果可能导致在零假设下过度拒绝因果推断。为了解决这个问题，我们在CAR下为经过回归调整的平均处理效应（ATE）估计器开发了一种统一的推断理论。我们的理论具有两个关键特征：（1）确保在零假设下的精确渐近大小，无论协变量数量是固定还是最多以样本大小的速度发散，（2）确保在协变量维度方面都比未调整的估计器弱效提高.
+    本文探讨了估计国家最低工资对就业和工资的因果效应的估计量所依赖的识别假设，例如“受影响比例”和“有效最低工资”设计。具体来说，我进行了一系列模拟实验，研究这些假设在特定经济模型下是否成立作为数据生成流程。我发现，在许多情况下，受影响比例设计显示出小的偏差，导致对真实因果效应的拒绝率过高。在工资差异在不同地区扩大、对最低工资的均衡反应或平行趋势假设的违反存在时，这些偏差可能更大。我提出了两种诊断方法，以补充常用于验证这种设计的差异预趋势的标准测试。对于有效最低工资设计，我表明Lee(1999)强调的识别假设至关重要。
 
-    Our paper identifies a trade-off when using regression adjustments (RAs) in causal inference under covariate-adaptive randomizations (CARs). On one hand, RAs can improve the efficiency of causal estimators by incorporating information from covariates that are not used in the randomization. On the other hand, RAs can degrade estimation efficiency due to their estimation errors, which are not asymptotically negligible when the number of regressors is of the same order as the sample size. Failure to account for the cost of RAs can result in over-rejection of causal inference under the null hypothesis. To address this issue, we develop a unified inference theory for the regression-adjusted average treatment effect (ATE) estimator under CARs. Our theory has two key features: (1) it ensures the exact asymptotic size under the null hypothesis, regardless of whether the number of covariates is fixed or diverges at most at the rate of the sample size, and (2) it guarantees weak efficiency impro
+    This paper examines the identification assumptions underlying estimators of the causal effects of national minimum wages on employment and wages, such as the "fraction affected" and "effective minimum wage" designs. Specifically, I conduct a series of simulation exercises to investigate whether these assumptions hold in the context of particular economic models used as data-generating processes. I find that, in many cases, the fraction affected design exhibits small biases that lead to inflated rejection rates of the true causal effect. These biases can be larger in the presence of either trends in the dispersion of wages within regions, equilibrium responses to the minimum wage, or violations of the parallel trends assumption. I propose two diagnostic exercises to complement the standard test for differential pre-trends commonly used to validate this design. For the effective minimum wage design, I show that while the identification assumptions emphasized by Lee (1999) are crucial, th
+    
+[^3]: 全球博弈中的策略模糊性
+
+    Strategic Ambiguity in Global Games. (arXiv:2303.12263v1 [econ.TH])
+
+    [http://arxiv.org/abs/2303.12263](http://arxiv.org/abs/2303.12263)
+
+    论文研究全球博弈中的策略模糊性对玩家行为的影响，发现模糊质量信息下更多玩家选择恒定收益行动，而低质量信息下更多玩家选择前期最优反应。在金融危机应用中，更模糊质量的新闻会引发债务危机，而质量低的新闻会引发货币危机。
+
+    
+
+    在具有不完全和模糊信息的博弈中，理性行为不仅取决于基本模糊（关于状态的模糊性）而且取决于策略模糊（关于他人行为的模糊性）。我们研究了策略模糊在全球博弈中的影响。模糊质量信息使更多的玩家选择产生恒定收益的行动，而（明确的）低质量信息使更多的玩家选择对对手行动的统一信念做出前期最优反应。如果前期最优反应的行动产生恒定收益，则足够模糊的质量信息会诱导出一种唯一的均衡，而足够低质量的信息会产生多个均衡。在金融危机的应用中，我们证明了更模糊质量的新闻会引发债务展期危机，而质量较低的新闻会引发货币危机。
+
+    In games with incomplete and ambiguous information, rational behavior depends not only on fundamental ambiguity (ambiguity about states) but also on strategic ambiguity (ambiguity about others' actions). We study the impact of strategic ambiguity in global games. Ambiguous-quality information makes more players choose an action yielding a constant payoff, whereas (unambiguous) low-quality information makes more players choose an ex-ante best response to the uniform belief over the opponents' actions. If the ex-ante best-response action yields a constant payoff, sufficiently ambiguous-quality information induces a unique equilibrium, whereas sufficiently low-quality information generates multiple equilibria. In applications to financial crises, we demonstrate that news of more ambiguous quality triggers a debt rollover crisis, whereas news of less ambiguous quality triggers a currency crisis.
     
 

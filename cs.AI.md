@@ -2,127 +2,187 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Generating Visual Stimuli from EEG Recordings using Transformer-encoder based EEG encoder and GAN](https://arxiv.org/abs/2402.10115) | 本研究使用基于Transformer编码器的EEG编码器和GAN网络，通过合成图像从EEG信号中恢复出各种对象类别的图像，同时结合对抗损失和感知损失，提高生成图像的质量。 |
-| [^2] | [Operator learning without the adjoint](https://arxiv.org/abs/2401.17739) | 本论文提出了一种不需要探测伴随算子的算子学习方法，通过在Fourier基上进行投影来逼近一类非自伴随的无限维紧算子，并应用于恢复椭圆型偏微分算子的格林函数。这是第一个试图填补算子学习理论与实践差距的无需伴随算子分析。 |
-| [^3] | [GDL-DS: A Benchmark for Geometric Deep Learning under Distribution Shifts.](http://arxiv.org/abs/2310.08677) | GDL-DS是一个基准测试，用于评估几何深度学习模型在具有分布转换的场景中的性能。它包括多个科学领域的评估数据集，并研究了不同级别的超出分布特征的信息访问。 |
-| [^4] | [Soda: An Object-Oriented Functional Language for Specifying Human-Centered Problems.](http://arxiv.org/abs/2310.01961) | Soda是一种面向对象的功能性编程语言，用于描述以人为中心的问题，可以自然地处理质量和数量，并通过简单的定义模型化复杂要求。 |
-| [^5] | [Bandits with Deterministically Evolving States.](http://arxiv.org/abs/2307.11655) | 该论文提出了一种名为具有确定性演化状态的强盗模型，用于学习带有强盗反馈的推荐系统和在线广告。该模型考虑了状态演化的不同速率，能准确评估奖励与系统健康程度之间的关系。 |
-| [^6] | [Deep-Learning-Aided Alternating Least Squares for Tensor CP Decomposition and Its Application to Massive MIMO Channel Estimation.](http://arxiv.org/abs/2305.13947) | 本文提出了基于深度学习的CP分解算法DL-CPALS，通过使用深度神经网络生成有利的初始化值，提高了算法的速度和精度，该算法可用于大规模MIMO信道估计。 |
-| [^7] | [Basic syntax from speech: Spontaneous concatenation in unsupervised deep neural networks.](http://arxiv.org/abs/2305.01626) | 该论文提出了一种基于语音的完全无监督的方法，可以直接从原始语音中建立基础语法模型。作者发现，在基于声音的单词记录上训练的卷积神经网络可以自发连接两个或三个单词，并且可以学会将单词嵌入到新的未见过的单词组合中，这是之前未报道的属性，这一发现对我们理解神经网络的学习方式和建立从原始声学输入中的语法及其演化的模型都有重要的意义。 |
-| [^8] | [Revisiting Discrete Soft Actor-Critic.](http://arxiv.org/abs/2209.10081) | 本研究重新审视了将连续动作空间的Soft Actor-Critic方法调整为离散动作空间的问题，并提出了解决Q值低估和性能不稳定的方法，验证了其在Atari游戏和大规模MOBA游戏中的有效性。 |
+| [^1] | [AI-generated faces free from racial and gender stereotypes](https://rss.arxiv.org/abs/2402.01002) | 这项研究发现并解决了AI生成的面孔中存在的种族和性别刻板印象问题，提出了分类器用于预测面部属性的方法，并提出了有效的去偏见解决方案。 |
+| [^2] | [PromptCodec: High-Fidelity Neural Speech Codec using Disentangled Representation Learning based Adaptive Feature-aware Prompt Encoders](https://arxiv.org/abs/2404.02702) | 本文提出了PromptCodec，一种使用离散表示学习的特征感知提示编码器的高保真神经语音编解码器，通过引入额外特征表示、自适应特征加权融合和效率优化来解决高压缩率下的高保真音频重建问题。 |
+| [^3] | [Linguacodus: A Synergistic Framework for Transformative Code Generation in Machine Learning Pipelines](https://arxiv.org/abs/2403.11585) | Linguacodus是一种创新框架，通过部署动态流水线和精细调整的大型语言模型，实现了将自然语言任务描述转换为代码的自动化过程，极大地推进了机器学习应用的发展。 |
+| [^4] | [Graph Neural Networks and Arithmetic Circuits](https://arxiv.org/abs/2402.17805) | 研究者在本文中建立了图神经网络与算术电路之间的表达能力对应关系，结果表明不同激活函数的GNN在表达能力上等价于实数上的算术电路。 |
+| [^5] | [Probing Multimodal Large Language Models for Global and Local Semantic Representation](https://arxiv.org/abs/2402.17304) | 通过研究发现，多模态大型语言模型的中间层能够更好地编码全局语义信息，在视觉-语言任务中表现出更好的性能。顶层可能过多关注局部信息，导致理解全局信息的能力下降。 |
+| [^6] | [Safe Task Planning for Language-Instructed Multi-Robot Systems using Conformal Prediction](https://arxiv.org/abs/2402.15368) | 本文引入了一种新的基于分布式LLM和符合预测技术的多机器人规划器，实现了高任务成功率。 |
+| [^7] | [PaDeLLM-NER: Parallel Decoding in Large Language Models for Named Entity Recognition](https://arxiv.org/abs/2402.04838) | 本研究提出了PaDeLLM-NER，一种能够在大型语言模型中实现并行解码，从而显著减少命名实体识别的生成延迟，同时保持预测质量和性能。 |
+| [^8] | [HEAM : Hashed Embedding Acceleration using Processing-In-Memory](https://arxiv.org/abs/2402.04032) | HEAM是一种采用异构内存架构的方法，将3D堆叠DRAM与DIMM集成，用于加速处理大规模个性化推荐系统中的嵌入操作。 |
+| [^9] | [Criticality-Guided Efficient Pruning in Spiking Neural Networks Inspired by Critical Brain Hypothesis.](http://arxiv.org/abs/2311.16141) | 本研究受到神经科学中的关键大脑假设的启发，提出了一种基于神经元关键性的高效SNN修剪方法，以加强特征提取和加速修剪过程，并取得了比当前最先进方法更好的性能。 |
+| [^10] | [Magmaw: Modality-Agnostic Adversarial Attacks on Machine Learning-Based Wireless Communication Systems.](http://arxiv.org/abs/2311.00207) | 本文提出了Magmaw，这是一种针对基于机器学习的无线通信系统进行模态不可知对抗攻击的黑盒攻击方法。它能够生成通用的对抗扰动，并引入了新的攻击目标。实验证实了其对现有防御方法的韧性。使用实时无线攻击平台进行了概念验证。 |
+| [^11] | [Robust Decision-Focused Learning for Reward Transfer.](http://arxiv.org/abs/2304.03365) | 本文介绍了一种稳健决策重点（RDF）算法，利用非识别性的DF解，学习同时最大化期望回报和抵御奖励函数变化的模型，可以显著提高DF对奖励函数变化的稳健性，而不会降低智能体的总回报。 |
+| [^12] | [Risk-Sensitive Reinforcement Learning with Exponential Criteria.](http://arxiv.org/abs/2212.09010) | 本文介绍了一种风险敏感的强化学习算法，使用指数判据来提高其系统抗干扰性和实用性。作者进行了在模拟和实际机器人上的实验验证，表明该算法能够有效地提高样本效率和执行效果。 |
 
 # 详细
 
-[^1]: 使用基于Transformer编码器的EEG编码器和GAN从EEG记录中生成视觉刺激
+[^1]: AI生成的面孔摆脱了种族和性别刻板印象
 
-    Generating Visual Stimuli from EEG Recordings using Transformer-encoder based EEG encoder and GAN
+    AI-generated faces free from racial and gender stereotypes
 
-    [https://arxiv.org/abs/2402.10115](https://arxiv.org/abs/2402.10115)
+    [https://rss.arxiv.org/abs/2402.01002](https://rss.arxiv.org/abs/2402.01002)
 
-    本研究使用基于Transformer编码器的EEG编码器和GAN网络，通过合成图像从EEG信号中恢复出各种对象类别的图像，同时结合对抗损失和感知损失，提高生成图像的质量。
-
-    
-
-    在这项研究中，我们解决了感知性脑解码领域的一个现代研究挑战，即使用对抗式深度学习框架从EEG信号中合成图像。具体目标是利用主体观看图像时获得的EEG记录重新创建属于各种对象类别的图像。为了实现这一目标，我们使用基于Transformer编码器的EEG编码器生成EEG编码，然后将其作为GAN网络的生成器组件的输入。除了对抗损失之外，我们还采用了感知损失来提高生成图像的质量。
-
-    arXiv:2402.10115v1 Announce Type: new  Abstract: In this study, we tackle a modern research challenge within the field of perceptual brain decoding, which revolves around synthesizing images from EEG signals using an adversarial deep learning framework. The specific objective is to recreate images belonging to various object categories by leveraging EEG recordings obtained while subjects view those images. To achieve this, we employ a Transformer-encoder based EEG encoder to produce EEG encodings, which serve as inputs to the generator component of the GAN network. Alongside the adversarial loss, we also incorporate perceptual loss to enhance the quality of the generated images.
-    
-[^2]: 不需要伴随算子的算子学习
-
-    Operator learning without the adjoint
-
-    [https://arxiv.org/abs/2401.17739](https://arxiv.org/abs/2401.17739)
-
-    本论文提出了一种不需要探测伴随算子的算子学习方法，通过在Fourier基上进行投影来逼近一类非自伴随的无限维紧算子，并应用于恢复椭圆型偏微分算子的格林函数。这是第一个试图填补算子学习理论与实践差距的无需伴随算子分析。
+    这项研究发现并解决了AI生成的面孔中存在的种族和性别刻板印象问题，提出了分类器用于预测面部属性的方法，并提出了有效的去偏见解决方案。
 
     
 
-    算子学习中存在一个谜团：如何在没有探测伴随算子的情况下从数据中恢复非自伴随算子？目前的实际方法表明，在仅使用由算子的正向作用生成的数据的情况下，可以准确地恢复算子，而不需要访问伴随算子。然而，以直观的方式看，似乎有必要采样伴随算子的作用。在本文中，我们部分解释了这个谜团，通过证明在不查询伴随算子的情况下，可以通过在Fourier基上进行投影来逼近一类非自伴随的无限维紧算子。然后，我们将该结果应用于恢复椭圆型偏微分算子的格林函数，并导出一个无需伴随算子的样本复杂度界限。虽然现有的理论证明了算子学习的低样本复杂度，但我们的是第一个试图填补理论与实践差距的无需伴随算子的分析。
+    诸如Stable Diffusion之类的文本到图像生成AI模型每天都被全球数百万人使用。然而，许多人对这些模型如何放大种族和性别刻板印象提出了关切。为了研究这一现象，我们开发了一个分类器来预测任意给定面部图像的种族、性别和年龄组，并展示其达到了最先进的性能。利用这个分类器，我们对Stable Diffusion在六种种族、两种性别、五个年龄组、32个职业和八个属性上的偏见进行了量化。然后，我们提出了超越最先进替代方案的新型去偏见解决方案。此外，我们还检查了Stable Diffusion在描绘同一种族的个体时相似程度。分析结果显示出高度的刻板印象，例如，将大多数中东男性描绘为皮肤黝黑、留着胡子、戴着传统头饰。我们提出了另一种增加面部多样性的新型解决方案来解决这些限制。
 
-    There is a mystery at the heart of operator learning: how can one recover a non-self-adjoint operator from data without probing the adjoint? Current practical approaches suggest that one can accurately recover an operator while only using data generated by the forward action of the operator without access to the adjoint. However, naively, it seems essential to sample the action of the adjoint. In this paper, we partially explain this mystery by proving that without querying the adjoint, one can approximate a family of non-self-adjoint infinite-dimensional compact operators via projection onto a Fourier basis. We then apply the result to recovering Green's functions of elliptic partial differential operators and derive an adjoint-free sample complexity bound. While existing theory justifies low sample complexity in operator learning, ours is the first adjoint-free analysis that attempts to close the gap between theory and practice.
+    Text-to-image generative AI models such as Stable Diffusion are used daily by millions worldwide. However, many have raised concerns regarding how these models amplify racial and gender stereotypes. To study this phenomenon, we develop a classifier to predict the race, gender, and age group of any given face image, and show that it achieves state-of-the-art performance. Using this classifier, we quantify biases in Stable Diffusion across six races, two genders, five age groups, 32 professions, and eight attributes. We then propose novel debiasing solutions that outperform state-of-the-art alternatives. Additionally, we examine the degree to which Stable Diffusion depicts individuals of the same race as being similar to one another. This analysis reveals a high degree of stereotyping, e.g., depicting most middle eastern males as being dark-skinned, bearded, and wearing a traditional headdress. We address these limitations by proposing yet another novel solution that increases facial div
     
-[^3]: GDL-DS: 分布转换下几何深度学习的基准测试
+[^2]: PromptCodec: 使用基于自适应特征感知的离散表示学习的高保真神经语音编解码器
 
-    GDL-DS: A Benchmark for Geometric Deep Learning under Distribution Shifts. (arXiv:2310.08677v1 [cs.LG])
+    PromptCodec: High-Fidelity Neural Speech Codec using Disentangled Representation Learning based Adaptive Feature-aware Prompt Encoders
 
-    [http://arxiv.org/abs/2310.08677](http://arxiv.org/abs/2310.08677)
+    [https://arxiv.org/abs/2404.02702](https://arxiv.org/abs/2404.02702)
 
-    GDL-DS是一个基准测试，用于评估几何深度学习模型在具有分布转换的场景中的性能。它包括多个科学领域的评估数据集，并研究了不同级别的超出分布特征的信息访问。
-
-    
-
-    几何深度学习(GDL)在各个科学领域引起了广泛关注，主要是因为其擅长对具有复杂几何结构的数据进行建模。然而，很少有研究探索其在处理分布转换问题上的能力，这是许多相关应用中常见的挑战。为了弥补这一空白，我们提出了GDL-DS，这是一个全面的基准测试，旨在评估GDL模型在具有分布转换的场景中的性能。我们的评估数据集涵盖了从粒子物理学和材料科学到生物化学的不同科学领域，并包括各种分布转换，包括条件、协变和概念转换。此外，我们研究了来自超出分布的测试数据的信息访问的三个级别，包括没有超出分布的信息、只有带标签的超出分布特征和带有少数标签的超出分布特征。总体而言，我们的基准测试涉及30个不同的实验设置，并评估3种信息访问水平。
-
-    Geometric deep learning (GDL) has gained significant attention in various scientific fields, chiefly for its proficiency in modeling data with intricate geometric structures. Yet, very few works have delved into its capability of tackling the distribution shift problem, a prevalent challenge in many relevant applications. To bridge this gap, we propose GDL-DS, a comprehensive benchmark designed for evaluating the performance of GDL models in scenarios with distribution shifts. Our evaluation datasets cover diverse scientific domains from particle physics and materials science to biochemistry, and encapsulate a broad spectrum of distribution shifts including conditional, covariate, and concept shifts. Furthermore, we study three levels of information access from the out-of-distribution (OOD) testing data, including no OOD information, only OOD features without labels, and OOD features with a few labels. Overall, our benchmark results in 30 different experiment settings, and evaluates 3 
-    
-[^4]: Soda:一种用于描述以人为中心问题的面向对象的功能性编程语言
-
-    Soda: An Object-Oriented Functional Language for Specifying Human-Centered Problems. (arXiv:2310.01961v1 [cs.PL])
-
-    [http://arxiv.org/abs/2310.01961](http://arxiv.org/abs/2310.01961)
-
-    Soda是一种面向对象的功能性编程语言，用于描述以人为中心的问题，可以自然地处理质量和数量，并通过简单的定义模型化复杂要求。
+    本文提出了PromptCodec，一种使用离散表示学习的特征感知提示编码器的高保真神经语音编解码器，通过引入额外特征表示、自适应特征加权融合和效率优化来解决高压缩率下的高保真音频重建问题。
 
     
 
-    我们介绍了Soda（Symbolic Objective Descriptive Analysis），一种语言，有助于以自然的方式处理质量和数量，并极大地简化了检查它们正确性的任务。我们介绍了语言的关键属性，这些属性是由对计算机系统复杂要求进行描述的设计所激发的，并解释了如何通过简单的定义来建模这些要求时必须解决这些关键属性。我们概述了一个工具，它有助于以更透明和更少出错的方式描述问题。
+    神经语音编解码器近来在生成语音建模领域引起广泛关注，例如语音转换、文本转语音合成等。然而，在高压缩率下确保语音编解码器的高保真音频重建仍然是一个未解决且具有挑战性的问题。本文提出了PromptCodec，一种使用基于离散表示学习的特征感知提示编码器的新型端到端神经语音编解码器模型。通过引入来自提示编码器的额外特征表示，PromptCodec可以分配需要处理的语音信息并增强其能力。此外，引入了一种简单而有效的自适应特征加权融合方法，以整合不同编码器的特征。同时，我们提出了一种基于余弦距离的新颖离散表示学习策略，以优化PromptCodec的编码器以确保其效率，进一步改进。
 
-    We present Soda (Symbolic Objective Descriptive Analysis), a language that helps to treat qualities and quantities in a natural way and greatly simplifies the task of checking their correctness. We present key properties for the language motivated by the design of a descriptive language to encode complex requirements on computer systems, and we explain how these key properties must be addressed to model these requirements with simple definitions. We give an overview of a tool that helps to describe problems in an easy way that we consider more transparent and less error-prone.
+    arXiv:2404.02702v1 Announce Type: cross  Abstract: Neural speech codec has recently gained widespread attention in generative speech modeling domains, like voice conversion, text-to-speech synthesis, etc. However, ensuring high-fidelity audio reconstruction of speech codecs under high compression rates remains an open and challenging issue. In this paper, we propose PromptCodec, a novel end-to-end neural speech codec model using disentangled representation learning based feature-aware prompt encoders. By incorporating additional feature representations from prompt encoders, PromptCodec can distribute the speech information requiring processing and enhance its capabilities. Moreover, a simple yet effective adaptive feature weighted fusion approach is introduced to integrate features of different encoders. Meanwhile, we propose a novel disentangled representation learning strategy based on cosine distance to optimize PromptCodec's encoders to ensure their efficiency, thereby further impr
     
-[^5]: 具有确定性演化状态的强盗模型
+[^3]: Linguacodus：一种在机器学习流水线中进行变革性代码生成的协同框架
 
-    Bandits with Deterministically Evolving States. (arXiv:2307.11655v1 [cs.LG])
+    Linguacodus: A Synergistic Framework for Transformative Code Generation in Machine Learning Pipelines
 
-    [http://arxiv.org/abs/2307.11655](http://arxiv.org/abs/2307.11655)
+    [https://arxiv.org/abs/2403.11585](https://arxiv.org/abs/2403.11585)
 
-    该论文提出了一种名为具有确定性演化状态的强盗模型，用于学习带有强盗反馈的推荐系统和在线广告。该模型考虑了状态演化的不同速率，能准确评估奖励与系统健康程度之间的关系。
-
-    
-
-    我们提出了一种学习与强盗反馈结合的模型，同时考虑到确定性演化和不可观测的状态，我们称之为具有确定性演化状态的强盗模型。我们的模型主要应用于推荐系统和在线广告的学习。在这两种情况下，算法在每一轮获得的奖励是选择行动的短期奖励和系统的“健康”程度（即通过其状态测量）的函数。例如，在推荐系统中，平台从用户对特定类型内容的参与中获得的奖励不仅取决于具体内容的固有特征，还取决于用户与平台上其他类型内容互动后其偏好的演化。我们的通用模型考虑了状态演化的不同速率λ∈[0,1]（例如，用户的偏好因先前内容消费而快速变化）。
-
-    We propose a model for learning with bandit feedback while accounting for deterministically evolving and unobservable states that we call Bandits with Deterministically Evolving States. The workhorse applications of our model are learning for recommendation systems and learning for online ads. In both cases, the reward that the algorithm obtains at each round is a function of the short-term reward of the action chosen and how ``healthy'' the system is (i.e., as measured by its state). For example, in recommendation systems, the reward that the platform obtains from a user's engagement with a particular type of content depends not only on the inherent features of the specific content, but also on how the user's preferences have evolved as a result of interacting with other types of content on the platform. Our general model accounts for the different rate $\lambda \in [0,1]$ at which the state evolves (e.g., how fast a user's preferences shift as a result of previous content consumption
-    
-[^6]: 基于深度学习的交替最小二乘法用于张量CP分解及其在大规模MIMO信道估计中的应用
-
-    Deep-Learning-Aided Alternating Least Squares for Tensor CP Decomposition and Its Application to Massive MIMO Channel Estimation. (arXiv:2305.13947v1 [eess.SP])
-
-    [http://arxiv.org/abs/2305.13947](http://arxiv.org/abs/2305.13947)
-
-    本文提出了基于深度学习的CP分解算法DL-CPALS，通过使用深度神经网络生成有利的初始化值，提高了算法的速度和精度，该算法可用于大规模MIMO信道估计。
+    Linguacodus是一种创新框架，通过部署动态流水线和精细调整的大型语言模型，实现了将自然语言任务描述转换为代码的自动化过程，极大地推进了机器学习应用的发展。
 
     
 
-    CANDECOMP/PARAFAC (CP)分解是在多域大规模多输入多输出（MIMO）系统中表述接收到的张量信号的最常用模型，因为接收机通常会将来自不同传输路径或用户的组件相加。为了实现准确和低延迟的信道估计，需要好的、快速的CP分解算法。CP交替最小二乘法（CPALS）是计算CP分解的主力算法。但是，它的性能取决于初始化，良好的起始值可以导致更有效的解决方案。现有的初始化策略与CPALS解耦，并不一定有利于解决CP分解问题。为了提高算法的速度和精度，本文提出了一种基于深度学习的CPALS（DL-CPALS）方法，它使用深度神经网络（DNN）生成有利的初始化。所提出的DL-CPALS将DNN和CPALS集成到模型基深度学习范式中。
+    在不断发展的机器学习领域中，将自然语言描述无缝转化为可执行代码仍然是一个巨大的挑战。本文介绍了Linguacodus，这是一个创新性框架，旨在通过部署一个动态流水线，通过高级数据塑形指令，将自然语言任务描述迭代地转换为代码来应对这一挑战。Linguacodus的核心是一个经过精细调整的大型语言模型（LLM），能够评估各种问题的多样解决方案，并为特定任务选择最合适的解决方案。本文详细介绍了精细调整过程，并阐明了如何将自然语言描述转化为功能性代码。Linguacodus代表了自动化代码生成的重大飞跃，有效地弥合了任务描述和可执行代码之间的差距。它对推进跨不同领域的机器学习应用具有巨大潜力。
 
-    CANDECOMP/PARAFAC (CP) decomposition is the mostly used model to formulate the received tensor signal in a multi-domain massive multiple-input multiple-output (MIMO) system, as the receiver generally sums the components from different paths or users. To achieve accurate and low-latency channel estimation, good and fast CP decomposition algorithms are desired. The CP alternating least squares (CPALS) is the workhorse algorithm for calculating the CP decomposition. However, its performance depends on the initializations, and good starting values can lead to more efficient solutions. Existing initialization strategies are decoupled from the CPALS and are not necessarily favorable for solving the CP decomposition. To enhance the algorithm's speed and accuracy, this paper proposes a deep-learning-aided CPALS (DL-CPALS) method that uses a deep neural network (DNN) to generate favorable initializations. The proposed DL-CPALS integrates the DNN and CPALS to a model-based deep learning paradigm
+    arXiv:2403.11585v1 Announce Type: cross  Abstract: In the ever-evolving landscape of machine learning, seamless translation of natural language descriptions into executable code remains a formidable challenge. This paper introduces Linguacodus, an innovative framework designed to tackle this challenge by deploying a dynamic pipeline that iteratively transforms natural language task descriptions into code through high-level data-shaping instructions. The core of Linguacodus is a fine-tuned large language model (LLM), empowered to evaluate diverse solutions for various problems and select the most fitting one for a given task. This paper details the fine-tuning process, and sheds light on how natural language descriptions can be translated into functional code. Linguacodus represents a substantial leap towards automated code generation, effectively bridging the gap between task descriptions and executable code. It holds great promise for advancing machine learning applications across div
     
-[^7]: 基于语音的基础语法：自发联接的自监督深度神经网络
+[^4]: 图神经网络与算术电路
 
-    Basic syntax from speech: Spontaneous concatenation in unsupervised deep neural networks. (arXiv:2305.01626v1 [cs.CL])
+    Graph Neural Networks and Arithmetic Circuits
 
-    [http://arxiv.org/abs/2305.01626](http://arxiv.org/abs/2305.01626)
+    [https://arxiv.org/abs/2402.17805](https://arxiv.org/abs/2402.17805)
 
-    该论文提出了一种基于语音的完全无监督的方法，可以直接从原始语音中建立基础语法模型。作者发现，在基于声音的单词记录上训练的卷积神经网络可以自发连接两个或三个单词，并且可以学会将单词嵌入到新的未见过的单词组合中，这是之前未报道的属性，这一发现对我们理解神经网络的学习方式和建立从原始声学输入中的语法及其演化的模型都有重要的意义。
-
-    
-
-    语法的计算模型主要基于文本。本文提出了一种完全无监督的方法，可以直接从原始语音中建立基础语法模型。我们重点研究了最普遍和基本的语法特性之一——联接。我们介绍了自发联接现象：卷积神经网络(CNN)在个别单词的声学记录上训练时，开始产生输出，这些输出将两个甚至三个单词连接在一起，而不会接触到具有多个单词的输入数据。此外，训练两个单词的网络可以学习将单词嵌入到新的未见过的单词组合中。据我们所知，这是在生成对抗网络环境下训练的原始语音CNN以前未报道的属性，它不仅对我们理解这些体系结构的学习方式有影响，还对建立从原始声学输入中的语法及其演化的模型有影响。
-
-    Computational models of syntax are predominantly text-based. Here we propose that basic syntax can be modeled directly from raw speech in a fully unsupervised way. We focus on one of the most ubiquitous and basic properties of syntax -- concatenation. We introduce spontaneous concatenation: a phenomenon where convolutional neural networks (CNNs) trained on acoustic recordings of individual words start generating outputs with two or even three words concatenated without ever accessing data with multiple words in the input. Additionally, networks trained on two words learn to embed words into novel unobserved word combinations. To our knowledge, this is a previously unreported property of CNNs trained on raw speech in the Generative Adversarial Network setting and has implications both for our understanding of how these architectures learn as well as for modeling syntax and its evolution from raw acoustic inputs.
-    
-[^8]: 重新审视离散型Soft Actor-Critic方法
-
-    Revisiting Discrete Soft Actor-Critic. (arXiv:2209.10081v3 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2209.10081](http://arxiv.org/abs/2209.10081)
-
-    本研究重新审视了将连续动作空间的Soft Actor-Critic方法调整为离散动作空间的问题，并提出了解决Q值低估和性能不稳定的方法，验证了其在Atari游戏和大规模MOBA游戏中的有效性。
+    研究者在本文中建立了图神经网络与算术电路之间的表达能力对应关系，结果表明不同激活函数的GNN在表达能力上等价于实数上的算术电路。
 
     
 
-    本文研究将连续动作空间的Soft Actor-Critic方法（SAC）调整为离散动作空间。我们重新审视了经典的SAC方法，并深入理解了在离散设置下其Q值低估和性能不稳定的问题。因此，我们提出了熵惩罚和具有Q-clip的双平均Q-learning方法来解决这些问题。通过对包括Atari游戏和一个大规模MOBA游戏在内的典型基准问题进行广泛实验，验证了我们方法的有效性。我们的代码可在以下链接找到: https://github.com/coldsummerday/Revisiting-Discrete-SAC.
+    我们表征了遵循图神经网络（GNN）架构的神经网络的计算能力，不限于聚合-组合GNN或其他特定类型。我们建立了使用不同激活函数的GNN的表达能力与实数上的算术电路之间的准确对应关系。在我们的结果中，网络的激活函数成为电路中的门类型。我们的结果对于常数深度电路和网络家族均成立，无论是在一致还是非一致的情况下，对于所有常见激活函数。
 
-    We study the adaption of soft actor-critic (SAC) from continuous action space to discrete action space. We revisit vanilla SAC and provide an in-depth understanding of its Q value underestimation and performance instability issues when applied to discrete settings. We thereby propose entropy-penalty and double average Q-learning with Q-clip to address these issues. Extensive experiments on typical benchmarks with discrete action space, including Atari games and a large-scale MOBA game, show the efficacy of our proposed method. Our code is at:https://github.com/coldsummerday/Revisiting-Discrete-SAC.
+    arXiv:2402.17805v1 Announce Type: cross  Abstract: We characterize the computational power of neural networks that follow the graph neural network (GNN) architecture, not restricted to aggregate-combine GNNs or other particular types. We establish an exact correspondence between the expressivity of GNNs using diverse activation functions and arithmetic circuits over real numbers. In our results the activation function of the network becomes a gate type in the circuit. Our result holds for families of constant depth circuits and networks, both uniformly and non-uniformly, for all common activation functions.
+    
+[^5]: 探究多模态大型语言模型对全局和局部语义表示的影响
+
+    Probing Multimodal Large Language Models for Global and Local Semantic Representation
+
+    [https://arxiv.org/abs/2402.17304](https://arxiv.org/abs/2402.17304)
+
+    通过研究发现，多模态大型语言模型的中间层能够更好地编码全局语义信息，在视觉-语言任务中表现出更好的性能。顶层可能过多关注局部信息，导致理解全局信息的能力下降。
+
+    
+
+    大型语言模型的成功启发了研究人员将其优秀的表示能力转移到其他模态。最近的一些研究利用图像描述对齐数据集训练多模态大型语言模型（MLLMs），在图像到文本任务中取得了最新的性能表现。然而，很少有研究探讨MLLMs是否真正理解完整的图像信息，即全局信息，或者它们只能捕捉一些局部对象信息。本研究发现模型的中间层可以编码更多全局语义信息，其表示向量在视觉-语言蕴涵任务上表现更好，而不是顶层。我们通过目标检测任务进一步探究模型的局部语义表示。我们得出的结论是顶层可能过多专注于局部信息，导致减弱了对全局信息的理解能力。
+
+    arXiv:2402.17304v1 Announce Type: cross  Abstract: The success of large language models has inspired researchers to transfer their exceptional representing ability to other modalities. Several recent works leverage image-caption alignment datasets to train multimodal large language models (MLLMs), which achieve state-of-the-art performance on image-to-text tasks. However, there are very few studies exploring whether MLLMs truly understand the complete image information, i.e., global information, or if they can only capture some local object information. In this study, we find that the intermediate layers of models can encode more global semantic information, whose representation vectors perform better on visual-language entailment tasks, rather than the topmost layers. We further probe models for local semantic representation through object detection tasks. And we draw a conclusion that the topmost layers may excessively focus on local information, leading to a diminished ability to en
+    
+[^6]: 使用符合预测的技术实现语言指导多机器人系统的安全任务规划
+
+    Safe Task Planning for Language-Instructed Multi-Robot Systems using Conformal Prediction
+
+    [https://arxiv.org/abs/2402.15368](https://arxiv.org/abs/2402.15368)
+
+    本文引入了一种新的基于分布式LLM和符合预测技术的多机器人规划器，实现了高任务成功率。
+
+    
+
+    本文解决了语言指导机器人团队的任务规划问题。任务用自然语言（NL）表示，要求机器人在各种位置和语义对象上应用它们的能力（例如移动、操作和感知）。最近几篇论文通过利用预训练的大型语言模型（LLMs）设计有效的多机器人计划来解决类似的规划问题。然而，这些方法缺乏任务性能和安全性保证。为了解决这一挑战，我们引入了一种新的基于分布式LLM的规划器，能够实现高任务成功率。这是通过利用符合预测（CP）来实现的，CP是一种基于分布的不确定性量化工具，可以在黑盒模型中对其固有不确定性进行推理。CP允许所提出的多机器人规划器以分布方式推理其固有不确定性，使得机器人在充分信任时能够做出个别决策。
+
+    arXiv:2402.15368v1 Announce Type: cross  Abstract: This paper addresses task planning problems for language-instructed robot teams. Tasks are expressed in natural language (NL), requiring the robots to apply their capabilities (e.g., mobility, manipulation, and sensing) at various locations and semantic objects. Several recent works have addressed similar planning problems by leveraging pre-trained Large Language Models (LLMs) to design effective multi-robot plans. However, these approaches lack mission performance and safety guarantees. To address this challenge, we introduce a new decentralized LLM-based planner that is capable of achieving high mission success rates. This is accomplished by leveraging conformal prediction (CP), a distribution-free uncertainty quantification tool in black-box models. CP allows the proposed multi-robot planner to reason about its inherent uncertainty in a decentralized fashion, enabling robots to make individual decisions when they are sufficiently ce
+    
+[^7]: PaDeLLM-NER：大型语言模型中的并行解码用于命名实体识别
+
+    PaDeLLM-NER: Parallel Decoding in Large Language Models for Named Entity Recognition
+
+    [https://arxiv.org/abs/2402.04838](https://arxiv.org/abs/2402.04838)
+
+    本研究提出了PaDeLLM-NER，一种能够在大型语言模型中实现并行解码，从而显著减少命名实体识别的生成延迟，同时保持预测质量和性能。
+
+    
+
+    本研究旨在使用大型语言模型（LLMs）减少命名实体识别（NER）的生成延迟。LLMs的高延迟的主要原因是顺序解码过程，该过程自回归地生成NER的所有标签和提及，显著增加了序列长度。为此，我们引入了PaDeLLM-NER（Parallel Decoding in LLM for NE），这是一种无需额外模块或架构修改即可无缝集成到现有生成模型框架中的方法。PaDeLLM-NER允许同时解码所有提及，从而减少生成延迟。实验结果显示，PaDeLLM-NER的推理速度显著提高，对英语和中文来说比自回归方法快1.76到10.22倍。与各种数据集上的最先进性能相媲美，同时维持了预测质量。
+
+    In this study, we aim to reduce generation latency for Named Entity Recognition (NER) with Large Language Models (LLMs). The main cause of high latency in LLMs is the sequential decoding process, which autoregressively generates all labels and mentions for NER, significantly increase the sequence length. To this end, we introduce Parallel Decoding in LLM for NE} (PaDeLLM-NER), a approach that integrates seamlessly into existing generative model frameworks without necessitating additional modules or architectural modifications. PaDeLLM-NER allows for the simultaneous decoding of all mentions, thereby reducing generation latency. Experiments reveal that PaDeLLM-NER significantly increases inference speed that is 1.76 to 10.22 times faster than the autoregressive approach for both English and Chinese. Simultaneously it maintains the quality of predictions as evidenced by the performance that is on par with the state-of-the-art across various datasets.
+    
+[^8]: HEAM: 使用处理-内存进行散列嵌入加速的方法
+
+    HEAM : Hashed Embedding Acceleration using Processing-In-Memory
+
+    [https://arxiv.org/abs/2402.04032](https://arxiv.org/abs/2402.04032)
+
+    HEAM是一种采用异构内存架构的方法，将3D堆叠DRAM与DIMM集成，用于加速处理大规模个性化推荐系统中的嵌入操作。
+
+    
+
+    在当今的数据中心中，个性化推荐系统面临着诸多挑战，特别是在执行嵌入操作时需要大容量的内存和高带宽。之前的方法依赖于DIMM-based近内存处理技术或引入3D堆叠DRAM来解决内存限制和扩展内存带宽的问题。然而，这些解决方案在处理日益扩大的个性化推荐系统大小时存在不足之处。推荐模型已经增长到超过数十TB的大小，导致在传统单节点推断服务器上高效运行变得困难。尽管已经提出了各种算法方法来减小嵌入表容量，但通常会导致内存访问增加或内存资源利用低效的问题。本文引入了HEAM，一种异构内存架构，将3D堆叠DRAM与DIMM集成在一起，以加速组合嵌入的推荐系统。
+
+    In today's data centers, personalized recommendation systems face challenges such as the need for large memory capacity and high bandwidth, especially when performing embedding operations. Previous approaches have relied on DIMM-based near-memory processing techniques or introduced 3D-stacked DRAM to address memory-bound issues and expand memory bandwidth. However, these solutions fall short when dealing with the expanding size of personalized recommendation systems. Recommendation models have grown to sizes exceeding tens of terabytes, making them challenging to run efficiently on traditional single-node inference servers. Although various algorithmic methods have been proposed to reduce embedding table capacity, they often result in increased memory access or inefficient utilization of memory resources. This paper introduces HEAM, a heterogeneous memory architecture that integrates 3D-stacked DRAM with DIMM to accelerate recommendation systems in which compositional embedding is util
+    
+[^9]: SNNs中基于关键性的高效修剪方法，受到关键性大脑假设的启发
+
+    Criticality-Guided Efficient Pruning in Spiking Neural Networks Inspired by Critical Brain Hypothesis. (arXiv:2311.16141v2 [cs.NE] UPDATED)
+
+    [http://arxiv.org/abs/2311.16141](http://arxiv.org/abs/2311.16141)
+
+    本研究受到神经科学中的关键大脑假设的启发，提出了一种基于神经元关键性的高效SNN修剪方法，以加强特征提取和加速修剪过程，并取得了比当前最先进方法更好的性能。
+
+    
+
+    由于其节能和无乘法特性，SNNs已经引起了相当大的关注。深度SNNs规模的不断增长给模型部署带来了挑战。网络修剪通过压缩网络规模来减少模型部署的硬件资源需求。然而，现有的SNN修剪方法由于修剪迭代增加了SNNs的训练难度，导致修剪成本高昂且性能损失严重。本文受到神经科学中的关键大脑假设的启发，提出了一种基于神经元关键性的用于SNN修剪的再生机制，以增强特征提取并加速修剪过程。首先，我们提出了一种SNN中用于关键性的低成本度量方式。然后，在修剪后对所修剪结构进行重新排序，并再生那些具有较高关键性的结构，以获取关键网络。我们的方法表现优于当前的最先进方法。
+
+    Spiking Neural Networks (SNNs) have gained considerable attention due to the energy-efficient and multiplication-free characteristics. The continuous growth in scale of deep SNNs poses challenges for model deployment. Network pruning reduces hardware resource requirements of model deployment by compressing the network scale. However, existing SNN pruning methods cause high pruning costs and performance loss because the pruning iterations amplify the training difficulty of SNNs. In this paper, inspired by the critical brain hypothesis in neuroscience, we propose a regeneration mechanism based on the neuron criticality for SNN pruning to enhance feature extraction and accelerate the pruning process. Firstly, we propose a low-cost metric for the criticality in SNNs. Then, we re-rank the pruned structures after pruning and regenerate those with higher criticality to obtain the critical network. Our method achieves higher performance than the current state-of-the-art (SOTA) method with up t
+    
+[^10]: Magmaw: 对基于机器学习的无线通信系统的模态不可知对抗攻击
+
+    Magmaw: Modality-Agnostic Adversarial Attacks on Machine Learning-Based Wireless Communication Systems. (arXiv:2311.00207v1 [cs.CR])
+
+    [http://arxiv.org/abs/2311.00207](http://arxiv.org/abs/2311.00207)
+
+    本文提出了Magmaw，这是一种针对基于机器学习的无线通信系统进行模态不可知对抗攻击的黑盒攻击方法。它能够生成通用的对抗扰动，并引入了新的攻击目标。实验证实了其对现有防御方法的韧性。使用实时无线攻击平台进行了概念验证。
+
+    
+
+    机器学习在合并端到端无线通信系统的所有物理层模块以实现联合收发器优化方面发挥了重要作用。尽管已经有许多针对基于机器学习的无线系统的对抗攻击方法，但现有方法并未提供包括源数据的多模态、共同的物理层组件和无线领域约束在内的全面视角。本文提出了Magmaw，这是一种能够针对通过无线信道传输的任何多模态信号生成通用对抗扰动的黑盒攻击方法。我们进一步对基于机器学习的下游应用的对抗攻击引入了新的目标。实验证实了该攻击对现有广泛使用的对抗训练和扰动信号减法防御方法的韧性。为了概念证明，我们使用软件定义无线电系统构建了一个实时无线攻击平台。
+
+    Machine Learning (ML) has been instrumental in enabling joint transceiver optimization by merging all physical layer blocks of the end-to-end wireless communication systems. Although there have been a number of adversarial attacks on ML-based wireless systems, the existing methods do not provide a comprehensive view including multi-modality of the source data, common physical layer components, and wireless domain constraints. This paper proposes Magmaw, the first black-box attack methodology capable of generating universal adversarial perturbations for any multimodal signal transmitted over a wireless channel. We further introduce new objectives for adversarial attacks on ML-based downstream applications. The resilience of the attack to the existing widely used defense methods of adversarial training and perturbation signal subtraction is experimentally verified. For proof-of-concept evaluation, we build a real-time wireless attack platform using a software-defined radio system. Experi
+    
+[^11]: 奖励转移的稳健决策重点学习
+
+    Robust Decision-Focused Learning for Reward Transfer. (arXiv:2304.03365v1 [cs.LG])
+
+    [http://arxiv.org/abs/2304.03365](http://arxiv.org/abs/2304.03365)
+
+    本文介绍了一种稳健决策重点（RDF）算法，利用非识别性的DF解，学习同时最大化期望回报和抵御奖励函数变化的模型，可以显著提高DF对奖励函数变化的稳健性，而不会降低智能体的总回报。
+
+    
+
+    最近，决策重点（Decision-focused，DF）的基于模型的强化学习被介绍为一种强有力的算法，它可以专注于学习最有利于获得高报酬的MDP动态。虽然这种方法通过专注于直接优化报酬来提高智能体的性能，但从MLE的角度来看，它学习的动力学不够准确，因此可能对奖励函数的变化很脆弱。在这项工作中，我们开发了稳健决策重点（RDF）算法，它利用DF解的非识别性，学习同时最大化期望回报和抵御奖励函数变化的模型。我们在各种玩具示例和医疗模拟器上展示了RDF显着增加了DF对奖励函数变化的稳健性，而不会降低智能体的总回报。
+
+    Decision-focused (DF) model-based reinforcement learning has recently been introduced as a powerful algorithm which can focus on learning the MDP dynamics which are most relevant for obtaining high rewards. While this approach increases the performance of agents by focusing the learning towards optimizing for the reward directly, it does so by learning less accurate dynamics (from a MLE standpoint), and may thus be brittle to changes in the reward function. In this work, we develop the robust decision-focused (RDF) algorithm which leverages the non-identifiability of DF solutions to learn models which maximize expected returns while simultaneously learning models which are robust to changes in the reward function. We demonstrate on a variety of toy example and healthcare simulators that RDF significantly increases the robustness of DF to changes in the reward function, without decreasing the overall return the agent obtains.
+    
+[^12]: 风险敏感的强化学习算法：指数标准的应用
+
+    Risk-Sensitive Reinforcement Learning with Exponential Criteria. (arXiv:2212.09010v2 [eess.SY] UPDATED)
+
+    [http://arxiv.org/abs/2212.09010](http://arxiv.org/abs/2212.09010)
+
+    本文介绍了一种风险敏感的强化学习算法，使用指数判据来提高其系统抗干扰性和实用性。作者进行了在模拟和实际机器人上的实验验证，表明该算法能够有效地提高样本效率和执行效果。
+
+    
+
+    尽管风险中性的强化学习已经在很多应用中得到了实验成功，但是这种方法容易受到噪声和系统参数扰动的影响而不够稳健。因此,对风险敏感的强化学习算法进行了研究，以提高其系统抗干扰性，样本效率和实用性。本文介绍了一种新型的无模型风险敏感学习算法，将广泛使用的策略梯度算法进行变体，其实现过程类似。具体来说，本文研究了指数标准对强化学习代理的策略风险敏感性的影响，并开发了蒙特卡罗策略梯度算法和在线(时间差分)演员-评论家算法的变体。分析结果表明，指数标准的使用能够推广常用的特定正则化方法。作者在摆动杆和摆摆杆任务上进行了测试，验证了所提出的算法的实现性能和稳健性。
+
+    While risk-neutral reinforcement learning has shown experimental success in a number of applications, it is well-known to be non-robust with respect to noise and perturbations in the parameters of the system. For this reason, risk-sensitive reinforcement learning algorithms have been studied to introduce robustness and sample efficiency, and lead to better real-life performance. In this work, we introduce new model-free risk-sensitive reinforcement learning algorithms as variations of widely-used Policy Gradient algorithms with similar implementation properties. In particular, we study the effect of exponential criteria on the risk-sensitivity of the policy of a reinforcement learning agent, and develop variants of the Monte Carlo Policy Gradient algorithm and the online (temporal-difference) Actor-Critic algorithm. Analytical results showcase that the use of exponential criteria generalize commonly used ad-hoc regularization approaches. The implementation, performance, and robustness 
     
 
