@@ -2,82 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Against The Achilles' Heel: A Survey on Red Teaming for Generative Models](https://arxiv.org/abs/2404.00629) | 通过对生成模型的红队测试进行了广泛调查，引入了基于语言模型能力的细粒度攻击策略分类体系，并开发了一个统一各种自动红队测试方法的搜索框架。 |
-| [^2] | [A Condensed Transition Graph Framework for Zero-shot Link Prediction with Large Language Models](https://arxiv.org/abs/2402.10779) | 提出了一种用于零样本链接预测的紧凑转换图框架，能够在线性时间内编码所有路径的信息，并可解决大型语言模型性能受限的问题。 |
-| [^3] | [UniMS-RAG: A Unified Multi-source Retrieval-Augmented Generation for Personalized Dialogue Systems.](http://arxiv.org/abs/2401.13256) | 这项研究提出了一种统一多源检索增强生成系统（UniMS-RAG），通过统一知识源选择、知识检索和回复生成三个子任务，使语言模型能够根据需求自适应地检索证据和评估关联性，从而生成个性化的回复。 |
-| [^4] | [A Survey on Multimodal Large Language Models.](http://arxiv.org/abs/2306.13549) | 本文追踪和总结了多模态大语言模型（MLLM）的最新进展，包括多模态指令调整、多模态上下文学习、多模态思维链和LLM辅助视觉推理等应用，指出了现有挑战和有前途的研究方向。 |
-| [^5] | [Stars Are All You Need: A Distantly Supervised Pyramid Network for Document-Level End-to-End Sentiment Analysis.](http://arxiv.org/abs/2305.01710) | 本文提出了一种文档级端到端情感分析方法，通过星级评分标签，实现方面检测、情感分析和评分预测，具有良好的性能和可解释性。 |
+| [^1] | [Emergent communication and learning pressures in language models: a language evolution perspective](https://arxiv.org/abs/2403.14427) | 从语言进化的角度研究了新兴沟通文献，发现其在设计和调整模型以恢复自然语言中初始缺失的语言现象方面表现优秀，揭示了关键压力促使恢复最初不显现的人类模式。 |
+| [^2] | [A First Look at GPT Apps: Landscape and Vulnerability](https://arxiv.org/abs/2402.15105) | 通过大规模监测和分析GPT商店，开发了自动化工具来研究GPT应用程序中的漏洞和抄袭情况。 |
+| [^3] | [Navigating the Post-API Dilemma Search Engine Results Pages Present a Biased View of Social Media Data](https://arxiv.org/abs/2401.15479) | 搜索引擎结果页面可以作为社交媒体数据的替代方案，但存在对流行帖子偏见较高、情感更积极以及忽视政治、色情和粗俗帖子的问题。 |
+| [^4] | [EnrichEvent: Enriching Social Data with Contextual Information for Emerging Event Extraction.](http://arxiv.org/abs/2307.16082) | 本文提出了一个利用词汇、语义和上下文表示的框架，旨在解决现有事件检测方法在识别新兴社交事件方面的局限性，并提供了对社交数据进行丰富的上下文化处理的方法。 |
+| [^5] | [Say Goodbye to RNN-T Loss: A Novel CIF-based Transducer Architecture for Automatic Speech Recognition.](http://arxiv.org/abs/2307.14132) | 本文提出了一种名为CIF-Transducer的新型模型，将连续积分和火机制与RNN-T模型结合起来，实现了高效的对齐，并放弃了RNN-T Loss，从而减少了计算量，并使预测网络发挥更重要的作用。实验证明CIF-T在自动语音识别中取得了最先进的结果。 |
 
 # 详细
 
-[^1]: 针对阿喀琉斯之踵：生成模型红队测试的调查
+[^1]: 语言模型中的紧急沟通和学习压力：语言进化视角
 
-    Against The Achilles' Heel: A Survey on Red Teaming for Generative Models
+    Emergent communication and learning pressures in language models: a language evolution perspective
 
-    [https://arxiv.org/abs/2404.00629](https://arxiv.org/abs/2404.00629)
+    [https://arxiv.org/abs/2403.14427](https://arxiv.org/abs/2403.14427)
 
-    通过对生成模型的红队测试进行了广泛调查，引入了基于语言模型能力的细粒度攻击策略分类体系，并开发了一个统一各种自动红队测试方法的搜索框架。
-
-    
-
-    生成模型正迅速普及并被整合到日常应用中，但相关的安全问题引起了人们的担忧，因为各种漏洞不断暴露。面对这一问题，红队测试领域正在快速增长，强调了对整个流程进行全面组织并解决社区新兴主题的需求。我们的广泛调查涵盖了120多篇论文，引入了一个基于语言模型固有能力的细粒度攻击策略分类体系。此外，我们开发了一个统一各种自动红队测试方法的搜索框架。此外，我们的调查涵盖了新领域，包括多模式攻击和防御、多语言模型风险、无害查询的过度使用以及下游应用的安全性。
-
-    arXiv:2404.00629v1 Announce Type: new  Abstract: Generative models are rapidly gaining popularity and being integrated into everyday applications, raising concerns over their safety issues as various vulnerabilities are exposed. Faced with the problem, the field of red teaming is experiencing fast-paced growth, which highlights the need for a comprehensive organization covering the entire pipeline and addressing emerging topics for the community. Our extensive survey, which examines over 120 papers, introduces a taxonomy of fine-grained attack strategies grounded in the inherent capabilities of language models. Additionally, we have developed the searcher framework that unifies various automatic red teaming approaches. Moreover, our survey covers novel areas including multimodal attacks and defenses, risks around multilingual models, overkill of harmless queries, and safety of downstream applications. We hope this survey can provide a systematic perspective on the field and unlock new 
-    
-[^2]: 一种用于零样本链接预测的紧凑转换图框架与大型语言模型
-
-    A Condensed Transition Graph Framework for Zero-shot Link Prediction with Large Language Models
-
-    [https://arxiv.org/abs/2402.10779](https://arxiv.org/abs/2402.10779)
-
-    提出了一种用于零样本链接预测的紧凑转换图框架，能够在线性时间内编码所有路径的信息，并可解决大型语言模型性能受限的问题。
+    从语言进化的角度研究了新兴沟通文献，发现其在设计和调整模型以恢复自然语言中初始缺失的语言现象方面表现优秀，揭示了关键压力促使恢复最初不显现的人类模式。
 
     
 
-    零样本链接预测（ZSLP）旨在自动识别给定实体之间的关系。现有方法主要利用辅助信息来预测给定头实体和其关系时的尾实体，然而面临挑战，原因是有时缺乏这些详细信息，并且基于语义相似性来预测尾实体的固有简单性。尽管大型语言模型（LLMs）为以零样本方式预测头实体和尾实体之间的未观察到的关系提供了有前途的解决方案，但其性能仍受限于无法利用两个实体之间所有（指数多）路径信息的能力，这些信息对于共同指示它们的关系类型至关重要。为了解决这个问题，在这项工作中，我们引入了一种用于零样本链接预测的紧凑转换图框架（CTLP），它以线性时间编码了所有路径的信息。
+    语言模型和人类是两种学习系统。发现或促进二者之间的共同点可能会在我们理解语言的习得和演化方面取得重大突破。许多语言进化理论在很大程度上依赖于学习偏好和学习压力。然而，由于学习压力存在着重大差异，对于人类和机器之间的相似性是否足以启发洞见并值得与人类参与者一起进行测试是值得怀疑的。本文从语言进化的角度审视了新兴沟通文献，这是多智能体强化学习的一个子领域。我们发现，新兴沟通文献在设计和调整模型以恢复自然语言的最初不显现的语言现象方面有杰出表现。根据对文献的简要回顾，我们确定了一些在新兴沟通中恢复最初不显现的人类模式的关键压力。
 
-    arXiv:2402.10779v1 Announce Type: new  Abstract: Zero-shot link prediction (ZSLP) on knowledge graphs aims at automatically identifying relations between given entities. Existing methods primarily employ auxiliary information to predict tail entity given head entity and its relation, yet face challenges due to the occasional unavailability of such detailed information and the inherent simplicity of predicting tail entities based on semantic similarities. Even though Large Language Models (LLMs) offer a promising solution to predict unobserved relations between the head and tail entity in a zero-shot manner, their performance is still restricted due to the inability to leverage all the (exponentially many) paths' information between two entities, which are critical in collectively indicating their relation types. To address this, in this work, we introduce a Condensed Transition Graph Framework for Zero-Shot Link Prediction (CTLP), which encodes all the paths' information in linear time
+    arXiv:2403.14427v1 Announce Type: new  Abstract: Language models and humans are two types of learning systems. Finding or facilitating commonalities could enable major breakthroughs in our understanding of the acquisition and evolution of language. Many theories of language evolution rely heavily on learning biases and learning pressures. Yet due to substantial differences in learning pressures, it is questionable whether the similarity between humans and machines is sufficient for insights to carry over and to be worth testing with human participants. Here, we review the emergent communication literature, a subfield of multi-agent reinforcement learning, from a language evolution perspective. We find that the emergent communication literature excels at designing and adapting models to recover initially absent linguistic phenomena of natural languages. Based on a short literature review, we identify key pressures that have recovered initially absent human patterns in emergent communica
     
-[^3]: UniMS-RAG: 用于个性化对话系统的统一多源检索增强生成模型
+[^2]: GPT应用的初探：格局与脆弱性
 
-    UniMS-RAG: A Unified Multi-source Retrieval-Augmented Generation for Personalized Dialogue Systems. (arXiv:2401.13256v1 [cs.CL])
+    A First Look at GPT Apps: Landscape and Vulnerability
 
-    [http://arxiv.org/abs/2401.13256](http://arxiv.org/abs/2401.13256)
+    [https://arxiv.org/abs/2402.15105](https://arxiv.org/abs/2402.15105)
 
-    这项研究提出了一种统一多源检索增强生成系统（UniMS-RAG），通过统一知识源选择、知识检索和回复生成三个子任务，使语言模型能够根据需求自适应地检索证据和评估关联性，从而生成个性化的回复。
-
-    
-
-    大型语言模型在许多自然语言理解和生成任务中展示出了非凡的能力。然而，在对话系统中涉及到多个信息源时，个性化问题仍然是一个令人向往的属性。为了更好地计划和整合多个信息源在生成个性化回复中的使用，我们首先将其分解为三个子任务：知识源选择、知识检索和回复生成。然后，我们提出了一种新颖的统一多源检索增强生成系统（UniMS-RAG）。具体来说，我们在训练期间使用相同的序列到序列范式将这三个子任务统一起来，通过使用特殊的令牌，即行动令牌和评估令牌，能够自适应地检索证据并评估关联性。使语言模型能够生成行动令牌有助于与各种知识源进行交互，使其能够适应其上下文和生成个性化的回复。
-
-    Large Language Models (LLMs) has shown exceptional capabilities in many natual language understanding and generation tasks. However, the personalization issue still remains a much-coveted property, especially when it comes to the multiple sources involved in the dialogue system. To better plan and incorporate the use of multiple sources in generating personalized response, we firstly decompose it into three sub-tasks: Knowledge Source Selection, Knowledge Retrieval, and Response Generation. We then propose a novel Unified Multi-Source Retrieval-Augmented Generation system (UniMS-RAG) Specifically, we unify these three sub-tasks with different formulations into the same sequence-to-sequence paradigm during the training, to adaptively retrieve evidences and evaluate the relevance on-demand using special tokens, called acting tokens and evaluation tokens. Enabling language models to generate acting tokens facilitates interaction with various knowledge sources, allowing them to adapt their
-    
-[^4]: 多模态大语言模型综述
-
-    A Survey on Multimodal Large Language Models. (arXiv:2306.13549v1 [cs.CV])
-
-    [http://arxiv.org/abs/2306.13549](http://arxiv.org/abs/2306.13549)
-
-    本文追踪和总结了多模态大语言模型（MLLM）的最新进展，包括多模态指令调整、多模态上下文学习、多模态思维链和LLM辅助视觉推理等应用，指出了现有挑战和有前途的研究方向。
+    通过大规模监测和分析GPT商店，开发了自动化工具来研究GPT应用程序中的漏洞和抄袭情况。
 
     
 
-    多模态大语言模型（MLLM）是一种新兴的研究热点，使用强大的大语言模型作为大脑执行多模态任务。MLLM 的惊人能力，如基于图像编写故事和无OCR数学推理等，在传统方法中很少见，表明了通向人工智能的潜在路径。本文旨在追踪和总结 MLLM 的最新进展。首先，我们介绍了 MLLM 的构成，概述了相关概念。然后，讨论了关键技术和应用，包括多模态指令调整（M-IT）、多模态上下文学习（M-ICL）、多模态思维链（M-CoT）和LLM辅助视觉推理（LAVR）。最后，我们讨论了现有的挑战，并指出了有前途的研究方向。鉴于 MLLM 时代才刚刚开始，我们会不断更新这个综述，并希望能激发更多的研究。
+    随着大型语言模型（LLMs）的进步，越来越复杂和强大的GPT进入市场。尽管它们很受欢迎，但LLM生态系统仍然尚未被探索。此外，LLMs对攻击的敏感性引发了对安全性和抄袭的担忧。因此，在这项工作中，我们对GPT商店进行了开创性的探索，旨在研究GPT应用程序中的漏洞和抄袭。首先，我们进行了据我们所知的第一次大规模监测和分析，分别是一个非官方的GPTStore.AI和一个官方的OpenAI GPT Store。然后，我们提出了一种TriLevel GPT Reversing（T-GR）策略，用于提取GPT内部信息。为了有效地完成这两项任务，我们开发了两个自动化工具：一个用于网络抓取，另一个设计用于与GPT进行程序化交互。我们的发现揭示了用户和开发者对GPT交互和创建的巨大热情，
 
-    Multimodal Large Language Model (MLLM) recently has been a new rising research hotspot, which uses powerful Large Language Models (LLMs) as a brain to perform multimodal tasks. The surprising emergent capabilities of MLLM, such as writing stories based on images and OCR-free math reasoning, are rare in traditional methods, suggesting a potential path to artificial general intelligence. In this paper, we aim to trace and summarize the recent progress of MLLM. First of all, we present the formulation of MLLM and delineate its related concepts. Then, we discuss the key techniques and applications, including Multimodal Instruction Tuning (M-IT), Multimodal In-Context Learning (M-ICL), Multimodal Chain of Thought (M-CoT), and LLM-Aided Visual Reasoning (LAVR). Finally, we discuss existing challenges and point out promising research directions. In light of the fact that the era of MLLM has only just begun, we will keep updating this survey and hope it can inspire more research. An associated
+    arXiv:2402.15105v1 Announce Type: cross  Abstract: With the advancement of Large Language Models (LLMs), increasingly sophisticated and powerful GPTs are entering the market. Despite their popularity, the LLM ecosystem still remains unexplored. Additionally, LLMs' susceptibility to attacks raises concerns over safety and plagiarism. Thus, in this work, we conduct a pioneering exploration of GPT stores, aiming to study vulnerabilities and plagiarism within GPT applications. To begin with, we conduct, to our knowledge, the first large-scale monitoring and analysis of two stores, an unofficial GPTStore.AI, and an official OpenAI GPT Store. Then, we propose a TriLevel GPT Reversing (T-GR) strategy for extracting GPT internals. To complete these two tasks efficiently, we develop two automated tools: one for web scraping and another designed for programmatically interacting with GPTs. Our findings reveal a significant enthusiasm among users and developers for GPT interaction and creation, as
     
-[^5]: 星辰即你所需：用远程监督金字塔网络进行文档级端到端情感分析
+[^3]: 应对后API困境：搜索引擎结果页面呈现社交媒体数据的偏见观
 
-    Stars Are All You Need: A Distantly Supervised Pyramid Network for Document-Level End-to-End Sentiment Analysis. (arXiv:2305.01710v1 [cs.CL])
+    Navigating the Post-API Dilemma Search Engine Results Pages Present a Biased View of Social Media Data
 
-    [http://arxiv.org/abs/2305.01710](http://arxiv.org/abs/2305.01710)
+    [https://arxiv.org/abs/2401.15479](https://arxiv.org/abs/2401.15479)
 
-    本文提出了一种文档级端到端情感分析方法，通过星级评分标签，实现方面检测、情感分析和评分预测，具有良好的性能和可解释性。
+    搜索引擎结果页面可以作为社交媒体数据的替代方案，但存在对流行帖子偏见较高、情感更积极以及忽视政治、色情和粗俗帖子的问题。
 
     
 
-    本文提出了文档级端到端情感分析方法，可以通过星级评分标签对在线评论中表达的方面和评论情感进行有效的统一分析。我们假设星级评分标签是评论中各方面评分的“粗粒度综合”。我们提出了一种远程监督的金字塔网络（DSPN），只用文档星级评分标签进行训练，即可有效地执行方面-类别检测、方面-类别情感分析和评分预测。通过以端到端的方式执行这三个相关的情感子任务，DSPN可以提取评论中提到的方面，确定相应的情感，并预测星级评分标签。我们在英文和汉语多方面评论数据集上评估了DSPN，发现仅使用星级评分标签进行监督，DSPN的性能与各种基准模型相当。我们还展示了DSPN在评论上的可解释性输出，以说明金字塔网络的结构。
+    最近停止访问社交媒体API的决定对互联网研究和整个计算社会科学领域产生了不利影响。这种对数据的访问缺乏已被称为互联网研究的后API时代。幸运的是，流行的搜索引擎有能力爬取、捕获和展示社交媒体数据在其搜索引擎结果页面(SERP)上，如果提供适当的搜索查询，可能会为这一困境提供解决方案。在当前工作中，我们问：SERP是否提供社交媒体数据的完整和无偏见样本？ SERP是否是直接API访问的可行替代方案？为了回答这些问题，我们对（Google）SERP结果和来自Reddit和Twitter/X的非取样数据进行了比较分析。我们发现，SERP结果在支持流行帖子方面存在高度偏见；反对政治、色情和粗俗帖子；在情感上更为积极；并有大
 
-    In this paper, we propose document-level end-to-end sentiment analysis to efficiently understand aspect and review sentiment expressed in online reviews in a unified manner. In particular, we assume that star rating labels are a "coarse-grained synthesis" of aspect ratings across in the review. We propose a Distantly Supervised Pyramid Network (DSPN) to efficiently perform Aspect-Category Detection, Aspect-Category Sentiment Analysis, and Rating Prediction using only document star rating labels for training. By performing these three related sentiment subtasks in an end-to-end manner, DSPN can extract aspects mentioned in the review, identify the corresponding sentiments, and predict the star rating labels. We evaluate DSPN on multi-aspect review datasets in English and Chinese and find that with only star rating labels for supervision, DSPN can perform comparably well to a variety of benchmark models. We also demonstrate the interpretability of DSPN's outputs on reviews to show the py
+    arXiv:2401.15479v2 Announce Type: replace-cross  Abstract: Recent decisions to discontinue access to social media APIs are having detrimental effects on Internet research and the field of computational social science as a whole. This lack of access to data has been dubbed the Post-API era of Internet research. Fortunately, popular search engines have the means to crawl, capture, and surface social media data on their Search Engine Results Pages (SERP) if provided the proper search query, and may provide a solution to this dilemma. In the present work we ask: does SERP provide a complete and unbiased sample of social media data? Is SERP a viable alternative to direct API-access? To answer these questions, we perform a comparative analysis between (Google) SERP results and nonsampled data from Reddit and Twitter/X. We find that SERP results are highly biased in favor of popular posts; against political, pornographic, and vulgar posts; are more positive in their sentiment; and have large 
+    
+[^4]: EnrichEvent: 使用上下文信息为新出现的事件提供丰富的社交数据
+
+    EnrichEvent: Enriching Social Data with Contextual Information for Emerging Event Extraction. (arXiv:2307.16082v1 [cs.CL])
+
+    [http://arxiv.org/abs/2307.16082](http://arxiv.org/abs/2307.16082)
+
+    本文提出了一个利用词汇、语义和上下文表示的框架，旨在解决现有事件检测方法在识别新兴社交事件方面的局限性，并提供了对社交数据进行丰富的上下文化处理的方法。
+
+    
+
+    社交平台已成为传播和讨论真实事件信息的关键平台，为及早发现有新闻价值的事件提供了良好的机会。然而，现有的大多数事件检测方法仅利用关键词突发性或网络结构来检测热点事件。因此，对于事件和社交数据的复杂性而言，它们往往无法在达到趋势状态之前识别出新出现的社交事件。社交数据，例如推文，具有拼写错误、不完整性、歧义性和语言不规范性，以及意见方面的变化。此外，利用有限的上下文知识来学习事件的演变特征对于机器学习模型几乎是不可行的。为了解决这些问题，本文提出了一个利用流式社交数据的词汇、语义和上下文表示的框架。
+
+    Social platforms have emerged as a crucial platform for disseminating and discussing information about real-life events, which offers an excellent opportunity for early detection of newsworthy events. However, most existing approaches for event detection solely exploit keyword burstiness or network structures to detect hot events. Thus, they often fail to identify emerging social events before reaching a trending state regarding the challenging nature of events and social data. Social data, e.g., tweets, is characterized by misspellings, incompleteness, ambiguity, and irregular language, as well as variation in aspects of opinions. Moreover, learning the evolving characteristics of the events utilizing limited contextual knowledge is almost infeasible for machine learning models. To address these problems, in this paper, we propose a framework that exploits the lexical, semantic, and contextual representations of streaming social data. In particular, we leverage contextual knowledge to
+    
+[^5]: 告别RNN-T Loss：一种新的基于CIF的转录器架构用于自动语音识别
+
+    Say Goodbye to RNN-T Loss: A Novel CIF-based Transducer Architecture for Automatic Speech Recognition. (arXiv:2307.14132v1 [cs.SD])
+
+    [http://arxiv.org/abs/2307.14132](http://arxiv.org/abs/2307.14132)
+
+    本文提出了一种名为CIF-Transducer的新型模型，将连续积分和火机制与RNN-T模型结合起来，实现了高效的对齐，并放弃了RNN-T Loss，从而减少了计算量，并使预测网络发挥更重要的作用。实验证明CIF-T在自动语音识别中取得了最先进的结果。
+
+    
+
+    RNN-T模型在ASR中广泛使用，依靠RNN-T Loss实现输入音频和目标序列的长度对齐。然而，RNN-T Loss的实现复杂性和基于对齐的优化目标导致计算冗余和预测网络角色的减少。在本文中，我们提出了一种名为CIF-Transducer（CIF-T）的新型模型，它将连续积分和火（CIF）机制与RNN-T模型结合起来，实现高效的对齐。通过这种方式，放弃了RNN-T Loss，从而减少了计算量，并使预测网络发挥更重要的作用。我们还引入了Funnel-CIF、Context Blocks、Unified Gating和Bilinear Pooling联合网络以及辅助训练策略来进一步提高性能。在178小时的AISHELL-1和10000小时的WenetSpeech数据集上的实验证明，与RNN-T模型相比，CIF-T以更低的计算开销实现了最先进的结果。
+
+    RNN-T models are widely used in ASR, which rely on the RNN-T loss to achieve length alignment between input audio and target sequence. However, the implementation complexity and the alignment-based optimization target of RNN-T loss lead to computational redundancy and a reduced role for predictor network, respectively. In this paper, we propose a novel model named CIF-Transducer (CIF-T) which incorporates the Continuous Integrate-and-Fire (CIF) mechanism with the RNN-T model to achieve efficient alignment. In this way, the RNN-T loss is abandoned, thus bringing a computational reduction and allowing the predictor network a more significant role. We also introduce Funnel-CIF, Context Blocks, Unified Gating and Bilinear Pooling joint network, and auxiliary training strategy to further improve performance. Experiments on the 178-hour AISHELL-1 and 10000-hour WenetSpeech datasets show that CIF-T achieves state-of-the-art results with lower computational overhead compared to RNN-T models.
     
 
