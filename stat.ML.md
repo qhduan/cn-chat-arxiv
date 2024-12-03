@@ -2,52 +2,142 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Benchmarking Uncertainty Disentanglement: Specialized Uncertainties for Specialized Tasks](https://arxiv.org/abs/2402.19460) | 该论文评估了在ImageNet上的多种不确定性估计器，发现虽然有理论努力，但实践中尚未实现不确定性的解开，同时揭示了哪些估计器在特定任务上表现出色，为从业者提供见解并指导未来研究。 |
-| [^2] | [Approximate information maximization for bandit games.](http://arxiv.org/abs/2310.12563) | 本论文提出了一种基于近似信息最大化的强盗游戏算法，通过最大化关键变量的信息近似值来进行优化，在传统强盗设置中表现出很强的性能，并证明了其对于两臂强盗问题的渐近最优性。 |
-| [^3] | [On Consistency of Signatures Using Lasso.](http://arxiv.org/abs/2305.10413) | 本文重新审视了Lasso回归对于签名变换的一致性问题，并发现对于不同的过程和时间序列，选择适当的签名定义和随机模型可以提高Lasso回归的一致性。 |
+| [^1] | [Zero-Shot Machine Unlearning at Scale via Lipschitz Regularization](https://rss.arxiv.org/abs/2402.01401) | 通过Lipschitz正则化实现零样本机器遗忘，可以及时忘记私人或受版权保护的信息，同时保持模型性能。 |
+| [^2] | [A Statistical Framework of Watermarks for Large Language Models: Pivot, Detection Efficiency and Optimal Rules](https://arxiv.org/abs/2404.01245) | 该论文提出了一个通用框架，用于设计大型语言模型水印的统计效率和检测规则，通过关键统计量和秘密密钥控制误报率，同时评估水印检测规则的能力。 |
+| [^3] | [Stochastic Hessian Fitting on Lie Group](https://arxiv.org/abs/2402.11858) | 本文研究了在随机Hessian-向量乘积上拟合Hessian或其逆，揭示了不同Hessian拟合方法的收敛速率，并证明了在特定李群上的Hessian拟合问题在轻微条件下是强凸的。 |
+| [^4] | [Correction to "Wasserstein distance estimates for the distributions of numerical approximations to ergodic stochastic differential equations"](https://arxiv.org/abs/2402.08711) | 修正了《对于数值逼近遍历SDE的分布的Wasserstein距离估计》中的错误局部误差估计，提出了一种方法来分析数值离散遍历SDE的Wasserstein-2距离的非渐近保证，并解决了实践中维度依赖性的问题。 |
+| [^5] | [Discovering group dynamics in synchronous time series via hierarchical recurrent switching-state models.](http://arxiv.org/abs/2401.14973) | 通过分层的循环切换状态模型，我们可以无监督地同时解释系统级和个体级的动态，从而更好地建模同步时间序列中的群体动态。 |
+| [^6] | [Provably Scalable Black-Box Variational Inference with Structured Variational Families.](http://arxiv.org/abs/2401.10989) | 本文研究了均值场变分族和满秩变分族之间的理论中间地带：结构化变分族，并通过理论证明结构化变分族可以在迭代复杂性上表现更好，缩放效果更好。 |
+| [^7] | [Uncertainty Quantification on Clinical Trial Outcome Prediction.](http://arxiv.org/abs/2401.03482) | 本研究将不确定性量化方法应用于临床试验结果预测，提高模型对微妙差异的识别能力，从而改善其整体性能。 |
+| [^8] | [A Byzantine-Resilient Aggregation Scheme for Federated Learning via Matrix Autoregression on Client Updates.](http://arxiv.org/abs/2303.16668) | 本文提出了FLANDERS，一种基于矩阵自回归的联邦学习聚合方案，可以识别恶意客户端，并提供了强大的拜占庭攻击防御。 |
+| [^9] | [A Lower Bound and a Near-Optimal Algorithm for Bilevel Empirical Risk Minimization.](http://arxiv.org/abs/2302.08766) | 该论文提出了一种双层经验风险最小化算法，使用的梯度计算次数 $O((n+m)^{\frac{1}{2}}\varepsilon^{-1})$，在样本复杂度方面是最优的。 |
 
 # 详细
 
-[^1]: 为标准化的任务专门指定不确定性量化：专门的不确定性用于专门的任务
+[^1]: 通过Lipschitz正则化在规模上实现零样本机器遗忘
 
-    Benchmarking Uncertainty Disentanglement: Specialized Uncertainties for Specialized Tasks
+    Zero-Shot Machine Unlearning at Scale via Lipschitz Regularization
 
-    [https://arxiv.org/abs/2402.19460](https://arxiv.org/abs/2402.19460)
+    [https://rss.arxiv.org/abs/2402.01401](https://rss.arxiv.org/abs/2402.01401)
 
-    该论文评估了在ImageNet上的多种不确定性估计器，发现虽然有理论努力，但实践中尚未实现不确定性的解开，同时揭示了哪些估计器在特定任务上表现出色，为从业者提供见解并指导未来研究。
-
-    
-
-    不确定性量化，曾经是一个独立的任务，已经发展成为一个包含预测抑制、越界检测以及随机不确定性量化在内的任务谱系。最新的目标是解开不确定性：构建多个估计器，每个都专门定制于一个特定任务。因此，最近有大量不同意图的最新进展——这些往往完全偏离实际行为。本文在ImageNet上对多种不确定性估计器进行全面评估。我们发现，尽管有着颇有希望的理论努力，实践中仍未实现解开。此外，我们揭示了哪些不确定性估计器在哪些特定任务上表现出色，为从业者提供见解并引导未来研究朝着基于任务和解开的不确定性估计方法发展。我们的代码可在 https://github.com/bmucsanyi/bud 找到。
-
-    arXiv:2402.19460v1 Announce Type: new  Abstract: Uncertainty quantification, once a singular task, has evolved into a spectrum of tasks, including abstained prediction, out-of-distribution detection, and aleatoric uncertainty quantification. The latest goal is disentanglement: the construction of multiple estimators that are each tailored to one and only one task. Hence, there is a plethora of recent advances with different intentions - that often entirely deviate from practical behavior. This paper conducts a comprehensive evaluation of numerous uncertainty estimators across diverse tasks on ImageNet. We find that, despite promising theoretical endeavors, disentanglement is not yet achieved in practice. Additionally, we reveal which uncertainty estimators excel at which specific tasks, providing insights for practitioners and guiding future research toward task-centric and disentangled uncertainty estimation methods. Our code is available at https://github.com/bmucsanyi/bud.
-    
-[^2]: 适用于强盗游戏的近似信息最大化方法
-
-    Approximate information maximization for bandit games. (arXiv:2310.12563v1 [stat.ML])
-
-    [http://arxiv.org/abs/2310.12563](http://arxiv.org/abs/2310.12563)
-
-    本论文提出了一种基于近似信息最大化的强盗游戏算法，通过最大化关键变量的信息近似值来进行优化，在传统强盗设置中表现出很强的性能，并证明了其对于两臂强盗问题的渐近最优性。
+    通过Lipschitz正则化实现零样本机器遗忘，可以及时忘记私人或受版权保护的信息，同时保持模型性能。
 
     
 
-    熵最大化和自由能最小化是用于模拟各种物理系统动态的一般物理原理。其中包括使用自由能原理对大脑内的决策进行建模，使用信息瓶颈原理对访问隐藏变量时优化准确性和复杂性的权衡，以及使用信息最大化进行随机环境导航。基于这一原理，我们提出了一种新的强盗算法类别，通过最大化系统中一个关键变量的信息近似来进行优化。为此，我们开发了一个基于物理的近似分析熵的表示方法，以预测每个动作的信息增益，并贪婪地选择信息增益最大的动作。这种方法在传统强盗设置中表现出很强的性能。受到其经验性成功的启发，我们证明了其对于两臂强盗问题的渐近最优性。
+    为了遵守人工智能和数据规定，从训练得到的机器学习模型中遗忘私人或受版权保护的信息的需求变得越来越重要。遗忘的关键挑战是及时忘记必要的数据，同时保持模型性能。在这项工作中，我们解决了零样本遗忘的场景，即只有一个经过训练的模型和要遗忘的数据，遗忘算法必须能够移除数据。根据这样定义，现有的最先进的方法是不够的。基于Lipschitz连续性的概念，我们提出了一种方法，通过对样本扰动的输出进行平滑处理来诱导遗忘。我们展示了这种平滑性成功地实现了遗忘，同时保持了总体模型性能。我们对我们的方法进行了广泛的经验评估，包括一系列当代基准测试，验证了我们的方法在严格的零样本约束下达到了最先进的性能。
 
-    Entropy maximization and free energy minimization are general physical principles for modeling the dynamics of various physical systems. Notable examples include modeling decision-making within the brain using the free-energy principle, optimizing the accuracy-complexity trade-off when accessing hidden variables with the information bottleneck principle (Tishby et al., 2000), and navigation in random environments using information maximization (Vergassola et al., 2007). Built on this principle, we propose a new class of bandit algorithms that maximize an approximation to the information of a key variable within the system. To this end, we develop an approximated analytical physics-based representation of an entropy to forecast the information gain of each action and greedily choose the one with the largest information gain. This method yields strong performances in classical bandit settings. Motivated by its empirical success, we prove its asymptotic optimality for the two-armed bandit
+    To comply with AI and data regulations, the need to forget private or copyrighted information from trained machine learning models is increasingly important. The key challenge in unlearning is forgetting the necessary data in a timely manner, while preserving model performance. In this work, we address the zero-shot unlearning scenario, whereby an unlearning algorithm must be able to remove data given only a trained model and the data to be forgotten. Under such a definition, existing state-of-the-art methods are insufficient. Building on the concepts of Lipschitz continuity, we present a method that induces smoothing of the forget sample's output, with respect to perturbations of that sample. We show this smoothing successfully results in forgetting while preserving general model performance. We perform extensive empirical evaluation of our method over a range of contemporary benchmarks, verifying that our method achieves state-of-the-art performance under the strict constraints of ze
     
-[^3]: 使用Lasso的签名一致性研究
+[^2]: 大型语言模型水印的统计框架: 枢轴、检测效率和最优规则
 
-    On Consistency of Signatures Using Lasso. (arXiv:2305.10413v1 [stat.ML])
+    A Statistical Framework of Watermarks for Large Language Models: Pivot, Detection Efficiency and Optimal Rules
 
-    [http://arxiv.org/abs/2305.10413](http://arxiv.org/abs/2305.10413)
+    [https://arxiv.org/abs/2404.01245](https://arxiv.org/abs/2404.01245)
 
-    本文重新审视了Lasso回归对于签名变换的一致性问题，并发现对于不同的过程和时间序列，选择适当的签名定义和随机模型可以提高Lasso回归的一致性。
+    该论文提出了一个通用框架，用于设计大型语言模型水印的统计效率和检测规则，通过关键统计量和秘密密钥控制误报率，同时评估水印检测规则的能力。
 
     
 
-    签名变换是连续和离散时间序列数据的迭代路径积分，它们的普遍非线性通过线性化特征选择问题。本文在理论和数值上重新审视了Lasso回归对于签名变换的一致性问题。我们的研究表明，对于更接近布朗运动或具有较弱跨维度相关性的过程和时间序列，签名定义为It\^o积分的Lasso回归更具一致性；对于均值回归过程和时间序列，其签名定义为Stratonovich积分在Lasso回归中具有更高的一致性。我们的发现强调了在统计推断和机器学习中选择适当的签名和随机模型的重要性。
+    自ChatGPT于2022年11月推出以来，将几乎不可察觉的统计信号嵌入到大型语言模型（LLMs）生成的文本中，也被称为水印，已被用作从其人类撰写对应物上可证检测LLM生成文本的原则性方法。 本文介绍了一个通用灵活的框架，用于推理水印的统计效率并设计强大的检测规则。受水印检测的假设检验公式启发，我们的框架首先选择文本的枢轴统计量和由LLM提供给验证器的秘密密钥，以实现控制误报率（将人类撰写的文本错误地检测为LLM生成的错误）。 接下来，该框架允许通过获取渐近错误负率（将LLM生成文本错误地检测为人类撰写的错误）的封闭形式表达式来评估水印检测规则的能力。
 
-    Signature transforms are iterated path integrals of continuous and discrete-time time series data, and their universal nonlinearity linearizes the problem of feature selection. This paper revisits the consistency issue of Lasso regression for the signature transform, both theoretically and numerically. Our study shows that, for processes and time series that are closer to Brownian motion or random walk with weaker inter-dimensional correlations, the Lasso regression is more consistent for their signatures defined by It\^o integrals; for mean reverting processes and time series, their signatures defined by Stratonovich integrals have more consistency in the Lasso regression. Our findings highlight the importance of choosing appropriate definitions of signatures and stochastic models in statistical inference and machine learning.
+    arXiv:2404.01245v1 Announce Type: cross  Abstract: Since ChatGPT was introduced in November 2022, embedding (nearly) unnoticeable statistical signals into text generated by large language models (LLMs), also known as watermarking, has been used as a principled approach to provable detection of LLM-generated text from its human-written counterpart. In this paper, we introduce a general and flexible framework for reasoning about the statistical efficiency of watermarks and designing powerful detection rules. Inspired by the hypothesis testing formulation of watermark detection, our framework starts by selecting a pivotal statistic of the text and a secret key -- provided by the LLM to the verifier -- to enable controlling the false positive rate (the error of mistakenly detecting human-written text as LLM-generated). Next, this framework allows one to evaluate the power of watermark detection rules by obtaining a closed-form expression of the asymptotic false negative rate (the error of 
+    
+[^3]: 在李群上的随机Hessian拟合
+
+    Stochastic Hessian Fitting on Lie Group
+
+    [https://arxiv.org/abs/2402.11858](https://arxiv.org/abs/2402.11858)
+
+    本文研究了在随机Hessian-向量乘积上拟合Hessian或其逆，揭示了不同Hessian拟合方法的收敛速率，并证明了在特定李群上的Hessian拟合问题在轻微条件下是强凸的。
+
+    
+
+    本文研究了在随机Hessian-向量乘积上拟合Hessian或其逆。使用了一个Hessian拟合准则，可用于推导大部分常用方法，如BFGS、高斯牛顿、AdaGrad等。我们的研究揭示了不同Hessian拟合方法的不同收敛速率，例如，在欧几里德空间中的梯度下降的次线性速率和对称正定（SPL）矩阵和某些李群上的梯度下降的线性速率。在特定且足够一般的李群上的Hessian拟合问题在轻微条件下被证明是强凸的。为了确认我们的分析，这些方法在不同设置下进行了测试，如有噪声的Hessian-向量乘积、时变的Hessians和低精度算术。这些发现对依赖于随机二阶优化的方法是有用的。
+
+    arXiv:2402.11858v1 Announce Type: cross  Abstract: This paper studies the fitting of Hessian or its inverse with stochastic Hessian-vector products. A Hessian fitting criterion, which can be used to derive most of the commonly used methods, e.g., BFGS, Gaussian-Newton, AdaGrad, etc., is used for the analysis. Our studies reveal different convergence rates for different Hessian fitting methods, e.g., sublinear rates for gradient descent in the Euclidean space and a commonly used closed-form solution, linear rates for gradient descent on the manifold of symmetric positive definite (SPL) matrices and certain Lie groups. The Hessian fitting problem is further shown to be strongly convex under mild conditions on a specific yet general enough Lie group. To confirm our analysis, these methods are tested under different settings like noisy Hessian-vector products, time varying Hessians, and low precision arithmetic. These findings are useful for stochastic second order optimizations that rely 
+    
+[^4]: 《对于数值逼近遍历SDE的分布的Wasserstein距离估计》修正
+
+    Correction to "Wasserstein distance estimates for the distributions of numerical approximations to ergodic stochastic differential equations"
+
+    [https://arxiv.org/abs/2402.08711](https://arxiv.org/abs/2402.08711)
+
+    修正了《对于数值逼近遍历SDE的分布的Wasserstein距离估计》中的错误局部误差估计，提出了一种方法来分析数值离散遍历SDE的Wasserstein-2距离的非渐近保证，并解决了实践中维度依赖性的问题。
+
+    
+
+    本文对San-Serna和Zygalakis的《对于数值逼近遍历SDE的分布的Wasserstein距离估计》中的非渐近保证数值离散分析方法进行了修正。他们分析了UBU积分器，该积分器是二阶强型的，并且每个步骤只需要一次梯度评估，从而得到了理想的非渐近保证，特别是在Wasserstein-2距离中到达离目标分布 $\epsilon > 0$ 的距离仅需 $\mathcal{O}(d^{1/4}\epsilon^{-1/2})$ 步。然而，Sanz-Serna和Zygalakis (2021)中的局部误差估计存在错误，在实践中需要更强的假设才能实现这些复杂度估计。本文解决了理论与实践中观察到的许多应用场景中的维度依赖性。
+
+    arXiv:2402.08711v1 Announce Type: cross Abstract: A method for analyzing non-asymptotic guarantees of numerical discretizations of ergodic SDEs in Wasserstein-2 distance is presented by Sanz-Serna and Zygalakis in ``Wasserstein distance estimates for the distributions of numerical approximations to ergodic stochastic differential equations". They analyze the UBU integrator which is strong order two and only requires one gradient evaluation per step, resulting in desirable non-asymptotic guarantees, in particular $\mathcal{O}(d^{1/4}\epsilon^{-1/2})$ steps to reach a distance of $\epsilon > 0$ in Wasserstein-2 distance away from the target distribution. However, there is a mistake in the local error estimates in Sanz-Serna and Zygalakis (2021), in particular, a stronger assumption is needed to achieve these complexity estimates. This note reconciles the theory with the dimension dependence observed in practice in many applications of interest.
+    
+[^5]: 通过分层循环切换状态模型发现同步时间序列中的群体动态
+
+    Discovering group dynamics in synchronous time series via hierarchical recurrent switching-state models. (arXiv:2401.14973v1 [stat.ML])
+
+    [http://arxiv.org/abs/2401.14973](http://arxiv.org/abs/2401.14973)
+
+    通过分层的循环切换状态模型，我们可以无监督地同时解释系统级和个体级的动态，从而更好地建模同步时间序列中的群体动态。
+
+    
+
+    我们致力于对同一时间段内多个实体相互作用而产生的时间序列集合进行建模。最近的研究集中在建模个体时间序列方面对我们的预期应用是不足够的，其中集体系统级行为影响着个体实体的轨迹。为了解决这类问题，我们提出了一种新的分层切换状态模型，可以以无监督的方式训练，同时解释系统级和个体级的动态。我们采用了一个隐含的系统级离散状态马尔可夫链，驱动着隐含的实体级链，进而控制每个观测时间序列的动态。观测结果在实体和系统级的链之间进行反馈，通过依赖于上下文的状态转换来提高灵活性。我们的分层切换循环动力学模型可以通过封闭形式的变分坐标上升更新来学习，其在个体数量上呈线性扩展。
+
+    We seek to model a collection of time series arising from multiple entities interacting over the same time period. Recent work focused on modeling individual time series is inadequate for our intended applications, where collective system-level behavior influences the trajectories of individual entities. To address such problems, we present a new hierarchical switching-state model that can be trained in an unsupervised fashion to simultaneously explain both system-level and individual-level dynamics. We employ a latent system-level discrete state Markov chain that drives latent entity-level chains which in turn govern the dynamics of each observed time series. Feedback from the observations to the chains at both the entity and system levels improves flexibility via context-dependent state transitions. Our hierarchical switching recurrent dynamical models can be learned via closed-form variational coordinate ascent updates to all latent chains that scale linearly in the number of indivi
+    
+[^6]: 具有结构化变分族的可证伸缩性黑盒变分推断
+
+    Provably Scalable Black-Box Variational Inference with Structured Variational Families. (arXiv:2401.10989v1 [stat.ML])
+
+    [http://arxiv.org/abs/2401.10989](http://arxiv.org/abs/2401.10989)
+
+    本文研究了均值场变分族和满秩变分族之间的理论中间地带：结构化变分族，并通过理论证明结构化变分族可以在迭代复杂性上表现更好，缩放效果更好。
+
+    
+
+    已知具有满秩协方差逼近的变分族在黑盒变分推断中表现不佳，无论是从实证上还是理论上。事实上，最近对黑盒变分推断的计算复杂性结果表明，与均值场变分族相比，满秩变分族在问题的维度上扩展得很差。这对具有本地变量的分层贝叶斯模型尤为关键，它们的维度随着数据集的大小而增加。因此，迭代复杂性对数据集大小N存在明确的O(N^2)依赖。在本文中，我们探索了均值场变分族和满秩变分族之间的理论中间地带：结构化变分族。我们严格证明了某些尺度矩阵结构可以实现更好的迭代复杂性O(N)，从而与N的缩放更好地匹配。我们在现实中验证了我们的理论结果
+
+    Variational families with full-rank covariance approximations are known not to work well in black-box variational inference (BBVI), both empirically and theoretically. In fact, recent computational complexity results for BBVI have established that full-rank variational families scale poorly with the dimensionality of the problem compared to e.g. mean field families. This is particularly critical to hierarchical Bayesian models with local variables; their dimensionality increases with the size of the datasets. Consequently, one gets an iteration complexity with an explicit $\mathcal{O}(N^2)$ dependence on the dataset size $N$. In this paper, we explore a theoretical middle ground between mean-field variational families and full-rank families: structured variational families. We rigorously prove that certain scale matrix structures can achieve a better iteration complexity of $\mathcal{O}(N)$, implying better scaling with respect to $N$. We empirically verify our theoretical results on l
+    
+[^7]: 临床试验结果预测中的不确定性量化
+
+    Uncertainty Quantification on Clinical Trial Outcome Prediction. (arXiv:2401.03482v1 [cs.LG])
+
+    [http://arxiv.org/abs/2401.03482](http://arxiv.org/abs/2401.03482)
+
+    本研究将不确定性量化方法应用于临床试验结果预测，提高模型对微妙差异的识别能力，从而改善其整体性能。
+
+    
+
+    不确定性量化在机器学习的不同领域中的重要性日益被认识到。准确评估模型预测的不确定性可以帮助研究人员和从业人员更深入地理解和增加信心。这在医学诊断和药物发现领域尤为重要，因为可靠的预测直接影响研究质量和患者健康。本文提出将不确定性量化纳入临床试验结果预测中。我们的主要目标是提高模型辨别微妙差异的能力，从而显著改善其整体性能。我们采用了一种选择性分类方法来实现我们的目标，并将其与层次交互网络(HINT)无缝集成，HINT是临床试验预测建模的最前沿。选择性分类涵盖了一系列不确定性量化方法，使模型能够保留信息以供进一步分析。
+
+    The importance of uncertainty quantification is increasingly recognized in the diverse field of machine learning. Accurately assessing model prediction uncertainty can help provide deeper understanding and confidence for researchers and practitioners. This is especially critical in medical diagnosis and drug discovery areas, where reliable predictions directly impact research quality and patient health.  In this paper, we proposed incorporating uncertainty quantification into clinical trial outcome predictions. Our main goal is to enhance the model's ability to discern nuanced differences, thereby significantly improving its overall performance.  We have adopted a selective classification approach to fulfill our objective, integrating it seamlessly with the Hierarchical Interaction Network (HINT), which is at the forefront of clinical trial prediction modeling. Selective classification, encompassing a spectrum of methods for uncertainty quantification, empowers the model to withhold de
+    
+[^8]: 基于矩阵自回归的联邦学习拜占庭容错聚合方案
+
+    A Byzantine-Resilient Aggregation Scheme for Federated Learning via Matrix Autoregression on Client Updates. (arXiv:2303.16668v1 [cs.LG])
+
+    [http://arxiv.org/abs/2303.16668](http://arxiv.org/abs/2303.16668)
+
+    本文提出了FLANDERS，一种基于矩阵自回归的联邦学习聚合方案，可以识别恶意客户端，并提供了强大的拜占庭攻击防御。
+
+    
+
+    本文提出了FLANDERS，一种新颖的联邦学习（FL）聚合方案，可以抵御拜占庭攻击。FLANDERS将每个FL轮次中由客户端发送的本地模型更新视为矩阵值时间序列。然后，通过将实际观测与由矩阵自回归预测模型估计的观测进行比较，识别恶意客户端作为这个时间序列的异常值。在不同FL设置下对多个数据集进行的实验证明，FLANDERS在抵御拜占庭攻击方面与最强大的基线相匹配。此外，与现有的防御策略相比， FLANDERS即使在极其严重的攻击场景下仍然非常有效。
+
+    In this work, we propose FLANDERS, a novel federated learning (FL) aggregation scheme robust to Byzantine attacks. FLANDERS considers the local model updates sent by clients at each FL round as a matrix-valued time series. Then, it identifies malicious clients as outliers of this time series by comparing actual observations with those estimated by a matrix autoregressive forecasting model. Experiments conducted on several datasets under different FL settings demonstrate that FLANDERS matches the robustness of the most powerful baselines against Byzantine clients. Furthermore, FLANDERS remains highly effective even under extremely severe attack scenarios, as opposed to existing defense strategies.
+    
+[^9]: 一种双层经验风险最小化算法的下界和近似最优算法
+
+    A Lower Bound and a Near-Optimal Algorithm for Bilevel Empirical Risk Minimization. (arXiv:2302.08766v2 [stat.ML] UPDATED)
+
+    [http://arxiv.org/abs/2302.08766](http://arxiv.org/abs/2302.08766)
+
+    该论文提出了一种双层经验风险最小化算法，使用的梯度计算次数 $O((n+m)^{\frac{1}{2}}\varepsilon^{-1})$，在样本复杂度方面是最优的。
+
+    
+
+    双层最优化问题越来越多地应用于机器学习中。在许多实际情况下，上层和下层目标对应于经验风险最小化问题，并因此具有总和结构。在这个背景下，我们提出了一个著名的SARAH算法的双层扩展。我们证明了该算法需要$\mathcal {O}((n+m)^{\frac{1}{2}}\varepsilon ^{-1})$次梯度计算才能实现$\varepsilon$稳定性，其中$n+m$是样本总数，这比先前所有的双层算法都要好。此外，我们提供了一个下界，用于得到双层问题的目标函数的近似稳定点所需的oracle调用次数。这个下界正是我们的算法所达到的，因此在样本复杂度方面是最优的。
+
+    Bilevel optimization problems, which are problems where two optimization problems are nested, have more and more applications in machine learning. In many practical cases, the upper and the lower objectives correspond to empirical risk minimization problems and therefore have a sum structure. In this context, we propose a bilevel extension of the celebrated SARAH algorithm. We demonstrate that the algorithm requires $\mathcal{O}((n+m)^{\frac12}\varepsilon^{-1})$ gradient computations to achieve $\varepsilon$-stationarity with $n+m$ the total number of samples, which improves over all previous bilevel algorithms. Moreover, we provide a lower bound on the number of oracle calls required to get an approximate stationary point of the objective function of the bilevel problem. This lower bound is attained by our algorithm, which is therefore optimal in terms of sample complexity.
     
 

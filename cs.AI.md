@@ -2,142 +2,307 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Object-Centric Domain Randomization for 3D Shape Reconstruction in the Wild](https://arxiv.org/abs/2403.14539) | 提出了ObjectDR，利用对象-centric的域随机化合成单视图3D形状重建中缺乏的配对数据，通过条件生成模型和解耦框架来生成和保留对象轮廓以及广泛变化的数据，从而为培训模型捕捉域不变性几何形状。 |
-| [^2] | [Efficient Prompt Tuning of Large Vision-Language Model for Fine-Grained Ship Classification](https://arxiv.org/abs/2403.08271) | 本研究使用大规模预训练的视觉-语言模型，提出了一种高效的提示调整方法，以增强未见船舶类别的分类准确性。 |
-| [^3] | [Large language models surpass human experts in predicting neuroscience results](https://arxiv.org/abs/2403.03230) | 大型语言模型通过整合广泛科学文献中的相关发现，能够优于人类专家预测神经科学实验结果，预示着人类与大型语言模型共同进行发现的未来。 |
-| [^4] | [Evaluating the Data Model Robustness of Text-to-SQL Systems Based on Real User Queries](https://arxiv.org/abs/2402.08349) | 本文首次深入评估了在实践中文本到SQL系统的数据模型的鲁棒性，通过基于一个多年的国际项目集中评估，对一个在FIFA World Cup背景下连续运行了9个月的真实部署的FootballDB系统进行了评估。 |
-| [^5] | [An explainable three dimension framework to uncover learning patterns: A unified look in variable sulci recognition](https://arxiv.org/abs/2309.00903) | 该论文提出了一个针对医学成像中的可解释AI的三维框架，旨在解决神经科学领域中识别大脑沟特征的复杂性问题。 |
-| [^6] | [Moving-Horizon Estimators for Hyperbolic and Parabolic PDEs in 1-D.](http://arxiv.org/abs/2401.02516) | 本文介绍了一种用于双曲和抛物型PDE的移动时域估计器，通过PDE反步法将难以解决的观测器PDE转化为可以明确解决的目标观测器PDE，从而实现了在实时环境下消除数值解观测器PDE的需求。 |
-| [^7] | [A Survey on Multimodal Large Language Models.](http://arxiv.org/abs/2306.13549) | 本文追踪和总结了多模态大语言模型（MLLM）的最新进展，包括多模态指令调整、多模态上下文学习、多模态思维链和LLM辅助视觉推理等应用，指出了现有挑战和有前途的研究方向。 |
-| [^8] | [Autonomous search of real-life environments combining dynamical system-based path planning and unsupervised learning.](http://arxiv.org/abs/2305.01834) | 本文提出了一种自动生成基于动态系统路径规划器和无监督机器学习技术相结合的算法，以克服混沌覆盖路径规划器的立即问题，并在模拟和实际环境中进行了测试，展示其在有限环境中实现自主搜索和覆盖的能力。 |
-| [^9] | [DDT: A Diffusion-Driven Transformer-based Framework for Human Mesh Recovery from a Video.](http://arxiv.org/abs/2303.13397) | 提出了一种基于扩散驱动变压器的视频 HMR 框架（DDT），它旨在从输入序列中解码特定的运动模式，增强运动平滑性和时间一致性，并输出所有帧的人体网格，使得 DDT 更适用于时间效率至关重要的实际应用。 |
+| [^1] | [Zero-Shot Machine Unlearning at Scale via Lipschitz Regularization](https://rss.arxiv.org/abs/2402.01401) | 通过Lipschitz正则化实现零样本机器遗忘，可以及时忘记私人或受版权保护的信息，同时保持模型性能。 |
+| [^2] | [Dual-Personalizing Adapter for Federated Foundation Models](https://arxiv.org/abs/2403.19211) | 提出了一种新的设置，称为测试时间个性化，不仅关注目标本地任务，还延伸到其他展示测试时间个性化的任务 |
+| [^3] | [From Pixels to Insights: A Survey on Automatic Chart Understanding in the Era of Large Foundation Models](https://arxiv.org/abs/2403.12027) | 近年来，随着大型基础模型的兴起，自动图表理解取得了显著进展，本调查论文概述了在这些基础模型背景下图表理解领域的最新发展、挑战和未来方向 |
+| [^4] | [The Power of Noise: Toward a Unified Multi-modal Knowledge Graph Representation Framework](https://arxiv.org/abs/2403.06832) | 提出了一种利用噪声掩模的Transformer-based架构SNAG方法，实现了多模态知识图表示中实体嵌入的最先进性能 |
+| [^5] | [The Edge-of-Reach Problem in Offline Model-Based Reinforcement Learning](https://arxiv.org/abs/2402.12527) | 学习的动力学模型被真实且无误差的动力学替代时，现有模型驱动方法将会完全失败，揭示出一个重大误解。 |
+| [^6] | [DoorINet: A Deep-Learning Inertial Framework for Door-Mounted IoT Applications](https://arxiv.org/abs/2402.09427) | DoorINet是一种用于门贴式物联网应用的深度学习惯性框架，无需使用磁力计即可计算航向角度。 |
+| [^7] | [Differentially Private Zeroth-Order Methods for Scalable Large Language Model Finetuning](https://arxiv.org/abs/2402.07818) | 本文研究了差分隐私零阶方法在大型语言模型微调中的应用，该方法通过使用零阶梯度来避免传统优化方法的可扩展性瓶颈，实现了在隐私、效用和可扩展性之间的良好平衡。 |
+| [^8] | [Neural Scaling Laws on Graphs](https://arxiv.org/abs/2402.02054) | 本论文在图上深入研究了神经缩放定律，从模型和数据两个角度进行了探索。对于模型缩放，发现了缩放定律崩溃和过拟合之间的关系，以及深度图模型的模型深度对缩放行为的影响。对于数据缩放，提出了图数量不适合作为衡量缩放定律中图数据量的指标。 |
+| [^9] | [Exploring Homogeneous and Heterogeneous Consistent Label Associations for Unsupervised Visible-Infrared Person ReID](https://arxiv.org/abs/2402.00672) | 该论文提出了一种同时考虑均质和异质实例级别结构，构建高质量跨模态标签关联的模态统一标签传输方法，用于无监督可见-红外人物重新识别。 |
+| [^10] | [A Proactive and Dual Prevention Mechanism against Illegal Song Covers empowered by Singing Voice Conversion.](http://arxiv.org/abs/2401.17133) | 这项工作提出了一种主动性的双重防护机制，通过引入人类无法察觉的扰动，干扰歌唱声音转换的生成过程，防止未经授权的基于歌唱声音转换的非法歌曲翻唱。该机制既扰乱了歌手身份，又扰乱了歌词，使得歌唱声音既不模仿目标歌手，也不保留原始歌词。 |
+| [^11] | [Overlap-aware End-to-End Supervised Hierarchical Graph Clustering for Speaker Diarization.](http://arxiv.org/abs/2401.12850) | 本文提出了一种针对演讲者分割的端到端监督分层图聚类算法，使用图神经网络进行表示学习、度量学习和聚类，并通过外部重叠检测器提供额外的输入。 |
+| [^12] | [A Foundation Graph Model.](http://arxiv.org/abs/2311.03976) | 本文提出了一个基于对抗性对比学习的基础图模型FoToM，该模型通过节点和边特征排除进行图预训练，在多个领域上实现了正向迁移，并取得了显著的性能提升。 |
+| [^13] | [Batch Calibration: Rethinking Calibration for In-Context Learning and Prompt Engineering.](http://arxiv.org/abs/2309.17249) | 本研究提出了一种名为批量校准（BC）的方法，用于解决大型语言模型中提示脆弱性和偏见因素导致的性能下降问题。BC通过控制批量输入的上下文偏见，统一了现有的校准方法，并具有零-shot和仅推理的特点。 |
+| [^14] | [Exploring the Influence of Information Entropy Change in Learning Systems.](http://arxiv.org/abs/2309.10625) | 本研究探索了在深度学习系统中引入噪声对性能的影响，证明了特定噪声可以在降低任务复杂性的条件下提升深度架构的性能，通过实验证明了在大规模图像数据集中的显著性能提升。 |
+| [^15] | [Cross-Image Context Matters for Bongard Problems.](http://arxiv.org/abs/2309.03468) | Bongard问题是一种需要从一组正负图像中推导出抽象概念并进行分类的智力测试，现有方法在Bongard问题中准确率较低。本研究发现，这是因为现有方法未能整合支持集合中的信息，而是仅依赖于单个支持图像的信息。我们提出了一种通过跨图像上下文来提高准确性的解决方案。 |
+| [^16] | [Separate Anything You Describe.](http://arxiv.org/abs/2308.05037) | 这项工作介绍了一种用于开放领域音频源分离的基础模型AudioSep，该模型使用自然语言查询，具有强大的分离性能和优秀的泛化能力。 |
+| [^17] | [MM-Vet: Evaluating Large Multimodal Models for Integrated Capabilities.](http://arxiv.org/abs/2308.02490) | MM-Vet是一个评估标准，用于评估大型多模态模型在复杂任务上的综合能力。该标准解决了如何结构化和评估复杂多模态任务、设计适用于不同问题和回答类型的评估指标以及如何提供模型洞察的问题。通过整合不同的核心视觉-语言能力，MM-Vet展示了有趣的能力和解决复杂任务的方法。 |
+| [^18] | [Estimating Continuous Muscle Fatigue For Multi-Muscle Coordinated Exercise: A Pilot Study.](http://arxiv.org/abs/2303.17614) | 本研究通过多种肌肉特征的无监督估计，有效地评估了涉及多肌肉协调运动的疲劳，为制定康复和训练计划提供了重要依据。 |
+| [^19] | [A Byzantine-Resilient Aggregation Scheme for Federated Learning via Matrix Autoregression on Client Updates.](http://arxiv.org/abs/2303.16668) | 本文提出了FLANDERS，一种基于矩阵自回归的联邦学习聚合方案，可以识别恶意客户端，并提供了强大的拜占庭攻击防御。 |
+| [^20] | [Rotation Invariant Quantization for Model Compression.](http://arxiv.org/abs/2303.03106) | 本研究提出了一种旋转不变量量化（RIQ）技术，可以在不同层次上实现混合精度量化，用于后训练神经网络模型压缩，并证明了其在压缩方面的优势。在多种模型和任务上进行了严格评估，取得了令人满意的结果。 |
 
 # 详细
 
-[^1]: Object-Centric Domain Randomization用于野外3D形状重建
+[^1]: 通过Lipschitz正则化在规模上实现零样本机器遗忘
 
-    Object-Centric Domain Randomization for 3D Shape Reconstruction in the Wild
+    Zero-Shot Machine Unlearning at Scale via Lipschitz Regularization
 
-    [https://arxiv.org/abs/2403.14539](https://arxiv.org/abs/2403.14539)
+    [https://rss.arxiv.org/abs/2402.01401](https://rss.arxiv.org/abs/2402.01401)
 
-    提出了ObjectDR，利用对象-centric的域随机化合成单视图3D形状重建中缺乏的配对数据，通过条件生成模型和解耦框架来生成和保留对象轮廓以及广泛变化的数据，从而为培训模型捕捉域不变性几何形状。
-
-    
-
-    单视图3D形状在野外的重建面临的最大挑战之一是来自真实环境中的<3D形状，2D图像>-配对数据的稀缺性。受域随机化引人注目的成就的启发，我们提出了ObjectDR，通过对对象外观和背景的视觉变化进行随机仿真，合成这种配对数据。我们的数据合成框架利用条件生成模型（例如ControlNet）生成符合空间条件（例如2.5D草图）的图像，这些条件可以通过从对象集合（例如Objaverse-XL）的渲染过程获得3D形状。为了模拟多样化的变化同时保留嵌入空间条件中的对象轮廓，我们还引入了一个利用初始对象指导的解耦框架。
-
-    arXiv:2403.14539v1 Announce Type: cross  Abstract: One of the biggest challenges in single-view 3D shape reconstruction in the wild is the scarcity of <3D shape, 2D image>-paired data from real-world environments. Inspired by remarkable achievements via domain randomization, we propose ObjectDR which synthesizes such paired data via a random simulation of visual variations in object appearances and backgrounds. Our data synthesis framework exploits a conditional generative model (e.g., ControlNet) to generate images conforming to spatial conditions such as 2.5D sketches, which are obtainable through a rendering process of 3D shapes from object collections (e.g., Objaverse-XL). To simulate diverse variations while preserving object silhouettes embedded in spatial conditions, we also introduce a disentangled framework which leverages an initial object guidance. After synthesizing a wide range of data, we pre-train a model on them so that it learns to capture a domain-invariant geometry p
-    
-[^2]: 用于细粒度船舶分类的大规模视觉-语言模型的高效提示调整
-
-    Efficient Prompt Tuning of Large Vision-Language Model for Fine-Grained Ship Classification
-
-    [https://arxiv.org/abs/2403.08271](https://arxiv.org/abs/2403.08271)
-
-    本研究使用大规模预训练的视觉-语言模型，提出了一种高效的提示调整方法，以增强未见船舶类别的分类准确性。
+    通过Lipschitz正则化实现零样本机器遗忘，可以及时忘记私人或受版权保护的信息，同时保持模型性能。
 
     
 
-    遥感中的细粒度船舶分类 (RS-FGSC) 由于类别之间的高相似性以及有限的标记数据可用性而面临重大挑战，限制了传统监督分类方法的有效性。最近大规模预训练的视觉-语言模型 (VLMs) 在少样本或零样本学习中展现出令人印象深刻的能力，特别是在理解图像内容方面。本研究深入挖掘了VLMs的潜力，以提高未见船舶类别的分类准确性，在由于成本或隐私限制而数据受限的情况下具有重要意义。直接为RS-FGSC微调VLMs通常会遇到过拟合可见类的挑战，导致对未见类的泛化不佳，突出了区分复杂背景和捕捉独特船舶特征的困难。
+    为了遵守人工智能和数据规定，从训练得到的机器学习模型中遗忘私人或受版权保护的信息的需求变得越来越重要。遗忘的关键挑战是及时忘记必要的数据，同时保持模型性能。在这项工作中，我们解决了零样本遗忘的场景，即只有一个经过训练的模型和要遗忘的数据，遗忘算法必须能够移除数据。根据这样定义，现有的最先进的方法是不够的。基于Lipschitz连续性的概念，我们提出了一种方法，通过对样本扰动的输出进行平滑处理来诱导遗忘。我们展示了这种平滑性成功地实现了遗忘，同时保持了总体模型性能。我们对我们的方法进行了广泛的经验评估，包括一系列当代基准测试，验证了我们的方法在严格的零样本约束下达到了最先进的性能。
 
-    arXiv:2403.08271v1 Announce Type: cross  Abstract: Fine-grained ship classification in remote sensing (RS-FGSC) poses a significant challenge due to the high similarity between classes and the limited availability of labeled data, limiting the effectiveness of traditional supervised classification methods. Recent advancements in large pre-trained Vision-Language Models (VLMs) have demonstrated impressive capabilities in few-shot or zero-shot learning, particularly in understanding image content. This study delves into harnessing the potential of VLMs to enhance classification accuracy for unseen ship categories, which holds considerable significance in scenarios with restricted data due to cost or privacy constraints. Directly fine-tuning VLMs for RS-FGSC often encounters the challenge of overfitting the seen classes, resulting in suboptimal generalization to unseen classes, which highlights the difficulty in differentiating complex backgrounds and capturing distinct ship features. To 
+    To comply with AI and data regulations, the need to forget private or copyrighted information from trained machine learning models is increasingly important. The key challenge in unlearning is forgetting the necessary data in a timely manner, while preserving model performance. In this work, we address the zero-shot unlearning scenario, whereby an unlearning algorithm must be able to remove data given only a trained model and the data to be forgotten. Under such a definition, existing state-of-the-art methods are insufficient. Building on the concepts of Lipschitz continuity, we present a method that induces smoothing of the forget sample's output, with respect to perturbations of that sample. We show this smoothing successfully results in forgetting while preserving general model performance. We perform extensive empirical evaluation of our method over a range of contemporary benchmarks, verifying that our method achieves state-of-the-art performance under the strict constraints of ze
     
-[^3]: 大型语言模型在预测神经科学结果方面超越人类专家
+[^2]: 为联邦基金会模型提供双重个性化适配器
 
-    Large language models surpass human experts in predicting neuroscience results
+    Dual-Personalizing Adapter for Federated Foundation Models
 
-    [https://arxiv.org/abs/2403.03230](https://arxiv.org/abs/2403.03230)
+    [https://arxiv.org/abs/2403.19211](https://arxiv.org/abs/2403.19211)
 
-    大型语言模型通过整合广泛科学文献中的相关发现，能够优于人类专家预测神经科学实验结果，预示着人类与大型语言模型共同进行发现的未来。
-
-    
-
-    科学发现常常取决于综合几十年的研究，这一任务可能超出人类信息处理能力。大型语言模型（LLMs）提供了一个解决方案。在广泛的科学文献上训练的LLMs可能能够整合嘈杂但相关的发现，以优于人类专家来预测新颖结果。为了评估这种可能性，我们创建了BrainBench，一个前瞻性的基准，用于预测神经科学结果。我们发现LLMs在预测实验结果方面超越了专家。在神经科学文献上调整的一个LLM，BrainGPT表现得更好。与人类专家一样，当LLMs对他们的预测有信心时，他们更有可能是正确的，这预示着未来人类和LLMs将合作进行发现。我们的方法并非特定于神经科学，并且可转移到其他知识密集型事业中。
-
-    arXiv:2403.03230v1 Announce Type: cross  Abstract: Scientific discoveries often hinge on synthesizing decades of research, a task that potentially outstrips human information processing capacities. Large language models (LLMs) offer a solution. LLMs trained on the vast scientific literature could potentially integrate noisy yet interrelated findings to forecast novel results better than human experts. To evaluate this possibility, we created BrainBench, a forward-looking benchmark for predicting neuroscience results. We find that LLMs surpass experts in predicting experimental outcomes. BrainGPT, an LLM we tuned on the neuroscience literature, performed better yet. Like human experts, when LLMs were confident in their predictions, they were more likely to be correct, which presages a future where humans and LLMs team together to make discoveries. Our approach is not neuroscience-specific and is transferable to other knowledge-intensive endeavors.
-    
-[^4]: 基于真实用户查询评估文本到SQL系统的数据模型鲁棒性
-
-    Evaluating the Data Model Robustness of Text-to-SQL Systems Based on Real User Queries
-
-    [https://arxiv.org/abs/2402.08349](https://arxiv.org/abs/2402.08349)
-
-    本文首次深入评估了在实践中文本到SQL系统的数据模型的鲁棒性，通过基于一个多年的国际项目集中评估，对一个在FIFA World Cup背景下连续运行了9个月的真实部署的FootballDB系统进行了评估。
+    提出了一种新的设置，称为测试时间个性化，不仅关注目标本地任务，还延伸到其他展示测试时间个性化的任务
 
     
 
-    文本到SQL系统（也称为自然语言到SQL系统）已成为弥合用户能力与基于SQL的数据访问之间差距的越来越流行的解决方案。这些系统将用户的自然语言请求转化为特定数据库的有效SQL语句。最近的基于转换器的语言模型使得文本到SQL系统受益匪浅。然而，虽然这些系统在常常是合成基准数据集上不断取得新的高分，但对于它们在真实世界、现实场景中对不同数据模型的鲁棒性的系统性探索明显缺乏。本文基于一个多年国际项目关于文本到SQL界面的集中评估，提供了对文本到SQL系统在实践中数据模型鲁棒性的首次深度评估。我们的评估基于FootballDB的真实部署，该系统在FIFA World Cup的背景下连续运行了9个月。
+    最近，基础模型，尤其是大型语言模型（LLMs），通过微调大量的指令数据，展现出了适应各种任务的令人印象深刻的能力。值得注意的是，联邦基金会模型作为一种隐私保护方法，在分布式学习（FL）环境下通过利用许多分布式数据集进行协作微调模型，这些数据集具有非IID数据。为了减轻通信和计算开销，引入了参数高效方法以提高效率，并且一些研究将个性化方法调整为联邦基金会模型，以获得更好的用户偏好对齐。然而，现有研究中存在的一个关键缺口是在真实应用中忽略了测试时间分布转移。因此，为了弥合这一差距，我们提出了一个新的设置，称为测试时间个性化，它不仅专注于目标本地任务，还延伸到其他展示测试时间个性化的任务。
 
-    Text-to-SQL systems (also known as NL-to-SQL systems) have become an increasingly popular solution for bridging the gap between user capabilities and SQL-based data access. These systems translate user requests in natural language to valid SQL statements for a specific database. Recent Text-to-SQL systems have benefited from the rapid improvement of transformer-based language models. However, while Text-to-SQL systems that incorporate such models continuously reach new high scores on -- often synthetic -- benchmark datasets, a systematic exploration of their robustness towards different data models in a real-world, realistic scenario is notably missing. This paper provides the first in-depth evaluation of the data model robustness of Text-to-SQL systems in practice based on a multi-year international project focused on Text-to-SQL interfaces. Our evaluation is based on a real-world deployment of FootballDB, a system that was deployed over a 9 month period in the context of the FIFA Wor
+    arXiv:2403.19211v1 Announce Type: cross  Abstract: Recently, foundation models, particularly large language models (LLMs), have demonstrated an impressive ability to adapt to various tasks by fine-tuning large amounts of instruction data. Notably, federated foundation models emerge as a privacy preservation method to fine-tune models collaboratively under federated learning (FL) settings by leveraging many distributed datasets with non-IID data. To alleviate communication and computation overhead, parameter-efficient methods are introduced for efficiency, and some research adapted personalization methods to federated foundation models for better user preferences alignment. However, a critical gap in existing research is the neglect of test-time distribution shifts in real-world applications. Therefore, to bridge this gap, we propose a new setting, termed test-time personalization, which not only concentrates on the targeted local task but also extends to other tasks that exhibit test-t
     
-[^5]: 一种可解释的三维框架揭示学习模式：变量脑沟识别的统一视角
+[^3]: 从像素到洞察: 在大型基础模型时代自动图表理解的调查
 
-    An explainable three dimension framework to uncover learning patterns: A unified look in variable sulci recognition
+    From Pixels to Insights: A Survey on Automatic Chart Understanding in the Era of Large Foundation Models
 
-    [https://arxiv.org/abs/2309.00903](https://arxiv.org/abs/2309.00903)
+    [https://arxiv.org/abs/2403.12027](https://arxiv.org/abs/2403.12027)
 
-    该论文提出了一个针对医学成像中的可解释AI的三维框架，旨在解决神经科学领域中识别大脑沟特征的复杂性问题。
-
-    
-
-    可解释的人工智能在医学成像中至关重要。在挑战性的神经科学领域里，视觉主题在三维空间内表现出高度复杂性。神经科学的应用涉及从MRI中识别大脑沟特征，由于专家之间的标注规程存在差异和大脑复杂的三维功能，我们面临着重大障碍。因此，传统的可解释性方法在有效验证和评估这些网络方面表现不佳。为了解决这个问题，我们首先提出了数学公式，细化了不同计算机视觉任务中解释需求的各种类别，分为自解释、半解释、非解释和基于验证协议可靠性的新模式学习应用。根据这个数学公式，我们提出了一个旨在解释三维的框架。
-
-    arXiv:2309.00903v2 Announce Type: replace-cross  Abstract: Explainable AI is crucial in medical imaging. In the challenging field of neuroscience, visual topics present a high level of complexity, particularly within three-dimensional space. The application of neuroscience, which involves identifying brain sulcal features from MRI, faces significant hurdles due to varying annotation protocols among experts and the intricate three-dimension functionality of the brain. Consequently, traditional explainability approaches fall short in effectively validating and evaluating these networks. To address this, we first present a mathematical formulation delineating various categories of explanation needs across diverse computer vision tasks, categorized into self-explanatory, semi-explanatory, non-explanatory, and new-pattern learning applications based on the reliability of the validation protocol. With respect to this mathematical formulation, we propose a 3D explainability framework aimed at
-    
-[^6]: 在一维中为双曲和抛物型PDE引入移动时域估计器
-
-    Moving-Horizon Estimators for Hyperbolic and Parabolic PDEs in 1-D. (arXiv:2401.02516v1 [eess.SY])
-
-    [http://arxiv.org/abs/2401.02516](http://arxiv.org/abs/2401.02516)
-
-    本文介绍了一种用于双曲和抛物型PDE的移动时域估计器，通过PDE反步法将难以解决的观测器PDE转化为可以明确解决的目标观测器PDE，从而实现了在实时环境下消除数值解观测器PDE的需求。
+    近年来，随着大型基础模型的兴起，自动图表理解取得了显著进展，本调查论文概述了在这些基础模型背景下图表理解领域的最新发展、挑战和未来方向
 
     
 
-    对于PDE的观测器本身也是PDE。因此，使用这样的观测器产生实时估计是计算负担很重的。对于有限维和ODE系统，移动时域估计器（MHE）是一种操作符，其输出是状态估计，而输入是时域起始处的初始状态估计以及移动时间域内的测量输出和输入信号。在本文中，我们引入了用于解决PDE的MHE，以消除实时数值解观测器PDE的需求。我们使用PDE反步法实现了这一点，对于某些特定类别的双曲和抛物型PDE，它能够明确地产生移动时域状态估计。具体来说，为了明确地产生状态估计，我们使用了一个难以解决的观测器PDE的反步变换，将其转化为一个可以明确解决的目标观测器PDE。我们提出的MHE并不是新的观测器设计，而只是明确的MHE实现，它能够在移动时域内产生状态估计。
+    数据可视化以图表形式在数据分析中扮演着关键角色，提供关键洞察并帮助做出明智决策。随着近年大型基础模型的崛起，自动图表理解取得了显著进展。基础模型，如大型语言模型(LLMs)，已经在各种自然语言处理（NLP）任务中实现了革命，并越来越多地应用于图表理解任务。本调查论文全面介绍了最新进展、挑战和未来方向，探讨了这些基础模型背景下图表理解的内容。
 
-    Observers for PDEs are themselves PDEs. Therefore, producing real time estimates with such observers is computationally burdensome. For both finite-dimensional and ODE systems, moving-horizon estimators (MHE) are operators whose output is the state estimate, while their inputs are the initial state estimate at the beginning of the horizon as well as the measured output and input signals over the moving time horizon. In this paper we introduce MHEs for PDEs which remove the need for a numerical solution of an observer PDE in real time. We accomplish this using the PDE backstepping method which, for certain classes of both hyperbolic and parabolic PDEs, produces moving-horizon state estimates explicitly. Precisely, to explicitly produce the state estimates, we employ a backstepping transformation of a hard-to-solve observer PDE into a target observer PDE, which is explicitly solvable. The MHEs we propose are not new observer designs but simply the explicit MHE realizations, over a moving
+    arXiv:2403.12027v1 Announce Type: cross  Abstract: Data visualization in the form of charts plays a pivotal role in data analysis, offering critical insights and aiding in informed decision-making. Automatic chart understanding has witnessed significant advancements with the rise of large foundation models in recent years. Foundation models, such as large language models (LLMs), have revolutionized various natural language processing (NLP) tasks and are increasingly being applied to chart understanding tasks. This survey paper provides a comprehensive overview of the recent developments, challenges, and future directions in chart understanding within the context of these foundation models. The paper begins by defining chart understanding, outlining problem formulations, and discussing fundamental building blocks crucial for studying chart understanding tasks. In the section on tasks and datasets, we explore various tasks within chart understanding and discuss their evaluation metrics a
     
-[^7]: 多模态大语言模型综述
+[^4]: 噪声的力量：朝着统一的多模态知识图表示框架
 
-    A Survey on Multimodal Large Language Models. (arXiv:2306.13549v1 [cs.CV])
+    The Power of Noise: Toward a Unified Multi-modal Knowledge Graph Representation Framework
 
-    [http://arxiv.org/abs/2306.13549](http://arxiv.org/abs/2306.13549)
+    [https://arxiv.org/abs/2403.06832](https://arxiv.org/abs/2403.06832)
 
-    本文追踪和总结了多模态大语言模型（MLLM）的最新进展，包括多模态指令调整、多模态上下文学习、多模态思维链和LLM辅助视觉推理等应用，指出了现有挑战和有前途的研究方向。
-
-    
-
-    多模态大语言模型（MLLM）是一种新兴的研究热点，使用强大的大语言模型作为大脑执行多模态任务。MLLM 的惊人能力，如基于图像编写故事和无OCR数学推理等，在传统方法中很少见，表明了通向人工智能的潜在路径。本文旨在追踪和总结 MLLM 的最新进展。首先，我们介绍了 MLLM 的构成，概述了相关概念。然后，讨论了关键技术和应用，包括多模态指令调整（M-IT）、多模态上下文学习（M-ICL）、多模态思维链（M-CoT）和LLM辅助视觉推理（LAVR）。最后，我们讨论了现有的挑战，并指出了有前途的研究方向。鉴于 MLLM 时代才刚刚开始，我们会不断更新这个综述，并希望能激发更多的研究。
-
-    Multimodal Large Language Model (MLLM) recently has been a new rising research hotspot, which uses powerful Large Language Models (LLMs) as a brain to perform multimodal tasks. The surprising emergent capabilities of MLLM, such as writing stories based on images and OCR-free math reasoning, are rare in traditional methods, suggesting a potential path to artificial general intelligence. In this paper, we aim to trace and summarize the recent progress of MLLM. First of all, we present the formulation of MLLM and delineate its related concepts. Then, we discuss the key techniques and applications, including Multimodal Instruction Tuning (M-IT), Multimodal In-Context Learning (M-ICL), Multimodal Chain of Thought (M-CoT), and LLM-Aided Visual Reasoning (LAVR). Finally, we discuss existing challenges and point out promising research directions. In light of the fact that the era of MLLM has only just begun, we will keep updating this survey and hope it can inspire more research. An associated
-    
-[^8]: 基于动态系统路径规划和无监督学习的实时环境自主搜索
-
-    Autonomous search of real-life environments combining dynamical system-based path planning and unsupervised learning. (arXiv:2305.01834v1 [cs.RO])
-
-    [http://arxiv.org/abs/2305.01834](http://arxiv.org/abs/2305.01834)
-
-    本文提出了一种自动生成基于动态系统路径规划器和无监督机器学习技术相结合的算法，以克服混沌覆盖路径规划器的立即问题，并在模拟和实际环境中进行了测试，展示其在有限环境中实现自主搜索和覆盖的能力。
+    提出了一种利用噪声掩模的Transformer-based架构SNAG方法，实现了多模态知识图表示中实体嵌入的最先进性能
 
     
 
-    近年来取得了使用混沌覆盖路径规划器进行有限环境搜索和遍历的进展，但该领域的现状仍处于初级阶段，目前的实验工作尚未开发出可满足混沌覆盖路径规划器需要克服的立即问题的强大方法 。本文旨在提出一种自动生成基于动态系统路径规划器和无监督机器学习技术相结合的算法，以克服混沌覆盖路径规划器的立即问题，并在模拟和实际环境中进行测试，展示其在有限环境中实现自主搜索和覆盖的能力。
+    多模态预训练的进展凸显出鲁棒的多模态知识图（MMKG）表示学习框架的必要性。此框架对于在规模上将结构化知识整合到多模态大型语言模型（LLMs）中至关重要，旨在减轻知识误解和多模态幻觉等问题。在这项工作中，为了评估模型准确嵌入MMKG中的实体的能力，我们专注于两个广泛研究的任务：多模态知识图完成（MKGC）和多模态实体对齐（MMEA）。在此基础上，我们提出了一种新颖的SNAG方法，该方法利用基于Transformer的架构，并配备了模态级噪声掩模，以在知识图中鲁棒地集成多模态实体特征。通过为MKGC和MMEA都引入特定的训练目标，我们的方法在总共十个数据集上（三个用于MKGC和...
 
-    In recent years, advancements have been made towards the goal of using chaotic coverage path planners for autonomous search and traversal of spaces with limited environmental cues. However, the state of this field is still in its infancy as there has been little experimental work done. Current experimental work has not developed robust methods to satisfactorily address the immediate set of problems a chaotic coverage path planner needs to overcome in order to scan realistic environments within reasonable coverage times. These immediate problems are as follows: (1) an obstacle avoidance technique which generally maintains the kinematic efficiency of the robot's motion, (2) a means to spread chaotic trajectories across the environment (especially crucial for large and/or complex-shaped environments) that need to be covered, and (3) a real-time coverage calculation technique that is accurate and independent of cell size. This paper aims to progress the field by proposing algorithms that a
+    arXiv:2403.06832v1 Announce Type: cross  Abstract: The advancement of Multi-modal Pre-training highlights the necessity for a robust Multi-Modal Knowledge Graph (MMKG) representation learning framework. This framework is crucial for integrating structured knowledge into multi-modal Large Language Models (LLMs) at scale, aiming to alleviate issues like knowledge misconceptions and multi-modal hallucinations. In this work, to evaluate models' ability to accurately embed entities within MMKGs, we focus on two widely researched tasks: Multi-modal Knowledge Graph Completion (MKGC) and Multi-modal Entity Alignment (MMEA). Building on this foundation, we propose a novel SNAG method that utilizes a Transformer-based architecture equipped with modality-level noise masking for the robust integration of multi-modal entity features in KGs. By incorporating specific training objectives for both MKGC and MMEA, our approach achieves SOTA performance across a total of ten datasets (three for MKGC and 
     
-[^9]: DDT：一种基于扩散驱动变压器的从视频中恢复人体网格的框架
+[^5]: 离线模型驱动强化学习中的边缘问题
 
-    DDT: A Diffusion-Driven Transformer-based Framework for Human Mesh Recovery from a Video. (arXiv:2303.13397v1 [cs.CV])
+    The Edge-of-Reach Problem in Offline Model-Based Reinforcement Learning
 
-    [http://arxiv.org/abs/2303.13397](http://arxiv.org/abs/2303.13397)
+    [https://arxiv.org/abs/2402.12527](https://arxiv.org/abs/2402.12527)
 
-    提出了一种基于扩散驱动变压器的视频 HMR 框架（DDT），它旨在从输入序列中解码特定的运动模式，增强运动平滑性和时间一致性，并输出所有帧的人体网格，使得 DDT 更适用于时间效率至关重要的实际应用。
+    学习的动力学模型被真实且无误差的动力学替代时，现有模型驱动方法将会完全失败，揭示出一个重大误解。
 
     
 
-    人体网格恢复（HMR）为各种实际应用提供了丰富的人体信息，例如游戏、人机交互和虚拟现实。与单一图像方法相比，基于视频的方法可以利用时间信息通过融合人体运动先验进一步提高性能。然而，像 VIBE 这样的多对多方法存在运动平滑性和时间一致性的挑战。而像 TCMR 和 MPS-Net 这样的多对一方法则依赖于未来帧，在推理过程中是非因果和时间效率低下的。为了解决这些挑战，提出了一种新的基于扩散驱动变压器的视频 HMR 框架（DDT）。DDT 旨在从输入序列中解码特定的运动模式，增强运动平滑性和时间一致性。作为一种多对多方法，DDT 的解码器输出所有帧的人体网格，使 DDT 更适用于时间效率至关重要的实际应用。
+    离线强化学习旨在使智能体能够从预先收集的数据集中进行训练，然而，由此带来了一个额外的挑战，即估计数据集中未涵盖的行为的价值。模型驱动方法通过允许智能体通过在学习动力学模型中进行展开进行收集额外的合成数据来提供解决方案。然而，令人惊讶的是，我们发现，如果学习的动力学模型被真实且无误差的动力学替代，现有的模型驱动方法将完全失败。这揭示了一个重大误解。我们的后续调查发现，模型驱动算法中使用的一般过程导致存在一组触发病态值过高的边缘状态。
 
-    Human mesh recovery (HMR) provides rich human body information for various real-world applications such as gaming, human-computer interaction, and virtual reality. Compared to single image-based methods, video-based methods can utilize temporal information to further improve performance by incorporating human body motion priors. However, many-to-many approaches such as VIBE suffer from motion smoothness and temporal inconsistency. While many-to-one approaches such as TCMR and MPS-Net rely on the future frames, which is non-causal and time inefficient during inference. To address these challenges, a novel Diffusion-Driven Transformer-based framework (DDT) for video-based HMR is presented. DDT is designed to decode specific motion patterns from the input sequence, enhancing motion smoothness and temporal consistency. As a many-to-many approach, the decoder of our DDT outputs the human mesh of all the frames, making DDT more viable for real-world applications where time efficiency is cruc
+    arXiv:2402.12527v1 Announce Type: cross  Abstract: Offline reinforcement learning aims to enable agents to be trained from pre-collected datasets, however, this comes with the added challenge of estimating the value of behavior not covered in the dataset. Model-based methods offer a solution by allowing agents to collect additional synthetic data via rollouts in a learned dynamics model. The prevailing theoretical understanding is that this can then be viewed as online reinforcement learning in an approximate dynamics model, and any remaining gap is therefore assumed to be due to the imperfect dynamics model. Surprisingly, however, we find that if the learned dynamics model is replaced by the true error-free dynamics, existing model-based methods completely fail. This reveals a major misconception. Our subsequent investigation finds that the general procedure used in model-based algorithms results in the existence of a set of edge-of-reach states which trigger pathological value overes
+    
+[^6]: DoorINet: 一种用于门贴式物联网应用的深度学习惯性框架
+
+    DoorINet: A Deep-Learning Inertial Framework for Door-Mounted IoT Applications
+
+    [https://arxiv.org/abs/2402.09427](https://arxiv.org/abs/2402.09427)
+
+    DoorINet是一种用于门贴式物联网应用的深度学习惯性框架，无需使用磁力计即可计算航向角度。
+
+    
+
+    许多物联网应用使用低成本的微型电动机械惯性传感器，其中一个常见的任务是方向估计。为了应对这种任务，应用姿态和航向参考系统算法。利用陀螺仪读数，通过加速度计读数更新姿态角度，利用磁力计测量更新航向角度。在室内环境中，磁力计受到干扰，会降低其性能。这主要影响到估计航向角度的应用，比如找到衣柜或冰箱门的航向角度。为了解决这种情况，我们提出了DoorINet，一种用于门贴式低成本惯性传感器的端到端深度学习框架，无需使用磁力计即可计算航向角度。为了评估我们的方法，我们记录了一个包含391分钟加速度计和陀螺仪测量的独特数据集。
+
+    arXiv:2402.09427v1 Announce Type: cross  Abstract: Many Internet of Things applications utilize low-cost, micro, electro-mechanical inertial sensors. A common task is orientation estimation. To tackle such a task, attitude and heading reference system algorithms are applied. Relying on the gyroscope readings, the accelerometer readings are used to update the attitude angles, and magnetometer measurements are utilized to update the heading angle. In indoor environments, magnetometers suffer from interference that degrades their performance. This mainly influences applications focused on estimating the heading angle like finding the heading angle of a closet or fridge door. To circumvent such situations, we propose DoorINet, an end-to-end deep-learning framework to calculate the heading angle from door-mounted, low-cost inertial sensors without using magnetometers. To evaluate our approach, we record a unique dataset containing 391 minutes of accelerometer and gyroscope measurements and 
+    
+[^7]: 可扩展大型语言模型微调的差分隐私零阶方法
+
+    Differentially Private Zeroth-Order Methods for Scalable Large Language Model Finetuning
+
+    [https://arxiv.org/abs/2402.07818](https://arxiv.org/abs/2402.07818)
+
+    本文研究了差分隐私零阶方法在大型语言模型微调中的应用，该方法通过使用零阶梯度来避免传统优化方法的可扩展性瓶颈，实现了在隐私、效用和可扩展性之间的良好平衡。
+
+    
+
+    在特定任务的数据集上进行微调是利用预训练语言模型的强大能力进行各种下游任务的广泛接受的范例。由于预训练语言模型微调的普及以及与之相关的隐私问题，差分隐私预训练语言模型微调引起了越来越多的关注，以保护特定任务数据集的隐私。差分隐私预训练语言模型微调方法的设计核心是在隐私、效用和可扩展性之间达到满意的权衡。大多数现有方法都是基于DP-SGD的创新性工作。尽管将DP-SGD的可扩展性推到了极限，但基于DP-SGD的微调方法不幸地受到了SGD固有低效率的限制。在本文中，我们研究了DP零阶方法在LLM预训练中的潜力，该方法通过用更高效的零阶梯度来近似梯度，避免了SGD的可扩展性瓶颈。与将零阶方法作为一种替代方法进行处理不同，我们引入了一种新的割接框架，该框架能够以非常接近的方式模拟DP-SGD的基本操作，然后利用零阶优化方法来近似梯度。
+
+    Finetuning on task-specific datasets is a widely-embraced paradigm of harnessing the powerful capability of pretrained LLMs for various downstream tasks. Due to the popularity of LLMs finetuning and its accompanying privacy concerns, differentially private (DP) finetuning of pretrained LLMs has garnered increasing attention to safeguarding the privacy of task-specific datasets. Lying at the design core of DP LLM finetuning methods is the satisfactory tradeoff between privacy, utility, and scalability. Most existing methods build upon the seminal work of DP-SGD. Despite pushing the scalability of DP-SGD to its limit, DP-SGD-based finetuning methods are unfortunately limited by the inherent inefficiency of SGD. In this paper, we investigate the potential of DP zeroth-order methods for LLM pretraining, which avoids the scalability bottleneck of SGD by approximating the gradient with the more efficient zeroth-order gradient. Rather than treating the zeroth-order method as a drop-in replace
+    
+[^8]: 图上的神经缩放定律
+
+    Neural Scaling Laws on Graphs
+
+    [https://arxiv.org/abs/2402.02054](https://arxiv.org/abs/2402.02054)
+
+    本论文在图上深入研究了神经缩放定律，从模型和数据两个角度进行了探索。对于模型缩放，发现了缩放定律崩溃和过拟合之间的关系，以及深度图模型的模型深度对缩放行为的影响。对于数据缩放，提出了图数量不适合作为衡量缩放定律中图数据量的指标。
+
+    
+
+    深度图模型（例如图神经网络和图变换器）已成为利用各种类型图的知识的重要技术。然而，深度图模型的缩放特性尚未得到系统研究，对通过扩大模型和数据集大小来实现大型图模型的可行性产生了疑问。在这项工作中，我们从模型和数据的角度深入探索了图上的神经缩放定律。我们首先验证了这些定律在图上的有效性，并建立了描述缩放行为的公式。对于模型缩放，我们研究了缩放定律崩溃现象，并确定了过拟合可能是原因。此外，我们揭示了深度图模型的模型深度可以影响模型缩放行为，这与其他领域（如计算机视觉和自然语言处理）的观察结果不同。对于数据缩放，我们建议图数量无法有效衡量图数据量的缩放定律，因为...
+
+    Deep graph models (e.g., graph neural networks and graph transformers) have become important techniques for leveraging knowledge across various types of graphs. Yet, the scaling properties of deep graph models have not been systematically investigated, casting doubt on the feasibility of achieving large graph models through enlarging the model and dataset sizes. In this work, we delve into neural scaling laws on graphs from both model and data perspectives. We first verify the validity of such laws on graphs, establishing formulations to describe the scaling behaviors. For model scaling, we investigate the phenomenon of scaling law collapse and identify overfitting as the potential reason. Moreover, we reveal that the model depth of deep graph models can impact the model scaling behaviors, which differ from observations in other domains such as CV and NLP. For data scaling, we suggest that the number of graphs can not effectively metric the graph data volume in scaling law since the si
+    
+[^9]: 探索用于无监督可见-红外人物重新识别的均质和异质一致标签关联
+
+    Exploring Homogeneous and Heterogeneous Consistent Label Associations for Unsupervised Visible-Infrared Person ReID
+
+    [https://arxiv.org/abs/2402.00672](https://arxiv.org/abs/2402.00672)
+
+    该论文提出了一种同时考虑均质和异质实例级别结构，构建高质量跨模态标签关联的模态统一标签传输方法，用于无监督可见-红外人物重新识别。
+
+    
+
+    无监督可见-红外人物重新识别（USL-VI-ReID）旨在无需注释从不同模态中检索相同身份的行人图像。之前的研究侧重于建立跨模态的伪标签关联以弥合模态间的差异，但忽略了在伪标签空间中保持实例级别的均质和异质一致性，导致关联粗糙。为此，我们引入了一个模态统一标签传输（MULT）模块，同时考虑了均质和异质细粒度实例级结构，生成高质量的跨模态标签关联。它建模了均质和异质的关联性，利用它们定义伪标签的不一致性，然后最小化这种不一致性，从而维持了跨模态的对齐并保持了内部模态结构的一致性。此外，还有一个简单易用的在线交叉记忆标签引用模块。
+
+    Unsupervised visible-infrared person re-identification (USL-VI-ReID) aims to retrieve pedestrian images of the same identity from different modalities without annotations. While prior work focuses on establishing cross-modality pseudo-label associations to bridge the modality-gap, they ignore maintaining the instance-level homogeneous and heterogeneous consistency in pseudo-label space, resulting in coarse associations. In response, we introduce a Modality-Unified Label Transfer (MULT) module that simultaneously accounts for both homogeneous and heterogeneous fine-grained instance-level structures, yielding high-quality cross-modality label associations. It models both homogeneous and heterogeneous affinities, leveraging them to define the inconsistency for the pseudo-labels and then minimize it, leading to pseudo-labels that maintain alignment across modalities and consistency within intra-modality structures. Additionally, a straightforward plug-and-play Online Cross-memory Label Ref
+    
+[^10]: 一种针对非法歌曲翻唱的主动性双重防护机制：基于歌唱声音转换的能力
+
+    A Proactive and Dual Prevention Mechanism against Illegal Song Covers empowered by Singing Voice Conversion. (arXiv:2401.17133v1 [cs.SD])
+
+    [http://arxiv.org/abs/2401.17133](http://arxiv.org/abs/2401.17133)
+
+    这项工作提出了一种主动性的双重防护机制，通过引入人类无法察觉的扰动，干扰歌唱声音转换的生成过程，防止未经授权的基于歌唱声音转换的非法歌曲翻唱。该机制既扰乱了歌手身份，又扰乱了歌词，使得歌唱声音既不模仿目标歌手，也不保留原始歌词。
+
+    
+
+    歌唱声音转换(SVC)通过将一个歌手的歌唱声音转换成另一个目标歌手的歌唱声音，并使用原始歌词和旋律，自动化了歌曲翻唱。然而，这引发了对版权和公民权利的严重担忧。本研究提出了 SongBsAb，这是第一个主动性方法，用于减轻未经授权的基于 SVC 的非法歌曲翻唱。SongBsAb 在发布歌唱声音之前引入了人类无法察觉的扰动，这样当它们被使用时，SVC 的生成过程将被干扰，导致意外的歌唱声音。 SongBsAb 具有双重预防效果，引起歌手身份和歌词的混乱，即 SVC 覆盖的歌唱声音既不模仿目标歌手，也不保留原始歌词。为了提高扰动的不可察觉性，我们使用了一个以伴奏曲作为额外掩蔽者的基于心理声学模型的损失模型。
+
+    Singing voice conversion (SVC) automates song covers by converting one singer's singing voice into another target singer's singing voice with the original lyrics and melody. However, it raises serious concerns about copyright and civil right infringements to multiple entities. This work proposes SongBsAb, the first proactive approach to mitigate unauthorized SVC-based illegal song covers. SongBsAb introduces human-imperceptible perturbations to singing voices before releasing them, so that when they are used, the generation process of SVC will be interfered, resulting in unexpected singing voices. SongBsAb features a dual prevention effect by causing both (singer) identity disruption and lyric disruption, namely, the SVC-covered singing voice neither imitates the target singer nor preserves the original lyrics. To improve the imperceptibility of perturbations, we refine a psychoacoustic model-based loss with the backing track as an additional masker, a unique accompanying element for s
+    
+[^11]: 针对演讲者分割的端到端监督分层图聚类算法
+
+    Overlap-aware End-to-End Supervised Hierarchical Graph Clustering for Speaker Diarization. (arXiv:2401.12850v1 [eess.AS])
+
+    [http://arxiv.org/abs/2401.12850](http://arxiv.org/abs/2401.12850)
+
+    本文提出了一种针对演讲者分割的端到端监督分层图聚类算法，使用图神经网络进行表示学习、度量学习和聚类，并通过外部重叠检测器提供额外的输入。
+
+    
+
+    演讲者分割是基于说话者身份对音频录音进行分割的重要语音预处理步骤，适用于多个下游应用。传统的分割方法涉及多次嵌入提取和聚类步骤，通常以孤立的方式进行优化。虽然端到端的分割系统试图学习一个单一模型来完成任务，但通常训练复杂且需要大量的监督数据集。在本文中，我们提出了一种基于图神经网络(GNN)的端到端监督分层聚类算法，称为E-SHARC。E-SHARC方法使用前端mel-filterbank特征作为输入，并联合学习嵌入提取器和GNN聚类模块，进行表示学习、度量学习和端到端优化的聚类。此外，E-SHARC还通过外部重叠检测器提供额外的输入。
+
+    Speaker diarization, the task of segmenting an audio recording based on speaker identity, constitutes an important speech pre-processing step for several downstream applications. The conventional approach to diarization involves multiple steps of embedding extraction and clustering, which are often optimized in an isolated fashion. While end-to-end diarization systems attempt to learn a single model for the task, they are often cumbersome to train and require large supervised datasets. In this paper, we propose an end-to-end supervised hierarchical clustering algorithm based on graph neural networks (GNN), called End-to-end Supervised HierARchical Clustering (E-SHARC). The E-SHARC approach uses front-end mel-filterbank features as input and jointly learns an embedding extractor and the GNN clustering module, performing representation learning, metric learning, and clustering with end-to-end optimization. Further, with additional inputs from an external overlap detector, the E-SHARC app
+    
+[^12]: 一个基础图模型
+
+    A Foundation Graph Model. (arXiv:2311.03976v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2311.03976](http://arxiv.org/abs/2311.03976)
+
+    本文提出了一个基于对抗性对比学习的基础图模型FoToM，该模型通过节点和边特征排除进行图预训练，在多个领域上实现了正向迁移，并取得了显著的性能提升。
+
+    
+
+    无监督图表示学习的主要优势是在数据或标签稀缺的情况下，可以对预训练模型进行微调。现有的方法是针对特定领域的，保持预训练和目标数据集之间的节点和边属性一致。这使得无法在其他领域进行迁移。能够在任意任务和领域上实现正向迁移的模型将成为第一个基础图模型。在这项工作中，我们使用对抗性对比学习提出了FoToM，一种基于节点和边特征排除的图预训练方法。我们使用FoToM在多个图领域上进行预训练，得到了第一个基础图模型。我们在来自多个领域的评估数据集上展示了正向迁移。在所有数据集上，性能最差时与有监督基线相当，76%的数据集在95%置信度下都显著优于有监督基线（P≤0.01），误差减少了8%至40%。
+
+    The principal benefit of unsupervised graph representation learning is that a pre-trained model can be fine-tuned where data or labels are scarce. Existing approaches are domain specific, maintaining consistent node and edge attributes across the pre-training and target datasets. This precludes transfer to other domains. A model capable of positive transfer on arbitrary tasks and domains would represent the first foundation graph model.  In this work we use adversarial contrastive learning to present FoToM, a graph pre-training method based on node and edge feature exclusion. We use FoToM to pre-train models over multiple graph domains, producing the first foundation graph models. We demonstrate positive transfer on evaluation datasets from multiple domains, including domains not present in pre-training data. On all datasets performance is at worst on-par and on 76% significantly better than a supervised baseline ($P \leq 0.01$), with an 8 to 40% reduction in error at 95% confidence. C
+    
+[^13]: 批量校准：重新思考上下文学习和提示工程的校准方法
+
+    Batch Calibration: Rethinking Calibration for In-Context Learning and Prompt Engineering. (arXiv:2309.17249v1 [cs.CL])
+
+    [http://arxiv.org/abs/2309.17249](http://arxiv.org/abs/2309.17249)
+
+    本研究提出了一种名为批量校准（BC）的方法，用于解决大型语言模型中提示脆弱性和偏见因素导致的性能下降问题。BC通过控制批量输入的上下文偏见，统一了现有的校准方法，并具有零-shot和仅推理的特点。
+
+    
+
+    提示和上下文学习已成为大型语言模型（LLM）的高效学习范式。然而，LLM存在提示脆弱性和各种偏见因素，包括但不限于格式、选择性的表达方式和上下文学习示例。为解决这个导致性能下降的问题，已经开发了校准方法来减轻这些偏见的影响并恢复LLM的性能。在这项工作中，我们首先对现有的校准方法进行了系统分析，提供了统一的观点并揭示了失败案例。受这些分析的启发，我们提出了批量校准（BC），这是一种简单而直观的方法，可以从批量输入中控制上下文偏见，统一了各种先前的方法，并有效地解决了上述问题。BC是零-shot、仅推理和额外成本可忽略。在少-shot设置中，我们进一步扩展BC以实现全部翻译
+
+    Prompting and in-context learning (ICL) have become efficient learning paradigms for large language models (LLMs). However, LLMs suffer from prompt brittleness and various bias factors in the prompt, including but not limited to the formatting, the choice verbalizers, and the ICL examples. To address this problem that results in unexpected performance degradation, calibration methods have been developed to mitigate the effects of these biases while recovering LLM performance. In this work, we first conduct a systematic analysis of the existing calibration methods, where we both provide a unified view and reveal the failure cases. Inspired by these analyses, we propose Batch Calibration (BC), a simple yet intuitive method that controls the contextual bias from the batched input, unifies various prior approaches, and effectively addresses the aforementioned issues. BC is zero-shot, inference-only, and incurs negligible additional costs. In the few-shot setup, we further extend BC to allo
+    
+[^14]: 探索学习系统中信息熵变化的影响
+
+    Exploring the Influence of Information Entropy Change in Learning Systems. (arXiv:2309.10625v1 [cs.AI])
+
+    [http://arxiv.org/abs/2309.10625](http://arxiv.org/abs/2309.10625)
+
+    本研究探索了在深度学习系统中引入噪声对性能的影响，证明了特定噪声可以在降低任务复杂性的条件下提升深度架构的性能，通过实验证明了在大规模图像数据集中的显著性能提升。
+
+    
+
+    在本研究中，我们通过向输入/隐含特征添加噪声来探索深度学习系统中熵变化的影响。本文的应用重点是计算机视觉中的深度学习任务，但所提出的理论可以进一步应用于其他领域。噪声通常被视为各种深度学习架构（如卷积神经网络和视觉变换器）以及图像分类和迁移学习等不同学习任务中的有害扰动。然而，本文旨在重新思考传统命题是否总是成立。我们证明了在特定条件下，特定噪声可以提升各种深度架构的性能。我们在信息熵定义的任务复杂性减少方面从理论上证明了正噪声的增强效果，并在大规模图像数据集（如ImageNet）中实验证明了显著的性能提升。
+
+    In this work, we explore the influence of entropy change in deep learning systems by adding noise to the inputs/latent features. The applications in this paper focus on deep learning tasks within computer vision, but the proposed theory can be further applied to other fields. Noise is conventionally viewed as a harmful perturbation in various deep learning architectures, such as convolutional neural networks (CNNs) and vision transformers (ViTs), as well as different learning tasks like image classification and transfer learning. However, this paper aims to rethink whether the conventional proposition always holds. We demonstrate that specific noise can boost the performance of various deep architectures under certain conditions. We theoretically prove the enhancement gained from positive noise by reducing the task complexity defined by information entropy and experimentally show the significant performance gain in large image datasets, such as the ImageNet. Herein, we use the informat
+    
+[^15]: 跨图像上下文对于Bongard问题很重要
+
+    Cross-Image Context Matters for Bongard Problems. (arXiv:2309.03468v1 [cs.CV])
+
+    [http://arxiv.org/abs/2309.03468](http://arxiv.org/abs/2309.03468)
+
+    Bongard问题是一种需要从一组正负图像中推导出抽象概念并进行分类的智力测试，现有方法在Bongard问题中准确率较低。本研究发现，这是因为现有方法未能整合支持集合中的信息，而是仅依赖于单个支持图像的信息。我们提出了一种通过跨图像上下文来提高准确性的解决方案。
+
+    
+
+    目前的机器学习方法在解决Bongard问题时存在困难。Bongard问题是一种需要从一组正负“支持”图像中推导出抽象“概念”，然后对于新的查询图像进行分类，判断它是否描述了关键概念的智力测试。在用于自然图像Bongard问题的基准测试Bongard-HOI中，现有方法的准确率仅达到了66%（偶然准确率为50%）。低准确率通常归因于神经网络缺乏发现类似人类符号规则的能力。我们指出，许多现有方法由于一个更简单的问题而失去了准确性：它们没有将支持集合中的信息作为一个整体加入，而是依赖于从单个支持中提取的信息。这是一个关键问题，因为与涉及对象分类的少样本学习任务不同，一个典型的Bongard问题中的“关键概念”只能使用多个正例和多个反例来区分。我们探索了一种解决方案，通过跨图像上下文来提高准确性。
+
+    Current machine learning methods struggle to solve Bongard problems, which are a type of IQ test that requires deriving an abstract "concept" from a set of positive and negative "support" images, and then classifying whether or not a new query image depicts the key concept. On Bongard-HOI, a benchmark for natural-image Bongard problems, existing methods have only reached 66% accuracy (where chance is 50%). Low accuracy is often attributed to neural nets' lack of ability to find human-like symbolic rules. In this work, we point out that many existing methods are forfeiting accuracy due to a much simpler problem: they do not incorporate information contained in the support set as a whole, and rely instead on information extracted from individual supports. This is a critical issue, because unlike in few-shot learning tasks concerning object classification, the "key concept" in a typical Bongard problem can only be distinguished using multiple positives and multiple negatives. We explore a
+    
+[^16]: 将任何你描述的事物分离
+
+    Separate Anything You Describe. (arXiv:2308.05037v1 [eess.AS])
+
+    [http://arxiv.org/abs/2308.05037](http://arxiv.org/abs/2308.05037)
+
+    这项工作介绍了一种用于开放领域音频源分离的基础模型AudioSep，该模型使用自然语言查询，具有强大的分离性能和优秀的泛化能力。
+
+    
+
+    语言查询音频源分离（LASS）是计算听觉场景分析（CASA）中的一种新范 Paradigm。LASS旨在根据自然语言查询从音频混合物中分离目标声音，为数字音频应用提供了一种自然且可扩展的界面。尽管最近在LASS上取得了有希望的分离性能（例如，乐器，有限类别的音频事件），但仍然无法在开放域中分离音频概念。在这项工作中，我们引入了AudioSep，这是一种针对自然语言查询的开放领域音频源分离的基础模型。我们使用大规模多模态数据集训练AudioSep，并对其在许多任务上进行了广泛评估，包括音频事件分离，乐器分离和语音增强。AudioSep表现出强大的分离性能和令人印象深刻的零-shot泛化能力，使用音频标题或文字标签作为查询，明显优于其他方法。
+
+    Language-queried audio source separation (LASS) is a new paradigm for computational auditory scene analysis (CASA). LASS aims to separate a target sound from an audio mixture given a natural language query, which provides a natural and scalable interface for digital audio applications. Recent works on LASS, despite attaining promising separation performance on specific sources (e.g., musical instruments, limited classes of audio events), are unable to separate audio concepts in the open domain. In this work, we introduce AudioSep, a foundation model for open-domain audio source separation with natural language queries. We train AudioSep on large-scale multimodal datasets and extensively evaluate its capabilities on numerous tasks including audio event separation, musical instrument separation, and speech enhancement. AudioSep demonstrates strong separation performance and impressive zero-shot generalization ability using audio captions or text labels as queries, substantially outperfor
+    
+[^17]: MM-Vet: 评估大型多模态模型的综合能力
+
+    MM-Vet: Evaluating Large Multimodal Models for Integrated Capabilities. (arXiv:2308.02490v1 [cs.AI])
+
+    [http://arxiv.org/abs/2308.02490](http://arxiv.org/abs/2308.02490)
+
+    MM-Vet是一个评估标准，用于评估大型多模态模型在复杂任务上的综合能力。该标准解决了如何结构化和评估复杂多模态任务、设计适用于不同问题和回答类型的评估指标以及如何提供模型洞察的问题。通过整合不同的核心视觉-语言能力，MM-Vet展示了有趣的能力和解决复杂任务的方法。
+
+    
+
+    我们提出了MM-Vet，一个评估标准，用于检查在复杂多模态任务上的大型多模态模型（LMM）的表现。最近的LMM展示了各种有趣的能力，例如解决书写在黑板上的数学问题，推理新闻图片中的事件和名人，以及解释视觉笑话。快速的模型进步给评估标准的开发带来了挑战。问题包括：（1）如何系统地构建和评估复杂的多模态任务；（2）如何设计适用于不同类型问题和回答的评估指标；（3）如何给出超出简单性能排名的模型洞察。为此，我们提出了MM-Vet，基于这样一个洞察：解决复杂任务的有趣能力通常通过一种通才模型能够整合不同的核心视觉-语言（VL）能力来实现。MM-Vet定义了6个核心VL能力，并检查了从这些能力组合中得出的16种有趣的整合方式。
+
+    We propose MM-Vet, an evaluation benchmark that examines large multimodal models (LMMs) on complicated multimodal tasks. Recent LMMs have shown various intriguing abilities, such as solving math problems written on the blackboard, reasoning about events and celebrities in news images, and explaining visual jokes. Rapid model advancements pose challenges to evaluation benchmark development. Problems include: (1) How to systematically structure and evaluate the complicated multimodal tasks; (2) How to design evaluation metrics that work well across question and answer types; and (3) How to give model insights beyond a simple performance ranking. To this end, we present MM-Vet, designed based on the insight that the intriguing ability to solve complicated tasks is often achieved by a generalist model being able to integrate different core vision-language (VL) capabilities. MM-Vet defines 6 core VL capabilities and examines the 16 integrations of interest derived from the capability combin
+    
+[^18]: 评估多肌肉协调运动的持续肌肉疲劳：一项试点研究
+
+    Estimating Continuous Muscle Fatigue For Multi-Muscle Coordinated Exercise: A Pilot Study. (arXiv:2303.17614v1 [cs.HC])
+
+    [http://arxiv.org/abs/2303.17614](http://arxiv.org/abs/2303.17614)
+
+    本研究通过多种肌肉特征的无监督估计，有效地评估了涉及多肌肉协调运动的疲劳，为制定康复和训练计划提供了重要依据。
+
+    
+
+    评估日常锻炼中肌肉疲劳程度为精确定制康复和个性化训练剂量提供重要指标，特别是在Metaverse的背景下。评估涉及多肌肉协调运动的疲劳需要表示多肌肉时空适应的疲劳特征和捕捉疲劳时间演变进程的估计器的神经肌肉特征。本文提出了通过肌肉补偿和脊髓模块激活变化的特征来描述疲劳，并通过生理基础模型估计持续性疲劳。我们提取了肌肉协同分数和脊髓模块尖峰值方差作为疲劳诱导神经肌肉适应的特征，并将这些特征视为观测值，开发了贝叶斯高斯过程用于捕捉时间演变过程。我们采用无监督估计策略解决了训练数据中缺乏监督的问题。我们在8名健康参与者进行了一项试点研究，参与者进行了一系列协同抬腿练习，结果证明了所提出的方法根据神经肌肉特征有效地估计了持续性疲劳。
+
+    Assessing the progression of muscle fatigue for daily exercises provides vital indicators for precise rehabilitation, personalized training dose, especially under the context of Metaverse. Assessing fatigue of multi-muscle coordination-involved daily exercises requires the neuromuscular features that represent the fatigue-induced characteristics of spatiotemporal adaptions of multiple muscles and the estimator that captures the time-evolving progression of fatigue. In this paper, we propose to depict fatigue by the features of muscle compensation and spinal module activation changes and estimate continuous fatigue by a physiological rationale model. First, we extract muscle synergy fractionation and the variance of spinal module spikings as features inspired by the prior of fatigue-induced neuromuscular adaptations. Second, we treat the features as observations and develop a Bayesian Gaussian process to capture the time-evolving progression. Third, we solve the issue of lacking supervi
+    
+[^19]: 基于矩阵自回归的联邦学习拜占庭容错聚合方案
+
+    A Byzantine-Resilient Aggregation Scheme for Federated Learning via Matrix Autoregression on Client Updates. (arXiv:2303.16668v1 [cs.LG])
+
+    [http://arxiv.org/abs/2303.16668](http://arxiv.org/abs/2303.16668)
+
+    本文提出了FLANDERS，一种基于矩阵自回归的联邦学习聚合方案，可以识别恶意客户端，并提供了强大的拜占庭攻击防御。
+
+    
+
+    本文提出了FLANDERS，一种新颖的联邦学习（FL）聚合方案，可以抵御拜占庭攻击。FLANDERS将每个FL轮次中由客户端发送的本地模型更新视为矩阵值时间序列。然后，通过将实际观测与由矩阵自回归预测模型估计的观测进行比较，识别恶意客户端作为这个时间序列的异常值。在不同FL设置下对多个数据集进行的实验证明，FLANDERS在抵御拜占庭攻击方面与最强大的基线相匹配。此外，与现有的防御策略相比， FLANDERS即使在极其严重的攻击场景下仍然非常有效。
+
+    In this work, we propose FLANDERS, a novel federated learning (FL) aggregation scheme robust to Byzantine attacks. FLANDERS considers the local model updates sent by clients at each FL round as a matrix-valued time series. Then, it identifies malicious clients as outliers of this time series by comparing actual observations with those estimated by a matrix autoregressive forecasting model. Experiments conducted on several datasets under different FL settings demonstrate that FLANDERS matches the robustness of the most powerful baselines against Byzantine clients. Furthermore, FLANDERS remains highly effective even under extremely severe attack scenarios, as opposed to existing defense strategies.
+    
+[^20]: 旋转不变量量化用于模型压缩
+
+    Rotation Invariant Quantization for Model Compression. (arXiv:2303.03106v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2303.03106](http://arxiv.org/abs/2303.03106)
+
+    本研究提出了一种旋转不变量量化（RIQ）技术，可以在不同层次上实现混合精度量化，用于后训练神经网络模型压缩，并证明了其在压缩方面的优势。在多种模型和任务上进行了严格评估，取得了令人满意的结果。
+
+    
+
+    后训练神经网络（NN）模型压缩是一种将大型、消耗内存的模型部署到内存资源有限设备上的吸引人的方法。本研究探讨了NN模型压缩的速率-失真权衡。首先，我们提出了一种旋转不变量量化（RIQ）技术，它利用一个单一参数量化整个NN模型，在每个层次上得到不同的速率，即混合精度量化。然后，我们证明了我们的旋转不变量方法在压缩方面的优势。我们对RIQ进行了严格评估，并展示了它在各种模型和任务上的能力。例如，RIQ在预训练的VGG稠密和修剪模型上分别实现了19.4倍和52.9倍的压缩比，精度降低小于0.4%。代码可以在\url{https://github.com/ehaleva/RIQ}上找到。
+
+    Post-training Neural Network (NN) model compression is an attractive approach for deploying large, memory-consuming models on devices with limited memory resources. In this study, we investigate the rate-distortion tradeoff for NN model compression. First, we suggest a Rotation-Invariant Quantization (RIQ) technique that utilizes a single parameter to quantize the entire NN model, yielding a different rate at each layer, i.e., mixed-precision quantization. Then, we prove that our rotation-invariant approach is optimal in terms of compression. We rigorously evaluate RIQ and demonstrate its capabilities on various models and tasks. For example, RIQ facilitates $\times 19.4$ and $\times 52.9$ compression ratios on pre-trained VGG dense and pruned models, respectively, with $<0.4\%$ accuracy degradation. Code is available in \url{https://github.com/ehaleva/RIQ}.
     
 
