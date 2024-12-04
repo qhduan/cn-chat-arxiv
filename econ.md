@@ -2,102 +2,28 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [The Limits of Identification in Discrete Choice](https://arxiv.org/abs/2403.13773) | 我们研究了随机效用模型中的识别和线性独立性，发现随着备选方案数量的增加，任何线性独立的偏好集都是所有偏好集的微不足道的子集，并引入了一个新的条件来确保线性独立性。 |
-| [^2] | [Inference on LATEs with covariates](https://arxiv.org/abs/2402.12607) | 本文提出了一种推断程序，能够在控制虚拟变量和工具交互作用的数量很大的情况下，针对饱和经济数据的特征实现LATEs加权平均的有效测试和置信区间。 |
-| [^3] | [The Assignment Game: New Mechanisms for Equitable Core Imputations](https://arxiv.org/abs/2402.11437) | 本论文提出了一种计算分配博弈的更加公平核分配的组合多项式时间机制。 |
-| [^4] | [What To Do (and Not to Do) with Causal Panel Analysis under Parallel Trends: Lessons from A Large Reanalysis Study.](http://arxiv.org/abs/2309.15983) | 通过对37篇使用观察面板数据的文章进行复制和重新分析，我们发现双向固定效应模型的核心结论在新的异质治疗效应鲁棒估计器下基本保持不变，但平行趋势假设违反和统计力量不足仍然是可信推论的重要障碍。 |
-| [^5] | [The Robust F-Statistic as a Test for Weak Instruments.](http://arxiv.org/abs/2309.01637) | 该论文提出了一种鲁棒的F统计量作为检验弱工具的方法，并应用于线性广义矩估计器。这一方法通过计算误差项的偏差，简化了弱工具的临界值计算。 |
-| [^6] | [Composite Quantile Factor Models.](http://arxiv.org/abs/2308.02450) | 该论文介绍了一种在高维面板数据中进行因子分析的新方法，即复合分位数因子模型。其创新之处在于在不同分位数上估计因子和因子载荷，提高了估计结果的适应性，并引入了一种一致选择因子数的信息准则。模拟结果和实证研究表明，该方法在非正态分布下具有良好的性质。 |
-| [^7] | [Antimonotonicity for Preference Axioms: The Natural Counterpart to Comonotonicity.](http://arxiv.org/abs/2307.08542) | 本论文研究了偏序理论中的反单调性，它是共单调性的自然对应物。通过对一些传统公理进行反单调性限制，我们发现并推广了现有模型的广义化公理化。这些推广显示出经典公理在反单调性情况下的最关键测试点。 |
-| [^8] | [New possibilities in identification of binary choice models with fixed effects.](http://arxiv.org/abs/2206.10475) | 本文研究了带有固定效应的二选一模型的识别问题，提出了一种符号饱和条件并证明其足以实现模型的识别。同时，我们还提供了一个测试来检验符号饱和条件，并可使用现有的最大分数估计算法进行实施。 |
+| [^1] | [Causal Interpretation of Estimands Defined by Exposure Mappings](https://arxiv.org/abs/2403.08183) | 该论文研究了在对相互干扰施加弱限制条件时因果解释估计量的问题，并提出了用于因果可解释性的符号保留标准。 |
+| [^2] | [Antimonotonicity for Preference Axioms: The Natural Counterpart to Comonotonicity.](http://arxiv.org/abs/2307.08542) | 本论文研究了偏序理论中的反单调性，它是共单调性的自然对应物。通过对一些传统公理进行反单调性限制，我们发现并推广了现有模型的广义化公理化。这些推广显示出经典公理在反单调性情况下的最关键测试点。 |
+| [^3] | [Games Under Network Uncertainty.](http://arxiv.org/abs/2305.03124) | 本文研究了一种信息不完全的网络博弈，证明了Bayesian-Nash均衡在纯策略下的唯一性和存在性，并揭示了基于网络位置和代理人身份的不对称信息如何影响这种网络博弈中的战略行为。 |
+| [^4] | [Modelling Large Dimensional Datasets with Markov Switching Factor Models.](http://arxiv.org/abs/2210.09828) | 本论文提出了一种新的大维近似因子模型，在加载因子中引入了由潜在马尔可夫过程驱动的制度变化，通过在模型中利用等效线性表示，通过主成分分析恢复了潜在因子，然后使用基于改进滤波器和平滑器的EM算法，估计加载因子和转换概率。这种方法的吸引力在于提供了所有估计量的闭式表达式，并且不需要知道真实因子的数量。通过一系列蒙特卡洛实验展示了该方法的良好有限样本性能，并通过对大型股票组合的应用验证了方法的实证效用。 |
 
 # 详细
 
-[^1]: 离散选择中的识别限制
+[^1]: 由暴露映射定义的估计量的因果解释
 
-    The Limits of Identification in Discrete Choice
+    Causal Interpretation of Estimands Defined by Exposure Mappings
 
-    [https://arxiv.org/abs/2403.13773](https://arxiv.org/abs/2403.13773)
+    [https://arxiv.org/abs/2403.08183](https://arxiv.org/abs/2403.08183)
 
-    我们研究了随机效用模型中的识别和线性独立性，发现随着备选方案数量的增加，任何线性独立的偏好集都是所有偏好集的微不足道的子集，并引入了一个新的条件来确保线性独立性。
-
-    
-
-    我们研究了随机效用模型中的识别和线性独立性。我们将随机选择数据的特定图形表示的圈复杂度特征化为随机效用模型的维数。我们表明，随着备选方案数量的增加，任何线性独立的偏好集都是所有偏好集的微不足道的子集。我们引入了对偏好集的新条件，该条件足以确保线性独立性。我们通过示例展示该条件并非必要条件，但严格弱于其他现有的足够条件。
-
-    arXiv:2403.13773v1 Announce Type: new  Abstract: We study identification and linear independence in random utility models. We characterize the dimension of the random utility model as the cyclomatic complexity of a specific graphical representation of stochastic choice data. We show that, as the number of alternatives grows, any linearly independent set of preferences is a vanishingly small subset of the set of all preferences. We introduce a new condition on sets of preferences which is sufficient for linear independence. We demonstrate by example that the condition is not necessary, but is strictly weaker than other existing sufficient conditions.
-    
-[^2]: 具有协变量的LATEs推断
-
-    Inference on LATEs with covariates
-
-    [https://arxiv.org/abs/2402.12607](https://arxiv.org/abs/2402.12607)
-
-    本文提出了一种推断程序，能够在控制虚拟变量和工具交互作用的数量很大的情况下，针对饱和经济数据的特征实现LATEs加权平均的有效测试和置信区间。
+    该论文研究了在对相互干扰施加弱限制条件时因果解释估计量的问题，并提出了用于因果可解释性的符号保留标准。
 
     
 
-    在理论上，两阶段最小二乘法（TSLS）能够从饱和规范中识别协变量特定的局部平均处理效应（LATEs）的加权平均，而不对可用协变量进入模型的参数做出假设。在实践中，当饱和导致控制虚拟变量的数量与样本量的数量级相同时，以及使用许多、可以说是弱的工具时，TSLS严重偏倚。本文针对识别目标为饱和TSLS定位的LATEs加权平均的估值，提出了渐近有效的测试和置信区间，即使控制虚拟变量和工具交互作用的数量很大。所提出的推断程序对于饱和经济数据的四个关键特征具有鲁棒性：处理效应异质性、具有丰富支持的协变量、弱识别强度以及条件异方差性。
+    在存在相互干扰的情况下，通常利用由暴露映射定义的估计量来总结与个体相邻的治疗分配变化的影响。本文研究了在对相互干扰施加弱限制条件时它们的因果解释。我们证明在传统的识别条件下，这些估计量可能出现不可取的符号反转。这促使提出用于因果可解释性的符号保留标准。为满足首选标准，有必要对相互干扰施加约束，无论是在潜在结果还是在治疗选择中。我们提供了充分条件，并展示它们由一个允许在结果和选择阶段中存在复杂干扰形式的非参数模型满足。
 
-    arXiv:2402.12607v1 Announce Type: new  Abstract: In theory, two-stage least squares (TSLS) identifies a weighted average of covariate-specific local average treatment effects (LATEs) from a saturated specification without making parametric assumptions on how available covariates enter the model. In practice, TSLS is severely biased when saturation leads to a number of control dummies that is of the same order of magnitude as the sample size, and the use of many, arguably weak, instruments. This paper derives asymptotically valid tests and confidence intervals for an estimand that identifies the weighted average of LATEs targeted by saturated TSLS, even when the number of control dummies and instrument interactions is large. The proposed inference procedure is robust against four key features of saturated economic data: treatment effect heterogeneity, covariates with rich support, weak identification strength, and conditional heteroskedasticity.
+    arXiv:2403.08183v1 Announce Type: new  Abstract: In settings with interference, it is common to utilize estimands defined by exposure mappings to summarize the impact of variation in treatment assignments local to the ego. This paper studies their causal interpretation under weak restrictions on interference. We demonstrate that the estimands can exhibit unpalatable sign reversals under conventional identification conditions. This motivates the formulation of sign preservation criteria for causal interpretability. To satisfy preferred criteria, it is necessary to impose restrictions on interference, either in potential outcomes or selection into treatment. We provide sufficient conditions and show that they are satisfied by a nonparametric model allowing for a complex form of interference in both the outcome and selection stages.
     
-[^3]: 《分配博弈：公平核分配的新机制》
-
-    The Assignment Game: New Mechanisms for Equitable Core Imputations
-
-    [https://arxiv.org/abs/2402.11437](https://arxiv.org/abs/2402.11437)
-
-    本论文提出了一种计算分配博弈的更加公平核分配的组合多项式时间机制。
-
-    
-
-    《分配博弈》的核分配集形成一个（非有限）分配格。迄今为止，仅已知有效算法用于计算其两个极端分配；但是，其中每一个都最大程度地偏袒一个方，不利于双方的分配，导致盈利不均衡。另一个问题是，由一个玩家组成的子联盟（或者来自分配两侧的一系玩家）可以获得零利润，因此核分配不必给予他们任何利润。因此，核分配在个体代理人层面上不提供任何公平性保证。这引出一个问题，即如何计算更公平的核分配。在本文中，我们提出了一个计算分配博弈的Leximin和Leximax核分配的组合（即，该机制不涉及LP求解器）多项式时间机制。这些分配以不同方式实现了“公平性”：
-
-    arXiv:2402.11437v1 Announce Type: cross  Abstract: The set of core imputations of the assignment game forms a (non-finite) distributive lattice. So far, efficient algorithms were known for computing only its two extreme imputations; however, each of them maximally favors one side and disfavors the other side of the bipartition, leading to inequitable profit sharing. Another issue is that a sub-coalition consisting of one player (or a set of players from the same side of the bipartition) can make zero profit, therefore a core imputation is not obliged to give them any profit. Hence core imputations make no fairness guarantee at the level of individual agents. This raises the question of computing {\em more equitable core imputations}.   In this paper, we give combinatorial (i.e., the mechanism does not invoke an LP-solver) polynomial time mechanisms for computing the leximin and leximax core imputations for the assignment game. These imputations achieve ``fairness'' in different ways: w
-    
-[^4]: 如何在平行趋势下进行因果面板分析：一项大规模再分析研究的教训
-
-    What To Do (and Not to Do) with Causal Panel Analysis under Parallel Trends: Lessons from A Large Reanalysis Study. (arXiv:2309.15983v1 [stat.ME])
-
-    [http://arxiv.org/abs/2309.15983](http://arxiv.org/abs/2309.15983)
-
-    通过对37篇使用观察面板数据的文章进行复制和重新分析，我们发现双向固定效应模型的核心结论在新的异质治疗效应鲁棒估计器下基本保持不变，但平行趋势假设违反和统计力量不足仍然是可信推论的重要障碍。
-
-    
-
-    双向固定效应模型在政治科学中的因果面板分析中普遍应用。然而，最近的方法论讨论挑战了其在存在异质治疗效应和平行趋势假设违反情况下的有效性。这一新兴的文献引入了多个估计器和诊断方法，导致实证研究人员在两个方面产生了困惑：基于双向固定效应模型的现有结果的可靠性和目前的最佳实践。为了解决这些问题，我们考察、复制和重新分析了三个领先政治科学期刊上共37篇运用观察面板数据和二元治疗的文章。使用六种新引入的异质治疗效应鲁棒估计器，我们发现尽管精确性可能受到影响，但基于双向固定效应估计的核心结论在很大程度上保持不变。然而，平行趋势假设的违反和统计力量不足仍然是可信推论的重要障碍。
-
-    Two-way fixed effects (TWFE) models are ubiquitous in causal panel analysis in political science. However, recent methodological discussions challenge their validity in the presence of heterogeneous treatment effects (HTE) and violations of the parallel trends assumption (PTA). This burgeoning literature has introduced multiple estimators and diagnostics, leading to confusion among empirical researchers on two fronts: the reliability of existing results based on TWFE models and the current best practices. To address these concerns, we examined, replicated, and reanalyzed 37 articles from three leading political science journals that employed observational panel data with binary treatments. Using six newly introduced HTE-robust estimators, we find that although precision may be affected, the core conclusions derived from TWFE estimates largely remain unchanged. PTA violations and insufficient statistical power, however, continue to be significant obstacles to credible inferences. Based 
-    
-[^5]: 作为弱工具检验的鲁棒F统计量
-
-    The Robust F-Statistic as a Test for Weak Instruments. (arXiv:2309.01637v1 [econ.EM])
-
-    [http://arxiv.org/abs/2309.01637](http://arxiv.org/abs/2309.01637)
-
-    该论文提出了一种鲁棒的F统计量作为检验弱工具的方法，并应用于线性广义矩估计器。这一方法通过计算误差项的偏差，简化了弱工具的临界值计算。
-
-    
-
-    Montiel Olea and Pflueger (2013)提出了一种有效的F统计量作为检验弱工具的方法，该方法基于两阶段最小二乘估计器相对于最坏情况下的基准偏差。我们表明，他们的方法适用于一类线性广义矩估计器（GMM），其中包含了一类广义的有效F统计量。标准的非齐次方差鲁棒F统计量属于这一类别。相关的扩展估计器GMMf，扩展为第一阶段，是一种新颖而不寻常的估计器，因为权重矩阵基于第一阶段的残差。由于鲁棒F统计量也可以用作识别不足的检验，通过计算GMMf估计器相对于基准的偏差，可以简化弱工具的临界值计算，无需使用模拟方法或Patnaik (1949)的分布近似方法。在Andrews (2018)的分组数据IV 设计中，...
-
-    Montiel Olea and Pflueger (2013) proposed the effective F-statistic as a test for weak instruments in terms of the Nagar bias of the two-stage least squares (2SLS) estimator relative to a benchmark worst-case bias. We show that their methodology applies to a class of linear generalized method of moments (GMM) estimators with an associated class of generalized effective F-statistics. The standard nonhomoskedasticity robust F-statistic is a member of this class. The associated GMMf estimator, with the extension f for first-stage, is a novel and unusual estimator as the weight matrix is based on the first-stage residuals. As the robust F-statistic can also be used as a test for underidentification, expressions for the calculation of the weak-instruments critical values in terms of the Nagar bias of the GMMf estimator relative to the benchmark simplify and no simulation methods or Patnaik (1949) distributional approximations are needed. In the grouped-data IV designs of Andrews (2018), whe
-    
-[^6]: 复合分位数因子模型
-
-    Composite Quantile Factor Models. (arXiv:2308.02450v1 [econ.EM])
-
-    [http://arxiv.org/abs/2308.02450](http://arxiv.org/abs/2308.02450)
-
-    该论文介绍了一种在高维面板数据中进行因子分析的新方法，即复合分位数因子模型。其创新之处在于在不同分位数上估计因子和因子载荷，提高了估计结果的适应性，并引入了一种一致选择因子数的信息准则。模拟结果和实证研究表明，该方法在非正态分布下具有良好的性质。
-
-    
-
-    本文介绍了一种在高维面板数据中进行因子分析的方法，即复合分位数因子模型。我们提出了在不同分位数上估计因子和因子载荷的方法，使得估计结果能够更好地适应不同分位数下数据的特征，并且仍然能够对数据的均值进行建模。我们推导了估计的因子和因子载荷的极限分布，并讨论了一种一致选择因子数的信息准则。模拟结果表明，所提出的估计器和信息准则对于几种非正态分布具有良好的有限样本性质。我们还对246个季度宏观经济变量的因子分析进行了实证研究，并开发了一个名为cqrfactor的伴随R包。
-
-    This paper introduces the method of composite quantile factor model for factor analysis in high-dimensional panel data. We propose to estimate the factors and factor loadings across different quantiles of the data, allowing the estimates to better adapt to features of the data at different quantiles while still modeling the mean of the data. We develop the limiting distribution of the estimated factors and factor loadings, and an information criterion for consistent factor number selection is also discussed. Simulations show that the proposed estimator and the information criterion have good finite sample properties for several non-normal distributions under consideration. We also consider an empirical study on the factor analysis for 246 quarterly macroeconomic variables. A companion R package cqrfactor is developed.
-    
-[^7]: 偏序理论中的反单调性：共单调性的自然对应物
+[^2]: 偏序理论中的反单调性：共单调性的自然对应物
 
     Antimonotonicity for Preference Axioms: The Natural Counterpart to Comonotonicity. (arXiv:2307.08542v1 [econ.TH])
 
@@ -111,18 +37,32 @@
 
     Comonotonicity ("same variation") of random variables minimizes hedging possibilities and has been widely used in many fields. Comonotonic restrictions of traditional axioms have led to impactful inventions in decision models, including Gilboa and Schmeidler's ambiguity models. This paper investigates antimonotonicity ("opposite variation"), the natural counterpart to comonotonicity, minimizing leveraging possibilities. Surprisingly, antimonotonic restrictions of traditional axioms often do not give new models but, instead, give generalized axiomatizations of existing ones. We, thus, generalize: (a) classical axiomatizations of linear functionals through Cauchy's equation; (b) as-if-risk-neutral pricing through no-arbitrage; (c) subjective probabilities through bookmaking; (d) Anscombe-Aumann expected utility; (e) risk aversion in Savage's subjective expected utility. In each case, our generalizations show where the most critical tests of classical axioms lie: in the antimonotonic case
     
-[^8]: 二选一模型中固定效应识别的新可能性
+[^3]: 网络不确定性下的博弈论研究
 
-    New possibilities in identification of binary choice models with fixed effects. (arXiv:2206.10475v4 [econ.EM] UPDATED)
+    Games Under Network Uncertainty. (arXiv:2305.03124v1 [econ.TH])
 
-    [http://arxiv.org/abs/2206.10475](http://arxiv.org/abs/2206.10475)
+    [http://arxiv.org/abs/2305.03124](http://arxiv.org/abs/2305.03124)
 
-    本文研究了带有固定效应的二选一模型的识别问题，提出了一种符号饱和条件并证明其足以实现模型的识别。同时，我们还提供了一个测试来检验符号饱和条件，并可使用现有的最大分数估计算法进行实施。
+    本文研究了一种信息不完全的网络博弈，证明了Bayesian-Nash均衡在纯策略下的唯一性和存在性，并揭示了基于网络位置和代理人身份的不对称信息如何影响这种网络博弈中的战略行为。
 
     
 
-    本文研究了带有固定效应的二选一模型的识别问题。我们提供了一种称为符号饱和条件的条件，并证明该条件足以对该模型进行识别。特别是，我们可以保证即使在有界的回归变量情况下也能实现识别。我们还证明了在没有符号饱和条件的情况下，除非误差分布属于一个小类别，否则无法对该模型进行识别。相同的符号饱和条件也对于识别治疗效应的符号至关重要。我们提供了一个测试来检查符号饱和条件，并可以使用现有的最大分数估计算法进行实施。
+    本文研究了一种信息不完全的网络博弈，其中代理人的信息仅限于其直接邻居的身份。代理人对其他人的邻接模式形成信念，并进行线性二次努力博弈以最大化插值回报。我们证明了纯策略下Bayesian-Nash均衡的存在性和唯一性。在这个均衡下，代理人使用本地信息，即他们的直接连接的知识来推断他们的行动与其他代理人的互补强度，这是通过他们对网络中步长数量的更新信仰所给出的。我们的模型清晰展示了基于网络位置和代理人身份的不对称信息如何影响这种网络博弈中的战略行为。我们还表征了不同形式的先验信仰下的均衡代理行为，例如对所有网络的均匀先验，Erdos-Reyni网络生成以及对网络的所有子图的同质和异质先验。
 
-    We study the identification of binary choice models with fixed effects. We provide a condition called sign saturation and show that this condition is sufficient for the identification of the model. In particular, we can guarantee identification even with bounded regressors. We also show that without this condition, the model is not identified unless the error distribution belongs to a small class. The same sign saturation condition is also essential for identifying the sign of treatment effects. A test is provided to check the sign saturation condition and can be implemented using existing algorithms for the maximum score estimator.
+    We consider an incomplete information network game in which agents' information is restricted only to the identity of their immediate neighbors. Agents form beliefs about the adjacency pattern of others and play a linear-quadratic effort game to maximize interim payoffs. We establish the existence and uniqueness of Bayesian-Nash equilibria in pure strategies. In this equilibrium agents use local information, i.e., knowledge of their direct connections to make inferences about the complementarity strength of their actions with those of other agents which is given by their updated beliefs regarding the number of walks they have in the network. Our model clearly demonstrates how asymmetric information based on network position and the identity of agents affect strategic behavior in such network games. We also characterize agent behavior in equilibria under different forms of ex-ante prior beliefs such as uniform priors over the set of all networks, Erdos-Reyni network generation, and homo
+    
+[^4]: 使用马尔可夫转换因子模型对大维数据集进行建模
+
+    Modelling Large Dimensional Datasets with Markov Switching Factor Models. (arXiv:2210.09828v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2210.09828](http://arxiv.org/abs/2210.09828)
+
+    本论文提出了一种新的大维近似因子模型，在加载因子中引入了由潜在马尔可夫过程驱动的制度变化，通过在模型中利用等效线性表示，通过主成分分析恢复了潜在因子，然后使用基于改进滤波器和平滑器的EM算法，估计加载因子和转换概率。这种方法的吸引力在于提供了所有估计量的闭式表达式，并且不需要知道真实因子的数量。通过一系列蒙特卡洛实验展示了该方法的良好有限样本性能，并通过对大型股票组合的应用验证了方法的实证效用。
+
+    
+
+    我们研究了一个新型的大维近似因子模型，其中加载因子由潜在的一阶马尔可夫过程驱动。通过利用模型的等价线性表示，我们首先通过主成分分析恢复潜在因子。然后我们将模型转化为状态空间形式，并通过基于改进版本的Baum-Lindgren-Hamilton-Kim滤波器和平滑器的EM算法，利用先前估计得到的因子来估计加载因子和转换概率。我们的方法具有吸引力，因为它为所有估计量提供了闭式表达式。更重要的是，它不需要知道真实因子的数量。我们推导了所提估计过程的理论性质，并通过一套全面的蒙特卡洛实验展示了它们的良好有限样本性能。通过对一个大型股票投资组合的应用，我们说明了我们方法的实证效用。
+
+    We study a novel large dimensional approximate factor model with regime changes in the loadings driven by a latent first order Markov process. By exploiting the equivalent linear representation of the model, we first recover the latent factors by means of Principal Component Analysis. We then cast the model in state-space form, and we estimate loadings and transition probabilities through an EM algorithm based on a modified version of the Baum-Lindgren-Hamilton-Kim filter and smoother that makes use of the factors previously estimated. Our approach is appealing as it provides closed form expressions for all estimators. More importantly, it does not require knowledge of the true number of factors. We derive the theoretical properties of the proposed estimation procedure, and we show their good finite sample performance through a comprehensive set of Monte Carlo experiments. The empirical usefulness of our approach is illustrated through an application to a large portfolio of stocks.
     
 

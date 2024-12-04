@@ -2,142 +2,97 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Zero-Shot Machine Unlearning at Scale via Lipschitz Regularization](https://rss.arxiv.org/abs/2402.01401) | 通过Lipschitz正则化实现零样本机器遗忘，可以及时忘记私人或受版权保护的信息，同时保持模型性能。 |
-| [^2] | [A Statistical Framework of Watermarks for Large Language Models: Pivot, Detection Efficiency and Optimal Rules](https://arxiv.org/abs/2404.01245) | 该论文提出了一个通用框架，用于设计大型语言模型水印的统计效率和检测规则，通过关键统计量和秘密密钥控制误报率，同时评估水印检测规则的能力。 |
-| [^3] | [Stochastic Hessian Fitting on Lie Group](https://arxiv.org/abs/2402.11858) | 本文研究了在随机Hessian-向量乘积上拟合Hessian或其逆，揭示了不同Hessian拟合方法的收敛速率，并证明了在特定李群上的Hessian拟合问题在轻微条件下是强凸的。 |
-| [^4] | [Correction to "Wasserstein distance estimates for the distributions of numerical approximations to ergodic stochastic differential equations"](https://arxiv.org/abs/2402.08711) | 修正了《对于数值逼近遍历SDE的分布的Wasserstein距离估计》中的错误局部误差估计，提出了一种方法来分析数值离散遍历SDE的Wasserstein-2距离的非渐近保证，并解决了实践中维度依赖性的问题。 |
-| [^5] | [Discovering group dynamics in synchronous time series via hierarchical recurrent switching-state models.](http://arxiv.org/abs/2401.14973) | 通过分层的循环切换状态模型，我们可以无监督地同时解释系统级和个体级的动态，从而更好地建模同步时间序列中的群体动态。 |
-| [^6] | [Provably Scalable Black-Box Variational Inference with Structured Variational Families.](http://arxiv.org/abs/2401.10989) | 本文研究了均值场变分族和满秩变分族之间的理论中间地带：结构化变分族，并通过理论证明结构化变分族可以在迭代复杂性上表现更好，缩放效果更好。 |
-| [^7] | [Uncertainty Quantification on Clinical Trial Outcome Prediction.](http://arxiv.org/abs/2401.03482) | 本研究将不确定性量化方法应用于临床试验结果预测，提高模型对微妙差异的识别能力，从而改善其整体性能。 |
-| [^8] | [A Byzantine-Resilient Aggregation Scheme for Federated Learning via Matrix Autoregression on Client Updates.](http://arxiv.org/abs/2303.16668) | 本文提出了FLANDERS，一种基于矩阵自回归的联邦学习聚合方案，可以识别恶意客户端，并提供了强大的拜占庭攻击防御。 |
-| [^9] | [A Lower Bound and a Near-Optimal Algorithm for Bilevel Empirical Risk Minimization.](http://arxiv.org/abs/2302.08766) | 该论文提出了一种双层经验风险最小化算法，使用的梯度计算次数 $O((n+m)^{\frac{1}{2}}\varepsilon^{-1})$，在样本复杂度方面是最优的。 |
+| [^1] | [Supervised Multiple Kernel Learning approaches for multi-omics data integration](https://arxiv.org/abs/2403.18355) | MKL方法提供了一种灵活有效的多组学数据集成方法，可以与复杂的监督式多组学整合方法竞争 |
+| [^2] | [Reliable uncertainty with cheaper neural network ensembles: a case study in industrial parts classification](https://arxiv.org/abs/2403.10182) | 研究在工业零部件分类中探讨了利用更便宜的神经网络集成实现可靠的不确定性估计的方法 |
+| [^3] | [Expressive Higher-Order Link Prediction through Hypergraph Symmetry Breaking](https://arxiv.org/abs/2402.11339) | 通过引入预处理算法识别展现对称性的正则子超图，从而提高超图在高阶链接预测中的表达能力和区分能力。 |
+| [^4] | [Scalable Kernel Logistic Regression with Nystr\"om Approximation: Theoretical Analysis and Application to Discrete Choice Modelling](https://arxiv.org/abs/2402.06763) | 本文介绍了使用Nystr\"om近似方法解决大规模数据集上核逻辑回归的可扩展性问题。研究提供了理论分析并验证了不同的地标选择方法的性能。 |
+| [^5] | [Pard: Permutation-Invariant Autoregressive Diffusion for Graph Generation](https://arxiv.org/abs/2402.03687) | PARD是一种将扩散模型与自回归方法相结合的置换不变性自回归扩散模型，通过使用图中的部分顺序以块逐块的自回归方式生成图。 |
+| [^6] | [Optimal partitioning of directed acyclic graphs with dependent costs between clusters.](http://arxiv.org/abs/2308.03970) | 本论文提出了一种名为DCMAP的算法，用于对具有依赖成本的有向无环图进行最优分区。该算法通过优化基于DAG和集群映射的成本函数来寻找所有最优集群，并在途中返回接近最优解。实验证明在复杂系统的DBN模型中，该算法具有时间效率性。 |
 
 # 详细
 
-[^1]: 通过Lipschitz正则化在规模上实现零样本机器遗忘
+[^1]: 监督多核学习方法用于多组学数据集成
 
-    Zero-Shot Machine Unlearning at Scale via Lipschitz Regularization
+    Supervised Multiple Kernel Learning approaches for multi-omics data integration
 
-    [https://rss.arxiv.org/abs/2402.01401](https://rss.arxiv.org/abs/2402.01401)
+    [https://arxiv.org/abs/2403.18355](https://arxiv.org/abs/2403.18355)
 
-    通过Lipschitz正则化实现零样本机器遗忘，可以及时忘记私人或受版权保护的信息，同时保持模型性能。
-
-    
-
-    为了遵守人工智能和数据规定，从训练得到的机器学习模型中遗忘私人或受版权保护的信息的需求变得越来越重要。遗忘的关键挑战是及时忘记必要的数据，同时保持模型性能。在这项工作中，我们解决了零样本遗忘的场景，即只有一个经过训练的模型和要遗忘的数据，遗忘算法必须能够移除数据。根据这样定义，现有的最先进的方法是不够的。基于Lipschitz连续性的概念，我们提出了一种方法，通过对样本扰动的输出进行平滑处理来诱导遗忘。我们展示了这种平滑性成功地实现了遗忘，同时保持了总体模型性能。我们对我们的方法进行了广泛的经验评估，包括一系列当代基准测试，验证了我们的方法在严格的零样本约束下达到了最先进的性能。
-
-    To comply with AI and data regulations, the need to forget private or copyrighted information from trained machine learning models is increasingly important. The key challenge in unlearning is forgetting the necessary data in a timely manner, while preserving model performance. In this work, we address the zero-shot unlearning scenario, whereby an unlearning algorithm must be able to remove data given only a trained model and the data to be forgotten. Under such a definition, existing state-of-the-art methods are insufficient. Building on the concepts of Lipschitz continuity, we present a method that induces smoothing of the forget sample's output, with respect to perturbations of that sample. We show this smoothing successfully results in forgetting while preserving general model performance. We perform extensive empirical evaluation of our method over a range of contemporary benchmarks, verifying that our method achieves state-of-the-art performance under the strict constraints of ze
-    
-[^2]: 大型语言模型水印的统计框架: 枢轴、检测效率和最优规则
-
-    A Statistical Framework of Watermarks for Large Language Models: Pivot, Detection Efficiency and Optimal Rules
-
-    [https://arxiv.org/abs/2404.01245](https://arxiv.org/abs/2404.01245)
-
-    该论文提出了一个通用框架，用于设计大型语言模型水印的统计效率和检测规则，通过关键统计量和秘密密钥控制误报率，同时评估水印检测规则的能力。
+    MKL方法提供了一种灵活有效的多组学数据集成方法，可以与复杂的监督式多组学整合方法竞争
 
     
 
-    自ChatGPT于2022年11月推出以来，将几乎不可察觉的统计信号嵌入到大型语言模型（LLMs）生成的文本中，也被称为水印，已被用作从其人类撰写对应物上可证检测LLM生成文本的原则性方法。 本文介绍了一个通用灵活的框架，用于推理水印的统计效率并设计强大的检测规则。受水印检测的假设检验公式启发，我们的框架首先选择文本的枢轴统计量和由LLM提供给验证器的秘密密钥，以实现控制误报率（将人类撰写的文本错误地检测为LLM生成的错误）。 接下来，该框架允许通过获取渐近错误负率（将LLM生成文本错误地检测为人类撰写的错误）的封闭形式表达式来评估水印检测规则的能力。
+    高通量技术的进展导致越来越多的组学数据集的可用性。多种异质数据源的集成目前是生物学和生物信息学领域的一个问题。多核学习（MKL）已被证明是一种灵活和有效的方法，可以考虑多组学输入的多样性，尽管它在基因组数据挖掘中是一种不常用的工具。我们提供了基于不同核融合策略的新颖MKL方法。为了从输入核的元核中学习，我们将无监督集成算法调整为支持向量机的监督任务。我们还测试了用于核融合和分类的深度学习架构。结果显示，基于MKL的模型可以与更复杂、最先进的监督式多组学整合方法竞争。多核学习为多组学基因组数据中的预测模型提供了一个自然的框架。
 
-    arXiv:2404.01245v1 Announce Type: cross  Abstract: Since ChatGPT was introduced in November 2022, embedding (nearly) unnoticeable statistical signals into text generated by large language models (LLMs), also known as watermarking, has been used as a principled approach to provable detection of LLM-generated text from its human-written counterpart. In this paper, we introduce a general and flexible framework for reasoning about the statistical efficiency of watermarks and designing powerful detection rules. Inspired by the hypothesis testing formulation of watermark detection, our framework starts by selecting a pivotal statistic of the text and a secret key -- provided by the LLM to the verifier -- to enable controlling the false positive rate (the error of mistakenly detecting human-written text as LLM-generated). Next, this framework allows one to evaluate the power of watermark detection rules by obtaining a closed-form expression of the asymptotic false negative rate (the error of 
+    arXiv:2403.18355v1 Announce Type: cross  Abstract: Advances in high-throughput technologies have originated an ever-increasing availability of omics datasets. The integration of multiple heterogeneous data sources is currently an issue for biology and bioinformatics. Multiple kernel learning (MKL) has shown to be a flexible and valid approach to consider the diverse nature of multi-omics inputs, despite being an underused tool in genomic data mining.We provide novel MKL approaches based on different kernel fusion strategies.To learn from the meta-kernel of input kernels, we adaptedunsupervised integration algorithms for supervised tasks with support vector machines.We also tested deep learning architectures for kernel fusion and classification.The results show that MKL-based models can compete with more complex, state-of-the-art, supervised multi-omics integrative approaches. Multiple kernel learning offers a natural framework for predictive models in multi-omics genomic data. Our resu
     
-[^3]: 在李群上的随机Hessian拟合
+[^2]: 用更便宜的神经网络集成实现可靠的不确定性：工业零部件分类案例研究
 
-    Stochastic Hessian Fitting on Lie Group
+    Reliable uncertainty with cheaper neural network ensembles: a case study in industrial parts classification
 
-    [https://arxiv.org/abs/2402.11858](https://arxiv.org/abs/2402.11858)
+    [https://arxiv.org/abs/2403.10182](https://arxiv.org/abs/2403.10182)
 
-    本文研究了在随机Hessian-向量乘积上拟合Hessian或其逆，揭示了不同Hessian拟合方法的收敛速率，并证明了在特定李群上的Hessian拟合问题在轻微条件下是强凸的。
-
-    
-
-    本文研究了在随机Hessian-向量乘积上拟合Hessian或其逆。使用了一个Hessian拟合准则，可用于推导大部分常用方法，如BFGS、高斯牛顿、AdaGrad等。我们的研究揭示了不同Hessian拟合方法的不同收敛速率，例如，在欧几里德空间中的梯度下降的次线性速率和对称正定（SPL）矩阵和某些李群上的梯度下降的线性速率。在特定且足够一般的李群上的Hessian拟合问题在轻微条件下被证明是强凸的。为了确认我们的分析，这些方法在不同设置下进行了测试，如有噪声的Hessian-向量乘积、时变的Hessians和低精度算术。这些发现对依赖于随机二阶优化的方法是有用的。
-
-    arXiv:2402.11858v1 Announce Type: cross  Abstract: This paper studies the fitting of Hessian or its inverse with stochastic Hessian-vector products. A Hessian fitting criterion, which can be used to derive most of the commonly used methods, e.g., BFGS, Gaussian-Newton, AdaGrad, etc., is used for the analysis. Our studies reveal different convergence rates for different Hessian fitting methods, e.g., sublinear rates for gradient descent in the Euclidean space and a commonly used closed-form solution, linear rates for gradient descent on the manifold of symmetric positive definite (SPL) matrices and certain Lie groups. The Hessian fitting problem is further shown to be strongly convex under mild conditions on a specific yet general enough Lie group. To confirm our analysis, these methods are tested under different settings like noisy Hessian-vector products, time varying Hessians, and low precision arithmetic. These findings are useful for stochastic second order optimizations that rely 
-    
-[^4]: 《对于数值逼近遍历SDE的分布的Wasserstein距离估计》修正
-
-    Correction to "Wasserstein distance estimates for the distributions of numerical approximations to ergodic stochastic differential equations"
-
-    [https://arxiv.org/abs/2402.08711](https://arxiv.org/abs/2402.08711)
-
-    修正了《对于数值逼近遍历SDE的分布的Wasserstein距离估计》中的错误局部误差估计，提出了一种方法来分析数值离散遍历SDE的Wasserstein-2距离的非渐近保证，并解决了实践中维度依赖性的问题。
+    研究在工业零部件分类中探讨了利用更便宜的神经网络集成实现可靠的不确定性估计的方法
 
     
 
-    本文对San-Serna和Zygalakis的《对于数值逼近遍历SDE的分布的Wasserstein距离估计》中的非渐近保证数值离散分析方法进行了修正。他们分析了UBU积分器，该积分器是二阶强型的，并且每个步骤只需要一次梯度评估，从而得到了理想的非渐近保证，特别是在Wasserstein-2距离中到达离目标分布 $\epsilon > 0$ 的距离仅需 $\mathcal{O}(d^{1/4}\epsilon^{-1/2})$ 步。然而，Sanz-Serna和Zygalakis (2021)中的局部误差估计存在错误，在实践中需要更强的假设才能实现这些复杂度估计。本文解决了理论与实践中观察到的许多应用场景中的维度依赖性。
+    在运筹学(OR)中，预测模型经常会遇到数据分布与训练数据分布不同的场景。近年来，神经网络(NNs)在图像分类等领域的出色性能使其在OR中备受关注。然而，当面对OOD数据时，NNs往往会做出自信但不正确的预测。不确定性估计为自信的模型提供了一个解决方案，当输出应(不应)被信任时进行通信。因此，在OR领域中，NNs中的可靠不确定性量化至关重要。由多个独立NNs组成的深度集合已经成为一种有前景的方法，不仅提供强大的预测准确性，还能可靠地估计不确定性。然而，它们的部署由于较大的计算需求而具有挑战性。最近的基础研究提出了更高效的NN集成，即sna
 
-    arXiv:2402.08711v1 Announce Type: cross Abstract: A method for analyzing non-asymptotic guarantees of numerical discretizations of ergodic SDEs in Wasserstein-2 distance is presented by Sanz-Serna and Zygalakis in ``Wasserstein distance estimates for the distributions of numerical approximations to ergodic stochastic differential equations". They analyze the UBU integrator which is strong order two and only requires one gradient evaluation per step, resulting in desirable non-asymptotic guarantees, in particular $\mathcal{O}(d^{1/4}\epsilon^{-1/2})$ steps to reach a distance of $\epsilon > 0$ in Wasserstein-2 distance away from the target distribution. However, there is a mistake in the local error estimates in Sanz-Serna and Zygalakis (2021), in particular, a stronger assumption is needed to achieve these complexity estimates. This note reconciles the theory with the dimension dependence observed in practice in many applications of interest.
+    arXiv:2403.10182v1 Announce Type: new  Abstract: In operations research (OR), predictive models often encounter out-of-distribution (OOD) scenarios where the data distribution differs from the training data distribution. In recent years, neural networks (NNs) are gaining traction in OR for their exceptional performance in fields such as image classification. However, NNs tend to make confident yet incorrect predictions when confronted with OOD data. Uncertainty estimation offers a solution to overconfident models, communicating when the output should (not) be trusted. Hence, reliable uncertainty quantification in NNs is crucial in the OR domain. Deep ensembles, composed of multiple independent NNs, have emerged as a promising approach, offering not only strong predictive accuracy but also reliable uncertainty estimation. However, their deployment is challenging due to substantial computational demands. Recent fundamental research has proposed more efficient NN ensembles, namely the sna
     
-[^5]: 通过分层循环切换状态模型发现同步时间序列中的群体动态
+[^3]: 通过超图对称性打破进行高阶链接预测
 
-    Discovering group dynamics in synchronous time series via hierarchical recurrent switching-state models. (arXiv:2401.14973v1 [stat.ML])
+    Expressive Higher-Order Link Prediction through Hypergraph Symmetry Breaking
 
-    [http://arxiv.org/abs/2401.14973](http://arxiv.org/abs/2401.14973)
+    [https://arxiv.org/abs/2402.11339](https://arxiv.org/abs/2402.11339)
 
-    通过分层的循环切换状态模型，我们可以无监督地同时解释系统级和个体级的动态，从而更好地建模同步时间序列中的群体动态。
-
-    
-
-    我们致力于对同一时间段内多个实体相互作用而产生的时间序列集合进行建模。最近的研究集中在建模个体时间序列方面对我们的预期应用是不足够的，其中集体系统级行为影响着个体实体的轨迹。为了解决这类问题，我们提出了一种新的分层切换状态模型，可以以无监督的方式训练，同时解释系统级和个体级的动态。我们采用了一个隐含的系统级离散状态马尔可夫链，驱动着隐含的实体级链，进而控制每个观测时间序列的动态。观测结果在实体和系统级的链之间进行反馈，通过依赖于上下文的状态转换来提高灵活性。我们的分层切换循环动力学模型可以通过封闭形式的变分坐标上升更新来学习，其在个体数量上呈线性扩展。
-
-    We seek to model a collection of time series arising from multiple entities interacting over the same time period. Recent work focused on modeling individual time series is inadequate for our intended applications, where collective system-level behavior influences the trajectories of individual entities. To address such problems, we present a new hierarchical switching-state model that can be trained in an unsupervised fashion to simultaneously explain both system-level and individual-level dynamics. We employ a latent system-level discrete state Markov chain that drives latent entity-level chains which in turn govern the dynamics of each observed time series. Feedback from the observations to the chains at both the entity and system levels improves flexibility via context-dependent state transitions. Our hierarchical switching recurrent dynamical models can be learned via closed-form variational coordinate ascent updates to all latent chains that scale linearly in the number of indivi
-    
-[^6]: 具有结构化变分族的可证伸缩性黑盒变分推断
-
-    Provably Scalable Black-Box Variational Inference with Structured Variational Families. (arXiv:2401.10989v1 [stat.ML])
-
-    [http://arxiv.org/abs/2401.10989](http://arxiv.org/abs/2401.10989)
-
-    本文研究了均值场变分族和满秩变分族之间的理论中间地带：结构化变分族，并通过理论证明结构化变分族可以在迭代复杂性上表现更好，缩放效果更好。
+    通过引入预处理算法识别展现对称性的正则子超图，从而提高超图在高阶链接预测中的表达能力和区分能力。
 
     
 
-    已知具有满秩协方差逼近的变分族在黑盒变分推断中表现不佳，无论是从实证上还是理论上。事实上，最近对黑盒变分推断的计算复杂性结果表明，与均值场变分族相比，满秩变分族在问题的维度上扩展得很差。这对具有本地变量的分层贝叶斯模型尤为关键，它们的维度随着数据集的大小而增加。因此，迭代复杂性对数据集大小N存在明确的O(N^2)依赖。在本文中，我们探索了均值场变分族和满秩变分族之间的理论中间地带：结构化变分族。我们严格证明了某些尺度矩阵结构可以实现更好的迭代复杂性O(N)，从而与N的缩放更好地匹配。我们在现实中验证了我们的理论结果
+    一种超图由一组节点以及称为超边的节点子集合组成。更高阶链接预测是预测一个超图中是否存在缺失的超边的任务。为高阶链接预测学习的超边表示在同构下不失去区分能力时具有完全表达性。许多现有的超图表示学习器受到广义Weisfeiler Lehman-1（GWL-1）算法的表达能力限制，它是Weisfeiler Lehman-1算法的推广。然而，GWL-1的表达能力有限。事实上，具有相同GWL-1值节点的诱导子超图是无法区分的。此外，在超图上进行消息传递可能已经在GPU内存上变得计算昂贵。为了解决这些限制，我们设计了一种可以识别出展现对称性的特定正则子超图的预处理算法。
 
-    Variational families with full-rank covariance approximations are known not to work well in black-box variational inference (BBVI), both empirically and theoretically. In fact, recent computational complexity results for BBVI have established that full-rank variational families scale poorly with the dimensionality of the problem compared to e.g. mean field families. This is particularly critical to hierarchical Bayesian models with local variables; their dimensionality increases with the size of the datasets. Consequently, one gets an iteration complexity with an explicit $\mathcal{O}(N^2)$ dependence on the dataset size $N$. In this paper, we explore a theoretical middle ground between mean-field variational families and full-rank families: structured variational families. We rigorously prove that certain scale matrix structures can achieve a better iteration complexity of $\mathcal{O}(N)$, implying better scaling with respect to $N$. We empirically verify our theoretical results on l
+    arXiv:2402.11339v1 Announce Type: new  Abstract: A hypergraph consists of a set of nodes along with a collection of subsets of the nodes called hyperedges. Higher-order link prediction is the task of predicting the existence of a missing hyperedge in a hypergraph. A hyperedge representation learned for higher order link prediction is fully expressive when it does not lose distinguishing power up to an isomorphism. Many existing hypergraph representation learners, are bounded in expressive power by the Generalized Weisfeiler Lehman-1 (GWL-1) algorithm, a generalization of the Weisfeiler Lehman-1 algorithm. However, GWL-1 has limited expressive power. In fact, induced subhypergraphs with identical GWL-1 valued nodes are indistinguishable. Furthermore, message passing on hypergraphs can already be computationally expensive, especially on GPU memory. To address these limitations, we devise a preprocessing algorithm that can identify certain regular subhypergraphs exhibiting symmetry. Our p
     
-[^7]: 临床试验结果预测中的不确定性量化
+[^4]: 使用Nystr\"om近似的可扩展核逻辑回归：理论分析和离散选择建模应用
 
-    Uncertainty Quantification on Clinical Trial Outcome Prediction. (arXiv:2401.03482v1 [cs.LG])
+    Scalable Kernel Logistic Regression with Nystr\"om Approximation: Theoretical Analysis and Application to Discrete Choice Modelling
 
-    [http://arxiv.org/abs/2401.03482](http://arxiv.org/abs/2401.03482)
+    [https://arxiv.org/abs/2402.06763](https://arxiv.org/abs/2402.06763)
 
-    本研究将不确定性量化方法应用于临床试验结果预测，提高模型对微妙差异的识别能力，从而改善其整体性能。
-
-    
-
-    不确定性量化在机器学习的不同领域中的重要性日益被认识到。准确评估模型预测的不确定性可以帮助研究人员和从业人员更深入地理解和增加信心。这在医学诊断和药物发现领域尤为重要，因为可靠的预测直接影响研究质量和患者健康。本文提出将不确定性量化纳入临床试验结果预测中。我们的主要目标是提高模型辨别微妙差异的能力，从而显著改善其整体性能。我们采用了一种选择性分类方法来实现我们的目标，并将其与层次交互网络(HINT)无缝集成，HINT是临床试验预测建模的最前沿。选择性分类涵盖了一系列不确定性量化方法，使模型能够保留信息以供进一步分析。
-
-    The importance of uncertainty quantification is increasingly recognized in the diverse field of machine learning. Accurately assessing model prediction uncertainty can help provide deeper understanding and confidence for researchers and practitioners. This is especially critical in medical diagnosis and drug discovery areas, where reliable predictions directly impact research quality and patient health.  In this paper, we proposed incorporating uncertainty quantification into clinical trial outcome predictions. Our main goal is to enhance the model's ability to discern nuanced differences, thereby significantly improving its overall performance.  We have adopted a selective classification approach to fulfill our objective, integrating it seamlessly with the Hierarchical Interaction Network (HINT), which is at the forefront of clinical trial prediction modeling. Selective classification, encompassing a spectrum of methods for uncertainty quantification, empowers the model to withhold de
-    
-[^8]: 基于矩阵自回归的联邦学习拜占庭容错聚合方案
-
-    A Byzantine-Resilient Aggregation Scheme for Federated Learning via Matrix Autoregression on Client Updates. (arXiv:2303.16668v1 [cs.LG])
-
-    [http://arxiv.org/abs/2303.16668](http://arxiv.org/abs/2303.16668)
-
-    本文提出了FLANDERS，一种基于矩阵自回归的联邦学习聚合方案，可以识别恶意客户端，并提供了强大的拜占庭攻击防御。
+    本文介绍了使用Nystr\"om近似方法解决大规模数据集上核逻辑回归的可扩展性问题。研究提供了理论分析并验证了不同的地标选择方法的性能。
 
     
 
-    本文提出了FLANDERS，一种新颖的联邦学习（FL）聚合方案，可以抵御拜占庭攻击。FLANDERS将每个FL轮次中由客户端发送的本地模型更新视为矩阵值时间序列。然后，通过将实际观测与由矩阵自回归预测模型估计的观测进行比较，识别恶意客户端作为这个时间序列的异常值。在不同FL设置下对多个数据集进行的实验证明，FLANDERS在抵御拜占庭攻击方面与最强大的基线相匹配。此外，与现有的防御策略相比， FLANDERS即使在极其严重的攻击场景下仍然非常有效。
+    将基于核的机器学习技术应用于使用大规模数据集的离散选择建模时，经常面临存储需求和模型中涉及的大量参数的挑战。这种复杂性影响了大规模模型的高效训练。本文通过引入Nystr\"om近似方法解决了可扩展性问题，用于大规模数据集上的核逻辑回归。研究首先进行了理论分析，其中：i) 对KLR解的集合进行了描述，ii) 给出了使用Nystr\"om近似的KLR解的上界，并最后描述了专门用于Nystr\"om KLR的优化算法的特化。之后，对Nystr\"om KLR进行了计算验证。测试了四种地标选择方法，包括基本均匀采样、k-means采样策略和基于杠杆得分的两种非均匀方法。这些策略的性能进行了评估。
 
-    In this work, we propose FLANDERS, a novel federated learning (FL) aggregation scheme robust to Byzantine attacks. FLANDERS considers the local model updates sent by clients at each FL round as a matrix-valued time series. Then, it identifies malicious clients as outliers of this time series by comparing actual observations with those estimated by a matrix autoregressive forecasting model. Experiments conducted on several datasets under different FL settings demonstrate that FLANDERS matches the robustness of the most powerful baselines against Byzantine clients. Furthermore, FLANDERS remains highly effective even under extremely severe attack scenarios, as opposed to existing defense strategies.
+    The application of kernel-based Machine Learning (ML) techniques to discrete choice modelling using large datasets often faces challenges due to memory requirements and the considerable number of parameters involved in these models. This complexity hampers the efficient training of large-scale models. This paper addresses these problems of scalability by introducing the Nystr\"om approximation for Kernel Logistic Regression (KLR) on large datasets. The study begins by presenting a theoretical analysis in which: i) the set of KLR solutions is characterised, ii) an upper bound to the solution of KLR with Nystr\"om approximation is provided, and finally iii) a specialisation of the optimisation algorithms to Nystr\"om KLR is described. After this, the Nystr\"om KLR is computationally validated. Four landmark selection methods are tested, including basic uniform sampling, a k-means sampling strategy, and two non-uniform methods grounded in leverage scores. The performance of these strategi
     
-[^9]: 一种双层经验风险最小化算法的下界和近似最优算法
+[^5]: Pard: 具有置换不变性的自回归扩散用于图生成
 
-    A Lower Bound and a Near-Optimal Algorithm for Bilevel Empirical Risk Minimization. (arXiv:2302.08766v2 [stat.ML] UPDATED)
+    Pard: Permutation-Invariant Autoregressive Diffusion for Graph Generation
 
-    [http://arxiv.org/abs/2302.08766](http://arxiv.org/abs/2302.08766)
+    [https://arxiv.org/abs/2402.03687](https://arxiv.org/abs/2402.03687)
 
-    该论文提出了一种双层经验风险最小化算法，使用的梯度计算次数 $O((n+m)^{\frac{1}{2}}\varepsilon^{-1})$，在样本复杂度方面是最优的。
+    PARD是一种将扩散模型与自回归方法相结合的置换不变性自回归扩散模型，通过使用图中的部分顺序以块逐块的自回归方式生成图。
 
     
 
-    双层最优化问题越来越多地应用于机器学习中。在许多实际情况下，上层和下层目标对应于经验风险最小化问题，并因此具有总和结构。在这个背景下，我们提出了一个著名的SARAH算法的双层扩展。我们证明了该算法需要$\mathcal {O}((n+m)^{\frac{1}{2}}\varepsilon ^{-1})$次梯度计算才能实现$\varepsilon$稳定性，其中$n+m$是样本总数，这比先前所有的双层算法都要好。此外，我们提供了一个下界，用于得到双层问题的目标函数的近似稳定点所需的oracle调用次数。这个下界正是我们的算法所达到的，因此在样本复杂度方面是最优的。
+    尽管自回归模型对于图的顺序敏感，但其简单有效，在图生成领域一直占据主导地位。然而，扩散模型因其置换不变性而越来越受关注。目前的图扩散模型一次性生成图，但需要额外的特征和成千上万步的去噪才能达到最佳性能。我们引入了PARD，一种将扩散模型与自回归方法相结合的置换不变性自回归扩散模型。PARD利用自回归模型的效果和效率，同时保持置换不变性，无需关注图的顺序敏感性。具体来说，我们发现与集合不同，图中的元素并不是完全无序的，节点和边有一个独特的部分顺序。利用这个部分顺序，PARD以块逐块的自回归方式生成图，其中每个块的概率为c。
 
-    Bilevel optimization problems, which are problems where two optimization problems are nested, have more and more applications in machine learning. In many practical cases, the upper and the lower objectives correspond to empirical risk minimization problems and therefore have a sum structure. In this context, we propose a bilevel extension of the celebrated SARAH algorithm. We demonstrate that the algorithm requires $\mathcal{O}((n+m)^{\frac12}\varepsilon^{-1})$ gradient computations to achieve $\varepsilon$-stationarity with $n+m$ the total number of samples, which improves over all previous bilevel algorithms. Moreover, we provide a lower bound on the number of oracle calls required to get an approximate stationary point of the objective function of the bilevel problem. This lower bound is attained by our algorithm, which is therefore optimal in terms of sample complexity.
+    Graph generation has been dominated by autoregressive models due to their simplicity and effectiveness, despite their sensitivity to ordering. Yet diffusion models have garnered increasing attention, as they offer comparable performance while being permutation-invariant. Current graph diffusion models generate graphs in a one-shot fashion, but they require extra features and thousands of denoising steps to achieve optimal performance. We introduce PARD, a Permutation-invariant Auto Regressive Diffusion model that integrates diffusion models with autoregressive methods. PARD harnesses the effectiveness and efficiency of the autoregressive model while maintaining permutation invariance without ordering sensitivity. Specifically, we show that contrary to sets, elements in a graph are not entirely unordered and there is a unique partial order for nodes and edges. With this partial order, PARD generates a graph in a block-by-block, autoregressive fashion, where each block's probability is c
+    
+[^6]: 对具有依赖成本的有向无环图进行最优分区
+
+    Optimal partitioning of directed acyclic graphs with dependent costs between clusters. (arXiv:2308.03970v1 [cs.DS])
+
+    [http://arxiv.org/abs/2308.03970](http://arxiv.org/abs/2308.03970)
+
+    本论文提出了一种名为DCMAP的算法，用于对具有依赖成本的有向无环图进行最优分区。该算法通过优化基于DAG和集群映射的成本函数来寻找所有最优集群，并在途中返回接近最优解。实验证明在复杂系统的DBN模型中，该算法具有时间效率性。
+
+    
+
+    许多统计推断场景，包括贝叶斯网络、马尔可夫过程和隐马尔可夫模型，可以通过将基础的有向无环图（DAG）划分成集群来支持。然而，在统计推断中，最优划分是具有挑战性的，因为要优化的成本取决于集群内的节点以及通过父节点和/或子节点连接的集群之间的映射，我们将其称为依赖集群。我们提出了一种名为DCMAP的新算法，用于具有依赖集群的最优集群映射。在基于DAG和集群映射的任意定义的正成本函数的基础上，我们证明DCMAP收敛于找到所有最优集群，并在途中返回接近最优解。通过实验证明，该算法对使用计算成本函数的一个海草复杂系统的DBN模型具有时间效率性。对于一个25个和50个节点的DBN，搜索空间大小分别为$9.91\times 10^9$和$1.5$
+
+    Many statistical inference contexts, including Bayesian Networks (BNs), Markov processes and Hidden Markov Models (HMMS) could be supported by partitioning (i.e.~mapping) the underlying Directed Acyclic Graph (DAG) into clusters. However, optimal partitioning is challenging, especially in statistical inference as the cost to be optimised is dependent on both nodes within a cluster, and the mapping of clusters connected via parent and/or child nodes, which we call dependent clusters. We propose a novel algorithm called DCMAP for optimal cluster mapping with dependent clusters. Given an arbitrarily defined, positive cost function based on the DAG and cluster mappings, we show that DCMAP converges to find all optimal clusters, and returns near-optimal solutions along the way. Empirically, we find that the algorithm is time-efficient for a DBN model of a seagrass complex system using a computation cost function. For a 25 and 50-node DBN, the search space size was $9.91\times 10^9$ and $1.5
     
 
