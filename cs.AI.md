@@ -2,157 +2,172 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Text clustering with LLM embeddings](https://arxiv.org/abs/2403.15112) | 研究表明，LLM嵌入能够捕捉结构化语言的细微差别，BERT在性能上领先于轻量级选项，增加嵌入维度和摘要技术并不一致地提高聚类效率 |
-| [^2] | [Neuro-Symbolic Video Search](https://arxiv.org/abs/2403.11021) | 提出了一种神经网络符号视频搜索系统，该系统利用视觉-语言模型进行语义理解，并通过状态机和时间逻辑公式对事件的长期演变进行推理，从而实现高效的场景识别。 |
-| [^3] | [Governance of Generative Artificial Intelligence for Companies](https://arxiv.org/abs/2403.08802) | 本综述填补了有关企业中生成式人工智能（GenAI）治理的研究空白，提出了一个框架，旨在利用业务机会并减轻与GenAI整合相关风险。 |
-| [^4] | [Using text embedding models and vector databases as text classifiers with the example of medical data](https://arxiv.org/abs/2402.16886) | 向量数据库和嵌入模型的应用为文本分类器提供了强大的方式来表达数据模式，特别是在医疗领域中开始有着广泛的应用。 |
-| [^5] | [ARKS: Active Retrieval in Knowledge Soup for Code Generation](https://arxiv.org/abs/2402.12317) | ARKS是一种用于代码生成的先进策略，通过活跃检索和整合各种信息源，能够提高大型语言模型的性能，为解决与频繁更新的库和长尾编程语言相关的现实编程问题提供了新的可能性。 |
-| [^6] | [CultureLLM: Incorporating Cultural Differences into Large Language Models](https://arxiv.org/abs/2402.10946) | 提出了一种名为CultureLLM的成本效益高的解决方案，通过使用世界价值调查（WVS）作为种子数据，并通过提出的语义数据增强来将文化差异纳入大型语言模型中，成功微调得到了涵盖富裕和低资源语言的9种文化特定LLMs以及一个统一模型（CultureLLM-One）。 |
-| [^7] | [CIDER: Category-Guided Intent Disentanglement for Accurate Personalized News Recommendation.](http://arxiv.org/abs/2310.09401) | CIDER是一种基于类别引导的个性化新闻推荐框架，通过意图分离和一致性的新闻表示来准确理解新闻文章的多个意图，并区分用户不同的后阅读偏好。 |
-| [^8] | [Representation Learning for Sequential Volumetric Design Tasks.](http://arxiv.org/abs/2309.02583) | 本研究提出了一种顺序体积设计任务的表示学习方法，通过利用transformer模型从专家的设计序列中提取有用的表示来提高自动生成体积设计的质量，以及支持设计偏好评估和程序化设计生成。 |
-| [^9] | [From Robustness to Explainability and Back Again.](http://arxiv.org/abs/2306.03048) | 本文介绍了一种解决形式解释可扩展性限制的新算法，通过回答鲁棒性查询来计算解释，并建立了形式解释复杂性和鲁棒性复杂性之间的直接关系。 |
-| [^10] | [Synergies Between Federated Learning and O-RAN: Towards an Elastic Virtualized Architecture for Multiple Distributed Machine Learning Services.](http://arxiv.org/abs/2305.02109) | 本文研究了联邦学习在现代无线网络下的挑战，提出了一种方法称为动态多服务联邦学习（DMS-FL）来解决这个问题。同时，还提出了一种名为弹性虚拟化联邦学习（EV-FL）的分布式机器学习架构，来支持DMS-FL中的设计要求。 |
+| [^1] | [Pix2Pix-OnTheFly: Leveraging LLMs for Instruction-Guided Image Editing](https://arxiv.org/abs/2403.08004) | 本文提出了一种新方法，实现了基于自然语言指令的图像编辑，在不需要任何预备工作的情况下，通过图像字幕和DDIM反演，获取编辑方向嵌入，进行指导图像编辑，表现出有效性和竞争力。 |
+| [^2] | [Speech emotion recognition from voice messages recorded in the wild](https://arxiv.org/abs/2403.02167) | 使用Emotional Voice Messages数据库，结合eGeMAPS特征和Transformer模型，实现了在野外录制的语音消息中的语音情感识别，取得了较高的准确度，并比基准模型提高了10%。 |
+| [^3] | [Facility Location Games with Scaling Effects](https://arxiv.org/abs/2402.18908) | 研究了具有规模效应的设施选址游戏，提供了对于连续比例函数和分段线性比例函数的结果，适用于许多实际情景，同时探讨了近似机制设计设置下代理可能不再单峰偏好的条件与成本近似比率。 |
+| [^4] | [Prediction-Powered Ranking of Large Language Models](https://arxiv.org/abs/2402.17826) | 该研究提出了一种统计框架，可以衡量人类与模型偏好之间的不确定性，从而进行大型语言模型的预测排名。 |
+| [^5] | [Scaling laws for learning with real and surrogate data](https://arxiv.org/abs/2402.04376) | 本研究探讨了将替代数据与真实数据整合以进行训练的方案，发现整合替代数据能够显著降低测试误差，并提出了一个扩展规律来描述混合模型的测试误差，可以用于预测最优加权和收益。 |
+| [^6] | [Exploring Homogeneous and Heterogeneous Consistent Label Associations for Unsupervised Visible-Infrared Person ReID](https://arxiv.org/abs/2402.00672) | 该论文提出了一种同时考虑均质和异质实例级别结构，构建高质量跨模态标签关联的模态统一标签传输方法，用于无监督可见-红外人物重新识别。 |
+| [^7] | [Push it to the Demonstrated Limit: Multimodal Visuotactile Imitation Learning with Force Matching.](http://arxiv.org/abs/2311.01248) | 本研究利用视觉触觉传感器和模仿学习相结合，通过配对优化触觉力量曲线和简化传感器应用，对接触丰富的操作任务进行了研究。 |
+| [^8] | [FocDepthFormer: Transformer with LSTM for Depth Estimation from Focus.](http://arxiv.org/abs/2310.11178) | FocDepthFormer是一种基于Transformer和LSTM的网络，用于从焦点进行深度估计。通过Transformer的自注意力和LSTM的集成，该方法能够学习更多有信息的特征，并且具有对任意长度堆栈的泛化能力。 |
+| [^9] | [Inductive Meta-path Learning for Schema-complex Heterogeneous Information Networks.](http://arxiv.org/abs/2307.03937) | 这项研究提出了一种针对模式复杂的异构信息网络的归纳元路径学习框架SchemaWalk。 |
+| [^10] | [Data quality dimensions for fair AI.](http://arxiv.org/abs/2305.06967) | 本文着眼于解决AI系统中的偏见问题，从信息质量维度的角度出发提出了解决偏见的潜在改进，提出了完整性、一致性、及时性和可靠性等数据质量维度。 |
+| [^11] | [OpenDriver: an open-road driver state detection dataset.](http://arxiv.org/abs/2304.04203) | OpenDriver是一份旨在解决现有驾驶员生理数据集存在问题的开放路况驾驶员状态检测数据集，包含六轴惯性信号和心电图信号两种模态的数据，可用于驾驶员受损检测和生物识别数据识别。 |
 
 # 详细
 
-[^1]: 使用LLM嵌入进行文本聚类
+[^1]: Pix2Pix-OnTheFly: 利用LLMs进行指导图像编辑
 
-    Text clustering with LLM embeddings
+    Pix2Pix-OnTheFly: Leveraging LLMs for Instruction-Guided Image Editing
 
-    [https://arxiv.org/abs/2403.15112](https://arxiv.org/abs/2403.15112)
+    [https://arxiv.org/abs/2403.08004](https://arxiv.org/abs/2403.08004)
 
-    研究表明，LLM嵌入能够捕捉结构化语言的细微差别，BERT在性能上领先于轻量级选项，增加嵌入维度和摘要技术并不一致地提高聚类效率
-
-    
-
-    文本聚类是组织不断增长的数字内容的重要方法，有助于结构化和发现未分类数据中的隐藏模式。在这项研究中，我们调查了不同文本嵌入（特别是大型语言模型LLMs中使用的）和聚类算法如何影响文本数据集的聚类方式。进行了一系列实验以评估嵌入是如何影响聚类结果的，以及通过摘要进行降维和嵌入大小调整的作用。结果显示，LLM嵌入在捕获结构化语言的细微差别方面表现出色，而BERT在性能上领先于轻量级选项。此外，我们发现增加嵌入维度和摘要技术并不一致地提高聚类效率，这表明这些策略需要仔细分析才能在实际模型中使用。这些结果突出了一种
-
-    arXiv:2403.15112v1 Announce Type: cross  Abstract: Text clustering is an important approach for organising the growing amount of digital content, helping to structure and find hidden patterns in uncategorised data. In this research, we investigated how different textual embeddings - particularly those used in large language models (LLMs) - and clustering algorithms affect how text datasets are clustered. A series of experiments were conducted to assess how embeddings influence clustering results, the role played by dimensionality reduction through summarisation, and embedding size adjustment. Results reveal that LLM embeddings excel at capturing the nuances of structured language, while BERT leads the lightweight options in performance. In addition, we find that increasing embedding dimensionality and summarisation techniques do not uniformly improve clustering efficiency, suggesting that these strategies require careful analysis to use in real-life models. These results highlight a co
-    
-[^2]: 神经符号视频搜索
-
-    Neuro-Symbolic Video Search
-
-    [https://arxiv.org/abs/2403.11021](https://arxiv.org/abs/2403.11021)
-
-    提出了一种神经网络符号视频搜索系统，该系统利用视觉-语言模型进行语义理解，并通过状态机和时间逻辑公式对事件的长期演变进行推理，从而实现高效的场景识别。
+    本文提出了一种新方法，实现了基于自然语言指令的图像编辑，在不需要任何预备工作的情况下，通过图像字幕和DDIM反演，获取编辑方向嵌入，进行指导图像编辑，表现出有效性和竞争力。
 
     
 
-    近年来视频数据生产的空前激增需求高效的工具，以从视频中提取有意义的帧供下游任务使用。 长期时间推理是帧检索系统的一个关键要求。 虽然 VideoLLaMA 和 ViCLIP 等最先进的基础模型在短期语义理解方面表现优异，但它们在跨帧的长期推理方面却令人惊讶地失败。 这种失败的一个关键原因是它们将逐帧感知和时间推理交织成单个深度网络。 因此，解耦但共同设计语义理解和时间推理对于高效的场景识别是至关重要的。 我们提出了一种系统，利用视觉-语言模型对单个帧进行语义理解，但有效地通过使用状态机和时间逻辑（TL）公式对事件的长期演变进行推理，这些公式在本质上捕捉了记忆。
+    众所周知，最近结合语言处理和图像处理的研究引起了广泛关注，本文提出了一种全新的方法，通过图像字幕和DDIM反演，获取编辑方向嵌入，进行指导图像编辑，而无需预备工作，证明了该方法的有效性和竞争力。
 
-    arXiv:2403.11021v1 Announce Type: cross  Abstract: The unprecedented surge in video data production in recent years necessitates efficient tools to extract meaningful frames from videos for downstream tasks. Long-term temporal reasoning is a key desideratum for frame retrieval systems. While state-of-the-art foundation models, like VideoLLaMA and ViCLIP, are proficient in short-term semantic understanding, they surprisingly fail at long-term reasoning across frames. A key reason for this failure is that they intertwine per-frame perception and temporal reasoning into a single deep network. Hence, decoupling but co-designing semantic understanding and temporal reasoning is essential for efficient scene identification. We propose a system that leverages vision-language models for semantic understanding of individual frames but effectively reasons about the long-term evolution of events using state machines and temporal logic (TL) formulae that inherently capture memory. Our TL-based reas
+    arXiv:2403.08004v1 Announce Type: cross  Abstract: The combination of language processing and image processing keeps attracting increased interest given recent impressive advances that leverage the combined strengths of both domains of research. Among these advances, the task of editing an image on the basis solely of a natural language instruction stands out as a most challenging endeavour. While recent approaches for this task resort, in one way or other, to some form of preliminary preparation, training or fine-tuning, this paper explores a novel approach: We propose a preparation-free method that permits instruction-guided image editing on the fly. This approach is organized along three steps properly orchestrated that resort to image captioning and DDIM inversion, followed by obtaining the edit direction embedding, followed by image editing proper. While dispensing with preliminary preparation, our approach demonstrates to be effective and competitive, outperforming recent, state 
     
-[^3]: 企业中生成式人工智能的治理
+[^2]: 从野外录制的语音消息中识别语音情感
 
-    Governance of Generative Artificial Intelligence for Companies
+    Speech emotion recognition from voice messages recorded in the wild
 
-    [https://arxiv.org/abs/2403.08802](https://arxiv.org/abs/2403.08802)
+    [https://arxiv.org/abs/2403.02167](https://arxiv.org/abs/2403.02167)
 
-    本综述填补了有关企业中生成式人工智能（GenAI）治理的研究空白，提出了一个框架，旨在利用业务机会并减轻与GenAI整合相关风险。
-
-    
-
-    生成式人工智能（GenAI），特别是像ChatGPT这样的大型语言模型，已迅速进入企业，但缺乏充分的治理，带来机遇和挑战。尽管对GenAI具有变革性质和监管措施的广泛讨论，但有限的研究涉及组织治理，包括技术和业务视角。本综述填补了这一空白，调查了最近的研究。它不仅仅是总结，还通过制定适用于企业内的GenAI治理框架来进行。我们的框架详细描述了范围、目标和治理机制，旨在利用业务机会并减轻与GenAI整合相关风险。该研究提供了一种专注于GenAI治理的方法，为企业在负责任的AI采用挑战中提供了实用见解。对于技术人员来说，也有助于拓宽他们的视角。
-
-    arXiv:2403.08802v1 Announce Type: new  Abstract: Generative Artificial Intelligence (GenAI), specifically large language models like ChatGPT, has swiftly entered organizations without adequate governance, posing both opportunities and risks. Despite extensive debates on GenAI's transformative nature and regulatory measures, limited research addresses organizational governance, encompassing technical and business perspectives. This review paper fills this gap by surveying recent works. It goes beyond mere summarization by developing a framework for GenAI governance within companies. Our framework outlines the scope, objectives, and governance mechanisms tailored to harness business opportunities and mitigate risks associated with GenAI integration. This research contributes a focused approach to GenAI governance, offering practical insights for companies navigating the challenges of responsible AI adoption. It is also valuable for a technical audience to broaden their perspective as inc
-    
-[^4]: 使用文本嵌入模型和向量数据库作为文本分类器的研究，以医疗数据为例
-
-    Using text embedding models and vector databases as text classifiers with the example of medical data
-
-    [https://arxiv.org/abs/2402.16886](https://arxiv.org/abs/2402.16886)
-
-    向量数据库和嵌入模型的应用为文本分类器提供了强大的方式来表达数据模式，特别是在医疗领域中开始有着广泛的应用。
+    使用Emotional Voice Messages数据库，结合eGeMAPS特征和Transformer模型，实现了在野外录制的语音消息中的语音情感识别，取得了较高的准确度，并比基准模型提高了10%。
 
     
 
-    大型语言模型（LLMs）的出现是令人兴奋的，并已在许多领域找到应用，但通常情况下，医学领域的标准要求非常高。与LLMs配合使用，向量嵌入模型和向量数据库提供了一种强大的方式来表达各种数据模式，这些数据模式容易被典型的机器学习模型所理解。除了方便地向这些向量数据库添加信息、知识和数据外，它们还提供了一个令人信服的理由，即将其应用于通常由人类完成的检索信息任务的各种领域。Google的研究人员开发了一个清晰的替代模型Med-PaLM，专门旨在与临床医师的医学知识水平匹配。在训练分类器和开发模型时，保持事实和减少偏见是至关重要的。在本文中，我们探讨了向量数据库和嵌入模型的应用
+    用于语音情感识别（SER）的情感数据集通常包含表演或引发的语音，限制了它们在现实场景中的适用性。在这项工作中，我们使用了Emotional Voice Messages（EMOVOME）数据库，其中包括来自100名西班牙语使用者在消息应用中的自发语音消息，由专家和非专家标注者以连续和离散的情感进行标记。我们使用了eGeMAPS特征、基于Transformer的模型以及它们的组合来创建讲话者无关的SER模型。我们将结果与参考数据库进行了比较，并分析了标注者和性别公平性的影响。预训练的Unispeech-L模型及其与eGeMAPS的组合取得了最佳结果，在3类valence和arousal预测中分别获得了61.64%和55.57%的Unweighted Accuracy（UA），比基线模型提高了10%。对于情感类别，获得了42.58%的UA。EMOVOME表现不佳。
 
-    arXiv:2402.16886v1 Announce Type: cross  Abstract: The advent of Large Language Models (LLMs) is promising and has found application in numerous fields, but as it often is with the medical field, the bar is typically quite high [5]. In tandem with LLMs, vector embedding models and vector databases provide a robust way of expressing numerous modes of data that are easily digestible by typical machine learning models. Along with the ease of adding information, knowledge, and data to these vector databases, they provide a compelling reason to apply them in numerous fields where the task of retrieving information is typically done by humans. Researchers at Google have developed a clear alternative model, Med-PaLM [6] specifically designed to match a clinician's level of accuracy when it comes to medical knowledge. When training classifiers, and developing models, it is imperative to maintain factuality and reduce bias [4]. Here, we explore the use of vector databases and embedding models a
+    arXiv:2403.02167v1 Announce Type: cross  Abstract: Emotion datasets used for Speech Emotion Recognition (SER) often contain acted or elicited speech, limiting their applicability in real-world scenarios. In this work, we used the Emotional Voice Messages (EMOVOME) database, including spontaneous voice messages from conversations of 100 Spanish speakers on a messaging app, labeled in continuous and discrete emotions by expert and non-expert annotators. We created speaker-independent SER models using the eGeMAPS features, transformer-based models and their combination. We compared the results with reference databases and analyzed the influence of annotators and gender fairness. The pre-trained Unispeech-L model and its combination with eGeMAPS achieved the highest results, with 61.64% and 55.57% Unweighted Accuracy (UA) for 3-class valence and arousal prediction respectively, a 10% improvement over baseline models. For the emotion categories, 42.58% UA was obtained. EMOVOME performed low
     
-[^5]: ARKS：用于代码生成中的知识汤中的活跃检索
+[^3]: 具有规模效应的设施选址游戏
 
-    ARKS: Active Retrieval in Knowledge Soup for Code Generation
+    Facility Location Games with Scaling Effects
 
-    [https://arxiv.org/abs/2402.12317](https://arxiv.org/abs/2402.12317)
+    [https://arxiv.org/abs/2402.18908](https://arxiv.org/abs/2402.18908)
 
-    ARKS是一种用于代码生成的先进策略，通过活跃检索和整合各种信息源，能够提高大型语言模型的性能，为解决与频繁更新的库和长尾编程语言相关的现实编程问题提供了新的可能性。
-
-    
-
-    最近，检索增强生成（RAG）范式引起了人们的极大关注，因为它有潜力将外部知识整合到大型语言模型（LLMs）中，而无需进一步训练。尽管在自然语言应用中得到广泛探讨，但它在代码生成中的利用仍未得到充分探索。在本文中，我们介绍了一种名为知识汤中的活跃检索(ARKS)的先进策略，用于泛化大型语言模型以生成代码。与依靠单一来源不同，我们构建了一个将网页搜索、文档、执行反馈和进化代码片段整合在一起的知识汤。我们采用了一种积极的检索策略，该策略迭代地优化查询并更新知识汤。为了评估ARKS的性能，我们编制了一个新的基准，其中包括与频繁更新的库和长尾编程语言相关的现实编程问题。在ChatGPT和CodeLlama上的实验结果表明，ARKS比使用传统方法能够更好地产生代码。
-
-    arXiv:2402.12317v1 Announce Type: cross  Abstract: Recently the retrieval-augmented generation (RAG) paradigm has raised much attention for its potential in incorporating external knowledge into large language models (LLMs) without further training. While widely explored in natural language applications, its utilization in code generation remains under-explored. In this paper, we introduce Active Retrieval in Knowledge Soup (ARKS), an advanced strategy for generalizing large language models for code. In contrast to relying on a single source, we construct a knowledge soup integrating web search, documentation, execution feedback, and evolved code snippets. We employ an active retrieval strategy that iteratively refines the query and updates the knowledge soup. To assess the performance of ARKS, we compile a new benchmark comprising realistic coding problems associated with frequently updated libraries and long-tail programming languages. Experimental results on ChatGPT and CodeLlama de
-    
-[^6]: 将文化差异纳入大型语言模型的研究
-
-    CultureLLM: Incorporating Cultural Differences into Large Language Models
-
-    [https://arxiv.org/abs/2402.10946](https://arxiv.org/abs/2402.10946)
-
-    提出了一种名为CultureLLM的成本效益高的解决方案，通过使用世界价值调查（WVS）作为种子数据，并通过提出的语义数据增强来将文化差异纳入大型语言模型中，成功微调得到了涵盖富裕和低资源语言的9种文化特定LLMs以及一个统一模型（CultureLLM-One）。
+    研究了具有规模效应的设施选址游戏，提供了对于连续比例函数和分段线性比例函数的结果，适用于许多实际情景，同时探讨了近似机制设计设置下代理可能不再单峰偏好的条件与成本近似比率。
 
     
 
-    大型语言模型（LLMs）被报道偏向于某些文化，因为训练数据主要来自英语语料库。由于多语种文化数据通常较难收集，现有的工作通过提示工程或特定文化的预训练来处理这一问题。然而，它们可能忽视了低资源文化的知识缺乏，并需要大量的计算资源。本文提出了CultureLLM，这是一个成本效益高的解决方案，可将文化差异纳入LLMs中。CultureLLM采用世界价值调查（WVS）作为种子数据，并通过提出的语义数据增强生成语义等效的训练数据。仅使用来自WVS的50个种子样本和增强数据，我们对9种包括富裕和低资源语言的文化特定LLMs和一个统一模型（CultureLLM-One）进行了微调。对60个与文化相关的数据集进行的大量实验表明，CultureLLM在增强LLM的文化特性方面取得了显著的成果。
+    我们考虑了经典的设施选址问题的一个变种，其中每个代理的个人成本函数等于他们距离设施的距离乘以一个由设施位置确定的比例因子。除了一般类别的连续比例函数外，我们还提供了适用于许多实际情景的比例函数的分段线性比例函数的结果。我们关注总成本和最大成本的目标，并描述了最优解的计算。然后我们转向近似机制设计设置，观察到代理的偏好可能不再是单峰的。因此，我们表征了确保代理具有单峰偏好的比例函数条件。在这些条件下，我们找到了能够通过strategyproof和anonymous me达到的总成本和最大成本近似比率的结果。
 
-    arXiv:2402.10946v1 Announce Type: cross  Abstract: Large language models (LLMs) are reported to be partial to certain cultures owing to the training data dominance from the English corpora. Since multilingual cultural data are often expensive to collect, existing efforts handle this by prompt engineering or culture-specific pre-training. However, they might overlook the knowledge deficiency of low-resource culture and require extensive computing resources. In this paper, we propose CultureLLM, a cost-effective solution to incorporate cultural differences into LLMs. CultureLLM adopts World Value Survey (WVS) as seed data and generates semantically equivalent training data via the proposed semantic data augmentation. Using only 50 seed samples from WVS with augmented data, we fine-tune culture-specific LLMs and one unified model (CultureLLM-One) for 9 cultures covering rich and low-resource languages. Extensive experiments on 60 culture-related datasets demonstrate that CultureLLM signif
+    arXiv:2402.18908v1 Announce Type: cross  Abstract: We take the classic facility location problem and consider a variation, in which each agent's individual cost function is equal to their distance from the facility multiplied by a scaling factor which is determined by the facility placement. In addition to the general class of continuous scaling functions, we also provide results for piecewise linear scaling functions which can effectively approximate or model the scaling of many real world scenarios. We focus on the objectives of total and maximum cost, describing the computation of the optimal solution. We then move to the approximate mechanism design setting, observing that the agents' preferences may no longer be single-peaked. Consequently, we characterize the conditions on scaling functions which ensure that agents have single-peaked preferences. Under these conditions, we find results on the total and maximum cost approximation ratios achievable by strategyproof and anonymous me
     
-[^7]: CIDER: 基于类别引导的意图分离方法用于准确的个性化新闻推荐
+[^4]: 大型语言模型的预测排名
 
-    CIDER: Category-Guided Intent Disentanglement for Accurate Personalized News Recommendation. (arXiv:2310.09401v1 [cs.IR])
+    Prediction-Powered Ranking of Large Language Models
 
-    [http://arxiv.org/abs/2310.09401](http://arxiv.org/abs/2310.09401)
+    [https://arxiv.org/abs/2402.17826](https://arxiv.org/abs/2402.17826)
 
-    CIDER是一种基于类别引导的个性化新闻推荐框架，通过意图分离和一致性的新闻表示来准确理解新闻文章的多个意图，并区分用户不同的后阅读偏好。
-
-    
-
-    个性化新闻推荐旨在帮助用户找到与其兴趣相符的新闻文章，这在缓解用户信息过载问题方面起到至关重要的作用。尽管许多最近的研究致力于改进用户和新闻的表示方法，但以下挑战很少被研究：（C1）如何准确理解一篇新闻文章中包含的多个意图？以及（C2）如何区分用户点击历史中对新闻文章有不同后阅读偏好的情况？为了同时解决这两个挑战，在本文中，我们提出了一种新的个性化新闻推荐框架（CIDER），它利用（1）基于类别引导的意图分离来解决（C1）和（2）基于一致性的新闻表示来解决（C2）。此外，我们将类别预测纳入CIDER的训练过程作为辅助任务，这提供了额外的监督信号，以增强意图分离。在两个真实数据集上进行了广泛的实验。
-
-    Personalized news recommendation aims to assist users in finding news articles that align with their interests, which plays a pivotal role in mitigating users' information overload problem. Although many recent works have been studied for better user and news representations, the following challenges have been rarely studied: (C1) How to precisely comprehend a range of intents coupled within a news article? and (C2) How to differentiate news articles with varying post-read preferences in users' click history? To tackle both challenges together, in this paper, we propose a novel personalized news recommendation framework (CIDER) that employs (1) category-guided intent disentanglement for (C1) and (2) consistency-based news representation for (C2). Furthermore, we incorporate a category prediction into the training process of CIDER as an auxiliary task, which provides supplementary supervisory signals to enhance intent disentanglement. Extensive experiments on two real-world datasets rev
-    
-[^8]: 顺序体积设计任务的表示学习
-
-    Representation Learning for Sequential Volumetric Design Tasks. (arXiv:2309.02583v1 [cs.LG])
-
-    [http://arxiv.org/abs/2309.02583](http://arxiv.org/abs/2309.02583)
-
-    本研究提出了一种顺序体积设计任务的表示学习方法，通过利用transformer模型从专家的设计序列中提取有用的表示来提高自动生成体积设计的质量，以及支持设计偏好评估和程序化设计生成。
+    该研究提出了一种统计框架，可以衡量人类与模型偏好之间的不确定性，从而进行大型语言模型的预测排名。
 
     
 
-    体积设计，也称为质量设计，是专业建筑设计中的第一步关键性任务，具有顺序性。由于体积设计过程复杂，顺序化设计过程中包含了对设计师有价值的信息。许多努力已经被投入到自动生成合理的体积设计上，但生成的设计解决方案的质量存在差异，并且评估一个设计解决方案要么需要一套过于全面的度量标准，要么需要昂贵的人力专业知识。而之前的方法主要关注学习最终设计，而不是顺序设计任务，我们提出利用专家或高性能设计序列的设计知识，并使用基于transformer的模型提取有用的表示。然后，我们提出利用所学的表示在关键的下游应用中，如设计偏好评估和程序化设计生成。我们开发了prefer
+    大型语言模型通常根据其与人类偏好的一致性水平进行排名--如果一个模型的输出更受人类偏好，那么它就比其他模型更好。本文提出了一种统计框架来弥合人类与模型偏好之间可能引入的不一致性。
 
-    Volumetric design, also called massing design, is the first and critical step in professional building design which is sequential in nature. As the volumetric design process is complex, the underlying sequential design process encodes valuable information for designers. Many efforts have been made to automatically generate reasonable volumetric designs, but the quality of the generated design solutions varies, and evaluating a design solution requires either a prohibitively comprehensive set of metrics or expensive human expertise. While previous approaches focused on learning only the final design instead of sequential design tasks, we propose to encode the design knowledge from a collection of expert or high-performing design sequences and extract useful representations using transformer-based models. Later we propose to utilize the learned representations for crucial downstream applications such as design preference evaluation and procedural design generation. We develop the prefere
+    arXiv:2402.17826v1 Announce Type: cross  Abstract: Large language models are often ranked according to their level of alignment with human preferences -- a model is better than other models if its outputs are more frequently preferred by humans. One of the most popular ways to elicit human preferences utilizes pairwise comparisons between the outputs provided by different models to the same inputs. However, since gathering pairwise comparisons by humans is costly and time-consuming, it has become a very common practice to gather pairwise comparisons by a strong large language model -- a model strongly aligned with human preferences. Surprisingly, practitioners cannot currently measure the uncertainty that any mismatch between human and model preferences may introduce in the constructed rankings. In this work, we develop a statistical framework to bridge this gap. Given a small set of pairwise comparisons by humans and a large set of pairwise comparisons by a model, our framework provid
     
-[^9]: 从鲁棒性到可解释性再到鲁棒性。(arXiv:2306.03048v2 [cs.AI] 已更新)
+[^5]: 使用真实数据和替代数据进行学习的扩展规律
 
-    From Robustness to Explainability and Back Again. (arXiv:2306.03048v2 [cs.AI] UPDATED)
+    Scaling laws for learning with real and surrogate data
 
-    [http://arxiv.org/abs/2306.03048](http://arxiv.org/abs/2306.03048)
+    [https://arxiv.org/abs/2402.04376](https://arxiv.org/abs/2402.04376)
 
-    本文介绍了一种解决形式解释可扩展性限制的新算法，通过回答鲁棒性查询来计算解释，并建立了形式解释复杂性和鲁棒性复杂性之间的直接关系。
-
-    
-
-    与可解释的人工智能（XAI）的临时方法相比，形式解释提供了严密性的重要保证。然而，形式解释在某些分类器家族中的可扩展性差，其中最重要的是神经网络。因此，人们担心形式解释是否可以作为其他方法的补充，以提供可信赖的人工智能。本文解决了形式解释可扩展性的限制，并提出了用于计算形式解释的新算法。这种新算法通过回答一系列鲁棒性查询来计算解释，并且这些查询的数量最多与特征数量成线性关系。因此，所提出的算法在实际复杂性和鲁棒性的复杂性之间建立了直接关系。更重要的是，本文推广了形式解释的定义，从而允许使用其他方法来改进解释的可扩展性。
-
-    In contrast with ad-hoc methods for eXplainable Artificial Intelligence (XAI), formal explainability offers important guarantees of rigor. However, formal explainability is hindered by poor scalability for some families of classifiers, the most significant being neural networks. As a result, there are concerns as to whether formal explainability might serve to complement other approaches in delivering trustworthy AI. This paper addresses the limitation of scalability of formal explainability, and proposes novel algorithms for computing formal explanations. The novel algorithm computes explanations by answering instead a number of robustness queries, and such that the number of such queries is at most linear on the number of features. Consequently, the proposed algorithm establishes a direct relationship between the practical complexity of formal explainability and that of robustness. More importantly, the paper generalizes the definition of formal explanation, thereby allowing the use 
-    
-[^10]: 联邦学习与O-RAN的协同：面向多个分布式机器学习服务的弹性虚拟化架构
-
-    Synergies Between Federated Learning and O-RAN: Towards an Elastic Virtualized Architecture for Multiple Distributed Machine Learning Services. (arXiv:2305.02109v1 [cs.NI])
-
-    [http://arxiv.org/abs/2305.02109](http://arxiv.org/abs/2305.02109)
-
-    本文研究了联邦学习在现代无线网络下的挑战，提出了一种方法称为动态多服务联邦学习（DMS-FL）来解决这个问题。同时，还提出了一种名为弹性虚拟化联邦学习（EV-FL）的分布式机器学习架构，来支持DMS-FL中的设计要求。
+    本研究探讨了将替代数据与真实数据整合以进行训练的方案，发现整合替代数据能够显著降低测试误差，并提出了一个扩展规律来描述混合模型的测试误差，可以用于预测最优加权和收益。
 
     
 
-    联邦学习是最流行的分布式机器学习技术，但是在现代无线网络中实现联邦学习面临着许多挑战，主要包括网络条件的动态性、系统中多个联邦学习服务/任务的并存以及联邦学习服务与其他网络服务的并行执行等。针对这些挑战，本文提出了一种名为动态多服务联邦学习（DMS-FL）的联邦学习泛型架构，并通过提出一种新的分布式机器学习架构——弹性虚拟化联邦学习（EV-FL）来解决DMS-FL中的三个未探索的设计问题。
+    收集大量高质量的数据通常被限制在成本昂贵或不切实际的范围内, 这是机器学习中的一个关键瓶颈。相反地, 可以将来自目标分布的小规模数据集与来自公共数据集、不同情况下收集的数据或由生成模型合成的数据相结合, 作为替代数据。我们提出了一种简单的方案来将替代数据整合到训练中, 并使用理论模型和实证研究探索其行为。我们的主要发现是：(i) 整合替代数据可以显著降低原始分布的测试误差；(ii) 为了获得这种效益, 使用最优加权经验风险最小化非常关键；(iii) 在混合使用真实数据和替代数据训练的模型的测试误差可以很好地用一个扩展规律来描述。这可以用来预测最优加权和收益。
 
-    Federated learning (FL) is the most popular distributed machine learning technique. However, implementation of FL over modern wireless networks faces key challenges caused by (i) dynamics of the network conditions, (ii) coexistence of multiple FL services/tasks in the system, and (iii) concurrent execution of FL services with other network services, which are not jointly considered in prior works. Motivated by these challenges, we introduce a generic FL paradigm over next-generation (NextG) networks, called dynamic multi-service FL (DMS-FL). We identify three unexplored design considerations in DMS-FL: (i) FL service operator accumulation, (ii) wireless resource fragmentation, and (iii) signal strength fluctuations. We take the first steps towards addressing these design considerations through proposing a novel distributed ML architecture called elastic virtualized FL (EV-FL). EV-FL unleashes the full potential of Open RAN (O-RAN) systems and introduces an elastic resource provisioning
+    Collecting large quantities of high-quality data is often prohibitively expensive or impractical, and a crucial bottleneck in machine learning. One may instead augment a small set of $n$ data points from the target distribution with data from more accessible sources like public datasets, data collected under different circumstances, or synthesized by generative models. Blurring distinctions, we refer to such data as `surrogate data'.   We define a simple scheme for integrating surrogate data into training and use both theoretical models and empirical studies to explore its behavior. Our main findings are: $(i)$ Integrating surrogate data can significantly reduce the test error on the original distribution; $(ii)$ In order to reap this benefit, it is crucial to use optimally weighted empirical risk minimization; $(iii)$ The test error of models trained on mixtures of real and surrogate data is well described by a scaling law. This can be used to predict the optimal weighting and the gai
+    
+[^6]: 探索用于无监督可见-红外人物重新识别的均质和异质一致标签关联
+
+    Exploring Homogeneous and Heterogeneous Consistent Label Associations for Unsupervised Visible-Infrared Person ReID
+
+    [https://arxiv.org/abs/2402.00672](https://arxiv.org/abs/2402.00672)
+
+    该论文提出了一种同时考虑均质和异质实例级别结构，构建高质量跨模态标签关联的模态统一标签传输方法，用于无监督可见-红外人物重新识别。
+
+    
+
+    无监督可见-红外人物重新识别（USL-VI-ReID）旨在无需注释从不同模态中检索相同身份的行人图像。之前的研究侧重于建立跨模态的伪标签关联以弥合模态间的差异，但忽略了在伪标签空间中保持实例级别的均质和异质一致性，导致关联粗糙。为此，我们引入了一个模态统一标签传输（MULT）模块，同时考虑了均质和异质细粒度实例级结构，生成高质量的跨模态标签关联。它建模了均质和异质的关联性，利用它们定义伪标签的不一致性，然后最小化这种不一致性，从而维持了跨模态的对齐并保持了内部模态结构的一致性。此外，还有一个简单易用的在线交叉记忆标签引用模块。
+
+    Unsupervised visible-infrared person re-identification (USL-VI-ReID) aims to retrieve pedestrian images of the same identity from different modalities without annotations. While prior work focuses on establishing cross-modality pseudo-label associations to bridge the modality-gap, they ignore maintaining the instance-level homogeneous and heterogeneous consistency in pseudo-label space, resulting in coarse associations. In response, we introduce a Modality-Unified Label Transfer (MULT) module that simultaneously accounts for both homogeneous and heterogeneous fine-grained instance-level structures, yielding high-quality cross-modality label associations. It models both homogeneous and heterogeneous affinities, leveraging them to define the inconsistency for the pseudo-labels and then minimize it, leading to pseudo-labels that maintain alignment across modalities and consistency within intra-modality structures. Additionally, a straightforward plug-and-play Online Cross-memory Label Ref
+    
+[^7]: 将其推向展示极限：多模态视觉触觉模仿学习与力匹配
+
+    Push it to the Demonstrated Limit: Multimodal Visuotactile Imitation Learning with Force Matching. (arXiv:2311.01248v1 [cs.RO])
+
+    [http://arxiv.org/abs/2311.01248](http://arxiv.org/abs/2311.01248)
+
+    本研究利用视觉触觉传感器和模仿学习相结合，通过配对优化触觉力量曲线和简化传感器应用，对接触丰富的操作任务进行了研究。
+
+    
+
+    光学触觉传感器已经成为机器人操作过程中获取密集接触信息的有效手段。最近引入的“透视你的皮肤”（STS）型传感器具有视觉和触觉模式，通过利用半透明表面和可控照明实现。本文研究了视觉触觉传感与模仿学习在富有接触的操作任务中的好处。首先，我们使用触觉力测量和一种新的算法，在运动示范中产生更好匹配人体示范者的力曲线。其次，我们添加了视觉/触觉STS模式切换作为控制策略输出，简化传感器的应用。最后，我们研究了多种观察配置，比较和对比了视觉/触觉数据（包括模式切换和不切换）与手腕挂载的眼在手摄像机的视觉数据的价值。我们在一个广泛的实验系列上进行实验。
+
+    Optical tactile sensors have emerged as an effective means to acquire dense contact information during robotic manipulation. A recently-introduced `see-through-your-skin' (STS) variant of this type of sensor has both visual and tactile modes, enabled by leveraging a semi-transparent surface and controllable lighting. In this work, we investigate the benefits of pairing visuotactile sensing with imitation learning for contact-rich manipulation tasks. First, we use tactile force measurements and a novel algorithm during kinesthetic teaching to yield a force profile that better matches that of the human demonstrator. Second, we add visual/tactile STS mode switching as a control policy output, simplifying the application of the sensor. Finally, we study multiple observation configurations to compare and contrast the value of visual/tactile data (both with and without mode switching) with visual data from a wrist-mounted eye-in-hand camera. We perform an extensive series of experiments on a
+    
+[^8]: FocDepthFormer: 使用LSTM的Transformer用于从焦点进行深度估计
+
+    FocDepthFormer: Transformer with LSTM for Depth Estimation from Focus. (arXiv:2310.11178v1 [cs.CV])
+
+    [http://arxiv.org/abs/2310.11178](http://arxiv.org/abs/2310.11178)
+
+    FocDepthFormer是一种基于Transformer和LSTM的网络，用于从焦点进行深度估计。通过Transformer的自注意力和LSTM的集成，该方法能够学习更多有信息的特征，并且具有对任意长度堆栈的泛化能力。
+
+    
+
+    从焦点堆栈进行深度估计是一个基本的计算机视觉问题，旨在通过图像堆栈中的焦点/离焦线索推断深度。大多数现有方法通过在一组固定的图像堆栈上应用二维或三维卷积神经网络（CNNs）来处理此问题，以在图像和堆栈之间学习特征。由于CNN的局部性质，它们的性能受到限制，并且它们被限制在处理在训练和推断中一致的固定数量的堆栈上，从而限制了对任意长度堆栈的泛化能力。为了解决上述限制，我们开发了一种新颖的基于Transformer的网络，FocDepthFormer，主要由带有LSTM模块和CNN解码器的Transformer组成。Transformer中的自注意力通过隐含非局部交叉参考能够学习更多有信息的特征。LSTM模块被学习用于将表示集成到具有任意图像的堆栈中。为了直接捕获低级特征
+
+    Depth estimation from focal stacks is a fundamental computer vision problem that aims to infer depth from focus/defocus cues in the image stacks. Most existing methods tackle this problem by applying convolutional neural networks (CNNs) with 2D or 3D convolutions over a set of fixed stack images to learn features across images and stacks. Their performance is restricted due to the local properties of the CNNs, and they are constrained to process a fixed number of stacks consistent in train and inference, limiting the generalization to the arbitrary length of stacks. To handle the above limitations, we develop a novel Transformer-based network, FocDepthFormer, composed mainly of a Transformer with an LSTM module and a CNN decoder. The self-attention in Transformer enables learning more informative features via an implicit non-local cross reference. The LSTM module is learned to integrate the representations across the stack with arbitrary images. To directly capture the low-level featur
+    
+[^9]: 针对模式复杂的异构信息网络的归纳元路径学习
+
+    Inductive Meta-path Learning for Schema-complex Heterogeneous Information Networks. (arXiv:2307.03937v1 [cs.AI])
+
+    [http://arxiv.org/abs/2307.03937](http://arxiv.org/abs/2307.03937)
+
+    这项研究提出了一种针对模式复杂的异构信息网络的归纳元路径学习框架SchemaWalk。
+
+    
+
+    异构信息网络(HINs)是具有多种节点类型和边类型的信息网络。元路径的概念即一系列连接两个实体的实体类型和关系类型的序列被提出为提供对不同HIN任务的元级可解释语义的一种方法。传统上，元路径主要用于模式简单的HINs，例如只有少量实体类型的文献网络，在这种情况下，元路径通常通过领域知识枚举。然而，元路径在模式复杂的HINs(例如具有数百种实体和关系类型的知识库)中的应用受到了由元路径枚举引起的计算复杂性的限制。此外，有效评估元路径需要枚举相关路径实例，这进一步增加了元路径学习过程的复杂性。为了应对这些挑战，我们提出了一种用于模式复杂的HINs的归纳元路径学习框架SchemaWalk。
+
+    Heterogeneous Information Networks (HINs) are information networks with multiple types of nodes and edges. The concept of meta-path, i.e., a sequence of entity types and relation types connecting two entities, is proposed to provide the meta-level explainable semantics for various HIN tasks. Traditionally, meta-paths are primarily used for schema-simple HINs, e.g., bibliographic networks with only a few entity types, where meta-paths are often enumerated with domain knowledge. However, the adoption of meta-paths for schema-complex HINs, such as knowledge bases (KBs) with hundreds of entity and relation types, has been limited due to the computational complexity associated with meta-path enumeration. Additionally, effectively assessing meta-paths requires enumerating relevant path instances, which adds further complexity to the meta-path learning process. To address these challenges, we propose SchemaWalk, an inductive meta-path learning framework for schema-complex HINs. We represent m
+    
+[^10]: 面向公正AI的数据质量维度
+
+    Data quality dimensions for fair AI. (arXiv:2305.06967v1 [cs.AI])
+
+    [http://arxiv.org/abs/2305.06967](http://arxiv.org/abs/2305.06967)
+
+    本文着眼于解决AI系统中的偏见问题，从信息质量维度的角度出发提出了解决偏见的潜在改进，提出了完整性、一致性、及时性和可靠性等数据质量维度。
+
+    
+
+    人工智能系统并非本质上具有中立性，因此偏见会渗透到任何类型的技术工具中。特别是在处理人类时，AI算法会反映出源于错标记数据的技术错误。由于它们提供了错误和歧视性的分类，延续了结构性种族主义和边缘化现象，这些系统并未系统地防范偏见。本文从信息质量维度的角度考虑了AI系统偏见问题，以两个通常较为困难的情境，即非二元个体的分类和跨性别个体的分类为例，说明了偏见缓解工具的潜在改进。确定要实施的数据质量维度以实现更公平的目的可能有助于解决这个问题，因此我们提出建议在完整性、一致性、及时性和可靠性等方面考虑这个问题，并提供了一些理论结果。
+
+    AI systems are not intrinsically neutral and biases trickle in any type of technological tool. In particular when dealing with people, AI algorithms reflect technical errors originating with mislabeled data. As they feed wrong and discriminatory classifications, perpetuating structural racism and marginalization, these systems are not systematically guarded against bias. In this article we consider the problem of bias in AI systems from the point of view of Information Quality dimensions. We illustrate potential improvements of a bias mitigation tool in gender classification errors, referring to two typically difficult contexts: the classification of non-binary individuals and the classification of transgender individuals. The identification of data quality dimensions to implement in bias mitigation tool may help achieve more fairness. Hence, we propose to consider this issue in terms of completeness, consistency, timeliness and reliability, and offer some theoretical results.
+    
+[^11]: OpenDriver: 一份开放路况驾驶员状态检测数据集
+
+    OpenDriver: an open-road driver state detection dataset. (arXiv:2304.04203v1 [cs.AI])
+
+    [http://arxiv.org/abs/2304.04203](http://arxiv.org/abs/2304.04203)
+
+    OpenDriver是一份旨在解决现有驾驶员生理数据集存在问题的开放路况驾驶员状态检测数据集，包含六轴惯性信号和心电图信号两种模态的数据，可用于驾驶员受损检测和生物识别数据识别。
+
+    
+
+    在现代社会中，道路安全严重依赖于驾驶员的心理和生理状态。疲劳、昏昏欲睡和压力等负面因素会影响驾驶员的反应时间和决策能力，导致交通事故的发生率增加。在众多的驾驶员行为监测研究中，可穿戴生理测量是一种实时监测驾驶员状态的方法。然而，目前在开放道路场景下，缺少驾驶员生理数据集，已有的数据集存在信号质量差、样本量小和数据收集时间短等问题。因此，本文设计并描述了一种大规模多模态驾驶数据集，用于驾驶员受损检测和生物识别数据识别。该数据集包含两种驾驶信号模态：六轴惯性信号和心电图（ECG）信号，这些信号是在100多名驾驶员遵循相同路线行驶时记录的。
+
+    In modern society, road safety relies heavily on the psychological and physiological state of drivers. Negative factors such as fatigue, drowsiness, and stress can impair drivers' reaction time and decision making abilities, leading to an increased incidence of traffic accidents. Among the numerous studies for impaired driving detection, wearable physiological measurement is a real-time approach to monitoring a driver's state. However, currently, there are few driver physiological datasets in open road scenarios and the existing datasets suffer from issues such as poor signal quality, small sample sizes, and short data collection periods. Therefore, in this paper, a large-scale multimodal driving dataset for driver impairment detection and biometric data recognition is designed and described. The dataset contains two modalities of driving signals: six-axis inertial signals and electrocardiogram (ECG) signals, which were recorded while over one hundred drivers were following the same ro
     
 
