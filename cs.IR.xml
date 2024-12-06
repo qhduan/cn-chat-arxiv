@@ -1,1 +1,41 @@
-<rss version="2.0"><channel><title>Chat Arxiv cs.IR</title><link>https://github.com/qhduan/cn-chat-arxiv</link><description>This is arxiv RSS feed for cs.IR</description></channel></rss>
+<rss version="2.0"><channel><title>Chat Arxiv cs.IR</title><link>https://github.com/qhduan/cn-chat-arxiv</link><description>This is arxiv RSS feed for cs.IR</description><item><title>&#26412;&#30740;&#31350;&#25552;&#20986;&#20102;Agent-OM&#65292;&#21033;&#29992;LLM&#20195;&#29702;&#20026;&#26412;&#20307;&#21305;&#37197;&#31995;&#32479;&#24341;&#20837;&#20102;&#26032;&#30340;&#35774;&#35745;&#33539;&#24335;&#12290;</title><link>https://arxiv.org/abs/2312.00326</link><description>&lt;p&gt;
+Agent-OM&#65306;&#21033;&#29992;LLM&#20195;&#29702;&#36827;&#34892;&#26412;&#20307;&#21305;&#37197;
+&lt;/p&gt;
+&lt;p&gt;
+Agent-OM: Leveraging LLM Agents for Ontology Matching
+&lt;/p&gt;
+&lt;p&gt;
+https://arxiv.org/abs/2312.00326
+&lt;/p&gt;
+&lt;p&gt;
+&#26412;&#30740;&#31350;&#25552;&#20986;&#20102;Agent-OM&#65292;&#21033;&#29992;LLM&#20195;&#29702;&#20026;&#26412;&#20307;&#21305;&#37197;&#31995;&#32479;&#24341;&#20837;&#20102;&#26032;&#30340;&#35774;&#35745;&#33539;&#24335;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+&#26412;&#20307;&#21305;&#37197;&#65288;OM&#65289;&#33021;&#22815;&#23454;&#29616;&#19981;&#21516;&#26412;&#20307;&#20043;&#38388;&#30340;&#35821;&#20041;&#20114;&#25805;&#20316;&#24615;&#65292;&#36890;&#36807;&#23545;&#40784;&#30456;&#20851;&#23454;&#20307;&#26469;&#35299;&#20915;&#20854;&#27010;&#24565;&#24322;&#26500;&#24615;&#12290;&#26412;&#30740;&#31350;&#24341;&#20837;&#20102;&#19968;&#31181;&#26032;&#39062;&#30340;&#22522;&#20110;&#20195;&#29702;&#30340;LLM&#35774;&#35745;&#33539;&#24335;&#65292;&#21629;&#21517;&#20026;Agent-OM&#65292;&#21253;&#25324;&#20004;&#20010;&#29992;&#20110;&#26816;&#32034;&#21644;&#21305;&#37197;&#30340;&#21516;&#20307;&#20195;&#29702;&#20197;&#21450;&#19968;&#32452;&#22522;&#20110;&#25552;&#31034;&#30340;&#31616;&#21333;OM&#24037;&#20855;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+arXiv:2312.00326v2 Announce Type: replace  Abstract: Ontology matching (OM) enables semantic interoperability between different ontologies and resolves their conceptual heterogeneity by aligning related entities. OM systems currently have two prevailing design paradigms: conventional knowledge-based expert systems and newer machine learning-based predictive systems. While large language models (LLMs) and LLM agents have revolutionised data engineering and have been applied creatively in many domains, their potential for OM remains underexplored. This study introduces a novel agent-powered LLM-based design paradigm for OM systems. With consideration of several specific challenges in leveraging LLM agents for OM, we propose a generic framework, namely Agent-OM, consisting of two Siamese agents for retrieval and matching, with a set of simple prompt-based OM tools. Our framework is implemented in a proof-of-concept system. Evaluations of three Ontology Alignment Evaluation Initiative (OAE
+&lt;/p&gt;</description></item><item><title>&#26412;&#25991;&#38024;&#23545;&#26053;&#28216;&#39046;&#22495;&#30340;&#20852;&#36259;&#28857;&#25512;&#33616;&#38382;&#39064;&#36827;&#34892;&#20102;&#35843;&#26597;&#30740;&#31350;&#65292;&#25506;&#35752;&#20102;&#21033;&#29992;&#24322;&#26500;&#25968;&#25454;&#35299;&#20915;&#26053;&#36884;&#20013;&#20852;&#36259;&#28857;&#25512;&#33616;&#38382;&#39064;&#30340;&#28508;&#21147;&#19982;&#25361;&#25112;&#12290;</title><link>http://arxiv.org/abs/2308.07426</link><description>&lt;p&gt;
+&#21033;&#29992;&#24322;&#26500;&#25968;&#25454;&#36827;&#34892;&#20852;&#36259;&#28857;&#25512;&#33616;&#30340;&#35843;&#26597;
+&lt;/p&gt;
+&lt;p&gt;
+A Survey on Point-of-Interest Recommendations Leveraging Heterogeneous Data. (arXiv:2308.07426v1 [cs.IR])
+&lt;/p&gt;
+&lt;p&gt;
+http://arxiv.org/abs/2308.07426
+&lt;/p&gt;
+&lt;p&gt;
+&#26412;&#25991;&#38024;&#23545;&#26053;&#28216;&#39046;&#22495;&#30340;&#20852;&#36259;&#28857;&#25512;&#33616;&#38382;&#39064;&#36827;&#34892;&#20102;&#35843;&#26597;&#30740;&#31350;&#65292;&#25506;&#35752;&#20102;&#21033;&#29992;&#24322;&#26500;&#25968;&#25454;&#35299;&#20915;&#26053;&#36884;&#20013;&#20852;&#36259;&#28857;&#25512;&#33616;&#38382;&#39064;&#30340;&#28508;&#21147;&#19982;&#25361;&#25112;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+&#26053;&#28216;&#26159;&#25512;&#33616;&#31995;&#32479;&#30340;&#19968;&#20010;&#37325;&#35201;&#24212;&#29992;&#39046;&#22495;&#12290;&#22312;&#36825;&#20010;&#39046;&#22495;&#20013;&#65292;&#25512;&#33616;&#31995;&#32479;&#20027;&#35201;&#36127;&#36131;&#20026;&#20132;&#36890;&#12289;&#20303;&#23487;&#12289;&#20852;&#36259;&#28857;&#25110;&#26053;&#28216;&#26381;&#21153;&#25552;&#20379;&#20010;&#24615;&#21270;&#25512;&#33616;&#12290;&#22312;&#36825;&#20123;&#20219;&#21153;&#20013;&#65292;&#23588;&#20854;&#26159;&#23545;&#20010;&#20307;&#28216;&#23458;&#21487;&#33021;&#24863;&#20852;&#36259;&#30340;&#20852;&#36259;&#28857;&#36827;&#34892;&#25512;&#33616;&#30340;&#38382;&#39064;&#36817;&#24180;&#26469;&#24341;&#36215;&#20102;&#36234;&#26469;&#36234;&#22810;&#30340;&#20851;&#27880;&#12290;&#28982;&#32780;&#65292;&#22312;&#28216;&#23458;&#8220;&#26053;&#36884;&#20013;&#8221;&#25552;&#20379;&#20852;&#36259;&#28857;&#25512;&#33616;&#21487;&#33021;&#20250;&#38754;&#20020;&#29305;&#27530;&#25361;&#25112;&#65292;&#22240;&#20026;&#29992;&#25143;&#30340;&#19978;&#19979;&#25991;&#21464;&#21270;&#22810;&#26679;&#12290;&#38543;&#30528;&#20114;&#32852;&#32593;&#30340;&#24555;&#36895;&#21457;&#23637;&#21644;&#24403;&#20170;&#21508;&#31181;&#22312;&#32447;&#26381;&#21153;&#30340;&#22823;&#37327;&#25968;&#25454;&#65292;&#21508;&#31181;&#24322;&#26500;&#25968;&#25454;&#28304;&#30340;&#25968;&#25454;&#24050;&#32463;&#21464;&#24471;&#21487;&#29992;&#65292;&#36825;&#20123;&#24322;&#26500;&#25968;&#25454;&#28304;&#20026;&#35299;&#20915;&#26053;&#36884;&#20013;&#20852;&#36259;&#28857;&#25512;&#33616;&#38382;&#39064;&#30340;&#25361;&#25112;&#25552;&#20379;&#20102;&#24040;&#22823;&#28508;&#21147;&#12290;&#22312;&#36825;&#39033;&#24037;&#20316;&#20013;&#65292;&#25105;&#20204;&#20174;&#24322;&#26500;&#25968;&#25454;&#30340;&#35282;&#24230;&#25552;&#20379;&#20102;2017&#24180;&#33267;2022&#24180;&#38388;&#24050;&#21457;&#34920;&#30340;&#20852;&#36259;&#28857;&#25512;&#33616;&#30740;&#31350;&#30340;&#32508;&#36848;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+Tourism is an important application domain for recommender systems. In this domain, recommender systems are for example tasked with providing personalized recommendations for transportation, accommodation, points-of-interest (POIs), or tourism services. Among these tasks, in particular the problem of recommending POIs that are of likely interest to individual tourists has gained growing attention in recent years. Providing POI recommendations to tourists \emph{during their trip} can however be especially challenging due to the variability of the users' context. With the rapid development of the Web and today's multitude of online services, vast amounts of data from various sources have become available, and these heterogeneous data sources represent a huge potential to better address the challenges of in-trip POI recommendation problems. In this work, we provide a comprehensive survey of published research on POI recommendation between 2017 and 2022 from the perspective of heterogeneou
+&lt;/p&gt;</description></item></channel></rss>

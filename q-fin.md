@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [On the potential of quantum walks for modeling financial return distributions](https://arxiv.org/abs/2403.19502) | 量子漫步算法在模拟金融市场中的资产价格演变方面展现出了巨大的灵活性，能够克服经典模型的局限性，产生复杂的市场倾向，以及更高概率的极端事件。 |
-| [^2] | [Chain-structured neural architecture search for financial time series forecasting](https://arxiv.org/abs/2403.14695) | 在金融时间序列预测领域，比较了贝叶斯优化、超带方法和强化学习等神经架构搜索策略。 |
+| [^1] | [Semi-parametric financial risk forecasting incorporating multiple realized measures](https://arxiv.org/abs/2402.09985) | 本研究提出了一个半参数金融风险预测框架，它利用多个实现指标建模联合VaR和ES，并采用非对称拉普拉斯分布进行贝叶斯推断。实证结果表明，该框架在涵盖COVID-19期间的多个股市上表现良好。 |
+| [^2] | [Market Responses to Genuine Versus Strategic Generosity: An Empirical Examination of NFT Charity Fundraisers.](http://arxiv.org/abs/2401.12064) | 本文通过观察NFT慈善筹款活动中捐助人购买NFT对其后续市场结果的影响，探讨了真诚与策略性慷慨行为对市场的回应，并发现了明确的异质模式。 |
 
 # 详细
 
-[^1]: 关于量子漫步用于建模金融回报分布的潜力
+[^1]: 半参数金融风险预测模型中引入多个实现指标
 
-    On the potential of quantum walks for modeling financial return distributions
+    Semi-parametric financial risk forecasting incorporating multiple realized measures
 
-    [https://arxiv.org/abs/2403.19502](https://arxiv.org/abs/2403.19502)
+    [https://arxiv.org/abs/2402.09985](https://arxiv.org/abs/2402.09985)
 
-    量子漫步算法在模拟金融市场中的资产价格演变方面展现出了巨大的灵活性，能够克服经典模型的局限性，产生复杂的市场倾向，以及更高概率的极端事件。
-
-    
-
-    准确建模资产价格的时间演变对于理解金融市场至关重要。我们探讨了离散时间量子漫步在建模资产价格演变方面的潜力。从基于量子漫步算法的模型获得的回报分布与从经典方法获得的分布进行了比较。我们关注经典模型的特定局限性，并且阐明量子漫步模型具有克服这些局限性的极大灵活性。其中包括产生具有复杂市场倾向的不对称回报分布以及在某些经典模型中比极端事件具有更高概率。此外，量子漫步中的时间演变具有提供资产价格动态的潜力。
-
-    arXiv:2403.19502v1 Announce Type: new  Abstract: Accurate modeling of the temporal evolution of asset prices is crucial for understanding financial markets. We explore the potential of discrete-time quantum walks to model the evolution of asset prices. Return distributions obtained from a model based on the quantum walk algorithm are compared with those obtained from classical methodologies. We focus on specific limitations of the classical models, and illustrate that the quantum walk model possesses great flexibility in overcoming these. This includes the potential to generate asymmetric return distributions with complex market tendencies and higher probabilities for extreme events than in some of the classical models. Furthermore, the temporal evolution in the quantum walk possesses the potential to provide asset price dynamics.
-    
-[^2]: 针对金融时间序列预测的链式神经架构搜索
-
-    Chain-structured neural architecture search for financial time series forecasting
-
-    [https://arxiv.org/abs/2403.14695](https://arxiv.org/abs/2403.14695)
-
-    在金融时间序列预测领域，比较了贝叶斯优化、超带方法和强化学习等神经架构搜索策略。
+    本研究提出了一个半参数金融风险预测框架，它利用多个实现指标建模联合VaR和ES，并采用非对称拉普拉斯分布进行贝叶斯推断。实证结果表明，该框架在涵盖COVID-19期间的多个股市上表现良好。
 
     
 
-    我们在链式搜索空间上比较了三种流行的神经架构搜索策略：贝叶斯优化、超带方法和强化学习，这在金融时间序列预测的背景下进行了研究。
+    本文提出了一种半参数联合VaR和ES预测框架，其中引入了多个实现指标。该框架通过使用多个实现指标作为外生变量来扩展分位数回归模型VaR。然后，利用实现指标的信息来建模VaR和ES之间的时变关系。最后，使用模拟量和实现指标之间的同期相关性建立的度量方程来完成模型。基于非对称拉普拉斯分布的准似然方法实现了对该模型的贝叶斯推断。使用自适应马尔可夫链蒙特卡洛方法对模型进行估计。经验证实，该框架在涵盖COVID-19期间的2000年1月至2022年6月间的六个股市上具有较好的预测性能。
 
-    arXiv:2403.14695v1 Announce Type: cross  Abstract: We compare three popular neural architecture search strategies on chain-structured search spaces: Bayesian optimization, the hyperband method, and reinforcement learning in the context of financial time series forecasting.
+    arXiv:2402.09985v1 Announce Type: new  Abstract: A semi-parametric joint Value-at-Risk (VaR) and Expected Shortfall (ES) forecasting framework employing multiple realized measures is developed. The proposed framework extends the quantile regression using multiple realized measures as exogenous variables to model the VaR. Then, the information from realized measures is used to model the time-varying relationship between VaR and ES. Finally, a measurement equation that models the contemporaneous dependence between the quantile and realized measures is used to complete the model. A quasi-likelihood, built on the asymmetric Laplace distribution, enables the Bayesian inference for the proposed model. An adaptive Markov Chain Monte Carlo method is used for the model estimation. The empirical section evaluates the performance of the proposed framework with six stock markets from January 2000 to June 2022, covering the period of COVID-19. Three realized measures, including 5-minute realized va
+    
+[^2]: 真诚与策略性慷慨行为对市场的回应：对NFT慈善筹款的实证研究
+
+    Market Responses to Genuine Versus Strategic Generosity: An Empirical Examination of NFT Charity Fundraisers. (arXiv:2401.12064v1 [econ.GN])
+
+    [http://arxiv.org/abs/2401.12064](http://arxiv.org/abs/2401.12064)
+
+    本文通过观察NFT慈善筹款活动中捐助人购买NFT对其后续市场结果的影响，探讨了真诚与策略性慷慨行为对市场的回应，并发现了明确的异质模式。
+
+    
+
+    加密货币捐赠现在占据全球慈善捐赠的重要份额。非同质化代币（NFT）慈善筹款作为一种新的发展方式，在这个领域中出现了。NFT慈善筹款的一个独特之处在于捐助人有可能从所购买的NFT上升值中获得经济利益。对于这些慈善筹款的捐助人动机可能会产生负面的社会形象。因此，NFT慈善筹款提供了一个了解捐助人社会形象经济后果的独特机会。我们通过利用区块链上交易处理时间的随机变动，研究了一个大型NFT慈善筹款活动中购买NFT对捐助人后续市场结果的因果效应。此外，我们展示了明确的异质模式。
+
+    Crypto donations now represent a significant fraction of charitable giving worldwide. Nonfungible token (NFT) charity fundraisers, which involve the sale of NFTs of artistic works with the proceeds donated to philanthropic causes, have emerged as a novel development in this space. A unique aspect of NFT charity fundraisers is the significant potential for donors to reap financial gains from the rising value of purchased NFTs. Questions may arise about the motivations of donors in these charity fundraisers, resulting in a negative social image. NFT charity fundraisers thus offer a unique opportunity to understand the economic consequences of a donor's social image. We investigate these effects in the context of a large NFT charity fundraiser. We identify the causal effect of purchasing an NFT within the charity fundraiser on a donor's later market outcomes by leveraging random variation in transaction processing times on the blockchain. Further, we demonstrate a clear pattern of heterog
     
 

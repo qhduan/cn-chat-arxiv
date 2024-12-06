@@ -2,15 +2,43 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Reliable uncertainty with cheaper neural network ensembles: a case study in industrial parts classification](https://arxiv.org/abs/2403.10182) | 研究在工业零部件分类中探讨了利用更便宜的神经网络集成实现可靠的不确定性估计的方法 |
-| [^2] | [Prediction-Powered Ranking of Large Language Models](https://arxiv.org/abs/2402.17826) | 该研究提出了一种统计框架，可以衡量人类与模型偏好之间的不确定性，从而进行大型语言模型的预测排名。 |
-| [^3] | [Scaling laws for learning with real and surrogate data](https://arxiv.org/abs/2402.04376) | 本研究探讨了将替代数据与真实数据整合以进行训练的方案，发现整合替代数据能够显著降低测试误差，并提出了一个扩展规律来描述混合模型的测试误差，可以用于预测最优加权和收益。 |
-| [^4] | [A path-norm toolkit for modern networks: consequences, promises and challenges.](http://arxiv.org/abs/2310.01225) | 本文介绍了适用于现代神经网络的路径范数工具包，可以包括具有偏差、跳跃连接和最大池化的通用DAG ReLU网络。这个工具包恢复或超越了已知的路径范数界限，并挑战了基于路径范数的一些具体承诺。 |
-| [^5] | [Towards Size-Independent Generalization Bounds for Deep Operator Nets.](http://arxiv.org/abs/2205.11359) | 本论文研究了深度操作器网络的泛化界限问题，在一类DeepONets中证明了它们的Rademacher复杂度的界限不会随网络宽度扩展而明确变化，并利用这个结果展示了如何选择Huber损失来获得不明确依赖于网络大小的泛化误差界限。 |
+| [^1] | [Equity through Access: A Case for Small-scale Deep Learning](https://arxiv.org/abs/2403.12562) | 通过引入PePR分数，研究人员展示了在资源有限的情况下，利用131种独特的DL架构在医学图像任务中的可行性。 |
+| [^2] | [An SDP-based Branch-and-Cut Algorithm for Biclustering](https://arxiv.org/abs/2403.11351) | 提出了一个基于SDP的分支定界算法，用于解决$k$-最密不相交双团问题。 |
+| [^3] | [Reliable uncertainty with cheaper neural network ensembles: a case study in industrial parts classification](https://arxiv.org/abs/2403.10182) | 研究在工业零部件分类中探讨了利用更便宜的神经网络集成实现可靠的不确定性估计的方法 |
+| [^4] | [Tuning the perplexity for and computing sampling-based t-SNE embeddings.](http://arxiv.org/abs/2308.15513) | 本文通过采样的方法改进了大数据集下t-SNE嵌入的质量和计算速度。 |
+| [^5] | [Data-driven Piecewise Affine Decision Rules for Stochastic Programming with Covariate Information.](http://arxiv.org/abs/2304.13646) | 本研究提出一种嵌入非凸分段仿射决策规则的经验风险最小化方法，用于学习特征与最优决策之间的直接映射。所提出的方法可用于广泛的非凸型SP问题，并且在数值研究中表现出优越的性能。 |
 
 # 详细
 
-[^1]: 用更便宜的神经网络集成实现可靠的不确定性：工业零部件分类案例研究
+[^1]: 通过获取赋权：支持小规模深度学习的案例
+
+    Equity through Access: A Case for Small-scale Deep Learning
+
+    [https://arxiv.org/abs/2403.12562](https://arxiv.org/abs/2403.12562)
+
+    通过引入PePR分数，研究人员展示了在资源有限的情况下，利用131种独特的DL架构在医学图像任务中的可行性。
+
+    
+
+    深度学习（DL）的最新进展得益于大规模数据和计算力的提升。这些大规模资源被用于训练日益庞大的模型，而这些模型在计算、数据、能源和碳排放方面消耗巨大。这些成本正在成为研究人员和从业者面临的新型准入障碍，特别是对于那些在全球南方地区资源有限的人。在这项工作中，我们全面审视了现有视觉任务的DL模型，并展示了它们在资源有限的环境中的实用性。为了考虑DL模型的资源消耗，我们引入了一个衡量性能与资源单元的新指标，我们称之为PePR分数。通过使用131种独特的DL架构（跨度从1M到130M个可训练参数）和三个医学图像数据集，我们获取了有关性能和资源之间关系的趋势。
+
+    arXiv:2403.12562v1 Announce Type: cross  Abstract: The recent advances in deep learning (DL) have been accelerated by access to large-scale data and compute. These large-scale resources have been used to train progressively larger models which are resource intensive in terms of compute, data, energy, and carbon emissions. These costs are becoming a new type of entry barrier to researchers and practitioners with limited access to resources at such scale, particularly in the Global South. In this work, we take a comprehensive look at the landscape of existing DL models for vision tasks and demonstrate their usefulness in settings where resources are limited. To account for the resource consumption of DL models, we introduce a novel measure to estimate the performance per resource unit, which we call the PePR score. Using a diverse family of 131 unique DL architectures (spanning 1M to 130M trainable parameters) and three medical image datasets, we capture trends about the performance-reso
+    
+[^2]: 基于SDP的二分图聚类分支定界算法
+
+    An SDP-based Branch-and-Cut Algorithm for Biclustering
+
+    [https://arxiv.org/abs/2403.11351](https://arxiv.org/abs/2403.11351)
+
+    提出了一个基于SDP的分支定界算法，用于解决$k$-最密不相交双团问题。
+
+    
+
+    二分图聚类，也称为共聚类、块聚类或双向聚类，涉及将数据矩阵的行和列同时聚类成不同的组，使得同一组内的行和列显示出相似的模式。作为二分图聚类的模型问题，我们考虑$k$-最密不相交双团问题，其目标是在给定加权完全二分图中识别 $k$ 个不相交的完全二部子图（称为双团），使它们的密度之和最大化。为了解决这个问题，我们提出了一个定制的分支定界算法。对于上界例程，我们考虑半定规划放松并提出了用于加强界限的有效不等式。我们使用一种一阶方法以切平面方式解决这个放松问题。对于下界，我们设计了一个利用解决方案的最大权匹配舍入过程。
+
+    arXiv:2403.11351v1 Announce Type: cross  Abstract: Biclustering, also called co-clustering, block clustering, or two-way clustering, involves the simultaneous clustering of both the rows and columns of a data matrix into distinct groups, such that the rows and columns within a group display similar patterns. As a model problem for biclustering, we consider the $k$-densest-disjoint biclique problem, whose goal is to identify $k$ disjoint complete bipartite subgraphs (called bicliques) of a given weighted complete bipartite graph such that the sum of their densities is maximized. To address this problem, we present a tailored branch-and-cut algorithm. For the upper bound routine, we consider a semidefinite programming relaxation and propose valid inequalities to strengthen the bound. We solve this relaxation in a cutting-plane fashion using a first-order method. For the lower bound, we design a maximum weight matching rounding procedure that exploits the solution of the relaxation solved
+    
+[^3]: 用更便宜的神经网络集成实现可靠的不确定性：工业零部件分类案例研究
 
     Reliable uncertainty with cheaper neural network ensembles: a case study in industrial parts classification
 
@@ -24,60 +52,32 @@
 
     arXiv:2403.10182v1 Announce Type: new  Abstract: In operations research (OR), predictive models often encounter out-of-distribution (OOD) scenarios where the data distribution differs from the training data distribution. In recent years, neural networks (NNs) are gaining traction in OR for their exceptional performance in fields such as image classification. However, NNs tend to make confident yet incorrect predictions when confronted with OOD data. Uncertainty estimation offers a solution to overconfident models, communicating when the output should (not) be trusted. Hence, reliable uncertainty quantification in NNs is crucial in the OR domain. Deep ensembles, composed of multiple independent NNs, have emerged as a promising approach, offering not only strong predictive accuracy but also reliable uncertainty estimation. However, their deployment is challenging due to substantial computational demands. Recent fundamental research has proposed more efficient NN ensembles, namely the sna
     
-[^2]: 大型语言模型的预测排名
+[^4]: 调整困惑度并计算基于采样的t-SNE嵌入
 
-    Prediction-Powered Ranking of Large Language Models
+    Tuning the perplexity for and computing sampling-based t-SNE embeddings. (arXiv:2308.15513v1 [cs.LG])
 
-    [https://arxiv.org/abs/2402.17826](https://arxiv.org/abs/2402.17826)
+    [http://arxiv.org/abs/2308.15513](http://arxiv.org/abs/2308.15513)
 
-    该研究提出了一种统计框架，可以衡量人类与模型偏好之间的不确定性，从而进行大型语言模型的预测排名。
-
-    
-
-    大型语言模型通常根据其与人类偏好的一致性水平进行排名--如果一个模型的输出更受人类偏好，那么它就比其他模型更好。本文提出了一种统计框架来弥合人类与模型偏好之间可能引入的不一致性。
-
-    arXiv:2402.17826v1 Announce Type: cross  Abstract: Large language models are often ranked according to their level of alignment with human preferences -- a model is better than other models if its outputs are more frequently preferred by humans. One of the most popular ways to elicit human preferences utilizes pairwise comparisons between the outputs provided by different models to the same inputs. However, since gathering pairwise comparisons by humans is costly and time-consuming, it has become a very common practice to gather pairwise comparisons by a strong large language model -- a model strongly aligned with human preferences. Surprisingly, practitioners cannot currently measure the uncertainty that any mismatch between human and model preferences may introduce in the constructed rankings. In this work, we develop a statistical framework to bridge this gap. Given a small set of pairwise comparisons by humans and a large set of pairwise comparisons by a model, our framework provid
-    
-[^3]: 使用真实数据和替代数据进行学习的扩展规律
-
-    Scaling laws for learning with real and surrogate data
-
-    [https://arxiv.org/abs/2402.04376](https://arxiv.org/abs/2402.04376)
-
-    本研究探讨了将替代数据与真实数据整合以进行训练的方案，发现整合替代数据能够显著降低测试误差，并提出了一个扩展规律来描述混合模型的测试误差，可以用于预测最优加权和收益。
+    本文通过采样的方法改进了大数据集下t-SNE嵌入的质量和计算速度。
 
     
 
-    收集大量高质量的数据通常被限制在成本昂贵或不切实际的范围内, 这是机器学习中的一个关键瓶颈。相反地, 可以将来自目标分布的小规模数据集与来自公共数据集、不同情况下收集的数据或由生成模型合成的数据相结合, 作为替代数据。我们提出了一种简单的方案来将替代数据整合到训练中, 并使用理论模型和实证研究探索其行为。我们的主要发现是：(i) 整合替代数据可以显著降低原始分布的测试误差；(ii) 为了获得这种效益, 使用最优加权经验风险最小化非常关键；(iii) 在混合使用真实数据和替代数据训练的模型的测试误差可以很好地用一个扩展规律来描述。这可以用来预测最优加权和收益。
+    高维数据分析常用的管道利用二维可视化，例如通过t分布邻近随机嵌入（t-SNE）。但在处理大数据集时，应用这些可视化技术会生成次优的嵌入，因为超参数不适用于大数据。将这些参数增加通常不起作用，因为计算对于实际工作流程来说太昂贵。本文中，我们认为基于采样的嵌入方法可以解决这些问题。我们展示了必须谨慎选择超参数，取决于采样率和预期的最终嵌入。此外，我们展示了该方法如何加速计算并提高嵌入的质量。
 
-    Collecting large quantities of high-quality data is often prohibitively expensive or impractical, and a crucial bottleneck in machine learning. One may instead augment a small set of $n$ data points from the target distribution with data from more accessible sources like public datasets, data collected under different circumstances, or synthesized by generative models. Blurring distinctions, we refer to such data as `surrogate data'.   We define a simple scheme for integrating surrogate data into training and use both theoretical models and empirical studies to explore its behavior. Our main findings are: $(i)$ Integrating surrogate data can significantly reduce the test error on the original distribution; $(ii)$ In order to reap this benefit, it is crucial to use optimally weighted empirical risk minimization; $(iii)$ The test error of models trained on mixtures of real and surrogate data is well described by a scaling law. This can be used to predict the optimal weighting and the gai
+    Widely used pipelines for the analysis of high-dimensional data utilize two-dimensional visualizations. These are created, e.g., via t-distributed stochastic neighbor embedding (t-SNE). When it comes to large data sets, applying these visualization techniques creates suboptimal embeddings, as the hyperparameters are not suitable for large data. Cranking up these parameters usually does not work as the computations become too expensive for practical workflows. In this paper, we argue that a sampling-based embedding approach can circumvent these problems. We show that hyperparameters must be chosen carefully, depending on the sampling rate and the intended final embedding. Further, we show how this approach speeds up the computation and increases the quality of the embeddings.
     
-[^4]: 一种适用于现代网络的路径范数工具包：影响、前景和挑战
+[^5]: 基于数据驱动的分段仿射决策规则用于带协变信息的随机规划
 
-    A path-norm toolkit for modern networks: consequences, promises and challenges. (arXiv:2310.01225v1 [stat.ML])
+    Data-driven Piecewise Affine Decision Rules for Stochastic Programming with Covariate Information. (arXiv:2304.13646v1 [math.OC])
 
-    [http://arxiv.org/abs/2310.01225](http://arxiv.org/abs/2310.01225)
+    [http://arxiv.org/abs/2304.13646](http://arxiv.org/abs/2304.13646)
 
-    本文介绍了适用于现代神经网络的路径范数工具包，可以包括具有偏差、跳跃连接和最大池化的通用DAG ReLU网络。这个工具包恢复或超越了已知的路径范数界限，并挑战了基于路径范数的一些具体承诺。
-
-    
-
-    本文介绍了第一个完全能够包括具有偏差、跳跃连接和最大池化的通用DAG ReLU网络的路径范数工具包。这个工具包不仅适用于最广泛的基于路径范数的现代神经网络，还可以恢复或超越已知的此类范数的最尖锐界限。这些扩展的路径范数还享有路径范数的常规优点：计算简便、对网络的对称性具有不变性，在前馈网络上比操作符范数的乘积（另一种常用的复杂度度量）具有更好的锐度。工具包的多功能性和易于实施使我们能够通过数值评估在ImageNet上对ResNet的最尖锐界限来挑战基于路径范数的具体承诺。
-
-    This work introduces the first toolkit around path-norms that is fully able to encompass general DAG ReLU networks with biases, skip connections and max pooling. This toolkit notably allows us to establish generalization bounds for real modern neural networks that are not only the most widely applicable path-norm based ones, but also recover or beat the sharpest known bounds of this type. These extended path-norms further enjoy the usual benefits of path-norms: ease of computation, invariance under the symmetries of the network, and improved sharpness on feedforward networks compared to the product of operators' norms, another complexity measure most commonly used.  The versatility of the toolkit and its ease of implementation allow us to challenge the concrete promises of path-norm-based generalization bounds, by numerically evaluating the sharpest known bounds for ResNets on ImageNet.
-    
-[^5]: 面向尺度无关的深度操作器网络的泛化界限
-
-    Towards Size-Independent Generalization Bounds for Deep Operator Nets. (arXiv:2205.11359v2 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2205.11359](http://arxiv.org/abs/2205.11359)
-
-    本论文研究了深度操作器网络的泛化界限问题，在一类DeepONets中证明了它们的Rademacher复杂度的界限不会随网络宽度扩展而明确变化，并利用这个结果展示了如何选择Huber损失来获得不明确依赖于网络大小的泛化误差界限。
+    本研究提出一种嵌入非凸分段仿射决策规则的经验风险最小化方法，用于学习特征与最优决策之间的直接映射。所提出的方法可用于广泛的非凸型SP问题，并且在数值研究中表现出优越的性能。
 
     
 
-    在最近的时期，机器学习方法在分析物理系统方面取得了重要进展。在这个主题中特别活跃的领域是"物理信息机器学习"，它专注于使用神经网络来数值求解微分方程。在这项工作中，我们旨在推进在训练DeepONets时测量样本外误差的理论 - 这是解决PDE系统最通用的方法之一。首先，针对一类DeepONets，我们证明了它们的Rademacher复杂度有一个界限，该界限不会明确地随着涉及的网络宽度扩展。其次，我们利用这一结果来展示如何选择Huber损失，使得对于这些DeepONet类，能够获得不明确依赖于网络大小的泛化误差界限。我们指出，我们的理论结果适用于任何目标是由DeepONets求解的PDE。
+    本文针对带协变信息的随机规划，提出了一种嵌入非凸分段仿射决策规则(PADR)的经验风险最小化(ERM)方法，旨在学习特征与最优决策之间的直接映射。我们建立了基于PADR的ERM模型的非渐近一致性结果，可用于无约束问题，以及约束问题的渐近一致性结果。为了解决非凸和非可微的ERM问题，我们开发了一个增强的随机主导下降算法，并建立了沿（复合强）方向稳定性的渐近收敛以及复杂性分析。我们表明，所提出的PADR-based ERM方法适用于广泛的非凸型SP问题，并具有理论一致性保证和计算可处理性。数值研究表明，在各种设置下，PADR-based ERM方法相对于最先进的方法具有优越的性能。
 
-    In recent times machine learning methods have made significant advances in becoming a useful tool for analyzing physical systems. A particularly active area in this theme has been "physics-informed machine learning" which focuses on using neural nets for numerically solving differential equations. In this work, we aim to advance the theory of measuring out-of-sample error while training DeepONets -- which is among the most versatile ways to solve PDE systems in one-shot.  Firstly, for a class of DeepONets, we prove a bound on their Rademacher complexity which does not explicitly scale with the width of the nets involved. Secondly, we use this to show how the Huber loss can be chosen so that for these DeepONet classes generalization error bounds can be obtained that have no explicit dependence on the size of the nets. We note that our theoretical results apply to any PDE being targeted to be solved by DeepONets.
+    Focusing on stochastic programming (SP) with covariate information, this paper proposes an empirical risk minimization (ERM) method embedded within a nonconvex piecewise affine decision rule (PADR), which aims to learn the direct mapping from features to optimal decisions. We establish the nonasymptotic consistency result of our PADR-based ERM model for unconstrained problems and asymptotic consistency result for constrained ones. To solve the nonconvex and nondifferentiable ERM problem, we develop an enhanced stochastic majorization-minimization algorithm and establish the asymptotic convergence to (composite strong) directional stationarity along with complexity analysis. We show that the proposed PADR-based ERM method applies to a broad class of nonconvex SP problems with theoretical consistency guarantees and computational tractability. Our numerical study demonstrates the superior performance of PADR-based ERM methods compared to state-of-the-art approaches under various settings,
     
 

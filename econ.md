@@ -2,12 +2,27 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Facility Location Games with Scaling Effects](https://arxiv.org/abs/2402.18908) | 研究了具有规模效应的设施选址游戏，提供了对于连续比例函数和分段线性比例函数的结果，适用于许多实际情景，同时探讨了近似机制设计设置下代理可能不再单峰偏好的条件与成本近似比率。 |
-| [^2] | [Combinatorial Pen Testing (or Consumer Surplus of Deferred-Acceptance Auctions).](http://arxiv.org/abs/2301.12462) | 该论文提出了一种组合式渗透测试算法，通过类比拍卖理论框架，可以将近似最优的延迟接受机制转换为近似最优的渗透测试算法，并且在逼近程度上保证了额外开销的上限。 |
+| [^1] | [Matrix-based Prediction Approach for Intraday Instantaneous Volatility Vector](https://arxiv.org/abs/2403.02591) | 提出了基于矩阵的预测方法，通过引入TIP-PCA过程，实现了短期瞬时波动的有效预测。 |
+| [^2] | [Facility Location Games with Scaling Effects](https://arxiv.org/abs/2402.18908) | 研究了具有规模效应的设施选址游戏，提供了对于连续比例函数和分段线性比例函数的结果，适用于许多实际情景，同时探讨了近似机制设计设置下代理可能不再单峰偏好的条件与成本近似比率。 |
+| [^3] | [Market Responses to Genuine Versus Strategic Generosity: An Empirical Examination of NFT Charity Fundraisers.](http://arxiv.org/abs/2401.12064) | 本文通过观察NFT慈善筹款活动中捐助人购买NFT对其后续市场结果的影响，探讨了真诚与策略性慷慨行为对市场的回应，并发现了明确的异质模式。 |
 
 # 详细
 
-[^1]: 具有规模效应的设施选址游戏
+[^1]: 基于矩阵的短期瞬时波动向量预测方法
+
+    Matrix-based Prediction Approach for Intraday Instantaneous Volatility Vector
+
+    [https://arxiv.org/abs/2403.02591](https://arxiv.org/abs/2403.02591)
+
+    提出了基于矩阵的预测方法，通过引入TIP-PCA过程，实现了短期瞬时波动的有效预测。
+
+    
+
+    这篇论文介绍了一种基于Ito半鞅模型利用高频金融数据预测短期瞬时波动的新方法。多项研究已经强调了风格化波动时间序列特征，如隔夜自回归动态和短期U形模式。为了适应这些波动特征，我们提出了一种隔夜-短期瞬时波动矩阵过程，可以分解为低秩条件预期瞬时波动和噪声矩阵。为了预测低秩条件预期瞬时波动矩阵，我们提出了Two-sIde Projected-PCA （TIP-PCA）过程。我们建立了所提估计量的渐近性质，并进行了仿真研究来评估所提预测方法的有限样本性能。最后，我们应用TIP-PCA方法进行了一个外样本瞬时波动向量预测研究。
+
+    arXiv:2403.02591v1 Announce Type: new  Abstract: In this paper, we introduce a novel method for predicting intraday instantaneous volatility based on Ito semimartingale models using high-frequency financial data. Several studies have highlighted stylized volatility time series features, such as interday auto-regressive dynamics and the intraday U-shaped pattern. To accommodate these volatility features, we propose an interday-by-intraday instantaneous volatility matrix process that can be decomposed into low-rank conditional expected instantaneous volatility and noise matrices. To predict the low-rank conditional expected instantaneous volatility matrix, we propose the Two-sIde Projected-PCA (TIP-PCA) procedure. We establish asymptotic properties of the proposed estimators and conduct a simulation study to assess the finite sample performance of the proposed prediction method. Finally, we apply the TIP-PCA method to an out-of-sample instantaneous volatility vector prediction study usin
+    
+[^2]: 具有规模效应的设施选址游戏
 
     Facility Location Games with Scaling Effects
 
@@ -21,18 +36,18 @@
 
     arXiv:2402.18908v1 Announce Type: cross  Abstract: We take the classic facility location problem and consider a variation, in which each agent's individual cost function is equal to their distance from the facility multiplied by a scaling factor which is determined by the facility placement. In addition to the general class of continuous scaling functions, we also provide results for piecewise linear scaling functions which can effectively approximate or model the scaling of many real world scenarios. We focus on the objectives of total and maximum cost, describing the computation of the optimal solution. We then move to the approximate mechanism design setting, observing that the agents' preferences may no longer be single-peaked. Consequently, we characterize the conditions on scaling functions which ensure that agents have single-peaked preferences. Under these conditions, we find results on the total and maximum cost approximation ratios achievable by strategyproof and anonymous me
     
-[^2]: 组合式渗透测试（或者延迟接受拍卖的消费者剩余值）
+[^3]: 真诚与策略性慷慨行为对市场的回应：对NFT慈善筹款的实证研究
 
-    Combinatorial Pen Testing (or Consumer Surplus of Deferred-Acceptance Auctions). (arXiv:2301.12462v2 [cs.GT] UPDATED)
+    Market Responses to Genuine Versus Strategic Generosity: An Empirical Examination of NFT Charity Fundraisers. (arXiv:2401.12064v1 [econ.GN])
 
-    [http://arxiv.org/abs/2301.12462](http://arxiv.org/abs/2301.12462)
+    [http://arxiv.org/abs/2401.12064](http://arxiv.org/abs/2401.12064)
 
-    该论文提出了一种组合式渗透测试算法，通过类比拍卖理论框架，可以将近似最优的延迟接受机制转换为近似最优的渗透测试算法，并且在逼近程度上保证了额外开销的上限。
+    本文通过观察NFT慈善筹款活动中捐助人购买NFT对其后续市场结果的影响，探讨了真诚与策略性慷慨行为对市场的回应，并发现了明确的异质模式。
 
     
 
-    渗透测试是当只能通过消耗资源的能力来衡量资源容量时，选择高容量资源的问题。我们有一组$n$只笔，每只笔都有未知的墨水量，我们的目标是选择一个可行的笔集合，使其中墨水总量最大。我们可以通过使用它们来获得更多信息，但这将消耗先前存在于笔中的墨水。算法将与标准基准（即最优的渗透测试算法）和全知基准（即如果了解笔中墨水的数量，则最优的选择）进行评估。我们通过将延迟接受拍卖和虚拟价值的拍卖理论框架类比，确定了最优和近似最优的渗透测试算法。我们的框架允许将任何近似最优的延迟接受机制转换为近似最优的渗透测试算法。此外，这些算法保证在逼近程度上存在额外开销至多$(1+o(1)) \ln n$。
+    加密货币捐赠现在占据全球慈善捐赠的重要份额。非同质化代币（NFT）慈善筹款作为一种新的发展方式，在这个领域中出现了。NFT慈善筹款的一个独特之处在于捐助人有可能从所购买的NFT上升值中获得经济利益。对于这些慈善筹款的捐助人动机可能会产生负面的社会形象。因此，NFT慈善筹款提供了一个了解捐助人社会形象经济后果的独特机会。我们通过利用区块链上交易处理时间的随机变动，研究了一个大型NFT慈善筹款活动中购买NFT对捐助人后续市场结果的因果效应。此外，我们展示了明确的异质模式。
 
-    Pen testing is the problem of selecting high-capacity resources when the only way to measure the capacity of a resource expends its capacity. We have a set of $n$ pens with unknown amounts of ink and our goal is to select a feasible subset of pens maximizing the total ink in them. We are allowed to gather more information by writing with them, but this uses up ink that was previously in the pens. Algorithms are evaluated against the standard benchmark, i.e, the optimal pen testing algorithm, and the omniscient benchmark, i.e, the optimal selection if the quantity of ink in the pens are known.  We identify optimal and near optimal pen testing algorithms by drawing analogues to auction theoretic frameworks of deferred-acceptance auctions and virtual values. Our framework allows the conversion of any near optimal deferred-acceptance mechanism into a near optimal pen testing algorithm. Moreover, these algorithms guarantee an additional overhead of at most $(1+o(1)) \ln n$ in the approximat
+    Crypto donations now represent a significant fraction of charitable giving worldwide. Nonfungible token (NFT) charity fundraisers, which involve the sale of NFTs of artistic works with the proceeds donated to philanthropic causes, have emerged as a novel development in this space. A unique aspect of NFT charity fundraisers is the significant potential for donors to reap financial gains from the rising value of purchased NFTs. Questions may arise about the motivations of donors in these charity fundraisers, resulting in a negative social image. NFT charity fundraisers thus offer a unique opportunity to understand the economic consequences of a donor's social image. We investigate these effects in the context of a large NFT charity fundraiser. We identify the causal effect of purchasing an NFT within the charity fundraiser on a donor's later market outcomes by leveraging random variation in transaction processing times on the blockchain. Further, we demonstrate a clear pattern of heterog
     
 
