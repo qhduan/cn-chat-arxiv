@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Provisions and Economic Capital for Credit Losses.](http://arxiv.org/abs/2401.07728) | 基于超模性排序特性，该论文证明了信用损失的凸风险测度相对于椭圆分布潜在因素的信用-信用和信用-市场协方差是非递减的，这对于计算信用拨备、经济资本、压力测试和风险管理分析非常有帮助。 |
-| [^2] | [Path Integral Method for Barrier Option Pricing Under Vasicek Model.](http://arxiv.org/abs/2307.07103) | 该论文使用路径积分方法研究了Vasicek模型中的障碍期权定价问题，通过类比量子理论中的散射问题和方势井问题，导出了定价核和期权价格表达式，并给出了标的资产价格变化对期权价格的数值结果。 |
+| [^1] | [Unified Merger List in the Container Shipping Industry from 1966: A Structural Estimation of the Transition of Importance of a Firm's Age, Tonnage Capacity, and Geographical Proximity on Merger Decision.](http://arxiv.org/abs/2310.09938) | 本研究构建了集装箱航运行业1966年至2022年的统一合并清单，并通过结构匹配模型研究了公司的年龄、规模和地理邻近性对合并决策的重要性的转变。研究发现，公司规模在1991年至2005年期间作为正向因素对合并激励更加重要，但在2006年至2022年期间作为负向因素起到抑制作用。同时，公司之间的地理距离对合并决策也产生影响。 |
+| [^2] | [Consistency of MLE for partially observed diffusions, with application in market microstructure modeling.](http://arxiv.org/abs/2201.07656) | 本文提出了部分观测扩散过程的极大似然估计一致性的足够条件，并在市场微观结构建模中实现了该模型的未知参数的极大似然估计量的一致性。 |
 
 # 详细
 
-[^1]: 信用损失的条款和经济资本
+[^1]: 《1966年以来集装箱航运行业的统一合并清单：一家公司的年龄、吨位容量和地理邻近性对合并决策的重要性的结构估计》的翻译题目
 
-    Provisions and Economic Capital for Credit Losses. (arXiv:2401.07728v1 [q-fin.RM])
+    Unified Merger List in the Container Shipping Industry from 1966: A Structural Estimation of the Transition of Importance of a Firm's Age, Tonnage Capacity, and Geographical Proximity on Merger Decision. (arXiv:2310.09938v1 [econ.GN])
 
-    [http://arxiv.org/abs/2401.07728](http://arxiv.org/abs/2401.07728)
+    [http://arxiv.org/abs/2310.09938](http://arxiv.org/abs/2310.09938)
 
-    基于超模性排序特性，该论文证明了信用损失的凸风险测度相对于椭圆分布潜在因素的信用-信用和信用-市场协方差是非递减的，这对于计算信用拨备、经济资本、压力测试和风险管理分析非常有帮助。
-
-    
-
-    基于超模性排序特性，我们证明了信用损失的凸风险测度相对于椭圆分布潜在因素的信用-信用和错误风险设置下的信用-市场协方差是非递减的。这些结果支持使用这样的设置来计算信用拨备和经济资本，进行压力测试和风险管理分析。
-
-    Based on supermodularity ordering properties, we show that convex risk measures of credit losses are nondecreasing w.r.t. credit-credit and, in a wrong-way risk setup, credit-market, covariances of elliptically distributed latent factors. These results support the use of such setups for computing credit provisions and economic capital or for conducting stress test exercises and risk management analysis.
-    
-[^2]: 使用路径积分方法对Vasicek模型中的障碍期权定价
-
-    Path Integral Method for Barrier Option Pricing Under Vasicek Model. (arXiv:2307.07103v1 [q-fin.PR])
-
-    [http://arxiv.org/abs/2307.07103](http://arxiv.org/abs/2307.07103)
-
-    该论文使用路径积分方法研究了Vasicek模型中的障碍期权定价问题，通过类比量子理论中的散射问题和方势井问题，导出了定价核和期权价格表达式，并给出了标的资产价格变化对期权价格的数值结果。
+    本研究构建了集装箱航运行业1966年至2022年的统一合并清单，并通过结构匹配模型研究了公司的年龄、规模和地理邻近性对合并决策的重要性的转变。研究发现，公司规模在1991年至2005年期间作为正向因素对合并激励更加重要，但在2006年至2022年期间作为负向因素起到抑制作用。同时，公司之间的地理距离对合并决策也产生影响。
 
     
 
-    量子理论中的路径积分方法为随时间变化的期权定价提供了一种新的思路。对于障碍期权，期权价格变化过程类似于量子力学中的无穷高势垒散射问题；对于双障碍期权，期权价格变化过程类似于粒子在一个无穷方势井中运动。利用路径积分方法，可以导出Vasicek随机利率模型下的定价核和期权价格表达式。同时还展示了期权价格随标的资产价格变化的数值结果。
+    我们构建了一个新颖的全球集装箱航运行业1966年至2022年之间的统一合并清单。将该清单与专有数据结合，我们构建了一个结构匹配模型，描述了公司的年龄、规模和地理邻近性在合并决策中的历史性转变。我们发现，在1991年至2005年期间，作为正面因素，一家公司的规模在合并激励中比公司的年龄重要9.974倍。然而，在2006年至2022年期间，作为负面因素，一家公司的规模在合并激励中比公司的年龄重要0.026-0.630倍，即公司的规模起到了抑制作用。我们还发现，买方公司和卖方公司之间的距离在整个期间都起到了抑制作用，但在近年来的经济重要性已减弱到微不足道的程度。在反事实模拟中，我们观察到同一国家的公司之间合并的禁止会影响合并配置。
 
-    Path integral method in quantum theory provides a new thinking for time dependent option pricing. For barrier options, the option price changing process is similar to the infinite high barrier scattering problem in quantum mechanics; for double barrier options, the option price changing process is analogous to a particle moving in a infinite square potential well. Using path integral method, the expressions of pricing kernel and option price under Vasicek stochastic interest rate model could be derived. Numerical results of options price as functions of underlying prices are also shown.
+    We construct a novel unified merger list in the global container shipping industry between 1966 (the beginning of the industry) and 2022. Combining the list with proprietary data, we construct a structural matching model to describe the historical transition of the importance of a firm's age, size, and geographical proximity on merger decisions. We find that, as a positive factor, a firm's size is more important than a firm's age by 9.974 times as a merger incentive between 1991 and 2005. However, between 2006 and 2022, as a negative factor, a firm's size is more important than a firm's age by 0.026-0.630 times, that is, a firm's size works as a disincentive. We also find that the distance between buyer and seller firms works as a disincentive for the whole period, but the importance has dwindled to economic insignificance in recent years. In counterfactual simulations, we observe that the prohibition of mergers between firms in the same country would affect the merger configuration of
+    
+[^2]: 部分观测扩散过程的极大似然估计一致性及在市场微观结构建模中的应用
+
+    Consistency of MLE for partially observed diffusions, with application in market microstructure modeling. (arXiv:2201.07656v2 [math.ST] UPDATED)
+
+    [http://arxiv.org/abs/2201.07656](http://arxiv.org/abs/2201.07656)
+
+    本文提出了部分观测扩散过程的极大似然估计一致性的足够条件，并在市场微观结构建模中实现了该模型的未知参数的极大似然估计量的一致性。
+
+    
+
+    本文提出了一个易于处理的足够条件，用于描述与完全观测的扩散过程相关的稳态分布，从而得出在未知参数值有限的情况下，极大似然估计量的一致性条件。我们将该足够条件应用于市场微观结构的潜在价格模型中，并验证了该模型下未知参数的极大似然估计量的一致性。最后，我们利用纳斯达克交易所的历史金融数据计算了这些估计值。
+
+    This paper presents a tractable sufficient condition for the consistency of maximum likelihood estimators (MLEs) in partially observed diffusion models, stated in terms of stationary distribution of the associated fully observed diffusion, under the assumption that the set of unknown parameter values is finite. This sufficient condition is then verified in the context of a latent price model of market microstructure, yielding consistency of maximum likelihood estimators of the unknown parameters in this model. Finally, we compute the latter estimators using historical financial data taken from the NASDAQ exchange.
     
 
