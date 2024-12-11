@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Unified Merger List in the Container Shipping Industry from 1966: A Structural Estimation of the Transition of Importance of a Firm's Age, Tonnage Capacity, and Geographical Proximity on Merger Decision.](http://arxiv.org/abs/2310.09938) | 本研究构建了集装箱航运行业1966年至2022年的统一合并清单，并通过结构匹配模型研究了公司的年龄、规模和地理邻近性对合并决策的重要性的转变。研究发现，公司规模在1991年至2005年期间作为正向因素对合并激励更加重要，但在2006年至2022年期间作为负向因素起到抑制作用。同时，公司之间的地理距离对合并决策也产生影响。 |
-| [^2] | [Consistency of MLE for partially observed diffusions, with application in market microstructure modeling.](http://arxiv.org/abs/2201.07656) | 本文提出了部分观测扩散过程的极大似然估计一致性的足够条件，并在市场微观结构建模中实现了该模型的未知参数的极大似然估计量的一致性。 |
+| [^1] | [Negatively dependent optimal risk sharing.](http://arxiv.org/abs/2401.03328) | 本文研究了使用反单调分配来最优化共享风险的问题。当所有代理都风险追求时，帕累托最优分配必须是大奖分配；当所有代理的效用函数不连续时，替罪羊分配使得超过不连续阈值的概率最大化。 |
+| [^2] | [Why Are Immigrants Always Accused of Stealing People's Jobs?.](http://arxiv.org/abs/2303.13319) | 移民在一个配给职位的匹配模型中可能降低本地工人的就业率，但移民对本地福利的总体影响取决于劳动力市场的状态，当劳动力市场繁荣时，移民的影响可能是正面的。 |
 
 # 详细
 
-[^1]: 《1966年以来集装箱航运行业的统一合并清单：一家公司的年龄、吨位容量和地理邻近性对合并决策的重要性的结构估计》的翻译题目
+[^1]: 负相关的最优风险共担问题研究
 
-    Unified Merger List in the Container Shipping Industry from 1966: A Structural Estimation of the Transition of Importance of a Firm's Age, Tonnage Capacity, and Geographical Proximity on Merger Decision. (arXiv:2310.09938v1 [econ.GN])
+    Negatively dependent optimal risk sharing. (arXiv:2401.03328v1 [econ.TH])
 
-    [http://arxiv.org/abs/2310.09938](http://arxiv.org/abs/2310.09938)
+    [http://arxiv.org/abs/2401.03328](http://arxiv.org/abs/2401.03328)
 
-    本研究构建了集装箱航运行业1966年至2022年的统一合并清单，并通过结构匹配模型研究了公司的年龄、规模和地理邻近性对合并决策的重要性的转变。研究发现，公司规模在1991年至2005年期间作为正向因素对合并激励更加重要，但在2006年至2022年期间作为负向因素起到抑制作用。同时，公司之间的地理距离对合并决策也产生影响。
-
-    
-
-    我们构建了一个新颖的全球集装箱航运行业1966年至2022年之间的统一合并清单。将该清单与专有数据结合，我们构建了一个结构匹配模型，描述了公司的年龄、规模和地理邻近性在合并决策中的历史性转变。我们发现，在1991年至2005年期间，作为正面因素，一家公司的规模在合并激励中比公司的年龄重要9.974倍。然而，在2006年至2022年期间，作为负面因素，一家公司的规模在合并激励中比公司的年龄重要0.026-0.630倍，即公司的规模起到了抑制作用。我们还发现，买方公司和卖方公司之间的距离在整个期间都起到了抑制作用，但在近年来的经济重要性已减弱到微不足道的程度。在反事实模拟中，我们观察到同一国家的公司之间合并的禁止会影响合并配置。
-
-    We construct a novel unified merger list in the global container shipping industry between 1966 (the beginning of the industry) and 2022. Combining the list with proprietary data, we construct a structural matching model to describe the historical transition of the importance of a firm's age, size, and geographical proximity on merger decisions. We find that, as a positive factor, a firm's size is more important than a firm's age by 9.974 times as a merger incentive between 1991 and 2005. However, between 2006 and 2022, as a negative factor, a firm's size is more important than a firm's age by 0.026-0.630 times, that is, a firm's size works as a disincentive. We also find that the distance between buyer and seller firms works as a disincentive for the whole period, but the importance has dwindled to economic insignificance in recent years. In counterfactual simulations, we observe that the prohibition of mergers between firms in the same country would affect the merger configuration of
-    
-[^2]: 部分观测扩散过程的极大似然估计一致性及在市场微观结构建模中的应用
-
-    Consistency of MLE for partially observed diffusions, with application in market microstructure modeling. (arXiv:2201.07656v2 [math.ST] UPDATED)
-
-    [http://arxiv.org/abs/2201.07656](http://arxiv.org/abs/2201.07656)
-
-    本文提出了部分观测扩散过程的极大似然估计一致性的足够条件，并在市场微观结构建模中实现了该模型的未知参数的极大似然估计量的一致性。
+    本文研究了使用反单调分配来最优化共享风险的问题。当所有代理都风险追求时，帕累托最优分配必须是大奖分配；当所有代理的效用函数不连续时，替罪羊分配使得超过不连续阈值的概率最大化。
 
     
 
-    本文提出了一个易于处理的足够条件，用于描述与完全观测的扩散过程相关的稳态分布，从而得出在未知参数值有限的情况下，极大似然估计量的一致性条件。我们将该足够条件应用于市场微观结构的潜在价格模型中，并验证了该模型下未知参数的极大似然估计量的一致性。最后，我们利用纳斯达克交易所的历史金融数据计算了这些估计值。
+    本文分析了使用表现出反单调性的分配方式来优化共享风险的问题。反单调分配的形式有“赢者通吃”或“输者全军覆没”型彩票，我们分别将其归为标准化的“大奖”或“替罪羊”分配。我们的主要定理——反单调改进定理，说明对于一组随机变量，无论它们是全部下界有界还是全部上界有界，总是可以找到一组反单调随机变量，其中每个分量都大于或等于凸序中对应的分量。我们证明了如果帕累托最优分配存在且所有代理都追求风险，那么它们必须是大奖分配。而当所有代理的不连续伯努利效用函数时，我们得到了相反的结论，替罪羊分配使得超过不连续阈值的概率最大化。
 
-    This paper presents a tractable sufficient condition for the consistency of maximum likelihood estimators (MLEs) in partially observed diffusion models, stated in terms of stationary distribution of the associated fully observed diffusion, under the assumption that the set of unknown parameter values is finite. This sufficient condition is then verified in the context of a latent price model of market microstructure, yielding consistency of maximum likelihood estimators of the unknown parameters in this model. Finally, we compute the latter estimators using historical financial data taken from the NASDAQ exchange.
+    We analyze the problem of optimally sharing risk using allocations that exhibit counter-monotonicity, the most extreme form of negative dependence. Counter-monotonic allocations take the form of either "winner-takes-all" lotteries or "loser-loses-all" lotteries, and we respectively refer to these (normalized) cases as jackpot or scapegoat allocations. Our main theorem, the counter-monotonic improvement theorem, states that for a given set of random variables that are either all bounded from below or all bounded from above, one can always find a set of counter-monotonic random variables such that each component is greater or equal than its counterpart in the convex order. We show that Pareto optimal allocations, if they exist, must be jackpot allocations when all agents are risk seeking. We essentially obtain the opposite when all agents have discontinuous Bernoulli utility functions, as scapegoat allocations maximize the probability of being above the discontinuity threshold. We also c
+    
+[^2]: 为什么移民总被指责窃取人们的工作?
+
+    Why Are Immigrants Always Accused of Stealing People's Jobs?. (arXiv:2303.13319v1 [econ.GN])
+
+    [http://arxiv.org/abs/2303.13319](http://arxiv.org/abs/2303.13319)
+
+    移民在一个配给职位的匹配模型中可能降低本地工人的就业率，但移民对本地福利的总体影响取决于劳动力市场的状态，当劳动力市场繁荣时，移民的影响可能是正面的。
+
+    
+
+    移民总是被指责窃取人们的工作。然而，在劳动力市场的新古典模型中，每个人都有工作可做，也没有工作可被窃取（没有失业，因此想工作的人都可以工作）。在标准匹配模型中，存在一些失业，但由于劳动力需求完全弹性，因此新进入劳动力市场的人被吸收时不会影响求职者的前景。再次说明，当移民到达时没有工作会被窃取。本文显示，在一个具有就业配给的匹配模型中，移民的进入会降低本地工人的就业率。此外，当劳动力市场不景气时，就业率的降幅更大，因为那时工作更加稀缺。因为移民降低了劳动力市场的紧张程度，使得公司更容易招聘，并改善公司利润。移民对本地福利的总体影响取决于劳动力市场的状态。当劳动力市场出现衰退时总体影响始终是负面的，并且当劳动力市场繁荣时可能是正面的。
+
+    Immigrants are always accused of stealing people's jobs. Yet, in a neoclassical model of the labor market, there are jobs for everybody and no jobs to steal. (There is no unemployment, so anybody who wants to work can work.) In standard matching models, there is some unemployment, but labor demand is perfectly elastic so new entrants into the labor force are absorbed without affecting jobseekers' prospects. Once again, no jobs are stolen when immigrants arrive. This paper shows that in a matching model with job rationing, in contrast, the entry of immigrants reduces the employment rate of native workers. Moreover, the reduction in employment rate is sharper when the labor market is depressed -- because jobs are more scarce then. Because immigration reduces labor-market tightness, it makes it easier for firms to recruit and improves firm profits. The overall effect of immigration on native welfare depends on the state of the labor market. It is always negative when the labor market is i
     
 
