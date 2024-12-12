@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Negatively dependent optimal risk sharing.](http://arxiv.org/abs/2401.03328) | 本文研究了使用反单调分配来最优化共享风险的问题。当所有代理都风险追求时，帕累托最优分配必须是大奖分配；当所有代理的效用函数不连续时，替罪羊分配使得超过不连续阈值的概率最大化。 |
-| [^2] | [Why Are Immigrants Always Accused of Stealing People's Jobs?.](http://arxiv.org/abs/2303.13319) | 移民在一个配给职位的匹配模型中可能降低本地工人的就业率，但移民对本地福利的总体影响取决于劳动力市场的状态，当劳动力市场繁荣时，移民的影响可能是正面的。 |
+| [^1] | [Asset management with an ESG mandate](https://arxiv.org/abs/2403.11622) | ESG指导原则可以在降低投资组合边界的不足的同时导致更高的风险方差，根据数据显示，负的ESG溢价是当ESG指导原则对资产管理者有约束力时产生的。 |
+| [^2] | [Validation of machine learning based scenario generators.](http://arxiv.org/abs/2301.12719) | 本研究讨论了基于机器学习的场景生成器的验证，提出了两个额外的验证任务：检查风险因素之间的依赖关系和检测不希望出现的记忆效应。结论表明，在这个上下文中，这些措施能够产生合理的结果，并可以用于验证和优化模型。 |
 
 # 详细
 
-[^1]: 负相关的最优风险共担问题研究
+[^1]: 具有ESG指导原则的资产管理
 
-    Negatively dependent optimal risk sharing. (arXiv:2401.03328v1 [econ.TH])
+    Asset management with an ESG mandate
 
-    [http://arxiv.org/abs/2401.03328](http://arxiv.org/abs/2401.03328)
+    [https://arxiv.org/abs/2403.11622](https://arxiv.org/abs/2403.11622)
 
-    本文研究了使用反单调分配来最优化共享风险的问题。当所有代理都风险追求时，帕累托最优分配必须是大奖分配；当所有代理的效用函数不连续时，替罪羊分配使得超过不连续阈值的概率最大化。
-
-    
-
-    本文分析了使用表现出反单调性的分配方式来优化共享风险的问题。反单调分配的形式有“赢者通吃”或“输者全军覆没”型彩票，我们分别将其归为标准化的“大奖”或“替罪羊”分配。我们的主要定理——反单调改进定理，说明对于一组随机变量，无论它们是全部下界有界还是全部上界有界，总是可以找到一组反单调随机变量，其中每个分量都大于或等于凸序中对应的分量。我们证明了如果帕累托最优分配存在且所有代理都追求风险，那么它们必须是大奖分配。而当所有代理的不连续伯努利效用函数时，我们得到了相反的结论，替罪羊分配使得超过不连续阈值的概率最大化。
-
-    We analyze the problem of optimally sharing risk using allocations that exhibit counter-monotonicity, the most extreme form of negative dependence. Counter-monotonic allocations take the form of either "winner-takes-all" lotteries or "loser-loses-all" lotteries, and we respectively refer to these (normalized) cases as jackpot or scapegoat allocations. Our main theorem, the counter-monotonic improvement theorem, states that for a given set of random variables that are either all bounded from below or all bounded from above, one can always find a set of counter-monotonic random variables such that each component is greater or equal than its counterpart in the convex order. We show that Pareto optimal allocations, if they exist, must be jackpot allocations when all agents are risk seeking. We essentially obtain the opposite when all agents have discontinuous Bernoulli utility functions, as scapegoat allocations maximize the probability of being above the discontinuity threshold. We also c
-    
-[^2]: 为什么移民总被指责窃取人们的工作?
-
-    Why Are Immigrants Always Accused of Stealing People's Jobs?. (arXiv:2303.13319v1 [econ.GN])
-
-    [http://arxiv.org/abs/2303.13319](http://arxiv.org/abs/2303.13319)
-
-    移民在一个配给职位的匹配模型中可能降低本地工人的就业率，但移民对本地福利的总体影响取决于劳动力市场的状态，当劳动力市场繁荣时，移民的影响可能是正面的。
+    ESG指导原则可以在降低投资组合边界的不足的同时导致更高的风险方差，根据数据显示，负的ESG溢价是当ESG指导原则对资产管理者有约束力时产生的。
 
     
 
-    移民总是被指责窃取人们的工作。然而，在劳动力市场的新古典模型中，每个人都有工作可做，也没有工作可被窃取（没有失业，因此想工作的人都可以工作）。在标准匹配模型中，存在一些失业，但由于劳动力需求完全弹性，因此新进入劳动力市场的人被吸收时不会影响求职者的前景。再次说明，当移民到达时没有工作会被窃取。本文显示，在一个具有就业配给的匹配模型中，移民的进入会降低本地工人的就业率。此外，当劳动力市场不景气时，就业率的降幅更大，因为那时工作更加稀缺。因为移民降低了劳动力市场的紧张程度，使得公司更容易招聘，并改善公司利润。移民对本地福利的总体影响取决于劳动力市场的状态。当劳动力市场出现衰退时总体影响始终是负面的，并且当劳动力市场繁荣时可能是正面的。
+    我们研究了当一个机构投资者旨在最小化跟踪误差方差，并实现高于基准ESG分数（ESG指导原则）时的均衡下的投资组合边界和风险溢价。我们表明，如果市场为股票定价了负的ESG溢价，那么当资产管理者以有限的超越基准的绩效为目标时，ESG指导原则可以减少投资组合边界的均值-方差效率不足。而对于高超越目标，ESG指导原则导致更高的方差。均值-方差的改善是因为ESG指导原则促使资产管理者过度投资于具有高均值-标准差比率的资产。在均衡状态下，当资产管理者和均值-方差投资者存在时，如果ESG指导原则对资产管理者具有约束力，将出现负的ESG溢价。这一结果得到了数据支撑。
 
-    Immigrants are always accused of stealing people's jobs. Yet, in a neoclassical model of the labor market, there are jobs for everybody and no jobs to steal. (There is no unemployment, so anybody who wants to work can work.) In standard matching models, there is some unemployment, but labor demand is perfectly elastic so new entrants into the labor force are absorbed without affecting jobseekers' prospects. Once again, no jobs are stolen when immigrants arrive. This paper shows that in a matching model with job rationing, in contrast, the entry of immigrants reduces the employment rate of native workers. Moreover, the reduction in employment rate is sharper when the labor market is depressed -- because jobs are more scarce then. Because immigration reduces labor-market tightness, it makes it easier for firms to recruit and improves firm profits. The overall effect of immigration on native welfare depends on the state of the labor market. It is always negative when the labor market is i
+    arXiv:2403.11622v1 Announce Type: new  Abstract: We investigate the portfolio frontier and risk premia in equilibrium when an institutional investor aims to minimize the tracking error variance and to attain an ESG score higher than the benchmark's one (ESG mandate). Provided that a negative ESG premium for stocks is priced by the market, we show that an ESG mandate can reduce the mean-variance inefficiency of the portfolio frontier when the asset manager targets a limited over-performance with respect to the benchmark. Instead, for a high over-performance target, an ESG mandate leads to a higher variance. The mean-variance improvement is due to the fact that the ESG mandate induces the asset manager to over-invest in assets with a high mean-standard deviation ratio. In equilibrium, with asset managers and mean-variance investors, a negative ESG premium arises if the ESG mandate is binding for asset managers. A result that is borne out by the data.
+    
+[^2]: 机器学习场景生成器的验证
+
+    Validation of machine learning based scenario generators. (arXiv:2301.12719v2 [q-fin.RM] UPDATED)
+
+    [http://arxiv.org/abs/2301.12719](http://arxiv.org/abs/2301.12719)
+
+    本研究讨论了基于机器学习的场景生成器的验证，提出了两个额外的验证任务：检查风险因素之间的依赖关系和检测不希望出现的记忆效应。结论表明，在这个上下文中，这些措施能够产生合理的结果，并可以用于验证和优化模型。
+
+    
+
+    机器学习方法在使用场景生成器开发内部模型方面变得越来越重要。在 Solvency 2 下，内部模型需要经过验证，一个重要问题是这些数据驱动模型的验证与传统理论模型的区别在哪些方面。以市场风险为例，我们讨论了两个额外的验证任务的必要性：一个是检查所使用风险因素之间的依赖关系，一个是检测不希望出现的记忆效应。第一个任务是必要的，因为在这种新方法中，依赖关系不是从金融数学理论中推导出来的。后一个任务出现在机器学习模型仅重复经验数据而不生成新场景的情况下。然后，这些措施被应用于基于机器学习的经济场景生成器。结果表明，在这个上下文中，这些措施导致了合理的结果，并且可以用于验证和模型优化。
+
+    Machine learning methods are getting more and more important in the development of internal models using scenario generation. As internal models under Solvency 2 have to be validated, an important question is in which aspects the validation of these data-driven models differs from a classical theory-based model. On the specific example of market risk, we discuss the necessity of two additional validation tasks: one to check the dependencies between the risk factors used and one to detect the unwanted memorizing effect. The first one is necessary because in this new method, the dependencies are not derived from a financial-mathematical theory. The latter one arises when the machine learning model only repeats empirical data instead of generating new scenarios. These measures are then applied for an machine learning based economic scenario generator. It is shown that those measures lead to reasonable results in this context and are able to be used for validation as well as for model opti
     
 
