@@ -2,67 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Continuous Multidimensional Scaling](https://arxiv.org/abs/2402.04436) | 连续多维标度是关于将距离信息嵌入欧几里得空间的过程，并探讨了在对象集不断增加的情况下，将整个嵌入问题序列视为一个固定空间中的一系列优化问题的方法和结论。 |
-| [^2] | [Dual-Directed Algorithm Design for Efficient Pure Exploration.](http://arxiv.org/abs/2310.19319) | 该论文研究了在有限备选方案集合中的纯探索问题。通过使用对偶变量，提出了一种新的算法设计原则，能够避免组合结构的复杂性，实现高效纯探索，从而准确回答查询问题。 |
-| [^3] | [Multiple Physics Pretraining for Physical Surrogate Models.](http://arxiv.org/abs/2310.02994) | 多物理学预训练是一种用于物理代理建模的自回归预训练方法，通过训练大型代理模型同时预测多个异构物理系统的动力学，学习在不同物理任务中广泛适用的特征。实验证明，单个MPP预训练的变换器可以在所有预训练子任务上与或超过特定任务的基准结果，无需微调，并且在下游任务中，微调MPP训练的模型相较于从头训练的模型，对新物理的预测结果更准确。 |
-| [^4] | [Causal thinking for decision making on Electronic Health Records: why and how.](http://arxiv.org/abs/2308.01605) | 本文介绍了在电子健康记录中使用因果思维进行决策的必要性和方法。通过模拟随机试验来个性化决策，以减少数据中的偏见。这对于分析电子健康记录或索赔数据以得出因果结论的最重要陷阱和考虑因素进行了重点强调。 |
+| [^1] | [Vanilla Bayesian Optimization Performs Great in High Dimension](https://arxiv.org/abs/2402.02229) | 本文研究了高维情况下贝叶斯优化算法的问题，并提出了一种改进方法，通过对先验假设进行简单的缩放，使普通贝叶斯优化在高维任务中表现出色。 |
+| [^2] | [Minimax Optimal Submodular Optimization with Bandit Feedback.](http://arxiv.org/abs/2310.18465) | 这项工作研究了带有Bandit反馈的极小极大次模优化问题，在这个问题中，我们建立了第一个最小最大下限，并提出了一个能够与下限遗憾相匹配的算法。 |
+| [^3] | [TNDDR: Efficient and doubly robust estimation of COVID-19 vaccine effectiveness under the test-negative design.](http://arxiv.org/abs/2310.04578) | 我们提出了一种高效且双重鲁棒的估计器TNDDR，用于在阴性测试设计下估计COVID-19疫苗的有效性，可有效解决选择偏差问题，并结合机器学习技术进行辅助函数估计。 |
+| [^4] | [AdaStop: sequential testing for efficient and reliable comparisons of Deep RL Agents.](http://arxiv.org/abs/2306.10882) | AdaStop是一种基于多组序列测试的新统计测试方法，可用于比较多个深度强化学习算法来解决实验结果可复制性的问题。 |
 
 # 详细
 
-[^1]: 连续多维标度
+[^1]: 高维情况下，普通贝叶斯优化算法表现出色
 
-    Continuous Multidimensional Scaling
+    Vanilla Bayesian Optimization Performs Great in High Dimension
 
-    [https://arxiv.org/abs/2402.04436](https://arxiv.org/abs/2402.04436)
+    [https://arxiv.org/abs/2402.02229](https://arxiv.org/abs/2402.02229)
 
-    连续多维标度是关于将距离信息嵌入欧几里得空间的过程，并探讨了在对象集不断增加的情况下，将整个嵌入问题序列视为一个固定空间中的一系列优化问题的方法和结论。
-
-    
-
-    多维标度(MDS)是将关于一组$n$个对象的距离信息嵌入到$d$维欧几里得空间中的过程。最初由心理测量学界构思，MDS关注的是嵌入到一组固定对象上的一组固定距离。现代关注的问题更常涉及到研究与一组不断增加的对象相关联的一系列距离的极限行为，如在随机图的统计推断的渐近理论中出现的问题。点到集合映射理论中的标准结果表明，若$n$固定，则嵌入结构的极限是极限距离的嵌入结构。但如果$n$增加怎么办呢？那么就需要重新制定MDS，以便将整个嵌入问题序列视为一个固定空间中的一系列优化问题。我们提出了这样一种重新制定，并推导出一些结论。
-
-    Multidimensional scaling (MDS) is the act of embedding proximity information about a set of $n$ objects in $d$-dimensional Euclidean space. As originally conceived by the psychometric community, MDS was concerned with embedding a fixed set of proximities associated with a fixed set of objects. Modern concerns, e.g., that arise in developing asymptotic theories for statistical inference on random graphs, more typically involve studying the limiting behavior of a sequence of proximities associated with an increasing set of objects. Standard results from the theory of point-to-set maps imply that, if $n$ is fixed, then the limit of the embedded structures is the embedded structure of the limiting proximities. But what if $n$ increases? It then becomes necessary to reformulate MDS so that the entire sequence of embedding problems can be viewed as a sequence of optimization problems in a fixed space. We present such a reformulation and derive some consequences.
-    
-[^2]: 高效纯探索的双向算法设计
-
-    Dual-Directed Algorithm Design for Efficient Pure Exploration. (arXiv:2310.19319v1 [stat.ML])
-
-    [http://arxiv.org/abs/2310.19319](http://arxiv.org/abs/2310.19319)
-
-    该论文研究了在有限备选方案集合中的纯探索问题。通过使用对偶变量，提出了一种新的算法设计原则，能够避免组合结构的复杂性，实现高效纯探索，从而准确回答查询问题。
+    本文研究了高维情况下贝叶斯优化算法的问题，并提出了一种改进方法，通过对先验假设进行简单的缩放，使普通贝叶斯优化在高维任务中表现出色。
 
     
 
-    我们考虑在有限的备选方案集合中的随机顺序自适应实验的纯探索问题。决策者的目标是通过最小的测量工作以高置信度准确回答与备选方案相关的查询问题。一个典型的查询问题是确定表现最佳的备选方案，这在排名和选择问题以及机器学习文献中称为最佳臂识别问题。我们专注于固定精度的设定，并导出了一个与样本最优分配有强收敛性概念相关的优化条件的充分条件。使用对偶变量，我们刻画了一个分配是否最优的必要和充分条件。对偶变量的使用使我们能够绕过完全依赖于原始变量的最优条件的组合结构。值得注意的是，这些最优条件使得双向算法设计原则的扩展成为可能。
+    长期以来，高维问题一直被认为是贝叶斯优化算法的软肋。受到维度噪音的刺激，许多算法旨在通过对目标应用各种简化假设来提高其性能。本文通过识别导致普通贝叶斯优化在高维任务中不适用的退化现象，并进一步展示了现有算法如何通过降低模型复杂度来应对这些退化现象。此外，我们还提出了一种对普通贝叶斯优化算法中典型先验假设的改进方法，该方法在不对目标施加结构性限制的情况下将复杂性降低到可管理的水平。我们的修改方法——通过维度对高斯过程长度先验进行简单的缩放——揭示了标准贝叶斯优化在高维情况下的显著改进，明确表明其效果远远超出以往的预期。
 
-    We consider pure-exploration problems in the context of stochastic sequential adaptive experiments with a finite set of alternative options. The goal of the decision-maker is to accurately answer a query question regarding the alternatives with high confidence with minimal measurement efforts. A typical query question is to identify the alternative with the best performance, leading to ranking and selection problems, or best-arm identification in the machine learning literature. We focus on the fixed-precision setting and derive a sufficient condition for optimality in terms of a notion of strong convergence to the optimal allocation of samples. Using dual variables, we characterize the necessary and sufficient conditions for an allocation to be optimal. The use of dual variables allow us to bypass the combinatorial structure of the optimality conditions that relies solely on primal variables. Remarkably, these optimality conditions enable an extension of top-two algorithm design princ
+    High-dimensional problems have long been considered the Achilles' heel of Bayesian optimization algorithms. Spurred by the curse of dimensionality, a large collection of algorithms aim to make it more performant in this setting, commonly by imposing various simplifying assumptions on the objective. In this paper, we identify the degeneracies that make vanilla Bayesian optimization poorly suited to high-dimensional tasks, and further show how existing algorithms address these degeneracies through the lens of lowering the model complexity. Moreover, we propose an enhancement to the prior assumptions that are typical to vanilla Bayesian optimization algorithms, which reduces the complexity to manageable levels without imposing structural restrictions on the objective. Our modification - a simple scaling of the Gaussian process lengthscale prior with the dimensionality - reveals that standard Bayesian optimization works drastically better than previously thought in high dimensions, clearly
     
-[^3]: 多物理学预训练用于物理代理模型
+[^2]: 带有Bandit反馈的极小极大次模优化问题
 
-    Multiple Physics Pretraining for Physical Surrogate Models. (arXiv:2310.02994v1 [cs.LG])
+    Minimax Optimal Submodular Optimization with Bandit Feedback. (arXiv:2310.18465v1 [cs.LG])
 
-    [http://arxiv.org/abs/2310.02994](http://arxiv.org/abs/2310.02994)
+    [http://arxiv.org/abs/2310.18465](http://arxiv.org/abs/2310.18465)
 
-    多物理学预训练是一种用于物理代理建模的自回归预训练方法，通过训练大型代理模型同时预测多个异构物理系统的动力学，学习在不同物理任务中广泛适用的特征。实验证明，单个MPP预训练的变换器可以在所有预训练子任务上与或超过特定任务的基准结果，无需微调，并且在下游任务中，微调MPP训练的模型相较于从头训练的模型，对新物理的预测结果更准确。
-
-    
-
-    我们引入了一种多物理学预训练（MPP）的方法，这是一种自回归任务不可知的预训练方法，用于物理代理建模。MPP通过训练大型代理模型同时预测多个异构物理系统的动力学，学习在不同物理任务中广泛适用的特征。为了有效学习，在这种设置中，我们引入了一种共享嵌入和归一化策略，将多个系统的字段投影到一个共享嵌入空间中。我们在一个涉及流体力学的广泛基准测试中验证了我们方法的有效性。我们表明，单个MPP预训练的变换器能够在所有预训练子任务上与或超过特定任务的基准结果，而无需微调。对于下游任务，我们证明微调MPP训练的模型相较于从头训练的模型，在多个时间步骤上对新物理的预测结果更准确。
-
-    We introduce multiple physics pretraining (MPP), an autoregressive task-agnostic pretraining approach for physical surrogate modeling. MPP involves training large surrogate models to predict the dynamics of multiple heterogeneous physical systems simultaneously by learning features that are broadly useful across diverse physical tasks. In order to learn effectively in this setting, we introduce a shared embedding and normalization strategy that projects the fields of multiple systems into a single shared embedding space. We validate the efficacy of our approach on both pretraining and downstream tasks over a broad fluid mechanics-oriented benchmark. We show that a single MPP-pretrained transformer is able to match or outperform task-specific baselines on all pretraining sub-tasks without the need for finetuning. For downstream tasks, we demonstrate that finetuning MPP-trained models results in more accurate predictions across multiple time-steps on new physics compared to training from
-    
-[^4]: 用于决策的因果思维在电子健康记录中的应用：为什么以及如何
-
-    Causal thinking for decision making on Electronic Health Records: why and how. (arXiv:2308.01605v1 [stat.ME])
-
-    [http://arxiv.org/abs/2308.01605](http://arxiv.org/abs/2308.01605)
-
-    本文介绍了在电子健康记录中使用因果思维进行决策的必要性和方法。通过模拟随机试验来个性化决策，以减少数据中的偏见。这对于分析电子健康记录或索赔数据以得出因果结论的最重要陷阱和考虑因素进行了重点强调。
+    这项工作研究了带有Bandit反馈的极小极大次模优化问题，在这个问题中，我们建立了第一个最小最大下限，并提出了一个能够与下限遗憾相匹配的算法。
 
     
 
-    准确的预测，如同机器学习一样，可能无法为每个患者提供最佳医疗保健。确实，预测可能受到数据中的捷径（如种族偏见）的驱动。为数据驱动的决策需要因果思维。在这里，我们介绍关键要素，重点关注常规收集的数据，即电子健康记录（EHRs）和索赔数据。使用这些数据评估干预的价值需要谨慎：时间依赖性和现有实践很容易混淆因果效应。我们提供了一个逐步框架，帮助从真实患者记录中构建有效的决策，通过模拟随机试验来个性化决策，例如使用机器学习。我们的框架强调了分析EHRs或索赔数据以得出因果结论时最重要的陷阱和考虑因素。我们在用于重症医学信息市场中的肌酐对败血症死亡率的影响的研究中说明了各种选择。
+    我们考虑在随机Bandit反馈下，最大化一个单调次模集函数$f：2 ^ {[n]} \rightarrow [0,1]$。具体来说，$f$对于学习者是未知的，但是在每个时间$t=1,\dots,T$，学习者选择一个集合$S_t \subset [n]$，其中$|S_t|\leq k$，并接收奖励$f(S_t)+\eta_t$，其中$\eta_t$是均值为零的次高斯噪声。目标是在$T$次中使得学习者对于带有$|S_*|=k$的最大$f(S_*)$的($1-e^{-1}$)近似的最小遗憾，通过对$f$的贪婪最大化来达到。到目前为止，文献中最好的遗憾边界按照$k n^{1/3} T^{2/3}$的比例缩放。通过将每个集合简单地视为一个唯一的arm，可以推断出$\sqrt{{n \choose k} T}$也是可实现的。在这项工作中，我们建立了这种情况下的第一个极小极大下限，其按照$\mathcal{O}(\min_{i \le k}(in^{1/3}T^{2/3} + \sqrt{n^{k-i}T}))$的比例缩放。此外，我们提出了一个能够与下限遗憾相匹配的算法。
 
-    Accurate predictions, as with machine learning, may not suffice to provide optimal healthcare for every patient. Indeed, prediction can be driven by shortcuts in the data, such as racial biases. Causal thinking is needed for data-driven decisions. Here, we give an introduction to the key elements, focusing on routinely-collected data, electronic health records (EHRs) and claims data. Using such data to assess the value of an intervention requires care: temporal dependencies and existing practices easily confound the causal effect. We present a step-by-step framework to help build valid decision making from real-life patient records by emulating a randomized trial before individualizing decisions, eg with machine learning. Our framework highlights the most important pitfalls and considerations in analysing EHRs or claims data to draw causal conclusions. We illustrate the various choices in studying the effect of albumin on sepsis mortality in the Medical Information Mart for Intensive C
+    We consider maximizing a monotonic, submodular set function $f: 2^{[n]} \rightarrow [0,1]$ under stochastic bandit feedback. Specifically, $f$ is unknown to the learner but at each time $t=1,\dots,T$ the learner chooses a set $S_t \subset [n]$ with $|S_t| \leq k$ and receives reward $f(S_t) + \eta_t$ where $\eta_t$ is mean-zero sub-Gaussian noise. The objective is to minimize the learner's regret over $T$ times with respect to ($1-e^{-1}$)-approximation of maximum $f(S_*)$ with $|S_*| = k$, obtained through greedy maximization of $f$. To date, the best regret bound in the literature scales as $k n^{1/3} T^{2/3}$. And by trivially treating every set as a unique arm one deduces that $\sqrt{ {n \choose k} T }$ is also achievable. In this work, we establish the first minimax lower bound for this setting that scales like $\mathcal{O}(\min_{i \le k}(in^{1/3}T^{2/3} + \sqrt{n^{k-i}T}))$. Moreover, we propose an algorithm that is capable of matching the lower bound regret.
+    
+[^3]: TNDDR: 高效且双重鲁棒的COVID-19疫苗有效性估计在阴性测试设计下
+
+    TNDDR: Efficient and doubly robust estimation of COVID-19 vaccine effectiveness under the test-negative design. (arXiv:2310.04578v1 [stat.ME])
+
+    [http://arxiv.org/abs/2310.04578](http://arxiv.org/abs/2310.04578)
+
+    我们提出了一种高效且双重鲁棒的估计器TNDDR，用于在阴性测试设计下估计COVID-19疫苗的有效性，可有效解决选择偏差问题，并结合机器学习技术进行辅助函数估计。
+
+    
+
+    尽管阴性测试设计（TND）常用于监测季节性流感疫苗有效性（VE），但最近已成为COVID-19疫苗监测的重要组成部分，但由于结果相关抽样，它容易受到选择偏差的影响。一些研究已经解决了TND下因果参数的可鉴别性和估计问题，但尚未研究非参数估计器在无混杂性假设下的效率边界。我们提出了一种称为TNDDR（TND双重鲁棒）的一步双重鲁棒和局部高效估计器,它利用样本分割，并可以结合机器学习技术来估计辅助函数。我们推导了结果边际期望的高效影响函数（EIF），探索了von Mises展开，并建立了TNDDR的n的平方根一致性、渐近正态性和双重鲁棒性的条件。
+
+    While the test-negative design (TND), which is routinely used for monitoring seasonal flu vaccine effectiveness (VE), has recently become integral to COVID-19 vaccine surveillance, it is susceptible to selection bias due to outcome-dependent sampling. Some studies have addressed the identifiability and estimation of causal parameters under the TND, but efficiency bounds for nonparametric estimators of the target parameter under the unconfoundedness assumption have not yet been investigated. We propose a one-step doubly robust and locally efficient estimator called TNDDR (TND doubly robust), which utilizes sample splitting and can incorporate machine learning techniques to estimate the nuisance functions. We derive the efficient influence function (EIF) for the marginal expectation of the outcome under a vaccination intervention, explore the von Mises expansion, and establish the conditions for $\sqrt{n}-$consistency, asymptotic normality and double robustness of TNDDR. The proposed TND
+    
+[^4]: AdaStop：用于深度强化学习代理比较的高效可靠序列测试
+
+    AdaStop: sequential testing for efficient and reliable comparisons of Deep RL Agents. (arXiv:2306.10882v1 [cs.LG])
+
+    [http://arxiv.org/abs/2306.10882](http://arxiv.org/abs/2306.10882)
+
+    AdaStop是一种基于多组序列测试的新统计测试方法，可用于比较多个深度强化学习算法来解决实验结果可复制性的问题。
+
+    
+
+    许多深度强化学习实验结果的可复现性受到质疑。为了解决这个可复现性危机，我们提出了一种理论上可靠的方法，用于比较多个深度强化学习算法。由于一个深度强化学习算法的一次执行性能是随机的，所以需要进行独立的多次执行来精确评估它。当比较多个强化学习算法时，一个主要问题是需要进行多少次执行，并且如何确保这样比较的结果在理论上是可靠的。深度强化学习的研究人员通常使用少于5个独立执行来比较算法：我们认为这通常是不够的。而且，当同时比较几个算法时，每个比较的误差都会累积，必须采用多重测试程序来考虑这些误差，以维持低误差保证。为了以统计学上的可靠方式解决这个问题，我们介绍了AdaStop，这是一种基于多组序列测试的新统计测试方法。
+
+    The reproducibility of many experimental results in Deep Reinforcement Learning (RL) is under question. To solve this reproducibility crisis, we propose a theoretically sound methodology to compare multiple Deep RL algorithms. The performance of one execution of a Deep RL algorithm is random so that independent executions are needed to assess it precisely. When comparing several RL algorithms, a major question is how many executions must be made and how can we assure that the results of such a comparison is theoretically sound. Researchers in Deep RL often use less than 5 independent executions to compare algorithms: we claim that this is not enough in general. Moreover, when comparing several algorithms at once, the error of each comparison accumulates and must be taken into account with a multiple tests procedure to preserve low error guarantees. To address this problem in a statistically sound way, we introduce AdaStop, a new statistical test based on multiple group sequential tests
     
 

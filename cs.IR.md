@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Representation Learning with Large Language Models for Recommendation.](http://arxiv.org/abs/2310.15950) | 这篇论文介绍了一个模型-不可知的框架RLMRec，通过使用大语言模型（LLMs）来增强传统的基于ID的推荐系统，并解决了可扩展性问题、仅依赖文本的限制以及提示输入限制等挑战。 |
+| [^1] | [HGCC: Enhancing Hyperbolic Graph Convolution Networks on Heterogeneous Collaborative Graph for Recommendation.](http://arxiv.org/abs/2304.02961) | 该论文提出了一种名为HGCC的协同过滤模型，它通过添加幂律偏差来保持协同图的长尾性质，并直接聚合邻居节点，以提高推荐性能。 |
 
 # 详细
 
-[^1]: 用大语言模型进行推荐中的表示学习
+[^1]: HGCC：提高异构协同图上的超几何图卷积网络用于推荐
 
-    Representation Learning with Large Language Models for Recommendation. (arXiv:2310.15950v3 [cs.IR] UPDATED)
+    HGCC: Enhancing Hyperbolic Graph Convolution Networks on Heterogeneous Collaborative Graph for Recommendation. (arXiv:2304.02961v1 [cs.IR])
 
-    [http://arxiv.org/abs/2310.15950](http://arxiv.org/abs/2310.15950)
+    [http://arxiv.org/abs/2304.02961](http://arxiv.org/abs/2304.02961)
 
-    这篇论文介绍了一个模型-不可知的框架RLMRec，通过使用大语言模型（LLMs）来增强传统的基于ID的推荐系统，并解决了可扩展性问题、仅依赖文本的限制以及提示输入限制等挑战。
+    该论文提出了一种名为HGCC的协同过滤模型，它通过添加幂律偏差来保持协同图的长尾性质，并直接聚合邻居节点，以提高推荐性能。
 
     
 
-    推荐系统在深度学习和图神经网络的影响下取得了显著进展，特别是在捕捉复杂的用户-物品关系方面。然而，这些基于图的推荐系统严重依赖于基于ID的数据，可能忽略了与用户和物品相关的有价值的文本信息，导致学到的表示不够富有信息。此外，隐式反馈数据的利用引入了潜在的噪声和偏差，给用户偏好学习的有效性带来了挑战。尽管将大语言模型（LLMs）与传统的基于ID的推荐系统相结合已经引起了人们的关注，但在实际推荐系统中有效实施还需要解决可扩展性问题、仅依赖文本的限制以及提示输入限制等挑战。为了解决这些挑战，我们提出了一个模型不可知的框架RLMRec，旨在通过LLM强化表示来增强现有的推荐系统。
+    由于推荐任务中用户-物品交互数据的自然幂律分布特性，超几何空间建模已被引入协同过滤方法中。其中，超几何GCN结合了GCN和超几何空间的优势，并取得了令人惊讶的性能。然而，这些方法仅在设计中部分利用了超几何空间的特性，由于完全随机的嵌入初始化和不精确的切线空间聚合。此外，这些工作中使用的数据主要集中在仅用户-物品交互数据中，这进一步限制了模型的性能。本文提出了一种超几何GCN协同过滤模型HGCC，它改进了现有的超几何GCN结构，用于协同过滤并纳入了附加信息。它通过在节点嵌入初始化时添加幂律偏差来保持协同图的长尾性质；然后，它直接聚合邻居节点，以提高推荐性能。
 
-    Recommender systems have seen significant advancements with the influence of deep learning and graph neural networks, particularly in capturing complex user-item relationships. However, these graph-based recommenders heavily depend on ID-based data, potentially disregarding valuable textual information associated with users and items, resulting in less informative learned representations. Moreover, the utilization of implicit feedback data introduces potential noise and bias, posing challenges for the effectiveness of user preference learning. While the integration of large language models (LLMs) into traditional ID-based recommenders has gained attention, challenges such as scalability issues, limitations in text-only reliance, and prompt input constraints need to be addressed for effective implementation in practical recommender systems. To address these challenges, we propose a model-agnostic framework RLMRec that aims to enhance existing recommenders with LLM-empowered representati
+    Due to the naturally power-law distributed nature of user-item interaction data in recommendation tasks, hyperbolic space modeling has recently been introduced into collaborative filtering methods. Among them, hyperbolic GCN combines the advantages of GCN and hyperbolic space and achieves a surprising performance. However, these methods only partially exploit the nature of hyperbolic space in their designs due to completely random embedding initialization and an inaccurate tangent space aggregation. In addition, the data used in these works mainly focus on user-item interaction data only, which further limits the performance of the models. In this paper, we propose a hyperbolic GCN collaborative filtering model, HGCC, which improves the existing hyperbolic GCN structure for collaborative filtering and incorporates side information. It keeps the long-tailed nature of the collaborative graph by adding power law prior to node embedding initialization; then, it aggregates neighbors directl
     
 

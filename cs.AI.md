@@ -2,172 +2,172 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Just Shift It: Test-Time Prototype Shifting for Zero-Shot Generalization with Vision-Language Models](https://arxiv.org/abs/2403.12952) | 引入了测试时间原型转移（TPS）框架，通过动态学习每个原型的转移向量，有效地弥合了领域差距并增强了类 |
-| [^2] | [Fusing Domain-Specific Content from Large Language Models into Knowledge Graphs for Enhanced Zero Shot Object State Classification](https://arxiv.org/abs/2403.12151) | 大型语言模型与知识图谱结合，提高零样本对象状态分类性能 |
-| [^3] | [Merino: Entropy-driven Design for Generative Language Models on IoT Devices](https://arxiv.org/abs/2403.07921) | 在本文中，我们提出了一个新颖的信息熵框架，用于设计手机友好的生成式语言模型，通过最大化transformer解码器的熵来在计算预算内，成功设计了MeRino模型，在移动设置下展现出与当前最先进的自回归transformer模型竞争性能的特点 |
-| [^4] | [Towards Multimodal Human Intention Understanding Debiasing via Subject-Deconfounding](https://arxiv.org/abs/2403.05025) | 通过引入概括性因果图和分析主题混淆效应，本文提出了SuCI，实现了多模态人类意图理解的去偏见，解决了MIU模型受主体变异问题困扰的挑战。 |
-| [^5] | [ChatGPT and biometrics: an assessment of face recognition, gender detection, and age estimation capabilities](https://arxiv.org/abs/2403.02965) | 本文评估了ChatGPT在面部识别、性别检测和年龄估计等生物识别任务中的表现，结果显示ChatGPT在面部识别方面具有较高准确性，并在性别检测方面表现显著，在年龄估计任务中也具有相当准确性。 |
-| [^6] | [Robust Deep Reinforcement Learning Through Adversarial Attacks and Training : A Survey](https://arxiv.org/abs/2403.00420) | 通过对抗性训练来改进DRL对条件变化的鲁棒性，研究者系统分析了当代对抗攻击方法，提供了详细见解。 |
-| [^7] | [Rainbow Teaming: Open-Ended Generation of Diverse Adversarial Prompts](https://arxiv.org/abs/2402.16822) | Rainbow Teaming提出了一种新方法，通过开放式搜索生成多样化的对抗性提示，可以帮助改善大型语言模型的稳健性，提高安全性，问答和网络安全等领域的模型漏洞。 |
-| [^8] | [Weighted Ensemble Models Are Strong Continual Learners](https://arxiv.org/abs/2312.08977) | 通过加权集成模型实现了高准确性的持续学习，兼顾可塑性和稳定性。 |
-| [^9] | [AgentMixer: Multi-Agent Correlated Policy Factorization.](http://arxiv.org/abs/2401.08728) | AgentMixer提出了一种新颖的框架，允许智能体通过策略修改来实现协同决策。通过构造联合策略为各个部分策略的非线性组合，可实现部分可观测智能体的稳定训练和分散执行。 |
-| [^10] | [Representation Learning with Large Language Models for Recommendation.](http://arxiv.org/abs/2310.15950) | 这篇论文介绍了一个模型-不可知的框架RLMRec，通过使用大语言模型（LLMs）来增强传统的基于ID的推荐系统，并解决了可扩展性问题、仅依赖文本的限制以及提示输入限制等挑战。 |
-| [^11] | [Multiple Physics Pretraining for Physical Surrogate Models.](http://arxiv.org/abs/2310.02994) | 多物理学预训练是一种用于物理代理建模的自回归预训练方法，通过训练大型代理模型同时预测多个异构物理系统的动力学，学习在不同物理任务中广泛适用的特征。实验证明，单个MPP预训练的变换器可以在所有预训练子任务上与或超过特定任务的基准结果，无需微调，并且在下游任务中，微调MPP训练的模型相较于从头训练的模型，对新物理的预测结果更准确。 |
+| [^1] | [ProSwitch: Knowledge-Guided Language Model Fine-Tuning to Generate Professional and Non-Professional Styled Text](https://arxiv.org/abs/2403.09131) | ProSwitch通过知识引导的指令微调，在专业和非专业风格之间生成文本，并在专业性评估和质量评估方面表现出优越性。 |
+| [^2] | [LLMs with Chain-of-Thought Are Non-Causal Reasoners](https://arxiv.org/abs/2402.16048) | 本文探讨了大型语言模型在推理过程中思维链条（CoT）的作用，发现LLMs在答案生成过程中与人类推理存在差异，相关因素包括语境学习、有监督微调以及对人类反馈的强化学习。 |
+| [^3] | [Flexible Physical Camouflage Generation Based on a Differential Approach](https://arxiv.org/abs/2402.13575) | 该研究引入了一种新颖的神经渲染方法，名为FPA，通过学习对抗模式并结合特殊设计的对抗损失和隐蔽约束损失，可以生成物理世界中具有对抗性和隐蔽性质的伪装。 |
+| [^4] | [ProSparse: Introducing and Enhancing Intrinsic Activation Sparsity within Large Language Models](https://arxiv.org/abs/2402.13516) | 本文介绍了一种名为"ProSparse"的有效稀疏化方法，以推动大型语言模型实现更高的激活稀疏性而不降低模型性能 |
+| [^5] | [Learn To be Efficient: Build Structured Sparsity in Large Language Models](https://arxiv.org/abs/2402.06126) | 本文通过引入一种新的算法"Learn-To-be-Efficient(LTE)"，提出了在大型语言模型(LLM)中构建结构化稀疏性的方法。该方法通过训练高效意识的LLM学习激活更少的神经元，取得更好的稀疏性和性能折衷。 |
+| [^6] | [Reinforcement Learning as a Catalyst for Robust and Fair Federated Learning: Deciphering the Dynamics of Client Contributions](https://arxiv.org/abs/2402.05541) | 本研究提出了一个新的框架——强化联邦学习（RFL），通过利用深度强化学习自适应地优化客户贡献的聚合过程，以增强模型鲁棒性和在非相同分布环境下参与者之间的公平性。 |
+| [^7] | [Respect the model: Fine-grained and Robust Explanation with Sharing Ratio Decomposition](https://arxiv.org/abs/2402.03348) | 本论文提出了一种称为共享比例分解(SRD)的新颖解释方法，真实地反映了模型的推理过程，并在解释方面显著提高了鲁棒性。通过采用向量视角和考虑滤波器之间的复杂非线性交互，以及引入仅激活模式预测(APOP)方法，可以重新定义相关性并强调非活跃神经元的重要性。 |
+| [^8] | [Hierarchical Fashion Design with Multi-stage Diffusion Models.](http://arxiv.org/abs/2401.07450) | 本论文提出了一种名为HieraFashDiff的新型时尚设计方法，它使用多级扩散模型实现了从高级设计概念到低级服装属性的分层设计和编辑，解决了当前在时尚设计中的挑战。 |
+| [^9] | [OneAdapt: Fast Adaptation for Deep Learning Applications via Backpropagation.](http://arxiv.org/abs/2310.02422) | OneAdapt通过梯度上升策略来实现快速自适应，满足了深度学习应用在配置参数方面的三个要求。 |
+| [^10] | [STARC: A General Framework For Quantifying Differences Between Reward Functions.](http://arxiv.org/abs/2309.15257) | 这篇论文提出了一个通用框架（STARC），用于评估奖励函数之间的差异，填补了奖励学习理论基础的空白。 |
+| [^11] | [Provably Efficient Learning in Partially Observable Contextual Bandit.](http://arxiv.org/abs/2308.03572) | 本文研究了在部分可观察情境轮盘赌中的转移学习问题，提出了一种通过优化问题识别行为和奖励因果效应的方法，并利用因果约束来改进轮盘赌算法。 |
 
 # 详细
 
-[^1]: 只需转移它：测试时间原型转移用于视觉语言模型的零样本泛化
+[^1]: ProSwitch：知识引导的语言模型微调，生成专业和非专业风格的文本
 
-    Just Shift It: Test-Time Prototype Shifting for Zero-Shot Generalization with Vision-Language Models
+    ProSwitch: Knowledge-Guided Language Model Fine-Tuning to Generate Professional and Non-Professional Styled Text
 
-    [https://arxiv.org/abs/2403.12952](https://arxiv.org/abs/2403.12952)
+    [https://arxiv.org/abs/2403.09131](https://arxiv.org/abs/2403.09131)
 
-    引入了测试时间原型转移（TPS）框架，通过动态学习每个原型的转移向量，有效地弥合了领域差距并增强了类
-
-    
-
-    视觉语言模型（VLMs）的进展推动了计算机视觉领域的发展，特别是在零样本学习设置中。尽管它们很有前景，但这些模型的有效性在测试环境中往往会因为领域转移而降低。为了解决这个问题，我们引入了测试时间原型转移（TPS）框架，这是一种旨在使用标记测试输入来使VLM适应测试数据集的开创性方法。我们的方法基于在共享嵌入空间中调节每个类别的原型的概念。通过使用预先训练的文本编码器生成并缓存原型，TPS不仅促进了无需优化的原型重用进行后续预测，还让其能够无缝集成当前进展的提示工程技术。在测试时间，TPS仅基于给定的测试样本动态学习每个原型的转移向量，有效地弥合领域差距并增强类
-
-    arXiv:2403.12952v1 Announce Type: cross  Abstract: Advancements in vision-language models (VLMs) have propelled the field of computer vision, particularly in the zero-shot learning setting. Despite their promise, the effectiveness of these models often diminishes due to domain shifts in test environments. To address this, we introduce the Test-Time Prototype Shifting (TPS) framework, a pioneering approach designed to adapt VLMs to test datasets using unlabeled test inputs. Our method is based on the notion of modulating per-class prototypes in the shared embedding space. By pre-computing and caching prototypes generated with the pre-trained text encoder, TPS not only facilitates optimization-free prototype reuse for subsequent predictions but also enables seamless integration with current advancements in prompt engineering. At test-time, TPS dynamically learns shift vectors for each prototype based solely on the given test sample, effectively bridging the domain gap and enhancing class
-    
-[^2]: 将大型语言模型中的领域特定内容融入知识图谱，以增强零样本对象状态分类
-
-    Fusing Domain-Specific Content from Large Language Models into Knowledge Graphs for Enhanced Zero Shot Object State Classification
-
-    [https://arxiv.org/abs/2403.12151](https://arxiv.org/abs/2403.12151)
-
-    大型语言模型与知识图谱结合，提高零样本对象状态分类性能
+    ProSwitch通过知识引导的指令微调，在专业和非专业风格之间生成文本，并在专业性评估和质量评估方面表现出优越性。
 
     
 
-    领域特定知识可以显著有助于解决各种视觉任务，但生成这种知识需要大量人力和时间成本。本研究探讨了大型语言模型（LLMs）在通过语义嵌入生成和提供领域特定信息方面的潜力。为实现这一目标，将LLM集成到一个流程中，该流程在视觉基础零样本对象状态分类任务的背景下利用知识图谱和预训练的语义向量。通过广泛的消融研究彻底研究了LLM的行为。我们的研究结果表明，将基于LLM的嵌入与通用的预训练嵌入结合使用可以显著提高性能。借鉴这一消融研究的见解，我们对竞争模型进行了比较分析，从而突出了最新的表现水平。
+    大语言模型（LLMs）在各种语言应用中表现出有效性，包括文本摘要和可控文本生成。然而，关于它们通过微调在不同风格间切换的能力的研究仍未被充分探讨。本研究聚焦于文本专业性，并引入了一种新颖的方法，名为ProSwitch，通过知识引导的指令微调，使语言模型具备生成专业和非专业回复的能力。ProSwitch分为三个阶段：数据准备，用于收集领域知识和训练语料库；指令微调，用于优化带有多种指令格式的语言模型；全面评估，用于评估生成文本的专业性区分能力和基于参考的质量。 ProSwitch相对于通用和专门语言模型的比较分析显示了我们的方法的优越性。
 
-    arXiv:2403.12151v1 Announce Type: new  Abstract: Domain-specific knowledge can significantly contribute to addressing a wide variety of vision tasks. However, the generation of such knowledge entails considerable human labor and time costs. This study investigates the potential of Large Language Models (LLMs) in generating and providing domain-specific information through semantic embeddings. To achieve this, an LLM is integrated into a pipeline that utilizes Knowledge Graphs and pre-trained semantic vectors in the context of the Vision-based Zero-shot Object State Classification task. We thoroughly examine the behavior of the LLM through an extensive ablation study. Our findings reveal that the integration of LLM-based embeddings, in combination with general-purpose pre-trained embeddings, leads to substantial performance improvements. Drawing insights from this ablation study, we conduct a comparative analysis against competing models, thereby highlighting the state-of-the-art perfor
+    arXiv:2403.09131v1 Announce Type: cross  Abstract: Large Language Models (LLMs) have demonstrated efficacy in various linguistic applications, including text summarization and controlled text generation. However, studies into their capacity of switching between styles via fine-tuning remain underexplored. This study concentrates on textual professionalism and introduces a novel methodology, named ProSwitch, which equips a language model with the ability to produce both professional and non-professional responses through knowledge-guided instruction tuning. ProSwitch unfolds across three phases: data preparation for gathering domain knowledge and training corpus; instruction tuning for optimizing language models with multiple levels of instruction formats; and comprehensive evaluation for assessing the professionalism discrimination and reference-based quality of generated text. Comparative analysis of ProSwitch against both general and specialized language models reveals that our appro
     
-[^3]: Merino：基于熵驱动的IoT设备上生成式语言模型设计
+[^2]: LLMs带有思维链条是非因果推理者
 
-    Merino: Entropy-driven Design for Generative Language Models on IoT Devices
+    LLMs with Chain-of-Thought Are Non-Causal Reasoners
 
-    [https://arxiv.org/abs/2403.07921](https://arxiv.org/abs/2403.07921)
+    [https://arxiv.org/abs/2402.16048](https://arxiv.org/abs/2402.16048)
 
-    在本文中，我们提出了一个新颖的信息熵框架，用于设计手机友好的生成式语言模型，通过最大化transformer解码器的熵来在计算预算内，成功设计了MeRino模型，在移动设置下展现出与当前最先进的自回归transformer模型竞争性能的特点
-
-    
-
-    大规模生成式语言模型（LLMs）作为人工智能现代时代的革命性进步，然而，直接部署LLMs在资源受限的硬件上，比如物联网（IoT）设备，由于其高计算成本而变得困难。在本文中，我们提出了一个新颖的信息熵框架，用于设计手机友好的生成式语言模型。我们的主要设计范式是在给定的计算预算内最大化transformer解码器的熵。整个设计过程涉及解决一个数学规划（MP）问题，可以在几分钟内在CPU上完成，使其几乎是零成本的。我们评估了我们设计的模型MeRino，在九个NLP下游任务上展示了它们在移动设置下对抗当前最先进的自回归transformer模型的竞争性表现。值得注意的是，MeRino在移动设置下获得了类似或更好的零性能表现
-
-    arXiv:2403.07921v1 Announce Type: cross  Abstract: Generative Large Language Models (LLMs) stand as a revolutionary advancement in the modern era of artificial intelligence (AI). However, directly deploying LLMs in resource-constrained hardware, such as Internet-of-Things (IoT) devices, is difficult due to their high computational cost. In this paper, we propose a novel information-entropy framework for designing mobile-friendly generative language models. Our key design paradigm is to maximize the entropy of transformer decoders within the given computational budgets. The whole design procedure involves solving a mathematical programming (MP) problem, which can be done on the CPU within minutes, making it nearly zero-cost. We evaluate our designed models, termed MeRino, across nine NLP downstream tasks, showing their competitive performance against the state-of-the-art autoregressive transformer models under the mobile setting. Notably, MeRino achieves similar or better zero performan
-    
-[^4]: 通过主题去相关实现多模态人类意图理解去偏见
-
-    Towards Multimodal Human Intention Understanding Debiasing via Subject-Deconfounding
-
-    [https://arxiv.org/abs/2403.05025](https://arxiv.org/abs/2403.05025)
-
-    通过引入概括性因果图和分析主题混淆效应，本文提出了SuCI，实现了多模态人类意图理解的去偏见，解决了MIU模型受主体变异问题困扰的挑战。
+    本文探讨了大型语言模型在推理过程中思维链条（CoT）的作用，发现LLMs在答案生成过程中与人类推理存在差异，相关因素包括语境学习、有监督微调以及对人类反馈的强化学习。
 
     
 
-    arXiv:2403.05025v1 公告类型: 新摘要: 多模态意图理解(MIU)是人类表达分析(例如情感或幽默)不可或缺的组成部分，涉及视觉姿势、语言内容和声学行为等异构模态。现有工作始终专注于设计复杂的结构或融合策略，取得显著进展。然而，它们都受到主题变异问题的困扰，因为不同主题之间的数据分布差异导致。具体而言，由于训练数据中具有不同表达习惯和特征的不同主题，MIU模型很容易被误导，以学习特定于主题的伪相关性，从而显着限制了跨未接触主题的性能和泛化能力。受这一观察启发，我们引入了一个概括性因果图来制定MIU过程，并分析主题的混淆效应。然后，我们提出了SuCI，一个简单而有效的因果
+    本文探讨了大型语言模型（LLMs）推理中思维链条（CoT）的作用。尽管它有改善任务性能的潜力，但我们的分析揭示了在LLMs中正确答案跟随不正确CoTs的频率及反之。我们采用因果分析来评估CoTs/指令与LLMs答案之间的因果关系，揭示LLMs近似的结构因果模型（SCM）。通过比较暗示SCM与人类推理的SCM，我们突显了LLM和人类推理过程之间的差异。我们进一步研究了影响暗示SCM因果结构的因素，揭示了语境学习、有监督微调以及对人类反馈的强化学习显著影响因果关系。我们在https://github.com/StevenZHB/CoT_Causal_Analysis发布了代码和结果。
 
-    arXiv:2403.05025v1 Announce Type: new  Abstract: Multimodal intention understanding (MIU) is an indispensable component of human expression analysis (e.g., sentiment or humor) from heterogeneous modalities, including visual postures, linguistic contents, and acoustic behaviors. Existing works invariably focus on designing sophisticated structures or fusion strategies to achieve impressive improvements. Unfortunately, they all suffer from the subject variation problem due to data distribution discrepancies among subjects. Concretely, MIU models are easily misled by distinct subjects with different expression customs and characteristics in the training data to learn subject-specific spurious correlations, significantly limiting performance and generalizability across uninitiated subjects.Motivated by this observation, we introduce a recapitulative causal graph to formulate the MIU procedure and analyze the confounding effect of subjects. Then, we propose SuCI, a simple yet effective caus
+    arXiv:2402.16048v1 Announce Type: cross  Abstract: This paper explores the role of the Chain of Thought (CoT) in Large Language Models (LLMs) reasoning. Despite its potential to improve task performance, our analysis reveals a surprising frequency of correct answers following incorrect CoTs and vice versa. We employ causal analysis to assess the cause-effect relationship between CoTs/instructions and answers in LLMs, uncovering the Structural Causal Model (SCM) that LLMs approximate. By comparing the implied SCM with that of human reasoning, we highlight discrepancies between LLM and human reasoning processes. We further examine the factors influencing the causal structure of the implied SCM, revealing that in-context learning, supervised fine-tuning, and reinforcement learning on human feedback significantly impact the causal relations. We release the code and results at https://github.com/StevenZHB/CoT_Causal_Analysis.
     
-[^5]: ChatGPT与生物识别技术：对面部识别、性别检测和年龄估计能力的评估
+[^3]: 基于差异方法的灵活物理伪装生成
 
-    ChatGPT and biometrics: an assessment of face recognition, gender detection, and age estimation capabilities
+    Flexible Physical Camouflage Generation Based on a Differential Approach
 
-    [https://arxiv.org/abs/2403.02965](https://arxiv.org/abs/2403.02965)
+    [https://arxiv.org/abs/2402.13575](https://arxiv.org/abs/2402.13575)
 
-    本文评估了ChatGPT在面部识别、性别检测和年龄估计等生物识别任务中的表现，结果显示ChatGPT在面部识别方面具有较高准确性，并在性别检测方面表现显著，在年龄估计任务中也具有相当准确性。
-
-    
-
-    本文探讨了大型语言模型（LLMs），如ChatGPT，在生物识别任务中的应用。我们特别检验了ChatGPT在执行生物识别相关任务方面的能力，重点关注面部识别、性别检测和年龄估计。由于生物识别被视为敏感信息，ChatGPT避免回答直接提示，因此我们设计了提示策略来绕过其保护措施，并评估生物识别任务的能力。我们的研究表明，ChatGPT能够以相当高的准确性识别面部身份并在两个面部图像之间区分。此外，实验结果显示在性别检测方面性能显著，并对年龄估计任务有相当准确性能。我们的发现揭示了在生物识别中应用LLMs和基础模型具有广阔的潜力。
-
-    arXiv:2403.02965v1 Announce Type: cross  Abstract: This paper explores the application of large language models (LLMs), like ChatGPT, for biometric tasks. We specifically examine the capabilities of ChatGPT in performing biometric-related tasks, with an emphasis on face recognition, gender detection, and age estimation. Since biometrics are considered as sensitive information, ChatGPT avoids answering direct prompts, and thus we crafted a prompting strategy to bypass its safeguard and evaluate the capabilities for biometrics tasks. Our study reveals that ChatGPT recognizes facial identities and differentiates between two facial images with considerable accuracy. Additionally, experimental results demonstrate remarkable performance in gender detection and reasonable accuracy for the age estimation tasks. Our findings shed light on the promising potentials in the application of LLMs and foundation models for biometrics.
-    
-[^6]: 经由对抗攻击和训练的稳健深度强化学习：一项调查
-
-    Robust Deep Reinforcement Learning Through Adversarial Attacks and Training : A Survey
-
-    [https://arxiv.org/abs/2403.00420](https://arxiv.org/abs/2403.00420)
-
-    通过对抗性训练来改进DRL对条件变化的鲁棒性，研究者系统分析了当代对抗攻击方法，提供了详细见解。
+    该研究引入了一种新颖的神经渲染方法，名为FPA，通过学习对抗模式并结合特殊设计的对抗损失和隐蔽约束损失，可以生成物理世界中具有对抗性和隐蔽性质的伪装。
 
     
 
-    深度强化学习（DRL）是一种训练自主代理在各种复杂环境中的方法。尽管在众所周知的环境中表现出色，但它仍然容易受到轻微条件变化的影响，引发了人们对其在现实应用中可靠性的担忧。为了提高可用性，DRL必须展示出可信度和鲁棒性。通过对抗性训练提高DRL对条件变化的鲁棒性是一种改进方式，通过训练代理针对环境动态的适当对抗性攻击。我们的工作致力于解决这一关键问题，对当代对抗攻击方法进行了深入分析，系统地对其进行分类，并比较它们的目标和操作机制。这种分类为我们提供了对对抗性攻击如何有效评估DRL代理的恢复力的详细见解，从而为开辟DRL在实际应用中的道路奠定了基础。
+    这项研究介绍了一种新的神经渲染方法，专门针对对抗伪装，在广泛的三维渲染框架内进行了定制。我们的方法，名为FPA，通过忠实地模拟光照条件和材料变化，确保在三维目标上对纹理进行微妙而逼真的表现。为了实现这一目标，我们采用一种生成方法，从扩散模型中学习对抗模式。这涉及将一个特别设计的对抗损失和隐蔽约束损失结合在一起，以确保伪装在物理世界中的对抗性和隐蔽性质。此外，我们展示了所提出的伪装在贴纸模式下的有效性，展示了其覆盖目标而不影响对抗信息的能力。通过实证和物理实验，FPA在攻击成功率和可转移性方面表现出很强的性能。
 
-    arXiv:2403.00420v1 Announce Type: cross  Abstract: Deep Reinforcement Learning (DRL) is an approach for training autonomous agents across various complex environments. Despite its significant performance in well known environments, it remains susceptible to minor conditions variations, raising concerns about its reliability in real-world applications. To improve usability, DRL must demonstrate trustworthiness and robustness. A way to improve robustness of DRL to unknown changes in the conditions is through Adversarial Training, by training the agent against well suited adversarial attacks on the dynamics of the environment. Addressing this critical issue, our work presents an in-depth analysis of contemporary adversarial attack methodologies, systematically categorizing them and comparing their objectives and operational mechanisms. This classification offers a detailed insight into how adversarial attacks effectively act for evaluating the resilience of DRL agents, thereby paving the 
+    arXiv:2402.13575v1 Announce Type: cross  Abstract: This study introduces a novel approach to neural rendering, specifically tailored for adversarial camouflage, within an extensive 3D rendering framework. Our method, named FPA, goes beyond traditional techniques by faithfully simulating lighting conditions and material variations, ensuring a nuanced and realistic representation of textures on a 3D target. To achieve this, we employ a generative approach that learns adversarial patterns from a diffusion model. This involves incorporating a specially designed adversarial loss and covert constraint loss to guarantee the adversarial and covert nature of the camouflage in the physical world. Furthermore, we showcase the effectiveness of the proposed camouflage in sticker mode, demonstrating its ability to cover the target without compromising adversarial information. Through empirical and physical experiments, FPA exhibits strong performance in terms of attack success rate and transferabili
     
-[^7]: 彩虹团队：多样化对抗性提示的开放式生成
+[^4]: ProSparse: 引入和增强大型语言模型内部激活稀疏性
 
-    Rainbow Teaming: Open-Ended Generation of Diverse Adversarial Prompts
+    ProSparse: Introducing and Enhancing Intrinsic Activation Sparsity within Large Language Models
 
-    [https://arxiv.org/abs/2402.16822](https://arxiv.org/abs/2402.16822)
+    [https://arxiv.org/abs/2402.13516](https://arxiv.org/abs/2402.13516)
 
-    Rainbow Teaming提出了一种新方法，通过开放式搜索生成多样化的对抗性提示，可以帮助改善大型语言模型的稳健性，提高安全性，问答和网络安全等领域的模型漏洞。
-
-    
-
-    随着大型语言模型（LLMs）在许多现实世界应用中变得越来越普遍，理解和增强它们对用户输入的稳健性至关重要。现有的用于识别敌对提示的方法往往专注于特定领域，缺乏多样性，或需要大量人工注释。为了解决这些限制，我们提出了彩虹团队，一种用于生成多样化对抗性提示的新方法。彩虹团队将对抗性提示生成视为一个质量 - 多样性问题，并使用开放式搜索来生成既有效又多样的提示。它可以揭示模型在广泛领域内的脆弱性，包括本文中的安全性、问答和网络安全。我们还证明，对由彩虹团队生成的合成数据进行微调可以提高最先进的LLMs的安全性，而不损害它们的一般能力。
-
-    arXiv:2402.16822v1 Announce Type: new  Abstract: As large language models (LLMs) become increasingly prevalent across many real-world applications, understanding and enhancing their robustness to user inputs is of paramount importance. Existing methods for identifying adversarial prompts tend to focus on specific domains, lack diversity, or require extensive human annotations. To address these limitations, we present Rainbow Teaming, a novel approach for producing a diverse collection of adversarial prompts. Rainbow Teaming casts adversarial prompt generation as a quality-diversity problem, and uses open-ended search to generate prompts that are both effective and diverse. It can uncover a model's vulnerabilities across a broad range of domains including, in this paper, safety, question answering, and cybersecurity. We also demonstrate that fine-tuning on synthetic data generated by Rainbow Teaming improves the safety of state-of-the-art LLMs without hurting their general capabilities 
-    
-[^8]: 加权集成模型是强大的持续学习者
-
-    Weighted Ensemble Models Are Strong Continual Learners
-
-    [https://arxiv.org/abs/2312.08977](https://arxiv.org/abs/2312.08977)
-
-    通过加权集成模型实现了高准确性的持续学习，兼顾可塑性和稳定性。
+    本文介绍了一种名为"ProSparse"的有效稀疏化方法，以推动大型语言模型实现更高的激活稀疏性而不降低模型性能
 
     
 
-    在本文中，我们研究持续学习（CL）的问题，其中目标是从一系列任务中学习模型，使得以前任务的数据在学习当前任务数据时不可用。CL本质上是在能够学习新任务（即可塑性）和保持先前学习概念的性能（即稳定性）之间取得平衡的过程。为了解决稳定性-可塑性的权衡问题，我们建议对先前和当前任务的模型参数进行加权集成。这种加权集成模型，我们称之为持续模型平均（或CoMA），通过利用可塑性在当前任务上获得高准确性，同时不会偏离太远的先前权重配置，从而确保稳定性。我们还提出了CoMA的改进型变体，名为持续费舍尔加权模型平均（或CoFiMA），该模型对每一个参数进行选择性加权。
+    Activation sparsity指的是激活输出中存在许多弱贡献元素。作为使用ReLU激活函数的模型的普遍属性，已被证明是提高模型推理效率的一种有前途的范例。然而，大多数大型语言模型（LLMs）采用了没有内在激活稀疏性的激活函数（例如GELU和Swish）。一些最近的努力尝试引入ReLU或其变体作为替代激活函数，以帮助LLMs实现激活稀疏性和推理加速，但很少能同时获得高稀疏度和可比较的模型性能。本文介绍了一种名为"ProSparse"的有效稀疏化方法，以推动LLMs实现更高的激活稀疏性而不降低模型性能。具体来说，将LLMs的激活函数替换为ReLU后，ProSparse采用渐进稀疏正则化
 
-    arXiv:2312.08977v2 Announce Type: replace-cross  Abstract: In this work, we study the problem of continual learning (CL) where the goal is to learn a model on a sequence of tasks, such that the data from the previous tasks becomes unavailable while learning on the current task data. CL is essentially a balancing act between being able to learn on the new task (i.e., plasticity) and maintaining the performance on the previously learned concepts (i.e., stability). Intending to address the stability-plasticity trade-off, we propose to perform weight-ensembling of the model parameters of the previous and current tasks. This weighted-ensembled model, which we call Continual Model Averaging (or CoMA), attains high accuracy on the current task by leveraging plasticity, while not deviating too far from the previous weight configuration, ensuring stability. We also propose an improved variant of CoMA, named Continual Fisher-weighted Model Averaging (or CoFiMA), that selectively weighs each para
+    arXiv:2402.13516v1 Announce Type: cross  Abstract: Activation sparsity refers to the existence of considerable weakly-contributed elements among activation outputs. As a prevalent property of the models using the ReLU activation function, it has been proven a promising paradigm to boost model inference efficiency. Nevertheless, most large language models (LLMs) adopt activation functions without intrinsic activation sparsity (e.g., GELU and Swish). Some recent efforts have explored introducing ReLU or its variants as the substitutive activation function to help LLMs achieve activation sparsity and inference acceleration, but few can simultaneously obtain high sparsity and comparable model performance. This paper introduces an effective sparsification method named "ProSparse" to push LLMs for higher activation sparsity without decreasing model performance. Specifically, after substituting the activation function of LLMs with ReLU, ProSparse adopts progressive sparsity regularization wit
     
-[^9]: AgentMixer: 多智能体相关策略因子分解
+[^5]: 学习变得高效：在大型语言模型中构建结构化稀疏性
 
-    AgentMixer: Multi-Agent Correlated Policy Factorization. (arXiv:2401.08728v1 [cs.MA])
+    Learn To be Efficient: Build Structured Sparsity in Large Language Models
 
-    [http://arxiv.org/abs/2401.08728](http://arxiv.org/abs/2401.08728)
+    [https://arxiv.org/abs/2402.06126](https://arxiv.org/abs/2402.06126)
 
-    AgentMixer提出了一种新颖的框架，允许智能体通过策略修改来实现协同决策。通过构造联合策略为各个部分策略的非线性组合，可实现部分可观测智能体的稳定训练和分散执行。
-
-    
-
-    集中式训练与分散式执行（CTDE）广泛应用于通过在训练过程中利用集中式值函数来稳定部分可观察的多智能体强化学习（MARL）。然而，现有方法通常假设智能体基于本地观测独立地做决策，这可能不会导致具有足够协调性的相关联的联合策略。受相关均衡概念的启发，我们提出引入"策略修改"来为智能体提供协调策略的机制。具体地，我们提出了一个新颖的框架AgentMixer，将联合完全可观测策略构造为各个部分可观测策略的非线性组合。为了实现分散式执行，可以通过模仿联合策略来得到各个部分策略。不幸的是，这种模仿学习可能会导致由于联合策略和个体策略之间的不匹配而导致的非对称学习失败。
-
-    Centralized training with decentralized execution (CTDE) is widely employed to stabilize partially observable multi-agent reinforcement learning (MARL) by utilizing a centralized value function during training. However, existing methods typically assume that agents make decisions based on their local observations independently, which may not lead to a correlated joint policy with sufficient coordination. Inspired by the concept of correlated equilibrium, we propose to introduce a \textit{strategy modification} to provide a mechanism for agents to correlate their policies. Specifically, we present a novel framework, AgentMixer, which constructs the joint fully observable policy as a non-linear combination of individual partially observable policies. To enable decentralized execution, one can derive individual policies by imitating the joint policy. Unfortunately, such imitation learning can lead to \textit{asymmetric learning failure} caused by the mismatch between joint policy and indi
-    
-[^10]: 用大语言模型进行推荐中的表示学习
-
-    Representation Learning with Large Language Models for Recommendation. (arXiv:2310.15950v3 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2310.15950](http://arxiv.org/abs/2310.15950)
-
-    这篇论文介绍了一个模型-不可知的框架RLMRec，通过使用大语言模型（LLMs）来增强传统的基于ID的推荐系统，并解决了可扩展性问题、仅依赖文本的限制以及提示输入限制等挑战。
+    本文通过引入一种新的算法"Learn-To-be-Efficient(LTE)"，提出了在大型语言模型(LLM)中构建结构化稀疏性的方法。该方法通过训练高效意识的LLM学习激活更少的神经元，取得更好的稀疏性和性能折衷。
 
     
 
-    推荐系统在深度学习和图神经网络的影响下取得了显著进展，特别是在捕捉复杂的用户-物品关系方面。然而，这些基于图的推荐系统严重依赖于基于ID的数据，可能忽略了与用户和物品相关的有价值的文本信息，导致学到的表示不够富有信息。此外，隐式反馈数据的利用引入了潜在的噪声和偏差，给用户偏好学习的有效性带来了挑战。尽管将大语言模型（LLMs）与传统的基于ID的推荐系统相结合已经引起了人们的关注，但在实际推荐系统中有效实施还需要解决可扩展性问题、仅依赖文本的限制以及提示输入限制等挑战。为了解决这些挑战，我们提出了一个模型不可知的框架RLMRec，旨在通过LLM强化表示来增强现有的推荐系统。
+    大型语言模型(LLM)以其十亿级参数取得了显著的成功，但它们产生了高昂的推理开销。在LLM中出现的激活稀疏性为通过仅涉及部分参数进行推理提供了一种自然的方法来减少这种成本。现有方法只关注利用这种自然形成的激活稀疏性，忽视了进一步放大这种固有稀疏性的潜力。本文中，我们假设LLM可以通过实现更结构化的激活稀疏性来学习高效。为实现这一目标，我们引入了一种新颖的算法"Learn-To-be-Efficient(LTE)", 旨在训练高效意识的LLM学习激活更少的神经元，并在稀疏性和性能之间取得更好的折衷。此外，与主要关注基于ReLU模型的SOTA MoEfication方法不同，LTE还可以应用于像GPT和LLaMA这样具有软激活函数的LLM。我们在四个模型和十一个数据集上评估了LTE。
 
-    Recommender systems have seen significant advancements with the influence of deep learning and graph neural networks, particularly in capturing complex user-item relationships. However, these graph-based recommenders heavily depend on ID-based data, potentially disregarding valuable textual information associated with users and items, resulting in less informative learned representations. Moreover, the utilization of implicit feedback data introduces potential noise and bias, posing challenges for the effectiveness of user preference learning. While the integration of large language models (LLMs) into traditional ID-based recommenders has gained attention, challenges such as scalability issues, limitations in text-only reliance, and prompt input constraints need to be addressed for effective implementation in practical recommender systems. To address these challenges, we propose a model-agnostic framework RLMRec that aims to enhance existing recommenders with LLM-empowered representati
+    Large Language Models (LLMs) have achieved remarkable success with their billion-level parameters, yet they incur high inference overheads. The emergence of activation sparsity in LLMs provides a natural approach to reduce this cost by involving only parts of the parameters for inference. Existing methods only focus on utilizing this naturally formed activation sparsity, overlooking the potential for further amplifying this inherent sparsity. In this paper, we hypothesize that LLMs can learn to be efficient by achieving more structured activation sparsity.To achieve this, we introduce a novel algorithm, Learn-To-be-Efficient (LTE), designed to train efficiency-aware LLMs to learn to activate fewer neurons and achieve a better trade-off between sparsity and performance. Furthermore, unlike SOTA MoEfication methods, which mainly focus on ReLU-based models, LTE can also be applied to LLMs like GPT and LLaMA with soft activation functions. We evaluate LTE on four models and eleven datasets
     
-[^11]: 多物理学预训练用于物理代理模型
+[^6]: 强化学习作为鲁棒和公平联邦学习的催化剂：解密客户贡献动力学
 
-    Multiple Physics Pretraining for Physical Surrogate Models. (arXiv:2310.02994v1 [cs.LG])
+    Reinforcement Learning as a Catalyst for Robust and Fair Federated Learning: Deciphering the Dynamics of Client Contributions
 
-    [http://arxiv.org/abs/2310.02994](http://arxiv.org/abs/2310.02994)
+    [https://arxiv.org/abs/2402.05541](https://arxiv.org/abs/2402.05541)
 
-    多物理学预训练是一种用于物理代理建模的自回归预训练方法，通过训练大型代理模型同时预测多个异构物理系统的动力学，学习在不同物理任务中广泛适用的特征。实验证明，单个MPP预训练的变换器可以在所有预训练子任务上与或超过特定任务的基准结果，无需微调，并且在下游任务中，微调MPP训练的模型相较于从头训练的模型，对新物理的预测结果更准确。
+    本研究提出了一个新的框架——强化联邦学习（RFL），通过利用深度强化学习自适应地优化客户贡献的聚合过程，以增强模型鲁棒性和在非相同分布环境下参与者之间的公平性。
 
     
 
-    我们引入了一种多物理学预训练（MPP）的方法，这是一种自回归任务不可知的预训练方法，用于物理代理建模。MPP通过训练大型代理模型同时预测多个异构物理系统的动力学，学习在不同物理任务中广泛适用的特征。为了有效学习，在这种设置中，我们引入了一种共享嵌入和归一化策略，将多个系统的字段投影到一个共享嵌入空间中。我们在一个涉及流体力学的广泛基准测试中验证了我们方法的有效性。我们表明，单个MPP预训练的变换器能够在所有预训练子任务上与或超过特定任务的基准结果，而无需微调。对于下游任务，我们证明微调MPP训练的模型相较于从头训练的模型，在多个时间步骤上对新物理的预测结果更准确。
+    最近在联邦学习（FL）方面的进展产生了模型，通过在多个分散的设备或系统上训练来保护用户隐私并保留本地数据样本。然而，这些策略经常忽视统计异质性和对敌对攻击的脆弱性所带来的困难，这些因素会降低模型的鲁棒性和公平性。个性化的FL策略可以通过调整模型来适应个别客户的特点，但往往忽视了服务器端聚合的脆弱性。为了解决这些问题，我们提出了强化联邦学习（RFL），这是一个利用深度强化学习来自适应优化聚合过程中客户贡献的新框架，从而增强恶意客户下的模型鲁棒性和参与者之间的公平性在非相同分布环境下。为了实现这一目标，我们提出了一种细致的方法，其中包括基于深度确定性策略梯度算法的协同训练，以优化客户贡献的过程。
 
-    We introduce multiple physics pretraining (MPP), an autoregressive task-agnostic pretraining approach for physical surrogate modeling. MPP involves training large surrogate models to predict the dynamics of multiple heterogeneous physical systems simultaneously by learning features that are broadly useful across diverse physical tasks. In order to learn effectively in this setting, we introduce a shared embedding and normalization strategy that projects the fields of multiple systems into a single shared embedding space. We validate the efficacy of our approach on both pretraining and downstream tasks over a broad fluid mechanics-oriented benchmark. We show that a single MPP-pretrained transformer is able to match or outperform task-specific baselines on all pretraining sub-tasks without the need for finetuning. For downstream tasks, we demonstrate that finetuning MPP-trained models results in more accurate predictions across multiple time-steps on new physics compared to training from
+    Recent advancements in federated learning (FL) have produced models that retain user privacy by training across multiple decentralized devices or systems holding local data samples. However, these strategies often neglect the inherent challenges of statistical heterogeneity and vulnerability to adversarial attacks, which can degrade model robustness and fairness. Personalized FL strategies offer some respite by adjusting models to fit individual client profiles, yet they tend to neglect server-side aggregation vulnerabilities. To address these issues, we propose Reinforcement Federated Learning (RFL), a novel framework that leverages deep reinforcement learning to adaptively optimize client contribution during aggregation, thereby enhancing both model robustness against malicious clients and fairness across participants under non-identically distributed settings. To achieve this goal, we propose a meticulous approach involving a Deep Deterministic Policy Gradient-based algorithm for co
+    
+[^7]: 尊重模型: 细粒度且鲁棒的解释与共享比例分解
+
+    Respect the model: Fine-grained and Robust Explanation with Sharing Ratio Decomposition
+
+    [https://arxiv.org/abs/2402.03348](https://arxiv.org/abs/2402.03348)
+
+    本论文提出了一种称为共享比例分解(SRD)的新颖解释方法，真实地反映了模型的推理过程，并在解释方面显著提高了鲁棒性。通过采用向量视角和考虑滤波器之间的复杂非线性交互，以及引入仅激活模式预测(APOP)方法，可以重新定义相关性并强调非活跃神经元的重要性。
+
+    
+
+    对现有的解释方法能否真实阐明模型决策过程的真实性提出了质疑。现有方法偏离了对模型的忠实表达，因此容易受到对抗性攻击的影响。为了解决这个问题，我们提出了一种新颖的可解释性人工智能(XAI)方法，称为SRD(共享比例分解)，它真实地反映了模型的推理过程，从而显著提高了解释的鲁棒性。与传统的神经元级别强调不同，我们采用向量视角来考虑滤波器之间复杂的非线性交互。我们还引入了一个有趣的观察，称为仅激活模式预测(APOP)，让我们强调非活跃神经元的重要性，并重新定义相关性，包括活跃和非活跃神经元的所有相关信息。我们的方法SRD允许递归分解一个点特征向量(PFV)。
+
+    The truthfulness of existing explanation methods in authentically elucidating the underlying model's decision-making process has been questioned. Existing methods have deviated from faithfully representing the model, thus susceptible to adversarial attacks. To address this, we propose a novel eXplainable AI (XAI) method called SRD (Sharing Ratio Decomposition), which sincerely reflects the model's inference process, resulting in significantly enhanced robustness in our explanations. Different from the conventional emphasis on the neuronal level, we adopt a vector perspective to consider the intricate nonlinear interactions between filters. We also introduce an interesting observation termed Activation-Pattern-Only Prediction (APOP), letting us emphasize the importance of inactive neurons and redefine relevance encapsulating all relevant information including both active and inactive neurons. Our method, SRD, allows for the recursive decomposition of a Pointwise Feature Vector (PFV), pr
+    
+[^8]: 带有多级扩散模型的分层时尚设计
+
+    Hierarchical Fashion Design with Multi-stage Diffusion Models. (arXiv:2401.07450v2 [cs.CV] UPDATED)
+
+    [http://arxiv.org/abs/2401.07450](http://arxiv.org/abs/2401.07450)
+
+    本论文提出了一种名为HieraFashDiff的新型时尚设计方法，它使用多级扩散模型实现了从高级设计概念到低级服装属性的分层设计和编辑，解决了当前在时尚设计中的挑战。
+
+    
+
+    跨模态时尚合成和编辑通过自动生成和局部修改设计草图，为时尚设计师提供智能支持。尽管当前的扩散模型在图像合成方面表现出了可靠的稳定性和可控性，但在从抽象的设计元素中生成时尚设计和精细编辑方面仍面临重大挑战。高级设计概念，例如办公室、商务和派对，形成了抽象的感官表达方式，而袖长、领型和裤长等可衡量的方面被视为服装的低级属性。使用冗长的文字描述来控制和编辑时尚图像存在困难。在本文中，我们提出了一种名为HieraFashDiff的新型时尚设计方法，它使用共享的多级扩散模型，将高级设计概念和低级服装属性融入到分层结构中。具体而言，我们将输入文本分为不同的层次，并将其输入到多级扩散模型中。
+
+    Cross-modal fashion synthesis and editing offer intelligent support to fashion designers by enabling the automatic generation and local modification of design drafts.While current diffusion models demonstrate commendable stability and controllability in image synthesis,they still face significant challenges in generating fashion design from abstract design elements and fine-grained editing.Abstract sensory expressions, \eg office, business, and party, form the high-level design concepts, while measurable aspects like sleeve length, collar type, and pant length are considered the low-level attributes of clothing.Controlling and editing fashion images using lengthy text descriptions poses a difficulty.In this paper, we propose HieraFashDiff,a novel fashion design method using the shared multi-stage diffusion model encompassing high-level design concepts and low-level clothing attributes in a hierarchical structure.Specifically, we categorized the input text into different levels and fed 
+    
+[^9]: OneAdapt：通过反向传播实现深度学习应用的快速自适应
+
+    OneAdapt: Fast Adaptation for Deep Learning Applications via Backpropagation. (arXiv:2310.02422v1 [cs.LG])
+
+    [http://arxiv.org/abs/2310.02422](http://arxiv.org/abs/2310.02422)
+
+    OneAdapt通过梯度上升策略来实现快速自适应，满足了深度学习应用在配置参数方面的三个要求。
+
+    
+
+    深度学习在流媒体数据的推断方面已经普及，如视频中的目标检测、LiDAR数据和音频波形中的文本提取。为了实现高推断准确性，这些应用通常需要大量的网络带宽来收集高保真数据，并且需要广泛的GPU资源来运行深度神经网络(DNN)。尽管通过优化配置参数（如视频分辨率和帧率）可以大大减少对网络带宽和GPU资源的需求，但目前的自适应技术无法同时满足三个要求：（i）以最小的额外GPU或带宽开销来自适应配置；（ii）基于数据对最终DNN的准确性的影响来达到接近最优的决策；（iii）针对一系列配置参数进行自适应。本文提出了OneAdapt，通过利用梯度上升策略来自适应配置参数，满足了这些要求。关键思想是充分利用DNN的不同
+
+    Deep learning inference on streaming media data, such as object detection in video or LiDAR feeds and text extraction from audio waves, is now ubiquitous. To achieve high inference accuracy, these applications typically require significant network bandwidth to gather high-fidelity data and extensive GPU resources to run deep neural networks (DNNs). While the high demand for network bandwidth and GPU resources could be substantially reduced by optimally adapting the configuration knobs, such as video resolution and frame rate, current adaptation techniques fail to meet three requirements simultaneously: adapt configurations (i) with minimum extra GPU or bandwidth overhead; (ii) to reach near-optimal decisions based on how the data affects the final DNN's accuracy, and (iii) do so for a range of configuration knobs. This paper presents OneAdapt, which meets these requirements by leveraging a gradient-ascent strategy to adapt configuration knobs. The key idea is to embrace DNNs' different
+    
+[^10]: STARC:评估奖励函数之间差异的通用框架
+
+    STARC: A General Framework For Quantifying Differences Between Reward Functions. (arXiv:2309.15257v1 [cs.LG])
+
+    [http://arxiv.org/abs/2309.15257](http://arxiv.org/abs/2309.15257)
+
+    这篇论文提出了一个通用框架（STARC），用于评估奖励函数之间的差异，填补了奖励学习理论基础的空白。
+
+    
+
+    为了使用强化学习解决任务，需要将任务的目标形式化为奖励函数。然而，对于许多现实世界的任务来说，手动指定一个永不激励不良行为的奖励函数非常困难。因此，使用奖励学习算法来从数据中学习奖励函数变得越来越流行。然而，奖励学习的理论基础尚未完善。特别地，通常不知道给定的奖励学习算法在高概率下是否会学习到一个安全优化的奖励函数。这意味着奖励学习算法通常必须经过经验评估，这是昂贵的，并且很难预测其失效模式。其中一个阻碍获得更好理论保证的障碍是缺乏较好的方法来量化奖励函数之间的差异。在本文中，我们提供了一种解决方案。
+
+    In order to solve a task using reinforcement learning, it is necessary to first formalise the goal of that task as a reward function. However, for many real-world tasks, it is very difficult to manually specify a reward function that never incentivises undesirable behaviour. As a result, it is increasingly popular to use reward learning algorithms, which attempt to learn a reward function from data. However, the theoretical foundations of reward learning are not yet well-developed. In particular, it is typically not known when a given reward learning algorithm with high probability will learn a reward function that is safe to optimise. This means that reward learning algorithms generally must be evaluated empirically, which is expensive, and that their failure modes are difficult to predict in advance. One of the roadblocks to deriving better theoretical guarantees is the lack of good methods for quantifying the difference between reward functions. In this paper we provide a solution t
+    
+[^11]: 在部分可观察情境轮盘赌中的可证效率学习
+
+    Provably Efficient Learning in Partially Observable Contextual Bandit. (arXiv:2308.03572v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2308.03572](http://arxiv.org/abs/2308.03572)
+
+    本文研究了在部分可观察情境轮盘赌中的转移学习问题，提出了一种通过优化问题识别行为和奖励因果效应的方法，并利用因果约束来改进轮盘赌算法。
+
+    
+
+    本文研究了在部分可观察情境轮盘赌中的转移学习问题，其中代理人仅有来自其他代理人的有限知识，并且对隐藏的混淆因素只有部分信息。我们将该问题转化为通过优化问题来识别或部分识别行为和奖励之间的因果效应。为了解决这些优化问题，我们将未知分布的原始功能约束离散化为线性约束，并通过顺序解线性规划来采样兼容的因果模型，以考虑估计误差得到因果约束。我们的采样算法为适当的采样分布提供了理想的收敛结果。然后，我们展示了如何将因果约束应用于改进经典的轮盘赌算法，并以行动集和函数空间规模为参考改变了遗憾值。值得注意的是，在允许我们处理一般情境分布的函数逼近任务中
+
+    In this paper, we investigate transfer learning in partially observable contextual bandits, where agents have limited knowledge from other agents and partial information about hidden confounders. We first convert the problem to identifying or partially identifying causal effects between actions and rewards through optimization problems. To solve these optimization problems, we discretize the original functional constraints of unknown distributions into linear constraints, and sample compatible causal models via sequentially solving linear programmings to obtain causal bounds with the consideration of estimation error. Our sampling algorithms provide desirable convergence results for suitable sampling distributions. We then show how causal bounds can be applied to improving classical bandit algorithms and affect the regrets with respect to the size of action sets and function spaces. Notably, in the task with function approximation which allows us to handle general context distributions
     
 

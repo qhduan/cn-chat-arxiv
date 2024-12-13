@@ -2,82 +2,127 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Fusing Domain-Specific Content from Large Language Models into Knowledge Graphs for Enhanced Zero Shot Object State Classification](https://arxiv.org/abs/2403.12151) | 大型语言模型与知识图谱结合，提高零样本对象状态分类性能 |
-| [^2] | [Merino: Entropy-driven Design for Generative Language Models on IoT Devices](https://arxiv.org/abs/2403.07921) | 在本文中，我们提出了一个新颖的信息熵框架，用于设计手机友好的生成式语言模型，通过最大化transformer解码器的熵来在计算预算内，成功设计了MeRino模型，在移动设置下展现出与当前最先进的自回归transformer模型竞争性能的特点 |
-| [^3] | [Rainbow Teaming: Open-Ended Generation of Diverse Adversarial Prompts](https://arxiv.org/abs/2402.16822) | Rainbow Teaming提出了一种新方法，通过开放式搜索生成多样化的对抗性提示，可以帮助改善大型语言模型的稳健性，提高安全性，问答和网络安全等领域的模型漏洞。 |
-| [^4] | [BiMediX: Bilingual Medical Mixture of Experts LLM](https://arxiv.org/abs/2402.13253) | 这项研究提出了BiMediX，一个旨在实现英语和阿拉伯语之间无缝医学交互的双语医学专家混合模型LLM，引入了半自动化的翻译流水线和全面的评估基准，同时推出了包含130万多样化医学交互的BiMed1.3M数据集。 |
-| [^5] | [FTFT: Efficient and Robust Fine-Tuning by Transferring Training Dynamics](https://arxiv.org/abs/2310.06588) | 训练动态可在不同模型大小和预训练方法之间进行转移，通过选定的训练实例微调主模型实现比经验风险最小化更高的训练效率 |
+| [^1] | [Counting-Stars: A Simple, Efficient, and Reasonable Strategy for Evaluating Long-Context Large Language Models](https://arxiv.org/abs/2403.11802) | 提出了一种名为Counting-Stars的简单、高效、合理策略，用于评估长上下文大型语言模型的能力，并在实验中发现GPT-4 Turbo和Kimi Chat在此任务上取得显著性能。 |
+| [^2] | [ProSwitch: Knowledge-Guided Language Model Fine-Tuning to Generate Professional and Non-Professional Styled Text](https://arxiv.org/abs/2403.09131) | ProSwitch通过知识引导的指令微调，在专业和非专业风格之间生成文本，并在专业性评估和质量评估方面表现出优越性。 |
+| [^3] | [Detection of Non-recorded Word Senses in English and Swedish](https://arxiv.org/abs/2403.02285) | 该研究致力于在英语和瑞典语中检测未记录的词义，通过使用预训练的词-上下文嵌入器和人工注释，成功提高了检测到具有未记录词义的词语用法数量。 |
+| [^4] | [Improving the Validity of Automatically Generated Feedback via Reinforcement Learning](https://arxiv.org/abs/2403.01304) | 本研究通过提出评估数学反馈的评分标准，展示了GPT-4能够有效地使用它来注释人工编写的和LLM生成的反馈，从而改进了自动生成反馈的有效性和可靠性。 |
+| [^5] | [LLMs with Chain-of-Thought Are Non-Causal Reasoners](https://arxiv.org/abs/2402.16048) | 本文探讨了大型语言模型在推理过程中思维链条（CoT）的作用，发现LLMs在答案生成过程中与人类推理存在差异，相关因素包括语境学习、有监督微调以及对人类反馈的强化学习。 |
+| [^6] | [ProSparse: Introducing and Enhancing Intrinsic Activation Sparsity within Large Language Models](https://arxiv.org/abs/2402.13516) | 本文介绍了一种名为"ProSparse"的有效稀疏化方法，以推动大型语言模型实现更高的激活稀疏性而不降低模型性能 |
+| [^7] | [Learn To be Efficient: Build Structured Sparsity in Large Language Models](https://arxiv.org/abs/2402.06126) | 本文通过引入一种新的算法"Learn-To-be-Efficient(LTE)"，提出了在大型语言模型(LLM)中构建结构化稀疏性的方法。该方法通过训练高效意识的LLM学习激活更少的神经元，取得更好的稀疏性和性能折衷。 |
+| [^8] | [Quality > Quantity: Synthetic Corpora from Foundation Models for Closed-Domain Extractive Question Answering.](http://arxiv.org/abs/2310.16995) | 这项工作研究了封闭领域的抽取式问答，引入了有针对性的预训练的概念，并使用Galactica生成了合成的"有针对性"的语料库。 |
 
 # 详细
 
-[^1]: 将大型语言模型中的领域特定内容融入知识图谱，以增强零样本对象状态分类
+[^1]: Counting-Stars：一种评估长上下文大型语言模型的简单、高效、合理策略
 
-    Fusing Domain-Specific Content from Large Language Models into Knowledge Graphs for Enhanced Zero Shot Object State Classification
+    Counting-Stars: A Simple, Efficient, and Reasonable Strategy for Evaluating Long-Context Large Language Models
 
-    [https://arxiv.org/abs/2403.12151](https://arxiv.org/abs/2403.12151)
+    [https://arxiv.org/abs/2403.11802](https://arxiv.org/abs/2403.11802)
 
-    大型语言模型与知识图谱结合，提高零样本对象状态分类性能
-
-    
-
-    领域特定知识可以显著有助于解决各种视觉任务，但生成这种知识需要大量人力和时间成本。本研究探讨了大型语言模型（LLMs）在通过语义嵌入生成和提供领域特定信息方面的潜力。为实现这一目标，将LLM集成到一个流程中，该流程在视觉基础零样本对象状态分类任务的背景下利用知识图谱和预训练的语义向量。通过广泛的消融研究彻底研究了LLM的行为。我们的研究结果表明，将基于LLM的嵌入与通用的预训练嵌入结合使用可以显著提高性能。借鉴这一消融研究的见解，我们对竞争模型进行了比较分析，从而突出了最新的表现水平。
-
-    arXiv:2403.12151v1 Announce Type: new  Abstract: Domain-specific knowledge can significantly contribute to addressing a wide variety of vision tasks. However, the generation of such knowledge entails considerable human labor and time costs. This study investigates the potential of Large Language Models (LLMs) in generating and providing domain-specific information through semantic embeddings. To achieve this, an LLM is integrated into a pipeline that utilizes Knowledge Graphs and pre-trained semantic vectors in the context of the Vision-based Zero-shot Object State Classification task. We thoroughly examine the behavior of the LLM through an extensive ablation study. Our findings reveal that the integration of LLM-based embeddings, in combination with general-purpose pre-trained embeddings, leads to substantial performance improvements. Drawing insights from this ablation study, we conduct a comparative analysis against competing models, thereby highlighting the state-of-the-art perfor
-    
-[^2]: Merino：基于熵驱动的IoT设备上生成式语言模型设计
-
-    Merino: Entropy-driven Design for Generative Language Models on IoT Devices
-
-    [https://arxiv.org/abs/2403.07921](https://arxiv.org/abs/2403.07921)
-
-    在本文中，我们提出了一个新颖的信息熵框架，用于设计手机友好的生成式语言模型，通过最大化transformer解码器的熵来在计算预算内，成功设计了MeRino模型，在移动设置下展现出与当前最先进的自回归transformer模型竞争性能的特点
+    提出了一种名为Counting-Stars的简单、高效、合理策略，用于评估长上下文大型语言模型的能力，并在实验中发现GPT-4 Turbo和Kimi Chat在此任务上取得显著性能。
 
     
 
-    大规模生成式语言模型（LLMs）作为人工智能现代时代的革命性进步，然而，直接部署LLMs在资源受限的硬件上，比如物联网（IoT）设备，由于其高计算成本而变得困难。在本文中，我们提出了一个新颖的信息熵框架，用于设计手机友好的生成式语言模型。我们的主要设计范式是在给定的计算预算内最大化transformer解码器的熵。整个设计过程涉及解决一个数学规划（MP）问题，可以在几分钟内在CPU上完成，使其几乎是零成本的。我们评估了我们设计的模型MeRino，在九个NLP下游任务上展示了它们在移动设置下对抗当前最先进的自回归transformer模型的竞争性表现。值得注意的是，MeRino在移动设置下获得了类似或更好的零性能表现
+    近期的研究主要集中在开发具有强大长上下文能力的大型语言模型（LLMs），由于缺乏适当的评估策略，对领先的LLMs（例如ChatGPT和KimiChat）的长上下文处理能力和性能了解甚少。为了填补这一空白，我们提出了一个简单、高效、合理的长上下文LLMs评估策略作为一个新的基准，名为Counting-Stars。Counting-Stars旨在要求LLMs充分理解和捕捉长上下文中的长依赖关系，并能够收集跨越整个上下文的多个证据之间的相互依赖来完成任务。基于Counting-Stars，我们进行实验评估了两个领先的长上下文LLMs，即GPT-4 Turbo和Kimi Chat。实验结果表明，GPT-4 Turbo和Kimi Chat在Counting-Stars任务上取得了显著的表现。
 
-    arXiv:2403.07921v1 Announce Type: cross  Abstract: Generative Large Language Models (LLMs) stand as a revolutionary advancement in the modern era of artificial intelligence (AI). However, directly deploying LLMs in resource-constrained hardware, such as Internet-of-Things (IoT) devices, is difficult due to their high computational cost. In this paper, we propose a novel information-entropy framework for designing mobile-friendly generative language models. Our key design paradigm is to maximize the entropy of transformer decoders within the given computational budgets. The whole design procedure involves solving a mathematical programming (MP) problem, which can be done on the CPU within minutes, making it nearly zero-cost. We evaluate our designed models, termed MeRino, across nine NLP downstream tasks, showing their competitive performance against the state-of-the-art autoregressive transformer models under the mobile setting. Notably, MeRino achieves similar or better zero performan
+    arXiv:2403.11802v1 Announce Type: new  Abstract: While recent research endeavors have concentrated on developing Large Language Models (LLMs) with robust long-context capabilities, due to the lack of appropriate evaluation strategies, relatively little is known about how well the long-context processing abilities and performance of leading LLMs (e.g., ChatGPT and KimiChat). To address this gap, we propose a simple, efficient, and reasonable strategy for evaluating long-context LLMs as a new benchmark, named Counting-Stars. The Counting-Stars is designed to require LLMs to fully understand and capture long dependencies in long contexts and be able to collect inter-dependency across multiple pieces of evidence spanning the entire context to finish the task. Based on the Counting-Stars, we conduct experiments to evaluate the two leading long-context LLMs, i.e., GPT-4 Turbo and Kimi Chat. The experimental results indicate that GPT-4 Turbo and Kimi Chat achieve significant performance in th
     
-[^3]: 彩虹团队：多样化对抗性提示的开放式生成
+[^2]: ProSwitch：知识引导的语言模型微调，生成专业和非专业风格的文本
 
-    Rainbow Teaming: Open-Ended Generation of Diverse Adversarial Prompts
+    ProSwitch: Knowledge-Guided Language Model Fine-Tuning to Generate Professional and Non-Professional Styled Text
 
-    [https://arxiv.org/abs/2402.16822](https://arxiv.org/abs/2402.16822)
+    [https://arxiv.org/abs/2403.09131](https://arxiv.org/abs/2403.09131)
 
-    Rainbow Teaming提出了一种新方法，通过开放式搜索生成多样化的对抗性提示，可以帮助改善大型语言模型的稳健性，提高安全性，问答和网络安全等领域的模型漏洞。
-
-    
-
-    随着大型语言模型（LLMs）在许多现实世界应用中变得越来越普遍，理解和增强它们对用户输入的稳健性至关重要。现有的用于识别敌对提示的方法往往专注于特定领域，缺乏多样性，或需要大量人工注释。为了解决这些限制，我们提出了彩虹团队，一种用于生成多样化对抗性提示的新方法。彩虹团队将对抗性提示生成视为一个质量 - 多样性问题，并使用开放式搜索来生成既有效又多样的提示。它可以揭示模型在广泛领域内的脆弱性，包括本文中的安全性、问答和网络安全。我们还证明，对由彩虹团队生成的合成数据进行微调可以提高最先进的LLMs的安全性，而不损害它们的一般能力。
-
-    arXiv:2402.16822v1 Announce Type: new  Abstract: As large language models (LLMs) become increasingly prevalent across many real-world applications, understanding and enhancing their robustness to user inputs is of paramount importance. Existing methods for identifying adversarial prompts tend to focus on specific domains, lack diversity, or require extensive human annotations. To address these limitations, we present Rainbow Teaming, a novel approach for producing a diverse collection of adversarial prompts. Rainbow Teaming casts adversarial prompt generation as a quality-diversity problem, and uses open-ended search to generate prompts that are both effective and diverse. It can uncover a model's vulnerabilities across a broad range of domains including, in this paper, safety, question answering, and cybersecurity. We also demonstrate that fine-tuning on synthetic data generated by Rainbow Teaming improves the safety of state-of-the-art LLMs without hurting their general capabilities 
-    
-[^4]: BiMediX: 双语医学专家混合模型LLM
-
-    BiMediX: Bilingual Medical Mixture of Experts LLM
-
-    [https://arxiv.org/abs/2402.13253](https://arxiv.org/abs/2402.13253)
-
-    这项研究提出了BiMediX，一个旨在实现英语和阿拉伯语之间无缝医学交互的双语医学专家混合模型LLM，引入了半自动化的翻译流水线和全面的评估基准，同时推出了包含130万多样化医学交互的BiMed1.3M数据集。
+    ProSwitch通过知识引导的指令微调，在专业和非专业风格之间生成文本，并在专业性评估和质量评估方面表现出优越性。
 
     
 
-    在本文中，我们介绍了BiMediX，这是第一个旨在实现在英语和阿拉伯语之间无缝互动的双语医学专家混合模型LLM。我们的模型在英语和阿拉伯语之间促进了广泛范围的医学交互，包括多轮对话以询问关于患者症状和病史等额外细节、多项选择题回答以及开放式问题回答。我们提出了一个半自动化的英语到阿拉伯语翻译流水线，结合人工优化以确保高质量的翻译。我们还引入了一个用于阿拉伯语医学LLMs的全面评估基准。此外，我们推出了BiMed1.3M，一个涵盖130万各种医学交互的广泛的阿拉伯语-英语双语指令集，产生了超过6.32亿个医疗专业token以进行指令调整。我们的BiMed1.3M数据集包括25万个合成的医生-患者多轮对话，并保持1:2的阿拉伯语比例。
+    大语言模型（LLMs）在各种语言应用中表现出有效性，包括文本摘要和可控文本生成。然而，关于它们通过微调在不同风格间切换的能力的研究仍未被充分探讨。本研究聚焦于文本专业性，并引入了一种新颖的方法，名为ProSwitch，通过知识引导的指令微调，使语言模型具备生成专业和非专业回复的能力。ProSwitch分为三个阶段：数据准备，用于收集领域知识和训练语料库；指令微调，用于优化带有多种指令格式的语言模型；全面评估，用于评估生成文本的专业性区分能力和基于参考的质量。 ProSwitch相对于通用和专门语言模型的比较分析显示了我们的方法的优越性。
 
-    arXiv:2402.13253v1 Announce Type: new  Abstract: In this paper, we introduce BiMediX, the first bilingual medical mixture of experts LLM designed for seamless interaction in both English and Arabic. Our model facilitates a wide range of medical interactions in English and Arabic, including multi-turn chats to inquire about additional details such as patient symptoms and medical history, multiple-choice question answering, and open-ended question answering. We propose a semi-automated English-to-Arabic translation pipeline with human refinement to ensure high-quality translations. We also introduce a comprehensive evaluation benchmark for Arabic medical LLMs. Furthermore, we introduce BiMed1.3M, an extensive Arabic-English bilingual instruction set covering 1.3 Million diverse medical interactions, resulting in over 632 million healthcare specialized tokens for instruction tuning. Our BiMed1.3M dataset includes 250k synthesized multi-turn doctor-patient chats and maintains a 1:2 Arabic-
+    arXiv:2403.09131v1 Announce Type: cross  Abstract: Large Language Models (LLMs) have demonstrated efficacy in various linguistic applications, including text summarization and controlled text generation. However, studies into their capacity of switching between styles via fine-tuning remain underexplored. This study concentrates on textual professionalism and introduces a novel methodology, named ProSwitch, which equips a language model with the ability to produce both professional and non-professional responses through knowledge-guided instruction tuning. ProSwitch unfolds across three phases: data preparation for gathering domain knowledge and training corpus; instruction tuning for optimizing language models with multiple levels of instruction formats; and comprehensive evaluation for assessing the professionalism discrimination and reference-based quality of generated text. Comparative analysis of ProSwitch against both general and specialized language models reveals that our appro
     
-[^5]: FTFT:通过转移训练动态实现高效且稳健的微调
+[^3]: 在英语和瑞典语中检测未记录的词义
 
-    FTFT: Efficient and Robust Fine-Tuning by Transferring Training Dynamics
+    Detection of Non-recorded Word Senses in English and Swedish
 
-    [https://arxiv.org/abs/2310.06588](https://arxiv.org/abs/2310.06588)
+    [https://arxiv.org/abs/2403.02285](https://arxiv.org/abs/2403.02285)
 
-    训练动态可在不同模型大小和预训练方法之间进行转移，通过选定的训练实例微调主模型实现比经验风险最小化更高的训练效率
+    该研究致力于在英语和瑞典语中检测未记录的词义，通过使用预训练的词-上下文嵌入器和人工注释，成功提高了检测到具有未记录词义的词语用法数量。
 
     
 
-    尽管微调预训练语言模型（PLMs）取得了巨大成功，但它们仍然容易受到分布外输入的影响。 数据集制图是一种简单而有效的双模型方法，可以提高微调PLMs的鲁棒性。 它涉及在原始训练集上微调模型（即参考模型），根据训练动态选择一些重要的训练实例，并仅对这些选定的示例再次进行微调（即主模型）。 然而，这种方法需要对同一模型进行两次微调，这对于大型PLMs而言在计算上是昂贵的。 在本文中，我们展示了（1）训练动态在模型大小和预训练方法之间具有高度可传递性，以及（2）使用这些选定的训练实例对主模型进行微调可以比经验风险最小化（ERM）实现更高的训练效率。 基于这些观察结果，我们提出了一种新颖的微调方法...
+    这项研究探讨了在英语和瑞典语中进行未知词义检测的任务。该任务的主要目标是确定特定词语用法的含义是否在词典中有记录。为此，使用一个预训练的上下文词嵌入器来比较词义条目与现代和历史语料库中词语用法，从而在少样本情况下建模这一任务。此外，我们使用人类注释来调整和评估我们的模型。与从语料库中随机抽样相比，我们的模型能够显著增加检测到具有未记录词义的词语用法数量。
 
-    arXiv:2310.06588v2 Announce Type: replace  Abstract: Despite the massive success of fine-tuning Pre-trained Language Models (PLMs), they remain susceptible to out-of-distribution input. Dataset cartography is a simple yet effective dual-model approach that improves the robustness of fine-tuned PLMs. It involves fine-tuning a model on the original training set (i.e. reference model), selecting a subset of important training instances based on the training dynamics, and fine-tuning again only on these selected examples (i.e. main model). However, this approach requires fine-tuning the same model twice, which is computationally expensive for large PLMs. In this paper, we show that (1) training dynamics are highly transferable across model sizes and pre-training methods, and that (2) fine-tuning main models using these selected training instances achieves higher training efficiency than empirical risk minimization (ERM). Building on these observations, we propose a novel fine-tuning approa
+    arXiv:2403.02285v1 Announce Type: new  Abstract: This study addresses the task of Unknown Sense Detection in English and Swedish. The primary objective of this task is to determine whether the meaning of a particular word usage is documented in a dictionary or not. For this purpose, sense entries are compared with word usages from modern and historical corpora using a pre-trained Word-in-Context embedder that allows us to model this task in a few-shot scenario. Additionally, we use human annotations to adapt and evaluate our models. Compared to a random sample from a corpus, our model is able to considerably increase the detected number of word usages with non-recorded senses.
+    
+[^4]: 通过强化学习提高自动生成反馈的有效性
+
+    Improving the Validity of Automatically Generated Feedback via Reinforcement Learning
+
+    [https://arxiv.org/abs/2403.01304](https://arxiv.org/abs/2403.01304)
+
+    本研究通过提出评估数学反馈的评分标准，展示了GPT-4能够有效地使用它来注释人工编写的和LLM生成的反馈，从而改进了自动生成反馈的有效性和可靠性。
+
+    
+
+    在智能辅导系统和在线学习平台中，通过大型语言模型（LLMs）自动生成反馈具有改善许多学生学习成果的潜力。本研究解决了自动生成和评估反馈的问题，同时考虑了正确性和一致性。
+
+    arXiv:2403.01304v1 Announce Type: new  Abstract: Automatically generating feedback via large language models (LLMs) in intelligent tutoring systems and online learning platforms has the potential to improve the learning outcomes of many students. However, both feedback generation and evaluation are challenging: feedback content has to be valid especially in subjects like math, which requires models to understand the problem, the solution, and where the student's error lies. Feedback also has to be pedagogically valid to reflect effective tutoring strategies, such as explaining possible misconceptions and encouraging the student, among other desirable features. In this work, we address both problems of automatically generating and evaluating feedback while considering both correctness and alignment. First, we propose a rubric for evaluating math feedback and show that GPT-4 is able to effectively use it to annotate human-written and LLM-generated feedback. Second, we propose a framework
+    
+[^5]: LLMs带有思维链条是非因果推理者
+
+    LLMs with Chain-of-Thought Are Non-Causal Reasoners
+
+    [https://arxiv.org/abs/2402.16048](https://arxiv.org/abs/2402.16048)
+
+    本文探讨了大型语言模型在推理过程中思维链条（CoT）的作用，发现LLMs在答案生成过程中与人类推理存在差异，相关因素包括语境学习、有监督微调以及对人类反馈的强化学习。
+
+    
+
+    本文探讨了大型语言模型（LLMs）推理中思维链条（CoT）的作用。尽管它有改善任务性能的潜力，但我们的分析揭示了在LLMs中正确答案跟随不正确CoTs的频率及反之。我们采用因果分析来评估CoTs/指令与LLMs答案之间的因果关系，揭示LLMs近似的结构因果模型（SCM）。通过比较暗示SCM与人类推理的SCM，我们突显了LLM和人类推理过程之间的差异。我们进一步研究了影响暗示SCM因果结构的因素，揭示了语境学习、有监督微调以及对人类反馈的强化学习显著影响因果关系。我们在https://github.com/StevenZHB/CoT_Causal_Analysis发布了代码和结果。
+
+    arXiv:2402.16048v1 Announce Type: cross  Abstract: This paper explores the role of the Chain of Thought (CoT) in Large Language Models (LLMs) reasoning. Despite its potential to improve task performance, our analysis reveals a surprising frequency of correct answers following incorrect CoTs and vice versa. We employ causal analysis to assess the cause-effect relationship between CoTs/instructions and answers in LLMs, uncovering the Structural Causal Model (SCM) that LLMs approximate. By comparing the implied SCM with that of human reasoning, we highlight discrepancies between LLM and human reasoning processes. We further examine the factors influencing the causal structure of the implied SCM, revealing that in-context learning, supervised fine-tuning, and reinforcement learning on human feedback significantly impact the causal relations. We release the code and results at https://github.com/StevenZHB/CoT_Causal_Analysis.
+    
+[^6]: ProSparse: 引入和增强大型语言模型内部激活稀疏性
+
+    ProSparse: Introducing and Enhancing Intrinsic Activation Sparsity within Large Language Models
+
+    [https://arxiv.org/abs/2402.13516](https://arxiv.org/abs/2402.13516)
+
+    本文介绍了一种名为"ProSparse"的有效稀疏化方法，以推动大型语言模型实现更高的激活稀疏性而不降低模型性能
+
+    
+
+    Activation sparsity指的是激活输出中存在许多弱贡献元素。作为使用ReLU激活函数的模型的普遍属性，已被证明是提高模型推理效率的一种有前途的范例。然而，大多数大型语言模型（LLMs）采用了没有内在激活稀疏性的激活函数（例如GELU和Swish）。一些最近的努力尝试引入ReLU或其变体作为替代激活函数，以帮助LLMs实现激活稀疏性和推理加速，但很少能同时获得高稀疏度和可比较的模型性能。本文介绍了一种名为"ProSparse"的有效稀疏化方法，以推动LLMs实现更高的激活稀疏性而不降低模型性能。具体来说，将LLMs的激活函数替换为ReLU后，ProSparse采用渐进稀疏正则化
+
+    arXiv:2402.13516v1 Announce Type: cross  Abstract: Activation sparsity refers to the existence of considerable weakly-contributed elements among activation outputs. As a prevalent property of the models using the ReLU activation function, it has been proven a promising paradigm to boost model inference efficiency. Nevertheless, most large language models (LLMs) adopt activation functions without intrinsic activation sparsity (e.g., GELU and Swish). Some recent efforts have explored introducing ReLU or its variants as the substitutive activation function to help LLMs achieve activation sparsity and inference acceleration, but few can simultaneously obtain high sparsity and comparable model performance. This paper introduces an effective sparsification method named "ProSparse" to push LLMs for higher activation sparsity without decreasing model performance. Specifically, after substituting the activation function of LLMs with ReLU, ProSparse adopts progressive sparsity regularization wit
+    
+[^7]: 学习变得高效：在大型语言模型中构建结构化稀疏性
+
+    Learn To be Efficient: Build Structured Sparsity in Large Language Models
+
+    [https://arxiv.org/abs/2402.06126](https://arxiv.org/abs/2402.06126)
+
+    本文通过引入一种新的算法"Learn-To-be-Efficient(LTE)"，提出了在大型语言模型(LLM)中构建结构化稀疏性的方法。该方法通过训练高效意识的LLM学习激活更少的神经元，取得更好的稀疏性和性能折衷。
+
+    
+
+    大型语言模型(LLM)以其十亿级参数取得了显著的成功，但它们产生了高昂的推理开销。在LLM中出现的激活稀疏性为通过仅涉及部分参数进行推理提供了一种自然的方法来减少这种成本。现有方法只关注利用这种自然形成的激活稀疏性，忽视了进一步放大这种固有稀疏性的潜力。本文中，我们假设LLM可以通过实现更结构化的激活稀疏性来学习高效。为实现这一目标，我们引入了一种新颖的算法"Learn-To-be-Efficient(LTE)", 旨在训练高效意识的LLM学习激活更少的神经元，并在稀疏性和性能之间取得更好的折衷。此外，与主要关注基于ReLU模型的SOTA MoEfication方法不同，LTE还可以应用于像GPT和LLaMA这样具有软激活函数的LLM。我们在四个模型和十一个数据集上评估了LTE。
+
+    Large Language Models (LLMs) have achieved remarkable success with their billion-level parameters, yet they incur high inference overheads. The emergence of activation sparsity in LLMs provides a natural approach to reduce this cost by involving only parts of the parameters for inference. Existing methods only focus on utilizing this naturally formed activation sparsity, overlooking the potential for further amplifying this inherent sparsity. In this paper, we hypothesize that LLMs can learn to be efficient by achieving more structured activation sparsity.To achieve this, we introduce a novel algorithm, Learn-To-be-Efficient (LTE), designed to train efficiency-aware LLMs to learn to activate fewer neurons and achieve a better trade-off between sparsity and performance. Furthermore, unlike SOTA MoEfication methods, which mainly focus on ReLU-based models, LTE can also be applied to LLMs like GPT and LLaMA with soft activation functions. We evaluate LTE on four models and eleven datasets
+    
+[^8]: 质量>数量：基于基础模型的封闭领域抽取式问答的合成语料库
+
+    Quality > Quantity: Synthetic Corpora from Foundation Models for Closed-Domain Extractive Question Answering. (arXiv:2310.16995v1 [cs.CL])
+
+    [http://arxiv.org/abs/2310.16995](http://arxiv.org/abs/2310.16995)
+
+    这项工作研究了封闭领域的抽取式问答，引入了有针对性的预训练的概念，并使用Galactica生成了合成的"有针对性"的语料库。
+
+    
+
+    领域适应是将模型在一个领域进行训练，然后应用于另一个领域的过程，在机器学习领域得到了广泛研究。虽然从头开始训练一个特定领域的基础模型(FM)是一个选择，但最近的方法集中在调整预训练的FM以满足特定领域的任务。然而，我们的实验发现，无论是哪种方法，在目标领域都无法始终达到最先进( SOTA)的结果。在这项工作中，我们研究封闭领域内的抽取式问答，并引入了有针对性的预训练的概念。这意味着确定和生成相关数据，进一步预训练我们的模型，而不是传统的利用在广泛数据上训练的特定领域的FM的理念。我们提出的框架使用Galactica生成与特定写作风格和主题(如研究论文和放射学报告)相一致的合成"有针对性"的语料库。这个过程可以看作是一种知识
+
+    Domain adaptation, the process of training a model in one domain and applying it to another, has been extensively explored in machine learning. While training a domain-specific foundation model (FM) from scratch is an option, recent methods have focused on adapting pre-trained FMs for domain-specific tasks. However, our experiments reveal that either approach does not consistently achieve state-of-the-art (SOTA) results in the target domain. In this work, we study extractive question answering within closed domains and introduce the concept of targeted pre-training. This involves determining and generating relevant data to further pre-train our models, as opposed to the conventional philosophy of utilizing domain-specific FMs trained on a wide range of data. Our proposed framework uses Galactica to generate synthetic, ``targeted'' corpora that align with specific writing styles and topics, such as research papers and radiology reports. This process can be viewed as a form of knowledge 
     
 
