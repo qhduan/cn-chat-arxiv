@@ -2,97 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [PyTorch Frame: A Modular Framework for Multi-Modal Tabular Learning](https://arxiv.org/abs/2404.00776) | PyTorch Frame是一个用于处理多模态表格数据的PyTorch框架，通过提供数据结构、模型抽象和外部基础模型整合等功能，实现了模块化的表格模型实现，并成功将这些模型应用于复杂的数据集。 |
-| [^2] | [Robust Learning for Optimal Dynamic Treatment Regimes with Observational Data](https://arxiv.org/abs/2404.00221) | 学习利用观测数据提出了一种逐步双重强健方法，通过向后归纳解决了最佳动态治疗方案的问题 |
-| [^3] | [Estimating the history of a random recursive tree](https://arxiv.org/abs/2403.09755) | 本文研究了估计随机递归树中顶点到达顺序的问题，提出了基于Jordan中心性度量的顺序估计器，并证明其几乎是最优的。 |
-| [^4] | [Optimal Top-Two Method for Best Arm Identification and Fluid Analysis](https://arxiv.org/abs/2403.09123) | 提出了解决最佳臂识别问题中的样本复杂度挑战的最优Top-Two算法。 |
-| [^5] | [Simulation Based Bayesian Optimization.](http://arxiv.org/abs/2401.10811) | 本文介绍了基于仿真的贝叶斯优化（SBBO）作为一种新方法，用于通过仅需基于采样的访问来优化获取函数。 |
-| [^6] | [xVal: A Continuous Number Encoding for Large Language Models.](http://arxiv.org/abs/2310.02989) | xVal是一种连续数字编码方案，通过使用单个标记来表示任何实数。与现有的数字编码方案相比，xVal更加高效，并且在泛化性能上表现更好。 |
+| [^1] | [Extremal graphical modeling with latent variables](https://arxiv.org/abs/2403.09604) | 提出了一种针对混合变量的极端图模型的学习方法，能够有效恢复条件图和潜变量数量。 |
+| [^2] | [$G$-Mapper: Learning a Cover in the Mapper Construction.](http://arxiv.org/abs/2309.06634) | 本论文介绍了一种基于统计检验和聚类算法的优化Mapper图覆盖的方法，通过分割覆盖选择生成了保留数据集本质的Mapper图。 |
+| [^3] | [Decomposing Global Feature Effects Based on Feature Interactions.](http://arxiv.org/abs/2306.00541) | 提出了全局效应广义可加分解（GADGET）框架，能够最小化特征交互作用的本地特征效应的交互异质性。同时适用于偏依赖、积累局部效应和Shapley可加解释（SHAP）依赖的边际特征效应可视化方法，并提出了一种新的基于置换的交互测试来检测显着的特征交互作用。 |
+| [^4] | [Diffusion map particle systems for generative modeling.](http://arxiv.org/abs/2304.00200) | 本文提出一种新型扩散映射粒子系统(DMPS)，可以用于高效生成建模，实验表明在包含流形结构的合成数据集上取得了比其他方法更好的效果。 |
 
 # 详细
 
-[^1]: PyTorch Frame: 一个用于多模态表格学习的模块化框架
+[^1]: 混合变量的极端图模型
 
-    PyTorch Frame: A Modular Framework for Multi-Modal Tabular Learning
+    Extremal graphical modeling with latent variables
 
-    [https://arxiv.org/abs/2404.00776](https://arxiv.org/abs/2404.00776)
+    [https://arxiv.org/abs/2403.09604](https://arxiv.org/abs/2403.09604)
 
-    PyTorch Frame是一个用于处理多模态表格数据的PyTorch框架，通过提供数据结构、模型抽象和外部基础模型整合等功能，实现了模块化的表格模型实现，并成功将这些模型应用于复杂的数据集。
-
-    
-
-    我们提出了PyTorch Frame，这是一个基于PyTorch的框架，用于处理多模态表格数据的深度学习。PyTorch Frame通过提供基于PyTorch的数据结构来处理复杂的表格数据，引入模型抽象以实现表格模型的模块化实现，并允许整合外部基础模型来处理复杂列（例如，用于文本列的LLMs）。我们通过以模块化方式实现多样的表格模型，成功将这些模型应用于复杂的多模态表格数据，并将我们的框架与PyTorch Geometric集成，PyTorch Geometric是一个用于图神经网络（GNNs）的PyTorch库，以实现对关系数据库的端到端学习。
-
-    arXiv:2404.00776v1 Announce Type: new  Abstract: We present PyTorch Frame, a PyTorch-based framework for deep learning over multi-modal tabular data. PyTorch Frame makes tabular deep learning easy by providing a PyTorch-based data structure to handle complex tabular data, introducing a model abstraction to enable modular implementation of tabular models, and allowing external foundation models to be incorporated to handle complex columns (e.g., LLMs for text columns). We demonstrate the usefulness of PyTorch Frame by implementing diverse tabular models in a modular way, successfully applying these models to complex multi-modal tabular data, and integrating our framework with PyTorch Geometric, a PyTorch library for Graph Neural Networks (GNNs), to perform end-to-end learning over relational databases.
-    
-[^2]: 利用观测数据进行强健学习以获得最佳动态治疗方案
-
-    Robust Learning for Optimal Dynamic Treatment Regimes with Observational Data
-
-    [https://arxiv.org/abs/2404.00221](https://arxiv.org/abs/2404.00221)
-
-    学习利用观测数据提出了一种逐步双重强健方法，通过向后归纳解决了最佳动态治疗方案的问题
+    提出了一种针对混合变量的极端图模型的学习方法，能够有效恢复条件图和潜变量数量。
 
     
 
-    许多公共政策和医疗干预涉及其治疗分配中的动态性，治疗通常依据先前治疗的历史和相关特征对每个阶段的效果具有异质性。本文研究了统计学习最佳动态治疗方案(DTR)，根据个体的历史指导每个阶段的最佳治疗分配。我们提出了一种基于观测数据的逐步双重强健方法，在顺序可忽略性假设下学习最佳DTR。该方法通过向后归纳解决了顺序治疗分配问题，在每一步中，我们结合倾向评分和行动值函数(Q函数)的估计量，构建了政策价值的增强反向概率加权估计量。
+    极端图模型编码多变量极端条件独立结构，并为量化罕见事件风险提供强大工具。我们提出了面向潜变量的可延伸图模型的可行凸规划方法，将 H\"usler-Reiss 精度矩阵分解为编码观察变量之间的图结构的稀疏部分和编码少量潜变量对观察变量的影响的低秩部分。我们提供了\texttt{eglatent}的有限样本保证，并展示它能一致地恢复条件图以及潜变量的数量。
 
-    arXiv:2404.00221v1 Announce Type: cross  Abstract: Many public policies and medical interventions involve dynamics in their treatment assignments, where treatments are sequentially assigned to the same individuals across multiple stages, and the effect of treatment at each stage is usually heterogeneous with respect to the history of prior treatments and associated characteristics. We study statistical learning of optimal dynamic treatment regimes (DTRs) that guide the optimal treatment assignment for each individual at each stage based on the individual's history. We propose a step-wise doubly-robust approach to learn the optimal DTR using observational data under the assumption of sequential ignorability. The approach solves the sequential treatment assignment problem through backward induction, where, at each step, we combine estimators of propensity scores and action-value functions (Q-functions) to construct augmented inverse probability weighting estimators of values of policies 
+    arXiv:2403.09604v1 Announce Type: cross  Abstract: Extremal graphical models encode the conditional independence structure of multivariate extremes and provide a powerful tool for quantifying the risk of rare events. Prior work on learning these graphs from data has focused on the setting where all relevant variables are observed. For the popular class of H\"usler-Reiss models, we propose the \texttt{eglatent} method, a tractable convex program for learning extremal graphical models in the presence of latent variables. Our approach decomposes the H\"usler-Reiss precision matrix into a sparse component encoding the graphical structure among the observed variables after conditioning on the latent variables, and a low-rank component encoding the effect of a few latent variables on the observed variables. We provide finite-sample guarantees of \texttt{eglatent} and show that it consistently recovers the conditional graph as well as the number of latent variables. We highlight the improved 
     
-[^3]: 估计随机递归树的历史
+[^2]: $G$-Mapper：学习Mapper构造中的覆盖
 
-    Estimating the history of a random recursive tree
+    $G$-Mapper: Learning a Cover in the Mapper Construction. (arXiv:2309.06634v1 [cs.LG])
 
-    [https://arxiv.org/abs/2403.09755](https://arxiv.org/abs/2403.09755)
+    [http://arxiv.org/abs/2309.06634](http://arxiv.org/abs/2309.06634)
 
-    本文研究了估计随机递归树中顶点到达顺序的问题，提出了基于Jordan中心性度量的顺序估计器，并证明其几乎是最优的。
-
-    
-
-    本文研究了估计随机递归树中顶点到达顺序的问题。具体来说，我们研究了两个基本模型：均匀连接模型和线性优先连接模型。我们提出了一种基于Jordan中心性度量的顺序估计器，并定义了一族风险度量来量化排序过程的质量。此外，我们为这个问题建立了极小-最大下界，并证明所提出的估计器几乎是最优的。最后，我们通过数值实验表明所提出的估计器优于基于度数和谱排序程序。
-
-    arXiv:2403.09755v1 Announce Type: cross  Abstract: This paper studies the problem of estimating the order of arrival of the vertices in a random recursive tree. Specifically, we study two fundamental models: the uniform attachment model and the linear preferential attachment model. We propose an order estimator based on the Jordan centrality measure and define a family of risk measures to quantify the quality of the ordering procedure. Moreover, we establish a minimax lower bound for this problem, and prove that the proposed estimator is nearly optimal. Finally, we numerically demonstrate that the proposed estimator outperforms degree-based and spectral ordering procedures.
-    
-[^4]: 最佳臂识别和流体分析的最优Top-Two方法
-
-    Optimal Top-Two Method for Best Arm Identification and Fluid Analysis
-
-    [https://arxiv.org/abs/2403.09123](https://arxiv.org/abs/2403.09123)
-
-    提出了解决最佳臂识别问题中的样本复杂度挑战的最优Top-Two算法。
+    本论文介绍了一种基于统计检验和聚类算法的优化Mapper图覆盖的方法，通过分割覆盖选择生成了保留数据集本质的Mapper图。
 
     
 
-    Top-2方法在解决最佳臂识别（BAI）问题中变得流行。该方法通过一个算法识别最佳臂，即在有限数量臂中具有最大均值的臂，该算法在任何顺序步骤中独立地以固定概率 β 拉动经验最佳臂，并在其他情况下拉动最佳挑战者臂。选择错误的概率保证在指定的δ >0以下。对于BAI问题，已知信息理论下界的样本复杂度，并在δ → 0时与计算要求高的插件方法渐近匹配。 对于任何 β ∈（0,1）的上述Top 2算法的样本复杂度始终保持在下界的常数范围内。然而，确定与下界匹配的最佳 β 已被证明困难。在本文中，我们解决了这个问题并提出了一个最优的Top-2类型算法。我们考虑分配锚点的一个函数。
+    Mapper算法是拓扑数据分析(TDA)中一种反映给定数据集结构的可视化技术。Mapper算法需要调整多个参数以生成一个"好看的"Mapper图。该论文关注于选择覆盖参数。我们提出了一种通过根据正态性的统计检验反复分割覆盖来优化Mapper图的算法。我们的算法基于$G$-means聚类，通过迭代地进行Anderson-Darling检验来寻找$k$-means中最佳的簇数。我们的分割过程利用高斯混合模型，根据给定数据的分布精心选择覆盖。对于合成和真实数据集的实验表明，我们的算法生成的覆盖使Mapper图保留了数据集的本质。
 
-    arXiv:2403.09123v1 Announce Type: new  Abstract: Top-$2$ methods have become popular in solving the best arm identification (BAI) problem. The best arm, or the arm with the largest mean amongst finitely many, is identified through an algorithm that at any sequential step independently pulls the empirical best arm, with a fixed probability $\beta$, and pulls the best challenger arm otherwise. The probability of incorrect selection is guaranteed to lie below a specified $\delta >0$. Information theoretic lower bounds on sample complexity are well known for BAI problem and are matched asymptotically as $\delta \rightarrow 0$ by computationally demanding plug-in methods. The above top 2 algorithm for any $\beta \in (0,1)$ has sample complexity within a constant of the lower bound. However, determining the optimal $\beta$ that matches the lower bound has proven difficult. In this paper, we address this and propose an optimal top-2 type algorithm. We consider a function of allocations anchor
+    The Mapper algorithm is a visualization technique in topological data analysis (TDA) that outputs a graph reflecting the structure of a given dataset. The Mapper algorithm requires tuning several parameters in order to generate a "nice" Mapper graph. The paper focuses on selecting the cover parameter. We present an algorithm that optimizes the cover of a Mapper graph by splitting a cover repeatedly according to a statistical test for normality. Our algorithm is based on $G$-means clustering which searches for the optimal number of clusters in $k$-means by conducting iteratively the Anderson-Darling test. Our splitting procedure employs a Gaussian mixture model in order to choose carefully the cover based on the distribution of a given data. Experiments for synthetic and real-world datasets demonstrate that our algorithm generates covers so that the Mapper graphs retain the essence of the datasets.
     
-[^5]: 基于仿真的贝叶斯优化
+[^3]: 基于特征交互作用进行全局特征效应分解
 
-    Simulation Based Bayesian Optimization. (arXiv:2401.10811v1 [stat.ML])
+    Decomposing Global Feature Effects Based on Feature Interactions. (arXiv:2306.00541v1 [stat.ML])
 
-    [http://arxiv.org/abs/2401.10811](http://arxiv.org/abs/2401.10811)
+    [http://arxiv.org/abs/2306.00541](http://arxiv.org/abs/2306.00541)
 
-    本文介绍了基于仿真的贝叶斯优化（SBBO）作为一种新方法，用于通过仅需基于采样的访问来优化获取函数。
-
-    
-
-    贝叶斯优化是一种将先验知识与持续函数评估相结合的强大方法，用于优化黑盒函数。贝叶斯优化通过构建与协变量相关的目标函数的概率代理模型来指导未来评估点的选择。对于平滑连续的搜索空间，高斯过程经常被用作代理模型，因为它们提供对后验预测分布的解析访问，从而便于计算和优化获取函数。然而，在涉及对分类或混合协变量空间进行优化的复杂情况下，高斯过程可能不是理想的选择。本文介绍了一种名为基于仿真的贝叶斯优化（SBBO）的新方法，该方法仅需要对后验预测分布进行基于采样的访问，以优化获取函数。
-
-    Bayesian Optimization (BO) is a powerful method for optimizing black-box functions by combining prior knowledge with ongoing function evaluations. BO constructs a probabilistic surrogate model of the objective function given the covariates, which is in turn used to inform the selection of future evaluation points through an acquisition function. For smooth continuous search spaces, Gaussian Processes (GPs) are commonly used as the surrogate model as they offer analytical access to posterior predictive distributions, thus facilitating the computation and optimization of acquisition functions. However, in complex scenarios involving optimizations over categorical or mixed covariate spaces, GPs may not be ideal.  This paper introduces Simulation Based Bayesian Optimization (SBBO) as a novel approach to optimizing acquisition functions that only requires \emph{sampling-based} access to posterior predictive distributions. SBBO allows the use of surrogate probabilistic models tailored for co
-    
-[^6]: xVal: 大型语言模型的连续数字编码
-
-    xVal: A Continuous Number Encoding for Large Language Models. (arXiv:2310.02989v1 [stat.ML])
-
-    [http://arxiv.org/abs/2310.02989](http://arxiv.org/abs/2310.02989)
-
-    xVal是一种连续数字编码方案，通过使用单个标记来表示任何实数。与现有的数字编码方案相比，xVal更加高效，并且在泛化性能上表现更好。
+    提出了全局效应广义可加分解（GADGET）框架，能够最小化特征交互作用的本地特征效应的交互异质性。同时适用于偏依赖、积累局部效应和Shapley可加解释（SHAP）依赖的边际特征效应可视化方法，并提出了一种新的基于置换的交互测试来检测显着的特征交互作用。
 
     
 
-    由于数字令牌化的独特困难，大型语言模型尚未广泛用于科学数据集的分析。我们提出了xVal，一种数字编码方案，可以使用单个标记来表示任何实数。xVal通过将专用嵌入向量按数字值进行缩放来表示给定的实数。结合修改后的数字推断方法，该策略使模型在考虑作为从输入字符串的数字到输出字符串的数字的映射时成为端到端连续的。这导致了一种更适用于科学领域应用的归纳偏差。我们在许多合成和现实世界数据集上进行了实证评估。与现有的数字编码方案相比，我们发现xVal在令牌效率和泛化性能上表现更好。
+    全局特征效应方法，如偏依赖图，提供了预期边际特征效应的可理解的可视化。但是，当存在特征交互作用时，这种全局特征效应方法可能会误导，因为它们不能很好地表示单个观测的局部特征效应。我们正式介绍了基于递归分区的全局效应广义可加分解（GADGET）框架，以找到解释性特征空间中的可解释区域，从而最小化本地特征效应的交互异质性。我们为该框架提供了数学基础，并展示它适用于最流行的方法来可视化边际特征效应，即偏依赖，积累局部效应和Shapley可加解释（SHAP）依赖。此外，我们引入了一种新的基于置换的交互测试来检测显着的特征交互作用，该方法适用于任何特征。
 
-    Large Language Models have not yet been broadly adapted for the analysis of scientific datasets due in part to the unique difficulties of tokenizing numbers. We propose xVal, a numerical encoding scheme that represents any real number using just a single token. xVal represents a given real number by scaling a dedicated embedding vector by the number value. Combined with a modified number-inference approach, this strategy renders the model end-to-end continuous when considered as a map from the numbers of the input string to those of the output string. This leads to an inductive bias that is generally more suitable for applications in scientific domains. We empirically evaluate our proposal on a number of synthetic and real-world datasets. Compared with existing number encoding schemes, we find that xVal is more token-efficient and demonstrates improved generalization.
+    Global feature effect methods, such as partial dependence plots, provide an intelligible visualization of the expected marginal feature effect. However, such global feature effect methods can be misleading, as they do not represent local feature effects of single observations well when feature interactions are present. We formally introduce generalized additive decomposition of global effects (GADGET), which is a new framework based on recursive partitioning to find interpretable regions in the feature space such that the interaction-related heterogeneity of local feature effects is minimized. We provide a mathematical foundation of the framework and show that it is applicable to the most popular methods to visualize marginal feature effects, namely partial dependence, accumulated local effects, and Shapley additive explanations (SHAP) dependence. Furthermore, we introduce a new permutation-based interaction test to detect significant feature interactions that is applicable to any feat
+    
+[^4]: 基于扩散映射的粒子系统用于生成模型
+
+    Diffusion map particle systems for generative modeling. (arXiv:2304.00200v1 [stat.ML])
+
+    [http://arxiv.org/abs/2304.00200](http://arxiv.org/abs/2304.00200)
+
+    本文提出一种新型扩散映射粒子系统(DMPS)，可以用于高效生成建模，实验表明在包含流形结构的合成数据集上取得了比其他方法更好的效果。
+
+    
+
+    本文提出了一种新颖的扩散映射粒子系统(DMPS)，用于生成建模，该方法基于扩散映射和Laplacian调整的Wasserstein梯度下降（LAWGD）。扩散映射被用来从样本中近似Langevin扩散过程的生成器，从而学习潜在的数据生成流形。另一方面，LAWGD能够在合适的核函数选择下高效地从目标分布中抽样，我们在这里通过扩散映射计算生成器的谱逼近来构造核函数。数值实验表明，我们的方法在包括具有流形结构的合成数据集上优于其他方法。
+
+    We propose a novel diffusion map particle system (DMPS) for generative modeling, based on diffusion maps and Laplacian-adjusted Wasserstein gradient descent (LAWGD). Diffusion maps are used to approximate the generator of the Langevin diffusion process from samples, and hence to learn the underlying data-generating manifold. On the other hand, LAWGD enables efficient sampling from the target distribution given a suitable choice of kernel, which we construct here via a spectral approximation of the generator, computed with diffusion maps. Numerical experiments show that our method outperforms others on synthetic datasets, including examples with manifold structure.
     
 

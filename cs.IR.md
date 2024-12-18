@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Algorithmic Collusion or Competition: the Role of Platforms' Recommender Systems.](http://arxiv.org/abs/2309.14548) | 这项研究填补了关于电子商务平台推荐算法在算法勾结研究中被忽视的空白，并发现推荐算法可以决定基于AI的定价算法的竞争或勾结动态。 |
-| [^2] | [An Offline Metric for the Debiasedness of Click Models.](http://arxiv.org/abs/2304.09560) | 该论文介绍了一种离线评估点击模型去协变偏移的鲁棒性的方法，并提出了去偏差性这一概念和测量方法，这是恢复无偏一致相关性评分和点击模型对排名分布变化不变性的必要条件。 |
+| [^1] | [Non-autoregressive Generative Models for Reranking Recommendation](https://arxiv.org/abs/2402.06871) | 本研究提出了一个非自回归的生成模型用于排序推荐，在多阶段推荐系统中扮演关键角色。该模型旨在提高效率和效果，并解决稀疏训练样本和动态候选项对模型收敛性的挑战。 |
+| [^2] | [Impression-Aware Recommender Systems.](http://arxiv.org/abs/2308.07857) | 基于印象的推荐系统利用印象数据源提升推荐质量，通过综述分类推荐系统、数据集和评估方法，揭示开放性问题和未来研究方向。 |
 
 # 详细
 
-[^1]: 算法勾结还是竞争：平台推荐系统的角色
+[^1]: 非自回归的生成模型用于排序推荐
 
-    Algorithmic Collusion or Competition: the Role of Platforms' Recommender Systems. (arXiv:2309.14548v1 [cs.AI])
+    Non-autoregressive Generative Models for Reranking Recommendation
 
-    [http://arxiv.org/abs/2309.14548](http://arxiv.org/abs/2309.14548)
+    [https://arxiv.org/abs/2402.06871](https://arxiv.org/abs/2402.06871)
 
-    这项研究填补了关于电子商务平台推荐算法在算法勾结研究中被忽视的空白，并发现推荐算法可以决定基于AI的定价算法的竞争或勾结动态。
-
-    
-
-    最近的学术研究广泛探讨了基于人工智能(AI)的动态定价算法导致的算法勾结。然而，电子商务平台使用推荐算法来分配不同产品的曝光，而这一重要方面在先前的算法勾结研究中被大部分忽视。我们的研究填补了文献中这一重要的空白，并检验了推荐算法如何决定基于AI的定价算法的竞争或勾结动态。具体而言，我们研究了两种常用的推荐算法：(i)以最大化卖家总利润为目标的推荐系统和(ii)以最大化平台上产品需求为目标的推荐系统。我们构建了一个重复博弈框架，将卖家的定价算法和平台的推荐算法进行了整合。
-
-    Recent academic research has extensively examined algorithmic collusion resulting from the utilization of artificial intelligence (AI)-based dynamic pricing algorithms. Nevertheless, e-commerce platforms employ recommendation algorithms to allocate exposure to various products, and this important aspect has been largely overlooked in previous studies on algorithmic collusion. Our study bridges this important gap in the literature and examines how recommendation algorithms can determine the competitive or collusive dynamics of AI-based pricing algorithms. Specifically, two commonly deployed recommendation algorithms are examined: (i) a recommender system that aims to maximize the sellers' total profit (profit-based recommender system) and (ii) a recommender system that aims to maximize the demand for products sold on the platform (demand-based recommender system). We construct a repeated game framework that incorporates both pricing algorithms adopted by sellers and the platform's recom
-    
-[^2]: 离线度量点击模型的去偏差性
-
-    An Offline Metric for the Debiasedness of Click Models. (arXiv:2304.09560v1 [cs.IR])
-
-    [http://arxiv.org/abs/2304.09560](http://arxiv.org/abs/2304.09560)
-
-    该论文介绍了一种离线评估点击模型去协变偏移的鲁棒性的方法，并提出了去偏差性这一概念和测量方法，这是恢复无偏一致相关性评分和点击模型对排名分布变化不变性的必要条件。
+    本研究提出了一个非自回归的生成模型用于排序推荐，在多阶段推荐系统中扮演关键角色。该模型旨在提高效率和效果，并解决稀疏训练样本和动态候选项对模型收敛性的挑战。
 
     
 
-    在学习用户点击时，固有偏见是数据中普遍存在的一个问题，例如位置偏见或信任偏见。点击模型是从用户点击中提取信息的常用方法，例如在Web搜索中提取文档相关性，或者估计点击偏差以用于下游应用，例如反事实的学习排序、广告位置和公平排序。最近的研究表明，社区中的当前评估实践不能保证性能良好的点击模型对于下游任务的泛化能力，其中排名分布与训练分布不同，即在协变偏移下。在这项工作中，我们提出了一个基于条件独立性测试的评估度量，以检测点击模型对协变偏移的缺乏鲁棒性。我们引入了去偏差性的概念和一种测量方法。我们证明，去偏差性是恢复无偏的一致相关性评分以及使点击模型对排名分布变化的不变性的必要条件。
+    在多阶段推荐系统中，重新排序通过建模项目之间的内部相关性起到了至关重要的作用。重新排序的关键挑战在于在排列的组合空间中探索最佳序列。最近的研究提出了生成器-评估器学习范式，生成器生成多个可行序列，评估器基于估计的列表得分选择最佳序列。生成器至关重要，而生成模型非常适合生成器函数。当前的生成模型采用自回归策略进行序列生成。然而，在实时工业系统中部署自回归模型是具有挑战性的。因此，我们提出了一个非自回归生成模型用于排序推荐（NAR4Rec），以提高效率和效果。为了解决与稀疏训练样本和动态候选项对模型收敛性的挑战，我们引入了一个m
 
-    A well-known problem when learning from user clicks are inherent biases prevalent in the data, such as position or trust bias. Click models are a common method for extracting information from user clicks, such as document relevance in web search, or to estimate click biases for downstream applications such as counterfactual learning-to-rank, ad placement, or fair ranking. Recent work shows that the current evaluation practices in the community fail to guarantee that a well-performing click model generalizes well to downstream tasks in which the ranking distribution differs from the training distribution, i.e., under covariate shift. In this work, we propose an evaluation metric based on conditional independence testing to detect a lack of robustness to covariate shift in click models. We introduce the concept of debiasedness and a metric for measuring it. We prove that debiasedness is a necessary condition for recovering unbiased and consistent relevance scores and for the invariance o
+    In a multi-stage recommendation system, reranking plays a crucial role by modeling the intra-list correlations among items.The key challenge of reranking lies in the exploration of optimal sequences within the combinatorial space of permutations. Recent research proposes a generator-evaluator learning paradigm, where the generator generates multiple feasible sequences and the evaluator picks out the best sequence based on the estimated listwise score. Generator is of vital importance, and generative models are well-suited for the generator function. Current generative models employ an autoregressive strategy for sequence generation. However, deploying autoregressive models in real-time industrial systems is challenging. Hence, we propose a Non-AutoRegressive generative model for reranking Recommendation (NAR4Rec) designed to enhance efficiency and effectiveness. To address challenges related to sparse training samples and dynamic candidates impacting model convergence, we introduce a m
+    
+[^2]: 基于印象的推荐系统
+
+    Impression-Aware Recommender Systems. (arXiv:2308.07857v1 [cs.IR])
+
+    [http://arxiv.org/abs/2308.07857](http://arxiv.org/abs/2308.07857)
+
+    基于印象的推荐系统利用印象数据源提升推荐质量，通过综述分类推荐系统、数据集和评估方法，揭示开放性问题和未来研究方向。
+
+    
+
+    新型数据源为改进推荐系统的质量带来了新的机遇。印象是一种包含过去推荐（展示的项目）和传统互动的新型数据源。研究人员可以利用印象来优化用户偏好并克服当前推荐系统研究中的限制。印象的相关性和兴趣度逐年增加，因此需要对这类推荐系统中相关工作进行综述。我们提出了一篇关于使用印象的推荐系统的系统文献综述，侧重于研究中的三个基本方面：推荐系统、数据集和评估方法。我们对使用印象的推荐系统的论文进行了三个分类，详细介绍了每篇综述论文，描述了具有印象的数据集，并分析了现有的评估方法。最后，我们提出了值得关注的开放性问题和未来的研究方向，强调了文献中缺失的方面。
+
+    Novel data sources bring new opportunities to improve the quality of recommender systems. Impressions are a novel data source containing past recommendations (shown items) and traditional interactions. Researchers may use impressions to refine user preferences and overcome the current limitations in recommender systems research. The relevance and interest of impressions have increased over the years; hence, the need for a review of relevant work on this type of recommenders. We present a systematic literature review on recommender systems using impressions, focusing on three fundamental angles in research: recommenders, datasets, and evaluation methodologies. We provide three categorizations of papers describing recommenders using impressions, present each reviewed paper in detail, describe datasets with impressions, and analyze the existing evaluation methodologies. Lastly, we present open questions and future directions of interest, highlighting aspects missing in the literature that
     
 
