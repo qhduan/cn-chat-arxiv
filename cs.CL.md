@@ -2,142 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Using Contextual Information for Sentence-level Morpheme Segmentation](https://arxiv.org/abs/2403.15436) | 将形态素分割任务重新定义为序列到序列问题，并通过多语言模型展示出优异性能，揭示了高资源语言环境下的可比效力，以及低资源语言场景下的局限性。 |
-| [^2] | [Causal Prompting: Debiasing Large Language Model Prompting based on Front-Door Adjustment](https://arxiv.org/abs/2403.02738) | 提出了一种新型因果引导方法，通过前门调整有效减轻大型语言模型的偏见。 |
-| [^3] | [Retrieval-based Full-length Wikipedia Generation for Emergent Events](https://arxiv.org/abs/2402.18264) | 通过检索获取的Web来源信息，为新兴事件生成结构化的全长维基百科文档，避免大型语言模型在与最近发生事件相关的语料库上进行训练。 |
-| [^4] | [Fine-tuning Large Language Models for Domain-specific Machine Translation](https://arxiv.org/abs/2402.15061) | 提出了一种名为LlamaIT的基于提示的微调方法，用于领域特定机器翻译任务，解决了大型语言模型在领域特定机器翻译中遇到的挑战。 |
-| [^5] | [Re-Examine Distantly Supervised NER: A New Benchmark and a Simple Approach](https://arxiv.org/abs/2402.14948) | 提出了基于课程的正无标记学习 CuPUL 方法，能够显著降低嘈杂标签的影响，胜过现有方法 |
-| [^6] | [Backdoor Attacks on Dense Passage Retrievers for Disseminating Misinformation](https://arxiv.org/abs/2402.13532) | 本文介绍了一种后门攻击场景，攻击者通过利用密集通道检索的语法错误触发后门攻击，以秘密传播定向错误信息，如仇恨言论或广告，并通过实验证明了这种攻击方法的有效性和隐匿性。 |
-| [^7] | [Systematic Biases in LLM Simulations of Debates](https://arxiv.org/abs/2402.04049) | 本研究揭示了LLMs在模拟政治辩论中存在的系统性偏差，尽管被指定从特定的政治观点进行辩论，LLMs代理机构倾向于遵循模型固有的社会偏见。通过自动自我优化方法，我们进一步证实了这些观察结果。 |
-| [^8] | [SemPLeS: Semantic Prompt Learning for Weakly-Supervised Semantic Segmentation](https://arxiv.org/abs/2401.11791) | SemPLeS框架利用语义提示学习解决弱监督语义分割中的问题，通过学习有效提示来增强分割区域与目标对象类别之间的语义对齐。 |
-| [^9] | [Generating Mathematical Derivations with Large Language Models.](http://arxiv.org/abs/2307.09998) | 本文利用大型语言模型生成数学导出，分析了微调模型对未见符号和方程结构更改的敏感性，结果表明微调的FLAN-T5-large（MathT5）在各个测试集上的绝对性能优于GPT模型。 |
+| [^1] | [To Label or Not to Label: Hybrid Active Learning for Neural Machine Translation](https://arxiv.org/abs/2403.09259) | 提出了一种用于神经机器翻译的混合主动学习策略HUDS，结合了不确定性和多样性，用于领域自适应的句子选择。 |
+| [^2] | [TEncDM: Understanding the Properties of Diffusion Model in the Space of Language Model Encodings](https://arxiv.org/abs/2402.19097) | 通过在语言模型编码空间中训练模型，并使用基于Transformer的解码器以及自我调节，本文提出了名为TEncDM的文本编码扩散模型，在两个文本生成任务上展示了其优越性 |
+| [^3] | [SocREval: Large Language Models with the Socratic Method for Reference-Free Reasoning Evaluation.](http://arxiv.org/abs/2310.00074) | 本论文提出了一种称为SocREval的方法，利用GPT-4和苏格拉底方法进行无参考推理评估，以解决当前复杂推理模型评估中遇到的挑战。 |
+| [^4] | [Montague semantics and modifier consistency measurement in neural language models.](http://arxiv.org/abs/2212.04310) | 本文提出了一种用于测量神经语言模型合成行为的方法，并从形容词修饰名词短语的角度提出了三个新的合成行为测试。研究结果表明，当前的神经语言模型只在某种程度上符合预期的语言理论。 |
 
 # 详细
 
-[^1]: 利用上下文信息进行句子级形态素分割
+[^1]: 是否给数据贴标签：神经机器翻译的混合主动学习
 
-    Using Contextual Information for Sentence-level Morpheme Segmentation
+    To Label or Not to Label: Hybrid Active Learning for Neural Machine Translation
 
-    [https://arxiv.org/abs/2403.15436](https://arxiv.org/abs/2403.15436)
+    [https://arxiv.org/abs/2403.09259](https://arxiv.org/abs/2403.09259)
 
-    将形态素分割任务重新定义为序列到序列问题，并通过多语言模型展示出优异性能，揭示了高资源语言环境下的可比效力，以及低资源语言场景下的局限性。
-
-    
-
-    最近形态素分割的发展主要强调单词级别的分割，通常忽视了句子内的上下文相关性。在这项研究中，我们将形态素分割任务重新定义为一个序列到序列的问题，将整个句子作为输入，而不是孤立地处理单个单词。我们的研究发现，多语言模型与单语模型相比始终表现出更高的性能。虽然我们的模型没有超越当前最先进的模型，但在高资源语言中展现出可比较的有效性，同时揭示了在低资源语言场景中的局限性。
-
-    arXiv:2403.15436v1 Announce Type: new  Abstract: Recent advancements in morpheme segmentation primarily emphasize word-level segmentation, often neglecting the contextual relevance within the sentence. In this study, we redefine the morpheme segmentation task as a sequence-to-sequence problem, treating the entire sentence as input rather than isolating individual words. Our findings reveal that the multilingual model consistently exhibits superior performance compared to monolingual counterparts. While our model did not surpass the performance of the current state-of-the-art, it demonstrated comparable efficacy with high-resource languages while revealing limitations in low-resource language scenarios.
-    
-[^2]: 因果引导：基于前门调整的大型语言模型启发式去偏方法
-
-    Causal Prompting: Debiasing Large Language Model Prompting based on Front-Door Adjustment
-
-    [https://arxiv.org/abs/2403.02738](https://arxiv.org/abs/2403.02738)
-
-    提出了一种新型因果引导方法，通过前门调整有效减轻大型语言模型的偏见。
+    提出了一种用于神经机器翻译的混合主动学习策略HUDS，结合了不确定性和多样性，用于领域自适应的句子选择。
 
     
 
-    尽管现有的诸如上下文学习和思维链等大型语言模型（LLMs）启发式方法取得了显著成就，但它们仍然面临各种偏见挑战。本文揭示了启发式方法背后的因果关系，并提出了一种基于前门调整的新型因果引导方法，以有效减轻LLMs的偏见。具体而言，通过设计提示而无需访问LLMs的参数和logit来实施因果干预。由LLMs生成的思维链被用作中介变量，通过前门计算输入提示与输出答案之间的因果效应。
+    主动学习技术通过从未标记数据中选择更小的代表性子集进行注释，降低了训练神经机器翻译（NMT）模型的标记成本。我们提出了HUDS，这是一种用于NMT领域自适应的混合主动学习策略，将不确定性和多样性相结合，以进行句子选择。
 
-    arXiv:2403.02738v1 Announce Type: new  Abstract: Despite the significant achievements of existing prompting methods such as in-context learning and chain-of-thought for large language models (LLMs), they still face challenges of various biases. Traditional debiasing methods primarily focus on the model training stage, including data augmentation-based and reweight-based approaches, with the limitations of addressing the complex biases of LLMs. To address such limitations, the causal relationship behind the prompting methods is uncovered using a structural causal model, and a novel causal prompting method based on front-door adjustment is proposed to effectively mitigate the bias of LLMs. In specific, causal intervention is implemented by designing the prompts without accessing the parameters and logits of LLMs.The chain-of-thoughts generated by LLMs are employed as the mediator variable and the causal effect between the input prompt and the output answers is calculated through front-do
+    arXiv:2403.09259v1 Announce Type: new  Abstract: Active learning (AL) techniques reduce labeling costs for training neural machine translation (NMT) models by selecting smaller representative subsets from unlabeled data for annotation. Diversity sampling techniques select heterogeneous instances, while uncertainty sampling methods select instances with the highest model uncertainty. Both approaches have limitations - diversity methods may extract varied but trivial examples, while uncertainty sampling can yield repetitive, uninformative instances. To bridge this gap, we propose HUDS, a hybrid AL strategy for domain adaptation in NMT that combines uncertainty and diversity for sentence selection. HUDS computes uncertainty scores for unlabeled sentences and subsequently stratifies them. It then clusters sentence embeddings within each stratum using k-MEANS and computes diversity scores by distance to the centroid. A weighted hybrid score that combines uncertainty and diversity is then us
     
-[^3]: 基于检索的应急事件全长维基百科生成
+[^2]: TEncDM: 在语言模型编码空间中理解扩散模型的属性
 
-    Retrieval-based Full-length Wikipedia Generation for Emergent Events
+    TEncDM: Understanding the Properties of Diffusion Model in the Space of Language Model Encodings
 
-    [https://arxiv.org/abs/2402.18264](https://arxiv.org/abs/2402.18264)
+    [https://arxiv.org/abs/2402.19097](https://arxiv.org/abs/2402.19097)
 
-    通过检索获取的Web来源信息，为新兴事件生成结构化的全长维基百科文档，避免大型语言模型在与最近发生事件相关的语料库上进行训练。
-
-    
-
-    在当今快节奏的世界中，迅速生成新兴事件全面准确的维基百科文档的需求日益重要且具有挑战性。然而，先前的维基百科生成工作往往未能满足现实需求。一些方法仅专注于生成完整维基百科文档的部分内容，而另一些则忽视了生成过程中忠实性的重要性，或未考虑预训练语料库的影响。本文中，我们模拟了一个真实世界场景，使用从网页来源检索的内容为新兴事件生成结构化的全长维基百科文档。为确保大型语言模型（LLMs）未经过基于最近发生事件的语料库训练，我们选择最近发生的事件并引入了一个新的基准 Wiki-GenBen，其中包含了309个事件及其对应的检索到的网页。
-
-    arXiv:2402.18264v1 Announce Type: new  Abstract: In today's fast-paced world, the growing demand to quickly generate comprehensive and accurate Wikipedia documents for emerging events is both crucial and challenging. However, previous efforts in Wikipedia generation have often fallen short of meeting real-world requirements. Some approaches focus solely on generating segments of a complete Wikipedia document, while others overlook the importance of faithfulness in generation or fail to consider the influence of the pre-training corpus. In this paper, we simulate a real-world scenario where structured full-length Wikipedia documents are generated for emergent events using input retrieved from web sources. To ensure that Large Language Models (LLMs) are not trained on corpora related to recently occurred events, we select events that have taken place recently and introduce a new benchmark Wiki-GenBen, which consists of 309 events paired with their corresponding retrieved web pages for ge
-    
-[^4]: 针对领域特定机器翻译的大型语言模型微调
-
-    Fine-tuning Large Language Models for Domain-specific Machine Translation
-
-    [https://arxiv.org/abs/2402.15061](https://arxiv.org/abs/2402.15061)
-
-    提出了一种名为LlamaIT的基于提示的微调方法，用于领域特定机器翻译任务，解决了大型语言模型在领域特定机器翻译中遇到的挑战。
+    通过在语言模型编码空间中训练模型，并使用基于Transformer的解码器以及自我调节，本文提出了名为TEncDM的文本编码扩散模型，在两个文本生成任务上展示了其优越性
 
     
 
-    大型语言模型（LLMs）在机器翻译（MT）领域取得了重要进展。然而，它们在领域特定MT中的潜力尚未得到充分探索。当前基于LLMs的MT系统仍然面临一些挑战。为了解决这些挑战，本文提出了一种名为LlamaIT的基于提示的微调方法，以有效高效地为领域特定MT任务微调通用LLM。
+    受到扩散模型在各个领域取得成功的启发，许多研究论文提出了将其应用于文本数据的方法。尽管有这些努力，但没有一种方法能够达到大型语言模型的质量。本文对文本扩散模型的关键组件进行了全面分析，并介绍了一种名为Text Encoding Diffusion Model (TEncDM)的新方法。我们在语言模型编码空间中训练我们的模型，而不是通常使用的标记嵌入空间。此外，我们提出使用基于Transformer的解码器，利用上下文信息进行文本重构。我们还分析了自我调节，并发现这会增加模型输出的数量级，从而减少推理阶段的去噪步骤数量。在两个下游文本生成任务QQP和XSum上对TEncDM的评估表明其优越性。
 
-    arXiv:2402.15061v1 Announce Type: new  Abstract: Large language models (LLMs) have made significant progress in machine translation (MT). However, their potential in domain-specific MT remains under-explored. Current LLM-based MT systems still face several challenges. First, for LLMs with in-context learning, their effectiveness is highly sensitive to input translation examples, and processing them can increase inference costs. They often require extra post-processing due to over-generation. Second, LLMs with fine-tuning on domain-specific data often require high training costs for domain adaptation, and may weaken the zero-shot MT capabilities of LLMs due to over-specialization. The aforementioned methods can struggle to translate rare words in domain transfer scenarios. To address these challenges, this paper proposes a prompt-oriented fine-tuning method, denoted as LlamaIT, to effectively and efficiently fine-tune a general-purpose LLM for domain-specific MT tasks. First, we constru
+    arXiv:2402.19097v1 Announce Type: new  Abstract: Drawing inspiration from the success of diffusion models in various domains, numerous research papers proposed methods for adapting them to text data. Despite these efforts, none of them has managed to achieve the quality of the large language models. In this paper, we conduct a comprehensive analysis of key components of the text diffusion models and introduce a novel approach named Text Encoding Diffusion Model (TEncDM). Instead of the commonly used token embedding space, we train our model in the space of the language model encodings. Additionally, we propose to use a Transformer-based decoder that utilizes contextual information for text reconstruction. We also analyse self-conditioning and find that it increases the magnitude of the model outputs, allowing the reduction of the number of denoising steps at the inference stage. Evaluation of TEncDM on two downstream text generation tasks, QQP and XSum, demonstrates its superiority ove
     
-[^5]: 重新审视远程监督命名实体识别：一个新的基准和简单方法
+[^3]: SocREval：使用苏格拉底方法进行无参考推理评估的大规模语言模型
 
-    Re-Examine Distantly Supervised NER: A New Benchmark and a Simple Approach
+    SocREval: Large Language Models with the Socratic Method for Reference-Free Reasoning Evaluation. (arXiv:2310.00074v1 [cs.CL])
 
-    [https://arxiv.org/abs/2402.14948](https://arxiv.org/abs/2402.14948)
+    [http://arxiv.org/abs/2310.00074](http://arxiv.org/abs/2310.00074)
 
-    提出了基于课程的正无标记学习 CuPUL 方法，能够显著降低嘈杂标签的影响，胜过现有方法
-
-    
-
-    本文深入探讨了在远程监督（DS-NER）框架下的命名实体识别（NER），主要挑战在于标签质量受到误差的影响，如假阳性、假阴性和正向类型错误。我们批判性地评估了当前DS-NER方法的有效性，使用了一个名为QTL的真实世界基准数据集，揭示它们的性能往往不符合预期。为了解决标签噪声普遍问题，我们引入了一种简单而有效的方法，基于课程的正无标记学习（CuPUL），在训练过程中策略性地从“易”和更清洁的样本开始，以增强模型对嘈杂样本的韧性。我们的实证结果突出了CuPUL减少嘈杂标签影响并胜过现有方法的能力。
-
-    arXiv:2402.14948v1 Announce Type: new  Abstract: This paper delves into Named Entity Recognition (NER) under the framework of Distant Supervision (DS-NER), where the main challenge lies in the compromised quality of labels due to inherent errors such as false positives, false negatives, and positive type errors. We critically assess the efficacy of current DS-NER methodologies using a real-world benchmark dataset named QTL, revealing that their performance often does not meet expectations. To tackle the prevalent issue of label noise, we introduce a simple yet effective approach, Curriculum-based Positive-Unlabeled Learning CuPUL, which strategically starts on "easy" and cleaner samples during the training process to enhance model resilience to noisy samples. Our empirical results highlight the capability of CuPUL to significantly reduce the impact of noisy labels and outperform existing methods.
-    
-[^6]: 密集通道检索器用于传播信息错误的后门攻击
-
-    Backdoor Attacks on Dense Passage Retrievers for Disseminating Misinformation
-
-    [https://arxiv.org/abs/2402.13532](https://arxiv.org/abs/2402.13532)
-
-    本文介绍了一种后门攻击场景，攻击者通过利用密集通道检索的语法错误触发后门攻击，以秘密传播定向错误信息，如仇恨言论或广告，并通过实验证明了这种攻击方法的有效性和隐匿性。
+    本论文提出了一种称为SocREval的方法，利用GPT-4和苏格拉底方法进行无参考推理评估，以解决当前复杂推理模型评估中遇到的挑战。
 
     
 
-    密集检索器和检索增强语言模型已广泛用于各种NLP应用，尽管设计用于提供可靠和安全的结果，但检索器对潜在攻击的脆弱性仍不清楚，引发人们对其安全性的关注。本文介绍了一种新颖的情景，攻击者旨在通过检索系统隐蔽传播定向错误信息，如仇恨言论或广告。为实现这一目标，我们提出了一种在密集通道检索中由语法错误触发的危险后门攻击。我们的方法确保被攻击的模型在标准查询下可以正常运行，但在用户在查询中意外地犯语法错误时，被篡改以返回攻击者指定的段落。大量实验展示了我们提出的攻击方法的有效性和隐蔽性。
+    为了全面评估当前模型在复杂推理方面的能力，以可扩展的方式评估它们的逐步推理是至关重要的。现有的基于参考的评估指标依赖于人工注释的推理链来评估模型导出的推理链。然而，这样的“黄金标准”人工编写的推理链可能不是唯一的，并且其获取通常是劳动密集型的。现有的无参考推理指标消除了人工制作推理链的需求作为参考，但通常需要在具有人工推理链的数据集上进行微调，这复杂化了流程并引发了在不同数据集上泛化性的担忧。为了解决这些挑战，我们利用GPT-4自动评估推理链质量，消除了对人工制作参考的需求。利用苏格拉底方法，我们设计了定制化提示来增强无参考推理评估，这就是我们称之为SocREval（苏格拉底方法）的方法。
 
-    arXiv:2402.13532v1 Announce Type: new  Abstract: Dense retrievers and retrieval-augmented language models have been widely used in various NLP applications. Despite being designed to deliver reliable and secure outcomes, the vulnerability of retrievers to potential attacks remains unclear, raising concerns about their security. In this paper, we introduce a novel scenario where the attackers aim to covertly disseminate targeted misinformation, such as hate speech or advertisement, through a retrieval system. To achieve this, we propose a perilous backdoor attack triggered by grammar errors in dense passage retrieval. Our approach ensures that attacked models can function normally for standard queries but are manipulated to return passages specified by the attacker when users unintentionally make grammatical mistakes in their queries. Extensive experiments demonstrate the effectiveness and stealthiness of our proposed attack method. When a user query is error-free, our model consistentl
+    To comprehensively assess the capacity of current models for complex reasoning, it is crucial to assess their step-by-step reasoning in a scalable manner. Established reference-based evaluation metrics rely on human-annotated reasoning chains to assess the model-derived chains. However, such ``gold-standard'' human-written reasoning chains may not be unique and their acquisition is often labor-intensive. Existing reference-free reasoning metrics eliminate the need for human-crafted reasoning chains as references, but they typically require fine-tuning on datasets with human-derived reasoning chains, which complicates the process and raises concerns regarding generalizability across diverse datasets. To address these challenges, we harness GPT-4 to automatically evaluate reasoning chain quality, obviating the need for human-crafted references. Leveraging the Socratic method, we devise tailored prompts to enhance reference-free reasoning evaluation, which we term SocREval (Socratic metho
     
-[^7]: 论语料库模拟辩论中的系统性偏差
+[^4]: 蒙塔古语义与神经语言模型中的修饰一致性测量
 
-    Systematic Biases in LLM Simulations of Debates
+    Montague semantics and modifier consistency measurement in neural language models. (arXiv:2212.04310v2 [cs.CL] UPDATED)
 
-    [https://arxiv.org/abs/2402.04049](https://arxiv.org/abs/2402.04049)
+    [http://arxiv.org/abs/2212.04310](http://arxiv.org/abs/2212.04310)
 
-    本研究揭示了LLMs在模拟政治辩论中存在的系统性偏差，尽管被指定从特定的政治观点进行辩论，LLMs代理机构倾向于遵循模型固有的社会偏见。通过自动自我优化方法，我们进一步证实了这些观察结果。
-
-    
-
-    最近自然语言处理的进展，特别是大型语言模型（LLMs）的出现，为构建能够准确复制人类行为的计算机模拟提供了令人兴奋的可能性。然而，LLMs是复杂的统计学习器，没有直接的演绎规则，使其容易出现意外行为。在本研究中，我们重点介绍了LLMs在模拟人类互动中的限制，特别关注LLMs在模拟政治辩论方面的能力。我们的发现表明，尽管被指定从特定的政治观点进行辩论，LLMs代理机构倾向于遵循模型固有的社会偏见。这种倾向导致出现行为模式，似乎偏离了人类之间已经确立的社会动态。我们使用自动自我优化方法加强了这些观察结果，该方法使我们能够操纵LLMs内部的偏见，并证明代理随后与这些调整保持一致。
-
-    Recent advancements in natural language processing, especially the emergence of Large Language Models (LLMs), have opened exciting possibilities for constructing computational simulations designed to replicate human behavior accurately. However, LLMs are complex statistical learners without straightforward deductive rules, making them prone to unexpected behaviors. In this study, we highlight the limitations of LLMs in simulating human interactions, particularly focusing on LLMs' ability to simulate political debates. Our findings indicate a tendency for LLM agents to conform to the model's inherent social biases despite being directed to debate from certain political perspectives. This tendency results in behavioral patterns that seem to deviate from well-established social dynamics among humans. We reinforce these observations using an automatic self-fine-tuning method, which enables us to manipulate the biases within the LLM and demonstrate that agents subsequently align with the al
-    
-[^8]: SemPLeS: 语义提示学习用于弱监督语义分割
-
-    SemPLeS: Semantic Prompt Learning for Weakly-Supervised Semantic Segmentation
-
-    [https://arxiv.org/abs/2401.11791](https://arxiv.org/abs/2401.11791)
-
-    SemPLeS框架利用语义提示学习解决弱监督语义分割中的问题，通过学习有效提示来增强分割区域与目标对象类别之间的语义对齐。
+    本文提出了一种用于测量神经语言模型合成行为的方法，并从形容词修饰名词短语的角度提出了三个新的合成行为测试。研究结果表明，当前的神经语言模型只在某种程度上符合预期的语言理论。
 
     
 
-    弱监督语义分割（WSSS）旨在利用仅具有图像级监督的图像数据来训练分割模型。由于无法获得精确的像素级标注，现有方法通常侧重于通过优化CAM样式的热图来生成用于训练分割模型的伪标记。然而，生成的热图可能仅捕获对象类别的具有区分性的图像区域或相关的共同出现的背景。为解决这些问题，我们提出了一种用于WSSS的语义提示学习（SemPLeS）框架，该框架学习有效地提示CLIP潜空间以增强分割区域与目标对象类别之间的语义对准。具体而言，我们提出了对比提示学习和提示引导的语义细化，以学习适当描述和抑制与每个目标对象类别相关的共同出现的背景的提示。
+    在最近几年中，分布式语言表示模型已经取得了巨大的成功。同时，可解释性的需求引发了人们对它们的本质属性和能力的质疑。尤其是，分布式模型在处理自然语言的组合现象时往往不一致，这对它们的安全性和公平性具有重要的影响。尽管如此，目前大多数有关合成性的研究只是针对改善它们在相似性任务上的表现。本研究采取了不同的方法，提出了一种用于测量当代语言模型组成性行为的方法。具体而言，我们关注形容词修饰名词短语中的形容词修饰现象。我们引入了三个灵感来自蒙塔古语意的合成行为测试。我们的实验结果表明，当前的神经语言模型只在某种程度上符合预期的语言理论。
 
-    arXiv:2401.11791v2 Announce Type: replace-cross  Abstract: Weakly-Supervised Semantic Segmentation (WSSS) aims to train segmentation models using image data with only image-level supervision. Since precise pixel-level annotations are not accessible, existing methods typically focus on producing pseudo masks for training segmentation models by refining CAM-like heatmaps. However, the produced heatmaps may capture only the discriminative image regions of object categories or the associated co-occurring backgrounds. To address the issues, we propose a Semantic Prompt Learning for WSSS (SemPLeS) framework, which learns to effectively prompt the CLIP latent space to enhance the semantic alignment between the segmented regions and the target object categories. More specifically, we propose Contrastive Prompt Learning and Prompt-guided Semantic Refinement to learn the prompts that adequately describe and suppress the co-occurring backgrounds associated with each target object category. In thi
-    
-[^9]: 用大型语言模型生成数学导出
-
-    Generating Mathematical Derivations with Large Language Models. (arXiv:2307.09998v1 [cs.CL])
-
-    [http://arxiv.org/abs/2307.09998](http://arxiv.org/abs/2307.09998)
-
-    本文利用大型语言模型生成数学导出，分析了微调模型对未见符号和方程结构更改的敏感性，结果表明微调的FLAN-T5-large（MathT5）在各个测试集上的绝对性能优于GPT模型。
-
-    
-
-    利用大型语言模型（LLM）在专业领域中生成数学结果的导出是一个新兴的研究方向，可以帮助识别模型的局限性，并有可能支持数学发现。本文利用符号引擎在大规模上生成方程的导出，并研究了LLM在从前提中导出目标方程时的能力。具体而言，我们采用上下文学习来对GPT进行训练，并对一系列T5模型进行了微调，以比较预训练策略对专门模型的鲁棒性和泛化能力。实证结果表明，经过微调的FLAN-T5-large（MathT5）在所有静态和超出分布的测试集上的绝对性能优于GPT模型。然而，深入分析表明，微调模型对涉及未见符号的扰动（以及在较小程度上的方程结构更改）更为敏感。此外，我们分析了1.7K个方程和200多个导出以凸显出LLM的局限性。
-
-    The derivation of mathematical results in specialised fields using Large Language Models (LLMs) is an emerging research direction that can help identify models' limitations, and potentially support mathematical discovery. In this paper, we leverage a symbolic engine to generate derivations of equations at scale, and investigate the capabilities of LLMs when deriving goal equations from premises. Specifically, we employ in-context learning for GPT and fine-tune a range of T5 models to compare the robustness and generalisation of pre-training strategies to specialised models. Empirical results show that fine-tuned FLAN-T5-large (MathT5) outperforms GPT models on all static and out-of-distribution test sets in terms of absolute performance. However, an in-depth analysis reveals that the fine-tuned models are more sensitive to perturbations involving unseen symbols and (to a lesser extent) changes to equation structure. In addition, we analyse 1.7K equations and over 200 derivations to hig
+    In recent years, distributional language representation models have demonstrated great practical success. At the same time, the need for interpretability has elicited questions on their intrinsic properties and capabilities. Crucially, distributional models are often inconsistent when dealing with compositional phenomena in natural language, which has significant implications for their safety and fairness. Despite this, most current research on compositionality is directed towards improving their performance on similarity tasks only. This work takes a different approach, and proposes a methodology for measuring compositional behavior in contemporary language models. Specifically, we focus on adjectival modifier phenomena in adjective-noun phrases. We introduce three novel tests of compositional behavior inspired by Montague semantics. Our experimental results indicate that current neural language models behave according to the expected linguistic theories to a limited extent only. This
     
 

@@ -2,56 +2,41 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Extremal graphical modeling with latent variables](https://arxiv.org/abs/2403.09604) | 提出了一种针对混合变量的极端图模型的学习方法，能够有效恢复条件图和潜变量数量。 |
-| [^2] | [$G$-Mapper: Learning a Cover in the Mapper Construction.](http://arxiv.org/abs/2309.06634) | 本论文介绍了一种基于统计检验和聚类算法的优化Mapper图覆盖的方法，通过分割覆盖选择生成了保留数据集本质的Mapper图。 |
-| [^3] | [Decomposing Global Feature Effects Based on Feature Interactions.](http://arxiv.org/abs/2306.00541) | 提出了全局效应广义可加分解（GADGET）框架，能够最小化特征交互作用的本地特征效应的交互异质性。同时适用于偏依赖、积累局部效应和Shapley可加解释（SHAP）依赖的边际特征效应可视化方法，并提出了一种新的基于置换的交互测试来检测显着的特征交互作用。 |
-| [^4] | [Diffusion map particle systems for generative modeling.](http://arxiv.org/abs/2304.00200) | 本文提出一种新型扩散映射粒子系统(DMPS)，可以用于高效生成建模，实验表明在包含流形结构的合成数据集上取得了比其他方法更好的效果。 |
+| [^1] | [Learning Dynamic Mechanisms in Unknown Environments: A Reinforcement Learning Approach](https://arxiv.org/abs/2202.12797) | 通过将无奖励在线强化学习引入到在线机制设计问题中，我们提出了能够在未知环境中学习动态VCG机制且具有上界为$\tilde{\mathcal{O}}(T^{2/3})$的遗憾保证的新颖学习算法。 |
+| [^2] | [Flexible and efficient spatial extremes emulation via variational autoencoders.](http://arxiv.org/abs/2307.08079) | 本文提出了一种新的空间极端值模型，通过集成在变分自动编码器的结构中，可以灵活、高效地模拟具有非平稳相关性的极端事件。实验证明，在时间效率和性能上，相对于传统的贝叶斯推断和许多具有平稳相关性的空间极端值模型，我们的方法具有优势。 |
+| [^3] | [Diffusion map particle systems for generative modeling.](http://arxiv.org/abs/2304.00200) | 本文提出一种新型扩散映射粒子系统(DMPS)，可以用于高效生成建模，实验表明在包含流形结构的合成数据集上取得了比其他方法更好的效果。 |
 
 # 详细
 
-[^1]: 混合变量的极端图模型
+[^1]: 在未知环境中学习动态机制：一种强化学习方法
 
-    Extremal graphical modeling with latent variables
+    Learning Dynamic Mechanisms in Unknown Environments: A Reinforcement Learning Approach
 
-    [https://arxiv.org/abs/2403.09604](https://arxiv.org/abs/2403.09604)
+    [https://arxiv.org/abs/2202.12797](https://arxiv.org/abs/2202.12797)
 
-    提出了一种针对混合变量的极端图模型的学习方法，能够有效恢复条件图和潜变量数量。
-
-    
-
-    极端图模型编码多变量极端条件独立结构，并为量化罕见事件风险提供强大工具。我们提出了面向潜变量的可延伸图模型的可行凸规划方法，将 H\"usler-Reiss 精度矩阵分解为编码观察变量之间的图结构的稀疏部分和编码少量潜变量对观察变量的影响的低秩部分。我们提供了\texttt{eglatent}的有限样本保证，并展示它能一致地恢复条件图以及潜变量的数量。
-
-    arXiv:2403.09604v1 Announce Type: cross  Abstract: Extremal graphical models encode the conditional independence structure of multivariate extremes and provide a powerful tool for quantifying the risk of rare events. Prior work on learning these graphs from data has focused on the setting where all relevant variables are observed. For the popular class of H\"usler-Reiss models, we propose the \texttt{eglatent} method, a tractable convex program for learning extremal graphical models in the presence of latent variables. Our approach decomposes the H\"usler-Reiss precision matrix into a sparse component encoding the graphical structure among the observed variables after conditioning on the latent variables, and a low-rank component encoding the effect of a few latent variables on the observed variables. We provide finite-sample guarantees of \texttt{eglatent} and show that it consistently recovers the conditional graph as well as the number of latent variables. We highlight the improved 
-    
-[^2]: $G$-Mapper：学习Mapper构造中的覆盖
-
-    $G$-Mapper: Learning a Cover in the Mapper Construction. (arXiv:2309.06634v1 [cs.LG])
-
-    [http://arxiv.org/abs/2309.06634](http://arxiv.org/abs/2309.06634)
-
-    本论文介绍了一种基于统计检验和聚类算法的优化Mapper图覆盖的方法，通过分割覆盖选择生成了保留数据集本质的Mapper图。
+    通过将无奖励在线强化学习引入到在线机制设计问题中，我们提出了能够在未知环境中学习动态VCG机制且具有上界为$\tilde{\mathcal{O}}(T^{2/3})$的遗憾保证的新颖学习算法。
 
     
 
-    Mapper算法是拓扑数据分析(TDA)中一种反映给定数据集结构的可视化技术。Mapper算法需要调整多个参数以生成一个"好看的"Mapper图。该论文关注于选择覆盖参数。我们提出了一种通过根据正态性的统计检验反复分割覆盖来优化Mapper图的算法。我们的算法基于$G$-means聚类，通过迭代地进行Anderson-Darling检验来寻找$k$-means中最佳的簇数。我们的分割过程利用高斯混合模型，根据给定数据的分布精心选择覆盖。对于合成和真实数据集的实验表明，我们的算法生成的覆盖使Mapper图保留了数据集的本质。
+    动态机制设计研究了机制设计者在时变环境中应该如何在代理之间分配资源。我们考虑了一种问题，即代理根据未知的马尔可夫决策过程(MDP)与机制设计者互动，在这个过程中代理的奖励和机制设计者的状态根据一个带有未知奖励函数和转移核的情节MDP演化。我们关注在线设置下的线性函数近似，并提出了新颖的学习算法，在多轮互动中恢复动态Vickrey-Clarke-Grove(VCG)机制。我们方法的一个关键贡献是将无奖励在线强化学习(RL)结合进来，以帮助在丰富的策略空间中进行探索，从而估计动态VCG机制中的价格。我们展示了我们提出的方法的遗憾上界为$\tilde{\mathcal{O}}(T^{2/3})$，并进一步设计了一个下界，以展示我们方法的...
 
-    The Mapper algorithm is a visualization technique in topological data analysis (TDA) that outputs a graph reflecting the structure of a given dataset. The Mapper algorithm requires tuning several parameters in order to generate a "nice" Mapper graph. The paper focuses on selecting the cover parameter. We present an algorithm that optimizes the cover of a Mapper graph by splitting a cover repeatedly according to a statistical test for normality. Our algorithm is based on $G$-means clustering which searches for the optimal number of clusters in $k$-means by conducting iteratively the Anderson-Darling test. Our splitting procedure employs a Gaussian mixture model in order to choose carefully the cover based on the distribution of a given data. Experiments for synthetic and real-world datasets demonstrate that our algorithm generates covers so that the Mapper graphs retain the essence of the datasets.
+    arXiv:2202.12797v2 Announce Type: replace  Abstract: Dynamic mechanism design studies how mechanism designers should allocate resources among agents in a time-varying environment. We consider the problem where the agents interact with the mechanism designer according to an unknown Markov Decision Process (MDP), where agent rewards and the mechanism designer's state evolve according to an episodic MDP with unknown reward functions and transition kernels. We focus on the online setting with linear function approximation and propose novel learning algorithms to recover the dynamic Vickrey-Clarke-Grove (VCG) mechanism over multiple rounds of interaction. A key contribution of our approach is incorporating reward-free online Reinforcement Learning (RL) to aid exploration over a rich policy space to estimate prices in the dynamic VCG mechanism. We show that the regret of our proposed method is upper bounded by $\tilde{\mathcal{O}}(T^{2/3})$ and further devise a lower bound to show that our a
     
-[^3]: 基于特征交互作用进行全局特征效应分解
+[^2]: 通过变分自动 编码器实现灵活高效的空间极端值模拟
 
-    Decomposing Global Feature Effects Based on Feature Interactions. (arXiv:2306.00541v1 [stat.ML])
+    Flexible and efficient spatial extremes emulation via variational autoencoders. (arXiv:2307.08079v1 [stat.ML])
 
-    [http://arxiv.org/abs/2306.00541](http://arxiv.org/abs/2306.00541)
+    [http://arxiv.org/abs/2307.08079](http://arxiv.org/abs/2307.08079)
 
-    提出了全局效应广义可加分解（GADGET）框架，能够最小化特征交互作用的本地特征效应的交互异质性。同时适用于偏依赖、积累局部效应和Shapley可加解释（SHAP）依赖的边际特征效应可视化方法，并提出了一种新的基于置换的交互测试来检测显着的特征交互作用。
+    本文提出了一种新的空间极端值模型，通过集成在变分自动编码器的结构中，可以灵活、高效地模拟具有非平稳相关性的极端事件。实验证明，在时间效率和性能上，相对于传统的贝叶斯推断和许多具有平稳相关性的空间极端值模型，我们的方法具有优势。
 
     
 
-    全局特征效应方法，如偏依赖图，提供了预期边际特征效应的可理解的可视化。但是，当存在特征交互作用时，这种全局特征效应方法可能会误导，因为它们不能很好地表示单个观测的局部特征效应。我们正式介绍了基于递归分区的全局效应广义可加分解（GADGET）框架，以找到解释性特征空间中的可解释区域，从而最小化本地特征效应的交互异质性。我们为该框架提供了数学基础，并展示它适用于最流行的方法来可视化边际特征效应，即偏依赖，积累局部效应和Shapley可加解释（SHAP）依赖。此外，我们引入了一种新的基于置换的交互测试来检测显着的特征交互作用，该方法适用于任何特征。
+    许多现实世界的过程具有复杂的尾依赖结构，这种结构无法使用传统的高斯过程来描述。更灵活的空间极端值模型， 如高斯尺度混合模型和单站点调节模型，具有吸引人的极端依赖性质，但往往难以拟合和模拟。本文中，我们提出了一种新的空间极端值模型，具有灵活和非平稳的相关性属性，并将其集成到变分自动编码器 (extVAE) 的编码-解码结构中。 extVAE 可以作为一个时空模拟器，对潜在的机制模型输出状态的分布进行建模，并产生具有与输入相同属性的输出，尤其是在尾部区域。通过广泛的模拟研究，我们证明我们的extVAE比传统的贝叶斯推断更高效，并且在具有 平稳相关性结构的许多空间极端值模型中表现 更好。
 
-    Global feature effect methods, such as partial dependence plots, provide an intelligible visualization of the expected marginal feature effect. However, such global feature effect methods can be misleading, as they do not represent local feature effects of single observations well when feature interactions are present. We formally introduce generalized additive decomposition of global effects (GADGET), which is a new framework based on recursive partitioning to find interpretable regions in the feature space such that the interaction-related heterogeneity of local feature effects is minimized. We provide a mathematical foundation of the framework and show that it is applicable to the most popular methods to visualize marginal feature effects, namely partial dependence, accumulated local effects, and Shapley additive explanations (SHAP) dependence. Furthermore, we introduce a new permutation-based interaction test to detect significant feature interactions that is applicable to any feat
+    Many real-world processes have complex tail dependence structures that cannot be characterized using classical Gaussian processes. More flexible spatial extremes models such as Gaussian scale mixtures and single-station conditioning models exhibit appealing extremal dependence properties but are often exceedingly prohibitive to fit and simulate from. In this paper, we develop a new spatial extremes model that has flexible and non-stationary dependence properties, and we integrate it in the encoding-decoding structure of a variational autoencoder (extVAE). The extVAE can be used as a spatio-temporal emulator that characterizes the distribution of potential mechanistic model output states and produces outputs that have the same properties as the inputs, especially in the tail. Through extensive simulation studies, we show that our extVAE is vastly more time-efficient than traditional Bayesian inference while also outperforming many spatial extremes models with a stationary dependence str
     
-[^4]: 基于扩散映射的粒子系统用于生成模型
+[^3]: 基于扩散映射的粒子系统用于生成模型
 
     Diffusion map particle systems for generative modeling. (arXiv:2304.00200v1 [stat.ML])
 

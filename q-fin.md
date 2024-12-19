@@ -2,37 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Measuring Higher-Order Rationality with Belief Control.](http://arxiv.org/abs/2309.07427) | 本研究通过将人类参与者与机器人玩家配对，发现当与机器人配对时，个体表现出较高的理性水平，并在不同游戏中保持稳定水平。这为评估个体战略能力提供了一种新方法。 |
-| [^2] | [Optimal execution and speculation with trade signals.](http://arxiv.org/abs/2306.00621) | 本文提出了一个价格冲击模型，基于市场的订单流动来推导市场的随机价格变化，提出了一个短期信号过程来帮助交易员了解订单流的变化，为最优执行问题提供了解决方案。 |
+| [^1] | [Beyond Citations: Text-Based Metrics for Assessing Novelty and its Impact in Scientific Publications.](http://arxiv.org/abs/2309.16437) | 本研究使用文本挖掘技术，验证了其对于确定科学论文中新科学思想的来源和影响的有效性，并显示出其相对于传统的基于引用的度量指标的显著改进。 |
 
 # 详细
 
-[^1]: 用信念控制来衡量高阶理性
+[^1]: 超越引用：用于评估科学出版物中的新颖性及其影响力的基于文本的指标
 
-    Measuring Higher-Order Rationality with Belief Control. (arXiv:2309.07427v1 [econ.GN])
+    Beyond Citations: Text-Based Metrics for Assessing Novelty and its Impact in Scientific Publications. (arXiv:2309.16437v1 [econ.GN])
 
-    [http://arxiv.org/abs/2309.07427](http://arxiv.org/abs/2309.07427)
+    [http://arxiv.org/abs/2309.16437](http://arxiv.org/abs/2309.16437)
 
-    本研究通过将人类参与者与机器人玩家配对，发现当与机器人配对时，个体表现出较高的理性水平，并在不同游戏中保持稳定水平。这为评估个体战略能力提供了一种新方法。
-
-    
-
-    仅基于选择数据确定个体的战略推理能力是一项复杂的任务。这种复杂性源于复杂的玩家可能对其他人有非均衡的信念，导致非均衡的行为。在我们的研究中，我们将人类参与者与已知完全理性的计算机玩家配对。通过使用机器人玩家，我们能够将有限的推理能力与信念形成和社会偏差相区分开来。我们的研究结果表明，当与机器人配对时，被试表现出始终较高的理性水平，并在不同游戏中保持稳定的理性水平，相比之下与人类配对时则不然。这表明战略推理可能的确是个体的一种一贯特征。此外，确定的理性限制可以作为评估个体对他人信念适当控制时的战略能力的指标。
-
-    Determining an individual's strategic reasoning capability based solely on choice data is a complex task. This complexity arises because sophisticated players might have non-equilibrium beliefs about others, leading to non-equilibrium actions. In our study, we pair human participants with computer players known to be fully rational. This use of robot players allows us to disentangle limited reasoning capacity from belief formation and social biases. Our results show that, when paired with robots, subjects consistently demonstrate higher levels of rationality and maintain stable rationality levels across different games compared to when paired with humans. This suggests that strategic reasoning might indeed be a consistent trait in individuals. Furthermore, the identified rationality limits could serve as a measure for evaluating an individual's strategic capacity when their beliefs about others are adequately controlled.
-    
-[^2]: 带有交易信号的最优执行和投机
-
-    Optimal execution and speculation with trade signals. (arXiv:2306.00621v1 [q-fin.TR])
-
-    [http://arxiv.org/abs/2306.00621](http://arxiv.org/abs/2306.00621)
-
-    本文提出了一个价格冲击模型，基于市场的订单流动来推导市场的随机价格变化，提出了一个短期信号过程来帮助交易员了解订单流的变化，为最优执行问题提供了解决方案。
+    本研究使用文本挖掘技术，验证了其对于确定科学论文中新科学思想的来源和影响的有效性，并显示出其相对于传统的基于引用的度量指标的显著改进。
 
     
 
-    我们提出了一个价格冲击模型，在这个模型中，价格的变化纯粹由市场的订单流动驱动。 市场订单的随机价格冲击和限价订单和市场订单的到达率是市场流动性过程的函数，该流动性过程反映了市场流动性的供需平衡。 限价订单和市场订单相互激发，使得流动性具有均值回归性质。我们使用 Meyers-$\sigma$-场的理论引入一个短期信号过程，从中交易员可以了解订单流的即将发生的变化。在这种情况下，我们研究了最优执行问题，并推导了其价值函数的Hamilton-Jacobi-Bellman（HJB）方程。 HJB方程经过数值求解后，我们演示了交易员如何使用信号来增强执行问题的性能并执行投机策略。
+    我们使用文本挖掘来确定来自Microsoft Academic Graph (MAG)科学论文群体中新科学思想的来源和影响。我们验证了新技术及其相对于基于引用的传统度量指标的改进。首先，我们收集与诺贝尔奖联系的科学论文。这些论文可以说引入了对科学进展具有重大影响的全新科学思想。其次，我们确定文献综述论文，这些论文通常总结之前的科学发现而不是引领新的科学见解。最后，我们证明引领新的科学思想的论文更有可能被高度引用。我们的研究结果支持使用文本挖掘来测量发表时的新颖科学思想以及这些新思想对后续科学工作的影响。此外，研究结果还表明，相比基于论文引用的传统指标，新的文本指标有显著的改进。
 
-    We propose a price impact model where changes in prices are purely driven by the order flow in the market. The stochastic price impact of market orders and the arrival rates of limit and market orders are functions of the market liquidity process which reflects the balance of the demand and supply of liquidity. Limit and market orders mutually excite each other so that liquidity is mean reverting. We use the theory of Meyer-$\sigma$-fields to introduce a short-term signal process from which a trader learns about imminent changes in order flow. In this setting, we examine an optimal execution problem and derive the Hamilton--Jacobi--Bellman (HJB) equation for the value function. The HJB equation is solved numerically and we illustrate how the trader uses the signal to enhance the performance of execution problems and to execute speculative strategies.
+    We use text mining to identify the origin and impact of new scientific ideas in the population of scientific papers from Microsoft Academic Graph (MAG). We validate the new techniques and their improvement over the traditional metrics based on citations. First, we collect scientific papers linked to Nobel prizes. These papers arguably introduced fundamentally new scientific ideas with a major impact on scientific progress. Second, we identify literature review papers which typically summarize prior scientific findings rather than pioneer new scientific insights. Finally, we illustrate that papers pioneering new scientific ideas are more likely to become highly cited. Our findings support the use of text mining both to measure novel scientific ideas at the time of publication and to measure the impact of these new ideas on later scientific work. Moreover, the results illustrate the significant improvement of the new text metrics over the traditional metrics based on paper citations. We 
     
 
