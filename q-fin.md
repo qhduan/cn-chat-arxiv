@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Beyond Citations: Text-Based Metrics for Assessing Novelty and its Impact in Scientific Publications.](http://arxiv.org/abs/2309.16437) | 本研究使用文本挖掘技术，验证了其对于确定科学论文中新科学思想的来源和影响的有效性，并显示出其相对于传统的基于引用的度量指标的显著改进。 |
+| [^1] | [Sequential decompositions at their limit.](http://arxiv.org/abs/2212.06733) | 本文研究了顺序更新分解技术在子间隔数量增加时的收敛性，提出了平均SU分解方法，并探讨了降低计算复杂度的方法。 |
 
 # 详细
 
-[^1]: 超越引用：用于评估科学出版物中的新颖性及其影响力的基于文本的指标
+[^1]: 极限下的顺序分解
 
-    Beyond Citations: Text-Based Metrics for Assessing Novelty and its Impact in Scientific Publications. (arXiv:2309.16437v1 [econ.GN])
+    Sequential decompositions at their limit. (arXiv:2212.06733v2 [q-fin.MF] UPDATED)
 
-    [http://arxiv.org/abs/2309.16437](http://arxiv.org/abs/2309.16437)
+    [http://arxiv.org/abs/2212.06733](http://arxiv.org/abs/2212.06733)
 
-    本研究使用文本挖掘技术，验证了其对于确定科学论文中新科学思想的来源和影响的有效性，并显示出其相对于传统的基于引用的度量指标的显著改进。
+    本文研究了顺序更新分解技术在子间隔数量增加时的收敛性，提出了平均SU分解方法，并探讨了降低计算复杂度的方法。
 
-    
+    This paper studies the convergence of sequential updating decompositions as the number of subintervals increases, proposes the average SU decomposition method, and discusses ways to reduce computational complexity.
 
-    我们使用文本挖掘来确定来自Microsoft Academic Graph (MAG)科学论文群体中新科学思想的来源和影响。我们验证了新技术及其相对于基于引用的传统度量指标的改进。首先，我们收集与诺贝尔奖联系的科学论文。这些论文可以说引入了对科学进展具有重大影响的全新科学思想。其次，我们确定文献综述论文，这些论文通常总结之前的科学发现而不是引领新的科学见解。最后，我们证明引领新的科学思想的论文更有可能被高度引用。我们的研究结果支持使用文本挖掘来测量发表时的新颖科学思想以及这些新思想对后续科学工作的影响。此外，研究结果还表明，相比基于论文引用的传统指标，新的文本指标有显著的改进。
+    顺序更新（SU）分解是一种用于创建收益和损失（P＆L）归因的众所周知的技术，例如，对于债券组合，通过将时间段分成子间隔并在每个子间隔中顺序编辑每个风险因素（例如FX，IR或CS）来实现。我们表明，如果P＆L归因可以用风险因素的平滑函数表示，则SU分解会在子间隔数量增加时收敛。我们进一步考虑平均SU分解，它们对于风险因素的顺序或标签是不变的。平均化在数值上是昂贵的，我们讨论了几种可以显着降低平均SU分解的计算复杂度的方法。
 
-    We use text mining to identify the origin and impact of new scientific ideas in the population of scientific papers from Microsoft Academic Graph (MAG). We validate the new techniques and their improvement over the traditional metrics based on citations. First, we collect scientific papers linked to Nobel prizes. These papers arguably introduced fundamentally new scientific ideas with a major impact on scientific progress. Second, we identify literature review papers which typically summarize prior scientific findings rather than pioneer new scientific insights. Finally, we illustrate that papers pioneering new scientific ideas are more likely to become highly cited. Our findings support the use of text mining both to measure novel scientific ideas at the time of publication and to measure the impact of these new ideas on later scientific work. Moreover, the results illustrate the significant improvement of the new text metrics over the traditional metrics based on paper citations. We 
+    Sequential updating (SU) decompositions are a well-known technique for creating profit and loss (P&L) attributions, e.g., for a bond portfolio, by dividing the time horizon into subintervals and sequentially editing each risk factor in each subinterval, e.g., FX, IR or CS. We show that SU decompositions converge for increasing number of subintervals if the P&L attribution can be expressed by a smooth function of the risk factors. We further consider average SU decompositions, which are invariant with respect to the order or labeling of the risk factors. The averaging is numerically expensive, and we discuss several ways in which the computational complexity of average SU decompositions can be significantly reduced.
     
 
