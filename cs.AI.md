@@ -2,153 +2,35 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [DiffH2O: Diffusion-Based Synthesis of Hand-Object Interactions from Textual Descriptions](https://arxiv.org/abs/2403.17827) | 提出了一种从文本描述和物体几何形状中合成逼真的手-物体交互的方法，通过三种技术实现了有效学习，包括任务分解、紧密耦合的姿势表示和不同的引导方案。 |
-| [^2] | [A Temporal Graph Network Framework for Dynamic Recommendation](https://arxiv.org/abs/2403.16066) | 该研究首次将时间图网络（TGN）直接应用于推荐系统，展示了其在动态推荐场景中的有效性。 |
-| [^3] | [Continual Vision-and-Language Navigation](https://arxiv.org/abs/2403.15049) | 该论文提出了持续视觉和语言导航（CVLN）范式，旨在解决现有训练VLN代理方法固有的固定数据集的重大限制，使代理能够在不断变化的真实世界中进行导航。 |
-| [^4] | [Python Fuzzing for Trustworthy Machine Learning Frameworks](https://arxiv.org/abs/2403.12723) | 提出了一种用于Python项目的动态分析管道，结合模糊测试、语料库最小化、崩溃分类和覆盖率收集，以确保机器学习框架的安全性和可靠性。 |
-| [^5] | [From Skepticism to Acceptance: Simulating the Attitude Dynamics Toward Fake News](https://arxiv.org/abs/2403.09498) | 本研究引入了基于大型语言模型的虚假新闻传播仿真框架，研究了虚假新闻传播的趋势和控制，每个代理人在仿真中代表具有独特个性的个体。 |
-| [^6] | [Recurrent Aligned Network for Generalized Pedestrian Trajectory Prediction](https://arxiv.org/abs/2403.05810) | 引入了循环对齐网络（RAN）来最小化领域差异，通过循环对齐策略有效地在时间-状态和时间-序列级别对齐轨迹特征空间，从而实现广义行人轨迹预测。 |
-| [^7] | [Towards Democratized Flood Risk Management: An Advanced AI Assistant Enabled by GPT-4 for Enhanced Interpretability and Public Engagement](https://arxiv.org/abs/2403.03188) | 引入基于GPT-4的定制AI助手，旨在促进决策者、普通公众和洪水预报员之间的有效沟通，提升可解释性和公众参与度。 |
-| [^8] | [OmniPred: Language Models as Universal Regressors](https://arxiv.org/abs/2402.14547) | 本文提出了OmniPred框架，用于训练语言模型作为通用的端到端回归器，实验证明，在多个任务上训练时，语言模型能够显著优于传统回归模型。 |
-| [^9] | [COPR: Continual Human Preference Learning via Optimal Policy Regularization](https://arxiv.org/abs/2402.14228) | 提出了Continual Optimal Policy Regularization (COPR) 方法，通过借鉴最优策略理论，利用采样分布作为示范和正则化约束，以动态地对当前策略进行正则化，从而使强化学习从人类反馈中学习在持续学习情境下更加稳健 |
-| [^10] | [Leveraging AI Planning For Detecting Cloud Security Vulnerabilities](https://arxiv.org/abs/2402.10985) | 提出了一个通用框架来建模云系统中的访问控制策略，并开发了基于PDDL模型的新方法来检测可能导致诸如勒索软件和敏感数据外泄等广泛攻击的安全漏洞。 |
-| [^11] | [Learning to Manipulate under Limited Information.](http://arxiv.org/abs/2401.16412) | 本研究通过训练神经网络在有限信息条件下学习如何利用不同投票方法进行操纵，发现某些投票方法在有限信息下容易被操纵，而其他方法不容易被操纵。 |
-| [^12] | [Transport-Hub-Aware Spatial-Temporal Adaptive Graph Transformer for Traffic Flow Prediction.](http://arxiv.org/abs/2310.08328) | 提出了一种交通枢纽感知的时空自适应图转换器 (H-STFormer) 用于交通流量预测。该方法不仅有效建模了时空依赖关系，还充分利用了交通流量数据的固有属性，解决了增量学习和转化问题。 |
-| [^13] | [Adaptive-Solver Framework for Dynamic Strategy Selection in Large Language Model Reasoning.](http://arxiv.org/abs/2310.01446) | 这个论文提出了一个自适应求解器框架，用于在大型语言模型推理中根据问题难度调整求解策略。这解决了现有方法刚性采用统一方法的问题，提高了计算性能。 |
-| [^14] | [Probabilistic Forecasting with Coherent Aggregation.](http://arxiv.org/abs/2307.09797) | 该论文提出了一种新的模型，利用因子模型结构来产生遵守层次结构的概率预测。模型利用卷积神经网络生成参数，并通过优化样本损失函数实现预测优化。 |
-| [^15] | [Variational Sequential Optimal Experimental Design using Reinforcement Learning.](http://arxiv.org/abs/2306.10430) | 该研究提出了一种基于贝叶斯框架和信息增益效用的变分序列最优实验设计方法，通过强化学习求解最优设计策略，适用于多种OED问题，结果具有更高的样本效率和更少的前向模型模拟次数。 |
-| [^16] | [LEA: Beyond Evolutionary Algorithms via Learned Optimization Strategy.](http://arxiv.org/abs/2304.09599) | LEA是一种适应性强且能够有效利用目标任务低保真度信息的学习进化算法，从而比传统进化算法在更少的计算成本下获得更好的解决方案。 |
-| [^17] | [A Content Adaptive Learnable Time-Frequency Representation For Audio Signal Processing.](http://arxiv.org/abs/2303.10446) | 该论文提出了一种用于音频信号处理的内容自适应可学习时频表示法，通过学习卷积滤波器与变换器架构来将小的波形块投影到小的潜在维度上。 |
+| [^1] | [ICLN: Input Convex Loss Network for Decision Focused Learning](https://arxiv.org/abs/2403.01875) | 提出了输入凸损失网络（ICLN），通过输入凸神经网络学习任务损失，为决策集中学习提供了全局替代损失。 |
+| [^2] | [Leveraging AI Planning For Detecting Cloud Security Vulnerabilities](https://arxiv.org/abs/2402.10985) | 提出了一个通用框架来建模云系统中的访问控制策略，并开发了基于PDDL模型的新方法来检测可能导致诸如勒索软件和敏感数据外泄等广泛攻击的安全漏洞。 |
+| [^3] | [Tracking Changing Probabilities via Dynamic Learners](https://arxiv.org/abs/2402.10142) | 该论文介绍了通过动态学习器追踪概率变化的方法，通过输出候选项目及其概率来预测离散项目序列中下一个可能出现的项目。 |
+| [^4] | [Resolving Ethics Trade-offs in Implementing Responsible AI](https://arxiv.org/abs/2401.08103) | 该论文提出了通过权衡处理人工智能伦理中的紧张关系的五种方法，并提出了一个框架来实施全面的人工智能/机器学习系统。 |
+| [^5] | [Open the Pandora's Box of LLMs: Jailbreaking LLMs through Representation Engineering](https://arxiv.org/abs/2401.06824) | 通过表示工程对LLMs进行越狱是一种新颖的方法，它利用少量查询对提取“安全模式”，成功规避目标模型的防御，实现了前所未有的越狱性能。 |
+| [^6] | [AgentBoard: An Analytical Evaluation Board of Multi-turn LLM Agents.](http://arxiv.org/abs/2401.13178) | AgentBoard是一个综合的基准测试和评估框架，专为分析评估LLM智能体而设计，解决了在多轮交互和部分可观察环境中对智能体性能进行基准测试的挑战，并提供了细粒度的进展率指标和评估工具包。 |
+| [^7] | [How well can large language models explain business processes?.](http://arxiv.org/abs/2401.12846) | 该论文介绍了一个用于生成业务流程解释的SAX4BPM框架，该框架通过与大型语言模型（LLM）集成来综合各种输入要素，以提供更好的情境感知解释（SAX）。 |
+| [^8] | [Perfect Alignment May be Poisonous to Graph Contrastive Learning.](http://arxiv.org/abs/2310.03977) | 本研究探讨了图形对比学习中增强方法和下游性能的关系，并发现图形对比学习主要通过分离不同类别的节点来为下游任务做出贡献。 |
+| [^9] | [Bridging the Domain Gap by Clustering-based Image-Text Graph Matching.](http://arxiv.org/abs/2310.02692) | 通过基于聚类的图像-文本图匹配来弥合领域差距，学习领域不变特征以实现在未见过领域上的良好泛化能力，实验结果显示在公共数据集上达到最先进性能。 |
+| [^10] | [Conditioning Score-Based Generative Models by Neuro-Symbolic Constraints.](http://arxiv.org/abs/2308.16534) | 本文提出了一种方法，通过神经符号约束来调节基于评分的生成模型，实现了在非条件生成模型下强制执行任意的逻辑约束，从而获得了一个有效的、无需额外训练的条件采样算法。 |
+| [^11] | [GPTEval: A Survey on Assessments of ChatGPT and GPT-4.](http://arxiv.org/abs/2308.12488) | 本文对ChatGPT和GPT-4的先前评估进行了综合分析，关注其语言和推理能力、科学知识和伦理考虑，提出了几个评估大型语言模型的建议。 |
 
 # 详细
 
-[^1]: 基于扩散的从文本描述中合成手-物体交互的方法
+[^1]: ICLN：输入凸损失网络用于决策集中学习
 
-    DiffH2O: Diffusion-Based Synthesis of Hand-Object Interactions from Textual Descriptions
+    ICLN: Input Convex Loss Network for Decision Focused Learning
 
-    [https://arxiv.org/abs/2403.17827](https://arxiv.org/abs/2403.17827)
+    [https://arxiv.org/abs/2403.01875](https://arxiv.org/abs/2403.01875)
 
-    提出了一种从文本描述和物体几何形状中合成逼真的手-物体交互的方法，通过三种技术实现了有效学习，包括任务分解、紧密耦合的姿势表示和不同的引导方案。
-
-    
-
-    生成自然的3D手-物体交互具有挑战性，因为期望生成的手部和物体动作在物理上是合理的，并且在语义上是有意义的。我们提出了一种名为DiffH2O的新方法，可以从提供的文本提示和物体几何形状中合成逼真的单手或双手物体交互。该方法引入了三种技术，可以有效地从有限数据中学习。首先，我们将任务分解为抓取阶段和基于文本交互阶段，并为每个阶段使用单独的扩散模型。在抓取阶段中，模型仅生成手部动作，而在交互阶段中，手部和物体姿势都被合成。其次，我们提出了一种紧密耦合手部和物体姿势的紧凑表示。第三，我们提出了两种不同的引导方案。
-
-    arXiv:2403.17827v1 Announce Type: cross  Abstract: Generating natural hand-object interactions in 3D is challenging as the resulting hand and object motions are expected to be physically plausible and semantically meaningful. Furthermore, generalization to unseen objects is hindered by the limited scale of available hand-object interaction datasets. We propose DiffH2O, a novel method to synthesize realistic, one or two-handed object interactions from provided text prompts and geometry of the object. The method introduces three techniques that enable effective learning from limited data. First, we decompose the task into a grasping stage and a text-based interaction stage and use separate diffusion models for each. In the grasping stage, the model only generates hand motions, whereas in the interaction phase both hand and object poses are synthesized. Second, we propose a compact representation that tightly couples hand and object poses. Third, we propose two different guidance schemes 
-    
-[^2]: 一个用于动态推荐的时间图网络框架
-
-    A Temporal Graph Network Framework for Dynamic Recommendation
-
-    [https://arxiv.org/abs/2403.16066](https://arxiv.org/abs/2403.16066)
-
-    该研究首次将时间图网络（TGN）直接应用于推荐系统，展示了其在动态推荐场景中的有效性。
+    提出了输入凸损失网络（ICLN），通过输入凸神经网络学习任务损失，为决策集中学习提供了全局替代损失。
 
     
 
-    推荐系统对于用户在电子商务和流媒体服务等平台上的参与至关重要，然而由于静态数据依赖，推荐系统常常落后于用户不断变化的偏好。在时间图网络（TGN）被提出后，各种研究表明TGN可以显著改善节点和边的特征随时间动态变化的情况。然而，尽管其有着良好的潜力，但迄今为止尚未直接应用于推荐系统。我们的研究通过直接在推荐系统中实现时间图网络（TGN）来弥补这一差距，这在该领域尚属首次。通过使用真实世界的数据集和一系列图形和历史嵌入方法，我们展示了TGN的适应性，证实了其在动态推荐场景中的有效性。
+    在不确定性条件下的决策问题中，预测未知参数通常被认为与优化部分无关。决策集中学习（DFL）是一个面向任务的框架，通过调整预测模型以为相应任务提供更好的决策来整合预测和优化。本文提出了输入凸损失网络（ICLN），这是一种新颖的全局替代损失，可以在一般的DFL范式中实现。ICLN通过输入凸神经网络学习任务损失，已经被保证为某些情况下是凸的。
 
-    arXiv:2403.16066v1 Announce Type: new  Abstract: Recommender systems, crucial for user engagement on platforms like e-commerce and streaming services, often lag behind users' evolving preferences due to static data reliance. After Temporal Graph Networks (TGNs) were proposed, various studies have shown that TGN can significantly improve situations where the features of nodes and edges dynamically change over time. However, despite its promising capabilities, it has not been directly applied in recommender systems to date. Our study bridges this gap by directly implementing Temporal Graph Networks (TGN) in recommender systems, a first in this field. Using real-world datasets and a range of graph and history embedding methods, we show TGN's adaptability, confirming its effectiveness in dynamic recommendation scenarios.
+    arXiv:2403.01875v1 Announce Type: cross  Abstract: In decision-making problem under uncertainty, predicting unknown parameters is often considered independent of the optimization part. Decision-focused Learning (DFL) is a task-oriented framework to integrate prediction and optimization by adapting predictive model to give better decision for the corresponding task. Here, an inevitable challenge arises when computing gradients of the optimal decision with respect to the parameters. Existing researches cope this issue by smoothly reforming surrogate optimization or construct surrogate loss function that mimic task loss. However, they are applied to restricted optimization domain or build functions in a local manner leading a large computational time. In this paper, we propose Input Convex Loss Network (ICLN), a novel global surrogate loss which can be implemented in a general DFL paradigm. ICLN learns task loss via Input Convex Neural Networks which is guaranteed to be convex for some in
     
-[^3]: Continual Vision-and-Language Navigation
-
-    Continual Vision-and-Language Navigation
-
-    [https://arxiv.org/abs/2403.15049](https://arxiv.org/abs/2403.15049)
-
-    该论文提出了持续视觉和语言导航（CVLN）范式，旨在解决现有训练VLN代理方法固有的固定数据集的重大限制，使代理能够在不断变化的真实世界中进行导航。
-
-    
-
-    视觉和语言导航（VLN）代理根据自然语言指令和观察到的视觉信息导航到目的地。现有的VLN代理训练方法预设固定数据集，导致一个重大限制：引入新环境需要重新训练以保留已经遇到的环境的知识。这使得在不断变化的真实世界中训练VLN代理变得困难。为了解决这一限制，我们提出了持续视觉和语言导航（CVLN）范式，旨在通过一个持续学习过程评估代理。
-
-    arXiv:2403.15049v1 Announce Type: cross  Abstract: Vision-and-Language Navigation (VLN) agents navigate to a destination using natural language instructions and the visual information they observe. Existing methods for training VLN agents presuppose fixed datasets, leading to a significant limitation: the introduction of new environments necessitates retraining with previously encountered environments to preserve their knowledge. This makes it difficult to train VLN agents that operate in the ever-changing real world. To address this limitation, we present the Continual Vision-and-Language Navigation (CVLN) paradigm, designed to evaluate agents trained through a continual learning process. For the training and evaluation of CVLN agents, we re-arrange existing VLN datasets to propose two datasets: CVLN-I, focused on navigation via initial-instruction interpretation, and CVLN-D, aimed at navigation through dialogue with other agents. Furthermore, we propose two novel rehearsal-based meth
-    
-[^4]: 用于可信赖的机器学习框架的Python模糊测试
-
-    Python Fuzzing for Trustworthy Machine Learning Frameworks
-
-    [https://arxiv.org/abs/2403.12723](https://arxiv.org/abs/2403.12723)
-
-    提出了一种用于Python项目的动态分析管道，结合模糊测试、语料库最小化、崩溃分类和覆盖率收集，以确保机器学习框架的安全性和可靠性。
-
-    
-
-    确保机器学习框架的安全性和可靠性对于构建可信赖的基于人工智能的系统至关重要。模糊测试是安全软件开发生命周期（SSDLC）中一种流行的技术，可用于开发安全和健壮的软件。我们提出了使用Sydr-Fuzz工具集针对Python项目的动态分析管道。我们的管道包括模糊测试、语料库最小化、崩溃分类和覆盖率收集。崩溃分类和严重性评估是确保及时解决最关键漏洞的重要步骤。此外，所提出的管道集成在GitLab CI中。为了确定机器学习框架中最易受攻击的部分，我们分析它们潜在的攻击面，并为PyTorch、TensorFlow开发模糊测试目标。
-
-    arXiv:2403.12723v1 Announce Type: cross  Abstract: Ensuring the security and reliability of machine learning frameworks is crucial for building trustworthy AI-based systems. Fuzzing, a popular technique in secure software development lifecycle (SSDLC), can be used to develop secure and robust software. Popular machine learning frameworks such as PyTorch and TensorFlow are complex and written in multiple programming languages including C/C++ and Python. We propose a dynamic analysis pipeline for Python projects using the Sydr-Fuzz toolset. Our pipeline includes fuzzing, corpus minimization, crash triaging, and coverage collection. Crash triaging and severity estimation are important steps to ensure that the most critical vulnerabilities are addressed promptly. Furthermore, the proposed pipeline is integrated in GitLab CI. To identify the most vulnerable parts of the machine learning frameworks, we analyze their potential attack surfaces and develop fuzz targets for PyTorch, TensorFlow, 
-    
-[^5]: 从怀疑到接受：模拟对虚假新闻态度动态的变化
-
-    From Skepticism to Acceptance: Simulating the Attitude Dynamics Toward Fake News
-
-    [https://arxiv.org/abs/2403.09498](https://arxiv.org/abs/2403.09498)
-
-    本研究引入了基于大型语言模型的虚假新闻传播仿真框架，研究了虚假新闻传播的趋势和控制，每个代理人在仿真中代表具有独特个性的个体。
-
-    
-
-    在数字时代，虚假新闻和谣言通过社交网络迅速传播，带来了显著的社会挑战，影响着公众舆论。传统的虚假新闻建模通常预测不同群体的普遍流行趋势或数字化代表意见转变。然而，这些方法经常过于简化现实世界的复杂性，忽视了新闻文本丰富的语义信息。大型语言模型（LLMs）的出现提供了模拟微妙意见动态的可能性。因此，在这项工作中，我们引入了基于LLM的虚假新闻传播仿真框架（FPS），详细研究虚假新闻传播的趋势和控制。具体地，仿真中的每个代理人代表具有独特个性的个人。他们配备了短期和长期记忆，以及反思机制来模仿类人思维。每天，
-
-    arXiv:2403.09498v1 Announce Type: cross  Abstract: In the digital era, the rapid propagation of fake news and rumors via social networks brings notable societal challenges and impacts public opinion regulation. Traditional fake news modeling typically forecasts the general popularity trends of different groups or numerically represents opinions shift. However, these methods often oversimplify real-world complexities and overlook the rich semantic information of news text. The advent of large language models (LLMs) provides the possibility of modeling subtle dynamics of opinion. Consequently, in this work, we introduce a Fake news Propagation Simulation framework (FPS) based on LLM, which studies the trends and control of fake news propagation in detail. Specifically, each agent in the simulation represents an individual with a distinct personality. They are equipped with both short-term and long-term memory, as well as a reflective mechanism to mimic human-like thinking. Every day, the
-    
-[^6]: 用于广义行人轨迹预测的循环对齐网络
-
-    Recurrent Aligned Network for Generalized Pedestrian Trajectory Prediction
-
-    [https://arxiv.org/abs/2403.05810](https://arxiv.org/abs/2403.05810)
-
-    引入了循环对齐网络（RAN）来最小化领域差异，通过循环对齐策略有效地在时间-状态和时间-序列级别对齐轨迹特征空间，从而实现广义行人轨迹预测。
-
-    
-
-    行人轨迹预测在计算机视觉和机器人领域中是一个关键组成部分，但由于领域转移问题而仍然具有挑战性。以往的研究试图通过利用来自目标领域的部分轨迹数据来调整模型来解决这个问题。然而，在现实世界的场景中，这些领域自适应方法是不切实际的，因为不太可能从所有潜在的目标领域收集轨迹数据。本文研究了一项名为广义行人轨迹预测的任务，旨在将模型推广到看不见的领域，而无需访问它们的轨迹。为了解决这个任务，我们引入了一个循环对齐网络（RAN）来通过领域对齐来最小化领域差异。具体地，我们设计了一个循环对齐模块，通过循环对齐策略有效地在时间-状态和时间-序列级别对齐轨迹特征空间。
-
-    arXiv:2403.05810v1 Announce Type: cross  Abstract: Pedestrian trajectory prediction is a crucial component in computer vision and robotics, but remains challenging due to the domain shift problem. Previous studies have tried to tackle this problem by leveraging a portion of the trajectory data from the target domain to adapt the model. However, such domain adaptation methods are impractical in real-world scenarios, as it is infeasible to collect trajectory data from all potential target domains. In this paper, we study a task named generalized pedestrian trajectory prediction, with the aim of generalizing the model to unseen domains without accessing their trajectories. To tackle this task, we introduce a Recurrent Aligned Network~(RAN) to minimize the domain gap through domain alignment. Specifically, we devise a recurrent alignment module to effectively align the trajectory feature spaces at both time-state and time-sequence levels by the recurrent alignment strategy.Furthermore, we 
-    
-[^7]: 达成民主化洪水风险管理：基于GPT-4的先进AI助手实现增强的可解释性和公众参与度
-
-    Towards Democratized Flood Risk Management: An Advanced AI Assistant Enabled by GPT-4 for Enhanced Interpretability and Public Engagement
-
-    [https://arxiv.org/abs/2403.03188](https://arxiv.org/abs/2403.03188)
-
-    引入基于GPT-4的定制AI助手，旨在促进决策者、普通公众和洪水预报员之间的有效沟通，提升可解释性和公众参与度。
-
-    
-
-    实时洪水预测在促进及时有效的应急响应方面起着至关重要的作用。然而，一个重大挑战在于弥合复杂数字洪水模型与实际决策之间的差距。决策者经常依赖专家解释这些模型，以优化洪水减灾策略。公众需要复杂的技术来调查和理解社会文化和制度因素，这经常阻碍了公众对洪水风险的理解。为了克服这些挑战，我们的研究引入了一项创新解决方案：由GPT-4大型语言模型支持的定制AI助手。这个AI助手旨在促进决策者、普通公众和洪水预报员之间的有效沟通，而无需专业知识。这一新框架利用了GPT-4先进的自然语言理解和函数调用能力来实现这一目标。
-
-    arXiv:2403.03188v1 Announce Type: new  Abstract: Real-time flood forecasting plays a crucial role in enabling timely and effective emergency responses. However, a significant challenge lies in bridging the gap between complex numerical flood models and practical decision-making. Decision-makers often rely on experts to interpret these models for optimizing flood mitigation strategies. And the public requires complex techniques to inquiry and understand socio-cultural and institutional factors, often hinders the public's understanding of flood risks. To overcome these challenges, our study introduces an innovative solution: a customized AI Assistant powered by the GPT-4 Large Language Model. This AI Assistant is designed to facilitate effective communication between decision-makers, the general public, and flood forecasters, without the requirement of specialized knowledge. The new framework utilizes GPT-4's advanced natural language understanding and function calling capabilities to pr
-    
-[^8]: OmniPred：语言模型作为通用回归器
-
-    OmniPred: Language Models as Universal Regressors
-
-    [https://arxiv.org/abs/2402.14547](https://arxiv.org/abs/2402.14547)
-
-    本文提出了OmniPred框架，用于训练语言模型作为通用的端到端回归器，实验证明，在多个任务上训练时，语言模型能够显著优于传统回归模型。
-
-    
-
-    在实验设计的广阔领域中，回归一直是一个强大的工具，可以准确预测系统或模型在给定一组参数的情况下的结果指标，但传统上只限于适用于特定任务的方法。在本文中，我们提出了OmniPred，这是一个用于训练语言模型作为通用端到端回归器的框架，使用来自多样真实世界实验的$(x,y)$评估数据。通过使用源自Google Vizier的数据，这是世界上最大的黑盒优化数据库之一，我们的大量实验表明，仅通过数学参数和值的文本表示，语言模型能够进行非常精确的数值回归，如果有机会训练多个任务，则可以显著优于传统的回归模型。
-
-    arXiv:2402.14547v1 Announce Type: cross  Abstract: Over the broad landscape of experimental design, regression has been a powerful tool to accurately predict the outcome metrics of a system or model given a set of parameters, but has been traditionally restricted to methods which are only applicable to a specific task. In this paper, we propose OmniPred, a framework for training language models as universal end-to-end regressors over $(x,y)$ evaluation data from diverse real world experiments. Using data sourced from Google Vizier, one of the largest blackbox optimization databases in the world, our extensive experiments demonstrate that through only textual representations of mathematical parameters and values, language models are capable of very precise numerical regression, and if given the opportunity to train over multiple tasks, can significantly outperform traditional regression models.
-    
-[^9]: COPR:通过最优策略正则化实现持续人类偏好学习
-
-    COPR: Continual Human Preference Learning via Optimal Policy Regularization
-
-    [https://arxiv.org/abs/2402.14228](https://arxiv.org/abs/2402.14228)
-
-    提出了Continual Optimal Policy Regularization (COPR) 方法，通过借鉴最优策略理论，利用采样分布作为示范和正则化约束，以动态地对当前策略进行正则化，从而使强化学习从人类反馈中学习在持续学习情境下更加稳健
-
-    
-
-    arXiv:2402.14228v1 公告类型:跨界 摘要: 利用强化学习从人类反馈中学习（RLHF）通常用于改善大型语言模型（LLMs）与人类偏好的对齐。鉴于人类偏好的不断变化，持续对齐相对于传统静态对齐变得更加重要和实际。然而，使RLHF与持续学习（CL）兼容由于其复杂过程而具有挑战性。同时，直接学习新的人类偏好可能导致历史偏好的灾难性遗忘（CF），导致无助或有害的结果。为了克服这些挑战，我们提出了Continual Optimal Policy Regularization (COPR) 方法，该方法借鉴了最优策略理论。COPR利用采样分布作为示范和正则化约束用于持续学习。它采用Lagrange对偶（LD）方法根据历史上的最优策略动态地正则化当前策略
-
-    arXiv:2402.14228v1 Announce Type: cross  Abstract: Reinforcement Learning from Human Feedback (RLHF) is commonly utilized to improve the alignment of Large Language Models (LLMs) with human preferences. Given the evolving nature of human preferences, continual alignment becomes more crucial and practical in comparison to traditional static alignment. Nevertheless, making RLHF compatible with Continual Learning (CL) is challenging due to its complex process. Meanwhile, directly learning new human preferences may lead to Catastrophic Forgetting (CF) of historical preferences, resulting in helpless or harmful outputs. To overcome these challenges, we propose the Continual Optimal Policy Regularization (COPR) method, which draws inspiration from the optimal policy theory. COPR utilizes a sampling distribution as a demonstration and regularization constraints for CL. It adopts the Lagrangian Duality (LD) method to dynamically regularize the current policy based on the historically optimal p
-    
-[^10]: 利用AI规划技术检测云安全漏洞
+[^2]: 利用AI规划技术检测云安全漏洞
 
     Leveraging AI Planning For Detecting Cloud Security Vulnerabilities
 
@@ -162,102 +44,130 @@
 
     arXiv:2402.10985v1 Announce Type: cross  Abstract: Cloud computing services provide scalable and cost-effective solutions for data storage, processing, and collaboration. Alongside their growing popularity, concerns related to their security vulnerabilities leading to data breaches and sophisticated attacks such as ransomware are growing. To address these, first, we propose a generic framework to express relations between different cloud objects such as users, datastores, security roles, to model access control policies in cloud systems. Access control misconfigurations are often the primary driver for cloud attacks. Second, we develop a PDDL model for detecting security vulnerabilities which can for example lead to widespread attacks such as ransomware, sensitive data exfiltration among others. A planner can then generate attacks to identify such vulnerabilities in the cloud. Finally, we test our approach on 14 real Amazon AWS cloud configurations of different commercial organizations
     
-[^11]: 学习在有限信息下进行操纵
+[^3]: 通过动态学习器追踪概率变化
 
-    Learning to Manipulate under Limited Information. (arXiv:2401.16412v1 [cs.AI])
+    Tracking Changing Probabilities via Dynamic Learners
 
-    [http://arxiv.org/abs/2401.16412](http://arxiv.org/abs/2401.16412)
+    [https://arxiv.org/abs/2402.10142](https://arxiv.org/abs/2402.10142)
 
-    本研究通过训练神经网络在有限信息条件下学习如何利用不同投票方法进行操纵，发现某些投票方法在有限信息下容易被操纵，而其他方法不容易被操纵。
-
-    
-
-    根据社会选择理论的经典结果，任何合理的偏好投票方法有时会给个体提供报告不真实偏好的激励。对于比较投票方法来说，不同投票方法在多大程度上更或者更少抵抗这种策略性操纵已成为一个关键考虑因素。在这里，我们通过神经网络在不同规模下对限制信息下学习如何利用给定投票方法进行操纵的成功程度来衡量操纵的抵抗力。我们训练了将近40,000个不同规模的神经网络来对抗8种不同的投票方法，在6种限制信息情况下，进行包含5-21名选民和3-6名候选人的委员会规模选举的操纵。我们发现，一些投票方法，如Borda方法，在有限信息下可以被神经网络高度操纵，而其他方法，如Instant Runoff方法，虽然被一个理想的操纵者利润化操纵，但在有限信息下不会受到操纵。
-
-    By classic results in social choice theory, any reasonable preferential voting method sometimes gives individuals an incentive to report an insincere preference. The extent to which different voting methods are more or less resistant to such strategic manipulation has become a key consideration for comparing voting methods. Here we measure resistance to manipulation by whether neural networks of varying sizes can learn to profitably manipulate a given voting method in expectation, given different types of limited information about how other voters will vote. We trained nearly 40,000 neural networks of 26 sizes to manipulate against 8 different voting methods, under 6 types of limited information, in committee-sized elections with 5-21 voters and 3-6 candidates. We find that some voting methods, such as Borda, are highly manipulable by networks with limited information, while others, such as Instant Runoff, are not, despite being quite profitably manipulated by an ideal manipulator with
-    
-[^12]: 交通流量预测的交通枢纽感知时空自适应图转换器
-
-    Transport-Hub-Aware Spatial-Temporal Adaptive Graph Transformer for Traffic Flow Prediction. (arXiv:2310.08328v1 [cs.AI])
-
-    [http://arxiv.org/abs/2310.08328](http://arxiv.org/abs/2310.08328)
-
-    提出了一种交通枢纽感知的时空自适应图转换器 (H-STFormer) 用于交通流量预测。该方法不仅有效建模了时空依赖关系，还充分利用了交通流量数据的固有属性，解决了增量学习和转化问题。
+    该论文介绍了通过动态学习器追踪概率变化的方法，通过输出候选项目及其概率来预测离散项目序列中下一个可能出现的项目。
 
     
 
-    作为智能交通系统（ITS）的核心技术，交通流量预测具有广泛的应用。交通流量数据是时空数据，不仅与道路网络中的空间位置相关，而且随时间变化。现有方法在一定程度上解决了交通流量预测中的挑战，重点是有效建模时空依赖关系，但并未充分利用交通流量数据的所有固有属性。此外，对于时空数据挖掘的增量学习几乎没有尝试，以前的工作也很难转化到交通流量预测任务中。受到交通流量预测的增量学习方法挑战和道路网络固有属性的潜力未被充分利用的启发，我们提出了一种针对交通流量预测的交通枢纽感知时空自适应图转换器（H-STFormer）。具体而言，我们首先设计了一种新颖的空间自注意机制
+    考虑一个预测器，即一个学习器，其输入是一系列离散项目。预测器的任务是在每个时间点进行概率多类别预测，即通过输出有零个或多个候选项目及其概率来预测接下来可能发生的项目，然后揭示实际项目并从中学习。为了输出概率，预测器会跟踪其所见项目的比例。预测器具有恒定（有限）的空间，我们寻求高效的预测和更新技术：流是无界的，项目的集合对预测器是未知的，它们的总数也可能无限增长。此外，存在非平稳性：项目的潜在频率可能会不时发生显著变化。例如，新项目可能开始出现，一些当前频繁出现的项目可能再次停止出现。由于有空间限制，预测器只需要提供概率。
 
-    As a core technology of Intelligent Transportation System (ITS), traffic flow prediction has a wide range of applications. Traffic flow data are spatial-temporal, which are not only correlated to spatial locations in road networks, but also vary with temporal time indices. Existing methods have solved the challenges in traffic flow prediction partly, focusing on modeling spatial-temporal dependencies effectively, while not all intrinsic properties of traffic flow data are utilized fully. Besides, there are very few attempts at incremental learning of spatial-temporal data mining, and few previous works can be easily transferred to the traffic flow prediction task. Motivated by the challenge of incremental learning methods for traffic flow prediction and the underutilization of intrinsic properties of road networks, we propose a Transport-Hub-aware Spatial-Temporal adaptive graph transFormer (H-STFormer) for traffic flow prediction. Specifically, we first design a novel spatial self-att
+    arXiv:2402.10142v1 Announce Type: cross  Abstract: Consider a predictor, a learner, whose input is a stream of discrete items. The predictor's task, at every time point, is probabilistic multiclass prediction, i.e., to predict which item may occur next by outputting zero or more candidate items, each with a probability, after which the actual item is revealed and the predictor learns from this observation. To output probabilities, the predictor keeps track of the proportions of the items it has seen. The predictor has constant (limited) space and we seek efficient prediction and update techniques: The stream is unbounded, the set of items is unknown to the predictor and their totality can also grow unbounded. Moreover, there is non-stationarity: the underlying frequencies of items may change, substantially, from time to time. For instance, new items may start appearing and a few currently frequent items may cease to occur again. The predictor, being space-bounded, need only provide pro
     
-[^13]: 大型语言模型推理中的动态策略选择自适应求解器框架
+[^4]: 解决在实施负责任人工智能中的伦理权衡
 
-    Adaptive-Solver Framework for Dynamic Strategy Selection in Large Language Model Reasoning. (arXiv:2310.01446v1 [cs.CL])
+    Resolving Ethics Trade-offs in Implementing Responsible AI
 
-    [http://arxiv.org/abs/2310.01446](http://arxiv.org/abs/2310.01446)
+    [https://arxiv.org/abs/2401.08103](https://arxiv.org/abs/2401.08103)
 
-    这个论文提出了一个自适应求解器框架，用于在大型语言模型推理中根据问题难度调整求解策略。这解决了现有方法刚性采用统一方法的问题，提高了计算性能。
-
-    
-
-    大型语言模型(LLM)在处理复杂推理任务时展示了令人印象深刻的能力。在现实世界中，问题往往涉及各种复杂性。人类本能地根据任务的复杂性调整他们的问题解决方法。然而，大多数利用LLM的方法倾向于采用一种统一的方法: 不管问题的复杂性如何，都使用一致的模型、提示方法和问题分解程度。这种刚性可能会带来不必要的计算开销或次优的性能。为了解决这个问题，我们引入了一个自适应求解器框架。它根据问题的难度策略性地调整求解策略。给定一个初始解决方案，该框架使用两个主要模块。初始评估模块评估当前解决方案的充分性。如果需要改进，接下来的自适应模块会介入。在这个模块内，有三个关键的自适应策略。
-
-    Large Language Models (LLMs) are showcasing impressive ability in handling complex reasoning tasks. In real-world situations, problems often span a spectrum of complexities. Humans inherently adjust their problem-solving approaches based on task complexity. However, most methodologies that leverage LLMs tend to adopt a uniform approach: utilizing consistent models, prompting methods, and degrees of problem decomposition, regardless of the problem complexity. Inflexibility of them can bring unnecessary computational overhead or sub-optimal performance. To address this problem, we introduce an Adaptive-Solver framework. It strategically modulates solving strategies based on the difficulties of the problems. Given an initial solution, the framework functions with two primary modules. The initial evaluation module assesses the adequacy of the current solution. If improvements are needed, the subsequent adaptation module comes into play. Within this module, three key adaptation strategies a
-    
-[^14]: 具有一致聚合的概率预测
-
-    Probabilistic Forecasting with Coherent Aggregation. (arXiv:2307.09797v1 [cs.LG])
-
-    [http://arxiv.org/abs/2307.09797](http://arxiv.org/abs/2307.09797)
-
-    该论文提出了一种新的模型，利用因子模型结构来产生遵守层次结构的概率预测。模型利用卷积神经网络生成参数，并通过优化样本损失函数实现预测优化。
+    该论文提出了通过权衡处理人工智能伦理中的紧张关系的五种方法，并提出了一个框架来实施全面的人工智能/机器学习系统。
 
     
 
-    在许多应用中，准确获得遵守层次结构的概率预测是一项重要的运营挑战，特别是在能源管理、供应链规划和资源配置等领域。对于多变量预测，基本挑战在于预测通常需要与层次结构保持一致。在本文中，我们提出了一种新的模型，利用因子模型结构通过构建来产生一致的预测。这是一个简单的观察结果（可交换性）：置换层次结构中的基本级别序列不会改变它们的聚合。我们的模型使用卷积神经网络来生成因子、它们的加载和基本级别分布的参数；它产生可以根据模型参数进行微分的样本；因此它可以对任何基于样本的损失函数进行优化，包括连续排名概率损失函数。
+    虽然把高级人工智能伦理原则应用到实际的人工智能/机器学习系统中已经取得了进展，但在处理底层人工智能伦理方面的紧张关系方面仍存在理论与实践之间的差距。我们提出了五种处理这些关系的方法，从简单到复杂不等。这些方法在考虑的上下文类型、范围、衡量上下文的方法和证明程度上有所不同。这些方法中没有一种适用于所有组织、系统或应用。为了解决这个问题，我们提出了一个框架，包括：（i）积极识别紧张关系，（ii）优先处理和权衡伦理方面，（iii）证明和记录权衡决策。该提议的框架旨在促进实施符合潜在监管要求的全面人工智能/机器学习系统。
 
-    Obtaining accurate probabilistic forecasts while respecting hierarchical information is an important operational challenge in many applications, perhaps most obviously in energy management, supply chain planning, and resource allocation. The basic challenge, especially for multivariate forecasting, is that forecasts are often required to be coherent with respect to the hierarchical structure. In this paper, we propose a new model which leverages a factor model structure to produce coherent forecasts by construction. This is a consequence of a simple (exchangeability) observation: permuting \textit{}base-level series in the hierarchy does not change their aggregates. Our model uses a convolutional neural network to produce parameters for the factors, their loadings and base-level distributions; it produces samples which can be differentiated with respect to the model's parameters; and it can therefore optimize for any sample-based loss function, including the Continuous Ranked Probabili
+    While the operationalisation of high-level AI ethics principles into practical AI/ML systems has made progress, there is still a theory-practice gap in managing tensions between the underlying AI ethics aspects. We cover five approaches for addressing the tensions via trade-offs, ranging from rudimentary to complex. The approaches differ in the types of considered context, scope, methods for measuring contexts, and degree of justification. None of the approaches is likely to be appropriate for all organisations, systems, or applications. To address this, we propose a framework which consists of: (i) proactive identification of tensions, (ii) prioritisation and weighting of ethics aspects, (iii) justification and documentation of trade-off decisions. The proposed framework aims to facilitate the implementation of well-rounded AI/ML systems that are appropriate for potential regulatory requirements.
     
-[^15]: 基于强化学习的变分序列最优实验设计方法
+[^5]: 打开LLMs的潘多拉魔盒：通过表示工程对LLMs进行越狱
 
-    Variational Sequential Optimal Experimental Design using Reinforcement Learning. (arXiv:2306.10430v1 [stat.ML])
+    Open the Pandora's Box of LLMs: Jailbreaking LLMs through Representation Engineering
 
-    [http://arxiv.org/abs/2306.10430](http://arxiv.org/abs/2306.10430)
+    [https://arxiv.org/abs/2401.06824](https://arxiv.org/abs/2401.06824)
 
-    该研究提出了一种基于贝叶斯框架和信息增益效用的变分序列最优实验设计方法，通过强化学习求解最优设计策略，适用于多种OED问题，结果具有更高的样本效率和更少的前向模型模拟次数。
-
-    
-
-    我们引入了变分序列最优实验设计 (vsOED) 的新方法，通过贝叶斯框架和信息增益效用来最优地设计有限序列的实验。具体而言，我们通过变分近似贝叶斯后验的下界估计期望效用。通过同时最大化变分下界和执行策略梯度更新来数值解决最优设计策略。我们将这种方法应用于一系列面向参数推断、模型区分和目标导向预测的OED问题。这些案例涵盖了显式和隐式似然函数、麻烦参数和基于物理的偏微分方程模型。我们的vsOED结果表明，与以前的顺序设计算法相比，样本效率大大提高，所需前向模型模拟次数减少了。
-
-    We introduce variational sequential Optimal Experimental Design (vsOED), a new method for optimally designing a finite sequence of experiments under a Bayesian framework and with information-gain utilities. Specifically, we adopt a lower bound estimator for the expected utility through variational approximation to the Bayesian posteriors. The optimal design policy is solved numerically by simultaneously maximizing the variational lower bound and performing policy gradient updates. We demonstrate this general methodology for a range of OED problems targeting parameter inference, model discrimination, and goal-oriented prediction. These cases encompass explicit and implicit likelihoods, nuisance parameters, and physics-based partial differential equation models. Our vsOED results indicate substantially improved sample efficiency and reduced number of forward model simulations compared to previous sequential design algorithms.
-    
-[^16]: LEA: 学习优化策略的超越进化算法
-
-    LEA: Beyond Evolutionary Algorithms via Learned Optimization Strategy. (arXiv:2304.09599v1 [cs.NE])
-
-    [http://arxiv.org/abs/2304.09599](http://arxiv.org/abs/2304.09599)
-
-    LEA是一种适应性强且能够有效利用目标任务低保真度信息的学习进化算法，从而比传统进化算法在更少的计算成本下获得更好的解决方案。
+    通过表示工程对LLMs进行越狱是一种新颖的方法，它利用少量查询对提取“安全模式”，成功规避目标模型的防御，实现了前所未有的越狱性能。
 
     
 
-    进化算法已成为昂贵黑盒优化的强大框架。在更少的计算成本下获得更好的解决方案对于黑盒优化至关重要且具有挑战性。最关键的障碍是找出如何有效利用目标任务信息来形成高效的优化策略。然而，当前的方法由于优化策略的表征不足以及优化策略与目标任务之间的低效交互而显得薄弱。为了克服上述限制，我们设计了一种学习进化算法（LEA），以实现从手动设计的优化策略到学习优化策略的转换，其中包括超参数和更新规则。与传统进化算法不同，LEA对目标任务具有高适应性，并且可以在更少的计算成本下获得更好的解决方案。LEA还能够有效地利用目标任务的低保真度信息来形成高效的优化策略。
+    越狱技术旨在通过诱使大型语言模型（LLMs）生成对恶意查询产生有毒响应，来探索LLMs安全性边界，这在LLMs社区内是一个重要关注点。我们提出一种名为通过表示工程对LLMs进行越狱（Jailbreaking LLMs through Representation Engineering，JRE）的新颖越狱方法，其仅需要少量查询对以提取可用于规避目标模型防御的“安全模式”，实现了前所未有的越狱性能。
 
-    Evolutionary algorithms (EAs) have emerged as a powerful framework for expensive black-box optimization. Obtaining better solutions with less computational cost is essential and challenging for black-box optimization. The most critical obstacle is figuring out how to effectively use the target task information to form an efficient optimization strategy. However, current methods are weak due to the poor representation of the optimization strategy and the inefficient interaction between the optimization strategy and the target task. To overcome the above limitations, we design a learned EA (LEA) to realize the move from hand-designed optimization strategies to learned optimization strategies, including not only hyperparameters but also update rules. Unlike traditional EAs, LEA has high adaptability to the target task and can obtain better solutions with less computational cost. LEA is also able to effectively utilize the low-fidelity information of the target task to form an efficient op
+    arXiv:2401.06824v2 Announce Type: replace-cross  Abstract: Jailbreaking techniques aim to probe the boundaries of safety in large language models (LLMs) by inducing them to generate toxic responses to malicious queries, a significant concern within the LLM community. While existing jailbreaking methods primarily rely on prompt engineering, altering inputs to evade LLM safety mechanisms, they suffer from low attack success rates and significant time overheads, rendering them inflexible. To overcome these limitations, we propose a novel jailbreaking approach, named Jailbreaking LLMs through Representation Engineering (JRE). Our method requires only a small number of query pairs to extract ``safety patterns'' that can be used to circumvent the target model's defenses, achieving unprecedented jailbreaking performance. Building upon these findings, we also introduce a novel defense framework inspired by JRE principles, which demonstrates notable effectiveness. Extensive experimentation conf
     
-[^17]: 一种用于音频信号处理的内容自适应可学习时频表示法
+[^6]: AgentBoard: 一种多轮LLM智能体的分析评估板
 
-    A Content Adaptive Learnable Time-Frequency Representation For Audio Signal Processing. (arXiv:2303.10446v1 [cs.SD])
+    AgentBoard: An Analytical Evaluation Board of Multi-turn LLM Agents. (arXiv:2401.13178v1 [cs.CL])
 
-    [http://arxiv.org/abs/2303.10446](http://arxiv.org/abs/2303.10446)
+    [http://arxiv.org/abs/2401.13178](http://arxiv.org/abs/2401.13178)
 
-    该论文提出了一种用于音频信号处理的内容自适应可学习时频表示法，通过学习卷积滤波器与变换器架构来将小的波形块投影到小的潜在维度上。
+    AgentBoard是一个综合的基准测试和评估框架，专为分析评估LLM智能体而设计，解决了在多轮交互和部分可观察环境中对智能体性能进行基准测试的挑战，并提供了细粒度的进展率指标和评估工具包。
 
     
 
-    我们提出了一个可学习的内容自适应前端，用于音频信号处理。在深度学习的现代出现之前，我们使用固定表示的、不可学习的前端，如谱图或梅尔谱图，带/不带神经结构。随着卷积架构支持ASR和声学场景理解等各种应用，转向可学习前端，即从头开始学习和优化特定任务所需的基础函数和权重。在没有卷积块的变形器架构中，线性层将小的波形块投影到小的潜在维度上，然后将它们馈送到变形器架构中。在这项工作中，我们提出了一种计算内容自适应学习时频表示的方法。
+    评估大型语言模型（LLM）作为通用智能体对于理解其能力并促进其融入实际应用至关重要。然而，评估过程面临重大挑战。主要障碍之一是在统一框架内对智能体在不同场景下的性能进行基准测试，特别是在维护部分可观察环境和确保多轮交互方面。此外，当前的评估框架主要关注最终成功率，过程中提供的见解很少，无法深入理解模型的能力。为了解决这些挑战，我们引入了AgentBoard，这是一个创新的综合基准和伴随的开源评估框架，专为LLM智能体的分析评估而设计。AgentBoard提供了一种细粒度的进展率指标，捕捉逐步的进展，以及一个综合的评估工具包，具有易于评估和分析模型能力的功能。
 
-    We propose a learnable content adaptive front end for audio signal processing. Before the modern advent of deep learning, we used fixed representation non-learnable front-ends like spectrogram or mel-spectrogram with/without neural architectures. With convolutional architectures supporting various applications such as ASR and acoustic scene understanding, a shift to a learnable front ends occurred in which both the type of basis functions and the weight were learned from scratch and optimized for the particular task of interest. With the shift to transformer-based architectures with no convolutional blocks present, a linear layer projects small waveform patches onto a small latent dimension before feeding them to a transformer architecture. In this work, we propose a way of computing a content-adaptive learnable time-frequency representation. We pass each audio signal through a bank of convolutional filters, each giving a fixed-dimensional vector. It is akin to learning a bank of finit
+    Evaluating large language models (LLMs) as general-purpose agents is essential for understanding their capabilities and facilitating their integration into practical applications. However, the evaluation process presents substantial challenges. A primary obstacle is the benchmarking of agent performance across diverse scenarios within a unified framework, especially in maintaining partially-observable environments and ensuring multi-round interactions. Moreover, current evaluation frameworks mostly focus on the final success rate, revealing few insights during the process and failing to provide a deep understanding of the model abilities. To address these challenges, we introduce AgentBoard, a pioneering comprehensive benchmark and accompanied open-source evaluation framework tailored to analytical evaluation of LLM agents. AgentBoard offers a fine-grained progress rate metric that captures incremental advancements as well as a comprehensive evaluation toolkit that features easy assess
+    
+[^7]: 大型语言模型能够如何解释业务流程？
+
+    How well can large language models explain business processes?. (arXiv:2401.12846v1 [cs.AI])
+
+    [http://arxiv.org/abs/2401.12846](http://arxiv.org/abs/2401.12846)
+
+    该论文介绍了一个用于生成业务流程解释的SAX4BPM框架，该框架通过与大型语言模型（LLM）集成来综合各种输入要素，以提供更好的情境感知解释（SAX）。
+
+    
+
+    大型语言模型（LLMs）可能在未来的AI辅助业务流程管理系统（ABPMSs）中发挥重要作用，其功能涵盖系统生命周期的各个阶段。其中一个系统功能是情境感知解释（SAX），它涉及生成在考虑所解释条件出现的流程上下文的前提下既符合因果关系又可人类解读的解释。在本文中，我们介绍了开发用于生成SAX解释的SAX4BPM框架。SAX4BPM套件包括一组服务和一个中央知识库。这些服务的功能是获取构成SAX解释的各种知识要素。其中一个创新性的关键组成部分是因果过程执行视图。在本工作中，我们将该框架与LLM集成，以利用其综合各种输入要素的能力，从而改进SAX解释的质量。
+
+    Large Language Models (LLMs) are likely to play a prominent role in future AI-augmented business process management systems (ABPMSs) catering functionalities across all system lifecycle stages. One such system's functionality is Situation-Aware eXplainability (SAX), which relates to generating causally sound and yet human-interpretable explanations that take into account the process context in which the explained condition occurred. In this paper, we present the SAX4BPM framework developed to generate SAX explanations. The SAX4BPM suite consists of a set of services and a central knowledge repository. The functionality of these services is to elicit the various knowledge ingredients that underlie SAX explanations. A key innovative component among these ingredients is the causal process execution view. In this work, we integrate the framework with an LLM to leverage its power to synthesize the various input ingredients for the sake of improved SAX explanations. Since the use of LLMs for
+    
+[^8]: 完美对齐可能对图形对比学习产生负面影响
+
+    Perfect Alignment May be Poisonous to Graph Contrastive Learning. (arXiv:2310.03977v1 [cs.LG])
+
+    [http://arxiv.org/abs/2310.03977](http://arxiv.org/abs/2310.03977)
+
+    本研究探讨了图形对比学习中增强方法和下游性能的关系，并发现图形对比学习主要通过分离不同类别的节点来为下游任务做出贡献。
+
+    
+
+    图形对比学习旨在通过对齐正样本和分离负样本来学习节点表示。然而，在基于图形的学习中，对于特定增强方法背后的内在规律的研究有限。什么样的增强方法可以提高下游性能？对比学习如何实际影响下游任务？为什么增强的幅度很重要？本文试图通过建立增强方法和下游性能之间的联系，以及对对比学习的泛化性进行研究来回答这些问题。我们的发现表明，图形对比学习主要通过分离不同类别而不是聚集同一类别的节点来为下游任务做出贡献。因此，无法解释对比学习的成功，即全部样本完美对齐和增强重叠。为了理解增强如何辅助对比学习过程，我们进行了进一步的研究。
+
+    Graph Contrastive Learning (GCL) aims to learn node representations by aligning positive pairs and separating negative ones. However, limited research has been conducted on the inner law behind specific augmentations used in graph-based learning. What kind of augmentation will help downstream performance, how does contrastive learning actually influence downstream tasks, and why the magnitude of augmentation matters? This paper seeks to address these questions by establishing a connection between augmentation and downstream performance, as well as by investigating the generalization of contrastive learning. Our findings reveal that GCL contributes to downstream tasks mainly by separating different classes rather than gathering nodes of the same class. So perfect alignment and augmentation overlap which draw all intra-class samples the same can not explain the success of contrastive learning. Then in order to comprehend how augmentation aids the contrastive learning process, we conduct 
+    
+[^9]: 基于聚类的图像-文本图匹配来弥合领域差距
+
+    Bridging the Domain Gap by Clustering-based Image-Text Graph Matching. (arXiv:2310.02692v1 [cs.CV])
+
+    [http://arxiv.org/abs/2310.02692](http://arxiv.org/abs/2310.02692)
+
+    通过基于聚类的图像-文本图匹配来弥合领域差距，学习领域不变特征以实现在未见过领域上的良好泛化能力，实验结果显示在公共数据集上达到最先进性能。
+
+    
+
+    学习领域不变表示对于训练可以很好地推广到未见过目标任务领域的模型非常重要。文本描述本身包含概念的语义结构，这样的辅助语义线索可以用作领域概括问题的有效枢纽嵌入。我们使用多模态图像和文本融合的图表示来获得在局部图像和文本描述符之间考虑内在语义结构的领域不变枢纽嵌入。具体来说，我们通过(i)用图表示图像和文本描述，以及(ii)将基于图像节点特征的聚类和匹配应用到文本图中，来学习领域不变特征。我们使用大规模公共数据集（如CUB-DG和DomainBed）进行实验，并在这些数据集上达到与或优于现有最先进模型的性能。我们的代码将在出版后公开提供。
+
+    Learning domain-invariant representations is important to train a model that can generalize well to unseen target task domains. Text descriptions inherently contain semantic structures of concepts and such auxiliary semantic cues can be used as effective pivot embedding for domain generalization problems. Here, we use multimodal graph representations, fusing images and text, to get domain-invariant pivot embeddings by considering the inherent semantic structure between local images and text descriptors. Specifically, we aim to learn domain-invariant features by (i) representing the image and text descriptions with graphs, and by (ii) clustering and matching the graph-based image node features into textual graphs simultaneously. We experiment with large-scale public datasets, such as CUB-DG and DomainBed, and our model achieves matched or better state-of-the-art performance on these datasets. Our code will be publicly available upon publication.
+    
+[^10]: 通过神经符号约束来调节基于评分的生成模型
+
+    Conditioning Score-Based Generative Models by Neuro-Symbolic Constraints. (arXiv:2308.16534v1 [cs.LG])
+
+    [http://arxiv.org/abs/2308.16534](http://arxiv.org/abs/2308.16534)
+
+    本文提出了一种方法，通过神经符号约束来调节基于评分的生成模型，实现了在非条件生成模型下强制执行任意的逻辑约束，从而获得了一个有效的、无需额外训练的条件采样算法。
+
+    
+
+    基于评分和扩散模型已经成为一种有效的条件和非条件生成方法。然而，条件生成基于特定训练的条件模型或分类器指导，这需要训练一个噪声依赖的分类器，即使对于未损坏数据的分类器已经给出。我们提出了一种方法，可以从非条件评分生成模型中采样，可以强制执行任意的逻辑约束，而无需进行额外的训练。首先，我们展示了如何操纵学习得到的评分，以便在用户定义的约束条件下从非归一化分布中采样。然后，我们定义了一个灵活而数值稳定的神经符号框架，用于编码软逻辑约束。将这两个组成部分结合起来，我们获得了一个一般的但是近似的条件采样算法。我们进一步开发了有效的启发式方法来改进近似。最后，我们展示了我们方法的有效性。
+
+    Score-based and diffusion models have emerged as effective approaches for both conditional and unconditional generation. Still conditional generation is based on either a specific training of a conditional model or classifier guidance, which requires training a noise-dependent classifier, even when the classifier for uncorrupted data is given. We propose an approach to sample from unconditional score-based generative models enforcing arbitrary logical constraints, without any additional training. Firstly, we show how to manipulate the learned score in order to sample from an un-normalized distribution conditional on a user-defined constraint. Then, we define a flexible and numerically stable neuro-symbolic framework for encoding soft logical constraints. Combining these two ingredients we obtain a general, but approximate, conditional sampling algorithm. We further developed effective heuristics aimed at improving the approximation. Finally, we show the effectiveness of our approach fo
+    
+[^11]: GPTEval: 对ChatGPT和GPT-4评估的调查
+
+    GPTEval: A Survey on Assessments of ChatGPT and GPT-4. (arXiv:2308.12488v1 [cs.AI])
+
+    [http://arxiv.org/abs/2308.12488](http://arxiv.org/abs/2308.12488)
+
+    本文对ChatGPT和GPT-4的先前评估进行了综合分析，关注其语言和推理能力、科学知识和伦理考虑，提出了几个评估大型语言模型的建议。
+
+    
+
+    ChatGPT的出现引发了媒体对其扰乱社会和经济系统潜力的许多猜测。其惊人的语言能力激起学者们对其在不同领域表现的浓厚兴趣。已经有许多研究评估了ChatGPT和GPT-4在不同任务和学科中的能力。然而，缺乏一项综合性的综述总结集体评估结果。本调查的目标是对ChatGPT和GPT-4的先前评估进行深入分析，重点关注其语言和推理能力、科学知识和伦理考虑。此外，对现有评估方法进行了检查，并提出了几个未来研究评估大型语言模型的建议。
+
+    The emergence of ChatGPT has generated much speculation in the press about its potential to disrupt social and economic systems. Its astonishing language ability has aroused strong curiosity among scholars about its performance in different domains. There have been many studies evaluating the ability of ChatGPT and GPT-4 in different tasks and disciplines. However, a comprehensive review summarizing the collective assessment findings is lacking. The objective of this survey is to thoroughly analyze prior assessments of ChatGPT and GPT-4, focusing on its language and reasoning abilities, scientific knowledge, and ethical considerations. Furthermore, an examination of the existing evaluation methods is conducted, offering several recommendations for future research in evaluating large language models.
     
 
