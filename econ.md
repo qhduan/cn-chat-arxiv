@@ -2,97 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Karma: An Experimental Study](https://arxiv.org/abs/2404.02687) | 实验证实因果报应在资源分配上带来显著且持久的福利好处，尤其在具有间歇急迫性的情境中效果更佳。 |
-| [^2] | [Economic DAO Governance: A Contestable Control Approach](https://arxiv.org/abs/2403.16980) | 提出了一种利用顺序拍卖机制的经济DAO治理新方法，解决了DAO面临的控制问题，既避免了公共选择问题，又能促进价值增长和投资。 |
-| [^3] | [Semiparametric Inference for Regression-Discontinuity Designs](https://arxiv.org/abs/2403.05803) | 本文提出了一种用于在回归断点设计中估计治疗效应的半参数方法，通过将RDDs中的治疗效应识别概念化为部分线性建模问题，并利用P-样条方法逼近非参数函数，开发了推断治疗效应的程序。 |
-| [^4] | [Learning to Maximize (Expected) Utility](https://arxiv.org/abs/2402.16538) | 该研究探讨了在重复相同决策过程中，参与者是否会更倾向于遵循序数和期望效用理论的预测行为，并发现在最后一组决策中有更多个体表现为序数和期望效用最大化者。 |
-| [^5] | [Identification of the Marginal Treatment Effect with Multivalued Treatments.](http://arxiv.org/abs/2209.11444) | 本文通过扩展Heckman等人的局部工具变量（LIV）方法来研究具有多元处理的边际处理效应（MTE）的识别。 |
-| [^6] | [The Impacts of the Gender Imbalance on Marriage and Birth: Evidence from World War II in Japan.](http://arxiv.org/abs/2102.00687) | 本研究利用第二次世界大战期间的性别失衡情况，研究了对日本婚姻市场和生育结果的影响。研究发现，男性在婚姻市场和生育决策中比女性具有更强的议价地位，在相对男性稀缺的情况下，人们更有可能结婚和离婚，但丧偶妇女重新婚姻的可能性较低。此外，研究还发现，女性在婚姻市场上的议价地位可能并没有改善，而相对男性稀缺的地区的婚内生育率和死胎率增加。因此，这表明家庭内部议价的理论预测具有稳健性。 |
+| [^1] | [Nonparametric Regression under Cluster Sampling](https://arxiv.org/abs/2403.04766) | 本文在簇相关性存在的情况下为非参数核回归模型发展了一般渐近理论，并提出了有效的带宽选择和推断方法，引入了渐近方差的估计量，并验证了集群稳健带宽选择的有效性。 |
+| [^2] | [Ordinal Intensity-Efficient Allocations](https://arxiv.org/abs/2011.04306) | 这篇论文研究了一种新的分配问题，考虑了代理的序数强度，提出了基于排名的准则，定义了强度高效的分配。论文初步讨论了这种分配的存在性和非存在性。 |
+| [^3] | [The Fragility of Sparsity.](http://arxiv.org/abs/2311.02299) | 稀疏性的线性回归估计在选择回归矩阵和假设检验上存在脆弱性，OLS能够提供更健壮的结果而效率损失较小。 |
+| [^4] | [Recursive Preferences, Correlation Aversion, and the Temporal Resolution of Uncertainty.](http://arxiv.org/abs/2304.04599) | 本文探讨了递归效用模型中的相关厌恶行为特征，提出了它们对资产定价、气候政策和最优财政政策等领域的应用意义。 |
+| [^5] | [Clustered Covariate Regression.](http://arxiv.org/abs/2302.09255) | 本文提出了一种聚类协变量回归方法，该方法通过使用聚类和紧凑参数支持的自然限制来解决高维度协变量问题。与竞争估计器相比，该方法在偏差减小和尺寸控制方面表现出色，并在估计汽油需求的价格和收入弹性方面具有实用性。 |
 
 # 详细
 
-[^1]: Karma：一个实验研究
+[^1]: 集群抽样下的非参数回归
 
-    Karma: An Experimental Study
+    Nonparametric Regression under Cluster Sampling
 
-    [https://arxiv.org/abs/2404.02687](https://arxiv.org/abs/2404.02687)
+    [https://arxiv.org/abs/2403.04766](https://arxiv.org/abs/2403.04766)
 
-    实验证实因果报应在资源分配上带来显著且持久的福利好处，尤其在具有间歇急迫性的情境中效果更佳。
-
-    
-
-    非可交易积分系统，类似于因果报应，因此提议以此命名，是一种用于重复资源分配的机制，在理论上具有吸引人的效率和公平特性。在这项研究中，我们在一项在线实验中测试了因果报应，实验中人类被要求重复竞争获取一种具有时间变化和随机个人偏好或紧迫性的资源。我们确认，即使在没有任何事先培训的人群中，因果报应也具有显著且持久的福利好处。我们发现，在具有间歇急迫性的情境中，机制的使用次数比频繁中等紧迫性的情境更多，并且将其实施为一个简单（二元）的因果报应竞标方案，对于福利的提高特别有效：实现了相对较大的总体效率增益，这些增益几乎是帕累托改进的。这些发现为进一步测试和未来实施计划提供了指导。
-
-    arXiv:2404.02687v1 Announce Type: new  Abstract: A system of non-tradable credits that flow between individuals like karma, hence proposed under that name, is a mechanism for repeated resource allocation that comes with attractive efficiency and fairness properties, in theory. In this study, we test karma in an online experiment in which human subjects repeatedly compete for a resource with time-varying and stochastic individual preferences or urgency to acquire the resource. We confirm that karma has significant and sustained welfare benefits even in a population with no prior training. We identify mechanism usage in contexts with sporadic high urgency, more so than with frequent moderate urgency, and implemented as an easy (binary) karma bidding scheme as particularly effective for welfare improvements: relatively larger aggregate efficiency gains are realized that are (almost) Pareto superior. These findings provide guidance for further testing and for future implementation plans of
-    
-[^2]: 经济DAO治理：一种可争夺控制方法
-
-    Economic DAO Governance: A Contestable Control Approach
-
-    [https://arxiv.org/abs/2403.16980](https://arxiv.org/abs/2403.16980)
-
-    提出了一种利用顺序拍卖机制的经济DAO治理新方法，解决了DAO面临的控制问题，既避免了公共选择问题，又能促进价值增长和投资。
+    本文在簇相关性存在的情况下为非参数核回归模型发展了一般渐近理论，并提出了有效的带宽选择和推断方法，引入了渐近方差的估计量，并验证了集群稳健带宽选择的有效性。
 
     
 
-    在本文中，我们提出了一种新形式的DAO治理，利用顺序拍卖机制来克服DAO出现的根深蒂固的控制问题，通过创建一个临时可争夺控制的制度。这种机制避免了投票方法固有的潜在公共选择问题，同时提供了一个可以增强和确保DAO投票和其他DAO非市场治理程序固有价值的工具。它对空头投票具有鲁棒性，且代码可行。它促进了DAO在面对不同监管方法时实现其规范和运营目标的能力。设计是将控制权转移给拥有最有前途商业计划的一方，同时以一种有利于促进其他方投资的方式分配剩余价值。
+    本文在簇相关性存在的情况下为非参数核回归模型发展了一般渐近理论。我们研究了非参数密度估计、Nadaraya-Watson核回归和局部线性估计。我们的理论考虑了增长和异质的簇大小。我们推导了渐近条件偏差和方差，确立了一致收敛性，并证明了渐近正态性。我们的发现表明，在异质的簇大小下，渐近方差包括一个反映簇内相关性的新项，当假定簇大小有界时被忽略。我们提出了有效的带宽选择和推断方法，引入了渐近方差的估计量，并证明了它们的一致性。在模拟中，我们验证了集群稳健带宽选择的有效性，并展示了推导的集群稳健置信区间提高了覆盖率。
 
-    arXiv:2403.16980v1 Announce Type: cross  Abstract: In this article, we propose a new form of DAO governance that uses a sequential auction mechanism to overcome entrenched control issues that have emerged for DAOs by creating a regime of temporary contestable control. The mechanism avoids potential public choice problems inherent in voting approaches but at the same time provides a vehicle that can enhance and secure value than inheres to DAO voting and other DAO non-market governance procedures. It is robust to empty voting and is code feasible. It facilitates the ability of DAOs to meet their normative and operational goals in the face of diverse regulatory approaches. Designed to shift control to the party with the most promising business plan, at the same time it distributes surplus in a way that tends to promote investment by other parties.
+    arXiv:2403.04766v1 Announce Type: new  Abstract: This paper develops a general asymptotic theory for nonparametric kernel regression in the presence of cluster dependence. We examine nonparametric density estimation, Nadaraya-Watson kernel regression, and local linear estimation. Our theory accommodates growing and heterogeneous cluster sizes. We derive asymptotic conditional bias and variance, establish uniform consistency, and prove asymptotic normality. Our findings reveal that under heterogeneous cluster sizes, the asymptotic variance includes a new term reflecting within-cluster dependence, which is overlooked when cluster sizes are presumed to be bounded. We propose valid approaches for bandwidth selection and inference, introduce estimators of the asymptotic variance, and demonstrate their consistency. In simulations, we verify the effectiveness of the cluster-robust bandwidth selection and show that the derived cluster-robust confidence interval improves the coverage ratio. We 
     
-[^3]: 回归断点设计的半参数推断
+[^2]: 序数强度高效分配
 
-    Semiparametric Inference for Regression-Discontinuity Designs
+    Ordinal Intensity-Efficient Allocations
 
-    [https://arxiv.org/abs/2403.05803](https://arxiv.org/abs/2403.05803)
+    [https://arxiv.org/abs/2011.04306](https://arxiv.org/abs/2011.04306)
 
-    本文提出了一种用于在回归断点设计中估计治疗效应的半参数方法，通过将RDDs中的治疗效应识别概念化为部分线性建模问题，并利用P-样条方法逼近非参数函数，开发了推断治疗效应的程序。
-
-    
-
-    在回归断点设计（RDDs）中，治疗效应通常使用局部回归方法进行估计。然而，全局近似方法通常被认为效率低下。本文提出了一个专门用于在RDDs中估计治疗效应的半参数框架。我们的全局方法将RDDs中的治疗效应识别概念化为部分线性建模问题，其中线性部分捕捉治疗效应。此外，我们利用P-样条方法来逼近非参数函数，并开发了推断在这个框架内的治疗效应的程序。我们通过蒙特卡洛模拟表明，所提出的方法在各种场景下表现良好。此外，我们通过真实数据集的例证，说明我们的全局方法可能导致更可靠的推断。
-
-    arXiv:2403.05803v1 Announce Type: new  Abstract: Treatment effects in regression discontinuity designs (RDDs) are often estimated using local regression methods. However, global approximation methods are generally deemed inefficient. In this paper, we propose a semiparametric framework tailored for estimating treatment effects in RDDs. Our global approach conceptualizes the identification of treatment effects within RDDs as a partially linear modeling problem, with the linear component capturing the treatment effect. Furthermore, we utilize the P-spline method to approximate the nonparametric function and develop procedures for inferring treatment effects within this framework. We demonstrate through Monte Carlo simulations that the proposed method performs well across various scenarios. Furthermore, we illustrate using real-world datasets that our global approach may result in more reliable inference.
-    
-[^4]: 学习最大化（预期）效用
-
-    Learning to Maximize (Expected) Utility
-
-    [https://arxiv.org/abs/2402.16538](https://arxiv.org/abs/2402.16538)
-
-    该研究探讨了在重复相同决策过程中，参与者是否会更倾向于遵循序数和期望效用理论的预测行为，并发现在最后一组决策中有更多个体表现为序数和期望效用最大化者。
+    这篇论文研究了一种新的分配问题，考虑了代理的序数强度，提出了基于排名的准则，定义了强度高效的分配。论文初步讨论了这种分配的存在性和非存在性。
 
     
 
-    我们研究了在选择实验中，参与者是否会在重复从相同菜单中做出决策且没有接收任何反馈的情况下，学会表现出与序数和期望效用理论预测更加接近的行为。我们设计并实施了一项非强制选择的实验室实验，使用了金钱彩票，并每个菜单重复五次，旨在从多个行为角度测试这一假设。在我们从英国和德国的308名受试者中的数据中，显著更多的个体在他们最后15个相同决策问题中是序数效用和期望效用的最大化者，而不是在第一个15个中。此外，大约四分之一和五分之一的所有受试者，在实验中都以这些模式做决策，几乎一半显示出非平凡的不同。在那些始终理性的个体与满足随机效用理论核心原则的个体之间存在明显的重叠。
+    我们研究了分配问题，其中代理除了具有序数偏好外，还具有"序数强度"：他们可以进行简单和内部一致的比较，例如“我更喜欢$a$而不是$b$，比我更喜欢$c$而不是$d$”，而不一定能够量化它们。在这种新的信息社会选择环境中，我们首先引入了一个基于排名的准则，使得可以进行这些序数强度的跨个人比较。基于这个准则，我们定义了一种分配为“强度高效”，如果它在代理的强度引发的偏好方面是帕累托有效的，并且当另一种分配以相同的方式将相同的物品对分配给相同的代理对时，前一种分配将每对中普遍更受偏好的物品分配给更喜欢它的代理。我们在不对偏好施加限制的情况下提出了关于这种分配的一些初步结果。
 
-    arXiv:2402.16538v1 Announce Type: new  Abstract: We study if participants in a choice experiment learn to behave in ways that are closer to the predictions of ordinal and expected utility theory as they make decisions from the same menus repeatedly and without receiving feedback of any kind. We designed and implemented a non-forced-choice lab experiment with money lotteries and five repetitions per menu that aimed to test this hypothesis from many behavioural angles. In our data from 308 subjects in the UK and Germany, significantly more individuals were ordinal- and expected-utility maximizers in their last 15 than in their first 15 identical decision problems. Furthermore, around a quarter and a fifth of all subjects, respectively, decided in those modes throughout the experiment, with nearly half revealing non-trivial indifferences. A considerable overlap was found between those consistently rational individuals and the ones who satisfied core principles of random utility theory. Fi
+    We study the assignment problem in situations where, in addition to having ordinal preferences, agents also have *ordinal intensities*: they can make simple and internally consistent comparisons such as "I prefer $a$ to $b$ more than I prefer $c$ to $d$" without necessarily being able to quantify them. In this new informational social-choice environment we first introduce a rank-based criterion that enables interpersonal comparability of such ordinal intensities. Building on this criterion, we define an allocation to be *"intensity-efficient"* if it is Pareto efficient with respect to the preferences induced by the agents' intensities and also such that, when another allocation assigns the same pairs of items to the same pairs of agents but in a "flipped" way, the former allocation assigns the commonly preferred item in every such pair to the agent who prefers it more. We present some first results on the (non-)existence of such allocations without imposing restrictions on preferences 
     
-[^5]: 用多元处理方法识别边际处理效应
+[^3]: 稀疏性的脆弱性
 
-    Identification of the Marginal Treatment Effect with Multivalued Treatments. (arXiv:2209.11444v2 [econ.EM] UPDATED)
+    The Fragility of Sparsity. (arXiv:2311.02299v2 [econ.EM] UPDATED)
 
-    [http://arxiv.org/abs/2209.11444](http://arxiv.org/abs/2209.11444)
+    [http://arxiv.org/abs/2311.02299](http://arxiv.org/abs/2311.02299)
 
-    本文通过扩展Heckman等人的局部工具变量（LIV）方法来研究具有多元处理的边际处理效应（MTE）的识别。
-
-    
-
-    本文通过扩展Heckman和Vytlacil(1999)的局部工具变量（LIV）方法来研究具有多元处理的边际处理效应（MTE）的识别。在上述方法的选择机制下，我们建立了改进的模型并确定了充分条件，可以识别MTE。
-
-    Heckman et al. (2008) examine the identification of the marginal treatment effect (MTE) with multivalued treatments by extending the local instrumental variable (LIV) approach of Heckman and Vytlacil (1999). Lee and Salani\'e (2018) study the identification of conditional expectations given unobserved heterogeneity; in Section 5.2 of their paper, they analyze the identification of MTE under the same selection mechanism as in Heckman et al. (2008). We note that the construction of their model in Section 5.2 in Lee and Salani\'e (2018) is incomplete, and we establish sufficient conditions for the identification of MTE with an improved model. While we reduce the unordered multiple-choice model to the binary treatment setting as in Heckman et al. (2008), we can identify the MTE defined as a natural extension of the MTE using the binary treatment defined in Heckman and Vytlacil (2005). Further, our results can help identify other parameters such as the marginal distribution of potential out
-    
-[^6]: 性别失衡对日本婚姻和生育的影响：以第二次世界大战为例证
-
-    The Impacts of the Gender Imbalance on Marriage and Birth: Evidence from World War II in Japan. (arXiv:2102.00687v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2102.00687](http://arxiv.org/abs/2102.00687)
-
-    本研究利用第二次世界大战期间的性别失衡情况，研究了对日本婚姻市场和生育结果的影响。研究发现，男性在婚姻市场和生育决策中比女性具有更强的议价地位，在相对男性稀缺的情况下，人们更有可能结婚和离婚，但丧偶妇女重新婚姻的可能性较低。此外，研究还发现，女性在婚姻市场上的议价地位可能并没有改善，而相对男性稀缺的地区的婚内生育率和死胎率增加。因此，这表明家庭内部议价的理论预测具有稳健性。
+    稀疏性的线性回归估计在选择回归矩阵和假设检验上存在脆弱性，OLS能够提供更健壮的结果而效率损失较小。
 
     
 
-    本研究利用第二次世界大战期间男性损失导致性别比例前所未有的变化，来研究性别失衡对日本婚姻市场和生育结果的影响。利用新数字化的基于人口普查的历史统计数据，我们发现男性在婚姻市场和家庭内部的生育决策中比女性具有更强的议价地位。在相对男性稀缺的情况下，尤其是年轻人更有可能结婚和离婚，但是丧偶妇女重新婚姻的可能性比丧偶男性要低。我们还发现，女性在婚姻市场上的议价地位在1950年代可能并没有改善。在战后堕胎法律的制度变化下，相对男性稀缺的地区的婚内生育率和死胎率增加。我们关于非婚生子女的结果表明，在家庭内部议价的理论预测在经济体中是具有稳健性的。
+    我们使用三个实证应用展示了线性回归估计在依赖稀疏性假设时存在两种脆弱性。首先，我们证明在不影响普通最小二乘(OLS)估计的情况下，如基线类别的选择与分类控制相关，可能会使稀疏性估计值移动超过两个标准误。其次，我们开发了两个基于将稀疏性估计与OLS估计进行比较的稀疏性假设检验。在所有三个应用中，这些检验倾向于拒绝稀疏性假设。除非自变量的数量与样本量相当或超过样本量，否则OLS能够以较小的效率损失产生更健壮的结果。
 
-    This study uses the unprecedented changes in the sex ratio due to the losses of men during World War II to identify the impacts of the gender imbalance on marriage market and birth outcomes in Japan. Using newly digitized census-based historical statistics, we find evidence that men had a stronger bargaining position in the marriage market and intra-household fertility decisions than women. Under relative male scarcity, while people, especially younger people, were more likely to marry and divorce, widowed women were less likely to remarry than widowed men. We also find that women's bargaining position in the marriage market might not have improved throughout the 1950s. Given the institutional changes in the abortion law after the war, marital fertility and stillbirth rates increased in the areas that suffered relative male scarcity. Our result on out-of-wedlock births indicates that the theoretical prediction of intra-household bargaining is considered to be robust in an economy in wh
+    We show, using three empirical applications, that linear regression estimates which rely on the assumption of sparsity are fragile in two ways. First, we document that different choices of the regressor matrix that do not impact ordinary least squares (OLS) estimates, such as the choice of baseline category with categorical controls, can move sparsity-based estimates two standard errors or more. Second, we develop two tests of the sparsity assumption based on comparing sparsity-based estimators with OLS. The tests tend to reject the sparsity assumption in all three applications. Unless the number of regressors is comparable to or exceeds the sample size, OLS yields more robust results at little efficiency cost.
+    
+[^4]: 递归偏好、相关厌恶和时间不确定性的解决方式
+
+    Recursive Preferences, Correlation Aversion, and the Temporal Resolution of Uncertainty. (arXiv:2304.04599v1 [econ.TH])
+
+    [http://arxiv.org/abs/2304.04599](http://arxiv.org/abs/2304.04599)
+
+    本文探讨了递归效用模型中的相关厌恶行为特征，提出了它们对资产定价、气候政策和最优财政政策等领域的应用意义。
+
+    
+
+    递归效用模型在许多经济应用程序中起着重要作用。本文研究了这些模型所表现的一种新的行为特征：对时间上呈现持续性（正自相关）风险的厌恶，称为相关厌恶。我引入了这种属性的形式概念，并提供了一个基于风险态度的特征，同时还表明相关厌恶的偏好具有特定的变分表示。我讨论了这些发现如何说明对相关性的态度是推动递归效用在资产定价、气候政策和最优财政政策等领域应用的关键行为因素。
+
+    Models of recursive utility are of central importance in many economic applications. This paper investigates a new behavioral feature exhibited by these models: aversion to risks that exhibit persistence (positive autocorrelation) through time, referred to as correlation aversion. I introduce a formal notion of such a property and provide a characterization based on risk attitudes, and show that correlation averse preferences admit a specific variational representation. I discuss how these findings imply that attitudes toward correlation are a crucial behavioral aspect driving the applications of recursive utility in fields such as asset pricing, climate policy, and optimal fiscal policy.
+    
+[^5]: 聚类协变量回归
+
+    Clustered Covariate Regression. (arXiv:2302.09255v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2302.09255](http://arxiv.org/abs/2302.09255)
+
+    本文提出了一种聚类协变量回归方法，该方法通过使用聚类和紧凑参数支持的自然限制来解决高维度协变量问题。与竞争估计器相比，该方法在偏差减小和尺寸控制方面表现出色，并在估计汽油需求的价格和收入弹性方面具有实用性。
+
+    
+
+    模型估计中协变量维度的高度增加，解决这个问题的现有技术通常需要无序性或不可观测参数向量的离散异质性。然而，在某些经验背景下，经济理论可能不支持任何限制，这可能导致严重的偏差和误导性推断。本文介绍的基于聚类的分组参数估计器（GPE）放弃这两个限制，而选择参数支持是紧凑的自然限制。在标准条件下，GPE具有稳健的大样本性质，并适应了支持可以远离零点的稀疏和非稀疏参数。广泛的蒙特卡洛模拟证明了与竞争估计器相比，GPE在偏差减小和尺寸控制方面的出色性能。对于估计汽油需求的价格和收入弹性的实证应用突显了GPE的实用性。
+
+    High covariate dimensionality is increasingly occurrent in model estimation, and existing techniques to address this issue typically require sparsity or discrete heterogeneity of the unobservable parameter vector. However, neither restriction may be supported by economic theory in some empirical contexts, leading to severe bias and misleading inference. The clustering-based grouped parameter estimator (GPE) introduced in this paper drops both restrictions in favour of the natural one that the parameter support be compact. GPE exhibits robust large sample properties under standard conditions and accommodates both sparse and non-sparse parameters whose support can be bounded away from zero. Extensive Monte Carlo simulations demonstrate the excellent performance of GPE in terms of bias reduction and size control compared to competing estimators. An empirical application of GPE to estimating price and income elasticities of demand for gasoline highlights its practical utility.
     
 
