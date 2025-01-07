@@ -2,67 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Kernel PCA for Out-of-Distribution Detection](https://arxiv.org/abs/2402.02949) | 本论文提出了使用核PCA进行外分布检测的方法，通过在主成分子空间中引入非线性映射，实现了对内分布和外分布数据的有效区分。 |
-| [^2] | [Gradual Domain Adaptation: Theory and Algorithms.](http://arxiv.org/abs/2310.13852) | 本文研究了渐进域自适应中的渐进自训练算法，提出了一个改进的泛化界限，并指出了中间域在源域和目标域之间均匀放置的重要性。 |
-| [^3] | [Ano-SuPs: Multi-size anomaly detection for manufactured products by identifying suspected patches.](http://arxiv.org/abs/2309.11120) | Ano-SuPs是一种通过识别可疑区块来进行制造产品的多尺度异常检测的两阶段策略方法。它可以解决图像背景复杂性和异常模式的挑战，并具有较高的准确性和鲁棒性。 |
-| [^4] | [Sparsified Simultaneous Confidence Intervals for High-Dimensional Linear Models.](http://arxiv.org/abs/2307.07574) | 提出了一种稀疏化同时置信区间的方法，用于高维线性模型的统计推断。通过将某些区间的上下界收缩为零，该方法能够确定不重要的协变量并将其排除在最终模型之外，同时通过其他区间判断出可信和显著的协变量。 |
+| [^1] | [A Bound on the Maximal Marginal Degrees of Freedom](https://arxiv.org/abs/2402.12885) | 该论文提出了对于核岭回归的低秩近似和替代方法中，关于低维近似秩的一个下界，从而保证可靠的预测能力，并将有效维度与最大统计杠杆得分联系起来。 |
+| [^2] | [Testing Stationarity and Change Point Detection in Reinforcement Learning](https://arxiv.org/abs/2203.01707) | 开发了一种能够在非平稳环境中进行策略优化的强化学习方法，通过测试最优Q函数的非平稳性并开发序贯变点检测方法来实现。 |
+| [^3] | [Partial Identifiability for Domain Adaptation.](http://arxiv.org/abs/2306.06510) | 本论文提出了一种针对无监督领域自适应的部分可识别性方法，通过依赖跨域因果机制的最小改变属性，在保持特定组分跨域不变的前提下最小化分布转移的不必要影响。 |
+| [^4] | [Machine learning with tree tensor networks, CP rank constraints, and tensor dropout.](http://arxiv.org/abs/2305.19440) | 本文介绍了一种新的机器学习方法，通过基于树状张量网络的CP秩约束和张量丢弃，来构建低秩分类器，并在时尚-MNIST图像分类中展示出了优异的表现。 |
 
 # 详细
 
-[^1]: 外分布检测的核PCA
+[^1]: 对最大边际自由度的一个界限
 
-    Kernel PCA for Out-of-Distribution Detection
+    A Bound on the Maximal Marginal Degrees of Freedom
 
-    [https://arxiv.org/abs/2402.02949](https://arxiv.org/abs/2402.02949)
+    [https://arxiv.org/abs/2402.12885](https://arxiv.org/abs/2402.12885)
 
-    本论文提出了使用核PCA进行外分布检测的方法，通过在主成分子空间中引入非线性映射，实现了对内分布和外分布数据的有效区分。
-
-    
-
-    外分布（OoD）检测对于深度神经网络（DNN）的可靠性至关重要。现有的研究表明，直接应用于DNN特征的主成分分析（PCA）在检测来自内分布（InD）数据的OoD数据方面不足够。PCA的失败表明，仅通过在线性子空间中进行简单处理无法很好地将OoD和InD中的网络特征分离开来，而可以通过适当的非线性映射来解决。在这项工作中，我们利用核PCA（KPCA）框架进行OoD检测，寻找OoD和InD特征以显著不同的模式分配的子空间。我们设计了两种特征映射，在KPCA中引入非线性内核，以促进在主成分张成的子空间中InD和OoD数据之间的可分性。然后，通过在这种子空间中的重构误差，可以有效地得到$\mathcal{O}(1)$时间复杂度的检测结果。
-
-    Out-of-Distribution (OoD) detection is vital for the reliability of Deep Neural Networks (DNNs). Existing works have shown the insufficiency of Principal Component Analysis (PCA) straightforwardly applied on the features of DNNs in detecting OoD data from In-Distribution (InD) data. The failure of PCA suggests that the network features residing in OoD and InD are not well separated by simply proceeding in a linear subspace, which instead can be resolved through proper nonlinear mappings. In this work, we leverage the framework of Kernel PCA (KPCA) for OoD detection, seeking subspaces where OoD and InD features are allocated with significantly different patterns. We devise two feature mappings that induce non-linear kernels in KPCA to advocate the separability between InD and OoD data in the subspace spanned by the principal components. Given any test sample, the reconstruction error in such subspace is then used to efficiently obtain the detection result with $\mathcal{O}(1)$ time comp
-    
-[^2]: 渐进域自适应：理论与算法
-
-    Gradual Domain Adaptation: Theory and Algorithms. (arXiv:2310.13852v1 [cs.LG])
-
-    [http://arxiv.org/abs/2310.13852](http://arxiv.org/abs/2310.13852)
-
-    本文研究了渐进域自适应中的渐进自训练算法，提出了一个改进的泛化界限，并指出了中间域在源域和目标域之间均匀放置的重要性。
+    该论文提出了对于核岭回归的低秩近似和替代方法中，关于低维近似秩的一个下界，从而保证可靠的预测能力，并将有效维度与最大统计杠杆得分联系起来。
 
     
 
-    无监督域自适应（UDA）是将模型从有标记的源域适应到无标记的目标域的一种一次性方法。尽管被广泛应用，但当源域和目标域之间的分布偏移较大时，UDA面临巨大挑战。渐进域自适应（GDA）通过使用中间域逐渐从源域适应到目标域来缓解这个限制。在这项工作中，我们首先从理论上分析了一种常见的GDA算法——渐进自训练，并提供了与Kumar等人（2020）相比显著改进的泛化界限。我们的理论分析得出一个有趣的观点：为了最小化目标域上的泛化误差，中间域的顺序应该均匀地放置在源域和目标域之间的Wasserstein测地线上。这个观点在中间域缺失或稀缺的情况下尤其有用，而这在现实世界的应用中经常出现。
+    arXiv:2402.12885v1 公告类型: 交叉摘要: 通用核岭回归在内存分配和计算时间上成本高昂。本文研究了核岭回归的低秩近似和替代方法，以应对这些困难。本文的基本贡献在于对低维近似的秩提出了一个下界，要求其保持可靠的预测能力。该界限将有效维度与最大统计杠杆得分联系起来。我们通过涉及核的正则性来表征有效维度及其随正则化参数的增长行为。对于适当选择的核，这种增长被证明是对数渐近的，从而证明了低秩近似作为Nyström方法的合理性。
 
-    Unsupervised domain adaptation (UDA) adapts a model from a labeled source domain to an unlabeled target domain in a one-off way. Though widely applied, UDA faces a great challenge whenever the distribution shift between the source and the target is large. Gradual domain adaptation (GDA) mitigates this limitation by using intermediate domains to gradually adapt from the source to the target domain. In this work, we first theoretically analyze gradual self-training, a popular GDA algorithm, and provide a significantly improved generalization bound compared with Kumar et al. (2020). Our theoretical analysis leads to an interesting insight: to minimize the generalization error on the target domain, the sequence of intermediate domains should be placed uniformly along the Wasserstein geodesic between the source and target domains. The insight is particularly useful under the situation where intermediate domains are missing or scarce, which is often the case in real-world applications. Based
+    arXiv:2402.12885v1 Announce Type: cross  Abstract: Common kernel ridge regression is expensive in memory allocation and computation time. This paper addresses low rank approximations and surrogates for kernel ridge regression, which bridge these difficulties. The fundamental contribution of the paper is a lower bound on the rank of the low dimensional approximation, which is required such that the prediction power remains reliable. The bound relates the effective dimension with the largest statistical leverage score. We characterize the effective dimension and its growth behavior with respect to the regularization parameter by involving the regularity of the kernel. This growth is demonstrated to be asymptotically logarithmic for suitably chosen kernels, justifying low-rank approximations as the Nystr\"om method.
     
-[^3]: Ano-SuPs: 通过识别可疑的区块进行制造产品的多尺度异常检测
+[^2]: 在强化学习中测试平稳性和变点检测
 
-    Ano-SuPs: Multi-size anomaly detection for manufactured products by identifying suspected patches. (arXiv:2309.11120v1 [stat.ML])
+    Testing Stationarity and Change Point Detection in Reinforcement Learning
 
-    [http://arxiv.org/abs/2309.11120](http://arxiv.org/abs/2309.11120)
+    [https://arxiv.org/abs/2203.01707](https://arxiv.org/abs/2203.01707)
 
-    Ano-SuPs是一种通过识别可疑区块来进行制造产品的多尺度异常检测的两阶段策略方法。它可以解决图像背景复杂性和异常模式的挑战，并具有较高的准确性和鲁棒性。
-
-    
-
-    基于图像的系统因其提供丰富的制造状态信息、低实施成本和高采集速度而受到欢迎。然而，图像背景的复杂性和各种异常模式给现有的矩阵分解方法带来了新的挑战，这些方法不足以满足建模需求。此外，异常的不确定性可能导致异常的污染问题，使得设计的模型和方法对外部干扰非常敏感。为了解决这些挑战，我们提出了一种通过识别可疑区块（Ano-SuPs）来检测异常的两阶段策略异常检测方法。具体来说，我们提出了通过两次重建输入图像来检测带有异常的区块的方法：第一步是通过去除那些可疑区块来获得一组正常区块，第二步是使用这些正常区块来优化对带有异常区块的识别。我们通过实验证明了这种方法的效果。
-
-    Image-based systems have gained popularity owing to their capacity to provide rich manufacturing status information, low implementation costs and high acquisition rates. However, the complexity of the image background and various anomaly patterns pose new challenges to existing matrix decomposition methods, which are inadequate for modeling requirements. Moreover, the uncertainty of the anomaly can cause anomaly contamination problems, making the designed model and method highly susceptible to external disturbances. To address these challenges, we propose a two-stage strategy anomaly detection method that detects anomalies by identifying suspected patches (Ano-SuPs). Specifically, we propose to detect the patches with anomalies by reconstructing the input image twice: the first step is to obtain a set of normal patches by removing those suspected patches, and the second step is to use those normal patches to refine the identification of the patches with anomalies. To demonstrate its ef
-    
-[^4]: 高维线性模型的稀疏化同时置信区间
-
-    Sparsified Simultaneous Confidence Intervals for High-Dimensional Linear Models. (arXiv:2307.07574v1 [stat.ME])
-
-    [http://arxiv.org/abs/2307.07574](http://arxiv.org/abs/2307.07574)
-
-    提出了一种稀疏化同时置信区间的方法，用于高维线性模型的统计推断。通过将某些区间的上下界收缩为零，该方法能够确定不重要的协变量并将其排除在最终模型之外，同时通过其他区间判断出可信和显著的协变量。
+    开发了一种能够在非平稳环境中进行策略优化的强化学习方法，通过测试最优Q函数的非平稳性并开发序贯变点检测方法来实现。
 
     
 
-    鉴于模型选择过程引入的不确定性难以考虑，对高维回归系数的统计推断具有挑战性。一个关键问题仍未解决，即是否可能以及如何将模型的推断嵌入到系数的同时推断中？为此，我们提出了一种称为稀疏化同时置信区间的概念。我们的区间在某些上下界上进行了稀疏，即缩小为零（例如，$[0,0]$），表示相应协变量的不重要性。这些协变量应该从最终模型中排除。其余的区间，无论是包含零（例如，$[-1,1]$或$[0,1]$）还是不包含零（例如，$[2,3]$），分别表示可信和显著的协变量。所提出的方法可以与各种选择过程相结合，使其非常适合比较它们的使用。
+    我们考虑可能非平稳环境下的离线强化学习（RL）方法。许多文献中现有的RL算法依赖于需要系统转换和奖励函数随时间保持恒定的平稳性假设。然而，实践中平稳性假设是有限制的，并且在许多应用中很可能被违反，包括交通信号控制、机器人技术和移动健康。在本文中，我们开发了一种一致的程序，基于预先收集的历史数据测试最优Q函数的非平稳性，无需额外的在线数据收集。基于所提出的检验，我们进一步开发了一种顺序变点检测方法，可以自然地与现有最先进的RL方法相结合，在非平稳环境中进行策略优化。我们的方法的有效性通过理论结果、仿真研究和实践中的案例得到了展示。
 
-    Statistical inference of the high-dimensional regression coefficients is challenging because the uncertainty introduced by the model selection procedure is hard to account for. A critical question remains unsettled; that is, is it possible and how to embed the inference of the model into the simultaneous inference of the coefficients? To this end, we propose a notion of simultaneous confidence intervals called the sparsified simultaneous confidence intervals. Our intervals are sparse in the sense that some of the intervals' upper and lower bounds are shrunken to zero (i.e., $[0,0]$), indicating the unimportance of the corresponding covariates. These covariates should be excluded from the final model. The rest of the intervals, either containing zero (e.g., $[-1,1]$ or $[0,1]$) or not containing zero (e.g., $[2,3]$), indicate the plausible and significant covariates, respectively. The proposed method can be coupled with various selection procedures, making it ideal for comparing their u
+    arXiv:2203.01707v3 Announce Type: replace-cross  Abstract: We consider offline reinforcement learning (RL) methods in possibly nonstationary environments. Many existing RL algorithms in the literature rely on the stationarity assumption that requires the system transition and the reward function to be constant over time. However, the stationarity assumption is restrictive in practice and is likely to be violated in a number of applications, including traffic signal control, robotics and mobile health. In this paper, we develop a consistent procedure to test the nonstationarity of the optimal Q-function based on pre-collected historical data, without additional online data collection. Based on the proposed test, we further develop a sequential change point detection method that can be naturally coupled with existing state-of-the-art RL methods for policy optimization in nonstationary environments. The usefulness of our method is illustrated by theoretical results, simulation studies, an
+    
+[^3]: 针对领域自适应的部分可识别性
+
+    Partial Identifiability for Domain Adaptation. (arXiv:2306.06510v1 [cs.LG])
+
+    [http://arxiv.org/abs/2306.06510](http://arxiv.org/abs/2306.06510)
+
+    本论文提出了一种针对无监督领域自适应的部分可识别性方法，通过依赖跨域因果机制的最小改变属性，在保持特定组分跨域不变的前提下最小化分布转移的不必要影响。
+
+    
+
+    无监督领域适应对于许多没有目标域标签信息的实际应用至关重要。通常情况下，如果没有进一步的假设，特征和标签的联合分布在目标域中是不可识别的。为了解决这个问题，我们依赖跨域因果机制的最小改变属性，以最小化分布转移的不必要影响。为了编码这个属性，我们首先使用一个带有两个分区潜变量子空间的潜变量模型来制定数据生成过程：不变部分的分布在跨域时保持不变，而稀疏的可变部分会在不同的域中发生变化。我们进一步限制了域移位对可变部分的影响。在温和的条件下，我们展示了部分可识别的潜变量，从而证明了目标域中数据和标签的联合分布也是可识别的。
+
+    Unsupervised domain adaptation is critical to many real-world applications where label information is unavailable in the target domain. In general, without further assumptions, the joint distribution of the features and the label is not identifiable in the target domain. To address this issue, we rely on the property of minimal changes of causal mechanisms across domains to minimize unnecessary influences of distribution shifts. To encode this property, we first formulate the data-generating process using a latent variable model with two partitioned latent subspaces: invariant components whose distributions stay the same across domains and sparse changing components that vary across domains. We further constrain the domain shift to have a restrictive influence on the changing components. Under mild conditions, we show that the latent variables are partially identifiable, from which it follows that the joint distribution of data and labels in the target domain is also identifiable. Give
+    
+[^4]: 基于树张量网络、CP秩约束和张量丢弃的机器学习方法。
+
+    Machine learning with tree tensor networks, CP rank constraints, and tensor dropout. (arXiv:2305.19440v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.19440](http://arxiv.org/abs/2305.19440)
+
+    本文介绍了一种新的机器学习方法，通过基于树状张量网络的CP秩约束和张量丢弃，来构建低秩分类器，并在时尚-MNIST图像分类中展示出了优异的表现。
+
+    
+
+    张量网络可以通过降低自由度来近似表示$N$阶张量，并构成一系列压缩的小张量网络。在[arXiv:2205.15296]文章中，作者提出可以通过对张量网络中的张量的CP秩附加约束，进一步降低计算成本。本文旨在展示如何利用基于树状张量网络(TTN)的CP秩约束和张量丢弃的方法来进行机器学习，并表明该方法在时尚-MNIST图像分类中优于其他基于张量网络的方法。当分支系数$b=4$时，低秩TTN分类器达到了测试集准确率90.3\%，同时拥有较低的计算成本。基于线性元素构成的张量网络分类器避免了深度神经网络的梯度消失问题。CP秩约束还有其他优点：可以减少和调整模型参数数量。
+
+    Tensor networks approximate order-$N$ tensors with a reduced number of degrees of freedom that is only polynomial in $N$ and arranged as a network of partially contracted smaller tensors. As suggested in [arXiv:2205.15296] in the context of quantum many-body physics, computation costs can be further substantially reduced by imposing constraints on the canonical polyadic (CP) rank of the tensors in such networks. Here we demonstrate how tree tensor networks (TTN) with CP rank constraints and tensor dropout can be used in machine learning. The approach is found to outperform other tensor-network based methods in Fashion-MNIST image classification. A low-rank TTN classifier with branching ratio $b=4$ reaches test set accuracy 90.3\% with low computation costs. Consisting of mostly linear elements, tensor network classifiers avoid the vanishing gradient problem of deep neural networks. The CP rank constraints have additional advantages: The number of parameters can be decreased and tuned m
     
 
