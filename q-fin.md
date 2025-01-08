@@ -2,52 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Leverage Staking with Liquid Staking Derivatives (LSDs): Opportunities and Risks.](http://arxiv.org/abs/2401.08610) | 这项研究系统地研究了Liquid Staking Derivatives (LSDs)的杠杆质押机会与风险。他们发现杠杆质押在Lido-Aave生态系统中能够实现较高的回报，并有潜力通过优化策略获得更多收益。 |
-| [^2] | [Navigating Uncertainty in ESG Investing.](http://arxiv.org/abs/2310.02163) | 该论文提出了一种方法来解决ESG投资中的不确定性问题。通过开发ESG集合策略和将ESG评分整合到强化学习模型中，研究提供了量身定制的投资策略，并引入了双效均值方差模型来分类投资者。此外，引入ESG调整的CAPM模型评估优化投资组合的表现。最终，该方法为投资者提供了导航ESG评级固有模糊性的工具，帮助做出更明智的投资决策。 |
-| [^3] | [Mean-field equilibrium price formation with exponential utility.](http://arxiv.org/abs/2304.07108) | 本文研究了多个投资者在初始财富、风险规避参数以及终止时间的随机负债方面存在差异时的均衡价格形成问题，通过一个新的均场反向随机微分方程（BSDE）的解来表征风险股票的均衡风险溢价过程，并证明其清除市场。 |
+| [^1] | [Improving Capital Efficiency and Impermanent Loss: Multi-Token Proactive Market Maker.](http://arxiv.org/abs/2309.00632) | 本研究致力于开发和分析一种多代币主动型市场制造商(MPMM)，它通过改进定价曲线和均衡点，显著提高了资本效率和价格影响，并更有效地应对临时性损失。 |
+| [^2] | [Rough volatility, path-dependent PDEs and weak rates of convergence.](http://arxiv.org/abs/2304.03042) | 该研究探究了粗糙波动率模型中的路径依赖PDE问题，证明了条件期望是其唯一的经典解。并且，该研究还研究了具有Hurst参数的离散随机积分的弱收敛率，以逼近粗糙波动率模型中的对数股票价格。 |
 
 # 详细
 
-[^1]: 使用Liquid Staking Derivatives (LSDs)进行杠杆质押: 机会与风险
+[^1]: 提高资本效率和临时性损失的方法：多代币主动型市场制造商
 
-    Leverage Staking with Liquid Staking Derivatives (LSDs): Opportunities and Risks. (arXiv:2401.08610v1 [q-fin.GN])
+    Improving Capital Efficiency and Impermanent Loss: Multi-Token Proactive Market Maker. (arXiv:2309.00632v1 [q-fin.TR])
 
-    [http://arxiv.org/abs/2401.08610](http://arxiv.org/abs/2401.08610)
+    [http://arxiv.org/abs/2309.00632](http://arxiv.org/abs/2309.00632)
 
-    这项研究系统地研究了Liquid Staking Derivatives (LSDs)的杠杆质押机会与风险。他们发现杠杆质押在Lido-Aave生态系统中能够实现较高的回报，并有潜力通过优化策略获得更多收益。
-
-    
-
-    Lido是以太坊上最主要的Liquid Staking Derivative (LSD)提供商，允许用户抵押任意数量的ETH来获得stETH，这可以与DeFi协议如Aave进行整合。Lido与Aave之间的互通性使得一种新型策略“杠杆质押”得以实现，用户在Lido上质押ETH获取stETH，将stETH作为Aave上的抵押品借入ETH，然后将借入的ETH重新投入Lido。用户可以迭代执行此过程，根据自己的风险偏好来优化潜在回报。本文系统地研究了杠杆质押所涉及的机会和风险。我们是第一个在Lido-Aave生态系统中对杠杆质押策略进行形式化的研究。我们的经验研究发现，在以太坊上有262个杠杆质押头寸，总质押金额为295,243 ETH（482M USD）。我们发现，90.13%的杠杆质押头寸实现了比传统质押更高的回报。
-
-    Lido, the leading Liquid Staking Derivative (LSD) provider on Ethereum, allows users to stake an arbitrary amount of ETH to receive stETH, which can be integrated with Decentralized Finance (DeFi) protocols such as Aave. The composability between Lido and Aave enables a novel strategy called "leverage staking", where users stake ETH on Lido to acquire stETH, utilize stETH as collateral on Aave to borrow ETH, and then restake the borrowed ETH on Lido. Users can iteratively execute this process to optimize potential returns based on their risk profile.  This paper systematically studies the opportunities and risks associated with leverage staking. We are the first to formalize the leverage staking strategy within the Lido-Aave ecosystem. Our empirical study identifies 262 leverage staking positions on Ethereum, with an aggregated staking amount of 295,243 ETH (482M USD). We discover that 90.13% of leverage staking positions have achieved higher returns than conventional staking. Furtherm
-    
-[^2]: 在ESG投资中导航不确定性
-
-    Navigating Uncertainty in ESG Investing. (arXiv:2310.02163v1 [q-fin.PM])
-
-    [http://arxiv.org/abs/2310.02163](http://arxiv.org/abs/2310.02163)
-
-    该论文提出了一种方法来解决ESG投资中的不确定性问题。通过开发ESG集合策略和将ESG评分整合到强化学习模型中，研究提供了量身定制的投资策略，并引入了双效均值方差模型来分类投资者。此外，引入ESG调整的CAPM模型评估优化投资组合的表现。最终，该方法为投资者提供了导航ESG评级固有模糊性的工具，帮助做出更明智的投资决策。
+    本研究致力于开发和分析一种多代币主动型市场制造商(MPMM)，它通过改进定价曲线和均衡点，显著提高了资本效率和价格影响，并更有效地应对临时性损失。
 
     
 
-    投资者对评级机构对环境、社会和公司治理(ESG)所分配的排名普遍存在困惑，凸显出可持续投资中的一个关键问题。为了解决这种不确定性，我们的研究提出了一种方法，不仅可识别出这种模糊性，而且为不同投资者提供量身定制的投资策略。通过开发ESG集合策略，并将ESG评分整合到强化学习模型中，我们旨在优化既能获得金融回报又能关注ESG目标的投资组合。此外，通过提出双效均值方差模型，我们基于风险偏好对投资者进行分类。我们还引入了ESG调整的资本资产定价模型(CAPM)来评估这些优化投资组合的表现。最终，我们综合的方法为投资者提供了导航ESG评级固有模糊性的工具，促进更明智的投资决策。
+    当前加密货币自动化市场制造商的方法导致严重的临时性损失和碎片化流动性。我们专注于开发和分析多代币主动型市场制造商(MPMM)。MPMM是DODO Exchange引入的主动型市场制造商(PMM)的扩展，它泛化了常数乘积市场制造商(CPMM)，允许调整定价曲线的“平坦度”和平衡点。我们分析了PMM和MPMM中使用的这些机制，并通过模拟证明MPMM在资本效率和价格影响方面明显优于其2代币池对应物和它们的多代币池泛化。此外，在典型的市场条件下，MPMM也比其他市场制造商变体更有效地应对临时性损失。总的来说，这项研究突显了多代币市场制造商相对于成对代币模型的优势，并提出了一种新的市场制造算法。研究结果提供了有价值的参考。
 
-    The widespread confusion among investors regarding Environmental, Social, and Governance (ESG) rankings assigned by rating agencies has underscored a critical issue in sustainable investing. To address this uncertainty, our research has devised methods that not only recognize this ambiguity but also offer tailored investment strategies for different investor profiles. By developing ESG ensemble strategies and integrating ESG scores into a Reinforcement Learning (RL) model, we aim to optimize portfolios that cater to both financial returns and ESG-focused outcomes. Additionally, by proposing the Double-Mean-Variance model, we classify three types of investors based on their risk preferences. We also introduce ESG-adjusted Capital Asset Pricing Models (CAPMs) to assess the performance of these optimized portfolios. Ultimately, our comprehensive approach provides investors with tools to navigate the inherent ambiguities of ESG ratings, facilitating more informed investment decisions.
+    Current approaches to the cryptocurrency automated market makers result in poor impermanent loss and fragmented liquidity. We focus on the development and analysis of a multi-token proactive market maker (MPMM). MPMM is an extension of the proactive market maker (PMM) introduced by DODO Exchange, which generalizes the constant product market maker (CPMM) and allows for adjustments to the pricing curve's ``flatness" and equilibrium points. We analyze these mechanics as used in both PMM and MPMM and demonstrate via simulation that MPMM significantly improves capital efficiency and price impact compared to its 2-token pool counterparts as well as their multi-token pool generalizations. Furthermore, in typical market conditions, MPMM also combats impermanent loss more effectively than other market maker variants. Overall, this research highlights the advantages multi-token market makers have over pairwise-token models, and poses a novel market making algorithm. The findings provide valuabl
     
-[^3]: 带指数效用函数的均值场均衡价格形成
+[^2]: 粗糙波动率，路径依赖PDE和弱收敛率的研究
 
-    Mean-field equilibrium price formation with exponential utility. (arXiv:2304.07108v1 [q-fin.MF])
+    Rough volatility, path-dependent PDEs and weak rates of convergence. (arXiv:2304.03042v1 [math.PR])
 
-    [http://arxiv.org/abs/2304.07108](http://arxiv.org/abs/2304.07108)
+    [http://arxiv.org/abs/2304.03042](http://arxiv.org/abs/2304.03042)
 
-    本文研究了多个投资者在初始财富、风险规避参数以及终止时间的随机负债方面存在差异时的均衡价格形成问题，通过一个新的均场反向随机微分方程（BSDE）的解来表征风险股票的均衡风险溢价过程，并证明其清除市场。
+    该研究探究了粗糙波动率模型中的路径依赖PDE问题，证明了条件期望是其唯一的经典解。并且，该研究还研究了具有Hurst参数的离散随机积分的弱收敛率，以逼近粗糙波动率模型中的对数股票价格。
 
     
 
-    本文研究了多位投资者在初始财富、风险规避参数以及终止时间的随机负债方面存在差异时的均衡价格形成问题。我们通过一个新的均场反向随机微分方程（BSDE）的解来表征风险股票的均衡风险溢价过程，其特征是驱动程序在随机积分和条件期望上都具有二次增长。我们证明了在多个条件下均场BSDE存在解，并且表明随着人口规模的增大，结果风险溢价进程实际上会清除市场。
+    在随机Volterra方程的设置中，特别是粗糙波动率模型中，我们展示了条件期望是路径依赖PDE的唯一经典解。后者由[Viens，F。，＆Zhang，J。（2019）。对分数布朗运动及其相关路径依赖PDE的鞅方法的开发而来。Ann. Appl. Probab.],。然后，我们利用这些工具研究具有Hurst参数$H \in (0,1/2)$的Riemann-Liouville分数布朗运动的平滑函数的离散随机积分的弱收敛率。这些积分逼近粗糙波动率模型中的对数股票价格。如果测试函数是二次的，则我们获得1阶弱误差率，如果测试函数是平滑的，则获得$H + 1/2$阶的误差率。
 
-    In this paper, we study a problem of equilibrium price formation among many investors with exponential utility. The investors are heterogeneous in their initial wealth, risk-averseness parameter, as well as stochastic liability at the terminal time. We characterize the equilibrium risk-premium process of the risky stocks in terms of the solution to a novel mean-field backward stochastic differential equation (BSDE), whose driver has quadratic growth both in the stochastic integrands and in their conditional expectations. We prove the existence of a solution to the mean-field BSDE under several conditions and show that the resultant risk-premium process actually clears the market in the large population limit.
+    In the setting of stochastic Volterra equations, and in particular rough volatility models, we show that conditional expectations are the unique classical solutions to path-dependent PDEs. The latter arise from the functional It\^o formula developed by [Viens, F., & Zhang, J. (2019). A martingale approach for fractional Brownian motions and related path dependent PDEs. Ann. Appl. Probab.]. We then leverage these tools to study weak rates of convergence for discretised stochastic integrals of smooth functions of a Riemann-Liouville fractional Brownian motion with Hurst parameter $H \in (0,1/2)$. These integrals approximate log-stock prices in rough volatility models. We obtain weak error rates of order 1 if the test function is quadratic and of order $H+1/2$ for smooth test functions.
     
 

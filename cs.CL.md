@@ -2,33 +2,47 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Developing Safe and Responsible Large Language Models -- A Comprehensive Framework](https://arxiv.org/abs/2404.01399) | 该论文介绍了一种新的模型SR$_{\text{LLM}}$，旨在通过引入全面的安全风险分类法和专家标注数据集来增强大型语言模型（LLM）在语言生成中的安全性，并通过指令和参数高效微调方法有效减少了不安全内容的生成。 |
-| [^2] | [Scaling Efficient LLMs](https://arxiv.org/abs/2402.14746) | 训练得到的LLM模型通常是稀疏的，为了提高效率，研究了在训练语料上达到所需准确度的参数最少的高效LLM模型，得出了参数数量与自然训练语料规模之间的关系，并指出扩展可以揭示新技能。 |
-| [^3] | [Chain-of-Instructions: Compositional Instruction Tuning on Large Language Models](https://arxiv.org/abs/2402.11532) | 提出了一种名为指令链（CoI）的新概念，通过逐步解决每个子任务来处理由多个子任务组成的指令，进而提高了大型语言模型（LLMs）的泛化能力和多语言摘要性能 |
-| [^4] | [Sentiment-enhanced Graph-based Sarcasm Explanation in Dialogue](https://arxiv.org/abs/2402.03658) | 本论文提出了一种名为EDGE的新颖的基于图的情感增强多模态讽刺解释框架，旨在为涉及多种模态的讽刺对话生成自然语言解释。该框架克服了话语记号对情感的多样效应、视频音频情感信号与BART嵌入空间之间的差距以及话语、话语情感和视频音频情感之间的不同关系等挑战。 |
-| [^5] | [AutoPlanBench: Automatically generating benchmarks for LLM planners from PDDL](https://arxiv.org/abs/2311.09830) | AutoPlanBench是一种新方法，可以自动转换PDDL规划基准测试为文本描述，并提供了相应的基准测试数据集。研究表明，当前最好的LLM规划器在某些规划任务上表现优秀，但对于其他任务来说仍存在挑战。 |
-| [^6] | [Improving Summarization with Human Edits.](http://arxiv.org/abs/2310.05857) | 本文介绍了一种改进摘要生成的方法，使用人工编辑的反馈数据，并通过序列对齐（不）似然训练(SALT)技术将人工编辑数据与模型生成数据结合起来。实验证明了这种方法在医学领域摘要生成中的有效性。 |
-| [^7] | [An Empirical Study of Catastrophic Forgetting in Large Language Models During Continual Fine-tuning.](http://arxiv.org/abs/2308.08747) | 该研究实证评估了大型语言模型在持续微调过程中的灾难性遗忘现象，并发现随着模型规模增加，遗忘的严重程度也加剧。与编码器-解码器模型相比，仅有解码器的模型遗忘较少并保留更多知识。此外，研究还发现LLMs可以减轻语言偏见，并且ALPACA在保留知识和容量方面具有优势。 |
-| [^8] | [Look Before You Leap: An Exploratory Study of Uncertainty Measurement for Large Language Models.](http://arxiv.org/abs/2307.10236) | 本研究从不确定性的角度对大型语言模型进行了探索性研究，通过实验发现不确定性估计方法在探索和抵制大型语言模型的不良行为方面具有潜力。 |
-| [^9] | [NTK-approximating MLP Fusion for Efficient Language Model Fine-tuning.](http://arxiv.org/abs/2307.08941) | 该论文通过使用神经切向核近似MLP融合，提出了一种高效的语言模型微调方法。实验证明，这种方法能够在降低计算和存储开销的同时保持较好的模型性能。 |
+| [^1] | [On the Consideration of AI Openness: Can Good Intent Be Abused?](https://arxiv.org/abs/2403.06537) | 开源技术虽然促进了科技进步，但也存在滥用风险，研究发现开源语言模型可以被调整用于提供有关犯罪活动的不道德且具有信息性的答案。 |
+| [^2] | [Finer: Investigating and Enhancing Fine-Grained Visual Concept Recognition in Large Vision Language Models](https://arxiv.org/abs/2402.16315) | Finer工作揭示了大型视觉语言模型在细粒度视觉分类上的短板，尤其是难以生成准确的细致属性解释，尽管具有生成高水平图像解释的能力。 |
+| [^3] | [Scaling Efficient LLMs](https://arxiv.org/abs/2402.14746) | 训练得到的LLM模型通常是稀疏的，为了提高效率，研究了在训练语料上达到所需准确度的参数最少的高效LLM模型，得出了参数数量与自然训练语料规模之间的关系，并指出扩展可以揭示新技能。 |
+| [^4] | [OpenCodeInterpreter: Integrating Code Generation with Execution and Refinement](https://arxiv.org/abs/2402.14658) | OpenCodeInterpreter是一种开源代码系统，集成了执行、人类反馈和动态代码细化的功能，并在关键基准测试中表现出色，甚至与GPT-4相媲美。 |
+| [^5] | [Boosting of Thoughts: Trial-and-Error Problem Solving with Large Language Models](https://arxiv.org/abs/2402.11140) | 本文提出了一种名为Boosting of Thoughts（BoT）的自动提示框架，通过迭代地探索和自我评估多个思维树，获得一系列试错推理经验，作为解决复杂问题的新形式的提示。 |
+| [^6] | [Multi: Multimodal Understanding Leaderboard with Text and Images](https://arxiv.org/abs/2402.03173) | Multi是一个多模态理解的排行榜，提供了一个综合数据集，评估多模态大型语言模型对理解复杂图表和科学问题的能力。它兼具准确和开放式的回答形式，挑战MLLM的各种任务，并包含超过18,000个问题。 |
+| [^7] | [Human-Readable Fingerprint for Large Language Models](https://arxiv.org/abs/2312.04828) | 这项研究介绍了一种大型语言模型的人类可读指纹，可以唯一识别出基本模型，并且不暴露模型参数或干扰训练。通过观察和验证，研究发现模型参数的向量方向在预训练后保持稳定，成为识别基本模型的重要条件。 |
+| [^8] | [Continuously Learning New Words in Automatic Speech Recognition.](http://arxiv.org/abs/2401.04482) | 该论文提出了一种自我监督的持续学习方法，用于解决自动语音识别中识别新词的问题。通过对讲座录音进行推理和收集包含新词的话语，然后在自适应数据集上进行持续学习，可以在新词出现频率较高时提高性能，同时保持整体性能。 |
+| [^9] | [Harnessing the Zero-Shot Power of Instruction-Tuned Large Language Model in End-to-End Speech Recognition.](http://arxiv.org/abs/2309.10524) | 本论文结合指导调整的大语言模型（LLM）和端到端自动语音识别（ASR），利用LLM的零-shot能力来改善语音识别性能。 |
 
 # 详细
 
-[^1]: 开发安全和负责任的大型语言模型 - 一个全面框架
+[^1]: 对AI开放性的考量: 善意能否被滥用？
 
-    Developing Safe and Responsible Large Language Models -- A Comprehensive Framework
+    On the Consideration of AI Openness: Can Good Intent Be Abused?
 
-    [https://arxiv.org/abs/2404.01399](https://arxiv.org/abs/2404.01399)
+    [https://arxiv.org/abs/2403.06537](https://arxiv.org/abs/2403.06537)
 
-    该论文介绍了一种新的模型SR$_{\text{LLM}}$，旨在通过引入全面的安全风险分类法和专家标注数据集来增强大型语言模型（LLM）在语言生成中的安全性，并通过指令和参数高效微调方法有效减少了不安全内容的生成。
+    开源技术虽然促进了科技进步，但也存在滥用风险，研究发现开源语言模型可以被调整用于提供有关犯罪活动的不道德且具有信息性的答案。
 
     
 
-    鉴于人们对大型语言模型（LLM）的安全性和风险日益关注，发展减轻这些问题的方法至关重要。我们引入了安全和负责任的大型语言模型（SR$_{\text{LLM}}$），这个模型旨在通过使用LLM来增强语言生成的安全性。我们的方法结合了一个全面的LLM安全风险分类法，并利用专家注释的数据集与这种分类法相一致。SR$_{\text{LLM}}$旨在识别潜在的不安全内容并产生良性变化。它采用基于指令的和参数高效的微调方法，使得该模型不仅有效地增强安全性，而且资源高效且易于调整。在我们对五个基准数据集和两个专有数据集进行测试后，我们观察到不安全内容生成的显著减少。此外，在实施安全措施后，出现了...
+    开放性对科学的进展至关重要。特别是，最近人工智能的快速进展仅可能通过各种开源模型、数据集和库。然而，这种开放性也意味着技术可以被自由地用于社会有害目的。开源模型或数据集可以被用于恶意目的吗？如果是这样，那么技术被用于这些目的会有多容易？本文在法律领域进行了一个案例研究，这是一个个人决策可能产生深远社会后果的领域。为此，我们构建了EVE数据集，包含了200个关于犯罪活动的问题和对应答案，基于200个韩国先例。我们发现一个广泛认可的开源LLM，最初拒绝回答不道德问题，可以很容易地通过EVE进行调整，提供关于犯罪活动的不道德且具有信息性的答案。这意味着，尽管开源技术能够促进科学技术进步，但同时也带来了滥用风险。
 
-    arXiv:2404.01399v1 Announce Type: new  Abstract: Given the growing concerns around the safety and risks of Large Language Models (LLMs), it is essential to develop methods for mitigating these issues. We introduce Safe and Responsible Large Language Model (SR$_{\text{LLM}}$) , a model designed to enhance the safety of language generation using LLMs. Our approach incorporates a comprehensive LLM safety risk taxonomy and utilizes a dataset annotated by experts that align with this taxonomy. SR$_{\text{LLM}}$ is designed to identify potentially unsafe content and produce benign variations. It employs instruction-based and parameter-efficient fine-tuning methods, making the model not only effective in enhancing safety but also resource-efficient and straightforward to adjust. Through our testing on five benchmark datasets and two proprietary datasets, we observed notable reductions in the generation of unsafe content. Moreover, following the implementation of safety measures, there was a s
+    arXiv:2403.06537v1 Announce Type: new  Abstract: Openness is critical for the advancement of science. In particular, recent rapid progress in AI has been made possible only by various open-source models, datasets, and libraries. However, this openness also means that technologies can be freely used for socially harmful purposes. Can open-source models or datasets be used for malicious purposes? If so, how easy is it to adapt technology for such goals? Here, we conduct a case study in the legal domain, a realm where individual decisions can have profound social consequences. To this end, we build EVE, a dataset consisting of 200 examples of questions and corresponding answers about criminal activities based on 200 Korean precedents. We found that a widely accepted open-source LLM, which initially refuses to answer unethical questions, can be easily tuned with EVE to provide unethical and informative answers about criminal activities. This implies that although open-source technologies c
     
-[^2]: 扩展高效的LLM模型
+[^2]: Finer: 在大型视觉语言模型中研究和增强细粒度视觉概念识别
+
+    Finer: Investigating and Enhancing Fine-Grained Visual Concept Recognition in Large Vision Language Models
+
+    [https://arxiv.org/abs/2402.16315](https://arxiv.org/abs/2402.16315)
+
+    Finer工作揭示了大型视觉语言模型在细粒度视觉分类上的短板，尤其是难以生成准确的细致属性解释，尽管具有生成高水平图像解释的能力。
+
+    
+
+    最近指导调整的大型视觉语言模型（LVLMs）的进展使模型能够轻松生成高水平的基于图像的解释。尽管这种能力主要归因于大型语言模型（LLMs）中包含的丰富世界知识，但我们的工作揭示了它们在六个不同基准设置下的细粒度视觉分类（FGVC）上的缺陷。最近的LVLMs最先进的模型，如LLaVa-1.5，InstructBLIP和GPT-4V，在分类性能方面严重下降，例如，LLaVA-1.5在斯坦福狗的EM平均下降了65.58，而且还难以根据出现在输入图像中的概念生成具有详细属性的准确解释，尽管它们有生成整体图像级描述的能力。深入分析表明，经过指导调整的LVLMs在给定文本时呈现出模态差距，显示出存在不一致性
+
+    arXiv:2402.16315v1 Announce Type: cross  Abstract: Recent advances in instruction-tuned Large Vision-Language Models (LVLMs) have imbued the models with the ability to generate high-level, image-grounded explanations with ease. While such capability is largely attributed to the rich world knowledge contained within the Large Language Models (LLMs), our work reveals their shortcomings in fine-grained visual categorization (FGVC) across six different benchmark settings. Most recent state-of-the-art LVLMs like LLaVa-1.5, InstructBLIP and GPT-4V not only severely deteriorate in terms of classification performance, e.g., average drop of 65.58 in EM for Stanford Dogs for LLaVA-1.5, but also struggle to generate an accurate explanation with detailed attributes based on the concept that appears within an input image despite their capability to generate holistic image-level descriptions. In-depth analyses show that instruction-tuned LVLMs exhibit modality gap, showing discrepancy when given tex
+    
+[^3]: 扩展高效的LLM模型
 
     Scaling Efficient LLMs
 
@@ -42,102 +56,88 @@
 
     arXiv:2402.14746v1 Announce Type: new  Abstract: Trained LLMs are typically sparse in that most of the parameters are zero, raising questions on efficiency. In response, we inquire into efficient LLMs, i.e. those with the fewest parameters that achieve the desired accuracy on a training corpus. Specifically, we compare theoretical and empirical estimates for training loss at current scale to obtain upper and lower bounds on the number of unique sequences in a natural training corpus as a function of its size. Our result implies (1) to double the number of skills represented in a training corpus, the corpus must scale roughly between three and five fold (2) for efficient LLMs, the number of parameters $N$ and the size $D$ of a natural training corpus scale as $N \sim D^{0.58}$ (3) if the number of parameters of an LLM is smaller than the number of unique sequences in the training corpus, scaling up can uncover emergent skills.
     
-[^3]: 指令链：大型语言模型的组合指令调整
+[^4]: OpenCodeInterpreter：集成代码生成、执行和细化
 
-    Chain-of-Instructions: Compositional Instruction Tuning on Large Language Models
+    OpenCodeInterpreter: Integrating Code Generation with Execution and Refinement
 
-    [https://arxiv.org/abs/2402.11532](https://arxiv.org/abs/2402.11532)
+    [https://arxiv.org/abs/2402.14658](https://arxiv.org/abs/2402.14658)
 
-    提出了一种名为指令链（CoI）的新概念，通过逐步解决每个子任务来处理由多个子任务组成的指令，进而提高了大型语言模型（LLMs）的泛化能力和多语言摘要性能
-
-    
-
-    使用一系列大型和多样化的指令对大型语言模型（LLMs）进行微调，提高了模型对不同任务的泛化能力，甚至对未曾见过的任务也适用。本研究提出了一种称为指令链（CoI）的新概念，其中一个指令的输出成为下一个指令的输入，就像一条链条。与解决单一指令任务的传统做法不同，我们提出的方法鼓励模型逐步解决每个子任务，直至得出最终答案。CoI调整（即使用CoI指令进行微调）提高了模型处理由多个子任务组成的指令能力。经CoI调整的模型在多语言摘要上也优于基准模型，证明....
-
-    arXiv:2402.11532v1 Announce Type: new  Abstract: Fine-tuning large language models (LLMs) with a collection of large and diverse instructions has improved the model's generalization to different tasks, even for unseen tasks. However, most existing instruction datasets include only single instructions, and they struggle to follow complex instructions composed of multiple subtasks (Wang et al., 2023a). In this work, we propose a novel concept of compositional instructions called chain-of-instructions (CoI), where the output of one instruction becomes an input for the next like a chain. Unlike the conventional practice of solving single instruction tasks, our proposed method encourages a model to solve each subtask step by step until the final answer is reached. CoI-tuning (i.e., fine-tuning with CoI instructions) improves the model's ability to handle instructions composed of multiple subtasks. CoI-tuned models also outperformed baseline models on multilingual summarization, demonstratin
-    
-[^4]: 在对话中增强情感的基于图的讽刺解释
-
-    Sentiment-enhanced Graph-based Sarcasm Explanation in Dialogue
-
-    [https://arxiv.org/abs/2402.03658](https://arxiv.org/abs/2402.03658)
-
-    本论文提出了一种名为EDGE的新颖的基于图的情感增强多模态讽刺解释框架，旨在为涉及多种模态的讽刺对话生成自然语言解释。该框架克服了话语记号对情感的多样效应、视频音频情感信号与BART嵌入空间之间的差距以及话语、话语情感和视频音频情感之间的不同关系等挑战。
+    OpenCodeInterpreter是一种开源代码系统，集成了执行、人类反馈和动态代码细化的功能，并在关键基准测试中表现出色，甚至与GPT-4相媲美。
 
     
 
-    对话中的讽刺解释（SED）是一项新而具有挑战性的任务，旨在为涉及多种模态（即话语、视频和音频）的讽刺对话生成自然语言解释。尽管现有的研究基于生成式预训练语言模型BART取得了巨大成功，但它们忽视了话语、视频和音频中存在的情感，而这些情感是讽刺解释中的重要线索。事实上，由于以下三个主要挑战：1）话语记号对情感的多样效应；2）视频音频情感信号与BART的嵌入空间之间的差距；3）话语、话语情感和视频音频情感之间的不同关系，将情感融入以提升SED性能是一项非常复杂的任务。为了解决这些挑战，我们提出了一种新颖的基于图的增强情感的多模态讽刺解释框架，命名为EDGE。
+    大型语言模型的引入显著推动了代码生成的发展。然而，开源模型通常缺乏类似GPT-4 Code Interpreter这样的高级系统的执行能力和迭代细化能力。为了解决这一问题，我们介绍了OpenCodeInterpreter，这是一族旨在生成、执行和迭代细化代码的开源代码系统。通过Code-Feedback支持，该系统集成了执行和人类反馈，用于动态代码细化。我们对OpenCodeInterpreter在诸如HumanEval、MBPP以及它们来自EvalPlus的增强版本等关键基准上进行了全面评估，证实了其出色的性能。值得注意的是，OpenCodeInterpreter-33B在HumanEval和MBPP的平均值（以及其增强版本）上取得了83.2（76.4）的准确率，与GPT-4的84.2（76.2）紧密匹敌，并且通过合成hum
 
-    Sarcasm Explanation in Dialogue (SED) is a new yet challenging task, which aims to generate a natural language explanation for the given sarcastic dialogue that involves multiple modalities (i.e., utterance, video, and audio). Although existing studies have achieved great success based on the generative pretrained language model BART, they overlook exploiting the sentiments residing in the utterance, video and audio, which are vital clues for sarcasm explanation. In fact, it is non-trivial to incorporate sentiments for boosting SED performance, due to three main challenges: 1) diverse effects of utterance tokens on sentiments; 2) gap between video-audio sentiment signals and the embedding space of BART; and 3) various relations among utterances, utterance sentiments, and video-audio sentiments. To tackle these challenges, we propose a novel sEntiment-enhanceD Graph-based multimodal sarcasm Explanation framework, named EDGE. In particular, we first propose a lexicon-guided utterance sen
+    arXiv:2402.14658v1 Announce Type: cross  Abstract: The introduction of large language models has significantly advanced code generation. However, open-source models often lack the execution capabilities and iterative refinement of advanced systems like the GPT-4 Code Interpreter. To address this, we introduce OpenCodeInterpreter, a family of open-source code systems designed for generating, executing, and iteratively refining code. Supported by Code-Feedback, a dataset featuring 68K multi-turn interactions, OpenCodeInterpreter integrates execution and human feedback for dynamic code refinement. Our comprehensive evaluation of OpenCodeInterpreter across key benchmarks such as HumanEval, MBPP, and their enhanced versions from EvalPlus reveals its exceptional performance. Notably, OpenCodeInterpreter-33B achieves an accuracy of 83.2 (76.4) on the average (and plus versions) of HumanEval and MBPP, closely rivaling GPT-4's 84.2 (76.2) and further elevates to 91.6 (84.6) with synthesized hum
     
-[^5]: AutoPlanBench: 从PDDL自动生成LLM规划器的基准测试
+[^5]: 思维的提升：使用大型语言模型进行试错问题解决
 
-    AutoPlanBench: Automatically generating benchmarks for LLM planners from PDDL
+    Boosting of Thoughts: Trial-and-Error Problem Solving with Large Language Models
 
-    [https://arxiv.org/abs/2311.09830](https://arxiv.org/abs/2311.09830)
+    [https://arxiv.org/abs/2402.11140](https://arxiv.org/abs/2402.11140)
 
-    AutoPlanBench是一种新方法，可以自动转换PDDL规划基准测试为文本描述，并提供了相应的基准测试数据集。研究表明，当前最好的LLM规划器在某些规划任务上表现优秀，但对于其他任务来说仍存在挑战。
-
-    
-
-    LLMs（逻辑-概率模型）在规划任务中的应用越来越广泛，但是它们在规划和推理方面的能力尚不明确。我们提出了AutoPlanBench，一种将PDDL中的规划基准测试自动转换为文本描述的新方法，并提供了使用我们方法创建的基准测试数据集。我们展示了最好的LLM规划器在某些规划任务上表现良好，但其他任务仍然超出了当前方法的能力范围。
-
-    LLMs are being increasingly used for planning-style tasks, but their capabilities for planning and reasoning are poorly understood. We present AutoPlanBench, a novel method for automatically converting planning benchmarks written in PDDL into textual descriptions and offer a benchmark dataset created with our method. We show that while the best LLM planners do well on some planning tasks, others remain out of reach of current methods.
-    
-[^6]: 使用人工编辑改进摘要生成
-
-    Improving Summarization with Human Edits. (arXiv:2310.05857v2 [cs.CL] UPDATED)
-
-    [http://arxiv.org/abs/2310.05857](http://arxiv.org/abs/2310.05857)
-
-    本文介绍了一种改进摘要生成的方法，使用人工编辑的反馈数据，并通过序列对齐（不）似然训练(SALT)技术将人工编辑数据与模型生成数据结合起来。实验证明了这种方法在医学领域摘要生成中的有效性。
+    本文提出了一种名为Boosting of Thoughts（BoT）的自动提示框架，通过迭代地探索和自我评估多个思维树，获得一系列试错推理经验，作为解决复杂问题的新形式的提示。
 
     
 
-    最近的研究表明，通过人类反馈范式学习可以产生高质量的文本。现有的工作在通用领域抽象化摘要生成中使用人类反馈来训练大型语言模型(LLMs)，并获得了超越传统似然训练的摘要质量。在本文中，我们关注一种较少探索的人类反馈形式——人工编辑。我们提出了一种新颖的技术——序列对齐（不）似然训练(SALT)，在训练循环中同时使用人工编辑和模型生成的数据。此外，我们还展示了使用现有训练数据中的基准摘要来模拟人工编辑，以及在训练后获取的模型生成摘要，以减少对昂贵的人工编辑数据的需求。在实验中，我们将人类反馈的探索从通用领域摘要生成扩展到医学领域摘要生成。我们的结果表明SALT在改进摘要生成方面的有效性。
+    大型语言模型（LLMs）在各种问题上的推理性能关键取决于思维链提示，其中包括在提示中提供一些思维链示范作为示例。最近的工作（例如Thought Tree）指出了在复杂问题解决的推理步骤选择中，探索和自我评估的重要性。在本文中，我们提出了一种名为Boosting of Thoughts（BoT）的自动提示框架，用于通过迭代地探索和自我评估许多思维树来获得一系列试错推理经验，这将作为解决复杂问题的新形式的提示。BoT从一个简单提示开始，无需示例，迭代地探索和评估大量的推理步骤，更重要的是，利用LLM获得的错误分析来明确修改提示。
 
-    Recent work has shown the promise of learning with human feedback paradigms to produce human-determined high-quality text. Existing works use human feedback to train large language models (LLMs) in general domain abstractive summarization and have obtained summary quality exceeding traditional likelihood training. In this paper, we focus on a less explored form of human feedback -- Human Edits. We propose Sequence Alignment (un)Likelihood Training (SALT), a novel technique to use both the human-edited and model-generated data together in the training loop. In addition, we demonstrate simulating Human Edits with ground truth summaries coming from existing training data -Imitation edits, along with the model-generated summaries obtained after the training, to reduce the need for expensive human-edit data. In our experiments, we extend human feedback exploration from general domain summarization to medical domain summarization. Our results demonstrate the effectiveness of SALT in improv
+    arXiv:2402.11140v1 Announce Type: new  Abstract: The reasoning performance of Large Language Models (LLMs) on a wide range of problems critically relies on chain-of-thought prompting, which involves providing a few chain of thought demonstrations as exemplars in prompts. Recent work, e.g., Tree of Thoughts, has pointed out the importance of exploration and self-evaluation in reasoning step selection for complex problem solving. In this paper, we present Boosting of Thoughts (BoT), an automated prompting framework for problem solving with LLMs by iteratively exploring and self-evaluating many trees of thoughts in order to acquire an ensemble of trial-and-error reasoning experiences, which will serve as a new form of prompting to solve the complex problem. Starting from a simple prompt without requiring examples, BoT iteratively explores and evaluates a large collection of reasoning steps, and more importantly, uses error analysis obtained from the LLM on them to explicitly revise prompt
     
-[^7]: 大型语言模型在持续微调过程中的灾难性遗忘的实证研究
+[^6]: 多模态：文本和图像的多模态理解排行榜
 
-    An Empirical Study of Catastrophic Forgetting in Large Language Models During Continual Fine-tuning. (arXiv:2308.08747v1 [cs.CL])
+    Multi: Multimodal Understanding Leaderboard with Text and Images
 
-    [http://arxiv.org/abs/2308.08747](http://arxiv.org/abs/2308.08747)
+    [https://arxiv.org/abs/2402.03173](https://arxiv.org/abs/2402.03173)
 
-    该研究实证评估了大型语言模型在持续微调过程中的灾难性遗忘现象，并发现随着模型规模增加，遗忘的严重程度也加剧。与编码器-解码器模型相比，仅有解码器的模型遗忘较少并保留更多知识。此外，研究还发现LLMs可以减轻语言偏见，并且ALPACA在保留知识和容量方面具有优势。
-
-    
-
-    灾难性遗忘（CF）是机器学习中的一种现象，当模型学习新信息时，它会忘记先前学到的信息。由于大型语言模型（LLMs）显示出了出色的性能，探究LLMs在持续微调中是否存在CF是很有意义的。在这项研究中，我们从领域知识、推理和阅读理解的角度对LLMs的遗忘现象进行了实证评估。实验表明，从1b到7b的范围内，LLMs普遍存在灾难性遗忘现象，并且随着规模的增加，遗忘的严重程度也加剧。与编码器-解码器模型mT0相比，仅有解码器的模型BLOOMZ遗忘较少并保留更多知识。我们还观察到，在持续微调过程中，LLMs可以减轻语言偏见（如性别偏见）。此外，我们发现与LLAMA相比，ALPACA在保留更多知识和容量方面具有优势。
-
-    Catastrophic forgetting (CF) is a phenomenon that occurs in machine learning when a model forgets previously learned information as it learns new information. As large language models (LLMs) have shown excellent performance, it is interesting to uncover whether CF exists in the continual fine-tuning of LLMs. In this study, we empirically evaluate the forgetting phenomenon in LLMs' knowledge, from the perspectives of domain knowledge, reasoning, and reading comprehension. The experiments demonstrate that catastrophic forgetting is generally observed in LLMs ranging from 1b to 7b. Furthermore, as the scale increases, the severity of forgetting also intensifies. Comparing the decoder-only model BLOOMZ with the encoder-decoder model mT0, BLOOMZ suffers less forgetting and maintains more knowledge. We also observe that LLMs can mitigate language bias (e.g. gender bias) during continual fine-tuning. Moreover, we find that ALPACA can maintain more knowledge and capacity compared with LLAMA du
-    
-[^8]: 三思而后行：大型语言模型不确定性测量的探索性研究
-
-    Look Before You Leap: An Exploratory Study of Uncertainty Measurement for Large Language Models. (arXiv:2307.10236v1 [cs.SE])
-
-    [http://arxiv.org/abs/2307.10236](http://arxiv.org/abs/2307.10236)
-
-    本研究从不确定性的角度对大型语言模型进行了探索性研究，通过实验发现不确定性估计方法在探索和抵制大型语言模型的不良行为方面具有潜力。
+    Multi是一个多模态理解的排行榜，提供了一个综合数据集，评估多模态大型语言模型对理解复杂图表和科学问题的能力。它兼具准确和开放式的回答形式，挑战MLLM的各种任务，并包含超过18,000个问题。
 
     
 
-    大型语言模型（LLMs）的最近性能突破为众多工业应用和领域提供了新的机遇。然而，LLMs的错误生成，如虚假预测、错误信息和幻觉，也引发了对LLMs可靠性的严重关注，尤其在对安全、可靠性有敏感的场景中，可能阻碍其在实际中的应用。尽管不确定性估计已经显示出其在解释一般机器学习（ML）模型的预测风险方面的潜力，但关于它是否以及在多大程度上有助于探索LLMs的能力和抵制其不良行为方面知之甚少。为了弥合这一差距，本文从不确定性的角度开展了关于LLMs风险评估的探索性研究。具体来说，我们使用12种不确定性估计方法和4个LLMs在4个重要的自然语言处理（NLP）任务上进行实验，以调查不确定性在探索LLMs能力和对抗其不良行为方面的程度。
+    多模态大型语言模型（MLLM）的快速进展强调了向学术界引入具有挑战性而又真实的基准的需求。现有的基准主要关注简单的自然图像理解，但Multi成为了MLLM的尖端基准，提供了一个综合性的数据集，用于评估MLLM对理解复杂图表和科学问题的能力。该基准反映了当前真实的考试风格，提供多模态的输入，并要求准确或开放式的回答，类似于现实中的学校考试。它通过各种任务挑战MLLM，从公式推导到图像细节分析，以及跨模态推理。Multi包括超过18,000个问题，重点关注不同格式的基于科学的问答。我们还引入了Multi-Elite，一个包含500个问题的子集，用于测试MLLM的极端情况，以及Multi-Extend，通过超过4..。
 
-    The recent performance leap of Large Language Models (LLMs) opens up new opportunities across numerous industrial applications and domains. However, erroneous generations, such as false predictions, misinformation, and hallucination made by LLMs, have also raised severe concerns for the trustworthiness of LLMs', especially in safety-, security- and reliability-sensitive scenarios, potentially hindering real-world adoptions. While uncertainty estimation has shown its potential for interpreting the prediction risks made by general machine learning (ML) models, little is known about whether and to what extent it can help explore an LLM's capabilities and counteract its undesired behavior. To bridge the gap, in this paper, we initiate an exploratory study on the risk assessment of LLMs from the lens of uncertainty. In particular, we experiment with twelve uncertainty estimation methods and four LLMs on four prominent natural language processing (NLP) tasks to investigate to what extent unc
+    Rapid progress in multimodal large language models (MLLMs) highlights the need to introduce challenging yet realistic benchmarks to the academic community. Existing benchmarks primarily focus on simple natural image understanding, but Multi emerges as a cutting-edge benchmark for MLLMs, offering a comprehensive dataset for evaluating MLLMs against understanding complex figures and tables, and scientific questions. This benchmark, reflecting current realistic examination styles, provides multimodal inputs and requires responses that are either precise or open-ended, similar to real-life school tests. It challenges MLLMs with a variety of tasks, ranging from formula derivation to image detail analysis, and cross-modality reasoning. Multi includes over 18,000 questions, with a focus on science-based QA in diverse formats. We also introduce Multi-Elite, a 500-question subset for testing the extremities of MLLMs, and Multi-Extend, which enhances In-Context Learning research with more than 4
     
-[^9]: NTK-近似MLP融合用于高效的语言模型微调
+[^7]: 大型语言模型的人类可读指纹
 
-    NTK-approximating MLP Fusion for Efficient Language Model Fine-tuning. (arXiv:2307.08941v1 [cs.LG])
+    Human-Readable Fingerprint for Large Language Models
 
-    [http://arxiv.org/abs/2307.08941](http://arxiv.org/abs/2307.08941)
+    [https://arxiv.org/abs/2312.04828](https://arxiv.org/abs/2312.04828)
 
-    该论文通过使用神经切向核近似MLP融合，提出了一种高效的语言模型微调方法。实验证明，这种方法能够在降低计算和存储开销的同时保持较好的模型性能。
+    这项研究介绍了一种大型语言模型的人类可读指纹，可以唯一识别出基本模型，并且不暴露模型参数或干扰训练。通过观察和验证，研究发现模型参数的向量方向在预训练后保持稳定，成为识别基本模型的重要条件。
 
     
 
-    在许多自然语言处理应用中，微调预训练语言模型(PLM)已成为主要策略。然而，即使是微调PLM和进行推理也是昂贵的，特别是在计算能力较低的边缘设备上。已经广泛研究了一些通用的方法（例如量化和蒸馏）来减少PLM微调的计算/存储开销，但很少有一次性压缩技术被探索。在本文中，我们研究了多层感知器(MLP)模块中预训练语言模型(PLM)的神经切向核(NTK)，并提出通过NTK近似MLP融合来创建一个轻量级的PLM。为实现这一目标，我们将MLP重新视为一束子MLP，并将它们聚类为给定数量的质心，然后将其恢复为压缩的MLP，并意外地显示出对原始PLM的NTK进行良好近似的效果。在自然语言处理数据集上进行了大量实验以验证PLM微调的效果。
+    由于大型语言模型（LLM）的资源密集型训练和配套的精心设计的许可证，保护LLM的版权变得至关重要。然而，由于可能的参数修改，确定LLM的原始基本模型是具有挑战性的。在本研究中，我们介绍了一种用于LLM的人类可读指纹，可以唯一地识别基本模型，而不暴露模型参数或干扰训练。我们首先观察到，在预训练期间模型收敛后，LLM参数的向量方向保持稳定，通过后续的训练步骤，包括持续预训练、监督微调和RLHF，几乎没有扰动，这使得它成为识别基本模型的足够条件。通过继续训练LLM并添加一个额外的项来推开模型参数的方向，验证了这种必要性，结果使得模型受损。然而，这个方向容易受到简单攻击的影响，如维度...
 
-    Fine-tuning a pre-trained language model (PLM) emerges as the predominant strategy in many natural language processing applications. However, even fine-tuning the PLMs and doing inference are expensive, especially on edge devices with low computing power. Some general approaches (e.g. quantization and distillation) have been widely studied to reduce the compute/memory of PLM fine-tuning, while very few one-shot compression techniques are explored. In this paper, we investigate the neural tangent kernel (NTK)--which reveals the gradient descent dynamics of neural networks--of the multilayer perceptrons (MLP) modules in a PLM and propose to coin a lightweight PLM through NTK-approximating MLP fusion. To achieve this, we reconsider the MLP as a bundle of sub-MLPs, and cluster them into a given number of centroids, which can then be restored as a compressed MLP and surprisingly shown to well approximate the NTK of the original PLM. Extensive experiments of PLM fine-tuning on both natural l
+    Protecting the copyright of large language models (LLMs) has become crucial due to their resource-intensive training and accompanying carefully designed licenses. However, identifying the original base model of an LLM is challenging due to potential parameter alterations. In this study, we introduce a human-readable fingerprint for LLMs that uniquely identifies the base model without exposing model parameters or interfering with training. We first observe that the vector direction of LLM parameters remains stable after the model has converged during pretraining, showing negligible perturbations through subsequent training steps, including continued pretraining, supervised fine-tuning (SFT), and RLHF, which makes it a sufficient condition to identify the base model. The necessity is validated by continuing to train an LLM with an extra term to drive away the model parameters' direction and the model becomes damaged. However, this direction is vulnerable to simple attacks like dimension 
+    
+[^8]: 在自动语音识别中持续学习新词
+
+    Continuously Learning New Words in Automatic Speech Recognition. (arXiv:2401.04482v1 [cs.CL])
+
+    [http://arxiv.org/abs/2401.04482](http://arxiv.org/abs/2401.04482)
+
+    该论文提出了一种自我监督的持续学习方法，用于解决自动语音识别中识别新词的问题。通过对讲座录音进行推理和收集包含新词的话语，然后在自适应数据集上进行持续学习，可以在新词出现频率较高时提高性能，同时保持整体性能。
+
+    
+
+    尽管最近取得了进展，但自动语音识别（ASR）系统仍然远未完美。典型的错误包括缩写词、命名实体和领域特定的专用词，这些词几乎没有或没有数据可用来训练。为了解决识别这些词的问题，我们提出了一种自我监督的持续学习方法。给定带有对应幻灯片的讲座录音，我们通过使用先前工作中的记忆增强型ASR模型来将模型偏向于从幻灯片中解码新词。然后，我们对讲座进行推理，将包含检测到的新词的话语收集到自适应数据集中。接着，对这个集合进行持续学习，通过调整添加到模型的每个权重矩阵的低秩矩阵权重。整个过程对多个讲座进行迭代。我们展示了通过这种方法，我们在新词出现频率较高时获得了性能的提升（超过80%的召回率），同时保持了模型的整体性能。
+
+    Despite recent advances, Automatic Speech Recognition (ASR) systems are still far from perfect. Typical errors include acronyms, named entities and domain-specific special words for which little or no data is available. To address the problem of recognizing these words, we propose an self-supervised continual learning approach. Given the audio of a lecture talk with corresponding slides, we bias the model towards decoding new words from the slides by using a memory-enhanced ASR model from previous work. Then, we perform inference on the talk, collecting utterances that contain detected new words into an adaptation dataset. Continual learning is then performed on this set by adapting low-rank matrix weights added to each weight matrix of the model. The whole procedure is iterated for many talks. We show that with this approach, we obtain increasing performance on the new words when they occur more frequently (more than 80% recall) while preserving the general performance of the model.
+    
+[^9]: 发挥指导调整的大语言模型在端到端语音识别中的零-shot能力
+
+    Harnessing the Zero-Shot Power of Instruction-Tuned Large Language Model in End-to-End Speech Recognition. (arXiv:2309.10524v1 [eess.AS])
+
+    [http://arxiv.org/abs/2309.10524](http://arxiv.org/abs/2309.10524)
+
+    本论文结合指导调整的大语言模型（LLM）和端到端自动语音识别（ASR），利用LLM的零-shot能力来改善语音识别性能。
+
+    
+
+    我们提出了一种将指导调整的大语言模型和端到端自动语音识别相结合的新方法。现代大语言模型在零-shot学习中可以执行各种语言任务，只要提供明确的指导或提示来指导文本生成过程。我们探索使用这种零-shot能力的大语言模型来提取语言信息，以改善语音识别性能。具体来说，我们将大语言模型引导去纠正语音识别假设中的语法错误，并利用嵌入的语言知识进行端到端语音识别。所提出的模型基于混合连接主义时间分类和注意力架构，其中指导调整的大语言模型（即Llama2）被用作解码器的前端。通过CTC解码从编码器获得一个需要纠正的语音识别假设，然后将其与指导一起输入大语言模型。解码器随后采取...
+
+    We present a novel integration of an instruction-tuned large language model (LLM) and end-to-end automatic speech recognition (ASR). Modern LLMs can perform a wide range of linguistic tasks within zero-shot learning when provided with a precise instruction or a prompt to guide the text generation process towards the desired task. We explore using this zero-shot capability of LLMs to extract linguistic information that can contribute to improving ASR performance. Specifically, we direct an LLM to correct grammatical errors in an ASR hypothesis and harness the embedded linguistic knowledge to conduct end-to-end ASR. The proposed model is built on the hybrid connectionist temporal classification (CTC) and attention architecture, where an instruction-tuned LLM (i.e., Llama2) is employed as a front-end of the decoder. An ASR hypothesis, subject to correction, is obtained from the encoder via CTC decoding, which is then fed into the LLM along with an instruction. The decoder subsequently tak
     
 

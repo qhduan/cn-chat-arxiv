@@ -2,67 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [A Bound on the Maximal Marginal Degrees of Freedom](https://arxiv.org/abs/2402.12885) | 该论文提出了对于核岭回归的低秩近似和替代方法中，关于低维近似秩的一个下界，从而保证可靠的预测能力，并将有效维度与最大统计杠杆得分联系起来。 |
-| [^2] | [Testing Stationarity and Change Point Detection in Reinforcement Learning](https://arxiv.org/abs/2203.01707) | 开发了一种能够在非平稳环境中进行策略优化的强化学习方法，通过测试最优Q函数的非平稳性并开发序贯变点检测方法来实现。 |
-| [^3] | [Partial Identifiability for Domain Adaptation.](http://arxiv.org/abs/2306.06510) | 本论文提出了一种针对无监督领域自适应的部分可识别性方法，通过依赖跨域因果机制的最小改变属性，在保持特定组分跨域不变的前提下最小化分布转移的不必要影响。 |
-| [^4] | [Machine learning with tree tensor networks, CP rank constraints, and tensor dropout.](http://arxiv.org/abs/2305.19440) | 本文介绍了一种新的机器学习方法，通过基于树状张量网络的CP秩约束和张量丢弃，来构建低秩分类器，并在时尚-MNIST图像分类中展示出了优异的表现。 |
+| [^1] | [Generative Modeling for Tabular Data via Penalized Optimal Transport Network](https://arxiv.org/abs/2402.10456) | 提出了一种名为POTNet的生成建模网络，基于边缘惩罚的Wasserstein损失，能够有效地建模同时包含分类和连续特征的表格数据。 |
+| [^2] | [Uncertainty-Aware Partial-Label Learning](https://arxiv.org/abs/2402.00592) | 本文提出了一种基于最近邻的部分标签学习算法，利用Dempster-Shafer理论实现对模糊标记的数据的训练。实验结果表明，该算法能够提供良好的不确定性估计，并具有竞争力的预测性能。 |
+| [^3] | [Unexpected Improvements to Expected Improvement for Bayesian Optimization.](http://arxiv.org/abs/2310.20708) | 提出了LogEI作为一类新的贝叶斯优化的获得函数，具有与传统的EI函数相同或近似相等的最优解，但数值上更容易进行优化。 |
+| [^4] | [On Penalty-based Bilevel Gradient Descent Method.](http://arxiv.org/abs/2302.05185) | 本文提出了基于惩罚的双层梯度下降算法，解决了下层非强凸约束双层问题，实验表明该算法有效。 |
 
 # 详细
 
-[^1]: 对最大边际自由度的一个界限
+[^1]: 通过惩罚最优输运网络对表格数据进行生成建模
 
-    A Bound on the Maximal Marginal Degrees of Freedom
+    Generative Modeling for Tabular Data via Penalized Optimal Transport Network
 
-    [https://arxiv.org/abs/2402.12885](https://arxiv.org/abs/2402.12885)
+    [https://arxiv.org/abs/2402.10456](https://arxiv.org/abs/2402.10456)
 
-    该论文提出了对于核岭回归的低秩近似和替代方法中，关于低维近似秩的一个下界，从而保证可靠的预测能力，并将有效维度与最大统计杠杆得分联系起来。
-
-    
-
-    arXiv:2402.12885v1 公告类型: 交叉摘要: 通用核岭回归在内存分配和计算时间上成本高昂。本文研究了核岭回归的低秩近似和替代方法，以应对这些困难。本文的基本贡献在于对低维近似的秩提出了一个下界，要求其保持可靠的预测能力。该界限将有效维度与最大统计杠杆得分联系起来。我们通过涉及核的正则性来表征有效维度及其随正则化参数的增长行为。对于适当选择的核，这种增长被证明是对数渐近的，从而证明了低秩近似作为Nyström方法的合理性。
-
-    arXiv:2402.12885v1 Announce Type: cross  Abstract: Common kernel ridge regression is expensive in memory allocation and computation time. This paper addresses low rank approximations and surrogates for kernel ridge regression, which bridge these difficulties. The fundamental contribution of the paper is a lower bound on the rank of the low dimensional approximation, which is required such that the prediction power remains reliable. The bound relates the effective dimension with the largest statistical leverage score. We characterize the effective dimension and its growth behavior with respect to the regularization parameter by involving the regularity of the kernel. This growth is demonstrated to be asymptotically logarithmic for suitably chosen kernels, justifying low-rank approximations as the Nystr\"om method.
-    
-[^2]: 在强化学习中测试平稳性和变点检测
-
-    Testing Stationarity and Change Point Detection in Reinforcement Learning
-
-    [https://arxiv.org/abs/2203.01707](https://arxiv.org/abs/2203.01707)
-
-    开发了一种能够在非平稳环境中进行策略优化的强化学习方法，通过测试最优Q函数的非平稳性并开发序贯变点检测方法来实现。
+    提出了一种名为POTNet的生成建模网络，基于边缘惩罚的Wasserstein损失，能够有效地建模同时包含分类和连续特征的表格数据。
 
     
 
-    我们考虑可能非平稳环境下的离线强化学习（RL）方法。许多文献中现有的RL算法依赖于需要系统转换和奖励函数随时间保持恒定的平稳性假设。然而，实践中平稳性假设是有限制的，并且在许多应用中很可能被违反，包括交通信号控制、机器人技术和移动健康。在本文中，我们开发了一种一致的程序，基于预先收集的历史数据测试最优Q函数的非平稳性，无需额外的在线数据收集。基于所提出的检验，我们进一步开发了一种顺序变点检测方法，可以自然地与现有最先进的RL方法相结合，在非平稳环境中进行策略优化。我们的方法的有效性通过理论结果、仿真研究和实践中的案例得到了展示。
+    准确学习表格数据中行的概率分布并生成真实的合成样本的任务既关键又非平凡。Wasserstein生成对抗网络(WGAN)在生成建模中取得了显著进展，解决了其前身生成对抗网络所面临的挑战。然而，由于表格数据中存在混合数据类型和多模态性，生成器和鉴别器之间的微妙平衡以及Wasserstein距离在高维度中的固有不稳定性，WGAN通常无法生成高保真样本。因此，我们提出了POTNet（惩罚最优输运网络），这是一种基于新颖、强大且可解释的边际惩罚Wasserstein（MPW）损失的生成深度神经网络。POTNet能够有效地建模包含分类和连续特征的表格数据。
 
-    arXiv:2203.01707v3 Announce Type: replace-cross  Abstract: We consider offline reinforcement learning (RL) methods in possibly nonstationary environments. Many existing RL algorithms in the literature rely on the stationarity assumption that requires the system transition and the reward function to be constant over time. However, the stationarity assumption is restrictive in practice and is likely to be violated in a number of applications, including traffic signal control, robotics and mobile health. In this paper, we develop a consistent procedure to test the nonstationarity of the optimal Q-function based on pre-collected historical data, without additional online data collection. Based on the proposed test, we further develop a sequential change point detection method that can be naturally coupled with existing state-of-the-art RL methods for policy optimization in nonstationary environments. The usefulness of our method is illustrated by theoretical results, simulation studies, an
+    arXiv:2402.10456v1 Announce Type: cross  Abstract: The task of precisely learning the probability distribution of rows within tabular data and producing authentic synthetic samples is both crucial and non-trivial. Wasserstein generative adversarial network (WGAN) marks a notable improvement in generative modeling, addressing the challenges faced by its predecessor, generative adversarial network. However, due to the mixed data types and multimodalities prevalent in tabular data, the delicate equilibrium between the generator and discriminator, as well as the inherent instability of Wasserstein distance in high dimensions, WGAN often fails to produce high-fidelity samples. To this end, we propose POTNet (Penalized Optimal Transport Network), a generative deep neural network based on a novel, robust, and interpretable marginally-penalized Wasserstein (MPW) loss. POTNet can effectively model tabular data containing both categorical and continuous features. Moreover, it offers the flexibil
     
-[^3]: 针对领域自适应的部分可识别性
+[^2]: 不确定性感知的部分标签学习
 
-    Partial Identifiability for Domain Adaptation. (arXiv:2306.06510v1 [cs.LG])
+    Uncertainty-Aware Partial-Label Learning
 
-    [http://arxiv.org/abs/2306.06510](http://arxiv.org/abs/2306.06510)
+    [https://arxiv.org/abs/2402.00592](https://arxiv.org/abs/2402.00592)
 
-    本论文提出了一种针对无监督领域自适应的部分可识别性方法，通过依赖跨域因果机制的最小改变属性，在保持特定组分跨域不变的前提下最小化分布转移的不必要影响。
-
-    
-
-    无监督领域适应对于许多没有目标域标签信息的实际应用至关重要。通常情况下，如果没有进一步的假设，特征和标签的联合分布在目标域中是不可识别的。为了解决这个问题，我们依赖跨域因果机制的最小改变属性，以最小化分布转移的不必要影响。为了编码这个属性，我们首先使用一个带有两个分区潜变量子空间的潜变量模型来制定数据生成过程：不变部分的分布在跨域时保持不变，而稀疏的可变部分会在不同的域中发生变化。我们进一步限制了域移位对可变部分的影响。在温和的条件下，我们展示了部分可识别的潜变量，从而证明了目标域中数据和标签的联合分布也是可识别的。
-
-    Unsupervised domain adaptation is critical to many real-world applications where label information is unavailable in the target domain. In general, without further assumptions, the joint distribution of the features and the label is not identifiable in the target domain. To address this issue, we rely on the property of minimal changes of causal mechanisms across domains to minimize unnecessary influences of distribution shifts. To encode this property, we first formulate the data-generating process using a latent variable model with two partitioned latent subspaces: invariant components whose distributions stay the same across domains and sparse changing components that vary across domains. We further constrain the domain shift to have a restrictive influence on the changing components. Under mild conditions, we show that the latent variables are partially identifiable, from which it follows that the joint distribution of data and labels in the target domain is also identifiable. Give
-    
-[^4]: 基于树张量网络、CP秩约束和张量丢弃的机器学习方法。
-
-    Machine learning with tree tensor networks, CP rank constraints, and tensor dropout. (arXiv:2305.19440v1 [cs.LG])
-
-    [http://arxiv.org/abs/2305.19440](http://arxiv.org/abs/2305.19440)
-
-    本文介绍了一种新的机器学习方法，通过基于树状张量网络的CP秩约束和张量丢弃，来构建低秩分类器，并在时尚-MNIST图像分类中展示出了优异的表现。
+    本文提出了一种基于最近邻的部分标签学习算法，利用Dempster-Shafer理论实现对模糊标记的数据的训练。实验结果表明，该算法能够提供良好的不确定性估计，并具有竞争力的预测性能。
 
     
 
-    张量网络可以通过降低自由度来近似表示$N$阶张量，并构成一系列压缩的小张量网络。在[arXiv:2205.15296]文章中，作者提出可以通过对张量网络中的张量的CP秩附加约束，进一步降低计算成本。本文旨在展示如何利用基于树状张量网络(TTN)的CP秩约束和张量丢弃的方法来进行机器学习，并表明该方法在时尚-MNIST图像分类中优于其他基于张量网络的方法。当分支系数$b=4$时，低秩TTN分类器达到了测试集准确率90.3\%，同时拥有较低的计算成本。基于线性元素构成的张量网络分类器避免了深度神经网络的梯度消失问题。CP秩约束还有其他优点：可以减少和调整模型参数数量。
+    在现实世界的应用中，人们经常遇到标记模糊的数据，即不同的标注者为相同样本分配了冲突的类别标签。部分标签学习允许在这种弱监督的情况下训练分类器。虽然最先进的方法已经具有良好的预测性能，但它们往往受到错误的不确定性估计的影响。然而，在医学和自动驾驶等安全关键领域，具有良好校准的不确定性估计尤为重要。在本文中，我们提出了一种基于最近邻的部分标签学习算法，该算法利用了Dempster-Shafer理论。对人工数据集和实际数据集进行的广泛实验表明，所提出的方法能够提供良好的不确定性估计，并具有竞争力的预测性能。此外，我们还证明了我们的算法具有风险一致性。
 
-    Tensor networks approximate order-$N$ tensors with a reduced number of degrees of freedom that is only polynomial in $N$ and arranged as a network of partially contracted smaller tensors. As suggested in [arXiv:2205.15296] in the context of quantum many-body physics, computation costs can be further substantially reduced by imposing constraints on the canonical polyadic (CP) rank of the tensors in such networks. Here we demonstrate how tree tensor networks (TTN) with CP rank constraints and tensor dropout can be used in machine learning. The approach is found to outperform other tensor-network based methods in Fashion-MNIST image classification. A low-rank TTN classifier with branching ratio $b=4$ reaches test set accuracy 90.3\% with low computation costs. Consisting of mostly linear elements, tensor network classifiers avoid the vanishing gradient problem of deep neural networks. The CP rank constraints have additional advantages: The number of parameters can be decreased and tuned m
+    In real-world applications, one often encounters ambiguously labeled data, where different annotators assign conflicting class labels. Partial-label learning allows training classifiers in this weakly supervised setting. While state-of-the-art methods already feature good predictive performance, they often suffer from miscalibrated uncertainty estimates. However, having well-calibrated uncertainty estimates is important, especially in safety-critical domains like medicine and autonomous driving. In this article, we propose a novel nearest-neighbor-based partial-label-learning algorithm that leverages Dempster-Shafer theory. Extensive experiments on artificial and real-world datasets show that the proposed method provides a well-calibrated uncertainty estimate and achieves competitive prediction performance. Additionally, we prove that our algorithm is risk-consistent.
+    
+[^3]: 对贝叶斯优化的期望改进的意外提升
+
+    Unexpected Improvements to Expected Improvement for Bayesian Optimization. (arXiv:2310.20708v1 [cs.LG])
+
+    [http://arxiv.org/abs/2310.20708](http://arxiv.org/abs/2310.20708)
+
+    提出了LogEI作为一类新的贝叶斯优化的获得函数，具有与传统的EI函数相同或近似相等的最优解，但数值上更容易进行优化。
+
+    
+
+    期望改进（EI）可以说是贝叶斯优化中最流行的获得函数，并且已经在很多成功的应用中得到了应用。但是，EI的性能往往被一些新方法超越。尤其是，EI及其变种在并行和多目标设置中很难进行优化，因为它们的获得值在许多区域中数值上变为零。当观测次数增加、搜索空间的维度增加或约束条件的数量增加时，这种困难通常会增加，导致性能在文献中不一致且大多数情况下亚优化。在本论文中，我们提出了LogEI，这是一类新的采样函数。与标准EI相比，这些LogEI函数的成员要么具有相同的最优解，要么具有近似相等的最优解，但数值上更容易进行优化。我们证明了数值病态在“经典”分析EI、期望超体积改进（EHVI）以及它们的...
+
+    Expected Improvement (EI) is arguably the most popular acquisition function in Bayesian optimization and has found countless successful applications, but its performance is often exceeded by that of more recent methods. Notably, EI and its variants, including for the parallel and multi-objective settings, are challenging to optimize because their acquisition values vanish numerically in many regions. This difficulty generally increases as the number of observations, dimensionality of the search space, or the number of constraints grow, resulting in performance that is inconsistent across the literature and most often sub-optimal. Herein, we propose LogEI, a new family of acquisition functions whose members either have identical or approximately equal optima as their canonical counterparts, but are substantially easier to optimize numerically. We demonstrate that numerical pathologies manifest themselves in "classic" analytic EI, Expected Hypervolume Improvement (EHVI), as well as their
+    
+[^4]: 基于惩罚的双层梯度下降方法研究
+
+    On Penalty-based Bilevel Gradient Descent Method. (arXiv:2302.05185v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2302.05185](http://arxiv.org/abs/2302.05185)
+
+    本文提出了基于惩罚的双层梯度下降算法，解决了下层非强凸约束双层问题，实验表明该算法有效。
+
+    This paper proposes a penalty-based bilevel gradient descent algorithm to solve the constrained bilevel problem without lower-level strong convexity, and experiments show its efficiency.
+
+    双层优化在超参数优化、元学习和强化学习等领域有广泛应用，但是双层优化问题难以解决。最近的可扩展双层算法主要集中在下层目标函数是强凸或无约束的双层优化问题上。在本文中，我们通过惩罚方法来解决双层问题。我们证明，在一定条件下，惩罚重构可以恢复原始双层问题的解。此外，我们提出了基于惩罚的双层梯度下降（PBGD）算法，并证明了其在下层非强凸约束双层问题上的有限时间收敛性。实验展示了所提出的PBGD算法的效率。
+
+    Bilevel optimization enjoys a wide range of applications in hyper-parameter optimization, meta-learning and reinforcement learning. However, bilevel optimization problems are difficult to solve. Recent progress on scalable bilevel algorithms mainly focuses on bilevel optimization problems where the lower-level objective is either strongly convex or unconstrained. In this work, we tackle the bilevel problem through the lens of the penalty method. We show that under certain conditions, the penalty reformulation recovers the solutions of the original bilevel problem. Further, we propose the penalty-based bilevel gradient descent (PBGD) algorithm and establish its finite-time convergence for the constrained bilevel problem without lower-level strong convexity. Experiments showcase the efficiency of the proposed PBGD algorithm.
     
 
