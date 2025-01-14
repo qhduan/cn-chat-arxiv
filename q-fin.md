@@ -2,37 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [How Does Artificial Intelligence Improve Human Decision-Making? Evidence from the AI-Powered Go Program.](http://arxiv.org/abs/2310.08704) | 本研究通过一个AI-Powered围棋程序（APG）的引入，发现人类从人工智能中学习可以显著提高着法质量，并减少错误数量和大小。年轻选手和接触过人工智能的国家的选手获得了更大的改进，技术较差的选手获得了更高的边际效益。 |
-| [^2] | [Cyber Risk Assessment for Capital Management.](http://arxiv.org/abs/2205.08435) | 本文提出了一个两柱网络风险管理框架，其中包括网络风险评估和网络资本管理。通过基于历史网络事件数据集的案例研究，展示了全面的成本效益分析对于网络风险管理的重要性，并说明最佳策略取决于不同因素。 |
+| [^1] | [A Mean-Field Game of Market Entry: Portfolio Liquidation with Trading Constraints](https://arxiv.org/abs/2403.10441) | 研究了带有交易约束的投资组合清算的均场博弈，证明了均衡交易率可通过高度非线性积分方程求解，并证明了均衡存在且唯一。 |
+| [^2] | [Pricing of geometric Asian options in the Volterra-Heston model](https://arxiv.org/abs/2402.15828) | 本文研究了在Volterra-Heston模型中对几何亚式期权的定价问题，提出了针对这种类别随机波动率模型的几何亚式期权价格的半封闭式公式，并采用了数值研究方法。 |
+| [^3] | [SpotV2Net: Multivariate Intraday Spot Volatility Forecasting via Vol-of-Vol-Informed Graph Attention Networks.](http://arxiv.org/abs/2401.06249) | SpotV2Net是一种基于图注意力网络的多元日内现货波动率预测模型，通过将金融资产表示为图中的节点，并考虑非参数高频傅里叶估计的现货波动率和共波动率作为节点特征，以及波动率和共波动率的傅里叶估计作为节点边缘的特征，SpotV2Net显示出了改进的准确性，并且在日内多步预测时保持了准确性。 |
 
 # 详细
 
-[^1]: 人工智能如何提升人类决策能力？来自AI-Powered围棋程序的证据。
+[^1]: 市场准入的均场博弈：带有交易约束的投资组合清算
 
-    How Does Artificial Intelligence Improve Human Decision-Making? Evidence from the AI-Powered Go Program. (arXiv:2310.08704v1 [econ.GN])
+    A Mean-Field Game of Market Entry: Portfolio Liquidation with Trading Constraints
 
-    [http://arxiv.org/abs/2310.08704](http://arxiv.org/abs/2310.08704)
+    [https://arxiv.org/abs/2403.10441](https://arxiv.org/abs/2403.10441)
 
-    本研究通过一个AI-Powered围棋程序（APG）的引入，发现人类从人工智能中学习可以显著提高着法质量，并减少错误数量和大小。年轻选手和接触过人工智能的国家的选手获得了更大的改进，技术较差的选手获得了更高的边际效益。
-
-    
-
-    我们研究了人类如何从人工智能中学习，利用了一个突然击败最好的职业选手的AI-Powered围棋程序（APG）的引入。我们比较了职业选手的着法质量和APG在其公开发布前后的卓越解决方案的着法质量。我们分析了749,190个着法，发现了玩家着法质量的显著提升，同时错误数量和大小的减少。这种效果在比赛的初期阶段尤为显著，因为此时不确定性最大。此外，年轻选手和那些处于接触过人工智能的国家的选手获得了更大的改进，这表明了从人工智能中学习可能存在的不平等问题。此外，虽然各个水平的选手都能学习，但技术较差的选手获得了更高的边际效益。这些发现对于寻求在组织中有效采用和利用人工智能的管理者具有重要影响。
-
-    We study how humans learn from AI, exploiting an introduction of an AI-powered Go program (APG) that unexpectedly outperformed the best professional player. We compare the move quality of professional players to that of APG's superior solutions around its public release. Our analysis of 749,190 moves demonstrates significant improvements in players' move quality, accompanied by decreased number and magnitude of errors. The effect is pronounced in the early stages of the game where uncertainty is highest. In addition, younger players and those in AI-exposed countries experience greater improvement, suggesting potential inequality in learning from AI. Further, while players of all levels learn, less skilled players derive higher marginal benefits. These findings have implications for managers seeking to adopt and utilize AI effectively within their organizations.
-    
-[^2]: 资本管理的网络风险评估
-
-    Cyber Risk Assessment for Capital Management. (arXiv:2205.08435v3 [q-fin.RM] UPDATED)
-
-    [http://arxiv.org/abs/2205.08435](http://arxiv.org/abs/2205.08435)
-
-    本文提出了一个两柱网络风险管理框架，其中包括网络风险评估和网络资本管理。通过基于历史网络事件数据集的案例研究，展示了全面的成本效益分析对于网络风险管理的重要性，并说明最佳策略取决于不同因素。
+    研究了带有交易约束的投资组合清算的均场博弈，证明了均衡交易率可通过高度非线性积分方程求解，并证明了均衡存在且唯一。
 
     
 
-    网络风险是一个在日益数字化的世界中无处不在的风险，众所周知，这种风险很难管理。本文提出了一个两柱网络风险管理框架来解决这个问题。第一柱，网络风险评估，将保险中的频率-严重性模型与网络安全中的级联模型相结合，以捕捉网络风险的独特特征。第二柱，网络资本管理，提供了有关平衡网络风险管理策略的信息决策，包括网络安全投资、保险覆盖和储备金。这个框架通过基于历史网络事件数据集的案例研究进行了演示，表明对于预算有限、目标多样化的公司来说，全面的成本效益分析对于网络风险管理至关重要。敏感性分析还说明了最佳策略取决于诸多因素，如网络安全投资的数量和效果。
+    我们考虑了涉及$N$个玩家的最优投资组合清算的博弈和均场博弈，在这些博弈中，玩家不被允许改变交易方向。初始空头头寸的玩家只能买入，而初始多头头寸的玩家只能卖出股票。在模型参数合适的条件下，我们证明了这些博弈等价于需要确定最佳市场准入和退出时间的定时博弈。我们确定了均衡的准入和退出时间，并证明了均衡的交易率可以通过以端点条件为内生条件的高度非线性高阶积分方程的解来表征。我们证明了积分方程存在唯一解，由此我们得出了均场和$N$个玩家博弈中均衡存在且唯一的结论。
 
-    Cyber risk is an omnipresent risk in the increasingly digitized world that is known to be difficult to manage. This paper proposes a two-pillar cyber risk management framework to address such difficulty. The first pillar, cyber risk assessment, blends the frequency-severity model in insurance with the cascade model in cybersecurity, to capture the unique feature of cyber risk. The second pillar, cyber capital management, provides informative decision-making on a balanced cyber risk management strategy, which includes cybersecurity investments, insurance coverage, and reserves. This framework is demonstrated by a case study based on a historical cyber incident dataset, which shows that a comprehensive cost-benefit analysis is necessary for a budget-constrained company with competing objectives for cyber risk management. Sensitivity analysis also illustrates that the best strategy depends on various factors, such as the amount of cybersecurity investments and the effectiveness of cyberse
+    arXiv:2403.10441v1 Announce Type: new  Abstract: We consider both $N$-player and mean-field games of optimal portfolio liquidation in which the players are not allowed to change the direction of trading. Players with an initially short position of stocks are only allowed to buy while players with an initially long position are only allowed to sell the stock. Under suitable conditions on the model parameters we show that the games are equivalent to games of timing where the players need to determine the optimal times of market entry and exit. We identify the equilibrium entry and exit times and prove that equilibrium mean-trading rates can be characterized in terms of the solutions to a highly non-linear higher-order integral equation with endogenous terminal condition. We prove the existence of a unique solution to the integral equation from which we obtain the existence of a unique equilibrium both in the mean-field and the $N$-player game.
+    
+[^2]: Volterra-Heston模型中几何亚式期权定价
+
+    Pricing of geometric Asian options in the Volterra-Heston model
+
+    [https://arxiv.org/abs/2402.15828](https://arxiv.org/abs/2402.15828)
+
+    本文研究了在Volterra-Heston模型中对几何亚式期权的定价问题，提出了针对这种类别随机波动率模型的几何亚式期权价格的半封闭式公式，并采用了数值研究方法。
+
+    
+
+    几何亚式期权是一种期权类型，其回报取决于一定时间段内基础资产的几何平均值。本文关注的是在Volterra-Heston模型类中对此类期权的定价，涵盖了粗糙Heston模型。我们得到了这类随机波动率模型中固定和浮动执行价格的几何亚式期权价格的半封闭式公式。这些公式需要明确计算股价对数和股价几何平均对数的条件联合Fourier变换。将我们的问题联系到仿射Volterra过程理论，我们将这个Fourier变换表示为一个适当构造的随机指数，其取决于Riccati-Volterra方程的解。最后，我们在粗糙Heston模型中对我们的结果进行了数值研究。
+
+    arXiv:2402.15828v1 Announce Type: new  Abstract: Geometric Asian options are a type of options where the payoff depends on the geometric mean of the underlying asset over a certain period of time. This paper is concerned with the pricing of such options for the class of Volterra-Heston models, covering the rough Heston model. We are able to derive semi-closed formulas for the prices of geometric Asian options with fixed and floating strikes for this class of stochastic volatility models. These formulas require the explicit calculation of the conditional joint Fourier transform of the logarithm of the stock price and the logarithm of the geometric mean of the stock price over time. Linking our problem to the theory of affine Volterra processes, we find a representation of this Fourier transform as a suitably constructed stochastic exponential, which depends on the solution of a Riccati-Volterra equation. Finally we provide a numerical study for our results in the rough Heston model.
+    
+[^3]: SpotV2Net：基于Vol-of-Vol-Informed Graph Attention Networks的多元日内现货波动率预测
+
+    SpotV2Net: Multivariate Intraday Spot Volatility Forecasting via Vol-of-Vol-Informed Graph Attention Networks. (arXiv:2401.06249v1 [q-fin.ST])
+
+    [http://arxiv.org/abs/2401.06249](http://arxiv.org/abs/2401.06249)
+
+    SpotV2Net是一种基于图注意力网络的多元日内现货波动率预测模型，通过将金融资产表示为图中的节点，并考虑非参数高频傅里叶估计的现货波动率和共波动率作为节点特征，以及波动率和共波动率的傅里叶估计作为节点边缘的特征，SpotV2Net显示出了改进的准确性，并且在日内多步预测时保持了准确性。
+
+    
+
+    本文介绍了一种基于图注意力网络结构的多元日内现货波动率预测模型SpotV2Net。SpotV2Net将金融资产表示为图中的节点，并将现货波动率和共波动率的非参数高频傅里叶估计作为节点特征。此外，它还将波动率的傅里叶估计和波动率的共波动率作为节点边缘的特征。我们使用道琼斯工业指数成分股的高频价格进行了大量的实证实验来测试SpotV2Net的预测准确性。我们得到的结果表明，与其他计量经济学和机器学习模型相比，SpotV2Net显示出更高的准确性。此外，我们的结果还表明，SpotV2Net在进行日内多步预测时保持准确性。为了解释SpotV2Net产生的预测结果，我们采用了GNNExplainer，这是一个与模型无关的可解释性方法。
+
+    This paper introduces SpotV2Net, a multivariate intraday spot volatility forecasting model based on a Graph Attention Network architecture. SpotV2Net represents financial assets as nodes within a graph and includes non-parametric high-frequency Fourier estimates of the spot volatility and co-volatility as node features. Further, it incorporates Fourier estimates of the spot volatility of volatility and co-volatility of volatility as features for node edges. We test the forecasting accuracy of SpotV2Net in an extensive empirical exercise, conducted with high-frequency prices of the components of the Dow Jones Industrial Average index. The results we obtain suggest that SpotV2Net shows improved accuracy, compared to alternative econometric and machine-learning-based models. Further, our results show that SpotV2Net maintains accuracy when performing intraday multi-step forecasts. To interpret the forecasts produced by SpotV2Net, we employ GNNExplainer, a model-agnostic interpretability to
     
 
