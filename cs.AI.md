@@ -2,104 +2,91 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Tiny Models are the Computational Saver for Large Models](https://arxiv.org/abs/2403.17726) | TinySaver是一种动态模型压缩方法，通过使用小型模型来自适应地替换大型模型，从而提高计算效率。 |
-| [^2] | [Advanced Artificial Intelligence Algorithms in Cochlear Implants: Review of Healthcare Strategies, Challenges, and Perspectives](https://arxiv.org/abs/2403.15442) | 人工智能在提高植入式听觉设备的语音质量方面具有前瞻性，并通过先进的信号处理技术以及应对多源语音和环境噪音挑战等方法来克服语音失真问题 |
-| [^3] | [A minimal coalition logic](https://arxiv.org/abs/2403.14704) | 提出了一个基于一般并发博弈模型的最小联盟逻辑，不具备传统模型中的独立性、序列性和确定性假设，展示了其完备性并与传统模型进行了比较 |
-| [^4] | [Are LLMs Good Cryptic Crossword Solvers?](https://arxiv.org/abs/2403.12094) | 本文建立了三种流行LLMs的基准结果，表明它们在难解填字游戏上的表现仍远远不及人类。 |
-| [^5] | [Efficient Pruning of Large Language Model with Adaptive Estimation Fusion](https://arxiv.org/abs/2403.10799) | 提出了一种简单而高效的剪枝方法，能够自适应地模拟每个子结构的重要性，并根据多层结构的结果自适应地融合粗粒度和细粒度的估计。 |
-| [^6] | [Content-aware Masked Image Modeling Transformer for Stereo Image Compression](https://arxiv.org/abs/2403.08505) | 提出了一种名为CAMSIC的立体图像压缩框架，通过引入面向内容感知的掩码图像建模（MIM）技术，使得无需额外Transformer解码器就能捕捉空间和视差依赖关系，实验结果表明实现了最先进的率失真结果。 |
-| [^7] | [ACPO: AI-Enabled Compiler-Driven Program Optimization](https://arxiv.org/abs/2312.09982) | 该论文提出了ACPO框架，通过机器学习模型提供给LLVM简单全面的工具，以实现编译器驱动的程序优化。 |
-| [^8] | [Self-Supervised Deconfounding Against Spatio-Temporal Shifts: Theory and Modeling](https://arxiv.org/abs/2311.12472) | 该论文针对时空数据中常见的分布变化问题提出了一种自监督去混淆方法并提出了名为DCA的理论解决方案。 |
-| [^9] | [Towards Real-time Training of Physics-informed Neural Networks: Applications in Ultrafast Ultrasound Blood Flow Imaging.](http://arxiv.org/abs/2309.04755) | 本研究提出了一种实时训练基于物理信息的神经网络（PINN）的框架，用于解决Navier-Stokes方程，以实现超快速超声血流成像。该框架将Navier-Stokes方程离散化为稳态，并通过迁移学习顺序求解稳态方程。此外，采用平均恒定随机梯度下降作为初始化，并提出了一种并行训练方案，适用于所有时间戳。 |
-| [^10] | [ChatGPT Needs SPADE (Sustainability, PrivAcy, Digital divide, and Ethics) Evaluation: A Review.](http://arxiv.org/abs/2305.03123) | 本文研究关注ChatGPT面临的可持续性、隐私、数字鸿沟和伦理问题，提出了SPADE评估的必要性，并给出了缓解和建议。 |
+| [^1] | [GOMA: Proactive Embodied Cooperative Communication via Goal-Oriented Mental Alignment](https://arxiv.org/abs/2403.11075) | GOMA提出了一种面向目标的心智对齐的合作沟通框架，通过最小化智能体心智状态部分之间的不一致性来帮助实现更好的合作。 |
+| [^2] | [MoPE: Parameter-Efficient and Scalable Multimodal Fusion via Mixture of Prompt Experts](https://arxiv.org/abs/2403.10568) | 本文提出了MoPE技术，通过解开提示以自适应捕获数据集级和实例级特征，引入了混合Prompt专家来增强表达能力，并且在多模态融合中表现出更大的表达能力和可扩展性。 |
+| [^3] | [A Mixed-Integer Conic Program for the Moving-Target Traveling Salesman Problem based on a Graph of Convex Sets](https://arxiv.org/abs/2403.04917) | 本文提出了一个新的公式，用于解决移动目标旅行推销员问题，该公式基于目标在空间-时间坐标系内成为凸集的概念，通过在凸集图中寻找最短路径来实现，在实验中表现出比当前Mixed Integer Conic Program (MICP)求解器更好的效果。 |
+| [^4] | [Remove that Square Root: A New Efficient Scale-Invariant Version of AdaGrad](https://arxiv.org/abs/2403.02648) | KATE是一种新的优化算法，提出了一种与AdaGrad标度不变的适应方法，并在广义线性模型和一般的非凸问题中证明了其标度不变性。数值实验结果表明，KATE在各种场景中均优于AdaGrad并与Adam性能匹配/超越。 |
+| [^5] | [Invariant Test-Time Adaptation for Vision-Language Model Generalization](https://arxiv.org/abs/2403.00376) | 本文提出了一个测试时提示调优范式，通过优化可学习的提示，迫使模型利用真正的因果不变特征，以解决视觉-语言模型在特定任务需求上无法有效利用预训练特征的挑战。 |
+| [^6] | [ACPO: AI-Enabled Compiler-Driven Program Optimization](https://arxiv.org/abs/2312.09982) | 该论文提出了ACPO框架，通过机器学习模型提供给LLVM简单全面的工具，以实现编译器驱动的程序优化。 |
+| [^7] | [Divergences between Language Models and Human Brains](https://arxiv.org/abs/2311.09308) | 该论文系统地探索了语言模型（LMs）和人类大脑在语言处理方面的差异，发现在社交/情感智能和物理常识领域，LMs无法很好地捕捉到人类的表现，但在这些领域对LMs进行微调可以提高其性能。 |
+| [^8] | [FLM-101B: An Open LLM and How to Train It with $100K Budget.](http://arxiv.org/abs/2309.03852) | 本文介绍了一种开放的LLM模型（FLM-101B）以及如何用10万美元的预算来训练它。通过采用增长策略，可以显著降低LLM训练的成本。同时，引入了一种系统的评估方法，以评估LLM的智能能力。 |
+| [^9] | [Unleashing the Imagination of Text: A Novel Framework for Text-to-image Person Retrieval via Exploring the Power of Words.](http://arxiv.org/abs/2307.09059) | 本研究提出了一个新的框架，通过探索文本中的文字的力量，实现了准确地将抽象的文本描述映射到具体的图像，从而实现了文本到图像的人物检索。 |
+| [^10] | [Set-based Neural Network Encoding.](http://arxiv.org/abs/2305.16625) | 提出了一种能够集合化地编码神经网络参数的神经网络权重编码方法，并引入了一种逐层编码方案来考虑神经网络的分层计算结构。同时引入了“pad-chunk-encode”流水线进行神经网络层的高效编码处理，还提出了新的神经网络泛化性能预测任务。 |
+| [^11] | [PastNet: Introducing Physical Inductive Biases for Spatio-temporal Video Prediction.](http://arxiv.org/abs/2305.11421) | 本文介绍了一种名为PastNet的新颖方法，通过在傅里叶域中引入谱卷积算子，利用内在的物理知识生成高质量的时空视频预测，并通过离散化局部特征降低计算成本。 |
 
 # 详细
 
-[^1]: 小型模型是大型模型的计算节省者
+[^1]: GOMA：通过面向目标的心智对齐实现主动合作沟通
 
-    Tiny Models are the Computational Saver for Large Models
+    GOMA: Proactive Embodied Cooperative Communication via Goal-Oriented Mental Alignment
 
-    [https://arxiv.org/abs/2403.17726](https://arxiv.org/abs/2403.17726)
+    [https://arxiv.org/abs/2403.11075](https://arxiv.org/abs/2403.11075)
 
-    TinySaver是一种动态模型压缩方法，通过使用小型模型来自适应地替换大型模型，从而提高计算效率。
-
-    
-
-    本文介绍了TinySaver，一种类似于早期退出的动态模型压缩方法，它使用小型模型来自适应地替换大型模型。与传统的压缩技术不同，像TinySaver这样的动态方法可以利用难度差异，使得某些输入能够提前完成推理过程，从而节省计算资源。大多数现有的早期退出设计是通过向模型的骨干结构附加额外的网络分支来实现的。然而，我们的研究揭示了完全独立的小型模型可以在对性能影响最小的情况下替代较大模型的大部分工作。将它们作为第一个退出点可以显著提高计算效率。通过搜索并使用最合适的小型模型作为给定大型模型的计算节省者，所提出的方法作为一种新颖且通用的模型压缩方法。
-
-    arXiv:2403.17726v1 Announce Type: new  Abstract: This paper introduces TinySaver, an early-exit-like dynamic model compression approach which employs tiny models to substitute large models adaptively. Distinct from traditional compression techniques, dynamic methods like TinySaver can leverage the difficulty differences to allow certain inputs to complete their inference processes early, thereby conserving computational resources. Most existing early exit designs are implemented by attaching additional network branches to the model's backbone. Our study, however, reveals that completely independent tiny models can replace a substantial portion of the larger models' job with minimal impact on performance. Employing them as the first exit can remarkably enhance computational efficiency. By searching and employing the most appropriate tiny model as the computational saver for a given large model, the proposed approaches work as a novel and generic method to model compression. This finding
-    
-[^2]: 人工智能在耳蜗植入装置中的先进算法：医疗策略、挑战和展望综述
-
-    Advanced Artificial Intelligence Algorithms in Cochlear Implants: Review of Healthcare Strategies, Challenges, and Perspectives
-
-    [https://arxiv.org/abs/2403.15442](https://arxiv.org/abs/2403.15442)
-
-    人工智能在提高植入式听觉设备的语音质量方面具有前瞻性，并通过先进的信号处理技术以及应对多源语音和环境噪音挑战等方法来克服语音失真问题
+    GOMA提出了一种面向目标的心智对齐的合作沟通框架，通过最小化智能体心智状态部分之间的不一致性来帮助实现更好的合作。
 
     
 
-    arXiv:2403.15442v1 公告类型: 跨领域 摘要: 自动语音识别（ASR）在我们的日常生活中发挥着至关重要的作用，不仅为与机器交互提供了便利，还为部分或完全听力受损的个体提供了沟通的机会。这一过程涉及以模拟形式接收语音信号，然后通过各种信号处理算法使其与容量有限的设备（如CI）兼容。然而，这些配备有有限数量电极的植入装置在合成过程中往往导致语音失真。尽管研究人员在使用各种最先进的信号处理技术改善接收到的语音质量方面做出了努力，但在涉及多个语音源、环境噪声和其他情况的场景中，挑战仍然存在。新人工智能（AI）方法的出现引入了先进的策略来解决这些限制。
+    口头交流在人类合作中起着至关重要的作用，特别是当合作伙伴只对任务、环境和彼此的心理状态具有不完整的信息时。本文提出了一种新颖的合作沟通框架，即面向目标的心智对齐（GOMA）。GOMA将口头交流形式化为一个规划问题，通过最小化与目标相关的智能体心智状态部分之间的不一致性来促进合作。这种方法使得一个具有身体的助手能够推理何时以及如何以自然语言主动开始与人类的口头沟通，从而帮助实现更好的合作。我们在两个具有挑战性的环境，Overcooked（一款多人游戏）和VirtualHome（一个家庭模拟器）中，对我们的方法进行了评估。实验结果表明，大型语言模型在生成基于语境的有意义沟通方面存在困难。
 
-    arXiv:2403.15442v1 Announce Type: cross  Abstract: Automatic speech recognition (ASR) plays a pivotal role in our daily lives, offering utility not only for interacting with machines but also for facilitating communication for individuals with either partial or profound hearing impairments. The process involves receiving the speech signal in analogue form, followed by various signal processing algorithms to make it compatible with devices of limited capacity, such as cochlear implants (CIs). Unfortunately, these implants, equipped with a finite number of electrodes, often result in speech distortion during synthesis. Despite efforts by researchers to enhance received speech quality using various state-of-the-art signal processing techniques, challenges persist, especially in scenarios involving multiple sources of speech, environmental noise, and other circumstances. The advent of new artificial intelligence (AI) methods has ushered in cutting-edge strategies to address the limitations
+    arXiv:2403.11075v1 Announce Type: cross  Abstract: Verbal communication plays a crucial role in human cooperation, particularly when the partners only have incomplete information about the task, environment, and each other's mental state. In this paper, we propose a novel cooperative communication framework, Goal-Oriented Mental Alignment (GOMA). GOMA formulates verbal communication as a planning problem that minimizes the misalignment between the parts of agents' mental states that are relevant to the goals. This approach enables an embodied assistant to reason about when and how to proactively initialize communication with humans verbally using natural language to help achieve better cooperation. We evaluate our approach against strong baselines in two challenging environments, Overcooked (a multiplayer game) and VirtualHome (a household simulator). Our experimental results demonstrate that large language models struggle with generating meaningful communication that is grounded in th
     
-[^3]: 一个最小联盟逻辑
+[^2]: MoPE：通过Prompt专家混合实现参数高效和可扩展的多模态融合
 
-    A minimal coalition logic
+    MoPE: Parameter-Efficient and Scalable Multimodal Fusion via Mixture of Prompt Experts
 
-    [https://arxiv.org/abs/2403.14704](https://arxiv.org/abs/2403.14704)
+    [https://arxiv.org/abs/2403.10568](https://arxiv.org/abs/2403.10568)
 
-    提出了一个基于一般并发博弈模型的最小联盟逻辑，不具备传统模型中的独立性、序列性和确定性假设，展示了其完备性并与传统模型进行了比较
-
-    
-
-    联盟逻辑是战略推理研究中的一个中心逻辑。本文首先指出联盟逻辑模型，即并发博弈模型，存在三个过于强的假设。其一是代理的独立性；即，两个不同联盟的两个可用联合动作的合并总是可以合并成两个联盟的联盟。其二是序列性；即，联盟总是有可用的联合动作。其三是确定性，即，大联盟的合作动作总是有唯一结果。其次，我们提出了一个基于一般并发博弈模型的联盟逻辑，该模型不具备这三个假设。我们展示了这一逻辑的完备性，并与联盟逻辑进行了详细比较。在战略推理的背景下，这一逻辑似乎是最小的。
-
-    arXiv:2403.14704v1 Announce Type: cross  Abstract: Coalition logic is a central logic in strategic reasoning studies. In this paper, we first argue that Coalition Logic models, concurrent game models, have three too-strong assumptions. The first one is the independence of agents; that is, the merge of two available joint actions of two disjoint coalitions is always available for the union of the two coalitions. The second one is seriality; that is, coalitions always have available joint actions. The third one is determinism, that is, the grand coalition's joint actions always have a unique outcome. Second, we present a coalition logic based on general concurrent game models, which do not have the three assumptions. We show the completeness of this logic and compare it with Coalition Logic in detail. This logic seems minimal in the context of strategic reasoning.
-    
-[^4]: LLMs是一个好的难解填字游戏求解器吗？
-
-    Are LLMs Good Cryptic Crossword Solvers?
-
-    [https://arxiv.org/abs/2403.12094](https://arxiv.org/abs/2403.12094)
-
-    本文建立了三种流行LLMs的基准结果，表明它们在难解填字游戏上的表现仍远远不及人类。
+    本文提出了MoPE技术，通过解开提示以自适应捕获数据集级和实例级特征，引入了混合Prompt专家来增强表达能力，并且在多模态融合中表现出更大的表达能力和可扩展性。
 
     
 
-    难解填字游戏是一种谜题，不仅依赖于一般知识，还依赖于求解者在不同层面上操纵语言并处理各种类型的文字游戏。先前的研究表明，即使对于现代NLP模型来说，解决这类谜题也是一项挑战。然而，大型语言模型（LLMs）的能力尚未在这一任务上进行测试。在本文中，我们为三种流行的LLMs -- LLaMA2、Mistral和ChatGPT建立了基准结果，显示它们在这一任务上的表现仍远远不及人类。
+    Prompt调整已经证明在融合多模态任务的单模基础模型时具有参数效率性。然而，其有限的适应性和表达能力导致性能不佳与其他调整方法相比。本文通过将简单提示解开以自适应地捕获数据集级和实例级特征来解决这个问题。建立在这种解开的基础上，我们引入了Prompt专家的混合（MoPE）技术来增强表达能力。MoPE利用多模态配对先验在每个实例基础上路由最有效的提示。与简单提示相比，我们基于MoPE的条件提示对多模态融合具有更大的表达能力，在训练数据和可训练参数总数上具有更好的扩展性。我们还研究了一个专家路由的正则化项，导致专家的不断发展专长，不同专家专注于不同的特征。
 
-    arXiv:2403.12094v1 Announce Type: new  Abstract: Cryptic crosswords are puzzles that rely not only on general knowledge but also on the solver's ability to manipulate language on different levels and deal with various types of wordplay. Previous research suggests that solving such puzzles is a challenge even for modern NLP models. However, the abilities of large language models (LLMs) have not yet been tested on this task. In this paper, we establish the benchmark results for three popular LLMs -- LLaMA2, Mistral, and ChatGPT -- showing that their performance on this task is still far from that of humans.
+    arXiv:2403.10568v1 Announce Type: cross  Abstract: Prompt-tuning has demonstrated parameter-efficiency in fusing unimodal foundation models for multimodal tasks. However, its limited adaptivity and expressiveness lead to suboptimal performance when compared with other tuning methods. In this paper, we address this issue by disentangling the vanilla prompts to adaptively capture dataset-level and instance-level features. Building upon this disentanglement, we introduce the mixture of prompt experts (MoPE) technique to enhance expressiveness. MoPE leverages multimodal pairing priors to route the most effective prompt on a per-instance basis. Compared to vanilla prompting, our MoPE-based conditional prompting exhibits greater expressiveness for multimodal fusion, scaling better with the training data and the overall number of trainable parameters. We also study a regularization term for expert routing, leading to emergent expert specialization, where different experts focus on different c
     
-[^5]: 使用自适应估计融合高效剪枝大型语言模型
+[^3]: 基于凸集图的移动目标旅行推销员问题的混合整数锥规划
 
-    Efficient Pruning of Large Language Model with Adaptive Estimation Fusion
+    A Mixed-Integer Conic Program for the Moving-Target Traveling Salesman Problem based on a Graph of Convex Sets
 
-    [https://arxiv.org/abs/2403.10799](https://arxiv.org/abs/2403.10799)
+    [https://arxiv.org/abs/2403.04917](https://arxiv.org/abs/2403.04917)
 
-    提出了一种简单而高效的剪枝方法，能够自适应地模拟每个子结构的重要性，并根据多层结构的结果自适应地融合粗粒度和细粒度的估计。
-
-    
-
-    大型语言模型（LLMs）已经成为许多生成性下游任务中至关重要的组成部分，这导致在资源受限设备上高效部署它们成为不可避免的趋势和重大挑战。结构化剪枝是解决这一挑战的广泛应用方法。然而，当处理多个解码器层的复杂结构时，通常的方法往往采用常见的估计方法进行剪枝。这些方法导致特定下游任务精度下降。本文介绍了一种简单而有效的方法，可自适应地模拟每个子结构的重要性。同时，它可以基于复杂和多层结构的结果，自适应地融合粗粒度和细粒度的估计。我们设计的所有方面都无缝集成到端到端的剪枝框架中。与主流数据集上的最先进方法相比，我们的实验结果表明
-
-    arXiv:2403.10799v1 Announce Type: cross  Abstract: Large language models (LLMs) have become crucial for many generative downstream tasks, leading to an inevitable trend and significant challenge to deploy them efficiently on resource-constrained devices. Structured pruning is a widely used method to address this challenge. However, when dealing with the complex structure of the multiple decoder layers, general methods often employ common estimation approaches for pruning. These approaches lead to a decline in accuracy for specific downstream tasks. In this paper, we introduce a simple yet efficient method that adaptively models the importance of each substructure. Meanwhile, it can adaptively fuse coarse-grained and finegrained estimations based on the results from complex and multilayer structures. All aspects of our design seamlessly integrate into the endto-end pruning framework. Our experimental results, compared with state-of-the-art methods on mainstream datasets, demonstrate ave
-    
-[^6]: 面向内容感知的掩码图像建模变压器用于立体图像压缩
-
-    Content-aware Masked Image Modeling Transformer for Stereo Image Compression
-
-    [https://arxiv.org/abs/2403.08505](https://arxiv.org/abs/2403.08505)
-
-    提出了一种名为CAMSIC的立体图像压缩框架，通过引入面向内容感知的掩码图像建模（MIM）技术，使得无需额外Transformer解码器就能捕捉空间和视差依赖关系，实验结果表明实现了最先进的率失真结果。
+    本文提出了一个新的公式，用于解决移动目标旅行推销员问题，该公式基于目标在空间-时间坐标系内成为凸集的概念，通过在凸集图中寻找最短路径来实现，在实验中表现出比当前Mixed Integer Conic Program (MICP)求解器更好的效果。
 
     
 
-    现有基于学习的立体图像编解码器采用了复杂的转换方法，但在编码潜在表示时却采用了从单个图像编解码器导出的简单熵模型。然而，这些熵模型难以有效捕捉立体图像固有的空间-视差特征，导致亚最优的率失真结果。本文提出了一种名为CAMSIC的立体图像压缩框架。 CAMSIC 独立地将每个图像转换为潜在表示，并采用强大的无解码器变压器熵模型来捕捉空间和视差依赖关系，引入了一种新颖的面向内容感知的掩码图像建模（MIM）技术。我们的面向内容感知的MIM促进了先验信息与估计令牌之间的高效双向交互，自然地消除了额外的Transformer解码器的需求。实验证明，我们的立体图像编解码器实现了最先进的率失真结果。
+    本文介绍了一种寻找移动目标旅行推销员问题（MT-TSP）的最佳解决方案的新的公式，该问题旨在找到一个最短路径，使一个从仓库出发的代理访问一组移动目标，并在它们分配的时间窗口内恰好访问一次，然后返回到仓库。该公式依赖于一个关键思想，即当目标沿着线移动时，它们的轨迹在空间-时间坐标系内变为凸集。然后，问题就缩减为在一个凸集图中寻找最短路径，受到一些速度约束的限制。我们将我们的公式与当前最先进的Mixed Integer Conic Program (MICP)求解器进行了比较，结果显示，我们的公式在目标数量最多为20个的情况下性能优于MICP，在运行时间上缩短了两个数量级，并且最优性差距缩小了高达60％。我们还展示了该解法的成本...
 
-    arXiv:2403.08505v1 Announce Type: cross  Abstract: Existing learning-based stereo image codec adopt sophisticated transformation with simple entropy models derived from single image codecs to encode latent representations. However, those entropy models struggle to effectively capture the spatial-disparity characteristics inherent in stereo images, which leads to suboptimal rate-distortion results. In this paper, we propose a stereo image compression framework, named CAMSIC. CAMSIC independently transforms each image to latent representation and employs a powerful decoder-free Transformer entropy model to capture both spatial and disparity dependencies, by introducing a novel content-aware masked image modeling (MIM) technique. Our content-aware MIM facilitates efficient bidirectional interaction between prior information and estimated tokens, which naturally obviates the need for an extra Transformer decoder. Experiments show that our stereo image codec achieves state-of-the-art rate-d
+    arXiv:2403.04917v1 Announce Type: cross  Abstract: This paper introduces a new formulation that finds the optimum for the Moving-Target Traveling Salesman Problem (MT-TSP), which seeks to find a shortest path for an agent, that starts at a depot, visits a set of moving targets exactly once within their assigned time-windows, and returns to the depot. The formulation relies on the key idea that when the targets move along lines, their trajectories become convex sets within the space-time coordinate system. The problem then reduces to finding the shortest path within a graph of convex sets, subject to some speed constraints. We compare our formulation with the current state-of-the-art Mixed Integer Conic Program (MICP) solver for the MT-TSP. The experimental results show that our formulation outperforms the MICP for instances with up to 20 targets, with up to two orders of magnitude reduction in runtime, and up to a 60\% tighter optimality gap. We also show that the solution cost from th
     
-[^7]: ACPO: AI-Enabled Compiler-Driven Program Optimization
+[^4]: 移除平方根：一种新的高效标度不变版本的AdaGrad
+
+    Remove that Square Root: A New Efficient Scale-Invariant Version of AdaGrad
+
+    [https://arxiv.org/abs/2403.02648](https://arxiv.org/abs/2403.02648)
+
+    KATE是一种新的优化算法，提出了一种与AdaGrad标度不变的适应方法，并在广义线性模型和一般的非凸问题中证明了其标度不变性。数值实验结果表明，KATE在各种场景中均优于AdaGrad并与Adam性能匹配/超越。
+
+    
+
+    自适应方法在机器学习中非常流行，因为它们可以降低学习速率调整的成本。本文引入了一种名为KATE的新型优化算法，它提出了一个著名的AdaGrad算法的标度不变适应。我们证明了KATE在广义线性模型案例中的标度不变性。此外，对于一般的光滑非凸问题，我们为KATE建立了一个收敛速率为$O \left(\frac{\log T}{\sqrt{T}} \right)$，与AdaGrad和Adam的最佳收敛速率相匹配。我们还通过不同问题的数值实验将KATE与其他最先进的自适应算法Adam和AdaGrad进行了比较，包括在真实数据上进行图像分类和文本分类等复杂机器学习任务。结果表明，在所有考虑到的场景中，KATE始终胜过AdaGrad，并且在性能上匹配/超越Adam。
+
+    arXiv:2403.02648v1 Announce Type: cross  Abstract: Adaptive methods are extremely popular in machine learning as they make learning rate tuning less expensive. This paper introduces a novel optimization algorithm named KATE, which presents a scale-invariant adaptation of the well-known AdaGrad algorithm. We prove the scale-invariance of KATE for the case of Generalized Linear Models. Moreover, for general smooth non-convex problems, we establish a convergence rate of $O \left(\frac{\log T}{\sqrt{T}} \right)$ for KATE, matching the best-known ones for AdaGrad and Adam. We also compare KATE to other state-of-the-art adaptive algorithms Adam and AdaGrad in numerical experiments with different problems, including complex machine learning tasks like image classification and text classification on real data. The results indicate that KATE consistently outperforms AdaGrad and matches/surpasses the performance of Adam in all considered scenarios.
+    
+[^5]: 视觉-语言模型泛化的不变测试时适应性
+
+    Invariant Test-Time Adaptation for Vision-Language Model Generalization
+
+    [https://arxiv.org/abs/2403.00376](https://arxiv.org/abs/2403.00376)
+
+    本文提出了一个测试时提示调优范式，通过优化可学习的提示，迫使模型利用真正的因果不变特征，以解决视觉-语言模型在特定任务需求上无法有效利用预训练特征的挑战。
+
+    
+
+    arXiv:2403.00376v1 公告类型: 交叉摘要: 视觉-语言基础模型在大量图像-文本配对数据集上的可扩展性使其在众多下游任务中展现出卓越成功。然而，这些模型在应用于长尾任务（如细粒度图像分类）时显示出明显局限，这是由于“决策捷径”导致了它们的泛化能力受限。本文发现CLIP模型具有丰富的特征集，涵盖了既有的\textit{期望不变因果特征}又有的\textit{不希望的决策捷径}。此外，CLIP在下游任务中的表现不佳源自其无法有效利用预训练特征以符合特定任务要求。为解决这一挑战，本文引入一种测试时提示调优范式，优化一个可学习的提示，从而促使模型利用真正的因果不变特征。
+
+    arXiv:2403.00376v1 Announce Type: cross  Abstract: Vision-language foundation models have exhibited remarkable success across a multitude of downstream tasks due to their scalability on extensive image-text paired datasets. However, these models display significant limitations when applied to long-tail tasks, such as fine-grained image classification, as a result of "decision shortcuts" that hinders their generalization capabilities. In this work, we find that the CLIP model possesses a rich set of features, encompassing both \textit{desired invariant causal features} and \textit{undesired decision shortcuts}. Moreover, the underperformance of CLIP on downstream tasks originates from its inability to effectively utilize pre-trained features in accordance with specific task requirements. To address this challenge, this paper introduces a test-time prompt tuning paradigm that optimizes a learnable prompt, thereby compelling the model to exploit genuine causal invariant features while dis
+    
+[^6]: ACPO: AI-Enabled Compiler-Driven Program Optimization
 
     ACPO: AI-Enabled Compiler-Driven Program Optimization
 
@@ -113,46 +100,74 @@
 
     arXiv:2312.09982v2 Announce Type: replace-cross  Abstract: The key to performance optimization of a program is to decide correctly when a certain transformation should be applied by a compiler. This is an ideal opportunity to apply machine-learning models to speed up the tuning process; while this realization has been around since the late 90s, only recent advancements in ML enabled a practical application of ML to compilers as an end-to-end framework.   This paper presents ACPO: \textbf{\underline{A}}I-Enabled \textbf{\underline{C}}ompiler-driven \textbf{\underline{P}}rogram \textbf{\underline{O}}ptimization; a novel framework to provide LLVM with simple and comprehensive tools to benefit from employing ML models for different optimization passes. We first showcase the high-level view, class hierarchy, and functionalities of ACPO and subsequently, demonstrate a couple of use cases of ACPO by ML-enabling the Loop Unroll and Function Inlining passes and describe how ACPO can be leverage
     
-[^8]: 针对时空偏移的自监督去混淆：理论与建模
+[^7]: 语言模型与人脑的差异
 
-    Self-Supervised Deconfounding Against Spatio-Temporal Shifts: Theory and Modeling
+    Divergences between Language Models and Human Brains
 
-    [https://arxiv.org/abs/2311.12472](https://arxiv.org/abs/2311.12472)
+    [https://arxiv.org/abs/2311.09308](https://arxiv.org/abs/2311.09308)
 
-    该论文针对时空数据中常见的分布变化问题提出了一种自监督去混淆方法并提出了名为DCA的理论解决方案。
-
-    
-
-    作为时空（ST）数据的重要应用，ST交通预测在提高城市出行效率和促进可持续发展中起着至关重要的作用。本文首先通过构建过去交通数据、未来交通数据和外部ST上下文的因果图，系统地阐明了过去艺术作品在OOD交通数据上的失败是由于ST上下文充当了混淆因素，即过去数据和未来数据的共同原因。然后，我们从因果角度提出了一种理论解决方案，称为Disentangled Contextual Adjustment（DCA）。
-
-    arXiv:2311.12472v2 Announce Type: replace  Abstract: As an important application of spatio-temporal (ST) data, ST traffic forecasting plays a crucial role in improving urban travel efficiency and promoting sustainable development. In practice, the dynamics of traffic data frequently undergo distributional shifts attributed to external factors such as time evolution and spatial differences. This entails forecasting models to handle the out-of-distribution (OOD) issue where test data is distributed differently from training data. In this work, we first formalize the problem by constructing a causal graph of past traffic data, future traffic data, and external ST contexts. We reveal that the failure of prior arts in OOD traffic data is due to ST contexts acting as a confounder, i.e., the common cause for past data and future ones. Then, we propose a theoretical solution named Disentangled Contextual Adjustment (DCA) from a causal lens. It differentiates invariant causal correlations again
-    
-[^9]: 实时训练基于物理信息的神经网络：超快速超声血流成像的应用
-
-    Towards Real-time Training of Physics-informed Neural Networks: Applications in Ultrafast Ultrasound Blood Flow Imaging. (arXiv:2309.04755v1 [cs.CE])
-
-    [http://arxiv.org/abs/2309.04755](http://arxiv.org/abs/2309.04755)
-
-    本研究提出了一种实时训练基于物理信息的神经网络（PINN）的框架，用于解决Navier-Stokes方程，以实现超快速超声血流成像。该框架将Navier-Stokes方程离散化为稳态，并通过迁移学习顺序求解稳态方程。此外，采用平均恒定随机梯度下降作为初始化，并提出了一种并行训练方案，适用于所有时间戳。
+    该论文系统地探索了语言模型（LMs）和人类大脑在语言处理方面的差异，发现在社交/情感智能和物理常识领域，LMs无法很好地捕捉到人类的表现，但在这些领域对LMs进行微调可以提高其性能。
 
     
 
-    基于物理信息的神经网络（PINN）是纳维-斯托克斯方程的最杰出求解器之一，而纳维-斯托克斯方程广泛应用于血流的控制方程。然而，目前的方法仅依赖于完整的纳维-斯托克斯方程，对于超快速多普勒超声，这一最新技术应用于\emph{体内}复杂血流动力学的展示，每秒获取数千帧（或时间戳），这是不切实际的。本文首先提出了一种新的PINN训练框架，通过将纳维-斯托克斯方程离散化为稳态，并通过迁移学习顺序求解稳态纳维-斯托克斯方程，为解决纳维-斯托克斯方程提供了新的训练框架，称为SeqPINN。在SeqPINN的成功基础上，我们采用了平均恒定随机梯度下降（SGD）作为初始化的思想，并提出了一种并行训练方案，适用于所有时间戳。为了确保良好的泛化初始化，我们借鉴了
+    机器和人类是否以相似的方式处理语言？最近的研究暗示肯定，发现大脑信号可以通过语言模型（LMs）的内部表示有效地进行预测。尽管这样的结果被认为反映了LMs和人类大脑之间的共享计算原理，但LMs和人类在语言表示和使用上也存在明显的差异。在这项工作中，我们通过检查LM表示和人类大脑对语言的响应之间的差异，通过采用两个数据集对受试者阅读和听叙述故事的方式，系统地探索了人类和机器语言处理之间的分歧。通过数据驱动的方法，我们确定了两个领域，即社交/情感智能和物理常识，这些领域在LMs中无法很好地捕捉到。然后，我们使用人类行为实验验证了这些领域，并证明在这些领域对LMs进行微调可以改善其性能。
 
-    Physics-informed Neural Network (PINN) is one of the most preeminent solvers of Navier-Stokes equations, which are widely used as the governing equation of blood flow. However, current approaches, relying on full Navier-Stokes equations, are impractical for ultrafast Doppler ultrasound, the state-of-the-art technique for depiction of complex blood flow dynamics \emph{in vivo} through acquired thousands of frames (or, timestamps) per second. In this article, we first propose a novel training framework of PINN for solving Navier-Stokes equations by discretizing Navier-Stokes equations into steady state and sequentially solving steady-state Navier-Stokes equations with transfer learning. The novel training framework is coined as SeqPINN. Upon the success of SeqPINN, we adopt the idea of averaged constant stochastic gradient descent (SGD) as initialization and propose a parallel training scheme for all timestamps. To ensure an initialization that generalizes well, we borrow the concept of 
+    Do machines and humans process language in similar ways? Recent research has hinted in the affirmative, finding that brain signals can be effectively predicted using the internal representations of language models (LMs). Although such results are thought to reflect shared computational principles between LMs and human brains, there are also clear differences in how LMs and humans represent and use language. In this work, we systematically explore the divergences between human and machine language processing by examining the differences between LM representations and human brain responses to language as measured by Magnetoencephalography (MEG) across two datasets in which subjects read and listened to narrative stories. Using a data-driven approach, we identify two domains that are not captured well by LMs: social/emotional intelligence and physical commonsense. We then validate these domains with human behavioral experiments and show that fine-tuning LMs on these domains can improve th
     
-[^10]: ChatGPT 需要进行SPADE（可持续性、隐私、数字鸿沟和伦理）评估：一项综述。
+[^8]: FLM-101B：一种开放的LLM和如何用10万美元预算来训练它
 
-    ChatGPT Needs SPADE (Sustainability, PrivAcy, Digital divide, and Ethics) Evaluation: A Review. (arXiv:2305.03123v1 [cs.CY])
+    FLM-101B: An Open LLM and How to Train It with $100K Budget. (arXiv:2309.03852v1 [cs.CL])
 
-    [http://arxiv.org/abs/2305.03123](http://arxiv.org/abs/2305.03123)
+    [http://arxiv.org/abs/2309.03852](http://arxiv.org/abs/2309.03852)
 
-    本文研究关注ChatGPT面临的可持续性、隐私、数字鸿沟和伦理问题，提出了SPADE评估的必要性，并给出了缓解和建议。
+    本文介绍了一种开放的LLM模型（FLM-101B）以及如何用10万美元的预算来训练它。通过采用增长策略，可以显著降低LLM训练的成本。同时，引入了一种系统的评估方法，以评估LLM的智能能力。
 
     
 
-    ChatGPT是另一个大型语言模型（LLM），由于其性能和有效的对话能力，在研究和工业界中得到了巨大的关注。最近，许多研究已经发表，以展示ChatGPT和其他LLMs的有效性、效率、集成和情感。相反，本研究关注的是大多数被忽视的重要方面，即可持续性、隐私、数字鸿沟和伦理，并建议不仅仅是ChatGPT，而是在对话机器人类别中的每一个后续入口都应该进行SPADE评估。本文详细讨论了关于ChatGPT的问题和关注点与上述特征一致。我们通过一些初步的数据收集和可视化以及假设的事实来支持我们的假设。我们还为每个问题提出了缓解和建议。此外，我们还提供了一些未来方向和开放问题的探讨。
+    大型语言模型（LLMs）在自然语言处理和多模态任务中取得了显著的成功。然而，它们的发展面临两个主要挑战：（i）高计算成本；（ii）难以进行公平客观的评估。LLMs的价格昂贵，只有少数几家主要参与者有能力进行训练，从而限制了研究和应用机会。这凸显了成本效益的LLM训练的重要性。在本文中，我们采用了一种增长策略，显著降低LLM训练成本。我们证明了可以在10万美元的预算下训练具有101B参数和0.31TB令牌的LLM。我们还采用了一种系统的评估范式，用于对LLMs进行智能的智商评估，这是针对现有评估更注重知识能力的补充。我们引入了包括符号映射、规则理解、模式挖掘在内的重要智能方面的评估基准。
 
-    ChatGPT is another large language model (LLM) inline but due to its performance and ability to converse effectively, it has gained a huge popularity amongst research as well as industrial community. Recently, many studies have been published to show the effectiveness, efficiency, integration, and sentiments of chatGPT and other LLMs. In contrast, this study focuses on the important aspects that are mostly overlooked, i.e. sustainability, privacy, digital divide, and ethics and suggests that not only chatGPT but every subsequent entry in the category of conversational bots should undergo Sustainability, PrivAcy, Digital divide, and Ethics (SPADE) evaluation. This paper discusses in detail about the issues and concerns raised over chatGPT in line with aforementioned characteristics. We support our hypothesis by some preliminary data collection and visualizations along with hypothesized facts. We also suggest mitigations and recommendations for each of the concerns. Furthermore, we also s
+    Large language models (LLMs) have achieved remarkable success in NLP and multimodal tasks. Despite these successes, their development faces two main challenges: (i) high computational cost; and (ii) difficulty in conducting fair and objective evaluations. LLMs are prohibitively expensive, making it feasible for only a few major players to undertake their training, thereby constraining both research and application opportunities. This underscores the importance of cost-effective LLM training. In this paper, we utilize a growth strategy to significantly reduce LLM training cost. We demonstrate that an LLM with 101B parameters and 0.31TB tokens can be trained on a $100K budget. We also adopt a systematic evaluation paradigm for the IQ evaluation of LLMs, in complement to existing evaluations that focus more on knowledge-oriented abilities. We introduce our benchmark including evaluations on important aspects of intelligence including symbolic mapping, itrule understanding, pattern mining,
+    
+[^9]: 文字想象的释放：通过探索文字的力量实现文本到图像的人物检索的新框架
+
+    Unleashing the Imagination of Text: A Novel Framework for Text-to-image Person Retrieval via Exploring the Power of Words. (arXiv:2307.09059v1 [cs.CL])
+
+    [http://arxiv.org/abs/2307.09059](http://arxiv.org/abs/2307.09059)
+
+    本研究提出了一个新的框架，通过探索文本中的文字的力量，实现了准确地将抽象的文本描述映射到具体的图像，从而实现了文本到图像的人物检索。
+
+    
+
+    文本到图像的人物检索的目标是从大型图库中检索与给定文本描述相匹配的人物图像。这个任务的主要挑战在于视觉和文本模态之间信息表示的显著差异。文本模态通过词汇和语法结构传递抽象和精确的信息，而视觉模态通过图像传递具体和直观的信息。为了充分利用文字表示的表达力，准确地将抽象的文本描述映射到具体图像是至关重要的。为了解决这个问题，我们提出了一个新的框架，通过探索句子中的文字的力量，释放了文本到图像人物检索中的文字想象力。具体来说，该框架使用预训练的全面CLIP模型作为图像和文本的双编码器，利用先前的跨模态对齐知识。
+
+    The goal of Text-to-image person retrieval is to retrieve person images from a large gallery that match the given textual descriptions. The main challenge of this task lies in the significant differences in information representation between the visual and textual modalities. The textual modality conveys abstract and precise information through vocabulary and grammatical structures, while the visual modality conveys concrete and intuitive information through images. To fully leverage the expressive power of textual representations, it is essential to accurately map abstract textual descriptions to specific images.  To address this issue, we propose a novel framework to Unleash the Imagination of Text (UIT) in text-to-image person retrieval, aiming to fully explore the power of words in sentences. Specifically, the framework employs the pre-trained full CLIP model as a dual encoder for the images and texts , taking advantage of prior cross-modal alignment knowledge. The Text-guided Imag
+    
+[^10]: 集合化的神经网络编码
+
+    Set-based Neural Network Encoding. (arXiv:2305.16625v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.16625](http://arxiv.org/abs/2305.16625)
+
+    提出了一种能够集合化地编码神经网络参数的神经网络权重编码方法，并引入了一种逐层编码方案来考虑神经网络的分层计算结构。同时引入了“pad-chunk-encode”流水线进行神经网络层的高效编码处理，还提出了新的神经网络泛化性能预测任务。
+
+    
+
+    我们提出了一种利用集合到集合和集合到向量函数来有效编码神经网络参数，进行泛化性能预测的神经网络权重编码方法。与之前需要对不同架构编写自定义编码模型的方法不同，我们的方法能够对混合架构和不同参数大小的模型动态编码。此外，我们的 SNE（集合化神经网络编码器）通过使用一种逐层编码方案，考虑神经网络的分层计算结构。最终将所有层次编码合并到一起，以获取神经网络编码矢量。我们还引入了“pad-chunk-encode”流水线来有效地编码神经网络层，该流水线可根据计算和内存限制进行调整。我们还引入了两个用于神经网络泛化性能预测的新任务：跨数据集和架构适应性预测。
+
+    We propose an approach to neural network weight encoding for generalization performance prediction that utilizes set-to-set and set-to-vector functions to efficiently encode neural network parameters. Our approach is capable of encoding neural networks in a modelzoo of mixed architecture and different parameter sizes as opposed to previous approaches that require custom encoding models for different architectures. Furthermore, our \textbf{S}et-based \textbf{N}eural network \textbf{E}ncoder (SNE) takes into consideration the hierarchical computational structure of neural networks by utilizing a layer-wise encoding scheme that culminates to encoding all layer-wise encodings to obtain the neural network encoding vector. Additionally, we introduce a \textit{pad-chunk-encode} pipeline to efficiently encode neural network layers that is adjustable to computational and memory constraints. We also introduce two new tasks for neural network generalization performance prediction: cross-dataset a
+    
+[^11]: PastNet：引入物理归纳偏差用于时空视频预测
+
+    PastNet: Introducing Physical Inductive Biases for Spatio-temporal Video Prediction. (arXiv:2305.11421v1 [cs.CV])
+
+    [http://arxiv.org/abs/2305.11421](http://arxiv.org/abs/2305.11421)
+
+    本文介绍了一种名为PastNet的新颖方法，通过在傅里叶域中引入谱卷积算子，利用内在的物理知识生成高质量的时空视频预测，并通过离散化局部特征降低计算成本。
+
+    
+
+    本文研究了时空视频预测的挑战，其中涉及根据历史数据流生成未来视频。现有方法通常利用语义地图等外部信息增强视频预测，但常常忽视视频内固有的物理知识。此外，它们的高计算需求可能会阻碍对高分辨率视频的应用。为解决这些限制，我们引入了一种新颖的方法，称为物理辅助时空网络（PastNet），用于生成高质量的视频预测。我们的PastNet核心在于在傅里叶域中引入谱卷积算子，从而有效地引入基本物理定律的归纳偏差。此外，我们使用一个内在维度估计的存储器库，在处理复杂的时空信号时离散化局部特征，从而降低计算成本。
+
+    In this paper, we investigate the challenge of spatio-temporal video prediction, which involves generating future videos based on historical data streams. Existing approaches typically utilize external information such as semantic maps to enhance video prediction, which often neglect the inherent physical knowledge embedded within videos. Furthermore, their high computational demands could impede their applications for high-resolution videos. To address these constraints, we introduce a novel approach called Physics-assisted Spatio-temporal Network (PastNet) for generating high-quality video predictions. The core of our PastNet lies in incorporating a spectral convolution operator in the Fourier domain, which efficiently introduces inductive biases from the underlying physical laws. Additionally, we employ a memory bank with the estimated intrinsic dimensionality to discretize local features during the processing of complex spatio-temporal signals, thereby reducing computational costs 
     
 

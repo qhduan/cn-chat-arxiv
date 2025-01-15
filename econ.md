@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Randomization Inference of Heterogeneous Treatment Effects under Network Interference.](http://arxiv.org/abs/2308.00202) | 本文设计了在网络干扰情况下进行异质处理效应随机化测试的方法，通过引入网络曝光映射的概念和条件随机化推断方法，解决了干扰参数和多重潜在结果的问题，得到了渐近有效的p值。 |
+| [^1] | [Simple Estimation of Semiparametric Models with Measurement Errors.](http://arxiv.org/abs/2306.14311) | 本文提出了一种解决广义矩量方法（GMM）框架下变量误差（EIV）问题的方法，对于任何初始矩条件，该方法提供了纠正后对EIV具有鲁棒性的矩条件集，这使得GMM估计量是根号下n一致的，标准检验和置信区间提供有效的推论，对于具有多个协变量和多元的，序贯相关或非经典EIV的应用程序特别重要。 |
 
 # 详细
 
-[^1]: 网络干扰下异质处理效应的随机化推断
+[^1]: 测量误差中半参数模型的简单估计
 
-    Randomization Inference of Heterogeneous Treatment Effects under Network Interference. (arXiv:2308.00202v1 [econ.EM])
+    Simple Estimation of Semiparametric Models with Measurement Errors. (arXiv:2306.14311v1 [econ.EM])
 
-    [http://arxiv.org/abs/2308.00202](http://arxiv.org/abs/2308.00202)
+    [http://arxiv.org/abs/2306.14311](http://arxiv.org/abs/2306.14311)
 
-    本文设计了在网络干扰情况下进行异质处理效应随机化测试的方法，通过引入网络曝光映射的概念和条件随机化推断方法，解决了干扰参数和多重潜在结果的问题，得到了渐近有效的p值。
+    本文提出了一种解决广义矩量方法（GMM）框架下变量误差（EIV）问题的方法，对于任何初始矩条件，该方法提供了纠正后对EIV具有鲁棒性的矩条件集，这使得GMM估计量是根号下n一致的，标准检验和置信区间提供有效的推论，对于具有多个协变量和多元的，序贯相关或非经典EIV的应用程序特别重要。
 
     
 
-    我们设计了在单位之间存在网络干扰时进行异质处理效应随机化测试的方法。我们的建模策略使用网络曝光映射的概念将网络干扰引入潜在结果框架中。我们考虑了三个零假设，代表了不同的均匀处理效应的概念，但由于干扰参数和潜在结果的多样性，这些假设并不准确。为了解决多个潜在结果的问题，我们提出了一种扩展现有方法的条件随机化推断方法。此外，我们还提出了两种克服干扰参数问题的技术。我们证明了我们的条件随机化推断方法与处理干扰参数的两种技术之一结合使用，可以产生渐近有效的p值。我们在一个网络数据集上演示了测试过程，并展示了蒙特卡洛研究的结果。
+    我们在广义矩量方法（GMM）框架下开发了一种解决变量误差（EIV）问题的实用方法。我们关注的是EIV的可变性是测量误差变量的一小部分的情况，这在实证应用中很常见。对于任何初始矩条件，我们的方法提供了纠正后对EIV具有鲁棒性的矩条件集。我们表明，基于这些矩的GMM估计量是根号下n一致的，标准检验和置信区间提供有效的推论。即使EIV很大，朴素估计量（忽略EIV问题）可能严重偏误并且置信区间的覆盖率为0％，我们的方法也能处理。我们的方法不涉及非参数估计，这对于具有多个协变量和多元的，序贯相关或非经典EIV的应用程序特别重要。
 
-    We design randomization tests of heterogeneous treatment effects when units interact on a network. Our modeling strategy allows network interference into the potential outcomes framework using the concept of network exposure mapping. We consider three null hypotheses that represent different notions of homogeneous treatment effects, but due to nuisance parameters and the multiplicity of potential outcomes, the hypotheses are not sharp. To address the issue of multiple potential outcomes, we propose a conditional randomization inference method that expands on existing methods. Additionally, we propose two techniques that overcome the nuisance parameter issue. We show that our conditional randomization inference method, combined with either of the proposed techniques for handling nuisance parameters, produces asymptotically valid p-values. We illustrate the testing procedures on a network data set and the results of a Monte Carlo study are also presented.
+    We develop a practical way of addressing the Errors-In-Variables (EIV) problem in the Generalized Method of Moments (GMM) framework. We focus on the settings in which the variability of the EIV is a fraction of that of the mismeasured variables, which is typical for empirical applications. For any initial set of moment conditions our approach provides a corrected set of moment conditions that are robust to the EIV. We show that the GMM estimator based on these moments is root-n-consistent, with the standard tests and confidence intervals providing valid inference. This is true even when the EIV are so large that naive estimators (that ignore the EIV problem) may be heavily biased with the confidence intervals having 0% coverage. Our approach involves no nonparametric estimation, which is particularly important for applications with multiple covariates, and settings with multivariate, serially correlated, or non-classical EIV.
     
 
