@@ -2,82 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [MoPE: Parameter-Efficient and Scalable Multimodal Fusion via Mixture of Prompt Experts](https://arxiv.org/abs/2403.10568) | 本文提出了MoPE技术，通过解开提示以自适应捕获数据集级和实例级特征，引入了混合Prompt专家来增强表达能力，并且在多模态融合中表现出更大的表达能力和可扩展性。 |
-| [^2] | [Divergences between Language Models and Human Brains](https://arxiv.org/abs/2311.09308) | 该论文系统地探索了语言模型（LMs）和人类大脑在语言处理方面的差异，发现在社交/情感智能和物理常识领域，LMs无法很好地捕捉到人类的表现，但在这些领域对LMs进行微调可以提高其性能。 |
-| [^3] | [JsonTuning: Towards Generalizable, Robust, and Controllable Instruction Tuning.](http://arxiv.org/abs/2310.02953) | JsonTuning是一种面向通用、强大和可控的指令调优方法，通过利用JSON的结构化特性，帮助模型理解任务要素及其关系，从而扩展了通用性、提高了稳健性，并增强了对输出的控制。 |
-| [^4] | [FLM-101B: An Open LLM and How to Train It with $100K Budget.](http://arxiv.org/abs/2309.03852) | 本文介绍了一种开放的LLM模型（FLM-101B）以及如何用10万美元的预算来训练它。通过采用增长策略，可以显著降低LLM训练的成本。同时，引入了一种系统的评估方法，以评估LLM的智能能力。 |
-| [^5] | [Unleashing the Imagination of Text: A Novel Framework for Text-to-image Person Retrieval via Exploring the Power of Words.](http://arxiv.org/abs/2307.09059) | 本研究提出了一个新的框架，通过探索文本中的文字的力量，实现了准确地将抽象的文本描述映射到具体的图像，从而实现了文本到图像的人物检索。 |
+| [^1] | [Understanding Emergent Abilities of Language Models from the Loss Perspective](https://arxiv.org/abs/2403.15796) | 本文从损失角度重新定义了语言模型的突现能力，发现具有相同预训练损失的模型在不同任务上表现相似，而当预训练损失低于特定阈值时，模型将展现出突现能力。 |
+| [^2] | [Mind the Error! Detection and Localization of Instruction Errors in Vision-and-Language Navigation](https://arxiv.org/abs/2403.10700) | 提出了一个新的基准数据集，首次引入了各种类型的指令错误，考虑到潜在的人类原因，以评估连续环境中 VLN 系统的健壮性 |
+| [^3] | [The Power of Noise: Toward a Unified Multi-modal Knowledge Graph Representation Framework](https://arxiv.org/abs/2403.06832) | 提出了一种利用噪声掩模的Transformer-based架构SNAG方法，实现了多模态知识图表示中实体嵌入的最先进性能 |
+| [^4] | [Do Large Language Models Mirror Cognitive Language Processing?](https://arxiv.org/abs/2402.18023) | 本文提出了一种新颖方法，通过将大型语言模型（LLMs）的表示与人类认知信号联系起来，评估LLMs模拟认知语言处理的效果。 |
+| [^5] | [SelectIT: Selective Instruction Tuning for Large Language Models via Uncertainty-Aware Self-Reflection](https://arxiv.org/abs/2402.16705) | SelectIT通过利用大型语言模型本身的能力和基于不确定性的方法，提出了一种无需额外资源的高效选择指导调整数据集的方法，进而提升了模型的能力。 |
 
 # 详细
 
-[^1]: MoPE：通过Prompt专家混合实现参数高效和可扩展的多模态融合
+[^1]: 从损失角度理解语言模型的突现能力
 
-    MoPE: Parameter-Efficient and Scalable Multimodal Fusion via Mixture of Prompt Experts
+    Understanding Emergent Abilities of Language Models from the Loss Perspective
 
-    [https://arxiv.org/abs/2403.10568](https://arxiv.org/abs/2403.10568)
+    [https://arxiv.org/abs/2403.15796](https://arxiv.org/abs/2403.15796)
 
-    本文提出了MoPE技术，通过解开提示以自适应捕获数据集级和实例级特征，引入了混合Prompt专家来增强表达能力，并且在多模态融合中表现出更大的表达能力和可扩展性。
-
-    
-
-    Prompt调整已经证明在融合多模态任务的单模基础模型时具有参数效率性。然而，其有限的适应性和表达能力导致性能不佳与其他调整方法相比。本文通过将简单提示解开以自适应地捕获数据集级和实例级特征来解决这个问题。建立在这种解开的基础上，我们引入了Prompt专家的混合（MoPE）技术来增强表达能力。MoPE利用多模态配对先验在每个实例基础上路由最有效的提示。与简单提示相比，我们基于MoPE的条件提示对多模态融合具有更大的表达能力，在训练数据和可训练参数总数上具有更好的扩展性。我们还研究了一个专家路由的正则化项，导致专家的不断发展专长，不同专家专注于不同的特征。
-
-    arXiv:2403.10568v1 Announce Type: cross  Abstract: Prompt-tuning has demonstrated parameter-efficiency in fusing unimodal foundation models for multimodal tasks. However, its limited adaptivity and expressiveness lead to suboptimal performance when compared with other tuning methods. In this paper, we address this issue by disentangling the vanilla prompts to adaptively capture dataset-level and instance-level features. Building upon this disentanglement, we introduce the mixture of prompt experts (MoPE) technique to enhance expressiveness. MoPE leverages multimodal pairing priors to route the most effective prompt on a per-instance basis. Compared to vanilla prompting, our MoPE-based conditional prompting exhibits greater expressiveness for multimodal fusion, scaling better with the training data and the overall number of trainable parameters. We also study a regularization term for expert routing, leading to emergent expert specialization, where different experts focus on different c
-    
-[^2]: 语言模型与人脑的差异
-
-    Divergences between Language Models and Human Brains
-
-    [https://arxiv.org/abs/2311.09308](https://arxiv.org/abs/2311.09308)
-
-    该论文系统地探索了语言模型（LMs）和人类大脑在语言处理方面的差异，发现在社交/情感智能和物理常识领域，LMs无法很好地捕捉到人类的表现，但在这些领域对LMs进行微调可以提高其性能。
+    本文从损失角度重新定义了语言模型的突现能力，发现具有相同预训练损失的模型在不同任务上表现相似，而当预训练损失低于特定阈值时，模型将展现出突现能力。
 
     
 
-    机器和人类是否以相似的方式处理语言？最近的研究暗示肯定，发现大脑信号可以通过语言模型（LMs）的内部表示有效地进行预测。尽管这样的结果被认为反映了LMs和人类大脑之间的共享计算原理，但LMs和人类在语言表示和使用上也存在明显的差异。在这项工作中，我们通过检查LM表示和人类大脑对语言的响应之间的差异，通过采用两个数据集对受试者阅读和听叙述故事的方式，系统地探索了人类和机器语言处理之间的分歧。通过数据驱动的方法，我们确定了两个领域，即社交/情感智能和物理常识，这些领域在LMs中无法很好地捕捉到。然后，我们使用人类行为实验验证了这些领域，并证明在这些领域对LMs进行微调可以改善其性能。
+    近期研究质疑了传统认为语言模型的突现能力仅存在于大模型中的观点。这种怀疑源自两点观察：1）较小的模型也能展现出对突现能力的高性能；2）质疑用于测量这些能力的不连续性指标。本文提议从预训练损失的角度研究突现能力，而非模型大小或训练计算。我们展示了具有相同预训练损失但不同模型和数据大小的模型，在各种下游任务上表现相同。我们还发现，当某一模型的预训练损失低于特定阈值时，在某些任务上表现出突现能力，而不论指标的连续性如何；而在达到该阈值之前，其性能仍保持在随机猜测水平。这启发我们重新定义突现能力为那些......
 
-    Do machines and humans process language in similar ways? Recent research has hinted in the affirmative, finding that brain signals can be effectively predicted using the internal representations of language models (LMs). Although such results are thought to reflect shared computational principles between LMs and human brains, there are also clear differences in how LMs and humans represent and use language. In this work, we systematically explore the divergences between human and machine language processing by examining the differences between LM representations and human brain responses to language as measured by Magnetoencephalography (MEG) across two datasets in which subjects read and listened to narrative stories. Using a data-driven approach, we identify two domains that are not captured well by LMs: social/emotional intelligence and physical commonsense. We then validate these domains with human behavioral experiments and show that fine-tuning LMs on these domains can improve th
+    arXiv:2403.15796v1 Announce Type: cross  Abstract: Recent studies have put into question the belief that emergent abilities in language models are exclusive to large models. This skepticism arises from two observations: 1) smaller models can also exhibit high performance on emergent abilities and 2) there is doubt on the discontinuous metrics used to measure these abilities. In this paper, we propose to study emergent abilities in the lens of pre-training loss, instead of model size or training compute. We demonstrate that the models with the same pre-training loss, but different model and data sizes, generate the same performance on various downstream tasks. We also discover that a model exhibits emergent abilities on certain tasks -- regardless of the continuity of metrics -- when its pre-training loss falls below a specific threshold. Before reaching this threshold, its performance remains at the level of random guessing. This inspires us to redefine emergent abilities as those that
     
-[^3]: JsonTuning：面向通用、强大和可控的指令调优
+[^2]: 注意错误！检测和定位视觉与语言导航中的指令错误
 
-    JsonTuning: Towards Generalizable, Robust, and Controllable Instruction Tuning. (arXiv:2310.02953v1 [cs.CL])
+    Mind the Error! Detection and Localization of Instruction Errors in Vision-and-Language Navigation
 
-    [http://arxiv.org/abs/2310.02953](http://arxiv.org/abs/2310.02953)
+    [https://arxiv.org/abs/2403.10700](https://arxiv.org/abs/2403.10700)
 
-    JsonTuning是一种面向通用、强大和可控的指令调优方法，通过利用JSON的结构化特性，帮助模型理解任务要素及其关系，从而扩展了通用性、提高了稳健性，并增强了对输出的控制。
-
-    
-
-    指令调优已成为利用大型语言模型（LLM）能力的关键过程，通过提供明确的任务指令，从而在各种任务中提高性能。然而，目前的文本-文本指令调优（TextTuning）方法由于任务的模糊性和缺乏明确的结构而存在通用性、稳健性和可控性的限制。在本文中，我们提出了JsonTuning，这是一种新的结构到结构的指令调优方法。通过利用JSON的多功能和结构化特性来表示任务，JsonTuning通过帮助模型理解关键任务要素及其关系，扩展了通用性，通过最小化歧义性提高了稳健性，并通过提供对输出的显式控制增强了可控性。我们对不同的语言模型和评估基准进行了全面的比较研究。实验结果表明，JsonTuning在性能上优于TextTuning。
-
-    Instruction tuning has emerged as a crucial process for harnessing the capabilities of large language models (LLMs) by providing explicit task instructions, leading to improved performance in various tasks. However, prevalent text-to-text instruction tuning (TextTuning) methods suffer from limitations in generalization, robustness, and controllability due to the ambiguity and lack of explicit structure in tasks. In this paper, we propose JsonTuning, a novel structure-to-structure approach for instruction tuning. By leveraging the versatility and structured nature of JSON to represent tasks, JsonTuning enhances generalization by helping the model understand essential task elements and their relations, improves robustness by minimizing ambiguity, and increases controllability by providing explicit control over the output. We conduct a comprehensive comparative study with diverse language models and evaluation benchmarks. Experimental results show that JsonTuning outperforms TextTuning in
-    
-[^4]: FLM-101B：一种开放的LLM和如何用10万美元预算来训练它
-
-    FLM-101B: An Open LLM and How to Train It with $100K Budget. (arXiv:2309.03852v1 [cs.CL])
-
-    [http://arxiv.org/abs/2309.03852](http://arxiv.org/abs/2309.03852)
-
-    本文介绍了一种开放的LLM模型（FLM-101B）以及如何用10万美元的预算来训练它。通过采用增长策略，可以显著降低LLM训练的成本。同时，引入了一种系统的评估方法，以评估LLM的智能能力。
+    提出了一个新的基准数据集，首次引入了各种类型的指令错误，考虑到潜在的人类原因，以评估连续环境中 VLN 系统的健壮性
 
     
 
-    大型语言模型（LLMs）在自然语言处理和多模态任务中取得了显著的成功。然而，它们的发展面临两个主要挑战：（i）高计算成本；（ii）难以进行公平客观的评估。LLMs的价格昂贵，只有少数几家主要参与者有能力进行训练，从而限制了研究和应用机会。这凸显了成本效益的LLM训练的重要性。在本文中，我们采用了一种增长策略，显著降低LLM训练成本。我们证明了可以在10万美元的预算下训练具有101B参数和0.31TB令牌的LLM。我们还采用了一种系统的评估范式，用于对LLMs进行智能的智商评估，这是针对现有评估更注重知识能力的补充。我们引入了包括符号映射、规则理解、模式挖掘在内的重要智能方面的评估基准。
+    Vision-and-Language Navigation in Continuous Environments (VLN-CE) 是一项直观且具有挑战性的体验智能任务。代理人被要求通过执行一系列低级动作、遵循一系列自然语言指令来导航到目标目标。所有文献中的 VLN-CE 方法都假设语言指令是准确的。然而，在实践中，人类给出的指令可能由于不准确的记忆或混淆而包含空间环境描述中的错误。当前 VLN-CE 基准没有解决这种情况，使得 VLN-CE 中的最新方法在面对来自人类用户的错误指令时变得脆弱。我们首次提出了一个引入各种类型指令错误考虑潜在人类原因的新型基准数据集。该基准数据集为连续环境中的 VLN 系统的健壮性提供了宝贵的见解。我们观察到 noticeable...
 
-    Large language models (LLMs) have achieved remarkable success in NLP and multimodal tasks. Despite these successes, their development faces two main challenges: (i) high computational cost; and (ii) difficulty in conducting fair and objective evaluations. LLMs are prohibitively expensive, making it feasible for only a few major players to undertake their training, thereby constraining both research and application opportunities. This underscores the importance of cost-effective LLM training. In this paper, we utilize a growth strategy to significantly reduce LLM training cost. We demonstrate that an LLM with 101B parameters and 0.31TB tokens can be trained on a $100K budget. We also adopt a systematic evaluation paradigm for the IQ evaluation of LLMs, in complement to existing evaluations that focus more on knowledge-oriented abilities. We introduce our benchmark including evaluations on important aspects of intelligence including symbolic mapping, itrule understanding, pattern mining,
+    arXiv:2403.10700v1 Announce Type: cross  Abstract: Vision-and-Language Navigation in Continuous Environments (VLN-CE) is one of the most intuitive yet challenging embodied AI tasks. Agents are tasked to navigate towards a target goal by executing a set of low-level actions, following a series of natural language instructions. All VLN-CE methods in the literature assume that language instructions are exact. However, in practice, instructions given by humans can contain errors when describing a spatial environment due to inaccurate memory or confusion. Current VLN-CE benchmarks do not address this scenario, making the state-of-the-art methods in VLN-CE fragile in the presence of erroneous instructions from human users. For the first time, we propose a novel benchmark dataset that introduces various types of instruction errors considering potential human causes. This benchmark provides valuable insight into the robustness of VLN systems in continuous environments. We observe a noticeable 
     
-[^5]: 文字想象的释放：通过探索文字的力量实现文本到图像的人物检索的新框架
+[^3]: 噪声的力量：朝着统一的多模态知识图表示框架
 
-    Unleashing the Imagination of Text: A Novel Framework for Text-to-image Person Retrieval via Exploring the Power of Words. (arXiv:2307.09059v1 [cs.CL])
+    The Power of Noise: Toward a Unified Multi-modal Knowledge Graph Representation Framework
 
-    [http://arxiv.org/abs/2307.09059](http://arxiv.org/abs/2307.09059)
+    [https://arxiv.org/abs/2403.06832](https://arxiv.org/abs/2403.06832)
 
-    本研究提出了一个新的框架，通过探索文本中的文字的力量，实现了准确地将抽象的文本描述映射到具体的图像，从而实现了文本到图像的人物检索。
+    提出了一种利用噪声掩模的Transformer-based架构SNAG方法，实现了多模态知识图表示中实体嵌入的最先进性能
 
     
 
-    文本到图像的人物检索的目标是从大型图库中检索与给定文本描述相匹配的人物图像。这个任务的主要挑战在于视觉和文本模态之间信息表示的显著差异。文本模态通过词汇和语法结构传递抽象和精确的信息，而视觉模态通过图像传递具体和直观的信息。为了充分利用文字表示的表达力，准确地将抽象的文本描述映射到具体图像是至关重要的。为了解决这个问题，我们提出了一个新的框架，通过探索句子中的文字的力量，释放了文本到图像人物检索中的文字想象力。具体来说，该框架使用预训练的全面CLIP模型作为图像和文本的双编码器，利用先前的跨模态对齐知识。
+    多模态预训练的进展凸显出鲁棒的多模态知识图（MMKG）表示学习框架的必要性。此框架对于在规模上将结构化知识整合到多模态大型语言模型（LLMs）中至关重要，旨在减轻知识误解和多模态幻觉等问题。在这项工作中，为了评估模型准确嵌入MMKG中的实体的能力，我们专注于两个广泛研究的任务：多模态知识图完成（MKGC）和多模态实体对齐（MMEA）。在此基础上，我们提出了一种新颖的SNAG方法，该方法利用基于Transformer的架构，并配备了模态级噪声掩模，以在知识图中鲁棒地集成多模态实体特征。通过为MKGC和MMEA都引入特定的训练目标，我们的方法在总共十个数据集上（三个用于MKGC和...
 
-    The goal of Text-to-image person retrieval is to retrieve person images from a large gallery that match the given textual descriptions. The main challenge of this task lies in the significant differences in information representation between the visual and textual modalities. The textual modality conveys abstract and precise information through vocabulary and grammatical structures, while the visual modality conveys concrete and intuitive information through images. To fully leverage the expressive power of textual representations, it is essential to accurately map abstract textual descriptions to specific images.  To address this issue, we propose a novel framework to Unleash the Imagination of Text (UIT) in text-to-image person retrieval, aiming to fully explore the power of words in sentences. Specifically, the framework employs the pre-trained full CLIP model as a dual encoder for the images and texts , taking advantage of prior cross-modal alignment knowledge. The Text-guided Imag
+    arXiv:2403.06832v1 Announce Type: cross  Abstract: The advancement of Multi-modal Pre-training highlights the necessity for a robust Multi-Modal Knowledge Graph (MMKG) representation learning framework. This framework is crucial for integrating structured knowledge into multi-modal Large Language Models (LLMs) at scale, aiming to alleviate issues like knowledge misconceptions and multi-modal hallucinations. In this work, to evaluate models' ability to accurately embed entities within MMKGs, we focus on two widely researched tasks: Multi-modal Knowledge Graph Completion (MKGC) and Multi-modal Entity Alignment (MMEA). Building on this foundation, we propose a novel SNAG method that utilizes a Transformer-based architecture equipped with modality-level noise masking for the robust integration of multi-modal entity features in KGs. By incorporating specific training objectives for both MKGC and MMEA, our approach achieves SOTA performance across a total of ten datasets (three for MKGC and 
+    
+[^4]: 大型语言模型是否反映认知语言处理？
+
+    Do Large Language Models Mirror Cognitive Language Processing?
+
+    [https://arxiv.org/abs/2402.18023](https://arxiv.org/abs/2402.18023)
+
+    本文提出了一种新颖方法，通过将大型语言模型（LLMs）的表示与人类认知信号联系起来，评估LLMs模拟认知语言处理的效果。
+
+    
+
+    大型语言模型（LLMs）在文本理解和逻辑推理方面展现出卓越能力，甚至在许多认知任务中实现甚至超越人类水平的表现。由于LLMs是从人类语言认知的大量文本产出中训练出来的，自然而然地会问LLMs是否反映认知语言处理，或LLMs在多大程度上类似于认知语言处理。本文提出了一种新颖的方法，用于连接LLMs表征和人类认知信号，以评估LLMs如何有效地模拟认知语言处理。我们采用表征相似性分析（RSA）来衡量16种主流LLMs与大脑fMRI信号之间的对齐程度。我们在实验中探讨了各种因素（例如模型规模、对齐训练、指导附加）对LLM-大脑对齐的影响。实验结果表明，模型规模与正相关
+
+    arXiv:2402.18023v1 Announce Type: new  Abstract: Large language models (LLMs) have demonstrated remarkable capabilities in text comprehension and logical reasoning, achiving or even surpassing human-level performance in numerous cognition tasks. As LLMs are trained from massive textual outputs of human language cognition, it is natural to ask whether LLMs mirror cognitive language processing. Or to what extend LLMs resemble cognitive language processing? In this paper, we propose a novel method that bridge between LLM representations and human cognition signals to evaluate how effectively LLMs simulate cognitive language processing. We employ Representational Similarity Analysis (RSA) to mearsure the alignment between 16 mainstream LLMs and fMRI signals of the brain. We empirically investigate the impact of a variety of factors (e.g., model scaling, alignment training, instruction appending) on such LLM-brain alignment. Experimental results indicate that model scaling is positively cor
+    
+[^5]: SelectIT: 通过基于不确定性的自我反思实现大型语言模型的选择性指导调整
+
+    SelectIT: Selective Instruction Tuning for Large Language Models via Uncertainty-Aware Self-Reflection
+
+    [https://arxiv.org/abs/2402.16705](https://arxiv.org/abs/2402.16705)
+
+    SelectIT通过利用大型语言模型本身的能力和基于不确定性的方法，提出了一种无需额外资源的高效选择指导调整数据集的方法，进而提升了模型的能力。
+
+    
+
+    指导调整（IT）对于调整大型语言模型（LLMs）以适应人类中心交互至关重要。最近的进展表明，精心选择一小部分高质量的IT数据可以显着提高LLMs的性能。尽管如此，常见方法通常依赖于额外的模型或数据集，这增加了成本并限制了广泛采用。在这项工作中，我们提出了一种新颖的方法，称为SelectIT，它利用LLM本身的基本能力。具体来说，我们利用LLMs中固有的不确定性，更有效地选择高质量的IT数据，而无需额外资源。此外，我们介绍了一种新颖的IT数据集，名为选择性羊驼（Selective Alpaca），通过将SelectIT应用于Alpaca-GPT4数据集而创建。实证结果表明，使用选择性羊驼进行IT可以极大地提升模型性能。SelectIT的稳健性也得到了验证。
+
+    arXiv:2402.16705v1 Announce Type: new  Abstract: Instruction tuning (IT) is crucial to tailoring large language models (LLMs) towards human-centric interactions. Recent advancements have shown that the careful selection of a small, high-quality subset of IT data can significantly enhance the performance of LLMs. Despite this, common approaches often rely on additional models or data sets, which increases costs and limits widespread adoption. In this work, we propose a novel approach, termed SelectIT, that capitalizes on the foundational capabilities of the LLM itself. Specifically, we exploit the intrinsic uncertainty present in LLMs to more effectively select high-quality IT data, without the need for extra resources. Furthermore, we introduce a novel IT dataset, the Selective Alpaca, created by applying SelectIT to the Alpaca-GPT4 dataset. Empirical results demonstrate that IT using Selective Alpaca leads to substantial model ability enhancement. The robustness of SelectIT has also b
     
 
