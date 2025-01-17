@@ -2,67 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Metric Space Magnitude for Evaluating the Diversity of Latent Representations](https://arxiv.org/abs/2311.16054) | 基于度量空间大小的潜在表示多样性度量，可稳定计算，能够进行多尺度比较，在多个领域和任务中展现出优越性能。 |
-| [^2] | [Ensemble sampling for linear bandits: small ensembles suffice](https://arxiv.org/abs/2311.08376) | 该论文对随机线性赌臂环境中的集成抽样进行了首次实用和严格的分析，展示了在标准假设下，采用规模为$d \log T$的集成抽样可以获得接近$\sqrt{T}$阶的后悔，而不需要集成大小与$T$线性扩展。 |
-| [^3] | [Interpreting Equivariant Representations.](http://arxiv.org/abs/2401.12588) | 本文研究了潜在表示的等变性以及在使用中考虑等变模型的归纳偏差的重要性，提出了选择不变投影的原则，并展示了两个实例的影响。 |
-| [^4] | [Finite-Sample Bounds for Adaptive Inverse Reinforcement Learning using Passive Langevin Dynamics.](http://arxiv.org/abs/2304.09123) | 本文提供了有限时间界限，用于被动随机梯度 Langevin 动力学算法，该算法可用于逆强化学习。该算法充当随机采样器，恢复用外部过程优化而来的成本函数。 |
+| [^1] | [Statistical Efficiency of Distributional Temporal Difference](https://arxiv.org/abs/2403.05811) | 该论文分析了分布式时间差分的统计效率和有限样本性能。 |
+| [^2] | [Wasserstein Gradient Flows for Moreau Envelopes of f-Divergences in Reproducing Kernel Hilbert Spaces](https://arxiv.org/abs/2402.04613) | 本文研究了在再生核希尔伯特空间中使用Moreau包络来对测度f-差异进行正则化的方法，并利用该方法分析了Wasserstein梯度流。 |
 
 # 详细
 
-[^1]: 用于评估潜在表示多样性的度量空间大小
+[^1]: 分布式时间差分的统计效率
 
-    Metric Space Magnitude for Evaluating the Diversity of Latent Representations
+    Statistical Efficiency of Distributional Temporal Difference
 
-    [https://arxiv.org/abs/2311.16054](https://arxiv.org/abs/2311.16054)
+    [https://arxiv.org/abs/2403.05811](https://arxiv.org/abs/2403.05811)
 
-    基于度量空间大小的潜在表示多样性度量，可稳定计算，能够进行多尺度比较，在多个领域和任务中展现出优越性能。
-
-    
-
-    度量空间的大小是一种近期建立的不变性，能够在多个尺度上提供空间的“有效大小”的衡量，并捕捉到许多几何属性。我们发展了一系列基于大小的潜在表示内在多样性度量，形式化了有限度量空间大小函数之间的新颖不相似性概念。我们的度量在数据扰动下保证稳定，可以高效计算，并且能够对潜在表示进行严格的多尺度比较。我们展示了我们的度量在实验套件中的实用性和卓越性能，包括不同领域和任务的多样性评估、模式崩溃检测以及用于文本、图像和图形数据的生成模型评估。
-
-    The magnitude of a metric space is a recently-established invariant, providing a measure of the 'effective size' of a space across multiple scales while also capturing numerous geometrical properties. We develop a family of magnitude-based measures of the intrinsic diversity of latent representations, formalising a novel notion of dissimilarity between magnitude functions of finite metric spaces. Our measures are provably stable under perturbations of the data, can be efficiently calculated, and enable a rigorous multi-scale comparison of latent representations. We show the utility and superior performance of our measures in an experimental suite that comprises different domains and tasks, including the evaluation of diversity, the detection of mode collapse, and the evaluation of generative models for text, image, and graph data.
-    
-[^2]: 线性赌臂的集成抽样：小集成足矣
-
-    Ensemble sampling for linear bandits: small ensembles suffice
-
-    [https://arxiv.org/abs/2311.08376](https://arxiv.org/abs/2311.08376)
-
-    该论文对随机线性赌臂环境中的集成抽样进行了首次实用和严格的分析，展示了在标准假设下，采用规模为$d \log T$的集成抽样可以获得接近$\sqrt{T}$阶的后悔，而不需要集成大小与$T$线性扩展。
+    该论文分析了分布式时间差分的统计效率和有限样本性能。
 
     
 
-    我们首次对随机线性赌臂设定下的集成抽样进行了有用且严谨的分析。特别地，我们展示了在标准假设下，对于一个具有交互作用时间跨度$T$的$d$维随机线性赌臂，采用集成大小为$\smash{d \log T}$的集成抽样，遭受的后悔最多为$\smash{(d \log T)^{5/2} \sqrt{T}}$阶。我们的结果是在任何结构化环境中第一个不要求集成大小与$T$线性扩展的结果，这使得集成抽样失去意义，同时获得了接近$\smash{\sqrt{T}}$阶的后悔。我们的结果也是第一个允许无限动作集的结果。
+    分布式强化学习(DRL)关注的是返回的完整分布，而不仅仅是均值，在各个领域取得了经验成功。领域DRL中的核心任务之一是分布式策略评估，涉及估计给定策略pi的返回分布η^pi。相应地提出了分布时间差分(TD)算法，这是经典RL文献中时间差分算法的延伸。在表格案例中，citet{rowland2018analysis}和citet{rowland2023analysis}分别证明了两个分布式TD实例即分类时间差分算法(CTD)和分位数时间差分算法(QTD)的渐近收敛。在这篇论文中，我们进一步分析了分布式TD的有限样本性能。为了促进理论分析，我们提出了一个非参数的 dis
 
-    arXiv:2311.08376v2 Announce Type: replace-cross  Abstract: We provide the first useful and rigorous analysis of ensemble sampling for the stochastic linear bandit setting. In particular, we show that, under standard assumptions, for a $d$-dimensional stochastic linear bandit with an interaction horizon $T$, ensemble sampling with an ensemble of size of order $\smash{d \log T}$ incurs regret at most of the order $\smash{(d \log T)^{5/2} \sqrt{T}}$. Ours is the first result in any structured setting not to require the size of the ensemble to scale linearly with $T$ -- which defeats the purpose of ensemble sampling -- while obtaining near $\smash{\sqrt{T}}$ order regret. Ours is also the first result that allows infinite action sets.
+    arXiv:2403.05811v1 Announce Type: cross  Abstract: Distributional reinforcement learning (DRL), which cares about the full distribution of returns instead of just the mean, has achieved empirical success in various domains. One of the core tasks in the field of DRL is distributional policy evaluation, which involves estimating the return distribution $\eta^\pi$ for a given policy $\pi$. A distributional temporal difference (TD) algorithm has been accordingly proposed, which is an extension of the temporal difference algorithm in the classic RL literature. In the tabular case, \citet{rowland2018analysis} and \citet{rowland2023analysis} proved the asymptotic convergence of two instances of distributional TD, namely categorical temporal difference algorithm (CTD) and quantile temporal difference algorithm (QTD), respectively. In this paper, we go a step further and analyze the finite-sample performance of distributional TD. To facilitate theoretical analysis, we propose non-parametric dis
     
-[^3]: 解读等变表示
+[^2]: 在再生核希尔伯特空间中的Moreau包络的f-差异的Wasserstein梯度流
 
-    Interpreting Equivariant Representations. (arXiv:2401.12588v1 [cs.LG])
+    Wasserstein Gradient Flows for Moreau Envelopes of f-Divergences in Reproducing Kernel Hilbert Spaces
 
-    [http://arxiv.org/abs/2401.12588](http://arxiv.org/abs/2401.12588)
+    [https://arxiv.org/abs/2402.04613](https://arxiv.org/abs/2402.04613)
 
-    本文研究了潜在表示的等变性以及在使用中考虑等变模型的归纳偏差的重要性，提出了选择不变投影的原则，并展示了两个实例的影响。
-
-    
-
-    对于深度学习模型的可视化、插值或特征提取等下游任务，潜在表示被广泛使用。不变和等变神经网络是用于强制执行归纳偏差的强大且已建立的模型。本文表明，在使用潜在表示时，必须同时考虑等变模型施加的归纳偏差。我们展示了不考虑归纳偏差会导致下游任务性能下降，相反，通过使用潜在表示的不变投影可以有效地考虑归纳偏差。我们提出了选择这样一个投影的原则，并展示了在两个常见例子中使用这些原则的影响：首先，我们研究了一种用于分子图生成的置换等变变分自动编码器；在这里，我们展示了可以设计出不产生信息损失的不变投影。
-
-    Latent representations are used extensively for downstream tasks, such as visualization, interpolation or feature extraction of deep learning models. Invariant and equivariant neural networks are powerful and well-established models for enforcing inductive biases. In this paper, we demonstrate that the inductive bias imposed on the by an equivariant model must also be taken into account when using latent representations. We show how not accounting for the inductive biases leads to decreased performance on downstream tasks, and vice versa, how accounting for inductive biases can be done effectively by using an invariant projection of the latent representations. We propose principles for how to choose such a projection, and show the impact of using these principles in two common examples: First, we study a permutation equivariant variational auto-encoder trained for molecule graph generation; here we show that invariant projections can be designed that incur no loss of information in the
-    
-[^4]: 使用被动 Langevin 动力学的自适应逆强化学习的有限样本界限
-
-    Finite-Sample Bounds for Adaptive Inverse Reinforcement Learning using Passive Langevin Dynamics. (arXiv:2304.09123v1 [cs.LG])
-
-    [http://arxiv.org/abs/2304.09123](http://arxiv.org/abs/2304.09123)
-
-    本文提供了有限时间界限，用于被动随机梯度 Langevin 动力学算法，该算法可用于逆强化学习。该算法充当随机采样器，恢复用外部过程优化而来的成本函数。
+    本文研究了在再生核希尔伯特空间中使用Moreau包络来对测度f-差异进行正则化的方法，并利用该方法分析了Wasserstein梯度流。
 
     
 
-    随机梯度 Langevin 动力学 (SGLD) 是从概率分布采样的有用方法。本文提供了一个被动随机梯度 Langevin 动力学算法 (PSGLD) 的有限样本分析，旨在实现逆强化学习。此处的“被动”是指 PSGLD 算法(逆学习过程)可用的噪声渐变是由外部随机梯度算法(正向学习器)在随机选择的点上评估的。PSGLD 算法因此充当一个随机采样器，可恢复正在被此外部过程优化的成本函数。以前的工作使用随机逼近技术分析了这个被动算法的渐近性能；在本文中，我们分析了它的有限时间性能。具体而言，我们提供了在被动算法和其稳定测度之间的 2-Wasserstein 距离上的有限时间界限，从中可以获得重建的成本函数。
+    大多数常用的测度f-差异，例如Kullback-Leibler差异，对于所涉及的测度的支持存在限制。解决办法是通过与特征核K相关的平方最大均值差异(MMD)对f-差异进行正则化。在本文中，我们使用所谓的核均值嵌入来显示相应的正则化可以重写为与K相关的再生核希尔伯特空间中某些函数的Moreau包络。然后，我们利用关于希尔伯特空间中Moreau包络的众所周知的结果来证明MMD正则化的f-差异及其梯度的属性。随后，我们使用我们的研究结果来分析受MMD正则化的f-差异的Wasserstein梯度流。最后，我们考虑从经验测度开始的Wasserstein梯度流，并提供使用Tsallis-$\alpha$差异的概念性数值示例的证明。
 
-    Stochastic gradient Langevin dynamics (SGLD) are a useful methodology for sampling from probability distributions. This paper provides a finite sample analysis of a passive stochastic gradient Langevin dynamics algorithm (PSGLD) designed to achieve inverse reinforcement learning. By "passive", we mean that the noisy gradients available to the PSGLD algorithm (inverse learning process) are evaluated at randomly chosen points by an external stochastic gradient algorithm (forward learner). The PSGLD algorithm thus acts as a randomized sampler which recovers the cost function being optimized by this external process. Previous work has analyzed the asymptotic performance of this passive algorithm using stochastic approximation techniques; in this work we analyze the non-asymptotic performance. Specifically, we provide finite-time bounds on the 2-Wasserstein distance between the passive algorithm and its stationary measure, from which the reconstructed cost function is obtained.
+    Most commonly used $f$-divergences of measures, e.g., the Kullback-Leibler divergence, are subject to limitations regarding the support of the involved measures. A remedy consists of regularizing the $f$-divergence by a squared maximum mean discrepancy (MMD) associated with a characteristic kernel $K$. In this paper, we use the so-called kernel mean embedding to show that the corresponding regularization can be rewritten as the Moreau envelope of some function in the reproducing kernel Hilbert space associated with $K$. Then, we exploit well-known results on Moreau envelopes in Hilbert spaces to prove properties of the MMD-regularized $f$-divergences and, in particular, their gradients. Subsequently, we use our findings to analyze Wasserstein gradient flows of MMD-regularized $f$-divergences. Finally, we consider Wasserstein gradient flows starting from empirical measures and provide proof-of-the-concept numerical examples with Tsallis-$\alpha$ divergences.
     
 

@@ -2,52 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Heterogeneous Treatment Effects and Causal Mechanisms](https://arxiv.org/abs/2404.01566) | 该论文讨论了异质性治疗效应对于因果机制的推断，并指出了存在的挑战和局限性。 |
-| [^2] | [Profit Shifting Frictions and the Geography of Multinational Activity.](http://arxiv.org/abs/2211.04388) | 本文建立了一个定量一般均衡模型，研究利润转移摩擦对跨国生产的影响，提出一种新的校准方法，并模拟了税收改革的影响。结果表明，公司国际转移对多个国家的影响与可纳税收入的直接增益相当。 |
-| [^3] | [Probabilistic Verification in Mechanism Design.](http://arxiv.org/abs/1908.05556) | 该论文介绍了机制设计中的概率验证模型，通过选择统计测试来验证代理人的声明，并判断是否有最佳测试筛选所有其他类型。这个方法能够利润最大化并不断插值解决验证的问题。 |
+| [^1] | [Identifying Assumptions and Research Dynamics](https://arxiv.org/abs/2402.18713) | 研究者在处理发现时引入确定性假设，根据KL-散度准则实施合理的研究设计，并根据Bayes更新信念，研究了学习过程的动态和长期信念的影响，研究的速度不是均匀加速，在一些环境中是固定的，长期信念可能受到历史的影响。 |
+| [^2] | [Consistent Linear Orders for Supermajority Rules.](http://arxiv.org/abs/2304.09419) | 论文考虑了通过个体偏好的聚合来构建超过半数规则的一致性线性排序，使用传递闭包和铃木村一致性闭包两种程序进行排序修改，得出两组线性排序满足扩展的Condorcet原则、Pareto原则、克隆的独立性和翻转对称性属性。 |
 
 # 详细
 
-[^1]: 异质性治疗效应和因果机制
+[^1]: 确定假设与研究动态
 
-    Heterogeneous Treatment Effects and Causal Mechanisms
+    Identifying Assumptions and Research Dynamics
 
-    [https://arxiv.org/abs/2404.01566](https://arxiv.org/abs/2404.01566)
+    [https://arxiv.org/abs/2402.18713](https://arxiv.org/abs/2402.18713)
 
-    该论文讨论了异质性治疗效应对于因果机制的推断，并指出了存在的挑战和局限性。
-
-    
-
-    arXiv:2404.01566v1 公告类型:新摘要:可信度革命推动了利用研究设计来识别和估计因果效应的发展。然而，了解哪些机制产生了测量的因果效应仍然是一个挑战。目前关于定量评估机制的主要方法依赖于检测与处理前协变量相关的异质性处理效应。本文开发了一个框架，用于理解在何种情况下这种异质性处理效应的存在能够支持有关机制激活的推断。我们首先展示，这种设计在没有额外、通常是隐含的假设的情况下无法为机制激活提供证据。此外，即使这些假设得到满足，如果一个测量结果是通过直接受影响的感兴趣理论结果的非线性转换产生的，异质性处理效应也不足以推断机制激活。我们提供了n
-
-    arXiv:2404.01566v1 Announce Type: new  Abstract: The credibility revolution advances the use of research designs that permit identification and estimation of causal effects. However, understanding which mechanisms produce measured causal effects remains a challenge. A dominant current approach to the quantitative evaluation of mechanisms relies on the detection of heterogeneous treatment effects with respect to pre-treatment covariates. This paper develops a framework to understand when the existence of such heterogeneous treatment effects can support inferences about the activation of a mechanism. We show first that this design cannot provide evidence of mechanism activation without additional, generally implicit, assumptions. Further, even when these assumptions are satisfied, if a measured outcome is produced by a non-linear transformation of a directly-affected outcome of theoretical interest, heterogeneous treatment effects are not informative of mechanism activation. We provide n
-    
-[^2]: 利润转移摩擦与跨国经营的地理位置
-
-    Profit Shifting Frictions and the Geography of Multinational Activity. (arXiv:2211.04388v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2211.04388](http://arxiv.org/abs/2211.04388)
-
-    本文建立了一个定量一般均衡模型，研究利润转移摩擦对跨国生产的影响，提出一种新的校准方法，并模拟了税收改革的影响。结果表明，公司国际转移对多个国家的影响与可纳税收入的直接增益相当。
+    研究者在处理发现时引入确定性假设，根据KL-散度准则实施合理的研究设计，并根据Bayes更新信念，研究了学习过程的动态和长期信念的影响，研究的速度不是均匀加速，在一些环境中是固定的，长期信念可能受到历史的影响。
 
     
 
-    我们建立了一个嵌入企业税收和利润转移的定量一般均衡模型，研究了跨国经营。除了贸易和投资摩擦外，我们的模型表明利润转移摩擦形成了跨国生产的地理位置。我们模型的关键在于区分实际活动和利润转移的企业税收弹性。我们量化模型需要估算转移利润流量的。我们提供了一种新的、与模型一致的方法，根据会计恒等式来校准双边利润转移摩擦。我们模拟了各种旨在遏制跨国公司逃税行为的税收改革，以及它们对一系列结果的影响，包括税收收入和生产。我们的结果表明，公司国际转移对多个国家的影响与可纳税收入的直接增益相当。
+    一位代表性研究者追求一个问题时会有多次机会进行经验研究。为了处理发现，她必须引入一个确定性假设，这个假设确保重复观察会给出对问题的确定性回答。研究设计因质量而异，只有在根据KL-散度准则假设足够合理时才会实施，然后信念会根据Bayes更新，就好像假设完全有效一样。我们研究了这一学习过程的动态和其引发的长期信念。研究的速度不能在时间上均匀加速。我们表征了在其中速度是固定的环境。长期信念可能显示出依赖历史。我们将该模型应用于实证方法的样式化示例：实验、因果推断技术，以及（在扩展中）像“校准”和“赫克曼选择”这样的“结构”识别方法。
 
-    We develop a quantitative general equilibrium model of multinational activity embedding corporate taxation and profit shifting. In addition to trade and investment frictions, our model shows that profit-shifting frictions shape the geography of multinational production. Key to our model is the distinction between the corporate tax elasticity of real activity and profit shifting. The quantification of our model requires estimates of shifted profits flows. We provide a new, model-consistent methodology to calibrate bilateral profit-shifting frictions based on accounting identities. We simulate various tax reforms aimed at curbing tax-dodging practices of multinationals and their impact on a range of outcomes, including tax revenues and production. Our results show that the effects of the international relocation of firms across countries are of comparable magnitude as the direct gains in taxable income.
+    arXiv:2402.18713v1 Announce Type: new  Abstract: A representative researcher pursuing a question has repeated opportunities for empirical research. To process findings, she must impose an identifying assumption, which ensures that repeated observation would provide a definitive answer to her question. Research designs vary in quality and are implemented only when the assumption is plausible enough according to a KL-divergence-based criterion, and then beliefs are Bayes-updated as if the assumption were perfectly valid. We study the dynamics of this learning process and its induced long-run beliefs. The rate of research cannot uniformly accelerate over time. We characterize environments in which it is stationary. Long-run beliefs can exhibit history-dependence. We apply the model to stylized examples of empirical methodologies: experiments, causal-inference techniques, and (in an extension) ``structural'' identification methods such as ``calibration'' and ``Heckman selection.''
     
-[^3]: 机制设计中的概率验证
+[^2]: 超过半数规则的一致性线性排序
 
-    Probabilistic Verification in Mechanism Design. (arXiv:1908.05556v2 [econ.TH] UPDATED)
+    Consistent Linear Orders for Supermajority Rules. (arXiv:2304.09419v1 [econ.TH])
 
-    [http://arxiv.org/abs/1908.05556](http://arxiv.org/abs/1908.05556)
+    [http://arxiv.org/abs/2304.09419](http://arxiv.org/abs/2304.09419)
 
-    该论文介绍了机制设计中的概率验证模型，通过选择统计测试来验证代理人的声明，并判断是否有最佳测试筛选所有其他类型。这个方法能够利润最大化并不断插值解决验证的问题。
+    论文考虑了通过个体偏好的聚合来构建超过半数规则的一致性线性排序，使用传递闭包和铃木村一致性闭包两种程序进行排序修改，得出两组线性排序满足扩展的Condorcet原则、Pareto原则、克隆的独立性和翻转对称性属性。
 
     
 
-    我们在机制设计背景下引入了一个概率验证模型。委托人选择一个统计测试来验证代理人的声明。代理人的真实类型决定了他可以通过每个测试的概率。我们刻画了每个类型是否有一个相关的测试，最好地筛选出所有其他类型，无论社会选择规则如何。如果这个条件成立，那么测试技术可以用一个易于处理的简化形式表示。我们使用这个简化形式来解决验证的利润最大化机制。随着验证的改进，解决方案从无验证解决方案到完全剩余提取不断插值。
+    我们考虑通过个体偏好的聚合来构建有限选项的线性排序。我们关注的是与集体偏好关系一致的线性排序，该线性排序是由超过半数规则之一构建的，并在存在循环时使用两种程序进行修改。一种修改程序使用传递闭包，另一种使用铃木村一致性闭包。我们得出两组线性排序，这些线性排序与通过Tideman的排名对方法和Schulze方法获得的排序密切相关。最后，我们考虑了两个社会决策对应，其输出是上述引入的一个集合，并表明这些对应满足四个属性：扩展的Condorcet原则，Pareto原则，克隆的独立性和翻转对称性。
 
-    We introduce a model of probabilistic verification in a mechanism design setting. The principal selects a statistical test to verify the agent's claim. The agent's true type determines the probability with which he can pass each test. We characterize whether each type has an associated test that best screens out all other types, no matter the social choice rule. If this condition holds, then the testing technology can be represented in a tractable reduced form. We use this reduced form to solve for profit-maximizing mechanisms with verification. As verification improves, the solution continuously interpolates from the no-verification solution to full surplus extraction.
+    We consider linear orders of finite alternatives that are constructed by aggregating the preferences of individuals. We focus on a linear order that is consistent with the collective preference relation, which is constructed by one of the supermajority rules and modified using two procedures if there exist some cycles. One modification procedure uses the transitive closure, and the other uses the Suzumura consistent closure. We derive two sets of linear orders that are consistent with the (modified) collective preference relations formed by any of the supermajority rules. These sets of linear orders are closely related to those obtained through Tideman's ranked pairs method and the Schulze method. Finally, we consider two social choice correspondences whose output is one of the sets introduced above, and show that the correspondences satisfy the four properties: the extended Condorcet principle, the Pareto principle, the independence of clones, and the reversal symmetry.
     
 
