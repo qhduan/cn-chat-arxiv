@@ -2,247 +2,157 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Recurrent Transformers with Dynamic Halt](https://rss.arxiv.org/abs/2402.00976) | 本文研究了增强Transformer与循环机制的两种方法，并提出了新的扩展和组合方法。在多个诊断任务中进行比较，探索它们的归纳偏好。 |
-| [^2] | [Using Quantum Computing to Infer Dynamic Behaviors of Biological and Artificial Neural Networks](https://arxiv.org/abs/2403.18963) | 本研究展示了如何利用Grover和Deutsch-Josza等基础量子算法，通过一组精心构建的条件，推断生物和人工神经网络在一段时间内是否具有继续维持动态活动的潜力。 |
-| [^3] | [The Blind Normalized Stein Variational Gradient Descent-Based Detection for Intelligent Massive Random Access](https://arxiv.org/abs/2403.18846) | 提出了一种基于盲归一化斯坦变分梯度下降的检测器，用于解决智能大规模随机接入中的前导碰撞问题，并通过开发改进Hadamard变换和设计块MHT层来提高检测性能。 |
-| [^4] | [S+t-SNE - Bringing dimensionality reduction to data streams](https://arxiv.org/abs/2403.17643) | S+t-SNE是t-SNE算法的改进版本，在处理数据流时具有增量更新和盲目漂移管理的特点，能够实现高效的降维和信息可视化。 |
-| [^5] | [Yi: Open Foundation Models by 01.AI](https://arxiv.org/abs/2403.04652) | Yi模型系列基于强大的多维能力，通过基于6B和34B预训练模型的扩展，包括聊天模型、长上下文模型、深度放大模型和视觉语言模型，取得了优异的性能。 |
-| [^6] | [Beyond Specialization: Assessing the Capabilities of MLLMs in Age and Gender Estimation](https://arxiv.org/abs/2403.02302) | 本研究评估了多模态大型语言模型（MLLMs）在年龄和性别估计中的能力，对不同模型进行了比较，揭示了它们在特定任务上的优势和劣势。 |
-| [^7] | [Q-FOX Learning: Breaking Tradition in Reinforcement Learning](https://arxiv.org/abs/2402.16562) | Q-FOX学习是一种新颖的自动超参数调整方法，结合了FOX优化器和Q-learning算法，提出了使用新的目标函数来解决强化学习中超参数调整的问题。 |
-| [^8] | [DurFlex-EVC: Duration-Flexible Emotional Voice Conversion with Parallel Generation](https://arxiv.org/abs/2401.08095) | DurFlex-EVC通过引入风格自编码器和交叉注意力，解决了传统情绪语音转换模型中对语言和语音信息的同步问题。 |
-| [^9] | [AutoMix: Automatically Mixing Language Models](https://arxiv.org/abs/2310.12963) | AutoMix提出了一种自动选择更大语言模型处理查询的方法，通过少量样本自我验证和元验证器提高了输出的可靠性，可显著提高计算成本和性能的优化，实验证明性能优于基线最多86%. |
-| [^10] | [Selective Uncertainty Propagation in Offline RL](https://arxiv.org/abs/2302.00284) | 本论文提出了一种名为选择性不确定性传播的方法，用于解决离线强化学习中的分布偏移问题。该方法通过自适应的方式建立置信区间，有效地处理了实际问题中策略学习的挑战。 |
-| [^11] | [Quartet Logic: A Four-Step Reasoning (QLFR) framework for advancing Short Text Classification.](http://arxiv.org/abs/2401.03158) | 四步推理（QLFR）框架是一种通过引入句法和语义丰富的CoT来提升短文本分类任务中大型语言模型（LLMs）性能的方法。 |
-| [^12] | [Sweeping Heterogeneity with Smart MoPs: Mixture of Prompts for LLM Task Adaptation.](http://arxiv.org/abs/2310.02842) | 本论文提出了一种使用智能多任务适应混合提示的方法来解决LLM在处理异质任务和数据分布时的问题。研究者设计了智能门控功能，用于识别嵌入在不同提示组中的相关技能，并根据目标任务的需求动态分配组合专家。该方法对任何模型压缩技术都不受限制，提高了任务处理的效率。 |
-| [^13] | [Exploiting Uncertainty for Querying Inconsistent Description Logics Knowledge Bases.](http://arxiv.org/abs/2306.09138) | 本论文研究了如何利用概率语义来查询不一致的描述逻辑知识库，并通过实验证明了该方法的有效性。 |
-| [^14] | [Transformer-based model for monocular visual odometry: a video understanding approach.](http://arxiv.org/abs/2305.06121) | 本文提出了一种基于Transformer模型的TSformer-VO方法，将单目视觉里程计作为一项视频理解任务并通过时空自注意机制从视频片段中提取特征，以实现端到端的运动估计，达到了最新成果。 |
-| [^15] | [Experts' cognition-driven safe noisy labels learning for precise segmentation of residual tumor in breast cancer.](http://arxiv.org/abs/2304.07295) | 本文提出了一种基于专家认知驱动的安全噪声标签学习方法，用于乳腺癌残余肿瘤的精确分割，该方法将病理专家的认知和人工智能专家的数据建模认知相结合，以缓解乳腺癌组织和肿瘤细胞形态学改变的挑战。 |
-| [^16] | [Method for the semantic indexing of concept hierarchies, uniform representation, use of relational database systems and generic and case-based reasoning.](http://arxiv.org/abs/1910.01539) | 本文提出了一种语义索引方法，通过概念层次结构表示知识并将键分配给节点，使得概念与所有更具体的概念部分可统一，并且只允许添加语义正确的概念。此方法可以使用基于案例的推理和通用问题解决方法进行推理。 |
+| [^1] | [UrbanVLP: A Multi-Granularity Vision-Language Pre-Trained Foundation Model for Urban Indicator Prediction](https://arxiv.org/abs/2403.16831) | UrbanVLP是一种多粒度信息集成的视觉语言预训练模型，旨在克服目前城市指标预测中预训练模型的局限性，提高了可解释性和精度 |
+| [^2] | [Learning To Guide Human Decision Makers With Vision-Language Models](https://arxiv.org/abs/2403.16501) | 提出了“学习指导”（LTG）框架，旨在解决专家可能过度依赖机器决策和面临无助于模型放弃的决策的问题。 |
+| [^3] | [Cartoon Hallucinations Detection: Pose-aware In Context Visual Learning](https://arxiv.org/abs/2403.15048) | 该研究提出了一种用于检测由TTI模型生成的卡通角色图像中视觉幻觉的系统，通过结合姿势感知上下文视觉学习和视觉语言模型，利用RGB图像和姿势信息，实现了更准确的决策，显著提高了视觉幻觉的识别能力，推动了TTI模型在非照片真实领域的发展。 |
+| [^4] | [Optimal Transport for Domain Adaptation through Gaussian Mixture Models](https://arxiv.org/abs/2403.13847) | 通过高斯混合模型进行域自适应的最优输运，可以实现源域和目标域混合成分之间的匹配，从而在失效诊断中取得最先进的性能。 |
+| [^5] | [Can We Verify Step by Step for Incorrect Answer Detection?](https://arxiv.org/abs/2402.10528) | 通过推理链来预测大型语言模型输出的准确性，我们引入了一个新的基准R2PE，并提出了处理可辨识性评分（PDS）框架。 |
+| [^6] | [Enhancing Textbook Question Answering Task with Large Language Models and Retrieval Augmented Generation](https://arxiv.org/abs/2402.05128) | 本论文通过引入检索增强生成（RAG）技术和利用迁移学习来处理长文本和提升推理能力，为教科书问答任务带来了显著的改进。 |
+| [^7] | [The Boundaries of Tractability in Hierarchical Task Network Planning.](http://arxiv.org/abs/2401.14174) | 本论文研究了在层次化任务网络规划中三个经典问题的可计算边界，提供了在特定条件下将多项式时间可解性结果从原始任务网络推广到一般任务网络的方法，并且给出了这三个问题的参数化复杂度分析。 |
+| [^8] | [DISCOUNT: Distributional Counterfactual Explanation With Optimal Transport.](http://arxiv.org/abs/2401.13112) | 本文提出了使用最优传输进行分布式对抗解释的方法DISCOUNT，将对抗解释的概念扩展到整个输入输出分布，并通过统计置信度来支撑这一方法。 |
+| [^9] | [Learning to Mask and Permute Visual Tokens for Vision Transformer Pre-Training.](http://arxiv.org/abs/2306.07346) | 本论文提出了一种新的自监督预训练方法MaPeT，不同于现有的使用掩码图像模型的方法，该方法使用自回归和置换预测来捕获图像块内的依赖关系并减少数据噪声的影响，从而提高了下游任务的一致性。 |
+| [^10] | [Stochastic Submodular Bandits with Delayed Composite Anonymous Bandit Feedback.](http://arxiv.org/abs/2303.13604) | 本论文研究了具有随机次模收益和全赌徒延迟反馈的组合多臂赌博机问题，研究了三种延迟反馈模型并导出了后悔上限。研究结果表明，算法能够在考虑延迟组合匿名反馈时胜过其他全赌徒方法。 |
 
 # 详细
 
-[^1]: 具有动态停止的循环Transformer
+[^1]: UrbanVLP：用于城市指标预测的多粒度视觉语言预训练基础模型
 
-    Recurrent Transformers with Dynamic Halt
+    UrbanVLP: A Multi-Granularity Vision-Language Pre-Trained Foundation Model for Urban Indicator Prediction
 
-    [https://rss.arxiv.org/abs/2402.00976](https://rss.arxiv.org/abs/2402.00976)
+    [https://arxiv.org/abs/2403.16831](https://arxiv.org/abs/2403.16831)
 
-    本文研究了增强Transformer与循环机制的两种方法，并提出了新的扩展和组合方法。在多个诊断任务中进行比较，探索它们的归纳偏好。
-
-    
-
-    本文研究了两种主要方法在增强Transformer与循环机制方面的归纳偏好——（1）类似于Universal Transformers的深度逐层循环方法；和（2）类似于Temporal Latent Bottleneck的分块时态循环方法。此外，我们提出并研究了扩展和组合上述方法的新方式，例如，我们提出了一种基于全局均值的Universal Transformer动态停止机制，并将Universal Transformer的元素融入到Temporal Latent Bottleneck中。我们通过多个诊断任务（如Long Range Arena（LRA），翻转-翻转语言建模，ListOps和逻辑推理）比较了模型并探索了它们的归纳偏好。
-
-    In this paper, we study the inductive biases of two major approaches to augmenting Transformers with a recurrent mechanism - (1) the approach of incorporating a depth-wise recurrence similar to Universal Transformers; and (2) the approach of incorporating a chunk-wise temporal recurrence like Temporal Latent Bottleneck. Furthermore, we propose and investigate novel ways to extend and combine the above methods - for example, we propose a global mean-based dynamic halting mechanism for Universal Transformer and an augmentation of Temporal Latent Bottleneck with elements from Universal Transformer. We compare the models and probe their inductive biases in several diagnostic tasks such as Long Range Arena (LRA), flip-flop language modeling, ListOps, and Logical Inference.
-    
-[^2]: 使用量子计算推断生物和人工神经网络的动态行为
-
-    Using Quantum Computing to Infer Dynamic Behaviors of Biological and Artificial Neural Networks
-
-    [https://arxiv.org/abs/2403.18963](https://arxiv.org/abs/2403.18963)
-
-    本研究展示了如何利用Grover和Deutsch-Josza等基础量子算法，通过一组精心构建的条件，推断生物和人工神经网络在一段时间内是否具有继续维持动态活动的潜力。
+    UrbanVLP是一种多粒度信息集成的视觉语言预训练模型，旨在克服目前城市指标预测中预训练模型的局限性，提高了可解释性和精度
 
     
 
-    新问题类别的探索是量子计算研究的一个活跃领域。一个基本上完全未被探讨的主题是使用量子算法和计算来探索和询问神经网络的功能动态。这是将量子计算应用于生物和人工神经网络建模和仿真的尚未成熟的主题的一个组成部分。在本研究中，我们展示了如何通过精心构建的一组条件来使用两个基础量子算法，Grover和Deutsch-Josza，以使输出测量具有一种解释，保证我们能够推断一个简单的神经网络表示（适用于生物和人工网络）在一段时间后是否有可能继续维持动态活动。或者这些动态保证会停止，要么是通过'癫痫'动态，要么是静止状态。
+    城市指标预测旨在利用数据驱动方法推断不同城市景观中的社会经济指标。然而，目前流行的预训练模型，特别是依赖卫星图像的模型，面临着双重挑战。首先，仅集中在卫星数据中的宏观级别模式可能引入偏见，在微观级别缺乏细致的细节，例如某地的建筑细节。其次，预训练模型缺乏可解释性，限制了它们在提供城市规划透明证据方面的实用性。针对这些问题，本文设计了一种新颖的Vision-Language Pre-Trained Model（UrbanVLP）。我们的UrbanVLP无缝整合来自宏观（卫星）和微观（街景）级别的多粒度信息，克服了先前预训练模型的局限性。此外，它引入了自动生成文本和校准，提高了在下游应用中的可解释性。
 
-    arXiv:2403.18963v1 Announce Type: cross  Abstract: The exploration of new problem classes for quantum computation is an active area of research. An essentially completely unexplored topic is the use of quantum algorithms and computing to explore and ask questions \textit{about} the functional dynamics of neural networks. This is a component of the still-nascent topic of applying quantum computing to the modeling and simulations of biological and artificial neural networks. In this work, we show how a carefully constructed set of conditions can use two foundational quantum algorithms, Grover and Deutsch-Josza, in such a way that the output measurements admit an interpretation that guarantees we can infer if a simple representation of a neural network (which applies to both biological and artificial networks) after some period of time has the potential to continue sustaining dynamic activity. Or whether the dynamics are guaranteed to stop either through 'epileptic' dynamics or quiescence
+    arXiv:2403.16831v1 Announce Type: cross  Abstract: Urban indicator prediction aims to infer socio-economic metrics in diverse urban landscapes using data-driven methods. However, prevalent pre-trained models, particularly those reliant on satellite imagery, face dual challenges. Firstly, concentrating solely on macro-level patterns from satellite data may introduce bias, lacking nuanced details at micro levels, such as architectural details at a place. Secondly, the lack of interpretability in pre-trained models limits their utility in providing transparent evidence for urban planning. In response to these issues, we devise a novel Vision-Language Pre-Trained Model (UrbanVLP) in this paper. Our UrbanVLP seamlessly integrates multi-granularity information from both macro (satellite) and micro (street-view) levels, overcoming the limitations of prior pre-trained models. Moreover, it introduces automatic text generation and calibration, elevating interpretability in downstream application
     
-[^3]: 基于盲归一化斯坦变分梯度下降的智能大规模随机接入检测
+[^2]: 学习使用视觉-语言模型指导人类决策者
 
-    The Blind Normalized Stein Variational Gradient Descent-Based Detection for Intelligent Massive Random Access
+    Learning To Guide Human Decision Makers With Vision-Language Models
 
-    [https://arxiv.org/abs/2403.18846](https://arxiv.org/abs/2403.18846)
+    [https://arxiv.org/abs/2403.16501](https://arxiv.org/abs/2403.16501)
 
-    提出了一种基于盲归一化斯坦变分梯度下降的检测器，用于解决智能大规模随机接入中的前导碰撞问题，并通过开发改进Hadamard变换和设计块MHT层来提高检测性能。
-
-    
-
-    缺乏高效的前导检测算法仍然是解决实际通信场景中智能大规模随机接入(RA)中前导碰撞问题的挑战。为解决这一问题，我们提出了一种新颖的基于最大似然估计(MLE)模型的早期前导检测方案，在授予式RA流程的第一步。提出了一种新颖的基于盲归一化斯坦变分梯度下降(SVGD)的检测器，以获得MLE模型的近似解。首先，通过探索Hadamard变换和小波变换之间的关系，开发了一种新的改进Hadamard变换(MHT)，使用二阶导数滤波器将高频分离出重要部分。接下来，为了消除SVGD检测器中的噪声并减轻梯度消失问题，设计了基于MHT的块MHT层，该层基于MHT、缩放层、软阈值层构建。
-
-    arXiv:2403.18846v1 Announce Type: cross  Abstract: The lack of an efficient preamble detection algorithm remains a challenge for solving preamble collision problems in intelligent massive random access (RA) in practical communication scenarios. To solve this problem, we present a novel early preamble detection scheme based on a maximum likelihood estimation (MLE) model at the first step of the grant-based RA procedure. A novel blind normalized Stein variational gradient descent (SVGD)-based detector is proposed to obtain an approximate solution to the MLE model. First, by exploring the relationship between the Hadamard transform and wavelet transform, a new modified Hadamard transform (MHT) is developed to separate high-frequencies from important components using the second-order derivative filter. Next, to eliminate noise and mitigate the vanishing gradients problem in the SVGD-based detectors, the block MHT layer is designed based on the MHT, scaling layer, soft-thresholding layer, i
-    
-[^4]: S+t-SNE - 将降维引入数据流
-
-    S+t-SNE - Bringing dimensionality reduction to data streams
-
-    [https://arxiv.org/abs/2403.17643](https://arxiv.org/abs/2403.17643)
-
-    S+t-SNE是t-SNE算法的改进版本，在处理数据流时具有增量更新和盲目漂移管理的特点，能够实现高效的降维和信息可视化。
+    提出了“学习指导”（LTG）框架，旨在解决专家可能过度依赖机器决策和面临无助于模型放弃的决策的问题。
 
     
 
-    我们提出了S+t-SNE，这是t-SNE算法的一种改进，旨在处理无限数据流。S+t-SNE的核心思想是随着新数据的到来逐步更新t-SNE嵌入，确保可扩展性和适应性，以处理流式场景。通过在每一步选择最重要的点，该算法确保可扩展性同时保持信息可视化。采用盲目方法进行漂移管理调整嵌入空间，促进不断可视化不断发展的数据动态。我们的实验评估证明了S+t-SNE的有效性和效率。结果突显了其在流式场景中捕捉模式的能力。我们希望我们的方法为研究人员和从业者提供一个实时工具，用于理解和解释高维数据。
+    越来越多的人对开发人工智能以协助人类进行高风险任务中的决策表现出兴趣，比如医学诊断，旨在提高决策质量和减少认知负担。主流方法是将专家与机器学习模型合作，将更安全的决策下放，让前者专注于需要他们关注的情况。然而，在高风险场景中，这种“责任分工”设置是不够的。
 
-    arXiv:2403.17643v1 Announce Type: new  Abstract: We present S+t-SNE, an adaptation of the t-SNE algorithm designed to handle infinite data streams. The core idea behind S+t-SNE is to update the t-SNE embedding incrementally as new data arrives, ensuring scalability and adaptability to handle streaming scenarios. By selecting the most important points at each step, the algorithm ensures scalability while keeping informative visualisations. Employing a blind method for drift management adjusts the embedding space, facilitating continuous visualisation of evolving data dynamics. Our experimental evaluations demonstrate the effectiveness and efficiency of S+t-SNE. The results highlight its ability to capture patterns in a streaming scenario. We hope our approach offers researchers and practitioners a real-time tool for understanding and interpreting high-dimensional data.
+    arXiv:2403.16501v1 Announce Type: new  Abstract: There is increasing interest in developing AIs for assisting human decision making in \textit{high-stakes} tasks, such as medical diagnosis, for the purpose of improving decision quality and reducing cognitive strain.   %   Mainstream approaches team up an expert with a machine learning model to which safer decisions are offloaded, thus letting the former focus on cases that demand their attention.   %   This \textit{separation of responsibilities} setup, however, is inadequate for high-stakes scenarios. On the one hand, the expert may end up over-relying on the machine's decisions due to \textit{anchoring bias}, thus losing the human oversight that is increasingly being required by regulatory agencies to ensure trustworthy AI. On the other hand, the expert is left entirely unassisted on the (typically hardest) decisions on which the model abstained.   %   As a remedy, we introduce \textit{learning to guide} (LTG), an alternative framewo
     
-[^5]: Yi: 由 01.AI 推出的开放基础模型
+[^3]: 卡通幻觉检测: 姿势感知上下文视觉学习
 
-    Yi: Open Foundation Models by 01.AI
+    Cartoon Hallucinations Detection: Pose-aware In Context Visual Learning
 
-    [https://arxiv.org/abs/2403.04652](https://arxiv.org/abs/2403.04652)
+    [https://arxiv.org/abs/2403.15048](https://arxiv.org/abs/2403.15048)
 
-    Yi模型系列基于强大的多维能力，通过基于6B和34B预训练模型的扩展，包括聊天模型、长上下文模型、深度放大模型和视觉语言模型，取得了优异的性能。
-
-    
-
-    我们介绍了Yi模型系列，这是一系列具有强大多维能力的语言和多模态模型。Yi模型系列基于6B和34B的预训练语言模型，然后我们将它们扩展为聊天模型、200K长上下文模型、深度放大模型和视觉语言模型。我们的基础模型在诸如MMLU之类的各种基准测试中表现出色，而我们微调过的聊天模型在AlpacaEval和Chatbot Arena等主要评估平台上具有较高的人类偏好率。通过依赖于我们的可扩展超级计算基础设施和经典的Transformer架构，我们认为Yi模型的性能主要归因于其数据质量，这是由我们的数据工程工作所带来的。对于预训练，我们使用级联的数据去重和质量过滤流水线构建了3100亿个英文和中文语料库的标记。对于微调，我们对小规模模型进行了改进
-
-    arXiv:2403.04652v1 Announce Type: cross  Abstract: We introduce the Yi model family, a series of language and multimodal models that demonstrate strong multi-dimensional capabilities. The Yi model family is based on 6B and 34B pretrained language models, then we extend them to chat models, 200K long context models, depth-upscaled models, and vision-language models. Our base models achieve strong performance on a wide range of benchmarks like MMLU, and our finetuned chat models deliver strong human preference rate on major evaluation platforms like AlpacaEval and Chatbot Arena. Building upon our scalable super-computing infrastructure and the classical transformer architecture, we attribute the performance of Yi models primarily to its data quality resulting from our data-engineering efforts. For pretraining, we construct 3.1 trillion tokens of English and Chinese corpora using a cascaded data deduplication and quality filtering pipeline. For finetuning, we polish a small scale (less th
-    
-[^6]: 超越专业化：评估MLLMs在年龄和性别估计中的能力
-
-    Beyond Specialization: Assessing the Capabilities of MLLMs in Age and Gender Estimation
-
-    [https://arxiv.org/abs/2403.02302](https://arxiv.org/abs/2403.02302)
-
-    本研究评估了多模态大型语言模型（MLLMs）在年龄和性别估计中的能力，对不同模型进行了比较，揭示了它们在特定任务上的优势和劣势。
+    该研究提出了一种用于检测由TTI模型生成的卡通角色图像中视觉幻觉的系统，通过结合姿势感知上下文视觉学习和视觉语言模型，利用RGB图像和姿势信息，实现了更准确的决策，显著提高了视觉幻觉的识别能力，推动了TTI模型在非照片真实领域的发展。
 
     
 
-    最近，多模态大型语言模型（MLLMs）变得异常流行。像ChatGPT-4V和Gemini这样功能强大的商用模型，以及像LLaVA这样的开源模型，本质上都是通用模型，应用于解决各种各样的任务，包括计算机视觉中的任务。这些神经网络具有如此强大的通用知识和推理能力，以至于它们已被证明能够处理甚至未经专门训练的任务。我们将迄今为止最强大的MLLMs的能力进行了比较：ShareGPT4V、ChatGPT、LLaVA-Next 进行了专门任务的年龄和性别估计，与我们的最新专业化模型MiVOLO进行了比较。我们还更新了MiVOLO，并在本文中提供了详细信息和新的指标。这种比较产生了一些有趣的结果和关于参与模型的优点和缺点的见解。此外，我们尝试了各种微调方法
+    大规模文本到图像（TTI）模型已经成为各种生成领域中生成训练数据的常见方法。然而，视觉幻觉，尤其是在非照片真实风格如卡通人物中包含了感知上关键的缺陷，依然是一个令人担忧的问题。我们提出了一种新颖的用于检测TTI模型生成的卡通角色图像的视觉幻觉检测系统。我们的方法利用了姿势感知上下文视觉学习（PA-ICVL）与视觉语言模型（VLMs），同时利用RGB图像和姿势信息。通过从一个经过微调的姿势估计器中获得姿势指导，我们使VLM能够做出更准确的决策。实验结果表明，在识别视觉幻觉方面，与仅依赖于RGB图像的基线方法相比，取得了显著的改进。这项研究通过减轻视觉幻觉，推动了TTI模型在非照片真实领域的潜力。
 
-    arXiv:2403.02302v1 Announce Type: cross  Abstract: Multimodal Large Language Models (MLLMs) have recently gained immense popularity. Powerful commercial models like ChatGPT-4V and Gemini, as well as open-source ones such as LLaVA, are essentially general-purpose models and are applied to solve a wide variety of tasks, including those in computer vision. These neural networks possess such strong general knowledge and reasoning abilities that they have proven capable of working even on tasks for which they were not specifically trained. We compared the capabilities of the most powerful MLLMs to date: ShareGPT4V, ChatGPT, LLaVA-Next in a specialized task of age and gender estimation with our state-of-the-art specialized model, MiVOLO. We also updated MiVOLO and provide details and new metrics in this article. This comparison has yielded some interesting results and insights about the strengths and weaknesses of the participating models. Furthermore, we attempted various ways to fine-tune 
+    arXiv:2403.15048v1 Announce Type: cross  Abstract: Large-scale Text-to-Image (TTI) models have become a common approach for generating training data in various generative fields. However, visual hallucinations, which contain perceptually critical defects, remain a concern, especially in non-photorealistic styles like cartoon characters. We propose a novel visual hallucination detection system for cartoon character images generated by TTI models. Our approach leverages pose-aware in-context visual learning (PA-ICVL) with Vision-Language Models (VLMs), utilizing both RGB images and pose information. By incorporating pose guidance from a fine-tuned pose estimator, we enable VLMs to make more accurate decisions. Experimental results demonstrate significant improvements in identifying visual hallucinations compared to baseline methods relying solely on RGB images. This research advances TTI models by mitigating visual hallucinations, expanding their potential in non-photorealistic domains.
     
-[^7]: Q-FOX学习：颠覆传统的强化学习
+[^4]: 通过高斯混合模型进行域自适应的最优输运
 
-    Q-FOX Learning: Breaking Tradition in Reinforcement Learning
+    Optimal Transport for Domain Adaptation through Gaussian Mixture Models
 
-    [https://arxiv.org/abs/2402.16562](https://arxiv.org/abs/2402.16562)
+    [https://arxiv.org/abs/2403.13847](https://arxiv.org/abs/2403.13847)
 
-    Q-FOX学习是一种新颖的自动超参数调整方法，结合了FOX优化器和Q-learning算法，提出了使用新的目标函数来解决强化学习中超参数调整的问题。
-
-    
-
-    强化学习（RL）是人工智能（AI）的一个子集，代理通过与环境的交互来学习最佳动作，因此适用于不需要标记数据或直接监督的任务。 本文提出了一种名为Q-FOX的新颖自动调参方法，该方法使用了FOX优化器和常用的易于实现的RL Q-learning算法解决了调参的问题。此外，还提出了一个新的目标函数，该函数将奖励放在均方误差（MSE）和学习时间之上。
-
-    arXiv:2402.16562v2 Announce Type: replace-cross  Abstract: Reinforcement learning (RL) is a subset of artificial intelligence (AI) where agents learn the best action by interacting with the environment, making it suitable for tasks that do not require labeled data or direct supervision. Hyperparameters (HP) tuning refers to choosing the best parameter that leads to optimal solutions in RL algorithms. Manual or random tuning of the HP may be a crucial process because variations in this parameter lead to changes in the overall learning aspects and different rewards. In this paper, a novel and automatic HP-tuning method called Q-FOX is proposed. This uses both the FOX optimizer, a new optimization method inspired by nature that mimics red foxes' hunting behavior, and the commonly used, easy-to-implement RL Q-learning algorithm to solve the problem of HP tuning. Moreover, a new objective function is proposed which prioritizes the reward over the mean squared error (MSE) and learning time (
-    
-[^8]: DurFlex-EVC: 具有并行生成的持续灵活情绪语音转换
-
-    DurFlex-EVC: Duration-Flexible Emotional Voice Conversion with Parallel Generation
-
-    [https://arxiv.org/abs/2401.08095](https://arxiv.org/abs/2401.08095)
-
-    DurFlex-EVC通过引入风格自编码器和交叉注意力，解决了传统情绪语音转换模型中对语言和语音信息的同步问题。
+    通过高斯混合模型进行域自适应的最优输运，可以实现源域和目标域混合成分之间的匹配，从而在失效诊断中取得最先进的性能。
 
     
 
-    情绪语音转换（EVC）旨在修改说话者声音的情绪色彩，同时保留原始的语言内容和说话者独特的声音特征。最近EVC的进展涉及同时建模音高和持续时间，利用序列到序列（seq2seq）模型的潜力。为了增强转换的可靠性和效率，本研究将重点转向并行语音生成。我们介绍了DurFlex-EVC，它集成了风格自编码器和单元对齐器。传统模型虽然融入了包含语言和语音信息的自监督学习（SSL）表示，但却忽视了这种双重性质，导致了可控性的降低。为了解决这个问题，我们实现了交叉注意力以将这些表示与不同情绪进行同步。此外，我们还开发了一个风格自编码器。
+    在这篇论文中，我们探讨了通过最优输运进行域自适应的方法。我们提出了一种新颖的方法，即通过高斯混合模型对数据分布进行建模。这种策略使我们能够通过等价的离散问题解决连续最优输运。最优输运解决方案为我们提供了源域和目标域混合成分之间的匹配。通过这种匹配，我们可以在域之间映射数据点，或者将标签从源域组件转移到目标域。我们在失效诊断的两个域自适应基准测试中进行了实验，结果表明我们的方法具有最先进的性能。
 
-    arXiv:2401.08095v2 Announce Type: replace-cross  Abstract: Emotional voice conversion (EVC) seeks to modify the emotional tone of a speaker's voice while preserving the original linguistic content and the speaker's unique vocal characteristics. Recent advancements in EVC have involved the simultaneous modeling of pitch and duration, utilizing the potential of sequence-to-sequence (seq2seq) models. To enhance reliability and efficiency in conversion, this study shifts focus towards parallel speech generation. We introduce Duration-Flexible EVC (DurFlex-EVC), which integrates a style autoencoder and unit aligner. Traditional models, while incorporating self-supervised learning (SSL) representations that contain both linguistic and paralinguistic information, have neglected this dual nature, leading to reduced controllability. Addressing this issue, we implement cross-attention to synchronize these representations with various emotions. Additionally, a style autoencoder is developed for t
+    arXiv:2403.13847v1 Announce Type: cross  Abstract: In this paper we explore domain adaptation through optimal transport. We propose a novel approach, where we model the data distributions through Gaussian mixture models. This strategy allows us to solve continuous optimal transport through an equivalent discrete problem. The optimal transport solution gives us a matching between source and target domain mixture components. From this matching, we can map data points between domains, or transfer the labels from the source domain components towards the target domain. We experiment with 2 domain adaptation benchmarks in fault diagnosis, showing that our methods have state-of-the-art performance.
     
-[^9]: AutoMix: 自动混合语言模型
+[^5]: 我们能否逐步验证错误答案检测？
 
-    AutoMix: Automatically Mixing Language Models
+    Can We Verify Step by Step for Incorrect Answer Detection?
 
-    [https://arxiv.org/abs/2310.12963](https://arxiv.org/abs/2310.12963)
+    [https://arxiv.org/abs/2402.10528](https://arxiv.org/abs/2402.10528)
 
-    AutoMix提出了一种自动选择更大语言模型处理查询的方法，通过少量样本自我验证和元验证器提高了输出的可靠性，可显著提高计算成本和性能的优化，实验证明性能优于基线最多86%.
-
-    
-
-    大型语言模型(LLMs)现在可以通过各种尺寸和配置的云API提供商获得。虽然这种多样性提供了广泛的选择，但有效利用这些选项以优化计算成本和性能仍然具有挑战性。在这项工作中，我们提出了AutoMix，一种根据较小LM的输出的近似正确性来策略性地将查询路由到更大LM的方法。AutoMix的核心是一种少量样本的自我验证机制，它可以估计输出的可靠性而无需训练。鉴于验证可能存在噪声，我们在AutoMix中使用了元验证器来提高这些评估的准确性。我们在五个基于上下文的推理数据集上使用LLAMA2-13B和GPT-4进行实验，结果表明AutoMix超越了已建立的基线，每单位成本的增量效益提高了最多86%。我们的代码和数据可在https://github.c找到
-
-    arXiv:2310.12963v3 Announce Type: replace  Abstract: Large language models (LLMs) are now available from cloud API providers in various sizes and configurations. While this diversity offers a broad spectrum of choices, effectively leveraging the options to optimize computational cost and performance remains challenging. In this work, we present AutoMix, an approach that strategically routes queries to larger LMs, based on the approximate correctness of outputs from a smaller LM. Central to AutoMix is a few-shot self-verification mechanism, which estimates the reliability of its own outputs without requiring training. Given that verifications can be noisy, we employ a meta-verifier in AutoMix to refine the accuracy of these assessments. Our experiments using LLAMA2-13B and GPT-4, on five context-grounded reasoning datasets demonstrate that AutoMix surpasses established baselines, improving the incremental benefit per cost by up to 86%. Our code and data are available at https://github.c
-    
-[^10]: 选择性不确定性传播在离线强化学习中的应用
-
-    Selective Uncertainty Propagation in Offline RL
-
-    [https://arxiv.org/abs/2302.00284](https://arxiv.org/abs/2302.00284)
-
-    本论文提出了一种名为选择性不确定性传播的方法，用于解决离线强化学习中的分布偏移问题。该方法通过自适应的方式建立置信区间，有效地处理了实际问题中策略学习的挑战。
+    通过推理链来预测大型语言模型输出的准确性，我们引入了一个新的基准R2PE，并提出了处理可辨识性评分（PDS）框架。
 
     
 
-    本研究考虑有限时间段离线强化学习的情景，目标在于应对动态规划算法中每一步策略学习的挑战。通过评估离开行为策略在第h步时的处理效果，就可以学习到这一步的策略。由于每一步策略都会影响下一状态的分布，相关的分布偏移问题使得这一问题在统计学上比随机情境挑战下的处理效果估计更加困难。然而，许多现实强化学习问题的难度介于这两种情境之间。我们开发了一种灵活且通用的方法，名为选择性不确定性传播，用于建立置信区间，并根据相关分布偏移问题的难度进行自适应。在玩具环境中展示了我们方法的优势，并证明了这些技术在离线策略学习中的好处。
+    Chain-of-Thought（CoT）提示在增强大型语言模型（LLMs）的推理能力方面取得了重大进展。先前的研究开发了各种扩展的CoT，主要集中在增强最终任务的性能上。此外，已经有研究评估了CoT中推理链的质量。这引发了一个有趣的问题：通过仔细审查它们生成的推理链，是否可以预测LLMs输出的准确性？为了回答这个研究问题，我们引入了一个基准，R2PE，专门设计用于探究不同领域涵盖五个不同推理任务中推理链与性能之间的关系。该基准旨在基于推理步骤衡量LLMs最终输出的虚假性。为了充分利用多个推理链中的信息，我们提出了打败常识分数（PDS）框架。
 
-    We consider the finite-horizon offline reinforcement learning (RL) setting, and are motivated by the challenge of learning the policy at any step h in dynamic programming (DP) algorithms. To learn this, it is sufficient to evaluate the treatment effect of deviating from the behavioral policy at step h after having optimized the policy for all future steps. Since the policy at any step can affect next-state distributions, the related distributional shift challenges can make this problem far more statistically hard than estimating such treatment effects in the stochastic contextual bandit setting. However, the hardness of many real-world RL instances lies between the two regimes. We develop a flexible and general method called selective uncertainty propagation for confidence interval construction that adapts to the hardness of the associated distribution shift challenges. We show benefits of our approach on toy environments and demonstrate the benefits of these techniques for offline pol
+    arXiv:2402.10528v1 Announce Type: cross  Abstract: Chain-of-Thought (CoT) prompting has marked a significant advancement in enhancing the reasoning capabilities of large language models (LLMs). Previous studies have developed various extensions of CoT, which focus primarily on enhancing end-task performance. In addition, there has been research on assessing the quality of reasoning chains in CoT. This raises an intriguing question: Is it possible to predict the accuracy of LLM outputs by scrutinizing the reasoning chains they generate? To answer this research question, we introduce a benchmark, R2PE, designed specifically to explore the relationship between reasoning chains and performance in various reasoning tasks spanning five different domains. This benchmark aims to measure the falsehood of the final output of LLMs based on the reasoning steps. To make full use of information in multiple reasoning chains, we propose the process discernibility score (PDS) framework that beats the a
     
-[^11]: 四步推理（QLFR）框架：推进短文本分类的四步推理
+[^6]: 用大型语言模型和检索增强生成提升教科书问答任务
 
-    Quartet Logic: A Four-Step Reasoning (QLFR) framework for advancing Short Text Classification. (arXiv:2401.03158v1 [cs.CL])
+    Enhancing Textbook Question Answering Task with Large Language Models and Retrieval Augmented Generation
 
-    [http://arxiv.org/abs/2401.03158](http://arxiv.org/abs/2401.03158)
+    [https://arxiv.org/abs/2402.05128](https://arxiv.org/abs/2402.05128)
 
-    四步推理（QLFR）框架是一种通过引入句法和语义丰富的CoT来提升短文本分类任务中大型语言模型（LLMs）性能的方法。
-
-    
-
-    短文本分类（STC）对于处理和理解当代数字平台上流行的简洁而重要的内容至关重要。STC在抓住语义和句法复杂性方面遇到困难，这个问题在传统的预训练语言模型中很明显。尽管图卷积网络通过整合外部知识库提高了性能，但这些方法受到应用知识质量和范围的限制。最近，大型语言模型（LLMs）和思维链（CoT）的出现显著提高了复杂推理任务的性能。然而，一些研究指出了它们在基础NLP任务中的应用限制。因此，本研究旨在运用CoT来研究LLMs在STC任务中的能力。本研究引入了四步推理（QLFR）框架。这个框架主要包括句法和语义丰富的CoT，有效利用了LLMs的能力。
-
-    Short Text Classification (STC) is crucial for processing and comprehending the brief but substantial content prevalent on contemporary digital platforms. The STC encounters difficulties in grasping semantic and syntactic intricacies, an issue that is apparent in traditional pre-trained language models. Although Graph Convolutional Networks enhance performance by integrating external knowledge bases, these methods are limited by the quality and extent of the knowledge applied. Recently, the emergence of Large Language Models (LLMs) and Chain-of-Thought (CoT) has significantly improved the performance of complex reasoning tasks. However, some studies have highlighted the limitations of their application in fundamental NLP tasks. Consequently, this study sought to employ CoT to investigate the capabilities of LLMs in STC tasks. This study introduces Quartet Logic: A Four-Step Reasoning (QLFR) framework. This framework primarily incorporates Syntactic and Semantic Enrichment CoT, effectiv
-    
-[^12]: 用智能多任务适应混合提示扫描异质性
-
-    Sweeping Heterogeneity with Smart MoPs: Mixture of Prompts for LLM Task Adaptation. (arXiv:2310.02842v1 [cs.CL])
-
-    [http://arxiv.org/abs/2310.02842](http://arxiv.org/abs/2310.02842)
-
-    本论文提出了一种使用智能多任务适应混合提示的方法来解决LLM在处理异质任务和数据分布时的问题。研究者设计了智能门控功能，用于识别嵌入在不同提示组中的相关技能，并根据目标任务的需求动态分配组合专家。该方法对任何模型压缩技术都不受限制，提高了任务处理的效率。
+    本论文通过引入检索增强生成（RAG）技术和利用迁移学习来处理长文本和提升推理能力，为教科书问答任务带来了显著的改进。
 
     
 
-    大型语言模型(LLM)有能力解决各种任务，如文本摘要和数学问题，但通常是针对单一任务进行训练。由于高计算成本，当前趋势是使用提示指导调节预先训练的LLM以适应新的下游任务。因此，如何扩展提示调节以同时处理异质任务和数据分布是一个广泛开放的问题。为了解决这一问题，我们建议使用"混合提示"或MoPs，并结合智能门控功能：后者的设计是本文的贡献之一，它可以识别嵌入在不同提示组中的相关技能，并根据目标任务动态分配组合专家(即一组提示)。此外，MoPs在应用任何模型压缩技术时都不受影响——以提高效率。
+    教科书问答（TQA）是人工智能中的一项具有挑战性的任务，由于上下文和多模式数据的复杂性。尽管以前的研究在任务上取得了显著的进展，但仍存在一些限制，包括模型推理能力不足和无法捕捉长文本中的上下文信息。大型语言模型（LLMs）的引入革命了人工智能领域，然而，直接应用LLMs经常会导致不准确的答案。本文提出了一种方法来处理TQA中领域外情景，即概念分布在不同课程中，该方法结合了检索增强生成（RAG）技术和迁移学习来处理长文本并提升推理能力。通过对LLM模型Llama-2进行监督微调并加入RAG，我们的架构优于基线，在验证集上的准确度提高了4.12%，在测试集上提高了9.84%。
 
-    Large Language Models (LLMs) have the ability to solve a variety of tasks, such as text summarization and mathematical questions, just out of the box, but they are often trained with a single task in mind. Due to high computational costs, the current trend is to use prompt instruction tuning to better adjust monolithic, pretrained LLMs for new -- but often individual -- downstream tasks. Thus, how one would expand prompt tuning to handle -- concomitantly -heterogeneous tasks and data distributions is a widely open question. To address this gap, we suggest the use of \emph{Mixture of Prompts}, or MoPs, associated with smart gating functionality: the latter -- whose design is one of the contributions of this paper -- can identify relevant skills embedded in different groups of prompts and dynamically assign combined experts (i.e., collection of prompts), based on the target task. Additionally, MoPs are empirically agnostic to any model compression technique applied -- for efficiency re
+    Textbook question answering (TQA) is a challenging task in artificial intelligence due to the complex nature of context and multimodal data. Although previous research has significantly improved the task, there are still some limitations including the models' weak reasoning and inability to capture contextual information in the lengthy context. The introduction of large language models (LLMs) has revolutionized the field of AI, however, directly applying LLMs often leads to inaccurate answers. This paper proposes a methodology that handle the out-of-domain scenario in TQA where concepts are spread across different lessons by incorporating the retrieval augmented generation (RAG) technique and utilize transfer learning to handle the long context and enhance reasoning abilities. Through supervised fine-tuning of the LLM model Llama-2 and the incorporation of RAG, our architecture outperforms the baseline, achieving a 4.12% accuracy improvement on validation set and 9.84% on test set for 
     
-[^13]: 利用不确定性查询不一致的描述逻辑知识库
+[^7]: 划分在层次化任务网络规划中的可计算边界
 
-    Exploiting Uncertainty for Querying Inconsistent Description Logics Knowledge Bases. (arXiv:2306.09138v2 [cs.AI] UPDATED)
+    The Boundaries of Tractability in Hierarchical Task Network Planning. (arXiv:2401.14174v1 [cs.CC])
 
-    [http://arxiv.org/abs/2306.09138](http://arxiv.org/abs/2306.09138)
+    [http://arxiv.org/abs/2401.14174](http://arxiv.org/abs/2401.14174)
 
-    本论文研究了如何利用概率语义来查询不一致的描述逻辑知识库，并通过实验证明了该方法的有效性。
-
-    
-
-    随着语义Web的重要性日益增加，管理描述逻辑知识库（KBs）中的不一致性变得越来越必要。这些知识库包含来自不同来源的信息，其内容经常发生变化，并且在单独考虑或综合考虑时可能包含相互矛盾的描述。传统的推理算法无法处理不一致的知识库，需要通过调试知识库来消除不一致性。本文利用一种称为DISPONTE的现有概率语义来解决这个问题，并允许在不一致的知识库中进行查询。我们在TRILL和BUNDLE推理器中实现了我们的方法，并通过实验证明了我们的提案的有效性。此外，我们还将所提出的方法与修复语义进行了正式比较，后者是在考虑DL推理任务时最为成熟的语义之一。
-
-    The necessity to manage inconsistency in Description Logics Knowledge Bases~(KBs) has come to the fore with the increasing importance gained by the Semantic Web, where information comes from different sources that constantly change their content and may contain contradictory descriptions when considered either alone or together. Classical reasoning algorithms do not handle inconsistent KBs, forcing the debugging of the KB in order to remove the inconsistency. In this paper, we exploit an existing probabilistic semantics called DISPONTE to overcome this problem and allow queries also in case of inconsistent KBs. We implemented our approach in the reasoners TRILL and BUNDLE and empirically tested the validity of our proposal. Moreover, we formally compare the presented approach to that of the repair semantics, one of the most established semantics when considering DL reasoning tasks.
-    
-[^14]: 基于Transformer模型的单目视觉里程计：一种视频理解方法
-
-    Transformer-based model for monocular visual odometry: a video understanding approach. (arXiv:2305.06121v1 [cs.CV])
-
-    [http://arxiv.org/abs/2305.06121](http://arxiv.org/abs/2305.06121)
-
-    本文提出了一种基于Transformer模型的TSformer-VO方法，将单目视觉里程计作为一项视频理解任务并通过时空自注意机制从视频片段中提取特征，以实现端到端的运动估计，达到了最新成果。
+    本论文研究了在层次化任务网络规划中三个经典问题的可计算边界，提供了在特定条件下将多项式时间可解性结果从原始任务网络推广到一般任务网络的方法，并且给出了这三个问题的参数化复杂度分析。
 
     
 
-    在移动机器人和自主车辆中，给定单个摄像机图像估计摄像机姿势是一项传统任务。这个问题称为单目视觉里程计，通常依赖于需要针对特定场景进行工程化的几何方法。经过适当训练和足够的数据可用性，深度学习方法已被证明是具有普适性的。Transformer架构已统治了自然语言处理和计算机视觉任务的最前沿，例如图像和视频理解。本文将单目视觉里程计作为一项视频理解任务进行处理，以估计6-DoF摄像机的姿势，提出了基于时空自注意机制的TSformer-VO模型，以端到端的方式从视频片段中提取特征并估计运动，与几何和深度学习方法相比，我们的方法在KITTI数据集上取得了有竞争力的最新成果。
+    我们研究了在层次化任务网络规划中三个经典问题的可计算边界：提供计划的验证，是否存在可执行计划以及是否可以通过某个计划达到给定状态。我们证明了在常量偏序宽度的原始任务网络（以及其推广形式）上，这三个问题都可以在多项式时间内解决，而对于后两个问题，这种情况仅在对状态空间进行可证明的必要限制下才成立。接下来，我们提供了一个算法元定理及相应的下界，以确定从原始任务网络到一般任务网络的一般多项式时间可解性结果可以被提升的严格条件。最后，我们通过分析这三个问题的参数化复杂度来丰富我们的研究，并且证明了(1)通过将偏序宽度替换为t，可以实现这三个问题的固定参数可计算性。
 
-    Estimating the camera pose given images of a single camera is a traditional task in mobile robots and autonomous vehicles. This problem is called monocular visual odometry and it often relies on geometric approaches that require engineering effort for a specific scenario. Deep learning methods have shown to be generalizable after proper training and a considerable amount of available data. Transformer-based architectures have dominated the state-of-the-art in natural language processing and computer vision tasks, such as image and video understanding. In this work, we deal with the monocular visual odometry as a video understanding task to estimate the 6-DoF camera's pose. We contribute by presenting the TSformer-VO model based on spatio-temporal self-attention mechanisms to extract features from clips and estimate the motions in an end-to-end manner. Our approach achieved competitive state-of-the-art performance compared with geometry-based and deep learning-based methods on the KITTI
+    We study the complexity-theoretic boundaries of tractability for three classical problems in the context of Hierarchical Task Network Planning: the validation of a provided plan, whether an executable plan exists, and whether a given state can be reached by some plan. We show that all three problems can be solved in polynomial time on primitive task networks of constant partial order width (and a generalization thereof), whereas for the latter two problems this holds only under a provably necessary restriction to the state space. Next, we obtain an algorithmic meta-theorem along with corresponding lower bounds to identify tight conditions under which general polynomial-time solvability results can be lifted from primitive to general task networks. Finally, we enrich our investigation by analyzing the parameterized complexity of the three considered problems, and show that (1) fixed-parameter tractability for all three problems can be achieved by replacing the partial order width with t
     
-[^15]: 基于专家认知驱动的安全噪声标签学习用于乳腺癌残余肿瘤的精确分割
+[^8]: DISCOUNT: 使用最优传输进行分布式对抗解释
 
-    Experts' cognition-driven safe noisy labels learning for precise segmentation of residual tumor in breast cancer. (arXiv:2304.07295v1 [q-bio.QM])
+    DISCOUNT: Distributional Counterfactual Explanation With Optimal Transport. (arXiv:2401.13112v1 [cs.AI])
 
-    [http://arxiv.org/abs/2304.07295](http://arxiv.org/abs/2304.07295)
+    [http://arxiv.org/abs/2401.13112](http://arxiv.org/abs/2401.13112)
 
-    本文提出了一种基于专家认知驱动的安全噪声标签学习方法，用于乳腺癌残余肿瘤的精确分割，该方法将病理专家的认知和人工智能专家的数据建模认知相结合，以缓解乳腺癌组织和肿瘤细胞形态学改变的挑战。
-
-    
-
-    新辅助化疗后准确分割乳腺癌残余肿瘤 (PSRTBC) 是乳腺癌治疗过程中的一个基本关键技术。然而，由于乳腺癌组织和肿瘤细胞在新辅助化疗后常常具有复杂和多种多样的形态学改变，因此产生一个具有良好泛化性能的预测模型仍然是一个挑战。为了缓解这种情况，本文提出了一种基于专家认知驱动的安全噪声标签学习 (ECDSNLL) 方法。ECDSNLL是在安全噪声标签学习的概念下构建的，后者是一种典型的安全弱监督学习方法，它将病理专家对乳腺癌残余肿瘤识别的认知与提供的数据基础上的人工智能专家的数据建模认知相结合。我们展示了所提出的ECDSNLL方法的优势和潜力。
-
-    Precise segmentation of residual tumor in breast cancer (PSRTBC) after neoadjuvant chemotherapy is a fundamental key technique in the treatment process of breast cancer. However, achieving PSRTBC is still a challenge, since the breast cancer tissue and tumor cells commonly have complex and varied morphological changes after neoadjuvant chemotherapy, which inevitably increases the difficulty to produce a predictive model that has good generalization with machine learning. To alleviate this situation, in this paper, we propose an experts' cognition-driven safe noisy labels learning (ECDSNLL) approach. In the concept of safe noisy labels learning, which is a typical type of safe weakly supervised learning, ECDSNLL is constructed by integrating the pathology experts' cognition about identifying residual tumor in breast cancer and the artificial intelligence experts' cognition about data modeling with provided data basis. We show the advantages of the proposed ECDSNLL approach and its promi
-    
-[^16]: 概念层次结构的语义索引方法，统一表示，关系数据库系统和通用与基于案例的推理方法
-
-    Method for the semantic indexing of concept hierarchies, uniform representation, use of relational database systems and generic and case-based reasoning. (arXiv:1910.01539v2 [cs.AI] UPDATED)
-
-    [http://arxiv.org/abs/1910.01539](http://arxiv.org/abs/1910.01539)
-
-    本文提出了一种语义索引方法，通过概念层次结构表示知识并将键分配给节点，使得概念与所有更具体的概念部分可统一，并且只允许添加语义正确的概念。此方法可以使用基于案例的推理和通用问题解决方法进行推理。
+    本文提出了使用最优传输进行分布式对抗解释的方法DISCOUNT，将对抗解释的概念扩展到整个输入输出分布，并通过统计置信度来支撑这一方法。
 
     
 
-    本文提出了一种语义索引方法，并描述了其在知识表示领域的应用。语义索引的起点是通过概念层次结构表示的知识。其目标是将键分配给节点（概念），这些节点按层次顺序排列且语法和语义正确。使用索引算法，计算键，使得概念与所有更具体的概念部分可统一，并且只允许添加语义正确的概念。键表示术语关系。所述索引算法的正确性和完备性已被证明。描述了将经典关系数据库用于实例存储的方法。由于统一表示，可以使用基于案例的推理和通用问题解决方法进行推理。
+    对抗解释是在黑盒决策模型中提供洞察力和可解释性的事实方法，通过确定导致不同结果的替代输入实例来实现。本文将对抗解释的概念扩展到分布上下文，从个体数据点扩大到整个输入输出分布，命名为分布式对抗解释。在分布式对抗解释中，我们的重点转向分析事实和对抗的分布属性，类似于评估个体实例及其结果决策的经典方法。我们利用最优传输来构建一个机会约束优化问题，旨在导出与事实对应的对抗分布，以统计置信度做支撑。我们提出的优化方法DISCOUNT在输入和输出分布之间平衡这种置信度。
 
-    This paper presents a method for semantic indexing and describes its application in the field of knowledge representation. Starting point of the semantic indexing is the knowledge represented by concept hierarchies. The goal is to assign keys to nodes (concepts) that are hierarchically ordered and syntactically and semantically correct. With the indexing algorithm, keys are computed such that concepts are partially unifiable with all more specific concepts and only semantically correct concepts are allowed to be added. The keys represent terminological relationships. Correctness and completeness of the underlying indexing algorithm are proven. The use of classical relational databases for the storage of instances is described. Because of the uniform representation, inference can be done using case-based reasoning and generic problem solving methods.
+    Counterfactual Explanations (CE) is the de facto method for providing insight and interpretability in black-box decision-making models by identifying alternative input instances that lead to different outcomes. This paper extends the concept of CEs to a distributional context, broadening the scope from individual data points to entire input and output distributions, named Distributional Counterfactual Explanation (DCE). In DCE, our focus shifts to analyzing the distributional properties of the factual and counterfactual, drawing parallels to the classical approach of assessing individual instances and their resulting decisions. We leverage Optimal Transport (OT) to frame a chance-constrained optimization problem, aiming to derive a counterfactual distribution that closely aligns with its factual counterpart, substantiated by statistical confidence. Our proposed optimization method, DISCOUNT, strategically balances this confidence across both input and output distributions. This algorit
+    
+[^9]: 学习用于视觉Transformer预训练的掩码和置换视觉令牌。
+
+    Learning to Mask and Permute Visual Tokens for Vision Transformer Pre-Training. (arXiv:2306.07346v1 [cs.CV])
+
+    [http://arxiv.org/abs/2306.07346](http://arxiv.org/abs/2306.07346)
+
+    本论文提出了一种新的自监督预训练方法MaPeT，不同于现有的使用掩码图像模型的方法，该方法使用自回归和置换预测来捕获图像块内的依赖关系并减少数据噪声的影响，从而提高了下游任务的一致性。
+
+    
+
+    使用自监督预训练技术已成为提高图像分类等视觉任务性能的有前途的方法。最近的方法使用掩码图像模型范式，通过重构与随机掩码图像块相关联的视觉令牌来预训练骨干网络。然而，这种掩蔽方法会在预训练过程中引入噪声进入输入数据，导致性能下降。此外，输入掩蔽忽略了受损块之间的依赖关系，增加了下游微调任务中观察到的不一致性。为了解决这些问题，我们提出了一种新的自监督预训练方法，名为掩蔽和置换视觉变压器（MaPeT），它使用自回归和置换预测来捕获块内依赖性。此外，MaPeT使用辅助位置信息来减少预训练和微调阶段中的差异性。
+
+    The use of self-supervised pre-training has emerged as a promising approach to enhance the performance of visual tasks such as image classification. In this context, recent approaches have employed the Masked Image Modeling paradigm, which pre-trains a backbone by reconstructing visual tokens associated with randomly masked image patches. This masking approach, however, introduces noise into the input data during pre-training, leading to discrepancies that can impair performance during the fine-tuning phase. Furthermore, input masking neglects the dependencies between corrupted patches, increasing the inconsistencies observed in downstream fine-tuning tasks. To overcome these issues, we propose a new self-supervised pre-training approach, named Masked and Permuted Vision Transformer (MaPeT), that employs autoregressive and permuted predictions to capture intra-patch dependencies. In addition, MaPeT employs auxiliary positional information to reduce the disparity between the pre-trainin
+    
+[^10]: 带有延迟组合匿名赌徒反馈的随机次模赌博算法
+
+    Stochastic Submodular Bandits with Delayed Composite Anonymous Bandit Feedback. (arXiv:2303.13604v1 [cs.LG])
+
+    [http://arxiv.org/abs/2303.13604](http://arxiv.org/abs/2303.13604)
+
+    本论文研究了具有随机次模收益和全赌徒延迟反馈的组合多臂赌博机问题，研究了三种延迟反馈模型并导出了后悔上限。研究结果表明，算法能够在考虑延迟组合匿名反馈时胜过其他全赌徒方法。
+
+    
+
+    本文研究了组合多臂赌博机问题，其中包含了期望下的随机次模收益和全赌徒延迟反馈，延迟反馈被假定为组合和匿名。也就是说，延迟反馈是由过去行动的奖励组成的，这些奖励由子组件构成，其未知的分配方式。研究了三种延迟反馈模型：有界对抗模型、随机独立模型和随机条件独立模型，并针对每种延迟模型导出了后悔界。忽略问题相关参数，我们证明了所有延迟模型的后悔界为 $\tilde{O}(T^{2/3} + T^{1/3} \nu)$，其中 $T$ 是时间范围，$\nu$ 是三种情况下不同定义的延迟参数，因此展示了带有延迟的补偿项。所考虑的算法被证明能够胜过其他考虑了延迟组合匿名反馈的全赌徒方法。
+
+    This paper investigates the problem of combinatorial multiarmed bandits with stochastic submodular (in expectation) rewards and full-bandit delayed feedback, where the delayed feedback is assumed to be composite and anonymous. In other words, the delayed feedback is composed of components of rewards from past actions, with unknown division among the sub-components. Three models of delayed feedback: bounded adversarial, stochastic independent, and stochastic conditionally independent are studied, and regret bounds are derived for each of the delay models. Ignoring the problem dependent parameters, we show that regret bound for all the delay models is $\tilde{O}(T^{2/3} + T^{1/3} \nu)$ for time horizon $T$, where $\nu$ is a delay parameter defined differently in the three cases, thus demonstrating an additive term in regret with delay in all the three delay models. The considered algorithm is demonstrated to outperform other full-bandit approaches with delayed composite anonymous feedbac
     
 
