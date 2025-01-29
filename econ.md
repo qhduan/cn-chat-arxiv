@@ -2,67 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [The Strong Maximum Circulation Algorithm: A New Method for Aggregating Preference Rankings.](http://arxiv.org/abs/2307.15702) | 强大的最大环算法提出了一种集成偏好排序的新方法，通过删除投票图中的最大环路，得出与投票结果一致的唯一排序结果。 |
-| [^2] | [Synthetic Decomposition for Counterfactual Predictions.](http://arxiv.org/abs/2307.05122) | 本论文提出了一种使用“源”地区数据进行目标地区政策预测的方法。通过制定可转移条件并构建合成的结果-政策关系来满足条件。我们开发了通用过程来构建反事实预测的置信区间，并证明其有效性。本研究应用该方法预测了德克萨斯州青少年就业率。 |
-| [^3] | [Identifying Dynamic LATEs with a Static Instrument.](http://arxiv.org/abs/2305.18114) | 本研究讨论了利用静态二元工具来识别动态效应问题，从而识别不同潜在群体和治疗暴露下的治疗效应加权和，但可能存在负权重。同时，我们在不同的假设设置下考虑了动态治疗效果的点估计和部分识别。 |
-| [^4] | [Heterogeneous Noise and Stable Miscoordination.](http://arxiv.org/abs/2305.10301) | 学习动态下，样本大小的异质性可能导致博弈出现稳定的错协调，而非纯粹均衡，实证检验上有重要启示。 |
+| [^1] | [Censored Beliefs and Wishful Thinking](https://arxiv.org/abs/2402.01892) | 该论文提出了一个模型，阐明了美好幻想行为的本质以及偏见信念所带来的成本和收益。通过超型效用最大化，揭示了乐观的决策者偏好于具有正偏态和增加风险特征的选择。 |
+| [^2] | [Multicausal transport: barycenters and dynamic matching.](http://arxiv.org/abs/2401.12748) | 本文介绍了一种多变量版本的适应性传输，称为多因果传输，其中涉及多个经过因果约束的过程。我们研究了具有因果和双因果最优传输的随机过程的重心问题，以及其与多因果传输问题的联系。我们还通过一项应用研究了动态环境下的匹配问题，并展示了均衡存在性。 |
+| [^3] | [A simple stochastic nonlinear AR model with application to bubble.](http://arxiv.org/abs/2401.07038) | 本文提出了一个简单的随机非线性AR模型，在探究泡沫动力学时具有重要应用。该模型的局部爆发机制可以有效地描绘泡沫的动态特征，并使用了准最大似然估计方法对其进行参数估计和模型拟合。 |
+| [^4] | [Causal clustering: design of cluster experiments under network interference.](http://arxiv.org/abs/2310.14983) | 本文研究了在网络干扰下设计集群实验来估计全局治疗效果，并提出了选择最优聚类的方法，通过使用现成的半定规划算法计算一个新型惩罚最小割优化问题的解来近似最优聚类，同时还确定了选择簇或个体级随机化之间易于检查的条件。 |
+| [^5] | [Difference-in-Differences with Compositional Changes.](http://arxiv.org/abs/2304.13925) | 本文研究了具有重复横断面数据和时间段组成变化的差异成差法（DiD）设置，通过引入非参数估计器来达到半参数效率界，并提出了一种基于组成变化的非参数Hausman型检验。 |
 
 # 详细
 
-[^1]: 强大的最大环算法：一种集成偏好排序的新方法
+[^1]: 被审查的信仰与美好幻想
 
-    The Strong Maximum Circulation Algorithm: A New Method for Aggregating Preference Rankings. (arXiv:2307.15702v1 [cs.SI])
+    Censored Beliefs and Wishful Thinking
 
-    [http://arxiv.org/abs/2307.15702](http://arxiv.org/abs/2307.15702)
+    [https://arxiv.org/abs/2402.01892](https://arxiv.org/abs/2402.01892)
 
-    强大的最大环算法提出了一种集成偏好排序的新方法，通过删除投票图中的最大环路，得出与投票结果一致的唯一排序结果。
-
-    
-
-    我们提出了一种基于优化的方法，用于在每个决策者或选民对一对选择进行偏好表达的情况下集成偏好。挑战在于在一些冲突的投票情况下，尽可能与投票结果一致地得出一个排序。只有不包含环路的投票集合才是非冲突的，并且可以在选择之间引发一个部分顺序。我们的方法是基于这样一个观察：构成一个环路的投票集合可以被视为平局。然后，方法是从投票图中删除环路的并集，并根据剩余部分确定集成偏好。我们引入了强大的最大环路，它由一组环路的并集形成，删除它可以保证在引发的部分顺序中获得唯一结果。此外，它还包含在消除任何最大环路后剩下的所有集成偏好。与之相反的是，wel
-
-    We present a new optimization-based method for aggregating preferences in settings where each decision maker, or voter, expresses preferences over pairs of alternatives. The challenge is to come up with a ranking that agrees as much as possible with the votes cast in cases when some of the votes conflict. Only a collection of votes that contains no cycles is non-conflicting and can induce a partial order over alternatives. Our approach is motivated by the observation that a collection of votes that form a cycle can be treated as ties. The method is then to remove unions of cycles of votes, or circulations, from the vote graph and determine aggregate preferences from the remainder.  We introduce the strong maximum circulation which is formed by a union of cycles, the removal of which guarantees a unique outcome in terms of the induced partial order. Furthermore, it contains all the aggregate preferences remaining following the elimination of any maximum circulation. In contrast, the wel
-    
-[^2]: 模拟分解进行反事实预测
-
-    Synthetic Decomposition for Counterfactual Predictions. (arXiv:2307.05122v1 [econ.EM])
-
-    [http://arxiv.org/abs/2307.05122](http://arxiv.org/abs/2307.05122)
-
-    本论文提出了一种使用“源”地区数据进行目标地区政策预测的方法。通过制定可转移条件并构建合成的结果-政策关系来满足条件。我们开发了通用过程来构建反事实预测的置信区间，并证明其有效性。本研究应用该方法预测了德克萨斯州青少年就业率。
+    该论文提出了一个模型，阐明了美好幻想行为的本质以及偏见信念所带来的成本和收益。通过超型效用最大化，揭示了乐观的决策者偏好于具有正偏态和增加风险特征的选择。
 
     
 
-    当政策变量超出先前政策支持范围时，反事实预测是具有挑战性的。然而，在许多情况下，关于感兴趣政策的信息可以从不同的“源”地区得到，这些地区已经实施了类似的政策。在本论文中，我们提出了一种新的方法，利用来自源地区的数据来预测目标地区的新政策。我们不依赖于使用参数化规范的结构关系的外推，而是制定一个可转移条件，并构建一个合成的结果-政策关系，使其尽可能接近满足条件。合成关系考虑了可观测数据和结构关系的相似性。我们开发了一个通用过程来构建反事实预测的渐进置信区间，并证明了其渐进有效性。然后，我们将我们的提议应用于预测德克萨斯州青少年就业率。
+    我们提出了一个模型，阐明了美好幻想的本质，综合考虑了偏见信念所带来的成本和收益。我们的研究结果表明，美好幻想行为可以准确地描述为在偏见信念扭曲成本函数领域内进行超型效用最大化。通过利用这种等价性，我们得出了当一个乐观的决策者偏好于具有正偏态和增加风险特征的选择的条件。
 
-    Counterfactual predictions are challenging when the policy variable goes beyond its pre-policy support. However, in many cases, information about the policy of interest is available from different ("source") regions where a similar policy has already been implemented. In this paper, we propose a novel method of using such data from source regions to predict a new policy in a target region. Instead of relying on extrapolation of a structural relationship using a parametric specification, we formulate a transferability condition and construct a synthetic outcome-policy relationship such that it is as close as possible to meeting the condition. The synthetic relationship weighs both the similarity in distributions of observables and in structural relationships. We develop a general procedure to construct asymptotic confidence intervals for counterfactual predictions and prove its asymptotic validity. We then apply our proposal to predict average teenage employment in Texas following a cou
+    We present a model elucidating wishful thinking, which comprehensively incorporates both the costs and benefits associated with biased beliefs. Our findings reveal that wishful thinking behavior can be accurately characterized as equivalent to superquantile-utility maximization within the domain of threshold beliefs distortion cost functions. By leveraging this equivalence, we establish conditions that elucidate when an optimistic decision-maker exhibits a preference for choices characterized by positive skewness and increased risk.
     
-[^3]: 利用静态工具识别动态的最小平均处理效应
+[^2]: 多因果传输：重心和动态匹配
 
-    Identifying Dynamic LATEs with a Static Instrument. (arXiv:2305.18114v1 [econ.EM])
+    Multicausal transport: barycenters and dynamic matching. (arXiv:2401.12748v1 [math.PR])
 
-    [http://arxiv.org/abs/2305.18114](http://arxiv.org/abs/2305.18114)
+    [http://arxiv.org/abs/2401.12748](http://arxiv.org/abs/2401.12748)
 
-    本研究讨论了利用静态二元工具来识别动态效应问题，从而识别不同潜在群体和治疗暴露下的治疗效应加权和，但可能存在负权重。同时，我们在不同的假设设置下考虑了动态治疗效果的点估计和部分识别。
-
-    
-
-    在很多情况下，研究人员感兴趣的是用静态二元工具（IV）来识别不可逆治疗的动态效应。例如，在对培训计划的动态效应进行评估时，只需要单个抽奖来确定资格。在这些情况下，通常采用每个时期的IV估计方法。在标准IV假设的动态扩展下，我们展示了这种IV估计法可以识别不同潜在群体和治疗暴露下的治疗效应加权和。但是，有可能出现负权重。我们在不同的假设设置下考虑了这种情况下动态治疗效果的点估计和部分识别。
-
-    In many situations, researchers are interested in identifying dynamic effects of an irreversible treatment with a static binary instrumental variable (IV). For example, in evaluations of dynamic effects of training programs, with a single lottery determining eligibility. A common approach in these situations is to report per-period IV estimates. Under a dynamic extension of standard IV assumptions, we show that such IV estimators identify a weighted sum of treatment effects for different latent groups and treatment exposures. However, there is possibility of negative weights. We consider point and partial identification of dynamic treatment effects in this setting under different sets of assumptions.
-    
-[^4]: 异质性噪声和稳定的错协调
-
-    Heterogeneous Noise and Stable Miscoordination. (arXiv:2305.10301v1 [econ.TH])
-
-    [http://arxiv.org/abs/2305.10301](http://arxiv.org/abs/2305.10301)
-
-    学习动态下，样本大小的异质性可能导致博弈出现稳定的错协调，而非纯粹均衡，实证检验上有重要启示。
+    本文介绍了一种多变量版本的适应性传输，称为多因果传输，其中涉及多个经过因果约束的过程。我们研究了具有因果和双因果最优传输的随机过程的重心问题，以及其与多因果传输问题的联系。我们还通过一项应用研究了动态环境下的匹配问题，并展示了均衡存在性。
 
     
 
-    协调博弈存在两种均衡：纯粹均衡，所有玩家成功协调其行动，和混合均衡，玩家经常经历错协调。现有文献表明，在许多进化动态下，人口从几乎任何初始行动分布中收敛于纯均衡。相反，我们显示，在合理的学习动态下（即代理人观察对手的随机样本并相应地调整策略），当样本大小存在异质性时，可产生稳定的错协调。这发生在一些代理人基于小样本（典型证据）做出决策，而其他代理人则依赖大样本。最后，我们在一个谈判应用中证明了我们的结果的实证相关性。
+    我们引入了适应性传输的多元版本，命名为多因果传输，其中涉及多个被施加因果约束的过程。接下来，我们考虑具有因果和双因果最优传输的随机过程的重心问题，并研究其与具体的多因果传输问题的联系。我们提供了前述问题的达到和对偶性。作为一个应用，我们研究了一个动态环境下的匹配问题，其中代理人的类型随时间演变。我们将其与因果重心问题联系起来，并从而展示了均衡的存在性。
 
-    Coordination games admit two types of equilibria: pure equilibria, where all players successfully coordinate their actions, and mixed equilibria, where players frequently experience miscoordination. The existing literature shows that under many evolutionary dynamics, populations converge to a pure equilibrium from almost any initial distribution of actions. By contrast, we show that under plausible learning dynamics, where agents observe the actions of a random sample of their opponents and adjust their strategies accordingly, stable miscoordination can arise when there is heterogeneity in the sample sizes. This occurs when some agents make decisions based on small samples (anecdotal evidence) while others rely on large samples. Finally, we demonstrate the empirical relevance of our results in a bargaining application.
+    We introduce a multivariate version of adapted transport, which we name multicausal transport, involving several filtered processes among which causality constraints are imposed. Subsequently, we consider the barycenter problem for stochastic processes with respect to causal and bicausal optimal transport, and study its connection to specific multicausal transport problems. Attainment and duality of the aforementioned problems are provided. As an application, we study a matching problem in a dynamic setting where agents' types evolve over time. We link this to a causal barycenter problem and thereby show existence of equilibria.
+    
+[^3]: 一个简单的随机非线性AR模型及其在泡沫中的应用
+
+    A simple stochastic nonlinear AR model with application to bubble. (arXiv:2401.07038v1 [math.ST])
+
+    [http://arxiv.org/abs/2401.07038](http://arxiv.org/abs/2401.07038)
+
+    本文提出了一个简单的随机非线性AR模型，在探究泡沫动力学时具有重要应用。该模型的局部爆发机制可以有效地描绘泡沫的动态特征，并使用了准最大似然估计方法对其进行参数估计和模型拟合。
+
+    
+
+    经济和金融时间序列在形成泡沫时可能会表现出局部爆发行为。经济或金融泡沫，特别是其动力学，是一个引人入胜的话题，一直以来都受到关注。为了说明局部爆发本身的动力学，本文提出了一个新颖、简单而有用的时间序列模型，称为随机非线性自回归模型，具有严格平稳性和几何遍历性，并能够产生在许多宏观经济变量中观察到的长周期波动或持久性。当非线性自回归系数在某一范围之外时，该模型会出现周期性爆发行为，并可以用来描绘泡沫的动态。此外，对我们的模型进行了准最大似然估计（QMLE），并在对创新采取最小假设的情况下，证明了其强一致性和渐近正态性。还针对模型拟合进行了新的模型诊断检验统计量的开发。
+
+    Economic and financial time series can feature locally explosive behavior when a bubble is formed. The economic or financial bubble, especially its dynamics, is an intriguing topic that has been attracting longstanding attention. To illustrate the dynamics of the local explosion itself, the paper presents a novel, simple, yet useful time series model, called the stochastic nonlinear autoregressive model, which is always strictly stationary and geometrically ergodic and can create long swings or persistence observed in many macroeconomic variables. When a nonlinear autoregressive coefficient is outside of a certain range, the model has periodically explosive behaviors and can then be used to portray the bubble dynamics. Further, the quasi-maximum likelihood estimation (QMLE) of our model is considered, and its strong consistency and asymptotic normality are established under minimal assumptions on innovation. A new model diagnostic checking statistic is developed for model fitting adequ
+    
+[^4]: 因果聚类：在网络干扰下设计集群实验
+
+    Causal clustering: design of cluster experiments under network interference. (arXiv:2310.14983v1 [econ.EM])
+
+    [http://arxiv.org/abs/2310.14983](http://arxiv.org/abs/2310.14983)
+
+    本文研究了在网络干扰下设计集群实验来估计全局治疗效果，并提出了选择最优聚类的方法，通过使用现成的半定规划算法计算一个新型惩罚最小割优化问题的解来近似最优聚类，同时还确定了选择簇或个体级随机化之间易于检查的条件。
+
+    
+
+    本文研究了在单一网络存在外溢效应的情况下，设计集群实验来估计全局治疗效果。我们提供了一个计量经济学的框架，选择最小化估计的全局治疗效果的最坏均方误差的聚类方法。我们展示了最优聚类方法可以近似为通过现成的半定规划算法计算的一种新型惩罚最小割优化问题的解。我们的分析还确定了选择簇或个体级随机化之间易于检查的条件。我们使用来自Facebook用户宇宙的独特网络数据和现有的网络实验数据来说明该方法的特性。
+
+    This paper studies the design of cluster experiments to estimate the global treatment effect in the presence of spillovers on a single network. We provide an econometric framework to choose the clustering that minimizes the worst-case mean-squared error of the estimated global treatment effect. We show that the optimal clustering can be approximated as the solution of a novel penalized min-cut optimization problem computed via off-the-shelf semi-definite programming algorithms. Our analysis also characterizes easy-to-check conditions to choose between a cluster or individual-level randomization. We illustrate the method's properties using unique network data from the universe of Facebook's users and existing network data from a field experiment.
+    
+[^5]: 组成变化的差异成差法
+
+    Difference-in-Differences with Compositional Changes. (arXiv:2304.13925v1 [econ.EM])
+
+    [http://arxiv.org/abs/2304.13925](http://arxiv.org/abs/2304.13925)
+
+    本文研究了具有重复横断面数据和时间段组成变化的差异成差法（DiD）设置，通过引入非参数估计器来达到半参数效率界，并提出了一种基于组成变化的非参数Hausman型检验。
+
+    
+
+    本文研究了具有重复横断面数据和时间段组成变化的差异成差法（DiD）设置。我们通过推导平均处理效应（ATT）的有效影响函数和半参数效率界来开始分析。我们引入了非参数估计器，它们在有限的率条件下估计。此外，我们还记录了与组成变化相关的权衡：我们推导了DR DiD估计器的渐近偏差，并说明了当我们未能正确排除组成变化时，效率损失。我们提出了一种基于这些权衡的组成变化的非参数Hausman型检验。通过蒙特卡罗实验和实证应用程序评估了所提出的DiD工具的有限样本性能。
+
+    This paper studies difference-in-differences (DiD) setups with repeated cross-sectional data and potential compositional changes across time periods. We begin our analysis by deriving the efficient influence function and the semiparametric efficiency bound for the average treatment effect on the treated (ATT). We introduce nonparametric estimators that attain the semiparametric efficiency bound under mild rate conditions on the estimators of the nuisance functions, exhibiting a type of rate doubly-robust (DR) property. Additionally, we document a trade-off related to compositional changes: We derive the asymptotic bias of DR DiD estimators that erroneously exclude compositional changes and the efficiency loss when one fails to correctly rule out compositional changes. We propose a nonparametric Hausman-type test for compositional changes based on these trade-offs. The finite sample performance of the proposed DiD tools is evaluated through Monte Carlo experiments and an empirical appli
     
 
