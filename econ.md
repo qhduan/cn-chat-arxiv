@@ -2,82 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Censored Beliefs and Wishful Thinking](https://arxiv.org/abs/2402.01892) | 该论文提出了一个模型，阐明了美好幻想行为的本质以及偏见信念所带来的成本和收益。通过超型效用最大化，揭示了乐观的决策者偏好于具有正偏态和增加风险特征的选择。 |
-| [^2] | [Multicausal transport: barycenters and dynamic matching.](http://arxiv.org/abs/2401.12748) | 本文介绍了一种多变量版本的适应性传输，称为多因果传输，其中涉及多个经过因果约束的过程。我们研究了具有因果和双因果最优传输的随机过程的重心问题，以及其与多因果传输问题的联系。我们还通过一项应用研究了动态环境下的匹配问题，并展示了均衡存在性。 |
-| [^3] | [A simple stochastic nonlinear AR model with application to bubble.](http://arxiv.org/abs/2401.07038) | 本文提出了一个简单的随机非线性AR模型，在探究泡沫动力学时具有重要应用。该模型的局部爆发机制可以有效地描绘泡沫的动态特征，并使用了准最大似然估计方法对其进行参数估计和模型拟合。 |
-| [^4] | [Causal clustering: design of cluster experiments under network interference.](http://arxiv.org/abs/2310.14983) | 本文研究了在网络干扰下设计集群实验来估计全局治疗效果，并提出了选择最优聚类的方法，通过使用现成的半定规划算法计算一个新型惩罚最小割优化问题的解来近似最优聚类，同时还确定了选择簇或个体级随机化之间易于检查的条件。 |
-| [^5] | [Difference-in-Differences with Compositional Changes.](http://arxiv.org/abs/2304.13925) | 本文研究了具有重复横断面数据和时间段组成变化的差异成差法（DiD）设置，通过引入非参数估计器来达到半参数效率界，并提出了一种基于组成变化的非参数Hausman型检验。 |
+| [^1] | [Flexible Analysis of Individual Heterogeneity in Event Studies: Application to the Child Penalty](https://arxiv.org/abs/2403.19563) | 提供了一个实用工具包，用于分析事件研究中的效应异质性，强调了个体级别效应的重要性，并揭示了线性治疗效应的挑战。 |
+| [^2] | [Interference Among First-Price Pacing Equilibria: A Bias and Variance Analysis](https://arxiv.org/abs/2402.07322) | 本文提出了一种并行的预算控制的A/B测试设计，通过市场细分的方式在更大的市场中识别子市场，并在每个子市场上进行并行实验。 |
+| [^3] | [Uniform Inference on High-dimensional Spatial Panel Networks.](http://arxiv.org/abs/2105.07424) | 本研究在大规模空间面板网络上提出了一种均匀推断理论，该理论能够对感兴趣的参数进行假设检验，包括网络结构中的零或非零元素。 |
 
 # 详细
 
-[^1]: 被审查的信仰与美好幻想
+[^1]: 事件研究中个体异质性的灵活分析：以子女惩罚为例
 
-    Censored Beliefs and Wishful Thinking
+    Flexible Analysis of Individual Heterogeneity in Event Studies: Application to the Child Penalty
 
-    [https://arxiv.org/abs/2402.01892](https://arxiv.org/abs/2402.01892)
+    [https://arxiv.org/abs/2403.19563](https://arxiv.org/abs/2403.19563)
 
-    该论文提出了一个模型，阐明了美好幻想行为的本质以及偏见信念所带来的成本和收益。通过超型效用最大化，揭示了乐观的决策者偏好于具有正偏态和增加风险特征的选择。
-
-    
-
-    我们提出了一个模型，阐明了美好幻想的本质，综合考虑了偏见信念所带来的成本和收益。我们的研究结果表明，美好幻想行为可以准确地描述为在偏见信念扭曲成本函数领域内进行超型效用最大化。通过利用这种等价性，我们得出了当一个乐观的决策者偏好于具有正偏态和增加风险特征的选择的条件。
-
-    We present a model elucidating wishful thinking, which comprehensively incorporates both the costs and benefits associated with biased beliefs. Our findings reveal that wishful thinking behavior can be accurately characterized as equivalent to superquantile-utility maximization within the domain of threshold beliefs distortion cost functions. By leveraging this equivalence, we establish conditions that elucidate when an optimistic decision-maker exhibits a preference for choices characterized by positive skewness and increased risk.
-    
-[^2]: 多因果传输：重心和动态匹配
-
-    Multicausal transport: barycenters and dynamic matching. (arXiv:2401.12748v1 [math.PR])
-
-    [http://arxiv.org/abs/2401.12748](http://arxiv.org/abs/2401.12748)
-
-    本文介绍了一种多变量版本的适应性传输，称为多因果传输，其中涉及多个经过因果约束的过程。我们研究了具有因果和双因果最优传输的随机过程的重心问题，以及其与多因果传输问题的联系。我们还通过一项应用研究了动态环境下的匹配问题，并展示了均衡存在性。
+    提供了一个实用工具包，用于分析事件研究中的效应异质性，强调了个体级别效应的重要性，并揭示了线性治疗效应的挑战。
 
     
 
-    我们引入了适应性传输的多元版本，命名为多因果传输，其中涉及多个被施加因果约束的过程。接下来，我们考虑具有因果和双因果最优传输的随机过程的重心问题，并研究其与具体的多因果传输问题的联系。我们提供了前述问题的达到和对偶性。作为一个应用，我们研究了一个动态环境下的匹配问题，其中代理人的类型随时间演变。我们将其与因果重心问题联系起来，并从而展示了均衡的存在性。
+    我们提供了一个实用工具包，用于分析事件研究中的效应异质性。我们开发了一个估计算法，并调整现有的计量经济结果，提供其理论基础。我们将这些工具应用于荷兰行政数据，以三种方式研究子女惩罚（CP）背景下的个体异质性。首先，我们记录了个体级别CP轨迹的显著异质性，强调超越平均CP的重要性。其次，我们使用个体级别估计来检验托儿服务供给扩展政策的影响。我们的方法揭示了非线性治疗效应，挑战了受限于较少灵活规范的传统政策评估方法。第三，我们使用个体级别估计作为回归变量来研究母女之间CP的代际弹性。在调整测量误差偏差之后，
 
-    We introduce a multivariate version of adapted transport, which we name multicausal transport, involving several filtered processes among which causality constraints are imposed. Subsequently, we consider the barycenter problem for stochastic processes with respect to causal and bicausal optimal transport, and study its connection to specific multicausal transport problems. Attainment and duality of the aforementioned problems are provided. As an application, we study a matching problem in a dynamic setting where agents' types evolve over time. We link this to a causal barycenter problem and thereby show existence of equilibria.
+    arXiv:2403.19563v1 Announce Type: new  Abstract: We provide a practical toolkit for analyzing effect heterogeneity in event studies. We develop an estimation algorithm and adapt existing econometric results to provide its theoretical justification. We apply these tools to Dutch administrative data to study individual heterogeneity in the child-penalty (CP) context in three ways. First, we document significant heterogeneity in the individual-level CP trajectories, emphasizing the importance of going beyond the average CP. Second, we use individual-level estimates to examine the impact of childcare supply expansion policies. Our approach uncovers nonlinear treatment effects, challenging the conventional policy evaluation methods constrained to less flexible specifications. Third, we use the individual-level estimates as a regressor on the right-hand side to study the intergenerational elasticity of the CP between mothers and daughters. After adjusting for the measurement error bias, we f
     
-[^3]: 一个简单的随机非线性AR模型及其在泡沫中的应用
+[^2]: 第一价拍卖均衡中的干扰：偏差和方差分析
 
-    A simple stochastic nonlinear AR model with application to bubble. (arXiv:2401.07038v1 [math.ST])
+    Interference Among First-Price Pacing Equilibria: A Bias and Variance Analysis
 
-    [http://arxiv.org/abs/2401.07038](http://arxiv.org/abs/2401.07038)
+    [https://arxiv.org/abs/2402.07322](https://arxiv.org/abs/2402.07322)
 
-    本文提出了一个简单的随机非线性AR模型，在探究泡沫动力学时具有重要应用。该模型的局部爆发机制可以有效地描绘泡沫的动态特征，并使用了准最大似然估计方法对其进行参数估计和模型拟合。
-
-    
-
-    经济和金融时间序列在形成泡沫时可能会表现出局部爆发行为。经济或金融泡沫，特别是其动力学，是一个引人入胜的话题，一直以来都受到关注。为了说明局部爆发本身的动力学，本文提出了一个新颖、简单而有用的时间序列模型，称为随机非线性自回归模型，具有严格平稳性和几何遍历性，并能够产生在许多宏观经济变量中观察到的长周期波动或持久性。当非线性自回归系数在某一范围之外时，该模型会出现周期性爆发行为，并可以用来描绘泡沫的动态。此外，对我们的模型进行了准最大似然估计（QMLE），并在对创新采取最小假设的情况下，证明了其强一致性和渐近正态性。还针对模型拟合进行了新的模型诊断检验统计量的开发。
-
-    Economic and financial time series can feature locally explosive behavior when a bubble is formed. The economic or financial bubble, especially its dynamics, is an intriguing topic that has been attracting longstanding attention. To illustrate the dynamics of the local explosion itself, the paper presents a novel, simple, yet useful time series model, called the stochastic nonlinear autoregressive model, which is always strictly stationary and geometrically ergodic and can create long swings or persistence observed in many macroeconomic variables. When a nonlinear autoregressive coefficient is outside of a certain range, the model has periodically explosive behaviors and can then be used to portray the bubble dynamics. Further, the quasi-maximum likelihood estimation (QMLE) of our model is considered, and its strong consistency and asymptotic normality are established under minimal assumptions on innovation. A new model diagnostic checking statistic is developed for model fitting adequ
-    
-[^4]: 因果聚类：在网络干扰下设计集群实验
-
-    Causal clustering: design of cluster experiments under network interference. (arXiv:2310.14983v1 [econ.EM])
-
-    [http://arxiv.org/abs/2310.14983](http://arxiv.org/abs/2310.14983)
-
-    本文研究了在网络干扰下设计集群实验来估计全局治疗效果，并提出了选择最优聚类的方法，通过使用现成的半定规划算法计算一个新型惩罚最小割优化问题的解来近似最优聚类，同时还确定了选择簇或个体级随机化之间易于检查的条件。
+    本文提出了一种并行的预算控制的A/B测试设计，通过市场细分的方式在更大的市场中识别子市场，并在每个子市场上进行并行实验。
 
     
 
-    本文研究了在单一网络存在外溢效应的情况下，设计集群实验来估计全局治疗效果。我们提供了一个计量经济学的框架，选择最小化估计的全局治疗效果的最坏均方误差的聚类方法。我们展示了最优聚类方法可以近似为通过现成的半定规划算法计算的一种新型惩罚最小割优化问题的解。我们的分析还确定了选择簇或个体级随机化之间易于检查的条件。我们使用来自Facebook用户宇宙的独特网络数据和现有的网络实验数据来说明该方法的特性。
+    在互联网行业中，在线A/B测试被广泛用于决策新功能的推出。然而对于在线市场（如广告市场），标准的A/B测试方法可能导致结果出现偏差，因为买家在预算约束下运作，试验组的预算消耗会影响对照组的表现。为了解决这种干扰，可以采用“预算分割设计”，即每个实验组都有一个独立的预算约束，并且每个实验组接收相等的预算份额，从而实现“预算控制的A/B测试”。尽管预算控制的A/B测试有明显的优势，但当预算分割得太小时，性能会下降，限制了这种系统的总吞吐量。本文提出了一种并行的预算控制的A/B测试设计，通过市场细分的方式在更大的市场中识别子市场，并在每个子市场上进行并行实验。我们的贡献如下：首先，引入了一种新的方法来分析第一价拍卖的均衡状况，揭示了其中的偏差和方差。
 
-    This paper studies the design of cluster experiments to estimate the global treatment effect in the presence of spillovers on a single network. We provide an econometric framework to choose the clustering that minimizes the worst-case mean-squared error of the estimated global treatment effect. We show that the optimal clustering can be approximated as the solution of a novel penalized min-cut optimization problem computed via off-the-shelf semi-definite programming algorithms. Our analysis also characterizes easy-to-check conditions to choose between a cluster or individual-level randomization. We illustrate the method's properties using unique network data from the universe of Facebook's users and existing network data from a field experiment.
+    Online A/B testing is widely used in the internet industry to inform decisions on new feature roll-outs. For online marketplaces (such as advertising markets), standard approaches to A/B testing may lead to biased results when buyers operate under a budget constraint, as budget consumption in one arm of the experiment impacts performance of the other arm. To counteract this interference, one can use a budget-split design where the budget constraint operates on a per-arm basis and each arm receives an equal fraction of the budget, leading to ``budget-controlled A/B testing.'' Despite clear advantages of budget-controlled A/B testing, performance degrades when budget are split too small, limiting the overall throughput of such systems. In this paper, we propose a parallel budget-controlled A/B testing design where we use market segmentation to identify submarkets in the larger market, and we run parallel experiments on each submarket.   Our contributions are as follows: First, we introdu
     
-[^5]: 组成变化的差异成差法
+[^3]: 高维空间面板网络上的均匀推断
 
-    Difference-in-Differences with Compositional Changes. (arXiv:2304.13925v1 [econ.EM])
+    Uniform Inference on High-dimensional Spatial Panel Networks. (arXiv:2105.07424v3 [econ.EM] UPDATED)
 
-    [http://arxiv.org/abs/2304.13925](http://arxiv.org/abs/2304.13925)
+    [http://arxiv.org/abs/2105.07424](http://arxiv.org/abs/2105.07424)
 
-    本文研究了具有重复横断面数据和时间段组成变化的差异成差法（DiD）设置，通过引入非参数估计器来达到半参数效率界，并提出了一种基于组成变化的非参数Hausman型检验。
+    本研究在大规模空间面板网络上提出了一种均匀推断理论，该理论能够对感兴趣的参数进行假设检验，包括网络结构中的零或非零元素。
 
     
 
-    本文研究了具有重复横断面数据和时间段组成变化的差异成差法（DiD）设置。我们通过推导平均处理效应（ATT）的有效影响函数和半参数效率界来开始分析。我们引入了非参数估计器，它们在有限的率条件下估计。此外，我们还记录了与组成变化相关的权衡：我们推导了DR DiD估计器的渐近偏差，并说明了当我们未能正确排除组成变化时，效率损失。我们提出了一种基于这些权衡的组成变化的非参数Hausman型检验。通过蒙特卡罗实验和实证应用程序评估了所提出的DiD工具的有限样本性能。
+    我们提出了一种偏差-正则化的高维广义矩方法（GMM）框架，用于对大规模空间面板网络进行推断。特别是，利用偏差机器学习方法估计具有灵活稀疏偏差的网络结构，这可以被视为潜在的或者与预定的邻接矩阵不匹配。理论分析确立了我们提出的估计器的一致性和渐近正态性，考虑了数据生成过程中的一般时间和空间依赖性。讨论了依赖性存在时的维度允许性。我们研究的一个主要贡献是开发了一种均匀推断理论，能够对感兴趣的参数进行假设检验，包括网络结构中的零或非零元素。此外，对估计器的渐近性质进行了线性和非线性时刻的推导。模拟实验证明了所提方法的有效性。
 
-    This paper studies difference-in-differences (DiD) setups with repeated cross-sectional data and potential compositional changes across time periods. We begin our analysis by deriving the efficient influence function and the semiparametric efficiency bound for the average treatment effect on the treated (ATT). We introduce nonparametric estimators that attain the semiparametric efficiency bound under mild rate conditions on the estimators of the nuisance functions, exhibiting a type of rate doubly-robust (DR) property. Additionally, we document a trade-off related to compositional changes: We derive the asymptotic bias of DR DiD estimators that erroneously exclude compositional changes and the efficiency loss when one fails to correctly rule out compositional changes. We propose a nonparametric Hausman-type test for compositional changes based on these trade-offs. The finite sample performance of the proposed DiD tools is evaluated through Monte Carlo experiments and an empirical appli
+    We propose employing a debiased-regularized, high-dimensional generalized method of moments (GMM) framework to perform inference on large-scale spatial panel networks. In particular, network structure with a flexible sparse deviation, which can be regarded either as latent or as misspecified from a predetermined adjacency matrix, is estimated using debiased machine learning approach. The theoretical analysis establishes the consistency and asymptotic normality of our proposed estimator, taking into account general temporal and spatial dependency inherent in the data-generating processes. The dimensionality allowance in presence of dependency is discussed. A primary contribution of our study is the development of uniform inference theory that enables hypothesis testing on the parameters of interest, including zero or non-zero elements in the network structure. Additionally, the asymptotic properties for the estimator are derived for both linear and nonlinear moments. Simulations demonst
     
 
