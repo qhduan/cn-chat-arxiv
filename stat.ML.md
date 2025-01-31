@@ -2,97 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [On the Universality of Coupling-based Normalizing Flows](https://arxiv.org/abs/2402.06578) | 我们提出了一个新颖的理论框架，用于理解基于耦合的标准化流的表达能力，并提出了一个新的分布普适性定理来克服以前工作的限制。这些结果支持耦合架构的表达能力，并弥补了实证结果和理论理解之间的差距。 |
-| [^2] | [SPDE priors for uncertainty quantification of end-to-end neural data assimilation schemes](https://arxiv.org/abs/2402.01855) | SPDE先验在最优插值中的应用及其与神经网络的联合学习问题，为大规模地球物理数据集的时空插值提供了一种新的方法。 |
-| [^3] | [Efficient Computation of Sparse and Robust Maximum Association Estimators](https://arxiv.org/abs/2311.17563) | 本文研究如何在高维稀疏设置中利用新的优化程序实现鲁棒稀疏关联估计，通过增广Lagrange算法和自适应梯度下降的组合，提供了更精确的算法，并展示了相对现有算法的优势。 |
-| [^4] | [Provably Stable Feature Rankings with SHAP and LIME.](http://arxiv.org/abs/2401.15800) | 这项研究提出了一种通过利用多重假设检验的思想，来设计可靠地排名机器学习模型中最重要特征的特征归因方法，旨在解决SHAP和LIME等常用方法由于随机采样导致的高度不稳定性问题。实验证明了该方法的有效性和计算效率。 |
-| [^5] | [Matrix Supermartingales and Randomized Matrix Concentration Inequalities.](http://arxiv.org/abs/2401.15567) | 本文提出了针对鞅相关或可交换随机对称矩阵的新集中不等式，这些不等式在多种尾条件下成立，在洛伊纳顺序表示，并且有时在任意数据相关停止时间都适用。 |
-| [^6] | [Imputation using training labels and classification via label imputation.](http://arxiv.org/abs/2311.16877) | 本论文提出一种在填充缺失数据时将标签与输入堆叠的方法，能够显著提高填充效果，并同时填充标签和输入。该方法适用于各种类型的数据，且在实验证明具有有希望的准确性结果。 |
+| [^1] | [Semi-Supervised Deep Sobolev Regression: Estimation, Variable Selection and Beyond.](http://arxiv.org/abs/2401.04535) | 我们提出了一种半监督深度Sobolev回归器，利用深度神经网络进行梯度范数正则化，可以同时估计回归函数和其梯度，即使存在显著领域变化。这在半监督学习中利用无标签数据方面具有可证优势。 |
+| [^2] | [Kernel Learning in Ridge Regression "Automatically" Yields Exact Low Rank Solution.](http://arxiv.org/abs/2310.11736) | 该论文研究了核岭回归问题中核学习的低秩解的性质。在只有低维子空间对响应变量有解释能力的情况下，通过该方法可以自动得到精确的低秩解，无需额外的正则化。 |
+| [^3] | [Efficient Methods for Non-stationary Online Learning.](http://arxiv.org/abs/2309.08911) | 这项工作提出了一种针对非平稳在线学习的高效方法，通过降低每轮投影的数量来优化动态遗憾和自适应遗憾的计算复杂性。 |
+| [^4] | [Virtual Human Generative Model: Masked Modeling Approach for Learning Human Characteristics.](http://arxiv.org/abs/2306.10656) | 本论文提出了一种名为VHGM的深度生成模型，基于掩码建模的方法来学习健康属性、生活方式和人格之间的关系。通过使用异构表格数据集，VHGM有效地学习了超过1,800个属性。该模型具有潜在的应用前景，例如用于医疗属性的虚拟测量和生活方式的假设验证。 |
+| [^5] | [Dynamic treatment effects: high-dimensional inference under model misspecification.](http://arxiv.org/abs/2111.06818) | 本文提出了一种新的鲁棒估计方法来解决动态治疗效应估计中的挑战，提高了在模型错误下的高维环境中的估计鲁棒性和可靠性。 |
 
 # 详细
 
-[^1]: 关于基于耦合的标准化流的普适性
+[^1]: 半监督深度Sobolev回归: 估计、变量选择及其他
 
-    On the Universality of Coupling-based Normalizing Flows
+    Semi-Supervised Deep Sobolev Regression: Estimation, Variable Selection and Beyond. (arXiv:2401.04535v1 [stat.ML])
 
-    [https://arxiv.org/abs/2402.06578](https://arxiv.org/abs/2402.06578)
+    [http://arxiv.org/abs/2401.04535](http://arxiv.org/abs/2401.04535)
 
-    我们提出了一个新颖的理论框架，用于理解基于耦合的标准化流的表达能力，并提出了一个新的分布普适性定理来克服以前工作的限制。这些结果支持耦合架构的表达能力，并弥补了实证结果和理论理解之间的差距。
-
-    
-
-    我们提出了一个新颖的理论框架，用于理解基于耦合的标准化流（如RealNVP）的表达能力。尽管耦合流在科学应用中很普遍，但由于其受限的架构，对于耦合流的全面理解仍然困难。现有的定理在实际应用中存在限制，因为它们需要使用任意病态的神经网络。此外，我们还证明了这些结构本质上导致体积保持流，这是一个限制表达能力的基本约束。我们提出了一种新的基于分布的耦合标准化流普适性定理，克服了以前工作的几个限制。我们的结果支持耦合架构具有表达能力的普遍经验，并为选择耦合函数的表达能力提供了细致入微的观点，填补了实证结果和理论理解之间的差距。
-
-    We present a novel theoretical framework for understanding the expressive power of coupling-based normalizing flows such as RealNVP. Despite their prevalence in scientific applications, a comprehensive understanding of coupling flows remains elusive due to their restricted architectures. Existing theorems fall short as they require the use of arbitrarily ill-conditioned neural networks, limiting practical applicability. Additionally, we demonstrate that these constructions inherently lead to volume-preserving flows, a property which we show to be a fundamental constraint for expressivity. We propose a new distributional universality theorem for coupling-based normalizing flows, which overcomes several limitations of prior work. Our results support the general wisdom that the coupling architecture is expressive and provide a nuanced view for choosing the expressivity of coupling functions, bridging a gap between empirical results and theoretical understanding.
-    
-[^2]: SPDE先验在端到端神经数据同化方案的不确定性量化中的应用
-
-    SPDE priors for uncertainty quantification of end-to-end neural data assimilation schemes
-
-    [https://arxiv.org/abs/2402.01855](https://arxiv.org/abs/2402.01855)
-
-    SPDE先验在最优插值中的应用及其与神经网络的联合学习问题，为大规模地球物理数据集的时空插值提供了一种新的方法。
+    我们提出了一种半监督深度Sobolev回归器，利用深度神经网络进行梯度范数正则化，可以同时估计回归函数和其梯度，即使存在显著领域变化。这在半监督学习中利用无标签数据方面具有可证优势。
 
     
 
-    大规模地球物理数据集的时空插值通常通过最优插值(Optimal Interpolation，OI)和更复杂的基于模型或数据驱动的数据同化技术来处理。在过去的十年中，随机偏微分方程(Spatio-temporal Partial Differential Equations，SPDE)和高斯马尔科夫随机场(Gaussian Markov Random Fields，GMRF)之间的联系开辟了一条新的途径，用于处理最优插值中的大数据集和物理诱导协方差矩阵。深度学习社区的最新进展也使得可以将这个问题视为嵌入数据同化变分框架的神经网络体系结构的联合学习问题。重建任务被视为一个包含在变分内部成本中的先验学习问题和后者的基于梯度的最小化：先验模型和求解器都被表示为具有自动微分的神经网络，可以通过最小化损失函数来训练，该损失函数通常被表示为一些真实值和重建值之间的均方误差。
+    我们提出了SDORE，一种半监督深度Sobolev回归器，用于非参数估计潜在的回归函数及其梯度。SDORE使用深度神经网络来最小化经验风险，并采用梯度范数正则化，允许对无标签数据计算梯度范数。我们对SDORE的收敛速度进行了全面分析，并建立了回归函数的最小化最优速率。重要的是，在存在显著领域变化的情况下，我们还推导出了关联的插值梯度估计器的收敛速度。这些理论结果为选择正则化参数和确定神经网络的大小提供了有价值的先验指导，并展示了在半监督学习中利用无标签数据的可证优势。据我们所知，SDORE是第一个同时估计回归函数及其梯度的可证神经网络方法，具有多样化的应用。
 
-    The spatio-temporal interpolation of large geophysical datasets has historically been adressed by Optimal Interpolation (OI) and more sophisticated model-based or data-driven DA techniques. In the last ten years, the link established between Stochastic Partial Differential Equations (SPDE) and Gaussian Markov Random Fields (GMRF) opened a new way of handling both large datasets and physically-induced covariance matrix in Optimal Interpolation. Recent advances in the deep learning community also enables to adress this problem as neural architecture embedding data assimilation variational framework. The reconstruction task is seen as a joint learning problem of the prior involved in the variational inner cost and the gradient-based minimization of the latter: both prior models and solvers are stated as neural networks with automatic differentiation which can be trained by minimizing a loss function, typically stated as the mean squared error between some ground truth and the reconstructi
+    We propose SDORE, a semi-supervised deep Sobolev regressor, for the nonparametric estimation of the underlying regression function and its gradient. SDORE employs deep neural networks to minimize empirical risk with gradient norm regularization, allowing computation of the gradient norm on unlabeled data. We conduct a comprehensive analysis of the convergence rates of SDORE and establish a minimax optimal rate for the regression function. Crucially, we also derive a convergence rate for the associated plug-in gradient estimator, even in the presence of significant domain shift. These theoretical findings offer valuable prior guidance for selecting regularization parameters and determining the size of the neural network, while showcasing the provable advantage of leveraging unlabeled data in semi-supervised learning. To the best of our knowledge, SDORE is the first provable neural network-based approach that simultaneously estimates the regression function and its gradient, with diverse
     
-[^3]: 高效计算稀疏和鲁棒最大关联估计量
+[^2]: 在Ridge回归中，核学习“自动”给出精确的低秩解
 
-    Efficient Computation of Sparse and Robust Maximum Association Estimators
+    Kernel Learning in Ridge Regression "Automatically" Yields Exact Low Rank Solution. (arXiv:2310.11736v1 [math.ST])
 
-    [https://arxiv.org/abs/2311.17563](https://arxiv.org/abs/2311.17563)
+    [http://arxiv.org/abs/2310.11736](http://arxiv.org/abs/2310.11736)
 
-    本文研究如何在高维稀疏设置中利用新的优化程序实现鲁棒稀疏关联估计，通过增广Lagrange算法和自适应梯度下降的组合，提供了更精确的算法，并展示了相对现有算法的优势。
-
-    
-
-    虽然鲁棒统计估计量受到异常值的影响较小，但它们的计算通常更具挑战性，特别是在高维稀疏设置中。新的优化程序，主要在计算机科学领域开发，为鲁棒统计领域提供了新的可能性。本文研究了如何利用这些程序来实现鲁棒稀疏关联估计。该问题被拆分为一个鲁棒估计步骤，接着是一个余项解耦的（双边）凸问题的优化。采用增广Lagrange算法和自适应梯度下降的组合，还包括适当的约束条件以诱导稀疏性。我们提供了有关算法精度的结果，并展示了在这一背景下相对现有算法的优势。高维实证示例强调了该方法的实用性。
-
-    arXiv:2311.17563v2 Announce Type: replace-cross  Abstract: Although robust statistical estimators are less affected by outlying observations, their computation is usually more challenging. This is particularly the case in high-dimensional sparse settings. The availability of new optimization procedures, mainly developed in the computer science domain, offers new possibilities for the field of robust statistics. This paper investigates how such procedures can be used for robust sparse association estimators. The problem can be split into a robust estimation step followed by an optimization for the remaining decoupled, (bi-)convex problem. A combination of the augmented Lagrangian algorithm and adaptive gradient descent is implemented to also include suitable constraints for inducing sparsity. We provide results concerning the precision of the algorithm and show the advantages over existing algorithms in this context. High-dimensional empirical examples underline the usefulness of this p
-    
-[^4]: 使用SHAP和LIME进行可证明稳定的特征排名
-
-    Provably Stable Feature Rankings with SHAP and LIME. (arXiv:2401.15800v1 [stat.ML])
-
-    [http://arxiv.org/abs/2401.15800](http://arxiv.org/abs/2401.15800)
-
-    这项研究提出了一种通过利用多重假设检验的思想，来设计可靠地排名机器学习模型中最重要特征的特征归因方法，旨在解决SHAP和LIME等常用方法由于随机采样导致的高度不稳定性问题。实验证明了该方法的有效性和计算效率。
+    该论文研究了核岭回归问题中核学习的低秩解的性质。在只有低维子空间对响应变量有解释能力的情况下，通过该方法可以自动得到精确的低秩解，无需额外的正则化。
 
     
 
-    特征归因是了解机器学习模型预测的普遍工具。然而，用于评分输入变量的常用方法，如SHAP和LIME，由于随机采样而具有高度不稳定性。借鉴多重假设检验的思想，我们设计了能够以高概率正确排名最重要特征的归因方法。我们的算法RankSHAP保证$K$个最高Shapley值具有超过$1-\alpha$的正确排序概率。实证结果证明了其有效性和令人印象深刻的计算效率。我们还在之前的工作基础上为LIME提供了类似的结果，确保以正确顺序选择最重要的特征。
+    我们考虑形式为$(x,x') \mapsto \phi(\|x-x'\|^2_\Sigma)$且由参数$\Sigma$参数化的核函数。对于这样的核函数，我们研究了核岭回归问题的变体，它同时优化了预测函数和再现核希尔伯特空间的参数$\Sigma$。从这个核岭回归问题中学到的$\Sigma$的特征空间可以告诉我们协变量空间中哪些方向对预测是重要的。假设协变量只通过低维子空间（中心均值子空间）对响应变量有非零的解释能力，我们发现有很高的概率下有限样本核学习目标的全局最小化者也是低秩的。更具体地说，最小化$\Sigma$的秩有很高的概率被中心均值子空间的维度所限制。这个现象很有趣，因为低秩特性是在没有使用任何对$\Sigma$的显式正则化的情况下实现的，例如核范数正则化等。
 
-    Feature attributions are ubiquitous tools for understanding the predictions of machine learning models. However, popular methods for scoring input variables such as SHAP and LIME suffer from high instability due to random sampling. Leveraging ideas from multiple hypothesis testing, we devise attribution methods that correctly rank the most important features with high probability. Our algorithm RankSHAP guarantees that the $K$ highest Shapley values have the proper ordering with probability exceeding $1-\alpha$. Empirical results demonstrate its validity and impressive computational efficiency. We also build on previous work to yield similar results for LIME, ensuring the most important features are selected in the right order.
+    We consider kernels of the form $(x,x') \mapsto \phi(\|x-x'\|^2_\Sigma)$ parametrized by $\Sigma$. For such kernels, we study a variant of the kernel ridge regression problem which simultaneously optimizes the prediction function and the parameter $\Sigma$ of the reproducing kernel Hilbert space. The eigenspace of the $\Sigma$ learned from this kernel ridge regression problem can inform us which directions in covariate space are important for prediction.  Assuming that the covariates have nonzero explanatory power for the response only through a low dimensional subspace (central mean subspace), we find that the global minimizer of the finite sample kernel learning objective is also low rank with high probability. More precisely, the rank of the minimizing $\Sigma$ is with high probability bounded by the dimension of the central mean subspace. This phenomenon is interesting because the low rankness property is achieved without using any explicit regularization of $\Sigma$, e.g., nuclear
     
-[^5]: 矩阵超鞅和随机矩阵集中不等式
+[^3]: 非平稳在线学习的高效方法
 
-    Matrix Supermartingales and Randomized Matrix Concentration Inequalities. (arXiv:2401.15567v1 [math.PR])
+    Efficient Methods for Non-stationary Online Learning. (arXiv:2309.08911v1 [cs.LG])
 
-    [http://arxiv.org/abs/2401.15567](http://arxiv.org/abs/2401.15567)
+    [http://arxiv.org/abs/2309.08911](http://arxiv.org/abs/2309.08911)
 
-    本文提出了针对鞅相关或可交换随机对称矩阵的新集中不等式，这些不等式在多种尾条件下成立，在洛伊纳顺序表示，并且有时在任意数据相关停止时间都适用。
-
-    
-
-    我们在多种尾条件下，提出了针对鞅相关或可交换随机对称矩阵的新集中不等式，包括标准的切尔诺夫上界和自归一化重尾设置。这些不等式通常以洛伊纳顺序表示，并且有时在任意数据相关停止时间都成立。在此过程中，我们探索了矩阵超鞅和极值不等式的理论，可能具有独立的研究价值。
-
-    We present new concentration inequalities for either martingale dependent or exchangeable random symmetric matrices under a variety of tail conditions, encompassing standard Chernoff bounds to self-normalized heavy-tailed settings. These inequalities are often randomized in a way that renders them strictly tighter than existing deterministic results in the literature, are typically expressed in the Loewner order, and are sometimes valid at arbitrary data-dependent stopping times.  Along the way, we explore the theory of matrix supermartingales and maximal inequalities, potentially of independent interest.
-    
-[^6]: 使用训练标签进行填充和通过标签填充进行分类
-
-    Imputation using training labels and classification via label imputation. (arXiv:2311.16877v2 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2311.16877](http://arxiv.org/abs/2311.16877)
-
-    本论文提出一种在填充缺失数据时将标签与输入堆叠的方法，能够显著提高填充效果，并同时填充标签和输入。该方法适用于各种类型的数据，且在实验证明具有有希望的准确性结果。
+    这项工作提出了一种针对非平稳在线学习的高效方法，通过降低每轮投影的数量来优化动态遗憾和自适应遗憾的计算复杂性。
 
     
 
-    在实际应用中，缺失数据是一个常见的问题。已经开发了各种填充方法来处理缺失数据。然而，尽管训练数据通常都有标签，但常见的填充方法通常只依赖于输入而忽略标签。在这项工作中，我们阐述了将标签堆叠到输入中可以显着提高输入的填充效果。此外，我们提出了一种分类策略，该策略将预测的测试标签初始化为缺失值，并将标签与输入堆叠在一起进行填充。这样可以同时填充标签和输入。而且，该技术能够处理具有缺失标签的训练数据，无需任何先前的填充，并且适用于连续型、分类型或混合型数据。实验证明在准确性方面取得了有希望的结果。
+    非平稳在线学习近年来引起了广泛关注。特别是在非平稳环境中，动态遗憾和自适应遗憾被提出作为在线凸优化的两个原则性性能度量。为了优化它们，通常采用两层在线集成，由于非平稳性的固有不确定性，其中维护一组基学习器，并采用元算法在运行过程中跟踪最佳学习器。然而，这种两层结构引发了关于计算复杂性的担忧 -这些方法通常同时维护$\mathcal{O}(\log T)$个基学习器，对于一个$T$轮在线游戏，因此每轮执行多次投影到可行域上，当域很复杂时，这成为计算瓶颈。在本文中，我们提出了优化动态遗憾和自适应遗憾的高效方法，将每轮的投影次数从$\mathcal{O}(\log T)$降低到...
 
-    Missing data is a common problem in practical settings. Various imputation methods have been developed to deal with missing data. However, even though the label is usually available in the training data, the common practice of imputation usually only relies on the input and ignores the label. In this work, we illustrate how stacking the label into the input can significantly improve the imputation of the input. In addition, we propose a classification strategy that initializes the predicted test label with missing values and stacks the label with the input for imputation. This allows imputing the label and the input at the same time. Also, the technique is capable of handling data training with missing labels without any prior imputation and is applicable to continuous, categorical, or mixed-type data. Experiments show promising results in terms of accuracy.
+    Non-stationary online learning has drawn much attention in recent years. In particular, dynamic regret and adaptive regret are proposed as two principled performance measures for online convex optimization in non-stationary environments. To optimize them, a two-layer online ensemble is usually deployed due to the inherent uncertainty of the non-stationarity, in which a group of base-learners are maintained and a meta-algorithm is employed to track the best one on the fly. However, the two-layer structure raises the concern about the computational complexity -- those methods typically maintain $\mathcal{O}(\log T)$ base-learners simultaneously for a $T$-round online game and thus perform multiple projections onto the feasible domain per round, which becomes the computational bottleneck when the domain is complicated. In this paper, we present efficient methods for optimizing dynamic regret and adaptive regret, which reduce the number of projections per round from $\mathcal{O}(\log T)$ t
+    
+[^4]: 虚拟人类生成模型：基于掩码建模的方法来学习人类特征
+
+    Virtual Human Generative Model: Masked Modeling Approach for Learning Human Characteristics. (arXiv:2306.10656v1 [cs.LG])
+
+    [http://arxiv.org/abs/2306.10656](http://arxiv.org/abs/2306.10656)
+
+    本论文提出了一种名为VHGM的深度生成模型，基于掩码建模的方法来学习健康属性、生活方式和人格之间的关系。通过使用异构表格数据集，VHGM有效地学习了超过1,800个属性。该模型具有潜在的应用前景，例如用于医疗属性的虚拟测量和生活方式的假设验证。
+
+    
+
+    识别医疗属性、生活方式和人格之间的关系对于理解和改善身体和精神状况至关重要。本文提出了一种名为虚拟人类生成模型（VHGM）的机器学习模型，用于估计有关医疗保健、生活方式和个性的属性。VHGM是一个深度生成模型，使用掩码建模训练，在已知属性的条件下学习属性的联合分布。利用异构表格数据集，VHGM高效地学习了超过1,800个属性。我们数值评估了VHGM及其训练技术的性能。作为VHGM的概念验证，我们提出了几个应用程序，演示了用户情境，例如医疗属性的虚拟测量和生活方式的假设验证。
+
+    Identifying the relationship between healthcare attributes, lifestyles, and personality is vital for understanding and improving physical and mental conditions. Machine learning approaches are promising for modeling their relationships and offering actionable suggestions. In this paper, we propose Virtual Human Generative Model (VHGM), a machine learning model for estimating attributes about healthcare, lifestyles, and personalities. VHGM is a deep generative model trained with masked modeling to learn the joint distribution of attributes conditioned on known ones. Using heterogeneous tabular datasets, VHGM learns more than 1,800 attributes efficiently. We numerically evaluate the performance of VHGM and its training techniques. As a proof-of-concept of VHGM, we present several applications demonstrating user scenarios, such as virtual measurements of healthcare attributes and hypothesis verifications of lifestyles.
+    
+[^5]: 动态治疗效应：模型错误下的高维推断
+
+    Dynamic treatment effects: high-dimensional inference under model misspecification. (arXiv:2111.06818v2 [stat.ME] UPDATED)
+
+    [http://arxiv.org/abs/2111.06818](http://arxiv.org/abs/2111.06818)
+
+    本文提出了一种新的鲁棒估计方法来解决动态治疗效应估计中的挑战，提高了在模型错误下的高维环境中的估计鲁棒性和可靠性。
+
+    
+
+    估计动态治疗效应在各个学科中都是至关重要的，可以提供有关干预的时变因果影响的微妙见解。然而，由于“维数灾难”和时变混杂的存在，这种估计存在着挑战，可能导致估计偏误。此外，正确地规定日益增多的治疗分配和多重暴露的结果模型似乎过于复杂。鉴于这些挑战，双重鲁棒性的概念，在允许模型错误的情况下，是非常有价值的，然而在实际应用中并没有实现。本文通过提出新的鲁棒估计方法来解决这个问题，同时对治疗分配和结果模型进行鲁棒估计。我们提出了一种“序列模型双重鲁棒性”的解决方案，证明了当每个时间暴露都是双重鲁棒性的时，可以在多个时间点上实现双重鲁棒性。这种方法提高了高维环境下动态治疗效应估计的鲁棒性和可靠性。
+
+    Estimating dynamic treatment effects is essential across various disciplines, offering nuanced insights into the time-dependent causal impact of interventions. However, this estimation presents challenges due to the "curse of dimensionality" and time-varying confounding, which can lead to biased estimates. Additionally, correctly specifying the growing number of treatment assignments and outcome models with multiple exposures seems overly complex. Given these challenges, the concept of double robustness, where model misspecification is permitted, is extremely valuable, yet unachieved in practical applications. This paper introduces a new approach by proposing novel, robust estimators for both treatment assignments and outcome models. We present a "sequential model double robust" solution, demonstrating that double robustness over multiple time points can be achieved when each time exposure is doubly robust. This approach improves the robustness and reliability of dynamic treatment effe
     
 
