@@ -2,67 +2,112 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Can LLMs Separate Instructions From Data? And What Do We Even Mean By That?](https://arxiv.org/abs/2403.06833) | 本研究提出了一种形式化的度量来量化指令与数据分离现象，以及一种可以从模型黑盒输出计算的经验变量，并引入了新数据集SEP，用于评估 |
-| [^2] | [SecGPT: An Execution Isolation Architecture for LLM-Based Systems](https://arxiv.org/abs/2403.04960) | 提出了一种面向LLM系统的执行隔离架构SecGPT，旨在解决第三方应用程序执行所引发的安全和隐私问题 |
-| [^3] | [Private Fine-tuning of Large Language Models with Zeroth-order Optimization.](http://arxiv.org/abs/2401.04343) | 引入了DP-ZO，一种通过私有化零阶优化来保护大型语言模型训练数据隐私的方法。 |
-| [^4] | [Theoretical guarantees on the best-of-n alignment policy.](http://arxiv.org/abs/2401.01879) | 该论文研究了对齐生成模型的最佳n对齐策略，并证明了之前文献中的某个分析表达式是错误的。研究者们提出了一个新的KL散度估计方法，并通过实验证明其有效性。 |
+| [^1] | [Benchmarking Large Language Models on Answering and Explaining Challenging Medical Questions](https://arxiv.org/abs/2402.18060) | 在回答医学问题方面，大型语言模型在处理具有挑战性的实际临床案例上的表现是关键，因此构建了两个结构化数据集进行评估。 |
+| [^2] | [Large Language Models are Advanced Anonymizers](https://arxiv.org/abs/2402.13846) | 大型语言模型在保护个人数据方面取得了重要进展，提出了一种基于对抗性LLM推断的匿名化框架。 |
+| [^3] | [Persona-DB: Efficient Large Language Model Personalization for Response Prediction with Collaborative Data Refinement](https://arxiv.org/abs/2402.11060) | 介绍了 Persona-DB，一个简单却有效的框架，通过层级构建过程和协同优化，改善了大规模语言模型个性化中数据库表示的泛化能力和检索效率。 |
+| [^4] | [Limits of Large Language Models in Debating Humans](https://arxiv.org/abs/2402.06049) | 大型语言模型在与人类辩论中的能力有限，尽管它们能够融入和促进人类的工作效率，但在辩论中的说服力较弱。在成为可行的辩手之前，LLMs需要进一步发展。 |
+| [^5] | [Do LLMs Dream of Ontologies?.](http://arxiv.org/abs/2401.14931) | 本文研究了通用预训练大型语言模型（LLMs）是否记忆了已知本体论的信息以及记忆的程度，结果显示LLMs部分地了解本体论的概念，记忆程度与其在Web上的流行程度成正比。 |
+| [^6] | [Large language models in bioinformatics: applications and perspectives.](http://arxiv.org/abs/2401.04155) | 本综述介绍了在生物信息学中使用的大型语言模型，如BERT和GPT，并重点探讨了它们在基因组学、转录组学、蛋白质组学、药物发现和单细胞分析等方面的应用。大型语言模型在解决生物信息学问题方面具有巨大潜力和前景。 |
+| [^7] | [A Survey on Knowledge Graphs for Healthcare: Resources, Applications, and Promises.](http://arxiv.org/abs/2306.04802) | 本论文综述了医疗知识图谱(HKGs)的构建流程、关键技术和利用方法以及现有资源，并深入探讨了HKG在各种医疗领域的变革性影响。 |
 
 # 详细
 
-[^1]: LLMs能够将指令与数据分离吗？我们具体指的是什么？
+[^1]: 在回答和解释具有挑战性的医学问题上对大型语言模型的基准测试
 
-    Can LLMs Separate Instructions From Data? And What Do We Even Mean By That?
+    Benchmarking Large Language Models on Answering and Explaining Challenging Medical Questions
 
-    [https://arxiv.org/abs/2403.06833](https://arxiv.org/abs/2403.06833)
+    [https://arxiv.org/abs/2402.18060](https://arxiv.org/abs/2402.18060)
 
-    本研究提出了一种形式化的度量来量化指令与数据分离现象，以及一种可以从模型黑盒输出计算的经验变量，并引入了新数据集SEP，用于评估
-
-    
-
-    arXiv:2403.06833v1 公告类型: 跨 针对大型语言模型（LLMs）进行调节指令的技术取得了突破性的成果，为许多实际应用打开了无数新可能。然而，LLMs缺乏其他计算机科学领域已建立为规范的基本安全特性，比如指令与数据之间的分离，导致它们发生故障或易受第三方操控和干扰（例如通过间接提示/命令注入）。更糟糕的是，迄今为止，甚至没有确切定义这种分离究竟意味着什么以及如何测试其违反情况。本研究旨在填补这一空白。我们引入了一个正式的指标来量化指令与数据分离现象，以及一个可以从模型的黑盒输出计算的经验变量。我们还介绍了一个新的数据集SEP（应该执行还是处理？），该数据集允许评估
-
-    arXiv:2403.06833v1 Announce Type: cross  Abstract: Instruction-tuned Large Language Models (LLMs) have achieved breakthrough results, opening countless new possibilities for many practical applications. However, LLMs lack elementary safety features that are established norms in other areas of computer science, such as the separation between instructions and data, causing them to malfunction or rendering them vulnerable to manipulation and interference by third parties e.g., via indirect prompt/command injection. Even worse, so far, there is not even an established definition of what precisely such a separation would mean and how its violation could be tested. In this work, we aim to close this gap. We introduce a formal measure to quantify the phenomenon of instruction-data separation as well as an empirical variant of the measure that can be computed from a model`s black-box outputs. We also introduce a new dataset, SEP (Should it be Executed or Processed?), which allows estimating th
-    
-[^2]: SecGPT：一种面向基于LLM系统的执行隔离架构
-
-    SecGPT: An Execution Isolation Architecture for LLM-Based Systems
-
-    [https://arxiv.org/abs/2403.04960](https://arxiv.org/abs/2403.04960)
-
-    提出了一种面向LLM系统的执行隔离架构SecGPT，旨在解决第三方应用程序执行所引发的安全和隐私问题
+    在回答医学问题方面，大型语言模型在处理具有挑战性的实际临床案例上的表现是关键，因此构建了两个结构化数据集进行评估。
 
     
 
-    大型语言模型（LLMs）被扩展为系统，如ChatGPT，已经开始支持第三方应用程序。这些LLM应用程序利用LLMs的事实上基于自然语言的自动执行范式：即，应用程序及其交互是用自然语言定义的，提供对用户数据的访问，并被允许自由地相互交互以及与系统互动。这些LLM应用程序生态系统类似于早期计算平台的设置，在那里应用程序和系统之间缺乏足够的隔离。由于第三方应用程序可能不可信，并且受自然语言界面的不精确性加剧，当前的设计会为用户带来安全和隐私风险。在本文中，我们提出了SecGPT，一种面向LLM系统的架构，旨在缓解由第三方应用程序执行引起的安全性和隐私问题。SecGPT的关键思想是隔离应用程序的执行和更多的预
+    LLMs在回答医学问题方面表现出色，例如通过医学执照考试。然而，大多数现有的基准测试依赖于委员会考试问题或一般医学问题，无法捕捉真实临床案例的复杂性。此外，缺乏答案的参考解释阻碍了对模型解释的评估，这对支持医生做出复杂的医疗决策至关重要。为解决这些挑战，我们构建了两个新数据集：JAMA临床挑战和Medbullets。JAMA临床挑战包含基于具有挑战性的临床案例的问题，而Medbullets包含类似USMLE Step 2&3风格的临床问题。两个数据集均以多项选择问题-回答任务的结构化形式呈现，每个问题都附有专家撰写的解释。我们使用各种提示在这两个数据集上评估了四个LLMs。实验表明
 
-    arXiv:2403.04960v1 Announce Type: cross  Abstract: Large language models (LLMs) extended as systems, such as ChatGPT, have begun supporting third-party applications. These LLM apps leverage the de facto natural language-based automated execution paradigm of LLMs: that is, apps and their interactions are defined in natural language, provided access to user data, and allowed to freely interact with each other and the system. These LLM app ecosystems resemble the settings of earlier computing platforms, where there was insufficient isolation between apps and the system. Because third-party apps may not be trustworthy, and exacerbated by the imprecision of the natural language interfaces, the current designs pose security and privacy risks for users. In this paper, we propose SecGPT, an architecture for LLM-based systems that aims to mitigate the security and privacy issues that arise with the execution of third-party apps. SecGPT's key idea is to isolate the execution of apps and more pre
+    arXiv:2402.18060v1 Announce Type: new  Abstract: LLMs have demonstrated impressive performance in answering medical questions, such as passing medical licensing examinations. However, most existing benchmarks rely on board exam questions or general medical questions, falling short in capturing the complexity of realistic clinical cases. Moreover, the lack of reference explanations for answers hampers the evaluation of model explanations, which are crucial to supporting doctors in making complex medical decisions. To address these challenges, we construct two new datasets: JAMA Clinical Challenge and Medbullets. JAMA Clinical Challenge consists of questions based on challenging clinical cases, while Medbullets comprises USMLE Step 2&3 style clinical questions. Both datasets are structured as multiple-choice question-answering tasks, where each question is accompanied by an expert-written explanation. We evaluate four LLMs on the two datasets using various prompts. Experiments demonstrat
     
-[^3]: 私有零阶优化的大型语言模型的私有微调
+[^2]: 大型语言模型是先进的匿名化工具
 
-    Private Fine-tuning of Large Language Models with Zeroth-order Optimization. (arXiv:2401.04343v1 [cs.LG])
+    Large Language Models are Advanced Anonymizers
 
-    [http://arxiv.org/abs/2401.04343](http://arxiv.org/abs/2401.04343)
+    [https://arxiv.org/abs/2402.13846](https://arxiv.org/abs/2402.13846)
 
-    引入了DP-ZO，一种通过私有化零阶优化来保护大型语言模型训练数据隐私的方法。
-
-    
-
-    在私有数据集上对大型预训练模型进行微调可能会存在违反隐私的风险。差分隐私是一种通过强制算法稳定性来减轻隐私风险的框架。DP-SGD可以以保护隐私的方式训练具有私有数据的模型，但会带来性能损失和重大工程挑战。我们引入了DP-ZO，一种通过私有化零阶优化来保护训练数据隐私的大型语言模型微调方法。我们的方法设计的一个关键见解是，我们使用的零阶算法SPSA中的梯度方向始终是随机的，而仅依赖于私有数据的信息是步长，即一个标量。因此，我们只需要对标量步长进行隐私处理，这是存储效率高的方法。DP-ZO可以使用拉普拉斯噪声或高斯噪声来实现，在不同任务之间提供了隐私和效用之间的强大权衡。
-
-    Fine-tuning large pretrained models on private datasets may run the risk of violating privacy. Differential privacy is a framework for mitigating privacy risks by enforcing algorithmic stability. DP-SGD enables training models with private data in a privacy-preserving manner, but raises new obstacles in the form of performance loss and significant engineering challenges. We introduce DP-ZO, a new method for fine-tuning large language models that preserves the privacy of training data by privatizing zeroth-order optimization. A key insight into the design of our method is that the direction of the gradient in SPSA, the zeroth-order algorithm we use, is always random and the only information that depends on private data is the step size, i.e., a scalar. Therefore, we only need to privatize the scalar step size, which is memory-efficient. DP-ZO, which can be instantiated with either Laplace or Gaussian noise, provides a strong privacy-utility trade-off across different tasks, and model si
-    
-[^4]: 关于最佳n对齐策略的理论保证
-
-    Theoretical guarantees on the best-of-n alignment policy. (arXiv:2401.01879v1 [cs.LG])
-
-    [http://arxiv.org/abs/2401.01879](http://arxiv.org/abs/2401.01879)
-
-    该论文研究了对齐生成模型的最佳n对齐策略，并证明了之前文献中的某个分析表达式是错误的。研究者们提出了一个新的KL散度估计方法，并通过实验证明其有效性。
+    大型语言模型在保护个人数据方面取得了重要进展，提出了一种基于对抗性LLM推断的匿名化框架。
 
     
 
-    一个简单有效的生成模型对齐方法是最佳n对齐策略，该策略从一个基本策略中抽取n个样本，并根据奖励函数对它们进行排序，选择排名最高的样本。文献中常用的分析表达式声称最佳n对齐策略与基本策略之间的KL散度等于$\log (n) (n-1)/n$。我们证明了该论断的不正确性，并展示了它只是实际KL散度的一个上界。我们还研究了在不同情况下该上界的紧致性。最后，我们提出了一种新的KL散度估计方法，并通过几个例子的实验证明它能提供一个紧致的近似。
+    最近在隐私研究领域对大型语言模型的研究表明，它们在推断真实世界在线文本中的个人数据方面表现出接近人类水平的性能。随着模型能力的不断增强，现有的文本匿名化方法当前已经落后于监管要求和对抗威胁。这引出了一个问题：个人如何有效地保护他们在分享在线文本时的个人数据。在这项工作中，我们采取了两步来回答这个问题：首先，我们提出了一个新的设置，用于评估面对对抗性LLM的推断时的匿名化效果，从而允许自然地测量匿名化性能，同时纠正了以前指标的一些缺陷。然后，我们提出了基于LLM的对抗性匿名化框架，利用LLM的强大推断能力来指导我们的匿名化过程。在我们的实验评估中，我们展示了在真实世界中的匿名化实践。
 
-    A simple and effective method for the alignment of generative models is the best-of-$n$ policy, where $n$ samples are drawn from a base policy, and ranked based on a reward function, and the highest ranking one is selected. A commonly used analytical expression in the literature claims that the KL divergence between the best-of-$n$ policy and the base policy is equal to $\log (n) (n-1)/n.$ We disprove the validity of this claim, and show that it is an upper bound on the actual KL divergence. We also explore the tightness of this upper bound in different regimes. Finally, we propose a new estimator for the KL divergence and empirically show that it provides a tight approximation through a few examples.
+    arXiv:2402.13846v1 Announce Type: cross  Abstract: Recent work in privacy research on large language models has shown that they achieve near human-level performance at inferring personal data from real-world online texts. With consistently increasing model capabilities, existing text anonymization methods are currently lacking behind regulatory requirements and adversarial threats. This raises the question of how individuals can effectively protect their personal data in sharing online texts. In this work, we take two steps to answer this question: We first present a new setting for evaluating anonymizations in the face of adversarial LLMs inferences, allowing for a natural measurement of anonymization performance while remedying some of the shortcomings of previous metrics. We then present our LLM-based adversarial anonymization framework leveraging the strong inferential capabilities of LLMs to inform our anonymization procedure. In our experimental evaluation, we show on real-world 
+    
+[^3]: Persona-DB：用于响应预测的高效大规模语言模型个性化与协同数据优化
+
+    Persona-DB: Efficient Large Language Model Personalization for Response Prediction with Collaborative Data Refinement
+
+    [https://arxiv.org/abs/2402.11060](https://arxiv.org/abs/2402.11060)
+
+    介绍了 Persona-DB，一个简单却有效的框架，通过层级构建过程和协同优化，改善了大规模语言模型个性化中数据库表示的泛化能力和检索效率。
+
+    
+
+    随着对大型语言模型（LLMs）个性化交互需求的增加，需要开发能够准确快速识别用户意见和偏好的方法。检索增强作为一种有效策略出现，因为它可以适应大量用户而无需进行微调的成本。然而，现有研究主要集中在增强检索阶段，并对数据库表示的优化进行了有限的探索，这是个性化等任务的关键方面。在这项工作中，我们从一个新的角度研究了这个问题，着重于如何更有效地表示数据，以便在LLM定制的情境下更有效地进行检索。为了解决这一挑战，我们介绍了Persona-DB，这是一个简单而有效的框架，包括一个分层构建过程，以改善跨任务背景的泛化能力，并进行协同优化。
+
+    arXiv:2402.11060v1 Announce Type: cross  Abstract: The increasing demand for personalized interactions with large language models (LLMs) calls for the development of methodologies capable of accurately and efficiently identifying user opinions and preferences. Retrieval augmentation emerges as an effective strategy, as it can accommodate a vast number of users without the costs from fine-tuning. Existing research, however, has largely focused on enhancing the retrieval stage and devoted limited exploration toward optimizing the representation of the database, a crucial aspect for tasks such as personalization. In this work, we examine the problem from a novel angle, focusing on how data can be better represented for more efficient retrieval in the context of LLM customization. To tackle this challenge, we introduce Persona-DB, a simple yet effective framework consisting of a hierarchical construction process to improve generalization across task contexts and collaborative refinement to
+    
+[^4]: 大型语言模型在与人类辩论中的局限性
+
+    Limits of Large Language Models in Debating Humans
+
+    [https://arxiv.org/abs/2402.06049](https://arxiv.org/abs/2402.06049)
+
+    大型语言模型在与人类辩论中的能力有限，尽管它们能够融入和促进人类的工作效率，但在辩论中的说服力较弱。在成为可行的辩手之前，LLMs需要进一步发展。
+
+    
+
+    大型语言模型(LLMs)在与人类的互动中展现出了显著的潜力。随后，将它们作为人工代表和替代品进行社会学实验的潜在应用是一个令人激动的前景。但是这个想法有多可行呢？本文试图通过一项预先注册的研究来测试现阶段LLMs的局限性，该研究将真实的人类与扮演人类的LLM代理结合起来。本研究着重探讨辩论为基础的意见共识形成在三种环境下的情况：仅人类、代理和人类、仅代理。我们的目标是理解LLM代理对人类的影响，并评估它们在辩论方面的能力是否与人类相似。我们发现LLMs能够融入并促进人类的工作效率，但在辩论中的说服力较弱，最终行为与人类有所偏离。我们阐明了这些主要缺陷，并预计在成为可行的辩手之前，LLMs必须进一步发展。
+
+    Large Language Models (LLMs) have shown remarkable promise in their ability to interact proficiently with humans. Subsequently, their potential use as artificial confederates and surrogates in sociological experiments involving conversation is an exciting prospect. But how viable is this idea? This paper endeavors to test the limits of current-day LLMs with a pre-registered study integrating real people with LLM agents acting as people. The study focuses on debate-based opinion consensus formation in three environments: humans only, agents and humans, and agents only. Our goal is to understand how LLM agents influence humans, and how capable they are in debating like humans. We find that LLMs can blend in and facilitate human productivity but are less convincing in debate, with their behavior ultimately deviating from human's. We elucidate these primary failings and anticipate that LLMs must evolve further before being viable debaters.
+    
+[^5]: LLM是否能记忆本体论？
+
+    Do LLMs Dream of Ontologies?. (arXiv:2401.14931v1 [cs.CL])
+
+    [http://arxiv.org/abs/2401.14931](http://arxiv.org/abs/2401.14931)
+
+    本文研究了通用预训练大型语言模型（LLMs）是否记忆了已知本体论的信息以及记忆的程度，结果显示LLMs部分地了解本体论的概念，记忆程度与其在Web上的流行程度成正比。
+
+    
+
+    大型语言模型（LLMs）最近在自动文本理解和生成方面取得了革命性的进展。这些模型的性能依赖于底层神经网络体系结构的参数数量，这使得LLMs能够记忆训练过程中接触到的大量数据的一部分。本文研究了通用预训练LLMs是否记忆了已知本体论的信息以及记忆的程度。我们的结果表明，LLMs部分地了解本体论：它们可以记忆文本中提到的本体论概念，但其对概念的记忆程度似乎与其在Web上的流行程度成比例变化，因为Web是它们训练材料的主要来源。此外，我们提出了新的度量标准，通过测量不同提示重复、查询语言和确定度的输出一致性来估计LLMs对本体论信息的记忆程度。
+
+    Large language models (LLMs) have recently revolutionized automated text understanding and generation. The performance of these models relies on the high number of parameters of the underlying neural architectures, which allows LLMs to memorize part of the vast quantity of data seen during the training. This paper investigates whether and to what extent general-purpose pre-trained LLMs have memorized information from known ontologies. Our results show that LLMs partially know ontologies: they can, and do indeed, memorize concepts from ontologies mentioned in the text, but the level of memorization of their concepts seems to vary proportionally to their popularity on the Web, the primary source of their training material. We additionally propose new metrics to estimate the degree of memorization of ontological information in LLMs by measuring the consistency of the output produced across different prompt repetitions, query languages, and degrees of determinism.
+    
+[^6]: 生物信息学中的大型语言模型：应用与展望
+
+    Large language models in bioinformatics: applications and perspectives. (arXiv:2401.04155v1 [q-bio.QM])
+
+    [http://arxiv.org/abs/2401.04155](http://arxiv.org/abs/2401.04155)
+
+    本综述介绍了在生物信息学中使用的大型语言模型，如BERT和GPT，并重点探讨了它们在基因组学、转录组学、蛋白质组学、药物发现和单细胞分析等方面的应用。大型语言模型在解决生物信息学问题方面具有巨大潜力和前景。
+
+    
+
+    大型语言模型（LLMs）是一类基于深度学习的人工智能模型，在各种任务中表现出色，尤其在自然语言处理（NLP）中。大型语言模型通常由具有大量参数的人工神经网络组成，通过自监督或半监督学习，在大量无标签输入上进行训练。然而，它们在解决生物信息学问题方面的潜力甚至超过了在模拟人类语言方面的能力。在这篇综述中，我们将介绍在自然语言处理中使用的几个重要的大型语言模型，如BERT和GPT，并重点探讨大型语言模型在生物信息学中不同组学水平的应用，主要包括基因组学、转录组学、蛋白质组学、药物发现和单细胞分析方面的应用。最后，本综述总结了大型语言模型在解决生物信息学问题方面的潜力和前景。
+
+    Large language models (LLMs) are a class of artificial intelligence models based on deep learning, which have great performance in various tasks, especially in natural language processing (NLP). Large language models typically consist of artificial neural networks with numerous parameters, trained on large amounts of unlabeled input using self-supervised or semi-supervised learning. However, their potential for solving bioinformatics problems may even exceed their proficiency in modeling human language. In this review, we will present a summary of the prominent large language models used in natural language processing, such as BERT and GPT, and focus on exploring the applications of large language models at different omics levels in bioinformatics, mainly including applications of large language models in genomics, transcriptomics, proteomics, drug discovery and single cell analysis. Finally, this review summarizes the potential and prospects of large language models in solving bioinfo
+    
+[^7]: 医疗知识图谱综述：资源、应用和前景
+
+    A Survey on Knowledge Graphs for Healthcare: Resources, Applications, and Promises. (arXiv:2306.04802v1 [cs.AI])
+
+    [http://arxiv.org/abs/2306.04802](http://arxiv.org/abs/2306.04802)
+
+    本论文综述了医疗知识图谱(HKGs)的构建流程、关键技术和利用方法以及现有资源，并深入探讨了HKG在各种医疗领域的变革性影响。
+
+    
+
+    医疗知识图谱(HKGs)已成为组织医学知识的有结构且可解释的有为工具，提供了医学概念及其关系的全面视图。然而，数据异质性和覆盖范围有限等挑战仍然存在，强调了在HKG领域需要进一步研究的必要性。本综述是HKG的第一份综合概述。我们总结了HKG构建的流程和关键技术（即从头开始和通过集成），以及常见的利用方法（即基于模型和非基于模型）。为了为研究人员提供有价值的资源，我们根据它们捕获的数据类型和应用领域（该资源存储于https://github.com/lujiaying/Awesome-HealthCare-KnowledgeBase）组织了现有的HKG，并提供了相关的统计信息。在应用部分，我们深入探讨了HKG在各种医疗领域的变革性影响。
+
+    Healthcare knowledge graphs (HKGs) have emerged as a promising tool for organizing medical knowledge in a structured and interpretable way, which provides a comprehensive view of medical concepts and their relationships. However, challenges such as data heterogeneity and limited coverage remain, emphasizing the need for further research in the field of HKGs. This survey paper serves as the first comprehensive overview of HKGs. We summarize the pipeline and key techniques for HKG construction (i.e., from scratch and through integration), as well as the common utilization approaches (i.e., model-free and model-based). To provide researchers with valuable resources, we organize existing HKGs (The resource is available at https://github.com/lujiaying/Awesome-HealthCare-KnowledgeBase) based on the data types they capture and application domains, supplemented with pertinent statistical information. In the application section, we delve into the transformative impact of HKGs across various hea
     
 
