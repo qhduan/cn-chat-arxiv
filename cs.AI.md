@@ -2,217 +2,142 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Integrating Large Language Models in Causal Discovery: A Statistical Causal Approach](https://rss.arxiv.org/abs/2402.01454) | 本文提出了一种在因果发现中集成大型语言模型的方法，通过将统计因果提示与知识增强相结合，可以使统计因果发现结果接近真实情况并进一步改进结果。 |
-| [^2] | [Universal representations for financial transactional data: embracing local, global, and external contexts](https://arxiv.org/abs/2404.02047) | 提出了一个金融交易数据通用表示的学习框架，结合了本地、全局和外部语境，提出了新颖的生成模型和整合外部信息的方法，并在本地任务中表现出超越性能。 |
-| [^3] | [BirdSet: A Multi-Task Benchmark for Classification in Avian Bioacoustics](https://arxiv.org/abs/2403.10380) | 提出了BirdSet基准，用于鸟类生物声学中的分类任务，整合开源鸟类录音数据集合，全面评估模型性能和识别潜在不足。 |
-| [^4] | [DSEG-LIME -- Improving Image Explanation by Hierarchical Data-Driven Segmentation](https://arxiv.org/abs/2403.07733) | 通过引入数据驱动分割和层次分割程序，DSEG-LIME改进了图像解释能力，提高了图像分类的可解释性。 |
-| [^5] | [Large Language Models are Advanced Anonymizers](https://arxiv.org/abs/2402.13846) | 大型语言模型在保护个人数据方面取得了重要进展，提出了一种基于对抗性LLM推断的匿名化框架。 |
-| [^6] | [Persona-DB: Efficient Large Language Model Personalization for Response Prediction with Collaborative Data Refinement](https://arxiv.org/abs/2402.11060) | 介绍了 Persona-DB，一个简单却有效的框架，通过层级构建过程和协同优化，改善了大规模语言模型个性化中数据库表示的泛化能力和检索效率。 |
-| [^7] | [Function Aligned Regression: A Method Explicitly Learns Functional Derivatives from Data](https://arxiv.org/abs/2402.06104) | 该论文提出了一种名为FAR的方法，通过捕捉函数导数来更好、更高效地拟合底层真实函数。在合成数据集和八个真实世界任务中证明了该方法的有效性。 |
-| [^8] | [Limits of Large Language Models in Debating Humans](https://arxiv.org/abs/2402.06049) | 大型语言模型在与人类辩论中的能力有限，尽管它们能够融入和促进人类的工作效率，但在辩论中的说服力较弱。在成为可行的辩手之前，LLMs需要进一步发展。 |
-| [^9] | [Group Distributionally Robust Dataset Distillation with Risk Minimization](https://arxiv.org/abs/2402.04676) | 这项研究关注数据集蒸馏与其泛化能力的关系，尤其是在面对不常见的子组的样本时，如何确保模型在合成数据集上的训练可以表现良好。 |
-| [^10] | [Predictable Reinforcement Learning Dynamics through Entropy Rate Minimization](https://arxiv.org/abs/2311.18703) | 该论文提出了一种名为PA-RL的方法，通过最小化熵率来引导强化学习智能体展现可预测的行为。研究展示了如何利用平均替代奖励实现确定性策略，并在动态模型的基础上近似计算值函数。 |
-| [^11] | [Make a Donut: Hierarchical EMD-Space Planning for Zero-Shot Deformable Manipulation with Tools](https://arxiv.org/abs/2311.02787) | 引入了一种无需演示的分层规划方法，利用大型语言模型来解决复杂的长时间任务，为每个阶段提供工具名称和Python代码。 |
-| [^12] | [Do LLMs Dream of Ontologies?.](http://arxiv.org/abs/2401.14931) | 本文研究了通用预训练大型语言模型（LLMs）是否记忆了已知本体论的信息以及记忆的程度，结果显示LLMs部分地了解本体论的概念，记忆程度与其在Web上的流行程度成正比。 |
-| [^13] | [Towards the Vulnerability of Watermarking Artificial Intelligence Generated Content.](http://arxiv.org/abs/2310.07726) | 该研究探讨了将水印技术应用于人工智能生成内容的漏洞，并证明了现有的水印机制容易被对手破解。 |
-| [^14] | [A Survey on Knowledge Graphs for Healthcare: Resources, Applications, and Promises.](http://arxiv.org/abs/2306.04802) | 本论文综述了医疗知识图谱(HKGs)的构建流程、关键技术和利用方法以及现有资源，并深入探讨了HKG在各种医疗领域的变革性影响。 |
+| [^1] | [Nomic Embed: Training a Reproducible Long Context Text Embedder](https://rss.arxiv.org/abs/2402.01613) | Nomic Embed是第一个完全可复现、开源、开放权重、开放数据的8192上下文长度英文文本嵌入器，在短上下文和长上下文任务上优于OpenAI Ada-002和OpenAI text-embedding-3-small。 |
+| [^2] | [Towards Stable Machine Learning Model Retraining via Slowly Varying Sequences](https://arxiv.org/abs/2403.19871) | 通过混合整数优化算法，以保持一致的分析洞见为重点，在重新训练机器学习模型中实现比贪婪训练更强稳定性，同时在模型性能上有小幅、可控的牺牲。 |
+| [^3] | [People Attribute Purpose to Autonomous Vehicles When Explaining Their Behavior](https://arxiv.org/abs/2403.08828) | 人们会给自主车辆的行为赋予目的属性，并在生成解释和评估这些解释时表现出对目的论解释的倾向。 |
+| [^4] | [Better Understandings and Configurations in MaxSAT Local Search Solvers via Anytime Performance Analysis](https://arxiv.org/abs/2403.06568) | 通过任意性能分析显示出MaxSAT本地搜索求解器在不同时间预算下的性能优劣变化 |
+| [^5] | [Autoencoder-based General Purpose Representation Learning for Customer Embedding](https://arxiv.org/abs/2402.18164) | 设计了基于自动编码器的框架用于构建通用嵌入，展示简单模型在嵌入复杂表格数据时优于复杂模型，并将框架应用于生成表示AWS客户的嵌入，显著节省开发时间并观察到下游模型的改进。 |
+| [^6] | [IDENAS: Internal Dependency Exploration for Neural Architecture Search.](http://arxiv.org/abs/2310.17250) | IDENAS是一种集成神经架构搜索和特征选择的方法，通过探索内部依赖性来提高分类任务的性能。 |
+| [^7] | [CIDER: Category-Guided Intent Disentanglement for Accurate Personalized News Recommendation.](http://arxiv.org/abs/2310.09401) | CIDER是一种基于类别引导的个性化新闻推荐框架，通过意图分离和一致性的新闻表示来准确理解新闻文章的多个意图，并区分用户不同的后阅读偏好。 |
+| [^8] | [Large Linguistic Models: Analyzing theoretical linguistic abilities of LLMs.](http://arxiv.org/abs/2305.00948) | 本研究展示了大型语言模型(LLMs)在语言任务上性能不断提高，且首次展示了它们能够生成连贯和有效的语言数据分析。分析和评估它们的元语言能力有助于我们理解它们的一般能力并对语言学理论模型提供新的认识。 |
+| [^9] | [On the Interdependence of Reliance Behavior and Accuracy in AI-Assisted Decision-Making.](http://arxiv.org/abs/2304.08804) | 该论文分析了AI辅助决策中依赖行为和准确性之间的相互关系，并提出了一个视觉框架来更好地理解这种关系。该框架揭示了当人类在决策中过度依赖AI时，改善信任可能会降低准确性的有趣属性。 |
 
 # 详细
 
-[^1]: 在因果发现中集成大型语言模型: 一种统计因果方法
+[^1]: Nomic Embed：训练可复现的长上下文文本嵌入器
 
-    Integrating Large Language Models in Causal Discovery: A Statistical Causal Approach
+    Nomic Embed: Training a Reproducible Long Context Text Embedder
 
-    [https://rss.arxiv.org/abs/2402.01454](https://rss.arxiv.org/abs/2402.01454)
+    [https://rss.arxiv.org/abs/2402.01613](https://rss.arxiv.org/abs/2402.01613)
 
-    本文提出了一种在因果发现中集成大型语言模型的方法，通过将统计因果提示与知识增强相结合，可以使统计因果发现结果接近真实情况并进一步改进结果。
-
-    
-
-    在实际的统计因果发现（SCD）中，将领域专家知识作为约束嵌入到算法中被广泛接受，因为这对于创建一致有意义的因果模型是重要的，尽管识别背景知识的挑战被认可。为了克服这些挑战，本文提出了一种新的因果推断方法，即通过将LLM的“统计因果提示（SCP）”与SCD方法和基于知识的因果推断（KBCI）相结合，对SCD进行先验知识增强。实验证明，GPT-4可以使LLM-KBCI的输出与带有LLM-KBCI的先验知识的SCD结果接近真实情况，如果GPT-4经历了SCP，那么SCD的结果还可以进一步改善。而且，即使LLM不含有数据集的信息，LLM仍然可以通过其背景知识来改进SCD。
-
-    In practical statistical causal discovery (SCD), embedding domain expert knowledge as constraints into the algorithm is widely accepted as significant for creating consistent meaningful causal models, despite the recognized challenges in systematic acquisition of the background knowledge. To overcome these challenges, this paper proposes a novel methodology for causal inference, in which SCD methods and knowledge based causal inference (KBCI) with a large language model (LLM) are synthesized through "statistical causal prompting (SCP)" for LLMs and prior knowledge augmentation for SCD. Experiments have revealed that GPT-4 can cause the output of the LLM-KBCI and the SCD result with prior knowledge from LLM-KBCI to approach the ground truth, and that the SCD result can be further improved, if GPT-4 undergoes SCP. Furthermore, it has been clarified that an LLM can improve SCD with its background knowledge, even if the LLM does not contain information on the dataset. The proposed approach
-    
-[^2]: 金融交易数据的通用表示：融合本地、全局和外部语境
-
-    Universal representations for financial transactional data: embracing local, global, and external contexts
-
-    [https://arxiv.org/abs/2404.02047](https://arxiv.org/abs/2404.02047)
-
-    提出了一个金融交易数据通用表示的学习框架，结合了本地、全局和外部语境，提出了新颖的生成模型和整合外部信息的方法，并在本地任务中表现出超越性能。
+    Nomic Embed是第一个完全可复现、开源、开放权重、开放数据的8192上下文长度英文文本嵌入器，在短上下文和长上下文任务上优于OpenAI Ada-002和OpenAI text-embedding-3-small。
 
     
 
-    金融交易的有效处理对银行数据分析至关重要。然而，在这一领域中，大多数方法专注于为独立问题提供专门化解决方案，而不是构建适用于许多问题的通用表示。我们提出了一个表示学习框架，旨在解决各种企业挑战。我们还提出了考虑数据特定性的新颖生成模型，并提出了一种整合外部信息到客户表示的方式，借鉴其他客户行动的见解。最后，我们提供了一个基准，描述了全球范围内的表示质量，涉及整个交易历史；本地范围内，反映客户当前状态；动态范围内，捕捉表示随时间演变的情况。我们的生成方法在本地任务中表现出色，对于下一个MCC预测任务的ROC-AUC提升高达14％，对于dow...
+    本技术报告描述了nomic-embed-text-v1的训练，这是第一个完全可复现、开源、开放权重、开放数据的8192上下文长度英文文本嵌入模型，在短上下文和长上下文任务上均优于OpenAI Ada-002和OpenAI text-embedding-3-small。我们在Apache 2许可下发布了训练代码和模型权重。与其他开源模型相比，我们还发布了一个包含2.35亿个策划文本对的训练数据加载器，可以完全复现nomic-embed-text-v1。你可以在https://github.com/nomic-ai/contrastors找到模型的代码和数据。
 
-    arXiv:2404.02047v1 Announce Type: cross  Abstract: Effective processing of financial transactions is essential for banking data analysis. However, in this domain, most methods focus on specialized solutions to stand-alone problems instead of constructing universal representations suitable for many problems. We present a representation learning framework that addresses diverse business challenges. We also suggest novel generative models that account for data specifics, and a way to integrate external information into a client's representation, leveraging insights from other customers' actions. Finally, we offer a benchmark, describing representation quality globally, concerning the entire transaction history; locally, reflecting the client's current state; and dynamically, capturing representation evolution over time. Our generative approach demonstrates superior performance in local tasks, with an increase in ROC-AUC of up to 14\% for the next MCC prediction task and up to 46\% for dow
+    This technical report describes the training of nomic-embed-text-v1, the first fully reproducible, open-source, open-weights, open-data, 8192 context length English text embedding model that outperforms both OpenAI Ada-002 and OpenAI text-embedding-3-small on short and long-context tasks. We release the training code and model weights under an Apache 2 license. In contrast with other open-source models, we release a training data loader with 235 million curated text pairs that allows for the full replication of nomic-embed-text-v1. You can find code and data to replicate the model at https://github.com/nomic-ai/contrastors
     
-[^3]: BirdSet：鸟类生物声学分类的多任务基准
+[^2]: 通过缓慢变化的序列实现稳定的机器学习模型重新训练
 
-    BirdSet: A Multi-Task Benchmark for Classification in Avian Bioacoustics
+    Towards Stable Machine Learning Model Retraining via Slowly Varying Sequences
 
-    [https://arxiv.org/abs/2403.10380](https://arxiv.org/abs/2403.10380)
+    [https://arxiv.org/abs/2403.19871](https://arxiv.org/abs/2403.19871)
 
-    提出了BirdSet基准，用于鸟类生物声学中的分类任务，整合开源鸟类录音数据集合，全面评估模型性能和识别潜在不足。
-
-    
-
-    深度学习模型已经成为鸟类生物声学领域诊断环境健康和生物多样性的强大工具，但研究中存在的不一致性给这一领域的进展带来了显著挑战。我们提出了BirdSet基准，一个统一的框架，综合研究努力，以全面分类鸟类鸣叫声。BirdSet将开源鸟类录音整合到一个精心策划的数据集合中，提供对模型性能的深入理解，并识别跨不同研究的潜在不足之处。
-
-    arXiv:2403.10380v1 Announce Type: cross  Abstract: Deep learning (DL) models have emerged as a powerful tool in avian bioacoustics to diagnose environmental health and biodiversity. However, inconsistencies in research pose notable challenges hindering progress in this domain. Reliable DL models need to analyze bird calls flexibly across various species and environments to fully harness the potential of bioacoustics in a cost-effective passive acoustic monitoring scenario. Data fragmentation and opacity across studies complicate a comprehensive evaluation of general model performance. To overcome these challenges, we present the BirdSet benchmark, a unified framework consolidating research efforts with a holistic approach for classifying bird vocalizations in avian bioacoustics. BirdSet harmonizes open-source bird recordings into a curated dataset collection. This unified approach provides an in-depth understanding of model performance and identifies potential shortcomings across diffe
-    
-[^4]: DSEG-LIME -- 通过层次化数据驱动分割提升图像解释能力
-
-    DSEG-LIME -- Improving Image Explanation by Hierarchical Data-Driven Segmentation
-
-    [https://arxiv.org/abs/2403.07733](https://arxiv.org/abs/2403.07733)
-
-    通过引入数据驱动分割和层次分割程序，DSEG-LIME改进了图像解释能力，提高了图像分类的可解释性。
+    通过混合整数优化算法，以保持一致的分析洞见为重点，在重新训练机器学习模型中实现比贪婪训练更强稳定性，同时在模型性能上有小幅、可控的牺牲。
 
     
 
-    可解释的人工智能在揭示复杂机器学习模型的决策过程中至关重要。LIME (Local Interpretable Model-agnostic Explanations) 是一个广为人知的用于图像分析的XAI框架。它利用图像分割来创建特征以识别相关的分类区域。然而，较差的分割可能会影响解释的一致性并削弱各个区域的重要性，从而影响整体的可解释性。针对这些挑战，我们引入了DSEG-LIME (Data-Driven Segmentation LIME)，具有: i) 用于生成人类可识别特征的数据驱动分割, 和 ii) 通过组合实现的层次分割程序。我们在预训练模型上使用来自ImageNet数据集的图像对DSEG-LIME进行基准测试-这些情景不包含特定领域的知识。分析包括使用已建立的XAI指标进行定量评估，以及进一步的定性评估。
+    重新训练机器学习模型仍然是实际机器学习模型部署的重要任务。现有方法主要关注贪婪方法，以找到表现最佳的模型，而不考虑通过不同的重新训练演变来保持训练模型结构的稳定性。在这项研究中，我们开发了一种混合整数优化算法，全面考虑了通过不同的数据批次更新重新训练机器学习模型的问题。我们的方法侧重于保留一致的分析洞见 - 这对于模型可解释性、实施简易性和与用户建立信任至关重要 - 通过使用可以直接纳入优化问题的自定义定义的距离度量。重要的是，我们的方法在真实的生产案例研究中表现出比贪婪训练模型更强的稳定性，同时在模型性能上有小幅、可控的牺牲。
 
-    arXiv:2403.07733v1 Announce Type: cross  Abstract: Explainable Artificial Intelligence is critical in unraveling decision-making processes in complex machine learning models. LIME (Local Interpretable Model-agnostic Explanations) is a well-known XAI framework for image analysis. It utilizes image segmentation to create features to identify relevant areas for classification. Consequently, poor segmentation can compromise the consistency of the explanation and undermine the importance of the segments, affecting the overall interpretability. Addressing these challenges, we introduce DSEG-LIME (Data-Driven Segmentation LIME), featuring: i) a data-driven segmentation for human-recognized feature generation, and ii) a hierarchical segmentation procedure through composition. We benchmark DSEG-LIME on pre-trained models with images from the ImageNet dataset - scenarios without domain-specific knowledge. The analysis includes a quantitative evaluation using established XAI metrics, complemented
+    arXiv:2403.19871v1 Announce Type: cross  Abstract: Retraining machine learning models remains an important task for real-world machine learning model deployment. Existing methods focus largely on greedy approaches to find the best-performing model without considering the stability of trained model structures across different retraining evolutions. In this study, we develop a mixed integer optimization algorithm that holistically considers the problem of retraining machine learning models across different data batch updates. Our method focuses on retaining consistent analytical insights - which is important to model interpretability, ease of implementation, and fostering trust with users - by using custom-defined distance metrics that can be directly incorporated into the optimization problem. Importantly, our method shows stronger stability than greedily trained models with a small, controllable sacrifice in model performance in a real-world production case study. Finally, important an
     
-[^5]: 大型语言模型是先进的匿名化工具
+[^3]: 当解释自主车辆的行为时，人们会给予其属性目的
 
-    Large Language Models are Advanced Anonymizers
+    People Attribute Purpose to Autonomous Vehicles When Explaining Their Behavior
 
-    [https://arxiv.org/abs/2402.13846](https://arxiv.org/abs/2402.13846)
+    [https://arxiv.org/abs/2403.08828](https://arxiv.org/abs/2403.08828)
 
-    大型语言模型在保护个人数据方面取得了重要进展，提出了一种基于对抗性LLM推断的匿名化框架。
-
-    
-
-    最近在隐私研究领域对大型语言模型的研究表明，它们在推断真实世界在线文本中的个人数据方面表现出接近人类水平的性能。随着模型能力的不断增强，现有的文本匿名化方法当前已经落后于监管要求和对抗威胁。这引出了一个问题：个人如何有效地保护他们在分享在线文本时的个人数据。在这项工作中，我们采取了两步来回答这个问题：首先，我们提出了一个新的设置，用于评估面对对抗性LLM的推断时的匿名化效果，从而允许自然地测量匿名化性能，同时纠正了以前指标的一些缺陷。然后，我们提出了基于LLM的对抗性匿名化框架，利用LLM的强大推断能力来指导我们的匿名化过程。在我们的实验评估中，我们展示了在真实世界中的匿名化实践。
-
-    arXiv:2402.13846v1 Announce Type: cross  Abstract: Recent work in privacy research on large language models has shown that they achieve near human-level performance at inferring personal data from real-world online texts. With consistently increasing model capabilities, existing text anonymization methods are currently lacking behind regulatory requirements and adversarial threats. This raises the question of how individuals can effectively protect their personal data in sharing online texts. In this work, we take two steps to answer this question: We first present a new setting for evaluating anonymizations in the face of adversarial LLMs inferences, allowing for a natural measurement of anonymization performance while remedying some of the shortcomings of previous metrics. We then present our LLM-based adversarial anonymization framework leveraging the strong inferential capabilities of LLMs to inform our anonymization procedure. In our experimental evaluation, we show on real-world 
-    
-[^6]: Persona-DB：用于响应预测的高效大规模语言模型个性化与协同数据优化
-
-    Persona-DB: Efficient Large Language Model Personalization for Response Prediction with Collaborative Data Refinement
-
-    [https://arxiv.org/abs/2402.11060](https://arxiv.org/abs/2402.11060)
-
-    介绍了 Persona-DB，一个简单却有效的框架，通过层级构建过程和协同优化，改善了大规模语言模型个性化中数据库表示的泛化能力和检索效率。
+    人们会给自主车辆的行为赋予目的属性，并在生成解释和评估这些解释时表现出对目的论解释的倾向。
 
     
 
-    随着对大型语言模型（LLMs）个性化交互需求的增加，需要开发能够准确快速识别用户意见和偏好的方法。检索增强作为一种有效策略出现，因为它可以适应大量用户而无需进行微调的成本。然而，现有研究主要集中在增强检索阶段，并对数据库表示的优化进行了有限的探索，这是个性化等任务的关键方面。在这项工作中，我们从一个新的角度研究了这个问题，着重于如何更有效地表示数据，以便在LLM定制的情境下更有效地进行检索。为了解决这一挑战，我们介绍了Persona-DB，这是一个简单而有效的框架，包括一个分层构建过程，以改善跨任务背景的泛化能力，并进行协同优化。
+    一款优秀的可解释人工智能系统的标志是用户可以理解并采取行动的解释。许多情况下，这需要系统提供可理解的因果或反事实解释。认知科学可以帮助我们理解用户可能期望的解释类型，以及在哪种格式下呈现这些解释。本文简要回顾了认知科学解释方面的相关文献，特别关注目的论，即以达到目的为解释决策的倾向。然后，我们报告了人们如何为自主车辆的行为产生解释以及他们如何评估这些解释的经验数据。在第一项调查中，参与者（n = 54）观看了道路场景的视频，并被要求为车辆的行为生成机械的、反事实的或目的论的言语解释。在第二项调查中，另一组参与者（n = 356）对这些进行评分。
 
-    arXiv:2402.11060v1 Announce Type: cross  Abstract: The increasing demand for personalized interactions with large language models (LLMs) calls for the development of methodologies capable of accurately and efficiently identifying user opinions and preferences. Retrieval augmentation emerges as an effective strategy, as it can accommodate a vast number of users without the costs from fine-tuning. Existing research, however, has largely focused on enhancing the retrieval stage and devoted limited exploration toward optimizing the representation of the database, a crucial aspect for tasks such as personalization. In this work, we examine the problem from a novel angle, focusing on how data can be better represented for more efficient retrieval in the context of LLM customization. To tackle this challenge, we introduce Persona-DB, a simple yet effective framework consisting of a hierarchical construction process to improve generalization across task contexts and collaborative refinement to
+    arXiv:2403.08828v1 Announce Type: cross  Abstract: A hallmark of a good XAI system is explanations that users can understand and act on. In many cases, this requires a system to offer causal or counterfactual explanations that are intelligible. Cognitive science can help us understand what kinds of explanations users might expect, and in which format to frame these explanations. We briefly review relevant literature from the cognitive science of explanation, particularly as it concerns teleology, the tendency to explain a decision in terms of the purpose it was meant to achieve. We then report empirical data on how people generate explanations for the behavior of autonomous vehicles, and how they evaluate these explanations. In a first survey, participants (n=54) were shown videos of a road scene and asked to generate either mechanistic, counterfactual, or teleological verbal explanations for a vehicle's actions. In the second survey, a different set of participants (n=356) rated these
     
-[^7]: 功能对齐回归：一种从数据中明确学习函数导数的方法
+[^4]: 通过任意性能分析更好地理解和配置MaxSAT本地搜索求解器
 
-    Function Aligned Regression: A Method Explicitly Learns Functional Derivatives from Data
+    Better Understandings and Configurations in MaxSAT Local Search Solvers via Anytime Performance Analysis
 
-    [https://arxiv.org/abs/2402.06104](https://arxiv.org/abs/2402.06104)
+    [https://arxiv.org/abs/2403.06568](https://arxiv.org/abs/2403.06568)
 
-    该论文提出了一种名为FAR的方法，通过捕捉函数导数来更好、更高效地拟合底层真实函数。在合成数据集和八个真实世界任务中证明了该方法的有效性。
-
-    
-
-    回归是机器学习中的一个基本任务，在过去几十年中引起了广泛关注。传统的回归方法主要通过使用损失函数来将模型预测与每个个体数据样本的真实值对齐，然而，我们发现这种方法可能导致在不同样本之间关系的预测不够优化。近期的研究工作引入了标签相似性信息来改进回归方法，但在完全捕捉底层真实函数的复杂性方面仍存在明显的差距。在本文中，我们提出了FAR（功能对齐回归）作为一种更好、更高效的解决方案，通过捕捉函数导数来拟合底层真实函数。我们在两个合成数据集和六个领域的八个大规模真实世界任务中验证了该方法的有效性。
-
-    Regression is a fundamental task in machine learning that has garnered extensive attention over the past decades. The conventional approach for regression involves employing loss functions that primarily concentrate on aligning model prediction with the ground truth for each individual data sample, which, as we show, can result in sub-optimal prediction of the relationships between the different samples. Recent research endeavors have introduced novel perspectives by incorporating label similarity information to regression. However, a notable gap persists in these approaches when it comes to fully capturing the intricacies of the underlying ground truth function. In this work, we propose FAR (Function Aligned Regression) as a arguably better and more efficient solution to fit the underlying function of ground truth by capturing functional derivatives. We demonstrate the effectiveness of the proposed method practically on 2 synthetic datasets and on 8 extensive real-world tasks from 6 b
-    
-[^8]: 大型语言模型在与人类辩论中的局限性
-
-    Limits of Large Language Models in Debating Humans
-
-    [https://arxiv.org/abs/2402.06049](https://arxiv.org/abs/2402.06049)
-
-    大型语言模型在与人类辩论中的能力有限，尽管它们能够融入和促进人类的工作效率，但在辩论中的说服力较弱。在成为可行的辩手之前，LLMs需要进一步发展。
+    通过任意性能分析显示出MaxSAT本地搜索求解器在不同时间预算下的性能优劣变化
 
     
 
-    大型语言模型(LLMs)在与人类的互动中展现出了显著的潜力。随后，将它们作为人工代表和替代品进行社会学实验的潜在应用是一个令人激动的前景。但是这个想法有多可行呢？本文试图通过一项预先注册的研究来测试现阶段LLMs的局限性，该研究将真实的人类与扮演人类的LLM代理结合起来。本研究着重探讨辩论为基础的意见共识形成在三种环境下的情况：仅人类、代理和人类、仅代理。我们的目标是理解LLM代理对人类的影响，并评估它们在辩论方面的能力是否与人类相似。我们发现LLMs能够融入并促进人类的工作效率，但在辩论中的说服力较弱，最终行为与人类有所偏离。我们阐明了这些主要缺陷，并预计在成为可行的辩手之前，LLMs必须进一步发展。
+    尽管已经提出了许多用于MaxSAT问题的求解器，并且诸如MaxSAT Evaluations之类的基准环境提供了一个平台，用于比较最先进的求解器，但现有的评估通常是基于在给定运行时间预算内获得的最佳解的质量来评估的。然而，仅考虑特定时间预算内最终获得的解可能会限制我们理解求解器在收敛过程中的行为。本文证明了经验累积分布函数可用于比较MaxSAT本地搜索求解器在多个问题实例和不同时间预算下的任意性能。评估揭示了求解器性能的差异，并显示出求解器的（不）优势随着不同运行时间的调整。这项工作还展示了定量和高方差的评估
 
-    Large Language Models (LLMs) have shown remarkable promise in their ability to interact proficiently with humans. Subsequently, their potential use as artificial confederates and surrogates in sociological experiments involving conversation is an exciting prospect. But how viable is this idea? This paper endeavors to test the limits of current-day LLMs with a pre-registered study integrating real people with LLM agents acting as people. The study focuses on debate-based opinion consensus formation in three environments: humans only, agents and humans, and agents only. Our goal is to understand how LLM agents influence humans, and how capable they are in debating like humans. We find that LLMs can blend in and facilitate human productivity but are less convincing in debate, with their behavior ultimately deviating from human's. We elucidate these primary failings and anticipate that LLMs must evolve further before being viable debaters.
+    arXiv:2403.06568v1 Announce Type: new  Abstract: Though numerous solvers have been proposed for the MaxSAT problem, and the benchmark environment such as MaxSAT Evaluations provides a platform for the comparison of the state-of-the-art solvers, existing assessments were usually evaluated based on the quality, e.g., fitness, of the best-found solutions obtained within a given running time budget. However, concerning solely the final obtained solutions regarding specific time budgets may restrict us from comprehending the behavior of the solvers along the convergence process. This paper demonstrates that Empirical Cumulative Distribution Functions can be used to compare MaxSAT local search solvers' anytime performance across multiple problem instances and various time budgets. The assessment reveals distinctions in solvers' performance and displays that the (dis)advantages of solvers adjust along different running times. This work also exhibits that the quantitative and high variance ass
     
-[^9]: 带风险最小化的分组分布鲁棒数据集蒸馏
+[^5]: 基于自动编码器的通用表示学习用于客户嵌入
 
-    Group Distributionally Robust Dataset Distillation with Risk Minimization
+    Autoencoder-based General Purpose Representation Learning for Customer Embedding
 
-    [https://arxiv.org/abs/2402.04676](https://arxiv.org/abs/2402.04676)
+    [https://arxiv.org/abs/2402.18164](https://arxiv.org/abs/2402.18164)
 
-    这项研究关注数据集蒸馏与其泛化能力的关系，尤其是在面对不常见的子组的样本时，如何确保模型在合成数据集上的训练可以表现良好。
-
-    
-
-    数据集蒸馏（DD）已成为一种广泛采用的技术，用于构建一个合成数据集，该数据集在捕捉训练数据集的基本信息方面起到重要作用，从而方便准确训练神经模型。其应用涵盖了转移学习、联邦学习和神经架构搜索等各个领域。构建合成数据的最流行方法依赖于使模型在合成数据集和训练数据集上的收敛性能相匹配。然而，目标是将训练数据集视为辅助，就像训练集是人口分布的近似替代品一样，而后者才是我们感兴趣的数据。尽管其受欢迎程度很高，但尚未探索的一个方面是DD与其泛化能力的关系，特别是跨不常见的子组。也就是说，当面对来自罕见子组的样本时，我们如何确保在合成数据集上训练的模型表现良好。
-
-    Dataset distillation (DD) has emerged as a widely adopted technique for crafting a synthetic dataset that captures the essential information of a training dataset, facilitating the training of accurate neural models. Its applications span various domains, including transfer learning, federated learning, and neural architecture search. The most popular methods for constructing the synthetic data rely on matching the convergence properties of training the model with the synthetic dataset and the training dataset. However, targeting the training dataset must be thought of as auxiliary in the same sense that the training set is an approximate substitute for the population distribution, and the latter is the data of interest. Yet despite its popularity, an aspect that remains unexplored is the relationship of DD to its generalization, particularly across uncommon subgroups. That is, how can we ensure that a model trained on the synthetic dataset performs well when faced with samples from re
-    
-[^10]: 通过熵率最小化实现可预测的强化学习动态
-
-    Predictable Reinforcement Learning Dynamics through Entropy Rate Minimization
-
-    [https://arxiv.org/abs/2311.18703](https://arxiv.org/abs/2311.18703)
-
-    该论文提出了一种名为PA-RL的方法，通过最小化熵率来引导强化学习智能体展现可预测的行为。研究展示了如何利用平均替代奖励实现确定性策略，并在动态模型的基础上近似计算值函数。
+    设计了基于自动编码器的框架用于构建通用嵌入，展示简单模型在嵌入复杂表格数据时优于复杂模型，并将框架应用于生成表示AWS客户的嵌入，显著节省开发时间并观察到下游模型的改进。
 
     
 
-    在强化学习中，智能体没有动机展示可预测的行为，通常通过策略熵正则化推动智能体在探索上随机化其行为。从人的角度来看，这使得强化学习智能体很难解释和预测；从安全角度来看，更难以进行形式化验证。我们提出了一种新的方法，称为可预测性感知强化学习（PA-RL），用于引导智能体展现可预测的行为，其利用状态序列熵率作为可预测性度量。我们展示了如何将熵率制定为平均奖励目标，并且由于其熵奖励函数依赖于策略，我们引入了一个动作相关的替代熵，以利用PG方法。我们证明了最小化平均替代奖励的确定性策略存在，并且最小化了实际熵率。我们还展示了如何在学习到的动态模型的基础上近似计算与值函数。
+    最近几年，利用数据的领域特定基础结构及其生成因素进行表示学习，在各种用例无关应用中取得成功。然而，表格数据的多样性和复杂性使得通过多维向量在潜在空间中表示这些结构具有挑战性。我们设计了一个基于自动编码器的框架用于构建通用嵌入，评估了不同自动编码器架构的性能，并展示了简单模型在嵌入高度复杂表格数据时优于复杂模型。我们将我们的框架应用于生成插拔式、丰富和匿名化的表示AWS客户的嵌入，可用于任何模型，节省开发时间高达45％，并观察到下游模型的显著改进。此外，我们提出了一种对于多层收缩自动编码器重构损失计算的重要改进。
 
-    In Reinforcement Learning (RL), agents have no incentive to exhibit predictable behaviors, and are often pushed (through e.g. policy entropy regularization) to randomize their actions in favor of exploration. From a human perspective, this makes RL agents hard to interpret and predict, and from a safety perspective, even harder to formally verify. We propose a novel method to induce predictable behavior in RL agents, referred to as Predictability-Aware RL (PA-RL), which employs the state sequence entropy rate as a predictability measure. We show how the entropy rate can be formulated as an average reward objective, and since its entropy reward function is policy-dependent, we introduce an action-dependent surrogate entropy enabling the use of PG methods. We prove that deterministic policies minimizing the average surrogate reward exist and also minimize the actual entropy rate, and show how, given a learned dynamical model, we are able to approximate the value function associated to th
+    arXiv:2402.18164v1 Announce Type: cross  Abstract: In recent years, exploiting the domain-specific underlying structure of data and its generative factors for representation learning has shown success in various use-case agnostic applications. However, the diversity and complexity of tabular data have made it challenging to represent these structures in a latent space through multi-dimensional vectors. We design an autoencoder-based framework for building general purpose embeddings, we assess the performance of different autoencoder architectures, and show simpler models outperform complex ones in embedding highly complex tabular data. We apply our framework to produce plug-and-play, rich, and anonymized embeddings representing AWS customers for usage in any model, saving up to 45% of development time, and observe significant improvements in downstream models. Moreover, we propose a significant improvement to the calculation of reconstruction loss for multi-layer contractive autoencode
     
-[^11]: 制作一个甜甜圈：用于零样本变形操纵的分层EMD空间规划与工具
+[^6]: IDENAS: 内部依赖性探索用于神经架构搜索
 
-    Make a Donut: Hierarchical EMD-Space Planning for Zero-Shot Deformable Manipulation with Tools
+    IDENAS: Internal Dependency Exploration for Neural Architecture Search. (arXiv:2310.17250v1 [cs.LG])
 
-    [https://arxiv.org/abs/2311.02787](https://arxiv.org/abs/2311.02787)
+    [http://arxiv.org/abs/2310.17250](http://arxiv.org/abs/2310.17250)
 
-    引入了一种无需演示的分层规划方法，利用大型语言模型来解决复杂的长时间任务，为每个阶段提供工具名称和Python代码。
-
-    
-
-    变形物体操纵是机器人领域中最迷人又最艰巨的挑战之一。虽然先前的技术主要依赖于通过演示学习潜在动态，通常表示为粒子或图像之一，但存在一个重要限制：获取适当的演示，特别是对于长时间任务，可能是困难的。此外，完全基于演示进行学习可能会阻碍模型超越演示任务的能力。在这项工作中，我们介绍了一种无需演示的分层规划方法，能够处理复杂的长时间任务而无需任何训练。我们利用大型语言模型（LLMs）来表达与指定任务对应的高层、阶段-by-阶段计划。对于每个单独阶段，LLM提供工具的名称和Python代码，以制作中间子目标点云。
-
-    arXiv:2311.02787v2 Announce Type: replace-cross  Abstract: Deformable object manipulation stands as one of the most captivating yet formidable challenges in robotics. While previous techniques have predominantly relied on learning latent dynamics through demonstrations, typically represented as either particles or images, there exists a pertinent limitation: acquiring suitable demonstrations, especially for long-horizon tasks, can be elusive. Moreover, basing learning entirely on demonstrations can hamper the model's ability to generalize beyond the demonstrated tasks. In this work, we introduce a demonstration-free hierarchical planning approach capable of tackling intricate long-horizon tasks without necessitating any training. We employ large language models (LLMs) to articulate a high-level, stage-by-stage plan corresponding to a specified task. For every individual stage, the LLM provides both the tool's name and the Python code to craft intermediate subgoal point clouds. With the
-    
-[^12]: LLM是否能记忆本体论？
-
-    Do LLMs Dream of Ontologies?. (arXiv:2401.14931v1 [cs.CL])
-
-    [http://arxiv.org/abs/2401.14931](http://arxiv.org/abs/2401.14931)
-
-    本文研究了通用预训练大型语言模型（LLMs）是否记忆了已知本体论的信息以及记忆的程度，结果显示LLMs部分地了解本体论的概念，记忆程度与其在Web上的流行程度成正比。
+    IDENAS是一种集成神经架构搜索和特征选择的方法，通过探索内部依赖性来提高分类任务的性能。
 
     
 
-    大型语言模型（LLMs）最近在自动文本理解和生成方面取得了革命性的进展。这些模型的性能依赖于底层神经网络体系结构的参数数量，这使得LLMs能够记忆训练过程中接触到的大量数据的一部分。本文研究了通用预训练LLMs是否记忆了已知本体论的信息以及记忆的程度。我们的结果表明，LLMs部分地了解本体论：它们可以记忆文本中提到的本体论概念，但其对概念的记忆程度似乎与其在Web上的流行程度成比例变化，因为Web是它们训练材料的主要来源。此外，我们提出了新的度量标准，通过测量不同提示重复、查询语言和确定度的输出一致性来估计LLMs对本体论信息的记忆程度。
+    机器学习是从不同数据集中提取有价值信息和进行各种预测的强大工具。传统算法依赖于明确定义的输入和输出变量，然而，在某些情况下，输入和输出变量之间的区别以及模型的底层关联（输入和输出）层是未知的。神经架构搜索（NAS）和特征选择已成为这些场景中的有希望的解决方案。该研究提出了IDENAS，一种基于内部依赖性的神经架构搜索方法，将NAS与特征选择相结合。该方法在涉及1D传感器和2D图像数据的分类问题中探索了完整的参数空间的内部依赖性。IDENAS采用了修改的编码器-解码器模型和顺序前向搜索（SFS）算法，将输入-输出配置搜索与嵌入式特征选择相结合。实验结果证明了IDENAS的优越性能。
 
-    Large language models (LLMs) have recently revolutionized automated text understanding and generation. The performance of these models relies on the high number of parameters of the underlying neural architectures, which allows LLMs to memorize part of the vast quantity of data seen during the training. This paper investigates whether and to what extent general-purpose pre-trained LLMs have memorized information from known ontologies. Our results show that LLMs partially know ontologies: they can, and do indeed, memorize concepts from ontologies mentioned in the text, but the level of memorization of their concepts seems to vary proportionally to their popularity on the Web, the primary source of their training material. We additionally propose new metrics to estimate the degree of memorization of ontological information in LLMs by measuring the consistency of the output produced across different prompt repetitions, query languages, and degrees of determinism.
+    Machine learning is a powerful tool for extracting valuable information and making various predictions from diverse datasets. Traditional algorithms rely on well-defined input and output variables however, there are scenarios where the distinction between the input and output variables and the underlying, associated (input and output) layers of the model, are unknown. Neural Architecture Search (NAS) and Feature Selection have emerged as promising solutions in such scenarios. This research proposes IDENAS, an Internal Dependency-based Exploration for Neural Architecture Search, integrating NAS with feature selection. The methodology explores internal dependencies in the complete parameter space for classification involving 1D sensor and 2D image data as well. IDENAS employs a modified encoder-decoder model and the Sequential Forward Search (SFS) algorithm, combining input-output configuration search with embedded feature selection. Experimental results demonstrate IDENASs superior perf
     
-[^13]: 对水印技术应用于人工智能生成内容的漏洞研究
+[^7]: CIDER: 基于类别引导的意图分离方法用于准确的个性化新闻推荐
 
-    Towards the Vulnerability of Watermarking Artificial Intelligence Generated Content. (arXiv:2310.07726v1 [cs.CV])
+    CIDER: Category-Guided Intent Disentanglement for Accurate Personalized News Recommendation. (arXiv:2310.09401v1 [cs.IR])
 
-    [http://arxiv.org/abs/2310.07726](http://arxiv.org/abs/2310.07726)
+    [http://arxiv.org/abs/2310.09401](http://arxiv.org/abs/2310.09401)
 
-    该研究探讨了将水印技术应用于人工智能生成内容的漏洞，并证明了现有的水印机制容易被对手破解。
-
-    
-
-    人工智能生成内容（AIGC）在社交媒体上越来越受欢迎，许多商业服务已经推出。这些服务利用先进的生成模型，如潜在扩散模型和大型语言模型，为用户生成创意内容（例如逼真的图像、流畅的句子）。对于此类生成内容的使用需要高度监管，因为服务提供商需要确保用户不违反使用政策（例如滥用商业化、生成和分发不安全的内容）。最近提出了许多水印技术，但是本文表明对手可以轻易破解这些水印机制。具体而言，我们考虑了两种可能的攻击方式：（1）水印去除：对手可以轻松地从生成内容中删除嵌入的水印，然后自由使用而不受服务提供商的限制；（2）水印伪造：对手可以创建非法的水印。
-
-    Artificial Intelligence Generated Content (AIGC) is gaining great popularity in social media, with many commercial services available. These services leverage advanced generative models, such as latent diffusion models and large language models, to generate creative content (e.g., realistic images, fluent sentences) for users. The usage of such generated content needs to be highly regulated, as the service providers need to ensure the users do not violate the usage policies (e.g., abuse for commercialization, generating and distributing unsafe content).  Numerous watermarking approaches have been proposed recently. However, in this paper, we show that an adversary can easily break these watermarking mechanisms. Specifically, we consider two possible attacks. (1) Watermark removal: the adversary can easily erase the embedded watermark from the generated content and then use it freely without the regulation of the service provider. (2) Watermark forge: the adversary can create illegal co
-    
-[^14]: 医疗知识图谱综述：资源、应用和前景
-
-    A Survey on Knowledge Graphs for Healthcare: Resources, Applications, and Promises. (arXiv:2306.04802v1 [cs.AI])
-
-    [http://arxiv.org/abs/2306.04802](http://arxiv.org/abs/2306.04802)
-
-    本论文综述了医疗知识图谱(HKGs)的构建流程、关键技术和利用方法以及现有资源，并深入探讨了HKG在各种医疗领域的变革性影响。
+    CIDER是一种基于类别引导的个性化新闻推荐框架，通过意图分离和一致性的新闻表示来准确理解新闻文章的多个意图，并区分用户不同的后阅读偏好。
 
     
 
-    医疗知识图谱(HKGs)已成为组织医学知识的有结构且可解释的有为工具，提供了医学概念及其关系的全面视图。然而，数据异质性和覆盖范围有限等挑战仍然存在，强调了在HKG领域需要进一步研究的必要性。本综述是HKG的第一份综合概述。我们总结了HKG构建的流程和关键技术（即从头开始和通过集成），以及常见的利用方法（即基于模型和非基于模型）。为了为研究人员提供有价值的资源，我们根据它们捕获的数据类型和应用领域（该资源存储于https://github.com/lujiaying/Awesome-HealthCare-KnowledgeBase）组织了现有的HKG，并提供了相关的统计信息。在应用部分，我们深入探讨了HKG在各种医疗领域的变革性影响。
+    个性化新闻推荐旨在帮助用户找到与其兴趣相符的新闻文章，这在缓解用户信息过载问题方面起到至关重要的作用。尽管许多最近的研究致力于改进用户和新闻的表示方法，但以下挑战很少被研究：（C1）如何准确理解一篇新闻文章中包含的多个意图？以及（C2）如何区分用户点击历史中对新闻文章有不同后阅读偏好的情况？为了同时解决这两个挑战，在本文中，我们提出了一种新的个性化新闻推荐框架（CIDER），它利用（1）基于类别引导的意图分离来解决（C1）和（2）基于一致性的新闻表示来解决（C2）。此外，我们将类别预测纳入CIDER的训练过程作为辅助任务，这提供了额外的监督信号，以增强意图分离。在两个真实数据集上进行了广泛的实验。
 
-    Healthcare knowledge graphs (HKGs) have emerged as a promising tool for organizing medical knowledge in a structured and interpretable way, which provides a comprehensive view of medical concepts and their relationships. However, challenges such as data heterogeneity and limited coverage remain, emphasizing the need for further research in the field of HKGs. This survey paper serves as the first comprehensive overview of HKGs. We summarize the pipeline and key techniques for HKG construction (i.e., from scratch and through integration), as well as the common utilization approaches (i.e., model-free and model-based). To provide researchers with valuable resources, we organize existing HKGs (The resource is available at https://github.com/lujiaying/Awesome-HealthCare-KnowledgeBase) based on the data types they capture and application domains, supplemented with pertinent statistical information. In the application section, we delve into the transformative impact of HKGs across various hea
+    Personalized news recommendation aims to assist users in finding news articles that align with their interests, which plays a pivotal role in mitigating users' information overload problem. Although many recent works have been studied for better user and news representations, the following challenges have been rarely studied: (C1) How to precisely comprehend a range of intents coupled within a news article? and (C2) How to differentiate news articles with varying post-read preferences in users' click history? To tackle both challenges together, in this paper, we propose a novel personalized news recommendation framework (CIDER) that employs (1) category-guided intent disentanglement for (C1) and (2) consistency-based news representation for (C2). Furthermore, we incorporate a category prediction into the training process of CIDER as an auxiliary task, which provides supplementary supervisory signals to enhance intent disentanglement. Extensive experiments on two real-world datasets rev
+    
+[^8]: 大型语言模型：分析LLM的理论语言能力
+
+    Large Linguistic Models: Analyzing theoretical linguistic abilities of LLMs. (arXiv:2305.00948v2 [cs.CL] UPDATED)
+
+    [http://arxiv.org/abs/2305.00948](http://arxiv.org/abs/2305.00948)
+
+    本研究展示了大型语言模型(LLMs)在语言任务上性能不断提高，且首次展示了它们能够生成连贯和有效的语言数据分析。分析和评估它们的元语言能力有助于我们理解它们的一般能力并对语言学理论模型提供新的认识。
+
+    
+
+    大型语言模型(LLMs)的性能最近已经提高到了能够在许多语言任务上表现良好的程度。我们在这里展示了，这些模型也可以生成连贯和有效的语言数据的形式分析，展示了大型语言模型对其元语言能力分析的巨大潜力。LLMs主要是通过文本形式的语言数据进行训练；分析和评估它们的元语言能力改进了我们对它们的一般能力的理解，并对语言学中的理论模型提供了新的认识。在本文中，我们通过专注于形式语言学的三个子领域：句法、音韵学和语义学，探究了GPT-4的元语言能力。我们提出了一个关于大型语言模型元语言分析的研究计划，提出了实验设计，提供了一般指导方针，讨论了限制，并为这个研究方向提供了未来的方向。这个研究还有助于揭示大型语言模型的潜在能力和理论模型的新视角。
+
+    The performance of large language models (LLMs) has recently improved to the point where the models can perform well on many language tasks. We show here that for the first time, the models can also generate coherent and valid formal analyses of linguistic data and illustrate the vast potential of large language models for analyses of their metalinguistic abilities. LLMs are primarily trained on language data in the form of text; analyzing and evaluating their metalinguistic abilities improves our understanding of their general capabilities and sheds new light on theoretical models in linguistics. In this paper, we probe into GPT-4's metalinguistic capabilities by focusing on three subfields of formal linguistics: syntax, phonology, and semantics. We outline a research program for metalinguistic analyses of large language models, propose experimental designs, provide general guidelines, discuss limitations, and offer future directions for this line of research. This line of inquiry als
+    
+[^9]: 关于AI辅助决策中依赖行为与准确性的相互关系
+
+    On the Interdependence of Reliance Behavior and Accuracy in AI-Assisted Decision-Making. (arXiv:2304.08804v1 [cs.HC])
+
+    [http://arxiv.org/abs/2304.08804](http://arxiv.org/abs/2304.08804)
+
+    该论文分析了AI辅助决策中依赖行为和准确性之间的相互关系，并提出了一个视觉框架来更好地理解这种关系。该框架揭示了当人类在决策中过度依赖AI时，改善信任可能会降低准确性的有趣属性。
+
+    
+
+    在AI辅助决策中，将人类置于决策环路中央的主要承诺是，他们应该能够通过符合其正确的和覆盖其错误的建议来补充AI系统。然而实践中，我们经常看到人类倾向于过度或不足地依赖AI建议，这意味着他们要么依从错误的建议，要么覆盖正确的建议。这种依赖行为对决策准确性有害。在这项工作中，我们阐述并分析了在AI辅助决策中依赖行为和准确性之间的相互关系，这在以前的工作中很大程度上被忽视了。我们还提出了一个视觉框架，使这种相互关系更加具体化。该框架帮助我们解释和比较实证研究结果，并获得对AI辅助决策干预（例如解释）影响的细致理解。最后，我们从框架中推出了几个有趣的属性：（i）当人类不足地依赖AI建议时，改善信任将显着提高准确性，但在他们过度依赖时，信任的改善却可能降低准确性。
+
+    In AI-assisted decision-making, a central promise of putting a human in the loop is that they should be able to complement the AI system by adhering to its correct and overriding its mistaken recommendations. In practice, however, we often see that humans tend to over- or under-rely on AI recommendations, meaning that they either adhere to wrong or override correct recommendations. Such reliance behavior is detrimental to decision-making accuracy. In this work, we articulate and analyze the interdependence between reliance behavior and accuracy in AI-assisted decision-making, which has been largely neglected in prior work. We also propose a visual framework to make this interdependence more tangible. This framework helps us interpret and compare empirical findings, as well as obtain a nuanced understanding of the effects of interventions (e.g., explanations) in AI-assisted decision-making. Finally, we infer several interesting properties from the framework: (i) when humans under-rely o
     
 
