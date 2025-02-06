@@ -2,52 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Fisher-Rao Gradient Flows of Linear Programs and State-Action Natural Policy Gradients](https://arxiv.org/abs/2403.19448) | 研究了基于Fisher信息矩阵的自然梯度方法在线性规划中的应用，展示了线性收敛性，提出了改进现有结果的熵正则化误差估计，并对扰动的Fisher-Rao梯度流和自然梯度流的次线性收敛性进行了研究。 |
-| [^2] | [Pseudo-Bayesian Optimization.](http://arxiv.org/abs/2310.09766) | 本文提出了伪贝叶斯优化，并通过研究最小要求的公理框架，构建了能确保黑盒优化收敛性的算法。 |
-| [^3] | [Broadcasting in random recursive dags.](http://arxiv.org/abs/2306.01727) | 该论文研究了一个均匀的$k$-dag广播模型，确定了与$p$和$k$有关的阈值，并讨论了大多数规则的误差率。 |
+| [^1] | [Transformers Provably Learn Feature-Position Correlations in Masked Image Modeling](https://arxiv.org/abs/2403.02233) | 本文提供了关于使用MIM自监督预训练学习transformers的首个端到端理论，揭示了transformers如何学习到在具有空间结构的数据分布上突显特征-位置相关性的本地和多样化注意模式 |
+| [^2] | [Multi-objective Differentiable Neural Architecture Search](https://arxiv.org/abs/2402.18213) | 提出了一种新颖的NAS算法，可以在一个搜索运行中编码用户对性能和硬件指标之间的权衡偏好，生成精心选择的多设备架构。 |
+| [^3] | [Sparse Linear Regression and Lattice Problems](https://arxiv.org/abs/2402.14645) | 本文提供了关于稀疏线性回归在所有高效算法的平均情况困难性的证据，假设格问题的最坏情况困难性。 |
 
 # 详细
 
-[^1]: Fisher-Rao线性规划和状态-动作自然策略梯度的梯度流
+[^1]: Transformers在Masked Image Modeling中能够证明学习特征-位置相关性
 
-    Fisher-Rao Gradient Flows of Linear Programs and State-Action Natural Policy Gradients
+    Transformers Provably Learn Feature-Position Correlations in Masked Image Modeling
 
-    [https://arxiv.org/abs/2403.19448](https://arxiv.org/abs/2403.19448)
+    [https://arxiv.org/abs/2403.02233](https://arxiv.org/abs/2403.02233)
 
-    研究了基于Fisher信息矩阵的自然梯度方法在线性规划中的应用，展示了线性收敛性，提出了改进现有结果的熵正则化误差估计，并对扰动的Fisher-Rao梯度流和自然梯度流的次线性收敛性进行了研究。
-
-    
-
-    Kakade的自然策略梯度方法近年来得到广泛研究，表明在有或无正则化的情况下具有线性收敛性。我们研究了另一种基于状态-动作分布的Fisher信息矩阵的自然梯度方法，但在理论方面接受度较低。在这里，状态-动作分布在状态-动作多面体内遵循Fisher-Rao梯度流，相对于线性势。因此，我们更全面地研究线性规划的Fisher-Rao梯度流，并显示了线性收敛性，其速率取决于线性规划的几何特性。换句话说，这提供了线性规划的熵正则化引起的误差估计，这改进了现有结果。我们拓展了这些结果，并展示了对扰动的Fisher-Rao梯度流和自然梯度流的次线性收敛性，直到逼近误差。
-
-    arXiv:2403.19448v1 Announce Type: cross  Abstract: Kakade's natural policy gradient method has been studied extensively in the last years showing linear convergence with and without regularization. We study another natural gradient method which is based on the Fisher information matrix of the state-action distributions and has received little attention from the theoretical side. Here, the state-action distributions follow the Fisher-Rao gradient flow inside the state-action polytope with respect to a linear potential. Therefore, we study Fisher-Rao gradient flows of linear programs more generally and show linear convergence with a rate that depends on the geometry of the linear program. Equivalently, this yields an estimate on the error induced by entropic regularization of the linear program which improves existing results. We extend these results and show sublinear convergence for perturbed Fisher-Rao gradient flows and natural gradient flows up to an approximation error. In particul
-    
-[^2]: 伪贝叶斯优化
-
-    Pseudo-Bayesian Optimization. (arXiv:2310.09766v1 [stat.ML])
-
-    [http://arxiv.org/abs/2310.09766](http://arxiv.org/abs/2310.09766)
-
-    本文提出了伪贝叶斯优化，并通过研究最小要求的公理框架，构建了能确保黑盒优化收敛性的算法。
+    本文提供了关于使用MIM自监督预训练学习transformers的首个端到端理论，揭示了transformers如何学习到在具有空间结构的数据分布上突显特征-位置相关性的本地和多样化注意模式
 
     
 
-    贝叶斯优化是一种优化昂贵黑盒函数的流行方法。其关键思想是使用一个替代模型来近似目标，并且重要的是量化相关的不确定性，从而实现探索和开发之间的平衡的顺序搜索。高斯过程(GP)一直是替代模型的首选，因为它具有贝叶斯的不确定性量化能力和建模灵活性。然而，它的挑战也引发了一系列收敛性更显得不明显的备选方案。在本文中，我们通过研究引出最小要求的公理框架来确保黑盒优化的收敛性，以应用于除了GP相关方法之外的情况。此外，我们利用我们的框架中的设计自由，我们称之为伪贝叶斯优化，来构建经验上更优的算法。特别地，我们展示了如何使用简单的局部回归和一个适应问题特性的代理模型来实现这一目标。
+    Masked image modeling (MIM)是一种新兴的自监督视觉预训练方法，它从未屏蔽的图像中预测随机屏蔽的补丁。然而，对于基于transformers的MIM的理论理解相当有限。本文提供了有关使用MIM自监督预训练学习一层transformers的首个端到端理论。我们提出了transformers如何学习到在具有空间结构的数据分布上突显特征-位置相关性的本地和多样化注意模式的理论机制。
 
-    Bayesian Optimization is a popular approach for optimizing expensive black-box functions. Its key idea is to use a surrogate model to approximate the objective and, importantly, quantify the associated uncertainty that allows a sequential search of query points that balance exploitation-exploration. Gaussian process (GP) has been a primary candidate for the surrogate model, thanks to its Bayesian-principled uncertainty quantification power and modeling flexibility. However, its challenges have also spurred an array of alternatives whose convergence properties could be more opaque. Motivated by these, we study in this paper an axiomatic framework that elicits the minimal requirements to guarantee black-box optimization convergence that could apply beyond GP-related methods. Moreover, we leverage the design freedom in our framework, which we call Pseudo-Bayesian Optimization, to construct empirically superior algorithms. In particular, we show how using simple local regression, and a sui
+    arXiv:2403.02233v1 Announce Type: new  Abstract: Masked image modeling (MIM), which predicts randomly masked patches from unmasked ones, has emerged as a promising approach in self-supervised vision pretraining. However, the theoretical understanding of MIM is rather limited, especially with the foundational architecture of transformers. In this paper, to the best of our knowledge, we provide the first end-to-end theory of learning one-layer transformers with softmax attention in MIM self-supervised pretraining. On the conceptual side, we posit a theoretical mechanism of how transformers, pretrained with MIM, produce empirically observed local and diverse attention patterns on data distributions with spatial structures that highlight feature-position correlations. On the technical side, our end-to-end analysis of the training dynamics of softmax-based transformers accommodates both input and position embeddings simultaneously, which is developed based on a novel approach to track the i
     
-[^3]: 在随机递归有向无环图中的广播
+[^2]: 多目标可微神经架构搜索
 
-    Broadcasting in random recursive dags. (arXiv:2306.01727v1 [stat.ML])
+    Multi-objective Differentiable Neural Architecture Search
 
-    [http://arxiv.org/abs/2306.01727](http://arxiv.org/abs/2306.01727)
+    [https://arxiv.org/abs/2402.18213](https://arxiv.org/abs/2402.18213)
 
-    该论文研究了一个均匀的$k$-dag广播模型，确定了与$p$和$k$有关的阈值，并讨论了大多数规则的误差率。
+    提出了一种新颖的NAS算法，可以在一个搜索运行中编码用户对性能和硬件指标之间的权衡偏好，生成精心选择的多设备架构。
 
     
 
-    一个均匀的$k$-dag通过从现有节点中均匀随机选择$k$个父节点来推广均匀的随机递归树。它以$k$个“根”开始。每个$k$个根节点都被分配一个位。这些位通过一个嘈杂的信道传播。每个父节点的位都以概率$p$发生变化，并进行大多数表决。当所有节点都接收到它们的位后，$k$-dag被显示，不识别根节点。目标是估计所有根节点中的大多数位。我们确定了$p$的阈值，作为一个关于$k$的函数，使得所有节点的大多数规则产生错误$c+o(1)$的概率小于$1/2$。在阈值以上，大多数规则的错误概率为$1/2+o(1)$。
+    多目标优化（MOO）中的Pareto前沿轮廓剖析是具有挑战性的，尤其是在像神经网络训练这样的昂贵目标中。 相对于传统的NAS方法，我们提出了一种新颖的NAS算法，该算法在一个搜索运行中编码用户对性能和硬件指标之间的权衡偏好，并生成精心选择的多设备架构。为此，我们通过一个超网络参数化跨多个设备和多个目标的联合架构分布，超网络可以根据硬件特征和偏好向量进行条件化，实现零次搜索。
 
-    A uniform $k$-{\sc dag} generalizes the uniform random recursive tree by picking $k$ parents uniformly at random from the existing nodes. It starts with $k$ ''roots''. Each of the $k$ roots is assigned a bit. These bits are propagated by a noisy channel. The parents' bits are flipped with probability $p$, and a majority vote is taken. When all nodes have received their bits, the $k$-{\sc dag} is shown without identifying the roots. The goal is to estimate the majority bit among the roots. We identify the threshold for $p$ as a function of $k$ below which the majority rule among all nodes yields an error $c+o(1)$ with $c<1/2$. Above the threshold the majority rule errs with probability $1/2+o(1)$.
+    arXiv:2402.18213v1 Announce Type: new  Abstract: Pareto front profiling in multi-objective optimization (MOO), i.e. finding a diverse set of Pareto optimal solutions, is challenging, especially with expensive objectives like neural network training. Typically, in MOO neural architecture search (NAS), we aim to balance performance and hardware metrics across devices. Prior NAS approaches simplify this task by incorporating hardware constraints into the objective function, but profiling the Pareto front necessitates a search for each constraint. In this work, we propose a novel NAS algorithm that encodes user preferences for the trade-off between performance and hardware metrics, and yields representative and diverse architectures across multiple devices in just one search run. To this end, we parameterize the joint architectural distribution across devices and multiple objectives via a hypernetwork that can be conditioned on hardware features and preference vectors, enabling zero-shot t
+    
+[^3]: 稀疏线性回归和格问题
+
+    Sparse Linear Regression and Lattice Problems
+
+    [https://arxiv.org/abs/2402.14645](https://arxiv.org/abs/2402.14645)
+
+    本文提供了关于稀疏线性回归在所有高效算法的平均情况困难性的证据，假设格问题的最坏情况困难性。
+
+    
+
+    稀疏线性回归（SLR）是统计学中一个研究良好的问题，其中给定设计矩阵 $X\in\mathbb{R}^{m\times n}$ 和响应向量 $y=X\theta^*+w$，其中 $\theta^*$ 是 $k$-稀疏向量（即，$\|\theta^*\|_0\leq k$），$w$ 是小的、任意的噪声，目标是找到一个 $k$-稀疏的 $\widehat{\theta} \in \mathbb{R}^n$，使得均方预测误差 $\frac{1}{m}\|X\widehat{\theta}-X\theta^*\|^2_2$ 最小化。虽然 $\ell_1$-松弛方法如基 Pursuit、Lasso 和 Dantzig 选择器在设计矩阵条件良好时解决了 SLR，但没有已知通用算法，也没有任何关于在所有高效算法的平均情况设置中的困难性的正式证据。
+
+    arXiv:2402.14645v1 Announce Type: new  Abstract: Sparse linear regression (SLR) is a well-studied problem in statistics where one is given a design matrix $X\in\mathbb{R}^{m\times n}$ and a response vector $y=X\theta^*+w$ for a $k$-sparse vector $\theta^*$ (that is, $\|\theta^*\|_0\leq k$) and small, arbitrary noise $w$, and the goal is to find a $k$-sparse $\widehat{\theta} \in \mathbb{R}^n$ that minimizes the mean squared prediction error $\frac{1}{m}\|X\widehat{\theta}-X\theta^*\|^2_2$. While $\ell_1$-relaxation methods such as basis pursuit, Lasso, and the Dantzig selector solve SLR when the design matrix is well-conditioned, no general algorithm is known, nor is there any formal evidence of hardness in an average-case setting with respect to all efficient algorithms.   We give evidence of average-case hardness of SLR w.r.t. all efficient algorithms assuming the worst-case hardness of lattice problems. Specifically, we give an instance-by-instance reduction from a variant of the bo
     
 
