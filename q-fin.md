@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Bundling Demand in K-12 Broadband Procurement](https://arxiv.org/abs/2402.07277) | 该研究评估了K-12学校在宽带互联网采购中通过捆绑需求的效果。研究发现，参与者的价格平均下降了三分之一，购买的宽带速度增加了六倍。参与学校节省的金额至少等于联邦政府的补贴金额。根据弱假设，参与学校获得了巨大的福利提升。 |
+| [^1] | [The long-term impact of (un)conditional cash transfers on labour market outcomes in Ecuador.](http://arxiv.org/abs/2309.17216) | 该研究评估了厄瓜多尔人类发展津贴对符合资格家庭子女在正式部门劳动力市场结果上的长期影响，并发现该津贴在暴露后约十年之后增加了正式雇佣率和劳动收入，从而抑制了贫困的代际传递。 |
 
 # 详细
 
-[^1]: K-12宽带采购中的需求捆绑效应
+[^1]: 厄瓜多尔（非）有条件现金转移对劳动力市场影响的长期影响
 
-    Bundling Demand in K-12 Broadband Procurement
+    The long-term impact of (un)conditional cash transfers on labour market outcomes in Ecuador. (arXiv:2309.17216v1 [econ.GN])
 
-    [https://arxiv.org/abs/2402.07277](https://arxiv.org/abs/2402.07277)
+    [http://arxiv.org/abs/2309.17216](http://arxiv.org/abs/2309.17216)
 
-    该研究评估了K-12学校在宽带互联网采购中通过捆绑需求的效果。研究发现，参与者的价格平均下降了三分之一，购买的宽带速度增加了六倍。参与学校节省的金额至少等于联邦政府的补贴金额。根据弱假设，参与学校获得了巨大的福利提升。
+    该研究评估了厄瓜多尔人类发展津贴对符合资格家庭子女在正式部门劳动力市场结果上的长期影响，并发现该津贴在暴露后约十年之后增加了正式雇佣率和劳动收入，从而抑制了贫困的代际传递。
 
     
 
-    我们评估了K-12学校通过捆绑需求获得宽带互联网的效果。2014年，新泽西州从分散的采购方式转变为将学校分为四个区域组合的新采购系统。采用事件研究方法，我们发现参与者的价格平均下降了三分之一，购买的宽带速度增加了六倍。我们对该计划导致的学校支出变化进行了界定，发现参与者节省的金额至少等于他们从联邦政府获得的"E-rate"补贴总额。在对需求进行弱假设的情况下，我们表明参与学校获得了巨大的福利提升。
+    尽管有条件现金转移在低收入和中等收入国家很受欢迎，但对其长期效果的证据仍然很少。本文评估了厄瓜多尔人类发展津贴对符合资格家庭子女在正式部门劳动力市场结果上的影响。这项津贴是最早的一种，其符合资格标准的执行力度较弱。通过回归不连续性设计的方法，我们发现这个计划在暴露后约十年之后增加了正式雇佣率和劳动收入，从而抑制了贫困的代际传递。我们根据以前的文献研究结果讨论可能的中介机制，并提供证据表明这个计划如何在中期促进了学校的持久性。
 
-    We evaluate the effects of bundling demand for broadband internet by K-12 schools. In 2014, New Jersey switched from decentralized procurements to a new procurement system that bundled schools into four regional groups. Using an event study approach, we find that, on average, prices for participants decreased by one-third, and broadband speed purchased increased sixfold. We bound the change in school expenditures due to the program and find that participants saved at least as much as their total "E-rate" subsidy from the federal government. Under weak assumptions on demand, we show that participating schools experienced large welfare gains.
+    Despite the popularity of conditional cash transfers in low- and middle-income countries, evidence on their long-term effects remains scarce. This paper assesses the impact of the Ecuador's Human Development Grant on the formal sector labour market outcomes of children in eligible households. This grant -- one of the first of its kind -- is characterised by weak enforcement of its eligibility criteria. By means of a regression discontinuity design, we find that this programme increased formal employment rates and labour income around a decade after exposure, thereby curbing the intergenerational transmission of poverty. We discuss possible mediating mechanisms based on findings from previous literature and, in particular, provide evidence on how the programme contributed to persistence in school in the medium run.
     
 

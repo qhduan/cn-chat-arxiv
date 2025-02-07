@@ -2,142 +2,157 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Ukrainian Texts Classification: Exploration of Cross-lingual Knowledge Transfer Approaches](https://arxiv.org/abs/2404.02043) | 乌克兰文本分类领域探索跨语言知识传递方法，利用最新的NLP技术，测试了在毒性分类、文体分类和自然语言推理任务上的最佳设置。 |
-| [^2] | [Diffusion on language model embeddings for protein sequence generation](https://arxiv.org/abs/2403.03726) | 使用DiMA模型，在蛋白语言模型嵌入进行扩散来生成氨基酸序列，比传统解决方案表现更好，并通过设计选择的影响来量化其优越性能。 |
-| [^3] | [ImgTrojan: Jailbreaking Vision-Language Models with ONE Image](https://arxiv.org/abs/2403.02910) | 本文提出了一种针对视觉-语言模型的新型越狱攻击，通过在训练数据中插入恶意文本提示，成功实施越狱攻击，并分析了有毒数据比率和可训练参数位置对攻击成功率的影响。 |
-| [^4] | [Causal Equal Protection as Algorithmic Fairness](https://arxiv.org/abs/2402.12062) | 本文提出了一种新的算法公平性原则——平等保护，其关键在于将错误分类的风险均等化，避免了许多对传统分类平等原则的反例。 |
-| [^5] | [One Graph Model for Cross-domain Dynamic Link Prediction](https://arxiv.org/abs/2402.02168) | DyExpert是一种用于跨域链接预测的动态图模型，通过明确建模历史演化过程并结合链接预测，它可以学习特定下游图的演化模式，并在各个领域上取得了最先进的性能。 |
-| [^6] | [PERP: Rethinking the Prune-Retrain Paradigm in the Era of LLMs](https://arxiv.org/abs/2312.15230) | 本研究中，通过仅更新少部分高度表达力的参数，我们挑战了全参数重新训练的做法，在修剪后恢复或甚至提升了性能。PERP方法显著减少了计算量和存储需求。 |
-| [^7] | [A Systematic Literature Review on Explainability for Machine/Deep Learning-based Software Engineering Research.](http://arxiv.org/abs/2401.14617) | 本文通过对机器/深度学习的软件工程领域中可解释性的系统文献综述，总结了XAI技术在软件工程中的应用情况，旨在提高AI模型的可解释性以解决实际部署中的不确定性和风险问题。 |
-| [^8] | [HetGPT: Harnessing the Power of Prompt Tuning in Pre-Trained Heterogeneous Graph Neural Networks.](http://arxiv.org/abs/2310.15318) | HetGPT是一种预训练异构图神经网络的方法，通过利用提示调整来解决预训练与下游任务之间的不匹配问题。 |
-| [^9] | [Certifying LLM Safety against Adversarial Prompting.](http://arxiv.org/abs/2309.02705) | 本研究提出了首个具有可验证安全保证的框架——消除和检查，用于对抗敌对提示。通过逐个消除标记并使用安全过滤器检查生成的子序列，确保任何敌对修改的有害输入提示都能被正确标识为有害。 |
+| [^1] | [Efficient Online Unlearning via Hessian-Free Recollection of Individual Data Statistics](https://arxiv.org/abs/2404.01712) | 通过提出的Hessian-free在线遗忘方法，实现了近乎瞬时的在线遗忘，仅需要进行矢量加法操作。 |
+| [^2] | [MA4DIV: Multi-Agent Reinforcement Learning for Search Result Diversification](https://arxiv.org/abs/2403.17421) | 引入了基于多智能体强化学习的MA4DIV方法，将搜索结果多样化建模为多个智能体之间的合作任务，直接优化多样性指标，如$\alpha$-NDCG，以实现高训练效率。 |
+| [^3] | [Collage Prompting: Budget-Friendly Visual Recognition with GPT-4V](https://arxiv.org/abs/2403.11468) | 通过引入Collage Prompting方法，我们实现了与GPT-4V合作的经济可行的视觉识别方法，通过优化图像排列顺序获得最大的识别准确性。 |
+| [^4] | [Partitioned Neural Network Training via Synthetic Intermediate Labels](https://arxiv.org/abs/2403.11204) | 该研究提出了一种通过将模型分区到不同GPU上，并生成合成中间标签来训练各个部分的方法，以缓解大规模神经网络训练中的内存和计算压力。 |
+| [^5] | [Robust Decision Aggregation with Adversarial Experts](https://arxiv.org/abs/2403.08222) | 论文考虑了在既有真实专家又有对抗性专家的情况下的二元决策聚合问题，提出了设计鲁棒聚合器以最小化遗憾的方法，并证明了当真实专家是对称的且对抗性专家不太多时，截尾均值是最优的。 |
+| [^6] | [EBBS: An Ensemble with Bi-Level Beam Search for Zero-Shot Machine Translation](https://arxiv.org/abs/2403.00144) | 提出了一种集成方法EBBS，配合新颖的双层束搜索算法，能够优于直接和通过第三语言进行的翻译，并实现知识蒸馏来提高推理效率。 |
+| [^7] | [A Survey on 3D Skeleton Based Person Re-Identification: Approaches, Designs, Challenges, and Future Directions.](http://arxiv.org/abs/2401.15296) | 本文通过对当前基于3D骨架的人员再识别方法、模型设计、挑战和未来方向的系统调研，填补了相关研究总结的空白。 |
+| [^8] | [Expressive Modeling Is Insufficient for Offline RL: A Tractable Inference Perspective.](http://arxiv.org/abs/2311.00094) | 本文指出，在离线强化学习任务中，除了表达性强的序列模型，可处理性也起着重要的作用。由于离线数据收集策略和环境动态的随机性，需要精确且高效地回答各种概率查询，以找到有奖励的动作。基于此，本文提出了Trifle（离线强化学习的可处理推理）方法，利用现代可处理概率模型来解决这个问题。 |
+| [^9] | [Layer-wise Feedback Propagation.](http://arxiv.org/abs/2308.12053) | 本文提出了一种名为“层级反馈传播（LFP）”的新型神经网络预测器训练方法，通过利用可解释性细化与层级相关性传播（LRP）相结合，根据每个连接对任务的贡献分配奖励，该方法克服了传统梯度下降方法存在的问题。对于各种模型和数据集，LFP取得了与梯度下降相当的性能。 |
+| [^10] | [Preserving Knowledge Invariance: Rethinking Robustness Evaluation of Open Information Extraction.](http://arxiv.org/abs/2305.13981) | 本文提出了第一个模拟评估开放式信息提取模型在真实世界中的基准测试，并通过判断模型在整个团体上的表现是否始终准确来评估模型的鲁棒性。 |
 
 # 详细
 
-[^1]: 乌克兰文本分类：跨语言知识传递方法的探索
+[^1]: 通过免Hessian重新整合个体数据统计实现高效在线遗忘
 
-    Ukrainian Texts Classification: Exploration of Cross-lingual Knowledge Transfer Approaches
+    Efficient Online Unlearning via Hessian-Free Recollection of Individual Data Statistics
 
-    [https://arxiv.org/abs/2404.02043](https://arxiv.org/abs/2404.02043)
+    [https://arxiv.org/abs/2404.01712](https://arxiv.org/abs/2404.01712)
 
-    乌克兰文本分类领域探索跨语言知识传递方法，利用最新的NLP技术，测试了在毒性分类、文体分类和自然语言推理任务上的最佳设置。
-
-    
-
-    虽然在自然语言处理文本分类领域存在大量标记数据集，但各种语言可用数据的不平衡问题依然显而易见。乌克兰语作为一种仍可从跨语言方法的持续完善中受益的语言。鉴于我们所了解，针对典型文本分类任务，乌克兰语语料库极度匮乏。在这项工作中，我们利用自然语言处理领域的最新进展，探索跨语言知识传递方法，避免手动数据整理：大型多语言编码器和翻译系统、LLMs，以及语言适配器。我们在三个文本分类任务上测试这些方法--毒性分类、文体分类和自然语言推理--提供了最佳设置的"配方"。
-
-    arXiv:2404.02043v1 Announce Type: cross  Abstract: Despite the extensive amount of labeled datasets in the NLP text classification field, the persistent imbalance in data availability across various languages remains evident. Ukrainian, in particular, stands as a language that still can benefit from the continued refinement of cross-lingual methodologies. Due to our knowledge, there is a tremendous lack of Ukrainian corpora for typical text classification tasks. In this work, we leverage the state-of-the-art advances in NLP, exploring cross-lingual knowledge transfer methods avoiding manual data curation: large multilingual encoders and translation systems, LLMs, and language adapters. We test the approaches on three text classification tasks -- toxicity classification, formality classification, and natural language inference -- providing the "recipe" for the optimal setups.
-    
-[^2]: 蛋白质序列生成的语言模型嵌入扩散
-
-    Diffusion on language model embeddings for protein sequence generation
-
-    [https://arxiv.org/abs/2403.03726](https://arxiv.org/abs/2403.03726)
-
-    使用DiMA模型，在蛋白语言模型嵌入进行扩散来生成氨基酸序列，比传统解决方案表现更好，并通过设计选择的影响来量化其优越性能。
+    通过提出的Hessian-free在线遗忘方法，实现了近乎瞬时的在线遗忘，仅需要进行矢量加法操作。
 
     
 
-    蛋白设计需要对蛋白质宇宙固有复杂性的深入了解。尽管许多工作倾向于有条件的生成或专注于特定蛋白质家族，但无条件生成的基础任务仍未得到充分探索和重视。在这里，我们探索这个关键领域，引入了DiMA，这是一个利用从蛋白语言模型ESM-2衍生的嵌入进行连续扩散以生成氨基酸序列的模型。DiMA超越了包括自回归变换器和离散扩散模型在内的主要解决方案，我们定量地说明了导致其卓越性能的设计选择所带来的影响。我们使用各种指标跨多种形式广泛评估生成序列的质量、多样性、分布相似性和生物相关性。我们的方法始终产生新颖、多样化的蛋白质序列，精准
+    机器遗忘旨在通过使模型能够选择性地忘记特定数据来维护数据所有者的被遗忘权利。最近的方法表明，一种数据遗忘的方法是通过预先计算和存储携带二阶信息的统计数据，以改进计算和内存效率。然而，它们依赖于苛刻的假设，而且计算/存储受到模型参数维度的诅咒，这使得难以应用到大多数深度神经网络中。在本工作中，我们提出了一种免Hessian在线遗忘方法。我们建议为每个数据点维护一个统计向量，通过重新训练和学习模型之间的差异的仿射随机递归逼近来计算。我们提出的算法实现了近乎瞬时的在线遗忘，因为它只需要进行矢量加法操作。基于重新收集遗忘数据统计的策略，
 
-    arXiv:2403.03726v1 Announce Type: cross  Abstract: Protein design requires a deep understanding of the inherent complexities of the protein universe. While many efforts lean towards conditional generation or focus on specific families of proteins, the foundational task of unconditional generation remains underexplored and undervalued. Here, we explore this pivotal domain, introducing DiMA, a model that leverages continuous diffusion on embeddings derived from the protein language model, ESM-2, to generate amino acid sequences. DiMA surpasses leading solutions, including autoregressive transformer-based and discrete diffusion models, and we quantitatively illustrate the impact of the design choices that lead to its superior performance. We extensively evaluate the quality, diversity, distribution similarity, and biological relevance of the generated sequences using multiple metrics across various modalities. Our approach consistently produces novel, diverse protein sequences that accura
+    arXiv:2404.01712v1 Announce Type: cross  Abstract: Machine unlearning strives to uphold the data owners' right to be forgotten by enabling models to selectively forget specific data. Recent methods suggest that one approach of data forgetting is by precomputing and storing statistics carrying second-order information to improve computational and memory efficiency. However, they rely on restrictive assumptions and the computation/storage suffer from the curse of model parameter dimensionality, making it challenging to apply to most deep neural networks. In this work, we propose a Hessian-free online unlearning method. We propose to maintain a statistical vector for each data point, computed through affine stochastic recursion approximation of the difference between retrained and learned models. Our proposed algorithm achieves near-instantaneous online unlearning as it only requires a vector addition operation. Based on the strategy that recollecting statistics for forgetting data, the p
     
-[^3]: ImgTrojan: 用一张图片对视觉-语言模型进行越狱
+[^2]: MA4DIV：用于搜索结果多样化的多智能体强化学习
 
-    ImgTrojan: Jailbreaking Vision-Language Models with ONE Image
+    MA4DIV: Multi-Agent Reinforcement Learning for Search Result Diversification
 
-    [https://arxiv.org/abs/2403.02910](https://arxiv.org/abs/2403.02910)
+    [https://arxiv.org/abs/2403.17421](https://arxiv.org/abs/2403.17421)
 
-    本文提出了一种针对视觉-语言模型的新型越狱攻击，通过在训练数据中插入恶意文本提示，成功实施越狱攻击，并分析了有毒数据比率和可训练参数位置对攻击成功率的影响。
-
-    
-
-    近来，对于大型语言模型（LLMs）与人类价值观的对齐引起了越来越多的关注。然而，它们与视觉模块集成的安全问题，即视觉-语言模型（VLMs），仍然相对未被充分探讨。本文提出了一种针对VLMs的新型越狱攻击，旨在当用户输入有害指令时绕过其安全阻碍。假设我们的有毒（图像，文本）数据对包含在训练数据中。通过用恶意越狱提示替换原始文本标题，我们的方法可以利用有毒图像执行越狱攻击。此外，我们分析了有毒比率和可训练参数位置对攻击成功率的影响。为了评估，我们设计了两个度量标准来量化我们攻击的成功率和隐蔽性。结合一系列策划的有害指令，可以衡量攻击的有效性。
-
-    arXiv:2403.02910v1 Announce Type: cross  Abstract: There has been an increasing interest in the alignment of large language models (LLMs) with human values. However, the safety issues of their integration with a vision module, or vision language models (VLMs), remain relatively underexplored. In this paper, we propose a novel jailbreaking attack against VLMs, aiming to bypass their safety barrier when a user inputs harmful instructions. A scenario where our poisoned (image, text) data pairs are included in the training data is assumed. By replacing the original textual captions with malicious jailbreak prompts, our method can perform jailbreak attacks with the poisoned images. Moreover, we analyze the effect of poison ratios and positions of trainable parameters on our attack's success rate. For evaluation, we design two metrics to quantify the success rate and the stealthiness of our attack. Together with a list of curated harmful instructions, a benchmark for measuring attack efficac
-    
-[^4]: 因果平等保护与算法公平性
-
-    Causal Equal Protection as Algorithmic Fairness
-
-    [https://arxiv.org/abs/2402.12062](https://arxiv.org/abs/2402.12062)
-
-    本文提出了一种新的算法公平性原则——平等保护，其关键在于将错误分类的风险均等化，避免了许多对传统分类平等原则的反例。
+    引入了基于多智能体强化学习的MA4DIV方法，将搜索结果多样化建模为多个智能体之间的合作任务，直接优化多样性指标，如$\alpha$-NDCG，以实现高训练效率。
 
     
 
-    过去十年，计算机科学和哲学的文献形成了不同的算法公平性标准。其中最受争议的分类平等要求，预测算法的错误分类在被保护特征所指示的群体中以相等频率发生。尽管分类平等具有直观吸引力，但已受到攻击。我们转向一个相关原则，即平等保护，该原则最初是在刑事司法领域发展起来的。平等保护的关键在于将错误分类的风险（将在规定的意义上具体说明）进行均等化，而不是将错误分类的比率均等化。我们展示了平等保护避免了许多对分类平等的反例。
+    搜索结果多样化（SRD）的目标是确保所选文档涵盖尽可能多的不同子主题。现有方法主要利用“贪婪选择”范式，即一次选择一个具有最高多样性分数的文档。这些方法往往效率低下，容易陷入次优状态。此外，一些其他方法旨在近似优化多样性指标，如$\alpha$-NDCG，但结果仍然不尽如人意。为了解决这些挑战，我们引入了用于搜索结果多样性的多智能体强化学习（MARL）方法，称为MA4DIV。在这种方法中，每个文档都是一个智能体，搜索结果多样化被建模为多个智能体之间的合作任务。该方法允许直接优化多样性指标，如$\alpha$-NDCG，同时实现高训练效率。我们进行了初步实验。
 
-    arXiv:2402.12062v1 Announce Type: cross  Abstract: Over the last ten years the literature in computer science and philosophy has formulated different criteria of algorithmic fairness. One of the most discussed, classification parity, requires that the erroneous classifications of a predictive algorithm occur with equal frequency for groups picked out by protected characteristics. Despite its intuitive appeal, classification parity has come under attack. Multiple scenarios can be imagined in which - intuitively - a predictive algorithm does not treat any individual unfairly, and yet classification parity is violated. To make progress, we turn to a related principle, equal protection, originally developed in the context of criminal justice. Key to equal protection is equalizing the risks of erroneous classifications (in a sense to be specified) as opposed to equalizing the rates of erroneous classifications. We show that equal protection avoids many of the counterexamples to classificati
+    arXiv:2403.17421v1 Announce Type: cross  Abstract: The objective of search result diversification (SRD) is to ensure that selected documents cover as many different subtopics as possible. Existing methods primarily utilize a paradigm of "greedy selection", i.e., selecting one document with the highest diversity score at a time. These approaches tend to be inefficient and are easily trapped in a suboptimal state. In addition, some other methods aim to approximately optimize the diversity metric, such as $\alpha$-NDCG, but the results still remain suboptimal. To address these challenges, we introduce Multi-Agent reinforcement learning (MARL) for search result DIVersity, which called MA4DIV. In this approach, each document is an agent and the search result diversification is modeled as a cooperative task among multiple agents. This approach allows for directly optimizing the diversity metrics, such as $\alpha$-NDCG, while achieving high training efficiency. We conducted preliminary experi
     
-[^5]: 跨域动态链接预测的一种图模型
+[^3]: Collage Prompting: 与GPT-4V合作的经济可行的视觉识别
 
-    One Graph Model for Cross-domain Dynamic Link Prediction
+    Collage Prompting: Budget-Friendly Visual Recognition with GPT-4V
 
-    [https://arxiv.org/abs/2402.02168](https://arxiv.org/abs/2402.02168)
+    [https://arxiv.org/abs/2403.11468](https://arxiv.org/abs/2403.11468)
 
-    DyExpert是一种用于跨域链接预测的动态图模型，通过明确建模历史演化过程并结合链接预测，它可以学习特定下游图的演化模式，并在各个领域上取得了最先进的性能。
-
-    
-
-    本研究提出了DyExpert，一种用于跨域链接预测的动态图模型。它可以明确地建模历史演化过程，学习特定下游图的演化模式，并进而进行特定模式的链接预测。DyExpert采用了解码器优化的transformer，并通过结合演化建模和链接预测的“条件链接生成”实现了高效的并行训练和推断。DyExpert在包含6百万个动态边的广泛动态图上进行训练。在八个未训练的图上进行了大量实验，结果显示DyExpert在跨域链接预测中取得了最先进的性能。与相同设置下的先进基准相比，DyExpert在八个图上的平均精确度提高了11.40％。更令人印象深刻的是，在六个未训练的图上，它超过了八个先进基线的全监督性能。
-
-    This work proposes DyExpert, a dynamic graph model for cross-domain link prediction. It can explicitly model historical evolving processes to learn the evolution pattern of a specific downstream graph and subsequently make pattern-specific link predictions. DyExpert adopts a decode-only transformer and is capable of efficiently parallel training and inference by \textit{conditioned link generation} that integrates both evolution modeling and link prediction. DyExpert is trained by extensive dynamic graphs across diverse domains, comprising 6M dynamic edges. Extensive experiments on eight untrained graphs demonstrate that DyExpert achieves state-of-the-art performance in cross-domain link prediction. Compared to the advanced baseline under the same setting, DyExpert achieves an average of 11.40% improvement Average Precision across eight graphs. More impressive, it surpasses the fully supervised performance of 8 advanced baselines on 6 untrained graphs.
-    
-[^6]: PERP: 在LLMs时代重新思考修剪-重新训练范式
-
-    PERP: Rethinking the Prune-Retrain Paradigm in the Era of LLMs
-
-    [https://arxiv.org/abs/2312.15230](https://arxiv.org/abs/2312.15230)
-
-    本研究中，通过仅更新少部分高度表达力的参数，我们挑战了全参数重新训练的做法，在修剪后恢复或甚至提升了性能。PERP方法显著减少了计算量和存储需求。
+    通过引入Collage Prompting方法，我们实现了与GPT-4V合作的经济可行的视觉识别方法，通过优化图像排列顺序获得最大的识别准确性。
 
     
 
-    神经网络可以通过修剪实现高效压缩，显著减少存储和计算需求同时保持预测性能。像迭代幅值修剪（IMP，Han等，2015）这样的简单而有效的方法可以去除不重要的参数，并需要昂贵的重新训练过程以在修剪后恢复性能。然而，随着大型语言模型（LLMs）的兴起，由于内存和计算限制，完全重新训练变得不可行。在本研究中，我们挑战了重新训练所有参数的做法，通过证明只更新少部分高度表达力的参数通常足以恢复甚至提高性能。令人惊讶的是，仅重新训练GPT-结构的0.27%-0.35%的参数即可在不同稀疏水平上实现与一次性IMP相当的性能。我们的方法，即修剪后参数高效重新训练（PERP），大大减少了计算量。
+    最近生成式人工智能的进展表明，通过采用视觉提示，GPT-4V可以在图像识别任务中展现出显著的熟练度。尽管其令人印象深刻的能力，但与GPT-4V的推断相关的财务成本构成了其广泛应用的重大障碍。为了解决这一挑战，我们的研究引入了Collage Prompting，这是一种经济实惠的提示方法，将多个图像连接成单个视觉输入。借助拼贴提示，GPT-4V可以同时在多幅图像上执行图像识别。基于GPT-4V的图像识别准确性与拼贴提示中图像顺序明显变化的观察，我们的方法进一步学习优化图像安排以获得最大的识别准确性。训练了一个图预测器来指示每个拼贴提示的准确性，然后我们提出了一种优化方法来导航搜索空间。
 
-    Neural Networks can be efficiently compressed through pruning, significantly reducing storage and computational demands while maintaining predictive performance. Simple yet effective methods like Iterative Magnitude Pruning (IMP, Han et al., 2015) remove less important parameters and require a costly retraining procedure to recover performance after pruning. However, with the rise of Large Language Models (LLMs), full retraining has become infeasible due to memory and compute constraints. In this study, we challenge the practice of retraining all parameters by demonstrating that updating only a small subset of highly expressive parameters is often sufficient to recover or even improve performance compared to full retraining. Surprisingly, retraining as little as 0.27%-0.35% of the parameters of GPT-architectures achieves comparable performance to One Shot IMP across various sparsity levels. Our approach, Parameter-Efficient Retraining after Pruning (PERP), drastically reduces compute a
+    arXiv:2403.11468v1 Announce Type: cross  Abstract: Recent advancements in generative AI have suggested that by taking visual prompt, GPT-4V can demonstrate significant proficiency in image recognition task. Despite its impressive capabilities, the financial cost associated with GPT-4V's inference presents a substantial barrier for its wide use. To address this challenge, our work introduces Collage Prompting, a budget-friendly prompting approach that concatenates multiple images into a single visual input. With collage prompt, GPT-4V is able to perform image recognition on several images simultaneously. Based on the observation that the accuracy of GPT-4V's image recognition varies significantly with the order of images within the collage prompt, our method further learns to optimize the arrangement of images for maximum recognition accuracy. A graph predictor is trained to indicate the accuracy of each collage prompt, then we propose an optimization method to navigate the search space
     
-[^7]: 《基于机器/深度学习的软件工程研究中可解释性的系统文献综述》
+[^4]: 通过合成中间标签进行分区神经网络训练
 
-    A Systematic Literature Review on Explainability for Machine/Deep Learning-based Software Engineering Research. (arXiv:2401.14617v1 [cs.SE])
+    Partitioned Neural Network Training via Synthetic Intermediate Labels
 
-    [http://arxiv.org/abs/2401.14617](http://arxiv.org/abs/2401.14617)
+    [https://arxiv.org/abs/2403.11204](https://arxiv.org/abs/2403.11204)
 
-    本文通过对机器/深度学习的软件工程领域中可解释性的系统文献综述，总结了XAI技术在软件工程中的应用情况，旨在提高AI模型的可解释性以解决实际部署中的不确定性和风险问题。
-
-    
-
-    人工智能算法，特别是机器学习和深度学习，在软件工程领域取得了显著的成就，并得到了广泛的应用，但由于它们的黑盒特性，这些具有潜力的AI驱动的软件工程模型离实际部署还有很大的差距。这种缺乏可解释性对于在关键任务中应用这些模型，如漏洞检测，决策透明性至关重要，却带来了不必要的风险。本文通过对SE领域中旨在提高AI模型可解释性的方法进行系统文献综述来阐明这个跨学科领域。该综述覆盖了SE和AI学术会议和期刊中出现的研究，涵盖了21个独特的SE任务的63篇论文。基于三个关键的研究问题，我们旨在总结XAI技术在SE任务中的应用情况。
-
-    The remarkable achievements of Artificial Intelligence (AI) algorithms, particularly in Machine Learning (ML) and Deep Learning (DL), have fueled their extensive deployment across multiple sectors, including Software Engineering (SE). However, due to their black-box nature, these promising AI-driven SE models are still far from being deployed in practice. This lack of explainability poses unwanted risks for their applications in critical tasks, such as vulnerability detection, where decision-making transparency is of paramount importance. This paper endeavors to elucidate this interdisciplinary domain by presenting a systematic literature review of approaches that aim to improve the explainability of AI models within the context of SE. The review canvasses work appearing in the most prominent SE & AI conferences and journals, and spans 63 papers across 21 unique SE tasks. Based on three key Research Questions (RQs), we aim to (1) summarize the SE tasks where XAI techniques have shown s
-    
-[^8]: HetGPT: 利用预训练异构图神经网络中的提示调整的能力
-
-    HetGPT: Harnessing the Power of Prompt Tuning in Pre-Trained Heterogeneous Graph Neural Networks. (arXiv:2310.15318v1 [cs.LG])
-
-    [http://arxiv.org/abs/2310.15318](http://arxiv.org/abs/2310.15318)
-
-    HetGPT是一种预训练异构图神经网络的方法，通过利用提示调整来解决预训练与下游任务之间的不匹配问题。
+    该研究提出了一种通过将模型分区到不同GPU上，并生成合成中间标签来训练各个部分的方法，以缓解大规模神经网络训练中的内存和计算压力。
 
     
 
-    图表现为表示和分析Web中的复杂模式和丰富信息的自然选择，使得在线页面分类和社交推荐等应用成为可能。然而，当前的“预训练，微调”范式在图机器学习任务中广泛应用，特别是在有限标记节点的情况下，往往存在预训练目标任务与下游任务之间的不匹配问题。这种差距可能导致“负转移”问题，即预训练所获得的知识对下游任务的性能产生不利影响。自然语言处理领域中基于提示的学习的兴起表明了将“预训练，提示”范式应用于图形的潜力，作为一种替代方案。然而，现有的图形提示技术针对的是同质图，忽视了Web图的内在异构性。为了填补这一差距，我们提出了HetGPT，
+    大规模神经网络架构的普及，特别是深度学习模型，对资源密集型训练提出了挑战。 GPU 内存约束已经成为训练这些庞大模型的一个明显瓶颈。现有策略，包括数据并行、模型并行、流水线并行和完全分片数据并行，提供了部分解决方案。 特别是模型并行允许将整个模型分布在多个 GPU 上，但随后的这些分区之间的数据通信减慢了训练速度。此外，为在每个 GPU 上存储辅助参数所需的大量内存开销增加了计算需求。 本研究主张不使用整个模型进行训练，而是将模型分区到 GPU 上，并生成合成中间标签来训练各个部分。 通过随机过程生成的这些标签减缓了训练中的内存和计算压力。
 
-    Graphs have emerged as a natural choice to represent and analyze the intricate patterns and rich information of the Web, enabling applications such as online page classification and social recommendation. The prevailing "pre-train, fine-tune" paradigm has been widely adopted in graph machine learning tasks, particularly in scenarios with limited labeled nodes. However, this approach often exhibits a misalignment between the training objectives of pretext tasks and those of downstream tasks. This gap can result in the "negative transfer" problem, wherein the knowledge gained from pre-training adversely affects performance in the downstream tasks. The surge in prompt-based learning within Natural Language Processing (NLP) suggests the potential of adapting a "pre-train, prompt" paradigm to graphs as an alternative. However, existing graph prompting techniques are tailored to homogeneous graphs, neglecting the inherent heterogeneity of Web graphs. To bridge this gap, we propose HetGPT, a 
+    arXiv:2403.11204v1 Announce Type: cross  Abstract: The proliferation of extensive neural network architectures, particularly deep learning models, presents a challenge in terms of resource-intensive training. GPU memory constraints have become a notable bottleneck in training such sizable models. Existing strategies, including data parallelism, model parallelism, pipeline parallelism, and fully sharded data parallelism, offer partial solutions. Model parallelism, in particular, enables the distribution of the entire model across multiple GPUs, yet the ensuing data communication between these partitions slows down training. Additionally, the substantial memory overhead required to store auxiliary parameters on each GPU compounds computational demands. Instead of using the entire model for training, this study advocates partitioning the model across GPUs and generating synthetic intermediate labels to train individual segments. These labels, produced through a random process, mitigate me
     
-[^9]: 证明LLM对抗敌对提示的安全性
+[^5]: 具有对抗性专家的鲁棒决策聚合
 
-    Certifying LLM Safety against Adversarial Prompting. (arXiv:2309.02705v1 [cs.CL])
+    Robust Decision Aggregation with Adversarial Experts
 
-    [http://arxiv.org/abs/2309.02705](http://arxiv.org/abs/2309.02705)
+    [https://arxiv.org/abs/2403.08222](https://arxiv.org/abs/2403.08222)
 
-    本研究提出了首个具有可验证安全保证的框架——消除和检查，用于对抗敌对提示。通过逐个消除标记并使用安全过滤器检查生成的子序列，确保任何敌对修改的有害输入提示都能被正确标识为有害。
+    论文考虑了在既有真实专家又有对抗性专家的情况下的二元决策聚合问题，提出了设计鲁棒聚合器以最小化遗憾的方法，并证明了当真实专家是对称的且对抗性专家不太多时，截尾均值是最优的。
 
     
 
-    为了确保语言模型的输出安全，公开使用的大型语言模型（LLM）引入了所谓的“模型对齐”防护措施。一个对齐的语言模型应该拒绝用户的请求生成有害内容。然而，这种安全措施容易受到敌对提示的攻击，敌对提示包含恶意设计的标记序列，以规避模型的安全防护并导致生成有害内容。在这项工作中，我们介绍了可验证安全保证的第一个对抗敌对提示的框架——消除和检查。我们逐个消除标记，并使用安全过滤器检查生成的子序列。如果安全过滤器检测到任何子序列或输入提示有害，我们的过程将将输入提示标记为有害。这保证了对于某个特定大小的有害输入提示的任何敌对修改也将被标记为有害。我们对抗三种攻击模式：i)敌对后缀，即附加敌对序列…
+    我们考虑了在既有真实专家又有对抗性专家的情况下的二元决策聚合问题。真实专家将会如实报告他们的私人信号，并获得适当的激励，而对抗性专家可以任意报告。决策者需要设计一个鲁棒的聚合器，根据专家的报告来预测世界的真实状态。决策者不了解具体的信息结构，即信号、状态以及对抗性专家的策略的联合分布。我们希望找到在最坏信息结构下最小化遗憾的最优聚合器。遗憾被定义为聚合器和一个基准之间的期望损失差，该基准根据联合分布和真实专家的报告做出最优决策。我们证明了当真实专家是对称的且对抗性专家不太多时，截尾均值是最优的。
 
-    Large language models (LLMs) released for public use incorporate guardrails to ensure their output is safe, often referred to as "model alignment." An aligned language model should decline a user's request to produce harmful content. However, such safety measures are vulnerable to adversarial prompts, which contain maliciously designed token sequences to circumvent the model's safety guards and cause it to produce harmful content. In this work, we introduce erase-and-check, the first framework to defend against adversarial prompts with verifiable safety guarantees. We erase tokens individually and inspect the resulting subsequences using a safety filter. Our procedure labels the input prompt as harmful if any subsequences or the input prompt are detected as harmful by the filter. This guarantees that any adversarial modification of a harmful prompt up to a certain size is also labeled harmful. We defend against three attack modes: i) adversarial suffix, which appends an adversarial seq
+    arXiv:2403.08222v1 Announce Type: cross  Abstract: We consider a binary decision aggregation problem in the presence of both truthful and adversarial experts. The truthful experts will report their private signals truthfully with proper incentive, while the adversarial experts can report arbitrarily. The decision maker needs to design a robust aggregator to forecast the true state of the world based on the reports of experts. The decision maker does not know the specific information structure, which is a joint distribution of signals, states, and strategies of adversarial experts. We want to find the optimal aggregator minimizing regret under the worst information structure. The regret is defined by the difference in expected loss between the aggregator and a benchmark who makes the optimal decision given the joint distribution and reports of truthful experts.   We prove that when the truthful experts are symmetric and adversarial experts are not too numerous, the truncated mean is opt
+    
+[^6]: EBBS: 一个具有双层束搜索的集成方法用于零翻译机器翻译
+
+    EBBS: An Ensemble with Bi-Level Beam Search for Zero-Shot Machine Translation
+
+    [https://arxiv.org/abs/2403.00144](https://arxiv.org/abs/2403.00144)
+
+    提出了一种集成方法EBBS，配合新颖的双层束搜索算法，能够优于直接和通过第三语言进行的翻译，并实现知识蒸馏来提高推理效率。
+
+    
+
+    当我们用特定的翻译方向训练多语言模型时，零翻译的能力就会出现；模型可以直接在未见过的方向进行翻译。另外，零翻译也可以通过第三种语言（例如英语）来实现。在我们的工作中，我们发现直接和通过第三种语言进行的翻译都存在噪音，并且表现不尽如人意。我们提出了EBBS，一个具有新颖的双层束搜索算法的集成方法，其中每个集成组件在下层逐步探索自己的预测，但它们通过上层的“软投票”机制进行同步。在两个流行的多语言翻译数据集上的结果表明，EBBS始终优于直接和通过第三种语言进行的翻译，以及现有的集成技术。此外，我们可以将集成的知识传回到多语言模型中，以提高推理效率；值得注意的是，我们的E
+
+    arXiv:2403.00144v1 Announce Type: cross  Abstract: The ability of zero-shot translation emerges when we train a multilingual model with certain translation directions; the model can then directly translate in unseen directions. Alternatively, zero-shot translation can be accomplished by pivoting through a third language (e.g., English). In our work, we observe that both direct and pivot translations are noisy and achieve less satisfactory performance. We propose EBBS, an ensemble method with a novel bi-level beam search algorithm, where each ensemble component explores its own prediction step by step at the lower level but they are synchronized by a "soft voting" mechanism at the upper level. Results on two popular multilingual translation datasets show that EBBS consistently outperforms direct and pivot translations as well as existing ensemble techniques. Further, we can distill the ensemble's knowledge back to the multilingual model to improve inference efficiency; profoundly, our E
+    
+[^7]: 基于3D骨架的人员再识别：方法、设计、挑战和未来方向的综述
+
+    A Survey on 3D Skeleton Based Person Re-Identification: Approaches, Designs, Challenges, and Future Directions. (arXiv:2401.15296v1 [cs.CV])
+
+    [http://arxiv.org/abs/2401.15296](http://arxiv.org/abs/2401.15296)
+
+    本文通过对当前基于3D骨架的人员再识别方法、模型设计、挑战和未来方向的系统调研，填补了相关研究总结的空白。
+
+    
+
+    通过3D骨架进行人员再识别是一个重要的新兴研究领域，引起了模式识别社区的极大兴趣。近年来，针对骨架建模和特征学习中突出问题，已经提出了许多具有独特优势的基于3D骨架的人员再识别（SRID）方法。尽管近年来取得了一些进展，但据我们所知，目前还没有对这些研究及其挑战进行综合总结。因此，本文通过对当前SRID方法、模型设计、挑战和未来方向的系统调研，试图填补这一空白。具体而言，我们首先定义了SRID问题，并提出了一个SRID研究的分类体系，总结了常用的基准数据集、常用的模型架构，并对不同方法的特点进行了分析评价。然后，我们详细阐述了SRID模型的设计原则。
+
+    Person re-identification via 3D skeletons is an important emerging research area that triggers great interest in the pattern recognition community. With distinctive advantages for many application scenarios, a great diversity of 3D skeleton based person re-identification (SRID) methods have been proposed in recent years, effectively addressing prominent problems in skeleton modeling and feature learning. Despite recent advances, to the best of our knowledge, little effort has been made to comprehensively summarize these studies and their challenges. In this paper, we attempt to fill this gap by providing a systematic survey on current SRID approaches, model designs, challenges, and future directions. Specifically, we first formulate the SRID problem, and propose a taxonomy of SRID research with a summary of benchmark datasets, commonly-used model architectures, and an analytical review of different methods' characteristics. Then, we elaborate on the design principles of SRID models fro
+    
+[^8]: 表达建模对于离线强化学习不足：可处理的推理角度
+
+    Expressive Modeling Is Insufficient for Offline RL: A Tractable Inference Perspective. (arXiv:2311.00094v1 [cs.LG])
+
+    [http://arxiv.org/abs/2311.00094](http://arxiv.org/abs/2311.00094)
+
+    本文指出，在离线强化学习任务中，除了表达性强的序列模型，可处理性也起着重要的作用。由于离线数据收集策略和环境动态的随机性，需要精确且高效地回答各种概率查询，以找到有奖励的动作。基于此，本文提出了Trifle（离线强化学习的可处理推理）方法，利用现代可处理概率模型来解决这个问题。
+
+    
+
+    离线强化学习任务中，一种流行的范例是先将离线轨迹拟合到一个序列模型中，然后通过该模型提示高期望回报的动作。虽然普遍认为表达性更强的序列模型可以带来更好的性能，但本文强调了可处理性，即精确而高效地回答各种概率查询的能力，同样起着重要的作用。具体而言，由于离线数据收集策略和环境动态带来的基本随机性，需要进行高度非平凡的条件/约束生成，以引出有奖励的动作。虽然仍然可以近似处理这些查询，但我们观察到这种粗糙的估计显著削弱了表达性强的序列模型带来的好处。为了解决这个问题，本文提出了Trifle（离线强化学习的可处理推理），它利用了现代可处理概率模型（TPM）来弥合这个差距。
+
+    A popular paradigm for offline Reinforcement Learning (RL) tasks is to first fit the offline trajectories to a sequence model, and then prompt the model for actions that lead to high expected return. While a common consensus is that more expressive sequence models imply better performance, this paper highlights that tractability, the ability to exactly and efficiently answer various probabilistic queries, plays an equally important role. Specifically, due to the fundamental stochasticity from the offline data-collection policies and the environment dynamics, highly non-trivial conditional/constrained generation is required to elicit rewarding actions. While it is still possible to approximate such queries, we observe that such crude estimates significantly undermine the benefits brought by expressive sequence models. To overcome this problem, this paper proposes Trifle (Tractable Inference for Offline RL), which leverages modern Tractable Probabilistic Models (TPMs) to bridge the gap b
+    
+[^9]: 层级反馈传播
+
+    Layer-wise Feedback Propagation. (arXiv:2308.12053v1 [cs.LG])
+
+    [http://arxiv.org/abs/2308.12053](http://arxiv.org/abs/2308.12053)
+
+    本文提出了一种名为“层级反馈传播（LFP）”的新型神经网络预测器训练方法，通过利用可解释性细化与层级相关性传播（LRP）相结合，根据每个连接对任务的贡献分配奖励，该方法克服了传统梯度下降方法存在的问题。对于各种模型和数据集，LFP取得了与梯度下降相当的性能。
+
+    
+
+    本文提出了一种称为“层级反馈传播（LFP）”的新型神经网络预测器训练方法，该方法利用可解释性，具体而言是层级相关性传播（LRP），根据每个连接对解决给定任务的贡献独立分配奖励。这与传统的梯度下降方法不同，梯度下降方法是朝向估计的损失最小值更新参数。LFP在模型中传播奖励信号，而无需梯度计算。它增强接收到正反馈的结构，同时降低接收到负反馈的结构的影响。我们从理论和实证的角度证明了LFP的收敛性，并展示了它在各种模型和数据集上实现与梯度下降相当的性能。值得注意的是，LFP克服了梯度方法的某些局限性，例如对有意义的导数的依赖。我们进一步研究了LFP如何解决梯度方法相关问题的限制。
+
+    In this paper, we present Layer-wise Feedback Propagation (LFP), a novel training approach for neural-network-like predictors that utilizes explainability, specifically Layer-wise Relevance Propagation(LRP), to assign rewards to individual connections based on their respective contributions to solving a given task. This differs from traditional gradient descent, which updates parameters towards anestimated loss minimum. LFP distributes a reward signal throughout the model without the need for gradient computations. It then strengthens structures that receive positive feedback while reducingthe influence of structures that receive negative feedback. We establish the convergence of LFP theoretically and empirically, and demonstrate its effectiveness in achieving comparable performance to gradient descent on various models and datasets. Notably, LFP overcomes certain limitations associated with gradient-based methods, such as reliance on meaningful derivatives. We further investigate how 
+    
+[^10]: 保持知识不变性：重新思考开放信息抽取的鲁棒性评估
+
+    Preserving Knowledge Invariance: Rethinking Robustness Evaluation of Open Information Extraction. (arXiv:2305.13981v1 [cs.CL])
+
+    [http://arxiv.org/abs/2305.13981](http://arxiv.org/abs/2305.13981)
+
+    本文提出了第一个模拟评估开放式信息提取模型在真实世界中的基准测试，并通过判断模型在整个团体上的表现是否始终准确来评估模型的鲁棒性。
+
+    
+
+    鲁棒性是确保自然语言处理模型能够成功应用于现实世界中的关键因素，特别是对于信息抽取任务而言。然而，大多数先前的评估基准都专注于验证配对匹配的正确性，忽略了关键的鲁棒性测量。在本文中，我们提出了第一个基准测试，模拟在真实世界中评估开放式信息提取模型的情况，其中同一知识含义的句法和表达分布会各不相同。我们设计和注释了一个大规模的测试平台，其中每个示例都是一个知识不变的团体，由具有相同含义但结构不同的句子组成。通过进一步阐述鲁棒性指标，当模型在整个团体上的表现始终准确时，被判定为鲁棒性强。我们对过去十年中发表的几种典型模型进行了实验。
+
+    The robustness to distribution changes ensures that NLP models can be successfully applied in the realistic world, especially for information extraction tasks. However, most prior evaluation benchmarks have been devoted to validating pairwise matching correctness, ignoring the crucial measurement of robustness. In this paper, we present the first benchmark that simulates the evaluation of open information extraction models in the real world, where the syntactic and expressive distributions under the same knowledge meaning may drift variously. We design and annotate a large-scale testbed in which each example is a knowledge-invariant clique that consists of sentences with structured knowledge of the same meaning but with different syntactic and expressive forms. By further elaborating the robustness metric, a model is judged to be robust if its performance is consistently accurate on the overall cliques. We perform experiments on typical models published in the last decade as well as a 
     
 
