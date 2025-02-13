@@ -2,97 +2,97 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Generative Adversarial Learning of Sinkhorn Algorithm Initializations](https://rss.arxiv.org/abs/2212.00133) | 本文通过生成对抗学习的方法，训练神经网络来学习Sinkhorn算法的初始化，显著加快收敛速度，同时保持算法的可微分性和并行性，并证明了网络的普适性和独立求解能力。 |
-| [^2] | [A Primal-Dual Algorithm for Faster Distributionally Robust Optimization](https://arxiv.org/abs/2403.10763) | 这种原始-对偶算法在分布鲁棒优化问题中实现了最先进的线性收敛速度。 |
-| [^3] | [Reinforcement Learning from Human Feedback with Active Queries](https://arxiv.org/abs/2402.09401) | 本文提出了一种基于主动查询的强化学习方法，用于解决与人类反馈的对齐问题。通过在强化学习过程中减少人工标注偏好数据的需求，该方法具有较低的代价，并在实验中表现出较好的性能。 |
-| [^4] | [A PAC-Bayesian Link Between Generalisation and Flat Minima](https://arxiv.org/abs/2402.08508) | 本研究结合了PAC-Bayes工具箱和Poincaré与Log-Sobolev不等式，提供了新的梯度项泛化界限，并突出了平坦最小值对泛化性能的积极影响。 |
-| [^5] | [A duality framework for generalization analysis of random feature models and two-layer neural networks.](http://arxiv.org/abs/2305.05642) | 本文提出了一个针对随机特征模型和双层神经网络的泛化分析的对偶性框架，并证明了学习不会受到维数灾难的影响，使 RFMs 可以在核范围之外发挥作用。 |
-| [^6] | [Generalisation under gradient descent via deterministic PAC-Bayes.](http://arxiv.org/abs/2209.02525) | 本文介绍了一种新的PAC-Bayesian泛化界限，适用于使用梯度下降方法或连续梯度流训练模型的优化算法，且无需随机化。 |
+| [^1] | [Causal Discovery from Conditionally Stationary Time Series](https://arxiv.org/abs/2110.06257) | 该论文提出了一种State-Dependent Causal Inference（SDCI）方法，可以处理一类宽泛的非平稳时间序列，成功地回复出潜在的因果依赖关系。 |
+| [^2] | [A Stability Principle for Learning under Non-Stationarity.](http://arxiv.org/abs/2310.18304) | 本研究提出了一个适用于非稳态环境的统计学习框架，通过应用稳定性原则选择回溯窗口来最大化历史数据利用，并保持累积偏差在可接受范围内。该方法展示了对未知非稳态的适应性，遗憾界在强凸或满足Lipschitz条件下是极小化的最优解。该研究的创新点是函数相似度度量和非稳态数据序列划分技术。 |
+| [^3] | [Rethinking Fairness for Human-AI Collaboration.](http://arxiv.org/abs/2310.03647) | 在人工智能与人类合作中，需要重新思考公平性，因为完全遵守算法决策很少是现实可行的，因此我们需要设计稳健公平的算法推荐来提升公平性。 |
+| [^4] | [A Nearly-Linear Time Algorithm for Structured Support Vector Machines.](http://arxiv.org/abs/2307.07735) | 这篇论文提出了针对结构化支持向量机的接近线性时间算法，解决了二次规划输入规模和解决时间的问题。 |
+| [^5] | [Convergence of Message Passing Graph Neural Networks with Generic Aggregation On Large Random Graphs.](http://arxiv.org/abs/2304.11140) | 本文研究了消息传递图神经网络在随机图模型上的收敛性，将收敛结论从只适用于度规范化平均聚合函数扩展到所有传统聚合函数，并考虑了聚合函数采用逐个坐标最大值时的情况。 |
+| [^6] | [Predicting Cellular Responses with Variational Causal Inference and Refined Relational Information.](http://arxiv.org/abs/2210.00116) | 本研究利用基因调控网络信息设计了一种新的因果推断框架，并通过邻接矩阵更新技术预训练图卷积网络以更好地预测细胞在反事实干扰下的基因表达。同时，我们提出了一个鲁棒的估计器来高效估计边缘干扰效应。研究结果展示了该框架的优越性能。 |
 
 # 详细
 
-[^1]: 生成对抗学习Sinkhorn算法初始化
+[^1]: 从有条件平稳时间序列中进行因果发现
 
-    Generative Adversarial Learning of Sinkhorn Algorithm Initializations
+    Causal Discovery from Conditionally Stationary Time Series
 
-    [https://rss.arxiv.org/abs/2212.00133](https://rss.arxiv.org/abs/2212.00133)
+    [https://arxiv.org/abs/2110.06257](https://arxiv.org/abs/2110.06257)
 
-    本文通过生成对抗学习的方法，训练神经网络来学习Sinkhorn算法的初始化，显著加快收敛速度，同时保持算法的可微分性和并行性，并证明了网络的普适性和独立求解能力。
-
-    
-
-    Sinkhorn算法是近似求解离散概率分布之间熵正则输运（OT）距离的最先进方法。我们展示了通过训练神经网络来学习算法初始化，可以显著加快收敛速度，同时保持Sinkhorn算法的可微分性和并行性。我们通过对抗训练的方式使用第二个生成网络和自监督引导损失来训练我们的预测网络。预测网络具有普适性，能够推广到任意固定维度和成本的概率分布对，并且我们证明生成网络可以在训练过程中产生任意概率分布对。此外，我们还展示了我们的网络可以作为独立的OT求解器来近似正则化输运问题。
-
-    The Sinkhorn algorithm is the state-of-the-art to approximate solutions of entropic optimal transport (OT) distances between discrete probability distributions. We show that meticulously training a neural network to learn initializations to the algorithm via the entropic OT dual problem can significantly speed up convergence, while maintaining desirable properties of the Sinkhorn algorithm, such as differentiability and parallelizability. We train our predictive network in an adversarial fashion using a second, generating network and a self-supervised bootstrapping loss. The predictive network is universal in the sense that it is able to generalize to any pair of distributions of fixed dimension and cost at inference, and we prove that we can make the generating network universal in the sense that it is capable of producing any pair of distributions during training. Furthermore, we show that our network can even be used as a standalone OT solver to approximate regularized transport dis
-    
-[^2]: 一种用于更快分布鲁棒优化问题的原始-对偶算法
-
-    A Primal-Dual Algorithm for Faster Distributionally Robust Optimization
-
-    [https://arxiv.org/abs/2403.10763](https://arxiv.org/abs/2403.10763)
-
-    这种原始-对偶算法在分布鲁棒优化问题中实现了最先进的线性收敛速度。
+    该论文提出了一种State-Dependent Causal Inference（SDCI）方法，可以处理一类宽泛的非平稳时间序列，成功地回复出潜在的因果依赖关系。
 
     
 
-    我们考虑带有闭合、凸不确定性集的惩罚分布鲁棒优化（DRO）问题，这个设置包括了实践中使用的$f$-DRO、Wasserstein-DRO和谱/$L$-风险公式。我们提出了Drago，一种随机原始-对偶算法，在强凸-强凹DRO问题上实现了最先进的线性收敛速度。该方法将随机化和循环组件与小批量结合，有效处理了DRO中原始和对偶问题的独特不对称性质。我们通过分类和回归中的数值基准支持我们的理论结果。
+    因果发现，即从观测数据推断潜在的因果关系，已被证明对AI系统具有极大挑战。在时间序列建模背景下，传统的因果发现方法主要考虑具有完全观测变量和/或来自平稳时间序列的数据的受限场景。我们开发了一种因果发现方法来处理一类宽泛的非平稳时间序列，即在条件上是平稳的条件平稳时间序列，其中非平稳行为被建模为在一组（可能是隐藏的）状态变量上的平稳性。命名为State-Dependent Causal Inference（SDCI），我们的方法能够可证地回复出潜在的因果依赖关系，证明在完全观察到的状态下，并在存在隐藏状态时经验性地实现。后者通过对合成线性系统和非线性粒子相互作用数据的实验进行验证，SDCI实现了优于基线因果发现方法的性能。
 
-    arXiv:2403.10763v1 Announce Type: cross  Abstract: We consider the penalized distributionally robust optimization (DRO) problem with a closed, convex uncertainty set, a setting that encompasses the $f$-DRO, Wasserstein-DRO, and spectral/$L$-risk formulations used in practice. We present Drago, a stochastic primal-dual algorithm that achieves a state-of-the-art linear convergence rate on strongly convex-strongly concave DRO problems. The method combines both randomized and cyclic components with mini-batching, which effectively handles the unique asymmetric nature of the primal and dual problems in DRO. We support our theoretical results with numerical benchmarks in classification and regression.
+    arXiv:2110.06257v2 Announce Type: replace  Abstract: Causal discovery, i.e., inferring underlying causal relationships from observational data, has been shown to be highly challenging for AI systems. In time series modeling context, traditional causal discovery methods mainly consider constrained scenarios with fully observed variables and/or data from stationary time-series. We develop a causal discovery approach to handle a wide class of non-stationary time-series that are conditionally stationary, where the non-stationary behaviour is modeled as stationarity conditioned on a set of (possibly hidden) state variables. Named State-Dependent Causal Inference (SDCI), our approach is able to recover the underlying causal dependencies, provably with fully-observed states and empirically with hidden states. The latter is confirmed by experiments on synthetic linear system and nonlinear particle interaction data, where SDCI achieves superior performance over baseline causal discovery methods
     
-[^3]: 使用主动查询的人类反馈强化学习
+[^2]: 学习非稳态条件下的稳定性原则
 
-    Reinforcement Learning from Human Feedback with Active Queries
+    A Stability Principle for Learning under Non-Stationarity. (arXiv:2310.18304v1 [cs.LG])
 
-    [https://arxiv.org/abs/2402.09401](https://arxiv.org/abs/2402.09401)
+    [http://arxiv.org/abs/2310.18304](http://arxiv.org/abs/2310.18304)
 
-    本文提出了一种基于主动查询的强化学习方法，用于解决与人类反馈的对齐问题。通过在强化学习过程中减少人工标注偏好数据的需求，该方法具有较低的代价，并在实验中表现出较好的性能。
-
-    
-
-    将大型语言模型（LLM）与人类偏好进行对齐，在构建现代生成模型中发挥重要作用，这可以通过从人类反馈中进行强化学习来实现。然而，尽管当前的强化学习方法表现出优越性能，但往往需要大量的人工标注偏好数据，而这种数据收集费时费力。本文受到主动学习的成功启发，通过提出查询效率高的强化学习方法来解决这个问题。我们首先将对齐问题形式化为上下文竞争二臂强盗问题，并设计了基于主动查询的近端策略优化（APPO）算法，具有$\tilde{O}(d^2/\Delta)$的遗憾界和$\tilde{O}(d^2/\Delta^2)$的查询复杂度，其中$d$是特征空间的维度，$\Delta$是所有上下文中的次优差距。然后，我们提出了ADPO，这是我们算法的实际版本，基于直接偏好优化（DPO）并将其应用于...
-
-    arXiv:2402.09401v1 Announce Type: cross Abstract: Aligning large language models (LLM) with human preference plays a key role in building modern generative models and can be achieved by reinforcement learning from human feedback (RLHF). Despite their superior performance, current RLHF approaches often require a large amount of human-labelled preference data, which is expensive to collect. In this paper, inspired by the success of active learning, we address this problem by proposing query-efficient RLHF methods. We first formalize the alignment problem as a contextual dueling bandit problem and design an active-query-based proximal policy optimization (APPO) algorithm with an $\tilde{O}(d^2/\Delta)$ regret bound and an $\tilde{O}(d^2/\Delta^2)$ query complexity, where $d$ is the dimension of feature space and $\Delta$ is the sub-optimality gap over all the contexts. We then propose ADPO, a practical version of our algorithm based on direct preference optimization (DPO) and apply it to 
-    
-[^4]: 广义和平均容量之间的PAC-Bayes联结
-
-    A PAC-Bayesian Link Between Generalisation and Flat Minima
-
-    [https://arxiv.org/abs/2402.08508](https://arxiv.org/abs/2402.08508)
-
-    本研究结合了PAC-Bayes工具箱和Poincaré与Log-Sobolev不等式，提供了新的梯度项泛化界限，并突出了平坦最小值对泛化性能的积极影响。
+    本研究提出了一个适用于非稳态环境的统计学习框架，通过应用稳定性原则选择回溯窗口来最大化历史数据利用，并保持累积偏差在可接受范围内。该方法展示了对未知非稳态的适应性，遗憾界在强凸或满足Lipschitz条件下是极小化的最优解。该研究的创新点是函数相似度度量和非稳态数据序列划分技术。
 
     
 
-    现代机器学习通常使用超参数设置（训练参数数量大于数据集大小）中的预测器，它们的训练不仅产生良好的训练数据性能，而且具有良好的泛化能力。这一现象挑战了许多理论结果，并且仍然是一个未解决的问题。为了更好地理解这一现象，我们提供了涉及梯度项的新型泛化界限。为此，我们将PAC-Bayes工具箱与Poincaré和Log-Sobolev不等式相结合，避免了对预测器空间维数的显式依赖。我们的结果突出了“平坦最小值”（几乎能够最小化学习问题的邻近最小值）对泛化性能的积极影响，直接涉及到优化阶段的好处。
+    我们在非稳定环境中开发了一个灵活的统计学习框架。在每个时间段，我们的方法应用稳定性原则来选择一个回溯窗口，最大限度地利用历史数据，同时将累积偏差保持在与随机误差相对可接受的范围内。我们的理论展示了该方法对未知非稳定性的适应性。当人口损失函数强凸或仅满足Lipschitz条件时，遗憾界是极小化的最优解，仅受对数因子的影响。我们的分析核心是两个新颖的组成部分：函数之间的相似度度量和将非稳态数据序列划分为准稳态片段的分割技术。
 
-    Modern machine learning usually involves predictors in the overparametrised setting (number of trained parameters greater than dataset size), and their training yield not only good performances on training data, but also good generalisation capacity. This phenomenon challenges many theoretical results, and remains an open problem. To reach a better understanding, we provide novel generalisation bounds involving gradient terms. To do so, we combine the PAC-Bayes toolbox with Poincar\'e and Log-Sobolev inequalities, avoiding an explicit dependency on dimension of the predictor space. Our results highlight the positive influence of \emph{flat minima} (being minima with a neighbourhood nearly minimising the learning problem as well) on generalisation performances, involving directly the benefits of the optimisation phase.
+    We develop a versatile framework for statistical learning in non-stationary environments. In each time period, our approach applies a stability principle to select a look-back window that maximizes the utilization of historical data while keeping the cumulative bias within an acceptable range relative to the stochastic error. Our theory showcases the adaptability of this approach to unknown non-stationarity. The regret bound is minimax optimal up to logarithmic factors when the population losses are strongly convex, or Lipschitz only. At the heart of our analysis lie two novel components: a measure of similarity between functions and a segmentation technique for dividing the non-stationary data sequence into quasi-stationary pieces.
     
-[^5]: 随机特征模型和双层神经网络的泛化分析的对偶性框架
+[^3]: 重新思考人工智能与人类合作的公平性
 
-    A duality framework for generalization analysis of random feature models and two-layer neural networks. (arXiv:2305.05642v1 [stat.ML])
+    Rethinking Fairness for Human-AI Collaboration. (arXiv:2310.03647v1 [cs.LG])
 
-    [http://arxiv.org/abs/2305.05642](http://arxiv.org/abs/2305.05642)
+    [http://arxiv.org/abs/2310.03647](http://arxiv.org/abs/2310.03647)
 
-    本文提出了一个针对随机特征模型和双层神经网络的泛化分析的对偶性框架，并证明了学习不会受到维数灾难的影响，使 RFMs 可以在核范围之外发挥作用。
-
-    
-
-    本文研究在高维分析中出现的自然函数空间 $\mathcal{F}_{p,\pi}$ 和 Barron 空间中学习函数的问题。通过对偶分析，我们揭示了这些空间的逼近和估计可以在某种意义下被视为等价的。这使得我们能够在研究这两种模型的泛化时更专注于更容易的逼近和估计问题。通过定义一种基于信息的复杂度来有效地控制估计误差，建立了对偶等价性。此外，我们通过对两个具体应用进行综合分析展示了我们的对偶性框架的灵活性。第一个应用是研究使用 RFMs 学习 $\mathcal{F}_{p,\pi}$ 中的函数。我们证明只要 $p>1$，学习不会受到维数灾难的影响，这意味着 RFMs 可以在核范围之外发挥作用。
-
-    We consider the problem of learning functions in the $\mathcal{F}_{p,\pi}$ and Barron spaces, which are natural function spaces that arise in the high-dimensional analysis of random feature models (RFMs) and two-layer neural networks. Through a duality analysis, we reveal that the approximation and estimation of these spaces can be considered equivalent in a certain sense. This enables us to focus on the easier problem of approximation and estimation when studying the generalization of both models. The dual equivalence is established by defining an information-based complexity that can effectively control estimation errors. Additionally, we demonstrate the flexibility of our duality framework through comprehensive analyses of two concrete applications.  The first application is to study learning functions in $\mathcal{F}_{p,\pi}$ with RFMs. We prove that the learning does not suffer from the curse of dimensionality as long as $p>1$, implying RFMs can work beyond the kernel regime. Our 
-    
-[^6]: 基于确定性PAC-Bayes的梯度下降下的泛化
-
-    Generalisation under gradient descent via deterministic PAC-Bayes. (arXiv:2209.02525v3 [stat.ML] UPDATED)
-
-    [http://arxiv.org/abs/2209.02525](http://arxiv.org/abs/2209.02525)
-
-    本文介绍了一种新的PAC-Bayesian泛化界限，适用于使用梯度下降方法或连续梯度流训练模型的优化算法，且无需随机化。
+    在人工智能与人类合作中，需要重新思考公平性，因为完全遵守算法决策很少是现实可行的，因此我们需要设计稳健公平的算法推荐来提升公平性。
 
     
 
-    我们为使用梯度下降方法或连续梯度流训练模型建立了细分的PAC-Bayesian泛化界限。与PAC-Bayes设定中的标准做法相反，我们的结果适用于确定性的优化算法，而不需要任何去随机化的步骤。我们的界限是完全可计算的，取决于初始分布的密度和轨迹上训练目标的海森矩阵。我们展示了我们的框架可以应用于各种迭代优化算法，包括随机梯度下降（SGD）、动量算法和阻尼哈密顿动力学。
+    现有的算法公平性方法旨在确保人类决策者完全遵守算法决策时实现公平的结果。然而，在人工智能与人类合作中，完全遵守算法决策很少是现实或理想的结果。然而，最近的研究表明，对公平算法的选择性遵守会相对于人类以前的政策增加歧视。因此，确保公平结果需要基本不同的算法设计原则，以确保对决策者（事先不知道）的遵守模式具有稳健性。我们定义了一种遵守稳健公平的算法推荐，无论人类的遵守模式如何，它们都能确保在决策中改善公平性（弱形意义上）。我们提出了一种简单的优化策略来确定最佳的性能改进遵守稳健公平策略。然而，我们发现设计算法推荐可能是不可行的。
 
-    We establish disintegrated PAC-Bayesian generalisation bounds for models trained with gradient descent methods or continuous gradient flows. Contrary to standard practice in the PAC-Bayesian setting, our result applies to optimisation algorithms that are deterministic, without requiring any de-randomisation step. Our bounds are fully computable, depending on the density of the initial distribution and the Hessian of the training objective over the trajectory. We show that our framework can be applied to a variety of iterative optimisation algorithms, including stochastic gradient descent (SGD), momentum-based schemes, and damped Hamiltonian dynamics.
+    Existing approaches to algorithmic fairness aim to ensure equitable outcomes if human decision-makers comply perfectly with algorithmic decisions. However, perfect compliance with the algorithm is rarely a reality or even a desirable outcome in human-AI collaboration. Yet, recent studies have shown that selective compliance with fair algorithms can amplify discrimination relative to the prior human policy. As a consequence, ensuring equitable outcomes requires fundamentally different algorithmic design principles that ensure robustness to the decision-maker's (a priori unknown) compliance pattern. We define the notion of compliance-robustly fair algorithmic recommendations that are guaranteed to (weakly) improve fairness in decisions, regardless of the human's compliance pattern. We propose a simple optimization strategy to identify the best performance-improving compliance-robustly fair policy. However, we show that it may be infeasible to design algorithmic recommendations that are s
+    
+[^4]: 结构化支持向量机的接近线性时间算法
+
+    A Nearly-Linear Time Algorithm for Structured Support Vector Machines. (arXiv:2307.07735v1 [math.OC])
+
+    [http://arxiv.org/abs/2307.07735](http://arxiv.org/abs/2307.07735)
+
+    这篇论文提出了针对结构化支持向量机的接近线性时间算法，解决了二次规划输入规模和解决时间的问题。
+
+    
+
+    二次规划是凸优化领域中的基本问题。许多实际任务可以表示为二次规划，例如支持向量机（SVM）。在深度学习方法盛行之前，线性SVM是过去三十年来最流行的机器学习工具之一。一般来说，一个二次规划的输入规模为Θ(n^2)（其中n是变量的数量），因此解决该问题需要Ω(n^2)的时间。然而，SVM产生的二次规划的输入规模为O(n)，这使得设计接近线性时间算法成为可能。两个重要的SVM类别是具有低秩核因式分解和低树宽规模的程序。低树宽凸优化在过去几年中引起了越来越多的关注（例如线性规划[Dong, Lee and Ye 2021]和半定规划[Gu and Song 2022]）。因此，一个重要的开放问题是是否存在接近线性时间算法。
+
+    Quadratic programming is a fundamental problem in the field of convex optimization. Many practical tasks can be formulated as quadratic programming, for example, the support vector machine (SVM). Linear SVM is one of the most popular tools over the last three decades in machine learning before deep learning method dominating.  In general, a quadratic program has input size $\Theta(n^2)$ (where $n$ is the number of variables), thus takes $\Omega(n^2)$ time to solve. Nevertheless, quadratic programs coming from SVMs has input size $O(n)$, allowing the possibility of designing nearly-linear time algorithms. Two important classes of SVMs are programs admitting low-rank kernel factorizations and low-treewidth programs. Low-treewidth convex optimization has gained increasing interest in the past few years (e.g.~linear programming [Dong, Lee and Ye 2021] and semidefinite programming [Gu and Song 2022]). Therefore, an important open question is whether there exist nearly-linear time algorithms
+    
+[^5]: 基于消息传递的图神经网络在大规模随机图上的通用聚合收敛性研究
+
+    Convergence of Message Passing Graph Neural Networks with Generic Aggregation On Large Random Graphs. (arXiv:2304.11140v1 [stat.ML])
+
+    [http://arxiv.org/abs/2304.11140](http://arxiv.org/abs/2304.11140)
+
+    本文研究了消息传递图神经网络在随机图模型上的收敛性，将收敛结论从只适用于度规范化平均聚合函数扩展到所有传统聚合函数，并考虑了聚合函数采用逐个坐标最大值时的情况。
+
+    
+
+    本文研究了消息传递图神经网络在随机图模型上的收敛性，当节点数量趋近于无限时，该网络模型能收敛于其连续模型。迄今为止，该收敛性结果只适用于聚合函数采用度规范化平均值形式的网络结构。我们将此结果扩展到包含所有传统消息传递图神经网络的大类聚合函数上，例如基于注意力和最大卷积的网络。在一定假设下，我们给出了高概率的非渐进上限来量化这种收敛性。我们的主要结果基于McDiarmid不等式。有趣的是，我们特别处理了聚合函数采用逐个坐标最大值的情况，因为它需要非常不同的证明技巧，并产生了定性不同的收敛率。
+
+    We study the convergence of message passing graph neural networks on random graph models to their continuous counterpart as the number of nodes tends to infinity. Until now, this convergence was only known for architectures with aggregation functions in the form of degree-normalized means. We extend such results to a very large class of aggregation functions, that encompasses all classically used message passing graph neural networks, such as attention-based mesage passing or max convolutional message passing on top of (degree-normalized) convolutional message passing. Under mild assumptions, we give non asymptotic bounds with high probability to quantify this convergence. Our main result is based on the McDiarmid inequality. Interestingly, we treat the case where the aggregation is a coordinate-wise maximum separately, at it necessitates a very different proof technique and yields a qualitatively different convergence rate.
+    
+[^6]: 利用变分因果推断和精细关系信息预测细胞响应
+
+    Predicting Cellular Responses with Variational Causal Inference and Refined Relational Information. (arXiv:2210.00116v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2210.00116](http://arxiv.org/abs/2210.00116)
+
+    本研究利用基因调控网络信息设计了一种新的因果推断框架，并通过邻接矩阵更新技术预训练图卷积网络以更好地预测细胞在反事实干扰下的基因表达。同时，我们提出了一个鲁棒的估计器来高效估计边缘干扰效应。研究结果展示了该框架的优越性能。
+
+    
+
+    预测细胞在干扰下的响应可能为药物研发和个性化治疗带来重要好处。在本研究中，我们提出了一种新的图形变分贝叶斯因果推断框架，预测细胞在反事实干扰下（即细胞未真实接收的干扰）的基因表达，利用代表生物学知识的基因调控网络（GRN）信息来辅助个性化细胞响应预测。我们还针对数据自适应GRN开发了邻接矩阵更新技术用于图卷积网络的预训练，在模型性能上提供了更多的基因关系洞见。
+
+    Predicting the responses of a cell under perturbations may bring important benefits to drug discovery and personalized therapeutics. In this work, we propose a novel graph variational Bayesian causal inference framework to predict a cell's gene expressions under counterfactual perturbations (perturbations that this cell did not factually receive), leveraging information representing biological knowledge in the form of gene regulatory networks (GRNs) to aid individualized cellular response predictions. Aiming at a data-adaptive GRN, we also developed an adjacency matrix updating technique for graph convolutional networks and used it to refine GRNs during pre-training, which generated more insights on gene relations and enhanced model performance. Additionally, we propose a robust estimator within our framework for the asymptotically efficient estimation of marginal perturbation effect, which is yet to be carried out in previous works. With extensive experiments, we exhibited the advanta
     
 
