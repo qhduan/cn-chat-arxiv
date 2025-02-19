@@ -2,187 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [GINopic: Topic Modeling with Graph Isomorphism Network](https://arxiv.org/abs/2404.02115) | GINopic是一种主题建模框架，利用图同构网络捕捉单词之间的相关性，相比于现有主题模型，展示了更好的有效性和推进主题建模的潜力。 |
-| [^2] | [TableLLM: Enabling Tabular Data Manipulation by LLMs in Real Office Usage Scenarios](https://arxiv.org/abs/2403.19318) | TableLLM是一个拥有130亿参数的强大大语言模型，专门用于熟练处理表格数据操作任务，通过远程监督方法和交叉验证策略，TableLLM相对于其他现有的通用和表格数据专注的LLMs具有明显优势。 |
-| [^3] | [Enhanced Short Text Modeling: Leveraging Large Language Models for Topic Refinement](https://arxiv.org/abs/2403.17706) | 利用大型语言模型的先进能力，提出了一种名为“主题细化”的新方法，通过引入提示工程和消除离题词等方式改进短文本的主题建模质量，提高了主题的语义质量。 |
-| [^4] | [Large Language Models and Causal Inference in Collaboration: A Comprehensive Survey](https://arxiv.org/abs/2403.09606) | 大型语言模型的出现极大影响了自然语言处理领域，特别是通过其先进的推理能力。而本综述则重点评估和改进了大型语言模型在因果推断方面的应用，包括提高推理能力、解决公平和安全问题、提供解释和处理多模态。 |
-| [^5] | [Large Language Models are Contrastive Reasoners](https://arxiv.org/abs/2403.08211) | 对比提示方法显著提高大型语言模型进行复杂推理的能力，不仅在算术、常识和符号推理任务上表现优良，还可以与现有提示方法整合，实现更好的性能。 |
-| [^6] | [You Need to Pay Better Attention](https://arxiv.org/abs/2403.01643) | 提出了三种新的注意力机制，在效率和学习能力方面优于标准的多头注意力，提高了Transformer模型的性能和更广泛的部署能力。 |
-| [^7] | [Bias in Language Models: Beyond Trick Tests and Toward RUTEd Evaluation](https://arxiv.org/abs/2402.12649) | 这项研究探讨了语言模型中偏见的负面影响，研究了"技巧测试"与更现实世界中表现的RUTEd评估之间的关联性，特别关注性别-职业偏见，并进行了多项评估比较。 |
-| [^8] | [Bridging Causal Discovery and Large Language Models: A Comprehensive Survey of Integrative Approaches and Future Directions](https://arxiv.org/abs/2402.11068) | 本文综合调查了将大型语言模型（如GPT4）整合到因果发现任务中的方法，揭示了它们在推断因果结构时对元数据和自然语言的创新利用，强调了LLMs在增强传统CD方法和作为专家辅助方面的潜力和挑战。 |
-| [^9] | [Language Writ Large: LLMs, ChatGPT, Grounding, Meaning and Understanding](https://arxiv.org/abs/2402.02243) | ChatGPT在LLM规模上通过利用语言本身的收敛约束来做到超出预期的表现，但并不真正理解语义以及与感觉动作的直接联系。 |
-| [^10] | [Assistive Large Language Model Agents for Socially-Aware Negotiation Dialogues](https://arxiv.org/abs/2402.01737) | 本文旨在开发LLM代理以减轻多代理设置下谈判中的社交规范违反。我们引入了基于价值影响的环境学习（ICL）方法，用于为基于LLM的修正代理识别高质量的ICL示例，其中价值影响函数衡量谈判结果的质量。我们展示了这种方法与策略学习的联系，并提供了丰富的实证证据来证明其在三个不同主题的谈判中的有效性。 |
-| [^11] | [SWEA: Changing Factual Knowledge in Large Language Models via Subject Word Embedding Altering](https://arxiv.org/abs/2401.17809) | 提出了一种主题词嵌入修改框架（SWEA），通过在推理阶段修改主题的表示来编辑知识，保护模型的原始权重，避免不可逆的损害和额外的推理开销。 |
-| [^12] | [Measuring Catastrophic Forgetting in Cross-Lingual Transfer Paradigms: Exploring Tuning Strategies.](http://arxiv.org/abs/2309.06089) | 该研究比较了不同的微调和跨语言转移策略在解决跨语言任务时的表现，评估了灾难性遗忘的程度和转移的成功程度。 |
+| [^1] | [AutoMathText: Autonomous Data Selection with Language Models for Mathematical Texts](https://arxiv.org/abs/2402.07625) | 本论文介绍了一种自主数据选择策略，利用语言模型进行数学文本的自动评估和选择，并通过连续预训练显著提高了数学推理能力。主要创新包括利用元提示语言模型作为验证器，发布了高质量的AutoMathText数据集，并实现了预训练令牌效率的提升。 |
+| [^2] | [Multimodal Sentiment Analysis with Missing Modality: A Knowledge-Transfer Approach.](http://arxiv.org/abs/2401.10747) | 本文提出了一种知识迁移方法，用于在缺失模态下进行多模态情感分析。通过翻译不同模态之间的内容以重构缺失的音频模态，并利用跨模态注意机制进行情感预测，实验证明了该方法在多个数据集上表现出显著的改进和与完整多模态监督方法相媲美的效果。 |
+| [^3] | [A Framework for Responsible Development of Automated Student Feedback with Generative AI.](http://arxiv.org/abs/2308.15334) | 一种基于生成AI的自动学生反馈框架可以提供丰富的反馈，但引入了伦理问题，并需要解决“多数人的暴政”和忽视长尾中少数群体需求的挑战。 |
+| [^4] | [Seed-Guided Topic Discovery with Out-of-Vocabulary Seeds.](http://arxiv.org/abs/2205.01845) | 本文提出了一种带有未登录词种子的主题发现方法，将预训练语言模型和来自输入语料库的局部语义相结合，实验证明了该方法在主题连贯性、准确性和多样性方面的有效性。 |
+| [^5] | [Media Slant is Contagious.](http://arxiv.org/abs/2202.07269) | 本文研究了国家有线电视新闻对美国本土报纸的影响，发现当地报纸的内容会因为当地 FNC 观众数量的增加而趋向于 FNC 的倾向，并且有线电视倾向会极化地方新闻内容。 |
 
 # 详细
 
-[^1]: GINopic：利用图同构网络进行主题建模
+[^1]: AutoMathText：使用语言模型进行数学文本的自主数据选择
 
-    GINopic: Topic Modeling with Graph Isomorphism Network
+    AutoMathText: Autonomous Data Selection with Language Models for Mathematical Texts
 
-    [https://arxiv.org/abs/2404.02115](https://arxiv.org/abs/2404.02115)
+    [https://arxiv.org/abs/2402.07625](https://arxiv.org/abs/2402.07625)
 
-    GINopic是一种主题建模框架，利用图同构网络捕捉单词之间的相关性，相比于现有主题模型，展示了更好的有效性和推进主题建模的潜力。
-
-    
-
-    主题建模是分析和探索大型文档集合的广泛使用方法。 最近的研究工作将预训练的上下文化语言模型，如BERT嵌入，纳入主题建模中。 然而，它们通常忽略了单词之间相互依赖传达的固有信息价值。 本研究介绍了GINopic，一种基于图同构网络的主题建模框架，以捕捉单词之间的相关性。 通过在不同基准数据集上进行内在的（定量和定性）和外部的评估，我们展示了与现有主题模型相比，GINopic的有效性，并突出了其推进主题建模的潜力。
-
-    arXiv:2404.02115v1 Announce Type: new  Abstract: Topic modeling is a widely used approach for analyzing and exploring large document collections. Recent research efforts have incorporated pre-trained contextualized language models, such as BERT embeddings, into topic modeling. However, they often neglect the intrinsic informational value conveyed by mutual dependencies between words. In this study, we introduce GINopic, a topic modeling framework based on graph isomorphism networks to capture the correlation between words. By conducting intrinsic (quantitative as well as qualitative) and extrinsic evaluations on diverse benchmark datasets, we demonstrate the effectiveness of GINopic compared to existing topic models and highlight its potential for advancing topic modeling.
-    
-[^2]: TableLLM：在实际办公使用场景中实现LLMs对表格数据进行处理的能力
-
-    TableLLM: Enabling Tabular Data Manipulation by LLMs in Real Office Usage Scenarios
-
-    [https://arxiv.org/abs/2403.19318](https://arxiv.org/abs/2403.19318)
-
-    TableLLM是一个拥有130亿参数的强大大语言模型，专门用于熟练处理表格数据操作任务，通过远程监督方法和交叉验证策略，TableLLM相对于其他现有的通用和表格数据专注的LLMs具有明显优势。
+    本论文介绍了一种自主数据选择策略，利用语言模型进行数学文本的自动评估和选择，并通过连续预训练显著提高了数学推理能力。主要创新包括利用元提示语言模型作为验证器，发布了高质量的AutoMathText数据集，并实现了预训练令牌效率的提升。
 
     
 
-    我们介绍了TableLLM，这是一个拥有130亿参数的强大大语言模型（LLM），专门用于熟练处理表格数据操作任务，无论其嵌入在文档还是电子表格中，以满足真实办公场景需求。我们提出了一种远程监督方法进行训练，其中包括一种推理过程扩展策略，有助于训练LLMs更有效地理解推理模式，以及一种交叉验证策略，确保自动生成数据的质量。为了评估TableLLM的性能，我们构建了一个旨在解决文档和电子表格格式的基准测试，并构建了一个能够处理两种场景的组织良好的评估管线。彻底的评估凸显了TableLLM相对于各种现有通用和专注于表格数据的LLMs的优势。我们已公开发布了该模型。
+    为了通过持续的预训练改善语言模型在数学推理方面的能力，我们引入了一种新颖的策略，利用基础语言模型进行自主数据选择。与传统的有人工标注数据的监督微调或训练过的分类器不同，我们的方法利用元提示语言模型作为零样本验证器，自主评估和选择高质量的数学内容，并发布了经过策划的开源AutoMathText数据集，其中包含超过200GB的数据。为了证明我们方法的有效性，我们对AutoMathText数据集进行了连续预训练，使得7B参数的Mistral语言模型在MATH数据集上的下游性能大幅提升，而令牌数量比之前的连续预训练工作减少了几个数量级。我们的方法展示了基准的预训练令牌效率提高了2倍，突显了我们方法在增强中的潜力。
 
-    arXiv:2403.19318v1 Announce Type: new  Abstract: We introduce TableLLM, a robust large language model (LLM) with 13 billion parameters, purpose-built for proficiently handling tabular data manipulation tasks, whether they are embedded within documents or spreadsheets, catering to real-world office scenarios. We propose a distant supervision method for training, which comprises a reasoning process extension strategy, aiding in training LLMs to understand reasoning patterns more effectively as well as a cross-way validation strategy, ensuring the quality of the automatically generated data. To evaluate the performance of TableLLM, we have crafted a benchmark tailored to address both document and spreadsheet formats as well as constructed a well-organized evaluation pipeline capable of handling both scenarios. Thorough evaluations underscore the advantages of TableLLM when compared to various existing general-purpose and tabular data-focused LLMs. We have publicly released the model check
+    To improve language models' proficiency in mathematical reasoning via continual pretraining, we introduce a novel strategy that leverages base language models for autonomous data selection. Departing from conventional supervised fine-tuning or trained classifiers with human-annotated data, our approach utilizes meta-prompted language models as zero-shot verifiers to autonomously evaluate and select high-quality mathematical content, and we release the curated open-source AutoMathText dataset encompassing over 200GB of data. To demonstrate the efficacy of our method, we continuously pretrained a 7B-parameter Mistral language model on the AutoMathText dataset, achieving substantial improvements in downstream performance on the MATH dataset with a token amount reduced by orders of magnitude compared to previous continuous pretraining works. Our method showcases a 2 times increase in pretraining token efficiency compared to baselines, underscoring the potential of our approach in enhancing
     
-[^3]: 增强短文本建模：利用大型语言模型进行主题细化
+[^2]: 缺失模态下的多模态情感分析:一种知识迁移方法
 
-    Enhanced Short Text Modeling: Leveraging Large Language Models for Topic Refinement
+    Multimodal Sentiment Analysis with Missing Modality: A Knowledge-Transfer Approach. (arXiv:2401.10747v1 [cs.SD])
 
-    [https://arxiv.org/abs/2403.17706](https://arxiv.org/abs/2403.17706)
+    [http://arxiv.org/abs/2401.10747](http://arxiv.org/abs/2401.10747)
 
-    利用大型语言模型的先进能力，提出了一种名为“主题细化”的新方法，通过引入提示工程和消除离题词等方式改进短文本的主题建模质量，提高了主题的语义质量。
-
-    
-
-    有效地构建针对简短文本（如推文和新闻标题）的主题模型对捕捉社会动态的迅速变化至关重要。然而，传统主题模型往往在准确表达短文本的语义细微差异方面存在不足，这是由于它们的简洁性和缺乏上下文数据。在我们的研究中，我们利用大型语言模型（LLMs）的先进能力，引入了一种称为“主题细化”的新方法。该方法并非直接参与主题的初步建模，而是专注于改进主题在被挖掘后的阶段。通过引入提示工程，我们指导LLMs消除给定主题中的离题词，确保仅保留与语境相关的词汇或用更符合语义的词汇替换。这种方法模拟了人类般的审查和改进主题的方式，从而提升了各种主题生成的语义质量。
-
-    arXiv:2403.17706v1 Announce Type: cross  Abstract: Crafting effective topic models for brief texts, like tweets and news headlines, is essential for capturing the swift shifts in social dynamics. Traditional topic models, however, often fall short in accurately representing the semantic intricacies of short texts due to their brevity and lack of contextual data. In our study, we harness the advanced capabilities of Large Language Models (LLMs) to introduce a novel approach termed "Topic Refinement". This approach does not directly involve itself in the initial modeling of topics but focuses on improving topics after they have been mined. By employing prompt engineering, we direct LLMs to eliminate off-topic words within a given topic, ensuring that only contextually relevant words are preserved or substituted with ones that fit better semantically. This method emulates human-like scrutiny and improvement of topics, thereby elevating the semantic quality of the topics generated by vario
-    
-[^4]: 大型语言模型与协作中的因果推断：一项综合调查
-
-    Large Language Models and Causal Inference in Collaboration: A Comprehensive Survey
-
-    [https://arxiv.org/abs/2403.09606](https://arxiv.org/abs/2403.09606)
-
-    大型语言模型的出现极大影响了自然语言处理领域，特别是通过其先进的推理能力。而本综述则重点评估和改进了大型语言模型在因果推断方面的应用，包括提高推理能力、解决公平和安全问题、提供解释和处理多模态。
+    本文提出了一种知识迁移方法，用于在缺失模态下进行多模态情感分析。通过翻译不同模态之间的内容以重构缺失的音频模态，并利用跨模态注意机制进行情感预测，实验证明了该方法在多个数据集上表现出显著的改进和与完整多模态监督方法相媲美的效果。
 
     
 
-    因果推断已经显示出潜力，通过捕捉变量之间的因果关系，提高自然语言处理（NLP）模型的预测准确性、公平性、稳健性和可解释性。生成型大型语言模型（LLMs）的出现显著影响了各种NLP领域，特别是通过其先进的推理能力。该调查重点评估和改进LLMs的因果视角，在以下领域展开：理解和改进LLMs的推理能力，解决LLMs中的公平性和安全性问题，为LLMs提供解释，并处理多模态。同时，LLMs强大的推理能力反过来可以通过帮助因果关系发现和因果效应估计来促进因果推断领域的发展。本综述探讨了因果推断框架与LLMs之间的相互作用，强调了它们的集体作用。
+    多模态情感分析旨在通过视觉、语言和声音线索来识别个体表达的情绪。然而，现有研究大多假设在训练和测试过程中所有模态都是可用的，这使得它们的算法容易受到缺失模态的影响。在本文中，我们提出了一种新颖的知识迁移网络，用于在不同模态之间进行翻译，以重构缺失的音频模态。此外，我们还开发了一种跨模态注意机制，以保留重构和观察到的模态的最大信息，用于情感预测。在三个公开数据集上进行的大量实验证明了相对于基线算法的显著改进，并实现了与具有完整多模态监督的先前方法相媲美的结果。
 
-    arXiv:2403.09606v1 Announce Type: cross  Abstract: Causal inference has shown potential in enhancing the predictive accuracy, fairness, robustness, and explainability of Natural Language Processing (NLP) models by capturing causal relationships among variables. The emergence of generative Large Language Models (LLMs) has significantly impacted various NLP domains, particularly through their advanced reasoning capabilities. This survey focuses on evaluating and improving LLMs from a causal view in the following areas: understanding and improving the LLMs' reasoning capacity, addressing fairness and safety issues in LLMs, complementing LLMs with explanations, and handling multimodality. Meanwhile, LLMs' strong reasoning capacities can in turn contribute to the field of causal inference by aiding causal relationship discovery and causal effect estimations. This review explores the interplay between causal inference frameworks and LLMs from both perspectives, emphasizing their collective p
+    Multimodal sentiment analysis aims to identify the emotions expressed by individuals through visual, language, and acoustic cues. However, most of the existing research efforts assume that all modalities are available during both training and testing, making their algorithms susceptible to the missing modality scenario. In this paper, we propose a novel knowledge-transfer network to translate between different modalities to reconstruct the missing audio modalities. Moreover, we develop a cross-modality attention mechanism to retain the maximal information of the reconstructed and observed modalities for sentiment prediction. Extensive experiments on three publicly available datasets demonstrate significant improvements over baselines and achieve comparable results to the previous methods with complete multi-modality supervision.
     
-[^5]: 大型语言模型是对比推理者
+[^3]: 一种负责任开发基于生成AI的自动学生反馈框架
 
-    Large Language Models are Contrastive Reasoners
+    A Framework for Responsible Development of Automated Student Feedback with Generative AI. (arXiv:2308.15334v1 [cs.CY])
 
-    [https://arxiv.org/abs/2403.08211](https://arxiv.org/abs/2403.08211)
+    [http://arxiv.org/abs/2308.15334](http://arxiv.org/abs/2308.15334)
 
-    对比提示方法显著提高大型语言模型进行复杂推理的能力，不仅在算术、常识和符号推理任务上表现优良，还可以与现有提示方法整合，实现更好的性能。
-
-    
-
-    提示方法在增强预训练大型语言模型（LLMs）的能力方面发挥着至关重要的作用。我们探讨了对比提示（CP）如何显著提高大型语言模型执行复杂推理的能力。我们通过简单地在LLMs提供答案之前添加"让我们给出一个正确答案和一个错误答案"来演示LLMs是体面的对比推理者。对两个大型语言模型的实验表明，零迁移对比提示提升了在一系列算术、常识和符号推理任务上的表现，而不需要手工制作的少量迁移示例，比如使用最先进的GPT-4模型，提高了在GSM8K上的准确率从35.9%到88.8%以及AQUA-RAT从41.3%到62.2%。我们的方法不仅在大多数算术和常识推理任务中胜过零迁移CoT和少量迁移CoT，还可以与现有的提示方法无缝整合，从而实现改进或者竞争
-
-    arXiv:2403.08211v1 Announce Type: cross  Abstract: Prompting methods play a crucial role in enhancing the capabilities of pre-trained large language models (LLMs). We explore how contrastive prompting (CP) significantly improves the ability of large language models to perform complex reasoning. We demonstrate that LLMs are decent contrastive reasoners by simply adding "Let's give a correct and a wrong answer." before LLMs provide answers. Experiments on two large language models show that zero-shot contrastive prompting improves performance on a range of arithmetic, commonsense, and symbolic reasoning tasks without any hand-crafted few-shot examples, such as increasing the accuracy on GSM8K from 35.9% to 88.8% and AQUA-RAT from 41.3% to 62.2% with the state-of-the-art GPT-4 model. Our method not only surpasses zero-shot CoT and few-shot CoT in most arithmetic and commonsense reasoning tasks but also can seamlessly integrate with existing prompting methods, resulting in improved or comp
-    
-[^6]: 您需要更好地关注付费
-
-    You Need to Pay Better Attention
-
-    [https://arxiv.org/abs/2403.01643](https://arxiv.org/abs/2403.01643)
-
-    提出了三种新的注意力机制，在效率和学习能力方面优于标准的多头注意力，提高了Transformer模型的性能和更广泛的部署能力。
+    一种基于生成AI的自动学生反馈框架可以提供丰富的反馈，但引入了伦理问题，并需要解决“多数人的暴政”和忽视长尾中少数群体需求的挑战。
 
     
 
-    我们引入了三种新的注意力机制，这些机制在效率和学习能力方面胜过标准的多头注意力，从而提高了Transformer模型的性能和更广泛的部署能力。我们的第一个贡献是优化注意力，其性能与标准注意力相似，但参数数量少了四分之三，每个头部少了一个矩阵乘法。接下来，我们引入了高效注意力，其性能与标准注意力相当，但参数数量减少了一半，每个头部减少了两个矩阵乘法，并且比标准注意力快两倍。最后，我们介绍了超级注意力，在视觉和自然语言处理任务中明显超越了标准注意力，同时具有更少的参数和矩阵乘法。除了提供严格的数学比较，我们在MN中评估了所提出的注意力机制
+    提供丰富的反馈对于支持学生学习至关重要。最近生成AI尤其是大规模语言模型的进展，为向学生提供可重复、可扩展和即时生成的自动反馈提供了机会，使得之前稀缺且昂贵的学习资源变得丰富起来。从技术角度而言，这种方法是可行的，得益于最近人工智能和自然语言处理的进步；然而，采用这些技术也引入了一系列潜在的伦理问题，需要认真考虑。人工智能系统的吸引力在于它们可以有效地自动化最乏味的任务；但是这也可能导致“多数人的暴政”，即忽视了长尾中少数群体的需求，因为这些需求很难自动化。因此，开发能够产生有价值和真实的机器学习模型变得至关重要。
 
-    arXiv:2403.01643v1 Announce Type: cross  Abstract: We introduce three new attention mechanisms that outperform standard multi-head attention in terms of efficiency and learning capabilities, thereby improving the performance and broader deployability of Transformer models. Our first contribution is Optimised Attention, which performs similarly to standard attention, but has 3/4 as many parameters and one matrix multiplication fewer per head. Next, we introduce Efficient Attention, which performs on par with standard attention with only 1/2 as many parameters as many parameters and two matrix multiplications fewer per head and is up to twice as fast as standard attention. Lastly, we introduce Super Attention, which surpasses standard attention by a significant margin in both vision and natural language processing tasks while having fewer parameters and matrix multiplications. In addition to providing rigorous mathematical comparisons, we evaluate the presented attention mechanisms on MN
+    Providing rich feedback to students is essential for supporting student learning. Recent advances in generative AI, particularly within large language modelling (LLM), provide the opportunity to deliver repeatable, scalable and instant automatically generated feedback to students, making abundant a previously scarce and expensive learning resource. Such an approach is feasible from a technical perspective due to these recent advances in Artificial Intelligence (AI) and Natural Language Processing (NLP); while the potential upside is a strong motivator, doing so introduces a range of potential ethical issues that must be considered as we apply these technologies. The attractiveness of AI systems is that they can effectively automate the most mundane tasks; but this risks introducing a "tyranny of the majority", where the needs of minorities in the long tail are overlooked because they are difficult to automate.  Developing machine learning models that can generate valuable and authentic
     
-[^7]: 语言模型中的偏见：超越技巧测试，走向RUTEd评估
+[^4]: 带有未登录词种子的主题发现
 
-    Bias in Language Models: Beyond Trick Tests and Toward RUTEd Evaluation
+    Seed-Guided Topic Discovery with Out-of-Vocabulary Seeds. (arXiv:2205.01845v1 [cs.CL] CROSS LISTED)
 
-    [https://arxiv.org/abs/2402.12649](https://arxiv.org/abs/2402.12649)
+    [http://arxiv.org/abs/2205.01845](http://arxiv.org/abs/2205.01845)
 
-    这项研究探讨了语言模型中偏见的负面影响，研究了"技巧测试"与更现实世界中表现的RUTEd评估之间的关联性，特别关注性别-职业偏见，并进行了多项评估比较。
-
-    
-
-    Bias benchmarks are a popular method for studying the negative impacts of bias in LLMs, yet there has been little empirical investigation of whether these benchmarks are actually indicative of how real world harm may manifest in the real world. In this work, we study the correspondence between such decontextualized "trick tests" and evaluations that are more grounded in Realistic Use and Tangible {Effects (i.e. RUTEd evaluations). We explore this correlation in the context of gender-occupation bias--a popular genre of bias evaluation. We compare three de-contextualized evaluations adapted from the current literature to three analogous RUTEd evaluations applied to long-form content generation. We conduct each evaluation for seven instruction-tuned LLMs. For the RUTEd evaluations, we conduct repeated trials of three text generation tasks: children's bedtime stories, user personas, and English language learning exercises. We found no corres
-
-    arXiv:2402.12649v1 Announce Type: new  Abstract: Bias benchmarks are a popular method for studying the negative impacts of bias in LLMs, yet there has been little empirical investigation of whether these benchmarks are actually indicative of how real world harm may manifest in the real world. In this work, we study the correspondence between such decontextualized "trick tests" and evaluations that are more grounded in Realistic Use and Tangible {Effects (i.e. RUTEd evaluations). We explore this correlation in the context of gender-occupation bias--a popular genre of bias evaluation. We compare three de-contextualized evaluations adapted from the current literature to three analogous RUTEd evaluations applied to long-form content generation. We conduct each evaluation for seven instruction-tuned LLMs. For the RUTEd evaluations, we conduct repeated trials of three text generation tasks: children's bedtime stories, user personas, and English language learning exercises. We found no corres
-    
-[^8]: 架起因果发现与大型语言模型之间的桥梁：整合方法和未来方向的综合调查
-
-    Bridging Causal Discovery and Large Language Models: A Comprehensive Survey of Integrative Approaches and Future Directions
-
-    [https://arxiv.org/abs/2402.11068](https://arxiv.org/abs/2402.11068)
-
-    本文综合调查了将大型语言模型（如GPT4）整合到因果发现任务中的方法，揭示了它们在推断因果结构时对元数据和自然语言的创新利用，强调了LLMs在增强传统CD方法和作为专家辅助方面的潜力和挑战。
+    本文提出了一种带有未登录词种子的主题发现方法，将预训练语言模型和来自输入语料库的局部语义相结合，实验证明了该方法在主题连贯性、准确性和多样性方面的有效性。
 
     
 
-    因果发现（CD）和大型语言模型（LLMs）代表着两个具有重要影响力的人工智能研究领域。尽管它们起源不同，CD侧重于从数据中揭示因果关系，LLMs则侧重于处理和生成类似人类的文本，但这两个领域的融合为理解复杂系统提供了新颖的见解和方法论。本文介绍了将LLMs（如GPT4）整合到CD任务中的综合调查。我们系统地审查和比较了利用LLMs进行各种CD任务的现有方法，并突出了它们对元数据和自然语言的创新利用以推断因果结构。我们的分析揭示了LLMs在增强传统CD方法和作为不完美专家方面的优势和潜力，同时也揭示了当前实践中固有的挑战和限制。此外，我们确定了文献中的空白。
+    多年来，从文本语料库中发现潜在主题一直是研究的课题。许多现有的主题模型采用完全无监督的设置，由于它们无法利用用户指导，所以它们发现的主题可能不符合用户的特定兴趣。虽然存在利用用户提供的种子词来发现主题代表词的种子引导主题发现方法，但它们较少关注两个因素：(1)未登录词种子的存在和(2)预训练语言模型的能力。在本文中，我们将种子引导主题发现的任务推广到允许未登录词种子。我们提出了一个新的框架，名为SeeTopic，在其中PLM的通用知识和从输入语料库中学习的局部语义可以相互受益。在来自不同领域的三个真实数据集上的实验证明了SeeTopic在主题连贯性、准确性和多样性方面的有效性。
 
-    arXiv:2402.11068v1 Announce Type: cross  Abstract: Causal discovery (CD) and Large Language Models (LLMs) represent two emerging fields of study with significant implications for artificial intelligence. Despite their distinct origins, CD focuses on uncovering cause-effect relationships from data, and LLMs on processing and generating humanlike text, the convergence of these domains offers novel insights and methodologies for understanding complex systems. This paper presents a comprehensive survey of the integration of LLMs, such as GPT4, into CD tasks. We systematically review and compare existing approaches that leverage LLMs for various CD tasks and highlight their innovative use of metadata and natural language to infer causal structures. Our analysis reveals the strengths and potential of LLMs in both enhancing traditional CD methods and as an imperfect expert, alongside the challenges and limitations inherent in current practices. Furthermore, we identify gaps in the literature 
+    Discovering latent topics from text corpora has been studied for decades. Many existing topic models adopt a fully unsupervised setting, and their discovered topics may not cater to users' particular interests due to their inability of leveraging user guidance. Although there exist seed-guided topic discovery approaches that leverage user-provided seeds to discover topic-representative terms, they are less concerned with two factors: (1) the existence of out-of-vocabulary seeds and (2) the power of pre-trained language models (PLMs). In this paper, we generalize the task of seed-guided topic discovery to allow out-of-vocabulary seeds. We propose a novel framework, named SeeTopic, wherein the general knowledge of PLMs and the local semantics learned from the input corpus can mutually benefit each other. Experiments on three real datasets from different domains demonstrate the effectiveness of SeeTopic in terms of topic coherence, accuracy, and diversity.
     
-[^9]: 语言扩展：LLMs，ChatGPT，接地，意义和理解
+[^5]: 媒体倾向是具有传染性的。
 
-    Language Writ Large: LLMs, ChatGPT, Grounding, Meaning and Understanding
+    Media Slant is Contagious. (arXiv:2202.07269v2 [econ.GN] UPDATED)
 
-    [https://arxiv.org/abs/2402.02243](https://arxiv.org/abs/2402.02243)
+    [http://arxiv.org/abs/2202.07269](http://arxiv.org/abs/2202.07269)
 
-    ChatGPT在LLM规模上通过利用语言本身的收敛约束来做到超出预期的表现，但并不真正理解语义以及与感觉动作的直接联系。
-
-    
-
-    除了OpenAI可能对我们隐瞒的少量信息外，我们都大致知道ChatGPT是如何工作的（它的大型文本数据库，统计数据，向量表示以及它巨大的参数数量，其下一个词的训练等）。但我们谁也不能说我们对ChatGPT的这些资源所能做到的事情不感到惊讶。这甚至让我们有人得出结论，ChatGPT实际上理解了。它并不理解，但我们也不能说我们理解它是如何做到这一点的。我将提出关于良性偏见的一些猜想：在LLM规模上出现的收敛约束可能有助于ChatGPT做得比我们预期的好得多。这些偏见是语言本身在LLM规模上固有的，并且与ChatGPT缺乏直接的感觉动作接地以将其词与其所指的对象以及其命题与其意义联系起来密切相关。
-
-    Apart from what (little) OpenAI may be concealing from us, we all know (roughly) how ChatGPT works (its huge text database, its statistics, its vector representations, and their huge number of parameters, its next-word training, and so on). But none of us can say (hand on heart) that we are not surprised by what ChatGPT has proved to be able to do with these resources. This has even driven some of us to conclude that ChatGPT actually understands. It is not true that it understands. But it is also not true that we understand how it can do what it can do. I will suggest some hunches about benign biases: convergent constraints that emerge at LLM scale that may be helping ChatGPT do so much better than we would have expected. These biases are inherent in the nature of language itself, at LLM scale, and they are closely linked to what it is that ChatGPT lacks, which is direct sensorimotor grounding to connect its words to their referents and its propositions to their meanings. These converg
-    
-[^10]: 为社交感知的谈判对话开发辅助大型语言模型代理
-
-    Assistive Large Language Model Agents for Socially-Aware Negotiation Dialogues
-
-    [https://arxiv.org/abs/2402.01737](https://arxiv.org/abs/2402.01737)
-
-    本文旨在开发LLM代理以减轻多代理设置下谈判中的社交规范违反。我们引入了基于价值影响的环境学习（ICL）方法，用于为基于LLM的修正代理识别高质量的ICL示例，其中价值影响函数衡量谈判结果的质量。我们展示了这种方法与策略学习的联系，并提供了丰富的实证证据来证明其在三个不同主题的谈判中的有效性。
+    本文研究了国家有线电视新闻对美国本土报纸的影响，发现当地报纸的内容会因为当地 FNC 观众数量的增加而趋向于 FNC 的倾向，并且有线电视倾向会极化地方新闻内容。
 
     
 
-    本文旨在开发LLM代理以减轻多代理设置下谈判中的社交规范违反。我们通过让两个大型语言模型（LLM）扮演每次对话中的两名谈判者来模拟现实世界谈判。第三个LLM充当修正代理，重新编写违反规范的话语以改善谈判结果。由于这是一个新颖的任务，不存在手动构建的数据。为解决这个限制，我们引入了基于价值影响的环境学习（ICL）方法，用于为基于LLM的修正代理识别高质量的ICL示例，其中价值影响函数衡量谈判结果的质量。我们展示了这种方法与策略学习的联系，并提供了丰富的实证证据来证明其在三个不同主题的谈判中的有效性，即产品销售、房价和薪资谈判。源代码和生成的数据集将在接受后公开。
+    本研究考察了媒体倾向的传播，具体来说是国家有线电视新闻对美国本土报纸（2005-2008）的影响。我们使用一种基于 Fox News Channel（FNC）、CNN 和 MSNBC 内容的有线电视倾向文本度量方法，分析地方报纸如何采用 FNC 的倾向而不是 CNN/MSNBC 的倾向。研究结果显示，地方新闻随着当地 FNC 观众人数的外部增长而变得更加类似于 FNC 的内容。这种转变不仅限于从有线电视借鉴，而是地方报纸自身内容的改变。此外，有线电视倾向极化了地方新闻内容。
 
-    In this work, we aim to develop LLM agents to mitigate social norm violations in negotiations in a multi-agent setting. We simulate real-world negotiations by letting two large Language Models (LLMs) play the roles of two negotiators in each conversation. A third LLM acts as a remediation agent to rewrite utterances violating norms for improving negotiation outcomes. As it is a novel task, no manually constructed data is available. To address this limitation, we introduce a value impact based In-Context Learning (ICL) method to identify high-quality ICL examples for the LLM-based remediation agents, where the value impact function measures the quality of negotiation outcomes. We show the connection of this method to policy learning and provide rich empirical evidence to demonstrate its effectiveness in negotiations across three different topics: product sale, housing price, and salary negotiation. The source code and the generated dataset will be publicly available upon acceptance.
-    
-[^11]: SWEA:通过主题词嵌入修改改变大型语言模型中的事实知识
-
-    SWEA: Changing Factual Knowledge in Large Language Models via Subject Word Embedding Altering
-
-    [https://arxiv.org/abs/2401.17809](https://arxiv.org/abs/2401.17809)
-
-    提出了一种主题词嵌入修改框架（SWEA），通过在推理阶段修改主题的表示来编辑知识，保护模型的原始权重，避免不可逆的损害和额外的推理开销。
-
-    
-
-    模型编辑近来引起了广泛关注。目前的模型编辑方法主要涉及修改模型参数或向现有模型添加附加模块。然而，前者会对LLM造成不可逆的影响，而后者会产生额外的推理开销，并且模糊的向量匹配并不总是可靠的。为了解决这些问题，我们提出了一种可扩展的主题词嵌入修改（SWEA）框架，它在推理阶段修改主题的表示，并实现编辑知识的目标。SWEA在模型外部使用精确的关键匹配，并进行可靠的主题词嵌入修改，从而保护模型的原始权重而不增加推理开销。然后，我们提出优化抑制融合方法，首先优化编辑目标的嵌入向量，然后抑制知识嵌入维度（KED）以获得最终融合的嵌入。我们因此提出了SWEAOS元方法。
-
-    Model editing has recently gained widespread attention. Current model editing methods primarily involve modifying model parameters or adding additional modules to the existing model. However, the former causes irreversible damage to LLMs, while the latter incurs additional inference overhead and fuzzy vector matching is not always reliable. To address these issues, we propose an expandable Subject Word Embedding Altering (SWEA) framework, which modifies the representation of subjects and achieve the goal of editing knowledge during the inference stage. SWEA uses precise key matching outside the model and performs reliable subject word embedding altering, thus protecting the original weights of the model without increasing inference overhead. We then propose optimizing then suppressing fusion method, which first optimizes the embedding vector for the editing target and then suppresses the Knowledge Embedding Dimension (KED) to obtain the final fused embedding. We thus propose SWEAOS met
-    
-[^12]: 在跨语言转移范式中测量灾难性遗忘：探索调优策略
-
-    Measuring Catastrophic Forgetting in Cross-Lingual Transfer Paradigms: Exploring Tuning Strategies. (arXiv:2309.06089v1 [cs.CL])
-
-    [http://arxiv.org/abs/2309.06089](http://arxiv.org/abs/2309.06089)
-
-    该研究比较了不同的微调和跨语言转移策略在解决跨语言任务时的表现，评估了灾难性遗忘的程度和转移的成功程度。
-
-    
-
-    跨语言转移是一种解决资源匮乏语言任务的有希望的技术。在这个实证研究中，我们比较了两种与零射和全射学习方法相结合的大型语言模型在跨语言设置下的微调方法。作为微调策略，我们比较了参数效率适配器方法与所有参数微调。作为跨语言转移策略，我们比较了使用每个语言依次的中间训练（IT）和在微调的验证阶段已经使用目标语言的跨语言验证（CLV）。我们评估了转移的成功程度以及源语言中由于跨语言转移而导致的灾难性遗忘的程度，即在学习不同语言中的新信息时之前获得的知识损失了多少。在两个不同的分类问题上，包括仇恨言论检测和产品评论，分别包含了多个语种数据集的结果。
-
-    The cross-lingual transfer is a promising technique to solve tasks in less-resourced languages. In this empirical study, we compare two fine-tuning approaches combined with zero-shot and full-shot learning approaches for large language models in a cross-lingual setting. As fine-tuning strategies, we compare parameter-efficient adapter methods with fine-tuning of all parameters. As cross-lingual transfer strategies, we compare the intermediate-training (\textit{IT}) that uses each language sequentially and cross-lingual validation (\textit{CLV}) that uses a target language already in the validation phase of fine-tuning. We assess the success of transfer and the extent of catastrophic forgetting in a source language due to cross-lingual transfer, i.e., how much previously acquired knowledge is lost when we learn new information in a different language. The results on two different classification problems, hate speech detection and product reviews, each containing datasets in several lang
+    We examine the diffusion of media slant, specifically how partisan content from national cable news affects local newspapers in the U.S., 2005-2008. We use a text-based measure of cable news slant trained on content from Fox News Channel (FNC), CNN, and MSNBC to analyze how local newspapers adopt FNC's slant over CNN/MSNBC's. Our findings show that local news becomes more similar to FNC content in response to an exogenous increase in local FNC viewership. This shift is not limited to borrowing from cable news, but rather, local newspapers' own content changes. Further, cable TV slant polarizes local news content.
     
 

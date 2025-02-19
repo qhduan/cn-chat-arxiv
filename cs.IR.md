@@ -2,52 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Dual-Channel Multiplex Graph Neural Networks for Recommendation](https://arxiv.org/abs/2403.11624) | 该研究提出了一种名为双通道多重图神经网络（DCMGNN）的新型推荐框架，能够有效解决现有推荐方法中存在的多通路关系行为模式建模和对目标关系影响忽略的问题。 |
-| [^2] | [From Data to Decisions: The Transformational Power of Machine Learning in Business Recommendations](https://arxiv.org/abs/2402.08109) | 本研究探讨了机器学习在商业推荐系统中的作用，着重研究了数据源、特征工程和评估指标等方面的重要性，并突显了推荐引擎对用户体验和决策过程的重要影响。 |
-| [^3] | [Cross-domain Recommender Systems via Multimodal Domain Adaptation.](http://arxiv.org/abs/2306.13887) | 通过多模态领域自适应技术实现跨领域推荐系统，解决数据稀疏性问题，提升推荐性能。 |
+| [^1] | [CODE-ACCORD: A Corpus of Building Regulatory Data for Rule Generation towards Automatic Compliance Checking](https://arxiv.org/abs/2403.02231) | 介绍了一个独特的数据集CODE-ACCORD，旨在解决自动合规检查中解释建筑法规的挑战，成为机器可读规则生成的基础。 |
+| [^2] | [Causal Learning for Trustworthy Recommender Systems: A Survey](https://arxiv.org/abs/2402.08241) | 本文概述了从因果学习的角度对可信赖的推荐系统进行调查。因果学习提供了一种解决TRS中潜在偏见和噪声的方法，同时提供了深入的解释。然而，在这个充满活力的领域中，缺乏一个及时的调查。 |
+| [^3] | [Seed-Guided Topic Discovery with Out-of-Vocabulary Seeds.](http://arxiv.org/abs/2205.01845) | 本文提出了一种带有未登录词种子的主题发现方法，将预训练语言模型和来自输入语料库的局部语义相结合，实验证明了该方法在主题连贯性、准确性和多样性方面的有效性。 |
 
 # 详细
 
-[^1]: 双通道多重图神经网络用于推荐
+[^1]: CODE-ACCORD：用于规则生成的建筑法规数据语料库
 
-    Dual-Channel Multiplex Graph Neural Networks for Recommendation
+    CODE-ACCORD: A Corpus of Building Regulatory Data for Rule Generation towards Automatic Compliance Checking
 
-    [https://arxiv.org/abs/2403.11624](https://arxiv.org/abs/2403.11624)
+    [https://arxiv.org/abs/2403.02231](https://arxiv.org/abs/2403.02231)
 
-    该研究提出了一种名为双通道多重图神经网络（DCMGNN）的新型推荐框架，能够有效解决现有推荐方法中存在的多通路关系行为模式建模和对目标关系影响忽略的问题。
-
-    
-
-    高效的推荐系统在准确捕捉反映个人偏好的用户和项目属性方面发挥着至关重要的作用。一些现有的推荐技术已经开始将重点转向在真实世界的推荐场景中对用户和项目之间的各种类型交互关系进行建模，例如在线购物平台上的点击、标记收藏和购买。然而，这些方法仍然面临两个重要的缺点：(1) 不足的建模和利用用户和项目之间多通路关系形成的各种行为模式对表示学习的影响，以及(2) 忽略了行为模式中不同关系对推荐系统场景中目标关系的影响。在本研究中，我们介绍了一种新颖的推荐框架，即双通道多重图神经网络（DCMGNN），该框架解决了上述挑战。
-
-    arXiv:2403.11624v1 Announce Type: cross  Abstract: Efficient recommender systems play a crucial role in accurately capturing user and item attributes that mirror individual preferences. Some existing recommendation techniques have started to shift their focus towards modeling various types of interaction relations between users and items in real-world recommendation scenarios, such as clicks, marking favorites, and purchases on online shopping platforms. Nevertheless, these approaches still grapple with two significant shortcomings: (1) Insufficient modeling and exploitation of the impact of various behavior patterns formed by multiplex relations between users and items on representation learning, and (2) ignoring the effect of different relations in the behavior patterns on the target relation in recommender system scenarios. In this study, we introduce a novel recommendation framework, Dual-Channel Multiplex Graph Neural Network (DCMGNN), which addresses the aforementioned challenges
-    
-[^2]: 从数据到决策：机器学习在商业推荐中的转变力量
-
-    From Data to Decisions: The Transformational Power of Machine Learning in Business Recommendations
-
-    [https://arxiv.org/abs/2402.08109](https://arxiv.org/abs/2402.08109)
-
-    本研究探讨了机器学习在商业推荐系统中的作用，着重研究了数据源、特征工程和评估指标等方面的重要性，并突显了推荐引擎对用户体验和决策过程的重要影响。
+    介绍了一个独特的数据集CODE-ACCORD，旨在解决自动合规检查中解释建筑法规的挑战，成为机器可读规则生成的基础。
 
     
 
-    本研究旨在探讨机器学习对推荐系统在商业环境中演变和有效性的影响，特别是在它们在商业环境中日益重要的背景下。在方法论上，研究深入探讨了机器学习在推荐系统中塑造和改进的作用，着重研究数据来源、特征工程和评估指标的重要性，从而突显了增强推荐算法的迭代性质。研究还探讨了推荐引擎在各个领域的应用，通过高级算法和数据分析驱动，展示了它们对用户体验和决策过程的重要影响。这些引擎不仅简化了信息发现和增强了协作，还加快了知识获取，对企业在数字化领域中的导航至关重要。它们对销售、收入和企业竞争优势的贡献非常重要。
+    自动合规检查（ACC）在建筑、工程和施工（AEC）领域内的自动合规检查需要自动解释建筑法规，以发挥其全部潜力。然而，从文本规则中提取信息以将其转换为机器可读格式由于自然语言的复杂性以及仅能支持先进的机器学习技术的有限资源而成为一个挑战。为了解决这一挑战，我们介绍了一个独特的数据集CODE-ACCORD，这是在欧盟Horizon ACCORD项目下编制的。CODE-ACCORD包含862个来自英格兰和芬兰建筑法规的自包含句子。与我们的核心目标一致，即促进从文本中提取信息以生成机器可读规则，每个句子都注释了实体和关系。实体代表特定组件，如“窗户”和“烟雾探测器”，而re
 
-    This research aims to explore the impact of Machine Learning (ML) on the evolution and efficacy of Recommendation Systems (RS), particularly in the context of their growing significance in commercial business environments. Methodologically, the study delves into the role of ML in crafting and refining these systems, focusing on aspects such as data sourcing, feature engineering, and the importance of evaluation metrics, thereby highlighting the iterative nature of enhancing recommendation algorithms. The deployment of Recommendation Engines (RE), driven by advanced algorithms and data analytics, is explored across various domains, showcasing their significant impact on user experience and decision-making processes. These engines not only streamline information discovery and enhance collaboration but also accelerate knowledge acquisition, proving vital in navigating the digital landscape for businesses. They contribute significantly to sales, revenue, and the competitive edge of enterpr
+    arXiv:2403.02231v1 Announce Type: new  Abstract: Automatic Compliance Checking (ACC) within the Architecture, Engineering, and Construction (AEC) sector necessitates automating the interpretation of building regulations to achieve its full potential. However, extracting information from textual rules to convert them to a machine-readable format has been a challenge due to the complexities associated with natural language and the limited resources that can support advanced machine-learning techniques. To address this challenge, we introduce CODE-ACCORD, a unique dataset compiled under the EU Horizon ACCORD project. CODE-ACCORD comprises 862 self-contained sentences extracted from the building regulations of England and Finland. Aligned with our core objective of facilitating information extraction from text for machine-readable rule generation, each sentence was annotated with entities and relations. Entities represent specific components such as "window" and "smoke detectors", while re
     
-[^3]: 通过多模态领域自适应实现跨领域推荐系统
+[^2]: 可信赖的推荐系统的因果推理技术：一项调查的综述
 
-    Cross-domain Recommender Systems via Multimodal Domain Adaptation. (arXiv:2306.13887v1 [cs.IR])
+    Causal Learning for Trustworthy Recommender Systems: A Survey
 
-    [http://arxiv.org/abs/2306.13887](http://arxiv.org/abs/2306.13887)
+    [https://arxiv.org/abs/2402.08241](https://arxiv.org/abs/2402.08241)
 
-    通过多模态领域自适应技术实现跨领域推荐系统，解决数据稀疏性问题，提升推荐性能。
+    本文概述了从因果学习的角度对可信赖的推荐系统进行调查。因果学习提供了一种解决TRS中潜在偏见和噪声的方法，同时提供了深入的解释。然而，在这个充满活力的领域中，缺乏一个及时的调查。
 
     
 
-    协同过滤（CF）已成为推荐系统最重要的实现策略之一。关键思想是利用个人使用模式生成个性化推荐。尤其是对于新推出的平台，CF技术常常面临数据稀疏性的问题，这极大地限制了它们的性能。在解决数据稀疏性问题方面，文献中提出了几种方法，其中跨领域协同过滤（CDCF）在最近受到了广泛的关注。为了补偿目标领域中可用反馈的不足，CDCF方法利用其他辅助领域中的信息。大多数传统的CDCF方法的目标是在领域之间找到一组共同的实体（用户或项目），然后将它们用作知识转移的桥梁。但是，大多数真实世界的数据集是从不同的领域收集的，这使得跨领域协同过滤更加具有挑战性。
+    推荐系统（RS）在在线内容发现和个性化决策方面取得了显著进展。然而，RS中出现的漏洞促使了向可信赖的推荐系统（TRS）的范式转变。尽管TRS取得了许多进展，但大部分都集中在数据相关性上，而忽视了推荐中的基本因果关系。这个缺点阻碍了TRS在解决可信赖性问题时识别原因，导致公平性、鲁棒性和可解释性受到限制。为了弥补这一差距，因果学习作为一类有前途的方法出现，以增强TRS。这些方法以可靠的因果关系为基础，在减轻各种偏见和噪声的同时，为TRS提供了深入的解释。然而，在这个充满活力的领域中，缺乏一个及时的调查。本文从因果学习的角度对TRS进行了概述。我们首先介绍了因果导向TRS（CTRS）的优势和常见程序。接下来，我们确定了潜在的因果学习方法在TRS中的应用领域。
 
-    Collaborative Filtering (CF) has emerged as one of the most prominent implementation strategies for building recommender systems. The key idea is to exploit the usage patterns of individuals to generate personalized recommendations. CF techniques, especially for newly launched platforms, often face a critical issue known as the data sparsity problem, which greatly limits their performance. Several approaches have been proposed in the literature to tackle the problem of data sparsity, among which cross-domain collaborative filtering (CDCF) has gained significant attention in the recent past. In order to compensate for the scarcity of available feedback in a target domain, the CDCF approach makes use of information available in other auxiliary domains. Most of the traditional CDCF approach aim is to find a common set of entities (users or items) across the domains and then use them as a bridge for knowledge transfer. However, most real-world datasets are collected from different domains,
+    Recommender Systems (RS) have significantly advanced online content discovery and personalized decision-making. However, emerging vulnerabilities in RS have catalyzed a paradigm shift towards Trustworthy RS (TRS). Despite numerous progress on TRS, most of them focus on data correlations while overlooking the fundamental causal nature in recommendation. This drawback hinders TRS from identifying the cause in addressing trustworthiness issues, leading to limited fairness, robustness, and explainability. To bridge this gap, causal learning emerges as a class of promising methods to augment TRS. These methods, grounded in reliable causality, excel in mitigating various biases and noises while offering insightful explanations for TRS. However, there lacks a timely survey in this vibrant area. This paper creates an overview of TRS from the perspective of causal learning. We begin by presenting the advantages and common procedures of Causality-oriented TRS (CTRS). Then, we identify potential 
+    
+[^3]: 带有未登录词种子的主题发现
+
+    Seed-Guided Topic Discovery with Out-of-Vocabulary Seeds. (arXiv:2205.01845v1 [cs.CL] CROSS LISTED)
+
+    [http://arxiv.org/abs/2205.01845](http://arxiv.org/abs/2205.01845)
+
+    本文提出了一种带有未登录词种子的主题发现方法，将预训练语言模型和来自输入语料库的局部语义相结合，实验证明了该方法在主题连贯性、准确性和多样性方面的有效性。
+
+    
+
+    多年来，从文本语料库中发现潜在主题一直是研究的课题。许多现有的主题模型采用完全无监督的设置，由于它们无法利用用户指导，所以它们发现的主题可能不符合用户的特定兴趣。虽然存在利用用户提供的种子词来发现主题代表词的种子引导主题发现方法，但它们较少关注两个因素：(1)未登录词种子的存在和(2)预训练语言模型的能力。在本文中，我们将种子引导主题发现的任务推广到允许未登录词种子。我们提出了一个新的框架，名为SeeTopic，在其中PLM的通用知识和从输入语料库中学习的局部语义可以相互受益。在来自不同领域的三个真实数据集上的实验证明了SeeTopic在主题连贯性、准确性和多样性方面的有效性。
+
+    Discovering latent topics from text corpora has been studied for decades. Many existing topic models adopt a fully unsupervised setting, and their discovered topics may not cater to users' particular interests due to their inability of leveraging user guidance. Although there exist seed-guided topic discovery approaches that leverage user-provided seeds to discover topic-representative terms, they are less concerned with two factors: (1) the existence of out-of-vocabulary seeds and (2) the power of pre-trained language models (PLMs). In this paper, we generalize the task of seed-guided topic discovery to allow out-of-vocabulary seeds. We propose a novel framework, named SeeTopic, wherein the general knowledge of PLMs and the local semantics learned from the input corpus can mutually benefit each other. Experiments on three real datasets from different domains demonstrate the effectiveness of SeeTopic in terms of topic coherence, accuracy, and diversity.
     
 
