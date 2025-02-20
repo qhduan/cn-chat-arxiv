@@ -2,97 +2,97 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Synthetic Control Methods by Density Matching under Implicit Endogeneitiy.](http://arxiv.org/abs/2307.11127) | 本文提出了一种新型的合成对照方法，通过密度匹配来解决现有SCMs中的隐式内生性问题。该方法通过将经过处理单元的结果密度与未处理单元的密度进行加权平均来估计SC权重。 |
-| [^2] | [Recurring Auctions with Costly Entry: Theory and Evidence.](http://arxiv.org/abs/2306.17355) | 重复拍卖在买方面临高成本参与时，在效率和收入方面优于单轮拍卖。原因是重复拍卖允许不同价值的买家在不同时间进入，从而节省了进入成本并增加了整体售卖概率。 |
-| [^3] | [Self-Resolving Prediction Markets for Unverifiable Outcomes.](http://arxiv.org/abs/2306.04305) | 该论文提出了一种新颖的预测市场机制，允许在无法验证结果的情况下从一组代理中收集信息和汇总预测，使用机器学习模型，实现自治以及避免了需进一步的验证或干预。 |
-| [^4] | [Adjustment with Many Regressors Under Covariate-Adaptive Randomizations.](http://arxiv.org/abs/2304.08184) | 本文关注协变量自适应随机化中的因果推断，在使用回归调整时需要权衡效率与估计误差成本。作者提供了关于经过回归调整的平均处理效应（ATE）估计器的统一推断理论。 |
-| [^5] | [Correlation between upstreamness and downstreamness in random global value chains.](http://arxiv.org/abs/2303.06603) | 本文研究了全球价值链中产业和国家的上游和下游，发现同一产业部门的上游和下游之间存在正相关性。 |
-| [^6] | [Media Slant is Contagious.](http://arxiv.org/abs/2202.07269) | 本文研究了国家有线电视新闻对美国本土报纸的影响，发现当地报纸的内容会因为当地 FNC 观众数量的增加而趋向于 FNC 的倾向，并且有线电视倾向会极化地方新闻内容。 |
+| [^1] | [The Power of Linear Programming in Sponsored Listings Ranking: Evidence from Field Experiments](https://arxiv.org/abs/2403.14862) | 线性规划在赞助列表排名中的应用为解决在线市场中的排名挑战提供了有力工具 |
+| [^2] | [Bootstrapping Fisher Market Equilibrium and First-Price Pacing Equilibrium](https://arxiv.org/abs/2402.02303) | 本文引入和设计了几个对线性费舍尔市场（LFM）和一手价格竞价均衡（FPPE）进行统计有效自举推断的过程，其中最具挑战性的是对一般FPPE进行自举。通过使用环收敛理论的有力工具，在温和的退化条件下成功设计了FPPE的自举过程。 |
+| [^3] | [Stationarity with Occasionally Binding Constraints.](http://arxiv.org/abs/2307.06190) | 本文研究了一类能够适应受临时限制的系列的多元阈值自回归模型，提出了稳定、遍历、弱依赖的充分条件，并对单位根和协整性提供了处理方法。 |
+| [^4] | [T\^atonnement in Homothetic Fisher Markets.](http://arxiv.org/abs/2306.04890) | 本论文识别了希克斯需求的价格弹性的绝对值最大值作为市场涨跌过程中的经济参数，在同类菲舍尔市场中证明了涨跌过程的收敛率为$O((1+\varepsilon^2)/T)$。 |
+| [^5] | [Cointegration with Occasionally Binding Constraints.](http://arxiv.org/abs/2211.09604) | 本研究在非线性协整性的背景下，探讨了在时变约束下如何生成共同的线性和非线性随机趋势的问题。通过使用被审查和弯曲的结构化VAR模型，我们提供了对于时间序列受到阈值型非线性性质影响的全面描述。 |
+| [^6] | [Sequential Elimination Contests with All-Pay Auctions.](http://arxiv.org/abs/2205.08104) | 本文研究了带全付拍卖的顺序淘汰比赛，在设计者无法得知所有选手类型情况下，对于有限的选手数量，我们明确定义了均衡策略和期望的最优机制，并为设计者提供了一些众包比赛的设计启示。 |
 
 # 详细
 
-[^1]: 通过密度匹配实现的合成对照方法下的隐式内生性问题
+[^1]: 线性规划在赞助列表排名中的威力：来自现场实验的证据
 
-    Synthetic Control Methods by Density Matching under Implicit Endogeneitiy. (arXiv:2307.11127v1 [econ.EM])
+    The Power of Linear Programming in Sponsored Listings Ranking: Evidence from Field Experiments
 
-    [http://arxiv.org/abs/2307.11127](http://arxiv.org/abs/2307.11127)
+    [https://arxiv.org/abs/2403.14862](https://arxiv.org/abs/2403.14862)
 
-    本文提出了一种新型的合成对照方法，通过密度匹配来解决现有SCMs中的隐式内生性问题。该方法通过将经过处理单元的结果密度与未处理单元的密度进行加权平均来估计SC权重。
-
-    
-
-    合成对照方法（SCMs）已成为比较案例研究中因果推断的重要工具。SCMs的基本思想是通过使用来自未处理单元的观测结果的加权和来估计经过处理单元的反事实结果。合成对照（SC）的准确性对于估计因果效应至关重要，因此，SC权重的估计成为了研究的焦点。在本文中，我们首先指出现有的SCMs存在一个隐式内生性问题，即未处理单元的结果与反事实结果模型中的误差项之间的相关性。我们展示了这个问题会对因果效应估计器产生偏差。然后，我们提出了一种基于密度匹配的新型SCM，假设经过处理单元的结果密度可以用未处理单元的密度的加权平均来近似（即混合模型）。基于这一假设，我们通过匹配来估计SC权重。
-
-    Synthetic control methods (SCMs) have become a crucial tool for causal inference in comparative case studies. The fundamental idea of SCMs is to estimate counterfactual outcomes for a treated unit by using a weighted sum of observed outcomes from untreated units. The accuracy of the synthetic control (SC) is critical for estimating the causal effect, and hence, the estimation of SC weights has been the focus of much research. In this paper, we first point out that existing SCMs suffer from an implicit endogeneity problem, which is the correlation between the outcomes of untreated units and the error term in the model of a counterfactual outcome. We show that this problem yields a bias in the causal effect estimator. We then propose a novel SCM based on density matching, assuming that the density of outcomes of the treated unit can be approximated by a weighted average of the densities of untreated units (i.e., a mixture model). Based on this assumption, we estimate SC weights by matchi
-    
-[^2]: 高成本参与的重复拍卖：理论与证据
-
-    Recurring Auctions with Costly Entry: Theory and Evidence. (arXiv:2306.17355v1 [econ.TH])
-
-    [http://arxiv.org/abs/2306.17355](http://arxiv.org/abs/2306.17355)
-
-    重复拍卖在买方面临高成本参与时，在效率和收入方面优于单轮拍卖。原因是重复拍卖允许不同价值的买家在不同时间进入，从而节省了进入成本并增加了整体售卖概率。
+    线性规划在赞助列表排名中的应用为解决在线市场中的排名挑战提供了有力工具
 
     
 
-    重复拍卖在出售耐用资产，如土地、房屋或艺术品方面普遍存在：当卖方在初始拍卖中无法出售物品时，她通常会在不久的将来举行下一个拍卖。本文在理论和实证两方面对重复拍卖的设计进行了表征。在理论方面，我们表明当潜在买家面临高成本参与时，重复拍卖在效率和收入方面优于单轮拍卖。这是因为重复拍卖允许具有不同价值的潜在买家在不同时间进入，从而降低了进入成本并增加了整体售卖概率。我们进一步推导了在重复拍卖中保留价格的最佳序列，这取决于卖方的目标是最大化效率还是收入。在实证方面，我们将理论应用于中国的房屋被收购拍卖中，一套被收购的房屋最多连续拍卖三次。在估计结构参数之后
+    赞助列表是许多知名在线市场的主要收入来源之一，如亚马逊、沃尔玛和阿里巴巴。在线市场可能在展示特定商品的网页上除了该商品外，还会展示来自各种第三方卖家的赞助商品的排名列表。针对每次访问确定如何对这些赞助商品进行排名是在线市场的一个关键挑战，这个问题被称为赞助列表排名（SLR）。SLR的主要困难在于平衡最大化整体收入和推荐高质量和相关排名列表之间的权衡。虽然更相关的排名可能导致更多的购买和消费者参与，但市场在制定排名决策时还需要考虑潜在收入。
 
-    Recurring auctions are ubiquitous for selling durable assets, such as land, home, or artwork: When the seller cannot sell the item in the initial auction, she often holds a subsequent auction in the near future. This paper characterizes the design of recurring auctions, both theoretically and empirically. On the theoretical side, we show that recurring auctions outperform single-round auctions in efficiency and revenue when potential buyers face costly entry. This occurs because recurring auctions allow potential buyers with different values to enter at different times, which generates savings in entry costs and increases the overall probability of sale. We further derive the optimal sequence of reserve prices in recurring auctions, depending on whether the seller aims to maximize efficiency or revenue. On the empirical side, we apply the theory to home foreclosure auctions in China, where a foreclosed home is auctioned up to three times in a row. After estimating structural parameters
+    arXiv:2403.14862v1 Announce Type: new  Abstract: Sponsored listing is one of the major revenue sources for many prominent online marketplaces, such as Amazon, Walmart, and Alibaba. When consumers visit a marketplace's webpage for a specific item, in addition to that item, the marketplace might also display a ranked listing of sponsored items from various third-party sellers. These sellers are charged an advertisement fee if a user purchases any of the sponsored items from this listing. Determining how to rank these sponsored items for each incoming visit is a crucial challenge for online marketplaces, a problem known as sponsored listings ranking (SLR). The major difficulty of SLR lies in balancing the trade-off between maximizing the overall revenue and recommending high-quality and relevant ranked listings. While a more relevant ranking may result in more purchases and consumer engagement, the marketplace also needs to take account of the potential revenue when making ranking decisio
     
-[^3]: 无法验证结果的自动解决预测市场
+[^2]: 自举费舍尔市场均衡和一手价格竞价均衡
 
-    Self-Resolving Prediction Markets for Unverifiable Outcomes. (arXiv:2306.04305v1 [cs.GT])
+    Bootstrapping Fisher Market Equilibrium and First-Price Pacing Equilibrium
 
-    [http://arxiv.org/abs/2306.04305](http://arxiv.org/abs/2306.04305)
+    [https://arxiv.org/abs/2402.02303](https://arxiv.org/abs/2402.02303)
 
-    该论文提出了一种新颖的预测市场机制，允许在无法验证结果的情况下从一组代理中收集信息和汇总预测，使用机器学习模型，实现自治以及避免了需进一步的验证或干预。
-
-    
-
-    预测市场通过根据预测是否接近可验证的未来结果向代理支付费用来激励和汇总信念。然而，许多重要问题的结果难以验证或不可验证，因为可能很难或不可能获取实际情况。我们提出了一种新颖而又不直观的结果，表明可以通过向代理支付其预测与精心选择的参考代理的预测之间的负交叉熵来运行一个ε-激励兼容的预测市场，从代理池中获取信息并进行有效的汇总，而不需要观察结果。我们的机制利用一个离线的机器学习模型，该模型根据市场设计者已知的一组特征来预测结果，从而使市场能够在观察到结果后自行解决并立即向代理支付报酬，而不需要进一步的验证或干预。我们对我们的机制的效率、激励兼容性和收敛性提供了理论保证，同时在几个真实世界的数据集上进行了验证。
-
-    Prediction markets elicit and aggregate beliefs by paying agents based on how close their predictions are to a verifiable future outcome. However, outcomes of many important questions are difficult to verify or unverifiable, in that the ground truth may be hard or impossible to access. Examples include questions about causal effects where it is infeasible or unethical to run randomized trials; crowdsourcing and content moderation tasks where it is prohibitively expensive to verify ground truth; and questions asked over long time horizons, where the delay until the realization of the outcome skews agents' incentives to report their true beliefs. We present a novel and unintuitive result showing that it is possible to run an $\varepsilon-$incentive compatible prediction market to elicit and efficiently aggregate information from a pool of agents without observing the outcome by paying agents the negative cross-entropy between their prediction and that of a carefully chosen reference agen
-    
-[^4]: 协变量自适应随机化下的多个回归器的调整
-
-    Adjustment with Many Regressors Under Covariate-Adaptive Randomizations. (arXiv:2304.08184v1 [econ.EM])
-
-    [http://arxiv.org/abs/2304.08184](http://arxiv.org/abs/2304.08184)
-
-    本文关注协变量自适应随机化中的因果推断，在使用回归调整时需要权衡效率与估计误差成本。作者提供了关于经过回归调整的平均处理效应（ATE）估计器的统一推断理论。
+    本文引入和设计了几个对线性费舍尔市场（LFM）和一手价格竞价均衡（FPPE）进行统计有效自举推断的过程，其中最具挑战性的是对一般FPPE进行自举。通过使用环收敛理论的有力工具，在温和的退化条件下成功设计了FPPE的自举过程。
 
     
 
-    本文针对协变量自适应随机化（CAR）中的因果推断使用回归调整（RA）时存在的权衡进行了研究。RA可以通过整合未用于随机分配的协变量信息来提高因果估计器的效率。但是，当回归器数量与样本量同阶时，RA的估计误差不能渐近忽略，会降低估计效率。没有考虑RA成本的结果可能导致在零假设下过度拒绝因果推断。为了解决这个问题，我们在CAR下为经过回归调整的平均处理效应（ATE）估计器开发了一种统一的推断理论。我们的理论具有两个关键特征：（1）确保在零假设下的精确渐近大小，无论协变量数量是固定还是最多以样本大小的速度发散，（2）确保在协变量维度方面都比未调整的估计器弱效提高.
+    线性费舍尔市场（LFM）是经济学中的一个基本均衡模型，也在公平和高效的资源分配方面有应用。一手价格竞价均衡（FPPE）是一种捕捉第一价格拍卖中预算管理机制的模型。在某些实际情况下，如广告拍卖，在这些模型上进行统计推断具有一定的兴趣。一种广泛应用于一般统计推断的常用方法是自举过程。然而，对于LFM和FPPE，目前不存在有效应用自举程序的理论。在本文中，我们引入并设计了几个对LFM和FPPE进行统计有效自举推断的过程。最具挑战性的部分是对一般FPPE进行自举，这归结为自举约束M-估计量，这是一个很大程度上未开发的问题。我们通过使用环收敛理论的有力工具，在温和的退化条件下为FPPE设计了一个自举过程。通过合成和实际数据的实验证明了我们的方法的有效性。
 
-    Our paper identifies a trade-off when using regression adjustments (RAs) in causal inference under covariate-adaptive randomizations (CARs). On one hand, RAs can improve the efficiency of causal estimators by incorporating information from covariates that are not used in the randomization. On the other hand, RAs can degrade estimation efficiency due to their estimation errors, which are not asymptotically negligible when the number of regressors is of the same order as the sample size. Failure to account for the cost of RAs can result in over-rejection of causal inference under the null hypothesis. To address this issue, we develop a unified inference theory for the regression-adjusted average treatment effect (ATE) estimator under CARs. Our theory has two key features: (1) it ensures the exact asymptotic size under the null hypothesis, regardless of whether the number of covariates is fixed or diverges at most at the rate of the sample size, and (2) it guarantees weak efficiency impro
+    The linear Fisher market (LFM) is a basic equilibrium model from economics, which also has applications in fair and efficient resource allocation. First-price pacing equilibrium (FPPE) is a model capturing budget-management mechanisms in first-price auctions. In certain practical settings such as advertising auctions, there is an interest in performing statistical inference over these models. A popular methodology for general statistical inference is the bootstrap procedure. Yet, for LFM and FPPE there is no existing theory for the valid application of bootstrap procedures. In this paper, we introduce and devise several statistically valid bootstrap inference procedures for LFM and FPPE. The most challenging part is to bootstrap general FPPE, which reduces to bootstrapping constrained M-estimators, a largely unexplored problem. We devise a bootstrap procedure for FPPE under mild degeneracy conditions by using the powerful tool of epi-convergence theory. Experiments with synthetic and s
     
-[^5]: 随机全球价值链中上游和下游之间的相关性
+[^3]: 临时限制与时不时约束下的稳定性
 
-    Correlation between upstreamness and downstreamness in random global value chains. (arXiv:2303.06603v1 [stat.AP])
+    Stationarity with Occasionally Binding Constraints. (arXiv:2307.06190v1 [econ.EM])
 
-    [http://arxiv.org/abs/2303.06603](http://arxiv.org/abs/2303.06603)
+    [http://arxiv.org/abs/2307.06190](http://arxiv.org/abs/2307.06190)
 
-    本文研究了全球价值链中产业和国家的上游和下游，发现同一产业部门的上游和下游之间存在正相关性。
-
-    This paper studies the upstreamness and downstreamness of industries and countries in global value chains, and finds a positive correlation between upstreamness and downstreamness of the same industrial sector.
-
-    本文关注全球价值链中产业和国家的上游和下游。上游和下游分别衡量产业部门与最终消费和初级输入之间的平均距离，并基于最常用的全球投入产出表数据库（例如世界投入产出数据库（WIOD））进行计算。最近，Antr\`as和Chor在1995-2011年的数据中报告了一个令人困惑和反直觉的发现，即（在国家层面上）上游似乎与下游呈正相关，相关斜率接近+1。这种效应随时间和跨国家稳定存在，并已得到后续分析的确认和验证。我们分析了一个简单的随机投入产出表模型，并展示了在最小和现实的结构假设下，同一产业部门的上游和下游之间存在正相关性，具有相关性。
-
-    This paper is concerned with upstreamness and downstreamness of industries and countries in global value chains. Upstreamness and downstreamness measure respectively the average distance of an industrial sector from final consumption and from primary inputs, and they are computed from based on the most used global Input-Output tables databases, e.g., the World Input-Output Database (WIOD). Recently, Antr\`as and Chor reported a puzzling and counter-intuitive finding in data from the period 1995-2011, namely that (at country level) upstreamness appears to be positively correlated with downstreamness, with a correlation slope close to $+1$. This effect is stable over time and across countries, and it has been confirmed and validated by later analyses. We analyze a simple model of random Input/Output tables, and we show that, under minimal and realistic structural assumptions, there is a positive correlation between upstreamness and downstreamness of the same industrial sector, with corre
-    
-[^6]: 媒体倾向是具有传染性的。
-
-    Media Slant is Contagious. (arXiv:2202.07269v2 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2202.07269](http://arxiv.org/abs/2202.07269)
-
-    本文研究了国家有线电视新闻对美国本土报纸的影响，发现当地报纸的内容会因为当地 FNC 观众数量的增加而趋向于 FNC 的倾向，并且有线电视倾向会极化地方新闻内容。
+    本文研究了一类能够适应受临时限制的系列的多元阈值自回归模型，提出了稳定、遍历、弱依赖的充分条件，并对单位根和协整性提供了处理方法。
 
     
 
-    本研究考察了媒体倾向的传播，具体来说是国家有线电视新闻对美国本土报纸（2005-2008）的影响。我们使用一种基于 Fox News Channel（FNC）、CNN 和 MSNBC 内容的有线电视倾向文本度量方法，分析地方报纸如何采用 FNC 的倾向而不是 CNN/MSNBC 的倾向。研究结果显示，地方新闻随着当地 FNC 观众人数的外部增长而变得更加类似于 FNC 的内容。这种转变不仅限于从有线电视借鉴，而是地方报纸自身内容的改变。此外，有线电视倾向极化了地方新闻内容。
+    本文研究了一类多元阈值自回归模型，即被截尾和弯曲的结构向量自回归（CKSVAR），这种模型能够适应受临时限制的系列。我们提出了一组满足CKSVAR生成的过程是稳定、遍历、弱依赖的充分条件。我们的条件直接与模型的确定性部分的稳定性相关，因此比一般向量阈值自回归（VTAR）模型通常可用的条件更为保守。虽然我们的标准涉及计算不可行的数量，如联合谱半径的改进，但它们可以通过数值逼近以高度精确度计算。我们的研究结果还允许我们对CKSVAR中的单位根和协整性进行处理，特别是在模型被配置为生成线性协整关系时。
 
-    We examine the diffusion of media slant, specifically how partisan content from national cable news affects local newspapers in the U.S., 2005-2008. We use a text-based measure of cable news slant trained on content from Fox News Channel (FNC), CNN, and MSNBC to analyze how local newspapers adopt FNC's slant over CNN/MSNBC's. Our findings show that local news becomes more similar to FNC content in response to an exogenous increase in local FNC viewership. This shift is not limited to borrowing from cable news, but rather, local newspapers' own content changes. Further, cable TV slant polarizes local news content.
+    This paper studies a class of multivariate threshold autoregressive models, known as censored and kinked structural vector autoregressions (CKSVAR), which are notably able to accommodate series that are subject to occasionally binding constraints. We develop a set of sufficient conditions for the processes generated by a CKSVAR to be stationary, ergodic, and weakly dependent. Our conditions relate directly to the stability of the deterministic part of the model, and are therefore less conservative than those typically available for general vector threshold autoregressive (VTAR) models. Though our criteria refer to quantities, such as refinements of the joint spectral radius, that cannot feasibly be computed exactly, they can be approximated numerically to a high degree of precision. Our results also permit us to provide a treatment of unit roots and cointegration in the CKSVAR, for the case where the model is configured so as to generate linear cointegration.
+    
+[^4]: 同类菲舍尔市场中的涨跌过程
+
+    T\^atonnement in Homothetic Fisher Markets. (arXiv:2306.04890v1 [cs.GT])
+
+    [http://arxiv.org/abs/2306.04890](http://arxiv.org/abs/2306.04890)
+
+    本论文识别了希克斯需求的价格弹性的绝对值最大值作为市场涨跌过程中的经济参数，在同类菲舍尔市场中证明了涨跌过程的收敛率为$O((1+\varepsilon^2)/T)$。
+
+    
+
+    经济学和计算领域中一个流行的主题是通过市场中卖家和买家可以发现均衡价格的自然价格调整过程。这种过程的一个例子是涨跌过程，这是一种类似于拍卖的算法，由法国经济学家瓦尔拉斯在1874年首次提出，卖家根据买家的马歇尔需求调整价格。消费者理论中的一个对偶概念是买家的希克斯需求。在本文中，我们确定希克斯需求的弹性的绝对值最大值，作为一个经济参数，足以捕捉和解释广泛类市场中收敛和非收敛的涨跌行为。特别是，在价格弹性受到限制的同类菲舍尔市场中，即由同类效用函数表示的消费者偏好和价格弹性受到限制的Fisher市场中，我们证明了tâtonnement的收敛率为$O((1+\varepsilon^2)/T)$。
+
+    A prevalent theme in the economics and computation literature is to identify natural price-adjustment processes by which sellers and buyers in a market can discover equilibrium prices. An example of such a process is t\^atonnement, an auction-like algorithm first proposed in 1874 by French economist Walras in which sellers adjust prices based on the Marshallian demands of buyers. A dual concept in consumer theory is a buyer's Hicksian demand. In this paper, we identify the maximum of the absolute value of the elasticity of the Hicksian demand, as an economic parameter sufficient to capture and explain a range of convergent and non-convergent t\^atonnement behaviors in a broad class of markets. In particular, we prove the convergence of t\^atonnement at a rate of $O((1+\varepsilon^2)/T)$, in homothetic Fisher markets with bounded price elasticity of Hicksian demand, i.e., Fisher markets in which consumers have preferences represented by homogeneous utility functions and the price elasti
+    
+[^5]: 时变约束下的协整性问题
+
+    Cointegration with Occasionally Binding Constraints. (arXiv:2211.09604v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2211.09604](http://arxiv.org/abs/2211.09604)
+
+    本研究在非线性协整性的背景下，探讨了在时变约束下如何生成共同的线性和非线性随机趋势的问题。通过使用被审查和弯曲的结构化VAR模型，我们提供了对于时间序列受到阈值型非线性性质影响的全面描述。
+
+    
+
+    在非线性协整性的文献中，一个长期的悬而未决问题是关于（非线性）向量自回归如何在时间序列的短期和长期动力学的统一描述中生成“非线性协整性”，即这些序列共享共同的非线性随机趋势。我们在被审查和弯曲的结构化VAR模型（CKSVAR）的背景下考虑了这个问题，该模型提供了一个灵活但易于处理的框架，用于建模受阈值型非线性性质影响的时间序列，例如由于偶尔出现的约束所导致的零下限（ZLB）。我们通过单位根和对通常秩条件的适当推广，提供了这一模型中如何产生共同线性和非线性随机趋势的完整特征描述，这是迄今为止对Granger-J的第一次扩展
+
+    In the literature on nonlinear cointegration, a long-standing open problem relates to how a (nonlinear) vector autoregression, which provides a unified description of the short- and long-run dynamics of a collection of time series, can generate 'nonlinear cointegration' in the profound sense of those series sharing common nonlinear stochastic trends. We consider this problem in the setting of the censored and kinked structural VAR (CKSVAR), which provides a flexible yet tractable framework within which to model time series that are subject to threshold-type nonlinearities, such as those arising due to occasionally binding constraints, of which the zero lower bound (ZLB) on short-term nominal interest rates provides a leading example. We provide a complete characterisation of how common linear and {nonlinear stochastic trends may be generated in this model, via unit roots and appropriate generalisations of the usual rank conditions, providing the first extension to date of the Granger-J
+    
+[^6]: 带全付拍卖的顺序淘汰比赛研究
+
+    Sequential Elimination Contests with All-Pay Auctions. (arXiv:2205.08104v2 [cs.GT] UPDATED)
+
+    [http://arxiv.org/abs/2205.08104](http://arxiv.org/abs/2205.08104)
+
+    本文研究了带全付拍卖的顺序淘汰比赛，在设计者无法得知所有选手类型情况下，对于有限的选手数量，我们明确定义了均衡策略和期望的最优机制，并为设计者提供了一些众包比赛的设计启示。
+
+    
+
+    本文研究了一种顺序淘汰比赛，比赛前需要过滤选手。这一模型的构建是基于许多众包比赛只有有限的评审资源，需要提高提交物品的整体质量这一实践的考虑。在第一种情况下，我们考虑选手的能力排名的知情设计者，允许 $2\leq n_2 \leq n_1$ 的前 $n_2$ 名选手参加比赛。进入比赛的选手会根据自己的能力排名可以进入前 $n_2$ 名的信号来更新对对手能力的信念。我们发现，即使具有IID先验，他们的后验信念仍然存在相关性，并且取决于选手的个人能力。我们明确地刻画了对称的和唯一的贝叶斯均衡策略。我们发现，每个被录取选手的均衡付出随 $n_2$ 的增加而增加，当 $n_2 \in [\lfloor{(n_1+1)/2}\rfloor+1,n_1]$ 时，但在 $n_2 \in [2, \lfloor{(n_1+1)/2}\rfloor]$ 时不一定单调。然后，我们考虑了更加现实的情况，设计者只具有有关选手类型的部分信息，选手类型在 $[0,1]$ 上独立均匀分布。我们得到了关于接受选手的期望最优机制性能的尖锐界限，以及每个进入比赛的选手均衡付出的界限。我们的结果对于众包比赛的设计具有重要意义。
+
+    We study a sequential elimination contest where players are filtered prior to the round of competing for prizes. This is motivated by the practice that many crowdsourcing contests have very limited resources of reviewers and want to improve the overall quality of the submissions. We first consider a setting where the designer knows the ranking of the abilities (types) of all $n_1$ registered players, and admit the top $n_2$ players with $2\leq n_2 \leq n_1$ into the contest. The players admitted into the contest update their beliefs about their opponents based on the signal that their abilities are among the top $n_2$. We find that their posterior beliefs, even with IID priors, are correlated and depend on players' private abilities.  We explicitly characterize the symmetric and unique Bayesian equilibrium strategy. We find that each admitted player's equilibrium effort is increasing in $n_2$ when $n_2 \in [\lfloor{(n_1+1)/2}\rfloor+1,n_1]$, but not monotone in general when $n_2 \in [2
     
 

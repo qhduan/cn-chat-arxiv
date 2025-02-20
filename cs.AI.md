@@ -2,142 +2,97 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Learning General Policies for Classical Planning Domains: Getting Beyond C$_2$](https://arxiv.org/abs/2403.11734) | 该研究提出了一种参数化版本的关系GNNs，通过在$t$为无穷大时仅使用二次空间的嵌入来近似$3$-GNNs，对于较低的$t$值，通过交换较少的消息实现弱的近似，同时通常产生了几个规划领域中所需的$C_3$特征。 |
-| [^2] | [AutoMathText: Autonomous Data Selection with Language Models for Mathematical Texts](https://arxiv.org/abs/2402.07625) | 本论文介绍了一种自主数据选择策略，利用语言模型进行数学文本的自动评估和选择，并通过连续预训练显著提高了数学推理能力。主要创新包括利用元提示语言模型作为验证器，发布了高质量的AutoMathText数据集，并实现了预训练令牌效率的提升。 |
-| [^3] | [A Learning-based Declarative Privacy-Preserving Framework for Federated Data Management.](http://arxiv.org/abs/2401.12393) | 本论文提出了一个基于学习的声明性隐私保护框架，通过使用Differentially-Private Stochastic Gradient Descent（DP-SGD）算法训练的深度学习模型替代部分实际数据来回答查询，并允许用户指定要保护的私人信息。此框架还可以自动选择转换计划和超参数，并允许人工专家审核和调整隐私保护机制。 |
-| [^4] | [Multimodal Sentiment Analysis with Missing Modality: A Knowledge-Transfer Approach.](http://arxiv.org/abs/2401.10747) | 本文提出了一种知识迁移方法，用于在缺失模态下进行多模态情感分析。通过翻译不同模态之间的内容以重构缺失的音频模态，并利用跨模态注意机制进行情感预测，实验证明了该方法在多个数据集上表现出显著的改进和与完整多模态监督方法相媲美的效果。 |
-| [^5] | [Approximate Multiagent Reinforcement Learning for On-Demand Urban Mobility Problem on a Large Map (extended version).](http://arxiv.org/abs/2311.01534) | 本文研究了大型城市环境下的自主多智能体出租车路径问题，提出了一个近似滚动为基础的两阶段算法来减少计算量。 |
-| [^6] | [Evaluating LLMs for Privilege-Escalation Scenarios.](http://arxiv.org/abs/2310.11409) | 本研究评估了在特权升级场景中利用语言模型（LLMs）进行渗透测试的应用。通过创建一个自动化的Linux特权升级基准和一个LLM-guided特权升级工具，我们分析了LLMs的不同提示设计、上下文学习和高级指导对测试的影响，并讨论了LLMs面临的挑战。 |
-| [^7] | [A Framework for Responsible Development of Automated Student Feedback with Generative AI.](http://arxiv.org/abs/2308.15334) | 一种基于生成AI的自动学生反馈框架可以提供丰富的反馈，但引入了伦理问题，并需要解决“多数人的暴政”和忽视长尾中少数群体需求的挑战。 |
-| [^8] | [Do humans and machines have the same eyes? Human-machine perceptual differences on image classification.](http://arxiv.org/abs/2304.08733) | 本文研究通过图像分类探究了人机感知差异，发现即使准确率相似，人类和机器的答案分布也可能不同，并提出了一种后期人机合作来提高任务表现。 |
-| [^9] | [Granular-ball Optimization Algorithm.](http://arxiv.org/abs/2303.12807) | 粒球优化算法(GBO)是一种新的多粒度优化算法，可以通过引入粒球计算来提高全局搜索能力和收敛速度，实验结果表明，在这些方面它比现有的最先进的算法表现更优。 |
+| [^1] | [Addressing the Regulatory Gap: Moving Towards an EU AI Audit Ecosystem Beyond the AIA by Including Civil Society](https://arxiv.org/abs/2403.07904) | 提出了一个融合合规和监督的AI审计生态系统，强调了DSA和AIA监管框架中存在的监管空白，并要求AIA为研究人员和社会公民提供数据和模型访问权限 |
+| [^2] | [Customize-It-3D: High-Quality 3D Creation from A Single Image Using Subject-Specific Knowledge Prior.](http://arxiv.org/abs/2312.11535) | 该论文提出了一种使用主体特定知识先验的两阶段方法，通过考虑阴影模式和纹理增强来生成高质量、有丰富纹理的3D模型，与以前的方法相比具有显著的优势。 |
+| [^3] | [Castor: Causal Temporal Regime Structure Learning.](http://arxiv.org/abs/2311.01412) | “Castor”是一个用于学习多元时间序列数据中因果关系的框架，能够综合学习各个区域的因果图。它通过最大化得分函数来推断区域的数量，并学习每个区域中的线性或非线性因果关系。 |
+| [^4] | [Finite Element Operator Network for Solving Parametric PDEs.](http://arxiv.org/abs/2308.04690) | 本文提出了一种新方法，通过有限元算子网络（FEONet）解决参数PDE。它结合了深度学习和传统数值方法，展示了在没有输入-输出训练数据的情况下解决参数PDE的有效性，并在准确度、泛化性和计算灵活性方面优于现有方法。 |
+| [^5] | [CARSO: Counter-Adversarial Recall of Synthetic Observations.](http://arxiv.org/abs/2306.06081) | 本文提出了一种新的图像分类的对抗性防御机制CARSO，该方法可以比最先进的对抗性训练更好地保护分类器，通过利用生成模型进行对抗净化来进行最终分类，并成功地保护自己免受未预见的威胁和最终攻击。 |
+| [^6] | [On the Computational Cost of Stochastic Security.](http://arxiv.org/abs/2305.07973) | 本文探究了使用长期持续蒙特卡罗模拟是否能提高能量模型的质量，并通过增加计算预算改进了模型的校准性和对抗鲁棒性。 |
 
 # 详细
 
-[^1]: 学习古典规划领域的通用策略：超越$C_2$
+[^1]: 正视监管空白：通过纳入社会公民打造超越AIA的欧盟AI审计生态系统
 
-    Learning General Policies for Classical Planning Domains: Getting Beyond C$_2$
+    Addressing the Regulatory Gap: Moving Towards an EU AI Audit Ecosystem Beyond the AIA by Including Civil Society
 
-    [https://arxiv.org/abs/2403.11734](https://arxiv.org/abs/2403.11734)
+    [https://arxiv.org/abs/2403.07904](https://arxiv.org/abs/2403.07904)
 
-    该研究提出了一种参数化版本的关系GNNs，通过在$t$为无穷大时仅使用二次空间的嵌入来近似$3$-GNNs，对于较低的$t$值，通过交换较少的消息实现弱的近似，同时通常产生了几个规划领域中所需的$C_3$特征。
-
-    
-
-    基于GNN的方法用于学习跨规划领域的通用策略受到$C_2$表达能力的限制，即一阶逻辑只能包含两个变量和计数。这种限制可以通过转向$k$-GNNs，其中$k=3$，其中物体嵌入被三元组嵌入所替换，来克服。然而，尽管$3$-GNNs具有$C_3$的表达能力，但不同于受限于$C_2$的$1$-和$2$-GNNs，它们需要四次时间进行消息交换和三次空间进行嵌入，使它们变得不切实际。在这项工作中，我们引入了一个参数化版本的关系GNNs。当$t$为无穷大时，R-GNN[$t$]仅使用二次空间的嵌入来近似$3$-GNNs。对于较低的$t$值，例如$t=1$和$t=2$，R-GNN[$t$]通过交换较少的消息实现了更弱的近似，但有趣的是，通常产生了在几个规划领域中所需的$C_3$特征。此外，新的R-GNN[$t$] ar
-
-    arXiv:2403.11734v1 Announce Type: new  Abstract: GNN-based approaches for learning general policies across planning domains are limited by the expressive power of $C_2$, namely; first-order logic with two variables and counting. This limitation can be overcomed by transitioning to $k$-GNNs, for $k=3$, wherein object embeddings are substituted with triplet embeddings. Yet, while $3$-GNNs have the expressive power of $C_3$, unlike $1$- and $2$-GNNs that are confined to $C_2$, they require quartic time for message exchange and cubic space for embeddings, rendering them impractical. In this work, we introduce a parameterized version of relational GNNs. When $t$ is infinity, R-GNN[$t$] approximates $3$-GNNs using only quadratic space for embeddings. For lower values of $t$, such as $t=1$ and $t=2$, R-GNN[$t$] achieves a weaker approximation by exchanging fewer messages, yet interestingly, often yield the $C_3$ features required in several planning domains. Furthermore, the new R-GNN[$t$] ar
-    
-[^2]: AutoMathText：使用语言模型进行数学文本的自主数据选择
-
-    AutoMathText: Autonomous Data Selection with Language Models for Mathematical Texts
-
-    [https://arxiv.org/abs/2402.07625](https://arxiv.org/abs/2402.07625)
-
-    本论文介绍了一种自主数据选择策略，利用语言模型进行数学文本的自动评估和选择，并通过连续预训练显著提高了数学推理能力。主要创新包括利用元提示语言模型作为验证器，发布了高质量的AutoMathText数据集，并实现了预训练令牌效率的提升。
+    提出了一个融合合规和监督的AI审计生态系统，强调了DSA和AIA监管框架中存在的监管空白，并要求AIA为研究人员和社会公民提供数据和模型访问权限
 
     
 
-    为了通过持续的预训练改善语言模型在数学推理方面的能力，我们引入了一种新颖的策略，利用基础语言模型进行自主数据选择。与传统的有人工标注数据的监督微调或训练过的分类器不同，我们的方法利用元提示语言模型作为零样本验证器，自主评估和选择高质量的数学内容，并发布了经过策划的开源AutoMathText数据集，其中包含超过200GB的数据。为了证明我们方法的有效性，我们对AutoMathText数据集进行了连续预训练，使得7B参数的Mistral语言模型在MATH数据集上的下游性能大幅提升，而令牌数量比之前的连续预训练工作减少了几个数量级。我们的方法展示了基准的预训练令牌效率提高了2倍，突显了我们方法在增强中的潜力。
+    欧洲立法机构提出了数字服务法案（DSA）和人工智能法案（AIA）来规范平台和人工智能（AI）产品。本文审查了第三方审计在这两项法律中的地位以及在多大程度上提供模型和数据的访问权限。通过考虑审计生态系统中第三方审计和第三方数据访问的价值，我们发现了一个监管空白，即《人工智能法案》没有为研究人员和社会公民提供数据访问权限。我们对文献的贡献包括：（1）定义了一个融合合规和监督的AI审计生态系统。（2）强调了DSA和AIA监管框架中存在的监管空白，阻碍了AI审计生态系统的建立。（3）强调研究和社会公民的第三方审计必须成为该生态系统的一部分，并要求AIA包括数据和模型访问权限。
 
-    To improve language models' proficiency in mathematical reasoning via continual pretraining, we introduce a novel strategy that leverages base language models for autonomous data selection. Departing from conventional supervised fine-tuning or trained classifiers with human-annotated data, our approach utilizes meta-prompted language models as zero-shot verifiers to autonomously evaluate and select high-quality mathematical content, and we release the curated open-source AutoMathText dataset encompassing over 200GB of data. To demonstrate the efficacy of our method, we continuously pretrained a 7B-parameter Mistral language model on the AutoMathText dataset, achieving substantial improvements in downstream performance on the MATH dataset with a token amount reduced by orders of magnitude compared to previous continuous pretraining works. Our method showcases a 2 times increase in pretraining token efficiency compared to baselines, underscoring the potential of our approach in enhancing
+    arXiv:2403.07904v1 Announce Type: cross  Abstract: The European legislature has proposed the Digital Services Act (DSA) and Artificial Intelligence Act (AIA) to regulate platforms and Artificial Intelligence (AI) products. We review to what extent third-party audits are part of both laws and to what extent access to models and data is provided. By considering the value of third-party audits and third-party data access in an audit ecosystem, we identify a regulatory gap in that the Artificial Intelligence Act does not provide access to data for researchers and civil society. Our contributions to the literature include: (1) Defining an AI audit ecosystem that incorporates compliance and oversight. (2) Highlighting a regulatory gap within the DSA and AIA regulatory framework, preventing the establishment of an AI audit ecosystem. (3) Emphasizing that third-party audits by research and civil society must be part of that ecosystem and demand that the AIA include data and model access for ce
     
-[^3]: 基于学习的声明性隐私保护数据联邦管理框架
+[^2]: Customize-It-3D：使用主体特定知识先验从单个图像创建高质量的3D模型
 
-    A Learning-based Declarative Privacy-Preserving Framework for Federated Data Management. (arXiv:2401.12393v1 [cs.DB])
+    Customize-It-3D: High-Quality 3D Creation from A Single Image Using Subject-Specific Knowledge Prior. (arXiv:2312.11535v2 [cs.CV] UPDATED)
 
-    [http://arxiv.org/abs/2401.12393](http://arxiv.org/abs/2401.12393)
+    [http://arxiv.org/abs/2312.11535](http://arxiv.org/abs/2312.11535)
 
-    本论文提出了一个基于学习的声明性隐私保护框架，通过使用Differentially-Private Stochastic Gradient Descent（DP-SGD）算法训练的深度学习模型替代部分实际数据来回答查询，并允许用户指定要保护的私人信息。此框架还可以自动选择转换计划和超参数，并允许人工专家审核和调整隐私保护机制。
-
-    
-
-    在多个私有数据孤岛上进行联邦查询处理时，平衡隐私和准确性是一项具有挑战性的任务。在这项工作中，我们将演示一种自动化新兴隐私保护技术的端到端工作流，该技术使用使用差分隐私随机梯度下降（DP-SGD）算法训练的深度学习模型替换实际数据的部分来回答查询。我们提出的新颖声明性隐私保护工作流允许用户指定“要保护的私人信息”而不是“如何保护”。在底层，系统自动选择查询-模型转换计划以及超参数。同时，所提出的工作流还允许人工专家审核和调整选择的隐私保护机制，用于审计/合规和优化目的。
-
-    It is challenging to balance the privacy and accuracy for federated query processing over multiple private data silos. In this work, we will demonstrate an end-to-end workflow for automating an emerging privacy-preserving technique that uses a deep learning model trained using the Differentially-Private Stochastic Gradient Descent (DP-SGD) algorithm to replace portions of actual data to answer a query. Our proposed novel declarative privacy-preserving workflow allows users to specify "what private information to protect" rather than "how to protect". Under the hood, the system automatically chooses query-model transformation plans as well as hyper-parameters. At the same time, the proposed workflow also allows human experts to review and tune the selected privacy-preserving mechanism for audit/compliance, and optimization purposes.
-    
-[^4]: 缺失模态下的多模态情感分析:一种知识迁移方法
-
-    Multimodal Sentiment Analysis with Missing Modality: A Knowledge-Transfer Approach. (arXiv:2401.10747v1 [cs.SD])
-
-    [http://arxiv.org/abs/2401.10747](http://arxiv.org/abs/2401.10747)
-
-    本文提出了一种知识迁移方法，用于在缺失模态下进行多模态情感分析。通过翻译不同模态之间的内容以重构缺失的音频模态，并利用跨模态注意机制进行情感预测，实验证明了该方法在多个数据集上表现出显著的改进和与完整多模态监督方法相媲美的效果。
+    该论文提出了一种使用主体特定知识先验的两阶段方法，通过考虑阴影模式和纹理增强来生成高质量、有丰富纹理的3D模型，与以前的方法相比具有显著的优势。
 
     
 
-    多模态情感分析旨在通过视觉、语言和声音线索来识别个体表达的情绪。然而，现有研究大多假设在训练和测试过程中所有模态都是可用的，这使得它们的算法容易受到缺失模态的影响。在本文中，我们提出了一种新颖的知识迁移网络，用于在不同模态之间进行翻译，以重构缺失的音频模态。此外，我们还开发了一种跨模态注意机制，以保留重构和观察到的模态的最大信息，用于情感预测。在三个公开数据集上进行的大量实验证明了相对于基线算法的显著改进，并实现了与具有完整多模态监督的先前方法相媲美的结果。
+    在本文中，我们提出了一种新的两阶段方法，充分利用参考图像提供的信息，建立图像到3D生成的自定义知识先验。之前的方法主要依赖于通用的扩散先验，这些方法在与参考图像得到一致结果方面存在困难，我们提出了一种主体特定且多模态的扩散模型。该模型不仅通过考虑阴影模式来改善几何优化和纹理增强的粗略结果，还有助于使3D内容与主题保持一致。大量实验证明了我们的方法的优越性，Customize-It-3D在视觉质量上远远超过了以前的方法，能够产生出色的360度重建结果，非常适合各种应用，包括文本到3D的创建。
 
-    Multimodal sentiment analysis aims to identify the emotions expressed by individuals through visual, language, and acoustic cues. However, most of the existing research efforts assume that all modalities are available during both training and testing, making their algorithms susceptible to the missing modality scenario. In this paper, we propose a novel knowledge-transfer network to translate between different modalities to reconstruct the missing audio modalities. Moreover, we develop a cross-modality attention mechanism to retain the maximal information of the reconstructed and observed modalities for sentiment prediction. Extensive experiments on three publicly available datasets demonstrate significant improvements over baselines and achieve comparable results to the previous methods with complete multi-modality supervision.
+    In this paper, we present a novel two-stage approach that fully utilizes the information provided by the reference image to establish a customized knowledge prior for image-to-3D generation. While previous approaches primarily rely on a general diffusion prior, which struggles to yield consistent results with the reference image, we propose a subject-specific and multi-modal diffusion model. This model not only aids NeRF optimization by considering the shading mode for improved geometry but also enhances texture from the coarse results to achieve superior refinement. Both aspects contribute to faithfully aligning the 3D content with the subject. Extensive experiments showcase the superiority of our method, Customize-It-3D, outperforming previous works by a substantial margin. It produces faithful 360-degree reconstructions with impressive visual quality, making it well-suited for various applications, including text-to-3D creation.
     
-[^5]: 大型地图上的按需城市出行问题的近似多智能体强化学习（扩展版）
+[^3]: Castor: 因果时序区域结构学习
 
-    Approximate Multiagent Reinforcement Learning for On-Demand Urban Mobility Problem on a Large Map (extended version). (arXiv:2311.01534v1 [cs.MA])
+    Castor: Causal Temporal Regime Structure Learning. (arXiv:2311.01412v1 [cs.LG])
 
-    [http://arxiv.org/abs/2311.01534](http://arxiv.org/abs/2311.01534)
+    [http://arxiv.org/abs/2311.01412](http://arxiv.org/abs/2311.01412)
 
-    本文研究了大型城市环境下的自主多智能体出租车路径问题，提出了一个近似滚动为基础的两阶段算法来减少计算量。
-
-    
-
-    本文关注大型城市环境下的自主多智能体出租车路径问题，未来乘车请求的位置和数量事先未知，但遵循估计的经验分布。最近的理论表明，如果基础策略是稳定的，那么基于滚动的算法与这样的基础策略产生接近最优的稳定策略。尽管基于滚动的方法非常适合学习具有对未来需求考虑的合作多智能体策略，但将这些方法应用于大型城市环境可能计算上很昂贵。大型环境往往有大量请求，因此需要大型的出租车队保证稳定性。本文旨在解决多智能体（逐一）滚动的计算瓶颈问题，其中计算复杂性随代理数量线性增长。我们提出了一种近似逐一滚动为基础的两阶段算法，减少计算量
-
-    In this paper, we focus on the autonomous multiagent taxi routing problem for a large urban environment where the location and number of future ride requests are unknown a-priori, but follow an estimated empirical distribution. Recent theory has shown that if a base policy is stable then a rollout-based algorithm with such a base policy produces a near-optimal stable policy. Although, rollout-based approaches are well-suited for learning cooperative multiagent policies with considerations for future demand, applying such methods to a large urban environment can be computationally expensive. Large environments tend to have a large volume of requests, and hence require a large fleet of taxis to guarantee stability. In this paper, we aim to address the computational bottleneck of multiagent (one-at-a-time) rollout, where the computational complexity grows linearly in the number of agents. We propose an approximate one-at-a-time rollout-based two-phase algorithm that reduces the computatio
-    
-[^6]: 评估LLMs在特权升级场景中的应用
-
-    Evaluating LLMs for Privilege-Escalation Scenarios. (arXiv:2310.11409v2 [cs.CR] UPDATED)
-
-    [http://arxiv.org/abs/2310.11409](http://arxiv.org/abs/2310.11409)
-
-    本研究评估了在特权升级场景中利用语言模型（LLMs）进行渗透测试的应用。通过创建一个自动化的Linux特权升级基准和一个LLM-guided特权升级工具，我们分析了LLMs的不同提示设计、上下文学习和高级指导对测试的影响，并讨论了LLMs面临的挑战。
+    “Castor”是一个用于学习多元时间序列数据中因果关系的框架，能够综合学习各个区域的因果图。它通过最大化得分函数来推断区域的数量，并学习每个区域中的线性或非线性因果关系。
 
     
 
-    渗透测试是网络安全的一个重要组成部分，它允许组织主动识别和修复系统中的漏洞，从而增强其对潜在网络攻击的防御机制。在渗透测试领域，最近的一个进展是利用语言模型（LLMs）。我们探索LLMs与渗透测试的交叉领域，以了解它们在特权升级场景中的能力和挑战。我们使用本地虚拟机创建了一个自动化的Linux特权升级基准。我们引入了一种基于LLMs的特权升级工具，用于评估不同的LLMs和提示策略在我们的基准测试中的表现。我们分析了不同提示设计的影响，上下文学习的好处，以及向LLMs提供高级指导的优势。我们讨论了LLMs面临的挑战领域，包括在测试过程中保持专注、处理错误以及与传统方法进行比较。
+    揭示多元时间序列数据之间的因果关系是一个重要且具有挑战性的目标，涉及到从气候科学到医疗保健等各个学科的广泛范围。这些数据包含线性或非线性关系，并且通常遵循多个先验未知的区域。现有的因果发现方法可以从具有已知区域的异构数据中推断出摘要因果图，但在全面学习区域和相应的因果图方面存在不足。在本文中，我们介绍了CASTOR，这是一个新颖的框架，旨在学习由不同因果图统治的各种异构时间序列数据中的因果关系。通过EM算法通过最大化一个得分函数，CASTOR推断出区域的数量并学习每个区域中的线性或非线性因果关系。我们展示了CASTOR的稳健收敛性质，特别突出了其有效性。
 
-    Penetration testing, an essential component of cybersecurity, allows organizations to proactively identify and remediate vulnerabilities in their systems, thus bolstering their defense mechanisms against potential cyberattacks. One recent advancement in the realm of penetration testing is the utilization of Language Models (LLMs). We explore the intersection of LLMs and penetration testing to gain insight into their capabilities and challenges in the context of privilige escalation. We create an automated Linux privilege-escalation benchmark utilizing local virtual machines. We introduce an LLM-guided privilege-escalation tool designed for evaluating different LLMs and prompt strategies against our benchmark. We analyze the impact of different prompt designs, the benefits of in-context learning, and the advantages of offering high-level guidance to LLMs. We discuss challenging areas for LLMs, including maintaining focus during testing, coping with errors, and finally comparing them wit
+    The task of uncovering causal relationships among multivariate time series data stands as an essential and challenging objective that cuts across a broad array of disciplines ranging from climate science to healthcare. Such data entails linear or non-linear relationships, and usually follow multiple a priori unknown regimes. Existing causal discovery methods can infer summary causal graphs from heterogeneous data with known regimes, but they fall short in comprehensively learning both regimes and the corresponding causal graph. In this paper, we introduce CASTOR, a novel framework designed to learn causal relationships in heterogeneous time series data composed of various regimes, each governed by a distinct causal graph. Through the maximization of a score function via the EM algorithm, CASTOR infers the number of regimes and learns linear or non-linear causal relationships in each regime. We demonstrate the robust convergence properties of CASTOR, specifically highlighting its profic
     
-[^7]: 一种负责任开发基于生成AI的自动学生反馈框架
+[^4]: 用于解决参数PDE的有限元算子网络
 
-    A Framework for Responsible Development of Automated Student Feedback with Generative AI. (arXiv:2308.15334v1 [cs.CY])
+    Finite Element Operator Network for Solving Parametric PDEs. (arXiv:2308.04690v1 [math.NA])
 
-    [http://arxiv.org/abs/2308.15334](http://arxiv.org/abs/2308.15334)
+    [http://arxiv.org/abs/2308.04690](http://arxiv.org/abs/2308.04690)
 
-    一种基于生成AI的自动学生反馈框架可以提供丰富的反馈，但引入了伦理问题，并需要解决“多数人的暴政”和忽视长尾中少数群体需求的挑战。
-
-    
-
-    提供丰富的反馈对于支持学生学习至关重要。最近生成AI尤其是大规模语言模型的进展，为向学生提供可重复、可扩展和即时生成的自动反馈提供了机会，使得之前稀缺且昂贵的学习资源变得丰富起来。从技术角度而言，这种方法是可行的，得益于最近人工智能和自然语言处理的进步；然而，采用这些技术也引入了一系列潜在的伦理问题，需要认真考虑。人工智能系统的吸引力在于它们可以有效地自动化最乏味的任务；但是这也可能导致“多数人的暴政”，即忽视了长尾中少数群体的需求，因为这些需求很难自动化。因此，开发能够产生有价值和真实的机器学习模型变得至关重要。
-
-    Providing rich feedback to students is essential for supporting student learning. Recent advances in generative AI, particularly within large language modelling (LLM), provide the opportunity to deliver repeatable, scalable and instant automatically generated feedback to students, making abundant a previously scarce and expensive learning resource. Such an approach is feasible from a technical perspective due to these recent advances in Artificial Intelligence (AI) and Natural Language Processing (NLP); while the potential upside is a strong motivator, doing so introduces a range of potential ethical issues that must be considered as we apply these technologies. The attractiveness of AI systems is that they can effectively automate the most mundane tasks; but this risks introducing a "tyranny of the majority", where the needs of minorities in the long tail are overlooked because they are difficult to automate.  Developing machine learning models that can generate valuable and authentic
-    
-[^8]: 人类和机器有相同的眼睛吗？基于图像分类的人机感知差异研究
-
-    Do humans and machines have the same eyes? Human-machine perceptual differences on image classification. (arXiv:2304.08733v1 [cs.CV])
-
-    [http://arxiv.org/abs/2304.08733](http://arxiv.org/abs/2304.08733)
-
-    本文研究通过图像分类探究了人机感知差异，发现即使准确率相似，人类和机器的答案分布也可能不同，并提出了一种后期人机合作来提高任务表现。
+    本文提出了一种新方法，通过有限元算子网络（FEONet）解决参数PDE。它结合了深度学习和传统数值方法，展示了在没有输入-输出训练数据的情况下解决参数PDE的有效性，并在准确度、泛化性和计算灵活性方面优于现有方法。
 
     
 
-    训练良好的计算机视觉模型通常通过模仿从训练标签中学到的人类行为来解决视觉任务。近期视觉研究的大部分努力集中在使用标准化基准来测量模型任务性能。然而，了解人与机器之间的感知差异方面的工作还很有限。为了填补这一空白，我们的研究首先量化并分析了两种来源错误的统计分布。然后我们通过难度级别对任务进行排序，探讨人类与机器专业知识的差异。即使人类和机器的整体准确性相似，答案的分布也可能会有所不同。利用人类和机器之间的感知差异，我们通过实证研究表明了一种后期人机合作，其表现比单独的人或机器更好。
+    偏微分方程（PDE）是我们理解和预测物理、工程和金融等众多领域自然现象的基础。然而，解决参数PDE是一项复杂的任务，需要高效的数值方法。在本文中，我们提出了一种通过有限元算子网络（FEONet）解决参数PDE的新方法。我们的方法结合了深度学习和传统数值方法，特别是有限元法，以在没有任何配对的输入-输出训练数据的情况下解决参数PDE。我们在几个基准问题上展示了我们方法的效果，并且表明它在准确度、泛化性和计算灵活性方面优于现有的最先进方法。我们的FEONet框架在模拟具有不同边界条件和复杂域的各种领域中显示出潜力。
 
-    Trained computer vision models are assumed to solve vision tasks by imitating human behavior learned from training labels. Most efforts in recent vision research focus on measuring the model task performance using standardized benchmarks. Limited work has been done to understand the perceptual difference between humans and machines. To fill this gap, our study first quantifies and analyzes the statistical distributions of mistakes from the two sources. We then explore human vs. machine expertise after ranking tasks by difficulty levels. Even when humans and machines have similar overall accuracies, the distribution of answers may vary. Leveraging the perceptual difference between humans and machines, we empirically demonstrate a post-hoc human-machine collaboration that outperforms humans or machines alone.
+    Partial differential equations (PDEs) underlie our understanding and prediction of natural phenomena across numerous fields, including physics, engineering, and finance. However, solving parametric PDEs is a complex task that necessitates efficient numerical methods. In this paper, we propose a novel approach for solving parametric PDEs using a Finite Element Operator Network (FEONet). Our proposed method leverages the power of deep learning in conjunction with traditional numerical methods, specifically the finite element method, to solve parametric PDEs in the absence of any paired input-output training data. We demonstrate the effectiveness of our approach on several benchmark problems and show that it outperforms existing state-of-the-art methods in terms of accuracy, generalization, and computational flexibility. Our FEONet framework shows potential for application in various fields where PDEs play a crucial role in modeling complex domains with diverse boundary conditions and sin
     
-[^9]: 粒球优化算法
+[^5]: CARSO: 对抗性合成观测的反对抗性召回
 
-    Granular-ball Optimization Algorithm. (arXiv:2303.12807v1 [cs.LG])
+    CARSO: Counter-Adversarial Recall of Synthetic Observations. (arXiv:2306.06081v1 [cs.CV])
 
-    [http://arxiv.org/abs/2303.12807](http://arxiv.org/abs/2303.12807)
+    [http://arxiv.org/abs/2306.06081](http://arxiv.org/abs/2306.06081)
 
-    粒球优化算法(GBO)是一种新的多粒度优化算法，可以通过引入粒球计算来提高全局搜索能力和收敛速度，实验结果表明，在这些方面它比现有的最先进的算法表现更优。
+    本文提出了一种新的图像分类的对抗性防御机制CARSO，该方法可以比最先进的对抗性训练更好地保护分类器，通过利用生成模型进行对抗净化来进行最终分类，并成功地保护自己免受未预见的威胁和最终攻击。
 
     
 
-    现有的智能优化算法都是基于最小粒度即点的设计，导致全局搜索能力较弱且效率低下。为了解决这个问题，我们提出了一种新的多粒度优化算法，即粒球优化算法(GBO)，通过引入粒球计算来实现。GBO使用多个粒球来覆盖解空间，使用许多细小的细粒度粒球来描述重要部分，使用少量的大粗粒度粒球来描述不重要的部分，精细的多粒度数据描述能力提高了全局搜索能力和收敛速度。针对二十个基准函数的实验结果表明，与最流行的最先进的算法相比，GBO具有更好的性能和更快的速度，更接近最优解，没有超参数，设计更简单。
+    本文提出了一种新的对抗性防御机制CARSO，用于图像分类，灵感来自认知神经科学的线索。该方法与对抗训练具有协同互补性，并依赖于被攻击分类器的内部表示的知识。通过利用生成模型进行对抗净化，该方法采样输入的重构来进行最终分类。在各种图像数据集和分类器体系结构上进行的实验评估表明，CARSO能够比最先进的对抗性训练更好地保护分类器——同时具有可接受的清洁准确度损失。此外，防御体系结构成功地保护自己免受未预见的威胁和最终攻击。代码和预训练模型可在https://github.com/获得。
 
-    The existing intelligent optimization algorithms are designed based on the finest granularity, i.e., a point. This leads to weak global search ability and inefficiency. To address this problem, we proposed a novel multi-granularity optimization algorithm, namely granular-ball optimization algorithm (GBO), by introducing granular-ball computing. GBO uses many granular-balls to cover the solution space. Quite a lot of small and fine-grained granular-balls are used to depict the important parts, and a little number of large and coarse-grained granular-balls are used to depict the inessential parts. Fine multi-granularity data description ability results in a higher global search capability and faster convergence speed. In comparison with the most popular and state-of-the-art algorithms, the experiments on twenty benchmark functions demonstrate its better performance. The faster speed, higher approximation ability of optimal solution, no hyper-parameters, and simpler design of GBO make it 
+    In this paper, we propose a novel adversarial defence mechanism for image classification -- CARSO -- inspired by cues from cognitive neuroscience. The method is synergistically complementary to adversarial training and relies on knowledge of the internal representation of the attacked classifier. Exploiting a generative model for adversarial purification, conditioned on such representation, it samples reconstructions of inputs to be finally classified. Experimental evaluation by a well-established benchmark of varied, strong adaptive attacks, across diverse image datasets and classifier architectures, shows that CARSO is able to defend the classifier significantly better than state-of-the-art adversarial training alone -- with a tolerable clean accuracy toll. Furthermore, the defensive architecture succeeds in effectively shielding itself from unforeseen threats, and end-to-end attacks adapted to fool stochastic defences. Code and pre-trained models are available at https://github.com/
+    
+[^6]: 论随机安全性的计算成本
+
+    On the Computational Cost of Stochastic Security. (arXiv:2305.07973v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.07973](http://arxiv.org/abs/2305.07973)
+
+    本文探究了使用长期持续蒙特卡罗模拟是否能提高能量模型的质量，并通过增加计算预算改进了模型的校准性和对抗鲁棒性。
+
+    
+
+    我们探讨了使用朗之万动力学的长期持续蒙特卡罗模拟是否会提高基于能量的模型（EBM）所达到的表征质量。我们考虑一种方案，其中使用训练过的EBM的扩散过程的蒙特卡罗模拟，用于提高独立分类器网络的对抗鲁棒性和校准分数。我们的结果表明，在持续对比散度的计算预算增加吉布斯采样的情况下，改进了模型的校准性和对抗鲁棒性，澄清了实现有效从连续能量势中进行吉布斯采样的新量子和经典硬件和软件的实际价值。
+
+    We investigate whether long-run persistent chain Monte Carlo simulation of Langevin dynamics improves the quality of the representations achieved by energy-based models (EBM). We consider a scheme wherein Monte Carlo simulation of a diffusion process using a trained EBM is used to improve the adversarial robustness and the calibration score of an independent classifier network. Our results show that increasing the computational budget of Gibbs sampling in persistent contrastive divergence improves the calibration and adversarial robustness of the model, elucidating the practical merit of realizing new quantum and classical hardware and software for efficient Gibbs sampling from continuous energy potentials.
     
 
