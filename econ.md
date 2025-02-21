@@ -2,97 +2,97 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [The Power of Linear Programming in Sponsored Listings Ranking: Evidence from Field Experiments](https://arxiv.org/abs/2403.14862) | 线性规划在赞助列表排名中的应用为解决在线市场中的排名挑战提供了有力工具 |
-| [^2] | [Bootstrapping Fisher Market Equilibrium and First-Price Pacing Equilibrium](https://arxiv.org/abs/2402.02303) | 本文引入和设计了几个对线性费舍尔市场（LFM）和一手价格竞价均衡（FPPE）进行统计有效自举推断的过程，其中最具挑战性的是对一般FPPE进行自举。通过使用环收敛理论的有力工具，在温和的退化条件下成功设计了FPPE的自举过程。 |
-| [^3] | [Stationarity with Occasionally Binding Constraints.](http://arxiv.org/abs/2307.06190) | 本文研究了一类能够适应受临时限制的系列的多元阈值自回归模型，提出了稳定、遍历、弱依赖的充分条件，并对单位根和协整性提供了处理方法。 |
-| [^4] | [T\^atonnement in Homothetic Fisher Markets.](http://arxiv.org/abs/2306.04890) | 本论文识别了希克斯需求的价格弹性的绝对值最大值作为市场涨跌过程中的经济参数，在同类菲舍尔市场中证明了涨跌过程的收敛率为$O((1+\varepsilon^2)/T)$。 |
-| [^5] | [Cointegration with Occasionally Binding Constraints.](http://arxiv.org/abs/2211.09604) | 本研究在非线性协整性的背景下，探讨了在时变约束下如何生成共同的线性和非线性随机趋势的问题。通过使用被审查和弯曲的结构化VAR模型，我们提供了对于时间序列受到阈值型非线性性质影响的全面描述。 |
-| [^6] | [Sequential Elimination Contests with All-Pay Auctions.](http://arxiv.org/abs/2205.08104) | 本文研究了带全付拍卖的顺序淘汰比赛，在设计者无法得知所有选手类型情况下，对于有限的选手数量，我们明确定义了均衡策略和期望的最优机制，并为设计者提供了一些众包比赛的设计启示。 |
+| [^1] | [Predicting the Unpredictable under Subjective Expected Utility](https://arxiv.org/abs/2403.01421) | 主要贡献在于通过主观期望效用表征决策者对于未知对象的信念，并将不断增强的认识下的决策理论和物种问题中的随机分区相联系。 |
+| [^2] | [Competitive Revenue Extraction from Time-Discounted Transactions in the Semi-Myopic Regime](https://arxiv.org/abs/2402.08549) | 该论文研究了在半短视模式下，从时间折扣交易中进行竞争性收入提取的问题。通过研究现有的数据包调度方法，发现在更一般的折扣设定下表现不佳。研究者提出了一种新颖、简单、无记忆且最优的确定性算法来解决这个问题。 |
+| [^3] | [Efficiency in random allocation with ordinal rules.](http://arxiv.org/abs/2401.11899) | 该论文研究了通过抽签分配不可分割商品的顺序规则，并定义了一种新的效率概念。尽管顺序性和效率在一起与公平概念不兼容，但它们允许存在一类丰富的规则。 |
+| [^4] | [The spatial evolution of economic activities and the emergence of cities.](http://arxiv.org/abs/2310.07883) | 本文研究了经济活动的空间集聚和城市的产生。通过模型，证明了存在短期均衡和长期均衡，并且得出长期均衡下空间分配的有效性。 |
+| [^5] | [The Newsvendor with Advice.](http://arxiv.org/abs/2305.07993) | 本文开发了第一个整合了机器学习预测的新闻经销商模型，利用预测来优化库存水平以避免下限和提高性能。 |
+| [^6] | [A Nonparametric Stochastic Set Model: Identification, Optimization, and Prediction.](http://arxiv.org/abs/2302.04354) | 这篇论文开发了一个新的非参数模型来解决非辨识性问题，该模型假设消费者有有界理性，并且能够准确解释客户的选择行为。 |
 
 # 详细
 
-[^1]: 线性规划在赞助列表排名中的威力：来自现场实验的证据
+[^1]: 预测主观期望下的无法预测性
 
-    The Power of Linear Programming in Sponsored Listings Ranking: Evidence from Field Experiments
+    Predicting the Unpredictable under Subjective Expected Utility
 
-    [https://arxiv.org/abs/2403.14862](https://arxiv.org/abs/2403.14862)
+    [https://arxiv.org/abs/2403.01421](https://arxiv.org/abs/2403.01421)
 
-    线性规划在赞助列表排名中的应用为解决在线市场中的排名挑战提供了有力工具
-
-    
-
-    赞助列表是许多知名在线市场的主要收入来源之一，如亚马逊、沃尔玛和阿里巴巴。在线市场可能在展示特定商品的网页上除了该商品外，还会展示来自各种第三方卖家的赞助商品的排名列表。针对每次访问确定如何对这些赞助商品进行排名是在线市场的一个关键挑战，这个问题被称为赞助列表排名（SLR）。SLR的主要困难在于平衡最大化整体收入和推荐高质量和相关排名列表之间的权衡。虽然更相关的排名可能导致更多的购买和消费者参与，但市场在制定排名决策时还需要考虑潜在收入。
-
-    arXiv:2403.14862v1 Announce Type: new  Abstract: Sponsored listing is one of the major revenue sources for many prominent online marketplaces, such as Amazon, Walmart, and Alibaba. When consumers visit a marketplace's webpage for a specific item, in addition to that item, the marketplace might also display a ranked listing of sponsored items from various third-party sellers. These sellers are charged an advertisement fee if a user purchases any of the sponsored items from this listing. Determining how to rank these sponsored items for each incoming visit is a crucial challenge for online marketplaces, a problem known as sponsored listings ranking (SLR). The major difficulty of SLR lies in balancing the trade-off between maximizing the overall revenue and recommending high-quality and relevant ranked listings. While a more relevant ranking may result in more purchases and consumer engagement, the marketplace also needs to take account of the potential revenue when making ranking decisio
-    
-[^2]: 自举费舍尔市场均衡和一手价格竞价均衡
-
-    Bootstrapping Fisher Market Equilibrium and First-Price Pacing Equilibrium
-
-    [https://arxiv.org/abs/2402.02303](https://arxiv.org/abs/2402.02303)
-
-    本文引入和设计了几个对线性费舍尔市场（LFM）和一手价格竞价均衡（FPPE）进行统计有效自举推断的过程，其中最具挑战性的是对一般FPPE进行自举。通过使用环收敛理论的有力工具，在温和的退化条件下成功设计了FPPE的自举过程。
+    主要贡献在于通过主观期望效用表征决策者对于未知对象的信念，并将不断增强的认识下的决策理论和物种问题中的随机分区相联系。
 
     
 
-    线性费舍尔市场（LFM）是经济学中的一个基本均衡模型，也在公平和高效的资源分配方面有应用。一手价格竞价均衡（FPPE）是一种捕捉第一价格拍卖中预算管理机制的模型。在某些实际情况下，如广告拍卖，在这些模型上进行统计推断具有一定的兴趣。一种广泛应用于一般统计推断的常用方法是自举过程。然而，对于LFM和FPPE，目前不存在有效应用自举程序的理论。在本文中，我们引入并设计了几个对LFM和FPPE进行统计有效自举推断的过程。最具挑战性的部分是对一般FPPE进行自举，这归结为自举约束M-估计量，这是一个很大程度上未开发的问题。我们通过使用环收敛理论的有力工具，在温和的退化条件下为FPPE设计了一个自举过程。通过合成和实际数据的实验证明了我们的方法的有效性。
+    我们考虑一个决策者，对于将要被抽样的对象一无所知，因此无法形成关于特定对象发生的信念。在未来，她可以形成关于新奇性的发生和尚未知对象的频率的信念。在任何被抽样对象的条件下，她还可以形成关于下一个对象是新奇的还是已被抽样对象之一的信念。我们以主观期望效用为基础表征这种信念的行为。在这样做的过程中，我们将决策行为中不断增强的认识的文献中的“反向”贝叶斯主义与统计学、组合概率论和种群遗传学中物种问题和突变的发现的文献中的可交换随机分区联系起来。分区可交换的信念不一定满足“反向”贝叶斯主义。然而，最突出的可交换随机分区模型之一，m
 
-    The linear Fisher market (LFM) is a basic equilibrium model from economics, which also has applications in fair and efficient resource allocation. First-price pacing equilibrium (FPPE) is a model capturing budget-management mechanisms in first-price auctions. In certain practical settings such as advertising auctions, there is an interest in performing statistical inference over these models. A popular methodology for general statistical inference is the bootstrap procedure. Yet, for LFM and FPPE there is no existing theory for the valid application of bootstrap procedures. In this paper, we introduce and devise several statistically valid bootstrap inference procedures for LFM and FPPE. The most challenging part is to bootstrap general FPPE, which reduces to bootstrapping constrained M-estimators, a largely unexplored problem. We devise a bootstrap procedure for FPPE under mild degeneracy conditions by using the powerful tool of epi-convergence theory. Experiments with synthetic and s
+    arXiv:2403.01421v1 Announce Type: new  Abstract: We consider a decision maker who is unaware of objects to be sampled and thus cannot form beliefs about the occurrence of particular objects. Ex ante she can form beliefs about the occurrence of novelty and the frequencies of yet to be known objects. Conditional on any sampled objects, she can also form beliefs about the next object being novel or being one of the previously sampled objects. We characterize behaviorally such beliefs under subjective expected utility. In doing so, we relate "reverse" Bayesianism, a central property in the literature on decision making under growing awareness, with exchangeable random partitions, the central property in the literature on the discovery of species problem and mutations in statistics, combinatorial probability theory, and population genetics. Partition exchangeable beliefs do not necessarily satisfy "reverse" Bayesianism. Yet, the most prominent models of exchangeable random partitions, the m
     
-[^3]: 临时限制与时不时约束下的稳定性
+[^2]: 在半短视模式中从时间折扣交易中进行竞争性收入提取
 
-    Stationarity with Occasionally Binding Constraints. (arXiv:2307.06190v1 [econ.EM])
+    Competitive Revenue Extraction from Time-Discounted Transactions in the Semi-Myopic Regime
 
-    [http://arxiv.org/abs/2307.06190](http://arxiv.org/abs/2307.06190)
+    [https://arxiv.org/abs/2402.08549](https://arxiv.org/abs/2402.08549)
 
-    本文研究了一类能够适应受临时限制的系列的多元阈值自回归模型，提出了稳定、遍历、弱依赖的充分条件，并对单位根和协整性提供了处理方法。
-
-    
-
-    本文研究了一类多元阈值自回归模型，即被截尾和弯曲的结构向量自回归（CKSVAR），这种模型能够适应受临时限制的系列。我们提出了一组满足CKSVAR生成的过程是稳定、遍历、弱依赖的充分条件。我们的条件直接与模型的确定性部分的稳定性相关，因此比一般向量阈值自回归（VTAR）模型通常可用的条件更为保守。虽然我们的标准涉及计算不可行的数量，如联合谱半径的改进，但它们可以通过数值逼近以高度精确度计算。我们的研究结果还允许我们对CKSVAR中的单位根和协整性进行处理，特别是在模型被配置为生成线性协整关系时。
-
-    This paper studies a class of multivariate threshold autoregressive models, known as censored and kinked structural vector autoregressions (CKSVAR), which are notably able to accommodate series that are subject to occasionally binding constraints. We develop a set of sufficient conditions for the processes generated by a CKSVAR to be stationary, ergodic, and weakly dependent. Our conditions relate directly to the stability of the deterministic part of the model, and are therefore less conservative than those typically available for general vector threshold autoregressive (VTAR) models. Though our criteria refer to quantities, such as refinements of the joint spectral radius, that cannot feasibly be computed exactly, they can be approximated numerically to a high degree of precision. Our results also permit us to provide a treatment of unit roots and cointegration in the CKSVAR, for the case where the model is configured so as to generate linear cointegration.
-    
-[^4]: 同类菲舍尔市场中的涨跌过程
-
-    T\^atonnement in Homothetic Fisher Markets. (arXiv:2306.04890v1 [cs.GT])
-
-    [http://arxiv.org/abs/2306.04890](http://arxiv.org/abs/2306.04890)
-
-    本论文识别了希克斯需求的价格弹性的绝对值最大值作为市场涨跌过程中的经济参数，在同类菲舍尔市场中证明了涨跌过程的收敛率为$O((1+\varepsilon^2)/T)$。
+    该论文研究了在半短视模式下，从时间折扣交易中进行竞争性收入提取的问题。通过研究现有的数据包调度方法，发现在更一般的折扣设定下表现不佳。研究者提出了一种新颖、简单、无记忆且最优的确定性算法来解决这个问题。
 
     
 
-    经济学和计算领域中一个流行的主题是通过市场中卖家和买家可以发现均衡价格的自然价格调整过程。这种过程的一个例子是涨跌过程，这是一种类似于拍卖的算法，由法国经济学家瓦尔拉斯在1874年首次提出，卖家根据买家的马歇尔需求调整价格。消费者理论中的一个对偶概念是买家的希克斯需求。在本文中，我们确定希克斯需求的弹性的绝对值最大值，作为一个经济参数，足以捕捉和解释广泛类市场中收敛和非收敛的涨跌行为。特别是，在价格弹性受到限制的同类菲舍尔市场中，即由同类效用函数表示的消费者偏好和价格弹性受到限制的Fisher市场中，我们证明了tâtonnement的收敛率为$O((1+\varepsilon^2)/T)$。
+    分散的加密货币是依靠用户和矿工的激励机制来正确运作并为用户提供高质量服务的支付系统。最近的文献研究了作为加密货币交易费机制 (TFM) 的拍卖的机制设计问题。我们发现，对矿工进行非短视建模与另一个众所周知的问题非常接近：数据包交换的在线缓冲管理问题。主要的区别在于，在金融环境中，用户的偏好（因此是收入提取）可能随时间变化。我们研究了在特定折扣率下给出的竞争比率保证，并展示了现有的数据包调度方法在更一般的折扣设定下表现不佳，我们称之为“无折扣情况”。值得注意的是，我们发现了一种新颖、简单、无记忆且最优的确定性算法，适用于半短视情况，当用户的交易价值根据时间而变化时。
 
-    A prevalent theme in the economics and computation literature is to identify natural price-adjustment processes by which sellers and buyers in a market can discover equilibrium prices. An example of such a process is t\^atonnement, an auction-like algorithm first proposed in 1874 by French economist Walras in which sellers adjust prices based on the Marshallian demands of buyers. A dual concept in consumer theory is a buyer's Hicksian demand. In this paper, we identify the maximum of the absolute value of the elasticity of the Hicksian demand, as an economic parameter sufficient to capture and explain a range of convergent and non-convergent t\^atonnement behaviors in a broad class of markets. In particular, we prove the convergence of t\^atonnement at a rate of $O((1+\varepsilon^2)/T)$, in homothetic Fisher markets with bounded price elasticity of Hicksian demand, i.e., Fisher markets in which consumers have preferences represented by homogeneous utility functions and the price elasti
+    Decentralized cryptocurrencies are payment systems that rely on aligning the incentives of users and miners to operate correctly and offer a high quality of service to users. Recent literature studies the mechanism design problem of the auction serving as a cryptocurrency's transaction fee mechanism (TFM). We find that a non-myopic modelling of miners falls close to another well-known problem: that of online buffer management for packet switching. The main difference is that unlike packets which are of a fixed size throughout their lifetime, in a financial environment, user preferences (and therefore revenue extraction) may be time-dependent. We study the competitive ratio guarantees given a certain discount rate, and show how existing methods from packet scheduling, which we call "the undiscounted case", perform suboptimally in the more general discounted setting. Most notably, we find a novel, simple, memoryless, and optimal deterministic algorithm for the semi-myopic case, when the 
     
-[^5]: 时变约束下的协整性问题
+[^3]: 随机分配中的顺序规则效率
 
-    Cointegration with Occasionally Binding Constraints. (arXiv:2211.09604v2 [econ.EM] UPDATED)
+    Efficiency in random allocation with ordinal rules. (arXiv:2401.11899v1 [econ.TH])
 
-    [http://arxiv.org/abs/2211.09604](http://arxiv.org/abs/2211.09604)
+    [http://arxiv.org/abs/2401.11899](http://arxiv.org/abs/2401.11899)
 
-    本研究在非线性协整性的背景下，探讨了在时变约束下如何生成共同的线性和非线性随机趋势的问题。通过使用被审查和弯曲的结构化VAR模型，我们提供了对于时间序列受到阈值型非线性性质影响的全面描述。
-
-    
-
-    在非线性协整性的文献中，一个长期的悬而未决问题是关于（非线性）向量自回归如何在时间序列的短期和长期动力学的统一描述中生成“非线性协整性”，即这些序列共享共同的非线性随机趋势。我们在被审查和弯曲的结构化VAR模型（CKSVAR）的背景下考虑了这个问题，该模型提供了一个灵活但易于处理的框架，用于建模受阈值型非线性性质影响的时间序列，例如由于偶尔出现的约束所导致的零下限（ZLB）。我们通过单位根和对通常秩条件的适当推广，提供了这一模型中如何产生共同线性和非线性随机趋势的完整特征描述，这是迄今为止对Granger-J的第一次扩展
-
-    In the literature on nonlinear cointegration, a long-standing open problem relates to how a (nonlinear) vector autoregression, which provides a unified description of the short- and long-run dynamics of a collection of time series, can generate 'nonlinear cointegration' in the profound sense of those series sharing common nonlinear stochastic trends. We consider this problem in the setting of the censored and kinked structural VAR (CKSVAR), which provides a flexible yet tractable framework within which to model time series that are subject to threshold-type nonlinearities, such as those arising due to occasionally binding constraints, of which the zero lower bound (ZLB) on short-term nominal interest rates provides a leading example. We provide a complete characterisation of how common linear and {nonlinear stochastic trends may be generated in this model, via unit roots and appropriate generalisations of the usual rank conditions, providing the first extension to date of the Granger-J
-    
-[^6]: 带全付拍卖的顺序淘汰比赛研究
-
-    Sequential Elimination Contests with All-Pay Auctions. (arXiv:2205.08104v2 [cs.GT] UPDATED)
-
-    [http://arxiv.org/abs/2205.08104](http://arxiv.org/abs/2205.08104)
-
-    本文研究了带全付拍卖的顺序淘汰比赛，在设计者无法得知所有选手类型情况下，对于有限的选手数量，我们明确定义了均衡策略和期望的最优机制，并为设计者提供了一些众包比赛的设计启示。
+    该论文研究了通过抽签分配不可分割商品的顺序规则，并定义了一种新的效率概念。尽管顺序性和效率在一起与公平概念不兼容，但它们允许存在一类丰富的规则。
 
     
 
-    本文研究了一种顺序淘汰比赛，比赛前需要过滤选手。这一模型的构建是基于许多众包比赛只有有限的评审资源，需要提高提交物品的整体质量这一实践的考虑。在第一种情况下，我们考虑选手的能力排名的知情设计者，允许 $2\leq n_2 \leq n_1$ 的前 $n_2$ 名选手参加比赛。进入比赛的选手会根据自己的能力排名可以进入前 $n_2$ 名的信号来更新对对手能力的信念。我们发现，即使具有IID先验，他们的后验信念仍然存在相关性，并且取决于选手的个人能力。我们明确地刻画了对称的和唯一的贝叶斯均衡策略。我们发现，每个被录取选手的均衡付出随 $n_2$ 的增加而增加，当 $n_2 \in [\lfloor{(n_1+1)/2}\rfloor+1,n_1]$ 时，但在 $n_2 \in [2, \lfloor{(n_1+1)/2}\rfloor]$ 时不一定单调。然后，我们考虑了更加现实的情况，设计者只具有有关选手类型的部分信息，选手类型在 $[0,1]$ 上独立均匀分布。我们得到了关于接受选手的期望最优机制性能的尖锐界限，以及每个进入比赛的选手均衡付出的界限。我们的结果对于众包比赛的设计具有重要意义。
+    我们研究了通过抽签分配不可分割商品的顺序规则。顺序性要求规则仅考虑代理人对非凡抽签的排序方式，并且可能受认知、信息或者我们展示的激励约束的限制。顺序规则对代理人偏好的有限响应性意味着它们只能满足基于一阶随机优势的福利性质，这是不完整的。我们为顺序规则定义了一种新的效率概念。尽管顺序性和效率在一起与通常的公平概念不兼容，并且在一定程度上限制了随机化，它们仍为一类丰富的规则留下了空间。通过对所有顺序、效率、策略可证明、非霸占、有界不变和中立规则的刻画，我们证明了这一点。
 
-    We study a sequential elimination contest where players are filtered prior to the round of competing for prizes. This is motivated by the practice that many crowdsourcing contests have very limited resources of reviewers and want to improve the overall quality of the submissions. We first consider a setting where the designer knows the ranking of the abilities (types) of all $n_1$ registered players, and admit the top $n_2$ players with $2\leq n_2 \leq n_1$ into the contest. The players admitted into the contest update their beliefs about their opponents based on the signal that their abilities are among the top $n_2$. We find that their posterior beliefs, even with IID priors, are correlated and depend on players' private abilities.  We explicitly characterize the symmetric and unique Bayesian equilibrium strategy. We find that each admitted player's equilibrium effort is increasing in $n_2$ when $n_2 \in [\lfloor{(n_1+1)/2}\rfloor+1,n_1]$, but not monotone in general when $n_2 \in [2
+    We study ordinal rules for allocating indivisible goods via lottery. Ordinality requires a rule to consider only how agents rank degenerate lotteries and may be necessitated by cognitive, informational, or as we show, incentive constraints. The limited responsiveness of ordinal rules to agents' preferences means that they can only satisfy welfare properties based on first order stochastic dominance, which is incomplete.  We define a new efficiency concept for ordinal rules. While ordinality and efficiency together are incompatible with the usual notions of fairness and somewhat limit randomization, they does leave room for a rich class of rules. We demonstrate this through a characterization of all ordinal, efficient, strategy-proof, non-bossy, boundedly invariant, and neutral rules.
+    
+[^4]: 经济活动的空间演化与城市的出现
+
+    The spatial evolution of economic activities and the emergence of cities. (arXiv:2310.07883v1 [econ.TH])
+
+    [http://arxiv.org/abs/2310.07883](http://arxiv.org/abs/2310.07883)
+
+    本文研究了经济活动的空间集聚和城市的产生。通过模型，证明了存在短期均衡和长期均衡，并且得出长期均衡下空间分配的有效性。
+
+    
+
+    本文研究了在连续的空间和时间框架内，工人和收入的空间集聚现象。生产和消费是在局部市场中决定的，其特点是存在空间溢出效应和便利设施。工人通过最大化即时效用来选择移动的位置，但受到移动成本的限制。我们证明了短期Cournot-Nash均衡的存在，并且在工人数量无限增加的极限下，短期均衡的序列可以用偏微分方程来表示。我们刻画了长期均衡显示空间集聚的条件。社会福利随时间递增，在长期均衡中，代表性工人的预期效用在空间上是相等的，因此空间分配是有效的。该模型可以重现多种特征效应，如具有不同大小和形状的空间集聚（城市）的出现，以及其与
+
+    This paper studies the spatial agglomeration of workers and income in a continuous space and time framework. Production and consumption are decided in local markets, characterized by the presence of spatial spillovers and amenities. Workers move across locations maximizing their instantaneous utility, subject to mobility costs. We prove the existence of a short-run Cournot-Nash equilibrium, and that, in the limit of an infinite number of workers, the sequence of short-run equilibria can be expressed by a partial differential equation. We characterize the conditions under which the long-run equilibrium displays spatial agglomerations. Social welfare is non-decreasing over time, and in the long-run equilibrium the expected utility of a representative worker is equalized over space and, therefore, the spatial allocation is efficient. The model can reproduce several stylized effects, such as the emergence of spatial agglomerations (cities) with different sizes and shapes; the dependence by
+    
+[^5]: 带有建议的新闻经销商模型
+
+    The Newsvendor with Advice. (arXiv:2305.07993v1 [math.OC])
+
+    [http://arxiv.org/abs/2305.07993](http://arxiv.org/abs/2305.07993)
+
+    本文开发了第一个整合了机器学习预测的新闻经销商模型，利用预测来优化库存水平以避免下限和提高性能。
+
+    
+
+    标准的新闻经销商模型假设需求是随机的，同时对于超额或不足的成本进行成本分析。优化存货水平可以利用著名的关键分位公式来确定。虽然模型已经在许多应用程序中被利用，但在实践中，通常了解问题的更多特征和特点。利用这些特征，通常会使用机器学习来预测库存水平，而不是经典的新闻经销商方法。一系列新兴的研究已经展示了如何将机器学习预测纳入模型中，以规避下限并提高性能。本文开发了第一个整合了机器学习预测的新闻经销商模型。本文考虑了一个重复的新闻经销商设置，并具有非静止需求。每个周期都有一个预测需求，并且正如在机器学习中的情况，预测可能是有噪声的。目标是使库存管理算法利用这些预测来优化库存水平。
+
+    The standard newsvendor model assumes a stochastic demand distribution as well as costs for overages and underages. The celebrated critical fractile formula can be used to determine the optimal inventory levels. While the model has been leveraged in numerous applications, often in practice more characteristics and features of the problem are known. Using these features, it is common to employ machine learning to predict inventory levels over the classic newsvendor approach.  An emerging line of work has shown how to use incorporate machine learned predictions into models to circumvent lower bounds and give improved performance. This paper develops the first newsvendor model that incorporates machine learned predictions. The paper considers a repeated newsvendor setting with nonstationary demand. There is a prediction is for each period's demand and, as is the case in machine learning, the prediction can be noisy. The goal is for an inventory management algorithm to take advantage of th
+    
+[^6]: 一个非参数随机集合模型：鉴别，优化和预测
+
+    A Nonparametric Stochastic Set Model: Identification, Optimization, and Prediction. (arXiv:2302.04354v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2302.04354](http://arxiv.org/abs/2302.04354)
+
+    这篇论文开发了一个新的非参数模型来解决非辨识性问题，该模型假设消费者有有界理性，并且能够准确解释客户的选择行为。
+
+    
+
+    选择模型的鉴别对于理解消费者行为，设计营销政策和开发新产品至关重要。参数选择基于需求模型的鉴别，如多项式选择模型（MNL），通常是直接的。然而，非参数模型在解释客户选择方面非常有效和灵活，但可能会遇到维度灾难，并失去可辨识性。例如，排名模型是一个非参数模型，旨在模拟随机效用最大化（RUM）原则，已被认为光从选择概率集合本身无法辨识。在本文中，我们开发了一个新的非参数模型类别，不受非辨识性问题的影响。我们的模型假设消费者有有界理性，导致对称需求 cannibalization 并有趣地实现完全辨识。也就是说，我们可以唯一构建模型参数，以精确地解释客户选择行为。
+
+    The identification of choice models is crucial for understanding consumer behavior, designing marketing policies, and developing new products. The identification of parametric choice-based demand models, such as the multinomial choice model (MNL), is typically straightforward. However, nonparametric models, which are highly effective and flexible in explaining customer choices, may encounter the curse of the dimensionality and lose their identifiability. For example, the ranking-based model, which is a nonparametric model and designed to mirror the random utility maximization (RUM) principle, is known to be nonidentifiable from the collection of choice probabilities alone. In this paper, we develop a new class of nonparametric models that is not subject to the problem of nonidentifiability. Our model assumes bounded rationality of consumers, which results in symmetric demand cannibalization and intriguingly enables full identification. That is to say, we can uniquely construct the mode
     
 
