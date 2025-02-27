@@ -2,52 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [CBQ: Cross-Block Quantization for Large Language Models](https://rss.arxiv.org/abs/2312.07950) | CBQ是一种用于大型语言模型的跨块重构型后训练量化方法。CBQ通过使用同源重构方案来建立块间的长程依赖关系，最小化误差积累。CBQ还采用了粗到精的预处理策略和自适应的取整技术，使其能够有效处理极端异常值并提高整体量化精度。 |
-| [^2] | [ASGEA: Exploiting Logic Rules from Align-Subgraphs for Entity Alignment](https://arxiv.org/abs/2402.11000) | 提出了一个新的实体对齐框架ASGEA，利用Align-Subgraphs中的逻辑规则，设计了可解释的基于路径的图神经网络ASGNN，引入了多模态注意机制，取得了令人满意的实验结果 |
-| [^3] | [Dynamic Fault Analysis in Substations Based on Knowledge Graphs.](http://arxiv.org/abs/2311.13708) | 提出了一种基于知识图谱的变电站动态故障分析方法，利用非结构化文本提取相关信息，通过隐藏马尔科夫模型训练数据，利用Neo4j图数据库创建知识图谱，实现对变电站中隐藏危险的可视化分析。 |
+| [^1] | [NeuroVoz: a Castillian Spanish corpus of parkinsonian speech](https://arxiv.org/abs/2403.02371) | 这一研究提出了一个包含108位母语为卡斯蒂利亚语说话者的帕金森病患者语音语料库，涵盖了多种语音任务，通过手动和自动转录确保了数据的准确性和可靠性。 |
+| [^2] | [Syntactic Ghost: An Imperceptible General-purpose Backdoor Attacks on Pre-trained Language Models](https://arxiv.org/abs/2402.18945) | 论文提出了一种名为Syntactic Ghost的新方法，实现了对预训练语言模型进行无感知和通用的后门植入。 |
+| [^3] | [Permute-and-Flip: An optimally robust and watermarkable decoder for LLMs](https://arxiv.org/abs/2402.05864) | 提出了一种名为Permute-and-Flip（PF）解码器，其具有最佳的鲁棒性和质量-鲁棒性的 tradeoff，且比采样方法更好。还设计了一种针对PF解码器的水印方案，能够保持样本的分布不变，并实现任意低的假阳性率和高的召回率。实验证明PF解码器在困惑度方面明显优于朴素采样，为LLM解码提供了一种有希望的新方法。 |
+| [^4] | [Mixture Encoder Supporting Continuous Speech Separation for Meeting Recognition.](http://arxiv.org/abs/2309.08454) | 本研究将混合编码器方法从两个说话人情况扩展到了更自然的会议环境，包括任意数量的说话人和动态重叠。实验证明，该方法在LibriCSS数据集上达到了最先进的性能，并凸显了混合编码器的优势。 |
+| [^5] | [World Models for Math Story Problems.](http://arxiv.org/abs/2306.04347) | 本文介绍了一个基于图形的语义规范MathWorld，可以将世界模型分配给数学故事问题，从而提供比现有方法更好的可解释性和对NLP模型的性能提升。 |
 
 # 详细
 
-[^1]: 跨块量化：用于大型语言模型的跨块量化方法
+[^1]: NeuroVoz：帕金森病患者语音的卡斯蒂利亚语语料库
 
-    CBQ: Cross-Block Quantization for Large Language Models
+    NeuroVoz: a Castillian Spanish corpus of parkinsonian speech
 
-    [https://rss.arxiv.org/abs/2312.07950](https://rss.arxiv.org/abs/2312.07950)
+    [https://arxiv.org/abs/2403.02371](https://arxiv.org/abs/2403.02371)
 
-    CBQ是一种用于大型语言模型的跨块重构型后训练量化方法。CBQ通过使用同源重构方案来建立块间的长程依赖关系，最小化误差积累。CBQ还采用了粗到精的预处理策略和自适应的取整技术，使其能够有效处理极端异常值并提高整体量化精度。
-
-    
-
-    后训练量化（PTQ）在以极低成本压缩大型语言模型（LLM）方面起着重要作用。然而，现有的PTQ方法只关注处理单个层或单个块内的异常值，忽略了块之间的依赖关系，在低位设置中导致严重的性能下降。本文提出了一种基于块间重构的跨块PTQ方法CBQ。CBQ采用了一种同源重构方案来实现块间的长程依赖关系，以最小化误差积累。此外，CBQ还结合了一种粗到精的预处理策略（CFP）来抑制权重和激活值的异常值，并配合一种自适应的LoRA取整技术实现精确的权重量化。这些创新使CBQ不仅能够有效处理极端异常值，还能提高整体量化精度。广泛的实验证明，CBQ在低位量化（W4A4，W4A8等）方面具有优越性能。
-
-    Post-training quantization (PTQ) has played a key role in compressing large language models (LLMs) with ultra-low costs. However, existing PTQ methods only focus on handling the outliers within one layer or one block, which ignores the dependency of blocks and leads to severe performance degradation in low-bit settings. In this paper, we propose CBQ, a cross-block reconstruction-based PTQ method for LLMs. CBQ employs a cross-block dependency using a homologous reconstruction scheme, establishing long-range dependencies across multiple blocks to minimize error accumulation. Furthermore, CBQ incorporates a coarse-to-fine preprocessing (CFP) strategy for suppressing weight and activation outliers, coupled with an adaptive LoRA-Rounding technique for precise weight quantization. These innovations enable CBQ to not only handle extreme outliers effectively but also improve overall quantization accuracy. Extensive experiments show that CBQ achieves superior low-bit quantization (W4A4, W4A8, W
-    
-[^2]: ASGEA：利用Align-Subgraphs中的逻辑规则进行实体对齐
-
-    ASGEA: Exploiting Logic Rules from Align-Subgraphs for Entity Alignment
-
-    [https://arxiv.org/abs/2402.11000](https://arxiv.org/abs/2402.11000)
-
-    提出了一个新的实体对齐框架ASGEA，利用Align-Subgraphs中的逻辑规则，设计了可解释的基于路径的图神经网络ASGNN，引入了多模态注意机制，取得了令人满意的实验结果
+    这一研究提出了一个包含108位母语为卡斯蒂利亚语说话者的帕金森病患者语音语料库，涵盖了多种语音任务，通过手动和自动转录确保了数据的准确性和可靠性。
 
     
 
-    实体对齐（EA）旨在识别代表相同现实世界对象的不同知识图中的实体。最近基于嵌入的EA方法在EA方面取得了最先进的性能，但面临着解释性挑战，因为它们完全依赖于嵌入距离，并忽视了一对对齐实体背后的逻辑规则。在本文中，我们提出了Align-Subgraph实体对齐（ASGEA）框架来利用Align-Subgraphs中的逻辑规则。ASGEA使用锚链接作为桥梁来构建Align-Subgraphs，并沿着跨知识图的路径传播，这使其区别于基于嵌入的方法。此外，我们设计了一种可解释的基于路径的图神经网络ASGNN，以有效识别和整合跨知识图的逻辑规则。我们还引入了一个节点级多模态注意机制，结合多模态增强的锚点来增强Align-Subgraph。我们的实验结果
+    通过语音分析进行帕金森病（PD）诊断的进展受到公开可用、多样化的语言数据集的显著缺乏的阻碍，限制了现有研究结果的可再现性和进一步探索。为了弥补这一空白，我们引入了一个全面的语料库，包括来自108位母语为卡斯蒂利亚语的说话者，包括55名健康对照组和53名被诊断患有PD的个体，所有这些个体都在药物治疗下，并且在药物优化状态下进行记录。 这一独特数据集涵盖了广泛的语音任务，包括持续发音五个西班牙元音、发音测试、16个听后重复的话语以及自由独白。该数据集通过专家手动转录听后重复任务强调准确性和可靠性，并利用Whisper进行自动独白转录，使其成为帕金森病患者语音的最完整的公开语料库。
 
-    arXiv:2402.11000v1 Announce Type: cross  Abstract: Entity alignment (EA) aims to identify entities across different knowledge graphs that represent the same real-world objects. Recent embedding-based EA methods have achieved state-of-the-art performance in EA yet faced interpretability challenges as they purely rely on the embedding distance and neglect the logic rules behind a pair of aligned entities. In this paper, we propose the Align-Subgraph Entity Alignment (ASGEA) framework to exploit logic rules from Align-Subgraphs. ASGEA uses anchor links as bridges to construct Align-Subgraphs and spreads along the paths across KGs, which distinguishes it from the embedding-based methods. Furthermore, we design an interpretable Path-based Graph Neural Network, ASGNN, to effectively identify and integrate the logic rules across KGs. We also introduce a node-level multi-modal attention mechanism coupled with multi-modal enriched anchors to augment the Align-Subgraph. Our experimental results 
+    arXiv:2403.02371v1 Announce Type: cross  Abstract: The advancement of Parkinson's Disease (PD) diagnosis through speech analysis is hindered by a notable lack of publicly available, diverse language datasets, limiting the reproducibility and further exploration of existing research.   In response to this gap, we introduce a comprehensive corpus from 108 native Castilian Spanish speakers, comprising 55 healthy controls and 53 individuals diagnosed with PD, all of whom were under pharmacological treatment and recorded in their medication-optimized state. This unique dataset features a wide array of speech tasks, including sustained phonation of the five Spanish vowels, diadochokinetic tests, 16 listen-and-repeat utterances, and free monologues. The dataset emphasizes accuracy and reliability through specialist manual transcriptions of the listen-and-repeat tasks and utilizes Whisper for automated monologue transcriptions, making it the most complete public corpus of Parkinsonian speech, 
     
-[^3]: 基于知识图谱的变电站动态故障分析
+[^2]: Syntactic Ghost：一种对预训练语言模型进行的无感知通用后门攻击
 
-    Dynamic Fault Analysis in Substations Based on Knowledge Graphs. (arXiv:2311.13708v2 [cs.CL] UPDATED)
+    Syntactic Ghost: An Imperceptible General-purpose Backdoor Attacks on Pre-trained Language Models
 
-    [http://arxiv.org/abs/2311.13708](http://arxiv.org/abs/2311.13708)
+    [https://arxiv.org/abs/2402.18945](https://arxiv.org/abs/2402.18945)
 
-    提出了一种基于知识图谱的变电站动态故障分析方法，利用非结构化文本提取相关信息，通过隐藏马尔科夫模型训练数据，利用Neo4j图数据库创建知识图谱，实现对变电站中隐藏危险的可视化分析。
+    论文提出了一种名为Syntactic Ghost的新方法，实现了对预训练语言模型进行无感知和通用的后门植入。
 
     
 
-    为了解决从非结构化文本中识别变电站隐藏危险的挑战，提出了一种新颖的动态分析方法。首先从非结构化文本中提取相关信息，然后利用基于Elastic-Search构建的灵活分布式搜索引擎处理数据。接下来，使用隐藏马尔科夫模型来训练引擎中的数据。维特比算法被整合进来解密隐藏状态序列，便于对与隐藏危险相关的实体进行分割和标注。最后，使用Neo4j图数据库动态创建知识图谱来可视化变电站中的隐藏危险。通过对文本记录中揭示的具体变电站的隐藏危险进行案例分析，证明了所提方法的有效性。
+    预训练语言模型（PLMs）被发现容易受到后门攻击，可以将漏洞转移到各种下游任务中。然而，现有的PLM后门攻击采用明显的触发器，在手动对准的情况下进行，因此在效果、隐匿性和通用性方面无法同时满足期望目标。本文提出了一种新方法，实现了不可见和通用的后门植入，称为Syntactic Ghost（简称为synGhost）。具体来说，该方法敌意地使用具有不同预定义句法结构的毒害样本作为隐蔽触发器，然后将后门植入到预训练表示空间，而不会破坏原始知识。毒害样本的输出表示在特征空间中尽可能均匀地分布，通过对比学习形成广泛的后门。此外，在亮
 
-    To address the challenge of identifying hidden danger in substations from unstructured text, a novel dynamic analysis method is proposed. We first extract relevant information from the unstructured text, and then leverages a flexible distributed search engine built on Elastic-Search to handle the data. Following this, the hidden Markov model is employed to train the data within the engine. The Viterbi algorithm is integrated to decipher the hidden state sequences, facilitating the segmentation and labeling of entities related to hidden dangers. The final step involves using the Neo4j graph database to dynamically create a knowledge graph that visualizes hidden dangers in the substation. The effectiveness of the proposed method is demonstrated through a case analysis from a specific substation with hidden dangers revealed in the text records.
+    arXiv:2402.18945v1 Announce Type: cross  Abstract: Pre-trained language models (PLMs) have been found susceptible to backdoor attacks, which can transfer vulnerabilities to various downstream tasks. However, existing PLM backdoors are conducted with explicit triggers under the manually aligned, thus failing to satisfy expectation goals simultaneously in terms of effectiveness, stealthiness, and universality. In this paper, we propose a novel approach to achieve invisible and general backdoor implantation, called \textbf{Syntactic Ghost} (synGhost for short). Specifically, the method hostilely manipulates poisoned samples with different predefined syntactic structures as stealth triggers and then implants the backdoor to pre-trained representation space without disturbing the primitive knowledge. The output representations of poisoned samples are distributed as uniformly as possible in the feature space via contrastive learning, forming a wide range of backdoors. Additionally, in light 
+    
+[^3]: Permute-and-Flip：一种具有最佳鲁棒性和可加水印的LLMs解码器
+
+    Permute-and-Flip: An optimally robust and watermarkable decoder for LLMs
+
+    [https://arxiv.org/abs/2402.05864](https://arxiv.org/abs/2402.05864)
+
+    提出了一种名为Permute-and-Flip（PF）解码器，其具有最佳的鲁棒性和质量-鲁棒性的 tradeoff，且比采样方法更好。还设计了一种针对PF解码器的水印方案，能够保持样本的分布不变，并实现任意低的假阳性率和高的召回率。实验证明PF解码器在困惑度方面明显优于朴素采样，为LLM解码提供了一种有希望的新方法。
+
+    
+
+    在本文中，我们提出了一种名为Permute-and-Flip（PF）解码器的新解码方法。它具有与标准采样解码器相似的鲁棒性特性，但在质量和鲁棒性的 tradeoff 上证明比采样方法更好，且永远不会差于任何其他解码器。同时，我们还设计了一种类似于Aaronson的Gumbel水印的加密水印方案，但是针对PF解码器而自然量身定制。该水印方案不改变样本的分布，同时允许任意低的假阳性率和高的召回率，只要生成的文本具有高熵。我们的实验证明，PF解码器（及其带有水印的对应物）在困惑度方面明显优于朴素采样（及其带有Gumbel水印的对应物），同时保持相同的鲁棒性（和可检测性），因此为LLM解码提供了一个有希望的新方法。代码可在https://github.com/XuandongZhao/pf-decoding找到。
+
+    In this paper, we propose a new decoding method called Permute-and-Flip (PF) decoder. It enjoys robustness properties similar to the standard sampling decoder, but is provably up to 2x better in its quality-robustness tradeoff than sampling and never worse than any other decoder. We also design a cryptographic watermarking scheme analogous to Aaronson's Gumbel watermark, but naturally tailored for PF decoder. The watermarking scheme does not change the distribution to sample, while allowing arbitrarily low false positive rate and high recall whenever the generated text has high entropy. Our experiments show that the PF decoder (and its watermarked counterpart) significantly outperform(s) naive sampling (and it's Gumbel watermarked counterpart) in terms of perplexity, while retaining the same robustness (and detectability), hence making it a promising new approach for LLM decoding. The code is available at https://github.com/XuandongZhao/pf-decoding
+    
+[^4]: 混合编码器支持连续语音分离用于会议识别
+
+    Mixture Encoder Supporting Continuous Speech Separation for Meeting Recognition. (arXiv:2309.08454v1 [eess.AS])
+
+    [http://arxiv.org/abs/2309.08454](http://arxiv.org/abs/2309.08454)
+
+    本研究将混合编码器方法从两个说话人情况扩展到了更自然的会议环境，包括任意数量的说话人和动态重叠。实验证明，该方法在LibriCSS数据集上达到了最先进的性能，并凸显了混合编码器的优势。
+
+    
+
+    自动语音识别（ASR）的许多实际应用需要处理重叠的语音。一种常见的方法是首先将语音分离成无重叠的流，然后对生成的信号进行ASR。最近，提出了在ASR模型中包含混合编码器的方法。该混合编码器利用原始重叠的语音来减轻语音分离引入的伪影效果。然而，先前的方法仅针对两个说话人的情况。在这项工作中，我们将这种方法扩展到更自然的会议环境，包括任意数量的说话人和动态重叠。我们使用不同的语音分离器（包括强大的TF-GridNet模型）评估性能。实验证明，在LibriCSS数据集上达到了最先进的性能，并凸显了混合编码器的优势。此外，实验还展示了TF-GridNet的强大分离能力，大大缩小了先前方法的差距。
+
+    Many real-life applications of automatic speech recognition (ASR) require processing of overlapped speech. A commonmethod involves first separating the speech into overlap-free streams and then performing ASR on the resulting signals. Recently, the inclusion of a mixture encoder in the ASR model has been proposed. This mixture encoder leverages the original overlapped speech to mitigate the effect of artifacts introduced by the speech separation. Previously, however, the method only addressed two-speaker scenarios. In this work, we extend this approach to more natural meeting contexts featuring an arbitrary number of speakers and dynamic overlaps. We evaluate the performance using different speech separators, including the powerful TF-GridNet model. Our experiments show state-of-the-art performance on the LibriCSS dataset and highlight the advantages of the mixture encoder. Furthermore, they demonstrate the strong separation of TF-GridNet which largely closes the gap between previous m
+    
+[^5]: 数学解题的世界模型研究
+
+    World Models for Math Story Problems. (arXiv:2306.04347v1 [cs.CL])
+
+    [http://arxiv.org/abs/2306.04347](http://arxiv.org/abs/2306.04347)
+
+    本文介绍了一个基于图形的语义规范MathWorld，可以将世界模型分配给数学故事问题，从而提供比现有方法更好的可解释性和对NLP模型的性能提升。
+
+    
+
+    对于学生和自然语言处理模型而言，解决数学故事问题是一项复杂的任务，需要他们理解故事中所描述的世界并对其进行推理，以计算出答案。近年来，大型预训练语言模型和创新技术已经取得了惊人的表现，可以自动解决这些问题。但是，这些模型是否具有数学概念的准确表示仍不清楚。这导致缺乏可解释性和可信度，从而影响它们在各种应用中的有用性。本文将之前的工作整合到分类和表达数学故事问题上，并开发出针对数学故事问题领域的基于图形的语义规范MathWorld。利用MathWorld，我们可以为数学故事问题分配世界模型，它们表示在文本中介绍的情况和行动以及它们的数学关系。我们将来自几个现有数据集的数学故事问题组合在一起，并在我们收集的新数据集Story-Gen Math上评估我们的方法，该数据集包含具有不同难度的具有挑战性的问题。我们的实验表明，MathWorld可以提高自然语言处理模型的性能，并提供比现有方法更好的可解释性。
+
+    Solving math story problems is a complex task for students and NLP models alike, requiring them to understand the world as described in the story and reason over it to compute an answer. Recent years have seen impressive performance on automatically solving these problems with large pre-trained language models and innovative techniques to prompt them. However, it remains unclear if these models possess accurate representations of mathematical concepts. This leads to lack of interpretability and trustworthiness which impedes their usefulness in various applications. In this paper, we consolidate previous work on categorizing and representing math story problems and develop MathWorld, which is a graph-based semantic formalism specific for the domain of math story problems. With MathWorld, we can assign world models to math story problems which represent the situations and actions introduced in the text and their mathematical relationships. We combine math story problems from several exis
     
 

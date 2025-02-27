@@ -2,142 +2,172 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Few-Shot Cross-System Anomaly Trace Classification for Microservice-based systems](https://arxiv.org/abs/2403.18998) | 提出了针对微服务系统的少样本异常跟踪分类的新框架，利用多头注意力自编码器构建系统特定的跟踪表示，并应用基于Transformer编码器的模型无关元学习进行高效分类。 |
-| [^2] | [As Good As A Coin Toss Human detection of AI-generated images, videos, audio, and audiovisual stimuli](https://arxiv.org/abs/2403.16760) | 通过一项感知研究，评估了人们在日常生活中对合成图像、音频、视频和音视频刺激与真实的区分能力，以探讨人类对欺骗性合成媒体的易受程度。 |
-| [^3] | [ChatDBG: An AI-Powered Debugging Assistant](https://arxiv.org/abs/2403.16354) | ChatDBG是第一个AI-Powered调试助手，通过将大型语言模型集成到传统调试器中，实现了程序员与调试器之间的协作对话，能够处理复杂问题、执行根本原因分析，并探索开放性查询。 |
-| [^4] | [Sphere Neural-Networks for Rational Reasoning](https://arxiv.org/abs/2403.15297) | 该论文提出了一种球形神经网络（SphNNs）来进行理性推理，通过将计算构建块从向量推广到球体，实现了人类类似的推理能力，并开发了用于三段论推理的SphNN。 |
-| [^5] | [The AI Assessment Scale (AIAS) in action: A pilot implementation of GenAI supported assessment](https://arxiv.org/abs/2403.14692) | 该论文介绍了AI评估量表（AIAS）的实践应用，通过灵活框架将GenAI技术纳入教育评估中，显著降低了与GenAI相关的学术不端案件，提高了学生的学业成绩。 |
-| [^6] | [ASGEA: Exploiting Logic Rules from Align-Subgraphs for Entity Alignment](https://arxiv.org/abs/2402.11000) | 提出了一个新的实体对齐框架ASGEA，利用Align-Subgraphs中的逻辑规则，设计了可解释的基于路径的图神经网络ASGNN，引入了多模态注意机制，取得了令人满意的实验结果 |
-| [^7] | [CURE: Simulation-Augmented Auto-Tuning in Robotics](https://arxiv.org/abs/2402.05399) | 本论文提出了一种模拟辅助的自动调节技术，用于解决机器人系统中的高度可配置参数的优化问题。该技术通过解决软硬件之间配置选项的交互问题，实现了在不同环境和机器人平台之间的性能迁移。 |
-| [^8] | [D-STGCNT: A Dense Spatio-Temporal Graph Conv-GRU Network based on transformer for assessment of patient physical rehabilitation.](http://arxiv.org/abs/2401.06150) | D-STGCNT是一种新的模型，结合了STGCN和transformer的架构，用于自动评估患者身体康复锻炼。它通过将骨架数据视为图形，并检测关键关节，在处理时空数据方面具有高效性。该模型通过密集连接和GRU机制来处理大型3D骨架输入，有效建立时空动态模型。transformer的注意力机制对于评估康复锻炼非常有用。 |
-| [^9] | [Reinforcing POD based model reduction techniques in reaction-diffusion complex networks using stochastic filtering and pattern recognition.](http://arxiv.org/abs/2307.09762) | 该论文提出了一种算法框架，通过将模式识别和随机滤波理论的技术结合起来，强化了基于POD的反应扩散复杂网络模型简化技术，在受扰动输入的情况下提高了代理模型的准确性。 |
+| [^1] | [Great, Now Write an Article About That: The Crescendo Multi-Turn LLM Jailbreak Attack](https://arxiv.org/abs/2404.01833) | 提出了一种名为Crescendo的新型多回合越狱攻击方法，通过看似良性的对话方式逐渐升级与模型的交互，成功突破了大型语言模型的限制。 |
+| [^2] | [NeuroVoz: a Castillian Spanish corpus of parkinsonian speech](https://arxiv.org/abs/2403.02371) | 这一研究提出了一个包含108位母语为卡斯蒂利亚语说话者的帕金森病患者语音语料库，涵盖了多种语音任务，通过手动和自动转录确保了数据的准确性和可靠性。 |
+| [^3] | [Syntactic Ghost: An Imperceptible General-purpose Backdoor Attacks on Pre-trained Language Models](https://arxiv.org/abs/2402.18945) | 论文提出了一种名为Syntactic Ghost的新方法，实现了对预训练语言模型进行无感知和通用的后门植入。 |
+| [^4] | [The Last JITAI? The Unreasonable Effectiveness of Large Language Models in Issuing Just-in-Time Adaptive Interventions: Fostering Physical Activity in a Prospective Cardiac Rehabilitation Setting](https://arxiv.org/abs/2402.08658) | 本研究探索了使用大型语言模型（LLMs）实现即时自适应干预（JITAIs）的可行性。通过测试GPT-4模型以促进门诊心脏康复中心的心脏健康体育活动的使用案例，我们提出了450个JITAI决策和信息。 |
+| [^5] | [Large Language Model Agent for Hyper-Parameter Optimization](https://arxiv.org/abs/2402.01881) | 基于大规模语言模型的AgentHPO技术通过自动化超参数优化，在机器学习任务中大大减少了试验次数，简化了设置过程，提升了解释性和用户信任。 |
+| [^6] | [Mathematical Introduction to Deep Learning: Methods, Implementations, and Theory.](http://arxiv.org/abs/2310.20360) | 本书提供了对深度学习算法的数学介绍，包括不同的神经网络架构和优化算法，并涵盖了深度学习算法的理论方面。此外，还介绍了深度学习逼近偏微分方程的方法。希望对学生和科学家们有所帮助。 |
+| [^7] | [Lifted Inference beyond First-Order Logic.](http://arxiv.org/abs/2308.11738) | 这项工作研究了超越一阶逻辑的提升推理问题，扩展了计数量词扩展的两个变量的一阶逻辑片段的域可提升性，并在限定了关系的情况下探索了不同属性的域可提升性。 |
+| [^8] | [Implementing Quantum Generative Adversarial Network (qGAN) and QCBM in Finance.](http://arxiv.org/abs/2308.08448) | 这项研究讨论了在金融领域中应用量子机器学习的新研究方向，通过比较qGAN和QCBM等模型，展示了在金融领域中实现量子优势的潜力。 |
+| [^9] | [Towards an AI Accountability Policy.](http://arxiv.org/abs/2307.13658) | 这份白皮书是对美国国家电信和信息管理局的“AI问责政策评论请求”的回应，提出了一组相互关联的AI问责政策建议。 |
+| [^10] | [Towards Explainable TOPSIS: Visual Insights into the Effects of Weights and Aggregations on Rankings.](http://arxiv.org/abs/2306.07706) | 本研究提出了可解释TOPSIS的新方法，并介绍了TOPSIS-Explorer决策支持工具。该方法通过可视化方式解释权重和聚合对排名结果的影响，对实际应用有着重要意义。 |
+| [^11] | [Diagrammatization: Rationalizing with diagrammatic AI explanations for abductive-deductive reasoning on hypotheses.](http://arxiv.org/abs/2302.01241) | 本文提出了一种图解化的方法，以支持可解释的人工智能，通过图解型和假设性推理，缩小可解释性差距。通过临床应用研究和建模研究，我们发现DiagramNet不仅能提供忠实的杂音形状解释，还具有较好的预测性能，而且图解型解释在临床相关的情况下更受推崇。 |
 
 # 详细
 
-[^1]: 微服务系统的少样本跨系统异常跟踪分类
+[^1]: 伟大，现在写一篇关于此的文章：Crescendo多回合LLM越狱攻击
 
-    Few-Shot Cross-System Anomaly Trace Classification for Microservice-based systems
+    Great, Now Write an Article About That: The Crescendo Multi-Turn LLM Jailbreak Attack
 
-    [https://arxiv.org/abs/2403.18998](https://arxiv.org/abs/2403.18998)
+    [https://arxiv.org/abs/2404.01833](https://arxiv.org/abs/2404.01833)
 
-    提出了针对微服务系统的少样本异常跟踪分类的新框架，利用多头注意力自编码器构建系统特定的跟踪表示，并应用基于Transformer编码器的模型无关元学习进行高效分类。
-
-    
-
-    微服务系统（MSS）由于其复杂和动态的特性可能在各种故障类别中出现故障。为了有效处理故障，AIOps工具利用基于跟踪的异常检测和根本原因分析。本文提出了一个新颖的框架，用于微服务系统的少样本异常跟踪分类。我们的框架包括两个主要组成部分：（1）多头注意力自编码器用于构建系统特定的跟踪表示，从而实现（2）基于Transformer编码器的模型无关元学习，以进行有效和高效的少样本异常跟踪分类。该框架在两个代表性的MSS，Trainticket和OnlineBoutique上进行了评估，使用开放数据集。结果表明，我们的框架能够调整学到的知识，以对新的、未见的新颖故障类别的异常跟踪进行分类，无论是在最初训练的同一系统内，还是在其他系统中。
-
-    arXiv:2403.18998v1 Announce Type: cross  Abstract: Microservice-based systems (MSS) may experience failures in various fault categories due to their complex and dynamic nature. To effectively handle failures, AIOps tools utilize trace-based anomaly detection and root cause analysis. In this paper, we propose a novel framework for few-shot abnormal trace classification for MSS. Our framework comprises two main components: (1) Multi-Head Attention Autoencoder for constructing system-specific trace representations, which enables (2) Transformer Encoder-based Model-Agnostic Meta-Learning to perform effective and efficient few-shot learning for abnormal trace classification. The proposed framework is evaluated on two representative MSS, Trainticket and OnlineBoutique, with open datasets. The results show that our framework can adapt the learned knowledge to classify new, unseen abnormal traces of novel fault categories both within the same system it was initially trained on and even in the 
-    
-[^2]: 和抛硬币一样好：人类对AI生成的图像、视频、音频和音视频刺激的检测
-
-    As Good As A Coin Toss Human detection of AI-generated images, videos, audio, and audiovisual stimuli
-
-    [https://arxiv.org/abs/2403.16760](https://arxiv.org/abs/2403.16760)
-
-    通过一项感知研究，评估了人们在日常生活中对合成图像、音频、视频和音视频刺激与真实的区分能力，以探讨人类对欺骗性合成媒体的易受程度。
+    提出了一种名为Crescendo的新型多回合越狱攻击方法，通过看似良性的对话方式逐渐升级与模型的交互，成功突破了大型语言模型的限制。
 
     
 
-    随着合成媒体变得越来越逼真，使用它的障碍不断降低，这项技术越来越被恶意利用，从金融欺诈到非自愿色情。今天，对抗被合成媒体误导的主要防御依赖于人类观察者在视觉和听觉上区分真假的能力。然而，人们在日常生活中实际上对欺骗性合成媒体有多脆弱仍不清楚。我们进行了一个包含1276名参与者的感知研究，评估人们在区分合成图像、仅音频、仅视频和音视频刺激与真实的准确性如何。为了反映人们在野外可能遇到合成媒体的情况，测试条件和刺激模拟了典型的在线平台，而调查中使用的所有合成媒体均来自
+    大型语言模型（LLMs）的流行程度大幅上升，并且越来越多地被应用于多个领域。这些LLMs在设计上避免涉及非法或不道德的话题，以避免对负责任的AI造成伤害。然而，最近出现了一系列攻击，被称为“越狱”，旨在突破这种对齐。直观地说，越狱攻击旨在缩小模型能做的与愿意做的之间的差距。本文介绍了一种名为Crescendo的新型越狱攻击。与现有的越狱方法不同，Crescendo是一种多回合越狱，以一种看似良性的方式与模型进行交互。它从有关手头任务的一般提示或问题开始，然后逐渐升级对话，引用模型的回复，逐渐导致成功越狱。我们在包括ChatGPT、Gemini Pr在内的各种公共系统上评估了Crescendo。
 
-    arXiv:2403.16760v1 Announce Type: cross  Abstract: As synthetic media becomes progressively more realistic and barriers to using it continue to lower, the technology has been increasingly utilized for malicious purposes, from financial fraud to nonconsensual pornography. Today, the principal defense against being misled by synthetic media relies on the ability of the human observer to visually and auditorily discern between real and fake. However, it remains unclear just how vulnerable people actually are to deceptive synthetic media in the course of their day to day lives. We conducted a perceptual study with 1276 participants to assess how accurate people were at distinguishing synthetic images, audio only, video only, and audiovisual stimuli from authentic. To reflect the circumstances under which people would likely encounter synthetic media in the wild, testing conditions and stimuli emulated a typical online platform, while all synthetic media used in the survey was sourced from 
+    arXiv:2404.01833v1 Announce Type: cross  Abstract: Large Language Models (LLMs) have risen significantly in popularity and are increasingly being adopted across multiple applications. These LLMs are heavily aligned to resist engaging in illegal or unethical topics as a means to avoid contributing to responsible AI harms. However, a recent line of attacks, known as "jailbreaks", seek to overcome this alignment. Intuitively, jailbreak attacks aim to narrow the gap between what the model can do and what it is willing to do. In this paper, we introduce a novel jailbreak attack called Crescendo. Unlike existing jailbreak methods, Crescendo is a multi-turn jailbreak that interacts with the model in a seemingly benign manner. It begins with a general prompt or question about the task at hand and then gradually escalates the dialogue by referencing the model's replies, progressively leading to a successful jailbreak. We evaluate Crescendo on various public systems, including ChatGPT, Gemini Pr
     
-[^3]: ChatDBG: 一种基于人工智能的调试助手
+[^2]: NeuroVoz：帕金森病患者语音的卡斯蒂利亚语语料库
 
-    ChatDBG: An AI-Powered Debugging Assistant
+    NeuroVoz: a Castillian Spanish corpus of parkinsonian speech
 
-    [https://arxiv.org/abs/2403.16354](https://arxiv.org/abs/2403.16354)
+    [https://arxiv.org/abs/2403.02371](https://arxiv.org/abs/2403.02371)
 
-    ChatDBG是第一个AI-Powered调试助手，通过将大型语言模型集成到传统调试器中，实现了程序员与调试器之间的协作对话，能够处理复杂问题、执行根本原因分析，并探索开放性查询。
-
-    
-
-    本文介绍了ChatDBG，这是第一个基于人工智能的调试助手。ChatDBG集成了大型语言模型(LLMs)，显著增强了传统调试器的功能和用户友好性。ChatDBG允许程序员与调试器进行协作对话，使他们能够提出关于程序状态的复杂问题，对崩溃或断言失败进行根本原因分析，并探索诸如“为什么x为空？”之类的开放性查询。为了处理这些查询，ChatDBG授予LLM自主权，通过发出命令来浏览堆栈和检查程序状态进行调试；然后报告其发现并将控制权交还给程序员。我们的ChatDBG原型与标准调试器集成，包括LLDB、GDB和WinDBG用于本地代码以及用于Python的Pdb。我们在各种代码集合上进行了评估，包括具有已知错误的C/C++代码和一套Python代码。
-
-    arXiv:2403.16354v1 Announce Type: cross  Abstract: This paper presents ChatDBG, the first AI-powered debugging assistant. ChatDBG integrates large language models (LLMs) to significantly enhance the capabilities and user-friendliness of conventional debuggers. ChatDBG lets programmers engage in a collaborative dialogue with the debugger, allowing them to pose complex questions about program state, perform root cause analysis for crashes or assertion failures, and explore open-ended queries like "why is x null?". To handle these queries, ChatDBG grants the LLM autonomy to take the wheel and drive debugging by issuing commands to navigate through stacks and inspect program state; it then reports its findings and yields back control to the programmer. Our ChatDBG prototype integrates with standard debuggers including LLDB, GDB, and WinDBG for native code and Pdb for Python. Our evaluation across a diverse set of code, including C/C++ code with known bugs and a suite of Python code includi
-    
-[^4]: 用于理性推理的球形神经网络
-
-    Sphere Neural-Networks for Rational Reasoning
-
-    [https://arxiv.org/abs/2403.15297](https://arxiv.org/abs/2403.15297)
-
-    该论文提出了一种球形神经网络（SphNNs）来进行理性推理，通过将计算构建块从向量推广到球体，实现了人类类似的推理能力，并开发了用于三段论推理的SphNN。
+    这一研究提出了一个包含108位母语为卡斯蒂利亚语说话者的帕金森病患者语音语料库，涵盖了多种语音任务，通过手动和自动转录确保了数据的准确性和可靠性。
 
     
 
-    大型语言模型（LLMs）如ChatGPT的成功得到了广泛的认可，其类人问题回答的能力以及不断提升的推理性能都证明了这一点。然而，LLMs是否会进行推理仍然不清楚。传统神经网络如何在定性上扩展以超越统计范式并实现高级认知是一个未解之谜。在这里，我们通过将计算构建块从向量推广到球体的方式提出了一种极简的定性扩展。我们提出了球形神经网络（SphNNs）用于通过模型构建和检查进行类人推理，并为三段论推理开发了SphNN，这是人类理性的缩影。SphNN不使用训练数据，而是使用邻域空间关系的神经符号转换映射来指导从当前球形配置向目标的转换。
+    通过语音分析进行帕金森病（PD）诊断的进展受到公开可用、多样化的语言数据集的显著缺乏的阻碍，限制了现有研究结果的可再现性和进一步探索。为了弥补这一空白，我们引入了一个全面的语料库，包括来自108位母语为卡斯蒂利亚语的说话者，包括55名健康对照组和53名被诊断患有PD的个体，所有这些个体都在药物治疗下，并且在药物优化状态下进行记录。 这一独特数据集涵盖了广泛的语音任务，包括持续发音五个西班牙元音、发音测试、16个听后重复的话语以及自由独白。该数据集通过专家手动转录听后重复任务强调准确性和可靠性，并利用Whisper进行自动独白转录，使其成为帕金森病患者语音的最完整的公开语料库。
 
-    arXiv:2403.15297v1 Announce Type: new  Abstract: The success of Large Language Models (LLMs), e.g., ChatGPT, is witnessed by their planetary popularity, their capability of human-like question-answering, and also by their steadily improved reasoning performance. However, it remains unclear whether LLMs reason. It is an open problem how traditional neural networks can be qualitatively extended to go beyond the statistic paradigm and achieve high-level cognition. Here, we present a minimalist qualitative extension by generalising computational building blocks from vectors to spheres. We propose Sphere Neural Networks (SphNNs) for human-like reasoning through model construction and inspection, and develop SphNN for syllogistic reasoning, a microcosm of human rationality. Instead of training data, SphNN uses a neuro-symbolic transition map of neighbourhood spatial relations to guide transformations from the current sphere configuration towards the target. SphNN is the first neural model th
+    arXiv:2403.02371v1 Announce Type: cross  Abstract: The advancement of Parkinson's Disease (PD) diagnosis through speech analysis is hindered by a notable lack of publicly available, diverse language datasets, limiting the reproducibility and further exploration of existing research.   In response to this gap, we introduce a comprehensive corpus from 108 native Castilian Spanish speakers, comprising 55 healthy controls and 53 individuals diagnosed with PD, all of whom were under pharmacological treatment and recorded in their medication-optimized state. This unique dataset features a wide array of speech tasks, including sustained phonation of the five Spanish vowels, diadochokinetic tests, 16 listen-and-repeat utterances, and free monologues. The dataset emphasizes accuracy and reliability through specialist manual transcriptions of the listen-and-repeat tasks and utilizes Whisper for automated monologue transcriptions, making it the most complete public corpus of Parkinsonian speech, 
     
-[^5]: AI 评估量表（AIAS）的实践：GenAI 支持评估的试点实施
+[^3]: Syntactic Ghost：一种对预训练语言模型进行的无感知通用后门攻击
 
-    The AI Assessment Scale (AIAS) in action: A pilot implementation of GenAI supported assessment
+    Syntactic Ghost: An Imperceptible General-purpose Backdoor Attacks on Pre-trained Language Models
 
-    [https://arxiv.org/abs/2403.14692](https://arxiv.org/abs/2403.14692)
+    [https://arxiv.org/abs/2402.18945](https://arxiv.org/abs/2402.18945)
 
-    该论文介绍了AI评估量表（AIAS）的实践应用，通过灵活框架将GenAI技术纳入教育评估中，显著降低了与GenAI相关的学术不端案件，提高了学生的学业成绩。
-
-    
-
-    在高等教育中快速采用生成人工智能（GenAI）技术引发了对学术诚信、评估实践和学生学习的关注。禁止或阻止GenAI工具已被证明是无效的，惩罚性方法忽略了这些技术的潜在好处。本文介绍了在英国越南大学（BUV）进行的试点研究的结果，探讨了人工智能评估量表（AIAS）的实施，这是一个灵活的框架，用于将GenAI纳入教育评估中。AIAS由五个级别组成，从“无AI”到“完全AI”，使教育工作者能够设计侧重于需要人类输入和批判性思维的评估。在实施AIAS后，试点研究结果表明与GenAI相关的学术不端案件显着减少，学生成绩提高了5.9%。
-
-    arXiv:2403.14692v1 Announce Type: cross  Abstract: The rapid adoption of Generative Artificial Intelligence (GenAI) technologies in higher education has raised concerns about academic integrity, assessment practices, and student learning. Banning or blocking GenAI tools has proven ineffective, and punitive approaches ignore the potential benefits of these technologies. This paper presents the findings of a pilot study conducted at British University Vietnam (BUV) exploring the implementation of the Artificial Intelligence Assessment Scale (AIAS), a flexible framework for incorporating GenAI into educational assessments. The AIAS consists of five levels, ranging from 'No AI' to 'Full AI', enabling educators to design assessments that focus on areas requiring human input and critical thinking.   Following the implementation of the AIAS, the pilot study results indicate a significant reduction in academic misconduct cases related to GenAI, a 5.9% increase in student attainment across the 
-    
-[^6]: ASGEA：利用Align-Subgraphs中的逻辑规则进行实体对齐
-
-    ASGEA: Exploiting Logic Rules from Align-Subgraphs for Entity Alignment
-
-    [https://arxiv.org/abs/2402.11000](https://arxiv.org/abs/2402.11000)
-
-    提出了一个新的实体对齐框架ASGEA，利用Align-Subgraphs中的逻辑规则，设计了可解释的基于路径的图神经网络ASGNN，引入了多模态注意机制，取得了令人满意的实验结果
+    论文提出了一种名为Syntactic Ghost的新方法，实现了对预训练语言模型进行无感知和通用的后门植入。
 
     
 
-    实体对齐（EA）旨在识别代表相同现实世界对象的不同知识图中的实体。最近基于嵌入的EA方法在EA方面取得了最先进的性能，但面临着解释性挑战，因为它们完全依赖于嵌入距离，并忽视了一对对齐实体背后的逻辑规则。在本文中，我们提出了Align-Subgraph实体对齐（ASGEA）框架来利用Align-Subgraphs中的逻辑规则。ASGEA使用锚链接作为桥梁来构建Align-Subgraphs，并沿着跨知识图的路径传播，这使其区别于基于嵌入的方法。此外，我们设计了一种可解释的基于路径的图神经网络ASGNN，以有效识别和整合跨知识图的逻辑规则。我们还引入了一个节点级多模态注意机制，结合多模态增强的锚点来增强Align-Subgraph。我们的实验结果
+    预训练语言模型（PLMs）被发现容易受到后门攻击，可以将漏洞转移到各种下游任务中。然而，现有的PLM后门攻击采用明显的触发器，在手动对准的情况下进行，因此在效果、隐匿性和通用性方面无法同时满足期望目标。本文提出了一种新方法，实现了不可见和通用的后门植入，称为Syntactic Ghost（简称为synGhost）。具体来说，该方法敌意地使用具有不同预定义句法结构的毒害样本作为隐蔽触发器，然后将后门植入到预训练表示空间，而不会破坏原始知识。毒害样本的输出表示在特征空间中尽可能均匀地分布，通过对比学习形成广泛的后门。此外，在亮
 
-    arXiv:2402.11000v1 Announce Type: cross  Abstract: Entity alignment (EA) aims to identify entities across different knowledge graphs that represent the same real-world objects. Recent embedding-based EA methods have achieved state-of-the-art performance in EA yet faced interpretability challenges as they purely rely on the embedding distance and neglect the logic rules behind a pair of aligned entities. In this paper, we propose the Align-Subgraph Entity Alignment (ASGEA) framework to exploit logic rules from Align-Subgraphs. ASGEA uses anchor links as bridges to construct Align-Subgraphs and spreads along the paths across KGs, which distinguishes it from the embedding-based methods. Furthermore, we design an interpretable Path-based Graph Neural Network, ASGNN, to effectively identify and integrate the logic rules across KGs. We also introduce a node-level multi-modal attention mechanism coupled with multi-modal enriched anchors to augment the Align-Subgraph. Our experimental results 
+    arXiv:2402.18945v1 Announce Type: cross  Abstract: Pre-trained language models (PLMs) have been found susceptible to backdoor attacks, which can transfer vulnerabilities to various downstream tasks. However, existing PLM backdoors are conducted with explicit triggers under the manually aligned, thus failing to satisfy expectation goals simultaneously in terms of effectiveness, stealthiness, and universality. In this paper, we propose a novel approach to achieve invisible and general backdoor implantation, called \textbf{Syntactic Ghost} (synGhost for short). Specifically, the method hostilely manipulates poisoned samples with different predefined syntactic structures as stealth triggers and then implants the backdoor to pre-trained representation space without disturbing the primitive knowledge. The output representations of poisoned samples are distributed as uniformly as possible in the feature space via contrastive learning, forming a wide range of backdoors. Additionally, in light 
     
-[^7]: CURE: 机器人领域的模拟辅助自动调节技术
+[^4]: 最后的JITAI？大型语言模型在发放及时自适应干预中的不合理有效性：在前瞻性心脏康复环境中促进体育活动
 
-    CURE: Simulation-Augmented Auto-Tuning in Robotics
+    The Last JITAI? The Unreasonable Effectiveness of Large Language Models in Issuing Just-in-Time Adaptive Interventions: Fostering Physical Activity in a Prospective Cardiac Rehabilitation Setting
 
-    [https://arxiv.org/abs/2402.05399](https://arxiv.org/abs/2402.05399)
+    [https://arxiv.org/abs/2402.08658](https://arxiv.org/abs/2402.08658)
 
-    本论文提出了一种模拟辅助的自动调节技术，用于解决机器人系统中的高度可配置参数的优化问题。该技术通过解决软硬件之间配置选项的交互问题，实现了在不同环境和机器人平台之间的性能迁移。
-
-    
-
-    机器人系统通常由多个子系统组成，例如定位和导航，每个子系统又包含许多可配置的组件（例如选择不同的规划算法）。一旦选择了某个算法，就需要设置相关的配置选项以达到适当的值。系统堆栈中的配置选项会产生复杂的交互关系。在高度可配置的机器人中找到最佳配置来实现期望的性能是一个重大挑战，因为软件和硬件之间的配置选项交互导致了庞大且复杂的配置空间。性能迁移在不同的环境和机器人平台之间也是一个难题。数据高效优化算法（例如贝叶斯优化）已越来越多地用于自动化调整网络物理系统中的可配置参数。然而，这样的优化算法在机器人领域应用仍有局限性。
-
-    Robotic systems are typically composed of various subsystems, such as localization and navigation, each encompassing numerous configurable components (e.g., selecting different planning algorithms). Once an algorithm has been selected for a component, its associated configuration options must be set to the appropriate values. Configuration options across the system stack interact non-trivially. Finding optimal configurations for highly configurable robots to achieve desired performance poses a significant challenge due to the interactions between configuration options across software and hardware that result in an exponentially large and complex configuration space. These challenges are further compounded by the need for transferability between different environments and robotic platforms. Data efficient optimization algorithms (e.g., Bayesian optimization) have been increasingly employed to automate the tuning of configurable parameters in cyber-physical systems. However, such optimiz
-    
-[^8]: D-STGCNT:一种基于transformer的密集时空图卷积GRU网络用于评估患者身体康复
-
-    D-STGCNT: A Dense Spatio-Temporal Graph Conv-GRU Network based on transformer for assessment of patient physical rehabilitation. (arXiv:2401.06150v1 [eess.IV])
-
-    [http://arxiv.org/abs/2401.06150](http://arxiv.org/abs/2401.06150)
-
-    D-STGCNT是一种新的模型，结合了STGCN和transformer的架构，用于自动评估患者身体康复锻炼。它通过将骨架数据视为图形，并检测关键关节，在处理时空数据方面具有高效性。该模型通过密集连接和GRU机制来处理大型3D骨架输入，有效建立时空动态模型。transformer的注意力机制对于评估康复锻炼非常有用。
+    本研究探索了使用大型语言模型（LLMs）实现即时自适应干预（JITAIs）的可行性。通过测试GPT-4模型以促进门诊心脏康复中心的心脏健康体育活动的使用案例，我们提出了450个JITAI决策和信息。
 
     
 
-    本文解决了自动评估无临床监督情况下患者进行身体康复锻炼的挑战。其目标是提供质量评分以确保正确执行和获得期望结果。为实现这一目标，引入了一种新的基于图结构的模型，Dense Spatio-Temporal Graph Conv-GRU Network with Transformer。该模型结合了改进的STGCN和transformer架构，用于高效处理时空数据。其关键思想是将骨架数据视为图形，并检测每个康复锻炼中起主要作用的关节。密集连接和GRU机制用于快速处理大型3D骨架输入并有效建模时空动态。transformer编码器的注意机制侧重于输入序列的相关部分，使其在评估康复锻炼方面非常有用。
+    我们探索了大型语言模型（LLMs）在数字健康中触发和个性化即时自适应干预（JITAIs）内容的可行性。JITAIs被视为可持续行为改变的关键机制，将干预措施根据个体的当前情境和需求进行调整。然而，传统的基于规则和机器学习模型在JITAI实施中面临可扩展性和可靠性的限制，例如缺乏个性化、管理多参数系统困难以及数据稀疏性等问题。为了研究通过LLMs实现JITAI，我们使用基于在门诊心脏康复中促进心脏健康体育活动的使用案例的现代最高性能模型“GPT-4”的实例作为触发和个性化JITAIs的基础。随后，我们生成了总共450个建议的JITAI决策和信息。
 
-    This paper tackles the challenge of automatically assessing physical rehabilitation exercises for patients who perform the exercises without clinician supervision. The objective is to provide a quality score to ensure correct performance and achieve desired results. To achieve this goal, a new graph-based model, the Dense Spatio-Temporal Graph Conv-GRU Network with Transformer, is introduced. This model combines a modified version of STGCN and transformer architectures for efficient handling of spatio-temporal data. The key idea is to consider skeleton data respecting its non-linear structure as a graph and detecting joints playing the main role in each rehabilitation exercise. Dense connections and GRU mechanisms are used to rapidly process large 3D skeleton inputs and effectively model temporal dynamics. The transformer encoder's attention mechanism focuses on relevant parts of the input sequence, making it useful for evaluating rehabilitation exercises. The evaluation of our propose
+    We explored the viability of Large Language Models (LLMs) for triggering and personalizing content for Just-in-Time Adaptive Interventions (JITAIs) in digital health. JITAIs are being explored as a key mechanism for sustainable behavior change, adapting interventions to an individual's current context and needs. However, traditional rule-based and machine learning models for JITAI implementation face scalability and reliability limitations, such as lack of personalization, difficulty in managing multi-parametric systems, and issues with data sparsity. To investigate JITAI implementation via LLMs, we tested the contemporary overall performance-leading model 'GPT-4' with examples grounded in the use case of fostering heart-healthy physical activity in outpatient cardiac rehabilitation. Three personas and five sets of context information per persona were used as a basis of triggering and personalizing JITAIs. Subsequently, we generated a total of 450 proposed JITAI decisions and message c
     
-[^9]: 通过随机滤波和模式识别强化基于POD的反应扩散复杂网络模型简化技术
+[^5]: 基于大规模语言模型的超参数优化的技术
 
-    Reinforcing POD based model reduction techniques in reaction-diffusion complex networks using stochastic filtering and pattern recognition. (arXiv:2307.09762v1 [cs.CE])
+    Large Language Model Agent for Hyper-Parameter Optimization
 
-    [http://arxiv.org/abs/2307.09762](http://arxiv.org/abs/2307.09762)
+    [https://arxiv.org/abs/2402.01881](https://arxiv.org/abs/2402.01881)
 
-    该论文提出了一种算法框架，通过将模式识别和随机滤波理论的技术结合起来，强化了基于POD的反应扩散复杂网络模型简化技术，在受扰动输入的情况下提高了代理模型的准确性。
+    基于大规模语言模型的AgentHPO技术通过自动化超参数优化，在机器学习任务中大大减少了试验次数，简化了设置过程，提升了解释性和用户信任。
 
     
 
-    复杂网络被用于建模许多现实世界系统，然而这些系统的维度使得其分析变得困难。在这种情况下，可以使用POD等降维技术。然而，这些模型容易受输入数据扰动的影响。我们提出了一种算法框架，将模式识别和随机滤波理论的技术结合起来，以增强这些模型的输出。研究结果表明，我们的方法可以在受扰动输入的情况下提高代理模型的准确性。深度神经网络(DNNs)容易受到对抗性攻击，然而最近的研究发现，神经常微分方程(ODEs)在特定应用中表现出鲁棒性。我们将我们的算法框架与基于神经ODE的方法进行了基准比较。
+    超参数优化在现代机器学习中至关重要，需要专业知识、大量实验以及高计算和人力资源。尽管自动化机器学习（AutoML）取得了一些进展，但试验效率、设置复杂性和互操作性方面仍存在挑战。为了解决这些问题，我们引入了一种新的范式，利用大规模语言模型（LLMs）来自动化不同机器学习任务的超参数优化，称为AgentHPO（LLM Agent-based Hyperparameter Optimization）。具体来说，AgentHPO自主处理任务信息，根据历史试验对特定超参数（HPs）进行实验，并进行迭代优化。与传统的AutoML方法相比，这种类似人类的优化过程极大地减少了所需的试验次数，简化了设置过程，并提升了解释性和用户信任。
 
-    Complex networks are used to model many real-world systems. However, the dimensionality of these systems can make them challenging to analyze. Dimensionality reduction techniques like POD can be used in such cases. However, these models are susceptible to perturbations in the input data. We propose an algorithmic framework that combines techniques from pattern recognition (PR) and stochastic filtering theory to enhance the output of such models. The results of our study show that our method can improve the accuracy of the surrogate model under perturbed inputs. Deep Neural Networks (DNNs) are susceptible to adversarial attacks. However, recent research has revealed that neural Ordinary Differential Equations (ODEs) exhibit robustness in specific applications. We benchmark our algorithmic framework with a Neural ODE-based approach as a reference.
+    Hyperparameter optimization is critical in modern machine learning, requiring expert knowledge, numerous trials, and high computational and human resources. Despite the advancements in Automated Machine Learning (AutoML), challenges in terms of trial efficiency, setup complexity, and interoperability still persist. To address these issues, we introduce a novel paradigm leveraging Large Language Models (LLMs) to automate hyperparameter optimization across diverse machine learning tasks, which is named AgentHPO (short for LLM Agent-based Hyperparameter Optimization). Specifically, AgentHPO processes the task information autonomously, conducts experiments with specific hyperparameters (HPs), and iteratively optimizes them based on historical trials. This human-like optimization process largely reduces the number of required trials, simplifies the setup process, and enhances interpretability and user trust, compared to traditional AutoML methods. Extensive empirical experiments conducted o
+    
+[^6]: 深度学习的数学介绍：方法、实现和理论
+
+    Mathematical Introduction to Deep Learning: Methods, Implementations, and Theory. (arXiv:2310.20360v1 [cs.LG])
+
+    [http://arxiv.org/abs/2310.20360](http://arxiv.org/abs/2310.20360)
+
+    本书提供了对深度学习算法的数学介绍，包括不同的神经网络架构和优化算法，并涵盖了深度学习算法的理论方面。此外，还介绍了深度学习逼近偏微分方程的方法。希望对学生和科学家们有所帮助。
+
+    
+
+    本书旨在介绍深度学习算法的主题。我们详细介绍了深度学习算法的基本组成部分，包括不同的人工神经网络架构（如全连接前馈神经网络、卷积神经网络、循环神经网络、残差神经网络和带有批归一化的神经网络）以及不同的优化算法（如基本的随机梯度下降法、加速方法和自适应方法）。我们还涵盖了深度学习算法的几个理论方面，如人工神经网络的逼近能力（包括神经网络的微积分）、优化理论（包括Kurdyka-Lojasiewicz不等式）和泛化误差。在本书的最后一部分，我们还回顾了一些用于偏微分方程的深度学习逼近方法，包括物理信息神经网络（PINNs）和深度Galerkin方法。希望本书能对学生和科学家们有所帮助。
+
+    This book aims to provide an introduction to the topic of deep learning algorithms. We review essential components of deep learning algorithms in full mathematical detail including different artificial neural network (ANN) architectures (such as fully-connected feedforward ANNs, convolutional ANNs, recurrent ANNs, residual ANNs, and ANNs with batch normalization) and different optimization algorithms (such as the basic stochastic gradient descent (SGD) method, accelerated methods, and adaptive methods). We also cover several theoretical aspects of deep learning algorithms such as approximation capacities of ANNs (including a calculus for ANNs), optimization theory (including Kurdyka-{\L}ojasiewicz inequalities), and generalization errors. In the last part of the book some deep learning approximation methods for PDEs are reviewed including physics-informed neural networks (PINNs) and deep Galerkin methods. We hope that this book will be useful for students and scientists who do not yet 
+    
+[^7]: 超出一阶逻辑的提升推理
+
+    Lifted Inference beyond First-Order Logic. (arXiv:2308.11738v1 [cs.AI])
+
+    [http://arxiv.org/abs/2308.11738](http://arxiv.org/abs/2308.11738)
+
+    这项工作研究了超越一阶逻辑的提升推理问题，扩展了计数量词扩展的两个变量的一阶逻辑片段的域可提升性，并在限定了关系的情况下探索了不同属性的域可提升性。
+
+    
+
+    在统计关系学习模型中，加权一阶模型计数(WFOMC)是概率推理的基础。由于WFOMC在一般情况下是不可计算的（$\#$P完全），因此能够在多项式时间内进行WFOMC的逻辑碎片非常有意义。这样的碎片被称为域可提升。最近的研究表明，在计数量词（$\mathrm{C^2}$）扩展的两个变量的一阶逻辑片段中，可以进行域提升。然而，许多真实世界数据的属性，如引用网络中的非循环性和社交网络中的连通性，不能在$\mathrm{C^2}$或一阶逻辑中建模。在这项工作中，我们扩展了$\mathrm{C^2}$的域可提升性，包括多个这样的属性。我们证明了在将$\mathrm{C^2}$句子的一个关系限定为表示有向无环图、连通图、树（或有向树）或森林（或有向森林）时，它仍然保持了域可提升性。所有我们的结果都是...
+
+    Weighted First Order Model Counting (WFOMC) is fundamental to probabilistic inference in statistical relational learning models. As WFOMC is known to be intractable in general ($\#$P-complete), logical fragments that admit polynomial time WFOMC are of significant interest. Such fragments are called domain liftable. Recent works have shown that the two-variable fragment of first order logic extended with counting quantifiers ($\mathrm{C^2}$) is domain-liftable. However, many properties of real-world data, like acyclicity in citation networks and connectivity in social networks, cannot be modeled in $\mathrm{C^2}$, or first order logic in general. In this work, we expand the domain liftability of $\mathrm{C^2}$ with multiple such properties. We show that any $\mathrm{C^2}$ sentence remains domain liftable when one of its relations is restricted to represent a directed acyclic graph, a connected graph, a tree (resp. a directed tree) or a forest (resp. a directed forest). All our results r
+    
+[^8]: 在金融领域中实现量子生成对抗网络（qGAN）和QCBM
+
+    Implementing Quantum Generative Adversarial Network (qGAN) and QCBM in Finance. (arXiv:2308.08448v1 [quant-ph])
+
+    [http://arxiv.org/abs/2308.08448](http://arxiv.org/abs/2308.08448)
+
+    这项研究讨论了在金融领域中应用量子机器学习的新研究方向，通过比较qGAN和QCBM等模型，展示了在金融领域中实现量子优势的潜力。
+
+    
+
+    量子机器学习（QML）是一个跨学科的领域，由两个最具创新性的研究领域组成：量子计算和经典机器学习（ML），ML和人工智能（AI）被认为是将受到量子计算机兴起影响的第一个领域。这项工作讨论了在金融中应用量子机器学习（QML）的一些新研究领域，我们讨论了一些已在金融界引起关注的QML模型，以及使用模拟环境中的真实金融数据集对qGAN（量子生成对抗网络）和QCBM（量子电路Born机）等模型进行比较。对于qGAN，我们定义了鉴别器和生成器的量子电路，并展示了未来在金融领域中通过QML实现量子优势的潜力。
+
+    Quantum machine learning (QML) is a cross-disciplinary subject made up of two of the most exciting research areas: quantum computing and classical machine learning (ML), with ML and artificial intelligence (AI) being projected as the first fields that will be impacted by the rise of quantum machines. Quantum computers are being used today in drug discovery, material & molecular modelling and finance. In this work, we discuss some upcoming active new research areas in application of quantum machine learning (QML) in finance. We discuss certain QML models that has become areas of active interest in the financial world for various applications. We use real world financial dataset and compare models such as qGAN (quantum generative adversarial networks) and QCBM (quantum circuit Born machine) among others, using simulated environments. For the qGAN, we define quantum circuits for discriminators and generators and show promises of future quantum advantage via QML in finance.
+    
+[^9]: 关于AI问责政策的探索
+
+    Towards an AI Accountability Policy. (arXiv:2307.13658v1 [cs.CY])
+
+    [http://arxiv.org/abs/2307.13658](http://arxiv.org/abs/2307.13658)
+
+    这份白皮书是对美国国家电信和信息管理局的“AI问责政策评论请求”的回应，提出了一组相互关联的AI问责政策建议。
+
+    
+
+    这份白皮书是对美国国家电信和信息管理局的“AI问责政策评论请求”作出的回应。在回答相关问题的关键句子末尾，提供了要求评论的问题编号的上标。该白皮书提出了一组相互关联的AI问责政策建议。
+
+    This white paper is a response to the "AI Accountability Policy Request for Comments" by the National Telecommunications and Information Administration of the United States. The question numbers for which comments were requested are provided in superscripts at the end of key sentences answering the respective questions. The white paper offers a set of interconnected recommendations for an AI accountability policy.
+    
+[^10]: 朝着可解释性TOPSIS：权重和聚合对排名的影响的视觉洞察力
+
+    Towards Explainable TOPSIS: Visual Insights into the Effects of Weights and Aggregations on Rankings. (arXiv:2306.07706v1 [cs.AI])
+
+    [http://arxiv.org/abs/2306.07706](http://arxiv.org/abs/2306.07706)
+
+    本研究提出了可解释TOPSIS的新方法，并介绍了TOPSIS-Explorer决策支持工具。该方法通过可视化方式解释权重和聚合对排名结果的影响，对实际应用有着重要意义。
+
+    
+
+    多标准决策分析（MCDA）在各个行业中广泛用于评估和排名备选方案。在众多MCDA方法中，TOPSIS仍然是许多应用领域最受欢迎的选择之一。TOPSIS计算考虑的备选方案与两个预定义方案（即理想状态和反理想状态）之间的距离，并根据这些距离的聚合值创建备选方案的排名。然而，TOPSIS的内部工作解释是困难的，特别是当标准数目很大时。为此，最近的研究表明可以使用备选方案的平均值（M）和标准偏差（SD）来表示TOPSIS聚合值，从而创建MSD空间，这是一种可视化并解释聚合的工具。即使MSD空間非常有用，但它假设标准同样重要，使其在实际排名问题中的适用性降低 。在本文中，我们推广了 TOPSIS 结果的转换，使得不同的标准可以解释为视觉上的 MSD 空间，以此来处理将权重加入TOPSIS问题的场景。我们引入了加权 MSD 空间并开发了一个决策支持工具，称为 TOPSIS-Explorer，提供易于理解的视觉洞察力，以分析不同权重和聚合值对排名结果的影响。我们的方法在合成数据集和供应商选择实际案例上进行了评估，证明了它在提供可解释TOPSIS结果方面的适用性和有效性。
+
+    Multi-Criteria Decision Analysis (MCDA) is extensively used across diverse industries to assess and rank alternatives. Among numerous MCDA methods developed to solve real-world ranking problems, TOPSIS remains one of the most popular choices in many application areas. TOPSIS calculates distances between the considered alternatives and two predefined ones, namely the ideal and the anti-ideal, and creates a ranking of the alternatives according to a chosen aggregation of these distances. However, the interpretation of the inner workings of TOPSIS is difficult, especially when the number of criteria is large. To this end, recent research has shown that TOPSIS aggregations can be expressed using the means (M) and standard deviations (SD) of alternatives, creating MSD-space, a tool for visualizing and explaining aggregations. Even though MSD-space is highly useful, it assumes equally important criteria, making it less applicable to real-world ranking problems. In this paper, we generalize t
+    
+[^11]: 图解化：利用图解型AI解释对假设性演绎推理的理性化
+
+    Diagrammatization: Rationalizing with diagrammatic AI explanations for abductive-deductive reasoning on hypotheses. (arXiv:2302.01241v2 [cs.AI] UPDATED)
+
+    [http://arxiv.org/abs/2302.01241](http://arxiv.org/abs/2302.01241)
+
+    本文提出了一种图解化的方法，以支持可解释的人工智能，通过图解型和假设性推理，缩小可解释性差距。通过临床应用研究和建模研究，我们发现DiagramNet不仅能提供忠实的杂音形状解释，还具有较好的预测性能，而且图解型解释在临床相关的情况下更受推崇。
+
+    
+
+    许多可解释的人工智能（XAI）可视化工具已经被开发出来，但它们通常需要用户进一步推理来解释。我们认为，XAI应该支持图解型和假设性推理，以便AI能够进行假设生成和评估，从而减少可解释性差距。我们提出了图解化方法，以i)进行Peircean推导-演绎推理，ii)遵循领域惯例，和iii)用图示或语言进行解释。我们在临床应用领域实现了DiagramNet，以预测心脏听诊中的心脏诊断，并用基于形状的杂音图解进行解释。在建模研究中，我们发现DiagramNet不仅提供了忠实的杂音形状解释，而且比基线模型具有更好的预测性能。我们进一步通过医学生的定性用户研究展示了图解型解释的可理解性和可信度，并表明在临床相关的情况下，图解式解释比其他方式更受推崇。
+
+    Many visualizations have been developed for explainable AI (XAI), but they often require further reasoning by users to interpret. We argue that XAI should support diagrammatic and abductive reasoning for the AI to perform hypothesis generation and evaluation to reduce the interpretability gap. We propose Diagrammatization to i) perform Peircean abductive-deductive reasoning, ii) follow domain conventions, and iii) explain with diagrams visually or verbally. We implemented DiagramNet for a clinical application to predict cardiac diagnoses from heart auscultation, and explain with shape-based murmur diagrams. In modeling studies, we found that DiagramNet not only provides faithful murmur shape explanations, but also has better prediction performance than baseline models. We further demonstrate the interpretability and trustworthiness of diagrammatic explanations in a qualitative user study with medical students, showing that clinically-relevant, diagrammatic explanations are preferred ov
     
 
