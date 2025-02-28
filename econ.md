@@ -2,52 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Seemingly unrelated Bayesian additive regression trees for cost-effectiveness analyses in healthcare](https://arxiv.org/abs/2404.02228) | 提出了适用于医疗保健成本效益分析的多元贝叶斯可加回归树扩展，克服了现有模型的局限性，可以处理多个相关结果变量的回归和分类分析 |
-| [^2] | [Multiplayer War of Attrition with Asymmetric Private Information.](http://arxiv.org/abs/2302.09427) | 本文分析了对称类型分布下的多人消耗战博弈，在唯一均衡中发现不对称性导致参与者分层行为模式。参与者的耐心度、提供成本和估值会影响物品提供的速度。通过控制最强类型可以调节不对称性的效果。 |
-| [^3] | [Forecasting macroeconomic data with Bayesian VARs: Sparse or dense? It depends!.](http://arxiv.org/abs/2206.04902) | 本文介绍了一种半全球框架，用于改进贝叶斯VAR模型的预测性能。该框架替代了传统的全局缩减参数，使用组别特定的缩减参数。通过广泛的模拟研究和实证应用，展示了该框架的优点。在稀疏/密集先验下，预测性能因评估的经济变量和时间框架而异，但动态模型平均法可以缓解这个问题。 |
+| [^1] | [Invalid proxies and volatility changes](https://arxiv.org/abs/2403.08753) | 在代理SVARs中，当外部永久突破导致目标脉冲响应函数随波动率体制变化时，必须明确纳入无条件波动的变化，以点辨识目标结构性冲击并恢复一致性。 |
+| [^2] | [Reconciling the Theory of Factor Sequences.](http://arxiv.org/abs/2307.10067) | 该论文研究了动态因子序列和静态因子序列之间的区别，强调了忽略弱共同成分对于因子模型在结构分析和预测中的应用可能产生的重大影响，同时指出动态共同成分才能被解释为潜在经济变量。 |
 
 # 详细
 
-[^1]: 基于贝叶斯可加回归树的医疗保健成本效益分析
+[^1]: 无效的代理和波动变化
 
-    Seemingly unrelated Bayesian additive regression trees for cost-effectiveness analyses in healthcare
+    Invalid proxies and volatility changes
 
-    [https://arxiv.org/abs/2404.02228](https://arxiv.org/abs/2404.02228)
+    [https://arxiv.org/abs/2403.08753](https://arxiv.org/abs/2403.08753)
 
-    提出了适用于医疗保健成本效益分析的多元贝叶斯可加回归树扩展，克服了现有模型的局限性，可以处理多个相关结果变量的回归和分类分析
-
-    
-
-    近年来的理论结果和模拟证据表明，贝叶斯可加回归树是一种非常有效的非参数回归方法。受到在卫生经济学中的成本效益分析的启发，我们提出了适用于具有多个相关结果变量的回归和分类分析的BART的多元扩展。我们的框架通过允许每个个体响应与不同树组相关联，同时处理结果之间的依赖关系，克服了现有多元BART模型的一些主要局限性。在连续结果的情况下，我们的模型本质上是表面无关回归的非参数版本。同样，我们针对二元结果的建议是非参数概括
-
-    arXiv:2404.02228v1 Announce Type: cross  Abstract: In recent years, theoretical results and simulation evidence have shown Bayesian additive regression trees to be a highly-effective method for nonparametric regression. Motivated by cost-effectiveness analyses in health economics, where interest lies in jointly modelling the costs of healthcare treatments and the associated health-related quality of life experienced by a patient, we propose a multivariate extension of BART applicable in regression and classification analyses with several correlated outcome variables. Our framework overcomes some key limitations of existing multivariate BART models by allowing each individual response to be associated with different ensembles of trees, while still handling dependencies between the outcomes. In the case of continuous outcomes, our model is essentially a nonparametric version of seemingly unrelated regression. Likewise, our proposal for binary outcomes is a nonparametric generalisation of
-    
-[^2]: 对称私人信息下的多人消耗战分析
-
-    Multiplayer War of Attrition with Asymmetric Private Information. (arXiv:2302.09427v2 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2302.09427](http://arxiv.org/abs/2302.09427)
-
-    本文分析了对称类型分布下的多人消耗战博弈，在唯一均衡中发现不对称性导致参与者分层行为模式。参与者的耐心度、提供成本和估值会影响物品提供的速度。通过控制最强类型可以调节不对称性的效果。
+    在代理SVARs中，当外部永久突破导致目标脉冲响应函数随波动率体制变化时，必须明确纳入无条件波动的变化，以点辨识目标结构性冲击并恢复一致性。
 
     
 
-    本文分析了对称类型分布下的多人消耗战博弈，研究了在提供不可分割的公共物品的私人机制中的对称性。在唯一均衡中，不对称性导致了一种分层行为模式，其中一个参与者以一定概率立即提供物品，而其他参与者在某个特定时刻之前没有提供的概率，并且这个时刻对不同的参与者是独特的。比较静态分析表明，耐心度更低、提供成本更低、估值更高的参与者能够更快地提供物品。延迟成本主要由立即退出参与者的最强类型决定。本文还研究了两种不对称性的变化：提升最强类型倾向于提高效率，而控制最强类型与对称性成本的符号相关。
+    当在代理SVARs中，VAR扰动的协方差矩阵受到外生、永久、非重复性突破的影响，从而产生随着波动率体制变化而变化的目标脉冲响应函数(IRFs)时，即使是强大的外生外部工具也可能导致对所感兴趣的动态因果效应的估计值不一致，如果不适当考虑这些突破。在这种情况下，必须明确地将无条件波动的变化纳入考虑，以便点辨识出目标结构冲击并可能恢复一致性。我们证明，在利用波动性变化所暗示的瞬时时刻的必要充分秩条件下，目标IRFs可以被点辨识并一致估计。重要的是，标准渐近推断在这种情况下仍然是有效的，尽管(I)代理和被工具化的结构性冲击之间的协方差是接近于零，就像Stai中的情况一样。
 
-    This paper analyzes a multiplayer war of attrition game with asymmetric type distributions in the setting of private provision of an indivisible public good. In the unique equilibrium, asymmetry leads to a stratified behavior pattern where one agent provides the good instantly with a positive probability, while each of the others has no probability of provision before a certain moment and this moment is idiosyncratic for different agents. Comparative statics show that an agent with less patience, lower cost of provision, and higher reputation in valuation provides the good uniformly faster. The cost of delay is mainly determined by the strongest type of the instant-exit agent. This paper investigates two types of variations of asymmetry: raising the strongest type tends to improve efficiency, whereas controlling the strongest type associates the effect of asymmetry with the sign of an intuitive measure of ``the cost of symmetry".
+    arXiv:2403.08753v1 Announce Type: new  Abstract: When in proxy-SVARs the covariance matrix of VAR disturbances is subject to exogenous, permanent, nonrecurring breaks that generate target impulse response functions (IRFs) that change across volatility regimes, even strong, exogenous external instruments can result in inconsistent estimates of the dynamic causal effects of interest if the breaks are not properly accounted for. In such cases, it is essential to explicitly incorporate the shifts in unconditional volatility in order to point-identify the target structural shocks and possibly restore consistency. We demonstrate that, under a necessary and sufficient rank condition that leverages moments implied by changes in volatility, the target IRFs can be point-identified and consistently estimated. Importantly, standard asymptotic inference remains valid in this context despite (i) the covariance between the proxies and the instrumented structural shocks being local-to-zero, as in Stai
     
-[^3]: 用贝叶斯VAR模型预测宏观经济数据：稀疏还是密集？要看情况！
+[^2]: 调和因子序列理论
 
-    Forecasting macroeconomic data with Bayesian VARs: Sparse or dense? It depends!. (arXiv:2206.04902v3 [econ.EM] UPDATED)
+    Reconciling the Theory of Factor Sequences. (arXiv:2307.10067v1 [econ.EM])
 
-    [http://arxiv.org/abs/2206.04902](http://arxiv.org/abs/2206.04902)
+    [http://arxiv.org/abs/2307.10067](http://arxiv.org/abs/2307.10067)
 
-    本文介绍了一种半全球框架，用于改进贝叶斯VAR模型的预测性能。该框架替代了传统的全局缩减参数，使用组别特定的缩减参数。通过广泛的模拟研究和实证应用，展示了该框架的优点。在稀疏/密集先验下，预测性能因评估的经济变量和时间框架而异，但动态模型平均法可以缓解这个问题。
+    该论文研究了动态因子序列和静态因子序列之间的区别，强调了忽略弱共同成分对于因子模型在结构分析和预测中的应用可能产生的重大影响，同时指出动态共同成分才能被解释为潜在经济变量。
 
     
 
-    在建模和预测宏观经济变量时，向量自回归模型（VARs）被广泛应用。然而，在高维情况下，它们容易出现过拟合问题。贝叶斯方法，具体而言是缩减先验方法，已经显示出在提高预测性能方面取得了成功。在本文中，我们引入了半全球框架，其中我们用特定组别的缩减参数替代了传统的全局缩减参数。我们展示了如何将此框架应用于各种缩减先验，如全局-局部先验和随机搜索变量选择先验。我们通过广泛的模拟研究和对美国经济数据进行的实证应用，展示了所提出的框架的优点。此外，我们对正在进行的"稀疏假象"辩论进行了更深入的探讨，发现在稀疏/密集先验下的预测性能在评估的经济变量和时间框架中变化很大。然而，动态模型平均法可以缓解这个问题。
+    因子序列是随机的双序列$(y_{it}: i \in \mathbb N, t \in \mathbb Z)$，以时间和横截面为索引，具有所谓的因子结构。该名词由Forni等人于2001年提出，引入了动态因子序列。我们展示了动态因子序列和静态因子序列之间的区别，静态因子序列是计量经济学因子分析中最常见的工作模型，基于Chamberlain和Rothschild （1983），Stock和Watson（2002）和Bai和Ng（2002）。区别在于我们所称的弱共同成分，该成分由潜在无限多个弱因子所构成。忽略弱共同成分可能对结构分析和预测中因子模型的应用产生重大影响。我们还展示了动态因子序列的动态共同成分在一般条件下是因果从属于输出的。因此，只有动态共同成分才能作为潜在经济变量的解释。
 
-    Vectorautogressions (VARs) are widely applied when it comes to modeling and forecasting macroeconomic variables. In high dimensions, however, they are prone to overfitting. Bayesian methods, more concretely shrinking priors, have shown to be successful in improving prediction performance. In the present paper, we introduce the semi-global framework, in which we replace the traditional global shrinkage parameter with group-specific shrinkage parameters. We show how this framework can be applied to various shrinking priors, such as global-local priors and stochastic search variable selection priors. We demonstrate the virtues of the proposed framework in an extensive simulation study and in an empirical application forecasting data of the US economy. Further, we shed more light on the ongoing ``Illusion of Sparsity'' debate, finding that forecasting performances under sparse/dense priors vary across evaluated economic variables and across time frames. Dynamic model averaging, however, ca
+    Factor Sequences are stochastic double sequences $(y_{it}: i \in \mathbb N, t \in \mathbb Z)$ indexed in time and cross-section which have a so called factor structure. The name was coined by Forni et al. 2001, who introduced dynamic factor sequences. We show the difference between dynamic factor sequences and static factor sequences which are the most common workhorse model of econometric factor analysis building on Chamberlain and Rothschild (1983), Stock and Watson (2002) and Bai and Ng (2002). The difference consists in what we call the weak common component which is spanned by a potentially infinite number of weak factors. Ignoring the weak common component can have substantial consequences for applications of factor models in structural analysis and forecasting. We also show that the dynamic common component of a dynamic factor sequence is causally subordinated to the output under general conditions. As a consequence only the dynamic common component can be interpreted as the pro
     
 
