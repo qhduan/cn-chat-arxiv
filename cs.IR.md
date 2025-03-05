@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Search and Society: Reimagining Information Access for Radical Futures](https://arxiv.org/abs/2403.17901) | 社区应该重新将研究议程聚焦于社会需求，消除公平性、问责制、透明度和道德研究与信息检索其他领域之间的人为隔离，积极设定研究议程，激励构建明确陈述的社会技术想象力所启发的系统类型。 |
-| [^2] | [ICPE: An Item Cluster-Wise Pareto-Efficient Framework for Recommendation Debiasing.](http://arxiv.org/abs/2109.12887) | ICPE是一种面向推荐去偏倚的项目聚类多目标优化框架，通过平衡不同流行度的项目聚类的学习，解决了推荐模型从偏倚数据生成推荐的问题，实现了对潜在有趣项目的探索。 |
+| [^1] | [Pattern-wise Transparent Sequential Recommendation](https://arxiv.org/abs/2402.11480) | 提出了一种模式透明的顺序推荐框架，通过将项目序列分解为多级模式并在概率空间中量化每个模式对结果的贡献，实现了透明的决策过程。 |
+| [^2] | [A Comparative Evaluation of Quantification Methods.](http://arxiv.org/abs/2103.03223) | 本研究通过对24种不同量化方法在超过40个数据集上进行全面实证比较，填补了量化方法比较研究的空白。我们发现在二分类设置中，基于阈值选择的Median Sweep和TSMax方法、DyS框架和弗里德曼的方法表现最佳；而在多分类设置中，Generaliz方法表现良好。 |
 
 # 详细
 
-[^1]: 搜索与社会：重新构想激进未来的信息获取
+[^1]: 模式透明的顺序推荐
 
-    Search and Society: Reimagining Information Access for Radical Futures
+    Pattern-wise Transparent Sequential Recommendation
 
-    [https://arxiv.org/abs/2403.17901](https://arxiv.org/abs/2403.17901)
+    [https://arxiv.org/abs/2402.11480](https://arxiv.org/abs/2402.11480)
 
-    社区应该重新将研究议程聚焦于社会需求，消除公平性、问责制、透明度和道德研究与信息检索其他领域之间的人为隔离，积极设定研究议程，激励构建明确陈述的社会技术想象力所启发的系统类型。
-
-    
-
-    arXiv: 2403.17901v1 公告类型：新摘要：信息检索（IR）技术和研究正在经历变革。我们认为社区应该抓住这个机会，重新将研究议程聚焦于社会需求，同时消除IR的公平性、问责制、透明度和道德研究与IR其他领域之间的人为隔离。社区不应采取试图减轻新兴技术可能带来社会害处的反应性策略，而应该积极设定研究议程，激励我们构建各种明确陈述的社会技术想象力所启发的系统类型。支撑信息获取技术设计和开发的社会技术想象力需要明确表达，我们需要在这些不同视角的背景下发展变革理论。我们的指导未来想象力必须受到其他学术领域的启发。
-
-    arXiv:2403.17901v1 Announce Type: new  Abstract: Information retrieval (IR) technologies and research are undergoing transformative changes. It is our perspective that the community should accept this opportunity to re-center our research agendas on societal needs while dismantling the artificial separation between the work on fairness, accountability, transparency, and ethics in IR and the rest of IR research. Instead of adopting a reactionary strategy of trying to mitigate potential social harms from emerging technologies, the community should aim to proactively set the research agenda for the kinds of systems we should build inspired by diverse explicitly stated sociotechnical imaginaries. The sociotechnical imaginaries that underpin the design and development of information access technologies needs to be explicitly articulated, and we need to develop theories of change in context of these diverse perspectives. Our guiding future imaginaries must be informed by other academic field
-    
-[^2]: ICPE:一种面向推荐去偏倚的项目聚类多目标优化框架
-
-    ICPE: An Item Cluster-Wise Pareto-Efficient Framework for Recommendation Debiasing. (arXiv:2109.12887v4 [cs.IR] UPDATED)
-
-    [http://arxiv.org/abs/2109.12887](http://arxiv.org/abs/2109.12887)
-
-    ICPE是一种面向推荐去偏倚的项目聚类多目标优化框架，通过平衡不同流行度的项目聚类的学习，解决了推荐模型从偏倚数据生成推荐的问题，实现了对潜在有趣项目的探索。
+    提出了一种模式透明的顺序推荐框架，通过将项目序列分解为多级模式并在概率空间中量化每个模式对结果的贡献，实现了透明的决策过程。
 
     
 
-    基于历史用户-项目交互的推荐系统对于基于web的服务至关重要。然而，用于训练推荐模型的观察数据存在严重的偏倚问题。实际上，数据集的项目频率分布呈高度偏斜的幂律分布。一小部分热门项目的交互几乎占据了整个训练数据。从这种偏倚数据训练的正常模型倾向于重复生成来自热门项目的推荐，进一步加剧了偏倚并影响了对潜在有趣项目的探索。在这项工作中，我们从项目聚类的多目标优化视角创新性地探索推荐去偏倚的核心主题。为了在训练过程中平衡对不同流行度的项目聚类的学习，我们提出了一种模型无关的框架，即Item Cluster-Wise Pareto-Efficient Recommendation（ICPE）。
+    透明的决策过程对于开发可靠和值得信赖的推荐系统至关重要。对于顺序推荐来说，意味着模型能够识别关键项目作为其推荐结果的理由。然而，同时实现模型透明度和推荐性能是具有挑战性的，特别是对于将整个项目序列作为输入而不加筛选的模型而言。在本文中，我们提出了一种名为PTSR的可解释框架，它实现了一种模式透明的决策过程。它将项目序列分解为多级模式，这些模式作为整个推荐过程的原子单元。每个模式对结果的贡献在概率空间中得到量化。通过精心设计的模式加权校正，即使在没有真实关键模式的情况下，也能学习模式的贡献。最终推荐
 
-    Recommender system based on historical user-item interactions is of vital importance for web-based services. However, the observed data used to train the recommender model suffers from severe bias issues. Practically, the item frequency distribution of the dataset is a highly skewed power-law distribution. Interactions of a small fraction of head items account for almost the whole training data. The normal training paradigm from such biased data tends to repetitively generate recommendations from the head items, which further exacerbates the biases and affects the exploration of potentially interesting items from the niche set. In this work, we innovatively explore the central theme of recommendation debiasing from an item cluster-wise multi-objective optimization perspective. Aiming to balance the learning on various item clusters that differ in popularity during the training process, we propose a model-agnostic framework namely Item Cluster-Wise Pareto-Efficient Recommendation (ICPE)
+    arXiv:2402.11480v1 Announce Type: new  Abstract: A transparent decision-making process is essential for developing reliable and trustworthy recommender systems. For sequential recommendation, it means that the model can identify critical items asthe justifications for its recommendation results. However, achieving both model transparency and recommendation performance simultaneously is challenging, especially for models that take the entire sequence of items as input without screening. In this paper,we propose an interpretable framework (named PTSR) that enables a pattern-wise transparent decision-making process. It breaks the sequence of items into multi-level patterns that serve as atomic units for the entire recommendation process. The contribution of each pattern to the outcome is quantified in the probability space. With a carefully designed pattern weighting correction, the pattern contribution can be learned in the absence of ground-truth critical patterns. The final recommended
+    
+[^2]: 量化方法的比较评估
+
+    A Comparative Evaluation of Quantification Methods. (arXiv:2103.03223v3 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2103.03223](http://arxiv.org/abs/2103.03223)
+
+    本研究通过对24种不同量化方法在超过40个数据集上进行全面实证比较，填补了量化方法比较研究的空白。我们发现在二分类设置中，基于阈值选择的Median Sweep和TSMax方法、DyS框架和弗里德曼的方法表现最佳；而在多分类设置中，Generaliz方法表现良好。
+
+    
+
+    量化是指在数据集中预测类别分布的问题。它也代表着一个在监督式机器学习中不断发展的研究领域，近年来提出了大量不同的算法。然而，目前还没有一份全面的实证比较量化方法的研究，以支持算法选择。在本研究中，我们通过对超过40个数据集进行了24种不同量化方法的彻底实证性性能比较，包括二分类和多分类量化设置，填补了这一研究空白。我们观察到没有单一算法能够在所有竞争对手中始终表现最佳，但我们确定了一组在二分类设置中表现最佳的方法，包括基于阈值选择的Median Sweep和TSMax方法、DyS框架和弗里德曼的方法。对于多分类设置，我们观察到另一组算法表现良好，包括Generaliz方法。
+
+    Quantification represents the problem of predicting class distributions in a dataset. It also represents a growing research field in supervised machine learning, for which a large variety of different algorithms has been proposed in recent years. However, a comprehensive empirical comparison of quantification methods that supports algorithm selection is not available yet. In this work, we close this research gap by conducting a thorough empirical performance comparison of 24 different quantification methods on overall more than 40 data sets, considering binary as well as multiclass quantification settings. We observe that no single algorithm generally outperforms all competitors, but identify a group of methods including the threshold selection-based Median Sweep and TSMax methods, the DyS framework, and Friedman's method that performs best in the binary setting. For the multiclass setting, we observe that a different group of algorithms yields good performance, including the Generaliz
     
 

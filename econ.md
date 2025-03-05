@@ -2,67 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Global bank network connectedness revisited: What is common, idiosyncratic and when?](https://arxiv.org/abs/2402.02482) | 本研究通过使用动态因子模型和稀疏VAR特殊分量，重新估计了高维全球银行网络连通性。研究发现，系统范围连通度（SWC）在全球危机期间急剧上升，而该方法能够最小化对SWC低估的风险。 |
-| [^2] | [T\^atonnement in Homothetic Fisher Markets.](http://arxiv.org/abs/2306.04890) | 本论文识别了希克斯需求的价格弹性的绝对值最大值作为市场涨跌过程中的经济参数，在同类菲舍尔市场中证明了涨跌过程的收敛率为$O((1+\varepsilon^2)/T)$。 |
-| [^3] | [Extending the Range of Robust PCE Inflation Measures.](http://arxiv.org/abs/2207.12494) | 本研究扩展了稳健PCE通胀测度的范围，并评估了不同修剪点的预测性能。尽管修剪点的选择与时间和目标有关，但无法选择单个系列作为最佳预测。各种修剪方式的平均预测误差相当，但对于趋势通胀的预测有所不同，建议使用一组接近最佳的修剪。 |
-| [^4] | [Optimal Decision Rules Under Partial Identification.](http://arxiv.org/abs/2111.04926) | 本文研究了在部分识别下的最优决策规则问题，提出了在已知方差的正态误差情况下的有限样本最小最大遗憾决策规则和渐近最小最大遗憾的可行决策规则，并应用于回归不连续设置中政策资格截断点的问题。 |
+| [^1] | [The Heterogeneous Aggregate Valence Analysis (HAVAN) Model: A Flexible Approach to Modeling Unobserved Heterogeneity in Discrete Choice Analysis](https://arxiv.org/abs/2402.00184) | 本文引入了HAVAN模型，一种灵活的离散选择分析中未观测异质性建模方法。与传统模型不同，HAVAN模型直接刻画了备选项的异质偏好，并在模拟实验中表现出优于神经网络的预测性能。 |
+| [^2] | [Bayesian Analysis of Linear Contracts.](http://arxiv.org/abs/2211.06850) | 本文在贝叶斯框架下为线性合同在实践中普遍存在的原因进行了解释和证明，并表明在线性合同中，当委托-代理环境中存在足够不确定性时，线性合同是近乎最优的。 |
+| [^3] | [Smiles in Profiles: Improving Fairness and Efficiency Using Estimates of User Preferences in Online Marketplaces.](http://arxiv.org/abs/2209.01235) | 通过模拟不同特征的档案照片对出借人需求的影响，研究提出了实现线上市场公平和效率的方法。 |
+| [^4] | [The Transfer Performance of Economic Models.](http://arxiv.org/abs/2202.04796) | 该论文提供了一个易于处理的“跨领域”预测问题，并根据模型在新领域中的表现定义了模型的迁移误差。该论文比较了经济模型和黑盒算法在预测确定等价值方面的迁移能力，发现经济模型在跨领域上的泛化能力更强。 |
 
 # 详细
 
-[^1]: 全球银行网络连通性的再探：什么是共同的，特殊的和何时?
+[^1]: HAVAN模型：一种灵活的离散选择分析中未观测异质性建模方法
 
-    Global bank network connectedness revisited: What is common, idiosyncratic and when?
+    The Heterogeneous Aggregate Valence Analysis (HAVAN) Model: A Flexible Approach to Modeling Unobserved Heterogeneity in Discrete Choice Analysis
 
-    [https://arxiv.org/abs/2402.02482](https://arxiv.org/abs/2402.02482)
+    [https://arxiv.org/abs/2402.00184](https://arxiv.org/abs/2402.00184)
 
-    本研究通过使用动态因子模型和稀疏VAR特殊分量，重新估计了高维全球银行网络连通性。研究发现，系统范围连通度（SWC）在全球危机期间急剧上升，而该方法能够最小化对SWC低估的风险。
-
-    
-
-    我们重新审视了估计高维全球银行网络连通性的问题。与Demirer等人（2018）直接对实现的高维波动性向量进行正则化不同，我们估计了一个具有稀疏VAR特殊分量的动态因子模型。这样可以区分：（I）系统范围连通度（SWC）由共同成分冲击引起的部分（我们称之为“银行市场”），以及（II）由特殊冲击引起的部分（单个银行）。我们使用Demirer等人（2018）的原始数据集（每日数据，2003-2013）以及更新的数据集（2014-2023）。对于两者，我们计算由（I），（II），（I+II）产生的SWC，并提供自助法置信区间。与文献一致，我们发现SWC在全球危机期间猛增。然而，我们的方法将SWC低估的风险降至最低，这在高维数据集中，系统风险的发生可能既普遍又特殊的情况下至关重要。实际上，我们能够区分出...
-
-    We revisit the problem of estimating high-dimensional global bank network connectedness. Instead of directly regularizing the high-dimensional vector of realized volatilities as in Demirer et al. (2018), we estimate a dynamic factor model with sparse VAR idiosyncratic components. This allows to disentangle: (I) the part of system-wide connectedness (SWC) due to the common component shocks (what we call the "banking market"), and (II) the part due to the idiosyncratic shocks (the single banks). We employ both the original dataset as in Demirer et al. (2018) (daily data, 2003-2013), as well as a more recent vintage (2014-2023). For both, we compute SWC due to (I), (II), (I+II) and provide bootstrap confidence bands. In accordance with the literature, we find SWC to spike during global crises. However, our method minimizes the risk of SWC underestimation in high-dimensional datasets where episodes of systemic risk can be both pervasive and idiosyncratic. In fact, we are able to disentangl
-    
-[^2]: 同类菲舍尔市场中的涨跌过程
-
-    T\^atonnement in Homothetic Fisher Markets. (arXiv:2306.04890v1 [cs.GT])
-
-    [http://arxiv.org/abs/2306.04890](http://arxiv.org/abs/2306.04890)
-
-    本论文识别了希克斯需求的价格弹性的绝对值最大值作为市场涨跌过程中的经济参数，在同类菲舍尔市场中证明了涨跌过程的收敛率为$O((1+\varepsilon^2)/T)$。
+    本文引入了HAVAN模型，一种灵活的离散选择分析中未观测异质性建模方法。与传统模型不同，HAVAN模型直接刻画了备选项的异质偏好，并在模拟实验中表现出优于神经网络的预测性能。
 
     
 
-    经济学和计算领域中一个流行的主题是通过市场中卖家和买家可以发现均衡价格的自然价格调整过程。这种过程的一个例子是涨跌过程，这是一种类似于拍卖的算法，由法国经济学家瓦尔拉斯在1874年首次提出，卖家根据买家的马歇尔需求调整价格。消费者理论中的一个对偶概念是买家的希克斯需求。在本文中，我们确定希克斯需求的弹性的绝对值最大值，作为一个经济参数，足以捕捉和解释广泛类市场中收敛和非收敛的涨跌行为。特别是，在价格弹性受到限制的同类菲舍尔市场中，即由同类效用函数表示的消费者偏好和价格弹性受到限制的Fisher市场中，我们证明了tâtonnement的收敛率为$O((1+\varepsilon^2)/T)$。
+    本文介绍了一种新型的离散选择模型，名为HAVAN模型（Heterogeneous Aggregate Valence Analysis）。我们采用“valence”这个术语来表示用于建模消费者决策的任何潜在量（如效用、后悔等）。与传统的在各个产品属性之间参数化异质偏好的模型不同，HAVAN模型直接刻画了特定备选的异质偏好。这种对消费者异质性的创新视角提供了前所未有的灵活性，并显著减少了混合logit模型中常见的模拟负担。在一个模拟实验中，HAVAN模型显示出优于最先进的人工神经网络的预测性能。这一发现强调了HAVAN模型改进离散选择建模能力的潜力。
 
-    A prevalent theme in the economics and computation literature is to identify natural price-adjustment processes by which sellers and buyers in a market can discover equilibrium prices. An example of such a process is t\^atonnement, an auction-like algorithm first proposed in 1874 by French economist Walras in which sellers adjust prices based on the Marshallian demands of buyers. A dual concept in consumer theory is a buyer's Hicksian demand. In this paper, we identify the maximum of the absolute value of the elasticity of the Hicksian demand, as an economic parameter sufficient to capture and explain a range of convergent and non-convergent t\^atonnement behaviors in a broad class of markets. In particular, we prove the convergence of t\^atonnement at a rate of $O((1+\varepsilon^2)/T)$, in homothetic Fisher markets with bounded price elasticity of Hicksian demand, i.e., Fisher markets in which consumers have preferences represented by homogeneous utility functions and the price elasti
+    This paper introduces the Heterogeneous Aggregate Valence Analysis (HAVAN) model, a novel class of discrete choice models. We adopt the term "valence'' to encompass any latent quantity used to model consumer decision-making (e.g., utility, regret, etc.). Diverging from traditional models that parameterize heterogeneous preferences across various product attributes, HAVAN models (pronounced "haven") instead directly characterize alternative-specific heterogeneous preferences. This innovative perspective on consumer heterogeneity affords unprecedented flexibility and significantly reduces simulation burdens commonly associated with mixed logit models. In a simulation experiment, the HAVAN model demonstrates superior predictive performance compared to state-of-the-art artificial neural networks. This finding underscores the potential for HAVAN models to improve discrete choice modeling capabilities.
     
-[^3]: 扩展稳健PCE通胀测度的范围
+[^2]: 线性合同的贝叶斯分析
 
-    Extending the Range of Robust PCE Inflation Measures. (arXiv:2207.12494v2 [econ.GN] UPDATED)
+    Bayesian Analysis of Linear Contracts. (arXiv:2211.06850v2 [cs.GT] UPDATED)
 
-    [http://arxiv.org/abs/2207.12494](http://arxiv.org/abs/2207.12494)
+    [http://arxiv.org/abs/2211.06850](http://arxiv.org/abs/2211.06850)
 
-    本研究扩展了稳健PCE通胀测度的范围，并评估了不同修剪点的预测性能。尽管修剪点的选择与时间和目标有关，但无法选择单个系列作为最佳预测。各种修剪方式的平均预测误差相当，但对于趋势通胀的预测有所不同，建议使用一组接近最佳的修剪。
-
-    
-
-    我们评估了1960年至2022年之间的一系列稳健通胀测度的预测性能，包括官方中位数和修剪均值个人消费支出通胀。当修剪掉具有最高和最低通胀率的不同支出类别时，我们发现最佳修剪点在不同时间上差异很大，也取决于目标的选择；当目标是未来的趋势通胀或1970年代至1980年代的样本时，最佳修剪点较高。令人惊讶的是，在预测性能的基础上选择单个系列是没有根据的。包括官方稳健测度在内的各种修剪均具有平均预测误差，使它们与表现最佳的修剪不可区分。尽管平均误差不可区分，但这些修剪在任何给定月份对于趋势通胀的预测不同，在0.5到1个百分点范围内，这表明使用一组接近最佳的修剪。
-
-    We evaluate the forecasting performance of a wide set of robust inflation measures between 1960 and 2022, including official median and trimmed-mean personal-consumption-expenditure inflation. When trimming out different expenditure categories with the highest and lowest inflation rates, we find that the optimal trim points vary widely across time and also depend on the choice of target; optimal trims are higher when targeting future trend inflation or for a 1970s-1980s subsample. Surprisingly, there are no grounds to select a single series on the basis of forecasting performance. A wide range of trims-including those of the official robust measures-have an average prediction error that makes them statistically indistinguishable from the best-performing trim. Despite indistinguishable average errors, these trims imply different predictions for trend inflation in any given month, within a range of 0.5 to 1 percentage points, suggesting the use of a set of near-optimal trims.
-    
-[^4]: 在部分识别下的最优决策规则
-
-    Optimal Decision Rules Under Partial Identification. (arXiv:2111.04926v2 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2111.04926](http://arxiv.org/abs/2111.04926)
-
-    本文研究了在部分识别下的最优决策规则问题，提出了在已知方差的正态误差情况下的有限样本最小最大遗憾决策规则和渐近最小最大遗憾的可行决策规则，并应用于回归不连续设置中政策资格截断点的问题。
+    本文在贝叶斯框架下为线性合同在实践中普遍存在的原因进行了解释和证明，并表明在线性合同中，当委托-代理环境中存在足够不确定性时，线性合同是近乎最优的。
 
     
 
-    本文考虑了一类统计决策问题，决策者必须在有限样本的基础上，在两种备选策略之间做出决策，以最大化社会福利。核心假设是潜在的、可能是无限维参数位于已知的凸集中，可能导致福利效应的部分识别。这些限制的一个例子是反事实结果函数的平滑性。作为主要理论结果，我在正态分布误差且方差已知的所有决策规则类中，推导出了一种有限样本的最小最大遗憾决策规则。当误差分布未知时，我得到了一种渐近最小最大遗憾的可行决策规则。我将我的结果应用于在回归不连续设置中是否改变政策资格截断点的问题，并在布基纳法索的学校建设项目的实证应用中进行了阐述。
+    我们在贝叶斯框架下为实践中普遍存在的线性（佣金制）合同提供了合理性的证明。我们考虑了一个隐藏行动的委托-代理模型，在该模型中，不同行动需要不同的努力量，并且代理人的努力成本是私有的。我们展示了当在委托-代理环境中存在足够的不确定性时，线性合同是近乎最优的。
 
-    I consider a class of statistical decision problems in which the policy maker must decide between two alternative policies to maximize social welfare based on a finite sample. The central assumption is that the underlying, possibly infinite-dimensional parameter, lies in a known convex set, potentially leading to partial identification of the welfare effect. An example of such restrictions is the smoothness of counterfactual outcome functions. As the main theoretical result, I derive a finite-sample, exact minimax regret decision rule within the class of all decision rules under normal errors with known variance. When the error distribution is unknown, I obtain a feasible decision rule that is asymptotically minimax regret. I apply my results to the problem of whether to change a policy eligibility cutoff in a regression discontinuity setup, and illustrate them in an empirical application to a school construction program in Burkina Faso.
+    We provide a justification for the prevalence of linear (commission-based) contracts in practice under the Bayesian framework. We consider a hidden-action principal-agent model, in which actions require different amounts of effort, and the agent's cost per-unit-of-effort is private. We show that linear contracts are near-optimal whenever there is sufficient uncertainty in the principal-agent setting.
+    
+[^3]: 档案中的微笑：利用用户对线上市场的偏好估计提高公平性和效率性
+
+    Smiles in Profiles: Improving Fairness and Efficiency Using Estimates of User Preferences in Online Marketplaces. (arXiv:2209.01235v3 [econ.GN] UPDATED)
+
+    [http://arxiv.org/abs/2209.01235](http://arxiv.org/abs/2209.01235)
+
+    通过模拟不同特征的档案照片对出借人需求的影响，研究提出了实现线上市场公平和效率的方法。
+
+    
+
+    在线平台经常面临公平（即非歧视性）和效率（即最大化收益）之间的挑战。使用计算机视觉算法和微型借贷市场的观察数据，我们发现，借款人在创建在线档案时所做的选择影响着这两个目标。我们进一步通过网络随机调查实验支持了这一结论。在实验中，我们使用生成对抗网络创建具有不同特征的档案图片，并估计其对出借人需求的影响。我们然后反事实地评估替代平台政策，并确定特定方法来影响可改变的档案照片特征，以缓解公平性与效率性之间的紧张关系。
+
+    Online platforms often face challenges being both fair (i.e., non-discriminatory) and efficient (i.e., maximizing revenue). Using computer vision algorithms and observational data from a micro-lending marketplace, we find that choices made by borrowers creating online profiles impact both of these objectives. We further support this conclusion with a web-based randomized survey experiment. In the experiment, we create profile images using Generative Adversarial Networks that differ in a specific feature and estimate its impact on lender demand. We then counterfactually evaluate alternative platform policies and identify particular approaches to influencing the changeable profile photo features that can ameliorate the fairness-efficiency tension.
+    
+[^4]: 经济模型的迁移表现
+
+    The Transfer Performance of Economic Models. (arXiv:2202.04796v3 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2202.04796](http://arxiv.org/abs/2202.04796)
+
+    该论文提供了一个易于处理的“跨领域”预测问题，并根据模型在新领域中的表现定义了模型的迁移误差。该论文比较了经济模型和黑盒算法在预测确定等价值方面的迁移能力，发现经济模型在跨领域上的泛化能力更强。
+
+    
+
+    经济学家经常使用特定领域的数据来估计模型，例如在特定对象组中估计风险偏好或特定彩票类别上估计风险偏好。模型预测是否跨领域适用取决于估计模型是否捕捉到可推广结构。我们提供了一个易于处理的“跨领域”预测问题，并根据模型在新领域中的表现定义了模型的迁移误差。我们推导出有限样本预测区间，当领域独立同分布时，保证以用户选择的概率包含实现的迁移误差，并使用这些区间比较经济模型和黑盒算法在预测确定等价值方面的迁移能力。我们发现在这个应用程序中，我们考虑的黑盒算法在相同领域的数据上估计和测试时优于标准经济模型，但经济模型在跨领域上的泛化能力更强。
+
+    Economists often estimate models using data from a particular domain, e.g. estimating risk preferences in a particular subject pool or for a specific class of lotteries. Whether a model's predictions extrapolate well across domains depends on whether the estimated model has captured generalizable structure. We provide a tractable formulation for this "out-of-domain" prediction problem and define the transfer error of a model based on how well it performs on data from a new domain. We derive finite-sample forecast intervals that are guaranteed to cover realized transfer errors with a user-selected probability when domains are iid, and use these intervals to compare the transferability of economic models and black box algorithms for predicting certainty equivalents. We find that in this application, the black box algorithms we consider outperform standard economic models when estimated and tested on data from the same domain, but the economic models generalize across domains better than 
     
 
