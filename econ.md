@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Optimal transmission expansion minimally reduces decarbonization costs of U.S. electricity](https://arxiv.org/abs/2402.14189) | 传输扩展对高比例可再生能源系统的好处远远超过传统发电系统，全国最佳计划下的传输扩展仅能将100%清洁系统的成本降低4%。 |
-| [^2] | [The Fragility of Sparsity.](http://arxiv.org/abs/2311.02299) | 稀疏性的线性回归估计在选择回归矩阵和假设检验上存在脆弱性，OLS能够提供更健壮的结果而效率损失较小。 |
+| [^1] | [Scalable Estimation of Multinomial Response Models with Uncertain Consideration Sets.](http://arxiv.org/abs/2308.12470) | 这篇论文提出了一种克服估计多项式响应模型中指数级支持问题的方法，通过使用基于列联表概率分布的考虑集概率模型。 |
+| [^2] | [Ownership Chains in Multinational Enterprises.](http://arxiv.org/abs/2305.12857) | 本文探讨了跨国企业所有权链在跨越国家边界的控制中所扮演的角色，发现大多数外国子公司都是通过所有权链被母公司控制的，论文提出了与此相关的理论模型来解释这一现象。 |
 
 # 详细
 
-[^1]: 最佳传输扩展最小化降低美国电力碳减排成本
+[^1]: 可伸缩估计具有不确定的选项集的多项式响应模型
 
-    Optimal transmission expansion minimally reduces decarbonization costs of U.S. electricity
+    Scalable Estimation of Multinomial Response Models with Uncertain Consideration Sets. (arXiv:2308.12470v1 [stat.ME])
 
-    [https://arxiv.org/abs/2402.14189](https://arxiv.org/abs/2402.14189)
+    [http://arxiv.org/abs/2308.12470](http://arxiv.org/abs/2308.12470)
 
-    传输扩展对高比例可再生能源系统的好处远远超过传统发电系统，全国最佳计划下的传输扩展仅能将100%清洁系统的成本降低4%。
-
-    
-
-    太阳能和风能与化石燃料具有竞争力，但它们的间歇性特性带来了挑战。陆地、风力和太阳资源在时间和地理上存在显著差异，这表明远距离输电可能特别有益。我们使用详细的开源模型，联合分析了美国三个主要互联网的最佳传输扩展、存储、发电和小时运营。在高可再生能源系统中，传输扩展提供的好处远远超过主要采用传统发电的系统。然而，尽管一个最佳的全国计划需要将当前的地区间输电容量增加至三倍以上，与仅依靠当前输电的方案相比，传输仅能将100%清洁系统的成本降低4%。仅在现有互联网之间扩展容量即可实现大部分节约。对能源存储和发电的调整也能实现一定程度上的节约。
-
-    arXiv:2402.14189v1 Announce Type: new  Abstract: Solar and wind power are cost-competitive with fossil fuels, yet their intermittent nature presents challenges. Significant temporal and geographic differences in land, wind, and solar resources suggest that long-distance transmission could be particularly beneficial. Using a detailed, open-source model, we analyze optimal transmission expansion jointly with storage, generation, and hourly operations across the three primary interconnects in the United States. Transmission expansion offers far more benefits in a high-renewable system than in a system with mostly conventional generation. Yet while an optimal nationwide plan would have more than triple current interregional transmission, transmission decreases the cost of a 100% clean system by only 4% compared to a plan that relies solely on current transmission. Expanding capacity only within existing interconnects can achieve most of these savings. Adjustments to energy storage and gene
-    
-[^2]: 稀疏性的脆弱性
-
-    The Fragility of Sparsity. (arXiv:2311.02299v2 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2311.02299](http://arxiv.org/abs/2311.02299)
-
-    稀疏性的线性回归估计在选择回归矩阵和假设检验上存在脆弱性，OLS能够提供更健壮的结果而效率损失较小。
+    这篇论文提出了一种克服估计多项式响应模型中指数级支持问题的方法，通过使用基于列联表概率分布的考虑集概率模型。
 
     
 
-    我们使用三个实证应用展示了线性回归估计在依赖稀疏性假设时存在两种脆弱性。首先，我们证明在不影响普通最小二乘(OLS)估计的情况下，如基线类别的选择与分类控制相关，可能会使稀疏性估计值移动超过两个标准误。其次，我们开发了两个基于将稀疏性估计与OLS估计进行比较的稀疏性假设检验。在所有三个应用中，这些检验倾向于拒绝稀疏性假设。除非自变量的数量与样本量相当或超过样本量，否则OLS能够以较小的效率损失产生更健壮的结果。
+    在交叉或纵向数据的无序多项式响应模型拟合中的一个标准假设是，响应来自于相同的J个类别集合。然而，当响应度量主体做出的选择时，更适合假设多项式响应的分布是在主体特定的考虑集条件下，其中这个考虑集是从{1,2, ..., J}的幂集中抽取的。由于这个幂集的基数在J中是指数级的，一般来说估计是无法实现的。在本文中，我们提供了一种克服这个问题的方法。这种方法中的一个关键步骤是基于在列联表上的概率分布的一般表示的考虑集的概率模型。尽管这个分布的支持是指数级大的，但给定参数的考虑集的后验分布通常是稀疏的。
 
-    We show, using three empirical applications, that linear regression estimates which rely on the assumption of sparsity are fragile in two ways. First, we document that different choices of the regressor matrix that do not impact ordinary least squares (OLS) estimates, such as the choice of baseline category with categorical controls, can move sparsity-based estimates two standard errors or more. Second, we develop two tests of the sparsity assumption based on comparing sparsity-based estimators with OLS. The tests tend to reject the sparsity assumption in all three applications. Unless the number of regressors is comparable to or exceeds the sample size, OLS yields more robust results at little efficiency cost.
+    A standard assumption in the fitting of unordered multinomial response models for J mutually exclusive nominal categories, on cross-sectional or longitudinal data, is that the responses arise from the same set of J categories between subjects. However, when responses measure a choice made by the subject, it is more appropriate to assume that the distribution of multinomial responses is conditioned on a subject-specific consideration set, where this consideration set is drawn from the power set of {1,2,...,J}. Because the cardinality of this power set is exponential in J, estimation is infeasible in general. In this paper, we provide an approach to overcoming this problem. A key step in the approach is a probability model over consideration sets, based on a general representation of probability distributions on contingency tables. Although the support of this distribution is exponentially large, the posterior distribution over consideration sets given parameters is typically sparse, and
+    
+[^2]: 跨国企业中的所有权链
+
+    Ownership Chains in Multinational Enterprises. (arXiv:2305.12857v1 [econ.GN])
+
+    [http://arxiv.org/abs/2305.12857](http://arxiv.org/abs/2305.12857)
+
+    本文探讨了跨国企业所有权链在跨越国家边界的控制中所扮演的角色，发现大多数外国子公司都是通过所有权链被母公司控制的，论文提出了与此相关的理论模型来解释这一现象。
+
+    
+
+    本文研究了跨越不同国家边界的跨国企业所发展的所有权链的作用。首先，我们证明母公司通过涉及至少两个国家沿所有权链的间接控制关系控制了大多数（58%）的外国子公司。因此，我们假设所有权链上的位置受到传输管理决策所需的沟通成本的影响。与支持的证据一致，我们开发了一个有关公司控制竞争的理论模型，考虑到原始国家的母公司可以将其对最终子公司的监视活动委托给位于中间司法管辖区的中间公司子公司的可能性。我们的模型提供了一个两步实证策略，包括两个重力方程：i) 一个三角形的重力方程，用于确定母公司的中间公司，在确定最终投资位置的条件下；ii) 经典的重力方程，用于确定最终子公司所在的目标国家，考虑到中间公司的地理位置。
+
+    In this contribution, we investigate the role of ownership chains developed by multinational enterprises across different national borders. First, we document that parent companies control a majority (58%) of foreign subsidiaries through indirect control relationships involving at least two countries along an ownership chain. Therefore, we hypothesize that locations along ownership chains are driven by the existence of communication costs to transmit management decisions. In line with motivating evidence, we develop a theoretical model for competition on corporate control that considers the possibility that parent companies in the origin countries can delegate their monitoring activities in final subsidiaries to middlemen subsidiaries that are located in intermediate jurisdictions. Our model returns us a two-step empirical strategy with two gravity equations: i) a triangular gravity for establishing a middleman by the parent, conditional on final investments' locations; ii) a classical
     
 
