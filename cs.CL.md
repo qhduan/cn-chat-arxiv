@@ -2,97 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [DeFT: Flash Tree-attention with IO-Awareness for Efficient Tree-search-based LLM Inference](https://arxiv.org/abs/2404.00242) | DeFT提出了一种带IO意识的树注意力算法，通过在QKV准备和注意力计算阶段实现内存高效的计算，降低内存印记，以解决当前树解码策略和推断系统不适配的问题。 |
-| [^2] | [Privacy-Aware Semantic Cache for Large Language Models](https://arxiv.org/abs/2403.02694) | MeanCache是一种面向LLMs的语义缓存，能够识别语义上相似的查询，从而减少查询成本，服务提供商负载和环境影响。 |
-| [^3] | [Simple linear attention language models balance the recall-throughput tradeoff](https://arxiv.org/abs/2402.18668) | 提出了一种简单的线性注意力语言模型架构，可以平衡召回和内存消耗之间的权衡。 |
-| [^4] | [A match made in consistency heaven: when large language models meet evolutionary algorithms.](http://arxiv.org/abs/2401.10510) | 大型语言模型和进化算法的结合具有强大的一致性，包括标记嵌入和基因型-表现型映射、位置编码和适应性塑造、位置嵌入和选择、注意力和交叉、前馈神经网络和突变、模型训练和参数更新以及多任务学习和多目标优化等多个核心特征。本文分析了现有的耦合研究，并为未来的研究提供了基本路线和关键挑战。 |
-| [^5] | [CAMELL: Confidence-based Acquisition Model for Efficient Self-supervised Active Learning with Label Validation.](http://arxiv.org/abs/2310.08944) | CAMELL是一个适用于序列多输出问题的主动学习框架，通过仅需专家标注序列的一小部分、自监督和标签验证机制来解决监督神经方法对大规模标注数据集的依赖限制。 |
-| [^6] | [Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes.](http://arxiv.org/abs/2304.09433) | 本文探讨了使用大型语言模型在不需要特定领域的训练和定制下实现生成可查询表格的简单系统，并给出了两种实现策略，在不同质量和成本中平衡。通过实验证明，该系统对不同类型文档生成的表格均高质量，且无需文档特定的定制。 |
+| [^1] | [Quality-Aware Image-Text Alignment for Real-World Image Quality Assessment](https://arxiv.org/abs/2403.11176) | 提出了一种基于CLIP的自监督方法QualiCLIP，通过质量感知的图像-文本对齐策略，实现了图像质量评估不需要标记MOS的问题 |
+| [^2] | [Detecting mental disorder on social media: a ChatGPT-augmented explainable approach](https://arxiv.org/abs/2401.17477) | 本文提出了一种利用大型语言模型，可解释人工智能和对话代理器ChatGPT相结合的新方法，以解决通过社交媒体检测抑郁症的可解释性挑战。通过将Twitter特定变体BERTweet与自解释模型BERT-XDD相结合，并借助ChatGPT将技术解释转化为人类可读的评论，实现了解释能力的同时提高了可解释性。这种方法可以为发展社会负责任的数字平台，促进早期干预做出贡献。 |
+| [^3] | [Location Sensitive Embedding for Knowledge Graph Embedding.](http://arxiv.org/abs/2401.10893) | 这篇论文介绍了一种新颖的位置敏感嵌入（LSE）方法，该方法通过关系特定的映射来修改头实体，将关系概念化为线性变换。LSE在知识图谱嵌入领域具有理论基础，同时提出了更高效的变体LSEd。实验证明LSEd在链接预测任务上具有竞争力。 |
+| [^4] | [Why can neural language models solve next-word prediction? A mathematical perspective.](http://arxiv.org/abs/2306.17184) | 本文研究了神经语言模型在下一个词预测任务中的成功，在形式语言理论背景下，提出了一种为什么神经语言模型能够学习到组合规则的解释，并在一个现实世界的英语句子示例中提供了零错误的证明。 |
+| [^5] | [BUCA: A Binary Classification Approach to Unsupervised Commonsense Question Answering.](http://arxiv.org/abs/2305.15932) | 本文提出了一种更简单的二分类方法，将下游的多项选择题回答任务转换为二分类任务，根据合理性对所有候选答案进行排名，以实现无监督常识问题回答，相较于现有使用知识图谱的UCR方法，我们的方法更为节省数据。 |
 
 # 详细
 
-[^1]: DeFT：带IO意识的Flash Tree-attention用于高效的基于树搜索的LLM推断
+[^1]: 面向现实世界图像质量评估的质量感知图像-文本对齐
 
-    DeFT: Flash Tree-attention with IO-Awareness for Efficient Tree-search-based LLM Inference
+    Quality-Aware Image-Text Alignment for Real-World Image Quality Assessment
 
-    [https://arxiv.org/abs/2404.00242](https://arxiv.org/abs/2404.00242)
+    [https://arxiv.org/abs/2403.11176](https://arxiv.org/abs/2403.11176)
 
-    DeFT提出了一种带IO意识的树注意力算法，通过在QKV准备和注意力计算阶段实现内存高效的计算，降低内存印记，以解决当前树解码策略和推断系统不适配的问题。
-
-    
-
-    使用树搜索进行解码可以极大地提高基于变压器的大型语言模型（LLMs）的推断质量。根据引导信号，它通过形成LLM输出从根到叶子的最佳路径来提高可控性、推理能力、对齐等。然而，由于计算冗余、内存占用和内存访问，当前的树解码策略及其推断系统互相不适配，导致推断效率低下。为解决这一问题，我们提出了DeFT，一种IO感知树注意力算法，它在两个阶段中保持内存高效的注意力计算，降低内存印记：（1）QKV准备：我们提出了一种KV引导树分裂策略，为GPU的高利用率和尽可能减少GPU全局内存和芯片上共享内存之间的KV缓存的内存读/写; （2）注意力计算...
-
-    arXiv:2404.00242v1 Announce Type: cross  Abstract: Decoding using tree search can greatly enhance the inference quality for transformer-based Large Language Models (LLMs). Depending on the guidance signal, it searches for the best path from root to leaf in the tree by forming LLM outputs to improve controllability, reasoning ability, alignment, et cetera. However, current tree decoding strategies and their inference systems do not suit each other well due to redundancy in computation, memory footprints, and memory access, resulting in inefficient inference. To address this issue, we propose DeFT, an IO-aware tree attention algorithm that maintains memory-efficient attention calculation with low memory footprints in two stages: (1) QKV Preparation: we propose a KV-Guided Tree Split strategy to group QKV wisely for high utilization of GPUs and reduction of memory reads/writes for the KV cache between GPU global memory and on-chip shared memory as much as possible; (2) Attention Calculati
-    
-[^2]: 面向大型语言模型的隐私感知语义缓存
-
-    Privacy-Aware Semantic Cache for Large Language Models
-
-    [https://arxiv.org/abs/2403.02694](https://arxiv.org/abs/2403.02694)
-
-    MeanCache是一种面向LLMs的语义缓存，能够识别语义上相似的查询，从而减少查询成本，服务提供商负载和环境影响。
+    提出了一种基于CLIP的自监督方法QualiCLIP，通过质量感知的图像-文本对齐策略，实现了图像质量评估不需要标记MOS的问题
 
     
 
-    大型语言模型（LLMs）如ChatGPT、Google Bard、Claude和Llama 2彻底改变了自然语言处理和搜索引擎动态。然而，这些模型造成了异常高的计算成本。本文介绍了MeanCache，一种用于LLMs的语义缓存，它能够识别语义上相似的查询以确定缓存命中或未命中。
+    无参考图像质量评估（NR-IQA）致力于设计一种在没有高质量参考图像的情况下测量图像质量的方法，以符合人类感知，大部分最先进的NR-IQA方法中依赖标注的主观评分（MOS）限制了它们在真实场景中的可扩展性和广泛适用性。为了克服这一限制，我们提出了QualiCLIP（Quality-aware CLIP），这是一种基于CLIP的自监督不需要标记MOS的方法。具体来说，我们引入了一种质量感知的图像-文本对齐策略，使得CLIP生成的表示与图像固有质量相关。从原始图像开始，我们使用不断增加的强度合成地劣化它们。然后，我们训练CLIP根据其与质量相关的反义文本提示的相似性对这些降解图像进行排名，同时保证一致的表达
 
-    arXiv:2403.02694v1 Announce Type: cross  Abstract: Large Language Models (LLMs) like ChatGPT, Google Bard, Claude, and Llama 2 have revolutionized natural language processing and search engine dynamics. However, these models incur exceptionally high computational costs. For instance, GPT-3 consists of 175 billion parameters and inference on these models also demands billions of floating-point operations. Caching is a natural solution to reduce LLM inference costs on repeated queries. However, existing caching methods are incapable of finding semantic similarities among LLM queries, leading to unacceptable false hit-and-miss rates.   This paper introduces MeanCache, a semantic cache for LLMs that identifies semantically similar queries to determine cache hit or miss. Using MeanCache, the response to a user's semantically similar query can be retrieved from a local cache rather than re-querying the LLM, thus reducing costs, service provider load, and environmental impact. MeanCache lever
+    arXiv:2403.11176v1 Announce Type: cross  Abstract: No-Reference Image Quality Assessment (NR-IQA) focuses on designing methods to measure image quality in alignment with human perception when a high-quality reference image is unavailable. The reliance on annotated Mean Opinion Scores (MOS) in the majority of state-of-the-art NR-IQA approaches limits their scalability and broader applicability to real-world scenarios. To overcome this limitation, we propose QualiCLIP (Quality-aware CLIP), a CLIP-based self-supervised opinion-unaware method that does not require labeled MOS. In particular, we introduce a quality-aware image-text alignment strategy to make CLIP generate representations that correlate with the inherent quality of the images. Starting from pristine images, we synthetically degrade them with increasing levels of intensity. Then, we train CLIP to rank these degraded images based on their similarity to quality-related antonym text prompts, while guaranteeing consistent represe
     
-[^3]: 简单的线性注意力语言模型平衡了召回-吞吐量的折衷
+[^2]: 在社交媒体上检测心理障碍：基于ChatGPT的可解释方法
 
-    Simple linear attention language models balance the recall-throughput tradeoff
+    Detecting mental disorder on social media: a ChatGPT-augmented explainable approach
 
-    [https://arxiv.org/abs/2402.18668](https://arxiv.org/abs/2402.18668)
+    [https://arxiv.org/abs/2401.17477](https://arxiv.org/abs/2401.17477)
 
-    提出了一种简单的线性注意力语言模型架构，可以平衡召回和内存消耗之间的权衡。
-
-    
-
-    最近的研究表明，基于注意力的语言模型擅长召回，即在上下文中已经看到的标记。然而，在推断过程中，基于注意力的模型的效率受到KV-cache的内存消耗的瓶颈限制。在这项工作中，我们探讨了是否可以提高语言模型的效率（例如通过减少内存消耗）而不影响召回。通过将实验和理论应用于广泛的架构，我们确定了模型状态大小和召回能力之间的一个关键权衡。我们发现，与注意力的高效替代方法（例如H3、Mamba、RWKV）保持固定大小的循环状态，但在召回方面表现不佳。我们提出了BASED，这是一种结合了线性和滑动窗口注意力的简单架构。通过改变BASED窗口大小和线性注意力特征维度，我们可以调整状态大小，并遍历召回-内存折衷的帕累托前沿。
-
-    arXiv:2402.18668v1 Announce Type: new  Abstract: Recent work has shown that attention-based language models excel at recall, the ability to ground generations in tokens previously seen in context. However, the efficiency of attention-based models is bottle-necked during inference by the KV-cache's aggressive memory consumption. In this work, we explore whether we can improve language model efficiency (e.g. by reducing memory consumption) without compromising on recall. By applying experiments and theory to a broad set of architectures, we identify a key tradeoff between a model's state size and recall ability. We show that efficient alternatives to attention (e.g. H3, Mamba, RWKV) maintain a fixed-size recurrent state, but struggle at recall. We propose BASED a simple architecture combining linear and sliding window attention. By varying BASED window size and linear attention feature dimension, we can dial the state size and traverse the pareto frontier of the recall-memory tradeoff cu
-    
-[^4]: 天作之合：大型语言模型与进化算法的结合
-
-    A match made in consistency heaven: when large language models meet evolutionary algorithms. (arXiv:2401.10510v1 [cs.NE])
-
-    [http://arxiv.org/abs/2401.10510](http://arxiv.org/abs/2401.10510)
-
-    大型语言模型和进化算法的结合具有强大的一致性，包括标记嵌入和基因型-表现型映射、位置编码和适应性塑造、位置嵌入和选择、注意力和交叉、前馈神经网络和突变、模型训练和参数更新以及多任务学习和多目标优化等多个核心特征。本文分析了现有的耦合研究，并为未来的研究提供了基本路线和关键挑战。
+    本文提出了一种利用大型语言模型，可解释人工智能和对话代理器ChatGPT相结合的新方法，以解决通过社交媒体检测抑郁症的可解释性挑战。通过将Twitter特定变体BERTweet与自解释模型BERT-XDD相结合，并借助ChatGPT将技术解释转化为人类可读的评论，实现了解释能力的同时提高了可解释性。这种方法可以为发展社会负责任的数字平台，促进早期干预做出贡献。
 
     
 
-    预训练的大型语言模型（LLMs）在生成创造性的自然文本方面具有强大的能力。进化算法（EAs）可以发现复杂实际问题的多样解决方案。本文通过比较文本序列生成和进化的共同特点和方向性，阐述了LLMs与EAs之间的强大一致性，包括多个一对一的核心特征：标记嵌入和基因型-表现型映射、位置编码和适应性塑造、位置嵌入和选择、注意力和交叉、前馈神经网络和突变、模型训练和参数更新以及多任务学习和多目标优化。在这种一致性视角下，分析了现有的耦合研究，包括进化微调和LLM增强型EAs。借助这些洞见，我们概述了未来在LLMs和EAs耦合方面的基本研究路线，并突出了其中的关键挑战。
+    在数字时代，社交媒体上表达的抑郁症状的频率引起了严重关注，迫切需要先进的方法来及时检测。本文通过提出一种新颖的方法，将大型语言模型（LLM）与可解释的人工智能（XAI）和ChatGPT等对话代理器有效地结合起来，以应对可解释性抑郁症检测的挑战。在我们的方法中，通过将Twitter特定变体BERTweet与一种新型的自解释模型BERT-XDD相结合，实现了解释能力，该模型能够通过掩码注意力提供分类和解释。使用ChatGPT将技术解释转化为可读性强的评论，进一步增强了可解释性。通过引入一种有效且模块化的可解释抑郁症检测方法，我们的方法可以为发展社会负责任的数字平台做出贡献，促进早期干预。
 
-    Pre-trained large language models (LLMs) have powerful capabilities for generating creative natural text. Evolutionary algorithms (EAs) can discover diverse solutions to complex real-world problems. Motivated by the common collective and directionality of text sequence generation and evolution, this paper illustrates the strong consistency of LLMs and EAs, which includes multiple one-to-one key characteristics: token embedding and genotype-phenotype mapping, position encoding and fitness shaping, position embedding and selection, attention and crossover, feed-forward neural network and mutation, model training and parameter update, and multi-task learning and multi-objective optimization. Based on this consistency perspective, existing coupling studies are analyzed, including evolutionary fine-tuning and LLM-enhanced EAs. Leveraging these insights, we outline a fundamental roadmap for future research in coupling LLMs and EAs, while highlighting key challenges along the way. The consist
+    In the digital era, the prevalence of depressive symptoms expressed on social media has raised serious concerns, necessitating advanced methodologies for timely detection. This paper addresses the challenge of interpretable depression detection by proposing a novel methodology that effectively combines Large Language Models (LLMs) with eXplainable Artificial Intelligence (XAI) and conversational agents like ChatGPT. In our methodology, explanations are achieved by integrating BERTweet, a Twitter-specific variant of BERT, into a novel self-explanatory model, namely BERT-XDD, capable of providing both classification and explanations via masked attention. The interpretability is further enhanced using ChatGPT to transform technical explanations into human-readable commentaries. By introducing an effective and modular approach for interpretable depression detection, our methodology can contribute to the development of socially responsible digital platforms, fostering early intervention and
     
-[^5]: CAMELL：基于置信度的高效自监督主动学习与标签验证获取模型
+[^3]: 知识图谱嵌入的位置敏感嵌入
 
-    CAMELL: Confidence-based Acquisition Model for Efficient Self-supervised Active Learning with Label Validation. (arXiv:2310.08944v1 [cs.CL])
+    Location Sensitive Embedding for Knowledge Graph Embedding. (arXiv:2401.10893v1 [cs.IR])
 
-    [http://arxiv.org/abs/2310.08944](http://arxiv.org/abs/2310.08944)
+    [http://arxiv.org/abs/2401.10893](http://arxiv.org/abs/2401.10893)
 
-    CAMELL是一个适用于序列多输出问题的主动学习框架，通过仅需专家标注序列的一小部分、自监督和标签验证机制来解决监督神经方法对大规模标注数据集的依赖限制。
-
-    
-
-    在序列任务中，受大规模且精确标注数据集的依赖限制，监督神经方法受到阻碍。标注质量随着从专家标注向众包标注的转变而逐渐恶化。为了解决这些挑战，我们提出了CAMELL（Confidence-based Acquisition Model for Efficient self-supervised active Learning with Label validation），这是一个针对序列多输出问题量身定制的基于池化的主动学习框架。CAMELL具有三个核心特点：(1)仅要求专家标注所选序列的一小部分，(2)为其余序列提供自监督，(3)采用标签验证机制，防止错误标签污染数据集并影响模型性能。我们在序列任务中对CAMELL进行了评估，特别强调对话信念跟踪，这是一个受限制的任务。
-
-    Supervised neural approaches are hindered by their dependence on large, meticulously annotated datasets, a requirement that is particularly cumbersome for sequential tasks. The quality of annotations tends to deteriorate with the transition from expert-based to crowd-sourced labelling. To address these challenges, we present \textbf{CAMELL} (Confidence-based Acquisition Model for Efficient self-supervised active Learning with Label validation), a pool-based active learning framework tailored for sequential multi-output problems. CAMELL possesses three core features: (1) it requires expert annotators to label only a fraction of a chosen sequence, (2) it facilitates self-supervision for the remainder of the sequence, and (3) it employs a label validation mechanism to prevent erroneous labels from contaminating the dataset and harming model performance. We evaluate CAMELL on sequential tasks, with a special emphasis on dialogue belief tracking, a task plagued by the constraints of limited
-    
-[^6]: 语言模型实现异构数据湖结构化视图生成的简单系统
-
-    Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes. (arXiv:2304.09433v1 [cs.CL])
-
-    [http://arxiv.org/abs/2304.09433](http://arxiv.org/abs/2304.09433)
-
-    本文探讨了使用大型语言模型在不需要特定领域的训练和定制下实现生成可查询表格的简单系统，并给出了两种实现策略，在不同质量和成本中平衡。通过实验证明，该系统对不同类型文档生成的表格均高质量，且无需文档特定的定制。
+    这篇论文介绍了一种新颖的位置敏感嵌入（LSE）方法，该方法通过关系特定的映射来修改头实体，将关系概念化为线性变换。LSE在知识图谱嵌入领域具有理论基础，同时提出了更高效的变体LSEd。实验证明LSEd在链接预测任务上具有竞争力。
 
     
 
-    数据管理界长期以来的目标是开发出通用自动化系统，可以在不需要人力或特定领域的定制情况下摄取半结构化文档并输出可查询的表格。鉴于潜在文档的多样性，现有的最先进系统进行简化的假设并使用特定领域的训练。本文中，我们询问是否可以通过使用大型语言模型（LLMs）来保持广泛性。在广泛数据上预训练的LLMs可仅限于基于自然语言任务描述执行各种下游任务。我们提出并评估了由LLMs驱动的简单原型系统EVAPORATE。我们确定了实现该系统的两种基本不同策略：提示LLM直接从文档中提取值或提示LLM合成执行提取的代码。我们的评估显示，这两种方法之间存在成本-质量权衡。代码合成便宜，但比直接抽取远不准确。我们对四种不同类型文档的实验表明，EVAPORATE可以在不需要任何文档特定的定制情况下为各种文档类型生成高质量的表格。
+    知识图谱嵌入将知识图谱转化为连续的、低维度的空间，有助于推理和补全任务。该领域主要分为传统的距离模型和语义匹配模型。传统的距离模型面临的关键挑战是无法有效区分图谱中的“头实体”和“尾实体”。为了解决这个问题，提出了新颖的位置敏感嵌入（LSE）方法。LSE通过关系特定的映射修改头实体，将关系概念化为线性变换而不仅仅是平移。LSE的理论基础，包括其表示能力和与现有模型的联系，都进行了详细研究。一种更简化的变体LSEd利用对角矩阵进行变换以提高实用性能。在对四个大规模数据集进行链接预测的测试中，LSEd要么表现更好，要么具有竞争力。
 
-    A long standing goal of the data management community is to develop general, automated systems that ingest semi-structured documents and output queryable tables without human effort or domain specific customization. Given the sheer variety of potential documents, state-of-the art systems make simplifying assumptions and use domain specific training. In this work, we ask whether we can maintain generality by using large language models (LLMs). LLMs, which are pretrained on broad data, can perform diverse downstream tasks simply conditioned on natural language task descriptions.  We propose and evaluate EVAPORATE, a simple, prototype system powered by LLMs. We identify two fundamentally different strategies for implementing this system: prompt the LLM to directly extract values from documents or prompt the LLM to synthesize code that performs the extraction. Our evaluations show a cost-quality tradeoff between these two approaches. Code synthesis is cheap, but far less accurate than dire
+    Knowledge graph embedding transforms knowledge graphs into a continuous, low-dimensional space, facilitating inference and completion tasks. This field is mainly divided into translational distance models and semantic matching models. A key challenge in translational distance models is their inability to effectively differentiate between 'head' and 'tail' entities in graphs. To address this, the novel location-sensitive embedding (LSE) method has been developed. LSE innovatively modifies the head entity using relation-specific mappings, conceptualizing relations as linear transformations rather than mere translations. The theoretical foundations of LSE, including its representational capabilities and its connections to existing models, have been thoroughly examined. A more streamlined variant, LSEd, employs a diagonal matrix for transformations to enhance practical efficiency. In tests conducted on four large-scale datasets for link prediction, LSEd either outperforms or is competitive
+    
+[^4]: 为什么神经语言模型可以解决下一个词预测问题？数学视角
+
+    Why can neural language models solve next-word prediction? A mathematical perspective. (arXiv:2306.17184v1 [cs.CL])
+
+    [http://arxiv.org/abs/2306.17184](http://arxiv.org/abs/2306.17184)
+
+    本文研究了神经语言模型在下一个词预测任务中的成功，在形式语言理论背景下，提出了一种为什么神经语言模型能够学习到组合规则的解释，并在一个现实世界的英语句子示例中提供了零错误的证明。
+
+    
+
+    最近，深度学习在自然语言处理领域引起了革命，神经语言模型在下一个词预测方面证明了非常有效。然而，在形式语言理论的背景下，关于神经语言模型在此任务中可以学习到组合规则的成功的严格理论解释尚未被提出，因为尚不清楚为什么神经语言模型可以学习到控制下一个词预测任务的组合规则。在本文中，我们研究了一类可以用来模拟英语句子的现实世界示例的形式语言。我们构建了神经语言模型来解决这种情况下的下一个词预测任务，且错误率为零。我们的证明突出了嵌入层和全连接组件在神经语言模型中的不同作用。
+
+    Recently, deep learning has revolutionized the field of natural language processing, with neural language models proving to be very effective for next-word prediction. However, a rigorous theoretical explanation for their success in the context of formal language theory has not yet been developed, as it is unclear why neural language models can learn the combinatorial rules that govern the next-word prediction task. In this paper, we study a class of formal languages that can be used to model real-world examples of English sentences. We construct neural language models can solve the next-word prediction task in this context with zero error. Our proof highlights the different roles of the embedding layer and the fully connected component within the neural language model.
+    
+[^5]: BUCA：一种用于无监督常识问题回答的二分类方法
+
+    BUCA: A Binary Classification Approach to Unsupervised Commonsense Question Answering. (arXiv:2305.15932v1 [cs.CL])
+
+    [http://arxiv.org/abs/2305.15932](http://arxiv.org/abs/2305.15932)
+
+    本文提出了一种更简单的二分类方法，将下游的多项选择题回答任务转换为二分类任务，根据合理性对所有候选答案进行排名，以实现无监督常识问题回答，相较于现有使用知识图谱的UCR方法，我们的方法更为节省数据。
+
+    
+
+    随着常识推理数据集的构建变得越来越昂贵且在范围上不可避免地受限，无监督的常识推理(UCR)变得越来越流行。UCR的一种流行方法是利用外部知识将语言模型进行微调(例如，知识图谱)，但这通常需要大量的训练样例。在本文中，我们提出将下游的多项选择题回答任务转换为一个更简单的二分类任务，通过对所有候选答案的合理性进行排名来完成。为了训练模型，我们将知识图谱三元组转换为合理和不合理的文本。广泛的实验结果显示了我们的方法在各种多项选择问题回答基准测试中的有效性。此外，与使用KG的现有UCR方法相比，我们的方法更节省数据。我们的代码可在https://github.com/probe2/BUCA上获取。
+
+    Unsupervised commonsense reasoning (UCR) is becoming increasingly popular as the construction of commonsense reasoning datasets is expensive, and they are inevitably limited in their scope. A popular approach to UCR is to fine-tune language models with external knowledge (e.g., knowledge graphs), but this usually requires a large number of training examples. In this paper, we propose to transform the downstream multiple choice question answering task into a simpler binary classification task by ranking all candidate answers according to their reasonableness. To this end, for training the model, we convert the knowledge graph triples into reasonable and unreasonable texts. Extensive experimental results show the effectiveness of our approach on various multiple choice question answering benchmarks. Furthermore, compared with existing UCR approaches using KGs, ours is less data hungry. Our code is available at https://github.com/probe2/BUCA.
     
 
