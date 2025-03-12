@@ -2,157 +2,157 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Convergence Guarantees for RMSProp and Adam in Generalized-smooth Non-convex Optimization with Affine Noise Variance](https://arxiv.org/abs/2404.01436) | 本文提出了对于RMSProp和Adam在非凸优化中的紧致收敛性分析，首次展示了在最宽松的假设下的收敛性结果，并展示了RMSProp和Adam的迭代复杂度分别为$\mathcal O(\epsilon^{-4})$。 |
-| [^2] | [Uncertainty in Graph Neural Networks: A Survey](https://arxiv.org/abs/2403.07185) | 本调查旨在全面概述图神经网络中的不确定性，并提出了关于如何识别、量化和利用不确定性来增强模型性能和 GNN 预测可靠性的观点。 |
-| [^3] | [Variational Entropy Search for Adjusting Expected Improvement](https://arxiv.org/abs/2402.11345) | 本论文通过变分推断的方法，将期望改进（EI）视为最大值熵搜索（MES）的特殊情况，提出了变分熵搜索（VES）方法和 VES-Gamma 算法，成功调整 EI 并展示其在贝叶斯优化方面的实用性。 |
-| [^4] | [Fourier Circuits in Neural Networks: Unlocking the Potential of Large Language Models in Mathematical Reasoning and Modular Arithmetic](https://arxiv.org/abs/2402.09469) | 本研究探索了神经网络和Transformer在数学推理和模运算中的潜力。我们分析了单隐藏层神经网络和单层Transformer在解决复杂代数学习任务中的特征。阐明了边缘最大化原则对单隐藏层神经网络的影响。 |
-| [^5] | [How Much is Unseen Depends Chiefly on Information About the Seen](https://arxiv.org/abs/2402.05835) | 该论文发现，在未知种群中属于未在训练数据中出现的类的数据点的比例几乎完全取决于训练数据中出现相同次数的类的数量。论文提出了一个遗传算法，能够根据样本找到一个具有最小均方误差的估计量。 |
-| [^6] | [Online estimation of the inverse of the Hessian for stochastic optimization with application to universal stochastic Newton algorithms.](http://arxiv.org/abs/2401.10923) | 该论文提出了一种在线估计Hessian矩阵逆的方法，利用Robbins-Monro过程，能够 drastical reducescomputational complexity,并发展了通用的随机牛顿算法，研究了所提方法的渐进效率。 |
-| [^7] | [Plug-and-Play Posterior Sampling under Mismatched Measurement and Prior Models.](http://arxiv.org/abs/2310.03546) | 本研究提出了一种插拔式后验采样算法（PnP-ULA），通过将物理测量模型与深度学习先验相结合，解决了成像逆问题。我们通过理论分析和数值验证，量化了PnP-ULA在不匹配后验分布下的误差界限，结果表明PnP-ULA对于测量模型和去噪器的不匹配非常敏感。 |
-| [^8] | [Testing for Overfitting.](http://arxiv.org/abs/2305.05792) | 本文提出了一种能够使用训练数据进行评估模型性能的假设检验方法，可以准确地定义和检测过拟合。 |
-| [^9] | [Learning time-scales in two-layers neural networks.](http://arxiv.org/abs/2303.00055) | 本文研究了两层神经网络的学习动态，发现经验风险的下降速率是非单调的。在分布符合单指数模型的高维宽两层神经网络中，我们通过学习率参数化清晰的阶段转换，并提供了对网络学习动态的全面分析。我们还为早期学习时所学模型的简单性提供了理论解释。 |
-| [^10] | [When Doubly Robust Methods Meet Machine Learning for Estimating Treatment Effects from Real-World Data: A Comparative Study.](http://arxiv.org/abs/2204.10969) | 本研究比较了多种常用的双重稳健方法，探讨了它们使用治疗模型和结果模型的策略异同，并研究了如何结合机器学习技术以提高其性能。 |
+| [^1] | [Improving generalisation via anchor multivariate analysis](https://arxiv.org/abs/2403.01865) | 引入因果正则化扩展到锚回归（AR）中，提出了与锚框架相匹配的损失函数确保稳健性，各种多元分析算法均在锚框架内，简单正则化增强了OOD设置中的稳健性，验证了锚正则化的多功能性和对因果推断方法论的推进。 |
+| [^2] | [Random Geometric Graph Alignment with Graph Neural Networks](https://arxiv.org/abs/2402.07340) | 本文研究了在图对齐问题中，通过图神经网络可以高概率恢复正确的顶点对齐。通过特定的特征稀疏性和噪声水平条件，我们证明了图神经网络的有效性，并与直接匹配方法进行了比较。 |
+| [^3] | [The VampPrior Mixture Model](https://arxiv.org/abs/2402.04412) | 本论文提出了VampPrior混合模型（VMM），它是一种新颖的DLVM先验，可用于深度潜变量模型的集成和聚类，通过改善当前聚类先验的不足，并提出了一个清晰区分变分和先验参数的推理过程。使用VMM的变分自动编码器在基准数据集上取得了强大的聚类性能，将VMM与scVI相结合可以显著提高其性能，并自动将细胞分组为具有生物意义的聚类。 |
+| [^4] | [Standard Gaussian Process is All You Need for High-Dimensional Bayesian Optimization](https://arxiv.org/abs/2402.02746) | 标准 Gaussian 过程在高维贝叶斯优化中表现优秀，经验证据显示其在函数估计和协方差建模中克服了高维输入困难，比专门为高维优化设计的方法表现更好。 |
+| [^5] | [Hypergraph Structure Inference From Data Under Smoothness Prior.](http://arxiv.org/abs/2308.14172) | 本文提出了一种光滑性先验方法，用于从节点特征中推断超图的结构，并捕捉数据内在的关系。该方法不需要标记数据作为监督，能够推断出每个潜在超边的概率。 |
+| [^6] | [SketchOGD: Memory-Efficient Continual Learning.](http://arxiv.org/abs/2305.16424) | SketchOGD提出了一种内存高效的解决灾难性遗忘的方法，通过采用在线草图算法，将模型梯度压缩为固定大小的矩阵，从而改进了现有的算法——正交梯度下降（OGD）。 |
+| [^7] | [Statistical Guarantees of Group-Invariant GANs.](http://arxiv.org/abs/2305.13517) | 本研究提出了群不变GAN的统计保证，发现当学习群不变分布时，群不变GAN所需样本数会按群体大小的幂比例减少。 |
+| [^8] | [Q-malizing flow and infinitesimal density ratio estimation.](http://arxiv.org/abs/2305.11857) | 研究提出了一种可以从一个数据分布P传输到任意访问通过有限样本的Q的流模型。这个模型通过神经ODE模型进行，可以进行无穷小DRE。 |
+| [^9] | [Ledoit-Wolf linear shrinkage with unknown mean.](http://arxiv.org/abs/2304.07045) | 本文研究了在未知均值下的大维协方差矩阵估计问题，并提出了一种新的估计器，证明了其二次收敛性，在实验中表现优于其他标准估计器。 |
+| [^10] | [Learning Hypergraphs From Signals With Dual Smoothness Prior.](http://arxiv.org/abs/2211.01717) | 本研究提出了一种基于双重平滑先验的超图结构学习框架，可从观察到的信号中学习超图结构以捕获实体间的内在高阶关系。 |
 
 # 详细
 
-[^1]: RMSProp和Adam在具有仿射噪声方差的广义光滑非凸优化中的收敛性保证
+[^1]: 通过锚多元分析改善泛化能力
 
-    Convergence Guarantees for RMSProp and Adam in Generalized-smooth Non-convex Optimization with Affine Noise Variance
+    Improving generalisation via anchor multivariate analysis
 
-    [https://arxiv.org/abs/2404.01436](https://arxiv.org/abs/2404.01436)
+    [https://arxiv.org/abs/2403.01865](https://arxiv.org/abs/2403.01865)
 
-    本文提出了对于RMSProp和Adam在非凸优化中的紧致收敛性分析，首次展示了在最宽松的假设下的收敛性结果，并展示了RMSProp和Adam的迭代复杂度分别为$\mathcal O(\epsilon^{-4})$。
-
-    
-
-    本文在坐标级别广义光滑性和仿射噪声方差的最宽松假设下，为非凸优化中的RMSProp和Adam提供了首个收敛性分析。首先分析了RMSProp，它是一种具有自适应学习率但没有一阶动量的Adam的特例。具体地，为了解决自适应更新、无界梯度估计和Lipschitz常数之间的依赖挑战，我们证明了下降引理中的一阶项收敛，并且其分母由梯度范数的函数上界限制。基于这一结果，我们展示了使用适当的超参数的RMSProp收敛到一个$\epsilon$-稳定点，其迭代复杂度为$\mathcal O(\epsilon^{-4})$。然后，将我们的分析推广到Adam，额外的挑战是由于梯度与一阶动量之间的不匹配。我们提出了一个新的上界限制
-
-    arXiv:2404.01436v1 Announce Type: cross  Abstract: This paper provides the first tight convergence analyses for RMSProp and Adam in non-convex optimization under the most relaxed assumptions of coordinate-wise generalized smoothness and affine noise variance. We first analyze RMSProp, which is a special case of Adam with adaptive learning rates but without first-order momentum. Specifically, to solve the challenges due to dependence among adaptive update, unbounded gradient estimate and Lipschitz constant, we demonstrate that the first-order term in the descent lemma converges and its denominator is upper bounded by a function of gradient norm. Based on this result, we show that RMSProp with proper hyperparameters converges to an $\epsilon$-stationary point with an iteration complexity of $\mathcal O(\epsilon^{-4})$. We then generalize our analysis to Adam, where the additional challenge is due to a mismatch between the gradient and first-order momentum. We develop a new upper bound on
-    
-[^2]: 图神经网络中的不确定性：一项调查
-
-    Uncertainty in Graph Neural Networks: A Survey
-
-    [https://arxiv.org/abs/2403.07185](https://arxiv.org/abs/2403.07185)
-
-    本调查旨在全面概述图神经网络中的不确定性，并提出了关于如何识别、量化和利用不确定性来增强模型性能和 GNN 预测可靠性的观点。
+    引入因果正则化扩展到锚回归（AR）中，提出了与锚框架相匹配的损失函数确保稳健性，各种多元分析算法均在锚框架内，简单正则化增强了OOD设置中的稳健性，验证了锚正则化的多功能性和对因果推断方法论的推进。
 
     
 
-    图神经网络（GNNs）已被广泛应用于各种现实世界的应用中。然而，GNNs的预测不确定性源自数据中的固有随机性和模型训练误差等多种因素，可能导致不稳定和错误的预测。因此，识别、量化和利用不确定性对于增强模型性能和GNN预测的可靠性是至关重要的。本调查旨在从不确定性的角度全面概述GNNs，并强调其在图学习中的整合。我们比较和总结了现有的图不确定性理论和方法，以及相应的下游任务。通过这种方式，我们弥合了理论与实践之间的差距，同时连接不同的GNN社区。此外，我们的工作为这一领域的未来方向提供了宝贵的见解。
+    我们在锚回归（AR）中引入因果正则化扩展，以改善超出分布（OOD）的泛化能力。我们提出了与锚框架相匹配的损失函数，以确保对分布转移的稳健性。各种多元分析（MVA）算法，如（正交化）PLS、RRR和MLR，均在锚框架内。我们观察到简单的正则化增强了OOD设置中的稳健性。在合成和真实的气候科学问题中，为所选算法提供了估计器，展示了其一致性和有效性。经验验证突显了锚正则化的多功能性，强调其与MVA方法的兼容性，并强调其在增强可复制性的同时抵御分布转移中的作用。扩展的AR框架推进了因果推断方法论，解决了可靠OOD泛化的需求。
 
-    arXiv:2403.07185v1 Announce Type: new  Abstract: Graph Neural Networks (GNNs) have been extensively used in various real-world applications. However, the predictive uncertainty of GNNs stemming from diverse sources such as inherent randomness in data and model training errors can lead to unstable and erroneous predictions. Therefore, identifying, quantifying, and utilizing uncertainty are essential to enhance the performance of the model for the downstream tasks as well as the reliability of the GNN predictions. This survey aims to provide a comprehensive overview of the GNNs from the perspective of uncertainty with an emphasis on its integration in graph learning. We compare and summarize existing graph uncertainty theory and methods, alongside the corresponding downstream tasks. Thereby, we bridge the gap between theory and practice, meanwhile connecting different GNN communities. Moreover, our work provides valuable insights into promising directions in this field.
+    arXiv:2403.01865v1 Announce Type: cross  Abstract: We introduce a causal regularisation extension to anchor regression (AR) for improved out-of-distribution (OOD) generalisation. We present anchor-compatible losses, aligning with the anchor framework to ensure robustness against distribution shifts. Various multivariate analysis (MVA) algorithms, such as (Orthonormalized) PLS, RRR, and MLR, fall within the anchor framework. We observe that simple regularisation enhances robustness in OOD settings. Estimators for selected algorithms are provided, showcasing consistency and efficacy in synthetic and real-world climate science problems. The empirical validation highlights the versatility of anchor regularisation, emphasizing its compatibility with MVA approaches and its role in enhancing replicability while guarding against distribution shifts. The extended AR framework advances causal inference methodologies, addressing the need for reliable OOD generalisation.
     
-[^3]: 变分熵搜索用于调整期望改进
+[^2]: 用图神经网络对随机几何图进行对齐
 
-    Variational Entropy Search for Adjusting Expected Improvement
+    Random Geometric Graph Alignment with Graph Neural Networks
 
-    [https://arxiv.org/abs/2402.11345](https://arxiv.org/abs/2402.11345)
+    [https://arxiv.org/abs/2402.07340](https://arxiv.org/abs/2402.07340)
 
-    本论文通过变分推断的方法，将期望改进（EI）视为最大值熵搜索（MES）的特殊情况，提出了变分熵搜索（VES）方法和 VES-Gamma 算法，成功调整 EI 并展示其在贝叶斯优化方面的实用性。
-
-    
-
-    Bayesian optimization 是一种广泛使用的优化黑盒函数的技术，期望改进（EI）是该领域中最常用的获取函数。虽然 EI 通常被视为与其他信息理论获取函数（如熵搜索（ES）和最大值熵搜索（MES））不同，但我们的工作揭示了，通过变分推断（VI）方法，EI 可以被视为 MES 的一种特殊情况。在这一背景下，我们开发了变分熵搜索（VES）方法和 VES-Gamma 算法，通过将信息理论概念的原则整合到 EI 中来调整 EI。VES-Gamma 的有效性在各种测试函数和真实数据集中得到了证明，突出了它在贝叶斯优化场景中的理论和实际用途。
-
-    arXiv:2402.11345v1 Announce Type: cross  Abstract: Bayesian optimization is a widely used technique for optimizing black-box functions, with Expected Improvement (EI) being the most commonly utilized acquisition function in this domain. While EI is often viewed as distinct from other information-theoretic acquisition functions, such as entropy search (ES) and max-value entropy search (MES), our work reveals that EI can be considered a special case of MES when approached through variational inference (VI). In this context, we have developed the Variational Entropy Search (VES) methodology and the VES-Gamma algorithm, which adapts EI by incorporating principles from information-theoretic concepts. The efficacy of VES-Gamma is demonstrated across a variety of test functions and read datasets, highlighting its theoretical and practical utilities in Bayesian optimization scenarios.
-    
-[^4]: 神经网络中的傅立叶电路：解锁大规模语言模型在数学推理和模运算中的潜力
-
-    Fourier Circuits in Neural Networks: Unlocking the Potential of Large Language Models in Mathematical Reasoning and Modular Arithmetic
-
-    [https://arxiv.org/abs/2402.09469](https://arxiv.org/abs/2402.09469)
-
-    本研究探索了神经网络和Transformer在数学推理和模运算中的潜力。我们分析了单隐藏层神经网络和单层Transformer在解决复杂代数学习任务中的特征。阐明了边缘最大化原则对单隐藏层神经网络的影响。
+    本文研究了在图对齐问题中，通过图神经网络可以高概率恢复正确的顶点对齐。通过特定的特征稀疏性和噪声水平条件，我们证明了图神经网络的有效性，并与直接匹配方法进行了比较。
 
     
 
-    在机器学习不断发展的背景下，理解神经网络和Transformer所利用的内部表示是一个关键挑战。本研究在近期的研究基础上，对网络采用特定计算策略背后的原因进行了探索。我们的研究聚焦于涉及k个输入的复杂代数学习任务，即模运算的加法。我们对单隐藏层神经网络和单层Transformer在解决这一任务中学到的特征进行了深入的分析。我们理论框架的一个关键是阐明边缘最大化原则对单隐藏层神经网络采用的特征的影响。其中，p表示模数，Dp表示k个输入的模运算数据集，m表示网络输出。
+    我们研究了在顶点特征信息存在的情况下，图神经网络在图对齐问题中的性能。具体而言，给定两个独立扰动的单个随机几何图以及噪声稀疏特征的情况下，任务是恢复两个图的顶点之间的未知一对一映射关系。我们证明在特征向量的稀疏性和噪声水平满足一定条件的情况下，经过精心设计的单层图神经网络可以在很高的概率下通过图结构来恢复正确的顶点对齐。我们还证明了噪声水平的条件上界，仅存在对数因子差距。最后，我们将图神经网络的性能与直接在噪声顶点特征上求解分配问题进行了比较。我们证明了当噪声水平至少为常数时，这种直接匹配会导致恢复不完全，而图神经网络可以容忍n
 
-    arXiv:2402.09469v1 Announce Type: new  Abstract: In the evolving landscape of machine learning, a pivotal challenge lies in deciphering the internal representations harnessed by neural networks and Transformers. Building on recent progress toward comprehending how networks execute distinct target functions, our study embarks on an exploration of the underlying reasons behind networks adopting specific computational strategies. We direct our focus to the complex algebraic learning task of modular addition involving $k$ inputs. Our research presents a thorough analytical characterization of the features learned by stylized one-hidden layer neural networks and one-layer Transformers in addressing this task.   A cornerstone of our theoretical framework is the elucidation of how the principle of margin maximization shapes the features adopted by one-hidden layer neural networks. Let $p$ denote the modulus, $D_p$ denote the dataset of modular arithmetic with $k$ inputs and $m$ denote the net
+    We characterize the performance of graph neural networks for graph alignment problems in the presence of vertex feature information. More specifically, given two graphs that are independent perturbations of a single random geometric graph with noisy sparse features, the task is to recover an unknown one-to-one mapping between the vertices of the two graphs. We show under certain conditions on the sparsity and noise level of the feature vectors, a carefully designed one-layer graph neural network can with high probability recover the correct alignment between the vertices with the help of the graph structure. We also prove that our conditions on the noise level are tight up to logarithmic factors. Finally we compare the performance of the graph neural network to directly solving an assignment problem on the noisy vertex features. We demonstrate that when the noise level is at least constant this direct matching fails to have perfect recovery while the graph neural network can tolerate n
     
-[^5]: 不可见数据取决于已知信息的多少
+[^3]: VampPrior混合模型
 
-    How Much is Unseen Depends Chiefly on Information About the Seen
+    The VampPrior Mixture Model
 
-    [https://arxiv.org/abs/2402.05835](https://arxiv.org/abs/2402.05835)
+    [https://arxiv.org/abs/2402.04412](https://arxiv.org/abs/2402.04412)
 
-    该论文发现，在未知种群中属于未在训练数据中出现的类的数据点的比例几乎完全取决于训练数据中出现相同次数的类的数量。论文提出了一个遗传算法，能够根据样本找到一个具有最小均方误差的估计量。
-
-    
-
-    乍一看可能有些违反直觉：我们发现，在预期中，未知种群中属于在训练数据中没有出现的类的数据点的比例几乎完全由训练数据中出现相同次数的类的数量$f_k$确定。虽然在理论上我们证明了由该估计量引起的偏差在样本大小指数级衰减，但在实践中，高方差阻止我们直接使用它作为样本覆盖估计量。但是，我们对$f_k$之间的依赖关系进行了精确的描述，从而产生了多个不同期望值表示的搜索空间，可以确定地实例化为估计量。因此，我们转向优化，并开发了一种遗传算法，仅根据样本搜索平均均方误差（MSE）最小的估计量。在我们的实验证明，我们的遗传算法发现了具有明显较小方差的估计量。
-
-    It might seem counter-intuitive at first: We find that, in expectation, the proportion of data points in an unknown population-that belong to classes that do not appear in the training data-is almost entirely determined by the number $f_k$ of classes that do appear in the training data the same number of times. While in theory we show that the difference of the induced estimator decays exponentially in the size of the sample, in practice the high variance prevents us from using it directly for an estimator of the sample coverage. However, our precise characterization of the dependency between $f_k$'s induces a large search space of different representations of the expected value, which can be deterministically instantiated as estimators. Hence, we turn to optimization and develop a genetic algorithm that, given only the sample, searches for an estimator with minimal mean-squared error (MSE). In our experiments, our genetic algorithm discovers estimators that have a substantially smalle
-    
-[^6]: 在具有通用随机牛顿算法应用于随机优化的情况下，关于Hessian矩阵的逆的在线估计
-
-    Online estimation of the inverse of the Hessian for stochastic optimization with application to universal stochastic Newton algorithms. (arXiv:2401.10923v1 [math.OC])
-
-    [http://arxiv.org/abs/2401.10923](http://arxiv.org/abs/2401.10923)
-
-    该论文提出了一种在线估计Hessian矩阵逆的方法，利用Robbins-Monro过程，能够 drastical reducescomputational complexity,并发展了通用的随机牛顿算法，研究了所提方法的渐进效率。
+    本论文提出了VampPrior混合模型（VMM），它是一种新颖的DLVM先验，可用于深度潜变量模型的集成和聚类，通过改善当前聚类先验的不足，并提出了一个清晰区分变分和先验参数的推理过程。使用VMM的变分自动编码器在基准数据集上取得了强大的聚类性能，将VMM与scVI相结合可以显著提高其性能，并自动将细胞分组为具有生物意义的聚类。
 
     
 
-    本文针对以期望形式表示的凸函数的次优随机优化问题，提出了一种直接递归估计逆Hessian矩阵的技术，采用了Robbins-Monro过程。该方法能够大幅降低计算复杂性，并且允许开发通用的随机牛顿方法，并研究所提方法的渐近效率。这项工作扩展了在随机优化中二阶算法的应用范围。
+    当前用于深度潜变量模型（DLVMs）的聚类先验需要预先定义聚类的数量，并且容易受到较差的初始化的影响。解决这些问题可以通过同时执行集成和聚类的方式极大地改进基于深度学习的scRNA-seq分析。我们将VampPrior（Tomczak和Welling，2018）调整为Dirichlet过程高斯混合模型，得到VampPrior混合模型（VMM），这是一种新颖的DLVM先验。我们提出了一个推理过程，交替使用变分推理和经验贝叶斯，以清楚地区分变分和先验参数。在基准数据集上使用VMM的变分自动编码器获得了极具竞争力的聚类性能。将VMM与广受欢迎的scRNA-seq集成方法scVI（Lopez等，2018）相结合，显著改善了其性能，并自动将细胞分组为具有生物意义的聚类。
 
-    This paper addresses second-order stochastic optimization for estimating the minimizer of a convex function written as an expectation. A direct recursive estimation technique for the inverse Hessian matrix using a Robbins-Monro procedure is introduced. This approach enables to drastically reduces computational complexity. Above all, it allows to develop universal stochastic Newton methods and investigate the asymptotic efficiency of the proposed approach. This work so expands the application scope of secondorder algorithms in stochastic optimization.
+    Current clustering priors for deep latent variable models (DLVMs) require defining the number of clusters a-priori and are susceptible to poor initializations. Addressing these deficiencies could greatly benefit deep learning-based scRNA-seq analysis by performing integration and clustering simultaneously. We adapt the VampPrior (Tomczak & Welling, 2018) into a Dirichlet process Gaussian mixture model, resulting in the VampPrior Mixture Model (VMM), a novel prior for DLVMs. We propose an inference procedure that alternates between variational inference and Empirical Bayes to cleanly distinguish variational and prior parameters. Using the VMM in a Variational Autoencoder attains highly competitive clustering performance on benchmark datasets. Augmenting scVI (Lopez et al., 2018), a popular scRNA-seq integration method, with the VMM significantly improves its performance and automatically arranges cells into biologically meaningful clusters.
     
-[^7]: 插拔式后验采样在不匹配测量和先验模型下的应用
+[^4]: 标准 Gaussian 过程在高维贝叶斯优化中足以应对
 
-    Plug-and-Play Posterior Sampling under Mismatched Measurement and Prior Models. (arXiv:2310.03546v1 [stat.ML])
+    Standard Gaussian Process is All You Need for High-Dimensional Bayesian Optimization
 
-    [http://arxiv.org/abs/2310.03546](http://arxiv.org/abs/2310.03546)
+    [https://arxiv.org/abs/2402.02746](https://arxiv.org/abs/2402.02746)
 
-    本研究提出了一种插拔式后验采样算法（PnP-ULA），通过将物理测量模型与深度学习先验相结合，解决了成像逆问题。我们通过理论分析和数值验证，量化了PnP-ULA在不匹配后验分布下的误差界限，结果表明PnP-ULA对于测量模型和去噪器的不匹配非常敏感。
-
-    
-
-    后验采样已被证明是解决成像逆问题的强大贝叶斯方法。最近发展起来的插拔式未调整朗之万算法（PnP-ULA）通过将物理测量模型与使用图像去噪器指定的深度学习先验相结合，成为一种有前景的蒙特卡洛采样和最小均方误差（MMSE）估计方法。然而，PnP-ULA的采样分布与不匹配的数据保真度和去噪器之间的复杂关系尚未经过理论分析。我们通过提出一种后验-L2拟度量并利用它来量化PnP-ULA在不匹配的后验分布下的显式误差界限来填补这一空白。我们在多个逆问题上对我们的理论进行了数值验证，如从高斯混合模型和图像去模糊中采样。我们的结果表明，PnP-ULA的采样分布对于测量模型和去噪器的不匹配非常敏感，并可以精确地描述其特征。
-
-    Posterior sampling has been shown to be a powerful Bayesian approach for solving imaging inverse problems. The recent plug-and-play unadjusted Langevin algorithm (PnP-ULA) has emerged as a promising method for Monte Carlo sampling and minimum mean squared error (MMSE) estimation by combining physical measurement models with deep-learning priors specified using image denoisers. However, the intricate relationship between the sampling distribution of PnP-ULA and the mismatched data-fidelity and denoiser has not been theoretically analyzed. We address this gap by proposing a posterior-L2 pseudometric and using it to quantify an explicit error bound for PnP-ULA under mismatched posterior distribution. We numerically validate our theory on several inverse problems such as sampling from Gaussian mixture models and image deblurring. Our results suggest that the sensitivity of the sampling distribution of PnP-ULA to a mismatch in the measurement model and the denoiser can be precisely characte
-    
-[^8]: 过拟合的测试
-
-    Testing for Overfitting. (arXiv:2305.05792v1 [stat.ML])
-
-    [http://arxiv.org/abs/2305.05792](http://arxiv.org/abs/2305.05792)
-
-    本文提出了一种能够使用训练数据进行评估模型性能的假设检验方法，可以准确地定义和检测过拟合。
+    标准 Gaussian 过程在高维贝叶斯优化中表现优秀，经验证据显示其在函数估计和协方差建模中克服了高维输入困难，比专门为高维优化设计的方法表现更好。
 
     
 
-    在机器学习中，高复杂度的模型常见过拟合现象，即模型能够很好地代表数据，但无法推广到基础数据生成过程。解决过拟合的典型方法是在留置集上计算经验风险，一旦风险开始增加，就停止（或标记何时停止）。虽然这种方法输出了良好泛化的模型，但其实现原理主要是启发式的。本文讨论过拟合问题，解释了为什么使用训练数据进行评估时，标准渐近和浓度结果不成立。我们随后提出并阐述了一个假设检验，通过该检验可以对使用训练数据评估模型性能，并量化地定义和检测过拟合。我们依靠确保经验均值应该高概率地近似其真实均值的浓度界限，以得出他们应该相互接近的结论。
+    长期以来，人们普遍认为使用标准 Gaussian 过程（GP）进行贝叶斯优化（BO），即标准 BO，在高维优化问题中效果不佳。这种观念可以部分归因于 Gaussian 过程在协方差建模和函数估计中对高维输入的困难。虽然这些担忧看起来合理，但缺乏支持这种观点的经验证据。本文系统地研究了在各种合成和真实世界基准问题上，使用标准 GP 回归进行高维优化的贝叶斯优化。令人惊讶的是，标准 GP 的表现始终位于最佳范围内，往往比专门为高维优化设计的现有 BO 方法表现更好。与刻板印象相反，我们发现标准 GP 可以作为学习高维目标函数的能力强大的代理。在没有强结构假设的情况下，使用标准 GP 进行 BO 可以获得非常好的性能。
 
-    High complexity models are notorious in machine learning for overfitting, a phenomenon in which models well represent data but fail to generalize an underlying data generating process. A typical procedure for circumventing overfitting computes empirical risk on a holdout set and halts once (or flags that/when) it begins to increase. Such practice often helps in outputting a well-generalizing model, but justification for why it works is primarily heuristic.  We discuss the overfitting problem and explain why standard asymptotic and concentration results do not hold for evaluation with training data. We then proceed to introduce and argue for a hypothesis test by means of which both model performance may be evaluated using training data, and overfitting quantitatively defined and detected. We rely on said concentration bounds which guarantee that empirical means should, with high probability, approximate their true mean to conclude that they should approximate each other. We stipulate co
+    There has been a long-standing and widespread belief that Bayesian Optimization (BO) with standard Gaussian process (GP), referred to as standard BO, is ineffective in high-dimensional optimization problems. This perception may partly stem from the intuition that GPs struggle with high-dimensional inputs for covariance modeling and function estimation. While these concerns seem reasonable, empirical evidence supporting this belief is lacking. In this paper, we systematically investigated BO with standard GP regression across a variety of synthetic and real-world benchmark problems for high-dimensional optimization. Surprisingly, the performance with standard GP consistently ranks among the best, often outperforming existing BO methods specifically designed for high-dimensional optimization by a large margin. Contrary to the stereotype, we found that standard GP can serve as a capable surrogate for learning high-dimensional target functions. Without strong structural assumptions, BO wit
     
-[^9]: 两层神经网络中学习时间尺度的研究
+[^5]: 从数据中基于光滑性先验推断超图结构
 
-    Learning time-scales in two-layers neural networks. (arXiv:2303.00055v2 [cs.LG] UPDATED)
+    Hypergraph Structure Inference From Data Under Smoothness Prior. (arXiv:2308.14172v1 [cs.LG])
 
-    [http://arxiv.org/abs/2303.00055](http://arxiv.org/abs/2303.00055)
+    [http://arxiv.org/abs/2308.14172](http://arxiv.org/abs/2308.14172)
 
-    本文研究了两层神经网络的学习动态，发现经验风险的下降速率是非单调的。在分布符合单指数模型的高维宽两层神经网络中，我们通过学习率参数化清晰的阶段转换，并提供了对网络学习动态的全面分析。我们还为早期学习时所学模型的简单性提供了理论解释。
-
-    
-
-    多层神经网络的梯度下降学习具有多个引人注意的特点。尤其是，在大批量数据平均后，经验风险的下降速率是非单调的。几乎没有进展的长周期和快速下降的间隔交替出现。这些连续的学习阶段往往在非常不同的时间尺度上进行。最后，在早期阶段学习的模型通常是“简单的”或“易于学习的”，尽管以难以形式化的方式。本文研究了分布符合单指数模型的高维宽两层神经网络的梯度流动力学，在一系列新的严密结果、非严密数学推导和数值实验的基础上，提供了对网络学习动态的全面分析。我们特别指出，我们通过学习率参数化清晰的阶段转换，并展示了它们与长周期的出现和消失有关。我们还为早期学习时所学模型的简单性提供了理论解释，并证明它们可以用于规范训练过程。
-
-    Gradient-based learning in multi-layer neural networks displays a number of striking features. In particular, the decrease rate of empirical risk is non-monotone even after averaging over large batches. Long plateaus in which one observes barely any progress alternate with intervals of rapid decrease. These successive phases of learning often take place on very different time scales. Finally, models learnt in an early phase are typically `simpler' or `easier to learn' although in a way that is difficult to formalize.  Although theoretical explanations of these phenomena have been put forward, each of them captures at best certain specific regimes. In this paper, we study the gradient flow dynamics of a wide two-layer neural network in high-dimension, when data are distributed according to a single-index model (i.e., the target function depends on a one-dimensional projection of the covariates). Based on a mixture of new rigorous results, non-rigorous mathematical derivations, and numer
-    
-[^10]: 当双重稳健方法遇到机器学习：用于从实际数据中估计治疗效果的比较研究
-
-    When Doubly Robust Methods Meet Machine Learning for Estimating Treatment Effects from Real-World Data: A Comparative Study. (arXiv:2204.10969v3 [stat.ME] UPDATED)
-
-    [http://arxiv.org/abs/2204.10969](http://arxiv.org/abs/2204.10969)
-
-    本研究比较了多种常用的双重稳健方法，探讨了它们使用治疗模型和结果模型的策略异同，并研究了如何结合机器学习技术以提高其性能。
+    本文提出了一种光滑性先验方法，用于从节点特征中推断超图的结构，并捕捉数据内在的关系。该方法不需要标记数据作为监督，能够推断出每个潜在超边的概率。
 
     
 
-    观察性队列研究越来越常用于比较效果研究，以评估治疗方法的安全性。最近，各种双重稳健方法已被提出，通过匹配、加权和回归等不同方式，通过组合治疗模型和结果模型来估计平均治疗效应。双重稳健估计器的关键优势在于，它们要求治疗模型或结果模型之一被正确规定，以获得平均治疗效果的一致估计值，从而导致更准确、通常更精确的推断。然而，很少有工作去理解双重稳健估计器由于使用治疗和结果模型的独特策略如何不同以及如何结合机器学习技术以提高其性能。在这里，我们检查了多个受欢迎的双重稳健方法，并使用不同的治疗和结果模型比较它们的性能。
+    超图在处理涉及多个实体的高阶关系数据中非常重要。在没有明确超图可用的情况下，希望能够从节点特征中推断出有意义的超图结构，以捕捉数据内在的关系。然而，现有的方法要么采用简单预定义的规则，不能精确捕捉潜在超图结构的分布，要么学习超图结构和节点特征之间的映射，但需要大量标记数据（即预先存在的超图结构）进行训练。这两种方法都局限于实际情景中的应用。为了填补这一空白，我们提出了一种新的光滑性先验，使我们能够设计一种方法，在没有标记数据作为监督的情况下推断出每个潜在超边的概率。所提出的先验表示超边中的节点特征与包含该超边的超边的特征高度相关。
 
-    Observational cohort studies are increasingly being used for comparative effectiveness research to assess the safety of therapeutics. Recently, various doubly robust methods have been proposed for average treatment effect estimation by combining the treatment model and the outcome model via different vehicles, such as matching, weighting, and regression. The key advantage of doubly robust estimators is that they require either the treatment model or the outcome model to be correctly specified to obtain a consistent estimator of average treatment effects, and therefore lead to a more accurate and often more precise inference. However, little work has been done to understand how doubly robust estimators differ due to their unique strategies of using the treatment and outcome models and how machine learning techniques can be combined to boost their performance. Here we examine multiple popular doubly robust methods and compare their performance using different treatment and outcome modeli
+    Hypergraphs are important for processing data with higher-order relationships involving more than two entities. In scenarios where explicit hypergraphs are not readily available, it is desirable to infer a meaningful hypergraph structure from the node features to capture the intrinsic relations within the data. However, existing methods either adopt simple pre-defined rules that fail to precisely capture the distribution of the potential hypergraph structure, or learn a mapping between hypergraph structures and node features but require a large amount of labelled data, i.e., pre-existing hypergraph structures, for training. Both restrict their applications in practical scenarios. To fill this gap, we propose a novel smoothness prior that enables us to design a method to infer the probability for each potential hyperedge without labelled data as supervision. The proposed prior indicates features of nodes in a hyperedge are highly correlated by the features of the hyperedge containing th
+    
+[^6]: SketchOGD：内存高效的持续学习
+
+    SketchOGD: Memory-Efficient Continual Learning. (arXiv:2305.16424v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.16424](http://arxiv.org/abs/2305.16424)
+
+    SketchOGD提出了一种内存高效的解决灾难性遗忘的方法，通过采用在线草图算法，将模型梯度压缩为固定大小的矩阵，从而改进了现有的算法——正交梯度下降（OGD）。
+
+    
+
+    当机器学习模型在一系列任务上持续训练时，它们容易忘记先前任务上学习到的知识，这种现象称为灾难性遗忘。现有的解决灾难性遗忘的方法往往涉及存储过去任务的信息，这意味着内存使用是确定实用性的主要因素。本文提出了一种内存高效的解决灾难性遗忘的方法，改进了一种已有的算法——正交梯度下降（OGD）。OGD利用先前模型梯度来找到维持先前数据点性能的权重更新。然而，由于存储先前模型梯度的内存成本随算法运行时间增长而增加，因此OGD不适用于任意长时间跨度的连续学习。针对这个问题，本文提出了SketchOGD。SketchOGD采用在线草图算法，将模型梯度压缩为固定大小的矩阵。
+
+    When machine learning models are trained continually on a sequence of tasks, they are liable to forget what they learned on previous tasks -- a phenomenon known as catastrophic forgetting. Proposed solutions to catastrophic forgetting tend to involve storing information about past tasks, meaning that memory usage is a chief consideration in determining their practicality. This paper proposes a memory-efficient solution to catastrophic forgetting, improving upon an established algorithm known as orthogonal gradient descent (OGD). OGD utilizes prior model gradients to find weight updates that preserve performance on prior datapoints. However, since the memory cost of storing prior model gradients grows with the runtime of the algorithm, OGD is ill-suited to continual learning over arbitrarily long time horizons. To address this problem, this paper proposes SketchOGD. SketchOGD employs an online sketching algorithm to compress model gradients as they are encountered into a matrix of a fix
+    
+[^7]: Group-Invariant GAN的统计保证
+
+    Statistical Guarantees of Group-Invariant GANs. (arXiv:2305.13517v1 [stat.ML])
+
+    [http://arxiv.org/abs/2305.13517](http://arxiv.org/abs/2305.13517)
+
+    本研究提出了群不变GAN的统计保证，发现当学习群不变分布时，群不变GAN所需样本数会按群体大小的幂比例减少。
+
+    
+
+    Group-Invariant生成对抗网络(GAN)是一种GAN，其中生成器和判别器具有硬性集团对称性。实证研究表明，这些网络能够学习具有显着改进数据效率的集团不变分布。在本研究中，我们旨在通过分析群不变GAN的样本复杂度减少来严格量化这种改进。我们的研究发现，在学习群不变分布时，群不变GAN所需样本数按照群体大小的幂比例减少，这个幂取决于分布支持的本质维度。据我们所知，这项工作是首个为群不变生成模型，特别是GAN提供统计估计的工作，并可以为其他群不变生成模型的研究提供借鉴。
+
+    Group-invariant generative adversarial networks (GANs) are a type of GANs in which the generators and discriminators are hardwired with group symmetries. Empirical studies have shown that these networks are capable of learning group-invariant distributions with significantly improved data efficiency. In this study, we aim to rigorously quantify this improvement by analyzing the reduction in sample complexity for group-invariant GANs. Our findings indicate that when learning group-invariant distributions, the number of samples required for group-invariant GANs decreases proportionally with a power of the group size, and this power depends on the intrinsic dimension of the distribution's support. To our knowledge, this work presents the first statistical estimation for group-invariant generative models, specifically for GANs, and it may shed light on the study of other group-invariant generative models.
+    
+[^8]: Q-malizing流和无穷小密度比估计
+
+    Q-malizing flow and infinitesimal density ratio estimation. (arXiv:2305.11857v1 [stat.ML])
+
+    [http://arxiv.org/abs/2305.11857](http://arxiv.org/abs/2305.11857)
+
+    研究提出了一种可以从一个数据分布P传输到任意访问通过有限样本的Q的流模型。这个模型通过神经ODE模型进行，可以进行无穷小DRE。
+
+    
+
+    连续的正则化流在生成任务中被广泛使用，其中流网络从数据分布P传输到正态分布。一种能够从P传输到任意Q的流模型，其中P和Q都可通过有限样本访问，将在各种应用兴趣中使用，特别是在最近开发的望远镜密度比估计中（DRE），它需要构建中间密度以在P和Q之间建立桥梁。在这项工作中，我们提出了这样的“Q-malizing流”，通过神经ODE模型进行，该模型通过经验样本的可逆传输从P到Q（反之亦然），并通过最小化传输成本进行正则化。训练好的流模型使我们能够沿与时间参数化的log密度进行无穷小DRE，通过训练附加的连续时间流网络使用分类损失来估计log密度的时间偏导数。通过积分时间得分网络
+
+    Continuous normalizing flows are widely used in generative tasks, where a flow network transports from a data distribution $P$ to a normal distribution. A flow model that can transport from $P$ to an arbitrary $Q$, where both $P$ and $Q$ are accessible via finite samples, would be of various application interests, particularly in the recently developed telescoping density ratio estimation (DRE) which calls for the construction of intermediate densities to bridge between $P$ and $Q$. In this work, we propose such a ``Q-malizing flow'' by a neural-ODE model which is trained to transport invertibly from $P$ to $Q$ (and vice versa) from empirical samples and is regularized by minimizing the transport cost. The trained flow model allows us to perform infinitesimal DRE along the time-parametrized $\log$-density by training an additional continuous-time flow network using classification loss, which estimates the time-partial derivative of the $\log$-density. Integrating the time-score network
+    
+[^9]: Ledoit-Wolf线性收缩方法在未知均值的情况下的应用(arXiv:2304.07045v1 [math.ST])
+
+    Ledoit-Wolf linear shrinkage with unknown mean. (arXiv:2304.07045v1 [math.ST])
+
+    [http://arxiv.org/abs/2304.07045](http://arxiv.org/abs/2304.07045)
+
+    本文研究了在未知均值下的大维协方差矩阵估计问题，并提出了一种新的估计器，证明了其二次收敛性，在实验中表现优于其他标准估计器。
+
+    
+
+    本研究探讨了在未知均值下的大维协方差矩阵估计问题。当维数和样本数成比例并趋向于无穷大时，经验协方差估计器失效，此时称为Kolmogorov渐进性。当均值已知时，Ledoit和Wolf（2004）提出了一个线性收缩估计器，并证明了在这些演进下的收敛性。据我们所知，当均值未知时，尚未提出正式证明。为了解决这个问题，我们提出了一个新的估计器，并在Ledoit和Wolf的假设下证明了它的二次收敛性。最后，我们通过实验证明它胜过了其他标准估计器。
+
+    This work addresses large dimensional covariance matrix estimation with unknown mean. The empirical covariance estimator fails when dimension and number of samples are proportional and tend to infinity, settings known as Kolmogorov asymptotics. When the mean is known, Ledoit and Wolf (2004) proposed a linear shrinkage estimator and proved its convergence under those asymptotics. To the best of our knowledge, no formal proof has been proposed when the mean is unknown. To address this issue, we propose a new estimator and prove its quadratic convergence under the Ledoit and Wolf assumptions. Finally, we show empirically that it outperforms other standard estimators.
+    
+[^10]: 基于双重平滑先验学习信号的超图结构
+
+    Learning Hypergraphs From Signals With Dual Smoothness Prior. (arXiv:2211.01717v3 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2211.01717](http://arxiv.org/abs/2211.01717)
+
+    本研究提出了一种基于双重平滑先验的超图结构学习框架，可从观察到的信号中学习超图结构以捕获实体间的内在高阶关系。
+
+    
+
+    超图结构学习是从观察到的信号中学习超图结构，以捕捉实体之间内在的高阶关系，当数据集中没有可用的超图拓扑结构时，这变得非常关键。本文提出了一种新的双重平滑先验的超图结构学习框架HGSL，通过把每个超边与具有节点信号平滑性和边连接性的子图对应起来，揭示了观察到的节点信号和超图结构之间的映射。实验结果表明了该方法的有效性。
+
+    Hypergraph structure learning, which aims to learn the hypergraph structures from the observed signals to capture the intrinsic high-order relationships among the entities, becomes crucial when a hypergraph topology is not readily available in the datasets. There are two challenges that lie at the heart of this problem: 1) how to handle the huge search space of potential hyperedges, and 2) how to define meaningful criteria to measure the relationship between the signals observed on nodes and the hypergraph structure. In this paper, for the first challenge, we adopt the assumption that the ideal hypergraph structure can be derived from a learnable graph structure that captures the pairwise relations within signals. Further, we propose a hypergraph structure learning framework HGSL with a novel dual smoothness prior that reveals a mapping between the observed node signals and the hypergraph structure, whereby each hyperedge corresponds to a subgraph with both node signal smoothness and e
     
 
