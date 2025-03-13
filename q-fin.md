@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Market Making of Options via Reinforcement Learning.](http://arxiv.org/abs/2307.01814) | 本研究提出了一种通过结合随机策略和强化学习技术的方法来进行期权市场做市。当市场订单的到达与价差呈线性反比时，最优策略为正态分布。 |
-| [^2] | [Ledoit-Wolf linear shrinkage with unknown mean.](http://arxiv.org/abs/2304.07045) | 本文研究了在未知均值下的大维协方差矩阵估计问题，并提出了一种新的估计器，证明了其二次收敛性，在实验中表现优于其他标准估计器。 |
+| [^1] | [Social Dynamics of Consumer Response: A Unified Framework Integrating Statistical Physics and Marketing Dynamics](https://arxiv.org/abs/2404.02175) | 使用统计物理学和市场营销动态的理论框架，本研究提出了一个创新的方程，准确捕捉了广告支出与消费者反应之间的复杂关系，并验证了其有效性。 |
+| [^2] | [A Comprehensive Survey on Enterprise Financial Risk Analysis from Big Data Perspective.](http://arxiv.org/abs/2211.14997) | 本文从大数据角度综述了企业财务风险分析的研究现状，回顾了250多篇代表性文章。 |
 
 # 详细
 
-[^1]: 通过强化学习进行期权市场做市
+[^1]: 消费者反应的社会动态：融合统计物理学与营销动态的统一框架
 
-    Market Making of Options via Reinforcement Learning. (arXiv:2307.01814v1 [q-fin.TR])
+    Social Dynamics of Consumer Response: A Unified Framework Integrating Statistical Physics and Marketing Dynamics
 
-    [http://arxiv.org/abs/2307.01814](http://arxiv.org/abs/2307.01814)
+    [https://arxiv.org/abs/2404.02175](https://arxiv.org/abs/2404.02175)
 
-    本研究提出了一种通过结合随机策略和强化学习技术的方法来进行期权市场做市。当市场订单的到达与价差呈线性反比时，最优策略为正态分布。
-
-    
-
-    由于其高维度特性，期权市场做市对于不同到期日和行权价格的期权来说是一个具有挑战性的问题。在本文中，我们提出了一种新颖的方法，将随机策略和受强化学习启发的技术相结合，确定期权市场做市商为交易不同到期日和行权价格的期权时所发布的买卖价差的最优策略。当市场订单的到达与价差呈线性反比时，最优策略为正态分布。
-
-    Market making of options with different maturities and strikes is a challenging problem due to its high dimensional nature. In this paper, we propose a novel approach that combines a stochastic policy and reinforcement learning-inspired techniques to determine the optimal policy for posting bid-ask spreads for an options market maker who trades options with different maturities and strikes. When the arrival of market orders is linearly inverse to the spreads, the optimal policy is normally distributed.
-    
-[^2]: Ledoit-Wolf线性收缩方法在未知均值的情况下的应用(arXiv:2304.07045v1 [math.ST])
-
-    Ledoit-Wolf linear shrinkage with unknown mean. (arXiv:2304.07045v1 [math.ST])
-
-    [http://arxiv.org/abs/2304.07045](http://arxiv.org/abs/2304.07045)
-
-    本文研究了在未知均值下的大维协方差矩阵估计问题，并提出了一种新的估计器，证明了其二次收敛性，在实验中表现优于其他标准估计器。
+    使用统计物理学和市场营销动态的理论框架，本研究提出了一个创新的方程，准确捕捉了广告支出与消费者反应之间的复杂关系，并验证了其有效性。
 
     
 
-    本研究探讨了在未知均值下的大维协方差矩阵估计问题。当维数和样本数成比例并趋向于无穷大时，经验协方差估计器失效，此时称为Kolmogorov渐进性。当均值已知时，Ledoit和Wolf（2004）提出了一个线性收缩估计器，并证明了在这些演进下的收敛性。据我们所知，当均值未知时，尚未提出正式证明。为了解决这个问题，我们提出了一个新的估计器，并在Ledoit和Wolf的假设下证明了它的二次收敛性。最后，我们通过实验证明它胜过了其他标准估计器。
+    理解消费者对广告输入的反应对于旨在优化广告策略并提高广告活动有效性的营销人员至关重要。本研究通过应用源自物理学和社会心理学的理论框架，研究消费者行为的复杂性。我们提出了一个创新的方程，捕捉了广告支出与消费者反应之间的关系，利用了诸如对称性、标度律和相变等概念。通过将我们的方程验证与Michaelis-Menten和Hill方程等著名模型相比较，我们证明了其在准确表示消费者反应动态复杂性方面的有效性。分析强调了关键模型参数（如营销效果、反应敏感度和行为敏感度）对影响消费者行为的重要性。该研究探讨了广告商和营销人员的实际影响。
 
-    This work addresses large dimensional covariance matrix estimation with unknown mean. The empirical covariance estimator fails when dimension and number of samples are proportional and tend to infinity, settings known as Kolmogorov asymptotics. When the mean is known, Ledoit and Wolf (2004) proposed a linear shrinkage estimator and proved its convergence under those asymptotics. To the best of our knowledge, no formal proof has been proposed when the mean is unknown. To address this issue, we propose a new estimator and prove its quadratic convergence under the Ledoit and Wolf assumptions. Finally, we show empirically that it outperforms other standard estimators.
+    arXiv:2404.02175v1 Announce Type: cross  Abstract: Comprehending how consumers react to advertising inputs is essential for marketers aiming to optimize advertising strategies and improve campaign effectiveness. This study examines the complex nature of consumer behaviour by applying theoretical frameworks derived from physics and social psychology. We present an innovative equation that captures the relation between spending on advertising and consumer response, using concepts such as symmetries, scaling laws, and phase transitions. By validating our equation against well-known models such as the Michaelis-Menten and Hill equations, we prove its effectiveness in accurately representing the complexity of consumer response dynamics. The analysis emphasizes the importance of key model parameters, such as marketing effectiveness, response sensitivity, and behavioural sensitivity, in influencing consumer behaviour. The work explores the practical implications for advertisers and marketers,
+    
+[^2]: 从大数据角度看企业财务风险分析的综述研究
+
+    A Comprehensive Survey on Enterprise Financial Risk Analysis from Big Data Perspective. (arXiv:2211.14997v3 [q-fin.RM] UPDATED)
+
+    [http://arxiv.org/abs/2211.14997](http://arxiv.org/abs/2211.14997)
+
+    本文从大数据角度综述了企业财务风险分析的研究现状，回顾了250多篇代表性文章。
+
+    
+
+    企业财务风险分析旨在预测企业未来的财务风险。由于其广泛而重要的应用，企业财务风险分析一直是金融和管理领域的核心研究主题。基于先进的计算机科学和人工智能技术，企业风险分析研究正在经历快速发展并取得重要进展。因此，全面评估相关研究既有必要性又具挑战性。虽然已经存在一些有价值和令人印象深刻的关于企业风险分析的综述，但这些综述单独介绍了方法，缺乏企业财务风险分析的最新进展。相反，本文尝试从大数据的角度提供企业风险分析方法的系统文献综述，回顾了超过250篇代表性文章。
+
+    Enterprise financial risk analysis aims at predicting the future financial risk of enterprises. Due to its wide and significant application, enterprise financial risk analysis has always been the core research topic in the fields of Finance and Management. Based on advanced computer science and artificial intelligence technologies, enterprise risk analysis research is experiencing rapid developments and making significant progress. Therefore, it is both necessary and challenging to comprehensively review the relevant studies. Although there are already some valuable and impressive surveys on enterprise risk analysis from the perspective of Finance and Management, these surveys introduce approaches in a relatively isolated way and lack recent advances in enterprise financial risk analysis. In contrast, this paper attempts to provide a systematic literature survey of enterprise risk analysis approaches from Big Data perspective, which reviews more than 250 representative articles in the 
     
 

@@ -2,127 +2,157 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [SHIELD: A regularization technique for eXplainable Artificial Intelligence](https://arxiv.org/abs/2404.02611) | SHIELD引入了一种正则化技术，通过隐藏部分输入数据并评估预测结果的差异，从而改善了可解释人工智能模型的质量。 |
-| [^2] | [Robust Diffusion Models for Adversarial Purification](https://arxiv.org/abs/2403.16067) | 提出一种独立于预训练扩散模型的稳健反向过程，避免了重新训练或微调，有效处理对抗净化中的语义信息损失问题。 |
-| [^3] | [M-HOF-Opt: Multi-Objective Hierarchical Output Feedback Optimization via Multiplier Induced Loss Landscape Scheduling](https://arxiv.org/abs/2403.13728) | 提出了一种新的方法，通过多目标分层输出反馈优化的方式，利用乘子诱导的损失景观调度解决神经网络参数化的复杂损失函数优化问题。 |
-| [^4] | [The VampPrior Mixture Model](https://arxiv.org/abs/2402.04412) | 本论文提出了VampPrior混合模型（VMM），它是一种新颖的DLVM先验，可用于深度潜变量模型的集成和聚类，通过改善当前聚类先验的不足，并提出了一个清晰区分变分和先验参数的推理过程。使用VMM的变分自动编码器在基准数据集上取得了强大的聚类性能，将VMM与scVI相结合可以显著提高其性能，并自动将细胞分组为具有生物意义的聚类。 |
-| [^5] | [Hypergraph Structure Inference From Data Under Smoothness Prior.](http://arxiv.org/abs/2308.14172) | 本文提出了一种光滑性先验方法，用于从节点特征中推断超图的结构，并捕捉数据内在的关系。该方法不需要标记数据作为监督，能够推断出每个潜在超边的概率。 |
-| [^6] | [Addressing Selection Bias in Computerized Adaptive Testing: A User-Wise Aggregate Influence Function Approach.](http://arxiv.org/abs/2308.11912) | 本文研究了计算机自适应测试中存在的选择偏差问题，并提出了一种基于用户的聚合影响函数方法来解决该问题。 |
-| [^7] | [HowkGPT: Investigating the Detection of ChatGPT-generated University Student Homework through Context-Aware Perplexity Analysis.](http://arxiv.org/abs/2305.18226) | 本研究介绍了一种基于元数据的 AI 生成的大学生作业检测方法 HowkGPT，通过计算困惑度得分来区分学生提交和 ChatGPT 生成的作业，进一步提高分析的精度，以帮助维护学术诚信和防止作弊。 |
-| [^8] | [SketchOGD: Memory-Efficient Continual Learning.](http://arxiv.org/abs/2305.16424) | SketchOGD提出了一种内存高效的解决灾难性遗忘的方法，通过采用在线草图算法，将模型梯度压缩为固定大小的矩阵，从而改进了现有的算法——正交梯度下降（OGD）。 |
+| [^1] | [Towards Human-AI Deliberation: Design and Evaluation of LLM-Empowered Deliberative AI for AI-Assisted Decision-Making](https://arxiv.org/abs/2403.16812) | 提出了人工智能和人类的辩论框架，通过LLM增强的辩论人工智能促进人类反思和讨论决策中的意见分歧。 |
+| [^2] | [Investigating Use Cases of AI-Powered Scene Description Applications for Blind and Low Vision People](https://arxiv.org/abs/2403.15604) | 该研究调查了AI智能场景描述应用在盲人和低视力人群中的使用情况，发现用户主要用于识别已知对象的视觉特征以及避免与危险物体接触，并且用户对描述的满意度评分相对较低。 |
+| [^3] | [A Hybrid SNN-ANN Network for Event-based Object Detection with Spatial and Temporal Attention](https://arxiv.org/abs/2403.10173) | 提出了一种用于基于事件的对象检测的混合SNN-ANN网络，包括了新颖的基于注意力的桥接模块，能够有效捕捉稀疏的空间和时间关系，以提高任务性能。 |
+| [^4] | [QUCE: The Minimisation and Quantification of Path-Based Uncertainty for Generative Counterfactual Explanations](https://arxiv.org/abs/2402.17516) | QUCE方法旨在通过减少路径不确定性来量化和缓解基于路径的不确定性，从而改善对抗性反事实解释的表现。 |
+| [^5] | [On Distributed Larger-Than-Memory Subset Selection With Pairwise Submodular Functions](https://arxiv.org/abs/2402.16442) | 本文提出了一种新颖的分布式约束算法，通过迭代绑定最小和最大效用值来选择高质量的点并丢弃不重要的点。 |
+| [^6] | [Interactive-KBQA: Multi-Turn Interactions for Knowledge Base Question Answering with Large Language Models](https://arxiv.org/abs/2402.15131) | 提出了一种互动式KBQA框架，通过直接与知识库互动生成逻辑形式，开发了用于KB交互的通用API，并设计了示例来指导大型语言模型进行推理。 |
+| [^7] | [Uncovering Hidden Connections: Iterative Tracking and Reasoning for Video-grounded Dialog.](http://arxiv.org/abs/2310.07259) | 本文提出了一种迭代跟踪和推理策略，结合文本编码器和视觉编码器以生成准确的响应，解决了视频对话中逐步理解对话历史和吸收视频信息的挑战。 |
+| [^8] | [Personality Traits in Large Language Models.](http://arxiv.org/abs/2307.00184) | 该研究介绍了一种综合方法，用于验证大型语言模型（LLMs）生成的文本中展示的人格特质。研究发现，部分LLMs在特定提示配置下模拟的人格可靠且有效，特别是对于更大和经过指导微调的模型。此外，LLMs的输出中的人格特质可以根据需要进行塑造。 |
+| [^9] | [Federated Virtual Learning on Heterogeneous Data with Local-global Distillation.](http://arxiv.org/abs/2303.02278) | 该论文提出了一种名为FedLGD的新方法，通过本地和全局数据集的蒸馏组合来创建一个更小的合成数据集，以解决联邦学习中处理异构数据时的性能问题，同时使用迭代分布匹配来处理同步和类别不平衡问题。 |
+| [^10] | [A Comprehensive Survey on Enterprise Financial Risk Analysis from Big Data Perspective.](http://arxiv.org/abs/2211.14997) | 本文从大数据角度综述了企业财务风险分析的研究现状，回顾了250多篇代表性文章。 |
 
 # 详细
 
-[^1]: SHIELD: 一种用于可解释人工智能的正则化技术
+[^1]: 人工智能和人类的辩论：LLM增强的辩论人工智能设计与评估，用于人工智能辅助决策
 
-    SHIELD: A regularization technique for eXplainable Artificial Intelligence
+    Towards Human-AI Deliberation: Design and Evaluation of LLM-Empowered Deliberative AI for AI-Assisted Decision-Making
 
-    [https://arxiv.org/abs/2404.02611](https://arxiv.org/abs/2404.02611)
+    [https://arxiv.org/abs/2403.16812](https://arxiv.org/abs/2403.16812)
 
-    SHIELD引入了一种正则化技术，通过隐藏部分输入数据并评估预测结果的差异，从而改善了可解释人工智能模型的质量。
-
-    
-
-    随着人工智能系统在各个领域变得不可或缺，对可解释性的需求与日俱增。尽管科学界的努力主要集中在为模型获取更好的解释上，但重要的是不要忽视这个解释过程对改善训练的潜力。虽然现有的努力主要集中在为黑盒模型生成和评估解释上，但直接通过这些评估来增强模型仍存在关键差距。本文介绍了SHIELD（选择性隐藏输入评估学习动态），这是一种适用于可解释人工智能的正则化技术，旨在通过隐藏部分输入数据并评估预测结果的差异来改善模型质量。与传统方法相比，SHIELD正则化无缝集成到目标函数中，提高了模型的可解释性同时也改善了性能
-
-    arXiv:2404.02611v1 Announce Type: new  Abstract: As Artificial Intelligence systems become integral across domains, the demand for explainability grows. While the effort by the scientific community is focused on obtaining a better explanation for the model, it is important not to ignore the potential of this explanation process to improve training as well. While existing efforts primarily focus on generating and evaluating explanations for black-box models, there remains a critical gap in directly enhancing models through these evaluations. This paper introduces SHIELD (Selective Hidden Input Evaluation for Learning Dynamics), a regularization technique for explainable artificial intelligence designed to improve model quality by concealing portions of input data and assessing the resulting discrepancy in predictions. In contrast to conventional approaches, SHIELD regularization seamlessly integrates into the objective function, enhancing model explainability while also improving perfor
-    
-[^2]: 针对对抗净化的强大扩散模型
-
-    Robust Diffusion Models for Adversarial Purification
-
-    [https://arxiv.org/abs/2403.16067](https://arxiv.org/abs/2403.16067)
-
-    提出一种独立于预训练扩散模型的稳健反向过程，避免了重新训练或微调，有效处理对抗净化中的语义信息损失问题。
+    提出了人工智能和人类的辩论框架，通过LLM增强的辩论人工智能促进人类反思和讨论决策中的意见分歧。
 
     
 
-    基于扩散模型（DM）的对抗净化（AP）已被证明是对抗训练（AT）最有力的替代方法。然而，这些方法忽略了预训练的扩散模型本身对对抗攻击并不稳健这一事实。此外，扩散过程很容易破坏语义信息，在反向过程后生成高质量图像但与原始输入图像完全不同，导致标准精度下降。为了解决这些问题，一个自然的想法是利用对抗训练策略重新训练或微调预训练的扩散模型，然而这在计算上是禁止的。我们提出了一种新颖的具有对抗引导的稳健反向过程，它独立于给定的预训练DMs，并且避免了重新训练或微调DMs。这种强大的引导不仅可以确保生成的净化示例保留更多的语义内容，还可以...
+    在人工智能辅助决策中，人类通常被动地审查人工智能的建议，然后决定是否全盘接受或拒绝。在这样的范式中，发现人类很少激发分析思维，且在发生分歧时难以将矛盾意见的细微差别传达给人工智能。为了解决这一挑战，我们提出了人工智能和人类的辩论，这是一个新颖的框架，旨在促进人类在决策过程中对人工智能意见分歧进行反思和讨论。基于人类辩论理论，该框架通过维度级意见征集、辩论讨论和决策更新，将人类和人工智能进行互动。为了赋予人工智能辩论能力，我们设计了辩论人工智能，利用大型语言模型（LLMs）作为人类和领域特定模型之间的桥梁，实现灵活的对话交互和忠实的信息提供。
 
-    arXiv:2403.16067v1 Announce Type: cross  Abstract: Diffusion models (DMs) based adversarial purification (AP) has shown to be the most powerful alternative to adversarial training (AT). However, these methods neglect the fact that pre-trained diffusion models themselves are not robust to adversarial attacks as well. Additionally, the diffusion process can easily destroy semantic information and generate a high quality image but totally different from the original input image after the reverse process, leading to degraded standard accuracy. To overcome these issues, a natural idea is to harness adversarial training strategy to retrain or fine-tune the pre-trained diffusion model, which is computationally prohibitive. We propose a novel robust reverse process with adversarial guidance, which is independent of given pre-trained DMs and avoids retraining or fine-tuning the DMs. This robust guidance can not only ensure to generate purified examples retaining more semantic content but also m
+    arXiv:2403.16812v1 Announce Type: cross  Abstract: In AI-assisted decision-making, humans often passively review AI's suggestion and decide whether to accept or reject it as a whole. In such a paradigm, humans are found to rarely trigger analytical thinking and face difficulties in communicating the nuances of conflicting opinions to the AI when disagreements occur. To tackle this challenge, we propose Human-AI Deliberation, a novel framework to promote human reflection and discussion on conflicting human-AI opinions in decision-making. Based on theories in human deliberation, this framework engages humans and AI in dimension-level opinion elicitation, deliberative discussion, and decision updates. To empower AI with deliberative capabilities, we designed Deliberative AI, which leverages large language models (LLMs) as a bridge between humans and domain-specific models to enable flexible conversational interactions and faithful information provision. An exploratory evaluation on a grad
     
-[^3]: M-HOF-Opt: 多目标分层输出反馈优化：基于乘子诱导损失景观调度的方法
+[^2]: 研究AI智能场景描述应用在盲人和低视力人群中的使用情况
 
-    M-HOF-Opt: Multi-Objective Hierarchical Output Feedback Optimization via Multiplier Induced Loss Landscape Scheduling
+    Investigating Use Cases of AI-Powered Scene Description Applications for Blind and Low Vision People
 
-    [https://arxiv.org/abs/2403.13728](https://arxiv.org/abs/2403.13728)
+    [https://arxiv.org/abs/2403.15604](https://arxiv.org/abs/2403.15604)
 
-    提出了一种新的方法，通过多目标分层输出反馈优化的方式，利用乘子诱导的损失景观调度解决神经网络参数化的复杂损失函数优化问题。
-
-    
-
-    当一个神经网络参数化的损失函数由许多项组成时，在优化过程中对权重乘子的组合选择形成了一个具有挑战性的问题。为了解决这个问题，我们提出了一个概率图模型（PGM），用于联合模型参数和乘子演化过程，具有基于超体积的似然，促进每个损失项的多目标下降。相应的参数和乘子估计作为一个顺序决策过程被转化为一个最优控制问题，其中多目标下降目标被分层地分派到一系列约束优化子问题中。子问题约束根据帕累托支配自动适应并作为低层乘子控制器调度损失景观的设定点，通过每个损失项的输出反馈来运行。我们的方法是无乘子的，并且在时代尺度上运行。
-
-    arXiv:2403.13728v1 Announce Type: new  Abstract: When a neural network parameterized loss function consists of many terms, the combinatorial choice of weight multipliers during the optimization process forms a challenging problem. To address this, we proposed a probabilistic graphical model (PGM) for the joint model parameter and multiplier evolution process, with a hypervolume based likelihood that promotes multi-objective descent of each loss term. The corresponding parameter and multiplier estimation as a sequential decision process is then cast into an optimal control problem, where the multi-objective descent goal is dispatched hierarchically into a series of constraint optimization sub-problems. The sub-problem constraint automatically adapts itself according to Pareto dominance and serves as the setpoint for the low level multiplier controller to schedule loss landscapes via output feedback of each loss term. Our method is multiplier-free and operates at the timescale of epochs,
-    
-[^4]: VampPrior混合模型
-
-    The VampPrior Mixture Model
-
-    [https://arxiv.org/abs/2402.04412](https://arxiv.org/abs/2402.04412)
-
-    本论文提出了VampPrior混合模型（VMM），它是一种新颖的DLVM先验，可用于深度潜变量模型的集成和聚类，通过改善当前聚类先验的不足，并提出了一个清晰区分变分和先验参数的推理过程。使用VMM的变分自动编码器在基准数据集上取得了强大的聚类性能，将VMM与scVI相结合可以显著提高其性能，并自动将细胞分组为具有生物意义的聚类。
+    该研究调查了AI智能场景描述应用在盲人和低视力人群中的使用情况，发现用户主要用于识别已知对象的视觉特征以及避免与危险物体接触，并且用户对描述的满意度评分相对较低。
 
     
 
-    当前用于深度潜变量模型（DLVMs）的聚类先验需要预先定义聚类的数量，并且容易受到较差的初始化的影响。解决这些问题可以通过同时执行集成和聚类的方式极大地改进基于深度学习的scRNA-seq分析。我们将VampPrior（Tomczak和Welling，2018）调整为Dirichlet过程高斯混合模型，得到VampPrior混合模型（VMM），这是一种新颖的DLVM先验。我们提出了一个推理过程，交替使用变分推理和经验贝叶斯，以清楚地区分变分和先验参数。在基准数据集上使用VMM的变分自动编码器获得了极具竞争力的聚类性能。将VMM与广受欢迎的scRNA-seq集成方法scVI（Lopez等，2018）相结合，显著改善了其性能，并自动将细胞分组为具有生物意义的聚类。
+    “场景描述”应用程序可以帮助盲人和低视力人士在日常生活中理解照片中的视觉内容。研究人员已经研究了这些应用的使用情况，但他们只研究了利用远程有视力助手的应用，对于利用人工智能生成描述的应用知之甚少。因此，为了调查其使用情况，我们进行了为期两周的日记研究，在此期间，16名盲人和低视力参与者使用了我们设计的AI智能场景描述应用。通过他们的日记记录和后续访谈，用户分享了他们的信息目标以及他们收到的视觉描述的评估。我们分析了这些记录，并发现了常见的使用情况，比如识别已知对象的视觉特征，以及一些令人惊讶的情况，比如避免接触危险物体。我们还发现，用户对这些描述的满意度评分相对较低，平均为2.76（标准差=1.49），对满意度的评分为2.43（标准差=1）。
 
-    Current clustering priors for deep latent variable models (DLVMs) require defining the number of clusters a-priori and are susceptible to poor initializations. Addressing these deficiencies could greatly benefit deep learning-based scRNA-seq analysis by performing integration and clustering simultaneously. We adapt the VampPrior (Tomczak & Welling, 2018) into a Dirichlet process Gaussian mixture model, resulting in the VampPrior Mixture Model (VMM), a novel prior for DLVMs. We propose an inference procedure that alternates between variational inference and Empirical Bayes to cleanly distinguish variational and prior parameters. Using the VMM in a Variational Autoencoder attains highly competitive clustering performance on benchmark datasets. Augmenting scVI (Lopez et al., 2018), a popular scRNA-seq integration method, with the VMM significantly improves its performance and automatically arranges cells into biologically meaningful clusters.
+    arXiv:2403.15604v1 Announce Type: cross  Abstract: "Scene description" applications that describe visual content in a photo are useful daily tools for blind and low vision (BLV) people. Researchers have studied their use, but they have only explored those that leverage remote sighted assistants; little is known about applications that use AI to generate their descriptions. Thus, to investigate their use cases, we conducted a two-week diary study where 16 BLV participants used an AI-powered scene description application we designed. Through their diary entries and follow-up interviews, users shared their information goals and assessments of the visual descriptions they received. We analyzed the entries and found frequent use cases, such as identifying visual features of known objects, and surprising ones, such as avoiding contact with dangerous objects. We also found users scored the descriptions relatively low on average, 2.76 out of 5 (SD=1.49) for satisfaction and 2.43 out of 4 (SD=1
     
-[^5]: 从数据中基于光滑性先验推断超图结构
+[^3]: 一种用于基于事件的对象检测的混合SNN-ANN网络，具有空间和时间注意力机制
 
-    Hypergraph Structure Inference From Data Under Smoothness Prior. (arXiv:2308.14172v1 [cs.LG])
+    A Hybrid SNN-ANN Network for Event-based Object Detection with Spatial and Temporal Attention
 
-    [http://arxiv.org/abs/2308.14172](http://arxiv.org/abs/2308.14172)
+    [https://arxiv.org/abs/2403.10173](https://arxiv.org/abs/2403.10173)
 
-    本文提出了一种光滑性先验方法，用于从节点特征中推断超图的结构，并捕捉数据内在的关系。该方法不需要标记数据作为监督，能够推断出每个潜在超边的概率。
-
-    
-
-    超图在处理涉及多个实体的高阶关系数据中非常重要。在没有明确超图可用的情况下，希望能够从节点特征中推断出有意义的超图结构，以捕捉数据内在的关系。然而，现有的方法要么采用简单预定义的规则，不能精确捕捉潜在超图结构的分布，要么学习超图结构和节点特征之间的映射，但需要大量标记数据（即预先存在的超图结构）进行训练。这两种方法都局限于实际情景中的应用。为了填补这一空白，我们提出了一种新的光滑性先验，使我们能够设计一种方法，在没有标记数据作为监督的情况下推断出每个潜在超边的概率。所提出的先验表示超边中的节点特征与包含该超边的超边的特征高度相关。
-
-    Hypergraphs are important for processing data with higher-order relationships involving more than two entities. In scenarios where explicit hypergraphs are not readily available, it is desirable to infer a meaningful hypergraph structure from the node features to capture the intrinsic relations within the data. However, existing methods either adopt simple pre-defined rules that fail to precisely capture the distribution of the potential hypergraph structure, or learn a mapping between hypergraph structures and node features but require a large amount of labelled data, i.e., pre-existing hypergraph structures, for training. Both restrict their applications in practical scenarios. To fill this gap, we propose a novel smoothness prior that enables us to design a method to infer the probability for each potential hyperedge without labelled data as supervision. The proposed prior indicates features of nodes in a hyperedge are highly correlated by the features of the hyperedge containing th
-    
-[^6]: 解决计算机自适应测试中的选择偏差问题：一种基于用户的聚合影响函数方法
-
-    Addressing Selection Bias in Computerized Adaptive Testing: A User-Wise Aggregate Influence Function Approach. (arXiv:2308.11912v1 [cs.LG])
-
-    [http://arxiv.org/abs/2308.11912](http://arxiv.org/abs/2308.11912)
-
-    本文研究了计算机自适应测试中存在的选择偏差问题，并提出了一种基于用户的聚合影响函数方法来解决该问题。
+    提出了一种用于基于事件的对象检测的混合SNN-ANN网络，包括了新颖的基于注意力的桥接模块，能够有效捕捉稀疏的空间和时间关系，以提高任务性能。
 
     
 
-    计算机自适应测试（CAT）是一种广泛使用的高效测试模式，可以根据受试者在测试领域的熟练程度进行适应。CAT需要预先训练的项目简介，因为CAT根据已注册项目的简介实时评估学生，并使用候选项目的简介选择下一个要指导的项目。然而，获取这样的项目简介是一个昂贵的过程，涉及收集大量密集的项目响应数据，然后在收集的数据上训练诊断模型。在本文中，我们探讨了利用CAT服务中收集的响应数据的可能性。我们首先展示了这带来的独特挑战，原因是CAT引入了固有的选择偏差，即熟练程度更高的学生会收到更难的问题。实际上，当使用CAT响应数据进行简单训练诊断模型时，我们观察到项目简介与实际情况显著偏离。为了解决选择偏差问题，我们提出了基于用户的聚合影响函数方法。
+    事件相机提供高时间分辨率和动态范围，几乎没有运动模糊，非常适合对象检测任务。尖峰神经网络（SNN）与事件驱动感知数据天生匹配，在神经形态硬件上能够实现超低功耗和低延迟推断，而人工神经网络（ANN）则展示出更稳定的训练动态和更快的收敛速度，从而具有更好的任务性能。混合SNN-ANN方法是一种有前途的替代方案，能够利用SNN和ANN体系结构的优势。在这项工作中，我们引入了第一个基于混合注意力的SNN-ANN骨干网络，用于使用事件相机进行对象检测。我们提出了一种新颖的基于注意力的SNN-ANN桥接模块，从SNN层中捕捉稀疏的空间和时间关系，并将其转换为密集特征图，供骨干网络的ANN部分使用。实验结果表明，我们提出的m
 
-    Computerized Adaptive Testing (CAT) is a widely used, efficient test mode that adapts to the examinee's proficiency level in the test domain. CAT requires pre-trained item profiles, for CAT iteratively assesses the student real-time based on the registered items' profiles, and selects the next item to administer using candidate items' profiles. However, obtaining such item profiles is a costly process that involves gathering a large, dense item-response data, then training a diagnostic model on the collected data. In this paper, we explore the possibility of leveraging response data collected in the CAT service. We first show that this poses a unique challenge due to the inherent selection bias introduced by CAT, i.e., more proficient students will receive harder questions. Indeed, when naively training the diagnostic model using CAT response data, we observe that item profiles deviate significantly from the ground-truth. To tackle the selection bias issue, we propose the user-wise agg
+    arXiv:2403.10173v1 Announce Type: cross  Abstract: Event cameras offer high temporal resolution and dynamic range with minimal motion blur, making them promising for object detection tasks. While Spiking Neural Networks (SNNs) are a natural match for event-based sensory data and enable ultra-energy efficient and low latency inference on neuromorphic hardware, Artificial Neural Networks (ANNs) tend to display more stable training dynamics and faster convergence resulting in greater task performance. Hybrid SNN-ANN approaches are a promising alternative, enabling to leverage the strengths of both SNN and ANN architectures. In this work, we introduce the first Hybrid Attention-based SNN-ANN backbone for object detection using event cameras. We propose a novel Attention-based SNN-ANN bridge module to capture sparse spatial and temporal relations from the SNN layer and convert them into dense feature maps for the ANN part of the backbone. Experimental results demonstrate that our proposed m
     
-[^7]: HowkGPT: 基于上下文感知困惑度分析的 ChatGPT 生成的大学生作业检测研究
+[^4]: QUCE: 减少和量化基于路径的不确定性以生成对抗性反事实解释
 
-    HowkGPT: Investigating the Detection of ChatGPT-generated University Student Homework through Context-Aware Perplexity Analysis. (arXiv:2305.18226v2 [cs.CL] UPDATED)
+    QUCE: The Minimisation and Quantification of Path-Based Uncertainty for Generative Counterfactual Explanations
 
-    [http://arxiv.org/abs/2305.18226](http://arxiv.org/abs/2305.18226)
+    [https://arxiv.org/abs/2402.17516](https://arxiv.org/abs/2402.17516)
 
-    本研究介绍了一种基于元数据的 AI 生成的大学生作业检测方法 HowkGPT，通过计算困惑度得分来区分学生提交和 ChatGPT 生成的作业，进一步提高分析的精度，以帮助维护学术诚信和防止作弊。
-
-    
-
-    随着大型语言模型（LLM）在文本生成任务中的使用越来越普遍，人们担心它们可能会危及学术诚信。教育部门目前正在努力区分学生提交的家庭作业和AI生成的作业。本文通过引入 HowkGPT 标识由 AI 生成的作业来解决这一挑战。HowkGPT 基于一组学术作业和相应元数据构建，并使用预训练的 LLM 计算学生提交和 ChatGPT 生成的回答的困惑度得分。然后，这些得分有助于建立区分提交作业来源的阈值。鉴于学术工作的特殊性和上下文性质，HowkGPT 还通过定义从元数据中导出的类别特定的阈值来进一步提高分析的精度。本研究强调了在 LLM 文本生成时期维护学术诚信和防止作弊的有效策略的关键性需求。
-
-    As the use of Large Language Models (LLMs) in text generation tasks proliferates, concerns arise over their potential to compromise academic integrity. The education sector currently tussles with distinguishing student-authored homework assignments from AI-generated ones. This paper addresses the challenge by introducing HowkGPT, designed to identify homework assignments generated by AI. HowkGPT is built upon a dataset of academic assignments and accompanying metadata [17] and employs a pretrained LLM to compute perplexity scores for student-authored and ChatGPT-generated responses. These scores then assist in establishing a threshold for discerning the origin of a submitted assignment. Given the specificity and contextual nature of academic work, HowkGPT further refines its analysis by defining category-specific thresholds derived from the metadata, enhancing the precision of the detection. This study emphasizes the critical need for effective strategies to uphold academic integrity a
-    
-[^8]: SketchOGD：内存高效的持续学习
-
-    SketchOGD: Memory-Efficient Continual Learning. (arXiv:2305.16424v1 [cs.LG])
-
-    [http://arxiv.org/abs/2305.16424](http://arxiv.org/abs/2305.16424)
-
-    SketchOGD提出了一种内存高效的解决灾难性遗忘的方法，通过采用在线草图算法，将模型梯度压缩为固定大小的矩阵，从而改进了现有的算法——正交梯度下降（OGD）。
+    QUCE方法旨在通过减少路径不确定性来量化和缓解基于路径的不确定性，从而改善对抗性反事实解释的表现。
 
     
 
-    当机器学习模型在一系列任务上持续训练时，它们容易忘记先前任务上学习到的知识，这种现象称为灾难性遗忘。现有的解决灾难性遗忘的方法往往涉及存储过去任务的信息，这意味着内存使用是确定实用性的主要因素。本文提出了一种内存高效的解决灾难性遗忘的方法，改进了一种已有的算法——正交梯度下降（OGD）。OGD利用先前模型梯度来找到维持先前数据点性能的权重更新。然而，由于存储先前模型梯度的内存成本随算法运行时间增长而增加，因此OGD不适用于任意长时间跨度的连续学习。针对这个问题，本文提出了SketchOGD。SketchOGD采用在线草图算法，将模型梯度压缩为固定大小的矩阵。
+    arXiv:2402.17516v1 公告类型：跨学科 深度神经网络（DNNs）作为机器学习领域最突出的方法之一。DNNs的有效性随着最近计算能力的增加而激增，使得这些方法能够扩展到处理大数据中的重要复杂性以应对预测挑战。然而，随着DNN模型复杂性的提高，可解释性降低。针对这一挑战，诸如对抗梯度整合（AGI）这样的可解释模型利用DNN提供的基于路径的梯度来阐明它们的决策。然而，当梯度在越界路径遍历期间表现出不规则性时，基于路径的解释器的性能可能会受到损害。在这种情况下，我们介绍了Quantified Uncertainty Counterfactual Explanations（QUCE），这是一种旨在减少路径不确定性的方法，以缓解越界遍历。 QUCE不仅在提出解释时量化不确定性
 
-    When machine learning models are trained continually on a sequence of tasks, they are liable to forget what they learned on previous tasks -- a phenomenon known as catastrophic forgetting. Proposed solutions to catastrophic forgetting tend to involve storing information about past tasks, meaning that memory usage is a chief consideration in determining their practicality. This paper proposes a memory-efficient solution to catastrophic forgetting, improving upon an established algorithm known as orthogonal gradient descent (OGD). OGD utilizes prior model gradients to find weight updates that preserve performance on prior datapoints. However, since the memory cost of storing prior model gradients grows with the runtime of the algorithm, OGD is ill-suited to continual learning over arbitrarily long time horizons. To address this problem, this paper proposes SketchOGD. SketchOGD employs an online sketching algorithm to compress model gradients as they are encountered into a matrix of a fix
+    arXiv:2402.17516v1 Announce Type: cross  Abstract: Deep Neural Networks (DNNs) stand out as one of the most prominent approaches within the Machine Learning (ML) domain. The efficacy of DNNs has surged alongside recent increases in computational capacity, allowing these approaches to scale to significant complexities for addressing predictive challenges in big data. However, as the complexity of DNN models rises, interpretability diminishes. In response to this challenge, explainable models such as Adversarial Gradient Integration (AGI) leverage path-based gradients provided by DNNs to elucidate their decisions. Yet the performance of path-based explainers can be compromised when gradients exhibit irregularities during out-of-distribution path traversal. In this context, we introduce Quantified Uncertainty Counterfactual Explanations (QUCE), a method designed to mitigate out-of-distribution traversal by minimizing path uncertainty. QUCE not only quantifies uncertainty when presenting e
+    
+[^5]: 在具有配对次模模函数的分布式大于内存的子集选择问题研究
+
+    On Distributed Larger-Than-Memory Subset Selection With Pairwise Submodular Functions
+
+    [https://arxiv.org/abs/2402.16442](https://arxiv.org/abs/2402.16442)
+
+    本文提出了一种新颖的分布式约束算法，通过迭代绑定最小和最大效用值来选择高质量的点并丢弃不重要的点。
+
+    
+
+    许多学习问题取决于子集选择的基本问题，即确定一组重要和代表性的点。本文提出了一种具有可证估计近似保证的新颖分布式约束算法，它通过迭代绑定最小和最大效用值来选择高质量的点并丢弃不重要的点。
+
+    arXiv:2402.16442v1 Announce Type: cross  Abstract: Many learning problems hinge on the fundamental problem of subset selection, i.e., identifying a subset of important and representative points. For example, selecting the most significant samples in ML training cannot only reduce training costs but also enhance model quality. Submodularity, a discrete analogue of convexity, is commonly used for solving subset selection problems. However, existing algorithms for optimizing submodular functions are sequential, and the prior distributed methods require at least one central machine to fit the target subset. In this paper, we relax the requirement of having a central machine for the target subset by proposing a novel distributed bounding algorithm with provable approximation guarantees. The algorithm iteratively bounds the minimum and maximum utility values to select high quality points and discard the unimportant ones. When bounding does not find the complete subset, we use a multi-round, 
+    
+[^6]: 互动式知识库问答：基于大型语言模型的多轮交互式知识库问答
+
+    Interactive-KBQA: Multi-Turn Interactions for Knowledge Base Question Answering with Large Language Models
+
+    [https://arxiv.org/abs/2402.15131](https://arxiv.org/abs/2402.15131)
+
+    提出了一种互动式KBQA框架，通过直接与知识库互动生成逻辑形式，开发了用于KB交互的通用API，并设计了示例来指导大型语言模型进行推理。
+
+    
+
+    本研究探讨了知识库问答（KBQA）的领域。KBQA被认为是一项具有挑战性的任务，特别是在将复杂问题解析为可执行逻辑形式方面。传统的基于语义解析（SP）的方法需要大量的数据注释，这导致了显著的成本。最近，由大型语言模型（LLM）推动的少样本上下文学习的出现展示了很好的能力。然而，在低资源情景下充分利用LLMs将问题解析为逻辑形式是一个重大挑战。为了应对这些障碍，我们引入了互动式知识库问答（Interactive-KBQA），这是一个旨在通过与知识库（KBs）直接互动来生成逻辑形式的框架。在这个框架内，我们开发了三个用于KB交互的通用API。对于每种复杂问题类别，我们设计了示例来指导LLMs完成推理过程。我们的方法取得了具有竞争力的结果。
+
+    arXiv:2402.15131v1 Announce Type: cross  Abstract: This study explores the realm of knowledge-base question answering (KBQA). KBQA is considered a challenging task, particularly in parsing intricate questions into executable logical forms. Traditional semantic parsing (SP)-based methods require extensive data annotations, which result in significant costs. Recently, the advent of few-shot in-context learning, powered by large language models (LLMs), has showcased promising capabilities. Yet, fully leveraging LLMs to parse questions into logical forms in low-resource scenarios poses a substantial challenge. To tackle these hurdles, we introduce Interactive-KBQA, a framework designed to generate logical forms through direct interaction with knowledge bases (KBs). Within this framework, we have developed three generic APIs for KB interaction. For each category of complex question, we devised exemplars to guide LLMs through the reasoning processes. Our method achieves competitive results o
+    
+[^7]: 揭示隐藏的联系：用于视频对话的迭代跟踪和推理
+
+    Uncovering Hidden Connections: Iterative Tracking and Reasoning for Video-grounded Dialog. (arXiv:2310.07259v1 [cs.CV])
+
+    [http://arxiv.org/abs/2310.07259](http://arxiv.org/abs/2310.07259)
+
+    本文提出了一种迭代跟踪和推理策略，结合文本编码器和视觉编码器以生成准确的响应，解决了视频对话中逐步理解对话历史和吸收视频信息的挑战。
+
+    
+
+    与传统的视觉问答相比，视频对话需要对对话历史和视频内容进行深入理解，以生成准确的响应。尽管现有的方法取得了令人称赞的进展，但它们常常面临逐步理解复杂的对话历史和吸收视频信息的挑战。为了弥补这一差距，我们提出了一种迭代跟踪和推理策略，将文本编码器、视觉编码器和生成器相结合。我们的文本编码器以路径跟踪和聚合机制为核心，能够从对话历史中获取重要的细微差别，以解释所提出的问题。同时，我们的视觉编码器利用迭代推理网络，精心设计以从视频中提取和强调关键视觉标记，增强对视觉理解的深度。最后，我们使用预训练的GPT-模型将这些丰富的信息综合起来。
+
+    In contrast to conventional visual question answering, video-grounded dialog necessitates a profound understanding of both dialog history and video content for accurate response generation. Despite commendable strides made by existing methodologies, they often grapple with the challenges of incrementally understanding intricate dialog histories and assimilating video information. In response to this gap, we present an iterative tracking and reasoning strategy that amalgamates a textual encoder, a visual encoder, and a generator. At its core, our textual encoder is fortified with a path tracking and aggregation mechanism, adept at gleaning nuances from dialog history that are pivotal to deciphering the posed questions. Concurrently, our visual encoder harnesses an iterative reasoning network, meticulously crafted to distill and emphasize critical visual markers from videos, enhancing the depth of visual comprehension. Culminating this enriched information, we employ the pre-trained GPT-
+    
+[^8]: 大型语言模型中的人格特质
+
+    Personality Traits in Large Language Models. (arXiv:2307.00184v1 [cs.CL])
+
+    [http://arxiv.org/abs/2307.00184](http://arxiv.org/abs/2307.00184)
+
+    该研究介绍了一种综合方法，用于验证大型语言模型（LLMs）生成的文本中展示的人格特质。研究发现，部分LLMs在特定提示配置下模拟的人格可靠且有效，特别是对于更大和经过指导微调的模型。此外，LLMs的输出中的人格特质可以根据需要进行塑造。
+
+    
+
+    大型语言模型（LLMs）的出现彻底改变了自然语言处理，使得能够生成连贯且上下文相关的文本。随着LLMs越来越多地用于驱动对话代理，这些模型通过训练大量人工生成的数据获得的人格特质引起了人们的关注。由于人格是决定交流效果的重要因素，我们提出了一种全面的方法来进行验证的心理测量测试，并对从广泛使用的LLMs生成的文本中展示的人格特质进行量化、分析和塑造。我们发现：1）某些LLMs的输出中模拟的人格（在特定的提示配置下）是可靠和有效的；2）LLM模拟的人格的可靠性和有效性的证据对于更大的和经过指导微调的模型更强；3）LLM输出中的人格可以根据需要的维度进行塑造，以模仿特定的人格特点。
+
+    The advent of large language models (LLMs) has revolutionized natural language processing, enabling the generation of coherent and contextually relevant text. As LLMs increasingly power conversational agents, the synthesized personality embedded in these models by virtue of their training on large amounts of human-generated data draws attention. Since personality is an important factor determining the effectiveness of communication, we present a comprehensive method for administering validated psychometric tests and quantifying, analyzing, and shaping personality traits exhibited in text generated from widely-used LLMs. We find that: 1) personality simulated in the outputs of some LLMs (under specific prompting configurations) is reliable and valid; 2) evidence of reliability and validity of LLM-simulated personality is stronger for larger and instruction fine-tuned models; and 3) personality in LLM outputs can be shaped along desired dimensions to mimic specific personality profiles. 
+    
+[^9]: 基于本地全局蒸馏的异构数据联邦虚拟学习
+
+    Federated Virtual Learning on Heterogeneous Data with Local-global Distillation. (arXiv:2303.02278v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2303.02278](http://arxiv.org/abs/2303.02278)
+
+    该论文提出了一种名为FedLGD的新方法，通过本地和全局数据集的蒸馏组合来创建一个更小的合成数据集，以解决联邦学习中处理异构数据时的性能问题，同时使用迭代分布匹配来处理同步和类别不平衡问题。
+
+    
+
+    虽然联邦学习已成为分布式学习机器学习模型的趋势，但在处理异构数据时，其性能容易出现下降。此外，联邦学习不可避免地面临同步、效率和隐私等挑战。近来，数据集蒸馏已被研究，以通过创建一个保留本地私有数据集训练模型性能的较小的合成数据集来提高FL的效率和可扩展性。同时，我们也发现使用蒸馏的本地数据集会放大联邦学习中的异构性问题。为了解决这个问题，我们提出了一种新的方法，称为基于本地全局蒸馏的异构数据联邦虚拟学习（FedLGD），该方法使用一个较小的合成数据集（称为虚拟数据），该数据集是通过本地和全局数据集蒸馏的组合创建的。具体来说，为了处理同步和类别不平衡问题，我们提出了迭代分布匹配，允许客户端从全局模型中获取知识并通过模型反馈来共同学习。
+
+    Despite Federated Learning (FL)'s trend for learning machine learning models in a distributed manner, it is susceptible to performance drops when training on heterogeneous data. In addition, FL inevitability faces the challenges of synchronization, efficiency, and privacy. Recently, dataset distillation has been explored in order to improve the efficiency and scalability of FL by creating a smaller, synthetic dataset that retains the performance of a model trained on the local private datasets. We discover that using distilled local datasets can amplify the heterogeneity issue in FL. To address this, we propose a new method, called Federated Virtual Learning on Heterogeneous Data with Local-Global Distillation (FedLGD), which trains FL using a smaller synthetic dataset (referred as virtual data) created through a combination of local and global dataset distillation. Specifically, to handle synchronization and class imbalance, we propose iterative distribution matching to allow clients 
+    
+[^10]: 从大数据角度看企业财务风险分析的综述研究
+
+    A Comprehensive Survey on Enterprise Financial Risk Analysis from Big Data Perspective. (arXiv:2211.14997v3 [q-fin.RM] UPDATED)
+
+    [http://arxiv.org/abs/2211.14997](http://arxiv.org/abs/2211.14997)
+
+    本文从大数据角度综述了企业财务风险分析的研究现状，回顾了250多篇代表性文章。
+
+    
+
+    企业财务风险分析旨在预测企业未来的财务风险。由于其广泛而重要的应用，企业财务风险分析一直是金融和管理领域的核心研究主题。基于先进的计算机科学和人工智能技术，企业风险分析研究正在经历快速发展并取得重要进展。因此，全面评估相关研究既有必要性又具挑战性。虽然已经存在一些有价值和令人印象深刻的关于企业风险分析的综述，但这些综述单独介绍了方法，缺乏企业财务风险分析的最新进展。相反，本文尝试从大数据的角度提供企业风险分析方法的系统文献综述，回顾了超过250篇代表性文章。
+
+    Enterprise financial risk analysis aims at predicting the future financial risk of enterprises. Due to its wide and significant application, enterprise financial risk analysis has always been the core research topic in the fields of Finance and Management. Based on advanced computer science and artificial intelligence technologies, enterprise risk analysis research is experiencing rapid developments and making significant progress. Therefore, it is both necessary and challenging to comprehensively review the relevant studies. Although there are already some valuable and impressive surveys on enterprise risk analysis from the perspective of Finance and Management, these surveys introduce approaches in a relatively isolated way and lack recent advances in enterprise financial risk analysis. In contrast, this paper attempts to provide a systematic literature survey of enterprise risk analysis approaches from Big Data perspective, which reviews more than 250 representative articles in the 
     
 
