@@ -2,52 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Interactive-KBQA: Multi-Turn Interactions for Knowledge Base Question Answering with Large Language Models](https://arxiv.org/abs/2402.15131) | 提出了一种互动式KBQA框架，通过直接与知识库互动生成逻辑形式，开发了用于KB交互的通用API，并设计了示例来指导大型语言模型进行推理。 |
-| [^2] | [LLM-SQL-Solver: Can LLMs Determine SQL Equivalence?.](http://arxiv.org/abs/2312.10321) | 本研究探讨了LLM是否能够确定两个SQL查询的等价关系，并提出了两种提示技术来帮助LLM生成高质量的响应。 |
-| [^3] | [Personality Traits in Large Language Models.](http://arxiv.org/abs/2307.00184) | 该研究介绍了一种综合方法，用于验证大型语言模型（LLMs）生成的文本中展示的人格特质。研究发现，部分LLMs在特定提示配置下模拟的人格可靠且有效，特别是对于更大和经过指导微调的模型。此外，LLMs的输出中的人格特质可以根据需要进行塑造。 |
+| [^1] | [Subobject-level Image Tokenization](https://arxiv.org/abs/2402.14327) | 提出一种在子对象级别进行图像标记的方法，通过序列自编码器将子对象段压缩为紧凑的嵌入向量，实现了有效地将图像转换为对象和属性描述的学习。 |
+| [^2] | [Punctuation Restoration Improves Structure Understanding without Supervision](https://arxiv.org/abs/2402.08382) | 标点符号恢复是一个有效的学习目标，可以改善结构理解并提高模型性能。 |
+| [^3] | [Helping the Helper: Supporting Peer Counselors via AI-Empowered Practice and Feedback.](http://arxiv.org/abs/2305.08982) | 本论文介绍了一个基于AI的交互式工具CARE，用于支持同侪辅导员通过自动建议生成来提高他们的能力。利用 Motivational Interviewing 框架，CARE 在实际培训阶段帮助辅导员诊断哪种具体的辅导策略最合适，并提供个性化的响应示例作为建议。 |
 
 # 详细
 
-[^1]: 互动式知识库问答：基于大型语言模型的多轮交互式知识库问答
+[^1]: 子对象级图像标记化
 
-    Interactive-KBQA: Multi-Turn Interactions for Knowledge Base Question Answering with Large Language Models
+    Subobject-level Image Tokenization
 
-    [https://arxiv.org/abs/2402.15131](https://arxiv.org/abs/2402.15131)
+    [https://arxiv.org/abs/2402.14327](https://arxiv.org/abs/2402.14327)
 
-    提出了一种互动式KBQA框架，通过直接与知识库互动生成逻辑形式，开发了用于KB交互的通用API，并设计了示例来指导大型语言模型进行推理。
-
-    
-
-    本研究探讨了知识库问答（KBQA）的领域。KBQA被认为是一项具有挑战性的任务，特别是在将复杂问题解析为可执行逻辑形式方面。传统的基于语义解析（SP）的方法需要大量的数据注释，这导致了显著的成本。最近，由大型语言模型（LLM）推动的少样本上下文学习的出现展示了很好的能力。然而，在低资源情景下充分利用LLMs将问题解析为逻辑形式是一个重大挑战。为了应对这些障碍，我们引入了互动式知识库问答（Interactive-KBQA），这是一个旨在通过与知识库（KBs）直接互动来生成逻辑形式的框架。在这个框架内，我们开发了三个用于KB交互的通用API。对于每种复杂问题类别，我们设计了示例来指导LLMs完成推理过程。我们的方法取得了具有竞争力的结果。
-
-    arXiv:2402.15131v1 Announce Type: cross  Abstract: This study explores the realm of knowledge-base question answering (KBQA). KBQA is considered a challenging task, particularly in parsing intricate questions into executable logical forms. Traditional semantic parsing (SP)-based methods require extensive data annotations, which result in significant costs. Recently, the advent of few-shot in-context learning, powered by large language models (LLMs), has showcased promising capabilities. Yet, fully leveraging LLMs to parse questions into logical forms in low-resource scenarios poses a substantial challenge. To tackle these hurdles, we introduce Interactive-KBQA, a framework designed to generate logical forms through direct interaction with knowledge bases (KBs). Within this framework, we have developed three generic APIs for KB interaction. For each category of complex question, we devised exemplars to guide LLMs through the reasoning processes. Our method achieves competitive results o
-    
-[^2]: LLM-SQL-Solver: LLM能够确定SQL等价关系吗？
-
-    LLM-SQL-Solver: Can LLMs Determine SQL Equivalence?. (arXiv:2312.10321v2 [cs.DB] UPDATED)
-
-    [http://arxiv.org/abs/2312.10321](http://arxiv.org/abs/2312.10321)
-
-    本研究探讨了LLM是否能够确定两个SQL查询的等价关系，并提出了两种提示技术来帮助LLM生成高质量的响应。
+    提出一种在子对象级别进行图像标记的方法，通过序列自编码器将子对象段压缩为紧凑的嵌入向量，实现了有效地将图像转换为对象和属性描述的学习。
 
     
 
-    判断两个SQL查询之间的等价关系是数据管理和SQL生成中的一个基本问题，具有许多实际应用（即，在文本到SQL任务中评估生成的SQL查询的质量）。虽然研究界多年来一直在考虑SQL的等价性，但它存在相当大的困难，并且没有完整的解决方案。最近，大型语言模型（LLMs）在对话、问答和解决数学问题方面展现出强大的推理能力。在本文中，我们研究了LLMs是否可以用于确定两个SQL查询的等价性（语义等价和宽松等价）。为了帮助LLMs生成高质量的响应，我们提出了两种提示技术：Miniature & Mull和Explain & Compare。前一种技术被用于评估语义等价性，它要求LLMs在简单的数据库实例上执行查询，然后探索是否存在反例。
+    基于Transformer的视觉模型通常将图像标记为固定大小的方形补丁作为输入单元，这种方法缺乏对图像内容的适应性，并忽略了固有的像素分组结构。受语言模型广泛采用的子词标记化启发，我们提出了一种在子对象级别进行图像标记的方法，其中子对象由通过分割模型（例如，分割任何模型）获得的具有语义意义的图像段表示。为了实现基于子对象标记化的学习系统，我们首先引入了一个序列自编码器（SeqAE），将不同大小和形状的子对象段压缩为紧凑的嵌入向量，然后将子对象嵌入馈送到大型语言模型进行视觉语言学习。实证结果表明，我们的子对象级别标记化显著促进了有效地将图像转换为对象和属性描述的学习。
 
-    Judging the equivalence between two SQL queries is a fundamental problem with many practical applications in data management and SQL generation (i.e., evaluating the quality of generated SQL queries in text-to-SQL task). While the research community has reasoned about SQL equivalence for decades, it poses considerable difficulties and no complete solutions exist. Recently, Large Language Models (LLMs) have shown strong reasoning capability in conversation, question answering and solving mathematics challenges. In this paper, we study if LLMs can be used to determine the equivalence between SQL queries under two notions of SQL equivalence (semantic equivalence and relaxed equivalence). To assist LLMs in generating high quality responses, we present two prompting techniques: Miniature & Mull and Explain & Compare. The former technique is used to evaluate the semantic equivalence in which it asks LLMs to execute a query on a simple database instance and then explore if a counterexample ex
+    arXiv:2402.14327v1 Announce Type: cross  Abstract: Transformer-based vision models typically tokenize images into fixed-size square patches as input units, which lacks the adaptability to image content and overlooks the inherent pixel grouping structure. Inspired by the subword tokenization widely adopted in language models, we propose an image tokenizer at a subobject level, where the subobjects are represented by semantically meaningful image segments obtained by segmentation models (e.g., segment anything models). To implement a learning system based on subobject tokenization, we first introduced a Sequence-to-sequence AutoEncoder (SeqAE) to compress subobject segments of varying sizes and shapes into compact embedding vectors, then fed the subobject embeddings into a large language model for vision language learning. Empirical results demonstrated that our subobject-level tokenization significantly facilitates efficient learning of translating images into object and attribute descr
     
-[^3]: 大型语言模型中的人格特质
+[^2]: 标点符号恢复在没有监督的情况下改善结构理解
 
-    Personality Traits in Large Language Models. (arXiv:2307.00184v1 [cs.CL])
+    Punctuation Restoration Improves Structure Understanding without Supervision
 
-    [http://arxiv.org/abs/2307.00184](http://arxiv.org/abs/2307.00184)
+    [https://arxiv.org/abs/2402.08382](https://arxiv.org/abs/2402.08382)
 
-    该研究介绍了一种综合方法，用于验证大型语言模型（LLMs）生成的文本中展示的人格特质。研究发现，部分LLMs在特定提示配置下模拟的人格可靠且有效，特别是对于更大和经过指导微调的模型。此外，LLMs的输出中的人格特质可以根据需要进行塑造。
+    标点符号恢复是一个有效的学习目标，可以改善结构理解并提高模型性能。
 
     
 
-    大型语言模型（LLMs）的出现彻底改变了自然语言处理，使得能够生成连贯且上下文相关的文本。随着LLMs越来越多地用于驱动对话代理，这些模型通过训练大量人工生成的数据获得的人格特质引起了人们的关注。由于人格是决定交流效果的重要因素，我们提出了一种全面的方法来进行验证的心理测量测试，并对从广泛使用的LLMs生成的文本中展示的人格特质进行量化、分析和塑造。我们发现：1）某些LLMs的输出中模拟的人格（在特定的提示配置下）是可靠和有效的；2）LLM模拟的人格的可靠性和有效性的证据对于更大的和经过指导微调的模型更强；3）LLM输出中的人格可以根据需要的维度进行塑造，以模仿特定的人格特点。
+    无监督学习目标，如语言建模和去噪等，在生成预训练模型方面起着重要作用，这些预训练模型能够执行从自然语言理解到会话任务的各种下游应用。然而，尽管最近的大型语言模型具有令人印象深刻的对话能力，但它们在捕捉文本的句法或语义结构方面的能力仍然落后。我们假设，语言性能和机器能力之间的不匹配归因于当前流行的预训练目标未能充分传递语言结构知识给计算系统。我们展示了标点符号恢复对结构相关任务的内部和外部表现的改善，如命名实体识别、开放式信息提取、分块和词性标注。标点符号恢复是一个有效的学习目标，可以改善结构理解并产生更加鲁棒的模型。
 
-    The advent of large language models (LLMs) has revolutionized natural language processing, enabling the generation of coherent and contextually relevant text. As LLMs increasingly power conversational agents, the synthesized personality embedded in these models by virtue of their training on large amounts of human-generated data draws attention. Since personality is an important factor determining the effectiveness of communication, we present a comprehensive method for administering validated psychometric tests and quantifying, analyzing, and shaping personality traits exhibited in text generated from widely-used LLMs. We find that: 1) personality simulated in the outputs of some LLMs (under specific prompting configurations) is reliable and valid; 2) evidence of reliability and validity of LLM-simulated personality is stronger for larger and instruction fine-tuned models; and 3) personality in LLM outputs can be shaped along desired dimensions to mimic specific personality profiles. 
+    Unsupervised learning objectives like language modeling and de-noising constitute a significant part in producing pre-trained models that perform various downstream applications from natural language understanding to conversational tasks. However, despite impressive conversational capabilities of recent large language model, their abilities to capture syntactic or semantic structure within text lag behind. We hypothesize that the mismatch between linguistic performance and competence in machines is attributable to insufficient transfer of linguistic structure knowledge to computational systems with currently popular pre-training objectives. We show that punctuation restoration transfers to improvements in in- and out-of-distribution performance on structure-related tasks like named entity recognition, open information extraction, chunking, and part-of-speech tagging. Punctuation restoration is an effective learning objective that can improve structure understanding and yield a more rob
+    
+[^3]: 帮助帮助者：通过 AI 强化实践和反馈来支持同侪辅导员。
+
+    Helping the Helper: Supporting Peer Counselors via AI-Empowered Practice and Feedback. (arXiv:2305.08982v1 [cs.HC])
+
+    [http://arxiv.org/abs/2305.08982](http://arxiv.org/abs/2305.08982)
+
+    本论文介绍了一个基于AI的交互式工具CARE，用于支持同侪辅导员通过自动建议生成来提高他们的能力。利用 Motivational Interviewing 框架，CARE 在实际培训阶段帮助辅导员诊断哪种具体的辅导策略最合适，并提供个性化的响应示例作为建议。
+
+    
+
+    数百万用户来到在线同侪辅导平台寻求关于从关系压力到焦虑等多种主题的支持。然而，研究表明，在线同侪支持群体并不总是像预期的那样有效，这主要是由于用户与无用的辅导员产生了负面体验。同侪辅导员是在线同侪辅导平台成功的关键，但他们中的大多数通常没有系统地接收指导或监督的方式。在这项工作中，我们介绍 CARE：一个交互式的基于 AI 的工具，通过自动建议生成增强同侪辅导员的能力。在实际培训阶段，CARE 帮助诊断在给定情境下哪些具体的辅导策略最合适，并提供量身定制的示例响应作为建议。辅导员可以选择在回复求助者之前选择、修改或忽略任何建议。
+
+    Millions of users come to online peer counseling platforms to seek support on diverse topics ranging from relationship stress to anxiety. However, studies show that online peer support groups are not always as effective as expected largely due to users' negative experiences with unhelpful counselors. Peer counselors are key to the success of online peer counseling platforms, but most of them often do not have systematic ways to receive guidelines or supervision. In this work, we introduce CARE: an interactive AI-based tool to empower peer counselors through automatic suggestion generation. During the practical training stage, CARE helps diagnose which specific counseling strategies are most suitable in the given context and provides tailored example responses as suggestions. Counselors can choose to select, modify, or ignore any suggestion before replying to the support seeker. Building upon the Motivational Interviewing framework, CARE utilizes large-scale counseling conversation data
     
 
