@@ -2,52 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Stable matching as transportation](https://arxiv.org/abs/2402.13378) | 通过最优运输理论，研究了具有一致偏好的匹配市场的稳定性、效率和公平等设计目标，揭示了匹配结构特性和不同目标之间的权衡关系。 |
-| [^2] | [Behavioral Machine Learning? Computer Predictions of Corporate Earnings also Overreact.](http://arxiv.org/abs/2303.16158) | 本文研究发现，机器学习算法可以更准确地预测公司盈利，但同样存在过度反应的问题，而传统培训的股市分析师和经过机器学习方法培训的分析师相比会产生较少的过度反应。 |
-| [^3] | [Interdisciplinary Papers Supported by Disciplinary Grants Garner Deep and Broad Scientific Impact.](http://arxiv.org/abs/2303.14732) | 本研究使用测量框架，发现跨学科基金支持的跨学科论文与高影响力相关，但相较于学科基金，跨学科基金产生的支持论文更少且影响力下降。 |
+| [^1] | [Debiased Machine Learning when Nuisance Parameters Appear in Indicator Functions](https://arxiv.org/abs/2403.15934) | 本文提出了平滑指示函数的方法，并为这类模型开发了渐近分布理论，展现了偏差和方差之间的折衷关系，并研究了如何选择最优的平滑程度参数。 |
+| [^2] | [Sequential Kernel Embedding for Mediated and Time-Varying Dose Response Curves.](http://arxiv.org/abs/2111.03950) | 本论文提出了一种基于核岭回归的简单非参数估计方法，可以用于估计介导和时变剂量响应曲线。通过引入序贯核嵌入技术，我们实现了对复杂因果估计的简化。通过模拟实验和真实数据的估计结果，证明了该方法的强大性能和普适性。 |
 
 # 详细
 
-[^1]: 稳定匹配作为运输问题
+[^1]: 当指示函数中出现干扰参数时的去偏机器学习
 
-    Stable matching as transportation
+    Debiased Machine Learning when Nuisance Parameters Appear in Indicator Functions
 
-    [https://arxiv.org/abs/2402.13378](https://arxiv.org/abs/2402.13378)
+    [https://arxiv.org/abs/2403.15934](https://arxiv.org/abs/2403.15934)
 
-    通过最优运输理论，研究了具有一致偏好的匹配市场的稳定性、效率和公平等设计目标，揭示了匹配结构特性和不同目标之间的权衡关系。
-
-    
-
-    我们研究了具有一致偏好的匹配市场，并建立了稳定性、效率和公平等共同设计目标与最优运输理论之间的联系。最优运输为追求这些目标获得的匹配的结构特性提供了新的见解，以及不同目标之间的权衡。具有一致偏好的匹配市场提供了一个易处理的简化模型，捕捉了在各种情境中的供需不平衡，比如伙伴关系形成、学校选择、器官捐赠交换，以及在匹配形成后进行转移谈判的可转让效用市场。
-
-    arXiv:2402.13378v1 Announce Type: new  Abstract: We study matching markets with aligned preferences and establish a connection between common design objectives -- stability, efficiency, and fairness -- and the theory of optimal transport. Optimal transport gives new insights into the structural properties of matchings obtained from pursuing these objectives, and into the trade-offs between different objectives. Matching markets with aligned preferences provide a tractable stylized model capturing supply-demand imbalances in a range of settings such as partnership formation, school choice, organ donor exchange, and markets with transferable utility where bargaining over transfers happens after a match is formed.
-    
-[^2]: 机器学习准确预测财报，但同样存在过度反应
-
-    Behavioral Machine Learning? Computer Predictions of Corporate Earnings also Overreact. (arXiv:2303.16158v1 [q-fin.ST])
-
-    [http://arxiv.org/abs/2303.16158](http://arxiv.org/abs/2303.16158)
-
-    本文研究发现，机器学习算法可以更准确地预测公司盈利，但同样存在过度反应的问题，而传统培训的股市分析师和经过机器学习方法培训的分析师相比会产生较少的过度反应。
+    本文提出了平滑指示函数的方法，并为这类模型开发了渐近分布理论，展现了偏差和方差之间的折衷关系，并研究了如何选择最优的平滑程度参数。
 
     
 
-    大量证据表明，在金融领域中，机器学习算法的预测能力比人类更为准确。但是，文献并未测试算法预测是否更为理性。本文研究了几个算法（包括线性回归和一种名为Gradient Boosted Regression Trees的流行算法）对于公司盈利的预测结果。结果发现，GBRT平均胜过线性回归和人类股市分析师，但仍存在过度反应且无法满足理性预期标准。通过降低学习率，可最小程度上减少过度反应程度，但这会牺牲预测准确性。通过机器学习方法培训过的股市分析师比传统训练的分析师产生的过度反应较少。此外，股市分析师的预测反映出机器算法没有捕捉到的信息。
+    本文研究了当指示函数中出现干扰参数时的去偏机器学习。一个重要的例子是在最优治疗分配规则下最大化平均福利。为了对感兴趣的参数进行渐近有效推断，当前有关去偏机器学习的文献依赖于矩条件内部函数的Gateaux可微性，当指示函数中出现干扰参数时，这种可微性不成立。本文提出了平滑指示函数的方法，并为这类模型开发了渐近分布理论。所提估计量的渐近行为表现出由于平滑而产生的偏差和方差之间的折衷。我们研究了如何选择控制平滑程度的参数以最小化渐近均方误差的上限。蒙特卡洛模拟支持了渐近分布理论，并且实证结果
 
-    There is considerable evidence that machine learning algorithms have better predictive abilities than humans in various financial settings. But, the literature has not tested whether these algorithmic predictions are more rational than human predictions. We study the predictions of corporate earnings from several algorithms, notably linear regressions and a popular algorithm called Gradient Boosted Regression Trees (GBRT). On average, GBRT outperformed both linear regressions and human stock analysts, but it still overreacted to news and did not satisfy rational expectation as normally defined. By reducing the learning rate, the magnitude of overreaction can be minimized, but it comes with the cost of poorer out-of-sample prediction accuracy. Human stock analysts who have been trained in machine learning methods overreact less than traditionally trained analysts. Additionally, stock analyst predictions reflect information not otherwise available to machine algorithms.
+    arXiv:2403.15934v1 Announce Type: new  Abstract: This paper studies debiased machine learning when nuisance parameters appear in indicator functions. An important example is maximized average welfare under optimal treatment assignment rules. For asymptotically valid inference for a parameter of interest, the current literature on debiased machine learning relies on Gateaux differentiability of the functions inside moment conditions, which does not hold when nuisance parameters appear in indicator functions. In this paper, we propose smoothing the indicator functions, and develop an asymptotic distribution theory for this class of models. The asymptotic behavior of the proposed estimator exhibits a trade-off between bias and variance due to smoothing. We study how a parameter which controls the degree of smoothing can be chosen optimally to minimize an upper bound of the asymptotic mean squared error. A Monte Carlo simulation supports the asymptotic distribution theory, and an empirical
     
-[^3]: 学科基金支持的跨学科论文具有深远的科学影响力
+[^2]: 序贯核嵌入用于介导和时变剂量响应曲线
 
-    Interdisciplinary Papers Supported by Disciplinary Grants Garner Deep and Broad Scientific Impact. (arXiv:2303.14732v1 [cs.DL])
+    Sequential Kernel Embedding for Mediated and Time-Varying Dose Response Curves. (arXiv:2111.03950v4 [stat.ME] UPDATED)
 
-    [http://arxiv.org/abs/2303.14732](http://arxiv.org/abs/2303.14732)
+    [http://arxiv.org/abs/2111.03950](http://arxiv.org/abs/2111.03950)
 
-    本研究使用测量框架，发现跨学科基金支持的跨学科论文与高影响力相关，但相较于学科基金，跨学科基金产生的支持论文更少且影响力下降。
+    本论文提出了一种基于核岭回归的简单非参数估计方法，可以用于估计介导和时变剂量响应曲线。通过引入序贯核嵌入技术，我们实现了对复杂因果估计的简化。通过模拟实验和真实数据的估计结果，证明了该方法的强大性能和普适性。
 
     
 
-    跨学科研究已成为创新和发现的温床。基金支持的研究越来越占主导地位，与此同时，对资助跨学科工作的兴趣日益增长，这引发了关于跨学科拨款在支持高影响跨学科进展中的作用的根本问题。在这里，我们开发了一个测量框架，来量化研究基金和出版物的跨学科性，并将其应用于来自164个资助机构、26个国家的35万个拨款和从1985年到2009年承认这些拨款支持的130万篇论文。我们的分析揭示了两种矛盾的模式。一方面，跨学科基金往往会产生跨学科论文，而跨学科论文与高影响力相关。另一方面，与学科基金相比，跨学科基金产生的论文更少，而支持的跨学科论文影响力也大大下降。我们表明
+    我们提出了基于核岭回归的介导和时变剂量响应曲线的简单非参数估计器。通过嵌入Pearl的介导公式和Robins的g公式与核函数，我们允许处理、介导者和协变量在一般空间中连续变化，也允许非线性的处理-混淆因素反馈。我们的关键创新是一种称为序贯核嵌入的再生核希尔伯特空间技术，我们使用它来构建复杂因果估计的简单估计器。我们的估计器保留了经典识别的普适性，同时实现了非渐进均匀收敛速度。在具有许多协变量的非线性模拟中，我们展示了强大的性能。我们估计了美国职业训练团的介导和时变剂量响应曲线，并清洁可能成为未来工作基准的数据。我们将我们的结果推广到介导和时变处理效应以及反事实分布，验证了半参数效率。
 
-    Interdisciplinary research has emerged as a hotbed for innovation and discoveries. The increasing dominance of grant-supported research, combined with growing interest in funding interdisciplinary work, raises fundamental questions on the role of interdisciplinary grants in supporting high-impact interdisciplinary advances. Here we develop a measurement framework to quantify the interdisciplinarity of both research grants and publications and apply it to 350K grants from 164 funding agencies over 26 countries and 1.3M papers that acknowledged the support of these grants from 1985 to 2009. Our analysis uncovers two contradictory patterns. On the one hand, interdisciplinary grants tend to produce interdisciplinary papers and interdisciplinary papers are associated with high impact. On the other hand, compared to their disciplinary counterparts, interdisciplinary grants produce much fewer papers and interdisciplinary papers that they support have substantially reduced impact. We show that
+    We propose simple nonparametric estimators for mediated and time-varying dose response curves based on kernel ridge regression. By embedding Pearl's mediation formula and Robins' g-formula with kernels, we allow treatments, mediators, and covariates to be continuous in general spaces, and also allow for nonlinear treatment-confounder feedback. Our key innovation is a reproducing kernel Hilbert space technique called sequential kernel embedding, which we use to construct simple estimators for complex causal estimands. Our estimators preserve the generality of classic identification while also achieving nonasymptotic uniform rates. In nonlinear simulations with many covariates, we demonstrate strong performance. We estimate mediated and time-varying dose response curves of the US Job Corps, and clean data that may serve as a benchmark in future work. We extend our results to mediated and time-varying treatment effects and counterfactual distributions, verifying semiparametric efficiency 
     
 

@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Behavioral Machine Learning? Computer Predictions of Corporate Earnings also Overreact.](http://arxiv.org/abs/2303.16158) | 本文研究发现，机器学习算法可以更准确地预测公司盈利，但同样存在过度反应的问题，而传统培训的股市分析师和经过机器学习方法培训的分析师相比会产生较少的过度反应。 |
-| [^2] | [Interdisciplinary Papers Supported by Disciplinary Grants Garner Deep and Broad Scientific Impact.](http://arxiv.org/abs/2303.14732) | 本研究使用测量框架，发现跨学科基金支持的跨学科论文与高影响力相关，但相较于学科基金，跨学科基金产生的支持论文更少且影响力下降。 |
+| [^1] | [Financial sentiment analysis using FinBERT with application in predicting stock movement.](http://arxiv.org/abs/2306.02136) | 本文使用FinBERT进行财经情绪分析，构建了基于LSTM的深度神经网络模型来预测市场运动，发现情绪是预测市场运动的有效因素，并提出了改进模型的方法。 |
+| [^2] | [Model-free Analysis of Dynamic Trading Strategies.](http://arxiv.org/abs/2011.02870) | 这篇论文介绍了一种基于交易信号奇点的无模型方法，用于分析各种动态交易策略的风险和收益。它提出了一种数学框架来描述这些策略的风险，并展示了使用奇点分解进行情景分析的简单表达式。 |
 
 # 详细
 
-[^1]: 机器学习准确预测财报，但同样存在过度反应
+[^1]: 使用FinBERT进行财经情绪分析及应用于股票预测
 
-    Behavioral Machine Learning? Computer Predictions of Corporate Earnings also Overreact. (arXiv:2303.16158v1 [q-fin.ST])
+    Financial sentiment analysis using FinBERT with application in predicting stock movement. (arXiv:2306.02136v1 [q-fin.ST])
 
-    [http://arxiv.org/abs/2303.16158](http://arxiv.org/abs/2303.16158)
+    [http://arxiv.org/abs/2306.02136](http://arxiv.org/abs/2306.02136)
 
-    本文研究发现，机器学习算法可以更准确地预测公司盈利，但同样存在过度反应的问题，而传统培训的股市分析师和经过机器学习方法培训的分析师相比会产生较少的过度反应。
-
-    
-
-    大量证据表明，在金融领域中，机器学习算法的预测能力比人类更为准确。但是，文献并未测试算法预测是否更为理性。本文研究了几个算法（包括线性回归和一种名为Gradient Boosted Regression Trees的流行算法）对于公司盈利的预测结果。结果发现，GBRT平均胜过线性回归和人类股市分析师，但仍存在过度反应且无法满足理性预期标准。通过降低学习率，可最小程度上减少过度反应程度，但这会牺牲预测准确性。通过机器学习方法培训过的股市分析师比传统训练的分析师产生的过度反应较少。此外，股市分析师的预测反映出机器算法没有捕捉到的信息。
-
-    There is considerable evidence that machine learning algorithms have better predictive abilities than humans in various financial settings. But, the literature has not tested whether these algorithmic predictions are more rational than human predictions. We study the predictions of corporate earnings from several algorithms, notably linear regressions and a popular algorithm called Gradient Boosted Regression Trees (GBRT). On average, GBRT outperformed both linear regressions and human stock analysts, but it still overreacted to news and did not satisfy rational expectation as normally defined. By reducing the learning rate, the magnitude of overreaction can be minimized, but it comes with the cost of poorer out-of-sample prediction accuracy. Human stock analysts who have been trained in machine learning methods overreact less than traditionally trained analysts. Additionally, stock analyst predictions reflect information not otherwise available to machine algorithms.
-    
-[^2]: 学科基金支持的跨学科论文具有深远的科学影响力
-
-    Interdisciplinary Papers Supported by Disciplinary Grants Garner Deep and Broad Scientific Impact. (arXiv:2303.14732v1 [cs.DL])
-
-    [http://arxiv.org/abs/2303.14732](http://arxiv.org/abs/2303.14732)
-
-    本研究使用测量框架，发现跨学科基金支持的跨学科论文与高影响力相关，但相较于学科基金，跨学科基金产生的支持论文更少且影响力下降。
+    本文使用FinBERT进行财经情绪分析，构建了基于LSTM的深度神经网络模型来预测市场运动，发现情绪是预测市场运动的有效因素，并提出了改进模型的方法。
 
     
 
-    跨学科研究已成为创新和发现的温床。基金支持的研究越来越占主导地位，与此同时，对资助跨学科工作的兴趣日益增长，这引发了关于跨学科拨款在支持高影响跨学科进展中的作用的根本问题。在这里，我们开发了一个测量框架，来量化研究基金和出版物的跨学科性，并将其应用于来自164个资助机构、26个国家的35万个拨款和从1985年到2009年承认这些拨款支持的130万篇论文。我们的分析揭示了两种矛盾的模式。一方面，跨学科基金往往会产生跨学科论文，而跨学科论文与高影响力相关。另一方面，与学科基金相比，跨学科基金产生的论文更少，而支持的跨学科论文影响力也大大下降。我们表明
+    我们使用FinBERT进行财经情绪分析，并构建了基于LSTM的深度神经网络模型来预测金融市场的运动。我们将这个模型应用于股票新闻数据集，并将其有效性与BERT，LSTM和经典的ARIMA模型进行比较。我们发现情绪是预测市场运动的有效因素。我们还提出了几种改进模型的方法。
 
-    Interdisciplinary research has emerged as a hotbed for innovation and discoveries. The increasing dominance of grant-supported research, combined with growing interest in funding interdisciplinary work, raises fundamental questions on the role of interdisciplinary grants in supporting high-impact interdisciplinary advances. Here we develop a measurement framework to quantify the interdisciplinarity of both research grants and publications and apply it to 350K grants from 164 funding agencies over 26 countries and 1.3M papers that acknowledged the support of these grants from 1985 to 2009. Our analysis uncovers two contradictory patterns. On the one hand, interdisciplinary grants tend to produce interdisciplinary papers and interdisciplinary papers are associated with high impact. On the other hand, compared to their disciplinary counterparts, interdisciplinary grants produce much fewer papers and interdisciplinary papers that they support have substantially reduced impact. We show that
+    We apply sentiment analysis in financial context using FinBERT, and build a deep neural network model based on LSTM to predict the movement of financial market movement. We apply this model on stock news dataset, and compare its effectiveness to BERT, LSTM and classical ARIMA model. We find that sentiment is an effective factor in predicting market movement. We also propose several method to improve the model.
+    
+[^2]: 动态交易策略的无模型分析
+
+    Model-free Analysis of Dynamic Trading Strategies. (arXiv:2011.02870v2 [q-fin.MF] UPDATED)
+
+    [http://arxiv.org/abs/2011.02870](http://arxiv.org/abs/2011.02870)
+
+    这篇论文介绍了一种基于交易信号奇点的无模型方法，用于分析各种动态交易策略的风险和收益。它提出了一种数学框架来描述这些策略的风险，并展示了使用奇点分解进行情景分析的简单表达式。
+
+    
+
+    我们引入了一种基于交易信号奇点的无模型方法，用于分析广泛类别的动态交易策略的风险和收益，包括对冲交易和其他统计套利策略。我们提出了一个数学框架，用于基于离开参考水平的价格奇点描述这些策略的风险分析，在没有任何概率假设的路径设置中。我们引入了delta-奇点的概念，定义为一条路径在偏离一个参考水平后返回到该水平的路径。我们展示了每条连续路径都能以delta-奇点的唯一分解形式表示，这对于动态交易策略的情景分析非常有用，可以得到关于交易次数、实现利润、最大亏损和回撤的简单表达式。我们展示了高频极限，对应于delta趋近于零的情况，由(p-th order)的局部时间决定。
+
+    We introduce a model-free approach based on excursions of trading signals for analyzing the risk and return for a broad class of dynamic trading strategies, including pairs trading and other statistical arbitrage strategies. We propose a mathematical framework for the risk analysis of such strategies, based on a description in terms of excursions of prices away from a reference level, in a pathwise setting without any probabilistic assumptions.  We introduce the notion of delta-excursion, defined as a path that deviates by delta from a reference level before returning to this level. We show that every continuous path has a unique decomposition into delta-excursions, which is useful for the scenario analysis of dynamic trading strategies, leading to simple expressions for the number of trades, realized profit, maximum loss, and drawdown. We show that the high-frequency limit, which corresponds to the case where delta decreases to zero, is described by the (p-th order) local time of the 
     
 
