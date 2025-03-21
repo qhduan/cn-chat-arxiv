@@ -2,67 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Softmax Probabilities (Mostly) Predict Large Language Model Correctness on Multiple-Choice Q&A](https://arxiv.org/abs/2402.13213) | 多项选择问答任务中，基于最大softmax概率（MSPs）的模型预测方法有助于提高大型语言模型（LLMs）的正确性，我们提出了一种根据MSP有选择地弃权的策略以提高性能。 |
-| [^2] | [Knowledge Graph Enhanced Aspect-Level Sentiment Analysis.](http://arxiv.org/abs/2312.10048) | 本文提出了一种知识图谱增强的方面级情感分析方法，通过使用BERT模型和知识图谱的同义词数据，在解决上下文特定词义的挑战上取得了优越的性能。 |
-| [^3] | [From Transcripts to Insights: Uncovering Corporate Risks Using Generative AI.](http://arxiv.org/abs/2310.17721) | 这项研究探索了使用生成型人工智能工具帮助投资者揭示企业风险的价值，通过从收益电话的上下文中生成风险摘要和评估，这些基于GPT的度量具有显著的信息内容，能够预测企业层面波动性和投资创新选择。此外，生成型人工智能还能有效检测新兴风险，并且这些度量在股权市场中起到定价作用。 |
-| [^4] | [MedAlpaca -- An Open-Source Collection of Medical Conversational AI Models and Training Data.](http://arxiv.org/abs/2304.08247) | MedAlpaca是一个开源的医疗会话式人工智能模型和训练数据集合，旨在通过细化调整预训练语言模型来改善医疗工作流程和医生认证考试的表现。 |
+| [^1] | [Data Mixing Laws: Optimizing Data Mixtures by Predicting Language Modeling Performance](https://arxiv.org/abs/2403.16952) | 该研究发现了数据混合规律，可以量化地预测模型性能与数据混合比例之间的关系，并提出了一种方法来通过拟合函数形式来引导理想的数据混合选择，从而优化大型语言模型的训练混合。 |
+| [^2] | [Socratic Reasoning Improves Positive Text Rewriting](https://arxiv.org/abs/2403.03029) | 使用"SocraticReframe"框架，通过引入苏格拉底式的理性化论证，增强了积极文本重写的数据集，显著提高了各种开源LLM的表现。 |
+| [^3] | [CREMA: Multimodal Compositional Video Reasoning via Efficient Modular Adaptation and Fusion](https://arxiv.org/abs/2402.05889) | 该论文提出了一种名为CREMA的高效且模块化的模态融合框架，用于将任意新的模态注入视频推理。通过利用预训练模型增强多种信息模态，并引入查询转换器和融合模块，实现了灵活且有效的多模态组合推理。 |
+| [^4] | [ULTRA: Unleash LLMs' Potential for Event Argument Extraction through Hierarchical Modeling and Pair-wise Refinement.](http://arxiv.org/abs/2401.13218) | ULTRA是一种层级框架，利用大型语言模型在事件论证提取中进行经济高效的处理，通过自我优化和候选论证集合的生成，解决了位置偏差问题。 |
 
 # 详细
 
-[^1]: 软最大概率（大部分时候）在多项选择问答任务中预测大型语言模型的正确性
+[^1]: 数据混合规律：通过预测语言建模性能来优化数据混合
 
-    Softmax Probabilities (Mostly) Predict Large Language Model Correctness on Multiple-Choice Q&A
+    Data Mixing Laws: Optimizing Data Mixtures by Predicting Language Modeling Performance
 
-    [https://arxiv.org/abs/2402.13213](https://arxiv.org/abs/2402.13213)
+    [https://arxiv.org/abs/2403.16952](https://arxiv.org/abs/2403.16952)
 
-    多项选择问答任务中，基于最大softmax概率（MSPs）的模型预测方法有助于提高大型语言模型（LLMs）的正确性，我们提出了一种根据MSP有选择地弃权的策略以提高性能。
-
-    
-
-    尽管大型语言模型（LLMs）在许多任务上表现出色，但过度自信仍然是一个问题。我们假设在多项选择问答任务中，错误答案将与最大softmax概率（MSPs）较小相关，相比之下正确答案较大。我们在十个开源LLMs和五个数据集上全面评估了这一假设，在表现良好的原始问答任务中发现了对我们假设的强有力证据。对于表现最佳的六个LLMs，从MSP导出的AUROC在59/60个实例中都优于随机机会，p < 10^{-4}。在这六个LLMs中，平均AUROC范围在60%至69%之间。利用这些发现，我们提出了一个带有弃权选项的多项选择问答任务，并展示通过根据初始模型响应的MSP有选择地弃权可以提高性能。我们还用预softmax logits而不是softmax进行了相同的实验。
-
-    arXiv:2402.13213v1 Announce Type: cross  Abstract: Although large language models (LLMs) perform impressively on many tasks, overconfidence remains a problem. We hypothesized that on multiple-choice Q&A tasks, wrong answers would be associated with smaller maximum softmax probabilities (MSPs) compared to correct answers. We comprehensively evaluate this hypothesis on ten open-source LLMs and five datasets, and find strong evidence for our hypothesis among models which perform well on the original Q&A task. For the six LLMs with the best Q&A performance, the AUROC derived from the MSP was better than random chance with p < 10^{-4} in 59/60 instances. Among those six LLMs, the average AUROC ranged from 60% to 69%. Leveraging these findings, we propose a multiple-choice Q&A task with an option to abstain and show that performance can be improved by selectively abstaining based on the MSP of the initial model response. We also run the same experiments with pre-softmax logits instead of sof
-    
-[^2]: 知识图谱增强的方面级情感分析
-
-    Knowledge Graph Enhanced Aspect-Level Sentiment Analysis. (arXiv:2312.10048v2 [cs.CL] UPDATED)
-
-    [http://arxiv.org/abs/2312.10048](http://arxiv.org/abs/2312.10048)
-
-    本文提出了一种知识图谱增强的方面级情感分析方法，通过使用BERT模型和知识图谱的同义词数据，在解决上下文特定词义的挑战上取得了优越的性能。
+    该研究发现了数据混合规律，可以量化地预测模型性能与数据混合比例之间的关系，并提出了一种方法来通过拟合函数形式来引导理想的数据混合选择，从而优化大型语言模型的训练混合。
 
     
 
-    本文提出了一种新颖的方法，通过解决上下文特定词义的挑战，增强情感分析。它将BERT模型的优势与基于知识图谱的同义词数据相结合。这种协同作用利用动态注意机制来构建一个知识驱动的状态向量。为了对特定方面链接的情感进行分类，该方法构建了一个集成了位置数据的记忆库。然后使用DCGRU分析数据，以确定与特定方面术语相关的情感特征。在三个广泛使用的数据集上的实验表明，我们的方法在情感分类中具有卓越的性能。
+    大型语言模型的预训练数据包括多个领域（例如网络文本、学术论文、代码），其混合比例对结果模型的能力至关重要。现有的工作通常依赖于启发式方法或定性策略来调整比例，我们发现了模型性能与混合比例之间的函数形式的定量可预测性，我们称之为数据混合规律。在样本混合上拟合这种函数揭示了未见混合的模型性能，从而引导选择理想的数据混合。此外，我们提出了训练步骤、模型大小和我们的数据混合规律的缩放规律的嵌套使用，以使得仅通过小规模训练就能够预测在各种混合数据下训练的大模型的性能。此外，实验结果验证了我们的方法有效地优化了训练混合。
 
-    In this paper, we propose a novel method to enhance sentiment analysis by addressing the challenge of context-specific word meanings. It combines the advantages of a BERT model with a knowledge graph based synonym data. This synergy leverages a dynamic attention mechanism to develop a knowledge-driven state vector. For classifying sentiments linked to specific aspects, the approach constructs a memory bank integrating positional data. The data are then analyzed using a DCGRU to pinpoint sentiment characteristics related to specific aspect terms. Experiments on three widely used datasets demonstrate the superior performance of our method in sentiment classification.
+    arXiv:2403.16952v1 Announce Type: cross  Abstract: Pretraining data of large language models composes multiple domains (e.g., web texts, academic papers, codes), whose mixture proportions crucially impact the competence of outcome models. While existing endeavors rely on heuristics or qualitative strategies to tune the proportions, we discover the quantitative predictability of model performance regarding the mixture proportions in function forms, which we refer to as the data mixing laws. Fitting such functions on sample mixtures unveils model performance on unseen mixtures before actual runs, thus guiding the selection of an ideal data mixture. Furthermore, we propose nested use of the scaling laws of training steps, model sizes, and our data mixing law to enable predicting the performance of large models trained on massive data under various mixtures with only small-scale training. Moreover, experimental results verify that our method effectively optimizes the training mixture of a 
     
-[^3]: 从讲话文本到洞察力：利用生成型人工智能揭示企业风险
+[^2]: 苏格拉底推理改善积极文本重写
 
-    From Transcripts to Insights: Uncovering Corporate Risks Using Generative AI. (arXiv:2310.17721v1 [econ.GN])
+    Socratic Reasoning Improves Positive Text Rewriting
 
-    [http://arxiv.org/abs/2310.17721](http://arxiv.org/abs/2310.17721)
+    [https://arxiv.org/abs/2403.03029](https://arxiv.org/abs/2403.03029)
 
-    这项研究探索了使用生成型人工智能工具帮助投资者揭示企业风险的价值，通过从收益电话的上下文中生成风险摘要和评估，这些基于GPT的度量具有显著的信息内容，能够预测企业层面波动性和投资创新选择。此外，生成型人工智能还能有效检测新兴风险，并且这些度量在股权市场中起到定价作用。
-
-    
-
-    我们探索了使用ChatGPT等生成型人工智能工具帮助投资者揭示企业风险维度的价值。我们开发并验证了政治、气候和人工智能相关风险的企业层面风险敞口度量。使用GPT 3.5模型从收益电话的背景提供的上下文生成风险摘要和评估，我们发现基于GPT的度量具有显著的信息内容，并在预测（异常）企业层面波动性和企业的选择（如投资和创新）方面优于现有的风险度量。重要的是，风险评估中的信息优于风险摘要，这证明了通用人工智能知识的价值。我们还发现，生成型人工智能对于发现新兴风险（如近几个季度飙升的人工智能风险）非常有效。我们的度量在GPT的训练窗口内外表现良好，并且在股权市场中定价。综上所述，基于人工智能的风险测量方法提供了有用的洞察。
-
-    We explore the value of generative AI tools, such as ChatGPT, in helping investors uncover dimensions of corporate risk. We develop and validate firm-level measures of risk exposure to political, climate, and AI-related risks. Using the GPT 3.5 model to generate risk summaries and assessments from the context provided by earnings call transcripts, we show that GPT-based measures possess significant information content and outperform the existing risk measures in predicting (abnormal) firm-level volatility and firms' choices such as investment and innovation. Importantly, information in risk assessments dominates that in risk summaries, establishing the value of general AI knowledge. We also find that generative AI is effective at detecting emerging risks, such as AI risk, which has soared in recent quarters. Our measures perform well both within and outside the GPT's training window and are priced in equity markets. Taken together, an AI-based approach to risk measurement provides usef
-    
-[^4]: MedAlpaca -- 一个开源的医疗会话式人工智能模型和训练数据集合
-
-    MedAlpaca -- An Open-Source Collection of Medical Conversational AI Models and Training Data. (arXiv:2304.08247v2 [cs.CL] UPDATED)
-
-    [http://arxiv.org/abs/2304.08247](http://arxiv.org/abs/2304.08247)
-
-    MedAlpaca是一个开源的医疗会话式人工智能模型和训练数据集合，旨在通过细化调整预训练语言模型来改善医疗工作流程和医生认证考试的表现。
+    使用"SocraticReframe"框架，通过引入苏格拉底式的理性化论证，增强了积极文本重写的数据集，显著提高了各种开源LLM的表现。
 
     
 
-    随着OpenAI的GPT系列等大型语言模型的不断发展，我们见证了人工智能在越来越广泛的领域中的应用出现。在医学领域，这些语言模型在改善医疗工作流程、诊断、患者护理和教育方面具有相当大的潜力。然而，迫切需要开源模型，以在本地部署以保护患者隐私。在我们的工作中，我们提出了一个创新的数据集，其中包含超过16万条数据，专门为了对语言模型进行细化调整以实现有效的医疗应用。我们研究了在公开可访问的预训练语言模型上对这些数据集进行细化调整的影响，并随后通过比较仅使用预训练模型与细化调整模型在未来医生必须通过的考试中的表现来展示其性能。
+    将负面情绪重塑为积极思维是几种认知方法到心理健康和心理治疗的核心，大型语言模型解决方案可以使这种重塑更易实现。这种重塑通常并不简单，需要多个理性化步骤来揭示负面思维的潜在问题并使其变得更加积极。然而，目前该理性化过程被数据集和模型忽略，这些数据集和模型在一步中重塑思维。本研究填补了这一差距，通过使用一种名为"SocraticReframe"的新框架，通过合成生成的苏格拉底论证，扩充了用于积极文本重写的开源数据集。"SocraticReframe"使用一系列问答对来理性化思维重写过程。我们展示了这种苏格拉底论证显著改善了不同开源LLM的积极文本重写。
 
-    As large language models (LLMs) like OpenAI's GPT series continue to make strides, we witness the emergence of artificial intelligence applications in an ever-expanding range of fields. In medicine, these LLMs hold considerable promise for improving medical workflows, diagnostics, patient care, and education. Yet, there is an urgent need for open-source models that can be deployed on-premises to safeguard patient privacy. In our work, we present an innovative dataset consisting of over 160,000 entries, specifically crafted to fine-tune LLMs for effective medical applications. We investigate the impact of fine-tuning these datasets on publicly accessible pre-trained LLMs, and subsequently, we juxtapose the performance of pre-trained-only models against the fine-tuned models concerning the examinations that future medical doctors must pass to achieve certification.
+    arXiv:2403.03029v1 Announce Type: new  Abstract: Reframing a negative into a positive thought is at the crux of several cognitive approaches to mental health and psychotherapy that could be made more accessible by large language model-based solutions. Such reframing is typically non-trivial and requires multiple rationalization steps to uncover the underlying issue of a negative thought and transform it to be more positive. However, this rationalization process is currently neglected by both datasets and models which reframe thoughts in one step. In this work, we address this gap by augmenting open-source datasets for positive text rewriting with synthetically-generated Socratic rationales using a novel framework called \textsc{SocraticReframe}. \textsc{SocraticReframe} uses a sequence of question-answer pairs to rationalize the thought rewriting process. We show that such Socratic rationales significantly improve positive text rewriting for different open-source LLMs according to both
+    
+[^3]: CREMA: 通过有效的模块化适应和融合进行多模态组合视频推理
+
+    CREMA: Multimodal Compositional Video Reasoning via Efficient Modular Adaptation and Fusion
+
+    [https://arxiv.org/abs/2402.05889](https://arxiv.org/abs/2402.05889)
+
+    该论文提出了一种名为CREMA的高效且模块化的模态融合框架，用于将任意新的模态注入视频推理。通过利用预训练模型增强多种信息模态，并引入查询转换器和融合模块，实现了灵活且有效的多模态组合推理。
+
+    
+
+    尽管在多模态组合推理方法方面取得了令人瞩目的进展，但由于处理固定模态输入并更新许多模型参数，仍然存在灵活性和效率方面的限制。本文解决了这些关键挑战，提出了CREMA，一种用于将任何新的模态注入视频推理的高效且模块化的模态融合框架。我们首先利用现有的预训练模型从给定的视频中增强多种信息模态（如光流、3D点云、音频），而无需额外的人工注释。接下来，我们引入了一个查询转换器，该转换器与每个可以访问的模态相关联，并具有多个参数高效的模块。它将多种模态特征投影到LLM令牌嵌入空间，使模型能够整合不同的数据类型以进行响应生成。此外，我们提出了一个融合模块，用于压缩多模态查询，在LLM中保持计算效率的同时进行融合组合。
+
+    Despite impressive advancements in multimodal compositional reasoning approaches, they are still limited in their flexibility and efficiency by processing fixed modality inputs while updating a lot of model parameters. This paper tackles these critical challenges and proposes CREMA, an efficient and modular modality-fusion framework for injecting any new modality into video reasoning. We first augment multiple informative modalities (such as optical flow, 3D point cloud, audio) from given videos without extra human annotation by leveraging existing pre-trained models. Next, we introduce a query transformer with multiple parameter-efficient modules associated with each accessible modality. It projects diverse modality features to the LLM token embedding space, allowing the model to integrate different data types for response generation. Furthermore, we propose a fusion module designed to compress multimodal queries, maintaining computational efficiency in the LLM while combining additio
+    
+[^4]: ULTRA:通过层级建模和逐对优化释放LLMs在事件论证提取中的潜力
+
+    ULTRA: Unleash LLMs' Potential for Event Argument Extraction through Hierarchical Modeling and Pair-wise Refinement. (arXiv:2401.13218v1 [cs.CL])
+
+    [http://arxiv.org/abs/2401.13218](http://arxiv.org/abs/2401.13218)
+
+    ULTRA是一种层级框架，利用大型语言模型在事件论证提取中进行经济高效的处理，通过自我优化和候选论证集合的生成，解决了位置偏差问题。
+
+    
+
+    将事件在话语中进行结构化提取是至关重要的，因为它可以更深入地理解交流模式和行为趋势。事件论证提取（EAE）是事件中心理解的核心任务，其任务是为给定事件识别特定角色的文本范围（即论证）。文档级EAE（DocEAE）侧重于散布在整个文档中的论证。在这项工作中，我们探索了开源的大型语言模型（LLMs，例如Flan-UL2）在DocEAE任务中的能力。为此，我们提出了ULTRA，一种层级框架，通过更加经济高效地提取事件论证，从而在方法中只需要少于50个注释，并且不需要访问昂贵的API端点。此外，它缓解了LLMs固有的位置偏差问题。ULTRA首先顺序阅读文档的文本块以生成候选论证集合，随后通过自我优化学习放弃非相关的候选。我们进一步介绍了...
+
+    Structural extraction of events within discourse is critical since it avails a deeper understanding of communication patterns and behavior trends. Event argument extraction (EAE), at the core of event-centric understanding, is the task of identifying role-specific text spans (i.e., arguments) for a given event. Document-level EAE (DocEAE) focuses on arguments that are scattered across an entire document. In this work, we explore the capabilities of open source Large Language Models (LLMs), i.e., Flan-UL2, for the DocEAE task. To this end, we propose ULTRA, a hierarchical framework that extracts event arguments more cost-effectively -- the method needs as few as 50 annotations and doesn't require hitting costly API endpoints. Further, it alleviates the positional bias issue intrinsic to LLMs. ULTRA first sequentially reads text chunks of a document to generate a candidate argument set, upon which ULTRA learns to drop non-pertinent candidates through self-refinement. We further introduce
     
 

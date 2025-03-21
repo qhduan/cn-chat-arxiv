@@ -2,142 +2,232 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Review-Based Cross-Domain Recommendation via Hyperbolic Embedding and Hierarchy-Aware Domain Disentanglement](https://arxiv.org/abs/2403.20298) | 本文基于评论文本提出了一种双曲CDR方法，以应对推荐系统中的数据稀疏性挑战，避免传统基于距离的领域对齐技术可能引发的问题。 |
-| [^2] | [Signed graphs in data sciences via communicability geometry](https://arxiv.org/abs/2403.07493) | 提出了符号图的可通信性几何概念，证明了其度量是欧几里德的和球形的，然后应用于解决符号图数据分析中的多个问题。 |
-| [^3] | [Robustness Bounds on the Successful Adversarial Examples: Theory and Practice](https://arxiv.org/abs/2403.01896) | 本文提出了一个新的成功对抗样本概率上限的理论界限，取决于扰动范数、核函数以及训练数据集中最接近的不同标签对之间的距离，并且实验证明了该理论结果的有效性。 |
-| [^4] | [Softmax Probabilities (Mostly) Predict Large Language Model Correctness on Multiple-Choice Q&A](https://arxiv.org/abs/2402.13213) | 多项选择问答任务中，基于最大softmax概率（MSPs）的模型预测方法有助于提高大型语言模型（LLMs）的正确性，我们提出了一种根据MSP有选择地弃权的策略以提高性能。 |
-| [^5] | [Mixed-Output Gaussian Process Latent Variable Models](https://arxiv.org/abs/2402.09122) | 本文提出了一种基于高斯过程潜变量模型的贝叶斯非参数方法，可以用于信号分离，并且能够处理包含纯组分信号加权和的情况，适用于光谱学和其他领域的多种应用。 |
-| [^6] | [Tailoring Mixup to Data using Kernel Warping functions.](http://arxiv.org/abs/2311.01434) | 本研究提出了一种利用核扭曲函数对Mixup数据进行个性化处理的方法，通过动态改变插值系数的概率分布来实现更频繁和更强烈的混合相似数据点。实验证明这种方法不仅提高了模型性能，还提高了模型的校准性。 |
-| [^7] | [Combat Urban Congestion via Collaboration: Heterogeneous GNN-based MARL for Coordinated Platooning and Traffic Signal Control.](http://arxiv.org/abs/2310.10948) | 本文提出了一种基于异构图多智能体强化学习和交通理论的创新解决方案，通过将车辆编队和交通信号控制作为不同的强化学习智能体，并结合图神经网络实现协调，以优化交通流量和缓解城市拥堵。 |
-| [^8] | [Instant Complexity Reduction in CNNs using Locality-Sensitive Hashing.](http://arxiv.org/abs/2309.17211) | 该论文提出了一个名为HASTE的模块，通过使用局部敏感哈希技术，无需任何训练或精调即可实时降低卷积神经网络的计算成本，并且在压缩特征图时几乎不损失准确性。 |
-| [^9] | [On the Need and Applicability of Causality for Fair Machine Learning.](http://arxiv.org/abs/2207.04053) | 本论文探讨了因果关系在公平机器学习中的必要性和适用性，强调了非因果预测的社会影响和法律反歧视过程依赖于因果主张。同时讨论了在实际场景中应用因果关系所面临的挑战和限制，并提出了可能的解决方案。 |
+| [^1] | [Data Mixing Laws: Optimizing Data Mixtures by Predicting Language Modeling Performance](https://arxiv.org/abs/2403.16952) | 该研究发现了数据混合规律，可以量化地预测模型性能与数据混合比例之间的关系，并提出了一种方法来通过拟合函数形式来引导理想的数据混合选择，从而优化大型语言模型的训练混合。 |
+| [^2] | [A Scalable and Parallelizable Digital Twin Framework for Sustainable Sim2Real Transition of Multi-Agent Reinforcement Learning Systems](https://arxiv.org/abs/2403.10996) | 提出了一个可持续的多智能体深度强化学习框架，利用分散的学习架构，来解决交通路口穿越和自主赛车等问题 |
+| [^3] | [Intelligent Agricultural Greenhouse Control System Based on Internet of Things and Machine Learning](https://arxiv.org/abs/2402.09488) | 这项研究提出了一种基于物联网和机器学习的智能农业温室控制系统，通过监测和调控温室内环境条件，提高作物生长效率和产量，减少资源浪费。 |
+| [^4] | [GenEFT: Understanding Statics and Dynamics of Model Generalization via Effective Theory](https://arxiv.org/abs/2402.05916) | GenEFT是一个有效的理论框架，通过研究泛化相变和表示学习动态，揭示了神经网络泛化的静态和动态特性，这弥合了机器学习理论预测与实践之间的差距。 |
+| [^5] | [Crowd-PrefRL: Preference-Based Reward Learning from Crowds.](http://arxiv.org/abs/2401.10941) | Crowd-PrefRL是一种基于众包的偏好反馈学习框架，能够从来自群体的反馈中学习奖励函数，并且能够强大地聚合群体偏好反馈并估计用户的可靠性。 |
+| [^6] | [CLAN: A Contrastive Learning based Novelty Detection Framework for Human Activity Recognition.](http://arxiv.org/abs/2401.10288) | CLAN是一种基于对比学习的新颖性检测框架，用于处理人体活动识别中的挑战，并构建对挑战具有不变性的已知活动的表示方法。 |
+| [^7] | [Interpreting the Curse of Dimensionality from Distance Concentration and Manifold Effect.](http://arxiv.org/abs/2401.00422) | 这篇论文从理论和实证分析的角度深入研究了维度诅咒的两个主要原因——距离集中和流形效应，并通过实验证明了使用Minkowski距离进行最近邻搜索（NNS）在高维数据中取得了最佳性能。 |
+| [^8] | [Graphical Object-Centric Actor-Critic.](http://arxiv.org/abs/2310.17178) | 这项研究提出了一种新颖的以对象为中心的强化学习算法，将演员-评论家和基于模型的方法结合起来，利用解耦的对象表示有效地学习策略。该方法填补了以对象为中心的强化学习环境中高效且适用于离散或连续动作空间的世界模型的研究空白。 |
+| [^9] | [Distributionally Robust Machine Learning with Multi-source Data.](http://arxiv.org/abs/2309.02211) | 本文提出了一种基于多源数据的分布鲁棒机器学习方法，通过引入组分布鲁棒预测模型来提高具有分布偏移的目标人群的预测准确性。 |
+| [^10] | [BELLA: Black box model Explanations by Local Linear Approximations.](http://arxiv.org/abs/2305.11311) | 本文提出了一种确定性的、与模型无关的事后方法BELLA，用于解释回归黑盒模型的个别预测。该方法通过特征空间中训练的线性模型提供解释，使得该模型的系数可以直接用于计算特征值的预测值。此外，BELLA最大化了线性模型适用的领域范围。 |
+| [^11] | [Human Choice Prediction in Non-Cooperative Games: Simulation-based Off-Policy Evaluation.](http://arxiv.org/abs/2305.10361) | 本文研究了语言游戏中的离线策略评估，并提出了一种结合真实和模拟数据的新方法。 |
+| [^12] | [A Graph Neural Network Approach to Nanosatellite Task Scheduling: Insights into Learning Mixed-Integer Models.](http://arxiv.org/abs/2303.13773) | 本研究提出基于GNN的纳米卫星任务调度方法，以更好地优化服务质量，解决ONTS问题的复杂性。 |
+| [^13] | [Karyotype AI for Precision Oncology.](http://arxiv.org/abs/2211.14312) | 本研究针对精准肿瘤学中的染色体分析问题，通过使用Fred Hutchinson癌症研究中心的大量数据，利用深度学习模型和拓扑视觉转换器(TopViTs)，成功开发出了一种自动识别染色体异常的方法。 |
+| [^14] | [A policy gradient approach for Finite Horizon Constrained Markov Decision Processes.](http://arxiv.org/abs/2210.04527) | 本文提出了一种针对有限时域受限马尔可夫决策过程的策略梯度方法，该方法能够在固定时间后终止，通过函数逼近和策略梯度方法找到最优策略。 |
+| [^15] | [Stochastic coordinate transformations with applications to robust machine learning.](http://arxiv.org/abs/2110.01729) | 本文提出了一种利用随机坐标变换进行异常检测的新方法，该方法通过层级张量积展开来逼近随机过程，并通过训练机器学习分类器对投影系数进行检测。在基准数据集上的实验表明，该方法胜过现有的最先进方法。 |
 
 # 详细
 
-[^1]: 基于双曲嵌入和层次感知域解耦的基于评论的跨领域推荐
+[^1]: 数据混合规律：通过预测语言建模性能来优化数据混合
 
-    Review-Based Cross-Domain Recommendation via Hyperbolic Embedding and Hierarchy-Aware Domain Disentanglement
+    Data Mixing Laws: Optimizing Data Mixtures by Predicting Language Modeling Performance
 
-    [https://arxiv.org/abs/2403.20298](https://arxiv.org/abs/2403.20298)
+    [https://arxiv.org/abs/2403.16952](https://arxiv.org/abs/2403.16952)
 
-    本文基于评论文本提出了一种双曲CDR方法，以应对推荐系统中的数据稀疏性挑战，避免传统基于距离的领域对齐技术可能引发的问题。
-
-    
-
-    数据稀疏性问题对推荐系统构成了重要挑战。本文提出了一种基于评论文本的算法，以应对这一问题。此外，跨领域推荐（CDR）吸引了广泛关注，它捕捉可在领域间共享的知识，并将其从更丰富的领域（源领域）转移到更稀疏的领域（目标领域）。然而，现有大多数方法假设欧几里德嵌入空间，在准确表示更丰富的文本信息和处理用户和物品之间的复杂交互方面遇到困难。本文倡导一种基于评论文本的双曲CDR方法来建模用户-物品关系。首先强调了传统的基于距离的领域对齐技术可能会导致问题，因为在双曲几何中对小修改造成的干扰会被放大，最终导致层次性崩溃。
-
-    arXiv:2403.20298v1 Announce Type: cross  Abstract: The issue of data sparsity poses a significant challenge to recommender systems. In response to this, algorithms that leverage side information such as review texts have been proposed. Furthermore, Cross-Domain Recommendation (CDR), which captures domain-shareable knowledge and transfers it from a richer domain (source) to a sparser one (target), has received notable attention. Nevertheless, the majority of existing methodologies assume a Euclidean embedding space, encountering difficulties in accurately representing richer text information and managing complex interactions between users and items. This paper advocates a hyperbolic CDR approach based on review texts for modeling user-item relationships. We first emphasize that conventional distance-based domain alignment techniques may cause problems because small modifications in hyperbolic geometry result in magnified perturbations, ultimately leading to the collapse of hierarchical 
-    
-[^2]: 通过可通信性几何学在数据科学中的符号图
-
-    Signed graphs in data sciences via communicability geometry
-
-    [https://arxiv.org/abs/2403.07493](https://arxiv.org/abs/2403.07493)
-
-    提出了符号图的可通信性几何概念，证明了其度量是欧几里德的和球形的，然后应用于解决符号图数据分析中的多个问题。
+    该研究发现了数据混合规律，可以量化地预测模型性能与数据混合比例之间的关系，并提出了一种方法来通过拟合函数形式来引导理想的数据混合选择，从而优化大型语言模型的训练混合。
 
     
 
-    符号图是表示多种存在冲突交互的数据的新兴方式，包括来自生物学、生态学和社会系统的数据。我们在这里提出了符号图的可通信性几何概念，证明了在这个空间中的度量，比如可通信性距离和角度，是欧几里德的和球形的。然后我们将这些度量应用于以统一方式解决符号图数据分析中的几个问题，包括符号图的分区、维度约简、找到符号网络中的联盟等级以及量化系统中现有派系之间极化程度的问题。
+    大型语言模型的预训练数据包括多个领域（例如网络文本、学术论文、代码），其混合比例对结果模型的能力至关重要。现有的工作通常依赖于启发式方法或定性策略来调整比例，我们发现了模型性能与混合比例之间的函数形式的定量可预测性，我们称之为数据混合规律。在样本混合上拟合这种函数揭示了未见混合的模型性能，从而引导选择理想的数据混合。此外，我们提出了训练步骤、模型大小和我们的数据混合规律的缩放规律的嵌套使用，以使得仅通过小规模训练就能够预测在各种混合数据下训练的大模型的性能。此外，实验结果验证了我们的方法有效地优化了训练混合。
 
-    arXiv:2403.07493v1 Announce Type: cross  Abstract: Signed graphs are an emergent way of representing data in a variety of contexts were conflicting interactions exist. These include data from biological, ecological, and social systems. Here we propose the concept of communicability geometry for signed graphs, proving that metrics in this space, such as the communicability distance and angles, are Euclidean and spherical. We then apply these metrics to solve several problems in data analysis of signed graphs in a unified way. They include the partitioning of signed graphs, dimensionality reduction, finding hierarchies of alliances in signed networks as well as the quantification of the degree of polarization between the existing factions in systems represented by this type of graphs.
+    arXiv:2403.16952v1 Announce Type: cross  Abstract: Pretraining data of large language models composes multiple domains (e.g., web texts, academic papers, codes), whose mixture proportions crucially impact the competence of outcome models. While existing endeavors rely on heuristics or qualitative strategies to tune the proportions, we discover the quantitative predictability of model performance regarding the mixture proportions in function forms, which we refer to as the data mixing laws. Fitting such functions on sample mixtures unveils model performance on unseen mixtures before actual runs, thus guiding the selection of an ideal data mixture. Furthermore, we propose nested use of the scaling laws of training steps, model sizes, and our data mixing law to enable predicting the performance of large models trained on massive data under various mixtures with only small-scale training. Moreover, experimental results verify that our method effectively optimizes the training mixture of a 
     
-[^3]: 成功对抗样本的强鲁棒性界限：理论与实践
+[^2]: 一个可扩展且可并行化的数字孪生框架，用于多智能体强化学习系统可持续Sim2Real转换
 
-    Robustness Bounds on the Successful Adversarial Examples: Theory and Practice
+    A Scalable and Parallelizable Digital Twin Framework for Sustainable Sim2Real Transition of Multi-Agent Reinforcement Learning Systems
 
-    [https://arxiv.org/abs/2403.01896](https://arxiv.org/abs/2403.01896)
+    [https://arxiv.org/abs/2403.10996](https://arxiv.org/abs/2403.10996)
 
-    本文提出了一个新的成功对抗样本概率上限的理论界限，取决于扰动范数、核函数以及训练数据集中最接近的不同标签对之间的距离，并且实验证明了该理论结果的有效性。
-
-    
-
-    对抗样本（AE）是一种针对机器学习的攻击方法，通过对数据添加不可感知的扰动来诱使错分。本文基于高斯过程（GP）分类，研究了成功AE的概率上限。我们证明了一个新的上界，取决于AE的扰动范数、GP中使用的核函数以及训练数据集中具有不同标签的最接近对之间的距离。令人惊讶的是，该上限不受样本数据集分布的影响。我们通过使用ImageNet的实验验证了我们的理论结果。此外，我们展示了改变核函数参数会导致成功AE概率上限的变化。
-
-    arXiv:2403.01896v1 Announce Type: new  Abstract: Adversarial example (AE) is an attack method for machine learning, which is crafted by adding imperceptible perturbation to the data inducing misclassification. In the current paper, we investigated the upper bound of the probability of successful AEs based on the Gaussian Process (GP) classification. We proved a new upper bound that depends on AE's perturbation norm, the kernel function used in GP, and the distance of the closest pair with different labels in the training dataset. Surprisingly, the upper bound is determined regardless of the distribution of the sample dataset. We showed that our theoretical result was confirmed through the experiment using ImageNet. In addition, we showed that changing the parameters of the kernel function induces a change of the upper bound of the probability of successful AEs.
-    
-[^4]: 软最大概率（大部分时候）在多项选择问答任务中预测大型语言模型的正确性
-
-    Softmax Probabilities (Mostly) Predict Large Language Model Correctness on Multiple-Choice Q&A
-
-    [https://arxiv.org/abs/2402.13213](https://arxiv.org/abs/2402.13213)
-
-    多项选择问答任务中，基于最大softmax概率（MSPs）的模型预测方法有助于提高大型语言模型（LLMs）的正确性，我们提出了一种根据MSP有选择地弃权的策略以提高性能。
+    提出了一个可持续的多智能体深度强化学习框架，利用分散的学习架构，来解决交通路口穿越和自主赛车等问题
 
     
 
-    尽管大型语言模型（LLMs）在许多任务上表现出色，但过度自信仍然是一个问题。我们假设在多项选择问答任务中，错误答案将与最大softmax概率（MSPs）较小相关，相比之下正确答案较大。我们在十个开源LLMs和五个数据集上全面评估了这一假设，在表现良好的原始问答任务中发现了对我们假设的强有力证据。对于表现最佳的六个LLMs，从MSP导出的AUROC在59/60个实例中都优于随机机会，p < 10^{-4}。在这六个LLMs中，平均AUROC范围在60%至69%之间。利用这些发现，我们提出了一个带有弃权选项的多项选择问答任务，并展示通过根据初始模型响应的MSP有选择地弃权可以提高性能。我们还用预softmax logits而不是softmax进行了相同的实验。
+    本工作提出了一个可持续的多智能体深度强化学习框架，能够选择性地按需扩展并行化训练工作负载，并利用最少的硬件资源将训练好的策略从模拟环境转移到现实世界。我们引入了AutoDRIVE生态系统作为一个启动数字孪生框架，用于训练、部署和转移合作和竞争的多智能体强化学习策略从模拟环境到现实世界。具体来说，我们首先探究了4台合作车辆(Nigel)在单智能体和多智能体学习环境中共享有限状态信息的交叉遍历问题，采用了一种通用策略方法。然后，我们使用个体策略方法研究了2辆车(F1TENTH)的对抗性自主赛车问题。在任何一组实验中，我们采用了去中心化学习架构，这允许对策略进行有力的训练和测试。
 
-    arXiv:2402.13213v1 Announce Type: cross  Abstract: Although large language models (LLMs) perform impressively on many tasks, overconfidence remains a problem. We hypothesized that on multiple-choice Q&A tasks, wrong answers would be associated with smaller maximum softmax probabilities (MSPs) compared to correct answers. We comprehensively evaluate this hypothesis on ten open-source LLMs and five datasets, and find strong evidence for our hypothesis among models which perform well on the original Q&A task. For the six LLMs with the best Q&A performance, the AUROC derived from the MSP was better than random chance with p < 10^{-4} in 59/60 instances. Among those six LLMs, the average AUROC ranged from 60% to 69%. Leveraging these findings, we propose a multiple-choice Q&A task with an option to abstain and show that performance can be improved by selectively abstaining based on the MSP of the initial model response. We also run the same experiments with pre-softmax logits instead of sof
+    arXiv:2403.10996v1 Announce Type: cross  Abstract: This work presents a sustainable multi-agent deep reinforcement learning framework capable of selectively scaling parallelized training workloads on-demand, and transferring the trained policies from simulation to reality using minimal hardware resources. We introduce AutoDRIVE Ecosystem as an enabling digital twin framework to train, deploy, and transfer cooperative as well as competitive multi-agent reinforcement learning policies from simulation to reality. Particularly, we first investigate an intersection traversal problem of 4 cooperative vehicles (Nigel) that share limited state information in single as well as multi-agent learning settings using a common policy approach. We then investigate an adversarial autonomous racing problem of 2 vehicles (F1TENTH) using an individual policy approach. In either set of experiments, a decentralized learning architecture was adopted, which allowed robust training and testing of the policies 
     
-[^5]: 混合输出高斯过程潜变量模型
+[^3]: 基于物联网和机器学习的智能农业温室控制系统
 
-    Mixed-Output Gaussian Process Latent Variable Models
+    Intelligent Agricultural Greenhouse Control System Based on Internet of Things and Machine Learning
 
-    [https://arxiv.org/abs/2402.09122](https://arxiv.org/abs/2402.09122)
+    [https://arxiv.org/abs/2402.09488](https://arxiv.org/abs/2402.09488)
 
-    本文提出了一种基于高斯过程潜变量模型的贝叶斯非参数方法，可以用于信号分离，并且能够处理包含纯组分信号加权和的情况，适用于光谱学和其他领域的多种应用。
-
-    
-
-    本文提出了一种贝叶斯非参数的信号分离方法，其中信号可以根据潜变量变化。我们的主要贡献是增加了高斯过程潜变量模型（GPLVMs），以包括每个数据点由已知数量的纯组分信号的加权和组成的情况，并观察多个输入位置。我们的框架允许使用各种关于每个观测权重的先验。这种灵活性使我们能够表示包括用于估计分数组成的总和为一约束和用于分类的二进制权重的用例。我们的贡献对于光谱学尤其相关，因为改变条件可能导致基础纯组分信号在样本之间变化。为了展示对光谱学和其他领域的适用性，我们考虑了几个应用：一个具有不同温度的近红外光谱数据集。
-
-    arXiv:2402.09122v1 Announce Type: cross Abstract: This work develops a Bayesian non-parametric approach to signal separation where the signals may vary according to latent variables. Our key contribution is to augment Gaussian Process Latent Variable Models (GPLVMs) to incorporate the case where each data point comprises the weighted sum of a known number of pure component signals, observed across several input locations. Our framework allows the use of a range of priors for the weights of each observation. This flexibility enables us to represent use cases including sum-to-one constraints for estimating fractional makeup, and binary weights for classification. Our contributions are particularly relevant to spectroscopy, where changing conditions may cause the underlying pure component signals to vary from sample to sample. To demonstrate the applicability to both spectroscopy and other domains, we consider several applications: a near-infrared spectroscopy data set with varying temper
-    
-[^6]: 通过核扭曲函数定制Mixup数据
-
-    Tailoring Mixup to Data using Kernel Warping functions. (arXiv:2311.01434v1 [cs.LG])
-
-    [http://arxiv.org/abs/2311.01434](http://arxiv.org/abs/2311.01434)
-
-    本研究提出了一种利用核扭曲函数对Mixup数据进行个性化处理的方法，通过动态改变插值系数的概率分布来实现更频繁和更强烈的混合相似数据点。实验证明这种方法不仅提高了模型性能，还提高了模型的校准性。
+    这项研究提出了一种基于物联网和机器学习的智能农业温室控制系统，通过监测和调控温室内环境条件，提高作物生长效率和产量，减少资源浪费。
 
     
 
-    数据增强是学习高效深度学习模型的重要基础。在所有提出的增强技术中，线性插值训练数据点（也称为Mixup）已被证明在许多应用中非常有效。然而，大多数研究都集中在选择合适的点进行混合，或者应用复杂的非线性插值，而我们则对更相似的点进行更频繁和更强烈的混合感兴趣。为此，我们提出了通过扭曲函数动态改变插值系数的概率分布的方法，取决于要组合的数据点之间的相似性。我们定义了一个高效而灵活的框架来实现这一点，以避免多样性的损失。我们进行了广泛的分类和回归任务实验，结果显示我们提出的方法既提高了模型的性能，又提高了模型的校准性。代码可在https://github.com/ENSTA-U2IS/torch-uncertainty上找到。
+    本研究试图将物联网和机器学习相结合，构建一个先进的农业温室控制系统。通过对温室内固有环境参数的细致监测和机器学习算法的整合，能够适当调控温室内的条件。预期的结果是增加作物生长效率和产量，同时减少资源浪费。在全球人口持续增长和气候变化不断加剧的背景下，农业面临前所未有的挑战。传统农业范式已经被证明无法满足食品安全和生产效率的要求。在这种背景下，温室农业成为一种可行的解决方案，为作物种植提供了一个受控的环境来增加产量，改善品质。
 
-    Data augmentation is an essential building block for learning efficient deep learning models. Among all augmentation techniques proposed so far, linear interpolation of training data points, also called mixup, has found to be effective for a large panel of applications. While the majority of works have focused on selecting the right points to mix, or applying complex non-linear interpolation, we are interested in mixing similar points more frequently and strongly than less similar ones. To this end, we propose to dynamically change the underlying distribution of interpolation coefficients through warping functions, depending on the similarity between data points to combine. We define an efficient and flexible framework to do so without losing in diversity. We provide extensive experiments for classification and regression tasks, showing that our proposed method improves both performance and calibration of models. Code available in https://github.com/ENSTA-U2IS/torch-uncertainty
+    arXiv:2402.09488v1 Announce Type: cross  Abstract: This study endeavors to conceptualize and execute a sophisticated agricultural greenhouse control system grounded in the amalgamation of the Internet of Things (IoT) and machine learning. Through meticulous monitoring of intrinsic environmental parameters within the greenhouse and the integration of machine learning algorithms, the conditions within the greenhouse are aptly modulated. The envisaged outcome is an enhancement in crop growth efficiency and yield, accompanied by a reduction in resource wastage. In the backdrop of escalating global population figures and the escalating exigencies of climate change, agriculture confronts unprecedented challenges. Conventional agricultural paradigms have proven inadequate in addressing the imperatives of food safety and production efficiency. Against this backdrop, greenhouse agriculture emerges as a viable solution, proffering a controlled milieu for crop cultivation to augment yields, refin
     
-[^7]: 通过协作解决城市拥堵：基于异构GNN的协调编队和交通信号控制的多智能体强化学习方法
+[^4]: GenEFT: 通过有效理论理解模型泛化的静态和动态
 
-    Combat Urban Congestion via Collaboration: Heterogeneous GNN-based MARL for Coordinated Platooning and Traffic Signal Control. (arXiv:2310.10948v1 [cs.LG])
+    GenEFT: Understanding Statics and Dynamics of Model Generalization via Effective Theory
 
-    [http://arxiv.org/abs/2310.10948](http://arxiv.org/abs/2310.10948)
+    [https://arxiv.org/abs/2402.05916](https://arxiv.org/abs/2402.05916)
 
-    本文提出了一种基于异构图多智能体强化学习和交通理论的创新解决方案，通过将车辆编队和交通信号控制作为不同的强化学习智能体，并结合图神经网络实现协调，以优化交通流量和缓解城市拥堵。
-
-    
-
-    多年来，强化学习已经成为一种流行的方法，用于独立或分层方式开发信号控制和车辆编队策略。然而，在实时中联合控制这两者以减轻交通拥堵带来了新的挑战，如信号控制和编队之间固有的物理和行为异质性，以及它们之间的协调。本文提出了一种创新的解决方案来应对这些挑战，基于异构图多智能体强化学习和交通理论。我们的方法包括：1）将编队和信号控制设计为不同的强化学习智能体，具有自己的观测、动作和奖励函数，以优化交通流量；2）通过在多智能体强化学习中引入图神经网络来设计协调，以促进区域范围内智能体之间的无缝信息交换。我们通过SUMO模拟环境评估了我们的方法。
-
-    Over the years, reinforcement learning has emerged as a popular approach to develop signal control and vehicle platooning strategies either independently or in a hierarchical way. However, jointly controlling both in real-time to alleviate traffic congestion presents new challenges, such as the inherent physical and behavioral heterogeneity between signal control and platooning, as well as coordination between them. This paper proposes an innovative solution to tackle these challenges based on heterogeneous graph multi-agent reinforcement learning and traffic theories. Our approach involves: 1) designing platoon and signal control as distinct reinforcement learning agents with their own set of observations, actions, and reward functions to optimize traffic flow; 2) designing coordination by incorporating graph neural networks within multi-agent reinforcement learning to facilitate seamless information exchange among agents on a regional scale. We evaluate our approach through SUMO simu
-    
-[^8]: 使用局部敏感哈希在CNN中实现即时复杂度降低
-
-    Instant Complexity Reduction in CNNs using Locality-Sensitive Hashing. (arXiv:2309.17211v1 [cs.CV])
-
-    [http://arxiv.org/abs/2309.17211](http://arxiv.org/abs/2309.17211)
-
-    该论文提出了一个名为HASTE的模块，通过使用局部敏感哈希技术，无需任何训练或精调即可实时降低卷积神经网络的计算成本，并且在压缩特征图时几乎不损失准确性。
+    GenEFT是一个有效的理论框架，通过研究泛化相变和表示学习动态，揭示了神经网络泛化的静态和动态特性，这弥合了机器学习理论预测与实践之间的差距。
 
     
 
-    为了在资源受限的设备上降低卷积神经网络（CNN）的计算成本，结构化剪枝方法已显示出有希望的结果，在不太大程度降低准确性的情况下大大减少了浮点运算（FLOPs）。然而，大多数最新的方法要求进行精调或特定的训练过程，以实现在保留准确性和降低FLOPs之间合理折衷。这引入了计算开销的额外成本，并需要可用的训练数据。为此，我们提出了HASTE（Hashing for Tractable Efficiency），它是一个无需参数和无需数据的模块，可以作为任何常规卷积模块的即插即用替代品。它能够在不需要任何训练或精调的情况下即时降低网络的测试推理成本。通过使用局部敏感哈希（LSH）来检测特征图中的冗余，我们能够大幅压缩潜在特征图而几乎不损失准确性。
+    我们提出了GenEFT：一个有效的理论框架，用于揭示神经网络泛化的静态和动态，以图学习为例进行了说明。首先，我们研究了数据规模增加时的泛化相变，将实验结果与基于信息理论的近似进行比较。我们发现，在解码器既不太弱也不太强的“小熊宝贝区域”中存在着泛化。然后，我们介绍了一种表示学习动态的有效理论，将潜在空间表示建模为相互作用粒子（repons），发现它解释了我们在编码器和解码器学习速率扫描时观察到的泛化和过拟合之间的相变。这突出了受物理启发的有效理论在弥合机器学习中理论预测与实践之间的差距方面的力量。
 
-    To reduce the computational cost of convolutional neural networks (CNNs) for usage on resource-constrained devices, structured pruning approaches have shown promising results, drastically reducing floating-point operations (FLOPs) without substantial drops in accuracy. However, most recent methods require fine-tuning or specific training procedures to achieve a reasonable trade-off between retained accuracy and reduction in FLOPs. This introduces additional cost in the form of computational overhead and requires training data to be available. To this end, we propose HASTE (Hashing for Tractable Efficiency), a parameter-free and data-free module that acts as a plug-and-play replacement for any regular convolution module. It instantly reduces the network's test-time inference cost without requiring any training or fine-tuning. We are able to drastically compress latent feature maps without sacrificing much accuracy by using locality-sensitive hashing (LSH) to detect redundancies in the c
+    We present GenEFT: an effective theory framework for shedding light on the statics and dynamics of neural network generalization, and illustrate it with graph learning examples. We first investigate the generalization phase transition as data size increases, comparing experimental results with information-theory-based approximations. We find generalization in a Goldilocks zone where the decoder is neither too weak nor too powerful. We then introduce an effective theory for the dynamics of representation learning, where latent-space representations are modeled as interacting particles (repons), and find that it explains our experimentally observed phase transition between generalization and overfitting as encoder and decoder learning rates are scanned. This highlights the power of physics-inspired effective theories for bridging the gap between theoretical predictions and practice in machine learning.
     
-[^9]: 论公平机器学习中因果关系的必要性和适用性
+[^5]: Crowd-PrefRL: 基于众包的偏好反馈学习
 
-    On the Need and Applicability of Causality for Fair Machine Learning. (arXiv:2207.04053v2 [cs.LG] UPDATED)
+    Crowd-PrefRL: Preference-Based Reward Learning from Crowds. (arXiv:2401.10941v1 [cs.HC])
 
-    [http://arxiv.org/abs/2207.04053](http://arxiv.org/abs/2207.04053)
+    [http://arxiv.org/abs/2401.10941](http://arxiv.org/abs/2401.10941)
 
-    本论文探讨了因果关系在公平机器学习中的必要性和适用性，强调了非因果预测的社会影响和法律反歧视过程依赖于因果主张。同时讨论了在实际场景中应用因果关系所面临的挑战和限制，并提出了可能的解决方案。
+    Crowd-PrefRL是一种基于众包的偏好反馈学习框架，能够从来自群体的反馈中学习奖励函数，并且能够强大地聚合群体偏好反馈并估计用户的可靠性。
 
     
 
-    除了在流行病学、政治和社会科学中的常见应用案例外，事实证明因果关系在评估自动决策的公正性方面十分重要，无论是在法律上还是日常生活中。我们提供了关于为何因果关系对公平性评估尤为重要的论点和示例。特别是，我们指出了非因果预测的社会影响以及依赖因果主张的法律反歧视过程。我们最后讨论了应用因果关系在实际场景中的挑战和局限性，以及可能的解决方案。
+    基于偏好的强化学习提供了一个框架，通过对行为对的偏好进行人类反馈来训练智能体，使其能够在难以指定数值奖励函数的情况下学习期望的行为。尽管这个范式利用了人类的反馈，但目前将反馈视为单个人类用户所给出的。与此同时，以强大的方式合并来自群体（即用户集合）的偏好反馈仍然是一个挑战，而使用来自多个用户的反馈来训练强化学习智能体的问题仍然被研究不足。在这项工作中，我们引入了Crowd-PrefRL，一个利用来自群体的反馈进行基于偏好的强化学习的框架。这项工作展示了利用未知专业水平和可靠性的群体偏好反馈来学习奖励函数的可行性。Crowd-PrefRL不仅能够强大地聚合群体偏好反馈，还能够估计每个用户的可靠性。
 
-    Besides its common use cases in epidemiology, political, and social sciences, causality turns out to be crucial in evaluating the fairness of automated decisions, both in a legal and everyday sense. We provide arguments and examples, of why causality is particularly important for fairness evaluation. In particular, we point out the social impact of non-causal predictions and the legal anti-discrimination process that relies on causal claims. We conclude with a discussion about the challenges and limitations of applying causality in practical scenarios as well as possible solutions.
+    Preference-based reinforcement learning (RL) provides a framework to train agents using human feedback through pairwise preferences over pairs of behaviors, enabling agents to learn desired behaviors when it is difficult to specify a numerical reward function. While this paradigm leverages human feedback, it currently treats the feedback as given by a single human user. Meanwhile, incorporating preference feedback from crowds (i.e. ensembles of users) in a robust manner remains a challenge, and the problem of training RL agents using feedback from multiple human users remains understudied. In this work, we introduce Crowd-PrefRL, a framework for performing preference-based RL leveraging feedback from crowds. This work demonstrates the viability of learning reward functions from preference feedback provided by crowds of unknown expertise and reliability. Crowd-PrefRL not only robustly aggregates the crowd preference feedback, but also estimates the reliability of each user within the cr
+    
+[^6]: CLAN:基于对比学习的用于人体活动识别的新颖性检测框架
+
+    CLAN: A Contrastive Learning based Novelty Detection Framework for Human Activity Recognition. (arXiv:2401.10288v1 [cs.LG])
+
+    [http://arxiv.org/abs/2401.10288](http://arxiv.org/abs/2401.10288)
+
+    CLAN是一种基于对比学习的新颖性检测框架，用于处理人体活动识别中的挑战，并构建对挑战具有不变性的已知活动的表示方法。
+
+    
+
+    在环境辅助生活中，从时间序列传感器数据进行人体活动识别主要集中于预定义的活动，往往忽略了新的活动模式。我们提出了CLAN，一种基于对比学习的新颖性检测框架，其中包含了不同类型的负样本对于人体活动识别。该框架针对人体活动特征的挑战进行了优化，包括时间和频率特征的重要性、复杂的活动动态、活动之间共享的特征，以及传感器模态的变化。该框架旨在构建对挑战具有不变性的已知活动的表示方法。为了生成合适的负样本对，它根据每个数据集的时间和频率特征选择数据增强方法。它通过对比和分类损失的表示学习以及基于评分函数的新颖性检测，从中导出针对无意义动态的关键表示。
+
+    In ambient assisted living, human activity recognition from time series sensor data mainly focuses on predefined activities, often overlooking new activity patterns. We propose CLAN, a two-tower contrastive learning-based novelty detection framework with diverse types of negative pairs for human activity recognition. It is tailored to challenges with human activity characteristics, including the significance of temporal and frequency features, complex activity dynamics, shared features across activities, and sensor modality variations. The framework aims to construct invariant representations of known activity robust to the challenges. To generate suitable negative pairs, it selects data augmentation methods according to the temporal and frequency characteristics of each dataset. It derives the key representations against meaningless dynamics by contrastive and classification losses-based representation learning and score function-based novelty detection that accommodate dynamic number
+    
+[^7]: 从距离集中和流形效应解读维度诅咒
+
+    Interpreting the Curse of Dimensionality from Distance Concentration and Manifold Effect. (arXiv:2401.00422v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2401.00422](http://arxiv.org/abs/2401.00422)
+
+    这篇论文从理论和实证分析的角度深入研究了维度诅咒的两个主要原因——距离集中和流形效应，并通过实验证明了使用Minkowski距离进行最近邻搜索（NNS）在高维数据中取得了最佳性能。
+
+    
+
+    随着维度的增加，数据的特征如分布和异质性变得越来越复杂和违反直觉。这种现象被称为维度诅咒，低维空间中成立的常见模式和关系（例如内部和边界模式）在高维空间中可能无效。这导致回归、分类或聚类模型或算法的性能降低。维度诅咒可以归因于许多原因。本文首先总结了与处理高维数据相关的五个挑战，并解释了回归、分类或聚类任务失败的潜在原因。随后，我们通过理论和实证分析深入研究了维度诅咒的两个主要原因，即距离集中和流形效应。结果表明，使用三种典型的距离测量进行最近邻搜索（NNS）时，Minkowski距离的性能最佳。
+
+    The characteristics of data like distribution and heterogeneity, become more complex and counterintuitive as the dimensionality increases. This phenomenon is known as curse of dimensionality, where common patterns and relationships (e.g., internal and boundary pattern) that hold in low-dimensional space may be invalid in higher-dimensional space. It leads to a decreasing performance for the regression, classification or clustering models or algorithms. Curse of dimensionality can be attributed to many causes. In this paper, we first summarize five challenges associated with manipulating high-dimensional data, and explains the potential causes for the failure of regression, classification or clustering tasks. Subsequently, we delve into two major causes of the curse of dimensionality, distance concentration and manifold effect, by performing theoretical and empirical analyses. The results demonstrate that nearest neighbor search (NNS) using three typical distance measurements, Minkowski
+    
+[^8]: 图形化的以对象为中心的Actor-Critic算法
+
+    Graphical Object-Centric Actor-Critic. (arXiv:2310.17178v1 [cs.AI])
+
+    [http://arxiv.org/abs/2310.17178](http://arxiv.org/abs/2310.17178)
+
+    这项研究提出了一种新颖的以对象为中心的强化学习算法，将演员-评论家和基于模型的方法结合起来，利用解耦的对象表示有效地学习策略。该方法填补了以对象为中心的强化学习环境中高效且适用于离散或连续动作空间的世界模型的研究空白。
+
+    
+
+    最近在无监督的以对象为中心的表示学习及其在下游任务中的应用方面取得了重要进展。最新的研究支持这样一个观点，即在基于图像的以对象为中心的强化学习任务中采用解耦的对象表示能够促进策略学习。我们提出了一种新颖的以对象为中心的强化学习算法，将演员-评论家算法和基于模型的方法结合起来，以有效利用这些表示。在我们的方法中，我们使用一个变换器编码器来提取对象表示，并使用图神经网络来近似环境的动力学。所提出的方法填补了开发强化学习环境中可以用于离散或连续动作空间的高效以对象为中心的世界模型的研究空白。我们的算法在一个具有复杂视觉3D机器人环境和一个具有组合结构的2D环境中表现更好。
+
+    There have recently been significant advances in the problem of unsupervised object-centric representation learning and its application to downstream tasks. The latest works support the argument that employing disentangled object representations in image-based object-centric reinforcement learning tasks facilitates policy learning. We propose a novel object-centric reinforcement learning algorithm combining actor-critic and model-based approaches to utilize these representations effectively. In our approach, we use a transformer encoder to extract object representations and graph neural networks to approximate the dynamics of an environment. The proposed method fills a research gap in developing efficient object-centric world models for reinforcement learning settings that can be used for environments with discrete or continuous action spaces. Our algorithm performs better in a visually complex 3D robotic environment and a 2D environment with compositional structure than the state-of-t
+    
+[^9]: 基于多源数据的分布鲁棒机器学习
+
+    Distributionally Robust Machine Learning with Multi-source Data. (arXiv:2309.02211v1 [stat.ML])
+
+    [http://arxiv.org/abs/2309.02211](http://arxiv.org/abs/2309.02211)
+
+    本文提出了一种基于多源数据的分布鲁棒机器学习方法，通过引入组分布鲁棒预测模型来提高具有分布偏移的目标人群的预测准确性。
+
+    
+
+    当目标分布与源数据集不同时，传统的机器学习方法可能导致较差的预测性能。本文利用多个数据源，并引入了一种基于组分布鲁棒预测模型来优化关于目标分布类的可解释方差的对抗性奖励。与传统的经验风险最小化相比，所提出的鲁棒预测模型改善了具有分布偏移的目标人群的预测准确性。我们证明了组分布鲁棒预测模型是源数据集条件结果模型的加权平均。我们利用这一关键鉴别结果来提高任意机器学习算法的鲁棒性，包括随机森林和神经网络等。我们设计了一种新的偏差校正估计器来估计通用机器学习算法的最优聚合权重，并展示了其在c方面的改进。
+
+    Classical machine learning methods may lead to poor prediction performance when the target distribution differs from the source populations. This paper utilizes data from multiple sources and introduces a group distributionally robust prediction model defined to optimize an adversarial reward about explained variance with respect to a class of target distributions. Compared to classical empirical risk minimization, the proposed robust prediction model improves the prediction accuracy for target populations with distribution shifts. We show that our group distributionally robust prediction model is a weighted average of the source populations' conditional outcome models. We leverage this key identification result to robustify arbitrary machine learning algorithms, including, for example, random forests and neural networks. We devise a novel bias-corrected estimator to estimate the optimal aggregation weight for general machine-learning algorithms and demonstrate its improvement in the c
+    
+[^10]: BELLA: 通过本地线性逼近进行黑盒模型解释
+
+    BELLA: Black box model Explanations by Local Linear Approximations. (arXiv:2305.11311v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.11311](http://arxiv.org/abs/2305.11311)
+
+    本文提出了一种确定性的、与模型无关的事后方法BELLA，用于解释回归黑盒模型的个别预测。该方法通过特征空间中训练的线性模型提供解释，使得该模型的系数可以直接用于计算特征值的预测值。此外，BELLA最大化了线性模型适用的领域范围。
+
+    
+
+    近年来，理解黑盒模型的决策过程不仅成为法律要求，也成为评估其性能的另一种方式。然而，现有的事后解释方法依赖于合成数据生成，这引入了不确定性并可能损害解释的可靠性，并且它们 tend to produce explanations that apply to only very few data points. This makes the explanations brittle and limited in scope. Finally, they provide scores that have no direct verifiable meaning. In this paper, we present BELLA, a deterministic model-agnostic post-hoc approach for explaining the individual predictions of regression black-box models. BELLA provides explanations in the form of a linear model trained in the feature space. Thus, its coefficients can be used directly to compute the predicted value from the feature values. Furthermore, BELLA maximizes the size of the neighborhood to which the linear model a
+
+    In recent years, understanding the decision-making process of black-box models has become not only a legal requirement but also an additional way to assess their performance. However, the state of the art post-hoc interpretation approaches rely on synthetic data generation. This introduces uncertainty and can hurt the reliability of the interpretations. Furthermore, they tend to produce explanations that apply to only very few data points. This makes the explanations brittle and limited in scope. Finally, they provide scores that have no direct verifiable meaning. In this paper, we present BELLA, a deterministic model-agnostic post-hoc approach for explaining the individual predictions of regression black-box models. BELLA provides explanations in the form of a linear model trained in the feature space. Thus, its coefficients can be used directly to compute the predicted value from the feature values. Furthermore, BELLA maximizes the size of the neighborhood to which the linear model a
+    
+[^11]: 非合作博弈中的人类选择预测：基于模拟的离线策略评估
+
+    Human Choice Prediction in Non-Cooperative Games: Simulation-based Off-Policy Evaluation. (arXiv:2305.10361v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.10361](http://arxiv.org/abs/2305.10361)
+
+    本文研究了语言游戏中的离线策略评估，并提出了一种结合真实和模拟数据的新方法。
+
+    
+
+    说服游戏在经济和人工智能研究中具有重要意义并具有重要的实际应用。本文探讨了在基于语言的说服游戏中离线策略评估（OPE）的挑战性问题，提出了一种结合真实和模拟人类 - 机器人交互数据的新方法，并给出了一种深度学习训练算法，该算法有效地整合了真实交互和模拟数据。
+
+    Persuasion games have been fundamental in economics and AI research, and have significant practical applications. Recent works in this area have started to incorporate natural language, moving beyond the traditional stylized message setting. However, previous research has focused on on-policy prediction, where the train and test data have the same distribution, which is not representative of real-life scenarios. In this paper, we tackle the challenging problem of off-policy evaluation (OPE) in language-based persuasion games. To address the inherent difficulty of human data collection in this setup, we propose a novel approach which combines real and simulated human-bot interaction data. Our simulated data is created by an exogenous model assuming decision makers (DMs) start with a mixture of random and decision-theoretic based behaviors and improve over time. We present a deep learning training algorithm that effectively integrates real interaction and simulated data, substantially im
+    
+[^12]: 基于图神经网络的纳米卫星任务调度方法：学习混合整数模型的洞见
+
+    A Graph Neural Network Approach to Nanosatellite Task Scheduling: Insights into Learning Mixed-Integer Models. (arXiv:2303.13773v1 [cs.LG])
+
+    [http://arxiv.org/abs/2303.13773](http://arxiv.org/abs/2303.13773)
+
+    本研究提出基于GNN的纳米卫星任务调度方法，以更好地优化服务质量，解决ONTS问题的复杂性。
+
+    
+
+    本研究探讨如何利用图神经网络（GNN）更有效地调度纳米卫星任务。在离线纳米卫星任务调度（ONTS）问题中，目标是找到在轨道上执行任务的最佳安排，同时考虑服务质量（QoS）方面的考虑因素，如优先级，最小和最大激活事件，执行时间框架，周期和执行窗口，以及卫星电力资源和能量收集和管理的复杂性的约束。ONTS问题已经使用传统的数学公式和精确方法进行了处理，但是它们在问题的挑战性案例中的适用性有限。本研究考察了在这种情况下使用GNN的方法，该方法已经成功应用于许多优化问题，包括旅行商问题，调度问题和设施放置问题。在本文中，我们将ONTS问题的MILP实例完全表示成二分图网络结构来应用GNN。
+
+    This study investigates how to schedule nanosatellite tasks more efficiently using Graph Neural Networks (GNN). In the Offline Nanosatellite Task Scheduling (ONTS) problem, the goal is to find the optimal schedule for tasks to be carried out in orbit while taking into account Quality-of-Service (QoS) considerations such as priority, minimum and maximum activation events, execution time-frames, periods, and execution windows, as well as constraints on the satellite's power resources and the complexity of energy harvesting and management. The ONTS problem has been approached using conventional mathematical formulations and precise methods, but their applicability to challenging cases of the problem is limited. This study examines the use of GNNs in this context, which has been effectively applied to many optimization problems, including traveling salesman problems, scheduling problems, and facility placement problems. Here, we fully represent MILP instances of the ONTS problem in biparti
+    
+[^13]: 精准肿瘤学的染色体AI
+
+    Karyotype AI for Precision Oncology. (arXiv:2211.14312v3 [q-bio.QM] UPDATED)
+
+    [http://arxiv.org/abs/2211.14312](http://arxiv.org/abs/2211.14312)
+
+    本研究针对精准肿瘤学中的染色体分析问题，通过使用Fred Hutchinson癌症研究中心的大量数据，利用深度学习模型和拓扑视觉转换器(TopViTs)，成功开发出了一种自动识别染色体异常的方法。
+
+    
+
+    染色体分析对于诊断遗传疾病至关重要。对于血液系统恶性肿瘤，通过染色体组型分析来发现体细胞突变是标准的护理方法。然而，染色体组型分析因为大部分是手动操作，且需要专业知识来识别和注释突变，所以昂贵且耗时。以Fred Hutchinson癌症研究中心过去五年的约10,000个患者标本和约50,000个染色体组型图片作为训练集，我们创建了一组代表单个染色体的标记图片。这些单个染色体用于训练和评估深度学习模型，以分类人类的24条染色体和识别染色体异常。具有最高准确性的模型使用了最近引入的拓扑视觉转换器(TopViTs)和二级块-托普利茨蒙版，以融入结构性归纳偏置。TopViT的性能优于CNN(Inc)
+
+    Chromosome analysis is essential for diagnosing genetic disorders. For hematologic malignancies, identification of somatic clonal aberrations by karyotype analysis remains the standard of care. However, karyotyping is costly and time-consuming because of the largely manual process and the expertise required in identifying and annotating aberrations. Efforts to automate karyotype analysis to date fell short in aberration detection. Using a training set of ~10k patient specimens and ~50k karyograms from over 5 years from the Fred Hutchinson Cancer Center, we created a labeled set of images representing individual chromosomes. These individual chromosomes were used to train and assess deep learning models for classifying the 24 human chromosomes and identifying chromosomal aberrations. The top-accuracy models utilized the recently introduced Topological Vision Transformers (TopViTs) with 2-level-block-Toeplitz masking, to incorporate structural inductive bias. TopViT outperformed CNN (Inc
+    
+[^14]: 有限时域受限马尔可夫决策过程的策略梯度方法
+
+    A policy gradient approach for Finite Horizon Constrained Markov Decision Processes. (arXiv:2210.04527v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2210.04527](http://arxiv.org/abs/2210.04527)
+
+    本文提出了一种针对有限时域受限马尔可夫决策过程的策略梯度方法，该方法能够在固定时间后终止，通过函数逼近和策略梯度方法找到最优策略。
+
+    
+
+    无限时域设置通常用于强化学习问题，导致产生最优的固定策略。然而，在许多情况下，有限时域控制问题更具有实际意义，并且在这种情况下，最优策略通常随时间变化。最近，约束强化学习的设置也越来越受到关注，其中代理同时在最大化奖励的同时满足某些给定的约束条件。然而，这个设置仅在无限时域马尔可夫决策过程的背景下得到了研究，其中固定策略是最优的。本文提出了一种在有限时域设置下进行约束强化学习的算法，其中在一个固定的时间后终止。我们在算法中使用函数逼近，这在状态和动作空间较大或连续的情况下是必不可少的，并使用策略梯度方法来找到最优策略。我们得到的最优策略取决于时间段。
+
+    The infinite horizon setting is widely adopted for problems of reinforcement learning (RL). These invariably result in stationary policies that are optimal. In many situations, finite horizon control problems are of interest and for such problems, the optimal policies are time-varying in general. Another setting that has become popular in recent times is of Constrained Reinforcement Learning, where the agent maximizes its rewards while it also aims to satisfy some given constraint criteria. However, this setting has only been studied in the context of infinite horizon MDPs where stationary policies are optimal. We present an algorithm for constrained RL in the Finite Horizon Setting where the horizon terminates after a fixed (finite) time. We use function approximation in our algorithm which is essential when the state and action spaces are large or continuous and use the policy gradient method to find the optimal policy. The optimal policy that we obtain depends on the stage and so is
+    
+[^15]: 随机坐标变换及其在鲁棒机器学习中的应用
+
+    Stochastic coordinate transformations with applications to robust machine learning. (arXiv:2110.01729v3 [stat.ML] UPDATED)
+
+    [http://arxiv.org/abs/2110.01729](http://arxiv.org/abs/2110.01729)
+
+    本文提出了一种利用随机坐标变换进行异常检测的新方法，该方法通过层级张量积展开来逼近随机过程，并通过训练机器学习分类器对投影系数进行检测。在基准数据集上的实验表明，该方法胜过现有的最先进方法。
+
+    
+
+    本文介绍了一组新的特征，利用Karhunen-Loeve展开法来识别输入数据的潜在随机行为。这些新特征是通过基于最近的函数数据分析理论进行的坐标变换构建的，用于异常检测。相关的信号分解是用已知优化属性的层级张量积展开来逼近具有有限功能空间的随机过程（随机场）。原则上，这些低维空间可以捕捉给定名义类别的'底层信号'的大部分随机变化，并且可以将来自其它类别的信号拒绝为随机异常。通过名义类别的层级有限维展开，构建了一系列用于检测异常信号组件的正交嵌套子空间。然后使用这些子空间中的投影系数来训练用于异常检测的机器学习（ML）分类器。我们在几个基准数据集上评估所提出的方法，结果表明其胜过现有的最先进方法。
+
+    In this paper we introduce a set of novel features for identifying underlying stochastic behavior of input data using the Karhunen-Loeve expansion. These novel features are constructed by applying a coordinate transformation based on the recent Functional Data Analysis theory for anomaly detection. The associated signal decomposition is an exact hierarchical tensor product expansion with known optimality properties for approximating stochastic processes (random fields) with finite dimensional function spaces. In principle these low dimensional spaces can capture most of the stochastic behavior of `underlying signals' in a given nominal class, and can reject signals in alternative classes as stochastic anomalies. Using a hierarchical finite dimensional expansion of the nominal class, a series of orthogonal nested subspaces is constructed for detecting anomalous signal components. Projection coefficients of input data in these subspaces are then used to train a Machine Learning (ML) clas
     
 

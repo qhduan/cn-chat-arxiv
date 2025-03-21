@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Review-Based Cross-Domain Recommendation via Hyperbolic Embedding and Hierarchy-Aware Domain Disentanglement](https://arxiv.org/abs/2403.20298) | 本文基于评论文本提出了一种双曲CDR方法，以应对推荐系统中的数据稀疏性挑战，避免传统基于距离的领域对齐技术可能引发的问题。 |
+| [^1] | [Uncertain research country rankings. Should we continue producing uncertain rankings?.](http://arxiv.org/abs/2312.17560) | 这项研究对基于引用的国家排名进行了分析，发现这些排名可能对日本的科研地位进行错误的分类。研究还发现了引用分布的偏离情况，并评估了其对评估的影响。 |
 
 # 详细
 
-[^1]: 基于双曲嵌入和层次感知域解耦的基于评论的跨领域推荐
+[^1]: 不确定性的研究国家排名：我们应该继续制作不确定性排名吗？
 
-    Review-Based Cross-Domain Recommendation via Hyperbolic Embedding and Hierarchy-Aware Domain Disentanglement
+    Uncertain research country rankings. Should we continue producing uncertain rankings?. (arXiv:2312.17560v2 [cs.DL] UPDATED)
 
-    [https://arxiv.org/abs/2403.20298](https://arxiv.org/abs/2403.20298)
+    [http://arxiv.org/abs/2312.17560](http://arxiv.org/abs/2312.17560)
 
-    本文基于评论文本提出了一种双曲CDR方法，以应对推荐系统中的数据稀疏性挑战，避免传统基于距离的领域对齐技术可能引发的问题。
+    这项研究对基于引用的国家排名进行了分析，发现这些排名可能对日本的科研地位进行错误的分类。研究还发现了引用分布的偏离情况，并评估了其对评估的影响。
 
     
 
-    数据稀疏性问题对推荐系统构成了重要挑战。本文提出了一种基于评论文本的算法，以应对这一问题。此外，跨领域推荐（CDR）吸引了广泛关注，它捕捉可在领域间共享的知识，并将其从更丰富的领域（源领域）转移到更稀疏的领域（目标领域）。然而，现有大多数方法假设欧几里德嵌入空间，在准确表示更丰富的文本信息和处理用户和物品之间的复杂交互方面遇到困难。本文倡导一种基于评论文本的双曲CDR方法来建模用户-物品关系。首先强调了传统的基于距离的领域对齐技术可能会导致问题，因为在双曲几何中对小修改造成的干扰会被放大，最终导致层次性崩溃。
+    基于引用的国家排名通常将日本划为发展中国家，甚至是在最有声望的机构中也是如此。考虑到日本的科研地位提升，这种分类挑战了这些排名的可信度。在大多数情况下，这些排名使用百分位指标，如果国家的引用符合理想的分布模型，那么这些排名是准确的，但在偏离的情况下，它们可能具有误导性。理想模型意味着对数正态分布的引用分布和基于幂律的引用分布的双重排名：全球和国家排名。本研究对偏离理想模型的情况进行了系统性的检查，以及其对评估的影响。研究评估了三个具有科学相关性的主题的六个选定国家，并利用莱顿排名评估了300多所大学。研究结果显示了对数正态分布的三种偏离类型：i 极端上尾部的偏离；ii 膨胀的下尾部；
 
-    arXiv:2403.20298v1 Announce Type: cross  Abstract: The issue of data sparsity poses a significant challenge to recommender systems. In response to this, algorithms that leverage side information such as review texts have been proposed. Furthermore, Cross-Domain Recommendation (CDR), which captures domain-shareable knowledge and transfers it from a richer domain (source) to a sparser one (target), has received notable attention. Nevertheless, the majority of existing methodologies assume a Euclidean embedding space, encountering difficulties in accurately representing richer text information and managing complex interactions between users and items. This paper advocates a hyperbolic CDR approach based on review texts for modeling user-item relationships. We first emphasize that conventional distance-based domain alignment techniques may cause problems because small modifications in hyperbolic geometry result in magnified perturbations, ultimately leading to the collapse of hierarchical 
+    Citation based country rankings consistently categorize Japan as a developing country, even in those from the most reputed institutions. This categorization challenges the credibility of such rankings, considering Japan elevated scientific standing. In most cases, these rankings use percentile indicators and are accurate if country citations fit an ideal model of distribution, but they can be misleading in cases of deviations. The ideal model implies a lognormal citation distribution and a power law citation based double rank: in the global and country lists. This report conducts a systematic examination of deviations from the ideal model and their consequential impact on evaluations. The study evaluates six selected countries across three scientifically relevant topics and utilizes Leiden Ranking assessments of over 300 universities. The findings reveal three types of deviations from the lognormal citation distribution: i deviations in the extreme upper tail; ii inflated lower tails; 
     
 

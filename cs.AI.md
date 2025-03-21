@@ -2,97 +2,142 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Softmax Probabilities (Mostly) Predict Large Language Model Correctness on Multiple-Choice Q&A](https://arxiv.org/abs/2402.13213) | 多项选择问答任务中，基于最大softmax概率（MSPs）的模型预测方法有助于提高大型语言模型（LLMs）的正确性，我们提出了一种根据MSP有选择地弃权的策略以提高性能。 |
-| [^2] | [Tailoring Mixup to Data using Kernel Warping functions.](http://arxiv.org/abs/2311.01434) | 本研究提出了一种利用核扭曲函数对Mixup数据进行个性化处理的方法，通过动态改变插值系数的概率分布来实现更频繁和更强烈的混合相似数据点。实验证明这种方法不仅提高了模型性能，还提高了模型的校准性。 |
-| [^3] | [From Transcripts to Insights: Uncovering Corporate Risks Using Generative AI.](http://arxiv.org/abs/2310.17721) | 这项研究探索了使用生成型人工智能工具帮助投资者揭示企业风险的价值，通过从收益电话的上下文中生成风险摘要和评估，这些基于GPT的度量具有显著的信息内容，能够预测企业层面波动性和投资创新选择。此外，生成型人工智能还能有效检测新兴风险，并且这些度量在股权市场中起到定价作用。 |
-| [^4] | [Bloated Disclosures: Can ChatGPT Help Investors Process Financial Information?.](http://arxiv.org/abs/2306.10224) | 研究发现生成式 AI 工具 ChatGPT 可以更有效地展示股票市场相关信息，提出了信息膨胀指标并证明其与负面的资本市场后果相关，同时展示其在构建针对性总结方面的效果。 |
-| [^5] | [MedAlpaca -- An Open-Source Collection of Medical Conversational AI Models and Training Data.](http://arxiv.org/abs/2304.08247) | MedAlpaca是一个开源的医疗会话式人工智能模型和训练数据集合，旨在通过细化调整预训练语言模型来改善医疗工作流程和医生认证考试的表现。 |
-| [^6] | [On the Need and Applicability of Causality for Fair Machine Learning.](http://arxiv.org/abs/2207.04053) | 本论文探讨了因果关系在公平机器学习中的必要性和适用性，强调了非因果预测的社会影响和法律反歧视过程依赖于因果主张。同时讨论了在实际场景中应用因果关系所面临的挑战和限制，并提出了可能的解决方案。 |
+| [^1] | [Data Mixing Laws: Optimizing Data Mixtures by Predicting Language Modeling Performance](https://arxiv.org/abs/2403.16952) | 该研究发现了数据混合规律，可以量化地预测模型性能与数据混合比例之间的关系，并提出了一种方法来通过拟合函数形式来引导理想的数据混合选择，从而优化大型语言模型的训练混合。 |
+| [^2] | [A Comprehensive Survey on Process-Oriented Automatic Text Summarization with Exploration of LLM-Based Methods](https://arxiv.org/abs/2403.02901) | 本综合调查从“过程导向模式“视角提供了自动文本摘要的全面概述，全面审视了最新的基于LLM的ATS工作，并提供了关于ATS最新的调查，弥补了文献中的两年间隔。 |
+| [^3] | [CREMA: Multimodal Compositional Video Reasoning via Efficient Modular Adaptation and Fusion](https://arxiv.org/abs/2402.05889) | 该论文提出了一种名为CREMA的高效且模块化的模态融合框架，用于将任意新的模态注入视频推理。通过利用预训练模型增强多种信息模态，并引入查询转换器和融合模块，实现了灵活且有效的多模态组合推理。 |
+| [^4] | [SERL: A Software Suite for Sample-Efficient Robotic Reinforcement Learning](https://arxiv.org/abs/2401.16013) | 这个论文介绍了SERL软件套件，它是一个用于样本高效的机器人强化学习的库。该库包含了一个离线深度强化学习方法、计算奖励和重置环境的方法，高质量的机器人控制器，以及一些具有挑战性的示例任务。这个软件套件的目标是解决机器人强化学习的难以使用和获取性的挑战。 |
+| [^5] | [Graphical Object-Centric Actor-Critic.](http://arxiv.org/abs/2310.17178) | 这项研究提出了一种新颖的以对象为中心的强化学习算法，将演员-评论家和基于模型的方法结合起来，利用解耦的对象表示有效地学习策略。该方法填补了以对象为中心的强化学习环境中高效且适用于离散或连续动作空间的世界模型的研究空白。 |
+| [^6] | [Approximate Computing Survey, Part II: Application-Specific & Architectural Approximation Techniques and Applications.](http://arxiv.org/abs/2307.11128) | 近似计算是一种能够调整系统设计结果质量以提高能源效率和/或性能的新兴解决方案，已吸引学术界和工业界的广泛关注。这篇论文是一个关于应用特定和架构近似技术的调查的第二部分。 |
+| [^7] | [BELLA: Black box model Explanations by Local Linear Approximations.](http://arxiv.org/abs/2305.11311) | 本文提出了一种确定性的、与模型无关的事后方法BELLA，用于解释回归黑盒模型的个别预测。该方法通过特征空间中训练的线性模型提供解释，使得该模型的系数可以直接用于计算特征值的预测值。此外，BELLA最大化了线性模型适用的领域范围。 |
+| [^8] | [Human Choice Prediction in Non-Cooperative Games: Simulation-based Off-Policy Evaluation.](http://arxiv.org/abs/2305.10361) | 本文研究了语言游戏中的离线策略评估，并提出了一种结合真实和模拟数据的新方法。 |
+| [^9] | [A Graph Neural Network Approach to Nanosatellite Task Scheduling: Insights into Learning Mixed-Integer Models.](http://arxiv.org/abs/2303.13773) | 本研究提出基于GNN的纳米卫星任务调度方法，以更好地优化服务质量，解决ONTS问题的复杂性。 |
 
 # 详细
 
-[^1]: 软最大概率（大部分时候）在多项选择问答任务中预测大型语言模型的正确性
+[^1]: 数据混合规律：通过预测语言建模性能来优化数据混合
 
-    Softmax Probabilities (Mostly) Predict Large Language Model Correctness on Multiple-Choice Q&A
+    Data Mixing Laws: Optimizing Data Mixtures by Predicting Language Modeling Performance
 
-    [https://arxiv.org/abs/2402.13213](https://arxiv.org/abs/2402.13213)
+    [https://arxiv.org/abs/2403.16952](https://arxiv.org/abs/2403.16952)
 
-    多项选择问答任务中，基于最大softmax概率（MSPs）的模型预测方法有助于提高大型语言模型（LLMs）的正确性，我们提出了一种根据MSP有选择地弃权的策略以提高性能。
-
-    
-
-    尽管大型语言模型（LLMs）在许多任务上表现出色，但过度自信仍然是一个问题。我们假设在多项选择问答任务中，错误答案将与最大softmax概率（MSPs）较小相关，相比之下正确答案较大。我们在十个开源LLMs和五个数据集上全面评估了这一假设，在表现良好的原始问答任务中发现了对我们假设的强有力证据。对于表现最佳的六个LLMs，从MSP导出的AUROC在59/60个实例中都优于随机机会，p < 10^{-4}。在这六个LLMs中，平均AUROC范围在60%至69%之间。利用这些发现，我们提出了一个带有弃权选项的多项选择问答任务，并展示通过根据初始模型响应的MSP有选择地弃权可以提高性能。我们还用预softmax logits而不是softmax进行了相同的实验。
-
-    arXiv:2402.13213v1 Announce Type: cross  Abstract: Although large language models (LLMs) perform impressively on many tasks, overconfidence remains a problem. We hypothesized that on multiple-choice Q&A tasks, wrong answers would be associated with smaller maximum softmax probabilities (MSPs) compared to correct answers. We comprehensively evaluate this hypothesis on ten open-source LLMs and five datasets, and find strong evidence for our hypothesis among models which perform well on the original Q&A task. For the six LLMs with the best Q&A performance, the AUROC derived from the MSP was better than random chance with p < 10^{-4} in 59/60 instances. Among those six LLMs, the average AUROC ranged from 60% to 69%. Leveraging these findings, we propose a multiple-choice Q&A task with an option to abstain and show that performance can be improved by selectively abstaining based on the MSP of the initial model response. We also run the same experiments with pre-softmax logits instead of sof
-    
-[^2]: 通过核扭曲函数定制Mixup数据
-
-    Tailoring Mixup to Data using Kernel Warping functions. (arXiv:2311.01434v1 [cs.LG])
-
-    [http://arxiv.org/abs/2311.01434](http://arxiv.org/abs/2311.01434)
-
-    本研究提出了一种利用核扭曲函数对Mixup数据进行个性化处理的方法，通过动态改变插值系数的概率分布来实现更频繁和更强烈的混合相似数据点。实验证明这种方法不仅提高了模型性能，还提高了模型的校准性。
+    该研究发现了数据混合规律，可以量化地预测模型性能与数据混合比例之间的关系，并提出了一种方法来通过拟合函数形式来引导理想的数据混合选择，从而优化大型语言模型的训练混合。
 
     
 
-    数据增强是学习高效深度学习模型的重要基础。在所有提出的增强技术中，线性插值训练数据点（也称为Mixup）已被证明在许多应用中非常有效。然而，大多数研究都集中在选择合适的点进行混合，或者应用复杂的非线性插值，而我们则对更相似的点进行更频繁和更强烈的混合感兴趣。为此，我们提出了通过扭曲函数动态改变插值系数的概率分布的方法，取决于要组合的数据点之间的相似性。我们定义了一个高效而灵活的框架来实现这一点，以避免多样性的损失。我们进行了广泛的分类和回归任务实验，结果显示我们提出的方法既提高了模型的性能，又提高了模型的校准性。代码可在https://github.com/ENSTA-U2IS/torch-uncertainty上找到。
+    大型语言模型的预训练数据包括多个领域（例如网络文本、学术论文、代码），其混合比例对结果模型的能力至关重要。现有的工作通常依赖于启发式方法或定性策略来调整比例，我们发现了模型性能与混合比例之间的函数形式的定量可预测性，我们称之为数据混合规律。在样本混合上拟合这种函数揭示了未见混合的模型性能，从而引导选择理想的数据混合。此外，我们提出了训练步骤、模型大小和我们的数据混合规律的缩放规律的嵌套使用，以使得仅通过小规模训练就能够预测在各种混合数据下训练的大模型的性能。此外，实验结果验证了我们的方法有效地优化了训练混合。
 
-    Data augmentation is an essential building block for learning efficient deep learning models. Among all augmentation techniques proposed so far, linear interpolation of training data points, also called mixup, has found to be effective for a large panel of applications. While the majority of works have focused on selecting the right points to mix, or applying complex non-linear interpolation, we are interested in mixing similar points more frequently and strongly than less similar ones. To this end, we propose to dynamically change the underlying distribution of interpolation coefficients through warping functions, depending on the similarity between data points to combine. We define an efficient and flexible framework to do so without losing in diversity. We provide extensive experiments for classification and regression tasks, showing that our proposed method improves both performance and calibration of models. Code available in https://github.com/ENSTA-U2IS/torch-uncertainty
+    arXiv:2403.16952v1 Announce Type: cross  Abstract: Pretraining data of large language models composes multiple domains (e.g., web texts, academic papers, codes), whose mixture proportions crucially impact the competence of outcome models. While existing endeavors rely on heuristics or qualitative strategies to tune the proportions, we discover the quantitative predictability of model performance regarding the mixture proportions in function forms, which we refer to as the data mixing laws. Fitting such functions on sample mixtures unveils model performance on unseen mixtures before actual runs, thus guiding the selection of an ideal data mixture. Furthermore, we propose nested use of the scaling laws of training steps, model sizes, and our data mixing law to enable predicting the performance of large models trained on massive data under various mixtures with only small-scale training. Moreover, experimental results verify that our method effectively optimizes the training mixture of a 
     
-[^3]: 从讲话文本到洞察力：利用生成型人工智能揭示企业风险
+[^2]: 关于过程导向自动文本摘要的综合调查，并探讨基于LLM的方法
 
-    From Transcripts to Insights: Uncovering Corporate Risks Using Generative AI. (arXiv:2310.17721v1 [econ.GN])
+    A Comprehensive Survey on Process-Oriented Automatic Text Summarization with Exploration of LLM-Based Methods
 
-    [http://arxiv.org/abs/2310.17721](http://arxiv.org/abs/2310.17721)
+    [https://arxiv.org/abs/2403.02901](https://arxiv.org/abs/2403.02901)
 
-    这项研究探索了使用生成型人工智能工具帮助投资者揭示企业风险的价值，通过从收益电话的上下文中生成风险摘要和评估，这些基于GPT的度量具有显著的信息内容，能够预测企业层面波动性和投资创新选择。此外，生成型人工智能还能有效检测新兴风险，并且这些度量在股权市场中起到定价作用。
-
-    
-
-    我们探索了使用ChatGPT等生成型人工智能工具帮助投资者揭示企业风险维度的价值。我们开发并验证了政治、气候和人工智能相关风险的企业层面风险敞口度量。使用GPT 3.5模型从收益电话的背景提供的上下文生成风险摘要和评估，我们发现基于GPT的度量具有显著的信息内容，并在预测（异常）企业层面波动性和企业的选择（如投资和创新）方面优于现有的风险度量。重要的是，风险评估中的信息优于风险摘要，这证明了通用人工智能知识的价值。我们还发现，生成型人工智能对于发现新兴风险（如近几个季度飙升的人工智能风险）非常有效。我们的度量在GPT的训练窗口内外表现良好，并且在股权市场中定价。综上所述，基于人工智能的风险测量方法提供了有用的洞察。
-
-    We explore the value of generative AI tools, such as ChatGPT, in helping investors uncover dimensions of corporate risk. We develop and validate firm-level measures of risk exposure to political, climate, and AI-related risks. Using the GPT 3.5 model to generate risk summaries and assessments from the context provided by earnings call transcripts, we show that GPT-based measures possess significant information content and outperform the existing risk measures in predicting (abnormal) firm-level volatility and firms' choices such as investment and innovation. Importantly, information in risk assessments dominates that in risk summaries, establishing the value of general AI knowledge. We also find that generative AI is effective at detecting emerging risks, such as AI risk, which has soared in recent quarters. Our measures perform well both within and outside the GPT's training window and are priced in equity markets. Taken together, an AI-based approach to risk measurement provides usef
-    
-[^4]: 膨胀的披露：ChatGPT是否能帮助投资者处理财务信息？
-
-    Bloated Disclosures: Can ChatGPT Help Investors Process Financial Information?. (arXiv:2306.10224v1 [econ.GN])
-
-    [http://arxiv.org/abs/2306.10224](http://arxiv.org/abs/2306.10224)
-
-    研究发现生成式 AI 工具 ChatGPT 可以更有效地展示股票市场相关信息，提出了信息膨胀指标并证明其与负面的资本市场后果相关，同时展示其在构建针对性总结方面的效果。
+    本综合调查从“过程导向模式“视角提供了自动文本摘要的全面概述，全面审视了最新的基于LLM的ATS工作，并提供了关于ATS最新的调查，弥补了文献中的两年间隔。
 
     
 
-    生成式 AI 工具（如 ChatGPT）可以从根本上改变投资者处理信息的方式。我们使用股票市场作为实验室，探究这些工具在总结复杂的公司披露信息时的经济效用。总结摘要明显更短，通常比原始文本缩短超过 70%，而信息内容得到增强。当一份文件具有积极（消极）情感时，其总结变得更积极（消极）。更重要的是，总结对解释股市对披露信息的反应更有效。基于这些发现，我们提出了信息“膨胀”指标。我们显示，膨胀的披露与负面的资本市场后果相关，例如更低的价格有效性和更高的信息不对称性。最后，我们展示了这个模型在构建针对性总结方面的有效性，以确定公司的（非）财务表现和风险。总之，我们的研究结果表明，像 ChatGPT 这样的生成式 AI 工具可以有效地帮助投资者更高效地处理财务信息。
+    arXiv:2403.02901v1 公告类型: 新的 摘要: 自动文本摘要（ATS）利用自然语言处理（NLP）算法，旨在创建简洁准确的摘要，从而显著减少处理大量文本所需的人力。ATS在学术界和工业界都引起了极大兴趣。过去已进行了许多研究来调查ATS的方法; 但是，它们通常缺乏对实际实施的实用性，因为它们经常从理论的角度对以往的方法进行分类。此外，大型语言模型（LLMs）的出现改变了传统的ATS方法。在这项调查中，我们旨在 1）从“过程导向模式”视角提供ATS的全面概述，最符合实际应用; 2) 全面审视最新的基于LLM的ATS工作; 以及 3）提供关于ATS的最新调查，弥补文献中两年间隔之处。令人感到满意
 
-    Generative AI tools such as ChatGPT can fundamentally change the way investors process information. We probe the economic usefulness of these tools in summarizing complex corporate disclosures using the stock market as a laboratory. The unconstrained summaries are dramatically shorter, often by more than 70% compared to the originals, whereas their information content is amplified. When a document has a positive (negative) sentiment, its summary becomes more positive (negative). More importantly, the summaries are more effective at explaining stock market reactions to the disclosed information. Motivated by these findings, we propose a measure of information "bloat." We show that bloated disclosure is associated with adverse capital markets consequences, such as lower price efficiency and higher information asymmetry. Finally, we show that the model is effective at constructing targeted summaries that identify firms' (non-)financial performance and risks. Collectively, our results indi
+    arXiv:2403.02901v1 Announce Type: new  Abstract: Automatic Text Summarization (ATS), utilizing Natural Language Processing (NLP) algorithms, aims to create concise and accurate summaries, thereby significantly reducing the human effort required in processing large volumes of text. ATS has drawn considerable interest in both academic and industrial circles. Many studies have been conducted in the past to survey ATS methods; however, they generally lack practicality for real-world implementations, as they often categorize previous methods from a theoretical standpoint. Moreover, the advent of Large Language Models (LLMs) has altered conventional ATS methods. In this survey, we aim to 1) provide a comprehensive overview of ATS from a ``Process-Oriented Schema'' perspective, which is best aligned with real-world implementations; 2) comprehensively review the latest LLM-based ATS works; and 3) deliver an up-to-date survey of ATS, bridging the two-year gap in the literature. To the best of o
     
-[^5]: MedAlpaca -- 一个开源的医疗会话式人工智能模型和训练数据集合
+[^3]: CREMA: 通过有效的模块化适应和融合进行多模态组合视频推理
 
-    MedAlpaca -- An Open-Source Collection of Medical Conversational AI Models and Training Data. (arXiv:2304.08247v2 [cs.CL] UPDATED)
+    CREMA: Multimodal Compositional Video Reasoning via Efficient Modular Adaptation and Fusion
 
-    [http://arxiv.org/abs/2304.08247](http://arxiv.org/abs/2304.08247)
+    [https://arxiv.org/abs/2402.05889](https://arxiv.org/abs/2402.05889)
 
-    MedAlpaca是一个开源的医疗会话式人工智能模型和训练数据集合，旨在通过细化调整预训练语言模型来改善医疗工作流程和医生认证考试的表现。
-
-    
-
-    随着OpenAI的GPT系列等大型语言模型的不断发展，我们见证了人工智能在越来越广泛的领域中的应用出现。在医学领域，这些语言模型在改善医疗工作流程、诊断、患者护理和教育方面具有相当大的潜力。然而，迫切需要开源模型，以在本地部署以保护患者隐私。在我们的工作中，我们提出了一个创新的数据集，其中包含超过16万条数据，专门为了对语言模型进行细化调整以实现有效的医疗应用。我们研究了在公开可访问的预训练语言模型上对这些数据集进行细化调整的影响，并随后通过比较仅使用预训练模型与细化调整模型在未来医生必须通过的考试中的表现来展示其性能。
-
-    As large language models (LLMs) like OpenAI's GPT series continue to make strides, we witness the emergence of artificial intelligence applications in an ever-expanding range of fields. In medicine, these LLMs hold considerable promise for improving medical workflows, diagnostics, patient care, and education. Yet, there is an urgent need for open-source models that can be deployed on-premises to safeguard patient privacy. In our work, we present an innovative dataset consisting of over 160,000 entries, specifically crafted to fine-tune LLMs for effective medical applications. We investigate the impact of fine-tuning these datasets on publicly accessible pre-trained LLMs, and subsequently, we juxtapose the performance of pre-trained-only models against the fine-tuned models concerning the examinations that future medical doctors must pass to achieve certification.
-    
-[^6]: 论公平机器学习中因果关系的必要性和适用性
-
-    On the Need and Applicability of Causality for Fair Machine Learning. (arXiv:2207.04053v2 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2207.04053](http://arxiv.org/abs/2207.04053)
-
-    本论文探讨了因果关系在公平机器学习中的必要性和适用性，强调了非因果预测的社会影响和法律反歧视过程依赖于因果主张。同时讨论了在实际场景中应用因果关系所面临的挑战和限制，并提出了可能的解决方案。
+    该论文提出了一种名为CREMA的高效且模块化的模态融合框架，用于将任意新的模态注入视频推理。通过利用预训练模型增强多种信息模态，并引入查询转换器和融合模块，实现了灵活且有效的多模态组合推理。
 
     
 
-    除了在流行病学、政治和社会科学中的常见应用案例外，事实证明因果关系在评估自动决策的公正性方面十分重要，无论是在法律上还是日常生活中。我们提供了关于为何因果关系对公平性评估尤为重要的论点和示例。特别是，我们指出了非因果预测的社会影响以及依赖因果主张的法律反歧视过程。我们最后讨论了应用因果关系在实际场景中的挑战和局限性，以及可能的解决方案。
+    尽管在多模态组合推理方法方面取得了令人瞩目的进展，但由于处理固定模态输入并更新许多模型参数，仍然存在灵活性和效率方面的限制。本文解决了这些关键挑战，提出了CREMA，一种用于将任何新的模态注入视频推理的高效且模块化的模态融合框架。我们首先利用现有的预训练模型从给定的视频中增强多种信息模态（如光流、3D点云、音频），而无需额外的人工注释。接下来，我们引入了一个查询转换器，该转换器与每个可以访问的模态相关联，并具有多个参数高效的模块。它将多种模态特征投影到LLM令牌嵌入空间，使模型能够整合不同的数据类型以进行响应生成。此外，我们提出了一个融合模块，用于压缩多模态查询，在LLM中保持计算效率的同时进行融合组合。
 
-    Besides its common use cases in epidemiology, political, and social sciences, causality turns out to be crucial in evaluating the fairness of automated decisions, both in a legal and everyday sense. We provide arguments and examples, of why causality is particularly important for fairness evaluation. In particular, we point out the social impact of non-causal predictions and the legal anti-discrimination process that relies on causal claims. We conclude with a discussion about the challenges and limitations of applying causality in practical scenarios as well as possible solutions.
+    Despite impressive advancements in multimodal compositional reasoning approaches, they are still limited in their flexibility and efficiency by processing fixed modality inputs while updating a lot of model parameters. This paper tackles these critical challenges and proposes CREMA, an efficient and modular modality-fusion framework for injecting any new modality into video reasoning. We first augment multiple informative modalities (such as optical flow, 3D point cloud, audio) from given videos without extra human annotation by leveraging existing pre-trained models. Next, we introduce a query transformer with multiple parameter-efficient modules associated with each accessible modality. It projects diverse modality features to the LLM token embedding space, allowing the model to integrate different data types for response generation. Furthermore, we propose a fusion module designed to compress multimodal queries, maintaining computational efficiency in the LLM while combining additio
+    
+[^4]: SERL: 用于样本高效的机器人强化学习的软件套件
+
+    SERL: A Software Suite for Sample-Efficient Robotic Reinforcement Learning
+
+    [https://arxiv.org/abs/2401.16013](https://arxiv.org/abs/2401.16013)
+
+    这个论文介绍了SERL软件套件，它是一个用于样本高效的机器人强化学习的库。该库包含了一个离线深度强化学习方法、计算奖励和重置环境的方法，高质量的机器人控制器，以及一些具有挑战性的示例任务。这个软件套件的目标是解决机器人强化学习的难以使用和获取性的挑战。
+
+    
+
+    近年来，在机器人强化学习领域取得了显著进展，使得可以处理复杂的图像观察，实际训练，并结合辅助数据（如示范和先前经验）。然而，尽管取得了这些进展，机器人强化学习仍然难以使用。从实践者中认识到，这些算法的具体实现细节对性能的影响常常与算法选择同样重要（如果不是更重要）。我们认为，机器人强化学习被广泛采用以及进一步发展机器人强化学习方法的一个重要挑战是这些方法的相对难以获取性。为了解决这个挑战，我们开发了一个精心实现的库，其中包含了一种高效样本离线深度强化学习方法，以及计算奖励和重置环境的方法，针对广泛采用的机器人的高质量控制器，以及一些具有挑战性的示例任务。
+
+    In recent years, significant progress has been made in the field of robotic reinforcement learning (RL), enabling methods that handle complex image observations, train in the real world, and incorporate auxiliary data, such as demonstrations and prior experience. However, despite these advances, robotic RL remains hard to use. It is acknowledged among practitioners that the particular implementation details of these algorithms are often just as important (if not more so) for performance as the choice of algorithm. We posit that a significant challenge to widespread adoption of robotic RL, as well as further development of robotic RL methods, is the comparative inaccessibility of such methods. To address this challenge, we developed a carefully implemented library containing a sample efficient off-policy deep RL method, together with methods for computing rewards and resetting the environment, a high-quality controller for a widely-adopted robot, and a number of challenging example task
+    
+[^5]: 图形化的以对象为中心的Actor-Critic算法
+
+    Graphical Object-Centric Actor-Critic. (arXiv:2310.17178v1 [cs.AI])
+
+    [http://arxiv.org/abs/2310.17178](http://arxiv.org/abs/2310.17178)
+
+    这项研究提出了一种新颖的以对象为中心的强化学习算法，将演员-评论家和基于模型的方法结合起来，利用解耦的对象表示有效地学习策略。该方法填补了以对象为中心的强化学习环境中高效且适用于离散或连续动作空间的世界模型的研究空白。
+
+    
+
+    最近在无监督的以对象为中心的表示学习及其在下游任务中的应用方面取得了重要进展。最新的研究支持这样一个观点，即在基于图像的以对象为中心的强化学习任务中采用解耦的对象表示能够促进策略学习。我们提出了一种新颖的以对象为中心的强化学习算法，将演员-评论家算法和基于模型的方法结合起来，以有效利用这些表示。在我们的方法中，我们使用一个变换器编码器来提取对象表示，并使用图神经网络来近似环境的动力学。所提出的方法填补了开发强化学习环境中可以用于离散或连续动作空间的高效以对象为中心的世界模型的研究空白。我们的算法在一个具有复杂视觉3D机器人环境和一个具有组合结构的2D环境中表现更好。
+
+    There have recently been significant advances in the problem of unsupervised object-centric representation learning and its application to downstream tasks. The latest works support the argument that employing disentangled object representations in image-based object-centric reinforcement learning tasks facilitates policy learning. We propose a novel object-centric reinforcement learning algorithm combining actor-critic and model-based approaches to utilize these representations effectively. In our approach, we use a transformer encoder to extract object representations and graph neural networks to approximate the dynamics of an environment. The proposed method fills a research gap in developing efficient object-centric world models for reinforcement learning settings that can be used for environments with discrete or continuous action spaces. Our algorithm performs better in a visually complex 3D robotic environment and a 2D environment with compositional structure than the state-of-t
+    
+[^6]: 近似计算调查，第二部分：应用特定和架构近似技术及应用
+
+    Approximate Computing Survey, Part II: Application-Specific & Architectural Approximation Techniques and Applications. (arXiv:2307.11128v1 [cs.AR])
+
+    [http://arxiv.org/abs/2307.11128](http://arxiv.org/abs/2307.11128)
+
+    近似计算是一种能够调整系统设计结果质量以提高能源效率和/或性能的新兴解决方案，已吸引学术界和工业界的广泛关注。这篇论文是一个关于应用特定和架构近似技术的调查的第二部分。
+
+    
+
+    计算密集型应用的挑战性部署，如人工智能（AI）和数字信号处理（DSP），迫使计算系统界探索新的设计方法。近似计算成为一种新兴解决方案，允许在系统设计中调整结果的质量，以提高能源效率和/或性能。近年来，这种根本性的范式转变吸引了学术界和工业界的兴趣，并在不同设计层面（从系统到集成电路）上进行了重要的近似技术和方法的研究。受近似计算在过去10年的广泛吸引力的驱使，我们进行了一个两部分的调查，涵盖了关键方面（如术语和应用）并回顾了传统计算堆栈的各个层面的最新近似技术。在我们的调查第二部分中，我们对应用特定和架构近似技术的技术细节进行分类和介绍。
+
+    The challenging deployment of compute-intensive applications from domains such Artificial Intelligence (AI) and Digital Signal Processing (DSP), forces the community of computing systems to explore new design approaches. Approximate Computing appears as an emerging solution, allowing to tune the quality of results in the design of a system in order to improve the energy efficiency and/or performance. This radical paradigm shift has attracted interest from both academia and industry, resulting in significant research on approximation techniques and methodologies at different design layers (from system down to integrated circuits). Motivated by the wide appeal of Approximate Computing over the last 10 years, we conduct a two-part survey to cover key aspects (e.g., terminology and applications) and review the state-of-the art approximation techniques from all layers of the traditional computing stack. In Part II of our survey, we classify and present the technical details of application-s
+    
+[^7]: BELLA: 通过本地线性逼近进行黑盒模型解释
+
+    BELLA: Black box model Explanations by Local Linear Approximations. (arXiv:2305.11311v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.11311](http://arxiv.org/abs/2305.11311)
+
+    本文提出了一种确定性的、与模型无关的事后方法BELLA，用于解释回归黑盒模型的个别预测。该方法通过特征空间中训练的线性模型提供解释，使得该模型的系数可以直接用于计算特征值的预测值。此外，BELLA最大化了线性模型适用的领域范围。
+
+    
+
+    近年来，理解黑盒模型的决策过程不仅成为法律要求，也成为评估其性能的另一种方式。然而，现有的事后解释方法依赖于合成数据生成，这引入了不确定性并可能损害解释的可靠性，并且它们 tend to produce explanations that apply to only very few data points. This makes the explanations brittle and limited in scope. Finally, they provide scores that have no direct verifiable meaning. In this paper, we present BELLA, a deterministic model-agnostic post-hoc approach for explaining the individual predictions of regression black-box models. BELLA provides explanations in the form of a linear model trained in the feature space. Thus, its coefficients can be used directly to compute the predicted value from the feature values. Furthermore, BELLA maximizes the size of the neighborhood to which the linear model a
+
+    In recent years, understanding the decision-making process of black-box models has become not only a legal requirement but also an additional way to assess their performance. However, the state of the art post-hoc interpretation approaches rely on synthetic data generation. This introduces uncertainty and can hurt the reliability of the interpretations. Furthermore, they tend to produce explanations that apply to only very few data points. This makes the explanations brittle and limited in scope. Finally, they provide scores that have no direct verifiable meaning. In this paper, we present BELLA, a deterministic model-agnostic post-hoc approach for explaining the individual predictions of regression black-box models. BELLA provides explanations in the form of a linear model trained in the feature space. Thus, its coefficients can be used directly to compute the predicted value from the feature values. Furthermore, BELLA maximizes the size of the neighborhood to which the linear model a
+    
+[^8]: 非合作博弈中的人类选择预测：基于模拟的离线策略评估
+
+    Human Choice Prediction in Non-Cooperative Games: Simulation-based Off-Policy Evaluation. (arXiv:2305.10361v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.10361](http://arxiv.org/abs/2305.10361)
+
+    本文研究了语言游戏中的离线策略评估，并提出了一种结合真实和模拟数据的新方法。
+
+    
+
+    说服游戏在经济和人工智能研究中具有重要意义并具有重要的实际应用。本文探讨了在基于语言的说服游戏中离线策略评估（OPE）的挑战性问题，提出了一种结合真实和模拟人类 - 机器人交互数据的新方法，并给出了一种深度学习训练算法，该算法有效地整合了真实交互和模拟数据。
+
+    Persuasion games have been fundamental in economics and AI research, and have significant practical applications. Recent works in this area have started to incorporate natural language, moving beyond the traditional stylized message setting. However, previous research has focused on on-policy prediction, where the train and test data have the same distribution, which is not representative of real-life scenarios. In this paper, we tackle the challenging problem of off-policy evaluation (OPE) in language-based persuasion games. To address the inherent difficulty of human data collection in this setup, we propose a novel approach which combines real and simulated human-bot interaction data. Our simulated data is created by an exogenous model assuming decision makers (DMs) start with a mixture of random and decision-theoretic based behaviors and improve over time. We present a deep learning training algorithm that effectively integrates real interaction and simulated data, substantially im
+    
+[^9]: 基于图神经网络的纳米卫星任务调度方法：学习混合整数模型的洞见
+
+    A Graph Neural Network Approach to Nanosatellite Task Scheduling: Insights into Learning Mixed-Integer Models. (arXiv:2303.13773v1 [cs.LG])
+
+    [http://arxiv.org/abs/2303.13773](http://arxiv.org/abs/2303.13773)
+
+    本研究提出基于GNN的纳米卫星任务调度方法，以更好地优化服务质量，解决ONTS问题的复杂性。
+
+    
+
+    本研究探讨如何利用图神经网络（GNN）更有效地调度纳米卫星任务。在离线纳米卫星任务调度（ONTS）问题中，目标是找到在轨道上执行任务的最佳安排，同时考虑服务质量（QoS）方面的考虑因素，如优先级，最小和最大激活事件，执行时间框架，周期和执行窗口，以及卫星电力资源和能量收集和管理的复杂性的约束。ONTS问题已经使用传统的数学公式和精确方法进行了处理，但是它们在问题的挑战性案例中的适用性有限。本研究考察了在这种情况下使用GNN的方法，该方法已经成功应用于许多优化问题，包括旅行商问题，调度问题和设施放置问题。在本文中，我们将ONTS问题的MILP实例完全表示成二分图网络结构来应用GNN。
+
+    This study investigates how to schedule nanosatellite tasks more efficiently using Graph Neural Networks (GNN). In the Offline Nanosatellite Task Scheduling (ONTS) problem, the goal is to find the optimal schedule for tasks to be carried out in orbit while taking into account Quality-of-Service (QoS) considerations such as priority, minimum and maximum activation events, execution time-frames, periods, and execution windows, as well as constraints on the satellite's power resources and the complexity of energy harvesting and management. The ONTS problem has been approached using conventional mathematical formulations and precise methods, but their applicability to challenging cases of the problem is limited. This study examines the use of GNNs in this context, which has been effectively applied to many optimization problems, including traveling salesman problems, scheduling problems, and facility placement problems. Here, we fully represent MILP instances of the ONTS problem in biparti
     
 
