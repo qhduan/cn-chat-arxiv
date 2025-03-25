@@ -2,112 +2,127 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [GET: Unlocking the Multi-modal Potential of CLIP for Generalized Category Discovery](https://arxiv.org/abs/2403.09974) | 本文提出了一种文本嵌入合成器（TES），用于为无标签数据生成伪文本嵌入，以解锁CLIP用于广义类别发现任务中的多模态潜力。 |
-| [^2] | [Large Language Models and Causal Inference in Collaboration: A Comprehensive Survey](https://arxiv.org/abs/2403.09606) | 大型语言模型的出现极大影响了自然语言处理领域，特别是通过其先进的推理能力。而本综述则重点评估和改进了大型语言模型在因果推断方面的应用，包括提高推理能力、解决公平和安全问题、提供解释和处理多模态。 |
-| [^3] | [ContextGPT: Infusing LLMs Knowledge into Neuro-Symbolic Activity Recognition Models](https://arxiv.org/abs/2403.06586) | 将预训练的大型语言模型（LLMs）的常识知识有效地注入神经符号活动识别模型，以缓解标记数据稀缺性问题。 |
-| [^4] | [Standardizing the Measurement of Text Diversity: A Tool and a Comparative Analysis of Scores](https://arxiv.org/abs/2403.00553) | 本论文提出了一种用于衡量文本多样性的标准分数，通过实证研究发现压缩算法可以捕捉类似于$n$-gram重叠同质性得分的信息，并结合多种度量方法来报告分数，适用于不同类型的文本分析。 |
-| [^5] | [SPHINX-X: Scaling Data and Parameters for a Family of Multi-modal Large Language Models](https://arxiv.org/abs/2402.05935) | 本论文介绍了SPHINX-X，一种扩展的多模态大型语言模型系列。通过改进架构和训练效率，我们成功构建了一系列参数大小和多语言能力不同的MLLMs，与数据和参数规模有强相关性。 |
-| [^6] | [PromptCrypt: Prompt Encryption for Secure Communication with Large Language Models](https://arxiv.org/abs/2402.05868) | PromptCrypt是一种使用表情符号对用户输入进行加密的机制，保护了大型语言模型（LLM）中用户的隐私，防止数据泄露和解密。 |
-| [^7] | [LitLLM: A Toolkit for Scientific Literature Review](https://arxiv.org/abs/2402.01788) | "LitLLM: A Toolkit for Scientific Literature Review" 提出了一个基于 RAG 原则的工具包，通过使用专门的提示和指导技术，结合大型语言模型（LLM），实现了科学文献综述的自动化。这个工具包不仅可以通过转化摘要为关键词进行文献检索，还可以通过补充相关论文或关键词进行定制化的检索。 |
+| [^1] | [CMAT: A Multi-Agent Collaboration Tuning Framework for Enhancing Small Language Models](https://arxiv.org/abs/2404.01663) | CMAT框架引入了TinyAgent模型，并提出了一种新颖的系统，通过环境反馈进行自适应权重更新，增强了语言智能体的能力和长期记忆。 |
+| [^2] | [AutoTRIZ: Artificial Ideation with TRIZ and Large Language Models](https://arxiv.org/abs/2403.13002) | 本文提出了AutoTRIZ，一种利用大型语言模型自动化和增强TRIZ方法的人工创意工具，为设计自动化和可解释创意提供了一种新颖方法。 |
+| [^3] | [NavCoT: Boosting LLM-Based Vision-and-Language Navigation via Learning Disentangled Reasoning](https://arxiv.org/abs/2403.07376) | 本文提出了一种名为NavCoT的新策略，在视觉与语言导航中通过学习解耦推理，实现了自主导航决策，有效减轻了领域差距。 |
+| [^4] | [Zero shot VLMs for hate meme detection: Are we there yet?](https://arxiv.org/abs/2402.12198) | 本研究探讨了零-shot分类在处理复杂任务如恶意模因检测中的有效性 |
+| [^5] | [AutoMathText: Autonomous Data Selection with Language Models for Mathematical Texts](https://arxiv.org/abs/2402.07625) | 本论文介绍了一种自主数据选择策略，利用语言模型进行数学文本的自动评估和选择，并通过连续预训练显著提高了数学推理能力。主要创新包括利用元提示语言模型作为验证器，发布了高质量的AutoMathText数据集，并实现了预训练令牌效率的提升。 |
+| [^6] | [Large Language Models: A Survey](https://arxiv.org/abs/2402.06196) | 大型语言模型（LLMs）吸引了很多关注，因为它们在自然语言任务上的强大表现。该研究领域发展迅速，包括了各种著名的LLMs、构建和增强LLMs的技术、以及流行的LLM数据集和评估指标。 |
+| [^7] | [Credit Risk Meets Large Language Models: Building a Risk Indicator from Loan Descriptions in P2P Lending.](http://arxiv.org/abs/2401.16458) | 本文研究了如何利用P2P借贷平台上借款人提供的文本描述来构建风险指标。结果显示，利用大型语言模型生成的风险评分可以明显提高信用风险分类器的性能。 |
+| [^8] | [ThreatCrawl: A BERT-based Focused Crawler for the Cybersecurity Domain.](http://arxiv.org/abs/2304.11960) | 本文提出了一种基于BERT的焦点爬虫ThreatCrawl，使用主题建模和关键词提取技术来筛选出最可能包含有价值CTI信息的网页。 |
 
 # 详细
 
-[^1]: GET：解锁CLIP的多模态潜力，用于广义类别发现
+[^1]: CMAT: 用于增强小型语言模型的多智能体协作调整框架
 
-    GET: Unlocking the Multi-modal Potential of CLIP for Generalized Category Discovery
+    CMAT: A Multi-Agent Collaboration Tuning Framework for Enhancing Small Language Models
 
-    [https://arxiv.org/abs/2403.09974](https://arxiv.org/abs/2403.09974)
+    [https://arxiv.org/abs/2404.01663](https://arxiv.org/abs/2404.01663)
 
-    本文提出了一种文本嵌入合成器（TES），用于为无标签数据生成伪文本嵌入，以解锁CLIP用于广义类别发现任务中的多模态潜力。
-
-    
-
-    给定包含旧类别和新类别的无标签数据集，广义类别发现（GCD）旨在准确发现新类别，并正确分类旧类别，利用从有标签样本中学习的类别概念。当前的GCD方法只使用单一的视觉信息模态，导致在视觉上相似类别的分类效果不佳。虽然某些类别在视觉上容易混淆，但它们的文本信息可能是不同的，这促使我们将文本信息引入到GCD任务中。然而，无标签数据缺乏类别名称，使得利用文本信息变得不切实际。为了解决这一具有挑战性的问题，在本文中，我们提出了一种文本嵌入合成器（TES），用于为无标签样本生成伪文本嵌入。具体而言，我们的TES利用CLIP可以生成对齐的视觉-语言特征这一特性，将视觉嵌入转换为CLIP文本模型的标记。
-
-    arXiv:2403.09974v1 Announce Type: cross  Abstract: Given unlabelled datasets containing both old and new categories, generalized category discovery (GCD) aims to accurately discover new classes while correctly classifying old classes, leveraging the class concepts learned from labeled samples. Current GCD methods only use a single visual modality of information, resulting in poor classification of visually similar classes. Though certain classes are visually confused, their text information might be distinct, motivating us to introduce text information into the GCD task. However, the lack of class names for unlabelled data makes it impractical to utilize text information. To tackle this challenging problem, in this paper, we propose a Text Embedding Synthesizer (TES) to generate pseudo text embeddings for unlabelled samples. Specifically, our TES leverages the property that CLIP can generate aligned vision-language features, converting visual embeddings into tokens of the CLIP's text e
-    
-[^2]: 大型语言模型与协作中的因果推断：一项综合调查
-
-    Large Language Models and Causal Inference in Collaboration: A Comprehensive Survey
-
-    [https://arxiv.org/abs/2403.09606](https://arxiv.org/abs/2403.09606)
-
-    大型语言模型的出现极大影响了自然语言处理领域，特别是通过其先进的推理能力。而本综述则重点评估和改进了大型语言模型在因果推断方面的应用，包括提高推理能力、解决公平和安全问题、提供解释和处理多模态。
+    CMAT框架引入了TinyAgent模型，并提出了一种新颖的系统，通过环境反馈进行自适应权重更新，增强了语言智能体的能力和长期记忆。
 
     
 
-    因果推断已经显示出潜力，通过捕捉变量之间的因果关系，提高自然语言处理（NLP）模型的预测准确性、公平性、稳健性和可解释性。生成型大型语言模型（LLMs）的出现显著影响了各种NLP领域，特别是通过其先进的推理能力。该调查重点评估和改进LLMs的因果视角，在以下领域展开：理解和改进LLMs的推理能力，解决LLMs中的公平性和安全性问题，为LLMs提供解释，并处理多模态。同时，LLMs强大的推理能力反过来可以通过帮助因果关系发现和因果效应估计来促进因果推断领域的发展。本综述探讨了因果推断框架与LLMs之间的相互作用，强调了它们的集体作用。
+    开放的大型语言模型（LLMs）显著推动了自然语言处理领域的发展，在各种任务中展现出卓越的性能。尽管LLMs取得了显著进展，但它们的有效操作仍然严重依赖于人类输入来准确引导对话流程，智能体调整是一种关键的优化技术，涉及人类对模型的调整，以更好地响应这种引导。针对这一依赖性，我们的工作引入了TinyAgent模型，该模型经过精心策划的高质量数据集训练。我们还提出了Collaborative Multi-Agent Tuning（CMAT）框架，这是一个创新性系统，旨在通过根据环境反馈进行自适应权重更新来增强语言智能体的能力。该框架促进了多个智能体之间的协作学习和实时适应，增强了它们的上下文感知和长期记忆。
 
-    arXiv:2403.09606v1 Announce Type: cross  Abstract: Causal inference has shown potential in enhancing the predictive accuracy, fairness, robustness, and explainability of Natural Language Processing (NLP) models by capturing causal relationships among variables. The emergence of generative Large Language Models (LLMs) has significantly impacted various NLP domains, particularly through their advanced reasoning capabilities. This survey focuses on evaluating and improving LLMs from a causal view in the following areas: understanding and improving the LLMs' reasoning capacity, addressing fairness and safety issues in LLMs, complementing LLMs with explanations, and handling multimodality. Meanwhile, LLMs' strong reasoning capacities can in turn contribute to the field of causal inference by aiding causal relationship discovery and causal effect estimations. This review explores the interplay between causal inference frameworks and LLMs from both perspectives, emphasizing their collective p
+    arXiv:2404.01663v1 Announce Type: new  Abstract: Open large language models (LLMs) have significantly advanced the field of natural language processing, showcasing impressive performance across various tasks.Despite the significant advancements in LLMs, their effective operation still relies heavily on human input to accurately guide the dialogue flow, with agent tuning being a crucial optimization technique that involves human adjustments to the model for better response to such guidance.Addressing this dependency, our work introduces the TinyAgent model, trained on a meticulously curated high-quality dataset. We also present the Collaborative Multi-Agent Tuning (CMAT) framework, an innovative system designed to augment language agent capabilities through adaptive weight updates based on environmental feedback. This framework fosters collaborative learning and real-time adaptation among multiple intelligent agents, enhancing their context-awareness and long-term memory. In this resear
     
-[^3]: ContextGPT: 将LLMs知识注入神经符号活动识别模型
+[^2]: AutoTRIZ：利用TRIZ和大型语言模型的人工创意
 
-    ContextGPT: Infusing LLMs Knowledge into Neuro-Symbolic Activity Recognition Models
+    AutoTRIZ: Artificial Ideation with TRIZ and Large Language Models
 
-    [https://arxiv.org/abs/2403.06586](https://arxiv.org/abs/2403.06586)
+    [https://arxiv.org/abs/2403.13002](https://arxiv.org/abs/2403.13002)
 
-    将预训练的大型语言模型（LLMs）的常识知识有效地注入神经符号活动识别模型，以缓解标记数据稀缺性问题。
-
-    
-
-    上下文感知人类活动识别（HAR）是移动计算中一个热门的研究领域，文献中最有效的解决方案基于监督式深度学习模型。然而，这些系统的实际部署受到需要用于训练的标记数据的稀缺性的限制。神经符号人工智能（NeSy）为缓解这一问题提供了一个有趣的研究方向，即将关于人类活动及其可能发生的背景的常识知识注入HAR深度学习分类器中。现有的用于上下文感知HAR的NeSy方法依赖于逻辑模型中编码的知识（例如本体论），其设计、实施和维护以捕捉新活动和上下文需要显著的人力工程努力、技术知识和领域专业知识。最近的研究表明，预训练的大型语言模型（LLMs）有效地编码了关于人类活动的常识知识。
-
-    arXiv:2403.06586v1 Announce Type: cross  Abstract: Context-aware Human Activity Recognition (HAR) is a hot research area in mobile computing, and the most effective solutions in the literature are based on supervised deep learning models. However, the actual deployment of these systems is limited by the scarcity of labeled data that is required for training. Neuro-Symbolic AI (NeSy) provides an interesting research direction to mitigate this issue, by infusing common-sense knowledge about human activities and the contexts in which they can be performed into HAR deep learning classifiers. Existing NeSy methods for context-aware HAR rely on knowledge encoded in logic-based models (e.g., ontologies) whose design, implementation, and maintenance to capture new activities and contexts require significant human engineering efforts, technical knowledge, and domain expertise. Recent works show that pre-trained Large Language Models (LLMs) effectively encode common-sense knowledge about human a
-    
-[^4]: 规范文本多样性的测量：一个工具和对分数的比较分析
-
-    Standardizing the Measurement of Text Diversity: A Tool and a Comparative Analysis of Scores
-
-    [https://arxiv.org/abs/2403.00553](https://arxiv.org/abs/2403.00553)
-
-    本论文提出了一种用于衡量文本多样性的标准分数，通过实证研究发现压缩算法可以捕捉类似于$n$-gram重叠同质性得分的信息，并结合多种度量方法来报告分数，适用于不同类型的文本分析。
+    本文提出了AutoTRIZ，一种利用大型语言模型自动化和增强TRIZ方法的人工创意工具，为设计自动化和可解释创意提供了一种新颖方法。
 
     
 
-    大型语言模型生成的输出之间的多样性塑造了人们对其质量和实用性的看法。我们的工作通过实证研究英语文本的多样性得分。我们发现，计算效率高的压缩算法捕捉到与$n$-gram的重叠同质性得分所衡量的信息相似。此外，结合多种度量方法——压缩比、长$n$-gram的自重复、Self-BLEU和BERTScore——足以报告，因为它们彼此之间的相互关联较低。这些分数的适用性超出了生成模型的分析；例如，我们突出了在指导调整数据集和人类生成的文本上的应用。我们发布了一个多样性程度
+    研究人员和创新者在开发思维方法方面做出了巨大努力，比如形态分析和类比设计，以辅助工程设计创意，解决问题和推动创新。在这些方法中，TRIZ作为最著名的方法脱颖而出，被广泛应用于系统化创新。然而，TRIZ资源和概念的复杂性，以及其对用户知识、经验和推理能力的依赖，限制了其实用性。本文提出了AutoTRIZ，一种利用大型语言模型（LLMs）自动化和增强TRIZ方法的人工创意工具。通过利用LLMs的广泛知识和先进推理能力，AutoTRIZ提供了一种新颖的利用人工智能进行设计自动化和可解释创意的方法。我们通过对矛盾检测和比较方面的一致性实验来证明并评估AutoTRIZ的有效性。
 
-    arXiv:2403.00553v1 Announce Type: new  Abstract: The diversity across outputs generated by large language models shapes the perception of their quality and utility. Prompt leaks, templated answer structure, and canned responses across different interactions are readily noticed by people, but there is no standard score to measure this aspect of model behavior. In this work we empirically investigate diversity scores on English texts. We find that computationally efficient compression algorithms capture information similar to what is measured by slow to compute $n$-gram overlap homogeneity scores. Further, a combination of measures -- compression ratios, self-repetition of long $n$-grams and Self-BLEU and BERTScore -- are sufficient to report, as they have low mutual correlation with each other. The applicability of scores extends beyond analysis of generative models; for example, we highlight applications on instruction-tuning datasets and human-produced texts. We release a diversity sc
+    arXiv:2403.13002v1 Announce Type: cross  Abstract: Researchers and innovators have made enormous efforts in developing ideation methods, such as morphological analysis and design-by-analogy, to aid engineering design ideation for problem solving and innovation. Among these, TRIZ stands out as the most well-known approach, widely applied for systematic innovation. However, the complexity of TRIZ resources and concepts, coupled with its reliance on users' knowledge, experience, and reasoning capabilities, limits its practicability. This paper proposes AutoTRIZ, an artificial ideation tool that leverages large language models (LLMs) to automate and enhance the TRIZ methodology. By leveraging the broad knowledge and advanced reasoning capabilities of LLMs, AutoTRIZ offers a novel approach to design automation and interpretable ideation with artificial intelligence. We demonstrate and evaluate the effectiveness of AutoTRIZ through consistency experiments in contradiction detection and compa
     
-[^5]: SPHINX-X: 扩展数据和参数用于一系列多模态大型语言模型
+[^3]: NavCoT: 通过学习解耦推理提升基于LLM的视觉与语言导航
 
-    SPHINX-X: Scaling Data and Parameters for a Family of Multi-modal Large Language Models
+    NavCoT: Boosting LLM-Based Vision-and-Language Navigation via Learning Disentangled Reasoning
 
-    [https://arxiv.org/abs/2402.05935](https://arxiv.org/abs/2402.05935)
+    [https://arxiv.org/abs/2403.07376](https://arxiv.org/abs/2403.07376)
 
-    本论文介绍了SPHINX-X，一种扩展的多模态大型语言模型系列。通过改进架构和训练效率，我们成功构建了一系列参数大小和多语言能力不同的MLLMs，与数据和参数规模有强相关性。
-
-    
-
-    我们提出SPHINX-X，一种基于SPHINX开发的广泛多模态大型语言模型（MLLM）系列。为了改善架构和训练效率，我们通过移除冗余的视觉编码器、绕过完全填充的子图像，并将多阶段训练简化成为一阶段的全集合模式，修改了SPHINX框架。为了充分发挥MLLM的潜力，我们组装了一个综合的跨语言、跨视觉和视觉-语言任务的多领域、多模态的数据集，涵盖了公开可用的资源。我们进一步使用我们的OCR密集和Mark数据集丰富这个收集，扩展了多样性和普适性。通过对不同基础LLM进行训练，包括TinyLlama1.1B、InternLM2-7B、LLaMA2-13B和Mixtral8x7B，我们获得了一系列参数大小和多语言能力变化的MLLMs。全面的基准测试揭示了多模态性能与数据和参数规模之间的强相关性。
-
-    We propose SPHINX-X, an extensive Multimodality Large Language Model (MLLM) series developed upon SPHINX. To improve the architecture and training efficiency, we modify the SPHINX framework by removing redundant visual encoders, bypassing fully-padded sub-images with skip tokens, and simplifying multi-stage training into a one-stage all-in-one paradigm. To fully unleash the potential of MLLMs, we assemble a comprehensive multi-domain and multimodal dataset covering publicly available resources in language, vision, and vision-language tasks. We further enrich this collection with our curated OCR intensive and Set-of-Mark datasets, extending the diversity and generality. By training over different base LLMs including TinyLlama1.1B, InternLM2-7B, LLaMA2-13B, and Mixtral8x7B, we obtain a spectrum of MLLMs that vary in parameter size and multilingual capabilities. Comprehensive benchmarking reveals a strong correlation between the multi-modal performance with the data and parameter scales. 
-    
-[^6]: PromptCrypt: 使用表情符号对大型语言模型进行安全通信的提示加密
-
-    PromptCrypt: Prompt Encryption for Secure Communication with Large Language Models
-
-    [https://arxiv.org/abs/2402.05868](https://arxiv.org/abs/2402.05868)
-
-    PromptCrypt是一种使用表情符号对用户输入进行加密的机制，保护了大型语言模型（LLM）中用户的隐私，防止数据泄露和解密。
+    本文提出了一种名为NavCoT的新策略，在视觉与语言导航中通过学习解耦推理，实现了自主导航决策，有效减轻了领域差距。
 
     
 
-    基于云的大型语言模型（LLM）如ChatGPT在日常操作中变得越来越重要，成为各种应用程序中的重要工具。虽然这些模型在可访问性和功能性方面带来了重大好处，但它们也引入了重要的隐私问题：在云基础架构中传输和存储用户数据会产生重大的数据泄露和未经授权访问敏感信息的风险；即使数据的传输和存储被加密，LLM服务提供商仍然知道数据的真实内容，从而阻止个人或实体放心使用此类LLM服务。为了解决这些问题，本文提出了一种简单但有效的机制PromptCrypt来保护用户隐私。它使用表情符号对用户输入进行加密，然后将其发送到LLM，有效地使其对人类或LLM的检查无法理解，同时保留原始提示的意图，从而确保用户隐私。
+    视觉与语言导航(VLN)作为具有重要研究价值的具身人工智能问题，需要一个具身代理根据自然语言指示穿越复杂的3D环境。最近的研究突出了大型语言模型(LLMs)在VLN中提高导航推理准确性和可解释性的潜力。然而，它们主要在离线方式下的使用通常在VLN任务和LLM训练语料库之间遭受显著的领域差距。本文引入了一种名为导航思维链(NavCoT)的新型策略，我们通过完成领域内高效参数训练，实现自主导航决策，有效减轻领域差距的成本。具体地，在每个时间步，LLM被提示通过作为世界模型来预测导航思维链：1)根据
 
-    Cloud-based large language models (LLMs) such as ChatGPT have increasingly become integral to daily operations, serving as vital tools across various applications. While these models offer substantial benefits in terms of accessibility and functionality, they also introduce significant privacy concerns: the transmission and storage of user data in cloud infrastructures pose substantial risks of data breaches and unauthorized access to sensitive information; even if the transmission and storage of data is encrypted, the LLM service provider itself still knows the real contents of the data, preventing individuals or entities from confidently using such LLM services. To address these concerns, this paper proposes a simple yet effective mechanism PromptCrypt to protect user privacy. It uses Emoji to encrypt the user inputs before sending them to LLM, effectively rendering them indecipherable to human or LLM's examination while retaining the original intent of the prompt, thus ensuring the 
+    arXiv:2403.07376v1 Announce Type: cross  Abstract: Vision-and-Language Navigation (VLN), as a crucial research problem of Embodied AI, requires an embodied agent to navigate through complex 3D environments following natural language instructions. Recent research has highlighted the promising capacity of large language models (LLMs) in VLN by improving navigational reasoning accuracy and interpretability. However, their predominant use in an offline manner usually suffers from substantial domain gap between the VLN task and the LLM training corpus. This paper introduces a novel strategy called Navigational Chain-of-Thought (NavCoT), where we fulfill parameter-efficient in-domain training to enable self-guided navigational decision, leading to a significant mitigation of the domain gap in a cost-effective manner. Specifically, at each timestep, the LLM is prompted to forecast the navigational chain-of-thought by: 1) acting as a world model to imagine the next observation according to the
     
-[^7]: LitLLM：科学文献综述工具包
+[^4]: 零-shot 可见语言模型用于仇恨模因检测：我们已经到达目标了吗？
 
-    LitLLM: A Toolkit for Scientific Literature Review
+    Zero shot VLMs for hate meme detection: Are we there yet?
 
-    [https://arxiv.org/abs/2402.01788](https://arxiv.org/abs/2402.01788)
+    [https://arxiv.org/abs/2402.12198](https://arxiv.org/abs/2402.12198)
 
-    "LitLLM: A Toolkit for Scientific Literature Review" 提出了一个基于 RAG 原则的工具包，通过使用专门的提示和指导技术，结合大型语言模型（LLM），实现了科学文献综述的自动化。这个工具包不仅可以通过转化摘要为关键词进行文献检索，还可以通过补充相关论文或关键词进行定制化的检索。
+    本研究探讨了零-shot分类在处理复杂任务如恶意模因检测中的有效性
 
     
 
-    进行科学论文的文献综述对于理解研究、其限制以及构建在现有工作基础上是必不可少的。这是一项繁琐的任务，因此自动文献综述生成器变得有吸引力。然而，许多使用大型语言模型（LLM）生成此类综述的现有工作存在显著限制。它们倾向于产生虚构的非实际信息，并忽略它们未受过训练的最新研究。为了解决这些限制，我们提出了一个基于检索增强生成（RAG）原则的工具包，在LLM的帮助下，使用专门的提示和指导技术。我们的系统首先通过将用户提供的摘要转化为关键词来进行网络搜索，以检索相关论文，其中使用了现成的LLM。作者可以通过补充相关论文或关键词来改进搜索，从而实现定制化的检索过程。其次，系统根据-
+    社交媒体上的多媒体内容正在迅速发展，其中模因作为一种独特形式变得日益重要。不幸的是，一些恶意用户利用模因针对个人或易受攻击的社区，因此有必要识别和解决此类恶意模因。已经进行了大量研究来解决这个问题，通过开发仇恨模因检测模型。然而，传统的机器学习/深度学习模型的一个显著局限性是需要带标签的数据集才能进行准确分类。最近，研究界见证了几种可见语言模型的出现，在各种任务中展现出卓越的性能。在这项研究中，我们旨在调查这些可见语言模型在处理诸如仇恨模因检测等复杂任务中的有效性。我们使用各种提示设置来专注于对恶意/有害模因的零-shot 分类。通过我们的分析，我们o
 
-    Conducting literature reviews for scientific papers is essential for understanding research, its limitations, and building on existing work. It is a tedious task which makes an automatic literature review generator appealing. Unfortunately, many existing works that generate such reviews using Large Language Models (LLMs) have significant limitations. They tend to hallucinate-generate non-actual information-and ignore the latest research they have not been trained on. To address these limitations, we propose a toolkit that operates on Retrieval Augmented Generation (RAG) principles, specialized prompting and instructing techniques with the help of LLMs. Our system first initiates a web search to retrieve relevant papers by summarizing user-provided abstracts into keywords using an off-the-shelf LLM. Authors can enhance the search by supplementing it with relevant papers or keywords, contributing to a tailored retrieval process. Second, the system re-ranks the retrieved papers based on t
+    arXiv:2402.12198v1 Announce Type: new  Abstract: Multimedia content on social media is rapidly evolving, with memes gaining prominence as a distinctive form. Unfortunately, some malicious users exploit memes to target individuals or vulnerable communities, making it imperative to identify and address such instances of hateful memes. Extensive research has been conducted to address this issue by developing hate meme detection models. However, a notable limitation of traditional machine/deep learning models is the requirement for labeled datasets for accurate classification. Recently, the research community has witnessed the emergence of several visual language models that have exhibited outstanding performance across various tasks. In this study, we aim to investigate the efficacy of these visual language models in handling intricate tasks such as hate meme detection. We use various prompt settings to focus on zero-shot classification of hateful/harmful memes. Through our analysis, we o
+    
+[^5]: AutoMathText：使用语言模型进行数学文本的自主数据选择
+
+    AutoMathText: Autonomous Data Selection with Language Models for Mathematical Texts
+
+    [https://arxiv.org/abs/2402.07625](https://arxiv.org/abs/2402.07625)
+
+    本论文介绍了一种自主数据选择策略，利用语言模型进行数学文本的自动评估和选择，并通过连续预训练显著提高了数学推理能力。主要创新包括利用元提示语言模型作为验证器，发布了高质量的AutoMathText数据集，并实现了预训练令牌效率的提升。
+
+    
+
+    为了通过持续的预训练改善语言模型在数学推理方面的能力，我们引入了一种新颖的策略，利用基础语言模型进行自主数据选择。与传统的有人工标注数据的监督微调或训练过的分类器不同，我们的方法利用元提示语言模型作为零样本验证器，自主评估和选择高质量的数学内容，并发布了经过策划的开源AutoMathText数据集，其中包含超过200GB的数据。为了证明我们方法的有效性，我们对AutoMathText数据集进行了连续预训练，使得7B参数的Mistral语言模型在MATH数据集上的下游性能大幅提升，而令牌数量比之前的连续预训练工作减少了几个数量级。我们的方法展示了基准的预训练令牌效率提高了2倍，突显了我们方法在增强中的潜力。
+
+    To improve language models' proficiency in mathematical reasoning via continual pretraining, we introduce a novel strategy that leverages base language models for autonomous data selection. Departing from conventional supervised fine-tuning or trained classifiers with human-annotated data, our approach utilizes meta-prompted language models as zero-shot verifiers to autonomously evaluate and select high-quality mathematical content, and we release the curated open-source AutoMathText dataset encompassing over 200GB of data. To demonstrate the efficacy of our method, we continuously pretrained a 7B-parameter Mistral language model on the AutoMathText dataset, achieving substantial improvements in downstream performance on the MATH dataset with a token amount reduced by orders of magnitude compared to previous continuous pretraining works. Our method showcases a 2 times increase in pretraining token efficiency compared to baselines, underscoring the potential of our approach in enhancing
+    
+[^6]: 大型语言模型：一项调查
+
+    Large Language Models: A Survey
+
+    [https://arxiv.org/abs/2402.06196](https://arxiv.org/abs/2402.06196)
+
+    大型语言模型（LLMs）吸引了很多关注，因为它们在自然语言任务上的强大表现。该研究领域发展迅速，包括了各种著名的LLMs、构建和增强LLMs的技术、以及流行的LLM数据集和评估指标。
+
+    
+
+    大型语言模型（LLMs）由于其在各种自然语言任务上的出色表现而受到了很多关注，自2022年11月ChatGPT发布以来。LLMs通过在大量文本数据上训练模型的数十亿参数来获得广泛的通用语言理解和生成能力，这符合缩放定律的预测。LLMs的研究领域尽管非常新，但在许多不同方面正在快速发展。在本文中，我们回顾了一些最著名的LLMs，包括三个流行的LLM系列（GPT、LLaMA、PaLM），并讨论了它们的特点、贡献和限制。我们还概述了构建和增强LLMs的技术。然后，我们调查了为LLM训练、微调和评估准备的流行数据集，审查了广泛使用的LLM评估指标，并比较了几个流行LLM在一组代表性基准上的性能。
+
+    Large Language Models (LLMs) have drawn a lot of attention due to their strong performance on a wide range of natural language tasks, since the release of ChatGPT in November 2022. LLMs' ability of general-purpose language understanding and generation is acquired by training billions of model's parameters on massive amounts of text data, as predicted by scaling laws \cite{kaplan2020scaling,hoffmann2022training}. The research area of LLMs, while very recent, is evolving rapidly in many different ways. In this paper, we review some of the most prominent LLMs, including three popular LLM families (GPT, LLaMA, PaLM), and discuss their characteristics, contributions and limitations. We also give an overview of techniques developed to build, and augment LLMs. We then survey popular datasets prepared for LLM training, fine-tuning, and evaluation, review widely used LLM evaluation metrics, and compare the performance of several popular LLMs on a set of representative benchmarks. Finally, we co
+    
+[^7]: 信用风险与大型语言模型相结合：从P2P借贷的贷款描述中构建风险指标。
+
+    Credit Risk Meets Large Language Models: Building a Risk Indicator from Loan Descriptions in P2P Lending. (arXiv:2401.16458v1 [q-fin.RM])
+
+    [http://arxiv.org/abs/2401.16458](http://arxiv.org/abs/2401.16458)
+
+    本文研究了如何利用P2P借贷平台上借款人提供的文本描述来构建风险指标。结果显示，利用大型语言模型生成的风险评分可以明显提高信用风险分类器的性能。
+
+    
+
+    P2P借贷作为一种独特的融资机制，通过在线平台将借款人与放款人联系起来。然而，P2P借贷面临信息不对称的挑战，因为放款人往往缺乏足够的数据来评估借款人的信用价值。本文提出了一种新颖的方法来解决这个问题，即利用借款人在贷款申请过程中提供的文本描述。我们的方法涉及使用大型语言模型（LLM）处理这些文本描述，LLM是一种能够识别文本中的模式和语义的强大工具。将迁移学习应用于将LLM适应特定任务。我们从Lending Club数据集的分析结果显示，BERT生成的风险评分显著提高了信用风险分类器的性能。然而，基于LLM的系统固有的不透明性，以及潜在偏差的不确定性，限制了其应用。
+
+    Peer-to-peer (P2P) lending has emerged as a distinctive financing mechanism, linking borrowers with lenders through online platforms. However, P2P lending faces the challenge of information asymmetry, as lenders often lack sufficient data to assess the creditworthiness of borrowers. This paper proposes a novel approach to address this issue by leveraging the textual descriptions provided by borrowers during the loan application process. Our methodology involves processing these textual descriptions using a Large Language Model (LLM), a powerful tool capable of discerning patterns and semantics within the text. Transfer learning is applied to adapt the LLM to the specific task at hand.  Our results derived from the analysis of the Lending Club dataset show that the risk score generated by BERT, a widely used LLM, significantly improves the performance of credit risk classifiers. However, the inherent opacity of LLM-based systems, coupled with uncertainties about potential biases, unders
+    
+[^8]: ThreatCrawl：基于BERT的网络安全焦点爬虫
+
+    ThreatCrawl: A BERT-based Focused Crawler for the Cybersecurity Domain. (arXiv:2304.11960v2 [cs.CR] UPDATED)
+
+    [http://arxiv.org/abs/2304.11960](http://arxiv.org/abs/2304.11960)
+
+    本文提出了一种基于BERT的焦点爬虫ThreatCrawl，使用主题建模和关键词提取技术来筛选出最可能包含有价值CTI信息的网页。
+
+    
+
+    可公开获取的信息对于网络威胁情报（CTI）来说包含有价值的信息。这可以用于预防已经在其他系统上发生的攻击。但是，虽然有不同的标准来交流这些信息，但很多信息是以非标准化的方式在文章或博客帖子中共享的。手动浏览多个在线门户和新闻页面以发现新威胁并提取它们是一项耗时的任务。为了自动化这个扫描过程的一部分，多篇论文提出了使用自然语言处理（NLP）从文档中提取威胁指示器（IOCs）的提取器。然而，虽然这已经解决了从文档中提取信息的问题，但很少考虑搜索这些文档。本文提出了一种新的焦点爬虫ThreatCrawl，它使用双向编码器表示（BERT）搜索网络安全领域中的相关文档。ThreatCrawl使用主题建模和关键词提取技术来识别相关网站和网页，然后应用基于BERT的分类器来优先考虑最可能包含有价值CTI信息的网页。
+
+    Publicly available information contains valuable information for Cyber Threat Intelligence (CTI). This can be used to prevent attacks that have already taken place on other systems. Ideally, only the initial attack succeeds and all subsequent ones are detected and stopped. But while there are different standards to exchange this information, a lot of it is shared in articles or blog posts in non-standardized ways. Manually scanning through multiple online portals and news pages to discover new threats and extracting them is a time-consuming task. To automize parts of this scanning process, multiple papers propose extractors that use Natural Language Processing (NLP) to extract Indicators of Compromise (IOCs) from documents. However, while this already solves the problem of extracting the information out of documents, the search for these documents is rarely considered. In this paper, a new focused crawler is proposed called ThreatCrawl, which uses Bidirectional Encoder Representations 
     
 

@@ -2,202 +2,187 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [GET: Unlocking the Multi-modal Potential of CLIP for Generalized Category Discovery](https://arxiv.org/abs/2403.09974) | 本文提出了一种文本嵌入合成器（TES），用于为无标签数据生成伪文本嵌入，以解锁CLIP用于广义类别发现任务中的多模态潜力。 |
-| [^2] | [Large Language Models and Causal Inference in Collaboration: A Comprehensive Survey](https://arxiv.org/abs/2403.09606) | 大型语言模型的出现极大影响了自然语言处理领域，特别是通过其先进的推理能力。而本综述则重点评估和改进了大型语言模型在因果推断方面的应用，包括提高推理能力、解决公平和安全问题、提供解释和处理多模态。 |
-| [^3] | [ContextGPT: Infusing LLMs Knowledge into Neuro-Symbolic Activity Recognition Models](https://arxiv.org/abs/2403.06586) | 将预训练的大型语言模型（LLMs）的常识知识有效地注入神经符号活动识别模型，以缓解标记数据稀缺性问题。 |
-| [^4] | [Analysis and Fully Memristor-based Reservoir Computing for Temporal Data Classification](https://arxiv.org/abs/2403.01827) | 本研究引入了一种新颖的双存储器 RC 系统，通过集成不同类型的 memristor，并在处理时间数据分类任务中取得了显著成效。 |
-| [^5] | [On the Challenges and Opportunities in Generative AI](https://arxiv.org/abs/2403.00025) | 现代生成人工智能范例中存在关键的未解决挑战，如何解决这些挑战将进一步增强它们的能力、多功能性和可靠性，并为研究方向提供有价值的见解。 |
-| [^6] | [SPHINX-X: Scaling Data and Parameters for a Family of Multi-modal Large Language Models](https://arxiv.org/abs/2402.05935) | 本论文介绍了SPHINX-X，一种扩展的多模态大型语言模型系列。通过改进架构和训练效率，我们成功构建了一系列参数大小和多语言能力不同的MLLMs，与数据和参数规模有强相关性。 |
-| [^7] | [PromptCrypt: Prompt Encryption for Secure Communication with Large Language Models](https://arxiv.org/abs/2402.05868) | PromptCrypt是一种使用表情符号对用户输入进行加密的机制，保护了大型语言模型（LLM）中用户的隐私，防止数据泄露和解密。 |
-| [^8] | [LitLLM: A Toolkit for Scientific Literature Review](https://arxiv.org/abs/2402.01788) | "LitLLM: A Toolkit for Scientific Literature Review" 提出了一个基于 RAG 原则的工具包，通过使用专门的提示和指导技术，结合大型语言模型（LLM），实现了科学文献综述的自动化。这个工具包不仅可以通过转化摘要为关键词进行文献检索，还可以通过补充相关论文或关键词进行定制化的检索。 |
-| [^9] | [Zero-Shot Reinforcement Learning via Function Encoders](https://arxiv.org/abs/2401.17173) | 本论文提出了一种用于实现零-shot迁移的函数编码器，通过将函数表示为学习到的非线性基函数的加权组合，代理程序通过连贯的向量表示了当前任务与先前看到任务的关联信息，从而实现了在相关任务之间的迁移，无需额外训练。 |
-| [^10] | [Generating Likely Counterfactuals Using Sum-Product Networks.](http://arxiv.org/abs/2401.14086) | 由于用户需求和最近的法规要求，需要对AI系统所做出的决策进行解释。本论文提出了一种使用Sum-Product Networks模拟寻找高可能性反事实推理的系统，该系统能够提供满足多个常见要求的最佳解释。 |
-| [^11] | [Bias Assessment and Mitigation in LLM-based Code Generation.](http://arxiv.org/abs/2309.14345) | 这项研究提出了一个新颖的偏差评估框架，针对代码生成任务进行设计。通过对九个最先进的基于LLM的代码生成模型进行广泛评估，发现其中31.45\%到79.93\%的代码函数具有偏见，并提出了如何缓解这种偏见的方法。 |
-| [^12] | [Summaries, Highlights, and Action items: Design, implementation and evaluation of an LLM-powered meeting recap system.](http://arxiv.org/abs/2307.15793) | 这项研究设计、实现和评估了一种基于LLM的会议总结系统，通过减少个人会议负担和增加会议输出的清晰度和一致性，提高了会议体验。 |
-| [^13] | [Prioritized Trajectory Replay: A Replay Memory for Data-driven Reinforcement Learning.](http://arxiv.org/abs/2306.15503) | 本研究提出了一种名为优先轨迹回放的回放记忆方法，将数据采样的视角扩展到轨迹中，从有限的数据中提取更全面的信息。这种方法通过反向采样轨迹来提高学习效率，并利用加权评论目标避免采样未见过的动作。优先轨迹回放还能根据不同的优先度指标优先采样效率更高的轨迹。 |
+| [^1] | [AutoTRIZ: Artificial Ideation with TRIZ and Large Language Models](https://arxiv.org/abs/2403.13002) | 本文提出了AutoTRIZ，一种利用大型语言模型自动化和增强TRIZ方法的人工创意工具，为设计自动化和可解释创意提供了一种新颖方法。 |
+| [^2] | [NavCoT: Boosting LLM-Based Vision-and-Language Navigation via Learning Disentangled Reasoning](https://arxiv.org/abs/2403.07376) | 本文提出了一种名为NavCoT的新策略，在视觉与语言导航中通过学习解耦推理，实现了自主导航决策，有效减轻了领域差距。 |
+| [^3] | [GhostWriter: Augmenting Collaborative Human-AI Writing Experiences Through Personalization and Agency](https://arxiv.org/abs/2402.08855) | GhostWriter是一个AI增强的写作设计探针，通过个性化和代理增强用户的写作体验。它利用大型语言模型（LLMs）隐式学习用户的写作风格，并允许用户通过手动样式编辑和批注来控制系统的写作风格。 |
+| [^4] | [AutoMathText: Autonomous Data Selection with Language Models for Mathematical Texts](https://arxiv.org/abs/2402.07625) | 本论文介绍了一种自主数据选择策略，利用语言模型进行数学文本的自动评估和选择，并通过连续预训练显著提高了数学推理能力。主要创新包括利用元提示语言模型作为验证器，发布了高质量的AutoMathText数据集，并实现了预训练令牌效率的提升。 |
+| [^5] | [Large Language Models: A Survey](https://arxiv.org/abs/2402.06196) | 大型语言模型（LLMs）吸引了很多关注，因为它们在自然语言任务上的强大表现。该研究领域发展迅速，包括了各种著名的LLMs、构建和增强LLMs的技术、以及流行的LLM数据集和评估指标。 |
+| [^6] | [Promoting Segment Anything Model towards Highly Accurate Dichotomous Image Segmentation](https://arxiv.org/abs/2401.00248) | 将段分离任意模型推进至高度准确的二元图像分割，通过提出DIS-SAM框架，成功改进SAM模型在细节方面的表现，实现了显著增强的分割精度。 |
+| [^7] | [Cross-domain Random Pre-training with Prototypes for Reinforcement Learning](https://arxiv.org/abs/2302.05614) | 提出了CRPTpro框架，利用原型进行跨领域自监督随机预训练，提高预训练效率，并实现在不同领域中定义的视觉控制RL任务。 |
+| [^8] | [Credit Risk Meets Large Language Models: Building a Risk Indicator from Loan Descriptions in P2P Lending.](http://arxiv.org/abs/2401.16458) | 本文研究了如何利用P2P借贷平台上借款人提供的文本描述来构建风险指标。结果显示，利用大型语言模型生成的风险评分可以明显提高信用风险分类器的性能。 |
+| [^9] | [Mixup Your Own Pairs.](http://arxiv.org/abs/2309.16633) | 本文提出了一种名为SupReMix的方法，通过混合样本，特别是混合负样本和混合正样本，来解决回归问题中表示学习的挑战。这种方法能够提供更好的性能和更准确的回归结果。 |
+| [^10] | [Notation3 as an Existential Rule Language.](http://arxiv.org/abs/2308.07332) | 本文研究了Notation3与存在规则之间的关系，并提出了一个将部分Notation3直接映射到存在规则的方法，从而提高了Notation3推理的效率。 |
+| [^11] | [Introducing Foundation Models as Surrogate Models: Advancing Towards More Practical Adversarial Attacks.](http://arxiv.org/abs/2307.06608) | 本文将对抗攻击重新设定为下游任务，通过生成图像噪声来满足新兴趋势，并将基础模型引入作为代理模型。虽然基础模型的表现不佳，但通过在特征空间中进行分析，我们发现缺乏对应的特征。 |
+| [^12] | [The Representational Status of Deep Learning Models.](http://arxiv.org/abs/2303.12032) | 该论文澄清了深度学习模型的表征状态。尽管通常称为“表征”，但实际上它们更适合理解为高度理想化的模型，这一结果对可解释的AI有着直接影响，也引起了哲学家对其在未来科学研究中的作用的关注。 |
 
 # 详细
 
-[^1]: GET：解锁CLIP的多模态潜力，用于广义类别发现
+[^1]: AutoTRIZ：利用TRIZ和大型语言模型的人工创意
 
-    GET: Unlocking the Multi-modal Potential of CLIP for Generalized Category Discovery
+    AutoTRIZ: Artificial Ideation with TRIZ and Large Language Models
 
-    [https://arxiv.org/abs/2403.09974](https://arxiv.org/abs/2403.09974)
+    [https://arxiv.org/abs/2403.13002](https://arxiv.org/abs/2403.13002)
 
-    本文提出了一种文本嵌入合成器（TES），用于为无标签数据生成伪文本嵌入，以解锁CLIP用于广义类别发现任务中的多模态潜力。
-
-    
-
-    给定包含旧类别和新类别的无标签数据集，广义类别发现（GCD）旨在准确发现新类别，并正确分类旧类别，利用从有标签样本中学习的类别概念。当前的GCD方法只使用单一的视觉信息模态，导致在视觉上相似类别的分类效果不佳。虽然某些类别在视觉上容易混淆，但它们的文本信息可能是不同的，这促使我们将文本信息引入到GCD任务中。然而，无标签数据缺乏类别名称，使得利用文本信息变得不切实际。为了解决这一具有挑战性的问题，在本文中，我们提出了一种文本嵌入合成器（TES），用于为无标签样本生成伪文本嵌入。具体而言，我们的TES利用CLIP可以生成对齐的视觉-语言特征这一特性，将视觉嵌入转换为CLIP文本模型的标记。
-
-    arXiv:2403.09974v1 Announce Type: cross  Abstract: Given unlabelled datasets containing both old and new categories, generalized category discovery (GCD) aims to accurately discover new classes while correctly classifying old classes, leveraging the class concepts learned from labeled samples. Current GCD methods only use a single visual modality of information, resulting in poor classification of visually similar classes. Though certain classes are visually confused, their text information might be distinct, motivating us to introduce text information into the GCD task. However, the lack of class names for unlabelled data makes it impractical to utilize text information. To tackle this challenging problem, in this paper, we propose a Text Embedding Synthesizer (TES) to generate pseudo text embeddings for unlabelled samples. Specifically, our TES leverages the property that CLIP can generate aligned vision-language features, converting visual embeddings into tokens of the CLIP's text e
-    
-[^2]: 大型语言模型与协作中的因果推断：一项综合调查
-
-    Large Language Models and Causal Inference in Collaboration: A Comprehensive Survey
-
-    [https://arxiv.org/abs/2403.09606](https://arxiv.org/abs/2403.09606)
-
-    大型语言模型的出现极大影响了自然语言处理领域，特别是通过其先进的推理能力。而本综述则重点评估和改进了大型语言模型在因果推断方面的应用，包括提高推理能力、解决公平和安全问题、提供解释和处理多模态。
+    本文提出了AutoTRIZ，一种利用大型语言模型自动化和增强TRIZ方法的人工创意工具，为设计自动化和可解释创意提供了一种新颖方法。
 
     
 
-    因果推断已经显示出潜力，通过捕捉变量之间的因果关系，提高自然语言处理（NLP）模型的预测准确性、公平性、稳健性和可解释性。生成型大型语言模型（LLMs）的出现显著影响了各种NLP领域，特别是通过其先进的推理能力。该调查重点评估和改进LLMs的因果视角，在以下领域展开：理解和改进LLMs的推理能力，解决LLMs中的公平性和安全性问题，为LLMs提供解释，并处理多模态。同时，LLMs强大的推理能力反过来可以通过帮助因果关系发现和因果效应估计来促进因果推断领域的发展。本综述探讨了因果推断框架与LLMs之间的相互作用，强调了它们的集体作用。
+    研究人员和创新者在开发思维方法方面做出了巨大努力，比如形态分析和类比设计，以辅助工程设计创意，解决问题和推动创新。在这些方法中，TRIZ作为最著名的方法脱颖而出，被广泛应用于系统化创新。然而，TRIZ资源和概念的复杂性，以及其对用户知识、经验和推理能力的依赖，限制了其实用性。本文提出了AutoTRIZ，一种利用大型语言模型（LLMs）自动化和增强TRIZ方法的人工创意工具。通过利用LLMs的广泛知识和先进推理能力，AutoTRIZ提供了一种新颖的利用人工智能进行设计自动化和可解释创意的方法。我们通过对矛盾检测和比较方面的一致性实验来证明并评估AutoTRIZ的有效性。
 
-    arXiv:2403.09606v1 Announce Type: cross  Abstract: Causal inference has shown potential in enhancing the predictive accuracy, fairness, robustness, and explainability of Natural Language Processing (NLP) models by capturing causal relationships among variables. The emergence of generative Large Language Models (LLMs) has significantly impacted various NLP domains, particularly through their advanced reasoning capabilities. This survey focuses on evaluating and improving LLMs from a causal view in the following areas: understanding and improving the LLMs' reasoning capacity, addressing fairness and safety issues in LLMs, complementing LLMs with explanations, and handling multimodality. Meanwhile, LLMs' strong reasoning capacities can in turn contribute to the field of causal inference by aiding causal relationship discovery and causal effect estimations. This review explores the interplay between causal inference frameworks and LLMs from both perspectives, emphasizing their collective p
+    arXiv:2403.13002v1 Announce Type: cross  Abstract: Researchers and innovators have made enormous efforts in developing ideation methods, such as morphological analysis and design-by-analogy, to aid engineering design ideation for problem solving and innovation. Among these, TRIZ stands out as the most well-known approach, widely applied for systematic innovation. However, the complexity of TRIZ resources and concepts, coupled with its reliance on users' knowledge, experience, and reasoning capabilities, limits its practicability. This paper proposes AutoTRIZ, an artificial ideation tool that leverages large language models (LLMs) to automate and enhance the TRIZ methodology. By leveraging the broad knowledge and advanced reasoning capabilities of LLMs, AutoTRIZ offers a novel approach to design automation and interpretable ideation with artificial intelligence. We demonstrate and evaluate the effectiveness of AutoTRIZ through consistency experiments in contradiction detection and compa
     
-[^3]: ContextGPT: 将LLMs知识注入神经符号活动识别模型
+[^2]: NavCoT: 通过学习解耦推理提升基于LLM的视觉与语言导航
 
-    ContextGPT: Infusing LLMs Knowledge into Neuro-Symbolic Activity Recognition Models
+    NavCoT: Boosting LLM-Based Vision-and-Language Navigation via Learning Disentangled Reasoning
 
-    [https://arxiv.org/abs/2403.06586](https://arxiv.org/abs/2403.06586)
+    [https://arxiv.org/abs/2403.07376](https://arxiv.org/abs/2403.07376)
 
-    将预训练的大型语言模型（LLMs）的常识知识有效地注入神经符号活动识别模型，以缓解标记数据稀缺性问题。
-
-    
-
-    上下文感知人类活动识别（HAR）是移动计算中一个热门的研究领域，文献中最有效的解决方案基于监督式深度学习模型。然而，这些系统的实际部署受到需要用于训练的标记数据的稀缺性的限制。神经符号人工智能（NeSy）为缓解这一问题提供了一个有趣的研究方向，即将关于人类活动及其可能发生的背景的常识知识注入HAR深度学习分类器中。现有的用于上下文感知HAR的NeSy方法依赖于逻辑模型中编码的知识（例如本体论），其设计、实施和维护以捕捉新活动和上下文需要显著的人力工程努力、技术知识和领域专业知识。最近的研究表明，预训练的大型语言模型（LLMs）有效地编码了关于人类活动的常识知识。
-
-    arXiv:2403.06586v1 Announce Type: cross  Abstract: Context-aware Human Activity Recognition (HAR) is a hot research area in mobile computing, and the most effective solutions in the literature are based on supervised deep learning models. However, the actual deployment of these systems is limited by the scarcity of labeled data that is required for training. Neuro-Symbolic AI (NeSy) provides an interesting research direction to mitigate this issue, by infusing common-sense knowledge about human activities and the contexts in which they can be performed into HAR deep learning classifiers. Existing NeSy methods for context-aware HAR rely on knowledge encoded in logic-based models (e.g., ontologies) whose design, implementation, and maintenance to capture new activities and contexts require significant human engineering efforts, technical knowledge, and domain expertise. Recent works show that pre-trained Large Language Models (LLMs) effectively encode common-sense knowledge about human a
-    
-[^4]: 分析和基于全 memristor 的时间数据分类的储层计算
-
-    Analysis and Fully Memristor-based Reservoir Computing for Temporal Data Classification
-
-    [https://arxiv.org/abs/2403.01827](https://arxiv.org/abs/2403.01827)
-
-    本研究引入了一种新颖的双存储器 RC 系统，通过集成不同类型的 memristor，并在处理时间数据分类任务中取得了显著成效。
+    本文提出了一种名为NavCoT的新策略，在视觉与语言导航中通过学习解耦推理，实现了自主导航决策，有效减轻了领域差距。
 
     
 
-    arXiv:2403.01827v1 公告类型: 交叉摘要: 储层计算（RC）提供了一个特别适用于处理时空信号的神经形态学框架。RC以其时间处理能力而闻名，与传统的递归神经网络相比，显著降低了训练成本。其硬件部署中的一个关键组成部分是能够生成动态储层状态的能力。我们的研究引入了一种新颖的双重存储器 RC 系统，集成了一种基于 WOx 的 memristor 的短期存储器，能够实现 16 个不同状态的编码超过 4 个比特，并在读出层中使用 TiOx-based memristor 的长期存储器组件。我们彻底研究了两种 memristor 类型，并利用 RC 系统处理时间数据集。所提出的 RC 系统的性能通过两个基准任务进行了验证: 对具有不完整输入的孤立口述数字识别和 Mackey-Glass 时间序列预测。该系统提供了令人印象深刻的 98.84% 准确率.
+    视觉与语言导航(VLN)作为具有重要研究价值的具身人工智能问题，需要一个具身代理根据自然语言指示穿越复杂的3D环境。最近的研究突出了大型语言模型(LLMs)在VLN中提高导航推理准确性和可解释性的潜力。然而，它们主要在离线方式下的使用通常在VLN任务和LLM训练语料库之间遭受显著的领域差距。本文引入了一种名为导航思维链(NavCoT)的新型策略，我们通过完成领域内高效参数训练，实现自主导航决策，有效减轻领域差距的成本。具体地，在每个时间步，LLM被提示通过作为世界模型来预测导航思维链：1)根据
 
-    arXiv:2403.01827v1 Announce Type: cross  Abstract: Reservoir computing (RC) offers a neuromorphic framework that is particularly effective for processing spatiotemporal signals. Known for its temporal processing prowess, RC significantly lowers training costs compared to conventional recurrent neural networks. A key component in its hardware deployment is the ability to generate dynamic reservoir states. Our research introduces a novel dual-memory RC system, integrating a short-term memory via a WOx-based memristor, capable of achieving 16 distinct states encoded over 4 bits, and a long-term memory component using a TiOx-based memristor within the readout layer. We thoroughly examine both memristor types and leverage the RC system to process temporal data sets. The performance of the proposed RC system is validated through two benchmark tasks: isolated spoken digit recognition with incomplete inputs and Mackey-Glass time series prediction. The system delivered an impressive 98.84% accu
+    arXiv:2403.07376v1 Announce Type: cross  Abstract: Vision-and-Language Navigation (VLN), as a crucial research problem of Embodied AI, requires an embodied agent to navigate through complex 3D environments following natural language instructions. Recent research has highlighted the promising capacity of large language models (LLMs) in VLN by improving navigational reasoning accuracy and interpretability. However, their predominant use in an offline manner usually suffers from substantial domain gap between the VLN task and the LLM training corpus. This paper introduces a novel strategy called Navigational Chain-of-Thought (NavCoT), where we fulfill parameter-efficient in-domain training to enable self-guided navigational decision, leading to a significant mitigation of the domain gap in a cost-effective manner. Specifically, at each timestep, the LLM is prompted to forecast the navigational chain-of-thought by: 1) acting as a world model to imagine the next observation according to the
     
-[^5]: 关于生成人工智能中的挑战与机遇
+[^3]: GhostWriter:通过个性化和代理增强协作人工智能写作体验
 
-    On the Challenges and Opportunities in Generative AI
+    GhostWriter: Augmenting Collaborative Human-AI Writing Experiences Through Personalization and Agency
 
-    [https://arxiv.org/abs/2403.00025](https://arxiv.org/abs/2403.00025)
+    [https://arxiv.org/abs/2402.08855](https://arxiv.org/abs/2402.08855)
 
-    现代生成人工智能范例中存在关键的未解决挑战，如何解决这些挑战将进一步增强它们的能力、多功能性和可靠性，并为研究方向提供有价值的见解。
-
-    
-
-    深度生成建模领域近年来增长迅速而稳定。随着海量训练数据的可用性以及可扩展的无监督学习范式的进步，最近的大规模生成模型展现出合成高分辨率图像和文本以及结构化数据（如视频和分子）的巨大潜力。然而，我们认为当前大规模生成人工智能模型没有充分解决若干基本问题，限制了它们在各个领域的广泛应用。在本工作中，我们旨在确定现代生成人工智能范例中的关键未解决挑战，以进一步增强它们的能力、多功能性和可靠性。通过识别这些挑战，我们旨在为研究人员提供有价值的见解，探索有益的研究方向，从而促进更加强大和可访问的生成人工智能的发展。
-
-    arXiv:2403.00025v1 Announce Type: cross  Abstract: The field of deep generative modeling has grown rapidly and consistently over the years. With the availability of massive amounts of training data coupled with advances in scalable unsupervised learning paradigms, recent large-scale generative models show tremendous promise in synthesizing high-resolution images and text, as well as structured data such as videos and molecules. However, we argue that current large-scale generative AI models do not sufficiently address several fundamental issues that hinder their widespread adoption across domains. In this work, we aim to identify key unresolved challenges in modern generative AI paradigms that should be tackled to further enhance their capabilities, versatility, and reliability. By identifying these challenges, we aim to provide researchers with valuable insights for exploring fruitful research directions, thereby fostering the development of more robust and accessible generative AI so
-    
-[^6]: SPHINX-X: 扩展数据和参数用于一系列多模态大型语言模型
-
-    SPHINX-X: Scaling Data and Parameters for a Family of Multi-modal Large Language Models
-
-    [https://arxiv.org/abs/2402.05935](https://arxiv.org/abs/2402.05935)
-
-    本论文介绍了SPHINX-X，一种扩展的多模态大型语言模型系列。通过改进架构和训练效率，我们成功构建了一系列参数大小和多语言能力不同的MLLMs，与数据和参数规模有强相关性。
+    GhostWriter是一个AI增强的写作设计探针，通过个性化和代理增强用户的写作体验。它利用大型语言模型（LLMs）隐式学习用户的写作风格，并允许用户通过手动样式编辑和批注来控制系统的写作风格。
 
     
 
-    我们提出SPHINX-X，一种基于SPHINX开发的广泛多模态大型语言模型（MLLM）系列。为了改善架构和训练效率，我们通过移除冗余的视觉编码器、绕过完全填充的子图像，并将多阶段训练简化成为一阶段的全集合模式，修改了SPHINX框架。为了充分发挥MLLM的潜力，我们组装了一个综合的跨语言、跨视觉和视觉-语言任务的多领域、多模态的数据集，涵盖了公开可用的资源。我们进一步使用我们的OCR密集和Mark数据集丰富这个收集，扩展了多样性和普适性。通过对不同基础LLM进行训练，包括TinyLlama1.1B、InternLM2-7B、LLaMA2-13B和Mixtral8x7B，我们获得了一系列参数大小和多语言能力变化的MLLMs。全面的基准测试揭示了多模态性能与数据和参数规模之间的强相关性。
+    大型语言模型（LLMs）在提供不同形式的写作辅助方面越来越流行，并且具有无处不在的应用。然而，由于个性化和控制能力有限，LLM驱动的写作系统可能会使用户感到沮丧，当用户缺乏提示工程经验时，这种情况可能加剧。我们认为设计可以解决这些挑战之一，并引入GhostWriter，这是一个AI增强的写作设计探针，用户可以通过增强的代理和个性化来进行写作。GhostWriter利用LLMs在用户编写的过程中隐式学习用户所期望的写作风格，同时允许通过手动样式编辑和批注进行显式教学。我们研究了18名参与者在两个不同的写作任务中使用GhostWriter，观察到它帮助用户编写个性化的文本生成，并通过提供多种方式控制系统的写作风格来增强用户的能力。从这项研究中，我们提出了一些见解。
 
-    We propose SPHINX-X, an extensive Multimodality Large Language Model (MLLM) series developed upon SPHINX. To improve the architecture and training efficiency, we modify the SPHINX framework by removing redundant visual encoders, bypassing fully-padded sub-images with skip tokens, and simplifying multi-stage training into a one-stage all-in-one paradigm. To fully unleash the potential of MLLMs, we assemble a comprehensive multi-domain and multimodal dataset covering publicly available resources in language, vision, and vision-language tasks. We further enrich this collection with our curated OCR intensive and Set-of-Mark datasets, extending the diversity and generality. By training over different base LLMs including TinyLlama1.1B, InternLM2-7B, LLaMA2-13B, and Mixtral8x7B, we obtain a spectrum of MLLMs that vary in parameter size and multilingual capabilities. Comprehensive benchmarking reveals a strong correlation between the multi-modal performance with the data and parameter scales. 
+    arXiv:2402.08855v1 Announce Type: cross Abstract: Large language models (LLMs) are becoming more prevalent and have found a ubiquitous use in providing different forms of writing assistance. However, LLM-powered writing systems can frustrate users due to their limited personalization and control, which can be exacerbated when users lack experience with prompt engineering. We see design as one way to address these challenges and introduce GhostWriter, an AI-enhanced writing design probe where users can exercise enhanced agency and personalization. GhostWriter leverages LLMs to learn the user's intended writing style implicitly as they write, while allowing explicit teaching moments through manual style edits and annotations. We study 18 participants who use GhostWriter on two different writing tasks, observing that it helps users craft personalized text generations and empowers them by providing multiple ways to control the system's writing style. From this study, we present insights re
     
-[^7]: PromptCrypt: 使用表情符号对大型语言模型进行安全通信的提示加密
+[^4]: AutoMathText：使用语言模型进行数学文本的自主数据选择
 
-    PromptCrypt: Prompt Encryption for Secure Communication with Large Language Models
+    AutoMathText: Autonomous Data Selection with Language Models for Mathematical Texts
 
-    [https://arxiv.org/abs/2402.05868](https://arxiv.org/abs/2402.05868)
+    [https://arxiv.org/abs/2402.07625](https://arxiv.org/abs/2402.07625)
 
-    PromptCrypt是一种使用表情符号对用户输入进行加密的机制，保护了大型语言模型（LLM）中用户的隐私，防止数据泄露和解密。
-
-    
-
-    基于云的大型语言模型（LLM）如ChatGPT在日常操作中变得越来越重要，成为各种应用程序中的重要工具。虽然这些模型在可访问性和功能性方面带来了重大好处，但它们也引入了重要的隐私问题：在云基础架构中传输和存储用户数据会产生重大的数据泄露和未经授权访问敏感信息的风险；即使数据的传输和存储被加密，LLM服务提供商仍然知道数据的真实内容，从而阻止个人或实体放心使用此类LLM服务。为了解决这些问题，本文提出了一种简单但有效的机制PromptCrypt来保护用户隐私。它使用表情符号对用户输入进行加密，然后将其发送到LLM，有效地使其对人类或LLM的检查无法理解，同时保留原始提示的意图，从而确保用户隐私。
-
-    Cloud-based large language models (LLMs) such as ChatGPT have increasingly become integral to daily operations, serving as vital tools across various applications. While these models offer substantial benefits in terms of accessibility and functionality, they also introduce significant privacy concerns: the transmission and storage of user data in cloud infrastructures pose substantial risks of data breaches and unauthorized access to sensitive information; even if the transmission and storage of data is encrypted, the LLM service provider itself still knows the real contents of the data, preventing individuals or entities from confidently using such LLM services. To address these concerns, this paper proposes a simple yet effective mechanism PromptCrypt to protect user privacy. It uses Emoji to encrypt the user inputs before sending them to LLM, effectively rendering them indecipherable to human or LLM's examination while retaining the original intent of the prompt, thus ensuring the 
-    
-[^8]: LitLLM：科学文献综述工具包
-
-    LitLLM: A Toolkit for Scientific Literature Review
-
-    [https://arxiv.org/abs/2402.01788](https://arxiv.org/abs/2402.01788)
-
-    "LitLLM: A Toolkit for Scientific Literature Review" 提出了一个基于 RAG 原则的工具包，通过使用专门的提示和指导技术，结合大型语言模型（LLM），实现了科学文献综述的自动化。这个工具包不仅可以通过转化摘要为关键词进行文献检索，还可以通过补充相关论文或关键词进行定制化的检索。
+    本论文介绍了一种自主数据选择策略，利用语言模型进行数学文本的自动评估和选择，并通过连续预训练显著提高了数学推理能力。主要创新包括利用元提示语言模型作为验证器，发布了高质量的AutoMathText数据集，并实现了预训练令牌效率的提升。
 
     
 
-    进行科学论文的文献综述对于理解研究、其限制以及构建在现有工作基础上是必不可少的。这是一项繁琐的任务，因此自动文献综述生成器变得有吸引力。然而，许多使用大型语言模型（LLM）生成此类综述的现有工作存在显著限制。它们倾向于产生虚构的非实际信息，并忽略它们未受过训练的最新研究。为了解决这些限制，我们提出了一个基于检索增强生成（RAG）原则的工具包，在LLM的帮助下，使用专门的提示和指导技术。我们的系统首先通过将用户提供的摘要转化为关键词来进行网络搜索，以检索相关论文，其中使用了现成的LLM。作者可以通过补充相关论文或关键词来改进搜索，从而实现定制化的检索过程。其次，系统根据-
+    为了通过持续的预训练改善语言模型在数学推理方面的能力，我们引入了一种新颖的策略，利用基础语言模型进行自主数据选择。与传统的有人工标注数据的监督微调或训练过的分类器不同，我们的方法利用元提示语言模型作为零样本验证器，自主评估和选择高质量的数学内容，并发布了经过策划的开源AutoMathText数据集，其中包含超过200GB的数据。为了证明我们方法的有效性，我们对AutoMathText数据集进行了连续预训练，使得7B参数的Mistral语言模型在MATH数据集上的下游性能大幅提升，而令牌数量比之前的连续预训练工作减少了几个数量级。我们的方法展示了基准的预训练令牌效率提高了2倍，突显了我们方法在增强中的潜力。
 
-    Conducting literature reviews for scientific papers is essential for understanding research, its limitations, and building on existing work. It is a tedious task which makes an automatic literature review generator appealing. Unfortunately, many existing works that generate such reviews using Large Language Models (LLMs) have significant limitations. They tend to hallucinate-generate non-actual information-and ignore the latest research they have not been trained on. To address these limitations, we propose a toolkit that operates on Retrieval Augmented Generation (RAG) principles, specialized prompting and instructing techniques with the help of LLMs. Our system first initiates a web search to retrieve relevant papers by summarizing user-provided abstracts into keywords using an off-the-shelf LLM. Authors can enhance the search by supplementing it with relevant papers or keywords, contributing to a tailored retrieval process. Second, the system re-ranks the retrieved papers based on t
+    To improve language models' proficiency in mathematical reasoning via continual pretraining, we introduce a novel strategy that leverages base language models for autonomous data selection. Departing from conventional supervised fine-tuning or trained classifiers with human-annotated data, our approach utilizes meta-prompted language models as zero-shot verifiers to autonomously evaluate and select high-quality mathematical content, and we release the curated open-source AutoMathText dataset encompassing over 200GB of data. To demonstrate the efficacy of our method, we continuously pretrained a 7B-parameter Mistral language model on the AutoMathText dataset, achieving substantial improvements in downstream performance on the MATH dataset with a token amount reduced by orders of magnitude compared to previous continuous pretraining works. Our method showcases a 2 times increase in pretraining token efficiency compared to baselines, underscoring the potential of our approach in enhancing
     
-[^9]: 通过函数编码器实现零-shot强化学习
+[^5]: 大型语言模型：一项调查
 
-    Zero-Shot Reinforcement Learning via Function Encoders
+    Large Language Models: A Survey
 
-    [https://arxiv.org/abs/2401.17173](https://arxiv.org/abs/2401.17173)
+    [https://arxiv.org/abs/2402.06196](https://arxiv.org/abs/2402.06196)
 
-    本论文提出了一种用于实现零-shot迁移的函数编码器，通过将函数表示为学习到的非线性基函数的加权组合，代理程序通过连贯的向量表示了当前任务与先前看到任务的关联信息，从而实现了在相关任务之间的迁移，无需额外训练。
-
-    
-
-    尽管强化学习（RL）可以解决许多具有挑战性的序列决策问题，但在相关任务之间实现零-shot迁移仍然是一个挑战。难点在于寻找一个良好的表示来表达当前任务，以便代理程序理解它与先前看到的任务的关系。为了实现零-shot迁移，我们引入了函数编码器，一种表示学习算法，它将函数表示为学习到的非线性基函数的加权组合。通过使用函数编码器来表示奖励函数或转移函数，代理程序通过一个连贯的向量表示有关当前任务与先前看到的任务的关联信息。因此，代理能够在运行时在相关任务之间实现迁移，而无需进行额外的训练。通过将基本RL算法与函数编码器结合，我们在三个RL领域中展示了最先进的数据效率、渐近性能和训练稳定性。
-
-    Although reinforcement learning (RL) can solve many challenging sequential decision making problems, achieving zero-shot transfer across related tasks remains a challenge. The difficulty lies in finding a good representation for the current task so that the agent understands how it relates to previously seen tasks. To achieve zero-shot transfer, we introduce the function encoder, a representation learning algorithm which represents a function as a weighted combination of learned, non-linear basis functions. By using a function encoder to represent the reward function or the transition function, the agent has information on how the current task relates to previously seen tasks via a coherent vector representation. Thus, the agent is able to achieve transfer between related tasks at run time with no additional training. We demonstrate state-of-the-art data efficiency, asymptotic performance, and training stability in three RL fields by augmenting basic RL algorithms with a function encod
-    
-[^10]: 使用Sum-Product Networks生成可能的反事实推理
-
-    Generating Likely Counterfactuals Using Sum-Product Networks. (arXiv:2401.14086v1 [cs.AI])
-
-    [http://arxiv.org/abs/2401.14086](http://arxiv.org/abs/2401.14086)
-
-    由于用户需求和最近的法规要求，需要对AI系统所做出的决策进行解释。本论文提出了一种使用Sum-Product Networks模拟寻找高可能性反事实推理的系统，该系统能够提供满足多个常见要求的最佳解释。
+    大型语言模型（LLMs）吸引了很多关注，因为它们在自然语言任务上的强大表现。该研究领域发展迅速，包括了各种著名的LLMs、构建和增强LLMs的技术、以及流行的LLM数据集和评估指标。
 
     
 
-    由于用户需求和最近的法规（GDPR、AI法案），需要解释AI系统所做出的决策。这些决策往往只能在事后解释，反事实推理成为常见的解释方式。什么构成了最佳的反事实解释必须考虑多个方面，其中“样本距离”是最常见的。我们认为，这一要求经常会导致不太可能且因此价值有限的解释。在这里，我们提出了一个能够提供高可能性解释的系统。我们展示了使用混合整数优化（MIO）模拟寻找满足反事实推理的许多常见要求的最有可能解释。在此过程中，我们提出了Sum-Product Network（SPN）的MIO表达，并使用SPN估计反事实的可能性，这对独立的兴趣也有用。与生成反事实解释的几种方法进行数值比较。
+    大型语言模型（LLMs）由于其在各种自然语言任务上的出色表现而受到了很多关注，自2022年11月ChatGPT发布以来。LLMs通过在大量文本数据上训练模型的数十亿参数来获得广泛的通用语言理解和生成能力，这符合缩放定律的预测。LLMs的研究领域尽管非常新，但在许多不同方面正在快速发展。在本文中，我们回顾了一些最著名的LLMs，包括三个流行的LLM系列（GPT、LLaMA、PaLM），并讨论了它们的特点、贡献和限制。我们还概述了构建和增强LLMs的技术。然后，我们调查了为LLM训练、微调和评估准备的流行数据集，审查了广泛使用的LLM评估指标，并比较了几个流行LLM在一组代表性基准上的性能。
 
-    Due to user demand and recent regulation (GDPR, AI Act), decisions made by AI systems need to be explained. These decisions are often explainable only post hoc, where counterfactual explanations are popular. The question of what constitutes the best counterfactual explanation must consider multiple aspects, where "distance from the sample" is the most common. We argue that this requirement frequently leads to explanations that are unlikely and, therefore, of limited value. Here, we present a system that provides high-likelihood explanations. We show that the search for the most likely explanations satisfying many common desiderata for counterfactual explanations can be modeled using mixed-integer optimization (MIO). In the process, we propose an MIO formulation of a Sum-Product Network (SPN) and use the SPN to estimate the likelihood of a counterfactual, which can be of independent interest. A numerical comparison against several methods for generating counterfactual explanations is pr
+    Large Language Models (LLMs) have drawn a lot of attention due to their strong performance on a wide range of natural language tasks, since the release of ChatGPT in November 2022. LLMs' ability of general-purpose language understanding and generation is acquired by training billions of model's parameters on massive amounts of text data, as predicted by scaling laws \cite{kaplan2020scaling,hoffmann2022training}. The research area of LLMs, while very recent, is evolving rapidly in many different ways. In this paper, we review some of the most prominent LLMs, including three popular LLM families (GPT, LLaMA, PaLM), and discuss their characteristics, contributions and limitations. We also give an overview of techniques developed to build, and augment LLMs. We then survey popular datasets prepared for LLM training, fine-tuning, and evaluation, review widely used LLM evaluation metrics, and compare the performance of several popular LLMs on a set of representative benchmarks. Finally, we co
     
-[^11]: 基于LLM的代码生成中的偏差评估与缓解
+[^6]: 将“段分离任意模型”推进至高度准确的二元图像分割
 
-    Bias Assessment and Mitigation in LLM-based Code Generation. (arXiv:2309.14345v1 [cs.SE])
+    Promoting Segment Anything Model towards Highly Accurate Dichotomous Image Segmentation
 
-    [http://arxiv.org/abs/2309.14345](http://arxiv.org/abs/2309.14345)
+    [https://arxiv.org/abs/2401.00248](https://arxiv.org/abs/2401.00248)
 
-    这项研究提出了一个新颖的偏差评估框架，针对代码生成任务进行设计。通过对九个最先进的基于LLM的代码生成模型进行广泛评估，发现其中31.45\%到79.93\%的代码函数具有偏见，并提出了如何缓解这种偏见的方法。
-
-    
-
-    利用最新的大型语言模型（LLM），自动代码生成模型在提高软件开发编码过程的生产力和效率方面起着至关重要的作用。随着LLM在软件编码生态系统中的普及，一个紧迫的问题已经出现：生成的代码是否包含与年龄、性别和种族相关的社会偏见？这个问题关系到依赖于这些模型生成的代码的软件应用的完整性、公平性和道德基础，然而在文献中还没有得到充分探讨。本文提出了一个专为代码生成任务设计的新颖偏差评估框架。基于该框架，我们对九个最先进的基于LLM的代码生成模型的偏差进行了广泛评估。我们的发现揭示了，首先，我们评估的代码生成模型生成的31.45\%到79.93\%的代码函数具有偏见，9.68\%到37.37\%的代码函数的功能使
-
-    Utilizing state-of-the-art Large Language Models (LLMs), automatic code generation models play a pivotal role in enhancing the productivity and efficiency of software development coding procedures. As the adoption of LLMs becomes more widespread in software coding ecosystems, a pressing issue has emerged: does the generated code contain social biases, such as those related to age, gender, and race? This issue concerns the integrity, fairness, and ethical foundation of software applications that depend on the code generated by these models, yet is under-explored in the literature. This paper presents a novel bias assessment framework that is specifically designed for code generation tasks. Based on this framework, we conduct an extensive evaluation on the bias of nine state-of-the-art LLM-based code generation models. Our findings reveal that first, 31.45\% to 79.93\% code functions generated by our evaluated code generation models are biased, and 9.68\% to 37.37\% code functions' funct
-    
-[^12]: 概要、亮点和行动项目：设计、实现和评估基于LLM的会议总结系统
-
-    Summaries, Highlights, and Action items: Design, implementation and evaluation of an LLM-powered meeting recap system. (arXiv:2307.15793v1 [cs.HC])
-
-    [http://arxiv.org/abs/2307.15793](http://arxiv.org/abs/2307.15793)
-
-    这项研究设计、实现和评估了一种基于LLM的会议总结系统，通过减少个人会议负担和增加会议输出的清晰度和一致性，提高了会议体验。
+    将段分离任意模型推进至高度准确的二元图像分割，通过提出DIS-SAM框架，成功改进SAM模型在细节方面的表现，实现了显著增强的分割精度。
 
     
 
-    会议在工作协调中发挥着关键的基础设施作用。近年来，由于向混合和远程工作的转变，越来越多的会议正在转移到在线计算机媒体空间。这导致了新的问题（例如在更不吸引人的会议上花费更多的时间）和新的机会（例如自动转录/字幕和总结支持）。最近的大型语言模型（LLMs）在对话总结方面取得了进展，通过减少个人的会议负担和增加会议输出的清晰度和一致性，有可能提高会议体验。尽管存在这种潜力，但由于长篇转录和无法根据用户的上下文捕捉到多样的总结需求，它们面临着技术限制。为了填补这些差距，我们设计、实现并在上下文中评估了一种会议总结系统。我们首先构思了两个明显的总结表示方式——重要亮点和结构化的分级会议纪要视图。我们开发了一个系统来实现这些表示方法。
+    Segment Anything Model (SAM)代表了计算机视觉基础模型的重大突破，提供了大规模图像分割模型。然而，尽管SAM的零-shot表现，其分割蒙版缺乏细粒度细节，特别是在准确描绘对象边界方面。我们对SAM是否可以作为基础模型进一步改进以实现高度精确的对象分割（即称为二元图像分割DIS）抱有很高期望。为解决这一问题，我们提出了DIS-SAM，将SAM推进至DIS，具有极高的精确细节。DIS-SAM是一个专门为高度准确分割而设计的框架，保持了SAM的可促进设计。DIS-SAM采用了两阶段方法，将SAM与专门用于DIS的修改后的IS-Net集成在一起。尽管简单，DIS-SAM相比SAM和HQ-SA表现出显着增强的分割精度。
 
-    Meetings play a critical infrastructural role in the coordination of work. In recent years, due to shift to hybrid and remote work, more meetings are moving to online Computer Mediated Spaces. This has led to new problems (e.g. more time spent in less engaging meetings) and new opportunities (e.g. automated transcription/captioning and recap support). Recent advances in large language models (LLMs) for dialog summarization have the potential to improve the experience of meetings by reducing individuals' meeting load and increasing the clarity and alignment of meeting outputs. Despite this potential, they face technological limitation due to long transcripts and inability to capture diverse recap needs based on user's context. To address these gaps, we design, implement and evaluate in-context a meeting recap system. We first conceptualize two salient recap representations -- important highlights, and a structured, hierarchical minutes view. We develop a system to operationalize the rep
+    arXiv:2401.00248v2 Announce Type: replace-cross  Abstract: The Segment Anything Model (SAM) represents a significant breakthrough into foundation models for computer vision, providing a large-scale image segmentation model. However, despite SAM's zero-shot performance, its segmentation masks lack fine-grained details, particularly in accurately delineating object boundaries. We have high expectations regarding whether SAM, as a foundation model, can be improved towards highly accurate object segmentation, which is known as dichotomous image segmentation (DIS). To address this issue, we propose DIS-SAM, which advances SAM towards DIS with extremely accurate details. DIS-SAM is a framework specifically tailored for highly accurate segmentation, maintaining SAM's promptable design. DIS-SAM employs a two-stage approach, integrating SAM with a modified IS-Net dedicated to DIS. Despite its simplicity, DIS-SAM demonstrates significantly enhanced segmentation accuracy compared to SAM and HQ-SA
     
-[^13]: 优先轨迹回放：一种用于数据驱动强化学习的回放记忆方法
+[^7]: 具有原型的跨领域随机预训练用于强化学习
 
-    Prioritized Trajectory Replay: A Replay Memory for Data-driven Reinforcement Learning. (arXiv:2306.15503v1 [cs.LG])
+    Cross-domain Random Pre-training with Prototypes for Reinforcement Learning
 
-    [http://arxiv.org/abs/2306.15503](http://arxiv.org/abs/2306.15503)
+    [https://arxiv.org/abs/2302.05614](https://arxiv.org/abs/2302.05614)
 
-    本研究提出了一种名为优先轨迹回放的回放记忆方法，将数据采样的视角扩展到轨迹中，从有限的数据中提取更全面的信息。这种方法通过反向采样轨迹来提高学习效率，并利用加权评论目标避免采样未见过的动作。优先轨迹回放还能根据不同的优先度指标优先采样效率更高的轨迹。
+    提出了CRPTpro框架，利用原型进行跨领域自监督随机预训练，提高预训练效率，并实现在不同领域中定义的视觉控制RL任务。
 
     
 
-    近年来，数据驱动的强化学习（RL），也称为离线RL，引起了广泛关注。然而，尽管其具有提升在线RL性能的潜力，但离线RL中的数据采样技术的作用却被忽视了。最近的研究表明，直接将采样技术应用于状态转换并不能始终提高离线RL的性能。因此，在本研究中，我们提出了一种记忆技术——优先轨迹回放（TR/PTR），它将采样的视角扩展到轨迹中，以从有限的数据中提取更全面的信息。TR通过反向采样轨迹来提高学习效率，优化后续状态信息的使用。在TR的基础上，我们构建了加权评论目标，以避免在离线训练中采样未见过的动作，并且引入了优先轨迹回放（PTR）来实现更高效的轨迹采样，根据不同的轨迹优先度指标进行优先设置。我们演示了...
+    此工作已提交给IEEE进行可能的出版。 CRPTpro提出了一种用于基于图像的RL的跨领域自监督随机预训练框架，利用原型。 CRPTpro采用了跨领域随机策略，可以轻松快速地从多个领域中抽样多样化数据，以提高预训练效率。此外，通过提出一种新颖的内在损失进行原型表示学习，以在不同领域中预训练有效且通用的编码器。在没有微调的情况下，跨领域编码器可以高效地应用于不同领域中定义的具有挑战性的下游视觉控制RL任务。 与以前的方法如APT和Proto-RL相比，CRP
 
-    In recent years, data-driven reinforcement learning (RL), also known as offline RL, have gained significant attention. However, the role of data sampling techniques in offline RL has been overlooked despite its potential to enhance online RL performance. Recent research suggests applying sampling techniques directly to state-transitions does not consistently improve performance in offline RL. Therefore, in this study, we propose a memory technique, (Prioritized) Trajectory Replay (TR/PTR), which extends the sampling perspective to trajectories for more comprehensive information extraction from limited data. TR enhances learning efficiency by backward sampling of trajectories that optimizes the use of subsequent state information. Building on TR, we build the weighted critic target to avoid sampling unseen actions in offline training, and Prioritized Trajectory Replay (PTR) that enables more efficient trajectory sampling, prioritized by various trajectory priority metrics. We demonstrat
+    arXiv:2302.05614v2 Announce Type: replace-cross  Abstract: This work has been submitted to the IEEE for possible publication. Copyright may be transferred without notice, after which this version may no longer be accessible. Task-agnostic cross-domain pre-training shows great potential in image-based Reinforcement Learning (RL) but poses a big challenge. In this paper, we propose CRPTpro, a Cross-domain self-supervised Random Pre-Training framework with prototypes for image-based RL. CRPTpro employs cross-domain random policy to easily and quickly sample diverse data from multiple domains, to improve pre-training efficiency. Moreover, prototypical representation learning with a novel intrinsic loss is proposed to pre-train an effective and generic encoder across different domains. Without finetuning, the cross-domain encoder can be implemented for challenging downstream visual-control RL tasks defined in different domains efficiently. Compared with prior arts like APT and Proto-RL, CRP
+    
+[^8]: 信用风险与大型语言模型相结合：从P2P借贷的贷款描述中构建风险指标。
+
+    Credit Risk Meets Large Language Models: Building a Risk Indicator from Loan Descriptions in P2P Lending. (arXiv:2401.16458v1 [q-fin.RM])
+
+    [http://arxiv.org/abs/2401.16458](http://arxiv.org/abs/2401.16458)
+
+    本文研究了如何利用P2P借贷平台上借款人提供的文本描述来构建风险指标。结果显示，利用大型语言模型生成的风险评分可以明显提高信用风险分类器的性能。
+
+    
+
+    P2P借贷作为一种独特的融资机制，通过在线平台将借款人与放款人联系起来。然而，P2P借贷面临信息不对称的挑战，因为放款人往往缺乏足够的数据来评估借款人的信用价值。本文提出了一种新颖的方法来解决这个问题，即利用借款人在贷款申请过程中提供的文本描述。我们的方法涉及使用大型语言模型（LLM）处理这些文本描述，LLM是一种能够识别文本中的模式和语义的强大工具。将迁移学习应用于将LLM适应特定任务。我们从Lending Club数据集的分析结果显示，BERT生成的风险评分显著提高了信用风险分类器的性能。然而，基于LLM的系统固有的不透明性，以及潜在偏差的不确定性，限制了其应用。
+
+    Peer-to-peer (P2P) lending has emerged as a distinctive financing mechanism, linking borrowers with lenders through online platforms. However, P2P lending faces the challenge of information asymmetry, as lenders often lack sufficient data to assess the creditworthiness of borrowers. This paper proposes a novel approach to address this issue by leveraging the textual descriptions provided by borrowers during the loan application process. Our methodology involves processing these textual descriptions using a Large Language Model (LLM), a powerful tool capable of discerning patterns and semantics within the text. Transfer learning is applied to adapt the LLM to the specific task at hand.  Our results derived from the analysis of the Lending Club dataset show that the risk score generated by BERT, a widely used LLM, significantly improves the performance of credit risk classifiers. However, the inherent opacity of LLM-based systems, coupled with uncertainties about potential biases, unders
+    
+[^9]: 混合你自己的对比对
+
+    Mixup Your Own Pairs. (arXiv:2309.16633v1 [cs.LG])
+
+    [http://arxiv.org/abs/2309.16633](http://arxiv.org/abs/2309.16633)
+
+    本文提出了一种名为SupReMix的方法，通过混合样本，特别是混合负样本和混合正样本，来解决回归问题中表示学习的挑战。这种方法能够提供更好的性能和更准确的回归结果。
+
+    
+
+    在表示学习中，回归问题传统上比分类问题受到的关注较少。直接应用为分类设计的表示学习技术到回归问题往往会导致潜空间中碎片化的表示，从而产生次优的性能。本文认为，由于忽视了两个关键方面：序序感知和难度，对于回归问题而言，对比学习的潜能被忽视了。为了解决这些挑战，我们提倡“混合自己的对比对进行监督性对比回归”，而不仅仅依靠真实/增强样本。具体来说，我们提出了混合式监督对比回归学习（SupReMix）。它在嵌入级别上以锚点包含的混合（锚点和一个不同的负样本的混合）作为困难负对，以锚点排除的混合（两个不同的负样本的混合）作为困难正对。这一策略形成了困难样本对学习的方式。
+
+    In representation learning, regression has traditionally received less attention than classification. Directly applying representation learning techniques designed for classification to regression often results in fragmented representations in the latent space, yielding sub-optimal performance. In this paper, we argue that the potential of contrastive learning for regression has been overshadowed due to the neglect of two crucial aspects: ordinality-awareness and hardness. To address these challenges, we advocate "mixup your own contrastive pairs for supervised contrastive regression", instead of relying solely on real/augmented samples. Specifically, we propose Supervised Contrastive Learning for Regression with Mixup (SupReMix). It takes anchor-inclusive mixtures (mixup of the anchor and a distinct negative sample) as hard negative pairs and anchor-exclusive mixtures (mixup of two distinct negative samples) as hard positive pairs at the embedding level. This strategy formulates harde
+    
+[^10]: Notation3作为一种存在规则语言
+
+    Notation3 as an Existential Rule Language. (arXiv:2308.07332v1 [cs.AI])
+
+    [http://arxiv.org/abs/2308.07332](http://arxiv.org/abs/2308.07332)
+
+    本文研究了Notation3与存在规则之间的关系，并提出了一个将部分Notation3直接映射到存在规则的方法，从而提高了Notation3推理的效率。
+
+    
+
+    Notation3逻辑（\nthree）是RDF的扩展，允许用户编写引入新的空白节点到RDF图中的规则。许多应用程序（例如本体映射）依赖于此功能，因为空白节点在Web上广泛存在，直接使用或作为辅助结构。然而，涵盖该逻辑非常重要功能的快速\nthree推理器的数量相对有限。另一方面，像VLog或Nemo之类的引擎不直接支持语义Web规则格式，但是它们是为非常相似的构造（存在规则）开发和优化的。在本文中，我们研究了具有空白节点的\nthree规则与存在规则之间的关系。我们确定了一个可以直接映射到存在规则的\nthree子集，并定义了这样一个映射，保持了\nthree公式的等价性。为了进一步说明在某些情况下\nthree推理可以受益于我们的转换，我们使用该映射进行分析。
+
+    Notation3 Logic (\nthree) is an extension of RDF that allows the user to write rules introducing new blank nodes to RDF graphs. Many applications (e.g., ontology mapping) rely on this feature as blank nodes -- used directly or in auxiliary constructs -- are omnipresent on the Web. However, the number of fast \nthree reasoners covering this very important feature of the logic is rather limited. On the other hand, there are engines like VLog or Nemo which do not directly support Semantic Web rule formats but which are developed and optimized for very similar constructs: existential rules. In this paper, we investigate the relation between \nthree rules with blank nodes in their heads and existential rules. We identify a subset of \nthree which can be mapped directly to existential rules and define such a mapping preserving the equivalence of \nthree formulae. In order to also illustrate that in some cases \nthree reasoning could benefit from our translation, we then employ this mapping i
+    
+[^11]: 将基础模型作为代理模型引入：朝着更实用的对抗攻击迈进
+
+    Introducing Foundation Models as Surrogate Models: Advancing Towards More Practical Adversarial Attacks. (arXiv:2307.06608v1 [cs.LG])
+
+    [http://arxiv.org/abs/2307.06608](http://arxiv.org/abs/2307.06608)
+
+    本文将对抗攻击重新设定为下游任务，通过生成图像噪声来满足新兴趋势，并将基础模型引入作为代理模型。虽然基础模型的表现不佳，但通过在特征空间中进行分析，我们发现缺乏对应的特征。
+
+    
+
+    最近，无盒对抗攻击成为了最实用且具有挑战性的攻击方式，攻击者无法访问模型的架构、权重和训练数据。然而，在无盒设置中，对于代理模型选择过程的潜力和灵活性缺乏认识。受到利用基础模型解决下游任务的兴趣的启发，本文采用了1）将对抗攻击重新设定为下游任务，具体而言，是生成图像噪声以满足新兴趋势；2）将基础模型引入作为代理模型的创新思想。通过利用非鲁棒特征的概念，我们阐述了选择代理模型的两个指导原则，以解释为什么基础模型是这一角色的最佳选择。然而，矛盾地的是，我们观察到这些基础模型表现不佳。通过在特征空间中分析这种意外行为，我们归因于缺乏上述指导原则所需的特征。
+
+    Recently, the no-box adversarial attack, in which the attacker lacks access to the model's architecture, weights, and training data, become the most practical and challenging attack setup. However, there is an unawareness of the potential and flexibility inherent in the surrogate model selection process on no-box setting. Inspired by the burgeoning interest in utilizing foundational models to address downstream tasks, this paper adopts an innovative idea that 1) recasting adversarial attack as a downstream task. Specifically, image noise generation to meet the emerging trend and 2) introducing foundational models as surrogate models. Harnessing the concept of non-robust features, we elaborate on two guiding principles for surrogate model selection to explain why the foundational model is an optimal choice for this role. However, paradoxically, we observe that these foundational models underperform. Analyzing this unexpected behavior within the feature space, we attribute the lackluster
+    
+[^12]: 深度学习模型的表征状态
+
+    The Representational Status of Deep Learning Models. (arXiv:2303.12032v1 [cs.AI])
+
+    [http://arxiv.org/abs/2303.12032](http://arxiv.org/abs/2303.12032)
+
+    该论文澄清了深度学习模型的表征状态。尽管通常称为“表征”，但实际上它们更适合理解为高度理想化的模型，这一结果对可解释的AI有着直接影响，也引起了哲学家对其在未来科学研究中的作用的关注。
+
+    
+
+    本文旨在澄清深度学习模型（DLMs）的表征状态。由于功能和关系概念的混淆，尽管通常称为“表征”，但这意味着含糊不清。本文认为，虽然DLM以关系意义上的表征其目标，但最好理解为高度理想化的模型。这个结果对可解释的AI（XAI）有直接影响，并引导哲学关注DLM表征的理想化性质及其在未来科学研究中的作用。
+
+    This paper aims to clarify the representational status of Deep Learning Models (DLMs). While commonly referred to as 'representations', what this entails is ambiguous due to a conflation of functional and relational conceptions of representation. This paper argues that while DLMs represent their targets in a relational sense, they are best understood as highly idealized models. This result has immediate implications for explainable AI (XAI) and directs philosophical attention toward examining the idealized nature of DLM representations and their role in future scientific investigation.
     
 
