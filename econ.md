@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [The Local Approach to Causal Inference under Network Interference.](http://arxiv.org/abs/2105.03810) | 我们提出了一种新的非参数建模框架，用于网络干扰条件下的因果推断，通过对代理人之间的连接方式进行建模和学习政策或治疗分配的影响。我们还提出了一种有效的测试方法来检验政策无关性/治疗效应，并对平均或分布式政策效应/治疗反应的估计器给出了上界。 |
+| [^1] | [What To Do (and Not to Do) with Causal Panel Analysis under Parallel Trends: Lessons from A Large Reanalysis Study.](http://arxiv.org/abs/2309.15983) | 通过对37篇使用观察面板数据的文章进行复制和重新分析，我们发现双向固定效应模型的核心结论在新的异质治疗效应鲁棒估计器下基本保持不变，但平行趋势假设违反和统计力量不足仍然是可信推论的重要障碍。 |
 
 # 详细
 
-[^1]: 网络干扰条件下因果推断的局部方法
+[^1]: 如何在平行趋势下进行因果面板分析：一项大规模再分析研究的教训
 
-    The Local Approach to Causal Inference under Network Interference. (arXiv:2105.03810v4 [econ.EM] UPDATED)
+    What To Do (and Not to Do) with Causal Panel Analysis under Parallel Trends: Lessons from A Large Reanalysis Study. (arXiv:2309.15983v1 [stat.ME])
 
-    [http://arxiv.org/abs/2105.03810](http://arxiv.org/abs/2105.03810)
+    [http://arxiv.org/abs/2309.15983](http://arxiv.org/abs/2309.15983)
 
-    我们提出了一种新的非参数建模框架，用于网络干扰条件下的因果推断，通过对代理人之间的连接方式进行建模和学习政策或治疗分配的影响。我们还提出了一种有效的测试方法来检验政策无关性/治疗效应，并对平均或分布式政策效应/治疗反应的估计器给出了上界。
+    通过对37篇使用观察面板数据的文章进行复制和重新分析，我们发现双向固定效应模型的核心结论在新的异质治疗效应鲁棒估计器下基本保持不变，但平行趋势假设违反和统计力量不足仍然是可信推论的重要障碍。
 
     
 
-    我们提出了一种新的非参数建模框架，用于处理社交或经济网络中代理人之间连接方式对结果产生影响的因果推断问题。这种网络干扰描述了关于治疗溢出、社交互动、社会学习、信息扩散、疾病和金融传染、社会资本形成等领域的大量文献。我们的方法首先通过测量路径距离来描述代理人在网络中的连接方式，然后通过汇集具有类似配置的代理人的结果数据来学习政策或治疗分配的影响。我们通过提出一个渐近有效的测试来演示该方法，该测试用于检验政策无关性/治疗效应的假设，并给出了针对平均或分布式政策效应/治疗反应的k最近邻估计器的均方误差的上界。
+    双向固定效应模型在政治科学中的因果面板分析中普遍应用。然而，最近的方法论讨论挑战了其在存在异质治疗效应和平行趋势假设违反情况下的有效性。这一新兴的文献引入了多个估计器和诊断方法，导致实证研究人员在两个方面产生了困惑：基于双向固定效应模型的现有结果的可靠性和目前的最佳实践。为了解决这些问题，我们考察、复制和重新分析了三个领先政治科学期刊上共37篇运用观察面板数据和二元治疗的文章。使用六种新引入的异质治疗效应鲁棒估计器，我们发现尽管精确性可能受到影响，但基于双向固定效应估计的核心结论在很大程度上保持不变。然而，平行趋势假设的违反和统计力量不足仍然是可信推论的重要障碍。
 
-    We propose a new nonparametric modeling framework for causal inference when outcomes depend on how agents are linked in a social or economic network. Such network interference describes a large literature on treatment spillovers, social interactions, social learning, information diffusion, disease and financial contagion, social capital formation, and more. Our approach works by first characterizing how an agent is linked in the network using the configuration of other agents and connections nearby as measured by path distance. The impact of a policy or treatment assignment is then learned by pooling outcome data across similarly configured agents. We demonstrate the approach by proposing an asymptotically valid test for the hypothesis of policy irrelevance/no treatment effects and bounding the mean-squared error of a k-nearest-neighbor estimator for the average or distributional policy effect/treatment response.
+    Two-way fixed effects (TWFE) models are ubiquitous in causal panel analysis in political science. However, recent methodological discussions challenge their validity in the presence of heterogeneous treatment effects (HTE) and violations of the parallel trends assumption (PTA). This burgeoning literature has introduced multiple estimators and diagnostics, leading to confusion among empirical researchers on two fronts: the reliability of existing results based on TWFE models and the current best practices. To address these concerns, we examined, replicated, and reanalyzed 37 articles from three leading political science journals that employed observational panel data with binary treatments. Using six newly introduced HTE-robust estimators, we find that although precision may be affected, the core conclusions derived from TWFE estimates largely remain unchanged. PTA violations and insufficient statistical power, however, continue to be significant obstacles to credible inferences. Based 
     
 
