@@ -2,37 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Not All Learnable Distribution Classes are Privately Learnable](https://arxiv.org/abs/2402.00267) | 这篇论文证明了一类分布虽然可以在有限样本下以总变差距离进行学习，但却无法在（ε，δ）-差分隐私下学习。 |
-| [^2] | [Targeted Separation and Convergence with Kernel Discrepancies.](http://arxiv.org/abs/2209.12835) | 通过核差异度量，我们推导出了新的充分必要条件，实现了将目标分离出来，以及控制对目标的弱收敛性。此外，我们在$\mathbb{R}^d$上使用了这些结果来扩展了核Stein差异分离和收敛控制的已知条件，并开发了能够精确度量目标的弱收敛性的核差异度量。 |
+| [^1] | [Deep Learning Framework with Uncertainty Quantification for Survey Data: Assessing and Predicting Diabetes Mellitus Risk in the American Population](https://arxiv.org/abs/2403.19752) | 该论文提出了一个利用神经网络模型进行回归和分类的预测框架，并引入了适用于复杂调查设计数据的不确定性量化算法，以评估美国人群糖尿病风险。 |
+| [^2] | [Diffusion Variational Inference: Diffusion Models as Expressive Variational Posteriors.](http://arxiv.org/abs/2401.02739) | 本文提出了去噪扩散变分推断（DDVI）算法，该算法使用扩散模型作为表达性变分后验，并通过反转加噪过程在潜空间中进行扩散。该方法易于实现，兼容黑盒变分推断，并在深度潜变量模型中的任务中表现优异。 |
+| [^3] | [Sinkhorn Distributionally Robust Optimization.](http://arxiv.org/abs/2109.11926) | 本文通过使用Sinkhorn距离进行分布鲁棒优化，推导出更容易处理且在实际中更合理的最坏情况分布，提出了解决方案，并展示了其优越性能。 |
 
 # 详细
 
-[^1]: 并非所有可学习的分布类都能在差分隐私下进行学习
+[^1]: 具有不确定性量化的调查数据深度学习框架: 评估和预测美国人群糖尿病风险
 
-    Not All Learnable Distribution Classes are Privately Learnable
+    Deep Learning Framework with Uncertainty Quantification for Survey Data: Assessing and Predicting Diabetes Mellitus Risk in the American Population
 
-    [https://arxiv.org/abs/2402.00267](https://arxiv.org/abs/2402.00267)
+    [https://arxiv.org/abs/2403.19752](https://arxiv.org/abs/2403.19752)
 
-    这篇论文证明了一类分布虽然可以在有限样本下以总变差距离进行学习，但却无法在（ε，δ）-差分隐私下学习。
-
-    
-
-    我们给出了一个示例，展示了一类分布在有限样本下可以以总变差距离进行学习，但在（ε，δ）-差分隐私下无法学习。这推翻了Ashtiani的一个猜想。
-
-    We give an example of a class of distributions that is learnable in total variation distance with a finite number of samples, but not learnable under $(\varepsilon, \delta)$-differential privacy. This refutes a conjecture of Ashtiani.
-    
-[^2]: 通过核差异实现有针对性的分离与收敛
-
-    Targeted Separation and Convergence with Kernel Discrepancies. (arXiv:2209.12835v2 [stat.ML] UPDATED)
-
-    [http://arxiv.org/abs/2209.12835](http://arxiv.org/abs/2209.12835)
-
-    通过核差异度量，我们推导出了新的充分必要条件，实现了将目标分离出来，以及控制对目标的弱收敛性。此外，我们在$\mathbb{R}^d$上使用了这些结果来扩展了核Stein差异分离和收敛控制的已知条件，并开发了能够精确度量目标的弱收敛性的核差异度量。
+    该论文提出了一个利用神经网络模型进行回归和分类的预测框架，并引入了适用于复杂调查设计数据的不确定性量化算法，以评估美国人群糖尿病风险。
 
     
 
-    最大均值差异（MMDs）如核Stein差异（KSD）已经成为广泛应用的中心，包括假设检验、采样器选择、分布近似和变分推断。在每个设置中，这些基于核的差异度量需要实现（i）将目标P与其他概率测度分离，甚至（ii）控制对P的弱收敛。在本文中，我们推导了确保（i）和（ii）的新的充分必要条件。对于可分的度量空间上的MMDs，我们描述了分离Bochner可嵌入测度的核，并引入简单的条件来分离所有具有无界核的测度和用有界核来控制收敛。我们利用这些结果在$\mathbb{R}^d$上大大扩展了KSD分离和收敛控制的已知条件，并开发了首个能够精确度量对P的弱收敛的KSDs。在这个过程中，我们强调了我们的结果的影响。
+    多种医学队列中通常采用复杂的调查设计。在这种情况下，开发反映研究设计的独特特征的特定病例预测风险评分模型至关重要。本文的目标是:(i) 提出一个通用的预测框架，利用神经网络(NN)建模进行回归和分类，其将调查权重纳入估计过程中;(ii) 引入一种模型预测的不确定性量化算法，专为来自复杂调查设计的数据量身定制;(iii) 应用这种方法开发健壮的风险评分模型，评估美国人群糖尿病风险，利用NHANES 2011-2014队列中的数据。我们的估计器的理论性质旨在确保最小偏差和统计一致性，从而确保我们的
 
-    Maximum mean discrepancies (MMDs) like the kernel Stein discrepancy (KSD) have grown central to a wide range of applications, including hypothesis testing, sampler selection, distribution approximation, and variational inference. In each setting, these kernel-based discrepancy measures are required to (i) separate a target P from other probability measures or even (ii) control weak convergence to P. In this article we derive new sufficient and necessary conditions to ensure (i) and (ii). For MMDs on separable metric spaces, we characterize those kernels that separate Bochner embeddable measures and introduce simple conditions for separating all measures with unbounded kernels and for controlling convergence with bounded kernels. We use these results on $\mathbb{R}^d$ to substantially broaden the known conditions for KSD separation and convergence control and to develop the first KSDs known to exactly metrize weak convergence to P. Along the way, we highlight the implications of our res
+    arXiv:2403.19752v1 Announce Type: cross  Abstract: Complex survey designs are commonly employed in many medical cohorts. In such scenarios, developing case-specific predictive risk score models that reflect the unique characteristics of the study design is essential. This approach is key to minimizing potential selective biases in results. The objectives of this paper are: (i) To propose a general predictive framework for regression and classification using neural network (NN) modeling, which incorporates survey weights into the estimation process; (ii) To introduce an uncertainty quantification algorithm for model prediction, tailored for data from complex survey designs; (iii) To apply this method in developing robust risk score models to assess the risk of Diabetes Mellitus in the US population, utilizing data from the NHANES 2011-2014 cohort. The theoretical properties of our estimators are designed to ensure minimal bias and the statistical consistency, thereby ensuring that our m
+    
+[^2]: 扩散变分推断：扩散模型作为表达性变分后验
+
+    Diffusion Variational Inference: Diffusion Models as Expressive Variational Posteriors. (arXiv:2401.02739v1 [cs.LG])
+
+    [http://arxiv.org/abs/2401.02739](http://arxiv.org/abs/2401.02739)
+
+    本文提出了去噪扩散变分推断（DDVI）算法，该算法使用扩散模型作为表达性变分后验，并通过反转加噪过程在潜空间中进行扩散。该方法易于实现，兼容黑盒变分推断，并在深度潜变量模型中的任务中表现优异。
+
+    
+
+    我们提出了去噪扩散变分推断（DDVI），一种用扩散模型作为表达性变分后验的潜变量模型的近似推断算法。我们的方法通过辅助潜变量增加了变分后验，从而得到一个表达性的模型类，通过反转用户指定的加噪过程在潜空间中进行扩散。我们通过优化一个受到觉醒-睡眠算法启发的边际似然新下界来拟合这些模型。我们的方法易于实现（它适配了正则化的ELBO扩展），与黑盒变分推断兼容，并且表现优于基于归一化流或对抗网络的替代近似后验类别。将我们的方法应用于深度潜变量模型时，我们的方法得到了去噪扩散变分自动编码器（DD-VAE）算法。我们将该算法应用于生物学中的一个激励任务 -- 从人类基因组中推断潜在血统 -- 超过了强基线模型。
+
+    We propose denoising diffusion variational inference (DDVI), an approximate inference algorithm for latent variable models which relies on diffusion models as expressive variational posteriors. Our method augments variational posteriors with auxiliary latents, which yields an expressive class of models that perform diffusion in latent space by reversing a user-specified noising process. We fit these models by optimizing a novel lower bound on the marginal likelihood inspired by the wake-sleep algorithm. Our method is easy to implement (it fits a regularized extension of the ELBO), is compatible with black-box variational inference, and outperforms alternative classes of approximate posteriors based on normalizing flows or adversarial networks. When applied to deep latent variable models, our method yields the denoising diffusion VAE (DD-VAE) algorithm. We use this algorithm on a motivating task in biology -- inferring latent ancestry from human genomes -- outperforming strong baselines
+    
+[^3]: Sinkhorn分布鲁棒优化
+
+    Sinkhorn Distributionally Robust Optimization. (arXiv:2109.11926v3 [math.OC] UPDATED)
+
+    [http://arxiv.org/abs/2109.11926](http://arxiv.org/abs/2109.11926)
+
+    本文通过使用Sinkhorn距离进行分布鲁棒优化，推导出更容易处理且在实际中更合理的最坏情况分布，提出了解决方案，并展示了其优越性能。
+
+    
+
+    我们研究了使用Sinkhorn距离 -一种基于熵正则化的Wasserstein距离变体- 的分布鲁棒优化（DRO）。我们为一般名义分布推导了凸规划对偶重构。相比于Wasserstein DRO，对于更大类的损失函数，它在计算上更容易处理，它的最坏情况分布对实际应用更合理。为了解决对偶重构，我们开发了一种使用有偏梯度神经元的随机镜像下降算法，并分析了其收敛速度。最后，我们提供了使用合成和真实数据的数值实例，以证明其优越性能。
+
+    We study distributionally robust optimization (DRO) with Sinkhorn distance -a variant of Wasserstein distance based on entropic regularization. We derive convex programming dual reformulation for a general nominal distribution. Compared with Wasserstein DRO, it is computationally tractable for a larger class of loss functions, and its worst-case distribution is more reasonable for practical applications. To solve the dual reformulation, we develop a stochastic mirror descent algorithm using biased gradient oracles and analyze its convergence rate. Finally, we provide numerical examples using synthetic and real data to demonstrate its superior performance.
     
 

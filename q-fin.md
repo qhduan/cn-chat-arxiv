@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Hilbert Space-Valued LQG Mean Field Games: An Infinite-Dimensional Analysis](https://arxiv.org/abs/2403.01012) | 本文研究了Hilbert空间值的LQG均场博弈，将经典的理论推广到无限维随机方程驱动的情形，并首次探讨了耦合的无限维随机演化方程系统的良定性。 |
+| [^1] | [The FRTB-IMA computational challenge for Equity Autocallables.](http://arxiv.org/abs/2305.06215) | 本文将正交Chebyshev滑动技术应用于基于现货标的物的股票自动敲出期权组合，实现了计算成本的显著降低，为解决高效FRTB-IMA计算挑战迈出了重要的一步。 |
 
 # 详细
 
-[^1]: Hilbert空间值LQG均场博弈：无限维分析
+[^1]: FRTB-IMA下基于正交Chebyshev滑动技术的股票自动敲出期权计算挑战
 
-    Hilbert Space-Valued LQG Mean Field Games: An Infinite-Dimensional Analysis
+    The FRTB-IMA computational challenge for Equity Autocallables. (arXiv:2305.06215v1 [q-fin.RM])
 
-    [https://arxiv.org/abs/2403.01012](https://arxiv.org/abs/2403.01012)
+    [http://arxiv.org/abs/2305.06215](http://arxiv.org/abs/2305.06215)
 
-    本文研究了Hilbert空间值的LQG均场博弈，将经典的理论推广到无限维随机方程驱动的情形，并首次探讨了耦合的无限维随机演化方程系统的良定性。
+    本文将正交Chebyshev滑动技术应用于基于现货标的物的股票自动敲出期权组合，实现了计算成本的显著降低，为解决高效FRTB-IMA计算挑战迈出了重要的一步。
 
     
 
-    本文对Hilbert空间值的线性二次高斯（LQG）均场博弈（MFGs）进行了全面研究，将经典的LQG均场博弈理论推广到状态方程由无限维随机方程驱动的情形。在这个框架中，状态和控制过程的取值空间为可分离的Hilbert空间。此外，状态方程涉及无限维噪声，即$Q$-Wiener过程。所有代理通过人口平均状态出现在他们的线性动力学和二次代价函数中进行耦合。此外，每个代理的扩散系数涉及状态、控制和平均状态过程。我们首先研究了耦合的无限维随机演化方程系统的良定性，这构建了Hilbert空间中MFGs的基础。接下来，我们发展了纳什确定等价原理，并得到了一个独特的纳什解。
+    本文将正交Chebyshev滑动技术应用于一系列基于现货标的物的股票自动敲出期权组合，以降低FRTB-IMA下资本计算的ES值计算成本，实现计算性能优化。结果表明，相比于传统方法，计算成本减少了约90％，满足了PLA测试要求。本文的研究为解决实现高效FRTB-IMA计算所面临的挑战迈出了重要的一步，同时可适用于股票自动敲出期权等常见的复杂交易类型。
 
-    arXiv:2403.01012v1 Announce Type: cross  Abstract: This paper presents a comprehensive study of Hilbert space-valued Linear-Quadratic-Gaussian (LQG) mean field games (MFGs), generalizing the classic LQG mean field game theory to scenarios where the state equations are driven by infinite-dimensional stochastic equations. In this framework, state and control processes take values in separable Hilbert spaces. Moreover, the state equations involve infinite dimensional noises, namely $Q$-Wiener processes. All agents are coupled through the average state of the population appearing in their linear dynamics and quadratic cost functional. In addition, the diffusion coefficient of each agent involves the state, control, and the average state processes. We first study the well-posedness of a system of coupled infinite-dimensional stochastic evolution equations, which forms the foundation of MFGs in Hilbert spaces. Next, we develop the Nash Certainty Equivalence principle and obtain a unique Nash
+    In \cite{rz_slider_wilmott}, the Orthogonal Chebyshev Sliding Technique was introduced and applied to a portfolio of swaps and swaptions within the context of the FRTB-IMA capital calculation. The computational cost associated to the computation of the ES values - an essential component of the capital caluclation under FRTB-IMA - was reduced by more than $90\%$ while passing PLA tests.  This paper extends the use of the Orthogonal Chebyshev Sliding Technique to portfolios of equity autocallables defined over a range of spot underlyings. Results are very positive as computational reductions are of about $90\%$ with passing PLA metrics.  Since equity autocallables are a commonly traded exotic trade type, with significant FRTB-IMA computational costs, the extension presented in this paper constitutes an imporant step forward in tackling the computational challenges associated to an efficient FRTB-IMA implementation.
     
 

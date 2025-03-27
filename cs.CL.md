@@ -2,52 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Right for Right Reasons: Large Language Models for Verifiable Commonsense Knowledge Graph Question Answering](https://arxiv.org/abs/2403.01390) | LLM-based KGQA methods struggle with hallucination on commonsense reasoning questions, hindering their applicability in real-world applications. |
-| [^2] | [Frustratingly Simple Memory Efficiency for Pre-trained Language Models via Dynamic Embedding Pruning.](http://arxiv.org/abs/2309.08708) | 该论文提出了一种简单但有效的方法，通过动态嵌入剪枝来减小预训练语言模型的内存占用。该方法在各种模型和任务中都能显著降低内存使用量，同时保持相当的下游任务性能，实现更高效地利用计算资源。 |
-| [^3] | [Learning Evaluation Models from Large Language Models for Sequence Generation.](http://arxiv.org/abs/2308.04386) | 本文提出了一种评估能力转移方法（ECT），可以将大型语言模型的评估能力转移到相对轻量级的语言模型上，提高序列生成模型的性能。 |
+| [^1] | [TwoStep: Multi-agent Task Planning using Classical Planners and Large Language Models](https://arxiv.org/abs/2403.17246) | 该论文将经典规划和大型语言模型相结合，通过近似人类直觉，以实现多智能体任务规划。 |
+| [^2] | [Comparing Styles across Languages.](http://arxiv.org/abs/2310.07135) | 本研究通过引入解释框架，从多语言语言模型中提取风格差异并比较不同语言之间的风格，创建了全面的多语言礼貌数据集，探索了礼貌在四种语言中的变化，为评估语言类别对风格变化的贡献和了解世界各地人们的不同沟通方式提供了有效的方法和解释洞察力。 |
+| [^3] | [A Geometric Notion of Causal Probing.](http://arxiv.org/abs/2307.15054) | 本文提出了一种几何观念的因果探测方法，通过在语言模型表示空间的子空间上进行反事实干预，优化了因果概念子空间，以实现概念控制生成。 |
 
 # 详细
 
-[^1]: 正当且充分：可验证的常识知识图问题回答中的大型语言模型
+[^1]: TwoStep: 使用经典规划器和大型语言模型进行多智能体任务规划
 
-    Right for Right Reasons: Large Language Models for Verifiable Commonsense Knowledge Graph Question Answering
+    TwoStep: Multi-agent Task Planning using Classical Planners and Large Language Models
 
-    [https://arxiv.org/abs/2403.01390](https://arxiv.org/abs/2403.01390)
+    [https://arxiv.org/abs/2403.17246](https://arxiv.org/abs/2403.17246)
 
-    LLM-based KGQA methods struggle with hallucination on commonsense reasoning questions, hindering their applicability in real-world applications.
-
-    
-
-    知识图问题回答（KGQA）方法旨在利用知识图中存储的关系信息来回答自然语言问题。随着大型语言模型（LLMs）的最新进展及其出色的推理能力，利用它们进行KGQA的趋势日益增长。然而，现有方法仅专注于回答事实性问题，例如“Silvio Berlusconi的第一任妻子出生在哪座城市？”，而忽略了涉及常识推理的问题，这是现实世界用户可能更经常提出的，例如“我需要单独的签证才能看到威伦多夫的维纳斯并参加今年夏天的奥运会吗？”。在这项工作中，我们首先观察到，现有基于LLM的KGQA方法在处理这类问题时难以产生真实的答案，尤其是对针对长尾实体的查询（例如非主流和最近的实体），从而阻碍了它们在现实世界应用中的可应用性。
-
-    arXiv:2403.01390v1 Announce Type: new  Abstract: Knowledge Graph Question Answering (KGQA) methods seek to answer Natural Language questions using the relational information stored in Knowledge Graphs (KGs). With the recent advancements of Large Language Models (LLMs) and their remarkable reasoning abilities, there is a growing trend to leverage them for KGQA. However, existing methodologies have only focused on answering factual questions, e.g., "In which city was Silvio Berlusconi's first wife born?", leaving questions involving commonsense reasoning that real-world users may pose more often, e.g., "Do I need separate visas to see the Venus of Willendorf and attend the Olympics this summer?" unaddressed. In this work, we first observe that existing LLM-based methods for KGQA struggle with hallucination on such questions, especially on queries targeting long-tail entities (e.g., non-mainstream and recent entities), thus hindering their applicability in real-world applications especial
-    
-[^2]: 经由动态嵌入剪枝实现的预训练语言模型的令人沮丧地简单的内存效率
-
-    Frustratingly Simple Memory Efficiency for Pre-trained Language Models via Dynamic Embedding Pruning. (arXiv:2309.08708v1 [cs.CL])
-
-    [http://arxiv.org/abs/2309.08708](http://arxiv.org/abs/2309.08708)
-
-    该论文提出了一种简单但有效的方法，通过动态嵌入剪枝来减小预训练语言模型的内存占用。该方法在各种模型和任务中都能显著降低内存使用量，同时保持相当的下游任务性能，实现更高效地利用计算资源。
+    该论文将经典规划和大型语言模型相结合，通过近似人类直觉，以实现多智能体任务规划。
 
     
 
-    预训练语言模型（PLMs）的广泛内存占用会阻碍其在内存受限环境（如云环境或设备上）的部署。 PLMs使用嵌入矩阵来表示广泛的词汇，构成了模型参数的大部分。尽管之前的工作已经考虑了在Transformer层内剪枝参数以提高参数效率，但在微调或推理过程中剪枝嵌入矩阵尚未被探索。我们首先证明了在这些情况下有一个显著比例的词汇未被使用。然后，我们提出了一个简单而有效的方法，利用这一发现来最小化嵌入矩阵的内存占用。我们展示了这种方法在各种模型和任务中都能显著降低内存使用量。值得注意的是，我们的方法在保持下游任务性能的同时允许更高效地使用计算资源。
+    类似规划领域定义语言（PDDL）之类的经典规划公式允许确定可实现目标状态的动作序列，只要存在任何可能的初始状态。然而，PDDL中定义的推理问题并未捕获行动进行的时间方面，例如领域中的两个智能体如果彼此的后况不干扰前提条件，则可以同时执行一个动作。人类专家可以将目标分解为大部分独立的组成部分，并将每个智能体分配给其中一个子目标，以利用同时进行动作来加快计划步骤的执行，每个部分仅使用单个智能体规划。相比之下，直接推断计划步骤的大型语言模型（LLMs）并不保证执行成功，但利用常识推理来组装动作序列。我们通过近似人类直觉，结合了经典规划和LLMs的优势
 
-    The extensive memory footprint of pre-trained language models (PLMs) can hinder deployment in memory-constrained settings, such as cloud environments or on-device. PLMs use embedding matrices to represent extensive vocabularies, forming a large proportion of the model parameters. While previous work towards parameter-efficient PLM development has considered pruning parameters within the transformer layers, pruning the embedding matrix as part of fine-tuning or inference has yet to be explored. We first demonstrate that a significant proportion of the vocabulary remains unused in these scenarios. We then propose a simple yet effective approach that leverages this finding to minimize the memory footprint of the embedding matrix. We show that this approach provides substantial reductions in memory usage across a wide range of models and tasks. Notably, our approach maintains equivalent downstream task performance while allowing a more efficient use of compute resources.
+    arXiv:2403.17246v1 Announce Type: new  Abstract: Classical planning formulations like the Planning Domain Definition Language (PDDL) admit action sequences guaranteed to achieve a goal state given an initial state if any are possible. However, reasoning problems defined in PDDL do not capture temporal aspects of action taking, for example that two agents in the domain can execute an action simultaneously if postconditions of each do not interfere with preconditions of the other. A human expert can decompose a goal into largely independent constituent parts and assign each agent to one of these subgoals to take advantage of simultaneous actions for faster execution of plan steps, each using only single agent planning. By contrast, large language models (LLMs) used for directly inferring plan steps do not guarantee execution success, but do leverage commonsense reasoning to assemble action sequences. We combine the strengths of classical planning and LLMs by approximating human intuition
     
-[^3]: 从大型语言模型中学习评估模型，用于序列生成
+[^2]: 跨语言风格比较研究
 
-    Learning Evaluation Models from Large Language Models for Sequence Generation. (arXiv:2308.04386v1 [cs.CL])
+    Comparing Styles across Languages. (arXiv:2310.07135v1 [cs.CL])
 
-    [http://arxiv.org/abs/2308.04386](http://arxiv.org/abs/2308.04386)
+    [http://arxiv.org/abs/2310.07135](http://arxiv.org/abs/2310.07135)
 
-    本文提出了一种评估能力转移方法（ECT），可以将大型语言模型的评估能力转移到相对轻量级的语言模型上，提高序列生成模型的性能。
+    本研究通过引入解释框架，从多语言语言模型中提取风格差异并比较不同语言之间的风格，创建了全面的多语言礼貌数据集，探索了礼貌在四种语言中的变化，为评估语言类别对风格变化的贡献和了解世界各地人们的不同沟通方式提供了有效的方法和解释洞察力。
 
     
 
-    大型语言模型在序列生成评估方面表现出最先进的性能，但通常具有大量的参数。这是一个计算挑战，因为在大规模应用它们的评估能力时会带来计算问题。为了克服这个挑战，本文提出了名为ECT的评估能力转移方法，将评估能力从大型语言模型转移到相对轻量级的语言模型上。基于所提出的ECT，我们从ChatGPT中学习了各种评估模型，并将它们作为奖励模型通过强化学习和重新排序方法来改进序列生成模型。在机器翻译、文本风格转换和摘要任务上的实验结果证明了我们的ECT的有效性。值得注意的是，将学习到的评估模型应用于序列生成模型会产生更好的生成序列，这是通过常用的度量和ChatGPT进行评估的。
+    理解跨语言风格的差异有助于训练人类和计算机生成符合文化背景的文本。我们引入了一个解释框架，可以从多语言语言模型中提取风格差异，并比较不同语言之间的风格。我们的框架(1)可以生成任何语言的全面风格词典，(2)将语言模型中的特征重要性统一为可比较的词汇类别。我们应用该框架比较了礼貌语言，创建了第一个全面的多语言礼貌数据集，并探索了礼貌在四种语言中的变化。我们的方法可以有效评估不同语言类别对风格变化的贡献，并提供可解释的洞察力，了解世界各地人们的不同沟通方式。
 
-    Large language models achieve state-of-the-art performance on sequence generation evaluation, but typically have a large number of parameters. This is a computational challenge as presented by applying their evaluation capability at scale. To overcome the challenge, in this paper, we propose \textbf{ECT}, an \textbf{e}valuation \textbf{c}apability \textbf{t}ransfer method, to transfer the evaluation capability from LLMs to relatively lightweight language models. Based on the proposed ECT, we learn various evaluation models from ChatGPT, and employ them as reward models to improve sequence generation models via reinforcement learning and reranking approaches. Experimental results on machine translation, text style transfer, and summarization tasks demonstrate the effectiveness of our ECT. Notably, applying the learned evaluation models to sequence generation models results in better generated sequences as evaluated by commonly used metrics and ChatGPT.
+    Understanding how styles differ across languages is advantageous for training both humans and computers to generate culturally appropriate text. We introduce an explanation framework to extract stylistic differences from multilingual LMs and compare styles across languages. Our framework (1) generates comprehensive style lexica in any language and (2) consolidates feature importances from LMs into comparable lexical categories. We apply this framework to compare politeness, creating the first holistic multilingual politeness dataset and exploring how politeness varies across four languages. Our approach enables an effective evaluation of how distinct linguistic categories contribute to stylistic variations and provides interpretable insights into how people communicate differently around the world.
+    
+[^3]: 一种几何观念的因果探测
+
+    A Geometric Notion of Causal Probing. (arXiv:2307.15054v1 [cs.CL])
+
+    [http://arxiv.org/abs/2307.15054](http://arxiv.org/abs/2307.15054)
+
+    本文提出了一种几何观念的因果探测方法，通过在语言模型表示空间的子空间上进行反事实干预，优化了因果概念子空间，以实现概念控制生成。
+
+    
+
+    大型语言模型依赖于文本的实值表示来进行预测。这些表示包含了模型在训练数据上学到的信息，包括语言属性和基于性别的人口偏见等。越来越多的研究关注通过在表示空间的子空间上进行正交投影来获得关于这些概念的信息。我们通过提出语言模型表示空间子空间的内在信息的形式定义，为这项研究贡献了新的内容。我们提出了一种反事实方法来避免虚假相关的失效模式，通过独立处理子空间中的分量和其正交补空间中的分量。我们展示了在子空间中的反事实信息概念是由一个因果概念子空间进行优化的。此外，这种干预使我们能够通过操作来尝试概念控制生成。
+
+    Large language models rely on real-valued representations of text to make their predictions. These representations contain information learned from the data that the model has trained on, including knowledge of linguistic properties and forms of demographic bias, e.g., based on gender. A growing body of work has considered information about concepts such as these using orthogonal projections onto subspaces of the representation space. We contribute to this body of work by proposing a formal definition of intrinsic information in a subspace of a language model's representation space. We propose a counterfactual approach that avoids the failure mode of spurious correlations (Kumar et al., 2022) by treating components in the subspace and its orthogonal complement independently. We show that our counterfactual notion of information in a subspace is optimizing by an causal concept subspace. Furthermore, this intervention allows us to attempt concept controlled generation by manipulating the
     
 

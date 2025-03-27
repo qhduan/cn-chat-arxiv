@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [What To Do (and Not to Do) with Causal Panel Analysis under Parallel Trends: Lessons from A Large Reanalysis Study.](http://arxiv.org/abs/2309.15983) | 通过对37篇使用观察面板数据的文章进行复制和重新分析，我们发现双向固定效应模型的核心结论在新的异质治疗效应鲁棒估计器下基本保持不变，但平行趋势假设违反和统计力量不足仍然是可信推论的重要障碍。 |
+| [^1] | [Dynamic Regression Discontinuity: A Within-Design Approach.](http://arxiv.org/abs/2307.14203) | 该论文提出了一种动态回归不连续性设计方法，用于确定经济可解释的时间间隔处理效应。研究采用了动态潜在结果模型，并特别对无预期和共同趋势限制进行了处理，以确定指定切点的冲击反应。估计量可以通过标准的局部多项式方法进行计算。 |
 
 # 详细
 
-[^1]: 如何在平行趋势下进行因果面板分析：一项大规模再分析研究的教训
+[^1]: 动态回归不连续性：一种内部设计方法。
 
-    What To Do (and Not to Do) with Causal Panel Analysis under Parallel Trends: Lessons from A Large Reanalysis Study. (arXiv:2309.15983v1 [stat.ME])
+    Dynamic Regression Discontinuity: A Within-Design Approach. (arXiv:2307.14203v1 [econ.EM])
 
-    [http://arxiv.org/abs/2309.15983](http://arxiv.org/abs/2309.15983)
+    [http://arxiv.org/abs/2307.14203](http://arxiv.org/abs/2307.14203)
 
-    通过对37篇使用观察面板数据的文章进行复制和重新分析，我们发现双向固定效应模型的核心结论在新的异质治疗效应鲁棒估计器下基本保持不变，但平行趋势假设违反和统计力量不足仍然是可信推论的重要障碍。
+    该论文提出了一种动态回归不连续性设计方法，用于确定经济可解释的时间间隔处理效应。研究采用了动态潜在结果模型，并特别对无预期和共同趋势限制进行了处理，以确定指定切点的冲击反应。估计量可以通过标准的局部多项式方法进行计算。
 
     
 
-    双向固定效应模型在政治科学中的因果面板分析中普遍应用。然而，最近的方法论讨论挑战了其在存在异质治疗效应和平行趋势假设违反情况下的有效性。这一新兴的文献引入了多个估计器和诊断方法，导致实证研究人员在两个方面产生了困惑：基于双向固定效应模型的现有结果的可靠性和目前的最佳实践。为了解决这些问题，我们考察、复制和重新分析了三个领先政治科学期刊上共37篇运用观察面板数据和二元治疗的文章。使用六种新引入的异质治疗效应鲁棒估计器，我们发现尽管精确性可能受到影响，但基于双向固定效应估计的核心结论在很大程度上保持不变。然而，平行趋势假设的违反和统计力量不足仍然是可信推论的重要障碍。
+    我提出了一种新颖的论证方法，用来在动态回归不连续性设计中确定经济可解释的时间间隔处理效应。具体而言，我发展了一个动态潜在结果模型，并特地对差异-in-differences文献中的两个假设进行了专门化处理，即无预期和共同趋势限制，以确定指定切点的冲击反应。与每个目标参数相关的估计量可以表示为两个静态回归不连续性设计结果对比的和，从而可以通过标准的局部多项式工具进行估计。我利用有限路径独立性假设来降低问题的维度。
 
-    Two-way fixed effects (TWFE) models are ubiquitous in causal panel analysis in political science. However, recent methodological discussions challenge their validity in the presence of heterogeneous treatment effects (HTE) and violations of the parallel trends assumption (PTA). This burgeoning literature has introduced multiple estimators and diagnostics, leading to confusion among empirical researchers on two fronts: the reliability of existing results based on TWFE models and the current best practices. To address these concerns, we examined, replicated, and reanalyzed 37 articles from three leading political science journals that employed observational panel data with binary treatments. Using six newly introduced HTE-robust estimators, we find that although precision may be affected, the core conclusions derived from TWFE estimates largely remain unchanged. PTA violations and insufficient statistical power, however, continue to be significant obstacles to credible inferences. Based 
+    I propose a novel argument to point identify economically interpretable intertemporal treatment effects in dynamic regression discontinuity designs (RDDs). Specifically, I develop a dynamic potential outcomes model and specialize two assumptions of the difference-in-differences literature, the no anticipation and common trends restrictions, to point identify cutoff-specific impulse responses. The estimand associated with each target parameter can be expressed as the sum of two static RDD outcome contrasts, thereby allowing for estimation via standard local polynomial tools. I leverage a limited path independence assumption to reduce the dimensionality of the problem.
     
 
