@@ -2,127 +2,97 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [A Survey on Large Language Model-Based Game Agents](https://arxiv.org/abs/2404.02039) | LLM和MLLM的进步为游戏智能体提供了强大的人类决策能力，本文全面综述了基于LLM的游戏智能体的概念架构、方法论和未来研究方向 |
-| [^2] | [Learning Algorithms for Verification of Markov Decision Processes](https://arxiv.org/abs/2403.09184) | 该研究提出了一个通用框架，将学习算法和启发式引导应用于马尔可夫决策过程（MDP）的验证，旨在提高性能，避免对状态空间进行穷尽探索。 |
-| [^3] | [Verifiably Following Complex Robot Instructions with Foundation Models](https://arxiv.org/abs/2402.11498) | 提出了一种名为语言指令地面化运动规划（LIMP）系统，利用基础模型和时间逻辑生成指令条件的语义地图，使机器人能够可验证地遵循富有表现力和长期的指令，包括开放词汇参照和复杂的时空约束。 |
-| [^4] | [Rethinking Optimization and Architecture for Tiny Language Models](https://arxiv.org/abs/2402.02791) | 本研究重新思考了微型语言模型的优化和架构，通过经验研究发现了在微型语言模型中特别有效的设计公式，并在多语种数据集上训练了高性能的微型语言模型。 |
-| [^5] | [Online Reinforcement Learning in Non-Stationary Context-Driven Environments](https://arxiv.org/abs/2302.02182) | 提出了一种名为LCPO的在线强化学习方法，通过在优化当前经验回报的同时将策略对旧经验进行锚定来解决强化学习中的灾难性遗忘问题。 |
-| [^6] | [Scaling Session-Based Transformer Recommendations using Optimized Negative Sampling and Loss Functions.](http://arxiv.org/abs/2307.14906) | 本文介绍了一种使用优化的负采样和损失函数扩展基于会话的Transformer推荐系统，该系统在大规模电商数据集上通过集成负采样和列表损失函数实现了较高的推荐准确性，并在实践中表现出潜力。 |
-| [^7] | [Can Large Language Models Play Text Games Well? Current State-of-the-Art and Open Questions.](http://arxiv.org/abs/2304.02868) | 本文探究大型语言模型在玩文字游戏的能力，并发现其表现有竞争力，但仍然缺乏智能，有待提升。 |
-| [^8] | [Quantum Circuit Fidelity Improvement with Long Short-Term Memory Networks.](http://arxiv.org/abs/2303.17523) | 本文提出使用长短期记忆网络解决量子计算中的保真度问题，利用时间序列预测方法预测量子电路的保真度。 |
+| [^1] | [A Three-Phases SFT Hybrid Model Integrated Strong Prior Module and Data Overlap Estimation in the Eduation Context](https://arxiv.org/abs/2403.15426) | 提出了一种在教育领域中应用的三阶段监督微调模型，通过先验和数据重叠估计实现了教育知识的结构拆卸和增量引导输出。 |
+| [^2] | [A Clustering Method with Graph Maximum Decoding Information](https://arxiv.org/abs/2403.13846) | CMDI聚类方法创新性地将二维结构信息理论融入聚类过程中，弥补了基于图的模型聚类方法中忽略的随机游走访问节点和数据中嵌入的结构信息的不确定性。 |
+| [^3] | [Large Language Models are In-Context Molecule Learners](https://arxiv.org/abs/2403.04197) | 提出了上下文分子适应（ICMA）范式，允许LLMs通过上下文示例学习分子-文本对齐，解决了在分子-标题翻译任务中对LLMs的挑战。 |
+| [^4] | [Explainable Bayesian Optimization.](http://arxiv.org/abs/2401.13334) | 本论文介绍了一种可解释性贝叶斯优化的方法，通过TNTRules生成高质量的解释，填补了贝叶斯优化和可解释人工智能之间的间隙。 |
+| [^5] | [An Optimistic-Robust Approach for Dynamic Positioning of Omnichannel Inventories.](http://arxiv.org/abs/2310.12183) | 这篇论文介绍了一种乐观-鲁棒的全渠道库存动态定位方法，通过兼顾库存弹性和改善平均性能，来平衡店铺失去销售和跨渠道电子商务履约成本的权衡。 |
+| [^6] | [Towards Enhanced Controllability of Diffusion Models.](http://arxiv.org/abs/2302.14368) | 本文介绍了一种基于条件输入的扩散模型，利用两个潜在编码控制生成过程中的空间结构和语义风格，提出了两种通用采样技术和时间步相关的潜在权重调度，实现了对生成过程的更好控制。 |
 
 # 详细
 
-[^1]: 基于大型语言模型的游戏智能体综述
+[^1]: 教育环境下集成强先验模块和数据重叠估计的三阶段SFT混合模型
 
-    A Survey on Large Language Model-Based Game Agents
+    A Three-Phases SFT Hybrid Model Integrated Strong Prior Module and Data Overlap Estimation in the Eduation Context
 
-    [https://arxiv.org/abs/2404.02039](https://arxiv.org/abs/2404.02039)
+    [https://arxiv.org/abs/2403.15426](https://arxiv.org/abs/2403.15426)
 
-    LLM和MLLM的进步为游戏智能体提供了强大的人类决策能力，本文全面综述了基于LLM的游戏智能体的概念架构、方法论和未来研究方向
-
-    
-
-    游戏智能体的发展在推动人工通用智能（AGI）方面扮演着关键角色。LLM及其多模态对应物（MLLM）的进展为游戏智能体在复杂的电脑游戏环境中具备类似人类决策能力提供了前所未有的机会。本文从整体视角全面概述了基于LLM的游戏智能体。首先，我们介绍了以感知、记忆、思维、角色扮演、行动和学习为中心的LLM游戏智能体的概念架构。其次，我们调查了文献中已有的代表性LLM游戏智能体，涉及到六类游戏中的方法论和适应能力，包括冒险、沟通、竞争、合作、模拟以及创造与探索游戏。最后，我们展望了未来研究的方向。
-
-    arXiv:2404.02039v1 Announce Type: new  Abstract: The development of game agents holds a critical role in advancing towards Artificial General Intelligence (AGI). The progress of LLMs and their multimodal counterparts (MLLMs) offers an unprecedented opportunity to evolve and empower game agents with human-like decision-making capabilities in complex computer game environments. This paper provides a comprehensive overview of LLM-based game agents from a holistic viewpoint. First, we introduce the conceptual architecture of LLM-based game agents, centered around six essential functional components: perception, memory, thinking, role-playing, action, and learning. Second, we survey existing representative LLM-based game agents documented in the literature with respect to methodologies and adaptation agility across six genres of games, including adventure, communication, competition, cooperation, simulation, and crafting & exploration games. Finally, we present an outlook of future research
-    
-[^2]: 学习算法用于验证马尔可夫决策过程
-
-    Learning Algorithms for Verification of Markov Decision Processes
-
-    [https://arxiv.org/abs/2403.09184](https://arxiv.org/abs/2403.09184)
-
-    该研究提出了一个通用框架，将学习算法和启发式引导应用于马尔可夫决策过程（MDP）的验证，旨在提高性能，避免对状态空间进行穷尽探索。
+    提出了一种在教育领域中应用的三阶段监督微调模型，通过先验和数据重叠估计实现了教育知识的结构拆卸和增量引导输出。
 
     
 
-    我们提出了一个通用框架，将学习算法和启发式引导应用于马尔可夫决策过程（MDP）的验证，基于Br\'azdil, T.等人（2014）的想法。该框架的主要目标是通过避免对状态空间进行穷尽探索来提高性能，而是依靠启发式。本研究在很大程度上扩展了这种方法。对基础理论的几个细节进行了改进和错误修正。第1.3节提供了所有差异的概述。该框架专注于概率可达性，这是验证中的一个核心问题，并具体化为两种不同的场景。第一个假设完全了解MDP，尤其是精确的转移概率。它执行基于启发式的模型部分探索，产生精准的结果。
+    在本文中，我们提出了一种端到端基于先验的三阶段监督微调模型，证明比传统微调方法更有竞争力。具体而言，我们的模型实现了教育知识的结构拆卸和增量引导输出。为此，我们通过采样器和重叠估计神经网络对三种类型的数据进行了健壮的分类，将预处理数据集分三批注入预训练模型进行LORA微调。然后，我们设计了一个先验模块，将系统提示、向量数据库和抽象语法树任务分割相结合。最后，对基于先验的微调模型应用了压缩方法和正则化约束，随后在输出端进行文本过滤以获得增量引导结果。我们的模型代表了真正以丰富的教育知识、分步指导的特点体现导师角色的第一项研究努力。
 
-    arXiv:2403.09184v1 Announce Type: cross  Abstract: We present a general framework for applying learning algorithms and heuristical guidance to the verification of Markov decision processes (MDPs), based on the ideas of Br\'azdil, T. et al. (2014). Verification of Markov Decision Processes Using Learning Algorithms. The primary goal of the techniques presented in that work is to improve performance by avoiding an exhaustive exploration of the state space, guided by heuristics. This approach is significantly extended in this work. Several details of the base theory are refined and errors are fixed. Section 1.3 provides an overview of all differences.   The presented framework focuses on probabilistic reachability, which is a core problem in verification, and is instantiated in two distinct scenarios. The first assumes that full knowledge of the MDP is available, in particular precise transition probabilities. It performs a heuristic-driven partial exploration of the model, yielding preci
+    arXiv:2403.15426v1 Announce Type: cross  Abstract: In this paper, we propose an end-to-end prior-based three-phases supervised fine-tuned model, which is proved more competitive than traditional fine-tuning method. More specifically, our model realizes the structural disassembly and incremental guided output of educational knowledge. To this end, we robustify data classification of three types via a sampler and overlap estimation neural network, and inject the preprocessing datasets into pre-trained model in three batches for LORA fine-tuning. Then, we design a prior module couples system prompt, vector databases, and abstract syntax tree task segmentation. Finally, the compression method and regularization constraint are applied to the prior-based fine-tuned model, followed by text filter at the output end to obtain incremental guided results. Our model represents the first research effort to truly embody the tutor role with the features of abundant educational knowledge, step-by-step
     
-[^3]: 使用基础模型可验证地遵循复杂机器人指令
+[^2]: 一种具有图最大解码信息的聚类方法
 
-    Verifiably Following Complex Robot Instructions with Foundation Models
+    A Clustering Method with Graph Maximum Decoding Information
 
-    [https://arxiv.org/abs/2402.11498](https://arxiv.org/abs/2402.11498)
+    [https://arxiv.org/abs/2403.13846](https://arxiv.org/abs/2403.13846)
 
-    提出了一种名为语言指令地面化运动规划（LIMP）系统，利用基础模型和时间逻辑生成指令条件的语义地图，使机器人能够可验证地遵循富有表现力和长期的指令，包括开放词汇参照和复杂的时空约束。
-
-    
-
-    让机器人能够遵循复杂的自然语言指令是一个重要但具有挑战性的问题。人们希望在指导机器人时能够灵活表达约束，指向任意地标并验证行为。相反，机器人必须将人类指令消除歧义，将指令参照物联系到真实世界中。我们提出了一种名为语言指令地面化运动规划（LIMP）的系统，该系统利用基础模型和时间逻辑生成指令条件的语义地图，使机器人能够可验证地遵循富有表现力和长期的指令，涵盖了开放词汇参照和复杂的时空约束。与先前在机器人任务执行中使用基础模型的方法相比，LIMP构建了一个可解释的指令表示，揭示了机器人与指导者预期动机的一致性，并实现了机器人行为的综合。
-
-    arXiv:2402.11498v1 Announce Type: cross  Abstract: Enabling robots to follow complex natural language instructions is an important yet challenging problem. People want to flexibly express constraints, refer to arbitrary landmarks and verify behavior when instructing robots. Conversely, robots must disambiguate human instructions into specifications and ground instruction referents in the real world. We propose Language Instruction grounding for Motion Planning (LIMP), a system that leverages foundation models and temporal logics to generate instruction-conditioned semantic maps that enable robots to verifiably follow expressive and long-horizon instructions with open vocabulary referents and complex spatiotemporal constraints. In contrast to prior methods for using foundation models in robot task execution, LIMP constructs an explainable instruction representation that reveals the robot's alignment with an instructor's intended motives and affords the synthesis of robot behaviors that 
-    
-[^4]: 重新思考微型语言模型的优化和架构
-
-    Rethinking Optimization and Architecture for Tiny Language Models
-
-    [https://arxiv.org/abs/2402.02791](https://arxiv.org/abs/2402.02791)
-
-    本研究重新思考了微型语言模型的优化和架构，通过经验研究发现了在微型语言模型中特别有效的设计公式，并在多语种数据集上训练了高性能的微型语言模型。
+    CMDI聚类方法创新性地将二维结构信息理论融入聚类过程中，弥补了基于图的模型聚类方法中忽略的随机游走访问节点和数据中嵌入的结构信息的不确定性。
 
     
 
-    大型语言模型（LLMs）的威力通过大量的数据和计算资源得到了证明。然而，在移动设备上应用语言模型面临着计算和内存成本的巨大挑战，迫切需要高性能的微型语言模型。受复杂训练过程的限制，优化语言模型的许多细节很少得到仔细研究。在本研究中，基于一个具有10亿参数的微型语言模型，我们仔细设计了一系列经验研究来分析每个组件的影响。主要讨论了三个方面，即神经架构、参数初始化和优化策略。多个设计公式在微型语言模型中经验性地被证明特别有效，包括分词器压缩、架构调整、参数继承和多轮训练。然后，我们在1.6T多语种数据集上训练了PanGu-$\pi$-1B Pro和PanGu-$\pi$-1.5B Pro。
+    基于图模型的聚类方法因其在各种知识领域中的广泛适用性而备受关注。其能够与其他相关应用无缝集成的适应性赋予了基于图模型的聚类分析能力，可以强大地从数据集中提取“自然关联”或“图结构”，有助于建模数据点之间的关系。尽管这种方法效果显著，但当前利用基于图的模型的聚类方法忽略了节点之间随机游走访问以及数据中嵌入的结构信息所带来的不确定性。为填补这一空白，我们提出了一种新颖的基于图的模型内最大化解码信息的聚类方法，命名为CMDI。CMDI创新地将二维结构信息理论纳入到聚类过程中，包括两个阶段：图结构提取和图顶点
 
-    The power of large language models (LLMs) has been demonstrated through numerous data and computing resources. However, the application of language models on mobile devices is facing huge challenge on the computation and memory costs, that is, tiny language models with high performance are urgently required. Limited by the highly complex training process, there are many details for optimizing language models that are seldom studied carefully. In this study, based on a tiny language model with 1B parameters, we carefully design a series of empirical study to analyze the effect of each component. Three perspectives are mainly discussed, i.e., neural architecture, parameter initialization, and optimization strategy. Several design formulas are empirically proved especially effective for tiny language models, including tokenizer compression, architecture tweaking, parameter inheritance and multiple-round training. Then we train PanGu-$\pi$-1B Pro and PanGu-$\pi$-1.5B Pro on 1.6T multilingu
+    arXiv:2403.13846v1 Announce Type: cross  Abstract: The clustering method based on graph models has garnered increased attention for its widespread applicability across various knowledge domains. Its adaptability to integrate seamlessly with other relevant applications endows the graph model-based clustering analysis with the ability to robustly extract "natural associations" or "graph structures" within datasets, facilitating the modelling of relationships between data points. Despite its efficacy, the current clustering method utilizing the graph-based model overlooks the uncertainty associated with random walk access between nodes and the embedded structural information in the data. To address this gap, we present a novel Clustering method for Maximizing Decoding Information within graph-based models, named CMDI. CMDI innovatively incorporates two-dimensional structural information theory into the clustering process, consisting of two phases: graph structure extraction and graph vert
     
-[^5]: 在非静态上下文驱动环境中的在线强化学习
+[^3]: 大规模语言模型是上下文分子学习器
 
-    Online Reinforcement Learning in Non-Stationary Context-Driven Environments
+    Large Language Models are In-Context Molecule Learners
 
-    [https://arxiv.org/abs/2302.02182](https://arxiv.org/abs/2302.02182)
+    [https://arxiv.org/abs/2403.04197](https://arxiv.org/abs/2403.04197)
 
-    提出了一种名为LCPO的在线强化学习方法，通过在优化当前经验回报的同时将策略对旧经验进行锚定来解决强化学习中的灾难性遗忘问题。
-
-    
-
-    我们研究了在非静态环境中的在线强化学习，其中一个随时间变化的外生上下文过程影响着环境动态。在线强化学习在这样的环境中具有挑战性，因为存在“灾难性遗忘”现象。随着训练过程中的新经验增加，代理 tend to forget 先前的知识。以往的方法通常假设任务标签（这在实践中往往是不存在的）或者使用脱机策略学习方法，但这些方法存在不稳定性和性能差的问题。我们提出了一种名为 Locally Constrained Policy Optimization (LCPO) 的在线强化学习方法，通过在优化当前经验回报的同时将策略对旧的经验进行锚定来解决灾难性遗忘问题。为了实现这种锚定，LCPO使用来自当前上下文分布之外的经验样本来局部约束策略优化。我们在Mujoco、经典控制和计算机系统环境中使用多种合成和真实上下文跟踪，评估了LCPO的性能，并发现它能够取得令人满意的结果。
-
-    We study online reinforcement learning (RL) in non-stationary environments, where a time-varying exogenous context process affects the environment dynamics. Online RL is challenging in such environments due to "catastrophic forgetting" (CF). The agent tends to forget prior knowledge as it trains on new experiences. Prior approaches to mitigate this issue assume task labels (which are often not available in practice) or use off-policy methods that suffer from instability and poor performance.   We present Locally Constrained Policy Optimization (LCPO), an online RL approach that combats CF by anchoring policy outputs on old experiences while optimizing the return on current experiences. To perform this anchoring, LCPO locally constrains policy optimization using samples from experiences that lie outside of the current context distribution. We evaluate LCPO in Mujoco, classic control and computer systems environments with a variety of synthetic and real context traces, and find that it o
-    
-[^6]: 使用优化的负采样和损失函数扩展基于会话的Transformer推荐系统
-
-    Scaling Session-Based Transformer Recommendations using Optimized Negative Sampling and Loss Functions. (arXiv:2307.14906v1 [cs.IR])
-
-    [http://arxiv.org/abs/2307.14906](http://arxiv.org/abs/2307.14906)
-
-    本文介绍了一种使用优化的负采样和损失函数扩展基于会话的Transformer推荐系统，该系统在大规模电商数据集上通过集成负采样和列表损失函数实现了较高的推荐准确性，并在实践中表现出潜力。
+    提出了上下文分子适应（ICMA）范式，允许LLMs通过上下文示例学习分子-文本对齐，解决了在分子-标题翻译任务中对LLMs的挑战。
 
     
 
-    本文介绍了TRON，一种使用优化的负采样的可扩展的基于会话的Transformer推荐系统。受到SASRec和GRU4Rec+等现有模型在可扩展性和性能方面的限制，TRON集成了top-k负采样和列表损失函数，以提高其推荐准确性。在相关的大规模电子商务数据集上的评估结果表明，TRON在保持与SASRec类似的训练速度的同时，改进了当前方法的推荐质量。一项实时的A/B测试显示，相对于SASRec，TRON的点击率增加了18.14%，突显了其在实际环境中的潜力。
+    大型语言模型（LLMs）在生物化学任务中表现出色，尤其是分子标题翻译任务，旨在弥合分子和自然语言文本之间的差距。然而，先前在适应LLMs到分子-标题翻译任务中的方法需要额外的领域特定预训练阶段，存在分子和文本空间之间的弱对齐，或对LLMs的规模有严格要求。为了解决这些挑战，我们提出了上下文分子适应（ICMA），作为一种新的范例，允许LLMs通过上下文示例学习分子-文本对齐，通过上下文分子调整。具体而言，ICMA包括以下三个阶段：跨模态检索、检索后排序和上下文分子调整。
 
-    This work introduces TRON, a scalable session-based Transformer Recommender using Optimized Negative-sampling. Motivated by the scalability and performance limitations of prevailing models such as SASRec and GRU4Rec+, TRON integrates top-k negative sampling and listwise loss functions to enhance its recommendation accuracy. Evaluations on relevant large-scale e-commerce datasets show that TRON improves upon the recommendation quality of current methods while maintaining training speeds similar to SASRec. A live A/B test yielded an 18.14% increase in click-through rate over SASRec, highlighting the potential of TRON in practical settings. For further research, we provide access to our source code at https://github.com/otto-de/TRON and an anonymized dataset at https://github.com/otto-de/recsys-dataset.
+    arXiv:2403.04197v1 Announce Type: cross  Abstract: Large Language Models (LLMs) have demonstrated exceptional performance in biochemical tasks, especially the molecule caption translation task, which aims to bridge the gap between molecules and natural language texts. However, previous methods in adapting LLMs to the molecule-caption translation task required extra domain-specific pre-training stages, suffered weak alignment between molecular and textual spaces, or imposed stringent demands on the scale of LLMs. To resolve the challenges, we propose In-Context Molecule Adaptation (ICMA), as a new paradigm allowing LLMs to learn the molecule-text alignment from context examples via In-Context Molecule Tuning. Specifically, ICMA incorporates the following three stages: Cross-modal Retrieval, Post-retrieval Re-ranking, and In-context Molecule Tuning. Initially, Cross-modal Retrieval utilizes BM25 Caption Retrieval and Molecule Graph Retrieval to retrieve informative context examples. Addi
     
-[^7]: 大型语言模型能否能够很好地玩文字游戏？现状和未来问题研究
+[^4]: 可解释性贝叶斯优化
 
-    Can Large Language Models Play Text Games Well? Current State-of-the-Art and Open Questions. (arXiv:2304.02868v1 [cs.CL])
+    Explainable Bayesian Optimization. (arXiv:2401.13334v1 [cs.LG])
 
-    [http://arxiv.org/abs/2304.02868](http://arxiv.org/abs/2304.02868)
+    [http://arxiv.org/abs/2401.13334](http://arxiv.org/abs/2401.13334)
 
-    本文探究大型语言模型在玩文字游戏的能力，并发现其表现有竞争力，但仍然缺乏智能，有待提升。
-
-    
-
-    最近，诸如ChatGPT和GPT-4之类的大型语言模型展示了它们与人类用户通信的卓越能力。本技术报告旨在调查它们在玩文字游戏方面的能力，这要求玩家通过与游戏世界的对话来理解环境并对情况做出反应。我们的实验表明，与所有现有系统相比，ChatGPT表现出有竞争力，但仍然表现出较低的智能水平。确切地说，ChatGPT无法通过玩游戏或阅读游戏手册来构建世界模型；它可能无法利用它已经拥有的世界知识；它无法推断出随着游戏进展的每一步的目标。我们的结果在人工智能、机器学习和自然语言处理交叉领域开启了新的研究问题。
-
-    Large language models (LLMs) such as ChatGPT and GPT-4 have recently demonstrated their remarkable abilities of communicating with human users. In this technical report, we take an initiative to investigate their capacities of playing text games, in which a player has to understand the environment and respond to situations by having dialogues with the game world. Our experiments show that ChatGPT performs competitively compared to all the existing systems but still exhibits a low level of intelligence. Precisely, ChatGPT can not construct the world model by playing the game or even reading the game manual; it may fail to leverage the world knowledge that it already has; it cannot infer the goal of each step as the game progresses. Our results open up new research questions at the intersection of artificial intelligence, machine learning, and natural language processing.
-    
-[^8]: 利用长短期记忆网络提高量子电路保真度
-
-    Quantum Circuit Fidelity Improvement with Long Short-Term Memory Networks. (arXiv:2303.17523v1 [quant-ph])
-
-    [http://arxiv.org/abs/2303.17523](http://arxiv.org/abs/2303.17523)
-
-    本文提出使用长短期记忆网络解决量子计算中的保真度问题，利用时间序列预测方法预测量子电路的保真度。
+    本论文介绍了一种可解释性贝叶斯优化的方法，通过TNTRules生成高质量的解释，填补了贝叶斯优化和可解释人工智能之间的间隙。
 
     
 
-    量子计算已进入噪声中间规模量子（NISQ）时代，目前我们拥有的量子处理器对辐射和温度等环境变量敏感，因此会产生嘈杂的输出。虽然已经有许多算法和应用程序用于NISQ处理器，但我们仍面临着解释其嘈杂结果的不确定性。具体来说，我们对所选择的量子态有多少信心？这种信心很重要，因为NISQ计算机将输出其量子位测量的概率分布，有时很难区分分布是否表示有意义的计算或只是随机噪声。本文提出了一种新方法来解决这个问题，将量子电路保真度预测框架为时间序列预测问题，因此可以利用长短期记忆（LSTM）神经网络的强大能力。一个完整的工作流程来构建训练电路
+    在工业领域，贝叶斯优化（BO）被广泛应用于人工智能协作参数调优的控制系统中。然而，由于近似误差和简化目标，BO的解决方案可能偏离人类专家的真实目标，需要后续调整。BO的黑盒特性限制了协作调优过程，因为专家不信任BO的建议。目前的可解释人工智能（XAI）方法不适用于优化问题，因此无法解决此间隙。为了填补这一间隙，我们提出了TNTRules（TUNE-NOTUNE规则），一种事后基于规则的可解释性方法，通过多目标优化生成高质量的解释。我们对基准优化问题和实际超参数优化任务的评估表明，TNTRules在生成高质量解释方面优于最先进的XAI方法。这项工作对BO和XAI的交叉领域做出了贡献，提供了可解释的优化方法。
 
-    Quantum computing has entered the Noisy Intermediate-Scale Quantum (NISQ) era. Currently, the quantum processors we have are sensitive to environmental variables like radiation and temperature, thus producing noisy outputs. Although many proposed algorithms and applications exist for NISQ processors, we still face uncertainties when interpreting their noisy results. Specifically, how much confidence do we have in the quantum states we are picking as the output? This confidence is important since a NISQ computer will output a probability distribution of its qubit measurements, and it is sometimes hard to distinguish whether the distribution represents meaningful computation or just random noise. This paper presents a novel approach to attack this problem by framing quantum circuit fidelity prediction as a Time Series Forecasting problem, therefore making it possible to utilize the power of Long Short-Term Memory (LSTM) neural networks. A complete workflow to build the training circuit d
+    In industry, Bayesian optimization (BO) is widely applied in the human-AI collaborative parameter tuning of cyber-physical systems. However, BO's solutions may deviate from human experts' actual goal due to approximation errors and simplified objectives, requiring subsequent tuning. The black-box nature of BO limits the collaborative tuning process because the expert does not trust the BO recommendations. Current explainable AI (XAI) methods are not tailored for optimization and thus fall short of addressing this gap. To bridge this gap, we propose TNTRules (TUNE-NOTUNE Rules), a post-hoc, rule-based explainability method that produces high quality explanations through multiobjective optimization. Our evaluation of benchmark optimization problems and real-world hyperparameter optimization tasks demonstrates TNTRules' superiority over state-of-the-art XAI methods in generating high quality explanations. This work contributes to the intersection of BO and XAI, providing interpretable opt
+    
+[^5]: 一种乐观-鲁棒的全渠道库存动态定位方法
+
+    An Optimistic-Robust Approach for Dynamic Positioning of Omnichannel Inventories. (arXiv:2310.12183v1 [math.OC])
+
+    [http://arxiv.org/abs/2310.12183](http://arxiv.org/abs/2310.12183)
+
+    这篇论文介绍了一种乐观-鲁棒的全渠道库存动态定位方法，通过兼顾库存弹性和改善平均性能，来平衡店铺失去销售和跨渠道电子商务履约成本的权衡。
+
+    
+
+    我们介绍了一种新的数据驱动和免分布乐观-鲁棒双模式库存优化策略，以有效分配销售链上的库存，以满足时变的、不确定的全渠道需求。传统的鲁棒优化方法更加注重最坏情况下的对抗性需求，而双模式策略不仅考虑了保持像鲁棒优化一样的弹性，还通过克服内生奇异值的存在而获得了改善平均情况下性能的回报。这种双模式策略在平衡店铺失去销售和跨渠道电子商务履约成本的权衡方面特别有价值，这也是我们库存优化模型的核心所在。由于渠道的异质行为，这些因素是非对称的，前者在失销售成本方面存在偏差，而后者则依赖于网络效应。
+
+    We introduce a new class of data-driven and distribution-free optimistic-robust bimodal inventory optimization (BIO) strategy to effectively allocate inventory across a retail chain to meet time-varying, uncertain omnichannel demand. While prior Robust optimization (RO) methods emphasize the downside, i.e., worst-case adversarial demand, BIO also considers the upside to remain resilient like RO while also reaping the rewards of improved average-case performance by overcoming the presence of endogenous outliers. This bimodal strategy is particularly valuable for balancing the tradeoff between lost sales at the store and the costs of cross-channel e-commerce fulfillment, which is at the core of our inventory optimization model. These factors are asymmetric due to the heterogenous behavior of the channels, with a bias towards the former in terms of lost-sales cost and a dependence on network effects for the latter. We provide structural insights about the BIO solution and how it can be tu
+    
+[^6]: 实现扩展扩展扩散模型的可控性
+
+    Towards Enhanced Controllability of Diffusion Models. (arXiv:2302.14368v2 [cs.CV] UPDATED)
+
+    [http://arxiv.org/abs/2302.14368](http://arxiv.org/abs/2302.14368)
+
+    本文介绍了一种基于条件输入的扩散模型，利用两个潜在编码控制生成过程中的空间结构和语义风格，提出了两种通用采样技术和时间步相关的潜在权重调度，实现了对生成过程的更好控制。
+
+    
+
+    去噪扩散模型在生成逼真、高质量和多样化图像方面表现出卓越能力。然而，在生成过程中的可控程度尚未得到充分探讨。受基于GAN潜在空间的图像操纵技术启发，我们训练了一个条件于两个潜在编码、一个空间内容掩码和一个扁平的样式嵌入的扩散模型。我们依赖于扩散模型渐进去噪过程的感性偏置，在空间结构掩码中编码姿势/布局信息，在样式代码中编码语义/样式信息。我们提出了两种通用的采样技术来改善可控性。我们扩展了可组合的扩散模型，允许部分依赖于条件输入，以提高生成质量，同时还提供对每个潜在代码和它们的联合分布量的控制。我们还提出了时间步相关的内容和样式潜在权重调度，进一步提高了控制性。
+
+    Denoising Diffusion models have shown remarkable capabilities in generating realistic, high-quality and diverse images. However, the extent of controllability during generation is underexplored. Inspired by techniques based on GAN latent space for image manipulation, we train a diffusion model conditioned on two latent codes, a spatial content mask and a flattened style embedding. We rely on the inductive bias of the progressive denoising process of diffusion models to encode pose/layout information in the spatial structure mask and semantic/style information in the style code. We propose two generic sampling techniques for improving controllability. We extend composable diffusion models to allow for some dependence between conditional inputs, to improve the quality of generations while also providing control over the amount of guidance from each latent code and their joint distribution. We also propose timestep dependent weight scheduling for content and style latents to further impro
     
 
