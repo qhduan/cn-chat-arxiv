@@ -2,52 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Uncertainty quantification for data-driven weather models](https://arxiv.org/abs/2403.13458) | 研究旨在系统比较不确定性量化方法，以生成概率性天气预测，超越传统基于物理的天气预测模型。 |
-| [^2] | [Sharp Rates in Dependent Learning Theory: Avoiding Sample Size Deflation for the Square Loss](https://arxiv.org/abs/2402.05928) | 本文研究了依赖学习理论中的尖锐率，主要是为了避免样本大小缩减对方差产生影响。当假设类别的拓扑结构符合某些条件时，经验风险最小化者的性能与类别的复杂性和二阶统计量有关。 |
-| [^3] | [Causal Dynamic Variational Autoencoder for Counterfactual Regression in Longitudinal Data.](http://arxiv.org/abs/2310.10559) | 本论文提出了一种因果动态变分自编码器（CDVAE）来解决纵向数据中的反事实回归问题。该方法假设存在未观察到的调整变量，并通过结合动态变分自编码器（DVAE）框架和使用倾向得分的加权策略来估计反事实响应。 |
+| [^1] | [Identifiable Latent Causal Content for Domain Adaptation under Latent Covariate Shift](https://arxiv.org/abs/2208.14161) | 提出了一种新的隐含协变量转移（LCS）范式，增加了领域间的可变性和适应性，并提供了恢复标签变量潜在原因的理论保证。 |
+| [^2] | [Provable Guarantees for Nonlinear Feature Learning in Three-Layer Neural Networks.](http://arxiv.org/abs/2305.06986) | 本文研究了三层神经网络的特征学习能力，相比之下，它具有比两层网络更丰富的可证的特征学习能力，并提出了一个通用定理，限制了目标结构的样本复杂度和宽度，以实现低测试误差。 |
+| [^3] | [Multi-mode fiber reservoir computing overcomes shallow neural networks classifiers.](http://arxiv.org/abs/2210.04745) | 多模光纤利用水库计算范例进行分类，精度高于直接训练原始图像和传统的传输矩阵模型。 |
 
 # 详细
 
-[^1]: 基于数据驱动的天气模型的不确定性量化
+[^1]: 可识别的潜在因果内容用于隐含协变量转移下的领域自适应
 
-    Uncertainty quantification for data-driven weather models
+    Identifiable Latent Causal Content for Domain Adaptation under Latent Covariate Shift
 
-    [https://arxiv.org/abs/2403.13458](https://arxiv.org/abs/2403.13458)
+    [https://arxiv.org/abs/2208.14161](https://arxiv.org/abs/2208.14161)
 
-    研究旨在系统比较不确定性量化方法，以生成概率性天气预测，超越传统基于物理的天气预测模型。
-
-    
-
-    人工智能（AI）驱动的数据驱动天气预报模型在过去几年取得了快速进展。最近的研究使用再分析数据训练的模型取得了令人印象深刻的结果，并在一系列变量和评估指标上展示了明显改进，超越了现有的基于物理的数值天气预测模型。除了改进的预测外，数据驱动天气模型的主要优势是它们显著较低的计算成本和一旦模型被训练就能更快地生成预测。然而，大多数数据驱动天气预测的努力都局限于确定性的、点值预测，使得无法量化预测的不确定性，对于研究和应用中的最佳决策至关重要。我们的整体目标是系统地研究和比较不确定性量化方法，以生成概率性预测。
-
-    arXiv:2403.13458v1 Announce Type: cross  Abstract: Artificial intelligence (AI)-based data-driven weather forecasting models have experienced rapid progress over the last years. Recent studies, with models trained on reanalysis data, achieve impressive results and demonstrate substantial improvements over state-of-the-art physics-based numerical weather prediction models across a range of variables and evaluation metrics. Beyond improved predictions, the main advantages of data-driven weather models are their substantially lower computational costs and the faster generation of forecasts, once a model has been trained. However, most efforts in data-driven weather forecasting have been limited to deterministic, point-valued predictions, making it impossible to quantify forecast uncertainties, which is crucial in research and for optimal decision making in applications. Our overarching aim is to systematically study and compare uncertainty quantification methods to generate probabilistic 
-    
-[^2]: 依赖学习理论中的尖锐率：避免样本大小缩减的平方损失
-
-    Sharp Rates in Dependent Learning Theory: Avoiding Sample Size Deflation for the Square Loss
-
-    [https://arxiv.org/abs/2402.05928](https://arxiv.org/abs/2402.05928)
-
-    本文研究了依赖学习理论中的尖锐率，主要是为了避免样本大小缩减对方差产生影响。当假设类别的拓扑结构符合某些条件时，经验风险最小化者的性能与类别的复杂性和二阶统计量有关。
+    提出了一种新的隐含协变量转移（LCS）范式，增加了领域间的可变性和适应性，并提供了恢复标签变量潜在原因的理论保证。
 
     
 
-    本文研究了具有依赖性（β-混合）数据和平方损失的统计学习，在一个假设类别Φ_p的子集F中，其中Φ_p是范数∥f∥_Φ_p≡sup_m≥1 m^{-1/p}∥f∥_L^m，其中p∈[2，∞]。我们的研究动机是在具有依赖性数据的学习中寻找尖锐的噪声交互项或方差代理。在没有任何可实现性假设的情况下，典型的非渐近结果显示出方差代理通过底层协变量过程的混合时间进行了乘积缩减。我们证明，只要在我们的假设类别F上，L^2和Φ_p的拓扑是可比较的，即Φ_p是一个弱亚高斯类别：∥f∥_Φ_p≲∥f∥_L^2^η，其中η∈(0，1]，经验风险最小化者在其主导项中只实现了一种只依赖于类别复杂性和二阶统计量的速率。我们的结果适用于许多依赖性数据模型。
+    多源领域自适应（MSDA）解决了利用来自多个源域的标记数据和来自目标域的未标记数据来学习针对未标记目标领域的标签预测函数的挑战。我们提出了一种称为潜在协变量转移（LCS）的新范式，它引入了更大的领域间可变性和适应性。值得注意的是，它为恢复标签变量的潜在原因提供了理论保证。
 
-    In this work, we study statistical learning with dependent ($\beta$-mixing) data and square loss in a hypothesis class $\mathscr{F}\subset L_{\Psi_p}$ where $\Psi_p$ is the norm $\|f\|_{\Psi_p} \triangleq \sup_{m\geq 1} m^{-1/p} \|f\|_{L^m} $ for some $p\in [2,\infty]$. Our inquiry is motivated by the search for a sharp noise interaction term, or variance proxy, in learning with dependent data. Absent any realizability assumption, typical non-asymptotic results exhibit variance proxies that are deflated \emph{multiplicatively} by the mixing time of the underlying covariates process. We show that whenever the topologies of $L^2$ and $\Psi_p$ are comparable on our hypothesis class $\mathscr{F}$ -- that is, $\mathscr{F}$ is a weakly sub-Gaussian class: $\|f\|_{\Psi_p} \lesssim \|f\|_{L^2}^\eta$ for some $\eta\in (0,1]$ -- the empirical risk minimizer achieves a rate that only depends on the complexity of the class and second order statistics in its leading term. Our result holds whether t
+    arXiv:2208.14161v3 Announce Type: replace  Abstract: Multi-source domain adaptation (MSDA) addresses the challenge of learning a label prediction function for an unlabeled target domain by leveraging both the labeled data from multiple source domains and the unlabeled data from the target domain. Conventional MSDA approaches often rely on covariate shift or conditional shift paradigms, which assume a consistent label distribution across domains. However, this assumption proves limiting in practical scenarios where label distributions do vary across domains, diminishing its applicability in real-world settings. For example, animals from different regions exhibit diverse characteristics due to varying diets and genetics.   Motivated by this, we propose a novel paradigm called latent covariate shift (LCS), which introduces significantly greater variability and adaptability across domains. Notably, it provides a theoretical assurance for recovering the latent cause of the label variable, w
     
-[^3]: 因果动态变分自编码器用于纵向数据中的反事实回归
+[^2]: 三层神经网络中非线性特征学习的可证保证
 
-    Causal Dynamic Variational Autoencoder for Counterfactual Regression in Longitudinal Data. (arXiv:2310.10559v1 [stat.ML])
+    Provable Guarantees for Nonlinear Feature Learning in Three-Layer Neural Networks. (arXiv:2305.06986v1 [cs.LG])
 
-    [http://arxiv.org/abs/2310.10559](http://arxiv.org/abs/2310.10559)
+    [http://arxiv.org/abs/2305.06986](http://arxiv.org/abs/2305.06986)
 
-    本论文提出了一种因果动态变分自编码器（CDVAE）来解决纵向数据中的反事实回归问题。该方法假设存在未观察到的调整变量，并通过结合动态变分自编码器（DVAE）框架和使用倾向得分的加权策略来估计反事实响应。
+    本文研究了三层神经网络的特征学习能力，相比之下，它具有比两层网络更丰富的可证的特征学习能力，并提出了一个通用定理，限制了目标结构的样本复杂度和宽度，以实现低测试误差。
 
     
 
-    在很多实际应用中，如精准医学、流行病学、经济和市场营销中，估计随时间变化的治疗效果是相关的。许多最先进的方法要么假设了所有混杂变量的观测结果，要么试图推断未观察到的混杂变量。我们采取了不同的观点，假设存在未观察到的风险因素，即仅影响结果序列的调整变量。在无混杂性的情况下，我们以未观测到的风险因素导致的治疗反应中的未知异质性为目标，估计个体治疗效果（ITE）。我们应对了时变效应和未观察到的调整变量所带来的挑战。在学习到的调整变量的有效性和治疗效果的一般化界限的理论结果指导下，我们设计了因果DVAE（CDVAE）。该模型将动态变分自编码器（DVAE）框架与使用倾向得分的加权策略相结合，用于估计反事实响应。
+    深度学习理论中的一个核心问题是理解神经网络如何学习分层特征。深度网络提取显著特征的能力对其卓越的泛化能力和现代深度学习范式的预训练和微调至关重要。然而，从理论角度来看，这种特征学习过程仍然不够清晰，现有的分析主要局限于两层网络。在本文中，我们展示了三层神经网络具有证明的比两层网络更丰富的特征学习能力。我们分析了通过逐层梯度下降训练的三层网络学习的特征，并提出了一个通用定理，它上界了目标具有特定层次结构时实现低测试错误所需的样本复杂度和宽度。我们将我们的框架实例化到特定的统计学学习设置中——单指数模型和二次函数。
 
-    Estimating treatment effects over time is relevant in many real-world applications, such as precision medicine, epidemiology, economy, and marketing. Many state-of-the-art methods either assume the observations of all confounders or seek to infer the unobserved ones. We take a different perspective by assuming unobserved risk factors, i.e., adjustment variables that affect only the sequence of outcomes. Under unconfoundedness, we target the Individual Treatment Effect (ITE) estimation with unobserved heterogeneity in the treatment response due to missing risk factors. We address the challenges posed by time-varying effects and unobserved adjustment variables. Led by theoretical results over the validity of the learned adjustment variables and generalization bounds over the treatment effect, we devise Causal DVAE (CDVAE). This model combines a Dynamic Variational Autoencoder (DVAE) framework with a weighting strategy using propensity scores to estimate counterfactual responses. The CDVA
+    One of the central questions in the theory of deep learning is to understand how neural networks learn hierarchical features. The ability of deep networks to extract salient features is crucial to both their outstanding generalization ability and the modern deep learning paradigm of pretraining and finetuneing. However, this feature learning process remains poorly understood from a theoretical perspective, with existing analyses largely restricted to two-layer networks. In this work we show that three-layer neural networks have provably richer feature learning capabilities than two-layer networks. We analyze the features learned by a three-layer network trained with layer-wise gradient descent, and present a general purpose theorem which upper bounds the sample complexity and width needed to achieve low test error when the target has specific hierarchical structure. We instantiate our framework in specific statistical learning settings -- single-index models and functions of quadratic 
+    
+[^3]: 多模光纤水库计算克服了浅层神经网络分类器
+
+    Multi-mode fiber reservoir computing overcomes shallow neural networks classifiers. (arXiv:2210.04745v2 [physics.optics] UPDATED)
+
+    [http://arxiv.org/abs/2210.04745](http://arxiv.org/abs/2210.04745)
+
+    多模光纤利用水库计算范例进行分类，精度高于直接训练原始图像和传统的传输矩阵模型。
+
+    
+
+    在无序光子学领域中，常见的目标是对不透明材料进行表征，以控制光的传递或执行成像。在各种复杂的器件中，多模光纤以其成本效益高、易于操作的特点脱颖而出，使其在几个任务中具有吸引力。在这个背景下，我们利用水库计算范例，将这些光纤转化为随机硬件投影仪，将输入数据集转化为高维斑点图像集。我们的研究目标是证明，通过训练单个逻辑回归层对这些随机数据进行分类，可以提高精度，相比之下直接训练原始图像要更为准确。有趣的是，我们发现使用水库所达到的分类准确性也高于采用传统的传输矩阵模型，后者是描述通过无序器件传递光的广泛接受工具。我们发现，这种改进性能的原因在于水库的动力学具有更高的容量来捕捉复杂的输入输出映射，相对于传输矩阵的线性映射。
+
+    In the field of disordered photonics, a common objective is to characterize optically opaque materials for controlling light delivery or performing imaging. Among various complex devices, multi-mode optical fibers stand out as cost-effective and easy-to-handle tools, making them attractive for several tasks. In this context, we leverage the reservoir computing paradigm to recast these fibers into random hardware projectors, transforming an input dataset into a higher dimensional speckled image set. The goal of our study is to demonstrate that using such randomized data for classification by training a single logistic regression layer improves accuracy compared to training on direct raw images. Interestingly, we found that the classification accuracy achieved using the reservoir is also higher than that obtained with the standard transmission matrix model, a widely accepted tool for describing light transmission through disordered devices. We find that the reason for such improved perfo
     
 
