@@ -2,52 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [A Structure-Preserving Kernel Method for Learning Hamiltonian Systems](https://arxiv.org/abs/2403.10070) | 提出了一种保结构的核岭回归方法，可以从噪声观测数据中恢复哈密顿函数，拓展了核回归方法，并具有出色的数值性能和收敛速度。 |
-| [^2] | [Metrics on Markov Equivalence Classes for Evaluating Causal Discovery Algorithms](https://arxiv.org/abs/2402.04952) | 本文提出了三个新的距离度量指标（s/c距离、马尔科夫距离和忠实度距离），用于评估因果推断算法的输出图与真实情况的分离/连接程度。 |
-| [^3] | [Structured Matrix Learning under Arbitrary Entrywise Dependence and Estimation of Markov Transition Kernel.](http://arxiv.org/abs/2401.02520) | 本论文提出了在任意元素间依赖下进行结构化矩阵估计的通用框架，并证明了提出的最小二乘估计器在各种噪声分布下的紧致性。此外，论文还提出了一个新颖的结果，论述了无关低秩矩阵的结构特点。最后，论文还展示了该框架在结构化马尔可夫转移核估计问题中的应用。 |
+| [^1] | [Attentional Graph Neural Networks for Robust Massive Network Localization](https://arxiv.org/abs/2311.16856) | 本文通过将图神经网络与注意机制相结合，提出了一种用于网络定位的新方法。该方法具有出色的精确度，甚至在严重非直视视线条件下也能表现出良好的效果。通过提出的关注图神经网络模型，我们进一步改善了现有方法的灵活性和对超参数的敏感性。 |
+| [^2] | [Differentially Private Sliced Inverse Regression: Minimax Optimality and Algorithm.](http://arxiv.org/abs/2401.08150) | 本文提出了针对充足维度减少中的隐私问题的最佳差分隐私算法，并在低维和高维设置下建立了不同ially private 切片逆回归的下界。通过仿真和真实数据分析验证了这些算法的有效性。 |
+| [^3] | [Understanding deep neural networks through the lens of their non-linearity.](http://arxiv.org/abs/2310.11439) | 本文提出了一个理论上有效的解决方案，通过亲和度评分追踪深度神经网络中的非线性传播，尤其关注计算机视觉应用。实验证实了所提出方法的实用性和对广泛应用的潜力。 |
+| [^4] | [Weighted Averaged Stochastic Gradient Descent: Asymptotic Normality and Optimality.](http://arxiv.org/abs/2307.06915) | 本文探索了一种加权平均随机梯度下降（SGD）方案，并建立了渐近正态性，提供了渐近有效的在线推理方法。此外，我们提出了一种自适应平均方案，具有最优的统计速度和有利的非渐近收敛性。 |
+| [^5] | [Predicting Census Survey Response Rates With Parsimonious Additive Models and Structured Interactions.](http://arxiv.org/abs/2108.11328) | 本文提出了一种可解释的非参数加性模型，使用少量主要和成对交互效应预测调查反应率。该模型可以生成易于可视化和解释的预测面，并取得了 ROAM 数据集上的最先进性能，可以提供改进美国人口普查局和其他调查的反应率议论。 |
 
 # 详细
 
-[^1]: 用于学习哈密顿系统的保结构核方法
+[^1]: 关注图神经网络用于稳健的大规模网络定位
 
-    A Structure-Preserving Kernel Method for Learning Hamiltonian Systems
+    Attentional Graph Neural Networks for Robust Massive Network Localization
 
-    [https://arxiv.org/abs/2403.10070](https://arxiv.org/abs/2403.10070)
+    [https://arxiv.org/abs/2311.16856](https://arxiv.org/abs/2311.16856)
 
-    提出了一种保结构的核岭回归方法，可以从噪声观测数据中恢复哈密顿函数，拓展了核回归方法，并具有出色的数值性能和收敛速度。
-
-    
-
-    提出了一种保结构的核岭回归方法，允许从包含哈密顿向量场的噪声观测数据集中恢复潜在的高维非线性哈密顿函数。该方法提出了一个闭式解，在这一设置中表现出优秀的数值性能，超越了文献中提出的其他技术。从方法论的角度看，该论文扩展了核回归方法，解决需要包含梯度线性函数的损失函数的问题，特别地，在这一背景下证明了微分再现属性和表示定理。分析了保结构核估计器和高斯后验均值估计器之间的关系。进行了完整的误差分析，提供使用固定和自适应正则化参数的收敛速度。所提出方法的优良性能得到了确认。
-
-    arXiv:2403.10070v1 Announce Type: cross  Abstract: A structure-preserving kernel ridge regression method is presented that allows the recovery of potentially high-dimensional and nonlinear Hamiltonian functions out of datasets made of noisy observations of Hamiltonian vector fields. The method proposes a closed-form solution that yields excellent numerical performances that surpass other techniques proposed in the literature in this setup. From the methodological point of view, the paper extends kernel regression methods to problems in which loss functions involving linear functions of gradients are required and, in particular, a differential reproducing property and a Representer Theorem are proved in this context. The relation between the structure-preserving kernel estimator and the Gaussian posterior mean estimator is analyzed. A full error analysis is conducted that provides convergence rates using fixed and adaptive regularization parameters. The good performance of the proposed 
-    
-[^2]: 评估因果推断算法的马尔科夫等价类指标
-
-    Metrics on Markov Equivalence Classes for Evaluating Causal Discovery Algorithms
-
-    [https://arxiv.org/abs/2402.04952](https://arxiv.org/abs/2402.04952)
-
-    本文提出了三个新的距离度量指标（s/c距离、马尔科夫距离和忠实度距离），用于评估因果推断算法的输出图与真实情况的分离/连接程度。
+    本文通过将图神经网络与注意机制相结合，提出了一种用于网络定位的新方法。该方法具有出色的精确度，甚至在严重非直视视线条件下也能表现出良好的效果。通过提出的关注图神经网络模型，我们进一步改善了现有方法的灵活性和对超参数的敏感性。
 
     
 
-    许多最先进的因果推断方法旨在生成一个输出图，该图编码了生成数据过程的因果图的图形分离和连接陈述。在本文中，我们认为，对合成数据的因果推断方法进行评估应该包括分析该方法的输出与真实情况的分离/连接程度，以衡量这一明确目标的实现情况。我们证明现有的评估指标不能准确捕捉到两个因果图的分离/连接差异，并引入了三个新的距离度量指标，即s/c距离、马尔科夫距离和忠实度距离，以解决这个问题。我们通过玩具示例、实证实验和伪代码来补充我们的理论分析。
+    近年来，图神经网络(GNNs)已成为机器学习分类任务中的重要工具。然而，它们在回归任务中的应用仍然未被充分探索。为了发掘GNNs在回归中的潜力，本文将GNNs与注意机制相结合，这是一种通过其适应性和鲁棒性彻底改变了序列学习任务的技术，以解决一个具有挑战性的非线性回归问题：网络定位。我们首先介绍了一种基于图卷积网络(GCN)的新型网络定位方法，即使在严重非直视视线(NLOS)条件下也表现出卓越的精度，从而减少了繁琐的离线校准或NLOS识别的需求。我们进一步提出了一种关注图神经网络(AGNN)模型，旨在改善基于GCN方法的有限灵活性和对超参数的高敏感性。
 
-    Many state-of-the-art causal discovery methods aim to generate an output graph that encodes the graphical separation and connection statements of the causal graph that underlies the data-generating process. In this work, we argue that an evaluation of a causal discovery method against synthetic data should include an analysis of how well this explicit goal is achieved by measuring how closely the separations/connections of the method's output align with those of the ground truth. We show that established evaluation measures do not accurately capture the difference in separations/connections of two causal graphs, and we introduce three new measures of distance called s/c-distance, Markov distance and Faithfulness distance that address this shortcoming. We complement our theoretical analysis with toy examples, empirical experiments and pseudocode.
+    arXiv:2311.16856v2 Announce Type: replace Abstract: In recent years, Graph neural networks (GNNs) have emerged as a prominent tool for classification tasks in machine learning. However, their application in regression tasks remains underexplored. To tap the potential of GNNs in regression, this paper integrates GNNs with attention mechanism, a technique that revolutionized sequential learning tasks with its adaptability and robustness, to tackle a challenging nonlinear regression problem: network localization. We first introduce a novel network localization method based on graph convolutional network (GCN), which exhibits exceptional precision even under severe non-line-of-sight (NLOS) conditions, thereby diminishing the need for laborious offline calibration or NLOS identification. We further propose an attentional graph neural network (AGNN) model, aimed at improving the limited flexibility and mitigating the high sensitivity to the hyperparameter of the GCN-based method. The AGNN co
     
-[^3]: 在任意元素间依赖下的结构化矩阵学习与马尔可夫转移核估计
+[^2]: 差分隐私切片逆回归: 极小极大性和算法
 
-    Structured Matrix Learning under Arbitrary Entrywise Dependence and Estimation of Markov Transition Kernel. (arXiv:2401.02520v1 [stat.ML])
+    Differentially Private Sliced Inverse Regression: Minimax Optimality and Algorithm. (arXiv:2401.08150v1 [stat.ML])
 
-    [http://arxiv.org/abs/2401.02520](http://arxiv.org/abs/2401.02520)
+    [http://arxiv.org/abs/2401.08150](http://arxiv.org/abs/2401.08150)
 
-    本论文提出了在任意元素间依赖下进行结构化矩阵估计的通用框架，并证明了提出的最小二乘估计器在各种噪声分布下的紧致性。此外，论文还提出了一个新颖的结果，论述了无关低秩矩阵的结构特点。最后，论文还展示了该框架在结构化马尔可夫转移核估计问题中的应用。
+    本文提出了针对充足维度减少中的隐私问题的最佳差分隐私算法，并在低维和高维设置下建立了不同ially private 切片逆回归的下界。通过仿真和真实数据分析验证了这些算法的有效性。
 
     
 
-    结构化矩阵估计问题通常在强噪声依赖假设下进行研究。本文考虑噪声低秩加稀疏矩阵恢复的一般框架，其中噪声矩阵可以来自任意具有元素间任意依赖的联合分布。我们提出了一个无关相位约束的最小二乘估计器，并且证明了它在各种噪声分布下都是紧致的，既满足确定性下界又匹配最小化风险。为了实现这一点，我们建立了一个新颖的结果，断言两个任意的低秩无关矩阵之间的差异必须在其元素上扩散能量，换句话说不能太稀疏，这揭示了无关低秩矩阵的结构，可能引起独立兴趣。然后，我们展示了我们框架在几个重要的统计机器学习问题中的应用。在估计结构化马尔可夫转移核的问题中，采用了这种方法。
+    随着数据驱动应用的普及，隐私保护已成为高维数据分析中的一个关键问题。切片逆回归是一种广泛应用的统计技术，通过降低协变量的维度，同时保持足够的统计信息。本文提出了针对充足维度减少中的隐私问题的最佳差分隐私算法。我们在低维和高维设置下建立了不同ially private 切片逆回归的下界。此外，我们设计了差分隐私算法，实现了极小极大下界的要求，并在降维空间中同时保护隐私和保存重要信息的有效性。通过一系列的仿真实验和真实数据分析，我们证明了这些差分隐私算法的有效性。
 
-    The problem of structured matrix estimation has been studied mostly under strong noise dependence assumptions. This paper considers a general framework of noisy low-rank-plus-sparse matrix recovery, where the noise matrix may come from any joint distribution with arbitrary dependence across entries. We propose an incoherent-constrained least-square estimator and prove its tightness both in the sense of deterministic lower bound and matching minimax risks under various noise distributions. To attain this, we establish a novel result asserting that the difference between two arbitrary low-rank incoherent matrices must spread energy out across its entries, in other words cannot be too sparse, which sheds light on the structure of incoherent low-rank matrices and may be of independent interest. We then showcase the applications of our framework to several important statistical machine learning problems. In the problem of estimating a structured Markov transition kernel, the proposed method
+    Privacy preservation has become a critical concern in high-dimensional data analysis due to the growing prevalence of data-driven applications. Proposed by Li (1991), sliced inverse regression has emerged as a widely utilized statistical technique for reducing covariate dimensionality while maintaining sufficient statistical information. In this paper, we propose optimally differentially private algorithms specifically designed to address privacy concerns in the context of sufficient dimension reduction. We proceed to establish lower bounds for differentially private sliced inverse regression in both the low and high-dimensional settings. Moreover, we develop differentially private algorithms that achieve the minimax lower bounds up to logarithmic factors. Through a combination of simulations and real data analysis, we illustrate the efficacy of these differentially private algorithms in safeguarding privacy while preserving vital information within the reduced dimension space. As a na
+    
+[^3]: 通过非线性研究深度神经网络的理解
+
+    Understanding deep neural networks through the lens of their non-linearity. (arXiv:2310.11439v1 [cs.LG])
+
+    [http://arxiv.org/abs/2310.11439](http://arxiv.org/abs/2310.11439)
+
+    本文提出了一个理论上有效的解决方案，通过亲和度评分追踪深度神经网络中的非线性传播，尤其关注计算机视觉应用。实验证实了所提出方法的实用性和对广泛应用的潜力。
+
+    
+
+    深度神经网络(DNN)的显著成功常常归因于它们的高表达能力和近似任意复杂函数的能力。事实上，DNN是高度非线性的模型，其中引入的激活函数在其中起到了重要作用。然而，尽管许多研究通过近似能力的视角研究了DNN的表达能力，但量化DNN或个别激活函数的非线性仍然是一个开放性问题。在本文中，我们提出了第一个在具体关注计算机视觉应用中追踪非线性传播的理论有效解决方案。我们提出的亲和度评分允许我们深入了解各种不同体系结构和学习范式的内部工作原理。我们提供了大量的实验结果，突出了所提出的亲和度评分的实际效用和潜在应用的可能性。
+
+    The remarkable success of deep neural networks (DNN) is often attributed to their high expressive power and their ability to approximate functions of arbitrary complexity. Indeed, DNNs are highly non-linear models, and activation functions introduced into them are largely responsible for this. While many works studied the expressive power of DNNs through the lens of their approximation capabilities, quantifying the non-linearity of DNNs or of individual activation functions remains an open problem. In this paper, we propose the first theoretically sound solution to track non-linearity propagation in deep neural networks with a specific focus on computer vision applications. Our proposed affinity score allows us to gain insights into the inner workings of a wide range of different architectures and learning paradigms. We provide extensive experimental results that highlight the practical utility of the proposed affinity score and its potential for long-reaching applications.
+    
+[^4]: 加权平均随机梯度下降: 渐近正态性和最优性
+
+    Weighted Averaged Stochastic Gradient Descent: Asymptotic Normality and Optimality. (arXiv:2307.06915v1 [stat.ML])
+
+    [http://arxiv.org/abs/2307.06915](http://arxiv.org/abs/2307.06915)
+
+    本文探索了一种加权平均随机梯度下降（SGD）方案，并建立了渐近正态性，提供了渐近有效的在线推理方法。此外，我们提出了一种自适应平均方案，具有最优的统计速度和有利的非渐近收敛性。
+
+    
+
+    随机梯度下降（SGD）是现代统计和机器学习中最简单和最流行的算法之一，由于其计算和内存效率而受到青睐。在不同的情境下，已经提出了各种平均方案来加速SGD的收敛。在本文中，我们探讨了一种用于SGD的通用平均方案。具体而言，我们建立了一类加权平均SGD解的渐近正态性，并提供了渐近有效的在线推理方法。此外，我们提出了一种自适应平均方案，展现出最优的统计速度和有利的非渐近收敛性，借鉴了线性模型的非渐近均方误差（MSE）的最优权重的见解。
+
+    Stochastic Gradient Descent (SGD) is one of the simplest and most popular algorithms in modern statistical and machine learning due to its computational and memory efficiency. Various averaging schemes have been proposed to accelerate the convergence of SGD in different settings. In this paper, we explore a general averaging scheme for SGD. Specifically, we establish the asymptotic normality of a broad range of weighted averaged SGD solutions and provide asymptotically valid online inference approaches. Furthermore, we propose an adaptive averaging scheme that exhibits both optimal statistical rate and favorable non-asymptotic convergence, drawing insights from the optimal weight for the linear model in terms of non-asymptotic mean squared error (MSE).
+    
+[^5]: 用简洁可解释的加性模型和结构交互预测人口普查调查反应率
+
+    Predicting Census Survey Response Rates With Parsimonious Additive Models and Structured Interactions. (arXiv:2108.11328v3 [stat.ML] UPDATED)
+
+    [http://arxiv.org/abs/2108.11328](http://arxiv.org/abs/2108.11328)
+
+    本文提出了一种可解释的非参数加性模型，使用少量主要和成对交互效应预测调查反应率。该模型可以生成易于可视化和解释的预测面，并取得了 ROAM 数据集上的最先进性能，可以提供改进美国人口普查局和其他调查的反应率议论。
+
+    
+
+    本文考虑使用一系列灵活且可解释的非参数模型预测调查反应率。本研究受到美国人口普查局著名的 ROAM 应用的启发，该应用使用在美国人口普查规划数据库数据上训练的线性回归模型来识别难以调查的区域。十年前组织的一场众包竞赛表明，基于回归树集成的机器学习方法在预测调查反应率方面表现最佳；然而，由于它们的黑盒特性，相应的模型不能用于拟定的应用。我们考虑使用 $\ell_0$-based 惩罚的非参数加性模型，它具有少数主要和成对交互效应。从方法论的角度来看，我们研究了我们估计器的计算和统计方面，并讨论了将强层次交互合并的变体。我们的算法（在Github 上开源）允许我们生成易于可视化和解释的预测面，从而获得有关调查反应率的可行见解。我们提出的模型在 ROAM 数据集上实现了最先进的性能，并可以提供有关美国人口普查局和其他调查的改进调查反应率的见解。
+
+    In this paper we consider the problem of predicting survey response rates using a family of flexible and interpretable nonparametric models. The study is motivated by the US Census Bureau's well-known ROAM application which uses a linear regression model trained on the US Census Planning Database data to identify hard-to-survey areas. A crowdsourcing competition organized around ten years ago revealed that machine learning methods based on ensembles of regression trees led to the best performance in predicting survey response rates; however, the corresponding models could not be adopted for the intended application due to their black-box nature. We consider nonparametric additive models with small number of main and pairwise interaction effects using $\ell_0$-based penalization. From a methodological viewpoint, we study both computational and statistical aspects of our estimator; and discuss variants that incorporate strong hierarchical interactions. Our algorithms (opensourced on gith
     
 
