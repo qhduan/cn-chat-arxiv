@@ -2,52 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Unsolvable Problem Detection: Evaluating Trustworthiness of Vision Language Models](https://arxiv.org/abs/2403.20331) | 本文提出了一个新颖且重要的挑战，即Unsolvable Problem Detection（UPD），用于评估视觉语言模型在视觉问答任务中能否在面对不可解问题时保持答案的能力，并通过广泛实验发现大多数模型存在改进的空间。 |
-| [^2] | [Induced Model Matching: How Restricted Models Can Help Larger Ones](https://arxiv.org/abs/2402.12513) | 提出了引导模型匹配（IMM）方法，通过使完整模型的性能与受限模型对齐，将受限模型的知识传递给完整模型，具有广泛的应用性。 |
-| [^3] | [CroissantLLM: A Truly Bilingual French-English Language Model](https://arxiv.org/abs/2402.00786) | CroissantLLM是一个1.3B的双语语言模型，通过使用1:1的英语-法语预训练数据比例、自定义的分词器和双语调优数据集进行训练，实现了高性能和开源。模型还发布了训练数据集和多个检查点，以及一个法语基准测试 FrenchBench。 |
+| [^1] | [SD-HuBERT: Self-Distillation Induces Syllabic Organization in HuBERT.](http://arxiv.org/abs/2310.10803) | 本研究提出了SD-HuBERT模型，通过采用自我蒸馏目标进行微调，实现了在学习语音句子级表示时音节组织的出现，模型能够在语音中划定明确的边界，并展现出显著的音节结构。该研究还提出了一个新的基准任务用于评估语音的句子级表示，与之前的模型相比，在无监督音节发现和学习句子级表示方面表现优异。 |
+| [^2] | [Comparative Performance Evaluation of Large Language Models for Extracting Molecular Interactions and Pathway Knowledge.](http://arxiv.org/abs/2307.08813) | 本研究评估了不同大型语言模型在提取分子相互作用和通路知识方面的有效性，并讨论了未来机遇和挑战。 |
+| [^3] | [BUCA: A Binary Classification Approach to Unsupervised Commonsense Question Answering.](http://arxiv.org/abs/2305.15932) | 本文提出了一种更简单的二分类方法，将下游的多项选择题回答任务转换为二分类任务，根据合理性对所有候选答案进行排名，以实现无监督常识问题回答，相较于现有使用知识图谱的UCR方法，我们的方法更为节省数据。 |
+| [^4] | [Medical Intervention Duration Estimation Using Language-enhanced Transformer Encoder with Medical Prompts.](http://arxiv.org/abs/2303.17408) | 使用语言增强Transformer编码器，并结合医学提示，将结构化、非结构化的临床数据投影到一个语言潜空间中，以实现更精确的医学干预持续时间估计。 |
 
 # 详细
 
-[^1]: 不可解问题检测：评估视觉语言模型的可信度
+[^1]: SD-HuBERT: 自我蒸馏诱导HuBERT中的音节组织
 
-    Unsolvable Problem Detection: Evaluating Trustworthiness of Vision Language Models
+    SD-HuBERT: Self-Distillation Induces Syllabic Organization in HuBERT. (arXiv:2310.10803v1 [cs.CL])
 
-    [https://arxiv.org/abs/2403.20331](https://arxiv.org/abs/2403.20331)
+    [http://arxiv.org/abs/2310.10803](http://arxiv.org/abs/2310.10803)
 
-    本文提出了一个新颖且重要的挑战，即Unsolvable Problem Detection（UPD），用于评估视觉语言模型在视觉问答任务中能否在面对不可解问题时保持答案的能力，并通过广泛实验发现大多数模型存在改进的空间。
-
-    
-
-    本文介绍了一个新颖而重要的挑战，即Unsolvable Problem Detection（UPD），用于评估视觉语言模型（VLMs）在视觉问答（VQA）任务中面对不可解问题时保持答案的能力。UPD包括三个不同的设置：缺失答案检测（AAD）、不兼容答案集检测（IASD）和不兼容视觉问题检测（IVQD）。通过广泛的实验深入研究UPD问题表明，大多数VLMs，包括GPT-4V和LLaVA-Next-34B，在各种程度上都很难应对我们的基准测试，突显了改进的重要空间。为了解决UPD，我们探索了无需训练和基于训练的解决方案，提供了对其有效性和局限性的新见解。我们希望我们的见解，以及在提议的UPD设置内的未来努力，将增强对VLMs的更广泛理解和发展。
-
-    arXiv:2403.20331v1 Announce Type: cross  Abstract: This paper introduces a novel and significant challenge for Vision Language Models (VLMs), termed Unsolvable Problem Detection (UPD). UPD examines the VLM's ability to withhold answers when faced with unsolvable problems in the context of Visual Question Answering (VQA) tasks. UPD encompasses three distinct settings: Absent Answer Detection (AAD), Incompatible Answer Set Detection (IASD), and Incompatible Visual Question Detection (IVQD). To deeply investigate the UPD problem, extensive experiments indicate that most VLMs, including GPT-4V and LLaVA-Next-34B, struggle with our benchmarks to varying extents, highlighting significant room for the improvements. To address UPD, we explore both training-free and training-based solutions, offering new insights into their effectiveness and limitations. We hope our insights, together with future efforts within the proposed UPD settings, will enhance the broader understanding and development of
-    
-[^2]: 引导模型匹配：受限模型如何帮助更大的模型
-
-    Induced Model Matching: How Restricted Models Can Help Larger Ones
-
-    [https://arxiv.org/abs/2402.12513](https://arxiv.org/abs/2402.12513)
-
-    提出了引导模型匹配（IMM）方法，通过使完整模型的性能与受限模型对齐，将受限模型的知识传递给完整模型，具有广泛的应用性。
+    本研究提出了SD-HuBERT模型，通过采用自我蒸馏目标进行微调，实现了在学习语音句子级表示时音节组织的出现，模型能够在语音中划定明确的边界，并展现出显著的音节结构。该研究还提出了一个新的基准任务用于评估语音的句子级表示，与之前的模型相比，在无监督音节发现和学习句子级表示方面表现优异。
 
     
 
-    我们考虑在训练更大、具有完整特征的模型时，是否可以利用受限特征的非常准确的预测模型。这个受限模型可以被视为“辅助信息”，可以通过来自辅助源数据集的详尽数据或在相同数据集上通过施加限制来获得。我们提出了一种方法，将受限模型的知识传递给完整模型，通过使完整模型的上下文受限性能与受限模型的性能对齐。我们将这种方法称为引导模型匹配（IMM），首先通过以逻辑回归为玩具示例来说明其普适性。然后我们探讨了IMM在语言建模中的应用，这也是最初的灵感来源，IMM在这里提供了明确的基础，与在技术中隐式使用受限模型的方法相对应，例如添加噪声。
+    自我监督学习（SSL）中的数据驱动单元发现开启了口语语言处理的新时代。然而，发现的单元往往仍处于音素空间，限制了SSL表示的实用性。在这里，我们展示了在学习语音的句子级表示时，音节组织的出现。特别地，我们采用“自我蒸馏”目标来微调预训练的HuBERT，并加入一个汇聚标记来总结整个句子。在没有任何监督的情况下，得到的模型在语音中划定了明确的边界，并且帧间的表示显示出显著的音节结构。我们证明这种出现的结构很大程度上与真实音节对应。此外，我们提出了一个新的基准任务，Spoken Speech ABX，用于评估语音的句子级表示。与之前的模型相比，我们的模型在无监督音节发现和学习句子级表示方面表现优异。
 
-    arXiv:2402.12513v1 Announce Type: new  Abstract: We consider scenarios where a very accurate predictive model using restricted features is available at the time of training of a larger, full-featured, model. This restricted model may be thought of as "side-information", derived either from an auxiliary exhaustive dataset or on the same dataset, by forcing the restriction. How can the restricted model be useful to the full model? We propose an approach for transferring the knowledge of the restricted model to the full model, by aligning the full model's context-restricted performance with that of the restricted model's. We call this methodology Induced Model Matching (IMM) and first illustrate its general applicability by using logistic regression as a toy example. We then explore IMM's use in language modeling, the application that initially inspired it, and where it offers an explicit foundation in contrast to the implicit use of restricted models in techniques such as noising. We dem
+    Data-driven unit discovery in self-supervised learning (SSL) of speech has embarked on a new era of spoken language processing. Yet, the discovered units often remain in phonetic space, limiting the utility of SSL representations. Here, we demonstrate that a syllabic organization emerges in learning sentence-level representation of speech. In particular, we adopt "self-distillation" objective to fine-tune the pretrained HuBERT with an aggregator token that summarizes the entire sentence. Without any supervision, the resulting model draws definite boundaries in speech, and the representations across frames show salient syllabic structures. We demonstrate that this emergent structure largely corresponds to the ground truth syllables. Furthermore, we propose a new benchmark task, Spoken Speech ABX, for evaluating sentence-level representation of speech. When compared to previous models, our model outperforms in both unsupervised syllable discovery and learning sentence-level representatio
     
-[^3]: CroissantLLM: 一个真正的双语法语-英语语言模型
+[^2]: 大型语言模型在提取分子相互作用和通路知识方面的比较性能评估
 
-    CroissantLLM: A Truly Bilingual French-English Language Model
+    Comparative Performance Evaluation of Large Language Models for Extracting Molecular Interactions and Pathway Knowledge. (arXiv:2307.08813v1 [cs.CL])
 
-    [https://arxiv.org/abs/2402.00786](https://arxiv.org/abs/2402.00786)
+    [http://arxiv.org/abs/2307.08813](http://arxiv.org/abs/2307.08813)
 
-    CroissantLLM是一个1.3B的双语语言模型，通过使用1:1的英语-法语预训练数据比例、自定义的分词器和双语调优数据集进行训练，实现了高性能和开源。模型还发布了训练数据集和多个检查点，以及一个法语基准测试 FrenchBench。
+    本研究评估了不同大型语言模型在提取分子相互作用和通路知识方面的有效性，并讨论了未来机遇和挑战。
 
     
 
-    我们介绍了CroissantLLM，这是一个在3T个英语和法语标记上预训练的13亿语言模型，为研究和工业社区带来了一种高性能的、完全开源的双语模型，可以在消费级本地硬件上快速运行。为此，我们首次尝试使用1:1的英语-法语预训练数据比例、自定义的分词器和双语调优数据集来训练一种内在双语的模型。我们发布了训练数据集，其中包含了一个法语分割，其中包含了手工策划、高质量和多样化的数据源。为了评估在英语以外的性能，我们创建了一个新的基准测试 FrenchBench，包括一系列分类和生成任务，涵盖了模型在法语语言中性能的各个方面。此外，为了保持透明度并促进进一步的大规模语言模型研究，我们发布了代码库和各种模型规模、训练数据分布上的几十个检查点。
+    理解蛋白质相互作用和通路知识对于揭示生物系统的复杂性和研究生物功能和复杂疾病的基本机制至关重要。尽管现有的数据库提供了来自文献和其他源的策划生物数据，但它们往往不完整且维护工作繁重，因此需要替代方法。在本研究中，我们提出利用大型语言模型的能力，通过自动从相关科学文献中提取这些知识来解决这些问题。为了实现这个目标，在这项工作中，我们调查了不同大型语言模型在识别蛋白质相互作用、通路和基因调控关系等任务中的有效性。我们对不同模型的性能进行了彻底评估，突出了重要的发现，并讨论了这种方法所面临的未来机遇和挑战。代码和数据集链接可在论文中找到。
 
-    We introduce CroissantLLM, a 1.3B language model pretrained on a set of 3T English and French tokens, to bring to the research and industrial community a high-performance, fully open-sourced bilingual model that runs swiftly on consumer-grade local hardware. To that end, we pioneer the approach of training an intrinsically bilingual model with a 1:1 English-to-French pretraining data ratio, a custom tokenizer, and bilingual finetuning datasets. We release the training dataset, notably containing a French split with manually curated, high-quality, and varied data sources. To assess performance outside of English, we craft a novel benchmark, FrenchBench, consisting of an array of classification and generation tasks, covering various orthogonal aspects of model performance in the French Language. Additionally, rooted in transparency and to foster further Large Language Model research, we release codebases, and dozens of checkpoints across various model sizes, training data distributions, 
+    Understanding protein interactions and pathway knowledge is crucial for unraveling the complexities of living systems and investigating the underlying mechanisms of biological functions and complex diseases. While existing databases provide curated biological data from literature and other sources, they are often incomplete and their maintenance is labor-intensive, necessitating alternative approaches. In this study, we propose to harness the capabilities of large language models to address these issues by automatically extracting such knowledge from the relevant scientific literature. Toward this goal, in this work, we investigate the effectiveness of different large language models in tasks that involve recognizing protein interactions, pathways, and gene regulatory relations. We thoroughly evaluate the performance of various models, highlight the significant findings, and discuss both the future opportunities and the remaining challenges associated with this approach. The code and d
+    
+[^3]: BUCA：一种用于无监督常识问题回答的二分类方法
+
+    BUCA: A Binary Classification Approach to Unsupervised Commonsense Question Answering. (arXiv:2305.15932v1 [cs.CL])
+
+    [http://arxiv.org/abs/2305.15932](http://arxiv.org/abs/2305.15932)
+
+    本文提出了一种更简单的二分类方法，将下游的多项选择题回答任务转换为二分类任务，根据合理性对所有候选答案进行排名，以实现无监督常识问题回答，相较于现有使用知识图谱的UCR方法，我们的方法更为节省数据。
+
+    
+
+    随着常识推理数据集的构建变得越来越昂贵且在范围上不可避免地受限，无监督的常识推理(UCR)变得越来越流行。UCR的一种流行方法是利用外部知识将语言模型进行微调(例如，知识图谱)，但这通常需要大量的训练样例。在本文中，我们提出将下游的多项选择题回答任务转换为一个更简单的二分类任务，通过对所有候选答案的合理性进行排名来完成。为了训练模型，我们将知识图谱三元组转换为合理和不合理的文本。广泛的实验结果显示了我们的方法在各种多项选择问题回答基准测试中的有效性。此外，与使用KG的现有UCR方法相比，我们的方法更节省数据。我们的代码可在https://github.com/probe2/BUCA上获取。
+
+    Unsupervised commonsense reasoning (UCR) is becoming increasingly popular as the construction of commonsense reasoning datasets is expensive, and they are inevitably limited in their scope. A popular approach to UCR is to fine-tune language models with external knowledge (e.g., knowledge graphs), but this usually requires a large number of training examples. In this paper, we propose to transform the downstream multiple choice question answering task into a simpler binary classification task by ranking all candidate answers according to their reasonableness. To this end, for training the model, we convert the knowledge graph triples into reasonable and unreasonable texts. Extensive experimental results show the effectiveness of our approach on various multiple choice question answering benchmarks. Furthermore, compared with existing UCR approaches using KGs, ours is less data hungry. Our code is available at https://github.com/probe2/BUCA.
+    
+[^4]: 基于医学提示的语言增强Transformer编码器的医疗干预持续时间估计
+
+    Medical Intervention Duration Estimation Using Language-enhanced Transformer Encoder with Medical Prompts. (arXiv:2303.17408v1 [cs.CL])
+
+    [http://arxiv.org/abs/2303.17408](http://arxiv.org/abs/2303.17408)
+
+    使用语言增强Transformer编码器，并结合医学提示，将结构化、非结构化的临床数据投影到一个语言潜空间中，以实现更精确的医学干预持续时间估计。
+
+    
+
+    近年来，基于电子病历(EHRs)估计医疗干预的持续时间在临床决策支持领域引起了重视。然而，当前的模型主要关注结构化数据，忽略了来自非结构化的临床自由文本数据的信息。为了解决这个问题，我们提出了一个新颖的语言增强Transformer-based框架，它使用经过预训练的句子编码器将所有相关的临床数据模态（连续、分类、二进制和自由文本特征）投影到一个协调的语言潜空间中，借助医学提示。所提出的方法使得不同模态的信息在单元变压器编码器中集成起来，从而实现更准确的医学干预持续时间估计。我们在美国（ICU住院时间估计）和亚洲（手术持续时间预测）医学数据集上的实验结果证明了我们提出的框架的有效性。
+
+    In recent years, estimating the duration of medical intervention based on electronic health records (EHRs) has gained significant attention in the filed of clinical decision support. However, current models largely focus on structured data, leaving out information from the unstructured clinical free-text data. To address this, we present a novel language-enhanced transformer-based framework, which projects all relevant clinical data modalities (continuous, categorical, binary, and free-text features) into a harmonized language latent space using a pre-trained sentence encoder with the help of medical prompts. The proposed method enables the integration of information from different modalities within the cell transformer encoder and leads to more accurate duration estimation for medical intervention. Our experimental results on both US-based (length of stay in ICU estimation) and Asian (surgical duration prediction) medical datasets demonstrate the effectiveness of our proposed framewor
     
 
