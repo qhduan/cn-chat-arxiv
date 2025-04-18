@@ -2,187 +2,127 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [StreamingT2V: Consistent, Dynamic, and Extendable Long Video Generation from Text](https://arxiv.org/abs/2403.14773) | StreamingT2V是一种自回归方法，用于生成长视频，可以产生80、240、600、1200帧甚至更多帧的视频，并具有平滑的过渡。 |
-| [^2] | [Deep Learning Based Dynamics Identification and Linearization of Orbital Problems using Koopman Theory](https://arxiv.org/abs/2403.08965) | 通过深度学习和库普曼理论，提出了一种数据驱动框架，可以同时识别“两体问题”和“圆限制三体问题”的动力学，并将其全局线性化成线性时不变系统。 |
-| [^3] | [a-DCF: an architecture agnostic metric with application to spoofing-robust speaker verification](https://arxiv.org/abs/2403.01355) | 提出了一种架构无关的检测成本函数（a-DCF），适用于评估抵御欺骗攻击的自动说话人验证（ASV）解决方案。 |
-| [^4] | [Randomization Can Reduce Both Bias and Variance: A Case Study in Random Forests](https://arxiv.org/abs/2402.12668) | 随机森林相对于装袋法具有减少偏差的能力，在揭示数据模式和高信噪比情况下表现更好的特点，为随机森林在不同信噪比环境下的成功提供了解释和实用见解。 |
-| [^5] | [Resilience of the quadratic Littlewood-Offord problem](https://arxiv.org/abs/2402.10504) | 论文研究了二次Littlewood-Offord问题的统计鲁棒性，估计了对抗性噪声对二次Radamecher混沌的影响，并提供了对二次和双线性Rademacher混沌的统计鲁棒性的下限估计。 |
-| [^6] | [Soft Prompt Threats: Attacking Safety Alignment and Unlearning in Open-Source LLMs through the Embedding Space](https://arxiv.org/abs/2402.09063) | 该论文提出了一种新的嵌入空间攻击方法，针对开源LLMs进行攻击，绕过模型对齐并在遗忘的情况下提取信息，比传统的离散攻击更高效。 |
-| [^7] | [Investigating Generalization Behaviours of Generative Flow Networks](https://arxiv.org/abs/2402.05309) | 本研究通过实证验证了生成流网络(GFlowNets)的一些泛化机制假设，发现它们学习逼近的函数具有隐含的基础结构，有助于泛化。同时，GFlowNets对于离线和离策略训练敏感，但隐含学习的奖励对训练分布的变化具有鲁棒性。 |
-| [^8] | [Block Majorization Minimization with Extrapolation and Application to $\beta$-NMF.](http://arxiv.org/abs/2401.06646) | 本文提出了一种使用外推的块主导极小化方法（BMMe）来解决多凸优化问题，并将其应用于$\beta$-NMF。通过使用独特的自适应更新规则来更新外推参数，该方法在实验中展现出显著的加速效果。 |
-| [^9] | [Strategic Client Selection to Address Non-IIDness in HAPS-enabled FL Networks.](http://arxiv.org/abs/2401.05308) | 该研究介绍了一种针对高空平台站（HAPS）使能的垂直异构网络中数据分布不均问题的战略客户选择策略，通过利用用户的网络流量行为预测和分类，优先选择数据呈现相似模式的客户参与，以提高联合学习（FL）模型的训练效果。 |
-| [^10] | [Deep Variational Multivariate Information Bottleneck -- A Framework for Variational Losses.](http://arxiv.org/abs/2310.03311) | 该论文介绍了一个基于信息理论的统一原理，用于重新推导和推广现有的变分降维方法，并设计新的方法。通过将多变量信息瓶颈解释为两个贝叶斯网络的权衡，该框架引入了一个在压缩数据和保留信息之间的权衡参数。 |
-| [^11] | [Maximum Likelihood Estimation of Latent Variable Structural Equation Models: A Neural Network Approach.](http://arxiv.org/abs/2309.14073) | 本研究提出了一种新的图形结构，用于在线性和高斯性假设下稳定的潜变量结构方程模型。我们证明了计算该模型的最大似然估计等价于训练一个神经网络，并实现了一个基于GPU的算法来进行计算。 |
-| [^12] | [H2O+: An Improved Framework for Hybrid Offline-and-Online RL with Dynamics Gaps.](http://arxiv.org/abs/2309.12716) | H2O+是一种改进的混合离线和在线强化学习框架，通过综合考虑真实和模拟环境的动力学差距，同时利用有限的离线数据和不完美的模拟器进行策略学习，并在广泛的仿真和实际机器人实验中展示了卓越的性能和灵活性。 |
+| [^1] | [Finding Decision Tree Splits in Streaming and Massively Parallel Models](https://arxiv.org/abs/2403.19867) | 提出了在数据流学习中计算决策树最佳分割点的算法，能够在流式计算和大规模并行模型中高效运行 |
+| [^2] | [HyperMagNet: A Magnetic Laplacian based Hypergraph Neural Network](https://arxiv.org/abs/2402.09676) | HyperMagNet是一种基于磁度拉普拉斯的超图神经网络，通过将超图表示为非可逆的马尔可夫链并构建磁度拉普拉斯矩阵作为输入，它在节点分类任务中表现出优越性。 |
+| [^3] | [Unveiling Molecular Moieties through Hierarchical Graph Explainability](https://arxiv.org/abs/2402.01744) | 本论文提出了一种使用图神经网络和分层可解释人工智能技术的方法，能够准确预测生物活性并找到与之相关的最重要的成分。 |
+| [^4] | [Multi-Step Deductive Reasoning Over Natural Language: An Empirical Study on Out-of-Distribution Generalisation](https://arxiv.org/abs/2207.14000) | 提出了IMA-GloVe-GA，一个用于自然语言表达的多步推理的迭代神经推理网络，在超领域泛化方面具有更好的性能表现。 |
+| [^5] | [Accelerating Generalized Linear Models by Trading off Computation for Uncertainty.](http://arxiv.org/abs/2310.20285) | 本论文提出了一种迭代方法，通过增加不确定性来降低计算量，并显著提高广义线性模型的训练速度。 |
+| [^6] | [Asynchronous Graph Generators.](http://arxiv.org/abs/2309.17335) | 异步图生成器（AGG）是一种新型的图神经网络架构，通过节点生成进行数据插补，并隐式学习传感器测量的因果图表示，取得了state-of-the-art的结果。 |
+| [^7] | [Learning from Similar Linear Representations: Adaptivity, Minimaxity, and Robustness.](http://arxiv.org/abs/2303.17765) | 本文提出了两种算法，适应相似性结构并对异常值任务具有稳健性，适用于表示多任务学习和迁移学习设置。 |
+| [^8] | [Second-order Conditional Gradient Sliding.](http://arxiv.org/abs/2002.08907) | 提出了一种二阶条件梯度滑动（SOCGS）算法，可以高效解决约束二次凸优化问题，并在有限次线性收敛迭代后二次收敛于原始间隙。 |
 
 # 详细
 
-[^1]: StreamingT2V: 一种一致、动态和可扩展的基于文本的长视频生成方法
+[^1]: 在流式和大规模并行模型中找到决策树分割点
 
-    StreamingT2V: Consistent, Dynamic, and Extendable Long Video Generation from Text
+    Finding Decision Tree Splits in Streaming and Massively Parallel Models
 
-    [https://arxiv.org/abs/2403.14773](https://arxiv.org/abs/2403.14773)
+    [https://arxiv.org/abs/2403.19867](https://arxiv.org/abs/2403.19867)
 
-    StreamingT2V是一种自回归方法，用于生成长视频，可以产生80、240、600、1200帧甚至更多帧的视频，并具有平滑的过渡。
-
-    
-
-    arXiv:2403.14773v1 公告类型: 交叉 摘要: 文本到视频的扩散模型可以生成遵循文本指令的高质量视频，使得创建多样化和个性化内容变得更加容易。然而，现有方法大多集中在生成高质量的短视频（通常为16或24帧），当天真地扩展到长视频合成的情况时，通常会出现硬裁剪。为了克服这些限制，我们引入了StreamingT2V，这是一种自回归方法，用于生成80、240、600、1200或更多帧的长视频，具有平滑的过渡。主要组件包括：（i）一种名为条件注意力模块（CAM）的短期记忆块，通过注意机制将当前生成条件设置为先前块提取的特征，实现一致的块过渡，（ii）一种名为外观保存模块的长期记忆块，从第一个视频块中提取高级场景和对象特征，以防止th
-
-    arXiv:2403.14773v1 Announce Type: cross  Abstract: Text-to-video diffusion models enable the generation of high-quality videos that follow text instructions, making it easy to create diverse and individual content. However, existing approaches mostly focus on high-quality short video generation (typically 16 or 24 frames), ending up with hard-cuts when naively extended to the case of long video synthesis. To overcome these limitations, we introduce StreamingT2V, an autoregressive approach for long video generation of 80, 240, 600, 1200 or more frames with smooth transitions. The key components are:(i) a short-term memory block called conditional attention module (CAM), which conditions the current generation on the features extracted from the previous chunk via an attentional mechanism, leading to consistent chunk transitions, (ii) a long-term memory block called appearance preservation module, which extracts high-level scene and object features from the first video chunk to prevent th
-    
-[^2]: 基于深度学习和库普曼理论的轨道问题动力学识别与线性化
-
-    Deep Learning Based Dynamics Identification and Linearization of Orbital Problems using Koopman Theory
-
-    [https://arxiv.org/abs/2403.08965](https://arxiv.org/abs/2403.08965)
-
-    通过深度学习和库普曼理论，提出了一种数据驱动框架，可以同时识别“两体问题”和“圆限制三体问题”的动力学，并将其全局线性化成线性时不变系统。
+    提出了在数据流学习中计算决策树最佳分割点的算法，能够在流式计算和大规模并行模型中高效运行
 
     
 
-    航空航天工程和科学领域中对“两体问题”和“圆限制三体问题”的研究非常重要，因为它们有助于描述天体和人造卫星的运动。随着对卫星和卫星编队飞行的需求日益增长，对这些系统进行快速有效的控制变得越来越重要。我们提出了一个数据驱动框架，通过基于深度学习的库普曼理论实现“两体问题”和“圆限制三体问题”的同时系统识别和全局线性化，即通过纯数据驱动训练深度神经网络来发现线性库普曼算子，并将其全局线性化为线性时不变系统（LTI）系统。
+    在这项工作中，我们提出了一种数据流算法，用于计算决策树学习中的最优分割点。具体而言，给定观测数据流$x_i$及其标签$y_i$，目标是找到将数据分为两组的最佳分割点$j$，使得均方误差（回归问题）或误分类率（分类问题）最小化。我们提供了多种快速的数据流算法，这些算法在这些问题中使用亚线性空间和少量次数的遍历。这些算法还可以扩展到大规模并行计算模型中。尽管不能直接比较，但我们的工作与Domingos和Hulten的开创性工作（KDD 2000）相互补充。
 
-    arXiv:2403.08965v1 Announce Type: cross  Abstract: The study of the Two-Body and Circular Restricted Three-Body Problems in the field of aerospace engineering and sciences is deeply important because they help describe the motion of both celestial and artificial satellites. With the growing demand for satellites and satellite formation flying, fast and efficient control of these systems is becoming ever more important. Global linearization of these systems allows engineers to employ methods of control in order to achieve these desired results. We propose a data-driven framework for simultaneous system identification and global linearization of both the Two-Body Problem and Circular Restricted Three-Body Problem via deep learning-based Koopman Theory, i.e., a framework that can identify the underlying dynamics and globally linearize it into a linear time-invariant (LTI) system. The linear Koopman operator is discovered through purely data-driven training of a Deep Neural Network with a 
+    arXiv:2403.19867v1 Announce Type: cross  Abstract: In this work, we provide data stream algorithms that compute optimal splits in decision tree learning. In particular, given a data stream of observations $x_i$ and their labels $y_i$, the goal is to find the optimal split point $j$ that divides the data into two sets such that the mean squared error (for regression) or misclassification rate (for classification) is minimized. We provide various fast streaming algorithms that use sublinear space and a small number of passes for these problems. These algorithms can also be extended to the massively parallel computation model. Our work, while not directly comparable, complements the seminal work of Domingos and Hulten (KDD 2000).
     
-[^3]: a-DCF：一种与架构无关的度量，适用于抵御欺骗攻击的说话人验证
+[^2]: HyperMagNet:一种基于磁度拉普拉斯的超图神经网络
 
-    a-DCF: an architecture agnostic metric with application to spoofing-robust speaker verification
+    HyperMagNet: A Magnetic Laplacian based Hypergraph Neural Network
 
-    [https://arxiv.org/abs/2403.01355](https://arxiv.org/abs/2403.01355)
+    [https://arxiv.org/abs/2402.09676](https://arxiv.org/abs/2402.09676)
 
-    提出了一种架构无关的检测成本函数（a-DCF），适用于评估抵御欺骗攻击的自动说话人验证（ASV）解决方案。
-
-    
-
-    欺骗检测目前是一个主流研究课题。标准度量可以用来评估孤立欺骗检测解决方案的性能，也有一些提出来支持它们在与说话人检测结合时的评估，但存在已知的缺陷或者限制了结合说话人和欺骗检测器的架构方法。本文提出了一种架构无关的检测成本函数（a-DCF）。作为广泛用于评估自动说话人验证（ASV）性能的原始DCF的推广，a-DCF旨在用于评估抵御欺骗攻击的ASV。与DCF类似，a-DCF从Bayes风险的角度反映了决策的代价，其中明确定义了类先验和检测成本模型。我们通过对架构异构的抵御欺骗攻击的ASV解决方案进行基准评估，展示了a-DCF的优点。
-
-    arXiv:2403.01355v1 Announce Type: cross  Abstract: Spoofing detection is today a mainstream research topic. Standard metrics can be applied to evaluate the performance of isolated spoofing detection solutions and others have been proposed to support their evaluation when they are combined with speaker detection. These either have well-known deficiencies or restrict the architectural approach to combine speaker and spoof detectors. In this paper, we propose an architecture-agnostic detection cost function (a-DCF). A generalisation of the original DCF used widely for the assessment of automatic speaker verification (ASV), the a-DCF is designed for the evaluation of spoofing-robust ASV. Like the DCF, the a-DCF reflects the cost of decisions in a Bayes risk sense, with explicitly defined class priors and detection cost model. We demonstrate the merit of the a-DCF through the benchmarking evaluation of architecturally-heterogeneous spoofing-robust ASV solutions.
-    
-[^4]: 随机化既可以减少偏差又可以减少方差：随机森林的案例研究
-
-    Randomization Can Reduce Both Bias and Variance: A Case Study in Random Forests
-
-    [https://arxiv.org/abs/2402.12668](https://arxiv.org/abs/2402.12668)
-
-    随机森林相对于装袋法具有减少偏差的能力，在揭示数据模式和高信噪比情况下表现更好的特点，为随机森林在不同信噪比环境下的成功提供了解释和实用见解。
+    HyperMagNet是一种基于磁度拉普拉斯的超图神经网络，通过将超图表示为非可逆的马尔可夫链并构建磁度拉普拉斯矩阵作为输入，它在节点分类任务中表现出优越性。
 
     
 
-    我们研究了往往被忽视的现象，首次在\cite{breiman2001random}中指出，即随机森林似乎比装袋法减少了偏差。受\cite{mentch2020randomization}一篇有趣的论文的启发，其中作者认为随机森林减少了有效自由度，并且只有在低信噪比（SNR）环境下才能胜过装袋集成，我们探讨了随机森林如何能够揭示被装袋法忽视的数据模式。我们在实证中证明，在存在这种模式的情况下，随机森林不仅可以减小偏差还能减小方差，并且当信噪比高时随机森林的表现愈发好于装袋集成。我们的观察为解释随机森林在各种信噪比情况下的真实世界成功提供了见解，并增进了我们对随机森林与装袋集成在每次分割注入的随机化方面的差异的理解。我们的调查结果还提供了实用见解。
+    在数据科学领域，超图是对展示多种关系的数据的自然模型，而图只能捕捉到两两之间的关系。然而，许多现有的超图神经网络通过对称矩阵表示将超图有效地简化为无向图，可能会丢失重要信息。我们提出了一种替代超图神经网络的方法，其中将超图表示为非可逆的马尔可夫链。我们使用该马尔可夫链构建了一个复数埃尔米特拉普拉斯矩阵 - 磁度拉普拉斯矩阵，该矩阵作为我们提出的超图神经网络的输入。我们研究了HyperMagNet在节点分类任务中的效果，并证明其在基于图简化的超图神经网络上的优越性。
 
-    arXiv:2402.12668v1 Announce Type: cross  Abstract: We study the often overlooked phenomenon, first noted in \cite{breiman2001random}, that random forests appear to reduce bias compared to bagging. Motivated by an interesting paper by \cite{mentch2020randomization}, where the authors argue that random forests reduce effective degrees of freedom and only outperform bagging ensembles in low signal-to-noise ratio (SNR) settings, we explore how random forests can uncover patterns in the data missed by bagging. We empirically demonstrate that in the presence of such patterns, random forests reduce bias along with variance and increasingly outperform bagging ensembles when SNR is high. Our observations offer insights into the real-world success of random forests across a range of SNRs and enhance our understanding of the difference between random forests and bagging ensembles with respect to the randomization injected into each split. Our investigations also yield practical insights into the 
+    arXiv:2402.09676v1 Announce Type: new  Abstract: In data science, hypergraphs are natural models for data exhibiting multi-way relations, whereas graphs only capture pairwise. Nonetheless, many proposed hypergraph neural networks effectively reduce hypergraphs to undirected graphs via symmetrized matrix representations, potentially losing important information. We propose an alternative approach to hypergraph neural networks in which the hypergraph is represented as a non-reversible Markov chain. We use this Markov chain to construct a complex Hermitian Laplacian matrix - the magnetic Laplacian - which serves as the input to our proposed hypergraph neural network. We study HyperMagNet for the task of node classification, and demonstrate its effectiveness over graph-reduction based hypergraph neural networks.
     
-[^5]: 二次Littlewood-Offord问题的弹性
+[^3]: 通过分层图解释揭示分子成分
 
-    Resilience of the quadratic Littlewood-Offord problem
+    Unveiling Molecular Moieties through Hierarchical Graph Explainability
 
-    [https://arxiv.org/abs/2402.10504](https://arxiv.org/abs/2402.10504)
+    [https://arxiv.org/abs/2402.01744](https://arxiv.org/abs/2402.01744)
 
-    论文研究了二次Littlewood-Offord问题的统计鲁棒性，估计了对抗性噪声对二次Radamecher混沌的影响，并提供了对二次和双线性Rademacher混沌的统计鲁棒性的下限估计。
-
-    
-
-    我们研究了高维数据的统计鲁棒性。我们的结果提供了关于对抗性噪声对二次Radamecher混沌$\boldsymbol{\xi}^{\mathsf{T}} M \boldsymbol{\xi}$反集中特性的影响的估计，其中$M$是一个固定的（高维）矩阵，$\boldsymbol{\xi}$是一个共形Rademacher向量。具体来说，我们探讨了$\boldsymbol{\xi}$能够承受多少对抗性符号翻转而不“膨胀”$\sup_{x\in \mathbb{R}} \mathbb{P} \left\{\boldsymbol{\xi}^{\mathsf{T}} M \boldsymbol{\xi} = x\right\}$，从而“去除”原始分布导致更“有粒度”和对抗性偏倚的分布。我们的结果为二次和双线性Rademacher混沌的统计鲁棒性提供了下限估计；这些结果在关键区域被证明是渐近紧的。
-
-    arXiv:2402.10504v1 Announce Type: cross  Abstract: We study the statistical resilience of high-dimensional data. Our results provide estimates as to the effects of adversarial noise over the anti-concentration properties of the quadratic Radamecher chaos $\boldsymbol{\xi}^{\mathsf{T}} M \boldsymbol{\xi}$, where $M$ is a fixed (high-dimensional) matrix and $\boldsymbol{\xi}$ is a conformal Rademacher vector. Specifically, we pursue the question of how many adversarial sign-flips can $\boldsymbol{\xi}$ sustain without "inflating" $\sup_{x\in \mathbb{R}} \mathbb{P} \left\{\boldsymbol{\xi}^{\mathsf{T}} M \boldsymbol{\xi} = x\right\}$ and thus "de-smooth" the original distribution resulting in a more "grainy" and adversarially biased distribution. Our results provide lower bound estimations for the statistical resilience of the quadratic and bilinear Rademacher chaos; these are shown to be asymptotically tight across key regimes.
-    
-[^6]: 软提示威胁：通过嵌入空间对开源LLMs进行安全对齐攻击和遗忘
-
-    Soft Prompt Threats: Attacking Safety Alignment and Unlearning in Open-Source LLMs through the Embedding Space
-
-    [https://arxiv.org/abs/2402.09063](https://arxiv.org/abs/2402.09063)
-
-    该论文提出了一种新的嵌入空间攻击方法，针对开源LLMs进行攻击，绕过模型对齐并在遗忘的情况下提取信息，比传统的离散攻击更高效。
+    本论文提出了一种使用图神经网络和分层可解释人工智能技术的方法，能够准确预测生物活性并找到与之相关的最重要的成分。
 
     
 
-    当前对LLMs的敌对鲁棒性研究专注于自然语言空间中的离散输入操纵，这些操纵可以直接转移到闭源模型中。然而，这种方法忽视了开源模型的持续进展。随着开源模型能力的提升，确保其安全性也变得越来越重要。然而，针对开源LLMs的攻击，利用完全模型访问权限的方式仍然很少被探索。我们填补了这一研究空白，并提出了嵌入空间攻击，直接攻击输入令牌的连续嵌入表示。我们发现，嵌入空间攻击比离散攻击或模型微调更有效地绕过模型对齐并触发有害行为。此外，我们在遗忘的背景下提出了一种新的威胁模型，并展示了嵌入空间攻击在从未经学习的LLMs中提取应该删除的信息方面的能力。
+    背景：图神经网络（GNN）作为一种强大的工具，在支持体外虚拟筛选方面已经出现多年。在这项工作中，我们提出了一种使用图卷积架构实现高精度多靶标筛选的GNN。我们还设计了一种分层可解释人工智能（XAI）技术，通过利用信息传递机制，在原子、环和整个分子层面上直接捕获信息，从而找到与生物活性预测相关的最重要的成分。结果：我们在支持虚拟筛选方面的二十个细胞周期依赖性激酶靶标上报道了一种最先进的GNN分类器。我们的分类器超越了作者提出的先前最先进方法。此外，我们还设计了一个仅针对CDK1的高灵敏度版本的GNN，以使用我们的解释器来避免多类别模型固有的偏差。分层解释器已经由一位专家化学家在19个CDK1批准药物上进行了验证。
 
-    arXiv:2402.09063v1 Announce Type: new Abstract: Current research in adversarial robustness of LLMs focuses on discrete input manipulations in the natural language space, which can be directly transferred to closed-source models. However, this approach neglects the steady progression of open-source models. As open-source models advance in capability, ensuring their safety also becomes increasingly imperative. Yet, attacks tailored to open-source LLMs that exploit full model access remain largely unexplored. We address this research gap and propose the embedding space attack, which directly attacks the continuous embedding representation of input tokens. We find that embedding space attacks circumvent model alignments and trigger harmful behaviors more efficiently than discrete attacks or model fine-tuning. Furthermore, we present a novel threat model in the context of unlearning and show that embedding space attacks can extract supposedly deleted information from unlearned LLMs across m
+    Background: Graph Neural Networks (GNN) have emerged in very recent years as a powerful tool for supporting in silico Virtual Screening. In this work we present a GNN which uses Graph Convolutional architectures to achieve very accurate multi-target screening. We also devised a hierarchical Explainable Artificial Intelligence (XAI) technique to catch information directly at atom, ring, and whole molecule level by leveraging the message passing mechanism. In this way, we find the most relevant moieties involved in bioactivity prediction. Results: We report a state-of-the-art GNN classifier on twenty Cyclin-dependent Kinase targets in support of VS. Our classifier outperforms previous SOTA approaches proposed by the authors. Moreover, a CDK1-only high-sensitivity version of the GNN has been designed to use our explainer in order to avoid the inherent bias of multi-class models. The hierarchical explainer has been validated by an expert chemist on 19 approved drugs on CDK1. Our explainer 
     
-[^7]: 研究生成流网络的泛化行为
+[^4]: 自然语言上的多步演绎推理：基于超领域泛化的实证研究
 
-    Investigating Generalization Behaviours of Generative Flow Networks
+    Multi-Step Deductive Reasoning Over Natural Language: An Empirical Study on Out-of-Distribution Generalisation
 
-    [https://arxiv.org/abs/2402.05309](https://arxiv.org/abs/2402.05309)
+    [https://arxiv.org/abs/2207.14000](https://arxiv.org/abs/2207.14000)
 
-    本研究通过实证验证了生成流网络(GFlowNets)的一些泛化机制假设，发现它们学习逼近的函数具有隐含的基础结构，有助于泛化。同时，GFlowNets对于离线和离策略训练敏感，但隐含学习的奖励对训练分布的变化具有鲁棒性。
-
-    
-
-    生成流网络（GFlowNets，GFNs）是一种用于学习离散空间上非归一化概率质量函数的生成框架。自从它们问世以来，GFlowNets在学习生成模型方面表现出色，特别适用于训练期间大部分离散空间未被访问的应用。这使一些人假设当GFlowNets与深度神经网络（DNNs）配对时，具有良好的泛化性能。本文通过实证验证了GFlowNets的一些泛化机制假设。特别地，我们发现GFlowNets学习逼近的函数具有隐含的基础结构，有助于泛化。我们还发现GFlowNets对于离线和离策略训练很敏感，然而，GFlowNets隐含学习的奖励对训练分布的变化具有鲁棒性。
-
-    Generative Flow Networks (GFlowNets, GFNs) are a generative framework for learning unnormalized probability mass functions over discrete spaces. Since their inception, GFlowNets have proven to be useful for learning generative models in applications where the majority of the discrete space is unvisited during training. This has inspired some to hypothesize that GFlowNets, when paired with deep neural networks (DNNs), have favourable generalization properties. In this work, we empirically verify some of the hypothesized mechanisms of generalization of GFlowNets. In particular, we find that the functions that GFlowNets learn to approximate have an implicit underlying structure which facilitate generalization. We also find that GFlowNets are sensitive to being trained offline and off-policy; however, the reward implicitly learned by GFlowNets is robust to changes in the training distribution.
-    
-[^8]: 使用外推的块主导极小化方法和应用于$\beta$-NMF
-
-    Block Majorization Minimization with Extrapolation and Application to $\beta$-NMF. (arXiv:2401.06646v1 [cs.LG])
-
-    [http://arxiv.org/abs/2401.06646](http://arxiv.org/abs/2401.06646)
-
-    本文提出了一种使用外推的块主导极小化方法（BMMe）来解决多凸优化问题，并将其应用于$\beta$-NMF。通过使用独特的自适应更新规则来更新外推参数，该方法在实验中展现出显著的加速效果。
+    提出了IMA-GloVe-GA，一个用于自然语言表达的多步推理的迭代神经推理网络，在超领域泛化方面具有更好的性能表现。
 
     
 
-    我们提出了一种使用外推的块主导极小化方法（BMMe）来解决一类多凸优化问题。BMMe的外推参数使用一种新颖的自适应更新规则来更新。通过将块主导极小化重新表述为块镜像下降方法，并在每次迭代中自适应更新Bregman散度，我们建立了BMMe的子序列收敛性。我们使用这种方法设计了高效的算法来处理$\beta$-NMF中的非负矩阵分解问题，其中$\beta\in [1,2]$。这些算法是使用外推的乘法更新，并从我们的新结果中获得了收敛性保证。我们还通过大量实验实证了BMMe在$\beta$-NMF中的显著加速效果。
+    将深度学习与符号逻辑推理结合起来，旨在充分利用这两个领域的成功，并引起了越来越多的关注。受DeepLogic启发，该模型经过端到端训练，用于执行逻辑程序推理，我们介绍了IMA-GloVe-GA，这是一个用自然语言表达的多步推理的迭代神经推理网络。在我们的模型中，推理是使用基于RNN的迭代内存神经网络进行的，其中包含一个门关注机制。我们在PARARULES、CONCEPTRULES V1和CONCEPTRULES V2三个数据集上评估了IMA-GloVe-GA。实验结果表明，带有门关注机制的DeepLogic比DeepLogic和其他RNN基线模型能够实现更高的测试准确性。我们的模型在规则被打乱时比RoBERTa-Large实现了更好的超领域泛化性能。此外，为了解决当前多步推理数据集中推理深度不平衡的问题
 
-    We propose a Block Majorization Minimization method with Extrapolation (BMMe) for solving a class of multi-convex optimization problems. The extrapolation parameters of BMMe are updated using a novel adaptive update rule. By showing that block majorization minimization can be reformulated as a block mirror descent method, with the Bregman divergence adaptively updated at each iteration, we establish subsequential convergence for BMMe. We use this method to design efficient algorithms to tackle nonnegative matrix factorization problems with the $\beta$-divergences ($\beta$-NMF) for $\beta\in [1,2]$. These algorithms, which are multiplicative updates with extrapolation, benefit from our novel results that offer convergence guarantees. We also empirically illustrate the significant acceleration of BMMe for $\beta$-NMF through extensive experiments.
+    arXiv:2207.14000v2 Announce Type: replace-cross  Abstract: Combining deep learning with symbolic logic reasoning aims to capitalize on the success of both fields and is drawing increasing attention. Inspired by DeepLogic, an end-to-end model trained to perform inference on logic programs, we introduce IMA-GloVe-GA, an iterative neural inference network for multi-step reasoning expressed in natural language. In our model, reasoning is performed using an iterative memory neural network based on RNN with a gate attention mechanism. We evaluate IMA-GloVe-GA on three datasets: PARARULES, CONCEPTRULES V1 and CONCEPTRULES V2. Experimental results show DeepLogic with gate attention can achieve higher test accuracy than DeepLogic and other RNN baseline models. Our model achieves better out-of-distribution generalisation than RoBERTa-Large when the rules have been shuffled. Furthermore, to address the issue of unbalanced distribution of reasoning depths in the current multi-step reasoning datase
     
-[^9]: 面对HAPS使能的FL网络中的非独立同分布问题，战略客户选择的研究
+[^5]: 通过以计算为代价加速广义线性模型
 
-    Strategic Client Selection to Address Non-IIDness in HAPS-enabled FL Networks. (arXiv:2401.05308v1 [cs.NI])
+    Accelerating Generalized Linear Models by Trading off Computation for Uncertainty. (arXiv:2310.20285v1 [cs.LG])
 
-    [http://arxiv.org/abs/2401.05308](http://arxiv.org/abs/2401.05308)
+    [http://arxiv.org/abs/2310.20285](http://arxiv.org/abs/2310.20285)
 
-    该研究介绍了一种针对高空平台站（HAPS）使能的垂直异构网络中数据分布不均问题的战略客户选择策略，通过利用用户的网络流量行为预测和分类，优先选择数据呈现相似模式的客户参与，以提高联合学习（FL）模型的训练效果。
-
-    
-
-    在由高空平台站（HAPS）使能的垂直异构网络中部署联合学习（FL）为各种不同通信和计算能力的客户提供了参与的机会。这种多样性不仅提高了FL模型的训练精度，还加快了其收敛速度。然而，在这些广阔的网络中应用FL存在显著的非独立同分布问题。这种数据异质性往往导致收敛速度较慢和模型训练性能的降低。我们的研究引入了一种针对此问题的客户选择策略，利用用户网络流量行为进行预测和分类。该策略通过战略性选择数据呈现相似模式的客户参与，同时优先考虑用户隐私。
-
-    The deployment of federated learning (FL) within vertical heterogeneous networks, such as those enabled by high-altitude platform station (HAPS), offers the opportunity to engage a wide array of clients, each endowed with distinct communication and computational capabilities. This diversity not only enhances the training accuracy of FL models but also hastens their convergence. Yet, applying FL in these expansive networks presents notable challenges, particularly the significant non-IIDness in client data distributions. Such data heterogeneity often results in slower convergence rates and reduced effectiveness in model training performance. Our study introduces a client selection strategy tailored to address this issue, leveraging user network traffic behaviour. This strategy involves the prediction and classification of clients based on their network usage patterns while prioritizing user privacy. By strategically selecting clients whose data exhibit similar patterns for participation
-    
-[^10]: 深度变分多变量信息瓶颈--一种变分损失的框架
-
-    Deep Variational Multivariate Information Bottleneck -- A Framework for Variational Losses. (arXiv:2310.03311v1 [cs.LG])
-
-    [http://arxiv.org/abs/2310.03311](http://arxiv.org/abs/2310.03311)
-
-    该论文介绍了一个基于信息理论的统一原理，用于重新推导和推广现有的变分降维方法，并设计新的方法。通过将多变量信息瓶颈解释为两个贝叶斯网络的权衡，该框架引入了一个在压缩数据和保留信息之间的权衡参数。
+    本论文提出了一种迭代方法，通过增加不确定性来降低计算量，并显著提高广义线性模型的训练速度。
 
     
 
-    变分降维方法以其高精度、生成能力和鲁棒性而闻名。这些方法有很多理论上的证明。在这里，我们介绍了一种基于信息理论的统一原理，重新推导和推广了现有的变分方法，并设计了新的方法。我们的框架基于多变量信息瓶颈的解释，其中两个贝叶斯网络相互权衡。我们将第一个网络解释为编码器图，它指定了在压缩数据时要保留的信息。我们将第二个网络解释为解码器图，它为数据指定了一个生成模型。使用这个框架，我们重新推导了现有的降维方法，如深度变分信息瓶颈(DVIB)、beta变分自编码器(beta-VAE)和深度变分规范相关分析(DVCCA)。该框架自然地引入了一个在压缩数据和保留信息之间的权衡参数。
+    贝叶斯广义线性模型（GLMs）定义了一个灵活的概率框架，用于建模分类、有序和连续数据，并且在实践中被广泛使用。然而，对于大型数据集，GLMs的精确推断代价太高，因此需要在实践中进行近似。造成的近似误差对模型的可靠性产生不利影响，并且没有被考虑在预测的不确定性中。在这项工作中，我们引入了一系列迭代方法，明确地对这个误差建模。它们非常适合并行计算硬件，有效地回收计算并压缩信息，以减少GLMs的时间和内存需求。正如我们在一个实际的大型分类问题上展示的那样，我们的方法通过明确地将减少计算与增加不确定性进行权衡来显著加速训练。
 
-    Variational dimensionality reduction methods are known for their high accuracy, generative abilities, and robustness. These methods have many theoretical justifications. Here we introduce a unifying principle rooted in information theory to rederive and generalize existing variational methods and design new ones. We base our framework on an interpretation of the multivariate information bottleneck, in which two Bayesian networks are traded off against one another. We interpret the first network as an encoder graph, which specifies what information to keep when compressing the data. We interpret the second network as a decoder graph, which specifies a generative model for the data. Using this framework, we rederive existing dimensionality reduction methods such as the deep variational information bottleneck (DVIB), beta variational auto-encoders (beta-VAE), and deep variational canonical correlation analysis (DVCCA). The framework naturally introduces a trade-off parameter between compr
+    Bayesian Generalized Linear Models (GLMs) define a flexible probabilistic framework to model categorical, ordinal and continuous data, and are widely used in practice. However, exact inference in GLMs is prohibitively expensive for large datasets, thus requiring approximations in practice. The resulting approximation error adversely impacts the reliability of the model and is not accounted for in the uncertainty of the prediction. In this work, we introduce a family of iterative methods that explicitly model this error. They are uniquely suited to parallel modern computing hardware, efficiently recycle computations, and compress information to reduce both the time and memory requirements for GLMs. As we demonstrate on a realistically large classification problem, our method significantly accelerates training by explicitly trading off reduced computation for increased uncertainty.
     
-[^11]: 潜变量结构方程模型的最大似然估计：一种神经网络方法
+[^6]: 异步图生成器
 
-    Maximum Likelihood Estimation of Latent Variable Structural Equation Models: A Neural Network Approach. (arXiv:2309.14073v1 [stat.ML])
+    Asynchronous Graph Generators. (arXiv:2309.17335v1 [cs.LG])
 
-    [http://arxiv.org/abs/2309.14073](http://arxiv.org/abs/2309.14073)
+    [http://arxiv.org/abs/2309.17335](http://arxiv.org/abs/2309.17335)
 
-    本研究提出了一种新的图形结构，用于在线性和高斯性假设下稳定的潜变量结构方程模型。我们证明了计算该模型的最大似然估计等价于训练一个神经网络，并实现了一个基于GPU的算法来进行计算。
-
-    
-
-    我们提出了一种在线性和高斯性假设下稳定的结构方程模型的图形结构。我们展示了计算这个模型的最大似然估计等价于训练一个神经网络。我们实现了一个基于GPU的算法来计算这些模型的最大似然估计。
-
-    We propose a graphical structure for structural equation models that is stable under marginalization under linearity and Gaussianity assumptions. We show that computing the maximum likelihood estimation of this model is equivalent to training a neural network. We implement a GPU-based algorithm that computes the maximum likelihood estimation of these models.
-    
-[^12]: H2O+: 一种改进的混合离线和在线强化学习框架，用于动力学差距问题
-
-    H2O+: An Improved Framework for Hybrid Offline-and-Online RL with Dynamics Gaps. (arXiv:2309.12716v1 [cs.LG])
-
-    [http://arxiv.org/abs/2309.12716](http://arxiv.org/abs/2309.12716)
-
-    H2O+是一种改进的混合离线和在线强化学习框架，通过综合考虑真实和模拟环境的动力学差距，同时利用有限的离线数据和不完美的模拟器进行策略学习，并在广泛的仿真和实际机器人实验中展示了卓越的性能和灵活性。
+    异步图生成器（AGG）是一种新型的图神经网络架构，通过节点生成进行数据插补，并隐式学习传感器测量的因果图表示，取得了state-of-the-art的结果。
 
     
 
-    在没有高精度模拟环境或大量离线数据的情况下，使用强化学习（RL）解决实际复杂任务可能相当具有挑战性。在非完美模拟环境中训练的在线RL代理可能会受到严重的模拟与现实问题。虽然离线RL方法可以绕过对模拟器的需求，但往往对离线数据集的大小和质量提出了苛刻的要求。最近出现的混合离线和在线RL提供了一个有吸引力的框架，可以同时使用有限的离线数据和不完美的模拟器进行可转移策略学习。本文提出了一种名为H2O+的新算法，该算法在桥接不同的离线和在线学习方法的同时，也考虑了真实和模拟环境之间的动力学差距。通过广泛的仿真和实际机器人实验，我们证明了H2O+在性能和灵活性上优于先进的跨域在线方法
+    我们引入了异步图生成器（AGG），这是一种用于多通道时间序列的新型图神经网络架构。AGG将观测值建模为动态图上的节点，并通过转导式节点生成进行数据插补。AGG不依赖于循环组件或对时间规律的假设，使用可学习的嵌入将测量值、时间戳和元数据直接表示在节点中，并利用注意机制来学习变量之间的关系。这样，所提出的架构隐式地学习传感器测量的因果图表示，可以基于未见时间戳和元数据对新的测量进行预测。我们将所提出的AGG在概念和实证两方面与之前的工作进行了比较，并简要讨论了数据增强对AGG性能的影响。实验结果表明，AGG在t
 
-    Solving real-world complex tasks using reinforcement learning (RL) without high-fidelity simulation environments or large amounts of offline data can be quite challenging. Online RL agents trained in imperfect simulation environments can suffer from severe sim-to-real issues. Offline RL approaches although bypass the need for simulators, often pose demanding requirements on the size and quality of the offline datasets. The recently emerged hybrid offline-and-online RL provides an attractive framework that enables joint use of limited offline data and imperfect simulator for transferable policy learning. In this paper, we develop a new algorithm, called H2O+, which offers great flexibility to bridge various choices of offline and online learning methods, while also accounting for dynamics gaps between the real and simulation environment. Through extensive simulation and real-world robotics experiments, we demonstrate superior performance and flexibility over advanced cross-domain online
+    We introduce the asynchronous graph generator (AGG), a novel graph neural network architecture for multi-channel time series which models observations as nodes on a dynamic graph and can thus perform data imputation by transductive node generation. Completely free from recurrent components or assumptions about temporal regularity, AGG represents measurements, timestamps and metadata directly in the nodes via learnable embeddings, to then leverage attention to learn expressive relationships across the variables of interest. This way, the proposed architecture implicitly learns a causal graph representation of sensor measurements which can be conditioned on unseen timestamps and metadata to predict new measurements by an expansion of the learnt graph. The proposed AGG is compared both conceptually and empirically to previous work, and the impact of data augmentation on the performance of AGG is also briefly discussed. Our experiments reveal that AGG achieved state-of-the-art results in t
+    
+[^7]: 学习相似的线性表示：适应性、极小化、以及稳健性
+
+    Learning from Similar Linear Representations: Adaptivity, Minimaxity, and Robustness. (arXiv:2303.17765v1 [stat.ML])
+
+    [http://arxiv.org/abs/2303.17765](http://arxiv.org/abs/2303.17765)
+
+    本文提出了两种算法，适应相似性结构并对异常值任务具有稳健性，适用于表示多任务学习和迁移学习设置。
+
+    
+
+    表示多任务学习和迁移学习在实践中取得了巨大的成功，然而对这些方法的理论理解仍然欠缺。本文旨在理解从具有相似但并非完全相同的线性表示的任务中学习，同时处理异常值任务。我们提出了两种算法，适应相似性结构并对异常值任务具有稳健性，适用于表示多任务学习和迁移学习设置，我们的算法在单任务或仅目标学习时表现优异。
+
+    Representation multi-task learning (MTL) and transfer learning (TL) have achieved tremendous success in practice. However, the theoretical understanding of these methods is still lacking. Most existing theoretical works focus on cases where all tasks share the same representation, and claim that MTL and TL almost always improve performance. However, as the number of tasks grow, assuming all tasks share the same representation is unrealistic. Also, this does not always match empirical findings, which suggest that a shared representation may not necessarily improve single-task or target-only learning performance. In this paper, we aim to understand how to learn from tasks with \textit{similar but not exactly the same} linear representations, while dealing with outlier tasks. We propose two algorithms that are \textit{adaptive} to the similarity structure and \textit{robust} to outlier tasks under both MTL and TL settings. Our algorithms outperform single-task or target-only learning when
+    
+[^8]: 二阶条件梯度滑动
+
+    Second-order Conditional Gradient Sliding. (arXiv:2002.08907v3 [math.OC] UPDATED)
+
+    [http://arxiv.org/abs/2002.08907](http://arxiv.org/abs/2002.08907)
+
+    提出了一种二阶条件梯度滑动（SOCGS）算法，可以高效解决约束二次凸优化问题，并在有限次线性收敛迭代后二次收敛于原始间隙。
+
+    
+
+    当需要高精度解决问题时，约束二阶凸优化算法是首选，因为它们具有局部二次收敛性。这些算法在每次迭代时需要解决一个约束二次子问题。我们提出了\emph{二阶条件梯度滑动}（SOCGS）算法，它使用一种无投影算法来近似解决约束二次子问题。当可行域是一个多面体时，该算法在有限次线性收敛迭代后二次收敛于原始间隙。进入二次收敛阶段后，SOCGS算法需通过$\mathcal{O}(\log(\log 1/\varepsilon))$次一阶和Hessian正交调用以及$\mathcal{O}(\log (1/\varepsilon) \log(\log1/\varepsilon))$次线性最小化正交调用来实现$\varepsilon$-最优解。当可行域只能通过线性优化正交调用高效访问时，此算法非常有用。
+
+    Constrained second-order convex optimization algorithms are the method of choice when a high accuracy solution to a problem is needed, due to their local quadratic convergence. These algorithms require the solution of a constrained quadratic subproblem at every iteration. We present the \emph{Second-Order Conditional Gradient Sliding} (SOCGS) algorithm, which uses a projection-free algorithm to solve the constrained quadratic subproblems inexactly. When the feasible region is a polytope the algorithm converges quadratically in primal gap after a finite number of linearly convergent iterations. Once in the quadratic regime the SOCGS algorithm requires $\mathcal{O}(\log(\log 1/\varepsilon))$ first-order and Hessian oracle calls and $\mathcal{O}(\log (1/\varepsilon) \log(\log1/\varepsilon))$ linear minimization oracle calls to achieve an $\varepsilon$-optimal solution. This algorithm is useful when the feasible region can only be accessed efficiently through a linear optimization oracle, 
     
 
