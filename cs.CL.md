@@ -2,37 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Unsupervised LLM Adaptation for Question Answering](https://arxiv.org/abs/2402.12170) | 提出了无监督LLM适应问答任务，通过利用预训练的LLM和目标领域的未标记文档，实现在新领域回答问题的目标。 |
-| [^2] | [Exploring Value Biases: How LLMs Deviate Towards the Ideal](https://arxiv.org/abs/2402.11005) | 研究发现大型语言模型（LLMs）在给出响应时存在一个价值偏好的机制，倾向于偏向理想状态，这种偏差会对不同应用场景产生重要影响。 |
+| [^1] | [Is Translation All You Need? A Study on Solving Multilingual Tasks with Large Language Models](https://arxiv.org/abs/2403.10258) | 提出了通过本地语言提示来解决文化相关任务的方法，并呼吁发展强大的多语言LLMs。 |
+| [^2] | [Embedding Ontologies via Incoprorating Extensional and Intensional Knowledge](https://arxiv.org/abs/2402.01677) | 本文提出了一种新型本体嵌入方法EIKE，通过整合外延知识和内涵知识，在外延空间和内涵空间中表示本体，并采用基于几何的方法和预训练的语言模型对实例、概念和关系进行嵌入建模。 |
+| [^3] | [GLoRE: Evaluating Logical Reasoning of Large Language Models.](http://arxiv.org/abs/2310.09107) | 本论文介绍了GLoRE，一个评估大型语言模型逻辑推理能力的基准，实验结果表明开放式LLM模型的逻辑推理能力需要提高。研究提出了一种自一致性探测方法和微调方法来改进ChatGPT和开放式LLM的性能。 |
 
 # 详细
 
-[^1]: 无监督LLM适应问答任务
+[^1]: 翻译到底是你所需要的全部吗？使用大型语言模型解决多语言任务的研究
 
-    Unsupervised LLM Adaptation for Question Answering
+    Is Translation All You Need? A Study on Solving Multilingual Tasks with Large Language Models
 
-    [https://arxiv.org/abs/2402.12170](https://arxiv.org/abs/2402.12170)
+    [https://arxiv.org/abs/2403.10258](https://arxiv.org/abs/2403.10258)
 
-    提出了无监督LLM适应问答任务，通过利用预训练的LLM和目标领域的未标记文档，实现在新领域回答问题的目标。
-
-    
-
-    大型语言模型（LLM）通过自监督训练学习大规模训练数据集中的多样化知识。接着通过指导微调，LLM能够返回多样问题的正确信息。然而，将这些预训练的LLM调整到新的目标领域，如不同组织或时期，用于问答任务会产生很高的注释成本。为解决这一挑战，我们提出了一个新颖的任务，即无监督LLM适应问答任务。在这个任务中，我们利用预训练的LLM、一个公开可用的问答数据集（源数据）和目标域的未标记文档。我们的目标是学习LLM，使其能够回答关于目标领域的问题。我们引入了一个合成数据集和两个真实数据集来评估在源数据和目标数据上微调的模型，并揭示了一些有趣的见解；（i）微调模型展示了提供正确答案的能力
-
-    arXiv:2402.12170v1 Announce Type: cross  Abstract: Large language models (LLM) learn diverse knowledge present in the large-scale training dataset via self-supervised training. Followed by instruction-tuning, LLM acquires the ability to return correct information for diverse questions. However, adapting these pre-trained LLMs to new target domains, such as different organizations or periods, for the question-answering (QA) task incurs a substantial annotation cost. To tackle this challenge, we propose a novel task, unsupervised LLM adaptation for question answering. In this task, we leverage a pre-trained LLM, a publicly available QA dataset (source data), and unlabeled documents from the target domain. Our goal is to learn LLM that can answer questions about the target domain. We introduce one synthetic and two real datasets to evaluate models fine-tuned on the source and target data, and reveal intriguing insights; (i) fine-tuned models exhibit the ability to provide correct answers 
-    
-[^2]: 探究价值偏好：LLMs偏向理想状态的偏差
-
-    Exploring Value Biases: How LLMs Deviate Towards the Ideal
-
-    [https://arxiv.org/abs/2402.11005](https://arxiv.org/abs/2402.11005)
-
-    研究发现大型语言模型（LLMs）在给出响应时存在一个价值偏好的机制，倾向于偏向理想状态，这种偏差会对不同应用场景产生重要影响。
+    提出了通过本地语言提示来解决文化相关任务的方法，并呼吁发展强大的多语言LLMs。
 
     
 
-    大型语言模型（LLMs）被部署在各种应用中，并且它们的响应对社会产生着越来越大的影响。理解LLMs在给出响应时的非故意机制对于解释它们的性能并辨别它们在现实世界应用中的偏差至关重要。这类似于人类研究中，这种无意识的响应被称为抽样。我们研究了LLMs的这种抽样现象，发现LLMs的抽样倾向于偏爱高价值选项。价值偏好对应于从最可能的响应向LLM中代表的理想价值的转变。实际上，即便是通过上下文提示学习到的新实体，这种效果也能够再现。我们表明这种偏差表现在意想不到的地方，并对选择典型实例等相关应用场景产生影响。结果显示，价值偏好在不同分类的LLMs中都很明显。
+    大型语言模型（LLMs）展示了强大的多语言能力；然而，由于训练语料库不平衡，它们大多是以英语为中心的。现有研究利用这一现象来提高它们在自然语言处理任务上的多语言性能。在本研究中，我们将评估从自然语言处理任务扩展到真实用户查询。我们发现，尽管将文本翻译成英语可以帮助提高以英语为中心的LLMs在多语言自然语言处理任务中的性能，但并不一定适用于所有场景。对于需要深入理解语言的文化相关任务，以本地语言提示更为有前景，因为它可以捕捉与文化和语言相关的微妙之处。因此，我们主张着力发展强大的多语言LLMs，而不仅仅是以英语为中心的LLMs。
 
-    arXiv:2402.11005v1 Announce Type: cross  Abstract: Large-Language-Models (LLMs) are deployed in a wide range of applications, and their response has an increasing social impact. Understanding the non-deliberate(ive) mechanism of LLMs in giving responses is essential in explaining their performance and discerning their biases in real-world applications. This is analogous to human studies, where such inadvertent responses are referred to as sampling. We study this sampling of LLMs in light of value bias and show that the sampling of LLMs tends to favour high-value options. Value bias corresponds to this shift of response from the most likely towards an ideal value represented in the LLM. In fact, this effect can be reproduced even with new entities learnt via in-context prompting. We show that this bias manifests in unexpected places and has implications on relevant application scenarios, like choosing exemplars. The results show that value bias is strong in LLMs across different categor
+    arXiv:2403.10258v1 Announce Type: new  Abstract: Large language models (LLMs) have demonstrated strong multilingual capabilities; yet, they are mostly English-centric due to the imbalanced training corpora. Existing works leverage this phenomenon to improve their multilingual performances on NLP tasks. In this work, we extend the evaluation from NLP tasks to real user queries. We find that even though translation into English can help improve the performance of multilingual NLP tasks for English-centric LLMs, it may not be optimal for all scenarios. For culture-related tasks that need deep language understanding, prompting in the native language proves to be more promising since it can capture the nuances related to culture and language. Therefore, we advocate for more efforts towards the development of strong multilingual LLMs instead of just English-centric LLMs.
+    
+[^2]: 通过整合外延知识和内涵知识嵌入本体
+
+    Embedding Ontologies via Incoprorating Extensional and Intensional Knowledge
+
+    [https://arxiv.org/abs/2402.01677](https://arxiv.org/abs/2402.01677)
+
+    本文提出了一种新型本体嵌入方法EIKE，通过整合外延知识和内涵知识，在外延空间和内涵空间中表示本体，并采用基于几何的方法和预训练的语言模型对实例、概念和关系进行嵌入建模。
+
+    
+
+    本体包含领域内丰富的知识，可以分为两个类别，即外延知识和内涵知识。外延知识提供关于本体中特定概念所属的具体实例的信息，而内涵知识详细描述了概念之间的内在属性、特征和语义关联。然而，现有的本体嵌入方法未能同时充分考虑外延知识和内涵知识。在本文中，我们提出了一种名为EIKE（Extensional and Intensional Knowledge Embedding）的新型本体嵌入方法，通过在外延空间和内涵空间中表示本体。EIKE提出了一个统一的框架，用于将实例、概念及其关系嵌入到本体中，采用基于几何的方法对外延知识进行建模，并使用预训练的语言模型对内涵知识进行建模。
+
+    Ontologies contain rich knowledge within domain, which can be divided into two categories, namely extensional knowledge and intensional knowledge. Extensional knowledge provides information about the concrete instances that belong to specific concepts in the ontology, while intensional knowledge details inherent properties, characteristics, and semantic associations among concepts. However, existing ontology embedding approaches fail to take both extensional knowledge and intensional knowledge into fine consideration simultaneously. In this paper, we propose a novel ontology embedding approach named EIKE (Extensional and Intensional Knowledge Embedding) by representing ontologies in two spaces, called extensional space and intensional space. EIKE presents a unified framework for embedding instances, concepts and their relations in an ontology, applying a geometry-based method to model extensional knowledge and a pretrained language model to model intensional knowledge, which can captur
+    
+[^3]: GLoRE: 评估大型语言模型的逻辑推理能力
+
+    GLoRE: Evaluating Logical Reasoning of Large Language Models. (arXiv:2310.09107v1 [cs.CL])
+
+    [http://arxiv.org/abs/2310.09107](http://arxiv.org/abs/2310.09107)
+
+    本论文介绍了GLoRE，一个评估大型语言模型逻辑推理能力的基准，实验结果表明开放式LLM模型的逻辑推理能力需要提高。研究提出了一种自一致性探测方法和微调方法来改进ChatGPT和开放式LLM的性能。
+
+    
+
+    最近，包括GPT-4和新兴社区模型在内的大型语言模型(LLMs)展示了显著的通用语言理解能力。然而，对这些LLMs的逻辑推理能力进行评估的尝试还很少，而这是自然语言理解的一个重要方面。为了鼓励进一步研究，我们引入了GLoRE，一个精心组织的通用逻辑推理评估基准，包含了12个覆盖三种不同类型任务的数据集。我们的实验结果显示，与人类和监督微调的性能相比，开放式LLM模型的逻辑推理能力需要进一步提高；ChatGPT和GPT-4展示了较强的逻辑推理能力，GPT-4大幅超过了ChatGPT。我们提出了一种自一致性探测方法来提高ChatGPT的准确性，以及一种微调方法来提高开放式LLM的性能。
+
+    Recently, large language models (LLMs), including notable models such as GPT-4 and burgeoning community models, have showcased significant general language understanding abilities. However, there has been a scarcity of attempts to assess the logical reasoning capacities of these LLMs, an essential facet of natural language understanding. To encourage further investigation in this area, we introduce GLoRE, a meticulously assembled General Logical Reasoning Evaluation benchmark comprised of 12 datasets that span three different types of tasks. Our experimental results show that compared to the performance of human and supervised fine-tuning, the logical reasoning capabilities of open LLM models necessitate additional improvement; ChatGPT and GPT-4 show a strong capability of logical reasoning, with GPT-4 surpassing ChatGPT by a large margin. We propose a self-consistency probing method to enhance the accuracy of ChatGPT and a fine-tuned method to boost the performance of an open LLM. We 
     
 
