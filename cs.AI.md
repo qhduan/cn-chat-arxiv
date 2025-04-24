@@ -2,97 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Facilitating Reinforcement Learning for Process Control Using Transfer Learning: Perspectives](https://arxiv.org/abs/2404.00247) | 本文从迁移学习的角度探讨了如何将其与强化学习相结合，为过程控制带来新的可能性。 |
-| [^2] | [Cross--domain Fiber Cluster Shape Analysis for Language Performance Cognitive Score Prediction](https://arxiv.org/abs/2403.19001) | 本研究通过新颖的框架SFFormer，结合了多头交叉注意力特征融合模块，基于dMRI纤维束追踪，预测了主观语言表现，拓展了脑结构与人类认知功能的关联研究。 |
-| [^3] | [Ambient Diffusion Posterior Sampling: Solving Inverse Problems with Diffusion Models trained on Corrupted Data](https://arxiv.org/abs/2403.08728) | 提出了一种使用环境扩散后验采样解决逆问题的框架，能在受损数据上训练的扩散模型上表现出色，并在图像恢复和MRI模型训练中取得优越性能。 |
-| [^4] | [QuaCer-C: Quantitative Certification of Knowledge Comprehension in LLMs](https://arxiv.org/abs/2402.15929) | 本文提出了一种新颖的认证框架QuaCer-C，用于正式认证大型语言模型中知识理解的能力，证书定量化且包含高置信度的概率界限，研究发现，随着参数数量的增加，知识理解能力提高，Mistral模型在这一评估中表现不如其他模型。 |
-| [^5] | [WikiMT++ Dataset Card.](http://arxiv.org/abs/2309.13259) | WikiMT++是一个扩展和精细版本的WikiMusicText数据集，包含了1010个经过策划的ABC记谱法的主题曲。它添加了客观属性和主观情感属性，增强了数据集的应用场景和可用性，并通过CLaMP来纠正属性，提高准确性和完整性。 |
-| [^6] | [AI-Copilot for Business Optimisation: A Framework and A Case Study in Production Scheduling.](http://arxiv.org/abs/2309.13218) | 这篇论文提出了一个AI-企业优化的协同辅助系统，通过采用大型语言模型和微调预训练模型的方法，实现了减少人类专业知识需求的目标。 |
+| [^1] | [ChatDBG: An AI-Powered Debugging Assistant](https://arxiv.org/abs/2403.16354) | ChatDBG是第一个AI-Powered调试助手，通过将大型语言模型集成到传统调试器中，实现了程序员与调试器之间的协作对话，能够处理复杂问题、执行根本原因分析，并探索开放性查询。 |
+| [^2] | [A Benchmark of Domain-Adapted Large Language Models for Generating Brief Hospital Course Summaries](https://arxiv.org/abs/2403.05720) | 介绍了一个新的基准测试，评估了用于生成简要住院病程摘要的大语言模型在健康保健领域中的性能并提出相应的自适应策略 |
+| [^3] | [Artificial Intelligence Exploring the Patent Field](https://arxiv.org/abs/2403.04105) | 本文系统概述了专利领域的任务和方法，强调了语言处理和大型语言模型的重要性，并探讨了近期出现的通用生成方法在专利领域的潜力。 |
+| [^4] | [WildfireGPT: Tailored Large Language Model for Wildfire Analysis](https://arxiv.org/abs/2402.07877) | WildfireGPT是一个针对野火分析的定制化大型语言模型，通过提供领域特定的上下文信息和科学准确性，将用户查询转化为关于野火风险的可操作见解。 |
+| [^5] | [The Development of LLMs for Embodied Navigation.](http://arxiv.org/abs/2311.00530) | 本文概述了LLMs与具身智能在导航领域的共生关系，并评估了现有模型和数据集的优缺点。 |
 
 # 详细
 
-[^1]: 利用迁移学习促进过程控制的强化学习：观点
+[^1]: ChatDBG: 一种基于人工智能的调试助手
 
-    Facilitating Reinforcement Learning for Process Control Using Transfer Learning: Perspectives
+    ChatDBG: An AI-Powered Debugging Assistant
 
-    [https://arxiv.org/abs/2404.00247](https://arxiv.org/abs/2404.00247)
+    [https://arxiv.org/abs/2403.16354](https://arxiv.org/abs/2403.16354)
 
-    本文从迁移学习的角度探讨了如何将其与强化学习相结合，为过程控制带来新的可能性。
-
-    
-
-    本文从迁移学习的角度，为过程控制中的深度强化学习（DRL）提供了深入见解。我们分析了在过程工业领域应用DRL所面临的挑战，以及引入迁移学习的必要性。此外，我们为未来研究方向提供了建议和展望，探讨了如何将迁移学习与DRL结合起来加强过程控制。
-
-    arXiv:2404.00247v1 Announce Type: cross  Abstract: This paper provides insights into deep reinforcement learning (DRL) for process control from the perspective of transfer learning. We analyze the challenges of applying DRL in the field of process industries and the necessity of introducing transfer learning. Furthermore, recommendations and prospects are provided for future research directions on how transfer learning can be integrated with DRL to empower process control.
-    
-[^2]: 跨领域的纤维簇形状分析用于语言表现认知分数预测
-
-    Cross--domain Fiber Cluster Shape Analysis for Language Performance Cognitive Score Prediction
-
-    [https://arxiv.org/abs/2403.19001](https://arxiv.org/abs/2403.19001)
-
-    本研究通过新颖的框架SFFormer，结合了多头交叉注意力特征融合模块，基于dMRI纤维束追踪，预测了主观语言表现，拓展了脑结构与人类认知功能的关联研究。
+    ChatDBG是第一个AI-Powered调试助手，通过将大型语言模型集成到传统调试器中，实现了程序员与调试器之间的协作对话，能够处理复杂问题、执行根本原因分析，并探索开放性查询。
 
     
 
-    形状在计算机图形学中扮演重要角色，提供了有关对象形态和功能的信息特征。脑成像中的形状分析可帮助解释人脑结构和功能的相关性。本研究调查了大脑的3D白质连接的形状及其与人类认知功能的潜在预测关系。我们使用扩散磁共振成像（dMRI）纤维束追踪将大脑连接重建为3D点序列。为了描述每个连接，我们提取了12个形状描述符以及传统的dMRI连接和组织微结构特征。我们引入了一种新颖的框架，形状融合纤维簇变换器（SFFormer），利用多头交叉注意力特征融合模块基于dMRI纤维束追踪来预测特定个体的语言表现。我们在一个大型数据集上评估了该方法的性能。
+    本文介绍了ChatDBG，这是第一个基于人工智能的调试助手。ChatDBG集成了大型语言模型(LLMs)，显著增强了传统调试器的功能和用户友好性。ChatDBG允许程序员与调试器进行协作对话，使他们能够提出关于程序状态的复杂问题，对崩溃或断言失败进行根本原因分析，并探索诸如“为什么x为空？”之类的开放性查询。为了处理这些查询，ChatDBG授予LLM自主权，通过发出命令来浏览堆栈和检查程序状态进行调试；然后报告其发现并将控制权交还给程序员。我们的ChatDBG原型与标准调试器集成，包括LLDB、GDB和WinDBG用于本地代码以及用于Python的Pdb。我们在各种代码集合上进行了评估，包括具有已知错误的C/C++代码和一套Python代码。
 
-    arXiv:2403.19001v1 Announce Type: cross  Abstract: Shape plays an important role in computer graphics, offering informative features to convey an object's morphology and functionality. Shape analysis in brain imaging can help interpret structural and functionality correlations of the human brain. In this work, we investigate the shape of the brain's 3D white matter connections and its potential predictive relationship to human cognitive function. We reconstruct brain connections as sequences of 3D points using diffusion magnetic resonance imaging (dMRI) tractography. To describe each connection, we extract 12 shape descriptors in addition to traditional dMRI connectivity and tissue microstructure features. We introduce a novel framework, Shape--fused Fiber Cluster Transformer (SFFormer), that leverages a multi-head cross-attention feature fusion module to predict subject-specific language performance based on dMRI tractography. We assess the performance of the method on a large dataset
+    arXiv:2403.16354v1 Announce Type: cross  Abstract: This paper presents ChatDBG, the first AI-powered debugging assistant. ChatDBG integrates large language models (LLMs) to significantly enhance the capabilities and user-friendliness of conventional debuggers. ChatDBG lets programmers engage in a collaborative dialogue with the debugger, allowing them to pose complex questions about program state, perform root cause analysis for crashes or assertion failures, and explore open-ended queries like "why is x null?". To handle these queries, ChatDBG grants the LLM autonomy to take the wheel and drive debugging by issuing commands to navigate through stacks and inspect program state; it then reports its findings and yields back control to the programmer. Our ChatDBG prototype integrates with standard debuggers including LLDB, GDB, and WinDBG for native code and Pdb for Python. Our evaluation across a diverse set of code, including C/C++ code with known bugs and a suite of Python code includi
     
-[^3]: 使用环境扩散后验采样：在受损数据上训练的扩散模型解决逆问题
+[^2]: 用于生成简要住院病程摘要的领域自适应大语言模型的基准测试
 
-    Ambient Diffusion Posterior Sampling: Solving Inverse Problems with Diffusion Models trained on Corrupted Data
+    A Benchmark of Domain-Adapted Large Language Models for Generating Brief Hospital Course Summaries
 
-    [https://arxiv.org/abs/2403.08728](https://arxiv.org/abs/2403.08728)
+    [https://arxiv.org/abs/2403.05720](https://arxiv.org/abs/2403.05720)
 
-    提出了一种使用环境扩散后验采样解决逆问题的框架，能在受损数据上训练的扩散模型上表现出色，并在图像恢复和MRI模型训练中取得优越性能。
-
-    
-
-    我们提供了一个框架，用于使用从线性受损数据中学习的扩散模型解决逆问题。我们的方法，Ambient Diffusion Posterior Sampling (A-DPS)，利用一个预先在一种类型的损坏数据上进行过训练的生成模型，以在可能来自不同前向过程（例如图像模糊）的测量条件下执行后验采样。我们在标准自然图像数据集（CelebA、FFHQ 和 AFHQ）上测试了我们的方法的有效性，并展示了 A-DPS 有时在速度和性能上都能胜过在清洁数据上训练的模型，用于几个图像恢复任务。我们进一步扩展了环境扩散框架，以仅访问傅里叶子采样的多线圈 MRI 测量数据来训练 MRI 模型，其加速因子为不同的加速因子（R=2、4、6、8）。我们再次观察到，在高度子采样数据上训练的模型更适用于解决高加速 MRI 逆问题。
-
-    arXiv:2403.08728v1 Announce Type: cross  Abstract: We provide a framework for solving inverse problems with diffusion models learned from linearly corrupted data. Our method, Ambient Diffusion Posterior Sampling (A-DPS), leverages a generative model pre-trained on one type of corruption (e.g. image inpainting) to perform posterior sampling conditioned on measurements from a potentially different forward process (e.g. image blurring). We test the efficacy of our approach on standard natural image datasets (CelebA, FFHQ, and AFHQ) and we show that A-DPS can sometimes outperform models trained on clean data for several image restoration tasks in both speed and performance. We further extend the Ambient Diffusion framework to train MRI models with access only to Fourier subsampled multi-coil MRI measurements at various acceleration factors (R=2, 4, 6, 8). We again observe that models trained on highly subsampled data are better priors for solving inverse problems in the high acceleration r
-    
-[^4]: QuaCer-C：大型语言模型中知识理解的定量认证
-
-    QuaCer-C: Quantitative Certification of Knowledge Comprehension in LLMs
-
-    [https://arxiv.org/abs/2402.15929](https://arxiv.org/abs/2402.15929)
-
-    本文提出了一种新颖的认证框架QuaCer-C，用于正式认证大型语言模型中知识理解的能力，证书定量化且包含高置信度的概率界限，研究发现，随着参数数量的增加，知识理解能力提高，Mistral模型在这一评估中表现不如其他模型。
+    介绍了一个新的基准测试，评估了用于生成简要住院病程摘要的大语言模型在健康保健领域中的性能并提出相应的自适应策略
 
     
 
-    大型语言模型（LLMs）在多个基准测试中展现出令人印象深刻的表现。然而，传统研究并未对LLMs的表现提供正式的保证。本文提出了一种新颖的LLM认证框架QuaCer-C，我们在此对知名LLMs的知识理解能力进行正式认证。我们的证书是定量的 - 它们包括对目标LLM在任何相关知识理解提示上给出正确答案的概率的高置信度紧密界限。我们针对Llama、Vicuna和Mistral LLMs的证书表明，知识理解能力随参数数量的增加而提高，并且Mistral模型在这一评估中表现不如其他模型。
+    简要住院病程（BHC）摘要是通过总结临床记录而生成的常见临床文件。虽然大型语言模型（LLMs）在自动化实际任务方面展现出显著能力，但它们在医疗应用（如BHC合成）中的能力尚未得到展示。为了使LLMs能够适应BHC合成，我们引入了一个新颖的基准测试，其中包含从MIMIC-IV记录中提取的经过预处理的数据集，封装了临床记录和简要住院病程（BHC）对。我们评估了两个通用LLMs和三个医疗领域适应的LLMs的性能，以改进从临床记录生成BHC。我们使用临床记录作为输入来生成BHC，采用基于提示的（使用上下文学习）和基于微调的自适应策略来应用于三个开源LLMs（Clinical-T5-Large，Llama2-13B，FLAN-UL2）和两个专有LLMs（GPT-3.5，GPT-4）。我们定量评估了性能。
 
-    arXiv:2402.15929v1 Announce Type: new  Abstract: Large Language Models (LLMs) have demonstrated impressive performance on several benchmarks. However, traditional studies do not provide formal guarantees on the performance of LLMs. In this work, we propose a novel certification framework for LLM, QuaCer-C, wherein we formally certify the knowledge-comprehension capabilities of popular LLMs. Our certificates are quantitative - they consist of high-confidence, tight bounds on the probability that the target LLM gives the correct answer on any relevant knowledge comprehension prompt. Our certificates for the Llama, Vicuna, and Mistral LLMs indicate that the knowledge comprehension capability improves with an increase in the number of parameters and that the Mistral model is less performant than the rest in this evaluation.
+    arXiv:2403.05720v1 Announce Type: cross  Abstract: Brief hospital course (BHC) summaries are common clinical documents generated by summarizing clinical notes. While large language models (LLMs) depict remarkable capabilities in automating real-world tasks, their capabilities for healthcare applications such as BHC synthesis have not been shown. To enable the adaptation of LLMs for BHC synthesis, we introduce a novel benchmark consisting of a pre-processed dataset extracted from MIMIC-IV notes, encapsulating clinical note, and brief hospital course (BHC) pairs. We assess the performance of two general-purpose LLMs and three healthcare-adapted LLMs to improve BHC synthesis from clinical notes. Using clinical notes as input for generating BHCs, we apply prompting-based (using in-context learning) and fine-tuning-based adaptation strategies to three open-source LLMs (Clinical-T5-Large, Llama2-13B, FLAN-UL2) and two proprietary LLMs (GPT-3.5, GPT-4). We quantitatively evaluate the performa
     
-[^5]: WikiMT++数据集卡片
+[^3]: 人工智能探索专利领域
 
-    WikiMT++ Dataset Card. (arXiv:2309.13259v1 [cs.IR])
+    Artificial Intelligence Exploring the Patent Field
 
-    [http://arxiv.org/abs/2309.13259](http://arxiv.org/abs/2309.13259)
+    [https://arxiv.org/abs/2403.04105](https://arxiv.org/abs/2403.04105)
 
-    WikiMT++是一个扩展和精细版本的WikiMusicText数据集，包含了1010个经过策划的ABC记谱法的主题曲。它添加了客观属性和主观情感属性，增强了数据集的应用场景和可用性，并通过CLaMP来纠正属性，提高准确性和完整性。
-
-    
-
-    WikiMT++是WikiMusicText（WikiMT）的扩展和精细版本，包含了1010个经过策划的ABC记谱法的主题曲。为了扩展WikiMT的应用场景，我们添加了客观属性（专辑、歌词、视频）和主观情感属性（12个情感形容词）和情感4Q（Russell 4Q），增强了其在音乐信息检索、条件音乐生成、自动作曲和情感分类等方面的可用性。此外，我们还实现了CLaMP来纠正从WikiMT继承的属性，以减少原始数据收集过程中引入的错误，增强了数据集的准确性和完整性。
-
-    WikiMT++ is an expanded and refined version of WikiMusicText (WikiMT), featuring 1010 curated lead sheets in ABC notation. To expand application scenarios of WikiMT, we add both objective (album, lyrics, video) and subjective emotion (12 emotion adjectives) and emo\_4q (Russell 4Q) attributes, enhancing its usability for music information retrieval, conditional music generation, automatic composition, and emotion classification, etc. Additionally, CLaMP is implemented to correct the attributes inherited from WikiMT to reduce errors introduced during original data collection and enhance the accuracy and completeness of our dataset.
-    
-[^6]: AI-企业优化的协同辅助：一个框架和在生产调度中的案例研究。
-
-    AI-Copilot for Business Optimisation: A Framework and A Case Study in Production Scheduling. (arXiv:2309.13218v1 [cs.AI])
-
-    [http://arxiv.org/abs/2309.13218](http://arxiv.org/abs/2309.13218)
-
-    这篇论文提出了一个AI-企业优化的协同辅助系统，通过采用大型语言模型和微调预训练模型的方法，实现了减少人类专业知识需求的目标。
+    本文系统概述了专利领域的任务和方法，强调了语言处理和大型语言模型的重要性，并探讨了近期出现的通用生成方法在专利领域的潜力。
 
     
 
-    企业优化是寻找和实施高效和具有成本效益的运营方式，以为企业带来竞争优势的过程。综合问题表述是企业优化的一个重要组成部分，它围绕着人类专业知识展开，因此很有可能成为瓶颈。随着大型语言模型（LLMs）的最新进展，通过人工智能（AI）可以潜在地减少问题表述中所需的人类专业知识。然而，开发用于问题表述的LLM具有挑战性，由于训练数据要求、令牌限制以及LLM中缺乏适当的性能度量。为了减少大量训练数据的需求，最近人们开始关注对预训练的LLM进行微调以适应下游任务，而不是从头开始训练一个特定任务的LLM。在本文中，我们采用了这种方法，提出了一个AI-企业优化的协同辅助系统。
+    arXiv:2403.04105v1 公告类型：新的 摘要：先进的语言处理和机器学习技术承诺在以前广泛依赖手工操作的专利和技术知识管理领域带来巨大的效率改进。这个领域展示了大规模而复杂的数据，具有非常准确的内容和语言表达这些内容。特别是，专利文本在各个方面可能与平凡的文本有所不同，这带来了重大的机遇和挑战。本文系统概述了与专利有关的任务和流行的方法，特别关注不断演变和有前途的技术。语言处理，尤其是大型语言模型以及最近推动普通生成方法的提升，有望成为专利领域的变革者。专利文献以及围绕专利的基于事实的论证程序似乎几乎是一个理想的使用案例。然而，专利涉及许多现有模型很难处理的困难。
 
-    Business optimisation is the process of finding and implementing efficient and cost-effective means of operation to bring a competitive advantage for businesses. Synthesizing problem formulations is an integral part of business optimisation which is centred around human expertise, thus with a high potential of becoming a bottleneck. With the recent advancements in Large Language Models (LLMs), human expertise needed in problem formulation can potentially be minimized using Artificial Intelligence (AI). However, developing a LLM for problem formulation is challenging, due to training data requirements, token limitations, and the lack of appropriate performance metrics in LLMs. To minimize the requirement of large training data, considerable attention has recently been directed towards fine-tuning pre-trained LLMs for downstream tasks, rather than training a LLM from scratch for a specific task. In this paper, we adopt this approach and propose an AI-Copilot for business optimisation by 
+    arXiv:2403.04105v1 Announce Type: new  Abstract: Advanced language-processing and machine-learning techniques promise massive efficiency improvements in the previously widely manual field of patent and technical knowledge management. This field presents large-scale and complex data with very precise contents and language representation of those contents. Particularly, patent texts can differ from mundane texts in various aspects, which entails significant opportunities and challenges. This paper presents a systematic overview of patent-related tasks and popular methodologies with a special focus on evolving and promising techniques. Language processing and particularly large language models as well as the recent boost of general generative methods promise to become game changers in the patent field. The patent literature and the fact-based argumentative procedures around patents appear almost as an ideal use case. However, patents entail a number of difficulties with which existing mod
+    
+[^4]: WildfireGPT：针对野火分析的定制化大型语言模型
+
+    WildfireGPT: Tailored Large Language Model for Wildfire Analysis
+
+    [https://arxiv.org/abs/2402.07877](https://arxiv.org/abs/2402.07877)
+
+    WildfireGPT是一个针对野火分析的定制化大型语言模型，通过提供领域特定的上下文信息和科学准确性，将用户查询转化为关于野火风险的可操作见解。
+
+    
+
+    大型语言模型（LLMs）的最新进展代表了人工智能（AI）和机器学习（ML）领域的一种变革性能力。然而，LLMs是通用模型，训练于广泛的文本语料库，往往难以提供特定上下文信息，尤其是在需要专业知识的领域，比如野火细节在更广泛的气候变化背景下。对于关注野火弹性和适应性的决策者和政策制定者来说，获取不仅准确而且领域特定的响应至关重要，而不是泛泛而谈。为此，我们开发了WildfireGPT，一个原型LLM代理，旨在将用户查询转化为关于野火风险的可操作见解。我们通过提供气候预测和科学文献等额外上下文信息来丰富WildfireGPT，以确保其信息具有时效性、相关性和科学准确性。这使得WildfireGPT成为一个有效的工具来解决实际问题。
+
+    The recent advancement of large language models (LLMs) represents a transformational capability at the frontier of artificial intelligence (AI) and machine learning (ML). However, LLMs are generalized models, trained on extensive text corpus, and often struggle to provide context-specific information, particularly in areas requiring specialized knowledge such as wildfire details within the broader context of climate change. For decision-makers and policymakers focused on wildfire resilience and adaptation, it is crucial to obtain responses that are not only precise but also domain-specific, rather than generic. To that end, we developed WildfireGPT, a prototype LLM agent designed to transform user queries into actionable insights on wildfire risks. We enrich WildfireGPT by providing additional context such as climate projections and scientific literature to ensure its information is current, relevant, and scientifically accurate. This enables WildfireGPT to be an effective tool for del
+    
+[^5]: LLMs对具身导航的发展
+
+    The Development of LLMs for Embodied Navigation. (arXiv:2311.00530v1 [cs.AI])
+
+    [http://arxiv.org/abs/2311.00530](http://arxiv.org/abs/2311.00530)
+
+    本文概述了LLMs与具身智能在导航领域的共生关系，并评估了现有模型和数据集的优缺点。
+
+    
+
+    近年来，诸如生成预训练变压器（GPT）之类的大语言模型（LLMs）的快速发展引起了越来越多的关注，因为它们在各种实际应用中具有潜力。LLMs与具身智能的应用已成为一个重要的研究领域。在众多应用中，导航任务尤为引人注目，因为它们要求对环境有深入的理解和快速、准确的决策能力。LLMs可以通过利用其强大的语言和图像处理能力，增强具身智能系统在环境感知和决策支持方面的能力。本文全面总结了LLMs与具身智能之间在导航方面的共生关系，审视了最先进的模型、研究方法，并评估了现有的具身导航模型和数据集的优缺点。最后，本文阐明了LLMs在具身导航领域的创新和贡献。
+
+    In recent years, the rapid advancement of Large Language Models (LLMs) such as the Generative Pre-trained Transformer (GPT) has attracted increasing attention due to their potential in a variety of practical applications. The application of LLMs with Embodied Intelligence has emerged as a significant area of focus. Among the myriad applications of LLMs, navigation tasks are particularly noteworthy because they demand a deep understanding of the environment and quick, accurate decision-making. LLMs can augment embodied intelligence systems with sophisticated environmental perception and decision-making support, leveraging their robust language and image-processing capabilities. This article offers an exhaustive summary of the symbiosis between LLMs and embodied intelligence with a focus on navigation. It reviews state-of-the-art models, research methodologies, and assesses the advantages and disadvantages of existing embodied navigation models and datasets. Finally, the article elucidat
     
 

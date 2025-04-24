@@ -2,37 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [PCL-Indexability and Whittle Index for Restless Bandits with General Observation Models.](http://arxiv.org/abs/2307.03034) | 本文研究了一种一般观测模型下的不安定多臂赌博机问题，提出了PCL-可索引性和Whittle索引的分析方法，并通过近似过程将问题转化为有限状态问题。数值实验表明算法表现优秀。 |
-| [^2] | [Adaptive Student's t-distribution with method of moments moving estimator for nonstationary time series.](http://arxiv.org/abs/2304.03069) | 本文提出了一种适用于非平稳时间序列的自适应学生t分布方法，基于方法的一般自适应矩可以使用廉价的指数移动平均值（EMA）来估计参数。 |
+| [^1] | [Precise Error Rates for Computationally Efficient Testing.](http://arxiv.org/abs/2311.00289) | 在高维设置中，我们提出了一种基于线性谱统计的测试方法，该方法在计算上非常高效，并且在所有计算上高效的测试中，实现了类型 I 和类型 II 错误率之间的最佳权衡曲线。 |
+| [^2] | [Wasserstein Gradient Flow over Variational Parameter Space for Variational Inference.](http://arxiv.org/abs/2310.16705) | 本文将变分推断重新框架为在变分参数空间上的概率分布优化问题，提出了沃瑟斯坦梯度下降方法来解决优化问题，有效性经过实证实验证实。 |
+| [^3] | [Optimal Estimation in Mixed-Membership Stochastic Block Models.](http://arxiv.org/abs/2307.14530) | 本论文研究了重叠社区检测问题，在混合成员随机块模型的基础上提出了一个新的估计器，并建立了估计误差的极小下界。 |
 
 # 详细
 
-[^1]: 带有一般观测模型的不安定赌博机问题的PCL-可索引性和Whittle索引
+[^1]: 高效测试的精确错误率
 
-    PCL-Indexability and Whittle Index for Restless Bandits with General Observation Models. (arXiv:2307.03034v1 [stat.ML])
+    Precise Error Rates for Computationally Efficient Testing. (arXiv:2311.00289v1 [math.ST])
 
-    [http://arxiv.org/abs/2307.03034](http://arxiv.org/abs/2307.03034)
+    [http://arxiv.org/abs/2311.00289](http://arxiv.org/abs/2311.00289)
 
-    本文研究了一种一般观测模型下的不安定多臂赌博机问题，提出了PCL-可索引性和Whittle索引的分析方法，并通过近似过程将问题转化为有限状态问题。数值实验表明算法表现优秀。
-
-    
-
-    本文考虑了一种一般观测模型，用于不安定多臂赌博机问题。由于资源约束或环境或固有噪声，玩家操作需要基于某种有误差的反馈机制。通过建立反馈/观测动力学的一般概率模型，我们将问题表述为一个从任意初始信念（先验信息）开始的具有可数信念状态空间的不安定赌博机问题。我们利用具有部分守恒定律（PCL）的可实现区域方法，分析了无限状态问题的可索引性和优先级索引（Whittle索引）。最后，我们提出了一个近似过程，将问题转化为可以应用Niño-Mora和Bertsimas针对有限状态问题的AG算法的问题。数值实验表明，我们的算法具有出色的性能。
-
-    In this paper, we consider a general observation model for restless multi-armed bandit problems. The operation of the player needs to be based on certain feedback mechanism that is error-prone due to resource constraints or environmental or intrinsic noises. By establishing a general probabilistic model for dynamics of feedback/observation, we formulate the problem as a restless bandit with a countable belief state space starting from an arbitrary initial belief (a priori information). We apply the achievable region method with partial conservation law (PCL) to the infinite-state problem and analyze its indexability and priority index (Whittle index). Finally, we propose an approximation process to transform the problem into which the AG algorithm of Ni\~no-Mora and Bertsimas for finite-state problems can be applied to. Numerical experiments show that our algorithm has an excellent performance.
-    
-[^2]: 自适应学生t分布与方法矩移动估计器用于非平稳时间序列
-
-    Adaptive Student's t-distribution with method of moments moving estimator for nonstationary time series. (arXiv:2304.03069v1 [stat.ME])
-
-    [http://arxiv.org/abs/2304.03069](http://arxiv.org/abs/2304.03069)
-
-    本文提出了一种适用于非平稳时间序列的自适应学生t分布方法，基于方法的一般自适应矩可以使用廉价的指数移动平均值（EMA）来估计参数。
+    在高维设置中，我们提出了一种基于线性谱统计的测试方法，该方法在计算上非常高效，并且在所有计算上高效的测试中，实现了类型 I 和类型 II 错误率之间的最佳权衡曲线。
 
     
 
-    真实的时间序列通常是非平稳的，这带来了模型适应的难题。传统方法如GARCH假定任意类型的依赖性。为了避免这种偏差，我们将着眼于最近提出的不可知的移动估计器哲学：在时间$t$找到优化$F_t=\sum_{\tau<t} (1-\eta)^{t-\tau} \ln(\rho_\theta (x_\tau))$移动对数似然的参数，随时间演化。例如，它允许使用廉价的指数移动平均值（EMA）来估计参数，例如绝对中心矩$E[|x-\mu|^p]$随$p\in\mathbb{R}^+$的变化而演化$m_{p,t+1} = m_{p,t} + \eta (|x_t-\mu_t|^p-m_{p,t})$。这种基于方法的一般自适应矩的应用将呈现在学生t分布上，尤其是在经济应用中流行，这里应用于DJIA公司的对数收益率。
+    我们重新审视了简单与简单假设检验的基本问题，特别关注计算复杂度，因为在高维设置中，统计上最优的似然比检验通常是计算上难以处理的。在经典的尖峰维格纳模型（具有一般性 i.i.d. 尖峰先验）中，我们展示了一个基于线性谱统计的现有测试实现了在计算上高效测试之间的最佳权衡曲线，即使存在更好的指数时间测试。这个结果是在一个适当复杂性理论的猜想条件下得到的，即一个自然加强已经建立的低次数猜想。我们的结果表明，谱是计算受限的测试的充分统计量（但不是所有测试的充分统计量）。据我们所知，我们的方法提供了首个用于推理关于有效计算所能实现的精确渐近测试误差的工具。
 
-    The real life time series are usually nonstationary, bringing a difficult question of model adaptation. Classical approaches like GARCH assume arbitrary type of dependence. To prevent such bias, we will focus on recently proposed agnostic philosophy of moving estimator: in time $t$ finding parameters optimizing e.g. $F_t=\sum_{\tau<t} (1-\eta)^{t-\tau} \ln(\rho_\theta (x_\tau))$ moving log-likelihood, evolving in time. It allows for example to estimate parameters using inexpensive exponential moving averages (EMA), like absolute central moments $E[|x-\mu|^p]$ evolving with $m_{p,t+1} = m_{p,t} + \eta (|x_t-\mu_t|^p-m_{p,t})$ for one or multiple powers $p\in\mathbb{R}^+$. Application of such general adaptive methods of moments will be presented on Student's t-distribution, popular especially in economical applications, here applied to log-returns of DJIA companies.
+    We revisit the fundamental question of simple-versus-simple hypothesis testing with an eye towards computational complexity, as the statistically optimal likelihood ratio test is often computationally intractable in high-dimensional settings. In the classical spiked Wigner model (with a general i.i.d. spike prior) we show that an existing test based on linear spectral statistics achieves the best possible tradeoff curve between type I and type II error rates among all computationally efficient tests, even though there are exponential-time tests that do better. This result is conditional on an appropriate complexity-theoretic conjecture, namely a natural strengthening of the well-established low-degree conjecture. Our result shows that the spectrum is a sufficient statistic for computationally bounded tests (but not for all tests).  To our knowledge, our approach gives the first tool for reasoning about the precise asymptotic testing error achievable with efficient computation. The main
+    
+[^2]: 沃瑟斯坦梯度流在变分推断的变分参数空间上的应用
+
+    Wasserstein Gradient Flow over Variational Parameter Space for Variational Inference. (arXiv:2310.16705v1 [cs.LG])
+
+    [http://arxiv.org/abs/2310.16705](http://arxiv.org/abs/2310.16705)
+
+    本文将变分推断重新框架为在变分参数空间上的概率分布优化问题，提出了沃瑟斯坦梯度下降方法来解决优化问题，有效性经过实证实验证实。
+
+    
+
+    变分推断可以被看作是一个优化问题，其中变分参数被调整以使变分分布与真实后验尽可能接近。可以通过黑箱变分推断中的普通梯度下降或自然梯度变分推断中的自然梯度下降来解决优化任务。在本文中，我们将变分推断重新框架为在一个“变分参数空间”中定义的概率分布的目标优化问题。随后，我们提出了沃瑟斯坦梯度下降方法来解决这个优化问题。值得注意的是，这些优化技术，即黑箱变分推断和自然梯度变分推断，可以重新解释为所提出的沃瑟斯坦梯度下降的特定实例。为了提高优化效率，我们开发了实用的方法来数值求解离散梯度流。通过在一个合成数据集上的实证实验，我们验证了所提出方法的有效性。
+
+    Variational inference (VI) can be cast as an optimization problem in which the variational parameters are tuned to closely align a variational distribution with the true posterior. The optimization task can be approached through vanilla gradient descent in black-box VI or natural-gradient descent in natural-gradient VI. In this work, we reframe VI as the optimization of an objective that concerns probability distributions defined over a \textit{variational parameter space}. Subsequently, we propose Wasserstein gradient descent for tackling this optimization problem. Notably, the optimization techniques, namely black-box VI and natural-gradient VI, can be reinterpreted as specific instances of the proposed Wasserstein gradient descent. To enhance the efficiency of optimization, we develop practical methods for numerically solving the discrete gradient flows. We validate the effectiveness of the proposed methods through empirical experiments on a synthetic dataset, supplemented by theore
+    
+[^3]: 混合成员随机块模型中的最优估计
+
+    Optimal Estimation in Mixed-Membership Stochastic Block Models. (arXiv:2307.14530v1 [stat.ML])
+
+    [http://arxiv.org/abs/2307.14530](http://arxiv.org/abs/2307.14530)
+
+    本论文研究了重叠社区检测问题，在混合成员随机块模型的基础上提出了一个新的估计器，并建立了估计误差的极小下界。
+
+    
+
+    社区检测是现代网络科学中最关键的问题之一。其应用可以在各个领域找到，从蛋白质建模到社交网络分析。最近，出现了许多论文研究重叠社区检测问题，即网络中的每个节点可能属于多个社区。在本文中，我们考虑了由Airoldi等人（2008）首次提出的混合成员随机块模型（MMSB）。MMSB在图中对重叠社区结构提供了相当一般的设置。本文的核心问题是在观察到的网络中重建社区之间的关系。我们比较了不同的方法，并建立了估计误差的极小下界。然后，我们提出了一个与这个下界匹配的新估计器。理论结果在对所考虑的模型的相当普遍条件下得到证明。最后，我们通过一系列实验来说明这个理论。
+
+    Community detection is one of the most critical problems in modern network science. Its applications can be found in various fields, from protein modeling to social network analysis. Recently, many papers appeared studying the problem of overlapping community detection, where each node of a network may belong to several communities. In this work, we consider Mixed-Membership Stochastic Block Model (MMSB) first proposed by Airoldi et al. (2008). MMSB provides quite a general setting for modeling overlapping community structure in graphs. The central question of this paper is to reconstruct relations between communities given an observed network. We compare different approaches and establish the minimax lower bound on the estimation error. Then, we propose a new estimator that matches this lower bound. Theoretical results are proved under fairly general conditions on the considered model. Finally, we illustrate the theory in a series of experiments.
     
 

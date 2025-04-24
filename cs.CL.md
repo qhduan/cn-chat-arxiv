@@ -2,37 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [QuaCer-C: Quantitative Certification of Knowledge Comprehension in LLMs](https://arxiv.org/abs/2402.15929) | 本文提出了一种新颖的认证框架QuaCer-C，用于正式认证大型语言模型中知识理解的能力，证书定量化且包含高置信度的概率界限，研究发现，随着参数数量的增加，知识理解能力提高，Mistral模型在这一评估中表现不如其他模型。 |
-| [^2] | [Multi-View Knowledge Distillation from Crowd Annotations for Out-of-Domain Generalization.](http://arxiv.org/abs/2212.09409) | 本文提出了一种新方法，通过聚合多个视图的众包注释来获取软标签，从而进行跨领域泛化。 |
+| [^1] | [NovelQA: A Benchmark for Long-Range Novel Question Answering](https://arxiv.org/abs/2403.12766) | NovelQA是一个专门设计用于测试大型语言模型（LLMs）在长文本上的能力的基准，通过英文小说构建，提供了复杂性、长度和叙述连贯性的独特组合，可用于评估LLMs在深度文本理解方面的性能表现。 |
+| [^2] | [A Benchmark of Domain-Adapted Large Language Models for Generating Brief Hospital Course Summaries](https://arxiv.org/abs/2403.05720) | 介绍了一个新的基准测试，评估了用于生成简要住院病程摘要的大语言模型在健康保健领域中的性能并提出相应的自适应策略 |
+| [^3] | [Comparative Performance Evaluation of Large Language Models for Extracting Molecular Interactions and Pathway Knowledge.](http://arxiv.org/abs/2307.08813) | 本研究评估了不同大型语言模型在提取分子相互作用和通路知识方面的有效性，并讨论了未来机遇和挑战。 |
 
 # 详细
 
-[^1]: QuaCer-C：大型语言模型中知识理解的定量认证
+[^1]: NovelQA：用于长距离小说问答的基准
 
-    QuaCer-C: Quantitative Certification of Knowledge Comprehension in LLMs
+    NovelQA: A Benchmark for Long-Range Novel Question Answering
 
-    [https://arxiv.org/abs/2402.15929](https://arxiv.org/abs/2402.15929)
+    [https://arxiv.org/abs/2403.12766](https://arxiv.org/abs/2403.12766)
 
-    本文提出了一种新颖的认证框架QuaCer-C，用于正式认证大型语言模型中知识理解的能力，证书定量化且包含高置信度的概率界限，研究发现，随着参数数量的增加，知识理解能力提高，Mistral模型在这一评估中表现不如其他模型。
-
-    
-
-    大型语言模型（LLMs）在多个基准测试中展现出令人印象深刻的表现。然而，传统研究并未对LLMs的表现提供正式的保证。本文提出了一种新颖的LLM认证框架QuaCer-C，我们在此对知名LLMs的知识理解能力进行正式认证。我们的证书是定量的 - 它们包括对目标LLM在任何相关知识理解提示上给出正确答案的概率的高置信度紧密界限。我们针对Llama、Vicuna和Mistral LLMs的证书表明，知识理解能力随参数数量的增加而提高，并且Mistral模型在这一评估中表现不如其他模型。
-
-    arXiv:2402.15929v1 Announce Type: new  Abstract: Large Language Models (LLMs) have demonstrated impressive performance on several benchmarks. However, traditional studies do not provide formal guarantees on the performance of LLMs. In this work, we propose a novel certification framework for LLM, QuaCer-C, wherein we formally certify the knowledge-comprehension capabilities of popular LLMs. Our certificates are quantitative - they consist of high-confidence, tight bounds on the probability that the target LLM gives the correct answer on any relevant knowledge comprehension prompt. Our certificates for the Llama, Vicuna, and Mistral LLMs indicate that the knowledge comprehension capability improves with an increase in the number of parameters and that the Mistral model is less performant than the rest in this evaluation.
-    
-[^2]: 从众包注释中进行多视角知识蒸馏以实现跨领域泛化
-
-    Multi-View Knowledge Distillation from Crowd Annotations for Out-of-Domain Generalization. (arXiv:2212.09409v2 [cs.CL] UPDATED)
-
-    [http://arxiv.org/abs/2212.09409](http://arxiv.org/abs/2212.09409)
-
-    本文提出了一种新方法，通过聚合多个视图的众包注释来获取软标签，从而进行跨领域泛化。
+    NovelQA是一个专门设计用于测试大型语言模型（LLMs）在长文本上的能力的基准，通过英文小说构建，提供了复杂性、长度和叙述连贯性的独特组合，可用于评估LLMs在深度文本理解方面的性能表现。
 
     
 
-    在自然语言处理任务中选择有效的训练信号很困难：专家注释很昂贵，而众包注释可能不可靠。最近的NLP研究表明，从众包注释中获取标签分布的学习可以是有效的。然而，有很多获取这种分布的方法，任何一种方法的性能都可能因任务和可用众包注释量而波动，这使得事先不知道哪种分布最好。本文在领域外系统地分析了这个问题，并提出了通过聚合现有方法产生的分布来获取来自众包注释的软标签的新方法。特别地，我们建议通过温度缩放和找到它们的Jensen-Shannon中心来聚合众包注释的多个视图。
+    大型语言模型（LLM）的快速发展引入了自然语言处理的新领域，特别是在理解和处理长文本信息方面。然而，由于当前基准的局限性，评估这些模型的长文本能力仍然是一个挑战。为了填补这一空白，我们引入了NovelQA，这是一个专门设计用于测试具有扩展文本的LLM能力的基准。NovelQA由英文小说构建，提供了复杂性、长度和叙述连贯性的独特组合，使其成为评估LLM中深度文本理解的理想工具。本文介绍了NovelQA的设计与构建，突出了其手动注释和多样的问题类型。我们在NovelQA上对长文本LLM进行评估，揭示了模型性能的重要见解，特别强调了它们在多跳推理、细节导向等方面所面临的挑战。
 
-    Selecting an effective training signal for tasks in natural language processing is difficult: expert annotations are expensive, and crowd-sourced annotations may not be reliable. At the same time, recent work in NLP has demonstrated that learning from a distribution over labels acquired from crowd annotations can be effective. However, there are many ways to acquire such a distribution, and the performance allotted by any one method can fluctuate based on the task and the amount of available crowd annotations, making it difficult to know a priori which distribution is best. This paper systematically analyzes this in the out-of-domain setting, adding to the NLP literature which has focused on in-domain evaluation, and proposes new methods for acquiring soft-labels from crowd-annotations by aggregating the distributions produced by existing methods. In particular, we propose to aggregate multiple-views of crowd annotations via temperature scaling and finding their Jensen-Shannon centroid
+    arXiv:2403.12766v1 Announce Type: new  Abstract: The rapid advancement of Large Language Models (LLMs) has introduced a new frontier in natural language processing, particularly in understanding and processing long-context information. However, the evaluation of these models' long-context abilities remains a challenge due to the limitations of current benchmarks. To address this gap, we introduce NovelQA, a benchmark specifically designed to test the capabilities of LLMs with extended texts. Constructed from English novels, NovelQA offers a unique blend of complexity, length, and narrative coherence, making it an ideal tool for assessing deep textual understanding in LLMs. This paper presents the design and construction of NovelQA, highlighting its manual annotation, and diverse question types. Our evaluation of Long-context LLMs on NovelQA reveals significant insights into the models' performance, particularly emphasizing the challenges they face with multi-hop reasoning, detail-orien
+    
+[^2]: 用于生成简要住院病程摘要的领域自适应大语言模型的基准测试
+
+    A Benchmark of Domain-Adapted Large Language Models for Generating Brief Hospital Course Summaries
+
+    [https://arxiv.org/abs/2403.05720](https://arxiv.org/abs/2403.05720)
+
+    介绍了一个新的基准测试，评估了用于生成简要住院病程摘要的大语言模型在健康保健领域中的性能并提出相应的自适应策略
+
+    
+
+    简要住院病程（BHC）摘要是通过总结临床记录而生成的常见临床文件。虽然大型语言模型（LLMs）在自动化实际任务方面展现出显著能力，但它们在医疗应用（如BHC合成）中的能力尚未得到展示。为了使LLMs能够适应BHC合成，我们引入了一个新颖的基准测试，其中包含从MIMIC-IV记录中提取的经过预处理的数据集，封装了临床记录和简要住院病程（BHC）对。我们评估了两个通用LLMs和三个医疗领域适应的LLMs的性能，以改进从临床记录生成BHC。我们使用临床记录作为输入来生成BHC，采用基于提示的（使用上下文学习）和基于微调的自适应策略来应用于三个开源LLMs（Clinical-T5-Large，Llama2-13B，FLAN-UL2）和两个专有LLMs（GPT-3.5，GPT-4）。我们定量评估了性能。
+
+    arXiv:2403.05720v1 Announce Type: cross  Abstract: Brief hospital course (BHC) summaries are common clinical documents generated by summarizing clinical notes. While large language models (LLMs) depict remarkable capabilities in automating real-world tasks, their capabilities for healthcare applications such as BHC synthesis have not been shown. To enable the adaptation of LLMs for BHC synthesis, we introduce a novel benchmark consisting of a pre-processed dataset extracted from MIMIC-IV notes, encapsulating clinical note, and brief hospital course (BHC) pairs. We assess the performance of two general-purpose LLMs and three healthcare-adapted LLMs to improve BHC synthesis from clinical notes. Using clinical notes as input for generating BHCs, we apply prompting-based (using in-context learning) and fine-tuning-based adaptation strategies to three open-source LLMs (Clinical-T5-Large, Llama2-13B, FLAN-UL2) and two proprietary LLMs (GPT-3.5, GPT-4). We quantitatively evaluate the performa
+    
+[^3]: 大型语言模型在提取分子相互作用和通路知识方面的比较性能评估
+
+    Comparative Performance Evaluation of Large Language Models for Extracting Molecular Interactions and Pathway Knowledge. (arXiv:2307.08813v1 [cs.CL])
+
+    [http://arxiv.org/abs/2307.08813](http://arxiv.org/abs/2307.08813)
+
+    本研究评估了不同大型语言模型在提取分子相互作用和通路知识方面的有效性，并讨论了未来机遇和挑战。
+
+    
+
+    理解蛋白质相互作用和通路知识对于揭示生物系统的复杂性和研究生物功能和复杂疾病的基本机制至关重要。尽管现有的数据库提供了来自文献和其他源的策划生物数据，但它们往往不完整且维护工作繁重，因此需要替代方法。在本研究中，我们提出利用大型语言模型的能力，通过自动从相关科学文献中提取这些知识来解决这些问题。为了实现这个目标，在这项工作中，我们调查了不同大型语言模型在识别蛋白质相互作用、通路和基因调控关系等任务中的有效性。我们对不同模型的性能进行了彻底评估，突出了重要的发现，并讨论了这种方法所面临的未来机遇和挑战。代码和数据集链接可在论文中找到。
+
+    Understanding protein interactions and pathway knowledge is crucial for unraveling the complexities of living systems and investigating the underlying mechanisms of biological functions and complex diseases. While existing databases provide curated biological data from literature and other sources, they are often incomplete and their maintenance is labor-intensive, necessitating alternative approaches. In this study, we propose to harness the capabilities of large language models to address these issues by automatically extracting such knowledge from the relevant scientific literature. Toward this goal, in this work, we investigate the effectiveness of different large language models in tasks that involve recognizing protein interactions, pathways, and gene regulatory relations. We thoroughly evaluate the performance of various models, highlight the significant findings, and discuss both the future opportunities and the remaining challenges associated with this approach. The code and d
     
 
