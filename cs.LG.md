@@ -2,112 +2,112 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [ChatDBG: An AI-Powered Debugging Assistant](https://arxiv.org/abs/2403.16354) | ChatDBG是第一个AI-Powered调试助手，通过将大型语言模型集成到传统调试器中，实现了程序员与调试器之间的协作对话，能够处理复杂问题、执行根本原因分析，并探索开放性查询。 |
-| [^2] | [A Benchmark of Domain-Adapted Large Language Models for Generating Brief Hospital Course Summaries](https://arxiv.org/abs/2403.05720) | 介绍了一个新的基准测试，评估了用于生成简要住院病程摘要的大语言模型在健康保健领域中的性能并提出相应的自适应策略 |
-| [^3] | [Learning-augmented Online Minimization of Age of Information and Transmission Costs](https://arxiv.org/abs/2403.02573) | 该论文提出了一种学习增强的在线算法，用于最小化传输和陈旧成本的总和，在保证最坏情况下性能的同时，兼顾典型情况下性能。 |
-| [^4] | [Collaborative Inference via Dynamic Composition of Tiny AI Accelerators on MCUs.](http://arxiv.org/abs/2401.08637) | 该论文介绍了Synergy，一个通过动态组合微型AI加速器来进行协作推断的系统，有效地解决了在设备上AI需求不断增长时tinyML面临的关键挑战。Synergy通过提供虚拟计算空间和运行时编排模块，实现了资源的统一虚拟化视图和跨动态/异构加速器的最佳推断，其吞吐量平均提升了8.0倍。 |
-| [^5] | [Wasserstein Gradient Flow over Variational Parameter Space for Variational Inference.](http://arxiv.org/abs/2310.16705) | 本文将变分推断重新框架为在变分参数空间上的概率分布优化问题，提出了沃瑟斯坦梯度下降方法来解决优化问题，有效性经过实证实验证实。 |
-| [^6] | [Optimal Estimation in Mixed-Membership Stochastic Block Models.](http://arxiv.org/abs/2307.14530) | 本论文研究了重叠社区检测问题，在混合成员随机块模型的基础上提出了一个新的估计器，并建立了估计误差的极小下界。 |
-| [^7] | [Comparative Performance Evaluation of Large Language Models for Extracting Molecular Interactions and Pathway Knowledge.](http://arxiv.org/abs/2307.08813) | 本研究评估了不同大型语言模型在提取分子相互作用和通路知识方面的有效性，并讨论了未来机遇和挑战。 |
+| [^1] | [PARMESAN: Parameter-Free Memory Search and Transduction for Dense Prediction Tasks](https://arxiv.org/abs/2403.11743) | 通过引入转导的概念，提出了PARMESAN，一种用于解决密集预测任务的无参数内存搜索和转导方法，实现了灵活性和无需连续训练的学习。 |
+| [^2] | [Hessian-Free Laplace in Bayesian Deep Learning](https://arxiv.org/abs/2403.10671) | 提出了一种无Hessian计算和求逆的Hessian-Free Laplace近似框架，通过对数后验和网络预测的曲率来估计后验的方差。 |
+| [^3] | [Towards Spatially-Lucid AI Classification in Non-Euclidean Space: An Application for MxIF Oncology Data](https://arxiv.org/abs/2402.14974) | 发展了一个使用空间集合框架的分类器，可以根据点的排列在非欧几里得空间中区分两个类别，对于肿瘤学等应用具有重要意义 |
+| [^4] | [Rao-Blackwellising Bayesian Causal Inference](https://arxiv.org/abs/2402.14781) | 本文结合顺序化的MCMC结构学习技术和梯度图学习的最新进展，构建了一个有效的贝叶斯因果推断框架，将因果结构推断问题分解为变量拓扑顺序推断和变量父节点集合推断，同时使用高斯过程进行因果机制建模实现精确边缘化，引入了一个Rao-Blackwell化方案。 |
+| [^5] | [Learning by Doing: An Online Causal Reinforcement Learning Framework with Causal-Aware Policy](https://arxiv.org/abs/2402.04869) | 本文提出了一个在线因果强化学习框架，其中通过明确建模状态的生成过程和使用因果结构进行策略引导，以帮助强化学习代理的决策可解释性。该框架具有理论性能保证，并在探索和开发过程中使用干预进行因果结构学习。 |
+| [^6] | [Efficient Neural Network Approaches for Conditional Optimal Transport with Applications in Bayesian Inference.](http://arxiv.org/abs/2310.16975) | 提出了两种神经网络方法来逼近静态和动态条件最优传输问题的解，实现了对条件概率分布的采样和密度估计，适用于贝叶斯推断。算法利用神经网络参数化传输映射以提高可扩展性。 |
+| [^7] | [Persistent Homology of the Multiscale Clustering Filtration.](http://arxiv.org/abs/2305.04281) | 该论文引入了一种多尺度聚类过滤方法（MCF），用于描述不同尺度下的数据聚类，其中的持久同调可测量分区序列的层次关系和聚类分配冲突的出现和解决。 |
 
 # 详细
 
-[^1]: ChatDBG: 一种基于人工智能的调试助手
+[^1]: PARMESAN: 用于密集预测任务的无参数内存搜索与转导
 
-    ChatDBG: An AI-Powered Debugging Assistant
+    PARMESAN: Parameter-Free Memory Search and Transduction for Dense Prediction Tasks
 
-    [https://arxiv.org/abs/2403.16354](https://arxiv.org/abs/2403.16354)
+    [https://arxiv.org/abs/2403.11743](https://arxiv.org/abs/2403.11743)
 
-    ChatDBG是第一个AI-Powered调试助手，通过将大型语言模型集成到传统调试器中，实现了程序员与调试器之间的协作对话，能够处理复杂问题、执行根本原因分析，并探索开放性查询。
-
-    
-
-    本文介绍了ChatDBG，这是第一个基于人工智能的调试助手。ChatDBG集成了大型语言模型(LLMs)，显著增强了传统调试器的功能和用户友好性。ChatDBG允许程序员与调试器进行协作对话，使他们能够提出关于程序状态的复杂问题，对崩溃或断言失败进行根本原因分析，并探索诸如“为什么x为空？”之类的开放性查询。为了处理这些查询，ChatDBG授予LLM自主权，通过发出命令来浏览堆栈和检查程序状态进行调试；然后报告其发现并将控制权交还给程序员。我们的ChatDBG原型与标准调试器集成，包括LLDB、GDB和WinDBG用于本地代码以及用于Python的Pdb。我们在各种代码集合上进行了评估，包括具有已知错误的C/C++代码和一套Python代码。
-
-    arXiv:2403.16354v1 Announce Type: cross  Abstract: This paper presents ChatDBG, the first AI-powered debugging assistant. ChatDBG integrates large language models (LLMs) to significantly enhance the capabilities and user-friendliness of conventional debuggers. ChatDBG lets programmers engage in a collaborative dialogue with the debugger, allowing them to pose complex questions about program state, perform root cause analysis for crashes or assertion failures, and explore open-ended queries like "why is x null?". To handle these queries, ChatDBG grants the LLM autonomy to take the wheel and drive debugging by issuing commands to navigate through stacks and inspect program state; it then reports its findings and yields back control to the programmer. Our ChatDBG prototype integrates with standard debuggers including LLDB, GDB, and WinDBG for native code and Pdb for Python. Our evaluation across a diverse set of code, including C/C++ code with known bugs and a suite of Python code includi
-    
-[^2]: 用于生成简要住院病程摘要的领域自适应大语言模型的基准测试
-
-    A Benchmark of Domain-Adapted Large Language Models for Generating Brief Hospital Course Summaries
-
-    [https://arxiv.org/abs/2403.05720](https://arxiv.org/abs/2403.05720)
-
-    介绍了一个新的基准测试，评估了用于生成简要住院病程摘要的大语言模型在健康保健领域中的性能并提出相应的自适应策略
+    通过引入转导的概念，提出了PARMESAN，一种用于解决密集预测任务的无参数内存搜索和转导方法，实现了灵活性和无需连续训练的学习。
 
     
 
-    简要住院病程（BHC）摘要是通过总结临床记录而生成的常见临床文件。虽然大型语言模型（LLMs）在自动化实际任务方面展现出显著能力，但它们在医疗应用（如BHC合成）中的能力尚未得到展示。为了使LLMs能够适应BHC合成，我们引入了一个新颖的基准测试，其中包含从MIMIC-IV记录中提取的经过预处理的数据集，封装了临床记录和简要住院病程（BHC）对。我们评估了两个通用LLMs和三个医疗领域适应的LLMs的性能，以改进从临床记录生成BHC。我们使用临床记录作为输入来生成BHC，采用基于提示的（使用上下文学习）和基于微调的自适应策略来应用于三个开源LLMs（Clinical-T5-Large，Llama2-13B，FLAN-UL2）和两个专有LLMs（GPT-3.5，GPT-4）。我们定量评估了性能。
+    在这项工作中，我们通过转导推理来解决深度学习中的灵活性问题。我们提出了PARMESAN（无参数内存搜索与转导），这是一种可扩展的转导方法，利用内存模块来解决密集预测任务。在推断过程中，内存中的隐藏表示被搜索以找到相应的示例。与其他方法不同，PARMESAN通过修改内存内容学习，而无需进行任何连续训练或微调可学习参数。我们的方法与常用的神经结构兼容。
 
-    arXiv:2403.05720v1 Announce Type: cross  Abstract: Brief hospital course (BHC) summaries are common clinical documents generated by summarizing clinical notes. While large language models (LLMs) depict remarkable capabilities in automating real-world tasks, their capabilities for healthcare applications such as BHC synthesis have not been shown. To enable the adaptation of LLMs for BHC synthesis, we introduce a novel benchmark consisting of a pre-processed dataset extracted from MIMIC-IV notes, encapsulating clinical note, and brief hospital course (BHC) pairs. We assess the performance of two general-purpose LLMs and three healthcare-adapted LLMs to improve BHC synthesis from clinical notes. Using clinical notes as input for generating BHCs, we apply prompting-based (using in-context learning) and fine-tuning-based adaptation strategies to three open-source LLMs (Clinical-T5-Large, Llama2-13B, FLAN-UL2) and two proprietary LLMs (GPT-3.5, GPT-4). We quantitatively evaluate the performa
+    arXiv:2403.11743v1 Announce Type: new  Abstract: In this work we address flexibility in deep learning by means of transductive reasoning. For adaptation to new tasks or new data, existing methods typically involve tuning of learnable parameters or even complete re-training from scratch, rendering such approaches unflexible in practice. We argue that the notion of separating computation from memory by the means of transduction can act as a stepping stone for solving these issues. We therefore propose PARMESAN (parameter-free memory search and transduction), a scalable transduction method which leverages a memory module for solving dense prediction tasks. At inference, hidden representations in memory are being searched to find corresponding examples. In contrast to other methods, PARMESAN learns without the requirement for any continuous training or fine-tuning of learnable parameters simply by modifying the memory content. Our method is compatible with commonly used neural architecture
     
-[^3]: 学习增强的在线最小化信息时代和传输成本
+[^2]: Bayesian深度学习中的无Hessian-Laplace
 
-    Learning-augmented Online Minimization of Age of Information and Transmission Costs
+    Hessian-Free Laplace in Bayesian Deep Learning
 
-    [https://arxiv.org/abs/2403.02573](https://arxiv.org/abs/2403.02573)
+    [https://arxiv.org/abs/2403.10671](https://arxiv.org/abs/2403.10671)
 
-    该论文提出了一种学习增强的在线算法，用于最小化传输和陈旧成本的总和，在保证最坏情况下性能的同时，兼顾典型情况下性能。
-
-    
-
-    我们考虑一个离散时间系统，一个资源受限的来源（例如，一个小型传感器）通过一个时变无线信道将其及时数据传输给目的地。每次传输会产生固定的传输成本（例如，能量成本），而没有传输会导致一个以信息时代表示的陈旧成本。来源必须在传输成本和陈旧成本之间取得平衡。为了解决这一挑战，我们开发了一个强大的在线算法，以最小化传输和陈旧成本的总和，确保最坏情况下的性能保证。尽管在线算法是稳健的，但它们通常过于保守，在典型情况下可能表现不佳。相反，通过利用历史数据和预测模型，机器学习（ML）算法在平均情况下表现良好。但是，它们通常缺乏最坏情况下的性能保证。为了实现最好的两种情况，我们提出了一种学习增强的在线最小化信息时代和传输成本的方法。
-
-    arXiv:2403.02573v1 Announce Type: new  Abstract: We consider a discrete-time system where a resource-constrained source (e.g., a small sensor) transmits its time-sensitive data to a destination over a time-varying wireless channel. Each transmission incurs a fixed transmission cost (e.g., energy cost), and no transmission results in a staleness cost represented by the Age-of-Information. The source must balance the tradeoff between transmission and staleness costs. To address this challenge, we develop a robust online algorithm to minimize the sum of transmission and staleness costs, ensuring a worst-case performance guarantee. While online algorithms are robust, they are usually overly conservative and may have a poor average performance in typical scenarios. In contrast, by leveraging historical data and prediction models, machine learning (ML) algorithms perform well in average cases. However, they typically lack worst-case performance guarantees. To achieve the best of both worlds,
-    
-[^4]: 通过MCU上微型AI加速器的动态组合实现协作推断
-
-    Collaborative Inference via Dynamic Composition of Tiny AI Accelerators on MCUs. (arXiv:2401.08637v1 [cs.DC])
-
-    [http://arxiv.org/abs/2401.08637](http://arxiv.org/abs/2401.08637)
-
-    该论文介绍了Synergy，一个通过动态组合微型AI加速器来进行协作推断的系统，有效地解决了在设备上AI需求不断增长时tinyML面临的关键挑战。Synergy通过提供虚拟计算空间和运行时编排模块，实现了资源的统一虚拟化视图和跨动态/异构加速器的最佳推断，其吞吐量平均提升了8.0倍。
+    提出了一种无Hessian计算和求逆的Hessian-Free Laplace近似框架，通过对数后验和网络预测的曲率来估计后验的方差。
 
     
 
-    微型AI加速器的出现为深度神经网络在极限边缘上的部署提供了机会，提供了较低的延迟、较低的功耗成本和改进的隐私保护。尽管取得了这些进展，但由于这些加速器的固有限制，如有限的内存和单设备焦点，仍存在挑战。本文介绍了Synergy，一个能够为多租户模型动态组合微型AI加速器的系统，有效解决了对于设备上AI的需求不断增长时tinyML面临的关键挑战。Synergy的一个关键特性是其提供了虚拟计算空间，为资源提供了统一的虚拟化视图，从而实现了对物理设备的高效任务映射。Synergy的运行时编排模块确保了跨动态和异构加速器的最佳推断。我们的评估结果显示，与基准相比，Synergy的吞吐量平均提升了8.0倍。
+    贝叶斯后验的Laplace近似（LA）是以最大后验估计为中心的高斯分布。它在贝叶斯深度学习中的吸引力源于能够在标准网络参数优化之后量化不确定性（即事后），从近似后验中抽样的便利性以及模型证据的解析形式。然而，LA的一个重要计算瓶颈是必须计算和求逆对数后验的Hessian矩阵。Hessian可以以多种方式近似，质量与网络、数据集和推断任务等多个因素有关。在本文中，我们提出了一个绕过Hessian计算和求逆的替代框架。无Hessian-Laplace（HFL）近似使用对数后验和网络预测的曲率来估计其方差。只需要两个点估计：最大后验估计和等价的曲率方向。
 
-    The advent of tiny AI accelerators opens opportunities for deep neural network deployment at the extreme edge, offering reduced latency, lower power cost, and improved privacy in on-device ML inference. Despite these advancements, challenges persist due to inherent limitations of these accelerators, such as restricted onboard memory and single-device focus. This paper introduces Synergy, a system that dynamically composes tiny AI accelerators for multi-tenant models, effectively addressing tinyML's critical challenges for the increasing demand for on-device AI. A key feature of Synergy is its virtual computing space, providing a unified, virtualized view of resources and enabling efficient task mapping to physical devices. Synergy's runtime orchestration module ensures optimal inference across dynamic and heterogeneous accelerators. Our evaluations with 7 baselines and 8 models demonstrate that Synergy improves throughput by an average of 8.0X compared to baselines.
+    arXiv:2403.10671v1 Announce Type: cross  Abstract: The Laplace approximation (LA) of the Bayesian posterior is a Gaussian distribution centered at the maximum a posteriori estimate. Its appeal in Bayesian deep learning stems from the ability to quantify uncertainty post-hoc (i.e., after standard network parameter optimization), the ease of sampling from the approximate posterior, and the analytic form of model evidence. However, an important computational bottleneck of LA is the necessary step of calculating and inverting the Hessian matrix of the log posterior. The Hessian may be approximated in a variety of ways, with quality varying with a number of factors including the network, dataset, and inference task. In this paper, we propose an alternative framework that sidesteps Hessian calculation and inversion. The Hessian-free Laplace (HFL) approximation uses curvature of both the log posterior and network prediction to estimate its variance. Only two point estimates are needed: the st
     
-[^5]: 沃瑟斯坦梯度流在变分推断的变分参数空间上的应用
+[^3]: 在非欧几里得空间中实现空间透明的AI分类：MxIF肿瘤数据应用
 
-    Wasserstein Gradient Flow over Variational Parameter Space for Variational Inference. (arXiv:2310.16705v1 [cs.LG])
+    Towards Spatially-Lucid AI Classification in Non-Euclidean Space: An Application for MxIF Oncology Data
 
-    [http://arxiv.org/abs/2310.16705](http://arxiv.org/abs/2310.16705)
+    [https://arxiv.org/abs/2402.14974](https://arxiv.org/abs/2402.14974)
 
-    本文将变分推断重新框架为在变分参数空间上的概率分布优化问题，提出了沃瑟斯坦梯度下降方法来解决优化问题，有效性经过实证实验证实。
-
-    
-
-    变分推断可以被看作是一个优化问题，其中变分参数被调整以使变分分布与真实后验尽可能接近。可以通过黑箱变分推断中的普通梯度下降或自然梯度变分推断中的自然梯度下降来解决优化任务。在本文中，我们将变分推断重新框架为在一个“变分参数空间”中定义的概率分布的目标优化问题。随后，我们提出了沃瑟斯坦梯度下降方法来解决这个优化问题。值得注意的是，这些优化技术，即黑箱变分推断和自然梯度变分推断，可以重新解释为所提出的沃瑟斯坦梯度下降的特定实例。为了提高优化效率，我们开发了实用的方法来数值求解离散梯度流。通过在一个合成数据集上的实证实验，我们验证了所提出方法的有效性。
-
-    Variational inference (VI) can be cast as an optimization problem in which the variational parameters are tuned to closely align a variational distribution with the true posterior. The optimization task can be approached through vanilla gradient descent in black-box VI or natural-gradient descent in natural-gradient VI. In this work, we reframe VI as the optimization of an objective that concerns probability distributions defined over a \textit{variational parameter space}. Subsequently, we propose Wasserstein gradient descent for tackling this optimization problem. Notably, the optimization techniques, namely black-box VI and natural-gradient VI, can be reinterpreted as specific instances of the proposed Wasserstein gradient descent. To enhance the efficiency of optimization, we develop practical methods for numerically solving the discrete gradient flows. We validate the effectiveness of the proposed methods through empirical experiments on a synthetic dataset, supplemented by theore
-    
-[^6]: 混合成员随机块模型中的最优估计
-
-    Optimal Estimation in Mixed-Membership Stochastic Block Models. (arXiv:2307.14530v1 [stat.ML])
-
-    [http://arxiv.org/abs/2307.14530](http://arxiv.org/abs/2307.14530)
-
-    本论文研究了重叠社区检测问题，在混合成员随机块模型的基础上提出了一个新的估计器，并建立了估计误差的极小下界。
+    发展了一个使用空间集合框架的分类器，可以根据点的排列在非欧几里得空间中区分两个类别，对于肿瘤学等应用具有重要意义
 
     
 
-    社区检测是现代网络科学中最关键的问题之一。其应用可以在各个领域找到，从蛋白质建模到社交网络分析。最近，出现了许多论文研究重叠社区检测问题，即网络中的每个节点可能属于多个社区。在本文中，我们考虑了由Airoldi等人（2008）首次提出的混合成员随机块模型（MMSB）。MMSB在图中对重叠社区结构提供了相当一般的设置。本文的核心问题是在观察到的网络中重建社区之间的关系。我们比较了不同的方法，并建立了估计误差的极小下界。然后，我们提出了一个与这个下界匹配的新估计器。理论结果在对所考虑的模型的相当普遍条件下得到证明。最后，我们通过一系列实验来说明这个理论。
+    针对来自不同地点类型的多类别点集，我们的目标是开发一个空间透明的分类器，可以根据点的排列区分两个类别。这个问题对于许多应用非常重要，比如肿瘤学，用于分析免疫-肿瘤关系和设计新的免疫治疗方法。这个问题具有挑战性，因为需要考虑空间变化和可解释性需求。以前提出的技术要求密集的训练数据，或者在处理单个地点类型内的显著空间变异性方面能力有限。最重要的是，这些深度神经网络（DNN）方法没有设计用于在非欧几里得空间中工作，特别是点集。现有的非欧几里得DNN方法局限于一刀切的方法。我们探索了一种空间集合框架，明确使用不同的训练策略，包括加权距离学习率和空间域自适应。
 
-    Community detection is one of the most critical problems in modern network science. Its applications can be found in various fields, from protein modeling to social network analysis. Recently, many papers appeared studying the problem of overlapping community detection, where each node of a network may belong to several communities. In this work, we consider Mixed-Membership Stochastic Block Model (MMSB) first proposed by Airoldi et al. (2008). MMSB provides quite a general setting for modeling overlapping community structure in graphs. The central question of this paper is to reconstruct relations between communities given an observed network. We compare different approaches and establish the minimax lower bound on the estimation error. Then, we propose a new estimator that matches this lower bound. Theoretical results are proved under fairly general conditions on the considered model. Finally, we illustrate the theory in a series of experiments.
+    arXiv:2402.14974v1 Announce Type: cross  Abstract: Given multi-category point sets from different place-types, our goal is to develop a spatially-lucid classifier that can distinguish between two classes based on the arrangements of their points. This problem is important for many applications, such as oncology, for analyzing immune-tumor relationships and designing new immunotherapies. It is challenging due to spatial variability and interpretability needs. Previously proposed techniques require dense training data or have limited ability to handle significant spatial variability within a single place-type. Most importantly, these deep neural network (DNN) approaches are not designed to work in non-Euclidean space, particularly point sets. Existing non-Euclidean DNN methods are limited to one-size-fits-all approaches. We explore a spatial ensemble framework that explicitly uses different training strategies, including weighted-distance learning rate and spatial domain adaptation, on v
     
-[^7]: 大型语言模型在提取分子相互作用和通路知识方面的比较性能评估
+[^4]: Rao-Blackwellising Bayesian Causal Inference
 
-    Comparative Performance Evaluation of Large Language Models for Extracting Molecular Interactions and Pathway Knowledge. (arXiv:2307.08813v1 [cs.CL])
+    Rao-Blackwellising Bayesian Causal Inference
 
-    [http://arxiv.org/abs/2307.08813](http://arxiv.org/abs/2307.08813)
+    [https://arxiv.org/abs/2402.14781](https://arxiv.org/abs/2402.14781)
 
-    本研究评估了不同大型语言模型在提取分子相互作用和通路知识方面的有效性，并讨论了未来机遇和挑战。
+    本文结合顺序化的MCMC结构学习技术和梯度图学习的最新进展，构建了一个有效的贝叶斯因果推断框架，将因果结构推断问题分解为变量拓扑顺序推断和变量父节点集合推断，同时使用高斯过程进行因果机制建模实现精确边缘化，引入了一个Rao-Blackwell化方案。
 
     
 
-    理解蛋白质相互作用和通路知识对于揭示生物系统的复杂性和研究生物功能和复杂疾病的基本机制至关重要。尽管现有的数据库提供了来自文献和其他源的策划生物数据，但它们往往不完整且维护工作繁重，因此需要替代方法。在本研究中，我们提出利用大型语言模型的能力，通过自动从相关科学文献中提取这些知识来解决这些问题。为了实现这个目标，在这项工作中，我们调查了不同大型语言模型在识别蛋白质相互作用、通路和基因调控关系等任务中的有效性。我们对不同模型的性能进行了彻底评估，突出了重要的发现，并讨论了这种方法所面临的未来机遇和挑战。代码和数据集链接可在论文中找到。
+    贝叶斯因果推断，即推断用于下游因果推理任务中的因果模型的后验概率，构成了一个在文献中鲜有探讨的难解的计算推断问题。本文将基于顺序的MCMC结构学习技术与最近梯度图学习的进展相结合，构建了一个有效的贝叶斯因果推断框架。具体而言，我们将推断因果结构的问题分解为(i)推断变量之间的拓扑顺序以及(ii)推断每个变量的父节点集合。当限制每个变量的父节点数量时，我们可以在多项式时间内完全边缘化父节点集合。我们进一步使用高斯过程来建模未知的因果机制，从而允许其精确边缘化。这引入了一个Rao-Blackwell化方案，其中除了因果顺序之外，模型中的所有组件都被消除。
 
-    Understanding protein interactions and pathway knowledge is crucial for unraveling the complexities of living systems and investigating the underlying mechanisms of biological functions and complex diseases. While existing databases provide curated biological data from literature and other sources, they are often incomplete and their maintenance is labor-intensive, necessitating alternative approaches. In this study, we propose to harness the capabilities of large language models to address these issues by automatically extracting such knowledge from the relevant scientific literature. Toward this goal, in this work, we investigate the effectiveness of different large language models in tasks that involve recognizing protein interactions, pathways, and gene regulatory relations. We thoroughly evaluate the performance of various models, highlight the significant findings, and discuss both the future opportunities and the remaining challenges associated with this approach. The code and d
+    arXiv:2402.14781v1 Announce Type: cross  Abstract: Bayesian causal inference, i.e., inferring a posterior over causal models for the use in downstream causal reasoning tasks, poses a hard computational inference problem that is little explored in literature. In this work, we combine techniques from order-based MCMC structure learning with recent advances in gradient-based graph learning into an effective Bayesian causal inference framework. Specifically, we decompose the problem of inferring the causal structure into (i) inferring a topological order over variables and (ii) inferring the parent sets for each variable. When limiting the number of parents per variable, we can exactly marginalise over the parent sets in polynomial time. We further use Gaussian processes to model the unknown causal mechanisms, which also allows their exact marginalisation. This introduces a Rao-Blackwellization scheme, where all components are eliminated from the model, except for the causal order, for whi
+    
+[^5]: 学习通过实践：具有因果感知的在线因果强化学习框架
+
+    Learning by Doing: An Online Causal Reinforcement Learning Framework with Causal-Aware Policy
+
+    [https://arxiv.org/abs/2402.04869](https://arxiv.org/abs/2402.04869)
+
+    本文提出了一个在线因果强化学习框架，其中通过明确建模状态的生成过程和使用因果结构进行策略引导，以帮助强化学习代理的决策可解释性。该框架具有理论性能保证，并在探索和开发过程中使用干预进行因果结构学习。
+
+    
+
+    因果知识作为人类智能中直观认知和推理解决方案的关键组成部分，为强化学习（RL）代理的可解释性决策提供了巨大的潜力，通过帮助减少搜索空间。然而，发现和整合因果关系进入RL仍存在相当大的差距，这阻碍了因果关系RL的快速发展。在本文中，我们考虑使用因果图模型明确地建模状态的生成过程，并在此基础上增强策略。我们将因果结构更新形式化为具有主动环境干预学习的RL交互过程。为了优化衍生的目标，我们提出了一个具有理论性能保证的框架，两个步骤交替进行：在探索过程中使用干预进行因果结构学习，在开发过程中使用学习到的因果结构进行策略引导。由于缺少公共基准，用于对所提出的方法进行评估。
+
+    As a key component to intuitive cognition and reasoning solutions in human intelligence, causal knowledge provides great potential for reinforcement learning (RL) agents' interpretability towards decision-making by helping reduce the searching space. However, there is still a considerable gap in discovering and incorporating causality into RL, which hinders the rapid development of causal RL. In this paper, we consider explicitly modeling the generation process of states with the causal graphical model, based on which we augment the policy. We formulate the causal structure updating into the RL interaction process with active intervention learning of the environment. To optimize the derived objective, we propose a framework with theoretical performance guarantees that alternates between two steps: using interventions for causal structure learning during exploration and using the learned causal structure for policy guidance during exploitation. Due to the lack of public benchmarks that 
+    
+[^6]: 条件最优传输的高效神经网络方法及贝叶斯推断中的应用
+
+    Efficient Neural Network Approaches for Conditional Optimal Transport with Applications in Bayesian Inference. (arXiv:2310.16975v1 [stat.ML])
+
+    [http://arxiv.org/abs/2310.16975](http://arxiv.org/abs/2310.16975)
+
+    提出了两种神经网络方法来逼近静态和动态条件最优传输问题的解，实现了对条件概率分布的采样和密度估计，适用于贝叶斯推断。算法利用神经网络参数化传输映射以提高可扩展性。
+
+    
+
+    我们提出了两种神经网络方法，分别逼近静态和动态条件最优传输问题的解。这两种方法可以对条件概率分布进行采样和密度估计，这是贝叶斯推断中的核心任务。我们的方法将目标条件分布表示为可处理的参考分布的转换，因此属于测度传输的框架。在该框架中，COT映射是一个典型的选择，具有唯一性和单调性等可取的属性。然而，相关的COT问题在中等维度下计算具有挑战性。为了提高可扩展性，我们的数值算法利用神经网络对COT映射进行参数化。我们的方法充分利用了COT问题的静态和动态表达形式的结构。PCP-Map将条件传输映射建模为部分输入凸神经网络（PICNN）的梯度。
+
+    We present two neural network approaches that approximate the solutions of static and dynamic conditional optimal transport (COT) problems, respectively. Both approaches enable sampling and density estimation of conditional probability distributions, which are core tasks in Bayesian inference. Our methods represent the target conditional distributions as transformations of a tractable reference distribution and, therefore, fall into the framework of measure transport. COT maps are a canonical choice within this framework, with desirable properties such as uniqueness and monotonicity. However, the associated COT problems are computationally challenging, even in moderate dimensions. To improve the scalability, our numerical algorithms leverage neural networks to parameterize COT maps. Our methods exploit the structure of the static and dynamic formulations of the COT problem. PCP-Map models conditional transport maps as the gradient of a partially input convex neural network (PICNN) and 
+    
+[^7]: 多尺度聚类过滤中的持久同调
+
+    Persistent Homology of the Multiscale Clustering Filtration. (arXiv:2305.04281v2 [math.AT] UPDATED)
+
+    [http://arxiv.org/abs/2305.04281](http://arxiv.org/abs/2305.04281)
+
+    该论文引入了一种多尺度聚类过滤方法（MCF），用于描述不同尺度下的数据聚类，其中的持久同调可测量分区序列的层次关系和聚类分配冲突的出现和解决。
+
+    
+
+    在许多数据聚类应用中，不仅希望找到一种单一的分区方式，还希望找到描述不同尺度或粗糙层次下的数据的一系列分区方式。因此，一个自然的问题是分析和比较支撑这种多尺度数据描述的（不一定是层次性的）分区序列。在这里，我们引入了一种抽象单纯复形的过滤，称为多尺度聚类过滤（MCF），它编码了跨尺度的任意模式的聚类分配，并证明了MCF产生稳定的持久图。然后，我们展示了MCF的零维持久同调测量了分区序列中的层次关系程度，而高维持久同调则跟踪了分区序列中聚类分配冲突的出现和解决。为了拓宽MCF的理论基础，我们还提供了一个等价的构造方法。
+
+    In many applications in data clustering, it is desirable to find not just a single partition into clusters but a sequence of partitions describing the data at different scales, or levels of coarseness. A natural problem then is to analyse and compare the (not necessarily hierarchical) sequences of partitions that underpin such multiscale descriptions of data. Here, we introduce a filtration of abstract simplicial complexes, denoted the Multiscale Clustering Filtration (MCF), which encodes arbitrary patterns of cluster assignments across scales, and we prove that the MCF produces stable persistence diagrams. We then show that the zero-dimensional persistent homology of the MCF measures the degree of hierarchy in the sequence of partitions, and that the higher-dimensional persistent homology tracks the emergence and resolution of conflicts between cluster assignments across the sequence of partitions. To broaden the theoretical foundations of the MCF, we also provide an equivalent constr
     
 
