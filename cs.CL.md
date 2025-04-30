@@ -2,97 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Unsolvable Problem Detection: Evaluating Trustworthiness of Vision Language Models](https://arxiv.org/abs/2403.20331) | 本文提出了一个新颖且重要的挑战，即Unsolvable Problem Detection（UPD），用于评估视觉语言模型在视觉问答任务中能否在面对不可解问题时保持答案的能力，并通过广泛实验发现大多数模型存在改进的空间。 |
-| [^2] | [Automated Black-box Prompt Engineering for Personalized Text-to-Image Generation](https://arxiv.org/abs/2403.19103) | PRISM是一种算法，可以自动识别人类可解释且易传递的提示，从而有效生成所需概念，仅使用黑盒访问T2I模型。 |
-| [^3] | [RAGAS: Automated Evaluation of Retrieval Augmented Generation.](http://arxiv.org/abs/2309.15217) | RAGAs是一个用于无参考评估检索增强生成（RAG）的框架，能够评估检索系统和生成模块的能力，提供一种加快RAG架构评估周期的方法。 |
-| [^4] | [Large language models in biomedical natural language processing: benchmarks, baselines, and recommendations.](http://arxiv.org/abs/2305.16326) | 本文研究了GPT-3和GPT-4在生物医学自然语言处理中的表现，分析了它们可能产生的错误类型，并提供了使用这些模型的建议。 |
-| [^5] | [Generative Meta-Learning for Zero-Shot Relation Triplet Extraction.](http://arxiv.org/abs/2305.01920) | 该论文提出了一种生成式元学习框架，通过任务感知的生成式模型和三种针对典型元学习范畴的方法，提高了零样本关系三元组抽取任务的泛化能力并达到了最佳表现。 |
-| [^6] | [NoisyHate: Benchmarking Content Moderation Machine Learning Models with Human-Written Perturbations Online.](http://arxiv.org/abs/2303.10430) | 本文提出了一个包含人类编写的在线扰动的测试集，用于毒性言论检测模型的评估。 |
+| [^1] | [The Era of Semantic Decoding](https://arxiv.org/abs/2403.14562) | 提出了一种名为语义解码的新观点，将LLM、人类输入和各种工具之间的协作过程构建为语义空间中的优化过程，促进了高效输出的构建。 |
+| [^2] | [Evaluating the Symbol Binding Ability of Large Language Models for Multiple-Choice Questions in Vietnamese General Education.](http://arxiv.org/abs/2310.12059) | 本研究评估了大型语言模型在越南普通教育中对多项选择题符号绑定能力的能力，并创建了一个新颖且高质量的数据集来评估语言模型的符号绑定能力。 |
+| [^3] | [Evaluating Multi-Agent Coordination Abilities in Large Language Models.](http://arxiv.org/abs/2310.03903) | 本研究构建了使用大型语言模型（LLMs）的智能体，并评估其在多智能体协调中的有效性。我们引入了LLM-Co框架，用于在三个游戏环境中评估LLMs的协调能力。评估结果显示LLMs具有推断伙伴意图和理解其行动的能力。 |
+| [^4] | [Prompting Large Language Models with Answer Heuristics for Knowledge-based Visual Question Answering.](http://arxiv.org/abs/2303.01903) | 本研究提出了一个名为Prophet的框架，使用答案启发式方式促使GPT-3解决基于知识的视觉问答问题。在特定的知识型VQA数据集上训练一个纯VQA模型，并从中提取出答案启发式，可提高模型的性能。 |
 
 # 详细
 
-[^1]: 不可解问题检测：评估视觉语言模型的可信度
+[^1]: 语义解码时代
 
-    Unsolvable Problem Detection: Evaluating Trustworthiness of Vision Language Models
+    The Era of Semantic Decoding
 
-    [https://arxiv.org/abs/2403.20331](https://arxiv.org/abs/2403.20331)
+    [https://arxiv.org/abs/2403.14562](https://arxiv.org/abs/2403.14562)
 
-    本文提出了一个新颖且重要的挑战，即Unsolvable Problem Detection（UPD），用于评估视觉语言模型在视觉问答任务中能否在面对不可解问题时保持答案的能力，并通过广泛实验发现大多数模型存在改进的空间。
-
-    
-
-    本文介绍了一个新颖而重要的挑战，即Unsolvable Problem Detection（UPD），用于评估视觉语言模型（VLMs）在视觉问答（VQA）任务中面对不可解问题时保持答案的能力。UPD包括三个不同的设置：缺失答案检测（AAD）、不兼容答案集检测（IASD）和不兼容视觉问题检测（IVQD）。通过广泛的实验深入研究UPD问题表明，大多数VLMs，包括GPT-4V和LLaVA-Next-34B，在各种程度上都很难应对我们的基准测试，突显了改进的重要空间。为了解决UPD，我们探索了无需训练和基于训练的解决方案，提供了对其有效性和局限性的新见解。我们希望我们的见解，以及在提议的UPD设置内的未来努力，将增强对VLMs的更广泛理解和发展。
-
-    arXiv:2403.20331v1 Announce Type: cross  Abstract: This paper introduces a novel and significant challenge for Vision Language Models (VLMs), termed Unsolvable Problem Detection (UPD). UPD examines the VLM's ability to withhold answers when faced with unsolvable problems in the context of Visual Question Answering (VQA) tasks. UPD encompasses three distinct settings: Absent Answer Detection (AAD), Incompatible Answer Set Detection (IASD), and Incompatible Visual Question Detection (IVQD). To deeply investigate the UPD problem, extensive experiments indicate that most VLMs, including GPT-4V and LLaVA-Next-34B, struggle with our benchmarks to varying extents, highlighting significant room for the improvements. To address UPD, we explore both training-free and training-based solutions, offering new insights into their effectiveness and limitations. We hope our insights, together with future efforts within the proposed UPD settings, will enhance the broader understanding and development of
-    
-[^2]: 用于个性化文本到图像生成的自动化黑盒提示工程
-
-    Automated Black-box Prompt Engineering for Personalized Text-to-Image Generation
-
-    [https://arxiv.org/abs/2403.19103](https://arxiv.org/abs/2403.19103)
-
-    PRISM是一种算法，可以自动识别人类可解释且易传递的提示，从而有效生成所需概念，仅使用黑盒访问T2I模型。
+    提出了一种名为语义解码的新观点，将LLM、人类输入和各种工具之间的协作过程构建为语义空间中的优化过程，促进了高效输出的构建。
 
     
 
-    提示工程对于控制文本到图像（T2I）生成模型的输出是有效的，但由于需要手动制作提示而导致工作繁重。这一挑战促使了自动提示生成算法的发展。然而，这些方法通常在T2I模型之间的可传递性方面遇到困难，需要对基础模型进行白盒访问，并产生非直观的提示。在这项工作中，我们介绍了PRISM，这是一种算法，可以仅使用黑盒访问T2I模型就自动识别人类可解释且易传递的提示，从而有效生成所需概念。受大型语言模型（LLM）越狱的启发，PRISM利用LLM的上下文学习能力来迭代地改进给定参考图像的候选提示分布。我们的实验展示了PRISM在为对象、样式等生成准确提示方面的多样性和有效性。
+    最近的研究展现了在LLM（大型语言模型）、人类输入和各种工具之间编排协作以解决LLM固有局限性的想法具有巨大潜力。我们提出了一个名为语义解码的新观点，将这些协作过程构建为语义空间中的优化过程。具体来说，我们将LLM概念化为操纵我们称之为语义标记（已知思想）的有意义信息片段的语义处理器。LLM是众多其他语义处理器之一，包括人类和工具，比如搜索引擎或代码执行器。语义处理器集体参与语义标记的动态交流，逐步构建高效输出。我们称这些在语义空间中进行优化和搜索的协同作用，为语义解码算法。这个概念与已广为研究的语义解码问题直接平行。
 
-    arXiv:2403.19103v1 Announce Type: cross  Abstract: Prompt engineering is effective for controlling the output of text-to-image (T2I) generative models, but it is also laborious due to the need for manually crafted prompts. This challenge has spurred the development of algorithms for automated prompt generation. However, these methods often struggle with transferability across T2I models, require white-box access to the underlying model, and produce non-intuitive prompts. In this work, we introduce PRISM, an algorithm that automatically identifies human-interpretable and transferable prompts that can effectively generate desired concepts given only black-box access to T2I models. Inspired by large language model (LLM) jailbreaking, PRISM leverages the in-context learning ability of LLMs to iteratively refine the candidate prompts distribution for given reference images. Our experiments demonstrate the versatility and effectiveness of PRISM in generating accurate prompts for objects, sty
+    arXiv:2403.14562v1 Announce Type: cross  Abstract: Recent work demonstrated great promise in the idea of orchestrating collaborations between LLMs, human input, and various tools to address the inherent limitations of LLMs. We propose a novel perspective called semantic decoding, which frames these collaborative processes as optimization procedures in semantic space. Specifically, we conceptualize LLMs as semantic processors that manipulate meaningful pieces of information that we call semantic tokens (known thoughts). LLMs are among a large pool of other semantic processors, including humans and tools, such as search engines or code executors. Collectively, semantic processors engage in dynamic exchanges of semantic tokens to progressively construct high-utility outputs. We refer to these orchestrated interactions among semantic processors, optimizing and searching in semantic space, as semantic decoding algorithms. This concept draws a direct parallel to the well-studied problem of s
     
-[^3]: RAGAS:自动评估检索增强生成
+[^2]: 评估大型语言模型在越南普通教育中对多项选择题符号绑定能力的能力
 
-    RAGAS: Automated Evaluation of Retrieval Augmented Generation. (arXiv:2309.15217v1 [cs.CL])
+    Evaluating the Symbol Binding Ability of Large Language Models for Multiple-Choice Questions in Vietnamese General Education. (arXiv:2310.12059v1 [cs.CL])
 
-    [http://arxiv.org/abs/2309.15217](http://arxiv.org/abs/2309.15217)
+    [http://arxiv.org/abs/2310.12059](http://arxiv.org/abs/2310.12059)
 
-    RAGAs是一个用于无参考评估检索增强生成（RAG）的框架，能够评估检索系统和生成模块的能力，提供一种加快RAG架构评估周期的方法。
-
-    
-
-    我们介绍了RAGAs（检索增强生成评估）框架，用于对检索增强生成（RAG）流水线进行无参考评估。RAG系统由检索模块和基于LLM的生成模块组成，提供来自参考文本数据库的知识给LLMs，使它们能够充当用户和文本数据库之间的自然语言层，减少幻觉的风险。然而，评估RAG架构是具有挑战性的，因为有几个维度需要考虑：检索系统识别相关和有重点的上下文段落的能力，LLM在忠实地利用这些段落的能力，以及生成本身的质量。通过RAGAs，我们提出了一套度量标准，可以用来评估这些不同维度，而无需依赖地面真实的人类注释。我们认为，这样的框架能够对RAG架构的更快评估周期起到至关重要的贡献。
-
-    We introduce RAGAs (Retrieval Augmented Generation Assessment), a framework for reference-free evaluation of Retrieval Augmented Generation (RAG) pipelines. RAG systems are composed of a retrieval and an LLM based generation module, and provide LLMs with knowledge from a reference textual database, which enables them to act as a natural language layer between a user and textual databases, reducing the risk of hallucinations. Evaluating RAG architectures is, however, challenging because there are several dimensions to consider: the ability of the retrieval system to identify relevant and focused context passages, the ability of the LLM to exploit such passages in a faithful way, or the quality of the generation itself. With RAGAs, we put forward a suite of metrics which can be used to evaluate these different dimensions \textit{without having to rely on ground truth human annotations}. We posit that such a framework can crucially contribute to faster evaluation cycles of RAG architectur
-    
-[^4]: 生物医学自然语言处理中的大型语言模型: 基准、基线和建议
-
-    Large language models in biomedical natural language processing: benchmarks, baselines, and recommendations. (arXiv:2305.16326v1 [cs.CL])
-
-    [http://arxiv.org/abs/2305.16326](http://arxiv.org/abs/2305.16326)
-
-    本文研究了GPT-3和GPT-4在生物医学自然语言处理中的表现，分析了它们可能产生的错误类型，并提供了使用这些模型的建议。
+    本研究评估了大型语言模型在越南普通教育中对多项选择题符号绑定能力的能力，并创建了一个新颖且高质量的数据集来评估语言模型的符号绑定能力。
 
     
 
-    生物医学文献呈指数级增长，手动筛选和提取知识变得困难。自动从生物医学文献中提取信息的生物医学自然语言处理（BioNLP）技术有助于减轻这种负担。近年来，如GPT-3和GPT-4等大型语言模型（LLMs）因其卓越的性能而受到重视。但是，它们在BioNLP任务中的有效性以及对方法开发和下游用户的影响仍未得到研究。本研究（1）在四个应用程序中在八个BioNLP数据集中建立了GPT-3和GPT-4在零-shot和一-shot设置下的基准表现，包括命名实体识别，关系提取，多标签文档分类和语义相似性和推理；（2）审查了LLMs产生的错误，并将错误分为三种类型：缺失，不一致和不需要的人工内容；（3）提出了使用LLMs的建议。
+    本文评估了大型语言模型（LLMs）在零样本、一次性和少样本设置下，执行多项选择符号绑定（MCSB）用于多项选择题回答（MCQA）任务的能力。我们将重点放在越南语上，因为越南语中的挑战性MCQA数据集较英语少。现有的两个数据集，ViMMRC 1.0和ViMMRC 2.0，专注于文学问题。越南自然语言处理（NLP）领域的最新研究侧重于评估ChatGPT在2019年至2023年的越南国家高中毕业考试（VNHSGE）中的解决方案。然而，这些研究主要关注ChatGPT如何逐步解决VNHSGE。我们的目标是通过为数学、物理、化学和生物的LaTeX公式输入提供结构化指南，创建一个新颖且高质量的数据集。该数据集可用于评估LLMs和较小的语言模型（LMs）的MCSB能力，因为数据集要求使用严格的LaTeX样式进行输入。我们重点预测字符（A、B、C或
 
-    Biomedical literature is growing rapidly, making it challenging to curate and extract knowledge manually. Biomedical natural language processing (BioNLP) techniques that can automatically extract information from biomedical literature help alleviate this burden. Recently, large Language Models (LLMs), such as GPT-3 and GPT-4, have gained significant attention for their impressive performance. However, their effectiveness in BioNLP tasks and impact on method development and downstream users remain understudied. This pilot study (1) establishes the baseline performance of GPT-3 and GPT-4 at both zero-shot and one-shot settings in eight BioNLP datasets across four applications: named entity recognition, relation extraction, multi-label document classification, and semantic similarity and reasoning, (2) examines the errors produced by the LLMs and categorized the errors into three types: missingness, inconsistencies, and unwanted artificial content, and (3) provides suggestions for using L
+    In this paper, we evaluate the ability of large language models (LLMs) to perform multiple choice symbol binding (MCSB) for multiple choice question answering (MCQA) tasks in zero-shot, one-shot, and few-shot settings. We focus on Vietnamese, with fewer challenging MCQA datasets than in English. The two existing datasets, ViMMRC 1.0 and ViMMRC 2.0, focus on literature. Recent research in Vietnamese natural language processing (NLP) has focused on the Vietnamese National High School Graduation Examination (VNHSGE) from 2019 to 2023 to evaluate ChatGPT. However, these studies have mainly focused on how ChatGPT solves the VNHSGE step by step. We aim to create a novel and high-quality dataset by providing structured guidelines for typing LaTeX formulas for mathematics, physics, chemistry, and biology. This dataset can be used to evaluate the MCSB ability of LLMs and smaller language models (LMs) because it is typed in a strict LaTeX style. We focus on predicting the character (A, B, C, or 
     
-[^5]: 零样本关系三元组抽取的生成式元学习
+[^3]: 在大型语言模型中评估多智能体协调能力
 
-    Generative Meta-Learning for Zero-Shot Relation Triplet Extraction. (arXiv:2305.01920v1 [cs.CL])
+    Evaluating Multi-Agent Coordination Abilities in Large Language Models. (arXiv:2310.03903v1 [cs.CL])
 
-    [http://arxiv.org/abs/2305.01920](http://arxiv.org/abs/2305.01920)
+    [http://arxiv.org/abs/2310.03903](http://arxiv.org/abs/2310.03903)
 
-    该论文提出了一种生成式元学习框架，通过任务感知的生成式模型和三种针对典型元学习范畴的方法，提高了零样本关系三元组抽取任务的泛化能力并达到了最佳表现。
-
-    
-
-    零样本关系三元组抽取任务旨在从一个包含未见过关系类型的文本中提取关系三元组。比较有代表性的工作采用预训练的生成式模型为新关系生成合成样本。然而，当前的生成式模型在训练中缺乏对于模型泛化到不同任务的优化过程，因此具有有限的泛化能力。因此，我们提出了一种新颖的生成式元学习框架，利用元学习的“学习如何学习”的能力提高生成式模型的泛化能力。具体而言，我们首先设计了一个任务感知的生成式模型，它可以通过在多个任务上强制进行优化过程来学习一般性知识。基于此，我们提出了三种针对三类典型元学习范畴的生成式元学习方法。广泛的实验结果表明，我们的框架在零样本关系三元组抽取任务上实现了新的最佳表现。
-
-    The zero-shot relation triplet extraction (ZeroRTE) task aims to extract relation triplets from a piece of text with unseen relation types. The seminal work adopts the pre-trained generative model to generate synthetic samples for new relations. However, current generative models lack the optimization process of model generalization on different tasks during training, and thus have limited generalization capability. For this reason, we propose a novel generative meta-learning framework which exploits the `learning-to-learn' ability of meta-learning to boost the generalization capability of generative models. Specifically, we first design a task-aware generative model which can learn the general knowledge by forcing the optimization process to be conducted across multiple tasks. Based on it, we then present three generative meta-learning approaches designated for three typical meta-learning categories. Extensive experimental results demonstrate that our framework achieves a new state-of
-    
-[^6]: NoisyHate：在人类编写的在线扰动下对内容审核机器学习模型进行基准测试
-
-    NoisyHate: Benchmarking Content Moderation Machine Learning Models with Human-Written Perturbations Online. (arXiv:2303.10430v1 [cs.LG])
-
-    [http://arxiv.org/abs/2303.10430](http://arxiv.org/abs/2303.10430)
-
-    本文提出了一个包含人类编写的在线扰动的测试集，用于毒性言论检测模型的评估。
+    本研究构建了使用大型语言模型（LLMs）的智能体，并评估其在多智能体协调中的有效性。我们引入了LLM-Co框架，用于在三个游戏环境中评估LLMs的协调能力。评估结果显示LLMs具有推断伙伴意图和理解其行动的能力。
 
     
 
-    在社交媒体上，具有有害内容的在线文本是一种威胁，可能会引起网络骚扰。尽管许多平台采取了措施，例如基于机器学习的仇恨言论检测系统来减少其影响，但那些有害内容发布者仍然可以通过修改有害词汇的拼写来逃避系统。这些修改后的单词也称为人类编写的文本扰动。许多研究开发了一定的技术来生成对抗样本，以帮助机器学习模型获得识别这些扰动的能力。然而，机器生成的扰动与人类编写的扰动之间仍存在差距。在本文中，我们介绍了一个包含人类编写的在线扰动的基准测试集，用于毒性言论检测模型。我们还招募了一组工人来评估此测试集的质量并删除低质量的样本。同时，为了检查我们的扰动是否可以归一化为其干净版本，我们还创建了一个相关的测试集。
+    当代人工智能研究的一个重要目标是开发能够熟练进行多智能体协调、有效与人类和其他系统合作的智能体。大型语言模型（LLM）以其显著的理解、生成和解释语言的能力成为开发这种智能体的有希望的候选模型。本研究中，我们构建了使用LLM构建的智能体，并评估其在各种协调场景中的有效性。我们引入了特别设计的LLM-Co框架，使LLM能够参与协调游戏。通过LLM-Co框架，我们在三个游戏环境中进行评估，并将评估分为五个方面：心智理论、情境推理、持续协调、对合作伙伴的稳健性和明确辅助。首先，心智理论和情境推理的评估揭示了LLM推断伙伴意图和理解其行动的能力。
 
-    Online texts with toxic content are a threat in social media that might cause cyber harassment. Although many platforms applied measures, such as machine learning-based hate-speech detection systems, to diminish their effect, those toxic content publishers can still evade the system by modifying the spelling of toxic words. Those modified words are also known as human-written text perturbations. Many research works developed certain techniques to generate adversarial samples to help the machine learning models obtain the ability to recognize those perturbations. However, there is still a gap between those machine-generated perturbations and human-written perturbations. In this paper, we introduce a benchmark test set containing human-written perturbations online for toxic speech detection models. We also recruited a group of workers to evaluate the quality of this test set and dropped low-quality samples. Meanwhile, to check if our perturbation can be normalized to its clean version, w
+    A pivotal aim in contemporary AI research is to develop agents proficient in multi-agent coordination, enabling effective collaboration with both humans and other systems. Large Language Models (LLMs), with their notable ability to understand, generate, and interpret language in a human-like manner, stand out as promising candidates for the development of such agents. In this study, we build and assess the effectiveness of agents crafted using LLMs in various coordination scenarios. We introduce the LLM-Coordination (LLM-Co) Framework, specifically designed to enable LLMs to play coordination games. With the LLM-Co framework, we conduct our evaluation with three game environments and organize the evaluation into five aspects: Theory of Mind, Situated Reasoning, Sustained Coordination, Robustness to Partners, and Explicit Assistance. First, the evaluation of the Theory of Mind and Situated Reasoning reveals the capabilities of LLM to infer the partner's intention and reason actions acco
+    
+[^4]: 用答案启发式方式促使大型语言模型解决基于知识的视觉问答问题
+
+    Prompting Large Language Models with Answer Heuristics for Knowledge-based Visual Question Answering. (arXiv:2303.01903v2 [cs.CV] UPDATED)
+
+    [http://arxiv.org/abs/2303.01903](http://arxiv.org/abs/2303.01903)
+
+    本研究提出了一个名为Prophet的框架，使用答案启发式方式促使GPT-3解决基于知识的视觉问答问题。在特定的知识型VQA数据集上训练一个纯VQA模型，并从中提取出答案启发式，可提高模型的性能。
+
+    
+
+    基于知识的视觉问答需要超出图像范围的外部知识来回答问题。早期的研究从显式知识库（KBs）检索所需的知识，这经常会引入与问题无关的信息，从而限制了模型的性能。最近的研究试图将大型语言模型（即GPT-3）作为隐含式知识引擎来获取回答所需的必要知识。尽管这些方法取得了令人鼓舞的结果，但我们认为它们还没有充分发挥GPT-3的能力，因为提供的输入信息仍然不足。在本文中，我们提出了Prophet——一个概念上简单的框架，旨在通过回答启发式方式，促使GPT-3解决基于知识的VQA问题。具体来说，我们首先在特定的基于知识的VQA数据集上训练一个纯VQA模型，而不使用外部知识。之后，我们从模型中提取了两种互补的答案启发式：答案候选项。
+
+    Knowledge-based visual question answering (VQA) requires external knowledge beyond the image to answer the question. Early studies retrieve required knowledge from explicit knowledge bases (KBs), which often introduces irrelevant information to the question, hence restricting the performance of their models. Recent works have sought to use a large language model (i.e., GPT-3) as an implicit knowledge engine to acquire the necessary knowledge for answering. Despite the encouraging results achieved by these methods, we argue that they have not fully activated the capacity of GPT-3 as the provided input information is insufficient. In this paper, we present Prophet -- a conceptually simple framework designed to prompt GPT-3 with answer heuristics for knowledge-based VQA. Specifically, we first train a vanilla VQA model on a specific knowledge-based VQA dataset without external knowledge. After that, we extract two types of complementary answer heuristics from the model: answer candidates 
     
 
