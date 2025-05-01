@@ -2,97 +2,97 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Twin Auto-Encoder Model for Learning Separable Representation in Cyberattack Detection](https://arxiv.org/abs/2403.15509) | 提出一种新型双自动编码器模型(TAE)，通过将潜在表示转换为可分离表示来解决网络攻击检测中混合表示的问题 |
-| [^2] | [Intelligent Condition Monitoring of Industrial Plants: An Overview of Methodologies and Uncertainty Management Strategies.](http://arxiv.org/abs/2401.10266) | 本论文综述了工业厂房智能状态监测和故障检测和诊断方法，重点关注了Tennessee Eastman Process。调研总结了最流行和最先进的深度学习和机器学习算法，并探讨了算法的优劣势。还讨论了不平衡数据和无标记样本等挑战，以及深度学习模型如何应对。比较了不同算法在Tennessee Eastman Process上的准确性和规格。 |
-| [^3] | [Settling the Sample Complexity of Online Reinforcement Learning.](http://arxiv.org/abs/2307.13586) | 本文解决了在线强化学习的样本复杂度问题，提出了一种基于模型的算法，它可以在有限时间不均匀马尔可夫决策问题中实现极小后悔的最优性。 |
-| [^4] | [When Deep Learning Meets Polyhedral Theory: A Survey.](http://arxiv.org/abs/2305.00241) | 本文综述了深度学习与多面体理论的交叉领域。修正线性单元（ReLU）等函数使得一些神经网络结构能够通过多面体理论进行分析，应用线性和混合整数线性规划来实现网络修剪、鲁棒性分析和神经网络验证等任务。 |
-| [^5] | [The Adaptive $\tau$-Lasso: Its Robustness and Oracle Properties.](http://arxiv.org/abs/2304.09310) | 本文提出了一种新型鲁棒的自适应 $\tau$-Lasso 估计器，同时采用自适应 $\ell_1$-范数惩罚项以降低真实回归系数的偏差。它具有变量选择一致性和真实支持下回归向量的渐近正态性的最优性质，假定已知真实回归向量的支持。 |
-| [^6] | [Prompting Large Language Models with Answer Heuristics for Knowledge-based Visual Question Answering.](http://arxiv.org/abs/2303.01903) | 本研究提出了一个名为Prophet的框架，使用答案启发式方式促使GPT-3解决基于知识的视觉问答问题。在特定的知识型VQA数据集上训练一个纯VQA模型，并从中提取出答案启发式，可提高模型的性能。 |
+| [^1] | [Inferring the Langevin Equation with Uncertainty via Bayesian Neural Networks](https://rss.arxiv.org/abs/2402.01338) | 本研究提出了一个使用贝叶斯神经网络推断带有不确定性的朗之万方程的综合框架，可以应用于非线性和高维系统，通过提供预测的分布从而评估预测的不确定性。 |
+| [^2] | [Neural Redshift: Random Networks are not Random Functions](https://arxiv.org/abs/2403.02241) | 本论文研究了未经训练的随机权重网络，发现即使简单的MLPs也具有强烈的归纳偏见，不同于传统观点的是，NNs并不具有固有的“简单偏见”，而是依赖于组件的作用。 |
+| [^3] | [Shortcutting Cross-Validation: Efficiently Deriving Column-Wise Centered and Scaled Training Set $\mathbf{X}^\mathbf{T}\mathbf{X}$ and $\mathbf{X}^\mathbf{T}\mathbf{Y}$ Without Full Recomputation of Matrix Products or Statistical Moments.](http://arxiv.org/abs/2401.13185) | 本文提出了三种高效计算训练集$\mathbf{X}^\mathbf{T}\mathbf{X}$和$\mathbf{X}^\mathbf{T}\mathbf{Y}$的算法，相比于以前的工作，这些算法能够显著加速交叉验证，而无需重新计算矩阵乘积或统计量。 |
+| [^4] | [EyePreserve: Identity-Preserving Iris Synthesis.](http://arxiv.org/abs/2312.12028) | 本论文提出了一种完全数据驱动的、保持身份的、瞳孔尺寸变化的虹膜图像合成方法，能够合成不同瞳孔尺寸的虹膜图像，代表不存在的身份，并能够在保持身份的同时进行非线性纹理变形。 |
+| [^5] | [Multicollinearity Resolution Based on Machine Learning: A Case Study of Carbon Emissions in Sichuan Province.](http://arxiv.org/abs/2309.01115) | 本研究使用机器学习方法解决了多重共线性问题，针对四川省的碳排放情况进行了案例研究。研究结果确定了行业分组，评估了排放驱动因素，并提出了科学的减排策略，以改善情况。 |
+| [^6] | [Semantic Positive Pairs for Enhancing Contrastive Instance Discrimination.](http://arxiv.org/abs/2306.16122) | 提出了一种名为语义正向对集合（SPPS）的方法，可以在表示学习过程中识别具有相似语义内容的图像，并将它们视为正向实例，从而减少丢弃重要特征的风险。在多个实验数据集上的实验证明了该方法的有效性。 |
 
 # 详细
 
-[^1]: 双自动编码器模型用于学习网络攻击检测中的可分离表示
+[^1]: 通过贝叶斯神经网络推断带有不确定性的朗之万方程
 
-    Twin Auto-Encoder Model for Learning Separable Representation in Cyberattack Detection
+    Inferring the Langevin Equation with Uncertainty via Bayesian Neural Networks
 
-    [https://arxiv.org/abs/2403.15509](https://arxiv.org/abs/2403.15509)
+    [https://rss.arxiv.org/abs/2402.01338](https://rss.arxiv.org/abs/2402.01338)
 
-    提出一种新型双自动编码器模型(TAE)，通过将潜在表示转换为可分离表示来解决网络攻击检测中混合表示的问题
-
-    
-
-    表征学习在网络攻击检测等许多问题的成功中起着关键作用。大多数网络攻击检测的表征学习方法基于自动编码器（AE）模型的潜在向量。为了解决AEs表示中混合的问题，我们提出了一种称为双自动编码器（TAE）的新型模型。TAE将潜在表示确定地转换为更易区分的表示，即\textit{可分离表示}，并在输出端重建可分离表示。
-
-    arXiv:2403.15509v1 Announce Type: cross  Abstract: Representation Learning (RL) plays a pivotal role in the success of many problems including cyberattack detection. Most of the RL methods for cyberattack detection are based on the latent vector of Auto-Encoder (AE) models. An AE transforms raw data into a new latent representation that better exposes the underlying characteristics of the input data. Thus, it is very useful for identifying cyberattacks. However, due to the heterogeneity and sophistication of cyberattacks, the representation of AEs is often entangled/mixed resulting in the difficulty for downstream attack detection models. To tackle this problem, we propose a novel mod called Twin Auto-Encoder (TAE). TAE deterministically transforms the latent representation into a more distinguishable representation namely the \textit{separable representation} and the reconstructsuct the separable representation at the output. The output of TAE called the \textit{reconstruction represe
-    
-[^2]: 工业厂房智能状态监测: 方法论和不确定性管理策略综述
-
-    Intelligent Condition Monitoring of Industrial Plants: An Overview of Methodologies and Uncertainty Management Strategies. (arXiv:2401.10266v1 [cs.LG])
-
-    [http://arxiv.org/abs/2401.10266](http://arxiv.org/abs/2401.10266)
-
-    本论文综述了工业厂房智能状态监测和故障检测和诊断方法，重点关注了Tennessee Eastman Process。调研总结了最流行和最先进的深度学习和机器学习算法，并探讨了算法的优劣势。还讨论了不平衡数据和无标记样本等挑战，以及深度学习模型如何应对。比较了不同算法在Tennessee Eastman Process上的准确性和规格。
+    本研究提出了一个使用贝叶斯神经网络推断带有不确定性的朗之万方程的综合框架，可以应用于非线性和高维系统，通过提供预测的分布从而评估预测的不确定性。
 
     
 
-    状态监测在现代工业系统的安全性和可靠性中起着重要作用。人工智能（AI）方法作为一种在工业应用中日益受到学术界和行业关注的增长主题和一种强大的故障识别方式。本文概述了工业厂房智能状态监测和故障检测和诊断方法，重点关注开源基准Tennessee Eastman Process（TEP）。在这项调查中，总结了用于工业厂房状态监测、故障检测和诊断的最流行和最先进的深度学习（DL）和机器学习（ML）算法，并研究了每种算法的优点和缺点。还涵盖了不平衡数据、无标记样本以及深度学习模型如何处理这些挑战。最后，比较了利用Tennessee Eastman Process的不同算法的准确性和规格。
+    在各个领域普遍存在的随机系统表现出从分子动力学到气候现象的过程中的波动。朗之万方程作为一种常见的数学模型，被用于研究这种系统，可以预测它们的时间演化以及分析热力学量，包括吸收热量、对系统做的功以及熵的产生。然而，从观测轨迹中推断朗之万方程仍然具有挑战性，尤其是对于非线性和高维系统。在本研究中，我们提出了一个全面的框架，利用贝叶斯神经网络来推断过阻尼和欠阻尼情况下的朗之万方程。我们的框架首先分别提供漂移力和扩散矩阵，然后将它们组合起来构建朗之万方程。通过提供预测的分布而不仅仅是一个单一的值，我们的方法允许我们评估预测的不确定性，这可以防止潜在的…
 
-    Condition monitoring plays a significant role in the safety and reliability of modern industrial systems. Artificial intelligence (AI) approaches are gaining attention from academia and industry as a growing subject in industrial applications and as a powerful way of identifying faults. This paper provides an overview of intelligent condition monitoring and fault detection and diagnosis methods for industrial plants with a focus on the open-source benchmark Tennessee Eastman Process (TEP). In this survey, the most popular and state-of-the-art deep learning (DL) and machine learning (ML) algorithms for industrial plant condition monitoring, fault detection, and diagnosis are summarized and the advantages and disadvantages of each algorithm are studied. Challenges like imbalanced data, unlabelled samples and how deep learning models can handle them are also covered. Finally, a comparison of the accuracies and specifications of different algorithms utilizing the Tennessee Eastman Process 
+    Pervasive across diverse domains, stochastic systems exhibit fluctuations in processes ranging from molecular dynamics to climate phenomena. The Langevin equation has served as a common mathematical model for studying such systems, enabling predictions of their temporal evolution and analyses of thermodynamic quantities, including absorbed heat, work done on the system, and entropy production. However, inferring the Langevin equation from observed trajectories remains challenging, particularly for nonlinear and high-dimensional systems. In this study, we present a comprehensive framework that employs Bayesian neural networks for inferring Langevin equations in both overdamped and underdamped regimes. Our framework first provides the drift force and diffusion matrix separately and then combines them to construct the Langevin equation. By providing a distribution of predictions instead of a single value, our approach allows us to assess prediction uncertainties, which can prevent potenti
     
-[^3]: 解决在线强化学习的样本复杂度问题
+[^2]: 神经红移：随机网络并非随机函数
 
-    Settling the Sample Complexity of Online Reinforcement Learning. (arXiv:2307.13586v1 [cs.LG])
+    Neural Redshift: Random Networks are not Random Functions
 
-    [http://arxiv.org/abs/2307.13586](http://arxiv.org/abs/2307.13586)
+    [https://arxiv.org/abs/2403.02241](https://arxiv.org/abs/2403.02241)
 
-    本文解决了在线强化学习的样本复杂度问题，提出了一种基于模型的算法，它可以在有限时间不均匀马尔可夫决策问题中实现极小后悔的最优性。
-
-    
-
-    在线强化学习的一个核心问题是数据效率。虽然最近的一些工作在在线强化学习中实现了渐近最小的后悔，但这些结果的最优性仅在“大样本”情况下得到保证，为了使其算法运行最佳，需要付出巨大的预燃成本。如何在不产生任何预燃成本的情况下实现极小后悔的最优性一直是强化学习理论中的一个开放问题。我们解决了有限时间不均匀马尔可夫决策问题的这个问题。具体地，我们证明了一种修改版的单调值传播(MVP)算法，该算法是由\cite{zhang2020reinforcement}提出的一种基于模型的算法，使得后悔的量级为(模除对数因子)\begin{equation *} \min\biggr\{ \sqrt{SAH^3K}，\，HK \biggr\}，\end{equation *}其中$S$是状态数，$A$是动作数，$H$是规划时域，$K$是总的回合数。这个后悔的量级与极小化后悔量级是相匹配的。
-
-    A central issue lying at the heart of online reinforcement learning (RL) is data efficiency. While a number of recent works achieved asymptotically minimal regret in online RL, the optimality of these results is only guaranteed in a ``large-sample'' regime, imposing enormous burn-in cost in order for their algorithms to operate optimally. How to achieve minimax-optimal regret without incurring any burn-in cost has been an open problem in RL theory.  We settle this problem for the context of finite-horizon inhomogeneous Markov decision processes. Specifically, we prove that a modified version of Monotonic Value Propagation (MVP), a model-based algorithm proposed by \cite{zhang2020reinforcement}, achieves a regret on the order of (modulo log factors) \begin{equation*}  \min\big\{ \sqrt{SAH^3K}, \,HK \big\}, \end{equation*} where $S$ is the number of states, $A$ is the number of actions, $H$ is the planning horizon, and $K$ is the total number of episodes. This regret matches the minimax 
-    
-[^4]: 当深度学习遇见多面体理论：一项综述
-
-    When Deep Learning Meets Polyhedral Theory: A Survey. (arXiv:2305.00241v1 [math.OC])
-
-    [http://arxiv.org/abs/2305.00241](http://arxiv.org/abs/2305.00241)
-
-    本文综述了深度学习与多面体理论的交叉领域。修正线性单元（ReLU）等函数使得一些神经网络结构能够通过多面体理论进行分析，应用线性和混合整数线性规划来实现网络修剪、鲁棒性分析和神经网络验证等任务。
+    本论文研究了未经训练的随机权重网络，发现即使简单的MLPs也具有强烈的归纳偏见，不同于传统观点的是，NNs并不具有固有的“简单偏见”，而是依赖于组件的作用。
 
     
 
-    在过去的十年中，深度学习成为了预测建模的主要方法，得益于深度神经网络在计算机视觉和自然语言处理等任务中的显著准确性。与此同时，神经网络的结构回归到了基于分段常数和分段线性函数的简单表示，例如修正线性单元（ReLU），这种激活函数成为神经网络中最常用的类型。这使得某些类型的网络结构，如典型的全连接前馈神经网络，能够通过多面体理论进行分析，并应用线性规划（LP）和混合整数线性规划（MILP）等方法用于各种目的。本文综述了这个快速发展领域涌现的主要主题，为更详细地了解神经网络以及应用数学提供了新的视角。我们介绍了多面体理论的基础知识以及它与深度学习的关系，并回顾了该主题的最新进展，包括在网络修剪、鲁棒性分析和神经网络验证等任务中使用LP和MILP。最后，我们讨论了当前挑战和未来研究方向。
+    我们对神经网络（NNs）的泛化能力的理解仍不完整。目前的解释基于梯度下降（GD）的隐含偏见，但无法解释梯度自由方法中模型的能力，也无法解释最近观察到的未经训练网络的简单偏见。本文寻找NNs中的其他泛化源。为了独立于GD理解体系结构提供的归纳偏见，我们研究未经训练的随机权重网络。即使是简单的MLPs也表现出强烈的归纳偏见：在权重空间中进行均匀抽样会产生一个非常偏向于复杂性的函数分布。但与常规智慧不同，NNs并不具有固有的“简单偏见”。这一特性取决于组件，如ReLU、残差连接和层归一化。可利用替代体系结构构建偏向于任何复杂性水平的偏见。Transformers也具有这一特性。
 
-    In the past decade, deep learning became the prevalent methodology for predictive modeling thanks to the remarkable accuracy of deep neural networks in tasks such as computer vision and natural language processing. Meanwhile, the structure of neural networks converged back to simpler representations based on piecewise constant and piecewise linear functions such as the Rectified Linear Unit (ReLU), which became the most commonly used type of activation function in neural networks. That made certain types of network structure $\unicode{x2014}$such as the typical fully-connected feedforward neural network$\unicode{x2014}$ amenable to analysis through polyhedral theory and to the application of methodologies such as Linear Programming (LP) and Mixed-Integer Linear Programming (MILP) for a variety of purposes. In this paper, we survey the main topics emerging from this fast-paced area of work, which bring a fresh perspective to understanding neural networks in more detail as well as to app
+    arXiv:2403.02241v1 Announce Type: cross  Abstract: Our understanding of the generalization capabilities of neural networks (NNs) is still incomplete. Prevailing explanations are based on implicit biases of gradient descent (GD) but they cannot account for the capabilities of models from gradient-free methods nor the simplicity bias recently observed in untrained networks. This paper seeks other sources of generalization in NNs.   Findings. To understand the inductive biases provided by architectures independently from GD, we examine untrained, random-weight networks. Even simple MLPs show strong inductive biases: uniform sampling in weight space yields a very biased distribution of functions in terms of complexity. But unlike common wisdom, NNs do not have an inherent "simplicity bias". This property depends on components such as ReLUs, residual connections, and layer normalizations. Alternative architectures can be built with a bias for any level of complexity. Transformers also inher
     
-[^5]: 自适应 $\tau$-Lasso：其健壮性和最优性质。
+[^3]: 简化交叉验证：高效地计算不需要全量重新计算矩阵乘积或统计量的列向中心化和标准化训练集$\mathbf{X}^\mathbf{T}\mathbf{X}$和$\mathbf{X}^\mathbf{T}\mathbf{Y}$
 
-    The Adaptive $\tau$-Lasso: Its Robustness and Oracle Properties. (arXiv:2304.09310v1 [stat.ML])
+    Shortcutting Cross-Validation: Efficiently Deriving Column-Wise Centered and Scaled Training Set $\mathbf{X}^\mathbf{T}\mathbf{X}$ and $\mathbf{X}^\mathbf{T}\mathbf{Y}$ Without Full Recomputation of Matrix Products or Statistical Moments. (arXiv:2401.13185v1 [cs.LG])
 
-    [http://arxiv.org/abs/2304.09310](http://arxiv.org/abs/2304.09310)
+    [http://arxiv.org/abs/2401.13185](http://arxiv.org/abs/2401.13185)
 
-    本文提出了一种新型鲁棒的自适应 $\tau$-Lasso 估计器，同时采用自适应 $\ell_1$-范数惩罚项以降低真实回归系数的偏差。它具有变量选择一致性和真实支持下回归向量的渐近正态性的最优性质，假定已知真实回归向量的支持。
-
-    
-
-    本文介绍了一种用于分析高维数据集的新型正则化鲁棒 $\tau$-回归估计器，以应对响应变量和协变量的严重污染。我们称这种估计器为自适应 $\tau$-Lasso，它对异常值和高杠杆点具有鲁棒性，同时采用自适应 $\ell_1$-范数惩罚项来减少真实回归系数的偏差。具体而言，该自适应 $\ell_1$-范数惩罚项为每个回归系数分配一个权重。对于固定数量的预测变量 $p$，我们显示出自适应 $\tau$-Lasso 具有变量选择一致性和真实支持下回归向量的渐近正态性的最优性质，假定已知真实回归向量的支持。然后我们通过有限样本断点和影响函数来表征其健壮性。我们进行了广泛的模拟来比较不同的估计器的性能。
-
-    This paper introduces a new regularized version of the robust $\tau$-regression estimator for analyzing high-dimensional data sets subject to gross contamination in the response variables and covariates. We call the resulting estimator adaptive $\tau$-Lasso that is robust to outliers and high-leverage points and simultaneously employs adaptive $\ell_1$-norm penalty term to reduce the bias associated with large true regression coefficients. More specifically, this adaptive $\ell_1$-norm penalty term assigns a weight to each regression coefficient. For a fixed number of predictors $p$, we show that the adaptive $\tau$-Lasso has the oracle property with respect to variable-selection consistency and asymptotic normality for the regression vector corresponding to the true support, assuming knowledge of the true regression vector support. We then characterize its robustness via the finite-sample breakdown point and the influence function. We carry-out extensive simulations to compare the per
-    
-[^6]: 用答案启发式方式促使大型语言模型解决基于知识的视觉问答问题
-
-    Prompting Large Language Models with Answer Heuristics for Knowledge-based Visual Question Answering. (arXiv:2303.01903v2 [cs.CV] UPDATED)
-
-    [http://arxiv.org/abs/2303.01903](http://arxiv.org/abs/2303.01903)
-
-    本研究提出了一个名为Prophet的框架，使用答案启发式方式促使GPT-3解决基于知识的视觉问答问题。在特定的知识型VQA数据集上训练一个纯VQA模型，并从中提取出答案启发式，可提高模型的性能。
+    本文提出了三种高效计算训练集$\mathbf{X}^\mathbf{T}\mathbf{X}$和$\mathbf{X}^\mathbf{T}\mathbf{Y}$的算法，相比于以前的工作，这些算法能够显著加速交叉验证，而无需重新计算矩阵乘积或统计量。
 
     
 
-    基于知识的视觉问答需要超出图像范围的外部知识来回答问题。早期的研究从显式知识库（KBs）检索所需的知识，这经常会引入与问题无关的信息，从而限制了模型的性能。最近的研究试图将大型语言模型（即GPT-3）作为隐含式知识引擎来获取回答所需的必要知识。尽管这些方法取得了令人鼓舞的结果，但我们认为它们还没有充分发挥GPT-3的能力，因为提供的输入信息仍然不足。在本文中，我们提出了Prophet——一个概念上简单的框架，旨在通过回答启发式方式，促使GPT-3解决基于知识的VQA问题。具体来说，我们首先在特定的基于知识的VQA数据集上训练一个纯VQA模型，而不使用外部知识。之后，我们从模型中提取了两种互补的答案启发式：答案候选项。
+    交叉验证是一种广泛使用的评估预测模型在未知数据上表现的技术。许多预测模型，如基于核的偏最小二乘（PLS）模型，需要仅使用输入矩阵$\mathbf{X}$和输出矩阵$\mathbf{Y}$中的训练集样本来计算$\mathbf{X}^{\mathbf{T}}\mathbf{X}$和$\mathbf{X}^{\mathbf{T}}\mathbf{Y}$。在这项工作中，我们提出了三种高效计算这些矩阵的算法。第一种算法不需要列向预处理。第二种算法允许以训练集均值为中心化点进行列向中心化。第三种算法允许以训练集均值和标准差为中心化点和标准化点进行列向中心化和标准化。通过证明正确性和优越的计算复杂度，它们相比于直接交叉验证和以前的快速交叉验证工作，提供了显著的交叉验证加速，而无需数据泄露。它们适合并行计算。
 
-    Knowledge-based visual question answering (VQA) requires external knowledge beyond the image to answer the question. Early studies retrieve required knowledge from explicit knowledge bases (KBs), which often introduces irrelevant information to the question, hence restricting the performance of their models. Recent works have sought to use a large language model (i.e., GPT-3) as an implicit knowledge engine to acquire the necessary knowledge for answering. Despite the encouraging results achieved by these methods, we argue that they have not fully activated the capacity of GPT-3 as the provided input information is insufficient. In this paper, we present Prophet -- a conceptually simple framework designed to prompt GPT-3 with answer heuristics for knowledge-based VQA. Specifically, we first train a vanilla VQA model on a specific knowledge-based VQA dataset without external knowledge. After that, we extract two types of complementary answer heuristics from the model: answer candidates 
+    Cross-validation is a widely used technique for assessing the performance of predictive models on unseen data. Many predictive models, such as Kernel-Based Partial Least-Squares (PLS) models, require the computation of $\mathbf{X}^{\mathbf{T}}\mathbf{X}$ and $\mathbf{X}^{\mathbf{T}}\mathbf{Y}$ using only training set samples from the input and output matrices, $\mathbf{X}$ and $\mathbf{Y}$, respectively. In this work, we present three algorithms that efficiently compute these matrices. The first one allows no column-wise preprocessing. The second one allows column-wise centering around the training set means. The third one allows column-wise centering and column-wise scaling around the training set means and standard deviations. Demonstrating correctness and superior computational complexity, they offer significant cross-validation speedup compared with straight-forward cross-validation and previous work on fast cross-validation - all without data leakage. Their suitability for paralle
+    
+[^4]: EyePreserve: 保持身份的虹膜合成
+
+    EyePreserve: Identity-Preserving Iris Synthesis. (arXiv:2312.12028v2 [cs.CV] UPDATED)
+
+    [http://arxiv.org/abs/2312.12028](http://arxiv.org/abs/2312.12028)
+
+    本论文提出了一种完全数据驱动的、保持身份的、瞳孔尺寸变化的虹膜图像合成方法，能够合成不同瞳孔尺寸的虹膜图像，代表不存在的身份，并能够在保持身份的同时进行非线性纹理变形。
+
+    
+
+    在广泛的瞳孔尺寸范围内保持身份的同身份生物特征虹膜图像的合成是复杂的，因为它涉及到虹膜肌肉收缩机制，需要将虹膜非线性纹理变形模型嵌入到合成流程中。本论文提出了一种完全数据驱动的、保持身份的、瞳孔尺寸变化的虹膜图像合成方法。这种方法能够合成具有不同瞳孔尺寸的虹膜图像，代表不存在的身份，并能够在给定目标虹膜图像的分割掩膜下非线性地变形现有主体的虹膜图像纹理。虹膜识别实验表明，所提出的变形模型不仅在改变瞳孔尺寸时保持身份，而且在瞳孔尺寸有显著差异的同身份虹膜样本之间提供更好的相似度，与最先进的线性方法相比。
+
+    Synthesis of same-identity biometric iris images, both for existing and non-existing identities while preserving the identity across a wide range of pupil sizes, is complex due to intricate iris muscle constriction mechanism, requiring a precise model of iris non-linear texture deformations to be embedded into the synthesis pipeline. This paper presents the first method of fully data-driven, identity-preserving, pupil size-varying s ynthesis of iris images. This approach is capable of synthesizing images of irises with different pupil sizes representing non-existing identities as well as non-linearly deforming the texture of iris images of existing subjects given the segmentation mask of the target iris image. Iris recognition experiments suggest that the proposed deformation model not only preserves the identity when changing the pupil size but offers better similarity between same-identity iris samples with significant differences in pupil size, compared to state-of-the-art linear an
+    
+[^5]: 基于机器学习的多重共线性解决方案：四川省碳排放案例研究
+
+    Multicollinearity Resolution Based on Machine Learning: A Case Study of Carbon Emissions in Sichuan Province. (arXiv:2309.01115v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2309.01115](http://arxiv.org/abs/2309.01115)
+
+    本研究使用机器学习方法解决了多重共线性问题，针对四川省的碳排放情况进行了案例研究。研究结果确定了行业分组，评估了排放驱动因素，并提出了科学的减排策略，以改善情况。
+
+    
+
+    本研究使用矩阵归一化对四川省46个关键产业2000-2019年的能源消耗数据进行预处理。DBSCAN聚类识别了16个特征类别以客观地分组行业。接下来，采用罚函数回归模型，以应对过拟合控制、高维数据处理和特征选择等复杂能源数据处理的优势。结果表明，煤炭周围的第二个聚类因生产需求而产生的排放量最高。以汽油和焦炭为中心的聚类的排放量也很显著。基于此，减排建议包括清洁煤技术、交通管理、钢铁中的煤电替代和行业标准化。该研究引入了无监督学习的方法来客观选择因素，并旨在探索新的减排途径。总而言之，本研究确定了行业分组，评估了排放驱动因素，并提出了科学的减排策略以进一步改善情况。
+
+    This study preprocessed 2000-2019 energy consumption data for 46 key Sichuan industries using matrix normalization. DBSCAN clustering identified 16 feature classes to objectively group industries. Penalized regression models were then applied for their advantages in overfitting control, high-dimensional data processing, and feature selection - well-suited for the complex energy data. Results showed the second cluster around coal had highest emissions due to production needs. Emissions from gasoline-focused and coke-focused clusters were also significant. Based on this, emission reduction suggestions included clean coal technologies, transportation management, coal-electricity replacement in steel, and industry standardization. The research introduced unsupervised learning to objectively select factors and aimed to explore new emission reduction avenues. In summary, the study identified industry groupings, assessed emissions drivers, and proposed scientific reduction strategies to bette
+    
+[^6]: 增强对比实例区分的语义正向对
+
+    Semantic Positive Pairs for Enhancing Contrastive Instance Discrimination. (arXiv:2306.16122v1 [cs.CV])
+
+    [http://arxiv.org/abs/2306.16122](http://arxiv.org/abs/2306.16122)
+
+    提出了一种名为语义正向对集合（SPPS）的方法，可以在表示学习过程中识别具有相似语义内容的图像，并将它们视为正向实例，从而减少丢弃重要特征的风险。在多个实验数据集上的实验证明了该方法的有效性。
+
+    
+
+    基于实例区分的自监督学习算法有效地防止表示坍缩，并在表示学习中产生了有希望的结果。然而，在嵌入空间中吸引正向对（即相同实例的两个视图）并排斥所有其他实例（即负向对），无论它们的类别，可能导致丢弃重要的特征。为了解决这个问题，我们提出了一种方法来识别具有相似语义内容的图像，并将它们视为正向实例，命名为语义正向对集合（SPPS），从而在表示学习中减少了丢弃重要特征的风险。我们的方法可以与任何对比实例区分框架（如SimCLR或MOCO）一起使用。我们在三个数据集（ImageNet、STL-10和CIFAR-10）上进行实验证明了我们的方法的有效性。实验结果表明，我们的方法始终优于基线方法vanilla。
+
+    Self-supervised learning algorithms based on instance discrimination effectively prevent representation collapse and produce promising results in representation learning. However, the process of attracting positive pairs (i.e., two views of the same instance) in the embedding space and repelling all other instances (i.e., negative pairs) irrespective of their categories could result in discarding important features. To address this issue, we propose an approach to identifying those images with similar semantic content and treating them as positive instances, named semantic positive pairs set (SPPS), thereby reducing the risk of discarding important features during representation learning. Our approach could work with any contrastive instance discrimination framework such as SimCLR or MOCO. We conduct experiments on three datasets: ImageNet, STL-10 and CIFAR-10 to evaluate our approach. The experimental results show that our approach consistently outperforms the baseline method vanilla 
     
 
