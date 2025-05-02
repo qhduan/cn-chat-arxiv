@@ -2,22 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Inference for Regression with Variables Generated from Unstructured Data](https://arxiv.org/abs/2402.15585) | 提出了一种使用联合上游和下游模型进行有效推断的一步策略，显著减少了偏误，在CEO时间利用数据的应用中产生了重要效果，适合应用研究人员。 |
+| [^1] | [Accelerated First-Order Optimization under Nonlinear Constraints.](http://arxiv.org/abs/2302.00316) | 设计了一种新的加速非线性约束下的一阶优化算法，其优点是避免了在整个可行集上进行优化，而且利用速度来表达约束，使得算法在决策变量数量和约束数量上的复杂度增长适度，适用于机器学习应用。 |
+| [^2] | [Introduction to Online Nonstochastic Control.](http://arxiv.org/abs/2211.09619) | 介绍了一种新兴的在线非随机控制方法，通过在一组策略中寻找低后悔，获得对最优策略的近似。 |
 
 # 详细
 
-[^1]: 使用来自非结构化数据生成的变量进行回归的推断
+[^1]: 加速非线性约束下的一阶优化
 
-    Inference for Regression with Variables Generated from Unstructured Data
+    Accelerated First-Order Optimization under Nonlinear Constraints. (arXiv:2302.00316v2 [math.OC] UPDATED)
 
-    [https://arxiv.org/abs/2402.15585](https://arxiv.org/abs/2402.15585)
+    [http://arxiv.org/abs/2302.00316](http://arxiv.org/abs/2302.00316)
 
-    提出了一种使用联合上游和下游模型进行有效推断的一步策略，显著减少了偏误，在CEO时间利用数据的应用中产生了重要效果，适合应用研究人员。
+    设计了一种新的加速非线性约束下的一阶优化算法，其优点是避免了在整个可行集上进行优化，而且利用速度来表达约束，使得算法在决策变量数量和约束数量上的复杂度增长适度，适用于机器学习应用。
 
     
 
-    分析非结构化数据的主要策略包括两个步骤。首先，使用上游信息检索模型估计感兴趣的潜在经济变量。其次，将估计值视为下游计量经济模型中的“数据”。我们建立了理论论点，解释为什么在实证合理的设置中，这种两步策略会导致偏误的推断。更具建设性的是，我们提出了一个有效推断的一步策略，该策略同时使用上游和下游模型。在模拟中，这一步策略(i) 显著减少了偏误；(ii) 在使用CEO时间利用数据的主要应用中产生了定量重要的效果；(iii) 可以很容易地被应用研究人员采用。
+    我们利用约束优化和非光滑动力系统之间的类比，设计了一种新的加速非线性约束下的一阶优化算法。与Frank-Wolfe或投影梯度不同，这些算法避免了每次迭代在整个可行集上进行优化。我们证明了在非凸设置中的收敛性，并推导了在连续时间和离散时间中的凸设置的加速率。这些算法的一个重要特性是使用速度而不是位置来表达约束，这自然地导致可行集的稀疏、局部和凸近似（即使可行集是非凸的）。因此，复杂度在决策变量数量和约束数量上适度增长，使得该算法适用于机器学习应用。我们将算法应用于压缩感知和稀疏···
 
-    arXiv:2402.15585v1 Announce Type: new  Abstract: The leading strategy for analyzing unstructured data uses two steps. First, latent variables of economic interest are estimated with an upstream information retrieval model. Second, the estimates are treated as "data" in a downstream econometric model. We establish theoretical arguments for why this two-step strategy leads to biased inference in empirically plausible settings. More constructively, we propose a one-step strategy for valid inference that uses the upstream and downstream models jointly. The one-step strategy (i) substantially reduces bias in simulations; (ii) has quantitatively important effects in a leading application using CEO time-use data; and (iii) can be readily adapted by applied researchers.
+    We exploit analogies between first-order algorithms for constrained optimization and non-smooth dynamical systems to design a new class of accelerated first-order algorithms for constrained optimization. Unlike Frank-Wolfe or projected gradients, these algorithms avoid optimization over the entire feasible set at each iteration. We prove convergence to stationary points even in a nonconvex setting and we derive accelerated rates for the convex setting both in continuous time, as well as in discrete time. An important property of these algorithms is that constraints are expressed in terms of velocities instead of positions, which naturally leads to sparse, local and convex approximations of the feasible set (even if the feasible set is nonconvex). Thus, the complexity tends to grow mildly in the number of decision variables and in the number of constraints, which makes the algorithms suitable for machine learning applications. We apply our algorithms to a compressed sensing and a sparse
+    
+[^2]: 在线非随机控制简介
+
+    Introduction to Online Nonstochastic Control. (arXiv:2211.09619v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2211.09619](http://arxiv.org/abs/2211.09619)
+
+    介绍了一种新兴的在线非随机控制方法，通过在一组策略中寻找低后悔，获得对最优策略的近似。
+
+    
+
+    本文介绍了一种新兴的动态系统控制与可微强化学习范式——在线非随机控制，并应用在线凸优化和凸松弛技术得到了具有可证明保证的新方法，在最佳和鲁棒控制方面取得了显著成果。与其他框架不同，该方法的目标是对抗性攻击，在无法预测扰动模型的情况下，通过在一组策略中寻找低后悔，获得对最优策略的近似。
+
+    This text presents an introduction to an emerging paradigm in control of dynamical systems and differentiable reinforcement learning called online nonstochastic control. The new approach applies techniques from online convex optimization and convex relaxations to obtain new methods with provable guarantees for classical settings in optimal and robust control.  The primary distinction between online nonstochastic control and other frameworks is the objective. In optimal control, robust control, and other control methodologies that assume stochastic noise, the goal is to perform comparably to an offline optimal strategy. In online nonstochastic control, both the cost functions as well as the perturbations from the assumed dynamical model are chosen by an adversary. Thus the optimal policy is not defined a priori. Rather, the target is to attain low regret against the best policy in hindsight from a benchmark class of policies.  This objective suggests the use of the decision making frame
     
 

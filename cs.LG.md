@@ -2,58 +2,74 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Inferring the Langevin Equation with Uncertainty via Bayesian Neural Networks](https://rss.arxiv.org/abs/2402.01338) | 本研究提出了一个使用贝叶斯神经网络推断带有不确定性的朗之万方程的综合框架，可以应用于非线性和高维系统，通过提供预测的分布从而评估预测的不确定性。 |
-| [^2] | [Neural Redshift: Random Networks are not Random Functions](https://arxiv.org/abs/2403.02241) | 本论文研究了未经训练的随机权重网络，发现即使简单的MLPs也具有强烈的归纳偏见，不同于传统观点的是，NNs并不具有固有的“简单偏见”，而是依赖于组件的作用。 |
-| [^3] | [Shortcutting Cross-Validation: Efficiently Deriving Column-Wise Centered and Scaled Training Set $\mathbf{X}^\mathbf{T}\mathbf{X}$ and $\mathbf{X}^\mathbf{T}\mathbf{Y}$ Without Full Recomputation of Matrix Products or Statistical Moments.](http://arxiv.org/abs/2401.13185) | 本文提出了三种高效计算训练集$\mathbf{X}^\mathbf{T}\mathbf{X}$和$\mathbf{X}^\mathbf{T}\mathbf{Y}$的算法，相比于以前的工作，这些算法能够显著加速交叉验证，而无需重新计算矩阵乘积或统计量。 |
-| [^4] | [EyePreserve: Identity-Preserving Iris Synthesis.](http://arxiv.org/abs/2312.12028) | 本论文提出了一种完全数据驱动的、保持身份的、瞳孔尺寸变化的虹膜图像合成方法，能够合成不同瞳孔尺寸的虹膜图像，代表不存在的身份，并能够在保持身份的同时进行非线性纹理变形。 |
-| [^5] | [Multicollinearity Resolution Based on Machine Learning: A Case Study of Carbon Emissions in Sichuan Province.](http://arxiv.org/abs/2309.01115) | 本研究使用机器学习方法解决了多重共线性问题，针对四川省的碳排放情况进行了案例研究。研究结果确定了行业分组，评估了排放驱动因素，并提出了科学的减排策略，以改善情况。 |
-| [^6] | [Semantic Positive Pairs for Enhancing Contrastive Instance Discrimination.](http://arxiv.org/abs/2306.16122) | 提出了一种名为语义正向对集合（SPPS）的方法，可以在表示学习过程中识别具有相似语义内容的图像，并将它们视为正向实例，从而减少丢弃重要特征的风险。在多个实验数据集上的实验证明了该方法的有效性。 |
+| [^1] | [FOOL: Addressing the Downlink Bottleneck in Satellite Computing with Neural Feature Compression](https://arxiv.org/abs/2403.16677) | FOOL是一种OEC本地和任务不可知的特征压缩方法，通过最大化吞吐量、嵌入上下文和利用瓷砖间的依赖关系，降低传输成本，同时保持预测性能。 |
+| [^2] | [Fairness Risks for Group-conditionally Missing Demographics](https://arxiv.org/abs/2402.13393) | 通过概率填充敏感特征，联合学习群体条件性缺失概率，增强一般公平风险，实现准确性和公平性之间的改进平衡 |
+| [^3] | [Fiddler: CPU-GPU Orchestration for Fast Inference of Mixture-of-Experts Models](https://arxiv.org/abs/2402.07033) | 本文介绍了Fiddler，一种用于Mixture-of-Experts模型的资源高效推断引擎，通过CPU-GPU编排实现最小化数据传输，相比现有方法提高了一个数量级的推断速度。 |
+| [^4] | [Omitted Labels in Causality: A Study of Paradoxes](https://arxiv.org/abs/2311.06840) | 本研究探讨了所谓的“遗漏标签上下文”，即训练数据仅限于可能标签的一个子集，并利用悖论展示了在这种上下文中因果推断面临的困难。研究发现在某些情况下，必须使用非可交换的处理组和对照组进行正确的校正。此外，研究还发现了结论网络与社会选择理论之间的有趣联系。 |
+| [^5] | [EyePreserve: Identity-Preserving Iris Synthesis.](http://arxiv.org/abs/2312.12028) | 本论文提出了一种完全数据驱动的、保持身份的、瞳孔尺寸变化的虹膜图像合成方法，能够合成不同瞳孔尺寸的虹膜图像，代表不存在的身份，并能够在保持身份的同时进行非线性纹理变形。 |
+| [^6] | [ALEXR: An Optimal Single-Loop Algorithm for Convex Finite-Sum Coupled Compositional Stochastic Optimization.](http://arxiv.org/abs/2312.02277) | 本文提出了一种名为ALEXR的高效算法，用于解决凸有限和耦合组成随机优化问题。此算法在解决平滑和非平滑问题时具有优越的收敛速度，并且可应用于多个领域，包括组分布鲁棒优化、不平衡数据学习、强化学习和排序学习。 |
+| [^7] | [Accelerated First-Order Optimization under Nonlinear Constraints.](http://arxiv.org/abs/2302.00316) | 设计了一种新的加速非线性约束下的一阶优化算法，其优点是避免了在整个可行集上进行优化，而且利用速度来表达约束，使得算法在决策变量数量和约束数量上的复杂度增长适度，适用于机器学习应用。 |
+| [^8] | [Introduction to Online Nonstochastic Control.](http://arxiv.org/abs/2211.09619) | 介绍了一种新兴的在线非随机控制方法，通过在一组策略中寻找低后悔，获得对最优策略的近似。 |
 
 # 详细
 
-[^1]: 通过贝叶斯神经网络推断带有不确定性的朗之万方程
+[^1]: FOOL: 用神经特征压缩解决卫星计算中的下行瓶颈问题
 
-    Inferring the Langevin Equation with Uncertainty via Bayesian Neural Networks
+    FOOL: Addressing the Downlink Bottleneck in Satellite Computing with Neural Feature Compression
 
-    [https://rss.arxiv.org/abs/2402.01338](https://rss.arxiv.org/abs/2402.01338)
+    [https://arxiv.org/abs/2403.16677](https://arxiv.org/abs/2403.16677)
 
-    本研究提出了一个使用贝叶斯神经网络推断带有不确定性的朗之万方程的综合框架，可以应用于非线性和高维系统，通过提供预测的分布从而评估预测的不确定性。
-
-    
-
-    在各个领域普遍存在的随机系统表现出从分子动力学到气候现象的过程中的波动。朗之万方程作为一种常见的数学模型，被用于研究这种系统，可以预测它们的时间演化以及分析热力学量，包括吸收热量、对系统做的功以及熵的产生。然而，从观测轨迹中推断朗之万方程仍然具有挑战性，尤其是对于非线性和高维系统。在本研究中，我们提出了一个全面的框架，利用贝叶斯神经网络来推断过阻尼和欠阻尼情况下的朗之万方程。我们的框架首先分别提供漂移力和扩散矩阵，然后将它们组合起来构建朗之万方程。通过提供预测的分布而不仅仅是一个单一的值，我们的方法允许我们评估预测的不确定性，这可以防止潜在的…
-
-    Pervasive across diverse domains, stochastic systems exhibit fluctuations in processes ranging from molecular dynamics to climate phenomena. The Langevin equation has served as a common mathematical model for studying such systems, enabling predictions of their temporal evolution and analyses of thermodynamic quantities, including absorbed heat, work done on the system, and entropy production. However, inferring the Langevin equation from observed trajectories remains challenging, particularly for nonlinear and high-dimensional systems. In this study, we present a comprehensive framework that employs Bayesian neural networks for inferring Langevin equations in both overdamped and underdamped regimes. Our framework first provides the drift force and diffusion matrix separately and then combines them to construct the Langevin equation. By providing a distribution of predictions instead of a single value, our approach allows us to assess prediction uncertainties, which can prevent potenti
-    
-[^2]: 神经红移：随机网络并非随机函数
-
-    Neural Redshift: Random Networks are not Random Functions
-
-    [https://arxiv.org/abs/2403.02241](https://arxiv.org/abs/2403.02241)
-
-    本论文研究了未经训练的随机权重网络，发现即使简单的MLPs也具有强烈的归纳偏见，不同于传统观点的是，NNs并不具有固有的“简单偏见”，而是依赖于组件的作用。
+    FOOL是一种OEC本地和任务不可知的特征压缩方法，通过最大化吞吐量、嵌入上下文和利用瓷砖间的依赖关系，降低传输成本，同时保持预测性能。
 
     
 
-    我们对神经网络（NNs）的泛化能力的理解仍不完整。目前的解释基于梯度下降（GD）的隐含偏见，但无法解释梯度自由方法中模型的能力，也无法解释最近观察到的未经训练网络的简单偏见。本文寻找NNs中的其他泛化源。为了独立于GD理解体系结构提供的归纳偏见，我们研究未经训练的随机权重网络。即使是简单的MLPs也表现出强烈的归纳偏见：在权重空间中进行均匀抽样会产生一个非常偏向于复杂性的函数分布。但与常规智慧不同，NNs并不具有固有的“简单偏见”。这一特性取决于组件，如ReLU、残差连接和层归一化。可利用替代体系结构构建偏向于任何复杂性水平的偏见。Transformers也具有这一特性。
+    具有传感器的纳卫星星座捕获大范围地理区域，为地球观测提供了前所未有的机会。随着星座规模的增加，网络争用形成了下行瓶颈。轨道边缘计算（OEC）利用有限的机载计算资源通过在源头处理原始捕获来减少传输成本。然而，由于依赖粗糙的过滤方法或过分优先考虑特定下游任务，目前的解决方案具有有限的实用性。本文提出了FOOL，一种OEC本地和任务不可知的特征压缩方法，可保留预测性能。FOOL将高分辨率卫星图像进行分区，以最大化吞吐量。此外，它嵌入上下文并利用瓷砖间的依赖关系，以较低的开销降低传输成本。虽然FOOL是一种特征压缩器，但它可以在低
 
-    arXiv:2403.02241v1 Announce Type: cross  Abstract: Our understanding of the generalization capabilities of neural networks (NNs) is still incomplete. Prevailing explanations are based on implicit biases of gradient descent (GD) but they cannot account for the capabilities of models from gradient-free methods nor the simplicity bias recently observed in untrained networks. This paper seeks other sources of generalization in NNs.   Findings. To understand the inductive biases provided by architectures independently from GD, we examine untrained, random-weight networks. Even simple MLPs show strong inductive biases: uniform sampling in weight space yields a very biased distribution of functions in terms of complexity. But unlike common wisdom, NNs do not have an inherent "simplicity bias". This property depends on components such as ReLUs, residual connections, and layer normalizations. Alternative architectures can be built with a bias for any level of complexity. Transformers also inher
+    arXiv:2403.16677v1 Announce Type: new  Abstract: Nanosatellite constellations equipped with sensors capturing large geographic regions provide unprecedented opportunities for Earth observation. As constellation sizes increase, network contention poses a downlink bottleneck. Orbital Edge Computing (OEC) leverages limited onboard compute resources to reduce transfer costs by processing the raw captures at the source. However, current solutions have limited practicability due to reliance on crude filtering methods or over-prioritizing particular downstream tasks.   This work presents FOOL, an OEC-native and task-agnostic feature compression method that preserves prediction performance. FOOL partitions high-resolution satellite imagery to maximize throughput. Further, it embeds context and leverages inter-tile dependencies to lower transfer costs with negligible overhead. While FOOL is a feature compressor, it can recover images with competitive scores on perceptual quality measures at low
     
-[^3]: 简化交叉验证：高效地计算不需要全量重新计算矩阵乘积或统计量的列向中心化和标准化训练集$\mathbf{X}^\mathbf{T}\mathbf{X}$和$\mathbf{X}^\mathbf{T}\mathbf{Y}$
+[^2]: 针对群体条件性缺失人口统计数据的公平风险
 
-    Shortcutting Cross-Validation: Efficiently Deriving Column-Wise Centered and Scaled Training Set $\mathbf{X}^\mathbf{T}\mathbf{X}$ and $\mathbf{X}^\mathbf{T}\mathbf{Y}$ Without Full Recomputation of Matrix Products or Statistical Moments. (arXiv:2401.13185v1 [cs.LG])
+    Fairness Risks for Group-conditionally Missing Demographics
 
-    [http://arxiv.org/abs/2401.13185](http://arxiv.org/abs/2401.13185)
+    [https://arxiv.org/abs/2402.13393](https://arxiv.org/abs/2402.13393)
 
-    本文提出了三种高效计算训练集$\mathbf{X}^\mathbf{T}\mathbf{X}$和$\mathbf{X}^\mathbf{T}\mathbf{Y}$的算法，相比于以前的工作，这些算法能够显著加速交叉验证，而无需重新计算矩阵乘积或统计量。
+    通过概率填充敏感特征，联合学习群体条件性缺失概率，增强一般公平风险，实现准确性和公平性之间的改进平衡
 
     
 
-    交叉验证是一种广泛使用的评估预测模型在未知数据上表现的技术。许多预测模型，如基于核的偏最小二乘（PLS）模型，需要仅使用输入矩阵$\mathbf{X}$和输出矩阵$\mathbf{Y}$中的训练集样本来计算$\mathbf{X}^{\mathbf{T}}\mathbf{X}$和$\mathbf{X}^{\mathbf{T}}\mathbf{Y}$。在这项工作中，我们提出了三种高效计算这些矩阵的算法。第一种算法不需要列向预处理。第二种算法允许以训练集均值为中心化点进行列向中心化。第三种算法允许以训练集均值和标准差为中心化点和标准化点进行列向中心化和标准化。通过证明正确性和优越的计算复杂度，它们相比于直接交叉验证和以前的快速交叉验证工作，提供了显著的交叉验证加速，而无需数据泄露。它们适合并行计算。
+    具有公平意识的分类模型近年来越来越受到关注，因为对某些人口统计群体的歧视问题日益引起担忧。大多数现有模型要求完全了解敏感特征，这可能由于隐私、法律问题和个人对歧视的恐惧而不切实际。我们将解决的关键挑战是不可用性的群体依赖性，例如，某些年龄范围的人可能更不愿透露他们的年龄。我们的解决方案通过对敏感特征进行概率填充，同时在变分自动编码器中联合学习群体条件性缺失的概率，将一般公平风险与之增强。我们的模型在图像和表格数据集上表现出了有效性，实现了准确性和公平性之间的改进平衡。
 
-    Cross-validation is a widely used technique for assessing the performance of predictive models on unseen data. Many predictive models, such as Kernel-Based Partial Least-Squares (PLS) models, require the computation of $\mathbf{X}^{\mathbf{T}}\mathbf{X}$ and $\mathbf{X}^{\mathbf{T}}\mathbf{Y}$ using only training set samples from the input and output matrices, $\mathbf{X}$ and $\mathbf{Y}$, respectively. In this work, we present three algorithms that efficiently compute these matrices. The first one allows no column-wise preprocessing. The second one allows column-wise centering around the training set means. The third one allows column-wise centering and column-wise scaling around the training set means and standard deviations. Demonstrating correctness and superior computational complexity, they offer significant cross-validation speedup compared with straight-forward cross-validation and previous work on fast cross-validation - all without data leakage. Their suitability for paralle
+    arXiv:2402.13393v1 Announce Type: new  Abstract: Fairness-aware classification models have gained increasing attention in recent years as concerns grow on discrimination against some demographic groups. Most existing models require full knowledge of the sensitive features, which can be impractical due to privacy, legal issues, and an individual's fear of discrimination. The key challenge we will address is the group dependency of the unavailability, e.g., people of some age range may be more reluctant to reveal their age. Our solution augments general fairness risks with probabilistic imputations of the sensitive features, while jointly learning the group-conditionally missing probabilities in a variational auto-encoder. Our model is demonstrated effective on both image and tabular datasets, achieving an improved balance between accuracy and fairness.
     
-[^4]: EyePreserve: 保持身份的虹膜合成
+[^3]: Fiddler：用于Mixture-of-Experts模型快速推断的CPU-GPU编排
+
+    Fiddler: CPU-GPU Orchestration for Fast Inference of Mixture-of-Experts Models
+
+    [https://arxiv.org/abs/2402.07033](https://arxiv.org/abs/2402.07033)
+
+    本文介绍了Fiddler，一种用于Mixture-of-Experts模型的资源高效推断引擎，通过CPU-GPU编排实现最小化数据传输，相比现有方法提高了一个数量级的推断速度。
+
+    
+
+    基于Mixture-of-Experts（MoE）架构的大型语言模型（LLM）在各种任务上表现出了很好的性能。然而，在资源受限的环境下运行这些模型，即GPU内存资源不丰富的情况下，由于模型规模庞大，存在挑战。现有的将模型权重卸载到CPU内存的系统，由于频繁地在CPU和GPU之间移动数据而导致显著的开销。在本文中，我们提出了Fiddler，一种用于MoE模型的资源高效推断引擎，实现了CPU-GPU编排。Fiddler的核心思想是利用CPU的计算能力来最小化CPU和GPU之间的数据传输。我们的评估结果表明，Fiddler能够在单个具有24GB内存的GPU上运行未压缩的Mixtral-8x7B模型（参数超过90GB），每秒生成超过3个token，相比现有方法提高一个数量级。Fiddler的代码可以公开访问，网址为\url{https://github.com/efeslab/fiddler}
+
+    Large Language Models (LLMs) based on Mixture-of-Experts (MoE) architecture are showing promising performance on various tasks. However, running them on resource-constrained settings, where GPU memory resources are not abundant, is challenging due to huge model sizes. Existing systems that offload model weights to CPU memory suffer from the significant overhead of frequently moving data between CPU and GPU. In this paper, we propose Fiddler, a resource-efficient inference engine with CPU-GPU orchestration for MoE models. The key idea of Fiddler is to use the computation ability of the CPU to minimize the data movement between the CPU and GPU. Our evaluation shows that Fiddler can run the uncompressed Mixtral-8x7B model, which exceeds 90GB in parameters, to generate over $3$ tokens per second on a single GPU with 24GB memory, showing an order of magnitude improvement over existing methods. The code of Fiddler is publicly available at \url{https://github.com/efeslab/fiddler}
+    
+[^4]: 在因果推断中的遗漏标签: 一项关于悖论的研究
+
+    Omitted Labels in Causality: A Study of Paradoxes
+
+    [https://arxiv.org/abs/2311.06840](https://arxiv.org/abs/2311.06840)
+
+    本研究探讨了所谓的“遗漏标签上下文”，即训练数据仅限于可能标签的一个子集，并利用悖论展示了在这种上下文中因果推断面临的困难。研究发现在某些情况下，必须使用非可交换的处理组和对照组进行正确的校正。此外，研究还发现了结论网络与社会选择理论之间的有趣联系。
+
+    
+
+    我们探讨了我们所称之为“遗漏标签上下文”的概念，即训练数据仅限于可能标签的一个子集。这种设置在专业人士或特定的专注研究中非常普遍。我们利用已广泛研究的悖论（辛普森悖论和康多塞悖论）来说明在遗漏标签上下文中因果推断面临的更普遍困难。与因果推断基本原理相反，我们展示了“正确”的校正有时需要非可交换的处理组和对照组。这些陷阱引导我们研究不同上下文中得出的结论网络和其形成的结构，从而证明了这些网络与社会选择理论的有趣联系。
+
+    We explore what we call ``omitted label contexts,'' in which training data is limited to a subset of the possible labels. This setting is common among specialized human experts or specific focused studies. We lean on well-studied paradoxes (Simpson's and Condorcet) to illustrate the more general difficulties of causal inference in omitted label contexts. Contrary to the fundamental principles on which much of causal inference is built, we show that ``correct'' adjustments sometimes require non-exchangeable treatment and control groups. These pitfalls lead us to the study networks of conclusions drawn from different contexts and the structures the form, proving an interesting connection between these networks and social choice theory.
+    
+[^5]: EyePreserve: 保持身份的虹膜合成
 
     EyePreserve: Identity-Preserving Iris Synthesis. (arXiv:2312.12028v2 [cs.CV] UPDATED)
 
@@ -67,32 +83,46 @@
 
     Synthesis of same-identity biometric iris images, both for existing and non-existing identities while preserving the identity across a wide range of pupil sizes, is complex due to intricate iris muscle constriction mechanism, requiring a precise model of iris non-linear texture deformations to be embedded into the synthesis pipeline. This paper presents the first method of fully data-driven, identity-preserving, pupil size-varying s ynthesis of iris images. This approach is capable of synthesizing images of irises with different pupil sizes representing non-existing identities as well as non-linearly deforming the texture of iris images of existing subjects given the segmentation mask of the target iris image. Iris recognition experiments suggest that the proposed deformation model not only preserves the identity when changing the pupil size but offers better similarity between same-identity iris samples with significant differences in pupil size, compared to state-of-the-art linear an
     
-[^5]: 基于机器学习的多重共线性解决方案：四川省碳排放案例研究
+[^6]: ALEXR:一种用于凸有限和耦合组成随机优化的最优单循环算法
 
-    Multicollinearity Resolution Based on Machine Learning: A Case Study of Carbon Emissions in Sichuan Province. (arXiv:2309.01115v2 [cs.LG] UPDATED)
+    ALEXR: An Optimal Single-Loop Algorithm for Convex Finite-Sum Coupled Compositional Stochastic Optimization. (arXiv:2312.02277v2 [math.OC] UPDATED)
 
-    [http://arxiv.org/abs/2309.01115](http://arxiv.org/abs/2309.01115)
+    [http://arxiv.org/abs/2312.02277](http://arxiv.org/abs/2312.02277)
 
-    本研究使用机器学习方法解决了多重共线性问题，针对四川省的碳排放情况进行了案例研究。研究结果确定了行业分组，评估了排放驱动因素，并提出了科学的减排策略，以改善情况。
-
-    
-
-    本研究使用矩阵归一化对四川省46个关键产业2000-2019年的能源消耗数据进行预处理。DBSCAN聚类识别了16个特征类别以客观地分组行业。接下来，采用罚函数回归模型，以应对过拟合控制、高维数据处理和特征选择等复杂能源数据处理的优势。结果表明，煤炭周围的第二个聚类因生产需求而产生的排放量最高。以汽油和焦炭为中心的聚类的排放量也很显著。基于此，减排建议包括清洁煤技术、交通管理、钢铁中的煤电替代和行业标准化。该研究引入了无监督学习的方法来客观选择因素，并旨在探索新的减排途径。总而言之，本研究确定了行业分组，评估了排放驱动因素，并提出了科学的减排策略以进一步改善情况。
-
-    This study preprocessed 2000-2019 energy consumption data for 46 key Sichuan industries using matrix normalization. DBSCAN clustering identified 16 feature classes to objectively group industries. Penalized regression models were then applied for their advantages in overfitting control, high-dimensional data processing, and feature selection - well-suited for the complex energy data. Results showed the second cluster around coal had highest emissions due to production needs. Emissions from gasoline-focused and coke-focused clusters were also significant. Based on this, emission reduction suggestions included clean coal technologies, transportation management, coal-electricity replacement in steel, and industry standardization. The research introduced unsupervised learning to objectively select factors and aimed to explore new emission reduction avenues. In summary, the study identified industry groupings, assessed emissions drivers, and proposed scientific reduction strategies to bette
-    
-[^6]: 增强对比实例区分的语义正向对
-
-    Semantic Positive Pairs for Enhancing Contrastive Instance Discrimination. (arXiv:2306.16122v1 [cs.CV])
-
-    [http://arxiv.org/abs/2306.16122](http://arxiv.org/abs/2306.16122)
-
-    提出了一种名为语义正向对集合（SPPS）的方法，可以在表示学习过程中识别具有相似语义内容的图像，并将它们视为正向实例，从而减少丢弃重要特征的风险。在多个实验数据集上的实验证明了该方法的有效性。
+    本文提出了一种名为ALEXR的高效算法，用于解决凸有限和耦合组成随机优化问题。此算法在解决平滑和非平滑问题时具有优越的收敛速度，并且可应用于多个领域，包括组分布鲁棒优化、不平衡数据学习、强化学习和排序学习。
 
     
 
-    基于实例区分的自监督学习算法有效地防止表示坍缩，并在表示学习中产生了有希望的结果。然而，在嵌入空间中吸引正向对（即相同实例的两个视图）并排斥所有其他实例（即负向对），无论它们的类别，可能导致丢弃重要的特征。为了解决这个问题，我们提出了一种方法来识别具有相似语义内容的图像，并将它们视为正向实例，命名为语义正向对集合（SPPS），从而在表示学习中减少了丢弃重要特征的风险。我们的方法可以与任何对比实例区分框架（如SimCLR或MOCO）一起使用。我们在三个数据集（ImageNet、STL-10和CIFAR-10）上进行实验证明了我们的方法的有效性。实验结果表明，我们的方法始终优于基线方法vanilla。
+    本文重新审视了一类具有多个应用的凸有限和耦合组成随机优化（cFCCO）问题，包括组分布鲁棒优化（GDRO），不平衡数据学习，强化学习和排序学习。为了更好地解决这些问题，我们引入了一个高效的单循环原始-对偶块坐标近端算法，称为ALEXR。该算法利用块坐标随机镜像上升更新对偶变量和随机近端梯度下降更新原始变量。我们在平滑和非平滑函数条件下建立了ALEXR在凸和强凸情况下的收敛速度，这不仅改进了以前在平滑cFCCO问题上的最佳速度，还扩展了cFCCO的范围，用于解决更具挑战性的非平滑问题，如GDRO的对偶形式。最后，我们提供了较低的复杂性下界，以证明算法具有很强的效率。
 
-    Self-supervised learning algorithms based on instance discrimination effectively prevent representation collapse and produce promising results in representation learning. However, the process of attracting positive pairs (i.e., two views of the same instance) in the embedding space and repelling all other instances (i.e., negative pairs) irrespective of their categories could result in discarding important features. To address this issue, we propose an approach to identifying those images with similar semantic content and treating them as positive instances, named semantic positive pairs set (SPPS), thereby reducing the risk of discarding important features during representation learning. Our approach could work with any contrastive instance discrimination framework such as SimCLR or MOCO. We conduct experiments on three datasets: ImageNet, STL-10 and CIFAR-10 to evaluate our approach. The experimental results show that our approach consistently outperforms the baseline method vanilla 
+    This paper revisits a class of convex Finite-Sum Coupled Compositional Stochastic Optimization (cFCCO) problems with many applications, including group distributionally robust optimization (GDRO), learning with imbalanced data, reinforcement learning, and learning to rank. To better solve these problems, we introduce an efficient single-loop primal-dual block-coordinate proximal algorithm, dubbed ALEXR. This algorithm leverages block-coordinate stochastic mirror ascent updates for the dual variable and stochastic proximal gradient descent updates for the primal variable. We establish the convergence rates of ALEXR in both convex and strongly convex cases under smoothness and non-smoothness conditions of involved functions, which not only improve the best rates in previous works on smooth cFCCO problems but also expand the realm of cFCCO for solving more challenging non-smooth problems such as the dual form of GDRO. Finally, we present lower complexity bounds to demonstrate that the con
+    
+[^7]: 加速非线性约束下的一阶优化
+
+    Accelerated First-Order Optimization under Nonlinear Constraints. (arXiv:2302.00316v2 [math.OC] UPDATED)
+
+    [http://arxiv.org/abs/2302.00316](http://arxiv.org/abs/2302.00316)
+
+    设计了一种新的加速非线性约束下的一阶优化算法，其优点是避免了在整个可行集上进行优化，而且利用速度来表达约束，使得算法在决策变量数量和约束数量上的复杂度增长适度，适用于机器学习应用。
+
+    
+
+    我们利用约束优化和非光滑动力系统之间的类比，设计了一种新的加速非线性约束下的一阶优化算法。与Frank-Wolfe或投影梯度不同，这些算法避免了每次迭代在整个可行集上进行优化。我们证明了在非凸设置中的收敛性，并推导了在连续时间和离散时间中的凸设置的加速率。这些算法的一个重要特性是使用速度而不是位置来表达约束，这自然地导致可行集的稀疏、局部和凸近似（即使可行集是非凸的）。因此，复杂度在决策变量数量和约束数量上适度增长，使得该算法适用于机器学习应用。我们将算法应用于压缩感知和稀疏···
+
+    We exploit analogies between first-order algorithms for constrained optimization and non-smooth dynamical systems to design a new class of accelerated first-order algorithms for constrained optimization. Unlike Frank-Wolfe or projected gradients, these algorithms avoid optimization over the entire feasible set at each iteration. We prove convergence to stationary points even in a nonconvex setting and we derive accelerated rates for the convex setting both in continuous time, as well as in discrete time. An important property of these algorithms is that constraints are expressed in terms of velocities instead of positions, which naturally leads to sparse, local and convex approximations of the feasible set (even if the feasible set is nonconvex). Thus, the complexity tends to grow mildly in the number of decision variables and in the number of constraints, which makes the algorithms suitable for machine learning applications. We apply our algorithms to a compressed sensing and a sparse
+    
+[^8]: 在线非随机控制简介
+
+    Introduction to Online Nonstochastic Control. (arXiv:2211.09619v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2211.09619](http://arxiv.org/abs/2211.09619)
+
+    介绍了一种新兴的在线非随机控制方法，通过在一组策略中寻找低后悔，获得对最优策略的近似。
+
+    
+
+    本文介绍了一种新兴的动态系统控制与可微强化学习范式——在线非随机控制，并应用在线凸优化和凸松弛技术得到了具有可证明保证的新方法，在最佳和鲁棒控制方面取得了显著成果。与其他框架不同，该方法的目标是对抗性攻击，在无法预测扰动模型的情况下，通过在一组策略中寻找低后悔，获得对最优策略的近似。
+
+    This text presents an introduction to an emerging paradigm in control of dynamical systems and differentiable reinforcement learning called online nonstochastic control. The new approach applies techniques from online convex optimization and convex relaxations to obtain new methods with provable guarantees for classical settings in optimal and robust control.  The primary distinction between online nonstochastic control and other frameworks is the objective. In optimal control, robust control, and other control methodologies that assume stochastic noise, the goal is to perform comparably to an offline optimal strategy. In online nonstochastic control, both the cost functions as well as the perturbations from the assumed dynamical model are chosen by an adversary. Thus the optimal policy is not defined a priori. Rather, the target is to attain low regret against the best policy in hindsight from a benchmark class of policies.  This objective suggests the use of the decision making frame
     
 
