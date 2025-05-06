@@ -1,1 +1,21 @@
-<rss version="2.0"><channel><title>Chat Arxiv cs.IR</title><link>https://github.com/qhduan/cn-chat-arxiv</link><description>This is arxiv RSS feed for cs.IR</description></channel></rss>
+<rss version="2.0"><channel><title>Chat Arxiv cs.IR</title><link>https://github.com/qhduan/cn-chat-arxiv</link><description>This is arxiv RSS feed for cs.IR</description><item><title>&#26412;&#30740;&#31350;&#25552;&#20986;&#20102;&#19968;&#31181;&#29983;&#25104;-&#23545;&#27604;&#24322;&#26500;&#22270;&#31070;&#32463;&#32593;&#32476;&#65292;&#36890;&#36807;&#23545;&#27604;&#35270;&#22270;&#22686;&#24378;&#31574;&#30053;&#12289;&#20301;&#32622;&#24863;&#30693;&#21644;&#35821;&#20041;&#24863;&#30693;&#27491;&#26679;&#26412;&#37319;&#26679;&#31574;&#30053;&#20197;&#21450;&#20998;&#23618;&#23545;&#27604;&#23398;&#20064;&#31574;&#30053;&#26469;&#20811;&#26381;&#22270;&#25968;&#25454;&#22686;&#24378;&#30340;&#38480;&#21046;&#12290;</title><link>https://arxiv.org/abs/2404.02810</link><description>&lt;p&gt;
+&#29983;&#25104;-&#23545;&#27604;&#24322;&#26500;&#22270;&#31070;&#32463;&#32593;&#32476;
+&lt;/p&gt;
+&lt;p&gt;
+Generative-Contrastive Heterogeneous Graph Neural Network
+&lt;/p&gt;
+&lt;p&gt;
+https://arxiv.org/abs/2404.02810
+&lt;/p&gt;
+&lt;p&gt;
+&#26412;&#30740;&#31350;&#25552;&#20986;&#20102;&#19968;&#31181;&#29983;&#25104;-&#23545;&#27604;&#24322;&#26500;&#22270;&#31070;&#32463;&#32593;&#32476;&#65292;&#36890;&#36807;&#23545;&#27604;&#35270;&#22270;&#22686;&#24378;&#31574;&#30053;&#12289;&#20301;&#32622;&#24863;&#30693;&#21644;&#35821;&#20041;&#24863;&#30693;&#27491;&#26679;&#26412;&#37319;&#26679;&#31574;&#30053;&#20197;&#21450;&#20998;&#23618;&#23545;&#27604;&#23398;&#20064;&#31574;&#30053;&#26469;&#20811;&#26381;&#22270;&#25968;&#25454;&#22686;&#24378;&#30340;&#38480;&#21046;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+&#24322;&#26500;&#22270;&#34920;&#36798;&#20102;&#29616;&#23454;&#19990;&#30028;&#20013;&#22797;&#26434;&#20851;&#31995;&#65292;&#21253;&#25324;&#22810;&#31181;&#31867;&#22411;&#30340;&#33410;&#28857;&#21644;&#36793;&#12290;&#21463;&#33258;&#30417;&#30563;&#23398;&#20064;&#21551;&#21457;&#65292;&#23545;&#27604;&#24322;&#26500;&#22270;&#31070;&#32463;&#32593;&#32476;(HGNNs)&#21033;&#29992;&#25968;&#25454;&#22686;&#24378;&#21644;&#36776;&#21035;&#22120;&#23637;&#29616;&#20102;&#24040;&#22823;&#28508;&#21147;&#29992;&#20110;&#19979;&#28216;&#20219;&#21153;&#12290;&#28982;&#32780;&#65292;&#30001;&#20110;&#22270;&#30340;&#31163;&#25955;&#21644;&#25277;&#35937;&#29305;&#24615;&#65292;&#25968;&#25454;&#22686;&#24378;&#20173;&#28982;&#23384;&#22312;&#38480;&#21046;&#12290;&#20026;&#20102;&#35299;&#20915;&#19978;&#36848;&#38480;&#21046;&#65292;&#25105;&#20204;&#25552;&#20986;&#20102;&#19968;&#31181;&#26032;&#39062;&#30340;\textit{&#29983;&#25104;-&#23545;&#27604;&#24322;&#26500;&#22270;&#31070;&#32463;&#32593;&#32476;(GC-HGNN)}&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+arXiv:2404.02810v1 Announce Type: new  Abstract: Heterogeneous Graphs (HGs) can effectively model complex relationships in the real world by multi-type nodes and edges. In recent years, inspired by self-supervised learning, contrastive Heterogeneous Graphs Neural Networks (HGNNs) have shown great potential by utilizing data augmentation and discriminators for downstream tasks. However, data augmentation is still limited due to the discrete and abstract nature of graphs. To tackle the above limitations, we propose a novel \textit{Generative-Contrastive Heterogeneous Graph Neural Network (GC-HGNN)}. Specifically, we first propose a heterogeneous graph generative learning enhanced contrastive paradigm. This paradigm includes: 1) A contrastive view augmentation strategy by using masked autoencoder. 2) Position-aware and semantics-aware positive sample sampling strategy for generate hard negative samples. 3) A hierarchical contrastive learning strategy for capturing local and global informa
+&lt;/p&gt;</description></item></channel></rss>
