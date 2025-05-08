@@ -2,202 +2,157 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [A Survey on Self-Supervised Pre-Training of Graph Foundation Models: A Knowledge-Based Perspective](https://arxiv.org/abs/2403.16137) | 该论文从基于知识的角度全面调查和分析了图基础模型的自监督预训练任务，涉及微观和宏观知识，包括9个知识类别、25个预训练任务以及各种下游任务适应策略。 |
-| [^2] | [An Ordering of Divergences for Variational Inference with Factorized Gaussian Approximations](https://arxiv.org/abs/2403.13748) | 不同的散度排序可以通过它们的变分近似误估不确定性的各种度量，并且因子化近似无法同时匹配这些度量中的任意两个 |
-| [^3] | [Imitation-regularized Optimal Transport on Networks: Provable Robustness and Application to Logistics Planning](https://arxiv.org/abs/2402.17967) | 本研究探讨了在网络上进行模仿正则化的最优输运（I-OT），通过模仿先验分布来提高网络系统的鲁棒性。 |
-| [^4] | [Invertible Fourier Neural Operators for Tackling Both Forward and Inverse Problems](https://arxiv.org/abs/2402.11722) | 本文提出了可逆傅立叶神经算子(iFNO)，通过设计可逆傅立叶块和集成变分自动编码器，实现同时处理前向与反向问题的能力，为双向任务的学习提供有效的参数共享和信息交换，克服了不适定性、数据短缺和噪声等挑战。 |
-| [^5] | [TinyCL: An Efficient Hardware Architecture for Continual Learning on Autonomous Systems](https://arxiv.org/abs/2402.09780) | TinyCL是一种用于自主系统持续学习的高效硬件架构，在CL中支持前向和反向传播，并通过滑动窗口的连续学习策略来减少内存访问。 |
-| [^6] | [FreDF: Learning to Forecast in Frequency Domain](https://arxiv.org/abs/2402.02399) | FreDF是一种在频域中学习预测的方法，解决了时间序列建模中标签序列的自相关问题，相比现有方法有更好的性能表现，并且与各种预测模型兼容。 |
-| [^7] | [A backdoor attack against link prediction tasks with graph neural networks.](http://arxiv.org/abs/2401.02663) | 本文研究了一种针对图神经网络链接预测任务的后门攻击方法，发现GNN模型容易受到后门攻击，提出了针对该任务的后门攻击方式。 |
-| [^8] | [Revealing CNN Architectures via Side-Channel Analysis in Dataflow-based Inference Accelerators.](http://arxiv.org/abs/2311.00579) | 本文通过评估数据流加速器上的侧信道信息，提出了一种攻击方法来恢复CNN模型的架构。该攻击利用了数据流映射的数据重用以及架构线索，成功恢复了流行的CNN模型Lenet，Alexnet和VGGnet16的结构。 |
-| [^9] | [Closed-Form Diffusion Models.](http://arxiv.org/abs/2310.12395) | 本研究提出了一种闭式扩散模型，通过显式平滑的闭式得分函数来生成新样本，无需训练，且在消费级CPU上能够实现与神经SGMs相竞争的采样速度。 |
-| [^10] | [ParFam -- Symbolic Regression Based on Continuous Global Optimization.](http://arxiv.org/abs/2310.05537) | ParFam是一种新的符号回归方法，利用参数化的符号函数族将离散问题转化为连续问题，并结合全局优化器，能够有效解决符号回归问题。 |
-| [^11] | [Breaking NoC Anonymity using Flow Correlation Attack.](http://arxiv.org/abs/2309.15687) | 本文研究了NoC架构中现有匿名路由协议的安全性，并展示了现有的匿名路由对基于机器学习的流相关攻击易受攻击。我们提出了一种轻量级的匿名路由，使用流量混淆技术，可以抵御基于机器学习的流相关攻击。 |
-| [^12] | [A Unified Framework for Exploratory Learning-Aided Community Detection in Networks with Unknown Topology.](http://arxiv.org/abs/2304.04497) | META-CODE是一个统一的框架，通过探索学习和易于收集的节点元数据，在未知拓扑网络中检测重叠社区。实验结果证明了META-CODE的有效性和可扩展性。 |
-| [^13] | [q-Learning in Continuous Time.](http://arxiv.org/abs/2207.00713) | 本文研究了连续时间下的q-Learning，通过引入小q函数作为一阶近似，研究了q-learning理论，应用于设计不同的演员-评论家算法。 |
+| [^1] | [Opening Cabinets and Drawers in the Real World using a Commodity Mobile Manipulator](https://arxiv.org/abs/2402.17767) | 实现了一个端到端系统，使商品移动操作器成功在以前未见的真实世界环境中打开橱柜和抽屉，感知误差是主要挑战。 |
+| [^2] | [TransAxx: Efficient Transformers with Approximate Computing](https://arxiv.org/abs/2402.07545) | TransAxx是一个基于PyTorch库的框架，可以支持近似计算，并通过对Vision Transformer模型进行近似感知微调，来提高在低功耗设备上的计算效率。 |
+| [^3] | [Navigating Neural Space: Revisiting Concept Activation Vectors to Overcome Directional Divergence](https://arxiv.org/abs/2202.03482) | 本文重新审视了概念激活向量（CAVs）在建模人类可理解的概念中的应用，并引入了基于模式的CAVs来提供更准确的概念方向。 |
+| [^4] | [Mori-Zwanzig latent space Koopman closure for nonlinear autoencoder.](http://arxiv.org/abs/2310.10745) | 本研究提出了一种名为Mori-Zwanzig自编码器（MZ-AE）的新方法，用于在低维空间中稳健地逼近Koopman算子，通过非线性自编码器和Mori-Zwanzig形式主义的集成实现对有限不变Koopman子空间的逼近，从而增强了精确性和准确预测复杂系统行为的能力。 |
+| [^5] | [Diverse Neural Audio Embeddings -- Bringing Features back !.](http://arxiv.org/abs/2309.08751) | 本文通过在音频分类任务中学习多样化的特征表示，包括领域特定的音高、音色和神经表示，以及端到端架构，为学习稳健、多样化的表示铺平了道路，并显著提高了性能。 |
+| [^6] | [Multivariate Time-Series Anomaly Detection with Contaminated Data: Application to Physiological Signals.](http://arxiv.org/abs/2308.12563) | 这个论文介绍了一种针对带有污染数据的多变量时间序列异常检测的新方法，通过去污和变量依赖建模实现了无监督的异常检测，对于实际场景中的异常检测具有重要意义。 |
+| [^7] | [JEN-1: Text-Guided Universal Music Generation with Omnidirectional Diffusion Models.](http://arxiv.org/abs/2308.04729) | JEN-1是一个高保真度通用音乐生成模型，通过结合自回归和非自回归训练，实现了文本引导的音乐生成、音乐修补和延续等生成任务，在文本音乐对齐和音乐质量方面表现出优越性，同时保持计算效率。 |
+| [^8] | [Optimal Low-Rank Matrix Completion: Semidefinite Relaxations and Eigenvector Disjunctions.](http://arxiv.org/abs/2305.12292) | 该论文通过重新表述低秩矩阵填补问题为投影矩阵的非凸问题，实现了能够确定最优解的分离分支定界方案，并且通过新颖和紧密的凸松弛方法，使得最优性差距相对于现有方法减少了两个数量级。 |
+| [^9] | [A Machine Learning Approach to Forecasting Honey Production with Tree-Based Methods.](http://arxiv.org/abs/2304.01215) | 该论文使用树模型方法预测意大利蜂箱的蜜蜂生产量变化，帮助蜜蜂养殖者评估风险，保护蜜蜂活动。 |
+| [^10] | [Auto.gov: Learning-based On-chain Governance for Decentralized Finance (DeFi).](http://arxiv.org/abs/2302.09551) | 这项研究提出了一个“Auto.gov”框架，可增强去中心化金融（DeFi）的安全性和降低受攻击的风险。该框架利用深度Q-网络（DQN）强化学习方法，提出了半自动的、直观的治理提案，并量化了其理由，使系统能够有效地应对恶意行为和意外的市场情况。 |
 
 # 详细
 
-[^1]: 自监督预训练图基础模型的调查：基于知识的视角
+[^1]: 在现实世界中使用商品移动操作器打开橱柜和抽屉
 
-    A Survey on Self-Supervised Pre-Training of Graph Foundation Models: A Knowledge-Based Perspective
+    Opening Cabinets and Drawers in the Real World using a Commodity Mobile Manipulator
 
-    [https://arxiv.org/abs/2403.16137](https://arxiv.org/abs/2403.16137)
+    [https://arxiv.org/abs/2402.17767](https://arxiv.org/abs/2402.17767)
 
-    该论文从基于知识的角度全面调查和分析了图基础模型的自监督预训练任务，涉及微观和宏观知识，包括9个知识类别、25个预训练任务以及各种下游任务适应策略。
-
-    
-
-    图自监督学习现在是预训练图基础模型的首选方法，包括图神经网络、图变换器，以及更近期的基于大型语言模型（LLM）的图模型。文章全面调查和分析了基于知识的视角下的图基础模型的预训练任务，包括微观（节点、链接等）和宏观知识（簇、全局结构等）。涵盖了共计9个知识类别和25个预训练任务，以及各种下游任务适应策略。
-
-    arXiv:2403.16137v1 Announce Type: new  Abstract: Graph self-supervised learning is now a go-to method for pre-training graph foundation models, including graph neural networks, graph transformers, and more recent large language model (LLM)-based graph models. There is a wide variety of knowledge patterns embedded in the structure and properties of graphs which may be used for pre-training, but we lack a systematic overview of self-supervised pre-training tasks from the perspective of graph knowledge. In this paper, we comprehensively survey and analyze the pre-training tasks of graph foundation models from a knowledge-based perspective, consisting of microscopic (nodes, links, etc) and macroscopic knowledge (clusters, global structure, etc). It covers a total of 9 knowledge categories and 25 pre-training tasks, as well as various downstream task adaptation strategies. Furthermore, an extensive list of the related papers with detailed metadata is provided at https://github.com/Newiz430/
-    
-[^2]: 变分推断中因子化高斯近似的差异排序
-
-    An Ordering of Divergences for Variational Inference with Factorized Gaussian Approximations
-
-    [https://arxiv.org/abs/2403.13748](https://arxiv.org/abs/2403.13748)
-
-    不同的散度排序可以通过它们的变分近似误估不确定性的各种度量，并且因子化近似无法同时匹配这些度量中的任意两个
+    实现了一个端到端系统，使商品移动操作器成功在以前未见的真实世界环境中打开橱柜和抽屉，感知误差是主要挑战。
 
     
 
-    在变分推断（VI）中，给定一个难以处理的分布$p$，问题是从一些更易处理的族$\mathcal{Q}$中计算最佳近似$q$。通常情况下，这种近似是通过最小化Kullback-Leibler (KL)散度来找到的。然而，存在其他有效的散度选择，当$\mathcal{Q}$不包含$p$时，每个散度都支持不同的解决方案。我们分析了在高斯的密集协方差矩阵被对角协方差矩阵的高斯近似所影响的VI结果中，散度选择如何影响VI结果。在这种设置中，我们展示了不同的散度可以通过它们的变分近似误估不确定性的各种度量，如方差、精度和熵，进行\textit{排序}。我们还得出一个不可能定理，表明无法通过因子化近似同时匹配这些度量中的任意两个；因此
+    在这项工作中，我们构建了一个端到端系统，使商品移动操作器（Stretch RE2）能够在多样的以前未见的真实世界环境中拉开橱柜和抽屉。我们在31个不同的物体和13个不同真实世界环境中进行了4天的实际测试。我们的系统在零击打下，对在未知环境中新颖的橱柜和抽屉的打开率达到61%。对失败模式的分析表明，感知误差是我们系统面临的最重要挑战。
 
-    arXiv:2403.13748v1 Announce Type: cross  Abstract: Given an intractable distribution $p$, the problem of variational inference (VI) is to compute the best approximation $q$ from some more tractable family $\mathcal{Q}$. Most commonly the approximation is found by minimizing a Kullback-Leibler (KL) divergence. However, there exist other valid choices of divergences, and when $\mathcal{Q}$ does not contain~$p$, each divergence champions a different solution. We analyze how the choice of divergence affects the outcome of VI when a Gaussian with a dense covariance matrix is approximated by a Gaussian with a diagonal covariance matrix. In this setting we show that different divergences can be \textit{ordered} by the amount that their variational approximations misestimate various measures of uncertainty, such as the variance, precision, and entropy. We also derive an impossibility theorem showing that no two of these measures can be simultaneously matched by a factorized approximation; henc
+    arXiv:2402.17767v1 Announce Type: cross  Abstract: Pulling open cabinets and drawers presents many difficult technical challenges in perception (inferring articulation parameters for objects from onboard sensors), planning (producing motion plans that conform to tight task constraints), and control (making and maintaining contact while applying forces on the environment). In this work, we build an end-to-end system that enables a commodity mobile manipulator (Stretch RE2) to pull open cabinets and drawers in diverse previously unseen real world environments. We conduct 4 days of real world testing of this system spanning 31 different objects from across 13 different real world environments. Our system achieves a success rate of 61% on opening novel cabinets and drawers in unseen environments zero-shot. An analysis of the failure modes suggests that errors in perception are the most significant challenge for our system. We will open source code and models for others to replicate and bui
     
-[^3]: 在网络上进行模仿正则化的最优输运：可证明的鲁棒性及其在物流规划中的应用
+[^2]: TransAxx：具有近似计算能力的高效Transformer模型
 
-    Imitation-regularized Optimal Transport on Networks: Provable Robustness and Application to Logistics Planning
+    TransAxx: Efficient Transformers with Approximate Computing
 
-    [https://arxiv.org/abs/2402.17967](https://arxiv.org/abs/2402.17967)
+    [https://arxiv.org/abs/2402.07545](https://arxiv.org/abs/2402.07545)
 
-    本研究探讨了在网络上进行模仿正则化的最优输运（I-OT），通过模仿先验分布来提高网络系统的鲁棒性。
-
-    
-
-    网络系统构成了现代社会的基础，在各种应用中起着至关重要的作用。然而，这些系统面临着由灾难等不可预见情况带来的重大风险。鉴于此，迫切需要研究加强网络系统的鲁棒性。最近在强化学习中，已经确定了获取鲁棒性和正则化熵之间的关系。此外，在这一框架内使用了模仿学习来反映专家的行为。然而，关于在网络上的最优输运中使用类似模仿框架的全面研究还没有。因此，在本研究中，研究了在网络上进行的模仿正则化的最优输运（I-OT）。它通过模仿给定的先验分布对网络的先验知识进行编码。I-OT解决方案在网络上定义的成本方面表现出了鲁棒性。
-
-    arXiv:2402.17967v1 Announce Type: new  Abstract: Network systems form the foundation of modern society, playing a critical role in various applications. However, these systems are at significant risk of being adversely affected by unforeseen circumstances, such as disasters. Considering this, there is a pressing need for research to enhance the robustness of network systems. Recently, in reinforcement learning, the relationship between acquiring robustness and regularizing entropy has been identified. Additionally, imitation learning is used within this framework to reflect experts' behavior. However, there are no comprehensive studies on the use of a similar imitation framework for optimal transport on networks. Therefore, in this study, imitation-regularized optimal transport (I-OT) on networks was investigated. It encodes prior knowledge on the network by imitating a given prior distribution. The I-OT solution demonstrated robustness in terms of the cost defined on the network. More
-    
-[^4]: 可逆傅立叶神经算子处理前向和反问题
-
-    Invertible Fourier Neural Operators for Tackling Both Forward and Inverse Problems
-
-    [https://arxiv.org/abs/2402.11722](https://arxiv.org/abs/2402.11722)
-
-    本文提出了可逆傅立叶神经算子(iFNO)，通过设计可逆傅立叶块和集成变分自动编码器，实现同时处理前向与反向问题的能力，为双向任务的学习提供有效的参数共享和信息交换，克服了不适定性、数据短缺和噪声等挑战。
+    TransAxx是一个基于PyTorch库的框架，可以支持近似计算，并通过对Vision Transformer模型进行近似感知微调，来提高在低功耗设备上的计算效率。
 
     
 
-    傅立叶神经算子（FNO）是一种流行的算子学习方法，已在许多任务中表现出色。然而，FNO主要用于前向预测，而许多应用程序依赖于解决反问题。在本文中，我们提出了一种可逆傅立叶神经算子（iFNO），旨在解决前向和反向问题。我们在潜在通道空间中设计了一系列可逆傅立叶块，以分享模型参数，有效交换信息，并相互正规化双向任务的学习。我们集成了变分自动编码器以捕获输入空间内在结构，并实现后验推断，以克服不适定性、数据短缺、噪声等挑战。我们开发了一个三步过程，用于预训练和微调以实现高效训练。对五个基准问题的评估已经证明...
+    最近，基于Transformer架构引入的Vision Transformer (ViT)模型已经展现出很大的竞争力，并且往往成为卷积神经网络(CNNs)的一种流行替代方案。然而，这些模型高计算需求限制了它们在低功耗设备上的实际应用。当前最先进的方法采用近似乘法器来解决DNN加速器高计算需求的问题，但之前的研究并没有探索其在ViT模型上的应用。在这项工作中，我们提出了TransAxx，这是一个基于流行的PyTorch库的框架，它能够快速支持近似算术，以无缝地评估近似计算对于DNN (如ViT模型)的影响。使用TransAxx，我们分析了Transformer模型在ImageNet数据集上对近似乘法的敏感性，并进行了近似感知的微调以恢复准确性。此外，我们提出了一种生成近似加法的方法。
 
-    arXiv:2402.11722v1 Announce Type: new  Abstract: Fourier Neural Operator (FNO) is a popular operator learning method, which has demonstrated state-of-the-art performance across many tasks. However, FNO is mainly used in forward prediction, yet a large family of applications rely on solving inverse problems. In this paper, we propose an invertible Fourier Neural Operator (iFNO) that tackles both the forward and inverse problems. We designed a series of invertible Fourier blocks in the latent channel space to share the model parameters, efficiently exchange the information, and mutually regularize the learning for the bi-directional tasks. We integrated a variational auto-encoder to capture the intrinsic structures within the input space and to enable posterior inference so as to overcome challenges of illposedness, data shortage, noises, etc. We developed a three-step process for pre-training and fine tuning for efficient training. The evaluations on five benchmark problems have demonst
+    Vision Transformer (ViT) models which were recently introduced by the transformer architecture have shown to be very competitive and often become a popular alternative to Convolutional Neural Networks (CNNs). However, the high computational requirements of these models limit their practical applicability especially on low-power devices. Current state-of-the-art employs approximate multipliers to address the highly increased compute demands of DNN accelerators but no prior research has explored their use on ViT models. In this work we propose TransAxx, a framework based on the popular PyTorch library that enables fast inherent support for approximate arithmetic to seamlessly evaluate the impact of approximate computing on DNNs such as ViT models. Using TransAxx we analyze the sensitivity of transformer models on the ImageNet dataset to approximate multiplications and perform approximate-aware finetuning to regain accuracy. Furthermore, we propose a methodology to generate approximate ac
     
-[^5]: TinyCL:一种用于自主系统持续学习的高效硬件架构
+[^3]: 领航神经空间：重新审视概念激活向量以克服方向差异
 
-    TinyCL: An Efficient Hardware Architecture for Continual Learning on Autonomous Systems
+    Navigating Neural Space: Revisiting Concept Activation Vectors to Overcome Directional Divergence
 
-    [https://arxiv.org/abs/2402.09780](https://arxiv.org/abs/2402.09780)
+    [https://arxiv.org/abs/2202.03482](https://arxiv.org/abs/2202.03482)
 
-    TinyCL是一种用于自主系统持续学习的高效硬件架构，在CL中支持前向和反向传播，并通过滑动窗口的连续学习策略来减少内存访问。
-
-    
-
-    持续学习（CL）范式包括不断演化深度神经网络（DNN）模型的参数，以逐步学习执行新任务，而不降低先前任务的性能，即避免所谓的灾难性遗忘。然而，在基于CL的自主系统中，DNN参数更新对资源要求极高。现有的DNN加速器不能直接用于CL，因为它们只支持前向传播的执行。只有少数先前的架构执行反向传播和权重更新，但它们缺乏对CL的控制和管理。为此，我们设计了一个硬件架构TinyCL，用于在资源受限的自主系统上进行持续学习。它包括一个执行前向和反向传播的处理单元，以及一个管理基于内存的CL工作负载的控制单元。为了最小化内存访问，我们使用了滑动窗口的连续学习策略。
-
-    arXiv:2402.09780v1 Announce Type: new  Abstract: The Continuous Learning (CL) paradigm consists of continuously evolving the parameters of the Deep Neural Network (DNN) model to progressively learn to perform new tasks without reducing the performance on previous tasks, i.e., avoiding the so-called catastrophic forgetting. However, the DNN parameter update in CL-based autonomous systems is extremely resource-hungry. The existing DNN accelerators cannot be directly employed in CL because they only support the execution of the forward propagation. Only a few prior architectures execute the backpropagation and weight update, but they lack the control and management for CL. Towards this, we design a hardware architecture, TinyCL, to perform CL on resource-constrained autonomous systems. It consists of a processing unit that executes both forward and backward propagation, and a control unit that manages memory-based CL workload. To minimize the memory accesses, the sliding window of the con
-    
-[^6]: FreDF: 在频域中学习预测
-
-    FreDF: Learning to Forecast in Frequency Domain
-
-    [https://arxiv.org/abs/2402.02399](https://arxiv.org/abs/2402.02399)
-
-    FreDF是一种在频域中学习预测的方法，解决了时间序列建模中标签序列的自相关问题，相比现有方法有更好的性能表现，并且与各种预测模型兼容。
+    本文重新审视了概念激活向量（CAVs）在建模人类可理解的概念中的应用，并引入了基于模式的CAVs来提供更准确的概念方向。
 
     
 
-    时间序列建模在历史序列和标签序列中都面临自相关的挑战。当前的研究主要集中在处理历史序列中的自相关问题，但往往忽视了标签序列中的自相关存在。具体来说，新兴的预测模型主要遵循直接预测（DF）范式，在标签序列中假设条件独立性下生成多步预测。这种假设忽视了标签序列中固有的自相关性，从而限制了基于DF的模型的性能。针对这一问题，我们引入了频域增强直接预测（FreDF），通过在频域中学习预测来避免标签自相关的复杂性。我们的实验证明，FreDF在性能上大大超过了包括iTransformer在内的现有最先进方法，并且与各种预测模型兼容。
+    随着对于理解神经网络预测策略的兴趣日益增长，概念激活向量（CAVs）已成为一种流行的工具，用于在潜在空间中建模人类可理解的概念。通常，CAVs是通过利用线性分类器来计算的，该分类器优化具有给定概念和无给定概念的样本的潜在表示的可分离性。然而，在本文中我们展示了这种以可分离性为导向的计算方法会导致与精确建模概念方向的实际目标发散的解决方案。这种差异可以归因于分散方向的显著影响，即与概念无关的信号，这些信号被线性模型的滤波器（即权重）捕获以优化类别可分性。为了解决这个问题，我们引入基于模式的CAVs，仅关注概念信号，从而提供更准确的概念方向。我们评估了各种CAV方法与真实概念方向的对齐程度。
 
-    Time series modeling is uniquely challenged by the presence of autocorrelation in both historical and label sequences. Current research predominantly focuses on handling autocorrelation within the historical sequence but often neglects its presence in the label sequence. Specifically, emerging forecast models mainly conform to the direct forecast (DF) paradigm, generating multi-step forecasts under the assumption of conditional independence within the label sequence. This assumption disregards the inherent autocorrelation in the label sequence, thereby limiting the performance of DF-based models. In response to this gap, we introduce the Frequency-enhanced Direct Forecast (FreDF), which bypasses the complexity of label autocorrelation by learning to forecast in the frequency domain. Our experiments demonstrate that FreDF substantially outperforms existing state-of-the-art methods including iTransformer and is compatible with a variety of forecast models.
+    With a growing interest in understanding neural network prediction strategies, Concept Activation Vectors (CAVs) have emerged as a popular tool for modeling human-understandable concepts in the latent space. Commonly, CAVs are computed by leveraging linear classifiers optimizing the separability of latent representations of samples with and without a given concept. However, in this paper we show that such a separability-oriented computation leads to solutions, which may diverge from the actual goal of precisely modeling the concept direction. This discrepancy can be attributed to the significant influence of distractor directions, i.e., signals unrelated to the concept, which are picked up by filters (i.e., weights) of linear models to optimize class-separability. To address this, we introduce pattern-based CAVs, solely focussing on concept signals, thereby providing more accurate concept directions. We evaluate various CAV methods in terms of their alignment with the true concept dire
     
-[^7]: 用于图神经网络链接预测任务的后门攻击
+[^4]: Mori-Zwanzig潜变空间Koopman闭包用于非线性自编码器
 
-    A backdoor attack against link prediction tasks with graph neural networks. (arXiv:2401.02663v1 [cs.LG])
+    Mori-Zwanzig latent space Koopman closure for nonlinear autoencoder. (arXiv:2310.10745v1 [cs.LG])
 
-    [http://arxiv.org/abs/2401.02663](http://arxiv.org/abs/2401.02663)
+    [http://arxiv.org/abs/2310.10745](http://arxiv.org/abs/2310.10745)
 
-    本文研究了一种针对图神经网络链接预测任务的后门攻击方法，发现GNN模型容易受到后门攻击，提出了针对该任务的后门攻击方式。
-
-    
-
-    图神经网络（GNN）是一类能够处理图结构数据的深度学习模型，在各种实际应用中表现出显著的性能。最近的研究发现，GNN模型容易受到后门攻击。当具体的模式（称为后门触发器，例如子图、节点等）出现在输入数据中时，嵌入在GNN模型中的后门会被激活，将输入数据误分类为攻击者指定的目标类标签，而当输入中没有后门触发器时，嵌入在GNN模型中的后门不会被激活，模型正常工作。后门攻击具有极高的隐蔽性，给GNN模型带来严重的安全风险。目前，对GNN的后门攻击研究主要集中在图分类和节点分类等任务上，对链接预测任务的后门攻击研究较少。在本文中，我们提出一种后门攻击方法。
-
-    Graph Neural Networks (GNNs) are a class of deep learning models capable of processing graph-structured data, and they have demonstrated significant performance in a variety of real-world applications. Recent studies have found that GNN models are vulnerable to backdoor attacks. When specific patterns (called backdoor triggers, e.g., subgraphs, nodes, etc.) appear in the input data, the backdoor embedded in the GNN models is activated, which misclassifies the input data into the target class label specified by the attacker, whereas when there are no backdoor triggers in the input, the backdoor embedded in the GNN models is not activated, and the models work normally. Backdoor attacks are highly stealthy and expose GNN models to serious security risks. Currently, research on backdoor attacks against GNNs mainly focus on tasks such as graph classification and node classification, and backdoor attacks against link prediction tasks are rarely studied. In this paper, we propose a backdoor a
-    
-[^8]: 通过数据流推理加速器中的侧信道分析揭示CNN架构
-
-    Revealing CNN Architectures via Side-Channel Analysis in Dataflow-based Inference Accelerators. (arXiv:2311.00579v1 [cs.CR])
-
-    [http://arxiv.org/abs/2311.00579](http://arxiv.org/abs/2311.00579)
-
-    本文通过评估数据流加速器上的侧信道信息，提出了一种攻击方法来恢复CNN模型的架构。该攻击利用了数据流映射的数据重用以及架构线索，成功恢复了流行的CNN模型Lenet，Alexnet和VGGnet16的结构。
+    本研究提出了一种名为Mori-Zwanzig自编码器（MZ-AE）的新方法，用于在低维空间中稳健地逼近Koopman算子，通过非线性自编码器和Mori-Zwanzig形式主义的集成实现对有限不变Koopman子空间的逼近，从而增强了精确性和准确预测复杂系统行为的能力。
 
     
 
-    卷积神经网络（CNN）广泛应用于各个领域。最近在基于数据流的CNN加速器的进展使得CNN推理可以在资源有限的边缘设备上进行。这些数据流加速器利用卷积层的固有数据重用来高效处理CNN模型。隐藏CNN模型的架构对于隐私和安全至关重要。本文评估了基于内存的侧信道信息，以从数据流加速器中恢复CNN架构。所提出的攻击利用了CNN加速器上数据流映射的空间和时间数据重用以及架构线索来恢复CNN模型的结构。实验结果表明，我们提出的侧信道攻击可以恢复流行的CNN模型Lenet，Alexnet和VGGnet16的结构。
+    Koopman算子提供了一种吸引人的方法来实现非线性系统的全局线性化，使其成为简化复杂动力学理解的宝贵方法。虽然数据驱动的方法在逼近有限Koopman算子方面表现出了潜力，但它们面临着各种挑战，例如选择合适的可观察量、降维和准确预测复杂系统行为的能力。本研究提出了一种名为Mori-Zwanzig自编码器（MZ-AE）的新方法，用于在低维空间中稳健地逼近Koopman算子。所提出的方法利用非线性自编码器提取关键可观察量来逼近有限不变Koopman子空间，并利用Mori-Zwanzig形式主义集成非马尔可夫校正机制。因此，该方法在非线性自编码器的潜变流形中产生了动力学的封闭表示，从而提高了精确性和...
 
-    Convolution Neural Networks (CNNs) are widely used in various domains. Recent advances in dataflow-based CNN accelerators have enabled CNN inference in resource-constrained edge devices. These dataflow accelerators utilize inherent data reuse of convolution layers to process CNN models efficiently. Concealing the architecture of CNN models is critical for privacy and security. This paper evaluates memory-based side-channel information to recover CNN architectures from dataflow-based CNN inference accelerators. The proposed attack exploits spatial and temporal data reuse of the dataflow mapping on CNN accelerators and architectural hints to recover the structure of CNN models. Experimental results demonstrate that our proposed side-channel attack can recover the structures of popular CNN models, namely Lenet, Alexnet, and VGGnet16.
+    The Koopman operator presents an attractive approach to achieve global linearization of nonlinear systems, making it a valuable method for simplifying the understanding of complex dynamics. While data-driven methodologies have exhibited promise in approximating finite Koopman operators, they grapple with various challenges, such as the judicious selection of observables, dimensionality reduction, and the ability to predict complex system behaviours accurately. This study presents a novel approach termed Mori-Zwanzig autoencoder (MZ-AE) to robustly approximate the Koopman operator in low-dimensional spaces. The proposed method leverages a nonlinear autoencoder to extract key observables for approximating a finite invariant Koopman subspace and integrates a non-Markovian correction mechanism using the Mori-Zwanzig formalism. Consequently, this approach yields a closed representation of dynamics within the latent manifold of the nonlinear autoencoder, thereby enhancing the precision and s
     
-[^9]: 闭式扩散模型
+[^5]: 多样的神经音频嵌入 - 恢复特征！
 
-    Closed-Form Diffusion Models. (arXiv:2310.12395v1 [cs.LG])
+    Diverse Neural Audio Embeddings -- Bringing Features back !. (arXiv:2309.08751v1 [cs.SD])
 
-    [http://arxiv.org/abs/2310.12395](http://arxiv.org/abs/2310.12395)
+    [http://arxiv.org/abs/2309.08751](http://arxiv.org/abs/2309.08751)
 
-    本研究提出了一种闭式扩散模型，通过显式平滑的闭式得分函数来生成新样本，无需训练，且在消费级CPU上能够实现与神经SGMs相竞争的采样速度。
-
-    
-
-    基于得分的生成模型(SGMs)通过迭代地使用扰动目标函数的得分函数来从目标分布中采样。对于任何有限的训练集，可以闭式地评估这个得分函数，但由此得到的SGMs会记忆其训练数据，不能生成新样本。在实践中，可以通过训练神经网络来近似得分函数，但这种近似的误差有助于推广，然而神经SGMs的训练和采样代价高，而且对于这种误差提供的有效正则化方法在理论上尚不清楚。因此，在这项工作中，我们采用显式平滑的闭式得分来获得一个生成新样本的SGMs，而无需训练。我们分析了我们的模型，并提出了一个基于最近邻的高效得分函数估计器。利用这个估计器，我们的方法在消费级CPU上运行时能够达到与神经SGMs相竞争的采样速度。
-
-    Score-based generative models (SGMs) sample from a target distribution by iteratively transforming noise using the score function of the perturbed target. For any finite training set, this score function can be evaluated in closed form, but the resulting SGM memorizes its training data and does not generate novel samples. In practice, one approximates the score by training a neural network via score-matching. The error in this approximation promotes generalization, but neural SGMs are costly to train and sample, and the effective regularization this error provides is not well-understood theoretically. In this work, we instead explicitly smooth the closed-form score to obtain an SGM that generates novel samples without training. We analyze our model and propose an efficient nearest-neighbor-based estimator of its score function. Using this estimator, our method achieves sampling times competitive with neural SGMs while running on consumer-grade CPUs.
-    
-[^10]: ParFam - 基于连续全局优化的符号回归
-
-    ParFam -- Symbolic Regression Based on Continuous Global Optimization. (arXiv:2310.05537v2 [cs.AI] UPDATED)
-
-    [http://arxiv.org/abs/2310.05537](http://arxiv.org/abs/2310.05537)
-
-    ParFam是一种新的符号回归方法，利用参数化的符号函数族将离散问题转化为连续问题，并结合全局优化器，能够有效解决符号回归问题。
+    本文通过在音频分类任务中学习多样化的特征表示，包括领域特定的音高、音色和神经表示，以及端到端架构，为学习稳健、多样化的表示铺平了道路，并显著提高了性能。
 
     
 
-    符号回归（SR）问题在许多不同的应用中出现，比如从给定数据中识别物理定律或推导描述金融市场行为的数学方程。目前存在多种解决SR问题的方法，通常基于遗传编程。然而，这些方法通常非常复杂，需要大量超参数调整和计算资源。本文介绍了我们提出的新方法ParFam，它利用适合的符号函数的参数化族将离散的符号回归问题转化为连续问题，相比当前最先进的方法，这种方法的设置更加直观。结合强大的全局优化器，这种方法可以有效地解决SR问题。此外，它可以轻松扩展到更高级的算法，例如添加深度神经网络以找到适合的参数化族。我们证明了这种方法的性能。
+    随着现代人工智能架构的出现，从端到端的架构开始流行。这种转变导致了神经架构在没有领域特定偏见/知识的情况下进行训练，根据任务进行优化。本文中，我们通过多样的特征表示（在本例中是领域特定的）学习音频嵌入。对于涉及数百种声音分类的情况，我们学习分别针对音高、音色和神经表示等多样的音频属性建立稳健的嵌入，同时也通过端到端架构进行学习。我们观察到手工制作的嵌入，例如基于音高和音色的嵌入，虽然单独使用时无法击败完全端到端的表示，但将这些嵌入与端到端嵌入相结合可以显著提高性能。这项工作将为在端到端模型中引入一些领域专业知识来学习稳健、多样化的表示铺平道路，并超越仅训练端到端模型的性能。
 
-    The problem of symbolic regression (SR) arises in many different applications, such as identifying physical laws or deriving mathematical equations describing the behavior of financial markets from given data. Various methods exist to address the problem of SR, often based on genetic programming. However, these methods are usually quite complicated and require a lot of hyperparameter tuning and computational resources. In this paper, we present our new method ParFam that utilizes parametric families of suitable symbolic functions to translate the discrete symbolic regression problem into a continuous one, resulting in a more straightforward setup compared to current state-of-the-art methods. In combination with a powerful global optimizer, this approach results in an effective method to tackle the problem of SR. Furthermore, it can be easily extended to more advanced algorithms, e.g., by adding a deep neural network to find good-fitting parametric families. We prove the performance of 
+    With the advent of modern AI architectures, a shift has happened towards end-to-end architectures. This pivot has led to neural architectures being trained without domain-specific biases/knowledge, optimized according to the task. We in this paper, learn audio embeddings via diverse feature representations, in this case, domain-specific. For the case of audio classification over hundreds of categories of sound, we learn robust separate embeddings for diverse audio properties such as pitch, timbre, and neural representation, along with also learning it via an end-to-end architecture. We observe handcrafted embeddings, e.g., pitch and timbre-based, although on their own, are not able to beat a fully end-to-end representation, yet adding these together with end-to-end embedding helps us, significantly improve performance. This work would pave the way to bring some domain expertise with end-to-end models to learn robust, diverse representations, surpassing the performance of just training 
     
-[^11]: 打破NoC匿名性使用流相关攻击
+[^6]: 针对带有污染数据的多变量时间序列异常检测：对生理信号的应用
 
-    Breaking NoC Anonymity using Flow Correlation Attack. (arXiv:2309.15687v1 [cs.CR])
+    Multivariate Time-Series Anomaly Detection with Contaminated Data: Application to Physiological Signals. (arXiv:2308.12563v1 [cs.LG])
 
-    [http://arxiv.org/abs/2309.15687](http://arxiv.org/abs/2309.15687)
+    [http://arxiv.org/abs/2308.12563](http://arxiv.org/abs/2308.12563)
 
-    本文研究了NoC架构中现有匿名路由协议的安全性，并展示了现有的匿名路由对基于机器学习的流相关攻击易受攻击。我们提出了一种轻量级的匿名路由，使用流量混淆技术，可以抵御基于机器学习的流相关攻击。
-
-    
-
-    网络片上互连（NoC）广泛用作当今多核片上系统（SoC）设计中的内部通信结构。片上通信的安全性至关重要，因为利用共享的NoC中的任何漏洞对攻击者来说都是一个富矿。NoC安全依赖于对各种攻击的有效防范措施。我们研究了NoC架构中现有匿名路由协议的安全性。具体而言，本文作出了两个重要贡献。我们展示了现有的匿名路由对基于机器学习（ML）的流相关攻击是易受攻击的。我们提出了一种轻量级的匿名路由，使用流量混淆技术，可以抵御基于ML的流相关攻击。使用实际和合成流量进行的实验研究表明，我们提出的攻击能够成功地对抗NoC架构中最先进的匿名路由，对于多种流量模式的分类准确率高达99％，同时。
-
-    Network-on-Chip (NoC) is widely used as the internal communication fabric in today's multicore System-on-Chip (SoC) designs. Security of the on-chip communication is crucial because exploiting any vulnerability in shared NoC would be a goldmine for an attacker. NoC security relies on effective countermeasures against diverse attacks. We investigate the security strength of existing anonymous routing protocols in NoC architectures. Specifically, this paper makes two important contributions. We show that the existing anonymous routing is vulnerable to machine learning (ML) based flow correlation attacks on NoCs. We propose a lightweight anonymous routing that use traffic obfuscation techniques which can defend against ML-based flow correlation attacks. Experimental studies using both real and synthetic traffic reveal that our proposed attack is successful against state-of-the-art anonymous routing in NoC architectures with a high accuracy (up to 99%) for diverse traffic patterns, while o
-    
-[^12]: 未知拓扑网络中的探索学习辅助社区检测的统一框架
-
-    A Unified Framework for Exploratory Learning-Aided Community Detection in Networks with Unknown Topology. (arXiv:2304.04497v2 [cs.SI] UPDATED)
-
-    [http://arxiv.org/abs/2304.04497](http://arxiv.org/abs/2304.04497)
-
-    META-CODE是一个统一的框架，通过探索学习和易于收集的节点元数据，在未知拓扑网络中检测重叠社区。实验结果证明了META-CODE的有效性和可扩展性。
+    这个论文介绍了一种针对带有污染数据的多变量时间序列异常检测的新方法，通过去污和变量依赖建模实现了无监督的异常检测，对于实际场景中的异常检测具有重要意义。
 
     
 
-    在社交网络中，发现社区结构作为各种网络分析任务中的一个基本问题受到了广泛关注。然而，由于隐私问题或访问限制，网络结构通常是未知的，这使得现有的社区检测方法在没有昂贵的网络拓扑获取的情况下无效。为了解决这个挑战，我们提出了 META-CODE，这是一个统一的框架，通过探索学习辅助易于收集的节点元数据，在未知拓扑网络中检测重叠社区。具体而言，META-CODE 除了初始的网络推理步骤外，还包括三个迭代步骤：1) 基于图神经网络（GNNs）的节点级社区归属嵌入，通过我们的新重构损失进行训练，2) 基于社区归属的节点查询进行网络探索，3) 使用探索网络中的基于边连接的连体神经网络模型进行网络推理。通过实验结果证明了 META-CODE 的有效性和可扩展性。
+    主流无监督异常检测算法通常在学术数据集中表现出色，但由于受到控制实验条件下的清洁训练数据的限制，它们在实际场景下的性能受到了限制。然而，在实际异常检测中，训练数据包含噪声的挑战经常被忽视。本研究在感知时间序列异常检测（TSAD）中深入研究了标签级噪声的领域。本文提出了一种新颖实用的端到端无监督TSAD方法，该方法处理训练数据中包含异常的情况下。该方法称为TSAD-C，其在训练阶段不需要访问异常标签。TSAD-C包括三个模块：一个去污器用于纠正训练数据中存在的异常（也称为噪声），一个变量依赖建模模块用于捕捉去污后数据中的长期内部和跨变量依赖关系，可以视为替代性的异常性度量方法。
 
-    In social networks, the discovery of community structures has received considerable attention as a fundamental problem in various network analysis tasks. However, due to privacy concerns or access restrictions, the network structure is often unknown, thereby rendering established community detection approaches ineffective without costly network topology acquisition. To tackle this challenge, we present META-CODE, a unified framework for detecting overlapping communities in networks with unknown topology via exploratory learning aided by easy-to-collect node metadata. Specifically, META-CODE consists of three iterative steps in addition to the initial network inference step: 1) node-level community-affiliation embeddings based on graph neural networks (GNNs) trained by our new reconstruction loss, 2) network exploration via community-affiliation-based node queries, and 3) network inference using an edge connectivity-based Siamese neural network model from the explored network. Through e
+    Mainstream unsupervised anomaly detection algorithms often excel in academic datasets, yet their real-world performance is restricted due to the controlled experimental conditions involving clean training data. Addressing the challenge of training with noise, a prevalent issue in practical anomaly detection, is frequently overlooked. In a pioneering endeavor, this study delves into the realm of label-level noise within sensory time-series anomaly detection (TSAD). This paper presents a novel and practical end-to-end unsupervised TSAD when the training data are contaminated with anomalies. The introduced approach, called TSAD-C, is devoid of access to abnormality labels during the training phase. TSAD-C encompasses three modules: a Decontaminator to rectify the abnormalities (aka noise) present in the training data, a Variable Dependency Modeling module to capture both long-term intra- and inter-variable dependencies within the decontaminated data that can be considered as a surrogate o
     
-[^13]: 连续时间下的q-Learning
+[^7]: JEN-1：具有全向扩散模型的文本引导通用音乐生成
 
-    q-Learning in Continuous Time. (arXiv:2207.00713v2 [cs.LG] UPDATED)
+    JEN-1: Text-Guided Universal Music Generation with Omnidirectional Diffusion Models. (arXiv:2308.04729v1 [cs.SD])
 
-    [http://arxiv.org/abs/2207.00713](http://arxiv.org/abs/2207.00713)
+    [http://arxiv.org/abs/2308.04729](http://arxiv.org/abs/2308.04729)
 
-    本文研究了连续时间下的q-Learning，通过引入小q函数作为一阶近似，研究了q-learning理论，应用于设计不同的演员-评论家算法。
+    JEN-1是一个高保真度通用音乐生成模型，通过结合自回归和非自回归训练，实现了文本引导的音乐生成、音乐修补和延续等生成任务，在文本音乐对齐和音乐质量方面表现出优越性，同时保持计算效率。
 
     
 
-    我们研究了基于熵正则化的探索性扩散过程的Q-learning在连续时间下的应用。我们引入了“小q函数”作为大Q函数的一阶近似，研究了q函数的q-learning理论，并应用于设计不同的演员-评论家算法。
+    随着深度生成模型的进步，音乐生成引起了越来越多的关注。然而，基于文本描述生成音乐（即文本到音乐）仍然具有挑战性，原因是音乐结构的复杂性和高采样率的要求。尽管任务的重要性，当前的生成模型在音乐质量、计算效率和泛化能力方面存在局限性。本文介绍了JEN-1，这是一个用于文本到音乐生成的通用高保真模型。JEN-1是一个结合了自回归和非自回归训练的扩散模型。通过上下文学习，JEN-1可以执行各种生成任务，包括文本引导的音乐生成、音乐修补以及延续。评估结果表明，JEN-1在文本音乐对齐和音乐质量方面表现出优越性，同时保持计算效率。我们的演示可在此网址获取：http://URL
 
-    We study the continuous-time counterpart of Q-learning for reinforcement learning (RL) under the entropy-regularized, exploratory diffusion process formulation introduced by Wang et al. (2020). As the conventional (big) Q-function collapses in continuous time, we consider its first-order approximation and coin the term ``(little) q-function". This function is related to the instantaneous advantage rate function as well as the Hamiltonian. We develop a ``q-learning" theory around the q-function that is independent of time discretization. Given a stochastic policy, we jointly characterize the associated q-function and value function by martingale conditions of certain stochastic processes, in both on-policy and off-policy settings. We then apply the theory to devise different actor-critic algorithms for solving underlying RL problems, depending on whether or not the density function of the Gibbs measure generated from the q-function can be computed explicitly. One of our algorithms inter
+    Music generation has attracted growing interest with the advancement of deep generative models. However, generating music conditioned on textual descriptions, known as text-to-music, remains challenging due to the complexity of musical structures and high sampling rate requirements. Despite the task's significance, prevailing generative models exhibit limitations in music quality, computational efficiency, and generalization. This paper introduces JEN-1, a universal high-fidelity model for text-to-music generation. JEN-1 is a diffusion model incorporating both autoregressive and non-autoregressive training. Through in-context learning, JEN-1 performs various generation tasks including text-guided music generation, music inpainting, and continuation. Evaluations demonstrate JEN-1's superior performance over state-of-the-art methods in text-music alignment and music quality while maintaining computational efficiency. Our demos are available at this http URL
+    
+[^8]: 最优低秩矩阵填补：半定松弛和特征向量分离
+
+    Optimal Low-Rank Matrix Completion: Semidefinite Relaxations and Eigenvector Disjunctions. (arXiv:2305.12292v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.12292](http://arxiv.org/abs/2305.12292)
+
+    该论文通过重新表述低秩矩阵填补问题为投影矩阵的非凸问题，实现了能够确定最优解的分离分支定界方案，并且通过新颖和紧密的凸松弛方法，使得最优性差距相对于现有方法减少了两个数量级。
+
+    
+
+    低秩矩阵填补的目的是计算一个复杂度最小的矩阵，以尽可能准确地恢复给定的一组观测数据，并且具有众多应用，如产品推荐。不幸的是，现有的解决低秩矩阵填补的方法是启发式的，虽然高度可扩展并且通常能够确定高质量的解决方案，但不具备任何最优性保证。我们通过将低秩问题重新表述为投影矩阵的非凸问题，并实现一种分离分支定界方案来重新审视矩阵填补问题，以实现最优性导向。此外，我们通过将低秩矩阵分解为一组秩一矩阵的和，并通过 Shor 松弛来激励每个秩一矩阵中的每个 2*2 小矩阵的行列式为零，从而推导出一种新颖且通常很紧的凸松弛类。在数值实验中，相对于最先进的启发式方法，我们的新凸松弛方法将最优性差距减少了两个数量级。
+
+    Low-rank matrix completion consists of computing a matrix of minimal complexity that recovers a given set of observations as accurately as possible, and has numerous applications such as product recommendation. Unfortunately, existing methods for solving low-rank matrix completion are heuristics that, while highly scalable and often identifying high-quality solutions, do not possess any optimality guarantees. We reexamine matrix completion with an optimality-oriented eye, by reformulating low-rank problems as convex problems over the non-convex set of projection matrices and implementing a disjunctive branch-and-bound scheme that solves them to certifiable optimality. Further, we derive a novel and often tight class of convex relaxations by decomposing a low-rank matrix as a sum of rank-one matrices and incentivizing, via a Shor relaxation, that each two-by-two minor in each rank-one matrix has determinant zero. In numerical experiments, our new convex relaxations decrease the optimali
+    
+[^9]: 基于树模型的机器学习方法预测蜜蜂生产量
+
+    A Machine Learning Approach to Forecasting Honey Production with Tree-Based Methods. (arXiv:2304.01215v1 [cs.LG])
+
+    [http://arxiv.org/abs/2304.01215](http://arxiv.org/abs/2304.01215)
+
+    该论文使用树模型方法预测意大利蜂箱的蜜蜂生产量变化，帮助蜜蜂养殖者评估风险，保护蜜蜂活动。
+
+    
+
+    蜜蜂养殖业在过去几年中经历了可观的生产变化，这是由于逐渐恶化的气候条件造成的。这些现象可能会对蜜蜂活动不利。我们使用树模型方法区分蜜蜂生产量的影响因素，并预测意大利蜂箱的蜜蜂生产量变化，意大利是欧洲最大的蜂蜜生产国之一。该数据库包含了从2019年到2022年收集的数百个蜂箱的数据，采用了先进的精度蜜蜂养殖技术。我们训练和解释机器学习模型，使其具有指导性而不仅仅是预测性。与标准线性技术相比，树模型方法具有更高的预测性能，可以更好地保护蜜蜂活动并评估风险管理中蜜蜂养殖者的潜在损失。
+
+    The beekeeping sector has undergone considerable production variations over the past years due to adverse weather conditions, occurring more frequently as climate change progresses. These phenomena can be high-impact and cause the environment to be unfavorable to the bees' activity. We disentangle the honey production drivers with tree-based methods and predict honey production variations for hives in Italy, one of the largest honey producers in Europe. The database covers hundreds of beehive data from 2019-2022 gathered with advanced precision beekeeping techniques. We train and interpret the machine learning models making them prescriptive other than just predictive. Superior predictive performances of tree-based methods compared to standard linear techniques allow for better protection of bees' activity and assess potential losses for beekeepers for risk management.
+    
+[^10]: Auto.gov：面向DeFi的基于学习的链上治理
+
+    Auto.gov: Learning-based On-chain Governance for Decentralized Finance (DeFi). (arXiv:2302.09551v2 [q-fin.RM] UPDATED)
+
+    [http://arxiv.org/abs/2302.09551](http://arxiv.org/abs/2302.09551)
+
+    这项研究提出了一个“Auto.gov”框架，可增强去中心化金融（DeFi）的安全性和降低受攻击的风险。该框架利用深度Q-网络（DQN）强化学习方法，提出了半自动的、直观的治理提案，并量化了其理由，使系统能够有效地应对恶意行为和意外的市场情况。
+
+    
+
+    近年来，去中心化金融（DeFi）经历了显著增长，涌现出了各种协议，例如借贷协议和自动化做市商（AMM）。传统上，这些协议采用链下治理，其中代币持有者投票修改参数。然而，由协议核心团队进行的手动参数调整容易遭受勾结攻击，危及系统的完整性和安全性。此外，纯粹的确定性算法方法可能会使协议受到新的利用和攻击的威胁。本文提出了“Auto.gov”，这是一个面向DeFi的基于学习的链上治理框架，可增强安全性并降低受攻击的风险。我们的模型利用了深度Q-网络（DQN）强化学习方法，提出了半自动化的、直观的治理提案与量化的理由。这种方法使系统能够有效地适应和缓解恶意行为和意外的市场情况的负面影响。
+
+    In recent years, decentralized finance (DeFi) has experienced remarkable growth, with various protocols such as lending protocols and automated market makers (AMMs) emerging. Traditionally, these protocols employ off-chain governance, where token holders vote to modify parameters. However, manual parameter adjustment, often conducted by the protocol's core team, is vulnerable to collusion, compromising the integrity and security of the system. Furthermore, purely deterministic, algorithm-based approaches may expose the protocol to novel exploits and attacks.  In this paper, we present "Auto.gov", a learning-based on-chain governance framework for DeFi that enhances security and reduces susceptibility to attacks. Our model leverages a deep Q- network (DQN) reinforcement learning approach to propose semi-automated, intuitive governance proposals with quantitative justifications. This methodology enables the system to efficiently adapt to and mitigate the negative impact of malicious beha
     
 

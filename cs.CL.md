@@ -2,22 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Incoherent Probability Judgments in Large Language Models.](http://arxiv.org/abs/2401.16646) | 在本论文中，研究人员通过对大型语言模型(LLMs)进行实验证明，这些模型产生的概率判断经常是不连贯的，显示出类似于人类一样的非理性偏差。他们还提出了将自回归LLMs与隐性贝叶斯推断联系起来的解释。 |
+| [^1] | [Large Language Models Are Unconscious of Unreasonability in Math Problems](https://arxiv.org/abs/2403.19346) | 本文研究了大型语言模型在解决数学问题中对不合理性的反应，设计了不合理数学问题基准以及关键计算和结论提示模板，提升了它们在错误检测和修正方面的能力。 |
+| [^2] | [Recursively Summarizing Enables Long-Term Dialogue Memory in Large Language Models.](http://arxiv.org/abs/2308.15022) | 递归总结在大型语言模型中实现长期对话记忆，可以提高对话系统在长对话中记忆重要信息的能力。 |
 
 # 详细
 
-[^1]: 大型语言模型中的不连贯概率判断
+[^1]: 大型语言模型在数学问题中对不合理性毫无意识
 
-    Incoherent Probability Judgments in Large Language Models. (arXiv:2401.16646v1 [cs.CL])
+    Large Language Models Are Unconscious of Unreasonability in Math Problems
 
-    [http://arxiv.org/abs/2401.16646](http://arxiv.org/abs/2401.16646)
+    [https://arxiv.org/abs/2403.19346](https://arxiv.org/abs/2403.19346)
 
-    在本论文中，研究人员通过对大型语言模型(LLMs)进行实验证明，这些模型产生的概率判断经常是不连贯的，显示出类似于人类一样的非理性偏差。他们还提出了将自回归LLMs与隐性贝叶斯推断联系起来的解释。
+    本文研究了大型语言模型在解决数学问题中对不合理性的反应，设计了不合理数学问题基准以及关键计算和结论提示模板，提升了它们在错误检测和修正方面的能力。
 
     
 
-    针对下一个词预测训练的自回归大型语言模型(LLMs)展示出出色的连贯文本生成能力。但它们是否同样擅长形成连贯的概率判断？我们使用概率身份和重复判断来评估LLMs生成的概率判断的连贯性。我们的结果显示，这些模型产生的判断经常是不连贯的，显示出人类一样的概率理论规则偏离。此外，当要求对同一事件进行判断时，LLMs产生的概率判断的均值-方差关系呈现出人类所见到的倒U形状。我们提出这些非理性的偏离可以通过将自回归LLMs与隐性贝叶斯推断联系起来，并与人类概率判断的贝叶斯抽样器模型进行类比来解释。
+    大型语言模型(LLMs)展示了在解决数学问题方面的巨大能力。然而，当给出包含不合理错误的问题时，它们倾向于产生幻觉。在本文中，我们研究了LLMs在面对不合理数学问题时的行为，并进一步探讨了它们解决这些问题的潜力。首先，我们构建了不合理数学问题(UMP)基准来检查LLMs的错误检测能力。实验证明，LLMs能够检测到不合理错误，但仍然在生成非幻觉内容方面失败。为了改善它们的错误检测和修正能力，我们进一步设计了一种称为关键计算和结论(CCC)的战略提示模板。通过CCC，LLMs可以更好地自我评估并检测数学问题中的不合理错误，使它们在实际应用场景中更可靠和安全。
 
-    Autoregressive Large Language Models (LLMs) trained for next-word prediction have demonstrated remarkable proficiency at producing coherent text. But are they equally adept at forming coherent probability judgments? We use probabilistic identities and repeated judgments to assess the coherence of probability judgments made by LLMs. Our results show that the judgments produced by these models are often incoherent, displaying human-like systematic deviations from the rules of probability theory. Moreover, when prompted to judge the same event, the mean-variance relationship of probability judgments produced by LLMs shows an inverted-U-shaped like that seen in humans. We propose that these deviations from rationality can be explained by linking autoregressive LLMs to implicit Bayesian inference and drawing parallels with the Bayesian Sampler model of human probability judgments.
+    arXiv:2403.19346v1 Announce Type: new  Abstract: Large language models (LLMs) demonstrate substantial capabilities in solving math problems. However, they tend to produce hallucinations when given questions containing unreasonable errors. In this paper, we study the behavior of LLMs when faced with unreasonable math problems and further explore their potential to address these problems. First, we construct the Unreasonable Math Problem (UMP) benchmark to examine the error detection ability of LLMs. Experiments show that LLMs are able to detect unreasonable errors, but still fail in generating non-hallucinatory content. In order to improve their ability of error detection and correction, we further design a strategic prompt template called Critical Calculation and Conclusion(CCC). With CCC, LLMs can better self-evaluate and detect unreasonable errors in math questions, making them more reliable and safe in practical application scenarios.
+    
+[^2]: 递归总结在大型语言模型中实现长期对话记忆
+
+    Recursively Summarizing Enables Long-Term Dialogue Memory in Large Language Models. (arXiv:2308.15022v1 [cs.CL])
+
+    [http://arxiv.org/abs/2308.15022](http://arxiv.org/abs/2308.15022)
+
+    递归总结在大型语言模型中实现长期对话记忆，可以提高对话系统在长对话中记忆重要信息的能力。
+
+    
+
+    大多数开放领域的对话系统在长期对话中容易遗忘重要信息。现有方法通常训练特定的检索器或总结器从过去获取关键信息，这需要耗费时间且高度依赖标记数据的质量。为了缓解这个问题，我们提出使用大型语言模型（LLMs）递归生成总结/记忆，以增强长期记忆能力。具体而言，我们的方法首先刺激LLMs记住小对话上下文，然后递归地使用之前的记忆和随后的对话内容产生新的记忆。最后，LLM可以在最新记忆的帮助下轻松生成高度一致的响应。我们使用ChatGPT和text-davinci-003进行评估，对广泛使用的公共数据集进行的实验证明我们的方法在长对话中可以生成更一致的响应。值得注意的是，我们的方法是实现LLM建模的潜在解决方案。
+
+    Most open-domain dialogue systems suffer from forgetting important information, especially in a long-term conversation. Existing works usually train the specific retriever or summarizer to obtain key information from the past, which is time-consuming and highly depends on the quality of labeled data. To alleviate this problem, we propose to recursively generate summaries/ memory using large language models (LLMs) to enhance long-term memory ability. Specifically, our method first stimulates LLMs to memorize small dialogue contexts and then recursively produce new memory using previous memory and following contexts. Finally, the LLM can easily generate a highly consistent response with the help of the latest memory. We evaluate our method using ChatGPT and text-davinci-003, and the experiments on the widely-used public dataset show that our method can generate more consistent responses in a long-context conversation. Notably, our method is a potential solution to enable the LLM to model
     
 
