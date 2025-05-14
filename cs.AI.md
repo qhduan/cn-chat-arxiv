@@ -2,142 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Integrating Large Language Models in Causal Discovery: A Statistical Causal Approach](https://rss.arxiv.org/abs/2402.01454) | 本文提出了一种在因果发现中集成大型语言模型的方法，通过将统计因果提示与知识增强相结合，可以使统计因果发现结果接近真实情况并进一步改进结果。 |
-| [^2] | [LLM Agent Operating System](https://arxiv.org/abs/2403.16971) | 提出了一种将大型语言模型嵌入操作系统中的LLM代理操作系统，旨在优化资源分配、促进代理间上下文切换、实现并发执行以及为代理提供工具服务。 |
-| [^3] | [Can Interpretability Layouts Influence Human Perception of Offensive Sentences?](https://arxiv.org/abs/2403.05581) | 本文通过用户研究探讨了机器学习解释布局是否会影响参与者对包含仇恨言论句子的评价，结果表明解释布局在触发参与者提供纠正性反馈和评估模型方面具有优势 |
-| [^4] | [Gemini: A Family of Highly Capable Multimodal Models](https://arxiv.org/abs/2312.11805) | Gemini家族是一系列在图像、音频、视频和文本理解方面表现出色的多模态模型，其中最具能力的Gemini Ultra模型在30个基准测试中推进了技术前沿，并改进了所有20个多模态基准测试的技术状态。 |
-| [^5] | [Fundamental Limits of Membership Inference Attacks on Machine Learning Models.](http://arxiv.org/abs/2310.13786) | 本文探讨了机器学习模型上成员推断攻击的基本限制，包括推导了效果和成功率的统计量，并提供了几种情况下的界限。这使得我们能够根据样本数量和其他结构参数推断潜在攻击的准确性。 |
-| [^6] | [Towards Understanding Sycophancy in Language Models.](http://arxiv.org/abs/2310.13548) | 这项研究探讨了强化学习从人类反馈中训练高质量AI助手的技术，发现这种方法可能导致模型在回答问题时过于谄媚，而不是坦诚，通过分析人类偏好数据得出了这一结论。 |
-| [^7] | [Review helps learn better: Temporal Supervised Knowledge Distillation.](http://arxiv.org/abs/2307.00811) | 本文提出了一种基于时间的监督知识蒸馏方法，利用评论来帮助学生网络的学习。通过提取学生网络在不同训练阶段的时空特征，并通过动态目标进行训练，实现了对学生网络中旧知识的优化和利用，从而提高了网络的训练性能。 |
-| [^8] | [Clickbait Detection via Large Language Models.](http://arxiv.org/abs/2306.09597) | 本文研究了大型语言模型在点击诱骗检测上的性能，结果表明LLM无法取得最佳结果且不能仅通过标题实现满意的检测。 |
-| [^9] | [Decentralized Adversarial Training over Graphs.](http://arxiv.org/abs/2303.13326) | 本文研究了在图上的去中心化对抗性训练，利用扩散学习的方法，开发了一种对抗性训练框架，增强了多个代理的鲁棒性以对抗攻击。 |
+| [^1] | [Equipping Sketch Patches with Context-Aware Positional Encoding for Graphic Sketch Representation](https://arxiv.org/abs/2403.17525) | 提出了一种通过为素描补丁配备上下文感知的位置编码来保护不同绘图版本的方法，将绘图顺序信息嵌入图节点中，以更好地学习图形素描表示。 |
+| [^2] | [Do You Trust Your Model? Emerging Malware Threats in the Deep Learning Ecosystem](https://arxiv.org/abs/2403.03593) | 介绍了MaleficNet 2.0，一种在神经网络中嵌入恶意软件的新技术，其注入技术具有隐蔽性，不会降低模型性能，并且对神经网络参数中的恶意有效负载进行注入 |
+| [^3] | [LLM Multi-Agent Systems: Challenges and Open Problems](https://arxiv.org/abs/2402.03578) | 本文讨论了多智能体系统的挑战与开放问题，包括任务分配优化、增强推理能力、管理上下文信息和改善内存管理，同时探讨了多智能体系统在区块链系统中的潜力和未来发展。 |
+| [^4] | [Unravelling Responsibility for AI.](http://arxiv.org/abs/2308.02608) | 本文旨在解构人工智能责任的概念，提出了一种包含四种责任意义的有效组合，以支持对人工智能责任的实践推理。 |
+| [^5] | [A stochastic optimization approach to train non-linear neural networks with regularization of higher-order total variation.](http://arxiv.org/abs/2308.02293) | 通过引入高阶总变差正则化的随机优化算法，可以高效地训练非线性神经网络，避免过拟合问题。 |
 
 # 详细
 
-[^1]: 在因果发现中集成大型语言模型: 一种统计因果方法
+[^1]: 为图形素描表示装备具有上下文感知的位置编码的素描补丁
 
-    Integrating Large Language Models in Causal Discovery: A Statistical Causal Approach
+    Equipping Sketch Patches with Context-Aware Positional Encoding for Graphic Sketch Representation
 
-    [https://rss.arxiv.org/abs/2402.01454](https://rss.arxiv.org/abs/2402.01454)
+    [https://arxiv.org/abs/2403.17525](https://arxiv.org/abs/2403.17525)
 
-    本文提出了一种在因果发现中集成大型语言模型的方法，通过将统计因果提示与知识增强相结合，可以使统计因果发现结果接近真实情况并进一步改进结果。
-
-    
-
-    在实际的统计因果发现（SCD）中，将领域专家知识作为约束嵌入到算法中被广泛接受，因为这对于创建一致有意义的因果模型是重要的，尽管识别背景知识的挑战被认可。为了克服这些挑战，本文提出了一种新的因果推断方法，即通过将LLM的“统计因果提示（SCP）”与SCD方法和基于知识的因果推断（KBCI）相结合，对SCD进行先验知识增强。实验证明，GPT-4可以使LLM-KBCI的输出与带有LLM-KBCI的先验知识的SCD结果接近真实情况，如果GPT-4经历了SCP，那么SCD的结果还可以进一步改善。而且，即使LLM不含有数据集的信息，LLM仍然可以通过其背景知识来改进SCD。
-
-    In practical statistical causal discovery (SCD), embedding domain expert knowledge as constraints into the algorithm is widely accepted as significant for creating consistent meaningful causal models, despite the recognized challenges in systematic acquisition of the background knowledge. To overcome these challenges, this paper proposes a novel methodology for causal inference, in which SCD methods and knowledge based causal inference (KBCI) with a large language model (LLM) are synthesized through "statistical causal prompting (SCP)" for LLMs and prior knowledge augmentation for SCD. Experiments have revealed that GPT-4 can cause the output of the LLM-KBCI and the SCD result with prior knowledge from LLM-KBCI to approach the ground truth, and that the SCD result can be further improved, if GPT-4 undergoes SCP. Furthermore, it has been clarified that an LLM can improve SCD with its background knowledge, even if the LLM does not contain information on the dataset. The proposed approach
-    
-[^2]: LLM Agent Operating System
-
-    LLM Agent Operating System
-
-    [https://arxiv.org/abs/2403.16971](https://arxiv.org/abs/2403.16971)
-
-    提出了一种将大型语言模型嵌入操作系统中的LLM代理操作系统，旨在优化资源分配、促进代理间上下文切换、实现并发执行以及为代理提供工具服务。
+    提出了一种通过为素描补丁配备上下文感知的位置编码来保护不同绘图版本的方法，将绘图顺序信息嵌入图节点中，以更好地学习图形素描表示。
 
     
 
-    arXiv:2403.16971v1 公告类型: 跨领域 摘要: 部署大型语言模型（LLM）智能代理存在诸多挑战，会损害它们的效率和功效。其中包括代理请求在LLM上的次优调度和资源分配、在代理和LLM之间交互时保持上下文的困难，以及将具有不同能力和专业化的异构代理集成在一起的复杂性。代理数量和复杂性的快速增加进一步加剧了这些问题，通常会导致资源瓶颈和次优资源利用。受到这些挑战的启发，本文提出了AIOS，一种LLM代理操作系统，它将大型语言模型嵌入操作系统（OS）中。具体地，AIOS旨在优化资源分配，促进代理之间的上下文切换，实现代理的并发执行，为代理提供工具服务。
+    一幅素描的绘制顺序记录了它是如何逐笔由人类创建的。对于图形素描表示学习，最近的研究通过根据基于时间的最近邻策略将每个补丁与另一个相连，将素描绘图顺序注入到图边构建中。然而，这样构建的图边可能不可靠，因为素描可能有不同版本的绘图。在本文中，我们提出了一种经过变体绘制保护的方法，通过为素描补丁配备具有上下文感知的位置编码(PE)，以更好地利用绘图顺序来学习图形素描表示。我们没有将素描绘制注入到图边中，而是仅将这些顺序信息嵌入到图节点中。具体来说，每个补丁嵌入都配备有正弦绝对PE，以突出绘图顺序中的顺序位置。它的相邻补丁按self-att的价值排序
 
-    arXiv:2403.16971v1 Announce Type: cross  Abstract: The integration and deployment of large language model (LLM)-based intelligent agents have been fraught with challenges that compromise their efficiency and efficacy. Among these issues are sub-optimal scheduling and resource allocation of agent requests over the LLM, the difficulties in maintaining context during interactions between agent and LLM, and the complexities inherent in integrating heterogeneous agents with different capabilities and specializations. The rapid increase of agent quantity and complexity further exacerbates these issues, often leading to bottlenecks and sub-optimal utilization of resources. Inspired by these challenges, this paper presents AIOS, an LLM agent operating system, which embeds large language model into operating systems (OS). Specifically, AIOS is designed to optimize resource allocation, facilitate context switch across agents, enable concurrent execution of agents, provide tool service for agents
+    arXiv:2403.17525v1 Announce Type: cross  Abstract: The drawing order of a sketch records how it is created stroke-by-stroke by a human being. For graphic sketch representation learning, recent studies have injected sketch drawing orders into graph edge construction by linking each patch to another in accordance to a temporal-based nearest neighboring strategy. However, such constructed graph edges may be unreliable, since a sketch could have variants of drawings. In this paper, we propose a variant-drawing-protected method by equipping sketch patches with context-aware positional encoding (PE) to make better use of drawing orders for learning graphic sketch representation. Instead of injecting sketch drawings into graph edges, we embed these sequential information into graph nodes only. More specifically, each patch embedding is equipped with a sinusoidal absolute PE to highlight the sequential position in the drawing order. And its neighboring patches, ranked by the values of self-att
     
-[^3]: 解释布局可以影响人对冒犯性句子的感知吗？
+[^2]: 您信任您的模型吗？深度学习生态系统中新兴的恶意软件威胁
 
-    Can Interpretability Layouts Influence Human Perception of Offensive Sentences?
+    Do You Trust Your Model? Emerging Malware Threats in the Deep Learning Ecosystem
 
-    [https://arxiv.org/abs/2403.05581](https://arxiv.org/abs/2403.05581)
+    [https://arxiv.org/abs/2403.03593](https://arxiv.org/abs/2403.03593)
 
-    本文通过用户研究探讨了机器学习解释布局是否会影响参与者对包含仇恨言论句子的评价，结果表明解释布局在触发参与者提供纠正性反馈和评估模型方面具有优势
-
-    
-
-    本文进行了一项用户研究，评估三种机器学习（ML）解释布局是否会影响参与者评估包含仇恨言论的句子时的观点，重点关注“厌恶女性”和“种族主义”两类。鉴于文献中存在分歧的结论，我们通过统计和定性分析问卷调查回应的实证证据，探讨在在线社区中使用ML解释性的优势。广义可加模型估计参与者的评级，融合了组内设计和组间设计。尽管我们的统计分析表明，没有任何解释布局显著影响参与者的观点，但我们的定性分析表明ML解释性的优势：1）触发参与者在他们的观点与模型之间存在差异时提供纠正性反馈，2）提供评估模型的见解
-
-    arXiv:2403.05581v1 Announce Type: cross  Abstract: This paper conducts a user study to assess whether three machine learning (ML) interpretability layouts can influence participants' views when evaluating sentences containing hate speech, focusing on the "Misogyny" and "Racism" classes. Given the existence of divergent conclusions in the literature, we provide empirical evidence on using ML interpretability in online communities through statistical and qualitative analyses of questionnaire responses. The Generalized Additive Model estimates participants' ratings, incorporating within-subject and between-subject designs. While our statistical analysis indicates that none of the interpretability layouts significantly influences participants' views, our qualitative analysis demonstrates the advantages of ML interpretability: 1) triggering participants to provide corrective feedback in case of discrepancies between their views and the model, and 2) providing insights to evaluate a model's 
-    
-[^4]: Gemini：一系列高性能多模态模型
-
-    Gemini: A Family of Highly Capable Multimodal Models
-
-    [https://arxiv.org/abs/2312.11805](https://arxiv.org/abs/2312.11805)
-
-    Gemini家族是一系列在图像、音频、视频和文本理解方面表现出色的多模态模型，其中最具能力的Gemini Ultra模型在30个基准测试中推进了技术前沿，并改进了所有20个多模态基准测试的技术状态。
+    介绍了MaleficNet 2.0，一种在神经网络中嵌入恶意软件的新技术，其注入技术具有隐蔽性，不会降低模型性能，并且对神经网络参数中的恶意有效负载进行注入
 
     
 
-    本报告介绍了一种新的多模态模型系列Gemini，展示出在图像、音频、视频和文本理解方面的显著能力。Gemini系列包括Ultra、Pro和Nano尺寸，适用于从复杂推理任务到设备内存受限应用的各种应用场景。在广泛的基准测试中，我们最具能力的Gemini Ultra模型在32个基准测试中的30个中推进了技术前沿 - 显著地是第一个在被广泛研究的考试基准测试MMLU上实现人类专家水平表现的模型，并在我们研究的每一个20个多模态基准测试中改进了技术前沿。我们相信Gemini系列在跨模态推理和语言理解方面的新能力将能够支持各种用例。我们讨论了负责任地向用户提供Gemini模型的训练后和部署方法，包括使用服务。
+    训练高质量的深度学习模型是一项具有挑战性的任务，这是因为需要计算和技术要求。越来越多的个人、机构和公司越来越多地依赖于在公共代码库中提供的预训练的第三方模型。这些模型通常直接使用或集成到产品管道中而没有特殊的预防措施，因为它们实际上只是以张量形式的数据，被认为是安全的。在本文中，我们提出了一种针对神经网络的新的机器学习供应链威胁。我们介绍了MaleficNet 2.0，一种在神经网络中嵌入自解压自执行恶意软件的新技术。MaleficNet 2.0使用扩频信道编码结合纠错技术在深度神经网络的参数中注入恶意有效载荷。MaleficNet 2.0注入技术具有隐蔽性，不会降低模型的性能，并且对...
 
-    arXiv:2312.11805v2 Announce Type: replace-cross  Abstract: This report introduces a new family of multimodal models, Gemini, that exhibit remarkable capabilities across image, audio, video, and text understanding. The Gemini family consists of Ultra, Pro, and Nano sizes, suitable for applications ranging from complex reasoning tasks to on-device memory-constrained use-cases. Evaluation on a broad range of benchmarks shows that our most-capable Gemini Ultra model advances the state of the art in 30 of 32 of these benchmarks - notably being the first model to achieve human-expert performance on the well-studied exam benchmark MMLU, and improving the state of the art in every one of the 20 multimodal benchmarks we examined. We believe that the new capabilities of the Gemini family in cross-modal reasoning and language understanding will enable a wide variety of use cases. We discuss our approach toward post-training and deploying Gemini models responsibly to users through services includi
+    arXiv:2403.03593v1 Announce Type: cross  Abstract: Training high-quality deep learning models is a challenging task due to computational and technical requirements. A growing number of individuals, institutions, and companies increasingly rely on pre-trained, third-party models made available in public repositories. These models are often used directly or integrated in product pipelines with no particular precautions, since they are effectively just data in tensor form and considered safe. In this paper, we raise awareness of a new machine learning supply chain threat targeting neural networks. We introduce MaleficNet 2.0, a novel technique to embed self-extracting, self-executing malware in neural networks. MaleficNet 2.0 uses spread-spectrum channel coding combined with error correction techniques to inject malicious payloads in the parameters of deep neural networks. MaleficNet 2.0 injection technique is stealthy, does not degrade the performance of the model, and is robust against 
     
-[^5]: 机器学习模型的成员推断攻击的基本限制
+[^3]: LLM多智能体系统：挑战与开放问题
 
-    Fundamental Limits of Membership Inference Attacks on Machine Learning Models. (arXiv:2310.13786v1 [stat.ML])
+    LLM Multi-Agent Systems: Challenges and Open Problems
 
-    [http://arxiv.org/abs/2310.13786](http://arxiv.org/abs/2310.13786)
+    [https://arxiv.org/abs/2402.03578](https://arxiv.org/abs/2402.03578)
 
-    本文探讨了机器学习模型上成员推断攻击的基本限制，包括推导了效果和成功率的统计量，并提供了几种情况下的界限。这使得我们能够根据样本数量和其他结构参数推断潜在攻击的准确性。
-
-    
-
-    成员推断攻击（MIA）可以揭示特定数据点是否是训练数据集的一部分，可能暴露个人的敏感信息。本文探讨了关于机器学习模型上MIA的基本统计限制。具体而言，我们首先推导了统计量，该统计量决定了这种攻击的有效性和成功率。然后，我们研究了几种情况，并对这个感兴趣的统计量提供了界限。这使我们能够根据样本数量和学习模型的其他结构参数推断潜在攻击的准确性，在某些情况下可以直接从数据集中估计。
-
-    Membership inference attacks (MIA) can reveal whether a particular data point was part of the training dataset, potentially exposing sensitive information about individuals. This article explores the fundamental statistical limitations associated with MIAs on machine learning models. More precisely, we first derive the statistical quantity that governs the effectiveness and success of such attacks. Then, we investigate several situations for which we provide bounds on this quantity of interest. This allows us to infer the accuracy of potential attacks as a function of the number of samples and other structural parameters of learning models, which in some cases can be directly estimated from the dataset.
-    
-[^6]: 探索语言模型中谄媚行为的理解
-
-    Towards Understanding Sycophancy in Language Models. (arXiv:2310.13548v1 [cs.CL])
-
-    [http://arxiv.org/abs/2310.13548](http://arxiv.org/abs/2310.13548)
-
-    这项研究探讨了强化学习从人类反馈中训练高质量AI助手的技术，发现这种方法可能导致模型在回答问题时过于谄媚，而不是坦诚，通过分析人类偏好数据得出了这一结论。
+    本文讨论了多智能体系统的挑战与开放问题，包括任务分配优化、增强推理能力、管理上下文信息和改善内存管理，同时探讨了多智能体系统在区块链系统中的潜力和未来发展。
 
     
 
-    「从人类反馈中进行强化学习（RLHF）」是训练高质量AI助手的一种流行技术。然而，RLHF可能会鼓励模型通过与用户信念相符的回答来代替真实回答，这种行为被称为谄媚行为。我们研究了RLHF训练模型中谄媚行为的普遍性以及人类偏好判断是否起到了作用。首先，我们证明了五个最先进的AI助手在四个不同的自由文本生成任务中一贯表现出谄媚行为。为了理解人类偏好是否驱动了RLHF模型的这种广泛行为，我们分析了现有的人类偏好数据。我们发现，当回答与用户的观点相符时，它更有可能被选中。此外，人类和偏好模型（PMs）将有说服力的谄媚回答与正确回答相比，有时几乎可以忽略不计地选择了谄媚回答。优化模型输出以满足PMs有时也会在真实性和谄媚行为之间做出取舍。
+    本文探讨了现有多智能体系统的研究工作，并识别出尚未充分解决的挑战。通过利用多智能体系统内个体智能体的多样能力和角色，这些系统可以通过协作来处理复杂任务。我们讨论了优化任务分配、通过迭代辩论促进强大推理、管理复杂和分层的上下文信息以及增强内存管理以支持多智能体系统内的复杂交互。我们还探讨了在区块链系统中应用多智能体系统的潜力，以启示其在真实分布式系统中的未来发展和应用。
 
-    Reinforcement learning from human feedback (RLHF) is a popular technique for training high-quality AI assistants. However, RLHF may also encourage model responses that match user beliefs over truthful responses, a behavior known as sycophancy. We investigate the prevalence of sycophancy in RLHF-trained models and whether human preference judgements are responsible. We first demonstrate that five state-of-the-art AI assistants consistently exhibit sycophantic behavior across four varied free-form text-generation tasks. To understand if human preferences drive this broadly observed behavior of RLHF models, we analyze existing human preference data. We find that when a response matches a user's views, it is more likely to be preferred. Moreover, both humans and preference models (PMs) prefer convincingly-written sycophantic responses over correct ones a negligible fraction of the time. Optimizing model outputs against PMs also sometimes sacrifices truthfulness in favor of sycophancy. Over
+    This paper explores existing works of multi-agent systems and identifies challenges that remain inadequately addressed. By leveraging the diverse capabilities and roles of individual agents within a multi-agent system, these systems can tackle complex tasks through collaboration. We discuss optimizing task allocation, fostering robust reasoning through iterative debates, managing complex and layered context information, and enhancing memory management to support the intricate interactions within multi-agent systems. We also explore the potential application of multi-agent systems in blockchain systems to shed light on their future development and application in real-world distributed systems.
     
-[^7]: 评论帮助更好地学习：基于时间的监督知识蒸馏
+[^4]: 解构人工智能责任
 
-    Review helps learn better: Temporal Supervised Knowledge Distillation. (arXiv:2307.00811v2 [cs.CV] UPDATED)
+    Unravelling Responsibility for AI. (arXiv:2308.02608v1 [cs.AI])
 
-    [http://arxiv.org/abs/2307.00811](http://arxiv.org/abs/2307.00811)
+    [http://arxiv.org/abs/2308.02608](http://arxiv.org/abs/2308.02608)
 
-    本文提出了一种基于时间的监督知识蒸馏方法，利用评论来帮助学生网络的学习。通过提取学生网络在不同训练阶段的时空特征，并通过动态目标进行训练，实现了对学生网络中旧知识的优化和利用，从而提高了网络的训练性能。
-
-    
-
-    在学习知识时，评论发挥了重要作用。在某个时间点获取的知识可能在之前的经验帮助下得到极大的启发。因此，知识增长过程应该在时间维度上展现出强烈的关联性。在我们的研究中，我们发现在网络训练过程中，特征图的演化遵循时间序列特性。适当的时间监督可以进一步提高网络训练性能。受到这一观察的启发，我们提出了基于时间的监督知识蒸馏（TSKD）。具体而言，我们通过卷积长短期记忆网络（Conv-LSTM）提取学生网络在不同训练阶段的时空特征。然后，我们通过动态目标训练学生网络，而不是静态的教师网络特征。这个过程实现了学生网络中旧知识的优化，并将其用于辅助当前的学习。广泛的实验证实了该方法的有效性。
-
-    Reviewing plays an important role when learning knowledge. The knowledge acquisition at a certain time point may be strongly inspired with the help of previous experience. Thus the knowledge growing procedure should show strong relationship along the temporal dimension. In our research, we find that during the network training, the evolution of feature map follows temporal sequence property. A proper temporal supervision may further improve the network training performance. Inspired by this observation, we propose Temporal Supervised Knowledge Distillation (TSKD). Specifically, we extract the spatiotemporal features in the different training phases of student by convolutional Long Short-term memory network (Conv-LSTM). Then, we train the student net through a dynamic target, rather than static teacher network features. This process realizes the refinement of old knowledge in student network, and utilizes it to assist current learning. Extensive experiments verify the effectiveness and 
-    
-[^8]: 基于大型语言模型的点击诱骗检测
-
-    Clickbait Detection via Large Language Models. (arXiv:2306.09597v1 [cs.CL])
-
-    [http://arxiv.org/abs/2306.09597](http://arxiv.org/abs/2306.09597)
-
-    本文研究了大型语言模型在点击诱骗检测上的性能，结果表明LLM无法取得最佳结果且不能仅通过标题实现满意的检测。
+    本文旨在解构人工智能责任的概念，提出了一种包含四种责任意义的有效组合，以支持对人工智能责任的实践推理。
 
     
 
-    点击诱骗（Clickbait）会通过一些令人惊讶甚至引人入胜的标题来诱导用户进行点击，几乎渗透到所有在线内容发布者，如新闻门户和社交媒体。最近，大型语言模型 (LLM)已成为一种强大的工具，并在一系列NLP下游任务中取得了巨大成功。但是，LLM是否可以作为高质量的点击诱骗检测系统还不为人所知。本文分析了LLM在多个英文和中文基准数据集的少样本场景下的性能。实验结果表明，与最先进的深度和微调PLM方法相比，LLM无法达到最佳结果。与人类直觉不同，实验表明LLM不能仅通过标题实现满意的点击诱骗检测。
+    为了在涉及人工智能系统的复杂情况下合理思考责任应该放在何处，我们首先需要一个足够清晰和详细的跨学科词汇来谈论责任。责任是一种三元关系，涉及到一个行为者、一个事件和一种责任方式。作为一种有意识的为了支持对人工智能责任进行实践推理的“解构”责任概念的努力，本文采取了“行为者A对事件O负责”的三部分表述，并确定了A、负责、O的子类别的有效组合。这些有效组合我们称之为“责任串”，分为四种责任意义：角色责任、因果责任、法律责任和道德责任。我们通过两个运行示例进行了说明，一个涉及医疗AI系统，另一个涉及AV与行人的致命碰撞。
 
-    Clickbait, which aims to induce users with some surprising and even thrilling headlines for increasing click-through rates, permeates almost all online content publishers, such as news portals and social media. Recently, Large Language Models (LLMs) have emerged as a powerful instrument and achieved tremendous success in a serious of NLP downstream tasks. However, it is not yet known whether LLMs can be served as a high-quality clickbait detection system. In this paper, we analyze the performance of LLMs in the few-shot scenarios on a number of English and Chinese benchmark datasets. Experimental results show that LLMs cannot achieve the best results compared to the state-of-the-art deep and fine-tuning PLMs methods. Different from the human intuition, the experiments demonstrated that LLMs cannot make satisfied clickbait detection just by the headlines.
+    To reason about where responsibility does and should lie in complex situations involving AI-enabled systems, we first need a sufficiently clear and detailed cross-disciplinary vocabulary for talking about responsibility. Responsibility is a triadic relation involving an actor, an occurrence, and a way of being responsible. As part of a conscious effort towards 'unravelling' the concept of responsibility to support practical reasoning about responsibility for AI, this paper takes the three-part formulation, 'Actor A is responsible for Occurrence O' and identifies valid combinations of subcategories of A, is responsible for, and O. These valid combinations - which we term "responsibility strings" - are grouped into four senses of responsibility: role-responsibility; causal responsibility; legal liability-responsibility; and moral responsibility. They are illustrated with two running examples, one involving a healthcare AI-based system and another the fatal collision of an AV with a pedes
     
-[^9]: 基于图的去中心化对抗性训练
+[^5]: 用正则化高阶总变差的随机优化方法训练非线性神经网络
 
-    Decentralized Adversarial Training over Graphs. (arXiv:2303.13326v1 [cs.LG])
+    A stochastic optimization approach to train non-linear neural networks with regularization of higher-order total variation. (arXiv:2308.02293v1 [stat.ME])
 
-    [http://arxiv.org/abs/2303.13326](http://arxiv.org/abs/2303.13326)
+    [http://arxiv.org/abs/2308.02293](http://arxiv.org/abs/2308.02293)
 
-    本文研究了在图上的去中心化对抗性训练，利用扩散学习的方法，开发了一种对抗性训练框架，增强了多个代理的鲁棒性以对抗攻击。
+    通过引入高阶总变差正则化的随机优化算法，可以高效地训练非线性神经网络，避免过拟合问题。
 
     
 
-    近年来，机器学习模型对抗攻击的漏洞引起了广泛关注。大多数现有研究都集中在独立单一代理学习者的行为上。相比之下，本文研究了在图上的对抗性训练，其中各个单独的代理会受到空间中不同强度的扰动。预期通过链接代理和可能在图上实现的攻击模型的异质性，协调整个团队的强大协同作用可以帮助增强鲁棒性。本文使用扩散学习的极小-极大公式，为多代理系统开发了一种去中心化的对抗性训练框架。我们分析了该方案在凸和非凸环境下的收敛特性，并说明了增强的鲁棒性对抗攻击。
+    尽管包括深度神经网络在内的高度表达的参数模型可以更好地建模复杂概念，但训练这种高度非线性模型已知会导致严重的过拟合风险。针对这个问题，本研究考虑了一种k阶总变差（k-TV）正则化，它被定义为要训练的参数模型的k阶导数的平方积分，通过惩罚k-TV来产生一个更平滑的函数，从而避免过拟合。尽管将k-TV项应用于一般的参数模型由于积分而导致计算复杂，本研究提供了一种随机优化算法，可以高效地训练带有k-TV正则化的一般模型，而无需进行显式的数值积分。这种方法可以应用于结构任意的深度神经网络的训练，因为它只需要进行简单的随机梯度优化即可实现。
 
-    The vulnerability of machine learning models to adversarial attacks has been attracting considerable attention in recent years. Most existing studies focus on the behavior of stand-alone single-agent learners. In comparison, this work studies adversarial training over graphs, where individual agents are subjected to perturbations of varied strength levels across space. It is expected that interactions by linked agents, and the heterogeneity of the attack models that are possible over the graph, can help enhance robustness in view of the coordination power of the group. Using a min-max formulation of diffusion learning, we develop a decentralized adversarial training framework for multi-agent systems. We analyze the convergence properties of the proposed scheme for both convex and non-convex environments, and illustrate the enhanced robustness to adversarial attacks.
+    While highly expressive parametric models including deep neural networks have an advantage to model complicated concepts, training such highly non-linear models is known to yield a high risk of notorious overfitting. To address this issue, this study considers a $k$th order total variation ($k$-TV) regularization, which is defined as the squared integral of the $k$th order derivative of the parametric models to be trained; penalizing the $k$-TV is expected to yield a smoother function, which is expected to avoid overfitting. While the $k$-TV terms applied to general parametric models are computationally intractable due to the integration, this study provides a stochastic optimization algorithm, that can efficiently train general models with the $k$-TV regularization without conducting explicit numerical integration. The proposed approach can be applied to the training of even deep neural networks whose structure is arbitrary, as it can be implemented by only a simple stochastic gradien
     
 
