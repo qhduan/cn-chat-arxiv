@@ -2,52 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Local-Polynomial Estimation for Multivariate Regression Discontinuity Designs](https://arxiv.org/abs/2402.08941) | 在多元回归不连续设计中，我们提出了一种多元局部多项式估计方法，能够处理多元设计并捕捉边界处的异质治疗效应。 |
-| [^2] | [A Note on the Continuity of Expected Utility Functions.](http://arxiv.org/abs/2310.16806) | 本文研究了期望效用函数的连续性，并给出了在简单概率空间和具有紧支撑的概率空间上，使得弱次序具有连续期望效用函数的必要且充分条件。 |
-| [^3] | [Inference on eigenvectors of non-symmetric matrices.](http://arxiv.org/abs/2303.18233) | 本研究探讨了建立渐近推断非对称矩阵特征向量程序的必要条件，并针对完全向量和每个系数假设分别建立了 Wald 和 t 检验的分布理论，是多元统计学中的一种有用工具。 |
+| [^1] | [Flexible Analysis of Individual Heterogeneity in Event Studies: Application to the Child Penalty](https://arxiv.org/abs/2403.19563) | 提供了一个实用工具包，用于分析事件研究中的效应异质性，强调了个体级别效应的重要性，并揭示了线性治疗效应的挑战。 |
+| [^2] | [Quasi-Bayesian Estimation and Inference with Control Functions](https://arxiv.org/abs/2402.17374) | 该研究提出了一种拟贝叶斯方法，结合了第一阶段的频率主义估计和第二阶段的贝叶斯估计/推断方法，适用于结构离散选择模型中的内生性偏误修正，其中拟贝叶斯点估计保持一致，并渐近地等价于频率主义两阶段估计量。 |
+| [^3] | [Distorted optimal transport.](http://arxiv.org/abs/2308.11238) | 扭曲最优传输是一种新的传输方法，通过最小化扭曲的预期成本来解决具体问题。与经典理论相比，它具有许多独特的特点，可以应用于决策理论、鲁棒优化和风险管理中。共单调耦合是在满足一定条件下的最优解。该方法还具有一些对偶性和唯一性结果。 |
+| [^4] | [Post-COVID Inflation & the Monetary Policy Dilemma: An Agent-Based Scenario Analysis.](http://arxiv.org/abs/2306.01284) | 本文使用一种基于智能体模型的新方法，研究了疫后通胀与货币政策的困境，通过研究三种外部冲击的影响，探究监管政策对通胀动态的影响。 |
 
 # 详细
 
-[^1]: 多元回归不连续设计的局部多项式估计方法
+[^1]: 事件研究中个体异质性的灵活分析：以子女惩罚为例
 
-    Local-Polynomial Estimation for Multivariate Regression Discontinuity Designs
+    Flexible Analysis of Individual Heterogeneity in Event Studies: Application to the Child Penalty
 
-    [https://arxiv.org/abs/2402.08941](https://arxiv.org/abs/2402.08941)
+    [https://arxiv.org/abs/2403.19563](https://arxiv.org/abs/2403.19563)
 
-    在多元回归不连续设计中，我们提出了一种多元局部多项式估计方法，能够处理多元设计并捕捉边界处的异质治疗效应。
-
-    
-
-    我们引入了一个多元局部线性估计器，用于处理多元回归不连续设计中的治疗分配问题。现有的方法使用从边界点到欧氏距离作为标量运行变量，因此多元设计被处理为单变量设计。然而，距离运行变量与渐近有效性的假设不相容。我们将多元设计作为多元处理。在这项研究中，我们开发了一种针对多元局部多项式估计器的新型渐近正常性。我们的估计器是渐近有效的，并能捕捉边界处的异质治疗效应。通过数值模拟，我们证明了我们估计器的有效性。我们在哥伦比亚奖学金研究中的实证说明揭示了治疗效应的更丰富的异质性（包括其不存在）。
-
-    arXiv:2402.08941v1 Announce Type: new Abstract: We introduce a multivariate local-linear estimator for multivariate regression discontinuity designs in which treatment is assigned by crossing a boundary in the space of running variables. The dominant approach uses the Euclidean distance from a boundary point as the scalar running variable; hence, multivariate designs are handled as uni-variate designs. However, the distance running variable is incompatible with the assumption for asymptotic validity. We handle multivariate designs as multivariate. In this study, we develop a novel asymptotic normality for multivariate local-polynomial estimators. Our estimator is asymptotically valid and can capture heterogeneous treatment effects over the boundary. We demonstrate the effectiveness of our estimator through numerical simulations. Our empirical illustration of a Colombian scholarship study reveals a richer heterogeneity (including its absence) of the treatment effect that is hidden in th
-    
-[^2]: 对期望效用函数连续性的注释
-
-    A Note on the Continuity of Expected Utility Functions. (arXiv:2310.16806v1 [econ.TH])
-
-    [http://arxiv.org/abs/2310.16806](http://arxiv.org/abs/2310.16806)
-
-    本文研究了期望效用函数的连续性，并给出了在简单概率空间和具有紧支撑的概率空间上，使得弱次序具有连续期望效用函数的必要且充分条件。
+    提供了一个实用工具包，用于分析事件研究中的效应异质性，强调了个体级别效应的重要性，并揭示了线性治疗效应的挑战。
 
     
 
-    本文研究了期望效用函数的连续性，并导出了一个弱次序在简单概率空间上具有连续期望效用函数的必要与充分条件。我们还验证了几乎相同的条件对于具有紧支撑的概率空间上的弱次序具有连续期望效用函数而言也是必要且充分的。
+    我们提供了一个实用工具包，用于分析事件研究中的效应异质性。我们开发了一个估计算法，并调整现有的计量经济结果，提供其理论基础。我们将这些工具应用于荷兰行政数据，以三种方式研究子女惩罚（CP）背景下的个体异质性。首先，我们记录了个体级别CP轨迹的显著异质性，强调超越平均CP的重要性。其次，我们使用个体级别估计来检验托儿服务供给扩展政策的影响。我们的方法揭示了非线性治疗效应，挑战了受限于较少灵活规范的传统政策评估方法。第三，我们使用个体级别估计作为回归变量来研究母女之间CP的代际弹性。在调整测量误差偏差之后，
 
-    In this paper, we study the continuity of expected utility functions, and derive a necessary and sufficient condition for a weak order on the space of simple probabilities to have a continuous expected utility function. We also verify that almost the same condition is necessary and sufficient for a weak order on the space of probabilities with compact-support to have a continuous expected utility function.
+    arXiv:2403.19563v1 Announce Type: new  Abstract: We provide a practical toolkit for analyzing effect heterogeneity in event studies. We develop an estimation algorithm and adapt existing econometric results to provide its theoretical justification. We apply these tools to Dutch administrative data to study individual heterogeneity in the child-penalty (CP) context in three ways. First, we document significant heterogeneity in the individual-level CP trajectories, emphasizing the importance of going beyond the average CP. Second, we use individual-level estimates to examine the impact of childcare supply expansion policies. Our approach uncovers nonlinear treatment effects, challenging the conventional policy evaluation methods constrained to less flexible specifications. Third, we use the individual-level estimates as a regressor on the right-hand side to study the intergenerational elasticity of the CP between mothers and daughters. After adjusting for the measurement error bias, we f
     
-[^3]: 非对称矩阵特征向量的推断
+[^2]: 具有控制函数的拟贝叶斯估计与推断
 
-    Inference on eigenvectors of non-symmetric matrices. (arXiv:2303.18233v1 [math.ST])
+    Quasi-Bayesian Estimation and Inference with Control Functions
 
-    [http://arxiv.org/abs/2303.18233](http://arxiv.org/abs/2303.18233)
+    [https://arxiv.org/abs/2402.17374](https://arxiv.org/abs/2402.17374)
 
-    本研究探讨了建立渐近推断非对称矩阵特征向量程序的必要条件，并针对完全向量和每个系数假设分别建立了 Wald 和 t 检验的分布理论，是多元统计学中的一种有用工具。
+    该研究提出了一种拟贝叶斯方法，结合了第一阶段的频率主义估计和第二阶段的贝叶斯估计/推断方法，适用于结构离散选择模型中的内生性偏误修正，其中拟贝叶斯点估计保持一致，并渐近地等价于频率主义两阶段估计量。
 
     
 
-    本文认为，Tyler（1981）的可对称化条件并非建立渐近推断特征向量程序所必需的。 我们为完全向量和每个系数假设分别建立了 Wald 和 t 检验的分布理论。 我们的检验统计量来源于非对称矩阵的特征投影。 通过将投影表示为从基础矩阵到其谱数据的映射，我们通过解析摄动理论找到了导数。 这些结果演示了 Sun（1991）的解析摄动理论是多元统计学中的一种有用工具，并且具有独立的兴趣。作为一种应用，我们为由有向图引发的邻接矩阵估计的 Bonacich 中心性定义置信区间。
+    我们考虑一种拟贝叶斯方法，该方法在第一阶段结合了频率主义估计和第二阶段的贝叶斯估计/推断方法。这项研究受到了使用控制函数方法纠正内生性偏误的结构离散选择模型的启发。在这种情况下，第一阶段使用一些频率主义参数化或非参数化方法来估计控制函数。与一些复杂的似然函数相关的结构方程可以更方便地使用贝叶斯方法进行处理。本文研究了从第二阶段获得的拟后验分布的渐近特性。我们证明，相应的拟贝叶斯可信集在大样本中不具有所需的覆盖率。尽管如此，拟贝叶斯点估计保持一致，并且渐近地等价于频率主义两阶段估计量。
 
-    This paper argues that the symmetrisability condition in Tyler(1981) is not necessary to establish asymptotic inference procedures for eigenvectors. We establish distribution theory for a Wald and t-test for full-vector and individual coefficient hypotheses, respectively. Our test statistics originate from eigenprojections of non-symmetric matrices. Representing projections as a mapping from the underlying matrix to its spectral data, we find derivatives through analytic perturbation theory. These results demonstrate how the analytic perturbation theory of Sun(1991) is a useful tool in multivariate statistics and are of independent interest. As an application, we define confidence sets for Bonacich centralities estimated from adjacency matrices induced by directed graphs.
+    arXiv:2402.17374v1 Announce Type: new  Abstract: We consider a quasi-Bayesian method that combines a frequentist estimation in the first stage and a Bayesian estimation/inference approach in the second stage. The study is motivated by structural discrete choice models that use the control function methodology to correct for endogeneity bias. In this scenario, the first stage estimates the control function using some frequentist parametric or nonparametric approach. The structural equation in the second stage, associated with certain complicated likelihood functions, can be more conveniently dealt with using a Bayesian approach. This paper studies the asymptotic properties of the quasi-posterior distributions obtained from the second stage. We prove that the corresponding quasi-Bayesian credible set does not have the desired coverage in large samples. Nonetheless, the quasi-Bayesian point estimator remains consistent and is asymptotically equivalent to a frequentist two-stage estimator.
+    
+[^3]: 扭曲的最优传输
+
+    Distorted optimal transport. (arXiv:2308.11238v1 [math.OC])
+
+    [http://arxiv.org/abs/2308.11238](http://arxiv.org/abs/2308.11238)
+
+    扭曲最优传输是一种新的传输方法，通过最小化扭曲的预期成本来解决具体问题。与经典理论相比，它具有许多独特的特点，可以应用于决策理论、鲁棒优化和风险管理中。共单调耦合是在满足一定条件下的最优解。该方法还具有一些对偶性和唯一性结果。
+
+    
+
+    经典的最优传输理论是通过最小化两个给定分布之间的预期成本来建立的。我们提出了扭曲最优传输的框架，通过最小化扭曲的预期成本来实现。这个新的公式是基于决策理论、鲁棒优化和风险管理中的具体问题而提出的，与经典理论相比具有很多不同的特点。我们选择了简单的成本函数，并研究了不同的扭曲函数及其对最优传输计划的影响。我们证明了在实线上，当扭曲函数是凸函数且成本函数是次模函数和单调函数时，共单调耦合是扭曲最优传输问题的最优解。我们还提供了一些对偶性和唯一性结果。对于逆S形扭曲函数和线性成本，我们得到了所有边际分布的唯一最优耦合形式，这个形式的耦合具有有趣的“首先共单调，然后反单调”依赖关系。
+
+    Classic optimal transport theory is built on minimizing the expected cost between two given distributions. We propose the framework of distorted optimal transport by minimizing a distorted expected cost. This new formulation is motivated by concrete problems in decision theory, robust optimization, and risk management, and it has many distinct features compared to the classic theory. We choose simple cost functions and study different distortion functions and their implications on the optimal transport plan. We show that on the real line, the comonotonic coupling is optimal for the distorted optimal transport problem when the distortion function is convex and the cost function is submodular and monotone. Some forms of duality and uniqueness results are provided. For inverse-S-shaped distortion functions and linear cost, we obtain the unique form of optimal coupling for all marginal distributions, which turns out to have an interesting ``first comonotonic, then counter-monotonic" depend
+    
+[^4]: 疫后通胀与货币政策困境：一项基于智能体场景分析的研究
+
+    Post-COVID Inflation & the Monetary Policy Dilemma: An Agent-Based Scenario Analysis. (arXiv:2306.01284v1 [econ.GN])
+
+    [http://arxiv.org/abs/2306.01284](http://arxiv.org/abs/2306.01284)
+
+    本文使用一种基于智能体模型的新方法，研究了疫后通胀与货币政策的困境，通过研究三种外部冲击的影响，探究监管政策对通胀动态的影响。
+
+    
+
+    COVID-19带来的经济冲击凸显了描述和预测通胀动态的困难，本文提供了一种替代建模方法。我们使用经过良好研究的Mark-0智能体模型，研究2020-2023年的情况，并包括一种机制，使经济主体对中央银行的信任可以解除。我们研究了监管政策对由COVID-19引发的三种外部冲击所导致的通胀动态的影响：由COVID相关封锁引起的生产/消费冲击、供应链冲击以及俄罗斯入侵乌克兰加剧的能源价格冲击。通过在不同的货币政策效力和传导渠道的假设下探究这些冲击的影响，我们回顾了各种解释。
+
+    The economic shocks that followed the COVID-19 pandemic have brought to light the difficulty, both for academics and policy makers, of describing and predicting the dynamics of inflation. This paper offers an alternative modelling approach. We study the 2020-2023 period within the well-studied Mark-0 Agent-Based Model, in which economic agents act and react according to plausible behavioural rules. We include in particular a mechanism through which trust of economic agents in the Central Bank can de-anchor. We investigate the influence of regulatory policies on inflationary dynamics resulting from three exogenous shocks, calibrated on those that followed the COVID-19 pandemic: a production/consumption shock due to COVID-related lockdowns, a supply-chain shock, and an energy price shock exacerbated by the Russian invasion of Ukraine. By exploring the impact of these shocks under different assumptions about monetary policy efficacy and transmission channels, we review various explanation
     
 
