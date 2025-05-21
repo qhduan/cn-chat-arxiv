@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [WikiMT++ Dataset Card.](http://arxiv.org/abs/2309.13259) | WikiMT++是一个扩展和精细版本的WikiMusicText数据集，包含了1010个经过策划的ABC记谱法的主题曲。它添加了客观属性和主观情感属性，增强了数据集的应用场景和可用性，并通过CLaMP来纠正属性，提高准确性和完整性。 |
+| [^1] | [Word4Per: Zero-shot Composed Person Retrieval](https://arxiv.org/abs/2311.16515) | 提出了一个新任务：组合人员检索（CPR），旨在联合利用图像和文本信息进行目标人员检索，引入零样本组合人员检索（ZS-CPR）解决了CPR问题，提出了一个两阶段学习框架Word4Per。 |
 
 # 详细
 
-[^1]: WikiMT++数据集卡片
+[^1]: Word4Per: Zero-shot组合人员检索
 
-    WikiMT++ Dataset Card. (arXiv:2309.13259v1 [cs.IR])
+    Word4Per: Zero-shot Composed Person Retrieval
 
-    [http://arxiv.org/abs/2309.13259](http://arxiv.org/abs/2309.13259)
+    [https://arxiv.org/abs/2311.16515](https://arxiv.org/abs/2311.16515)
 
-    WikiMT++是一个扩展和精细版本的WikiMusicText数据集，包含了1010个经过策划的ABC记谱法的主题曲。它添加了客观属性和主观情感属性，增强了数据集的应用场景和可用性，并通过CLaMP来纠正属性，提高准确性和完整性。
+    提出了一个新任务：组合人员检索（CPR），旨在联合利用图像和文本信息进行目标人员检索，引入零样本组合人员检索（ZS-CPR）解决了CPR问题，提出了一个两阶段学习框架Word4Per。
 
     
 
-    WikiMT++是WikiMusicText（WikiMT）的扩展和精细版本，包含了1010个经过策划的ABC记谱法的主题曲。为了扩展WikiMT的应用场景，我们添加了客观属性（专辑、歌词、视频）和主观情感属性（12个情感形容词）和情感4Q（Russell 4Q），增强了其在音乐信息检索、条件音乐生成、自动作曲和情感分类等方面的可用性。此外，我们还实现了CLaMP来纠正从WikiMT继承的属性，以减少原始数据收集过程中引入的错误，增强了数据集的准确性和完整性。
+    寻找特定人员具有极大的社会效益和安全价值，通常涉及视觉和文本信息的结合。本文提出了一个全新的任务，称为组合人员检索（CPR），旨在联合利用图像和文本信息进行目标人员检索。然而，监督CPR需要昂贵的手动注释数据集，而目前没有可用资源。为了解决这个问题，我们首先引入了零样本组合人员检索（ZS-CPR），利用现有的领域相关数据解决了CPR问题而不需要昂贵的注释。其次，为了学习ZS-CPR模型，我们提出了一个两阶段学习框架，即Word4Per，其中包含一个轻量级的文本反转网络。
 
-    WikiMT++ is an expanded and refined version of WikiMusicText (WikiMT), featuring 1010 curated lead sheets in ABC notation. To expand application scenarios of WikiMT, we add both objective (album, lyrics, video) and subjective emotion (12 emotion adjectives) and emo\_4q (Russell 4Q) attributes, enhancing its usability for music information retrieval, conditional music generation, automatic composition, and emotion classification, etc. Additionally, CLaMP is implemented to correct the attributes inherited from WikiMT to reduce errors introduced during original data collection and enhance the accuracy and completeness of our dataset.
+    arXiv:2311.16515v2 Announce Type: replace-cross  Abstract: Searching for specific person has great social benefits and security value, and it often involves a combination of visual and textual information. Conventional person retrieval methods, whether image-based or text-based, usually fall short in effectively harnessing both types of information, leading to the loss of accuracy. In this paper, a whole new task called Composed Person Retrieval (CPR) is proposed to jointly utilize both image and text information for target person retrieval. However, the supervised CPR requires very costly manual annotation dataset, while there are currently no available resources. To mitigate this issue, we firstly introduce the Zero-shot Composed Person Retrieval (ZS-CPR), which leverages existing domain-related data to resolve the CPR problem without expensive annotations. Secondly, to learn ZS-CPR model, we propose a two-stage learning framework, Word4Per, where a lightweight Textual Inversion Netw
     
 
