@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Solutions to Equilibrium HJB Equations for Time-Inconsistent Deterministic Linear Quadratic Control: Characterization and Uniqueness.](http://arxiv.org/abs/2308.13850) | 本文研究了不具时一致性的确定性线性二次控制中的平衡HJB方程，使用一类带有积分项的Riccati方程刻画了解的特征，并通过研究积分-微分Riccati方程解的唯一性，证明了解的唯一性。 |
+| [^1] | [A Markovian empirical model for the VIX index and the pricing of the corresponding derivatives.](http://arxiv.org/abs/2309.08175) | 本文提出了一种VIX指数的经验模型，发现VIX具有长期经验分布，利用马尔可夫过程和适当函数$h$进行动态建模，并使用分离变量法解决了VIX期货和认购期权的定价问题。 |
 
 # 详细
 
-[^1]: 解决不具时一致性的确定性线性二次控制中的平衡HJB方程：特征和唯一性
+[^1]: 《VIX指数的马尔可夫经验模型及相应衍生品的定价》
 
-    Solutions to Equilibrium HJB Equations for Time-Inconsistent Deterministic Linear Quadratic Control: Characterization and Uniqueness. (arXiv:2308.13850v1 [math.OC])
+    A Markovian empirical model for the VIX index and the pricing of the corresponding derivatives. (arXiv:2309.08175v1 [q-fin.PR])
 
-    [http://arxiv.org/abs/2308.13850](http://arxiv.org/abs/2308.13850)
+    [http://arxiv.org/abs/2309.08175](http://arxiv.org/abs/2309.08175)
 
-    本文研究了不具时一致性的确定性线性二次控制中的平衡HJB方程，使用一类带有积分项的Riccati方程刻画了解的特征，并通过研究积分-微分Riccati方程解的唯一性，证明了解的唯一性。
+    本文提出了一种VIX指数的经验模型，发现VIX具有长期经验分布，利用马尔可夫过程和适当函数$h$进行动态建模，并使用分离变量法解决了VIX期货和认购期权的定价问题。
 
     
 
-    本文研究了一个类别的HJB方程，在个人间博弈理论框架下求解具有非指数折扣函数引起的不具时一致性的确定性线性二次控制问题的均衡。我们通过使用一类带有积分项的Riccati方程来刻画HJB方程的解。通过研究积分-微分Riccati方程解的唯一性，我们证明了均衡HJB方程的解的唯一性。
+    本文提出了一种VIX指数的经验模型。我们的研究结果表明VIX指数具有长期的经验分布。为了描述其动态变化，我们采用了一个具有均匀分布作为不变分布且包含适当函数$h$的连续时间马尔可夫过程。我们发现$h$是VIX数据经验分布的反函数。此外，我们利用分离变量法得到了对VIX期货和认购期权定价问题的精确解。
 
-    In this paper we study a class of HJB equations which solve for equilibria for general time-inconsistent deterministic linear quadratic control problems within the intra-personal game theoretic framework, where the inconsistency arises from non-exponential discount functions. We characterize the solutions to the HJB equations using a class of Riccati equations with integral terms. By studying the uniqueness of solutions to the integro-differential Riccati equations, we prove the uniqueness of solutions to the equilibrium HJB equations.
+    In this paper, we propose an empirical model for the VIX index. Our findings indicate that the VIX has a long-term empirical distribution. To model its dynamics, we utilize a continuous-time Markov process with a uniform distribution as its invariant distribution and a suitable function $h$. We determined that $h$ is the inverse function of the VIX data's empirical distribution. Additionally, we use the method of variables of separation to get the exact solution to the pricing problem for VIX futures and call options.
     
 
