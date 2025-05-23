@@ -2,52 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Inference via Interpolation: Contrastive Representations Provably Enable Planning and Inference](https://arxiv.org/abs/2403.04082) | 通过对比学习学到的时间序列数据表示遵循高斯马尔可夫链，从而启用规划和推断 |
-| [^2] | [Uncertainty quantification in fine-tuned LLMs using LoRA ensembles](https://arxiv.org/abs/2402.12264) | 使用LoRA集成在精调LLMs中提出了一种原则性不确定性量化方法，通过对不同数据域的低秩适应集成分析，推测了模型对特定架构难以学习的数据领域的信号。 |
-| [^3] | [Learning Memory Kernels in Generalized Langevin Equations](https://arxiv.org/abs/2402.11705) | 提出一种学习广义朗之万方程中记忆核的新方法，通过正则化Prony方法估计相关函数并在Sobolev范数Loss函数和RKHS正则化下实现回归，在指数加权的$L^2$空间内获得改进性能，对比其他回归估计器展示了其优越性。 |
+| [^1] | [Theoretical and experimental study of SMOTE: limitations and comparisons of rebalancing strategies](https://arxiv.org/abs/2402.03819) | SMOTE是一种处理不平衡数据集的常用重新平衡策略，它通过复制原始少数样本来重新生成原始分布。本研究证明了SMOTE的密度在少数样本分布的边界附近逐渐减小，从而验证了BorderLine SMOTE策略的合理性。此外，研究还提出了两种新的SMOTE相关策略，并与其他重新平衡方法进行了比较。最终发现，在数据集极度不平衡的情况下，SMOTE、提出的方法或欠采样程序是最佳的策略。 |
+| [^2] | [The objective function equality property of infoGAN for two-layer network.](http://arxiv.org/abs/2310.00443) | 这项研究证明了在infoGAN中，辨别器和生成器的样本数量趋向无穷时，两个目标函数变得等价。 |
+| [^3] | [Why Clean Generalization and Robust Overfitting Both Happen in Adversarial Training.](http://arxiv.org/abs/2306.01271) | 对抗训练是训练深度神经网络抗击对抗扰动的标准方法, 其学习机制导致干净泛化和强健过拟合现象同时发生。 |
+| [^4] | [Estimate-Then-Optimize Versus Integrated-Estimation-Optimization: A Stochastic Dominance Perspective.](http://arxiv.org/abs/2304.06833) | 本文提出，当模型类足够丰富以涵盖真实情况时，非线性问题的“先估计再优化”方法优于集成方法，包括优化间隙的渐进优势的均值，所有其他时刻和整个渐进分布。 |
 
 # 详细
 
-[^1]: 通过插值进行推断：对比表示可证明启用规划和推断
+[^1]: SMOTE的理论和实验研究：关于重新平衡策略的限制和比较
 
-    Inference via Interpolation: Contrastive Representations Provably Enable Planning and Inference
+    Theoretical and experimental study of SMOTE: limitations and comparisons of rebalancing strategies
 
-    [https://arxiv.org/abs/2403.04082](https://arxiv.org/abs/2403.04082)
+    [https://arxiv.org/abs/2402.03819](https://arxiv.org/abs/2402.03819)
 
-    通过对比学习学到的时间序列数据表示遵循高斯马尔可夫链，从而启用规划和推断
-
-    
-
-    给定时间序列数据，我们如何回答诸如“未来会发生什么？”和“我们是如何到达这里的？”这类概率推断问题在观测值为高维时具有挑战性。本文展示了这些问题如何通过学习表示的紧凑闭式解决方案。关键思想是将对比学习的变体应用于时间序列数据。之前的工作已经表明，通过对比学习学到的表示编码了概率比。通过将之前的工作扩展以表明表示的边际分布是高斯分布，我们随后证明表示的联合分布也是高斯分布。这些结果共同表明，通过时间对比学习学到的表示遵循高斯马尔可夫链，一种图形模型，其中对表示进行的推断（例如预测、规划）对应于反演低维分布。
-
-    arXiv:2403.04082v1 Announce Type: new  Abstract: Given time series data, how can we answer questions like "what will happen in the future?" and "how did we get here?" These sorts of probabilistic inference questions are challenging when observations are high-dimensional. In this paper, we show how these questions can have compact, closed form solutions in terms of learned representations. The key idea is to apply a variant of contrastive learning to time series data. Prior work already shows that the representations learned by contrastive learning encode a probability ratio. By extending prior work to show that the marginal distribution over representations is Gaussian, we can then prove that joint distribution of representations is also Gaussian. Taken together, these results show that representations learned via temporal contrastive learning follow a Gauss-Markov chain, a graphical model where inference (e.g., prediction, planning) over representations corresponds to inverting a low-
-    
-[^2]: 使用LoRA集成在精调LLMs中的不确定性量化
-
-    Uncertainty quantification in fine-tuned LLMs using LoRA ensembles
-
-    [https://arxiv.org/abs/2402.12264](https://arxiv.org/abs/2402.12264)
-
-    使用LoRA集成在精调LLMs中提出了一种原则性不确定性量化方法，通过对不同数据域的低秩适应集成分析，推测了模型对特定架构难以学习的数据领域的信号。
+    SMOTE是一种处理不平衡数据集的常用重新平衡策略，它通过复制原始少数样本来重新生成原始分布。本研究证明了SMOTE的密度在少数样本分布的边界附近逐渐减小，从而验证了BorderLine SMOTE策略的合理性。此外，研究还提出了两种新的SMOTE相关策略，并与其他重新平衡方法进行了比较。最终发现，在数据集极度不平衡的情况下，SMOTE、提出的方法或欠采样程序是最佳的策略。
 
     
 
-    精调大型语言模型可以提高特定任务的性能，尽管对于精调模型学到了什么、遗忘了什么以及如何信任其预测仍然缺乏一个一般的理解。我们提出了使用计算效率高的低秩适应集成对精调LLMs进行基于后验逼近的原则性不确定性量化。我们使用基于Mistral-7b的低秩适应集成分析了三个常见的多项选择数据集，并对其在精调过程中和之后对不同目标领域的感知复杂性和模型效能进行了定量和定性的结论。具体而言，基于数值实验支持，我们对那些对于给定架构难以学习的数据领域的熵不确定性度量提出了假设。
+    SMOTE（Synthetic Minority Oversampling Technique）是处理不平衡数据集常用的重新平衡策略。我们证明了在渐进情况下，SMOTE（默认参数）通过简单复制原始少数样本来重新生成原始分布。我们还证明了在少数样本分布的支持边界附近，SMOTE的密度会减小，从而验证了常见的BorderLine SMOTE策略。随后，我们提出了两种新的SMOTE相关策略，并将它们与现有的重新平衡方法进行了比较。我们发现，只有当数据集极度不平衡时才需要重新平衡策略。对于这种数据集，SMOTE、我们提出的方法或欠采样程序是最佳的策略。
 
-    arXiv:2402.12264v1 Announce Type: cross  Abstract: Fine-tuning large language models can improve task specific performance, although a general understanding of what the fine-tuned model has learned, forgotten and how to trust its predictions is still missing. We derive principled uncertainty quantification for fine-tuned LLMs with posterior approximations using computationally efficient low-rank adaptation ensembles. We analyze three common multiple-choice datasets using low-rank adaptation ensembles based on Mistral-7b, and draw quantitative and qualitative conclusions on their perceived complexity and model efficacy on the different target domains during and after fine-tuning. In particular, backed by the numerical experiments, we hypothesise about signals from entropic uncertainty measures for data domains that are inherently difficult for a given architecture to learn.
+    Synthetic Minority Oversampling Technique (SMOTE) is a common rebalancing strategy for handling imbalanced data sets. Asymptotically, we prove that SMOTE (with default parameter) regenerates the original distribution by simply copying the original minority samples. We also prove that SMOTE density vanishes near the boundary of the support of the minority distribution, therefore justifying the common BorderLine SMOTE strategy. Then we introduce two new SMOTE-related strategies, and compare them with state-of-the-art rebalancing procedures. We show that rebalancing strategies are only required when the data set is highly imbalanced. For such data sets, SMOTE, our proposals, or undersampling procedures are the best strategies.
     
-[^3]: 在广义朗之万方程中学习记忆核
+[^2]: infoGAN的两层网络的目标函数等式属性
 
-    Learning Memory Kernels in Generalized Langevin Equations
+    The objective function equality property of infoGAN for two-layer network. (arXiv:2310.00443v1 [stat.ML])
 
-    [https://arxiv.org/abs/2402.11705](https://arxiv.org/abs/2402.11705)
+    [http://arxiv.org/abs/2310.00443](http://arxiv.org/abs/2310.00443)
 
-    提出一种学习广义朗之万方程中记忆核的新方法，通过正则化Prony方法估计相关函数并在Sobolev范数Loss函数和RKHS正则化下实现回归，在指数加权的$L^2$空间内获得改进性能，对比其他回归估计器展示了其优越性。
+    这项研究证明了在infoGAN中，辨别器和生成器的样本数量趋向无穷时，两个目标函数变得等价。
 
     
 
-    我们引入了一种新颖的方法来学习广义朗之万方程中的记忆核。该方法最初利用正则化Prony方法从轨迹数据中估计相关函数，然后通过基于Sobolev范数的回归和RKHS正则化来进行回归。我们的方法保证在指数加权的$L^2$空间内获得了改进的性能，核估计误差受控于估计相关函数的误差。我们通过数值示例展示了我们的估计器相对于依赖于$L^2$损失函数的其他回归估计器以及从逆拉普拉斯变换推导出的估计器的优越性，这些示例突显了我们的估计器在各种权重参数选择上的持续优势。此外，我们提供了包括力和漂移项在方程中的应用示例。
+    信息最大化生成对抗网络(infoGAN)可以理解为涉及两个网络(辨别器和生成器)的极小化极大问题，其中包含了互信息函数。infoGAN包括多种组件，包括潜在变量、互信息和目标函数。本研究证明，在辨别器和生成器样本数量趋向无穷时，infoGAN中的两个目标函数变得等价。这种等价关系是通过考虑目标函数的经验版本和总体版本之间的差异来建立的。这个差异的界限由辨别器和生成器函数类的Rademacher复杂度决定。此外，使用具有Lipschitz和非递减激活函数的两层网络来验证这个等式。
 
-    arXiv:2402.11705v1 Announce Type: cross  Abstract: We introduce a novel approach for learning memory kernels in Generalized Langevin Equations. This approach initially utilizes a regularized Prony method to estimate correlation functions from trajectory data, followed by regression over a Sobolev norm-based loss function with RKHS regularization. Our approach guarantees improved performance within an exponentially weighted $L^2$ space, with the kernel estimation error controlled by the error in estimated correlation functions. We demonstrate the superiority of our estimator compared to other regression estimators that rely on $L^2$ loss functions and also an estimator derived from the inverse Laplace transform, using numerical examples that highlight its consistent advantage across various weight parameter selections. Additionally, we provide examples that include the application of force and drift terms in the equation.
+    Information Maximizing Generative Adversarial Network (infoGAN) can be understood as a minimax problem involving two networks: discriminators and generators with mutual information functions. The infoGAN incorporates various components, including latent variables, mutual information, and objective function. This research demonstrates that the two objective functions in infoGAN become equivalent as the discriminator and generator sample size approaches infinity. This equivalence is established by considering the disparity between the empirical and population versions of the objective function. The bound on this difference is determined by the Rademacher complexity of the discriminator and generator function class. Furthermore, the utilization of a two-layer network for both the discriminator and generator, featuring Lipschitz and non-decreasing activation functions, validates this equality
+    
+[^3]: 为什么在对抗训练中会同时出现干净泛化和强健过拟合现象？
+
+    Why Clean Generalization and Robust Overfitting Both Happen in Adversarial Training. (arXiv:2306.01271v1 [cs.LG])
+
+    [http://arxiv.org/abs/2306.01271](http://arxiv.org/abs/2306.01271)
+
+    对抗训练是训练深度神经网络抗击对抗扰动的标准方法, 其学习机制导致干净泛化和强健过拟合现象同时发生。
+
+    
+
+    对抗训练是训练深度神经网络抗击对抗扰动的标准方法。与在标准深度学习环境中出现惊人的干净泛化能力类似，通过对抗训练训练的神经网络也能很好地泛化到未见过的干净数据。然而，与干净泛化不同的是，尽管对抗训练能够实现低鲁棒训练误差，仍存在显著的鲁棒泛化距离，这促使我们探索在学习过程中导致干净泛化和强健过拟合现象同时发生的机制。本文提供了对抗训练中这种现象的理论理解。首先，我们提出了对抗训练的理论框架，分析了特征学习过程，解释了对抗训练如何导致网络学习者进入到干净泛化和强健过拟合状态。具体来说，我们证明了，通过迫使学习器成为强预测网络，对抗训练将导致干净泛化和鲁棒过拟合现象同时发生。
+
+    Adversarial training is a standard method to train deep neural networks to be robust to adversarial perturbation. Similar to surprising $\textit{clean generalization}$ ability in the standard deep learning setting, neural networks trained by adversarial training also generalize well for $\textit{unseen clean data}$. However, in constrast with clean generalization, while adversarial training method is able to achieve low $\textit{robust training error}$, there still exists a significant $\textit{robust generalization gap}$, which promotes us exploring what mechanism leads to both $\textit{clean generalization and robust overfitting (CGRO)}$ during learning process. In this paper, we provide a theoretical understanding of this CGRO phenomenon in adversarial training. First, we propose a theoretical framework of adversarial training, where we analyze $\textit{feature learning process}$ to explain how adversarial training leads network learner to CGRO regime. Specifically, we prove that, u
+    
+[^4]: 评估-优化方法与集成评估优化法：基于随机优势的观点
+
+    Estimate-Then-Optimize Versus Integrated-Estimation-Optimization: A Stochastic Dominance Perspective. (arXiv:2304.06833v1 [stat.ML])
+
+    [http://arxiv.org/abs/2304.06833](http://arxiv.org/abs/2304.06833)
+
+    本文提出，当模型类足够丰富以涵盖真实情况时，非线性问题的“先估计再优化”方法优于集成方法，包括优化间隙的渐进优势的均值，所有其他时刻和整个渐进分布。
+
+    
+
+    在数据驱动的随机优化中，除了需要优化任务，还需要从数据中估计潜在分布的模型参数。最近的文献表明，通过选择导致最佳经验目标性能的模型参数，可以集成估计和优化过程。当模型被错误地指定时，这种集成方法可以很容易地显示出优于简单的“先估计再优化”的方法。本文认为，在模型类足够丰富以涵盖真实情况的情况下，对于非线性问题，两种方法之间的性能排序在强烈的意义下被颠倒。在受限条件和当上下文特征可用时，类似的结果也成立。
+
+    In data-driven stochastic optimization, model parameters of the underlying distribution need to be estimated from data in addition to the optimization task. Recent literature suggests the integration of the estimation and optimization processes, by selecting model parameters that lead to the best empirical objective performance. Such an integrated approach can be readily shown to outperform simple ``estimate then optimize" when the model is misspecified. In this paper, we argue that when the model class is rich enough to cover the ground truth, the performance ordering between the two approaches is reversed for nonlinear problems in a strong sense. Simple ``estimate then optimize" outperforms the integrated approach in terms of stochastic dominance of the asymptotic optimality gap, i,e, the mean, all other moments, and the entire asymptotic distribution of the optimality gap is always better. Analogous results also hold under constrained settings and when contextual features are availa
     
 

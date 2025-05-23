@@ -2,202 +2,232 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Semantic-Aware Remote Estimation of Multiple Markov Sources Under Constraints](https://arxiv.org/abs/2403.16855) | 研究了具有语义意识的远程多马尔可夫源估计的最优调度策略以及开发了一种新颖的策略搜索算法 Insec-RVI。 |
-| [^2] | [Breast Cancer Classification Using Gradient Boosting Algorithms Focusing on Reducing the False Negative and SHAP for Explainability](https://arxiv.org/abs/2403.09548) | 本研究使用梯度提升算法对乳腺癌进行分类，关注提高召回率，以实现更好的检测和预测效果。 |
-| [^3] | [Inference via Interpolation: Contrastive Representations Provably Enable Planning and Inference](https://arxiv.org/abs/2403.04082) | 通过对比学习学到的时间序列数据表示遵循高斯马尔可夫链，从而启用规划和推断 |
-| [^4] | [Uncertainty quantification in fine-tuned LLMs using LoRA ensembles](https://arxiv.org/abs/2402.12264) | 使用LoRA集成在精调LLMs中提出了一种原则性不确定性量化方法，通过对不同数据域的低秩适应集成分析，推测了模型对特定架构难以学习的数据领域的信号。 |
-| [^5] | [Learning Memory Kernels in Generalized Langevin Equations](https://arxiv.org/abs/2402.11705) | 提出一种学习广义朗之万方程中记忆核的新方法，通过正则化Prony方法估计相关函数并在Sobolev范数Loss函数和RKHS正则化下实现回归，在指数加权的$L^2$空间内获得改进性能，对比其他回归估计器展示了其优越性。 |
-| [^6] | [Functional SDE approximation inspired by a deep operator network architecture](https://arxiv.org/abs/2402.03028) | 本文提出了一种受深度算子网络结构启发的函数SDE近似方法，通过深度神经网络和多项式混沌展开实现对随机微分方程解的近似，并通过学习减轻指数级复杂度的问题。 |
-| [^7] | [Quantum Architecture Search with Unsupervised Representation Learning](https://arxiv.org/abs/2401.11576) | 通过利用无监督表示学习，量子架构搜索（QAS）的性能可以得以提升，而不需要耗费大量时间进行标记。 |
-| [^8] | [Generalizing Medical Image Representations via Quaternion Wavelet Networks.](http://arxiv.org/abs/2310.10224) | 本文提出了一种名为QUAVE的四元数小波网络，可以从医学图像中提取显著特征。该网络可以与现有的医学图像分析或综合任务结合使用，并推广了对单通道数据的采用。通过四元数小波变换和加权处理，QUAVE能够处理具有较大变化的医学数据。 |
-| [^9] | [SpikeCLIP: A Contrastive Language-Image Pretrained Spiking Neural Network.](http://arxiv.org/abs/2310.06488) | 本论文引入了一种名为SpikeCLIP的新框架，通过对比语言-图像预训练实现了脉冲神经网络的多模态扩展，并在能源效率和性能方面取得了可比较的结果。 |
-| [^10] | [HurriCast: An Automatic Framework Using Machine Learning and Statistical Modeling for Hurricane Forecasting.](http://arxiv.org/abs/2309.07174) | 本研究提出了HurriCast，一种使用机器学习和统计建模的自动化框架，通过组合ARIMA模型和K-MEANS算法以更好地捕捉飓风趋势，并结合Autoencoder进行改进的飓风模拟，从而有效模拟历史飓风行为并提供详细的未来预测。这项研究通过利用全面且有选择性的数据集，丰富了对飓风模式的理解，并为风险管理策略提供了可操作的见解。 |
-| [^11] | [Adversarial ModSecurity: Countering Adversarial SQL Injections with Robust Machine Learning.](http://arxiv.org/abs/2308.04964) | 这篇论文介绍了Adversarial ModSecurity，它是一个使用强大的机器学习来对抗SQL注入攻击的防火墙。通过将核心规则集作为输入特征，该模型可以识别并防御对抗性SQL注入攻击。实验结果表明，AdvModSec在训练后能够有效地应对这类攻击。 |
-| [^12] | [Quantum Circuit Fidelity Improvement with Long Short-Term Memory Networks.](http://arxiv.org/abs/2303.17523) | 本文提出使用长短期记忆网络解决量子计算中的保真度问题，利用时间序列预测方法预测量子电路的保真度。 |
-| [^13] | [An Empirical Bayes Analysis of Object Trajectory Representation Models.](http://arxiv.org/abs/2211.01696) | 本论文对对象轨迹表示模型的复杂度和拟合误差之间的权衡进行了经验分析，发现简单的线性模型就能够高度重现真实世界的轨迹，通过使用经验贝叶斯方法可以为轨迹跟踪问题中必要的运动模型提供信息，并可以帮助规范预测模型。 |
+| [^1] | [QFNN-FFD: Quantum Federated Neural Network for Financial Fraud Detection](https://arxiv.org/abs/2404.02595) | 介绍了将量子机器学习和量子计算技术与联邦学习相结合的Quantum Federated Neural Network for Financial Fraud Detection (QFNN-FFD)框架，提出了一种安全、高效的欺诈交易识别方法，显著改进了欺诈检测并确保了数据机密性。 |
+| [^2] | [Initialisation and Topology Effects in Decentralised Federated Learning](https://arxiv.org/abs/2403.15855) | 分散式联邦学习的有效性受到连接设备网络拓扑结构的显著影响，我们提出了基于底层网络节点特征向量中心性分布的改进神经网络初始化策略，大大提高了训练效率。 |
+| [^3] | [FairSIN: Achieving Fairness in Graph Neural Networks through Sensitive Information Neutralization](https://arxiv.org/abs/2403.12474) | 通过引入促进公平性的特征（F3）来中和图神经网络中的敏感偏见，进而提高预测性能和公平性的权衡。 |
+| [^4] | [Theoretical and experimental study of SMOTE: limitations and comparisons of rebalancing strategies](https://arxiv.org/abs/2402.03819) | SMOTE是一种处理不平衡数据集的常用重新平衡策略，它通过复制原始少数样本来重新生成原始分布。本研究证明了SMOTE的密度在少数样本分布的边界附近逐渐减小，从而验证了BorderLine SMOTE策略的合理性。此外，研究还提出了两种新的SMOTE相关策略，并与其他重新平衡方法进行了比较。最终发现，在数据集极度不平衡的情况下，SMOTE、提出的方法或欠采样程序是最佳的策略。 |
+| [^5] | [Demystifying Variational Diffusion Models.](http://arxiv.org/abs/2401.06281) | 该论文通过使用有向图模型和变分贝叶斯原理，揭示了变分扩散模型的原理和连接，为非专业统计物理领域的读者提供了更容易理解的介绍。 |
+| [^6] | [Understanding Deep Representation Learning via Layerwise Feature Compression and Discrimination.](http://arxiv.org/abs/2311.02960) | 本文通过研究中间特征的结构，揭示了深度网络在层级特征学习过程中的演化模式。研究发现线性层在特征学习中起到了与深层非线性网络类似的作用。 |
+| [^7] | [The objective function equality property of infoGAN for two-layer network.](http://arxiv.org/abs/2310.00443) | 这项研究证明了在infoGAN中，辨别器和生成器的样本数量趋向无穷时，两个目标函数变得等价。 |
+| [^8] | [Exciton-Polariton Condensates: A Fourier Neural Operator Approach.](http://arxiv.org/abs/2309.15593) | 本研究首次将傅里叶神经算子方法应用于激子极化子库伦凝聚系统，通过机器学习实现对Gross-Pitaevskii方程的求解，可以以接近1000倍的速度准确预测最终状态的解，为激子极化子库伦凝聚系统的大规模应用提供了新的解决方案。 |
+| [^9] | [SegMatch: A semi-supervised learning method for surgical instrument segmentation.](http://arxiv.org/abs/2308.05232) | SegMatch是一种用于手术器械分割的半监督学习方法，通过结合一致性正则化和伪标签来减少昂贵的注释需求，并通过弱增强和生成伪标签来实现无监督损失的施加。 |
+| [^10] | [Why Clean Generalization and Robust Overfitting Both Happen in Adversarial Training.](http://arxiv.org/abs/2306.01271) | 对抗训练是训练深度神经网络抗击对抗扰动的标准方法, 其学习机制导致干净泛化和强健过拟合现象同时发生。 |
+| [^11] | [Pointwise Representational Similarity.](http://arxiv.org/abs/2305.19294) | 本文介绍了 PNKA，一种可以量化单个输入在两个表示空间中的相似度的方法，填补了全局相似性度量不能局部调查表示的空白。 |
+| [^12] | [Compressing neural network by tensor network with exponentially fewer variational parameters.](http://arxiv.org/abs/2305.06058) | 本文提出了一种通用的压缩方案，将神经网络的可变参数编码为多层张量网络，明显减少了可变参数的数量，并在多个神经网络和数据集上表现出了卓越的压缩性能，以VGG-16的测试精度提高为例。 |
+| [^13] | [LABO: Towards Learning Optimal Label Regularization via Bi-level Optimization.](http://arxiv.org/abs/2305.04971) | 本文提出了一种基于标签正则化的通用框架，其中包括传统的LS，但也可以建模实例特定的变体。我们提出了一种双层优化的方法（LABO），用于学习标签正则化，并得到了可解释的最优标签平滑解。 |
+| [^14] | [Estimate-Then-Optimize Versus Integrated-Estimation-Optimization: A Stochastic Dominance Perspective.](http://arxiv.org/abs/2304.06833) | 本文提出，当模型类足够丰富以涵盖真实情况时，非线性问题的“先估计再优化”方法优于集成方法，包括优化间隙的渐进优势的均值，所有其他时刻和整个渐进分布。 |
+| [^15] | [Communication-Efficient Federated Learning With Data and Client Heterogeneity.](http://arxiv.org/abs/2206.10032) | 本文提出了适用于具有数据和客户端异质性的通信高效的联邦学习算法，并通过实验结果验证了其在标准联合任务的快速收敛性，以及在有趣的参数范围内可以提供类似于经典联邦平均算法的收敛性。 |
 
 # 详细
 
-[^1]: 具有语义意识的远程多马尔可夫源估计在约束条件下的研究
+[^1]: QFNN-FFD：用于金融欺诈检测的量子联邦神经网络
 
-    Semantic-Aware Remote Estimation of Multiple Markov Sources Under Constraints
+    QFNN-FFD: Quantum Federated Neural Network for Financial Fraud Detection
 
-    [https://arxiv.org/abs/2403.16855](https://arxiv.org/abs/2403.16855)
+    [https://arxiv.org/abs/2404.02595](https://arxiv.org/abs/2404.02595)
 
-    研究了具有语义意识的远程多马尔可夫源估计的最优调度策略以及开发了一种新颖的策略搜索算法 Insec-RVI。
-
-    
-
-    本文研究了在丢失和受速率限制的通道上对多个马尔可夫源进行语义感知通信的远程估计。与大多数现有研究将所有源状态视为相等不同，我们利用信息的语义并考虑远程执行器对不同状态的估计误差具有不同的容忍度。我们旨在找到一个最优调度策略，以在传输频率约束下最小化估计误差的长期状态相关成本。我们从理论上通过利用平均成本约束马尔可夫决策过程（CMDP）理论和Lagrange动态规划展示了最优策略的结构。通过利用最优结构结果，我们开发了一种新颖的策略搜索算法，称为交叉搜索加相对值迭代（Insec-RVI），可以仅通过少量迭代找到最优策略。为了避免“维度诅咒”...
-
-    arXiv:2403.16855v1 Announce Type: cross  Abstract: This paper studies semantic-aware communication for remote estimation of multiple Markov sources over a lossy and rate-constrained channel. Unlike most existing studies that treat all source states equally, we exploit the semantics of information and consider that the remote actuator has different tolerances for the estimation errors of different states. We aim to find an optimal scheduling policy that minimizes the long-term state-dependent costs of estimation errors under a transmission frequency constraint. We theoretically show the structure of the optimal policy by leveraging the average-cost Constrained Markov Decision Process (CMDP) theory and the Lagrangian dynamic programming. By exploiting the optimal structural results, we develop a novel policy search algorithm, termed intersection search plus relative value iteration (Insec-RVI), that can find the optimal policy using only a few iterations. To avoid the ``curse of dimensio
-    
-[^2]: 使用梯度提升算法对乳腺癌进行分类，重点减少假阴性和使用 SHAP 进行解释性研究
-
-    Breast Cancer Classification Using Gradient Boosting Algorithms Focusing on Reducing the False Negative and SHAP for Explainability
-
-    [https://arxiv.org/abs/2403.09548](https://arxiv.org/abs/2403.09548)
-
-    本研究使用梯度提升算法对乳腺癌进行分类，关注提高召回率，以实现更好的检测和预测效果。
+    介绍了将量子机器学习和量子计算技术与联邦学习相结合的Quantum Federated Neural Network for Financial Fraud Detection (QFNN-FFD)框架，提出了一种安全、高效的欺诈交易识别方法，显著改进了欺诈检测并确保了数据机密性。
 
     
 
-    癌症是世界上夺走最多女性生命的疾病之一，其中乳腺癌占据了癌症病例和死亡人数最高的位置。然而，通过早期检测可以预防乳腺癌，从而进行早期治疗。许多研究关注的是在癌症预测中具有高准确性的模型，但有时仅依靠准确性可能并非始终可靠。本研究对使用提升技术基于不同机器学习算法预测乳腺癌的性能进行了调查性研究，重点关注召回率指标。提升机器学习算法已被证明是检测医学疾病的有效工具。利用加州大学尔湾分校 (UCI) 数据集对训练和测试模型分类器进行训练，其中包含各自属性。
+    这项研究介绍了Quantum Federated Neural Network for Financial Fraud Detection (QFNN-FFD)，这是一个融合了量子机器学习（QML）和量子计算技术与联邦学习（FL）的前沿框架，用于创新金融欺诈检测。利用量子技术的计算能力和FL的数据隐私，QFNN-FFD提出了一种安全、高效的识别欺诈交易的方法。在分布式客户端实施双阶段训练模型超越了现有的性能方法。QFNN-FFD显著改进了欺诈检测并确保了数据机密性，标志着金融科技解决方案的重大进步，并为以隐私为重点的欺诈检测建立了新标准。
 
-    arXiv:2403.09548v1 Announce Type: new  Abstract: Cancer is one of the diseases that kill the most women in the world, with breast cancer being responsible for the highest number of cancer cases and consequently deaths. However, it can be prevented by early detection and, consequently, early treatment. Any development for detection or perdition this kind of cancer is important for a better healthy life. Many studies focus on a model with high accuracy in cancer prediction, but sometimes accuracy alone may not always be a reliable metric. This study implies an investigative approach to studying the performance of different machine learning algorithms based on boosting to predict breast cancer focusing on the recall metric. Boosting machine learning algorithms has been proven to be an effective tool for detecting medical diseases. The dataset of the University of California, Irvine (UCI) repository has been utilized to train and test the model classifier that contains their attributes. Th
+    arXiv:2404.02595v1 Announce Type: cross  Abstract: This study introduces the Quantum Federated Neural Network for Financial Fraud Detection (QFNN-FFD), a cutting-edge framework merging Quantum Machine Learning (QML) and quantum computing with Federated Learning (FL) to innovate financial fraud detection. Using quantum technologies' computational power and FL's data privacy, QFNN-FFD presents a secure, efficient method for identifying fraudulent transactions. Implementing a dual-phase training model across distributed clients surpasses existing methods in performance. QFNN-FFD significantly improves fraud detection and ensures data confidentiality, marking a significant advancement in fintech solutions and establishing a new standard for privacy-focused fraud detection.
     
-[^3]: 通过插值进行推断：对比表示可证明启用规划和推断
+[^2]: 初始值和拓扑结构在分散式联邦学习中的影响
 
-    Inference via Interpolation: Contrastive Representations Provably Enable Planning and Inference
+    Initialisation and Topology Effects in Decentralised Federated Learning
 
-    [https://arxiv.org/abs/2403.04082](https://arxiv.org/abs/2403.04082)
+    [https://arxiv.org/abs/2403.15855](https://arxiv.org/abs/2403.15855)
 
-    通过对比学习学到的时间序列数据表示遵循高斯马尔可夫链，从而启用规划和推断
-
-    
-
-    给定时间序列数据，我们如何回答诸如“未来会发生什么？”和“我们是如何到达这里的？”这类概率推断问题在观测值为高维时具有挑战性。本文展示了这些问题如何通过学习表示的紧凑闭式解决方案。关键思想是将对比学习的变体应用于时间序列数据。之前的工作已经表明，通过对比学习学到的表示编码了概率比。通过将之前的工作扩展以表明表示的边际分布是高斯分布，我们随后证明表示的联合分布也是高斯分布。这些结果共同表明，通过时间对比学习学到的表示遵循高斯马尔可夫链，一种图形模型，其中对表示进行的推断（例如预测、规划）对应于反演低维分布。
-
-    arXiv:2403.04082v1 Announce Type: new  Abstract: Given time series data, how can we answer questions like "what will happen in the future?" and "how did we get here?" These sorts of probabilistic inference questions are challenging when observations are high-dimensional. In this paper, we show how these questions can have compact, closed form solutions in terms of learned representations. The key idea is to apply a variant of contrastive learning to time series data. Prior work already shows that the representations learned by contrastive learning encode a probability ratio. By extending prior work to show that the marginal distribution over representations is Gaussian, we can then prove that joint distribution of representations is also Gaussian. Taken together, these results show that representations learned via temporal contrastive learning follow a Gauss-Markov chain, a graphical model where inference (e.g., prediction, planning) over representations corresponds to inverting a low-
-    
-[^4]: 使用LoRA集成在精调LLMs中的不确定性量化
-
-    Uncertainty quantification in fine-tuned LLMs using LoRA ensembles
-
-    [https://arxiv.org/abs/2402.12264](https://arxiv.org/abs/2402.12264)
-
-    使用LoRA集成在精调LLMs中提出了一种原则性不确定性量化方法，通过对不同数据域的低秩适应集成分析，推测了模型对特定架构难以学习的数据领域的信号。
+    分散式联邦学习的有效性受到连接设备网络拓扑结构的显著影响，我们提出了基于底层网络节点特征向量中心性分布的改进神经网络初始化策略，大大提高了训练效率。
 
     
 
-    精调大型语言模型可以提高特定任务的性能，尽管对于精调模型学到了什么、遗忘了什么以及如何信任其预测仍然缺乏一个一般的理解。我们提出了使用计算效率高的低秩适应集成对精调LLMs进行基于后验逼近的原则性不确定性量化。我们使用基于Mistral-7b的低秩适应集成分析了三个常见的多项选择数据集，并对其在精调过程中和之后对不同目标领域的感知复杂性和模型效能进行了定量和定性的结论。具体而言，基于数值实验支持，我们对那些对于给定架构难以学习的数据领域的熵不确定性度量提出了假设。
+    具有完全分散式特征的联邦学习使得在网络上分布式设备上对个体机器学习模型进行协作训练，同时保持训练数据本地化。这种方法增强了数据隐私性，消除了单点故障和中央协调的必要性。我们的研究强调了分散式联邦学习的有效性受到连接设备的网络拓扑结构的显著影响。一个简化的数值模型用于研究这些系统的早期行为，使我们得出了一个利用底层网络节点的特征向量中心性分布的改进人工神经网络初始值策略，从而大大提高了训练效率。此外，我们的研究探讨了在我们提出的初始化策略下的比例行为和环境参数的选择。这项工作为更多研究打开了道路。
 
-    arXiv:2402.12264v1 Announce Type: cross  Abstract: Fine-tuning large language models can improve task specific performance, although a general understanding of what the fine-tuned model has learned, forgotten and how to trust its predictions is still missing. We derive principled uncertainty quantification for fine-tuned LLMs with posterior approximations using computationally efficient low-rank adaptation ensembles. We analyze three common multiple-choice datasets using low-rank adaptation ensembles based on Mistral-7b, and draw quantitative and qualitative conclusions on their perceived complexity and model efficacy on the different target domains during and after fine-tuning. In particular, backed by the numerical experiments, we hypothesise about signals from entropic uncertainty measures for data domains that are inherently difficult for a given architecture to learn.
+    arXiv:2403.15855v1 Announce Type: cross  Abstract: Fully decentralised federated learning enables collaborative training of individual machine learning models on distributed devices on a network while keeping the training data localised. This approach enhances data privacy and eliminates both the single point of failure and the necessity for central coordination. Our research highlights that the effectiveness of decentralised federated learning is significantly influenced by the network topology of connected devices. A simplified numerical model for studying the early behaviour of these systems leads us to an improved artificial neural network initialisation strategy, which leverages the distribution of eigenvector centralities of the nodes of the underlying network, leading to a radically improved training efficiency. Additionally, our study explores the scaling behaviour and choice of environmental parameters under our proposed initialisation strategy. This work paves the way for mor
     
-[^5]: 在广义朗之万方程中学习记忆核
+[^3]: FairSIN：通过敏感信息中和实现图神经网络中的公平性
 
-    Learning Memory Kernels in Generalized Langevin Equations
+    FairSIN: Achieving Fairness in Graph Neural Networks through Sensitive Information Neutralization
 
-    [https://arxiv.org/abs/2402.11705](https://arxiv.org/abs/2402.11705)
+    [https://arxiv.org/abs/2403.12474](https://arxiv.org/abs/2403.12474)
 
-    提出一种学习广义朗之万方程中记忆核的新方法，通过正则化Prony方法估计相关函数并在Sobolev范数Loss函数和RKHS正则化下实现回归，在指数加权的$L^2$空间内获得改进性能，对比其他回归估计器展示了其优越性。
-
-    
-
-    我们引入了一种新颖的方法来学习广义朗之万方程中的记忆核。该方法最初利用正则化Prony方法从轨迹数据中估计相关函数，然后通过基于Sobolev范数的回归和RKHS正则化来进行回归。我们的方法保证在指数加权的$L^2$空间内获得了改进的性能，核估计误差受控于估计相关函数的误差。我们通过数值示例展示了我们的估计器相对于依赖于$L^2$损失函数的其他回归估计器以及从逆拉普拉斯变换推导出的估计器的优越性，这些示例突显了我们的估计器在各种权重参数选择上的持续优势。此外，我们提供了包括力和漂移项在方程中的应用示例。
-
-    arXiv:2402.11705v1 Announce Type: cross  Abstract: We introduce a novel approach for learning memory kernels in Generalized Langevin Equations. This approach initially utilizes a regularized Prony method to estimate correlation functions from trajectory data, followed by regression over a Sobolev norm-based loss function with RKHS regularization. Our approach guarantees improved performance within an exponentially weighted $L^2$ space, with the kernel estimation error controlled by the error in estimated correlation functions. We demonstrate the superiority of our estimator compared to other regression estimators that rely on $L^2$ loss functions and also an estimator derived from the inverse Laplace transform, using numerical examples that highlight its consistent advantage across various weight parameter selections. Additionally, we provide examples that include the application of force and drift terms in the equation.
-    
-[^6]: 受深度算子网络结构启发的函数SDE近似方法
-
-    Functional SDE approximation inspired by a deep operator network architecture
-
-    [https://arxiv.org/abs/2402.03028](https://arxiv.org/abs/2402.03028)
-
-    本文提出了一种受深度算子网络结构启发的函数SDE近似方法，通过深度神经网络和多项式混沌展开实现对随机微分方程解的近似，并通过学习减轻指数级复杂度的问题。
+    通过引入促进公平性的特征（F3）来中和图神经网络中的敏感偏见，进而提高预测性能和公平性的权衡。
 
     
 
-    本文提出并分析了一种通过深度神经网络近似随机微分方程（SDE）解的新方法。该结构灵感来自于深度算子网络（DeepONets）的概念，它基于函数空间中的算子学习，以及在网络中表示的降维基础。在我们的设置中，我们利用了随机过程的多项式混沌展开（PCE），并将相应的架构称为SDEONet。在参数化偏微分方程的不确定性量化（UQ）领域中，PCE被广泛使用。然而，在SDE中并非如此，传统的采样方法占主导地位，而功能性方法很少见。截断的PCE存在一个主要挑战，即随着最大多项式阶数和基函数数量的增加，分量的数量呈指数级增长。所提出的SDEONet结构旨在通过学习来减轻指数级复杂度的问题。
+    尽管图神经网络（GNNs）在对图结构数据进行建模方面取得了显著成功，但与其他机器学习模型一样，GNNs也容易根据敏感属性（如种族和性别）做出有偏见的预测。为了公平考虑，最近的最先进方法提出从输入或表示中过滤掉敏感信息，例如删除边或屏蔽特征。然而，我们认为基于此类过滤策略可能也会过滤掉一些非敏感的特征信息，导致在预测性能和公平性之间产生次优的权衡。为解决这一问题，我们提出一种创新的中和基础范式，即在信息传递之前将额外的促进公平性的特征（F3）纳入节点特征或表示中。这些F3预期在统计上中和节点表示中的敏感偏见，并提供额外的非敏感信息。
 
-    A novel approach to approximate solutions of Stochastic Differential Equations (SDEs) by Deep Neural Networks is derived and analysed. The architecture is inspired by the notion of Deep Operator Networks (DeepONets), which is based on operator learning in function spaces in terms of a reduced basis also represented in the network. In our setting, we make use of a polynomial chaos expansion (PCE) of stochastic processes and call the corresponding architecture SDEONet. The PCE has been used extensively in the area of uncertainty quantification (UQ) with parametric partial differential equations. This however is not the case with SDE, where classical sampling methods dominate and functional approaches are seen rarely. A main challenge with truncated PCEs occurs due to the drastic growth of the number of components with respect to the maximum polynomial degree and the number of basis elements. The proposed SDEONet architecture aims to alleviate the issue of exponential complexity by learni
+    arXiv:2403.12474v1 Announce Type: new  Abstract: Despite the remarkable success of graph neural networks (GNNs) in modeling graph-structured data, like other machine learning models, GNNs are also susceptible to making biased predictions based on sensitive attributes, such as race and gender. For fairness consideration, recent state-of-the-art (SOTA) methods propose to filter out sensitive information from inputs or representations, e.g., edge dropping or feature masking. However, we argue that such filtering-based strategies may also filter out some non-sensitive feature information, leading to a sub-optimal trade-off between predictive performance and fairness. To address this issue, we unveil an innovative neutralization-based paradigm, where additional Fairness-facilitating Features (F3) are incorporated into node features or representations before message passing. The F3 are expected to statistically neutralize the sensitive bias in node representations and provide additional nons
     
-[^7]: 利用无监督表示学习进行量子架构搜索
+[^4]: SMOTE的理论和实验研究：关于重新平衡策略的限制和比较
 
-    Quantum Architecture Search with Unsupervised Representation Learning
+    Theoretical and experimental study of SMOTE: limitations and comparisons of rebalancing strategies
 
-    [https://arxiv.org/abs/2401.11576](https://arxiv.org/abs/2401.11576)
+    [https://arxiv.org/abs/2402.03819](https://arxiv.org/abs/2402.03819)
 
-    通过利用无监督表示学习，量子架构搜索（QAS）的性能可以得以提升，而不需要耗费大量时间进行标记。
-
-    
-
-    使用无监督表示学习进行量子架构搜索（QAS）代表了一种前沿方法，有望在嘈杂的中间规模量子（NISQ）设备上实现潜在的量子优势。大多数QAS算法将它们的搜索空间和搜索算法结合在一起，因此通常需要在搜索过程中评估大量的量子电路。基于预测的QAS算法可以通过直接根据电路结构估计电路的性能来缓解这个问题。然而，高性能的预测器通常需要耗费大量时间进行标记，以获得大量带标签的量子电路。最近，一个经典的神经架构搜索算法Arch2vec启发我们，表明架构搜索可以从将无监督表示学习与搜索过程分离中获益。无监督表示学习是否能帮助QAS
-
-    arXiv:2401.11576v2 Announce Type: replace-cross  Abstract: Utilizing unsupervised representation learning for quantum architecture search (QAS) represents a cutting-edge approach poised to realize potential quantum advantage on Noisy Intermediate-Scale Quantum (NISQ) devices. Most QAS algorithms combine their search space and search algorithms together and thus generally require evaluating a large number of quantum circuits during the search process. Predictor-based QAS algorithms can alleviate this problem by directly estimating the performance of circuits according to their structures. However, a high-performance predictor generally requires very time-consuming labeling to obtain a large number of labeled quantum circuits. Recently, a classical neural architecture search algorithm Arch2vec inspires us by showing that architecture search can benefit from decoupling unsupervised representation learning from the search process. Whether unsupervised representation learning can help QAS w
-    
-[^8]: 通过四元数小波网络推广医学图像表示
-
-    Generalizing Medical Image Representations via Quaternion Wavelet Networks. (arXiv:2310.10224v2 [eess.IV] UPDATED)
-
-    [http://arxiv.org/abs/2310.10224](http://arxiv.org/abs/2310.10224)
-
-    本文提出了一种名为QUAVE的四元数小波网络，可以从医学图像中提取显著特征。该网络可以与现有的医学图像分析或综合任务结合使用，并推广了对单通道数据的采用。通过四元数小波变换和加权处理，QUAVE能够处理具有较大变化的医学数据。
+    SMOTE是一种处理不平衡数据集的常用重新平衡策略，它通过复制原始少数样本来重新生成原始分布。本研究证明了SMOTE的密度在少数样本分布的边界附近逐渐减小，从而验证了BorderLine SMOTE策略的合理性。此外，研究还提出了两种新的SMOTE相关策略，并与其他重新平衡方法进行了比较。最终发现，在数据集极度不平衡的情况下，SMOTE、提出的方法或欠采样程序是最佳的策略。
 
     
 
-    鉴于来自不同来源和各种任务的数据集日益增加，神经网络的普适性成为一个广泛研究的领域。当处理医学数据时，这个问题尤为广泛，因为缺乏方法论标准导致不同的成像中心或使用不同设备和辅助因素获取的数据存在较大变化。为了克服这些限制，我们引入了一种新颖的、普适的、数据-和任务不可知的框架，能够从医学图像中提取显著特征。所提出的四元数小波网络（QUAVE）可以很容易地与任何现有的医学图像分析或综合任务相结合，并且可以结合实际、四元数或超复值模型，推广它们对单通道数据的采用。QUAVE首先通过四元数小波变换提取不同的子带，得到低频/近似频带和高频/细粒度特征。然后，它对最有代表性的特征进行加权处理，从而减少了特征重要性不均匀性。
+    SMOTE（Synthetic Minority Oversampling Technique）是处理不平衡数据集常用的重新平衡策略。我们证明了在渐进情况下，SMOTE（默认参数）通过简单复制原始少数样本来重新生成原始分布。我们还证明了在少数样本分布的支持边界附近，SMOTE的密度会减小，从而验证了常见的BorderLine SMOTE策略。随后，我们提出了两种新的SMOTE相关策略，并将它们与现有的重新平衡方法进行了比较。我们发现，只有当数据集极度不平衡时才需要重新平衡策略。对于这种数据集，SMOTE、我们提出的方法或欠采样程序是最佳的策略。
 
-    Neural network generalizability is becoming a broad research field due to the increasing availability of datasets from different sources and for various tasks. This issue is even wider when processing medical data, where a lack of methodological standards causes large variations being provided by different imaging centers or acquired with various devices and cofactors. To overcome these limitations, we introduce a novel, generalizable, data- and task-agnostic framework able to extract salient features from medical images. The proposed quaternion wavelet network (QUAVE) can be easily integrated with any pre-existing medical image analysis or synthesis task, and it can be involved with real, quaternion, or hypercomplex-valued models, generalizing their adoption to single-channel data. QUAVE first extracts different sub-bands through the quaternion wavelet transform, resulting in both low-frequency/approximation bands and high-frequency/fine-grained features. Then, it weighs the most repr
+    Synthetic Minority Oversampling Technique (SMOTE) is a common rebalancing strategy for handling imbalanced data sets. Asymptotically, we prove that SMOTE (with default parameter) regenerates the original distribution by simply copying the original minority samples. We also prove that SMOTE density vanishes near the boundary of the support of the minority distribution, therefore justifying the common BorderLine SMOTE strategy. Then we introduce two new SMOTE-related strategies, and compare them with state-of-the-art rebalancing procedures. We show that rebalancing strategies are only required when the data set is highly imbalanced. For such data sets, SMOTE, our proposals, or undersampling procedures are the best strategies.
     
-[^9]: SpikeCLIP：一种对比语言-图像预训练脉冲神经网络
+[^5]: 揭秘变分扩散模型
 
-    SpikeCLIP: A Contrastive Language-Image Pretrained Spiking Neural Network. (arXiv:2310.06488v2 [cs.NE] UPDATED)
+    Demystifying Variational Diffusion Models. (arXiv:2401.06281v1 [cs.LG])
 
-    [http://arxiv.org/abs/2310.06488](http://arxiv.org/abs/2310.06488)
+    [http://arxiv.org/abs/2401.06281](http://arxiv.org/abs/2401.06281)
 
-    本论文引入了一种名为SpikeCLIP的新框架，通过对比语言-图像预训练实现了脉冲神经网络的多模态扩展，并在能源效率和性能方面取得了可比较的结果。
-
-    
-
-    脉冲神经网络（SNNs）已经证明其在视觉和语言领域中能够实现与深度神经网络（DNNs）相当的性能，同时具有能效提高和符合生物合理性的优势。然而，将这种单模态的SNNs扩展到多模态的情景仍然是一个未开发的领域。受到对比语言-图像预训练（CLIP）概念的启发，我们引入了一个名为SpikeCLIP的新框架，通过“对齐预训练+双损失微调”的两步骤配方，来解决脉冲计算背景下两种模态之间的差距。广泛的实验证明，在常用的用于多模态模型评估的各种数据集上，SNNs取得了与其DNNs对应物相当的结果，同时显著降低了能源消耗。此外，SpikeCLIP在图像分类方面保持了稳定的性能。
-
-    Spiking neural networks (SNNs) have demonstrated the capability to achieve comparable performance to deep neural networks (DNNs) in both visual and linguistic domains while offering the advantages of improved energy efficiency and adherence to biological plausibility. However, the extension of such single-modality SNNs into the realm of multimodal scenarios remains an unexplored territory. Drawing inspiration from the concept of contrastive language-image pre-training (CLIP), we introduce a novel framework, named SpikeCLIP, to address the gap between two modalities within the context of spike-based computing through a two-step recipe involving ``Alignment Pre-training + Dual-Loss Fine-tuning". Extensive experiments demonstrate that SNNs achieve comparable results to their DNN counterparts while significantly reducing energy consumption across a variety of datasets commonly used for multimodal model evaluation. Furthermore, SpikeCLIP maintains robust performance in image classification 
-    
-[^10]: HurriCast：使用机器学习和统计建模的自动化框架用于飓风预测
-
-    HurriCast: An Automatic Framework Using Machine Learning and Statistical Modeling for Hurricane Forecasting. (arXiv:2309.07174v1 [cs.LG])
-
-    [http://arxiv.org/abs/2309.07174](http://arxiv.org/abs/2309.07174)
-
-    本研究提出了HurriCast，一种使用机器学习和统计建模的自动化框架，通过组合ARIMA模型和K-MEANS算法以更好地捕捉飓风趋势，并结合Autoencoder进行改进的飓风模拟，从而有效模拟历史飓风行为并提供详细的未来预测。这项研究通过利用全面且有选择性的数据集，丰富了对飓风模式的理解，并为风险管理策略提供了可操作的见解。
+    该论文通过使用有向图模型和变分贝叶斯原理，揭示了变分扩散模型的原理和连接，为非专业统计物理领域的读者提供了更容易理解的介绍。
 
     
 
-    飓风由于其灾害性影响而在美国面临重大挑战。减轻这些风险很重要，保险业在这方面起着重要作用，使用复杂的统计模型进行风险评估。然而，这些模型常常忽视关键的时间和空间飓风模式，并受到数据稀缺的限制。本研究引入了一种改进的方法，将ARIMA模型和K-MEANS相结合，以更好地捕捉飓风趋势，并使用Autoencoder进行改进的飓风模拟。我们的实验证明，这种混合方法有效地模拟了历史飓风行为，同时提供了潜在未来路径和强度的详细预测。此外，通过利用全面而有选择性的数据集，我们的模拟丰富了对飓风模式的当前理解，并为风险管理策略提供了可操作的见解。
+    尽管扩散模型越来越受欢迎，但对于非平衡统计物理领域的初学者来说，对该模型类的深入理解仍然有些困难。考虑到这一点，我们通过使用有向图模型和变分贝叶斯原理，提供了一个我们认为更简单易懂的扩散模型介绍，这对于一般读者来说需要的先决条件相对较少。我们的阐述构成了一个全面的技术综述，从深度潜变量模型等基本概念到连续时间扩散模型的最新进展，突出了模型类之间的理论联系。我们尽可能地提供了在初始工作中被省略的额外数学洞察，以帮助理解，同时避免引入新的符号表示。我们希望这篇文章对于该领域的研究人员和实践者来说，能作为一个有用的教育补充材料。
 
-    Hurricanes present major challenges in the U.S. due to their devastating impacts. Mitigating these risks is important, and the insurance industry is central in this effort, using intricate statistical models for risk assessment. However, these models often neglect key temporal and spatial hurricane patterns and are limited by data scarcity. This study introduces a refined approach combining the ARIMA model and K-MEANS to better capture hurricane trends, and an Autoencoder for enhanced hurricane simulations. Our experiments show that this hybrid methodology effectively simulate historical hurricane behaviors while providing detailed projections of potential future trajectories and intensities. Moreover, by leveraging a comprehensive yet selective dataset, our simulations enrich the current understanding of hurricane patterns and offer actionable insights for risk management strategies.
+    Despite the growing popularity of diffusion models, gaining a deep understanding of the model class remains somewhat elusive for the uninitiated in non-equilibrium statistical physics. With that in mind, we present what we believe is a more straightforward introduction to diffusion models using directed graphical modelling and variational Bayesian principles, which imposes relatively fewer prerequisites on the average reader. Our exposition constitutes a comprehensive technical review spanning from foundational concepts like deep latent variable models to recent advances in continuous-time diffusion-based modelling, highlighting theoretical connections between model classes along the way. We provide additional mathematical insights that were omitted in the seminal works whenever possible to aid in understanding, while avoiding the introduction of new notation. We envision this article serving as a useful educational supplement for both researchers and practitioners in the area, and we 
     
-[^11]: Adversarial ModSecurity: 使用强大的机器学习对抗SQL注入攻击
+[^6]: 通过层间特征压缩和差别性学习理解深度表示学习
 
-    Adversarial ModSecurity: Countering Adversarial SQL Injections with Robust Machine Learning. (arXiv:2308.04964v1 [cs.LG])
+    Understanding Deep Representation Learning via Layerwise Feature Compression and Discrimination. (arXiv:2311.02960v2 [cs.LG] UPDATED)
 
-    [http://arxiv.org/abs/2308.04964](http://arxiv.org/abs/2308.04964)
+    [http://arxiv.org/abs/2311.02960](http://arxiv.org/abs/2311.02960)
 
-    这篇论文介绍了Adversarial ModSecurity，它是一个使用强大的机器学习来对抗SQL注入攻击的防火墙。通过将核心规则集作为输入特征，该模型可以识别并防御对抗性SQL注入攻击。实验结果表明，AdvModSec在训练后能够有效地应对这类攻击。
-
-    
-
-    ModSecurity被广泛认可为标准的开源Web应用防火墙(WAF)，由OWASP基金会维护。它通过与核心规则集进行匹配来检测恶意请求，识别出常见的攻击模式。每个规则在CRS中都被手动分配一个权重，基于相应攻击的严重程度，如果触发规则的权重之和超过给定的阈值，就会被检测为恶意请求。然而，我们的研究表明，这种简单的策略在检测SQL注入攻击方面很不有效，因为它往往会阻止许多合法请求，同时还容易受到对抗性SQL注入攻击的影响，即故意操纵以逃避检测的攻击。为了克服这些问题，我们设计了一个名为AdvModSec的强大机器学习模型，它将CRS规则作为输入特征，并经过训练以检测对抗性SQL注入攻击。我们的实验表明，AdvModSec在针对该攻击的流量上进行训练后表现出色。
-
-    ModSecurity is widely recognized as the standard open-source Web Application Firewall (WAF), maintained by the OWASP Foundation. It detects malicious requests by matching them against the Core Rule Set, identifying well-known attack patterns. Each rule in the CRS is manually assigned a weight, based on the severity of the corresponding attack, and a request is detected as malicious if the sum of the weights of the firing rules exceeds a given threshold. In this work, we show that this simple strategy is largely ineffective for detecting SQL injection (SQLi) attacks, as it tends to block many legitimate requests, while also being vulnerable to adversarial SQLi attacks, i.e., attacks intentionally manipulated to evade detection. To overcome these issues, we design a robust machine learning model, named AdvModSec, which uses the CRS rules as input features, and it is trained to detect adversarial SQLi attacks. Our experiments show that AdvModSec, being trained on the traffic directed towa
-    
-[^12]: 利用长短期记忆网络提高量子电路保真度
-
-    Quantum Circuit Fidelity Improvement with Long Short-Term Memory Networks. (arXiv:2303.17523v1 [quant-ph])
-
-    [http://arxiv.org/abs/2303.17523](http://arxiv.org/abs/2303.17523)
-
-    本文提出使用长短期记忆网络解决量子计算中的保真度问题，利用时间序列预测方法预测量子电路的保真度。
+    本文通过研究中间特征的结构，揭示了深度网络在层级特征学习过程中的演化模式。研究发现线性层在特征学习中起到了与深层非线性网络类似的作用。
 
     
 
-    量子计算已进入噪声中间规模量子（NISQ）时代，目前我们拥有的量子处理器对辐射和温度等环境变量敏感，因此会产生嘈杂的输出。虽然已经有许多算法和应用程序用于NISQ处理器，但我们仍面临着解释其嘈杂结果的不确定性。具体来说，我们对所选择的量子态有多少信心？这种信心很重要，因为NISQ计算机将输出其量子位测量的概率分布，有时很难区分分布是否表示有意义的计算或只是随机噪声。本文提出了一种新方法来解决这个问题，将量子电路保真度预测框架为时间序列预测问题，因此可以利用长短期记忆（LSTM）神经网络的强大能力。一个完整的工作流程来构建训练电路
+    在过去的十年中，深度学习已经证明是从原始数据中学习有意义特征的一种高效工具。然而，深度网络如何在不同层级上进行等级特征学习仍然是一个开放问题。在这项工作中，我们试图通过研究中间特征的结构揭示这个谜团。受到我们实证发现的线性层在特征学习中模仿非线性网络中深层的角色的启发，我们研究了深度线性网络如何将输入数据转化为输出，通过研究训练后的每个层的输出（即特征）在多类分类问题的背景下。为了实现这个目标，我们首先定义了衡量中间特征的类内压缩和类间差别性的度量标准。通过对这两个度量标准的理论分析，我们展示了特征从浅层到深层的演变遵循着一种简单而量化的模式，前提是输入数据是
 
-    Quantum computing has entered the Noisy Intermediate-Scale Quantum (NISQ) era. Currently, the quantum processors we have are sensitive to environmental variables like radiation and temperature, thus producing noisy outputs. Although many proposed algorithms and applications exist for NISQ processors, we still face uncertainties when interpreting their noisy results. Specifically, how much confidence do we have in the quantum states we are picking as the output? This confidence is important since a NISQ computer will output a probability distribution of its qubit measurements, and it is sometimes hard to distinguish whether the distribution represents meaningful computation or just random noise. This paper presents a novel approach to attack this problem by framing quantum circuit fidelity prediction as a Time Series Forecasting problem, therefore making it possible to utilize the power of Long Short-Term Memory (LSTM) neural networks. A complete workflow to build the training circuit d
+    Over the past decade, deep learning has proven to be a highly effective tool for learning meaningful features from raw data. However, it remains an open question how deep networks perform hierarchical feature learning across layers. In this work, we attempt to unveil this mystery by investigating the structures of intermediate features. Motivated by our empirical findings that linear layers mimic the roles of deep layers in nonlinear networks for feature learning, we explore how deep linear networks transform input data into output by investigating the output (i.e., features) of each layer after training in the context of multi-class classification problems. Toward this goal, we first define metrics to measure within-class compression and between-class discrimination of intermediate features, respectively. Through theoretical analysis of these two metrics, we show that the evolution of features follows a simple and quantitative pattern from shallow to deep layers when the input data is
     
-[^13]: 对象轨迹表示模型的经验贝叶斯分析
+[^7]: infoGAN的两层网络的目标函数等式属性
 
-    An Empirical Bayes Analysis of Object Trajectory Representation Models. (arXiv:2211.01696v3 [cs.LG] UPDATED)
+    The objective function equality property of infoGAN for two-layer network. (arXiv:2310.00443v1 [stat.ML])
 
-    [http://arxiv.org/abs/2211.01696](http://arxiv.org/abs/2211.01696)
+    [http://arxiv.org/abs/2310.00443](http://arxiv.org/abs/2310.00443)
 
-    本论文对对象轨迹表示模型的复杂度和拟合误差之间的权衡进行了经验分析，发现简单的线性模型就能够高度重现真实世界的轨迹，通过使用经验贝叶斯方法可以为轨迹跟踪问题中必要的运动模型提供信息，并可以帮助规范预测模型。
+    这项研究证明了在infoGAN中，辨别器和生成器的样本数量趋向无穷时，两个目标函数变得等价。
 
     
 
-    我们对对象轨迹建模中的模型复杂度和拟合误差之间的权衡进行了深入的经验分析。通过分析多个大型公共数据集，我们发现简单的线性模型在相关时间范围内使用较少的模型复杂度就能够高度重现真实世界的轨迹。这一发现允许将轨迹跟踪和预测作为贝叶斯过滤问题进行公式化。我们采用经验贝叶斯方法，从数据中估计模型参数的先验分布，这些先验分布可以为轨迹跟踪问题中必要的运动模型提供信息，并可以帮助规范预测模型。我们主张在轨迹预测任务中使用线性轨迹表示模型，因为它们目前并不会限制预测性能。
+    信息最大化生成对抗网络(infoGAN)可以理解为涉及两个网络(辨别器和生成器)的极小化极大问题，其中包含了互信息函数。infoGAN包括多种组件，包括潜在变量、互信息和目标函数。本研究证明，在辨别器和生成器样本数量趋向无穷时，infoGAN中的两个目标函数变得等价。这种等价关系是通过考虑目标函数的经验版本和总体版本之间的差异来建立的。这个差异的界限由辨别器和生成器函数类的Rademacher复杂度决定。此外，使用具有Lipschitz和非递减激活函数的两层网络来验证这个等式。
 
-    We present an in-depth empirical analysis of the trade-off between model complexity and fit error in modelling object trajectories. Analyzing several large public datasets, we show that simple linear models do represent real-world trajectories with high fidelity over relevant time scales at very moderate model complexity. This finding allows the formulation of trajectory tracking and prediction as a Bayesian filtering problem. Using an Empirical Bayes approach, we estimate prior distributions over model parameters from the data. These prior distributions inform the motion models necessary in the trajectory tracking problem and can help regularize prediction models. We argue for the use of linear trajectory representation models in trajectory prediction tasks as they do not limit prediction performance currently.
+    Information Maximizing Generative Adversarial Network (infoGAN) can be understood as a minimax problem involving two networks: discriminators and generators with mutual information functions. The infoGAN incorporates various components, including latent variables, mutual information, and objective function. This research demonstrates that the two objective functions in infoGAN become equivalent as the discriminator and generator sample size approaches infinity. This equivalence is established by considering the disparity between the empirical and population versions of the objective function. The bound on this difference is determined by the Rademacher complexity of the discriminator and generator function class. Furthermore, the utilization of a two-layer network for both the discriminator and generator, featuring Lipschitz and non-decreasing activation functions, validates this equality
+    
+[^8]: 激子极化子库伦凝聚：一种傅里叶神经算子方法
+
+    Exciton-Polariton Condensates: A Fourier Neural Operator Approach. (arXiv:2309.15593v1 [cond-mat.quant-gas])
+
+    [http://arxiv.org/abs/2309.15593](http://arxiv.org/abs/2309.15593)
+
+    本研究首次将傅里叶神经算子方法应用于激子极化子库伦凝聚系统，通过机器学习实现对Gross-Pitaevskii方程的求解，可以以接近1000倍的速度准确预测最终状态的解，为激子极化子库伦凝聚系统的大规模应用提供了新的解决方案。
+
+    
+
+    过去十年中，半导体制造技术的进展催生了对由激子极化子库伦凝聚驱动的全光学器件的广泛研究。包括晶体管在内的这类器件的初步验证已经在环境条件下取得了鼓舞人心的结果。然而，一个重要的挑战仍然存在于大规模应用领域：缺乏一个健壮的求解器，可以用于模拟需要较长时间达到稳定的复杂非线性系统。为了解决这个需求，我们提出了一种基于机器学习的傅里叶神经算子方法，用于求解与额外激子速率方程耦合的Gross-Pitaevskii方程。这项工作标志着神经算子首次直接应用于激子极化子库伦凝聚系统。我们的研究结果表明，与基于CUDA的GPU求解器相比，所提出的方法可以以接近1000倍的速度准确预测最终状态的解。此外，这为今后的深入研究铺平了道路。
+
+    Advancements in semiconductor fabrication over the past decade have catalyzed extensive research into all-optical devices driven by exciton-polariton condensates. Preliminary validations of such devices, including transistors, have shown encouraging results even under ambient conditions. A significant challenge still remains for large scale application however: the lack of a robust solver that can be used to simulate complex nonlinear systems which require an extended period of time to stabilize. Addressing this need, we propose the application of a machine-learning-based Fourier Neural Operator approach to find the solution to the Gross-Pitaevskii equations coupled with extra exciton rate equations. This work marks the first direct application of Neural Operators to an exciton-polariton condensate system. Our findings show that the proposed method can predict final-state solutions to a high degree of accuracy almost 1000 times faster than CUDA-based GPU solvers. Moreover, this paves t
+    
+[^9]: SegMatch: 一种用于手术器械分割的半监督学习方法
+
+    SegMatch: A semi-supervised learning method for surgical instrument segmentation. (arXiv:2308.05232v1 [cs.CV])
+
+    [http://arxiv.org/abs/2308.05232](http://arxiv.org/abs/2308.05232)
+
+    SegMatch是一种用于手术器械分割的半监督学习方法，通过结合一致性正则化和伪标签来减少昂贵的注释需求，并通过弱增强和生成伪标签来实现无监督损失的施加。
+
+    
+
+    手术器械分割被认为是提供先进手术辅助和改善计算机辅助干预的关键手段。在这项工作中，我们提出了SegMatch，一种用于减少昂贵注释对腹腔镜和机器人手术图像的需求的半监督学习方法。SegMatch基于FixMatch，一种广泛采用一致性正则化和伪标签的半监督分类流程，并将其调整为分割任务。在我们提出的SegMatch中，未标记的图像进行弱增强，并通过分割模型生成伪标签，以对高置信度像素上的对抗增强图像的模型输出施加无监督损失。我们针对分割任务的调整还包括仔细考虑所依赖的增强函数的等变性和不变性属性，为增强的相关性增加。
+
+    Surgical instrument segmentation is recognised as a key enabler to provide advanced surgical assistance and improve computer assisted interventions. In this work, we propose SegMatch, a semi supervised learning method to reduce the need for expensive annotation for laparoscopic and robotic surgical images. SegMatch builds on FixMatch, a widespread semi supervised classification pipeline combining consistency regularization and pseudo labelling, and adapts it for the purpose of segmentation. In our proposed SegMatch, the unlabelled images are weakly augmented and fed into the segmentation model to generate a pseudo-label to enforce the unsupervised loss against the output of the model for the adversarial augmented image on the pixels with a high confidence score. Our adaptation for segmentation tasks includes carefully considering the equivariance and invariance properties of the augmentation functions we rely on. To increase the relevance of our augmentations, we depart from using only
+    
+[^10]: 为什么在对抗训练中会同时出现干净泛化和强健过拟合现象？
+
+    Why Clean Generalization and Robust Overfitting Both Happen in Adversarial Training. (arXiv:2306.01271v1 [cs.LG])
+
+    [http://arxiv.org/abs/2306.01271](http://arxiv.org/abs/2306.01271)
+
+    对抗训练是训练深度神经网络抗击对抗扰动的标准方法, 其学习机制导致干净泛化和强健过拟合现象同时发生。
+
+    
+
+    对抗训练是训练深度神经网络抗击对抗扰动的标准方法。与在标准深度学习环境中出现惊人的干净泛化能力类似，通过对抗训练训练的神经网络也能很好地泛化到未见过的干净数据。然而，与干净泛化不同的是，尽管对抗训练能够实现低鲁棒训练误差，仍存在显著的鲁棒泛化距离，这促使我们探索在学习过程中导致干净泛化和强健过拟合现象同时发生的机制。本文提供了对抗训练中这种现象的理论理解。首先，我们提出了对抗训练的理论框架，分析了特征学习过程，解释了对抗训练如何导致网络学习者进入到干净泛化和强健过拟合状态。具体来说，我们证明了，通过迫使学习器成为强预测网络，对抗训练将导致干净泛化和鲁棒过拟合现象同时发生。
+
+    Adversarial training is a standard method to train deep neural networks to be robust to adversarial perturbation. Similar to surprising $\textit{clean generalization}$ ability in the standard deep learning setting, neural networks trained by adversarial training also generalize well for $\textit{unseen clean data}$. However, in constrast with clean generalization, while adversarial training method is able to achieve low $\textit{robust training error}$, there still exists a significant $\textit{robust generalization gap}$, which promotes us exploring what mechanism leads to both $\textit{clean generalization and robust overfitting (CGRO)}$ during learning process. In this paper, we provide a theoretical understanding of this CGRO phenomenon in adversarial training. First, we propose a theoretical framework of adversarial training, where we analyze $\textit{feature learning process}$ to explain how adversarial training leads network learner to CGRO regime. Specifically, we prove that, u
+    
+[^11]: 个别点表示相似性
+
+    Pointwise Representational Similarity. (arXiv:2305.19294v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.19294](http://arxiv.org/abs/2305.19294)
+
+    本文介绍了 PNKA，一种可以量化单个输入在两个表示空间中的相似度的方法，填补了全局相似性度量不能局部调查表示的空白。
+
+    
+
+    随着对深度神经网络的依赖性越来越大，发展更好地理解它们所学表示方式的方法变得越来越重要。表征相似性度量已经成为了一种常用工具，用于检查学习到的表示。然而，现有的度量只能在全局层面上对相似性进行汇总估计，即在N个输入示例的一组表示中进行。因此，这些度量不适合于在局部层面上调查表示，即单个输入示例的表示。例如，我们需要局部相似性度量，以了解哪些单个输入表示受到了模型训练干预的影响（例如，更公平和无偏）或更容易被错误分类。在本文中，我们填补了这一空白并提出了PNKA（Pointwise Normalized Kernel Alignment），它对比度量了在两个表示空间中一个个别输入的表示相似程度。
+
+    With the increasing reliance on deep neural networks, it is important to develop ways to better understand their learned representations. Representation similarity measures have emerged as a popular tool for examining learned representations However, existing measures only provide aggregate estimates of similarity at a global level, i.e. over a set of representations for N input examples. As such, these measures are not well-suited for investigating representations at a local level, i.e. representations of a single input example. Local similarity measures are needed, for instance, to understand which individual input representations are affected by training interventions to models (e.g. to be more fair and unbiased) or are at greater risk of being misclassified. In this work, we fill in this gap and propose Pointwise Normalized Kernel Alignment (PNKA), a measure that quantifies how similarly an individual input is represented in two representation spaces. Intuitively, PNKA compares the
+    
+[^12]: 使用指数级别的少量变分参数的张量网络压缩神经网络
+
+    Compressing neural network by tensor network with exponentially fewer variational parameters. (arXiv:2305.06058v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.06058](http://arxiv.org/abs/2305.06058)
+
+    本文提出了一种通用的压缩方案，将神经网络的可变参数编码为多层张量网络，明显减少了可变参数的数量，并在多个神经网络和数据集上表现出了卓越的压缩性能，以VGG-16的测试精度提高为例。
+
+    
+
+    为了解决神经网络（NN）所包含的巨大可变的参数问题，本文提出了一种将这些参数 encoding 为多层张量网络（TN）的压缩方案。这种方案演示了出色的压缩性能，超过了以浅层张量网络为基础的现有最先进方法。例如，VGG-16中的3个卷积层的大约1000万参数被压缩到具有仅632个参数的TN中，而在CIFAR-10上的测试准确性令人惊喜地提高了81.14％。
+
+    Neural network (NN) designed for challenging machine learning tasks is in general a highly nonlinear mapping that contains massive variational parameters. High complexity of NN, if unbounded or unconstrained, might unpredictably cause severe issues including over-fitting, loss of generalization power, and unbearable cost of hardware. In this work, we propose a general compression scheme that significantly reduces the variational parameters of NN by encoding them to multi-layer tensor networks (TN's) that contain exponentially-fewer free parameters. Superior compression performance of our scheme is demonstrated on several widely-recognized NN's (FC-2, LeNet-5, and VGG-16) and datasets (MNIST and CIFAR-10), surpassing the state-of-the-art method based on shallow tensor networks. For instance, about 10 million parameters in the three convolutional layers of VGG-16 are compressed in TN's with just $632$ parameters, while the testing accuracy on CIFAR-10 is surprisingly improved from $81.14
+    
+[^13]: LABO: 通过双层优化实现最佳标签正则化学习
+
+    LABO: Towards Learning Optimal Label Regularization via Bi-level Optimization. (arXiv:2305.04971v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.04971](http://arxiv.org/abs/2305.04971)
+
+    本文提出了一种基于标签正则化的通用框架，其中包括传统的LS，但也可以建模实例特定的变体。我们提出了一种双层优化的方法（LABO），用于学习标签正则化，并得到了可解释的最优标签平滑解。
+
+    
+
+    正则化技术对于改善深度神经网络的泛化性能和训练效率至关重要。许多深度学习算法依赖于权重衰减、丢弃、批/层归一化等技术来更快地收敛和泛化。标签平滑（LS）是另一种简单、通用且高效的正则化方法，可用于各种监督分类任务。然而，传统的LS假设每个非目标类别出现的概率相等，不能根据实例对标签进行优化。本文提出了一种基于标签正则化的通用框架，包括传统的LS但也可以建模实例特定的变体。基于该框架，我们提出了一种通过设计双层优化（LABO）问题来学习标签正则化的高效方法。我们得出了内环节的确定性和可解释解，而无需存储经过训练模型的参数或输出。
+
+    Regularization techniques are crucial to improving the generalization performance and training efficiency of deep neural networks. Many deep learning algorithms rely on weight decay, dropout, batch/layer normalization to converge faster and generalize. Label Smoothing (LS) is another simple, versatile and efficient regularization which can be applied to various supervised classification tasks. Conventional LS, however, regardless of the training instance assumes that each non-target class is equally likely. In this work, we present a general framework for training with label regularization, which includes conventional LS but can also model instance-specific variants. Based on this formulation, we propose an efficient way of learning LAbel regularization by devising a Bi-level Optimization (LABO) problem. We derive a deterministic and interpretable solution of the inner loop as the optimal label smoothing without the need to store the parameters or the output of a trained model. Finally
+    
+[^14]: 评估-优化方法与集成评估优化法：基于随机优势的观点
+
+    Estimate-Then-Optimize Versus Integrated-Estimation-Optimization: A Stochastic Dominance Perspective. (arXiv:2304.06833v1 [stat.ML])
+
+    [http://arxiv.org/abs/2304.06833](http://arxiv.org/abs/2304.06833)
+
+    本文提出，当模型类足够丰富以涵盖真实情况时，非线性问题的“先估计再优化”方法优于集成方法，包括优化间隙的渐进优势的均值，所有其他时刻和整个渐进分布。
+
+    
+
+    在数据驱动的随机优化中，除了需要优化任务，还需要从数据中估计潜在分布的模型参数。最近的文献表明，通过选择导致最佳经验目标性能的模型参数，可以集成估计和优化过程。当模型被错误地指定时，这种集成方法可以很容易地显示出优于简单的“先估计再优化”的方法。本文认为，在模型类足够丰富以涵盖真实情况的情况下，对于非线性问题，两种方法之间的性能排序在强烈的意义下被颠倒。在受限条件和当上下文特征可用时，类似的结果也成立。
+
+    In data-driven stochastic optimization, model parameters of the underlying distribution need to be estimated from data in addition to the optimization task. Recent literature suggests the integration of the estimation and optimization processes, by selecting model parameters that lead to the best empirical objective performance. Such an integrated approach can be readily shown to outperform simple ``estimate then optimize" when the model is misspecified. In this paper, we argue that when the model class is rich enough to cover the ground truth, the performance ordering between the two approaches is reversed for nonlinear problems in a strong sense. Simple ``estimate then optimize" outperforms the integrated approach in terms of stochastic dominance of the asymptotic optimality gap, i,e, the mean, all other moments, and the entire asymptotic distribution of the optimality gap is always better. Analogous results also hold under constrained settings and when contextual features are availa
+    
+[^15]: 具有数据和客户端异质性的通信高效的联邦学习
+
+    Communication-Efficient Federated Learning With Data and Client Heterogeneity. (arXiv:2206.10032v3 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2206.10032](http://arxiv.org/abs/2206.10032)
+
+    本文提出了适用于具有数据和客户端异质性的通信高效的联邦学习算法，并通过实验结果验证了其在标准联合任务的快速收敛性，以及在有趣的参数范围内可以提供类似于经典联邦平均算法的收敛性。
+
+    
+
+    联邦学习（FL）允许机器学习模型进行大规模分布式训练，同时仍允许各个节点保持本地数据。然而，进行大规模FL时存在固有的实用挑战：1）局部节点数据分布的异质性，2）节点计算速度（异步性）的异质性，以及3）客户端和服务器之间通信的限制。在本文中，我们提出了第一种经典联邦平均算法（FedAvg）的变体，同时支持数据异质性、部分客户端异步性和通信压缩。我们的算法提供了严密的分析，表明尽管存在这些系统放宽，它仍然可以在有趣的参数范围内提供类似于FedAvg的收敛性。在多达300个节点的严格LEAF基准测试方案中的实验结果显示，我们的算法确保了标准联合任务的快速收敛，提高了
+
+    Federated Learning (FL) enables large-scale distributed training of machine learning models, while still allowing individual nodes to maintain data locally.  However, executing FL at scale comes with inherent practical challenges:  1) heterogeneity of the local node data distributions,  2) heterogeneity of node computational speeds (asynchrony),  but also 3) constraints in the amount of communication between the clients and the server.  In this work, we present the first variant of the classic federated averaging (FedAvg) algorithm  which, at the same time, supports data heterogeneity, partial client asynchrony, and communication compression.  Our algorithm comes with a rigorous analysis showing that, in spite of these system relaxations,  it can provide similar convergence to FedAvg in interesting parameter regimes.  Experimental results in the rigorous LEAF benchmark on setups of up to $300$ nodes show that our algorithm ensures fast convergence for standard federated tasks, improvin
     
 
