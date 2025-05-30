@@ -2,52 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Optimal convex $M$-estimation via score matching](https://arxiv.org/abs/2403.16688) | 该论文提出了一种通过得分匹配实现最佳凸$M$-估计的方法，在线性回归中能够达到最佳的渐近方差，并且在计算上高效，证明具有所有凸$M$-估计中最小的渐近协方差。 |
-| [^2] | [LC-Tsalis-INF: Generalized Best-of-Both-Worlds Linear Contextual Bandits](https://arxiv.org/abs/2403.03219) | 该研究提出了一种广义最佳双赢线性背景强化型赌博机算法，能够在次优性差距受到下界限制时遗憾为$O(\log(T))$。同时引入了边缘条件来描述次优性差距对问题难度的影响。 |
-| [^3] | [Causal Inference with Differentially Private (Clustered) Outcomes.](http://arxiv.org/abs/2308.00957) | 本文提出了一种新的差分隐私机制"Cluster-DP"，它在保证隐私的同时利用数据的聚类结构，从而实现了更强的隐私保证和较低的方差，可以用于进行因果分析。 |
+| [^1] | [How many views does your deep neural network use for prediction?](https://rss.arxiv.org/abs/2402.01095) | 本文提出了最小有效视图（MSVs）的概念，该概念类似于多视图，但适用于实际图像，并且通过实证研究表明，MSV的数量与模型的预测准确性之间存在关系。 |
+| [^2] | [An Analysis of Switchback Designs in Reinforcement Learning](https://arxiv.org/abs/2403.17285) | 本文通过提出“弱信号分析”框架，研究了强化学习中往返设计对平均处理效应估计准确性的影响，发现在大部分奖励误差为正相关时，往返设计比每日切换策略更有效，增加政策切换频率可以降低平均处理效应估计器的均方误差。 |
 
 # 详细
 
-[^1]: 通过得分匹配实现最佳凸$M$-估计
+[^1]: 深度神经网络预测使用多少个视图？
 
-    Optimal convex $M$-estimation via score matching
+    How many views does your deep neural network use for prediction?
 
-    [https://arxiv.org/abs/2403.16688](https://arxiv.org/abs/2403.16688)
+    [https://rss.arxiv.org/abs/2402.01095](https://rss.arxiv.org/abs/2402.01095)
 
-    该论文提出了一种通过得分匹配实现最佳凸$M$-估计的方法，在线性回归中能够达到最佳的渐近方差，并且在计算上高效，证明具有所有凸$M$-估计中最小的渐近协方差。
-
-    
-
-    在线性回归的背景下，我们构建了一个数据驱动的凸损失函数，通过该函数进行经验风险最小化可以在回归系数的下游估计中实现最佳的渐近方差。我们的半参数方法旨在最佳逼近噪声分布对数密度的导数。在总体层面上，这个拟合过程是对得分匹配的非参数拓展，对应于根据Fisher散度进行噪声分布的对数凹映射。该过程在计算上是高效的，我们证明我们的程序达到了所有凸$M$-估计中最小的渐近协方差。作为非对数凹设置的一个例子，对于柯西误差，最佳凸损失函数类似于Huber函数，并且我们的过程相对于oracle最大似然估计器实现了大于0.87的渐近效率。
-
-    arXiv:2403.16688v1 Announce Type: cross  Abstract: In the context of linear regression, we construct a data-driven convex loss function with respect to which empirical risk minimisation yields optimal asymptotic variance in the downstream estimation of the regression coefficients. Our semiparametric approach targets the best decreasing approximation of the derivative of the log-density of the noise distribution. At the population level, this fitting process is a nonparametric extension of score matching, corresponding to a log-concave projection of the noise distribution with respect to the Fisher divergence. The procedure is computationally efficient, and we prove that our procedure attains the minimal asymptotic covariance among all convex $M$-estimators. As an example of a non-log-concave setting, for Cauchy errors, the optimal convex loss function is Huber-like, and our procedure yields an asymptotic efficiency greater than 0.87 relative to the oracle maximum likelihood estimator o
-    
-[^2]: LC-Tsalis-INF: 广义最佳双赢线性背景强化型赌博机
-
-    LC-Tsalis-INF: Generalized Best-of-Both-Worlds Linear Contextual Bandits
-
-    [https://arxiv.org/abs/2403.03219](https://arxiv.org/abs/2403.03219)
-
-    该研究提出了一种广义最佳双赢线性背景强化型赌博机算法，能够在次优性差距受到下界限制时遗憾为$O(\log(T))$。同时引入了边缘条件来描述次优性差距对问题难度的影响。
+    本文提出了最小有效视图（MSVs）的概念，该概念类似于多视图，但适用于实际图像，并且通过实证研究表明，MSV的数量与模型的预测准确性之间存在关系。
 
     
 
-    本研究考虑具有独立同分布（i.i.d.）背景的线性背景强化型赌博机问题。在这个问题中，现有研究提出了最佳双赢（BoBW）算法，其遗憾在随机区域中满足$O(\log^2(T))$，其中$T$为回合数，其次优性差距由正常数下界，同时在对抗性区域中满足$O(\sqrt{T})$。然而，对$T$的依赖仍有改进空间，并且次优性差距的假设可以放宽。针对这个问题，本研究提出了一个算法，当次优性差距受到下界限制时，其遗憾满足$O(\log(T))$。此外，我们引入了一个边缘条件，即对次优性差距的一个更温和的假设。该条件使用参数$\beta \in (0, \infty]$表征与次优性差距相关的问题难度。然后我们证明该算法的遗憾满足$O\left(\
+    尽管进行了许多理论和实证分析，但深度神经网络（DNN）的泛化能力仍未完全理解。最近，Allen-Zhu和Li（2023）引入了多视图的概念来解释DNN的泛化能力，但他们的主要目标是集成或蒸馏模型，并未讨论用于特定输入预测的多视图估计方法。在本文中，我们提出了最小有效视图（MSVs），它类似于多视图，但可以高效地计算真实图像。MSVs是输入中的一组最小且不同的特征，每个特征保留了模型对该输入的预测。我们通过实证研究表明，不同模型（包括卷积和转换模型）的MSV数量与预测准确性之间存在明确的关系，这表明多视图的角度对于理解（非集成或非蒸馏）DNN的泛化能力也很重要。
 
-    arXiv:2403.03219v1 Announce Type: new  Abstract: This study considers the linear contextual bandit problem with independent and identically distributed (i.i.d.) contexts. In this problem, existing studies have proposed Best-of-Both-Worlds (BoBW) algorithms whose regrets satisfy $O(\log^2(T))$ for the number of rounds $T$ in a stochastic regime with a suboptimality gap lower-bounded by a positive constant, while satisfying $O(\sqrt{T})$ in an adversarial regime. However, the dependency on $T$ has room for improvement, and the suboptimality-gap assumption can be relaxed. For this issue, this study proposes an algorithm whose regret satisfies $O(\log(T))$ in the setting when the suboptimality gap is lower-bounded. Furthermore, we introduce a margin condition, a milder assumption on the suboptimality gap. That condition characterizes the problem difficulty linked to the suboptimality gap using a parameter $\beta \in (0, \infty]$. We then show that the algorithm's regret satisfies $O\left(\
+    The generalization ability of Deep Neural Networks (DNNs) is still not fully understood, despite numerous theoretical and empirical analyses. Recently, Allen-Zhu & Li (2023) introduced the concept of multi-views to explain the generalization ability of DNNs, but their main target is ensemble or distilled models, and no method for estimating multi-views used in a prediction of a specific input is discussed. In this paper, we propose Minimal Sufficient Views (MSVs), which is similar to multi-views but can be efficiently computed for real images. MSVs is a set of minimal and distinct features in an input, each of which preserves a model's prediction for the input. We empirically show that there is a clear relationship between the number of MSVs and prediction accuracy across models, including convolutional and transformer models, suggesting that a multi-view like perspective is also important for understanding the generalization ability of (non-ensemble or non-distilled) DNNs.
     
-[^3]: 具有差分隐私(分组)结果的因果推断
+[^2]: 对强化学习中的往返设计进行的分析
 
-    Causal Inference with Differentially Private (Clustered) Outcomes. (arXiv:2308.00957v1 [stat.ML])
+    An Analysis of Switchback Designs in Reinforcement Learning
 
-    [http://arxiv.org/abs/2308.00957](http://arxiv.org/abs/2308.00957)
+    [https://arxiv.org/abs/2403.17285](https://arxiv.org/abs/2403.17285)
 
-    本文提出了一种新的差分隐私机制"Cluster-DP"，它在保证隐私的同时利用数据的聚类结构，从而实现了更强的隐私保证和较低的方差，可以用于进行因果分析。
+    本文通过提出“弱信号分析”框架，研究了强化学习中往返设计对平均处理效应估计准确性的影响，发现在大部分奖励误差为正相关时，往返设计比每日切换策略更有效，增加政策切换频率可以降低平均处理效应估计器的均方误差。
 
     
 
-    从随机实验中估计因果效应只有在参与者同意透露他们可能敏感的响应时才可行。在确保隐私的许多方法中，标签差分隐私是一种广泛使用的算法隐私保证度量，可以鼓励参与者分享响应而不会面临去匿名化的风险。许多差分隐私机制会向原始数据集中注入噪音来实现这种隐私保证，这会增加大多数统计估计量的方差，使得精确测量因果效应变得困难：从差分隐私数据进行因果分析存在着固有的隐私-方差权衡。为了实现更强隐私保证的较低方差，我们提出了一种新的差分隐私机制"Cluster-DP"，它利用数据的任何给定的聚类结构，同时仍然允许对因果效应进行估计。
+    本文提供了对A/B测试中往返设计的详细研究，这些设计随时间在基准和新策略之间交替。我们的目标是全面评估这些设计对其产生的平均处理效应（ATE）估计器准确性的影响。我们提出了一个新颖的“弱信号分析”框架，大大简化了这些ATE的均方误差（MSE）在马尔科夫决策过程环境中的计算。我们的研究结果表明：(i) 当大部分奖励误差呈正相关时，往返设计比每日切换策略的交替设计更有效。此外，增加政策切换的频率往往会降低ATE估计器的MSE。(ii) 然而，当误差不相关时，所有这些设计变得渐近等效。(iii) 在大多数误差为负相关时
 
-    Estimating causal effects from randomized experiments is only feasible if participants agree to reveal their potentially sensitive responses. Of the many ways of ensuring privacy, label differential privacy is a widely used measure of an algorithm's privacy guarantee, which might encourage participants to share responses without running the risk of de-anonymization. Many differentially private mechanisms inject noise into the original data-set to achieve this privacy guarantee, which increases the variance of most statistical estimators and makes the precise measurement of causal effects difficult: there exists a fundamental privacy-variance trade-off to performing causal analyses from differentially private data. With the aim of achieving lower variance for stronger privacy guarantees, we suggest a new differential privacy mechanism, "Cluster-DP", which leverages any given cluster structure of the data while still allowing for the estimation of causal effects. We show that, depending 
+    arXiv:2403.17285v1 Announce Type: cross  Abstract: This paper offers a detailed investigation of switchback designs in A/B testing, which alternate between baseline and new policies over time. Our aim is to thoroughly evaluate the effects of these designs on the accuracy of their resulting average treatment effect (ATE) estimators. We propose a novel "weak signal analysis" framework, which substantially simplifies the calculations of the mean squared errors (MSEs) of these ATEs in Markov decision process environments. Our findings suggest that (i) when the majority of reward errors are positively correlated, the switchback design is more efficient than the alternating-day design which switches policies in a daily basis. Additionally, increasing the frequency of policy switches tends to reduce the MSE of the ATE estimator. (ii) When the errors are uncorrelated, however, all these designs become asymptotically equivalent. (iii) In cases where the majority of errors are negative correlate
     
 

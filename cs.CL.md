@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Semantic change detection for Slovene language: a novel dataset and an approach based on optimal transport](https://arxiv.org/abs/2402.16596) | 该论文提出了一个新的斯洛文尼亚语数据集，用于评估语义变化检测系统，并提出了一种基于最优输运的全新方法，能够将错误率降低22.8%。 |
-| [^2] | [Machine Translation Models are Zero-Shot Detectors of Translation Direction.](http://arxiv.org/abs/2401.06769) | 本文探索了一种基于无监督方法的翻译方向检测，并通过实验证实其在高负载语言对上的有效性。论文标题为“Machine Translation Models are Zero-Shot Detectors of Translation Direction”。 |
+| [^1] | [Learning to Poison Large Language Models During Instruction Tuning](https://arxiv.org/abs/2402.13459) | 通过设计新的数据注入攻击攻击LLMs，并提出一种梯度引导后门触发器学习方法，通过实验验证表明成功地破坏模型输出，仅改变1%的指导调优样本即可导致性能下降率达到约80％。 |
+| [^2] | [Theoretical guarantees on the best-of-n alignment policy.](http://arxiv.org/abs/2401.01879) | 该论文研究了对齐生成模型的最佳n对齐策略，并证明了之前文献中的某个分析表达式是错误的。研究者们提出了一个新的KL散度估计方法，并通过实验证明其有效性。 |
 
 # 详细
 
-[^1]: Slovene语义变化检测：一个新的数据集和基于最优输运的方法
+[^1]: 学习在指导调优期间操纵大型语言模型
 
-    Semantic change detection for Slovene language: a novel dataset and an approach based on optimal transport
+    Learning to Poison Large Language Models During Instruction Tuning
 
-    [https://arxiv.org/abs/2402.16596](https://arxiv.org/abs/2402.16596)
+    [https://arxiv.org/abs/2402.13459](https://arxiv.org/abs/2402.13459)
 
-    该论文提出了一个新的斯洛文尼亚语数据集，用于评估语义变化检测系统，并提出了一种基于最优输运的全新方法，能够将错误率降低22.8%。
-
-    
-
-    在这篇论文中，我们专注于检测斯洛文尼亚语中的语义变化，这是一种拥有两百万使用者的资源较少的斯拉夫语言。检测和跟踪语义变化可以揭示语言的演变，这是由社会和文化变化引起的。最近，已经提出了几种系统来帮助这项研究，但所有这些系统都依赖于手动注释的黄金标准数据集进行评估。本文提出了第一个斯洛文尼亚语数据集，用于评估语义变化检测系统，其中包含了从3000多个手动注释的句对中获得的104个目标词的汇总语义变化评分。我们在这个数据集上评估了几种已有的语义变化检测方法，并提出了一种基于最优输运的新方法，该方法改进了现有的最先进系统，错误率降低了22.8%。
-
-    arXiv:2402.16596v1 Announce Type: new  Abstract: In this paper, we focus on the detection of semantic changes in Slovene, a less resourced Slavic language with two million speakers. Detecting and tracking semantic changes provides insights into the evolution of the language caused by changes in society and culture. Recently, several systems have been proposed to aid in this study, but all depend on manually annotated gold standard datasets for evaluation. In this paper, we present the first Slovene dataset for evaluating semantic change detection systems, which contains aggregated semantic change scores for 104 target words obtained from more than 3000 manually annotated sentence pairs. We evaluate several existing semantic change detection methods on this dataset and also propose a novel approach based on optimal transport that improves on the existing state-of-the-art systems with an error reduction rate of 22.8%.
-    
-[^2]: 机器翻译模型是零射击的翻译方向检测器。
-
-    Machine Translation Models are Zero-Shot Detectors of Translation Direction. (arXiv:2401.06769v1 [cs.CL])
-
-    [http://arxiv.org/abs/2401.06769](http://arxiv.org/abs/2401.06769)
-
-    本文探索了一种基于无监督方法的翻译方向检测，并通过实验证实其在高负载语言对上的有效性。论文标题为“Machine Translation Models are Zero-Shot Detectors of Translation Direction”。
+    通过设计新的数据注入攻击攻击LLMs，并提出一种梯度引导后门触发器学习方法，通过实验验证表明成功地破坏模型输出，仅改变1%的指导调优样本即可导致性能下降率达到约80％。
 
     
 
-    检测并行文本的翻译方向对于机器翻译的训练和评估具有应用价值，但也具有法医应用，例如解决剽窃或伪造指控。在这项工作中，我们根据一个简单的假设，即$p(\text{translation}|\text{original})>p(\text{original}|\text{translation})$，以传统上被称为翻译语或机器翻译语中的简化效应为动机，探索了一种无监督的翻译方向检测方法。通过对20个翻译方向进行大规模多语种机器翻译模型的实验，我们验证了该方法在资源丰富的语言对上的有效性，对于NMT生成的翻译，实现了文档级准确率为82-96％，对于人工翻译，根据所使用的模型，实现了60-81％的准确率。代码和演示可在https://github.com/ZurichNLP/translation-direction-detection找到。
+    大型语言模型（LLMs）的出现标志着语言处理和推理能力方面的重大突破。虽然它们取得了显著进展，但LLMs面临着数据注入攻击的漏洞，其中对手将后门触发器插入训练数据，以操纵输出以进行恶意行为。本研究通过设计一种新的数据注入攻击，旨在利用指导调优过程，进一步识别LLMs中的额外安全风险。我们提出了一种新颖的梯度引导后门触发器学习方法，以有效识别敌对触发器，确保对传统防御手段的规避，同时保持内容的完整性。通过对各种LLMs和任务的实验验证，我们的策略表明在破坏模型输出方面取得了很高的成功率；仅对4,000个指导调优样本中的1％进行注入就导致性能降低率（PDR）约为80％。我们的工作高
 
-    Detecting the translation direction of parallel text has applications for machine translation training and evaluation, but also has forensic applications such as resolving plagiarism or forgery allegations. In this work, we explore an unsupervised approach to translation direction detection based on the simple hypothesis that $p(\text{translation}|\text{original})>p(\text{original}|\text{translation})$, motivated by the well-known simplification effect in translationese or machine-translationese. In experiments with massively multilingual machine translation models across 20 translation directions, we confirm the effectiveness of the approach for high-resource language pairs, achieving document-level accuracies of 82-96% for NMT-produced translations, and 60-81% for human translations, depending on the model used. Code and demo are available at https://github.com/ZurichNLP/translation-direction-detection
+    arXiv:2402.13459v1 Announce Type: cross  Abstract: The advent of Large Language Models (LLMs) has marked significant achievements in language processing and reasoning capabilities. Despite their advancements, LLMs face vulnerabilities to data poisoning attacks, where adversaries insert backdoor triggers into training data to manipulate outputs for malicious purposes. This work further identifies additional security risks in LLMs by designing a new data poisoning attack tailored to exploit the instruction tuning process. We propose a novel gradient-guided backdoor trigger learning approach to identify adversarial triggers efficiently, ensuring an evasion of detection by conventional defenses while maintaining content integrity. Through experimental validation across various LLMs and tasks, our strategy demonstrates a high success rate in compromising model outputs; poisoning only 1\% of 4,000 instruction tuning samples leads to a Performance Drop Rate (PDR) of around 80\%. Our work high
+    
+[^2]: 关于最佳n对齐策略的理论保证
+
+    Theoretical guarantees on the best-of-n alignment policy. (arXiv:2401.01879v1 [cs.LG])
+
+    [http://arxiv.org/abs/2401.01879](http://arxiv.org/abs/2401.01879)
+
+    该论文研究了对齐生成模型的最佳n对齐策略，并证明了之前文献中的某个分析表达式是错误的。研究者们提出了一个新的KL散度估计方法，并通过实验证明其有效性。
+
+    
+
+    一个简单有效的生成模型对齐方法是最佳n对齐策略，该策略从一个基本策略中抽取n个样本，并根据奖励函数对它们进行排序，选择排名最高的样本。文献中常用的分析表达式声称最佳n对齐策略与基本策略之间的KL散度等于$\log (n) (n-1)/n$。我们证明了该论断的不正确性，并展示了它只是实际KL散度的一个上界。我们还研究了在不同情况下该上界的紧致性。最后，我们提出了一种新的KL散度估计方法，并通过几个例子的实验证明它能提供一个紧致的近似。
+
+    A simple and effective method for the alignment of generative models is the best-of-$n$ policy, where $n$ samples are drawn from a base policy, and ranked based on a reward function, and the highest ranking one is selected. A commonly used analytical expression in the literature claims that the KL divergence between the best-of-$n$ policy and the base policy is equal to $\log (n) (n-1)/n.$ We disprove the validity of this claim, and show that it is an upper bound on the actual KL divergence. We also explore the tightness of this upper bound in different regimes. Finally, we propose a new estimator for the KL divergence and empirically show that it provides a tight approximation through a few examples.
     
 
