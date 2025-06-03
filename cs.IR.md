@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [A Gold Standard Dataset for the Reviewer Assignment Problem.](http://arxiv.org/abs/2303.16750) | 该论文提出了一个用于审稿人分配问题的新数据集，解决了当前算法难以进行原则比较的问题，并提供了基于此数据集的算法比较结果，为利益相关者在选择算法方面提供了一个基础。 |
+| [^1] | [Towards Automatic Sampling of User Behaviors for Sequential Recommender Systems.](http://arxiv.org/abs/2311.00388) | 本论文提出了一个名为AutoSAM的自动采样框架，用于对连续推荐系统中的用户行为进行非均匀处理。该框架通过自适应地学习历史行为的偏斜分布，并采样出信息丰富的子集，以构建更具可泛化性的连续推荐系统。 |
 
 # 详细
 
-[^1]: 一种用于审稿人分配问题的黄金标准数据集
+[^1]: 实现自动采样对于连续推荐系统中用户行为的研究
 
-    A Gold Standard Dataset for the Reviewer Assignment Problem. (arXiv:2303.16750v1 [cs.IR])
+    Towards Automatic Sampling of User Behaviors for Sequential Recommender Systems. (arXiv:2311.00388v1 [cs.IR])
 
-    [http://arxiv.org/abs/2303.16750](http://arxiv.org/abs/2303.16750)
+    [http://arxiv.org/abs/2311.00388](http://arxiv.org/abs/2311.00388)
 
-    该论文提出了一个用于审稿人分配问题的新数据集，解决了当前算法难以进行原则比较的问题，并提供了基于此数据集的算法比较结果，为利益相关者在选择算法方面提供了一个基础。
+    本论文提出了一个名为AutoSAM的自动采样框架，用于对连续推荐系统中的用户行为进行非均匀处理。该框架通过自适应地学习历史行为的偏斜分布，并采样出信息丰富的子集，以构建更具可泛化性的连续推荐系统。
 
     
 
-    许多同行评审期刊或会议正在使用或试图使用算法将投稿分配给审稿人。这些自动化方法的关键是“相似度分数”，即对审稿人在审查论文中的专业水平的数值估计，已经提出了许多算法来计算这些分数。然而，这些算法尚未经过有原则的比较，这使得利益相关者难以以基于证据的方式选择算法。比较现有算法和开发更好算法的关键挑战是缺乏公开可用的黄金标准数据，这些数据将用于进行可重复研究。我们通过收集一组新的相似度得分数据来解决这个问题，并将其发布给研究社区。我们的数据集由58位研究人员提供的477个自我报告的专业水平分数组成，用于评估他们先前阅读的论文的审查经验。我们使用这些数据来比较各种算法，并对标准数据集的设计提出了建议。
+    由于连续推荐系统能够有效捕捉动态用户偏好，因此它们在推荐领域中广受欢迎。当前连续推荐系统的一个默认设置是将每个历史行为均匀地视为正向交互。然而，实际上，这种设置有可能导致性能不佳，因为每个商品对用户的兴趣有不同的贡献。例如，购买的商品应该比点击的商品更重要。因此，我们提出了一个通用的自动采样框架，名为AutoSAM，用于非均匀地处理历史行为。具体而言，AutoSAM通过在标准的连续推荐架构中增加一个采样器层，自适应地学习原始输入的偏斜分布，并采样出信息丰富的子集，以构建更具可泛化性的连续推荐系统。为了克服非可微分采样操作的挑战，同时引入多个决策因素进行采样，我们还提出了进一步的方法。
 
-    Many peer-review venues are either using or looking to use algorithms to assign submissions to reviewers. The crux of such automated approaches is the notion of the "similarity score"--a numerical estimate of the expertise of a reviewer in reviewing a paper--and many algorithms have been proposed to compute these scores. However, these algorithms have not been subjected to a principled comparison, making it difficult for stakeholders to choose the algorithm in an evidence-based manner. The key challenge in comparing existing algorithms and developing better algorithms is the lack of the publicly available gold-standard data that would be needed to perform reproducible research. We address this challenge by collecting a novel dataset of similarity scores that we release to the research community. Our dataset consists of 477 self-reported expertise scores provided by 58 researchers who evaluated their expertise in reviewing papers they have read previously.  We use this data to compare s
+    Sequential recommender systems (SRS) have gained widespread popularity in recommendation due to their ability to effectively capture dynamic user preferences. One default setting in the current SRS is to uniformly consider each historical behavior as a positive interaction. Actually, this setting has the potential to yield sub-optimal performance, as each item makes a distinct contribution to the user's interest. For example, purchased items should be given more importance than clicked ones. Hence, we propose a general automatic sampling framework, named AutoSAM, to non-uniformly treat historical behaviors. Specifically, AutoSAM augments the standard sequential recommendation architecture with an additional sampler layer to adaptively learn the skew distribution of the raw input, and then sample informative sub-sets to build more generalizable SRS. To overcome the challenges of non-differentiable sampling actions and also introduce multiple decision factors for sampling, we further int
     
 
