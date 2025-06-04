@@ -2,52 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Signature volatility models: pricing and hedging with Fourier](https://arxiv.org/abs/2402.01820) | 该论文介绍了一种签名波动性模型，该模型具有普适性并可以用于定价和对冲不同类型的期权。研究利用Fourier反演技术实现了高效准确的定价和对冲。其中关键创新是通过推导联合特征函数解决了无限维扩展张量代数值的Riccati方程。 |
-| [^2] | [The long-term impact of (un)conditional cash transfers on labour market outcomes in Ecuador.](http://arxiv.org/abs/2309.17216) | 该研究评估了厄瓜多尔人类发展津贴对符合资格家庭子女在正式部门劳动力市场结果上的长期影响，并发现该津贴在暴露后约十年之后增加了正式雇佣率和劳动收入，从而抑制了贫困的代际传递。 |
-| [^3] | [Composite Sorting.](http://arxiv.org/abs/2303.06701) | 复合排序是一个新的排序框架，通过将不同类型的工作者分配到同一个职业中并同时进行正向和负向排序来实现。当固定投资减轻了不匹配的可变成本时，复合排序可以产生大量的工资分散程度。 |
+| [^1] | [High-Throughput Asset Pricing](https://arxiv.org/abs/2311.10685) | 使用经验贝叶斯方法挖掘14万条多空策略数据，实现“高通量资产定价”，预测高收益集中在会计策略、小盘股和早于2004年的样本中，为记录资产定价事实提供了严格、无偏见的方法。 |
+| [^2] | [Non-Concave Utility Maximization with Transaction Costs.](http://arxiv.org/abs/2307.02178) | 本文研究了具有非凹终值效用和交易成本的有限时间段内的投资组合选择问题，提出了一种对此问题的适当的理论描述，并发现引入交易成本可以防止投资组合过度杠杆化，并使大量的空头持仓在股票市场上成为最优决策。 |
 
 # 详细
 
-[^1]: 签名波动性模型：基于Fourier的定价和对冲
+[^1]: 高通量资产定价
 
-    Signature volatility models: pricing and hedging with Fourier
+    High-Throughput Asset Pricing
 
-    [https://arxiv.org/abs/2402.01820](https://arxiv.org/abs/2402.01820)
+    [https://arxiv.org/abs/2311.10685](https://arxiv.org/abs/2311.10685)
 
-    该论文介绍了一种签名波动性模型，该模型具有普适性并可以用于定价和对冲不同类型的期权。研究利用Fourier反演技术实现了高效准确的定价和对冲。其中关键创新是通过推导联合特征函数解决了无限维扩展张量代数值的Riccati方程。
-
-    
-
-    我们考虑一种随机波动性模型，其中波动性的动力学通过布朗运动时间推广签名的元素的可能无限线性组合给出。首先，我们展示了该模型的普适性，因为它包括但不限于著名的Stein-Stein、Bergomi和Heston模型，以及一些路径相关变体。然后，我们推导出对数价格和积分方差的联合特征函数，前提是某个无限维扩展张量代数值的Riccati方程有解。这使得我们能够使用Fourier反演技术定价和（二次）对冲某些欧式和路径相关期权。我们在全面的数值研究中突出了这些Fourier技术的效率和准确性。
-
-    We consider a stochastic volatility model where the dynamics of the volatility are given by a possibly infinite linear combination of the elements of the time extended signature of a Brownian motion. First, we show that the model is remarkably universal, as it includes, but is not limited to, the celebrated Stein-Stein, Bergomi, and Heston models, together with some path-dependent variants. Second, we derive the joint characteristic functional of the log-price and integrated variance provided that some infinite dimensional extended tensor algebra valued Riccati equation admits a solution. This allows us to price and (quadratically) hedge certain European and path-dependent options using Fourier inversion techniques. We highlight the efficiency and accuracy of these Fourier techniques in a comprehensive numerical study.
-    
-[^2]: 厄瓜多尔（非）有条件现金转移对劳动力市场影响的长期影响
-
-    The long-term impact of (un)conditional cash transfers on labour market outcomes in Ecuador. (arXiv:2309.17216v1 [econ.GN])
-
-    [http://arxiv.org/abs/2309.17216](http://arxiv.org/abs/2309.17216)
-
-    该研究评估了厄瓜多尔人类发展津贴对符合资格家庭子女在正式部门劳动力市场结果上的长期影响，并发现该津贴在暴露后约十年之后增加了正式雇佣率和劳动收入，从而抑制了贫困的代际传递。
+    使用经验贝叶斯方法挖掘14万条多空策略数据，实现“高通量资产定价”，预测高收益集中在会计策略、小盘股和早于2004年的样本中，为记录资产定价事实提供了严格、无偏见的方法。
 
     
 
-    尽管有条件现金转移在低收入和中等收入国家很受欢迎，但对其长期效果的证据仍然很少。本文评估了厄瓜多尔人类发展津贴对符合资格家庭子女在正式部门劳动力市场结果上的影响。这项津贴是最早的一种，其符合资格标准的执行力度较弱。通过回归不连续性设计的方法，我们发现这个计划在暴露后约十年之后增加了正式雇佣率和劳动收入，从而抑制了贫困的代际传递。我们根据以前的文献研究结果讨论可能的中介机制，并提供证据表明这个计划如何在中期促进了学校的持久性。
+    我们使用经验贝叶斯（EB）挖掘了来自会计比率、过去收益和股票符号构建的14万条多空策略的数据。这种“高通量资产定价”产生的样本外绩效与顶级金融期刊中的策略相当。与已发表的策略不同，数据挖掘的策略免受前瞻性偏见。EB 预测高收益集中在会计策略、小盘股和2004年之前的样本中，与有限注意力理论一致。通过T统计量的横截面分布可以看出这种直觉，对于等权重的会计策略，这个分布与零假设相去甚远。高通量方法提供了一种严格、无偏见的方式，用于记录资产定价事实。
 
-    Despite the popularity of conditional cash transfers in low- and middle-income countries, evidence on their long-term effects remains scarce. This paper assesses the impact of the Ecuador's Human Development Grant on the formal sector labour market outcomes of children in eligible households. This grant -- one of the first of its kind -- is characterised by weak enforcement of its eligibility criteria. By means of a regression discontinuity design, we find that this programme increased formal employment rates and labour income around a decade after exposure, thereby curbing the intergenerational transmission of poverty. We discuss possible mediating mechanisms based on findings from previous literature and, in particular, provide evidence on how the programme contributed to persistence in school in the medium run.
+    arXiv:2311.10685v2 Announce Type: replace-cross  Abstract: We use empirical Bayes (EB) to mine data on 140,000 long-short strategies constructed from accounting ratios, past returns, and ticker symbols. This "high-throughput asset pricing" produces out-of-sample performance comparable to strategies in top finance journals. But unlike the published strategies, the data-mined strategies are free of look-ahead bias. EB predicts that high returns are concentrated in accounting strategies, small stocks, and pre-2004 samples, consistent with limited attention theories. The intuition is seen in the cross-sectional distribution of t-stats, which is far from the null for equal-weighted accounting strategies. High-throughput methods provide a rigorous, unbiased method for documenting asset pricing facts.
     
-[^3]: 复合排序
+[^2]: 具有交易成本的非凹效用最大化
 
-    Composite Sorting. (arXiv:2303.06701v2 [econ.GN] UPDATED)
+    Non-Concave Utility Maximization with Transaction Costs. (arXiv:2307.02178v1 [q-fin.MF])
 
-    [http://arxiv.org/abs/2303.06701](http://arxiv.org/abs/2303.06701)
+    [http://arxiv.org/abs/2307.02178](http://arxiv.org/abs/2307.02178)
 
-    复合排序是一个新的排序框架，通过将不同类型的工作者分配到同一个职业中并同时进行正向和负向排序来实现。当固定投资减轻了不匹配的可变成本时，复合排序可以产生大量的工资分散程度。
+    本文研究了具有非凹终值效用和交易成本的有限时间段内的投资组合选择问题，提出了一种对此问题的适当的理论描述，并发现引入交易成本可以防止投资组合过度杠杆化，并使大量的空头持仓在股票市场上成为最优决策。
 
     
 
-    我们提出了一个新的排序框架：复合排序。复合排序包括（1）将不同的工作者类型分配到同一个职业中，以及（2）给定的工作者类型同时参与正向排序和负向排序。当固定投资减轻了不匹配的可变成本时，复合排序就会出现。我们完全描述了最优排序，并且还证明了当不匹配成本的凹度较小时，排序更为积极。然后我们对均衡工资进行了描述。工资具有区域层次结构，相对工资仅取决于技能群体内的排序。定量上，复合排序可以在美国的职业内产生相当大的工资分散程度。
+    本文研究了具有非凹终值效用和比例交易成本的有限时间段内的投资组合选择问题。终值的常用凹化原理在此处不再有效，我们建立了对这个问题的适当的理论描述。我们首先给出了价值函数的渐近终值行为，这意味着任何接近到期的交易只为效用提供了边际贡献。在此之后，通过一个将我们的渐近终值条件合并的新定义的粘性解，我们建立了该问题的理论基础。通过数值分析，我们发现将交易成本引入非凹效用最大化问题可以防止投资组合过度杠杆化，并使大量的空头持仓在股票市场上成为最优决策，即使存在正的风险溢价和对称的交易成本。
 
-    We propose a new sorting framework: composite sorting. Composite sorting comprises of (1) distinct worker types assigned to the same occupation, and (2) a given worker type simultaneously being part of both positive and negative sorting. Composite sorting arises when fixed investments mitigate variable costs of mismatch. We completely characterize optimal sorting and additionally show it is more positive when mismatch costs are less concave. We then characterize equilibrium wages. Wages have a regional hierarchical structure relative wages depend solely on sorting within skill groups. Quantitatively, composite sorting can generate a sizable portion of within-occupations wage dispersion in the US.
+    This paper studies a finite-horizon portfolio selection problem with non-concave terminal utility and proportional transaction costs. The commonly used concavification principle for terminal value is no longer valid here, and we establish a proper theoretical characterization of this problem. We first give the asymptotic terminal behavior of the value function, which implies any transaction close to maturity only provides a marginal contribution to the utility. After that, the theoretical foundation is established in terms of a novel definition of the viscosity solution incorporating our asymptotic terminal condition. Via numerical analyses, we find that the introduction of transaction costs into non-concave utility maximization problems can prevent the portfolio from unbounded leverage and make a large short position in stock optimal despite a positive risk premium and symmetric transaction costs.
     
 

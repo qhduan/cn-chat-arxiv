@@ -2,127 +2,112 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Data-Efficient Operator Learning via Unsupervised Pretraining and In-Context Learning](https://arxiv.org/abs/2402.15734) | 该论文提出了一种通过无监督预训练和上下文学习方法实现PDE运算符学习的高效方式，以提高数据效率并改善模型的外域性能。 |
-| [^2] | [Online Control of Linear Systems with Unbounded and Degenerate Noise](https://arxiv.org/abs/2402.10252) | 这项研究揭示了在线控制问题中，对于凸成本，可以实现 $ \widetilde{O}(\sqrt{T}) $ 的遗憾界，甚至在存在无界噪声的情况下；同时，在成本具有强凸性时，可以在不需要噪声协方差是非退化的情况下建立 $ O({\rm poly} (\log T)) $ 的遗憾界。 |
-| [^3] | [Generalization Bounds for Heavy-Tailed SDEs through the Fractional Fokker-Planck Equation](https://arxiv.org/abs/2402.07723) | 本论文通过分数阻尼库仑方程证明了重尾SDE的高概率泛化界限，并且相对于参数维度，界限的依赖性要好于p。 |
-| [^4] | [On Calibration and Conformal Prediction of Deep Classifiers](https://arxiv.org/abs/2402.05806) | 本文研究了温度缩放对符合预测方法的影响，通过实证研究发现，校准对自适应C方法产生了有害的影响。 |
-| [^5] | [Distribution-Free Inference for the Regression Function of Binary Classification.](http://arxiv.org/abs/2308.01835) | 本文提出了一种分布无关的方法来推断二元分类问题中的回归函数，通过构建置信区间来解决该问题，相关算法经过验证具有可靠性。 |
-| [^6] | [Kernel $\epsilon$-Greedy for Contextual Bandits.](http://arxiv.org/abs/2306.17329) | 本文提出了基于核的$\epsilon$-贪心策略应用于情境脉冲中的方法，通过在线加权核岭回归估计器实现对奖励函数的估计，并证明了其一致性和依赖于RKHS维度的次线性后悔率，在有限维RKHS的边际条件下实现了最优后悔率。 |
-| [^7] | [A Meta-Learning Method for Estimation of Causal Excursion Effects to Assess Time-Varying Moderation.](http://arxiv.org/abs/2306.16297) | 这项研究介绍了一种元学习方法，用于评估因果偏离效应，以评估干预效果随时间的变化或通过个体特征、环境或过去的反应来调节。目前的数据分析方法需要预先指定观察到的高维历史的特征来构建重要干扰参数的工作模型，而机器学习算法可以自动进行特征构建，但其朴素应用存在问题。 |
-| [^8] | [Efficient distributed representations beyond negative sampling.](http://arxiv.org/abs/2303.17475) | 本文介绍了一种高效的分布式表示（嵌入）学习方法，通过线性时间估计softmax归一化常数来实现学习过程，该方法优于负采样方法并在多项测试中验证了其有效性。 |
+| [^1] | [Taming the Interactive Particle Langevin Algorithm -- the superlinear case](https://arxiv.org/abs/2403.19587) | 我们提出了一种新颖的 tamed interactive particle Langevin algorithms（tIPLA）类算法，能够在多项式增长情况下获得稳定且具有最佳速率的非渐近收敛误差估计。 |
+| [^2] | [Maximum Likelihood Estimation on Stochastic Blockmodels for Directed Graph Clustering](https://arxiv.org/abs/2403.19516) | 本文研究了有向图聚类问题，提出了一种基于有向随机块模型的最大似然估计方法，并引入了两种高效且可解释的有向聚类算法。 |
+| [^3] | [The Complexity of Sequential Prediction in Dynamical Systems](https://arxiv.org/abs/2402.06614) | 通过学习理论的角度，我们在没有参数假设的情况下，研究了在底层演化函数未知的动力系统中学习预测下一状态的问题，并提出了新的组合度量和维度来量化在可实现和不可知情况下的最佳错误和遗憾界限。 |
+| [^4] | [Two Phases of Scaling Laws for Nearest Neighbor Classifiers.](http://arxiv.org/abs/2308.08247) | 最近邻分类器的缩放律可分为两个阶段：第一阶段中，泛化误差多项式地依赖于数据维度并迅速减小；第二阶段中，误差指数地依赖于数据维度并缓慢减小。这表明最近邻分类器在数据分布良好时可以实现泛化误差多项式地依赖于数据维度，而不是指数地依赖于数据维度。 |
+| [^5] | [Why Shallow Networks Struggle with Approximating and Learning High Frequency: A Numerical Study.](http://arxiv.org/abs/2306.17301) | 本文通过数值研究探讨了浅层神经网络在逼近和学习高频率方面的困难，重点是通过分析激活函数的谱分析来理解问题的原因。 |
+| [^6] | [Density Ratio Estimation-based Bayesian Optimization with Semi-Supervised Learning.](http://arxiv.org/abs/2305.15612) | 该论文提出了一种基于密度比估计和半监督学习的贝叶斯优化方法，通过使用监督分类器代替密度比来估计全局最优解的两组数据的类别概率，避免了分类器对全局解决方案过于自信的问题。 |
+| [^7] | [Accelerate Langevin Sampling with Birth-Death process and Exploration Component.](http://arxiv.org/abs/2305.05529) | 该论文提出了一种新的采样方法，在探索新模式和传递有用信息的过程中利用了Birth-Death过程和探索组件，具有高效和指数渐近收敛等优点。 |
 
 # 详细
 
-[^1]: 通过无监督预训练和上下文学习实现高效的运算符学习
+[^1]: 驯服交互式粒子 Langevin 算法 -- 超线性情况
 
-    Data-Efficient Operator Learning via Unsupervised Pretraining and In-Context Learning
+    Taming the Interactive Particle Langevin Algorithm -- the superlinear case
 
-    [https://arxiv.org/abs/2402.15734](https://arxiv.org/abs/2402.15734)
+    [https://arxiv.org/abs/2403.19587](https://arxiv.org/abs/2403.19587)
 
-    该论文提出了一种通过无监督预训练和上下文学习方法实现PDE运算符学习的高效方式，以提高数据效率并改善模型的外域性能。
-
-    
-
-    近年来，人们见证了将机器学习方法与物理领域特定洞察力相结合，以解决基于偏微分方程（PDEs）的科学问题的潜力。然而，由于数据密集，这些方法仍然需要大量PDE数据。 这重新引入了对昂贵的数值PDE解决方案的需求，部分削弱了避免这些昂贵模拟的原始目标。 在这项工作中，为了寻求数据效率，我们设计了用于PDE运算符学习的无监督预训练和上下文学习方法。 为了减少对带有模拟解的训练数据的需求，我们使用基于重构的代理任务在未标记的PDE数据上预训练神经运算符。 为了提高超出分布性能，我们进一步帮助神经运算符灵活地利用上下文学习方法，而无需额外的训练成本或设计。 在各种PD上进行了大量实证评估
-
-    arXiv:2402.15734v1 Announce Type: new  Abstract: Recent years have witnessed the promise of coupling machine learning methods and physical domain-specific insight for solving scientific problems based on partial differential equations (PDEs). However, being data-intensive, these methods still require a large amount of PDE data. This reintroduces the need for expensive numerical PDE solutions, partially undermining the original goal of avoiding these expensive simulations. In this work, seeking data efficiency, we design unsupervised pretraining and in-context learning methods for PDE operator learning. To reduce the need for training data with simulated solutions, we pretrain neural operators on unlabeled PDE data using reconstruction-based proxy tasks. To improve out-of-distribution performance, we further assist neural operators in flexibly leveraging in-context learning methods, without incurring extra training costs or designs. Extensive empirical evaluations on a diverse set of PD
-    
-[^2]: 具有无界和退化噪声的线性系统在线控制
-
-    Online Control of Linear Systems with Unbounded and Degenerate Noise
-
-    [https://arxiv.org/abs/2402.10252](https://arxiv.org/abs/2402.10252)
-
-    这项研究揭示了在线控制问题中，对于凸成本，可以实现 $ \widetilde{O}(\sqrt{T}) $ 的遗憾界，甚至在存在无界噪声的情况下；同时，在成本具有强凸性时，可以在不需要噪声协方差是非退化的情况下建立 $ O({\rm poly} (\log T)) $ 的遗憾界。
+    我们提出了一种新颖的 tamed interactive particle Langevin algorithms（tIPLA）类算法，能够在多项式增长情况下获得稳定且具有最佳速率的非渐近收敛误差估计。
 
     
 
-    本文研究了在可能存在无界和退化噪声的情况下控制线性系统的问题，其中成本函数未知，被称为在线控制问题。与现有的仅假设噪声有界性的研究不同，我们揭示了对于凸成本，即使在存在无界噪声的情况下也可以实现 $ \widetilde{O}(\sqrt{T}) $ 的遗憾界，其中 $ T $ 表示时间跨度。此外，当成本具有强凸性时，我们建立了一个 $ O({\rm poly} (\log T)) $ 的遗憾界，而不需要噪声协方差是非退化的假设，这在文献中是必需的。消除噪声秩的关键是与噪声协方差相关联的系统转化。这同时实现了在线控制算法的参数减少。
+    最近在随机优化方面的进展产生了交互式粒子 Langevin 算法（IPLA），该算法利用交互粒子系统（IPS）的概念来高效地从近似后验密度中抽样。这在期望最大化（EM）框架中变得尤为关键，其中 E 步骤在计算上具有挑战性甚至是难以处理的。尽管先前的研究侧重于梯度最多线性增长的凸情况，我们的工作将此框架扩展到包括多项式增长。采用驯服技术生成明确的离散化方案，从而产生一类稳定的、在这种非线性情况下，称为驯服交互式粒子 Langevin 算法（tIPLA）的算法。我们获得了新类在 Wasserstein-2 距离下的非渐近收敛误差估计，具有最佳速率。
 
-    arXiv:2402.10252v1 Announce Type: cross  Abstract: This paper investigates the problem of controlling a linear system under possibly unbounded and degenerate noise with unknown cost functions, known as an online control problem. In contrast to the existing work, which assumes the boundedness of noise, we reveal that for convex costs, an $ \widetilde{O}(\sqrt{T}) $ regret bound can be achieved even for unbounded noise, where $ T $ denotes the time horizon. Moreover, when the costs are strongly convex, we establish an $ O({\rm poly} (\log T)) $ regret bound without the assumption that noise covariance is non-degenerate, which has been required in the literature. The key ingredient in removing the rank assumption on noise is a system transformation associated with the noise covariance. This simultaneously enables the parameter reduction of an online control algorithm.
+    arXiv:2403.19587v1 Announce Type: cross  Abstract: Recent advances in stochastic optimization have yielded the interactive particle Langevin algorithm (IPLA), which leverages the notion of interacting particle systems (IPS) to efficiently sample from approximate posterior densities. This becomes particularly crucial within the framework of Expectation-Maximization (EM), where the E-step is computationally challenging or even intractable. Although prior research has focused on scenarios involving convex cases with gradients of log densities that grow at most linearly, our work extends this framework to include polynomial growth. Taming techniques are employed to produce an explicit discretization scheme that yields a new class of stable, under such non-linearities, algorithms which are called tamed interactive particle Langevin algorithms (tIPLA). We obtain non-asymptotic convergence error estimates in Wasserstein-2 distance for the new class under an optimal rate.
     
-[^3]: 通过分数阻尼库仑方程证明重尾SDEs的泛化界限
+[^2]: 针对有向图聚类问题的随机块模型最大似然估计
 
-    Generalization Bounds for Heavy-Tailed SDEs through the Fractional Fokker-Planck Equation
+    Maximum Likelihood Estimation on Stochastic Blockmodels for Directed Graph Clustering
 
-    [https://arxiv.org/abs/2402.07723](https://arxiv.org/abs/2402.07723)
+    [https://arxiv.org/abs/2403.19516](https://arxiv.org/abs/2403.19516)
 
-    本论文通过分数阻尼库仑方程证明了重尾SDE的高概率泛化界限，并且相对于参数维度，界限的依赖性要好于p。
-
-    
-
-    过去几年来，理解重尾随机优化算法的泛化性能引起了越来越多的关注。在利用重尾随机微分方程作为代理来阐明随机优化器的有趣方面时，先前的工作要么提供预期的泛化界限，要么引入了不可计算的信息论术语。为了解决这些缺点，在本文中，我们证明了重尾SDE的高概率泛化界限，这些界限不含任何非平凡的信息论术语。为了实现这个目标，我们基于估计与所谓的分数阻尼库仑方程相关联的熵流，开发了新的证明技术（这是一种控制相应重尾SDE分布演化的偏微分方程）。除了获得高概率界限之外，我们还展示了我们的界限相对于参数维度的依赖性要好于p。
-
-    Understanding the generalization properties of heavy-tailed stochastic optimization algorithms has attracted increasing attention over the past years. While illuminating interesting aspects of stochastic optimizers by using heavy-tailed stochastic differential equations as proxies, prior works either provided expected generalization bounds, or introduced non-computable information theoretic terms. Addressing these drawbacks, in this work, we prove high-probability generalization bounds for heavy-tailed SDEs which do not contain any nontrivial information theoretic terms. To achieve this goal, we develop new proof techniques based on estimating the entropy flows associated with the so-called fractional Fokker-Planck equation (a partial differential equation that governs the evolution of the distribution of the corresponding heavy-tailed SDE). In addition to obtaining high-probability bounds, we show that our bounds have a better dependence on the dimension of parameters as compared to p
-    
-[^4]: 关于深度分类器的校准和符合预测研究
-
-    On Calibration and Conformal Prediction of Deep Classifiers
-
-    [https://arxiv.org/abs/2402.05806](https://arxiv.org/abs/2402.05806)
-
-    本文研究了温度缩放对符合预测方法的影响，通过实证研究发现，校准对自适应C方法产生了有害的影响。
+    本文研究了有向图聚类问题，提出了一种基于有向随机块模型的最大似然估计方法，并引入了两种高效且可解释的有向聚类算法。
 
     
 
-    在许多分类应用中，深度神经网络（DNN）基于分类器的预测需要伴随一些置信度指示。针对这个目标，有两种流行的后处理方法：1）校准：修改分类器的softmax值，使其最大值（与预测相关）更好地估计正确概率；和2）符合预测（CP）：设计一个基于softmax值的分数，从中产生一组预测，具有理论上保证正确类别边际覆盖的特性。尽管在实践中两种指示都可能是需要的，但到目前为止它们之间的相互作用尚未得到研究。为了填补这一空白，在本文中，我们研究了温度缩放，这是最常见的校准技术，对重要的CP方法的影响。我们首先进行了一项广泛的实证研究，其中显示了一些重要的洞察，其中包括令人惊讶的发现，即校准对流行的自适应C方法产生了有害的影响。
+    本文通过统计学的视角研究了有向图聚类问题，将聚类问题建模为有向随机块模型（DSBM）中潜在社区的估计。我们对DSBM进行最大似然估计（MLE），从而确定给定观察到的图结构时最可能的社区分配。除了统计观点外，我们进一步建立了这种MLE公式与一种新颖的流优化启发式之间的等价性，该启发式同时考虑了两个重要的有向图统计量：边密度和边方向。基于这种有向聚类的新公式，我们引入了两种高效且可解释的有向聚类算法，分别是谱聚类算法和基于半定规划的聚类算法。我们为谱聚类算法的错误聚类顶点数提供了一个理论上界。
 
-    In many classification applications, the prediction of a deep neural network (DNN) based classifier needs to be accompanied with some confidence indication. Two popular post-processing approaches for that aim are: 1) calibration: modifying the classifier's softmax values such that their maximum (associated with the prediction) better estimates the correctness probability; and 2) conformal prediction (CP): devising a score (based on the softmax values) from which a set of predictions with theoretically guaranteed marginal coverage of the correct class is produced. While in practice both types of indications can be desired, so far the interplay between them has not been investigated. Toward filling this gap, in this paper we study the effect of temperature scaling, arguably the most common calibration technique, on prominent CP methods. We start with an extensive empirical study that among other insights shows that, surprisingly, calibration has a detrimental effect on popular adaptive C
+    arXiv:2403.19516v1 Announce Type: cross  Abstract: This paper studies the directed graph clustering problem through the lens of statistics, where we formulate clustering as estimating underlying communities in the directed stochastic block model (DSBM). We conduct the maximum likelihood estimation (MLE) on the DSBM and thereby ascertain the most probable community assignment given the observed graph structure. In addition to the statistical point of view, we further establish the equivalence between this MLE formulation and a novel flow optimization heuristic, which jointly considers two important directed graph statistics: edge density and edge orientation. Building on this new formulation of directed clustering, we introduce two efficient and interpretable directed clustering algorithms, a spectral clustering algorithm and a semidefinite programming based clustering algorithm. We provide a theoretical upper bound on the number of misclustered vertices of the spectral clustering algor
     
-[^5]: 分布无关推断二元分类的回归函数
+[^3]: 动力系统中顺序预测的复杂性研究
 
-    Distribution-Free Inference for the Regression Function of Binary Classification. (arXiv:2308.01835v1 [stat.ML])
+    The Complexity of Sequential Prediction in Dynamical Systems
 
-    [http://arxiv.org/abs/2308.01835](http://arxiv.org/abs/2308.01835)
+    [https://arxiv.org/abs/2402.06614](https://arxiv.org/abs/2402.06614)
 
-    本文提出了一种分布无关的方法来推断二元分类问题中的回归函数，通过构建置信区间来解决该问题，相关算法经过验证具有可靠性。
-
-    
-
-    二元分类的一个关键对象是回归函数，即给定输入的类别标签的条件期望。通过回归函数，不仅可以定义贝叶斯最优分类器，还可以编码对应的错误分类概率。本文提出了一种重采样框架，用于构建精确、分布无关且非渐近保证的真实回归函数的置信区间，根据用户选择的置信水平。然后，提出了特定的算法来演示该框架。证明了构建的置信区间是强一致的，也就是说，任何错误的模型最终被排除的概率为1。排除的程度也通过可能近似正确类型的界限进行了量化。最后，通过数值实验验证了算法，并将方法与近似渐近置信椭圆进行了比较。
-
-    One of the key objects of binary classification is the regression function, i.e., the conditional expectation of the class labels given the inputs. With the regression function not only a Bayes optimal classifier can be defined, but it also encodes the corresponding misclassification probabilities. The paper presents a resampling framework to construct exact, distribution-free and non-asymptotically guaranteed confidence regions for the true regression function for any user-chosen confidence level. Then, specific algorithms are suggested to demonstrate the framework. It is proved that the constructed confidence regions are strongly consistent, that is, any false model is excluded in the long run with probability one. The exclusion is quantified with probably approximately correct type bounds, as well. Finally, the algorithms are validated via numerical experiments, and the methods are compared to approximate asymptotic confidence ellipsoids.
-    
-[^6]: 基于核的$\epsilon$-贪心策略在情境脉冲中的应用
-
-    Kernel $\epsilon$-Greedy for Contextual Bandits. (arXiv:2306.17329v1 [stat.ML])
-
-    [http://arxiv.org/abs/2306.17329](http://arxiv.org/abs/2306.17329)
-
-    本文提出了基于核的$\epsilon$-贪心策略应用于情境脉冲中的方法，通过在线加权核岭回归估计器实现对奖励函数的估计，并证明了其一致性和依赖于RKHS维度的次线性后悔率，在有限维RKHS的边际条件下实现了最优后悔率。
+    通过学习理论的角度，我们在没有参数假设的情况下，研究了在底层演化函数未知的动力系统中学习预测下一状态的问题，并提出了新的组合度量和维度来量化在可实现和不可知情况下的最佳错误和遗憾界限。
 
     
 
-    我们考虑了情境脉冲中的基于核的$\epsilon$-贪心策略。更具体地说，在有限数量的臂的情况下，我们认为平均奖励函数位于再生核希尔伯特空间（RKHS）中。我们提出了一种用于奖励函数的在线加权核岭回归估计器。在对探索概率序列$\{\epsilon_t\}_t$和正则化参数$\{\lambda_t\}_t$的一些条件下，我们证明了所提出的估计器的一致性。我们还证明，对于任何核和相应的RKHS的选择，我们可以实现依赖于RKHS内在维度的次线性后悔率。此外，在有限维RKHS的边际条件下，我们实现了$\sqrt{T}$的最优后悔率。
+    我们研究了在底层演化函数未知的情况下学习预测动力系统下一状态的问题。与以前的工作不同，我们对动力系统没有参数假设，并从学习理论的角度研究了该问题。我们定义了新的组合度量和维度，并证明它们量化了在可实现和不可知情况下的最佳错误和遗憾界限。
 
-    We consider a kernelized version of the $\epsilon$-greedy strategy for contextual bandits. More precisely, in a setting with finitely many arms, we consider that the mean reward functions lie in a reproducing kernel Hilbert space (RKHS). We propose an online weighted kernel ridge regression estimator for the reward functions. Under some conditions on the exploration probability sequence, $\{\epsilon_t\}_t$, and choice of the regularization parameter, $\{\lambda_t\}_t$, we show that the proposed estimator is consistent. We also show that for any choice of kernel and the corresponding RKHS, we achieve a sub-linear regret rate depending on the intrinsic dimensionality of the RKHS. Furthermore, we achieve the optimal regret rate of $\sqrt{T}$ under a margin condition for finite-dimensional RKHS.
+    We study the problem of learning to predict the next state of a dynamical system when the underlying evolution function is unknown. Unlike previous work, we place no parametric assumptions on the dynamical system, and study the problem from a learning theory perspective. We define new combinatorial measures and dimensions and show that they quantify the optimal mistake and regret bounds in the realizable and agnostic setting respectively.
     
-[^7]: 一种用于评估时变调节因素的因果偏离效应估计的元学习方法
+[^4]: 最近邻分类器的两个阶段的缩放律
 
-    A Meta-Learning Method for Estimation of Causal Excursion Effects to Assess Time-Varying Moderation. (arXiv:2306.16297v1 [stat.ME])
+    Two Phases of Scaling Laws for Nearest Neighbor Classifiers. (arXiv:2308.08247v1 [stat.ML])
 
-    [http://arxiv.org/abs/2306.16297](http://arxiv.org/abs/2306.16297)
+    [http://arxiv.org/abs/2308.08247](http://arxiv.org/abs/2308.08247)
 
-    这项研究介绍了一种元学习方法，用于评估因果偏离效应，以评估干预效果随时间的变化或通过个体特征、环境或过去的反应来调节。目前的数据分析方法需要预先指定观察到的高维历史的特征来构建重要干扰参数的工作模型，而机器学习算法可以自动进行特征构建，但其朴素应用存在问题。
-
-    
-
-    可穿戴技术和智能手机提供的数字化健康干预的双重革命显著增加了移动健康（mHealth）干预在各个健康科学领域的可及性和采纳率。顺序随机实验称为微随机试验（MRTs）已经越来越受欢迎，用于实证评估这些mHealth干预组成部分的有效性。MRTs产生了一类新的因果估计量，称为“因果偏离效应”，使健康科学家能够评估干预效果随时间的变化或通过个体特征、环境或过去的反应来调节。然而，目前用于估计因果偏离效应的数据分析方法需要预先指定观察到的高维历史的特征来构建重要干扰参数的工作模型。虽然机器学习算法在自动特征构建方面具有优势，但其朴素应用导致了问题。
-
-    Twin revolutions in wearable technologies and smartphone-delivered digital health interventions have significantly expanded the accessibility and uptake of mobile health (mHealth) interventions across various health science domains. Sequentially randomized experiments called micro-randomized trials (MRTs) have grown in popularity to empirically evaluate the effectiveness of these mHealth intervention components. MRTs have given rise to a new class of causal estimands known as "causal excursion effects", which enable health scientists to assess how intervention effectiveness changes over time or is moderated by individual characteristics, context, or responses in the past. However, current data analysis methods for estimating causal excursion effects require pre-specified features of the observed high-dimensional history to construct a working model of an important nuisance parameter. While machine learning algorithms are ideal for automatic feature construction, their naive application
-    
-[^8]: 超越负采样的高效分布式表示方法
-
-    Efficient distributed representations beyond negative sampling. (arXiv:2303.17475v1 [cs.LG])
-
-    [http://arxiv.org/abs/2303.17475](http://arxiv.org/abs/2303.17475)
-
-    本文介绍了一种高效的分布式表示（嵌入）学习方法，通过线性时间估计softmax归一化常数来实现学习过程，该方法优于负采样方法并在多项测试中验证了其有效性。
+    最近邻分类器的缩放律可分为两个阶段：第一阶段中，泛化误差多项式地依赖于数据维度并迅速减小；第二阶段中，误差指数地依赖于数据维度并缓慢减小。这表明最近邻分类器在数据分布良好时可以实现泛化误差多项式地依赖于数据维度，而不是指数地依赖于数据维度。
 
     
 
-    本文介绍了一种高效的学习分布式表示（也称为嵌入）的方法。该方法通过最小化一个类似于Word2Vec算法中引入并在多个工作中采用的目标函数来实现。优化计算的瓶颈是softmax归一化常数的计算，这需要与样本大小呈二次比例的操作数。这种复杂度不适用于大型数据集，所以负采样是一个常见的解决方法，可以在与样本大小线性相关的时间内获得分布式表示。然而，负采样会改变损失函数，因此解决的是与最初提出的不同的优化问题。我们的贡献在于展示如何通过线性时间估计softmax归一化常数，从而设计了一种有效的优化策略来学习分布式表示。我们使用不同的数据集进行测试，并展示了我们的方法在嵌入质量和训练时间方面优于负采样。
+    缩放律是指当训练数据数量增加时，模型的测试性能会提高的观察结果。快速的缩放律意味着通过增加数据和模型大小就能解决机器学习问题。然而，在许多情况下，增加更多数据的好处可能是微不足道的。在本研究中，我们研究了最近邻分类器的缩放律。我们发现缩放律可能有两个阶段：在第一阶段，泛化误差多项式地依赖于数据维度并且快速减小；而在第二阶段，误差指数地依赖于数据维度并且减小得慢。我们的分析突显了数据分布在决定泛化误差中的复杂性。当数据分布良好时，我们的结果表明最近邻分类器可以实现泛化误差多项式地依赖于数据维度，而不是指数地依赖于数据维度。
 
-    This article describes an efficient method to learn distributed representations, also known as embeddings. This is accomplished minimizing an objective function similar to the one introduced in the Word2Vec algorithm and later adopted in several works. The optimization computational bottleneck is the calculation of the softmax normalization constants for which a number of operations scaling quadratically with the sample size is required. This complexity is unsuited for large datasets and negative sampling is a popular workaround, allowing one to obtain distributed representations in linear time with respect to the sample size. Negative sampling consists, however, in a change of the loss function and hence solves a different optimization problem from the one originally proposed. Our contribution is to show that the sotfmax normalization constants can be estimated in linear time, allowing us to design an efficient optimization strategy to learn distributed representations. We test our ap
+    A scaling law refers to the observation that the test performance of a model improves as the number of training data increases. A fast scaling law implies that one can solve machine learning problems by simply boosting the data and the model sizes. Yet, in many cases, the benefit of adding more data can be negligible. In this work, we study the rate of scaling laws of nearest neighbor classifiers. We show that a scaling law can have two phases: in the first phase, the generalization error depends polynomially on the data dimension and decreases fast; whereas in the second phase, the error depends exponentially on the data dimension and decreases slowly. Our analysis highlights the complexity of the data distribution in determining the generalization error. When the data distributes benignly, our result suggests that nearest neighbor classifier can achieve a generalization error that depends polynomially, instead of exponentially, on the data dimension.
+    
+[^5]: 浅层网络在逼近和学习高频率方面的困难：一个数值研究
+
+    Why Shallow Networks Struggle with Approximating and Learning High Frequency: A Numerical Study. (arXiv:2306.17301v1 [cs.LG])
+
+    [http://arxiv.org/abs/2306.17301](http://arxiv.org/abs/2306.17301)
+
+    本文通过数值研究探讨了浅层神经网络在逼近和学习高频率方面的困难，重点是通过分析激活函数的谱分析来理解问题的原因。
+
+    
+
+    本研究通过对分析和实验的综合数值研究，解释了为什么两层神经网络在机器精度和计算成本等实际因素中，处理高频率的逼近和学习存在困难。具体而言，研究了以下基本计算问题：（1）在有限的机器精度下可以达到的最佳精度，（2）实现给定精度所需的计算成本，以及（3）对扰动的稳定性。研究的关键是相应激活函数的格拉姆矩阵的谱分析，该分析还显示了激活函数属性在这个问题中的作用。
+
+    In this work, a comprehensive numerical study involving analysis and experiments shows why a two-layer neural network has difficulties handling high frequencies in approximation and learning when machine precision and computation cost are important factors in real practice. In particular, the following fundamental computational issues are investigated: (1) the best accuracy one can achieve given a finite machine precision, (2) the computation cost to achieve a given accuracy, and (3) stability with respect to perturbations. The key to the study is the spectral analysis of the corresponding Gram matrix of the activation functions which also shows how the properties of the activation function play a role in the picture.
+    
+[^6]: 基于密度比估计的半监督学习贝叶斯优化
+
+    Density Ratio Estimation-based Bayesian Optimization with Semi-Supervised Learning. (arXiv:2305.15612v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.15612](http://arxiv.org/abs/2305.15612)
+
+    该论文提出了一种基于密度比估计和半监督学习的贝叶斯优化方法，通过使用监督分类器代替密度比来估计全局最优解的两组数据的类别概率，避免了分类器对全局解决方案过于自信的问题。
+
+    
+
+    贝叶斯优化在科学与工程的多个领域受到了广泛关注，因为它能高效地找到昂贵黑盒函数的全局最优解。通常，一个概率回归模型，如高斯过程、随机森林和贝叶斯神经网络，被广泛用作替代函数，用于模拟在给定输入和训练数据集的情况下函数评估的显式分布。除了基于概率回归的贝叶斯优化，基于密度比估计的贝叶斯优化已被提出来估计相对于全局最优解相对接近和相对远离的两组密度比。为了进一步发展这一研究，可以使用监督分类器来估计这两组的类别概率，而不是密度比。然而，此策略中使用的监督分类器倾向于对全局解决方案过于自信。
+
+    Bayesian optimization has attracted huge attention from diverse research areas in science and engineering, since it is capable of finding a global optimum of an expensive-to-evaluate black-box function efficiently. In general, a probabilistic regression model, e.g., Gaussian processes, random forests, and Bayesian neural networks, is widely used as a surrogate function to model an explicit distribution over function evaluations given an input to estimate and a training dataset. Beyond the probabilistic regression-based Bayesian optimization, density ratio estimation-based Bayesian optimization has been suggested in order to estimate a density ratio of the groups relatively close and relatively far to a global optimum. Developing this line of research further, a supervised classifier can be employed to estimate a class probability for the two groups instead of a density ratio. However, the supervised classifiers used in this strategy tend to be overconfident for a global solution candid
+    
+[^7]: 利用Birth-Death 过程和探索组件加速Langevin采样
+
+    Accelerate Langevin Sampling with Birth-Death process and Exploration Component. (arXiv:2305.05529v1 [stat.CO])
+
+    [http://arxiv.org/abs/2305.05529](http://arxiv.org/abs/2305.05529)
+
+    该论文提出了一种新的采样方法，在探索新模式和传递有用信息的过程中利用了Birth-Death过程和探索组件，具有高效和指数渐近收敛等优点。
+
+    
+
+    在计算科学和工程中，采样已知概率分布是一项基本任务。针对多峰性，我们提出了一种新的采样方法，利用了Birth-Death过程和探索组件。该方法的主要思想是“三思而后行”。我们保留两组采样器，一组在较高温度下，一组在原始温度下。前者作为探索新模式和将有用信息传递给后者的先驱，后者在接收信息后对目标分布进行采样。我们推导了均场极限，并展示了探索过程如何决定采样效率。此外，在温和假设下，我们证明了指数渐近收敛。最后，我们对以前文献中的实验进行了测试，并将我们的方法与以前的方法进行了比较。
+
+    Sampling a probability distribution with known likelihood is a fundamental task in computational science and engineering. Aiming at multimodality, we propose a new sampling method that takes advantage of both birth-death process and exploration component. The main idea of this method is \textit{look before you leap}. We keep two sets of samplers, one at warmer temperature and one at original temperature. The former one serves as pioneer in exploring new modes and passing useful information to the other, while the latter one samples the target distribution after receiving the information. We derive a mean-field limit and show how the exploration process determines sampling efficiency. Moreover, we prove exponential asymptotic convergence under mild assumption. Finally, we test on experiments from previous literature and compared our methodology to previous ones.
     
 
