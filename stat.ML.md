@@ -2,112 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Taming the Interactive Particle Langevin Algorithm -- the superlinear case](https://arxiv.org/abs/2403.19587) | 我们提出了一种新颖的 tamed interactive particle Langevin algorithms（tIPLA）类算法，能够在多项式增长情况下获得稳定且具有最佳速率的非渐近收敛误差估计。 |
-| [^2] | [Maximum Likelihood Estimation on Stochastic Blockmodels for Directed Graph Clustering](https://arxiv.org/abs/2403.19516) | 本文研究了有向图聚类问题，提出了一种基于有向随机块模型的最大似然估计方法，并引入了两种高效且可解释的有向聚类算法。 |
-| [^3] | [The Complexity of Sequential Prediction in Dynamical Systems](https://arxiv.org/abs/2402.06614) | 通过学习理论的角度，我们在没有参数假设的情况下，研究了在底层演化函数未知的动力系统中学习预测下一状态的问题，并提出了新的组合度量和维度来量化在可实现和不可知情况下的最佳错误和遗憾界限。 |
-| [^4] | [Two Phases of Scaling Laws for Nearest Neighbor Classifiers.](http://arxiv.org/abs/2308.08247) | 最近邻分类器的缩放律可分为两个阶段：第一阶段中，泛化误差多项式地依赖于数据维度并迅速减小；第二阶段中，误差指数地依赖于数据维度并缓慢减小。这表明最近邻分类器在数据分布良好时可以实现泛化误差多项式地依赖于数据维度，而不是指数地依赖于数据维度。 |
-| [^5] | [Why Shallow Networks Struggle with Approximating and Learning High Frequency: A Numerical Study.](http://arxiv.org/abs/2306.17301) | 本文通过数值研究探讨了浅层神经网络在逼近和学习高频率方面的困难，重点是通过分析激活函数的谱分析来理解问题的原因。 |
-| [^6] | [Density Ratio Estimation-based Bayesian Optimization with Semi-Supervised Learning.](http://arxiv.org/abs/2305.15612) | 该论文提出了一种基于密度比估计和半监督学习的贝叶斯优化方法，通过使用监督分类器代替密度比来估计全局最优解的两组数据的类别概率，避免了分类器对全局解决方案过于自信的问题。 |
-| [^7] | [Accelerate Langevin Sampling with Birth-Death process and Exploration Component.](http://arxiv.org/abs/2305.05529) | 该论文提出了一种新的采样方法，在探索新模式和传递有用信息的过程中利用了Birth-Death过程和探索组件，具有高效和指数渐近收敛等优点。 |
+| [^1] | [Online model error correction with neural networks: application to the Integrated Forecasting System](https://arxiv.org/abs/2403.03702) | 使用神经网络为欧洲中程气象中心的集成预测系统开发模型误差校正，以解决机器学习天气预报模型在表示动力平衡和适用于数据同化实验方面的挑战。 |
+| [^2] | [Batched Nonparametric Contextual Bandits](https://arxiv.org/abs/2402.17732) | 该论文研究了批处理约束下的非参数上下文臂问题，提出了一种名为BaSEDB的方案，在动态分割协变量空间的同时，实现了最优的后悔。 |
+| [^3] | [Understanding the Training Speedup from Sampling with Approximate Losses](https://arxiv.org/abs/2402.07052) | 本文研究利用近似损失进行样本采样的训练加速方法，通过贪婪策略选择具有大约损失的样本，减少选择的开销，并证明其收敛速度优于随机选择。同时开发了使用中间层表示获取近似损失的SIFT方法，并在训练BERT模型上取得了显著的提升。 |
+| [^4] | [Learning Two-Layer Neural Networks, One (Giant) Step at a Time.](http://arxiv.org/abs/2305.18270) | 本文研究了浅层神经网络的训练动态及其条件，证明了动态下梯度下降可以通过有限数量的大批量梯度下降步骤来促进特征学习，并找到了多个和单一方向的最佳批量大小，有助于促进特征学习和方向的专业化。 |
 
 # 详细
 
-[^1]: 驯服交互式粒子 Langevin 算法 -- 超线性情况
+[^1]: 在线模型误差校正与神经网络: 应用于集成预测系统
 
-    Taming the Interactive Particle Langevin Algorithm -- the superlinear case
+    Online model error correction with neural networks: application to the Integrated Forecasting System
 
-    [https://arxiv.org/abs/2403.19587](https://arxiv.org/abs/2403.19587)
+    [https://arxiv.org/abs/2403.03702](https://arxiv.org/abs/2403.03702)
 
-    我们提出了一种新颖的 tamed interactive particle Langevin algorithms（tIPLA）类算法，能够在多项式增长情况下获得稳定且具有最佳速率的非渐近收敛误差估计。
-
-    
-
-    最近在随机优化方面的进展产生了交互式粒子 Langevin 算法（IPLA），该算法利用交互粒子系统（IPS）的概念来高效地从近似后验密度中抽样。这在期望最大化（EM）框架中变得尤为关键，其中 E 步骤在计算上具有挑战性甚至是难以处理的。尽管先前的研究侧重于梯度最多线性增长的凸情况，我们的工作将此框架扩展到包括多项式增长。采用驯服技术生成明确的离散化方案，从而产生一类稳定的、在这种非线性情况下，称为驯服交互式粒子 Langevin 算法（tIPLA）的算法。我们获得了新类在 Wasserstein-2 距离下的非渐近收敛误差估计，具有最佳速率。
-
-    arXiv:2403.19587v1 Announce Type: cross  Abstract: Recent advances in stochastic optimization have yielded the interactive particle Langevin algorithm (IPLA), which leverages the notion of interacting particle systems (IPS) to efficiently sample from approximate posterior densities. This becomes particularly crucial within the framework of Expectation-Maximization (EM), where the E-step is computationally challenging or even intractable. Although prior research has focused on scenarios involving convex cases with gradients of log densities that grow at most linearly, our work extends this framework to include polynomial growth. Taming techniques are employed to produce an explicit discretization scheme that yields a new class of stable, under such non-linearities, algorithms which are called tamed interactive particle Langevin algorithms (tIPLA). We obtain non-asymptotic convergence error estimates in Wasserstein-2 distance for the new class under an optimal rate.
-    
-[^2]: 针对有向图聚类问题的随机块模型最大似然估计
-
-    Maximum Likelihood Estimation on Stochastic Blockmodels for Directed Graph Clustering
-
-    [https://arxiv.org/abs/2403.19516](https://arxiv.org/abs/2403.19516)
-
-    本文研究了有向图聚类问题，提出了一种基于有向随机块模型的最大似然估计方法，并引入了两种高效且可解释的有向聚类算法。
+    使用神经网络为欧洲中程气象中心的集成预测系统开发模型误差校正，以解决机器学习天气预报模型在表示动力平衡和适用于数据同化实验方面的挑战。
 
     
 
-    本文通过统计学的视角研究了有向图聚类问题，将聚类问题建模为有向随机块模型（DSBM）中潜在社区的估计。我们对DSBM进行最大似然估计（MLE），从而确定给定观察到的图结构时最可能的社区分配。除了统计观点外，我们进一步建立了这种MLE公式与一种新颖的流优化启发式之间的等价性，该启发式同时考虑了两个重要的有向图统计量：边密度和边方向。基于这种有向聚类的新公式，我们引入了两种高效且可解释的有向聚类算法，分别是谱聚类算法和基于半定规划的聚类算法。我们为谱聚类算法的错误聚类顶点数提供了一个理论上界。
+    最近几年，在全球数值天气预报模型的完全数据驱动开发方面取得了显著进展。这些机器学习天气预报模型具有其优势，尤其是准确性和较低的计算需求，但也存在其弱点：它们难以表示基本动力平衡，并且远未适用于资料同化实验。混合建模出现为解决这些限制的一种有希望的方法。混合模型将基于物理的核心组件与统计组件（通常是神经网络）集成在一起，以增强预测能力。在本文中，我们提出使用神经网络为欧洲中程气象中心的运行集成预测系统（IFS）开发模型误差校正。神经网络最初会离线进行预训练，使用大量运行分析数据集
 
-    arXiv:2403.19516v1 Announce Type: cross  Abstract: This paper studies the directed graph clustering problem through the lens of statistics, where we formulate clustering as estimating underlying communities in the directed stochastic block model (DSBM). We conduct the maximum likelihood estimation (MLE) on the DSBM and thereby ascertain the most probable community assignment given the observed graph structure. In addition to the statistical point of view, we further establish the equivalence between this MLE formulation and a novel flow optimization heuristic, which jointly considers two important directed graph statistics: edge density and edge orientation. Building on this new formulation of directed clustering, we introduce two efficient and interpretable directed clustering algorithms, a spectral clustering algorithm and a semidefinite programming based clustering algorithm. We provide a theoretical upper bound on the number of misclustered vertices of the spectral clustering algor
+    arXiv:2403.03702v1 Announce Type: cross  Abstract: In recent years, there has been significant progress in the development of fully data-driven global numerical weather prediction models. These machine learning weather prediction models have their strength, notably accuracy and low computational requirements, but also their weakness: they struggle to represent fundamental dynamical balances, and they are far from being suitable for data assimilation experiments. Hybrid modelling emerges as a promising approach to address these limitations. Hybrid models integrate a physics-based core component with a statistical component, typically a neural network, to enhance prediction capabilities. In this article, we propose to develop a model error correction for the operational Integrated Forecasting System (IFS) of the European Centre for Medium-Range Weather Forecasts using a neural network. The neural network is initially pre-trained offline using a large dataset of operational analyses and a
     
-[^3]: 动力系统中顺序预测的复杂性研究
+[^2]: 批处理非参数上下文臂
 
-    The Complexity of Sequential Prediction in Dynamical Systems
+    Batched Nonparametric Contextual Bandits
 
-    [https://arxiv.org/abs/2402.06614](https://arxiv.org/abs/2402.06614)
+    [https://arxiv.org/abs/2402.17732](https://arxiv.org/abs/2402.17732)
 
-    通过学习理论的角度，我们在没有参数假设的情况下，研究了在底层演化函数未知的动力系统中学习预测下一状态的问题，并提出了新的组合度量和维度来量化在可实现和不可知情况下的最佳错误和遗憾界限。
-
-    
-
-    我们研究了在底层演化函数未知的情况下学习预测动力系统下一状态的问题。与以前的工作不同，我们对动力系统没有参数假设，并从学习理论的角度研究了该问题。我们定义了新的组合度量和维度，并证明它们量化了在可实现和不可知情况下的最佳错误和遗憾界限。
-
-    We study the problem of learning to predict the next state of a dynamical system when the underlying evolution function is unknown. Unlike previous work, we place no parametric assumptions on the dynamical system, and study the problem from a learning theory perspective. We define new combinatorial measures and dimensions and show that they quantify the optimal mistake and regret bounds in the realizable and agnostic setting respectively.
-    
-[^4]: 最近邻分类器的两个阶段的缩放律
-
-    Two Phases of Scaling Laws for Nearest Neighbor Classifiers. (arXiv:2308.08247v1 [stat.ML])
-
-    [http://arxiv.org/abs/2308.08247](http://arxiv.org/abs/2308.08247)
-
-    最近邻分类器的缩放律可分为两个阶段：第一阶段中，泛化误差多项式地依赖于数据维度并迅速减小；第二阶段中，误差指数地依赖于数据维度并缓慢减小。这表明最近邻分类器在数据分布良好时可以实现泛化误差多项式地依赖于数据维度，而不是指数地依赖于数据维度。
+    该论文研究了批处理约束下的非参数上下文臂问题，提出了一种名为BaSEDB的方案，在动态分割协变量空间的同时，实现了最优的后悔。
 
     
 
-    缩放律是指当训练数据数量增加时，模型的测试性能会提高的观察结果。快速的缩放律意味着通过增加数据和模型大小就能解决机器学习问题。然而，在许多情况下，增加更多数据的好处可能是微不足道的。在本研究中，我们研究了最近邻分类器的缩放律。我们发现缩放律可能有两个阶段：在第一阶段，泛化误差多项式地依赖于数据维度并且快速减小；而在第二阶段，误差指数地依赖于数据维度并且减小得慢。我们的分析突显了数据分布在决定泛化误差中的复杂性。当数据分布良好时，我们的结果表明最近邻分类器可以实现泛化误差多项式地依赖于数据维度，而不是指数地依赖于数据维度。
+    我们研究了在批处理约束下的非参数上下文臂问题，在这种情况下，每个动作的期望奖励被建模为协变量的平滑函数，并且策略更新是在每个Observations批次结束时进行的。我们为这种设置建立了一个最小化后悔的下限，并提出了一种名为Batched Successive Elimination with Dynamic Binning（BaSEDB）的方案，可以实现最优的后悔（达到对数因子）。实质上，BaSEDB动态地将协变量空间分割成更小的箱子，并仔细调整它们的宽度以符合批次大小。我们还展示了在批处理约束下静态分箱的非最优性，突出了动态分箱的必要性。另外，我们的结果表明，在完全在线设置中，几乎恒定数量的策略更新可以达到最佳后悔。
 
-    A scaling law refers to the observation that the test performance of a model improves as the number of training data increases. A fast scaling law implies that one can solve machine learning problems by simply boosting the data and the model sizes. Yet, in many cases, the benefit of adding more data can be negligible. In this work, we study the rate of scaling laws of nearest neighbor classifiers. We show that a scaling law can have two phases: in the first phase, the generalization error depends polynomially on the data dimension and decreases fast; whereas in the second phase, the error depends exponentially on the data dimension and decreases slowly. Our analysis highlights the complexity of the data distribution in determining the generalization error. When the data distributes benignly, our result suggests that nearest neighbor classifier can achieve a generalization error that depends polynomially, instead of exponentially, on the data dimension.
+    arXiv:2402.17732v1 Announce Type: cross  Abstract: We study nonparametric contextual bandits under batch constraints, where the expected reward for each action is modeled as a smooth function of covariates, and the policy updates are made at the end of each batch of observations. We establish a minimax regret lower bound for this setting and propose Batched Successive Elimination with Dynamic Binning (BaSEDB) that achieves optimal regret (up to logarithmic factors). In essence, BaSEDB dynamically splits the covariate space into smaller bins, carefully aligning their widths with the batch size. We also show the suboptimality of static binning under batch constraints, highlighting the necessity of dynamic binning. Additionally, our results suggest that a nearly constant number of policy updates can attain optimal regret in the fully online setting.
     
-[^5]: 浅层网络在逼近和学习高频率方面的困难：一个数值研究
+[^3]: 理解通过使用近似损失进行采样的训练加速
 
-    Why Shallow Networks Struggle with Approximating and Learning High Frequency: A Numerical Study. (arXiv:2306.17301v1 [cs.LG])
+    Understanding the Training Speedup from Sampling with Approximate Losses
 
-    [http://arxiv.org/abs/2306.17301](http://arxiv.org/abs/2306.17301)
+    [https://arxiv.org/abs/2402.07052](https://arxiv.org/abs/2402.07052)
 
-    本文通过数值研究探讨了浅层神经网络在逼近和学习高频率方面的困难，重点是通过分析激活函数的谱分析来理解问题的原因。
-
-    
-
-    本研究通过对分析和实验的综合数值研究，解释了为什么两层神经网络在机器精度和计算成本等实际因素中，处理高频率的逼近和学习存在困难。具体而言，研究了以下基本计算问题：（1）在有限的机器精度下可以达到的最佳精度，（2）实现给定精度所需的计算成本，以及（3）对扰动的稳定性。研究的关键是相应激活函数的格拉姆矩阵的谱分析，该分析还显示了激活函数属性在这个问题中的作用。
-
-    In this work, a comprehensive numerical study involving analysis and experiments shows why a two-layer neural network has difficulties handling high frequencies in approximation and learning when machine precision and computation cost are important factors in real practice. In particular, the following fundamental computational issues are investigated: (1) the best accuracy one can achieve given a finite machine precision, (2) the computation cost to achieve a given accuracy, and (3) stability with respect to perturbations. The key to the study is the spectral analysis of the corresponding Gram matrix of the activation functions which also shows how the properties of the activation function play a role in the picture.
-    
-[^6]: 基于密度比估计的半监督学习贝叶斯优化
-
-    Density Ratio Estimation-based Bayesian Optimization with Semi-Supervised Learning. (arXiv:2305.15612v1 [cs.LG])
-
-    [http://arxiv.org/abs/2305.15612](http://arxiv.org/abs/2305.15612)
-
-    该论文提出了一种基于密度比估计和半监督学习的贝叶斯优化方法，通过使用监督分类器代替密度比来估计全局最优解的两组数据的类别概率，避免了分类器对全局解决方案过于自信的问题。
+    本文研究利用近似损失进行样本采样的训练加速方法，通过贪婪策略选择具有大约损失的样本，减少选择的开销，并证明其收敛速度优于随机选择。同时开发了使用中间层表示获取近似损失的SIFT方法，并在训练BERT模型上取得了显著的提升。
 
     
 
-    贝叶斯优化在科学与工程的多个领域受到了广泛关注，因为它能高效地找到昂贵黑盒函数的全局最优解。通常，一个概率回归模型，如高斯过程、随机森林和贝叶斯神经网络，被广泛用作替代函数，用于模拟在给定输入和训练数据集的情况下函数评估的显式分布。除了基于概率回归的贝叶斯优化，基于密度比估计的贝叶斯优化已被提出来估计相对于全局最优解相对接近和相对远离的两组密度比。为了进一步发展这一研究，可以使用监督分类器来估计这两组的类别概率，而不是密度比。然而，此策略中使用的监督分类器倾向于对全局解决方案过于自信。
+    众所周知，选择具有较大损失/梯度的样本可以显著减少训练步骤的数量。然而，选择的开销往往过高，无法在总体训练时间方面获得有意义的提升。在本文中，我们专注于选择具有大约损失的样本的贪婪方法，而不是准确损失，以减少选择的开销。对于平滑凸损失，我们证明了这种贪婪策略可以在比随机选择更少的迭代次数内收敛到平均损失的最小值的常数因子。我们还理论上量化了近似水平的影响。然后，我们开发了使用中间层表示获取近似损失以进行样本选择的SIFT。我们评估了SIFT在训练一个具有1.1亿参数的12层BERT基础模型上的任务，并展示了显著的提升（以训练时间和反向传播步骤的数量衡量）。
 
-    Bayesian optimization has attracted huge attention from diverse research areas in science and engineering, since it is capable of finding a global optimum of an expensive-to-evaluate black-box function efficiently. In general, a probabilistic regression model, e.g., Gaussian processes, random forests, and Bayesian neural networks, is widely used as a surrogate function to model an explicit distribution over function evaluations given an input to estimate and a training dataset. Beyond the probabilistic regression-based Bayesian optimization, density ratio estimation-based Bayesian optimization has been suggested in order to estimate a density ratio of the groups relatively close and relatively far to a global optimum. Developing this line of research further, a supervised classifier can be employed to estimate a class probability for the two groups instead of a density ratio. However, the supervised classifiers used in this strategy tend to be overconfident for a global solution candid
+    It is well known that selecting samples with large losses/gradients can significantly reduce the number of training steps. However, the selection overhead is often too high to yield any meaningful gains in terms of overall training time. In this work, we focus on the greedy approach of selecting samples with large \textit{approximate losses} instead of exact losses in order to reduce the selection overhead. For smooth convex losses, we show that such a greedy strategy can converge to a constant factor of the minimum value of the average loss in fewer iterations than the standard approach of random selection. We also theoretically quantify the effect of the approximation level. We then develop SIFT which uses early exiting to obtain approximate losses with an intermediate layer's representations for sample selection. We evaluate SIFT on the task of training a 110M parameter 12-layer BERT base model and show significant gains (in terms of training hours and number of backpropagation step
     
-[^7]: 利用Birth-Death 过程和探索组件加速Langevin采样
+[^4]: 学习两层神经网络：一次(巨大)的步骤。
 
-    Accelerate Langevin Sampling with Birth-Death process and Exploration Component. (arXiv:2305.05529v1 [stat.CO])
+    Learning Two-Layer Neural Networks, One (Giant) Step at a Time. (arXiv:2305.18270v1 [stat.ML])
 
-    [http://arxiv.org/abs/2305.05529](http://arxiv.org/abs/2305.05529)
+    [http://arxiv.org/abs/2305.18270](http://arxiv.org/abs/2305.18270)
 
-    该论文提出了一种新的采样方法，在探索新模式和传递有用信息的过程中利用了Birth-Death过程和探索组件，具有高效和指数渐近收敛等优点。
+    本文研究了浅层神经网络的训练动态及其条件，证明了动态下梯度下降可以通过有限数量的大批量梯度下降步骤来促进特征学习，并找到了多个和单一方向的最佳批量大小，有助于促进特征学习和方向的专业化。
 
     
 
-    在计算科学和工程中，采样已知概率分布是一项基本任务。针对多峰性，我们提出了一种新的采样方法，利用了Birth-Death过程和探索组件。该方法的主要思想是“三思而后行”。我们保留两组采样器，一组在较高温度下，一组在原始温度下。前者作为探索新模式和将有用信息传递给后者的先驱，后者在接收信息后对目标分布进行采样。我们推导了均场极限，并展示了探索过程如何决定采样效率。此外，在温和假设下，我们证明了指数渐近收敛。最后，我们对以前文献中的实验进行了测试，并将我们的方法与以前的方法进行了比较。
+    我们研究了浅层神经网络的训练动态，研究了有限数量的大批量梯度下降步骤有助于在核心范围之外促进特征学习的条件。我们比较了批量大小和多个(但有限的)步骤的影响。我们分析了单步骤过程，发现批量大小为$n=O(d)$可以促进特征学习，但只适合学习单一方向或单索引模型。相比之下，$n=O(d^2)$对于学习多个方向和专业化至关重要。此外，我们证明“硬”方向缺乏前$\ell$个Hermite系数，仍未被发现，并且需要批量大小为$n=O(d^\ell)$才能被梯度下降捕获。经过几次迭代，情况发生变化：批量大小为$n=O(d)$足以学习新的目标方向，这些方向在Hermite基础上线性连接到之前学习的方向所涵盖的子空间。
 
-    Sampling a probability distribution with known likelihood is a fundamental task in computational science and engineering. Aiming at multimodality, we propose a new sampling method that takes advantage of both birth-death process and exploration component. The main idea of this method is \textit{look before you leap}. We keep two sets of samplers, one at warmer temperature and one at original temperature. The former one serves as pioneer in exploring new modes and passing useful information to the other, while the latter one samples the target distribution after receiving the information. We derive a mean-field limit and show how the exploration process determines sampling efficiency. Moreover, we prove exponential asymptotic convergence under mild assumption. Finally, we test on experiments from previous literature and compared our methodology to previous ones.
+    We study the training dynamics of shallow neural networks, investigating the conditions under which a limited number of large batch gradient descent steps can facilitate feature learning beyond the kernel regime. We compare the influence of batch size and that of multiple (but finitely many) steps. Our analysis of a single-step process reveals that while a batch size of $n = O(d)$ enables feature learning, it is only adequate for learning a single direction, or a single-index model. In contrast, $n = O(d^2)$ is essential for learning multiple directions and specialization. Moreover, we demonstrate that ``hard'' directions, which lack the first $\ell$ Hermite coefficients, remain unobserved and require a batch size of $n = O(d^\ell)$ for being captured by gradient descent. Upon iterating a few steps, the scenario changes: a batch-size of $n = O(d)$ is enough to learn new target directions spanning the subspace linearly connected in the Hermite basis to the previously learned directions,
     
 

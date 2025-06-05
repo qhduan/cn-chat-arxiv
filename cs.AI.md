@@ -2,142 +2,97 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [PointCloud-Text Matching: Benchmark Datasets and a Baseline](https://arxiv.org/abs/2403.19386) | 本文提出了一个新的实例级检索任务：PointCloud-Text匹配（PTM），并构建了三个新的基准数据集以解决数据稀疏、文本模糊等挑战，同时提出了RoMa方法作为PTM的基线模型。 |
-| [^2] | [Large language models for crowd decision making based on prompt design strategies using ChatGPT: models, analysis and challenges](https://arxiv.org/abs/2403.15587) | 本文分析了基于提示设计策略的ChatGPT在群体决策过程中的应用，为提取意见和做出决策提供了新的可能性。 |
-| [^3] | [T-TAME: Trainable Attention Mechanism for Explaining Convolutional Networks and Vision Transformers](https://arxiv.org/abs/2403.04523) | 本文提出了T-TAME，一种适用于卷积网络和视觉Transformer的可训练注意机制，为解释深度神经网络在图像分类任务中的应用提供了通用方法。 |
-| [^4] | [From Reals to Logic and Back: Inventing Symbolic Vocabularies, Actions and Models for Planning from Raw Data](https://arxiv.org/abs/2402.11871) | 本文提出了一种从未标记高维实值机器人轨迹开始自主学习通用的逻辑相关表示，这些表示构成了自动发明的PDDL-like域模型。 |
-| [^5] | [The Male CEO and the Female Assistant: Probing Gender Biases in Text-To-Image Models Through Paired Stereotype Test](https://arxiv.org/abs/2402.11089) | 通过成对刻板印象测试（PST）框架，在文本-图像模型中探究性别偏见，并评估了DALLE-3在性别职业和组织权力方面的偏见。 |
-| [^6] | [Predictable Reinforcement Learning Dynamics through Entropy Rate Minimization](https://arxiv.org/abs/2311.18703) | 该论文提出了一种名为PA-RL的方法，通过最小化熵率来引导强化学习智能体展现可预测的行为。研究展示了如何利用平均替代奖励实现确定性策略，并在动态模型的基础上近似计算值函数。 |
-| [^7] | [Performative Time-Series Forecasting.](http://arxiv.org/abs/2310.06077) | 本论文研究了时间序列预测中的展示性问题，提出了一种新的方法（FPS），通过利用延迟响应的概念来解决展示性引起的分布变化，并实现准确的预测。 |
-| [^8] | [Label Deconvolution for Node Representation Learning on Large-scale Attributed Graphs against Learning Bias.](http://arxiv.org/abs/2309.14907) | 本文提出了一种标签解卷积技术(LD)，通过对图神经网络(GNNs)的逆映射进行高效的近似，来解决在大规模属性图上进行节点表示学习时的学习偏差挑战。 |
-| [^9] | [FedJETs: Efficient Just-In-Time Personalization with Federated Mixture of Experts.](http://arxiv.org/abs/2306.08586) | 本论文提出了一种名为FedJETs的方法，使用联邦混合专家的框架，在联邦学习中实现高效及时的个性化。该方法通过训练专门的专家，并利用门控函数将输入路由到相关的专家，有效提高了模型的准确性。 |
+| [^1] | [NCoder -- A Quantum Field Theory approach to encoding data](https://rss.arxiv.org/abs/2402.00944) | NCoder 是一种基于量子场论的数据编码方法，通过修改自编码神经网络的结构，将潜在层规定为一组 $n$-点关联函数的子集，模拟了通过费曼图按阶展开构建理论有效作用量的过程。同时，NCoder 也可以看作是模拟统计推断过程的方法，通过几个较低维度的统计量来总结高维度数据，并从这些统计量中推断数据生成分布。这种方法提示了扰动重整化和模型的充分性之间的有趣对应关系。 |
+| [^2] | [AdaptSFL: Adaptive Split Federated Learning in Resource-constrained Edge Networks](https://arxiv.org/abs/2403.13101) | 提出了AdaptSFL自适应分割联邦学习框架，以加速资源受限边缘系统中的学习性能。 |
+| [^3] | [Zero-shot cross-modal transfer of Reinforcement Learning policies through a Global Workspace](https://arxiv.org/abs/2403.04588) | 本研究探索了利用全球工作空间来构建多模态表示，以实现零射击跨模态转移的强化学习策略。 |
+| [^4] | [MacroSwarm: A Field-based Compositional Framework for Swarm Programming.](http://arxiv.org/abs/2401.10969) | MacroSwarm是一种基于场的群体编程框架，通过可组合的功能模块实现复杂的群体行为，通过将感知场映射为执行目标场，提供了一种系统化的设计和实现群体行为的方法。 |
+| [^5] | [Pushing Large Language Models to the 6G Edge: Vision, Challenges, and Opportunities.](http://arxiv.org/abs/2309.16739) | 本文探讨了将大型语言模型(LLMs)部署在6G边缘的潜力和挑战。我们介绍了由LLMs支持的关键应用，并从响应时间、带宽成本和数据隐私等方面分析了云端部署面临的问题。我们提出了6G移动边缘计算(MEC)系统可能解决这些问题的方案，并讨论了边缘训练和边缘推理的创新技术。 |
+| [^6] | [EPIC: Graph Augmentation with Edit Path Interpolation via Learnable Cost.](http://arxiv.org/abs/2306.01310) | EPIC提出了一种基于插值的方法来增强图数据集，通过利用图编辑距离生成与原始图相似但有结构变化的新图，从而提高了分类模型的泛化能力。 |
 
 # 详细
 
-[^1]: PointCloud-Text匹配：基准数据集和一个基线
+[^1]: NCoder -- 一种基于量子场论的数据编码方法
 
-    PointCloud-Text Matching: Benchmark Datasets and a Baseline
+    NCoder -- A Quantum Field Theory approach to encoding data
 
-    [https://arxiv.org/abs/2403.19386](https://arxiv.org/abs/2403.19386)
+    [https://rss.arxiv.org/abs/2402.00944](https://rss.arxiv.org/abs/2402.00944)
 
-    本文提出了一个新的实例级检索任务：PointCloud-Text匹配（PTM），并构建了三个新的基准数据集以解决数据稀疏、文本模糊等挑战，同时提出了RoMa方法作为PTM的基线模型。
-
-    
-
-    在本文中，我们介绍和研究了一个新的实例级检索任务：PointCloud-Text Matching（PTM），旨在找到与给定的点云查询或文本查询匹配的确切跨模态实例。PTM可应用于各种场景，如室内/城市峡谷定位和场景检索。然而，在实践中尚无适用的、有针对性的PTM数据集。因此，我们构建了三个新的PTM基准数据集，分别为3D2T-SR、3D2T-NR和3D2T-QA。我们观察到数据具有挑战性，由于点云的稀疏、噪声或无序，以及文本的模糊、含糊或不完整，导致存在嘈杂的对应关系，使得现有的跨模态匹配方法对PTM无效。为了解决这些挑战，我们提出了一个PTM基线，命名为Robust PointCloud-Text Matching方法（RoMa）。RoMa包含两个模块：双重注意感知模块（DAP）和鲁棒负对比模块
-
-    arXiv:2403.19386v1 Announce Type: cross  Abstract: In this paper, we present and study a new instance-level retrieval task: PointCloud-Text Matching~(PTM), which aims to find the exact cross-modal instance that matches a given point-cloud query or text query. PTM could be applied to various scenarios, such as indoor/urban-canyon localization and scene retrieval. However, there exists no suitable and targeted dataset for PTM in practice. Therefore, we construct three new PTM benchmark datasets, namely 3D2T-SR, 3D2T-NR, and 3D2T-QA. We observe that the data is challenging and with noisy correspondence due to the sparsity, noise, or disorder of point clouds and the ambiguity, vagueness, or incompleteness of texts, which make existing cross-modal matching methods ineffective for PTM. To tackle these challenges, we propose a PTM baseline, named Robust PointCloud-Text Matching method (RoMa). RoMa consists of two modules: a Dual Attention Perception module (DAP) and a Robust Negative Contrast
-    
-[^2]: 基于ChatGPT的提示设计策略的大型语言模型用于群体决策：模型、分析和挑战
-
-    Large language models for crowd decision making based on prompt design strategies using ChatGPT: models, analysis and challenges
-
-    [https://arxiv.org/abs/2403.15587](https://arxiv.org/abs/2403.15587)
-
-    本文分析了基于提示设计策略的ChatGPT在群体决策过程中的应用，为提取意见和做出决策提供了新的可能性。
+    NCoder 是一种基于量子场论的数据编码方法，通过修改自编码神经网络的结构，将潜在层规定为一组 $n$-点关联函数的子集，模拟了通过费曼图按阶展开构建理论有效作用量的过程。同时，NCoder 也可以看作是模拟统计推断过程的方法，通过几个较低维度的统计量来总结高维度数据，并从这些统计量中推断数据生成分布。这种方法提示了扰动重整化和模型的充分性之间的有趣对应关系。
 
     
 
-    社交媒体和互联网有潜力被利用作为丰富决策解决方案意见的来源。群体决策（CDM）是一种能够通过情感分析从纯文本（如社交媒体平台上发布的评论）中推断意见和决策的方法。本文分析了利用基于提示设计策略的ChatGPT来辅助CDM过程，以提取意见和做出决策。我们将ChatGPT整合到CDM过程中作为一种灵活的工具，推断出文本中表达的意见，并根据提示设计策略制定决策模型。
+    在本文中，我们提出了一种基于量子场论（QFT）的可解释 AI 方法，称为 NCoder。NCoder 是一个修改过的自编码神经网络，其潜在层被规定为一个 $n$-点关联函数的子集。将图像视为格点场论的抽样，这个架构模拟了使用费曼图按阶展开来扰动地构建理论有效作用量的任务。或者，NCoder 可以被视为模拟统计推断过程，通过用几个较低维度的汇总统计量（这里是 $n$-点关联函数）来总结高维度数据，并从这些统计量推断数据生成分布来生成样本外数据。通过这种方式，NCoder 提示了扰动重整化和模型的充分性之间的有趣对应关系。我们展示了 NCoder 在数据编码任务上的有效性。
 
-    arXiv:2403.15587v1 Announce Type: new  Abstract: Social Media and Internet have the potential to be exploited as a source of opinion to enrich Decision Making solutions. Crowd Decision Making (CDM) is a methodology able to infer opinions and decisions from plain texts, such as reviews published in social media platforms, by means of Sentiment Analysis. Currently, the emergence and potential of Large Language Models (LLMs) lead us to explore new scenarios of automatically understand written texts, also known as natural language processing. This paper analyzes the use of ChatGPT based on prompt design strategies to assist in CDM processes to extract opinions and make decisions. We integrate ChatGPT in CDM processes as a flexible tool that infer the opinions expressed in texts, providing numerical or linguistic evaluations where the decision making models are based on the prompt design strategies. We include a multi-criteria decision making scenario with a category ontology for criteria. 
+    In this paper we present a novel approach to interpretable AI inspired by Quantum Field Theory (QFT) which we call the NCoder. The NCoder is a modified autoencoder neural network whose latent layer is prescribed to be a subset of $n$-point correlation functions. Regarding images as draws from a lattice field theory, this architecture mimics the task of perturbatively constructing the effective action of the theory order by order in an expansion using Feynman diagrams. Alternatively, the NCoder may be regarded as simulating the procedure of statistical inference whereby high dimensional data is first summarized in terms of several lower dimensional summary statistics (here the $n$-point correlation functions), and subsequent out-of-sample data is generated by inferring the data generating distribution from these statistics. In this way the NCoder suggests a fascinating correspondence between perturbative renormalizability and the sufficiency of models. We demonstrate the efficacy of the
     
-[^3]: T-TAME：用于解释卷积网络和视觉Transformer的可训练注意机制
+[^2]: AdaptSFL：资源受限边缘网络中的自适应分割联邦学习
 
-    T-TAME: Trainable Attention Mechanism for Explaining Convolutional Networks and Vision Transformers
+    AdaptSFL: Adaptive Split Federated Learning in Resource-constrained Edge Networks
 
-    [https://arxiv.org/abs/2403.04523](https://arxiv.org/abs/2403.04523)
+    [https://arxiv.org/abs/2403.13101](https://arxiv.org/abs/2403.13101)
 
-    本文提出了T-TAME，一种适用于卷积网络和视觉Transformer的可训练注意机制，为解释深度神经网络在图像分类任务中的应用提供了通用方法。
-
-    
-
-    Vision Transformers和其他用于图像分类任务的深度学习架构的发展和应用快速增长。然而，神经网络的“黑匣子”特性是在需要解释性的应用中采用的障碍。虽然已经提出了一些用于生成解释的技术，主要用于卷积神经网络，但是将这些技术适应到视觉Transformer的新范式是非平凡的。本文提出了T-TAME，Transformer兼容的可训练注意机制用于解释，这是一种说明用于图像分类任务中的深度神经网络的通用方法。所提出的架构和训练技术可以轻松应用于任何卷积或类似Vision Transformer的神经网络，使用精简的训练方法。训练后，解释图可以在单次前向传递中计算出；这些解释图可以与Convolutional Neural Networks中生成的解释图相媲美或者
-
-    arXiv:2403.04523v1 Announce Type: cross  Abstract: The development and adoption of Vision Transformers and other deep-learning architectures for image classification tasks has been rapid. However, the "black box" nature of neural networks is a barrier to adoption in applications where explainability is essential. While some techniques for generating explanations have been proposed, primarily for Convolutional Neural Networks, adapting such techniques to the new paradigm of Vision Transformers is non-trivial. This paper presents T-TAME, Transformer-compatible Trainable Attention Mechanism for Explanations, a general methodology for explaining deep neural networks used in image classification tasks. The proposed architecture and training technique can be easily applied to any convolutional or Vision Transformer-like neural network, using a streamlined training approach. After training, explanation maps can be computed in a single forward pass; these explanation maps are comparable to or 
-    
-[^4]: 从实际到逻辑再到实际：为规划从原始数据中发明符号词汇、动作和模型
-
-    From Reals to Logic and Back: Inventing Symbolic Vocabularies, Actions and Models for Planning from Raw Data
-
-    [https://arxiv.org/abs/2402.11871](https://arxiv.org/abs/2402.11871)
-
-    本文提出了一种从未标记高维实值机器人轨迹开始自主学习通用的逻辑相关表示，这些表示构成了自动发明的PDDL-like域模型。
+    提出了AdaptSFL自适应分割联邦学习框架，以加速资源受限边缘系统中的学习性能。
 
     
 
-    手工制作的基于逻辑的状态和动作表示已被广泛用于克服长期人工智能机器人规划问题的计算复杂性，包括任务和动作规划问题。但是，创建这样的表示需要具有强烈直觉和详细知识的专家，他们了解机器人和在特定环境中可能需要完成的任务。消除对人类直觉的依赖是一个极为活跃的研究领域。 本文提出了一种自主学习通用逻辑相关表示的方法，该表示从未标记的高维实值机器人轨迹开始。所学表示构成了自动发明的类PDDL域模型。确定性设置下的实证结果表明，仅从少数机器人轨迹中可以学到强大的抽象表示；所学关系
+    深度神经网络的日益复杂使得将其民主化到资源有限的边缘设备面临重要障碍。为了解决这一挑战，通过模型分区将主要训练工作负荷转移到服务器上，并在边缘设备之间实现并行训练的分割联邦学习（SFL）已经成为一种有前途的解决方案。然而，尽管系统优化极大地影响了资源受限系统下SFL的性能，但这个问题仍然很大程度上没有被探索。本文提供了SFL的收敛分析，量化了模型分割（MS）和客户端模型聚合（MA）对学习性能的影响，作为理论基础。然后，我们提出了AdaptSFL，一种新颖的资源自适应SFL框架，以加速资源受限边缘计算系统下的SFL。具体来说，AdaptSFL自适应地控制客户端MA和MS，以平衡通信
 
-    arXiv:2402.11871v1 Announce Type: cross  Abstract: Hand-crafted, logic-based state and action representations have been widely used to overcome the intractable computational complexity of long-horizon robot planning problems, including task and motion planning problems. However, creating such representations requires experts with strong intuitions and detailed knowledge about the robot and the tasks it may need to accomplish in a given setting. Removing this dependency on human intuition is a highly active research area.   This paper presents the first approach for autonomously learning generalizable, logic-based relational representations for abstract states and actions starting from unannotated high-dimensional, real-valued robot trajectories. The learned representations constitute auto-invented PDDL-like domain models. Empirical results in deterministic settings show that powerful abstract representations can be learned from just a handful of robot trajectories; the learned relation
+    arXiv:2403.13101v1 Announce Type: new  Abstract: The increasing complexity of deep neural networks poses significant barriers to democratizing them to resource-limited edge devices. To address this challenge, split federated learning (SFL) has emerged as a promising solution by of floading the primary training workload to a server via model partitioning while enabling parallel training among edge devices. However, although system optimization substantially influences the performance of SFL under resource-constrained systems, the problem remains largely uncharted. In this paper, we provide a convergence analysis of SFL which quantifies the impact of model splitting (MS) and client-side model aggregation (MA) on the learning performance, serving as a theoretical foundation. Then, we propose AdaptSFL, a novel resource-adaptive SFL framework, to expedite SFL under resource-constrained edge computing systems. Specifically, AdaptSFL adaptively controls client-side MA and MS to balance commun
     
-[^5]: 男性CEO和女性助理：通过成对刻板印象测试探究文本-图像模型中的性别偏见
+[^3]: 通过全球工作空间实现零射击跨模态转移的强化学习策略
 
-    The Male CEO and the Female Assistant: Probing Gender Biases in Text-To-Image Models Through Paired Stereotype Test
+    Zero-shot cross-modal transfer of Reinforcement Learning policies through a Global Workspace
 
-    [https://arxiv.org/abs/2402.11089](https://arxiv.org/abs/2402.11089)
+    [https://arxiv.org/abs/2403.04588](https://arxiv.org/abs/2403.04588)
 
-    通过成对刻板印象测试（PST）框架，在文本-图像模型中探究性别偏见，并评估了DALLE-3在性别职业和组织权力方面的偏见。
-
-    
-
-    最近大规模的文本到图像（T2I）模型（如DALLE-3）展示了在新应用中的巨大潜力，但也面临前所未有的公平挑战。先前的研究揭示了单人图像生成中的性别偏见，但T2I模型应用可能需要同时描绘两个或更多人。该设定中的潜在偏见仍未被探究，导致使用中的公平相关风险。为了研究T2I模型中性别偏见的基本方面，我们提出了一种新颖的成对刻板印象测试（PST）偏见评估框架。PST促使模型生成同一图像中的两个个体，用与相反性别刻板印象相关联的两个社会身份来描述他们。通过生成的图像遵从性别刻板印象的程度来衡量偏见。利用PST，我们从两个角度评估DALLE-3：性别职业中的偏见和组织权力中的偏见。
-
-    arXiv:2402.11089v1 Announce Type: cross  Abstract: Recent large-scale Text-To-Image (T2I) models such as DALLE-3 demonstrate great potential in new applications, but also face unprecedented fairness challenges. Prior studies revealed gender biases in single-person image generation, but T2I model applications might require portraying two or more people simultaneously. Potential biases in this setting remain unexplored, leading to fairness-related risks in usage. To study these underlying facets of gender biases in T2I models, we propose a novel Paired Stereotype Test (PST) bias evaluation framework. PST prompts the model to generate two individuals in the same image. They are described with two social identities that are stereotypically associated with the opposite gender. Biases can then be measured by the level of conformation to gender stereotypes in generated images. Using PST, we evaluate DALLE-3 from 2 perspectives: biases in gendered occupation and biases in organizational power.
-    
-[^6]: 通过熵率最小化实现可预测的强化学习动态
-
-    Predictable Reinforcement Learning Dynamics through Entropy Rate Minimization
-
-    [https://arxiv.org/abs/2311.18703](https://arxiv.org/abs/2311.18703)
-
-    该论文提出了一种名为PA-RL的方法，通过最小化熵率来引导强化学习智能体展现可预测的行为。研究展示了如何利用平均替代奖励实现确定性策略，并在动态模型的基础上近似计算值函数。
+    本研究探索了利用全球工作空间来构建多模态表示，以实现零射击跨模态转移的强化学习策略。
 
     
 
-    在强化学习中，智能体没有动机展示可预测的行为，通常通过策略熵正则化推动智能体在探索上随机化其行为。从人的角度来看，这使得强化学习智能体很难解释和预测；从安全角度来看，更难以进行形式化验证。我们提出了一种新的方法，称为可预测性感知强化学习（PA-RL），用于引导智能体展现可预测的行为，其利用状态序列熵率作为可预测性度量。我们展示了如何将熵率制定为平均奖励目标，并且由于其熵奖励函数依赖于策略，我们引入了一个动作相关的替代熵，以利用PG方法。我们证明了最小化平均替代奖励的确定性策略存在，并且最小化了实际熵率。我们还展示了如何在学习到的动态模型的基础上近似计算与值函数。
+    人类通过多种感官感知世界，使他们能够综合地表达周围环境，并且能够在不同领域之间泛化信息。本文探讨了通过“全局工作空间”的认知科学概念来构建强大而灵活的多模态表示，以及在机器人和强化学习领域中将其应用于跨模态转移的有效性。
 
-    In Reinforcement Learning (RL), agents have no incentive to exhibit predictable behaviors, and are often pushed (through e.g. policy entropy regularization) to randomize their actions in favor of exploration. From a human perspective, this makes RL agents hard to interpret and predict, and from a safety perspective, even harder to formally verify. We propose a novel method to induce predictable behavior in RL agents, referred to as Predictability-Aware RL (PA-RL), which employs the state sequence entropy rate as a predictability measure. We show how the entropy rate can be formulated as an average reward objective, and since its entropy reward function is policy-dependent, we introduce an action-dependent surrogate entropy enabling the use of PG methods. We prove that deterministic policies minimizing the average surrogate reward exist and also minimize the actual entropy rate, and show how, given a learned dynamical model, we are able to approximate the value function associated to th
+    arXiv:2403.04588v1 Announce Type: new  Abstract: Humans perceive the world through multiple senses, enabling them to create a comprehensive representation of their surroundings and to generalize information across domains. For instance, when a textual description of a scene is given, humans can mentally visualize it. In fields like robotics and Reinforcement Learning (RL), agents can also access information about the environment through multiple sensors; yet redundancy and complementarity between sensors is difficult to exploit as a source of robustness (e.g. against sensor failure) or generalization (e.g. transfer across domains). Prior research demonstrated that a robust and flexible multimodal representation can be efficiently constructed based on the cognitive science notion of a 'Global Workspace': a unique representation trained to combine information across modalities, and to broadcast its signal back to each modality. Here, we explore whether such a brain-inspired multimodal re
     
-[^7]: 可展示的时间序列预测
+[^4]: MacroSwarm: 一种基于场的组合框架用于群体编程
 
-    Performative Time-Series Forecasting. (arXiv:2310.06077v1 [cs.LG])
+    MacroSwarm: A Field-based Compositional Framework for Swarm Programming. (arXiv:2401.10969v1 [cs.AI])
 
-    [http://arxiv.org/abs/2310.06077](http://arxiv.org/abs/2310.06077)
+    [http://arxiv.org/abs/2401.10969](http://arxiv.org/abs/2401.10969)
 
-    本论文研究了时间序列预测中的展示性问题，提出了一种新的方法（FPS），通过利用延迟响应的概念来解决展示性引起的分布变化，并实现准确的预测。
-
-    
-
-    时间序列预测是各个领域中的一个关键挑战，在近年来取得了实质性的进展。许多现实生活场景，如公共卫生、经济和社会应用，涉及到反馈循环，其中预测结果可能会影响到预测的结果，进而改变目标变量的分布。这种现象被称为展示性，引入了可能出现“自我抵消”或“自我实现”的预测的潜力。尽管在各个领域中对分类问题进行了广泛的研究，但展示性在机器学习视角下的时间序列预测问题尚未得到广泛探讨。在这篇论文中，我们对可展示的时间序列预测（PeTS）进行了形式化，解决了当可能存在展示性引起的分布变化时的准确预测挑战。我们提出了一种新颖方法，特征展示性转移（FPS），它利用延迟响应的概念来预测分布的变化和随后的变量。
-
-    Time-series forecasting is a critical challenge in various domains and has witnessed substantial progress in recent years. Many real-life scenarios, such as public health, economics, and social applications, involve feedback loops where predictions can influence the predicted outcome, subsequently altering the target variable's distribution. This phenomenon, known as performativity, introduces the potential for 'self-negating' or 'self-fulfilling' predictions. Despite extensive studies in classification problems across domains, performativity remains largely unexplored in the context of time-series forecasting from a machine-learning perspective.  In this paper, we formalize performative time-series forecasting (PeTS), addressing the challenge of accurate predictions when performativity-induced distribution shifts are possible. We propose a novel approach, Feature Performative-Shifting (FPS), which leverages the concept of delayed response to anticipate distribution shifts and subseque
-    
-[^8]: 对大规模属性图上的节点表示学习进行标签解卷积以抵抗学习偏差的研究
-
-    Label Deconvolution for Node Representation Learning on Large-scale Attributed Graphs against Learning Bias. (arXiv:2309.14907v1 [cs.LG])
-
-    [http://arxiv.org/abs/2309.14907](http://arxiv.org/abs/2309.14907)
-
-    本文提出了一种标签解卷积技术(LD)，通过对图神经网络(GNNs)的逆映射进行高效的近似，来解决在大规模属性图上进行节点表示学习时的学习偏差挑战。
+    MacroSwarm是一种基于场的群体编程框架，通过可组合的功能模块实现复杂的群体行为，通过将感知场映射为执行目标场，提供了一种系统化的设计和实现群体行为的方法。
 
     
 
-    在带属性的图中，节点表示学习对许多重要的下游任务起着关键作用。为了同时编码属性和图结构，最近的研究将预训练模型与图神经网络(GNNs)进行整合，其中预训练模型作为节点编码器(NEs)来编码属性。由于在大规模图上同时训练大型NEs和GNNs存在严重的可伸缩性问题，许多方法提出了分别训练NEs和GNNs的方法。因此，在NEs的训练阶段中，他们没有考虑到GNNs中的特征卷积，导致了与联合训练相比的显著学习偏差。为了解决这个挑战，我们提出了一种高效的标签正则化技术，即标签解卷积(LD)，通过对GNNs的逆映射进行新颖且高度可伸缩的近似，以减轻学习偏差。
+    群体行为工程是一项旨在研究协调简单智能体团体内计算和行动的方法和技术，以实现复杂的全局目标，如图案形成、集体移动、聚类和分布式感知。尽管在群体（无人机、机器人、车辆）分析和工程方面取得了一些进展，但仍然需要通用的设计和实现方法和工具，以系统化的方式定义复杂的群体行为。为了对此做出贡献，本文提出了一种新的基于场的协调方法，称为MacroSwarm，以可重用且完全可组合的功能模块为基础，嵌入集体计算和协调。基于集成计算的宏编程范式，MacroSwarm提出了将每个群体行为块表示为将感知场映射为执行目标场的纯函数的思路。
 
-    Node representation learning on attributed graphs -- whose nodes are associated with rich attributes (e.g., texts and protein sequences) -- plays a crucial role in many important downstream tasks. To encode the attributes and graph structures simultaneously, recent studies integrate pre-trained models with graph neural networks (GNNs), where pre-trained models serve as node encoders (NEs) to encode the attributes. As jointly training large NEs and GNNs on large-scale graphs suffers from severe scalability issues, many methods propose to train NEs and GNNs separately. Consequently, they do not take feature convolutions in GNNs into consideration in the training phase of NEs, leading to a significant learning bias from that by the joint training. To address this challenge, we propose an efficient label regularization technique, namely Label Deconvolution (LD), to alleviate the learning bias by a novel and highly scalable approximation to the inverse mapping of GNNs. The inverse mapping l
+    Swarm behaviour engineering is an area of research that seeks to investigate methods and techniques for coordinating computation and action within groups of simple agents to achieve complex global goals like pattern formation, collective movement, clustering, and distributed sensing. Despite recent progress in the analysis and engineering of swarms (of drones, robots, vehicles), there is still a need for general design and implementation methods and tools that can be used to define complex swarm behaviour in a principled way. To contribute to this quest, this article proposes a new field-based coordination approach, called MacroSwarm, to design and program swarm behaviour in terms of reusable and fully composable functional blocks embedding collective computation and coordination. Based on the macroprogramming paradigm of aggregate computing, MacroSwarm builds on the idea of expressing each swarm behaviour block as a pure function mapping sensing fields into actuation goal fields, e.g.
     
-[^9]: FedJETs：具有联邦混合专家的高效及时个性化方法
+[^5]: 将大型语言模型推至6G边缘：视野、挑战和机遇
 
-    FedJETs: Efficient Just-In-Time Personalization with Federated Mixture of Experts. (arXiv:2306.08586v2 [cs.LG] UPDATED)
+    Pushing Large Language Models to the 6G Edge: Vision, Challenges, and Opportunities. (arXiv:2309.16739v1 [cs.LG])
 
-    [http://arxiv.org/abs/2306.08586](http://arxiv.org/abs/2306.08586)
+    [http://arxiv.org/abs/2309.16739](http://arxiv.org/abs/2309.16739)
 
-    本论文提出了一种名为FedJETs的方法，使用联邦混合专家的框架，在联邦学习中实现高效及时的个性化。该方法通过训练专门的专家，并利用门控函数将输入路由到相关的专家，有效提高了模型的准确性。
+    本文探讨了将大型语言模型(LLMs)部署在6G边缘的潜力和挑战。我们介绍了由LLMs支持的关键应用，并从响应时间、带宽成本和数据隐私等方面分析了云端部署面临的问题。我们提出了6G移动边缘计算(MEC)系统可能解决这些问题的方案，并讨论了边缘训练和边缘推理的创新技术。
 
     
 
-    联邦学习（FL）的目标之一是创建能够适应每个参与客户端上下文的个性化模型，同时利用共享全局模型的知识。然而，通常情况下，个性化需要使用客户标记的数据进行微调以实现良好的性能，这在新来的客户端是不可行的，在隐私方面也存在问题。因此，如何在这些场景中实现及时个性化仍然是个未解决的问题。我们提出了FedJETs，这是一个在FL设置中使用“专家混合（MoE）”框架的新颖解决方案。我们的方法利用客户的多样性，在不同的类别子集上训练专门的专家，并利用一个门控函数将输入路由到最相关的专家。我们的门控函数利用预训练模型的共享专家的知识，以增强其即时的路由决策。值得一提的是，我们的方法能够将准确性提高高达18％，达到现有技术水平水平。
+    大型语言模型(LLMs)展示了显著的能力，正在改变人工智能的发展并有可能塑造我们的未来。然而，由于LLMs的多模态特性，当前的基于云的部署面临着一些关键挑战：1) 响应时间长；2) 高带宽成本；以及3) 违反数据隐私。6G移动边缘计算(MEC)系统可能解决这些迫切问题。本文探讨了在6G边缘部署LLMs的潜力。我们首先介绍了由多模态LLMs提供支持的关键应用，包括机器人技术和医疗保健，以突出在终端用户附近部署LLMs的需求。然后，我们确定了在边缘部署LLMs时面临的关键挑战，并设想了适用于LLMs的6G MEC架构。此外，我们深入探讨了两个设计方面，即LLMs的边缘训练和边缘推理。在这两个方面，考虑到边缘的固有资源限制，我们讨论了各种前沿技术。
 
-    One of the goals in Federated Learning (FL) is to create personalized models that can adapt to the context of each participating client, while utilizing knowledge from a shared global model. Yet, often, personalization requires a fine-tuning step using clients' labeled data in order to achieve good performance. This may not be feasible in scenarios where incoming clients are fresh and/or have privacy concerns. It, then, remains open how one can achieve just-in-time personalization in these scenarios. We propose FedJETs, a novel solution by using a Mixture-of-Experts (MoE) framework within a FL setup. Our method leverages the diversity of the clients to train specialized experts on different subsets of classes, and a gating function to route the input to the most relevant expert(s). Our gating function harnesses the knowledge of a pretrained model common expert to enhance its routing decisions on-the-fly. As a highlight, our approach can improve accuracy up to 18\% in state of the art F
+    Large language models (LLMs), which have shown remarkable capabilities, are revolutionizing AI development and potentially shaping our future. However, given their multimodality, the status quo cloud-based deployment faces some critical challenges: 1) long response time; 2) high bandwidth costs; and 3) the violation of data privacy. 6G mobile edge computing (MEC) systems may resolve these pressing issues. In this article, we explore the potential of deploying LLMs at the 6G edge. We start by introducing killer applications powered by multimodal LLMs, including robotics and healthcare, to highlight the need for deploying LLMs in the vicinity of end users. Then, we identify the critical challenges for LLM deployment at the edge and envision the 6G MEC architecture for LLMs. Furthermore, we delve into two design aspects, i.e., edge training and edge inference for LLMs. In both aspects, considering the inherent resource limitations at the edge, we discuss various cutting-edge techniques, i
+    
+[^6]: EPIC: 通过可学习的代价实现的编辑路径插值的图形增强
+
+    EPIC: Graph Augmentation with Edit Path Interpolation via Learnable Cost. (arXiv:2306.01310v1 [cs.LG])
+
+    [http://arxiv.org/abs/2306.01310](http://arxiv.org/abs/2306.01310)
+
+    EPIC提出了一种基于插值的方法来增强图数据集，通过利用图编辑距离生成与原始图相似但有结构变化的新图，从而提高了分类模型的泛化能力。
+
+    
+
+    基于图的模型在各个领域中变得越来越重要，但现有图数据集的有限规模和多样性经常限制它们的性能。为解决这个问题，我们提出了EPIC（通过可学习的代价实现的编辑路径插值），这是一种新颖的基于插值的增强图数据集的方法。我们的方法利用了图编辑距离来生成与原始图相似但结构有所变化的新图。为了实现这一点，我们通过比较带标签的图来学习图编辑距离，并利用这一知识在原始图对之间创建了图编辑路径。通过从图编辑路径中随机抽样的图形，我们丰富了训练集以增强分类模型的泛化能力。我们在几个基准数据集上展示了我们方法的有效性，并表明它在图分类任务中优于现有的增强方法。
+
+    Graph-based models have become increasingly important in various domains, but the limited size and diversity of existing graph datasets often limit their performance. To address this issue, we propose EPIC (Edit Path Interpolation via learnable Cost), a novel interpolation-based method for augmenting graph datasets. Our approach leverages graph edit distance to generate new graphs that are similar to the original ones but exhibit some variation in their structures. To achieve this, we learn the graph edit distance through a comparison of labeled graphs and utilize this knowledge to create graph edit paths between pairs of original graphs. With randomly sampled graphs from a graph edit path, we enrich the training set to enhance the generalization capability of classification models. We demonstrate the effectiveness of our approach on several benchmark datasets and show that it outperforms existing augmentation methods in graph classification tasks.
     
 
