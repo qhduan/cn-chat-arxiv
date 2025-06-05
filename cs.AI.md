@@ -2,217 +2,142 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Learning Macroeconomic Policies based on Microfoundations: A Stackelberg Mean Field Game Approach](https://arxiv.org/abs/2403.12093) | 本研究提出了基于Stackelberg Mean Field Game的方法，可以有效地学习宏观经济政策，并在模型预训练和无模型Stackelberg均场强化学习算法的基础上取得了实验结果表明其优越性。 |
-| [^2] | [CleanAgent: Automating Data Standardization with LLM-based Agents](https://arxiv.org/abs/2403.08291) | 提出了一个具有声明性、统一API的Python库，通过简洁的API调用简化LLM的代码生成流程 |
-| [^3] | [Unlocking the Potential of Multimodal Unified Discrete Representation through Training-Free Codebook Optimization and Hierarchical Alignment](https://arxiv.org/abs/2403.05168) | 通过无需训练的码本优化和分层对齐，本研究提出了一种方法扩展了多模态统一表示的细粒度，并实现了更好的跨模态泛化。 |
-| [^4] | [SongComposer: A Large Language Model for Lyric and Melody Composition in Song Generation](https://arxiv.org/abs/2402.17645) | SongComposer提出了一种用于歌曲生成的大型语言模型，采用符号化的歌曲表示，实现了LLM可以明确创作歌曲的能力。 |
-| [^5] | [Gradient-flow adaptive importance sampling for Bayesian leave one out cross-validation for sigmoidal classification models](https://arxiv.org/abs/2402.08151) | 本研究引入了渐变流自适应重要性抽样的方法，用于稳定贝叶斯分类模型的留一交叉验证预测的蒙特卡罗近似，以评估模型的普适性。 |
-| [^6] | [PreGIP: Watermarking the Pretraining of Graph Neural Networks for Deep Intellectual Property Protection](https://arxiv.org/abs/2402.04435) | PreGIP是针对深度知识产权保护的一种图神经网络预训练水印技术，它通过添加无任务的水印损失来给预训练的GNN编码器的嵌入空间添加水印，并采用抗微调的水印注入方法 |
-| [^7] | [Don't Push the Button! Exploring Data Leakage Risks in Machine Learning and Transfer Learning.](http://arxiv.org/abs/2401.13796) | 本文讨论了机器学习中的数据泄露问题，即未预期的信息污染训练数据，影响模型性能评估，用户可能由于缺乏理解而忽视关键步骤，导致乐观的性能估计在实际场景中不成立。 |
-| [^8] | [CCFC: Bridging Federated Clustering and Contrastive Learning.](http://arxiv.org/abs/2401.06634) | 本论文桥接了联邦聚类和对比学习，提出了一种名为CCFC的新联邦聚类方法。通过表示学习，CCFC在某些情况下聚类性能甚至是最佳基准方法的两倍。与最相关的基准方法相比，在最显著的案例中，CCFC的NMI得分提高了0.4155。同时，CCFC还能有效处理联邦场景下的数据分布和质量差异。 |
-| [^9] | [Generating by Understanding: Neural Visual Generation with Logical Symbol Groundings.](http://arxiv.org/abs/2310.17451) | 这篇论文提出了一种神经符号学习方法，AbdGen，用于将知识推理系统与神经视觉生成模型集成。它解决了符号赋值和规则学习的问题，通过量化诱导方法实现可靠高效的符号赋值，通过对比元诱导方法实现精确的规则学习。 |
-| [^10] | [Learning Successor Representations with Distributed Hebbian Temporal Memory.](http://arxiv.org/abs/2310.13391) | 本文提出了一种名为DHTM的算法，它基于因子图形式和多组成神经元模型，利用分布式表示、稀疏转移矩阵和局部Hebbian样学习规则来解决在线隐藏表示学习的挑战。实验结果表明，DHTM在变化的环境中比经典的LSTM效果更好，并与更先进的类似RNN的算法性能相当，可以加速继任者表示的时间差异学习。 |
-| [^11] | [Advective Diffusion Transformers for Topological Generalization in Graph Learning.](http://arxiv.org/abs/2310.06417) | 本研究探索了在不同的图拓扑存在下，图扩散方程如何对GNN进行外推和概括，揭示了基于局部扩散的现有模型在概括能力上的不足，并提出了非局部扩散的潜力。 |
-| [^12] | [Fact-Checking of AI-Generated Reports.](http://arxiv.org/abs/2307.14634) | 本文提出了一种使用相关联的图像对AI生成报告进行事实核查的新方法，以区分报告中的真假句子。这对加快临床工作流程，提高准确性并降低总体成本具有重要意义。 |
-| [^13] | [A Neural Lambda Calculus: Neurosymbolic AI meets the foundations of computing and functional programming.](http://arxiv.org/abs/2304.09276) | 本文提出了一种神经λ演算法，使用λ语言编程，研究神经网络在执行整个程序的能力，旨在拓展神经网络在符号人工智能领域的应用。 |
-| [^14] | [Translation Consistent Semi-supervised Segmentation for 3D Medical Images.](http://arxiv.org/abs/2203.14523) | 本论文提出了一种名为TraCoCo的半监督学习方法，通过改变输入数据视图的不同空间上下文来扰动训练，从而使模型能够从可视化对象中学习分割模式，实现了三维医学图像的翻译一致半监督分割。 |
+| [^1] | [PointCloud-Text Matching: Benchmark Datasets and a Baseline](https://arxiv.org/abs/2403.19386) | 本文提出了一个新的实例级检索任务：PointCloud-Text匹配（PTM），并构建了三个新的基准数据集以解决数据稀疏、文本模糊等挑战，同时提出了RoMa方法作为PTM的基线模型。 |
+| [^2] | [Large language models for crowd decision making based on prompt design strategies using ChatGPT: models, analysis and challenges](https://arxiv.org/abs/2403.15587) | 本文分析了基于提示设计策略的ChatGPT在群体决策过程中的应用，为提取意见和做出决策提供了新的可能性。 |
+| [^3] | [T-TAME: Trainable Attention Mechanism for Explaining Convolutional Networks and Vision Transformers](https://arxiv.org/abs/2403.04523) | 本文提出了T-TAME，一种适用于卷积网络和视觉Transformer的可训练注意机制，为解释深度神经网络在图像分类任务中的应用提供了通用方法。 |
+| [^4] | [From Reals to Logic and Back: Inventing Symbolic Vocabularies, Actions and Models for Planning from Raw Data](https://arxiv.org/abs/2402.11871) | 本文提出了一种从未标记高维实值机器人轨迹开始自主学习通用的逻辑相关表示，这些表示构成了自动发明的PDDL-like域模型。 |
+| [^5] | [The Male CEO and the Female Assistant: Probing Gender Biases in Text-To-Image Models Through Paired Stereotype Test](https://arxiv.org/abs/2402.11089) | 通过成对刻板印象测试（PST）框架，在文本-图像模型中探究性别偏见，并评估了DALLE-3在性别职业和组织权力方面的偏见。 |
+| [^6] | [Predictable Reinforcement Learning Dynamics through Entropy Rate Minimization](https://arxiv.org/abs/2311.18703) | 该论文提出了一种名为PA-RL的方法，通过最小化熵率来引导强化学习智能体展现可预测的行为。研究展示了如何利用平均替代奖励实现确定性策略，并在动态模型的基础上近似计算值函数。 |
+| [^7] | [Performative Time-Series Forecasting.](http://arxiv.org/abs/2310.06077) | 本论文研究了时间序列预测中的展示性问题，提出了一种新的方法（FPS），通过利用延迟响应的概念来解决展示性引起的分布变化，并实现准确的预测。 |
+| [^8] | [Label Deconvolution for Node Representation Learning on Large-scale Attributed Graphs against Learning Bias.](http://arxiv.org/abs/2309.14907) | 本文提出了一种标签解卷积技术(LD)，通过对图神经网络(GNNs)的逆映射进行高效的近似，来解决在大规模属性图上进行节点表示学习时的学习偏差挑战。 |
+| [^9] | [FedJETs: Efficient Just-In-Time Personalization with Federated Mixture of Experts.](http://arxiv.org/abs/2306.08586) | 本论文提出了一种名为FedJETs的方法，使用联邦混合专家的框架，在联邦学习中实现高效及时的个性化。该方法通过训练专门的专家，并利用门控函数将输入路由到相关的专家，有效提高了模型的准确性。 |
 
 # 详细
 
-[^1]: 基于微观基础的宏观经济政策学习：一种斯塔克尔贝格均场博弈方法
+[^1]: PointCloud-Text匹配：基准数据集和一个基线
 
-    Learning Macroeconomic Policies based on Microfoundations: A Stackelberg Mean Field Game Approach
+    PointCloud-Text Matching: Benchmark Datasets and a Baseline
 
-    [https://arxiv.org/abs/2403.12093](https://arxiv.org/abs/2403.12093)
+    [https://arxiv.org/abs/2403.19386](https://arxiv.org/abs/2403.19386)
 
-    本研究提出了基于Stackelberg Mean Field Game的方法，可以有效地学习宏观经济政策，并在模型预训练和无模型Stackelberg均场强化学习算法的基础上取得了实验结果表明其优越性。
-
-    
-
-    有效的宏观经济政策在促进经济增长和社会稳定方面起着至关重要的作用。本文基于Stackelberg Mean Field Game（SMFG）模型，将最优宏观经济政策问题建模，其中政府作为政策制定的领导者，大规模家庭动态响应为追随者。这种建模方法捕捉了政府和大规模家庭之间的非对称动态博弈，并可以解释地评估基于微观基础的宏观经济政策效果，这是现有方法难以实现的。我们还提出了一种解决SMFG的方法，将真实数据进行预训练，并结合一种无模型的Stackelberg均场强化学习（SMFRL）算法，该算法可以独立于先前的环境知识和转变运行。我们的实验结果展示了SMFG方法在经济政策方面优于其他方法的优越性。
-
-    arXiv:2403.12093v1 Announce Type: cross  Abstract: Effective macroeconomic policies play a crucial role in promoting economic growth and social stability. This paper models the optimal macroeconomic policy problem based on the \textit{Stackelberg Mean Field Game} (SMFG), where the government acts as the leader in policy-making, and large-scale households dynamically respond as followers. This modeling method captures the asymmetric dynamic game between the government and large-scale households, and interpretably evaluates the effects of macroeconomic policies based on microfoundations, which is difficult for existing methods to achieve. We also propose a solution for SMFGs, incorporating pre-training on real data and a model-free \textit{Stackelberg mean-field reinforcement learning }(SMFRL) algorithm, which operates independently of prior environmental knowledge and transitions. Our experimental results showcase the superiority of the SMFG method over other economic policies in terms 
-    
-[^2]: CleanAgent：基于LLM代理自动化数据标准化
-
-    CleanAgent: Automating Data Standardization with LLM-based Agents
-
-    [https://arxiv.org/abs/2403.08291](https://arxiv.org/abs/2403.08291)
-
-    提出了一个具有声明性、统一API的Python库，通过简洁的API调用简化LLM的代码生成流程
+    本文提出了一个新的实例级检索任务：PointCloud-Text匹配（PTM），并构建了三个新的基准数据集以解决数据稀疏、文本模糊等挑战，同时提出了RoMa方法作为PTM的基线模型。
 
     
 
-    数据标准化是数据科学生命周期中至关重要的一部分。虽然诸如Pandas之类的工具提供了强大的功能，但它们的复杂性以及需要定制代码以适应不同列类型的手动操作带来了重大挑战。尽管大型语言模型（LLMs）如ChatGPT已经展现出通过自然语言理解和代码生成自动化此过程的潜力，但仍需要专业程度的编程知识和持续互动以进行及时的完善。为了解决这些挑战，我们的关键想法是提出一个具有声明性、统一API的Python库，用于标准化列类型，通过简洁的API调用简化LLM的代码生成流程。我们首先提出了Dataprep.Clean，作为Dataprep库的一个组件，通过一行代码实现特定列类型的标准化，极大降低了复杂性。然后我们介绍了CleanAgen
+    在本文中，我们介绍和研究了一个新的实例级检索任务：PointCloud-Text Matching（PTM），旨在找到与给定的点云查询或文本查询匹配的确切跨模态实例。PTM可应用于各种场景，如室内/城市峡谷定位和场景检索。然而，在实践中尚无适用的、有针对性的PTM数据集。因此，我们构建了三个新的PTM基准数据集，分别为3D2T-SR、3D2T-NR和3D2T-QA。我们观察到数据具有挑战性，由于点云的稀疏、噪声或无序，以及文本的模糊、含糊或不完整，导致存在嘈杂的对应关系，使得现有的跨模态匹配方法对PTM无效。为了解决这些挑战，我们提出了一个PTM基线，命名为Robust PointCloud-Text Matching方法（RoMa）。RoMa包含两个模块：双重注意感知模块（DAP）和鲁棒负对比模块
 
-    arXiv:2403.08291v1 Announce Type: cross  Abstract: Data standardization is a crucial part in data science life cycle. While tools like Pandas offer robust functionalities, their complexity and the manual effort required for customizing code to diverse column types pose significant challenges. Although large language models (LLMs) like ChatGPT have shown promise in automating this process through natural language understanding and code generation, it still demands expert-level programming knowledge and continuous interaction for prompt refinement. To solve these challenges, our key idea is to propose a Python library with declarative, unified APIs for standardizing column types, simplifying the code generation of LLM with concise API calls. We first propose Dataprep.Clean which is written as a component of the Dataprep Library, offers a significant reduction in complexity by enabling the standardization of specific column types with a single line of code. Then we introduce the CleanAgen
+    arXiv:2403.19386v1 Announce Type: cross  Abstract: In this paper, we present and study a new instance-level retrieval task: PointCloud-Text Matching~(PTM), which aims to find the exact cross-modal instance that matches a given point-cloud query or text query. PTM could be applied to various scenarios, such as indoor/urban-canyon localization and scene retrieval. However, there exists no suitable and targeted dataset for PTM in practice. Therefore, we construct three new PTM benchmark datasets, namely 3D2T-SR, 3D2T-NR, and 3D2T-QA. We observe that the data is challenging and with noisy correspondence due to the sparsity, noise, or disorder of point clouds and the ambiguity, vagueness, or incompleteness of texts, which make existing cross-modal matching methods ineffective for PTM. To tackle these challenges, we propose a PTM baseline, named Robust PointCloud-Text Matching method (RoMa). RoMa consists of two modules: a Dual Attention Perception module (DAP) and a Robust Negative Contrast
     
-[^3]: 通过无需训练的码本优化和分层对齐解锁多模态统一离散表示的潜力
+[^2]: 基于ChatGPT的提示设计策略的大型语言模型用于群体决策：模型、分析和挑战
 
-    Unlocking the Potential of Multimodal Unified Discrete Representation through Training-Free Codebook Optimization and Hierarchical Alignment
+    Large language models for crowd decision making based on prompt design strategies using ChatGPT: models, analysis and challenges
 
-    [https://arxiv.org/abs/2403.05168](https://arxiv.org/abs/2403.05168)
+    [https://arxiv.org/abs/2403.15587](https://arxiv.org/abs/2403.15587)
 
-    通过无需训练的码本优化和分层对齐，本研究提出了一种方法扩展了多模态统一表示的细粒度，并实现了更好的跨模态泛化。
-
-    
-
-    最近在表示学习方面的进展表明多模态对齐的重要性。利用统一码本的双交叉模态信息解缠（DCID）模型在实现细粒度表示和跨模态泛化方面取得了令人期待的结果。然而，它仍受到对所有通道的均等对待以及忽视次要事件信息的阻碍，导致来自无关通道的干扰并在细粒度任务中表现有限。因此，在这项工作中，我们提出了一种无需训练的码本优化（TOC）方法，通过在统一空间中选择重要通道来增强模型性能。此外，我们引入了分层双交叉模态信息解缠（H-DCID）方法将信息分离和对齐扩展到两个级别，捕捉更多跨模态细节。实验结果表明显著的改进。
-
-    arXiv:2403.05168v1 Announce Type: cross  Abstract: Recent advances in representation learning have demonstrated the significance of multimodal alignment. The Dual Cross-modal Information Disentanglement (DCID) model, utilizing a unified codebook, shows promising results in achieving fine-grained representation and cross-modal generalization. However, it is still hindered by equal treatment of all channels and neglect of minor event information, resulting in interference from irrelevant channels and limited performance in fine-grained tasks. Thus, in this work, We propose a Training-free Optimization of Codebook (TOC) method to enhance model performance by selecting important channels in the unified space without retraining. Additionally, we introduce the Hierarchical Dual Cross-modal Information Disentanglement (H-DCID) approach to extend information separation and alignment to two levels, capturing more cross-modal details. The experiment results demonstrate significant improvements a
-    
-[^4]: SongComposer：一种用于歌曲生成的大型语言模型，用于歌词和旋律创作
-
-    SongComposer: A Large Language Model for Lyric and Melody Composition in Song Generation
-
-    [https://arxiv.org/abs/2402.17645](https://arxiv.org/abs/2402.17645)
-
-    SongComposer提出了一种用于歌曲生成的大型语言模型，采用符号化的歌曲表示，实现了LLM可以明确创作歌曲的能力。
+    本文分析了基于提示设计策略的ChatGPT在群体决策过程中的应用，为提取意见和做出决策提供了新的可能性。
 
     
 
-    我们提出了SongComposer，一个为歌曲创作而设计的创新型LLM。它能够理解和生成歌曲中的旋律和歌词，通过利用LLM的能力在符号化的歌曲表示中生成。现有的与音乐相关的LLM将音乐视为量化的音频信号，而这种隐式编码导致了编码效率低下和灵活性差。相比之下，我们采用了符号化的歌曲表示，这是人类为音乐设计的成熟和高效的方式，并使LLM能够像人类一样明确地创作歌曲。在实践中，我们设计了一种新颖的元组设计，用于格式化歌词和旋律中的三个音符属性（音高、持续时间和休止时间），从而保证LLM对音乐符号的正确理解，并实现歌词和旋律之间的精确对齐。为了向LLM灌输基本的音乐理解，我们精心收集了SongCompose-PT，一个大规模的歌曲预训练数据集，其中包括了歌词、旋律和成对的
+    社交媒体和互联网有潜力被利用作为丰富决策解决方案意见的来源。群体决策（CDM）是一种能够通过情感分析从纯文本（如社交媒体平台上发布的评论）中推断意见和决策的方法。本文分析了利用基于提示设计策略的ChatGPT来辅助CDM过程，以提取意见和做出决策。我们将ChatGPT整合到CDM过程中作为一种灵活的工具，推断出文本中表达的意见，并根据提示设计策略制定决策模型。
 
-    arXiv:2402.17645v1 Announce Type: cross  Abstract: We present SongComposer, an innovative LLM designed for song composition. It could understand and generate melodies and lyrics in symbolic song representations, by leveraging the capability of LLM. Existing music-related LLM treated the music as quantized audio signals, while such implicit encoding leads to inefficient encoding and poor flexibility. In contrast, we resort to symbolic song representation, the mature and efficient way humans designed for music, and enable LLM to explicitly compose songs like humans. In practice, we design a novel tuple design to format lyric and three note attributes (pitch, duration, and rest duration) in the melody, which guarantees the correct LLM understanding of musical symbols and realizes precise alignment between lyrics and melody. To impart basic music understanding to LLM, we carefully collected SongCompose-PT, a large-scale song pretraining dataset that includes lyrics, melodies, and paired ly
+    arXiv:2403.15587v1 Announce Type: new  Abstract: Social Media and Internet have the potential to be exploited as a source of opinion to enrich Decision Making solutions. Crowd Decision Making (CDM) is a methodology able to infer opinions and decisions from plain texts, such as reviews published in social media platforms, by means of Sentiment Analysis. Currently, the emergence and potential of Large Language Models (LLMs) lead us to explore new scenarios of automatically understand written texts, also known as natural language processing. This paper analyzes the use of ChatGPT based on prompt design strategies to assist in CDM processes to extract opinions and make decisions. We integrate ChatGPT in CDM processes as a flexible tool that infer the opinions expressed in texts, providing numerical or linguistic evaluations where the decision making models are based on the prompt design strategies. We include a multi-criteria decision making scenario with a category ontology for criteria. 
     
-[^5]: 渐变流自适应重要性抽样用于sigmoid分类模型的贝叶斯留一交叉验证
+[^3]: T-TAME：用于解释卷积网络和视觉Transformer的可训练注意机制
 
-    Gradient-flow adaptive importance sampling for Bayesian leave one out cross-validation for sigmoidal classification models
+    T-TAME: Trainable Attention Mechanism for Explaining Convolutional Networks and Vision Transformers
 
-    [https://arxiv.org/abs/2402.08151](https://arxiv.org/abs/2402.08151)
+    [https://arxiv.org/abs/2403.04523](https://arxiv.org/abs/2403.04523)
 
-    本研究引入了渐变流自适应重要性抽样的方法，用于稳定贝叶斯分类模型的留一交叉验证预测的蒙特卡罗近似，以评估模型的普适性。
-
-    
-
-    我们引入了一组梯度流引导的自适应重要性抽样（IS）变换，用于稳定贝叶斯分类模型的点级留一交叉验证（LOO）预测的蒙特卡罗近似。可以利用这种方法来评估模型的普适性，例如计算与AIC类似的LOO或计算LOO ROC / PRC曲线以及派生的度量指标，如AUROC和AUPRC。通过变分法和梯度流，我们推导出两个简单的非线性单步变换，利用梯度信息将模型的预训练完整数据后验靠近目标LOO后验预测分布。这样，变换稳定了重要性权重。因为变换涉及到似然函数的梯度，所以结果的蒙特卡罗积分依赖于模型Hessian的Jacobian行列式。我们推导出了这些Jacobian行列式的闭合精确公式。
-
-    We introduce a set of gradient-flow-guided adaptive importance sampling (IS) transformations to stabilize Monte-Carlo approximations of point-wise leave one out cross-validated (LOO) predictions for Bayesian classification models. One can leverage this methodology for assessing model generalizability by for instance computing a LOO analogue to the AIC or computing LOO ROC/PRC curves and derived metrics like the AUROC and AUPRC. By the calculus of variations and gradient flow, we derive two simple nonlinear single-step transformations that utilize gradient information to shift a model's pre-trained full-data posterior closer to the target LOO posterior predictive distributions. In doing so, the transformations stabilize importance weights. Because the transformations involve the gradient of the likelihood function, the resulting Monte Carlo integral depends on Jacobian determinants with respect to the model Hessian. We derive closed-form exact formulae for these Jacobian determinants in
-    
-[^6]: PreGIP: 针对深度知识产权保护的图神经网络预训练水印技术
-
-    PreGIP: Watermarking the Pretraining of Graph Neural Networks for Deep Intellectual Property Protection
-
-    [https://arxiv.org/abs/2402.04435](https://arxiv.org/abs/2402.04435)
-
-    PreGIP是针对深度知识产权保护的一种图神经网络预训练水印技术，它通过添加无任务的水印损失来给预训练的GNN编码器的嵌入空间添加水印，并采用抗微调的水印注入方法
+    本文提出了T-TAME，一种适用于卷积网络和视觉Transformer的可训练注意机制，为解释深度神经网络在图像分类任务中的应用提供了通用方法。
 
     
 
-    图神经网络（GNNs）的预训练在促进各种下游任务中显示出巨大的能力。由于预训练通常需要大量的数据和计算资源，预训练的GNNs成为合法拥有者的高价值知识产权（IP）。然而，对手可能会非法复制和部署预训练的GNN模型用于其下游任务。虽然已经开始尝试为IP保护添加GNN分类器的水印，但这些方法需要目标分类任务才能进行水印处理，因此不适用于GNN模型的自监督预训练。因此，在这项工作中，我们提出了一个新框架PreGIP，用于在保持嵌入空间高质量的同时，给GNN编码器的预训练添加水印以进行IP保护。PreGIP引入了无任务的水印损失来给预训练的GNN编码器的嵌入空间添加水印。同时采用了抗微调的水印注入方法。我们还进行了理论分析和扩展实验证明了方法的有效性和鲁棒性。
+    Vision Transformers和其他用于图像分类任务的深度学习架构的发展和应用快速增长。然而，神经网络的“黑匣子”特性是在需要解释性的应用中采用的障碍。虽然已经提出了一些用于生成解释的技术，主要用于卷积神经网络，但是将这些技术适应到视觉Transformer的新范式是非平凡的。本文提出了T-TAME，Transformer兼容的可训练注意机制用于解释，这是一种说明用于图像分类任务中的深度神经网络的通用方法。所提出的架构和训练技术可以轻松应用于任何卷积或类似Vision Transformer的神经网络，使用精简的训练方法。训练后，解释图可以在单次前向传递中计算出；这些解释图可以与Convolutional Neural Networks中生成的解释图相媲美或者
 
-    Pretraining on Graph Neural Networks (GNNs) has shown great power in facilitating various downstream tasks. As pretraining generally requires huge amount of data and computational resources, the pretrained GNNs are high-value Intellectual Properties (IP) of the legitimate owner. However, adversaries may illegally copy and deploy the pretrained GNN models for their downstream tasks. Though initial efforts have been made to watermark GNN classifiers for IP protection, these methods require the target classification task for watermarking, and thus are not applicable to self-supervised pretraining of GNN models. Hence, in this work, we propose a novel framework named PreGIP to watermark the pretraining of GNN encoder for IP protection while maintain the high-quality of the embedding space. PreGIP incorporates a task-free watermarking loss to watermark the embedding space of pretrained GNN encoder. A finetuning-resistant watermark injection is further deployed. Theoretical analysis and exte
+    arXiv:2403.04523v1 Announce Type: cross  Abstract: The development and adoption of Vision Transformers and other deep-learning architectures for image classification tasks has been rapid. However, the "black box" nature of neural networks is a barrier to adoption in applications where explainability is essential. While some techniques for generating explanations have been proposed, primarily for Convolutional Neural Networks, adapting such techniques to the new paradigm of Vision Transformers is non-trivial. This paper presents T-TAME, Transformer-compatible Trainable Attention Mechanism for Explanations, a general methodology for explaining deep neural networks used in image classification tasks. The proposed architecture and training technique can be easily applied to any convolutional or Vision Transformer-like neural network, using a streamlined training approach. After training, explanation maps can be computed in a single forward pass; these explanation maps are comparable to or 
     
-[^7]: 不要按按钮！探索机器学习和迁移学习中的数据泄露风险
+[^4]: 从实际到逻辑再到实际：为规划从原始数据中发明符号词汇、动作和模型
 
-    Don't Push the Button! Exploring Data Leakage Risks in Machine Learning and Transfer Learning. (arXiv:2401.13796v1 [cs.LG])
+    From Reals to Logic and Back: Inventing Symbolic Vocabularies, Actions and Models for Planning from Raw Data
 
-    [http://arxiv.org/abs/2401.13796](http://arxiv.org/abs/2401.13796)
+    [https://arxiv.org/abs/2402.11871](https://arxiv.org/abs/2402.11871)
 
-    本文讨论了机器学习中的数据泄露问题，即未预期的信息污染训练数据，影响模型性能评估，用户可能由于缺乏理解而忽视关键步骤，导致乐观的性能估计在实际场景中不成立。
-
-    
-
-    机器学习（ML）在各个领域取得了革命性的进展，为多个领域提供了预测能力。然而，随着ML工具的日益可获得性，许多从业者缺乏深入的ML专业知识，采用了“按按钮”方法，利用用户友好的界面而忽视了底层算法的深入理解。虽然这种方法提供了便利，但它引发了对结果可靠性的担忧，导致了错误的性能评估等挑战。本文解决了ML中的一个关键问题，即数据泄露，其中未预期的信息污染了训练数据，影响了模型的性能评估。由于缺乏理解，用户可能会无意中忽视关键步骤，从而导致在现实场景中可能不成立的乐观性能估计。评估性能与实际在新数据上的性能的差异是一个重要的关注点。本文特别将ML中的数据泄露分为不同类别，并讨论了相关解决方法。
-
-    Machine Learning (ML) has revolutionized various domains, offering predictive capabilities in several areas. However, with the increasing accessibility of ML tools, many practitioners, lacking deep ML expertise, adopt a "push the button" approach, utilizing user-friendly interfaces without a thorough understanding of underlying algorithms. While this approach provides convenience, it raises concerns about the reliability of outcomes, leading to challenges such as incorrect performance evaluation. This paper addresses a critical issue in ML, known as data leakage, where unintended information contaminates the training data, impacting model performance evaluation. Users, due to a lack of understanding, may inadvertently overlook crucial steps, leading to optimistic performance estimates that may not hold in real-world scenarios. The discrepancy between evaluated and actual performance on new data is a significant concern. In particular, this paper categorizes data leakage in ML, discussi
-    
-[^8]: CCFC：桥接联邦聚类和对比学习
-
-    CCFC: Bridging Federated Clustering and Contrastive Learning. (arXiv:2401.06634v1 [cs.LG])
-
-    [http://arxiv.org/abs/2401.06634](http://arxiv.org/abs/2401.06634)
-
-    本论文桥接了联邦聚类和对比学习，提出了一种名为CCFC的新联邦聚类方法。通过表示学习，CCFC在某些情况下聚类性能甚至是最佳基准方法的两倍。与最相关的基准方法相比，在最显著的案例中，CCFC的NMI得分提高了0.4155。同时，CCFC还能有效处理联邦场景下的数据分布和质量差异。
+    本文提出了一种从未标记高维实值机器人轨迹开始自主学习通用的逻辑相关表示，这些表示构成了自动发明的PDDL-like域模型。
 
     
 
-    联邦聚类是对于联邦场景中集中聚类的重要扩展，可以让多个数据持有客户端在保留本地数据的同时协同进行数据分组。在集中场景中，通过表示学习驱动的聚类在处理高维复杂数据方面取得了重大进展。然而，联邦聚类和表示学习的结合仍然未被充分研究。为了弥合这一差距，我们首先为学习聚类友好的表示定制了一个聚类对比模型。然后，我们利用这个模型作为提出新的联邦聚类方法的基础，称为聚类对比联邦聚类（CCFC）。受益于表示学习，CCFC的聚类性能在某些情况下甚至是最佳基准方法的两倍。与最相关的基准方法相比，在最显著的案例中，这种收益导致NMI得分的显著提高，最高达到0.4155。此外，CCFC还可以有效地处理在联邦场景下出现的数据分布和质量差异。
+    手工制作的基于逻辑的状态和动作表示已被广泛用于克服长期人工智能机器人规划问题的计算复杂性，包括任务和动作规划问题。但是，创建这样的表示需要具有强烈直觉和详细知识的专家，他们了解机器人和在特定环境中可能需要完成的任务。消除对人类直觉的依赖是一个极为活跃的研究领域。 本文提出了一种自主学习通用逻辑相关表示的方法，该表示从未标记的高维实值机器人轨迹开始。所学表示构成了自动发明的类PDDL域模型。确定性设置下的实证结果表明，仅从少数机器人轨迹中可以学到强大的抽象表示；所学关系
 
-    Federated clustering, an essential extension of centralized clustering for federated scenarios, enables multiple data-holding clients to collaboratively group data while keeping their data locally. In centralized scenarios, clustering driven by representation learning has made significant advancements in handling high-dimensional complex data. However, the combination of federated clustering and representation learning remains underexplored. To bridge this, we first tailor a cluster-contrastive model for learning clustering-friendly representations. Then, we harness this model as the foundation for proposing a new federated clustering method, named cluster-contrastive federated clustering (CCFC). Benefiting from representation learning, the clustering performance of CCFC even double those of the best baseline methods in some cases. Compared to the most related baseline, the benefit results in substantial NMI score improvements of up to 0.4155 on the most conspicuous case. Moreover, CCF
+    arXiv:2402.11871v1 Announce Type: cross  Abstract: Hand-crafted, logic-based state and action representations have been widely used to overcome the intractable computational complexity of long-horizon robot planning problems, including task and motion planning problems. However, creating such representations requires experts with strong intuitions and detailed knowledge about the robot and the tasks it may need to accomplish in a given setting. Removing this dependency on human intuition is a highly active research area.   This paper presents the first approach for autonomously learning generalizable, logic-based relational representations for abstract states and actions starting from unannotated high-dimensional, real-valued robot trajectories. The learned representations constitute auto-invented PDDL-like domain models. Empirical results in deterministic settings show that powerful abstract representations can be learned from just a handful of robot trajectories; the learned relation
     
-[^9]: 通过理解生成：具有逻辑符号基础的神经视觉生成
+[^5]: 男性CEO和女性助理：通过成对刻板印象测试探究文本-图像模型中的性别偏见
 
-    Generating by Understanding: Neural Visual Generation with Logical Symbol Groundings. (arXiv:2310.17451v1 [cs.AI])
+    The Male CEO and the Female Assistant: Probing Gender Biases in Text-To-Image Models Through Paired Stereotype Test
 
-    [http://arxiv.org/abs/2310.17451](http://arxiv.org/abs/2310.17451)
+    [https://arxiv.org/abs/2402.11089](https://arxiv.org/abs/2402.11089)
 
-    这篇论文提出了一种神经符号学习方法，AbdGen，用于将知识推理系统与神经视觉生成模型集成。它解决了符号赋值和规则学习的问题，通过量化诱导方法实现可靠高效的符号赋值，通过对比元诱导方法实现精确的规则学习。
-
-    
-
-    尽管近年来神经视觉生成模型取得了很大的成功，但将其与强大的符号知识推理系统集成仍然是一个具有挑战性的任务。主要挑战有两个方面：一个是符号赋值，即将神经视觉生成器的潜在因素与知识推理系统中的有意义的符号进行绑定。另一个是规则学习，即学习新的规则，这些规则控制数据的生成过程，以增强知识推理系统。为了解决这些符号基础问题，我们提出了一种神经符号学习方法，Abductive Visual Generation (AbdGen)，用于基于诱导学习框架将逻辑编程系统与神经视觉生成模型集成起来。为了实现可靠高效的符号赋值，引入了量化诱导方法，通过语义编码本中的最近邻查找生成诱导提案。为了实现精确的规则学习，引入了对比元诱导方法。
-
-    Despite the great success of neural visual generative models in recent years, integrating them with strong symbolic knowledge reasoning systems remains a challenging task. The main challenges are two-fold: one is symbol assignment, i.e. bonding latent factors of neural visual generators with meaningful symbols from knowledge reasoning systems. Another is rule learning, i.e. learning new rules, which govern the generative process of the data, to augment the knowledge reasoning systems. To deal with these symbol grounding problems, we propose a neural-symbolic learning approach, Abductive Visual Generation (AbdGen), for integrating logic programming systems with neural visual generative models based on the abductive learning framework. To achieve reliable and efficient symbol assignment, the quantized abduction method is introduced for generating abduction proposals by the nearest-neighbor lookups within semantic codebooks. To achieve precise rule learning, the contrastive meta-abduction
-    
-[^10]: 使用分布式Hebbian Temporal Memory学习继任者表示法
-
-    Learning Successor Representations with Distributed Hebbian Temporal Memory. (arXiv:2310.13391v1 [cs.LG])
-
-    [http://arxiv.org/abs/2310.13391](http://arxiv.org/abs/2310.13391)
-
-    本文提出了一种名为DHTM的算法，它基于因子图形式和多组成神经元模型，利用分布式表示、稀疏转移矩阵和局部Hebbian样学习规则来解决在线隐藏表示学习的挑战。实验结果表明，DHTM在变化的环境中比经典的LSTM效果更好，并与更先进的类似RNN的算法性能相当，可以加速继任者表示的时间差异学习。
+    通过成对刻板印象测试（PST）框架，在文本-图像模型中探究性别偏见，并评估了DALLE-3在性别职业和组织权力方面的偏见。
 
     
 
-    本文提出了一种新颖的方法来解决在线隐藏表示学习的挑战，该方法用于在不稳定的、部分可观测的环境中进行决策。所提出的算法，分布式Hebbian Temporal Memory (DHTM)，基于因子图形式和多组成神经元模型。DHTM旨在捕捉顺序数据关系并对未来观察作出累积预测，形成继任者表示。受新皮层的神经生理学模型启发，该算法利用分布式表示、稀疏转移矩阵和局部Hebbian样学习规则克服了传统时间记忆算法（如RNN和HMM）的不稳定性和慢速学习过程。实验结果表明，DHTM优于经典的LSTM，并与更先进的类似RNN的算法性能相当，在变化的环境中加速了继任者表示的时间差异学习。此外，我们还进行了比较。
+    最近大规模的文本到图像（T2I）模型（如DALLE-3）展示了在新应用中的巨大潜力，但也面临前所未有的公平挑战。先前的研究揭示了单人图像生成中的性别偏见，但T2I模型应用可能需要同时描绘两个或更多人。该设定中的潜在偏见仍未被探究，导致使用中的公平相关风险。为了研究T2I模型中性别偏见的基本方面，我们提出了一种新颖的成对刻板印象测试（PST）偏见评估框架。PST促使模型生成同一图像中的两个个体，用与相反性别刻板印象相关联的两个社会身份来描述他们。通过生成的图像遵从性别刻板印象的程度来衡量偏见。利用PST，我们从两个角度评估DALLE-3：性别职业中的偏见和组织权力中的偏见。
 
-    This paper presents a novel approach to address the challenge of online hidden representation learning for decision-making under uncertainty in non-stationary, partially observable environments. The proposed algorithm, Distributed Hebbian Temporal Memory (DHTM), is based on factor graph formalism and a multicomponent neuron model. DHTM aims to capture sequential data relationships and make cumulative predictions about future observations, forming Successor Representation (SR). Inspired by neurophysiological models of the neocortex, the algorithm utilizes distributed representations, sparse transition matrices, and local Hebbian-like learning rules to overcome the instability and slow learning process of traditional temporal memory algorithms like RNN and HMM. Experimental results demonstrate that DHTM outperforms classical LSTM and performs comparably to more advanced RNN-like algorithms, speeding up Temporal Difference learning for SR in changing environments. Additionally, we compare
+    arXiv:2402.11089v1 Announce Type: cross  Abstract: Recent large-scale Text-To-Image (T2I) models such as DALLE-3 demonstrate great potential in new applications, but also face unprecedented fairness challenges. Prior studies revealed gender biases in single-person image generation, but T2I model applications might require portraying two or more people simultaneously. Potential biases in this setting remain unexplored, leading to fairness-related risks in usage. To study these underlying facets of gender biases in T2I models, we propose a novel Paired Stereotype Test (PST) bias evaluation framework. PST prompts the model to generate two individuals in the same image. They are described with two social identities that are stereotypically associated with the opposite gender. Biases can then be measured by the level of conformation to gender stereotypes in generated images. Using PST, we evaluate DALLE-3 from 2 perspectives: biases in gendered occupation and biases in organizational power.
     
-[^11]: 用于图学习中的拓扑概括的流动扩散变压器
+[^6]: 通过熵率最小化实现可预测的强化学习动态
 
-    Advective Diffusion Transformers for Topological Generalization in Graph Learning. (arXiv:2310.06417v1 [cs.LG])
+    Predictable Reinforcement Learning Dynamics through Entropy Rate Minimization
 
-    [http://arxiv.org/abs/2310.06417](http://arxiv.org/abs/2310.06417)
+    [https://arxiv.org/abs/2311.18703](https://arxiv.org/abs/2311.18703)
 
-    本研究探索了在不同的图拓扑存在下，图扩散方程如何对GNN进行外推和概括，揭示了基于局部扩散的现有模型在概括能力上的不足，并提出了非局部扩散的潜力。
-
-    
-
-    图扩散方程与图神经网络（GNN）密切相关，并且最近引起了人们的关注，作为分析GNN动力学、形式化其表达能力和证明架构选择的有原则的框架。图学习中的一个关键问题是GNN的概括能力。当前方法的一个主要限制在于假设训练集和测试集中的图拓扑来自相同的分布。本文通过探索图扩散方程在不同图拓扑存在下的外推和概括能力，迈出了解析GNN概括性的一步。我们首先展示了基于图上局部扩散的现有模型在概括能力上的不足，这是由于对拓扑变化的指数敏感性引起的。随后的分析揭示了非局部扩散的潜力，它倡导对完全连接的潜在图进行特征传播。
-
-    Graph diffusion equations are intimately related to graph neural networks (GNNs) and have recently attracted attention as a principled framework for analyzing GNN dynamics, formalizing their expressive power, and justifying architectural choices. One key open questions in graph learning is the generalization capabilities of GNNs. A major limitation of current approaches hinges on the assumption that the graph topologies in the training and test sets come from the same distribution. In this paper, we make steps towards understanding the generalization of GNNs by exploring how graph diffusion equations extrapolate and generalize in the presence of varying graph topologies. We first show deficiencies in the generalization capability of existing models built upon local diffusion on graphs, stemming from the exponential sensitivity to topology variation. Our subsequent analysis reveals the promise of non-local diffusion, which advocates for feature propagation over fully-connected latent gr
-    
-[^12]: AI生成报告的事实核查
-
-    Fact-Checking of AI-Generated Reports. (arXiv:2307.14634v1 [cs.AI])
-
-    [http://arxiv.org/abs/2307.14634](http://arxiv.org/abs/2307.14634)
-
-    本文提出了一种使用相关联的图像对AI生成报告进行事实核查的新方法，以区分报告中的真假句子。这对加快临床工作流程，提高准确性并降低总体成本具有重要意义。
+    该论文提出了一种名为PA-RL的方法，通过最小化熵率来引导强化学习智能体展现可预测的行为。研究展示了如何利用平均替代奖励实现确定性策略，并在动态模型的基础上近似计算值函数。
 
     
 
-    随着生成人工智能（AI）的进步，现在可以生成逼真的自动报告来对放射学图像进行初步阅读。这可以加快临床工作流程，提高准确性并降低总体成本。然而，众所周知，这种模型往往会产生幻觉，导致生成报告中出现错误的发现。在本文中，我们提出了一种使用相关联的图像对AI生成报告进行事实核查的新方法。具体而言，通过学习图像与描述真实或潜在虚假发现的句子之间的关联，开发的核查者区分报告中的真假句子。为了训练这样的核查者，我们首先通过扰动原始与图像相关的放射学报告中的发现，创建了一个新的伪造报告数据集。然后将来自这些报告的真假句子的文本编码与图像编码配对，学习映射到真/假标签的关系。
+    在强化学习中，智能体没有动机展示可预测的行为，通常通过策略熵正则化推动智能体在探索上随机化其行为。从人的角度来看，这使得强化学习智能体很难解释和预测；从安全角度来看，更难以进行形式化验证。我们提出了一种新的方法，称为可预测性感知强化学习（PA-RL），用于引导智能体展现可预测的行为，其利用状态序列熵率作为可预测性度量。我们展示了如何将熵率制定为平均奖励目标，并且由于其熵奖励函数依赖于策略，我们引入了一个动作相关的替代熵，以利用PG方法。我们证明了最小化平均替代奖励的确定性策略存在，并且最小化了实际熵率。我们还展示了如何在学习到的动态模型的基础上近似计算与值函数。
 
-    With advances in generative artificial intelligence (AI), it is now possible to produce realistic-looking automated reports for preliminary reads of radiology images. This can expedite clinical workflows, improve accuracy and reduce overall costs. However, it is also well-known that such models often hallucinate, leading to false findings in the generated reports. In this paper, we propose a new method of fact-checking of AI-generated reports using their associated images. Specifically, the developed examiner differentiates real and fake sentences in reports by learning the association between an image and sentences describing real or potentially fake findings. To train such an examiner, we first created a new dataset of fake reports by perturbing the findings in the original ground truth radiology reports associated with images. Text encodings of real and fake sentences drawn from these reports are then paired with image encodings to learn the mapping to real/fake labels. The utility 
+    In Reinforcement Learning (RL), agents have no incentive to exhibit predictable behaviors, and are often pushed (through e.g. policy entropy regularization) to randomize their actions in favor of exploration. From a human perspective, this makes RL agents hard to interpret and predict, and from a safety perspective, even harder to formally verify. We propose a novel method to induce predictable behavior in RL agents, referred to as Predictability-Aware RL (PA-RL), which employs the state sequence entropy rate as a predictability measure. We show how the entropy rate can be formulated as an average reward objective, and since its entropy reward function is policy-dependent, we introduce an action-dependent surrogate entropy enabling the use of PG methods. We prove that deterministic policies minimizing the average surrogate reward exist and also minimize the actual entropy rate, and show how, given a learned dynamical model, we are able to approximate the value function associated to th
     
-[^13]: 一种神经λ演算法：神经符号人工智能遇见计算和函数式编程的基础。
+[^7]: 可展示的时间序列预测
 
-    A Neural Lambda Calculus: Neurosymbolic AI meets the foundations of computing and functional programming. (arXiv:2304.09276v1 [cs.LG])
+    Performative Time-Series Forecasting. (arXiv:2310.06077v1 [cs.LG])
 
-    [http://arxiv.org/abs/2304.09276](http://arxiv.org/abs/2304.09276)
+    [http://arxiv.org/abs/2310.06077](http://arxiv.org/abs/2310.06077)
 
-    本文提出了一种神经λ演算法，使用λ语言编程，研究神经网络在执行整个程序的能力，旨在拓展神经网络在符号人工智能领域的应用。
-
-    
-
-    在过去几十年中，基于深度神经网络的模型成为了机器学习中的主导范式。最近，人们越来越认为在符号学习中使用人工神经网络是越来越相关的。为了研究神经网络在符号人工智能领域的能力，研究人员已经探索了深度神经网络学习数学构造（如加法和乘法）、逻辑推理（如定理证明器）甚至执行计算机程序的能力。然而，后者对于神经网络来说是太复杂的任务，结果并不总是成功的，并且往往需要在学习过程中引入有偏见的元素，以限制可能要执行的程序的范围。在这项工作中，我们将分析神经网络学习如何执行整个程序的能力。为此，我们提出了一种不同的方法。我们不使用命令式编程语言，而是采用λ语言进行编程。
-
-    Over the last decades, deep neural networks based-models became the dominant paradigm in machine learning. Further, the use of artificial neural networks in symbolic learning has been seen as increasingly relevant recently. To study the capabilities of neural networks in the symbolic AI domain, researchers have explored the ability of deep neural networks to learn mathematical constructions, such as addition and multiplication, logic inference, such as theorem provers, and even the execution of computer programs. The latter is known to be too complex a task for neural networks. Therefore, the results were not always successful, and often required the introduction of biased elements in the learning process, in addition to restricting the scope of possible programs to be executed. In this work, we will analyze the ability of neural networks to learn how to execute programs as a whole. To do so, we propose a different approach. Instead of using an imperative programming language, with com
-    
-[^14]: 三维医学图像的翻译一致半监督分割
-
-    Translation Consistent Semi-supervised Segmentation for 3D Medical Images. (arXiv:2203.14523v2 [cs.CV] UPDATED)
-
-    [http://arxiv.org/abs/2203.14523](http://arxiv.org/abs/2203.14523)
-
-    本论文提出了一种名为TraCoCo的半监督学习方法，通过改变输入数据视图的不同空间上下文来扰动训练，从而使模型能够从可视化对象中学习分割模式，实现了三维医学图像的翻译一致半监督分割。
+    本论文研究了时间序列预测中的展示性问题，提出了一种新的方法（FPS），通过利用延迟响应的概念来解决展示性引起的分布变化，并实现准确的预测。
 
     
 
-    三维医学图像分割的方法已经成功，但其依赖于涵盖大量体素的注释数据，这是一个需要解决的劣势，因为获取这种注释的成本很高。半监督学习（SSL）通过使用大量未标记的数据集和少量标记的数据集来训练模型来解决这个问题。最成功的SSL方法基于一致性学习，该方法通过最小化从未标记数据的扰动视图获得的模型响应之间的距离来实现。这些扰动通常会保持视图之间的空间输入上下文相当一致，这可能会使模型从空间输入上下文中学习分割模式，而不是从分割对象本身中学习。在本文中，我们介绍了翻译一致协同训练（TraCoCo），这是一种一致性学习SSL方法，它通过改变不同的空间输入上下文来扰动输入数据视图，使模型能够从可视化对象中学习分割模式。
+    时间序列预测是各个领域中的一个关键挑战，在近年来取得了实质性的进展。许多现实生活场景，如公共卫生、经济和社会应用，涉及到反馈循环，其中预测结果可能会影响到预测的结果，进而改变目标变量的分布。这种现象被称为展示性，引入了可能出现“自我抵消”或“自我实现”的预测的潜力。尽管在各个领域中对分类问题进行了广泛的研究，但展示性在机器学习视角下的时间序列预测问题尚未得到广泛探讨。在这篇论文中，我们对可展示的时间序列预测（PeTS）进行了形式化，解决了当可能存在展示性引起的分布变化时的准确预测挑战。我们提出了一种新颖方法，特征展示性转移（FPS），它利用延迟响应的概念来预测分布的变化和随后的变量。
 
-    3D medical image segmentation methods have been successful, but their dependence on large amounts of voxel-level annotated data is a disadvantage that needs to be addressed given the high cost to obtain such annotation. Semi-supervised learning (SSL) solve this issue by training models with a large unlabelled and a small labelled dataset. The most successful SSL approaches are based on consistency learning that minimises the distance between model responses obtained from perturbed views of the unlabelled data. These perturbations usually keep the spatial input context between views fairly consistent, which may cause the model to learn segmentation patterns from the spatial input contexts instead of the segmented objects. In this paper, we introduce the Translation Consistent Co-training (TraCoCo) which is a consistency learning SSL method that perturbs the input data views by varying their spatial input context, allowing the model to learn segmentation patterns from visual objects. Fur
+    Time-series forecasting is a critical challenge in various domains and has witnessed substantial progress in recent years. Many real-life scenarios, such as public health, economics, and social applications, involve feedback loops where predictions can influence the predicted outcome, subsequently altering the target variable's distribution. This phenomenon, known as performativity, introduces the potential for 'self-negating' or 'self-fulfilling' predictions. Despite extensive studies in classification problems across domains, performativity remains largely unexplored in the context of time-series forecasting from a machine-learning perspective.  In this paper, we formalize performative time-series forecasting (PeTS), addressing the challenge of accurate predictions when performativity-induced distribution shifts are possible. We propose a novel approach, Feature Performative-Shifting (FPS), which leverages the concept of delayed response to anticipate distribution shifts and subseque
+    
+[^8]: 对大规模属性图上的节点表示学习进行标签解卷积以抵抗学习偏差的研究
+
+    Label Deconvolution for Node Representation Learning on Large-scale Attributed Graphs against Learning Bias. (arXiv:2309.14907v1 [cs.LG])
+
+    [http://arxiv.org/abs/2309.14907](http://arxiv.org/abs/2309.14907)
+
+    本文提出了一种标签解卷积技术(LD)，通过对图神经网络(GNNs)的逆映射进行高效的近似，来解决在大规模属性图上进行节点表示学习时的学习偏差挑战。
+
+    
+
+    在带属性的图中，节点表示学习对许多重要的下游任务起着关键作用。为了同时编码属性和图结构，最近的研究将预训练模型与图神经网络(GNNs)进行整合，其中预训练模型作为节点编码器(NEs)来编码属性。由于在大规模图上同时训练大型NEs和GNNs存在严重的可伸缩性问题，许多方法提出了分别训练NEs和GNNs的方法。因此，在NEs的训练阶段中，他们没有考虑到GNNs中的特征卷积，导致了与联合训练相比的显著学习偏差。为了解决这个挑战，我们提出了一种高效的标签正则化技术，即标签解卷积(LD)，通过对GNNs的逆映射进行新颖且高度可伸缩的近似，以减轻学习偏差。
+
+    Node representation learning on attributed graphs -- whose nodes are associated with rich attributes (e.g., texts and protein sequences) -- plays a crucial role in many important downstream tasks. To encode the attributes and graph structures simultaneously, recent studies integrate pre-trained models with graph neural networks (GNNs), where pre-trained models serve as node encoders (NEs) to encode the attributes. As jointly training large NEs and GNNs on large-scale graphs suffers from severe scalability issues, many methods propose to train NEs and GNNs separately. Consequently, they do not take feature convolutions in GNNs into consideration in the training phase of NEs, leading to a significant learning bias from that by the joint training. To address this challenge, we propose an efficient label regularization technique, namely Label Deconvolution (LD), to alleviate the learning bias by a novel and highly scalable approximation to the inverse mapping of GNNs. The inverse mapping l
+    
+[^9]: FedJETs：具有联邦混合专家的高效及时个性化方法
+
+    FedJETs: Efficient Just-In-Time Personalization with Federated Mixture of Experts. (arXiv:2306.08586v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2306.08586](http://arxiv.org/abs/2306.08586)
+
+    本论文提出了一种名为FedJETs的方法，使用联邦混合专家的框架，在联邦学习中实现高效及时的个性化。该方法通过训练专门的专家，并利用门控函数将输入路由到相关的专家，有效提高了模型的准确性。
+
+    
+
+    联邦学习（FL）的目标之一是创建能够适应每个参与客户端上下文的个性化模型，同时利用共享全局模型的知识。然而，通常情况下，个性化需要使用客户标记的数据进行微调以实现良好的性能，这在新来的客户端是不可行的，在隐私方面也存在问题。因此，如何在这些场景中实现及时个性化仍然是个未解决的问题。我们提出了FedJETs，这是一个在FL设置中使用“专家混合（MoE）”框架的新颖解决方案。我们的方法利用客户的多样性，在不同的类别子集上训练专门的专家，并利用一个门控函数将输入路由到最相关的专家。我们的门控函数利用预训练模型的共享专家的知识，以增强其即时的路由决策。值得一提的是，我们的方法能够将准确性提高高达18％，达到现有技术水平水平。
+
+    One of the goals in Federated Learning (FL) is to create personalized models that can adapt to the context of each participating client, while utilizing knowledge from a shared global model. Yet, often, personalization requires a fine-tuning step using clients' labeled data in order to achieve good performance. This may not be feasible in scenarios where incoming clients are fresh and/or have privacy concerns. It, then, remains open how one can achieve just-in-time personalization in these scenarios. We propose FedJETs, a novel solution by using a Mixture-of-Experts (MoE) framework within a FL setup. Our method leverages the diversity of the clients to train specialized experts on different subsets of classes, and a gating function to route the input to the most relevant expert(s). Our gating function harnesses the knowledge of a pretrained model common expert to enhance its routing decisions on-the-fly. As a highlight, our approach can improve accuracy up to 18\% in state of the art F
     
 
