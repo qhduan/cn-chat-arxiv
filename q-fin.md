@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Enhancing Educational Outcome with Machine Learning: Modeling Friendship Formation, Measuring Peer Effect and Optimizing Class Assignment](https://arxiv.org/abs/2404.02497) | 该论文利用机器学习解决学校班级分配问题，通过友谊预测、同侪影响估计和班级分配优化，发现将学生分成有性别特征的班级能够提高平均同侪影响，并且极端混合的班级分配方法可以改善底部四分之一学生的同侪影响。 |
+| [^1] | [The Dynamic Persistence of Economic Shocks.](http://arxiv.org/abs/2306.01511) | 本文提出经济数据持久性的平滑变化模型，通过局部回归从数据中确定丰富的持久性结构。研究发现这种动态持续性自然而然地来源于不同持续性的经济冲击，包括政策制定中起关键作用的通货膨胀和对于风险和市场分析至关重要的股票波动率。 |
 
 # 详细
 
-[^1]: 用机器学习提升教育成果：建模友谊形成，衡量同侪影响和优化班级分配
+[^1]: 经济冲击的动态持久性
 
-    Enhancing Educational Outcome with Machine Learning: Modeling Friendship Formation, Measuring Peer Effect and Optimizing Class Assignment
+    The Dynamic Persistence of Economic Shocks. (arXiv:2306.01511v1 [q-fin.GN])
 
-    [https://arxiv.org/abs/2404.02497](https://arxiv.org/abs/2404.02497)
+    [http://arxiv.org/abs/2306.01511](http://arxiv.org/abs/2306.01511)
 
-    该论文利用机器学习解决学校班级分配问题，通过友谊预测、同侪影响估计和班级分配优化，发现将学生分成有性别特征的班级能够提高平均同侪影响，并且极端混合的班级分配方法可以改善底部四分之一学生的同侪影响。
+    本文提出经济数据持久性的平滑变化模型，通过局部回归从数据中确定丰富的持久性结构。研究发现这种动态持续性自然而然地来源于不同持续性的经济冲击，包括政策制定中起关键作用的通货膨胀和对于风险和市场分析至关重要的股票波动率。
 
     
 
-    在这篇论文中，我们研究了学校校长的班级分配问题。我们将问题分为三个阶段：友谊预测、同侪影响评估和班级分配优化。我们建立了一个微观基础模型来模拟友谊形成，并将该模型逼近为一个神经网络。利用预测的友谊概率邻接矩阵，我们改进了传统的线性均值模型并估计了同侪影响。我们提出了一种新的工具以解决友谊选择的内生性问题。估计的同侪影响略大于线性均值模型的估计。利用友谊预测和同侪影响估计结果，我们模拟了所有学生的反事实同侪影响。我们发现将学生分成有性别特征的班级可以将平均同侪影响提高0.02分（在5分制中）。我们还发现极端混合的班级分配方法可以提高底部四分之一学生的同侪影响。
+    本文提出了一个模型，用于平滑变化的经济数据持久性。我们认为这种动态持续性自然而然地来源于不同持续性经济冲击的动态特性。通过使用局部回归从数据中确定这种动态持续性。经验证明，在两个重要数据集（政策制定中起关键作用的通货膨胀和对于风险和市场分析至关重要的股票波动率）中，我们确定了平稳变化的丰富持续性结构。
 
-    arXiv:2404.02497v1 Announce Type: new  Abstract: In this paper, we look at a school principal's class assignment problem. We break the problem into three stages (1) friendship prediction (2) peer effect estimation (3) class assignment optimization. We build a micro-founded model for friendship formation and approximate the model as a neural network. Leveraging on the predicted friendship probability adjacent matrix, we improve the traditional linear-in-means model and estimate peer effect. We propose a new instrument to address the friendship selection endogeneity. The estimated peer effect is slightly larger than the linear-in-means model estimate. Using the friendship prediction and peer effect estimation results, we simulate counterfactual peer effects for all students. We find that dividing students into gendered classrooms increases average peer effect by 0.02 point on a scale of 5. We also find that extreme mixing class assignment method improves bottom quartile students' peer ef
+    This paper presents a model for smoothly varying heterogeneous persistence of economic data. We argue that such dynamics arise naturally from the dynamic nature of economic shocks with various degree of persistence. The identification of such dynamics from data is done using localised regressions. Empirically, we identify rich persistence structures that change smoothly over time in two important data sets: inflation, which plays a key role in policy formulation, and stock volatility, which is crucial for risk and market analysis.
     
 
