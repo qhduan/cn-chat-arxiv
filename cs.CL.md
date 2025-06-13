@@ -2,82 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Structured Information Matters: Incorporating Abstract Meaning Representation into LLMs for Improved Open-Domain Dialogue Evaluation](https://arxiv.org/abs/2404.01129) | 将抽象意义表示结合到LLMs中，提出了一个简单有效的框架用于改善开放领域对话评估 |
-| [^2] | [Knowing Your Nonlinearities: Shapley Interactions Reveal the Underlying Structure of Data](https://arxiv.org/abs/2403.13106) | 该论文使用Shapley Taylor互动指数（STII）分析了底层数据结构对各种模态、任务和架构中模型表征的影响，发现了语言模型和语音模型中的新颖现象，并展示了特征交互如何直观反映对象边界。 |
-| [^3] | [DREsS: Dataset for Rubric-based Essay Scoring on EFL Writing](https://arxiv.org/abs/2402.16733) | 本文发布了一个大型标准数据集DREsS，用于基于评分标准的自动作文评分，在提出了一种基于破坏的作文增强策略CASE后，这个数据集的基线结果提高了45.44％。 |
-| [^4] | [Listen, Chat, and Edit: Text-Guided Soundscape Modification for Enhanced Auditory Experience](https://arxiv.org/abs/2402.03710) | 本研究引入了一种新颖的多模态声音混合编辑器，通过用户提供的文本指令实现对声音源的修改，实现了同时编辑多个声音源的能力，无需将它们分离。实验证明了该编辑器的实用性和效果。 |
-| [^5] | [AMELI: Enhancing Multimodal Entity Linking with Fine-Grained Attributes.](http://arxiv.org/abs/2305.14725) | 提出了一种属性感知的多模态实体链接方法，并构建了一个大型数据集AMELI，实验证明了将属性信息纳入实体链接过程的重要性。 |
+| [^1] | [PRSA: Prompt Reverse Stealing Attacks against Large Language Models](https://arxiv.org/abs/2402.19200) | 本文提出了针对商业LLMs的提示反窃取攻击框架PRSA，通过分析输入-输出对的关键特征实现攻击。 |
+| [^2] | [Mitigating Object Hallucination in Large Vision-Language Models via Classifier-Free Guidance](https://arxiv.org/abs/2402.08680) | 本文介绍了一种名为MARINE的框架，用于通过无分类器引导来减少大型视觉语言模型的物体幻觉。该框架无需训练或API访问，并通过集成视觉模型和引入额外的物体基础特征来提高模型的生成精确性和效率。 |
+| [^3] | [Weak-to-Strong Jailbreaking on Large Language Models](https://arxiv.org/abs/2401.17256) | 通过弱到强破解攻击，对手可以利用较小的不安全/对齐LLMs指导对显著较大的对齐LLMs进行破解，与解码较大的LLMs相比，其计算和延迟成本较小。 |
 
 # 详细
 
-[^1]: 结构化信息很重要：将抽象意义表示引入LLMs以改善开放领域对话评估
+[^1]: PRSA：大型语言模型的提示反盗窃攻击
 
-    Structured Information Matters: Incorporating Abstract Meaning Representation into LLMs for Improved Open-Domain Dialogue Evaluation
+    PRSA: Prompt Reverse Stealing Attacks against Large Language Models
 
-    [https://arxiv.org/abs/2404.01129](https://arxiv.org/abs/2404.01129)
+    [https://arxiv.org/abs/2402.19200](https://arxiv.org/abs/2402.19200)
 
-    将抽象意义表示结合到LLMs中，提出了一个简单有效的框架用于改善开放领域对话评估
-
-    
-
-    arXiv:2404.01129v1 公告类型：新的 摘要：自动的开放领域对话评估已经引起越来越多的关注。可训练的评估指标通常是通过训练具有真正正例和随机选择的负例回复来训练的，导致它们倾向于将更高内容相似性的回复分配更高的得分给定一个上下文。然而，对抗性的负面回复具有与上下文高内容相似性，同时在语义上不同。因此，现有的评估指标不足以评估这类回复，导致与人类判断之间的相关性较低。虽然最近的研究已经显示出在利用大型语言模型（LLMs）进行开放领域对话评估方面有一定效果，但它们仍然在有效处理对抗性负面示例方面遇到挑战。在本文中，我们提出了一个简单而有效的框架用于开放领域对话评估，它结合了领域特定的语言模型（SLMs）。
-
-    arXiv:2404.01129v1 Announce Type: new  Abstract: Automatic open-domain dialogue evaluation has attracted increasing attention. Trainable evaluation metrics are commonly trained with true positive and randomly selected negative responses, resulting in a tendency for them to assign a higher score to the responses that share higher content similarity with a given context. However, adversarial negative responses possess high content similarity with the contexts whilst being semantically different. Therefore, existing evaluation metrics are not robust enough to evaluate such responses, resulting in low correlations with human judgments. While recent studies have shown some efficacy in utilizing Large Language Models (LLMs) for open-domain dialogue evaluation, they still encounter challenges in effectively handling adversarial negative examples. In this paper, we propose a simple yet effective framework for open-domain dialogue evaluation, which combines domain-specific language models (SLMs
-    
-[^2]: 认识你的非线性：Shapley互动揭示数据的潜在结构
-
-    Knowing Your Nonlinearities: Shapley Interactions Reveal the Underlying Structure of Data
-
-    [https://arxiv.org/abs/2403.13106](https://arxiv.org/abs/2403.13106)
-
-    该论文使用Shapley Taylor互动指数（STII）分析了底层数据结构对各种模态、任务和架构中模型表征的影响，发现了语言模型和语音模型中的新颖现象，并展示了特征交互如何直观反映对象边界。
+    本文提出了针对商业LLMs的提示反窃取攻击框架PRSA，通过分析输入-输出对的关键特征实现攻击。
 
     
 
-    测量非线性特征交互是理解许多模型中复杂归因模式的一种已建立的方法。本文使用Shapley Taylor互动指数（STII）来分析底层数据结构对多种模态、任务和架构中模型表征的影响。在考虑掩码和自回归语言模型（MLMs和ALMs）中的语言结构时，我们发现STII在惯用表达中增加，MLMs随句法距离扩展STII，更多地依赖语法在其非线性结构中相比ALMs。我们的语音模型研究反映了口腔张开程度决定音素根据上下文变化的数量的原则。最后，我们研究图像分类器并说明特征交互直观反映对象边界。我们广泛的结果展示了跨学科工作和领域之间的益处。
+    提示作为重要的知识产权，使得大型语言模型（LLMs）能够执行特定任务而无需微调，突显了它们不断增长的重要性。随着基于提示的服务的崛起，如提示市场和LLM应用程序，提供者经常通过输入-输出示例展示提示的能力，以吸引用户。然而，这种范式提出了一个关键的安全问题：暴露输入-输出对是否会对潜在提示泄漏构成风险，侵犯开发者的知识产权？就我们所知，这个问题还没有得到全面探讨。为了弥补这一空白，在本文中，我们进行了首次深入探讨，并提出了一个针对商业LLMs的提示反窃取攻击框架，即PRSA。PRSA的主要思想是通过分析输入-输出对的关键特征，我们模仿并g
 
-    arXiv:2403.13106v1 Announce Type: cross  Abstract: Measuring nonlinear feature interaction is an established approach to understanding complex patterns of attribution in many models. In this paper, we use Shapley Taylor interaction indices (STII) to analyze the impact of underlying data structure on model representations in a variety of modalities, tasks, and architectures. Considering linguistic structure in masked and auto-regressive language models (MLMs and ALMs), we find that STII increases within idiomatic expressions and that MLMs scale STII with syntactic distance, relying more on syntax in their nonlinear structure than ALMs do. Our speech model findings reflect the phonetic principal that the openness of the oral cavity determines how much a phoneme varies based on its context. Finally, we study image classifiers and illustrate that feature interactions intuitively reflect object boundaries. Our wide range of results illustrates the benefits of interdisciplinary work and doma
+    arXiv:2402.19200v1 Announce Type: cross  Abstract: Prompt, recognized as crucial intellectual property, enables large language models (LLMs) to perform specific tasks without the need of fine-tuning, underscoring their escalating importance. With the rise of prompt-based services, such as prompt marketplaces and LLM applications, providers often display prompts' capabilities through input-output examples to attract users. However, this paradigm raises a pivotal security concern: does the exposure of input-output pairs pose the risk of potential prompt leakage, infringing on the intellectual property rights of the developers? To our knowledge, this problem still has not been comprehensively explored yet. To remedy this gap, in this paper, we perform the first in depth exploration and propose a novel attack framework for reverse-stealing prompts against commercial LLMs, namely PRSA. The main idea of PRSA is that by analyzing the critical features of the input-output pairs, we mimic and g
     
-[^3]: DREsS: 英语作为外语写作基于评分标准的数据集
+[^2]: 通过无分类器引导来减轻大型视觉语言模型中的物体幻觉
 
-    DREsS: Dataset for Rubric-based Essay Scoring on EFL Writing
+    Mitigating Object Hallucination in Large Vision-Language Models via Classifier-Free Guidance
 
-    [https://arxiv.org/abs/2402.16733](https://arxiv.org/abs/2402.16733)
+    [https://arxiv.org/abs/2402.08680](https://arxiv.org/abs/2402.08680)
 
-    本文发布了一个大型标准数据集DREsS，用于基于评分标准的自动作文评分，在提出了一种基于破坏的作文增强策略CASE后，这个数据集的基线结果提高了45.44％。
-
-    
-
-    自动化作文评分（AES）是英语作为外语写作教育中一种有用的工具，为学生和教师提供实时作文评分。然而，先前的AES模型是在与EFL写作教育实际场景不相关的作文和分数上进行训练的，并且通常由于缺乏适当的数据集而提供单一的整体评分。在本文中，我们发布了DREsS，这是一个用于基于评分标准的自动作文评分的大型标准数据集。DREsS包括三个子数据集：DREsS_New，DREsS_Std.和DREsS_CASE。我们收集了DREsS_New，这是一个由EFL本科生撰写并由英语教育专家评分的真实课堂数据集。我们还将现有的基于评分标准的作文评分数据集标准化为DREsS_Std。我们提出了一个名为CASE的基于破坏的作文增强策略，用于生成20K个DREsS_CASE的合成样本，并将基线结果提高了45.44％。
-
-    arXiv:2402.16733v1 Announce Type: new  Abstract: Automated essay scoring (AES) is a useful tool in English as a Foreign Language (EFL) writing education, offering real-time essay scores for students and instructors. However, previous AES models were trained on essays and scores irrelevant to the practical scenarios of EFL writing education and usually provided a single holistic score due to the lack of appropriate datasets. In this paper, we release DREsS, a large-scale, standard dataset for rubric-based automated essay scoring. DREsS comprises three sub-datasets: DREsS_New, DREsS_Std., and DREsS_CASE. We collect DREsS_New, a real-classroom dataset with 1.7K essays authored by EFL undergraduate students and scored by English education experts. We also standardize existing rubric-based essay scoring datasets as DREsS_Std. We suggest CASE, a corruption-based augmentation strategy for essays, which generates 20K synthetic samples of DREsS_CASE and improves the baseline results by 45.44%. 
-    
-[^4]: 听、聊、编辑：基于文本指导的声景修改以增强听觉体验
-
-    Listen, Chat, and Edit: Text-Guided Soundscape Modification for Enhanced Auditory Experience
-
-    [https://arxiv.org/abs/2402.03710](https://arxiv.org/abs/2402.03710)
-
-    本研究引入了一种新颖的多模态声音混合编辑器，通过用户提供的文本指令实现对声音源的修改，实现了同时编辑多个声音源的能力，无需将它们分离。实验证明了该编辑器的实用性和效果。
+    本文介绍了一种名为MARINE的框架，用于通过无分类器引导来减少大型视觉语言模型的物体幻觉。该框架无需训练或API访问，并通过集成视觉模型和引入额外的物体基础特征来提高模型的生成精确性和效率。
 
     
 
-    在日常生活中，我们遇到各种各样的声音，有些是我们期望的，有些是我们不希望的，对它们的存在和音量的控制有限。我们的工作引入了一种新颖的多模态声音混合编辑器"听、聊、编辑"(LCE)，该编辑器根据用户提供的文本指令修改混合中的每个声音源。LCE通过用户友好的聊天界面以及其在不需要将声音源分离的情况下同时对多个声音源进行编辑的能力而与众不同。用户输入开放性的文本提示，这些提示由大型语言模型解释，用于创建编辑声音混合的语义滤波器。系统然后将混合解析成其组成部分，应用语义滤波器，并将其重新组装成期望的输出。我们开发了一个包括语音和各种音频源以及用于不同编辑任务的文本提示的160小时数据集，包括提取、删除和音量控制。我们的实验证明。
+    大型视觉语言模型（LVLM）的进展越来越突出了它们在图像中产生虚假物体的严重问题。为了解决这个问题，先前的研究着重于使用特殊策划的数据集或强大的LLM（例如GPT-3.5）来纠正LVLM的输出。然而，这些方法要求昂贵的训练/微调或API访问先进的LLM来在生成后纠正模型的输出。在本文中，我们通过引入一个名为通过无分类器引导缓解幻觉的框架（MARINE）来解决这个挑战，该框架既无需训练也无需API访问，可以在生成过程中有效地减少物体幻觉。具体而言，MARINE通过集成现有的开源视觉模型丰富LVLM的视觉语境，并使用无分类器引导来整合额外的物体基础特征，以提高LVLM生成的精确性。
 
-    In daily life, we encounter a variety of sounds, both desirable and undesirable, with limited control over their presence and volume. Our work introduces "Listen, Chat, and Edit" (LCE), a novel multimodal sound mixture editor that modifies each sound source in a mixture based on user-provided text instructions. LCE distinguishes itself with a user-friendly chat interface and its unique ability to edit multiple sound sources simultaneously within a mixture, without needing to separate them. Users input open-vocabulary text prompts, which are interpreted by a large language model to create a semantic filter for editing the sound mixture. The system then decomposes the mixture into its components, applies the semantic filter, and reassembles it into the desired output. We developed a 160-hour dataset with over 100k mixtures, including speech and various audio sources, along with text prompts for diverse editing tasks like extraction, removal, and volume control. Our experiments demonstrat
+    The advancement of Large Vision-Language Models (LVLMs) has increasingly highlighted the critical issue of their tendency to hallucinate non-existing objects in the images. To address this issue, previous works focused on using specially curated datasets or powerful LLMs (e.g., GPT-3.5) to rectify the outputs of LVLMs. However, these approaches require either expensive training/fine-tuning or API access to advanced LLMs to correct the model's output post-generation. In this paper, we tackle this challenge by introducing a framework called Mitigating hallucinAtion via classifieR-Free guIdaNcE (MARINE), which is both training-free and API-free, and can effectively and efficiently reduce object hallucinations during the generation process. Specifically, MARINE enriches the visual context of LVLMs by integrating existing open-source vision models, and employs classifier-free guidance to incorporate the additional object grounding features to improve the precision of LVLMs' generations. Thr
     
-[^5]: AMELI:细粒度属性增强多模态实体链接
+[^3]: 大规模语言模型的弱到强破解
 
-    AMELI: Enhancing Multimodal Entity Linking with Fine-Grained Attributes. (arXiv:2305.14725v1 [cs.CL])
+    Weak-to-Strong Jailbreaking on Large Language Models
 
-    [http://arxiv.org/abs/2305.14725](http://arxiv.org/abs/2305.14725)
+    [https://arxiv.org/abs/2401.17256](https://arxiv.org/abs/2401.17256)
 
-    提出了一种属性感知的多模态实体链接方法，并构建了一个大型数据集AMELI，实验证明了将属性信息纳入实体链接过程的重要性。
+    通过弱到强破解攻击，对手可以利用较小的不安全/对齐LLMs指导对显著较大的对齐LLMs进行破解，与解码较大的LLMs相比，其计算和延迟成本较小。
 
     
 
-    我们提出了一种属性感知的多模态实体链接方法，其中输入是一个由文本和图像描述的提及，目标是从一个多模态知识库中预测相应的目标实体，其中每个实体都是用文本描述、视觉图像和一组属性值描述的。为了支持这项研究，我们构建了一个大型数据集AMELI，其中包含18,472个评论和35,598个产品。我们在AMELI上进行了实验，使用当前最先进的多模态实体链接方法和我们增强的属性感知模型来建立基准性能，并展示了将属性信息纳入实体链接过程中的重要性。据我们所知，我们是第一个为属性感知多模态实体链接任务建立基准数据集和解决方案的团队。数据集和代码将公开提供。
+    尽管已经付出了大量努力来对齐大规模语言模型（LLMs），但红队测试报告表明，这些经过精心对齐的LLMs仍然可以通过对抗性提示、调优或解码进行破解。在调查对齐LLMs的破解漏洞时，我们观察到破解和对齐模型的解码分布仅在初始生成中存在差异。这一观察结果激发了我们提出的弱到强破解攻击，敌对方可以利用较小的不安全/对齐LLMs（例如7B）指导对显著较大的对齐LLMs（例如70B）进行破解。要进行破解，只需额外解码两个较小的LLMs一次，与解码较大的LLMs相比，其计算和延迟成本较小。通过在三个不同组织的五个模型上进行实验，我们证明了该攻击的有效性。我们的研究揭示了一种以前未注意到但高效的破解方式，
 
-    We propose attribute-aware multimodal entity linking, where the input is a mention described with a text and image, and the goal is to predict the corresponding target entity from a multimodal knowledge base (KB) where each entity is also described with a text description, a visual image and a set of attributes and values. To support this research, we construct AMELI, a large-scale dataset consisting of 18,472 reviews and 35,598 products. To establish baseline performance on AMELI, we experiment with the current state-of-the-art multimodal entity linking approaches and our enhanced attribute-aware model and demonstrate the importance of incorporating the attribute information into the entity linking process. To be best of our knowledge, we are the first to build benchmark dataset and solutions for the attribute-aware multimodal entity linking task. Datasets and codes will be made publicly available.
+    Although significant efforts have been dedicated to aligning large language models (LLMs), red-teaming reports suggest that these carefully aligned LLMs could still be jailbroken through adversarial prompts, tuning, or decoding. Upon examining the jailbreaking vulnerability of aligned LLMs, we observe that the decoding distributions of jailbroken and aligned models differ only in the initial generations. This observation motivates us to propose the weak-to-strong jailbreaking attack, where adversaries can utilize smaller unsafe/aligned LLMs (e.g., 7B) to guide jailbreaking against significantly larger aligned LLMs (e.g., 70B). To jailbreak, one only needs to additionally decode two smaller LLMs once, which involves minimal computation and latency compared to decoding the larger LLMs. The efficacy of this attack is demonstrated through experiments conducted on five models from three different organizations. Our study reveals a previously unnoticed yet efficient way of jailbreaking, expo
     
 

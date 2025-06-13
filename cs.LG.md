@@ -2,157 +2,187 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Knowing Your Nonlinearities: Shapley Interactions Reveal the Underlying Structure of Data](https://arxiv.org/abs/2403.13106) | 该论文使用Shapley Taylor互动指数（STII）分析了底层数据结构对各种模态、任务和架构中模型表征的影响，发现了语言模型和语音模型中的新颖现象，并展示了特征交互如何直观反映对象边界。 |
-| [^2] | [A Comparative Study of Conventional and Tripolar EEG for High-Performance Reach-to-Grasp BCI Systems](https://arxiv.org/abs/2402.09448) | 比较传统EEG与三极EEG在高性能到颤抓握BCI系统中的有效性，包括信噪比、空间分辨率、ERPs和小波时频分析。 |
-| [^3] | [Forecasting high-impact research topics via machine learning on evolving knowledge graphs](https://arxiv.org/abs/2402.08640) | 通过机器学习预测未发布研究想法的影响力，我们使用一个由超过2100万篇科学论文构建的演化知识图谱，结合论文内容和历史引用的信息，高准确度预测未来的演化网络动态和新的研究方向的影响力。 |
-| [^4] | [Plug-and-Play image restoration with Stochastic deNOising REgularization](https://arxiv.org/abs/2402.01779) | 本论文提出了一种新的即插即用图像恢复框架，称为随机去噪正则化（SNORE）。该框架在恰当噪声水平的图像上应用去噪器，并基于随机正则化提供了解决病态逆问题的随机梯度下降算法。实验结果表明，SNORE在去模糊和修复任务中与最先进的方法具有竞争力。 |
-| [^5] | [Learning Concepts Definable in First-Order Logic with Counting](https://arxiv.org/abs/1909.03820) | 该研究将一阶逻辑与计数符号相结合，证明了可以在多对数度结构下以次线性时间一致学习可定义的分类器，为包含数值方面的机器学习扩展学习框架迈出了第一步。 |
-| [^6] | [Generating Likely Counterfactuals Using Sum-Product Networks.](http://arxiv.org/abs/2401.14086) | 由于用户需求和最近的法规要求，需要对AI系统所做出的决策进行解释。本论文提出了一种使用Sum-Product Networks模拟寻找高可能性反事实推理的系统，该系统能够提供满足多个常见要求的最佳解释。 |
-| [^7] | [Byzantine-Resilient Decentralized Multi-Armed Bandits.](http://arxiv.org/abs/2310.07320) | 这篇论文介绍了一种拜占庭容错的分散式多臂赌博机算法，通过信息混合和值的截断实现了对拜占庭代理的恢复和鲁棒性。 |
-| [^8] | [Feature Normalization Prevents Collapse of Non-contrastive Learning Dynamics.](http://arxiv.org/abs/2309.16109) | 本论文研究了非对比学习中的动力崩溃问题，发现特征归一化可以防止此问题的出现，为解决自监督表示学习的计算效率提供了新的思路。 |
-| [^9] | [Simulation-based inference using surjective sequential neural likelihood estimation.](http://arxiv.org/abs/2308.01054) | 我们提出了一种使用全射序列神经似然估计（SSNL）进行基于仿真的推断的新方法，在模型中无法计算似然函数并且只能使用模拟器生成数据的情况下，SSNL通过拟合降维的全射归一化流模型，并将其作为替代似然函数，解决了先前基于似然方法在高维数据集中遇到的问题，并在各种实验中展示了其优越性能。 |
-| [^10] | [Optimal Estimation in Mixed-Membership Stochastic Block Models.](http://arxiv.org/abs/2307.14530) | 本论文研究了重叠社区检测问题，在混合成员随机块模型的基础上提出了一个新的估计器，并建立了估计误差的极小下界。 |
+| [^1] | [DIRECT: Deep Active Learning under Imbalance and Label Noise](https://rss.arxiv.org/abs/2312.09196) | 这篇论文提出了一种名为DIRECT的算法，用于处理不平衡和标签噪声下的深度主动学习问题。通过确定类别分割阈值并标记最不确定且离其最近的示例，该算法能够有效解决罕见类和少数类的性能问题，并具有批次标记和对标签噪声的容忍能力。 |
+| [^2] | [Securing Large Language Models: Threats, Vulnerabilities and Responsible Practices](https://arxiv.org/abs/2403.12503) | 该论文全面调查了与大型语言模型相关的安全和隐私问题，并提出了未来研究的有前途方向。 |
+| [^3] | [Mitigating Object Hallucination in Large Vision-Language Models via Classifier-Free Guidance](https://arxiv.org/abs/2402.08680) | 本文介绍了一种名为MARINE的框架，用于通过无分类器引导来减少大型视觉语言模型的物体幻觉。该框架无需训练或API访问，并通过集成视觉模型和引入额外的物体基础特征来提高模型的生成精确性和效率。 |
+| [^4] | [Bandit Convex Optimisation](https://arxiv.org/abs/2402.06535) | 这篇论文介绍了强盗凸优化的基本框架和用于解决这一问题的多种工具。虽然没有太多创新，但通过以新颖的方式应用现有工具，获得了新的算法和改进了一些界限。 |
+| [^5] | [Learning a Gaussian Mixture for Sparsity Regularization in Inverse Problems.](http://arxiv.org/abs/2401.16612) | 本研究提出了一种基于高斯混合模型的稀疏正则化方法，通过神经网络进行贝叶斯估计，有效地解决了逆问题中的稀疏建模和参数估计问题。 |
+| [^6] | [Efficient Constrained $k$-Center Clustering with Background Knowledge.](http://arxiv.org/abs/2401.12533) | 本论文提出了一种在k中心聚类上利用背景知识的约束聚类算法，通过采用一系列技术，得到了效率高且具有最佳近似比例2的算法。 |
+| [^7] | [IoTGeM: Generalizable Models for Behaviour-Based IoT Attack Detection.](http://arxiv.org/abs/2401.01343) | 本研究提出了一种通用模型，用于基于行为的物联网攻击检测。该模型通过改进滚动窗口特征提取、引入多步骤特征选择、使用隔离的训练和测试数据集以及使用可解释的人工智能技术来提高检测和性能，并且经过严格评估。 |
+| [^8] | [A Unified Framework to Enforce, Discover, and Promote Symmetry in Machine Learning.](http://arxiv.org/abs/2311.00212) | 本文提供了一个统一的框架，通过三种方式将对称性融入机器学习模型：1. 强制已知的对称性；2. 发现未知的对称性；3. 在训练过程中促进对称性。 |
+| [^9] | [Law of Balance and Stationary Distribution of Stochastic Gradient Descent.](http://arxiv.org/abs/2308.06671) | 本文证明了随机梯度下降算法中的小批量噪音会使解决方案向平衡解靠近，只要损失函数包含重新缩放对称性。利用这个结果，我们导出了对角线性网络的随机梯度流稳态分布，该分布展示了复杂的非线性现象。这些发现揭示了动态梯度下降法在训练神经网络中的工作原理。 |
+| [^10] | [For Kernel Range Spaces a Constant Number of Queries Are Sufficient.](http://arxiv.org/abs/2306.16516) | 对于核范围空间，引入了ε-覆盖的概念，用于处理不确定或不精确的数据分析任务。 |
+| [^11] | [Three iterations of $(1-d)$-WL test distinguish non isometric clouds of $d$-dimensional points.](http://arxiv.org/abs/2303.12853) | 本文研究了WL测试在点云中的应用，结果发现三次迭代的$(d-1)$-WL测试可以区分$d$维欧几里得空间中的点云，且只需要一次迭代的$d$-WL测试就可以达到完整性。 |
+| [^12] | [Second-order Conditional Gradient Sliding.](http://arxiv.org/abs/2002.08907) | 提出了一种二阶条件梯度滑动（SOCGS）算法，可以高效解决约束二次凸优化问题，并在有限次线性收敛迭代后二次收敛于原始间隙。 |
 
 # 详细
 
-[^1]: 认识你的非线性：Shapley互动揭示数据的潜在结构
+[^1]: DIRECT: 处理不平衡和标签噪声下的深度主动学习
 
-    Knowing Your Nonlinearities: Shapley Interactions Reveal the Underlying Structure of Data
+    DIRECT: Deep Active Learning under Imbalance and Label Noise
 
-    [https://arxiv.org/abs/2403.13106](https://arxiv.org/abs/2403.13106)
+    [https://rss.arxiv.org/abs/2312.09196](https://rss.arxiv.org/abs/2312.09196)
 
-    该论文使用Shapley Taylor互动指数（STII）分析了底层数据结构对各种模态、任务和架构中模型表征的影响，发现了语言模型和语音模型中的新颖现象，并展示了特征交互如何直观反映对象边界。
-
-    
-
-    测量非线性特征交互是理解许多模型中复杂归因模式的一种已建立的方法。本文使用Shapley Taylor互动指数（STII）来分析底层数据结构对多种模态、任务和架构中模型表征的影响。在考虑掩码和自回归语言模型（MLMs和ALMs）中的语言结构时，我们发现STII在惯用表达中增加，MLMs随句法距离扩展STII，更多地依赖语法在其非线性结构中相比ALMs。我们的语音模型研究反映了口腔张开程度决定音素根据上下文变化的数量的原则。最后，我们研究图像分类器并说明特征交互直观反映对象边界。我们广泛的结果展示了跨学科工作和领域之间的益处。
-
-    arXiv:2403.13106v1 Announce Type: cross  Abstract: Measuring nonlinear feature interaction is an established approach to understanding complex patterns of attribution in many models. In this paper, we use Shapley Taylor interaction indices (STII) to analyze the impact of underlying data structure on model representations in a variety of modalities, tasks, and architectures. Considering linguistic structure in masked and auto-regressive language models (MLMs and ALMs), we find that STII increases within idiomatic expressions and that MLMs scale STII with syntactic distance, relying more on syntax in their nonlinear structure than ALMs do. Our speech model findings reflect the phonetic principal that the openness of the oral cavity determines how much a phoneme varies based on its context. Finally, we study image classifiers and illustrate that feature interactions intuitively reflect object boundaries. Our wide range of results illustrates the benefits of interdisciplinary work and doma
-    
-[^2]: 普通EEG与三极EEG在高性能到颤抓握BCI系统中的比较研究
-
-    A Comparative Study of Conventional and Tripolar EEG for High-Performance Reach-to-Grasp BCI Systems
-
-    [https://arxiv.org/abs/2402.09448](https://arxiv.org/abs/2402.09448)
-
-    比较传统EEG与三极EEG在高性能到颤抓握BCI系统中的有效性，包括信噪比、空间分辨率、ERPs和小波时频分析。
+    这篇论文提出了一种名为DIRECT的算法，用于处理不平衡和标签噪声下的深度主动学习问题。通过确定类别分割阈值并标记最不确定且离其最近的示例，该算法能够有效解决罕见类和少数类的性能问题，并具有批次标记和对标签噪声的容忍能力。
 
     
 
-    本研究旨在比较传统EEG与三极EEG在提升运动障碍个体的BCI应用方面的有效性。重点是解读和解码各种抓握动作，如力握和精确握持。目标是确定哪种EEG技术在处理和翻译与抓握相关的脑电信号方面更为有效。研究涉及对十名健康参与者进行实验，参与者进行了两种不同的握持运动：力握和精确握持，无运动条件作为基线。我们的研究在解码抓握动作方面对EEG和三极EEG进行了全面比较。该比较涵盖了几个关键参数，包括信噪比（SNR）、通过功能连接的空间分辨率、ERPs和小波时频分析。此外，我们的研究还涉及从...
+    在现实世界的机器学习应用中，类别不平衡是一个普遍存在的问题，通常会导致罕见和少数类的性能较差。在大量未标记数据的情况下，主动学习可能是解决该问题的最有效技术，它从根本上采集更平衡和具有信息量的标记示例进行注释。标签噪声是数据注释任务中另一个常见问题，对于主动学习方法来说尤其具有挑战性。本文首次研究了在类别不平衡和标签噪声下的主动学习。我们提出了一种新颖的算法，能够稳健地确定类别分割阈值并标记最不确定且离其最近的示例。通过将问题简化为一维主动学习，我们的算法DIRECT能够利用经典的主动学习文献来解决批次标记和对标签噪声的容忍等问题。我们在大量实验中展示了算法的性能。
 
-    arXiv:2402.09448v1 Announce Type: cross  Abstract: This study aims to enhance BCI applications for individuals with motor impairments by comparing the effectiveness of tripolar EEG (tEEG) with conventional EEG. The focus is on interpreting and decoding various grasping movements, such as power grasp and precision grasp. The goal is to determine which EEG technology is more effective in processing and translating grasp related neural signals. The approach involved experimenting on ten healthy participants who performed two distinct grasp movements: power grasp and precision grasp, with a no movement condition serving as the baseline. Our research presents a thorough comparison between EEG and tEEG in decoding grasping movements. This comparison spans several key parameters, including signal to noise ratio (SNR), spatial resolution via functional connectivity, ERPs, and wavelet time frequency analysis. Additionally, our study involved extracting and analyzing statistical features from th
+    Class imbalance is a prevalent issue in real world machine learning applications, often leading to poor performance in rare and minority classes. With an abundance of wild unlabeled data, active learning is perhaps the most effective technique in solving the problem at its root -- collecting a more balanced and informative set of labeled examples during annotation. Label noise is another common issue in data annotation jobs, which is especially challenging for active learning methods. In this work, we conduct the first study of active learning under both class imbalance and label noise. We propose a novel algorithm that robustly identifies the class separation threshold and annotates the most uncertain examples that are closest from it. Through a novel reduction to one-dimensional active learning, our algorithm DIRECT is able to leverage the classic active learning literature to address issues such as batch labeling and tolerance towards label noise. We present extensive experiments on
     
-[^3]: 通过机器学习在不断演化的知识图谱上预测高影响力的研究主题
+[^2]: 保护大型语言模型：威胁、漏洞和负责任的实践
 
-    Forecasting high-impact research topics via machine learning on evolving knowledge graphs
+    Securing Large Language Models: Threats, Vulnerabilities and Responsible Practices
 
-    [https://arxiv.org/abs/2402.08640](https://arxiv.org/abs/2402.08640)
+    [https://arxiv.org/abs/2403.12503](https://arxiv.org/abs/2403.12503)
 
-    通过机器学习预测未发布研究想法的影响力，我们使用一个由超过2100万篇科学论文构建的演化知识图谱，结合论文内容和历史引用的信息，高准确度预测未来的演化网络动态和新的研究方向的影响力。
-
-    
-
-    科学出版物的指数增长对人类研究者构成了严峻挑战。它迫使研究者将注意力集中在更狭窄的子领域上，使得发现其他领域的新颖且有影响力的研究想法和合作变得困难。虽然有办法预测科学论文未来的引用次数，但通常需要等到研究完成并且论文写成后才能进行评估，这样就错过了想法构思的早期阶段。在本文中，我们展示了如何预测从未被研究者发布的想法的影响力。为此，我们开发了一个大型的演化知识图谱，其中包含超过2100万篇科学论文。它结合了从论文内容中创建的语义网络和从历史引用中创建的影响网络。利用机器学习，我们可以高准确度地预测演化网络的动态情况，从而预测新的研究方向的影响力。我们预期这种能力将有助于研究者发现具有高影响力的研究主题。
-
-    The exponential growth in scientific publications poses a severe challenge for human researchers. It forces attention to more narrow sub-fields, which makes it challenging to discover new impactful research ideas and collaborations outside one's own field. While there are ways to predict a scientific paper's future citation counts, they need the research to be finished and the paper written, usually assessing impact long after the idea was conceived. Here we show how to predict the impact of onsets of ideas that have never been published by researchers. For that, we developed a large evolving knowledge graph built from more than 21 million scientific papers. It combines a semantic network created from the content of the papers and an impact network created from the historic citations of papers. Using machine learning, we can predict the dynamic of the evolving network into the future with high accuracy, and thereby the impact of new research directions. We envision that the ability to 
-    
-[^4]: 带有随机去噪正则化的即插即用图像恢复
-
-    Plug-and-Play image restoration with Stochastic deNOising REgularization
-
-    [https://arxiv.org/abs/2402.01779](https://arxiv.org/abs/2402.01779)
-
-    本论文提出了一种新的即插即用图像恢复框架，称为随机去噪正则化（SNORE）。该框架在恰当噪声水平的图像上应用去噪器，并基于随机正则化提供了解决病态逆问题的随机梯度下降算法。实验结果表明，SNORE在去模糊和修复任务中与最先进的方法具有竞争力。
+    该论文全面调查了与大型语言模型相关的安全和隐私问题，并提出了未来研究的有前途方向。
 
     
 
-    即插即用（PnP）算法是一类迭代算法，通过结合物理模型和深度神经网络进行正则化来解决图像反演问题。尽管这些算法能够产生令人印象深刻的图像恢复结果，但它们依赖于在迭代过程中越来越少噪音的图像上的一种非标准的去噪器使用方法，这与基于扩散模型（DM）的最新算法相矛盾，在这些算法中，去噪器仅应用于重新加噪的图像上。我们提出了一种新的PnP框架，称为随机去噪正则化（SNORE），它仅在噪声水平适当的图像上应用去噪器。它基于显式的随机正则化，从而导致了一种解决病态逆问题的随机梯度下降算法。我们提供了该算法及其退火扩展的收敛分析。在实验上，我们证明SNORE在去模糊和修复任务上与最先进的方法相竞争。
+    大型语言模型(LLMs)显著改变了自然语言处理(NLP)的格局。它们对各种任务产生了影响，从而彻底改变了我们处理语言理解和生成的方式。然而，除了它们引人注目的实用性外，LLMs还带来了重要的安全和风险考虑。这些挑战需要仔细研究，以确保负责任的部署，并防范潜在的漏洞。本研究全面调查了与LLMs相关的安全和隐私问题，从五个主题角度进行：安全和隐私问题、对抗性攻击的漏洞、LLMs误用可能造成的潜在危害、缓解策略以解决这些挑战，同时识别当前策略的局限性。最后，本文建议未来研究的有前途的方向，以增强LLMs的安全和风险管理。
 
-    Plug-and-Play (PnP) algorithms are a class of iterative algorithms that address image inverse problems by combining a physical model and a deep neural network for regularization. Even if they produce impressive image restoration results, these algorithms rely on a non-standard use of a denoiser on images that are less and less noisy along the iterations, which contrasts with recent algorithms based on Diffusion Models (DM), where the denoiser is applied only on re-noised images. We propose a new PnP framework, called Stochastic deNOising REgularization (SNORE), which applies the denoiser only on images with noise of the adequate level. It is based on an explicit stochastic regularization, which leads to a stochastic gradient descent algorithm to solve ill-posed inverse problems. A convergence analysis of this algorithm and its annealing extension is provided. Experimentally, we prove that SNORE is competitive with respect to state-of-the-art methods on deblurring and inpainting tasks, 
+    arXiv:2403.12503v1 Announce Type: cross  Abstract: Large language models (LLMs) have significantly transformed the landscape of Natural Language Processing (NLP). Their impact extends across a diverse spectrum of tasks, revolutionizing how we approach language understanding and generations. Nevertheless, alongside their remarkable utility, LLMs introduce critical security and risk considerations. These challenges warrant careful examination to ensure responsible deployment and safeguard against potential vulnerabilities. This research paper thoroughly investigates security and privacy concerns related to LLMs from five thematic perspectives: security and privacy concerns, vulnerabilities against adversarial attacks, potential harms caused by misuses of LLMs, mitigation strategies to address these challenges while identifying limitations of current strategies. Lastly, the paper recommends promising avenues for future research to enhance the security and risk management of LLMs.
     
-[^5]: 用计数符号的一阶逻辑定义的概念的学习
+[^3]: 通过无分类器引导来减轻大型视觉语言模型中的物体幻觉
 
-    Learning Concepts Definable in First-Order Logic with Counting
+    Mitigating Object Hallucination in Large Vision-Language Models via Classifier-Free Guidance
 
-    [https://arxiv.org/abs/1909.03820](https://arxiv.org/abs/1909.03820)
+    [https://arxiv.org/abs/2402.08680](https://arxiv.org/abs/2402.08680)
 
-    该研究将一阶逻辑与计数符号相结合，证明了可以在多对数度结构下以次线性时间一致学习可定义的分类器，为包含数值方面的机器学习扩展学习框架迈出了第一步。
-
-    
-
-    我们研究了在Grohe和Tur\'an引入的逻辑框架下的关系背景结构上的布尔分类问题。众所周知(Grohe和Ritzert, LICS 2017)，在多对数度结构上的一阶逻辑可定义的分类器可以在次线性时间内学习，其中结构的度和运行时间是以结构的大小为单位来衡量的。我们将结果推广到了由Kuske和Schweikardt(LICS 2017)引入的带计数的一阶逻辑FOCN，它作为一个广泛推广各种计数逻辑的表现逻辑。具体来说，我们证明了可以在多对数度结构类上定义的FOCN中的分类器可以在次线性时间内一致地学习。这可以看作是将学习框架扩展以包含机器学习的数值方面的第一步。我们将这一结果扩展到了无视的概率
-
-    arXiv:1909.03820v2 Announce Type: replace-cross  Abstract: We study Boolean classification problems over relational background structures in the logical framework introduced by Grohe and Tur\'an (TOCS 2004). It is known (Grohe and Ritzert, LICS 2017) that classifiers definable in first-order logic over structures of polylogarithmic degree can be learned in sublinear time, where the degree of the structure and the running time are measured in terms of the size of the structure. We generalise the results to the first-order logic with counting FOCN, which was introduced by Kuske and Schweikardt (LICS 2017) as an expressive logic generalising various other counting logics. Specifically, we prove that classifiers definable in FOCN over classes of structures of polylogarithmic degree can be consistently learned in sublinear time. This can be seen as a first step towards extending the learning framework to include numerical aspects of machine learning. We extend the result to agnostic probabl
-    
-[^6]: 使用Sum-Product Networks生成可能的反事实推理
-
-    Generating Likely Counterfactuals Using Sum-Product Networks. (arXiv:2401.14086v1 [cs.AI])
-
-    [http://arxiv.org/abs/2401.14086](http://arxiv.org/abs/2401.14086)
-
-    由于用户需求和最近的法规要求，需要对AI系统所做出的决策进行解释。本论文提出了一种使用Sum-Product Networks模拟寻找高可能性反事实推理的系统，该系统能够提供满足多个常见要求的最佳解释。
+    本文介绍了一种名为MARINE的框架，用于通过无分类器引导来减少大型视觉语言模型的物体幻觉。该框架无需训练或API访问，并通过集成视觉模型和引入额外的物体基础特征来提高模型的生成精确性和效率。
 
     
 
-    由于用户需求和最近的法规（GDPR、AI法案），需要解释AI系统所做出的决策。这些决策往往只能在事后解释，反事实推理成为常见的解释方式。什么构成了最佳的反事实解释必须考虑多个方面，其中“样本距离”是最常见的。我们认为，这一要求经常会导致不太可能且因此价值有限的解释。在这里，我们提出了一个能够提供高可能性解释的系统。我们展示了使用混合整数优化（MIO）模拟寻找满足反事实推理的许多常见要求的最有可能解释。在此过程中，我们提出了Sum-Product Network（SPN）的MIO表达，并使用SPN估计反事实的可能性，这对独立的兴趣也有用。与生成反事实解释的几种方法进行数值比较。
+    大型视觉语言模型（LVLM）的进展越来越突出了它们在图像中产生虚假物体的严重问题。为了解决这个问题，先前的研究着重于使用特殊策划的数据集或强大的LLM（例如GPT-3.5）来纠正LVLM的输出。然而，这些方法要求昂贵的训练/微调或API访问先进的LLM来在生成后纠正模型的输出。在本文中，我们通过引入一个名为通过无分类器引导缓解幻觉的框架（MARINE）来解决这个挑战，该框架既无需训练也无需API访问，可以在生成过程中有效地减少物体幻觉。具体而言，MARINE通过集成现有的开源视觉模型丰富LVLM的视觉语境，并使用无分类器引导来整合额外的物体基础特征，以提高LVLM生成的精确性。
 
-    Due to user demand and recent regulation (GDPR, AI Act), decisions made by AI systems need to be explained. These decisions are often explainable only post hoc, where counterfactual explanations are popular. The question of what constitutes the best counterfactual explanation must consider multiple aspects, where "distance from the sample" is the most common. We argue that this requirement frequently leads to explanations that are unlikely and, therefore, of limited value. Here, we present a system that provides high-likelihood explanations. We show that the search for the most likely explanations satisfying many common desiderata for counterfactual explanations can be modeled using mixed-integer optimization (MIO). In the process, we propose an MIO formulation of a Sum-Product Network (SPN) and use the SPN to estimate the likelihood of a counterfactual, which can be of independent interest. A numerical comparison against several methods for generating counterfactual explanations is pr
+    The advancement of Large Vision-Language Models (LVLMs) has increasingly highlighted the critical issue of their tendency to hallucinate non-existing objects in the images. To address this issue, previous works focused on using specially curated datasets or powerful LLMs (e.g., GPT-3.5) to rectify the outputs of LVLMs. However, these approaches require either expensive training/fine-tuning or API access to advanced LLMs to correct the model's output post-generation. In this paper, we tackle this challenge by introducing a framework called Mitigating hallucinAtion via classifieR-Free guIdaNcE (MARINE), which is both training-free and API-free, and can effectively and efficiently reduce object hallucinations during the generation process. Specifically, MARINE enriches the visual context of LVLMs by integrating existing open-source vision models, and employs classifier-free guidance to incorporate the additional object grounding features to improve the precision of LVLMs' generations. Thr
     
-[^7]: 拜占庭容错的分散式多臂赌博机算法
+[^4]: Bandit Convex Optimisation（强盗凸优化）
 
-    Byzantine-Resilient Decentralized Multi-Armed Bandits. (arXiv:2310.07320v1 [cs.LG])
+    Bandit Convex Optimisation
 
-    [http://arxiv.org/abs/2310.07320](http://arxiv.org/abs/2310.07320)
+    [https://arxiv.org/abs/2402.06535](https://arxiv.org/abs/2402.06535)
 
-    这篇论文介绍了一种拜占庭容错的分散式多臂赌博机算法，通过信息混合和值的截断实现了对拜占庭代理的恢复和鲁棒性。
-
-    
-
-    在分散式合作的多臂赌博机中，每个代理观察到不同的奖励流，试图与其他代理交换信息以选择一系列手臂以最小化遗憾。与独立运行上界置信度（UCB）等多臂赌博机方法相比，协作场景中的代理可以表现得更好。本文研究了如何在未知比例的代理可能是拜占庭（即，以奖励均值估计或置信度集的形式传递任意错误信息）时恢复此类突出行为。该框架可用于模拟计算机网络中的攻击者，向推荐系统中插入攻击性内容的策划者，或者金融市场的操纵者。我们的主要贡献是开发了一种完全分散的具有容错上界置信度（UCB）算法，该算法将代理间的信息混合步骤与不一致和极端值的截断相结合。这个截断步骤使我们能够建立
-
-    In decentralized cooperative multi-armed bandits (MAB), each agent observes a distinct stream of rewards, and seeks to exchange information with others to select a sequence of arms so as to minimize its regret. Agents in the cooperative setting can outperform a single agent running a MAB method such as Upper-Confidence Bound (UCB) independently. In this work, we study how to recover such salient behavior when an unknown fraction of the agents can be Byzantine, that is, communicate arbitrarily wrong information in the form of reward mean-estimates or confidence sets. This framework can be used to model attackers in computer networks, instigators of offensive content into recommender systems, or manipulators of financial markets. Our key contribution is the development of a fully decentralized resilient upper confidence bound (UCB) algorithm that fuses an information mixing step among agents with a truncation of inconsistent and extreme values. This truncation step enables us to establis
-    
-[^8]: 特征归一化防止非对比学习动力的崩溃
-
-    Feature Normalization Prevents Collapse of Non-contrastive Learning Dynamics. (arXiv:2309.16109v1 [cs.LG])
-
-    [http://arxiv.org/abs/2309.16109](http://arxiv.org/abs/2309.16109)
-
-    本论文研究了非对比学习中的动力崩溃问题，发现特征归一化可以防止此问题的出现，为解决自监督表示学习的计算效率提供了新的思路。
+    这篇论文介绍了强盗凸优化的基本框架和用于解决这一问题的多种工具。虽然没有太多创新，但通过以新颖的方式应用现有工具，获得了新的算法和改进了一些界限。
 
     
 
-    对比学习是一种自监督表示学习框架，通过数据增强生成的两个正视图在数据表示空间中通过吸引力使它们相似，而通过排斥力使它们远离负样本。非对比学习通过BYOL和SimSiam等手段去除了负样本，并提高了计算效率。虽然由于缺乏排斥力，学到的表示可能会崩溃成一个单点，但田等人（2021）通过学习动力分析揭示，如果数据增强足够强于正则化，则表示可以避免崩溃。然而，他们的分析没有考虑常用的特征归一化，即在衡量表示相似性之前进行的归一化操作，因此过强的正则化可能会导致动力崩溃，这在特征归一化存在的情况下是不自然的行为。
+    强盗凸优化是研究零阶凸优化的基本框架。本文介绍了用于解决该问题的许多工具，包括切平面方法、内点方法、连续指数权重、梯度下降和在线牛顿步骤。解释了许多假设和设置之间的细微差别。尽管在这里没有太多真正新的东西，但一些现有工具以新颖的方式应用于获得新算法。一些界限稍微改进了一些。
 
-    Contrastive learning is a self-supervised representation learning framework, where two positive views generated through data augmentation are made similar by an attraction force in a data representation space, while a repulsive force makes them far from negative examples. Non-contrastive learning, represented by BYOL and SimSiam, further gets rid of negative examples and improves computational efficiency. While learned representations may collapse into a single point due to the lack of the repulsive force at first sight, Tian et al. (2021) revealed through the learning dynamics analysis that the representations can avoid collapse if data augmentation is sufficiently stronger than regularization. However, their analysis does not take into account commonly-used feature normalization, a normalizer before measuring the similarity of representations, and hence excessively strong regularization may collapse the dynamics, which is an unnatural behavior under the presence of feature normalizat
+    Bandit convex optimisation is a fundamental framework for studying zeroth-order convex optimisation. These notes cover the many tools used for this problem, including cutting plane methods, interior point methods, continuous exponential weights, gradient descent and online Newton step. The nuances between the many assumptions and setups are explained. Although there is not much truly new here, some existing tools are applied in novel ways to obtain new algorithms. A few bounds are improved in minor ways.
     
-[^9]: 使用全射序列神经似然估计进行基于仿真的推断
+[^5]: 在逆问题中学习高斯混合物进行稀疏正则化
 
-    Simulation-based inference using surjective sequential neural likelihood estimation. (arXiv:2308.01054v1 [stat.ML])
+    Learning a Gaussian Mixture for Sparsity Regularization in Inverse Problems. (arXiv:2401.16612v1 [stat.ML])
 
-    [http://arxiv.org/abs/2308.01054](http://arxiv.org/abs/2308.01054)
+    [http://arxiv.org/abs/2401.16612](http://arxiv.org/abs/2401.16612)
 
-    我们提出了一种使用全射序列神经似然估计（SSNL）进行基于仿真的推断的新方法，在模型中无法计算似然函数并且只能使用模拟器生成数据的情况下，SSNL通过拟合降维的全射归一化流模型，并将其作为替代似然函数，解决了先前基于似然方法在高维数据集中遇到的问题，并在各种实验中展示了其优越性能。
-
-    
-
-    我们提出了全射序列神经似然（SSNL）估计方法，这是一种在模型中无法计算似然函数并且只能使用可以生成合成数据的模拟器时进行基于仿真的推断的新方法。SSNL拟合一个降维的全射归一化流模型，并将其用作替代似然函数，从而可以使用传统的贝叶斯推断方法，包括马尔科夫链蒙特卡罗方法或变分推断。通过将数据嵌入到低维空间中，SSNL解决了先前基于似然方法在应用于高维数据集时遇到的几个问题，例如包含无信息数据维度或位于较低维流形上的数据。我们对SSNL在各种实验中进行了评估，并表明它通常优于在基于仿真推断中使用的现代方法，例如在一项来自天体物理学的具有挑战性的真实世界例子上对磁场模型的建模。
-
-    We present Surjective Sequential Neural Likelihood (SSNL) estimation, a novel method for simulation-based inference in models where the evaluation of the likelihood function is not tractable and only a simulator that can generate synthetic data is available. SSNL fits a dimensionality-reducing surjective normalizing flow model and uses it as a surrogate likelihood function which allows for conventional Bayesian inference using either Markov chain Monte Carlo methods or variational inference. By embedding the data in a low-dimensional space, SSNL solves several issues previous likelihood-based methods had when applied to high-dimensional data sets that, for instance, contain non-informative data dimensions or lie along a lower-dimensional manifold. We evaluate SSNL on a wide variety of experiments and show that it generally outperforms contemporary methods used in simulation-based inference, for instance, on a challenging real-world example from astrophysics which models the magnetic fi
-    
-[^10]: 混合成员随机块模型中的最优估计
-
-    Optimal Estimation in Mixed-Membership Stochastic Block Models. (arXiv:2307.14530v1 [stat.ML])
-
-    [http://arxiv.org/abs/2307.14530](http://arxiv.org/abs/2307.14530)
-
-    本论文研究了重叠社区检测问题，在混合成员随机块模型的基础上提出了一个新的估计器，并建立了估计误差的极小下界。
+    本研究提出了一种基于高斯混合模型的稀疏正则化方法，通过神经网络进行贝叶斯估计，有效地解决了逆问题中的稀疏建模和参数估计问题。
 
     
 
-    社区检测是现代网络科学中最关键的问题之一。其应用可以在各个领域找到，从蛋白质建模到社交网络分析。最近，出现了许多论文研究重叠社区检测问题，即网络中的每个节点可能属于多个社区。在本文中，我们考虑了由Airoldi等人（2008）首次提出的混合成员随机块模型（MMSB）。MMSB在图中对重叠社区结构提供了相当一般的设置。本文的核心问题是在观察到的网络中重建社区之间的关系。我们比较了不同的方法，并建立了估计误差的极小下界。然后，我们提出了一个与这个下界匹配的新估计器。理论结果在对所考虑的模型的相当普遍条件下得到证明。最后，我们通过一系列实验来说明这个理论。
+    在逆问题中，广泛认为引入稀疏先验对解决方案具有正则化效果。这种方法是基于一个先验假设，即未知量可以在一个有限数量的显著成分的基础上适当表示，而大多数系数接近于零。这种情况在现实世界中经常出现，比如分段平滑信号。在本研究中，我们提出了一种以高斯退化混合物形式表述的概率稀疏先验，能够对于任意基进行稀疏建模。在这个前提下，我们设计了一个可以解释为线性逆问题的贝叶斯估计器的神经网络。此外，我们提出了一种有监督和无监督的训练策略来估计这个网络的参数。为了评估我们方法的有效性，我们进行了与常用的稀疏正则化方法的数值比较。
 
-    Community detection is one of the most critical problems in modern network science. Its applications can be found in various fields, from protein modeling to social network analysis. Recently, many papers appeared studying the problem of overlapping community detection, where each node of a network may belong to several communities. In this work, we consider Mixed-Membership Stochastic Block Model (MMSB) first proposed by Airoldi et al. (2008). MMSB provides quite a general setting for modeling overlapping community structure in graphs. The central question of this paper is to reconstruct relations between communities given an observed network. We compare different approaches and establish the minimax lower bound on the estimation error. Then, we propose a new estimator that matches this lower bound. Theoretical results are proved under fairly general conditions on the considered model. Finally, we illustrate the theory in a series of experiments.
+    In inverse problems, it is widely recognized that the incorporation of a sparsity prior yields a regularization effect on the solution. This approach is grounded on the a priori assumption that the unknown can be appropriately represented in a basis with a limited number of significant components, while most coefficients are close to zero. This occurrence is frequently observed in real-world scenarios, such as with piecewise smooth signals. In this study, we propose a probabilistic sparsity prior formulated as a mixture of degenerate Gaussians, capable of modeling sparsity with respect to a generic basis. Under this premise, we design a neural network that can be interpreted as the Bayes estimator for linear inverse problems. Additionally, we put forth both a supervised and an unsupervised training strategy to estimate the parameters of this network. To evaluate the effectiveness of our approach, we conduct a numerical comparison with commonly employed sparsity-promoting regularization
+    
+[^6]: 有效利用背景知识的约束k中心聚类
+
+    Efficient Constrained $k$-Center Clustering with Background Knowledge. (arXiv:2401.12533v1 [cs.LG])
+
+    [http://arxiv.org/abs/2401.12533](http://arxiv.org/abs/2401.12533)
+
+    本论文提出了一种在k中心聚类上利用背景知识的约束聚类算法，通过采用一系列技术，得到了效率高且具有最佳近似比例2的算法。
+
+    
+
+    中心为基础的聚类在理论和实践中都引起了重要的研究兴趣。在许多实际应用中，输入数据通常包含可以用于改进聚类结果的背景知识。在这项工作中，我们基于广泛采用的k中心聚类，并将其输入的背景知识建模为必连（ML）和不连（CL）约束集。然而，大多数包括k中心在内的聚类问题本质上都是NP困难的，而更复杂的受约束变体被认为受到更严重的近似和计算障碍的限制，极大地限制了它们的适用性。通过采用一系列技术，包括反支配集，线性规划（LP）整数平面和LP对偶性，我们得到了第一个具有最佳近似比例2的约束k中心的高效近似算法。我们还构建了竞争基准算法，并对我们的近似算法进行了实证评估。
+
+    Center-based clustering has attracted significant research interest from both theory and practice. In many practical applications, input data often contain background knowledge that can be used to improve clustering results. In this work, we build on widely adopted $k$-center clustering and model its input background knowledge as must-link (ML) and cannot-link (CL) constraint sets. However, most clustering problems including $k$-center are inherently $\mathcal{NP}$-hard, while the more complex constrained variants are known to suffer severer approximation and computation barriers that significantly limit their applicability. By employing a suite of techniques including reverse dominating sets, linear programming (LP) integral polyhedron, and LP duality, we arrive at the first efficient approximation algorithm for constrained $k$-center with the best possible ratio of 2. We also construct competitive baseline algorithms and empirically evaluate our approximation algorithm against them o
+    
+[^7]: IoTGeM: 用于基于行为的物联网攻击检测的通用模型
+
+    IoTGeM: Generalizable Models for Behaviour-Based IoT Attack Detection. (arXiv:2401.01343v1 [cs.CR])
+
+    [http://arxiv.org/abs/2401.01343](http://arxiv.org/abs/2401.01343)
+
+    本研究提出了一种通用模型，用于基于行为的物联网攻击检测。该模型通过改进滚动窗口特征提取、引入多步骤特征选择、使用隔离的训练和测试数据集以及使用可解释的人工智能技术来提高检测和性能，并且经过严格评估。
+
+    
+
+    过去关于物联网设备网络的基于行为的攻击检测研究，所得到的机器学习模型的适应能力有限，并且往往没有得到证明。本文提出了一种针对建模物联网网络攻击的方法，着重于通用性，同时也能提高检测和性能。首先，我们提出了一种改进的滚动窗口特征提取方法，并引入了一个多步骤特征选择过程来减少过拟合。其次，我们使用隔离的训练和测试数据集来构建和测试模型，从而避免了先前模型在通用性方面的常见数据泄漏问题。第三，我们使用多样化的机器学习模型、评估指标和数据集对我们的方法进行了严格评估。最后，我们使用可解释的人工智能技术来增加模型的可信度，从而能够识别出支撑攻击准确检测的特征。
+
+    Previous research on behaviour-based attack detection on networks of IoT devices has resulted in machine learning models whose ability to adapt to unseen data is limited, and often not demonstrated. In this paper we present an approach for modelling IoT network attacks that focuses on generalizability, yet also leads to better detection and performance. First, we present an improved rolling window approach for feature extraction, and introduce a multi-step feature selection process that reduces overfitting. Second, we build and test models using isolated train and test datasets, thereby avoiding common data leaks that have limited the generalizability of previous models. Third, we rigorously evaluate our methodology using a diverse portfolio of machine learning models, evaluation metrics and datasets. Finally, we build confidence in the models by using explainable AI techniques, allowing us to identify the features that underlie accurate detection of attacks.
+    
+[^8]: 在机器学习中强制、发现和推动对称性的统一框架
+
+    A Unified Framework to Enforce, Discover, and Promote Symmetry in Machine Learning. (arXiv:2311.00212v1 [cs.LG])
+
+    [http://arxiv.org/abs/2311.00212](http://arxiv.org/abs/2311.00212)
+
+    本文提供了一个统一的框架，通过三种方式将对称性融入机器学习模型：1. 强制已知的对称性；2. 发现未知的对称性；3. 在训练过程中促进对称性。
+
+    
+
+    对称性存在于自然界中，并在物理学和机器学习中扮演着越来越核心的角色。基本对称性，如庞加莱不变性，使在地球上实验室中发现的物理定律能够推广到宇宙的最远处。对称性对于在机器学习应用中实现这种推广能力至关重要。例如，在图像分类中的平移不变性允许使用参数更少的模型（如卷积神经网络）在较小的数据集上进行训练，并达到最先进的性能。本文提供了一个统一的理论和方法框架，用于在机器学习模型中以三种方式融入对称性：1. 在训练模型时强制已知的对称性；2. 发现给定模型或数据集的未知对称性；3. 在训练过程中通过学习打破用户指定的候选群体内的对称性来促进对称性。
+
+    Symmetry is present throughout nature and continues to play an increasingly central role in physics and machine learning. Fundamental symmetries, such as Poincar\'{e} invariance, allow physical laws discovered in laboratories on Earth to be extrapolated to the farthest reaches of the universe. Symmetry is essential to achieving this extrapolatory power in machine learning applications. For example, translation invariance in image classification allows models with fewer parameters, such as convolutional neural networks, to be trained on smaller data sets and achieve state-of-the-art performance. In this paper, we provide a unifying theoretical and methodological framework for incorporating symmetry into machine learning models in three ways: 1. enforcing known symmetry when training a model; 2. discovering unknown symmetries of a given model or data set; and 3. promoting symmetry during training by learning a model that breaks symmetries within a user-specified group of candidates when 
+    
+[^9]: 动态梯度下降法的平衡法则与稳态分布
+
+    Law of Balance and Stationary Distribution of Stochastic Gradient Descent. (arXiv:2308.06671v1 [cs.LG])
+
+    [http://arxiv.org/abs/2308.06671](http://arxiv.org/abs/2308.06671)
+
+    本文证明了随机梯度下降算法中的小批量噪音会使解决方案向平衡解靠近，只要损失函数包含重新缩放对称性。利用这个结果，我们导出了对角线性网络的随机梯度流稳态分布，该分布展示了复杂的非线性现象。这些发现揭示了动态梯度下降法在训练神经网络中的工作原理。
+
+    
+
+    随机梯度下降（SGD）算法是我们用于训练神经网络的算法。然而，我们很难理解SGD如何在神经网络的非线性和退化的损失曲面中进行导航。在这项工作中，我们证明了SGD的小批量噪音可以使解决方案向平衡解靠近，只要损失函数包含一个重新缩放对称性。由于简单扩散过程和SGD动力学的差异在对称性存在时最重要，我们的理论表明，损失函数的对称性是了解SGD工作方式的重要线索。然后，我们将这个结果应用于导出具有任意深度和宽度的对角线性网络的随机梯度流的稳态分布。稳态分布展现了复杂的非线性现象，如相变、破坏的遍历性和波动反转。这些现象仅在深层网络中存在，表明了一种基本的新的加深训练理论。
+
+    The stochastic gradient descent (SGD) algorithm is the algorithm we use to train neural networks. However, it remains poorly understood how the SGD navigates the highly nonlinear and degenerate loss landscape of a neural network. In this work, we prove that the minibatch noise of SGD regularizes the solution towards a balanced solution whenever the loss function contains a rescaling symmetry. Because the difference between a simple diffusion process and SGD dynamics is the most significant when symmetries are present, our theory implies that the loss function symmetries constitute an essential probe of how SGD works. We then apply this result to derive the stationary distribution of stochastic gradient flow for a diagonal linear network with arbitrary depth and width. The stationary distribution exhibits complicated nonlinear phenomena such as phase transitions, broken ergodicity, and fluctuation inversion. These phenomena are shown to exist uniquely in deep networks, implying a fundam
+    
+[^10]: 对于核范围空间，只需要固定数量的查询就足够了
+
+    For Kernel Range Spaces a Constant Number of Queries Are Sufficient. (arXiv:2306.16516v1 [cs.CG])
+
+    [http://arxiv.org/abs/2306.16516](http://arxiv.org/abs/2306.16516)
+
+    对于核范围空间，引入了ε-覆盖的概念，用于处理不确定或不精确的数据分析任务。
+
+    
+
+    我们引入了核范围空间的ε-覆盖概念。核范围空间涉及一个点集X⊂R^d和由固定核函数（例如高斯核函数K(p,·)=exp(-||p-·||^2)）定义的查询空间。对于大小为n的点集X，查询返回一个值向量Rp∈R^n，其中第i个坐标(Rp)_i=K(p,x_i)，其中x_i∈X。ε-覆盖是点集Q⊂R^d的子集，对于任意p∈R^d，存在q∈Q使得||(Rp-Rq)/n||_1≤ε。这是Haussler在组合范围空间（例如由球查询定义的点集子集）中ε-覆盖概念的平滑模拟，其中得到的向量Rp是{0,1}^n而不是[0,1]^n。这些范围空间的核版本出现在数据分析任务中，其中坐标可能是不确定或不精确的，因此希望在范围查询中添加一些灵活性。
+
+    We introduce the notion of an $\varepsilon$-cover for a kernel range space. A kernel range space concerns a set of points $X \subset \mathbb{R}^d$ and the space of all queries by a fixed kernel (e.g., a Gaussian kernel $K(p,\cdot) = \exp(-\|p-\cdot\|^2)$). For a point set $X$ of size $n$, a query returns a vector of values $R_p \in \mathbb{R}^n$, where the $i$th coordinate $(R_p)_i = K(p,x_i)$ for $x_i \in X$. An $\varepsilon$-cover is a subset of points $Q \subset \mathbb{R}^d$ so for any $p \in \mathbb{R}^d$ that $\frac{1}{n} \|R_p R_q\|_1\leq \varepsilon$ for some $q \in Q$. This is a smooth analog of Haussler's notion of $\varepsilon$-covers for combinatorial range spaces (e.g., defined by subsets of points within a ball query) where the resulting vectors $R_p$ are in $\{0,1\}^n$ instead of $[0,1]^n$. The kernel versions of these range spaces show up in data analysis tasks where the coordinates may be uncertain or imprecise, and hence one wishes to add some flexibility in the not
+    
+[^11]: 三次迭代的$(1-d)$-WL测试可以区分$d$维点云的非等距变换. (arXiv:2303.12853v1 [cs.LG])
+
+    Three iterations of $(1-d)$-WL test distinguish non isometric clouds of $d$-dimensional points. (arXiv:2303.12853v1 [cs.LG])
+
+    [http://arxiv.org/abs/2303.12853](http://arxiv.org/abs/2303.12853)
+
+    本文研究了WL测试在点云中的应用，结果发现三次迭代的$(d-1)$-WL测试可以区分$d$维欧几里得空间中的点云，且只需要一次迭代的$d$-WL测试就可以达到完整性。
+
+    
+
+    Weisfeiler-Lehman (WL)测试是一个检查图同构的基本迭代算法。它被观察到是几种图神经网络体系结构设计的基础，这些网络的能力和性能可以用这个测试的表示能力来理解。受最近机器学习应用于涉及三维物体的数据集的发展启发，我们研究了当WL测试对完整的距离图表示的欧几里得点云是“完整的”时，它何时能够识别出任意一个任意点云.我们的主要结果是，$(d-1)$-维WL测试可以区分$d$维欧几里得空间中的点云，任何$d\ge 2$都可以，而且只需要进行三次测试。我们的结果对于$d=2,3$是紧的。我们还观察到$d$维WL测试只需要进行一次迭代就可以达到完整性。
+
+    The Weisfeiler--Lehman (WL) test is a fundamental iterative algorithm for checking isomorphism of graphs. It has also been observed that it underlies the design of several graph neural network architectures, whose capabilities and performance can be understood in terms of the expressive power of this test. Motivated by recent developments in machine learning applications to datasets involving three-dimensional objects, we study when the WL test is {\em complete} for clouds of euclidean points represented by complete distance graphs, i.e., when it can distinguish, up to isometry, any arbitrary such cloud.  Our main result states that the $(d-1)$-dimensional WL test is complete for point clouds in $d$-dimensional Euclidean space, for any $d\ge 2$, and that only three iterations of the test suffice. Our result is tight for $d = 2, 3$. We also observe that the $d$-dimensional WL test only requires one iteration to achieve completeness.
+    
+[^12]: 二阶条件梯度滑动
+
+    Second-order Conditional Gradient Sliding. (arXiv:2002.08907v3 [math.OC] UPDATED)
+
+    [http://arxiv.org/abs/2002.08907](http://arxiv.org/abs/2002.08907)
+
+    提出了一种二阶条件梯度滑动（SOCGS）算法，可以高效解决约束二次凸优化问题，并在有限次线性收敛迭代后二次收敛于原始间隙。
+
+    
+
+    当需要高精度解决问题时，约束二阶凸优化算法是首选，因为它们具有局部二次收敛性。这些算法在每次迭代时需要解决一个约束二次子问题。我们提出了\emph{二阶条件梯度滑动}（SOCGS）算法，它使用一种无投影算法来近似解决约束二次子问题。当可行域是一个多面体时，该算法在有限次线性收敛迭代后二次收敛于原始间隙。进入二次收敛阶段后，SOCGS算法需通过$\mathcal{O}(\log(\log 1/\varepsilon))$次一阶和Hessian正交调用以及$\mathcal{O}(\log (1/\varepsilon) \log(\log1/\varepsilon))$次线性最小化正交调用来实现$\varepsilon$-最优解。当可行域只能通过线性优化正交调用高效访问时，此算法非常有用。
+
+    Constrained second-order convex optimization algorithms are the method of choice when a high accuracy solution to a problem is needed, due to their local quadratic convergence. These algorithms require the solution of a constrained quadratic subproblem at every iteration. We present the \emph{Second-Order Conditional Gradient Sliding} (SOCGS) algorithm, which uses a projection-free algorithm to solve the constrained quadratic subproblems inexactly. When the feasible region is a polytope the algorithm converges quadratically in primal gap after a finite number of linearly convergent iterations. Once in the quadratic regime the SOCGS algorithm requires $\mathcal{O}(\log(\log 1/\varepsilon))$ first-order and Hessian oracle calls and $\mathcal{O}(\log (1/\varepsilon) \log(\log1/\varepsilon))$ linear minimization oracle calls to achieve an $\varepsilon$-optimal solution. This algorithm is useful when the feasible region can only be accessed efficiently through a linear optimization oracle, 
     
 

@@ -2,142 +2,97 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Knowing Your Nonlinearities: Shapley Interactions Reveal the Underlying Structure of Data](https://arxiv.org/abs/2403.13106) | 该论文使用Shapley Taylor互动指数（STII）分析了底层数据结构对各种模态、任务和架构中模型表征的影响，发现了语言模型和语音模型中的新颖现象，并展示了特征交互如何直观反映对象边界。 |
-| [^2] | [DREsS: Dataset for Rubric-based Essay Scoring on EFL Writing](https://arxiv.org/abs/2402.16733) | 本文发布了一个大型标准数据集DREsS，用于基于评分标准的自动作文评分，在提出了一种基于破坏的作文增强策略CASE后，这个数据集的基线结果提高了45.44％。 |
-| [^3] | [A Comparative Study of Conventional and Tripolar EEG for High-Performance Reach-to-Grasp BCI Systems](https://arxiv.org/abs/2402.09448) | 比较传统EEG与三极EEG在高性能到颤抓握BCI系统中的有效性，包括信噪比、空间分辨率、ERPs和小波时频分析。 |
-| [^4] | [Forecasting high-impact research topics via machine learning on evolving knowledge graphs](https://arxiv.org/abs/2402.08640) | 通过机器学习预测未发布研究想法的影响力，我们使用一个由超过2100万篇科学论文构建的演化知识图谱，结合论文内容和历史引用的信息，高准确度预测未来的演化网络动态和新的研究方向的影响力。 |
-| [^5] | [Average-Case Analysis of Iterative Voting](https://arxiv.org/abs/2402.08144) | 这项工作通过分析代理人偏好分布的平均情况，扩展了迭代投票模型的效果分析。并且区分了迭代多数制何时改善或降低渐近福利。 |
-| [^6] | [Learning Concepts Definable in First-Order Logic with Counting](https://arxiv.org/abs/1909.03820) | 该研究将一阶逻辑与计数符号相结合，证明了可以在多对数度结构下以次线性时间一致学习可定义的分类器，为包含数值方面的机器学习扩展学习框架迈出了第一步。 |
-| [^7] | [Generating Likely Counterfactuals Using Sum-Product Networks.](http://arxiv.org/abs/2401.14086) | 由于用户需求和最近的法规要求，需要对AI系统所做出的决策进行解释。本论文提出了一种使用Sum-Product Networks模拟寻找高可能性反事实推理的系统，该系统能够提供满足多个常见要求的最佳解释。 |
-| [^8] | [Pointwise-in-Time Explanation for Linear Temporal Logic Rules.](http://arxiv.org/abs/2306.13956) | 本文提出了一个可以评估给定路径规划中特定时间点上的单个线性时间逻辑(LTL)约束的相关性和状态的框架，可以用于在离散时间、离散空间中执行有限计划的代理任务中，为用户提供时间点解释和规则参数状态的洞察力。 |
-| [^9] | [Effective Data Augmentation With Diffusion Models.](http://arxiv.org/abs/2302.07944) | 本文提出了一种利用预训练文本至图像扩散模型参数化的图像到图像转换方法，用于解决数据增强的多样性不足问题，并能够泛化到新视觉概念，从而提高了少样本图像分类和图像识别的性能。 |
+| [^1] | [DIRECT: Deep Active Learning under Imbalance and Label Noise](https://rss.arxiv.org/abs/2312.09196) | 这篇论文提出了一种名为DIRECT的算法，用于处理不平衡和标签噪声下的深度主动学习问题。通过确定类别分割阈值并标记最不确定且离其最近的示例，该算法能够有效解决罕见类和少数类的性能问题，并具有批次标记和对标签噪声的容忍能力。 |
+| [^2] | [Securing Large Language Models: Threats, Vulnerabilities and Responsible Practices](https://arxiv.org/abs/2403.12503) | 该论文全面调查了与大型语言模型相关的安全和隐私问题，并提出了未来研究的有前途方向。 |
+| [^3] | [Mitigating Object Hallucination in Large Vision-Language Models via Classifier-Free Guidance](https://arxiv.org/abs/2402.08680) | 本文介绍了一种名为MARINE的框架，用于通过无分类器引导来减少大型视觉语言模型的物体幻觉。该框架无需训练或API访问，并通过集成视觉模型和引入额外的物体基础特征来提高模型的生成精确性和效率。 |
+| [^4] | [Efficient Constrained $k$-Center Clustering with Background Knowledge.](http://arxiv.org/abs/2401.12533) | 本论文提出了一种在k中心聚类上利用背景知识的约束聚类算法，通过采用一系列技术，得到了效率高且具有最佳近似比例2的算法。 |
+| [^5] | [IoTGeM: Generalizable Models for Behaviour-Based IoT Attack Detection.](http://arxiv.org/abs/2401.01343) | 本研究提出了一种通用模型，用于基于行为的物联网攻击检测。该模型通过改进滚动窗口特征提取、引入多步骤特征选择、使用隔离的训练和测试数据集以及使用可解释的人工智能技术来提高检测和性能，并且经过严格评估。 |
+| [^6] | [Law of Balance and Stationary Distribution of Stochastic Gradient Descent.](http://arxiv.org/abs/2308.06671) | 本文证明了随机梯度下降算法中的小批量噪音会使解决方案向平衡解靠近，只要损失函数包含重新缩放对称性。利用这个结果，我们导出了对角线性网络的随机梯度流稳态分布，该分布展示了复杂的非线性现象。这些发现揭示了动态梯度下降法在训练神经网络中的工作原理。 |
 
 # 详细
 
-[^1]: 认识你的非线性：Shapley互动揭示数据的潜在结构
+[^1]: DIRECT: 处理不平衡和标签噪声下的深度主动学习
 
-    Knowing Your Nonlinearities: Shapley Interactions Reveal the Underlying Structure of Data
+    DIRECT: Deep Active Learning under Imbalance and Label Noise
 
-    [https://arxiv.org/abs/2403.13106](https://arxiv.org/abs/2403.13106)
+    [https://rss.arxiv.org/abs/2312.09196](https://rss.arxiv.org/abs/2312.09196)
 
-    该论文使用Shapley Taylor互动指数（STII）分析了底层数据结构对各种模态、任务和架构中模型表征的影响，发现了语言模型和语音模型中的新颖现象，并展示了特征交互如何直观反映对象边界。
-
-    
-
-    测量非线性特征交互是理解许多模型中复杂归因模式的一种已建立的方法。本文使用Shapley Taylor互动指数（STII）来分析底层数据结构对多种模态、任务和架构中模型表征的影响。在考虑掩码和自回归语言模型（MLMs和ALMs）中的语言结构时，我们发现STII在惯用表达中增加，MLMs随句法距离扩展STII，更多地依赖语法在其非线性结构中相比ALMs。我们的语音模型研究反映了口腔张开程度决定音素根据上下文变化的数量的原则。最后，我们研究图像分类器并说明特征交互直观反映对象边界。我们广泛的结果展示了跨学科工作和领域之间的益处。
-
-    arXiv:2403.13106v1 Announce Type: cross  Abstract: Measuring nonlinear feature interaction is an established approach to understanding complex patterns of attribution in many models. In this paper, we use Shapley Taylor interaction indices (STII) to analyze the impact of underlying data structure on model representations in a variety of modalities, tasks, and architectures. Considering linguistic structure in masked and auto-regressive language models (MLMs and ALMs), we find that STII increases within idiomatic expressions and that MLMs scale STII with syntactic distance, relying more on syntax in their nonlinear structure than ALMs do. Our speech model findings reflect the phonetic principal that the openness of the oral cavity determines how much a phoneme varies based on its context. Finally, we study image classifiers and illustrate that feature interactions intuitively reflect object boundaries. Our wide range of results illustrates the benefits of interdisciplinary work and doma
-    
-[^2]: DREsS: 英语作为外语写作基于评分标准的数据集
-
-    DREsS: Dataset for Rubric-based Essay Scoring on EFL Writing
-
-    [https://arxiv.org/abs/2402.16733](https://arxiv.org/abs/2402.16733)
-
-    本文发布了一个大型标准数据集DREsS，用于基于评分标准的自动作文评分，在提出了一种基于破坏的作文增强策略CASE后，这个数据集的基线结果提高了45.44％。
+    这篇论文提出了一种名为DIRECT的算法，用于处理不平衡和标签噪声下的深度主动学习问题。通过确定类别分割阈值并标记最不确定且离其最近的示例，该算法能够有效解决罕见类和少数类的性能问题，并具有批次标记和对标签噪声的容忍能力。
 
     
 
-    自动化作文评分（AES）是英语作为外语写作教育中一种有用的工具，为学生和教师提供实时作文评分。然而，先前的AES模型是在与EFL写作教育实际场景不相关的作文和分数上进行训练的，并且通常由于缺乏适当的数据集而提供单一的整体评分。在本文中，我们发布了DREsS，这是一个用于基于评分标准的自动作文评分的大型标准数据集。DREsS包括三个子数据集：DREsS_New，DREsS_Std.和DREsS_CASE。我们收集了DREsS_New，这是一个由EFL本科生撰写并由英语教育专家评分的真实课堂数据集。我们还将现有的基于评分标准的作文评分数据集标准化为DREsS_Std。我们提出了一个名为CASE的基于破坏的作文增强策略，用于生成20K个DREsS_CASE的合成样本，并将基线结果提高了45.44％。
+    在现实世界的机器学习应用中，类别不平衡是一个普遍存在的问题，通常会导致罕见和少数类的性能较差。在大量未标记数据的情况下，主动学习可能是解决该问题的最有效技术，它从根本上采集更平衡和具有信息量的标记示例进行注释。标签噪声是数据注释任务中另一个常见问题，对于主动学习方法来说尤其具有挑战性。本文首次研究了在类别不平衡和标签噪声下的主动学习。我们提出了一种新颖的算法，能够稳健地确定类别分割阈值并标记最不确定且离其最近的示例。通过将问题简化为一维主动学习，我们的算法DIRECT能够利用经典的主动学习文献来解决批次标记和对标签噪声的容忍等问题。我们在大量实验中展示了算法的性能。
 
-    arXiv:2402.16733v1 Announce Type: new  Abstract: Automated essay scoring (AES) is a useful tool in English as a Foreign Language (EFL) writing education, offering real-time essay scores for students and instructors. However, previous AES models were trained on essays and scores irrelevant to the practical scenarios of EFL writing education and usually provided a single holistic score due to the lack of appropriate datasets. In this paper, we release DREsS, a large-scale, standard dataset for rubric-based automated essay scoring. DREsS comprises three sub-datasets: DREsS_New, DREsS_Std., and DREsS_CASE. We collect DREsS_New, a real-classroom dataset with 1.7K essays authored by EFL undergraduate students and scored by English education experts. We also standardize existing rubric-based essay scoring datasets as DREsS_Std. We suggest CASE, a corruption-based augmentation strategy for essays, which generates 20K synthetic samples of DREsS_CASE and improves the baseline results by 45.44%. 
+    Class imbalance is a prevalent issue in real world machine learning applications, often leading to poor performance in rare and minority classes. With an abundance of wild unlabeled data, active learning is perhaps the most effective technique in solving the problem at its root -- collecting a more balanced and informative set of labeled examples during annotation. Label noise is another common issue in data annotation jobs, which is especially challenging for active learning methods. In this work, we conduct the first study of active learning under both class imbalance and label noise. We propose a novel algorithm that robustly identifies the class separation threshold and annotates the most uncertain examples that are closest from it. Through a novel reduction to one-dimensional active learning, our algorithm DIRECT is able to leverage the classic active learning literature to address issues such as batch labeling and tolerance towards label noise. We present extensive experiments on
     
-[^3]: 普通EEG与三极EEG在高性能到颤抓握BCI系统中的比较研究
+[^2]: 保护大型语言模型：威胁、漏洞和负责任的实践
 
-    A Comparative Study of Conventional and Tripolar EEG for High-Performance Reach-to-Grasp BCI Systems
+    Securing Large Language Models: Threats, Vulnerabilities and Responsible Practices
 
-    [https://arxiv.org/abs/2402.09448](https://arxiv.org/abs/2402.09448)
+    [https://arxiv.org/abs/2403.12503](https://arxiv.org/abs/2403.12503)
 
-    比较传统EEG与三极EEG在高性能到颤抓握BCI系统中的有效性，包括信噪比、空间分辨率、ERPs和小波时频分析。
-
-    
-
-    本研究旨在比较传统EEG与三极EEG在提升运动障碍个体的BCI应用方面的有效性。重点是解读和解码各种抓握动作，如力握和精确握持。目标是确定哪种EEG技术在处理和翻译与抓握相关的脑电信号方面更为有效。研究涉及对十名健康参与者进行实验，参与者进行了两种不同的握持运动：力握和精确握持，无运动条件作为基线。我们的研究在解码抓握动作方面对EEG和三极EEG进行了全面比较。该比较涵盖了几个关键参数，包括信噪比（SNR）、通过功能连接的空间分辨率、ERPs和小波时频分析。此外，我们的研究还涉及从...
-
-    arXiv:2402.09448v1 Announce Type: cross  Abstract: This study aims to enhance BCI applications for individuals with motor impairments by comparing the effectiveness of tripolar EEG (tEEG) with conventional EEG. The focus is on interpreting and decoding various grasping movements, such as power grasp and precision grasp. The goal is to determine which EEG technology is more effective in processing and translating grasp related neural signals. The approach involved experimenting on ten healthy participants who performed two distinct grasp movements: power grasp and precision grasp, with a no movement condition serving as the baseline. Our research presents a thorough comparison between EEG and tEEG in decoding grasping movements. This comparison spans several key parameters, including signal to noise ratio (SNR), spatial resolution via functional connectivity, ERPs, and wavelet time frequency analysis. Additionally, our study involved extracting and analyzing statistical features from th
-    
-[^4]: 通过机器学习在不断演化的知识图谱上预测高影响力的研究主题
-
-    Forecasting high-impact research topics via machine learning on evolving knowledge graphs
-
-    [https://arxiv.org/abs/2402.08640](https://arxiv.org/abs/2402.08640)
-
-    通过机器学习预测未发布研究想法的影响力，我们使用一个由超过2100万篇科学论文构建的演化知识图谱，结合论文内容和历史引用的信息，高准确度预测未来的演化网络动态和新的研究方向的影响力。
+    该论文全面调查了与大型语言模型相关的安全和隐私问题，并提出了未来研究的有前途方向。
 
     
 
-    科学出版物的指数增长对人类研究者构成了严峻挑战。它迫使研究者将注意力集中在更狭窄的子领域上，使得发现其他领域的新颖且有影响力的研究想法和合作变得困难。虽然有办法预测科学论文未来的引用次数，但通常需要等到研究完成并且论文写成后才能进行评估，这样就错过了想法构思的早期阶段。在本文中，我们展示了如何预测从未被研究者发布的想法的影响力。为此，我们开发了一个大型的演化知识图谱，其中包含超过2100万篇科学论文。它结合了从论文内容中创建的语义网络和从历史引用中创建的影响网络。利用机器学习，我们可以高准确度地预测演化网络的动态情况，从而预测新的研究方向的影响力。我们预期这种能力将有助于研究者发现具有高影响力的研究主题。
+    大型语言模型(LLMs)显著改变了自然语言处理(NLP)的格局。它们对各种任务产生了影响，从而彻底改变了我们处理语言理解和生成的方式。然而，除了它们引人注目的实用性外，LLMs还带来了重要的安全和风险考虑。这些挑战需要仔细研究，以确保负责任的部署，并防范潜在的漏洞。本研究全面调查了与LLMs相关的安全和隐私问题，从五个主题角度进行：安全和隐私问题、对抗性攻击的漏洞、LLMs误用可能造成的潜在危害、缓解策略以解决这些挑战，同时识别当前策略的局限性。最后，本文建议未来研究的有前途的方向，以增强LLMs的安全和风险管理。
 
-    The exponential growth in scientific publications poses a severe challenge for human researchers. It forces attention to more narrow sub-fields, which makes it challenging to discover new impactful research ideas and collaborations outside one's own field. While there are ways to predict a scientific paper's future citation counts, they need the research to be finished and the paper written, usually assessing impact long after the idea was conceived. Here we show how to predict the impact of onsets of ideas that have never been published by researchers. For that, we developed a large evolving knowledge graph built from more than 21 million scientific papers. It combines a semantic network created from the content of the papers and an impact network created from the historic citations of papers. Using machine learning, we can predict the dynamic of the evolving network into the future with high accuracy, and thereby the impact of new research directions. We envision that the ability to 
+    arXiv:2403.12503v1 Announce Type: cross  Abstract: Large language models (LLMs) have significantly transformed the landscape of Natural Language Processing (NLP). Their impact extends across a diverse spectrum of tasks, revolutionizing how we approach language understanding and generations. Nevertheless, alongside their remarkable utility, LLMs introduce critical security and risk considerations. These challenges warrant careful examination to ensure responsible deployment and safeguard against potential vulnerabilities. This research paper thoroughly investigates security and privacy concerns related to LLMs from five thematic perspectives: security and privacy concerns, vulnerabilities against adversarial attacks, potential harms caused by misuses of LLMs, mitigation strategies to address these challenges while identifying limitations of current strategies. Lastly, the paper recommends promising avenues for future research to enhance the security and risk management of LLMs.
     
-[^5]: 迭代投票的平均情况分析
+[^3]: 通过无分类器引导来减轻大型视觉语言模型中的物体幻觉
 
-    Average-Case Analysis of Iterative Voting
+    Mitigating Object Hallucination in Large Vision-Language Models via Classifier-Free Guidance
 
-    [https://arxiv.org/abs/2402.08144](https://arxiv.org/abs/2402.08144)
+    [https://arxiv.org/abs/2402.08680](https://arxiv.org/abs/2402.08680)
 
-    这项工作通过分析代理人偏好分布的平均情况，扩展了迭代投票模型的效果分析。并且区分了迭代多数制何时改善或降低渐近福利。
-
-    
-
-    迭代投票是社会选择中重复战略决策的自然模型，当代理可以在最终确定群体决策之前更新他们的投票时。之前的研究通过对无序文化下代理人偏好的最坏情况和平均情况表现进行分析，通过改进安纳基价格来分析迭代多数制对平衡点选出的结果福利的有效性。然而，之前的分析只研究了在代理人偏好通过无偏文化分布的最坏情况和平均情况下的性能。本研究将平均情况分析扩展到更广泛的分布类，并区分出迭代多数制何时改善或降低渐近福利。
-
-    Iterative voting is a natural model of repeated strategic decision-making in social choice when agents have the opportunity to update their votes prior to finalizing the group decision. Prior work has analyzed the efficacy of iterative plurality on the welfare of the chosen outcome at equilibrium, relative to the truthful vote profile, via an adaptation of the price of anarchy. However, prior analyses have only studied the worst-case and average-case performances when agents' preferences are distributed by the impartial culture. This work extends average-case analyses to a wider class of distributions and distinguishes when iterative plurality improves or degrades asymptotic welfare.
-    
-[^6]: 用计数符号的一阶逻辑定义的概念的学习
-
-    Learning Concepts Definable in First-Order Logic with Counting
-
-    [https://arxiv.org/abs/1909.03820](https://arxiv.org/abs/1909.03820)
-
-    该研究将一阶逻辑与计数符号相结合，证明了可以在多对数度结构下以次线性时间一致学习可定义的分类器，为包含数值方面的机器学习扩展学习框架迈出了第一步。
+    本文介绍了一种名为MARINE的框架，用于通过无分类器引导来减少大型视觉语言模型的物体幻觉。该框架无需训练或API访问，并通过集成视觉模型和引入额外的物体基础特征来提高模型的生成精确性和效率。
 
     
 
-    我们研究了在Grohe和Tur\'an引入的逻辑框架下的关系背景结构上的布尔分类问题。众所周知(Grohe和Ritzert, LICS 2017)，在多对数度结构上的一阶逻辑可定义的分类器可以在次线性时间内学习，其中结构的度和运行时间是以结构的大小为单位来衡量的。我们将结果推广到了由Kuske和Schweikardt(LICS 2017)引入的带计数的一阶逻辑FOCN，它作为一个广泛推广各种计数逻辑的表现逻辑。具体来说，我们证明了可以在多对数度结构类上定义的FOCN中的分类器可以在次线性时间内一致地学习。这可以看作是将学习框架扩展以包含机器学习的数值方面的第一步。我们将这一结果扩展到了无视的概率
+    大型视觉语言模型（LVLM）的进展越来越突出了它们在图像中产生虚假物体的严重问题。为了解决这个问题，先前的研究着重于使用特殊策划的数据集或强大的LLM（例如GPT-3.5）来纠正LVLM的输出。然而，这些方法要求昂贵的训练/微调或API访问先进的LLM来在生成后纠正模型的输出。在本文中，我们通过引入一个名为通过无分类器引导缓解幻觉的框架（MARINE）来解决这个挑战，该框架既无需训练也无需API访问，可以在生成过程中有效地减少物体幻觉。具体而言，MARINE通过集成现有的开源视觉模型丰富LVLM的视觉语境，并使用无分类器引导来整合额外的物体基础特征，以提高LVLM生成的精确性。
 
-    arXiv:1909.03820v2 Announce Type: replace-cross  Abstract: We study Boolean classification problems over relational background structures in the logical framework introduced by Grohe and Tur\'an (TOCS 2004). It is known (Grohe and Ritzert, LICS 2017) that classifiers definable in first-order logic over structures of polylogarithmic degree can be learned in sublinear time, where the degree of the structure and the running time are measured in terms of the size of the structure. We generalise the results to the first-order logic with counting FOCN, which was introduced by Kuske and Schweikardt (LICS 2017) as an expressive logic generalising various other counting logics. Specifically, we prove that classifiers definable in FOCN over classes of structures of polylogarithmic degree can be consistently learned in sublinear time. This can be seen as a first step towards extending the learning framework to include numerical aspects of machine learning. We extend the result to agnostic probabl
+    The advancement of Large Vision-Language Models (LVLMs) has increasingly highlighted the critical issue of their tendency to hallucinate non-existing objects in the images. To address this issue, previous works focused on using specially curated datasets or powerful LLMs (e.g., GPT-3.5) to rectify the outputs of LVLMs. However, these approaches require either expensive training/fine-tuning or API access to advanced LLMs to correct the model's output post-generation. In this paper, we tackle this challenge by introducing a framework called Mitigating hallucinAtion via classifieR-Free guIdaNcE (MARINE), which is both training-free and API-free, and can effectively and efficiently reduce object hallucinations during the generation process. Specifically, MARINE enriches the visual context of LVLMs by integrating existing open-source vision models, and employs classifier-free guidance to incorporate the additional object grounding features to improve the precision of LVLMs' generations. Thr
     
-[^7]: 使用Sum-Product Networks生成可能的反事实推理
+[^4]: 有效利用背景知识的约束k中心聚类
 
-    Generating Likely Counterfactuals Using Sum-Product Networks. (arXiv:2401.14086v1 [cs.AI])
+    Efficient Constrained $k$-Center Clustering with Background Knowledge. (arXiv:2401.12533v1 [cs.LG])
 
-    [http://arxiv.org/abs/2401.14086](http://arxiv.org/abs/2401.14086)
+    [http://arxiv.org/abs/2401.12533](http://arxiv.org/abs/2401.12533)
 
-    由于用户需求和最近的法规要求，需要对AI系统所做出的决策进行解释。本论文提出了一种使用Sum-Product Networks模拟寻找高可能性反事实推理的系统，该系统能够提供满足多个常见要求的最佳解释。
-
-    
-
-    由于用户需求和最近的法规（GDPR、AI法案），需要解释AI系统所做出的决策。这些决策往往只能在事后解释，反事实推理成为常见的解释方式。什么构成了最佳的反事实解释必须考虑多个方面，其中“样本距离”是最常见的。我们认为，这一要求经常会导致不太可能且因此价值有限的解释。在这里，我们提出了一个能够提供高可能性解释的系统。我们展示了使用混合整数优化（MIO）模拟寻找满足反事实推理的许多常见要求的最有可能解释。在此过程中，我们提出了Sum-Product Network（SPN）的MIO表达，并使用SPN估计反事实的可能性，这对独立的兴趣也有用。与生成反事实解释的几种方法进行数值比较。
-
-    Due to user demand and recent regulation (GDPR, AI Act), decisions made by AI systems need to be explained. These decisions are often explainable only post hoc, where counterfactual explanations are popular. The question of what constitutes the best counterfactual explanation must consider multiple aspects, where "distance from the sample" is the most common. We argue that this requirement frequently leads to explanations that are unlikely and, therefore, of limited value. Here, we present a system that provides high-likelihood explanations. We show that the search for the most likely explanations satisfying many common desiderata for counterfactual explanations can be modeled using mixed-integer optimization (MIO). In the process, we propose an MIO formulation of a Sum-Product Network (SPN) and use the SPN to estimate the likelihood of a counterfactual, which can be of independent interest. A numerical comparison against several methods for generating counterfactual explanations is pr
-    
-[^8]: 线性时间逻辑规则的时间点解释框架
-
-    Pointwise-in-Time Explanation for Linear Temporal Logic Rules. (arXiv:2306.13956v1 [cs.AI])
-
-    [http://arxiv.org/abs/2306.13956](http://arxiv.org/abs/2306.13956)
-
-    本文提出了一个可以评估给定路径规划中特定时间点上的单个线性时间逻辑(LTL)约束的相关性和状态的框架，可以用于在离散时间、离散空间中执行有限计划的代理任务中，为用户提供时间点解释和规则参数状态的洞察力。
+    本论文提出了一种在k中心聚类上利用背景知识的约束聚类算法，通过采用一系列技术，得到了效率高且具有最佳近似比例2的算法。
 
     
 
-    本文介绍了一个框架来评估给定路径规划中特定时间点上的单个线性时间逻辑(LTL)约束的相关性，这个任务被我们称为“时间点解释”。我们开发了一个包含状态评估算法的框架，适用于在Kripke结构可表达的离散时间、离散空间中执行有限计划的代理。在给定的结构上和已知约束代理的一组LTL规则的计划中，该算法针对两种类型的用户查询响应地生成解释。对于所选的查询时间，解释识别哪些规则是活动的，哪些规则刚刚被满足，哪些规则是不活动的，其中框架状态标准是正式和直观地定义的。解释还可以包括单个规则参数的状态，以提供进一步的洞察力。在本文中，我们系统地介绍了这个新颖的框架，并提供了其实现的示例。
+    中心为基础的聚类在理论和实践中都引起了重要的研究兴趣。在许多实际应用中，输入数据通常包含可以用于改进聚类结果的背景知识。在这项工作中，我们基于广泛采用的k中心聚类，并将其输入的背景知识建模为必连（ML）和不连（CL）约束集。然而，大多数包括k中心在内的聚类问题本质上都是NP困难的，而更复杂的受约束变体被认为受到更严重的近似和计算障碍的限制，极大地限制了它们的适用性。通过采用一系列技术，包括反支配集，线性规划（LP）整数平面和LP对偶性，我们得到了第一个具有最佳近似比例2的约束k中心的高效近似算法。我们还构建了竞争基准算法，并对我们的近似算法进行了实证评估。
 
-    This work introduces a framework to assess the relevance of individual linear temporal logic (LTL) constraints at specific times in a given path plan, a task we refer to as "pointwise-in-time" explanation. We develop this framework, featuring a status assessment algorithm, for agents which execute finite plans in a discrete-time, discrete-space setting expressible via a Kripke structure. Given a plan on this structure and a set of LTL rules which are known to constrain the agent, the algorithm responds to two types of user queries to produce explanation. For the selected query time, explanations identify which rules are active, which have just been satisfied, and which are inactive, where the framework status criteria are formally and intuitively defined. Explanations may also include the status of individual rule arguments to provide further insight. In this paper, we systematically present this novel framework and provide an example of its implementation.
+    Center-based clustering has attracted significant research interest from both theory and practice. In many practical applications, input data often contain background knowledge that can be used to improve clustering results. In this work, we build on widely adopted $k$-center clustering and model its input background knowledge as must-link (ML) and cannot-link (CL) constraint sets. However, most clustering problems including $k$-center are inherently $\mathcal{NP}$-hard, while the more complex constrained variants are known to suffer severer approximation and computation barriers that significantly limit their applicability. By employing a suite of techniques including reverse dominating sets, linear programming (LP) integral polyhedron, and LP duality, we arrive at the first efficient approximation algorithm for constrained $k$-center with the best possible ratio of 2. We also construct competitive baseline algorithms and empirically evaluate our approximation algorithm against them o
     
-[^9]: 利用扩散模型进行有效的数据增强
+[^5]: IoTGeM: 用于基于行为的物联网攻击检测的通用模型
 
-    Effective Data Augmentation With Diffusion Models. (arXiv:2302.07944v2 [cs.CV] UPDATED)
+    IoTGeM: Generalizable Models for Behaviour-Based IoT Attack Detection. (arXiv:2401.01343v1 [cs.CR])
 
-    [http://arxiv.org/abs/2302.07944](http://arxiv.org/abs/2302.07944)
+    [http://arxiv.org/abs/2401.01343](http://arxiv.org/abs/2401.01343)
 
-    本文提出了一种利用预训练文本至图像扩散模型参数化的图像到图像转换方法，用于解决数据增强的多样性不足问题，并能够泛化到新视觉概念，从而提高了少样本图像分类和图像识别的性能。
+    本研究提出了一种通用模型，用于基于行为的物联网攻击检测。该模型通过改进滚动窗口特征提取、引入多步骤特征选择、使用隔离的训练和测试数据集以及使用可解释的人工智能技术来提高检测和性能，并且经过严格评估。
 
     
 
-    数据增强是深度学习中最常见的工具之一，支撑着最近包括分类、生成模型和表示学习在内的许多进展。然而，当前的增强方法在数据的关键语义轴上缺乏多样性，缺乏改变高级语义属性（如场景中的动物种类）以增强数据多样性的方法。本文提出了一种利用预训练文本至图像扩散模型参数化的图像到图像转换来解决数据增强多样性不足问题的方法。我们的方法利用现成的扩散模型编辑图像，改变它们的语义，能够泛化到仅用少量标记示例得到的新视觉概念。我们在少样本图像分类任务和真实世界的杂草识别任务中评估了我们的方法，并观察到......
+    过去关于物联网设备网络的基于行为的攻击检测研究，所得到的机器学习模型的适应能力有限，并且往往没有得到证明。本文提出了一种针对建模物联网网络攻击的方法，着重于通用性，同时也能提高检测和性能。首先，我们提出了一种改进的滚动窗口特征提取方法，并引入了一个多步骤特征选择过程来减少过拟合。其次，我们使用隔离的训练和测试数据集来构建和测试模型，从而避免了先前模型在通用性方面的常见数据泄漏问题。第三，我们使用多样化的机器学习模型、评估指标和数据集对我们的方法进行了严格评估。最后，我们使用可解释的人工智能技术来增加模型的可信度，从而能够识别出支撑攻击准确检测的特征。
 
-    Data augmentation is one of the most prevalent tools in deep learning, underpinning many recent advances, including those from classification, generative models, and representation learning. The standard approach to data augmentation combines simple transformations like rotations and flips to generate new images from existing ones. However, these new images lack diversity along key semantic axes present in the data. Current augmentations cannot alter the high-level semantic attributes, such as animal species present in a scene, to enhance the diversity of data. We address the lack of diversity in data augmentation with image-to-image transformations parameterized by pre-trained text-to-image diffusion models. Our method edits images to change their semantics using an off-the-shelf diffusion model, and generalizes to novel visual concepts from a few labelled examples. We evaluate our approach on few-shot image classification tasks, and on a real-world weed recognition task, and observe 
+    Previous research on behaviour-based attack detection on networks of IoT devices has resulted in machine learning models whose ability to adapt to unseen data is limited, and often not demonstrated. In this paper we present an approach for modelling IoT network attacks that focuses on generalizability, yet also leads to better detection and performance. First, we present an improved rolling window approach for feature extraction, and introduce a multi-step feature selection process that reduces overfitting. Second, we build and test models using isolated train and test datasets, thereby avoiding common data leaks that have limited the generalizability of previous models. Third, we rigorously evaluate our methodology using a diverse portfolio of machine learning models, evaluation metrics and datasets. Finally, we build confidence in the models by using explainable AI techniques, allowing us to identify the features that underlie accurate detection of attacks.
+    
+[^6]: 动态梯度下降法的平衡法则与稳态分布
+
+    Law of Balance and Stationary Distribution of Stochastic Gradient Descent. (arXiv:2308.06671v1 [cs.LG])
+
+    [http://arxiv.org/abs/2308.06671](http://arxiv.org/abs/2308.06671)
+
+    本文证明了随机梯度下降算法中的小批量噪音会使解决方案向平衡解靠近，只要损失函数包含重新缩放对称性。利用这个结果，我们导出了对角线性网络的随机梯度流稳态分布，该分布展示了复杂的非线性现象。这些发现揭示了动态梯度下降法在训练神经网络中的工作原理。
+
+    
+
+    随机梯度下降（SGD）算法是我们用于训练神经网络的算法。然而，我们很难理解SGD如何在神经网络的非线性和退化的损失曲面中进行导航。在这项工作中，我们证明了SGD的小批量噪音可以使解决方案向平衡解靠近，只要损失函数包含一个重新缩放对称性。由于简单扩散过程和SGD动力学的差异在对称性存在时最重要，我们的理论表明，损失函数的对称性是了解SGD工作方式的重要线索。然后，我们将这个结果应用于导出具有任意深度和宽度的对角线性网络的随机梯度流的稳态分布。稳态分布展现了复杂的非线性现象，如相变、破坏的遍历性和波动反转。这些现象仅在深层网络中存在，表明了一种基本的新的加深训练理论。
+
+    The stochastic gradient descent (SGD) algorithm is the algorithm we use to train neural networks. However, it remains poorly understood how the SGD navigates the highly nonlinear and degenerate loss landscape of a neural network. In this work, we prove that the minibatch noise of SGD regularizes the solution towards a balanced solution whenever the loss function contains a rescaling symmetry. Because the difference between a simple diffusion process and SGD dynamics is the most significant when symmetries are present, our theory implies that the loss function symmetries constitute an essential probe of how SGD works. We then apply this result to derive the stationary distribution of stochastic gradient flow for a diagonal linear network with arbitrary depth and width. The stationary distribution exhibits complicated nonlinear phenomena such as phase transitions, broken ergodicity, and fluctuation inversion. These phenomena are shown to exist uniquely in deep networks, implying a fundam
     
 
