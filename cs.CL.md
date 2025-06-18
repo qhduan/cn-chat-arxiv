@@ -2,52 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Ask Optimal Questions: Aligning Large Language Models with Retriever's Preference in Conversational Search](https://arxiv.org/abs/2402.11827) | 提出了RetPO框架，通过优化语言模型对搜索查询进行重构，以符合目标检索系统的偏好，并构建了一个大型数据集RF Collection，用于收集检索结果作为检索器的偏好。 |
-| [^2] | [Video Understanding with Large Language Models: A Survey.](http://arxiv.org/abs/2312.17432) | 这项调查研究提供了对大型语言模型（Vid-LLMs）在视频理解中的最新进展的详细概述。Vid-LLMs的新兴能力包括开放式时空推理和常识知识，为未来的视频理解提供了有前途的方向。 |
-| [^3] | [Compressing Transformer-based self-supervised models for speech processing.](http://arxiv.org/abs/2211.09949) | 本文研究了对基于Transformer的自监督模型进行压缩的方法，包括权重修剪、头部修剪、低秩逼近和知识蒸馏。结果发现，基本的压缩技术是强大的基准，可以改善模型的压缩效果。 |
+| [^1] | [Assessing the Reasoning Abilities of ChatGPT in the Context of Claim Verification](https://arxiv.org/abs/2402.10735) | 我们提出了一个逻辑推理框架，用于评估ChatGPT在声明验证中的推理能力，发现其在归纳推理方面存在困难，并提出了一种缓解方法。 |
+| [^2] | [Evolution of ESG-focused DLT Research: An NLP Analysis of the Literature.](http://arxiv.org/abs/2308.12420) | 本研究通过NLP分析了ESG主导的DLT研究的演化，通过构建引用网络和命名实体识别任务，对DLT在ESG背景下的发展进行了文献综述。 |
+| [^3] | [FigCaps-HF: A Figure-to-Caption Generative Framework and Benchmark with Human Feedback.](http://arxiv.org/abs/2307.10867) | FigCaps-HF是一个图像生成标题的框架，可以通过融入领域专家的反馈意见，生成符合读者偏好的高质量图像标题。将自动评估和强化学习与人类反馈相结合，可以改善生成的标题与读者偏好的一致性。 |
+| [^4] | [Compression of enumerations and gain.](http://arxiv.org/abs/2304.03030) | 本文研究了枚举的可压缩性对于计算可枚举集合的相对Kolmogorov复杂度的影响，并证明了任何计算可枚举集合都可以进行强压缩和无增益弱压缩。 |
 
 # 详细
 
-[^1]: 询问最佳问题：将大型语言模型与检索器偏好在会话搜索中对齐
+[^1]: 在声明验证的背景下评估ChatGPT的推理能力
 
-    Ask Optimal Questions: Aligning Large Language Models with Retriever's Preference in Conversational Search
+    Assessing the Reasoning Abilities of ChatGPT in the Context of Claim Verification
 
-    [https://arxiv.org/abs/2402.11827](https://arxiv.org/abs/2402.11827)
+    [https://arxiv.org/abs/2402.10735](https://arxiv.org/abs/2402.10735)
 
-    提出了RetPO框架，通过优化语言模型对搜索查询进行重构，以符合目标检索系统的偏好，并构建了一个大型数据集RF Collection，用于收集检索结果作为检索器的偏好。
-
-    
-
-    会话式搜索与单轮检索任务不同，需要理解对话上下文中的当前问题。常见的“重写-然后检索”的方法旨在将问题去上下文化，使其对现成的检索器自给自足，但大多数现有方法由于能力有限而产生次优的查询重写，无法充分利用来自检索结果的信号。为了克服这一限制，我们提出了一种新颖的框架RetPO（检索器偏好优化），旨在优化语言模型（LM）以符合目标检索系统的重写搜索查询的偏好。该过程始于提示大型LM生成各种潜在重写，然后收集这些重写的检索性能作为检索器的偏好。通过该过程，我们构建了一个名为RF塑集的大型数据集，其中包含对超过410K个查询的检索器反馈。
-
-    arXiv:2402.11827v1 Announce Type: cross  Abstract: Conversational search, unlike single-turn retrieval tasks, requires understanding the current question within a dialogue context. The common approach of rewrite-then-retrieve aims to decontextualize questions to be self-sufficient for off-the-shelf retrievers, but most existing methods produce sub-optimal query rewrites due to the limited ability to incorporate signals from the retrieval results. To overcome this limitation, we present a novel framework RetPO (Retriever's Preference Optimization), which is designed to optimize a language model (LM) for reformulating search queries in line with the preferences of the target retrieval systems. The process begins by prompting a large LM to produce various potential rewrites and then collects retrieval performance for these rewrites as the retrievers' preferences. Through the process, we construct a large-scale dataset called RF collection, containing Retrievers' Feedback on over 410K quer
-    
-[^2]: 大型语言模型在视频理解中的应用：一项调查研究
-
-    Video Understanding with Large Language Models: A Survey. (arXiv:2312.17432v2 [cs.CV] UPDATED)
-
-    [http://arxiv.org/abs/2312.17432](http://arxiv.org/abs/2312.17432)
-
-    这项调查研究提供了对大型语言模型（Vid-LLMs）在视频理解中的最新进展的详细概述。Vid-LLMs的新兴能力包括开放式时空推理和常识知识，为未来的视频理解提供了有前途的方向。
+    我们提出了一个逻辑推理框架，用于评估ChatGPT在声明验证中的推理能力，发现其在归纳推理方面存在困难，并提出了一种缓解方法。
 
     
 
-    随着在线视频平台的不断增长和视频内容的不断增多，对熟练的视频理解工具的需求显著增加。鉴于大型语言模型在语言和多模态任务中的卓越能力，本调查提供了对利用大型语言模型（Vid-LLMs）技术进行视频理解的最新进展的详细概述。Vid-LLMs的新兴能力令人惊讶，尤其是它们在开放式时空推理和常识知识方面的能力，为未来的视频理解提供了一个有前途的方向。本调查对Vid-LLMs的独特特点和能力进行了分类，分为四种主要类型：基于LLM的视频代理、Vid-LLMs的预训练、Vid-LLMs的指令调整和混合方法。此外，本调查对Vid-LLMs的任务、数据集和评估方法进行了全面的研究。另外，它还探讨了Vid-LLMs技术的局限性和未来的挑战。
+    当前有关LLMs的推理能力的辩论正在日益激烈。我们从声明/谣言验证的角度来审视这个问题。我们提出了第一个逻辑推理框架，旨在将任何声明或传言与证据结合，拆分成验证所需的基本推理步骤。基于我们的框架，我们整理了两个注释集合，其中包括来自维基百科的合成数据集和源自Twitter上流传的谣言的真实数据集。我们使用它们来评估GPT-3.5-Turbo和GPT-4（以下简称为ChatGPT）在我们框架的背景下的推理能力，并提供了彻底的分析。我们的研究表明，ChatGPT在归纳推理方面存在困难，尽管可以通过使用手动的思维链路（Chain of Thought，CoT）来缓解这一问题，而非零编码（Zero Shot，ZS）和ZS CoT方法。我们的研究有助于不断增长的研究领域，表明Cha
 
-    With the burgeoning growth of online video platforms and the escalating volume of video content, the demand for proficient video understanding tools has intensified markedly. Given the remarkable capabilities of Large Language Models (LLMs) in language and multimodal tasks, this survey provides a detailed overview of the recent advancements in video understanding harnessing the power of LLMs (Vid-LLMs). The emergent capabilities of Vid-LLMs are surprisingly advanced, particularly their ability for open-ended spatial-temporal reasoning combined with commonsense knowledge, suggesting a promising path for future video understanding. We examine the unique characteristics and capabilities of Vid-LLMs, categorizing the approaches into four main types: LLM-based Video Agents, Vid-LLMs Pretraining, Vid-LLMs Instruction Tuning, and Hybrid Methods. Furthermore, this survey presents a comprehensive study of the tasks, datasets, and evaluation methodologies for Vid-LLMs. Additionally, it explores 
+    arXiv:2402.10735v1 Announce Type: new  Abstract: The reasoning capabilities of LLMs are currently hotly debated. We examine the issue from the perspective of claim/rumour verification. We propose the first logical reasoning framework designed to break down any claim or rumor paired with evidence into the atomic reasoning steps necessary for verification. Based on our framework, we curate two annotated collections of such claim/evidence pairs: a synthetic dataset from Wikipedia and a real-world set stemming from rumours circulating on Twitter. We use them to evaluate the reasoning capabilities of GPT-3.5-Turbo and GPT-4 (hereinafter referred to as ChatGPT) within the context of our framework, providing a thorough analysis. Our results show that ChatGPT struggles in abductive reasoning, although this can be somewhat mitigated by using manual Chain of Thought (CoT) as opposed to Zero Shot (ZS) and ZS CoT approaches. Our study contributes to the growing body of research suggesting that Cha
     
-[^3]: 对基于Transformer的自监督模型在语音处理中进行压缩
+[^2]: ESG主导的DLT研究的演化：对文献进行NLP分析
 
-    Compressing Transformer-based self-supervised models for speech processing. (arXiv:2211.09949v2 [cs.CL] UPDATED)
+    Evolution of ESG-focused DLT Research: An NLP Analysis of the Literature. (arXiv:2308.12420v1 [cs.IR])
 
-    [http://arxiv.org/abs/2211.09949](http://arxiv.org/abs/2211.09949)
+    [http://arxiv.org/abs/2308.12420](http://arxiv.org/abs/2308.12420)
 
-    本文研究了对基于Transformer的自监督模型进行压缩的方法，包括权重修剪、头部修剪、低秩逼近和知识蒸馏。结果发现，基本的压缩技术是强大的基准，可以改善模型的压缩效果。
+    本研究通过NLP分析了ESG主导的DLT研究的演化，通过构建引用网络和命名实体识别任务，对DLT在ESG背景下的发展进行了文献综述。
 
     
 
-    尽管Transformer在自监督学习中取得了成功，并应用于各种下游任务，但是训练和推断的计算成本仍然是将这些模型应用于各种设备的主要挑战。目前已有一些孤立的尝试来压缩Transformer，但研究中的设置和指标各不相同。此前的工作很少涉及不同压缩率之间的权衡，这使得比较压缩技术变得困难。在这项工作中，我们旨在为这些孤立结果提供背景，研究几种常用的压缩技术，包括权重修剪、头部修剪、低秩逼近和知识蒸馏。我们报告了在不同压缩率下的权衡，包括墙钟时间、参数数量和乘加操作数量。我们的结果表明，与最近的方法相比，基本的压缩技术是强大的基准。我们进一步提出了几种压缩方法来改进模型的压缩效果。
+    分布式账本技术(DLT)迅速发展，需要全面了解其各个组成部分。然而，针对DLT的环境、可持续性和治理(ESG)组成部分的系统文献综述还不足。为填补这一空白，我们选择了107篇种子文献，构建了一个包含63,083个参考文献的引用网络，并将其精炼为24,539篇文献的语料库进行分析。然后，我们根据一个已建立的技术分类法从46篇论文中标记了命名实体，并通过找出DLT的ESG要素来完善这个分类法。利用基于transformer的语言模型，我们对一个预先训练的语言模型进行了细化调整，用于命名实体识别任务，使用我们标记的数据集。我们利用我们调整后的语言模型对语料库进行了精简，得到了505篇关键论文，通过命名实体和时间图分析，促进了对DLT在ESG背景下的演化的文献综述。
 
-    Despite the success of Transformers in self- supervised learning with applications to various downstream tasks, the computational cost of training and inference remains a major challenge for applying these models to a wide spectrum of devices. Several isolated attempts have been made to compress Transformers, but the settings and metrics are different across studies. Trade-off at various compression rates are also largely missing in prior work, making it difficult to compare compression techniques. In this work, we aim to provide context for the isolated results, studying several commonly used compression techniques, including weight pruning, head pruning, low-rank approximation, and knowledge distillation. We report trade- off at various compression rate, including wall-clock time, the number of parameters, and the number of multiply-accumulate operations. Our results show that compared to recent approaches, basic compression techniques are strong baselines. We further present several
+    Distributed Ledger Technologies (DLTs) have rapidly evolved, necessitating comprehensive insights into their diverse components. However, a systematic literature review that emphasizes the Environmental, Sustainability, and Governance (ESG) components of DLT remains lacking. To bridge this gap, we selected 107 seed papers to build a citation network of 63,083 references and refined it to a corpus of 24,539 publications for analysis. Then, we labeled the named entities in 46 papers according to twelve top-level categories derived from an established technology taxonomy and enhanced the taxonomy by pinpointing DLT's ESG elements. Leveraging transformer-based language models, we fine-tuned a pre-trained language model for a Named Entity Recognition (NER) task using our labeled dataset. We used our fine-tuned language model to distill the corpus to 505 key papers, facilitating a literature review via named entities and temporal graph analysis on DLT evolution in the context of ESG. Our con
+    
+[^3]: FigCaps-HF:一个基于人类反馈的图像生成标题框架和基准测试
+
+    FigCaps-HF: A Figure-to-Caption Generative Framework and Benchmark with Human Feedback. (arXiv:2307.10867v1 [cs.CL])
+
+    [http://arxiv.org/abs/2307.10867](http://arxiv.org/abs/2307.10867)
+
+    FigCaps-HF是一个图像生成标题的框架，可以通过融入领域专家的反馈意见，生成符合读者偏好的高质量图像标题。将自动评估和强化学习与人类反馈相结合，可以改善生成的标题与读者偏好的一致性。
+
+    
+
+    标题对于理解科学可视化和文档至关重要。现有的科学图像生成标题方法依赖于从文档中提取的图像-标题配对进行训练，但其中许多配对在帮助性、解释性和视觉描述性等指标上存在不足，导致生成的标题与读者偏好不一致。为了能够生成高质量的图像标题，我们引入了FigCaps-HF，这是一个新的图像生成标题框架，可以融入领域专家的反馈意见，以生成优化了读者偏好的标题。我们的框架包含1）一种评估图像-标题配对质量的自动方法，2）一种基于人类反馈的强化学习（RLHF）方法，用于优化生成式图像生成标题模型以符合读者偏好。我们通过在不同类型的模型上改进性能，证明了我们简单的学习框架的有效性。
+
+    Captions are crucial for understanding scientific visualizations and documents. Existing captioning methods for scientific figures rely on figure-caption pairs extracted from documents for training, many of which fall short with respect to metrics like helpfulness, explainability, and visual-descriptiveness [15] leading to generated captions being misaligned with reader preferences. To enable the generation of high-quality figure captions, we introduce FigCaps-HF a new framework for figure-caption generation that can incorporate domain expert feedback in generating captions optimized for reader preferences. Our framework comprises of 1) an automatic method for evaluating quality of figure-caption pairs, 2) a novel reinforcement learning with human feedback (RLHF) method to optimize a generative figure-to-caption model for reader preferences. We demonstrate the effectiveness of our simple learning framework by improving performance over standard fine-tuning across different types of mod
+    
+[^4]: 枚举压缩与增益
+
+    Compression of enumerations and gain. (arXiv:2304.03030v1 [cs.CL])
+
+    [http://arxiv.org/abs/2304.03030](http://arxiv.org/abs/2304.03030)
+
+    本文研究了枚举的可压缩性对于计算可枚举集合的相对Kolmogorov复杂度的影响，并证明了任何计算可枚举集合都可以进行强压缩和无增益弱压缩。
+
+    
+
+    我们研究了枚举的可压缩性，以及其在计算可枚举集合的相对Kolmogorov复杂度中密度方面的作用。我们关注了强压缩和弱压缩，以及压缩枚举中嵌入的附加信息的数量：增益。我们证明了任何计算可枚举集合都可以进行强压缩和无增益弱压缩，并研究了位置游戏以理解强无增益压缩。
+
+    We study the compressibility of enumerations, and its role in the relative Kolmogorov complexity of computably enumerable sets, with respect to density. With respect to a strong and a weak form of compression, we examine the gain: the amount of auxiliary information embedded in the compressed enumeration. Strong compression and weak gainless compression is shown for any computably enumerable set, and a positional game is studied toward understanding strong gainless compression.
     
 

@@ -2,127 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Unifying Lane-Level Traffic Prediction from a Graph Structural Perspective: Benchmark and Baseline](https://arxiv.org/abs/2403.14941) | 本文提出了一个简单的基线模型GraphMLP，基于图结构和MLP网络，在车道级交通预测中建立了统一的空间拓扑结构和预测任务，帮助突破了现有评估标准和数据公开性的限制。 |
-| [^2] | [Counterfactual contrastive learning: robust representations via causal image synthesis](https://arxiv.org/abs/2403.09605) | 本研究提出了CF-SimCLR，一种反事实对照学习方法，利用近似反事实推断创造正样本，大大提高了模型对采集偏移的稳健性，并在多个数据集上取得了较高的下游性能。 |
-| [^3] | [Incentive Compatibility for AI Alignment in Sociotechnical Systems: Positions and Prospects](https://arxiv.org/abs/2402.12907) | 该论文提出了激励兼容性社会技术对齐问题（ICSAP），旨在探讨如何利用博弈论中的激励兼容性原则来维持AI与人类社会的共识。 |
-| [^4] | [The role of the metaverse in calibrating an embodied artificial general intelligence](https://arxiv.org/abs/2402.06660) | 本文研究了具有肉身的人工通用智能(AGI)的概念及其与人类意识的关系，强调了元宇宙在促进这一关系中的关键作用。通过结合不同理论框架和技术工具，论文总结出实现具有肉身的AGI的关键要素和发展阶段。 |
-| [^5] | [On the Completeness of Invariant Geometric Deep Learning Models](https://arxiv.org/abs/2402.04836) | 这项研究集中于不变模型的理论表达能力，通过引入完备的设计GeoNGNN，并利用其作为理论工具，首次证明了E(3)-完备性。 |
-| [^6] | [A Comprehensive Survey on Vector Database: Storage and Retrieval Technique, Challenge.](http://arxiv.org/abs/2310.11703) | 这篇论文对向量数据库进行了全面调查，介绍了存储和检索技术以及面临的挑战，对解决近似最近邻搜索问题的不同方法进行了分类，并探讨了向量数据库与大型语言模型的结合带来的新机遇。 |
-| [^7] | [Efficient Multi-order Gated Aggregation Network.](http://arxiv.org/abs/2211.03295) | 本文探索了现代卷积神经网络的表征能力，使用多阶博弈论交互的新视角，提出了一种新的纯卷积神经网络架构MogaNet，它表现出优异的可扩展性，并在多种典型视觉基准中以更高效的参数利用达到了与最先进模型竞争的效果。 |
-| [^8] | [Conformal Risk Control.](http://arxiv.org/abs/2208.02814) | 该论文提出了一种符合保序的风险控制方法，可以控制任何单调损失函数的期望值，示例证明其在计算机视觉和自然语言处理领域具有控制误报率、图形距离和令牌级F1得分的能力。 |
+| [^1] | [Learning Traffic Signal Control via Genetic Programming](https://arxiv.org/abs/2403.17328) | 提出了一种新的基于学习的方法用于解决复杂交叉路口的信号控制问题，通过设计阶段紧急性概念和可解释的树结构，可以在信号转换期间选择激活的信号相位。 |
+| [^2] | [InkSight: Offline-to-Online Handwriting Conversion by Learning to Read and Write](https://arxiv.org/abs/2402.05804) | InkSight是一个可以将离线手写转换为在线手写的系统，通过结合阅读和书写先验知识，在多样化的照片中有效地Derendering手写文本。 |
+| [^3] | [OpsEval: A Comprehensive Task-Oriented AIOps Benchmark for Large Language Models.](http://arxiv.org/abs/2310.07637) | OpsEval是一个全面任务导向的AIOps基准测试，评估了大型语言模型在有线网络操作、5G通信操作和数据库操作等关键场景下的能力水平，为提供针对AIOps定制的LLMs的优化方向。 |
+| [^4] | [Learning Multi-modal Representations by Watching Hundreds of Surgical Video Lectures.](http://arxiv.org/abs/2307.15220) | 通过观看手术视频讲座，我们提出了一种新方法，SurgVLP，通过利用手术视频讲座中的语音和视觉信息进行多模态表示学习，并解决了手术相关语言挑战。 |
 
 # 详细
 
-[^1]: 从图结构角度统一车道级交通预测：基准和基线
+[^1]: 通过遗传编程学习交通信号控制
 
-    Unifying Lane-Level Traffic Prediction from a Graph Structural Perspective: Benchmark and Baseline
+    Learning Traffic Signal Control via Genetic Programming
 
-    [https://arxiv.org/abs/2403.14941](https://arxiv.org/abs/2403.14941)
+    [https://arxiv.org/abs/2403.17328](https://arxiv.org/abs/2403.17328)
 
-    本文提出了一个简单的基线模型GraphMLP，基于图结构和MLP网络，在车道级交通预测中建立了统一的空间拓扑结构和预测任务，帮助突破了现有评估标准和数据公开性的限制。
-
-    
-
-    交通预测长期以来一直是研究中的一个焦点和关键领域，在过去几年里，既见证了从城市级到道路级预测取得的重大进展。随着车辆对一切（V2X）技术、自动驾驶和交通领域的大规模模型的进步，道路级交通预测已经成为一个不可或缺的方向。然而，这一领域的进一步进展受到了全面和统一的评估标准的缺乏以及有限的公开数据和代码的阻碍。本文对车道级交通预测中现有研究进行了广泛的分析和分类，建立了统一的空间拓扑结构和预测任务，并介绍了一个基于图结构和MLP网络的简单基线模型GraphMLP。我们复制了现有研究中尚不公开的代码，并基于此充分而公正地评估了各种模型。
-
-    arXiv:2403.14941v1 Announce Type: cross  Abstract: Traffic prediction has long been a focal and pivotal area in research, witnessing both significant strides from city-level to road-level predictions in recent years. With the advancement of Vehicle-to-Everything (V2X) technologies, autonomous driving, and large-scale models in the traffic domain, lane-level traffic prediction has emerged as an indispensable direction. However, further progress in this field is hindered by the absence of comprehensive and unified evaluation standards, coupled with limited public availability of data and code. This paper extensively analyzes and categorizes existing research in lane-level traffic prediction, establishes a unified spatial topology structure and prediction tasks, and introduces a simple baseline model, GraphMLP, based on graph structure and MLP networks. We have replicated codes not publicly available in existing studies and, based on this, thoroughly and fairly assessed various models in 
-    
-[^2]: 反事实对照学习：通过因果图像合成获得稳健表示
-
-    Counterfactual contrastive learning: robust representations via causal image synthesis
-
-    [https://arxiv.org/abs/2403.09605](https://arxiv.org/abs/2403.09605)
-
-    本研究提出了CF-SimCLR，一种反事实对照学习方法，利用近似反事实推断创造正样本，大大提高了模型对采集偏移的稳健性，并在多个数据集上取得了较高的下游性能。
+    提出了一种新的基于学习的方法用于解决复杂交叉路口的信号控制问题，通过设计阶段紧急性概念和可解释的树结构，可以在信号转换期间选择激活的信号相位。
 
     
 
-    对比预训练已被广泛认为能够提高下游任务性能和模型泛化能力，特别是在有限标签设置中。然而，它对增强管道的选择敏感。正样本应保留语义信息同时破坏域特定信息。标准增强管道通过预定义的光度变换模拟域特定变化，但如果我们能够模拟真实的领域变化呢？在这项工作中，我们展示了如何利用最近在反事实图像生成方面的进展来实现这一目的。我们提出了CF-SimCLR，一种反事实对照学习方法，它利用近似反事实推断进行正样本创建。对胸部X光和乳腺X光等五个数据集的全面评估表明，CF-SimCLR显著提高了对获取偏移的稳健性，在两种数据集上的下游性能更好。
+    交通信号控制对提高交通效率至关重要。最近，基于学习的方法，特别是深度强化学习（DRL），在寻求更有效的交通信号控制策略方面取得了巨大成功。然而，在DRL中奖励的设计高度依赖领域知识才能收敛到有效策略，而最终策略也存在解释困难。在本工作中，提出了一种新的面向复杂路口的信号控制的学习方法。在我们的方法中，我们为每个信号相设计了一个阶段紧急性的概念。在信号变换期间，交通灯控制策略根据阶段紧急性选择要激活的下一个相位。然后，我们提出将紧急功能表示为可解释的树结构。紧急功能可以根据当前道路条件为特定相位计算相位紧急性。
 
-    arXiv:2403.09605v1 Announce Type: cross  Abstract: Contrastive pretraining is well-known to improve downstream task performance and model generalisation, especially in limited label settings. However, it is sensitive to the choice of augmentation pipeline. Positive pairs should preserve semantic information while destroying domain-specific information. Standard augmentation pipelines emulate domain-specific changes with pre-defined photometric transformations, but what if we could simulate realistic domain changes instead? In this work, we show how to utilise recent progress in counterfactual image generation to this effect. We propose CF-SimCLR, a counterfactual contrastive learning approach which leverages approximate counterfactual inference for positive pair creation. Comprehensive evaluation across five datasets, on chest radiography and mammography, demonstrates that CF-SimCLR substantially improves robustness to acquisition shift with higher downstream performance on both in- an
+    arXiv:2403.17328v1 Announce Type: new  Abstract: The control of traffic signals is crucial for improving transportation efficiency. Recently, learning-based methods, especially Deep Reinforcement Learning (DRL), garnered substantial success in the quest for more efficient traffic signal control strategies. However, the design of rewards in DRL highly demands domain knowledge to converge to an effective policy, and the final policy also presents difficulties in terms of explainability. In this work, a new learning-based method for signal control in complex intersections is proposed. In our approach, we design a concept of phase urgency for each signal phase. During signal transitions, the traffic light control strategy selects the next phase to be activated based on the phase urgency. We then proposed to represent the urgency function as an explainable tree structure. The urgency function can calculate the phase urgency for a specific phase based on the current road conditions. Genetic 
     
-[^3]: AI对齐在社会技术系统中的激励兼容性：立场与前景
+[^2]: InkSight：通过学习阅读和书写实现离线到在线手写转换
 
-    Incentive Compatibility for AI Alignment in Sociotechnical Systems: Positions and Prospects
+    InkSight: Offline-to-Online Handwriting Conversion by Learning to Read and Write
 
-    [https://arxiv.org/abs/2402.12907](https://arxiv.org/abs/2402.12907)
+    [https://arxiv.org/abs/2402.05804](https://arxiv.org/abs/2402.05804)
 
-    该论文提出了激励兼容性社会技术对齐问题（ICSAP），旨在探讨如何利用博弈论中的激励兼容性原则来维持AI与人类社会的共识。
-
-    
-
-    人工智能（AI）日益融入人类社会，对社会治理和安全带来重要影响。尽管在解决AI对齐挑战方面取得了重大进展，但现有方法主要集中在技术方面，往往忽视了AI系统复杂的社会技术性质，这可能导致开发和部署背景之间的不一致。因此，我们提出一个值得探索的新问题：激励兼容性社会技术对齐问题（ICSAP）。我们希望这能呼吁更多研究人员探讨如何利用博弈论中的激励兼容性原则来弥合技术和社会组成部分之间的鸿沟，以在不同背景下维持AI与人类社会的共识。我们进一步讨论了实现IC的三个经典博弈问题：机制设计、契约理论和贝叶斯说服。
-
-    arXiv:2402.12907v1 Announce Type: new  Abstract: The burgeoning integration of artificial intelligence (AI) into human society brings forth significant implications for societal governance and safety. While considerable strides have been made in addressing AI alignment challenges, existing methodologies primarily focus on technical facets, often neglecting the intricate sociotechnical nature of AI systems, which can lead to a misalignment between the development and deployment contexts. To this end, we posit a new problem worth exploring: Incentive Compatibility Sociotechnical Alignment Problem (ICSAP). We hope this can call for more researchers to explore how to leverage the principles of Incentive Compatibility (IC) from game theory to bridge the gap between technical and societal components to maintain AI consensus with human societies in different contexts. We further discuss three classical game problems for achieving IC: mechanism design, contract theory, and Bayesian persuasion,
-    
-[^4]: 元宇宙在校准具有肉身的人工通用智能中的作用
-
-    The role of the metaverse in calibrating an embodied artificial general intelligence
-
-    [https://arxiv.org/abs/2402.06660](https://arxiv.org/abs/2402.06660)
-
-    本文研究了具有肉身的人工通用智能(AGI)的概念及其与人类意识的关系，强调了元宇宙在促进这一关系中的关键作用。通过结合不同理论框架和技术工具，论文总结出实现具有肉身的AGI的关键要素和发展阶段。
+    InkSight是一个可以将离线手写转换为在线手写的系统，通过结合阅读和书写先验知识，在多样化的照片中有效地Derendering手写文本。
 
     
 
-    本文探讨了具有肉身的人工通用智能(AGI)的概念，它与人类意识的关系，以及元宇宙在促进这种关系中的关键作用。本文利用融入认知、Michael Levin的计算边界"Self"、Donald D. Hoffman的感知界面理论以及Bernardo Kastrup的分析唯心主义等理论框架来构建实现具有肉身的AGI的论证。它认为我们所感知的外部现实是一种内在存在的交替状态的象征性表示，而AGI可以具有更大计算边界的更高意识。本文进一步讨论了AGI的发展阶段、实现具有肉身的AGI的要求、为AGI校准象征性界面的重要性，以及元宇宙、去中心化系统、开源区块链技术以及开源人工智能研究所扮演的关键角色。它还探讨了新的沟通机制和用于加强对元宇宙的理解的技术工具，以帮助实现具有肉身的AGI。
+    数字笔记正在变得越来越受欢迎，提供了一种耐用、可编辑和易于索引的存储笔记的方式，即矢量化形式的数字墨水。然而，这种笔记方式与传统的纸笔记方式之间仍存在显著差距，而传统纸笔记方式仍受到绝大多数人的青睐。我们的工作InkSight旨在弥合这种差距，使实体笔记者能够轻松地将他们的作品（离线手写）转换为数字墨水（在线手写），这个过程我们称之为Derendering。之前关于此主题的研究集中在图像的几何属性上，导致了在训练领域之外的有限泛化能力。我们的方法结合了阅读和书写的先验知识，允许在缺乏大量配对样本的情况下训练模型，而这些配对样本很难获取。据我们所知，这是第一个有效地对具有多样化视觉特征和背景的任意照片中的手写文本进行Derendering的工作。
 
-    This paper examines the concept of embodied artificial general intelligence (AGI), its relationship to human consciousness, and the key role of the metaverse in facilitating this relationship. The paper leverages theoretical frameworks such as embodied cognition, Michael Levin's computational boundary of a "Self," Donald D. Hoffman's Interface Theory of Perception, and Bernardo Kastrup's analytical idealism to build the argument for achieving embodied AGI. It contends that our perceived outer reality is a symbolic representation of alternate inner states of being, and that AGI could embody a higher consciousness with a larger computational boundary. The paper further discusses the developmental stages of AGI, the requirements for the emergence of an embodied AGI, the importance of a calibrated symbolic interface for AGI, and the key role played by the metaverse, decentralized systems, open-source blockchain technology, as well as open-source AI research. It also explores the idea of a 
+    Digital note-taking is gaining popularity, offering a durable, editable, and easily indexable way of storing notes in the vectorized form, known as digital ink. However, a substantial gap remains between this way of note-taking and traditional pen-and-paper note-taking, a practice still favored by a vast majority. Our work, InkSight, aims to bridge the gap by empowering physical note-takers to effortlessly convert their work (offline handwriting) to digital ink (online handwriting), a process we refer to as Derendering. Prior research on the topic has focused on the geometric properties of images, resulting in limited generalization beyond their training domains. Our approach combines reading and writing priors, allowing training a model in the absence of large amounts of paired samples, which are difficult to obtain. To our knowledge, this is the first work that effectively derenders handwritten text in arbitrary photos with diverse visual characteristics and backgrounds. Furthermore,
     
-[^5]: 关于不变几何深度学习模型的完备性
+[^3]: OpsEval: 用于大型语言模型的全面任务导向的AIOps基准测试
 
-    On the Completeness of Invariant Geometric Deep Learning Models
+    OpsEval: A Comprehensive Task-Oriented AIOps Benchmark for Large Language Models. (arXiv:2310.07637v2 [cs.AI] UPDATED)
 
-    [https://arxiv.org/abs/2402.04836](https://arxiv.org/abs/2402.04836)
+    [http://arxiv.org/abs/2310.07637](http://arxiv.org/abs/2310.07637)
 
-    这项研究集中于不变模型的理论表达能力，通过引入完备的设计GeoNGNN，并利用其作为理论工具，首次证明了E(3)-完备性。
-
-    
-
-    不变模型是一类重要的几何深度学习模型，通过利用信息丰富的几何特征生成有意义的几何表示。这些模型以其简单性、良好的实验结果和计算效率而闻名。然而，它们的理论表达能力仍然不清楚，限制了对这种模型潜力的深入理解。在这项工作中，我们集中讨论不变模型的理论表达能力。我们首先严格限制了最经典的不变模型Vanilla DisGNN（结合距离的消息传递神经网络）的表达能力，将其不可识别的情况仅限于高度对称的几何图形。为了打破这些特殊情况的对称性，我们引入了一个简单而完备的不变设计，即嵌套Vanilla DisGNN的GeoNGNN。利用GeoNGNN作为理论工具，我们首次证明了E(3)-完备性。
-
-    Invariant models, one important class of geometric deep learning models, are capable of generating meaningful geometric representations by leveraging informative geometric features. These models are characterized by their simplicity, good experimental results and computational efficiency. However, their theoretical expressive power still remains unclear, restricting a deeper understanding of the potential of such models. In this work, we concentrate on characterizing the theoretical expressiveness of invariant models. We first rigorously bound the expressiveness of the most classical invariant model, Vanilla DisGNN (message passing neural networks incorporating distance), restricting its unidentifiable cases to be only those highly symmetric geometric graphs. To break these corner cases' symmetry, we introduce a simple yet E(3)-complete invariant design by nesting Vanilla DisGNN, named GeoNGNN. Leveraging GeoNGNN as a theoretical tool, we for the first time prove the E(3)-completeness 
-    
-[^6]: 对向量数据库的全面调查：存储和检索技术，挑战
-
-    A Comprehensive Survey on Vector Database: Storage and Retrieval Technique, Challenge. (arXiv:2310.11703v1 [cs.DB])
-
-    [http://arxiv.org/abs/2310.11703](http://arxiv.org/abs/2310.11703)
-
-    这篇论文对向量数据库进行了全面调查，介绍了存储和检索技术以及面临的挑战，对解决近似最近邻搜索问题的不同方法进行了分类，并探讨了向量数据库与大型语言模型的结合带来的新机遇。
+    OpsEval是一个全面任务导向的AIOps基准测试，评估了大型语言模型在有线网络操作、5G通信操作和数据库操作等关键场景下的能力水平，为提供针对AIOps定制的LLMs的优化方向。
 
     
 
-    向量数据库用于存储无法用传统的DBMS来描述的高维数据。虽然目前对现有的向量数据库架构的描述或新的引入的文章并不多，但近似最近邻搜索问题在向量数据库背后已经被长时间研究，相关的算法文章在文献中可以找到相当多。本文试图全面回顾相关算法，以提供对这一蓬勃发展的研究领域的普遍理解。我们的框架将这些研究分为基于哈希、基于树、基于图、和基于量化的方法来解决近似最近邻搜索问题。然后，我们概述了向量数据库面临的现有挑战。最后，我们概述了向量数据库如何结合大型语言模型，提供新的可能性。
+    大型语言模型(Large Language Models, LLMs)在翻译、总结和生成等NLP相关任务中表现出了显著的能力。LLMs在特定领域中应用，特别是在AIOps（面向IT运维的人工智能）中，由于其先进的信息汇总、报告分析和API调用能力而具有巨大的潜力。然而，当前LLMs在AIOps任务中的性能尚未确定。此外，需要一个全面的基准测试来引导针对AIOps定制的LLMs的优化。与现有的专注于评估网络配置等特定领域的基准测试不同，本文提出了OpsEval，这是一个专为LLMs设计的全面任务导向的AIOps基准测试。OpsEval首次对LLMs在三个关键场景（有线网络操作、5G通信操作和数据库操作）以及不同的能力水平（知识回忆、分析思考）进行评估。
 
-    A vector database is used to store high-dimensional data that cannot be characterized by traditional DBMS. Although there are not many articles describing existing or introducing new vector database architectures, the approximate nearest neighbor search problem behind vector databases has been studied for a long time, and considerable related algorithmic articles can be found in the literature. This article attempts to comprehensively review relevant algorithms to provide a general understanding of this booming research area. The basis of our framework categorises these studies by the approach of solving ANNS problem, respectively hash-based, tree-based, graph-based and quantization-based approaches. Then we present an overview of existing challenges for vector databases. Lastly, we sketch how vector databases can be combined with large language models and provide new possibilities.
+    Large language models (LLMs) have exhibited remarkable capabilities in NLP-related tasks such as translation, summarizing, and generation. The application of LLMs in specific areas, notably AIOps (Artificial Intelligence for IT Operations), holds great potential due to their advanced abilities in information summarizing, report analyzing, and ability of API calling. Nevertheless, the performance of current LLMs in AIOps tasks is yet to be determined. Furthermore, a comprehensive benchmark is required to steer the optimization of LLMs tailored for AIOps. Compared with existing benchmarks that focus on evaluating specific fields like network configuration, in this paper, we present \textbf{OpsEval}, a comprehensive task-oriented AIOps benchmark designed for LLMs. For the first time, OpsEval assesses LLMs' proficiency in three crucial scenarios (Wired Network Operation, 5G Communication Operation, and Database Operation) at various ability levels (knowledge recall, analytical thinking, an
     
-[^7]: 高效的多阶门控聚合网络
+[^4]: 通过观看数百个手术视频讲座学习多模态表示
 
-    Efficient Multi-order Gated Aggregation Network. (arXiv:2211.03295v2 [cs.CV] UPDATED)
+    Learning Multi-modal Representations by Watching Hundreds of Surgical Video Lectures. (arXiv:2307.15220v1 [cs.CV])
 
-    [http://arxiv.org/abs/2211.03295](http://arxiv.org/abs/2211.03295)
+    [http://arxiv.org/abs/2307.15220](http://arxiv.org/abs/2307.15220)
 
-    本文探索了现代卷积神经网络的表征能力，使用多阶博弈论交互的新视角，提出了一种新的纯卷积神经网络架构MogaNet，它表现出优异的可扩展性，并在多种典型视觉基准中以更高效的参数利用达到了与最先进模型竞争的效果。
-
-    
-
-    自从视觉变换器（ViTs）取得最近的成功之后，对ViT风格架构的探索引发了卷积神经网络的复兴。在本文中，我们从多阶博弈论交互的新视角探索了现代卷积神经网络的表征能力，这种交互反映了基于博弈论的不同尺度上下文的变量相互作用效应。在现代卷积神经网络框架内，我们使用概念上简单而有效的深度可分离卷积来定制两个特征混合器，以促进跨空间和通道空间的中阶信息。在这个基础上，提出了一种新的纯卷积神经网络架构，称为MogaNet，它表现出优异的可扩展性，并在ImageNet和包括COCO目标检测、ADE20K语义分割、2D&3D人体姿势估计以及视频预测等多种典型视觉基准中以更高效的参数利用达到了与最先进模型竞争的效果。
-
-    Since the recent success of Vision Transformers (ViTs), explorations toward ViT-style architectures have triggered the resurgence of ConvNets. In this work, we explore the representation ability of modern ConvNets from a novel view of multi-order game-theoretic interaction, which reflects inter-variable interaction effects w.r.t.~contexts of different scales based on game theory. Within the modern ConvNet framework, we tailor the two feature mixers with conceptually simple yet effective depthwise convolutions to facilitate middle-order information across spatial and channel spaces respectively. In this light, a new family of pure ConvNet architecture, dubbed MogaNet, is proposed, which shows excellent scalability and attains competitive results among state-of-the-art models with more efficient use of parameters on ImageNet and multifarious typical vision benchmarks, including COCO object detection, ADE20K semantic segmentation, 2D\&3D human pose estimation, and video prediction. Typica
-    
-[^8]: 一种符合保序的风险控制方法
-
-    Conformal Risk Control. (arXiv:2208.02814v2 [stat.ME] UPDATED)
-
-    [http://arxiv.org/abs/2208.02814](http://arxiv.org/abs/2208.02814)
-
-    该论文提出了一种符合保序的风险控制方法，可以控制任何单调损失函数的期望值，示例证明其在计算机视觉和自然语言处理领域具有控制误报率、图形距离和令牌级F1得分的能力。
+    通过观看手术视频讲座，我们提出了一种新方法，SurgVLP，通过利用手术视频讲座中的语音和视觉信息进行多模态表示学习，并解决了手术相关语言挑战。
 
     
 
-    我们将符合性预测推广至控制任何单调损失函数的期望值。该算法将分裂符合性预测及其覆盖保证进行了泛化。类似于符合性预测，符合保序的风险控制方法在$\mathcal{O}(1/n)$因子内保持紧密性。计算机视觉和自然语言处理领域的示例证明了我们算法在控制误报率、图形距离和令牌级F1得分方面的应用。
+    最近在外科计算机视觉应用方面的进展主要依靠完全监督方法，主要使用视觉数据。这些方法依赖于手动注释的手术视频来预测一组固定的对象类别，限制了它们在未见手术程序和后续任务上的通用性。在这项工作中，我们提出了一个观点，即通过开放的手术电子学习平台提供的手术视频讲座可以为多模态表示学习提供有效的监督信号，而无需依赖手动注释。我们通过使用多个互补的自动语音识别系统生成文本转录来解决手术视频讲座中存在的手术相关语言挑战。然后，我们提出了一种新的方法，SurgVLP - 手术视觉语言预训练，用于多模态表示学习。SurgVLP构建了一种新的对比学习目标，将视频剪辑嵌入与相应的文本嵌入对齐。
 
-    We extend conformal prediction to control the expected value of any monotone loss function. The algorithm generalizes split conformal prediction together with its coverage guarantee. Like conformal prediction, the conformal risk control procedure is tight up to an $\mathcal{O}(1/n)$ factor. Worked examples from computer vision and natural language processing demonstrate the usage of our algorithm to bound the false negative rate, graph distance, and token-level F1-score.
+    Recent advancements in surgical computer vision applications have been driven by fully-supervised methods, primarily using only visual data. These methods rely on manually annotated surgical videos to predict a fixed set of object categories, limiting their generalizability to unseen surgical procedures and downstream tasks. In this work, we put forward the idea that the surgical video lectures available through open surgical e-learning platforms can provide effective supervisory signals for multi-modal representation learning without relying on manual annotations. We address the surgery-specific linguistic challenges present in surgical video lectures by employing multiple complementary automatic speech recognition systems to generate text transcriptions. We then present a novel method, SurgVLP - Surgical Vision Language Pre-training, for multi-modal representation learning. SurgVLP constructs a new contrastive learning objective to align video clip embeddings with the corresponding m
     
 
