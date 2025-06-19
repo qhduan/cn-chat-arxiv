@@ -1,1 +1,21 @@
-<rss version="2.0"><channel><title>Chat Arxiv stat.ML</title><link>https://github.com/qhduan/cn-chat-arxiv</link><description>This is arxiv RSS feed for stat.ML</description></channel></rss>
+<rss version="2.0"><channel><title>Chat Arxiv stat.ML</title><link>https://github.com/qhduan/cn-chat-arxiv</link><description>This is arxiv RSS feed for stat.ML</description><item><title>&#26412;&#25991;&#35299;&#20915;&#20102;&#31070;&#32463;&#32593;&#32476;&#35757;&#32451;&#31639;&#27861;&#22522;&#20934;&#27979;&#35797;&#20013;&#23384;&#22312;&#30340;&#19977;&#20010;&#25361;&#25112;&#65292;&#25552;&#20986;&#20102;&#26032;&#30340;&#22522;&#20934;&#27979;&#35797;&#22871;&#20214;&#65292;&#20197;&#20419;&#36827;&#35757;&#32451;&#31639;&#27861;&#25928;&#29575;&#30340;&#36827;&#19968;&#27493;&#25552;&#39640;&#12290;</title><link>http://arxiv.org/abs/2306.07179</link><description>&lt;p&gt;
+&#31070;&#32463;&#32593;&#32476;&#35757;&#32451;&#31639;&#27861;&#22522;&#20934;&#27979;&#35797;
+&lt;/p&gt;
+&lt;p&gt;
+Benchmarking Neural Network Training Algorithms. (arXiv:2306.07179v1 [cs.LG])
+&lt;/p&gt;
+&lt;p&gt;
+http://arxiv.org/abs/2306.07179
+&lt;/p&gt;
+&lt;p&gt;
+&#26412;&#25991;&#35299;&#20915;&#20102;&#31070;&#32463;&#32593;&#32476;&#35757;&#32451;&#31639;&#27861;&#22522;&#20934;&#27979;&#35797;&#20013;&#23384;&#22312;&#30340;&#19977;&#20010;&#25361;&#25112;&#65292;&#25552;&#20986;&#20102;&#26032;&#30340;&#22522;&#20934;&#27979;&#35797;&#22871;&#20214;&#65292;&#20197;&#20419;&#36827;&#35757;&#32451;&#31639;&#27861;&#25928;&#29575;&#30340;&#36827;&#19968;&#27493;&#25552;&#39640;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+&#35757;&#32451;&#31639;&#27861;&#26159;&#27599;&#20010;&#28145;&#24230;&#23398;&#20064;&#27969;&#31243;&#30340;&#37325;&#35201;&#32452;&#25104;&#37096;&#20998;&#12290;&#25552;&#39640;&#35757;&#32451;&#31639;&#27861;&#30340;&#25928;&#29575;&#21487;&#20197;&#33410;&#30465;&#26102;&#38388;&#12289;&#35745;&#31639;&#36164;&#28304;&#65292;&#24182;&#24102;&#26469;&#26356;&#22909;&#12289;&#26356;&#20934;&#30830;&#30340;&#27169;&#22411;&#12290;&#28982;&#32780;&#65292;&#25105;&#20204;&#30446;&#21069;&#36824;&#26080;&#27861;&#21487;&#38752;&#22320;&#30830;&#23450;&#26368;&#20808;&#36827;&#30340;&#35757;&#32451;&#31639;&#27861;&#12290;&#26412;&#25991;&#36890;&#36807;&#20855;&#20307;&#23454;&#39564;&#65292;&#35777;&#26126;&#20102;&#21152;&#36895;&#35757;&#32451;&#30340;&#30495;&#27491;&#36827;&#23637;&#38656;&#35201;&#35299;&#20915;&#19977;&#20010;&#22522;&#26412;&#25361;&#25112;&#65306;&#22914;&#20309;&#30830;&#23450;&#35757;&#32451;&#20309;&#26102;&#32467;&#26463;&#24182;&#31934;&#30830;&#27979;&#37327;&#35757;&#32451;&#26102;&#38388;&#65292;&#22914;&#20309;&#22788;&#29702;&#27979;&#37327;&#23545;&#30830;&#20999;&#24037;&#20316;&#36127;&#36733;&#35814;&#24773;&#30340;&#25935;&#24863;&#24615;&#65292;&#24182;&#20844;&#24179;&#27604;&#36739;&#38656;&#35201;&#36229;&#21442;&#25968;&#35843;&#25972;&#30340;&#31639;&#27861;&#12290;&#20026;&#20102;&#22686;&#21152;&#23545;&#35757;&#32451;&#31639;&#27861;&#25928;&#29575;&#30340;&#20102;&#35299;&#65292;&#25105;&#20204;&#25552;&#20986;&#24182;&#35774;&#35745;&#20102;&#19968;&#20123;&#26032;&#30340;&#22522;&#20934;&#27979;&#35797;&#22871;&#20214;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+Training algorithms, broadly construed, are an essential part of every deep learning pipeline. Training algorithm improvements that speed up training across a wide variety of workloads (e.g., better update rules, tuning protocols, learning rate schedules, or data selection schemes) could save time, save computational resources, and lead to better, more accurate, models. Unfortunately, as a community, we are currently unable to reliably identify training algorithm improvements, or even determine the state-of-the-art training algorithm. In this work, using concrete experiments, we argue that real progress in speeding up training requires new benchmarks that resolve three basic challenges faced by empirical comparisons of training algorithms: (1) how to decide when training is complete and precisely measure training time, (2) how to handle the sensitivity of measurements to exact workload details, and (3) how to fairly compare algorithms that require hyperparameter tuning. In order to add
+&lt;/p&gt;</description></item></channel></rss>
