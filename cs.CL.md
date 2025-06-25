@@ -2,52 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [$L^*LM$: Learning Automata from Examples using Natural Language Oracles](https://arxiv.org/abs/2402.07051) | 该论文提出了一个名为 $L^*LM$ 的算法，通过自然语言和演示学习 DFA，提高了数据效率，具备强大的少样本学习能力。 |
-| [^2] | [A Survey on Data Selection for LLM Instruction Tuning](https://arxiv.org/abs/2402.05123) | 本综述对LLM指导调优的数据选择进行了全面调查。研究发现，数据集的质量在指导调优过程中比数量更为重要，因此许多研究致力于探索从指导数据集中选择高质量子集的方法。课题呈现了一种新的分类体系、介绍了最近的研究进展并详细评估了这些方法。 |
-| [^3] | [When Large Language Models Meet Vector Databases: A Survey](https://arxiv.org/abs/2402.01763) | 本综述论文深入分析了大型语言模型和向量数据库之间的交叉点，大型语言模型的突破带来了新的挑战，而向量数据库提供了潜在的解决方案，可以显著增强人工智能系统管理和利用多样数据的能力。 |
+| [^1] | [PATCH -- Psychometrics-AssisTed benCHmarking of Large Language Models: A Case Study of Mathematics Proficiency](https://arxiv.org/abs/2404.01799) | 该论文提出了一种新的框架PATCH，用于将心理测量领域的知识整合到大型语言模型的基准测试中，以解决现有基准测试存在的测量质量、项目级别评估和参考人群等问题。 |
+| [^2] | [Impact of Visual Context on Noisy Multimodal NMT: An Empirical Study for English to Indian Languages.](http://arxiv.org/abs/2308.16075) | 该研究实证研究了神经机器翻译中利用多模态信息的有效性，发现在大规模预训练的单模态系统中添加图像特征可能是多余的。此外，该研究还引入了合成噪声来评估图像对处理文本噪声的帮助。实验结果表明，多模态模型在嘈杂的环境中略优于文本模型，即使是随机图像。研究在英语翻译为印地语、孟加拉语和马拉雅拉姆语时表现出色，且视觉背景对翻译效果的影响与源文本噪声有所不同。 |
 
 # 详细
 
-[^1]: $L^*LM$: 通过自然语言定义示例学习自动机
+[^1]: PATCH -- 大型语言模型的心理测量辅助基准测试：数学能力的案例研究
 
-    $L^*LM$: Learning Automata from Examples using Natural Language Oracles
+    PATCH -- Psychometrics-AssisTed benCHmarking of Large Language Models: A Case Study of Mathematics Proficiency
 
-    [https://arxiv.org/abs/2402.07051](https://arxiv.org/abs/2402.07051)
+    [https://arxiv.org/abs/2404.01799](https://arxiv.org/abs/2404.01799)
 
-    该论文提出了一个名为 $L^*LM$ 的算法，通过自然语言和演示学习 DFA，提高了数据效率，具备强大的少样本学习能力。
-
-    
-
-    专家演示已被证明是简化间接指定复杂任务的一种方法。最近的算法甚至支持从演示中提取明确的形式规范，如确定性有限自动机（DFA）。不幸的是，这些技术通常不具备高样本效率。在本文中，我们介绍了一种名为 $L^*LM$ 的算法，用于从演示和自然语言中学习 DFA。由于自然语言的表达能力，我们观察到从专家演示中学习 DFA 的数据效率显著提高。从技术上讲，$L^*LM$ 利用大型语言模型来回答关于底层任务的成员查询。然后将其与最近的演示学习技术相结合，将学习转化为一系列带标签示例学习问题。在我们的实验中，我们观察到这两种模态相互补充，从而产生了一个强大的少样本学习器。
-
-    Expert demonstrations have proven an easy way to indirectly specify complex tasks. Recent algorithms even support extracting unambiguous formal specifications, e.g. deterministic finite automata (DFA), from demonstrations. Unfortunately, these techniques are generally not sample efficient. In this work, we introduce $L^*LM$, an algorithm for learning DFAs from both demonstrations and natural language. Due to the expressivity of natural language, we observe a significant improvement in the data efficiency of learning DFAs from expert demonstrations. Technically, $L^*LM$ leverages large language models to answer membership queries about the underlying task. This is then combined with recent techniques for transforming learning from demonstrations into a sequence of labeled example learning problems. In our experiments, we observe the two modalities complement each other, yielding a powerful few-shot learner.
-    
-[^2]: LLM指导调优的数据选择综述
-
-    A Survey on Data Selection for LLM Instruction Tuning
-
-    [https://arxiv.org/abs/2402.05123](https://arxiv.org/abs/2402.05123)
-
-    本综述对LLM指导调优的数据选择进行了全面调查。研究发现，数据集的质量在指导调优过程中比数量更为重要，因此许多研究致力于探索从指导数据集中选择高质量子集的方法。课题呈现了一种新的分类体系、介绍了最近的研究进展并详细评估了这些方法。
+    该论文提出了一种新的框架PATCH，用于将心理测量领域的知识整合到大型语言模型的基准测试中，以解决现有基准测试存在的测量质量、项目级别评估和参考人群等问题。
 
     
 
-    指导调优是训练大型语言模型（LLM）的关键步骤，如何提高指导调优的效果已经引起了增加的关注。现有研究表明，在LLM的指导调优过程中，数据集的质量比数量更为重要。因此，最近许多研究致力于探索从指导数据集中选择高质量子集的方法，旨在降低训练成本并改善LLM的指导能力。本文对LLM指导调优的数据选择进行了综述。首先，介绍了广泛使用的指导数据集。然后，提出了一种新的数据选择方法分类体系，并详细介绍了最近的研究进展，还详细阐述了数据选择方法的评估策略和结果。最后，强调了该任务的开放挑战和新的前景。
+    许多现有的大型（多模态）语言模型（LLMs）基准测试着重于衡量LLMs的学术能力，通常也对比较模型性能与人类考试者感兴趣。尽管这些基准测试对LLMs的发展至关重要，但它们存在一些限制，包括有问题的测量质量（例如，它们是否以可靠的方式衡量所需的内容？）、缺乏项目级别的质量评估（例如，有些项目是否比其他更重要或更困难？）以及人类人口参照模糊（例如，模型可以与谁进行比较？）。为了应对这些挑战，我们提出利用心理测量学领域的知识——一门致力于测量潜在变量如学术能力的领域——来进行LLMs基准测试的心理测量辅助方法。我们的主要贡献有三点。首先，我们介绍了PATCH：一种用于大型语言模型的心理测量辅助基准测试的新框架。
 
-    Instruction tuning is a vital step of training large language models (LLM), so how to enhance the effect of instruction tuning has received increased attention. Existing works indicate that the quality of the dataset is more crucial than the quantity during instruction tuning of LLM. Therefore, recently a lot of studies focus on exploring the methods of selecting high-quality subset from instruction datasets, aiming to reduce training costs and enhance the instruction-following capabilities of LLMs. This paper presents a comprehensive survey on data selection for LLM instruction tuning. Firstly, we introduce the wildly used instruction datasets. Then, we propose a new taxonomy of the data selection methods and provide a detailed introduction of recent advances,and the evaluation strategies and results of data selection methods are also elaborated in detail. Finally, we emphasize the open challenges and present new frontiers of this task.
+    arXiv:2404.01799v1 Announce Type: new  Abstract: Many existing benchmarks of large (multimodal) language models (LLMs) focus on measuring LLMs' academic proficiency, often with also an interest in comparing model performance with human test takers. While these benchmarks have proven key to the development of LLMs, they suffer from several limitations, including questionable measurement quality (e.g., Do they measure what they are supposed to in a reliable way?), lack of quality assessment on the item level (e.g., Are some items more important or difficult than others?) and unclear human population reference (e.g., To whom can the model be compared?). In response to these challenges, we propose leveraging knowledge from psychometrics - a field dedicated to the measurement of latent variables like academic proficiency - into LLM benchmarking. We make three primary contributions. First, we introduce PATCH: a novel framework for Psychometrics-AssisTed benCHmarking of LLMs. PATCH addresses 
     
-[^3]: 当大型语言模型遇上向量数据库：一项综述
+[^2]: 视觉背景对嘈杂的多模态神经机器翻译的影响：对英印语言的实证研究
 
-    When Large Language Models Meet Vector Databases: A Survey
+    Impact of Visual Context on Noisy Multimodal NMT: An Empirical Study for English to Indian Languages. (arXiv:2308.16075v1 [cs.CL])
 
-    [https://arxiv.org/abs/2402.01763](https://arxiv.org/abs/2402.01763)
+    [http://arxiv.org/abs/2308.16075](http://arxiv.org/abs/2308.16075)
 
-    本综述论文深入分析了大型语言模型和向量数据库之间的交叉点，大型语言模型的突破带来了新的挑战，而向量数据库提供了潜在的解决方案，可以显著增强人工智能系统管理和利用多样数据的能力。
+    该研究实证研究了神经机器翻译中利用多模态信息的有效性，发现在大规模预训练的单模态系统中添加图像特征可能是多余的。此外，该研究还引入了合成噪声来评估图像对处理文本噪声的帮助。实验结果表明，多模态模型在嘈杂的环境中略优于文本模型，即使是随机图像。研究在英语翻译为印地语、孟加拉语和马拉雅拉姆语时表现出色，且视觉背景对翻译效果的影响与源文本噪声有所不同。
 
     
 
-    最近大型语言模型的突破在人类文字处理和生成方面开启了新的领域。然而，随着它们的显著增长，大型语言模型面临着包括幻觉、偏见、实时知识更新以及在商业环境中实施和维护的高成本等重要挑战。而另一种日益流行的工具，向量数据库则为这些挑战提供了潜在的解决方案。这些数据库擅长处理高维数据，并且对于高效的信息检索和语义搜索等任务至关重要。通过与大型语言模型的整合，它们显著增强了人工智能系统管理和更有效地利用多样数据的能力。本综述论文对大型语言模型和向量数据库之间的交叉点进行了深入而独特的分析。
+    本研究调查了在神经机器翻译中利用多模态信息的有效性。先前的研究主要关注在资源匮乏的情况下使用多模态数据，而本研究则考察了将图像特征添加到大规模预训练的单模态神经机器翻译系统中的翻译效果。令人惊讶的是，研究发现在这种情况下图像可能是多余的。此外，该研究引入了合成噪声来评估图像是否有助于模型处理文本噪声。在嘈杂的环境中，即使是随机图像，多模态模型在性能上略优于文本模型。实验将英语翻译为印地语、孟加拉语和马拉雅拉姆语，结果显著优于最先进的基准。有趣的是，视觉背景的影响与源文本噪声有所不同：对于非噪声翻译，不使用视觉背景效果最好；对于低噪声，裁剪的图像特征最佳；在高噪声情况下，完整的图像特征效果更好。
 
-    The recent burst in Large Language Models has opened new frontiers in human-like text processing and generation. However, alongside their remarkable growth, Large Language Models have encountered critical challenges including issues of hallucination, bias, real-time knowledge updates, and the high costs of implementation and maintenance in commercial settings. Vector Databases, another increasingly popular tool, offer potential solutions to these challenges. These databases are adept at handling high-dimensional data and are crucial for tasks such as efficient information retrieval and semantic search. By integrating with Large Language Models, they significantly enhance AI systems' ability to manage and utilize diverse data more effectively. This survey paper provides an in-depth and unique analysis of the intersection between Large Language Models and Vector Databases.
+    The study investigates the effectiveness of utilizing multimodal information in Neural Machine Translation (NMT). While prior research focused on using multimodal data in low-resource scenarios, this study examines how image features impact translation when added to a large-scale, pre-trained unimodal NMT system. Surprisingly, the study finds that images might be redundant in this context. Additionally, the research introduces synthetic noise to assess whether images help the model deal with textual noise. Multimodal models slightly outperform text-only models in noisy settings, even with random images. The study's experiments translate from English to Hindi, Bengali, and Malayalam, outperforming state-of-the-art benchmarks significantly. Interestingly, the effect of visual context varies with source text noise: no visual context works best for non-noisy translations, cropped image features are optimal for low noise, and full image features work better in high-noise scenarios. This she
     
 
