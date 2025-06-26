@@ -2,52 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Heterogeneity, Uncertainty and Learning: Semiparametric Identification and Estimation](https://arxiv.org/abs/2402.08575) | 该论文提供了一种半参数方法来识别和估计学习模型，该模型考虑了连续结果在三类不可观测因素的影响下发生变化，结果表明该方法在有限样本下表现良好。 |
-| [^2] | [Game Connectivity and Adaptive Dynamics.](http://arxiv.org/abs/2309.10609) | 通过分析最佳响应图的连通特性，我们证明了几乎每个具有纯纳什均衡的“大型”通用游戏都是连通的。这对于游戏中的动态过程有着重要意义，因为许多自适应动态会导致均衡。 |
-| [^3] | [Randomization Inference of Heterogeneous Treatment Effects under Network Interference.](http://arxiv.org/abs/2308.00202) | 本文设计了在网络干扰情况下进行异质处理效应随机化测试的方法，通过引入网络曝光映射的概念和条件随机化推断方法，解决了干扰参数和多重潜在结果的问题，得到了渐近有效的p值。 |
+| [^1] | [Flexible Analysis of Individual Heterogeneity in Event Studies: Application to the Child Penalty](https://arxiv.org/abs/2403.19563) | 提供了一个实用工具包，用于分析事件研究中的效应异质性，强调了个体级别效应的重要性，并揭示了线性治疗效应的挑战。 |
+| [^2] | [Competing Mechanisms in Games Played Through Agents: Theory and Experiment](https://arxiv.org/abs/2403.03317) | 本文提出了通过代理人进行的竞争机制游戏（CMGPTA），并设计了实验来研究这一机制在实践中的表现。 |
 
 # 详细
 
-[^1]: 异质性、不确定性和学习：半参数识别和估计
+[^1]: 事件研究中个体异质性的灵活分析：以子女惩罚为例
 
-    Heterogeneity, Uncertainty and Learning: Semiparametric Identification and Estimation
+    Flexible Analysis of Individual Heterogeneity in Event Studies: Application to the Child Penalty
 
-    [https://arxiv.org/abs/2402.08575](https://arxiv.org/abs/2402.08575)
+    [https://arxiv.org/abs/2403.19563](https://arxiv.org/abs/2403.19563)
 
-    该论文提供了一种半参数方法来识别和估计学习模型，该模型考虑了连续结果在三类不可观测因素的影响下发生变化，结果表明该方法在有限样本下表现良好。
-
-    
-
-    我们提供了一类广泛的学习模型的半参数识别结果，其中连续的结果依赖于三类不可观测因素：i) 已知的异质性，ii) 最初未知的异质性可能会随着时间的推移而揭示出来，以及 iii) 短暂的不确定性。我们考虑一个常见的环境，研究人员只能访问其在选择和实际结果上的短期面板数据。在未知的异质性和不确定性服从正态分布的标准假设下，我们确立了结果方程参数和三类不可观测因素的分布的识别。我们还证明，在没有已知的异质性的情况下，该模型可以在不进行任何分布假设的情况下得到识别。然后我们推导了模型参数的筛选最大似然估计的渐近性质，并设计了一个可行的基于剖面似然的估计过程。蒙特卡洛模拟结果表明，我们的估计器表现出良好的有限样本性质。
-
-    We provide semiparametric identification results for a broad class of learning models in which continuous outcomes depend on three types of unobservables: i) known heterogeneity, ii) initially unknown heterogeneity that may be revealed over time, and iii) transitory uncertainty. We consider a common environment where the researcher only has access to a short panel on choices and realized outcomes. We establish identification of the outcome equation parameters and the distribution of the three types of unobservables, under the standard assumption that unknown heterogeneity and uncertainty are normally distributed. We also show that, absent known heterogeneity, the model is identified without making any distributional assumption. We then derive the asymptotic properties of a sieve MLE estimator for the model parameters, and devise a tractable profile likelihood based estimation procedure. Monte Carlo simulation results indicate that our estimator exhibits good finite-sample properties.
-    
-[^2]: 游戏连通性与自适应动态
-
-    Game Connectivity and Adaptive Dynamics. (arXiv:2309.10609v1 [econ.TH])
-
-    [http://arxiv.org/abs/2309.10609](http://arxiv.org/abs/2309.10609)
-
-    通过分析最佳响应图的连通特性，我们证明了几乎每个具有纯纳什均衡的“大型”通用游戏都是连通的。这对于游戏中的动态过程有着重要意义，因为许多自适应动态会导致均衡。
+    提供了一个实用工具包，用于分析事件研究中的效应异质性，强调了个体级别效应的重要性，并揭示了线性治疗效应的挑战。
 
     
 
-    我们通过分析最佳响应图的连通特性，分析了游戏的典型结构。特别是，我们证明了几乎每个具有纯纳什均衡的“大型”通用游戏都是连通的，这意味着每个非均衡的行动配置都可以通过最佳响应路径到达每个纯纳什均衡。这对于游戏中的动态过程有着重要意义：许多自适应动态，例如带有惯性的最佳响应动态，在连通的游戏中会导致均衡。因此，存在简单的、不耦合的自适应动态，按周期游戏将几乎确定地收敛到具有纯纳什均衡的“大型”通用游戏的情况下。
+    我们提供了一个实用工具包，用于分析事件研究中的效应异质性。我们开发了一个估计算法，并调整现有的计量经济结果，提供其理论基础。我们将这些工具应用于荷兰行政数据，以三种方式研究子女惩罚（CP）背景下的个体异质性。首先，我们记录了个体级别CP轨迹的显著异质性，强调超越平均CP的重要性。其次，我们使用个体级别估计来检验托儿服务供给扩展政策的影响。我们的方法揭示了非线性治疗效应，挑战了受限于较少灵活规范的传统政策评估方法。第三，我们使用个体级别估计作为回归变量来研究母女之间CP的代际弹性。在调整测量误差偏差之后，
 
-    We analyse the typical structure of games in terms of the connectivity properties of their best-response graphs. In particular, we show that almost every 'large' generic game that has a pure Nash equilibrium is connected, meaning that every non-equilibrium action profile can reach every pure Nash equilibrium via best-response paths. This has implications for dynamics in games: many adaptive dynamics, such as the best-response dynamic with inertia, lead to equilibrium in connected games. It follows that there are simple, uncoupled, adaptive dynamics for which period-by-period play converges almost surely to a pure Nash equilibrium in almost every 'large' generic game that has one. We build on recent results in probabilistic combinatorics for our characterisation of game connectivity.
+    arXiv:2403.19563v1 Announce Type: new  Abstract: We provide a practical toolkit for analyzing effect heterogeneity in event studies. We develop an estimation algorithm and adapt existing econometric results to provide its theoretical justification. We apply these tools to Dutch administrative data to study individual heterogeneity in the child-penalty (CP) context in three ways. First, we document significant heterogeneity in the individual-level CP trajectories, emphasizing the importance of going beyond the average CP. Second, we use individual-level estimates to examine the impact of childcare supply expansion policies. Our approach uncovers nonlinear treatment effects, challenging the conventional policy evaluation methods constrained to less flexible specifications. Third, we use the individual-level estimates as a regressor on the right-hand side to study the intergenerational elasticity of the CP between mothers and daughters. After adjusting for the measurement error bias, we f
     
-[^3]: 网络干扰下异质处理效应的随机化推断
+[^2]: 在代理人进行游戏时的竞争机制：理论与实验
 
-    Randomization Inference of Heterogeneous Treatment Effects under Network Interference. (arXiv:2308.00202v1 [econ.EM])
+    Competing Mechanisms in Games Played Through Agents: Theory and Experiment
 
-    [http://arxiv.org/abs/2308.00202](http://arxiv.org/abs/2308.00202)
+    [https://arxiv.org/abs/2403.03317](https://arxiv.org/abs/2403.03317)
 
-    本文设计了在网络干扰情况下进行异质处理效应随机化测试的方法，通过引入网络曝光映射的概念和条件随机化推断方法，解决了干扰参数和多重潜在结果的问题，得到了渐近有效的p值。
+    本文提出了通过代理人进行的竞争机制游戏（CMGPTA），并设计了实验来研究这一机制在实践中的表现。
 
     
 
-    我们设计了在单位之间存在网络干扰时进行异质处理效应随机化测试的方法。我们的建模策略使用网络曝光映射的概念将网络干扰引入潜在结果框架中。我们考虑了三个零假设，代表了不同的均匀处理效应的概念，但由于干扰参数和潜在结果的多样性，这些假设并不准确。为了解决多个潜在结果的问题，我们提出了一种扩展现有方法的条件随机化推断方法。此外，我们还提出了两种克服干扰参数问题的技术。我们证明了我们的条件随机化推断方法与处理干扰参数的两种技术之一结合使用，可以产生渐近有效的p值。我们在一个网络数据集上演示了测试过程，并展示了蒙特卡洛研究的结果。
+    本文提出了通过代理人进行的竞争机制游戏（CMGPTA），这是GPTA（Prat和Rustichini（2003））的延伸，其中委托人可以提供任意规定了对每个代理人的转移时间表的机制，前提是所有代理人的消息。我们利用离径处的偏差者报告机制（DRMs）和单一的转移时间表来确定均衡分配。我们设计了一个实验室实验来实施DRMs。我们观察到，实施的结果更经常是有效的，而不是随机的。大部分时间，代理人确实会告诉一个偏离的委托人的身份，尽管在虚报上进行（心照不宣的）共谋可能有利可图。随着游戏的进行，代理人学会了如何与他们的对手代理人进行交易，跨组的虚报共谋的平均预测概率从实验开始时的约9%增加到实验结束时几乎达到20%。
 
-    We design randomization tests of heterogeneous treatment effects when units interact on a network. Our modeling strategy allows network interference into the potential outcomes framework using the concept of network exposure mapping. We consider three null hypotheses that represent different notions of homogeneous treatment effects, but due to nuisance parameters and the multiplicity of potential outcomes, the hypotheses are not sharp. To address the issue of multiple potential outcomes, we propose a conditional randomization inference method that expands on existing methods. Additionally, we propose two techniques that overcome the nuisance parameter issue. We show that our conditional randomization inference method, combined with either of the proposed techniques for handling nuisance parameters, produces asymptotically valid p-values. We illustrate the testing procedures on a network data set and the results of a Monte Carlo study are also presented.
+    arXiv:2403.03317v1 Announce Type: new  Abstract: This paper proposes Competing Mechanism Games Played Through Agent (CMGPTA), an extension of the GPTA (Prat and Rustichini (2003)), where a Principal can offer any arbitrary mechanism that specifies a transfer schedule for each agent conditional on all Agents' messages. We identify the set of equilibrium allocations using deviator-reporting mechanisms (DRMs) on the path and single transfer schedules off the path. We design a lab experiment implementing DRMs. We observe that implemented outcomes are efficient more often than random. A majority of the time, Agents do tell the truth on the identity of a deviating Principal, despite potential gains from (tacit) collusion on false reports. As play progresses, Agents learn to play with their counterparty Agent with the average predicted probability of collusion on false reports across groups increasing from about 9% at the beginning of the experiment to just under 20% by the end. However, grou
     
 
