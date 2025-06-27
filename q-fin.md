@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Flexible Analysis of Individual Heterogeneity in Event Studies: Application to the Child Penalty](https://arxiv.org/abs/2403.19563) | 提供了一个实用工具包，用于分析事件研究中的效应异质性，强调了个体级别效应的重要性，并揭示了线性治疗效应的挑战。 |
-| [^2] | [Closed form solution to zero coupon bond using a linear stochastic delay differential equation](https://arxiv.org/abs/2402.16428) | 该论文提出了一个使用线性随机延迟微分方程的短期利率模型，并且给出了零息债券价格的封闭形式解决方案，证明了短期利率分布为正态分布且存在稳态和极限分布。 |
+| [^1] | [Asymptotic Error Distribution of the Euler Scheme for Fractional Stochastic Delay Differential Equations with Additive Noise](https://arxiv.org/abs/2402.08513) | 本文研究了长记忆分数随机延迟微分方程的欧拉方案，证明了一致性并给出了误差过程的极限分布。当粗糙情况下，即$H<1/\alpha$时，模拟误差的收敛速度为$\Delta_{n}^{H+1-1/\alpha}$阶，极限过程仍为(半线性)SDDE的解决方案。 |
+| [^2] | [Negatively dependent optimal risk sharing.](http://arxiv.org/abs/2401.03328) | 本文研究了使用反单调分配来最优化共享风险的问题。当所有代理都风险追求时，帕累托最优分配必须是大奖分配；当所有代理的效用函数不连续时，替罪羊分配使得超过不连续阈值的概率最大化。 |
 
 # 详细
 
-[^1]: 事件研究中个体异质性的灵活分析：以子女惩罚为例
+[^1]: 长记忆分数随机延迟微分方程欧拉方案的渐近误差分布
 
-    Flexible Analysis of Individual Heterogeneity in Event Studies: Application to the Child Penalty
+    Asymptotic Error Distribution of the Euler Scheme for Fractional Stochastic Delay Differential Equations with Additive Noise
 
-    [https://arxiv.org/abs/2403.19563](https://arxiv.org/abs/2403.19563)
+    [https://arxiv.org/abs/2402.08513](https://arxiv.org/abs/2402.08513)
 
-    提供了一个实用工具包，用于分析事件研究中的效应异质性，强调了个体级别效应的重要性，并揭示了线性治疗效应的挑战。
-
-    
-
-    我们提供了一个实用工具包，用于分析事件研究中的效应异质性。我们开发了一个估计算法，并调整现有的计量经济结果，提供其理论基础。我们将这些工具应用于荷兰行政数据，以三种方式研究子女惩罚（CP）背景下的个体异质性。首先，我们记录了个体级别CP轨迹的显著异质性，强调超越平均CP的重要性。其次，我们使用个体级别估计来检验托儿服务供给扩展政策的影响。我们的方法揭示了非线性治疗效应，挑战了受限于较少灵活规范的传统政策评估方法。第三，我们使用个体级别估计作为回归变量来研究母女之间CP的代际弹性。在调整测量误差偏差之后，
-
-    arXiv:2403.19563v1 Announce Type: new  Abstract: We provide a practical toolkit for analyzing effect heterogeneity in event studies. We develop an estimation algorithm and adapt existing econometric results to provide its theoretical justification. We apply these tools to Dutch administrative data to study individual heterogeneity in the child-penalty (CP) context in three ways. First, we document significant heterogeneity in the individual-level CP trajectories, emphasizing the importance of going beyond the average CP. Second, we use individual-level estimates to examine the impact of childcare supply expansion policies. Our approach uncovers nonlinear treatment effects, challenging the conventional policy evaluation methods constrained to less flexible specifications. Third, we use the individual-level estimates as a regressor on the right-hand side to study the intergenerational elasticity of the CP between mothers and daughters. After adjusting for the measurement error bias, we f
-    
-[^2]: 使用线性随机延迟微分方程对零息债券提出了封闭形式解决方案
-
-    Closed form solution to zero coupon bond using a linear stochastic delay differential equation
-
-    [https://arxiv.org/abs/2402.16428](https://arxiv.org/abs/2402.16428)
-
-    该论文提出了一个使用线性随机延迟微分方程的短期利率模型，并且给出了零息债券价格的封闭形式解决方案，证明了短期利率分布为正态分布且存在稳态和极限分布。
+    本文研究了长记忆分数随机延迟微分方程的欧拉方案，证明了一致性并给出了误差过程的极限分布。当粗糙情况下，即$H<1/\alpha$时，模拟误差的收敛速度为$\Delta_{n}^{H+1-1/\alpha}$阶，极限过程仍为(半线性)SDDE的解决方案。
 
     
 
-    我们提出了一个满足随机延迟微分方程的短期利率模型。该模型可以被视为Merton模型(Merton 1970, 1973)或Vasi\v{c}ek模型(Vasi\v{c}ek 1977)的延迟版本。使用与Flore和Nappo(2019)相同的技术，我们展示了债券价格是短期利率的仿射函数，其系数满足一组延迟微分方程。我们给出了这组延迟微分方程的解析解，得到了零息债券价格的封闭公式。在该模型下，我们可以展示短期利率的分布是一个正态分布，其均值取决于短期利率的过去值。基于K\"uchler和Mensch(1992)的结果，我们证明了平稳分布和极限分布的存在。
+    本文考虑了一类由线性分数阿尔法稳定的Lévy运动驱动的随机延迟微分方程的欧拉方案，其中指数$H\in(0,1)$。我们证明了该方案的一致性，并研究了归一化误差过程的极限分布。我们证明在粗糙情况下，即当$H<1/\alpha$时，模拟误差的收敛速度为$\Delta_{n}^{H+1-1/\alpha}$阶，并且极限过程再次是一个(半线性)SDDE的解决方案。
 
-    arXiv:2402.16428v1 Announce Type: new  Abstract: We present a short rate model that satisfies a stochastic delay differential equation. The model can be considered a delayed version of the Merton model (Merton 1970, 1973) or the Vasi\v{c}ek model (Vasi\v{c}ek 1977). Using the same technique as the one used by Flore and Nappo (2019), we show that the bond price is an affine function of the short rate, whose coefficients satisfy a system of delay differential equations. We give an analytical solution to this system of delay differential equations, obtaining a closed formula for the zero coupon bond price. Under this model, we can show that the distribution of the short rate is a normal distribution whose mean depends on past values of the short rate. Based on the results of K\"uchler and Mensch (1992), we prove the existence of stationary and limiting distributions.
+    In this paper we consider the Euler scheme for a class of stochastic delay differential equations driven by a linear fractional $\alpha$-stable L\'evy motion with index $H\in(0,1)$. We establish the consistency of the scheme and study the limit distribution of the normalized error process. We show that in the rough case, i.e. when $H<1/\alpha$, the rate of convergence of the simulation error is of order $\Delta_{n}^{H+1-1/\alpha}$ and that the limit process is once again the solution of an (semi-linear) SDDE.
+    
+[^2]: 负相关的最优风险共担问题研究
+
+    Negatively dependent optimal risk sharing. (arXiv:2401.03328v1 [econ.TH])
+
+    [http://arxiv.org/abs/2401.03328](http://arxiv.org/abs/2401.03328)
+
+    本文研究了使用反单调分配来最优化共享风险的问题。当所有代理都风险追求时，帕累托最优分配必须是大奖分配；当所有代理的效用函数不连续时，替罪羊分配使得超过不连续阈值的概率最大化。
+
+    
+
+    本文分析了使用表现出反单调性的分配方式来优化共享风险的问题。反单调分配的形式有“赢者通吃”或“输者全军覆没”型彩票，我们分别将其归为标准化的“大奖”或“替罪羊”分配。我们的主要定理——反单调改进定理，说明对于一组随机变量，无论它们是全部下界有界还是全部上界有界，总是可以找到一组反单调随机变量，其中每个分量都大于或等于凸序中对应的分量。我们证明了如果帕累托最优分配存在且所有代理都追求风险，那么它们必须是大奖分配。而当所有代理的不连续伯努利效用函数时，我们得到了相反的结论，替罪羊分配使得超过不连续阈值的概率最大化。
+
+    We analyze the problem of optimally sharing risk using allocations that exhibit counter-monotonicity, the most extreme form of negative dependence. Counter-monotonic allocations take the form of either "winner-takes-all" lotteries or "loser-loses-all" lotteries, and we respectively refer to these (normalized) cases as jackpot or scapegoat allocations. Our main theorem, the counter-monotonic improvement theorem, states that for a given set of random variables that are either all bounded from below or all bounded from above, one can always find a set of counter-monotonic random variables such that each component is greater or equal than its counterpart in the convex order. We show that Pareto optimal allocations, if they exist, must be jackpot allocations when all agents are risk seeking. We essentially obtain the opposite when all agents have discontinuous Bernoulli utility functions, as scapegoat allocations maximize the probability of being above the discontinuity threshold. We also c
     
 

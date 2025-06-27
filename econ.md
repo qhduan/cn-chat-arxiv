@@ -2,37 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Flexible Analysis of Individual Heterogeneity in Event Studies: Application to the Child Penalty](https://arxiv.org/abs/2403.19563) | 提供了一个实用工具包，用于分析事件研究中的效应异质性，强调了个体级别效应的重要性，并揭示了线性治疗效应的挑战。 |
-| [^2] | [Competing Mechanisms in Games Played Through Agents: Theory and Experiment](https://arxiv.org/abs/2403.03317) | 本文提出了通过代理人进行的竞争机制游戏（CMGPTA），并设计了实验来研究这一机制在实践中的表现。 |
+| [^1] | [Negatively dependent optimal risk sharing.](http://arxiv.org/abs/2401.03328) | 本文研究了使用反单调分配来最优化共享风险的问题。当所有代理都风险追求时，帕累托最优分配必须是大奖分配；当所有代理的效用函数不连续时，替罪羊分配使得超过不连续阈值的概率最大化。 |
+| [^2] | [Design of Cluster-Randomized Trials with Cross-Cluster Interference.](http://arxiv.org/abs/2310.18836) | 该论文提出了一种新的集群随机试验设计方法，考虑了交叉集群干扰的问题。通过排除可能受到干扰影响的单元，提出了新的估计器，并证明了这种方法可以大大减少偏差。这项研究还提供了优化估计器收敛速率的集群设计方法。 |
+| [^3] | [Estimating Nonlinear Network Data Models with Fixed Effects.](http://arxiv.org/abs/2203.15603) | 本文提出一种使用杰克刀程序修正带有个体固定效应的非线性网络数据模型偏差的新方法，可适用于有向和无向网络，对非二元结果变量进行估计，并可用于修正平均效应和反事实结局的估算。 |
 
 # 详细
 
-[^1]: 事件研究中个体异质性的灵活分析：以子女惩罚为例
+[^1]: 负相关的最优风险共担问题研究
 
-    Flexible Analysis of Individual Heterogeneity in Event Studies: Application to the Child Penalty
+    Negatively dependent optimal risk sharing. (arXiv:2401.03328v1 [econ.TH])
 
-    [https://arxiv.org/abs/2403.19563](https://arxiv.org/abs/2403.19563)
+    [http://arxiv.org/abs/2401.03328](http://arxiv.org/abs/2401.03328)
 
-    提供了一个实用工具包，用于分析事件研究中的效应异质性，强调了个体级别效应的重要性，并揭示了线性治疗效应的挑战。
-
-    
-
-    我们提供了一个实用工具包，用于分析事件研究中的效应异质性。我们开发了一个估计算法，并调整现有的计量经济结果，提供其理论基础。我们将这些工具应用于荷兰行政数据，以三种方式研究子女惩罚（CP）背景下的个体异质性。首先，我们记录了个体级别CP轨迹的显著异质性，强调超越平均CP的重要性。其次，我们使用个体级别估计来检验托儿服务供给扩展政策的影响。我们的方法揭示了非线性治疗效应，挑战了受限于较少灵活规范的传统政策评估方法。第三，我们使用个体级别估计作为回归变量来研究母女之间CP的代际弹性。在调整测量误差偏差之后，
-
-    arXiv:2403.19563v1 Announce Type: new  Abstract: We provide a practical toolkit for analyzing effect heterogeneity in event studies. We develop an estimation algorithm and adapt existing econometric results to provide its theoretical justification. We apply these tools to Dutch administrative data to study individual heterogeneity in the child-penalty (CP) context in three ways. First, we document significant heterogeneity in the individual-level CP trajectories, emphasizing the importance of going beyond the average CP. Second, we use individual-level estimates to examine the impact of childcare supply expansion policies. Our approach uncovers nonlinear treatment effects, challenging the conventional policy evaluation methods constrained to less flexible specifications. Third, we use the individual-level estimates as a regressor on the right-hand side to study the intergenerational elasticity of the CP between mothers and daughters. After adjusting for the measurement error bias, we f
-    
-[^2]: 在代理人进行游戏时的竞争机制：理论与实验
-
-    Competing Mechanisms in Games Played Through Agents: Theory and Experiment
-
-    [https://arxiv.org/abs/2403.03317](https://arxiv.org/abs/2403.03317)
-
-    本文提出了通过代理人进行的竞争机制游戏（CMGPTA），并设计了实验来研究这一机制在实践中的表现。
+    本文研究了使用反单调分配来最优化共享风险的问题。当所有代理都风险追求时，帕累托最优分配必须是大奖分配；当所有代理的效用函数不连续时，替罪羊分配使得超过不连续阈值的概率最大化。
 
     
 
-    本文提出了通过代理人进行的竞争机制游戏（CMGPTA），这是GPTA（Prat和Rustichini（2003））的延伸，其中委托人可以提供任意规定了对每个代理人的转移时间表的机制，前提是所有代理人的消息。我们利用离径处的偏差者报告机制（DRMs）和单一的转移时间表来确定均衡分配。我们设计了一个实验室实验来实施DRMs。我们观察到，实施的结果更经常是有效的，而不是随机的。大部分时间，代理人确实会告诉一个偏离的委托人的身份，尽管在虚报上进行（心照不宣的）共谋可能有利可图。随着游戏的进行，代理人学会了如何与他们的对手代理人进行交易，跨组的虚报共谋的平均预测概率从实验开始时的约9%增加到实验结束时几乎达到20%。
+    本文分析了使用表现出反单调性的分配方式来优化共享风险的问题。反单调分配的形式有“赢者通吃”或“输者全军覆没”型彩票，我们分别将其归为标准化的“大奖”或“替罪羊”分配。我们的主要定理——反单调改进定理，说明对于一组随机变量，无论它们是全部下界有界还是全部上界有界，总是可以找到一组反单调随机变量，其中每个分量都大于或等于凸序中对应的分量。我们证明了如果帕累托最优分配存在且所有代理都追求风险，那么它们必须是大奖分配。而当所有代理的不连续伯努利效用函数时，我们得到了相反的结论，替罪羊分配使得超过不连续阈值的概率最大化。
 
-    arXiv:2403.03317v1 Announce Type: new  Abstract: This paper proposes Competing Mechanism Games Played Through Agent (CMGPTA), an extension of the GPTA (Prat and Rustichini (2003)), where a Principal can offer any arbitrary mechanism that specifies a transfer schedule for each agent conditional on all Agents' messages. We identify the set of equilibrium allocations using deviator-reporting mechanisms (DRMs) on the path and single transfer schedules off the path. We design a lab experiment implementing DRMs. We observe that implemented outcomes are efficient more often than random. A majority of the time, Agents do tell the truth on the identity of a deviating Principal, despite potential gains from (tacit) collusion on false reports. As play progresses, Agents learn to play with their counterparty Agent with the average predicted probability of collusion on false reports across groups increasing from about 9% at the beginning of the experiment to just under 20% by the end. However, grou
+    We analyze the problem of optimally sharing risk using allocations that exhibit counter-monotonicity, the most extreme form of negative dependence. Counter-monotonic allocations take the form of either "winner-takes-all" lotteries or "loser-loses-all" lotteries, and we respectively refer to these (normalized) cases as jackpot or scapegoat allocations. Our main theorem, the counter-monotonic improvement theorem, states that for a given set of random variables that are either all bounded from below or all bounded from above, one can always find a set of counter-monotonic random variables such that each component is greater or equal than its counterpart in the convex order. We show that Pareto optimal allocations, if they exist, must be jackpot allocations when all agents are risk seeking. We essentially obtain the opposite when all agents have discontinuous Bernoulli utility functions, as scapegoat allocations maximize the probability of being above the discontinuity threshold. We also c
+    
+[^2]: 设计具有交叉集群干扰的集群随机试验
+
+    Design of Cluster-Randomized Trials with Cross-Cluster Interference. (arXiv:2310.18836v1 [stat.ME])
+
+    [http://arxiv.org/abs/2310.18836](http://arxiv.org/abs/2310.18836)
+
+    该论文提出了一种新的集群随机试验设计方法，考虑了交叉集群干扰的问题。通过排除可能受到干扰影响的单元，提出了新的估计器，并证明了这种方法可以大大减少偏差。这项研究还提供了优化估计器收敛速率的集群设计方法。
+
+    
+
+    集群随机试验经常涉及空间上分布不规律且没有明显分离社区的单元。在这种情况下，由于潜在的交叉集群干扰，集群构建是设计的一个关键方面。现有的文献依赖于部分干扰模型，该模型将集群视为给定，并假设没有交叉集群干扰。我们通过允许干扰与单元之间的地理距离衰减来放宽这个假设。这导致了一个偏差-方差的权衡：构建较少、较大的集群可以减少干扰引起的偏差，但会增加方差。我们提出了一种新的估计器，排除可能受到交叉集群干扰影响的单元，并显示相对于传统的均值差估计器，这大大降低了渐近偏差。然后，我们研究了优化估计器收敛速率的集群设计。我们提供了一个新的设计的正式证明，该设计选择了集群的数量。
+
+    Cluster-randomized trials often involve units that are irregularly distributed in space without well-separated communities. In these settings, cluster construction is a critical aspect of the design due to the potential for cross-cluster interference. The existing literature relies on partial interference models, which take clusters as given and assume no cross-cluster interference. We relax this assumption by allowing interference to decay with geographic distance between units. This induces a bias-variance trade-off: constructing fewer, larger clusters reduces bias due to interference but increases variance. We propose new estimators that exclude units most potentially impacted by cross-cluster interference and show that this substantially reduces asymptotic bias relative to conventional difference-in-means estimators. We then study the design of clusters to optimize the estimators' rates of convergence. We provide formal justification for a new design that chooses the number of clus
+    
+[^3]: 修正带有固定效应的非线性网络数据模型的估计方法
+
+    Estimating Nonlinear Network Data Models with Fixed Effects. (arXiv:2203.15603v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2203.15603](http://arxiv.org/abs/2203.15603)
+
+    本文提出一种使用杰克刀程序修正带有个体固定效应的非线性网络数据模型偏差的新方法，可适用于有向和无向网络，对非二元结果变量进行估计，并可用于修正平均效应和反事实结局的估算。
+
+    
+
+    本论文提出一种新的方法来修正带有特定个体的固定特征的二元模型——其中包括同质性和度异质性的二元链接形成模型的偏差。所提出的方法使用了杰克刀（jackknife）程序来处理关于偶然参数的问题。该方法可应用于有向和无向网络，并且允许使用非二元结果变量，并可用于修正平均效应和反事实结局的估计。作者还展示了如何使用杰克刀来纠正对多个节点的固定效应平均值的偏差，例如三元组或四元组。最后，作者在一个关于跨国进出口关系的引力模型的应用中展示了该估计器的实用性。
+
+    I introduce a new method for bias correction of dyadic models with agent-specific fixed-effects, including the dyadic link formation model with homophily and degree heterogeneity. The proposed approach uses a jackknife procedure to deal with the incidental parameters problem. The method can be applied to both directed and undirected networks, allows for non-binary outcome variables, and can be used to bias correct estimates of average effects and counterfactual outcomes. I also show how the jackknife can be used to bias-correct fixed effect averages over functions that depend on multiple nodes, e.g. triads or tetrads in the network. As an example, I implement specification tests for dependence across dyads, such as reciprocity or transitivity. Finally, I demonstrate the usefulness of the estimator in an application to a gravity model for import/export relationships across countries.
     
 
