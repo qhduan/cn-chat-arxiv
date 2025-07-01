@@ -2,52 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [On Independent Samples Along the Langevin Diffusion and the Unadjusted Langevin Algorithm](https://arxiv.org/abs/2402.17067) | 在该论文中，我们研究了朗之凡扩散和未调整朗之凡算法中随机变量独立化速率的收敛性，证明了在目标函数强对数凹和平滑的情况下，互信息会以指数速率收敛于$0$。 |
-| [^2] | [Distributional Reduction: Unifying Dimensionality Reduction and Clustering with Gromov-Wasserstein Projection](https://arxiv.org/abs/2402.02239) | 本文提出了一种新的分布约简方法，利用格罗莫夫-瓦瑟斯坦投影统一了降维和聚类，通过优化问题同时解决降维和聚类，实验证明了该方法在多个领域表现出卓越性能。 |
-| [^3] | [Robust Multi-Modal Density Estimation.](http://arxiv.org/abs/2401.10566) | 本文提出了一种名为ROME的鲁棒多模态密度估计方法，该方法利用聚类将多模态样本集分割成多个单模态样本集，并通过简单的KDE估计来估计整体分布。这种方法解决了多模态、非正态和高相关分布估计的挑战。 |
+| [^1] | [Low-Rank Graph Contrastive Learning for Node Classification](https://arxiv.org/abs/2402.09600) | 本研究提出了一种新颖且鲁棒的低秩图对比学习（LR-GCL）算法，应用于转导节点分类任务。该算法通过低秩正规化的对比学习训练一个编码器，并使用生成的特征进行线性转导分类。 |
+| [^2] | [Rethinking Fairness for Human-AI Collaboration.](http://arxiv.org/abs/2310.03647) | 在人工智能与人类合作中，需要重新思考公平性，因为完全遵守算法决策很少是现实可行的，因此我们需要设计稳健公平的算法推荐来提升公平性。 |
+| [^3] | [Convergence analysis of online algorithms for vector-valued kernel regression.](http://arxiv.org/abs/2309.07779) | 本文考虑了在线学习算法在向量值内核回归问题中的收敛性能，证明了在RKHS范数中的期望平方误差可以被一个特定公式所限制。 |
 
 # 详细
 
-[^1]: 关于朗之凡扩散和未调整朗之凡算法中独立样本的研究
+[^1]: 低秩图对比学习用于节点分类
 
-    On Independent Samples Along the Langevin Diffusion and the Unadjusted Langevin Algorithm
+    Low-Rank Graph Contrastive Learning for Node Classification
 
-    [https://arxiv.org/abs/2402.17067](https://arxiv.org/abs/2402.17067)
+    [https://arxiv.org/abs/2402.09600](https://arxiv.org/abs/2402.09600)
 
-    在该论文中，我们研究了朗之凡扩散和未调整朗之凡算法中随机变量独立化速率的收敛性，证明了在目标函数强对数凹和平滑的情况下，互信息会以指数速率收敛于$0$。
-
-    
-
-    我们研究了马尔可夫链中初始和当前随机变量独立化的速率，重点关注连续时间中的朗之凡扩散和离散时间中的未调整朗之凡算法（ULA）。我们通过它们的互信息度量随机变量之间的依赖关系。对于朗之凡扩散，我们展示了当目标函数强对数凹时，互信息以指数速率收敛于$0$，当目标函数弱对数凹时，以多项式速率收敛。这些速率类似于在类似条件下朗之凡扩散的混合时间。对于ULA，我们展示了当目标函数强对数凹且光滑时，互信息以指数速率收敛于$0$。我们通过发展这些马尔可夫链的互信息版本的混合时间分析来证明我们的结果。我们还提供了基于朗之凡扩散的强数据处理不等式的替代证明。
-
-    arXiv:2402.17067v1 Announce Type: cross  Abstract: We study the rate at which the initial and current random variables become independent along a Markov chain, focusing on the Langevin diffusion in continuous time and the Unadjusted Langevin Algorithm (ULA) in discrete time. We measure the dependence between random variables via their mutual information. For the Langevin diffusion, we show the mutual information converges to $0$ exponentially fast when the target is strongly log-concave, and at a polynomial rate when the target is weakly log-concave. These rates are analogous to the mixing time of the Langevin diffusion under similar assumptions. For the ULA, we show the mutual information converges to $0$ exponentially fast when the target is strongly log-concave and smooth. We prove our results by developing the mutual version of the mixing time analyses of these Markov chains. We also provide alternative proofs based on strong data processing inequalities for the Langevin diffusion 
-    
-[^2]: 分布约简：用格罗莫夫-瓦瑟斯坦投影统一降维和聚类
-
-    Distributional Reduction: Unifying Dimensionality Reduction and Clustering with Gromov-Wasserstein Projection
-
-    [https://arxiv.org/abs/2402.02239](https://arxiv.org/abs/2402.02239)
-
-    本文提出了一种新的分布约简方法，利用格罗莫夫-瓦瑟斯坦投影统一了降维和聚类，通过优化问题同时解决降维和聚类，实验证明了该方法在多个领域表现出卓越性能。
+    本研究提出了一种新颖且鲁棒的低秩图对比学习（LR-GCL）算法，应用于转导节点分类任务。该算法通过低秩正规化的对比学习训练一个编码器，并使用生成的特征进行线性转导分类。
 
     
 
-    无监督学习旨在捕捉潜在的大规模和高维数据集的结构。传统上，这涉及使用降维方法将数据投影到可解释的空间上，或将数据点组织成有意义的聚类。在实践中，这些方法通常是按顺序使用的，而不能保证聚类与降维相一致。在这项工作中，我们提出了一个新的观点：使用分布。通过利用最优输运的工具，特别是格罗莫夫-瓦瑟斯坦距离，我们将聚类和降维统一为一个称为分布约简的单一框架。这使我们能够通过单个优化问题同时解决聚类和降维。通过全面的实验证明了我们方法的多功能性和解释性，并表明它在各种图像和基因组数据集上优于现有方法。
+    图神经网络（GNNs）广泛应用于学习节点表示，并在节点分类等各种任务中表现出色。然而，最近的研究表明，在现实世界的图数据中不可避免地存在噪声，这会严重降低GNNs的性能。在本文中，我们提出了一种新颖且鲁棒的GNN编码器，即低秩图对比学习（LR-GCL）。我们的方法通过两个步骤进行转导节点分类。首先，通过低秩正常对比学习训练一个名为LR-GCL的低秩GCL编码器。然后，使用LR-GCL生成的特征，使用线性转导分类算法对图中的未标记节点进行分类。我们的LR-GCL受到图数据和其标签的低频性质的启示，并在理论上受到我们关于转导学习的尖锐泛化界限的推动。
 
-    Unsupervised learning aims to capture the underlying structure of potentially large and high-dimensional datasets. Traditionally, this involves using dimensionality reduction methods to project data onto interpretable spaces or organizing points into meaningful clusters. In practice, these methods are used sequentially, without guaranteeing that the clustering aligns well with the conducted dimensionality reduction. In this work, we offer a fresh perspective: that of distributions. Leveraging tools from optimal transport, particularly the Gromov-Wasserstein distance, we unify clustering and dimensionality reduction into a single framework called distributional reduction. This allows us to jointly address clustering and dimensionality reduction with a single optimization problem. Through comprehensive experiments, we highlight the versatility and interpretability of our method and show that it outperforms existing approaches across a variety of image and genomics datasets.
+    arXiv:2402.09600v1 Announce Type: new  Abstract: Graph Neural Networks (GNNs) have been widely used to learn node representations and with outstanding performance on various tasks such as node classification. However, noise, which inevitably exists in real-world graph data, would considerably degrade the performance of GNNs revealed by recent studies. In this work, we propose a novel and robust GNN encoder, Low-Rank Graph Contrastive Learning (LR-GCL). Our method performs transductive node classification in two steps. First, a low-rank GCL encoder named LR-GCL is trained by prototypical contrastive learning with low-rank regularization. Next, using the features produced by LR-GCL, a linear transductive classification algorithm is used to classify the unlabeled nodes in the graph. Our LR-GCL is inspired by the low frequency property of the graph data and its labels, and it is also theoretically motivated by our sharp generalization bound for transductive learning. To the best of our kno
     
-[^3]: 鲁棒的多模态密度估计
+[^2]: 重新思考人工智能与人类合作的公平性
 
-    Robust Multi-Modal Density Estimation. (arXiv:2401.10566v1 [cs.LG])
+    Rethinking Fairness for Human-AI Collaboration. (arXiv:2310.03647v1 [cs.LG])
 
-    [http://arxiv.org/abs/2401.10566](http://arxiv.org/abs/2401.10566)
+    [http://arxiv.org/abs/2310.03647](http://arxiv.org/abs/2310.03647)
 
-    本文提出了一种名为ROME的鲁棒多模态密度估计方法，该方法利用聚类将多模态样本集分割成多个单模态样本集，并通过简单的KDE估计来估计整体分布。这种方法解决了多模态、非正态和高相关分布估计的挑战。
+    在人工智能与人类合作中，需要重新思考公平性，因为完全遵守算法决策很少是现实可行的，因此我们需要设计稳健公平的算法推荐来提升公平性。
 
     
 
-    多模态概率预测模型的发展引发了对综合评估指标的需求。虽然有几个指标可以表征机器学习模型的准确性（例如，负对数似然、Jensen-Shannon散度），但这些指标通常作用于概率密度上。因此，将它们应用于纯粹基于样本的预测模型需要估计底层密度函数。然而，常见的方法如核密度估计（KDE）已被证明在鲁棒性方面存在不足，而更复杂的方法在多模态估计问题中尚未得到评估。在本文中，我们提出了一种非参数的密度估计方法ROME（RObust Multi-modal density Estimator），它解决了估计多模态、非正态和高相关分布的挑战。ROME利用聚类将多模态样本集分割成多个单模态样本集，然后结合简单的KDE估计来得到总体的估计结果。
+    现有的算法公平性方法旨在确保人类决策者完全遵守算法决策时实现公平的结果。然而，在人工智能与人类合作中，完全遵守算法决策很少是现实或理想的结果。然而，最近的研究表明，对公平算法的选择性遵守会相对于人类以前的政策增加歧视。因此，确保公平结果需要基本不同的算法设计原则，以确保对决策者（事先不知道）的遵守模式具有稳健性。我们定义了一种遵守稳健公平的算法推荐，无论人类的遵守模式如何，它们都能确保在决策中改善公平性（弱形意义上）。我们提出了一种简单的优化策略来确定最佳的性能改进遵守稳健公平策略。然而，我们发现设计算法推荐可能是不可行的。
 
-    Development of multi-modal, probabilistic prediction models has lead to a need for comprehensive evaluation metrics. While several metrics can characterize the accuracy of machine-learned models (e.g., negative log-likelihood, Jensen-Shannon divergence), these metrics typically operate on probability densities. Applying them to purely sample-based prediction models thus requires that the underlying density function is estimated. However, common methods such as kernel density estimation (KDE) have been demonstrated to lack robustness, while more complex methods have not been evaluated in multi-modal estimation problems. In this paper, we present ROME (RObust Multi-modal density Estimator), a non-parametric approach for density estimation which addresses the challenge of estimating multi-modal, non-normal, and highly correlated distributions. ROME utilizes clustering to segment a multi-modal set of samples into multiple uni-modal ones and then combines simple KDE estimates obtained for i
+    Existing approaches to algorithmic fairness aim to ensure equitable outcomes if human decision-makers comply perfectly with algorithmic decisions. However, perfect compliance with the algorithm is rarely a reality or even a desirable outcome in human-AI collaboration. Yet, recent studies have shown that selective compliance with fair algorithms can amplify discrimination relative to the prior human policy. As a consequence, ensuring equitable outcomes requires fundamentally different algorithmic design principles that ensure robustness to the decision-maker's (a priori unknown) compliance pattern. We define the notion of compliance-robustly fair algorithmic recommendations that are guaranteed to (weakly) improve fairness in decisions, regardless of the human's compliance pattern. We propose a simple optimization strategy to identify the best performance-improving compliance-robustly fair policy. However, we show that it may be infeasible to design algorithmic recommendations that are s
+    
+[^3]: 在向量值内核回归的在线算法的收敛分析
+
+    Convergence analysis of online algorithms for vector-valued kernel regression. (arXiv:2309.07779v1 [stat.ML])
+
+    [http://arxiv.org/abs/2309.07779](http://arxiv.org/abs/2309.07779)
+
+    本文考虑了在线学习算法在向量值内核回归问题中的收敛性能，证明了在RKHS范数中的期望平方误差可以被一个特定公式所限制。
+
+    
+
+    我们考虑使用适当的再生核希尔伯特空间（RKHS）作为先验，通过在线学习算法从噪声向量值数据中逼近回归函数的问题。在在线算法中，独立同分布的样本通过随机过程逐个可用，并依次处理以构建对回归函数的近似。我们关注这种在线逼近算法的渐近性能，并证明了在RKHS范数中的期望平方误差可以被$C^2(m+1)^{-s/(2+s)}$绑定，其中$m$为当下处理的数据数量，参数$0<s\leq 1$表示对回归函数的额外光滑性假设，常数$C$取决于输入噪声的方差、回归函数的光滑性以及算法的其他参数。
+
+    We consider the problem of approximating the regression function from noisy vector-valued data by an online learning algorithm using an appropriate reproducing kernel Hilbert space (RKHS) as prior. In an online algorithm, i.i.d. samples become available one by one by a random process and are successively processed to build approximations to the regression function. We are interested in the asymptotic performance of such online approximation algorithms and show that the expected squared error in the RKHS norm can be bounded by $C^2 (m+1)^{-s/(2+s)}$, where $m$ is the current number of processed data, the parameter $0<s\leq 1$ expresses an additional smoothness assumption on the regression function and the constant $C$ depends on the variance of the input noise, the smoothness of the regression function and further parameters of the algorithm.
     
 
