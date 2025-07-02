@@ -2,112 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Deep Support Vectors](https://arxiv.org/abs/2403.17329) | 该论文探索了深度学习模型中的深度支持向量（DSVs）的概念，介绍了DeepKKT条件，通过实证研究发现DSVs与SVM中的支持向量类似，为解释模型决策标准提供了方法，同时证明了可以有效地使用DSVs重构模型。 |
-| [^2] | [Brain-inspired and Self-based Artificial Intelligence](https://arxiv.org/abs/2402.18784) | 该论文介绍了一种名为Brain-inspired and Self-based Artificial Intelligence（BriSe AI）的新人工智能范式，通过自我组织的方式协调各种认知功能和学习策略，以构建人类水平的AI模型和机器人应用。 |
-| [^3] | [An Autonomous Large Language Model Agent for Chemical Literature Data Mining](https://arxiv.org/abs/2402.12993) | 介绍了一个端到端的人工智能代理框架，利用大型语言模型实现从化学文献中高保真提取信息，充当化学助手的角色，自动化数据收集和分析，从而提高工作效率。 |
-| [^4] | [ResQuNNs:Towards Enabling Deep Learning in Quantum Convolution Neural Networks](https://arxiv.org/abs/2402.09146) | 本文介绍了一种增强量子卷积神经网络性能的新框架ResQuNNs，在quanvolutional层中引入可训练性，通过残差学习的概念解决了跨层梯度访问的问题。 |
-| [^5] | [Benchmarking Spiking Neural Network Learning Methods with Varying Locality](https://arxiv.org/abs/2402.01782) | 本研究使用不同局部性对脉冲神经网络学习方法进行基准测试，并发现这些方法在性能和生物学合理性之间存在权衡。此外，研究还探讨了SNN的隐式循环特性。 |
-| [^6] | [Adversarial Robustness Unhardening via Backdoor Attacks in Federated Learning.](http://arxiv.org/abs/2310.11594) | 本文研究了联邦学习中对抗性训练和后门攻击的交叉点，引入了Adversarial Robustness Unhardening（ARU），通过有意介入分散式训练过程中破坏模型的鲁棒性，使模型更容易受到更广泛的逃避攻击。 |
-| [^7] | [Scaling Data-Constrained Language Models.](http://arxiv.org/abs/2305.16264) | 研究人员研究了在数据受限制的情况下缩放语言模型，并提出了一个计算最优性的缩放定律，考虑到重复令牌和过量参数的价值递减。 |
+| [^1] | [Quantifying analogy of concepts via ologs and wiring diagrams](https://rss.arxiv.org/abs/2402.01020) | 本文通过ologs和接线图的概念，建立了一个量化概念类比的框架，使得自主系统能够形成抽象概念，并通过图论和范畴论的技术进行比较和操作，同时使用接线图操作定义了度量和图编辑距离。 |
+| [^2] | [Fully Differentiable Lagrangian Convolutional Neural Network for Continuity-Consistent Physics-Informed Precipitation Nowcasting](https://arxiv.org/abs/2402.10747) | 提出了一种完全可微的拉格朗日卷积神经网络模型，实现了物理信息与数据驱动学习相结合，在降水预报中表现优秀，为其他拉格朗日机器学习模型提供了新思路。 |
+| [^3] | [Realism in Action: Anomaly-Aware Diagnosis of Brain Tumors from Medical Images Using YOLOv8 and DeiT.](http://arxiv.org/abs/2401.03302) | 本研究利用深度学习技术在具有挑战性的情况下检测和分类脑肿瘤，并解决了在罕见情况下的肿瘤检测问题。研究使用了来自国家脑映射实验室的数据集，通过修改样本数量和患者分布，使模型能够应对真实世界场景中的异常情况。 |
+| [^4] | [Junk DNA Hypothesis: A Task-Centric Angle of LLM Pre-trained Weights through Sparsity.](http://arxiv.org/abs/2310.02277) | 本文研究通过稀疏性分析LLM预训练权重的任务中心角度，挑战了传统对于权重中冗余性的观点，并提出了"垃圾DNA假设"。 |
+| [^5] | [Towards Enhanced Controllability of Diffusion Models.](http://arxiv.org/abs/2302.14368) | 本文介绍了一种基于条件输入的扩散模型，利用两个潜在编码控制生成过程中的空间结构和语义风格，提出了两种通用采样技术和时间步相关的潜在权重调度，实现了对生成过程的更好控制。 |
 
 # 详细
 
-[^1]: 深度支持向量
+[^1]: 通过ologs和接线图量化概念的类比
 
-    Deep Support Vectors
+    Quantifying analogy of concepts via ologs and wiring diagrams
 
-    [https://arxiv.org/abs/2403.17329](https://arxiv.org/abs/2403.17329)
+    [https://rss.arxiv.org/abs/2402.01020](https://rss.arxiv.org/abs/2402.01020)
 
-    该论文探索了深度学习模型中的深度支持向量（DSVs）的概念，介绍了DeepKKT条件，通过实证研究发现DSVs与SVM中的支持向量类似，为解释模型决策标准提供了方法，同时证明了可以有效地使用DSVs重构模型。
-
-    
-
-    尽管深度学习的成功通常被归因于其与支持向量机（SVM）在理论上的等价性，但这种关系的实际影响尚未得到全面探讨。本文在这一领域开展了一项探索，重点关注深度学习模型中深度支持向量（DSVs）的识别。我们引入了DeepKKT条件的概念，这是一种专为深度学习量身定制的传统Karush-Kuhn-Tucker（KKT）条件的调整版本。通过实证研究，我们阐明了DSVs与SVM中的支持向量之间存在相似性，提供了一种解释模型决策标准的切实方法。此外，我们的研究结果表明，可以有效地使用DSVs重构模型，类似于SVM中的过程。代码将会公开。
-
-    arXiv:2403.17329v1 Announce Type: cross  Abstract: While the success of deep learning is commonly attributed to its theoretical equivalence with Support Vector Machines (SVM), the practical implications of this relationship have not been thoroughly explored. This paper pioneers an exploration in this domain, specifically focusing on the identification of Deep Support Vectors (DSVs) within deep learning models. We introduce the concept of DeepKKT conditions, an adaptation of the traditional Karush-Kuhn-Tucker (KKT) conditions tailored for deep learning. Through empirical investigations, we illustrate that DSVs exhibit similarities to support vectors in SVM, offering a tangible method to interpret the decision-making criteria of models. Additionally, our findings demonstrate that models can be effectively reconstructed using DSVs, resembling the process in SVM. The code will be available.
-    
-[^2]: 大脑启发和基于自我的人工智能
-
-    Brain-inspired and Self-based Artificial Intelligence
-
-    [https://arxiv.org/abs/2402.18784](https://arxiv.org/abs/2402.18784)
-
-    该论文介绍了一种名为Brain-inspired and Self-based Artificial Intelligence（BriSe AI）的新人工智能范式，通过自我组织的方式协调各种认知功能和学习策略，以构建人类水平的AI模型和机器人应用。
+    本文通过ologs和接线图的概念，建立了一个量化概念类比的框架，使得自主系统能够形成抽象概念，并通过图论和范畴论的技术进行比较和操作，同时使用接线图操作定义了度量和图编辑距离。
 
     
 
-    这篇论文挑战了当前AI的支持者所谓 "思考机器" 的观念，因为它们缺乏自我意识。该论文提出了一种名为Brain-inspired and Self-based Artificial Intelligence（BriSe AI）的新人工智能范式，旨在通过自我组织的方式协调各种认知功能和学习策略，构建人类水平的AI模型和机器人应用。
+    我们在Spivak和Kent创建的本体日志(ologs)理论的基础上，定义了一种称为接线图的概念。在本文中，接线图是一个有限的有向标记图。标记对应于olog中的类型；它们也可以被解释为自主系统中传感器的读数。因此，接线图可以用作自主系统形成抽象概念的框架。我们展示了基于骨架接线图的图形形成一个范畴。这使得骨架接线图可以使用图论和范畴论的技术进行比较和操作。我们还通过使用仅适用于接线图的操作将传统的图编辑距离定义扩展到接线图的情况，从而得到了所有骨架接线图集合上的度量。最后，我们给出了一个计算由接线图表示的两个概念之间距离的扩展示例，并解释了如何将我们的框架应用于任何应用领域。
 
-    arXiv:2402.18784v1 Announce Type: new  Abstract: The question "Can machines think?" and the Turing Test to assess whether machines could achieve human-level intelligence is one of the roots of AI. With the philosophical argument "I think, therefore I am", this paper challenge the idea of a "thinking machine" supported by current AIs since there is no sense of self in them. Current artificial intelligence is only seemingly intelligent information processing and does not truly understand or be subjectively aware of oneself and perceive the world with the self as human intelligence does. In this paper, we introduce a Brain-inspired and Self-based Artificial Intelligence (BriSe AI) paradigm. This BriSe AI paradigm is dedicated to coordinating various cognitive functions and learning strategies in a self-organized manner to build human-level AI models and robotic applications. Specifically, BriSe AI emphasizes the crucial role of the Self in shaping the future AI, rooted with a practical hi
+    We build on the theory of ontology logs (ologs) created by Spivak and Kent, and define a notion of wiring diagrams. In this article, a wiring diagram is a finite directed labelled graph. The labels correspond to types in an olog; they can also be interpreted as readings of sensors in an autonomous system. As such, wiring diagrams can be used as a framework for an autonomous system to form abstract concepts. We show that the graphs underlying skeleton wiring diagrams form a category. This allows skeleton wiring diagrams to be compared and manipulated using techniques from both graph theory and category theory. We also extend the usual definition of graph edit distance to the case of wiring diagrams by using operations only available to wiring diagrams, leading to a metric on the set of all skeleton wiring diagrams. In the end, we give an extended example on calculating the distance between two concepts represented by wiring diagrams, and explain how to apply our framework to any applica
     
-[^3]: 用于化学文献数据挖掘的自主大型语言模型代理
+[^2]: 完全可微的拉格朗日卷积神经网络用于连续一致物理信息降水预报
 
-    An Autonomous Large Language Model Agent for Chemical Literature Data Mining
+    Fully Differentiable Lagrangian Convolutional Neural Network for Continuity-Consistent Physics-Informed Precipitation Nowcasting
 
-    [https://arxiv.org/abs/2402.12993](https://arxiv.org/abs/2402.12993)
+    [https://arxiv.org/abs/2402.10747](https://arxiv.org/abs/2402.10747)
 
-    介绍了一个端到端的人工智能代理框架，利用大型语言模型实现从化学文献中高保真提取信息，充当化学助手的角色，自动化数据收集和分析，从而提高工作效率。
-
-    
-
-    化学合成对于推动材料合成和药物发现至关重要，影响着包括环境科学和医疗保健在内的各个领域。化学领域的技术上升使得产生了大量的化学数据，挑战研究人员去识别模式并细化合成过程。人工智能通过分析数据来优化合成并提高产量。然而，人工智能在处理文献数据方面面临着挑战，因为化学文献的结构不规整，写作风格多样。为了克服这些困难，我们引入了一个端到端的人工智能代理框架，能够从广泛的化学文献中高保真地提取信息。这个人工智能代理采用大型语言模型（LLMs）进行快速生成和迭代优化。它充当化学助手的角色，自动化数据收集和分析，从而节省人力并提高性能。
-
-    arXiv:2402.12993v1 Announce Type: cross  Abstract: Chemical synthesis, which is crucial for advancing material synthesis and drug discovery, impacts various sectors including environmental science and healthcare. The rise of technology in chemistry has generated extensive chemical data, challenging researchers to discern patterns and refine synthesis processes. Artificial intelligence (AI) helps by analyzing data to optimize synthesis and increase yields. However, AI faces challenges in processing literature data due to the unstructured format and diverse writing style of chemical literature. To overcome these difficulties, we introduce an end-to-end AI agent framework capable of high-fidelity extraction from extensive chemical literature. This AI agent employs large language models (LLMs) for prompt generation and iterative optimization. It functions as a chemistry assistant, automating data collection and analysis, thereby saving manpower and enhancing performance. Our framework's ef
-    
-[^4]: ResQuNNs: 实现量子卷积神经网络中深度学习的新框架
-
-    ResQuNNs:Towards Enabling Deep Learning in Quantum Convolution Neural Networks
-
-    [https://arxiv.org/abs/2402.09146](https://arxiv.org/abs/2402.09146)
-
-    本文介绍了一种增强量子卷积神经网络性能的新框架ResQuNNs，在quanvolutional层中引入可训练性，通过残差学习的概念解决了跨层梯度访问的问题。
+    提出了一种完全可微的拉格朗日卷积神经网络模型，实现了物理信息与数据驱动学习相结合，在降水预报中表现优秀，为其他拉格朗日机器学习模型提供了新思路。
 
     
 
-    本文提出了一种增强量子卷积神经网络（QuNNs）性能的新框架，通过引入可训练的quanvolutional层并解决与其相关的关键挑战。传统的quanvolutional层虽然有助于特征提取，但往往是静态的，适应性有限。与最先进的研究不同，我们的研究通过在这些层内部进行训练，显著提高了QuNNs的灵活性和潜力。然而，多个可训练的quanvolutional层的引入给基于梯度的优化带来了复杂性，主要是由于难以在这些层之间访问梯度。为了解决这个问题，我们提出了一种新的架构，Residual Quanvolutional Neural Networks (ResQuNNs)，利用残差学习的概念，在这些层之间添加跳过连接以促进梯度的流动。
+    本文提出了一种卷积神经网络模型，用于降水预报，结合了数据驱动学习和基于物理信息的领域知识。我们提出了LUPIN，即用于物理信息的拉格朗日双U-Net的现在预报，借鉴了现有的基于外推的预报方法，并以完全可微且GPU加速的方式实现了数据的拉格朗日坐标系转换，以允许实时端到端训练和推断。根据我们的评估，LUPIN与并超过了所选择基准的性能，为其他拉格朗日机器学习模型敞开了大门。
 
-    arXiv:2402.09146v1 Announce Type: new Abstract: In this paper, we present a novel framework for enhancing the performance of Quanvolutional Neural Networks (QuNNs) by introducing trainable quanvolutional layers and addressing the critical challenges associated with them. Traditional quanvolutional layers, although beneficial for feature extraction, have largely been static, offering limited adaptability. Unlike state-of-the-art, our research overcomes this limitation by enabling training within these layers, significantly increasing the flexibility and potential of QuNNs. However, the introduction of multiple trainable quanvolutional layers induces complexities in gradient-based optimization, primarily due to the difficulty in accessing gradients across these layers. To resolve this, we propose a novel architecture, Residual Quanvolutional Neural Networks (ResQuNNs), leveraging the concept of residual learning, which facilitates the flow of gradients by adding skip connections between 
+    arXiv:2402.10747v1 Announce Type: cross  Abstract: This paper presents a convolutional neural network model for precipitation nowcasting that combines data-driven learning with physics-informed domain knowledge. We propose LUPIN, a Lagrangian Double U-Net for Physics-Informed Nowcasting, that draws from existing extrapolation-based nowcasting methods and implements the Lagrangian coordinate system transformation of the data in a fully differentiable and GPU-accelerated manner to allow for real-time end-to-end training and inference. Based on our evaluation, LUPIN matches and exceeds the performance of the chosen benchmark, opening the door for other Lagrangian machine learning models.
     
-[^5]: 使用不同局部性对脉冲神经网络学习方法进行基准测试
+[^3]: 行动中的现实主义：使用YOLOv8和DeiT从医学图像中诊断脑肿瘤的异常感知
 
-    Benchmarking Spiking Neural Network Learning Methods with Varying Locality
+    Realism in Action: Anomaly-Aware Diagnosis of Brain Tumors from Medical Images Using YOLOv8 and DeiT. (arXiv:2401.03302v1 [eess.IV])
 
-    [https://arxiv.org/abs/2402.01782](https://arxiv.org/abs/2402.01782)
+    [http://arxiv.org/abs/2401.03302](http://arxiv.org/abs/2401.03302)
 
-    本研究使用不同局部性对脉冲神经网络学习方法进行基准测试，并发现这些方法在性能和生物学合理性之间存在权衡。此外，研究还探讨了SNN的隐式循环特性。
-
-    
-
-    脉冲神经网络（SNN）提供更真实的神经动力学，在多个机器学习任务中已经显示出与人工神经网络（ANN）相当的性能。信息在SNN中以脉冲形式进行处理，采用事件驱动机制，显著降低了能源消耗。然而，由于脉冲机制的非可微性，训练SNN具有挑战性。传统方法如时间反向传播（BPTT）已经显示出一定的效果，但在计算和存储成本方面存在问题，并且在生物学上不可行。相反，最近的研究提出了具有不同局部性的替代学习方法，在分类任务中取得了成功。本文表明，这些方法在训练过程中有相似之处，同时在生物学合理性和性能之间存在权衡。此外，本研究还探讨了SNN的隐式循环特性，并进行了调查。
-
-    Spiking Neural Networks (SNNs), providing more realistic neuronal dynamics, have shown to achieve performance comparable to Artificial Neural Networks (ANNs) in several machine learning tasks. Information is processed as spikes within SNNs in an event-based mechanism that significantly reduces energy consumption. However, training SNNs is challenging due to the non-differentiable nature of the spiking mechanism. Traditional approaches, such as Backpropagation Through Time (BPTT), have shown effectiveness but comes with additional computational and memory costs and are biologically implausible. In contrast, recent works propose alternative learning methods with varying degrees of locality, demonstrating success in classification tasks. In this work, we show that these methods share similarities during the training process, while they present a trade-off between biological plausibility and performance. Further, this research examines the implicitly recurrent nature of SNNs and investigat
-    
-[^6]: Adversarial Robustness Unhardening via Backdoor Attacks in Federated Learning. (arXiv:2310.11594v1 [cs.LG])
-
-    Adversarial Robustness Unhardening via Backdoor Attacks in Federated Learning. (arXiv:2310.11594v1 [cs.LG])
-
-    [http://arxiv.org/abs/2310.11594](http://arxiv.org/abs/2310.11594)
-
-    本文研究了联邦学习中对抗性训练和后门攻击的交叉点，引入了Adversarial Robustness Unhardening（ARU），通过有意介入分散式训练过程中破坏模型的鲁棒性，使模型更容易受到更广泛的逃避攻击。
+    本研究利用深度学习技术在具有挑战性的情况下检测和分类脑肿瘤，并解决了在罕见情况下的肿瘤检测问题。研究使用了来自国家脑映射实验室的数据集，通过修改样本数量和患者分布，使模型能够应对真实世界场景中的异常情况。
 
     
 
-    在当今的数据驱动环境中，维护用户隐私和释放数据潜力之间微妙的平衡成为一个重要关注点。联邦学习是一种以隐私为中心的解决方案，它实现了协作模型训练而无需共享数据。这种分散式方法带来了安全挑战，特别是恶意实体注入损坏数据的中毒和后门攻击。我们的研究最初受到测试时间逃避攻击的启发，探讨了联邦学习中对抗性训练和后门攻击的交叉点，引入了Adversarial Robustness Unhardening（ARU）。ARU被一部分对手使用，以有意介入分散式训练过程中破坏模型的鲁棒性，使模型更容易受到更广泛的逃避攻击。我们进行了广泛的实证实验，评估了ARU对对抗性训练和现有的鲁棒聚合防御策略对中毒和后门攻击的影响。
+    在医学科学领域，由于脑肿瘤在患者中的罕见程度，可靠地检测和分类脑肿瘤仍然是一个艰巨的挑战。因此，在异常情况下检测肿瘤的能力对于确保及时干预和改善患者结果至关重要。本研究利用深度学习技术在具有挑战性的情况下检测和分类脑肿瘤。来自国家脑映射实验室（NBML）的精选数据集包括81名患者，其中包括30例肿瘤病例和51例正常病例。检测和分类流程被分为两个连续的任务。检测阶段包括全面的数据分析和预处理，以修改图像样本和每个类别的患者数量，以符合真实世界场景中的异常分布（9个正常样本对应1个肿瘤样本）。此外，在测试中除了常见的评估指标外，我们还采用了... [摘要长度已达到上限]
 
-    In today's data-driven landscape, the delicate equilibrium between safeguarding user privacy and unleashing data potential stands as a paramount concern. Federated learning, which enables collaborative model training without necessitating data sharing, has emerged as a privacy-centric solution. This decentralized approach brings forth security challenges, notably poisoning and backdoor attacks where malicious entities inject corrupted data. Our research, initially spurred by test-time evasion attacks, investigates the intersection of adversarial training and backdoor attacks within federated learning, introducing Adversarial Robustness Unhardening (ARU). ARU is employed by a subset of adversaries to intentionally undermine model robustness during decentralized training, rendering models susceptible to a broader range of evasion attacks. We present extensive empirical experiments evaluating ARU's impact on adversarial training and existing robust aggregation defenses against poisoning a
+    In the field of medical sciences, reliable detection and classification of brain tumors from images remains a formidable challenge due to the rarity of tumors within the population of patients. Therefore, the ability to detect tumors in anomaly scenarios is paramount for ensuring timely interventions and improved patient outcomes. This study addresses the issue by leveraging deep learning (DL) techniques to detect and classify brain tumors in challenging situations. The curated data set from the National Brain Mapping Lab (NBML) comprises 81 patients, including 30 Tumor cases and 51 Normal cases. The detection and classification pipelines are separated into two consecutive tasks. The detection phase involved comprehensive data analysis and pre-processing to modify the number of image samples and the number of patients of each class to anomaly distribution (9 Normal per 1 Tumor) to comply with real world scenarios. Next, in addition to common evaluation metrics for the testing, we emplo
     
-[^7]: 缩放数据受限的语言模型
+[^4]: "垃圾DNA假设：通过稀疏性对LLM预训练权重进行任务中心角度分析"
 
-    Scaling Data-Constrained Language Models. (arXiv:2305.16264v2 [cs.CL] UPDATED)
+    Junk DNA Hypothesis: A Task-Centric Angle of LLM Pre-trained Weights through Sparsity. (arXiv:2310.02277v1 [cs.LG])
 
-    [http://arxiv.org/abs/2305.16264](http://arxiv.org/abs/2305.16264)
+    [http://arxiv.org/abs/2310.02277](http://arxiv.org/abs/2310.02277)
 
-    研究人员研究了在数据受限制的情况下缩放语言模型，并提出了一个计算最优性的缩放定律，考虑到重复令牌和过量参数的价值递减。
+    本文研究通过稀疏性分析LLM预训练权重的任务中心角度，挑战了传统对于权重中冗余性的观点，并提出了"垃圾DNA假设"。
 
     
 
-    现在扩展语言模型的趋势涉及增加参数计数和训练数据集大小。推断这个趋势表明，训练数据集大小可能很快就会受到互联网上可用文本数据的限制。出于此限制的动机，我们研究在数据受限制的情况下缩放语言模型。具体而言，我们运行了大量的实验，变化数据重复程度和计算预算，范围达到了9000亿个训练令牌和9亿参数模型。我们发现，在有限的数据的情况下，使用高达4次重复数据的训练与使用唯一数据相比对损失的贡献微不足道。然而，使用更多的重复数据，添加计算的价值最终会衰减为零。我们提出并经验证了一个计算最优性的缩放定律，考虑到重复令牌和过量参数的价值递减。最后，我们尝试了缓解数据稀缺的方法。
+    传统对"垃圾DNA"的概念长期以来与人类基因组中的非编码片段相关联，占其组成的大约98%。然而，最近的研究揭示了一些这些看似无功能的DNA序列在细胞过程中起到的关键作用。有趣的是，深度神经网络中的权重与人类基因中观察到的冗余性有着显著的相似性。人们认为，庞大模型中的权重包含了过多的冗余，可以在不影响性能的情况下去除。本文通过提出一个令人信服的反论来挑战这个传统观点。我们使用稀疏性作为一种工具，来独立而准确地量化预训练大语言模型(LLM)中低幅度权重的细微重要性，从下游任务中心的角度理解它们包含的知识。我们提出了支持我们深入研究的"垃圾DNA假设"。
 
-    The current trend of scaling language models involves increasing both parameter count and training dataset size. Extrapolating this trend suggests that training dataset size may soon be limited by the amount of text data available on the internet. Motivated by this limit, we investigate scaling language models in data-constrained regimes. Specifically, we run a large set of experiments varying the extent of data repetition and compute budget, ranging up to 900 billion training tokens and 9 billion parameter models. We find that with constrained data for a fixed compute budget, training with up to 4 epochs of repeated data yields negligible changes to loss compared to having unique data. However, with more repetition, the value of adding compute eventually decays to zero. We propose and empirically validate a scaling law for compute optimality that accounts for the decreasing value of repeated tokens and excess parameters. Finally, we experiment with approaches mitigating data scarcity,
+    The traditional notion of "Junk DNA" has long been linked to non-coding segments within the human genome, constituting roughly 98% of its composition. However, recent research has unveiled the critical roles some of these seemingly non-functional DNA sequences play in cellular processes. Intriguingly, the weights within deep neural networks exhibit a remarkable similarity to the redundancy observed in human genes. It was believed that weights in gigantic models contained excessive redundancy, and could be removed without compromising performance. This paper challenges this conventional wisdom by presenting a compelling counter-argument. We employ sparsity as a tool to isolate and quantify the nuanced significance of low-magnitude weights in pre-trained large language models (LLMs). Our study demonstrates a strong correlation between these weight magnitudes and the knowledge they encapsulate, from a downstream task-centric angle. we raise the "Junk DNA Hypothesis" backed by our in-depth
+    
+[^5]: 实现扩展扩展扩散模型的可控性
+
+    Towards Enhanced Controllability of Diffusion Models. (arXiv:2302.14368v2 [cs.CV] UPDATED)
+
+    [http://arxiv.org/abs/2302.14368](http://arxiv.org/abs/2302.14368)
+
+    本文介绍了一种基于条件输入的扩散模型，利用两个潜在编码控制生成过程中的空间结构和语义风格，提出了两种通用采样技术和时间步相关的潜在权重调度，实现了对生成过程的更好控制。
+
+    
+
+    去噪扩散模型在生成逼真、高质量和多样化图像方面表现出卓越能力。然而，在生成过程中的可控程度尚未得到充分探讨。受基于GAN潜在空间的图像操纵技术启发，我们训练了一个条件于两个潜在编码、一个空间内容掩码和一个扁平的样式嵌入的扩散模型。我们依赖于扩散模型渐进去噪过程的感性偏置，在空间结构掩码中编码姿势/布局信息，在样式代码中编码语义/样式信息。我们提出了两种通用的采样技术来改善可控性。我们扩展了可组合的扩散模型，允许部分依赖于条件输入，以提高生成质量，同时还提供对每个潜在代码和它们的联合分布量的控制。我们还提出了时间步相关的内容和样式潜在权重调度，进一步提高了控制性。
+
+    Denoising Diffusion models have shown remarkable capabilities in generating realistic, high-quality and diverse images. However, the extent of controllability during generation is underexplored. Inspired by techniques based on GAN latent space for image manipulation, we train a diffusion model conditioned on two latent codes, a spatial content mask and a flattened style embedding. We rely on the inductive bias of the progressive denoising process of diffusion models to encode pose/layout information in the spatial structure mask and semantic/style information in the style code. We propose two generic sampling techniques for improving controllability. We extend composable diffusion models to allow for some dependence between conditional inputs, to improve the quality of generations while also providing control over the amount of guidance from each latent code and their joint distribution. We also propose timestep dependent weight scheduling for content and style latents to further impro
     
 

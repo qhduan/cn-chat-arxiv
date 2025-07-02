@@ -2,37 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Value-transforming financial, carbon and biodiversity footprint accounting.](http://arxiv.org/abs/2309.14186) | 本文展示了如何利用组织的财务报表来开发一个综合的碳和生物多样性足迹账户。通过利用空间明确的潜在物种损失作为度量标准，我们提供了一个全球生物多样性足迹数据库。 |
-| [^2] | [The quality of school track assignment decisions by teachers.](http://arxiv.org/abs/2304.10636) | 本文研究了荷兰中学阶段分班决策的质量，发现教师的初始分班决策对于大多数学生来说太低了。 |
+| [^1] | [A Strategic Model of Software Dependency Networks](https://arxiv.org/abs/2402.13375) | 通过研究软件包和库之间的依赖网络形成，发现程序员创建依赖时对其他程序员具有正的外部性作用，且倾向于链接到相同软件类型的热门包，但链接到其他类型的不太热门包。 |
+| [^2] | [Threshold Regression in Heterogeneous Panel Data with Interactive Fixed Effects.](http://arxiv.org/abs/2308.04057) | 本文介绍了在面板数据阈值回归中引入了单位特定的异质性，并提出了一种新的参数估计方法，该方法可以更快地收敛。对费尔斯坦-宝里奥卡之谜的研究结果表明…… |
+| [^3] | [A Robust Method for Microforecasting and Estimation of Random Effects.](http://arxiv.org/abs/2308.01596) | 我们提出了一种稳健的方法，用于在面板数据模型和增值模型中预测个体结果和估计随机效应，特别是在时间维度较短的情况下。该方法通过加权平均值结合了时序和汇总的预测/估计，并利用个体权重来提高预测的准确性。与现有方法相比，我们的方法不仅假设较少，而且可以在更弱的假设下获得良好的性能。该方法还避免了专制，通过让数据决定每个个体应借用多少力量。 |
 
 # 详细
 
-[^1]: 可转化的金融、碳和生物多样性足迹会计
+[^1]: 软件依赖网络的战略模型
 
-    Value-transforming financial, carbon and biodiversity footprint accounting. (arXiv:2309.14186v1 [econ.GN])
+    A Strategic Model of Software Dependency Networks
 
-    [http://arxiv.org/abs/2309.14186](http://arxiv.org/abs/2309.14186)
+    [https://arxiv.org/abs/2402.13375](https://arxiv.org/abs/2402.13375)
 
-    本文展示了如何利用组织的财务报表来开发一个综合的碳和生物多样性足迹账户。通过利用空间明确的潜在物种损失作为度量标准，我们提供了一个全球生物多样性足迹数据库。
-
-    
-
-    为了实现碳中和、无净损失生物多样性和地球福祉，需要对我们的生产和消费习惯进行转型性变革。组织是我们人类组织日常生活的方式，我们的负面环境影响，也称为碳和生物多样性足迹，大部分是由组织引起的。本文展示了如何利用任何组织的财务报表来开发一个综合的碳和生物多样性足迹账户。作为度量标准，我们利用了空间明确的潜在全球物种损失，我们认为这可以理解为生物多样性的等效指标，对于生物多样性来说，其效用类似于对气候来说的二氧化碳等效指标。我们提供了一个全球生物多样性足迹数据库，组织、专家和研究人员可以使用该数据库来评估基于消费的生物多样性足迹。我们还认为，当前财务和环境指标的整合有待进一步完善。
-
-    Transformative changes in our production and consumption habits are needed to enable the sustainability transition towards carbon neutrality, no net loss of biodiversity, and planetary well-being. Organizations are the way we humans have organized our everyday life, and much of our negative environmental impacts, also called carbon and biodiversity footprints, are caused by organizations. Here we show how the financial accounts of any organization can be exploited to develop an integrated carbon and biodiversity footprint account. As a metric we utilize spatially explicit potential global loss of species which, we argue, can be understood as the biodiversity equivalent, the utility of which for biodiversity is similar to what carbon dioxide equivalent is for climate. We provide a global Biodiversity Footprint Database that organizations, experts and researchers can use to assess consumption-based biodiversity footprints. We also argue that the current integration of financial and envir
-    
-[^2]: 教师作出学校分班决策的质量研究——以荷兰为例
-
-    The quality of school track assignment decisions by teachers. (arXiv:2304.10636v1 [econ.GN])
-
-    [http://arxiv.org/abs/2304.10636](http://arxiv.org/abs/2304.10636)
-
-    本文研究了荷兰中学阶段分班决策的质量，发现教师的初始分班决策对于大多数学生来说太低了。
+    通过研究软件包和库之间的依赖网络形成，发现程序员创建依赖时对其他程序员具有正的外部性作用，且倾向于链接到相同软件类型的热门包，但链接到其他类型的不太热门包。
 
     
 
-    本文使用回归不连续设计研究了荷兰中学阶段分班决策的质量。在小学六年级，小学教师将每个学生分配到中学阶段的一个学习轨迹上。如果学生在小学教育的标准化结束测试中的得分高于特定的轨迹分数线，教师可以向上修改这个分配决策。通过比较这些分数线两侧的学生，发现在四年后，有50-90％的学生“被困在轨迹中”，意味着他们只有在第一年就开始在高轨迹上的情况下，才能在四年后在高轨迹上。其他（少数）学生则“始终处于低水平”，无论他们最初位于哪个水平，四年后都会一直在低水平上。这些比例适用于在第一年通过得分超过分数线而从低轨迹转到高轨迹的接近分数线的学生。因此，对于大多数这些学生来说，最初（未修改的）分班决策太低了。研究结果表明，教师作出的分班决策质量值得关注。
+    现代软件开发涉及协作努力和重用现有代码，这降低了开发新软件的成本。然而，从现有包中重用代码会使程序员暴露于这些依赖关系的漏洞中。我们研究了软件包和库之间依赖网络的形成，该研究由一个具有可观察和不可观察异质性的网络形成结构模型指导。我们使用一种新颖的可扩展算法估算了 Rust 编程语言的 35,473 个代码库之间的 696,790 个有向依赖关系网络的成本、利益和链接外部性。我们发现，当程序员创建依赖关系时，会对其他程序员产生正的外部性作用。此外，我们展示了程序员倾向于链接到相同软件类型的更受欢迎的包，但链接到其他类型的不太受欢迎的包。我们采用传染病传播模型来衡量一个软件包的系统程度。
 
-    We study the quality of secondary school track assignment decisions in the Netherlands, using a regression discontinuity design. In 6th grade, primary school teachers assign each student to a secondary school track. If a student scores above a track-specific cutoff on the standardized end-of-primary education test, the teacher can upwardly revise this assignment. By comparing students just left and right of these cutoffs, we find that between 50-90% of the students are "trapped in track": these students are on the high track after four years, only if they started on the high track in first year. The remaining (minority of) students are "always low": they are always on the low track after four years, independently of where they started. These proportions hold for students near the cutoffs that shift from the low to the high track in first year by scoring above the cutoff. Hence, for a majority of these students the initial (unrevised) track assignment decision is too low. The results re
+    arXiv:2402.13375v1 Announce Type: new  Abstract: Modern software development involves collaborative efforts and reuse of existing code, which reduces the cost of developing new software. However, reusing code from existing packages exposes coders to vulnerabilities in these dependencies. We study the formation of dependency networks among software packages and libraries, guided by a structural model of network formation with observable and unobservable heterogeneity. We estimate costs, benefits, and link externalities of the network of 696,790 directed dependencies between 35,473 repositories of the Rust programming language using a novel scalable algorithm. We find evidence of a positive externality exerted on other coders when coders create dependencies. Furthermore, we show that coders are likely to link to more popular packages of the same software type but less popular packages of other types. We adopt models for the spread of infectious diseases to measure a package's systemicnes
+    
+[^2]: 异质面板数据中的阈值回归与交互固定效应
+
+    Threshold Regression in Heterogeneous Panel Data with Interactive Fixed Effects. (arXiv:2308.04057v1 [econ.EM])
+
+    [http://arxiv.org/abs/2308.04057](http://arxiv.org/abs/2308.04057)
+
+    本文介绍了在面板数据阈值回归中引入了单位特定的异质性，并提出了一种新的参数估计方法，该方法可以更快地收敛。对费尔斯坦-宝里奥卡之谜的研究结果表明……
+
+    
+
+    本文介绍了在面板数据阈值回归中引入了单位特定的异质性。斜率系数和阈值参数都允许因单位而异。异质阈值参数通过单位专有的经验分位数转换来表示，该转换由整个面板数据高效估计得出。在误差项中，面板数据的未观测异质性采用了交互固定效应的一般形式。这种新引入的参数异质性对模型的识别、估计、解释和渐近推断都有重要影响。假设阈值幅度收缩，现在意味着异质性的收缩，使得估计器的收敛速度比以前更快。我们推导了所提出估计器的渐近理论，蒙特卡洛模拟结果表明其在小样本中的有效性。我们应用新模型对费尔斯坦-宝里奥卡之谜进行了研究，发现……
+
+    This paper introduces unit-specific heterogeneity in panel data threshold regression. Both slope coefficients and threshold parameters are allowed to vary by unit. The heterogeneous threshold parameters manifest via a unit-specific empirical quantile transformation of a common underlying threshold parameter which is estimated efficiently from the whole panel. In the errors, the unobserved heterogeneity of the panel takes the general form of interactive fixed effects. The newly introduced parameter heterogeneity has implications for model identification, estimation, interpretation, and asymptotic inference. The assumption of a shrinking threshold magnitude now implies shrinking heterogeneity and leads to faster estimator rates of convergence than previously encountered. The asymptotic theory for the proposed estimators is derived and Monte Carlo simulations demonstrate its usefulness in small samples. The new model is employed to examine the Feldstein-Horioka puzzle and it is found that
+    
+[^3]: 一种微观预测和随机效应估计的稳健方法
+
+    A Robust Method for Microforecasting and Estimation of Random Effects. (arXiv:2308.01596v1 [econ.EM])
+
+    [http://arxiv.org/abs/2308.01596](http://arxiv.org/abs/2308.01596)
+
+    我们提出了一种稳健的方法，用于在面板数据模型和增值模型中预测个体结果和估计随机效应，特别是在时间维度较短的情况下。该方法通过加权平均值结合了时序和汇总的预测/估计，并利用个体权重来提高预测的准确性。与现有方法相比，我们的方法不仅假设较少，而且可以在更弱的假设下获得良好的性能。该方法还避免了专制，通过让数据决定每个个体应借用多少力量。
+
+    
+
+    我们提出了一种方法，在面板数据模型和增值模型中，对个体结果进行预测和估计随机效应，当面板数据的时间维度较短时。该方法稳健且易于实现，需要的假设很少。该方法的思想是，在时间序列信息的基础上，将时序和汇总的预测/估计的加权平均值，其中个体权重基于时间序列信息。我们展示了个体权重的预测最优性，无论是在最小化最大遗憾还是均方预测误差方面。然后，我们提供了可行的权重，以在弱于现有方法所需假设的情况下确保良好的性能。与现有的收缩方法不同，我们的方法利用了多数的优势，但避免了专制，通过针对个人（而不是群体）的准确性，并让数据决定每个个体应借用多少力量。与现有的经验贝叶斯方法不同，我们的频率主义方法不需要任何分布假设。
+
+    We propose a method for forecasting individual outcomes and estimating random effects in linear panel data models and value-added models when the panel has a short time dimension. The method is robust, trivial to implement and requires minimal assumptions. The idea is to take a weighted average of time series- and pooled forecasts/estimators, with individual weights that are based on time series information. We show the forecast optimality of individual weights, both in terms of minimax-regret and of mean squared forecast error. We then provide feasible weights that ensure good performance under weaker assumptions than those required by existing approaches. Unlike existing shrinkage methods, our approach borrows the strength - but avoids the tyranny - of the majority, by targeting individual (instead of group) accuracy and letting the data decide how much strength each individual should borrow. Unlike existing empirical Bayesian methods, our frequentist approach requires no distributio
     
 
