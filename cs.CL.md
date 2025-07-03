@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Benchmarking Large Language Models in Complex Question Answering Attribution using Knowledge Graphs.](http://arxiv.org/abs/2401.14640) | 该研究介绍了一种用于评估问题回答归因的新方法，并通过对大型语言模型进行基准测试，发现现有的评估器在细粒度的归因设置下表现不佳，同时在复杂的引文-陈述推理中也存在弱点。 |
+| [^1] | [EdgeQAT: Entropy and Distribution Guided Quantization-Aware Training for the Acceleration of Lightweight LLMs on the Edge](https://arxiv.org/abs/2402.10787) | 本文提出了EdgeQAT，使用熵和分布引导的量化感知训练方法来优化轻量级LLMs，在边缘设备上实现推理加速。 |
 
 # 详细
 
-[^1]: 在复杂问题回答归因中使用知识图谱对大型语言模型进行基准测试
+[^1]: EdgeQAT: 熵和分布引导的量化感知训练，用于加速轻量级LLMs在边缘设备上的应用
 
-    Benchmarking Large Language Models in Complex Question Answering Attribution using Knowledge Graphs. (arXiv:2401.14640v1 [cs.CL])
+    EdgeQAT: Entropy and Distribution Guided Quantization-Aware Training for the Acceleration of Lightweight LLMs on the Edge
 
-    [http://arxiv.org/abs/2401.14640](http://arxiv.org/abs/2401.14640)
+    [https://arxiv.org/abs/2402.10787](https://arxiv.org/abs/2402.10787)
 
-    该研究介绍了一种用于评估问题回答归因的新方法，并通过对大型语言模型进行基准测试，发现现有的评估器在细粒度的归因设置下表现不佳，同时在复杂的引文-陈述推理中也存在弱点。
+    本文提出了EdgeQAT，使用熵和分布引导的量化感知训练方法来优化轻量级LLMs，在边缘设备上实现推理加速。
 
     
 
-    问题回答的归因是为生成的陈述提供引用, 并且引起了广泛的研究关注。目前的自动评估归因的方法往往基于大型语言模型(LLM), 但仍然不足, 特别是在识别归因之间细微差别和引用与陈述之间的复杂关系方面。为了比较这些归因评估方法并开发新的方法, 我们引入了一组细粒度的类别(即支持, 不足, 矛盾和无关), 用于衡量归因, 并通过利用知识图谱(KG)为问题-回答对自动生成不同类别的归因, 开发了一个复杂的归因问题回答(CAQA)基准。我们的分析显示, 现有的评估器在细粒度的归因设置下表现不佳, 在复杂的引文-陈述推理中存在弱点。
+    尽管大型语言模型（LLMs）在各个领域取得了显著进展，但由于其庞大的参数和计算量，LLMs在边缘设备上的广泛应用受到限制。为了解决这一问题，通常采用量化方法生成具有高效计算和快速推理的轻量级LLMs。然而，后训练量化（PTQ）方法在将权重、激活和KV缓存一起量化至8位以下时，质量会急剧下降。此外，许多量化感知训练（QAT）工作对模型权重进行量化，而激活未被触及，这不能充分发挥量化对边缘端推理加速的潜力。在本文中，我们提出了EdgeQAT，即熵和分布引导的QAT，用于优化轻量级LLMs以实现在边缘设备上的推理加速。我们首先确定量化性能下降主要源自信息
 
-    The attribution of question answering is to provide citations for supporting generated statements, and has attracted wide research attention. The current methods for automatically evaluating the attribution, which are often based on Large Language Models (LLMs), are still inadequate, particularly in recognizing subtle differences between attributions, and complex relationships between citations and statements. To compare these attribution evaluation methods and develop new ones, we introduce a set of fine-grained categories (i.e., supportive, insufficient, contradictory and irrelevant) for measuring the attribution, and develop a Complex Attributed Question Answering (CAQA) benchmark by leveraging knowledge graphs (KGs) for automatically generating attributions of different categories to question-answer pairs. Our analysis reveals that existing evaluators perform poorly under fine-grained attribution settings and exhibit weaknesses in complex citation-statement reasoning. Our CAQA benc
+    arXiv:2402.10787v1 Announce Type: cross  Abstract: Despite the remarkable strides of Large Language Models (LLMs) in various fields, the wide applications of LLMs on edge devices are limited due to their massive parameters and computations. To address this, quantization is commonly adopted to generate lightweight LLMs with efficient computations and fast inference. However, Post-Training Quantization (PTQ) methods dramatically degrade in quality when quantizing weights, activations, and KV cache together to below 8 bits. Besides, many Quantization-Aware Training (QAT) works quantize model weights, leaving the activations untouched, which do not fully exploit the potential of quantization for inference acceleration on the edge. In this paper, we propose EdgeQAT, the Entropy and Distribution Guided QAT for the optimization of lightweight LLMs to achieve inference acceleration on Edge devices. We first identify that the performance drop of quantization primarily stems from the information
     
 

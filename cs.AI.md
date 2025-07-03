@@ -2,82 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Quantifying analogy of concepts via ologs and wiring diagrams](https://rss.arxiv.org/abs/2402.01020) | 本文通过ologs和接线图的概念，建立了一个量化概念类比的框架，使得自主系统能够形成抽象概念，并通过图论和范畴论的技术进行比较和操作，同时使用接线图操作定义了度量和图编辑距离。 |
-| [^2] | [Fully Differentiable Lagrangian Convolutional Neural Network for Continuity-Consistent Physics-Informed Precipitation Nowcasting](https://arxiv.org/abs/2402.10747) | 提出了一种完全可微的拉格朗日卷积神经网络模型，实现了物理信息与数据驱动学习相结合，在降水预报中表现优秀，为其他拉格朗日机器学习模型提供了新思路。 |
-| [^3] | [Realism in Action: Anomaly-Aware Diagnosis of Brain Tumors from Medical Images Using YOLOv8 and DeiT.](http://arxiv.org/abs/2401.03302) | 本研究利用深度学习技术在具有挑战性的情况下检测和分类脑肿瘤，并解决了在罕见情况下的肿瘤检测问题。研究使用了来自国家脑映射实验室的数据集，通过修改样本数量和患者分布，使模型能够应对真实世界场景中的异常情况。 |
-| [^4] | [Junk DNA Hypothesis: A Task-Centric Angle of LLM Pre-trained Weights through Sparsity.](http://arxiv.org/abs/2310.02277) | 本文研究通过稀疏性分析LLM预训练权重的任务中心角度，挑战了传统对于权重中冗余性的观点，并提出了"垃圾DNA假设"。 |
-| [^5] | [Towards Enhanced Controllability of Diffusion Models.](http://arxiv.org/abs/2302.14368) | 本文介绍了一种基于条件输入的扩散模型，利用两个潜在编码控制生成过程中的空间结构和语义风格，提出了两种通用采样技术和时间步相关的潜在权重调度，实现了对生成过程的更好控制。 |
+| [^1] | [SpikeNAS: A Fast Memory-Aware Neural Architecture Search Framework for Spiking Neural Network Systems](https://arxiv.org/abs/2402.11322) | SpikeNAS提出了一种快速内存感知神经架构搜索框架，旨在帮助脉冲神经网络系统快速找到在给定内存预算下高准确性的适当架构。 |
+| [^2] | [EdgeQAT: Entropy and Distribution Guided Quantization-Aware Training for the Acceleration of Lightweight LLMs on the Edge](https://arxiv.org/abs/2402.10787) | 本文提出了EdgeQAT，使用熵和分布引导的量化感知训练方法来优化轻量级LLMs，在边缘设备上实现推理加速。 |
+| [^3] | [Dataset Distillation via the Wasserstein Metric](https://arxiv.org/abs/2311.18531) | 通过引入Wasserstein距离及其重心，我们提出一种有效的数据集精炼方法，利用先验知识提高分布匹配效果，实现了新的最先进性能。 |
 
 # 详细
 
-[^1]: 通过ologs和接线图量化概念的类比
+[^1]: SpikeNAS: 一种面向脉冲神经网络系统的快速内存感知神经架构搜索框架
 
-    Quantifying analogy of concepts via ologs and wiring diagrams
+    SpikeNAS: A Fast Memory-Aware Neural Architecture Search Framework for Spiking Neural Network Systems
 
-    [https://rss.arxiv.org/abs/2402.01020](https://rss.arxiv.org/abs/2402.01020)
+    [https://arxiv.org/abs/2402.11322](https://arxiv.org/abs/2402.11322)
 
-    本文通过ologs和接线图的概念，建立了一个量化概念类比的框架，使得自主系统能够形成抽象概念，并通过图论和范畴论的技术进行比较和操作，同时使用接线图操作定义了度量和图编辑距离。
-
-    
-
-    我们在Spivak和Kent创建的本体日志(ologs)理论的基础上，定义了一种称为接线图的概念。在本文中，接线图是一个有限的有向标记图。标记对应于olog中的类型；它们也可以被解释为自主系统中传感器的读数。因此，接线图可以用作自主系统形成抽象概念的框架。我们展示了基于骨架接线图的图形形成一个范畴。这使得骨架接线图可以使用图论和范畴论的技术进行比较和操作。我们还通过使用仅适用于接线图的操作将传统的图编辑距离定义扩展到接线图的情况，从而得到了所有骨架接线图集合上的度量。最后，我们给出了一个计算由接线图表示的两个概念之间距离的扩展示例，并解释了如何将我们的框架应用于任何应用领域。
-
-    We build on the theory of ontology logs (ologs) created by Spivak and Kent, and define a notion of wiring diagrams. In this article, a wiring diagram is a finite directed labelled graph. The labels correspond to types in an olog; they can also be interpreted as readings of sensors in an autonomous system. As such, wiring diagrams can be used as a framework for an autonomous system to form abstract concepts. We show that the graphs underlying skeleton wiring diagrams form a category. This allows skeleton wiring diagrams to be compared and manipulated using techniques from both graph theory and category theory. We also extend the usual definition of graph edit distance to the case of wiring diagrams by using operations only available to wiring diagrams, leading to a metric on the set of all skeleton wiring diagrams. In the end, we give an extended example on calculating the distance between two concepts represented by wiring diagrams, and explain how to apply our framework to any applica
-    
-[^2]: 完全可微的拉格朗日卷积神经网络用于连续一致物理信息降水预报
-
-    Fully Differentiable Lagrangian Convolutional Neural Network for Continuity-Consistent Physics-Informed Precipitation Nowcasting
-
-    [https://arxiv.org/abs/2402.10747](https://arxiv.org/abs/2402.10747)
-
-    提出了一种完全可微的拉格朗日卷积神经网络模型，实现了物理信息与数据驱动学习相结合，在降水预报中表现优秀，为其他拉格朗日机器学习模型提供了新思路。
+    SpikeNAS提出了一种快速内存感知神经架构搜索框架，旨在帮助脉冲神经网络系统快速找到在给定内存预算下高准确性的适当架构。
 
     
 
-    本文提出了一种卷积神经网络模型，用于降水预报，结合了数据驱动学习和基于物理信息的领域知识。我们提出了LUPIN，即用于物理信息的拉格朗日双U-Net的现在预报，借鉴了现有的基于外推的预报方法，并以完全可微且GPU加速的方式实现了数据的拉格朗日坐标系转换，以允许实时端到端训练和推断。根据我们的评估，LUPIN与并超过了所选择基准的性能，为其他拉格朗日机器学习模型敞开了大门。
+    脉冲神经网络（SNN）为解决机器学习任务提供了实现超低功耗计算的有前途的解决方案。目前，大多数SNN架构都源自人工神经网络，其神经元的架构和操作与SNN不同，或者在不考虑来自底层处理硬件的内存预算的情况下开发。这些限制阻碍了SNN在准确性和效率方面充分发挥潜力。为此，我们提出了SpikeNAS，一种新颖的内存感知神经架构搜索（NAS）框架，可在给定内存预算下快速找到一个具有高准确性的适当SNN架构。为实现这一目标，我们的SpikeNAS采用了几个关键步骤：分析网络操作对准确性的影响，增强网络架构以提高学习质量，并开发快速内存感知搜索算法。
 
-    arXiv:2402.10747v1 Announce Type: cross  Abstract: This paper presents a convolutional neural network model for precipitation nowcasting that combines data-driven learning with physics-informed domain knowledge. We propose LUPIN, a Lagrangian Double U-Net for Physics-Informed Nowcasting, that draws from existing extrapolation-based nowcasting methods and implements the Lagrangian coordinate system transformation of the data in a fully differentiable and GPU-accelerated manner to allow for real-time end-to-end training and inference. Based on our evaluation, LUPIN matches and exceeds the performance of the chosen benchmark, opening the door for other Lagrangian machine learning models.
+    arXiv:2402.11322v1 Announce Type: cross  Abstract: Spiking Neural Networks (SNNs) offer a promising solution to achieve ultra low-power/energy computation for solving machine learning tasks. Currently, most of the SNN architectures are derived from Artificial Neural Networks whose neurons' architectures and operations are different from SNNs, or developed without considering memory budgets from the underlying processing hardware. These limitations hinder the SNNs from reaching their full potential in accuracy and efficiency. Towards this, we propose SpikeNAS, a novel memory-aware neural architecture search (NAS) framework for SNNs that can quickly find an appropriate SNN architecture with high accuracy under the given memory budgets. To do this, our SpikeNAS employs several key steps: analyzing the impacts of network operations on the accuracy, enhancing the network architecture to improve the learning quality, and developing a fast memory-aware search algorithm. The experimental resul
     
-[^3]: 行动中的现实主义：使用YOLOv8和DeiT从医学图像中诊断脑肿瘤的异常感知
+[^2]: EdgeQAT: 熵和分布引导的量化感知训练，用于加速轻量级LLMs在边缘设备上的应用
 
-    Realism in Action: Anomaly-Aware Diagnosis of Brain Tumors from Medical Images Using YOLOv8 and DeiT. (arXiv:2401.03302v1 [eess.IV])
+    EdgeQAT: Entropy and Distribution Guided Quantization-Aware Training for the Acceleration of Lightweight LLMs on the Edge
 
-    [http://arxiv.org/abs/2401.03302](http://arxiv.org/abs/2401.03302)
+    [https://arxiv.org/abs/2402.10787](https://arxiv.org/abs/2402.10787)
 
-    本研究利用深度学习技术在具有挑战性的情况下检测和分类脑肿瘤，并解决了在罕见情况下的肿瘤检测问题。研究使用了来自国家脑映射实验室的数据集，通过修改样本数量和患者分布，使模型能够应对真实世界场景中的异常情况。
-
-    
-
-    在医学科学领域，由于脑肿瘤在患者中的罕见程度，可靠地检测和分类脑肿瘤仍然是一个艰巨的挑战。因此，在异常情况下检测肿瘤的能力对于确保及时干预和改善患者结果至关重要。本研究利用深度学习技术在具有挑战性的情况下检测和分类脑肿瘤。来自国家脑映射实验室（NBML）的精选数据集包括81名患者，其中包括30例肿瘤病例和51例正常病例。检测和分类流程被分为两个连续的任务。检测阶段包括全面的数据分析和预处理，以修改图像样本和每个类别的患者数量，以符合真实世界场景中的异常分布（9个正常样本对应1个肿瘤样本）。此外，在测试中除了常见的评估指标外，我们还采用了... [摘要长度已达到上限]
-
-    In the field of medical sciences, reliable detection and classification of brain tumors from images remains a formidable challenge due to the rarity of tumors within the population of patients. Therefore, the ability to detect tumors in anomaly scenarios is paramount for ensuring timely interventions and improved patient outcomes. This study addresses the issue by leveraging deep learning (DL) techniques to detect and classify brain tumors in challenging situations. The curated data set from the National Brain Mapping Lab (NBML) comprises 81 patients, including 30 Tumor cases and 51 Normal cases. The detection and classification pipelines are separated into two consecutive tasks. The detection phase involved comprehensive data analysis and pre-processing to modify the number of image samples and the number of patients of each class to anomaly distribution (9 Normal per 1 Tumor) to comply with real world scenarios. Next, in addition to common evaluation metrics for the testing, we emplo
-    
-[^4]: "垃圾DNA假设：通过稀疏性对LLM预训练权重进行任务中心角度分析"
-
-    Junk DNA Hypothesis: A Task-Centric Angle of LLM Pre-trained Weights through Sparsity. (arXiv:2310.02277v1 [cs.LG])
-
-    [http://arxiv.org/abs/2310.02277](http://arxiv.org/abs/2310.02277)
-
-    本文研究通过稀疏性分析LLM预训练权重的任务中心角度，挑战了传统对于权重中冗余性的观点，并提出了"垃圾DNA假设"。
+    本文提出了EdgeQAT，使用熵和分布引导的量化感知训练方法来优化轻量级LLMs，在边缘设备上实现推理加速。
 
     
 
-    传统对"垃圾DNA"的概念长期以来与人类基因组中的非编码片段相关联，占其组成的大约98%。然而，最近的研究揭示了一些这些看似无功能的DNA序列在细胞过程中起到的关键作用。有趣的是，深度神经网络中的权重与人类基因中观察到的冗余性有着显著的相似性。人们认为，庞大模型中的权重包含了过多的冗余，可以在不影响性能的情况下去除。本文通过提出一个令人信服的反论来挑战这个传统观点。我们使用稀疏性作为一种工具，来独立而准确地量化预训练大语言模型(LLM)中低幅度权重的细微重要性，从下游任务中心的角度理解它们包含的知识。我们提出了支持我们深入研究的"垃圾DNA假设"。
+    尽管大型语言模型（LLMs）在各个领域取得了显著进展，但由于其庞大的参数和计算量，LLMs在边缘设备上的广泛应用受到限制。为了解决这一问题，通常采用量化方法生成具有高效计算和快速推理的轻量级LLMs。然而，后训练量化（PTQ）方法在将权重、激活和KV缓存一起量化至8位以下时，质量会急剧下降。此外，许多量化感知训练（QAT）工作对模型权重进行量化，而激活未被触及，这不能充分发挥量化对边缘端推理加速的潜力。在本文中，我们提出了EdgeQAT，即熵和分布引导的QAT，用于优化轻量级LLMs以实现在边缘设备上的推理加速。我们首先确定量化性能下降主要源自信息
 
-    The traditional notion of "Junk DNA" has long been linked to non-coding segments within the human genome, constituting roughly 98% of its composition. However, recent research has unveiled the critical roles some of these seemingly non-functional DNA sequences play in cellular processes. Intriguingly, the weights within deep neural networks exhibit a remarkable similarity to the redundancy observed in human genes. It was believed that weights in gigantic models contained excessive redundancy, and could be removed without compromising performance. This paper challenges this conventional wisdom by presenting a compelling counter-argument. We employ sparsity as a tool to isolate and quantify the nuanced significance of low-magnitude weights in pre-trained large language models (LLMs). Our study demonstrates a strong correlation between these weight magnitudes and the knowledge they encapsulate, from a downstream task-centric angle. we raise the "Junk DNA Hypothesis" backed by our in-depth
+    arXiv:2402.10787v1 Announce Type: cross  Abstract: Despite the remarkable strides of Large Language Models (LLMs) in various fields, the wide applications of LLMs on edge devices are limited due to their massive parameters and computations. To address this, quantization is commonly adopted to generate lightweight LLMs with efficient computations and fast inference. However, Post-Training Quantization (PTQ) methods dramatically degrade in quality when quantizing weights, activations, and KV cache together to below 8 bits. Besides, many Quantization-Aware Training (QAT) works quantize model weights, leaving the activations untouched, which do not fully exploit the potential of quantization for inference acceleration on the edge. In this paper, we propose EdgeQAT, the Entropy and Distribution Guided QAT for the optimization of lightweight LLMs to achieve inference acceleration on Edge devices. We first identify that the performance drop of quantization primarily stems from the information
     
-[^5]: 实现扩展扩展扩散模型的可控性
+[^3]: 通过Wasserstein度量进行数据集精炼
 
-    Towards Enhanced Controllability of Diffusion Models. (arXiv:2302.14368v2 [cs.CV] UPDATED)
+    Dataset Distillation via the Wasserstein Metric
 
-    [http://arxiv.org/abs/2302.14368](http://arxiv.org/abs/2302.14368)
+    [https://arxiv.org/abs/2311.18531](https://arxiv.org/abs/2311.18531)
 
-    本文介绍了一种基于条件输入的扩散模型，利用两个潜在编码控制生成过程中的空间结构和语义风格，提出了两种通用采样技术和时间步相关的潜在权重调度，实现了对生成过程的更好控制。
+    通过引入Wasserstein距离及其重心，我们提出一种有效的数据集精炼方法，利用先验知识提高分布匹配效果，实现了新的最先进性能。
 
     
 
-    去噪扩散模型在生成逼真、高质量和多样化图像方面表现出卓越能力。然而，在生成过程中的可控程度尚未得到充分探讨。受基于GAN潜在空间的图像操纵技术启发，我们训练了一个条件于两个潜在编码、一个空间内容掩码和一个扁平的样式嵌入的扩散模型。我们依赖于扩散模型渐进去噪过程的感性偏置，在空间结构掩码中编码姿势/布局信息，在样式代码中编码语义/样式信息。我们提出了两种通用的采样技术来改善可控性。我们扩展了可组合的扩散模型，允许部分依赖于条件输入，以提高生成质量，同时还提供对每个潜在代码和它们的联合分布量的控制。我们还提出了时间步相关的内容和样式潜在权重调度，进一步提高了控制性。
+    数据集精炼（DD）作为一种强大的策略，将大型数据集的丰富信息封装为明显更小的合成等价物，从而在减少计算开销的同时保留模型性能。为实现这一目标，我们引入了Wasserstein距离，这是一种基于最优输运理论的度量，用于增强DD中的分布匹配。我们的方法利用Wasserstein重心提供了一种在量化分布差异和高效捕获分布集合中心的几何意义方法。通过在预训练分类模型的特征空间中嵌入合成数据，我们促进了有效的分布匹配，利用这些模型固有的先验知识。我们的方法不仅保持了基于分布匹配的技术的计算优势，而且在一系列任务中实现了新的最先进性能。
 
-    Denoising Diffusion models have shown remarkable capabilities in generating realistic, high-quality and diverse images. However, the extent of controllability during generation is underexplored. Inspired by techniques based on GAN latent space for image manipulation, we train a diffusion model conditioned on two latent codes, a spatial content mask and a flattened style embedding. We rely on the inductive bias of the progressive denoising process of diffusion models to encode pose/layout information in the spatial structure mask and semantic/style information in the style code. We propose two generic sampling techniques for improving controllability. We extend composable diffusion models to allow for some dependence between conditional inputs, to improve the quality of generations while also providing control over the amount of guidance from each latent code and their joint distribution. We also propose timestep dependent weight scheduling for content and style latents to further impro
+    arXiv:2311.18531v2 Announce Type: replace-cross  Abstract: Dataset Distillation (DD) emerges as a powerful strategy to encapsulate the expansive information of large datasets into significantly smaller, synthetic equivalents, thereby preserving model performance with reduced computational overhead. Pursuing this objective, we introduce the Wasserstein distance, a metric grounded in optimal transport theory, to enhance distribution matching in DD. Our approach employs the Wasserstein barycenter to provide a geometrically meaningful method for quantifying distribution differences and capturing the centroid of distribution sets efficiently. By embedding synthetic data in the feature spaces of pretrained classification models, we facilitate effective distribution matching that leverages prior knowledge inherent in these models. Our method not only maintains the computational advantages of distribution matching-based techniques but also achieves new state-of-the-art performance across a ran
     
 
