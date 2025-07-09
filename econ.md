@@ -2,82 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Equitable screening](https://arxiv.org/abs/2402.08781) | 这项研究探讨了政府在考虑公平性的情况下提供福利并进行筛选的问题。研究结果表明，虽然政府无法通过单一工具进行公平筛选，但通过结合多种工具，可以实现筛选并产生公平的分配。 |
-| [^2] | [Realized Stochastic Volatility Model with Skew-t Distributions for Improved Volatility and Quantile Forecasting.](http://arxiv.org/abs/2401.13179) | 这项研究提出了一种改进的随机波动性模型-实现随机波动性模型，通过将实现波动性作为精确的波动性估计器，以捕捉收益分布中的偏度和重尾巴特征，提供了更好的波动性和分位数预测能力。 |
-| [^3] | [Human-AI Interactions and Societal Pitfalls.](http://arxiv.org/abs/2309.10448) | 本研究研究了人工智能与人类互动中面临的同质化和偏见问题，提出了改善人工智能与人类互动的解决办法，实现个性化输出而不牺牲生产力。 |
-| [^4] | [Selling Multiple Complements with Packaging Costs.](http://arxiv.org/abs/2306.14247) | 研究了一种以包装成本为代价的多个互补品的销售，提出了一种社会福利最大化的密封式竞标拍卖，保证公平透明的定价并具有对市场集中的偏好。 |
-| [^5] | [Consumption Partial Insurance in the Presence of Tail Income Risk.](http://arxiv.org/abs/2306.13208) | 该研究测量了收入冲击对消费保险的影响程度，证实尾部收入风险对消费具有重要影响，收入负面冲击对消费的传导率大于正面冲击。 |
+| [^1] | [Optimality of weighted contracts for multi-agent contract design with a budget](https://arxiv.org/abs/2402.15890) | 主体与多个代理的合同设计中，加权合同是最优的选择，可以通过为代理分配正权重和优先级水平来实现最大化代理的成功概率。 |
+| [^2] | [A Quantile Nelson-Siegel model.](http://arxiv.org/abs/2401.09874) | 提出了一个基于分位数回归的新型动态三因子模型，能够对收益率的整个条件分布进行建模，并揭示了收益率之间的显著异质性。 |
+| [^3] | [Information Design in Games: Certification Approach.](http://arxiv.org/abs/2202.10883) | 该论文提出了一种认证方法，用于游戏中的信息设计。研究发现，在设计师期望的贝叶斯纳什均衡中诱导出来的信息结构也可以通过辅助合同问题诱导出来。该方法适用于解决投资游戏和价格竞争游戏中的问题，并得到了稳健最优的解决方法。 |
 
 # 详细
 
-[^1]: 公平筛选
+[^1]: 带预算的多代理合同设计中加权合同的最优性
 
-    Equitable screening
+    Optimality of weighted contracts for multi-agent contract design with a budget
 
-    [https://arxiv.org/abs/2402.08781](https://arxiv.org/abs/2402.08781)
+    [https://arxiv.org/abs/2402.15890](https://arxiv.org/abs/2402.15890)
 
-    这项研究探讨了政府在考虑公平性的情况下提供福利并进行筛选的问题。研究结果表明，虽然政府无法通过单一工具进行公平筛选，但通过结合多种工具，可以实现筛选并产生公平的分配。
-
-    
-
-    我研究了政府在考虑结果分配的公平性时提供福利的问题。这些关注通过公平性限制来建模，要求应该平等地给予平等值得的代理人分配。我研究了哪些筛选形式与公平相容，并展示了虽然政府无法通过单一工具（如支付或等待时间）进行公平筛选，但将多个工具结合起来，这些工具本身就有利于不同的群体，可以实现筛选同时产生公平的分配。
-
-    arXiv:2402.08781v1 Announce Type: new Abstract: I study the problem of a government providing benefits while considering the perceived equity of the resulting allocation. Such concerns are modeled through an equity constraint requiring that equally deserving agents receive equal allocations. I ask what forms of screening are compatible with equity and show that while the government cannot equitably screen with a single instrument (e.g. payments or wait times), combining multiple instruments, which on their own favor different groups, allows it to screen while still producing an equitable allocation.
-    
-[^2]: 基于偏t分布的实现随机波动性模型为改善波动性和分位数预测
-
-    Realized Stochastic Volatility Model with Skew-t Distributions for Improved Volatility and Quantile Forecasting. (arXiv:2401.13179v1 [econ.EM])
-
-    [http://arxiv.org/abs/2401.13179](http://arxiv.org/abs/2401.13179)
-
-    这项研究提出了一种改进的随机波动性模型-实现随机波动性模型，通过将实现波动性作为精确的波动性估计器，以捕捉收益分布中的偏度和重尾巴特征，提供了更好的波动性和分位数预测能力。
+    主体与多个代理的合同设计中，加权合同是最优的选择，可以通过为代理分配正权重和优先级水平来实现最大化代理的成功概率。
 
     
 
-    预测金融收益的波动性和分位数对于准确测量金融尾部风险，如风险价值和预期损失至关重要。这些预测中的关键要素包括理解金融收益的分布并准确估计波动性。本文引入了传统随机波动性模型的一种改进，称为实现随机波动性模型，它将实现波动性作为波动性的精确估计器。为了捕捉收益分布的众所周知的特征，即偏度和重尾巴，我们采用了三种类型的偏t分布。其中两种分布具有偏态正常特征，在建模收益分布方面提供了更大的灵活性。我们采用贝叶斯估计方法和马尔科夫链蒙特卡罗方法，对主要股指进行了应用。我们的实证分析利用了美国和日本股指数据，结果表明实现随机波动性模型相对于传统随机波动性模型在波动性和分位数预测上更具优势。
+    我们研究了一个主体与多个代理之间的合同设计问题。每个代理参与一个独立任务，结果为成功或失败，代理可以付出代价努力提高成功的概率，主体有固定预算，可以为代理提供与结果相关的奖励。关键是，我们假设主体只关心最大化代理的成功概率，而不关心预算的支出量。我们首先证明了对于某些目标，合同只有当它是成功一切的合同才是最优的。这个结果的一个直接推论是，在这种设定下，计件合同和奖金池合同从来不是最优的。然后我们证明，对于任何目标，存在一个最优的基于优先级加权的合同，这个合同为代理分配正权重和优先级水平，并将预算分配给最高优先级的成功代理。
 
-    Forecasting volatility and quantiles of financial returns is essential for accurately measuring financial tail risks, such as value-at-risk and expected shortfall. The critical elements in these forecasts involve understanding the distribution of financial returns and accurately estimating volatility. This paper introduces an advancement to the traditional stochastic volatility model, termed the realized stochastic volatility model, which integrates realized volatility as a precise estimator of volatility. To capture the well-known characteristics of return distribution, namely skewness and heavy tails, we incorporate three types of skew-t distributions. Among these, two distributions include the skew-normal feature, offering enhanced flexibility in modeling the return distribution. We employ a Bayesian estimation approach using the Markov chain Monte Carlo method and apply it to major stock indices. Our empirical analysis, utilizing data from US and Japanese stock indices, indicates t
+    arXiv:2402.15890v1 Announce Type: new  Abstract: We study a contract design problem between a principal and multiple agents. Each agent participates in an independent task with binary outcomes (success or failure), in which it may exert costly effort towards improving its probability of success, and the principal has a fixed budget which it can use to provide outcome-dependent rewards to the agents. Crucially, we assume the principal cares only about maximizing the agents' probabilities of success, not how much of the budget it expends. We first show that a contract is optimal for some objective if and only if it is a successful-get-everything contract. An immediate consequence of this result is that piece-rate contracts and bonus-pool contracts are never optimal in this setting. We then show that for any objective, there is an optimal priority-based weighted contract, which assigns positive weights and priority levels to the agents, and splits the budget among the highest-priority suc
     
-[^3]: 人工智能与人类互动以及社会陷阱
+[^2]: 一个分位数Nelson-Siegel模型
 
-    Human-AI Interactions and Societal Pitfalls. (arXiv:2309.10448v1 [cs.AI])
+    A Quantile Nelson-Siegel model. (arXiv:2401.09874v1 [stat.AP])
 
-    [http://arxiv.org/abs/2309.10448](http://arxiv.org/abs/2309.10448)
+    [http://arxiv.org/abs/2401.09874](http://arxiv.org/abs/2401.09874)
 
-    本研究研究了人工智能与人类互动中面临的同质化和偏见问题，提出了改善人工智能与人类互动的解决办法，实现个性化输出而不牺牲生产力。
-
-    
-
-    当与生成式人工智能（AI）合作时，用户可能会看到生产力的提升，但AI生成的内容可能不完全符合他们的偏好。为了研究这种影响，我们引入了一个贝叶斯框架，其中异质用户选择与AI共享多少信息，面临输出保真度和通信成本之间的权衡。我们展示了这些个体决策与AI训练之间的相互作用可能导致社会挑战。输出可能变得更加同质化，特别是当AI在AI生成的内容上进行训练时。而任何AI的偏见可能成为社会偏见。解决同质化和偏见问题的办法是改进人工智能与人类的互动，实现个性化输出而不牺牲生产力。
-
-    When working with generative artificial intelligence (AI), users may see productivity gains, but the AI-generated content may not match their preferences exactly. To study this effect, we introduce a Bayesian framework in which heterogeneous users choose how much information to share with the AI, facing a trade-off between output fidelity and communication cost. We show that the interplay between these individual-level decisions and AI training may lead to societal challenges. Outputs may become more homogenized, especially when the AI is trained on AI-generated content. And any AI bias may become societal bias. A solution to the homogenization and bias issues is to improve human-AI interactions, enabling personalized outputs without sacrificing productivity.
-    
-[^4]: 以包装成本为代价的多个互补品的销售
-
-    Selling Multiple Complements with Packaging Costs. (arXiv:2306.14247v1 [econ.TH])
-
-    [http://arxiv.org/abs/2306.14247](http://arxiv.org/abs/2306.14247)
-
-    研究了一种以包装成本为代价的多个互补品的销售，提出了一种社会福利最大化的密封式竞标拍卖，保证公平透明的定价并具有对市场集中的偏好。
+    提出了一个基于分位数回归的新型动态三因子模型，能够对收益率的整个条件分布进行建模，并揭示了收益率之间的显著异质性。
 
     
 
-    本文研究了一种包装分配问题，其中多个不可分割物品分配给个人。卖方将分配偏好规定为包装上的成本节省。作者提出了一个社会福利最大化的密封式竞标拍卖，使用新颖的成本函数图表达卖方偏好，促进使用线性规划找到匿名、有竞争性、包线性价格。如果代理按实情竞标，这些价格支持瓦尔拉斯均衡。作者提供了瓦尔拉斯均衡的必要条件和充分条件，并且拍卖保证公平透明的定价并具有对市场集中的偏好。
+    建立了一个基于分位数回归的新型动态三因子模型，以解决传统宏观经济变量与收益率曲线之间相互作用建模的问题。该方法利用分位数回归的潜力来建模收益率的整个条件分布，而不仅限于其均值。对20世纪70年代的美国数据进行了应用，并显示出收益率之间的显著异质性。
 
-    I consider a package assignment problem where multiple units of indivisible items are allocated among individuals. The seller specifies allocation preferences as cost savings on packages. I propose a social welfare maximising, sealed-bid auction with a novel cost function graph to express seller preferences. It facilitates the use of linear programming to find anonymous, competitive, package-linear prices. If agents bid truthfully, these prices support a Walrasian equilibrium. I provide necessary and sufficient conditions, and additional sufficient conditions, for the existence of Walrasian equilibria. The auction guarantees fair and transparent pricing and admits preferences over the market concentration.
+    A widespread approach to modelling the interaction between macroeconomic variables and the yield curve relies on three latent factors usually interpreted as the level, slope, and curvature (Diebold et al., 2006). This approach is inherently focused on the conditional mean of the yields and postulates a dynamic linear model where the latent factors smoothly change over time. However, periods of deep crisis, such as the Great Recession and the recent pandemic, have highlighted the importance of statistical models that account for asymmetric shocks and are able to forecast the tails of a variable's distribution. A new version of the dynamic three-factor model is proposed to address this issue based on quantile regressions. The novel approach leverages the potential of quantile regression to model the entire (conditional) distribution of the yields instead of restricting to its mean. An application to US data from the 1970s shows the significant heterogeneity of the interactions between fi
     
-[^5]: 在尾部收入风险的存在下，消费部分保险
+[^3]: 游戏中的信息设计: 认证方法
 
-    Consumption Partial Insurance in the Presence of Tail Income Risk. (arXiv:2306.13208v1 [econ.GN])
+    Information Design in Games: Certification Approach. (arXiv:2202.10883v3 [econ.TH] UPDATED)
 
-    [http://arxiv.org/abs/2306.13208](http://arxiv.org/abs/2306.13208)
+    [http://arxiv.org/abs/2202.10883](http://arxiv.org/abs/2202.10883)
 
-    该研究测量了收入冲击对消费保险的影响程度，证实尾部收入风险对消费具有重要影响，收入负面冲击对消费的传导率大于正面冲击。
+    该论文提出了一种认证方法，用于游戏中的信息设计。研究发现，在设计师期望的贝叶斯纳什均衡中诱导出来的信息结构也可以通过辅助合同问题诱导出来。该方法适用于解决投资游戏和价格竞争游戏中的问题，并得到了稳健最优的解决方法。
 
     
 
-    我们通过考虑收入分布高阶矩的影响，衡量了收入冲击对消费保险的影响程度。我们导出了一个非线性消费函数，其中保险程度随着收入冲击的符号和大小而变化。利用PSID数据，我们估计了坏的相对于好的永久性冲击的非对称传导率-- 3 sigma负冲击的的17%传导到消费，而相同大小的正冲击只有9%传导到消费-- 随着冲击恶化，传导率增加。我们的结果与对假想事件消费反应的调查一致，并表明尾部收入风险对消费具有重要影响。
+    多个参与者在具有连续动作的游戏中参与。设计师选择一种信息结构--一个状态和私有信号的联合分布，并根据在引起贝叶斯纳什均衡中的预期设计师回报来评估它。我们表明，当信息结构还可以在辅助合同问题中诱导出纳什均衡时，该信息结构是设计师最优的。这一发现引发了一个可处理的解决方法，我们用它来研究两个新的应用。在一个投资游戏中，最优结构向单个投资者提供完全信息，但对其他投资者不提供任何信息。这种结构在任何状态分布和投资者数量下都是稳健最优的。在一个价格竞争游戏中，最优结构是高斯的，并且在状态中线性推荐价格。这种结构是唯一最优的。
 
-    We measure the extent of consumption insurance to income shocks accounting for high-order moments of the income distribution. We derive a nonlinear consumption function, in which the extent of insurance varies with the sign and magnitude of income shocks. Using PSID data, we estimate an asymmetric pass-through of bad versus good permanent shocks -- 17% of a 3 sigma negative shock transmits to consumption compared to 9% of an equal-sized positive shock -- and the pass-through increases as the shock worsens. Our results are consistent with surveys of consumption responses to hypothetical events and suggest that tail income risk matters substantially for consumption.
+    Several players participate in a game with a continuum of actions. A designer chooses an information structure -- a joint distribution of a state and private signals -- and evaluates it according to the expected designer's payoff in the induced Bayes Nash equilibrium. We show an information structure is designer-optimal whenever the equilibrium play it induces can also be induced in an auxiliary contracting problem.  This finding gives rise to a tractable solution method, which we use to study two novel applications. In an investment game, an optimal structure fully informs a single investor while providing no information to others. This structure is robustly optimal, for any state distribution and number of investors. In a price competition game, an optimal structure is Gaussian and recommends prices linearly in the state. This structure is uniquely optimal.
     
 
