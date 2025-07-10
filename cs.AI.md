@@ -2,67 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [GreeDy and CoDy: Counterfactual Explainers for Dynamic Graphs](https://arxiv.org/abs/2403.16846) | 该论文介绍了两种针对动态图的新颖反事实解释方法：GreeDy和CoDy。实验证明，CoDy在寻找重要反事实输入方面表现优异，成功率高达59%。 |
-| [^2] | [Optimal Transport for Domain Adaptation through Gaussian Mixture Models](https://arxiv.org/abs/2403.13847) | 通过高斯混合模型进行域自适应的最优输运，可以实现源域和目标域混合成分之间的匹配，从而在失效诊断中取得最先进的性能。 |
-| [^3] | [Federated Complex Qeury Answering](https://arxiv.org/abs/2402.14609) | 研究了在多源知识图谱上回答复杂查询的联邦式方法，解决了知识图谱中的隐私保护和答案检索的挑战 |
-| [^4] | [Do deep neural networks have an inbuilt Occam's razor?.](http://arxiv.org/abs/2304.06670) | 该研究利用基于函数先验的贝叶斯视角来研究深度神经网络（DNNs）的表现来源，结果表明DNNs之所以成功，是因为它对于具有结构的数据，具备一种内在的奥卡姆剃刀式的归纳偏差，足以抵消函数数量及复杂度的指数级增长。 |
+| [^1] | [Semantic Augmentation in Images using Language](https://arxiv.org/abs/2404.02353) | 深度学习模型需要大规模标记数据集，本文提出利用生成图像增强数据集以改进模型跨领域泛化能力。 |
+| [^2] | [Geometric Constraints in Deep Learning Frameworks: A Survey](https://arxiv.org/abs/2403.12431) | 本调查研究了几何约束和深度学习框架之间的重合部分，比较了深度估计等问题中集成在深度学习框架中的几何强制约束。 |
+| [^3] | [Rethinking Class-incremental Learning in the Era of Large Pre-trained Models via Test-Time Adaptation.](http://arxiv.org/abs/2310.11482) | 本研究提出了一种名为“增量学习的测试时适应”的方法，通过在测试实例上进行微调，避免了在每个新任务上进行训练，从而在增量学习中实现了预训练模型的稳定性和可塑性的平衡。 |
+| [^4] | [Stepwise functional refoundation of relational concept analysis.](http://arxiv.org/abs/2310.06441) | 逐步功能重构的关系概念分析（RCA）是形式概念分析的扩展，通过定义良构解决方案的空间和相关函数，解决了RCA在循环依赖数据上返回单一概念格家族的问题。 |
+| [^5] | [Provably Efficient Learning in Partially Observable Contextual Bandit.](http://arxiv.org/abs/2308.03572) | 本文研究了在部分可观察情境轮盘赌中的转移学习问题，提出了一种通过优化问题识别行为和奖励因果效应的方法，并利用因果约束来改进轮盘赌算法。 |
 
 # 详细
 
-[^1]: GreeDy和CoDy：动态图的反事实解释器
+[^1]: 利用语言在图像中进行语义增强
 
-    GreeDy and CoDy: Counterfactual Explainers for Dynamic Graphs
+    Semantic Augmentation in Images using Language
 
-    [https://arxiv.org/abs/2403.16846](https://arxiv.org/abs/2403.16846)
+    [https://arxiv.org/abs/2404.02353](https://arxiv.org/abs/2404.02353)
 
-    该论文介绍了两种针对动态图的新颖反事实解释方法：GreeDy和CoDy。实验证明，CoDy在寻找重要反事实输入方面表现优异，成功率高达59%。
-
-    
-
-    时间图神经网络（TGNNs）对于建模具有时间变化交互的动态图至关重要，但由于其复杂的模型结构，在可解释性方面面临重大挑战。反事实解释对于理解模型决策至关重要，它研究输入图的变化如何影响结果。本文介绍了两种新颖的 TGNNs 反事实解释方法：GreeDy（动态图的贪心解释器）和 CoDy（动态图的反事实解释器）。它们将解释视为一个搜索问题，寻找改变模型预测的输入图修改。GreeDy 使用简单的贪心方法，而 CoDy 使用复杂的蒙特卡洛树搜索算法。实验证明，两种方法都能有效生成清晰的解释。值得注意的是，CoDy 的性能优于 GreeDy 和现有的事实方法，寻找到重要的反事实输入的成功率提高了高达 59\%。这突出了 CoDy 的优势。
-
-    arXiv:2403.16846v1 Announce Type: cross  Abstract: Temporal Graph Neural Networks (TGNNs), crucial for modeling dynamic graphs with time-varying interactions, face a significant challenge in explainability due to their complex model structure. Counterfactual explanations, crucial for understanding model decisions, examine how input graph changes affect outcomes. This paper introduces two novel counterfactual explanation methods for TGNNs: GreeDy (Greedy Explainer for Dynamic Graphs) and CoDy (Counterfactual Explainer for Dynamic Graphs). They treat explanations as a search problem, seeking input graph alterations that alter model predictions. GreeDy uses a simple, greedy approach, while CoDy employs a sophisticated Monte Carlo Tree Search algorithm. Experiments show both methods effectively generate clear explanations. Notably, CoDy outperforms GreeDy and existing factual methods, with up to 59\% higher success rate in finding significant counterfactual inputs. This highlights CoDy's p
-    
-[^2]: 通过高斯混合模型进行域自适应的最优输运
-
-    Optimal Transport for Domain Adaptation through Gaussian Mixture Models
-
-    [https://arxiv.org/abs/2403.13847](https://arxiv.org/abs/2403.13847)
-
-    通过高斯混合模型进行域自适应的最优输运，可以实现源域和目标域混合成分之间的匹配，从而在失效诊断中取得最先进的性能。
+    深度学习模型需要大规模标记数据集，本文提出利用生成图像增强数据集以改进模型跨领域泛化能力。
 
     
 
-    在这篇论文中，我们探讨了通过最优输运进行域自适应的方法。我们提出了一种新颖的方法，即通过高斯混合模型对数据分布进行建模。这种策略使我们能够通过等价的离散问题解决连续最优输运。最优输运解决方案为我们提供了源域和目标域混合成分之间的匹配。通过这种匹配，我们可以在域之间映射数据点，或者将标签从源域组件转移到目标域。我们在失效诊断的两个域自适应基准测试中进行了实验，结果表明我们的方法具有最先进的性能。
+    深度学习模型需要非常庞大的标记数据集进行监督学习，缺乏这些数据集会导致过拟合并限制其泛化到现实世界示例的能力。最近扩散模型的进展使得能够基于文本输入生成逼真的图像。利用用于训练这些扩散模型的大规模数据集，我们提出一种利用生成的图像来增强现有数据集的技术。本文探讨了各种有效数据增强策略，以提高深度学习模型的跨领域泛化能力。
 
-    arXiv:2403.13847v1 Announce Type: cross  Abstract: In this paper we explore domain adaptation through optimal transport. We propose a novel approach, where we model the data distributions through Gaussian mixture models. This strategy allows us to solve continuous optimal transport through an equivalent discrete problem. The optimal transport solution gives us a matching between source and target domain mixture components. From this matching, we can map data points between domains, or transfer the labels from the source domain components towards the target domain. We experiment with 2 domain adaptation benchmarks in fault diagnosis, showing that our methods have state-of-the-art performance.
+    arXiv:2404.02353v1 Announce Type: cross  Abstract: Deep Learning models are incredibly data-hungry and require very large labeled datasets for supervised learning. As a consequence, these models often suffer from overfitting, limiting their ability to generalize to real-world examples. Recent advancements in diffusion models have enabled the generation of photorealistic images based on textual inputs. Leveraging the substantial datasets used to train these diffusion models, we propose a technique to utilize generated images to augment existing datasets. This paper explores various strategies for effective data augmentation to improve the out-of-domain generalization capabilities of deep learning models.
     
-[^3]: 联邦式复杂查询答案方法研究
+[^2]: 深度学习框架中的几何约束：一项调查
 
-    Federated Complex Qeury Answering
+    Geometric Constraints in Deep Learning Frameworks: A Survey
 
-    [https://arxiv.org/abs/2402.14609](https://arxiv.org/abs/2402.14609)
+    [https://arxiv.org/abs/2403.12431](https://arxiv.org/abs/2403.12431)
 
-    研究了在多源知识图谱上回答复杂查询的联邦式方法，解决了知识图谱中的隐私保护和答案检索的挑战
-
-    
-
-    知识图谱中的复杂逻辑查询答案是一个具有挑战性的任务，已经得到广泛研究。执行复杂逻辑推理的能力是必不可少的，并支持各种基于图推理的下游任务，比如搜索引擎。最近提出了一些方法，将知识图谱实体和逻辑查询表示为嵌入向量，并从知识图谱中找到逻辑查询的答案。然而，现有的方法主要集中在查询单个知识图谱上，并不能应用于多个图形。此外，直接共享带有敏感信息的知识图谱可能会带来隐私风险，使得共享和构建一个聚合知识图谱用于推理以检索查询答案是不切实际的。因此，目前仍然不清楚如何在多源知识图谱上回答查询。一个实体可能涉及到多个知识图谱，对多个知识图谱进行推理，并在多源知识图谱上回答复杂查询对于发现知识是重要的。
-
-    arXiv:2402.14609v1 Announce Type: cross  Abstract: Complex logical query answering is a challenging task in knowledge graphs (KGs) that has been widely studied. The ability to perform complex logical reasoning is essential and supports various graph reasoning-based downstream tasks, such as search engines. Recent approaches are proposed to represent KG entities and logical queries into embedding vectors and find answers to logical queries from the KGs. However, existing proposed methods mainly focus on querying a single KG and cannot be applied to multiple graphs. In addition, directly sharing KGs with sensitive information may incur privacy risks, making it impractical to share and construct an aggregated KG for reasoning to retrieve query answers. Thus, it remains unknown how to answer queries on multi-source KGs. An entity can be involved in various knowledge graphs and reasoning on multiple KGs and answering complex queries on multi-source KGs is important in discovering knowledge 
-    
-[^4]: 深度神经网络是否具备内置的奥卡姆剃刀？
-
-    Do deep neural networks have an inbuilt Occam's razor?. (arXiv:2304.06670v1 [cs.LG])
-
-    [http://arxiv.org/abs/2304.06670](http://arxiv.org/abs/2304.06670)
-
-    该研究利用基于函数先验的贝叶斯视角来研究深度神经网络（DNNs）的表现来源，结果表明DNNs之所以成功，是因为它对于具有结构的数据，具备一种内在的奥卡姆剃刀式的归纳偏差，足以抵消函数数量及复杂度的指数级增长。
+    本调查研究了几何约束和深度学习框架之间的重合部分，比较了深度估计等问题中集成在深度学习框架中的几何强制约束。
 
     
 
-    超参数化深度神经网络（DNNs）的卓越性能必须源自于网络架构、训练算法和数据结构之间的相互作用。为了区分这三个部分，我们应用了基于DNN所表达的函数的贝叶斯视角来进行监督学习。经过网络确定的函数先验通过利用有序和混沌状态之间的转变而变化。对于布尔函数分类，我们利用函数的误差谱在数据上进行可能性的近似。当与先验相结合时，它可以精确地预测使用随机梯度下降训练的DNN的后验概率。该分析揭示了结构化数据，以及内在的奥卡姆剃刀式归纳偏差，即足以抵消复杂度随函数数量呈指数增长而产生的影响，是DNNs成功的关键。
+    Stereophotogrammetry是一种新兴的场景理解技术。其起源可以追溯到至少19世纪，当时人们开始研究使用照片来测量世界的物理属性。自那时以来，已经探索了成千上万种方法。经典几何技术的Shape from Stereo建立在使用几何来定义场景和摄像机几何的约束，然后解决非线性方程组。更近期的工作采用了完全不同的方法，使用端到端的深度学习而没有明确建模几何。在这项调查中，我们探讨了基于几何和基于深度学习框架的重叠部分。我们比较和对比了集成到深度学习框架中用于深度估计或其他密切相关问题的几何强制约束。我们提出了一种新的分类法，用于描述现代深度学习中使用的普遍几何约束。
 
-    The remarkable performance of overparameterized deep neural networks (DNNs) must arise from an interplay between network architecture, training algorithms, and structure in the data. To disentangle these three components, we apply a Bayesian picture, based on the functions expressed by a DNN, to supervised learning. The prior over functions is determined by the network, and is varied by exploiting a transition between ordered and chaotic regimes. For Boolean function classification, we approximate the likelihood using the error spectrum of functions on data. When combined with the prior, this accurately predicts the posterior, measured for DNNs trained with stochastic gradient descent. This analysis reveals that structured data, combined with an intrinsic Occam's razor-like inductive bias towards (Kolmogorov) simple functions that is strong enough to counteract the exponential growth of the number of functions with complexity, is a key to the success of DNNs.
+    arXiv:2403.12431v1 Announce Type: cross  Abstract: Stereophotogrammetry is an emerging technique of scene understanding. Its origins go back to at least the 1800s when people first started to investigate using photographs to measure the physical properties of the world. Since then, thousands of approaches have been explored. The classic geometric techniques of Shape from Stereo is built on using geometry to define constraints on scene and camera geometry and then solving the non-linear systems of equations. More recent work has taken an entirely different approach, using end-to-end deep learning without any attempt to explicitly model the geometry. In this survey, we explore the overlap for geometric-based and deep learning-based frameworks. We compare and contrast geometry enforcing constraints integrated into a deep learning framework for depth estimation or other closely related problems. We present a new taxonomy for prevalent geometry enforcing constraints used in modern deep lear
+    
+[^3]: 在大型预训练模型时代重新思考增量学习的测试时适应方法
+
+    Rethinking Class-incremental Learning in the Era of Large Pre-trained Models via Test-Time Adaptation. (arXiv:2310.11482v1 [cs.CV])
+
+    [http://arxiv.org/abs/2310.11482](http://arxiv.org/abs/2310.11482)
+
+    本研究提出了一种名为“增量学习的测试时适应”的方法，通过在测试实例上进行微调，避免了在每个新任务上进行训练，从而在增量学习中实现了预训练模型的稳定性和可塑性的平衡。
+
+    
+
+    增量学习是一个具有挑战性的任务，涉及持续学习将类别划分到新任务中，同时不会遗忘先前学到的信息。大型预训练模型的出现加快了增量学习的进展，因为高度可传输的预训练模型表示使得在调整一小组参数时，与从头开始训练的传统增量学习方法相比，可以获得最先进的性能。然而，对每个任务进行反复微调会破坏预训练模型的丰富表示，并导致遗忘之前的任务。为了在增量学习中在预训练模型的稳定性和可塑性之间取得平衡，我们提出了一种新颖的方法，即通过直接在测试实例上进行测试时适应。具体而言，我们提出了“增量学习的测试时适应”（TTACIL），它首先在每个测试实例上对预训练模型的层归一化参数进行微调。
+
+    Class-incremental learning (CIL) is a challenging task that involves continually learning to categorize classes into new tasks without forgetting previously learned information. The advent of the large pre-trained models (PTMs) has fast-tracked the progress in CIL due to the highly transferable PTM representations, where tuning a small set of parameters results in state-of-the-art performance when compared with the traditional CIL methods that are trained from scratch. However, repeated fine-tuning on each task destroys the rich representations of the PTMs and further leads to forgetting previous tasks. To strike a balance between the stability and plasticity of PTMs for CIL, we propose a novel perspective of eliminating training on every new task and instead performing test-time adaptation (TTA) directly on the test instances. Concretely, we propose "Test-Time Adaptation for Class-Incremental Learning" (TTACIL) that first fine-tunes Layer Norm parameters of the PTM on each test instan
+    
+[^4]: 逐步功能重构的关系概念分析
+
+    Stepwise functional refoundation of relational concept analysis. (arXiv:2310.06441v1 [cs.AI])
+
+    [http://arxiv.org/abs/2310.06441](http://arxiv.org/abs/2310.06441)
+
+    逐步功能重构的关系概念分析（RCA）是形式概念分析的扩展，通过定义良构解决方案的空间和相关函数，解决了RCA在循环依赖数据上返回单一概念格家族的问题。
+
+    
+
+    关系概念分析（RCA）是形式概念分析的扩展，允许同时处理多个相关的语境。它被设计用于从数据中学习描述逻辑理论，并在各种应用中使用。关于RCA的一个令人困惑的观察是，尽管数据存在循环依赖关系，它返回一个单一的概念格家族，其他解决方案可能被认为是可接受的。RCA的语义以操作方式提供，对此问题并没有提供明确的解释。在本报告中，我们将这些可接受的解决方案定义为属于初始语境确定的空间的概念格家族（良构），不能扩展新属性（饱和），并且仅涉及该家族的概念（自支持）。我们通过定义良构解决方案的空间以及该空间上的两个函数（一个扩张函数和一个收缩函数），采用功能视图来描述RCA过程。我们展示了可接受的解决方案…
+
+    Relational concept analysis (RCA) is an extension of formal concept analysis allowing to deal with several related contexts simultaneously. It has been designed for learning description logic theories from data and used within various applications. A puzzling observation about RCA is that it returns a single family of concept lattices although, when the data feature circular dependencies, other solutions may be considered acceptable. The semantics of RCA, provided in an operational way, does not shed light on this issue. In this report, we define these acceptable solutions as those families of concept lattices which belong to the space determined by the initial contexts (well-formed), cannot scale new attributes (saturated), and refer only to concepts of the family (self-supported). We adopt a functional view on the RCA process by defining the space of well-formed solutions and two functions on that space: one expansive and the other contractive. We show that the acceptable solutions a
+    
+[^5]: 在部分可观察情境轮盘赌中的可证效率学习
+
+    Provably Efficient Learning in Partially Observable Contextual Bandit. (arXiv:2308.03572v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2308.03572](http://arxiv.org/abs/2308.03572)
+
+    本文研究了在部分可观察情境轮盘赌中的转移学习问题，提出了一种通过优化问题识别行为和奖励因果效应的方法，并利用因果约束来改进轮盘赌算法。
+
+    
+
+    本文研究了在部分可观察情境轮盘赌中的转移学习问题，其中代理人仅有来自其他代理人的有限知识，并且对隐藏的混淆因素只有部分信息。我们将该问题转化为通过优化问题来识别或部分识别行为和奖励之间的因果效应。为了解决这些优化问题，我们将未知分布的原始功能约束离散化为线性约束，并通过顺序解线性规划来采样兼容的因果模型，以考虑估计误差得到因果约束。我们的采样算法为适当的采样分布提供了理想的收敛结果。然后，我们展示了如何将因果约束应用于改进经典的轮盘赌算法，并以行动集和函数空间规模为参考改变了遗憾值。值得注意的是，在允许我们处理一般情境分布的函数逼近任务中
+
+    In this paper, we investigate transfer learning in partially observable contextual bandits, where agents have limited knowledge from other agents and partial information about hidden confounders. We first convert the problem to identifying or partially identifying causal effects between actions and rewards through optimization problems. To solve these optimization problems, we discretize the original functional constraints of unknown distributions into linear constraints, and sample compatible causal models via sequentially solving linear programmings to obtain causal bounds with the consideration of estimation error. Our sampling algorithms provide desirable convergence results for suitable sampling distributions. We then show how causal bounds can be applied to improving classical bandit algorithms and affect the regrets with respect to the size of action sets and function spaces. Notably, in the task with function approximation which allows us to handle general context distributions
     
 

@@ -2,127 +2,112 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [GreeDy and CoDy: Counterfactual Explainers for Dynamic Graphs](https://arxiv.org/abs/2403.16846) | 该论文介绍了两种针对动态图的新颖反事实解释方法：GreeDy和CoDy。实验证明，CoDy在寻找重要反事实输入方面表现优异，成功率高达59%。 |
-| [^2] | [Optimal Transport for Domain Adaptation through Gaussian Mixture Models](https://arxiv.org/abs/2403.13847) | 通过高斯混合模型进行域自适应的最优输运，可以实现源域和目标域混合成分之间的匹配，从而在失效诊断中取得最先进的性能。 |
-| [^3] | [Electrocardiogram Instruction Tuning for Report Generation](https://arxiv.org/abs/2403.04945) | 提出了Multimodal ECG Instruction Tuning（MEIT）框架，首次尝试使用LLMs和多模态指导解决ECG报告生成问题，并在两个大规模ECG数据集上进行了广泛的实验评估其优越性。 |
-| [^4] | [Permutation invariant functions: statistical tests, dimension reduction in metric entropy and estimation](https://arxiv.org/abs/2403.01671) | 本文研究了如何在多元概率分布中测试排列不变性、估计排列不变密度以及分析排列不变函数类的度量熵，比较了它们与没有排列不变性的函数类的差异。 |
-| [^5] | [Federated Complex Qeury Answering](https://arxiv.org/abs/2402.14609) | 研究了在多源知识图谱上回答复杂查询的联邦式方法，解决了知识图谱中的隐私保护和答案检索的挑战 |
-| [^6] | [TopCoW: Benchmarking Topology-Aware Anatomical Segmentation of the Circle of Willis (CoW) for CTA and MRA.](http://arxiv.org/abs/2312.17670) | 这项研究提出了TopCoW挑战，通过发布具有13种血管组分注释的Willis循环（CoW）数据集，并使用虚拟现实（VR）技术进行拓扑感知解剖分割，解决了手动和耗时的CoW表征问题。 |
-| [^7] | [Annotating 8,000 Abdominal CT Volumes for Multi-Organ Segmentation in Three Weeks.](http://arxiv.org/abs/2305.09666) | 本文提出了一种高效方法在短时间内标记8000个腹部CT扫描中的8个器官，建立了迄今为止最大的多器官数据集。 |
-| [^8] | [Do deep neural networks have an inbuilt Occam's razor?.](http://arxiv.org/abs/2304.06670) | 该研究利用基于函数先验的贝叶斯视角来研究深度神经网络（DNNs）的表现来源，结果表明DNNs之所以成功，是因为它对于具有结构的数据，具备一种内在的奥卡姆剃刀式的归纳偏差，足以抵消函数数量及复杂度的指数级增长。 |
+| [^1] | [Attribution Regularization for Multimodal Paradigms](https://arxiv.org/abs/2404.02359) | 提出一种新的正则化项，鼓励多模态模型有效利用所有模态信息，以解决多模态学习中单模态模型优于多模态模型的问题。 |
+| [^2] | [Semantic Augmentation in Images using Language](https://arxiv.org/abs/2404.02353) | 深度学习模型需要大规模标记数据集，本文提出利用生成图像增强数据集以改进模型跨领域泛化能力。 |
+| [^3] | [Proximal Oracles for Optimization and Sampling](https://arxiv.org/abs/2404.02239) | 论文研究了具有非光滑函数和对数凹抽样的凸优化问题，提出了在优化和抽样中应用近端框架的方法，并建立了近端映射的迭代复杂度。 |
+| [^4] | [From Blurry to Brilliant Detection: YOLOv5-Based Aerial Object Detection with Super Resolution.](http://arxiv.org/abs/2401.14661) | 基于超分辨率和经过调整的轻量级YOLOv5架构，我们提出了一种创新的方法来解决航空影像中小而密集物体检测的挑战。我们的超分辨率YOLOv5模型采用Transformer编码器块，能够捕捉全局背景和上下文信息，从而在高密度、遮挡条件下提高检测结果。这种轻量级模型不仅准确性更高，而且资源利用效率高，非常适合实时应用。 |
+| [^5] | [Provably Efficient Learning in Partially Observable Contextual Bandit.](http://arxiv.org/abs/2308.03572) | 本文研究了在部分可观察情境轮盘赌中的转移学习问题，提出了一种通过优化问题识别行为和奖励因果效应的方法，并利用因果约束来改进轮盘赌算法。 |
+| [^6] | [PyPOTS: A Python Toolbox for Data Mining on Partially-Observed Time Series.](http://arxiv.org/abs/2305.18811) | PyPOTS是一个Python工具箱，用于对部分观测的时间序列数据进行数据挖掘和分析，包括插值、分类、聚类和预测等四个任务，算法种类繁多，适用于学术研究和工业应用。 |
+| [^7] | [From Pseudorandomness to Multi-Group Fairness and Back.](http://arxiv.org/abs/2301.08837) | 本文探索了预测算法中多组公平性和伪随机性的联系，提供了新的多校准算法和实值函数核引理证明算法。 |
 
 # 详细
 
-[^1]: GreeDy和CoDy：动态图的反事实解释器
+[^1]: 多模态范式的归因正则化
 
-    GreeDy and CoDy: Counterfactual Explainers for Dynamic Graphs
+    Attribution Regularization for Multimodal Paradigms
 
-    [https://arxiv.org/abs/2403.16846](https://arxiv.org/abs/2403.16846)
+    [https://arxiv.org/abs/2404.02359](https://arxiv.org/abs/2404.02359)
 
-    该论文介绍了两种针对动态图的新颖反事实解释方法：GreeDy和CoDy。实验证明，CoDy在寻找重要反事实输入方面表现优异，成功率高达59%。
-
-    
-
-    时间图神经网络（TGNNs）对于建模具有时间变化交互的动态图至关重要，但由于其复杂的模型结构，在可解释性方面面临重大挑战。反事实解释对于理解模型决策至关重要，它研究输入图的变化如何影响结果。本文介绍了两种新颖的 TGNNs 反事实解释方法：GreeDy（动态图的贪心解释器）和 CoDy（动态图的反事实解释器）。它们将解释视为一个搜索问题，寻找改变模型预测的输入图修改。GreeDy 使用简单的贪心方法，而 CoDy 使用复杂的蒙特卡洛树搜索算法。实验证明，两种方法都能有效生成清晰的解释。值得注意的是，CoDy 的性能优于 GreeDy 和现有的事实方法，寻找到重要的反事实输入的成功率提高了高达 59\%。这突出了 CoDy 的优势。
-
-    arXiv:2403.16846v1 Announce Type: cross  Abstract: Temporal Graph Neural Networks (TGNNs), crucial for modeling dynamic graphs with time-varying interactions, face a significant challenge in explainability due to their complex model structure. Counterfactual explanations, crucial for understanding model decisions, examine how input graph changes affect outcomes. This paper introduces two novel counterfactual explanation methods for TGNNs: GreeDy (Greedy Explainer for Dynamic Graphs) and CoDy (Counterfactual Explainer for Dynamic Graphs). They treat explanations as a search problem, seeking input graph alterations that alter model predictions. GreeDy uses a simple, greedy approach, while CoDy employs a sophisticated Monte Carlo Tree Search algorithm. Experiments show both methods effectively generate clear explanations. Notably, CoDy outperforms GreeDy and existing factual methods, with up to 59\% higher success rate in finding significant counterfactual inputs. This highlights CoDy's p
-    
-[^2]: 通过高斯混合模型进行域自适应的最优输运
-
-    Optimal Transport for Domain Adaptation through Gaussian Mixture Models
-
-    [https://arxiv.org/abs/2403.13847](https://arxiv.org/abs/2403.13847)
-
-    通过高斯混合模型进行域自适应的最优输运，可以实现源域和目标域混合成分之间的匹配，从而在失效诊断中取得最先进的性能。
+    提出一种新的正则化项，鼓励多模态模型有效利用所有模态信息，以解决多模态学习中单模态模型优于多模态模型的问题。
 
     
 
-    在这篇论文中，我们探讨了通过最优输运进行域自适应的方法。我们提出了一种新颖的方法，即通过高斯混合模型对数据分布进行建模。这种策略使我们能够通过等价的离散问题解决连续最优输运。最优输运解决方案为我们提供了源域和目标域混合成分之间的匹配。通过这种匹配，我们可以在域之间映射数据点，或者将标签从源域组件转移到目标域。我们在失效诊断的两个域自适应基准测试中进行了实验，结果表明我们的方法具有最先进的性能。
+    多模态机器学习近年来受到广泛关注，因为它能整合多个模态的信息以增强学习和决策过程。然而，通常观察到单模态模型优于多模态模型，尽管后者可以访问更丰富的信息。此外，单个模态的影响常常主导决策过程，导致性能不佳。这个研究项目旨在通过提出一种新颖的正则化项来解决这些挑战，该项鼓励多模态模型在做出决策时有效利用所有模态的信息。该项目的重点在于视频-音频领域，尽管所提出的正则化技术在涉及多个模态的体现AI研究中具有广泛应用前景。通过利用这种正则化项，提出的方法
 
-    arXiv:2403.13847v1 Announce Type: cross  Abstract: In this paper we explore domain adaptation through optimal transport. We propose a novel approach, where we model the data distributions through Gaussian mixture models. This strategy allows us to solve continuous optimal transport through an equivalent discrete problem. The optimal transport solution gives us a matching between source and target domain mixture components. From this matching, we can map data points between domains, or transfer the labels from the source domain components towards the target domain. We experiment with 2 domain adaptation benchmarks in fault diagnosis, showing that our methods have state-of-the-art performance.
+    arXiv:2404.02359v1 Announce Type: new  Abstract: Multimodal machine learning has gained significant attention in recent years due to its potential for integrating information from multiple modalities to enhance learning and decision-making processes. However, it is commonly observed that unimodal models outperform multimodal models, despite the latter having access to richer information. Additionally, the influence of a single modality often dominates the decision-making process, resulting in suboptimal performance. This research project aims to address these challenges by proposing a novel regularization term that encourages multimodal models to effectively utilize information from all modalities when making decisions. The focus of this project lies in the video-audio domain, although the proposed regularization technique holds promise for broader applications in embodied AI research, where multiple modalities are involved. By leveraging this regularization term, the proposed approach
     
-[^3]: 为报告生成调优心电图指导
+[^2]: 利用语言在图像中进行语义增强
 
-    Electrocardiogram Instruction Tuning for Report Generation
+    Semantic Augmentation in Images using Language
 
-    [https://arxiv.org/abs/2403.04945](https://arxiv.org/abs/2403.04945)
+    [https://arxiv.org/abs/2404.02353](https://arxiv.org/abs/2404.02353)
 
-    提出了Multimodal ECG Instruction Tuning（MEIT）框架，首次尝试使用LLMs和多模态指导解决ECG报告生成问题，并在两个大规模ECG数据集上进行了广泛的实验评估其优越性。
-
-    
-
-    心电图（ECG）作为心脏病情监测的主要非侵入性诊断工具，对于协助临床医生至关重要。最近的研究集中在使用ECG数据对心脏病情进行分类，但忽略了ECG报告生成，这不仅耗时，而且需要临床专业知识。为了自动化ECG报告生成并确保其多功能性，我们提出了Multimodal ECG Instruction Tuning（MEIT）框架，这是\textit{首次}尝试使用LLMs和多模态指导来解决ECG报告生成问题。为了促进未来的研究，我们建立了一个基准来评估MEIT在两个大规模ECG数据集上使用各种LLM骨干的表现。我们的方法独特地对齐了ECG信号和报告的表示，并进行了大量实验来评估MEIT与九个开源LLMs，使用了超过80万个ECG报告。MEIT的结果凸显了其优越性。
-
-    arXiv:2403.04945v1 Announce Type: new  Abstract: Electrocardiogram (ECG) serves as the primary non-invasive diagnostic tool for cardiac conditions monitoring, are crucial in assisting clinicians. Recent studies have concentrated on classifying cardiac conditions using ECG data but have overlooked ECG report generation, which is not only time-consuming but also requires clinical expertise. To automate ECG report generation and ensure its versatility, we propose the Multimodal ECG Instruction Tuning (MEIT) framework, the \textit{first} attempt to tackle ECG report generation with LLMs and multimodal instructions. To facilitate future research, we establish a benchmark to evaluate MEIT with various LLMs backbones across two large-scale ECG datasets. Our approach uniquely aligns the representations of the ECG signal and the report, and we conduct extensive experiments to benchmark MEIT with nine open source LLMs, using more than 800,000 ECG reports. MEIT's results underscore the superior p
-    
-[^4]: 排列不变函数：统计检验、度量熵中的降维和估计
-
-    Permutation invariant functions: statistical tests, dimension reduction in metric entropy and estimation
-
-    [https://arxiv.org/abs/2403.01671](https://arxiv.org/abs/2403.01671)
-
-    本文研究了如何在多元概率分布中测试排列不变性、估计排列不变密度以及分析排列不变函数类的度量熵，比较了它们与没有排列不变性的函数类的差异。
+    深度学习模型需要大规模标记数据集，本文提出利用生成图像增强数据集以改进模型跨领域泛化能力。
 
     
 
-    排列不变性是机器学习中可以利用来简化复杂问题的最常见的对称性之一。近年来关于构建排列不变的机器学习架构的研究活动激增。然而，在多元概率分布中的变量如何统计测试排列不变性却鲜有研究，其中样本量允许随着维数的增长。此外，在统计理论方面，关于排列不变性如何帮助估计中降维的知识甚少。本文通过研究几个基本问题，回顾并探讨这些问题：（i）测试多元分布排列不变性的假设；（ii）估计排列不变密度；（iii）分析光滑排列不变函数类的度量熵，并将其与未强加排列不变性的对应函数类进行比较。
+    深度学习模型需要非常庞大的标记数据集进行监督学习，缺乏这些数据集会导致过拟合并限制其泛化到现实世界示例的能力。最近扩散模型的进展使得能够基于文本输入生成逼真的图像。利用用于训练这些扩散模型的大规模数据集，我们提出一种利用生成的图像来增强现有数据集的技术。本文探讨了各种有效数据增强策略，以提高深度学习模型的跨领域泛化能力。
 
-    arXiv:2403.01671v1 Announce Type: new  Abstract: Permutation invariance is among the most common symmetry that can be exploited to simplify complex problems in machine learning (ML). There has been a tremendous surge of research activities in building permutation invariant ML architectures. However, less attention is given to how to statistically test for permutation invariance of variables in a multivariate probability distribution where the dimension is allowed to grow with the sample size. Also, in terms of a statistical theory, little is known about how permutation invariance helps with estimation in reducing dimensions. In this paper, we take a step back and examine these questions in several fundamental problems: (i) testing the assumption of permutation invariance of multivariate distributions; (ii) estimating permutation invariant densities; (iii) analyzing the metric entropy of smooth permutation invariant function classes and compare them with their counterparts without impos
+    arXiv:2404.02353v1 Announce Type: cross  Abstract: Deep Learning models are incredibly data-hungry and require very large labeled datasets for supervised learning. As a consequence, these models often suffer from overfitting, limiting their ability to generalize to real-world examples. Recent advancements in diffusion models have enabled the generation of photorealistic images based on textual inputs. Leveraging the substantial datasets used to train these diffusion models, we propose a technique to utilize generated images to augment existing datasets. This paper explores various strategies for effective data augmentation to improve the out-of-domain generalization capabilities of deep learning models.
     
-[^5]: 联邦式复杂查询答案方法研究
+[^3]: 优化和抽样的近端预言
 
-    Federated Complex Qeury Answering
+    Proximal Oracles for Optimization and Sampling
 
-    [https://arxiv.org/abs/2402.14609](https://arxiv.org/abs/2402.14609)
+    [https://arxiv.org/abs/2404.02239](https://arxiv.org/abs/2404.02239)
 
-    研究了在多源知识图谱上回答复杂查询的联邦式方法，解决了知识图谱中的隐私保护和答案检索的挑战
-
-    
-
-    知识图谱中的复杂逻辑查询答案是一个具有挑战性的任务，已经得到广泛研究。执行复杂逻辑推理的能力是必不可少的，并支持各种基于图推理的下游任务，比如搜索引擎。最近提出了一些方法，将知识图谱实体和逻辑查询表示为嵌入向量，并从知识图谱中找到逻辑查询的答案。然而，现有的方法主要集中在查询单个知识图谱上，并不能应用于多个图形。此外，直接共享带有敏感信息的知识图谱可能会带来隐私风险，使得共享和构建一个聚合知识图谱用于推理以检索查询答案是不切实际的。因此，目前仍然不清楚如何在多源知识图谱上回答查询。一个实体可能涉及到多个知识图谱，对多个知识图谱进行推理，并在多源知识图谱上回答复杂查询对于发现知识是重要的。
-
-    arXiv:2402.14609v1 Announce Type: cross  Abstract: Complex logical query answering is a challenging task in knowledge graphs (KGs) that has been widely studied. The ability to perform complex logical reasoning is essential and supports various graph reasoning-based downstream tasks, such as search engines. Recent approaches are proposed to represent KG entities and logical queries into embedding vectors and find answers to logical queries from the KGs. However, existing proposed methods mainly focus on querying a single KG and cannot be applied to multiple graphs. In addition, directly sharing KGs with sensitive information may incur privacy risks, making it impractical to share and construct an aggregated KG for reasoning to retrieve query answers. Thus, it remains unknown how to answer queries on multi-source KGs. An entity can be involved in various knowledge graphs and reasoning on multiple KGs and answering complex queries on multi-source KGs is important in discovering knowledge 
-    
-[^6]: TopCoW：基于拓扑感知解剖分割的Willis循环（CoW）在CTA和MRA中的基准测试
-
-    TopCoW: Benchmarking Topology-Aware Anatomical Segmentation of the Circle of Willis (CoW) for CTA and MRA. (arXiv:2312.17670v2 [cs.CV] UPDATED)
-
-    [http://arxiv.org/abs/2312.17670](http://arxiv.org/abs/2312.17670)
-
-    这项研究提出了TopCoW挑战，通过发布具有13种血管组分注释的Willis循环（CoW）数据集，并使用虚拟现实（VR）技术进行拓扑感知解剖分割，解决了手动和耗时的CoW表征问题。
+    论文研究了具有非光滑函数和对数凹抽样的凸优化问题，提出了在优化和抽样中应用近端框架的方法，并建立了近端映射的迭代复杂度。
 
     
 
-    Willis循环（CoW）是连接大脑主要循环的重要动脉网络。其血管结构被认为影响着严重神经血管疾病的风险、严重程度和临床结果。然而，对高度变化的CoW解剖进行表征仍然是一项需要手动和耗时的专家任务。CoW通常通过两种血管造影成像模式进行成像，即磁共振血管成像（MRA）和计算机断层血管造影（CTA），但是关于CTA的CoW解剖的公共数据集及其注释非常有限。因此，我们在2023年组织了TopCoW挑战赛，并发布了一个带有注释的CoW数据集。TopCoW数据集是第一个具有13种可能的CoW血管组分的体素级注释的公共数据集，通过虚拟现实（VR）技术实现。它也是第一个带有来自同一患者的成对MRA和CTA的大型数据集。TopCoW挑战将CoW表征问题形式化为多类问题。
+    我们考虑具有非光滑目标函数和对数凹抽样（带非光滑潜势，即负对数密度）的凸优化。特别地，我们研究了两种具体设置，其中凸目标/潜势函数要么是半光滑的，要么是复合形式，作为半光滑分量的有限和。为了克服由于非光滑性而带来的挑战，我们的算法在优化和抽样中采用了两种强大的近端框架：优化中的近端点框架和替代抽样框架（ASF），该框架在增广分布上使用Gibbs抽样。优化和抽样算法的一个关键组件是通过正则化切平面方法高效实现近端映射。我们在半光滑和复合设置中建立了近端映射的迭代复杂度。我们进一步提出了一种用于非光滑优化的自适应近端捆绑方法。
 
-    The Circle of Willis (CoW) is an important network of arteries connecting major circulations of the brain. Its vascular architecture is believed to affect the risk, severity, and clinical outcome of serious neuro-vascular diseases. However, characterizing the highly variable CoW anatomy is still a manual and time-consuming expert task. The CoW is usually imaged by two angiographic imaging modalities, magnetic resonance angiography (MRA) and computed tomography angiography (CTA), but there exist limited public datasets with annotations on CoW anatomy, especially for CTA. Therefore we organized the TopCoW Challenge in 2023 with the release of an annotated CoW dataset. The TopCoW dataset was the first public dataset with voxel-level annotations for thirteen possible CoW vessel components, enabled by virtual-reality (VR) technology. It was also the first large dataset with paired MRA and CTA from the same patients. TopCoW challenge formalized the CoW characterization problem as a multiclas
+    arXiv:2404.02239v1 Announce Type: cross  Abstract: We consider convex optimization with non-smooth objective function and log-concave sampling with non-smooth potential (negative log density). In particular, we study two specific settings where the convex objective/potential function is either semi-smooth or in composite form as the finite sum of semi-smooth components. To overcome the challenges caused by non-smoothness, our algorithms employ two powerful proximal frameworks in optimization and sampling: the proximal point framework for optimization and the alternating sampling framework (ASF) that uses Gibbs sampling on an augmented distribution. A key component of both optimization and sampling algorithms is the efficient implementation of the proximal map by the regularized cutting-plane method. We establish the iteration-complexity of the proximal map in both semi-smooth and composite settings. We further propose an adaptive proximal bundle method for non-smooth optimization. The 
     
-[^7]: 在三周内为8,000个腹部CT扫描标注多器官分割
+[^4]: 从模糊到明亮的检测：基于YOLOv5的超分辨率航空物体检测
 
-    Annotating 8,000 Abdominal CT Volumes for Multi-Organ Segmentation in Three Weeks. (arXiv:2305.09666v1 [eess.IV])
+    From Blurry to Brilliant Detection: YOLOv5-Based Aerial Object Detection with Super Resolution. (arXiv:2401.14661v1 [cs.CV])
 
-    [http://arxiv.org/abs/2305.09666](http://arxiv.org/abs/2305.09666)
+    [http://arxiv.org/abs/2401.14661](http://arxiv.org/abs/2401.14661)
 
-    本文提出了一种高效方法在短时间内标记8000个腹部CT扫描中的8个器官，建立了迄今为止最大的多器官数据集。
-
-    
-
-    医学影像标注，特别是器官分割，是费时费力的。本文提出了一种系统高效的方法来加速器官分割的标注过程。我们标注了8,448个腹部CT扫描，标记了脾脏、肝脏、肾脏、胃、胆囊、胰腺、主动脉和下腔静脉。传统的标注方法需要一位经验丰富的标注员1600周，而我们的标注方法仅用了三周。
-
-    Annotating medical images, particularly for organ segmentation, is laborious and time-consuming. For example, annotating an abdominal organ requires an estimated rate of 30-60 minutes per CT volume based on the expertise of an annotator and the size, visibility, and complexity of the organ. Therefore, publicly available datasets for multi-organ segmentation are often limited in data size and organ diversity. This paper proposes a systematic and efficient method to expedite the annotation process for organ segmentation. We have created the largest multi-organ dataset (by far) with the spleen, liver, kidneys, stomach, gallbladder, pancreas, aorta, and IVC annotated in 8,448 CT volumes, equating to 3.2 million slices. The conventional annotation methods would take an experienced annotator up to 1,600 weeks (or roughly 30.8 years) to complete this task. In contrast, our annotation method has accomplished this task in three weeks (based on an 8-hour workday, five days a week) while maintain
-    
-[^8]: 深度神经网络是否具备内置的奥卡姆剃刀？
-
-    Do deep neural networks have an inbuilt Occam's razor?. (arXiv:2304.06670v1 [cs.LG])
-
-    [http://arxiv.org/abs/2304.06670](http://arxiv.org/abs/2304.06670)
-
-    该研究利用基于函数先验的贝叶斯视角来研究深度神经网络（DNNs）的表现来源，结果表明DNNs之所以成功，是因为它对于具有结构的数据，具备一种内在的奥卡姆剃刀式的归纳偏差，足以抵消函数数量及复杂度的指数级增长。
+    基于超分辨率和经过调整的轻量级YOLOv5架构，我们提出了一种创新的方法来解决航空影像中小而密集物体检测的挑战。我们的超分辨率YOLOv5模型采用Transformer编码器块，能够捕捉全局背景和上下文信息，从而在高密度、遮挡条件下提高检测结果。这种轻量级模型不仅准确性更高，而且资源利用效率高，非常适合实时应用。
 
     
 
-    超参数化深度神经网络（DNNs）的卓越性能必须源自于网络架构、训练算法和数据结构之间的相互作用。为了区分这三个部分，我们应用了基于DNN所表达的函数的贝叶斯视角来进行监督学习。经过网络确定的函数先验通过利用有序和混沌状态之间的转变而变化。对于布尔函数分类，我们利用函数的误差谱在数据上进行可能性的近似。当与先验相结合时，它可以精确地预测使用随机梯度下降训练的DNN的后验概率。该分析揭示了结构化数据，以及内在的奥卡姆剃刀式归纳偏差，即足以抵消复杂度随函数数量呈指数增长而产生的影响，是DNNs成功的关键。
+    随着无人机和卫星技术的广泛应用，对航空影像中准确物体检测的需求大大增加。传统的物体检测模型在偏向大物体的数据集上训练，对于航空场景中普遍存在的小而密集的物体难以发挥最佳性能。为了解决这个挑战，我们提出了一种创新的方法，结合了超分辨率和经过调整的轻量级YOLOv5架构。我们使用多种数据集进行评估，包括VisDrone-2023、SeaDroneSee、VEDAI和NWPU VHR-10，以验证我们模型的性能。我们的超分辨率YOLOv5架构采用Transformer编码器块，使模型能够捕捉到全局背景和上下文信息，从而提高检测结果，特别是在高密度、遮挡条件下。这种轻量级模型不仅提供了更高的准确性，还确保了资源的有效利用，非常适合实时应用。我们的实验表明，我们的模型在航空物体检测任务中表现出色，特别是在复杂场景中。
 
-    The remarkable performance of overparameterized deep neural networks (DNNs) must arise from an interplay between network architecture, training algorithms, and structure in the data. To disentangle these three components, we apply a Bayesian picture, based on the functions expressed by a DNN, to supervised learning. The prior over functions is determined by the network, and is varied by exploiting a transition between ordered and chaotic regimes. For Boolean function classification, we approximate the likelihood using the error spectrum of functions on data. When combined with the prior, this accurately predicts the posterior, measured for DNNs trained with stochastic gradient descent. This analysis reveals that structured data, combined with an intrinsic Occam's razor-like inductive bias towards (Kolmogorov) simple functions that is strong enough to counteract the exponential growth of the number of functions with complexity, is a key to the success of DNNs.
+    The demand for accurate object detection in aerial imagery has surged with the widespread use of drones and satellite technology. Traditional object detection models, trained on datasets biased towards large objects, struggle to perform optimally in aerial scenarios where small, densely clustered objects are prevalent. To address this challenge, we present an innovative approach that combines super-resolution and an adapted lightweight YOLOv5 architecture. We employ a range of datasets, including VisDrone-2023, SeaDroneSee, VEDAI, and NWPU VHR-10, to evaluate our model's performance. Our Super Resolved YOLOv5 architecture features Transformer encoder blocks, allowing the model to capture global context and context information, leading to improved detection results, especially in high-density, occluded conditions. This lightweight model not only delivers improved accuracy but also ensures efficient resource utilization, making it well-suited for real-time applications. Our experimental 
+    
+[^5]: 在部分可观察情境轮盘赌中的可证效率学习
+
+    Provably Efficient Learning in Partially Observable Contextual Bandit. (arXiv:2308.03572v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2308.03572](http://arxiv.org/abs/2308.03572)
+
+    本文研究了在部分可观察情境轮盘赌中的转移学习问题，提出了一种通过优化问题识别行为和奖励因果效应的方法，并利用因果约束来改进轮盘赌算法。
+
+    
+
+    本文研究了在部分可观察情境轮盘赌中的转移学习问题，其中代理人仅有来自其他代理人的有限知识，并且对隐藏的混淆因素只有部分信息。我们将该问题转化为通过优化问题来识别或部分识别行为和奖励之间的因果效应。为了解决这些优化问题，我们将未知分布的原始功能约束离散化为线性约束，并通过顺序解线性规划来采样兼容的因果模型，以考虑估计误差得到因果约束。我们的采样算法为适当的采样分布提供了理想的收敛结果。然后，我们展示了如何将因果约束应用于改进经典的轮盘赌算法，并以行动集和函数空间规模为参考改变了遗憾值。值得注意的是，在允许我们处理一般情境分布的函数逼近任务中
+
+    In this paper, we investigate transfer learning in partially observable contextual bandits, where agents have limited knowledge from other agents and partial information about hidden confounders. We first convert the problem to identifying or partially identifying causal effects between actions and rewards through optimization problems. To solve these optimization problems, we discretize the original functional constraints of unknown distributions into linear constraints, and sample compatible causal models via sequentially solving linear programmings to obtain causal bounds with the consideration of estimation error. Our sampling algorithms provide desirable convergence results for suitable sampling distributions. We then show how causal bounds can be applied to improving classical bandit algorithms and affect the regrets with respect to the size of action sets and function spaces. Notably, in the task with function approximation which allows us to handle general context distributions
+    
+[^6]: PyPOTS：用于部分观测时间序列数据挖掘的Python工具箱
+
+    PyPOTS: A Python Toolbox for Data Mining on Partially-Observed Time Series. (arXiv:2305.18811v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.18811](http://arxiv.org/abs/2305.18811)
+
+    PyPOTS是一个Python工具箱，用于对部分观测的时间序列数据进行数据挖掘和分析，包括插值、分类、聚类和预测等四个任务，算法种类繁多，适用于学术研究和工业应用。
+
+    
+
+    PyPOTS是一个开源的Python库，致力于在多元部分观测时间序列数据上进行数据挖掘和分析，即针对存在缺失值的不完整时间序列，也称为不规则采样时间序列。特别地，它提供了对四个任务分类的不同算法的易用性支持：插值、分类、聚类和预测。它包含了概率方法和神经网络方法，提供了设计良好、完整文档的编程接口，供学术研究人员和工业专业人员使用。该工具包的设计理念是鲁棒性和可伸缩性，开发过程中遵循了软件构建的最佳实践，例如单元测试、持续集成（CI）和持续交付（CD）、代码覆盖率、可维护性评估、交互式教程和并行化等原则。该工具箱可在Python包索引（PyPI）和Anaconda上使用。
+
+    PyPOTS is an open-source Python library dedicated to data mining and analysis on multivariate partially-observed time series, i.e. incomplete time series with missing values, A.K.A. irregularlysampled time series. Particularly, it provides easy access to diverse algorithms categorized into four tasks: imputation, classification, clustering, and forecasting. The included models contain probabilistic approaches as well as neural-network methods, with a well-designed and fully-documented programming interface for both academic researchers and industrial professionals to use. With robustness and scalability in its design philosophy, best practices of software construction, for example, unit testing, continuous integration (CI) and continuous delivery (CD), code coverage, maintainability evaluation, interactive tutorials, and parallelization, are carried out as principles during the development of PyPOTS. The toolkit is available on both Python Package Index (PyPI) and Anaconda. PyPOTS is o
+    
+[^7]: 从伪随机性到多组公平性再到回来
+
+    From Pseudorandomness to Multi-Group Fairness and Back. (arXiv:2301.08837v3 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2301.08837](http://arxiv.org/abs/2301.08837)
+
+    本文探索了预测算法中多组公平性和伪随机性的联系，提供了新的多校准算法和实值函数核引理证明算法。
+
+    
+
+    本文探讨了预测算法中多组公平性和泄露-韧性和图形规则之间的联系，在一些参数范围内提供了新的多校准和实值函数核引理证明算法。
+
+    We identify and explore connections between the recent literature on multi-group fairness for prediction algorithms and the pseudorandomness notions of leakage-resilience and graph regularity. We frame our investigation using new, statistical distance-based variants of multicalibration that are closely related to the concept of outcome indistinguishability. Adopting this perspective leads us naturally not only to our graph theoretic results, but also to new, more efficient algorithms for multicalibration in certain parameter regimes and a novel proof of a hardcore lemma for real-valued functions.
     
 
