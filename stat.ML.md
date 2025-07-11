@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [PyPOTS: A Python Toolbox for Data Mining on Partially-Observed Time Series.](http://arxiv.org/abs/2305.18811) | PyPOTS是一个Python工具箱，用于对部分观测的时间序列数据进行数据挖掘和分析，包括插值、分类、聚类和预测等四个任务，算法种类繁多，适用于学术研究和工业应用。 |
+| [^1] | [Spectral Estimators for Structured Generalized Linear Models via Approximate Message Passing.](http://arxiv.org/abs/2308.14507) | 本论文研究了针对广义线性模型的参数估计问题，提出了一种通过谱估计器进行预处理的方法。通过对测量进行特征协方差矩阵Σ表示，分析了谱估计器在结构化设计中的性能，并确定了最优预处理以最小化样本数量。 |
 
 # 详细
 
-[^1]: PyPOTS：用于部分观测时间序列数据挖掘的Python工具箱
+[^1]: 通过近似传递消息实现结构化广义线性模型的谱估计器
 
-    PyPOTS: A Python Toolbox for Data Mining on Partially-Observed Time Series. (arXiv:2305.18811v1 [cs.LG])
+    Spectral Estimators for Structured Generalized Linear Models via Approximate Message Passing. (arXiv:2308.14507v1 [math.ST])
 
-    [http://arxiv.org/abs/2305.18811](http://arxiv.org/abs/2305.18811)
+    [http://arxiv.org/abs/2308.14507](http://arxiv.org/abs/2308.14507)
 
-    PyPOTS是一个Python工具箱，用于对部分观测的时间序列数据进行数据挖掘和分析，包括插值、分类、聚类和预测等四个任务，算法种类繁多，适用于学术研究和工业应用。
+    本论文研究了针对广义线性模型的参数估计问题，提出了一种通过谱估计器进行预处理的方法。通过对测量进行特征协方差矩阵Σ表示，分析了谱估计器在结构化设计中的性能，并确定了最优预处理以最小化样本数量。
 
     
 
-    PyPOTS是一个开源的Python库，致力于在多元部分观测时间序列数据上进行数据挖掘和分析，即针对存在缺失值的不完整时间序列，也称为不规则采样时间序列。特别地，它提供了对四个任务分类的不同算法的易用性支持：插值、分类、聚类和预测。它包含了概率方法和神经网络方法，提供了设计良好、完整文档的编程接口，供学术研究人员和工业专业人员使用。该工具包的设计理念是鲁棒性和可伸缩性，开发过程中遵循了软件构建的最佳实践，例如单元测试、持续集成（CI）和持续交付（CD）、代码覆盖率、可维护性评估、交互式教程和并行化等原则。该工具箱可在Python包索引（PyPI）和Anaconda上使用。
+    我们考虑从广义线性模型中的观测中进行参数估计的问题。谱方法是一种简单而有效的估计方法：它通过对观测进行适当预处理得到的矩阵的主特征向量来估计参数。尽管谱估计器被广泛使用，但对于结构化（即独立同分布的高斯和哈尔）设计，目前仅有对谱估计器的严格性能表征以及对数据进行预处理的基本方法可用。相反，实际的设计矩阵具有高度结构化并且表现出非平凡的相关性。为解决这个问题，我们考虑了捕捉测量的非各向同性特性的相关高斯设计，通过特征协方差矩阵Σ进行表示。我们的主要结果是对于这种情况下谱估计器性能的精确渐近分析。然后，可以通过这一结果来确定最优预处理，从而最小化所需样本的数量。
 
-    PyPOTS is an open-source Python library dedicated to data mining and analysis on multivariate partially-observed time series, i.e. incomplete time series with missing values, A.K.A. irregularlysampled time series. Particularly, it provides easy access to diverse algorithms categorized into four tasks: imputation, classification, clustering, and forecasting. The included models contain probabilistic approaches as well as neural-network methods, with a well-designed and fully-documented programming interface for both academic researchers and industrial professionals to use. With robustness and scalability in its design philosophy, best practices of software construction, for example, unit testing, continuous integration (CI) and continuous delivery (CD), code coverage, maintainability evaluation, interactive tutorials, and parallelization, are carried out as principles during the development of PyPOTS. The toolkit is available on both Python Package Index (PyPI) and Anaconda. PyPOTS is o
+    We consider the problem of parameter estimation from observations given by a generalized linear model. Spectral methods are a simple yet effective approach for estimation: they estimate the parameter via the principal eigenvector of a matrix obtained by suitably preprocessing the observations. Despite their wide use, a rigorous performance characterization of spectral estimators, as well as a principled way to preprocess the data, is available only for unstructured (i.e., i.i.d. Gaussian and Haar) designs. In contrast, real-world design matrices are highly structured and exhibit non-trivial correlations. To address this problem, we consider correlated Gaussian designs which capture the anisotropic nature of the measurements via a feature covariance matrix $\Sigma$. Our main result is a precise asymptotic characterization of the performance of spectral estimators in this setting. This then allows to identify the optimal preprocessing that minimizes the number of samples needed to meanin
     
 

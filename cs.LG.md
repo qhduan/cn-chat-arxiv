@@ -2,112 +2,127 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Attribution Regularization for Multimodal Paradigms](https://arxiv.org/abs/2404.02359) | 提出一种新的正则化项，鼓励多模态模型有效利用所有模态信息，以解决多模态学习中单模态模型优于多模态模型的问题。 |
-| [^2] | [Semantic Augmentation in Images using Language](https://arxiv.org/abs/2404.02353) | 深度学习模型需要大规模标记数据集，本文提出利用生成图像增强数据集以改进模型跨领域泛化能力。 |
-| [^3] | [Proximal Oracles for Optimization and Sampling](https://arxiv.org/abs/2404.02239) | 论文研究了具有非光滑函数和对数凹抽样的凸优化问题，提出了在优化和抽样中应用近端框架的方法，并建立了近端映射的迭代复杂度。 |
-| [^4] | [From Blurry to Brilliant Detection: YOLOv5-Based Aerial Object Detection with Super Resolution.](http://arxiv.org/abs/2401.14661) | 基于超分辨率和经过调整的轻量级YOLOv5架构，我们提出了一种创新的方法来解决航空影像中小而密集物体检测的挑战。我们的超分辨率YOLOv5模型采用Transformer编码器块，能够捕捉全局背景和上下文信息，从而在高密度、遮挡条件下提高检测结果。这种轻量级模型不仅准确性更高，而且资源利用效率高，非常适合实时应用。 |
-| [^5] | [Provably Efficient Learning in Partially Observable Contextual Bandit.](http://arxiv.org/abs/2308.03572) | 本文研究了在部分可观察情境轮盘赌中的转移学习问题，提出了一种通过优化问题识别行为和奖励因果效应的方法，并利用因果约束来改进轮盘赌算法。 |
-| [^6] | [PyPOTS: A Python Toolbox for Data Mining on Partially-Observed Time Series.](http://arxiv.org/abs/2305.18811) | PyPOTS是一个Python工具箱，用于对部分观测的时间序列数据进行数据挖掘和分析，包括插值、分类、聚类和预测等四个任务，算法种类繁多，适用于学术研究和工业应用。 |
-| [^7] | [From Pseudorandomness to Multi-Group Fairness and Back.](http://arxiv.org/abs/2301.08837) | 本文探索了预测算法中多组公平性和伪随机性的联系，提供了新的多校准算法和实值函数核引理证明算法。 |
+| [^1] | [Unifews: Unified Entry-Wise Sparsification for Efficient Graph Neural Network](https://arxiv.org/abs/2403.13268) | Unifews通过统一逐条稀疏化的方式，联合边权重稀疏化以提高学习效率，适用于不同架构设计并具有逐渐增加稀疏度的自适应压缩。 |
+| [^2] | [OVOR: OnePrompt with Virtual Outlier Regularization for Rehearsal-Free Class-Incremental Learning](https://arxiv.org/abs/2402.04129) | 这项研究提出了一种新的正则化方法，利用虚拟异常值来改善无需回顾的类增量学习过程中不同任务间的类别混淆问题，并且消除了额外的提示查询和组合计算开销。 |
+| [^3] | [Don't Push the Button! Exploring Data Leakage Risks in Machine Learning and Transfer Learning.](http://arxiv.org/abs/2401.13796) | 本文讨论了机器学习中的数据泄露问题，即未预期的信息污染训练数据，影响模型性能评估，用户可能由于缺乏理解而忽视关键步骤，导致乐观的性能估计在实际场景中不成立。 |
+| [^4] | [Spectral Estimators for Structured Generalized Linear Models via Approximate Message Passing.](http://arxiv.org/abs/2308.14507) | 本论文研究了针对广义线性模型的参数估计问题，提出了一种通过谱估计器进行预处理的方法。通过对测量进行特征协方差矩阵Σ表示，分析了谱估计器在结构化设计中的性能，并确定了最优预处理以最小化样本数量。 |
+| [^5] | [Adversarial Defenses via Vector Quantization.](http://arxiv.org/abs/2305.13651) | 该论文提出了两种基于矢量量化的新对抗性防御方法，能够在高维空间中提供理论保证和实验上的表现优势。 |
+| [^6] | [Implicit Counterfactual Data Augmentation for Deep Neural Networks.](http://arxiv.org/abs/2304.13431) | 本研究提出了隐式反事实数据增强（ICDA）方法，通过新的样本增强策略、易于计算的代理损失和具体方案，消除了虚假关联并进行了稳健预测。 |
+| [^7] | [Interpretable Anomaly Detection via Discrete Optimization.](http://arxiv.org/abs/2303.14111) | 该论文提出了一个通过学习有限自动机进行异常检测的框架，并通过约束优化算法和新的正则化方案提高了可解释性。 |
+| [^8] | [Don't Get Me Wrong: How to Apply Deep Visual Interpretations to Time Series.](http://arxiv.org/abs/2203.07861) | 该论文提出了一个针对时间序列分类和分割任务的框架，通过六个度量来评估基于梯度、传播或干扰的事后可视化解释方法。实验结果表明，这些方法对于时间序列的解释具有较高的可信度和有效性。 |
 
 # 详细
 
-[^1]: 多模态范式的归因正则化
+[^1]: Unifews：用于高效图神经网络的统一逐条稀疏化
 
-    Attribution Regularization for Multimodal Paradigms
+    Unifews: Unified Entry-Wise Sparsification for Efficient Graph Neural Network
 
-    [https://arxiv.org/abs/2404.02359](https://arxiv.org/abs/2404.02359)
+    [https://arxiv.org/abs/2403.13268](https://arxiv.org/abs/2403.13268)
 
-    提出一种新的正则化项，鼓励多模态模型有效利用所有模态信息，以解决多模态学习中单模态模型优于多模态模型的问题。
-
-    
-
-    多模态机器学习近年来受到广泛关注，因为它能整合多个模态的信息以增强学习和决策过程。然而，通常观察到单模态模型优于多模态模型，尽管后者可以访问更丰富的信息。此外，单个模态的影响常常主导决策过程，导致性能不佳。这个研究项目旨在通过提出一种新颖的正则化项来解决这些挑战，该项鼓励多模态模型在做出决策时有效利用所有模态的信息。该项目的重点在于视频-音频领域，尽管所提出的正则化技术在涉及多个模态的体现AI研究中具有广泛应用前景。通过利用这种正则化项，提出的方法
-
-    arXiv:2404.02359v1 Announce Type: new  Abstract: Multimodal machine learning has gained significant attention in recent years due to its potential for integrating information from multiple modalities to enhance learning and decision-making processes. However, it is commonly observed that unimodal models outperform multimodal models, despite the latter having access to richer information. Additionally, the influence of a single modality often dominates the decision-making process, resulting in suboptimal performance. This research project aims to address these challenges by proposing a novel regularization term that encourages multimodal models to effectively utilize information from all modalities when making decisions. The focus of this project lies in the video-audio domain, although the proposed regularization technique holds promise for broader applications in embodied AI research, where multiple modalities are involved. By leveraging this regularization term, the proposed approach
-    
-[^2]: 利用语言在图像中进行语义增强
-
-    Semantic Augmentation in Images using Language
-
-    [https://arxiv.org/abs/2404.02353](https://arxiv.org/abs/2404.02353)
-
-    深度学习模型需要大规模标记数据集，本文提出利用生成图像增强数据集以改进模型跨领域泛化能力。
+    Unifews通过统一逐条稀疏化的方式，联合边权重稀疏化以提高学习效率，适用于不同架构设计并具有逐渐增加稀疏度的自适应压缩。
 
     
 
-    深度学习模型需要非常庞大的标记数据集进行监督学习，缺乏这些数据集会导致过拟合并限制其泛化到现实世界示例的能力。最近扩散模型的进展使得能够基于文本输入生成逼真的图像。利用用于训练这些扩散模型的大规模数据集，我们提出一种利用生成的图像来增强现有数据集的技术。本文探讨了各种有效数据增强策略，以提高深度学习模型的跨领域泛化能力。
+    图神经网络（GNNs）在各种图学习任务中表现出了有希望的性能，但代价是资源密集型的计算。GNN更新的主要开销来自图传播和权重变换，两者都涉及对图规模矩阵的操作。先前的研究尝试通过利用图级别或网络级别的稀疏化技术来减少计算预算，从而产生缩小的图或权重。在这项工作中，我们提出了Unifews，它以逐个矩阵元素的方式统一了这两种操作，并进行联合边权重稀疏化以增强学习效率。Unifews的逐条设计使其能够在GNN层之间进行自适应压缩，稀疏度逐渐增加，并适用于各种架构设计，具有即时操作简化。在理论上，我们建立了一个新颖的框架来表征稀疏
 
-    arXiv:2404.02353v1 Announce Type: cross  Abstract: Deep Learning models are incredibly data-hungry and require very large labeled datasets for supervised learning. As a consequence, these models often suffer from overfitting, limiting their ability to generalize to real-world examples. Recent advancements in diffusion models have enabled the generation of photorealistic images based on textual inputs. Leveraging the substantial datasets used to train these diffusion models, we propose a technique to utilize generated images to augment existing datasets. This paper explores various strategies for effective data augmentation to improve the out-of-domain generalization capabilities of deep learning models.
+    arXiv:2403.13268v1 Announce Type: new  Abstract: Graph Neural Networks (GNNs) have shown promising performance in various graph learning tasks, but at the cost of resource-intensive computations. The primary overhead of GNN update stems from graph propagation and weight transformation, both involving operations on graph-scale matrices. Previous studies attempt to reduce the computational budget by leveraging graph-level or network-level sparsification techniques, resulting in downsized graph or weights. In this work, we propose Unifews, which unifies the two operations in an entry-wise manner considering individual matrix elements, and conducts joint edge-weight sparsification to enhance learning efficiency. The entry-wise design of Unifews enables adaptive compression across GNN layers with progressively increased sparsity, and is applicable to a variety of architectural designs with on-the-fly operation simplification. Theoretically, we establish a novel framework to characterize spa
     
-[^3]: 优化和抽样的近端预言
+[^2]: OVOR：一种使用虚拟异常值正则化的OnePrompt方法，实现无需回顾的类增量学习
 
-    Proximal Oracles for Optimization and Sampling
+    OVOR: OnePrompt with Virtual Outlier Regularization for Rehearsal-Free Class-Incremental Learning
 
-    [https://arxiv.org/abs/2404.02239](https://arxiv.org/abs/2404.02239)
+    [https://arxiv.org/abs/2402.04129](https://arxiv.org/abs/2402.04129)
 
-    论文研究了具有非光滑函数和对数凹抽样的凸优化问题，提出了在优化和抽样中应用近端框架的方法，并建立了近端映射的迭代复杂度。
-
-    
-
-    我们考虑具有非光滑目标函数和对数凹抽样（带非光滑潜势，即负对数密度）的凸优化。特别地，我们研究了两种具体设置，其中凸目标/潜势函数要么是半光滑的，要么是复合形式，作为半光滑分量的有限和。为了克服由于非光滑性而带来的挑战，我们的算法在优化和抽样中采用了两种强大的近端框架：优化中的近端点框架和替代抽样框架（ASF），该框架在增广分布上使用Gibbs抽样。优化和抽样算法的一个关键组件是通过正则化切平面方法高效实现近端映射。我们在半光滑和复合设置中建立了近端映射的迭代复杂度。我们进一步提出了一种用于非光滑优化的自适应近端捆绑方法。
-
-    arXiv:2404.02239v1 Announce Type: cross  Abstract: We consider convex optimization with non-smooth objective function and log-concave sampling with non-smooth potential (negative log density). In particular, we study two specific settings where the convex objective/potential function is either semi-smooth or in composite form as the finite sum of semi-smooth components. To overcome the challenges caused by non-smoothness, our algorithms employ two powerful proximal frameworks in optimization and sampling: the proximal point framework for optimization and the alternating sampling framework (ASF) that uses Gibbs sampling on an augmented distribution. A key component of both optimization and sampling algorithms is the efficient implementation of the proximal map by the regularized cutting-plane method. We establish the iteration-complexity of the proximal map in both semi-smooth and composite settings. We further propose an adaptive proximal bundle method for non-smooth optimization. The 
-    
-[^4]: 从模糊到明亮的检测：基于YOLOv5的超分辨率航空物体检测
-
-    From Blurry to Brilliant Detection: YOLOv5-Based Aerial Object Detection with Super Resolution. (arXiv:2401.14661v1 [cs.CV])
-
-    [http://arxiv.org/abs/2401.14661](http://arxiv.org/abs/2401.14661)
-
-    基于超分辨率和经过调整的轻量级YOLOv5架构，我们提出了一种创新的方法来解决航空影像中小而密集物体检测的挑战。我们的超分辨率YOLOv5模型采用Transformer编码器块，能够捕捉全局背景和上下文信息，从而在高密度、遮挡条件下提高检测结果。这种轻量级模型不仅准确性更高，而且资源利用效率高，非常适合实时应用。
+    这项研究提出了一种新的正则化方法，利用虚拟异常值来改善无需回顾的类增量学习过程中不同任务间的类别混淆问题，并且消除了额外的提示查询和组合计算开销。
 
     
 
-    随着无人机和卫星技术的广泛应用，对航空影像中准确物体检测的需求大大增加。传统的物体检测模型在偏向大物体的数据集上训练，对于航空场景中普遍存在的小而密集的物体难以发挥最佳性能。为了解决这个挑战，我们提出了一种创新的方法，结合了超分辨率和经过调整的轻量级YOLOv5架构。我们使用多种数据集进行评估，包括VisDrone-2023、SeaDroneSee、VEDAI和NWPU VHR-10，以验证我们模型的性能。我们的超分辨率YOLOv5架构采用Transformer编码器块，使模型能够捕捉到全局背景和上下文信息，从而提高检测结果，特别是在高密度、遮挡条件下。这种轻量级模型不仅提供了更高的准确性，还确保了资源的有效利用，非常适合实时应用。我们的实验表明，我们的模型在航空物体检测任务中表现出色，特别是在复杂场景中。
+    最近的研究表明，利用大规模预训练模型和可学习的提示，在无需回顾的类增量学习（CIL）设置中可以实现比著名的基于回顾的方法更好的性能。无需回顾的CIL方法在区分不同任务的类别时遇到困难，因为它们并未一同训练。在这项研究中，我们提出了一种基于虚拟异常值的正则化方法，通过紧缩分类器的决策边界，减轻不同任务间类别的混淆。最近的基于提示的方法通常需要一个存储各任务特定提示的集合，以防止新任务的知识覆盖先前任务的知识，从而导致额外的查询和组合适当提示的计算开销。我们在论文中揭示，可以消除这种额外开销而不牺牲准确性。我们演示了简化的基于提示的方法可以达到与先前最新状态-of-the-art方法相当的结果。
 
-    The demand for accurate object detection in aerial imagery has surged with the widespread use of drones and satellite technology. Traditional object detection models, trained on datasets biased towards large objects, struggle to perform optimally in aerial scenarios where small, densely clustered objects are prevalent. To address this challenge, we present an innovative approach that combines super-resolution and an adapted lightweight YOLOv5 architecture. We employ a range of datasets, including VisDrone-2023, SeaDroneSee, VEDAI, and NWPU VHR-10, to evaluate our model's performance. Our Super Resolved YOLOv5 architecture features Transformer encoder blocks, allowing the model to capture global context and context information, leading to improved detection results, especially in high-density, occluded conditions. This lightweight model not only delivers improved accuracy but also ensures efficient resource utilization, making it well-suited for real-time applications. Our experimental 
+    Recent works have shown that by using large pre-trained models along with learnable prompts, rehearsal-free methods for class-incremental learning (CIL) settings can achieve superior performance to prominent rehearsal-based ones. Rehearsal-free CIL methods struggle with distinguishing classes from different tasks, as those are not trained together. In this work we propose a regularization method based on virtual outliers to tighten decision boundaries of the classifier, such that confusion of classes among different tasks is mitigated. Recent prompt-based methods often require a pool of task-specific prompts, in order to prevent overwriting knowledge of previous tasks with that of the new task, leading to extra computation in querying and composing an appropriate prompt from the pool. This additional cost can be eliminated, without sacrificing accuracy, as we reveal in the paper. We illustrate that a simplified prompt-based method can achieve results comparable to previous state-of-the
     
-[^5]: 在部分可观察情境轮盘赌中的可证效率学习
+[^3]: 不要按按钮！探索机器学习和迁移学习中的数据泄露风险
 
-    Provably Efficient Learning in Partially Observable Contextual Bandit. (arXiv:2308.03572v2 [cs.LG] UPDATED)
+    Don't Push the Button! Exploring Data Leakage Risks in Machine Learning and Transfer Learning. (arXiv:2401.13796v1 [cs.LG])
 
-    [http://arxiv.org/abs/2308.03572](http://arxiv.org/abs/2308.03572)
+    [http://arxiv.org/abs/2401.13796](http://arxiv.org/abs/2401.13796)
 
-    本文研究了在部分可观察情境轮盘赌中的转移学习问题，提出了一种通过优化问题识别行为和奖励因果效应的方法，并利用因果约束来改进轮盘赌算法。
-
-    
-
-    本文研究了在部分可观察情境轮盘赌中的转移学习问题，其中代理人仅有来自其他代理人的有限知识，并且对隐藏的混淆因素只有部分信息。我们将该问题转化为通过优化问题来识别或部分识别行为和奖励之间的因果效应。为了解决这些优化问题，我们将未知分布的原始功能约束离散化为线性约束，并通过顺序解线性规划来采样兼容的因果模型，以考虑估计误差得到因果约束。我们的采样算法为适当的采样分布提供了理想的收敛结果。然后，我们展示了如何将因果约束应用于改进经典的轮盘赌算法，并以行动集和函数空间规模为参考改变了遗憾值。值得注意的是，在允许我们处理一般情境分布的函数逼近任务中
-
-    In this paper, we investigate transfer learning in partially observable contextual bandits, where agents have limited knowledge from other agents and partial information about hidden confounders. We first convert the problem to identifying or partially identifying causal effects between actions and rewards through optimization problems. To solve these optimization problems, we discretize the original functional constraints of unknown distributions into linear constraints, and sample compatible causal models via sequentially solving linear programmings to obtain causal bounds with the consideration of estimation error. Our sampling algorithms provide desirable convergence results for suitable sampling distributions. We then show how causal bounds can be applied to improving classical bandit algorithms and affect the regrets with respect to the size of action sets and function spaces. Notably, in the task with function approximation which allows us to handle general context distributions
-    
-[^6]: PyPOTS：用于部分观测时间序列数据挖掘的Python工具箱
-
-    PyPOTS: A Python Toolbox for Data Mining on Partially-Observed Time Series. (arXiv:2305.18811v1 [cs.LG])
-
-    [http://arxiv.org/abs/2305.18811](http://arxiv.org/abs/2305.18811)
-
-    PyPOTS是一个Python工具箱，用于对部分观测的时间序列数据进行数据挖掘和分析，包括插值、分类、聚类和预测等四个任务，算法种类繁多，适用于学术研究和工业应用。
+    本文讨论了机器学习中的数据泄露问题，即未预期的信息污染训练数据，影响模型性能评估，用户可能由于缺乏理解而忽视关键步骤，导致乐观的性能估计在实际场景中不成立。
 
     
 
-    PyPOTS是一个开源的Python库，致力于在多元部分观测时间序列数据上进行数据挖掘和分析，即针对存在缺失值的不完整时间序列，也称为不规则采样时间序列。特别地，它提供了对四个任务分类的不同算法的易用性支持：插值、分类、聚类和预测。它包含了概率方法和神经网络方法，提供了设计良好、完整文档的编程接口，供学术研究人员和工业专业人员使用。该工具包的设计理念是鲁棒性和可伸缩性，开发过程中遵循了软件构建的最佳实践，例如单元测试、持续集成（CI）和持续交付（CD）、代码覆盖率、可维护性评估、交互式教程和并行化等原则。该工具箱可在Python包索引（PyPI）和Anaconda上使用。
+    机器学习（ML）在各个领域取得了革命性的进展，为多个领域提供了预测能力。然而，随着ML工具的日益可获得性，许多从业者缺乏深入的ML专业知识，采用了“按按钮”方法，利用用户友好的界面而忽视了底层算法的深入理解。虽然这种方法提供了便利，但它引发了对结果可靠性的担忧，导致了错误的性能评估等挑战。本文解决了ML中的一个关键问题，即数据泄露，其中未预期的信息污染了训练数据，影响了模型的性能评估。由于缺乏理解，用户可能会无意中忽视关键步骤，从而导致在现实场景中可能不成立的乐观性能估计。评估性能与实际在新数据上的性能的差异是一个重要的关注点。本文特别将ML中的数据泄露分为不同类别，并讨论了相关解决方法。
 
-    PyPOTS is an open-source Python library dedicated to data mining and analysis on multivariate partially-observed time series, i.e. incomplete time series with missing values, A.K.A. irregularlysampled time series. Particularly, it provides easy access to diverse algorithms categorized into four tasks: imputation, classification, clustering, and forecasting. The included models contain probabilistic approaches as well as neural-network methods, with a well-designed and fully-documented programming interface for both academic researchers and industrial professionals to use. With robustness and scalability in its design philosophy, best practices of software construction, for example, unit testing, continuous integration (CI) and continuous delivery (CD), code coverage, maintainability evaluation, interactive tutorials, and parallelization, are carried out as principles during the development of PyPOTS. The toolkit is available on both Python Package Index (PyPI) and Anaconda. PyPOTS is o
+    Machine Learning (ML) has revolutionized various domains, offering predictive capabilities in several areas. However, with the increasing accessibility of ML tools, many practitioners, lacking deep ML expertise, adopt a "push the button" approach, utilizing user-friendly interfaces without a thorough understanding of underlying algorithms. While this approach provides convenience, it raises concerns about the reliability of outcomes, leading to challenges such as incorrect performance evaluation. This paper addresses a critical issue in ML, known as data leakage, where unintended information contaminates the training data, impacting model performance evaluation. Users, due to a lack of understanding, may inadvertently overlook crucial steps, leading to optimistic performance estimates that may not hold in real-world scenarios. The discrepancy between evaluated and actual performance on new data is a significant concern. In particular, this paper categorizes data leakage in ML, discussi
     
-[^7]: 从伪随机性到多组公平性再到回来
+[^4]: 通过近似传递消息实现结构化广义线性模型的谱估计器
 
-    From Pseudorandomness to Multi-Group Fairness and Back. (arXiv:2301.08837v3 [cs.LG] UPDATED)
+    Spectral Estimators for Structured Generalized Linear Models via Approximate Message Passing. (arXiv:2308.14507v1 [math.ST])
 
-    [http://arxiv.org/abs/2301.08837](http://arxiv.org/abs/2301.08837)
+    [http://arxiv.org/abs/2308.14507](http://arxiv.org/abs/2308.14507)
 
-    本文探索了预测算法中多组公平性和伪随机性的联系，提供了新的多校准算法和实值函数核引理证明算法。
+    本论文研究了针对广义线性模型的参数估计问题，提出了一种通过谱估计器进行预处理的方法。通过对测量进行特征协方差矩阵Σ表示，分析了谱估计器在结构化设计中的性能，并确定了最优预处理以最小化样本数量。
 
     
 
-    本文探讨了预测算法中多组公平性和泄露-韧性和图形规则之间的联系，在一些参数范围内提供了新的多校准和实值函数核引理证明算法。
+    我们考虑从广义线性模型中的观测中进行参数估计的问题。谱方法是一种简单而有效的估计方法：它通过对观测进行适当预处理得到的矩阵的主特征向量来估计参数。尽管谱估计器被广泛使用，但对于结构化（即独立同分布的高斯和哈尔）设计，目前仅有对谱估计器的严格性能表征以及对数据进行预处理的基本方法可用。相反，实际的设计矩阵具有高度结构化并且表现出非平凡的相关性。为解决这个问题，我们考虑了捕捉测量的非各向同性特性的相关高斯设计，通过特征协方差矩阵Σ进行表示。我们的主要结果是对于这种情况下谱估计器性能的精确渐近分析。然后，可以通过这一结果来确定最优预处理，从而最小化所需样本的数量。
 
-    We identify and explore connections between the recent literature on multi-group fairness for prediction algorithms and the pseudorandomness notions of leakage-resilience and graph regularity. We frame our investigation using new, statistical distance-based variants of multicalibration that are closely related to the concept of outcome indistinguishability. Adopting this perspective leads us naturally not only to our graph theoretic results, but also to new, more efficient algorithms for multicalibration in certain parameter regimes and a novel proof of a hardcore lemma for real-valued functions.
+    We consider the problem of parameter estimation from observations given by a generalized linear model. Spectral methods are a simple yet effective approach for estimation: they estimate the parameter via the principal eigenvector of a matrix obtained by suitably preprocessing the observations. Despite their wide use, a rigorous performance characterization of spectral estimators, as well as a principled way to preprocess the data, is available only for unstructured (i.e., i.i.d. Gaussian and Haar) designs. In contrast, real-world design matrices are highly structured and exhibit non-trivial correlations. To address this problem, we consider correlated Gaussian designs which capture the anisotropic nature of the measurements via a feature covariance matrix $\Sigma$. Our main result is a precise asymptotic characterization of the performance of spectral estimators in this setting. This then allows to identify the optimal preprocessing that minimizes the number of samples needed to meanin
+    
+[^5]: 基于矢量量化的对抗防御
+
+    Adversarial Defenses via Vector Quantization. (arXiv:2305.13651v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.13651](http://arxiv.org/abs/2305.13651)
+
+    该论文提出了两种基于矢量量化的新对抗性防御方法，能够在高维空间中提供理论保证和实验上的表现优势。
+
+    
+
+    在随机离散化的基础上，我们在高维空间中利用矢量量化开发了两种新的对抗性防御方法，分别称为pRD和swRD。这些方法不仅在证明准确度方面提供了理论保证，而且通过大量实验表明，它们的表现与当前对抗防御技术相当甚至更优秀。这些方法可以扩展到一种版本，允许对目标分类器进行进一步训练，并展示出进一步改进的性能。
+
+    Building upon Randomized Discretization, we develop two novel adversarial defenses against white-box PGD attacks, utilizing vector quantization in higher dimensional spaces. These methods, termed pRD and swRD, not only offer a theoretical guarantee in terms of certified accuracy, they are also shown, via abundant experiments, to perform comparably or even superior to the current art of adversarial defenses. These methods can be extended to a version that allows further training of the target classifier and demonstrates further improved performance.
+    
+[^6]: 深度神经网络的隐式反事实数据增强
+
+    Implicit Counterfactual Data Augmentation for Deep Neural Networks. (arXiv:2304.13431v1 [cs.LG])
+
+    [http://arxiv.org/abs/2304.13431](http://arxiv.org/abs/2304.13431)
+
+    本研究提出了隐式反事实数据增强（ICDA）方法，通过新的样本增强策略、易于计算的代理损失和具体方案，消除了虚假关联并进行了稳健预测。
+
+    
+
+    机器学习模型易于捕捉非因果属性和类别之间的虚假相关性，使用反事实数据增强是破除这些虚假的联想的有效方法。然而，明确生成反事实数据很具挑战性，训练效率会降低。因此，本研究提出了一种隐式反事实数据增强（Implicit Counterfactual Data Augmentation，ICDA）方法来消除虚假关联并进行稳健预测。具体而言，首先，开发了一种新的样本增强策略，为每个样本生成在语义和反事实意义上有意义的深度特征，并具有不同的增强强度。其次，当增广样本数变为无穷大时，我们推导出对于增广特征集的易于计算的代理损失。第三，提出了两种具体的方案，包括直接量化和元学习，以确定鲁棒性损失的关键参数。此外，还从实验的角度解释了ICDA的作用。
+
+    Machine-learning models are prone to capturing the spurious correlations between non-causal attributes and classes, with counterfactual data augmentation being a promising direction for breaking these spurious associations. However, explicitly generating counterfactual data is challenging, with the training efficiency declining. Therefore, this study proposes an implicit counterfactual data augmentation (ICDA) method to remove spurious correlations and make stable predictions. Specifically, first, a novel sample-wise augmentation strategy is developed that generates semantically and counterfactually meaningful deep features with distinct augmentation strength for each sample. Second, we derive an easy-to-compute surrogate loss on the augmented feature set when the number of augmented samples becomes infinite. Third, two concrete schemes are proposed, including direct quantification and meta-learning, to derive the key parameters for the robust loss. In addition, ICDA is explained from 
+    
+[^7]: 通过离散优化实现可解释性异常检测
+
+    Interpretable Anomaly Detection via Discrete Optimization. (arXiv:2303.14111v1 [cs.LG])
+
+    [http://arxiv.org/abs/2303.14111](http://arxiv.org/abs/2303.14111)
+
+    该论文提出了一个通过学习有限自动机进行异常检测的框架，并通过约束优化算法和新的正则化方案提高了可解释性。
+
+    
+
+    异常检测在许多应用领域中都是必不可少的，例如网络安全、执法、医学和欺诈保护。然而，目前深度学习方法的决策过程往往难以理解，这通常限制了它们的实际应用性。为了克服这个限制，我们提出了一个学习框架，可以从序列数据中学习可解释性的异常检测器。具体来说，我们考虑从给定的未标记序列多重集中学习确定性有限自动机 （DFA）的任务。我们证明了这个问题是计算难题，并基于约束优化开发了两个学习算法。此外，我们为优化问题引入了新的正则化方案，以提高我们的DFA的整体可解释性。通过原型实现，我们证明我们的方法在准确性和F1分数方面表现出有望的结果。
+
+    Anomaly detection is essential in many application domains, such as cyber security, law enforcement, medicine, and fraud protection. However, the decision-making of current deep learning approaches is notoriously hard to understand, which often limits their practical applicability. To overcome this limitation, we propose a framework for learning inherently interpretable anomaly detectors from sequential data. More specifically, we consider the task of learning a deterministic finite automaton (DFA) from a given multi-set of unlabeled sequences. We show that this problem is computationally hard and develop two learning algorithms based on constraint optimization. Moreover, we introduce novel regularization schemes for our optimization problems that improve the overall interpretability of our DFAs. Using a prototype implementation, we demonstrate that our approach shows promising results in terms of accuracy and F1 score.
+    
+[^8]: 不要误会我：如何将深度视觉解释应用于时间序列
+
+    Don't Get Me Wrong: How to Apply Deep Visual Interpretations to Time Series. (arXiv:2203.07861v2 [cs.CV] UPDATED)
+
+    [http://arxiv.org/abs/2203.07861](http://arxiv.org/abs/2203.07861)
+
+    该论文提出了一个针对时间序列分类和分割任务的框架，通过六个度量来评估基于梯度、传播或干扰的事后可视化解释方法。实验结果表明，这些方法对于时间序列的解释具有较高的可信度和有效性。
+
+    
+
+    在许多应用中，正确解释和理解深度学习模型非常重要。针对图像和自然语言处理的解释性视觉解释方法允许领域专家验证和理解几乎任何深度学习模型。然而，当推广到任意时间序列时，它们在本质上更加复杂和多样化。一个可视化解释是否解释了有效的推理或捕捉了实际特征是难以判断的。因此，我们需要客观评估来获得可信的质量指标，而不是盲目信任。我们提出了一个框架，包括六个正交度量，用于针对时间序列分类和分割任务的基于梯度、传播或干扰的事后视觉解释方法。实验研究包括了常见的时间序列神经网络架构和九种可视化解释方法。我们使用UCR r等多样的数据集评估了这些可视化解释方法。
+
+    The correct interpretation and understanding of deep learning models are essential in many applications. Explanatory visual interpretation approaches for image, and natural language processing allow domain experts to validate and understand almost any deep learning model. However, they fall short when generalizing to arbitrary time series, which is inherently less intuitive and more diverse. Whether a visualization explains valid reasoning or captures the actual features is difficult to judge. Hence, instead of blind trust, we need an objective evaluation to obtain trustworthy quality metrics. We propose a framework of six orthogonal metrics for gradient-, propagation- or perturbation-based post-hoc visual interpretation methods for time series classification and segmentation tasks. An experimental study includes popular neural network architectures for time series and nine visual interpretation methods. We evaluate the visual interpretation methods with diverse datasets from the UCR r
     
 

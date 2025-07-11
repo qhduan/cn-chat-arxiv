@@ -2,82 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Semantic Augmentation in Images using Language](https://arxiv.org/abs/2404.02353) | 深度学习模型需要大规模标记数据集，本文提出利用生成图像增强数据集以改进模型跨领域泛化能力。 |
-| [^2] | [Geometric Constraints in Deep Learning Frameworks: A Survey](https://arxiv.org/abs/2403.12431) | 本调查研究了几何约束和深度学习框架之间的重合部分，比较了深度估计等问题中集成在深度学习框架中的几何强制约束。 |
-| [^3] | [Rethinking Class-incremental Learning in the Era of Large Pre-trained Models via Test-Time Adaptation.](http://arxiv.org/abs/2310.11482) | 本研究提出了一种名为“增量学习的测试时适应”的方法，通过在测试实例上进行微调，避免了在每个新任务上进行训练，从而在增量学习中实现了预训练模型的稳定性和可塑性的平衡。 |
-| [^4] | [Stepwise functional refoundation of relational concept analysis.](http://arxiv.org/abs/2310.06441) | 逐步功能重构的关系概念分析（RCA）是形式概念分析的扩展，通过定义良构解决方案的空间和相关函数，解决了RCA在循环依赖数据上返回单一概念格家族的问题。 |
-| [^5] | [Provably Efficient Learning in Partially Observable Contextual Bandit.](http://arxiv.org/abs/2308.03572) | 本文研究了在部分可观察情境轮盘赌中的转移学习问题，提出了一种通过优化问题识别行为和奖励因果效应的方法，并利用因果约束来改进轮盘赌算法。 |
+| [^1] | [Structure Guided Large Language Model for SQL Generation](https://arxiv.org/abs/2402.13284) | 通过引入结构信息，提出了一个结构引导的SQL生成模型，以改善大型语言模型生成SQL的准确性和可执行性。 |
+| [^2] | [Exploring Value Biases: How LLMs Deviate Towards the Ideal](https://arxiv.org/abs/2402.11005) | 研究发现大型语言模型（LLMs）在给出响应时存在一个价值偏好的机制，倾向于偏向理想状态，这种偏差会对不同应用场景产生重要影响。 |
+| [^3] | [Don't Push the Button! Exploring Data Leakage Risks in Machine Learning and Transfer Learning.](http://arxiv.org/abs/2401.13796) | 本文讨论了机器学习中的数据泄露问题，即未预期的信息污染训练数据，影响模型性能评估，用户可能由于缺乏理解而忽视关键步骤，导致乐观的性能估计在实际场景中不成立。 |
+| [^4] | [Interpretable Anomaly Detection via Discrete Optimization.](http://arxiv.org/abs/2303.14111) | 该论文提出了一个通过学习有限自动机进行异常检测的框架，并通过约束优化算法和新的正则化方案提高了可解释性。 |
+| [^5] | [Don't Get Me Wrong: How to Apply Deep Visual Interpretations to Time Series.](http://arxiv.org/abs/2203.07861) | 该论文提出了一个针对时间序列分类和分割任务的框架，通过六个度量来评估基于梯度、传播或干扰的事后可视化解释方法。实验结果表明，这些方法对于时间序列的解释具有较高的可信度和有效性。 |
 
 # 详细
 
-[^1]: 利用语言在图像中进行语义增强
+[^1]: 结构引导的大型语言模型用于SQL生成
 
-    Semantic Augmentation in Images using Language
+    Structure Guided Large Language Model for SQL Generation
 
-    [https://arxiv.org/abs/2404.02353](https://arxiv.org/abs/2404.02353)
+    [https://arxiv.org/abs/2402.13284](https://arxiv.org/abs/2402.13284)
 
-    深度学习模型需要大规模标记数据集，本文提出利用生成图像增强数据集以改进模型跨领域泛化能力。
-
-    
-
-    深度学习模型需要非常庞大的标记数据集进行监督学习，缺乏这些数据集会导致过拟合并限制其泛化到现实世界示例的能力。最近扩散模型的进展使得能够基于文本输入生成逼真的图像。利用用于训练这些扩散模型的大规模数据集，我们提出一种利用生成的图像来增强现有数据集的技术。本文探讨了各种有效数据增强策略，以提高深度学习模型的跨领域泛化能力。
-
-    arXiv:2404.02353v1 Announce Type: cross  Abstract: Deep Learning models are incredibly data-hungry and require very large labeled datasets for supervised learning. As a consequence, these models often suffer from overfitting, limiting their ability to generalize to real-world examples. Recent advancements in diffusion models have enabled the generation of photorealistic images based on textual inputs. Leveraging the substantial datasets used to train these diffusion models, we propose a technique to utilize generated images to augment existing datasets. This paper explores various strategies for effective data augmentation to improve the out-of-domain generalization capabilities of deep learning models.
-    
-[^2]: 深度学习框架中的几何约束：一项调查
-
-    Geometric Constraints in Deep Learning Frameworks: A Survey
-
-    [https://arxiv.org/abs/2403.12431](https://arxiv.org/abs/2403.12431)
-
-    本调查研究了几何约束和深度学习框架之间的重合部分，比较了深度估计等问题中集成在深度学习框架中的几何强制约束。
+    通过引入结构信息，提出了一个结构引导的SQL生成模型，以改善大型语言模型生成SQL的准确性和可执行性。
 
     
 
-    Stereophotogrammetry是一种新兴的场景理解技术。其起源可以追溯到至少19世纪，当时人们开始研究使用照片来测量世界的物理属性。自那时以来，已经探索了成千上万种方法。经典几何技术的Shape from Stereo建立在使用几何来定义场景和摄像机几何的约束，然后解决非线性方程组。更近期的工作采用了完全不同的方法，使用端到端的深度学习而没有明确建模几何。在这项调查中，我们探讨了基于几何和基于深度学习框架的重叠部分。我们比较和对比了集成到深度学习框架中用于深度估计或其他密切相关问题的几何强制约束。我们提出了一种新的分类法，用于描述现代深度学习中使用的普遍几何约束。
+    生成准确的结构化查询语言（SQL）是一个长期存在的问题，特别是在将用户的语义查询与结构化数据库匹配，然后生成结构化SQL方面。现有模型通常将查询和数据库模式输入到LLM中，并依赖LLM执行语义-结构匹配并生成结构化SQL。然而，这种解决方案忽略了用户查询和数据库中的结构信息，而这些信息可以用来增强结构化SQL的生成。这一疏忽可能导致不准确或无法执行的SQL生成。为了充分利用结构，我们提出了一个结构到SQL的框架，利用固有的结构信息来改善LLM的SQL生成。具体地，我们介绍了我们的结构引导SQL（SGU-SQL）生成模型。
 
-    arXiv:2403.12431v1 Announce Type: cross  Abstract: Stereophotogrammetry is an emerging technique of scene understanding. Its origins go back to at least the 1800s when people first started to investigate using photographs to measure the physical properties of the world. Since then, thousands of approaches have been explored. The classic geometric techniques of Shape from Stereo is built on using geometry to define constraints on scene and camera geometry and then solving the non-linear systems of equations. More recent work has taken an entirely different approach, using end-to-end deep learning without any attempt to explicitly model the geometry. In this survey, we explore the overlap for geometric-based and deep learning-based frameworks. We compare and contrast geometry enforcing constraints integrated into a deep learning framework for depth estimation or other closely related problems. We present a new taxonomy for prevalent geometry enforcing constraints used in modern deep lear
+    arXiv:2402.13284v1 Announce Type: cross  Abstract: Generating accurate Structured Querying Language (SQL) is a long-standing problem, especially in matching users' semantic queries with structured databases and then generating structured SQL. Existing models typically input queries and database schemas into the LLM and rely on the LLM to perform semantic-structure matching and generate structured SQL. However, such solutions overlook the structural information within user queries and databases, which can be utilized to enhance the generation of structured SQL. This oversight can lead to inaccurate or unexecutable SQL generation. To fully exploit the structure, we propose a structure-to-SQL framework, which leverages the inherent structure information to improve the SQL generation of LLMs. Specifically, we introduce our Structure Guided SQL~(SGU-SQL) generation model. SGU-SQL first links user queries and databases in a structure-enhanced manner. It then decomposes complicated linked str
     
-[^3]: 在大型预训练模型时代重新思考增量学习的测试时适应方法
+[^2]: 探究价值偏好：LLMs偏向理想状态的偏差
 
-    Rethinking Class-incremental Learning in the Era of Large Pre-trained Models via Test-Time Adaptation. (arXiv:2310.11482v1 [cs.CV])
+    Exploring Value Biases: How LLMs Deviate Towards the Ideal
 
-    [http://arxiv.org/abs/2310.11482](http://arxiv.org/abs/2310.11482)
+    [https://arxiv.org/abs/2402.11005](https://arxiv.org/abs/2402.11005)
 
-    本研究提出了一种名为“增量学习的测试时适应”的方法，通过在测试实例上进行微调，避免了在每个新任务上进行训练，从而在增量学习中实现了预训练模型的稳定性和可塑性的平衡。
-
-    
-
-    增量学习是一个具有挑战性的任务，涉及持续学习将类别划分到新任务中，同时不会遗忘先前学到的信息。大型预训练模型的出现加快了增量学习的进展，因为高度可传输的预训练模型表示使得在调整一小组参数时，与从头开始训练的传统增量学习方法相比，可以获得最先进的性能。然而，对每个任务进行反复微调会破坏预训练模型的丰富表示，并导致遗忘之前的任务。为了在增量学习中在预训练模型的稳定性和可塑性之间取得平衡，我们提出了一种新颖的方法，即通过直接在测试实例上进行测试时适应。具体而言，我们提出了“增量学习的测试时适应”（TTACIL），它首先在每个测试实例上对预训练模型的层归一化参数进行微调。
-
-    Class-incremental learning (CIL) is a challenging task that involves continually learning to categorize classes into new tasks without forgetting previously learned information. The advent of the large pre-trained models (PTMs) has fast-tracked the progress in CIL due to the highly transferable PTM representations, where tuning a small set of parameters results in state-of-the-art performance when compared with the traditional CIL methods that are trained from scratch. However, repeated fine-tuning on each task destroys the rich representations of the PTMs and further leads to forgetting previous tasks. To strike a balance between the stability and plasticity of PTMs for CIL, we propose a novel perspective of eliminating training on every new task and instead performing test-time adaptation (TTA) directly on the test instances. Concretely, we propose "Test-Time Adaptation for Class-Incremental Learning" (TTACIL) that first fine-tunes Layer Norm parameters of the PTM on each test instan
-    
-[^4]: 逐步功能重构的关系概念分析
-
-    Stepwise functional refoundation of relational concept analysis. (arXiv:2310.06441v1 [cs.AI])
-
-    [http://arxiv.org/abs/2310.06441](http://arxiv.org/abs/2310.06441)
-
-    逐步功能重构的关系概念分析（RCA）是形式概念分析的扩展，通过定义良构解决方案的空间和相关函数，解决了RCA在循环依赖数据上返回单一概念格家族的问题。
+    研究发现大型语言模型（LLMs）在给出响应时存在一个价值偏好的机制，倾向于偏向理想状态，这种偏差会对不同应用场景产生重要影响。
 
     
 
-    关系概念分析（RCA）是形式概念分析的扩展，允许同时处理多个相关的语境。它被设计用于从数据中学习描述逻辑理论，并在各种应用中使用。关于RCA的一个令人困惑的观察是，尽管数据存在循环依赖关系，它返回一个单一的概念格家族，其他解决方案可能被认为是可接受的。RCA的语义以操作方式提供，对此问题并没有提供明确的解释。在本报告中，我们将这些可接受的解决方案定义为属于初始语境确定的空间的概念格家族（良构），不能扩展新属性（饱和），并且仅涉及该家族的概念（自支持）。我们通过定义良构解决方案的空间以及该空间上的两个函数（一个扩张函数和一个收缩函数），采用功能视图来描述RCA过程。我们展示了可接受的解决方案…
+    大型语言模型（LLMs）被部署在各种应用中，并且它们的响应对社会产生着越来越大的影响。理解LLMs在给出响应时的非故意机制对于解释它们的性能并辨别它们在现实世界应用中的偏差至关重要。这类似于人类研究中，这种无意识的响应被称为抽样。我们研究了LLMs的这种抽样现象，发现LLMs的抽样倾向于偏爱高价值选项。价值偏好对应于从最可能的响应向LLM中代表的理想价值的转变。实际上，即便是通过上下文提示学习到的新实体，这种效果也能够再现。我们表明这种偏差表现在意想不到的地方，并对选择典型实例等相关应用场景产生影响。结果显示，价值偏好在不同分类的LLMs中都很明显。
 
-    Relational concept analysis (RCA) is an extension of formal concept analysis allowing to deal with several related contexts simultaneously. It has been designed for learning description logic theories from data and used within various applications. A puzzling observation about RCA is that it returns a single family of concept lattices although, when the data feature circular dependencies, other solutions may be considered acceptable. The semantics of RCA, provided in an operational way, does not shed light on this issue. In this report, we define these acceptable solutions as those families of concept lattices which belong to the space determined by the initial contexts (well-formed), cannot scale new attributes (saturated), and refer only to concepts of the family (self-supported). We adopt a functional view on the RCA process by defining the space of well-formed solutions and two functions on that space: one expansive and the other contractive. We show that the acceptable solutions a
+    arXiv:2402.11005v1 Announce Type: cross  Abstract: Large-Language-Models (LLMs) are deployed in a wide range of applications, and their response has an increasing social impact. Understanding the non-deliberate(ive) mechanism of LLMs in giving responses is essential in explaining their performance and discerning their biases in real-world applications. This is analogous to human studies, where such inadvertent responses are referred to as sampling. We study this sampling of LLMs in light of value bias and show that the sampling of LLMs tends to favour high-value options. Value bias corresponds to this shift of response from the most likely towards an ideal value represented in the LLM. In fact, this effect can be reproduced even with new entities learnt via in-context prompting. We show that this bias manifests in unexpected places and has implications on relevant application scenarios, like choosing exemplars. The results show that value bias is strong in LLMs across different categor
     
-[^5]: 在部分可观察情境轮盘赌中的可证效率学习
+[^3]: 不要按按钮！探索机器学习和迁移学习中的数据泄露风险
 
-    Provably Efficient Learning in Partially Observable Contextual Bandit. (arXiv:2308.03572v2 [cs.LG] UPDATED)
+    Don't Push the Button! Exploring Data Leakage Risks in Machine Learning and Transfer Learning. (arXiv:2401.13796v1 [cs.LG])
 
-    [http://arxiv.org/abs/2308.03572](http://arxiv.org/abs/2308.03572)
+    [http://arxiv.org/abs/2401.13796](http://arxiv.org/abs/2401.13796)
 
-    本文研究了在部分可观察情境轮盘赌中的转移学习问题，提出了一种通过优化问题识别行为和奖励因果效应的方法，并利用因果约束来改进轮盘赌算法。
+    本文讨论了机器学习中的数据泄露问题，即未预期的信息污染训练数据，影响模型性能评估，用户可能由于缺乏理解而忽视关键步骤，导致乐观的性能估计在实际场景中不成立。
 
     
 
-    本文研究了在部分可观察情境轮盘赌中的转移学习问题，其中代理人仅有来自其他代理人的有限知识，并且对隐藏的混淆因素只有部分信息。我们将该问题转化为通过优化问题来识别或部分识别行为和奖励之间的因果效应。为了解决这些优化问题，我们将未知分布的原始功能约束离散化为线性约束，并通过顺序解线性规划来采样兼容的因果模型，以考虑估计误差得到因果约束。我们的采样算法为适当的采样分布提供了理想的收敛结果。然后，我们展示了如何将因果约束应用于改进经典的轮盘赌算法，并以行动集和函数空间规模为参考改变了遗憾值。值得注意的是，在允许我们处理一般情境分布的函数逼近任务中
+    机器学习（ML）在各个领域取得了革命性的进展，为多个领域提供了预测能力。然而，随着ML工具的日益可获得性，许多从业者缺乏深入的ML专业知识，采用了“按按钮”方法，利用用户友好的界面而忽视了底层算法的深入理解。虽然这种方法提供了便利，但它引发了对结果可靠性的担忧，导致了错误的性能评估等挑战。本文解决了ML中的一个关键问题，即数据泄露，其中未预期的信息污染了训练数据，影响了模型的性能评估。由于缺乏理解，用户可能会无意中忽视关键步骤，从而导致在现实场景中可能不成立的乐观性能估计。评估性能与实际在新数据上的性能的差异是一个重要的关注点。本文特别将ML中的数据泄露分为不同类别，并讨论了相关解决方法。
 
-    In this paper, we investigate transfer learning in partially observable contextual bandits, where agents have limited knowledge from other agents and partial information about hidden confounders. We first convert the problem to identifying or partially identifying causal effects between actions and rewards through optimization problems. To solve these optimization problems, we discretize the original functional constraints of unknown distributions into linear constraints, and sample compatible causal models via sequentially solving linear programmings to obtain causal bounds with the consideration of estimation error. Our sampling algorithms provide desirable convergence results for suitable sampling distributions. We then show how causal bounds can be applied to improving classical bandit algorithms and affect the regrets with respect to the size of action sets and function spaces. Notably, in the task with function approximation which allows us to handle general context distributions
+    Machine Learning (ML) has revolutionized various domains, offering predictive capabilities in several areas. However, with the increasing accessibility of ML tools, many practitioners, lacking deep ML expertise, adopt a "push the button" approach, utilizing user-friendly interfaces without a thorough understanding of underlying algorithms. While this approach provides convenience, it raises concerns about the reliability of outcomes, leading to challenges such as incorrect performance evaluation. This paper addresses a critical issue in ML, known as data leakage, where unintended information contaminates the training data, impacting model performance evaluation. Users, due to a lack of understanding, may inadvertently overlook crucial steps, leading to optimistic performance estimates that may not hold in real-world scenarios. The discrepancy between evaluated and actual performance on new data is a significant concern. In particular, this paper categorizes data leakage in ML, discussi
+    
+[^4]: 通过离散优化实现可解释性异常检测
+
+    Interpretable Anomaly Detection via Discrete Optimization. (arXiv:2303.14111v1 [cs.LG])
+
+    [http://arxiv.org/abs/2303.14111](http://arxiv.org/abs/2303.14111)
+
+    该论文提出了一个通过学习有限自动机进行异常检测的框架，并通过约束优化算法和新的正则化方案提高了可解释性。
+
+    
+
+    异常检测在许多应用领域中都是必不可少的，例如网络安全、执法、医学和欺诈保护。然而，目前深度学习方法的决策过程往往难以理解，这通常限制了它们的实际应用性。为了克服这个限制，我们提出了一个学习框架，可以从序列数据中学习可解释性的异常检测器。具体来说，我们考虑从给定的未标记序列多重集中学习确定性有限自动机 （DFA）的任务。我们证明了这个问题是计算难题，并基于约束优化开发了两个学习算法。此外，我们为优化问题引入了新的正则化方案，以提高我们的DFA的整体可解释性。通过原型实现，我们证明我们的方法在准确性和F1分数方面表现出有望的结果。
+
+    Anomaly detection is essential in many application domains, such as cyber security, law enforcement, medicine, and fraud protection. However, the decision-making of current deep learning approaches is notoriously hard to understand, which often limits their practical applicability. To overcome this limitation, we propose a framework for learning inherently interpretable anomaly detectors from sequential data. More specifically, we consider the task of learning a deterministic finite automaton (DFA) from a given multi-set of unlabeled sequences. We show that this problem is computationally hard and develop two learning algorithms based on constraint optimization. Moreover, we introduce novel regularization schemes for our optimization problems that improve the overall interpretability of our DFAs. Using a prototype implementation, we demonstrate that our approach shows promising results in terms of accuracy and F1 score.
+    
+[^5]: 不要误会我：如何将深度视觉解释应用于时间序列
+
+    Don't Get Me Wrong: How to Apply Deep Visual Interpretations to Time Series. (arXiv:2203.07861v2 [cs.CV] UPDATED)
+
+    [http://arxiv.org/abs/2203.07861](http://arxiv.org/abs/2203.07861)
+
+    该论文提出了一个针对时间序列分类和分割任务的框架，通过六个度量来评估基于梯度、传播或干扰的事后可视化解释方法。实验结果表明，这些方法对于时间序列的解释具有较高的可信度和有效性。
+
+    
+
+    在许多应用中，正确解释和理解深度学习模型非常重要。针对图像和自然语言处理的解释性视觉解释方法允许领域专家验证和理解几乎任何深度学习模型。然而，当推广到任意时间序列时，它们在本质上更加复杂和多样化。一个可视化解释是否解释了有效的推理或捕捉了实际特征是难以判断的。因此，我们需要客观评估来获得可信的质量指标，而不是盲目信任。我们提出了一个框架，包括六个正交度量，用于针对时间序列分类和分割任务的基于梯度、传播或干扰的事后视觉解释方法。实验研究包括了常见的时间序列神经网络架构和九种可视化解释方法。我们使用UCR r等多样的数据集评估了这些可视化解释方法。
+
+    The correct interpretation and understanding of deep learning models are essential in many applications. Explanatory visual interpretation approaches for image, and natural language processing allow domain experts to validate and understand almost any deep learning model. However, they fall short when generalizing to arbitrary time series, which is inherently less intuitive and more diverse. Whether a visualization explains valid reasoning or captures the actual features is difficult to judge. Hence, instead of blind trust, we need an objective evaluation to obtain trustworthy quality metrics. We propose a framework of six orthogonal metrics for gradient-, propagation- or perturbation-based post-hoc visual interpretation methods for time series classification and segmentation tasks. An experimental study includes popular neural network architectures for time series and nine visual interpretation methods. We evaluate the visual interpretation methods with diverse datasets from the UCR r
     
 
