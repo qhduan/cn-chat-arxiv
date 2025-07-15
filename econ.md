@@ -2,67 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [A step towards the integration of machine learning and small area estimation](https://arxiv.org/abs/2402.07521) | 本文提出了一个基于机器学习算法的预测模型，可以根据横断面和纵向数据预测任何人群或子人群的特征，并分析了在实际生活中更重要的背景下的性能。 |
-| [^2] | [Individual and Collective Welfare in Risk Sharing with Many States.](http://arxiv.org/abs/2401.07337) | 在多状态的风险分享中，我们定量评估了福利，并证明了随着状态数增加，改善个体福利的空间消失，分配给改进聚合资源的范围也消失，并且在低效分配中，通过扰动聚合资源来增强福利的可能性随状态数的指数增加而变为零，同时，某些先验概率集随着状态空间的大小而缩小。 |
-| [^3] | [The use of trade data in the analysis of global phosphate flows.](http://arxiv.org/abs/2305.07362) | 本文提出了一种利用贸易数据追踪磷流动的新方法，可以为环境会计的准确性做出贡献。 |
-| [^4] | [Nonparametric Treatment Effect Identification in School Choice.](http://arxiv.org/abs/2112.03872) | 本论文研究了集中学校分配中的非参数化治疗效果识别和估计方法，通过识别原子治疗效应，该研究揭示了在回归不连续和抽签驱动的变异下的学校选择的异质性和重要性。 |
+| [^1] | [Inference for Rank-Rank Regressions.](http://arxiv.org/abs/2310.15512) | 本文研究了等级回归中常用的方差估计器在估计OLS估计器的渐进方差时的不一致性问题，并提出了一种一致估计器。应用新的推论方法在三个经验研究中发现，基于正确方差的估计器的置信区间可能欠精确。 |
+| [^2] | [Estimation and Testing of Forecast Rationality with Many Moments.](http://arxiv.org/abs/2309.09481) | 本文使用P-GMM矩选择过程来估计和测试预测的合理性，结果表明该方法在大维度和实际数据分析中都取得了良好的效果。 |
+| [^3] | [On Gale's Contribution in Revealed Preference Theory.](http://arxiv.org/abs/2208.07970) | 本文研究了1960年盖尔重要的论文，证明了他所构建的需求函数候选者不是一个需求函数，揭示了显式偏好理论中的一些重要问题。 |
 
 # 详细
 
-[^1]: 机器学习与小区域估计的整合步骤
+[^1]: 推论用于等级回归
 
-    A step towards the integration of machine learning and small area estimation
+    Inference for Rank-Rank Regressions. (arXiv:2310.15512v1 [econ.EM])
 
-    [https://arxiv.org/abs/2402.07521](https://arxiv.org/abs/2402.07521)
+    [http://arxiv.org/abs/2310.15512](http://arxiv.org/abs/2310.15512)
 
-    本文提出了一个基于机器学习算法的预测模型，可以根据横断面和纵向数据预测任何人群或子人群的特征，并分析了在实际生活中更重要的背景下的性能。
-
-    
-
-    机器学习技术的应用已经在许多研究领域得到了发展。目前，在统计学中，包括正式统计学在内，也广泛应用于数据收集（如卫星图像、网络爬取和文本挖掘、数据清洗、集成和插补）以及数据分析。然而，在调查抽样包括小区域估计方面，这些方法的使用仍然非常有限。因此，我们提出一个由这些算法支持的预测模型，可以根据横断面和纵向数据预测任何人群或子人群的特征。机器学习方法已经显示出在识别和建模变量之间复杂和非线性关系方面非常强大，这意味着在强烈偏离经典假设的情况下，它们具有非常好的性能。因此，我们分析了我们的模型在一种不同的背景下的表现，这个背景在我们看来在实际生活中更重要。
-
-    The use of machine-learning techniques has grown in numerous research areas. Currently, it is also widely used in statistics, including the official statistics for data collection (e.g. satellite imagery, web scraping and text mining, data cleaning, integration and imputation) but also for data analysis. However, the usage of these methods in survey sampling including small area estimation is still very limited. Therefore, we propose a predictor supported by these algorithms which can be used to predict any population or subpopulation characteristics based on cross-sectional and longitudinal data. Machine learning methods have already been shown to be very powerful in identifying and modelling complex and nonlinear relationships between the variables, which means that they have very good properties in case of strong departures from the classic assumptions. Therefore, we analyse the performance of our proposal under a different set-up, in our opinion of greater importance in real-life s
-    
-[^2]: 多状态风险分享中的个体和集体福利
-
-    Individual and Collective Welfare in Risk Sharing with Many States. (arXiv:2401.07337v1 [econ.TH])
-
-    [http://arxiv.org/abs/2401.07337](http://arxiv.org/abs/2401.07337)
-
-    在多状态的风险分享中，我们定量评估了福利，并证明了随着状态数增加，改善个体福利的空间消失，分配给改进聚合资源的范围也消失，并且在低效分配中，通过扰动聚合资源来增强福利的可能性随状态数的指数增加而变为零，同时，某些先验概率集随着状态空间的大小而缩小。
+    本文研究了等级回归中常用的方差估计器在估计OLS估计器的渐进方差时的不一致性问题，并提出了一种一致估计器。应用新的推论方法在三个经验研究中发现，基于正确方差的估计器的置信区间可能欠精确。
 
     
 
-    我们对风险分享和不确定性下的经典模型中的福利进行了定量评估。我们证明了三种结果。首先，在均衡分配中，通过给定的边际提高个体福利（ε-提高）的空间随着状态数的增加而消失。其次，为了提高个体福利，分配给改进聚合资源的范围也消失。等价地说：在低效分配中，对于给定水平的资源次优化（根据资源未充分利用的系数度量），通过扰动聚合资源来增强福利的可能性随状态数的指数增加而变为零。最后，我们考虑了具有多个先验概率的标准不确定性规避中的高效风险分享，并显示在低效分配中，某些先验概率集随着状态空间的大小而缩小。
+    在等级回归中，斜率系数是衡量代际流动性的常用指标，例如在子女收入等级与父母收入等级回归中。本文首先指出，常用的方差估计器如同方差估计器或鲁棒方差估计器未能一致估计OLS估计器在等级回归中的渐进方差。我们表明，这些估计器的概率极限可能过大或过小，取决于子女收入和父母收入的联合分布函数的形状。其次，我们导出了等级回归的一般渐进理论，并提供了OLS估计器渐进方差的一致估计器。然后，我们将渐进理论扩展到其他经验工作中涉及等级的回归。最后，我们将新的推论方法应用于三个经验研究。我们发现，基于正确方差的估计器的置信区间有时可能欠精确。
 
-    We provide a quantitative assessment of welfare in the classical model of risk-sharing and exchange under uncertainty. We prove three kinds of results. First, that in an equilibrium allocation, the scope for improving individual welfare by a given margin (an $\ve$-improvement) vanishes as the number of states increases. Second, that the scope for a change in aggregate resources that may be distributed to enhance individual welfare by a given margin also vanishes. Equivalently: in an inefficient allocation, for a given level of resource sub-optimality (as measured by the coefficient of resource under-utilization), the possibilities for enhancing welfare by perturbing aggregate resources decrease exponentially to zero with the number of states. Finally, we consider efficient risk-sharing in standard models of uncertainty aversion with multiple priors, and show that, in an inefficient allocation, certain sets of priors shrink with the size of the state space.
+    Slope coefficients in rank-rank regressions are popular measures of intergenerational mobility, for instance in regressions of a child's income rank on their parent's income rank. In this paper, we first point out that commonly used variance estimators such as the homoskedastic or robust variance estimators do not consistently estimate the asymptotic variance of the OLS estimator in a rank-rank regression. We show that the probability limits of these estimators may be too large or too small depending on the shape of the copula of child and parent incomes. Second, we derive a general asymptotic theory for rank-rank regressions and provide a consistent estimator of the OLS estimator's asymptotic variance. We then extend the asymptotic theory to other regressions involving ranks that have been used in empirical work. Finally, we apply our new inference methods to three empirical studies. We find that the confidence intervals based on estimators of the correct variance may sometimes be sub
     
-[^3]: 利用贸易数据分析全球磷流动的研究
+[^2]: Estimation and Testing of Forecast Rationality with Many Moments. (arXiv:2309.09481v1 [econ.GN])
 
-    The use of trade data in the analysis of global phosphate flows. (arXiv:2305.07362v1 [econ.GN])
+    Estimation and Testing of Forecast Rationality with Many Moments. (arXiv:2309.09481v1 [econ.GN])
 
-    [http://arxiv.org/abs/2305.07362](http://arxiv.org/abs/2305.07362)
+    [http://arxiv.org/abs/2309.09481](http://arxiv.org/abs/2309.09481)
 
-    本文提出了一种利用贸易数据追踪磷流动的新方法，可以为环境会计的准确性做出贡献。
-
-    
-
-    本文介绍了一种跟踪磷从开采国到农业生产国使用的新方法。我们通过将磷岩采矿数据与化肥使用数据和磷相关产品的国际贸易数据相结合来实现目标。我们展示了通过对净出口数据进行某些调整，我们可以在很大程度上推导出国家层面上的磷流矩阵，并因此为物质流分析的准确性做出贡献，这对于改进环境会计不仅对于磷，还适用于许多其他资源至关重要。
-
-    In this paper we present a new method to trace the flows of phosphate from the countries where it is mined to the counties where it is used in agricultural production. We achieve this by combining data on phosphate rock mining with data on fertilizer use and data on international trade of phosphate-related products. We show that by making certain adjustments to data on net exports we can derive the matrix of phosphate flows on the country level to a large degree and thus contribute to the accuracy of material flow analyses, a results that is important for improving environmental accounting, not only for phosphorus but for many other resources.
-    
-[^4]: 学校选择中的非参数化治疗效果识别
-
-    Nonparametric Treatment Effect Identification in School Choice. (arXiv:2112.03872v3 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2112.03872](http://arxiv.org/abs/2112.03872)
-
-    本论文研究了集中学校分配中的非参数化治疗效果识别和估计方法，通过识别原子治疗效应，该研究揭示了在回归不连续和抽签驱动的变异下的学校选择的异质性和重要性。
+    本文使用P-GMM矩选择过程来估计和测试预测的合理性，结果表明该方法在大维度和实际数据分析中都取得了良好的效果。
 
     
 
-    本论文研究集中学校分配中因果效应的非参数化识别和估计。在许多集中分配设置中，学生既受到抽签驱动的变异，也受到回归不连续（RD）驱动的变异。我们刻画了被识别的原子治疗效应（aTEs）的完整集合，定义为在给定学生特征时，一对学校之间的条件平均治疗效应。原子治疗效应是治疗对比的基础，常见的估计方法会掩盖重要的异质性。特别地，许多原子治疗效应的聚合将在RD变异驱动下置零权重，并且这种聚合的估计器在渐进下将对RD驱动的原子治疗效应放置逐渐消失的权重。我们开发了一种用于经验评估RD变异驱动下的原子治疗效应权重的诊断工具。最后，我们提供了估计器和相应的渐进结果以进行推断。
+    在本文中，我们利用P-GMM（Cheng和Liao，2015）的矩选择过程，在由Elliott等人提出的灵活损失下选择有效和相关的矩来估计和测试预测的合理性。我们在大维度的框架中阐述了矩选择的动机，解释了P-GMM矩选择过程的基本机制，并说明了如何在允许存在可能无效矩条件的预测合理性背景下实施它。我们进行了一系列蒙特卡罗模拟来检验P-GMM估计在将仪器中可用的信息整合到估计和测试中的有限样本性能，并使用由费城联邦储备银行发布的专业预测者调查数据进行实际数据分析，进一步说明了所提出方法的实际价值。结果表明，预测者态度的P-GMM后选择估计器的效果很好。
 
-    This paper studies nonparametric identification and estimation of causal effects in centralized school assignment. In many centralized assignment settings, students are subjected to both lottery-driven variation and regression discontinuity (RD) driven variation. We characterize the full set of identified atomic treatment effects (aTEs), defined as the conditional average treatment effect between a pair of schools, given student characteristics. Atomic treatment effects are the building blocks of more aggregated notions of treatment contrasts, and common approaches estimating aggregations of aTEs can mask important heterogeneity. In particular, many aggregations of aTEs put zero weight on aTEs driven by RD variation, and estimators of such aggregations put asymptotically vanishing weight on the RD-driven aTEs. We develop a diagnostic tool for empirically assessing the weight put on aTEs driven by RD variation. Lastly, we provide estimators and accompanying asymptotic results for infere
+    We in this paper utilize P-GMM (Cheng and Liao, 2015) moment selection procedure to select valid and relevant moments for estimating and testing forecast rationality under the flexible loss proposed by Elliott et al. (2005). We motivate the moment selection in a large dimensional setting, explain the fundamental mechanism of P-GMM moment selection procedure, and elucidate how to implement it in the context of forecast rationality by allowing the existence of potentially invalid moment conditions. A set of Monte Carlo simulations is conducted to examine the finite sample performance of P-GMM estimation in integrating the information available in instruments into both the estimation and testing, and a real data analysis using data from the Survey of Professional Forecasters issued by the Federal Reserve Bank of Philadelphia is presented to further illustrate the practical value of the suggested methodology. The results indicate that the P-GMM post-selection estimator of forecaster's atti
+    
+[^3]: 关于盖尔在显式偏好理论中的贡献
+
+    On Gale's Contribution in Revealed Preference Theory. (arXiv:2208.07970v2 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2208.07970](http://arxiv.org/abs/2208.07970)
+
+    本文研究了1960年盖尔重要的论文，证明了他所构建的需求函数候选者不是一个需求函数，揭示了显式偏好理论中的一些重要问题。
+
+    
+
+    我们研究了1960年盖尔发表的一篇重要论文。该论文给出了一个需求函数的候选者的例子，它满足显式偏好的弱公理，但却存在争议，它是否是某个弱序的需求函数。我们对这篇论文进行了细致的解读，首先审查了盖尔所证明的内容，然后我们发现了盖尔证明中的一个缺口，并且证明了他未能证明这个需求函数候选者不是一个需求函数。接着，我们提出了三个完整的证明来证明盖尔的主张。第一个证明是基于Gale本人所证明的事实，第二个证明是使用Shephard引理，简单而现代化，第三个证明是沿着盖尔最初构思的方向进行的。我们的结论是：尽管在1960年，盖尔未能证明所构建的需求函数候选者不是一个需求函数，但他基本证明了它，因此可以说，该需求函数候选者不是一个需求函数。
+
+    We investigate Gale's important paper published in 1960. This paper contains an example of a candidate of the demand function that satisfies the weak axiom of revealed preference and that is doubtful that it is a demand function of some weak order. We examine this paper and first scrutinize what Gale proved. Then we identify a gap in Gale's proof and show that he failed to show that this candidate of the demand function is not a demand function. Next, we present three complete proofs of Gale's claim. First, we construct a proof that was constructible in 1960 by a fact that Gale himself demonstrated. Second, we construct a modern and simple proof using Shephard's lemma. Third, we construct a proof that follows the direction that Gale originally conceived. Our conclusion is as follows: although, in 1960, Gale was not able to prove that the candidate of the demand function that he constructed is not a demand function, he substantially proved it, and therefore it is fair to say that the cr
     
 
