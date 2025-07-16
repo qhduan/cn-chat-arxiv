@@ -2,217 +2,142 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [QFNN-FFD: Quantum Federated Neural Network for Financial Fraud Detection](https://arxiv.org/abs/2404.02595) | 介绍了将量子机器学习和量子计算技术与联邦学习相结合的Quantum Federated Neural Network for Financial Fraud Detection (QFNN-FFD)框架，提出了一种安全、高效的欺诈交易识别方法，显著改进了欺诈检测并确保了数据机密性。 |
-| [^2] | [Continuous Spiking Graph Neural Networks](https://arxiv.org/abs/2404.01897) | COS-GNN将脉冲神经网络（SNNs）与连续图神经网络（CGNNs）结合在一起，以在每个时间步骤对图节点进行表示，并将其与时间一起集成到ODE过程中，以增强信息保存和解决在离散图神经网络中的问题。 |
-| [^3] | [The Full-scale Assembly Simulation Testbed (FAST) Dataset](https://arxiv.org/abs/2403.08969) | 提出了一个新的用于机器学习目的的VR数据集，包括108名参与者在VR中学习组装两种不同全尺寸结构的数据，并探讨了未来研究人员如何利用这个数据集。 |
-| [^4] | [Regret Analysis of Policy Optimization over Submanifolds for Linearly Constrained Online LQG](https://arxiv.org/abs/2403.08553) | 提出了在线乐观牛顿流形（OONM），该方法提供基于函数序列的第一和第二阶信息预测的在线控制器，用于在线LQG线性约束政策优化。 |
-| [^5] | [Approaching Rate-Distortion Limits in Neural Compression with Lattice Transform Coding](https://arxiv.org/abs/2403.07320) | 格点变换编码（LTC）通过在潜空间中采用格点量化，实现了神经压缩中接近速率失真极限的优化。 |
-| [^6] | [Average Calibration Error: A Differentiable Loss for Improved Reliability in Image Segmentation](https://arxiv.org/abs/2403.06759) | 提出一种平均L1校准误差（mL1-ACE）作为辅助损失函数，用于改善图像分割中的像素级校准，减少了校准误差并引入了数据集可靠性直方图以提高校准评估。 |
-| [^7] | [Cascade Speculative Drafting for Even Faster LLM Inference](https://arxiv.org/abs/2312.11462) | 引入了Cascade Speculative Drafting（CS Drafting）算法，通过垂直级联消除神经模型的自回归生成，通过水平级联优化草稿中的时间分配，从而进一步提高LLM推理效率。 |
-| [^8] | [Dynamic Spiking Graph Neural Networks.](http://arxiv.org/abs/2401.05373) | 本文提出了一个名为"动态尖峰图神经网络"（DSGNN）的框架，它将尖峰神经网络（SNNs）与图神经网络（GNNs）结合起来，以解决动态图表示学习中的复杂性和内存开销问题。DSGNN通过动态调整尖峰神经元的状态和连接权重，在传播过程中保持图结构信息的完整性。 |
-| [^9] | [Deep Kalman Filters Can Filter.](http://arxiv.org/abs/2310.19603) | 本研究展示了一类连续时间的深度卡尔曼滤波器（DKFs），可以近似实现一类非马尔可夫和条件高斯信号过程的条件分布律，从而具有在数学金融领域中传统模型基础上的滤波问题的应用潜力。 |
-| [^10] | [Boosting for Bounding the Worst-class Error.](http://arxiv.org/abs/2310.14890) | 该论文提出了一种基于Boosting的算法，可以保证最差类别训练误差的上界，并降低了最差类别的测试误差率。 |
-| [^11] | [Understanding Pan-Sharpening via Generalized Inverse.](http://arxiv.org/abs/2310.02718) | 通过研究广义逆理论，本文提出了一种新的全色增强算法，该算法基于简单矩阵方程描述全色增强问题，并探讨解的条件和光谱、空间分辨率的获取。通过引入降采样增强方法，我们得到了与分量替代和多分辨率分析方法相对应的广义逆矩阵表达式，并提出了一个新的模型先验来解决全色增强中的理论误差问题。 |
-| [^12] | [Don't be so negative! Score-based Generative Modeling with Oracle-assisted Guidance.](http://arxiv.org/abs/2307.16463) | 本文提出了一种基于得分的生成建模方法Gen-neG，它利用额外的辅助信息来指导生成过程。通过引导生成过程朝着正支持区域生成样本，该方法在自动驾驶模拟器中的避碰应用和安全防护人体动作生成中展现了实用性。 |
-| [^13] | [Multi-Player Zero-Sum Markov Games with Networked Separable Interactions.](http://arxiv.org/abs/2307.09470) | 本文研究了一种新的马尔可夫游戏类别，通过带有网络可分离交互的多人零和马尔可夫游戏模型（MZNMGs）来模拟非合作多智能体顺序决策中的局部交互结构。作者确定了MG可被表示为MZNMG的必要和充分条件，并证明其Markov CCE集合与Markov NE集合相等；此外，在无限时间折扣MZNMG中找到近似的Markov稳定CCE是PPAD难题，除非网络具有“星状结构”。 |
-| [^14] | [CoCo: A Coupled Contrastive Framework for Unsupervised Domain Adaptive Graph Classification.](http://arxiv.org/abs/2306.04979) | CoCo是一种耦合对比图表示学习框架，其中包含一个图卷积网络和一个分层图内核网络，通过耦合对比学习减少领域差异，用于无监督领域自适应图分类。 |
+| [^1] | [PPA-Game: Characterizing and Learning Competitive Dynamics Among Online Content Creators](https://arxiv.org/abs/2403.15524) | 引入了PPA-Game模型来表征类似YouTube和TikTok平台上的内容创作者之间竞争动态，分析显示纯纳什均衡在大多数情况下是常见的，提出了一种在线算法用于最大化每个代理者的累积收益。 |
+| [^2] | [Overcoming the Paradox of Certified Training with Gaussian Smoothing](https://arxiv.org/abs/2403.07095) | 通过使用高斯损失平滑方法，本研究提出了一种结合PGPE算法和不同凸放宽的认证训练方法，可以在训练神经网络时缓解紧凑凸松弛带来的问题，并获得更好性能的网络。 |
+| [^3] | [FairTargetSim: An Interactive Simulator for Understanding and Explaining the Fairness Effects of Target Variable Definition](https://arxiv.org/abs/2403.06031) | FairTargetSim提供了一个交互式模拟器，展示了目标变量定义对公平性的影响，适用于算法开发者、研究人员和非技术利益相关者。 |
+| [^4] | [TorchCP: A Library for Conformal Prediction based on PyTorch](https://arxiv.org/abs/2402.12683) | TorchCP是一个基于PyTorch的Python工具包，为深度学习模型上的合拟常规预测研究提供了实现后验和训练方法的多种工具，包括分类和回归任务。En_Tdlr: TorchCP is a Python toolbox built on PyTorch for conformal prediction research on deep learning models, providing various implementations for posthoc and training methods for classification and regression tasks, including multi-dimension output. |
+| [^5] | [X Hacking: The Threat of Misguided AutoML](https://arxiv.org/abs/2401.08513) | 本文介绍了X黑客的概念，即利用自动化机器学习流程来操纵可解释AI（XAI）指标，从而产生所需解释的模型，而不降低其预测性能。研究者总结了X黑客现象的严重性，并提出了可能的检测和预防方法，同时探讨了对XAI研究可信度和可重现性的伦理影响。 |
+| [^6] | [Beyond PCA: A Probabilistic Gram-Schmidt Approach to Feature Extraction](https://arxiv.org/abs/2311.09386) | 本研究提出了一种概率性Gram-Schmidt方法来进行特征提取，该方法可以检测和去除非线性依赖性，从而提取数据中的线性特征并去除非线性冗余。 |
+| [^7] | [VFedMH: Vertical Federated Learning for Training Multi-party Heterogeneous Models.](http://arxiv.org/abs/2310.13367) | VFedMH是一种垂直联合学习方法，通过在前向传播过程中聚合参与者的嵌入来处理参与者之间的异构模型，解决了现有VFL方法面临的挑战。 |
+| [^8] | [GRAPES: Learning to Sample Graphs for Scalable Graph Neural Networks.](http://arxiv.org/abs/2310.03399) | GRAPES是一种自适应图采样方法，通过学习识别在训练图神经网络分类器时具有影响力的节点集合，解决了可扩展图神经网络中的内存问题，并且在准确性和可扩展性方面表现出色。 |
+| [^9] | [Data diversity and virtual imaging in AI-based diagnosis: A case study based on COVID-19.](http://arxiv.org/abs/2308.09730) | 本研究通过使用多样性的临床和虚拟生成的医学图像开发和评估了COVID-19诊断的AI模型，发现数据集特征对于AI性能具有重要影响，容易导致泛化能力较差，最高下降20％。 |
 
 # 详细
 
-[^1]: QFNN-FFD：用于金融欺诈检测的量子联邦神经网络
+[^1]: PPA-Game：表征和学习在线内容创作者之间的竞争动态
 
-    QFNN-FFD: Quantum Federated Neural Network for Financial Fraud Detection
+    PPA-Game: Characterizing and Learning Competitive Dynamics Among Online Content Creators
 
-    [https://arxiv.org/abs/2404.02595](https://arxiv.org/abs/2404.02595)
+    [https://arxiv.org/abs/2403.15524](https://arxiv.org/abs/2403.15524)
 
-    介绍了将量子机器学习和量子计算技术与联邦学习相结合的Quantum Federated Neural Network for Financial Fraud Detection (QFNN-FFD)框架，提出了一种安全、高效的欺诈交易识别方法，显著改进了欺诈检测并确保了数据机密性。
-
-    
-
-    这项研究介绍了Quantum Federated Neural Network for Financial Fraud Detection (QFNN-FFD)，这是一个融合了量子机器学习（QML）和量子计算技术与联邦学习（FL）的前沿框架，用于创新金融欺诈检测。利用量子技术的计算能力和FL的数据隐私，QFNN-FFD提出了一种安全、高效的识别欺诈交易的方法。在分布式客户端实施双阶段训练模型超越了现有的性能方法。QFNN-FFD显著改进了欺诈检测并确保了数据机密性，标志着金融科技解决方案的重大进步，并为以隐私为重点的欺诈检测建立了新标准。
-
-    arXiv:2404.02595v1 Announce Type: cross  Abstract: This study introduces the Quantum Federated Neural Network for Financial Fraud Detection (QFNN-FFD), a cutting-edge framework merging Quantum Machine Learning (QML) and quantum computing with Federated Learning (FL) to innovate financial fraud detection. Using quantum technologies' computational power and FL's data privacy, QFNN-FFD presents a secure, efficient method for identifying fraudulent transactions. Implementing a dual-phase training model across distributed clients surpasses existing methods in performance. QFNN-FFD significantly improves fraud detection and ensures data confidentiality, marking a significant advancement in fintech solutions and establishing a new standard for privacy-focused fraud detection.
-    
-[^2]: 连续脉冲图神经网络
-
-    Continuous Spiking Graph Neural Networks
-
-    [https://arxiv.org/abs/2404.01897](https://arxiv.org/abs/2404.01897)
-
-    COS-GNN将脉冲神经网络（SNNs）与连续图神经网络（CGNNs）结合在一起，以在每个时间步骤对图节点进行表示，并将其与时间一起集成到ODE过程中，以增强信息保存和解决在离散图神经网络中的问题。
+    引入了PPA-Game模型来表征类似YouTube和TikTok平台上的内容创作者之间竞争动态，分析显示纯纳什均衡在大多数情况下是常见的，提出了一种在线算法用于最大化每个代理者的累积收益。
 
     
 
-    连续图神经网络（CGNNs）因引入连续动力学而引起了极大关注，能够推广现有的离散图神经网络（GNNs）。它们通常受扩散类方法启发，引入了一种新颖的传播方案，并使用常微分方程（ODE）进行分析。然而，CGNNs的实现需要大量计算能力，这使得它们难以部署在电池供电设备上。受最近脉冲神经网络（SNNs）的启发，SNNs模拟生物推理过程并提供一种节能的神经架构，我们将SNNs与CGNNs结合到一个统一框架中，命名为连续脉冲图神经网络（COS-GNN）。我们在每个时间步骤使用SNNs进行图节点表示，这些表示进一步与时间一起集成到ODE过程中，以增强信息保存和缓解...
+    我们引入了比例性收益分配游戏（PPA-Game）来模拟代理者如何竞争可分配资源和消费者的注意力，类似于YouTube和TikTok等平台上的内容创作者。根据异质权重为代理者分配收益，反映了创作者之间内容质量的多样性。我们的分析表明，纯纳什均衡（PNE）并不在每种情况下都有保证，但在我们的模拟中，通常会观察到，其缺乏情况是罕见的。除了分析静态收益外，我们进一步讨论了代理者关于资源收益的在线学习，将多玩家多臂老虎机框架整合在一起。我们提出了一种在线算法，在$T$轮中促进每个代理者累积收益的最大化。从理论上讲，我们建立了任何代理者的遗憾在任何$\eta > 0$下都受到$O(\log^{1 + \eta} T)$的限制。经验结果进一步验证了我们的算法的有效性。
 
-    arXiv:2404.01897v1 Announce Type: cross  Abstract: Continuous graph neural networks (CGNNs) have garnered significant attention due to their ability to generalize existing discrete graph neural networks (GNNs) by introducing continuous dynamics. They typically draw inspiration from diffusion-based methods to introduce a novel propagation scheme, which is analyzed using ordinary differential equations (ODE). However, the implementation of CGNNs requires significant computational power, making them challenging to deploy on battery-powered devices. Inspired by recent spiking neural networks (SNNs), which emulate a biological inference process and provide an energy-efficient neural architecture, we incorporate the SNNs with CGNNs in a unified framework, named Continuous Spiking Graph Neural Networks (COS-GNN). We employ SNNs for graph node representation at each time step, which are further integrated into the ODE process along with time. To enhance information preservation and mitigate in
+    arXiv:2403.15524v1 Announce Type: cross  Abstract: We introduce the Proportional Payoff Allocation Game (PPA-Game) to model how agents, akin to content creators on platforms like YouTube and TikTok, compete for divisible resources and consumers' attention. Payoffs are allocated to agents based on heterogeneous weights, reflecting the diversity in content quality among creators. Our analysis reveals that although a pure Nash equilibrium (PNE) is not guaranteed in every scenario, it is commonly observed, with its absence being rare in our simulations. Beyond analyzing static payoffs, we further discuss the agents' online learning about resource payoffs by integrating a multi-player multi-armed bandit framework. We propose an online algorithm facilitating each agent's maximization of cumulative payoffs over $T$ rounds. Theoretically, we establish that the regret of any agent is bounded by $O(\log^{1 + \eta} T)$ for any $\eta > 0$. Empirical results further validate the effectiveness of ou
     
-[^3]: 全尺寸装配模拟测试台（FAST）数据集
+[^2]: 用高斯平滑克服认证培训的悖论
 
-    The Full-scale Assembly Simulation Testbed (FAST) Dataset
+    Overcoming the Paradox of Certified Training with Gaussian Smoothing
 
-    [https://arxiv.org/abs/2403.08969](https://arxiv.org/abs/2403.08969)
+    [https://arxiv.org/abs/2403.07095](https://arxiv.org/abs/2403.07095)
 
-    提出了一个新的用于机器学习目的的VR数据集，包括108名参与者在VR中学习组装两种不同全尺寸结构的数据，并探讨了未来研究人员如何利用这个数据集。
-
-    
-
-    近年来，许多研究人员已经开始研究虚拟现实（VR）跟踪和交互数据如何用于各种机器学习目的，包括用户识别、预测网络晕动症和估算学习增益。本文介绍了一个新的公开数据集，该数据集是使用我们的基于VR的全尺寸装配模拟测试台（FAST）捕获的。这个数据集包括从108名参与者（50名女性，56名男性，2名非二元性别）学习如何在VR中组装两种不同全尺寸结构时收集的数据。除了解释数据集是如何收集的并描述包含的数据外，我们还讨论了未来研究人员如何使用这个数据集。
-
-    arXiv:2403.08969v1 Announce Type: cross  Abstract: In recent years, numerous researchers have begun investigating how virtual reality (VR) tracking and interaction data can be used for a variety of machine learning purposes, including user identification, predicting cybersickness, and estimating learning gains. One constraint for this research area is the dearth of open datasets. In this paper, we present a new open dataset captured with our VR-based Full-scale Assembly Simulation Testbed (FAST). This dataset consists of data collected from 108 participants (50 females, 56 males, 2 non-binary) learning how to assemble two distinct full-scale structures in VR. In addition to explaining how the dataset was collected and describing the data included, we discuss how the dataset may be used by future researchers.
-    
-[^4]: 在线LQG线性约束政策优化的遗憾分析
-
-    Regret Analysis of Policy Optimization over Submanifolds for Linearly Constrained Online LQG
-
-    [https://arxiv.org/abs/2403.08553](https://arxiv.org/abs/2403.08553)
-
-    提出了在线乐观牛顿流形（OONM），该方法提供基于函数序列的第一和第二阶信息预测的在线控制器，用于在线LQG线性约束政策优化。
+    通过使用高斯损失平滑方法，本研究提出了一种结合PGPE算法和不同凸放宽的认证训练方法，可以在训练神经网络时缓解紧凑凸松弛带来的问题，并获得更好性能的网络。
 
     
 
-    在线优化和控制的最新进展为研究在线线性二次调节器（LQR）问题提供了新工具，其中成本矩阵随时间变化对抗性变化。然而，现有作品的控制器参数化可能不满足实际条件，如由于物理连接而导致的稀疏性。在这项工作中，我们研究了在线线性二次高斯问题，其中对控制器施加了给定的线性约束。受[1]最近提出的关于线性约束的线下LQR政策优化的启发，该方法提出了一个二阶方法，配备了一种在最优控制问题的背景下自然产生的黎曼度量，我们提出了在线乐观牛顿流形（OONM），提供基于函数序列的第一和第二阶信息预测的在线控制器。为了量化提出的算法，我们利用了遗憾的概念
+    尽管付出了大量努力，但训练神经网络以高认证准确度对抗对抗性示例仍然是一个悬而未决的问题。在训练中，尽管认证方法可以有效地利用紧凑的凸松弛进行界计算，但这些方法表现不如较松的松弛。先前的工作假设这是由这些更紧的松弛导致的损失表面的不连续性和扰动敏感性。在这项研究中，我们理论上展示了高斯损失平滑可以缓解这两个问题。我们通过提出一种结合PGPE的认证训练方法，该算法计算平滑损失的梯度，并使用不同的凸放宽来确认这一点。在使用这种训练方法时，我们观察到更紧密的界限确实导致更好的网络，可以在相同网络上胜过同类技术。尽管扩展基于PGPE的训练仍然具有挑战性。
 
-    arXiv:2403.08553v1 Announce Type: cross  Abstract: Recent advancement in online optimization and control has provided novel tools to study online linear quadratic regulator (LQR) problems, where cost matrices are varying adversarially over time. However, the controller parameterization of existing works may not satisfy practical conditions like sparsity due to physical connections. In this work, we study online linear quadratic Gaussian problems with a given linear constraint imposed on the controller. Inspired by the recent work of [1] which proposed, for a linearly constrained policy optimization of an offline LQR, a second order method equipped with a Riemannian metric that emerges naturally in the context of optimal control problems, we propose online optimistic Newton on manifold (OONM) which provides an online controller based on the prediction on the first and second order information of the function sequence. To quantify the proposed algorithm, we leverage the notion of regret 
+    arXiv:2403.07095v1 Announce Type: new  Abstract: Training neural networks with high certified accuracy against adversarial examples remains an open problem despite significant efforts. While certification methods can effectively leverage tight convex relaxations for bound computation, in training, these methods perform worse than looser relaxations. Prior work hypothesized that this is caused by the discontinuity and perturbation sensitivity of the loss surface induced by these tighter relaxations. In this work, we show theoretically that Gaussian Loss Smoothing can alleviate both of these issues. We confirm this empirically by proposing a certified training method combining PGPE, an algorithm computing gradients of a smoothed loss, with different convex relaxations. When using this training method, we observe that tighter bounds indeed lead to strictly better networks that can outperform state-of-the-art methods on the same network. While scaling PGPE-based training remains challengin
     
-[^5]: 用格点变换编码接近神经压缩中的速率失真极限
+[^3]: FairTargetSim：用于理解和解释目标变量定义公平性影响的交互式模拟器
 
-    Approaching Rate-Distortion Limits in Neural Compression with Lattice Transform Coding
+    FairTargetSim: An Interactive Simulator for Understanding and Explaining the Fairness Effects of Target Variable Definition
 
-    [https://arxiv.org/abs/2403.07320](https://arxiv.org/abs/2403.07320)
+    [https://arxiv.org/abs/2403.06031](https://arxiv.org/abs/2403.06031)
 
-    格点变换编码（LTC）通过在潜空间中采用格点量化，实现了神经压缩中接近速率失真极限的优化。
-
-    
-
-    神经压缩在设计具有良好速率失真（RD）性能但复杂度低的有损压缩器方面取得了巨大进展。迄今为止，神经压缩设计涉及将源转换为潜变量，然后舍入为整数并进行熵编码。尽管这种方法已被证明在某些源上的一次性情况下是最佳的，但我们表明在i.i.d.序列上它是高度次优的，事实上总是恢复原始源序列的标量量化。我们展示亚优越性是由于潜空间中量化方案的选择，而非变换设计所致。通过在潜空间中采用格点量化而非标量量化，我们展示了格点变换编码（Lattice Transform Coding，LTC）能够在各个维度上恢复最佳矢量量化，并在合理的复杂度下接近渐近可实现的速率失真函数。
-
-    arXiv:2403.07320v1 Announce Type: cross  Abstract: Neural compression has brought tremendous progress in designing lossy compressors with good rate-distortion (RD) performance at low complexity. Thus far, neural compression design involves transforming the source to a latent vector, which is then rounded to integers and entropy coded. While this approach has been shown to be optimal in a one-shot sense on certain sources, we show that it is highly sub-optimal on i.i.d. sequences, and in fact always recovers scalar quantization of the original source sequence. We demonstrate that the sub-optimality is due to the choice of quantization scheme in the latent space, and not the transform design. By employing lattice quantization instead of scalar quantization in the latent space, we demonstrate that Lattice Transform Coding (LTC) is able to recover optimal vector quantization at various dimensions and approach the asymptotically-achievable rate-distortion function at reasonable complexity. 
-    
-[^6]: 平均校准误差：一种可微损失函数，用于改善图像分割中的可靠性
-
-    Average Calibration Error: A Differentiable Loss for Improved Reliability in Image Segmentation
-
-    [https://arxiv.org/abs/2403.06759](https://arxiv.org/abs/2403.06759)
-
-    提出一种平均L1校准误差（mL1-ACE）作为辅助损失函数，用于改善图像分割中的像素级校准，减少了校准误差并引入了数据集可靠性直方图以提高校准评估。
+    FairTargetSim提供了一个交互式模拟器，展示了目标变量定义对公平性的影响，适用于算法开发者、研究人员和非技术利益相关者。
 
     
 
-    医学图像分割的深度神经网络经常产生与经验观察不一致的过于自信的结果，这种校准错误挑战着它们的临床应用。我们提出使用平均L1校准误差（mL1-ACE）作为一种新颖的辅助损失函数，以改善像素级校准而不会损害分割质量。我们展示了，尽管使用硬分箱，这种损失是直接可微的，避免了需要近似但可微的替代或软分箱方法的必要性。我们的工作还引入了数据集可靠性直方图的概念，这一概念推广了标准的可靠性图，用于在数据集级别聚合的语义分割中细化校准的视觉评估。使用mL1-ACE，我们将平均和最大校准误差分别降低了45%和55%，同时在BraTS 2021数据集上保持了87%的Dice分数。我们在这里分享我们的代码: https://github
+    机器学习需要为预测或决策定义目标变量，这个过程可能对公平性产生深远影响：偏见通常已经被编码在目标变量定义本身中，而不是在任何数据收集或训练之前。我们提出了一个交互式模拟器，FairTargetSim (FTS)，展示了目标变量定义如何影响公平性。FTS是一个有价值的工具，适用于算法开发者、研究人员和非技术利益相关者。FTS使用了算法招聘的案例研究，使用真实世界数据和用户定义的目标变量。FTS是开源的，可在以下网址找到：http://tinyurl.com/ftsinterface。本文附带的视频网址为：http://tinyurl.com/ijcaifts。
 
-    arXiv:2403.06759v1 Announce Type: cross  Abstract: Deep neural networks for medical image segmentation often produce overconfident results misaligned with empirical observations. Such miscalibration, challenges their clinical translation. We propose to use marginal L1 average calibration error (mL1-ACE) as a novel auxiliary loss function to improve pixel-wise calibration without compromising segmentation quality. We show that this loss, despite using hard binning, is directly differentiable, bypassing the need for approximate but differentiable surrogate or soft binning approaches. Our work also introduces the concept of dataset reliability histograms which generalises standard reliability diagrams for refined visual assessment of calibration in semantic segmentation aggregated at the dataset level. Using mL1-ACE, we reduce average and maximum calibration error by 45% and 55% respectively, maintaining a Dice score of 87% on the BraTS 2021 dataset. We share our code here: https://github
+    arXiv:2403.06031v1 Announce Type: cross  Abstract: Machine learning requires defining one's target variable for predictions or decisions, a process that can have profound implications on fairness: biases are often encoded in target variable definition itself, before any data collection or training. We present an interactive simulator, FairTargetSim (FTS), that illustrates how target variable definition impacts fairness. FTS is a valuable tool for algorithm developers, researchers, and non-technical stakeholders. FTS uses a case study of algorithmic hiring, using real-world data and user-defined target variables. FTS is open-source and available at: http://tinyurl.com/ftsinterface. The video accompanying this paper is here: http://tinyurl.com/ijcaifts.
     
-[^7]: 用于更快的LLM推理的级联推测草图
+[^4]: TorchCP：基于PyTorch的一种适用于合拟常规预测的库
 
-    Cascade Speculative Drafting for Even Faster LLM Inference
+    TorchCP: A Library for Conformal Prediction based on PyTorch
 
-    [https://arxiv.org/abs/2312.11462](https://arxiv.org/abs/2312.11462)
+    [https://arxiv.org/abs/2402.12683](https://arxiv.org/abs/2402.12683)
 
-    引入了Cascade Speculative Drafting（CS Drafting）算法，通过垂直级联消除神经模型的自回归生成，通过水平级联优化草稿中的时间分配，从而进一步提高LLM推理效率。
-
-    
-
-    引入了增强大型语言模型（LLM）推理效率的级联推测草图，通过较小的模型生成草稿来运作。较大的目标模型然后查看这个草稿以与其输出对齐，目标模型的任何接受都将减少目标模型运行的数量，从而提高效率。然而，在级联推测的草图过程中包括缓慢的自回归生成，并为生成的标记分配相同的时间，而不考虑它们的重要性。这些低效性共同导致级联推测的性能不佳。为了进一步改善LLM推理，我们引入了级联推测草图（CS Drafting），这是一种整合了两种级联类型的推测执行算法。垂直级联从神经模型中消除自回归生成，而水平级联优化了草稿中的时间分配
-
-    arXiv:2312.11462v3 Announce Type: replace-cross  Abstract: Introduced to enhance the efficiency of large language model (LLM) inference, speculative decoding operates by having a smaller model generate a draft. A larger target model then reviews this draft to align with its output, and any acceptance by the target model results in a reduction of the number of the target model runs, ultimately improving efficiency. However, the drafting process in speculative decoding includes slow autoregressive generation and allocates equal time to generating tokens, irrespective of their importance. These inefficiencies collectively contribute to the suboptimal performance of speculative decoding. To further improve LLM inference, we introduce Cascade Speculative Drafting (CS Drafting), a speculative execution algorithm that incorporates two types of cascades. The Vertical Cascade eliminates autoregressive generation from neural models, while the Horizontal Cascade optimizes time allocation in draft
-    
-[^8]: 动态尖峰图神经网络
-
-    Dynamic Spiking Graph Neural Networks. (arXiv:2401.05373v1 [cs.NE])
-
-    [http://arxiv.org/abs/2401.05373](http://arxiv.org/abs/2401.05373)
-
-    本文提出了一个名为"动态尖峰图神经网络"（DSGNN）的框架，它将尖峰神经网络（SNNs）与图神经网络（GNNs）结合起来，以解决动态图表示学习中的复杂性和内存开销问题。DSGNN通过动态调整尖峰神经元的状态和连接权重，在传播过程中保持图结构信息的完整性。
+    TorchCP是一个基于PyTorch的Python工具包，为深度学习模型上的合拟常规预测研究提供了实现后验和训练方法的多种工具，包括分类和回归任务。En_Tdlr: TorchCP is a Python toolbox built on PyTorch for conformal prediction research on deep learning models, providing various implementations for posthoc and training methods for classification and regression tasks, including multi-dimension output.
 
     
 
-    将尖峰神经网络（SNNs）和图神经网络（GNNs）相结合渐渐引起了人们的关注，这是因为它在处理由图表示的非欧几里得数据时具有低功耗和高效率。然而，作为一个常见的问题，动态图表示学习面临着高复杂性和大内存开销的挑战。目前的工作通常通过使用二进制特征而不是连续特征的SNNs来替代循环神经网络（RNNs）进行高效训练，这会忽视图结构信息并在传播过程中导致细节的丢失。此外，优化动态尖峰模型通常需要在时间步之间传播信息，这增加了内存需求。为了解决这些挑战，我们提出了一个名为"动态尖峰图神经网络"（\method{}）的框架。为了减轻信息丢失问题，\method{} 在传播过程中引入了一种新的机制，它在每个时间步骤中动态地调整尖峰神经元的状态和连接权重，以保持图结构信息的完整性。
+    TorchCP是一个用于深度学习模型上的合拟常规预测研究的Python工具包。它包含了用于后验和训练方法的各种实现，用于分类和回归任务（包括多维输出）。TorchCP建立在PyTorch之上，并利用矩阵计算的优势，提供简洁高效的推理实现。该代码采用LGPL许可证，并在$\href{https://github.com/ml-stat-Sustech/TorchCP}{\text{this https URL}}$开源。
 
-    The integration of Spiking Neural Networks (SNNs) and Graph Neural Networks (GNNs) is gradually attracting attention due to the low power consumption and high efficiency in processing the non-Euclidean data represented by graphs. However, as a common problem, dynamic graph representation learning faces challenges such as high complexity and large memory overheads. Current work often uses SNNs instead of Recurrent Neural Networks (RNNs) by using binary features instead of continuous ones for efficient training, which would overlooks graph structure information and leads to the loss of details during propagation. Additionally, optimizing dynamic spiking models typically requires propagation of information across time steps, which increases memory requirements. To address these challenges, we present a framework named \underline{Dy}namic \underline{S}p\underline{i}king \underline{G}raph \underline{N}eural Networks (\method{}). To mitigate the information loss problem, \method{} propagates
+    arXiv:2402.12683v1 Announce Type: new  Abstract: TorchCP is a Python toolbox for conformal prediction research on deep learning models. It contains various implementations for posthoc and training methods for classification and regression tasks (including multi-dimension output). TorchCP is built on PyTorch (Paszke et al., 2019) and leverages the advantages of matrix computation to provide concise and efficient inference implementations. The code is licensed under the LGPL license and is open-sourced at $\href{https://github.com/ml-stat-Sustech/TorchCP}{\text{this https URL}}$.
     
-[^9]: 深度卡尔曼滤波器可以进行滤波
+[^5]: X黑客：误导的自动机器学习的威胁
 
-    Deep Kalman Filters Can Filter. (arXiv:2310.19603v1 [cs.LG])
+    X Hacking: The Threat of Misguided AutoML
 
-    [http://arxiv.org/abs/2310.19603](http://arxiv.org/abs/2310.19603)
+    [https://arxiv.org/abs/2401.08513](https://arxiv.org/abs/2401.08513)
 
-    本研究展示了一类连续时间的深度卡尔曼滤波器（DKFs），可以近似实现一类非马尔可夫和条件高斯信号过程的条件分布律，从而具有在数学金融领域中传统模型基础上的滤波问题的应用潜力。
-
-    
-
-    深度卡尔曼滤波器（DKFs）是一类神经网络模型，可以从序列数据中生成高斯概率测度。虽然DKFs受卡尔曼滤波器的启发，但它们缺乏与随机滤波问题的具体理论关联，从而限制了它们在传统模型基础上的滤波问题的应用，例如数学金融中的债券和期权定价模型校准。我们通过展示一类连续时间DKFs，可以近似实现一类非马尔可夫和条件高斯信号过程的条件分布律，从而解决了深度学习数学基础中的这个问题。我们的近似结果在路径的足够规则的紧致子集上一致成立，其中近似误差由在给定紧致路径集上均一地计算的最坏情况2-Wasserstein距离量化。
-
-    Deep Kalman filters (DKFs) are a class of neural network models that generate Gaussian probability measures from sequential data. Though DKFs are inspired by the Kalman filter, they lack concrete theoretical ties to the stochastic filtering problem, thus limiting their applicability to areas where traditional model-based filters have been used, e.g.\ model calibration for bond and option prices in mathematical finance. We address this issue in the mathematical foundations of deep learning by exhibiting a class of continuous-time DKFs which can approximately implement the conditional law of a broad class of non-Markovian and conditionally Gaussian signal processes given noisy continuous-times measurements. Our approximation results hold uniformly over sufficiently regular compact subsets of paths, where the approximation error is quantified by the worst-case 2-Wasserstein distance computed uniformly over the given compact set of paths.
-    
-[^10]: Boosting用于界定最差分类误差
-
-    Boosting for Bounding the Worst-class Error. (arXiv:2310.14890v1 [stat.ML])
-
-    [http://arxiv.org/abs/2310.14890](http://arxiv.org/abs/2310.14890)
-
-    该论文提出了一种基于Boosting的算法，可以保证最差类别训练误差的上界，并降低了最差类别的测试误差率。
+    本文介绍了X黑客的概念，即利用自动化机器学习流程来操纵可解释AI（XAI）指标，从而产生所需解释的模型，而不降低其预测性能。研究者总结了X黑客现象的严重性，并提出了可能的检测和预防方法，同时探讨了对XAI研究可信度和可重现性的伦理影响。
 
     
 
-    本文解决了最差类别误差率的问题，而不是针对所有类别的标准误差率的平均。例如，一个三类别分类任务，其中各类别的误差率分别为10％，10％和40％，其最差类别误差率为40％，而在类别平衡条件下的平均误差率为20％。最差类别错误在许多应用中很重要。例如，在医学图像分类任务中，对于恶性肿瘤类别具有40％的错误率而良性和健康类别具有10％的错误率是不能被接受的。我们提出了一种保证最差类别训练误差上界的提升算法，并推导出其泛化界。实验结果表明，该算法降低了最差类别的测试误差率，同时避免了对训练集的过拟合。
+    可解释的人工智能（XAI）和可解释的机器学习方法有助于建立对模型预测和派生见解的信任，但也为分析师提供了一种扭曲的动机，即操纵XAI指标以支持预先规定的结论。本文介绍了X黑客的概念，即将p-hacking应用于诸如Shap值之类的XAI指标。我们展示了如何利用自动化的机器学习流程来寻找“可辩护”的模型，这些模型可以产生所需的解释并在维持优越的预测性能时。我们将解释和准确性之间的权衡表述为一个多目标优化问题，并通过熟悉的真实世界数据集在经验上展示了X黑客的可行性和严重性。最后，我们提出了可能的检测和预防方法，并讨论了对XAI研究的可信度和可重现性的伦理影响。
 
-    This paper tackles the problem of the worst-class error rate, instead of the standard error rate averaged over all classes. For example, a three-class classification task with class-wise error rates of 10\%, 10\%, and 40\% has a worst-class error rate of 40\%, whereas the average is 20\% under the class-balanced condition. The worst-class error is important in many applications. For example, in a medical image classification task, it would not be acceptable for the malignant tumor class to have a 40\% error rate, while the benign and healthy classes have 10\% error rates.We propose a boosting algorithm that guarantees an upper bound of the worst-class training error and derive its generalization bound. Experimental results show that the algorithm lowers worst-class test error rates while avoiding overfitting to the training set.
+    Explainable AI (XAI) and interpretable machine learning methods help to build trust in model predictions and derived insights, yet also present a perverse incentive for analysts to manipulate XAI metrics to support pre-specified conclusions. This paper introduces the concept of X-hacking, a form of p-hacking applied to XAI metrics such as Shap values. We show how an automated machine learning pipeline can be used to search for 'defensible' models that produce a desired explanation while maintaining superior predictive performance to a common baseline. We formulate the trade-off between explanation and accuracy as a multi-objective optimization problem and illustrate the feasibility and severity of X-hacking empirically on familiar real-world datasets. Finally, we suggest possible methods for detection and prevention, and discuss ethical implications for the credibility and reproducibility of XAI research.
     
-[^11]: 通过广义逆理解全色增强算法
+[^6]: 超越PCA：一种概率性Gram-Schmidt方法的特征提取
 
-    Understanding Pan-Sharpening via Generalized Inverse. (arXiv:2310.02718v1 [cs.LG])
+    Beyond PCA: A Probabilistic Gram-Schmidt Approach to Feature Extraction
 
-    [http://arxiv.org/abs/2310.02718](http://arxiv.org/abs/2310.02718)
+    [https://arxiv.org/abs/2311.09386](https://arxiv.org/abs/2311.09386)
 
-    通过研究广义逆理论，本文提出了一种新的全色增强算法，该算法基于简单矩阵方程描述全色增强问题，并探讨解的条件和光谱、空间分辨率的获取。通过引入降采样增强方法，我们得到了与分量替代和多分辨率分析方法相对应的广义逆矩阵表达式，并提出了一个新的模型先验来解决全色增强中的理论误差问题。
-
-    
-
-    全色增强算法利用全色图像和多光谱图像获取具有高空间和高光谱的图像。然而，这些算法的优化是根据不同的标准设计的。我们采用简单的矩阵方程来描述全色增强问题，并讨论解的存在条件以及光谱和空间分辨率的获取。我们引入了一种降采样增强方法，以更好地获取空间和光谱降采样矩阵。通过广义逆理论，我们推导出了两种形式的广义逆矩阵表达式，可以对应于两个主要的全色增强方法：分量替代和多分辨率分析方法。具体而言，我们证明了Gram Schmidt自适应(GSA)方法遵循分量替代的广义逆矩阵表达式。我们提出了一个在光谱函数的广义逆矩阵之前的模型先验。我们对理论误差进行了分析。
-
-    Pan-sharpening algorithm utilizes panchromatic image and multispectral image to obtain a high spatial and high spectral image. However, the optimizations of the algorithms are designed with different standards. We adopt the simple matrix equation to describe the Pan-sharpening problem. The solution existence condition and the acquirement of spectral and spatial resolution are discussed. A down-sampling enhancement method was introduced for better acquiring the spatial and spectral down-sample matrices. By the generalized inverse theory, we derived two forms of general inverse matrix formulations that can correspond to the two prominent classes of Pan-sharpening methods, that is, component substitution and multi-resolution analysis methods. Specifically, the Gram Schmidt Adaptive(GSA) was proved to follow the general inverse matrix formulation of component substitution. A model prior to the general inverse matrix of the spectral function was rendered. The theoretical errors are analyzed
-    
-[^12]: 不要那么消极！带有Oracle辅助指导的基于得分的生成建模方法
-
-    Don't be so negative! Score-based Generative Modeling with Oracle-assisted Guidance. (arXiv:2307.16463v1 [cs.LG])
-
-    [http://arxiv.org/abs/2307.16463](http://arxiv.org/abs/2307.16463)
-
-    本文提出了一种基于得分的生成建模方法Gen-neG，它利用额外的辅助信息来指导生成过程。通过引导生成过程朝着正支持区域生成样本，该方法在自动驾驶模拟器中的避碰应用和安全防护人体动作生成中展现了实用性。
+    本研究提出了一种概率性Gram-Schmidt方法来进行特征提取，该方法可以检测和去除非线性依赖性，从而提取数据中的线性特征并去除非线性冗余。
 
     
 
-    最大似然原则提倡通过优化数据似然函数进行参数估计。以这种方式估计的模型可以展现出各种由架构、参数化和优化偏差等因素决定的泛化特性。本文解决了在存在额外辅助信息的情况下的模型学习问题，该辅助信息以Oracle的形式存在，可以标记样本是否处于真实数据生成分布的支持范围之外。具体而言，我们开发了一种新的去噪扩散概率建模（DDPM）方法，称为Gen-neG，它利用了这个额外的辅助信息。我们的方法基于生成对抗网络（GANs）和扩散模型中的鉴别器指导，以引导生成过程朝着Oracle所指示的正支持区域生成样本。我们通过在自动驾驶模拟器中的避碰应用和安全防护人体动作生成中的实证验证了Gen-neG的实用性。
+    在无监督学习中，线性特征提取在数据中存在非线性依赖的情况下是一个基本挑战。我们提出使用概率性Gram-Schmidt (GS)类型的正交化过程来检测和映射出冗余维度。具体而言，通过在一族函数上应用GS过程，该族函数预计捕捉到数据中的非线性依赖性，我们构建了一系列协方差矩阵，可以用于识别新的大方差方向，或者将这些依赖性从主成分中去除。在前一种情况下，我们提供了熵减少的信息理论保证。在后一种情况下，我们证明在某些假设下，所得算法在所选择函数族的线性张成空间中可以检测和去除非线性依赖性。两种提出的方法都可以从数据中提取线性特征并去除非线性冗余。
 
-    The maximum likelihood principle advocates parameter estimation via optimization of the data likelihood function. Models estimated in this way can exhibit a variety of generalization characteristics dictated by, e.g. architecture, parameterization, and optimization bias. This work addresses model learning in a setting where there further exists side-information in the form of an oracle that can label samples as being outside the support of the true data generating distribution. Specifically we develop a new denoising diffusion probabilistic modeling (DDPM) methodology, Gen-neG, that leverages this additional side-information. Our approach builds on generative adversarial networks (GANs) and discriminator guidance in diffusion models to guide the generation process towards the positive support region indicated by the oracle. We empirically establish the utility of Gen-neG in applications including collision avoidance in self-driving simulators and safety-guarded human motion generation.
+    Linear feature extraction at the presence of nonlinear dependencies among the data is a fundamental challenge in unsupervised learning. We propose using a probabilistic Gram-Schmidt (GS) type orthogonalization process in order to detect and map out redundant dimensions. Specifically, by applying the GS process over a family of functions which presumably captures the nonlinear dependencies in the data, we construct a series of covariance matrices that can either be used to identify new large-variance directions, or to remove those dependencies from the principal components. In the former case, we provide information-theoretic guarantees in terms of entropy reduction. In the latter, we prove that under certain assumptions the resulting algorithms detect and remove nonlinear dependencies whenever those dependencies lie in the linear span of the chosen function family. Both proposed methods extract linear features from the data while removing nonlinear redundancies. We provide simulation r
     
-[^13]: 带有网络可分离交互的多人零和马尔可夫游戏
+[^7]: VFedMH: 垂直联合学习用于训练多参与方异构模型
 
-    Multi-Player Zero-Sum Markov Games with Networked Separable Interactions. (arXiv:2307.09470v1 [cs.GT])
+    VFedMH: Vertical Federated Learning for Training Multi-party Heterogeneous Models. (arXiv:2310.13367v1 [cs.LG])
 
-    [http://arxiv.org/abs/2307.09470](http://arxiv.org/abs/2307.09470)
+    [http://arxiv.org/abs/2310.13367](http://arxiv.org/abs/2310.13367)
 
-    本文研究了一种新的马尔可夫游戏类别，通过带有网络可分离交互的多人零和马尔可夫游戏模型（MZNMGs）来模拟非合作多智能体顺序决策中的局部交互结构。作者确定了MG可被表示为MZNMG的必要和充分条件，并证明其Markov CCE集合与Markov NE集合相等；此外，在无限时间折扣MZNMG中找到近似的Markov稳定CCE是PPAD难题，除非网络具有“星状结构”。
-
-    
-
-    本文研究了一种新的马尔可夫游戏类别，即带有网络可分离交互的多人零和马尔可夫游戏（MZNMGs），以模拟非合作多智能体顺序决策中的局部交互结构。我们将MZNMG定义为一个模型，其中与每个状态相关的辅助游戏的收益是零和的，并且在某个交互网络上的邻居之间具有一些可分离（即聚合矩阵）结构。我们首先确定了马尔可夫游戏能够被表示为MZNMG的必要和充分条件，并且证明在这些游戏中，马尔可夫粗糙相关均衡（CCE）的集合缩减为马尔可夫纳什均衡（NE）的集合，即前者对所有玩家的每个状态的边际化乘积结果得到后者。此外，我们证明在无限时间折扣MZNMGs中找到近似马尔可夫\emph{稳定}CCE是PPAD难题，除非底层网络具有``星状结构''。
-
-    We study a new class of Markov games (MGs), \textit{Multi-player Zero-sum Markov Games} with {\it Networked separable interactions} (MZNMGs), to model the local interaction structure in non-cooperative multi-agent sequential decision-making. We define an MZNMG as a model where {the payoffs of the auxiliary games associated with each state are zero-sum and} have some separable (i.e., polymatrix) structure across the neighbors over some interaction network. We first identify the necessary and sufficient conditions under which an MG can be presented as an MZNMG, and show that the set of Markov coarse correlated equilibrium (CCE) collapses to the set of Markov Nash equilibrium (NE) in these games, in that the {product of} per-state marginalization of the former for all players yields the latter. Furthermore, we show that finding approximate Markov \emph{stationary} CCE in infinite-horizon discounted MZNMGs is \texttt{PPAD}-hard, unless the underlying network has a ``star topology''. Then, 
-    
-[^14]: CoCo: 一种用于无监督领域自适应图分类的耦合对比框架
-
-    CoCo: A Coupled Contrastive Framework for Unsupervised Domain Adaptive Graph Classification. (arXiv:2306.04979v1 [cs.LG])
-
-    [http://arxiv.org/abs/2306.04979](http://arxiv.org/abs/2306.04979)
-
-    CoCo是一种耦合对比图表示学习框架，其中包含一个图卷积网络和一个分层图内核网络，通过耦合对比学习减少领域差异，用于无监督领域自适应图分类。
+    VFedMH是一种垂直联合学习方法，通过在前向传播过程中聚合参与者的嵌入来处理参与者之间的异构模型，解决了现有VFL方法面临的挑战。
 
     
 
-    虽然图神经网络在图分类中取得了显著成果，但它们通常需要大量特定任务的标签，这可能需要极大的代价来获得。一种可靠的解决方案是探索其他标注图以增强目标域的无监督学习，但如何将图神经网络应用到领域适应中仍未解决，因为对图拓扑的不充分探索以及相当大的领域偏差。本文提出了一种称为CoCo（Coupled Contrastive Graph Representation Learning）方案，该方案从耦合学习分支中提取拓扑信息，并通过耦合对比学习减少领域差异。CoCo包含一个图卷积网络分支和分层图内核网络分支，分别用隐式和显式方式探索图拓扑。此外，我们将耦合分支结合到一个全面的多视角对比学习框架中，
+    垂直联合学习（VFL）作为一种集成样本对齐和特征合并的新型训练范式，已经引起了越来越多的关注。然而，现有的VFL方法在处理参与者之间存在异构本地模型时面临挑战，这影响了优化收敛性和泛化能力。为了解决这个问题，本文提出了一种名为VFedMH的新方法，用于训练多方异构模型。VFedMH的重点是在前向传播期间聚合每个参与者知识的嵌入，而不是中间结果。主动方，拥有样本的标签和特征，在VFedMH中安全地聚合本地嵌入以获得全局知识嵌入，并将其发送给被动方。被动方仅拥有样本的特征，然后利用全局嵌入在其本地异构网络上进行前向传播。然而，被动方不拥有标签。
 
-    Although graph neural networks (GNNs) have achieved impressive achievements in graph classification, they often need abundant task-specific labels, which could be extensively costly to acquire. A credible solution is to explore additional labeled graphs to enhance unsupervised learning on the target domain. However, how to apply GNNs to domain adaptation remains unsolved owing to the insufficient exploration of graph topology and the significant domain discrepancy. In this paper, we propose \underline{Co}upled \underline{Co}ntrastive Graph Representation Learning (\method{}), which extracts the topological information from coupled learning branches and reduces the domain discrepancy with coupled contrastive learning. \method{} contains a graph convolutional network branch and a hierarchical graph kernel network branch, which explore graph topology in implicit and explicit manners. Besides, we incorporate coupled branches into a holistic multi-view contrastive learning framework, which 
+    Vertical Federated Learning (VFL) has gained increasing attention as a novel training paradigm that integrates sample alignment and feature union. However, existing VFL methods face challenges when dealing with heterogeneous local models among participants, which affects optimization convergence and generalization. To address this issue, this paper proposes a novel approach called Vertical Federated learning for training Multi-parties Heterogeneous models (VFedMH). VFedMH focuses on aggregating the embeddings of each participant's knowledge instead of intermediate results during forward propagation. The active party, who possesses labels and features of the sample, in VFedMH securely aggregates local embeddings to obtain global knowledge embeddings, and sends them to passive parties. The passive parties, who own only features of the sample, then utilize the global embeddings to propagate forward on their local heterogeneous networks. However, the passive party does not own the labels, 
+    
+[^8]: GRAPES: 学习用于可扩展图神经网络的图采样
+
+    GRAPES: Learning to Sample Graphs for Scalable Graph Neural Networks. (arXiv:2310.03399v1 [cs.LG])
+
+    [http://arxiv.org/abs/2310.03399](http://arxiv.org/abs/2310.03399)
+
+    GRAPES是一种自适应图采样方法，通过学习识别在训练图神经网络分类器时具有影响力的节点集合，解决了可扩展图神经网络中的内存问题，并且在准确性和可扩展性方面表现出色。
+
+    
+
+    图神经网络（GNNs）通过以不同方式聚合周围信息来学习图中节点的表示。随着这些网络的加深，由于邻域尺寸的增加，它们的感受野呈指数增长，导致高内存消耗。图采样通过对图中节点进行抽样来解决GNNs中的内存问题。通过这种方式，GNNs可以扩展到更大的图。大多数采样方法专注于固定的采样启发式算法，这可能无法推广到不同的结构或任务。我们引入了GRAPES，一种自适应的图采样方法，该方法学习识别用于训练GNN分类器的一组具有影响力的节点。GRAPES使用GFlowNet来学习给定分类目标的节点采样概率。我们在几个小规模和大规模图基准上评估了GRAPES，并展示了其在准确性和可扩展性方面的有效性。与现有的采样方法相比，GRAPES即使在采样比例较低的情况下仍保持高准确性。
+
+    Graph neural networks (GNNs) learn the representation of nodes in a graph by aggregating the neighborhood information in various ways. As these networks grow in depth, their receptive field grows exponentially due to the increase in neighborhood sizes, resulting in high memory costs. Graph sampling solves memory issues in GNNs by sampling a small ratio of the nodes in the graph. This way, GNNs can scale to much larger graphs. Most sampling methods focus on fixed sampling heuristics, which may not generalize to different structures or tasks. We introduce GRAPES, an adaptive graph sampling method that learns to identify sets of influential nodes for training a GNN classifier. GRAPES uses a GFlowNet to learn node sampling probabilities given the classification objectives. We evaluate GRAPES across several small- and large-scale graph benchmarks and demonstrate its effectiveness in accuracy and scalability. In contrast to existing sampling methods, GRAPES maintains high accuracy even with 
+    
+[^9]: 基于COVID-19的数据多样性和虚拟成像的AI诊断：以病例研究为基础
+
+    Data diversity and virtual imaging in AI-based diagnosis: A case study based on COVID-19. (arXiv:2308.09730v1 [eess.IV])
+
+    [http://arxiv.org/abs/2308.09730](http://arxiv.org/abs/2308.09730)
+
+    本研究通过使用多样性的临床和虚拟生成的医学图像开发和评估了COVID-19诊断的AI模型，发现数据集特征对于AI性能具有重要影响，容易导致泛化能力较差，最高下降20％。
+
+    
+
+    许多研究已经调查了基于深度学习的人工智能（AI）模型在新型冠状病毒（COVID-19）的医学影像诊断中的应用，许多报道称其性能几乎完美。然而，性能的变异性和潜在的数据偏差引发了对临床适用性的担忧。本回顾性研究涉及使用临床多样性和虚拟生成的医学图像开发和评估COVID-19诊断的人工智能（AI）模型。此外，我们进行了一次虚拟成像试验，以评估AI性能受疾病范围、辐射剂量和计算机断层扫描（CT）和胸部放射摄影（CXR）成像模态等几个患者和物理性因素的影响。数据集特征（包括数量、多样性和患病率）强烈影响了AI的性能，导致接收者操作特征曲线下面积下降了高达20％，且泛化能力差。
+
+    Many studies have investigated deep-learning-based artificial intelligence (AI) models for medical imaging diagnosis of the novel coronavirus (COVID-19), with many reports of near-perfect performance. However, variability in performance and underlying data biases raise concerns about clinical generalizability. This retrospective study involved the development and evaluation of artificial intelligence (AI) models for COVID-19 diagnosis using both diverse clinical and virtually generated medical images. In addition, we conducted a virtual imaging trial to assess how AI performance is affected by several patient- and physics-based factors, including the extent of disease, radiation dose, and imaging modality of computed tomography (CT) and chest radiography (CXR). AI performance was strongly influenced by dataset characteristics including quantity, diversity, and prevalence, leading to poor generalization with up to 20% drop in receiver operating characteristic area under the curve. Model
     
 
