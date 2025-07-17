@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Repeated Padding as Data Augmentation for Sequential Recommendation](https://arxiv.org/abs/2403.06372) | 本文提出了一种名为"RepPad"的简单而有效的填充方法，旨在充分利用填充空间来提高顺序推荐模型的性能和训练效率。 |
+| [^1] | [Ghost Sentence: A Tool for Everyday Users to Copyright Data from Large Language Models](https://arxiv.org/abs/2403.15740) | 通过在文档中插入个人密码并识别生成内容中的“幽灵句子”，普通用户可以确认大型语言模型是否滥用其数据，从而实现数据版权保护。 |
 
 # 详细
 
-[^1]: 重复填充作为顺序推荐的数据增强
+[^1]: Ghost Sentence：一种供普通用户使用的工具，用于对大型语言模型中的数据进行版权保护
 
-    Repeated Padding as Data Augmentation for Sequential Recommendation
+    Ghost Sentence: A Tool for Everyday Users to Copyright Data from Large Language Models
 
-    [https://arxiv.org/abs/2403.06372](https://arxiv.org/abs/2403.06372)
+    [https://arxiv.org/abs/2403.15740](https://arxiv.org/abs/2403.15740)
 
-    本文提出了一种名为"RepPad"的简单而有效的填充方法，旨在充分利用填充空间来提高顺序推荐模型的性能和训练效率。
+    通过在文档中插入个人密码并识别生成内容中的“幽灵句子”，普通用户可以确认大型语言模型是否滥用其数据，从而实现数据版权保护。
 
     
 
-    顺序推荐旨在根据用户的历史互动提供个性化建议。在训练顺序模型时，填充是一种被广泛采用的技术，主要原因有两个：1）绝大多数模型只能处理固定长度的序列；2）基于批处理的训练需要确保每个批次中的序列具有相同的长度。通常使用特殊值0作为填充内容，不包含实际信息并在模型计算中被忽略。这种常识填充策略引出了一个以前从未探讨过的问题：我们能否通过填充其他内容充分利用这一闲置输入空间，进一步提高模型性能和训练效率？ 在本文中，我们提出了一种简单而有效的填充方法，名为RepPad (重复填充)。
+    Web用户数据在预训练大型语言模型（LLMs）及其微调变种的生态系统中起着核心作用。本文提出了一种方法，建议用户在其文档中反复插入个人密码，使LLMs能够记忆这些密码。这些用户文档中隐藏的密码，被称为“幽灵句子”，一旦它们出现在LLMs生成的内容中，用户就可以确信他们的数据被用于训练。为了探索这种版权工具的有效性和用法，我们利用幽灵句子定义了“用户训练数据识别”任务。我们创建了来自不同来源、不同规模的多个数据集，并使用不同规模的LLMs进行测试。为了评估，我们引入了一个最后$k$个单词验证的方式。
 
-    arXiv:2403.06372v1 Announce Type: new  Abstract: Sequential recommendation aims to provide users with personalized suggestions based on their historical interactions. When training sequential models, padding is a widely adopted technique for two main reasons: 1) The vast majority of models can only handle fixed-length sequences; 2) Batching-based training needs to ensure that the sequences in each batch have the same length. The special value \emph{0} is usually used as the padding content, which does not contain the actual information and is ignored in the model calculations. This common-sense padding strategy leads us to a problem that has never been explored before: \emph{Can we fully utilize this idle input space by padding other content to further improve model performance and training efficiency?}   In this paper, we propose a simple yet effective padding method called \textbf{Rep}eated \textbf{Pad}ding (\textbf{RepPad}). Specifically, we use the original interaction sequences as
+    arXiv:2403.15740v1 Announce Type: new  Abstract: Web user data plays a central role in the ecosystem of pre-trained large language models (LLMs) and their fine-tuned variants. Billions of data are crawled from the web and fed to LLMs. How can \textit{\textbf{everyday web users}} confirm if LLMs misuse their data without permission? In this work, we suggest that users repeatedly insert personal passphrases into their documents, enabling LLMs to memorize them. These concealed passphrases in user documents, referred to as \textit{ghost sentences}, once they are identified in the generated content of LLMs, users can be sure that their data is used for training. To explore the effectiveness and usage of this copyrighting tool, we define the \textit{user training data identification} task with ghost sentences. Multiple datasets from various sources at different scales are created and tested with LLMs of different sizes. For evaluation, we introduce a last $k$ words verification manner along 
     
 

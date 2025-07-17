@@ -2,129 +2,129 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [PPA-Game: Characterizing and Learning Competitive Dynamics Among Online Content Creators](https://arxiv.org/abs/2403.15524) | 引入了PPA-Game模型来表征类似YouTube和TikTok平台上的内容创作者之间竞争动态，分析显示纯纳什均衡在大多数情况下是常见的，提出了一种在线算法用于最大化每个代理者的累积收益。 |
-| [^2] | [Overcoming the Paradox of Certified Training with Gaussian Smoothing](https://arxiv.org/abs/2403.07095) | 通过使用高斯损失平滑方法，本研究提出了一种结合PGPE算法和不同凸放宽的认证训练方法，可以在训练神经网络时缓解紧凑凸松弛带来的问题，并获得更好性能的网络。 |
-| [^3] | [FairTargetSim: An Interactive Simulator for Understanding and Explaining the Fairness Effects of Target Variable Definition](https://arxiv.org/abs/2403.06031) | FairTargetSim提供了一个交互式模拟器，展示了目标变量定义对公平性的影响，适用于算法开发者、研究人员和非技术利益相关者。 |
-| [^4] | [TorchCP: A Library for Conformal Prediction based on PyTorch](https://arxiv.org/abs/2402.12683) | TorchCP是一个基于PyTorch的Python工具包，为深度学习模型上的合拟常规预测研究提供了实现后验和训练方法的多种工具，包括分类和回归任务。En_Tdlr: TorchCP is a Python toolbox built on PyTorch for conformal prediction research on deep learning models, providing various implementations for posthoc and training methods for classification and regression tasks, including multi-dimension output. |
-| [^5] | [X Hacking: The Threat of Misguided AutoML](https://arxiv.org/abs/2401.08513) | 本文介绍了X黑客的概念，即利用自动化机器学习流程来操纵可解释AI（XAI）指标，从而产生所需解释的模型，而不降低其预测性能。研究者总结了X黑客现象的严重性，并提出了可能的检测和预防方法，同时探讨了对XAI研究可信度和可重现性的伦理影响。 |
-| [^6] | [Beyond PCA: A Probabilistic Gram-Schmidt Approach to Feature Extraction](https://arxiv.org/abs/2311.09386) | 本研究提出了一种概率性Gram-Schmidt方法来进行特征提取，该方法可以检测和去除非线性依赖性，从而提取数据中的线性特征并去除非线性冗余。 |
-| [^7] | [VFedMH: Vertical Federated Learning for Training Multi-party Heterogeneous Models.](http://arxiv.org/abs/2310.13367) | VFedMH是一种垂直联合学习方法，通过在前向传播过程中聚合参与者的嵌入来处理参与者之间的异构模型，解决了现有VFL方法面临的挑战。 |
-| [^8] | [GRAPES: Learning to Sample Graphs for Scalable Graph Neural Networks.](http://arxiv.org/abs/2310.03399) | GRAPES是一种自适应图采样方法，通过学习识别在训练图神经网络分类器时具有影响力的节点集合，解决了可扩展图神经网络中的内存问题，并且在准确性和可扩展性方面表现出色。 |
+| [^1] | [Ghost Sentence: A Tool for Everyday Users to Copyright Data from Large Language Models](https://arxiv.org/abs/2403.15740) | 通过在文档中插入个人密码并识别生成内容中的“幽灵句子”，普通用户可以确认大型语言模型是否滥用其数据，从而实现数据版权保护。 |
+| [^2] | [Governance of Generative Artificial Intelligence for Companies](https://arxiv.org/abs/2403.08802) | 本综述填补了有关企业中生成式人工智能（GenAI）治理的研究空白，提出了一个框架，旨在利用业务机会并减轻与GenAI整合相关风险。 |
+| [^3] | [Error bounds for particle gradient descent, and extensions of the log-Sobolev and Talagrand inequalities](https://arxiv.org/abs/2403.02004) | 证明了粒子梯度下降算法对于一般化的log-Sobolev和Polyak-Lojasiewicz不等式模型的收敛速度，以及推广了Bakry-Emery定理。 |
+| [^4] | [Active Deep Kernel Learning of Molecular Functionalities: Realizing Dynamic Structural Embeddings](https://arxiv.org/abs/2403.01234) | 本文提出了一种利用深度核学习（DKL）的活跃学习方法，通过与传统变分自动编码器（VAEs）的对比分析，创造了优先考虑分子功能性的潜在空间，并且通过迭代重新计算嵌入向量实现了更好组织的潜在空间。 |
+| [^5] | [On the Statistical Properties of Generative Adversarial Models for Low Intrinsic Data Dimension.](http://arxiv.org/abs/2401.15801) | 这篇论文研究了用于低固有数据维度的生成对抗模型的统计属性，提出了关于估计密度的统计保证，涉及数据和潜空间的内在维度，并证明了估计结果与目标的期望Wasserstein-1距离的缩放关系。 |
+| [^6] | [Mathematical Introduction to Deep Learning: Methods, Implementations, and Theory.](http://arxiv.org/abs/2310.20360) | 本书提供了对深度学习算法的数学介绍，包括不同的神经网络架构和优化算法，并涵盖了深度学习算法的理论方面。此外，还介绍了深度学习逼近偏微分方程的方法。希望对学生和科学家们有所帮助。 |
+| [^7] | [Understanding Pan-Sharpening via Generalized Inverse.](http://arxiv.org/abs/2310.02718) | 通过研究广义逆理论，本文提出了一种新的全色增强算法，该算法基于简单矩阵方程描述全色增强问题，并探讨解的条件和光谱、空间分辨率的获取。通过引入降采样增强方法，我们得到了与分量替代和多分辨率分析方法相对应的广义逆矩阵表达式，并提出了一个新的模型先验来解决全色增强中的理论误差问题。 |
+| [^8] | [Prominent Roles of Conditionally Invariant Components in Domain Adaptation: Theory and Algorithms.](http://arxiv.org/abs/2309.10301) | 该论文研究了领域自适应中条件不变组件的作用，提出了一种基于条件不变惩罚的新算法，该算法在目标风险保证方面具有优势。 |
 | [^9] | [Data diversity and virtual imaging in AI-based diagnosis: A case study based on COVID-19.](http://arxiv.org/abs/2308.09730) | 本研究通过使用多样性的临床和虚拟生成的医学图像开发和评估了COVID-19诊断的AI模型，发现数据集特征对于AI性能具有重要影响，容易导致泛化能力较差，最高下降20％。 |
 
 # 详细
 
-[^1]: PPA-Game：表征和学习在线内容创作者之间的竞争动态
+[^1]: Ghost Sentence：一种供普通用户使用的工具，用于对大型语言模型中的数据进行版权保护
 
-    PPA-Game: Characterizing and Learning Competitive Dynamics Among Online Content Creators
+    Ghost Sentence: A Tool for Everyday Users to Copyright Data from Large Language Models
 
-    [https://arxiv.org/abs/2403.15524](https://arxiv.org/abs/2403.15524)
+    [https://arxiv.org/abs/2403.15740](https://arxiv.org/abs/2403.15740)
 
-    引入了PPA-Game模型来表征类似YouTube和TikTok平台上的内容创作者之间竞争动态，分析显示纯纳什均衡在大多数情况下是常见的，提出了一种在线算法用于最大化每个代理者的累积收益。
-
-    
-
-    我们引入了比例性收益分配游戏（PPA-Game）来模拟代理者如何竞争可分配资源和消费者的注意力，类似于YouTube和TikTok等平台上的内容创作者。根据异质权重为代理者分配收益，反映了创作者之间内容质量的多样性。我们的分析表明，纯纳什均衡（PNE）并不在每种情况下都有保证，但在我们的模拟中，通常会观察到，其缺乏情况是罕见的。除了分析静态收益外，我们进一步讨论了代理者关于资源收益的在线学习，将多玩家多臂老虎机框架整合在一起。我们提出了一种在线算法，在$T$轮中促进每个代理者累积收益的最大化。从理论上讲，我们建立了任何代理者的遗憾在任何$\eta > 0$下都受到$O(\log^{1 + \eta} T)$的限制。经验结果进一步验证了我们的算法的有效性。
-
-    arXiv:2403.15524v1 Announce Type: cross  Abstract: We introduce the Proportional Payoff Allocation Game (PPA-Game) to model how agents, akin to content creators on platforms like YouTube and TikTok, compete for divisible resources and consumers' attention. Payoffs are allocated to agents based on heterogeneous weights, reflecting the diversity in content quality among creators. Our analysis reveals that although a pure Nash equilibrium (PNE) is not guaranteed in every scenario, it is commonly observed, with its absence being rare in our simulations. Beyond analyzing static payoffs, we further discuss the agents' online learning about resource payoffs by integrating a multi-player multi-armed bandit framework. We propose an online algorithm facilitating each agent's maximization of cumulative payoffs over $T$ rounds. Theoretically, we establish that the regret of any agent is bounded by $O(\log^{1 + \eta} T)$ for any $\eta > 0$. Empirical results further validate the effectiveness of ou
-    
-[^2]: 用高斯平滑克服认证培训的悖论
-
-    Overcoming the Paradox of Certified Training with Gaussian Smoothing
-
-    [https://arxiv.org/abs/2403.07095](https://arxiv.org/abs/2403.07095)
-
-    通过使用高斯损失平滑方法，本研究提出了一种结合PGPE算法和不同凸放宽的认证训练方法，可以在训练神经网络时缓解紧凑凸松弛带来的问题，并获得更好性能的网络。
+    通过在文档中插入个人密码并识别生成内容中的“幽灵句子”，普通用户可以确认大型语言模型是否滥用其数据，从而实现数据版权保护。
 
     
 
-    尽管付出了大量努力，但训练神经网络以高认证准确度对抗对抗性示例仍然是一个悬而未决的问题。在训练中，尽管认证方法可以有效地利用紧凑的凸松弛进行界计算，但这些方法表现不如较松的松弛。先前的工作假设这是由这些更紧的松弛导致的损失表面的不连续性和扰动敏感性。在这项研究中，我们理论上展示了高斯损失平滑可以缓解这两个问题。我们通过提出一种结合PGPE的认证训练方法，该算法计算平滑损失的梯度，并使用不同的凸放宽来确认这一点。在使用这种训练方法时，我们观察到更紧密的界限确实导致更好的网络，可以在相同网络上胜过同类技术。尽管扩展基于PGPE的训练仍然具有挑战性。
+    Web用户数据在预训练大型语言模型（LLMs）及其微调变种的生态系统中起着核心作用。本文提出了一种方法，建议用户在其文档中反复插入个人密码，使LLMs能够记忆这些密码。这些用户文档中隐藏的密码，被称为“幽灵句子”，一旦它们出现在LLMs生成的内容中，用户就可以确信他们的数据被用于训练。为了探索这种版权工具的有效性和用法，我们利用幽灵句子定义了“用户训练数据识别”任务。我们创建了来自不同来源、不同规模的多个数据集，并使用不同规模的LLMs进行测试。为了评估，我们引入了一个最后$k$个单词验证的方式。
 
-    arXiv:2403.07095v1 Announce Type: new  Abstract: Training neural networks with high certified accuracy against adversarial examples remains an open problem despite significant efforts. While certification methods can effectively leverage tight convex relaxations for bound computation, in training, these methods perform worse than looser relaxations. Prior work hypothesized that this is caused by the discontinuity and perturbation sensitivity of the loss surface induced by these tighter relaxations. In this work, we show theoretically that Gaussian Loss Smoothing can alleviate both of these issues. We confirm this empirically by proposing a certified training method combining PGPE, an algorithm computing gradients of a smoothed loss, with different convex relaxations. When using this training method, we observe that tighter bounds indeed lead to strictly better networks that can outperform state-of-the-art methods on the same network. While scaling PGPE-based training remains challengin
+    arXiv:2403.15740v1 Announce Type: new  Abstract: Web user data plays a central role in the ecosystem of pre-trained large language models (LLMs) and their fine-tuned variants. Billions of data are crawled from the web and fed to LLMs. How can \textit{\textbf{everyday web users}} confirm if LLMs misuse their data without permission? In this work, we suggest that users repeatedly insert personal passphrases into their documents, enabling LLMs to memorize them. These concealed passphrases in user documents, referred to as \textit{ghost sentences}, once they are identified in the generated content of LLMs, users can be sure that their data is used for training. To explore the effectiveness and usage of this copyrighting tool, we define the \textit{user training data identification} task with ghost sentences. Multiple datasets from various sources at different scales are created and tested with LLMs of different sizes. For evaluation, we introduce a last $k$ words verification manner along 
     
-[^3]: FairTargetSim：用于理解和解释目标变量定义公平性影响的交互式模拟器
+[^2]: 企业中生成式人工智能的治理
 
-    FairTargetSim: An Interactive Simulator for Understanding and Explaining the Fairness Effects of Target Variable Definition
+    Governance of Generative Artificial Intelligence for Companies
 
-    [https://arxiv.org/abs/2403.06031](https://arxiv.org/abs/2403.06031)
+    [https://arxiv.org/abs/2403.08802](https://arxiv.org/abs/2403.08802)
 
-    FairTargetSim提供了一个交互式模拟器，展示了目标变量定义对公平性的影响，适用于算法开发者、研究人员和非技术利益相关者。
-
-    
-
-    机器学习需要为预测或决策定义目标变量，这个过程可能对公平性产生深远影响：偏见通常已经被编码在目标变量定义本身中，而不是在任何数据收集或训练之前。我们提出了一个交互式模拟器，FairTargetSim (FTS)，展示了目标变量定义如何影响公平性。FTS是一个有价值的工具，适用于算法开发者、研究人员和非技术利益相关者。FTS使用了算法招聘的案例研究，使用真实世界数据和用户定义的目标变量。FTS是开源的，可在以下网址找到：http://tinyurl.com/ftsinterface。本文附带的视频网址为：http://tinyurl.com/ijcaifts。
-
-    arXiv:2403.06031v1 Announce Type: cross  Abstract: Machine learning requires defining one's target variable for predictions or decisions, a process that can have profound implications on fairness: biases are often encoded in target variable definition itself, before any data collection or training. We present an interactive simulator, FairTargetSim (FTS), that illustrates how target variable definition impacts fairness. FTS is a valuable tool for algorithm developers, researchers, and non-technical stakeholders. FTS uses a case study of algorithmic hiring, using real-world data and user-defined target variables. FTS is open-source and available at: http://tinyurl.com/ftsinterface. The video accompanying this paper is here: http://tinyurl.com/ijcaifts.
-    
-[^4]: TorchCP：基于PyTorch的一种适用于合拟常规预测的库
-
-    TorchCP: A Library for Conformal Prediction based on PyTorch
-
-    [https://arxiv.org/abs/2402.12683](https://arxiv.org/abs/2402.12683)
-
-    TorchCP是一个基于PyTorch的Python工具包，为深度学习模型上的合拟常规预测研究提供了实现后验和训练方法的多种工具，包括分类和回归任务。En_Tdlr: TorchCP is a Python toolbox built on PyTorch for conformal prediction research on deep learning models, providing various implementations for posthoc and training methods for classification and regression tasks, including multi-dimension output.
+    本综述填补了有关企业中生成式人工智能（GenAI）治理的研究空白，提出了一个框架，旨在利用业务机会并减轻与GenAI整合相关风险。
 
     
 
-    TorchCP是一个用于深度学习模型上的合拟常规预测研究的Python工具包。它包含了用于后验和训练方法的各种实现，用于分类和回归任务（包括多维输出）。TorchCP建立在PyTorch之上，并利用矩阵计算的优势，提供简洁高效的推理实现。该代码采用LGPL许可证，并在$\href{https://github.com/ml-stat-Sustech/TorchCP}{\text{this https URL}}$开源。
+    生成式人工智能（GenAI），特别是像ChatGPT这样的大型语言模型，已迅速进入企业，但缺乏充分的治理，带来机遇和挑战。尽管对GenAI具有变革性质和监管措施的广泛讨论，但有限的研究涉及组织治理，包括技术和业务视角。本综述填补了这一空白，调查了最近的研究。它不仅仅是总结，还通过制定适用于企业内的GenAI治理框架来进行。我们的框架详细描述了范围、目标和治理机制，旨在利用业务机会并减轻与GenAI整合相关风险。该研究提供了一种专注于GenAI治理的方法，为企业在负责任的AI采用挑战中提供了实用见解。对于技术人员来说，也有助于拓宽他们的视角。
 
-    arXiv:2402.12683v1 Announce Type: new  Abstract: TorchCP is a Python toolbox for conformal prediction research on deep learning models. It contains various implementations for posthoc and training methods for classification and regression tasks (including multi-dimension output). TorchCP is built on PyTorch (Paszke et al., 2019) and leverages the advantages of matrix computation to provide concise and efficient inference implementations. The code is licensed under the LGPL license and is open-sourced at $\href{https://github.com/ml-stat-Sustech/TorchCP}{\text{this https URL}}$.
+    arXiv:2403.08802v1 Announce Type: new  Abstract: Generative Artificial Intelligence (GenAI), specifically large language models like ChatGPT, has swiftly entered organizations without adequate governance, posing both opportunities and risks. Despite extensive debates on GenAI's transformative nature and regulatory measures, limited research addresses organizational governance, encompassing technical and business perspectives. This review paper fills this gap by surveying recent works. It goes beyond mere summarization by developing a framework for GenAI governance within companies. Our framework outlines the scope, objectives, and governance mechanisms tailored to harness business opportunities and mitigate risks associated with GenAI integration. This research contributes a focused approach to GenAI governance, offering practical insights for companies navigating the challenges of responsible AI adoption. It is also valuable for a technical audience to broaden their perspective as inc
     
-[^5]: X黑客：误导的自动机器学习的威胁
+[^3]: 粒子梯度下降的误差界限，以及log-Sobolev和Talagrand不等式的推广
 
-    X Hacking: The Threat of Misguided AutoML
+    Error bounds for particle gradient descent, and extensions of the log-Sobolev and Talagrand inequalities
 
-    [https://arxiv.org/abs/2401.08513](https://arxiv.org/abs/2401.08513)
+    [https://arxiv.org/abs/2403.02004](https://arxiv.org/abs/2403.02004)
 
-    本文介绍了X黑客的概念，即利用自动化机器学习流程来操纵可解释AI（XAI）指标，从而产生所需解释的模型，而不降低其预测性能。研究者总结了X黑客现象的严重性，并提出了可能的检测和预防方法，同时探讨了对XAI研究可信度和可重现性的伦理影响。
-
-    
-
-    可解释的人工智能（XAI）和可解释的机器学习方法有助于建立对模型预测和派生见解的信任，但也为分析师提供了一种扭曲的动机，即操纵XAI指标以支持预先规定的结论。本文介绍了X黑客的概念，即将p-hacking应用于诸如Shap值之类的XAI指标。我们展示了如何利用自动化的机器学习流程来寻找“可辩护”的模型，这些模型可以产生所需的解释并在维持优越的预测性能时。我们将解释和准确性之间的权衡表述为一个多目标优化问题，并通过熟悉的真实世界数据集在经验上展示了X黑客的可行性和严重性。最后，我们提出了可能的检测和预防方法，并讨论了对XAI研究的可信度和可重现性的伦理影响。
-
-    Explainable AI (XAI) and interpretable machine learning methods help to build trust in model predictions and derived insights, yet also present a perverse incentive for analysts to manipulate XAI metrics to support pre-specified conclusions. This paper introduces the concept of X-hacking, a form of p-hacking applied to XAI metrics such as Shap values. We show how an automated machine learning pipeline can be used to search for 'defensible' models that produce a desired explanation while maintaining superior predictive performance to a common baseline. We formulate the trade-off between explanation and accuracy as a multi-objective optimization problem and illustrate the feasibility and severity of X-hacking empirically on familiar real-world datasets. Finally, we suggest possible methods for detection and prevention, and discuss ethical implications for the credibility and reproducibility of XAI research.
-    
-[^6]: 超越PCA：一种概率性Gram-Schmidt方法的特征提取
-
-    Beyond PCA: A Probabilistic Gram-Schmidt Approach to Feature Extraction
-
-    [https://arxiv.org/abs/2311.09386](https://arxiv.org/abs/2311.09386)
-
-    本研究提出了一种概率性Gram-Schmidt方法来进行特征提取，该方法可以检测和去除非线性依赖性，从而提取数据中的线性特征并去除非线性冗余。
+    证明了粒子梯度下降算法对于一般化的log-Sobolev和Polyak-Lojasiewicz不等式模型的收敛速度，以及推广了Bakry-Emery定理。
 
     
 
-    在无监督学习中，线性特征提取在数据中存在非线性依赖的情况下是一个基本挑战。我们提出使用概率性Gram-Schmidt (GS)类型的正交化过程来检测和映射出冗余维度。具体而言，通过在一族函数上应用GS过程，该族函数预计捕捉到数据中的非线性依赖性，我们构建了一系列协方差矩阵，可以用于识别新的大方差方向，或者将这些依赖性从主成分中去除。在前一种情况下，我们提供了熵减少的信息理论保证。在后一种情况下，我们证明在某些假设下，所得算法在所选择函数族的线性张成空间中可以检测和去除非线性依赖性。两种提出的方法都可以从数据中提取线性特征并去除非线性冗余。
+    我们证明了粒子梯度下降(PGD)~(Kuntz等人，2023)的非渐近误差界限，这是一种最大似然估计的算法，用于离散化自由能梯度流获得的大型潜变量模型。我们首先展示了对于满足一般化log-Sobolev和Polyak-Lojasiewicz不等式（LSI和PLI）的模型，流以指数速度收敛到自由能的极小化集合。我们通过将最优输运文献中众所周知的结果（LSI意味着Talagrand不等式）及其在优化文献中的对应物（PLI意味着所谓的二次增长条件）扩展并应用到我们的新设置，来实现这一点。我们还推广了Bakry-Emery定理，并展示了对于具有强凹对数似然的模型，LSI/PLI的概括成立。
 
-    Linear feature extraction at the presence of nonlinear dependencies among the data is a fundamental challenge in unsupervised learning. We propose using a probabilistic Gram-Schmidt (GS) type orthogonalization process in order to detect and map out redundant dimensions. Specifically, by applying the GS process over a family of functions which presumably captures the nonlinear dependencies in the data, we construct a series of covariance matrices that can either be used to identify new large-variance directions, or to remove those dependencies from the principal components. In the former case, we provide information-theoretic guarantees in terms of entropy reduction. In the latter, we prove that under certain assumptions the resulting algorithms detect and remove nonlinear dependencies whenever those dependencies lie in the linear span of the chosen function family. Both proposed methods extract linear features from the data while removing nonlinear redundancies. We provide simulation r
+    arXiv:2403.02004v1 Announce Type: new  Abstract: We prove non-asymptotic error bounds for particle gradient descent (PGD)~(Kuntz et al., 2023), a recently introduced algorithm for maximum likelihood estimation of large latent variable models obtained by discretizing a gradient flow of the free energy. We begin by showing that, for models satisfying a condition generalizing both the log-Sobolev and the Polyak--{\L}ojasiewicz inequalities (LSI and P{\L}I, respectively), the flow converges exponentially fast to the set of minimizers of the free energy. We achieve this by extending a result well-known in the optimal transport literature (that the LSI implies the Talagrand inequality) and its counterpart in the optimization literature (that the P{\L}I implies the so-called quadratic growth condition), and applying it to our new setting. We also generalize the Bakry--\'Emery Theorem and show that the LSI/P{\L}I generalization holds for models with strongly concave log-likelihoods. For such m
     
-[^7]: VFedMH: 垂直联合学习用于训练多参与方异构模型
+[^4]: 活跃深度核学习分子功能性：实现动态结构嵌入
 
-    VFedMH: Vertical Federated Learning for Training Multi-party Heterogeneous Models. (arXiv:2310.13367v1 [cs.LG])
+    Active Deep Kernel Learning of Molecular Functionalities: Realizing Dynamic Structural Embeddings
 
-    [http://arxiv.org/abs/2310.13367](http://arxiv.org/abs/2310.13367)
+    [https://arxiv.org/abs/2403.01234](https://arxiv.org/abs/2403.01234)
 
-    VFedMH是一种垂直联合学习方法，通过在前向传播过程中聚合参与者的嵌入来处理参与者之间的异构模型，解决了现有VFL方法面临的挑战。
-
-    
-
-    垂直联合学习（VFL）作为一种集成样本对齐和特征合并的新型训练范式，已经引起了越来越多的关注。然而，现有的VFL方法在处理参与者之间存在异构本地模型时面临挑战，这影响了优化收敛性和泛化能力。为了解决这个问题，本文提出了一种名为VFedMH的新方法，用于训练多方异构模型。VFedMH的重点是在前向传播期间聚合每个参与者知识的嵌入，而不是中间结果。主动方，拥有样本的标签和特征，在VFedMH中安全地聚合本地嵌入以获得全局知识嵌入，并将其发送给被动方。被动方仅拥有样本的特征，然后利用全局嵌入在其本地异构网络上进行前向传播。然而，被动方不拥有标签。
-
-    Vertical Federated Learning (VFL) has gained increasing attention as a novel training paradigm that integrates sample alignment and feature union. However, existing VFL methods face challenges when dealing with heterogeneous local models among participants, which affects optimization convergence and generalization. To address this issue, this paper proposes a novel approach called Vertical Federated learning for training Multi-parties Heterogeneous models (VFedMH). VFedMH focuses on aggregating the embeddings of each participant's knowledge instead of intermediate results during forward propagation. The active party, who possesses labels and features of the sample, in VFedMH securely aggregates local embeddings to obtain global knowledge embeddings, and sends them to passive parties. The passive parties, who own only features of the sample, then utilize the global embeddings to propagate forward on their local heterogeneous networks. However, the passive party does not own the labels, 
-    
-[^8]: GRAPES: 学习用于可扩展图神经网络的图采样
-
-    GRAPES: Learning to Sample Graphs for Scalable Graph Neural Networks. (arXiv:2310.03399v1 [cs.LG])
-
-    [http://arxiv.org/abs/2310.03399](http://arxiv.org/abs/2310.03399)
-
-    GRAPES是一种自适应图采样方法，通过学习识别在训练图神经网络分类器时具有影响力的节点集合，解决了可扩展图神经网络中的内存问题，并且在准确性和可扩展性方面表现出色。
+    本文提出了一种利用深度核学习（DKL）的活跃学习方法，通过与传统变分自动编码器（VAEs）的对比分析，创造了优先考虑分子功能性的潜在空间，并且通过迭代重新计算嵌入向量实现了更好组织的潜在空间。
 
     
 
-    图神经网络（GNNs）通过以不同方式聚合周围信息来学习图中节点的表示。随着这些网络的加深，由于邻域尺寸的增加，它们的感受野呈指数增长，导致高内存消耗。图采样通过对图中节点进行抽样来解决GNNs中的内存问题。通过这种方式，GNNs可以扩展到更大的图。大多数采样方法专注于固定的采样启发式算法，这可能无法推广到不同的结构或任务。我们引入了GRAPES，一种自适应的图采样方法，该方法学习识别用于训练GNN分类器的一组具有影响力的节点。GRAPES使用GFlowNet来学习给定分类目标的节点采样概率。我们在几个小规模和大规模图基准上评估了GRAPES，并展示了其在准确性和可扩展性方面的有效性。与现有的采样方法相比，GRAPES即使在采样比例较低的情况下仍保持高准确性。
+    探索分子空间对于推进我们对化学性质和反应的理解至关重要，从而在材料科学、医学和能源领域取得突破性创新。本文探讨了一种利用深度核学习（DKL）进行分子发现的主动学习方法，这是一种超越传统变分自动编码器（VAEs）限制的新方法。使用QM9数据集，我们将DKL与传统VAEs进行对比，后者基于相似性分析分子结构，揭示了由于潜在空间中的稀疏规律性而存在的局限性。然而，DKL通过将结构与性质相关联，创造了优先考虑分子功能性的潜在空间，提供了更全面的视角。这是通过迭代重新计算嵌入向量来实现的，与目标性质的实验可用性保持一致。由此产生的潜在空间不仅组织更好，而且具有独特特性。
 
-    Graph neural networks (GNNs) learn the representation of nodes in a graph by aggregating the neighborhood information in various ways. As these networks grow in depth, their receptive field grows exponentially due to the increase in neighborhood sizes, resulting in high memory costs. Graph sampling solves memory issues in GNNs by sampling a small ratio of the nodes in the graph. This way, GNNs can scale to much larger graphs. Most sampling methods focus on fixed sampling heuristics, which may not generalize to different structures or tasks. We introduce GRAPES, an adaptive graph sampling method that learns to identify sets of influential nodes for training a GNN classifier. GRAPES uses a GFlowNet to learn node sampling probabilities given the classification objectives. We evaluate GRAPES across several small- and large-scale graph benchmarks and demonstrate its effectiveness in accuracy and scalability. In contrast to existing sampling methods, GRAPES maintains high accuracy even with 
+    arXiv:2403.01234v1 Announce Type: new  Abstract: Exploring molecular spaces is crucial for advancing our understanding of chemical properties and reactions, leading to groundbreaking innovations in materials science, medicine, and energy. This paper explores an approach for active learning in molecular discovery using Deep Kernel Learning (DKL), a novel approach surpassing the limits of classical Variational Autoencoders (VAEs). Employing the QM9 dataset, we contrast DKL with traditional VAEs, which analyze molecular structures based on similarity, revealing limitations due to sparse regularities in latent spaces. DKL, however, offers a more holistic perspective by correlating structure with properties, creating latent spaces that prioritize molecular functionality. This is achieved by recalculating embedding vectors iteratively, aligning with the experimental availability of target properties. The resulting latent spaces are not only better organized but also exhibit unique characteri
+    
+[^5]: 关于用于低固有数据维度的生成对抗模型的统计属性
+
+    On the Statistical Properties of Generative Adversarial Models for Low Intrinsic Data Dimension. (arXiv:2401.15801v1 [stat.ML])
+
+    [http://arxiv.org/abs/2401.15801](http://arxiv.org/abs/2401.15801)
+
+    这篇论文研究了用于低固有数据维度的生成对抗模型的统计属性，提出了关于估计密度的统计保证，涉及数据和潜空间的内在维度，并证明了估计结果与目标的期望Wasserstein-1距离的缩放关系。
+
+    
+
+    尽管生成对抗网络（GANs）取得了显著的实证成功，但其统计准确性的理论保证仍然相对悲观。特别是在应用GANs的数据分布（如自然图像）中，通常假设其在高维特征空间中具有固有的低维结构，但这在现有分析中往往没有得到反映。在本文中，我们试图通过推导关于数据和潜空间的内在维度的统计保证来弥合GANs及其双向变体BiGANs在理论和实践之间的差距。我们分析地证明，如果我们有来自未知目标分布的 n 个样本，并且选择了适当的网络架构，那么从目标中估计得出的期望 Wasserstein-1 距离会按照 $O(n^{-1/d_\mu })$ 缩放。
+
+    Despite the remarkable empirical successes of Generative Adversarial Networks (GANs), the theoretical guarantees for their statistical accuracy remain rather pessimistic. In particular, the data distributions on which GANs are applied, such as natural images, are often hypothesized to have an intrinsic low-dimensional structure in a typically high-dimensional feature space, but this is often not reflected in the derived rates in the state-of-the-art analyses. In this paper, we attempt to bridge the gap between the theory and practice of GANs and their bidirectional variant, Bi-directional GANs (BiGANs), by deriving statistical guarantees on the estimated densities in terms of the intrinsic dimension of the data and the latent space. We analytically show that if one has access to $n$ samples from the unknown target distribution and the network architectures are properly chosen, the expected Wasserstein-1 distance of the estimates from the target scales as $O\left( n^{-1/d_\mu } \right)$
+    
+[^6]: 深度学习的数学介绍：方法、实现和理论
+
+    Mathematical Introduction to Deep Learning: Methods, Implementations, and Theory. (arXiv:2310.20360v1 [cs.LG])
+
+    [http://arxiv.org/abs/2310.20360](http://arxiv.org/abs/2310.20360)
+
+    本书提供了对深度学习算法的数学介绍，包括不同的神经网络架构和优化算法，并涵盖了深度学习算法的理论方面。此外，还介绍了深度学习逼近偏微分方程的方法。希望对学生和科学家们有所帮助。
+
+    
+
+    本书旨在介绍深度学习算法的主题。我们详细介绍了深度学习算法的基本组成部分，包括不同的人工神经网络架构（如全连接前馈神经网络、卷积神经网络、循环神经网络、残差神经网络和带有批归一化的神经网络）以及不同的优化算法（如基本的随机梯度下降法、加速方法和自适应方法）。我们还涵盖了深度学习算法的几个理论方面，如人工神经网络的逼近能力（包括神经网络的微积分）、优化理论（包括Kurdyka-Lojasiewicz不等式）和泛化误差。在本书的最后一部分，我们还回顾了一些用于偏微分方程的深度学习逼近方法，包括物理信息神经网络（PINNs）和深度Galerkin方法。希望本书能对学生和科学家们有所帮助。
+
+    This book aims to provide an introduction to the topic of deep learning algorithms. We review essential components of deep learning algorithms in full mathematical detail including different artificial neural network (ANN) architectures (such as fully-connected feedforward ANNs, convolutional ANNs, recurrent ANNs, residual ANNs, and ANNs with batch normalization) and different optimization algorithms (such as the basic stochastic gradient descent (SGD) method, accelerated methods, and adaptive methods). We also cover several theoretical aspects of deep learning algorithms such as approximation capacities of ANNs (including a calculus for ANNs), optimization theory (including Kurdyka-{\L}ojasiewicz inequalities), and generalization errors. In the last part of the book some deep learning approximation methods for PDEs are reviewed including physics-informed neural networks (PINNs) and deep Galerkin methods. We hope that this book will be useful for students and scientists who do not yet 
+    
+[^7]: 通过广义逆理解全色增强算法
+
+    Understanding Pan-Sharpening via Generalized Inverse. (arXiv:2310.02718v1 [cs.LG])
+
+    [http://arxiv.org/abs/2310.02718](http://arxiv.org/abs/2310.02718)
+
+    通过研究广义逆理论，本文提出了一种新的全色增强算法，该算法基于简单矩阵方程描述全色增强问题，并探讨解的条件和光谱、空间分辨率的获取。通过引入降采样增强方法，我们得到了与分量替代和多分辨率分析方法相对应的广义逆矩阵表达式，并提出了一个新的模型先验来解决全色增强中的理论误差问题。
+
+    
+
+    全色增强算法利用全色图像和多光谱图像获取具有高空间和高光谱的图像。然而，这些算法的优化是根据不同的标准设计的。我们采用简单的矩阵方程来描述全色增强问题，并讨论解的存在条件以及光谱和空间分辨率的获取。我们引入了一种降采样增强方法，以更好地获取空间和光谱降采样矩阵。通过广义逆理论，我们推导出了两种形式的广义逆矩阵表达式，可以对应于两个主要的全色增强方法：分量替代和多分辨率分析方法。具体而言，我们证明了Gram Schmidt自适应(GSA)方法遵循分量替代的广义逆矩阵表达式。我们提出了一个在光谱函数的广义逆矩阵之前的模型先验。我们对理论误差进行了分析。
+
+    Pan-sharpening algorithm utilizes panchromatic image and multispectral image to obtain a high spatial and high spectral image. However, the optimizations of the algorithms are designed with different standards. We adopt the simple matrix equation to describe the Pan-sharpening problem. The solution existence condition and the acquirement of spectral and spatial resolution are discussed. A down-sampling enhancement method was introduced for better acquiring the spatial and spectral down-sample matrices. By the generalized inverse theory, we derived two forms of general inverse matrix formulations that can correspond to the two prominent classes of Pan-sharpening methods, that is, component substitution and multi-resolution analysis methods. Specifically, the Gram Schmidt Adaptive(GSA) was proved to follow the general inverse matrix formulation of component substitution. A model prior to the general inverse matrix of the spectral function was rendered. The theoretical errors are analyzed
+    
+[^8]: 领域自适应中条件不变组件的突出作用：理论和算法
+
+    Prominent Roles of Conditionally Invariant Components in Domain Adaptation: Theory and Algorithms. (arXiv:2309.10301v1 [stat.ML])
+
+    [http://arxiv.org/abs/2309.10301](http://arxiv.org/abs/2309.10301)
+
+    该论文研究了领域自适应中条件不变组件的作用，提出了一种基于条件不变惩罚的新算法，该算法在目标风险保证方面具有优势。
+
+    
+
+    领域自适应是一个统计学习问题，当用于训练模型的源数据分布与用于评估模型的目标数据分布不同时出现。虽然许多领域自适应算法已经证明了相当大的实证成功，但是盲目应用这些算法往往会导致在新的数据集上表现更差。为了解决这个问题，重要的是澄清领域自适应算法在具备良好目标性能的假设下。在这项工作中，我们关注在预测中具备条件不变的组件（CICs）的存在假设，这些组件在源数据和目标数据之间保持条件不变。我们证明了CICs，通过条件不变惩罚（CIP）可以估计，具备在领域自适应中提供目标风险保证的三个突出作用。首先，我们提出了一种基于CICs的新算法，即重要性加权的条件不变惩罚（IW-CIP），它在目标风险保证方面超越了简单的方法。
+
+    Domain adaptation (DA) is a statistical learning problem that arises when the distribution of the source data used to train a model differs from that of the target data used to evaluate the model. While many DA algorithms have demonstrated considerable empirical success, blindly applying these algorithms can often lead to worse performance on new datasets. To address this, it is crucial to clarify the assumptions under which a DA algorithm has good target performance. In this work, we focus on the assumption of the presence of conditionally invariant components (CICs), which are relevant for prediction and remain conditionally invariant across the source and target data. We demonstrate that CICs, which can be estimated through conditional invariant penalty (CIP), play three prominent roles in providing target risk guarantees in DA. First, we propose a new algorithm based on CICs, importance-weighted conditional invariant penalty (IW-CIP), which has target risk guarantees beyond simple 
     
 [^9]: 基于COVID-19的数据多样性和虚拟成像的AI诊断：以病例研究为基础
 
