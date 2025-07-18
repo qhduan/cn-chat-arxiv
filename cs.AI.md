@@ -2,82 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Enhancing Trust in Autonomous Agents: An Architecture for Accountability and Explainability through Blockchain and Large Language Models](https://arxiv.org/abs/2403.09567) | 通过区块链和大型语言模型实现责任和可解释性的架构，提高自主代理的信任和安全性，增强代理与用户之间的沟通效果。 |
-| [^2] | [Governance of Generative Artificial Intelligence for Companies](https://arxiv.org/abs/2403.08802) | 本综述填补了有关企业中生成式人工智能（GenAI）治理的研究空白，提出了一个框架，旨在利用业务机会并减轻与GenAI整合相关风险。 |
-| [^3] | [On the Statistical Properties of Generative Adversarial Models for Low Intrinsic Data Dimension.](http://arxiv.org/abs/2401.15801) | 这篇论文研究了用于低固有数据维度的生成对抗模型的统计属性，提出了关于估计密度的统计保证，涉及数据和潜空间的内在维度，并证明了估计结果与目标的期望Wasserstein-1距离的缩放关系。 |
-| [^4] | [Programming Distributed Collective Processes in the eXchange Calculus.](http://arxiv.org/abs/2401.11212) | 本研究在交换演算中考虑了集合设备的动态合作行为，提出了分布式集体过程的抽象表示，用于编程计算集体的行为。 |
-| [^5] | [Mathematical Introduction to Deep Learning: Methods, Implementations, and Theory.](http://arxiv.org/abs/2310.20360) | 本书提供了对深度学习算法的数学介绍，包括不同的神经网络架构和优化算法，并涵盖了深度学习算法的理论方面。此外，还介绍了深度学习逼近偏微分方程的方法。希望对学生和科学家们有所帮助。 |
+| [^1] | [Using Quantum Computing to Infer Dynamic Behaviors of Biological and Artificial Neural Networks](https://arxiv.org/abs/2403.18963) | 本研究展示了如何利用Grover和Deutsch-Josza等基础量子算法，通过一组精心构建的条件，推断生物和人工神经网络在一段时间内是否具有继续维持动态活动的潜力。 |
+| [^2] | [LLM-Enhanced User-Item Interactions: Leveraging Edge Information for Optimized Recommendations](https://arxiv.org/abs/2402.09617) | 这项研究旨在提高LLM在图数据中的关系挖掘效率和能力，通过整合图神经网络和大型语言模型，以利用边缘信息来理解复杂节点关系，并从图结构中提取有意义洞见。 |
+| [^3] | [Boosting for Bounding the Worst-class Error.](http://arxiv.org/abs/2310.14890) | 该论文提出了一种基于Boosting的算法，可以保证最差类别训练误差的上界，并降低了最差类别的测试误差率。 |
+| [^4] | [TBDetector:Transformer-Based Detector for Advanced Persistent Threats with Provenance Graph.](http://arxiv.org/abs/2304.02838) | 本论文提出了一种采用来源图和Transformer的高级持久性威胁检测方法，利用Transformer的自注意力编码器-解码器提取系统状态的长期上下文特征，并通过来源分析实现对长期运行系统的概括，以检测缓慢攻击。 |
+| [^5] | [Real-world Machine Learning Systems: A survey from a Data-Oriented Architecture Perspective.](http://arxiv.org/abs/2302.04810) | 这项调查研究了现实世界中部署机器学习系统的数据导向架构（DOA）的采用情况，发现尽管没有明确提及DOA，但许多论文中的设计决策默默地遵循了DOA的原则。 |
 
 # 详细
 
-[^1]: 通过区块链和大型语言模型增强自主代理的信任：一种通过区块链和大型语言模型实现责任和可解释性的架构
+[^1]: 使用量子计算推断生物和人工神经网络的动态行为
 
-    Enhancing Trust in Autonomous Agents: An Architecture for Accountability and Explainability through Blockchain and Large Language Models
+    Using Quantum Computing to Infer Dynamic Behaviors of Biological and Artificial Neural Networks
 
-    [https://arxiv.org/abs/2403.09567](https://arxiv.org/abs/2403.09567)
+    [https://arxiv.org/abs/2403.18963](https://arxiv.org/abs/2403.18963)
 
-    通过区块链和大型语言模型实现责任和可解释性的架构，提高自主代理的信任和安全性，增强代理与用户之间的沟通效果。
-
-    
-
-    自主代理在涉及人类互动的环境中的部署日益引起安全关注。因此，了解事件背后的情况变得至关重要，需要开发能够向非专家用户解释其行为的能力。这些解释在提高可信度和安全性方面至关重要，作为防范失败、错误和误解的措施。此外，它们有助于改善沟通，弥合代理和用户之间的差距，从而提高它们相互作用的效果。这项工作提出了一种为基于ROS的移动机器人实施的责任和可解释性架构。所提出的解决方案包括两个主要组件。首先，一个类似黑盒的元素用于提供问责制，具有通过区块链技术实现的防篡改属性。其次，一个负责的组件
-
-    arXiv:2403.09567v1 Announce Type: cross  Abstract: The deployment of autonomous agents in environments involving human interaction has increasingly raised security concerns. Consequently, understanding the circumstances behind an event becomes critical, requiring the development of capabilities to justify their behaviors to non-expert users. Such explanations are essential in enhancing trustworthiness and safety, acting as a preventive measure against failures, errors, and misunderstandings. Additionally, they contribute to improving communication, bridging the gap between the agent and the user, thereby improving the effectiveness of their interactions. This work presents an accountability and explainability architecture implemented for ROS-based mobile robots. The proposed solution consists of two main components. Firstly, a black box-like element to provide accountability, featuring anti-tampering properties achieved through blockchain technology. Secondly, a component in charge of 
-    
-[^2]: 企业中生成式人工智能的治理
-
-    Governance of Generative Artificial Intelligence for Companies
-
-    [https://arxiv.org/abs/2403.08802](https://arxiv.org/abs/2403.08802)
-
-    本综述填补了有关企业中生成式人工智能（GenAI）治理的研究空白，提出了一个框架，旨在利用业务机会并减轻与GenAI整合相关风险。
+    本研究展示了如何利用Grover和Deutsch-Josza等基础量子算法，通过一组精心构建的条件，推断生物和人工神经网络在一段时间内是否具有继续维持动态活动的潜力。
 
     
 
-    生成式人工智能（GenAI），特别是像ChatGPT这样的大型语言模型，已迅速进入企业，但缺乏充分的治理，带来机遇和挑战。尽管对GenAI具有变革性质和监管措施的广泛讨论，但有限的研究涉及组织治理，包括技术和业务视角。本综述填补了这一空白，调查了最近的研究。它不仅仅是总结，还通过制定适用于企业内的GenAI治理框架来进行。我们的框架详细描述了范围、目标和治理机制，旨在利用业务机会并减轻与GenAI整合相关风险。该研究提供了一种专注于GenAI治理的方法，为企业在负责任的AI采用挑战中提供了实用见解。对于技术人员来说，也有助于拓宽他们的视角。
+    新问题类别的探索是量子计算研究的一个活跃领域。一个基本上完全未被探讨的主题是使用量子算法和计算来探索和询问神经网络的功能动态。这是将量子计算应用于生物和人工神经网络建模和仿真的尚未成熟的主题的一个组成部分。在本研究中，我们展示了如何通过精心构建的一组条件来使用两个基础量子算法，Grover和Deutsch-Josza，以使输出测量具有一种解释，保证我们能够推断一个简单的神经网络表示（适用于生物和人工网络）在一段时间后是否有可能继续维持动态活动。或者这些动态保证会停止，要么是通过'癫痫'动态，要么是静止状态。
 
-    arXiv:2403.08802v1 Announce Type: new  Abstract: Generative Artificial Intelligence (GenAI), specifically large language models like ChatGPT, has swiftly entered organizations without adequate governance, posing both opportunities and risks. Despite extensive debates on GenAI's transformative nature and regulatory measures, limited research addresses organizational governance, encompassing technical and business perspectives. This review paper fills this gap by surveying recent works. It goes beyond mere summarization by developing a framework for GenAI governance within companies. Our framework outlines the scope, objectives, and governance mechanisms tailored to harness business opportunities and mitigate risks associated with GenAI integration. This research contributes a focused approach to GenAI governance, offering practical insights for companies navigating the challenges of responsible AI adoption. It is also valuable for a technical audience to broaden their perspective as inc
+    arXiv:2403.18963v1 Announce Type: cross  Abstract: The exploration of new problem classes for quantum computation is an active area of research. An essentially completely unexplored topic is the use of quantum algorithms and computing to explore and ask questions \textit{about} the functional dynamics of neural networks. This is a component of the still-nascent topic of applying quantum computing to the modeling and simulations of biological and artificial neural networks. In this work, we show how a carefully constructed set of conditions can use two foundational quantum algorithms, Grover and Deutsch-Josza, in such a way that the output measurements admit an interpretation that guarantees we can infer if a simple representation of a neural network (which applies to both biological and artificial networks) after some period of time has the potential to continue sustaining dynamic activity. Or whether the dynamics are guaranteed to stop either through 'epileptic' dynamics or quiescence
     
-[^3]: 关于用于低固有数据维度的生成对抗模型的统计属性
+[^2]: 增强LLM用户-物品交互：利用边缘信息进行优化推荐的研究
 
-    On the Statistical Properties of Generative Adversarial Models for Low Intrinsic Data Dimension. (arXiv:2401.15801v1 [stat.ML])
+    LLM-Enhanced User-Item Interactions: Leveraging Edge Information for Optimized Recommendations
 
-    [http://arxiv.org/abs/2401.15801](http://arxiv.org/abs/2401.15801)
+    [https://arxiv.org/abs/2402.09617](https://arxiv.org/abs/2402.09617)
 
-    这篇论文研究了用于低固有数据维度的生成对抗模型的统计属性，提出了关于估计密度的统计保证，涉及数据和潜空间的内在维度，并证明了估计结果与目标的期望Wasserstein-1距离的缩放关系。
-
-    
-
-    尽管生成对抗网络（GANs）取得了显著的实证成功，但其统计准确性的理论保证仍然相对悲观。特别是在应用GANs的数据分布（如自然图像）中，通常假设其在高维特征空间中具有固有的低维结构，但这在现有分析中往往没有得到反映。在本文中，我们试图通过推导关于数据和潜空间的内在维度的统计保证来弥合GANs及其双向变体BiGANs在理论和实践之间的差距。我们分析地证明，如果我们有来自未知目标分布的 n 个样本，并且选择了适当的网络架构，那么从目标中估计得出的期望 Wasserstein-1 距离会按照 $O(n^{-1/d_\mu })$ 缩放。
-
-    Despite the remarkable empirical successes of Generative Adversarial Networks (GANs), the theoretical guarantees for their statistical accuracy remain rather pessimistic. In particular, the data distributions on which GANs are applied, such as natural images, are often hypothesized to have an intrinsic low-dimensional structure in a typically high-dimensional feature space, but this is often not reflected in the derived rates in the state-of-the-art analyses. In this paper, we attempt to bridge the gap between the theory and practice of GANs and their bidirectional variant, Bi-directional GANs (BiGANs), by deriving statistical guarantees on the estimated densities in terms of the intrinsic dimension of the data and the latent space. We analytically show that if one has access to $n$ samples from the unknown target distribution and the network architectures are properly chosen, the expected Wasserstein-1 distance of the estimates from the target scales as $O\left( n^{-1/d_\mu } \right)$
-    
-[^4]: 在交换演算中编程分布式集体过程
-
-    Programming Distributed Collective Processes in the eXchange Calculus. (arXiv:2401.11212v1 [cs.DC])
-
-    [http://arxiv.org/abs/2401.11212](http://arxiv.org/abs/2401.11212)
-
-    本研究在交换演算中考虑了集合设备的动态合作行为，提出了分布式集体过程的抽象表示，用于编程计算集体的行为。
+    这项研究旨在提高LLM在图数据中的关系挖掘效率和能力，通过整合图神经网络和大型语言模型，以利用边缘信息来理解复杂节点关系，并从图结构中提取有意义洞见。
 
     
 
-    最近的趋势如物联网（IoT）提出了在几乎所有环境中密集和多尺度部署计算设备的愿景。一个突出的工程挑战围绕着编程这种计算生态系统的集体自适应行为。这需要能够捕捉概念（动态合作设备群组）和集体任务（由合奏组执行的联合活动）的抽象。在这项工作中，我们考虑与邻居交互并以几乎同步的感知-计算-交互循环执行的设备集合，其中计算由一个将感知值和传入消息映射到输出和传出消息的单个程序给出。为了支持整个计算集体的编程，我们提出了分布式集体过程的抽象，它可以同时定义合奏组的形成逻辑和它的集体任务。我们在交换演算中形式化了这种抽象。
+    大型语言模型的出色性能不仅改变了自然语言处理领域的研究格局，还展示了它在各个领域的卓越应用潜力。然而，这些模型在挖掘图数据中的关系方面的潜力仍未得到充分探索。图神经网络作为近年来热门的研究领域，在关系挖掘方面有大量研究。然而，当前图神经网络的尖端研究尚未有效整合大型语言模型，导致在图关系挖掘任务中的效率和能力受限。一个主要的挑战是LLM无法深入利用图中的边缘信息，而这对于理解复杂节点关系至关重要。这种差距限制了LLM从图结构中提取有意义洞见的潜力，限制了它在更复杂的基于图的分析中的适用性。
 
-    Recent trends like the Internet of Things (IoT) suggest a vision of dense and multi-scale deployments of computing devices in nearly all kinds of environments. A prominent engineering challenge revolves around programming the collective adaptive behaviour of such computational ecosystems. This requires abstractions able to capture concepts like ensembles (dynamic groups of cooperating devices) and collective tasks (joint activities carried out by ensembles). In this work, we consider collections of devices interacting with neighbours and that execute in nearly-synchronised sense-compute-interact rounds, where the computation is given by a single program mapping sensing values and incoming messages to output and outcoming messages. To support programming whole computational collectives, we propose the abstraction of a distributed collective process, which can be used to define at once the ensemble formation logic and its collective task. We formalise the abstraction in the eXchange Calc
+    arXiv:2402.09617v1 Announce Type: new  Abstract: The extraordinary performance of large language models has not only reshaped the research landscape in the field of NLP but has also demonstrated its exceptional applicative potential in various domains. However, the potential of these models in mining relationships from graph data remains under-explored. Graph neural networks, as a popular research area in recent years, have numerous studies on relationship mining. Yet, current cutting-edge research in graph neural networks has not been effectively integrated with large language models, leading to limited efficiency and capability in graph relationship mining tasks. A primary challenge is the inability of LLMs to deeply exploit the edge information in graphs, which is critical for understanding complex node relationships. This gap limits the potential of LLMs to extract meaningful insights from graph structures, limiting their applicability in more complex graph-based analysis. We focus
     
-[^5]: 深度学习的数学介绍：方法、实现和理论
+[^3]: Boosting用于界定最差分类误差
 
-    Mathematical Introduction to Deep Learning: Methods, Implementations, and Theory. (arXiv:2310.20360v1 [cs.LG])
+    Boosting for Bounding the Worst-class Error. (arXiv:2310.14890v1 [stat.ML])
 
-    [http://arxiv.org/abs/2310.20360](http://arxiv.org/abs/2310.20360)
+    [http://arxiv.org/abs/2310.14890](http://arxiv.org/abs/2310.14890)
 
-    本书提供了对深度学习算法的数学介绍，包括不同的神经网络架构和优化算法，并涵盖了深度学习算法的理论方面。此外，还介绍了深度学习逼近偏微分方程的方法。希望对学生和科学家们有所帮助。
+    该论文提出了一种基于Boosting的算法，可以保证最差类别训练误差的上界，并降低了最差类别的测试误差率。
 
     
 
-    本书旨在介绍深度学习算法的主题。我们详细介绍了深度学习算法的基本组成部分，包括不同的人工神经网络架构（如全连接前馈神经网络、卷积神经网络、循环神经网络、残差神经网络和带有批归一化的神经网络）以及不同的优化算法（如基本的随机梯度下降法、加速方法和自适应方法）。我们还涵盖了深度学习算法的几个理论方面，如人工神经网络的逼近能力（包括神经网络的微积分）、优化理论（包括Kurdyka-Lojasiewicz不等式）和泛化误差。在本书的最后一部分，我们还回顾了一些用于偏微分方程的深度学习逼近方法，包括物理信息神经网络（PINNs）和深度Galerkin方法。希望本书能对学生和科学家们有所帮助。
+    本文解决了最差类别误差率的问题，而不是针对所有类别的标准误差率的平均。例如，一个三类别分类任务，其中各类别的误差率分别为10％，10％和40％，其最差类别误差率为40％，而在类别平衡条件下的平均误差率为20％。最差类别错误在许多应用中很重要。例如，在医学图像分类任务中，对于恶性肿瘤类别具有40％的错误率而良性和健康类别具有10％的错误率是不能被接受的。我们提出了一种保证最差类别训练误差上界的提升算法，并推导出其泛化界。实验结果表明，该算法降低了最差类别的测试误差率，同时避免了对训练集的过拟合。
 
-    This book aims to provide an introduction to the topic of deep learning algorithms. We review essential components of deep learning algorithms in full mathematical detail including different artificial neural network (ANN) architectures (such as fully-connected feedforward ANNs, convolutional ANNs, recurrent ANNs, residual ANNs, and ANNs with batch normalization) and different optimization algorithms (such as the basic stochastic gradient descent (SGD) method, accelerated methods, and adaptive methods). We also cover several theoretical aspects of deep learning algorithms such as approximation capacities of ANNs (including a calculus for ANNs), optimization theory (including Kurdyka-{\L}ojasiewicz inequalities), and generalization errors. In the last part of the book some deep learning approximation methods for PDEs are reviewed including physics-informed neural networks (PINNs) and deep Galerkin methods. We hope that this book will be useful for students and scientists who do not yet 
+    This paper tackles the problem of the worst-class error rate, instead of the standard error rate averaged over all classes. For example, a three-class classification task with class-wise error rates of 10\%, 10\%, and 40\% has a worst-class error rate of 40\%, whereas the average is 20\% under the class-balanced condition. The worst-class error is important in many applications. For example, in a medical image classification task, it would not be acceptable for the malignant tumor class to have a 40\% error rate, while the benign and healthy classes have 10\% error rates.We propose a boosting algorithm that guarantees an upper bound of the worst-class training error and derive its generalization bound. Experimental results show that the algorithm lowers worst-class test error rates while avoiding overfitting to the training set.
+    
+[^4]: 基于Transformer和来源图的高级持久性威胁检测方法
+
+    TBDetector:Transformer-Based Detector for Advanced Persistent Threats with Provenance Graph. (arXiv:2304.02838v1 [cs.CR])
+
+    [http://arxiv.org/abs/2304.02838](http://arxiv.org/abs/2304.02838)
+
+    本论文提出了一种采用来源图和Transformer的高级持久性威胁检测方法，利用Transformer的自注意力编码器-解码器提取系统状态的长期上下文特征，并通过来源分析实现对长期运行系统的概括，以检测缓慢攻击。
+
+    
+
+    针对高级持久性威胁（APT）攻击的长期潜伏、隐秘多阶段攻击模式，本文提出了一种基于Transformer的APT检测方法，利用来源图提供的历史信息进行APT检测。该方法利用Transformer的自注意力编码器-解码器提取系统状态的长期上下文特征，并通过来源分析实现对长期运行系统的概括，以检测缓慢攻击。此外，作者还引入了异常评分，可评估不同系统状态的异常性。每个状态都有相应的相似度和隔离度分数的异常分数计算。为了评估该方法的有效性
+
+    APT detection is difficult to detect due to the long-term latency, covert and slow multistage attack patterns of Advanced Persistent Threat (APT). To tackle these issues, we propose TBDetector, a transformer-based advanced persistent threat detection method for APT attack detection. Considering that provenance graphs provide rich historical information and have the powerful attacks historic correlation ability to identify anomalous activities, TBDetector employs provenance analysis for APT detection, which summarizes long-running system execution with space efficiency and utilizes transformer with self-attention based encoder-decoder to extract long-term contextual features of system states to detect slow-acting attacks. Furthermore, we further introduce anomaly scores to investigate the anomaly of different system states, where each state is calculated with an anomaly score corresponding to its similarity score and isolation score. To evaluate the effectiveness of the proposed method,
+    
+[^5]: 现实世界中的机器学习系统：基于数据导向架构的调查
+
+    Real-world Machine Learning Systems: A survey from a Data-Oriented Architecture Perspective. (arXiv:2302.04810v2 [cs.SE] UPDATED)
+
+    [http://arxiv.org/abs/2302.04810](http://arxiv.org/abs/2302.04810)
+
+    这项调查研究了现实世界中部署机器学习系统的数据导向架构（DOA）的采用情况，发现尽管没有明确提及DOA，但许多论文中的设计决策默默地遵循了DOA的原则。
+
+    
+
+    随着对人工智能的兴趣不断增长，机器学习模型正在作为现实世界系统的一部分部署。这些系统的设计、实现和维护受到现实世界环境的挑战，这些环境产生了更多的异构数据，用户需要更快的响应速度和高效的资源消耗。这些要求将普遍存在的软件架构推向了极限，当部署基于机器学习的系统时。数据导向架构（DOA）是一个新兴的概念，它能更好地为集成机器学习模型的系统提供支持。DOA扩展了当前的架构，创建了数据驱动、松耦合、去中心化和开放的系统。尽管部署的机器学习系统的论文中没有提到DOA，但它们的作者在设计上隐含地遵循了DOA。为什么、如何以及在多大程度上采用DOA在这些系统中尚不清楚。隐含的设计决策限制了从业者对于设计基于机器学习的系统时DOA的认识。
+
+    Machine Learning models are being deployed as parts of real-world systems with the upsurge of interest in artificial intelligence. The design, implementation, and maintenance of such systems are challenged by real-world environments that produce larger amounts of heterogeneous data and users requiring increasingly faster responses with efficient resource consumption. These requirements push prevalent software architectures to the limit when deploying ML-based systems. Data-oriented Architecture (DOA) is an emerging concept that equips systems better for integrating ML models. DOA extends current architectures to create data-driven, loosely coupled, decentralised, open systems. Even though papers on deployed ML-based systems do not mention DOA, their authors made design decisions that implicitly follow DOA. The reasons why, how, and the extent to which DOA is adopted in these systems are unclear. Implicit design decisions limit the practitioners' knowledge of DOA to design ML-based syst
     
 

@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Ghost Sentence: A Tool for Everyday Users to Copyright Data from Large Language Models](https://arxiv.org/abs/2403.15740) | 通过在文档中插入个人密码并识别生成内容中的“幽灵句子”，普通用户可以确认大型语言模型是否滥用其数据，从而实现数据版权保护。 |
+| [^1] | [LLM-Enhanced User-Item Interactions: Leveraging Edge Information for Optimized Recommendations](https://arxiv.org/abs/2402.09617) | 这项研究旨在提高LLM在图数据中的关系挖掘效率和能力，通过整合图神经网络和大型语言模型，以利用边缘信息来理解复杂节点关系，并从图结构中提取有意义洞见。 |
 
 # 详细
 
-[^1]: Ghost Sentence：一种供普通用户使用的工具，用于对大型语言模型中的数据进行版权保护
+[^1]: 增强LLM用户-物品交互：利用边缘信息进行优化推荐的研究
 
-    Ghost Sentence: A Tool for Everyday Users to Copyright Data from Large Language Models
+    LLM-Enhanced User-Item Interactions: Leveraging Edge Information for Optimized Recommendations
 
-    [https://arxiv.org/abs/2403.15740](https://arxiv.org/abs/2403.15740)
+    [https://arxiv.org/abs/2402.09617](https://arxiv.org/abs/2402.09617)
 
-    通过在文档中插入个人密码并识别生成内容中的“幽灵句子”，普通用户可以确认大型语言模型是否滥用其数据，从而实现数据版权保护。
+    这项研究旨在提高LLM在图数据中的关系挖掘效率和能力，通过整合图神经网络和大型语言模型，以利用边缘信息来理解复杂节点关系，并从图结构中提取有意义洞见。
 
     
 
-    Web用户数据在预训练大型语言模型（LLMs）及其微调变种的生态系统中起着核心作用。本文提出了一种方法，建议用户在其文档中反复插入个人密码，使LLMs能够记忆这些密码。这些用户文档中隐藏的密码，被称为“幽灵句子”，一旦它们出现在LLMs生成的内容中，用户就可以确信他们的数据被用于训练。为了探索这种版权工具的有效性和用法，我们利用幽灵句子定义了“用户训练数据识别”任务。我们创建了来自不同来源、不同规模的多个数据集，并使用不同规模的LLMs进行测试。为了评估，我们引入了一个最后$k$个单词验证的方式。
+    大型语言模型的出色性能不仅改变了自然语言处理领域的研究格局，还展示了它在各个领域的卓越应用潜力。然而，这些模型在挖掘图数据中的关系方面的潜力仍未得到充分探索。图神经网络作为近年来热门的研究领域，在关系挖掘方面有大量研究。然而，当前图神经网络的尖端研究尚未有效整合大型语言模型，导致在图关系挖掘任务中的效率和能力受限。一个主要的挑战是LLM无法深入利用图中的边缘信息，而这对于理解复杂节点关系至关重要。这种差距限制了LLM从图结构中提取有意义洞见的潜力，限制了它在更复杂的基于图的分析中的适用性。
 
-    arXiv:2403.15740v1 Announce Type: new  Abstract: Web user data plays a central role in the ecosystem of pre-trained large language models (LLMs) and their fine-tuned variants. Billions of data are crawled from the web and fed to LLMs. How can \textit{\textbf{everyday web users}} confirm if LLMs misuse their data without permission? In this work, we suggest that users repeatedly insert personal passphrases into their documents, enabling LLMs to memorize them. These concealed passphrases in user documents, referred to as \textit{ghost sentences}, once they are identified in the generated content of LLMs, users can be sure that their data is used for training. To explore the effectiveness and usage of this copyrighting tool, we define the \textit{user training data identification} task with ghost sentences. Multiple datasets from various sources at different scales are created and tested with LLMs of different sizes. For evaluation, we introduce a last $k$ words verification manner along 
+    arXiv:2402.09617v1 Announce Type: new  Abstract: The extraordinary performance of large language models has not only reshaped the research landscape in the field of NLP but has also demonstrated its exceptional applicative potential in various domains. However, the potential of these models in mining relationships from graph data remains under-explored. Graph neural networks, as a popular research area in recent years, have numerous studies on relationship mining. Yet, current cutting-edge research in graph neural networks has not been effectively integrated with large language models, leading to limited efficiency and capability in graph relationship mining tasks. A primary challenge is the inability of LLMs to deeply exploit the edge information in graphs, which is critical for understanding complex node relationships. This gap limits the potential of LLMs to extract meaningful insights from graph structures, limiting their applicability in more complex graph-based analysis. We focus
     
 

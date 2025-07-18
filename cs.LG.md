@@ -2,142 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Ghost Sentence: A Tool for Everyday Users to Copyright Data from Large Language Models](https://arxiv.org/abs/2403.15740) | 通过在文档中插入个人密码并识别生成内容中的“幽灵句子”，普通用户可以确认大型语言模型是否滥用其数据，从而实现数据版权保护。 |
-| [^2] | [Governance of Generative Artificial Intelligence for Companies](https://arxiv.org/abs/2403.08802) | 本综述填补了有关企业中生成式人工智能（GenAI）治理的研究空白，提出了一个框架，旨在利用业务机会并减轻与GenAI整合相关风险。 |
-| [^3] | [Error bounds for particle gradient descent, and extensions of the log-Sobolev and Talagrand inequalities](https://arxiv.org/abs/2403.02004) | 证明了粒子梯度下降算法对于一般化的log-Sobolev和Polyak-Lojasiewicz不等式模型的收敛速度，以及推广了Bakry-Emery定理。 |
-| [^4] | [Active Deep Kernel Learning of Molecular Functionalities: Realizing Dynamic Structural Embeddings](https://arxiv.org/abs/2403.01234) | 本文提出了一种利用深度核学习（DKL）的活跃学习方法，通过与传统变分自动编码器（VAEs）的对比分析，创造了优先考虑分子功能性的潜在空间，并且通过迭代重新计算嵌入向量实现了更好组织的潜在空间。 |
-| [^5] | [On the Statistical Properties of Generative Adversarial Models for Low Intrinsic Data Dimension.](http://arxiv.org/abs/2401.15801) | 这篇论文研究了用于低固有数据维度的生成对抗模型的统计属性，提出了关于估计密度的统计保证，涉及数据和潜空间的内在维度，并证明了估计结果与目标的期望Wasserstein-1距离的缩放关系。 |
-| [^6] | [Mathematical Introduction to Deep Learning: Methods, Implementations, and Theory.](http://arxiv.org/abs/2310.20360) | 本书提供了对深度学习算法的数学介绍，包括不同的神经网络架构和优化算法，并涵盖了深度学习算法的理论方面。此外，还介绍了深度学习逼近偏微分方程的方法。希望对学生和科学家们有所帮助。 |
-| [^7] | [Understanding Pan-Sharpening via Generalized Inverse.](http://arxiv.org/abs/2310.02718) | 通过研究广义逆理论，本文提出了一种新的全色增强算法，该算法基于简单矩阵方程描述全色增强问题，并探讨解的条件和光谱、空间分辨率的获取。通过引入降采样增强方法，我们得到了与分量替代和多分辨率分析方法相对应的广义逆矩阵表达式，并提出了一个新的模型先验来解决全色增强中的理论误差问题。 |
-| [^8] | [Prominent Roles of Conditionally Invariant Components in Domain Adaptation: Theory and Algorithms.](http://arxiv.org/abs/2309.10301) | 该论文研究了领域自适应中条件不变组件的作用，提出了一种基于条件不变惩罚的新算法，该算法在目标风险保证方面具有优势。 |
-| [^9] | [Data diversity and virtual imaging in AI-based diagnosis: A case study based on COVID-19.](http://arxiv.org/abs/2308.09730) | 本研究通过使用多样性的临床和虚拟生成的医学图像开发和评估了COVID-19诊断的AI模型，发现数据集特征对于AI性能具有重要影响，容易导致泛化能力较差，最高下降20％。 |
+| [^1] | [Boosting for Bounding the Worst-class Error.](http://arxiv.org/abs/2310.14890) | 该论文提出了一种基于Boosting的算法，可以保证最差类别训练误差的上界，并降低了最差类别的测试误差率。 |
+| [^2] | [Conformal inference for regression on Riemannian Manifolds.](http://arxiv.org/abs/2310.08209) | 本文研究了在黎曼流形上进行回归场景的预测集，并证明了这些区域的经验版本在大样本下的收敛性。 |
+| [^3] | [Boolformer: Symbolic Regression of Logic Functions with Transformers.](http://arxiv.org/abs/2309.12207) | Boolformer是第一个经过训练的Transformer架构，用于执行端到端的布尔函数符号回归。它可以预测复杂函数的简洁公式，并在提供不完整和有噪声观测时找到近似表达式。Boolformer在真实二分类数据集上展现出潜力作为可解释性替代方案，并在基因调控网络动力学建模任务中与最先进的遗传算法相比表现出竞争力。 |
+| [^4] | [TBDetector:Transformer-Based Detector for Advanced Persistent Threats with Provenance Graph.](http://arxiv.org/abs/2304.02838) | 本论文提出了一种采用来源图和Transformer的高级持久性威胁检测方法，利用Transformer的自注意力编码器-解码器提取系统状态的长期上下文特征，并通过来源分析实现对长期运行系统的概括，以检测缓慢攻击。 |
+| [^5] | [Real-world Machine Learning Systems: A survey from a Data-Oriented Architecture Perspective.](http://arxiv.org/abs/2302.04810) | 这项调查研究了现实世界中部署机器学习系统的数据导向架构（DOA）的采用情况，发现尽管没有明确提及DOA，但许多论文中的设计决策默默地遵循了DOA的原则。 |
 
 # 详细
 
-[^1]: Ghost Sentence：一种供普通用户使用的工具，用于对大型语言模型中的数据进行版权保护
+[^1]: Boosting用于界定最差分类误差
 
-    Ghost Sentence: A Tool for Everyday Users to Copyright Data from Large Language Models
+    Boosting for Bounding the Worst-class Error. (arXiv:2310.14890v1 [stat.ML])
 
-    [https://arxiv.org/abs/2403.15740](https://arxiv.org/abs/2403.15740)
+    [http://arxiv.org/abs/2310.14890](http://arxiv.org/abs/2310.14890)
 
-    通过在文档中插入个人密码并识别生成内容中的“幽灵句子”，普通用户可以确认大型语言模型是否滥用其数据，从而实现数据版权保护。
-
-    
-
-    Web用户数据在预训练大型语言模型（LLMs）及其微调变种的生态系统中起着核心作用。本文提出了一种方法，建议用户在其文档中反复插入个人密码，使LLMs能够记忆这些密码。这些用户文档中隐藏的密码，被称为“幽灵句子”，一旦它们出现在LLMs生成的内容中，用户就可以确信他们的数据被用于训练。为了探索这种版权工具的有效性和用法，我们利用幽灵句子定义了“用户训练数据识别”任务。我们创建了来自不同来源、不同规模的多个数据集，并使用不同规模的LLMs进行测试。为了评估，我们引入了一个最后$k$个单词验证的方式。
-
-    arXiv:2403.15740v1 Announce Type: new  Abstract: Web user data plays a central role in the ecosystem of pre-trained large language models (LLMs) and their fine-tuned variants. Billions of data are crawled from the web and fed to LLMs. How can \textit{\textbf{everyday web users}} confirm if LLMs misuse their data without permission? In this work, we suggest that users repeatedly insert personal passphrases into their documents, enabling LLMs to memorize them. These concealed passphrases in user documents, referred to as \textit{ghost sentences}, once they are identified in the generated content of LLMs, users can be sure that their data is used for training. To explore the effectiveness and usage of this copyrighting tool, we define the \textit{user training data identification} task with ghost sentences. Multiple datasets from various sources at different scales are created and tested with LLMs of different sizes. For evaluation, we introduce a last $k$ words verification manner along 
-    
-[^2]: 企业中生成式人工智能的治理
-
-    Governance of Generative Artificial Intelligence for Companies
-
-    [https://arxiv.org/abs/2403.08802](https://arxiv.org/abs/2403.08802)
-
-    本综述填补了有关企业中生成式人工智能（GenAI）治理的研究空白，提出了一个框架，旨在利用业务机会并减轻与GenAI整合相关风险。
+    该论文提出了一种基于Boosting的算法，可以保证最差类别训练误差的上界，并降低了最差类别的测试误差率。
 
     
 
-    生成式人工智能（GenAI），特别是像ChatGPT这样的大型语言模型，已迅速进入企业，但缺乏充分的治理，带来机遇和挑战。尽管对GenAI具有变革性质和监管措施的广泛讨论，但有限的研究涉及组织治理，包括技术和业务视角。本综述填补了这一空白，调查了最近的研究。它不仅仅是总结，还通过制定适用于企业内的GenAI治理框架来进行。我们的框架详细描述了范围、目标和治理机制，旨在利用业务机会并减轻与GenAI整合相关风险。该研究提供了一种专注于GenAI治理的方法，为企业在负责任的AI采用挑战中提供了实用见解。对于技术人员来说，也有助于拓宽他们的视角。
+    本文解决了最差类别误差率的问题，而不是针对所有类别的标准误差率的平均。例如，一个三类别分类任务，其中各类别的误差率分别为10％，10％和40％，其最差类别误差率为40％，而在类别平衡条件下的平均误差率为20％。最差类别错误在许多应用中很重要。例如，在医学图像分类任务中，对于恶性肿瘤类别具有40％的错误率而良性和健康类别具有10％的错误率是不能被接受的。我们提出了一种保证最差类别训练误差上界的提升算法，并推导出其泛化界。实验结果表明，该算法降低了最差类别的测试误差率，同时避免了对训练集的过拟合。
 
-    arXiv:2403.08802v1 Announce Type: new  Abstract: Generative Artificial Intelligence (GenAI), specifically large language models like ChatGPT, has swiftly entered organizations without adequate governance, posing both opportunities and risks. Despite extensive debates on GenAI's transformative nature and regulatory measures, limited research addresses organizational governance, encompassing technical and business perspectives. This review paper fills this gap by surveying recent works. It goes beyond mere summarization by developing a framework for GenAI governance within companies. Our framework outlines the scope, objectives, and governance mechanisms tailored to harness business opportunities and mitigate risks associated with GenAI integration. This research contributes a focused approach to GenAI governance, offering practical insights for companies navigating the challenges of responsible AI adoption. It is also valuable for a technical audience to broaden their perspective as inc
+    This paper tackles the problem of the worst-class error rate, instead of the standard error rate averaged over all classes. For example, a three-class classification task with class-wise error rates of 10\%, 10\%, and 40\% has a worst-class error rate of 40\%, whereas the average is 20\% under the class-balanced condition. The worst-class error is important in many applications. For example, in a medical image classification task, it would not be acceptable for the malignant tumor class to have a 40\% error rate, while the benign and healthy classes have 10\% error rates.We propose a boosting algorithm that guarantees an upper bound of the worst-class training error and derive its generalization bound. Experimental results show that the algorithm lowers worst-class test error rates while avoiding overfitting to the training set.
     
-[^3]: 粒子梯度下降的误差界限，以及log-Sobolev和Talagrand不等式的推广
+[^2]: 在黎曼流形上进行回归的一致推断
 
-    Error bounds for particle gradient descent, and extensions of the log-Sobolev and Talagrand inequalities
+    Conformal inference for regression on Riemannian Manifolds. (arXiv:2310.08209v1 [stat.ML])
 
-    [https://arxiv.org/abs/2403.02004](https://arxiv.org/abs/2403.02004)
+    [http://arxiv.org/abs/2310.08209](http://arxiv.org/abs/2310.08209)
 
-    证明了粒子梯度下降算法对于一般化的log-Sobolev和Polyak-Lojasiewicz不等式模型的收敛速度，以及推广了Bakry-Emery定理。
-
-    
-
-    我们证明了粒子梯度下降(PGD)~(Kuntz等人，2023)的非渐近误差界限，这是一种最大似然估计的算法，用于离散化自由能梯度流获得的大型潜变量模型。我们首先展示了对于满足一般化log-Sobolev和Polyak-Lojasiewicz不等式（LSI和PLI）的模型，流以指数速度收敛到自由能的极小化集合。我们通过将最优输运文献中众所周知的结果（LSI意味着Talagrand不等式）及其在优化文献中的对应物（PLI意味着所谓的二次增长条件）扩展并应用到我们的新设置，来实现这一点。我们还推广了Bakry-Emery定理，并展示了对于具有强凹对数似然的模型，LSI/PLI的概括成立。
-
-    arXiv:2403.02004v1 Announce Type: new  Abstract: We prove non-asymptotic error bounds for particle gradient descent (PGD)~(Kuntz et al., 2023), a recently introduced algorithm for maximum likelihood estimation of large latent variable models obtained by discretizing a gradient flow of the free energy. We begin by showing that, for models satisfying a condition generalizing both the log-Sobolev and the Polyak--{\L}ojasiewicz inequalities (LSI and P{\L}I, respectively), the flow converges exponentially fast to the set of minimizers of the free energy. We achieve this by extending a result well-known in the optimal transport literature (that the LSI implies the Talagrand inequality) and its counterpart in the optimization literature (that the P{\L}I implies the so-called quadratic growth condition), and applying it to our new setting. We also generalize the Bakry--\'Emery Theorem and show that the LSI/P{\L}I generalization holds for models with strongly concave log-likelihoods. For such m
-    
-[^4]: 活跃深度核学习分子功能性：实现动态结构嵌入
-
-    Active Deep Kernel Learning of Molecular Functionalities: Realizing Dynamic Structural Embeddings
-
-    [https://arxiv.org/abs/2403.01234](https://arxiv.org/abs/2403.01234)
-
-    本文提出了一种利用深度核学习（DKL）的活跃学习方法，通过与传统变分自动编码器（VAEs）的对比分析，创造了优先考虑分子功能性的潜在空间，并且通过迭代重新计算嵌入向量实现了更好组织的潜在空间。
+    本文研究了在黎曼流形上进行回归场景的预测集，并证明了这些区域的经验版本在大样本下的收敛性。
 
     
 
-    探索分子空间对于推进我们对化学性质和反应的理解至关重要，从而在材料科学、医学和能源领域取得突破性创新。本文探讨了一种利用深度核学习（DKL）进行分子发现的主动学习方法，这是一种超越传统变分自动编码器（VAEs）限制的新方法。使用QM9数据集，我们将DKL与传统VAEs进行对比，后者基于相似性分析分子结构，揭示了由于潜在空间中的稀疏规律性而存在的局限性。然而，DKL通过将结构与性质相关联，创造了优先考虑分子功能性的潜在空间，提供了更全面的视角。这是通过迭代重新计算嵌入向量来实现的，与目标性质的实验可用性保持一致。由此产生的潜在空间不仅组织更好，而且具有独特特性。
+    在流形上进行回归，以及更广泛地说，对流形上的统计学有了重要的关注，因为这种类型的数据有大量的应用。圆形数据是一个经典示例，但协方差矩阵空间上的数据、主成分分析得到的Grassmann流形上的数据等也是如此。在本文中，我们研究了当响应变量$Y$位于流形上，而协变量$X$位于欧几里德空间时，回归场景的预测集。这扩展了[Lei and Wasserman, 2014]中在这一新领域中概述的概念。与一致推断中的传统原则一致，这些预测集是无分布的，表明对$(X, Y)$的联合分布没有施加特定的假设，而且它们保持非参数性质。我们证明了这些区域的经验版本在几乎必然收敛于无穷大时的收敛性。
 
-    arXiv:2403.01234v1 Announce Type: new  Abstract: Exploring molecular spaces is crucial for advancing our understanding of chemical properties and reactions, leading to groundbreaking innovations in materials science, medicine, and energy. This paper explores an approach for active learning in molecular discovery using Deep Kernel Learning (DKL), a novel approach surpassing the limits of classical Variational Autoencoders (VAEs). Employing the QM9 dataset, we contrast DKL with traditional VAEs, which analyze molecular structures based on similarity, revealing limitations due to sparse regularities in latent spaces. DKL, however, offers a more holistic perspective by correlating structure with properties, creating latent spaces that prioritize molecular functionality. This is achieved by recalculating embedding vectors iteratively, aligning with the experimental availability of target properties. The resulting latent spaces are not only better organized but also exhibit unique characteri
+    Regression on manifolds, and, more broadly, statistics on manifolds, has garnered significant importance in recent years due to the vast number of applications for this type of data. Circular data is a classic example, but so is data in the space of covariance matrices, data on the Grassmannian manifold obtained as a result of principal component analysis, among many others. In this work we investigate prediction sets for regression scenarios when the response variable, denoted by $Y$, resides in a manifold, and the covariable, denoted by X, lies in Euclidean space. This extends the concepts delineated in [Lei and Wasserman, 2014] to this novel context. Aligning with traditional principles in conformal inference, these prediction sets are distribution-free, indicating that no specific assumptions are imposed on the joint distribution of $(X, Y)$, and they maintain a non-parametric character. We prove the asymptotic almost sure convergence of the empirical version of these regions on th
     
-[^5]: 关于用于低固有数据维度的生成对抗模型的统计属性
+[^3]: Boolformer: 用Transformer进行逻辑函数的符号回归
 
-    On the Statistical Properties of Generative Adversarial Models for Low Intrinsic Data Dimension. (arXiv:2401.15801v1 [stat.ML])
+    Boolformer: Symbolic Regression of Logic Functions with Transformers. (arXiv:2309.12207v1 [cs.LG])
 
-    [http://arxiv.org/abs/2401.15801](http://arxiv.org/abs/2401.15801)
+    [http://arxiv.org/abs/2309.12207](http://arxiv.org/abs/2309.12207)
 
-    这篇论文研究了用于低固有数据维度的生成对抗模型的统计属性，提出了关于估计密度的统计保证，涉及数据和潜空间的内在维度，并证明了估计结果与目标的期望Wasserstein-1距离的缩放关系。
-
-    
-
-    尽管生成对抗网络（GANs）取得了显著的实证成功，但其统计准确性的理论保证仍然相对悲观。特别是在应用GANs的数据分布（如自然图像）中，通常假设其在高维特征空间中具有固有的低维结构，但这在现有分析中往往没有得到反映。在本文中，我们试图通过推导关于数据和潜空间的内在维度的统计保证来弥合GANs及其双向变体BiGANs在理论和实践之间的差距。我们分析地证明，如果我们有来自未知目标分布的 n 个样本，并且选择了适当的网络架构，那么从目标中估计得出的期望 Wasserstein-1 距离会按照 $O(n^{-1/d_\mu })$ 缩放。
-
-    Despite the remarkable empirical successes of Generative Adversarial Networks (GANs), the theoretical guarantees for their statistical accuracy remain rather pessimistic. In particular, the data distributions on which GANs are applied, such as natural images, are often hypothesized to have an intrinsic low-dimensional structure in a typically high-dimensional feature space, but this is often not reflected in the derived rates in the state-of-the-art analyses. In this paper, we attempt to bridge the gap between the theory and practice of GANs and their bidirectional variant, Bi-directional GANs (BiGANs), by deriving statistical guarantees on the estimated densities in terms of the intrinsic dimension of the data and the latent space. We analytically show that if one has access to $n$ samples from the unknown target distribution and the network architectures are properly chosen, the expected Wasserstein-1 distance of the estimates from the target scales as $O\left( n^{-1/d_\mu } \right)$
-    
-[^6]: 深度学习的数学介绍：方法、实现和理论
-
-    Mathematical Introduction to Deep Learning: Methods, Implementations, and Theory. (arXiv:2310.20360v1 [cs.LG])
-
-    [http://arxiv.org/abs/2310.20360](http://arxiv.org/abs/2310.20360)
-
-    本书提供了对深度学习算法的数学介绍，包括不同的神经网络架构和优化算法，并涵盖了深度学习算法的理论方面。此外，还介绍了深度学习逼近偏微分方程的方法。希望对学生和科学家们有所帮助。
+    Boolformer是第一个经过训练的Transformer架构，用于执行端到端的布尔函数符号回归。它可以预测复杂函数的简洁公式，并在提供不完整和有噪声观测时找到近似表达式。Boolformer在真实二分类数据集上展现出潜力作为可解释性替代方案，并在基因调控网络动力学建模任务中与最先进的遗传算法相比表现出竞争力。
 
     
 
-    本书旨在介绍深度学习算法的主题。我们详细介绍了深度学习算法的基本组成部分，包括不同的人工神经网络架构（如全连接前馈神经网络、卷积神经网络、循环神经网络、残差神经网络和带有批归一化的神经网络）以及不同的优化算法（如基本的随机梯度下降法、加速方法和自适应方法）。我们还涵盖了深度学习算法的几个理论方面，如人工神经网络的逼近能力（包括神经网络的微积分）、优化理论（包括Kurdyka-Lojasiewicz不等式）和泛化误差。在本书的最后一部分，我们还回顾了一些用于偏微分方程的深度学习逼近方法，包括物理信息神经网络（PINNs）和深度Galerkin方法。希望本书能对学生和科学家们有所帮助。
+    在这项工作中，我们介绍了Boolformer，这是第一个经过训练的Transformer架构，用于执行端到端的布尔函数符号回归。首先，我们展示了当提供干净的真值表时，它可以预测复杂函数的简洁公式。然后，我们展示了它在提供不完整和有噪声观测时找到近似表达式的能力。我们在广泛的真实二分类数据集上评估了Boolformer，证明了它作为传统机器学习方法的可解释性替代品的潜力。最后，我们将其应用于建模基因调控网络动力学的常见任务。使用最近的基准测试，我们展示了Boolformer与最先进的遗传算法相比，速度提高了几个数量级。我们的代码和模型公开可用。
 
-    This book aims to provide an introduction to the topic of deep learning algorithms. We review essential components of deep learning algorithms in full mathematical detail including different artificial neural network (ANN) architectures (such as fully-connected feedforward ANNs, convolutional ANNs, recurrent ANNs, residual ANNs, and ANNs with batch normalization) and different optimization algorithms (such as the basic stochastic gradient descent (SGD) method, accelerated methods, and adaptive methods). We also cover several theoretical aspects of deep learning algorithms such as approximation capacities of ANNs (including a calculus for ANNs), optimization theory (including Kurdyka-{\L}ojasiewicz inequalities), and generalization errors. In the last part of the book some deep learning approximation methods for PDEs are reviewed including physics-informed neural networks (PINNs) and deep Galerkin methods. We hope that this book will be useful for students and scientists who do not yet 
+    In this work, we introduce Boolformer, the first Transformer architecture trained to perform end-to-end symbolic regression of Boolean functions. First, we show that it can predict compact formulas for complex functions which were not seen during training, when provided a clean truth table. Then, we demonstrate its ability to find approximate expressions when provided incomplete and noisy observations. We evaluate the Boolformer on a broad set of real-world binary classification datasets, demonstrating its potential as an interpretable alternative to classic machine learning methods. Finally, we apply it to the widespread task of modelling the dynamics of gene regulatory networks. Using a recent benchmark, we show that Boolformer is competitive with state-of-the art genetic algorithms with a speedup of several orders of magnitude. Our code and models are available publicly.
     
-[^7]: 通过广义逆理解全色增强算法
+[^4]: 基于Transformer和来源图的高级持久性威胁检测方法
 
-    Understanding Pan-Sharpening via Generalized Inverse. (arXiv:2310.02718v1 [cs.LG])
+    TBDetector:Transformer-Based Detector for Advanced Persistent Threats with Provenance Graph. (arXiv:2304.02838v1 [cs.CR])
 
-    [http://arxiv.org/abs/2310.02718](http://arxiv.org/abs/2310.02718)
+    [http://arxiv.org/abs/2304.02838](http://arxiv.org/abs/2304.02838)
 
-    通过研究广义逆理论，本文提出了一种新的全色增强算法，该算法基于简单矩阵方程描述全色增强问题，并探讨解的条件和光谱、空间分辨率的获取。通过引入降采样增强方法，我们得到了与分量替代和多分辨率分析方法相对应的广义逆矩阵表达式，并提出了一个新的模型先验来解决全色增强中的理论误差问题。
-
-    
-
-    全色增强算法利用全色图像和多光谱图像获取具有高空间和高光谱的图像。然而，这些算法的优化是根据不同的标准设计的。我们采用简单的矩阵方程来描述全色增强问题，并讨论解的存在条件以及光谱和空间分辨率的获取。我们引入了一种降采样增强方法，以更好地获取空间和光谱降采样矩阵。通过广义逆理论，我们推导出了两种形式的广义逆矩阵表达式，可以对应于两个主要的全色增强方法：分量替代和多分辨率分析方法。具体而言，我们证明了Gram Schmidt自适应(GSA)方法遵循分量替代的广义逆矩阵表达式。我们提出了一个在光谱函数的广义逆矩阵之前的模型先验。我们对理论误差进行了分析。
-
-    Pan-sharpening algorithm utilizes panchromatic image and multispectral image to obtain a high spatial and high spectral image. However, the optimizations of the algorithms are designed with different standards. We adopt the simple matrix equation to describe the Pan-sharpening problem. The solution existence condition and the acquirement of spectral and spatial resolution are discussed. A down-sampling enhancement method was introduced for better acquiring the spatial and spectral down-sample matrices. By the generalized inverse theory, we derived two forms of general inverse matrix formulations that can correspond to the two prominent classes of Pan-sharpening methods, that is, component substitution and multi-resolution analysis methods. Specifically, the Gram Schmidt Adaptive(GSA) was proved to follow the general inverse matrix formulation of component substitution. A model prior to the general inverse matrix of the spectral function was rendered. The theoretical errors are analyzed
-    
-[^8]: 领域自适应中条件不变组件的突出作用：理论和算法
-
-    Prominent Roles of Conditionally Invariant Components in Domain Adaptation: Theory and Algorithms. (arXiv:2309.10301v1 [stat.ML])
-
-    [http://arxiv.org/abs/2309.10301](http://arxiv.org/abs/2309.10301)
-
-    该论文研究了领域自适应中条件不变组件的作用，提出了一种基于条件不变惩罚的新算法，该算法在目标风险保证方面具有优势。
+    本论文提出了一种采用来源图和Transformer的高级持久性威胁检测方法，利用Transformer的自注意力编码器-解码器提取系统状态的长期上下文特征，并通过来源分析实现对长期运行系统的概括，以检测缓慢攻击。
 
     
 
-    领域自适应是一个统计学习问题，当用于训练模型的源数据分布与用于评估模型的目标数据分布不同时出现。虽然许多领域自适应算法已经证明了相当大的实证成功，但是盲目应用这些算法往往会导致在新的数据集上表现更差。为了解决这个问题，重要的是澄清领域自适应算法在具备良好目标性能的假设下。在这项工作中，我们关注在预测中具备条件不变的组件（CICs）的存在假设，这些组件在源数据和目标数据之间保持条件不变。我们证明了CICs，通过条件不变惩罚（CIP）可以估计，具备在领域自适应中提供目标风险保证的三个突出作用。首先，我们提出了一种基于CICs的新算法，即重要性加权的条件不变惩罚（IW-CIP），它在目标风险保证方面超越了简单的方法。
+    针对高级持久性威胁（APT）攻击的长期潜伏、隐秘多阶段攻击模式，本文提出了一种基于Transformer的APT检测方法，利用来源图提供的历史信息进行APT检测。该方法利用Transformer的自注意力编码器-解码器提取系统状态的长期上下文特征，并通过来源分析实现对长期运行系统的概括，以检测缓慢攻击。此外，作者还引入了异常评分，可评估不同系统状态的异常性。每个状态都有相应的相似度和隔离度分数的异常分数计算。为了评估该方法的有效性
 
-    Domain adaptation (DA) is a statistical learning problem that arises when the distribution of the source data used to train a model differs from that of the target data used to evaluate the model. While many DA algorithms have demonstrated considerable empirical success, blindly applying these algorithms can often lead to worse performance on new datasets. To address this, it is crucial to clarify the assumptions under which a DA algorithm has good target performance. In this work, we focus on the assumption of the presence of conditionally invariant components (CICs), which are relevant for prediction and remain conditionally invariant across the source and target data. We demonstrate that CICs, which can be estimated through conditional invariant penalty (CIP), play three prominent roles in providing target risk guarantees in DA. First, we propose a new algorithm based on CICs, importance-weighted conditional invariant penalty (IW-CIP), which has target risk guarantees beyond simple 
+    APT detection is difficult to detect due to the long-term latency, covert and slow multistage attack patterns of Advanced Persistent Threat (APT). To tackle these issues, we propose TBDetector, a transformer-based advanced persistent threat detection method for APT attack detection. Considering that provenance graphs provide rich historical information and have the powerful attacks historic correlation ability to identify anomalous activities, TBDetector employs provenance analysis for APT detection, which summarizes long-running system execution with space efficiency and utilizes transformer with self-attention based encoder-decoder to extract long-term contextual features of system states to detect slow-acting attacks. Furthermore, we further introduce anomaly scores to investigate the anomaly of different system states, where each state is calculated with an anomaly score corresponding to its similarity score and isolation score. To evaluate the effectiveness of the proposed method,
     
-[^9]: 基于COVID-19的数据多样性和虚拟成像的AI诊断：以病例研究为基础
+[^5]: 现实世界中的机器学习系统：基于数据导向架构的调查
 
-    Data diversity and virtual imaging in AI-based diagnosis: A case study based on COVID-19. (arXiv:2308.09730v1 [eess.IV])
+    Real-world Machine Learning Systems: A survey from a Data-Oriented Architecture Perspective. (arXiv:2302.04810v2 [cs.SE] UPDATED)
 
-    [http://arxiv.org/abs/2308.09730](http://arxiv.org/abs/2308.09730)
+    [http://arxiv.org/abs/2302.04810](http://arxiv.org/abs/2302.04810)
 
-    本研究通过使用多样性的临床和虚拟生成的医学图像开发和评估了COVID-19诊断的AI模型，发现数据集特征对于AI性能具有重要影响，容易导致泛化能力较差，最高下降20％。
+    这项调查研究了现实世界中部署机器学习系统的数据导向架构（DOA）的采用情况，发现尽管没有明确提及DOA，但许多论文中的设计决策默默地遵循了DOA的原则。
 
     
 
-    许多研究已经调查了基于深度学习的人工智能（AI）模型在新型冠状病毒（COVID-19）的医学影像诊断中的应用，许多报道称其性能几乎完美。然而，性能的变异性和潜在的数据偏差引发了对临床适用性的担忧。本回顾性研究涉及使用临床多样性和虚拟生成的医学图像开发和评估COVID-19诊断的人工智能（AI）模型。此外，我们进行了一次虚拟成像试验，以评估AI性能受疾病范围、辐射剂量和计算机断层扫描（CT）和胸部放射摄影（CXR）成像模态等几个患者和物理性因素的影响。数据集特征（包括数量、多样性和患病率）强烈影响了AI的性能，导致接收者操作特征曲线下面积下降了高达20％，且泛化能力差。
+    随着对人工智能的兴趣不断增长，机器学习模型正在作为现实世界系统的一部分部署。这些系统的设计、实现和维护受到现实世界环境的挑战，这些环境产生了更多的异构数据，用户需要更快的响应速度和高效的资源消耗。这些要求将普遍存在的软件架构推向了极限，当部署基于机器学习的系统时。数据导向架构（DOA）是一个新兴的概念，它能更好地为集成机器学习模型的系统提供支持。DOA扩展了当前的架构，创建了数据驱动、松耦合、去中心化和开放的系统。尽管部署的机器学习系统的论文中没有提到DOA，但它们的作者在设计上隐含地遵循了DOA。为什么、如何以及在多大程度上采用DOA在这些系统中尚不清楚。隐含的设计决策限制了从业者对于设计基于机器学习的系统时DOA的认识。
 
-    Many studies have investigated deep-learning-based artificial intelligence (AI) models for medical imaging diagnosis of the novel coronavirus (COVID-19), with many reports of near-perfect performance. However, variability in performance and underlying data biases raise concerns about clinical generalizability. This retrospective study involved the development and evaluation of artificial intelligence (AI) models for COVID-19 diagnosis using both diverse clinical and virtually generated medical images. In addition, we conducted a virtual imaging trial to assess how AI performance is affected by several patient- and physics-based factors, including the extent of disease, radiation dose, and imaging modality of computed tomography (CT) and chest radiography (CXR). AI performance was strongly influenced by dataset characteristics including quantity, diversity, and prevalence, leading to poor generalization with up to 20% drop in receiver operating characteristic area under the curve. Model
+    Machine Learning models are being deployed as parts of real-world systems with the upsurge of interest in artificial intelligence. The design, implementation, and maintenance of such systems are challenged by real-world environments that produce larger amounts of heterogeneous data and users requiring increasingly faster responses with efficient resource consumption. These requirements push prevalent software architectures to the limit when deploying ML-based systems. Data-oriented Architecture (DOA) is an emerging concept that equips systems better for integrating ML models. DOA extends current architectures to create data-driven, loosely coupled, decentralised, open systems. Even though papers on deployed ML-based systems do not mention DOA, their authors made design decisions that implicitly follow DOA. The reasons why, how, and the extent to which DOA is adopted in these systems are unclear. Implicit design decisions limit the practitioners' knowledge of DOA to design ML-based syst
     
 

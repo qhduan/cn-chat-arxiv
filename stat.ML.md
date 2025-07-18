@@ -2,67 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Error bounds for particle gradient descent, and extensions of the log-Sobolev and Talagrand inequalities](https://arxiv.org/abs/2403.02004) | 证明了粒子梯度下降算法对于一般化的log-Sobolev和Polyak-Lojasiewicz不等式模型的收敛速度，以及推广了Bakry-Emery定理。 |
-| [^2] | [On the Statistical Properties of Generative Adversarial Models for Low Intrinsic Data Dimension.](http://arxiv.org/abs/2401.15801) | 这篇论文研究了用于低固有数据维度的生成对抗模型的统计属性，提出了关于估计密度的统计保证，涉及数据和潜空间的内在维度，并证明了估计结果与目标的期望Wasserstein-1距离的缩放关系。 |
-| [^3] | [Mathematical Introduction to Deep Learning: Methods, Implementations, and Theory.](http://arxiv.org/abs/2310.20360) | 本书提供了对深度学习算法的数学介绍，包括不同的神经网络架构和优化算法，并涵盖了深度学习算法的理论方面。此外，还介绍了深度学习逼近偏微分方程的方法。希望对学生和科学家们有所帮助。 |
-| [^4] | [Prominent Roles of Conditionally Invariant Components in Domain Adaptation: Theory and Algorithms.](http://arxiv.org/abs/2309.10301) | 该论文研究了领域自适应中条件不变组件的作用，提出了一种基于条件不变惩罚的新算法，该算法在目标风险保证方面具有优势。 |
+| [^1] | [Integrated path stability selection](https://arxiv.org/abs/2403.15877) | 该论文提出了一种基于集成稳定路径的新稳定选择方法，能够在实践中提高特征选择的灵敏度并更好地校准目标假阳性数量。 |
+| [^2] | [Boosting for Bounding the Worst-class Error.](http://arxiv.org/abs/2310.14890) | 该论文提出了一种基于Boosting的算法，可以保证最差类别训练误差的上界，并降低了最差类别的测试误差率。 |
+| [^3] | [Conformal inference for regression on Riemannian Manifolds.](http://arxiv.org/abs/2310.08209) | 本文研究了在黎曼流形上进行回归场景的预测集，并证明了这些区域的经验版本在大样本下的收敛性。 |
 
 # 详细
 
-[^1]: 粒子梯度下降的误差界限，以及log-Sobolev和Talagrand不等式的推广
+[^1]: 集成路径稳定选择
 
-    Error bounds for particle gradient descent, and extensions of the log-Sobolev and Talagrand inequalities
+    Integrated path stability selection
 
-    [https://arxiv.org/abs/2403.02004](https://arxiv.org/abs/2403.02004)
+    [https://arxiv.org/abs/2403.15877](https://arxiv.org/abs/2403.15877)
 
-    证明了粒子梯度下降算法对于一般化的log-Sobolev和Polyak-Lojasiewicz不等式模型的收敛速度，以及推广了Bakry-Emery定理。
-
-    
-
-    我们证明了粒子梯度下降(PGD)~(Kuntz等人，2023)的非渐近误差界限，这是一种最大似然估计的算法，用于离散化自由能梯度流获得的大型潜变量模型。我们首先展示了对于满足一般化log-Sobolev和Polyak-Lojasiewicz不等式（LSI和PLI）的模型，流以指数速度收敛到自由能的极小化集合。我们通过将最优输运文献中众所周知的结果（LSI意味着Talagrand不等式）及其在优化文献中的对应物（PLI意味着所谓的二次增长条件）扩展并应用到我们的新设置，来实现这一点。我们还推广了Bakry-Emery定理，并展示了对于具有强凹对数似然的模型，LSI/PLI的概括成立。
-
-    arXiv:2403.02004v1 Announce Type: new  Abstract: We prove non-asymptotic error bounds for particle gradient descent (PGD)~(Kuntz et al., 2023), a recently introduced algorithm for maximum likelihood estimation of large latent variable models obtained by discretizing a gradient flow of the free energy. We begin by showing that, for models satisfying a condition generalizing both the log-Sobolev and the Polyak--{\L}ojasiewicz inequalities (LSI and P{\L}I, respectively), the flow converges exponentially fast to the set of minimizers of the free energy. We achieve this by extending a result well-known in the optimal transport literature (that the LSI implies the Talagrand inequality) and its counterpart in the optimization literature (that the P{\L}I implies the so-called quadratic growth condition), and applying it to our new setting. We also generalize the Bakry--\'Emery Theorem and show that the LSI/P{\L}I generalization holds for models with strongly concave log-likelihoods. For such m
-    
-[^2]: 关于用于低固有数据维度的生成对抗模型的统计属性
-
-    On the Statistical Properties of Generative Adversarial Models for Low Intrinsic Data Dimension. (arXiv:2401.15801v1 [stat.ML])
-
-    [http://arxiv.org/abs/2401.15801](http://arxiv.org/abs/2401.15801)
-
-    这篇论文研究了用于低固有数据维度的生成对抗模型的统计属性，提出了关于估计密度的统计保证，涉及数据和潜空间的内在维度，并证明了估计结果与目标的期望Wasserstein-1距离的缩放关系。
+    该论文提出了一种基于集成稳定路径的新稳定选择方法，能够在实践中提高特征选择的灵敏度并更好地校准目标假阳性数量。
 
     
 
-    尽管生成对抗网络（GANs）取得了显著的实证成功，但其统计准确性的理论保证仍然相对悲观。特别是在应用GANs的数据分布（如自然图像）中，通常假设其在高维特征空间中具有固有的低维结构，但这在现有分析中往往没有得到反映。在本文中，我们试图通过推导关于数据和潜空间的内在维度的统计保证来弥合GANs及其双向变体BiGANs在理论和实践之间的差距。我们分析地证明，如果我们有来自未知目标分布的 n 个样本，并且选择了适当的网络架构，那么从目标中估计得出的期望 Wasserstein-1 距离会按照 $O(n^{-1/d_\mu })$ 缩放。
+    稳定选择是一种广泛用于改善特征选择算法性能的方法。然而，已发现稳定选择过于保守，导致灵敏度较低。此外，对期望的假阳性数量的理论界限E(FP)相对较松，难以知道实践中会有多少假阳性。在本文中，我们提出一种基于集成稳定路径而非最大化稳定路径的新方法。这产生了对E(FP)更紧密的界限，导致实践中具有更高灵敏度的特征选择标准，并且在与目标E(FP)匹配方面更好地校准。我们提出的方法与原始稳定选择算法需要相同数量的计算，且仅需要用户指定一个输入参数，即E(FP)的目标值。我们提供了性能的理论界限。
 
-    Despite the remarkable empirical successes of Generative Adversarial Networks (GANs), the theoretical guarantees for their statistical accuracy remain rather pessimistic. In particular, the data distributions on which GANs are applied, such as natural images, are often hypothesized to have an intrinsic low-dimensional structure in a typically high-dimensional feature space, but this is often not reflected in the derived rates in the state-of-the-art analyses. In this paper, we attempt to bridge the gap between the theory and practice of GANs and their bidirectional variant, Bi-directional GANs (BiGANs), by deriving statistical guarantees on the estimated densities in terms of the intrinsic dimension of the data and the latent space. We analytically show that if one has access to $n$ samples from the unknown target distribution and the network architectures are properly chosen, the expected Wasserstein-1 distance of the estimates from the target scales as $O\left( n^{-1/d_\mu } \right)$
+    arXiv:2403.15877v1 Announce Type: cross  Abstract: Stability selection is a widely used method for improving the performance of feature selection algorithms. However, stability selection has been found to be highly conservative, resulting in low sensitivity. Further, the theoretical bound on the expected number of false positives, E(FP), is relatively loose, making it difficult to know how many false positives to expect in practice. In this paper, we introduce a novel method for stability selection based on integrating the stability paths rather than maximizing over them. This yields a tighter bound on E(FP), resulting in a feature selection criterion that has higher sensitivity in practice and is better calibrated in terms of matching the target E(FP). Our proposed method requires the same amount of computation as the original stability selection algorithm, and only requires the user to specify one input parameter, a target value for E(FP). We provide theoretical bounds on performance
     
-[^3]: 深度学习的数学介绍：方法、实现和理论
+[^2]: Boosting用于界定最差分类误差
 
-    Mathematical Introduction to Deep Learning: Methods, Implementations, and Theory. (arXiv:2310.20360v1 [cs.LG])
+    Boosting for Bounding the Worst-class Error. (arXiv:2310.14890v1 [stat.ML])
 
-    [http://arxiv.org/abs/2310.20360](http://arxiv.org/abs/2310.20360)
+    [http://arxiv.org/abs/2310.14890](http://arxiv.org/abs/2310.14890)
 
-    本书提供了对深度学习算法的数学介绍，包括不同的神经网络架构和优化算法，并涵盖了深度学习算法的理论方面。此外，还介绍了深度学习逼近偏微分方程的方法。希望对学生和科学家们有所帮助。
-
-    
-
-    本书旨在介绍深度学习算法的主题。我们详细介绍了深度学习算法的基本组成部分，包括不同的人工神经网络架构（如全连接前馈神经网络、卷积神经网络、循环神经网络、残差神经网络和带有批归一化的神经网络）以及不同的优化算法（如基本的随机梯度下降法、加速方法和自适应方法）。我们还涵盖了深度学习算法的几个理论方面，如人工神经网络的逼近能力（包括神经网络的微积分）、优化理论（包括Kurdyka-Lojasiewicz不等式）和泛化误差。在本书的最后一部分，我们还回顾了一些用于偏微分方程的深度学习逼近方法，包括物理信息神经网络（PINNs）和深度Galerkin方法。希望本书能对学生和科学家们有所帮助。
-
-    This book aims to provide an introduction to the topic of deep learning algorithms. We review essential components of deep learning algorithms in full mathematical detail including different artificial neural network (ANN) architectures (such as fully-connected feedforward ANNs, convolutional ANNs, recurrent ANNs, residual ANNs, and ANNs with batch normalization) and different optimization algorithms (such as the basic stochastic gradient descent (SGD) method, accelerated methods, and adaptive methods). We also cover several theoretical aspects of deep learning algorithms such as approximation capacities of ANNs (including a calculus for ANNs), optimization theory (including Kurdyka-{\L}ojasiewicz inequalities), and generalization errors. In the last part of the book some deep learning approximation methods for PDEs are reviewed including physics-informed neural networks (PINNs) and deep Galerkin methods. We hope that this book will be useful for students and scientists who do not yet 
-    
-[^4]: 领域自适应中条件不变组件的突出作用：理论和算法
-
-    Prominent Roles of Conditionally Invariant Components in Domain Adaptation: Theory and Algorithms. (arXiv:2309.10301v1 [stat.ML])
-
-    [http://arxiv.org/abs/2309.10301](http://arxiv.org/abs/2309.10301)
-
-    该论文研究了领域自适应中条件不变组件的作用，提出了一种基于条件不变惩罚的新算法，该算法在目标风险保证方面具有优势。
+    该论文提出了一种基于Boosting的算法，可以保证最差类别训练误差的上界，并降低了最差类别的测试误差率。
 
     
 
-    领域自适应是一个统计学习问题，当用于训练模型的源数据分布与用于评估模型的目标数据分布不同时出现。虽然许多领域自适应算法已经证明了相当大的实证成功，但是盲目应用这些算法往往会导致在新的数据集上表现更差。为了解决这个问题，重要的是澄清领域自适应算法在具备良好目标性能的假设下。在这项工作中，我们关注在预测中具备条件不变的组件（CICs）的存在假设，这些组件在源数据和目标数据之间保持条件不变。我们证明了CICs，通过条件不变惩罚（CIP）可以估计，具备在领域自适应中提供目标风险保证的三个突出作用。首先，我们提出了一种基于CICs的新算法，即重要性加权的条件不变惩罚（IW-CIP），它在目标风险保证方面超越了简单的方法。
+    本文解决了最差类别误差率的问题，而不是针对所有类别的标准误差率的平均。例如，一个三类别分类任务，其中各类别的误差率分别为10％，10％和40％，其最差类别误差率为40％，而在类别平衡条件下的平均误差率为20％。最差类别错误在许多应用中很重要。例如，在医学图像分类任务中，对于恶性肿瘤类别具有40％的错误率而良性和健康类别具有10％的错误率是不能被接受的。我们提出了一种保证最差类别训练误差上界的提升算法，并推导出其泛化界。实验结果表明，该算法降低了最差类别的测试误差率，同时避免了对训练集的过拟合。
 
-    Domain adaptation (DA) is a statistical learning problem that arises when the distribution of the source data used to train a model differs from that of the target data used to evaluate the model. While many DA algorithms have demonstrated considerable empirical success, blindly applying these algorithms can often lead to worse performance on new datasets. To address this, it is crucial to clarify the assumptions under which a DA algorithm has good target performance. In this work, we focus on the assumption of the presence of conditionally invariant components (CICs), which are relevant for prediction and remain conditionally invariant across the source and target data. We demonstrate that CICs, which can be estimated through conditional invariant penalty (CIP), play three prominent roles in providing target risk guarantees in DA. First, we propose a new algorithm based on CICs, importance-weighted conditional invariant penalty (IW-CIP), which has target risk guarantees beyond simple 
+    This paper tackles the problem of the worst-class error rate, instead of the standard error rate averaged over all classes. For example, a three-class classification task with class-wise error rates of 10\%, 10\%, and 40\% has a worst-class error rate of 40\%, whereas the average is 20\% under the class-balanced condition. The worst-class error is important in many applications. For example, in a medical image classification task, it would not be acceptable for the malignant tumor class to have a 40\% error rate, while the benign and healthy classes have 10\% error rates.We propose a boosting algorithm that guarantees an upper bound of the worst-class training error and derive its generalization bound. Experimental results show that the algorithm lowers worst-class test error rates while avoiding overfitting to the training set.
+    
+[^3]: 在黎曼流形上进行回归的一致推断
+
+    Conformal inference for regression on Riemannian Manifolds. (arXiv:2310.08209v1 [stat.ML])
+
+    [http://arxiv.org/abs/2310.08209](http://arxiv.org/abs/2310.08209)
+
+    本文研究了在黎曼流形上进行回归场景的预测集，并证明了这些区域的经验版本在大样本下的收敛性。
+
+    
+
+    在流形上进行回归，以及更广泛地说，对流形上的统计学有了重要的关注，因为这种类型的数据有大量的应用。圆形数据是一个经典示例，但协方差矩阵空间上的数据、主成分分析得到的Grassmann流形上的数据等也是如此。在本文中，我们研究了当响应变量$Y$位于流形上，而协变量$X$位于欧几里德空间时，回归场景的预测集。这扩展了[Lei and Wasserman, 2014]中在这一新领域中概述的概念。与一致推断中的传统原则一致，这些预测集是无分布的，表明对$(X, Y)$的联合分布没有施加特定的假设，而且它们保持非参数性质。我们证明了这些区域的经验版本在几乎必然收敛于无穷大时的收敛性。
+
+    Regression on manifolds, and, more broadly, statistics on manifolds, has garnered significant importance in recent years due to the vast number of applications for this type of data. Circular data is a classic example, but so is data in the space of covariance matrices, data on the Grassmannian manifold obtained as a result of principal component analysis, among many others. In this work we investigate prediction sets for regression scenarios when the response variable, denoted by $Y$, resides in a manifold, and the covariable, denoted by X, lies in Euclidean space. This extends the concepts delineated in [Lei and Wasserman, 2014] to this novel context. Aligning with traditional principles in conformal inference, these prediction sets are distribution-free, indicating that no specific assumptions are imposed on the joint distribution of $(X, Y)$, and they maintain a non-parametric character. We prove the asymptotic almost sure convergence of the empirical version of these regions on th
     
 
