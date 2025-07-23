@@ -2,52 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Attention with Markov: A Framework for Principled Analysis of Transformers via Markov Chains](https://arxiv.org/abs/2402.04161) | 提出了一个新的框架，通过马尔可夫链的视角研究了注意力模型的顺序建模能力，理论上刻画了单层Transformer的损失景观并发现了全局最小值和坏局部最小值的存在。 |
-| [^2] | [Score-based Causal Representation Learning: Linear and General Transformations](https://arxiv.org/abs/2402.00849) | 这篇论文提出了一种基于得分的算法类，用于干预范围内的因果表示学习，涵盖了线性和一般转化。算法保证了可识别性和实现性，并且通过创造性地将得分函数与因果表示学习相结合。 |
-| [^3] | [Quantum Learning Theory Beyond Batch Binary Classification.](http://arxiv.org/abs/2302.07409) | 这篇论文通过研究量子学习理论拓展了批处理多类学习、在线布尔学习和在线多类学习，并提出了第一个具有量子示例的在线学习模型。 |
+| [^1] | [Randomization Can Reduce Both Bias and Variance: A Case Study in Random Forests](https://arxiv.org/abs/2402.12668) | 随机森林相对于装袋法具有减少偏差的能力，在揭示数据模式和高信噪比情况下表现更好的特点，为随机森林在不同信噪比环境下的成功提供了解释和实用见解。 |
 
 # 详细
 
-[^1]: 基于马尔可夫链的注意力模型的规范分析框架：通过马尔可夫链研究Transformer的顺序建模能力
+[^1]: 随机化既可以减少偏差又可以减少方差：随机森林的案例研究
 
-    Attention with Markov: A Framework for Principled Analysis of Transformers via Markov Chains
+    Randomization Can Reduce Both Bias and Variance: A Case Study in Random Forests
 
-    [https://arxiv.org/abs/2402.04161](https://arxiv.org/abs/2402.04161)
+    [https://arxiv.org/abs/2402.12668](https://arxiv.org/abs/2402.12668)
 
-    提出了一个新的框架，通过马尔可夫链的视角研究了注意力模型的顺序建模能力，理论上刻画了单层Transformer的损失景观并发现了全局最小值和坏局部最小值的存在。
-
-    
-
-    近年来，基于注意力的Transformer在包括自然语言在内的多个领域取得了巨大成功。其中一个关键因素是生成式预训练过程，模型在此过程中通过自回归的方式在大型文本语料库上进行训练。为了揭示这一现象，我们提出了一个新的框架，通过马尔可夫链的视角，允许理论和系统实验来研究Transformer的顺序建模能力。受到自然语言的马尔可夫性质的启发，我们将数据建模为一个马尔可夫源，并利用这个框架系统地研究数据分布特性、Transformer架构、学到的分布和最终模型性能之间的相互作用。特别地，我们理论上刻画了单层Transformer的损失景观，并展示了全局最小值和坏局部最小值的存在，这取决于具体的数据性质。
-
-    In recent years, attention-based transformers have achieved tremendous success across a variety of disciplines including natural languages. A key ingredient behind their success is the generative pretraining procedure, during which these models are trained on a large text corpus in an auto-regressive manner. To shed light on this phenomenon, we propose a new framework that allows both theory and systematic experiments to study the sequential modeling capabilities of transformers through the lens of Markov chains. Inspired by the Markovianity of natural languages, we model the data as a Markovian source and utilize this framework to systematically study the interplay between the data-distributional properties, the transformer architecture, the learnt distribution, and the final model performance. In particular, we theoretically characterize the loss landscape of single-layer transformers and show the existence of global minima and bad local minima contingent upon the specific data chara
-    
-[^2]: 基于得分的因果表示学习：线性和一般的转化
-
-    Score-based Causal Representation Learning: Linear and General Transformations
-
-    [https://arxiv.org/abs/2402.00849](https://arxiv.org/abs/2402.00849)
-
-    这篇论文提出了一种基于得分的算法类，用于干预范围内的因果表示学习，涵盖了线性和一般转化。算法保证了可识别性和实现性，并且通过创造性地将得分函数与因果表示学习相结合。
+    随机森林相对于装袋法具有减少偏差的能力，在揭示数据模式和高信噪比情况下表现更好的特点，为随机森林在不同信噪比环境下的成功提供了解释和实用见解。
 
     
 
-    本篇论文针对一般非参数潜在因果模型和将潜在变量映射到观测变量的未知转化，研究了基于干预的因果表示学习（CRL）。研究了线性和一般的转化。这篇论文同时讨论了可识别性和实现性两个方面。可识别性是指确定算法不相关的条件，以确保恢复真实的潜在因果变量和潜在因果图。实现性是指算法方面，解决设计算法来实现可识别保证的问题。通过将得分函数（即密度函数对数的梯度）与CRL之间建立新联系，本文设计了一种得分为基础的算法类，确保了可识别性和实现性。首先，本文专注于线性转化，并展示了每个n个随机硬干预下该转化的因果表示可识别。
+    我们研究了往往被忽视的现象，首次在\cite{breiman2001random}中指出，即随机森林似乎比装袋法减少了偏差。受\cite{mentch2020randomization}一篇有趣的论文的启发，其中作者认为随机森林减少了有效自由度，并且只有在低信噪比（SNR）环境下才能胜过装袋集成，我们探讨了随机森林如何能够揭示被装袋法忽视的数据模式。我们在实证中证明，在存在这种模式的情况下，随机森林不仅可以减小偏差还能减小方差，并且当信噪比高时随机森林的表现愈发好于装袋集成。我们的观察为解释随机森林在各种信噪比情况下的真实世界成功提供了见解，并增进了我们对随机森林与装袋集成在每次分割注入的随机化方面的差异的理解。我们的调查结果还提供了实用见解。
 
-    This paper addresses intervention-based causal representation learning (CRL) under a general nonparametric latent causal model and an unknown transformation that maps the latent variables to the observed variables. Linear and general transformations are investigated. The paper addresses both the \emph{identifiability} and \emph{achievability} aspects. Identifiability refers to determining algorithm-agnostic conditions that ensure recovering the true latent causal variables and the latent causal graph underlying them. Achievability refers to the algorithmic aspects and addresses designing algorithms that achieve identifiability guarantees. By drawing novel connections between \emph{score functions} (i.e., the gradients of the logarithm of density functions) and CRL, this paper designs a \emph{score-based class of algorithms} that ensures both identifiability and achievability. First, the paper focuses on \emph{linear} transformations and shows that one stochastic hard intervention per n
-    
-[^3]: 《超越批处理二元分类的量子学习理论》
-
-    Quantum Learning Theory Beyond Batch Binary Classification. (arXiv:2302.07409v3 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2302.07409](http://arxiv.org/abs/2302.07409)
-
-    这篇论文通过研究量子学习理论拓展了批处理多类学习、在线布尔学习和在线多类学习，并提出了第一个具有量子示例的在线学习模型。
-
-    
-
-    Arunachalam和de Wolf（2018）证明了在可实现和糊涂设置下，量子批处理学习布尔函数的样本复杂性与相应的经典样本复杂性具有相同的形式和数量级。在本文中，我们将这个明显令人惊讶的结果推广到了批处理多类学习、在线布尔学习和在线多类学习。对于我们的在线学习结果，我们首先考虑了Dawid和Tewari（2022）经典模型的自适应对手变体。然后，我们引入了第一个（据我们所知）具有量子示例的在线学习模型。
-
-    Arunachalam and de Wolf (2018) showed that the sample complexity of quantum batch learning of boolean functions, in the realizable and agnostic settings, has the same form and order as the corresponding classical sample complexities. In this paper, we extend this, ostensibly surprising, message to batch multiclass learning, online boolean learning, and online multiclass learning. For our online learning results, we first consider an adaptive adversary variant of the classical model of Dawid and Tewari (2022). Then, we introduce the first (to the best of our knowledge) model of online learning with quantum examples.
+    arXiv:2402.12668v1 Announce Type: cross  Abstract: We study the often overlooked phenomenon, first noted in \cite{breiman2001random}, that random forests appear to reduce bias compared to bagging. Motivated by an interesting paper by \cite{mentch2020randomization}, where the authors argue that random forests reduce effective degrees of freedom and only outperform bagging ensembles in low signal-to-noise ratio (SNR) settings, we explore how random forests can uncover patterns in the data missed by bagging. We empirically demonstrate that in the presence of such patterns, random forests reduce bias along with variance and increasingly outperform bagging ensembles when SNR is high. Our observations offer insights into the real-world success of random forests across a range of SNRs and enhance our understanding of the difference between random forests and bagging ensembles with respect to the randomization injected into each split. Our investigations also yield practical insights into the 
     
 

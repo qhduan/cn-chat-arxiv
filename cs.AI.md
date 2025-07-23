@@ -2,97 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Generalized Consistency Trajectory Models for Image Manipulation](https://arxiv.org/abs/2403.12510) | 本研究提出了广义一致性轨迹模型（GCTMs），能够在任何噪声分布和数据分布之间实现转换。 |
-| [^2] | [Generative Models and Connected and Automated Vehicles: A Survey in Exploring the Intersection of Transportation and AI](https://arxiv.org/abs/2403.10559) | 生成模型与联网自动驾驶车辆的整合有望提升自动车辆的预测建模、模拟精度和决策流程，对交通行业的安全和创新具有潜在推动作用。 |
-| [^3] | [Defending Against Unforeseen Failure Modes with Latent Adversarial Training](https://arxiv.org/abs/2403.05030) | 本研究利用潜在对抗训练（LAT）来防御AI系统中未预见的故障模式，通过利用网络实际用于预测的压缩、抽象和结构化概念的潜在表示，有效清除了恶意软件和对抗性攻击。 |
-| [^4] | [zkFL: Zero-Knowledge Proof-based Gradient Aggregation for Federated Learning.](http://arxiv.org/abs/2310.02554) | zkFL是一种基于零知识证明的联邦学习梯度聚合方法，通过提供每轮的证明来解决协调者恶意行为的问题。 |
-| [^5] | [PFB-Diff: Progressive Feature Blending Diffusion for Text-driven Image Editing.](http://arxiv.org/abs/2306.16894) | PFB-Diff 是一个通过渐进特征混合的方法，用于文本驱动的图像编辑。该方法解决了扩散模型在像素级混合中产生的伪影问题，并通过多级特征混合和注意力屏蔽机制确保了编辑图像的语义连贯性和高质量。 |
-| [^6] | [Transformers and Ensemble methods: A solution for Hate Speech Detection in Arabic languages.](http://arxiv.org/abs/2303.09823) | 本文提出了一种使用Transformer和Ensemble方法的解决方案，用于阿语恶意言论的检测。实验结果表明，基于多数表决的集成方法具有最佳效果，其在测试集上的准确率为0.86，F1分数为0.60。 |
+| [^1] | [ALTO: An Efficient Network Orchestrator for Compound AI Systems](https://arxiv.org/abs/2403.04311) | ALTO是一个网络编排器，针对生成语言模型的优化机会，实现了高吞吐量和低延迟，同时解决了流式中间输出的两个新挑战：正确性和负载平衡。 |
+| [^2] | [Practical Insights into Knowledge Distillation for Pre-Trained Models](https://arxiv.org/abs/2402.14922) | 研究对知识蒸馏在预训练模型中的应用进行了深入比较，包括优化的温度和权重参数的调整，以及数据分区KD，揭示了最有效的知识蒸馏策略。 |
+| [^3] | [Prioritizing Safeguarding Over Autonomy: Risks of LLM Agents for Science](https://arxiv.org/abs/2402.04247) | 本文探讨了科学领域中基于LLM的智能机器人的漏洞与风险，并强调了对安全措施的重要性。 |
+| [^4] | [Causal Perception.](http://arxiv.org/abs/2401.13408) | 这项研究提出了因果感知的概念，并将其应用于自动决策系统中。感知对决策的公平性有重要影响，因为公平性是与背景相关的，并且其解释取决于评判人是谁。 |
+| [^5] | [Sample-Driven Federated Learning for Energy-Efficient and Real-Time IoT Sensing.](http://arxiv.org/abs/2310.07497) | 本文提出了一种针对具有实时感知能力的IoT网络设计的基于样本驱动的联邦学习方法，通过控制采样过程来减轻过拟合问题，提高整体准确性，并解决能效问题。 |
 
 # 详细
 
-[^1]: 图像操作的广义一致性轨迹模型
+[^1]: ALTO：一种用于复合AI系统的高效网络编排器
 
-    Generalized Consistency Trajectory Models for Image Manipulation
+    ALTO: An Efficient Network Orchestrator for Compound AI Systems
 
-    [https://arxiv.org/abs/2403.12510](https://arxiv.org/abs/2403.12510)
+    [https://arxiv.org/abs/2403.04311](https://arxiv.org/abs/2403.04311)
 
-    本研究提出了广义一致性轨迹模型（GCTMs），能够在任何噪声分布和数据分布之间实现转换。
-
-    
-
-    基于扩散的生成模型在无条件生成以及图像编辑和恢复等应用任务中表现出色。扩散模型的成功在于扩散的迭代性质：扩散将将噪声到数据的复杂映射过程分解为一系列简单的去噪任务。此外，通过在每个去噪步骤中注入引导项，我们能够对生成过程进行精细控制。然而，迭代过程也常常计算密集，通常需要进行数十次甚至数千次函数评估。虽然一致性轨迹模型（CTMs）可以在概率流ODE（PFODE）上任意时间点之间进行遍历，并且通过单次函数评估进行得分推导，但CTMs仅允许从高斯噪声转换为数据。因此，本文旨在通过提出广义CTMs（GCTMs）来发挥CTMs的全部潜力，实现在任何噪声分布和数据分布之间进行转换。
-
-    arXiv:2403.12510v1 Announce Type: cross  Abstract: Diffusion-based generative models excel in unconditional generation, as well as on applied tasks such as image editing and restoration. The success of diffusion models lies in the iterative nature of diffusion: diffusion breaks down the complex process of mapping noise to data into a sequence of simple denoising tasks. Moreover, we are able to exert fine-grained control over the generation process by injecting guidance terms into each denoising step. However, the iterative process is also computationally intensive, often taking from tens up to thousands of function evaluations. Although consistency trajectory models (CTMs) enable traversal between any time points along the probability flow ODE (PFODE) and score inference with a single function evaluation, CTMs only allow translation from Gaussian noise to data. Thus, this work aims to unlock the full potential of CTMs by proposing generalized CTMs (GCTMs), which translate between arbit
-    
-[^2]: 生成模型与联网自动驾驶车辆：探索交通和人工智能交叉领域的调查
-
-    Generative Models and Connected and Automated Vehicles: A Survey in Exploring the Intersection of Transportation and AI
-
-    [https://arxiv.org/abs/2403.10559](https://arxiv.org/abs/2403.10559)
-
-    生成模型与联网自动驾驶车辆的整合有望提升自动车辆的预测建模、模拟精度和决策流程，对交通行业的安全和创新具有潜在推动作用。
+    ALTO是一个网络编排器，针对生成语言模型的优化机会，实现了高吞吐量和低延迟，同时解决了流式中间输出的两个新挑战：正确性和负载平衡。
 
     
 
-    这份报告调查了生成模型和联网自动驾驶车辆（CAVs）两种推动技术和交通进步的突破性力量的历史和影响。通过关注生成模型在CAVs背景下的应用，该研究旨在揭示这种整合如何提升自动驾驶车辆的预测建模、模拟精度和决策流程。本文讨论了在交通领域整合生成模型和CAV技术的益处和挑战，旨在强调取得的进展、剩余的障碍以及在安全和创新方面的潜力。
+    我们提出了ALTO，一种用于有效为诸如语言模型管道之类的复合AI系统提供服务的网络编排器。ALTO通过利用生成语言模型特有的优化机会：流式中间输出，实现了高吞吐量和低延迟。由于语言模型逐个生成token的输出，ALTO在可能时暴露了在阶段之间流式传输中间输出的机会。我们强调了在跨分布式管道阶段实例之间流式传输中间数据时出现的两个新挑战：正确性和负载平衡。我们还提出了聚合感知路由接口和分布式提示感知调度以应对这些挑战的需求。我们在一个复杂的聊天机器人验证管道上展示了ALTO部分输出流式传输的影响，将吞吐量提高了最多3倍，同时将固定延迟目标设置为4秒/请求，还减少了尾延迟。
 
-    arXiv:2403.10559v1 Announce Type: cross  Abstract: This report investigates the history and impact of Generative Models and Connected and Automated Vehicles (CAVs), two groundbreaking forces pushing progress in technology and transportation. By focusing on the application of generative models within the context of CAVs, the study aims to unravel how this integration could enhance predictive modeling, simulation accuracy, and decision-making processes in autonomous vehicles. This thesis discusses the benefits and challenges of integrating generative models and CAV technology in transportation. It aims to highlight the progress made, the remaining obstacles, and the potential for advancements in safety and innovation.
+    arXiv:2403.04311v1 Announce Type: new  Abstract: We present ALTO, a network orchestrator for efficiently serving compound AI systems such as pipelines of language models. ALTO achieves high throughput and low latency by taking advantage of an optimization opportunity specific to generative language models: streaming intermediate outputs. As language models produce outputs token by token, ALTO exposes opportunities to stream intermediate outputs between stages when possible. We highlight two new challenges of correctness and load balancing which emerge when streaming intermediate data across distributed pipeline stage instances. We also motivate the need for an aggregation-aware routing interface and distributed prompt-aware scheduling to address these challenges. We demonstrate the impact of ALTO's partial output streaming on a complex chatbot verification pipeline, increasing throughput by up to 3x for a fixed latency target of 4 seconds / request while also reducing tail latency by 1
     
-[^3]: 利用潜在对抗训练防御未预见的故障模式
+[^2]: 针对预训练模型的知识蒸馏的实践见解
 
-    Defending Against Unforeseen Failure Modes with Latent Adversarial Training
+    Practical Insights into Knowledge Distillation for Pre-Trained Models
 
-    [https://arxiv.org/abs/2403.05030](https://arxiv.org/abs/2403.05030)
+    [https://arxiv.org/abs/2402.14922](https://arxiv.org/abs/2402.14922)
 
-    本研究利用潜在对抗训练（LAT）来防御AI系统中未预见的故障模式，通过利用网络实际用于预测的压缩、抽象和结构化概念的潜在表示，有效清除了恶意软件和对抗性攻击。
-
-    
-
-    人工智能系统有时在部署后会展示出有害的意外行为。尽管开发人员进行了大量诊断和调试，这种情况经常发生。由于攻击面非常广泛，从模型中减少风险具有挑战性。耗尽地搜索可能导致模型失败的输入是不可行的。红队和对抗训练（AT）通常用于使人工智能系统更加健壮。然而，它们并不足以避免许多与对抗训练不同的真实世界故障模式。在这项工作中，我们利用潜在对抗训练（LAT）来防御漏洞，而无需生成引发这些漏洞的输入。LAT利用网络实际用于预测的压缩、抽象和结构化概念的潜在表示。我们使用LAT来清除恶意软件并防御针对保留类别的对抗性攻击。我们展示在图像分类、文本分类
-
-    arXiv:2403.05030v1 Announce Type: cross  Abstract: AI systems sometimes exhibit harmful unintended behaviors post-deployment. This is often despite extensive diagnostics and debugging by developers. Minimizing risks from models is challenging because the attack surface is so large. It is not tractable to exhaustively search for inputs that may cause a model to fail. Red-teaming and adversarial training (AT) are commonly used to make AI systems more robust. However, they have not been sufficient to avoid many real-world failure modes that differ from the ones adversarially trained on. In this work, we utilize latent adversarial training (LAT) to defend against vulnerabilities without generating inputs that elicit them. LAT leverages the compressed, abstract, and structured latent representations of concepts that the network actually uses for prediction. We use LAT to remove trojans and defend against held-out classes of adversarial attacks. We show in image classification, text classifi
-    
-[^4]: zkFL: 基于零知识证明的联邦学习梯度聚合
-
-    zkFL: Zero-Knowledge Proof-based Gradient Aggregation for Federated Learning. (arXiv:2310.02554v1 [cs.AI])
-
-    [http://arxiv.org/abs/2310.02554](http://arxiv.org/abs/2310.02554)
-
-    zkFL是一种基于零知识证明的联邦学习梯度聚合方法，通过提供每轮的证明来解决协调者恶意行为的问题。
+    研究对知识蒸馏在预训练模型中的应用进行了深入比较，包括优化的温度和权重参数的调整，以及数据分区KD，揭示了最有效的知识蒸馏策略。
 
     
 
-    联邦学习是一种机器学习范式，使多个分散的客户端在中央协调者的组织下共同训练一个模型。传统的联邦学习解决方案依赖于对中央协调者的信任，它以公平诚实的方式形成客户端的群体。然而，在现实中，恶意的协调者可能会放弃并替换客户端的训练模型，或者发动虚假客户端的肆意攻击。这种恶意行为让协调者在联邦学习环境中拥有更多控制客户端和决定最终训练结果的权力。本文介绍了zkFL，它利用零知识证明(ZKPs)来解决训练模型聚合过程中的恶意协调者问题。为了保证正确的聚合结果，协调者需要每轮提供一个证明。这个证明可以向客户端证明协调者忠实执行预期行为。为了进一步保护客户端隐私和数据安全，我们还引入了差分隐私机制，并对zkFL进行了实验评估。
+    这项研究探讨了在预训练模型中对知识蒸馏（KD）过程的增强，这是知识传输中一个新兴领域，并对分布式训练和联邦学习环境产生重要影响。尽管采用了许多知识蒸馏方法来在预训练模型之间传递知识，但在这些场景中了解知识蒸馏的应用仍然缺乏全面的理解。我们的研究对多种知识蒸馏技术进行了广泛比较，包括标准KD、经过优化温度和权重参数调整的KD、深度相互学习以及数据分区KD。我们评估这些方法在不同数据分布策略下的表现，以确定每种方法最有效的情境。通过详细研究超参数调整，结合广泛的网格搜索评估来获取信息
 
-    Federated Learning (FL) is a machine learning paradigm, which enables multiple and decentralized clients to collaboratively train a model under the orchestration of a central aggregator. Traditional FL solutions rely on the trust assumption of the centralized aggregator, which forms cohorts of clients in a fair and honest manner. However, a malicious aggregator, in reality, could abandon and replace the client's training models, or launch Sybil attacks to insert fake clients. Such malicious behaviors give the aggregator more power to control clients in the FL setting and determine the final training results. In this work, we introduce zkFL, which leverages zero-knowledge proofs (ZKPs) to tackle the issue of a malicious aggregator during the training model aggregation process. To guarantee the correct aggregation results, the aggregator needs to provide a proof per round. The proof can demonstrate to the clients that the aggregator executes the intended behavior faithfully. To further r
+    arXiv:2402.14922v1 Announce Type: cross  Abstract: This research investigates the enhancement of knowledge distillation (KD) processes in pre-trained models, an emerging field in knowledge transfer with significant implications for distributed training and federated learning environments. These environments benefit from reduced communication demands and accommodate various model architectures. Despite the adoption of numerous KD approaches for transferring knowledge among pre-trained models, a comprehensive understanding of KD's application in these scenarios is lacking. Our study conducts an extensive comparison of multiple KD techniques, including standard KD, tuned KD (via optimized temperature and weight parameters), deep mutual learning, and data partitioning KD. We assess these methods across various data distribution strategies to identify the most effective contexts for each. Through detailed examination of hyperparameter tuning, informed by extensive grid search evaluations, w
     
-[^5]: PFB-Diff: 渐进特征混合扩散用于文本驱动的图像编辑
+[^3]: 优先安全保障而非自治：科学中LLM智能机器人的风险
 
-    PFB-Diff: Progressive Feature Blending Diffusion for Text-driven Image Editing. (arXiv:2306.16894v1 [cs.CV])
+    Prioritizing Safeguarding Over Autonomy: Risks of LLM Agents for Science
 
-    [http://arxiv.org/abs/2306.16894](http://arxiv.org/abs/2306.16894)
+    [https://arxiv.org/abs/2402.04247](https://arxiv.org/abs/2402.04247)
 
-    PFB-Diff 是一个通过渐进特征混合的方法，用于文本驱动的图像编辑。该方法解决了扩散模型在像素级混合中产生的伪影问题，并通过多级特征混合和注意力屏蔽机制确保了编辑图像的语义连贯性和高质量。
-
-    
-
-    扩散模型展示了其合成多样性和高质量图像的卓越能力，引起了人们对将其应用于实际图像编辑的兴趣。然而，现有的基于扩散的局部图像编辑方法常常因为目标图像和扩散潜在变量的像素级混合而产生不期望的伪影，缺乏维持图像一致性所必需的语义。为了解决这些问题，我们提出了PFB-Diff，一种逐步特征混合的方法，用于基于扩散的图像编辑。与以往方法不同，PFB-Diff通过多级特征混合将文本引导生成的内容与目标图像无缝集成在一起。深层特征中编码的丰富语义和从高到低级别的渐进混合方案确保了编辑图像的语义连贯性和高质量。此外，我们在交叉注意力层中引入了一个注意力屏蔽机制，以限制特定词语对编辑图像的影响。
-
-    Diffusion models have showcased their remarkable capability to synthesize diverse and high-quality images, sparking interest in their application for real image editing. However, existing diffusion-based approaches for local image editing often suffer from undesired artifacts due to the pixel-level blending of the noised target images and diffusion latent variables, which lack the necessary semantics for maintaining image consistency. To address these issues, we propose PFB-Diff, a Progressive Feature Blending method for Diffusion-based image editing. Unlike previous methods, PFB-Diff seamlessly integrates text-guided generated content into the target image through multi-level feature blending. The rich semantics encoded in deep features and the progressive blending scheme from high to low levels ensure semantic coherence and high quality in edited images. Additionally, we introduce an attention masking mechanism in the cross-attention layers to confine the impact of specific words to 
-    
-[^6]: Transformers和Ensemble方法：阿语恶意言论检测的一种解决方案
-
-    Transformers and Ensemble methods: A solution for Hate Speech Detection in Arabic languages. (arXiv:2303.09823v1 [cs.CL])
-
-    [http://arxiv.org/abs/2303.09823](http://arxiv.org/abs/2303.09823)
-
-    本文提出了一种使用Transformer和Ensemble方法的解决方案，用于阿语恶意言论的检测。实验结果表明，基于多数表决的集成方法具有最佳效果，其在测试集上的准确率为0.86，F1分数为0.60。
+    本文探讨了科学领域中基于LLM的智能机器人的漏洞与风险，并强调了对安全措施的重要性。
 
     
 
-    本文描述了我们参加CERIST NLP挑战赛2022中恶意言论检测共享任务的实验过程。我们评估了6个Transformer模型及其组合的性能，并使用了2种集成方法。在五折交叉验证的训练集上，基于多数表决的集成方法获得了最佳结果。在测试集上的评估结果为F1分数为0.60，准确性为0.86。
+    由大型语言模型（LLMs）驱动的智能机器人在各个学科中自主进行实验和促进科学发现方面展示了巨大的前景。尽管它们的能力非常有前途，但也引入了一些新的漏洞，需要仔细考虑安全性。然而，文献中存在显著的空白，尚未对这些漏洞进行全面探讨。本文通过对科学领域中基于LLM的机器人的漏洞进行深入研究，揭示了它们误用可能带来的潜在风险，并强调了对安全措施的需求，填补了这一空白。我们首先全面概述了科学LLM机器人固有的潜在风险，考虑了用户意图、特定的科学领域以及它们对外部环境可能造成的影响。然后，我们深入探讨了这些漏洞的起源和提供的解决方案。
 
-    This paper describes our participation in the shared task of hate speech detection, which is one of the subtasks of the CERIST NLP Challenge 2022. Our experiments evaluate the performance of six transformer models and their combination using 2 ensemble approaches. The best results on the training set, in a five-fold cross validation scenario, were obtained by using the ensemble approach based on the majority vote. The evaluation of this approach on the test set resulted in an F1-score of 0.60 and an Accuracy of 0.86.
+    Intelligent agents powered by large language models (LLMs) have demonstrated substantial promise in autonomously conducting experiments and facilitating scientific discoveries across various disciplines. While their capabilities are promising, they also introduce novel vulnerabilities that demand careful consideration for safety. However, there exists a notable gap in the literature, as there has been no comprehensive exploration of these vulnerabilities. This position paper fills this gap by conducting a thorough examination of vulnerabilities in LLM-based agents within scientific domains, shedding light on potential risks associated with their misuse and emphasizing the need for safety measures. We begin by providing a comprehensive overview of the potential risks inherent to scientific LLM agents, taking into account user intent, the specific scientific domain, and their potential impact on the external environment. Then, we delve into the origins of these vulnerabilities and provid
+    
+[^4]: 因果感知
+
+    Causal Perception. (arXiv:2401.13408v1 [cs.AI])
+
+    [http://arxiv.org/abs/2401.13408](http://arxiv.org/abs/2401.13408)
+
+    这项研究提出了因果感知的概念，并将其应用于自动决策系统中。感知对决策的公平性有重要影响，因为公平性是与背景相关的，并且其解释取决于评判人是谁。
+
+    
+
+    当两个个体对相同的信息进行不同解读时，感知会发生。尽管这是一个已知现象，对决策中偏见有影响，但是感知在自动决策系统中仍然被忽视。感知对于ADM系统的公平性或公平使用具有重要影响，因为公平本身是与背景相关的，其解释取决于评判人是谁。本文将感知在因果推理中形式化，以捕捉个体的解释行为。我们还将个体经验形式化为额外的因果知识，个体会使用这些知识。此外，我们定义和讨论了易引发感知的属性，即易引发感知的属性。敏感属性，如性别和种族，就是易引发感知的明确示例。我们根据因果原则定义了两种感知，即不忠实感知和不一致感知。
+
+    Perception occurs when two individuals interpret the same information differently. Despite being a known phenomenon with implications for bias in decision-making, as individuals' experience determines interpretation, perception remains largely overlooked in automated decision-making (ADM) systems. In particular, it can have considerable effects on the fairness or fair usage of an ADM system, as fairness itself is context-specific and its interpretation dependent on who is judging. In this work, we formalize perception under causal reasoning to capture the act of interpretation by an individual. We also formalize individual experience as additional causal knowledge that comes with and is used by an individual. Further, we define and discuss loaded attributes, which are attributes prone to evoke perception. Sensitive attributes, such as gender and race, are clear examples of loaded attributes. We define two kinds of causal perception, unfaithful and inconsistent, based on the causal prop
+    
+[^5]: 基于样本驱动的联邦学习用于能效和实时IoT感知
+
+    Sample-Driven Federated Learning for Energy-Efficient and Real-Time IoT Sensing. (arXiv:2310.07497v1 [cs.LG])
+
+    [http://arxiv.org/abs/2310.07497](http://arxiv.org/abs/2310.07497)
+
+    本文提出了一种针对具有实时感知能力的IoT网络设计的基于样本驱动的联邦学习方法，通过控制采样过程来减轻过拟合问题，提高整体准确性，并解决能效问题。
+
+    
+
+    在联邦学习系统领域，最近的前沿方法在收敛分析中严重依赖于理想条件。特别地，这些方法假设IoT设备上的训练数据具有与全局数据分布相似的属性。然而，在实时感知联邦学习系统中，这种方法无法捕捉到数据特征的全面范围。为了克服这个限制，我们提出了一种针对具有实时感知能力的IoT网络设计的新方法。我们的方法考虑了由用户数据采样过程引起的泛化差距。通过有效地控制这个采样过程，我们可以减轻过拟合问题，并提高整体准确性。特别地，我们首先制定了一个优化问题，利用采样过程同时减少过拟合和最大化准确性。为了达到这个目标，我们的替代优化问题擅长处理能效问题。
+
+    In the domain of Federated Learning (FL) systems, recent cutting-edge methods heavily rely on ideal conditions convergence analysis. Specifically, these approaches assume that the training datasets on IoT devices possess similar attributes to the global data distribution. However, this approach fails to capture the full spectrum of data characteristics in real-time sensing FL systems. In order to overcome this limitation, we suggest a new approach system specifically designed for IoT networks with real-time sensing capabilities. Our approach takes into account the generalization gap due to the user's data sampling process. By effectively controlling this sampling process, we can mitigate the overfitting issue and improve overall accuracy. In particular, We first formulate an optimization problem that harnesses the sampling process to concurrently reduce overfitting while maximizing accuracy. In pursuit of this objective, our surrogate optimization problem is adept at handling energy ef
     
 
