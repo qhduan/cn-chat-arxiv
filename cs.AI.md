@@ -2,82 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [ALTO: An Efficient Network Orchestrator for Compound AI Systems](https://arxiv.org/abs/2403.04311) | ALTO是一个网络编排器，针对生成语言模型的优化机会，实现了高吞吐量和低延迟，同时解决了流式中间输出的两个新挑战：正确性和负载平衡。 |
-| [^2] | [Practical Insights into Knowledge Distillation for Pre-Trained Models](https://arxiv.org/abs/2402.14922) | 研究对知识蒸馏在预训练模型中的应用进行了深入比较，包括优化的温度和权重参数的调整，以及数据分区KD，揭示了最有效的知识蒸馏策略。 |
-| [^3] | [Prioritizing Safeguarding Over Autonomy: Risks of LLM Agents for Science](https://arxiv.org/abs/2402.04247) | 本文探讨了科学领域中基于LLM的智能机器人的漏洞与风险，并强调了对安全措施的重要性。 |
-| [^4] | [Causal Perception.](http://arxiv.org/abs/2401.13408) | 这项研究提出了因果感知的概念，并将其应用于自动决策系统中。感知对决策的公平性有重要影响，因为公平性是与背景相关的，并且其解释取决于评判人是谁。 |
-| [^5] | [Sample-Driven Federated Learning for Energy-Efficient and Real-Time IoT Sensing.](http://arxiv.org/abs/2310.07497) | 本文提出了一种针对具有实时感知能力的IoT网络设计的基于样本驱动的联邦学习方法，通过控制采样过程来减轻过拟合问题，提高整体准确性，并解决能效问题。 |
+| [^1] | [Multi-Level Explanations for Generative Language Models](https://arxiv.org/abs/2403.14459) | 本文提出了一个名为MExGen的通用框架，通过引入标量化概念和多级方法处理生成式语言模型的挑战，证明可以提供更贴近本地的解释。 |
+| [^2] | [A Large Language Model Enhanced Sequential Recommender for Joint Video and Comment Recommendation](https://arxiv.org/abs/2403.13574) | 提出了一个新颖的推荐方法LSVCR，通过融合用户与视频和评论的交互历史，联合进行个性化视频和评论推荐 |
+| [^3] | [From DDMs to DNNs: Using process data and models of decision-making to improve human-AI interactions.](http://arxiv.org/abs/2308.15225) | 本论文提出利用决策过程数据和模型改善人工智能与人类之间的交互。通过详细描述决策过程和建立决策演变模型，可以揭示潜在的偏好，同时追踪决策过程的数据可以提供重要信息，从而改善人工智能的预测能力。 |
+| [^4] | [ACMP: Allen-Cahn Message Passing for Graph Neural Networks with Particle Phase Transition.](http://arxiv.org/abs/2206.05437) | 本文提出了一种基于ACMP的图神经网络模型，它可以通过具有吸引力和排斥力的相互作用粒子系统进行消息传递传播，克服了GNN过度平滑问题，将网络深度推到100层，并在基准数据集上实现了最先进的节点分类和图匹配性能。 |
 
 # 详细
 
-[^1]: ALTO：一种用于复合AI系统的高效网络编排器
+[^1]: 生成式语言模型的多级解释
 
-    ALTO: An Efficient Network Orchestrator for Compound AI Systems
+    Multi-Level Explanations for Generative Language Models
 
-    [https://arxiv.org/abs/2403.04311](https://arxiv.org/abs/2403.04311)
+    [https://arxiv.org/abs/2403.14459](https://arxiv.org/abs/2403.14459)
 
-    ALTO是一个网络编排器，针对生成语言模型的优化机会，实现了高吞吐量和低延迟，同时解决了流式中间输出的两个新挑战：正确性和负载平衡。
-
-    
-
-    我们提出了ALTO，一种用于有效为诸如语言模型管道之类的复合AI系统提供服务的网络编排器。ALTO通过利用生成语言模型特有的优化机会：流式中间输出，实现了高吞吐量和低延迟。由于语言模型逐个生成token的输出，ALTO在可能时暴露了在阶段之间流式传输中间输出的机会。我们强调了在跨分布式管道阶段实例之间流式传输中间数据时出现的两个新挑战：正确性和负载平衡。我们还提出了聚合感知路由接口和分布式提示感知调度以应对这些挑战的需求。我们在一个复杂的聊天机器人验证管道上展示了ALTO部分输出流式传输的影响，将吞吐量提高了最多3倍，同时将固定延迟目标设置为4秒/请求，还减少了尾延迟。
-
-    arXiv:2403.04311v1 Announce Type: new  Abstract: We present ALTO, a network orchestrator for efficiently serving compound AI systems such as pipelines of language models. ALTO achieves high throughput and low latency by taking advantage of an optimization opportunity specific to generative language models: streaming intermediate outputs. As language models produce outputs token by token, ALTO exposes opportunities to stream intermediate outputs between stages when possible. We highlight two new challenges of correctness and load balancing which emerge when streaming intermediate data across distributed pipeline stage instances. We also motivate the need for an aggregation-aware routing interface and distributed prompt-aware scheduling to address these challenges. We demonstrate the impact of ALTO's partial output streaming on a complex chatbot verification pipeline, increasing throughput by up to 3x for a fixed latency target of 4 seconds / request while also reducing tail latency by 1
-    
-[^2]: 针对预训练模型的知识蒸馏的实践见解
-
-    Practical Insights into Knowledge Distillation for Pre-Trained Models
-
-    [https://arxiv.org/abs/2402.14922](https://arxiv.org/abs/2402.14922)
-
-    研究对知识蒸馏在预训练模型中的应用进行了深入比较，包括优化的温度和权重参数的调整，以及数据分区KD，揭示了最有效的知识蒸馏策略。
+    本文提出了一个名为MExGen的通用框架，通过引入标量化概念和多级方法处理生成式语言模型的挑战，证明可以提供更贴近本地的解释。
 
     
 
-    这项研究探讨了在预训练模型中对知识蒸馏（KD）过程的增强，这是知识传输中一个新兴领域，并对分布式训练和联邦学习环境产生重要影响。尽管采用了许多知识蒸馏方法来在预训练模型之间传递知识，但在这些场景中了解知识蒸馏的应用仍然缺乏全面的理解。我们的研究对多种知识蒸馏技术进行了广泛比较，包括标准KD、经过优化温度和权重参数调整的KD、深度相互学习以及数据分区KD。我们评估这些方法在不同数据分布策略下的表现，以确定每种方法最有效的情境。通过详细研究超参数调整，结合广泛的网格搜索评估来获取信息
+    基于扰动的解释方法，如LIME和SHAP，通常应用于文本分类。本文关注它们如何扩展到生成式语言模型。为了解决文本作为输出和长文本输入的挑战，我们提出了一个名为MExGen的通用框架，可以用不同的归因算法实例化。为了处理文本输出，我们引入了将文本映射到实数的标量化概念，并探讨了多种可能性。为了处理长输入，我们采用多级方法，从粗粒度到细粒度，重点关注具有模型查询线性缩放的算法。我们对基于扰动的归因方法进行了系统评估，包括自动化和人工评估，用于摘要和基于上下文的问答。结果表明，我们的框架可以提供更加贴近本地的生成式输出解释。
 
-    arXiv:2402.14922v1 Announce Type: cross  Abstract: This research investigates the enhancement of knowledge distillation (KD) processes in pre-trained models, an emerging field in knowledge transfer with significant implications for distributed training and federated learning environments. These environments benefit from reduced communication demands and accommodate various model architectures. Despite the adoption of numerous KD approaches for transferring knowledge among pre-trained models, a comprehensive understanding of KD's application in these scenarios is lacking. Our study conducts an extensive comparison of multiple KD techniques, including standard KD, tuned KD (via optimized temperature and weight parameters), deep mutual learning, and data partitioning KD. We assess these methods across various data distribution strategies to identify the most effective contexts for each. Through detailed examination of hyperparameter tuning, informed by extensive grid search evaluations, w
+    arXiv:2403.14459v1 Announce Type: cross  Abstract: Perturbation-based explanation methods such as LIME and SHAP are commonly applied to text classification. This work focuses on their extension to generative language models. To address the challenges of text as output and long text inputs, we propose a general framework called MExGen that can be instantiated with different attribution algorithms. To handle text output, we introduce the notion of scalarizers for mapping text to real numbers and investigate multiple possibilities. To handle long inputs, we take a multi-level approach, proceeding from coarser levels of granularity to finer ones, and focus on algorithms with linear scaling in model queries. We conduct a systematic evaluation, both automated and human, of perturbation-based attribution methods for summarization and context-grounded question answering. The results show that our framework can provide more locally faithful explanations of generated outputs.
     
-[^3]: 优先安全保障而非自治：科学中LLM智能机器人的风险
+[^2]: 一个大型语言模型增强的序列推荐器，用于联合视频和评论推荐
 
-    Prioritizing Safeguarding Over Autonomy: Risks of LLM Agents for Science
+    A Large Language Model Enhanced Sequential Recommender for Joint Video and Comment Recommendation
 
-    [https://arxiv.org/abs/2402.04247](https://arxiv.org/abs/2402.04247)
+    [https://arxiv.org/abs/2403.13574](https://arxiv.org/abs/2403.13574)
 
-    本文探讨了科学领域中基于LLM的智能机器人的漏洞与风险，并强调了对安全措施的重要性。
-
-    
-
-    由大型语言模型（LLMs）驱动的智能机器人在各个学科中自主进行实验和促进科学发现方面展示了巨大的前景。尽管它们的能力非常有前途，但也引入了一些新的漏洞，需要仔细考虑安全性。然而，文献中存在显著的空白，尚未对这些漏洞进行全面探讨。本文通过对科学领域中基于LLM的机器人的漏洞进行深入研究，揭示了它们误用可能带来的潜在风险，并强调了对安全措施的需求，填补了这一空白。我们首先全面概述了科学LLM机器人固有的潜在风险，考虑了用户意图、特定的科学领域以及它们对外部环境可能造成的影响。然后，我们深入探讨了这些漏洞的起源和提供的解决方案。
-
-    Intelligent agents powered by large language models (LLMs) have demonstrated substantial promise in autonomously conducting experiments and facilitating scientific discoveries across various disciplines. While their capabilities are promising, they also introduce novel vulnerabilities that demand careful consideration for safety. However, there exists a notable gap in the literature, as there has been no comprehensive exploration of these vulnerabilities. This position paper fills this gap by conducting a thorough examination of vulnerabilities in LLM-based agents within scientific domains, shedding light on potential risks associated with their misuse and emphasizing the need for safety measures. We begin by providing a comprehensive overview of the potential risks inherent to scientific LLM agents, taking into account user intent, the specific scientific domain, and their potential impact on the external environment. Then, we delve into the origins of these vulnerabilities and provid
-    
-[^4]: 因果感知
-
-    Causal Perception. (arXiv:2401.13408v1 [cs.AI])
-
-    [http://arxiv.org/abs/2401.13408](http://arxiv.org/abs/2401.13408)
-
-    这项研究提出了因果感知的概念，并将其应用于自动决策系统中。感知对决策的公平性有重要影响，因为公平性是与背景相关的，并且其解释取决于评判人是谁。
+    提出了一个新颖的推荐方法LSVCR，通过融合用户与视频和评论的交互历史，联合进行个性化视频和评论推荐
 
     
 
-    当两个个体对相同的信息进行不同解读时，感知会发生。尽管这是一个已知现象，对决策中偏见有影响，但是感知在自动决策系统中仍然被忽视。感知对于ADM系统的公平性或公平使用具有重要影响，因为公平本身是与背景相关的，其解释取决于评判人是谁。本文将感知在因果推理中形式化，以捕捉个体的解释行为。我们还将个体经验形式化为额外的因果知识，个体会使用这些知识。此外，我们定义和讨论了易引发感知的属性，即易引发感知的属性。敏感属性，如性别和种族，就是易引发感知的明确示例。我们根据因果原则定义了两种感知，即不忠实感知和不一致感知。
+    在在线视频平台上，阅读或撰写有趣视频的评论已经成为视频观看体验中不可或缺的一部分。然而，现有视频推荐系统主要对用户与视频的交互行为进行建模，缺乏对评论在用户行为建模中的考虑。本文提出了一种名为LSVCR的新颖推荐方法，通过利用用户与视频和评论的交互历史，共同进行个性化视频和评论推荐。具体而言，我们的方法由两个关键组件组成，即序列推荐（SR）模型和补充大型语言模型（LLM）推荐器。SR模型作为我们方法的主要推荐骨干（在部署中保留），可实现高效的用户偏好建模。与此同时，我们利用LLM推荐器作为一个补充组件（在部署中丢弃），以更好地捕捉潜在
 
-    Perception occurs when two individuals interpret the same information differently. Despite being a known phenomenon with implications for bias in decision-making, as individuals' experience determines interpretation, perception remains largely overlooked in automated decision-making (ADM) systems. In particular, it can have considerable effects on the fairness or fair usage of an ADM system, as fairness itself is context-specific and its interpretation dependent on who is judging. In this work, we formalize perception under causal reasoning to capture the act of interpretation by an individual. We also formalize individual experience as additional causal knowledge that comes with and is used by an individual. Further, we define and discuss loaded attributes, which are attributes prone to evoke perception. Sensitive attributes, such as gender and race, are clear examples of loaded attributes. We define two kinds of causal perception, unfaithful and inconsistent, based on the causal prop
+    arXiv:2403.13574v1 Announce Type: new  Abstract: In online video platforms, reading or writing comments on interesting videos has become an essential part of the video watching experience. However, existing video recommender systems mainly model users' interaction behaviors with videos, lacking consideration of comments in user behavior modeling. In this paper, we propose a novel recommendation approach called LSVCR by leveraging user interaction histories with both videos and comments, so as to jointly conduct personalized video and comment recommendation. Specifically, our approach consists of two key components, namely sequential recommendation (SR) model and supplemental large language model (LLM) recommender. The SR model serves as the primary recommendation backbone (retained in deployment) of our approach, allowing for efficient user preference modeling. Meanwhile, we leverage the LLM recommender as a supplemental component (discarded in deployment) to better capture underlying 
     
-[^5]: 基于样本驱动的联邦学习用于能效和实时IoT感知
+[^3]: 从DDMs到DNNs：利用决策过程的数据和模型来改善人工智能与人类之间的交互
 
-    Sample-Driven Federated Learning for Energy-Efficient and Real-Time IoT Sensing. (arXiv:2310.07497v1 [cs.LG])
+    From DDMs to DNNs: Using process data and models of decision-making to improve human-AI interactions. (arXiv:2308.15225v1 [q-bio.NC])
 
-    [http://arxiv.org/abs/2310.07497](http://arxiv.org/abs/2310.07497)
+    [http://arxiv.org/abs/2308.15225](http://arxiv.org/abs/2308.15225)
 
-    本文提出了一种针对具有实时感知能力的IoT网络设计的基于样本驱动的联邦学习方法，通过控制采样过程来减轻过拟合问题，提高整体准确性，并解决能效问题。
+    本论文提出利用决策过程数据和模型改善人工智能与人类之间的交互。通过详细描述决策过程和建立决策演变模型，可以揭示潜在的偏好，同时追踪决策过程的数据可以提供重要信息，从而改善人工智能的预测能力。
 
     
 
-    在联邦学习系统领域，最近的前沿方法在收敛分析中严重依赖于理想条件。特别地，这些方法假设IoT设备上的训练数据具有与全局数据分布相似的属性。然而，在实时感知联邦学习系统中，这种方法无法捕捉到数据特征的全面范围。为了克服这个限制，我们提出了一种针对具有实时感知能力的IoT网络设计的新方法。我们的方法考虑了由用户数据采样过程引起的泛化差距。通过有效地控制这个采样过程，我们可以减轻过拟合问题，并提高整体准确性。特别地，我们首先制定了一个优化问题，利用采样过程同时减少过拟合和最大化准确性。为了达到这个目标，我们的替代优化问题擅长处理能效问题。
+    在过去的几十年中，认知神经科学家和行为经济学家已经认识到详细描述决策过程和建立决策随时间演变的模型的价值。例如，决策所需的时间可以揭示一个个体真正的潜在偏好，而不仅仅是决策本身。类似地，追踪决策过程的数据，如眼动或神经记录，包含了关键的信息，即使没有达成决策也可以被利用。在这里，我们认为人工智能研究应更加关注决策如何随时间演变以及如何融入相关的过程数据来改善人工智能的预测，特别是在人与人工智能之间的交互中。首先，我们介绍了一个非常成熟的计算框架，该框架认为决策是从杂音累积的证据中产生的，并介绍了相关的心理学、神经科学和经济学的实证研究。
 
-    In the domain of Federated Learning (FL) systems, recent cutting-edge methods heavily rely on ideal conditions convergence analysis. Specifically, these approaches assume that the training datasets on IoT devices possess similar attributes to the global data distribution. However, this approach fails to capture the full spectrum of data characteristics in real-time sensing FL systems. In order to overcome this limitation, we suggest a new approach system specifically designed for IoT networks with real-time sensing capabilities. Our approach takes into account the generalization gap due to the user's data sampling process. By effectively controlling this sampling process, we can mitigate the overfitting issue and improve overall accuracy. In particular, We first formulate an optimization problem that harnesses the sampling process to concurrently reduce overfitting while maximizing accuracy. In pursuit of this objective, our surrogate optimization problem is adept at handling energy ef
+    Over the past decades, cognitive neuroscientists and behavioral economists have recognized the value of describing the process of decision making in detail and modeling the emergence of decisions over time. For example, the time it takes to decide can reveal more about an agents true hidden preferences than only the decision itself. Similarly, data that track the ongoing decision process such as eye movements or neural recordings contain critical information that can be exploited, even if no decision is made. Here, we argue that artificial intelligence (AI) research would benefit from a stronger focus on insights about how decisions emerge over time and incorporate related process data to improve AI predictions in general and human-AI interactions in particular. First, we introduce a highly established computational framework that assumes decisions to emerge from the noisy accumulation of evidence, and we present related empirical work in psychology, neuroscience, and economics. Next, 
+    
+[^4]: ACMP: Allen-Cahn信息传递用于带有物质相变的图神经网络
+
+    ACMP: Allen-Cahn Message Passing for Graph Neural Networks with Particle Phase Transition. (arXiv:2206.05437v3 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2206.05437](http://arxiv.org/abs/2206.05437)
+
+    本文提出了一种基于ACMP的图神经网络模型，它可以通过具有吸引力和排斥力的相互作用粒子系统进行消息传递传播，克服了GNN过度平滑问题，将网络深度推到100层，并在基准数据集上实现了最先进的节点分类和图匹配性能。
+
+    
+
+    神经消息传递是基于图结构数据的特征提取单元，考虑从一层到下一层的网络传播中的相邻节点特征。我们通过具有吸引力和排斥力的相互作用粒子系统来建模这种过程，并在相变建模中引入Allen-Cahn力。系统的动力学是一种反应扩散过程，可以将粒子分离而不会扩散。这引出了一种Allen-Cahn信息传递(ACMP)用于图神经网络，其中粒子系统解的数值迭代构成了消息传递传播。ACMP具有简单的实现和神经ODE求解器，可以将网络深度推到100层，并具有理论上证明的Dirichlet能量严格正下界。因此，它提供了一种深度模型的GNN，避免了常见的GNN过度平滑问题。使用ACMP的GNN在基准数据集上实现了实际节点分类和图匹配任务的最先进性能。
+
+    Neural message passing is a basic feature extraction unit for graph-structured data considering neighboring node features in network propagation from one layer to the next. We model such process by an interacting particle system with attractive and repulsive forces and the Allen-Cahn force arising in the modeling of phase transition. The dynamics of the system is a reaction-diffusion process which can separate particles without blowing up. This induces an Allen-Cahn message passing (ACMP) for graph neural networks where the numerical iteration for the particle system solution constitutes the message passing propagation. ACMP which has a simple implementation with a neural ODE solver can propel the network depth up to one hundred of layers with theoretically proven strictly positive lower bound of the Dirichlet energy. It thus provides a deep model of GNNs circumventing the common GNN problem of oversmoothing. GNNs with ACMP achieve state of the art performance for real-world node class
     
 
