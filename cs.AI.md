@@ -2,67 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Multi-Level Explanations for Generative Language Models](https://arxiv.org/abs/2403.14459) | 本文提出了一个名为MExGen的通用框架，通过引入标量化概念和多级方法处理生成式语言模型的挑战，证明可以提供更贴近本地的解释。 |
-| [^2] | [A Large Language Model Enhanced Sequential Recommender for Joint Video and Comment Recommendation](https://arxiv.org/abs/2403.13574) | 提出了一个新颖的推荐方法LSVCR，通过融合用户与视频和评论的交互历史，联合进行个性化视频和评论推荐 |
-| [^3] | [From DDMs to DNNs: Using process data and models of decision-making to improve human-AI interactions.](http://arxiv.org/abs/2308.15225) | 本论文提出利用决策过程数据和模型改善人工智能与人类之间的交互。通过详细描述决策过程和建立决策演变模型，可以揭示潜在的偏好，同时追踪决策过程的数据可以提供重要信息，从而改善人工智能的预测能力。 |
-| [^4] | [ACMP: Allen-Cahn Message Passing for Graph Neural Networks with Particle Phase Transition.](http://arxiv.org/abs/2206.05437) | 本文提出了一种基于ACMP的图神经网络模型，它可以通过具有吸引力和排斥力的相互作用粒子系统进行消息传递传播，克服了GNN过度平滑问题，将网络深度推到100层，并在基准数据集上实现了最先进的节点分类和图匹配性能。 |
+| [^1] | [DualView: Data Attribution from the Dual Perspective](https://arxiv.org/abs/2402.12118) | 提出了DualView，一种基于替代建模的后期数据归因方法，具有高效计算和优质评估结果。 |
+| [^2] | [Learning Concepts Definable in First-Order Logic with Counting](https://arxiv.org/abs/1909.03820) | 该研究将一阶逻辑与计数符号相结合，证明了可以在多对数度结构下以次线性时间一致学习可定义的分类器，为包含数值方面的机器学习扩展学习框架迈出了第一步。 |
+| [^3] | [Quantifying the Uniqueness of Donald Trump in Presidential Discourse.](http://arxiv.org/abs/2401.01405) | 这项研究使用了一种新的度量标准来量化唐纳德·特朗普在总统演讲中的独特性，并发现了他在使用具有分裂性和对抗性的语言、重复强调等方面与其他总统候选人存在显著差异。此外，特朗普比共和党同僚更具独特性。 |
+| [^4] | [I-CEE: Tailoring Explanations of Image Classification Models to User Expertise.](http://arxiv.org/abs/2312.12102) | I-CEE是一个人为中心的框架，为用户专业知识定制了图像分类模型的解释，通过提供信息丰富的示例图像、局部解释和模型决策来帮助用户理解模型的决策。 |
+| [^5] | [Eva-KELLM: A New Benchmark for Evaluating Knowledge Editing of LLMs.](http://arxiv.org/abs/2308.09954) | Eva-KELLM是一个新的用于评估LLMs知识编辑的基准，提供了一个评估框架和数据集。该基准通过使用原始文档进行知识编辑和多角度的评估来解决了现有研究中收集成本高、表达复杂事实困难、评估视角受限等问题。 |
 
 # 详细
 
-[^1]: 生成式语言模型的多级解释
+[^1]: DualView：双重视角下的数据归因
 
-    Multi-Level Explanations for Generative Language Models
+    DualView: Data Attribution from the Dual Perspective
 
-    [https://arxiv.org/abs/2403.14459](https://arxiv.org/abs/2403.14459)
+    [https://arxiv.org/abs/2402.12118](https://arxiv.org/abs/2402.12118)
 
-    本文提出了一个名为MExGen的通用框架，通过引入标量化概念和多级方法处理生成式语言模型的挑战，证明可以提供更贴近本地的解释。
-
-    
-
-    基于扰动的解释方法，如LIME和SHAP，通常应用于文本分类。本文关注它们如何扩展到生成式语言模型。为了解决文本作为输出和长文本输入的挑战，我们提出了一个名为MExGen的通用框架，可以用不同的归因算法实例化。为了处理文本输出，我们引入了将文本映射到实数的标量化概念，并探讨了多种可能性。为了处理长输入，我们采用多级方法，从粗粒度到细粒度，重点关注具有模型查询线性缩放的算法。我们对基于扰动的归因方法进行了系统评估，包括自动化和人工评估，用于摘要和基于上下文的问答。结果表明，我们的框架可以提供更加贴近本地的生成式输出解释。
-
-    arXiv:2403.14459v1 Announce Type: cross  Abstract: Perturbation-based explanation methods such as LIME and SHAP are commonly applied to text classification. This work focuses on their extension to generative language models. To address the challenges of text as output and long text inputs, we propose a general framework called MExGen that can be instantiated with different attribution algorithms. To handle text output, we introduce the notion of scalarizers for mapping text to real numbers and investigate multiple possibilities. To handle long inputs, we take a multi-level approach, proceeding from coarser levels of granularity to finer ones, and focus on algorithms with linear scaling in model queries. We conduct a systematic evaluation, both automated and human, of perturbation-based attribution methods for summarization and context-grounded question answering. The results show that our framework can provide more locally faithful explanations of generated outputs.
-    
-[^2]: 一个大型语言模型增强的序列推荐器，用于联合视频和评论推荐
-
-    A Large Language Model Enhanced Sequential Recommender for Joint Video and Comment Recommendation
-
-    [https://arxiv.org/abs/2403.13574](https://arxiv.org/abs/2403.13574)
-
-    提出了一个新颖的推荐方法LSVCR，通过融合用户与视频和评论的交互历史，联合进行个性化视频和评论推荐
+    提出了DualView，一种基于替代建模的后期数据归因方法，具有高效计算和优质评估结果。
 
     
 
-    在在线视频平台上，阅读或撰写有趣视频的评论已经成为视频观看体验中不可或缺的一部分。然而，现有视频推荐系统主要对用户与视频的交互行为进行建模，缺乏对评论在用户行为建模中的考虑。本文提出了一种名为LSVCR的新颖推荐方法，通过利用用户与视频和评论的交互历史，共同进行个性化视频和评论推荐。具体而言，我们的方法由两个关键组件组成，即序列推荐（SR）模型和补充大型语言模型（LLM）推荐器。SR模型作为我们方法的主要推荐骨干（在部署中保留），可实现高效的用户偏好建模。与此同时，我们利用LLM推荐器作为一个补充组件（在部署中丢弃），以更好地捕捉潜在
+    本文提出了DualView，这是一种基于替代建模的后期数据归因方法，展示了高计算效率和良好的评估结果。我们专注于神经网络，在与文献相关的适当定量评估策略下评估了我们提出的技术，比较了与相关主要本地数据归因方法的性能。
 
-    arXiv:2403.13574v1 Announce Type: new  Abstract: In online video platforms, reading or writing comments on interesting videos has become an essential part of the video watching experience. However, existing video recommender systems mainly model users' interaction behaviors with videos, lacking consideration of comments in user behavior modeling. In this paper, we propose a novel recommendation approach called LSVCR by leveraging user interaction histories with both videos and comments, so as to jointly conduct personalized video and comment recommendation. Specifically, our approach consists of two key components, namely sequential recommendation (SR) model and supplemental large language model (LLM) recommender. The SR model serves as the primary recommendation backbone (retained in deployment) of our approach, allowing for efficient user preference modeling. Meanwhile, we leverage the LLM recommender as a supplemental component (discarded in deployment) to better capture underlying 
+    arXiv:2402.12118v1 Announce Type: cross  Abstract: Local data attribution (or influence estimation) techniques aim at estimating the impact that individual data points seen during training have on particular predictions of an already trained Machine Learning model during test time. Previous methods either do not perform well consistently across different evaluation criteria from literature, are characterized by a high computational demand, or suffer from both. In this work we present DualView, a novel method for post-hoc data attribution based on surrogate modelling, demonstrating both high computational efficiency, as well as good evaluation results. With a focus on neural networks, we evaluate our proposed technique using suitable quantitative evaluation strategies from the literature against related principal local data attribution methods. We find that DualView requires considerably lower computational resources than other methods, while demonstrating comparable performance to comp
     
-[^3]: 从DDMs到DNNs：利用决策过程的数据和模型来改善人工智能与人类之间的交互
+[^2]: 用计数符号的一阶逻辑定义的概念的学习
 
-    From DDMs to DNNs: Using process data and models of decision-making to improve human-AI interactions. (arXiv:2308.15225v1 [q-bio.NC])
+    Learning Concepts Definable in First-Order Logic with Counting
 
-    [http://arxiv.org/abs/2308.15225](http://arxiv.org/abs/2308.15225)
+    [https://arxiv.org/abs/1909.03820](https://arxiv.org/abs/1909.03820)
 
-    本论文提出利用决策过程数据和模型改善人工智能与人类之间的交互。通过详细描述决策过程和建立决策演变模型，可以揭示潜在的偏好，同时追踪决策过程的数据可以提供重要信息，从而改善人工智能的预测能力。
-
-    
-
-    在过去的几十年中，认知神经科学家和行为经济学家已经认识到详细描述决策过程和建立决策随时间演变的模型的价值。例如，决策所需的时间可以揭示一个个体真正的潜在偏好，而不仅仅是决策本身。类似地，追踪决策过程的数据，如眼动或神经记录，包含了关键的信息，即使没有达成决策也可以被利用。在这里，我们认为人工智能研究应更加关注决策如何随时间演变以及如何融入相关的过程数据来改善人工智能的预测，特别是在人与人工智能之间的交互中。首先，我们介绍了一个非常成熟的计算框架，该框架认为决策是从杂音累积的证据中产生的，并介绍了相关的心理学、神经科学和经济学的实证研究。
-
-    Over the past decades, cognitive neuroscientists and behavioral economists have recognized the value of describing the process of decision making in detail and modeling the emergence of decisions over time. For example, the time it takes to decide can reveal more about an agents true hidden preferences than only the decision itself. Similarly, data that track the ongoing decision process such as eye movements or neural recordings contain critical information that can be exploited, even if no decision is made. Here, we argue that artificial intelligence (AI) research would benefit from a stronger focus on insights about how decisions emerge over time and incorporate related process data to improve AI predictions in general and human-AI interactions in particular. First, we introduce a highly established computational framework that assumes decisions to emerge from the noisy accumulation of evidence, and we present related empirical work in psychology, neuroscience, and economics. Next, 
-    
-[^4]: ACMP: Allen-Cahn信息传递用于带有物质相变的图神经网络
-
-    ACMP: Allen-Cahn Message Passing for Graph Neural Networks with Particle Phase Transition. (arXiv:2206.05437v3 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2206.05437](http://arxiv.org/abs/2206.05437)
-
-    本文提出了一种基于ACMP的图神经网络模型，它可以通过具有吸引力和排斥力的相互作用粒子系统进行消息传递传播，克服了GNN过度平滑问题，将网络深度推到100层，并在基准数据集上实现了最先进的节点分类和图匹配性能。
+    该研究将一阶逻辑与计数符号相结合，证明了可以在多对数度结构下以次线性时间一致学习可定义的分类器，为包含数值方面的机器学习扩展学习框架迈出了第一步。
 
     
 
-    神经消息传递是基于图结构数据的特征提取单元，考虑从一层到下一层的网络传播中的相邻节点特征。我们通过具有吸引力和排斥力的相互作用粒子系统来建模这种过程，并在相变建模中引入Allen-Cahn力。系统的动力学是一种反应扩散过程，可以将粒子分离而不会扩散。这引出了一种Allen-Cahn信息传递(ACMP)用于图神经网络，其中粒子系统解的数值迭代构成了消息传递传播。ACMP具有简单的实现和神经ODE求解器，可以将网络深度推到100层，并具有理论上证明的Dirichlet能量严格正下界。因此，它提供了一种深度模型的GNN，避免了常见的GNN过度平滑问题。使用ACMP的GNN在基准数据集上实现了实际节点分类和图匹配任务的最先进性能。
+    我们研究了在Grohe和Tur\'an引入的逻辑框架下的关系背景结构上的布尔分类问题。众所周知(Grohe和Ritzert, LICS 2017)，在多对数度结构上的一阶逻辑可定义的分类器可以在次线性时间内学习，其中结构的度和运行时间是以结构的大小为单位来衡量的。我们将结果推广到了由Kuske和Schweikardt(LICS 2017)引入的带计数的一阶逻辑FOCN，它作为一个广泛推广各种计数逻辑的表现逻辑。具体来说，我们证明了可以在多对数度结构类上定义的FOCN中的分类器可以在次线性时间内一致地学习。这可以看作是将学习框架扩展以包含机器学习的数值方面的第一步。我们将这一结果扩展到了无视的概率
 
-    Neural message passing is a basic feature extraction unit for graph-structured data considering neighboring node features in network propagation from one layer to the next. We model such process by an interacting particle system with attractive and repulsive forces and the Allen-Cahn force arising in the modeling of phase transition. The dynamics of the system is a reaction-diffusion process which can separate particles without blowing up. This induces an Allen-Cahn message passing (ACMP) for graph neural networks where the numerical iteration for the particle system solution constitutes the message passing propagation. ACMP which has a simple implementation with a neural ODE solver can propel the network depth up to one hundred of layers with theoretically proven strictly positive lower bound of the Dirichlet energy. It thus provides a deep model of GNNs circumventing the common GNN problem of oversmoothing. GNNs with ACMP achieve state of the art performance for real-world node class
+    arXiv:1909.03820v2 Announce Type: replace-cross  Abstract: We study Boolean classification problems over relational background structures in the logical framework introduced by Grohe and Tur\'an (TOCS 2004). It is known (Grohe and Ritzert, LICS 2017) that classifiers definable in first-order logic over structures of polylogarithmic degree can be learned in sublinear time, where the degree of the structure and the running time are measured in terms of the size of the structure. We generalise the results to the first-order logic with counting FOCN, which was introduced by Kuske and Schweikardt (LICS 2017) as an expressive logic generalising various other counting logics. Specifically, we prove that classifiers definable in FOCN over classes of structures of polylogarithmic degree can be consistently learned in sublinear time. This can be seen as a first step towards extending the learning framework to include numerical aspects of machine learning. We extend the result to agnostic probabl
+    
+[^3]: 量化唐纳德·特朗普在总统演讲中的独特性
+
+    Quantifying the Uniqueness of Donald Trump in Presidential Discourse. (arXiv:2401.01405v1 [cs.CL])
+
+    [http://arxiv.org/abs/2401.01405](http://arxiv.org/abs/2401.01405)
+
+    这项研究使用了一种新的度量标准来量化唐纳德·特朗普在总统演讲中的独特性，并发现了他在使用具有分裂性和对抗性的语言、重复强调等方面与其他总统候选人存在显著差异。此外，特朗普比共和党同僚更具独特性。
+
+    
+
+    唐纳德·特朗普与其他总统在演讲中是否表达出不同的风格？如果是，有哪些方面的不同？这些差异是否局限于任何单一的沟通媒介？为了调查这些问题，本文引入了一种基于大型语言模型的独特性度量标准，开发了一个新的分裂性演讲词库，并提出了比较政治对手词汇特征的框架。将这些工具应用于多种总统演讲语料库，我们发现有相当多的证据表明特朗普的讲话模式与近代历任主要总统候选人不同。一些显著的发现包括特朗普使用特别具有分裂性和对抗性的语言针对他的政治对手，并且他重复强调的模式。此外，特朗普比他的共和党同僚更加独特，而他们的独特性值与民主党相对较接近。这些差异在多种度量方法下保持一致。
+
+    Does Donald Trump speak differently from other presidents? If so, in what ways? Are these differences confined to any single medium of communication? To investigate these questions, this paper introduces a novel metric of uniqueness based on large language models, develops a new lexicon for divisive speech, and presents a framework for comparing the lexical features of political opponents. Applying these tools to a variety of corpora of presidential speeches, we find considerable evidence that Trump's speech patterns diverge from those of all major party nominees for the presidency in recent history. Some notable findings include Trump's employment of particularly divisive and antagonistic language targeting of his political opponents and his patterns of repetition for emphasis. Furthermore, Trump is significantly more distinctive than his fellow Republicans, whose uniqueness values are comparably closer to those of the Democrats. These differences hold across a variety of measurement 
+    
+[^4]: I-CEE: 将图像分类模型的解释定制为用户专业知识
+
+    I-CEE: Tailoring Explanations of Image Classification Models to User Expertise. (arXiv:2312.12102v2 [cs.AI] UPDATED)
+
+    [http://arxiv.org/abs/2312.12102](http://arxiv.org/abs/2312.12102)
+
+    I-CEE是一个人为中心的框架，为用户专业知识定制了图像分类模型的解释，通过提供信息丰富的示例图像、局部解释和模型决策来帮助用户理解模型的决策。
+
+    
+
+    有效解释黑盒机器学习模型的决策对于依赖它们的人工智能系统的负责任部署至关重要。识别到其重要性，可以生成这些解释的可解释人工智能（XAI）领域提供了几种技术。然而，在这一不断发展的工作中，对用户（解释对象）的关注相对较少，大多数XAI技术产生的是“一刀切”的解释。为了弥合这一差距，实现更加以人为中心的XAI，我们提出了I-CEE，这是一个为用户专业知识定制图像分类解释的框架。受到现有工作的启发，I-CEE通过为用户提供信息丰富的训练数据子集（即示例图像）、相应的局部解释和模型决策来解释图像分类模型的决策。然而，与此前的工作不同的是，I-CEE模拟了示例图像的信息量依赖于用户专业知识的情况，从而为不同的用户提供不同的示例。
+
+    Effectively explaining decisions of black-box machine learning models is critical to responsible deployment of AI systems that rely on them. Recognizing their importance, the field of explainable AI (XAI) provides several techniques to generate these explanations. Yet, there is relatively little emphasis on the user (the explainee) in this growing body of work and most XAI techniques generate "one-size-fits-all" explanations. To bridge this gap and achieve a step closer towards human-centered XAI, we present I-CEE, a framework that provides Image Classification Explanations tailored to User Expertise. Informed by existing work, I-CEE explains the decisions of image classification models by providing the user with an informative subset of training data (i.e., example images), corresponding local explanations, and model decisions. However, unlike prior work, I-CEE models the informativeness of the example images to depend on user expertise, resulting in different examples for different u
+    
+[^5]: Eva-KELLM：评估LLMs的知识编辑的新基准
+
+    Eva-KELLM: A New Benchmark for Evaluating Knowledge Editing of LLMs. (arXiv:2308.09954v1 [cs.CL])
+
+    [http://arxiv.org/abs/2308.09954](http://arxiv.org/abs/2308.09954)
+
+    Eva-KELLM是一个新的用于评估LLMs知识编辑的基准，提供了一个评估框架和数据集。该基准通过使用原始文档进行知识编辑和多角度的评估来解决了现有研究中收集成本高、表达复杂事实困难、评估视角受限等问题。
+
+    
+
+    大型语言模型（LLMs）的参数中存储着丰富的知识。然而，这些知识随着时间的推移可能变得过时或不合适。因此，对LLMs进行知识编辑并评估其效果引起了越来越多的关注。现有研究主要集中在使用事实三元组进行知识编辑，这不仅在收集上产生高成本，而且在表达复杂事实时也存在困难。此外，这些研究在评估视角上往往受到限制。在本文中，我们提出了Eva-KELLM，用于评估LLMs的知识编辑的新基准。该基准包括一个评估框架和相应的数据集。在我们的框架下，我们首先要求LLM使用原始文档进行知识编辑，与使用事实三元组相比，这提供了一种更方便、更通用的方法。然后我们从多个角度评估更新后的LLM的表现。
+
+    Large language models (LLMs) possess a wealth of knowledge encoded in their parameters. However, this knowledge may become outdated or unsuitable over time. As a result, there has been a growing interest in knowledge editing for LLMs and evaluating its effectiveness. Existing studies primarily focus on knowledge editing using factual triplets, which not only incur high costs for collection but also struggle to express complex facts. Furthermore, these studies are often limited in their evaluation perspectives. In this paper, we propose Eva-KELLM, a new benchmark for evaluating knowledge editing of LLMs. This benchmark includes an evaluation framework and a corresponding dataset. Under our framework, we first ask the LLM to perform knowledge editing using raw documents, which provides a more convenient and universal approach compared to using factual triplets. We then evaluate the updated LLM from multiple perspectives. In addition to assessing the effectiveness of knowledge editing and
     
 

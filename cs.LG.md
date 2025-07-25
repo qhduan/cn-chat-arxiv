@@ -2,112 +2,157 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Adapting Newton's Method to Neural Networks through a Summary of Higher-Order Derivatives](https://arxiv.org/abs/2312.03885) | 本论文通过计算高阶导数，将牛顿法应用于神经网络中，提出了一个适用于各种架构的深度神经网络的二阶优化方法。 |
-| [^2] | [Scalable manifold learning by uniform landmark sampling and constrained locally linear embedding.](http://arxiv.org/abs/2401.01100) | 通过均匀地标抽样和约束局部线性嵌入，提出了一种可伸缩的流形学习方法，可以有效处理大规模和高维数据，并解决全局结构失真和可伸缩性问题。 |
-| [^3] | [Self-Supervised Blind Source Separation via Multi-Encoder Autoencoders.](http://arxiv.org/abs/2309.07138) | 本论文提出了一种基于多编码器自编码器和自监督学习的方法，用于解决盲源分离问题。通过训练网络进行输入解码和重构，然后利用编码掩蔽技术进行源推断，同时引入路径分离损失以促进稀疏性。 |
-| [^4] | [An Optimal and Scalable Matrix Mechanism for Noisy Marginals under Convex Loss Functions.](http://arxiv.org/abs/2305.08175) | ResidualPlanner是一种用于带有高斯噪声的边缘的矩阵机制，既优化又可扩展，可以优化许多可以写成边际方差的凸函数的损失函数。 |
-| [^5] | [Unified Convergence Theory of Stochastic and Variance-Reduced Cubic Newton Methods.](http://arxiv.org/abs/2302.11962) | 该论文提出了一个名为辅助框架的新框架，通过统一的视角，提供了具有全局复杂性保证的随机和方差减少的二阶算法。该框架在构建和分析随机三次牛顿方法时具有高度灵活性，使用了任意大小的批量，以及有噪声和可能有偏差的梯度和Hessian的估计，结合了方差减少和惰性Hessian更新。在噪声的弱假设下，恢复了已知的随机和方差减少的三次牛顿的最佳复杂性。 |
-| [^6] | [On the Lipschitz Constant of Deep Networks and Double Descent.](http://arxiv.org/abs/2301.12309) | 本文通过实验研究发现，深度网络的利普希茨常数趋势与测试误差密切相关，通过建立参数空间和输入空间梯度之间的联系，确定了损失函数曲率和距离初始化参数的距离对于深度网络的优化和模型函数复杂度限制是关键因素，该研究对隐式正则化和网络的有效模型复杂度提供了新的见解。 |
-| [^7] | [ACMP: Allen-Cahn Message Passing for Graph Neural Networks with Particle Phase Transition.](http://arxiv.org/abs/2206.05437) | 本文提出了一种基于ACMP的图神经网络模型，它可以通过具有吸引力和排斥力的相互作用粒子系统进行消息传递传播，克服了GNN过度平滑问题，将网络深度推到100层，并在基准数据集上实现了最先进的节点分类和图匹配性能。 |
+| [^1] | [PLOT-TAL -- Prompt Learning with Optimal Transport for Few-Shot Temporal Action Localization](https://arxiv.org/abs/2403.18915) | 提出了使用最优传输进行少样本时序动作定位的提示学习方法，通过多提示学习框架和最优传输理论的结合，有效地捕捉通用特征和减轻过拟合风险 |
+| [^2] | [From Zero to Hero: How local curvature at artless initial conditions leads away from bad minima](https://arxiv.org/abs/2403.02418) | 局部曲率变化导致系统从良性且富有信息的局部景观逐渐陷入无信息的迷宫，关键转变与时间相关的Hessian的阈值有关。 |
+| [^3] | [DualView: Data Attribution from the Dual Perspective](https://arxiv.org/abs/2402.12118) | 提出了DualView，一种基于替代建模的后期数据归因方法，具有高效计算和优质评估结果。 |
+| [^4] | [Fine-Tuned Language Models Generate Stable Inorganic Materials as Text](https://arxiv.org/abs/2402.04379) | 细调语言模型用于生成稳定材料，具有可靠性高和灵活性强的优势，能以较高的速率生成被预测为亚稳态的材料。 |
+| [^5] | [Classify and Generate Reciprocally: Simultaneous Positive-Unlabelled Learning and Conditional Generation with Extra Data](https://arxiv.org/abs/2006.07841) | 本论文提出了一种同时利用正数据-无标签学习和有条件生成的训练框架，以及额外无标签数据的方法。通过使用一个对噪声标签具有鲁棒性的分类器噪声不变有条件生成对抗网络来提高PU分类器的性能，并利用PU分类器预测的标签和额外数据来帮助生成。实验结果证明了该方法的有效性。 |
+| [^6] | [Learning Concepts Definable in First-Order Logic with Counting](https://arxiv.org/abs/1909.03820) | 该研究将一阶逻辑与计数符号相结合，证明了可以在多对数度结构下以次线性时间一致学习可定义的分类器，为包含数值方面的机器学习扩展学习框架迈出了第一步。 |
+| [^7] | [I-CEE: Tailoring Explanations of Image Classification Models to User Expertise.](http://arxiv.org/abs/2312.12102) | I-CEE是一个人为中心的框架，为用户专业知识定制了图像分类模型的解释，通过提供信息丰富的示例图像、局部解释和模型决策来帮助用户理解模型的决策。 |
+| [^8] | [Adversarially Robust Deep Learning with Optimal-Transport-Regularized Divergences.](http://arxiv.org/abs/2309.03791) | 本论文介绍了一种新的方法ARMOR_D来加强深度学习模型的对抗鲁棒性，该方法基于最优传输正则化差异，通过在分布的邻域上进行最大化期望损失来实现。实验证明，ARMOR_D方法在恶意软件检测和图像识别应用中能够优于现有方法，在对抗攻击下的鲁棒性方面具有较好的效果。 |
+| [^9] | [Compressed and distributed least-squares regression: convergence rates with applications to Federated Learning.](http://arxiv.org/abs/2308.01358) | 本文研究了压缩对分布式和联邦学习中随机梯度算法的影响，通过比较不同的无偏压缩操作符的收敛速度，超越了经典的最坏情况分析。针对最小二乘回归，我们提出了一个随机逼近算法，并考虑了随机场的一般假设和噪声协方差的限制，以分析各种随机化机制。 |
+| [^10] | [Pseudo-Labeling for Kernel Ridge Regression under Covariate Shift.](http://arxiv.org/abs/2302.10160) | 该论文提出了一种关于核岭回归的协变量转移策略，通过使用伪标签进行模型选择，能够适应不同特征分布下的学习，实现均方误差最小化。 |
 
 # 详细
 
-[^1]: 通过高阶导数总结，将牛顿法应用于神经网络的改进
+[^1]: 使用最优传输进行少样本时序动作定位的提示学习
 
-    Adapting Newton's Method to Neural Networks through a Summary of Higher-Order Derivatives
+    PLOT-TAL -- Prompt Learning with Optimal Transport for Few-Shot Temporal Action Localization
 
-    [https://arxiv.org/abs/2312.03885](https://arxiv.org/abs/2312.03885)
+    [https://arxiv.org/abs/2403.18915](https://arxiv.org/abs/2403.18915)
 
-    本论文通过计算高阶导数，将牛顿法应用于神经网络中，提出了一个适用于各种架构的深度神经网络的二阶优化方法。
-
-    
-
-    我们考虑了一种应用于向量变量$\boldsymbol{\theta}$上的函数$\mathcal{L}$的基于梯度的优化方法，在这种情况下，$\boldsymbol{\theta}$被表示为元组$(\mathbf{T}_1, \cdots, \mathbf{T}_S)$的张量。该框架包括许多常见的用例，例如通过梯度下降来训练神经网络。首先，我们提出了一种计算成本低廉的技术，通过自动微分和计算技巧，提供关于$\mathcal{L}$及其张量$\mathbf{T}_s$之间相互作用的高阶信息。其次，我们利用这种技术来建立一个二阶优化方法，适用于训练各种架构的深度神经网络。这个二阶方法利用了$\boldsymbol{\theta}$被分割为张量$(\mathbf{T}_1, \cdots, \mathbf{T}_S)$的分区结构，因此不需要计算$\mathcal{L}$的Hessian矩阵。
-
-    We consider a gradient-based optimization method applied to a function $\mathcal{L}$ of a vector of variables $\boldsymbol{\theta}$, in the case where $\boldsymbol{\theta}$ is represented as a tuple of tensors $(\mathbf{T}_1, \cdots, \mathbf{T}_S)$. This framework encompasses many common use-cases, such as training neural networks by gradient descent. First, we propose a computationally inexpensive technique providing higher-order information on $\mathcal{L}$, especially about the interactions between the tensors $\mathbf{T}_s$, based on automatic differentiation and computational tricks. Second, we use this technique at order 2 to build a second-order optimization method which is suitable, among other things, for training deep neural networks of various architectures. This second-order method leverages the partition structure of $\boldsymbol{\theta}$ into tensors $(\mathbf{T}_1, \cdots, \mathbf{T}_S)$, in such a way that it requires neither the computation of the Hessian of $\mathcal{
-    
-[^2]: 通过均匀地标抽样和约束局部线性嵌入实现可伸缩的流形学习
-
-    Scalable manifold learning by uniform landmark sampling and constrained locally linear embedding. (arXiv:2401.01100v1 [cs.LG])
-
-    [http://arxiv.org/abs/2401.01100](http://arxiv.org/abs/2401.01100)
-
-    通过均匀地标抽样和约束局部线性嵌入，提出了一种可伸缩的流形学习方法，可以有效处理大规模和高维数据，并解决全局结构失真和可伸缩性问题。
+    提出了使用最优传输进行少样本时序动作定位的提示学习方法，通过多提示学习框架和最优传输理论的结合，有效地捕捉通用特征和减轻过拟合风险
 
     
 
-    流形学习是机器学习和数据科学中的关键方法，旨在揭示高维空间中复杂非线性流形内在的低维结构。通过利用流形假设，已经开发了各种非线性降维技术来促进可视化、分类、聚类和获得关键洞察。虽然现有的流形学习方法取得了显著的成功，但仍然存在全局结构中的大量失真问题，这阻碍了对底层模式的理解。可伸缩性问题也限制了它们处理大规模数据的适用性。在这里，我们提出了一种可伸缩的流形学习(scML)方法，可以以有效的方式处理大规模和高维数据。它通过寻找一组地标来构建整个数据的低维骨架，然后将非地标引入地标空间中
+    本文介绍了一种新的方法来处理少样本学习中的时序动作定位（TAL）。我们的工作解决了传统单样本学习方法的固有局限性，这些方法往往由于无法在真实世界的视频中跨不同上下文进行泛化而导致过拟合。鉴于视频中摄像机视角、背景和物体的多样性，我们提出了一个增强了最优传输的多提示学习框架。这个设计允许模型为每个动作学习一组多样的提示，更有效地捕捉通用特征并分布表示以减轻过拟合的风险。此外，通过采用最优传输理论，我们可以有效地将这些提示与动作特征进行对齐，优化以获得适应视频数据多面性的综合表示。我们的实验证明了动作定位方面的显著改进。
 
-    As a pivotal approach in machine learning and data science, manifold learning aims to uncover the intrinsic low-dimensional structure within complex nonlinear manifolds in high-dimensional space. By exploiting the manifold hypothesis, various techniques for nonlinear dimension reduction have been developed to facilitate visualization, classification, clustering, and gaining key insights. Although existing manifold learning methods have achieved remarkable successes, they still suffer from extensive distortions incurred in the global structure, which hinders the understanding of underlying patterns. Scalability issues also limit their applicability for handling large-scale data. Here, we propose a scalable manifold learning (scML) method that can manipulate large-scale and high-dimensional data in an efficient manner. It starts by seeking a set of landmarks to construct the low-dimensional skeleton of the entire data and then incorporates the non-landmarks into the landmark space based 
+    arXiv:2403.18915v1 Announce Type: cross  Abstract: This paper introduces a novel approach to temporal action localization (TAL) in few-shot learning. Our work addresses the inherent limitations of conventional single-prompt learning methods that often lead to overfitting due to the inability to generalize across varying contexts in real-world videos. Recognizing the diversity of camera views, backgrounds, and objects in videos, we propose a multi-prompt learning framework enhanced with optimal transport. This design allows the model to learn a set of diverse prompts for each action, capturing general characteristics more effectively and distributing the representation to mitigate the risk of overfitting. Furthermore, by employing optimal transport theory, we efficiently align these prompts with action features, optimizing for a comprehensive representation that adapts to the multifaceted nature of video data. Our experiments demonstrate significant improvements in action localization a
     
-[^3]: 基于多编码器自编码器的自监督盲源分离
+[^2]: 从零到英雄：无知初值处的局部曲率如何远离糟糕的极小值
 
-    Self-Supervised Blind Source Separation via Multi-Encoder Autoencoders. (arXiv:2309.07138v1 [eess.SP])
+    From Zero to Hero: How local curvature at artless initial conditions leads away from bad minima
 
-    [http://arxiv.org/abs/2309.07138](http://arxiv.org/abs/2309.07138)
+    [https://arxiv.org/abs/2403.02418](https://arxiv.org/abs/2403.02418)
 
-    本论文提出了一种基于多编码器自编码器和自监督学习的方法，用于解决盲源分离问题。通过训练网络进行输入解码和重构，然后利用编码掩蔽技术进行源推断，同时引入路径分离损失以促进稀疏性。
-
-    
-
-    盲源分离（BSS）的任务是在没有先验知识的情况下从混合信号中分离出源信号和混合系统。这是一个具有挑战性的问题，通常需要对混合系统和源信号做出限制性的假设。本文提出了一种新颖的方法来解决非线性混合的BSS问题，该方法利用多编码器自编码器的自然特征子空间专门化能力，并通过完全自监督学习进行训练，而不需要强先验知识。在训练阶段，我们的方法将输入解码成多编码器网络的单独编码空间，然后在解码器内重新混合这些表示以重构输入。然后，为了进行源推断，我们引入了一种新颖的编码掩蔽技术，即屏蔽除一个编码外的所有编码，使得解码器能够估计源信号。为此，我们还引入了一种称为路径分离损失的方法，以促进编码之间的稀疏性。
-
-    The task of blind source separation (BSS) involves separating sources from a mixture without prior knowledge of the sources or the mixing system. This is a challenging problem that often requires making restrictive assumptions about both the mixing system and the sources. In this paper, we propose a novel method for addressing BSS of non-linear mixtures by leveraging the natural feature subspace specialization ability of multi-encoder autoencoders with fully self-supervised learning without strong priors. During the training phase, our method unmixes the input into the separate encoding spaces of the multi-encoder network and then remixes these representations within the decoder for a reconstruction of the input. Then to perform source inference, we introduce a novel encoding masking technique whereby masking out all but one of the encodings enables the decoder to estimate a source signal. To this end, we also introduce a so-called pathway separation loss that encourages sparsity betwe
-    
-[^4]: 一种优化且可扩展的矩阵机制用于扰动边缘数据下凸损失函数。
-
-    An Optimal and Scalable Matrix Mechanism for Noisy Marginals under Convex Loss Functions. (arXiv:2305.08175v1 [cs.DB])
-
-    [http://arxiv.org/abs/2305.08175](http://arxiv.org/abs/2305.08175)
-
-    ResidualPlanner是一种用于带有高斯噪声的边缘的矩阵机制，既优化又可扩展，可以优化许多可以写成边际方差的凸函数的损失函数。
+    局部曲率变化导致系统从良性且富有信息的局部景观逐渐陷入无信息的迷宫，关键转变与时间相关的Hessian的阈值有关。
 
     
 
-    扰动的边缘数据是一种常见的保护数据隐私的形式，可用于诸如列联表分析、贝叶斯网络构建和合成数据生成等下游任务。我们提出了ResidualPlanner，这是一种用于带有高斯噪声的边缘的矩阵机制，既优化又可扩展。ResidualPlanner可以优化许多可以写成边际方差的凸函数的损失函数。此外，ResidualPlanner可以在几秒钟内优化大规模设置中的边缘准确性，即使之前的最先进技术（HDMM）也会占用过多的内存。甚至在具有100个属性的数据集上也可以在几分钟内运行。此外，ResidualPlanner还可以有效地计算每个边缘的方差/协方差值（之前的方法会很快失败）。
+    我们研究了梯度下降在非凸和高维设置中的优化动力学，重点关注相位恢复问题作为复杂损失景观的案例研究。通过分析局部曲率在优化过程中的变化，我们发现在中间信噪比下，Hessian在下降的第一个阶段显示出指向好极小值的下降方向，然后在结束时被困在糟糕的极小值中。因此，局部景观起初是良性且富有信息的，然后梯度下降将系统带入无信息的迷宫。两个阶段之间的转变与时间相关的Hessian的BBP类型阈值相关联。
 
-    Noisy marginals are a common form of confidentiality-protecting data release and are useful for many downstream tasks such as contingency table analysis, construction of Bayesian networks, and even synthetic data generation. Privacy mechanisms that provide unbiased noisy answers to linear queries (such as marginals) are known as matrix mechanisms.  We propose ResidualPlanner, a matrix mechanism for marginals with Gaussian noise that is both optimal and scalable. ResidualPlanner can optimize for many loss functions that can be written as a convex function of marginal variances (prior work was restricted to just one predefined objective function). ResidualPlanner can optimize the accuracy of marginals in large scale settings in seconds, even when the previous state of the art (HDMM) runs out of memory. It even runs on datasets with 100 attributes in a couple of minutes. Furthermore ResidualPlanner can efficiently compute variance/covariance values for each marginal (prior methods quickly
+    arXiv:2403.02418v1 Announce Type: new  Abstract: We investigate the optimization dynamics of gradient descent in a non-convex and high-dimensional setting, with a focus on the phase retrieval problem as a case study for complex loss landscapes. We first study the high-dimensional limit where both the number $M$ and the dimension $N$ of the data are going to infinity at fixed signal-to-noise ratio $\alpha = M/N$. By analyzing how the local curvature changes during optimization, we uncover that for intermediate $\alpha$, the Hessian displays a downward direction pointing towards good minima in the first regime of the descent, before being trapped in bad minima at the end. Hence, the local landscape is benign and informative at first, before gradient descent brings the system into a uninformative maze. The transition between the two regimes is associated to a BBP-type threshold in the time-dependent Hessian. Through both theoretical analysis and numerical experiments, we show that in prac
     
-[^5]: 随机和方差减少的三次牛顿方法的统一收敛理论
+[^3]: DualView：双重视角下的数据归因
 
-    Unified Convergence Theory of Stochastic and Variance-Reduced Cubic Newton Methods. (arXiv:2302.11962v2 [math.OC] UPDATED)
+    DualView: Data Attribution from the Dual Perspective
 
-    [http://arxiv.org/abs/2302.11962](http://arxiv.org/abs/2302.11962)
+    [https://arxiv.org/abs/2402.12118](https://arxiv.org/abs/2402.12118)
 
-    该论文提出了一个名为辅助框架的新框架，通过统一的视角，提供了具有全局复杂性保证的随机和方差减少的二阶算法。该框架在构建和分析随机三次牛顿方法时具有高度灵活性，使用了任意大小的批量，以及有噪声和可能有偏差的梯度和Hessian的估计，结合了方差减少和惰性Hessian更新。在噪声的弱假设下，恢复了已知的随机和方差减少的三次牛顿的最佳复杂性。
-
-    
-
-    我们研究用于解决一般可能非凸最小化问题的随机三次牛顿方法。我们提出了一个新的框架，称之为辅助框架，它提供了具有全局复杂性保证的随机和方差减少的二阶算法的统一视角。它还可以应用于带有辅助信息的学习。我们的辅助框架为算法设计者提供了构建和分析随机三次牛顿方法的高度灵活性，允许任意大小的批量，并且使用有噪声和可能有偏差的梯度和Hessian的估计，将方差减少和惰性Hessian更新结合起来。在噪声的弱假设下，我们恢复了已知的随机和方差减少的三次牛顿的最佳复杂性。我们理论的一个直接结果是新的惰性随机二阶方法，它显著改进了大维问题的算术复杂性。
-
-    We study stochastic Cubic Newton methods for solving general possibly non-convex minimization problems. We propose a new framework, which we call the helper framework, that provides a unified view of the stochastic and variance-reduced second-order algorithms equipped with global complexity guarantees. It can also be applied to learning with auxiliary information. Our helper framework offers the algorithm designer high flexibility for constructing and analyzing the stochastic Cubic Newton methods, allowing arbitrary size batches, and the use of noisy and possibly biased estimates of the gradients and Hessians, incorporating both the variance reduction and the lazy Hessian updates. We recover the best-known complexities for the stochastic and variance-reduced Cubic Newton, under weak assumptions on the noise. A direct consequence of our theory is the new lazy stochastic second-order method, which significantly improves the arithmetic complexity for large dimension problems. We also esta
-    
-[^6]: 关于深度网络和双重下降的利普希茨常数
-
-    On the Lipschitz Constant of Deep Networks and Double Descent. (arXiv:2301.12309v3 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2301.12309](http://arxiv.org/abs/2301.12309)
-
-    本文通过实验研究发现，深度网络的利普希茨常数趋势与测试误差密切相关，通过建立参数空间和输入空间梯度之间的联系，确定了损失函数曲率和距离初始化参数的距离对于深度网络的优化和模型函数复杂度限制是关键因素，该研究对隐式正则化和网络的有效模型复杂度提供了新的见解。
+    提出了DualView，一种基于替代建模的后期数据归因方法，具有高效计算和优质评估结果。
 
     
 
-    目前关于深度网络泛化误差的界限都是基于输入变量的平滑或有界依赖性，没有研究探究实践中控制这些因素的机制。本文对经历双重衰减的深度网络的实验利普希茨常数进行了广泛的实验研究，并强调了非单调的趋势，与测试误差密切相关。通过建立随机梯度下降的参数空间和输入空间梯度之间的联系，我们分离出两个重要因素，即损失函数曲率和距离初始化参数的距离，分别控制关键点周围的优化动态，并限制模型函数的复杂度，即使在训练数据之外。我们的研究揭示了超参数化的隐式正则化和实践中网络的有效模型复杂度的新见解。
+    本文提出了DualView，这是一种基于替代建模的后期数据归因方法，展示了高计算效率和良好的评估结果。我们专注于神经网络，在与文献相关的适当定量评估策略下评估了我们提出的技术，比较了与相关主要本地数据归因方法的性能。
 
-    Existing bounds on the generalization error of deep networks assume some form of smooth or bounded dependence on the input variable, falling short of investigating the mechanisms controlling such factors in practice. In this work, we present an extensive experimental study of the empirical Lipschitz constant of deep networks undergoing double descent, and highlight non-monotonic trends strongly correlating with the test error. Building a connection between parameter-space and input-space gradients for SGD around a critical point, we isolate two important factors -- namely loss landscape curvature and distance of parameters from initialization -- respectively controlling optimization dynamics around a critical point and bounding model function complexity, even beyond the training data. Our study presents novels insights on implicit regularization via overparameterization, and effective model complexity for networks trained in practice.
+    arXiv:2402.12118v1 Announce Type: cross  Abstract: Local data attribution (or influence estimation) techniques aim at estimating the impact that individual data points seen during training have on particular predictions of an already trained Machine Learning model during test time. Previous methods either do not perform well consistently across different evaluation criteria from literature, are characterized by a high computational demand, or suffer from both. In this work we present DualView, a novel method for post-hoc data attribution based on surrogate modelling, demonstrating both high computational efficiency, as well as good evaluation results. With a focus on neural networks, we evaluate our proposed technique using suitable quantitative evaluation strategies from the literature against related principal local data attribution methods. We find that DualView requires considerably lower computational resources than other methods, while demonstrating comparable performance to comp
     
-[^7]: ACMP: Allen-Cahn信息传递用于带有物质相变的图神经网络
+[^4]: 细调语言模型生成稳定的无机材料文本
 
-    ACMP: Allen-Cahn Message Passing for Graph Neural Networks with Particle Phase Transition. (arXiv:2206.05437v3 [cs.LG] UPDATED)
+    Fine-Tuned Language Models Generate Stable Inorganic Materials as Text
 
-    [http://arxiv.org/abs/2206.05437](http://arxiv.org/abs/2206.05437)
+    [https://arxiv.org/abs/2402.04379](https://arxiv.org/abs/2402.04379)
 
-    本文提出了一种基于ACMP的图神经网络模型，它可以通过具有吸引力和排斥力的相互作用粒子系统进行消息传递传播，克服了GNN过度平滑问题，将网络深度推到100层，并在基准数据集上实现了最先进的节点分类和图匹配性能。
+    细调语言模型用于生成稳定材料，具有可靠性高和灵活性强的优势，能以较高的速率生成被预测为亚稳态的材料。
 
     
 
-    神经消息传递是基于图结构数据的特征提取单元，考虑从一层到下一层的网络传播中的相邻节点特征。我们通过具有吸引力和排斥力的相互作用粒子系统来建模这种过程，并在相变建模中引入Allen-Cahn力。系统的动力学是一种反应扩散过程，可以将粒子分离而不会扩散。这引出了一种Allen-Cahn信息传递(ACMP)用于图神经网络，其中粒子系统解的数值迭代构成了消息传递传播。ACMP具有简单的实现和神经ODE求解器，可以将网络深度推到100层，并具有理论上证明的Dirichlet能量严格正下界。因此，它提供了一种深度模型的GNN，避免了常见的GNN过度平滑问题。使用ACMP的GNN在基准数据集上实现了实际节点分类和图匹配任务的最先进性能。
+    我们提出了对大型语言模型进行细调，以生成稳定材料。虽然非传统，但在文本编码的原子数据上细调大型语言模型非常简单易行，同时可靠性高，约90%的采样结构遵守原子位置和电荷的物理约束。通过来自学习的机器学习势和金标准DFT计算的能量以上的计算，我们表明我们的最强模型（细调LLaMA-2 70B）可以以CDVAE竞争扩散模型的约两倍速率（49% vs 28%）生成被预测为亚稳态的材料。由于文本提示的固有灵活性，我们的模型可以同时用于稳定材料的无条件生成、部分结构的填充和文本条件生成。最后，我们表明语言模型捕捉晶体结构的关键对称性的能力随模型规模的增大而改善，这表明预训练的LLM的偏差出奇地适合原子性的应用。
 
-    Neural message passing is a basic feature extraction unit for graph-structured data considering neighboring node features in network propagation from one layer to the next. We model such process by an interacting particle system with attractive and repulsive forces and the Allen-Cahn force arising in the modeling of phase transition. The dynamics of the system is a reaction-diffusion process which can separate particles without blowing up. This induces an Allen-Cahn message passing (ACMP) for graph neural networks where the numerical iteration for the particle system solution constitutes the message passing propagation. ACMP which has a simple implementation with a neural ODE solver can propel the network depth up to one hundred of layers with theoretically proven strictly positive lower bound of the Dirichlet energy. It thus provides a deep model of GNNs circumventing the common GNN problem of oversmoothing. GNNs with ACMP achieve state of the art performance for real-world node class
+    We propose fine-tuning large language models for generation of stable materials. While unorthodox, fine-tuning large language models on text-encoded atomistic data is simple to implement yet reliable, with around 90% of sampled structures obeying physical constraints on atom positions and charges. Using energy above hull calculations from both learned ML potentials and gold-standard DFT calculations, we show that our strongest model (fine-tuned LLaMA-2 70B) can generate materials predicted to be metastable at about twice the rate (49% vs 28%) of CDVAE, a competing diffusion model. Because of text prompting's inherent flexibility, our models can simultaneously be used for unconditional generation of stable material, infilling of partial structures and text-conditional generation. Finally, we show that language models' ability to capture key symmetries of crystal structures improves with model scale, suggesting that the biases of pretrained LLMs are surprisingly well-suited for atomistic
+    
+[^5]: 同时进行正数据-无标签学习和有条件生成，利用额外数据来分类和生成
+
+    Classify and Generate Reciprocally: Simultaneous Positive-Unlabelled Learning and Conditional Generation with Extra Data
+
+    [https://arxiv.org/abs/2006.07841](https://arxiv.org/abs/2006.07841)
+
+    本论文提出了一种同时利用正数据-无标签学习和有条件生成的训练框架，以及额外无标签数据的方法。通过使用一个对噪声标签具有鲁棒性的分类器噪声不变有条件生成对抗网络来提高PU分类器的性能，并利用PU分类器预测的标签和额外数据来帮助生成。实验结果证明了该方法的有效性。
+
+    
+
+    在许多机器学习问题中，标记类别数据的稀缺性是一个普遍存在的瓶颈。虽然存在丰富的无标签数据并提供潜在的解决方案，但利用它们是非常具有挑战性的。本文通过同时利用正数据-无标签（Positive-Unlabeled，PU）分类和有条件生成，以及额外的无标签数据，解决了这个问题。特别地，我们提出了一个新的训练框架，使得在面对额外数据（尤其是分布外的无标签数据）时，同时进行PU分类和有条件生成成为可能，通过探索它们之间的相互作用：1）通过一个对噪声标签具有鲁棒性的新型分类器噪声不变有条件生成对抗网络（Classifier-Noise-Invariant Conditional GAN，CNI-CGAN）来提高PU分类器的性能，2）利用PU分类器预测的标签和额外数据来帮助生成。从理论上，我们证明了CNI-CGAN的最优条件，并在实验中通过广泛的评估来验证了我们的方法。
+
+    The scarcity of class-labeled data is a ubiquitous bottleneck in many machine learning problems. While abundant unlabeled data typically exist and provide a potential solution, it is highly challenging to exploit them. In this paper, we address this problem by leveraging Positive-Unlabeled~(PU) classification and the conditional generation with extra unlabeled data \emph{simultaneously}. In particular, we present a novel training framework to jointly target both PU classification and conditional generation when exposed to extra data, especially out-of-distribution unlabeled data, by exploring the interplay between them: 1) enhancing the performance of PU classifiers with the assistance of a novel Classifier-Noise-Invariant Conditional GAN~(CNI-CGAN) that is robust to noisy labels, 2) leveraging extra data with predicted labels from a PU classifier to help the generation. Theoretically, we prove the optimal condition of CNI-CGAN, and experimentally, we conducted extensive evaluations on
+    
+[^6]: 用计数符号的一阶逻辑定义的概念的学习
+
+    Learning Concepts Definable in First-Order Logic with Counting
+
+    [https://arxiv.org/abs/1909.03820](https://arxiv.org/abs/1909.03820)
+
+    该研究将一阶逻辑与计数符号相结合，证明了可以在多对数度结构下以次线性时间一致学习可定义的分类器，为包含数值方面的机器学习扩展学习框架迈出了第一步。
+
+    
+
+    我们研究了在Grohe和Tur\'an引入的逻辑框架下的关系背景结构上的布尔分类问题。众所周知(Grohe和Ritzert, LICS 2017)，在多对数度结构上的一阶逻辑可定义的分类器可以在次线性时间内学习，其中结构的度和运行时间是以结构的大小为单位来衡量的。我们将结果推广到了由Kuske和Schweikardt(LICS 2017)引入的带计数的一阶逻辑FOCN，它作为一个广泛推广各种计数逻辑的表现逻辑。具体来说，我们证明了可以在多对数度结构类上定义的FOCN中的分类器可以在次线性时间内一致地学习。这可以看作是将学习框架扩展以包含机器学习的数值方面的第一步。我们将这一结果扩展到了无视的概率
+
+    arXiv:1909.03820v2 Announce Type: replace-cross  Abstract: We study Boolean classification problems over relational background structures in the logical framework introduced by Grohe and Tur\'an (TOCS 2004). It is known (Grohe and Ritzert, LICS 2017) that classifiers definable in first-order logic over structures of polylogarithmic degree can be learned in sublinear time, where the degree of the structure and the running time are measured in terms of the size of the structure. We generalise the results to the first-order logic with counting FOCN, which was introduced by Kuske and Schweikardt (LICS 2017) as an expressive logic generalising various other counting logics. Specifically, we prove that classifiers definable in FOCN over classes of structures of polylogarithmic degree can be consistently learned in sublinear time. This can be seen as a first step towards extending the learning framework to include numerical aspects of machine learning. We extend the result to agnostic probabl
+    
+[^7]: I-CEE: 将图像分类模型的解释定制为用户专业知识
+
+    I-CEE: Tailoring Explanations of Image Classification Models to User Expertise. (arXiv:2312.12102v2 [cs.AI] UPDATED)
+
+    [http://arxiv.org/abs/2312.12102](http://arxiv.org/abs/2312.12102)
+
+    I-CEE是一个人为中心的框架，为用户专业知识定制了图像分类模型的解释，通过提供信息丰富的示例图像、局部解释和模型决策来帮助用户理解模型的决策。
+
+    
+
+    有效解释黑盒机器学习模型的决策对于依赖它们的人工智能系统的负责任部署至关重要。识别到其重要性，可以生成这些解释的可解释人工智能（XAI）领域提供了几种技术。然而，在这一不断发展的工作中，对用户（解释对象）的关注相对较少，大多数XAI技术产生的是“一刀切”的解释。为了弥合这一差距，实现更加以人为中心的XAI，我们提出了I-CEE，这是一个为用户专业知识定制图像分类解释的框架。受到现有工作的启发，I-CEE通过为用户提供信息丰富的训练数据子集（即示例图像）、相应的局部解释和模型决策来解释图像分类模型的决策。然而，与此前的工作不同的是，I-CEE模拟了示例图像的信息量依赖于用户专业知识的情况，从而为不同的用户提供不同的示例。
+
+    Effectively explaining decisions of black-box machine learning models is critical to responsible deployment of AI systems that rely on them. Recognizing their importance, the field of explainable AI (XAI) provides several techniques to generate these explanations. Yet, there is relatively little emphasis on the user (the explainee) in this growing body of work and most XAI techniques generate "one-size-fits-all" explanations. To bridge this gap and achieve a step closer towards human-centered XAI, we present I-CEE, a framework that provides Image Classification Explanations tailored to User Expertise. Informed by existing work, I-CEE explains the decisions of image classification models by providing the user with an informative subset of training data (i.e., example images), corresponding local explanations, and model decisions. However, unlike prior work, I-CEE models the informativeness of the example images to depend on user expertise, resulting in different examples for different u
+    
+[^8]: 使用最优传输正则化差异来提高对抗性鲁棒深度学习
+
+    Adversarially Robust Deep Learning with Optimal-Transport-Regularized Divergences. (arXiv:2309.03791v1 [cs.LG])
+
+    [http://arxiv.org/abs/2309.03791](http://arxiv.org/abs/2309.03791)
+
+    本论文介绍了一种新的方法ARMOR_D来加强深度学习模型的对抗鲁棒性，该方法基于最优传输正则化差异，通过在分布的邻域上进行最大化期望损失来实现。实验证明，ARMOR_D方法在恶意软件检测和图像识别应用中能够优于现有方法，在对抗攻击下的鲁棒性方面具有较好的效果。
+
+    
+
+    我们引入了ARMOR_D方法作为增强深度学习模型对抗性鲁棒性的创新方法。这些方法基于一种新的最优传输正则化差异类，通过信息差异和最优传输成本之间的infimal卷积构建。我们使用这些方法来增强对抗性鲁棒性，通过在分布的邻域上最大化期望损失，这被称为分布鲁棒优化技术。作为构建对抗样本的工具，我们的方法允许样本根据最优传输成本进行传输，并根据信息差异进行重新加权。我们在恶意软件检测和图像识别应用上证明了我们方法的有效性，并发现在增强对抗攻击鲁棒性方面，据我们所知，它优于现有方法。ARMOR_D在FGSM攻击下的robustified准确率达到98.29%，在其他攻击下达到98.18%。
+
+    We introduce the $ARMOR_D$ methods as novel approaches to enhancing the adversarial robustness of deep learning models. These methods are based on a new class of optimal-transport-regularized divergences, constructed via an infimal convolution between an information divergence and an optimal-transport (OT) cost. We use these as tools to enhance adversarial robustness by maximizing the expected loss over a neighborhood of distributions, a technique known as distributionally robust optimization. Viewed as a tool for constructing adversarial samples, our method allows samples to be both transported, according to the OT cost, and re-weighted, according to the information divergence. We demonstrate the effectiveness of our method on malware detection and image recognition applications and find that, to our knowledge, it outperforms existing methods at enhancing the robustness against adversarial attacks. $ARMOR_D$ yields the robustified accuracy of $98.29\%$ against $FGSM$ and $98.18\%$ aga
+    
+[^9]: 压缩和分布式最小二乘回归：收敛速度及其在联邦学习中的应用
+
+    Compressed and distributed least-squares regression: convergence rates with applications to Federated Learning. (arXiv:2308.01358v1 [cs.LG])
+
+    [http://arxiv.org/abs/2308.01358](http://arxiv.org/abs/2308.01358)
+
+    本文研究了压缩对分布式和联邦学习中随机梯度算法的影响，通过比较不同的无偏压缩操作符的收敛速度，超越了经典的最坏情况分析。针对最小二乘回归，我们提出了一个随机逼近算法，并考虑了随机场的一般假设和噪声协方差的限制，以分析各种随机化机制。
+
+    
+
+    本文研究了在机器学习中广泛应用的分布式和联邦学习中，压缩对随机梯度算法的影响。我们强调了几种无偏压缩操作符之间的收敛速度差异，这些操作符都满足相同的方差条件，从而超越了经典的最坏情况分析。为此，我们专注于最小二乘回归（LSR）的情况，并分析了一个依赖于随机场的最小二乘回归的随机逼近算法。我们对随机场的一般性假设进行了详细分析（特别是期望的Hölder正则性）并对噪声协方差进行了限制，以便分析各种随机化机制，包括压缩。然后，我们将结果扩展到联邦学习的情况下。具体而言，我们强调了对加性噪声的协方差𝖢𝖠𝖭𝖨𝖠对收敛性的影响。
+
+    In this paper, we investigate the impact of compression on stochastic gradient algorithms for machine learning, a technique widely used in distributed and federated learning. We underline differences in terms of convergence rates between several unbiased compression operators, that all satisfy the same condition on their variance, thus going beyond the classical worst-case analysis. To do so, we focus on the case of least-squares regression (LSR) and analyze a general stochastic approximation algorithm for minimizing quadratic functions relying on a random field. We consider weak assumptions on the random field, tailored to the analysis (specifically, expected H\"older regularity), and on the noise covariance, enabling the analysis of various randomizing mechanisms, including compression. We then extend our results to the case of federated learning.  More formally, we highlight the impact on the convergence of the covariance $\mathfrak{C}_{\mathrm{ania}}$ of the additive noise induced 
+    
+[^10]: 核岭回归下伪标签的协变量转移策略
+
+    Pseudo-Labeling for Kernel Ridge Regression under Covariate Shift. (arXiv:2302.10160v2 [stat.ME] UPDATED)
+
+    [http://arxiv.org/abs/2302.10160](http://arxiv.org/abs/2302.10160)
+
+    该论文提出了一种关于核岭回归的协变量转移策略，通过使用伪标签进行模型选择，能够适应不同特征分布下的学习，实现均方误差最小化。
+
+    
+
+    我们提出并分析了一种基于协变量转移的核岭回归方法。我们的目标是在目标分布上学习一个均方误差最小的回归函数，基于从目标分布采样的未标记数据和可能具有不同特征分布的已标记数据。我们将已标记数据分成两个子集，并分别进行核岭回归，以获得候选模型集合和一个填充模型。我们使用后者填充缺失的标签，然后相应地选择最佳的候选模型。我们的非渐近性过量风险界表明，在相当一般的情况下，我们的估计器能够适应目标分布以及协变量转移的结构。它能够实现渐近正态误差率直到对数因子的最小极限优化。在模型选择中使用伪标签不会产生主要负面影响。
+
+    We develop and analyze a principled approach to kernel ridge regression under covariate shift. The goal is to learn a regression function with small mean squared error over a target distribution, based on unlabeled data from there and labeled data that may have a different feature distribution. We propose to split the labeled data into two subsets and conduct kernel ridge regression on them separately to obtain a collection of candidate models and an imputation model. We use the latter to fill the missing labels and then select the best candidate model accordingly. Our non-asymptotic excess risk bounds show that in quite general scenarios, our estimator adapts to the structure of the target distribution as well as the covariate shift. It achieves the minimax optimal error rate up to a logarithmic factor. The use of pseudo-labels in model selection does not have major negative impacts.
     
 
