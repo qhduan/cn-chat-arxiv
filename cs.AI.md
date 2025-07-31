@@ -2,67 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Online Concurrent Multi-Robot Coverage Path Planning](https://arxiv.org/abs/2403.10460) | 提出了一种非地平线的集中式算法，实现了在线多机器人覆盖路径规划中的并发规划和执行。 |
-| [^2] | [The pitfalls of next-token prediction](https://arxiv.org/abs/2403.06963) | 论文揭示了在某些任务类别中，教师强制方法可能无法在第一时间学习到准确的下一个标记预测器，进而导致模型失败的一般机制。 |
-| [^3] | [Adversarial Attacks and Defenses in Explainable Artificial Intelligence: A Survey.](http://arxiv.org/abs/2306.06123) | 本文总结了对抗性攻击和防御在可解释人工智能中的研究。列出了现有的不安全因素，并表明了本领域的新兴研究方向。 |
-| [^4] | [Demystifying Misconceptions in Social Bots Research.](http://arxiv.org/abs/2303.17251) | 这篇文章揭示了关于社交机器人研究的普遍误解，强调需要以严谨、公正和负责任的方式讨论虚假信息研究。 |
+| [^1] | [Deciphering the Interplay between Local Differential Privacy, Average Bayesian Privacy, and Maximum Bayesian Privacy](https://arxiv.org/abs/2403.16591) | 论文探讨了本地差分隐私、贝叶斯隐私及其之间的相互关系，揭示了关于效用-隐私权衡的新见解，并提出了一个框架来突出攻击和防御策略的相互作用和效果。 |
+| [^2] | [KIX: A Metacognitive Generalization Framework](https://arxiv.org/abs/2402.05346) | 人工智能代理缺乏通用行为，需要利用结构化知识表示。该论文提出了一种元认知泛化框架KIX，通过与对象的交互学习可迁移的交互概念和泛化能力，促进了知识与强化学习的融合，为实现人工智能系统的自主和通用行为提供了潜力。 |
+| [^3] | [Federated Distributionally Robust Optimization with Non-Convex Objectives: Algorithm and Analysis.](http://arxiv.org/abs/2307.14364) | 本文提出了一个名为ASPIRE算法的异步分布式算法，用于解决联邦分布鲁棒优化问题，并引入了约束的D-范数不确定性集合，以灵活控制鲁棒性的程度。 |
+| [^4] | [Spatial-Temporal Data Mining for Ocean Science: Data, Methodologies, and Opportunities.](http://arxiv.org/abs/2307.10803) | 该研究总结了海洋科学领域的时空数据挖掘研究，包括广泛使用的ST海洋数据集和其特点，以及ST海洋数据质量增强技术和现有STDM分类。 |
 
 # 详细
 
-[^1]: 在线并发多机器人覆盖路径规划
+[^1]: 揭示本地差分隐私、平均贝叶斯隐私和最大贝叶斯隐私之间的相互作用
 
-    Online Concurrent Multi-Robot Coverage Path Planning
+    Deciphering the Interplay between Local Differential Privacy, Average Bayesian Privacy, and Maximum Bayesian Privacy
 
-    [https://arxiv.org/abs/2403.10460](https://arxiv.org/abs/2403.10460)
+    [https://arxiv.org/abs/2403.16591](https://arxiv.org/abs/2403.16591)
 
-    提出了一种非地平线的集中式算法，实现了在线多机器人覆盖路径规划中的并发规划和执行。
-
-    
-
-    近期，集中式逐步地平线在线多机器人覆盖路径规划算法展现出在彻底探索拥有大量机器人的大型、复杂、未知工作空间方面的出色可伸缩性。在一个时间段内，路径规划和路径执行交替进行，即当为没有路径的机器人进行路径规划时，具有未完成路径的机器人不执行，反之亦然。为此，我们提出了一个非基于地平线的集中式算法。该算法随时为没有路径的机器人子集（即已达到其先前分配目标的机器人）规划路径，而其余机器人执行其未完成的路径，从而实现并发规划和执行。我们正式证明了该提议的...
-
-    arXiv:2403.10460v1 Announce Type: cross  Abstract: Recently, centralized receding horizon online multi-robot coverage path planning algorithms have shown remarkable scalability in thoroughly exploring large, complex, unknown workspaces with many robots. In a horizon, the path planning and the path execution interleave, meaning when the path planning occurs for robots with no paths, the robots with outstanding paths do not execute, and subsequently, when the robots with new or outstanding paths execute to reach respective goals, path planning does not occur for those robots yet to get new paths, leading to wastage of both the robotic and the computation resources. As a remedy, we propose a centralized algorithm that is not horizon-based. It plans paths at any time for a subset of robots with no paths, i.e., who have reached their previously assigned goals, while the rest execute their outstanding paths, thereby enabling concurrent planning and execution. We formally prove that the propo
-    
-[^2]: 下一个标记预测的陷阱
-
-    The pitfalls of next-token prediction
-
-    [https://arxiv.org/abs/2403.06963](https://arxiv.org/abs/2403.06963)
-
-    论文揭示了在某些任务类别中，教师强制方法可能无法在第一时间学习到准确的下一个标记预测器，进而导致模型失败的一般机制。
+    论文探讨了本地差分隐私、贝叶斯隐私及其之间的相互关系，揭示了关于效用-隐私权衡的新见解，并提出了一个框架来突出攻击和防御策略的相互作用和效果。
 
     
 
-    一篇关于下一个标记预测的论文。我们提出了一个直观的担忧：一个仅仅基于下一个标记预测的模型是否能忠实地模拟人类智能。我们认为下一个标记预测中经常混淆的两个阶段 -- 自回归推断和教师强制训练 -- 必须被区别对待。我们描述了一个一般机制，展示了教师强制如何失败，并设计了一个最小化计划任务，在这个任务中Transformer和Mamba架构在实践中以这种方式失败 -- 尽管任务本身很容易学习。
+    机器学习的迅速发展导致了隐私定义的多样化，由于对隐私构成的威胁，包括本地差分隐私（LDP）的概念。虽然被广泛接受并在许多领域中被利用，但这种传统的隐私测量方法仍然存在一定限制，从无法防止推断披露到缺乏对对手背景知识的考虑。在这项全面研究中，我们引入贝叶斯隐私并深入探讨本地差分隐私和其贝叶斯对应物之间错综复杂的关系，揭示了关于效用-隐私权衡的新见解。我们引入了一个框架，概括了攻击和防御策略，突出它们之间的相互作用和效果。我们的理论贡献基于平均贝叶斯隐私（ABP）和最大贝叶斯隐私之间的严格定义和关系。
 
-    arXiv:2403.06963v1 Announce Type: cross  Abstract: Can a mere next-token predictor faithfully model human intelligence? We crystallize this intuitive concern, which is fragmented in the literature. As a starting point, we argue that the two often-conflated phases of next-token prediction -- autoregressive inference and teacher-forced training -- must be treated distinctly. The popular criticism that errors can compound during autoregressive inference, crucially assumes that teacher-forcing has learned an accurate next-token predictor. This assumption sidesteps a more deep-rooted problem we expose: in certain classes of tasks, teacher-forcing can simply fail to learn an accurate next-token predictor in the first place. We describe a general mechanism of how teacher-forcing can fail, and design a minimal planning task where both the Transformer and the Mamba architecture empirically fail in that manner -- remarkably, despite the task being straightforward to learn. We provide preliminary
+    arXiv:2403.16591v1 Announce Type: cross  Abstract: The swift evolution of machine learning has led to emergence of various definitions of privacy due to the threats it poses to privacy, including the concept of local differential privacy (LDP). Although widely embraced and utilized across numerous domains, this conventional approach to measure privacy still exhibits certain limitations, spanning from failure to prevent inferential disclosure to lack of consideration for the adversary's background knowledge. In this comprehensive study, we introduce Bayesian privacy and delve into the intricate relationship between local differential privacy and its Bayesian counterparts, unveiling novel insights into utility-privacy trade-offs. We introduce a framework that encapsulates both attack and defense strategies, highlighting their interplay and effectiveness. Our theoretical contributions are anchored in the rigorous definitions and relationships between Average Bayesian Privacy (ABP) and Max
     
-[^3]: 《可解释人工智能中的对抗性攻击和防御：调查报告》
+[^2]: KIX: 一种元认知泛化框架
 
-    Adversarial Attacks and Defenses in Explainable Artificial Intelligence: A Survey. (arXiv:2306.06123v1 [cs.CR])
+    KIX: A Metacognitive Generalization Framework
 
-    [http://arxiv.org/abs/2306.06123](http://arxiv.org/abs/2306.06123)
+    [https://arxiv.org/abs/2402.05346](https://arxiv.org/abs/2402.05346)
 
-    本文总结了对抗性攻击和防御在可解释人工智能中的研究。列出了现有的不安全因素，并表明了本领域的新兴研究方向。
-
-    
-
-    可解释人工智能（XAI）方法被描绘为调试和信任统计和深度学习模型的治疗方式，以及解释它们的预测。然而，对抗机器学习的最新进展突出了最新解释的局限性和漏洞，这些进展令人对其安全性和可信度产生质疑。操纵、欺骗或洗白模型推理证据的可能性在高风险决策和知识发现中产生不利后果。本文总结了50多篇论文的研究，概述了针对机器学习模型解释的对抗攻击以及公平度量的研究。我们讨论了如何防御攻击并设计鲁棒的解释方法。我们列出XAI中现有的不安全因素，并概述了对抗性XAI（AdvXAI）的新兴研究方向。
-
-    Explainable artificial intelligence (XAI) methods are portrayed as a remedy for debugging and trusting statistical and deep learning models, as well as interpreting their predictions. However, recent advances in adversarial machine learning highlight the limitations and vulnerabilities of state-of-the-art explanations, putting their security and trustworthiness into question. The possibility of manipulating, fooling or fairwashing evidence of the model's reasoning has detrimental consequences when applied in high-stakes decision-making and knowledge discovery. This concise survey of over 50 papers summarizes research concerning adversarial attacks on explanations of machine learning models, as well as fairness metrics. We discuss how to defend against attacks and design robust interpretation methods. We contribute a list of existing insecurities in XAI and outline the emerging research directions in adversarial XAI (AdvXAI).
-    
-[^4]: 揭开对社交机器人研究的误解
-
-    Demystifying Misconceptions in Social Bots Research. (arXiv:2303.17251v1 [cs.SI])
-
-    [http://arxiv.org/abs/2303.17251](http://arxiv.org/abs/2303.17251)
-
-    这篇文章揭示了关于社交机器人研究的普遍误解，强调需要以严谨、公正和负责任的方式讨论虚假信息研究。
+    人工智能代理缺乏通用行为，需要利用结构化知识表示。该论文提出了一种元认知泛化框架KIX，通过与对象的交互学习可迁移的交互概念和泛化能力，促进了知识与强化学习的融合，为实现人工智能系统的自主和通用行为提供了潜力。
 
     
 
-    社交机器人科学寻求解决网络虚假信息最受争议的形式之一的知识和解决方案。然而，社交机器人研究受到普遍的偏见、夸大的结果和误解的困扰，这些都为歧义、不切实际的期望和看似无法调和的发现打下了基础。克服这些问题对于确保可靠的解决方案和重申科学方法的有效性至关重要。在这篇文章中，我们修订了社交机器人研究中的一些最新结果，强调和纠正了事实错误以及方法论和概念问题。更重要的是，我们揭开了普遍的误解，解决了有关如何讨论社交机器人研究的基本问题。我们的分析揭示了以严谨、公正和负责任的方式讨论虚假信息研究的必要性。本文通过确定并驳斥社交机器人研究的支持者和反对者常用的谬误论证，支持这种努力。
+    人类和其他动物能够灵活解决各种任务，并且能够通过重复使用和应用长期积累的高级知识来适应新颖情境，这表现了一种泛化智能行为。但是人工智能代理更多地是专家，缺乏这种通用行为。人工智能代理需要理解和利用关键的结构化知识表示。我们提出了一种元认知泛化框架，称为Knowledge-Interaction-eXecution (KIX)，并且认为通过与对象的交互来利用类型空间可以促进学习可迁移的交互概念和泛化能力。这是将知识融入到强化学习中的一种自然方式，并有望成为人工智能系统中实现自主和通用行为的推广者。
 
-    The science of social bots seeks knowledge and solutions to one of the most debated forms of online misinformation. Yet, social bots research is plagued by widespread biases, hyped results, and misconceptions that set the stage for ambiguities, unrealistic expectations, and seemingly irreconcilable findings. Overcoming such issues is instrumental towards ensuring reliable solutions and reaffirming the validity of the scientific method. In this contribution we revise some recent results in social bots research, highlighting and correcting factual errors as well as methodological and conceptual issues. More importantly, we demystify common misconceptions, addressing fundamental points on how social bots research is discussed. Our analysis surfaces the need to discuss misinformation research in a rigorous, unbiased, and responsible way. This article bolsters such effort by identifying and refuting common fallacious arguments used by both proponents and opponents of social bots research as
+    Humans and other animals aptly exhibit general intelligence behaviors in solving a variety of tasks with flexibility and ability to adapt to novel situations by reusing and applying high level knowledge acquired over time. But artificial agents are more of a specialist, lacking such generalist behaviors. Artificial agents will require understanding and exploiting critical structured knowledge representations. We present a metacognitive generalization framework, Knowledge-Interaction-eXecution (KIX), and argue that interactions with objects leveraging type space facilitate the learning of transferable interaction concepts and generalization. It is a natural way of integrating knowledge into reinforcement learning and promising to act as an enabler for autonomous and generalist behaviors in artificial intelligence systems.
+    
+[^3]: 具有非凸目标函数的联邦分布鲁棒优化：算法与分析
+
+    Federated Distributionally Robust Optimization with Non-Convex Objectives: Algorithm and Analysis. (arXiv:2307.14364v1 [math.OC])
+
+    [http://arxiv.org/abs/2307.14364](http://arxiv.org/abs/2307.14364)
+
+    本文提出了一个名为ASPIRE算法的异步分布式算法，用于解决联邦分布鲁棒优化问题，并引入了约束的D-范数不确定性集合，以灵活控制鲁棒性的程度。
+
+    
+
+    分布鲁棒优化 (DRO) 旨在找到一个最优决策，以在概率分布的模糊集合中最小化最坏情况成本，已在各种应用中广泛应用，例如网络行为分析、风险管理等。然而，现有的DRO技术面临三个关键挑战：1）如何处理分布环境中的异步更新；2）如何有效利用先验分布；3）如何根据不同场景适当调整鲁棒性的程度。为此，我们提出了一种名为Asynchronous Single-looP alternatIve gRadient projEction (ASPIRE)算法的异步分布式算法，以处理联邦分布鲁棒优化 (FDRO) 问题。此外，我们还开发了一种新的不确定性集合，即约束的D-范数不确定性集合，以有效利用先验分布并灵活控制鲁棒性的程度。
+
+    Distributionally Robust Optimization (DRO), which aims to find an optimal decision that minimizes the worst case cost over the ambiguity set of probability distribution, has been widely applied in diverse applications, e.g., network behavior analysis, risk management, etc. However, existing DRO techniques face three key challenges: 1) how to deal with the asynchronous updating in a distributed environment; 2) how to leverage the prior distribution effectively; 3) how to properly adjust the degree of robustness according to different scenarios. To this end, we propose an asynchronous distributed algorithm, named Asynchronous Single-looP alternatIve gRadient projEction (ASPIRE) algorithm with the itErative Active SEt method (EASE) to tackle the federated distributionally robust optimization (FDRO) problem. Furthermore, a new uncertainty set, i.e., constrained D-norm uncertainty set, is developed to effectively leverage the prior distribution and flexibly control the degree of robustness.
+    
+[^4]: 海洋科学的时空数据挖掘：数据、方法和机遇
+
+    Spatial-Temporal Data Mining for Ocean Science: Data, Methodologies, and Opportunities. (arXiv:2307.10803v1 [cs.LG])
+
+    [http://arxiv.org/abs/2307.10803](http://arxiv.org/abs/2307.10803)
+
+    该研究总结了海洋科学领域的时空数据挖掘研究，包括广泛使用的ST海洋数据集和其特点，以及ST海洋数据质量增强技术和现有STDM分类。
+
+    
+
+    随着海洋时空数据量的增加，已经进行了大量的空间-时间数据挖掘（STDM）研究来解决各种海洋问题，如气候预测和灾害警示。与典型的ST数据（如交通数据）相比，ST海洋数据更加复杂，具有一些独特的特征，例如多样化的区域性和高稀疏性。这些特点使得设计和训练STDM模型变得困难。不幸的是，还缺乏对这些研究的概述，这阻碍了计算机科学家在海洋领域识别研究问题，同时也使海洋科学研究人员不愿应用先进的STDM技术。为了解决这个问题，我们提供了一份综合调查，总结了海洋领域中现有的STDM研究。具体而言，我们首先总结了广泛使用的ST海洋数据集并确定了它们的独特特点。然后，讨论了典型的ST海洋数据质量增强技术。接下来，我们对现有的STDM进行分类。
+
+    With the increasing amount of spatial-temporal~(ST) ocean data, numerous spatial-temporal data mining (STDM) studies have been conducted to address various oceanic issues, e.g., climate forecasting and disaster warning. Compared with typical ST data (e.g., traffic data), ST ocean data is more complicated with some unique characteristics, e.g., diverse regionality and high sparsity. These characteristics make it difficult to design and train STDM models. Unfortunately, an overview of these studies is still missing, hindering computer scientists to identify the research issues in ocean while discouraging researchers in ocean science from applying advanced STDM techniques. To remedy this situation, we provide a comprehensive survey to summarize existing STDM studies in ocean. Concretely, we first summarize the widely-used ST ocean datasets and identify their unique characteristics. Then, typical ST ocean data quality enhancement techniques are discussed. Next, we classify existing STDM st
     
 
