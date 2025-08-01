@@ -2,67 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Deciphering the Interplay between Local Differential Privacy, Average Bayesian Privacy, and Maximum Bayesian Privacy](https://arxiv.org/abs/2403.16591) | 论文探讨了本地差分隐私、贝叶斯隐私及其之间的相互关系，揭示了关于效用-隐私权衡的新见解，并提出了一个框架来突出攻击和防御策略的相互作用和效果。 |
-| [^2] | [KIX: A Metacognitive Generalization Framework](https://arxiv.org/abs/2402.05346) | 人工智能代理缺乏通用行为，需要利用结构化知识表示。该论文提出了一种元认知泛化框架KIX，通过与对象的交互学习可迁移的交互概念和泛化能力，促进了知识与强化学习的融合，为实现人工智能系统的自主和通用行为提供了潜力。 |
-| [^3] | [Federated Distributionally Robust Optimization with Non-Convex Objectives: Algorithm and Analysis.](http://arxiv.org/abs/2307.14364) | 本文提出了一个名为ASPIRE算法的异步分布式算法，用于解决联邦分布鲁棒优化问题，并引入了约束的D-范数不确定性集合，以灵活控制鲁棒性的程度。 |
-| [^4] | [Spatial-Temporal Data Mining for Ocean Science: Data, Methodologies, and Opportunities.](http://arxiv.org/abs/2307.10803) | 该研究总结了海洋科学领域的时空数据挖掘研究，包括广泛使用的ST海洋数据集和其特点，以及ST海洋数据质量增强技术和现有STDM分类。 |
+| [^1] | [FGeo-HyperGNet: Geometry Problem Solving Integrating Formal Symbolic System and Hypergraph Neural Network](https://arxiv.org/abs/2402.11461) | 该论文提出了FGeo-HyperGNet，将形式符号系统和超图神经网络集成，用于解决几何问题，实现自动执行人类化的几何演绎推理。 |
+| [^2] | [How AI Ideas Affect the Creativity, Diversity, and Evolution of Human Ideas: Evidence From a Large, Dynamic Experiment.](http://arxiv.org/abs/2401.13481) | AI思想对个体创造力没有影响，但增加了整体思想多样性的数量和变化速率。 |
+| [^3] | [An Efficient Intelligent Semi-Automated Warehouse Inventory Stocktaking System.](http://arxiv.org/abs/2309.12365) | 本研究提出了一个智能库存管理系统，通过结合条码和分布式flutter应用技术，以及大数据分析实现数据驱动的决策，解决了库存管理中的准确性、监测延迟和过度依赖主观经验的挑战。 |
+| [^4] | [Divided Attention: Unsupervised Multi-Object Discovery with Contextually Separated Slots.](http://arxiv.org/abs/2304.01430) | 该论文提出了一种新的无监督多对象发现方法，通过一种上下文分隔的槽结构来将视觉场分割为独立运动区域，并用对抗性标准来保证解码器无法重构整个光流。 |
 
 # 详细
 
-[^1]: 揭示本地差分隐私、平均贝叶斯隐私和最大贝叶斯隐私之间的相互作用
+[^1]: FGeo-HyperGNet: 几何问题求解中集成形式符号系统和超图神经网络
 
-    Deciphering the Interplay between Local Differential Privacy, Average Bayesian Privacy, and Maximum Bayesian Privacy
+    FGeo-HyperGNet: Geometry Problem Solving Integrating Formal Symbolic System and Hypergraph Neural Network
 
-    [https://arxiv.org/abs/2403.16591](https://arxiv.org/abs/2403.16591)
+    [https://arxiv.org/abs/2402.11461](https://arxiv.org/abs/2402.11461)
 
-    论文探讨了本地差分隐私、贝叶斯隐私及其之间的相互关系，揭示了关于效用-隐私权衡的新见解，并提出了一个框架来突出攻击和防御策略的相互作用和效果。
-
-    
-
-    机器学习的迅速发展导致了隐私定义的多样化，由于对隐私构成的威胁，包括本地差分隐私（LDP）的概念。虽然被广泛接受并在许多领域中被利用，但这种传统的隐私测量方法仍然存在一定限制，从无法防止推断披露到缺乏对对手背景知识的考虑。在这项全面研究中，我们引入贝叶斯隐私并深入探讨本地差分隐私和其贝叶斯对应物之间错综复杂的关系，揭示了关于效用-隐私权衡的新见解。我们引入了一个框架，概括了攻击和防御策略，突出它们之间的相互作用和效果。我们的理论贡献基于平均贝叶斯隐私（ABP）和最大贝叶斯隐私之间的严格定义和关系。
-
-    arXiv:2403.16591v1 Announce Type: cross  Abstract: The swift evolution of machine learning has led to emergence of various definitions of privacy due to the threats it poses to privacy, including the concept of local differential privacy (LDP). Although widely embraced and utilized across numerous domains, this conventional approach to measure privacy still exhibits certain limitations, spanning from failure to prevent inferential disclosure to lack of consideration for the adversary's background knowledge. In this comprehensive study, we introduce Bayesian privacy and delve into the intricate relationship between local differential privacy and its Bayesian counterparts, unveiling novel insights into utility-privacy trade-offs. We introduce a framework that encapsulates both attack and defense strategies, highlighting their interplay and effectiveness. Our theoretical contributions are anchored in the rigorous definitions and relationships between Average Bayesian Privacy (ABP) and Max
-    
-[^2]: KIX: 一种元认知泛化框架
-
-    KIX: A Metacognitive Generalization Framework
-
-    [https://arxiv.org/abs/2402.05346](https://arxiv.org/abs/2402.05346)
-
-    人工智能代理缺乏通用行为，需要利用结构化知识表示。该论文提出了一种元认知泛化框架KIX，通过与对象的交互学习可迁移的交互概念和泛化能力，促进了知识与强化学习的融合，为实现人工智能系统的自主和通用行为提供了潜力。
+    该论文提出了FGeo-HyperGNet，将形式符号系统和超图神经网络集成，用于解决几何问题，实现自动执行人类化的几何演绎推理。
 
     
 
-    人类和其他动物能够灵活解决各种任务，并且能够通过重复使用和应用长期积累的高级知识来适应新颖情境，这表现了一种泛化智能行为。但是人工智能代理更多地是专家，缺乏这种通用行为。人工智能代理需要理解和利用关键的结构化知识表示。我们提出了一种元认知泛化框架，称为Knowledge-Interaction-eXecution (KIX)，并且认为通过与对象的交互来利用类型空间可以促进学习可迁移的交互概念和泛化能力。这是将知识融入到强化学习中的一种自然方式，并有望成为人工智能系统中实现自主和通用行为的推广者。
+    几何问题的求解一直是自动推理和人工智能领域中长期存在的挑战。这是我们系列作品中的第五篇文章，我们构建了一个神经符号系统，用于自动执行类似人类的几何演绎推理。符号部分是建立在FormalGeo上的形式系统，可以自动执行几何关系推理和代数计算，并将求解过程组织成一个带有条件作为超节点和定理作为超边的解决方案超树。神经部分称为HyperGNet，是基于注意力机制的超图神经网络，包括一个编码器来有效编码超树的结构和语义信息，以及一个求解器来提供问题求解指导。神经部分根据超树预测定理，而符号部分应用定理并更新超树，从而形成一个预测-
 
-    Humans and other animals aptly exhibit general intelligence behaviors in solving a variety of tasks with flexibility and ability to adapt to novel situations by reusing and applying high level knowledge acquired over time. But artificial agents are more of a specialist, lacking such generalist behaviors. Artificial agents will require understanding and exploiting critical structured knowledge representations. We present a metacognitive generalization framework, Knowledge-Interaction-eXecution (KIX), and argue that interactions with objects leveraging type space facilitate the learning of transferable interaction concepts and generalization. It is a natural way of integrating knowledge into reinforcement learning and promising to act as an enabler for autonomous and generalist behaviors in artificial intelligence systems.
+    arXiv:2402.11461v1 Announce Type: new  Abstract: Geometry problem solving has always been a long-standing challenge in the fields of automated reasoning and artificial intelligence. This is the fifth article in a series of our works, we built a neural-symbolic system to automatically perform human-like geometric deductive reasoning. The symbolic part is a formal system built on FormalGeo, which can automatically perform geomertic relational reasoning and algebraic calculations and organize the solving process into a solution hypertree with conditions as hypernodes and theorems as hyperedges. The neural part, called HyperGNet, is a hypergraph neural network based on the attention mechanism, including a encoder to effectively encode the structural and semantic information of the hypertree, and a solver to provide problem-solving guidance. The neural part predicts theorems according to the hypertree, and the symbolic part applies theorems and updates the hypertree, thus forming a Predict-
     
-[^3]: 具有非凸目标函数的联邦分布鲁棒优化：算法与分析
+[^2]: AI思想如何影响人类思想的创造力、多样性和进化：来自一个大规模动态实验的证据
 
-    Federated Distributionally Robust Optimization with Non-Convex Objectives: Algorithm and Analysis. (arXiv:2307.14364v1 [math.OC])
+    How AI Ideas Affect the Creativity, Diversity, and Evolution of Human Ideas: Evidence From a Large, Dynamic Experiment. (arXiv:2401.13481v1 [cs.CY])
 
-    [http://arxiv.org/abs/2307.14364](http://arxiv.org/abs/2307.14364)
+    [http://arxiv.org/abs/2401.13481](http://arxiv.org/abs/2401.13481)
 
-    本文提出了一个名为ASPIRE算法的异步分布式算法，用于解决联邦分布鲁棒优化问题，并引入了约束的D-范数不确定性集合，以灵活控制鲁棒性的程度。
-
-    
-
-    分布鲁棒优化 (DRO) 旨在找到一个最优决策，以在概率分布的模糊集合中最小化最坏情况成本，已在各种应用中广泛应用，例如网络行为分析、风险管理等。然而，现有的DRO技术面临三个关键挑战：1）如何处理分布环境中的异步更新；2）如何有效利用先验分布；3）如何根据不同场景适当调整鲁棒性的程度。为此，我们提出了一种名为Asynchronous Single-looP alternatIve gRadient projEction (ASPIRE)算法的异步分布式算法，以处理联邦分布鲁棒优化 (FDRO) 问题。此外，我们还开发了一种新的不确定性集合，即约束的D-范数不确定性集合，以有效利用先验分布并灵活控制鲁棒性的程度。
-
-    Distributionally Robust Optimization (DRO), which aims to find an optimal decision that minimizes the worst case cost over the ambiguity set of probability distribution, has been widely applied in diverse applications, e.g., network behavior analysis, risk management, etc. However, existing DRO techniques face three key challenges: 1) how to deal with the asynchronous updating in a distributed environment; 2) how to leverage the prior distribution effectively; 3) how to properly adjust the degree of robustness according to different scenarios. To this end, we propose an asynchronous distributed algorithm, named Asynchronous Single-looP alternatIve gRadient projEction (ASPIRE) algorithm with the itErative Active SEt method (EASE) to tackle the federated distributionally robust optimization (FDRO) problem. Furthermore, a new uncertainty set, i.e., constrained D-norm uncertainty set, is developed to effectively leverage the prior distribution and flexibly control the degree of robustness.
-    
-[^4]: 海洋科学的时空数据挖掘：数据、方法和机遇
-
-    Spatial-Temporal Data Mining for Ocean Science: Data, Methodologies, and Opportunities. (arXiv:2307.10803v1 [cs.LG])
-
-    [http://arxiv.org/abs/2307.10803](http://arxiv.org/abs/2307.10803)
-
-    该研究总结了海洋科学领域的时空数据挖掘研究，包括广泛使用的ST海洋数据集和其特点，以及ST海洋数据质量增强技术和现有STDM分类。
+    AI思想对个体创造力没有影响，但增加了整体思想多样性的数量和变化速率。
 
     
 
-    随着海洋时空数据量的增加，已经进行了大量的空间-时间数据挖掘（STDM）研究来解决各种海洋问题，如气候预测和灾害警示。与典型的ST数据（如交通数据）相比，ST海洋数据更加复杂，具有一些独特的特征，例如多样化的区域性和高稀疏性。这些特点使得设计和训练STDM模型变得困难。不幸的是，还缺乏对这些研究的概述，这阻碍了计算机科学家在海洋领域识别研究问题，同时也使海洋科学研究人员不愿应用先进的STDM技术。为了解决这个问题，我们提供了一份综合调查，总结了海洋领域中现有的STDM研究。具体而言，我们首先总结了广泛使用的ST海洋数据集并确定了它们的独特特点。然后，讨论了典型的ST海洋数据质量增强技术。接下来，我们对现有的STDM进行分类。
+    大规模语言模型输出的接触正在迅速增加。观看到AI生成的思想将如何影响人类思想？我们进行了一个实验（800+参与者，40+个国家），参与者观看了来自ChatGPT或之前实验参与者的创意思想，然后进行了自己的创意思考。我们变化了AI生成示例的数量（无、低、高曝光）以及示例是否标记为“AI”（披露）。我们的动态实验设计 - 在同一实验条件下，使用之前参与者的思想作为未来参与者的刺激 - 模拟了文化创造的相互依赖过程：创造性思想建立在之前的思想基础上。因此，我们捕捉到了LLM“在文化循环中”的复合效应。我们发现高AI曝光（但不是低AI曝光）并没有影响个人思想的创造力，但增加了整体思想多样性的平均数量和变化速率。AI使思想多样性的累积效应增强了。
 
-    With the increasing amount of spatial-temporal~(ST) ocean data, numerous spatial-temporal data mining (STDM) studies have been conducted to address various oceanic issues, e.g., climate forecasting and disaster warning. Compared with typical ST data (e.g., traffic data), ST ocean data is more complicated with some unique characteristics, e.g., diverse regionality and high sparsity. These characteristics make it difficult to design and train STDM models. Unfortunately, an overview of these studies is still missing, hindering computer scientists to identify the research issues in ocean while discouraging researchers in ocean science from applying advanced STDM techniques. To remedy this situation, we provide a comprehensive survey to summarize existing STDM studies in ocean. Concretely, we first summarize the widely-used ST ocean datasets and identify their unique characteristics. Then, typical ST ocean data quality enhancement techniques are discussed. Next, we classify existing STDM st
+    Exposure to large language model output is rapidly increasing. How will seeing AI-generated ideas affect human ideas? We conducted an experiment (800+ participants, 40+ countries) where participants viewed creative ideas that were from ChatGPT or prior experimental participants and then brainstormed their own idea. We varied the number of AI-generated examples (none, low, or high exposure) and if the examples were labeled as 'AI' (disclosure). Our dynamic experiment design -- ideas from prior participants in an experimental condition are used as stimuli for future participants in the same experimental condition -- mimics the interdependent process of cultural creation: creative ideas are built upon prior ideas. Hence, we capture the compounding effects of having LLMs 'in the culture loop'. We find that high AI exposure (but not low AI exposure) did not affect the creativity of individual ideas but did increase the average amount and rate of change of collective idea diversity. AI made 
+    
+[^3]: 一个高效的智能半自动仓库库存盘点系统
+
+    An Efficient Intelligent Semi-Automated Warehouse Inventory Stocktaking System. (arXiv:2309.12365v1 [cs.HC])
+
+    [http://arxiv.org/abs/2309.12365](http://arxiv.org/abs/2309.12365)
+
+    本研究提出了一个智能库存管理系统，通过结合条码和分布式flutter应用技术，以及大数据分析实现数据驱动的决策，解决了库存管理中的准确性、监测延迟和过度依赖主观经验的挑战。
+
+    
+
+    在不断发展的供应链管理背景下，高效的库存管理对于企业变得越来越重要。然而，传统的手工和经验驱动的方法往往难以满足现代市场需求的复杂性。本研究引入了一种智能库存管理系统，以解决与数据不准确、监测延迟和过度依赖主观经验的预测相关的挑战。该系统结合了条码和分布式 flutter 应用技术，用于智能感知，并通过全面的大数据分析实现数据驱动的决策。通过仔细的分析、系统设计、关键技术探索和模拟验证，成功展示了所提出系统的有效性。该智能系统实现了二级监测、高频检查和人工智能驱动的预测，从而提高了自动化程度。
+
+    In the context of evolving supply chain management, the significance of efficient inventory management has grown substantially for businesses. However, conventional manual and experience-based approaches often struggle to meet the complexities of modern market demands. This research introduces an intelligent inventory management system to address challenges related to inaccurate data, delayed monitoring, and overreliance on subjective experience in forecasting. The proposed system integrates bar code and distributed flutter application technologies for intelligent perception, alongside comprehensive big data analytics to enable data-driven decision-making. Through meticulous analysis, system design, critical technology exploration, and simulation validation, the effectiveness of the proposed system is successfully demonstrated. The intelligent system facilitates second-level monitoring, high-frequency checks, and artificial intelligence-driven forecasting, consequently enhancing the au
+    
+[^4]: 分离的关注力：基于上下文分离槽的无监督多对象发现
+
+    Divided Attention: Unsupervised Multi-Object Discovery with Contextually Separated Slots. (arXiv:2304.01430v1 [cs.CV])
+
+    [http://arxiv.org/abs/2304.01430](http://arxiv.org/abs/2304.01430)
+
+    该论文提出了一种新的无监督多对象发现方法，通过一种上下文分隔的槽结构来将视觉场分割为独立运动区域，并用对抗性标准来保证解码器无法重构整个光流。
+
+    
+
+    我们提出了一种将视觉场分割为独立运动区域的方法，不需要任何基础真值或监督。它由基于槽关注的对抗条件编码器-解码器架构组成，修改为使用图像作为上下文来解码光流，而不是尝试重构图像本身。在结果的多模式表示中，一种模式（流）将馈送给编码器以产生单独的潜在代码（槽），而另一种模式（图像）将决定解码器从槽生成第一个模式（流）。由于惯常的自编码基于最小化重构误差，并不能防止整个流被编码到一个槽中，因此我们将损失修改为基于上下文信息分离的对抗性标准。
+
+    We introduce a method to segment the visual field into independently moving regions, trained with no ground truth or supervision. It consists of an adversarial conditional encoder-decoder architecture based on Slot Attention, modified to use the image as context to decode optical flow without attempting to reconstruct the image itself. In the resulting multi-modal representation, one modality (flow) feeds the encoder to produce separate latent codes (slots), whereas the other modality (image) conditions the decoder to generate the first (flow) from the slots. This design frees the representation from having to encode complex nuisance variability in the image due to, for instance, illumination and reflectance properties of the scene. Since customary autoencoding based on minimizing the reconstruction error does not preclude the entire flow from being encoded into a single slot, we modify the loss to an adversarial criterion based on Contextual Information Separation. The resulting min-m
     
 
