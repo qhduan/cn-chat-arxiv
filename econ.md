@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Invalid proxies and volatility changes](https://arxiv.org/abs/2403.08753) | 在代理SVARs中，当外部永久突破导致目标脉冲响应函数随波动率体制变化时，必须明确纳入无条件波动的变化，以点辨识目标结构性冲击并恢复一致性。 |
-| [^2] | [Prices and preferences in the electric vehicle market](https://arxiv.org/abs/2403.00458) | EV价格主要受到标准出售的附加功能、额外功能和经销商安装的配件数量的影响，以及EV马力的影响较小。 |
+| [^1] | [Yurinskii's Coupling for Martingales](https://arxiv.org/abs/2210.00362) | Yurinskii的耦合方法在$\ell^p$-范数下提供了更弱条件下的逼近马丁格尔，同时引入了更一般的高斯混合分布，并提供了第三阶耦合方法以在某些情况下获得更紧密的逼近。 |
+| [^2] | [Incentivizing Data Sharing for Energy Forecasting: Analytics Markets with Correlated Data.](http://arxiv.org/abs/2310.06000) | 该论文开发了一个考虑相关性的分析市场，通过采用Shapley值的归因策略来分配收入，促进了数据共享以提高能源预测的准确性。 |
 
 # 详细
 
-[^1]: 无效的代理和波动变化
+[^1]: Yurinskii的马丁格尔耦合
 
-    Invalid proxies and volatility changes
+    Yurinskii's Coupling for Martingales
 
-    [https://arxiv.org/abs/2403.08753](https://arxiv.org/abs/2403.08753)
+    [https://arxiv.org/abs/2210.00362](https://arxiv.org/abs/2210.00362)
 
-    在代理SVARs中，当外部永久突破导致目标脉冲响应函数随波动率体制变化时，必须明确纳入无条件波动的变化，以点辨识目标结构性冲击并恢复一致性。
-
-    
-
-    当在代理SVARs中，VAR扰动的协方差矩阵受到外生、永久、非重复性突破的影响，从而产生随着波动率体制变化而变化的目标脉冲响应函数(IRFs)时，即使是强大的外生外部工具也可能导致对所感兴趣的动态因果效应的估计值不一致，如果不适当考虑这些突破。在这种情况下，必须明确地将无条件波动的变化纳入考虑，以便点辨识出目标结构冲击并可能恢复一致性。我们证明，在利用波动性变化所暗示的瞬时时刻的必要充分秩条件下，目标IRFs可以被点辨识并一致估计。重要的是，标准渐近推断在这种情况下仍然是有效的，尽管(I)代理和被工具化的结构性冲击之间的协方差是接近于零，就像Stai中的情况一样。
-
-    arXiv:2403.08753v1 Announce Type: new  Abstract: When in proxy-SVARs the covariance matrix of VAR disturbances is subject to exogenous, permanent, nonrecurring breaks that generate target impulse response functions (IRFs) that change across volatility regimes, even strong, exogenous external instruments can result in inconsistent estimates of the dynamic causal effects of interest if the breaks are not properly accounted for. In such cases, it is essential to explicitly incorporate the shifts in unconditional volatility in order to point-identify the target structural shocks and possibly restore consistency. We demonstrate that, under a necessary and sufficient rank condition that leverages moments implied by changes in volatility, the target IRFs can be point-identified and consistently estimated. Importantly, standard asymptotic inference remains valid in this context despite (i) the covariance between the proxies and the instrumented structural shocks being local-to-zero, as in Stai
-    
-[^2]: 电动汽车市场中的价格和偏好
-
-    Prices and preferences in the electric vehicle market
-
-    [https://arxiv.org/abs/2403.00458](https://arxiv.org/abs/2403.00458)
-
-    EV价格主要受到标准出售的附加功能、额外功能和经销商安装的配件数量的影响，以及EV马力的影响较小。
+    Yurinskii的耦合方法在$\ell^p$-范数下提供了更弱条件下的逼近马丁格尔，同时引入了更一般的高斯混合分布，并提供了第三阶耦合方法以在某些情况下获得更紧密的逼近。
 
     
 
-    尽管电动汽车比汽油汽车更环保，但其采用受到较高的采购价格的挑战。现有讨论强调EV电池成本主要导致价格差异，并普遍认为采用取决于电池成本下降。我们通过收集2011年至2023年之间的EV属性和市场条件数据来审查这种推理。我们的研究结果有四个方面。首先，EV价格主要受到标准出售的附加功能、额外功能和经销商安装的配件数量的影响，以及EV马力的影响较小。其次，EV续航里程与EV价格呈负相关，这意味着续航焦虑可能没有现有讨论所暗示的那么重要。第三，电池容量与EV价格呈正相关，因为更大容量意味着提供更多马力。总的来说，
+    Yurinskii的耦合是数学统计和应用概率中一种常用的非渐近分布分析理论工具，提供了在易于验证条件下具有显式误差界限的高斯强逼近。最初在独立随机向量和为的$\ell^2$-范数中陈述，最近已将其扩展到$1 \leq p \leq \infty$时的$\ell^p$-范数，以及在某些强条件下的$\ell^2$-范数的向量值鞅。我们的主要结果是在远比之前施加的条件更弱的情况下，在$\ell^p$-范数下提供了逼近马丁格尔的Yurinskii耦合。我们的公式进一步允许耦合变量遵循更一般的高斯混合分布，并且我们提供了一种新颖的第三阶耦合方法，在某些情况下提供更紧密的逼近。我们将我们的主要结果专门应用于混合马丁格尔，马丁格尔和其他情况。
 
-    arXiv:2403.00458v1 Announce Type: new  Abstract: Although electric vehicles are less polluting than gasoline powered vehicles, adoption is challenged by higher procurement prices. Existing discourse emphasizes EV battery costs as being principally responsible for this price differential and widespread adoption is routinely conditioned upon battery costs declining. We scrutinize such reasoning by sourcing data on EV attributes and market conditions between 2011 and 2023. Our findings are fourfold. First, EV prices are influenced principally by the number of amenities, additional features, and dealer-installed accessories sold as standard on an EV, and to a lesser extent, by EV horsepower. Second, EV range is negatively correlated with EV price implying that range anxiety concerns may be less consequential than existing discourse suggests. Third, battery capacity is positively correlated with EV price, due to more capacity being synonymous with the delivery of more horsepower. Collective
+    arXiv:2210.00362v2 Announce Type: replace-cross  Abstract: Yurinskii's coupling is a popular theoretical tool for non-asymptotic distributional analysis in mathematical statistics and applied probability, offering a Gaussian strong approximation with an explicit error bound under easily verified conditions. Originally stated in $\ell^2$-norm for sums of independent random vectors, it has recently been extended both to the $\ell^p$-norm, for $1 \leq p \leq \infty$, and to vector-valued martingales in $\ell^2$-norm, under some strong conditions. We present as our main result a Yurinskii coupling for approximate martingales in $\ell^p$-norm, under substantially weaker conditions than those previously imposed. Our formulation further allows for the coupling variable to follow a more general Gaussian mixture distribution, and we provide a novel third-order coupling method which gives tighter approximations in certain settings. We specialize our main result to mixingales, martingales, and in
+    
+[^2]: 鼓励数据共享以进行能源预测：具有相关数据的分析市场
+
+    Incentivizing Data Sharing for Energy Forecasting: Analytics Markets with Correlated Data. (arXiv:2310.06000v1 [econ.GN])
+
+    [http://arxiv.org/abs/2310.06000](http://arxiv.org/abs/2310.06000)
+
+    该论文开发了一个考虑相关性的分析市场，通过采用Shapley值的归因策略来分配收入，促进了数据共享以提高能源预测的准确性。
+
+    
+
+    准确地预测不确定的电力产量对于电力市场的社会福利具有益处，可以减少平衡资源的需求。将这种预测描述为一项分析任务，当前文献提出了以分析市场作为激励手段来改善精度的数据共享方法，例如利用时空相关性。挑战在于，当相关数据用作预测的输入特征时，重叠信息的价值在于收入分配方面使市场设计复杂化，因为这种价值在本质上是组合的。我们为风力预测应用开发了一个考虑相关性的分析市场。为了分配收入，我们采用了基于Shapley值的归因策略，将代理人的特征视为玩家，将他们的相互作用视为一个特征函数博弈。我们说明了描述这种博弈的多种选项，每个选项都有因果细微差别，影响着特征相关时的市场行为。
+
+    Reliably forecasting uncertain power production is beneficial for the social welfare of electricity markets by reducing the need for balancing resources. Describing such forecasting as an analytics task, the current literature proposes analytics markets as an incentive for data sharing to improve accuracy, for instance by leveraging spatio-temporal correlations. The challenge is that, when used as input features for forecasting, correlated data complicates the market design with respect to the revenue allocation, as the value of overlapping information is inherently combinatorial. We develop a correlation-aware analytics market for a wind power forecasting application. To allocate revenue, we adopt a Shapley value-based attribution policy, framing the features of agents as players and their interactions as a characteristic function game. We illustrate that there are multiple options to describe such a game, each having causal nuances that influence market behavior when features are cor
     
 
