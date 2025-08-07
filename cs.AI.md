@@ -2,22 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Food Classification using Joint Representation of Visual and Textual Data.](http://arxiv.org/abs/2308.02562) | 本研究提出了一种使用联合表示的多模态分类框架，通过修改版的EfficientNet和Mish激活函数实现图像分类，使用基于BERT的网络实现文本分类。实验结果表明，所提出的网络在图像和文本分类上表现优于其他方法，准确率提高了11.57%和6.34%。比较分析还证明了所提出方法的效率和鲁棒性。 |
+| [^1] | [Long-term Frame-Event Visual Tracking: Benchmark Dataset and Baseline](https://arxiv.org/abs/2403.05839) | 提出了一个新的长期和大规模的帧事件单目标跟踪数据集FELT，重新训练和评估了15个基准跟踪器，并引入了关联记忆Transformer网络来解决RGB帧和事件流不完整的问题。 |
+| [^2] | [Hulk: A Universal Knowledge Translator for Human-Centric Tasks](https://arxiv.org/abs/2312.01697) | Hulk是第一个多模态人类中心通用模型，能够处理2D视觉、3D视觉、基于骨架和视觉语言任务，无需任务特定微调 |
 
 # 详细
 
-[^1]: 使用视觉和文本数据的联合表示进行食物分类
+[^1]: 长期帧事件视觉跟踪：基准数据集与基准线
 
-    Food Classification using Joint Representation of Visual and Textual Data. (arXiv:2308.02562v1 [cs.CV])
+    Long-term Frame-Event Visual Tracking: Benchmark Dataset and Baseline
 
-    [http://arxiv.org/abs/2308.02562](http://arxiv.org/abs/2308.02562)
+    [https://arxiv.org/abs/2403.05839](https://arxiv.org/abs/2403.05839)
 
-    本研究提出了一种使用联合表示的多模态分类框架，通过修改版的EfficientNet和Mish激活函数实现图像分类，使用基于BERT的网络实现文本分类。实验结果表明，所提出的网络在图像和文本分类上表现优于其他方法，准确率提高了11.57%和6.34%。比较分析还证明了所提出方法的效率和鲁棒性。
+    提出了一个新的长期和大规模的帧事件单目标跟踪数据集FELT，重新训练和评估了15个基准跟踪器，并引入了关联记忆Transformer网络来解决RGB帧和事件流不完整的问题。
 
     
 
-    食物分类是健康保健中的重要任务。在这项工作中，我们提出了一个多模态分类框架，该框架使用了修改版的EfficientNet和Mish激活函数用于图像分类，同时使用传统的基于BERT的网络进行文本分类。我们在一个大型开源数据集UPMC Food-101上评估了所提出的网络和其他最先进的方法。实验结果显示，所提出的网络在图像和文本分类上的准确率分别比第二最好的方法提高了11.57%和6.34%。我们还比较了使用机器学习和深度学习模型进行文本分类的准确率、精确率和召回率。通过对图像和文本的预测结果进行比较分析，证明了所提出方法的效率和鲁棒性。
+    当前基于事件/帧事件的跟踪器在短期跟踪数据集上进行评估，然而，对于真实场景的跟踪涉及长期跟踪，现有跟踪算法在这些场景中的性能仍不清楚。在本文中，我们首先提出了一个新的长期和大规模的帧事件单目标跟踪数据集，名为FELT。它包含742个视频和1,594,474个RGB帧和事件流对，并已成为迄今为止最大的帧事件跟踪数据集。我们重新训练和评估了15个基准跟踪器在我们的数据集上，以供未来研究进行比较。更重要的是，我们发现RGB帧和事件流由于挑战因素的影响和空间稀疏的事件流而自然不完整。针对这一问题，我们提出了一种新颖的关联记忆Transformer网络作为统一骨干，通过将现代Hopfield层引入多头自注意力块来进行处理。
 
-    Food classification is an important task in health care. In this work, we propose a multimodal classification framework that uses the modified version of EfficientNet with the Mish activation function for image classification, and the traditional BERT transformer-based network is used for text classification. The proposed network and the other state-of-the-art methods are evaluated on a large open-source dataset, UPMC Food-101. The experimental results show that the proposed network outperforms the other methods, a significant difference of 11.57% and 6.34% in accuracy is observed for image and text classification, respectively, when compared with the second-best performing method. We also compared the performance in terms of accuracy, precision, and recall for text classification using both machine learning and deep learning-based models. The comparative analysis from the prediction results of both images and text demonstrated the efficiency and robustness of the proposed approach.
+    arXiv:2403.05839v1 Announce Type: cross  Abstract: Current event-/frame-event based trackers undergo evaluation on short-term tracking datasets, however, the tracking of real-world scenarios involves long-term tracking, and the performance of existing tracking algorithms in these scenarios remains unclear. In this paper, we first propose a new long-term and large-scale frame-event single object tracking dataset, termed FELT. It contains 742 videos and 1,594,474 RGB frames and event stream pairs and has become the largest frame-event tracking dataset to date. We re-train and evaluate 15 baseline trackers on our dataset for future works to compare. More importantly, we find that the RGB frames and event streams are naturally incomplete due to the influence of challenging factors and spatially sparse event flow. In response to this, we propose a novel associative memory Transformer network as a unified backbone by introducing modern Hopfield layers into multi-head self-attention blocks to
+    
+[^2]: Hulk: 一种面向人类中心任务的通用知识翻译器
+
+    Hulk: A Universal Knowledge Translator for Human-Centric Tasks
+
+    [https://arxiv.org/abs/2312.01697](https://arxiv.org/abs/2312.01697)
+
+    Hulk是第一个多模态人类中心通用模型，能够处理2D视觉、3D视觉、基于骨架和视觉语言任务，无需任务特定微调
+
+    
+
+    人类中心感知任务，例如行人检测、基于骨架的动作识别和姿态估计，在诸如元宇宙和体育分析等广泛的工业应用中具有重要意义。近来，出现了发展旨在受益于广泛人类中心感知任务的人类中心基础模型的激增。虽然许多人类中心基础模型取得了成功，但它们没有探索用于人类中心及需要任务特定微调的3D和视觉语言任务。这些限制限制了它们在更多下游任务和情境中的应用。为了解决这些问题，我们提出了Hulk，第一个能够在无需任务特定微调的情况下处理2D视觉、3D视觉、基于骨架和视觉语言任务的多模态人类中心通用模型。实现这一目标的关键在于将各种任务特定头部压缩成两个通用头部，一个用于离散表示，如语言，
+
+    arXiv:2312.01697v4 Announce Type: replace-cross  Abstract: Human-centric perception tasks, e.g., pedestrian detection, skeleton-based action recognition, and pose estimation, have wide industrial applications, such as metaverse and sports analysis. There is a recent surge to develop human-centric foundation models that can benefit a broad range of human-centric perception tasks. While many human-centric foundation models have achieved success, they did not explore 3D and vision-language tasks for human-centric and required task-specific finetuning. These limitations restrict their application to more downstream tasks and situations. To tackle these problems, we present Hulk, the first multimodal human-centric generalist model, capable of addressing 2D vision, 3D vision, skeleton-based, and vision-language tasks without task-specific finetuning. The key to achieving this is condensing various task-specific heads into two general heads, one for discrete representations, e.g., languages, 
     
 

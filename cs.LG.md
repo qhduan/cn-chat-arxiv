@@ -2,67 +2,97 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Heterophily-Aware Fair Recommendation using Graph Convolutional Networks](https://arxiv.org/abs/2402.03365) | 本文提出了一种利用图卷积网络的公平推荐系统，名为HetroFair，旨在提高项目侧的公平性。HetroFair使用公平注意力和异质性特征加权两个组件来生成具有公平性意识的嵌入。 |
-| [^2] | [Discovering group dynamics in synchronous time series via hierarchical recurrent switching-state models.](http://arxiv.org/abs/2401.14973) | 通过分层的循环切换状态模型，我们可以无监督地同时解释系统级和个体级的动态，从而更好地建模同步时间序列中的群体动态。 |
-| [^3] | [End-To-End Set-Based Training for Neural Network Verification.](http://arxiv.org/abs/2401.14961) | 本论文提出了一种端到端基于集合的训练方法，用于训练鲁棒性神经网络进行形式化验证，并证明该方法能够简化验证过程并有效训练出易于验证的神经网络。 |
-| [^4] | [Food Classification using Joint Representation of Visual and Textual Data.](http://arxiv.org/abs/2308.02562) | 本研究提出了一种使用联合表示的多模态分类框架，通过修改版的EfficientNet和Mish激活函数实现图像分类，使用基于BERT的网络实现文本分类。实验结果表明，所提出的网络在图像和文本分类上表现优于其他方法，准确率提高了11.57%和6.34%。比较分析还证明了所提出方法的效率和鲁棒性。 |
+| [^1] | [Adaptive Coded Federated Learning: Privacy Preservation and Straggler Mitigation](https://arxiv.org/abs/2403.14905) | ACFL提出了一种新的自适应编码联邦学习方法，通过在训练之前采用个性化的数据上传到中央服务器来生成全局编码数据集，以解决原有固定权重生成全局编码数据集时可能导致学习性能下降的问题。 |
+| [^2] | [Probabilistic Actor-Critic: Learning to Explore with PAC-Bayes Uncertainty](https://arxiv.org/abs/2402.03055) | 概率演员-评论家算法（PAC）通过在评论家中建模和推断不确定性，以改进强化学习中的连续控制性能，并实现自适应的探索策略。 |
+| [^3] | [Distributional Reinforcement Learning with Online Risk-awareness Adaption](https://arxiv.org/abs/2310.05179) | 本论文提出了一个新的分布式强化学习框架，可以通过在线风险适应性调整来量化不确定性，并动态选择认知风险水平。 |
+| [^4] | [NACHOS: Neural Architecture Search for Hardware Constrained Early Exit Neural Networks.](http://arxiv.org/abs/2401.13330) | NACHOS 是一种面向硬件受限的早期退出神经网络的神经架构搜索方法，可以自动化设计早期退出神经网络并考虑骨干和早期退出分类器之间的关系。 |
+| [^5] | [Thompson Exploration with Best Challenger Rule in Best Arm Identification.](http://arxiv.org/abs/2310.00539) | 本文提出了一种新的策略，将Thompson采样与最佳候选规则相结合，用于解决最佳臂识别问题。该策略在渐近情况下是最优的，并在一般的多臂赌博机问题中达到接近最优的性能。 |
+| [^6] | [Symmetry & Critical Points for Symmetric Tensor Decompositions Problems.](http://arxiv.org/abs/2306.07886) | 本文研究了将一个实对称张量分解成秩为1项之和的非凸优化问题，得到了精确的分析估计，并发现了各种阻碍局部优化方法的几何障碍和由于对称性导致的丰富的临界点集合。 |
 
 # 详细
 
-[^1]: 利用图卷积网络的異质友善推荐方法
+[^1]: 自适应编码联邦学习：隐私保护与慢节点缓解
 
-    Heterophily-Aware Fair Recommendation using Graph Convolutional Networks
+    Adaptive Coded Federated Learning: Privacy Preservation and Straggler Mitigation
 
-    [https://arxiv.org/abs/2402.03365](https://arxiv.org/abs/2402.03365)
+    [https://arxiv.org/abs/2403.14905](https://arxiv.org/abs/2403.14905)
 
-    本文提出了一种利用图卷积网络的公平推荐系统，名为HetroFair，旨在提高项目侧的公平性。HetroFair使用公平注意力和异质性特征加权两个组件来生成具有公平性意识的嵌入。
-
-    
-
-    近年来，图神经网络（GNNs）已成为提高推荐系统准确性和性能的流行工具。现代推荐系统不仅设计为为最终用户服务，还要让其他参与者（如项目和项目供应商）从中受益。这些参与者可能具有不同或冲突的目标和利益，这引发了对公平性和流行度偏差考虑的需求。基于GNN的推荐方法也面临不公平性和流行度偏差的挑战，其归一化和聚合过程受到这些挑战的影响。在本文中，我们提出了一种公平的基于GNN的推荐系统，称为HetroFair，旨在提高项目侧的公平性。HetroFair使用两个独立的组件生成具有公平性意识的嵌入：i）公平注意力，它在GNN的归一化过程中结合了点积，以减少节点度数的影响；ii）异质性特征加权，为不同的特征分配不同的权重。
-
-    In recent years, graph neural networks (GNNs) have become a popular tool to improve the accuracy and performance of recommender systems. Modern recommender systems are not only designed to serve the end users, but also to benefit other participants, such as items and items providers. These participants may have different or conflicting goals and interests, which raise the need for fairness and popularity bias considerations. GNN-based recommendation methods also face the challenges of unfairness and popularity bias and their normalization and aggregation processes suffer from these challenges. In this paper, we propose a fair GNN-based recommender system, called HetroFair, to improve items' side fairness. HetroFair uses two separate components to generate fairness-aware embeddings: i) fairness-aware attention which incorporates dot product in the normalization process of GNNs, to decrease the effect of nodes' degrees, and ii) heterophily feature weighting to assign distinct weights to 
-    
-[^2]: 通过分层循环切换状态模型发现同步时间序列中的群体动态
-
-    Discovering group dynamics in synchronous time series via hierarchical recurrent switching-state models. (arXiv:2401.14973v1 [stat.ML])
-
-    [http://arxiv.org/abs/2401.14973](http://arxiv.org/abs/2401.14973)
-
-    通过分层的循环切换状态模型，我们可以无监督地同时解释系统级和个体级的动态，从而更好地建模同步时间序列中的群体动态。
+    ACFL提出了一种新的自适应编码联邦学习方法，通过在训练之前采用个性化的数据上传到中央服务器来生成全局编码数据集，以解决原有固定权重生成全局编码数据集时可能导致学习性能下降的问题。
 
     
 
-    我们致力于对同一时间段内多个实体相互作用而产生的时间序列集合进行建模。最近的研究集中在建模个体时间序列方面对我们的预期应用是不足够的，其中集体系统级行为影响着个体实体的轨迹。为了解决这类问题，我们提出了一种新的分层切换状态模型，可以以无监督的方式训练，同时解释系统级和个体级的动态。我们采用了一个隐含的系统级离散状态马尔可夫链，驱动着隐含的实体级链，进而控制每个观测时间序列的动态。观测结果在实体和系统级的链之间进行反馈，通过依赖于上下文的状态转换来提高灵活性。我们的分层切换循环动力学模型可以通过封闭形式的变分坐标上升更新来学习，其在个体数量上呈线性扩展。
+    在本文中，我们讨论了在存在慢节点情况下的联邦学习问题。针对这一问题，我们提出了一种编码联邦学习框架，其中中央服务器聚合来自非慢节点的梯度和来自隐私保护全局编码数据集的梯度，以减轻慢节点的负面影响。然而，在聚合这些梯度时，固定权重在迭代中一直被应用，忽略了全局编码数据集的生成过程以及训练模型随着迭代的动态性。这一疏漏可能导致学习性能下降。为克服这一缺陷，我们提出了一种名为自适应编码联邦学习（ACFL）的新方法。在ACFL中，在训练之前，每个设备向中央服务器上传一个带有附加噪声的编码本地数据集，以生成符合隐私保护要求的全局编码数据集。在...
 
-    We seek to model a collection of time series arising from multiple entities interacting over the same time period. Recent work focused on modeling individual time series is inadequate for our intended applications, where collective system-level behavior influences the trajectories of individual entities. To address such problems, we present a new hierarchical switching-state model that can be trained in an unsupervised fashion to simultaneously explain both system-level and individual-level dynamics. We employ a latent system-level discrete state Markov chain that drives latent entity-level chains which in turn govern the dynamics of each observed time series. Feedback from the observations to the chains at both the entity and system levels improves flexibility via context-dependent state transitions. Our hierarchical switching recurrent dynamical models can be learned via closed-form variational coordinate ascent updates to all latent chains that scale linearly in the number of indivi
+    arXiv:2403.14905v1 Announce Type: cross  Abstract: In this article, we address the problem of federated learning in the presence of stragglers. For this problem, a coded federated learning framework has been proposed, where the central server aggregates gradients received from the non-stragglers and gradient computed from a privacy-preservation global coded dataset to mitigate the negative impact of the stragglers. However, when aggregating these gradients, fixed weights are consistently applied across iterations, neglecting the generation process of the global coded dataset and the dynamic nature of the trained model over iterations. This oversight may result in diminished learning performance. To overcome this drawback, we propose a new method named adaptive coded federated learning (ACFL). In ACFL, before the training, each device uploads a coded local dataset with additive noise to the central server to generate a global coded dataset under privacy preservation requirements. During
     
-[^3]: 神经网络验证的端到端基于集合的训练方法
+[^2]: 概率演员-评论家：学习以PAC-Bayes不确定性进行探索
 
-    End-To-End Set-Based Training for Neural Network Verification. (arXiv:2401.14961v1 [cs.LG])
+    Probabilistic Actor-Critic: Learning to Explore with PAC-Bayes Uncertainty
 
-    [http://arxiv.org/abs/2401.14961](http://arxiv.org/abs/2401.14961)
+    [https://arxiv.org/abs/2402.03055](https://arxiv.org/abs/2402.03055)
 
-    本论文提出了一种端到端基于集合的训练方法，用于训练鲁棒性神经网络进行形式化验证，并证明该方法能够简化验证过程并有效训练出易于验证的神经网络。
-
-    
-
-    神经网络容易受到对抗性攻击，即微小的输入扰动可能导致神经网络输出产生重大变化。安全关键环境需要对输入扰动具有鲁棒性的神经网络。然而，训练和形式化验证鲁棒性神经网络是具有挑战性的。我们首次采用端到端基于集合的训练方法来解决这个挑战，该训练方法能够训练出可进行形式化验证的鲁棒性神经网络。我们的训练方法能够大大简化已训练神经网络的后续形式化鲁棒性验证过程。相比于以往的研究主要关注增强神经网络训练的对抗性攻击，我们的方法利用基于集合的计算来训练整个扰动输入集合上的神经网络。此外，我们证明我们的基于集合的训练方法可以有效训练出易于验证的鲁棒性神经网络。
-
-    Neural networks are vulnerable to adversarial attacks, i.e., small input perturbations can result in substantially different outputs of a neural network. Safety-critical environments require neural networks that are robust against input perturbations. However, training and formally verifying robust neural networks is challenging. We address this challenge by employing, for the first time, a end-to-end set-based training procedure that trains robust neural networks for formal verification. Our training procedure drastically simplifies the subsequent formal robustness verification of the trained neural network. While previous research has predominantly focused on augmenting neural network training with adversarial attacks, our approach leverages set-based computing to train neural networks with entire sets of perturbed inputs. Moreover, we demonstrate that our set-based training procedure effectively trains robust neural networks, which are easier to verify. In many cases, set-based trai
-    
-[^4]: 使用视觉和文本数据的联合表示进行食物分类
-
-    Food Classification using Joint Representation of Visual and Textual Data. (arXiv:2308.02562v1 [cs.CV])
-
-    [http://arxiv.org/abs/2308.02562](http://arxiv.org/abs/2308.02562)
-
-    本研究提出了一种使用联合表示的多模态分类框架，通过修改版的EfficientNet和Mish激活函数实现图像分类，使用基于BERT的网络实现文本分类。实验结果表明，所提出的网络在图像和文本分类上表现优于其他方法，准确率提高了11.57%和6.34%。比较分析还证明了所提出方法的效率和鲁棒性。
+    概率演员-评论家算法（PAC）通过在评论家中建模和推断不确定性，以改进强化学习中的连续控制性能，并实现自适应的探索策略。
 
     
 
-    食物分类是健康保健中的重要任务。在这项工作中，我们提出了一个多模态分类框架，该框架使用了修改版的EfficientNet和Mish激活函数用于图像分类，同时使用传统的基于BERT的网络进行文本分类。我们在一个大型开源数据集UPMC Food-101上评估了所提出的网络和其他最先进的方法。实验结果显示，所提出的网络在图像和文本分类上的准确率分别比第二最好的方法提高了11.57%和6.34%。我们还比较了使用机器学习和深度学习模型进行文本分类的准确率、精确率和召回率。通过对图像和文本的预测结果进行比较分析，证明了所提出方法的效率和鲁棒性。
+    我们引入了概率演员-评论家（PAC），这是一种新颖的强化学习算法，通过缓解探索与利用的平衡问题，改进了连续控制性能。PAC通过将随机策略和评论家无缝融合，创建了评论家不确定性估计和演员训练之间的动态协同作用。我们的PAC算法的关键贡献在于通过Probably Approximately Correct-Bayesian（PAC-Bayes）分析，明确建模和推断评论家的认知不确定性。这种对评论家不确定性的融入使PAC能够在学习过程中自适应调整其探索策略，指导演员的决策过程。与现有技术中的固定或预定的探索方案相比，PAC表现出更好的效果。通过PAC-Bayes分析引导的随机策略和评论家之间的协同作用，是向深度强化学习中更具自适应性和有效性的探索策略迈出的关键一步。
 
-    Food classification is an important task in health care. In this work, we propose a multimodal classification framework that uses the modified version of EfficientNet with the Mish activation function for image classification, and the traditional BERT transformer-based network is used for text classification. The proposed network and the other state-of-the-art methods are evaluated on a large open-source dataset, UPMC Food-101. The experimental results show that the proposed network outperforms the other methods, a significant difference of 11.57% and 6.34% in accuracy is observed for image and text classification, respectively, when compared with the second-best performing method. We also compared the performance in terms of accuracy, precision, and recall for text classification using both machine learning and deep learning-based models. The comparative analysis from the prediction results of both images and text demonstrated the efficiency and robustness of the proposed approach.
+    We introduce Probabilistic Actor-Critic (PAC), a novel reinforcement learning algorithm with improved continuous control performance thanks to its ability to mitigate the exploration-exploitation trade-off. PAC achieves this by seamlessly integrating stochastic policies and critics, creating a dynamic synergy between the estimation of critic uncertainty and actor training. The key contribution of our PAC algorithm is that it explicitly models and infers epistemic uncertainty in the critic through Probably Approximately Correct-Bayesian (PAC-Bayes) analysis. This incorporation of critic uncertainty enables PAC to adapt its exploration strategy as it learns, guiding the actor's decision-making process. PAC compares favorably against fixed or pre-scheduled exploration schemes of the prior art. The synergy between stochastic policies and critics, guided by PAC-Bayes analysis, represents a fundamental step towards a more adaptive and effective exploration strategy in deep reinforcement lear
+    
+[^3]: 具有在线风险感知适应性的分布式强化学习
+
+    Distributional Reinforcement Learning with Online Risk-awareness Adaption
+
+    [https://arxiv.org/abs/2310.05179](https://arxiv.org/abs/2310.05179)
+
+    本论文提出了一个新的分布式强化学习框架，可以通过在线风险适应性调整来量化不确定性，并动态选择认知风险水平。
+
+    
+
+    在实际应用中使用强化学习（RL）需要考虑次优结果，这取决于代理人对不确定环境的熟悉程度。本文介绍了一个新的框架，Distributional RL with Online Risk Adaption（DRL-ORA），可以综合量化不确定性并动态选择认知风险水平，通过在线解决总变差最小化问题。风险水平选择可以通过使用Follow-The-Leader类型算法进行网格搜索来有效实现。
+
+    arXiv:2310.05179v2 Announce Type: replace  Abstract: The use of reinforcement learning (RL) in practical applications requires considering sub-optimal outcomes, which depend on the agent's familiarity with the uncertain environment. Dynamically adjusting the level of epistemic risk over the course of learning can tactically achieve reliable optimal policy in safety-critical environments and tackle the sub-optimality of a static risk level. In this work, we introduce a novel framework, Distributional RL with Online Risk Adaption (DRL-ORA), which can quantify the aleatory and epistemic uncertainties compositely and dynamically select the epistemic risk levels via solving a total variation minimization problem online. The risk level selection can be efficiently achieved through grid search using a Follow-The-Leader type algorithm, and its offline oracle is related to "satisficing measure" (in the decision analysis community) under a special modification of the loss function. We show multi
+    
+[^4]: NACHOS: 硬件受限的早期退出神经网络的神经架构搜索
+
+    NACHOS: Neural Architecture Search for Hardware Constrained Early Exit Neural Networks. (arXiv:2401.13330v1 [cs.LG])
+
+    [http://arxiv.org/abs/2401.13330](http://arxiv.org/abs/2401.13330)
+
+    NACHOS 是一种面向硬件受限的早期退出神经网络的神经架构搜索方法，可以自动化设计早期退出神经网络并考虑骨干和早期退出分类器之间的关系。
+
+    
+
+    早期退出神经网络（EENNs）为标准的深度神经网络（DNN）配备早期退出分类器（EECs），在处理的中间点上提供足够的分类置信度时进行预测。这在效果和效率方面带来了许多好处。目前，EENNs的设计是由专家手动完成的，这是一项复杂和耗时的任务，需要考虑许多方面，包括正确的放置、阈值设置和EECs的计算开销。因此，研究正在探索使用神经架构搜索（NAS）自动化设计EENNs。目前，文献中提出了几个完整的NAS解决方案用于EENNs，并且一个完全自动化的综合设计策略，同时考虑骨干和EECs仍然是一个未解决的问题。为此，本研究呈现了面向硬件受限的早期退出神经网络的神经架构搜索（NACHOS）。
+
+    Early Exit Neural Networks (EENNs) endow astandard Deep Neural Network (DNN) with Early Exit Classifiers (EECs), to provide predictions at intermediate points of the processing when enough confidence in classification is achieved. This leads to many benefits in terms of effectiveness and efficiency. Currently, the design of EENNs is carried out manually by experts, a complex and time-consuming task that requires accounting for many aspects, including the correct placement, the thresholding, and the computational overhead of the EECs. For this reason, the research is exploring the use of Neural Architecture Search (NAS) to automatize the design of EENNs. Currently, few comprehensive NAS solutions for EENNs have been proposed in the literature, and a fully automated, joint design strategy taking into consideration both the backbone and the EECs remains an open problem. To this end, this work presents Neural Architecture Search for Hardware Constrained Early Exit Neural Networks (NACHOS),
+    
+[^5]: 最佳候选规则下的Thompson探索在最佳臂识别中的应用
+
+    Thompson Exploration with Best Challenger Rule in Best Arm Identification. (arXiv:2310.00539v1 [stat.ML])
+
+    [http://arxiv.org/abs/2310.00539](http://arxiv.org/abs/2310.00539)
+
+    本文提出了一种新的策略，将Thompson采样与最佳候选规则相结合，用于解决最佳臂识别问题。该策略在渐近情况下是最优的，并在一般的多臂赌博机问题中达到接近最优的性能。
+
+    
+
+    本文研究了在经典单参数指数模型下，固定置信度下的最佳臂识别（BAI）问题。针对这个问题，目前已有很多策略被提出，但大多数需要在每一轮解决一个最优化问题和/或者需要探索一个臂至少一定次数，除非是针对高斯模型的限制。为了解决这些限制，我们提出了一种新的策略，将Thompson采样与一个计算效率高的方法——最佳候选规则相结合。虽然Thompson采样最初被考虑用于最大化累积奖励，但我们证明它也可以自然地用于在BAI中探索臂而不强迫最大化奖励。我们证明了我们的策略在任意两臂赌博机问题上是渐近最优的，并且在一般的$K$臂赌博机问题上（$K\geq 3$）达到接近最优的性能。然而，在数值实验中，我们的策略与现有方法相比表现出了竞争性的性能。
+
+    This paper studies the fixed-confidence best arm identification (BAI) problem in the bandit framework in the canonical single-parameter exponential models. For this problem, many policies have been proposed, but most of them require solving an optimization problem at every round and/or are forced to explore an arm at least a certain number of times except those restricted to the Gaussian model. To address these limitations, we propose a novel policy that combines Thompson sampling with a computationally efficient approach known as the best challenger rule. While Thompson sampling was originally considered for maximizing the cumulative reward, we demonstrate that it can be used to naturally explore arms in BAI without forcing it. We show that our policy is asymptotically optimal for any two-armed bandit problems and achieves near optimality for general $K$-armed bandit problems for $K\geq 3$. Nevertheless, in numerical experiments, our policy shows competitive performance compared to as
+    
+[^6]: 对称张量分解问题的对称性与临界点
+
+    Symmetry & Critical Points for Symmetric Tensor Decompositions Problems. (arXiv:2306.07886v1 [math.OC])
+
+    [http://arxiv.org/abs/2306.07886](http://arxiv.org/abs/2306.07886)
+
+    本文研究了将一个实对称张量分解成秩为1项之和的非凸优化问题，得到了精确的分析估计，并发现了各种阻碍局部优化方法的几何障碍和由于对称性导致的丰富的临界点集合。
+
+    
+
+    本文考虑了将一个实对称张量分解成秩为1项之和的非凸优化问题。利用其丰富的对称结构，导出Puiseux级数表示的一系列临界点，并获得了关于临界值和Hessian谱的精确分析估计。这些结果揭示了各种几何障碍，阻碍了局部优化方法的使用，最后，利用一个牛顿多面体论证了固定对称性的所有临界点的完全枚举，并证明了与全局最小值的集合相比，由于对称性的存在，临界点的集合可能会显示出组合的丰富性。
+
+    We consider the non-convex optimization problem associated with the decomposition of a real symmetric tensor into a sum of rank one terms. Use is made of the rich symmetry structure to derive Puiseux series representations of families of critical points, and so obtain precise analytic estimates on the critical values and the Hessian spectrum. The sharp results make possible an analytic characterization of various geometric obstructions to local optimization methods, revealing in particular a complex array of saddles and local minima which differ by their symmetry, structure and analytic properties. A desirable phenomenon, occurring for all critical points considered, concerns the index of a point, i.e., the number of negative Hessian eigenvalues, increasing with the value of the objective function. Lastly, a Newton polytope argument is used to give a complete enumeration of all critical points of fixed symmetry, and it is shown that contrarily to the set of global minima which remains 
     
 
