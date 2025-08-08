@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Evaluation of Deep Reinforcement Learning Algorithms for Portfolio Optimisation.](http://arxiv.org/abs/2307.07694) | 该论文评估了投资组合优化任务中的深度强化学习算法，并发现在包括市场冲击和参数变化的情况下，基于策略的算法PPO和A2C在处理噪声方面表现良好，而离策略算法DDPG、TD3和SAC则效果较差。 |
+| [^1] | [The Cost of Coming Out](https://arxiv.org/abs/2403.03649) | 通过在线视频游戏中的创新数据和自然实验，研究揭露性取向对玩家偏好的影响。 |
 
 # 详细
 
-[^1]: 评估深度强化学习算法在投资组合优化中的应用
+[^1]: 揭露的成本
 
-    Evaluation of Deep Reinforcement Learning Algorithms for Portfolio Optimisation. (arXiv:2307.07694v1 [cs.CE])
+    The Cost of Coming Out
 
-    [http://arxiv.org/abs/2307.07694](http://arxiv.org/abs/2307.07694)
+    [https://arxiv.org/abs/2403.03649](https://arxiv.org/abs/2403.03649)
 
-    该论文评估了投资组合优化任务中的深度强化学习算法，并发现在包括市场冲击和参数变化的情况下，基于策略的算法PPO和A2C在处理噪声方面表现良好，而离策略算法DDPG、TD3和SAC则效果较差。
+    通过在线视频游戏中的创新数据和自然实验，研究揭露性取向对玩家偏好的影响。
 
     
 
-    我们对投资组合优化任务中的基准深度强化学习（DRL）算法进行了评估，并使用模拟器作为评估依据。该模拟器基于相关几何布朗运动（GBM）与Bertsimas-Lo（BL）市场冲击模型。使用凯利准则（对数效用）作为目标，我们可以在没有市场冲击的情况下通过分析推导出最优策略，并将其用作包括市场冲击时性能的上限。我们发现，离策略算法DDPG、TD3和SAC由于噪声奖励的存在无法学习到正确的Q函数，因此表现不佳。而基于策略的算法PPO和A2C，在广义优势估计（GAE）的使用下能够应对噪声并得出接近最优策略。PPO的剪切变体在防止策略在收敛后偏离最优值方面发挥了重要作用。在GBM参数发生制度性变化的更具挑战性的环境中，我们发现PPO、TD3和SAC算法仍能保持较好的性能。
+    社会污名和歧视的恐惧导致全球许多个体在公开披露其性取向时犹豫不决。鉴于隐瞒身份的巨大代价，理解反对LGB情绪的程度和对出柜的反应至关重要。然而，披露自己的性取向是个人选择，使得数据获取复杂化并引入内生性问题。本文通过使用一种创新的数据源（一个热门在线视频游戏）和一个自然实验来解决这些挑战。我们利用可玩角色身份的外生变化来识别出披露对玩家对该角色的已显露偏好的影响。借助详细的日常数据，我们监测玩家在全球各地对角色的偏好，并采用合成控制方法来分离披露对玩家偏好的影响。我们的研究发现了一个显著
 
-    We evaluate benchmark deep reinforcement learning (DRL) algorithms on the task of portfolio optimisation under a simulator. The simulator is based on correlated geometric Brownian motion (GBM) with the Bertsimas-Lo (BL) market impact model. Using the Kelly criterion (log utility) as the objective, we can analytically derive the optimal policy without market impact and use it as an upper bound to measure performance when including market impact. We found that the off-policy algorithms DDPG, TD3 and SAC were unable to learn the right Q function due to the noisy rewards and therefore perform poorly. The on-policy algorithms PPO and A2C, with the use of generalised advantage estimation (GAE), were able to deal with the noise and derive a close to optimal policy. The clipping variant of PPO was found to be important in preventing the policy from deviating from the optimal once converged. In a more challenging environment where we have regime changes in the GBM parameters, we found that PPO,
+    arXiv:2403.03649v1 Announce Type: new  Abstract: The fear of social stigma and discrimination leads many individuals worldwide to hesitate in openly disclosing their sexual orientation. Due to the large costs of concealing identity, it is crucial to understand the extent of anti-LGB sentiments and reactions to coming out. However, disclosing one's sexual orientation is a personal choice, complicating data access and introducing endogeneity issues. This paper tackles these challenges by using an innovative data source from a popular online video game together with a natural experiment. We exploit exogenous variation in the identity of a playable character to identify the effects of disclosure on players' revealed preferences for that character. Leveraging detailed daily data, we monitor players' preferences for the character across diverse regions globally and employ synthetic control methods to isolate the effect of the disclosure on players' preferences. Our findings reveal a substant
     
 

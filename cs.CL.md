@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Strong Priority and Determinacy in Timed CCS](https://arxiv.org/abs/2403.04618) | 引入了一种新的调度机制“顺序构造减少”，旨在实现多播并发通信的确定性，扩展了CCS的技术设置，证明了构造减少的汇聚属性，展示了在一些语法限制下运算符的结构连贯性。 |
+| [^1] | [Softmax Probabilities (Mostly) Predict Large Language Model Correctness on Multiple-Choice Q&A](https://arxiv.org/abs/2402.13213) | 多项选择问答任务中，基于最大softmax概率（MSPs）的模型预测方法有助于提高大型语言模型（LLMs）的正确性，我们提出了一种根据MSP有选择地弃权的策略以提高性能。 |
 
 # 详细
 
-[^1]: 时标CCS中的强优先级和确定性
+[^1]: 软最大概率（大部分时候）在多项选择问答任务中预测大型语言模型的正确性
 
-    Strong Priority and Determinacy in Timed CCS
+    Softmax Probabilities (Mostly) Predict Large Language Model Correctness on Multiple-Choice Q&A
 
-    [https://arxiv.org/abs/2403.04618](https://arxiv.org/abs/2403.04618)
+    [https://arxiv.org/abs/2402.13213](https://arxiv.org/abs/2402.13213)
 
-    引入了一种新的调度机制“顺序构造减少”，旨在实现多播并发通信的确定性，扩展了CCS的技术设置，证明了构造减少的汇聚属性，展示了在一些语法限制下运算符的结构连贯性。
+    多项选择问答任务中，基于最大softmax概率（MSPs）的模型预测方法有助于提高大型语言模型（LLMs）的正确性，我们提出了一种根据MSP有选择地弃权的策略以提高性能。
 
     
 
-    在具有优先级的经典进程代数理论的基础上，我们确定了一种名为“顺序构造减少”的新调度机制，旨在捕捉同步编程的本质。这种评估策略的独特属性是通过构造实现多播并发通信的确定性。特别是，这使我们能够模拟具有对缺失反应的共享内存多线程，因为它是Esterel编程语言的核心。在通过时钟和优先级扩展的CCS的技术设置中，对于我们称为“结构连贯”的大类过程，我们证明了构造减少的汇聚属性。我们进一步展示，在一些称为“可枢纽”的语法限制下，前缀、求和、并行组成、限制和隐藏的运算符保持结构连贯。这涵盖了一个严格更大的过程类。
+    尽管大型语言模型（LLMs）在许多任务上表现出色，但过度自信仍然是一个问题。我们假设在多项选择问答任务中，错误答案将与最大softmax概率（MSPs）较小相关，相比之下正确答案较大。我们在十个开源LLMs和五个数据集上全面评估了这一假设，在表现良好的原始问答任务中发现了对我们假设的强有力证据。对于表现最佳的六个LLMs，从MSP导出的AUROC在59/60个实例中都优于随机机会，p < 10^{-4}。在这六个LLMs中，平均AUROC范围在60%至69%之间。利用这些发现，我们提出了一个带有弃权选项的多项选择问答任务，并展示通过根据初始模型响应的MSP有选择地弃权可以提高性能。我们还用预softmax logits而不是softmax进行了相同的实验。
 
-    arXiv:2403.04618v1 Announce Type: cross  Abstract: Building on the classical theory of process algebra with priorities, we identify a new scheduling mechanism, called "sequentially constructive reduction" which is designed to capture the essence of synchronous programming. The distinctive property of this evaluation strategy is to achieve determinism-by-construction for multi-cast concurrent communication. In particular, it permits us to model shared memory multi-threading with reaction to absence as it lies at the core of the programming language Esterel. In the technical setting of CCS extended by clocks and priorities, we prove for a large class of processes, which we call "structurally coherent" the confluence property for constructive reductions. We further show that under some syntactic restrictions, called "pivotable" the operators of prefix, summation, parallel composition, restriction and hiding preserve structural coherence. This covers a strictly larger class of processes co
+    arXiv:2402.13213v1 Announce Type: cross  Abstract: Although large language models (LLMs) perform impressively on many tasks, overconfidence remains a problem. We hypothesized that on multiple-choice Q&A tasks, wrong answers would be associated with smaller maximum softmax probabilities (MSPs) compared to correct answers. We comprehensively evaluate this hypothesis on ten open-source LLMs and five datasets, and find strong evidence for our hypothesis among models which perform well on the original Q&A task. For the six LLMs with the best Q&A performance, the AUROC derived from the MSP was better than random chance with p < 10^{-4} in 59/60 instances. Among those six LLMs, the average AUROC ranged from 60% to 69%. Leveraging these findings, we propose a multiple-choice Q&A task with an option to abstain and show that performance can be improved by selectively abstaining based on the MSP of the initial model response. We also run the same experiments with pre-softmax logits instead of sof
     
 

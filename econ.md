@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Assessing Heterogeneity of Treatment Effects.](http://arxiv.org/abs/2306.15048) | 该论文介绍了一种评估治疗效果异质性的方法，通过使用治疗组和对照组结果的分位数范围，即使平均效果不显著，也可以提供有用的信息。 |
+| [^1] | [The Cost of Coming Out](https://arxiv.org/abs/2403.03649) | 通过在线视频游戏中的创新数据和自然实验，研究揭露性取向对玩家偏好的影响。 |
 
 # 详细
 
-[^1]: 评估治疗效果的异质性
+[^1]: 揭露的成本
 
-    Assessing Heterogeneity of Treatment Effects. (arXiv:2306.15048v1 [econ.EM])
+    The Cost of Coming Out
 
-    [http://arxiv.org/abs/2306.15048](http://arxiv.org/abs/2306.15048)
+    [https://arxiv.org/abs/2403.03649](https://arxiv.org/abs/2403.03649)
 
-    该论文介绍了一种评估治疗效果异质性的方法，通过使用治疗组和对照组结果的分位数范围，即使平均效果不显著，也可以提供有用的信息。
+    通过在线视频游戏中的创新数据和自然实验，研究揭露性取向对玩家偏好的影响。
 
     
 
-    异质性治疗效果在经济学中非常重要，但是其评估常常受到个体治疗效果无法确定的困扰。例如，我们可能希望评估保险对本来不健康的人的健康影响，但是只给不健康的人买保险是不可行的，因此这些人的因果效应无法确定。又或者，我们可能对最低工资上涨中赢家的份额感兴趣，但是在没有观察到反事实的情况下，赢家也无法确定。这种异质性常常通过分位数治疗效果来评估，但其解释并不清晰，结论有时也不一致。我们展示了通过治疗组和对照组结果的分位数，这些数值范围是可以确定的，即使平均治疗效果并不显著，它们仍然可以提供有用信息。两个应用实例展示了这些范围如何帮助我们了解治疗效果的异质性。
+    社会污名和歧视的恐惧导致全球许多个体在公开披露其性取向时犹豫不决。鉴于隐瞒身份的巨大代价，理解反对LGB情绪的程度和对出柜的反应至关重要。然而，披露自己的性取向是个人选择，使得数据获取复杂化并引入内生性问题。本文通过使用一种创新的数据源（一个热门在线视频游戏）和一个自然实验来解决这些挑战。我们利用可玩角色身份的外生变化来识别出披露对玩家对该角色的已显露偏好的影响。借助详细的日常数据，我们监测玩家在全球各地对角色的偏好，并采用合成控制方法来分离披露对玩家偏好的影响。我们的研究发现了一个显著
 
-    Treatment effect heterogeneity is of major interest in economics, but its assessment is often hindered by the fundamental lack of identification of the individual treatment effects. For example, we may want to assess the effect of insurance on the health of otherwise unhealthy individuals, but it is infeasible to insure only the unhealthy, and thus the causal effects for those are not identified. Or, we may be interested in the shares of winners from a minimum wage increase, while without observing the counterfactual, the winners are not identified. Such heterogeneity is often assessed by quantile treatment effects, which do not come with clear interpretation and the takeaway can sometimes be equivocal. We show that, with the quantiles of the treated and control outcomes, the ranges of these quantities are identified and can be informative even when the average treatment effects are not significant. Two applications illustrate how these ranges can inform us about heterogeneity of the t
+    arXiv:2403.03649v1 Announce Type: new  Abstract: The fear of social stigma and discrimination leads many individuals worldwide to hesitate in openly disclosing their sexual orientation. Due to the large costs of concealing identity, it is crucial to understand the extent of anti-LGB sentiments and reactions to coming out. However, disclosing one's sexual orientation is a personal choice, complicating data access and introducing endogeneity issues. This paper tackles these challenges by using an innovative data source from a popular online video game together with a natural experiment. We exploit exogenous variation in the identity of a playable character to identify the effects of disclosure on players' revealed preferences for that character. Leveraging detailed daily data, we monitor players' preferences for the character across diverse regions globally and employ synthetic control methods to isolate the effect of the disclosure on players' preferences. Our findings reveal a substant
     
 
