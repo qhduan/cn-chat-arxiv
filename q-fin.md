@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Hilbert Space-Valued LQG Mean Field Games: An Infinite-Dimensional Analysis](https://arxiv.org/abs/2403.01012) | 本文研究了Hilbert空间值的LQG均场博弈，将经典的理论推广到无限维随机方程驱动的情形，并首次探讨了耦合的无限维随机演化方程系统的良定性。 |
+| [^1] | [Similarity and Comparison Complexity](https://arxiv.org/abs/2401.17578) | 本研究提出了一个关于比较复杂性的理论，并证明了比较复杂性导致选择错误和系统性错误。我们的模型表明，选项的相似性和接近支配度是影响比较复杂性的两个重要因素。该研究的实证结果还表明，比较复杂性度量可以预测选择错误、选择不一致以及认知不确定性，并可以解释选择和评估中的经典异常现象。 |
 
 # 详细
 
-[^1]: Hilbert空间值LQG均场博弈：无限维分析
+[^1]: 相似性和比较的复杂性
 
-    Hilbert Space-Valued LQG Mean Field Games: An Infinite-Dimensional Analysis
+    Similarity and Comparison Complexity
 
-    [https://arxiv.org/abs/2403.01012](https://arxiv.org/abs/2403.01012)
+    [https://arxiv.org/abs/2401.17578](https://arxiv.org/abs/2401.17578)
 
-    本文研究了Hilbert空间值的LQG均场博弈，将经典的理论推广到无限维随机方程驱动的情形，并首次探讨了耦合的无限维随机演化方程系统的良定性。
+    本研究提出了一个关于比较复杂性的理论，并证明了比较复杂性导致选择错误和系统性错误。我们的模型表明，选项的相似性和接近支配度是影响比较复杂性的两个重要因素。该研究的实证结果还表明，比较复杂性度量可以预测选择错误、选择不一致以及认知不确定性，并可以解释选择和评估中的经典异常现象。
 
     
 
-    本文对Hilbert空间值的线性二次高斯（LQG）均场博弈（MFGs）进行了全面研究，将经典的LQG均场博弈理论推广到状态方程由无限维随机方程驱动的情形。在这个框架中，状态和控制过程的取值空间为可分离的Hilbert空间。此外，状态方程涉及无限维噪声，即$Q$-Wiener过程。所有代理通过人口平均状态出现在他们的线性动力学和二次代价函数中进行耦合。此外，每个代理的扩散系数涉及状态、控制和平均状态过程。我们首先研究了耦合的无限维随机演化方程系统的良定性，这构建了Hilbert空间中MFGs的基础。接下来，我们发展了纳什确定等价原理，并得到了一个独特的纳什解。
+    一些选择选项比其他选项更难比较。本文建立了一个关于什么导致比较复杂以及比较复杂如何在选择中产生系统性错误的理论。在我们的模型中，当选项共享相似特征（在固定价值差异的情况下）且更接近支配时，比较更容易。我们展示了如何在多属性、彩票和时间间隔选择领域通过这两个假设得出可操作的比较复杂性度量。使用关于二元选择的实验数据，我们证明了我们的复杂性度量可以预测选择错误、选择不一致以及认知不确定性在这三个领域中的存在。然后我们展示了在选择和评估中的经典异常现象，诸如情境效应、偏好逆转以及在对冒险和时间间隔前景的评估中表现出的明显概率加权和时间偏差，可以被理解为对比较复杂性的反应。
 
-    arXiv:2403.01012v1 Announce Type: cross  Abstract: This paper presents a comprehensive study of Hilbert space-valued Linear-Quadratic-Gaussian (LQG) mean field games (MFGs), generalizing the classic LQG mean field game theory to scenarios where the state equations are driven by infinite-dimensional stochastic equations. In this framework, state and control processes take values in separable Hilbert spaces. Moreover, the state equations involve infinite dimensional noises, namely $Q$-Wiener processes. All agents are coupled through the average state of the population appearing in their linear dynamics and quadratic cost functional. In addition, the diffusion coefficient of each agent involves the state, control, and the average state processes. We first study the well-posedness of a system of coupled infinite-dimensional stochastic evolution equations, which forms the foundation of MFGs in Hilbert spaces. Next, we develop the Nash Certainty Equivalence principle and obtain a unique Nash
+    Some choice options are more difficult to compare than others. This paper develops a theory of what makes a comparison complex, and how comparison complexity generates systematic mistakes in choice. In our model, options are easier to compare when they 1) share similar features, holding fixed their value difference, and 2) are closer to dominance. We show how these two postulates yield tractable measures of comparison complexity in the domains of multiattribute, lottery, and intertemporal choice. Using experimental data on binary choices, we demonstrate that our complexity measures predict choice errors, choice inconsistency, and cognitive uncertainty across all three domains. We then show how canonical anomalies in choice and valuation, such as context effects, preference reversals, and apparent probability weighting and present bias in the valuation of risky and intertemporal prospects, can be understood as responses to comparison complexity.
     
 
