@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Similarity and Comparison Complexity](https://arxiv.org/abs/2401.17578) | 本研究提出了一个关于比较复杂性的理论，并证明了比较复杂性导致选择错误和系统性错误。我们的模型表明，选项的相似性和接近支配度是影响比较复杂性的两个重要因素。该研究的实证结果还表明，比较复杂性度量可以预测选择错误、选择不一致以及认知不确定性，并可以解释选择和评估中的经典异常现象。 |
+| [^1] | [ABIDES-Economist: Agent-Based Simulation of Economic Systems with Learning Agents](https://arxiv.org/abs/2402.09563) | ABIDES-Economist是一个多智能体模拟器，用于经济系统，具有学习代理、规则性策略和基于现实数据的设计。它提供了一种使用强化学习策略的模拟环境，并可以模拟和分析各种经济情景。 |
 
 # 详细
 
-[^1]: 相似性和比较的复杂性
+[^1]: ABIDES-Economist: 具有学习代理的经济系统的基于代理的模拟
 
-    Similarity and Comparison Complexity
+    ABIDES-Economist: Agent-Based Simulation of Economic Systems with Learning Agents
 
-    [https://arxiv.org/abs/2401.17578](https://arxiv.org/abs/2401.17578)
+    [https://arxiv.org/abs/2402.09563](https://arxiv.org/abs/2402.09563)
 
-    本研究提出了一个关于比较复杂性的理论，并证明了比较复杂性导致选择错误和系统性错误。我们的模型表明，选项的相似性和接近支配度是影响比较复杂性的两个重要因素。该研究的实证结果还表明，比较复杂性度量可以预测选择错误、选择不一致以及认知不确定性，并可以解释选择和评估中的经典异常现象。
+    ABIDES-Economist是一个多智能体模拟器，用于经济系统，具有学习代理、规则性策略和基于现实数据的设计。它提供了一种使用强化学习策略的模拟环境，并可以模拟和分析各种经济情景。
 
     
 
-    一些选择选项比其他选项更难比较。本文建立了一个关于什么导致比较复杂以及比较复杂如何在选择中产生系统性错误的理论。在我们的模型中，当选项共享相似特征（在固定价值差异的情况下）且更接近支配时，比较更容易。我们展示了如何在多属性、彩票和时间间隔选择领域通过这两个假设得出可操作的比较复杂性度量。使用关于二元选择的实验数据，我们证明了我们的复杂性度量可以预测选择错误、选择不一致以及认知不确定性在这三个领域中的存在。然后我们展示了在选择和评估中的经典异常现象，诸如情境效应、偏好逆转以及在对冒险和时间间隔前景的评估中表现出的明显概率加权和时间偏差，可以被理解为对比较复杂性的反应。
+    我们介绍了一个多智能体模拟器，用于由异质家庭、异质公司、中央银行和政府代理组成的经济系统，该系统可以受到外生的随机冲击。代理之间的互动定义了经济中商品的生产和消费以及资金的流动。每个代理可以根据固定的、规则性的策略行动，也可以通过与模拟器中其他代理的互动来学习自己的策略。我们通过选择基于经济文献的代理异质性参数，并将其行动空间设计与美国的实际数据相一致，来使我们的模拟器具备现实基础。我们的模拟器通过为经济系统定义 OpenAI Gym 风格的环境，促进了代理使用强化学习策略的能力。通过模拟和分析两种假设的（但有趣的）经济情景，我们展示了我们模拟器的实用性。
 
-    Some choice options are more difficult to compare than others. This paper develops a theory of what makes a comparison complex, and how comparison complexity generates systematic mistakes in choice. In our model, options are easier to compare when they 1) share similar features, holding fixed their value difference, and 2) are closer to dominance. We show how these two postulates yield tractable measures of comparison complexity in the domains of multiattribute, lottery, and intertemporal choice. Using experimental data on binary choices, we demonstrate that our complexity measures predict choice errors, choice inconsistency, and cognitive uncertainty across all three domains. We then show how canonical anomalies in choice and valuation, such as context effects, preference reversals, and apparent probability weighting and present bias in the valuation of risky and intertemporal prospects, can be understood as responses to comparison complexity.
+    arXiv:2402.09563v1 Announce Type: cross  Abstract: We introduce a multi-agent simulator for economic systems comprised of heterogeneous Households, heterogeneous Firms, Central Bank and Government agents, that could be subjected to exogenous, stochastic shocks. The interaction between agents defines the production and consumption of goods in the economy alongside the flow of money. Each agent can be designed to act according to fixed, rule-based strategies or learn their strategies using interactions with others in the simulator. We ground our simulator by choosing agent heterogeneity parameters based on economic literature, while designing their action spaces in accordance with real data in the United States. Our simulator facilitates the use of reinforcement learning strategies for the agents via an OpenAI Gym style environment definition for the economic system. We demonstrate the utility of our simulator by simulating and analyzing two hypothetical (yet interesting) economic scenar
     
 
