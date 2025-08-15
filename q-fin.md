@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [ABIDES-Economist: Agent-Based Simulation of Economic Systems with Learning Agents](https://arxiv.org/abs/2402.09563) | ABIDES-Economist是一个多智能体模拟器，用于经济系统，具有学习代理、规则性策略和基于现实数据的设计。它提供了一种使用强化学习策略的模拟环境，并可以模拟和分析各种经济情景。 |
+| [^1] | [Common Idiosyncratic Quantile Risk.](http://arxiv.org/abs/2208.14267) | 该论文提出了一种新的风险类型，称为共同的特异性分位数风险，其揭示了投资者如何定价正向和负向风险的新见解，对总体市场回报也具有预测能力。 |
 
 # 详细
 
-[^1]: ABIDES-Economist: 具有学习代理的经济系统的基于代理的模拟
+[^1]: 共同的特异性分位数风险
 
-    ABIDES-Economist: Agent-Based Simulation of Economic Systems with Learning Agents
+    Common Idiosyncratic Quantile Risk. (arXiv:2208.14267v2 [q-fin.GN] UPDATED)
 
-    [https://arxiv.org/abs/2402.09563](https://arxiv.org/abs/2402.09563)
+    [http://arxiv.org/abs/2208.14267](http://arxiv.org/abs/2208.14267)
 
-    ABIDES-Economist是一个多智能体模拟器，用于经济系统，具有学习代理、规则性策略和基于现实数据的设计。它提供了一种使用强化学习策略的模拟环境，并可以模拟和分析各种经济情景。
+    该论文提出了一种新的风险类型，称为共同的特异性分位数风险，其揭示了投资者如何定价正向和负向风险的新见解，对总体市场回报也具有预测能力。
 
     
 
-    我们介绍了一个多智能体模拟器，用于由异质家庭、异质公司、中央银行和政府代理组成的经济系统，该系统可以受到外生的随机冲击。代理之间的互动定义了经济中商品的生产和消费以及资金的流动。每个代理可以根据固定的、规则性的策略行动，也可以通过与模拟器中其他代理的互动来学习自己的策略。我们通过选择基于经济文献的代理异质性参数，并将其行动空间设计与美国的实际数据相一致，来使我们的模拟器具备现实基础。我们的模拟器通过为经济系统定义 OpenAI Gym 风格的环境，促进了代理使用强化学习策略的能力。通过模拟和分析两种假设的（但有趣的）经济情景，我们展示了我们模拟器的实用性。
+    我们发现了一种新的风险类型，其特征在于资产回报的横截面分位数具有共性。我们提出的新型分位数风险因子与特定分位数的风险溢酬相关，并揭示了投资者如何定价正向和负向风险的新见解。与以往文献相比，我们在不做混淆假设或汇总可能的非线性信息的情况下恢复了横截面分位数的共同结构。我们讨论了新的分位数风险因子与流行的波动率和下行风险因子的不同之处，并确定了哪些分位数依赖性风险应该得到更大的补偿。分位数因子也具有对总体市场回报的预测能力。
 
-    arXiv:2402.09563v1 Announce Type: cross  Abstract: We introduce a multi-agent simulator for economic systems comprised of heterogeneous Households, heterogeneous Firms, Central Bank and Government agents, that could be subjected to exogenous, stochastic shocks. The interaction between agents defines the production and consumption of goods in the economy alongside the flow of money. Each agent can be designed to act according to fixed, rule-based strategies or learn their strategies using interactions with others in the simulator. We ground our simulator by choosing agent heterogeneity parameters based on economic literature, while designing their action spaces in accordance with real data in the United States. Our simulator facilitates the use of reinforcement learning strategies for the agents via an OpenAI Gym style environment definition for the economic system. We demonstrate the utility of our simulator by simulating and analyzing two hypothetical (yet interesting) economic scenar
+    We identify a new type of risk that is characterised by commonalities in the quantiles of the cross-sectional distribution of asset returns. Our newly proposed quantile risk factor is associated with a quantile-specific risk premium and provides new insights into how upside and downside risks are priced by investors. In contrast to the previous literature, we recover the common structure in cross-sectional quantiles without making confounding assumptions or aggregating potentially non-linear information. We discuss how the new quantile-based risk factor differs from popular volatility and downside risk factors, and we identify where the quantile-dependent risks deserve greater compensation. Quantile factors also have predictive power for aggregate market returns.
     
 
