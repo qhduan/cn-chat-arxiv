@@ -2,67 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Joint Problems in Learning Multiple Dynamical Systems](https://arxiv.org/abs/2311.02181) | 聚类时间序列的新问题，提出联合划分轨迹集并学习每个部分的线性动态系统模型，以最小化所有模型的最大误差 |
-| [^2] | [Radio Map Estimation in the Real-World: Empirical Validation and Analysis.](http://arxiv.org/abs/2310.11036) | 本文通过对现有的无线电地图估计器进行经验证据的评估，研究了性能和复杂性之间的权衡以及快速衰落的影响。尽管基于深度神经网络的估计器表现最佳，但需要大量的训练数据。一种混合了传统方案和深度神经网络的新算法表现良好。 |
-| [^3] | [Exploring Naming Conventions (and Defects) of Pre-trained Deep Learning Models in Hugging Face and Other Model Hubs.](http://arxiv.org/abs/2310.01642) | 本研究首次系统研究了预训练深度学习模型的命名惯例和相关缺陷，为我们了解研究到实践过程提供了知识和认识。 |
-| [^4] | [LEGO: Learning and Graph-Optimized Modular Tracker for Online Multi-Object Tracking with Point Clouds.](http://arxiv.org/abs/2308.09908) | 本文提出了一个学习和图优化的模块化跟踪器LEGO，通过集成图优化和自注意力机制，提高了在线多目标跟踪中的数据关联性能。使用LiDAR单独进行跟踪的LEGO方法在KITTI目标跟踪评估中表现出了优秀的性能。 |
+| [^1] | [Enhancing Depression-Diagnosis-Oriented Chat with Psychological State Tracking](https://arxiv.org/abs/2403.09717) | 本文提出将心理状态跟踪集成到大型语言模型中，以明确引导抑郁症诊断导向的聊天，从而能更好地捕捉患者在对话过程中的信息、情绪或症状变化。 |
+| [^2] | [Energy-efficiency Limits on Training AI Systems using Learning-in-Memory](https://arxiv.org/abs/2402.14878) | 该论文提出了使用内存中学习的方法训练AI系统时的能效限制，并推导了新的理论下限。 |
+| [^3] | [Don't Push the Button! Exploring Data Leakage Risks in Machine Learning and Transfer Learning.](http://arxiv.org/abs/2401.13796) | 本文讨论了机器学习中的数据泄露问题，即未预期的信息污染训练数据，影响模型性能评估，用户可能由于缺乏理解而忽视关键步骤，导致乐观的性能估计在实际场景中不成立。 |
 
 # 详细
 
-[^1]: 学习多个动态系统中的联合问题
+[^1]: 通过心理状态跟踪提升面向抑郁症诊断的聊天系统
 
-    Joint Problems in Learning Multiple Dynamical Systems
+    Enhancing Depression-Diagnosis-Oriented Chat with Psychological State Tracking
 
-    [https://arxiv.org/abs/2311.02181](https://arxiv.org/abs/2311.02181)
+    [https://arxiv.org/abs/2403.09717](https://arxiv.org/abs/2403.09717)
 
-    聚类时间序列的新问题，提出联合划分轨迹集并学习每个部分的线性动态系统模型，以最小化所有模型的最大误差
-
-    
-
-    时间序列的聚类是一个经过充分研究的问题，其应用范围从通过代谢产物浓度获得的定量个性化代谢模型到量子信息理论中的状态判别。我们考虑了一个变种，即给定一组轨迹和一些部分，我们联合划分轨迹集并学习每个部分的线性动态系统（LDS）模型，以使得所有模型的最大误差最小化。我们提出了全局收敛的方法和EM启发式算法，并附上了有前景的计算结果。
-
-    arXiv:2311.02181v2 Announce Type: replace-cross  Abstract: Clustering of time series is a well-studied problem, with applications ranging from quantitative, personalized models of metabolism obtained from metabolite concentrations to state discrimination in quantum information theory. We consider a variant, where given a set of trajectories and a number of parts, we jointly partition the set of trajectories and learn linear dynamical system (LDS) models for each part, so as to minimize the maximum error across all the models. We present globally convergent methods and EM heuristics, accompanied by promising computational results.
-    
-[^2]: 现实世界中的无线电地图估计：经验证和分析
-
-    Radio Map Estimation in the Real-World: Empirical Validation and Analysis. (arXiv:2310.11036v1 [eess.SP])
-
-    [http://arxiv.org/abs/2310.11036](http://arxiv.org/abs/2310.11036)
-
-    本文通过对现有的无线电地图估计器进行经验证据的评估，研究了性能和复杂性之间的权衡以及快速衰落的影响。尽管基于深度神经网络的估计器表现最佳，但需要大量的训练数据。一种混合了传统方案和深度神经网络的新算法表现良好。
+    本文提出将心理状态跟踪集成到大型语言模型中，以明确引导抑郁症诊断导向的聊天，从而能更好地捕捉患者在对话过程中的信息、情绪或症状变化。
 
     
 
-    无线电地图在地理区域的每个点上量化了接收信号强度或其他无线电频率环境的大小。这些地图在无线网络规划、频谱管理和通信系统优化等众多应用中起着重要作用。然而，对现有的大量无线电地图估计器的经验证据非常有限。为了填补这一空白，使用自主无人机（UAV）收集了大量的测量数据，并对这些估计器的代表性子集进行了评估。在这些评估中，广泛研究了性能和复杂性之间的权衡以及快速衰落的影响。尽管基于深度神经网络（DNN）的复杂估计器表现最佳，但它们需要大量的训练数据才能相对传统方案提供实质性优势。一种混合了两种类型估计器的新算法被发现具有良好的性能。
+    抑郁症诊断导向的聊天旨在引导患者进行自我表达，收集抑郁症检测的关键症状。最近的工作集中于结合任务导向对话和闲聊，模拟基于访谈的抑郁症诊断。然而，这些方法无法很好地捕捉患者在对话过程中的信息、情绪或症状的变化。此外，还没有明确的框架用于引导对话，这导致一些无用的交流影响了体验。本文提出将心理状态跟踪（POST）集成到大型语言模型（LLM）中，以明确引导抑郁症诊断导向的聊天。具体而言，该状态源自于心理理论模型，包括四个组件，即阶段、信息、总结和下一步。我们微调了一个LLM模型以生成动态心理状态，进而用于辅助r
 
-    Radio maps quantify received signal strength or other magnitudes of the radio frequency environment at every point of a geographical region. These maps play a vital role in a large number of applications such as wireless network planning, spectrum management, and optimization of communication systems. However, empirical validation of the large number of existing radio map estimators is highly limited. To fill this gap, a large data set of measurements has been collected with an autonomous unmanned aerial vehicle (UAV) and a representative subset of these estimators were evaluated on this data. The performance-complexity trade-off and the impact of fast fading are extensively investigated. Although sophisticated estimators based on deep neural networks (DNNs) exhibit the best performance, they are seen to require large volumes of training data to offer a substantial advantage relative to more traditional schemes. A novel algorithm that blends both kinds of estimators is seen to enjoy th
+    arXiv:2403.09717v1 Announce Type: cross  Abstract: Depression-diagnosis-oriented chat aims to guide patients in self-expression to collect key symptoms for depression detection. Recent work focuses on combining task-oriented dialogue and chitchat to simulate the interview-based depression diagnosis. Whereas, these methods can not well capture the changing information, feelings, or symptoms of the patient during dialogues. Moreover, no explicit framework has been explored to guide the dialogue, which results in some useless communications that affect the experience. In this paper, we propose to integrate Psychological State Tracking (POST) within the large language model (LLM) to explicitly guide depression-diagnosis-oriented chat. Specifically, the state is adapted from a psychological theoretical model, which consists of four components, namely Stage, Information, Summary and Next. We fine-tune an LLM model to generate the dynamic psychological state, which is further used to assist r
     
-[^3]: 探索Hugging Face和其他模型仓库中预训练深度学习模型的命名惯例（及缺陷）
+[^2]: 使用内存中学习的方法训练AI系统的能效限制
 
-    Exploring Naming Conventions (and Defects) of Pre-trained Deep Learning Models in Hugging Face and Other Model Hubs. (arXiv:2310.01642v1 [cs.SE])
+    Energy-efficiency Limits on Training AI Systems using Learning-in-Memory
 
-    [http://arxiv.org/abs/2310.01642](http://arxiv.org/abs/2310.01642)
+    [https://arxiv.org/abs/2402.14878](https://arxiv.org/abs/2402.14878)
 
-    本研究首次系统研究了预训练深度学习模型的命名惯例和相关缺陷，为我们了解研究到实践过程提供了知识和认识。
-
-    
-
-    随着深度学习的创新不断推进，许多工程师希望将预训练深度学习模型（PTMs）作为计算系统的组成部分。PTMs是研究到实践的流程的一部分：研究人员发布PTMs，工程师根据质量或性能进行调整并部署。如果PTM的作者为其选择适当的名称，可以促进模型的发现和复用。然而，先前的研究已经报道了模型名称并不总是选择得很好，有时甚至是错误的。PTM包的命名惯例和命名缺陷尚未得到系统的研究，了解它们将增加我们对PTM包的研究到实践过程运作方式的认识。本文报告了对PTM命名惯例及相关命名缺陷的首次研究。我们定义了PTM包名称的组成部分，包括元数据中的包名称和声明的架构。我们展示了第一项旨在描述PTM命名性质的研究。
-
-    As innovation in deep learning continues, many engineers want to adopt Pre-Trained deep learning Models (PTMs) as components in computer systems. PTMs are part of a research-to-practice pipeline: researchers publish PTMs, which engineers adapt for quality or performance and then deploy. If PTM authors choose appropriate names for their PTMs, it could facilitate model discovery and reuse. However, prior research has reported that model names are not always well chosen, and are sometimes erroneous. The naming conventions and naming defects for PTM packages have not been systematically studied - understanding them will add to our knowledge of how the research-to-practice process works for PTM packages  In this paper, we report the first study of PTM naming conventions and the associated PTM naming defects. We define the components of a PTM package name, comprising the package name and claimed architecture from the metadata. We present the first study focused on characterizing the nature o
-    
-[^4]: LEGO: 对于基于点云的在线多目标跟踪的学习和图优化的模块化跟踪器
-
-    LEGO: Learning and Graph-Optimized Modular Tracker for Online Multi-Object Tracking with Point Clouds. (arXiv:2308.09908v1 [cs.CV])
-
-    [http://arxiv.org/abs/2308.09908](http://arxiv.org/abs/2308.09908)
-
-    本文提出了一个学习和图优化的模块化跟踪器LEGO，通过集成图优化和自注意力机制，提高了在线多目标跟踪中的数据关联性能。使用LiDAR单独进行跟踪的LEGO方法在KITTI目标跟踪评估中表现出了优秀的性能。
+    该论文提出了使用内存中学习的方法训练AI系统时的能效限制，并推导了新的理论下限。
 
     
 
-    在线多目标跟踪（MOT）在自主系统中起着关键作用。现有的最先进方法通常采用跟踪-检测方法，数据关联起到了至关重要的作用。本文提出了一个学习和图优化（LEGO）的模块化跟踪器，以提高数据关联性能。所提出的LEGO跟踪器集成了图优化和自注意力机制，能够有效地制定关联评分图，从而实现准确高效的目标匹配。为了进一步增强状态更新过程，本文还添加了卡尔曼滤波器，通过将对象状态的时间连贯性纳入跟踪中，确保一致的跟踪。与其他在线跟踪方法（包括基于LiDAR和基于LiDAR-相机融合的方法）相比，我们提出的仅利用LiDAR的方法表现出了卓越性能。在提交结果至KITTI目标跟踪评估排行榜时，LEGO排名第一。
+    arXiv:2402.14878v1 公告类型: cross 摘要: 内存中学习（LIM）是一种最近提出的范Paradigm，旨在克服训练机器学习系统中的基本内存瓶颈。虽然计算于内存（CIM）方法可以解决所谓的内存墙问题（即由于重复内存读取访问而消耗的能量），但它们对于以训练所需的精度重复内存写入时消耗的能量（更新墙）是不可知的，并且它们不考虑在短期和长期记忆之间传输信息时所消耗的能量（整合墙）。LIM范式提出，如果物理内存的能量屏障被自适应调制，使得存储器更新和整合的动态与梯度下降训练AI模型的Lyapunov动态相匹配，那么这些瓶颈也可以被克服。在本文中，我们推导了使用不同LIM应用程序训练AI系统时的能耗的新理论下限。
 
-    Online multi-object tracking (MOT) plays a pivotal role in autonomous systems. The state-of-the-art approaches usually employ a tracking-by-detection method, and data association plays a critical role. This paper proposes a learning and graph-optimized (LEGO) modular tracker to improve data association performance in the existing literature. The proposed LEGO tracker integrates graph optimization and self-attention mechanisms, which efficiently formulate the association score map, facilitating the accurate and efficient matching of objects across time frames. To further enhance the state update process, the Kalman filter is added to ensure consistent tracking by incorporating temporal coherence in the object states. Our proposed method utilizing LiDAR alone has shown exceptional performance compared to other online tracking approaches, including LiDAR-based and LiDAR-camera fusion-based methods. LEGO ranked 1st at the time of submitting results to KITTI object tracking evaluation ranki
+    arXiv:2402.14878v1 Announce Type: cross  Abstract: Learning-in-memory (LIM) is a recently proposed paradigm to overcome fundamental memory bottlenecks in training machine learning systems. While compute-in-memory (CIM) approaches can address the so-called memory-wall (i.e. energy dissipated due to repeated memory read access) they are agnostic to the energy dissipated due to repeated memory writes at the precision required for training (the update-wall), and they don't account for the energy dissipated when transferring information between short-term and long-term memories (the consolidation-wall). The LIM paradigm proposes that these bottlenecks, too, can be overcome if the energy barrier of physical memories is adaptively modulated such that the dynamics of memory updates and consolidation match the Lyapunov dynamics of gradient-descent training of an AI model. In this paper, we derive new theoretical lower bounds on energy dissipation when training AI systems using different LIM app
+    
+[^3]: 不要按按钮！探索机器学习和迁移学习中的数据泄露风险
+
+    Don't Push the Button! Exploring Data Leakage Risks in Machine Learning and Transfer Learning. (arXiv:2401.13796v1 [cs.LG])
+
+    [http://arxiv.org/abs/2401.13796](http://arxiv.org/abs/2401.13796)
+
+    本文讨论了机器学习中的数据泄露问题，即未预期的信息污染训练数据，影响模型性能评估，用户可能由于缺乏理解而忽视关键步骤，导致乐观的性能估计在实际场景中不成立。
+
+    
+
+    机器学习（ML）在各个领域取得了革命性的进展，为多个领域提供了预测能力。然而，随着ML工具的日益可获得性，许多从业者缺乏深入的ML专业知识，采用了“按按钮”方法，利用用户友好的界面而忽视了底层算法的深入理解。虽然这种方法提供了便利，但它引发了对结果可靠性的担忧，导致了错误的性能评估等挑战。本文解决了ML中的一个关键问题，即数据泄露，其中未预期的信息污染了训练数据，影响了模型的性能评估。由于缺乏理解，用户可能会无意中忽视关键步骤，从而导致在现实场景中可能不成立的乐观性能估计。评估性能与实际在新数据上的性能的差异是一个重要的关注点。本文特别将ML中的数据泄露分为不同类别，并讨论了相关解决方法。
+
+    Machine Learning (ML) has revolutionized various domains, offering predictive capabilities in several areas. However, with the increasing accessibility of ML tools, many practitioners, lacking deep ML expertise, adopt a "push the button" approach, utilizing user-friendly interfaces without a thorough understanding of underlying algorithms. While this approach provides convenience, it raises concerns about the reliability of outcomes, leading to challenges such as incorrect performance evaluation. This paper addresses a critical issue in ML, known as data leakage, where unintended information contaminates the training data, impacting model performance evaluation. Users, due to a lack of understanding, may inadvertently overlook crucial steps, leading to optimistic performance estimates that may not hold in real-world scenarios. The discrepancy between evaluated and actual performance on new data is a significant concern. In particular, this paper categorizes data leakage in ML, discussi
     
 

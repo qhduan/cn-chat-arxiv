@@ -2,97 +2,112 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Robustly estimating heterogeneity in factorial data using Rashomon Partitions](https://arxiv.org/abs/2404.02141) | 通过使用拉细孟划分集，我们能够在因子数据中稳健地估计异质性，并将因子空间划分成协变量组合的“池”，以便区分结果的差异。 |
-| [^2] | [Contrastive Learning on Multimodal Analysis of Electronic Health Records](https://arxiv.org/abs/2403.14926) | 该论文研究了电子健康记录的多模态分析，强调了结构化和非结构化数据之间的协同作用，并尝试将多模态对比学习方法应用于提高患者医疗历史的完整性。 |
-| [^3] | [Active Learning of Mealy Machines with Timers](https://arxiv.org/abs/2403.02019) | 这篇论文提出了一种用于查询学习具有定时器的Mealy机器的算法，在实现上明显比已有算法更有效率。 |
-| [^4] | [Joint Problems in Learning Multiple Dynamical Systems](https://arxiv.org/abs/2311.02181) | 聚类时间序列的新问题，提出联合划分轨迹集并学习每个部分的线性动态系统模型，以最小化所有模型的最大误差 |
-| [^5] | [Mask and Restore: Blind Backdoor Defense at Test Time with Masked Autoencoder.](http://arxiv.org/abs/2303.15564) | 本文提出了利用掩码自编码器的盲目防御框架（BDMAE），可以在测试时防御盲目后门攻击，不需要验证数据和模型参数，通过测试图像和 MAE 还原之间的结构相似性和标签一致性来检测后门攻击。 |
-| [^6] | [Finite Expression Method for Solving High-Dimensional Partial Differential Equations.](http://arxiv.org/abs/2206.10121) | 本文介绍了一种名为有限表达方法（FEX）的新方法，用于在具有有限个解析表达式的函数空间中寻找高维偏微分方程的近似解。通过使用深度强化学习方法将FEX应用于各种高维偏微分方程，可以实现高度准确的求解，并且避免了维度灾难。这种有限解析表达式的近似解还可以提供对真实偏微分方程解的可解释洞察。 |
+| [^1] | [Is Watermarking LLM-Generated Code Robust?](https://arxiv.org/abs/2403.17983) | 该研究探讨了现有水印技术在大型语言模型生成的Python代码上的鲁棒性，发现容易通过保留语义转换来移除这些水印。 |
+| [^2] | [Energy-efficiency Limits on Training AI Systems using Learning-in-Memory](https://arxiv.org/abs/2402.14878) | 该论文提出了使用内存中学习的方法训练AI系统时的能效限制，并推导了新的理论下限。 |
+| [^3] | [SMC Is All You Need: Parallel Strong Scaling](https://arxiv.org/abs/2402.06173) | SMC并行扩展方法pSMC具有理论收敛速度，具有有界的时间复杂性和内存要求，适用于贝叶斯推断的问题。 |
+| [^4] | [Probabilistic Actor-Critic: Learning to Explore with PAC-Bayes Uncertainty](https://arxiv.org/abs/2402.03055) | 概率演员-评论家算法（PAC）通过在评论家中建模和推断不确定性，以改进强化学习中的连续控制性能，并实现自适应的探索策略。 |
+| [^5] | [Behind the Myth of Exploration in Policy Gradients](https://arxiv.org/abs/2402.00162) | 本论文提出了对政策梯度算法中探索项的新分析方法，区分了其平滑学习目标和增加梯度估计的两种不同作用。同时，详细讨论和实证了基于熵奖励的探索策略的局限性，并开辟了未来对这些策略设计和分析的研究方向。 |
+| [^6] | [Diffusion MRI with Machine Learning](https://arxiv.org/abs/2402.00019) | 本文评估了机器学习在弥散磁共振成像中的应用，重点关注了微结构映射、纤维束描记、白质纤维束分析以及数据预处理和协调的方法。通过对现有方法的总结，提出了未来研究的主题。 |
+| [^7] | [Don't Push the Button! Exploring Data Leakage Risks in Machine Learning and Transfer Learning.](http://arxiv.org/abs/2401.13796) | 本文讨论了机器学习中的数据泄露问题，即未预期的信息污染训练数据，影响模型性能评估，用户可能由于缺乏理解而忽视关键步骤，导致乐观的性能估计在实际场景中不成立。 |
 
 # 详细
 
-[^1]: 使用拉细孟划分在因子数据中稳健估计异质性
+[^1]: LLM生成代码的水印技术是否具有鲁棒性？
 
-    Robustly estimating heterogeneity in factorial data using Rashomon Partitions
+    Is Watermarking LLM-Generated Code Robust?
 
-    [https://arxiv.org/abs/2404.02141](https://arxiv.org/abs/2404.02141)
+    [https://arxiv.org/abs/2403.17983](https://arxiv.org/abs/2403.17983)
 
-    通过使用拉细孟划分集，我们能够在因子数据中稳健地估计异质性，并将因子空间划分成协变量组合的“池”，以便区分结果的差异。
-
-    
-
-    许多统计分析，无论是在观测数据还是随机对照试验中，都会问：感兴趣的结果如何随可观察协变量组合变化？不同的药物组合如何影响健康结果，科技采纳如何依赖激励和人口统计学？我们的目标是将这个因子空间划分成协变量组合的“池”，在这些池中结果会发生差异（但池内部不会发生），而现有方法要么寻找一个单一的“最优”分割，要么从可能分割的整个集合中抽样。这两种方法都忽视了这样一个事实：特别是在协变量之间存在相关结构的情况下，可能以许多种方式划分协变量空间，在统计上是无法区分的，尽管对政策或科学有着非常不同的影响。我们提出了一种名为拉细孟划分集的替代视角
-
-    arXiv:2404.02141v1 Announce Type: cross  Abstract: Many statistical analyses, in both observational data and randomized control trials, ask: how does the outcome of interest vary with combinations of observable covariates? How do various drug combinations affect health outcomes, or how does technology adoption depend on incentives and demographics? Our goal is to partition this factorial space into ``pools'' of covariate combinations where the outcome differs across the pools (but not within a pool). Existing approaches (i) search for a single ``optimal'' partition under assumptions about the association between covariates or (ii) sample from the entire set of possible partitions. Both these approaches ignore the reality that, especially with correlation structure in covariates, many ways to partition the covariate space may be statistically indistinguishable, despite very different implications for policy or science. We develop an alternative perspective, called Rashomon Partition Set
-    
-[^2]: 电子健康记录的多模态分析上的对比学习
-
-    Contrastive Learning on Multimodal Analysis of Electronic Health Records
-
-    [https://arxiv.org/abs/2403.14926](https://arxiv.org/abs/2403.14926)
-
-    该论文研究了电子健康记录的多模态分析，强调了结构化和非结构化数据之间的协同作用，并尝试将多模态对比学习方法应用于提高患者医疗历史的完整性。
+    该研究探讨了现有水印技术在大型语言模型生成的Python代码上的鲁棒性，发现容易通过保留语义转换来移除这些水印。
 
     
 
-    电子健康记录（EHR）系统包含大量的多模态临床数据，包括结构化数据如临床编码和非结构化数据如临床笔记。然而，许多现有的针对EHR的研究传统上要么集中于个别模态，要么以一种相当粗糙的方式合并不同的模态。这种方法通常会导致将结构化和非结构化数据视为单独实体，忽略它们之间固有的协同作用。具体来说，这两个重要的模态包含临床相关、密切相关和互补的健康信息。通过联合分析这两种数据模态可以捕捉到患者医疗历史的更完整画面。尽管多模态对比学习在视觉语言领域取得了巨大成功，但在多模态EHR领域，尤其是在理论理解方面，其潜力仍未充分挖掘。
+    我们首次研究了现有水印技术在大型语言模型生成的Python代码上的鲁棒性。尽管现有作品表明水印技术对自然语言具有鲁棒性，但我们发现通过保留语义的转换很容易移除代码上的这些水印。
 
-    arXiv:2403.14926v1 Announce Type: cross  Abstract: Electronic health record (EHR) systems contain a wealth of multimodal clinical data including structured data like clinical codes and unstructured data such as clinical notes. However, many existing EHR-focused studies has traditionally either concentrated on an individual modality or merged different modalities in a rather rudimentary fashion. This approach often results in the perception of structured and unstructured data as separate entities, neglecting the inherent synergy between them. Specifically, the two important modalities contain clinically relevant, inextricably linked and complementary health information. A more complete picture of a patient's medical history is captured by the joint analysis of the two modalities of data. Despite the great success of multimodal contrastive learning on vision-language, its potential remains under-explored in the realm of multimodal EHR, particularly in terms of its theoretical understandi
+    arXiv:2403.17983v1 Announce Type: cross  Abstract: We present the first study of the robustness of existing watermarking techniques on Python code generated by large language models. Although existing works showed that watermarking can be robust for natural language, we show that it is easy to remove these watermarks on code by semantic-preserving transformations.
     
-[^3]: 具有定时器的Mealy机器的主动学习
+[^2]: 使用内存中学习的方法训练AI系统的能效限制
 
-    Active Learning of Mealy Machines with Timers
+    Energy-efficiency Limits on Training AI Systems using Learning-in-Memory
 
-    [https://arxiv.org/abs/2403.02019](https://arxiv.org/abs/2403.02019)
+    [https://arxiv.org/abs/2402.14878](https://arxiv.org/abs/2402.14878)
 
-    这篇论文提出了一种用于查询学习具有定时器的Mealy机器的算法，在实现上明显比已有算法更有效率。
-
-    
-
-    我们在黑盒环境中提出了第一个用于查询学习一般类别的具有定时器的Mealy机器（MMTs）的算法。我们的算法是Vaandrager等人的L＃算法对定时设置的扩展。类似于Waga提出的用于学习定时自动机的算法，我们的算法受到Maler＆Pnueli思想的启发。我们的算法和Waga的算法都使用符号查询进行基础语言学习，然后使用有限数量的具体查询进行实现。然而，Waga需要指数级的具体查询来实现单个符号查询，而我们只需要多项式数量。这是因为要学习定时自动机，学习者需要确定每个转换的确切卫兵和重置（有指数多种可能性），而要学习MMT，学习者只需要弄清楚哪些先前的转换导致超时。正如我们之前的工作所示，
-
-    arXiv:2403.02019v1 Announce Type: cross  Abstract: We present the first algorithm for query learning of a general class of Mealy machines with timers (MMTs) in a black-box context. Our algorithm is an extension of the L# algorithm of Vaandrager et al. to a timed setting. Like the algorithm for learning timed automata proposed by Waga, our algorithm is inspired by ideas of Maler & Pnueli. Based on the elementary languages of, both Waga's and our algorithm use symbolic queries, which are then implemented using finitely many concrete queries. However, whereas Waga needs exponentially many concrete queries to implement a single symbolic query, we only need a polynomial number. This is because in order to learn a timed automaton, a learner needs to determine the exact guard and reset for each transition (out of exponentially many possibilities), whereas for learning an MMT a learner only needs to figure out which of the preceding transitions caused a timeout. As shown in our previous work, 
-    
-[^4]: 学习多个动态系统中的联合问题
-
-    Joint Problems in Learning Multiple Dynamical Systems
-
-    [https://arxiv.org/abs/2311.02181](https://arxiv.org/abs/2311.02181)
-
-    聚类时间序列的新问题，提出联合划分轨迹集并学习每个部分的线性动态系统模型，以最小化所有模型的最大误差
+    该论文提出了使用内存中学习的方法训练AI系统时的能效限制，并推导了新的理论下限。
 
     
 
-    时间序列的聚类是一个经过充分研究的问题，其应用范围从通过代谢产物浓度获得的定量个性化代谢模型到量子信息理论中的状态判别。我们考虑了一个变种，即给定一组轨迹和一些部分，我们联合划分轨迹集并学习每个部分的线性动态系统（LDS）模型，以使得所有模型的最大误差最小化。我们提出了全局收敛的方法和EM启发式算法，并附上了有前景的计算结果。
+    arXiv:2402.14878v1 公告类型: cross 摘要: 内存中学习（LIM）是一种最近提出的范Paradigm，旨在克服训练机器学习系统中的基本内存瓶颈。虽然计算于内存（CIM）方法可以解决所谓的内存墙问题（即由于重复内存读取访问而消耗的能量），但它们对于以训练所需的精度重复内存写入时消耗的能量（更新墙）是不可知的，并且它们不考虑在短期和长期记忆之间传输信息时所消耗的能量（整合墙）。LIM范式提出，如果物理内存的能量屏障被自适应调制，使得存储器更新和整合的动态与梯度下降训练AI模型的Lyapunov动态相匹配，那么这些瓶颈也可以被克服。在本文中，我们推导了使用不同LIM应用程序训练AI系统时的能耗的新理论下限。
 
-    arXiv:2311.02181v2 Announce Type: replace-cross  Abstract: Clustering of time series is a well-studied problem, with applications ranging from quantitative, personalized models of metabolism obtained from metabolite concentrations to state discrimination in quantum information theory. We consider a variant, where given a set of trajectories and a number of parts, we jointly partition the set of trajectories and learn linear dynamical system (LDS) models for each part, so as to minimize the maximum error across all the models. We present globally convergent methods and EM heuristics, accompanied by promising computational results.
+    arXiv:2402.14878v1 Announce Type: cross  Abstract: Learning-in-memory (LIM) is a recently proposed paradigm to overcome fundamental memory bottlenecks in training machine learning systems. While compute-in-memory (CIM) approaches can address the so-called memory-wall (i.e. energy dissipated due to repeated memory read access) they are agnostic to the energy dissipated due to repeated memory writes at the precision required for training (the update-wall), and they don't account for the energy dissipated when transferring information between short-term and long-term memories (the consolidation-wall). The LIM paradigm proposes that these bottlenecks, too, can be overcome if the energy barrier of physical memories is adaptively modulated such that the dynamics of memory updates and consolidation match the Lyapunov dynamics of gradient-descent training of an AI model. In this paper, we derive new theoretical lower bounds on energy dissipation when training AI systems using different LIM app
     
-[^5]: 掩码还原技术：利用掩码自编码器在测试时防御盲目后门攻击
+[^3]: SMC就是你需要的：并行强扩展
 
-    Mask and Restore: Blind Backdoor Defense at Test Time with Masked Autoencoder. (arXiv:2303.15564v1 [cs.LG])
+    SMC Is All You Need: Parallel Strong Scaling
 
-    [http://arxiv.org/abs/2303.15564](http://arxiv.org/abs/2303.15564)
+    [https://arxiv.org/abs/2402.06173](https://arxiv.org/abs/2402.06173)
 
-    本文提出了利用掩码自编码器的盲目防御框架（BDMAE），可以在测试时防御盲目后门攻击，不需要验证数据和模型参数，通过测试图像和 MAE 还原之间的结构相似性和标签一致性来检测后门攻击。
-
-    
-
-    深度神经网络容易受到恶意攻击，攻击者会通过在图像上叠加特殊的触发器来恶意操纵模型行为，这称为后门攻击。现有的后门防御方法通常需要访问一些验证数据和模型参数，这在许多实际应用中是不切实际的，例如当模型作为云服务提供时。为了解决这个问题，本文致力于测试时的盲目后门防御实践，特别是针对黑盒模型。每个测试图像的真实标签需要从可疑模型的硬标签预测中恢复。然而，在图像空间中启发式触发器搜索不适用于复杂触发器或高分辨率的图片。我们通过利用通用图像生成模型，提出了一种利用掩码自编码器的盲目防御框架（BDMAE），通过测试图像和 MAE 还原之间的结构相似性和标签一致性来检测后门攻击。
-
-    Deep neural networks are vulnerable to backdoor attacks, where an adversary maliciously manipulates the model behavior through overlaying images with special triggers. Existing backdoor defense methods often require accessing a few validation data and model parameters, which are impractical in many real-world applications, e.g., when the model is provided as a cloud service. In this paper, we address the practical task of blind backdoor defense at test time, in particular for black-box models. The true label of every test image needs to be recovered on the fly from the hard label predictions of a suspicious model. The heuristic trigger search in image space, however, is not scalable to complex triggers or high image resolution. We circumvent such barrier by leveraging generic image generation models, and propose a framework of Blind Defense with Masked AutoEncoder (BDMAE). It uses the image structural similarity and label consistency between the test image and MAE restorations to detec
-    
-[^6]: 用于求解高维偏微分方程的有限表达方法
-
-    Finite Expression Method for Solving High-Dimensional Partial Differential Equations. (arXiv:2206.10121v3 [math.NA] UPDATED)
-
-    [http://arxiv.org/abs/2206.10121](http://arxiv.org/abs/2206.10121)
-
-    本文介绍了一种名为有限表达方法（FEX）的新方法，用于在具有有限个解析表达式的函数空间中寻找高维偏微分方程的近似解。通过使用深度强化学习方法将FEX应用于各种高维偏微分方程，可以实现高度准确的求解，并且避免了维度灾难。这种有限解析表达式的近似解还可以提供对真实偏微分方程解的可解释洞察。
+    SMC并行扩展方法pSMC具有理论收敛速度，具有有界的时间复杂性和内存要求，适用于贝叶斯推断的问题。
 
     
 
-    设计高效准确的高维偏微分方程数值求解器仍然是计算科学和工程中一个具有挑战性和重要性的课题，主要是由于在设计能够按维数进行扩展的数值方案中存在“维度灾难”。本文介绍了一种新的方法，该方法在具有有限个解析表达式的函数空间中寻找近似的偏微分方程解，因此将该方法命名为有限表达方法（FEX）。在近似理论中证明了FEX可以避免维度灾难。作为概念证明，本文提出了一种深度强化学习方法，用于在不同维度上实现FEX求解各种高维偏微分方程，实现了高甚至机器精度，并具有多项式维度的记忆复杂度和可操作的时间复杂度。具有有限解析表达式的近似解还为地面真实偏微分方程解提供了可解释的洞察。
+    在贝叶斯推断的一般框架中，目标分布只能按比例常数进行评估。传统的一致Bayesian方法，如序贯蒙特卡洛(SMC)和马尔科夫链蒙特卡洛(MCMC)，具有无界的时间复杂性要求。我们开发了一种完全并行的序贯蒙特卡洛(pSMC)方法，可以证明它具有并行强扩展性，即如果允许异步进程数量增长，时间复杂性(和每个节点的内存)仍然保持有界。更具体地说，pSMC具有MSE$=O(1/NR)$的理论收敛速度，其中$N$表示每个处理器中的通信样本数量，$R$表示处理器数量。特别地，对于适当大的问题相关$N$，当$R\rightarrow \infty$时，该方法以固定有限的时间复杂性Cost$=O(1)$收敛到无穷小精度MSE$=O(\varepsilon^2)$，没有效率泄漏，即计算复杂性Cost$=O(\varepsilon)$。
 
-    Designing efficient and accurate numerical solvers for high-dimensional partial differential equations (PDEs) remains a challenging and important topic in computational science and engineering, mainly due to the "curse of dimensionality" in designing numerical schemes that scale in dimension. This paper introduces a new methodology that seeks an approximate PDE solution in the space of functions with finitely many analytic expressions and, hence, this methodology is named the finite expression method (FEX). It is proved in approximation theory that FEX can avoid the curse of dimensionality. As a proof of concept, a deep reinforcement learning method is proposed to implement FEX for various high-dimensional PDEs in different dimensions, achieving high and even machine accuracy with a memory complexity polynomial in dimension and an amenable time complexity. An approximate solution with finite analytic expressions also provides interpretable insights into the ground truth PDE solution, w
+    In the general framework of Bayesian inference, the target distribution can only be evaluated up-to a constant of proportionality. Classical consistent Bayesian methods such as sequential Monte Carlo (SMC) and Markov chain Monte Carlo (MCMC) have unbounded time complexity requirements. We develop a fully parallel sequential Monte Carlo (pSMC) method which provably delivers parallel strong scaling, i.e. the time complexity (and per-node memory) remains bounded if the number of asynchronous processes is allowed to grow. More precisely, the pSMC has a theoretical convergence rate of MSE$ = O(1/NR)$, where $N$ denotes the number of communicating samples in each processor and $R$ denotes the number of processors. In particular, for suitably-large problem-dependent $N$, as $R \rightarrow \infty$ the method converges to infinitesimal accuracy MSE$=O(\varepsilon^2)$ with a fixed finite time-complexity Cost$=O(1)$ and with no efficiency leakage, i.e. computational complexity Cost$=O(\varepsilon
+    
+[^4]: 概率演员-评论家：学习以PAC-Bayes不确定性进行探索
+
+    Probabilistic Actor-Critic: Learning to Explore with PAC-Bayes Uncertainty
+
+    [https://arxiv.org/abs/2402.03055](https://arxiv.org/abs/2402.03055)
+
+    概率演员-评论家算法（PAC）通过在评论家中建模和推断不确定性，以改进强化学习中的连续控制性能，并实现自适应的探索策略。
+
+    
+
+    我们引入了概率演员-评论家（PAC），这是一种新颖的强化学习算法，通过缓解探索与利用的平衡问题，改进了连续控制性能。PAC通过将随机策略和评论家无缝融合，创建了评论家不确定性估计和演员训练之间的动态协同作用。我们的PAC算法的关键贡献在于通过Probably Approximately Correct-Bayesian（PAC-Bayes）分析，明确建模和推断评论家的认知不确定性。这种对评论家不确定性的融入使PAC能够在学习过程中自适应调整其探索策略，指导演员的决策过程。与现有技术中的固定或预定的探索方案相比，PAC表现出更好的效果。通过PAC-Bayes分析引导的随机策略和评论家之间的协同作用，是向深度强化学习中更具自适应性和有效性的探索策略迈出的关键一步。
+
+    We introduce Probabilistic Actor-Critic (PAC), a novel reinforcement learning algorithm with improved continuous control performance thanks to its ability to mitigate the exploration-exploitation trade-off. PAC achieves this by seamlessly integrating stochastic policies and critics, creating a dynamic synergy between the estimation of critic uncertainty and actor training. The key contribution of our PAC algorithm is that it explicitly models and infers epistemic uncertainty in the critic through Probably Approximately Correct-Bayesian (PAC-Bayes) analysis. This incorporation of critic uncertainty enables PAC to adapt its exploration strategy as it learns, guiding the actor's decision-making process. PAC compares favorably against fixed or pre-scheduled exploration schemes of the prior art. The synergy between stochastic policies and critics, guided by PAC-Bayes analysis, represents a fundamental step towards a more adaptive and effective exploration strategy in deep reinforcement lear
+    
+[^5]: 政策梯度探索背后的神话
+
+    Behind the Myth of Exploration in Policy Gradients
+
+    [https://arxiv.org/abs/2402.00162](https://arxiv.org/abs/2402.00162)
+
+    本论文提出了对政策梯度算法中探索项的新分析方法，区分了其平滑学习目标和增加梯度估计的两种不同作用。同时，详细讨论和实证了基于熵奖励的探索策略的局限性，并开辟了未来对这些策略设计和分析的研究方向。
+
+    
+
+    政策梯度算法是解决具有连续状态和动作空间的控制问题的有效强化学习方法。为了计算接近最优的策略，在实践中必须在学习目标中包含探索项。尽管这些项的有效性通常通过对探索环境的内在需求进行证明，但我们提出了一种新的分析方法，区分了这些技术的两种不同含义。首先，它们使得平滑学习目标成为可能，并在保持全局最大值的同时消除了局部最优解。其次，它们修改了梯度估计，增加了随机参数更新最终提供最优策略的概率。基于这些效应，我们讨论并实证了基于熵奖励的探索策略，突出了其局限性，并为设计和分析这些策略的未来研究开辟了新方向。
+
+    Policy-gradient algorithms are effective reinforcement learning methods for solving control problems with continuous state and action spaces. To compute near-optimal policies, it is essential in practice to include exploration terms in the learning objective. Although the effectiveness of these terms is usually justified by an intrinsic need to explore environments, we propose a novel analysis and distinguish two different implications of these techniques. First, they make it possible to smooth the learning objective and to eliminate local optima while preserving the global maximum. Second, they modify the gradient estimates, increasing the probability that the stochastic parameter update eventually provides an optimal policy. In light of these effects, we discuss and illustrate empirically exploration strategies based on entropy bonuses, highlighting their limitations and opening avenues for future works in the design and analysis of such strategies.
+    
+[^6]: 机器学习在弥散磁共振成像中的应用
+
+    Diffusion MRI with Machine Learning
+
+    [https://arxiv.org/abs/2402.00019](https://arxiv.org/abs/2402.00019)
+
+    本文评估了机器学习在弥散磁共振成像中的应用，重点关注了微结构映射、纤维束描记、白质纤维束分析以及数据预处理和协调的方法。通过对现有方法的总结，提出了未来研究的主题。
+
+    
+
+    弥散加权磁共振成像（dMRI）具有非侵入性评估大脑微结构和结构连接的独特能力。然而，分析dMRI数据以提取临床和科学目的的有用信息具有挑战性。 dMRI测量通常受到强噪声和伪影的干扰，数据中通常存在高的会话间和扫描者间异质性，以及大脑结构的相当大的个体间变异，并且测量和感兴趣现象之间的关系可能非常复杂。近年来，机器学习方法在dMRI分析中的应用越来越多。本文旨在评估这些尝试，重点关注已经解决了微结构映射、纤维束描记、白质纤维束分析以及数据预处理和协调的方法。我们总结了现有方法的主要发现、优点和缺点，并提出了未来研究的主题。
+
+    Diffusion-weighted magnetic resonance imaging (dMRI) offers unique capabilities such as noninvasive assessment of brain's micro-structure and structural connectivity. However, analyzing the dMRI data to extract useful information for clinical and scientific purposes is challenging. The dMRI measurements often suffer from strong noise and artifacts, there is usually high inter-session and inter-scanner heterogeneity in the data and considerable inter-subject variability in brain structure, and the relationship between measurements and the phenomena of interest can be highly complex. Recent years have witnessed increasing use of machine learning methods for dMRI analysis. This manuscript aims to assess these efforts, with a focus on methods that have addressed micro-structure mapping, tractography, white matter tract analysis, as well as data preprocessing and harmonization. We summarize the main findings, strengths, and weaknesses of the existing methods and suggest topics for future re
+    
+[^7]: 不要按按钮！探索机器学习和迁移学习中的数据泄露风险
+
+    Don't Push the Button! Exploring Data Leakage Risks in Machine Learning and Transfer Learning. (arXiv:2401.13796v1 [cs.LG])
+
+    [http://arxiv.org/abs/2401.13796](http://arxiv.org/abs/2401.13796)
+
+    本文讨论了机器学习中的数据泄露问题，即未预期的信息污染训练数据，影响模型性能评估，用户可能由于缺乏理解而忽视关键步骤，导致乐观的性能估计在实际场景中不成立。
+
+    
+
+    机器学习（ML）在各个领域取得了革命性的进展，为多个领域提供了预测能力。然而，随着ML工具的日益可获得性，许多从业者缺乏深入的ML专业知识，采用了“按按钮”方法，利用用户友好的界面而忽视了底层算法的深入理解。虽然这种方法提供了便利，但它引发了对结果可靠性的担忧，导致了错误的性能评估等挑战。本文解决了ML中的一个关键问题，即数据泄露，其中未预期的信息污染了训练数据，影响了模型的性能评估。由于缺乏理解，用户可能会无意中忽视关键步骤，从而导致在现实场景中可能不成立的乐观性能估计。评估性能与实际在新数据上的性能的差异是一个重要的关注点。本文特别将ML中的数据泄露分为不同类别，并讨论了相关解决方法。
+
+    Machine Learning (ML) has revolutionized various domains, offering predictive capabilities in several areas. However, with the increasing accessibility of ML tools, many practitioners, lacking deep ML expertise, adopt a "push the button" approach, utilizing user-friendly interfaces without a thorough understanding of underlying algorithms. While this approach provides convenience, it raises concerns about the reliability of outcomes, leading to challenges such as incorrect performance evaluation. This paper addresses a critical issue in ML, known as data leakage, where unintended information contaminates the training data, impacting model performance evaluation. Users, due to a lack of understanding, may inadvertently overlook crucial steps, leading to optimistic performance estimates that may not hold in real-world scenarios. The discrepancy between evaluated and actual performance on new data is a significant concern. In particular, this paper categorizes data leakage in ML, discussi
     
 
