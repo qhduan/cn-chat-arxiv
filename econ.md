@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Efficiency in random allocation with ordinal rules.](http://arxiv.org/abs/2401.11899) | 该论文研究了通过抽签分配不可分割商品的顺序规则，并定义了一种新的效率概念。尽管顺序性和效率在一起与公平概念不兼容，但它们允许存在一类丰富的规则。 |
+| [^1] | [Multi-period static hedging of European options.](http://arxiv.org/abs/2310.01104) | 本文研究了基于单因素马尔可夫框架的多期欧式期权的静态对冲，并对相对性能进行了实验比较。 |
 
 # 详细
 
-[^1]: 随机分配中的顺序规则效率
+[^1]: 多期欧式期权的静态对冲
 
-    Efficiency in random allocation with ordinal rules. (arXiv:2401.11899v1 [econ.TH])
+    Multi-period static hedging of European options. (arXiv:2310.01104v1 [q-fin.MF])
 
-    [http://arxiv.org/abs/2401.11899](http://arxiv.org/abs/2401.11899)
+    [http://arxiv.org/abs/2310.01104](http://arxiv.org/abs/2310.01104)
 
-    该论文研究了通过抽签分配不可分割商品的顺序规则，并定义了一种新的效率概念。尽管顺序性和效率在一起与公平概念不兼容，但它们允许存在一类丰富的规则。
+    本文研究了基于单因素马尔可夫框架的多期欧式期权的静态对冲，并对相对性能进行了实验比较。
 
     
 
-    我们研究了通过抽签分配不可分割商品的顺序规则。顺序性要求规则仅考虑代理人对非凡抽签的排序方式，并且可能受认知、信息或者我们展示的激励约束的限制。顺序规则对代理人偏好的有限响应性意味着它们只能满足基于一阶随机优势的福利性质，这是不完整的。我们为顺序规则定义了一种新的效率概念。尽管顺序性和效率在一起与通常的公平概念不兼容，并且在一定程度上限制了随机化，它们仍为一类丰富的规则留下了空间。通过对所有顺序、效率、策略可证明、非霸占、有界不变和中立规则的刻画，我们证明了这一点。
+    本文考虑了在基础资产价格遵循单因素马尔可夫框架的情况下对欧式期权进行对冲。Carr和Wu [1]在这样的设置下，导出了给定期权与在同一资产上写的一系列较短期限期权之间的跨度关系。在本文中，我们将他们的方法扩展到同时包括多个短期到期的期权。然后，我们使用高斯求积方法通过有限的一组短期期权确定对冲误差的实际实现。我们对\textit{Black-Scholes}和\textit{Merton Jump Diffusion}模型进行了广泛的实验，展示了这两种方法的比较性能。
 
-    We study ordinal rules for allocating indivisible goods via lottery. Ordinality requires a rule to consider only how agents rank degenerate lotteries and may be necessitated by cognitive, informational, or as we show, incentive constraints. The limited responsiveness of ordinal rules to agents' preferences means that they can only satisfy welfare properties based on first order stochastic dominance, which is incomplete.  We define a new efficiency concept for ordinal rules. While ordinality and efficiency together are incompatible with the usual notions of fairness and somewhat limit randomization, they does leave room for a rich class of rules. We demonstrate this through a characterization of all ordinal, efficient, strategy-proof, non-bossy, boundedly invariant, and neutral rules.
+    We consider the hedging of European options when the price of the underlying asset follows a single-factor Markovian framework. By working in such a setting, Carr and Wu \cite{carr2014static} derived a spanning relation between a given option and a continuum of shorter-term options written on the same asset. In this paper, we have extended their approach to simultaneously include options over multiple short maturities. We then show a practical implementation of this with a finite set of shorter-term options to determine the hedging error using a Gaussian Quadrature method. We perform a wide range of experiments for both the \textit{Black-Scholes} and \textit{Merton Jump Diffusion} models, illustrating the comparative performance of the two methods.
     
 
