@@ -2,82 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Uncertainty-Calibrated Test-Time Model Adaptation without Forgetting](https://arxiv.org/abs/2403.11491) | 提出了一种高效的抗遗忘测试时间适应（EATA）方法，通过开发主动样本选择标准和引入Fisher正则化约束重要模型参数，实现了不会忘记的不确定性校准测试时间模型适应。 |
-| [^2] | [Sharp Lower Bounds on Interpolation by Deep ReLU Neural Networks at Irregularly Spaced Data](https://arxiv.org/abs/2302.00834) | 该论文研究了深度ReLU神经网络在不规则间隔数据上的插值问题，证明了在数据点间距指数级小的情况下需要$\Omega(N)$个参数，同时指出现有的位提取技术无法应用于这种情况。 |
-| [^3] | [Learning Optimal Classification Trees Robust to Distribution Shifts.](http://arxiv.org/abs/2310.17772) | 本研究提出了一种学习对分布变化具有鲁棒性的最优分类树的方法，通过混合整数鲁棒优化技术将该问题转化为单阶段混合整数鲁棒优化问题，并设计了基于约束生成的解决过程。 |
-| [^4] | [Contraction Properties of the Global Workspace Primitive.](http://arxiv.org/abs/2310.01571) | 本文扩展了关于多区域递归神经网络的稳定性研究，并在全局工作空间模块化结构上证明了松散稳定性条件。实证结果显示全局工作空间稀疏组合网络在测试表现和韧性方面表现出较好的性能，强调了稳定性对于实现模块化RNN的重要性。 |
-| [^5] | [On the Need for a Language Describing Distribution Shifts: Illustrations on Tabular Datasets.](http://arxiv.org/abs/2307.05284) | 该论文通过对表格数据集中的自然偏移进行研究，发现$Y|X$-偏移最为普遍。为了推动研究人员开发描述数据分布偏移的精细语言，作者构建了WhyShift实验平台，并讨论了$Y|X$-偏移对算法的影响。 |
+| [^1] | [FraGNNet: A Deep Probabilistic Model for Mass Spectrum Prediction](https://arxiv.org/abs/2404.02360) | FraGNNet是一种用于化合物到质谱预测的深度概率模型，能够高效准确地预测高分辨率谱，在性能上超越了现有的模型 |
+| [^2] | [A Statistical Framework of Watermarks for Large Language Models: Pivot, Detection Efficiency and Optimal Rules](https://arxiv.org/abs/2404.01245) | 该论文提出了一个通用框架，用于设计大型语言模型水印的统计效率和检测规则，通过关键统计量和秘密密钥控制误报率，同时评估水印检测规则的能力。 |
+| [^3] | [Conditional Wasserstein Distances with Applications in Bayesian OT Flow Matching](https://arxiv.org/abs/2403.18705) | 本文介绍了一种通过一组受限耦合引入的条件Wasserstein距离，它等于后验Wasserstein距离的期望，推导了其性质，并提出了近似速度场的方法。 |
+| [^4] | [Bayes-Optimal Fair Classification with Linear Disparity Constraints via Pre-, In-, and Post-processing](https://arxiv.org/abs/2402.02817) | 本文提出了一种基于贝叶斯最优的公平分类方法，通过先处理、中处理和后处理来最小化分类错误，并在给定群体公平性约束的情况下进行优化。该方法引入了线性和双线性差异度量的概念，并找到了贝叶斯最优公平分类器的形式。本方法能够处理多个公平性约束和常见情况。 |
+| [^5] | [Predicting the cardinality and maximum degree of a reduced Gr\"obner basis.](http://arxiv.org/abs/2302.05364) | 该论文利用神经网络回归模型预测了简化Gr\"obner基的基数和最大总度数，结果表明神经网络具有更好的性能统计，相比于朴素猜测或多元回归模型。 |
 
 # 详细
 
-[^1]: 不会忘却的不确定性校准测试时间模型适应
+[^1]: FraGNNet：一种用于质谱预测的深度概率模型
 
-    Uncertainty-Calibrated Test-Time Model Adaptation without Forgetting
+    FraGNNet: A Deep Probabilistic Model for Mass Spectrum Prediction
 
-    [https://arxiv.org/abs/2403.11491](https://arxiv.org/abs/2403.11491)
+    [https://arxiv.org/abs/2404.02360](https://arxiv.org/abs/2404.02360)
 
-    提出了一种高效的抗遗忘测试时间适应（EATA）方法，通过开发主动样本选择标准和引入Fisher正则化约束重要模型参数，实现了不会忘记的不确定性校准测试时间模型适应。
-
-    
-
-    测试时间适应（TTA）旨在通过根据任何测试样本调整给定模型，以应对训练和测试数据之间的潜在分布偏移。尽管最近的TTA表现出有希望的性能，但我们仍然面临两个关键挑战：1）先前的方法对每个测试样本执行反向传播，导致许多应用程序无法承受的优化成本；2）虽然现有的TTA可以显著改善在分布数据上的测试性能，但它们经常在TTA后在分布数据上遭受严重性能下降（即所谓的遗忘）。为此，我们提出了一种高效的抗遗忘测试时间适应（EATA）方法，该方法开发了一个主动样本选择标准，以识别可靠且非冗余的样本进行在测试时间的熵最小化。为了缓解遗忘，EATA引入了从测试样本中估计的Fisher正则化项，以约束重要的模型参数免于急剧变化。
-
-    arXiv:2403.11491v1 Announce Type: new  Abstract: Test-time adaptation (TTA) seeks to tackle potential distribution shifts between training and test data by adapting a given model w.r.t. any test sample. Although recent TTA has shown promising performance, we still face two key challenges: 1) prior methods perform backpropagation for each test sample, resulting in unbearable optimization costs to many applications; 2) while existing TTA can significantly improve the test performance on out-of-distribution data, they often suffer from severe performance degradation on in-distribution data after TTA (known as forgetting). To this end, we have proposed an Efficient Anti-Forgetting Test-Time Adaptation (EATA) method which develops an active sample selection criterion to identify reliable and non-redundant samples for test-time entropy minimization. To alleviate forgetting, EATA introduces a Fisher regularizer estimated from test samples to constrain important model parameters from drastic c
-    
-[^2]: 用于不规则间隔数据的深度ReLU神经网络插值的尖锐下界
-
-    Sharp Lower Bounds on Interpolation by Deep ReLU Neural Networks at Irregularly Spaced Data
-
-    [https://arxiv.org/abs/2302.00834](https://arxiv.org/abs/2302.00834)
-
-    该论文研究了深度ReLU神经网络在不规则间隔数据上的插值问题，证明了在数据点间距指数级小的情况下需要$\Omega(N)$个参数，同时指出现有的位提取技术无法应用于这种情况。
+    FraGNNet是一种用于化合物到质谱预测的深度概率模型，能够高效准确地预测高分辨率谱，在性能上超越了现有的模型
 
     
 
-    我们研究了深度ReLU神经网络的插值能力。具体来说，我们考虑深度ReLU网络如何在单位球中的$N$个数据点上进行值的插值，这些点之间相距$\delta$。我们表明在$\delta$在$N$指数级小的区域中需要$\Omega(N)$个参数，这给出了该区域的尖锐结果，因为$O(N)$个参数总是足够的。 这也表明用于证明VC维度下界的位提取技术无法应用于不规则间隔的数据点。最后，作为应用，我们给出了深度ReLU神经网络在嵌入端点处为Sobolev空间实现的近似速率的下界。
+    识别复杂混合物中化合物的方法中，质谱的识别是一个关键步骤。传统的质谱到化合物（MS2C）问题的解决方案涉及将未知的质谱与已知的质谱-分子库进行匹配，但这种方法受限于库覆盖不完整。化合物到质谱（C2MS）模型可以通过将真实库与预测谱进行增强来提高检索率。不幸的是，许多现有的C2MS模型在预测分辨率、可扩展性或可解释性方面存在问题。我们开发了一种新的C2MS预测概率方法——FraGNNet，可以高效准确地预测高分辨率谱。FraGNNet使用结构化的潜在空间来揭示定义谱的基本过程。我们的模型在预测误差方面实现了最先进的性能，并超越了现有的C2MS模型。
 
-    arXiv:2302.00834v2 Announce Type: replace  Abstract: We study the interpolation power of deep ReLU neural networks. Specifically, we consider the question of how efficiently, in terms of the number of parameters, deep ReLU networks can interpolate values at $N$ datapoints in the unit ball which are separated by a distance $\delta$. We show that $\Omega(N)$ parameters are required in the regime where $\delta$ is exponentially small in $N$, which gives the sharp result in this regime since $O(N)$ parameters are always sufficient. This also shows that the bit-extraction technique used to prove lower bounds on the VC dimension cannot be applied to irregularly spaced datapoints. Finally, as an application we give a lower bound on the approximation rates that deep ReLU neural networks can achieve for Sobolev spaces at the embedding endpoint.
+    arXiv:2404.02360v1 Announce Type: new  Abstract: The process of identifying a compound from its mass spectrum is a critical step in the analysis of complex mixtures. Typical solutions for the mass spectrum to compound (MS2C) problem involve matching the unknown spectrum against a library of known spectrum-molecule pairs, an approach that is limited by incomplete library coverage. Compound to mass spectrum (C2MS) models can improve retrieval rates by augmenting real libraries with predicted spectra. Unfortunately, many existing C2MS models suffer from problems with prediction resolution, scalability, or interpretability. We develop a new probabilistic method for C2MS prediction, FraGNNet, that can efficiently and accurately predict high-resolution spectra. FraGNNet uses a structured latent space to provide insight into the underlying processes that define the spectrum. Our model achieves state-of-the-art performance in terms of prediction error, and surpasses existing C2MS models as a t
     
-[^3]: 学习对分布变化具有鲁棒性的最优分类树
+[^2]: 大型语言模型水印的统计框架: 枢轴、检测效率和最优规则
 
-    Learning Optimal Classification Trees Robust to Distribution Shifts. (arXiv:2310.17772v1 [cs.LG])
+    A Statistical Framework of Watermarks for Large Language Models: Pivot, Detection Efficiency and Optimal Rules
 
-    [http://arxiv.org/abs/2310.17772](http://arxiv.org/abs/2310.17772)
+    [https://arxiv.org/abs/2404.01245](https://arxiv.org/abs/2404.01245)
 
-    本研究提出了一种学习对分布变化具有鲁棒性的最优分类树的方法，通过混合整数鲁棒优化技术将该问题转化为单阶段混合整数鲁棒优化问题，并设计了基于约束生成的解决过程。
-
-    
-
-    我们考虑学习对训练和测试/部署数据之间的分布变化具有鲁棒性的分类树的问题。这个问题经常在高风险环境中出现，例如公共卫生和社会工作，其中数据通常是通过自我报告的调查收集的，这些调查对问题的表述方式、调查进行的时间和地点、以及受访者与调查员分享信息的舒适程度非常敏感。我们提出了一种基于混合整数鲁棒优化技术的学习最优鲁棒分类树的方法。特别地，我们证明学习最优鲁棒树的问题可以等价地表达为一个具有高度非线性和不连续目标的单阶段混合整数鲁棒优化问题。我们将这个问题等价地重新表述为一个两阶段线性鲁棒优化问题，为此我们设计了一个基于约束生成的定制解决过程。
-
-    We consider the problem of learning classification trees that are robust to distribution shifts between training and testing/deployment data. This problem arises frequently in high stakes settings such as public health and social work where data is often collected using self-reported surveys which are highly sensitive to e.g., the framing of the questions, the time when and place where the survey is conducted, and the level of comfort the interviewee has in sharing information with the interviewer. We propose a method for learning optimal robust classification trees based on mixed-integer robust optimization technology. In particular, we demonstrate that the problem of learning an optimal robust tree can be cast as a single-stage mixed-integer robust optimization problem with a highly nonlinear and discontinuous objective. We reformulate this problem equivalently as a two-stage linear robust optimization problem for which we devise a tailored solution procedure based on constraint gene
-    
-[^4]: 全局工作空间基元的收缩性质
-
-    Contraction Properties of the Global Workspace Primitive. (arXiv:2310.01571v1 [cs.LG])
-
-    [http://arxiv.org/abs/2310.01571](http://arxiv.org/abs/2310.01571)
-
-    本文扩展了关于多区域递归神经网络的稳定性研究，并在全局工作空间模块化结构上证明了松散稳定性条件。实证结果显示全局工作空间稀疏组合网络在测试表现和韧性方面表现出较好的性能，强调了稳定性对于实现模块化RNN的重要性。
+    该论文提出了一个通用框架，用于设计大型语言模型水印的统计效率和检测规则，通过关键统计量和秘密密钥控制误报率，同时评估水印检测规则的能力。
 
     
 
-    为了推动关于多区域递归神经网络(RNNs)的重要新兴研究领域，我们在Kozachkov等人的“递归构建稳定的递归神经网络组装品”的基础上在理论上和实证上进行了扩展。我们证明了该架构的显著特例的松散稳定性条件，特别是针对全局工作空间模块化结构。我们通过对具有少量可训练参数的全局工作空间稀疏组合网络进行实证成功，不仅在整体测试表现方面表现出强大的性能，还对单个子网络的移除具有更大的韧性。这些全局工作空间接触区拓扑的实证结果依赖于稳定性的保持，突出了我们的理论工作对于实现模块化RNN的成功的相关性。此外，通过更广泛地探索不同子网络模块之间的连接结构的稀疏性，
+    自ChatGPT于2022年11月推出以来，将几乎不可察觉的统计信号嵌入到大型语言模型（LLMs）生成的文本中，也被称为水印，已被用作从其人类撰写对应物上可证检测LLM生成文本的原则性方法。 本文介绍了一个通用灵活的框架，用于推理水印的统计效率并设计强大的检测规则。受水印检测的假设检验公式启发，我们的框架首先选择文本的枢轴统计量和由LLM提供给验证器的秘密密钥，以实现控制误报率（将人类撰写的文本错误地检测为LLM生成的错误）。 接下来，该框架允许通过获取渐近错误负率（将LLM生成文本错误地检测为人类撰写的错误）的封闭形式表达式来评估水印检测规则的能力。
 
-    To push forward the important emerging research field surrounding multi-area recurrent neural networks (RNNs), we expand theoretically and empirically on the provably stable RNNs of RNNs introduced by Kozachkov et al. in "RNNs of RNNs: Recursive Construction of Stable Assemblies of Recurrent Neural Networks". We prove relaxed stability conditions for salient special cases of this architecture, most notably for a global workspace modular structure. We then demonstrate empirical success for Global Workspace Sparse Combo Nets with a small number of trainable parameters, not only through strong overall test performance but also greater resilience to removal of individual subnetworks. These empirical results for the global workspace inter-area topology are contingent on stability preservation, highlighting the relevance of our theoretical work for enabling modular RNN success. Further, by exploring sparsity in the connectivity structure between different subnetwork modules more broadly, we 
+    arXiv:2404.01245v1 Announce Type: cross  Abstract: Since ChatGPT was introduced in November 2022, embedding (nearly) unnoticeable statistical signals into text generated by large language models (LLMs), also known as watermarking, has been used as a principled approach to provable detection of LLM-generated text from its human-written counterpart. In this paper, we introduce a general and flexible framework for reasoning about the statistical efficiency of watermarks and designing powerful detection rules. Inspired by the hypothesis testing formulation of watermark detection, our framework starts by selecting a pivotal statistic of the text and a secret key -- provided by the LLM to the verifier -- to enable controlling the false positive rate (the error of mistakenly detecting human-written text as LLM-generated). Next, this framework allows one to evaluate the power of watermark detection rules by obtaining a closed-form expression of the asymptotic false negative rate (the error of 
     
-[^5]: 关于需要描述分布偏移的语言：基于表格数据集的案例分析
+[^3]: 具有贝叶斯OT流匹配应用的条件Wasserstein距离
 
-    On the Need for a Language Describing Distribution Shifts: Illustrations on Tabular Datasets. (arXiv:2307.05284v1 [cs.LG])
+    Conditional Wasserstein Distances with Applications in Bayesian OT Flow Matching
 
-    [http://arxiv.org/abs/2307.05284](http://arxiv.org/abs/2307.05284)
+    [https://arxiv.org/abs/2403.18705](https://arxiv.org/abs/2403.18705)
 
-    该论文通过对表格数据集中的自然偏移进行研究，发现$Y|X$-偏移最为普遍。为了推动研究人员开发描述数据分布偏移的精细语言，作者构建了WhyShift实验平台，并讨论了$Y|X$-偏移对算法的影响。
+    本文介绍了一种通过一组受限耦合引入的条件Wasserstein距离，它等于后验Wasserstein距离的期望，推导了其性质，并提出了近似速度场的方法。
 
     
 
-    不同的分布偏移需要不同的算法和操作干预。方法研究必须以其所涉及的具体偏移为基础。尽管新兴的基准数据为实证研究提供了有希望的基础，但它们隐含地关注协变量偏移，并且实证发现的有效性取决于偏移类型，例如，当$Y|X$分布发生变化时，之前关于算法性能的观察可能无效。我们对5个表格数据集中的自然偏移进行了深入研究，通过对86,000个模型配置进行实验，发现$Y|X$-偏移最为普遍。为了鼓励研究人员开发一种精细的描述数据分布偏移的语言，我们构建了WhyShift，一个由策划的真实世界偏移测试平台，在其中我们对我们基准性能的偏移类型进行了表征。由于$Y|X$-偏移在表格设置中很常见，我们确定了受到最大$Y|X$-偏移影响的协变量区域，并讨论了对算法的影响。
+    在逆问题中，许多条件生成模型通过最小化联合度量与其学习逼近之间的距离来近似后验测度。尽管这种方法在Kullback--Leibler分歧的情况下也控制后验测度之间的距离，但一般来说对于Wasserstein距离并不成立。在本文中，我们通过一组受限耦合引入了一种条件Wasserstein距离，它等于后验Wasserstein距离的期望。有趣的是，条件Wasserstein-1流的对偶形式以一种非常自然的方式类似于条件Wasserstein GAN文献中的损失。我们推导了条件Wasserstein距离的理论性质，表征相应的测地线和速度场以及流ODE。随后，我们建议通过放宽条件Wasserstein距离来近似速度场。
 
-    Different distribution shifts require different algorithmic and operational interventions. Methodological research must be grounded by the specific shifts they address. Although nascent benchmarks provide a promising empirical foundation, they implicitly focus on covariate shifts, and the validity of empirical findings depends on the type of shift, e.g., previous observations on algorithmic performance can fail to be valid when the $Y|X$ distribution changes. We conduct a thorough investigation of natural shifts in 5 tabular datasets over 86,000 model configurations, and find that $Y|X$-shifts are most prevalent. To encourage researchers to develop a refined language for distribution shifts, we build WhyShift, an empirical testbed of curated real-world shifts where we characterize the type of shift we benchmark performance over. Since $Y|X$-shifts are prevalent in tabular settings, we identify covariate regions that suffer the biggest $Y|X$-shifts and discuss implications for algorithm
+    arXiv:2403.18705v1 Announce Type: new  Abstract: In inverse problems, many conditional generative models approximate the posterior measure by minimizing a distance between the joint measure and its learned approximation. While this approach also controls the distance between the posterior measures in the case of the Kullback--Leibler divergence, this is in general not hold true for the Wasserstein distance. In this paper, we introduce a conditional Wasserstein distance via a set of restricted couplings that equals the expected Wasserstein distance of the posteriors. Interestingly, the dual formulation of the conditional Wasserstein-1 flow resembles losses in the conditional Wasserstein GAN literature in a quite natural way. We derive theoretical properties of the conditional Wasserstein distance, characterize the corresponding geodesics and velocity fields as well as the flow ODEs. Subsequently, we propose to approximate the velocity fields by relaxing the conditional Wasserstein dista
+    
+[^4]: 基于先处理、中处理和后处理的线性差异约束下的贝叶斯最优公平分类
+
+    Bayes-Optimal Fair Classification with Linear Disparity Constraints via Pre-, In-, and Post-processing
+
+    [https://arxiv.org/abs/2402.02817](https://arxiv.org/abs/2402.02817)
+
+    本文提出了一种基于贝叶斯最优的公平分类方法，通过先处理、中处理和后处理来最小化分类错误，并在给定群体公平性约束的情况下进行优化。该方法引入了线性和双线性差异度量的概念，并找到了贝叶斯最优公平分类器的形式。本方法能够处理多个公平性约束和常见情况。
+
+    
+
+    机器学习算法可能对受保护的群体产生不公平的影响。为解决这个问题，我们开发了基于贝叶斯最优的公平分类方法，旨在在给定群体公平性约束的情况下最小化分类错误。我们引入了线性差异度量的概念，它们是概率分类器的线性函数；以及双线性差异度量，它们在群体回归函数方面也是线性的。我们证明了几种常见的差异度量（如人口平等、机会平等和预测平等）都是双线性的。我们通过揭示与Neyman-Pearson引理的连接，找到了在单一线性差异度量下的贝叶斯最优公平分类器的形式。对于双线性差异度量，贝叶斯最优公平分类器变成了群体阈值规则。我们的方法还可以处理多个公平性约束（如平等的几率）和受保护属性常见的情况。
+
+    Machine learning algorithms may have disparate impacts on protected groups. To address this, we develop methods for Bayes-optimal fair classification, aiming to minimize classification error subject to given group fairness constraints. We introduce the notion of \emph{linear disparity measures}, which are linear functions of a probabilistic classifier; and \emph{bilinear disparity measures}, which are also linear in the group-wise regression functions. We show that several popular disparity measures -- the deviations from demographic parity, equality of opportunity, and predictive equality -- are bilinear.   We find the form of Bayes-optimal fair classifiers under a single linear disparity measure, by uncovering a connection with the Neyman-Pearson lemma. For bilinear disparity measures, Bayes-optimal fair classifiers become group-wise thresholding rules. Our approach can also handle multiple fairness constraints (such as equalized odds), and the common scenario when the protected attr
+    
+[^5]: 预测简化Gr\"obner基数和最大度数的神经网络回归模型
+
+    Predicting the cardinality and maximum degree of a reduced Gr\"obner basis. (arXiv:2302.05364v2 [math.AC] UPDATED)
+
+    [http://arxiv.org/abs/2302.05364](http://arxiv.org/abs/2302.05364)
+
+    该论文利用神经网络回归模型预测了简化Gr\"obner基的基数和最大总度数，结果表明神经网络具有更好的性能统计，相比于朴素猜测或多元回归模型。
+
+    
+
+    我们构建了神经网络回归模型，用以预测二项理想的Gr\"obner基复杂度的关键指标。这项工作说明了为什么利用神经网络从Gr\"obner计算中进行预测并不是一个简单的过程。我们使用两个概率模型来生成和提供一个大规模的数据集，能够捕捉到Gr\"obner复杂度的足够变异性。我们利用这些数据来训练神经网络并预测简化Gr\"obner基的基数和其元素的最大总度数。虽然基数预测问题不同于经典的机器学习问题，但我们的模拟结果表明，神经网络具有更好的性能统计，如$r^2 = 0.401$，相比于朴素猜测或多元回归模型的$r^2 = 0.180$。
+
+    We construct neural network regression models to predict key metrics of complexity for Gr\"obner bases of binomial ideals. This work illustrates why predictions with neural networks from Gr\"obner computations are not a straightforward process. Using two probabilistic models for random binomial ideals, we generate and make available a large data set that is able to capture sufficient variability in Gr\"obner complexity. We use this data to train neural networks and predict the cardinality of a reduced Gr\"obner basis and the maximum total degree of its elements. While the cardinality prediction problem is unlike classical problems tackled by machine learning, our simulations show that neural networks, providing performance statistics such as $r^2 = 0.401$, outperform naive guess or multiple regression models with $r^2 = 0.180$.
     
 
