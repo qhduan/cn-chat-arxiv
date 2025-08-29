@@ -2,37 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Ordinal Intensity-Efficient Allocations](https://arxiv.org/abs/2011.04306) | 这篇论文研究了一种新的分配问题，考虑了代理的序数强度，提出了基于排名的准则，定义了强度高效的分配。论文初步讨论了这种分配的存在性和非存在性。 |
-| [^2] | [The Bayesian Context Trees State Space Model for time series modelling and forecasting.](http://arxiv.org/abs/2308.00913) | 该论文介绍了基于贝叶斯上下文树状态空间模型的时间序列建模和预测方法，通过层级贝叶斯框架将离散状态和实值时间序列模型组合，构建出灵活且可解释的混合模型，并提出了有效的算法来进行贝叶斯推断和预测。 |
+| [^1] | [Large sample properties of GMM estimators under second-order identification.](http://arxiv.org/abs/2307.13475) | 本文提出了GMM估计器在二阶识别条件下的大样本性质，证明了估计器的收敛速率并给出了极限分布，但需要满足过识别条件。 |
 
 # 详细
 
-[^1]: 序数强度高效分配
+[^1]: GMM估计器在二阶识别下的大样本性质
 
-    Ordinal Intensity-Efficient Allocations
+    Large sample properties of GMM estimators under second-order identification. (arXiv:2307.13475v1 [econ.EM])
 
-    [https://arxiv.org/abs/2011.04306](https://arxiv.org/abs/2011.04306)
+    [http://arxiv.org/abs/2307.13475](http://arxiv.org/abs/2307.13475)
 
-    这篇论文研究了一种新的分配问题，考虑了代理的序数强度，提出了基于排名的准则，定义了强度高效的分配。论文初步讨论了这种分配的存在性和非存在性。
-
-    
-
-    我们研究了分配问题，其中代理除了具有序数偏好外，还具有"序数强度"：他们可以进行简单和内部一致的比较，例如“我更喜欢$a$而不是$b$，比我更喜欢$c$而不是$d$”，而不一定能够量化它们。在这种新的信息社会选择环境中，我们首先引入了一个基于排名的准则，使得可以进行这些序数强度的跨个人比较。基于这个准则，我们定义了一种分配为“强度高效”，如果它在代理的强度引发的偏好方面是帕累托有效的，并且当另一种分配以相同的方式将相同的物品对分配给相同的代理对时，前一种分配将每对中普遍更受偏好的物品分配给更喜欢它的代理。我们在不对偏好施加限制的情况下提出了关于这种分配的一些初步结果。
-
-    We study the assignment problem in situations where, in addition to having ordinal preferences, agents also have *ordinal intensities*: they can make simple and internally consistent comparisons such as "I prefer $a$ to $b$ more than I prefer $c$ to $d$" without necessarily being able to quantify them. In this new informational social-choice environment we first introduce a rank-based criterion that enables interpersonal comparability of such ordinal intensities. Building on this criterion, we define an allocation to be *"intensity-efficient"* if it is Pareto efficient with respect to the preferences induced by the agents' intensities and also such that, when another allocation assigns the same pairs of items to the same pairs of agents but in a "flipped" way, the former allocation assigns the commonly preferred item in every such pair to the agent who prefers it more. We present some first results on the (non-)existence of such allocations without imposing restrictions on preferences 
-    
-[^2]: 基于贝叶斯上下文树状态空间模型的时间序列建模和预测
-
-    The Bayesian Context Trees State Space Model for time series modelling and forecasting. (arXiv:2308.00913v1 [stat.ME])
-
-    [http://arxiv.org/abs/2308.00913](http://arxiv.org/abs/2308.00913)
-
-    该论文介绍了基于贝叶斯上下文树状态空间模型的时间序列建模和预测方法，通过层级贝叶斯框架将离散状态和实值时间序列模型组合，构建出灵活且可解释的混合模型，并提出了有效的算法来进行贝叶斯推断和预测。
+    本文提出了GMM估计器在二阶识别条件下的大样本性质，证明了估计器的收敛速率并给出了极限分布，但需要满足过识别条件。
 
     
 
-    引入了一个层级贝叶斯框架，用于开发用于真实值时间序列的丰富混合模型，以及一系列有效的学习和推断工具。在顶层，通过适当量化最近样本的一些有意义的离散状态来进行鉴定。这些可观察状态的集合被描述为离散的上下文树模型。然后，在底层，将一个不同的、任意的实值时间序列模型（基本模型）与每个状态相关联。这定义了一个非常通用的框架，可以与任何现有模型类一起使用，构建灵活且可解释的混合模型。我们将其称为贝叶斯上下文树状态空间模型，或者BCT-X框架。引入了高效的算法，可以实现有效的、精确的贝叶斯推断；特别是可以确定最大后验概率（MAP）上下文树模型。这些算法可以顺序更新，以便实现有效的推断和预测。
+    本文翻译了Dovonon和Hall（2018）在全局识别参数向量{\phi}的p维情形中，当一阶识别条件失败但二阶识别条件成立时提出了GMM估计器的极限分布理论。他们假设一阶不识别是由于在真实值{\phi}_{0}处预期的Jacobian矩阵的秩为p-1，即存在秩缺失的情况。通过对模型重新参数化，使得Jacobian矩阵的最后一列为零，他们证明了前p-1个参数的GMM估计收敛速率为T^{-1/2}，剩下的参数{\phi}_{p}的GMM估计收敛速率为T^{-1/4}。他们还给出了T^{1/4}({\phi}_{p}-{\phi}_{0,p})的极限分布，但需要满足一个（不透明）条件，他们声称这个条件通常并不具限制性。然而，正如我们在本文中所展示的，他们的条件实际上只有在{\phi}过识别的情况下才满足。
 
-    A hierarchical Bayesian framework is introduced for developing rich mixture models for real-valued time series, along with a collection of effective tools for learning and inference. At the top level, meaningful discrete states are identified as appropriately quantised values of some of the most recent samples. This collection of observable states is described as a discrete context-tree model. Then, at the bottom level, a different, arbitrary model for real-valued time series - a base model - is associated with each state. This defines a very general framework that can be used in conjunction with any existing model class to build flexible and interpretable mixture models. We call this the Bayesian Context Trees State Space Model, or the BCT-X framework. Efficient algorithms are introduced that allow for effective, exact Bayesian inference; in particular, the maximum a posteriori probability (MAP) context-tree model can be identified. These algorithms can be updated sequentially, facili
+    Dovonon and Hall (Journal of Econometrics, 2018) proposed a limiting distribution theory for GMM estimators for a p - dimensional globally identified parameter vector {\phi} when local identification conditions fail at first-order but hold at second-order. They assumed that the first-order underidentification is due to the expected Jacobian having rank p-1 at the true value {\phi}_{0}, i.e., having a rank deficiency of one. After reparametrizing the model such that the last column of the Jacobian vanishes, they showed that the GMM estimator of the first p-1 parameters converges at rate T^{-1/2} and the GMM estimator of the remaining parameter, {\phi}_{p}, converges at rate T^{-1/4}. They also provided a limiting distribution of T^{1/4}({\phi}_{p}-{\phi}_{0,p}) subject to a (non-transparent) condition which they claimed to be not restrictive in general. However, as we show in this paper, their condition is in fact only satisfied when {\phi} is overidentified and the limiting distributio
     
 
