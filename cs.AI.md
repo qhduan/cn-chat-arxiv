@@ -2,67 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Towards Efficient Risk-Sensitive Policy Gradient: An Iteration Complexity Analysis](https://arxiv.org/abs/2403.08955) | 本文对风险敏感策略梯度方法进行了迭代复杂度分析，发现其能够通过使用指数效用函数达到较低的迭代复杂度。 |
-| [^2] | [Adversarial Robustness Through Artifact Design](https://arxiv.org/abs/2402.04660) | 该研究提出了一种通过艺术设计实现对抗性鲁棒性的方法，通过微小更改现有规范来抵御对抗性示例的影响。 |
-| [^3] | [Detecting LLM-Assisted Writing in Scientific Communication: Are We There Yet?.](http://arxiv.org/abs/2401.16807) | 这项研究评估了四种先进的文本检测器对LLM辅助写作的表现，发现它们的性能不如一个简单的检测器。研究认为需要开发专门用于LLM辅助写作的特定检测器，以解决当前承认实践中的挑战。 |
-| [^4] | [Heterogeneous Directed Hypergraph Neural Network over abstract syntax tree (AST) for Code Classification.](http://arxiv.org/abs/2305.04228) | 本研究提出了使用异构有向超图表示AST，并使用异构有向超图神经网络处理图形进行代码分类，超过了现有方法。 |
+| [^1] | [Explainable Machine Learning-Based Security and Privacy Protection Framework for Internet of Medical Things Systems](https://arxiv.org/abs/2403.09752) | 该论文提出了面向互联网医疗物联网系统的可解释机器学习安全与隐私保护框架，旨在解决IoMT系统面临的安全挑战，包括数据敏感性、恶意攻击和异常检测。 |
+| [^2] | [A Survey on Human-AI Teaming with Large Pre-Trained Models](https://arxiv.org/abs/2403.04931) | 本文调查了大型预训练模型与人工智能合作的重要性，强调了这些模型如何超越传统方法增强协作智能，并探讨了其在增强人类能力、改善AI模型、有效团队合作、道德考虑以及在各个领域广泛应用方面的潜在作用。 |
+| [^3] | [Does mapping elites illuminate search spaces? A large-scale user study of MAP--Elites applied to human--AI collaborative design](https://arxiv.org/abs/2402.07911) | 通过两项研究，揭示了MAP-Elites在人机协同设计中对搜索空间的作用。这些研究使用了基于进化算法的设计工具，以实现设计推荐对设计过程的影响的理解。 |
 
 # 详细
 
-[^1]: 朝向高效的风险敏感策略梯度：一个迭代复杂度分析
+[^1]: 面向IoMT系统的可解释机器学习安全与隐私保护框架
 
-    Towards Efficient Risk-Sensitive Policy Gradient: An Iteration Complexity Analysis
+    Explainable Machine Learning-Based Security and Privacy Protection Framework for Internet of Medical Things Systems
 
-    [https://arxiv.org/abs/2403.08955](https://arxiv.org/abs/2403.08955)
+    [https://arxiv.org/abs/2403.09752](https://arxiv.org/abs/2403.09752)
 
-    本文对风险敏感策略梯度方法进行了迭代复杂度分析，发现其能够通过使用指数效用函数达到较低的迭代复杂度。
-
-    
-
-    强化学习在各种应用中表现出色，使得自主智能体能够通过与环境的互动学习最佳策略。然而，传统的强化学习框架在迭代复杂度和鲁棒性方面经常面临挑战。风险敏感强化学习平衡了期望回报和风险，具有产生概率鲁棒策略的潜力，但其迭代复杂度分析尚未得到充分探讨。在本研究中，我们针对风险敏感策略梯度方法进行了彻底的迭代复杂度分析，重点关注REINFORCE算法并采用指数效用函数。我们获得了一个$\mathcal{O}(\epsilon^{-2})$的迭代复杂度，以达到$\epsilon$-近似的一阶稳定点（FOSP）。我们研究了风险敏感算法是否可以比风险中性算法实现更好的迭代复杂度。
-
-    arXiv:2403.08955v1 Announce Type: cross  Abstract: Reinforcement Learning (RL) has shown exceptional performance across various applications, enabling autonomous agents to learn optimal policies through interaction with their environments. However, traditional RL frameworks often face challenges in terms of iteration complexity and robustness. Risk-sensitive RL, which balances expected return and risk, has been explored for its potential to yield probabilistically robust policies, yet its iteration complexity analysis remains underexplored. In this study, we conduct a thorough iteration complexity analysis for the risk-sensitive policy gradient method, focusing on the REINFORCE algorithm and employing the exponential utility function. We obtain an iteration complexity of $\mathcal{O}(\epsilon^{-2})$ to reach an $\epsilon$-approximate first-order stationary point (FOSP). We investigate whether risk-sensitive algorithms can achieve better iteration complexity compared to their risk-neutr
-    
-[^2]: 通过艺术设计提高对抗性鲁棒性
-
-    Adversarial Robustness Through Artifact Design
-
-    [https://arxiv.org/abs/2402.04660](https://arxiv.org/abs/2402.04660)
-
-    该研究提出了一种通过艺术设计实现对抗性鲁棒性的方法，通过微小更改现有规范来抵御对抗性示例的影响。
+    该论文提出了面向互联网医疗物联网系统的可解释机器学习安全与隐私保护框架，旨在解决IoMT系统面临的安全挑战，包括数据敏感性、恶意攻击和异常检测。
 
     
 
-    对抗性示例的出现给机器学习带来了挑战。为了阻碍对抗性示例，大多数防御方法都改变了模型的训练方式（如对抗性训练）或推理过程（如随机平滑）。尽管这些方法显著提高了模型的对抗性鲁棒性，但模型仍然极易受到对抗性示例的影响。在某些领域如交通标志识别中，我们发现对象是按照规范来设计（如标志规范）。为了改善对抗性鲁棒性，我们提出了一种新颖的方法。具体来说，我们提供了一种重新定义规范的方法，对现有规范进行微小的更改，以防御对抗性示例。我们将艺术设计问题建模为一个鲁棒优化问题，并提出了基于梯度和贪婪搜索的方法来解决它。我们在交通标志识别领域对我们的方法进行了评估，使其能够改变交通标志中的象形图标（即标志内的符号）。
+    互联网医疗物联网（IoMT）跨越了传统医疗边界，实现了从被动治疗向主动预防的过渡。这种创新方法通过实时健康数据收集实现早期疾病检测和个性化护理，特别在慢性病管理方面，IoMT可以自动化治疗。然而，由于处理数据的敏感性和价值，IoMT面临着严重的安全挑战，这会威胁到其用户的生命，因此吸引了恶意利益。此外，利用无线通信进行数据传输会使医疗数据暴露于被网络犯罪分子截获和篡改的风险之下。此外，由于人为错误、网络干扰或硬件故障，可能会出现异常。在这种背景下，基于机器学习（ML）的异常检测是一个有趣的解决方案，但它再次出现。
 
-    Adversarial examples arose as a challenge for machine learning. To hinder them, most defenses alter how models are trained (e.g., adversarial training) or inference is made (e.g., randomized smoothing). Still, while these approaches markedly improve models' adversarial robustness, models remain highly susceptible to adversarial examples. Identifying that, in certain domains such as traffic-sign recognition, objects are implemented per standards specifying how artifacts (e.g., signs) should be designed, we propose a novel approach for improving adversarial robustness. Specifically, we offer a method to redefine standards, making minor changes to existing ones, to defend against adversarial examples. We formulate the problem of artifact design as a robust optimization problem, and propose gradient-based and greedy search methods to solve it. We evaluated our approach in the domain of traffic-sign recognition, allowing it to alter traffic-sign pictograms (i.e., symbols within the signs) a
+    arXiv:2403.09752v1 Announce Type: cross  Abstract: The Internet of Medical Things (IoMT) transcends traditional medical boundaries, enabling a transition from reactive treatment to proactive prevention. This innovative method revolutionizes healthcare by facilitating early disease detection and tailored care, particularly in chronic disease management, where IoMT automates treatments based on real-time health data collection. Nonetheless, its benefits are countered by significant security challenges that endanger the lives of its users due to the sensitivity and value of the processed data, thereby attracting malicious interests. Moreover, the utilization of wireless communication for data transmission exposes medical data to interception and tampering by cybercriminals. Additionally, anomalies may arise due to human errors, network interference, or hardware malfunctions. In this context, anomaly detection based on Machine Learning (ML) is an interesting solution, but it comes up again
     
-[^3]: 在科学交流中检测LLM辅助写作：我们已经到达了吗？
+[^2]: 人工智能与大型预训练模型合作调查
 
-    Detecting LLM-Assisted Writing in Scientific Communication: Are We There Yet?. (arXiv:2401.16807v1 [cs.IR])
+    A Survey on Human-AI Teaming with Large Pre-Trained Models
 
-    [http://arxiv.org/abs/2401.16807](http://arxiv.org/abs/2401.16807)
+    [https://arxiv.org/abs/2403.04931](https://arxiv.org/abs/2403.04931)
 
-    这项研究评估了四种先进的文本检测器对LLM辅助写作的表现，发现它们的性能不如一个简单的检测器。研究认为需要开发专门用于LLM辅助写作的特定检测器，以解决当前承认实践中的挑战。
-
-    
-
-    大型语言模型（LLMs），如ChatGPT，在文本生成方面产生了重大影响，尤其是在写作辅助领域。尽管伦理考虑强调了在科学交流中透明地承认LLM的使用的重要性，但真实的承认仍然很少见。鼓励准确承认LLM辅助写作的一个潜在途径涉及使用自动检测器。我们对四个前沿的LLM生成文本检测器进行了评估，发现它们的性能不如一个简单的临时检测器，该检测器设计用于识别在LLM大量出现时的突然写作风格变化。我们认为，开发专门用于LLM辅助写作检测的专用检测器是必要的。这样的检测器可以在促进对LLM参与科学交流的更真实认可、解决当前承认实践中的挑战方面发挥关键作用。
-
-    Large Language Models (LLMs), exemplified by ChatGPT, have significantly reshaped text generation, particularly in the realm of writing assistance. While ethical considerations underscore the importance of transparently acknowledging LLM use, especially in scientific communication, genuine acknowledgment remains infrequent. A potential avenue to encourage accurate acknowledging of LLM-assisted writing involves employing automated detectors. Our evaluation of four cutting-edge LLM-generated text detectors reveals their suboptimal performance compared to a simple ad-hoc detector designed to identify abrupt writing style changes around the time of LLM proliferation. We contend that the development of specialized detectors exclusively dedicated to LLM-assisted writing detection is necessary. Such detectors could play a crucial role in fostering more authentic recognition of LLM involvement in scientific communication, addressing the current challenges in acknowledgment practices.
-    
-[^4]: 基于抽象语法树的异构有向超图神经网络用于代码分类
-
-    Heterogeneous Directed Hypergraph Neural Network over abstract syntax tree (AST) for Code Classification. (arXiv:2305.04228v2 [cs.SE] UPDATED)
-
-    [http://arxiv.org/abs/2305.04228](http://arxiv.org/abs/2305.04228)
-
-    本研究提出了使用异构有向超图表示AST，并使用异构有向超图神经网络处理图形进行代码分类，超过了现有方法。
+    本文调查了大型预训练模型与人工智能合作的重要性，强调了这些模型如何超越传统方法增强协作智能，并探讨了其在增强人类能力、改善AI模型、有效团队合作、道德考虑以及在各个领域广泛应用方面的潜在作用。
 
     
 
-    代码分类是程序理解和自动编码中的一个难题。由于程序的模糊语法和复杂语义，大多数现有研究使用基于抽象语法树（AST）和图神经网络（GNN）的技术创建代码表示用于代码分类。这些技术利用代码的结构和语义信息，但只考虑节点之间的成对关系，忽略了AST中节点之间已经存在的高阶相关性，可能导致代码结构信息的丢失。本研究提出使用异构有向超图（HDHG）表示AST，并使用异构有向超图神经网络（HDHGN）处理图形。HDHG保留了节点之间的高阶相关性，并更全面地编码了AST的语义和结构信息。HDHGN通过聚合不同节点的特征并使用不同的函数对其进行处理来对AST进行建模。在四个数据集上的实验表明，HDHG和HDHGN在代码分类任务中超越了现有方法。
+    在人工智能（AI）迅速发展的景观中，人类智能和AI系统之间的协作，即人工智能（HAI）合作，已成为推进问题解决和决策过程的基石。大型预训练模型（LPtM）的出现显著改变了这一景观，通过利用大量数据来理解和预测复杂模式，为人类提供了前所未有的能力。本文调查了LPtMs与HAI的关键整合，强调了这些模型如何超越传统方法增强协作智能。重点探讨了LPtMs在增强人类能力方面的协同潜力，讨论了这种协作对AI模型改进、有效的团队合作、道德考虑以及在各个领域的广泛应用影响。通过这一探索，研究揭示了LPtM增强HAI的变革性影响。
 
-    Code classification is a difficult issue in program understanding and automatic coding. Due to the elusive syntax and complicated semantics in programs, most existing studies use techniques based on abstract syntax tree (AST) and graph neural network (GNN) to create code representations for code classification. These techniques utilize the structure and semantic information of the code, but they only take into account pairwise associations and neglect the high-order correlations that already exist between nodes in the AST, which may result in the loss of code structural information. On the other hand, while a general hypergraph can encode high-order data correlations, it is homogeneous and undirected which will result in a lack of semantic and structural information such as node types, edge types, and directions between child nodes and parent nodes when modeling AST. In this study, we propose to represent AST as a heterogeneous directed hypergraph (HDHG) and process the graph by hetero
+    arXiv:2403.04931v1 Announce Type: new  Abstract: In the rapidly evolving landscape of artificial intelligence (AI), the collaboration between human intelligence and AI systems, known as Human-AI (HAI) Teaming, has emerged as a cornerstone for advancing problem-solving and decision-making processes. The advent of Large Pre-trained Models (LPtM) has significantly transformed this landscape, offering unprecedented capabilities by leveraging vast amounts of data to understand and predict complex patterns. This paper surveys the pivotal integration of LPtMs with HAI, emphasizing how these models enhance collaborative intelligence beyond traditional approaches. It examines the synergistic potential of LPtMs in augmenting human capabilities, discussing this collaboration for AI model improvements, effective teaming, ethical considerations, and their broad applied implications in various sectors. Through this exploration, the study sheds light on the transformative impact of LPtM-enhanced HAI 
+    
+[^3]: MAP-Elites应用于人机协同设计中，显现搜索空间的作用：一项大规模用户研究
+
+    Does mapping elites illuminate search spaces? A large-scale user study of MAP--Elites applied to human--AI collaborative design
+
+    [https://arxiv.org/abs/2402.07911](https://arxiv.org/abs/2402.07911)
+
+    通过两项研究，揭示了MAP-Elites在人机协同设计中对搜索空间的作用。这些研究使用了基于进化算法的设计工具，以实现设计推荐对设计过程的影响的理解。
+
+    
+
+    为了了解设计建议对设计过程的影响，进行了两项人工智能协同设计工具的研究。所研究的工具基于进化算法，旨在设计一辆在固定时间内行驶最远的虚拟汽车。参与者可以设计自己的汽车，向算法提出建议，并查看算法提供的一系列建议。算法提供的设计是之前经过测试的设计；其中一些是随机选择的，另一些是使用MAP-Elites选择的。在第一项研究中，作为科学普及计划的一部分，记录了808次设计会话，每次会话都有参与者使用工具的分析数据。为了提供定量数据的背景信息，还进行了一项包含12位参与者的双盲实验室研究。在实验室研究中，收集了与大规模研究的相同定量数据，并收集了对访谈问题的回答。
+
+    Two studies of a human-AI collaborative design tool were carried out in order to understand the influence design recommendations have on the design process. The tool investigated is based on an evolutionary algorithm attempting to design a virtual car to travel as far as possible in a fixed time. Participants were able to design their own cars, make recommendations to the algorithm and view sets of recommendations from the algorithm. The algorithm-recommended sets were designs which had been previously tested; some sets were simply randomly picked and other sets were picked using MAP-Elites. In the first study 808 design sessions were recorded as part of a science outreach program, each with analytical data of how each participant used the tool. To provide context to this quantitative data, a smaller double-blind lab study was also carried out with 12 participants. In the lab study the same quantitative data from the large scale study was collected alongside responses to interview ques
     
 
