@@ -2,52 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Explainable Machine Learning-Based Security and Privacy Protection Framework for Internet of Medical Things Systems](https://arxiv.org/abs/2403.09752) | 该论文提出了面向互联网医疗物联网系统的可解释机器学习安全与隐私保护框架，旨在解决IoMT系统面临的安全挑战，包括数据敏感性、恶意攻击和异常检测。 |
-| [^2] | [A Survey on Human-AI Teaming with Large Pre-Trained Models](https://arxiv.org/abs/2403.04931) | 本文调查了大型预训练模型与人工智能合作的重要性，强调了这些模型如何超越传统方法增强协作智能，并探讨了其在增强人类能力、改善AI模型、有效团队合作、道德考虑以及在各个领域广泛应用方面的潜在作用。 |
-| [^3] | [Does mapping elites illuminate search spaces? A large-scale user study of MAP--Elites applied to human--AI collaborative design](https://arxiv.org/abs/2402.07911) | 通过两项研究，揭示了MAP-Elites在人机协同设计中对搜索空间的作用。这些研究使用了基于进化算法的设计工具，以实现设计推荐对设计过程的影响的理解。 |
+| [^1] | [Diffusion on language model embeddings for protein sequence generation](https://arxiv.org/abs/2403.03726) | 使用DiMA模型，在蛋白语言模型嵌入进行扩散来生成氨基酸序列，比传统解决方案表现更好，并通过设计选择的影响来量化其优越性能。 |
+| [^2] | [(Ir)rationality in AI: State of the Art, Research Challenges and Open Questions](https://arxiv.org/abs/2311.17165) | 这篇论文调查了人工智能中理性与非理性的概念，提出了未解问题。重点讨论了行为在某些情况下的非理性行为可能是最优的情况。已经提出了一些方法来处理非理性代理，但仍存在挑战和问题。 |
 
 # 详细
 
-[^1]: 面向IoMT系统的可解释机器学习安全与隐私保护框架
+[^1]: 蛋白质序列生成的语言模型嵌入扩散
 
-    Explainable Machine Learning-Based Security and Privacy Protection Framework for Internet of Medical Things Systems
+    Diffusion on language model embeddings for protein sequence generation
 
-    [https://arxiv.org/abs/2403.09752](https://arxiv.org/abs/2403.09752)
+    [https://arxiv.org/abs/2403.03726](https://arxiv.org/abs/2403.03726)
 
-    该论文提出了面向互联网医疗物联网系统的可解释机器学习安全与隐私保护框架，旨在解决IoMT系统面临的安全挑战，包括数据敏感性、恶意攻击和异常检测。
-
-    
-
-    互联网医疗物联网（IoMT）跨越了传统医疗边界，实现了从被动治疗向主动预防的过渡。这种创新方法通过实时健康数据收集实现早期疾病检测和个性化护理，特别在慢性病管理方面，IoMT可以自动化治疗。然而，由于处理数据的敏感性和价值，IoMT面临着严重的安全挑战，这会威胁到其用户的生命，因此吸引了恶意利益。此外，利用无线通信进行数据传输会使医疗数据暴露于被网络犯罪分子截获和篡改的风险之下。此外，由于人为错误、网络干扰或硬件故障，可能会出现异常。在这种背景下，基于机器学习（ML）的异常检测是一个有趣的解决方案，但它再次出现。
-
-    arXiv:2403.09752v1 Announce Type: cross  Abstract: The Internet of Medical Things (IoMT) transcends traditional medical boundaries, enabling a transition from reactive treatment to proactive prevention. This innovative method revolutionizes healthcare by facilitating early disease detection and tailored care, particularly in chronic disease management, where IoMT automates treatments based on real-time health data collection. Nonetheless, its benefits are countered by significant security challenges that endanger the lives of its users due to the sensitivity and value of the processed data, thereby attracting malicious interests. Moreover, the utilization of wireless communication for data transmission exposes medical data to interception and tampering by cybercriminals. Additionally, anomalies may arise due to human errors, network interference, or hardware malfunctions. In this context, anomaly detection based on Machine Learning (ML) is an interesting solution, but it comes up again
-    
-[^2]: 人工智能与大型预训练模型合作调查
-
-    A Survey on Human-AI Teaming with Large Pre-Trained Models
-
-    [https://arxiv.org/abs/2403.04931](https://arxiv.org/abs/2403.04931)
-
-    本文调查了大型预训练模型与人工智能合作的重要性，强调了这些模型如何超越传统方法增强协作智能，并探讨了其在增强人类能力、改善AI模型、有效团队合作、道德考虑以及在各个领域广泛应用方面的潜在作用。
+    使用DiMA模型，在蛋白语言模型嵌入进行扩散来生成氨基酸序列，比传统解决方案表现更好，并通过设计选择的影响来量化其优越性能。
 
     
 
-    在人工智能（AI）迅速发展的景观中，人类智能和AI系统之间的协作，即人工智能（HAI）合作，已成为推进问题解决和决策过程的基石。大型预训练模型（LPtM）的出现显著改变了这一景观，通过利用大量数据来理解和预测复杂模式，为人类提供了前所未有的能力。本文调查了LPtMs与HAI的关键整合，强调了这些模型如何超越传统方法增强协作智能。重点探讨了LPtMs在增强人类能力方面的协同潜力，讨论了这种协作对AI模型改进、有效的团队合作、道德考虑以及在各个领域的广泛应用影响。通过这一探索，研究揭示了LPtM增强HAI的变革性影响。
+    蛋白设计需要对蛋白质宇宙固有复杂性的深入了解。尽管许多工作倾向于有条件的生成或专注于特定蛋白质家族，但无条件生成的基础任务仍未得到充分探索和重视。在这里，我们探索这个关键领域，引入了DiMA，这是一个利用从蛋白语言模型ESM-2衍生的嵌入进行连续扩散以生成氨基酸序列的模型。DiMA超越了包括自回归变换器和离散扩散模型在内的主要解决方案，我们定量地说明了导致其卓越性能的设计选择所带来的影响。我们使用各种指标跨多种形式广泛评估生成序列的质量、多样性、分布相似性和生物相关性。我们的方法始终产生新颖、多样化的蛋白质序列，精准
 
-    arXiv:2403.04931v1 Announce Type: new  Abstract: In the rapidly evolving landscape of artificial intelligence (AI), the collaboration between human intelligence and AI systems, known as Human-AI (HAI) Teaming, has emerged as a cornerstone for advancing problem-solving and decision-making processes. The advent of Large Pre-trained Models (LPtM) has significantly transformed this landscape, offering unprecedented capabilities by leveraging vast amounts of data to understand and predict complex patterns. This paper surveys the pivotal integration of LPtMs with HAI, emphasizing how these models enhance collaborative intelligence beyond traditional approaches. It examines the synergistic potential of LPtMs in augmenting human capabilities, discussing this collaboration for AI model improvements, effective teaming, ethical considerations, and their broad applied implications in various sectors. Through this exploration, the study sheds light on the transformative impact of LPtM-enhanced HAI 
+    arXiv:2403.03726v1 Announce Type: cross  Abstract: Protein design requires a deep understanding of the inherent complexities of the protein universe. While many efforts lean towards conditional generation or focus on specific families of proteins, the foundational task of unconditional generation remains underexplored and undervalued. Here, we explore this pivotal domain, introducing DiMA, a model that leverages continuous diffusion on embeddings derived from the protein language model, ESM-2, to generate amino acid sequences. DiMA surpasses leading solutions, including autoregressive transformer-based and discrete diffusion models, and we quantitatively illustrate the impact of the design choices that lead to its superior performance. We extensively evaluate the quality, diversity, distribution similarity, and biological relevance of the generated sequences using multiple metrics across various modalities. Our approach consistently produces novel, diverse protein sequences that accura
     
-[^3]: MAP-Elites应用于人机协同设计中，显现搜索空间的作用：一项大规模用户研究
+[^2]: (非)理性在人工智能中的应用：现状、研究挑战和未解之问
 
-    Does mapping elites illuminate search spaces? A large-scale user study of MAP--Elites applied to human--AI collaborative design
+    (Ir)rationality in AI: State of the Art, Research Challenges and Open Questions
 
-    [https://arxiv.org/abs/2402.07911](https://arxiv.org/abs/2402.07911)
+    [https://arxiv.org/abs/2311.17165](https://arxiv.org/abs/2311.17165)
 
-    通过两项研究，揭示了MAP-Elites在人机协同设计中对搜索空间的作用。这些研究使用了基于进化算法的设计工具，以实现设计推荐对设计过程的影响的理解。
+    这篇论文调查了人工智能中理性与非理性的概念，提出了未解问题。重点讨论了行为在某些情况下的非理性行为可能是最优的情况。已经提出了一些方法来处理非理性代理，但仍存在挑战和问题。
 
     
 
-    为了了解设计建议对设计过程的影响，进行了两项人工智能协同设计工具的研究。所研究的工具基于进化算法，旨在设计一辆在固定时间内行驶最远的虚拟汽车。参与者可以设计自己的汽车，向算法提出建议，并查看算法提供的一系列建议。算法提供的设计是之前经过测试的设计；其中一些是随机选择的，另一些是使用MAP-Elites选择的。在第一项研究中，作为科学普及计划的一部分，记录了808次设计会话，每次会话都有参与者使用工具的分析数据。为了提供定量数据的背景信息，还进行了一项包含12位参与者的双盲实验室研究。在实验室研究中，收集了与大规模研究的相同定量数据，并收集了对访谈问题的回答。
+    理性概念在人工智能领域中占据着重要地位。无论是模拟人类推理还是追求有限最优性，我们通常希望使人工智能代理尽可能理性。尽管这个概念在人工智能中非常核心，但对于什么构成理性代理并没有统一的定义。本文调查了人工智能中的理性与非理性，并提出了这个领域的未解问题。在其他领域对理性的理解对其在人工智能中的概念产生了影响，特别是经济学、哲学和心理学方面的研究。着重考虑人工智能代理的行为，我们探讨了在某些情境中非理性行为可能是最优的情况。关于处理非理性代理的方法已经得到了一些发展，包括识别和交互等方面的研究，然而，在这个领域的工作仍然存在一些挑战和问题。
 
-    Two studies of a human-AI collaborative design tool were carried out in order to understand the influence design recommendations have on the design process. The tool investigated is based on an evolutionary algorithm attempting to design a virtual car to travel as far as possible in a fixed time. Participants were able to design their own cars, make recommendations to the algorithm and view sets of recommendations from the algorithm. The algorithm-recommended sets were designs which had been previously tested; some sets were simply randomly picked and other sets were picked using MAP-Elites. In the first study 808 design sessions were recorded as part of a science outreach program, each with analytical data of how each participant used the tool. To provide context to this quantitative data, a smaller double-blind lab study was also carried out with 12 participants. In the lab study the same quantitative data from the large scale study was collected alongside responses to interview ques
+    arXiv:2311.17165v2 Announce Type: replace Abstract: The concept of rationality is central to the field of artificial intelligence. Whether we are seeking to simulate human reasoning, or the goal is to achieve bounded optimality, we generally seek to make artificial agents as rational as possible. Despite the centrality of the concept within AI, there is no unified definition of what constitutes a rational agent. This article provides a survey of rationality and irrationality in artificial intelligence, and sets out the open questions in this area. The understanding of rationality in other fields has influenced its conception within artificial intelligence, in particular work in economics, philosophy and psychology. Focusing on the behaviour of artificial agents, we consider irrational behaviours that can prove to be optimal in certain scenarios. Some methods have been developed to deal with irrational agents, both in terms of identification and interaction, however work in this area re
     
 
