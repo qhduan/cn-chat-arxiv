@@ -2,22 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Teacher bias or measurement error?.](http://arxiv.org/abs/2401.04200) | 本研究发现，在分配学生到中学阶段时，教师的学术建议对低社会经济地位家庭的学生有偏见。但是，这个偏见可能是由测试成绩的测量误差导致的，测量误差解释了35%到43%的条件SES差距。 |
+| [^1] | [Optimal Shrinkage Estimation of Fixed Effects in Linear Panel Data Models.](http://arxiv.org/abs/2308.12485) | 本文提出了一种在线性面板数据模型中估计固定效应的最优缩小估计方法，该方法不需要分布假设，并能够充分地利用序列相关性和时间变化。同时，还提供了一种预测未来固定效应的方法。 |
+| [^2] | [Implicit Nickell Bias in Panel Local Projection: Financial Crises Are Worse Than You Think.](http://arxiv.org/abs/2302.13455) | 本文发现面板局部投影中FE估计器存在隐式的尼克尔偏误，使得基于$t$-统计量的标准假设检验无效，我们提出使用半面板交叉检验估计器消除偏误，并通过三个关于金融危机和经济萎缩的研究发现，FE估计器严重低估了金融危机后的经济损失。 |
 
 # 详细
 
-[^1]: 教师偏见还是测量误差？
+[^1]: 线性面板数据模型中固定效应最优缩小估计
 
-    Teacher bias or measurement error?. (arXiv:2401.04200v1 [econ.EM])
+    Optimal Shrinkage Estimation of Fixed Effects in Linear Panel Data Models. (arXiv:2308.12485v1 [econ.EM])
 
-    [http://arxiv.org/abs/2401.04200](http://arxiv.org/abs/2401.04200)
+    [http://arxiv.org/abs/2308.12485](http://arxiv.org/abs/2308.12485)
 
-    本研究发现，在分配学生到中学阶段时，教师的学术建议对低社会经济地位家庭的学生有偏见。但是，这个偏见可能是由测试成绩的测量误差导致的，测量误差解释了35%到43%的条件SES差距。
+    本文提出了一种在线性面板数据模型中估计固定效应的最优缩小估计方法，该方法不需要分布假设，并能够充分地利用序列相关性和时间变化。同时，还提供了一种预测未来固定效应的方法。
 
     
 
-    在许多国家，教师的学术建议用于将学生分配到不同的中学阶段。先前的研究表明，低社会经济地位（SES）家庭的学生在标准化考试成绩相同的情况下，与高SES家庭的同龄人相比，他们得到的学术建议较低。通常认为这可能是教师的偏见。然而，如果存在测试成绩的测量误差，这个论断是无效的。本文讨论了测试成绩的测量误差如何导致条件SES差距的偏误，并考虑了三种实证策略来解决这种偏误。使用荷兰的行政数据，我们发现测量误差解释了学术建议中条件SES差距的35%到43%。
+    缩小估计方法经常被用于估计固定效应，以减少最小二乘估计的噪声。然而，广泛使用的缩小估计仅在强分布假设下才能保证降低噪声。本文开发了一种估计固定效应的估计器，在缩小估计器类别中获得了最佳的均方误差。该类别包括传统的缩小估计器，且最优性不需要分布假设。该估计器具有直观的形式，并且易于实现。此外，固定效应允许随时间变化，并且可以具有序列相关性，而缩小方法在这种情况下可以最优地结合底层相关结构。在这样的背景下，还提供了一种预测未来一个时期固定效应的方法。
 
-    In many countries, teachers' track recommendations are used to allocate students to secondary school tracks. Previous studies have shown that students from families with low socioeconomic status (SES) receive lower track recommendations than their peers from high SES families, conditional on standardized test scores. It is often argued this indicates teacher bias. However, this claim is invalid in the presence of measurement error in test scores. We discuss how measurement error in test scores generates a biased coefficient of the conditional SES gap, and consider three empirical strategies to address this bias. Using administrative data from the Netherlands, we find that measurement error explains 35 to 43% of the conditional SES gap in track recommendations.
+    Shrinkage methods are frequently used to estimate fixed effects to reduce the noisiness of the least square estimators. However, widely used shrinkage estimators guarantee such noise reduction only under strong distributional assumptions. I develop an estimator for the fixed effects that obtains the best possible mean squared error within a class of shrinkage estimators. This class includes conventional shrinkage estimators and the optimality does not require distributional assumptions. The estimator has an intuitive form and is easy to implement. Moreover, the fixed effects are allowed to vary with time and to be serially correlated, and the shrinkage optimally incorporates the underlying correlation structure in this case. In such a context, I also provide a method to forecast fixed effects one period ahead.
+    
+[^2]: 面板局部投影中的隐式尼克尔偏误：金融危机比你想象的更糟。
+
+    Implicit Nickell Bias in Panel Local Projection: Financial Crises Are Worse Than You Think. (arXiv:2302.13455v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2302.13455](http://arxiv.org/abs/2302.13455)
+
+    本文发现面板局部投影中FE估计器存在隐式的尼克尔偏误，使得基于$t$-统计量的标准假设检验无效，我们提出使用半面板交叉检验估计器消除偏误，并通过三个关于金融危机和经济萎缩的研究发现，FE估计器严重低估了金融危机后的经济损失。
+
+    
+
+    局部投影（LP）是经济计量学中估计冲击响应的常用方法，而固定效应（FE）估计器是当LP扩展到面板数据时的默认估计方法。本文发现了由于其固有的动态结构，面板LP中FE估计器存在隐式的尼克尔偏误，使基于$t$-统计量的标准假设检验无效。我们提出使用半面板交叉检验估计器消除偏误，并展示理论结果得到蒙特卡罗模拟的支持。通过重新审视三个关于金融危机和经济萎缩之间联系的经济金融研究，我们发现FE估计器严重低估了金融危机后的经济损失。
+
+    Local projection (LP) is a popular approach in empirical macroeconomics to estimate the impulse responses, and the conventional fixed effect (FE) estimator is the default estimation method when LP is carried over into panel data. This paper discovers an implicit Nickell bias for the FE estimator in the panel LP due to its inherent dynamic structure, invalidating the standard hypothesis testing based on the $t$-statistic. We propose using the half-panel jackknife estimator to eliminate the bias and restore the standard statistical inference, and show that the theoretical results are supported by Monte Carlo simulations. By revisiting three seminal macro-finance studies on the linkage between financial crises and economic contraction, we find that the FE estimator substantially underestimates the economic losses following financial crises.
     
 
