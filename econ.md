@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Optimal Shrinkage Estimation of Fixed Effects in Linear Panel Data Models.](http://arxiv.org/abs/2308.12485) | 本文提出了一种在线性面板数据模型中估计固定效应的最优缩小估计方法，该方法不需要分布假设，并能够充分地利用序列相关性和时间变化。同时，还提供了一种预测未来固定效应的方法。 |
-| [^2] | [Implicit Nickell Bias in Panel Local Projection: Financial Crises Are Worse Than You Think.](http://arxiv.org/abs/2302.13455) | 本文发现面板局部投影中FE估计器存在隐式的尼克尔偏误，使得基于$t$-统计量的标准假设检验无效，我们提出使用半面板交叉检验估计器消除偏误，并通过三个关于金融危机和经济萎缩的研究发现，FE估计器严重低估了金融危机后的经济损失。 |
+| [^1] | [Scalable Estimation of Multinomial Response Models with Uncertain Consideration Sets.](http://arxiv.org/abs/2308.12470) | 这篇论文提出了一种克服估计多项式响应模型中指数级支持问题的方法，通过使用基于列联表概率分布的考虑集概率模型。 |
+| [^2] | [Lemonade from Lemons: Information Design and Adverse Selection.](http://arxiv.org/abs/2305.02994) | 本研究探究了卖家与买家的价值相互依赖的情况下，通过信息设计和逆向选择机制实现收益的问题，当出现完全崩溃和柠檬市场等特殊情况时，买家可以得到整个剩余价值。 |
 
 # 详细
 
-[^1]: 线性面板数据模型中固定效应最优缩小估计
+[^1]: 可伸缩估计具有不确定的选项集的多项式响应模型
 
-    Optimal Shrinkage Estimation of Fixed Effects in Linear Panel Data Models. (arXiv:2308.12485v1 [econ.EM])
+    Scalable Estimation of Multinomial Response Models with Uncertain Consideration Sets. (arXiv:2308.12470v1 [stat.ME])
 
-    [http://arxiv.org/abs/2308.12485](http://arxiv.org/abs/2308.12485)
+    [http://arxiv.org/abs/2308.12470](http://arxiv.org/abs/2308.12470)
 
-    本文提出了一种在线性面板数据模型中估计固定效应的最优缩小估计方法，该方法不需要分布假设，并能够充分地利用序列相关性和时间变化。同时，还提供了一种预测未来固定效应的方法。
-
-    
-
-    缩小估计方法经常被用于估计固定效应，以减少最小二乘估计的噪声。然而，广泛使用的缩小估计仅在强分布假设下才能保证降低噪声。本文开发了一种估计固定效应的估计器，在缩小估计器类别中获得了最佳的均方误差。该类别包括传统的缩小估计器，且最优性不需要分布假设。该估计器具有直观的形式，并且易于实现。此外，固定效应允许随时间变化，并且可以具有序列相关性，而缩小方法在这种情况下可以最优地结合底层相关结构。在这样的背景下，还提供了一种预测未来一个时期固定效应的方法。
-
-    Shrinkage methods are frequently used to estimate fixed effects to reduce the noisiness of the least square estimators. However, widely used shrinkage estimators guarantee such noise reduction only under strong distributional assumptions. I develop an estimator for the fixed effects that obtains the best possible mean squared error within a class of shrinkage estimators. This class includes conventional shrinkage estimators and the optimality does not require distributional assumptions. The estimator has an intuitive form and is easy to implement. Moreover, the fixed effects are allowed to vary with time and to be serially correlated, and the shrinkage optimally incorporates the underlying correlation structure in this case. In such a context, I also provide a method to forecast fixed effects one period ahead.
-    
-[^2]: 面板局部投影中的隐式尼克尔偏误：金融危机比你想象的更糟。
-
-    Implicit Nickell Bias in Panel Local Projection: Financial Crises Are Worse Than You Think. (arXiv:2302.13455v2 [econ.EM] UPDATED)
-
-    [http://arxiv.org/abs/2302.13455](http://arxiv.org/abs/2302.13455)
-
-    本文发现面板局部投影中FE估计器存在隐式的尼克尔偏误，使得基于$t$-统计量的标准假设检验无效，我们提出使用半面板交叉检验估计器消除偏误，并通过三个关于金融危机和经济萎缩的研究发现，FE估计器严重低估了金融危机后的经济损失。
+    这篇论文提出了一种克服估计多项式响应模型中指数级支持问题的方法，通过使用基于列联表概率分布的考虑集概率模型。
 
     
 
-    局部投影（LP）是经济计量学中估计冲击响应的常用方法，而固定效应（FE）估计器是当LP扩展到面板数据时的默认估计方法。本文发现了由于其固有的动态结构，面板LP中FE估计器存在隐式的尼克尔偏误，使基于$t$-统计量的标准假设检验无效。我们提出使用半面板交叉检验估计器消除偏误，并展示理论结果得到蒙特卡罗模拟的支持。通过重新审视三个关于金融危机和经济萎缩之间联系的经济金融研究，我们发现FE估计器严重低估了金融危机后的经济损失。
+    在交叉或纵向数据的无序多项式响应模型拟合中的一个标准假设是，响应来自于相同的J个类别集合。然而，当响应度量主体做出的选择时，更适合假设多项式响应的分布是在主体特定的考虑集条件下，其中这个考虑集是从{1,2, ..., J}的幂集中抽取的。由于这个幂集的基数在J中是指数级的，一般来说估计是无法实现的。在本文中，我们提供了一种克服这个问题的方法。这种方法中的一个关键步骤是基于在列联表上的概率分布的一般表示的考虑集的概率模型。尽管这个分布的支持是指数级大的，但给定参数的考虑集的后验分布通常是稀疏的。
 
-    Local projection (LP) is a popular approach in empirical macroeconomics to estimate the impulse responses, and the conventional fixed effect (FE) estimator is the default estimation method when LP is carried over into panel data. This paper discovers an implicit Nickell bias for the FE estimator in the panel LP due to its inherent dynamic structure, invalidating the standard hypothesis testing based on the $t$-statistic. We propose using the half-panel jackknife estimator to eliminate the bias and restore the standard statistical inference, and show that the theoretical results are supported by Monte Carlo simulations. By revisiting three seminal macro-finance studies on the linkage between financial crises and economic contraction, we find that the FE estimator substantially underestimates the economic losses following financial crises.
+    A standard assumption in the fitting of unordered multinomial response models for J mutually exclusive nominal categories, on cross-sectional or longitudinal data, is that the responses arise from the same set of J categories between subjects. However, when responses measure a choice made by the subject, it is more appropriate to assume that the distribution of multinomial responses is conditioned on a subject-specific consideration set, where this consideration set is drawn from the power set of {1,2,...,J}. Because the cardinality of this power set is exponential in J, estimation is infeasible in general. In this paper, we provide an approach to overcoming this problem. A key step in the approach is a probability model over consideration sets, based on a general representation of probability distributions on contingency tables. Although the support of this distribution is exponentially large, the posterior distribution over consideration sets given parameters is typically sparse, and
+    
+[^2]: 柠檬制成柠檬水：信息设计与逆向选择
+
+    Lemonade from Lemons: Information Design and Adverse Selection. (arXiv:2305.02994v1 [econ.TH])
+
+    [http://arxiv.org/abs/2305.02994](http://arxiv.org/abs/2305.02994)
+
+    本研究探究了卖家与买家的价值相互依赖的情况下，通过信息设计和逆向选择机制实现收益的问题，当出现完全崩溃和柠檬市场等特殊情况时，买家可以得到整个剩余价值。
+
+    
+
+    一个卖家对于一件物品公布一个价格。卖家与买家的价值可能相互依赖。我们刻画了所有信息结构中收益向量的集合。简单的可行性和个人合理性限制识别了收益集。买家可以获得整个剩余价值。通常情况下，其他机制不能扩大收益集。我们还研究了在买家比卖家更知情的情况下以及在买家完全知晓的情况下的收益，所有三个收益集只有在特殊情况下才一致，特别是在一个“柠檬市场”中出现完全崩溃的情况下，其卖家未知，买家完全知情。
+
+    A seller posts a price for a single object. The seller's and buyer's values may be interdependent. We characterize the set of payoff vectors across all information structures. Simple feasibility and individual-rationality constraints identify the payoff set. The buyer can obtain the entire surplus; often, other mechanisms cannot enlarge the payoff set. We also study payoffs when the buyer is more informed than the seller, and when the buyer is fully informed. All three payoff sets coincide (only) in notable special cases -- in particular, when there is complete breakdown in a ``lemons market'' with an uninformed seller and fully-informed buyer.
     
 

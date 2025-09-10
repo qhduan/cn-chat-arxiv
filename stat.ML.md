@@ -2,67 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [An Ordering of Divergences for Variational Inference with Factorized Gaussian Approximations](https://arxiv.org/abs/2403.13748) | 不同的散度排序可以通过它们的变分近似误估不确定性的各种度量，并且因子化近似无法同时匹配这些度量中的任意两个 |
-| [^2] | [Variational Shapley Network: A Probabilistic Approach to Self-Explaining Shapley values with Uncertainty Quantification](https://arxiv.org/abs/2402.04211) | 本研究引入了变分Shapley网络，通过概率化的方法简化了计算Shapley值的过程，并解决了估计模型边际值和处理解释可变性的挑战。 |
-| [^3] | [On Rate-Optimal Partitioning Classification from Observable and from Privatised Data](https://arxiv.org/abs/2312.14889) | 研究了在放宽条件下的分区分类方法的收敛速率，提出了绝对连续分量的新特性，计算了分类错误概率的精确收敛率 |
-| [^4] | [Sequential Gibbs Posteriors with Applications to Principal Component Analysis.](http://arxiv.org/abs/2310.12882) | 提出了一种新的序列扩展的Gibbs先验方法，解决了传统方法中的不确定性问题，并获得了关于伯恩斯坦-冯·密斯定理在流形上的新结果。 |
+| [^1] | [Leveraging Public Representations for Private Transfer Learning.](http://arxiv.org/abs/2312.15551) | 该论文探讨了如何利用公共数据来改进私有学习的问题。研究发现，通过学习公共数据中的共享表示，可以在两种迁移学习场景中实现最优的学习效果。在单任务迁移场景中，算法在给定子空间范围内搜索线性模型，并实现了最优超额风险。在多任务个性化场景中，足够的公共数据可以消除私有协调需求，并通过纯局部学习达到相同的效用。 |
+| [^2] | [Efficient Methods for Non-stationary Online Learning.](http://arxiv.org/abs/2309.08911) | 这项工作提出了一种针对非平稳在线学习的高效方法，通过降低每轮投影的数量来优化动态遗憾和自适应遗憾的计算复杂性。 |
 
 # 详细
 
-[^1]: 变分推断中因子化高斯近似的差异排序
+[^1]: 利用公共表示来进行私有迁移学习
 
-    An Ordering of Divergences for Variational Inference with Factorized Gaussian Approximations
+    Leveraging Public Representations for Private Transfer Learning. (arXiv:2312.15551v2 [cs.LG] UPDATED)
 
-    [https://arxiv.org/abs/2403.13748](https://arxiv.org/abs/2403.13748)
+    [http://arxiv.org/abs/2312.15551](http://arxiv.org/abs/2312.15551)
 
-    不同的散度排序可以通过它们的变分近似误估不确定性的各种度量，并且因子化近似无法同时匹配这些度量中的任意两个
-
-    
-
-    在变分推断（VI）中，给定一个难以处理的分布$p$，问题是从一些更易处理的族$\mathcal{Q}$中计算最佳近似$q$。通常情况下，这种近似是通过最小化Kullback-Leibler (KL)散度来找到的。然而，存在其他有效的散度选择，当$\mathcal{Q}$不包含$p$时，每个散度都支持不同的解决方案。我们分析了在高斯的密集协方差矩阵被对角协方差矩阵的高斯近似所影响的VI结果中，散度选择如何影响VI结果。在这种设置中，我们展示了不同的散度可以通过它们的变分近似误估不确定性的各种度量，如方差、精度和熵，进行\textit{排序}。我们还得出一个不可能定理，表明无法通过因子化近似同时匹配这些度量中的任意两个；因此
-
-    arXiv:2403.13748v1 Announce Type: cross  Abstract: Given an intractable distribution $p$, the problem of variational inference (VI) is to compute the best approximation $q$ from some more tractable family $\mathcal{Q}$. Most commonly the approximation is found by minimizing a Kullback-Leibler (KL) divergence. However, there exist other valid choices of divergences, and when $\mathcal{Q}$ does not contain~$p$, each divergence champions a different solution. We analyze how the choice of divergence affects the outcome of VI when a Gaussian with a dense covariance matrix is approximated by a Gaussian with a diagonal covariance matrix. In this setting we show that different divergences can be \textit{ordered} by the amount that their variational approximations misestimate various measures of uncertainty, such as the variance, precision, and entropy. We also derive an impossibility theorem showing that no two of these measures can be simultaneously matched by a factorized approximation; henc
-    
-[^2]: 变分Shapley网络：一种概率化的方法用于具有不确定性量化的自解释Shapley值
-
-    Variational Shapley Network: A Probabilistic Approach to Self-Explaining Shapley values with Uncertainty Quantification
-
-    [https://arxiv.org/abs/2402.04211](https://arxiv.org/abs/2402.04211)
-
-    本研究引入了变分Shapley网络，通过概率化的方法简化了计算Shapley值的过程，并解决了估计模型边际值和处理解释可变性的挑战。
+    该论文探讨了如何利用公共数据来改进私有学习的问题。研究发现，通过学习公共数据中的共享表示，可以在两种迁移学习场景中实现最优的学习效果。在单任务迁移场景中，算法在给定子空间范围内搜索线性模型，并实现了最优超额风险。在多任务个性化场景中，足够的公共数据可以消除私有协调需求，并通过纯局部学习达到相同的效用。
 
     
 
-    Shapley值已经成为机器学习中阐明模型决策过程的基础工具。尽管它们被广泛采用并具有满足重要可解释性公理的独特能力，但在估计过程中仍然存在计算挑战，包括（i）对模型在所有可能的输入特征组合上进行评估，（ii）估计模型的边际值，以及（iii）处理解释的可变性。我们提出了一种新颖的自解释方法，显著简化了Shapley值的计算，只需要一次前向传递。鉴于Shapley值的确定性处理被认为是一种限制，我们探索了将概率框架纳入其中以捕捉解释中固有的不确定性。与其他替代方法不同，我们的技术不直接依赖于观测数据空间来估计边际值；相反，它使用从潜在的、特定于特征的嵌入空间中派生出的可适应的基线值。
+    受到将公共数据纳入差分隐私学习的最新实证成功的启发，我们在理论上研究了从公共数据中学到的共享表示如何改进私有学习。我们探讨了线性回归的两种常见迁移学习场景，两者都假设公共任务和私有任务（回归向量）在高维空间中共享一个低秩子空间。在第一种单任务迁移场景中，目标是学习一个在所有用户之间共享的单一模型，每个用户对应数据集中的一行。我们提供了匹配的上下界，证明了我们的算法在给定子空间估计范围内搜索线性模型的算法类中实现了最优超额风险。在多任务模型个性化的第二种情景中，我们表明在有足够的公共数据情况下，用户可以避免私有协调，因为在给定子空间内纯粹的局部学习可以达到相同的效用。
 
-    Shapley values have emerged as a foundational tool in machine learning (ML) for elucidating model decision-making processes. Despite their widespread adoption and unique ability to satisfy essential explainability axioms, computational challenges persist in their estimation when ($i$) evaluating a model over all possible subset of input feature combinations, ($ii$) estimating model marginals, and ($iii$) addressing variability in explanations. We introduce a novel, self-explaining method that simplifies the computation of Shapley values significantly, requiring only a single forward pass. Recognizing the deterministic treatment of Shapley values as a limitation, we explore incorporating a probabilistic framework to capture the inherent uncertainty in explanations. Unlike alternatives, our technique does not rely directly on the observed data space to estimate marginals; instead, it uses adaptable baseline values derived from a latent, feature-specific embedding space, generated by a no
+    Motivated by the recent empirical success of incorporating public data into differentially private learning, we theoretically investigate how a shared representation learned from public data can improve private learning. We explore two common scenarios of transfer learning for linear regression, both of which assume the public and private tasks (regression vectors) share a low-rank subspace in a high-dimensional space. In the first single-task transfer scenario, the goal is to learn a single model shared across all users, each corresponding to a row in a dataset. We provide matching upper and lower bounds showing that our algorithm achieves the optimal excess risk within a natural class of algorithms that search for the linear model within the given subspace estimate. In the second scenario of multitask model personalization, we show that with sufficient public data, users can avoid private coordination, as purely local learning within the given subspace achieves the same utility. Take
     
-[^3]: 论从可观测和私密数据中实现速率最优分区分类
+[^2]: 非平稳在线学习的高效方法
 
-    On Rate-Optimal Partitioning Classification from Observable and from Privatised Data
+    Efficient Methods for Non-stationary Online Learning. (arXiv:2309.08911v1 [cs.LG])
 
-    [https://arxiv.org/abs/2312.14889](https://arxiv.org/abs/2312.14889)
+    [http://arxiv.org/abs/2309.08911](http://arxiv.org/abs/2309.08911)
 
-    研究了在放宽条件下的分区分类方法的收敛速率，提出了绝对连续分量的新特性，计算了分类错误概率的精确收敛率
-
-    
-
-    在这篇论文中，我们重新审视了分区分类的经典方法，并研究了在放宽条件下的收敛速率，包括可观测（非私密）和私密数据。我们假设特征向量$X$取值于$\mathbb{R}^d$，其标签为$Y$。之前关于分区分类器的结果基于强密度假设，这种假设限制较大，我们通过简单的例子加以证明。我们假设$X$的分布是绝对连续分布和离散分布的混合体，其中绝对连续分量集中于一个$d_a$维子空间。在这里，我们在更宽松的条件下研究了这个问题：除了标准的Lipschitz和边际条件外，我们还引入了绝对连续分量的一个新特性，通过该特性计算了分类错误概率的精确收敛率，对于...
-
-    arXiv:2312.14889v2 Announce Type: replace-cross  Abstract: In this paper we revisit the classical method of partitioning classification and study its convergence rate under relaxed conditions, both for observable (non-privatised) and for privatised data. Let the feature vector $X$ take values in $\mathbb{R}^d$ and denote its label by $Y$. Previous results on the partitioning classifier worked with the strong density assumption, which is restrictive, as we demonstrate through simple examples. We assume that the distribution of $X$ is a mixture of an absolutely continuous and a discrete distribution, such that the absolutely continuous component is concentrated to a $d_a$ dimensional subspace. Here, we study the problem under much milder assumptions: in addition to the standard Lipschitz and margin conditions, a novel characteristic of the absolutely continuous component is introduced, by which the exact convergence rate of the classification error probability is calculated, both for the
-    
-[^4]: 带有序列Gibbs先验的贡献于主成分分析的应用
-
-    Sequential Gibbs Posteriors with Applications to Principal Component Analysis. (arXiv:2310.12882v1 [stat.ME])
-
-    [http://arxiv.org/abs/2310.12882](http://arxiv.org/abs/2310.12882)
-
-    提出了一种新的序列扩展的Gibbs先验方法，解决了传统方法中的不确定性问题，并获得了关于伯恩斯坦-冯·密斯定理在流形上的新结果。
+    这项工作提出了一种针对非平稳在线学习的高效方法，通过降低每轮投影的数量来优化动态遗憾和自适应遗憾的计算复杂性。
 
     
 
-    Gibbs先验与先验分布乘以指数损失函数成比例，其中关键调整参数在损失与先验中权重信息，并提供控制后验不确定性的能力。Gibbs先验为无似然贝叶斯推理提供了一个有原则的框架，但在许多情况下，使用单一调整参数会导致较差的不确定性量化。我们提出了一种序列扩展的Gibbs先验来解决这个问题。我们证明了所提出的序列后验展示了集中性和一个伯恩斯坦-冯·密斯定理，该定理在欧几里得空间和流形上易于验证的条件下成立。作为副产品，我们获得了传统基于似然的贝叶斯后验在流形上的第一个伯恩斯坦-冯·密斯定理。所有方法都有示例说明。
+    非平稳在线学习近年来引起了广泛关注。特别是在非平稳环境中，动态遗憾和自适应遗憾被提出作为在线凸优化的两个原则性性能度量。为了优化它们，通常采用两层在线集成，由于非平稳性的固有不确定性，其中维护一组基学习器，并采用元算法在运行过程中跟踪最佳学习器。然而，这种两层结构引发了关于计算复杂性的担忧 -这些方法通常同时维护$\mathcal{O}(\log T)$个基学习器，对于一个$T$轮在线游戏，因此每轮执行多次投影到可行域上，当域很复杂时，这成为计算瓶颈。在本文中，我们提出了优化动态遗憾和自适应遗憾的高效方法，将每轮的投影次数从$\mathcal{O}(\log T)$降低到...
 
-    Gibbs posteriors are proportional to a prior distribution multiplied by an exponentiated loss function, with a key tuning parameter weighting information in the loss relative to the prior and providing a control of posterior uncertainty. Gibbs posteriors provide a principled framework for likelihood-free Bayesian inference, but in many situations, including a single tuning parameter inevitably leads to poor uncertainty quantification. In particular, regardless of the value of the parameter, credible regions have far from the nominal frequentist coverage even in large samples. We propose a sequential extension to Gibbs posteriors to address this problem. We prove the proposed sequential posterior exhibits concentration and a Bernstein-von Mises theorem, which holds under easy to verify conditions in Euclidean space and on manifolds. As a byproduct, we obtain the first Bernstein-von Mises theorem for traditional likelihood-based Bayesian posteriors on manifolds. All methods are illustrat
+    Non-stationary online learning has drawn much attention in recent years. In particular, dynamic regret and adaptive regret are proposed as two principled performance measures for online convex optimization in non-stationary environments. To optimize them, a two-layer online ensemble is usually deployed due to the inherent uncertainty of the non-stationarity, in which a group of base-learners are maintained and a meta-algorithm is employed to track the best one on the fly. However, the two-layer structure raises the concern about the computational complexity -- those methods typically maintain $\mathcal{O}(\log T)$ base-learners simultaneously for a $T$-round online game and thus perform multiple projections onto the feasible domain per round, which becomes the computational bottleneck when the domain is complicated. In this paper, we present efficient methods for optimizing dynamic regret and adaptive regret, which reduce the number of projections per round from $\mathcal{O}(\log T)$ t
     
 
