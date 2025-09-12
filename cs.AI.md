@@ -2,52 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [A Transformer approach for Electricity Price Forecasting](https://arxiv.org/abs/2403.16108) | 这种独特的Transformer模型在电力价格预测中取得了更好的表现，为可靠和可持续的电力系统运行提供了有前景的解决方案。 |
-| [^2] | [FedComLoc: Communication-Efficient Distributed Training of Sparse and Quantized Models](https://arxiv.org/abs/2403.09904) | FedComLoc利用Scaffnew算法的基础，引入了压缩和本地训练，显著降低了分布式训练中的通信开销。 |
-| [^3] | [PQMass: Probabilistic Assessment of the Quality of Generative Models using Probability Mass Estimation](https://arxiv.org/abs/2402.04355) | PQMass是一种使用概率质量估计来评估生成模型质量的全面方法，能够直接处理高维数据，不依赖于假设或训练其他模型。 |
+| [^1] | [Semantic Augmentation in Images using Language](https://arxiv.org/abs/2404.02353) | 深度学习模型需要大规模标记数据集，本文提出利用生成图像增强数据集以改进模型跨领域泛化能力。 |
+| [^2] | [Algorithmic Collusion by Large Language Models](https://arxiv.org/abs/2404.00806) | 大型语言模型的算法定价代理在寡头市场环境中自主勾结，对消费者利益有害，其说明书中的短语变化可能增加勾结。 |
+| [^3] | [A minimal coalition logic](https://arxiv.org/abs/2403.14704) | 提出了一个基于一般并发博弈模型的最小联盟逻辑，不具备传统模型中的独立性、序列性和确定性假设，展示了其完备性并与传统模型进行了比较 |
+| [^4] | [Inconsistency Handling in Prioritized Databases with Universal Constraints: Complexity Analysis and Links with Active Integrity Constraints.](http://arxiv.org/abs/2306.03523) | 本文研究解决了具有全局约束的不一致数据库的修复和查询问题，通过对称差分修复并指定首选修复行动，扩展了现有的最优修复概念，并且研究了修复概念的计算属性，同时澄清了与主动完整性约束框架中引入的修复概念之间的关系。 |
 
 # 详细
 
-[^1]: 一种用于电力价格预测的Transformer方法
+[^1]: 利用语言在图像中进行语义增强
 
-    A Transformer approach for Electricity Price Forecasting
+    Semantic Augmentation in Images using Language
 
-    [https://arxiv.org/abs/2403.16108](https://arxiv.org/abs/2403.16108)
+    [https://arxiv.org/abs/2404.02353](https://arxiv.org/abs/2404.02353)
 
-    这种独特的Transformer模型在电力价格预测中取得了更好的表现，为可靠和可持续的电力系统运行提供了有前景的解决方案。
-
-    
-
-    本文提出了一种使用纯Transformer模型进行电力价格预测（EPF）的新方法。与其他方法不同，没有使用其他递归网络结合注意力机制。因此，表明注意力层足以捕捉时间模式。该论文还通过使用开源EPF工具进行了对模型的公平比较，并提供了代码以增强EPF研究的可再现性和透明度。结果表明，Transformer模型优于传统方法，为可靠和可持续的电力系统运行提供了一种有希望的解决方案。
-
-    arXiv:2403.16108v1 Announce Type: cross  Abstract: This paper presents a novel approach to electricity price forecasting (EPF) using a pure Transformer model. As opposed to other alternatives, no other recurrent network is used in combination to the attention mechanism. Hence, showing that the attention layer is enough for capturing the temporal patterns. The paper also provides fair comparison of the models using the open-source EPF toolbox and provide the code to enhance reproducibility and transparency in EPF research. The results show that the Transformer model outperforms traditional methods, offering a promising solution for reliable and sustainable power system operation.
-    
-[^2]: FedComLoc: 稀疏和量化模型的通信高效分布式训练
-
-    FedComLoc: Communication-Efficient Distributed Training of Sparse and Quantized Models
-
-    [https://arxiv.org/abs/2403.09904](https://arxiv.org/abs/2403.09904)
-
-    FedComLoc利用Scaffnew算法的基础，引入了压缩和本地训练，显著降低了分布式训练中的通信开销。
+    深度学习模型需要大规模标记数据集，本文提出利用生成图像增强数据集以改进模型跨领域泛化能力。
 
     
 
-    联邦学习（FL）由于其允许异构客户端在本地处理其私有数据并与中央服务器互动，同时尊重隐私的独特特点而受到越来越多的关注。我们的工作受到了创新的Scaffnew算法的启发，该算法在FL中大大推动了通信复杂性的降低。我们引入了FedComLoc（联邦压缩和本地训练），将实用且有效的压缩集成到Scaffnew中，以进一步增强通信效率。广泛的实验证明，使用流行的TopK压缩器和量化，它在大幅减少异构中的通信开销方面具有卓越的性能。
+    深度学习模型需要非常庞大的标记数据集进行监督学习，缺乏这些数据集会导致过拟合并限制其泛化到现实世界示例的能力。最近扩散模型的进展使得能够基于文本输入生成逼真的图像。利用用于训练这些扩散模型的大规模数据集，我们提出一种利用生成的图像来增强现有数据集的技术。本文探讨了各种有效数据增强策略，以提高深度学习模型的跨领域泛化能力。
 
-    arXiv:2403.09904v1 Announce Type: cross  Abstract: Federated Learning (FL) has garnered increasing attention due to its unique characteristic of allowing heterogeneous clients to process their private data locally and interact with a central server, while being respectful of privacy. A critical bottleneck in FL is the communication cost. A pivotal strategy to mitigate this burden is \emph{Local Training}, which involves running multiple local stochastic gradient descent iterations between communication phases. Our work is inspired by the innovative \emph{Scaffnew} algorithm, which has considerably advanced the reduction of communication complexity in FL. We introduce FedComLoc (Federated Compressed and Local Training), integrating practical and effective compression into \emph{Scaffnew} to further enhance communication efficiency. Extensive experiments, using the popular TopK compressor and quantization, demonstrate its prowess in substantially reducing communication overheads in heter
+    arXiv:2404.02353v1 Announce Type: cross  Abstract: Deep Learning models are incredibly data-hungry and require very large labeled datasets for supervised learning. As a consequence, these models often suffer from overfitting, limiting their ability to generalize to real-world examples. Recent advancements in diffusion models have enabled the generation of photorealistic images based on textual inputs. Leveraging the substantial datasets used to train these diffusion models, we propose a technique to utilize generated images to augment existing datasets. This paper explores various strategies for effective data augmentation to improve the out-of-domain generalization capabilities of deep learning models.
     
-[^3]: PQMass: 使用概率质量估计的生成模型质量的概率评估
+[^2]: 大型语言模型的算法勾结
 
-    PQMass: Probabilistic Assessment of the Quality of Generative Models using Probability Mass Estimation
+    Algorithmic Collusion by Large Language Models
 
-    [https://arxiv.org/abs/2402.04355](https://arxiv.org/abs/2402.04355)
+    [https://arxiv.org/abs/2404.00806](https://arxiv.org/abs/2404.00806)
 
-    PQMass是一种使用概率质量估计来评估生成模型质量的全面方法，能够直接处理高维数据，不依赖于假设或训练其他模型。
+    大型语言模型的算法定价代理在寡头市场环境中自主勾结，对消费者利益有害，其说明书中的短语变化可能增加勾结。
 
     
 
-    我们提出了一种全面的基于样本的方法来评估生成模型的质量。所提出的方法能够估计两个样本集合来自同一分布的概率，为评估单个生成模型的性能或比较在同一数据集上训练的多个竞争模型提供了一个统计上严格的方法。该比较可以通过将空间划分为非重叠的区域并比较每个区域中的数据样本数量来进行。该方法仅需要生成模型和测试数据的样本。它能够直接处理高维数据，无需降维。显著的是，该方法不依赖于关于真实分布密度的假设，并且不依赖于训练或拟合任何辅助模型。相反，它着重于近似计算密度的积分（概率质量）。
+    arXiv:2404.00806v1 公告类型:交叉摘要:算法定价的兴起引起了对算法勾结的担忧。我们对基于大型语言模型（LLMs）特别是GPT-4的算法定价代理进行实验。我们发现：（1）基于LLM的代理在定价任务上表现出色，（2）基于LLM的定价代理在寡头市场环境中自主勾结，损害消费者利益，（3）LLM说明书中看似无害短语("提示")的变化可能会增加勾结。这些结果也适用于拍卖设置。我们的发现强调了有关算法定价的反垄断监管的必要性，并发现了基于LLM的定价代理所面临的监管挑战。
 
-    We propose a comprehensive sample-based method for assessing the quality of generative models. The proposed approach enables the estimation of the probability that two sets of samples are drawn from the same distribution, providing a statistically rigorous method for assessing the performance of a single generative model or the comparison of multiple competing models trained on the same dataset. This comparison can be conducted by dividing the space into non-overlapping regions and comparing the number of data samples in each region. The method only requires samples from the generative model and the test data. It is capable of functioning directly on high-dimensional data, obviating the need for dimensionality reduction. Significantly, the proposed method does not depend on assumptions regarding the density of the true distribution, and it does not rely on training or fitting any auxiliary models. Instead, it focuses on approximating the integral of the density (probability mass) acros
+    arXiv:2404.00806v1 Announce Type: cross  Abstract: The rise of algorithmic pricing raises concerns of algorithmic collusion. We conduct experiments with algorithmic pricing agents based on Large Language Models (LLMs), and specifically GPT-4. We find that (1) LLM-based agents are adept at pricing tasks, (2) LLM-based pricing agents autonomously collude in oligopoly settings to the detriment of consumers, and (3) variation in seemingly innocuous phrases in LLM instructions ("prompts") may increase collusion. These results extend to auction settings. Our findings underscore the need for antitrust regulation regarding algorithmic pricing, and uncover regulatory challenges unique to LLM-based pricing agents.
+    
+[^3]: 一个最小联盟逻辑
+
+    A minimal coalition logic
+
+    [https://arxiv.org/abs/2403.14704](https://arxiv.org/abs/2403.14704)
+
+    提出了一个基于一般并发博弈模型的最小联盟逻辑，不具备传统模型中的独立性、序列性和确定性假设，展示了其完备性并与传统模型进行了比较
+
+    
+
+    联盟逻辑是战略推理研究中的一个中心逻辑。本文首先指出联盟逻辑模型，即并发博弈模型，存在三个过于强的假设。其一是代理的独立性；即，两个不同联盟的两个可用联合动作的合并总是可以合并成两个联盟的联盟。其二是序列性；即，联盟总是有可用的联合动作。其三是确定性，即，大联盟的合作动作总是有唯一结果。其次，我们提出了一个基于一般并发博弈模型的联盟逻辑，该模型不具备这三个假设。我们展示了这一逻辑的完备性，并与联盟逻辑进行了详细比较。在战略推理的背景下，这一逻辑似乎是最小的。
+
+    arXiv:2403.14704v1 Announce Type: cross  Abstract: Coalition logic is a central logic in strategic reasoning studies. In this paper, we first argue that Coalition Logic models, concurrent game models, have three too-strong assumptions. The first one is the independence of agents; that is, the merge of two available joint actions of two disjoint coalitions is always available for the union of the two coalitions. The second one is seriality; that is, coalitions always have available joint actions. The third one is determinism, that is, the grand coalition's joint actions always have a unique outcome. Second, we present a coalition logic based on general concurrent game models, which do not have the three assumptions. We show the completeness of this logic and compare it with Coalition Logic in detail. This logic seems minimal in the context of strategic reasoning.
+    
+[^4]: 具有全局约束的优先数据库中的不一致性处理：复杂度分析和与主动完整性约束的联系(arXiv:2306.03523v1 [cs.DB])
+
+    Inconsistency Handling in Prioritized Databases with Universal Constraints: Complexity Analysis and Links with Active Integrity Constraints. (arXiv:2306.03523v1 [cs.DB])
+
+    [http://arxiv.org/abs/2306.03523](http://arxiv.org/abs/2306.03523)
+
+    本文研究解决了具有全局约束的不一致数据库的修复和查询问题，通过对称差分修复并指定首选修复行动，扩展了现有的最优修复概念，并且研究了修复概念的计算属性，同时澄清了与主动完整性约束框架中引入的修复概念之间的关系。
+
+    
+
+    本文重新审视了带有全局约束的不一致数据库的修复和查询问题。采用对称差分修复，即通过删除和添加事实来恢复一致性，并假设通过对（否定）事实的二元优先关系来指定首选修复行动。我们的第一个贡献是展示如何适当地将现有的最优修复概念（仅对基于事实删除的简单拒绝约束和修复定义）扩展到我们更丰富的设置中。接下来，我们研究了所得到的修复概念的计算属性，特别是修复检查和容忍不一致查询的数据复杂性。最后，我们澄清了优先数据库的最优修复与在主动完整性约束框架中引入的修复概念之间的关系。特别地，我们表明在我们的设置中的帕累托最优修复对应于 founded、grounded 和 just。
+
+    This paper revisits the problem of repairing and querying inconsistent databases equipped with universal constraints. We adopt symmetric difference repairs, in which both deletions and additions of facts can be used to restore consistency, and suppose that preferred repair actions are specified via a binary priority relation over (negated) facts. Our first contribution is to show how existing notions of optimal repairs, defined for simpler denial constraints and repairs solely based on fact deletion, can be suitably extended to our richer setting. We next study the computational properties of the resulting repair notions, in particular, the data complexity of repair checking and inconsistency-tolerant query answering. Finally, we clarify the relationship between optimal repairs of prioritized databases and repair notions introduced in the framework of active integrity constraints. In particular, we show that Pareto-optimal repairs in our setting correspond to founded, grounded and just
     
 
