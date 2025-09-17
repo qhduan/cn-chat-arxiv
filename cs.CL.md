@@ -2,52 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models.](http://arxiv.org/abs/2309.01219) | 本文调查了大型语言模型中幻觉的检测、解释和缓解的最新研究，提出了幻觉现象和评估基准的分类，并讨论了未来研究的潜在方向。 |
-| [^2] | [Tackling Fake News in Bengali: Unraveling the Impact of Summarization vs. Augmentation on Pre-trained Language Models.](http://arxiv.org/abs/2307.06979) | 本论文研究了孟加拉语中假新闻的检测问题。通过使用总结和扩充技术，结合预训练语言模型，提出了一种四重方法来分类孟加拉语的假新闻文章。研究表明，总结和扩充在孟加拉语假新闻检测中具有有效性。 |
-| [^3] | [Explaining Emergent In-Context Learning as Kernel Regression.](http://arxiv.org/abs/2305.12766) | 本文研究了为什么在预训练之后，基于Transformer的语言模型能够实现上下文学习，并提出了一种假设，认为LLMs在面对上下文示例时能够通过内部表示模拟核回归。 |
+| [^1] | [Structured Information Matters: Incorporating Abstract Meaning Representation into LLMs for Improved Open-Domain Dialogue Evaluation](https://arxiv.org/abs/2404.01129) | 将抽象意义表示结合到LLMs中，提出了一个简单有效的框架用于改善开放领域对话评估 |
+| [^2] | [Concurrent Linguistic Error Detection (CLED) for Large Language Models](https://arxiv.org/abs/2403.16393) | 提出了一种针对大型语言模型的并发语言错误检测方案，通过提取文本的语言特征并使用分类器进行错误检测。 |
 
 # 详细
 
-[^1]: AI海洋中的妖怪之歌：大型语言模型中的幻觉调查
+[^1]: 结构化信息很重要：将抽象意义表示引入LLMs以改善开放领域对话评估
 
-    Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models. (arXiv:2309.01219v2 [cs.CL] UPDATED)
+    Structured Information Matters: Incorporating Abstract Meaning Representation into LLMs for Improved Open-Domain Dialogue Evaluation
 
-    [http://arxiv.org/abs/2309.01219](http://arxiv.org/abs/2309.01219)
+    [https://arxiv.org/abs/2404.01129](https://arxiv.org/abs/2404.01129)
 
-    本文调查了大型语言模型中幻觉的检测、解释和缓解的最新研究，提出了幻觉现象和评估基准的分类，并讨论了未来研究的潜在方向。
-
-    
-
-    尽管大型语言模型（LLMs）在各种下游任务中展示出了卓越的能力，但人们对其产生幻觉的倾向表示担忧：LLMs有时会生成与用户输入不符、与先前生成的内容相矛盾或与已建立的世界知识不符的内容。这种现象对LLMs在现实场景中的可靠性构成了重大挑战。本文对关于幻觉检测、解释和缓解的最新研究进行了调查，重点探讨了LLMs所面临的独特挑战。我们提出了LLM幻觉现象和评估基准的分类，分析了现有的旨在缓解LLM幻觉的方法，并讨论了未来研究的潜在方向。
-
-    While large language models (LLMs) have demonstrated remarkable capabilities across a range of downstream tasks, a significant concern revolves around their propensity to exhibit hallucinations: LLMs occasionally generate content that diverges from the user input, contradicts previously generated context, or misaligns with established world knowledge. This phenomenon poses a substantial challenge to the reliability of LLMs in real-world scenarios. In this paper, we survey recent efforts on the detection, explanation, and mitigation of hallucination, with an emphasis on the unique challenges posed by LLMs. We present taxonomies of the LLM hallucination phenomena and evaluation benchmarks, analyze existing approaches aiming at mitigating LLM hallucination, and discuss potential directions for future research.
-    
-[^2]: 解决孟加拉语中的假新闻问题：揭示总结与扩充对预训练语言模型的影响
-
-    Tackling Fake News in Bengali: Unraveling the Impact of Summarization vs. Augmentation on Pre-trained Language Models. (arXiv:2307.06979v1 [cs.CL])
-
-    [http://arxiv.org/abs/2307.06979](http://arxiv.org/abs/2307.06979)
-
-    本论文研究了孟加拉语中假新闻的检测问题。通过使用总结和扩充技术，结合预训练语言模型，提出了一种四重方法来分类孟加拉语的假新闻文章。研究表明，总结和扩充在孟加拉语假新闻检测中具有有效性。
+    将抽象意义表示结合到LLMs中，提出了一个简单有效的框架用于改善开放领域对话评估
 
     
 
-    随着社交媒体和在线新闻来源的兴起，假新闻已成为全球性的重大问题。然而，在像孟加拉语这样的低资源语言中检测假新闻在研究中受到了有限的关注。本文提出了一种方法，利用总结和扩充技术以及五种预训练语言模型来分类孟加拉语的假新闻文章。我们的方法包括将英语新闻文章进行翻译，并使用扩充技术来解决假新闻文章的不足问题。我们的研究还着重于通过总结新闻来解决基于BERT模型的令牌长度限制。通过广泛的实验和严格的评估，我们展示了总结和扩充在孟加拉语假新闻检测中的有效性。我们使用三个独立的测试数据集来评估我们的模型。当将BanglaBERT基础模型与扩充技术相结合时，取得了令人印象深刻的准确性。
+    arXiv:2404.01129v1 公告类型：新的 摘要：自动的开放领域对话评估已经引起越来越多的关注。可训练的评估指标通常是通过训练具有真正正例和随机选择的负例回复来训练的，导致它们倾向于将更高内容相似性的回复分配更高的得分给定一个上下文。然而，对抗性的负面回复具有与上下文高内容相似性，同时在语义上不同。因此，现有的评估指标不足以评估这类回复，导致与人类判断之间的相关性较低。虽然最近的研究已经显示出在利用大型语言模型（LLMs）进行开放领域对话评估方面有一定效果，但它们仍然在有效处理对抗性负面示例方面遇到挑战。在本文中，我们提出了一个简单而有效的框架用于开放领域对话评估，它结合了领域特定的语言模型（SLMs）。
 
-    With the rise of social media and online news sources, fake news has become a significant issue globally. However, the detection of fake news in low resource languages like Bengali has received limited attention in research. In this paper, we propose a methodology consisting of four distinct approaches to classify fake news articles in Bengali using summarization and augmentation techniques with five pre-trained language models. Our approach includes translating English news articles and using augmentation techniques to curb the deficit of fake news articles. Our research also focused on summarizing the news to tackle the token length limitation of BERT based models. Through extensive experimentation and rigorous evaluation, we show the effectiveness of summarization and augmentation in the case of Bengali fake news detection. We evaluated our models using three separate test datasets. The BanglaBERT Base model, when combined with augmentation techniques, achieved an impressive accurac
+    arXiv:2404.01129v1 Announce Type: new  Abstract: Automatic open-domain dialogue evaluation has attracted increasing attention. Trainable evaluation metrics are commonly trained with true positive and randomly selected negative responses, resulting in a tendency for them to assign a higher score to the responses that share higher content similarity with a given context. However, adversarial negative responses possess high content similarity with the contexts whilst being semantically different. Therefore, existing evaluation metrics are not robust enough to evaluate such responses, resulting in low correlations with human judgments. While recent studies have shown some efficacy in utilizing Large Language Models (LLMs) for open-domain dialogue evaluation, they still encounter challenges in effectively handling adversarial negative examples. In this paper, we propose a simple yet effective framework for open-domain dialogue evaluation, which combines domain-specific language models (SLMs
     
-[^3]: 将 Emergent In-Context Learning 解释为核回归
+[^2]: 大型语言模型的并发语言错误检测（CLED）
 
-    Explaining Emergent In-Context Learning as Kernel Regression. (arXiv:2305.12766v2 [cs.CL] UPDATED)
+    Concurrent Linguistic Error Detection (CLED) for Large Language Models
 
-    [http://arxiv.org/abs/2305.12766](http://arxiv.org/abs/2305.12766)
+    [https://arxiv.org/abs/2403.16393](https://arxiv.org/abs/2403.16393)
 
-    本文研究了为什么在预训练之后，基于Transformer的语言模型能够实现上下文学习，并提出了一种假设，认为LLMs在面对上下文示例时能够通过内部表示模拟核回归。
+    提出了一种针对大型语言模型的并发语言错误检测方案，通过提取文本的语言特征并使用分类器进行错误检测。
 
     
 
-    大型语言模型（LLMs）在迁移学习中引起了一场范式转变。与经典的预训练-微调过程相比，为了将LLMs用于下游预测任务，只需要提供一些示例，即上下文示例，而无需添加或更新现有的模型参数。LLMs的这种上下文学习能力非常有意思，但目前尚不完全了解预训练LLMs如何获得这种能力。本文通过提出一个假设，即当面临上下文示例时，LLMs能够通过内部表示模拟核回归，来研究为何基于Transformer的语言模型能够在预训练通用语料库之后实现上下文学习。具体来说，我们首先证明了上下文提示的贝叶斯推断在渐近情况下可以被理解为核回归 $\hat y = \sum_i y_i K(x, x_i)/\sum_i K(x, x_i)$，
+    大型语言模型（LLMs）的广泛采用使得它们的可靠性成为一个紧迫问题。错误的检测是减轻其对系统影响的第一步，因此，LLMs的高效错误检测是一个重要问题。基于对LLMs输出进行的观察，我们提出进行并发语言错误检测（CLED）；该方案提取LLMs生成文本的一些语言特征，并将它们输入到一个并发分类器中进行错误检测。
 
-    Large language models (LLMs) have initiated a paradigm shift in transfer learning. In contrast to the classic pretraining-then-finetuning procedure, in order to use LLMs for downstream prediction tasks, one only needs to provide a few demonstrations, known as in-context examples, without adding more or updating existing model parameters. This in-context learning (ICL) capability of LLMs is intriguing, and it is not yet fully understood how pretrained LLMs acquire such capabilities. In this paper, we investigate the reason why a transformer-based language model can accomplish in-context learning after pre-training on a general language corpus by proposing one hypothesis that LLMs can simulate kernel regression with internal representations when faced with in-context examples. More concretely, we first prove that Bayesian inference on in-context prompts can be asymptotically understood as kernel regression $\hat y = \sum_i y_i K(x, x_i)/\sum_i K(x, x_i)$ as the number of in-context demon
+    arXiv:2403.16393v1 Announce Type: new  Abstract: The wide adoption of Large language models (LLMs) makes their dependability a pressing concern. Detection of errors is the first step to mitigating their impact on a system and thus, efficient error detection for LLMs is an important issue. In many settings, the LLM is considered as a black box with no access to the internal nodes; this prevents the use of many error detection schemes that need access to the model's internal nodes. An interesting observation is that the output of LLMs in error-free operation should be valid and normal text. Therefore, when the text is not valid or differs significantly from normal text, it is likely that there is an error. Based on this observation we propose to perform Concurrent Linguistic Error Detection (CLED); this scheme extracts some linguistic features of the text generated by the LLM and feeds them to a concurrent classifier that detects errors. Since the proposed error detection mechanism only 
     
 
