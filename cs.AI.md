@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Conformal Temporal Logic Planning using Large Language Models: Knowing When to Do What and When to Ask for Help.](http://arxiv.org/abs/2309.10092) | 本文提出了一个使用大型语言模型的一致时间逻辑规划方法，用于解决多个高级子任务的移动机器人运动规划问题。其中的一个关键挑战是如何以正确性的角度推理机器人计划与基于自然语言的逻辑任务的关系。 |
+| [^1] | [Heterogeneous Directed Hypergraph Neural Network over abstract syntax tree (AST) for Code Classification.](http://arxiv.org/abs/2305.04228) | 本研究提出了使用异构有向超图表示AST，并使用异构有向超图神经网络处理图形进行代码分类，超过了现有方法。 |
 
 # 详细
 
-[^1]: 使用大型语言模型的一致时间逻辑规划：知道何时做什么和何时寻求帮助。
+[^1]: 基于抽象语法树的异构有向超图神经网络用于代码分类
 
-    Conformal Temporal Logic Planning using Large Language Models: Knowing When to Do What and When to Ask for Help. (arXiv:2309.10092v1 [cs.RO])
+    Heterogeneous Directed Hypergraph Neural Network over abstract syntax tree (AST) for Code Classification. (arXiv:2305.04228v2 [cs.SE] UPDATED)
 
-    [http://arxiv.org/abs/2309.10092](http://arxiv.org/abs/2309.10092)
+    [http://arxiv.org/abs/2305.04228](http://arxiv.org/abs/2305.04228)
 
-    本文提出了一个使用大型语言模型的一致时间逻辑规划方法，用于解决多个高级子任务的移动机器人运动规划问题。其中的一个关键挑战是如何以正确性的角度推理机器人计划与基于自然语言的逻辑任务的关系。
+    本研究提出了使用异构有向超图表示AST，并使用异构有向超图神经网络处理图形进行代码分类，超过了现有方法。
 
     
 
-    本文解决了一个新的移动机器人运动规划问题，任务是以自然语言（NL）表达并以时间和逻辑顺序完成多个高级子任务。为了正式定义这样的任务，我们利用基于NL的原子谓词在LTL上定义了模型。这与相关的规划方法形成对比，这些方法在原子谓词上定义了捕捉所需低级系统配置的LTL任务。我们的目标是设计机器人计划，满足基于NL的原子命题定义的LTL任务。在这个设置中出现的一个新的技术挑战在于推理机器人计划的正确性与这些LTL编码的任务的关系。为了解决这个问题，我们提出了HERACLEs，一个分层一致的自然语言规划器，它依赖于现有工具的新型整合，包括（i）自动机理论，以确定机器人应该完成的NL指定的子任务以推进任务进展；
+    代码分类是程序理解和自动编码中的一个难题。由于程序的模糊语法和复杂语义，大多数现有研究使用基于抽象语法树（AST）和图神经网络（GNN）的技术创建代码表示用于代码分类。这些技术利用代码的结构和语义信息，但只考虑节点之间的成对关系，忽略了AST中节点之间已经存在的高阶相关性，可能导致代码结构信息的丢失。本研究提出使用异构有向超图（HDHG）表示AST，并使用异构有向超图神经网络（HDHGN）处理图形。HDHG保留了节点之间的高阶相关性，并更全面地编码了AST的语义和结构信息。HDHGN通过聚合不同节点的特征并使用不同的函数对其进行处理来对AST进行建模。在四个数据集上的实验表明，HDHG和HDHGN在代码分类任务中超越了现有方法。
 
-    This paper addresses a new motion planning problem for mobile robots tasked with accomplishing multiple high-level sub-tasks, expressed using natural language (NL), in a temporal and logical order. To formally define such missions, we leverage LTL defined over NL-based atomic predicates modeling the considered NL-based sub-tasks. This is contrast to related planning approaches that define LTL tasks over atomic predicates capturing desired low-level system configurations. Our goal is to design robot plans that satisfy LTL tasks defined over NL-based atomic propositions. A novel technical challenge arising in this setup lies in reasoning about correctness of a robot plan with respect to such LTL-encoded tasks. To address this problem, we propose HERACLEs, a hierarchical conformal natural language planner, that relies on a novel integration of existing tools that include (i) automata theory to determine the NL-specified sub-task the robot should accomplish next to make mission progress; (
+    Code classification is a difficult issue in program understanding and automatic coding. Due to the elusive syntax and complicated semantics in programs, most existing studies use techniques based on abstract syntax tree (AST) and graph neural network (GNN) to create code representations for code classification. These techniques utilize the structure and semantic information of the code, but they only take into account pairwise associations and neglect the high-order correlations that already exist between nodes in the AST, which may result in the loss of code structural information. On the other hand, while a general hypergraph can encode high-order data correlations, it is homogeneous and undirected which will result in a lack of semantic and structural information such as node types, edge types, and directions between child nodes and parent nodes when modeling AST. In this study, we propose to represent AST as a heterogeneous directed hypergraph (HDHG) and process the graph by hetero
     
 

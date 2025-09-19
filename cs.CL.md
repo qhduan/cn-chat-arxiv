@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Large Language Models for Information Retrieval: A Survey.](http://arxiv.org/abs/2308.07107) | 本综述将大型语言模型（LLMs）在信息检索中的发展进行了综述，探讨了其在捕捉上下文信号和语义细微之处方面的优势和挑战，以及与传统检索方法的结合的重要性。 |
+| [^1] | [Fast Multipole Attention: A Divide-and-Conquer Attention Mechanism for Long Sequences.](http://arxiv.org/abs/2310.11960) | 提出了一种名为快速多极化注意力的新型注意力机制，它使用分治策略将注意力的时间和内存复杂度从O(n^2)降低到O(n log n)或O(n)，同时保持了全局感知范围。 |
 
 # 详细
 
-[^1]: 信息检索中的大型语言模型：一项综述
+[^1]: 快速多极化注意力：一种用于长序列的分治注意力机制
 
-    Large Language Models for Information Retrieval: A Survey. (arXiv:2308.07107v2 [cs.CL] UPDATED)
+    Fast Multipole Attention: A Divide-and-Conquer Attention Mechanism for Long Sequences. (arXiv:2310.11960v1 [cs.CL])
 
-    [http://arxiv.org/abs/2308.07107](http://arxiv.org/abs/2308.07107)
+    [http://arxiv.org/abs/2310.11960](http://arxiv.org/abs/2310.11960)
 
-    本综述将大型语言模型（LLMs）在信息检索中的发展进行了综述，探讨了其在捕捉上下文信号和语义细微之处方面的优势和挑战，以及与传统检索方法的结合的重要性。
+    提出了一种名为快速多极化注意力的新型注意力机制，它使用分治策略将注意力的时间和内存复杂度从O(n^2)降低到O(n log n)或O(n)，同时保持了全局感知范围。
 
     
 
-    作为信息获取的主要手段，信息检索（IR）系统，如搜索引擎，已经融入到我们的日常生活中。这些系统还作为对话、问答和推荐系统的组成部分。IR的发展轨迹从基于词项的方法起步，逐渐发展成与先进的神经模型相融合。尽管神经模型擅长捕捉复杂的上下文信号和语义细微之处，从而改变了IR的格局，但它们仍然面临着数据稀缺、可解释性以及生成上下文合理但潜在不准确响应的挑战。这种演变需要传统方法（如基于词项的稀疏检索方法与快速响应）和现代神经架构（如具有强大语言理解能力的语言模型）的结合。与此同时，大型语言模型（LLMs），如ChatGPT和GPT-4的出现，引起了一场革命
+    基于Transformer的模型已在许多领域取得了最先进的性能。然而，自注意力对于输入长度的二次复杂度限制了Transformer模型在长序列上的适用性。为了解决这个问题，我们提出了快速多极化注意力，一种使用分治策略来减少注意力时间和内存复杂度的新型注意力机制，将长度为n的序列的注意力复杂度从O(n^2)降低到O(n log n)或O(n)，同时保持了全局感知范围。这种分层方法将查询、键和值分为O(log n)级的分辨率，较远距离的组群越来越大，并学习计算组群数量的权重。因此，以高效分层的方式在较低的分辨率中考虑远离彼此的标记之间的相互作用。快速多极化注意力的总体复杂度为O(n)或O(n log n)。
 
-    As a primary means of information acquisition, information retrieval (IR) systems, such as search engines, have integrated themselves into our daily lives. These systems also serve as components of dialogue, question-answering, and recommender systems. The trajectory of IR has evolved dynamically from its origins in term-based methods to its integration with advanced neural models. While the neural models excel at capturing complex contextual signals and semantic nuances, thereby reshaping the IR landscape, they still face challenges such as data scarcity, interpretability, and the generation of contextually plausible yet potentially inaccurate responses. This evolution requires a combination of both traditional methods (such as term-based sparse retrieval methods with rapid response) and modern neural architectures (such as language models with powerful language understanding capacity). Meanwhile, the emergence of large language models (LLMs), typified by ChatGPT and GPT-4, has revolu
+    Transformer-based models have achieved state-of-the-art performance in many areas. However, the quadratic complexity of self-attention with respect to the input length hinders the applicability of Transformer-based models to long sequences. To address this, we present Fast Multipole Attention, a new attention mechanism that uses a divide-and-conquer strategy to reduce the time and memory complexity of attention for sequences of length $n$ from $\mathcal{O}(n^2)$ to $\mathcal{O}(n \log n)$ or $O(n)$, while retaining a global receptive field. The hierarchical approach groups queries, keys, and values into $\mathcal{O}( \log n)$ levels of resolution, where groups at greater distances are increasingly larger in size and the weights to compute group quantities are learned. As such, the interaction between tokens far from each other is considered in lower resolution in an efficient hierarchical manner. The overall complexity of Fast Multipole Attention is $\mathcal{O}(n)$ or $\mathcal{O}(n \
     
 

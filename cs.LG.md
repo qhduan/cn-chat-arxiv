@@ -2,67 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Data-Efficient Sleep Staging with Synthetic Time Series Pretraining](https://arxiv.org/abs/2403.08592) | 通过预测合成时间序列的频率内容进行预训练，实现了在有限数据和少受试者情况下超越完全监督学习的方法 |
-| [^2] | [Predicting O-GlcNAcylation Sites in Mammalian Proteins with Transformers and RNNs Trained with a New Loss Function](https://arxiv.org/abs/2402.17131) | 本研究提出了一种新的损失函数，称为加权焦点可微MCC，用于改善分类模型的性能，并在预测哺乳动物蛋白质中的O-GlcNAcylation位点方面取得了进展 |
-| [^3] | [Tabdoor: Backdoor Vulnerabilities in Transformer-based Neural Networks for Tabular Data.](http://arxiv.org/abs/2311.07550) | 这项研究全面分析了使用DNNs对表格数据进行后门攻击，揭示了基于转换器的DNNs对表格数据非常容易受到后门攻击，甚至只需最小的特征值修改。该攻击还可以推广到其他模型。 |
-| [^4] | [Realtime Motion Generation with Active Perception Using Attention Mechanism for Cooking Robot.](http://arxiv.org/abs/2309.14837) | 该论文介绍了一种使用注意机制的预测性递归神经网络，能够实现实时感知和动作生成，以支持烹饪机器人在煮鸡蛋过程中对鸡蛋状态的感知和搅拌动作的调整。 |
+| [^1] | [Robust Utility Optimization via a GAN Approach](https://arxiv.org/abs/2403.15243) | 提出了一种生成对抗网络（GAN）方法，用于解决一般和现实设置下的稳健效用优化问题，该方法在实证研究中表现出色，能在没有已知最佳策略的情况下胜过所有其他参考策略 |
+| [^2] | [Differentially private multivariate medians](https://arxiv.org/abs/2210.06459) | 差分私有多变量中位数的有限样本性能保证为常用深度函数提供了尖锐的结果，表明重尾位置估计的成本超过了隐私保护成本。 |
+| [^3] | [Fast Multipole Attention: A Divide-and-Conquer Attention Mechanism for Long Sequences.](http://arxiv.org/abs/2310.11960) | 提出了一种名为快速多极化注意力的新型注意力机制，它使用分治策略将注意力的时间和内存复杂度从O(n^2)降低到O(n log n)或O(n)，同时保持了全局感知范围。 |
+| [^4] | [Heterogeneous Directed Hypergraph Neural Network over abstract syntax tree (AST) for Code Classification.](http://arxiv.org/abs/2305.04228) | 本研究提出了使用异构有向超图表示AST，并使用异构有向超图神经网络处理图形进行代码分类，超过了现有方法。 |
 
 # 详细
 
-[^1]: 用合成时间序列预训练实现高效的睡眠分期
+[^1]: 通过GAN方法实现稳健效用优化
 
-    Data-Efficient Sleep Staging with Synthetic Time Series Pretraining
+    Robust Utility Optimization via a GAN Approach
 
-    [https://arxiv.org/abs/2403.08592](https://arxiv.org/abs/2403.08592)
+    [https://arxiv.org/abs/2403.15243](https://arxiv.org/abs/2403.15243)
 
-    通过预测合成时间序列的频率内容进行预训练，实现了在有限数据和少受试者情况下超越完全监督学习的方法
-
-    
-
-    分析脑电图（EEG）时间序列可能具有挑战性，特别是在深度神经网络中，由于人类受试者之间的大量变异和通常规模较小的数据集。为了解决这些挑战，提出了各种策略，例如自监督学习，但它们通常依赖于广泛的实证数据集。受计算机视觉最新进展的启发，我们提出了一种预训练任务，称为“频率预训练”，通过预测随机生成的合成时间序列的频率内容来为睡眠分期预训练神经网络。我们的实验表明，我们的方法在有限数据和少受试者的情况下优于完全监督学习，并在许多受试者的情境中表现相匹配。此外，我们的结果强调了频率信息对于睡眠分期评分的相关性，同时表明深度神经网络利用了超出频率信息的信息。
-
-    arXiv:2403.08592v1 Announce Type: new  Abstract: Analyzing electroencephalographic (EEG) time series can be challenging, especially with deep neural networks, due to the large variability among human subjects and often small datasets. To address these challenges, various strategies, such as self-supervised learning, have been suggested, but they typically rely on extensive empirical datasets. Inspired by recent advances in computer vision, we propose a pretraining task termed "frequency pretraining" to pretrain a neural network for sleep staging by predicting the frequency content of randomly generated synthetic time series. Our experiments demonstrate that our method surpasses fully supervised learning in scenarios with limited data and few subjects, and matches its performance in regimes with many subjects. Furthermore, our results underline the relevance of frequency information for sleep stage scoring, while also demonstrating that deep neural networks utilize information beyond fr
-    
-[^2]: 使用Transformer和RNN在经过训练的新损失函数下预测哺乳动物蛋白质中的O-GlcNAcylation位点
-
-    Predicting O-GlcNAcylation Sites in Mammalian Proteins with Transformers and RNNs Trained with a New Loss Function
-
-    [https://arxiv.org/abs/2402.17131](https://arxiv.org/abs/2402.17131)
-
-    本研究提出了一种新的损失函数，称为加权焦点可微MCC，用于改善分类模型的性能，并在预测哺乳动物蛋白质中的O-GlcNAcylation位点方面取得了进展
+    提出了一种生成对抗网络（GAN）方法，用于解决一般和现实设置下的稳健效用优化问题，该方法在实证研究中表现出色，能在没有已知最佳策略的情况下胜过所有其他参考策略
 
     
 
-    糖基化是一种蛋白质修饰，在功能和结构上起着多种重要作用。O-GlcNAcylation是糖基化的一种亚型，有潜力成为治疗的重要靶点，但在2023年之前尚未有可靠预测O-GlcNAcylation位点的方法；2021年的一篇评论正确指出已发表的模型不足，并且未能泛化。此外，许多模型已不再可用。2023年，一篇具有F$_1$分数36.17%和MCC分数34.57%的大型数据集上的显着更好的RNN模型被发表。本文首次试图通过Transformer编码器提高这些指标。尽管Transformer在该数据集上表现出色，但其性能仍不及先前发表的RNN。然后我们创建了一种新的损失函数，称为加权焦点可微MCC，以提高分类模型的性能。
+    稳健效用优化使投资者能够以结构化方式处理市场不确定性，旨在最大化最坏情况的结果。在这项工作中，我们提出了一种生成对抗网络（GAN）方法，（近似地）解决一般和现实设置下的稳健效用优化问题。特别地，我们通过神经网络（NN）对投资者和市场进行建模，并在极小极大零和博弈中训练它们。这种方法适用于任何连续效用函数，并在具有交易成本的现实市场设置中，只能使用市场的可观察信息。大量实证研究显示了我们方法的多功能性。每当存在最佳参考策略时，我们的方法都能与之媲美，在没有已知最佳策略的（许多）设置中，我们的方法胜过所有其他参考策略。此外，我们可以从研究中得出结论
 
-    arXiv:2402.17131v1 Announce Type: new  Abstract: Glycosylation, a protein modification, has multiple essential functional and structural roles. O-GlcNAcylation, a subtype of glycosylation, has the potential to be an important target for therapeutics, but methods to reliably predict O-GlcNAcylation sites had not been available until 2023; a 2021 review correctly noted that published models were insufficient and failed to generalize. Moreover, many are no longer usable. In 2023, a considerably better RNN model with an F$_1$ score of 36.17% and an MCC of 34.57% on a large dataset was published. This article first sought to improve these metrics using transformer encoders. While transformers displayed high performance on this dataset, their performance was inferior to that of the previously published RNN. We then created a new loss function, which we call the weighted focal differentiable MCC, to improve the performance of classification models. RNN models trained with this new function di
+    arXiv:2403.15243v1 Announce Type: cross  Abstract: Robust utility optimization enables an investor to deal with market uncertainty in a structured way, with the goal of maximizing the worst-case outcome. In this work, we propose a generative adversarial network (GAN) approach to (approximately) solve robust utility optimization problems in general and realistic settings. In particular, we model both the investor and the market by neural networks (NN) and train them in a mini-max zero-sum game. This approach is applicable for any continuous utility function and in realistic market settings with trading costs, where only observable information of the market can be used. A large empirical study shows the versatile usability of our method. Whenever an optimal reference strategy is available, our method performs on par with it and in the (many) settings without known optimal strategy, our method outperforms all other reference strategies. Moreover, we can conclude from our study that the tr
     
-[^3]: Tabdoor：基于转换器的表格数据神经网络存在后门漏洞
+[^2]: 差分私有多变量中位数
 
-    Tabdoor: Backdoor Vulnerabilities in Transformer-based Neural Networks for Tabular Data. (arXiv:2311.07550v2 [cs.CR] UPDATED)
+    Differentially private multivariate medians
 
-    [http://arxiv.org/abs/2311.07550](http://arxiv.org/abs/2311.07550)
+    [https://arxiv.org/abs/2210.06459](https://arxiv.org/abs/2210.06459)
 
-    这项研究全面分析了使用DNNs对表格数据进行后门攻击，揭示了基于转换器的DNNs对表格数据非常容易受到后门攻击，甚至只需最小的特征值修改。该攻击还可以推广到其他模型。
-
-    
-
-    深度神经网络(DNNs)在各个领域都显示出巨大的潜力。与这些发展同时，与DNN训练相关的漏洞，如后门攻击，是一个重大关切。这些攻击涉及在模型训练过程中微妙地插入触发器，从而允许操纵预测。最近，由于转换器模型的崛起，DNNs用于表格数据越来越受关注。我们的研究对使用DNNs对表格数据进行后门攻击进行了全面分析，特别关注转换器。鉴于表格数据的固有复杂性，我们探究了嵌入后门的挑战。通过对基准数据集进行系统实验，我们发现基于转换器的DNNs对表格数据非常容易受到后门攻击，即使只有最小的特征值修改。我们还验证了我们的攻击可以推广到其他模型，如XGBoost和DeepFM。我们的研究结果几乎表明后门攻击可以完美实现。
-
-    Deep Neural Networks (DNNs) have shown great promise in various domains. Alongside these developments, vulnerabilities associated with DNN training, such as backdoor attacks, are a significant concern. These attacks involve the subtle insertion of triggers during model training, allowing for manipulated predictions.More recently, DNNs for tabular data have gained increasing attention due to the rise of transformer models.  Our research presents a comprehensive analysis of backdoor attacks on tabular data using DNNs, particularly focusing on transformers. Given the inherent complexities of tabular data, we explore the challenges of embedding backdoors. Through systematic experimentation across benchmark datasets, we uncover that transformer-based DNNs for tabular data are highly susceptible to backdoor attacks, even with minimal feature value alterations. We also verify that our attack can be generalized to other models, like XGBoost and DeepFM. Our results indicate nearly perfect attac
-    
-[^4]: 使用注意机制进行实时动作生成和主动感知的烹饪机器人
-
-    Realtime Motion Generation with Active Perception Using Attention Mechanism for Cooking Robot. (arXiv:2309.14837v1 [cs.RO])
-
-    [http://arxiv.org/abs/2309.14837](http://arxiv.org/abs/2309.14837)
-
-    该论文介绍了一种使用注意机制的预测性递归神经网络，能够实现实时感知和动作生成，以支持烹饪机器人在煮鸡蛋过程中对鸡蛋状态的感知和搅拌动作的调整。
+    差分私有多变量中位数的有限样本性能保证为常用深度函数提供了尖锐的结果，表明重尾位置估计的成本超过了隐私保护成本。
 
     
 
-    为了支持人类的日常生活，机器人需要自主学习，适应物体和环境，并执行适当的动作。我们尝试使用真实的食材煮炒鸡蛋的任务，其中机器人需要实时感知鸡蛋的状态并调整搅拌动作，同时鸡蛋被加热且状态不断变化。在以前的研究中，处理变化的物体被发现是具有挑战性的，因为感知信息包括动态的、重要或嘈杂的信息，而且每次应该关注的模态不断变化，这使得实现实时感知和动作生成变得困难。我们提出了一个带有注意机制的预测性递归神经网络，可以权衡传感器输入，区分每种模态的重要性和可靠性，实现快速和高效的感知和动作生成。模型通过示范学习进行训练，并允许不断更新。
+    现代数据分析需要满足严格隐私保证的统计工具。众所周知，对污染的鲁棒性与差分隐私有关。尽管如此，使用多元中位数进行差分私有和鲁棒的多元位置估计尚未得到系统研究。我们为差分私有多元深度中位数开发了新颖的有限样本性能保证，这些保证基本上是尖锐的。我们的结果涵盖了常用的深度函数，如半平面（或Tukey）深度，空间深度和集成双深度。我们展示了在柯西边际下，重尾位置估计的代价超过了隐私的代价。我们在高达d = 100的维度上使用高斯污染模型进行了数值演示，并将其与最先进的私有均值估计算法进行了比较。作为我们研究的一个副产品，
 
-    To support humans in their daily lives, robots are required to autonomously learn, adapt to objects and environments, and perform the appropriate actions. We tackled on the task of cooking scrambled eggs using real ingredients, in which the robot needs to perceive the states of the egg and adjust stirring movement in real time, while the egg is heated and the state changes continuously. In previous works, handling changing objects was found to be challenging because sensory information includes dynamical, both important or noisy information, and the modality which should be focused on changes every time, making it difficult to realize both perception and motion generation in real time. We propose a predictive recurrent neural network with an attention mechanism that can weigh the sensor input, distinguishing how important and reliable each modality is, that realize quick and efficient perception and motion generation. The model is trained with learning from the demonstration, and allow
+    arXiv:2210.06459v2 Announce Type: replace-cross  Abstract: Statistical tools which satisfy rigorous privacy guarantees are necessary for modern data analysis. It is well-known that robustness against contamination is linked to differential privacy. Despite this fact, using multivariate medians for differentially private and robust multivariate location estimation has not been systematically studied. We develop novel finite-sample performance guarantees for differentially private multivariate depth-based medians, which are essentially sharp. Our results cover commonly used depth functions, such as the halfspace (or Tukey) depth, spatial depth, and the integrated dual depth. We show that under Cauchy marginals, the cost of heavy-tailed location estimation outweighs the cost of privacy. We demonstrate our results numerically using a Gaussian contamination model in dimensions up to d = 100, and compare them to a state-of-the-art private mean estimation algorithm. As a by-product of our inv
+    
+[^3]: 快速多极化注意力：一种用于长序列的分治注意力机制
+
+    Fast Multipole Attention: A Divide-and-Conquer Attention Mechanism for Long Sequences. (arXiv:2310.11960v1 [cs.CL])
+
+    [http://arxiv.org/abs/2310.11960](http://arxiv.org/abs/2310.11960)
+
+    提出了一种名为快速多极化注意力的新型注意力机制，它使用分治策略将注意力的时间和内存复杂度从O(n^2)降低到O(n log n)或O(n)，同时保持了全局感知范围。
+
+    
+
+    基于Transformer的模型已在许多领域取得了最先进的性能。然而，自注意力对于输入长度的二次复杂度限制了Transformer模型在长序列上的适用性。为了解决这个问题，我们提出了快速多极化注意力，一种使用分治策略来减少注意力时间和内存复杂度的新型注意力机制，将长度为n的序列的注意力复杂度从O(n^2)降低到O(n log n)或O(n)，同时保持了全局感知范围。这种分层方法将查询、键和值分为O(log n)级的分辨率，较远距离的组群越来越大，并学习计算组群数量的权重。因此，以高效分层的方式在较低的分辨率中考虑远离彼此的标记之间的相互作用。快速多极化注意力的总体复杂度为O(n)或O(n log n)。
+
+    Transformer-based models have achieved state-of-the-art performance in many areas. However, the quadratic complexity of self-attention with respect to the input length hinders the applicability of Transformer-based models to long sequences. To address this, we present Fast Multipole Attention, a new attention mechanism that uses a divide-and-conquer strategy to reduce the time and memory complexity of attention for sequences of length $n$ from $\mathcal{O}(n^2)$ to $\mathcal{O}(n \log n)$ or $O(n)$, while retaining a global receptive field. The hierarchical approach groups queries, keys, and values into $\mathcal{O}( \log n)$ levels of resolution, where groups at greater distances are increasingly larger in size and the weights to compute group quantities are learned. As such, the interaction between tokens far from each other is considered in lower resolution in an efficient hierarchical manner. The overall complexity of Fast Multipole Attention is $\mathcal{O}(n)$ or $\mathcal{O}(n \
+    
+[^4]: 基于抽象语法树的异构有向超图神经网络用于代码分类
+
+    Heterogeneous Directed Hypergraph Neural Network over abstract syntax tree (AST) for Code Classification. (arXiv:2305.04228v2 [cs.SE] UPDATED)
+
+    [http://arxiv.org/abs/2305.04228](http://arxiv.org/abs/2305.04228)
+
+    本研究提出了使用异构有向超图表示AST，并使用异构有向超图神经网络处理图形进行代码分类，超过了现有方法。
+
+    
+
+    代码分类是程序理解和自动编码中的一个难题。由于程序的模糊语法和复杂语义，大多数现有研究使用基于抽象语法树（AST）和图神经网络（GNN）的技术创建代码表示用于代码分类。这些技术利用代码的结构和语义信息，但只考虑节点之间的成对关系，忽略了AST中节点之间已经存在的高阶相关性，可能导致代码结构信息的丢失。本研究提出使用异构有向超图（HDHG）表示AST，并使用异构有向超图神经网络（HDHGN）处理图形。HDHG保留了节点之间的高阶相关性，并更全面地编码了AST的语义和结构信息。HDHGN通过聚合不同节点的特征并使用不同的函数对其进行处理来对AST进行建模。在四个数据集上的实验表明，HDHG和HDHGN在代码分类任务中超越了现有方法。
+
+    Code classification is a difficult issue in program understanding and automatic coding. Due to the elusive syntax and complicated semantics in programs, most existing studies use techniques based on abstract syntax tree (AST) and graph neural network (GNN) to create code representations for code classification. These techniques utilize the structure and semantic information of the code, but they only take into account pairwise associations and neglect the high-order correlations that already exist between nodes in the AST, which may result in the loss of code structural information. On the other hand, while a general hypergraph can encode high-order data correlations, it is homogeneous and undirected which will result in a lack of semantic and structural information such as node types, edge types, and directions between child nodes and parent nodes when modeling AST. In this study, we propose to represent AST as a heterogeneous directed hypergraph (HDHG) and process the graph by hetero
     
 
