@@ -2,37 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [CLIP Can Understand Depth](https://arxiv.org/abs/2402.03251) | 本文研究了将CLIP用于单目深度估计的问题，通过联合训练反卷积解码器和可学习嵌入矩阵，使得CLIP能够理解深度，该方法在深度估计任务上取得了令人印象深刻的性能，并优于之前的方法。 |
-| [^2] | [Pretrained deep models outperform GBDTs in Learning-To-Rank under label scarcity.](http://arxiv.org/abs/2308.00177) | 本研究研究了在标签稀缺的Learning-To-Rank问题中，无监督预训练的深度模型是否能胜过GBDTs和其他非预训练模型。实验结果表明，通过使用SimCLR-Rank方法进行无监督预训练，我们的深度学习模型在大量无标签数据和有限标签数据的情况下取得了显著优势。 |
+| [^1] | [Can ChatGPT predict article retraction based on Twitter mentions?](https://arxiv.org/abs/2403.16851) | 本研究探讨了ChatGPT是否能够基于Twitter提及来预测文章的撤回，研究发现在预测未来被撤回的有问题文章方面是具有一定潜力的。 |
+| [^2] | [A Statistical Framework for Measuring AI Reliance.](http://arxiv.org/abs/2401.15356) | 该论文提出了一个基于统计决策理论的依赖的形式定义，用于衡量人工智能系统的适当依赖。该定义分离了依赖的概念和人类在形成准确信念时面临的挑战，为人类与人工智能互补性和依赖性的研究设计提供了指导。 |
+| [^3] | [Levels of AGI: Operationalizing Progress on the Path to AGI.](http://arxiv.org/abs/2311.02462) | 本研究提出了一个框架来对人工通用智能（AGI）模型及其前驱进行分类。该框架引入了不同层次的AGI性能、广泛性和自主性，并提供了一个共同的语言用于比较模型、评估风险，并衡量在AGI路径上的进展。 |
 
 # 详细
 
-[^1]: CLIP可以理解深度
+[^1]: ChatGPT是否能够基于Twitter提及来预测文章的撤回？
 
-    CLIP Can Understand Depth
+    Can ChatGPT predict article retraction based on Twitter mentions?
 
-    [https://arxiv.org/abs/2402.03251](https://arxiv.org/abs/2402.03251)
+    [https://arxiv.org/abs/2403.16851](https://arxiv.org/abs/2403.16851)
 
-    本文研究了将CLIP用于单目深度估计的问题，通过联合训练反卷积解码器和可学习嵌入矩阵，使得CLIP能够理解深度，该方法在深度估计任务上取得了令人印象深刻的性能，并优于之前的方法。
-
-    
-
-    最近关于将CLIP推广到单目深度估计的研究表明，在网络爬取的数据上预训练的CLIP在图像块和与深度相关的提示之间得到适当相似性是低效的。在本文中，我们适应CLIP用于有意义的密集预测单目深度估计，而无需微调其原始的视觉-语言对齐。通过联合训练一个紧凑的反卷积解码器和一个名为mirror的小型可学习嵌入矩阵作为其文本编码器的静态提示，CLIP能够理解深度。通过这种方法，我们的模型在NYU Depth v2和KITTI数据集上展现出了令人印象深刻的性能，与几个先前的仅视觉模型相匹配，而且胜过了每个基于CLIP的深度估计模型。关于时间深度一致性和空间连续性的实验证明，我们提出的框架能够有效地优化CLIP的先验知识。此外，对于时滞研究进行了消融实验。
-
-    Recent studies on generalizing CLIP for monocular depth estimation reveal that CLIP pre-trained on web-crawled data is inefficient for deriving proper similarities between image patches and depth-related prompts. In this paper, we adapt CLIP for meaningful quality of monocular depth estimation with dense prediction, without fine-tuning its original vision-language alignment. By jointly training a compact deconvolutional decoder with a tiny learnable embedding matrix named mirror, as a static prompt for its text encoder, CLIP is enabled to understand depth. With this approach, our model exhibits impressive performance matching several previous state-of-the-art vision-only models on the NYU Depth v2 and KITTI datasets, outperforming every CLIP-based depth estimation model with a large margin. Experiments on temporal depth consistency and spatial continuity demonstrate that the prior knowledge of CLIP can be effectively refined by our proposed framework. Furthermore, an ablation study on 
-    
-[^2]: 预训练的深度模型在标签稀缺的Learning-To-Rank中胜过GBDTs
-
-    Pretrained deep models outperform GBDTs in Learning-To-Rank under label scarcity. (arXiv:2308.00177v1 [cs.LG])
-
-    [http://arxiv.org/abs/2308.00177](http://arxiv.org/abs/2308.00177)
-
-    本研究研究了在标签稀缺的Learning-To-Rank问题中，无监督预训练的深度模型是否能胜过GBDTs和其他非预训练模型。实验结果表明，通过使用SimCLR-Rank方法进行无监督预训练，我们的深度学习模型在大量无标签数据和有限标签数据的情况下取得了显著优势。
+    本研究探讨了ChatGPT是否能够基于Twitter提及来预测文章的撤回，研究发现在预测未来被撤回的有问题文章方面是具有一定潜力的。
 
     
 
-    尽管深度学习模型在文本和图像领域是最先进的，但它们在表格形式的Learning-To-Rank问题上尚未一致地胜过梯度提升决策树(GBDTs)。近期在文本和图像任务上深度学习模型取得的性能提升主要依赖于无监督预训练，这种方法利用了比有标签数据多几个数量级的无标签数据。据我们所知，无监督预训练还未应用于Learning-To-Rank问题，而该问题通常产生大量无标签数据。本研究探究了无监督预训练是否能提高LTR性能，与GBDTs和其他非预训练模型相比。通过使用简单的设计选择(包括SimCLR-Rank，这是我们针对排名问题修改的SimCLR方法)，我们产生了预训练的深度学习模型，在有大量无标签数据且有限标签数据的情况下，显著优于GBDTs(和其他非预训练模型)。
+    检测有问题的研究文章具有重要意义，本研究探讨了根据被撤回文章在Twitter上的提及是否能够在文章被撤回前发出信号，从而在预测未来被撤回的有问题文章方面发挥作用。分析了包括3,505篇已撤回文章及其相关Twitter提及在内的数据集，以及使用粗糙精确匹配方法获取的具有类似特征的3,505篇未撤回文章。通过四种预测方法评估了Twitter提及在预测文章撤回方面的有效性，包括手动标注、关键词识别、机器学习模型和ChatGPT。手动标注的结果表明，的确有被撤回的文章，其Twitter提及包含在撤回前发出信号的可识别证据，尽管它们只占所有被撤回文章的一小部分。
 
-    While deep learning (DL) models are state-of-the-art in text and image domains, they have not yet consistently outperformed Gradient Boosted Decision Trees (GBDTs) on tabular Learning-To-Rank (LTR) problems. Most of the recent performance gains attained by DL models in text and image tasks have used unsupervised pretraining, which exploits orders of magnitude more unlabeled data than labeled data. To the best of our knowledge, unsupervised pretraining has not been applied to the LTR problem, which often produces vast amounts of unlabeled data. In this work, we study whether unsupervised pretraining can improve LTR performance over GBDTs and other non-pretrained models. Using simple design choices--including SimCLR-Rank, our ranking-specific modification of SimCLR (an unsupervised pretraining method for images)--we produce pretrained deep learning models that soundly outperform GBDTs (and other non-pretrained models) in the case where labeled data is vastly outnumbered by unlabeled data
+    arXiv:2403.16851v1 Announce Type: cross  Abstract: Detecting problematic research articles timely is a vital task. This study explores whether Twitter mentions of retracted articles can signal potential problems with the articles prior to retraction, thereby playing a role in predicting future retraction of problematic articles. A dataset comprising 3,505 retracted articles and their associated Twitter mentions is analyzed, alongside 3,505 non-retracted articles with similar characteristics obtained using the Coarsened Exact Matching method. The effectiveness of Twitter mentions in predicting article retraction is evaluated by four prediction methods, including manual labelling, keyword identification, machine learning models, and ChatGPT. Manual labelling results indicate that there are indeed retracted articles with their Twitter mentions containing recognizable evidence signaling problems before retraction, although they represent only a limited share of all retracted articles with 
+    
+[^2]: 一个用于衡量人工智能依赖的统计框架
+
+    A Statistical Framework for Measuring AI Reliance. (arXiv:2401.15356v1 [cs.AI])
+
+    [http://arxiv.org/abs/2401.15356](http://arxiv.org/abs/2401.15356)
+
+    该论文提出了一个基于统计决策理论的依赖的形式定义，用于衡量人工智能系统的适当依赖。该定义分离了依赖的概念和人类在形成准确信念时面临的挑战，为人类与人工智能互补性和依赖性的研究设计提供了指导。
+
+    
+
+    人类经常在人工智能系统的帮助下做决策。一个常见模式是人工智能向人类推荐行动，而人类保留对最终决策的控制权。研究人员已经确认，确保人类对人工智能的适当依赖是实现互补性能的关键组成部分。我们认为，目前在这方面的研究中使用的适当依赖的定义缺乏形式化的统计基础，可能会导致矛盾。我们提出了一个基于统计决策理论的依赖的形式定义，它将依赖的概念与人类在区分信号并形成准确信念的挑战分开。我们的定义产生了一个框架，可以用来指导人类与人工智能互补性和依赖性的研究设计和解释。利用最近的人工智能辅助决策研究...
+
+    Humans frequently make decisions with the aid of artificially intelligent (AI) systems. A common pattern is for the AI to recommend an action to the human who retains control over the final decision. Researchers have identified ensuring that a human has appropriate reliance on an AI as a critical component of achieving complementary performance. We argue that the current definition of appropriate reliance used in such research lacks formal statistical grounding and can lead to contradictions. We propose a formal definition of reliance, based on statistical decision theory, which separates the concepts of reliance as the probability the decision-maker follows the AI's prediction from challenges a human may face in differentiating the signals and forming accurate beliefs about the situation. Our definition gives rise to a framework that can be used to guide the design and interpretation of studies on human-AI complementarity and reliance. Using recent AI-advised decision making studies f
+    
+[^3]: AGI的层次：将AGI路径上的进展可操作化
+
+    Levels of AGI: Operationalizing Progress on the Path to AGI. (arXiv:2311.02462v2 [cs.AI] UPDATED)
+
+    [http://arxiv.org/abs/2311.02462](http://arxiv.org/abs/2311.02462)
+
+    本研究提出了一个框架来对人工通用智能（AGI）模型及其前驱进行分类。该框架引入了不同层次的AGI性能、广泛性和自主性，并提供了一个共同的语言用于比较模型、评估风险，并衡量在AGI路径上的进展。
+
+    
+
+    我们提出了一个框架，用于对人工通用智能（AGI）模型及其前驱的能力和行为进行分类。该框架引入了AGI性能、广泛性和自主性的层次。我们希望这个框架能够像自动驾驶的层次一样，通过提供一个共同的语言来比较模型、评估风险，并衡量在AGI路径上的进展。为了开发我们的框架，我们分析了现有的AGI定义，并提取出了一个有用的AGI本体论应满足的六个原则。这些原则包括关注能力而不是机制；分别评估广泛性和性能；定义AGI路径上的阶段，而不是专注于终点。基于这些原则，我们提出了“AGI的层次”，根据能力的深度（性能）和广度（广泛性），并思考当前系统如何符合这个本体论。我们讨论了对实现AGI所提出的具有挑战性的要求。
+
+    We propose a framework for classifying the capabilities and behavior of Artificial General Intelligence (AGI) models and their precursors. This framework introduces levels of AGI performance, generality, and autonomy. It is our hope that this framework will be useful in an analogous way to the levels of autonomous driving, by providing a common language to compare models, assess risks, and measure progress along the path to AGI. To develop our framework, we analyze existing definitions of AGI, and distill six principles that a useful ontology for AGI should satisfy. These principles include focusing on capabilities rather than mechanisms; separately evaluating generality and performance; and defining stages along the path toward AGI, rather than focusing on the endpoint. With these principles in mind, we propose 'Levels of AGI' based on depth (performance) and breadth (generality) of capabilities, and reflect on how current systems fit into this ontology. We discuss the challenging req
     
 
