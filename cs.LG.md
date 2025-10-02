@@ -2,127 +2,142 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Bounding Reconstruction Attack Success of Adversaries Without Data Priors](https://arxiv.org/abs/2402.12861) | 本研究提供了差分隐私训练的机器学习模型在现实对抗设置下重建成功率的正式上限，并通过实证结果支持，有助于更明智地选择隐私参数。 |
-| [^2] | [Complexity Reduction in Machine Learning-Based Wireless Positioning: Minimum Description Features](https://arxiv.org/abs/2402.09580) | 本文设计了一种定位神经网络（P-NN），通过最小描述特征降低了基于深度学习的无线定位中的复杂度，并开发了一种新的方法来自适应地选择特征空间的大小。 |
-| [^3] | [Collective Counterfactual Explanations via Optimal Transport](https://arxiv.org/abs/2402.04579) | 本论文提出了一种集体方法来形成反事实解释，通过利用个体的当前密度来指导推荐的行动，解决了个体为中心的方法可能导致的新的竞争和意想不到的成本问题，并改进了经典反事实解释的期望。 |
-| [^4] | [Unlearnable Algorithms for In-context Learning](https://arxiv.org/abs/2402.00751) | 本文提出了一种针对预先训练的大型语言模型的高效去学习方法，通过选择少量训练示例来实现任务适应训练数据的精确去学习，并与微调方法进行了比较和讨论。 |
-| [^5] | [Bengali Document Layout Analysis -- A YOLOV8 Based Ensembling Approach.](http://arxiv.org/abs/2309.00848) | 本文提出了一种基于YOLOv8模型和创新的后处理技术的孟加拉文档布局分析方法，通过数据增强和两阶段预测策略实现了准确的元素分割。该方法优于单个基础架构，并解决了BaDLAD数据集中的问题，有助于提高OCR和文档理解能力。 |
-| [^6] | [RobustNeuralNetworks.jl: a Package for Machine Learning and Data-Driven Control with Certified Robustness.](http://arxiv.org/abs/2306.12612) | RobustNeuralNetworks.jl是一个用Julia编写的机器学习和数据驱动控制包，它通过自然满足用户定义的鲁棒性约束条件，实现了神经网络模型的构建。 |
-| [^7] | [Tree-structured Parzen estimator: Understanding its algorithm components and their roles for better empirical performance.](http://arxiv.org/abs/2304.11127) | 该论文介绍了一种广泛使用的贝叶斯优化方法 Tree-structured Parzen estimator (TPE)，并对其控制参数的作用和算法直觉进行了讨论和分析，提供了一组推荐设置并证明其能够提高TPE的性能表现。 |
-| [^8] | [Efficient Utility Function Learning for Multi-Objective Parameter Optimization with Prior Knowledge.](http://arxiv.org/abs/2208.10300) | 该论文提出了一种利用偏好学习离线学习效用函数的方法，以应对真实世界问题中用专家知识定义效用函数困难且与专家反复互动昂贵的问题。使用效用函数空间的粗略信息，能够在使用很少结果时提高效用函数估计，并通过整个优化链中传递效用函数学习任务中出现的不确定性。 |
+| [^1] | [PaECTER: Patent-level Representation Learning using Citation-informed Transformers](https://arxiv.org/abs/2402.19411) | PaECTER是一个专为专利设计的开放源码文档级编码器，利用引文信息对BERT进行微调，生成专利文档的数值表示，并在专利领域的相似性任务中表现优异。 |
+| [^2] | [Spurious Correlations in Machine Learning: A Survey](https://arxiv.org/abs/2402.12715) | 机器学习系统对输入中偏见特征与标签之间的虚假相关性敏感，本文回顾了解决这一问题的最新方法，同时总结了数据集、基准和度量标准，并讨论了未来研究挑战。 |
+| [^3] | [ReAlnet: Achieving More Human Brain-Like Vision via Human Neural Representational Alignment](https://arxiv.org/abs/2401.17231) | 通过非侵入性脑电图记录，我们的ReAlnet模型与人脑活动相对齐，实现了更高的相似性，提供了更类似人类大脑视觉的模型。 |
+| [^4] | [SMaRt: Improving GANs with Score Matching Regularity](https://arxiv.org/abs/2311.18208) | 本文提出使用分数匹配规则（SMaRt）来改进GANs的优化问题，通过持续将生成的数据点推向真实数据流形，提高了合成性能。 |
+| [^5] | [The Inhibitor: ReLU and Addition-Based Attention for Efficient Transformers.](http://arxiv.org/abs/2310.02041) | 本论文提出了一种"Inhibitor"机制，通过使用ReLU和加法注意力机制来增强计算效率。这种机制可以在资源受限的硬件或替代算法系统上实现更高效的执行和支持更大的量化Transformer模型。实验结果表明，与传统的点积注意力相比，该机制在预测得分上表现相当，并且可以实现显著的计算节省。这一创新可能在隐私保护的应用中发挥重要作用。 |
+| [^6] | [Adversarial Machine Learning in Latent Representations of Neural Networks.](http://arxiv.org/abs/2309.17401) | 这项研究通过分析分布式深度神经网络对抗性行为的韧性填补了现有研究空白，并发现潜在特征在相同信息失真水平下比输入表示更加韧性，并且对抗性韧性由特征维度和神经网络的泛化能力共同决定。 |
+| [^7] | [Mutual Information Maximizing Quantum Generative Adversarial Network and Its Applications in Finance.](http://arxiv.org/abs/2309.01363) | 本研究提出了一种名为InfoQGAN的量子生成对抗网络方法，通过使用互信息神经估计器（MINE）解决了模式崩溃问题。该方法在金融领域具有应用潜力。 |
+| [^8] | [On the Fisher-Rao Gradient of the Evidence Lower Bound.](http://arxiv.org/abs/2307.11249) | 本文研究了证据下界的Fisher-Rao梯度，揭示了它与目标分布的Kullback-Leibler散度梯度的关系，进一步证明了最小化主要目标函数与最大化ELBO的等价性。 |
+| [^9] | [Gauges and Accelerated Optimization over Smooth and/or Strongly Convex Sets.](http://arxiv.org/abs/2303.05037) | 本文提出了一种新的在平滑和/或强凸集合上定义的可行性和约束优化问题的可扩展、无投影、加速一阶方法，并通过研究量规的新特征达到了强凸问题的最优加速收敛保证 $O(1/T)$、平滑问题的 $O(1/T^2)$，以及两者都满足的加速线性收敛。 |
 
 # 详细
 
-[^1]: 在没有数据先验条件下限制对抗者重建攻击成功率
+[^1]: PaECTER：使用引文信息的专利级表示学习
 
-    Bounding Reconstruction Attack Success of Adversaries Without Data Priors
+    PaECTER: Patent-level Representation Learning using Citation-informed Transformers
 
-    [https://arxiv.org/abs/2402.12861](https://arxiv.org/abs/2402.12861)
+    [https://arxiv.org/abs/2402.19411](https://arxiv.org/abs/2402.19411)
 
-    本研究提供了差分隐私训练的机器学习模型在现实对抗设置下重建成功率的正式上限，并通过实证结果支持，有助于更明智地选择隐私参数。
-
-    
-
-    机器学习模型的重建攻击存在泄漏敏感数据的风险。在特定情境下，对手可以使用模型的梯度几乎完美地重建训练数据样本。在使用差分隐私（DP）训练机器学习模型时，可以提供对这种重建攻击成功率的正式上限。迄今为止，这些上限是在可能不符合高度现实实用性的最坏情况假设下制定的。在本文中，我们针对差分隐私训练的机器学习模型提供了在现实对抗设置下的重建成功率正式上限，并通过实证结果支持这些上限。通过这一点，我们展示了在现实情境中，（a）预期的重建成功率可以在不同背景和不同度量下得到适当的限制，这（b）有助于更明智地选择隐私参数。
-
-    arXiv:2402.12861v1 Announce Type: new  Abstract: Reconstruction attacks on machine learning (ML) models pose a strong risk of leakage of sensitive data. In specific contexts, an adversary can (almost) perfectly reconstruct training data samples from a trained model using the model's gradients. When training ML models with differential privacy (DP), formal upper bounds on the success of such reconstruction attacks can be provided. So far, these bounds have been formulated under worst-case assumptions that might not hold high realistic practicality. In this work, we provide formal upper bounds on reconstruction success under realistic adversarial settings against ML models trained with DP and support these bounds with empirical results. With this, we show that in realistic scenarios, (a) the expected reconstruction success can be bounded appropriately in different contexts and by different metrics, which (b) allows for a more educated choice of a privacy parameter.
-    
-[^2]: 基于机器学习的无线定位中的复杂度降低：最小描述特征
-
-    Complexity Reduction in Machine Learning-Based Wireless Positioning: Minimum Description Features
-
-    [https://arxiv.org/abs/2402.09580](https://arxiv.org/abs/2402.09580)
-
-    本文设计了一种定位神经网络（P-NN），通过最小描述特征降低了基于深度学习的无线定位中的复杂度，并开发了一种新的方法来自适应地选择特征空间的大小。
+    PaECTER是一个专为专利设计的开放源码文档级编码器，利用引文信息对BERT进行微调，生成专利文档的数值表示，并在专利领域的相似性任务中表现优异。
 
     
 
-    最近的一系列研究一直致力于基于深度学习的无线定位（WP）。尽管这些WP算法在不同信道条件下表现出了高精度和鲁棒性，但它们也存在一个主要缺点：它们需要处理高维特征，这对于移动应用来说可能是禁止的。在本工作中，我们设计了一个定位神经网络（P-NN），通过精心设计的最小描述特征，大大降低了基于深度学习的WP的复杂度。我们的特征选择基于最大功率测量及其时间位置，以传达进行WP所需的信息。我们还开发了一种新的方法来自适应地选择特征空间的大小，该方法通过在信号二进制选择上使用信息论度量，优化了期望有用信息量和分类能力之间的平衡。
+    PaECTER是一个公开可用的、面向专利的文档级编码器，我们利用审核员添加的引文信息对BERT进行微调，为专利文档生成数值表示。与专利领域中当前最先进的模型相比，PaECTER在相似性任务中表现更好。具体来说，我们的模型在专利引文预测测试数据集上两种不同的排名评估指标上均优于下一个最佳专利特定的预训练语言模型（专利BERT）。与25个不相关的专利相比，PaECTER在平均排名1.32处预测到至少一个最相似的专利。PaECTER从专利文本生成的数值表示可用于分类、追踪知识流动或语义相似性搜索等下游任务。语义相似性搜索在发明人和专利的先前技术搜索背景中尤为重要。
 
-    arXiv:2402.09580v1 Announce Type: new  Abstract: A recent line of research has been investigating deep learning approaches to wireless positioning (WP). Although these WP algorithms have demonstrated high accuracy and robust performance against diverse channel conditions, they also have a major drawback: they require processing high-dimensional features, which can be prohibitive for mobile applications. In this work, we design a positioning neural network (P-NN) that substantially reduces the complexity of deep learning-based WP through carefully crafted minimum description features. Our feature selection is based on maximum power measurements and their temporal locations to convey information needed to conduct WP. We also develop a novel methodology for adaptively selecting the size of feature space, which optimizes over balancing the expected amount of useful information and classification capability, quantified using information-theoretic measures on the signal bin selection. Numeri
+    arXiv:2402.19411v1 Announce Type: cross  Abstract: PaECTER is a publicly available, open-source document-level encoder specific for patents. We fine-tune BERT for Patents with examiner-added citation information to generate numerical representations for patent documents. PaECTER performs better in similarity tasks than current state-of-the-art models used in the patent domain. More specifically, our model outperforms the next-best patent specific pre-trained language model (BERT for Patents) on our patent citation prediction test dataset on two different rank evaluation metrics. PaECTER predicts at least one most similar patent at a rank of 1.32 on average when compared against 25 irrelevant patents. Numerical representations generated by PaECTER from patent text can be used for downstream tasks such as classification, tracing knowledge flows, or semantic similarity search. Semantic similarity search is especially relevant in the context of prior art search for both inventors and paten
     
-[^3]: 通过最优传输实现集体反事实解释
+[^2]: 机器学习中的虚假相关性：一项调查
 
-    Collective Counterfactual Explanations via Optimal Transport
+    Spurious Correlations in Machine Learning: A Survey
 
-    [https://arxiv.org/abs/2402.04579](https://arxiv.org/abs/2402.04579)
+    [https://arxiv.org/abs/2402.12715](https://arxiv.org/abs/2402.12715)
 
-    本论文提出了一种集体方法来形成反事实解释，通过利用个体的当前密度来指导推荐的行动，解决了个体为中心的方法可能导致的新的竞争和意想不到的成本问题，并改进了经典反事实解释的期望。
-
-    
-
-    反事实解释提供个体的成本最优行动，以改变标签为所需的类别。然而，如果大量实例寻求状态修改，这种个体为中心的方法可能导致新的竞争和意想不到的成本。此外，这些推荐忽视了基础数据分布，可能会建议用户认为是异常值的行动。为了解决这些问题，我们的工作提出了一种集体方法来形成反事实解释，重点是利用个体的当前密度来指导推荐的行动。我们的问题自然地转化为一个最优传输问题。借鉴最优传输的广泛文献，我们说明了这种集体方法如何改进经典反事实解释的期望。我们通过数值模拟支持我们的提议，展示了所提方法的有效性以及与经典方法的关系。
-
-    Counterfactual explanations provide individuals with cost-optimal actions that can alter their labels to desired classes. However, if substantial instances seek state modification, such individual-centric methods can lead to new competitions and unanticipated costs. Furthermore, these recommendations, disregarding the underlying data distribution, may suggest actions that users perceive as outliers. To address these issues, our work proposes a collective approach for formulating counterfactual explanations, with an emphasis on utilizing the current density of the individuals to inform the recommended actions. Our problem naturally casts as an optimal transport problem. Leveraging the extensive literature on optimal transport, we illustrate how this collective method improves upon the desiderata of classical counterfactual explanations. We support our proposal with numerical simulations, illustrating the effectiveness of the proposed approach and its relation to classic methods.
-    
-[^4]: 无法学习的算法用于上下文学习
-
-    Unlearnable Algorithms for In-context Learning
-
-    [https://arxiv.org/abs/2402.00751](https://arxiv.org/abs/2402.00751)
-
-    本文提出了一种针对预先训练的大型语言模型的高效去学习方法，通过选择少量训练示例来实现任务适应训练数据的精确去学习，并与微调方法进行了比较和讨论。
+    机器学习系统对输入中偏见特征与标签之间的虚假相关性敏感，本文回顾了解决这一问题的最新方法，同时总结了数据集、基准和度量标准，并讨论了未来研究挑战。
 
     
 
-    随着模型被越来越多地部署在未知来源的数据上，机器去学习变得越来越受欢迎。然而，要实现精确的去学习——在没有使用要遗忘的数据的情况下获得与模型分布匹配的模型——是具有挑战性或低效的，通常需要大量的重新训练。在本文中，我们专注于预先训练的大型语言模型（LLM）的任务适应阶段的高效去学习方法。我们观察到LLM进行任务适应的上下文学习能力可以实现任务适应训练数据的高效精确去学习。我们提供了一种算法，用于选择少量训练示例加到LLM的提示前面（用于任务适应），名为ERASE，它的去学习操作成本与模型和数据集的大小无关，意味着它适用于大型模型和数据集。我们还将我们的方法与微调方法进行了比较，并讨论了两种方法之间的权衡。这使我们得到了以下结论：
+    众所周知，机器学习系统对输入中偏见特征（例如背景、纹理和次要对象）与相应标签之间的虚假相关性敏感。这些特征及其与标签的相关性被称为“虚假”，因为它们往往随着真实世界数据分布的变化而改变，这可能对模型的泛化能力和鲁棒性产生负面影响。在这项调查中，我们全面审查了这一问题，提供了一个关于解决机器学习模型中虚假相关性的当前最先进方法的分类法。此外，我们总结了现有的数据集、基准和度量标准，以帮助未来的研究。本文最后讨论了这一领域的最新进展和未来研究挑战，旨在为相关领域的研究人员提供宝贵的见解。
 
-    Machine unlearning is a desirable operation as models get increasingly deployed on data with unknown provenance. However, achieving exact unlearning -- obtaining a model that matches the model distribution when the data to be forgotten was never used -- is challenging or inefficient, often requiring significant retraining. In this paper, we focus on efficient unlearning methods for the task adaptation phase of a pretrained large language model (LLM). We observe that an LLM's ability to do in-context learning for task adaptation allows for efficient exact unlearning of task adaptation training data. We provide an algorithm for selecting few-shot training examples to prepend to the prompt given to an LLM (for task adaptation), ERASE, whose unlearning operation cost is independent of model and dataset size, meaning it scales to large models and datasets. We additionally compare our approach to fine-tuning approaches and discuss the trade-offs between the two approaches. This leads us to p
+    arXiv:2402.12715v1 Announce Type: new  Abstract: Machine learning systems are known to be sensitive to spurious correlations between biased features of the inputs (e.g., background, texture, and secondary objects) and the corresponding labels. These features and their correlations with the labels are known as "spurious" because they tend to change with shifts in real-world data distributions, which can negatively impact the model's generalization and robustness. In this survey, we provide a comprehensive review of this issue, along with a taxonomy of current state-of-the-art methods for addressing spurious correlations in machine learning models. Additionally, we summarize existing datasets, benchmarks, and metrics to aid future research. The paper concludes with a discussion of the recent advancements and future research challenges in this field, aiming to provide valuable insights for researchers in the related domains.
     
-[^5]: 孟加拉文档布局分析-一种基于YOLOv8的集成方法
+[^3]: 通过人类神经表示对齐实现更类似人类大脑视觉的ReAlnet模型
 
-    Bengali Document Layout Analysis -- A YOLOV8 Based Ensembling Approach. (arXiv:2309.00848v2 [cs.CV] UPDATED)
+    ReAlnet: Achieving More Human Brain-Like Vision via Human Neural Representational Alignment
 
-    [http://arxiv.org/abs/2309.00848](http://arxiv.org/abs/2309.00848)
+    [https://arxiv.org/abs/2401.17231](https://arxiv.org/abs/2401.17231)
 
-    本文提出了一种基于YOLOv8模型和创新的后处理技术的孟加拉文档布局分析方法，通过数据增强和两阶段预测策略实现了准确的元素分割。该方法优于单个基础架构，并解决了BaDLAD数据集中的问题，有助于提高OCR和文档理解能力。
-
-    
-
-    本文侧重于利用YOLOv8模型和创新的后处理技术提升孟加拉文档布局分析（DLA）。我们通过数据增强以应对孟加拉复杂文字独特的挑战，经过严格的验证集评估，对完整数据集进行微调，实现准确的元素分割的两阶段预测策略。我们的集成模型结合后处理性能优于单个基础架构，解决了BaDLAD数据集中的问题。通过利用这种方法，我们旨在推动孟加拉文档分析的发展，提高OCR和文档理解能力，同时BaDLAD作为基础资源有助于未来的研究。此外，我们的实验为将新策略纳入现有解决方案提供了关键见解。
-
-    This paper focuses on enhancing Bengali Document Layout Analysis (DLA) using the YOLOv8 model and innovative post-processing techniques. We tackle challenges unique to the complex Bengali script by employing data augmentation for model robustness. After meticulous validation set evaluation, we fine-tune our approach on the complete dataset, leading to a two-stage prediction strategy for accurate element segmentation. Our ensemble model, combined with post-processing, outperforms individual base architectures, addressing issues identified in the BaDLAD dataset. By leveraging this approach, we aim to advance Bengali document analysis, contributing to improved OCR and document comprehension and BaDLAD serves as a foundational resource for this endeavor, aiding future research in the field. Furthermore, our experiments provided key insights to incorporate new strategies into the established solution.
-    
-[^6]: RobustNeuralNetworks.jl：带有认证鲁棒性的机器学习和数据驱动控制包。
-
-    RobustNeuralNetworks.jl: a Package for Machine Learning and Data-Driven Control with Certified Robustness. (arXiv:2306.12612v1 [cs.LG])
-
-    [http://arxiv.org/abs/2306.12612](http://arxiv.org/abs/2306.12612)
-
-    RobustNeuralNetworks.jl是一个用Julia编写的机器学习和数据驱动控制包，它通过自然满足用户定义的鲁棒性约束条件，实现了神经网络模型的构建。
+    通过非侵入性脑电图记录，我们的ReAlnet模型与人脑活动相对齐，实现了更高的相似性，提供了更类似人类大脑视觉的模型。
 
     
 
-    神经网络通常对于微小的输入扰动非常敏感，导致出现意外或脆弱的行为。本文介绍了RobustNeuralNetworks.jl：一个Julia包，用于构建神经网络模型，该模型自然地满足一组用户定义的鲁棒性约束条件。该包基于最近提出的Recurrent Equilibrium Network（REN）和Lipschitz-Bounded Deep Network（LBDN）模型类，并旨在直接与Julia最广泛使用的机器学习包Flux.jl接口。我们讨论了模型参数化背后的理论，概述了该包，并提供了一个教程，演示了其在图像分类、强化学习和非线性状态观测器设计中的应用。
+    尽管人工智能取得了显著进展，但当前的物体识别模型在模拟人脑视觉信息处理机制方面仍然落后。最近的研究强调了利用神经数据来模仿大脑处理的潜力；然而，这些研究通常依赖于对非人类实验对象的侵入性神经记录，这在我们对人类视觉感知和开发更类似人类大脑视觉模型的理解上存在着重要的缺口。为了解决这一问题，我们首次提出了“Re(presentational)Al(ignment)net”，这是一个以非侵入性脑电图记录为基础的与人脑活动相对齐的视觉模型，展示了与人脑表示更高的相似性。我们的创新图像到脑多层编码对齐框架不仅优化了模型的多个层次，标志着神经对齐方面的重大突破，而且还使得模型能够高效地学习和模仿人脑的视觉感知能力。
 
-    Neural networks are typically sensitive to small input perturbations, leading to unexpected or brittle behaviour. We present RobustNeuralNetworks.jl: a Julia package for neural network models that are constructed to naturally satisfy a set of user-defined robustness constraints. The package is based on the recently proposed Recurrent Equilibrium Network (REN) and Lipschitz-Bounded Deep Network (LBDN) model classes, and is designed to interface directly with Julia's most widely-used machine learning package, Flux.jl. We discuss the theory behind our model parameterization, give an overview of the package, and provide a tutorial demonstrating its use in image classification, reinforcement learning, and nonlinear state-observer design.
+    Despite the remarkable strides made in artificial intelligence, current object recognition models still lag behind in emulating the mechanism of visual information processing in human brains. Recent studies have highlighted the potential of using neural data to mimic brain processing; however, these often reply on invasive neural recordings from non-human subjects, leaving a critical gap in our understanding of human visual perception and the development of more human brain-like vision models. Addressing this gap, we present, for the first time, "Re(presentational)Al(ignment)net", a vision model aligned with human brain activity based on non-invasive EEG recordings, demonstrating a significantly higher similarity to human brain representations. Our innovative image-to-brain multi-layer encoding alignment framework not only optimizes multiple layers of the model, marking a substantial leap in neural alignment, but also enables the model to efficiently learn and mimic human brain's visua
     
-[^7]: 树状Parzen估计器：理解其算法组成部分及其在提高实证表现中的作用
+[^4]: SMaRt: 使用分数匹配规则改进GANs
 
-    Tree-structured Parzen estimator: Understanding its algorithm components and their roles for better empirical performance. (arXiv:2304.11127v1 [cs.LG])
+    SMaRt: Improving GANs with Score Matching Regularity
 
-    [http://arxiv.org/abs/2304.11127](http://arxiv.org/abs/2304.11127)
+    [https://arxiv.org/abs/2311.18208](https://arxiv.org/abs/2311.18208)
 
-    该论文介绍了一种广泛使用的贝叶斯优化方法 Tree-structured Parzen estimator (TPE)，并对其控制参数的作用和算法直觉进行了讨论和分析，提供了一组推荐设置并证明其能够提高TPE的性能表现。
-
-    
-
-    许多领域中最近的进展要求更加复杂的实验设计。这种复杂的实验通常有许多参数，需要参数调整。Tree-structured Parzen estimator (TPE) 是一种贝叶斯优化方法，在最近的参数调整框架中被广泛使用。尽管它很受欢迎，但控制参数的角色和算法直觉尚未得到讨论。在本教程中，我们将确定每个控制参数的作用以及它们对超参数优化的影响，使用多种基准测试。我们将从剖析研究中得出的推荐设置与基准方法进行比较，并证明我们的推荐设置提高了TPE的性能。我们的TPE实现可在https://github.com/nabenabe0928/tpe/tree/single-opt中获得。
-
-    Recent advances in many domains require more and more complicated experiment design. Such complicated experiments often have many parameters, which necessitate parameter tuning. Tree-structured Parzen estimator (TPE), a Bayesian optimization method, is widely used in recent parameter tuning frameworks. Despite its popularity, the roles of each control parameter and the algorithm intuition have not been discussed so far. In this tutorial, we will identify the roles of each control parameter and their impacts on hyperparameter optimization using a diverse set of benchmarks. We compare our recommended setting drawn from the ablation study with baseline methods and demonstrate that our recommended setting improves the performance of TPE. Our TPE implementation is available at https://github.com/nabenabe0928/tpe/tree/single-opt.
-    
-[^8]: 多目标参数优化中的有效效用函数学习与先验知识
-
-    Efficient Utility Function Learning for Multi-Objective Parameter Optimization with Prior Knowledge. (arXiv:2208.10300v2 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2208.10300](http://arxiv.org/abs/2208.10300)
-
-    该论文提出了一种利用偏好学习离线学习效用函数的方法，以应对真实世界问题中用专家知识定义效用函数困难且与专家反复互动昂贵的问题。使用效用函数空间的粗略信息，能够在使用很少结果时提高效用函数估计，并通过整个优化链中传递效用函数学习任务中出现的不确定性。
+    本文提出使用分数匹配规则（SMaRt）来改进GANs的优化问题，通过持续将生成的数据点推向真实数据流形，提高了合成性能。
 
     
 
-    目前的多目标优化技术通常假定已有效用函数、通过互动学习效用函数或尝试确定完整的Pareto前沿来进行。然而，在真实世界的问题中，结果往往基于隐含和显性的专家知识，难以定义一个效用函数，而互动学习或后续启发式需要反复并且昂贵地专家参与。为了缓解这种情况，我们使用偏好学习离线学习效用函数，利用专家知识。与其他工作不同的是，我们不仅使用（成对的）结果偏好，而且使用效用函数空间的粗略信息。这使我们能够提高效用函数估计，特别是在使用很少的结果时。此外，我们对效用函数学习任务中出现的不确定性进行建模，并将其传递到整个优化链中。
+    生成对抗网络（GANs）通常在学习高度多样化的复杂数据时遇到困难。本文重新审视了GANs的数学基础，并从理论上揭示了GAN训练的原始对抗损失不能解决生成数据流形的正测度子集落在真实数据流形之外的问题。相反，我们发现分数匹配可以作为解决这个问题的有希望的方法，因为它可以持续将生成的数据点推向真实数据流形。因此，我们提出通过分数匹配规则（SMaRt）来改进GANs的优化。对于经验证据，我们首先设计了一个玩具示例来展示通过辅助一个真实得分函数来训练GANs可以更准确地再现真实数据分布，然后确认我们的方法可以持续提升各种状态的合成性能。
 
-    The current state-of-the-art in multi-objective optimization assumes either a given utility function, learns a utility function interactively or tries to determine the complete Pareto front, requiring a post elicitation of the preferred result. However, result elicitation in real world problems is often based on implicit and explicit expert knowledge, making it difficult to define a utility function, whereas interactive learning or post elicitation requires repeated and expensive expert involvement. To mitigate this, we learn a utility function offline, using expert knowledge by means of preference learning. In contrast to other works, we do not only use (pairwise) result preferences, but also coarse information about the utility function space. This enables us to improve the utility function estimate, especially when using very few results. Additionally, we model the occurring uncertainties in the utility function learning task and propagate them through the whole optimization chain. 
+    Generative adversarial networks (GANs) usually struggle in learning from highly diverse data, whose underlying manifold is complex. In this work, we revisit the mathematical foundations of GANs, and theoretically reveal that the native adversarial loss for GAN training is insufficient to fix the problem of subsets with positive Lebesgue measure of the generated data manifold lying out of the real data manifold. Instead, we find that score matching serves as a promising solution to this issue thanks to its capability of persistently pushing the generated data points towards the real data manifold. We thereby propose to improve the optimization of GANs with score matching regularity (SMaRt). Regarding the empirical evidences, we first design a toy example to show that training GANs by the aid of a ground-truth score function can help reproduce the real data distribution more accurately, and then confirm that our approach can consistently boost the synthesis performance of various state-o
+    
+[^5]: 用于高效Transformer的"Inhibitor"：ReLU和加法注意力机制
+
+    The Inhibitor: ReLU and Addition-Based Attention for Efficient Transformers. (arXiv:2310.02041v1 [cs.LG])
+
+    [http://arxiv.org/abs/2310.02041](http://arxiv.org/abs/2310.02041)
+
+    本论文提出了一种"Inhibitor"机制，通过使用ReLU和加法注意力机制来增强计算效率。这种机制可以在资源受限的硬件或替代算法系统上实现更高效的执行和支持更大的量化Transformer模型。实验结果表明，与传统的点积注意力相比，该机制在预测得分上表现相当，并且可以实现显著的计算节省。这一创新可能在隐私保护的应用中发挥重要作用。
+
+    
+
+    为了增强量化Transformer的计算效率，我们用只涉及加法和ReLU激活的替代机制来取代基于点积和Softmax的注意力机制。这样可以避免矩阵乘法中常需要的双精度扩展和昂贵的Softmax计算，但仍保留了传统的点积注意力的核心功能。这种方法可以在资源受限的硬件或同态加密等替代算法系统上实现更高效的执行和支持更大的量化Transformer模型。在四个常见的基准任务上的训练实验显示，测试集的预测得分与采用点积注意力的传统Transformer相当。我们的缩放实验还表明，在明文和加密下都可以实现显著的计算节省。特别是，我们相信本文介绍的基于ReLU和加法的注意力机制可能会实现隐私保护的A
+
+    To enhance the computational efficiency of quantized Transformers, we replace the dot-product and Softmax-based attention with an alternative mechanism involving addition and ReLU activation only. This side-steps the expansion to double precision often required by matrix multiplication and avoids costly Softmax evaluations but maintains much of the core functionality of conventional dot-product attention. It can enable more efficient execution and support larger quantized Transformer models on resource-constrained hardware or alternative arithmetic systems like homomorphic encryption. Training experiments on four common benchmark tasks show test set prediction scores comparable to those of conventional Transformers with dot-product attention. Our scaling experiments also suggest significant computational savings, both in plaintext and under encryption. In particular, we believe that the ReLU and addition-based attention mechanism introduced in this paper may enable privacy-preserving A
+    
+[^6]: 神经网络潜在表示中的对抗性机器学习
+
+    Adversarial Machine Learning in Latent Representations of Neural Networks. (arXiv:2309.17401v3 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2309.17401](http://arxiv.org/abs/2309.17401)
+
+    这项研究通过分析分布式深度神经网络对抗性行为的韧性填补了现有研究空白，并发现潜在特征在相同信息失真水平下比输入表示更加韧性，并且对抗性韧性由特征维度和神经网络的泛化能力共同决定。
+
+    
+
+    分布式深度神经网络已被证明可以减轻移动设备的计算负担，并降低边缘计算场景中的端到端推理延迟。尽管已经对分布式深度神经网络进行了研究，但据我们所知，分布式深度神经网络对于对抗性行为的韧性仍然是一个开放问题。在本文中，我们通过严格分析分布式深度神经网络对抗性行为的韧性来填补现有的研究空白。我们将这个问题置于信息论的背景下，并引入了两个新的衡量指标来衡量失真和韧性。我们的理论发现表明：（i）在假设具有相同信息失真水平的情况下，潜在特征始终比输入表示更加韧性；（ii）对抗性韧性同时由特征维度和深度神经网络的泛化能力决定。为了验证我们的理论发现，我们进行了广泛的实验分析，考虑了6种不同的深度神经网络架构。
+
+    Distributed deep neural networks (DNNs) have been shown to reduce the computational burden of mobile devices and decrease the end-to-end inference latency in edge computing scenarios. While distributed DNNs have been studied, to the best of our knowledge the resilience of distributed DNNs to adversarial action still remains an open problem. In this paper, we fill the existing research gap by rigorously analyzing the robustness of distributed DNNs against adversarial action. We cast this problem in the context of information theory and introduce two new measurements for distortion and robustness. Our theoretical findings indicate that (i) assuming the same level of information distortion, latent features are always more robust than input representations; (ii) the adversarial robustness is jointly determined by the feature dimension and the generalization capability of the DNN. To test our theoretical findings, we perform extensive experimental analysis by considering 6 different DNN arc
+    
+[^7]: 最大化互信息的量子生成对抗网络及其在金融领域的应用
+
+    Mutual Information Maximizing Quantum Generative Adversarial Network and Its Applications in Finance. (arXiv:2309.01363v1 [quant-ph])
+
+    [http://arxiv.org/abs/2309.01363](http://arxiv.org/abs/2309.01363)
+
+    本研究提出了一种名为InfoQGAN的量子生成对抗网络方法，通过使用互信息神经估计器（MINE）解决了模式崩溃问题。该方法在金融领域具有应用潜力。
+
+    
+
+    在NISQ（噪声中间规模量子）计算时代，量子机器学习是最具前景的应用之一。量子机器学习在各个领域都比经典机器学习具有显著的量子优势。具体而言，生成对抗网络被认为在图像生成、金融和概率分布建模等多个领域具有潜在的实用性。然而，这些网络需要解决固有的挑战，如模式崩溃。在本研究中，我们利用通过神经网络进行梯度下降来实现高维连续随机变量之间的互信息估计的概念。我们提出了一种名为InfoQGAN的新方法，它将互信息神经估计器（MINE）应用于量子生成对抗网络的框架中，以解决模式崩溃问题。此外，我们详细阐述了如何将此方法应用于金融领域。
+
+    One of the most promising applications in the era of NISQ (Noisy Intermediate-Scale Quantum) computing is quantum machine learning. Quantum machine learning offers significant quantum advantages over classical machine learning across various domains. Specifically, generative adversarial networks have been recognized for their potential utility in diverse fields such as image generation, finance, and probability distribution modeling. However, these networks necessitate solutions for inherent challenges like mode collapse. In this study, we capitalize on the concept that the estimation of mutual information between high-dimensional continuous random variables can be achieved through gradient descent using neural networks. We introduce a novel approach named InfoQGAN, which employs the Mutual Information Neural Estimator (MINE) within the framework of quantum generative adversarial networks to tackle the mode collapse issue. Furthermore, we elaborate on how this approach can be applied t
+    
+[^8]: 关于证据下界的Fisher-Rao梯度研究
+
+    On the Fisher-Rao Gradient of the Evidence Lower Bound. (arXiv:2307.11249v1 [cs.LG])
+
+    [http://arxiv.org/abs/2307.11249](http://arxiv.org/abs/2307.11249)
+
+    本文研究了证据下界的Fisher-Rao梯度，揭示了它与目标分布的Kullback-Leibler散度梯度的关系，进一步证明了最小化主要目标函数与最大化ELBO的等价性。
+
+    
+
+    本文研究了证据下界（ELBO）的Fisher-Rao梯度，也称为自然梯度，它在变分自动编码器理论、Helmholtz机和自由能原理中起着关键作用。ELBO的自然梯度与目标分布的Kullback-Leibler散度的自然梯度相关，后者是学习的主要目标函数。基于信息几何中梯度的不变性特性，提供了关于底层模型的条件，确保最小化主要目标函数与最大化ELBO的等价性。
+
+    This article studies the Fisher-Rao gradient, also referred to as the natural gradient, of the evidence lower bound, the ELBO, which plays a crucial role within the theory of the Variational Autonecoder, the Helmholtz Machine and the Free Energy Principle. The natural gradient of the ELBO is related to the natural gradient of the Kullback-Leibler divergence from a target distribution, the prime objective function of learning. Based on invariance properties of gradients within information geometry, conditions on the underlying model are provided that ensure the equivalence of minimising the prime objective function and the maximisation of the ELBO.
+    
+[^9]: 平滑和/或强凸集合上的量规和加速优化
+
+    Gauges and Accelerated Optimization over Smooth and/or Strongly Convex Sets. (arXiv:2303.05037v2 [math.OC] UPDATED)
+
+    [http://arxiv.org/abs/2303.05037](http://arxiv.org/abs/2303.05037)
+
+    本文提出了一种新的在平滑和/或强凸集合上定义的可行性和约束优化问题的可扩展、无投影、加速一阶方法，并通过研究量规的新特征达到了强凸问题的最优加速收敛保证 $O(1/T)$、平滑问题的 $O(1/T^2)$，以及两者都满足的加速线性收敛。
+
+    
+
+    我们考虑在平滑和/或强凸集合上定义的可行性和约束优化问题。这些概念与它们受欢迎的函数对应物相似，但在一阶优化文献中研究较少。我们在这些设置中提出了新的可扩展、无投影、加速一阶方法。我们的方法避免了线性优化或投影预言机，仅使用便宜的一维线搜索和法向量计算。尽管如此，我们得到了强凸问题的最优加速收敛保证 $O(1/T)$、平滑问题的 $O(1/T^2)$，以及两者都满足的加速线性收敛。我们的算法和分析基于平滑和/或强凸集合的闵可夫斯基量的新特征，这可能具有独立的兴趣：尽管量规既不是平滑的也不是强凸的，但我们显示了规模的加平方在集合中继承任何存在的结构。
+
+    We consider feasibility and constrained optimization problems defined over smooth and/or strongly convex sets. These notions mirror their popular function counterparts but are much less explored in the first-order optimization literature. We propose new scalable, projection-free, accelerated first-order methods in these settings. Our methods avoid linear optimization or projection oracles, only using cheap one-dimensional linesearches and normal vector computations. Despite this, we derive optimal accelerated convergence guarantees of $O(1/T)$ for strongly convex problems, $O(1/T^2)$ for smooth problems, and accelerated linear convergence given both. Our algorithms and analysis are based on novel characterizations of the Minkowski gauge of smooth and/or strongly convex sets, which may be of independent interest: although the gauge is neither smooth nor strongly convex, we show the gauge squared inherits any structure present in the set.
     
 

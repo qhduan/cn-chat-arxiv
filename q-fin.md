@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Optimal transmission expansion minimally reduces decarbonization costs of U.S. electricity](https://arxiv.org/abs/2402.14189) | 传输扩展对高比例可再生能源系统的好处远远超过传统发电系统，全国最佳计划下的传输扩展仅能将100%清洁系统的成本降低4%。 |
-| [^2] | [A discretization scheme for path-dependent FBSDEs.](http://arxiv.org/abs/2308.07029) | 本文研究了一种用于路径相关的FBSDE解的离散化方案，并证明了其收敛性和收敛速度。 |
+| [^1] | [Bundling Demand in K-12 Broadband Procurement](https://arxiv.org/abs/2402.07277) | 该研究评估了K-12学校在宽带互联网采购中通过捆绑需求的效果。研究发现，参与者的价格平均下降了三分之一，购买的宽带速度增加了六倍。参与学校节省的金额至少等于联邦政府的补贴金额。根据弱假设，参与学校获得了巨大的福利提升。 |
+| [^2] | [Mutual Information Maximizing Quantum Generative Adversarial Network and Its Applications in Finance.](http://arxiv.org/abs/2309.01363) | 本研究提出了一种名为InfoQGAN的量子生成对抗网络方法，通过使用互信息神经估计器（MINE）解决了模式崩溃问题。该方法在金融领域具有应用潜力。 |
 
 # 详细
 
-[^1]: 最佳传输扩展最小化降低美国电力碳减排成本
+[^1]: K-12宽带采购中的需求捆绑效应
 
-    Optimal transmission expansion minimally reduces decarbonization costs of U.S. electricity
+    Bundling Demand in K-12 Broadband Procurement
 
-    [https://arxiv.org/abs/2402.14189](https://arxiv.org/abs/2402.14189)
+    [https://arxiv.org/abs/2402.07277](https://arxiv.org/abs/2402.07277)
 
-    传输扩展对高比例可再生能源系统的好处远远超过传统发电系统，全国最佳计划下的传输扩展仅能将100%清洁系统的成本降低4%。
-
-    
-
-    太阳能和风能与化石燃料具有竞争力，但它们的间歇性特性带来了挑战。陆地、风力和太阳资源在时间和地理上存在显著差异，这表明远距离输电可能特别有益。我们使用详细的开源模型，联合分析了美国三个主要互联网的最佳传输扩展、存储、发电和小时运营。在高可再生能源系统中，传输扩展提供的好处远远超过主要采用传统发电的系统。然而，尽管一个最佳的全国计划需要将当前的地区间输电容量增加至三倍以上，与仅依靠当前输电的方案相比，传输仅能将100%清洁系统的成本降低4%。仅在现有互联网之间扩展容量即可实现大部分节约。对能源存储和发电的调整也能实现一定程度上的节约。
-
-    arXiv:2402.14189v1 Announce Type: new  Abstract: Solar and wind power are cost-competitive with fossil fuels, yet their intermittent nature presents challenges. Significant temporal and geographic differences in land, wind, and solar resources suggest that long-distance transmission could be particularly beneficial. Using a detailed, open-source model, we analyze optimal transmission expansion jointly with storage, generation, and hourly operations across the three primary interconnects in the United States. Transmission expansion offers far more benefits in a high-renewable system than in a system with mostly conventional generation. Yet while an optimal nationwide plan would have more than triple current interregional transmission, transmission decreases the cost of a 100% clean system by only 4% compared to a plan that relies solely on current transmission. Expanding capacity only within existing interconnects can achieve most of these savings. Adjustments to energy storage and gene
-    
-[^2]: 一种路径相关的FBSDE的离散化方案
-
-    A discretization scheme for path-dependent FBSDEs. (arXiv:2308.07029v1 [math.PR])
-
-    [http://arxiv.org/abs/2308.07029](http://arxiv.org/abs/2308.07029)
-
-    本文研究了一种用于路径相关的FBSDE解的离散化方案，并证明了其收敛性和收敛速度。
+    该研究评估了K-12学校在宽带互联网采购中通过捆绑需求的效果。研究发现，参与者的价格平均下降了三分之一，购买的宽带速度增加了六倍。参与学校节省的金额至少等于联邦政府的补贴金额。根据弱假设，参与学校获得了巨大的福利提升。
 
     
 
-    本文研究了一种用于具有路径相关系数的前向-后向随机微分方程（FBSDE）解的离散化方案。我们证明了Picard型迭代对FBDSE解的收敛性，并给出了其收敛速度。据我们所知，这是关于路径相关的FBSDE离散化方案的首个结果。利用这个结果，我们建立了一个用于二阶抛物型路径相关偏微分方程解的数值方法。为了实现这一点，我们采用了鞅表示定理的弱逼近（Cont, Rama, and Yi Lu. ``Weak approximation of martingale representations." Stochastic Processes and their Applications 2016）。我们的结果推广了(Bender, Christian, and Robert Denk. ``A forward scheme for backward SDEs." Stochastic processes and their applications, 2007)中马尔可夫情况的方案。
+    我们评估了K-12学校通过捆绑需求获得宽带互联网的效果。2014年，新泽西州从分散的采购方式转变为将学校分为四个区域组合的新采购系统。采用事件研究方法，我们发现参与者的价格平均下降了三分之一，购买的宽带速度增加了六倍。我们对该计划导致的学校支出变化进行了界定，发现参与者节省的金额至少等于他们从联邦政府获得的"E-rate"补贴总额。在对需求进行弱假设的情况下，我们表明参与学校获得了巨大的福利提升。
 
-    This paper studies a discretization scheme for solutions to forward-backward stochastic differential equations (FBSDEs) with path-dependent coefficients. We show the convergence of the Picard-type iteration to the FBDSE solution and provide its convergence rate. To the best of our knowledge, this is the first result of discretization scheme for path-dependent FBSDEs. Using this result, we establish a numerical method for solutions to second-order parabolic path-dependent partial differential equations. To achieve this, weak approximation of martingale representation theorem (Cont, Rama, and Yi Lu. ``Weak approximation of martingale representations." Stochastic Processes and their Applications 2016) is employed. Our results generalize the scheme for Markovian cases in (Bender, Christian, and Robert Denk. ``A forward scheme for backward SDEs." Stochastic processes and their applications, 2007)
+    We evaluate the effects of bundling demand for broadband internet by K-12 schools. In 2014, New Jersey switched from decentralized procurements to a new procurement system that bundled schools into four regional groups. Using an event study approach, we find that, on average, prices for participants decreased by one-third, and broadband speed purchased increased sixfold. We bound the change in school expenditures due to the program and find that participants saved at least as much as their total "E-rate" subsidy from the federal government. Under weak assumptions on demand, we show that participating schools experienced large welfare gains.
+    
+[^2]: 最大化互信息的量子生成对抗网络及其在金融领域的应用
+
+    Mutual Information Maximizing Quantum Generative Adversarial Network and Its Applications in Finance. (arXiv:2309.01363v1 [quant-ph])
+
+    [http://arxiv.org/abs/2309.01363](http://arxiv.org/abs/2309.01363)
+
+    本研究提出了一种名为InfoQGAN的量子生成对抗网络方法，通过使用互信息神经估计器（MINE）解决了模式崩溃问题。该方法在金融领域具有应用潜力。
+
+    
+
+    在NISQ（噪声中间规模量子）计算时代，量子机器学习是最具前景的应用之一。量子机器学习在各个领域都比经典机器学习具有显著的量子优势。具体而言，生成对抗网络被认为在图像生成、金融和概率分布建模等多个领域具有潜在的实用性。然而，这些网络需要解决固有的挑战，如模式崩溃。在本研究中，我们利用通过神经网络进行梯度下降来实现高维连续随机变量之间的互信息估计的概念。我们提出了一种名为InfoQGAN的新方法，它将互信息神经估计器（MINE）应用于量子生成对抗网络的框架中，以解决模式崩溃问题。此外，我们详细阐述了如何将此方法应用于金融领域。
+
+    One of the most promising applications in the era of NISQ (Noisy Intermediate-Scale Quantum) computing is quantum machine learning. Quantum machine learning offers significant quantum advantages over classical machine learning across various domains. Specifically, generative adversarial networks have been recognized for their potential utility in diverse fields such as image generation, finance, and probability distribution modeling. However, these networks necessitate solutions for inherent challenges like mode collapse. In this study, we capitalize on the concept that the estimation of mutual information between high-dimensional continuous random variables can be achieved through gradient descent using neural networks. We introduce a novel approach named InfoQGAN, which employs the Mutual Information Neural Estimator (MINE) within the framework of quantum generative adversarial networks to tackle the mode collapse issue. Furthermore, we elaborate on how this approach can be applied t
     
 
