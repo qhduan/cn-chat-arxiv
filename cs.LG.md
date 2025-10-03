@@ -2,142 +2,112 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [PaECTER: Patent-level Representation Learning using Citation-informed Transformers](https://arxiv.org/abs/2402.19411) | PaECTER是一个专为专利设计的开放源码文档级编码器，利用引文信息对BERT进行微调，生成专利文档的数值表示，并在专利领域的相似性任务中表现优异。 |
-| [^2] | [Spurious Correlations in Machine Learning: A Survey](https://arxiv.org/abs/2402.12715) | 机器学习系统对输入中偏见特征与标签之间的虚假相关性敏感，本文回顾了解决这一问题的最新方法，同时总结了数据集、基准和度量标准，并讨论了未来研究挑战。 |
-| [^3] | [ReAlnet: Achieving More Human Brain-Like Vision via Human Neural Representational Alignment](https://arxiv.org/abs/2401.17231) | 通过非侵入性脑电图记录，我们的ReAlnet模型与人脑活动相对齐，实现了更高的相似性，提供了更类似人类大脑视觉的模型。 |
-| [^4] | [SMaRt: Improving GANs with Score Matching Regularity](https://arxiv.org/abs/2311.18208) | 本文提出使用分数匹配规则（SMaRt）来改进GANs的优化问题，通过持续将生成的数据点推向真实数据流形，提高了合成性能。 |
-| [^5] | [The Inhibitor: ReLU and Addition-Based Attention for Efficient Transformers.](http://arxiv.org/abs/2310.02041) | 本论文提出了一种"Inhibitor"机制，通过使用ReLU和加法注意力机制来增强计算效率。这种机制可以在资源受限的硬件或替代算法系统上实现更高效的执行和支持更大的量化Transformer模型。实验结果表明，与传统的点积注意力相比，该机制在预测得分上表现相当，并且可以实现显著的计算节省。这一创新可能在隐私保护的应用中发挥重要作用。 |
-| [^6] | [Adversarial Machine Learning in Latent Representations of Neural Networks.](http://arxiv.org/abs/2309.17401) | 这项研究通过分析分布式深度神经网络对抗性行为的韧性填补了现有研究空白，并发现潜在特征在相同信息失真水平下比输入表示更加韧性，并且对抗性韧性由特征维度和神经网络的泛化能力共同决定。 |
-| [^7] | [Mutual Information Maximizing Quantum Generative Adversarial Network and Its Applications in Finance.](http://arxiv.org/abs/2309.01363) | 本研究提出了一种名为InfoQGAN的量子生成对抗网络方法，通过使用互信息神经估计器（MINE）解决了模式崩溃问题。该方法在金融领域具有应用潜力。 |
-| [^8] | [On the Fisher-Rao Gradient of the Evidence Lower Bound.](http://arxiv.org/abs/2307.11249) | 本文研究了证据下界的Fisher-Rao梯度，揭示了它与目标分布的Kullback-Leibler散度梯度的关系，进一步证明了最小化主要目标函数与最大化ELBO的等价性。 |
-| [^9] | [Gauges and Accelerated Optimization over Smooth and/or Strongly Convex Sets.](http://arxiv.org/abs/2303.05037) | 本文提出了一种新的在平滑和/或强凸集合上定义的可行性和约束优化问题的可扩展、无投影、加速一阶方法，并通过研究量规的新特征达到了强凸问题的最优加速收敛保证 $O(1/T)$、平滑问题的 $O(1/T^2)$，以及两者都满足的加速线性收敛。 |
+| [^1] | [LPAC: Learnable Perception-Action-Communication Loops with Applications to Coverage Control.](http://arxiv.org/abs/2401.04855) | 提出了一种可学习的感知-行动-通信(LPAC)架构，使用卷积神经网络处理环境感知，图神经网络实现机器人之间的信息交流，浅层多层感知机计算机器人的动作。使用集中式显微算法训练模型，实现机器人群体的协作。 |
+| [^2] | [Machine learning for accuracy in density functional approximations.](http://arxiv.org/abs/2311.00196) | 本文回顾了近期在改进密度泛函及相关近似方法中应用机器学习的进展，讨论了在不同化学和材料类别之间设计可迁移的机器学习模型时可能面临的挑战和希望。 |
+| [^3] | [Counterfactual Fairness for Predictions using Generative Adversarial Networks.](http://arxiv.org/abs/2310.17687) | 这篇论文提出了一种使用生成对抗网络实现对照因果公平性的方法，通过学习敏感属性的后代的对照分布来确保公平预测。 |
+| [^4] | [Maximum Likelihood Estimation of Latent Variable Structural Equation Models: A Neural Network Approach.](http://arxiv.org/abs/2309.14073) | 本研究提出了一种新的图形结构，用于在线性和高斯性假设下稳定的潜变量结构方程模型。我们证明了计算该模型的最大似然估计等价于训练一个神经网络，并实现了一个基于GPU的算法来进行计算。 |
+| [^5] | [Differentially Private Clustering in Data Streams.](http://arxiv.org/abs/2307.07449) | 本研究提出了首个针对$k$-means和$k$-median聚类的差分隐私流算法，在流模型中实现对数据隐私的保护，并使用尽可能少的空间。 |
+| [^6] | [BOF-UCB: A Bayesian-Optimistic Frequentist Algorithm for Non-Stationary Contextual Bandits.](http://arxiv.org/abs/2307.03587) | BOF-UCB是一种用于非平稳环境下的背景线性赌博机的贝叶斯优化频率算法，其结合了贝叶斯和频率学派原则，提高了在动态环境中的性能。它利用贝叶斯更新推断后验分布，并使用频率学派方法计算上界信心界以平衡探索和开发。实验证明，BOF-UCB优于现有方法，是非平稳环境中顺序决策的有前途的解决方案。 |
+| [^7] | [A* Search Without Expansions: Learning Heuristic Functions with Deep Q-Networks.](http://arxiv.org/abs/2102.04518) | 本文提出了一种使用深度Q网络学习启发式函数，通过只进行一次前向传递计算相邻节点的转移成本和启发式值之和，并在不显式生成这些子节点的情况下指导搜索的Q*搜索算法，以大幅减少计算时间。在魔方问题上的实验表明，该方法能够高效地解决具有大动作空间的问题。 |
 
 # 详细
 
-[^1]: PaECTER：使用引文信息的专利级表示学习
+[^1]: LPAC: 可学习的感知-行动-通信循环及其在覆盖控制中的应用
 
-    PaECTER: Patent-level Representation Learning using Citation-informed Transformers
+    LPAC: Learnable Perception-Action-Communication Loops with Applications to Coverage Control. (arXiv:2401.04855v1 [cs.RO])
 
-    [https://arxiv.org/abs/2402.19411](https://arxiv.org/abs/2402.19411)
+    [http://arxiv.org/abs/2401.04855](http://arxiv.org/abs/2401.04855)
 
-    PaECTER是一个专为专利设计的开放源码文档级编码器，利用引文信息对BERT进行微调，生成专利文档的数值表示，并在专利领域的相似性任务中表现优异。
-
-    
-
-    PaECTER是一个公开可用的、面向专利的文档级编码器，我们利用审核员添加的引文信息对BERT进行微调，为专利文档生成数值表示。与专利领域中当前最先进的模型相比，PaECTER在相似性任务中表现更好。具体来说，我们的模型在专利引文预测测试数据集上两种不同的排名评估指标上均优于下一个最佳专利特定的预训练语言模型（专利BERT）。与25个不相关的专利相比，PaECTER在平均排名1.32处预测到至少一个最相似的专利。PaECTER从专利文本生成的数值表示可用于分类、追踪知识流动或语义相似性搜索等下游任务。语义相似性搜索在发明人和专利的先前技术搜索背景中尤为重要。
-
-    arXiv:2402.19411v1 Announce Type: cross  Abstract: PaECTER is a publicly available, open-source document-level encoder specific for patents. We fine-tune BERT for Patents with examiner-added citation information to generate numerical representations for patent documents. PaECTER performs better in similarity tasks than current state-of-the-art models used in the patent domain. More specifically, our model outperforms the next-best patent specific pre-trained language model (BERT for Patents) on our patent citation prediction test dataset on two different rank evaluation metrics. PaECTER predicts at least one most similar patent at a rank of 1.32 on average when compared against 25 irrelevant patents. Numerical representations generated by PaECTER from patent text can be used for downstream tasks such as classification, tracing knowledge flows, or semantic similarity search. Semantic similarity search is especially relevant in the context of prior art search for both inventors and paten
-    
-[^2]: 机器学习中的虚假相关性：一项调查
-
-    Spurious Correlations in Machine Learning: A Survey
-
-    [https://arxiv.org/abs/2402.12715](https://arxiv.org/abs/2402.12715)
-
-    机器学习系统对输入中偏见特征与标签之间的虚假相关性敏感，本文回顾了解决这一问题的最新方法，同时总结了数据集、基准和度量标准，并讨论了未来研究挑战。
+    提出了一种可学习的感知-行动-通信(LPAC)架构，使用卷积神经网络处理环境感知，图神经网络实现机器人之间的信息交流，浅层多层感知机计算机器人的动作。使用集中式显微算法训练模型，实现机器人群体的协作。
 
     
 
-    众所周知，机器学习系统对输入中偏见特征（例如背景、纹理和次要对象）与相应标签之间的虚假相关性敏感。这些特征及其与标签的相关性被称为“虚假”，因为它们往往随着真实世界数据分布的变化而改变，这可能对模型的泛化能力和鲁棒性产生负面影响。在这项调查中，我们全面审查了这一问题，提供了一个关于解决机器学习模型中虚假相关性的当前最先进方法的分类法。此外，我们总结了现有的数据集、基准和度量标准，以帮助未来的研究。本文最后讨论了这一领域的最新进展和未来研究挑战，旨在为相关领域的研究人员提供宝贵的见解。
+    覆盖控制是指导机器人群体协同监测未知的感兴趣特征或现象的问题。在有限的通信和感知能力的分散设置中，这个问题具有挑战性。本文提出了一种可学习的感知-行动-通信(LPAC)架构来解决覆盖控制问题。在该解决方案中，卷积神经网络(CNN)处理了环境的局部感知；图神经网络(GNN)实现了邻近机器人之间的相关信息通信；最后，浅层多层感知机(MLP)计算机器人的动作。通信模块中的GNN通过计算应该与邻居通信哪些信息以及如何利用接收到的信息采取适当的行动来实现机器人群体的协作。我们使用一个知晓整个环境的集中式显微算法来进行模型的训练。
 
-    arXiv:2402.12715v1 Announce Type: new  Abstract: Machine learning systems are known to be sensitive to spurious correlations between biased features of the inputs (e.g., background, texture, and secondary objects) and the corresponding labels. These features and their correlations with the labels are known as "spurious" because they tend to change with shifts in real-world data distributions, which can negatively impact the model's generalization and robustness. In this survey, we provide a comprehensive review of this issue, along with a taxonomy of current state-of-the-art methods for addressing spurious correlations in machine learning models. Additionally, we summarize existing datasets, benchmarks, and metrics to aid future research. The paper concludes with a discussion of the recent advancements and future research challenges in this field, aiming to provide valuable insights for researchers in the related domains.
+    Coverage control is the problem of navigating a robot swarm to collaboratively monitor features or a phenomenon of interest not known a priori. The problem is challenging in decentralized settings with robots that have limited communication and sensing capabilities. This paper proposes a learnable Perception-Action-Communication (LPAC) architecture for the coverage control problem. In the proposed solution, a convolution neural network (CNN) processes localized perception of the environment; a graph neural network (GNN) enables communication of relevant information between neighboring robots; finally, a shallow multi-layer perceptron (MLP) computes robot actions. The GNN in the communication module enables collaboration in the robot swarm by computing what information to communicate with neighbors and how to use received information to take appropriate actions. We train models using imitation learning with a centralized clairvoyant algorithm that is aware of the entire environment. Eva
     
-[^3]: 通过人类神经表示对齐实现更类似人类大脑视觉的ReAlnet模型
+[^2]: 用于提高密度泛函近似精确性的机器学习技术
 
-    ReAlnet: Achieving More Human Brain-Like Vision via Human Neural Representational Alignment
+    Machine learning for accuracy in density functional approximations. (arXiv:2311.00196v1 [physics.chem-ph])
 
-    [https://arxiv.org/abs/2401.17231](https://arxiv.org/abs/2401.17231)
+    [http://arxiv.org/abs/2311.00196](http://arxiv.org/abs/2311.00196)
 
-    通过非侵入性脑电图记录，我们的ReAlnet模型与人脑活动相对齐，实现了更高的相似性，提供了更类似人类大脑视觉的模型。
-
-    
-
-    尽管人工智能取得了显著进展，但当前的物体识别模型在模拟人脑视觉信息处理机制方面仍然落后。最近的研究强调了利用神经数据来模仿大脑处理的潜力；然而，这些研究通常依赖于对非人类实验对象的侵入性神经记录，这在我们对人类视觉感知和开发更类似人类大脑视觉模型的理解上存在着重要的缺口。为了解决这一问题，我们首次提出了“Re(presentational)Al(ignment)net”，这是一个以非侵入性脑电图记录为基础的与人脑活动相对齐的视觉模型，展示了与人脑表示更高的相似性。我们的创新图像到脑多层编码对齐框架不仅优化了模型的多个层次，标志着神经对齐方面的重大突破，而且还使得模型能够高效地学习和模仿人脑的视觉感知能力。
-
-    Despite the remarkable strides made in artificial intelligence, current object recognition models still lag behind in emulating the mechanism of visual information processing in human brains. Recent studies have highlighted the potential of using neural data to mimic brain processing; however, these often reply on invasive neural recordings from non-human subjects, leaving a critical gap in our understanding of human visual perception and the development of more human brain-like vision models. Addressing this gap, we present, for the first time, "Re(presentational)Al(ignment)net", a vision model aligned with human brain activity based on non-invasive EEG recordings, demonstrating a significantly higher similarity to human brain representations. Our innovative image-to-brain multi-layer encoding alignment framework not only optimizes multiple layers of the model, marking a substantial leap in neural alignment, but also enables the model to efficiently learn and mimic human brain's visua
-    
-[^4]: SMaRt: 使用分数匹配规则改进GANs
-
-    SMaRt: Improving GANs with Score Matching Regularity
-
-    [https://arxiv.org/abs/2311.18208](https://arxiv.org/abs/2311.18208)
-
-    本文提出使用分数匹配规则（SMaRt）来改进GANs的优化问题，通过持续将生成的数据点推向真实数据流形，提高了合成性能。
+    本文回顾了近期在改进密度泛函及相关近似方法中应用机器学习的进展，讨论了在不同化学和材料类别之间设计可迁移的机器学习模型时可能面临的挑战和希望。
 
     
 
-    生成对抗网络（GANs）通常在学习高度多样化的复杂数据时遇到困难。本文重新审视了GANs的数学基础，并从理论上揭示了GAN训练的原始对抗损失不能解决生成数据流形的正测度子集落在真实数据流形之外的问题。相反，我们发现分数匹配可以作为解决这个问题的有希望的方法，因为它可以持续将生成的数据点推向真实数据流形。因此，我们提出通过分数匹配规则（SMaRt）来改进GANs的优化。对于经验证据，我们首先设计了一个玩具示例来展示通过辅助一个真实得分函数来训练GANs可以更准确地再现真实数据分布，然后确认我们的方法可以持续提升各种状态的合成性能。
+    机器学习技术已经成为计算化学中不可或缺的工具，用于加速原子模拟和材料设计。此外，机器学习方法有可能提高计算效率高的电子结构理论（如密度泛函理论）的预测能力，纠正密度泛函方法中的基本错误。本文综述了最近在应用机器学习改进密度泛函和相关近似方法的进展。通过示例应用有希望的模型于训练集之外的系统，讨论了在不同化学和材料类别之间设计可迁移的机器学习模型时可能面临的挑战和希望。
 
-    Generative adversarial networks (GANs) usually struggle in learning from highly diverse data, whose underlying manifold is complex. In this work, we revisit the mathematical foundations of GANs, and theoretically reveal that the native adversarial loss for GAN training is insufficient to fix the problem of subsets with positive Lebesgue measure of the generated data manifold lying out of the real data manifold. Instead, we find that score matching serves as a promising solution to this issue thanks to its capability of persistently pushing the generated data points towards the real data manifold. We thereby propose to improve the optimization of GANs with score matching regularity (SMaRt). Regarding the empirical evidences, we first design a toy example to show that training GANs by the aid of a ground-truth score function can help reproduce the real data distribution more accurately, and then confirm that our approach can consistently boost the synthesis performance of various state-o
+    Machine learning techniques have found their way into computational chemistry as indispensable tools to accelerate atomistic simulations and materials design. In addition, machine learning approaches hold the potential to boost the predictive power of computationally efficient electronic structure methods, such as density functional theory, to chemical accuracy and to correct for fundamental errors in density functional approaches. Here, recent progress in applying machine learning to improve the accuracy of density functional and related approximations is reviewed. Promises and challenges in devising machine learning models transferable between different chemistries and materials classes are discussed with the help of examples applying promising models to systems far outside their training sets.
     
-[^5]: 用于高效Transformer的"Inhibitor"：ReLU和加法注意力机制
+[^3]: 使用生成对抗网络进行预测的对照因果公平性
 
-    The Inhibitor: ReLU and Addition-Based Attention for Efficient Transformers. (arXiv:2310.02041v1 [cs.LG])
+    Counterfactual Fairness for Predictions using Generative Adversarial Networks. (arXiv:2310.17687v1 [cs.LG])
 
-    [http://arxiv.org/abs/2310.02041](http://arxiv.org/abs/2310.02041)
+    [http://arxiv.org/abs/2310.17687](http://arxiv.org/abs/2310.17687)
 
-    本论文提出了一种"Inhibitor"机制，通过使用ReLU和加法注意力机制来增强计算效率。这种机制可以在资源受限的硬件或替代算法系统上实现更高效的执行和支持更大的量化Transformer模型。实验结果表明，与传统的点积注意力相比，该机制在预测得分上表现相当，并且可以实现显著的计算节省。这一创新可能在隐私保护的应用中发挥重要作用。
-
-    
-
-    为了增强量化Transformer的计算效率，我们用只涉及加法和ReLU激活的替代机制来取代基于点积和Softmax的注意力机制。这样可以避免矩阵乘法中常需要的双精度扩展和昂贵的Softmax计算，但仍保留了传统的点积注意力的核心功能。这种方法可以在资源受限的硬件或同态加密等替代算法系统上实现更高效的执行和支持更大的量化Transformer模型。在四个常见的基准任务上的训练实验显示，测试集的预测得分与采用点积注意力的传统Transformer相当。我们的缩放实验还表明，在明文和加密下都可以实现显著的计算节省。特别是，我们相信本文介绍的基于ReLU和加法的注意力机制可能会实现隐私保护的A
-
-    To enhance the computational efficiency of quantized Transformers, we replace the dot-product and Softmax-based attention with an alternative mechanism involving addition and ReLU activation only. This side-steps the expansion to double precision often required by matrix multiplication and avoids costly Softmax evaluations but maintains much of the core functionality of conventional dot-product attention. It can enable more efficient execution and support larger quantized Transformer models on resource-constrained hardware or alternative arithmetic systems like homomorphic encryption. Training experiments on four common benchmark tasks show test set prediction scores comparable to those of conventional Transformers with dot-product attention. Our scaling experiments also suggest significant computational savings, both in plaintext and under encryption. In particular, we believe that the ReLU and addition-based attention mechanism introduced in this paper may enable privacy-preserving A
-    
-[^6]: 神经网络潜在表示中的对抗性机器学习
-
-    Adversarial Machine Learning in Latent Representations of Neural Networks. (arXiv:2309.17401v3 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2309.17401](http://arxiv.org/abs/2309.17401)
-
-    这项研究通过分析分布式深度神经网络对抗性行为的韧性填补了现有研究空白，并发现潜在特征在相同信息失真水平下比输入表示更加韧性，并且对抗性韧性由特征维度和神经网络的泛化能力共同决定。
+    这篇论文提出了一种使用生成对抗网络实现对照因果公平性的方法，通过学习敏感属性的后代的对照分布来确保公平预测。
 
     
 
-    分布式深度神经网络已被证明可以减轻移动设备的计算负担，并降低边缘计算场景中的端到端推理延迟。尽管已经对分布式深度神经网络进行了研究，但据我们所知，分布式深度神经网络对于对抗性行为的韧性仍然是一个开放问题。在本文中，我们通过严格分析分布式深度神经网络对抗性行为的韧性来填补现有的研究空白。我们将这个问题置于信息论的背景下，并引入了两个新的衡量指标来衡量失真和韧性。我们的理论发现表明：（i）在假设具有相同信息失真水平的情况下，潜在特征始终比输入表示更加韧性；（ii）对抗性韧性同时由特征维度和深度神经网络的泛化能力决定。为了验证我们的理论发现，我们进行了广泛的实验分析，考虑了6种不同的深度神经网络架构。
+    由于法律、伦理和社会原因，预测中的公平性在实践中非常重要。通常通过对照因果公平性来实现，该公平性确保个体的预测与在不同敏感属性下的对照世界中的预测相同。然而，要实现对照因果公平性是具有挑战性的，因为对照是不可观察的。在本文中，我们开发了一种新颖的深度神经网络，称为对照因果公平性生成对抗网络（GCFN），用于在对照因果公平性下进行预测。具体而言，我们利用一个量身定制的生成对抗网络直接学习敏感属性的后代的对照分布，然后通过一种新颖的对照媒介正则化来实施公平预测。如果对照分布学习得足够好，我们的方法在数学上确保对照因果公平性的概念。因此，我们的GCFN解决了对照因果公平性问题。
 
-    Distributed deep neural networks (DNNs) have been shown to reduce the computational burden of mobile devices and decrease the end-to-end inference latency in edge computing scenarios. While distributed DNNs have been studied, to the best of our knowledge the resilience of distributed DNNs to adversarial action still remains an open problem. In this paper, we fill the existing research gap by rigorously analyzing the robustness of distributed DNNs against adversarial action. We cast this problem in the context of information theory and introduce two new measurements for distortion and robustness. Our theoretical findings indicate that (i) assuming the same level of information distortion, latent features are always more robust than input representations; (ii) the adversarial robustness is jointly determined by the feature dimension and the generalization capability of the DNN. To test our theoretical findings, we perform extensive experimental analysis by considering 6 different DNN arc
+    Fairness in predictions is of direct importance in practice due to legal, ethical, and societal reasons. It is often achieved through counterfactual fairness, which ensures that the prediction for an individual is the same as that in a counterfactual world under a different sensitive attribute. However, achieving counterfactual fairness is challenging as counterfactuals are unobservable. In this paper, we develop a novel deep neural network called Generative Counterfactual Fairness Network (GCFN) for making predictions under counterfactual fairness. Specifically, we leverage a tailored generative adversarial network to directly learn the counterfactual distribution of the descendants of the sensitive attribute, which we then use to enforce fair predictions through a novel counterfactual mediator regularization. If the counterfactual distribution is learned sufficiently well, our method is mathematically guaranteed to ensure the notion of counterfactual fairness. Thereby, our GCFN addre
     
-[^7]: 最大化互信息的量子生成对抗网络及其在金融领域的应用
+[^4]: 潜变量结构方程模型的最大似然估计：一种神经网络方法
 
-    Mutual Information Maximizing Quantum Generative Adversarial Network and Its Applications in Finance. (arXiv:2309.01363v1 [quant-ph])
+    Maximum Likelihood Estimation of Latent Variable Structural Equation Models: A Neural Network Approach. (arXiv:2309.14073v1 [stat.ML])
 
-    [http://arxiv.org/abs/2309.01363](http://arxiv.org/abs/2309.01363)
+    [http://arxiv.org/abs/2309.14073](http://arxiv.org/abs/2309.14073)
 
-    本研究提出了一种名为InfoQGAN的量子生成对抗网络方法，通过使用互信息神经估计器（MINE）解决了模式崩溃问题。该方法在金融领域具有应用潜力。
-
-    
-
-    在NISQ（噪声中间规模量子）计算时代，量子机器学习是最具前景的应用之一。量子机器学习在各个领域都比经典机器学习具有显著的量子优势。具体而言，生成对抗网络被认为在图像生成、金融和概率分布建模等多个领域具有潜在的实用性。然而，这些网络需要解决固有的挑战，如模式崩溃。在本研究中，我们利用通过神经网络进行梯度下降来实现高维连续随机变量之间的互信息估计的概念。我们提出了一种名为InfoQGAN的新方法，它将互信息神经估计器（MINE）应用于量子生成对抗网络的框架中，以解决模式崩溃问题。此外，我们详细阐述了如何将此方法应用于金融领域。
-
-    One of the most promising applications in the era of NISQ (Noisy Intermediate-Scale Quantum) computing is quantum machine learning. Quantum machine learning offers significant quantum advantages over classical machine learning across various domains. Specifically, generative adversarial networks have been recognized for their potential utility in diverse fields such as image generation, finance, and probability distribution modeling. However, these networks necessitate solutions for inherent challenges like mode collapse. In this study, we capitalize on the concept that the estimation of mutual information between high-dimensional continuous random variables can be achieved through gradient descent using neural networks. We introduce a novel approach named InfoQGAN, which employs the Mutual Information Neural Estimator (MINE) within the framework of quantum generative adversarial networks to tackle the mode collapse issue. Furthermore, we elaborate on how this approach can be applied t
-    
-[^8]: 关于证据下界的Fisher-Rao梯度研究
-
-    On the Fisher-Rao Gradient of the Evidence Lower Bound. (arXiv:2307.11249v1 [cs.LG])
-
-    [http://arxiv.org/abs/2307.11249](http://arxiv.org/abs/2307.11249)
-
-    本文研究了证据下界的Fisher-Rao梯度，揭示了它与目标分布的Kullback-Leibler散度梯度的关系，进一步证明了最小化主要目标函数与最大化ELBO的等价性。
+    本研究提出了一种新的图形结构，用于在线性和高斯性假设下稳定的潜变量结构方程模型。我们证明了计算该模型的最大似然估计等价于训练一个神经网络，并实现了一个基于GPU的算法来进行计算。
 
     
 
-    本文研究了证据下界（ELBO）的Fisher-Rao梯度，也称为自然梯度，它在变分自动编码器理论、Helmholtz机和自由能原理中起着关键作用。ELBO的自然梯度与目标分布的Kullback-Leibler散度的自然梯度相关，后者是学习的主要目标函数。基于信息几何中梯度的不变性特性，提供了关于底层模型的条件，确保最小化主要目标函数与最大化ELBO的等价性。
+    我们提出了一种在线性和高斯性假设下稳定的结构方程模型的图形结构。我们展示了计算这个模型的最大似然估计等价于训练一个神经网络。我们实现了一个基于GPU的算法来计算这些模型的最大似然估计。
 
-    This article studies the Fisher-Rao gradient, also referred to as the natural gradient, of the evidence lower bound, the ELBO, which plays a crucial role within the theory of the Variational Autonecoder, the Helmholtz Machine and the Free Energy Principle. The natural gradient of the ELBO is related to the natural gradient of the Kullback-Leibler divergence from a target distribution, the prime objective function of learning. Based on invariance properties of gradients within information geometry, conditions on the underlying model are provided that ensure the equivalence of minimising the prime objective function and the maximisation of the ELBO.
+    We propose a graphical structure for structural equation models that is stable under marginalization under linearity and Gaussianity assumptions. We show that computing the maximum likelihood estimation of this model is equivalent to training a neural network. We implement a GPU-based algorithm that computes the maximum likelihood estimation of these models.
     
-[^9]: 平滑和/或强凸集合上的量规和加速优化
+[^5]: 数据流中的差分隐私聚类
 
-    Gauges and Accelerated Optimization over Smooth and/or Strongly Convex Sets. (arXiv:2303.05037v2 [math.OC] UPDATED)
+    Differentially Private Clustering in Data Streams. (arXiv:2307.07449v1 [cs.DS])
 
-    [http://arxiv.org/abs/2303.05037](http://arxiv.org/abs/2303.05037)
+    [http://arxiv.org/abs/2307.07449](http://arxiv.org/abs/2307.07449)
 
-    本文提出了一种新的在平滑和/或强凸集合上定义的可行性和约束优化问题的可扩展、无投影、加速一阶方法，并通过研究量规的新特征达到了强凸问题的最优加速收敛保证 $O(1/T)$、平滑问题的 $O(1/T^2)$，以及两者都满足的加速线性收敛。
+    本研究提出了首个针对$k$-means和$k$-median聚类的差分隐私流算法，在流模型中实现对数据隐私的保护，并使用尽可能少的空间。
 
     
 
-    我们考虑在平滑和/或强凸集合上定义的可行性和约束优化问题。这些概念与它们受欢迎的函数对应物相似，但在一阶优化文献中研究较少。我们在这些设置中提出了新的可扩展、无投影、加速一阶方法。我们的方法避免了线性优化或投影预言机，仅使用便宜的一维线搜索和法向量计算。尽管如此，我们得到了强凸问题的最优加速收敛保证 $O(1/T)$、平滑问题的 $O(1/T^2)$，以及两者都满足的加速线性收敛。我们的算法和分析基于平滑和/或强凸集合的闵可夫斯基量的新特征，这可能具有独立的兴趣：尽管量规既不是平滑的也不是强凸的，但我们显示了规模的加平方在集合中继承任何存在的结构。
+    流模型是处理大规模现代数据分析的一种常见方法。在流模型中，数据点依次流入，算法只能对数据流进行一次遍历，目标是在使用尽可能少的空间的同时，在流中进行一些分析。聚类问题是基本的无监督机器学习原语，过去已经对流聚类算法进行了广泛的研究。然而，在许多实际应用中，数据隐私已成为一个核心关注点，非私有聚类算法在许多场景下不适用。在这项工作中，我们提供了第一个针对$k$-means和$k$-median聚类的差分私有流算法，该算法在长度最多为$T$的流上使用$poly(k,d,\log(T))$的空间来实现一个“常数”。
 
-    We consider feasibility and constrained optimization problems defined over smooth and/or strongly convex sets. These notions mirror their popular function counterparts but are much less explored in the first-order optimization literature. We propose new scalable, projection-free, accelerated first-order methods in these settings. Our methods avoid linear optimization or projection oracles, only using cheap one-dimensional linesearches and normal vector computations. Despite this, we derive optimal accelerated convergence guarantees of $O(1/T)$ for strongly convex problems, $O(1/T^2)$ for smooth problems, and accelerated linear convergence given both. Our algorithms and analysis are based on novel characterizations of the Minkowski gauge of smooth and/or strongly convex sets, which may be of independent interest: although the gauge is neither smooth nor strongly convex, we show the gauge squared inherits any structure present in the set.
+    The streaming model is an abstraction of computing over massive data streams, which is a popular way of dealing with large-scale modern data analysis. In this model, there is a stream of data points, one after the other. A streaming algorithm is only allowed one pass over the data stream, and the goal is to perform some analysis during the stream while using as small space as possible.  Clustering problems (such as $k$-means and $k$-median) are fundamental unsupervised machine learning primitives, and streaming clustering algorithms have been extensively studied in the past. However, since data privacy becomes a central concern in many real-world applications, non-private clustering algorithms are not applicable in many scenarios.  In this work, we provide the first differentially private streaming algorithms for $k$-means and $k$-median clustering of $d$-dimensional Euclidean data points over a stream with length at most $T$ using $poly(k,d,\log(T))$ space to achieve a {\it constant} 
+    
+[^6]: BOF-UCB: 一种用于非平稳环境下的上下界信心算法的贝叶斯优化频率算法
+
+    BOF-UCB: A Bayesian-Optimistic Frequentist Algorithm for Non-Stationary Contextual Bandits. (arXiv:2307.03587v1 [cs.LG])
+
+    [http://arxiv.org/abs/2307.03587](http://arxiv.org/abs/2307.03587)
+
+    BOF-UCB是一种用于非平稳环境下的背景线性赌博机的贝叶斯优化频率算法，其结合了贝叶斯和频率学派原则，提高了在动态环境中的性能。它利用贝叶斯更新推断后验分布，并使用频率学派方法计算上界信心界以平衡探索和开发。实验证明，BOF-UCB优于现有方法，是非平稳环境中顺序决策的有前途的解决方案。
+
+    
+
+    我们提出了一种新颖的贝叶斯优化频率上下界信心算法（BOF-UCB），用于非平稳环境下的随机背景线性赌博机。贝叶斯和频率学派原则的独特结合增强了算法在动态环境中的适应性和性能。BOF-UCB算法利用顺序贝叶斯更新推断未知回归参数的后验分布，并随后采用频率学派方法通过最大化后验分布上的期望收益来计算上界信心界（UCB）。我们提供了BOF-UCB性能的理论保证，并在合成数据集和强化学习环境中的经典控制任务中展示了其有效性。我们的结果表明，BOF-UCB优于现有的方法，在非平稳环境中进行顺序决策是一个有前途的解决方案。
+
+    We propose a novel Bayesian-Optimistic Frequentist Upper Confidence Bound (BOF-UCB) algorithm for stochastic contextual linear bandits in non-stationary environments. This unique combination of Bayesian and frequentist principles enhances adaptability and performance in dynamic settings. The BOF-UCB algorithm utilizes sequential Bayesian updates to infer the posterior distribution of the unknown regression parameter, and subsequently employs a frequentist approach to compute the Upper Confidence Bound (UCB) by maximizing the expected reward over the posterior distribution. We provide theoretical guarantees of BOF-UCB's performance and demonstrate its effectiveness in balancing exploration and exploitation on synthetic datasets and classical control tasks in a reinforcement learning setting. Our results show that BOF-UCB outperforms existing methods, making it a promising solution for sequential decision-making in non-stationary environments.
+    
+[^7]: 不扩展的A*搜索：用深度Q网络学习启发式函数
+
+    A* Search Without Expansions: Learning Heuristic Functions with Deep Q-Networks. (arXiv:2102.04518v2 [cs.AI] UPDATED)
+
+    [http://arxiv.org/abs/2102.04518](http://arxiv.org/abs/2102.04518)
+
+    本文提出了一种使用深度Q网络学习启发式函数，通过只进行一次前向传递计算相邻节点的转移成本和启发式值之和，并在不显式生成这些子节点的情况下指导搜索的Q*搜索算法，以大幅减少计算时间。在魔方问题上的实验表明，该方法能够高效地解决具有大动作空间的问题。
+
+    
+
+    高效地使用 A* 搜索解决具有大动作空间的问题对于人工智能社区几十年来一直非常重要。这是因为 A* 搜索的计算和存储需求随着动作空间的大小呈线性增长。当 A* 搜索使用计算代价高昂的函数逼近器（如深度神经网络）学习启发式函数时，这种负担变得更加明显。为了解决这个问题，我们引入了 Q* 搜索，一种使用深度 Q 网络引导搜索的搜索算法，以利用一个事实，即在不显式生成这些子节点的情况下，一个节点的子节点的转移成本和启发式值之和可以通过单次前向传递计算。这显着降低了计算时间，并且每次迭代只需要生成一个节点。我们使用 Q* 搜索来解决魔方问题，并将其们表示为一个包含 1872 个元动作的大动作空间。
+
+    Efficiently solving problems with large action spaces using A* search has been of importance to the artificial intelligence community for decades. This is because the computation and memory requirements of A* search grow linearly with the size of the action space. This burden becomes even more apparent when A* search uses a heuristic function learned by computationally expensive function approximators, such as deep neural networks. To address this problem, we introduce Q* search, a search algorithm that uses deep Q-networks to guide search in order to take advantage of the fact that the sum of the transition costs and heuristic values of the children of a node can be computed with a single forward pass through a deep Q-network without explicitly generating those children. This significantly reduces computation time and requires only one node to be generated per iteration. We use Q* search to solve the Rubik's cube when formulated with a large action space that includes 1872 meta-action
     
 

@@ -2,37 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Bundling Demand in K-12 Broadband Procurement](https://arxiv.org/abs/2402.07277) | 该研究评估了K-12学校在宽带互联网采购中通过捆绑需求的效果。研究发现，参与者的价格平均下降了三分之一，购买的宽带速度增加了六倍。参与学校节省的金额至少等于联邦政府的补贴金额。根据弱假设，参与学校获得了巨大的福利提升。 |
-| [^2] | [Mutual Information Maximizing Quantum Generative Adversarial Network and Its Applications in Finance.](http://arxiv.org/abs/2309.01363) | 本研究提出了一种名为InfoQGAN的量子生成对抗网络方法，通过使用互信息神经估计器（MINE）解决了模式崩溃问题。该方法在金融领域具有应用潜力。 |
+| [^1] | [Political Pandering and Bureaucratic Influence](https://arxiv.org/abs/2402.17526) | 研究发现在政策实施中，政治家和官僚之间的互动在选举激励下会产生讨好行为，不同类型的官僚对此有不同态度，分析显示官僚主义的影响程度能够最大化选民福利。 |
 
 # 详细
 
-[^1]: K-12宽带采购中的需求捆绑效应
+[^1]: 政治讨好和官僚主义影响
 
-    Bundling Demand in K-12 Broadband Procurement
+    Political Pandering and Bureaucratic Influence
 
-    [https://arxiv.org/abs/2402.07277](https://arxiv.org/abs/2402.07277)
+    [https://arxiv.org/abs/2402.17526](https://arxiv.org/abs/2402.17526)
 
-    该研究评估了K-12学校在宽带互联网采购中通过捆绑需求的效果。研究发现，参与者的价格平均下降了三分之一，购买的宽带速度增加了六倍。参与学校节省的金额至少等于联邦政府的补贴金额。根据弱假设，参与学校获得了巨大的福利提升。
-
-    
-
-    我们评估了K-12学校通过捆绑需求获得宽带互联网的效果。2014年，新泽西州从分散的采购方式转变为将学校分为四个区域组合的新采购系统。采用事件研究方法，我们发现参与者的价格平均下降了三分之一，购买的宽带速度增加了六倍。我们对该计划导致的学校支出变化进行了界定，发现参与者节省的金额至少等于他们从联邦政府获得的"E-rate"补贴总额。在对需求进行弱假设的情况下，我们表明参与学校获得了巨大的福利提升。
-
-    We evaluate the effects of bundling demand for broadband internet by K-12 schools. In 2014, New Jersey switched from decentralized procurements to a new procurement system that bundled schools into four regional groups. Using an event study approach, we find that, on average, prices for participants decreased by one-third, and broadband speed purchased increased sixfold. We bound the change in school expenditures due to the program and find that participants saved at least as much as their total "E-rate" subsidy from the federal government. Under weak assumptions on demand, we show that participating schools experienced large welfare gains.
-    
-[^2]: 最大化互信息的量子生成对抗网络及其在金融领域的应用
-
-    Mutual Information Maximizing Quantum Generative Adversarial Network and Its Applications in Finance. (arXiv:2309.01363v1 [quant-ph])
-
-    [http://arxiv.org/abs/2309.01363](http://arxiv.org/abs/2309.01363)
-
-    本研究提出了一种名为InfoQGAN的量子生成对抗网络方法，通过使用互信息神经估计器（MINE）解决了模式崩溃问题。该方法在金融领域具有应用潜力。
+    研究发现在政策实施中，政治家和官僚之间的互动在选举激励下会产生讨好行为，不同类型的官僚对此有不同态度，分析显示官僚主义的影响程度能够最大化选民福利。
 
     
 
-    在NISQ（噪声中间规模量子）计算时代，量子机器学习是最具前景的应用之一。量子机器学习在各个领域都比经典机器学习具有显著的量子优势。具体而言，生成对抗网络被认为在图像生成、金融和概率分布建模等多个领域具有潜在的实用性。然而，这些网络需要解决固有的挑战，如模式崩溃。在本研究中，我们利用通过神经网络进行梯度下降来实现高维连续随机变量之间的互信息估计的概念。我们提出了一种名为InfoQGAN的新方法，它将互信息神经估计器（MINE）应用于量子生成对抗网络的框架中，以解决模式崩溃问题。此外，我们详细阐述了如何将此方法应用于金融领域。
+    本文研究了在选举激励产生讨好行为的环境中，官僚主义对政策实施的影响。通过发展一个两期模型来分析政治家和官僚之间的互动，他们被分类为与选民偏好政策相一致的对齐型或者意图制定有利于精英集团的政策的官僚。研究结果揭示了在对齐的政治家诉诸于讨好的均衡状态，而对齐的官僚则支持或反对这种行为。分析进一步表明，根据参数的不同，官僚主义的任何程度都可能使选民的福利最大化，范围从全能的到无力的官僚体系情景都有。
 
-    One of the most promising applications in the era of NISQ (Noisy Intermediate-Scale Quantum) computing is quantum machine learning. Quantum machine learning offers significant quantum advantages over classical machine learning across various domains. Specifically, generative adversarial networks have been recognized for their potential utility in diverse fields such as image generation, finance, and probability distribution modeling. However, these networks necessitate solutions for inherent challenges like mode collapse. In this study, we capitalize on the concept that the estimation of mutual information between high-dimensional continuous random variables can be achieved through gradient descent using neural networks. We introduce a novel approach named InfoQGAN, which employs the Mutual Information Neural Estimator (MINE) within the framework of quantum generative adversarial networks to tackle the mode collapse issue. Furthermore, we elaborate on how this approach can be applied t
+    arXiv:2402.17526v1 Announce Type: new  Abstract: This paper examines the impact of bureaucracy on policy implementation in environments where electoral incentives generate pandering. A two-period model is developed to analyze the interactions between politicians and bureaucrats, who are categorized as either aligned -- sharing the voters' preferences over policies -- or intent on enacting policies that favor elite groups. The findings reveal equilibria in which aligned politicians resort to pandering, whereas aligned bureaucrats either support or oppose such behavior. The analysis further indicates that, depending on parameters, any level of bureaucratic influence can maximize the voters' welfare, ranging from scenarios with an all-powerful to a toothless bureaucracy.
     
 
