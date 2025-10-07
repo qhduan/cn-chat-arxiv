@@ -2,37 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Negatively dependent optimal risk sharing.](http://arxiv.org/abs/2401.03328) | 本文研究了使用反单调分配来最优化共享风险的问题。当所有代理都风险追求时，帕累托最优分配必须是大奖分配；当所有代理的效用函数不连续时，替罪羊分配使得超过不连续阈值的概率最大化。 |
-| [^2] | [Post-Episodic Reinforcement Learning Inference.](http://arxiv.org/abs/2302.08854) | 我们提出了一种后期情节式强化学习推断的方法，能够评估反事实的自适应策略并估计动态处理效应，通过重新加权的$Z$-估计方法稳定情节变化的估计方差。 |
+| [^1] | [Optimal testing in a class of nonregular models](https://arxiv.org/abs/2403.16413) | 本文研究了一类非常规模型中的最优假设检验，提出了基于似然比过程的渐近一致最强测试方法，通过随机化、调节常数和用户指定备择假设值等方式实现渐近最优性。 |
+| [^2] | [Identification- and many instrument-robust inference via invariant moment conditions.](http://arxiv.org/abs/2303.07822) | 本文介绍了一种使用不变矩条件进行多工具鲁棒性推断及识别的方法，并确定了许多工具序列下传统测试统计量的渐进正常性。 |
+| [^3] | [Axiomatization of Random Utility Model with Unobservable Alternatives.](http://arxiv.org/abs/2302.03913) | 论文公开了一种将随机效用模型应用于未观测到替代方案的且不完整数据集中的有效方法 |
+| [^4] | [Change-Point Testing for Risk Measures in Time Series.](http://arxiv.org/abs/1809.02303) | 我们提出了一种变点检验方法，可以在时间序列的尾部检测到一般多重结构变化，并避免了标准误差估计的问题。实证研究表明我们的方法可以在金融时间序列中检测和量化市场不稳定性。 |
 
 # 详细
 
-[^1]: 负相关的最优风险共担问题研究
+[^1]: 一类非常规模型中的最优检验
 
-    Negatively dependent optimal risk sharing. (arXiv:2401.03328v1 [econ.TH])
+    Optimal testing in a class of nonregular models
 
-    [http://arxiv.org/abs/2401.03328](http://arxiv.org/abs/2401.03328)
+    [https://arxiv.org/abs/2403.16413](https://arxiv.org/abs/2403.16413)
 
-    本文研究了使用反单调分配来最优化共享风险的问题。当所有代理都风险追求时，帕累托最优分配必须是大奖分配；当所有代理的效用函数不连续时，替罪羊分配使得超过不连续阈值的概率最大化。
-
-    
-
-    本文分析了使用表现出反单调性的分配方式来优化共享风险的问题。反单调分配的形式有“赢者通吃”或“输者全军覆没”型彩票，我们分别将其归为标准化的“大奖”或“替罪羊”分配。我们的主要定理——反单调改进定理，说明对于一组随机变量，无论它们是全部下界有界还是全部上界有界，总是可以找到一组反单调随机变量，其中每个分量都大于或等于凸序中对应的分量。我们证明了如果帕累托最优分配存在且所有代理都追求风险，那么它们必须是大奖分配。而当所有代理的不连续伯努利效用函数时，我们得到了相反的结论，替罪羊分配使得超过不连续阈值的概率最大化。
-
-    We analyze the problem of optimally sharing risk using allocations that exhibit counter-monotonicity, the most extreme form of negative dependence. Counter-monotonic allocations take the form of either "winner-takes-all" lotteries or "loser-loses-all" lotteries, and we respectively refer to these (normalized) cases as jackpot or scapegoat allocations. Our main theorem, the counter-monotonic improvement theorem, states that for a given set of random variables that are either all bounded from below or all bounded from above, one can always find a set of counter-monotonic random variables such that each component is greater or equal than its counterpart in the convex order. We show that Pareto optimal allocations, if they exist, must be jackpot allocations when all agents are risk seeking. We essentially obtain the opposite when all agents have discontinuous Bernoulli utility functions, as scapegoat allocations maximize the probability of being above the discontinuity threshold. We also c
-    
-[^2]: 后期情节式强化学习推断
-
-    Post-Episodic Reinforcement Learning Inference. (arXiv:2302.08854v2 [stat.ML] UPDATED)
-
-    [http://arxiv.org/abs/2302.08854](http://arxiv.org/abs/2302.08854)
-
-    我们提出了一种后期情节式强化学习推断的方法，能够评估反事实的自适应策略并估计动态处理效应，通过重新加权的$Z$-估计方法稳定情节变化的估计方差。
+    本文研究了一类非常规模型中的最优假设检验，提出了基于似然比过程的渐近一致最强测试方法，通过随机化、调节常数和用户指定备择假设值等方式实现渐近最优性。
 
     
 
-    我们考虑从情节式强化学习算法收集的数据进行估计和推断；即在每个时期（也称为情节）以顺序方式与单个受试单元多次交互的自适应试验算法。我们的目标是在收集数据后能够评估反事实的自适应策略，并估计结构参数，如动态处理效应，这可以用于信用分配（例如，第一个时期的行动对最终结果的影响）。这些感兴趣的参数可以构成矩方程的解，但不是总体损失函数的最小化器，在静态数据情况下导致了$Z$-估计方法。然而，这样的估计量在自适应数据收集的情况下不能渐近正态。我们提出了一种重新加权的$Z$-估计方法，使用精心设计的自适应权重来稳定情节变化的估计方差，这是由非...
+    本文研究了参数依赖支持的非常规统计模型的最优假设检验。我们考虑了单侧和双侧假设检验，并基于似然比过程发展了渐近一致最强的检验。所提出的单侧检验涉及随机化以实现渐近尺寸控制，一些调节常数以避免在极限似然比过程中的不连续性，并一个用户指定的备择假设值以达到渐近最优性。我们的双侧检验在不施加进一步的限制（如无偏性）的情况下变为渐近一致最强。模拟结果展示了所提出检验的理想功效性质。
 
-    We consider estimation and inference with data collected from episodic reinforcement learning (RL) algorithms; i.e. adaptive experimentation algorithms that at each period (aka episode) interact multiple times in a sequential manner with a single treated unit. Our goal is to be able to evaluate counterfactual adaptive policies after data collection and to estimate structural parameters such as dynamic treatment effects, which can be used for credit assignment (e.g. what was the effect of the first period action on the final outcome). Such parameters of interest can be framed as solutions to moment equations, but not minimizers of a population loss function, leading to $Z$-estimation approaches in the case of static data. However, such estimators fail to be asymptotically normal in the case of adaptive data collection. We propose a re-weighted $Z$-estimation approach with carefully designed adaptive weights to stabilize the episode-varying estimation variance, which results from the non
+    arXiv:2403.16413v1 Announce Type: cross  Abstract: This paper studies optimal hypothesis testing for nonregular statistical models with parameter-dependent support. We consider both one-sided and two-sided hypothesis testing and develop asymptotically uniformly most powerful tests based on the likelihood ratio process. The proposed one-sided test involves randomization to achieve asymptotic size control, some tuning constant to avoid discontinuities in the limiting likelihood ratio process, and a user-specified alternative hypothetical value to achieve the asymptotic optimality. Our two-sided test becomes asymptotically uniformly most powerful without imposing further restrictions such as unbiasedness. Simulation results illustrate desirable power properties of the proposed tests.
+    
+[^2]: 通过不变矩条件进行多工具鲁棒性推断及识别
+
+    Identification- and many instrument-robust inference via invariant moment conditions. (arXiv:2303.07822v1 [econ.EM])
+
+    [http://arxiv.org/abs/2303.07822](http://arxiv.org/abs/2303.07822)
+
+    本文介绍了一种使用不变矩条件进行多工具鲁棒性推断及识别的方法，并确定了许多工具序列下传统测试统计量的渐进正常性。
+
+    
+
+    识别鲁棒性假设检验通常基于连续更新目标函数或其分数。当矩条件的数量与样本量成比例增长时，大维的加权矩阵阻止了使用传统的渐近逼近方法，这些测试的行为仍然未知。我们表明，当在零假设下，矩条件的分布是反射不变的时，加权矩阵的结构开辟了另一条渐近结果的路线。在异方差线性工具变量模型中，我们确定了许多工具序列下传统测试统计量的渐进正常性。一个关键结果是方差中出现的附加项为负。重新审视了关于移民和本地工人之间替代弹性的一项研究，工具的数量超过了样本大小的四分之一，许多工具鲁棒的近似值。
+
+    Identification-robust hypothesis tests are commonly based on the continuous updating objective function or its score. When the number of moment conditions grows proportionally with the sample size, the large-dimensional weighting matrix prohibits the use of conventional asymptotic approximations and the behavior of these tests remains unknown. We show that the structure of the weighting matrix opens up an alternative route to asymptotic results when, under the null hypothesis, the distribution of the moment conditions is reflection invariant. In a heteroskedastic linear instrumental variables model, we then establish asymptotic normality of conventional tests statistics under many instrument sequences. A key result is that the additional terms that appear in the variance are negative. Revisiting a study on the elasticity of substitution between immigrant and native workers where the number of instruments is over a quarter of the sample size, the many instrument-robust approximation ind
+    
+[^3]: 未被观测到的替代品的随机效用模型的公理化
+
+    Axiomatization of Random Utility Model with Unobservable Alternatives. (arXiv:2302.03913v2 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2302.03913](http://arxiv.org/abs/2302.03913)
+
+    论文公开了一种将随机效用模型应用于未观测到替代方案的且不完整数据集中的有效方法
+
+    
+
+    随机效用模型是经济学中离散选择分析中最基本的模型之一。虽然Falmagne（1978）获得了随机效用模型的公理化，但他的表征需要对选择的强可观察性，即必须从所有替代品集合的子集中观察到选择的频率。然而，在数据集不完整的情况下，即某些选择集的频率不可观察，对于公理化我们知道的很少。实际上，在现实中的数据集几乎总是违反Falmagne（1978）所假定的可观察性要求。我们考虑了一个不完整的数据集，在这个数据集中，我们不观察一些替代品的频率：对于所有其他替代品，我们观察到其频率。对于这样的数据集，我们获得了一个有限的线性不等式系统，该系统是随机效用模型来理性解释此类数据集的必要条件和充分条件。我们的公理化不需要观察所有子集，因此适用于Falmagne（1978）表征不适用的情况。
+
+    The random utility model is one of the most fundamental models in discrete choice analysis in economics. Although Falmagne (1978) obtained an axiomatization of the random utility model, his characterization requires strong observability of choices, i.e., that the frequency of choices must be observed from all subsets of the set of alternatives. Little is known, however, about the axiomatization when a dataset is incomplete, i.e., the frequencies on some choice sets are not observable. In fact, it is known that in some cases, obtaining a tight characterization is NP hard. On the other hand, datasets in reality almost always violate the requirements on observability assumed by Falmagne (1978). We consider an incomplete dataset in which we do not observe frequencies of some alternatives: for all other alternatives, we observe frequencies. For such a dataset, we obtain a finite system of linear inequalities that is necessary and sufficient for the dataset to be rationalized by a random uti
+    
+[^4]: 时间序列中风险测度的变点检验
+
+    Change-Point Testing for Risk Measures in Time Series. (arXiv:1809.02303v2 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/1809.02303](http://arxiv.org/abs/1809.02303)
+
+    我们提出了一种变点检验方法，可以在时间序列的尾部检测到一般多重结构变化，并避免了标准误差估计的问题。实证研究表明我们的方法可以在金融时间序列中检测和量化市场不稳定性。
+
+    
+
+    我们提出了一种新的方法，用于对弱相关时间序列中预期损失和相关风险测度的非参数估计进行变点检验。在一般假设下，我们可以检测到时间序列边缘分布尾部的一般多重结构变化。自归一化使我们能够避免标准误差估计的问题。我们的方法的理论基础是在弱假设下发展起来的函数中心极限定理。对S&P 500和美国国债回报的实证研究说明了我们的方法在通过金融时间序列的尾部检测和量化市场不稳定性方面的实际应用。
+
+    We propose novel methods for change-point testing for nonparametric estimators of expected shortfall and related risk measures in weakly dependent time series. We can detect general multiple structural changes in the tails of marginal distributions of time series under general assumptions. Self-normalization allows us to avoid the issues of standard error estimation. The theoretical foundations for our methods are functional central limit theorems, which we develop under weak assumptions. An empirical study of S&P 500 and US Treasury bond returns illustrates the practical use of our methods in detecting and quantifying market instability via the tails of financial time series.
     
 
