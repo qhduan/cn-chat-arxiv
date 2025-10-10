@@ -2,22 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Default Resilience and Worst-Case Effects in Financial Networks](https://arxiv.org/abs/2403.10631) | 论文分析了金融网络对共同承担的外部资产价格波动的弹性，并评估了违约传染的最坏情况影响，引入了默认弹性余量的概念，并计算了网络能够容忍的最大资产价格波动幅度。 |
+| [^1] | [Bloated Disclosures: Can ChatGPT Help Investors Process Financial Information?.](http://arxiv.org/abs/2306.10224) | 研究发现生成式 AI 工具 ChatGPT 可以更有效地展示股票市场相关信息，提出了信息膨胀指标并证明其与负面的资本市场后果相关，同时展示其在构建针对性总结方面的效果。 |
+| [^2] | [From elephant to goldfish (and back): memory in stochastic Volterra processes.](http://arxiv.org/abs/2306.02708) | 该论文提出了一种利用卷积核将非马尔科夫随机过程转化为马尔科夫扩散过程的方法，并提供了用于波动率建模的金融应用。同时，他们还提出了一种数值计算方案，其强收敛速率为1/2，与波动率过程的粗糙性参数无关，相比类似模型中使用的Euler方案，是一个显着的改进。 |
 
 # 详细
 
-[^1]: 金融网络中的默认弹性和最坏情况效应
+[^1]: 膨胀的披露：ChatGPT是否能帮助投资者处理财务信息？
 
-    Default Resilience and Worst-Case Effects in Financial Networks
+    Bloated Disclosures: Can ChatGPT Help Investors Process Financial Information?. (arXiv:2306.10224v1 [econ.GN])
 
-    [https://arxiv.org/abs/2403.10631](https://arxiv.org/abs/2403.10631)
+    [http://arxiv.org/abs/2306.10224](http://arxiv.org/abs/2306.10224)
 
-    论文分析了金融网络对共同承担的外部资产价格波动的弹性，并评估了违约传染的最坏情况影响，引入了默认弹性余量的概念，并计算了网络能够容忍的最大资产价格波动幅度。
+    研究发现生成式 AI 工具 ChatGPT 可以更有效地展示股票市场相关信息，提出了信息膨胀指标并证明其与负面的资本市场后果相关，同时展示其在构建针对性总结方面的效果。
 
     
 
-    在这篇论文中，我们分析了银行网络对它们共同承担风险的外部资产价格波动的弹性，并评估了可能的违约传染的最坏情况影响。当某些外部资产的价格下降或上升时，所有暴露于这些资产的银行都会同时遭受不同程度的冲击。这些协调和有结构的冲击有可能加剧违约的可能性。在这种情况下，我们首先介绍了一个概念——{默认弹性余量}，即网络在不产生违约的情况下能够容忍的资产价格波动的最大幅度，$\epsilon^*$。这个阈值是通过考虑两种不同的价格波动度量来计算的，一种基于每种资产的最大单个变化，另一种基于所有资产的绝对变化之和。
+    生成式 AI 工具（如 ChatGPT）可以从根本上改变投资者处理信息的方式。我们使用股票市场作为实验室，探究这些工具在总结复杂的公司披露信息时的经济效用。总结摘要明显更短，通常比原始文本缩短超过 70%，而信息内容得到增强。当一份文件具有积极（消极）情感时，其总结变得更积极（消极）。更重要的是，总结对解释股市对披露信息的反应更有效。基于这些发现，我们提出了信息“膨胀”指标。我们显示，膨胀的披露与负面的资本市场后果相关，例如更低的价格有效性和更高的信息不对称性。最后，我们展示了这个模型在构建针对性总结方面的有效性，以确定公司的（非）财务表现和风险。总之，我们的研究结果表明，像 ChatGPT 这样的生成式 AI 工具可以有效地帮助投资者更高效地处理财务信息。
 
-    arXiv:2403.10631v1 Announce Type: new  Abstract: In this paper we analyze the resilience of a network of banks to joint price fluctuations of the external assets in which they have shared exposures, and evaluate the worst-case effects of the possible default contagion. Indeed, when the prices of certain external assets either decrease or increase, all banks exposed to them experience varying degrees of simultaneous shocks to their balance sheets. These coordinated and structured shocks have the potential to exacerbate the likelihood of defaults. In this context, we introduce first a concept of {default resilience margin}, $\epsilon^*$, i.e., the maximum amplitude of asset prices fluctuations that the network can tolerate without generating defaults. Such threshold value is computed by considering two different measures of price fluctuations, one based on the maximum individual variation of each asset, and the other based on the sum of all the asset's absolute variations. For any price 
+    Generative AI tools such as ChatGPT can fundamentally change the way investors process information. We probe the economic usefulness of these tools in summarizing complex corporate disclosures using the stock market as a laboratory. The unconstrained summaries are dramatically shorter, often by more than 70% compared to the originals, whereas their information content is amplified. When a document has a positive (negative) sentiment, its summary becomes more positive (negative). More importantly, the summaries are more effective at explaining stock market reactions to the disclosed information. Motivated by these findings, we propose a measure of information "bloat." We show that bloated disclosure is associated with adverse capital markets consequences, such as lower price efficiency and higher information asymmetry. Finally, we show that the model is effective at constructing targeted summaries that identify firms' (non-)financial performance and risks. Collectively, our results indi
+    
+[^2]: 从大象到金鱼（然后回来）：随机Volterra过程中的记忆
+
+    From elephant to goldfish (and back): memory in stochastic Volterra processes. (arXiv:2306.02708v1 [q-fin.MF])
+
+    [http://arxiv.org/abs/2306.02708](http://arxiv.org/abs/2306.02708)
+
+    该论文提出了一种利用卷积核将非马尔科夫随机过程转化为马尔科夫扩散过程的方法，并提供了用于波动率建模的金融应用。同时，他们还提出了一种数值计算方案，其强收敛速率为1/2，与波动率过程的粗糙性参数无关，相比类似模型中使用的Euler方案，是一个显着的改进。
+
+    
+
+    我们提出了一个新的理论框架，利用卷积核将Volterra路径依赖（非马尔可夫）随机过程转化为标准（马尔可夫）扩散过程，将马尔可夫“内存过程”嵌入到非马尔可夫过程的动力学中以达到这一转化。我们讨论了引入的随机Volterra方程的解的存在性和路径正则性，并提供了一个用于波动率建模的金融应用。我们还提出了一个模拟这些过程的数值计算方案。该数值计算方案呈现出1/2的强收敛速率，与波动率过程的粗糙性参数无关，这与类似模型中使用的Euler方案相比是一个显着的改进。
+
+    We propose a new theoretical framework that exploits convolution kernels to transform a Volterra path-dependent (non-Markovian) stochastic process into a standard (Markovian) diffusion process. This transformation is achieved by embedding a Markovian "memory process" within the dynamics of the non-Markovian process. We discuss existence and path-wise regularity of solutions for the stochastic Volterra equations introduced and we provide a financial application to volatility modeling. We also propose a numerical scheme for simulating the processes. The numerical scheme exhibits a strong convergence rate of 1/2, which is independent of the roughness parameter of the volatility process. This is a significant improvement compared to Euler schemes used in similar models.
     
 

@@ -2,97 +2,112 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [AVicuna: Audio-Visual LLM with Interleaver and Context-Boundary Alignment for Temporal Referential Dialogue](https://arxiv.org/abs/2403.16276) | 介绍了一个新的框架AVicuna，生成了PU-VALOR数据集，解决了音频-视觉时间指代对话中的两个主要挑战：缺乏准确时间注释的数据集和整合复杂时间线索的方法。 |
-| [^2] | [Do Large Language Model Understand Multi-Intent Spoken Language ?](https://arxiv.org/abs/2403.04481) | 该研究利用大型语言模型进行口语语言多目标理解，提出了改进实体槽和子目标指令的创新技术，并展示了LLMs在多目标SLU模型方面的潜力。 |
-| [^3] | [Latent Dataset Distillation with Diffusion Models](https://arxiv.org/abs/2403.03881) | 这项研究提出了使用扩散模型进行潜在数据集蒸馏（LD3M），结合潜在空间中的扩散和数据集蒸馏的方法，以解决不同模型架构导致准确性下降和生成高分辨率图像的挑战。 |
-| [^4] | [Is my Data in your AI Model? Membership Inference Test with Application to Face Images](https://arxiv.org/abs/2402.09225) | This paper introduces a novel approach called Membership Inference Test (MINT) to empirically assess if specific data was used during the training of AI models. Two MINT architectures based on MLP and CNN are proposed and evaluated on a challenging face recognition task, achieving promising results with up to 90% accuracy. |
-| [^5] | [Inferring Capabilities from Task Performance with Bayesian Triangulation.](http://arxiv.org/abs/2309.11975) | 本研究提出了一种使用贝叶斯三角测量方法从任务表现中推断系统能力的方法，并利用该方法推断了不同认知特征的代理。这种能力导向的评估方法对于机器学习模型的表征具有潜在的应用价值。 |
-| [^6] | [Attacking the Spike: On the Transferability and Security of Spiking Neural Networks to Adversarial Examples.](http://arxiv.org/abs/2209.03358) | 这项研究主要关注于脉冲神经网络(SNNs)对抗性样本的鲁棒性和转移性。研究发现，成功的白盒对抗攻击SNNs在很大程度上依赖于替代梯度技术，并且非SNN架构创建的对抗样本往往不被SNNs误分类。 |
+| [^1] | [Depression Detection on Social Media with Large Language Models](https://arxiv.org/abs/2403.10750) | 提出了名为DORIS的新型抑郁症检测系统，将医学知识和大语言模型的最新进展相结合，通过分析个人在社交媒体上的帖子历史记录来确定抑郁症患者，以提高早期检测和干预。 |
+| [^2] | [Thousands of AI Authors on the Future of AI.](http://arxiv.org/abs/2401.02843) | 数千位AI作者对未来AI的预测显示，到2028年，AI系统有50%的几率实现多个里程碑，包括自主构建全新的付款处理网站、创作一首与知名音乐家的新歌难以区分的歌曲，并自主下载和调整大型语言模型。同时，无需辅助的机器在各种任务上胜过人类的几率估计为10%到2047年为50%。 |
+| [^3] | [Ultra-Efficient On-Device Object Detection on AI-Integrated Smart Glasses with TinyissimoYOLO.](http://arxiv.org/abs/2311.01057) | 本文介绍了在智能眼镜上实现超高效设备内目标检测的设计和实施，利用新型低功耗处理器实现小型机器学习算法，以便在具有小尺寸和有限电池容量的智能眼镜上实现长时间连续运行。 |
+| [^4] | [Contrastive Difference Predictive Coding.](http://arxiv.org/abs/2310.20141) | 本文介绍了一种时间差异版本的对比预测编码，通过将不同时间序列数据的片段组合在一起，来减少学习预测未来事件所需的数据量。实验证明，与先前的方法相比，我们的方法在成功率上提高了2倍，并且对于随机环境有更好的适应能力。 |
+| [^5] | [LogicMP: A Neuro-symbolic Approach for Encoding First-order Logic Constraints.](http://arxiv.org/abs/2309.15458) | 本文提出了一种名为LogicMP的新颖神经层，该层通过均场变分推断将一阶逻辑约束编码进神经网络中。通过有效缓解一阶逻辑模型的推断困难，LogicMP在图形、图像和文本任务中表现出比竞争对手更好的性能和效率。 |
+| [^6] | [Bloated Disclosures: Can ChatGPT Help Investors Process Financial Information?.](http://arxiv.org/abs/2306.10224) | 研究发现生成式 AI 工具 ChatGPT 可以更有效地展示股票市场相关信息，提出了信息膨胀指标并证明其与负面的资本市场后果相关，同时展示其在构建针对性总结方面的效果。 |
+| [^7] | [Towards Automated Urban Planning: When Generative and ChatGPT-like AI Meets Urban Planning.](http://arxiv.org/abs/2304.03892) | 本文探讨了城市规划与人工智能的交叉应用，重点是自动化用地配置，通过对抗学习、生成神经网络、深度编码器-解码器网络、对话式 AI 和地理空间和时间机器学习等技术，AI 可以为现代城市规划带来不少创新与贡献。 |
 
 # 详细
 
-[^1]: AVicuna：具有交错器和上下文边界对齐的音频-视觉LLM用于时间指代对话
+[^1]: 社交媒体上利用大语言模型进行抑郁症检测
 
-    AVicuna: Audio-Visual LLM with Interleaver and Context-Boundary Alignment for Temporal Referential Dialogue
+    Depression Detection on Social Media with Large Language Models
 
-    [https://arxiv.org/abs/2403.16276](https://arxiv.org/abs/2403.16276)
+    [https://arxiv.org/abs/2403.10750](https://arxiv.org/abs/2403.10750)
 
-    介绍了一个新的框架AVicuna，生成了PU-VALOR数据集，解决了音频-视觉时间指代对话中的两个主要挑战：缺乏准确时间注释的数据集和整合复杂时间线索的方法。
-
-    
-
-    在日常交流中，人类经常使用语音和手势来指代特定区域或对象，这个过程称为指代对话（RD）。尽管先前的研究已经通过大型语言模型（LLMs）或大型多模型模型（LMMs）在静态环境中调查了RD，但在音频-视觉媒体中探索时间指代对话（TRD）仍然有限。两个主要挑战阻碍了这一领域的进展：（1）缺乏具有精确时间注释的全面未修剪音频-视觉视频数据集，以及（2）需要有效整合复杂的时间听觉和视觉线索的方法。为了解决这些挑战，我们引入了一个新的框架，生成PU-VALOR，这是一个包含超过114,000个未修剪视频的广泛音频-视觉数据集，并介绍了AVicuna，具有音频-视觉令牌交错器（AVTI），确保了时间对齐。
-
-    arXiv:2403.16276v1 Announce Type: cross  Abstract: In everyday communication, humans frequently use speech and gestures to refer to specific areas or objects, a process known as Referential Dialogue (RD). While prior studies have investigated RD through Large Language Models (LLMs) or Large Multimodal Models (LMMs) in static contexts, the exploration of Temporal Referential Dialogue (TRD) within audio-visual media remains limited. Two primary challenges hinder progress in this field: (1) the absence of comprehensive, untrimmed audio-visual video datasets with precise temporal annotations, and (2) the need for methods to integrate complex temporal auditory and visual cues effectively. To address these challenges, we introduce a novel framework to generate PU-VALOR, an extensive audio-visual dataset comprising over 114,000 untrimmed videos with accurate temporal demarcations. We also present AVicuna, featuring an Audio-Visual Tokens Interleaver (AVTI) that ensures the temporal alignment 
-    
-[^2]: 大型语言模型能理解多目标口语语言吗？
-
-    Do Large Language Model Understand Multi-Intent Spoken Language ?
-
-    [https://arxiv.org/abs/2403.04481](https://arxiv.org/abs/2403.04481)
-
-    该研究利用大型语言模型进行口语语言多目标理解，提出了改进实体槽和子目标指令的创新技术，并展示了LLMs在多目标SLU模型方面的潜力。
+    提出了名为DORIS的新型抑郁症检测系统，将医学知识和大语言模型的最新进展相结合，通过分析个人在社交媒体上的帖子历史记录来确定抑郁症患者，以提高早期检测和干预。
 
     
 
-    这项研究通过利用大型语言模型（LLMs）进行多目标口语语言理解（SLU）取得了重大进展，提出了一种在SLU环境中利用LLMs生成能力的独特方法。我们的创新技术重新配置了实体槽，专门用于LLMs在多目标SLU环境中的应用，并引入了子目标指令（SII）的概念，增强了对不同领域内复杂多目标交流的解剖和解释。由此产生的数据集，被称为LM-MixATIS和LM-MixSNIPS，是从现有基准中精心制作的。我们的研究表明，LLMs可以匹配并潜在地超越当前最先进的多目标SLU模型的能力。它进一步探讨了LLMs在各种意图配置和数据集比例下的有效性。此外，我们介绍了两个开创性的度量标准，即实体槽准确性（ESA）和Com
+    抑郁症造成危害。然而，由于缺乏心理健康意识和对病症耻辱感的恐惧，许多患者并未积极寻求诊断和治疗，导致不利后果。抑郁症检测旨在通过分析社交媒体上个人帖子的历史记录来确定个体是否患有抑郁症，这可显著有助于早期检测和干预。它主要面临两个关键挑战：1）需要专业医学知识，2）需要高准确性和可解释性。为了解决这一问题，我们提出了一个名为DORIS的新型抑郁症检测系统，结合了医学知识和大语言模型的最新进展。具体来说，为了解决第一个挑战，我们提出了一种基于大语言模型的解决方案，首先对高危文本进行标注以确定是否符合医学诊断标准。
 
-    arXiv:2403.04481v1 Announce Type: cross  Abstract: This study marks a significant advancement by harnessing Large Language Models (LLMs) for multi-intent spoken language understanding (SLU), proposing a unique methodology that capitalizes on the generative power of LLMs within an SLU context. Our innovative technique reconfigures entity slots specifically for LLM application in multi-intent SLU environments and introduces the concept of Sub-Intent Instruction (SII), enhancing the dissection and interpretation of intricate, multi-intent communication within varied domains. The resultant datasets, dubbed LM-MixATIS and LM-MixSNIPS, are crafted from pre-existing benchmarks. Our research illustrates that LLMs can match and potentially excel beyond the capabilities of current state-of-the-art multi-intent SLU models. It further explores LLM efficacy across various intent configurations and dataset proportions. Moreover, we introduce two pioneering metrics, Entity Slot Accuracy (ESA) and Com
+    arXiv:2403.10750v1 Announce Type: cross  Abstract: Depression harms. However, due to a lack of mental health awareness and fear of stigma, many patients do not actively seek diagnosis and treatment, leading to detrimental outcomes. Depression detection aims to determine whether an individual suffers from depression by analyzing their history of posts on social media, which can significantly aid in early detection and intervention. It mainly faces two key challenges: 1) it requires professional medical knowledge, and 2) it necessitates both high accuracy and explainability. To address it, we propose a novel depression detection system called DORIS, combining medical knowledge and the recent advances in large language models (LLMs). Specifically, to tackle the first challenge, we proposed an LLM-based solution to first annotate whether high-risk texts meet medical diagnostic criteria. Further, we retrieve texts with high emotional intensity and summarize critical information from the his
     
-[^3]: 使用扩散模型进行潜在数据集蒸馏
+[^2]: 数千位AI作者对未来AI的预测
 
-    Latent Dataset Distillation with Diffusion Models
+    Thousands of AI Authors on the Future of AI. (arXiv:2401.02843v1 [cs.CY])
 
-    [https://arxiv.org/abs/2403.03881](https://arxiv.org/abs/2403.03881)
+    [http://arxiv.org/abs/2401.02843](http://arxiv.org/abs/2401.02843)
 
-    这项研究提出了使用扩散模型进行潜在数据集蒸馏（LD3M），结合潜在空间中的扩散和数据集蒸馏的方法，以解决不同模型架构导致准确性下降和生成高分辨率图像的挑战。
-
-    
-
-    机器学习的有效性传统上依赖于越来越大的数据集的可用性。然而，大型数据集带来存储挑战，并且包含一些非影响力样本，在训练过程中可以被忽略而不影响模型最终的准确性。为了应对这些限制，出现了将数据集信息蒸馏成一组压缩样本（合成样本），即蒸馏数据集的概念。其中一个关键方面是选择用于连接原始和合成数据集的架构（通常是ConvNet）。然而，如果所使用的模型架构与蒸馏过程中使用的模型不同，则最终准确性会降低。另一个挑战是生成高分辨率图像，例如128x128及更高。
-
-    arXiv:2403.03881v1 Announce Type: cross  Abstract: The efficacy of machine learning has traditionally relied on the availability of increasingly larger datasets. However, large datasets pose storage challenges and contain non-influential samples, which could be ignored during training without impacting the final accuracy of the model. In response to these limitations, the concept of distilling the information on a dataset into a condensed set of (synthetic) samples, namely a distilled dataset, emerged. One crucial aspect is the selected architecture (usually ConvNet) for linking the original and synthetic datasets. However, the final accuracy is lower if the employed model architecture differs from the model used during distillation. Another challenge is the generation of high-resolution images, e.g., 128x128 and higher. In this paper, we propose Latent Dataset Distillation with Diffusion Models (LD3M) that combine diffusion in latent space with dataset distillation to tackle both chal
-    
-[^4]: 我的数据在你的AI模型中吗？通过应用于人脸图像的成员推断测试
-
-    Is my Data in your AI Model? Membership Inference Test with Application to Face Images
-
-    [https://arxiv.org/abs/2402.09225](https://arxiv.org/abs/2402.09225)
-
-    This paper introduces a novel approach called Membership Inference Test (MINT) to empirically assess if specific data was used during the training of AI models. Two MINT architectures based on MLP and CNN are proposed and evaluated on a challenging face recognition task, achieving promising results with up to 90% accuracy.
+    数千位AI作者对未来AI的预测显示，到2028年，AI系统有50%的几率实现多个里程碑，包括自主构建全新的付款处理网站、创作一首与知名音乐家的新歌难以区分的歌曲，并自主下载和调整大型语言模型。同时，无需辅助的机器在各种任务上胜过人类的几率估计为10%到2047年为50%。
 
     
 
-    这篇论文介绍了成员推断测试（MINT），一种用于经验性评估特定数据是否被用于训练人工智能（AI）模型的新方法。具体而言，我们提出了两种新颖的MINT架构，旨在学习在经过审计的模型暴露于其训练过程中使用的数据时出现的不同激活模式。第一个架构基于多层感知机（MLP）网络，第二个基于卷积神经网络（CNN）。所提出的MINT架构在具有挑战性的人脸识别任务上进行评估，考虑了三种最先进的人脸识别模型。使用六个公开可用的数据库进行实验，总共包含超过2200万张人脸图像。根据可用的AI模型测试的上下文，考虑了不同的实验场景。有希望的结果达到了90%的准确率。
+    在迄今为止最大规模的调查中，2778名在顶级人工智能（AI）会议上发表过论文的研究人员对AI进展的速度、高级AI系统的性质和影响进行了预测。总体预测显示，到2028年，AI系统至少有50%的几率实现多个里程碑，包括自主构建一个全新的付款处理网站、创作一首可以与知名音乐家的新歌难以区分的歌曲，并自主下载和调整大型语言模型。如果科学持续不受干扰，2027年无需辅助的机器在各种任务上胜过人类的几率估计为10%，到2047年为50%。后者的估计比我们一年前进行的类似调查[Grace et al., 2022]提前了13年。然而，所有人类职业完全可自动化的几率预计要到2037年达到10%，到2116年才达到50%（与2022年调查中的2164年相比）。
 
-    arXiv:2402.09225v1 Announce Type: cross Abstract: This paper introduces the Membership Inference Test (MINT), a novel approach that aims to empirically assess if specific data was used during the training of Artificial Intelligence (AI) models. Specifically, we propose two novel MINT architectures designed to learn the distinct activation patterns that emerge when an audited model is exposed to data used during its training process. The first architecture is based on a Multilayer Perceptron (MLP) network and the second one is based on Convolutional Neural Networks (CNNs). The proposed MINT architectures are evaluated on a challenging face recognition task, considering three state-of-the-art face recognition models. Experiments are carried out using six publicly available databases, comprising over 22 million face images in total. Also, different experimental scenarios are considered depending on the context available of the AI model to test. Promising results, up to 90% accuracy, are a
+    In the largest survey of its kind, 2,778 researchers who had published in top-tier artificial intelligence (AI) venues gave predictions on the pace of AI progress and the nature and impacts of advanced AI systems The aggregate forecasts give at least a 50% chance of AI systems achieving several milestones by 2028, including autonomously constructing a payment processing site from scratch, creating a song indistinguishable from a new song by a popular musician, and autonomously downloading and fine-tuning a large language model. If science continues undisrupted, the chance of unaided machines outperforming humans in every possible task was estimated at 10% by 2027, and 50% by 2047. The latter estimate is 13 years earlier than that reached in a similar survey we conducted only one year earlier [Grace et al., 2022]. However, the chance of all human occupations becoming fully automatable was forecast to reach 10% by 2037, and 50% as late as 2116 (compared to 2164 in the 2022 survey).  Most
     
-[^5]: 从任务表现中推断能力的贝叶斯三角测量方法
+[^3]: 带有TinyissimoYOLO的AI集成智能眼镜上的超高效设备内目标检测
 
-    Inferring Capabilities from Task Performance with Bayesian Triangulation. (arXiv:2309.11975v1 [cs.AI])
+    Ultra-Efficient On-Device Object Detection on AI-Integrated Smart Glasses with TinyissimoYOLO. (arXiv:2311.01057v1 [cs.CV])
 
-    [http://arxiv.org/abs/2309.11975](http://arxiv.org/abs/2309.11975)
+    [http://arxiv.org/abs/2311.01057](http://arxiv.org/abs/2311.01057)
 
-    本研究提出了一种使用贝叶斯三角测量方法从任务表现中推断系统能力的方法，并利用该方法推断了不同认知特征的代理。这种能力导向的评估方法对于机器学习模型的表征具有潜在的应用价值。
-
-    
-
-    随着机器学习模型变得更加通用，我们需要以更丰富、更有意义的方式对其进行表征。我们描述了一种从多样化实验数据中推断系统的认知特征的方法。为此，我们引入了测量布局，模拟了任务实例特征如何与系统能力相互作用以影响性能。这些特征必须以复杂的方式进行三角测量，以便从非群体数据中推断能力，这对于传统的心理测量和推理工具是一个挑战。利用贝叶斯概率编程库PyMC，我们推断了两种情景中代理的不同认知特征：动物智能奥林匹克竞赛中的68名实际参赛选手和O-PIAAGETS的30个合成代理，其中O-PIAAGETS是一个物体恒常性测验。我们展示了以能力为导向的评估的潜力。
-
-    As machine learning models become more general, we need to characterise them in richer, more meaningful ways. We describe a method to infer the cognitive profile of a system from diverse experimental data. To do so, we introduce measurement layouts that model how task-instance features interact with system capabilities to affect performance. These features must be triangulated in complex ways to be able to infer capabilities from non-populational data -- a challenge for traditional psychometric and inferential tools. Using the Bayesian probabilistic programming library PyMC, we infer different cognitive profiles for agents in two scenarios: 68 actual contestants in the AnimalAI Olympics and 30 synthetic agents for O-PIAAGETS, an object permanence battery. We showcase the potential for capability-oriented evaluation.
-    
-[^6]: 攻击脉冲：关于脉冲神经网络对抗性样本的可转移性与安全性的研究
-
-    Attacking the Spike: On the Transferability and Security of Spiking Neural Networks to Adversarial Examples. (arXiv:2209.03358v3 [cs.NE] UPDATED)
-
-    [http://arxiv.org/abs/2209.03358](http://arxiv.org/abs/2209.03358)
-
-    这项研究主要关注于脉冲神经网络(SNNs)对抗性样本的鲁棒性和转移性。研究发现，成功的白盒对抗攻击SNNs在很大程度上依赖于替代梯度技术，并且非SNN架构创建的对抗样本往往不被SNNs误分类。
+    本文介绍了在智能眼镜上实现超高效设备内目标检测的设计和实施，利用新型低功耗处理器实现小型机器学习算法，以便在具有小尺寸和有限电池容量的智能眼镜上实现长时间连续运行。
 
     
 
-    脉冲神经网络(SNNs)因其高能效和最近在分类性能上的进展而受到广泛关注。然而，与传统的深度学习方法不同，对SNNs对抗性样本的鲁棒性的分析和研究仍然相对不完善。在这项工作中，我们关注于推进SNNs的对抗攻击方面，并做出了三个主要贡献。首先，我们展示了成功的白盒对抗攻击SNNs在很大程度上依赖于底层的替代梯度技术，即使在对抗性训练SNNs的情况下也一样。其次，利用最佳的替代梯度技术，我们分析了对抗攻击在SNNs和其他最先进的架构如Vision Transformers(ViTs)和Big Transfer Convolutional Neural Networks(CNNs)之间的可转移性。我们证明了非SNN架构创建的对抗样本往往不被SNNs误分类。第三，由于缺乏一个共性
+    智能眼镜借助尖端计算技术、加速硬件架构和小型AI算法，正迅速获得先进功能。在面向全天使用以实现满意用户体验时，将AI集成到具有小尺寸和有限电池容量的智能眼镜仍然具有挑战性。本文阐述了利用新型低功耗处理器实现小型机器学习算法设计和实现，以在智能眼镜中实现长时间连续运行。我们探索了智能眼镜在实时目标检测情况下的能量和时延效率。为此，我们设计了一个智能眼镜原型作为研究平台，其中包括两个微控制器，包括一个具有视觉AI硬件加速器的新型毫瓦级功率RISC-V并行处理器，以及一个用于通信的低功耗蓝牙模块。智能眼镜集成了图像和音频感应接口等电源循环机制。
 
-    Spiking neural networks (SNNs) have attracted much attention for their high energy efficiency and for recent advances in their classification performance. However, unlike traditional deep learning approaches, the analysis and study of the robustness of SNNs to adversarial examples remain relatively underdeveloped. In this work, we focus on advancing the adversarial attack side of SNNs and make three major contributions. First, we show that successful white-box adversarial attacks on SNNs are highly dependent on the underlying surrogate gradient technique, even in the case of adversarially trained SNNs. Second, using the best surrogate gradient technique, we analyze the transferability of adversarial attacks on SNNs and other state-of-the-art architectures like Vision Transformers (ViTs) and Big Transfer Convolutional Neural Networks (CNNs). We demonstrate that the adversarial examples created by non-SNN architectures are not misclassified often by SNNs. Third, due to the lack of an ubi
+    Smart glasses are rapidly gaining advanced functionality thanks to cutting-edge computing technologies, accelerated hardware architectures, and tiny AI algorithms. Integrating AI into smart glasses featuring a small form factor and limited battery capacity is still challenging when targeting full-day usage for a satisfactory user experience. This paper illustrates the design and implementation of tiny machine-learning algorithms exploiting novel low-power processors to enable prolonged continuous operation in smart glasses. We explore the energy- and latency-efficient of smart glasses in the case of real-time object detection. To this goal, we designed a smart glasses prototype as a research platform featuring two microcontrollers, including a novel milliwatt-power RISC-V parallel processor with a hardware accelerator for visual AI, and a Bluetooth low-power module for communication. The smart glasses integrate power cycling mechanisms, including image and audio sensing interfaces. Fur
+    
+[^4]: 对比差异性预测编码
+
+    Contrastive Difference Predictive Coding. (arXiv:2310.20141v1 [cs.LG])
+
+    [http://arxiv.org/abs/2310.20141](http://arxiv.org/abs/2310.20141)
+
+    本文介绍了一种时间差异版本的对比预测编码，通过将不同时间序列数据的片段组合在一起，来减少学习预测未来事件所需的数据量。实验证明，与先前的方法相比，我们的方法在成功率上提高了2倍，并且对于随机环境有更好的适应能力。
+
+    
+
+    预测和推理未来是许多时间序列问题的核心。例如，目标导向的强化学习可以被看作是学习表示以预测未来可能访问的状态。虽然先前的方法已经使用对比性预测编码来建模时间序列数据，但学习编码长期依赖通常需要大量的数据。在本文中，我们引入了一种时间差异版本的对比预测编码，将不同时间序列数据的片段组合在一起，以减少学习未来事件预测所需的数据量。我们将这种表示学习方法应用于导出目标导向的强化学习的离策略算法。实验证明，与先前的强化学习方法相比，我们的方法在成功率上实现了中位数提高2倍，并且可以更好地应对随机环境。在表格设置中，我们展示了我们的方法约为20倍。
+
+    Predicting and reasoning about the future lie at the heart of many time-series questions. For example, goal-conditioned reinforcement learning can be viewed as learning representations to predict which states are likely to be visited in the future. While prior methods have used contrastive predictive coding to model time series data, learning representations that encode long-term dependencies usually requires large amounts of data. In this paper, we introduce a temporal difference version of contrastive predictive coding that stitches together pieces of different time series data to decrease the amount of data required to learn predictions of future events. We apply this representation learning method to derive an off-policy algorithm for goal-conditioned RL. Experiments demonstrate that, compared with prior RL methods, ours achieves $2 \times$ median improvement in success rates and can better cope with stochastic environments. In tabular settings, we show that our method is about $20
+    
+[^5]: LogicMP: 一种将一阶逻辑约束编码的神经符号方法
+
+    LogicMP: A Neuro-symbolic Approach for Encoding First-order Logic Constraints. (arXiv:2309.15458v1 [cs.AI])
+
+    [http://arxiv.org/abs/2309.15458](http://arxiv.org/abs/2309.15458)
+
+    本文提出了一种名为LogicMP的新颖神经层，该层通过均场变分推断将一阶逻辑约束编码进神经网络中。通过有效缓解一阶逻辑模型的推断困难，LogicMP在图形、图像和文本任务中表现出比竞争对手更好的性能和效率。
+
+    
+
+    将一阶逻辑约束与神经网络集成是一个关键但具有挑战性的问题，因为它涉及建模复杂的相关性以满足约束。本文提出了一种新颖的神经层LogicMP，其层对MLN进行均场变分推断。它可以插入任何现成的神经网络以编码一阶逻辑约束，同时保持模块化和效率。通过利用MLN中的结构和对称性，我们从理论上证明了我们设计良好、高效的均场迭代能够有效缓解MLN推断的困难，将推断从顺序计算降低为一系列并行的张量操作。在图形、图像和文本的三类任务上的实证结果表明，LogicMP在性能和效率上都优于先进的竞争对手。
+
+    Integrating first-order logic constraints (FOLCs) with neural networks is a crucial but challenging problem since it involves modeling intricate correlations to satisfy the constraints. This paper proposes a novel neural layer, LogicMP, whose layers perform mean-field variational inference over an MLN. It can be plugged into any off-the-shelf neural network to encode FOLCs while retaining modularity and efficiency. By exploiting the structure and symmetries in MLNs, we theoretically demonstrate that our well-designed, efficient mean-field iterations effectively mitigate the difficulty of MLN inference, reducing the inference from sequential calculation to a series of parallel tensor operations. Empirical results in three kinds of tasks over graphs, images, and text show that LogicMP outperforms advanced competitors in both performance and efficiency.
+    
+[^6]: 膨胀的披露：ChatGPT是否能帮助投资者处理财务信息？
+
+    Bloated Disclosures: Can ChatGPT Help Investors Process Financial Information?. (arXiv:2306.10224v1 [econ.GN])
+
+    [http://arxiv.org/abs/2306.10224](http://arxiv.org/abs/2306.10224)
+
+    研究发现生成式 AI 工具 ChatGPT 可以更有效地展示股票市场相关信息，提出了信息膨胀指标并证明其与负面的资本市场后果相关，同时展示其在构建针对性总结方面的效果。
+
+    
+
+    生成式 AI 工具（如 ChatGPT）可以从根本上改变投资者处理信息的方式。我们使用股票市场作为实验室，探究这些工具在总结复杂的公司披露信息时的经济效用。总结摘要明显更短，通常比原始文本缩短超过 70%，而信息内容得到增强。当一份文件具有积极（消极）情感时，其总结变得更积极（消极）。更重要的是，总结对解释股市对披露信息的反应更有效。基于这些发现，我们提出了信息“膨胀”指标。我们显示，膨胀的披露与负面的资本市场后果相关，例如更低的价格有效性和更高的信息不对称性。最后，我们展示了这个模型在构建针对性总结方面的有效性，以确定公司的（非）财务表现和风险。总之，我们的研究结果表明，像 ChatGPT 这样的生成式 AI 工具可以有效地帮助投资者更高效地处理财务信息。
+
+    Generative AI tools such as ChatGPT can fundamentally change the way investors process information. We probe the economic usefulness of these tools in summarizing complex corporate disclosures using the stock market as a laboratory. The unconstrained summaries are dramatically shorter, often by more than 70% compared to the originals, whereas their information content is amplified. When a document has a positive (negative) sentiment, its summary becomes more positive (negative). More importantly, the summaries are more effective at explaining stock market reactions to the disclosed information. Motivated by these findings, we propose a measure of information "bloat." We show that bloated disclosure is associated with adverse capital markets consequences, such as lower price efficiency and higher information asymmetry. Finally, we show that the model is effective at constructing targeted summaries that identify firms' (non-)financial performance and risks. Collectively, our results indi
+    
+[^7]: 自动化城市规划：生成式和聊天式 AI 相结合的城市规划探索
+
+    Towards Automated Urban Planning: When Generative and ChatGPT-like AI Meets Urban Planning. (arXiv:2304.03892v1 [cs.AI])
+
+    [http://arxiv.org/abs/2304.03892](http://arxiv.org/abs/2304.03892)
+
+    本文探讨了城市规划与人工智能的交叉应用，重点是自动化用地配置，通过对抗学习、生成神经网络、深度编码器-解码器网络、对话式 AI 和地理空间和时间机器学习等技术，AI 可以为现代城市规划带来不少创新与贡献。
+
+    
+
+    城市规划领域和人工智能领域曾经是独立发展的，但现在两个领域开始交叉汇合，互相借鉴和受益。本文介绍了城市规划从可持续性、生活、经济、灾害和环境等方面的重要性，回顾了城市规划的基本概念，并将这些概念与机器学习的关键开放问题联系起来，包括对抗学习、生成神经网络、深度编码器-解码器网络、对话式 AI 以及地理空间和时间机器学习等，评估了 AI 如何为现代城市规划做出贡献。因此，一个核心问题是自动化用地配置，即从周围的地理空间、人类移动、社交媒体、环境和经济活动中为目标区域生成土地用途和建筑配置。最后，本文勾画了集成 AI 和城市规划面临的一些挑战和潜在解决方案。
+
+    The two fields of urban planning and artificial intelligence (AI) arose and developed separately. However, there is now cross-pollination and increasing interest in both fields to benefit from the advances of the other. In the present paper, we introduce the importance of urban planning from the sustainability, living, economic, disaster, and environmental perspectives. We review the fundamental concepts of urban planning and relate these concepts to crucial open problems of machine learning, including adversarial learning, generative neural networks, deep encoder-decoder networks, conversational AI, and geospatial and temporal machine learning, thereby assaying how AI can contribute to modern urban planning. Thus, a central problem is automated land-use configuration, which is formulated as the generation of land uses and building configuration for a target area from surrounding geospatial, human mobility, social media, environment, and economic activities. Finally, we delineate some 
     
 

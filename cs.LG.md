@@ -2,67 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Latent Dataset Distillation with Diffusion Models](https://arxiv.org/abs/2403.03881) | 这项研究提出了使用扩散模型进行潜在数据集蒸馏（LD3M），结合潜在空间中的扩散和数据集蒸馏的方法，以解决不同模型架构导致准确性下降和生成高分辨率图像的挑战。 |
-| [^2] | [Train-Free Segmentation in MRI with Cubical Persistent Homology.](http://arxiv.org/abs/2401.01160) | 这是一种使用拓扑数据分析进行MRI图像分割的新方法，相比传统机器学习方法具有优势，无需大量注释数据集，提供更可解释和稳定的分割框架。 |
-| [^3] | [Differential Privacy for Adaptive Weight Aggregation in Federated Tumor Segmentation.](http://arxiv.org/abs/2308.00856) | 本研究提出了一种针对联邦肿瘤分割中自适应权重聚合的差分隐私算法，通过扩展相似性权重聚合方法（SimAgg），提高了模型分割能力，并在保护隐私方面做出了额外改进。 |
-| [^4] | [Attacking the Spike: On the Transferability and Security of Spiking Neural Networks to Adversarial Examples.](http://arxiv.org/abs/2209.03358) | 这项研究主要关注于脉冲神经网络(SNNs)对抗性样本的鲁棒性和转移性。研究发现，成功的白盒对抗攻击SNNs在很大程度上依赖于替代梯度技术，并且非SNN架构创建的对抗样本往往不被SNNs误分类。 |
+| [^1] | [Thousands of AI Authors on the Future of AI.](http://arxiv.org/abs/2401.02843) | 数千位AI作者对未来AI的预测显示，到2028年，AI系统有50%的几率实现多个里程碑，包括自主构建全新的付款处理网站、创作一首与知名音乐家的新歌难以区分的歌曲，并自主下载和调整大型语言模型。同时，无需辅助的机器在各种任务上胜过人类的几率估计为10%到2047年为50%。 |
+| [^2] | [Contrastive Difference Predictive Coding.](http://arxiv.org/abs/2310.20141) | 本文介绍了一种时间差异版本的对比预测编码，通过将不同时间序列数据的片段组合在一起，来减少学习预测未来事件所需的数据量。实验证明，与先前的方法相比，我们的方法在成功率上提高了2倍，并且对于随机环境有更好的适应能力。 |
+| [^3] | [Graph-SCP: Accelerating Set Cover Problems with Graph Neural Networks.](http://arxiv.org/abs/2310.07979) | 图形-SCP是一种使用图神经网络加速集合覆盖问题的方法，通过学习识别包含解空间的较小子问题来提高优化求解器的性能，实验结果表明，图形-SCP能够将问题大小减少30-70%，和商业求解器相比加速高达25倍，并且能够在给定的最优性阈值下改进或实现100%的最优性。 |
+| [^4] | [Towards Automated Urban Planning: When Generative and ChatGPT-like AI Meets Urban Planning.](http://arxiv.org/abs/2304.03892) | 本文探讨了城市规划与人工智能的交叉应用，重点是自动化用地配置，通过对抗学习、生成神经网络、深度编码器-解码器网络、对话式 AI 和地理空间和时间机器学习等技术，AI 可以为现代城市规划带来不少创新与贡献。 |
+| [^5] | [Stochastic Interpolants: A Unifying Framework for Flows and Diffusions.](http://arxiv.org/abs/2303.08797) | 本文提出了一种统一的生成模型，该模型基于随机插值框架，可以实现流和扩散方法的统一。作者构建了一类广泛的连续时间随机过程，用于将两个任意的密度在有限时间内精确地连接。这种方法可以用于基于概率微分方程的确定性和随机生成模型的构建。 |
 
 # 详细
 
-[^1]: 使用扩散模型进行潜在数据集蒸馏
+[^1]: 数千位AI作者对未来AI的预测
 
-    Latent Dataset Distillation with Diffusion Models
+    Thousands of AI Authors on the Future of AI. (arXiv:2401.02843v1 [cs.CY])
 
-    [https://arxiv.org/abs/2403.03881](https://arxiv.org/abs/2403.03881)
+    [http://arxiv.org/abs/2401.02843](http://arxiv.org/abs/2401.02843)
 
-    这项研究提出了使用扩散模型进行潜在数据集蒸馏（LD3M），结合潜在空间中的扩散和数据集蒸馏的方法，以解决不同模型架构导致准确性下降和生成高分辨率图像的挑战。
-
-    
-
-    机器学习的有效性传统上依赖于越来越大的数据集的可用性。然而，大型数据集带来存储挑战，并且包含一些非影响力样本，在训练过程中可以被忽略而不影响模型最终的准确性。为了应对这些限制，出现了将数据集信息蒸馏成一组压缩样本（合成样本），即蒸馏数据集的概念。其中一个关键方面是选择用于连接原始和合成数据集的架构（通常是ConvNet）。然而，如果所使用的模型架构与蒸馏过程中使用的模型不同，则最终准确性会降低。另一个挑战是生成高分辨率图像，例如128x128及更高。
-
-    arXiv:2403.03881v1 Announce Type: cross  Abstract: The efficacy of machine learning has traditionally relied on the availability of increasingly larger datasets. However, large datasets pose storage challenges and contain non-influential samples, which could be ignored during training without impacting the final accuracy of the model. In response to these limitations, the concept of distilling the information on a dataset into a condensed set of (synthetic) samples, namely a distilled dataset, emerged. One crucial aspect is the selected architecture (usually ConvNet) for linking the original and synthetic datasets. However, the final accuracy is lower if the employed model architecture differs from the model used during distillation. Another challenge is the generation of high-resolution images, e.g., 128x128 and higher. In this paper, we propose Latent Dataset Distillation with Diffusion Models (LD3M) that combine diffusion in latent space with dataset distillation to tackle both chal
-    
-[^2]: 无需训练的MRI立方持续同调分割方法
-
-    Train-Free Segmentation in MRI with Cubical Persistent Homology. (arXiv:2401.01160v1 [eess.IV])
-
-    [http://arxiv.org/abs/2401.01160](http://arxiv.org/abs/2401.01160)
-
-    这是一种使用拓扑数据分析进行MRI图像分割的新方法，相比传统机器学习方法具有优势，无需大量注释数据集，提供更可解释和稳定的分割框架。
+    数千位AI作者对未来AI的预测显示，到2028年，AI系统有50%的几率实现多个里程碑，包括自主构建全新的付款处理网站、创作一首与知名音乐家的新歌难以区分的歌曲，并自主下载和调整大型语言模型。同时，无需辅助的机器在各种任务上胜过人类的几率估计为10%到2047年为50%。
 
     
 
-    我们描述了一种新的MRI扫描分割方法，使用拓扑数据分析（TDA），相比传统的机器学习方法具有几个优点。它分为三个步骤，首先通过自动阈值确定要分割的整个对象，然后检测一个已知拓扑结构的独特子集，最后推导出分割的各个组成部分。虽然调用了TDA的经典思想，但这样的算法从未与深度学习方法分离提出。为了实现这一点，我们的方法除了考虑图像的同调性外，还考虑了代表性周期的定位，这是在这种情况下似乎从未被利用过的信息。特别是，它提供了无需大量注释数据集进行分割的能力。TDA还通过将拓扑特征明确映射到分割组件来提供更可解释和稳定的分割框架。
+    在迄今为止最大规模的调查中，2778名在顶级人工智能（AI）会议上发表过论文的研究人员对AI进展的速度、高级AI系统的性质和影响进行了预测。总体预测显示，到2028年，AI系统至少有50%的几率实现多个里程碑，包括自主构建一个全新的付款处理网站、创作一首可以与知名音乐家的新歌难以区分的歌曲，并自主下载和调整大型语言模型。如果科学持续不受干扰，2027年无需辅助的机器在各种任务上胜过人类的几率估计为10%，到2047年为50%。后者的估计比我们一年前进行的类似调查[Grace et al., 2022]提前了13年。然而，所有人类职业完全可自动化的几率预计要到2037年达到10%，到2116年才达到50%（与2022年调查中的2164年相比）。
 
-    We describe a new general method for segmentation in MRI scans using Topological Data Analysis (TDA), offering several advantages over traditional machine learning approaches. It works in three steps, first identifying the whole object to segment via automatic thresholding, then detecting a distinctive subset whose topology is known in advance, and finally deducing the various components of the segmentation. Although convoking classical ideas of TDA, such an algorithm has never been proposed separately from deep learning methods. To achieve this, our approach takes into account, in addition to the homology of the image, the localization of representative cycles, a piece of information that seems never to have been exploited in this context. In particular, it offers the ability to perform segmentation without the need for large annotated data sets. TDA also provides a more interpretable and stable framework for segmentation by explicitly mapping topological features to segmentation comp
+    In the largest survey of its kind, 2,778 researchers who had published in top-tier artificial intelligence (AI) venues gave predictions on the pace of AI progress and the nature and impacts of advanced AI systems The aggregate forecasts give at least a 50% chance of AI systems achieving several milestones by 2028, including autonomously constructing a payment processing site from scratch, creating a song indistinguishable from a new song by a popular musician, and autonomously downloading and fine-tuning a large language model. If science continues undisrupted, the chance of unaided machines outperforming humans in every possible task was estimated at 10% by 2027, and 50% by 2047. The latter estimate is 13 years earlier than that reached in a similar survey we conducted only one year earlier [Grace et al., 2022]. However, the chance of all human occupations becoming fully automatable was forecast to reach 10% by 2037, and 50% as late as 2116 (compared to 2164 in the 2022 survey).  Most
     
-[^3]: 针对联邦肿瘤分割中自适应权重聚合的差分隐私研究
+[^2]: 对比差异性预测编码
 
-    Differential Privacy for Adaptive Weight Aggregation in Federated Tumor Segmentation. (arXiv:2308.00856v1 [cs.LG])
+    Contrastive Difference Predictive Coding. (arXiv:2310.20141v1 [cs.LG])
 
-    [http://arxiv.org/abs/2308.00856](http://arxiv.org/abs/2308.00856)
+    [http://arxiv.org/abs/2310.20141](http://arxiv.org/abs/2310.20141)
 
-    本研究提出了一种针对联邦肿瘤分割中自适应权重聚合的差分隐私算法，通过扩展相似性权重聚合方法（SimAgg），提高了模型分割能力，并在保护隐私方面做出了额外改进。
-
-    
-
-    联邦学习是一种分布式机器学习方法，通过创建一个公正的全局模型来保护个体客户数据的隐私。然而，传统的联邦学习方法在处理不同客户数据时可能引入安全风险，从而可能危及隐私和数据完整性。为了解决这些挑战，本文提出了一种差分隐私联邦深度学习框架，在医学图像分割中扩展了相似性权重聚合方法（SimAgg）到DP-SimAgg算法，这是一种针对多模态磁共振成像（MRI）中的脑肿瘤分割的差分隐私相似性加权聚合算法。我们的DP-SimAgg方法不仅提高了模型分割能力，还提供了额外的隐私保护层。通过广泛的基准测试和评估，以计算性能为主要考虑因素，证明了DP-SimAgg使..
-
-    Federated Learning (FL) is a distributed machine learning approach that safeguards privacy by creating an impartial global model while respecting the privacy of individual client data. However, the conventional FL method can introduce security risks when dealing with diverse client data, potentially compromising privacy and data integrity. To address these challenges, we present a differential privacy (DP) federated deep learning framework in medical image segmentation. In this paper, we extend our similarity weight aggregation (SimAgg) method to DP-SimAgg algorithm, a differentially private similarity-weighted aggregation algorithm for brain tumor segmentation in multi-modal magnetic resonance imaging (MRI). Our DP-SimAgg method not only enhances model segmentation capabilities but also provides an additional layer of privacy preservation. Extensive benchmarking and evaluation of our framework, with computational performance as a key consideration, demonstrate that DP-SimAgg enables a
-    
-[^4]: 攻击脉冲：关于脉冲神经网络对抗性样本的可转移性与安全性的研究
-
-    Attacking the Spike: On the Transferability and Security of Spiking Neural Networks to Adversarial Examples. (arXiv:2209.03358v3 [cs.NE] UPDATED)
-
-    [http://arxiv.org/abs/2209.03358](http://arxiv.org/abs/2209.03358)
-
-    这项研究主要关注于脉冲神经网络(SNNs)对抗性样本的鲁棒性和转移性。研究发现，成功的白盒对抗攻击SNNs在很大程度上依赖于替代梯度技术，并且非SNN架构创建的对抗样本往往不被SNNs误分类。
+    本文介绍了一种时间差异版本的对比预测编码，通过将不同时间序列数据的片段组合在一起，来减少学习预测未来事件所需的数据量。实验证明，与先前的方法相比，我们的方法在成功率上提高了2倍，并且对于随机环境有更好的适应能力。
 
     
 
-    脉冲神经网络(SNNs)因其高能效和最近在分类性能上的进展而受到广泛关注。然而，与传统的深度学习方法不同，对SNNs对抗性样本的鲁棒性的分析和研究仍然相对不完善。在这项工作中，我们关注于推进SNNs的对抗攻击方面，并做出了三个主要贡献。首先，我们展示了成功的白盒对抗攻击SNNs在很大程度上依赖于底层的替代梯度技术，即使在对抗性训练SNNs的情况下也一样。其次，利用最佳的替代梯度技术，我们分析了对抗攻击在SNNs和其他最先进的架构如Vision Transformers(ViTs)和Big Transfer Convolutional Neural Networks(CNNs)之间的可转移性。我们证明了非SNN架构创建的对抗样本往往不被SNNs误分类。第三，由于缺乏一个共性
+    预测和推理未来是许多时间序列问题的核心。例如，目标导向的强化学习可以被看作是学习表示以预测未来可能访问的状态。虽然先前的方法已经使用对比性预测编码来建模时间序列数据，但学习编码长期依赖通常需要大量的数据。在本文中，我们引入了一种时间差异版本的对比预测编码，将不同时间序列数据的片段组合在一起，以减少学习未来事件预测所需的数据量。我们将这种表示学习方法应用于导出目标导向的强化学习的离策略算法。实验证明，与先前的强化学习方法相比，我们的方法在成功率上实现了中位数提高2倍，并且可以更好地应对随机环境。在表格设置中，我们展示了我们的方法约为20倍。
 
-    Spiking neural networks (SNNs) have attracted much attention for their high energy efficiency and for recent advances in their classification performance. However, unlike traditional deep learning approaches, the analysis and study of the robustness of SNNs to adversarial examples remain relatively underdeveloped. In this work, we focus on advancing the adversarial attack side of SNNs and make three major contributions. First, we show that successful white-box adversarial attacks on SNNs are highly dependent on the underlying surrogate gradient technique, even in the case of adversarially trained SNNs. Second, using the best surrogate gradient technique, we analyze the transferability of adversarial attacks on SNNs and other state-of-the-art architectures like Vision Transformers (ViTs) and Big Transfer Convolutional Neural Networks (CNNs). We demonstrate that the adversarial examples created by non-SNN architectures are not misclassified often by SNNs. Third, due to the lack of an ubi
+    Predicting and reasoning about the future lie at the heart of many time-series questions. For example, goal-conditioned reinforcement learning can be viewed as learning representations to predict which states are likely to be visited in the future. While prior methods have used contrastive predictive coding to model time series data, learning representations that encode long-term dependencies usually requires large amounts of data. In this paper, we introduce a temporal difference version of contrastive predictive coding that stitches together pieces of different time series data to decrease the amount of data required to learn predictions of future events. We apply this representation learning method to derive an off-policy algorithm for goal-conditioned RL. Experiments demonstrate that, compared with prior RL methods, ours achieves $2 \times$ median improvement in success rates and can better cope with stochastic environments. In tabular settings, we show that our method is about $20
+    
+[^3]: 图形-SCP: 用图神经网络加速集合覆盖问题
+
+    Graph-SCP: Accelerating Set Cover Problems with Graph Neural Networks. (arXiv:2310.07979v1 [cs.LG])
+
+    [http://arxiv.org/abs/2310.07979](http://arxiv.org/abs/2310.07979)
+
+    图形-SCP是一种使用图神经网络加速集合覆盖问题的方法，通过学习识别包含解空间的较小子问题来提高优化求解器的性能，实验结果表明，图形-SCP能够将问题大小减少30-70%，和商业求解器相比加速高达25倍，并且能够在给定的最优性阈值下改进或实现100%的最优性。
+
+    
+
+    机器学习方法越来越多地用于加速组合优化问题。我们特别关注集合覆盖问题（SCP），提出了一种名为图形-SCP的图神经网络方法，可以通过学习识别包含解空间的大大较小的子问题来增强现有的优化求解器。我们在具有不同问题特征和复杂度的合成加权和非加权SCP实例上评估了图形-SCP的性能，并在OR Library的实例上进行了评估，这是SCP的一个经典基准。我们展示了图形-SCP将问题大小减少了30-70%，并且相对于商业求解器（Gurobi）实现了高达25倍的运行时间加速。在给定所需的最优性阈值的情况下，图形-SCP将改进或甚至实现100%的最优性。这与快速贪婪解决方案形成了对比，后者在保证多项式运行时间的同时明显损害了解决方案的质量。图形-SCP可以推广到更大的问题规模。
+
+    Machine learning (ML) approaches are increasingly being used to accelerate combinatorial optimization (CO) problems. We look specifically at the Set Cover Problem (SCP) and propose Graph-SCP, a graph neural network method that can augment existing optimization solvers by learning to identify a much smaller sub-problem that contains the solution space. We evaluate the performance of Graph-SCP on synthetic weighted and unweighted SCP instances with diverse problem characteristics and complexities, and on instances from the OR Library, a canonical benchmark for SCP. We show that Graph-SCP reduces the problem size by 30-70% and achieves run time speedups up to~25x when compared to commercial solvers (Gurobi). Given a desired optimality threshold, Graph-SCP will improve upon it or even achieve 100% optimality. This is in contrast to fast greedy solutions that significantly compromise solution quality to achieve guaranteed polynomial run time. Graph-SCP can generalize to larger problem sizes
+    
+[^4]: 自动化城市规划：生成式和聊天式 AI 相结合的城市规划探索
+
+    Towards Automated Urban Planning: When Generative and ChatGPT-like AI Meets Urban Planning. (arXiv:2304.03892v1 [cs.AI])
+
+    [http://arxiv.org/abs/2304.03892](http://arxiv.org/abs/2304.03892)
+
+    本文探讨了城市规划与人工智能的交叉应用，重点是自动化用地配置，通过对抗学习、生成神经网络、深度编码器-解码器网络、对话式 AI 和地理空间和时间机器学习等技术，AI 可以为现代城市规划带来不少创新与贡献。
+
+    
+
+    城市规划领域和人工智能领域曾经是独立发展的，但现在两个领域开始交叉汇合，互相借鉴和受益。本文介绍了城市规划从可持续性、生活、经济、灾害和环境等方面的重要性，回顾了城市规划的基本概念，并将这些概念与机器学习的关键开放问题联系起来，包括对抗学习、生成神经网络、深度编码器-解码器网络、对话式 AI 以及地理空间和时间机器学习等，评估了 AI 如何为现代城市规划做出贡献。因此，一个核心问题是自动化用地配置，即从周围的地理空间、人类移动、社交媒体、环境和经济活动中为目标区域生成土地用途和建筑配置。最后，本文勾画了集成 AI 和城市规划面临的一些挑战和潜在解决方案。
+
+    The two fields of urban planning and artificial intelligence (AI) arose and developed separately. However, there is now cross-pollination and increasing interest in both fields to benefit from the advances of the other. In the present paper, we introduce the importance of urban planning from the sustainability, living, economic, disaster, and environmental perspectives. We review the fundamental concepts of urban planning and relate these concepts to crucial open problems of machine learning, including adversarial learning, generative neural networks, deep encoder-decoder networks, conversational AI, and geospatial and temporal machine learning, thereby assaying how AI can contribute to modern urban planning. Thus, a central problem is automated land-use configuration, which is formulated as the generation of land uses and building configuration for a target area from surrounding geospatial, human mobility, social media, environment, and economic activities. Finally, we delineate some 
+    
+[^5]: 随机插值：流和扩散的统一框架
+
+    Stochastic Interpolants: A Unifying Framework for Flows and Diffusions. (arXiv:2303.08797v1 [cs.LG])
+
+    [http://arxiv.org/abs/2303.08797](http://arxiv.org/abs/2303.08797)
+
+    本文提出了一种统一的生成模型，该模型基于随机插值框架，可以实现流和扩散方法的统一。作者构建了一类广泛的连续时间随机过程，用于将两个任意的密度在有限时间内精确地连接。这种方法可以用于基于概率微分方程的确定性和随机生成模型的构建。
+
+    
+
+    我们介绍了一类建立在随机插值框架上的生成模型，该框架是基于Albergo＆Vanden-Eijnden（2023）提出的，在流和扩散方法上实现统一，我们首先展示了如何构建一类广泛的连续时间随机过程，其时间依赖的概率密度函数在有限时间内精确地连接两个任意的密度。这些“随机插值器”是通过将来自两个密度的数据与其他潜在变量相结合构建的，并且构造的具体细节可以灵活地塑造导致的时间依赖密度。然后我们展示了随机插值器的时间依赖密度满足一阶输运方程以及一系列具有可调扩散的正向和反向Fokker-Planck方程族; 在考虑单个样本的时间演化时，这个观点立即导致了基于概率微分方程的确定性和随机生成模型。
+
+    We introduce a class of generative models based on the stochastic interpolant framework proposed in Albergo & Vanden-Eijnden (2023) that unifies flow-based and diffusion-based methods. We first show how to construct a broad class of continuous-time stochastic processes whose time-dependent probability density function bridges two arbitrary densities exactly in finite time. These `stochastic interpolants' are built by combining data from the two densities with an additional latent variable, and the specific details of the construction can be leveraged to shape the resulting time-dependent density in a flexible way. We then show that the time-dependent density of the stochastic interpolant satisfies a first-order transport equation as well as a family of forward and backward Fokker-Planck equations with tunable diffusion; upon consideration of the time evolution of an individual sample, this viewpoint immediately leads to both deterministic and stochastic generative models based on proba
     
 
