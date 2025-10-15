@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Deep Conditional Generative Learning: Model and Error Analysis](https://rss.arxiv.org/abs/2402.01460) | 提出了一种基于ODE的深度生成方法，通过条件Follmer流来学习条件分布，通过离散化和深度神经网络实现高效转化。同时，通过Wasserstein距离的非渐近收敛速率，提供了第一个端到端误差分析，数值实验证明其在不同场景下的优越性。 |
-| [^2] | [Human-in-the-Loop Causal Discovery under Latent Confounding using Ancestral GFlowNets.](http://arxiv.org/abs/2309.12032) | 该论文提出了一种人机协同的因果发现方法，通过使用生成流网按照基于评分函数的信念分布采样祖先图，并引入最佳实验设计与专家互动，以提供专家可验证的不确定性估计并迭代改进因果推断。 |
+| [^1] | [Replicable Learning of Large-Margin Halfspaces](https://arxiv.org/abs/2402.13857) | 该论文提出了解决学习大间距半空间问题的可复制算法，相比之前的算法，在维度无关、时间复杂度优化、样本复杂度方面等多个关键参数上均有显著改进。 |
+| [^2] | [Replicable Clustering.](http://arxiv.org/abs/2302.10359) | 该论文提出了三个针对统计聚类的可复制算法，实现了可复制聚类的概念，其中包括利用近似算法组合问题的黑盒方式解决统计$k$-medians、统计$k$-means和统计$k$-centers问题，并给出了表示算法复杂度的函数和误差限制。 |
 
 # 详细
 
-[^1]: 深度条件生成学习：模型与误差分析
+[^1]: 可复制学习大间距半空间
 
-    Deep Conditional Generative Learning: Model and Error Analysis
+    Replicable Learning of Large-Margin Halfspaces
 
-    [https://rss.arxiv.org/abs/2402.01460](https://rss.arxiv.org/abs/2402.01460)
+    [https://arxiv.org/abs/2402.13857](https://arxiv.org/abs/2402.13857)
 
-    提出了一种基于ODE的深度生成方法，通过条件Follmer流来学习条件分布，通过离散化和深度神经网络实现高效转化。同时，通过Wasserstein距离的非渐近收敛速率，提供了第一个端到端误差分析，数值实验证明其在不同场景下的优越性。
-
-    
-
-    我们介绍了一种基于普通微分方程（ODE）的深度生成方法，用于学习条件分布，称为条件Follmer流。从标准高斯分布开始，所提出的流能够以高效的方式将其转化为目标条件分布，在时间1处达到稳定。为了有效实现，我们使用欧拉方法对流进行离散化，使用深度神经网络非参数化估计速度场。此外，我们导出了学习样本的分布与目标分布之间的Wasserstein距离的非渐近收敛速率，在条件分布学习中提供了第一个全面的端到端误差分析。我们的数值实验展示了它在一系列情况下的有效性，从标准的非参数化条件密度估计问题到涉及图像数据的更复杂的挑战，说明它优于各种现有方法。
-
-    We introduce an Ordinary Differential Equation (ODE) based deep generative method for learning a conditional distribution, named the Conditional Follmer Flow. Starting from a standard Gaussian distribution, the proposed flow could efficiently transform it into the target conditional distribution at time 1. For effective implementation, we discretize the flow with Euler's method where we estimate the velocity field nonparametrically using a deep neural network. Furthermore, we derive a non-asymptotic convergence rate in the Wasserstein distance between the distribution of the learned samples and the target distribution, providing the first comprehensive end-to-end error analysis for conditional distribution learning via ODE flow. Our numerical experiments showcase its effectiveness across a range of scenarios, from standard nonparametric conditional density estimation problems to more intricate challenges involving image data, illustrating its superiority over various existing condition
-    
-[^2]: 人机协同下使用祖先GFlowNets进行潜在混淆的因果发现
-
-    Human-in-the-Loop Causal Discovery under Latent Confounding using Ancestral GFlowNets. (arXiv:2309.12032v1 [cs.LG])
-
-    [http://arxiv.org/abs/2309.12032](http://arxiv.org/abs/2309.12032)
-
-    该论文提出了一种人机协同的因果发现方法，通过使用生成流网按照基于评分函数的信念分布采样祖先图，并引入最佳实验设计与专家互动，以提供专家可验证的不确定性估计并迭代改进因果推断。
+    该论文提出了解决学习大间距半空间问题的可复制算法，相比之前的算法，在维度无关、时间复杂度优化、样本复杂度方面等多个关键参数上均有显著改进。
 
     
 
-    结构学习是因果推断的关键。值得注意的是，当数据稀缺时，因果发现（CD）算法很脆弱，可能推断出与专家知识相矛盾的不准确因果关系，尤其是考虑到潜在混淆因素时更是如此。为了加重这个问题，大多数CD方法并不提供不确定性估计，这使得用户难以解释结果和改进推断过程。令人惊讶的是，尽管CD是一个以人为中心的事务，但没有任何研究专注于构建既能输出专家可验证的不确定性估计又能与专家进行交互迭代改进的方法。为了解决这些问题，我们首先提出使用生成流网，根据基于评分函数（如贝叶斯信息准则）的信念分布，按比例对（因果）祖先图进行采样。然后，我们利用候选图的多样性并引入最佳实验设计，以迭代性地探索实验来与专家互动。
+    我们提供了有效的可复制算法来解决学习大间距半空间的问题。我们的结果改进了Impagliazzo, Lei, Pitassi和Sorrell在STOC, 2022中提供的算法。我们设计了这个任务的首个与维度无关的可复制算法，其运行时间为多项式，是正确的，并且在所有相关参数方面的样本复杂度都严格比Impagliazzo等人在2022年实现的算法要好。此外，我们的第一个算法在精度参数$\epsilon$方面具有样本复杂度。我们还设计了一个基于SGD的可复制算法，在某些参数范围内，其样本复杂度和时间复杂度优于我们的第一个算法。
 
-    Structure learning is the crux of causal inference. Notably, causal discovery (CD) algorithms are brittle when data is scarce, possibly inferring imprecise causal relations that contradict expert knowledge -- especially when considering latent confounders. To aggravate the issue, most CD methods do not provide uncertainty estimates, making it hard for users to interpret results and improve the inference process. Surprisingly, while CD is a human-centered affair, no works have focused on building methods that both 1) output uncertainty estimates that can be verified by experts and 2) interact with those experts to iteratively refine CD. To solve these issues, we start by proposing to sample (causal) ancestral graphs proportionally to a belief distribution based on a score function, such as the Bayesian information criterion (BIC), using generative flow networks. Then, we leverage the diversity in candidate graphs and introduce an optimal experimental design to iteratively probe the expe
+    arXiv:2402.13857v1 Announce Type: new  Abstract: We provide efficient replicable algorithms for the problem of learning large-margin halfspaces. Our results improve upon the algorithms provided by Impagliazzo, Lei, Pitassi, and Sorrell [STOC, 2022]. We design the first dimension-independent replicable algorithms for this task which runs in polynomial time, is proper, and has strictly improved sample complexity compared to the one achieved by Impagliazzo et al. [2022] with respect to all the relevant parameters. Moreover, our first algorithm has sample complexity that is optimal with respect to the accuracy parameter $\epsilon$. We also design an SGD-based replicable algorithm that, in some parameters' regimes, achieves better sample and time complexity than our first algorithm.   Departing from the requirement of polynomial time algorithms, using the DP-to-Replicability reduction of Bun, Gaboardi, Hopkins, Impagliazzo, Lei, Pitassi, Sorrell, and Sivakumar [STOC, 2023], we show how to o
+    
+[^2]: 可复制聚类算法
+
+    Replicable Clustering. (arXiv:2302.10359v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2302.10359](http://arxiv.org/abs/2302.10359)
+
+    该论文提出了三个针对统计聚类的可复制算法，实现了可复制聚类的概念，其中包括利用近似算法组合问题的黑盒方式解决统计$k$-medians、统计$k$-means和统计$k$-centers问题，并给出了表示算法复杂度的函数和误差限制。
+
+    
+
+    我们在最近由Impagliazzo等人[2022]引入的可复制性概念下设计了在统计聚类中可复制的算法。根据这个定义，如果一个聚类算法是可复制的，那么在同一分布的两个不同输入上执行时，只要其内部随机性在执行中得到共享，就能高概率地产生完全相同的样本空间分区。我们通过黑盒的方式利用组合对应问题的近似算法，为统计$k$-medians、统计$k$-means和统计$k$-centers问题提出了这样的算法。特别地，我们展示了一个可复制的$O(1)$-逼近算法，其适用于统计欧几里得$k$-medians ($k$-means)，其样本复杂度为$\operatorname{poly}(d)$。我们还描述了一个$O(1)$-逼近算法，其在统计欧几里得$k$-centers$时具有额外的$O(1)$-加性误差，尽管其样本复杂度为$\exp(d)$。
+
+    We design replicable algorithms in the context of statistical clustering under the recently introduced notion of replicability from Impagliazzo et al. [2022]. According to this definition, a clustering algorithm is replicable if, with high probability, its output induces the exact same partition of the sample space after two executions on different inputs drawn from the same distribution, when its internal randomness is shared across the executions. We propose such algorithms for the statistical $k$-medians, statistical $k$-means, and statistical $k$-centers problems by utilizing approximation routines for their combinatorial counterparts in a black-box manner. In particular, we demonstrate a replicable $O(1)$-approximation algorithm for statistical Euclidean $k$-medians ($k$-means) with $\operatorname{poly}(d)$ sample complexity. We also describe an $O(1)$-approximation algorithm with an additional $O(1)$-additive error for statistical Euclidean $k$-centers, albeit with $\exp(d)$ samp
     
 

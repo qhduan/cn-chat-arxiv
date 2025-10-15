@@ -2,52 +2,127 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Semantically-Shifted Incremental Adapter-Tuning is A Continual ViTransformer](https://arxiv.org/abs/2403.19979) | 适配器调整方法在持续学习中展现出较优性能，提出了增量调整共享适配器和利用存储原型进行特征采样和更新的方法来增强模型学习能力。 |
-| [^2] | [ConjNorm: Tractable Density Estimation for Out-of-Distribution Detection](https://arxiv.org/abs/2402.17888) | 提出了一种新颖的理论框架，基于Bregman散度，通过引入共轭约束，提出了一种\textsc{ConjNorm}方法，以在给定数据集中搜索最佳规范系数$p$来重新构想密度函数设计。 |
-| [^3] | [Better Fair than Sorry: Adversarial Missing Data Imputation for Fair GNNs.](http://arxiv.org/abs/2311.01591) | 该论文提出了一种针对公平GNN的对抗性缺失数据填充模型，以解决现有公平GNN的假设问题。实验证明此模型的有效性。 |
+| [^1] | [Deep Conditional Generative Learning: Model and Error Analysis](https://rss.arxiv.org/abs/2402.01460) | 提出了一种基于ODE的深度生成方法，通过条件Follmer流来学习条件分布，通过离散化和深度神经网络实现高效转化。同时，通过Wasserstein距离的非渐近收敛速率，提供了第一个端到端误差分析，数值实验证明其在不同场景下的优越性。 |
+| [^2] | [Discovery of the Hidden World with Large Language Models](https://arxiv.org/abs/2402.03941) | 通过使用大型语言模型，我们提出了COAT：因果表示助手，该助手从原始观测数据中提取潜在的因果因子，并将其转化为结构化数据，为探索隐藏世界提供了新的机会。 |
+| [^3] | [Hyper-STTN: Social Group-aware Spatial-Temporal Transformer Network for Human Trajectory Prediction with Hypergraph Reasoning.](http://arxiv.org/abs/2401.06344) | 本论文提出了Hyper-STTN，一种基于超图的时空转换网络，用于人群轨迹预测。通过构建多尺度超图来捕捉拥挤场景中的群体间相互作用，并利用空间-时间转换器来捕捉行人的成对潜在相互作用。这些异构的群体间和成对间相互作用通过一个多模态转换网络进行融合和对准。 |
+| [^4] | [Human-in-the-Loop Causal Discovery under Latent Confounding using Ancestral GFlowNets.](http://arxiv.org/abs/2309.12032) | 该论文提出了一种人机协同的因果发现方法，通过使用生成流网按照基于评分函数的信念分布采样祖先图，并引入最佳实验设计与专家互动，以提供专家可验证的不确定性估计并迭代改进因果推断。 |
+| [^5] | [Camouflaged Image Synthesis Is All You Need to Boost Camouflaged Detection.](http://arxiv.org/abs/2308.06701) | 该研究提出了一个用于合成伪装数据以改善对自然场景中伪装物体检测的框架，该方法利用生成模型生成逼真的伪装图像，并在三个数据集上取得了优于目前最先进方法的结果。 |
+| [^6] | [Privacy-aware Gaussian Process Regression.](http://arxiv.org/abs/2305.16541) | 以高斯过程回归为基础，我们提出了实现数据隐私保护的方法。方法将综合噪声添加到数据中，使得高斯过程预测模型达到特定的隐私级别。我们还通过核方法介绍了连续隐私约束下的隐私感知解形式，以及研究了其理论性质。所提出的方法应用于卫星轨迹跟踪模型。 |
+| [^7] | [Online Loss Function Learning.](http://arxiv.org/abs/2301.13247) | 在线损失函数学习是一种新的元学习范例，旨在自动化为机器学习模型设计损失函数的重要任务。我们提出了一种新的损失函数学习技术，可以在每次更新基本模型参数后自适应地在线更新损失函数。实验结果表明，我们的方法在多个任务上稳定地优于现有技术。 |
+| [^8] | [Speech Enhancement and Dereverberation with Diffusion-based Generative Models.](http://arxiv.org/abs/2208.05830) | 本文基于扩散生成模型，通过混合噪声语音和高斯噪声进行反向过程，仅使用30步就实现高质量的干净语音估计。调整网络架构，可以显著提高语音增强性能，达到了最新方法的竞争水平。 |
 
 # 详细
 
-[^1]: 语义转移增量适配器调整是一种持续的 ViTransformer
+[^1]: 深度条件生成学习：模型与误差分析
 
-    Semantically-Shifted Incremental Adapter-Tuning is A Continual ViTransformer
+    Deep Conditional Generative Learning: Model and Error Analysis
 
-    [https://arxiv.org/abs/2403.19979](https://arxiv.org/abs/2403.19979)
+    [https://rss.arxiv.org/abs/2402.01460](https://rss.arxiv.org/abs/2402.01460)
 
-    适配器调整方法在持续学习中展现出较优性能，提出了增量调整共享适配器和利用存储原型进行特征采样和更新的方法来增强模型学习能力。
-
-    
-
-    类增量学习（CIL）旨在使模型能够在克服灾难性遗忘的同时持续学习新的类别。本文重新审视了在持续学习背景下的不同参数高效调整（PET）方法。我们观察到适配器调整表现优于基于提示的方法，甚至在每个学习会话中没有参数扩展的情况下也如此。受此启发，我们提出了增量调整共享适配器而不施加参数更新约束，增强骨干的学习能力。此外，我们从存储的原型中抽取特征样本来重新训练统一的分类器，进一步提高其性能。我们估计旧原型的语义转移，而无法访问过去的样本，并逐个会话更新存储的原型。我们提出的方法消除了模型的扩展和...
-
-    arXiv:2403.19979v1 Announce Type: cross  Abstract: Class-incremental learning (CIL) aims to enable models to continuously learn new classes while overcoming catastrophic forgetting. The introduction of pre-trained models has brought new tuning paradigms to CIL. In this paper, we revisit different parameter-efficient tuning (PET) methods within the context of continual learning. We observe that adapter tuning demonstrates superiority over prompt-based methods, even without parameter expansion in each learning session. Motivated by this, we propose incrementally tuning the shared adapter without imposing parameter update constraints, enhancing the learning capacity of the backbone. Additionally, we employ feature sampling from stored prototypes to retrain a unified classifier, further improving its performance. We estimate the semantic shift of old prototypes without access to past samples and update stored prototypes session by session. Our proposed method eliminates model expansion and
-    
-[^2]: ConjNorm：用于异常分布检测的可处理密度估计
-
-    ConjNorm: Tractable Density Estimation for Out-of-Distribution Detection
-
-    [https://arxiv.org/abs/2402.17888](https://arxiv.org/abs/2402.17888)
-
-    提出了一种新颖的理论框架，基于Bregman散度，通过引入共轭约束，提出了一种\textsc{ConjNorm}方法，以在给定数据集中搜索最佳规范系数$p$来重新构想密度函数设计。
+    提出了一种基于ODE的深度生成方法，通过条件Follmer流来学习条件分布，通过离散化和深度神经网络实现高效转化。同时，通过Wasserstein距离的非渐近收敛速率，提供了第一个端到端误差分析，数值实验证明其在不同场景下的优越性。
 
     
 
-    后续异常分布（OOD）检测在可靠机器学习中受到密切关注。许多工作致力于推导基于logits、距离或严格数据分布假设的评分函数，以识别得分低的OOD样本。然而，这些估计得分可能无法准确反映真实数据密度或施加不切实际的约束。为了在基于密度得分设计方面提供一个统一的视角，我们提出了一个以Bregman散度为基础的新颖理论框架，该框架将分布考虑扩展到涵盖一系列指数族分布。利用我们定理中揭示的共轭约束，我们引入了一种\textsc{ConjNorm}方法，将密度函数设计重新构想为针对给定数据集搜索最佳规范系数$p$的过程。鉴于归一化的计算挑战，我们设计了一种无偏和解析可追踪的方法
+    我们介绍了一种基于普通微分方程（ODE）的深度生成方法，用于学习条件分布，称为条件Follmer流。从标准高斯分布开始，所提出的流能够以高效的方式将其转化为目标条件分布，在时间1处达到稳定。为了有效实现，我们使用欧拉方法对流进行离散化，使用深度神经网络非参数化估计速度场。此外，我们导出了学习样本的分布与目标分布之间的Wasserstein距离的非渐近收敛速率，在条件分布学习中提供了第一个全面的端到端误差分析。我们的数值实验展示了它在一系列情况下的有效性，从标准的非参数化条件密度估计问题到涉及图像数据的更复杂的挑战，说明它优于各种现有方法。
 
-    arXiv:2402.17888v1 Announce Type: cross  Abstract: Post-hoc out-of-distribution (OOD) detection has garnered intensive attention in reliable machine learning. Many efforts have been dedicated to deriving score functions based on logits, distances, or rigorous data distribution assumptions to identify low-scoring OOD samples. Nevertheless, these estimate scores may fail to accurately reflect the true data density or impose impractical constraints. To provide a unified perspective on density-based score design, we propose a novel theoretical framework grounded in Bregman divergence, which extends distribution considerations to encompass an exponential family of distributions. Leveraging the conjugation constraint revealed in our theorem, we introduce a \textsc{ConjNorm} method, reframing density function design as a search for the optimal norm coefficient $p$ against the given dataset. In light of the computational challenges of normalization, we devise an unbiased and analytically tract
+    We introduce an Ordinary Differential Equation (ODE) based deep generative method for learning a conditional distribution, named the Conditional Follmer Flow. Starting from a standard Gaussian distribution, the proposed flow could efficiently transform it into the target conditional distribution at time 1. For effective implementation, we discretize the flow with Euler's method where we estimate the velocity field nonparametrically using a deep neural network. Furthermore, we derive a non-asymptotic convergence rate in the Wasserstein distance between the distribution of the learned samples and the target distribution, providing the first comprehensive end-to-end error analysis for conditional distribution learning via ODE flow. Our numerical experiments showcase its effectiveness across a range of scenarios, from standard nonparametric conditional density estimation problems to more intricate challenges involving image data, illustrating its superiority over various existing condition
     
-[^3]: 更好的公平性胜于遗憾：针对公平GNN的对抗性缺失数据填充
+[^2]: 用大型语言模型探索隐藏世界
 
-    Better Fair than Sorry: Adversarial Missing Data Imputation for Fair GNNs. (arXiv:2311.01591v1 [cs.LG])
+    Discovery of the Hidden World with Large Language Models
 
-    [http://arxiv.org/abs/2311.01591](http://arxiv.org/abs/2311.01591)
+    [https://arxiv.org/abs/2402.03941](https://arxiv.org/abs/2402.03941)
 
-    该论文提出了一种针对公平GNN的对抗性缺失数据填充模型，以解决现有公平GNN的假设问题。实验证明此模型的有效性。
+    通过使用大型语言模型，我们提出了COAT：因果表示助手，该助手从原始观测数据中提取潜在的因果因子，并将其转化为结构化数据，为探索隐藏世界提供了新的机会。
 
     
 
-    本文解决了在缺失保护属性的情况下学习公平图神经网络（GNNs）的问题。在许多相关任务中，决策可能会对特定社区产生不成比例的影响，而GNNs已经在这些任务中取得了最先进的结果。然而，现有的公平GNNs工作要么假设保护属性是完全被观察到的，要么假设缺失数据的填充是公平的。实际上，填充中的偏差会传播到模型的结果中，导致它们过高地估计了其预测的公平性。我们通过提出Better Fair than Sorry（BFtS），为公平GNNs使用的保护属性的公平缺失数据填充模型来解决这个挑战。BFtS背后的关键设计原则是填充应该近似于公平GNN的最困难情况，即在最优化公平性最困难的情况下。我们使用一个三方对抗方案来实现这个想法，在这个方案中，两个对手共同对抗公平GNN。通过使用合成和实际数据集的实验证明了BFtS的有效性。
+    科学起源于从已知事实和观察中发现新的因果知识。传统的因果发现方法主要依赖于高质量的测量变量，通常由人类专家提供，以找到因果关系。然而，在许多现实世界的应用中，因果变量通常无法获取。大型语言模型（LLMs）的崛起为从原始观测数据中发现高级隐藏变量提供了新的机会。因此，我们介绍了COAT：因果表示助手。COAT将LLMs作为因素提供器引入，提取出来自非结构化数据的潜在因果因子。此外，LLMs还可以被指示提供用于收集数据值（例如注释标准）的额外信息，并将原始非结构化数据进一步解析为结构化数据。注释数据将被输入到...
 
-    This paper addresses the problem of learning fair Graph Neural Networks (GNNs) under missing protected attributes. GNNs have achieved state-of-the-art results in many relevant tasks where decisions might disproportionately impact specific communities. However, existing work on fair GNNs assumes that either protected attributes are fully-observed or that the missing data imputation is fair. In practice, biases in the imputation will be propagated to the model outcomes, leading them to overestimate the fairness of their predictions. We address this challenge by proposing Better Fair than Sorry (BFtS), a fair missing data imputation model for protected attributes used by fair GNNs. The key design principle behind BFtS is that imputations should approximate the worst-case scenario for the fair GNN -- i.e. when optimizing fairness is the hardest. We implement this idea using a 3-player adversarial scheme where two adversaries collaborate against the fair GNN. Experiments using synthetic and
+    Science originates with discovering new causal knowledge from a combination of known facts and observations. Traditional causal discovery approaches mainly rely on high-quality measured variables, usually given by human experts, to find causal relations. However, the causal variables are usually unavailable in a wide range of real-world applications. The rise of large language models (LLMs) that are trained to learn rich knowledge from the massive observations of the world, provides a new opportunity to assist with discovering high-level hidden variables from the raw observational data. Therefore, we introduce COAT: Causal representatiOn AssistanT. COAT incorporates LLMs as a factor proposer that extracts the potential causal factors from unstructured data. Moreover, LLMs can also be instructed to provide additional information used to collect data values (e.g., annotation criteria) and to further parse the raw unstructured data into structured data. The annotated data will be fed to a
+    
+[^3]: 超级-STTN：社交群体感知的时空转换网络用于人体轨迹预测与超图推理
+
+    Hyper-STTN: Social Group-aware Spatial-Temporal Transformer Network for Human Trajectory Prediction with Hypergraph Reasoning. (arXiv:2401.06344v1 [cs.CV] CROSS LISTED)
+
+    [http://arxiv.org/abs/2401.06344](http://arxiv.org/abs/2401.06344)
+
+    本论文提出了Hyper-STTN，一种基于超图的时空转换网络，用于人群轨迹预测。通过构建多尺度超图来捕捉拥挤场景中的群体间相互作用，并利用空间-时间转换器来捕捉行人的成对潜在相互作用。这些异构的群体间和成对间相互作用通过一个多模态转换网络进行融合和对准。
+
+    
+
+    在各种现实世界的应用中，包括服务机器人和自动驾驶汽车，预测拥挤的意图和轨迹是至关重要的。理解环境动态是具有挑战性的，不仅因为对建模成对的空间和时间相互作用的复杂性，还因为群体间相互作用的多样性。为了解码拥挤场景中全面的成对和群体间相互作用，我们引入了Hyper-STTN，这是一种基于超图的时空转换网络，用于人群轨迹预测。在Hyper-STTN中，通过一组多尺度超图构建了拥挤的群体间相关性，这些超图具有不同的群体大小，通过基于随机游走概率的超图谱卷积进行捕捉。此外，还采用了空间-时间转换器来捕捉行人在空间-时间维度上的对照相互作用。然后，这些异构的群体间和成对间相互作用通过一个多模态转换网络进行融合和对准。
+
+    Predicting crowded intents and trajectories is crucial in varouls real-world applications, including service robots and autonomous vehicles. Understanding environmental dynamics is challenging, not only due to the complexities of modeling pair-wise spatial and temporal interactions but also the diverse influence of group-wise interactions. To decode the comprehensive pair-wise and group-wise interactions in crowded scenarios, we introduce Hyper-STTN, a Hypergraph-based Spatial-Temporal Transformer Network for crowd trajectory prediction. In Hyper-STTN, crowded group-wise correlations are constructed using a set of multi-scale hypergraphs with varying group sizes, captured through random-walk robability-based hypergraph spectral convolution. Additionally, a spatial-temporal transformer is adapted to capture pedestrians' pair-wise latent interactions in spatial-temporal dimensions. These heterogeneous group-wise and pair-wise are then fused and aligned though a multimodal transformer net
+    
+[^4]: 人机协同下使用祖先GFlowNets进行潜在混淆的因果发现
+
+    Human-in-the-Loop Causal Discovery under Latent Confounding using Ancestral GFlowNets. (arXiv:2309.12032v1 [cs.LG])
+
+    [http://arxiv.org/abs/2309.12032](http://arxiv.org/abs/2309.12032)
+
+    该论文提出了一种人机协同的因果发现方法，通过使用生成流网按照基于评分函数的信念分布采样祖先图，并引入最佳实验设计与专家互动，以提供专家可验证的不确定性估计并迭代改进因果推断。
+
+    
+
+    结构学习是因果推断的关键。值得注意的是，当数据稀缺时，因果发现（CD）算法很脆弱，可能推断出与专家知识相矛盾的不准确因果关系，尤其是考虑到潜在混淆因素时更是如此。为了加重这个问题，大多数CD方法并不提供不确定性估计，这使得用户难以解释结果和改进推断过程。令人惊讶的是，尽管CD是一个以人为中心的事务，但没有任何研究专注于构建既能输出专家可验证的不确定性估计又能与专家进行交互迭代改进的方法。为了解决这些问题，我们首先提出使用生成流网，根据基于评分函数（如贝叶斯信息准则）的信念分布，按比例对（因果）祖先图进行采样。然后，我们利用候选图的多样性并引入最佳实验设计，以迭代性地探索实验来与专家互动。
+
+    Structure learning is the crux of causal inference. Notably, causal discovery (CD) algorithms are brittle when data is scarce, possibly inferring imprecise causal relations that contradict expert knowledge -- especially when considering latent confounders. To aggravate the issue, most CD methods do not provide uncertainty estimates, making it hard for users to interpret results and improve the inference process. Surprisingly, while CD is a human-centered affair, no works have focused on building methods that both 1) output uncertainty estimates that can be verified by experts and 2) interact with those experts to iteratively refine CD. To solve these issues, we start by proposing to sample (causal) ancestral graphs proportionally to a belief distribution based on a score function, such as the Bayesian information criterion (BIC), using generative flow networks. Then, we leverage the diversity in candidate graphs and introduce an optimal experimental design to iteratively probe the expe
+    
+[^5]: 伪装图像合成是提高伪装物体检测的关键
+
+    Camouflaged Image Synthesis Is All You Need to Boost Camouflaged Detection. (arXiv:2308.06701v1 [cs.CV])
+
+    [http://arxiv.org/abs/2308.06701](http://arxiv.org/abs/2308.06701)
+
+    该研究提出了一个用于合成伪装数据以改善对自然场景中伪装物体检测的框架，该方法利用生成模型生成逼真的伪装图像，并在三个数据集上取得了优于目前最先进方法的结果。
+
+    
+
+    融入自然场景的伪装物体给深度学习模型检测和合成带来了重大挑战。伪装物体检测是计算机视觉中一个关键任务，具有广泛的实际应用，然而由于数据有限，该研究课题一直受到限制。我们提出了一个用于合成伪装数据以增强对自然场景中伪装物体检测的框架。我们的方法利用生成模型生成逼真的伪装图像，这些图像可以用来训练现有的物体检测模型。具体而言，我们使用伪装环境生成器，由伪装分布分类器进行监督，合成伪装图像，然后将其输入我们的生成器以扩展数据集。我们的框架在三个数据集（COD10k、CAMO和CHAMELEON）上的效果超过了目前最先进的方法，证明了它在改善伪装物体检测方面的有效性。
+
+    Camouflaged objects that blend into natural scenes pose significant challenges for deep-learning models to detect and synthesize. While camouflaged object detection is a crucial task in computer vision with diverse real-world applications, this research topic has been constrained by limited data availability. We propose a framework for synthesizing camouflage data to enhance the detection of camouflaged objects in natural scenes. Our approach employs a generative model to produce realistic camouflage images, which can be used to train existing object detection models. Specifically, we use a camouflage environment generator supervised by a camouflage distribution classifier to synthesize the camouflage images, which are then fed into our generator to expand the dataset. Our framework outperforms the current state-of-the-art method on three datasets (COD10k, CAMO, and CHAMELEON), demonstrating its effectiveness in improving camouflaged object detection. This approach can serve as a plug-
+    
+[^6]: 面向隐私的高斯过程回归
+
+    Privacy-aware Gaussian Process Regression. (arXiv:2305.16541v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.16541](http://arxiv.org/abs/2305.16541)
+
+    以高斯过程回归为基础，我们提出了实现数据隐私保护的方法。方法将综合噪声添加到数据中，使得高斯过程预测模型达到特定的隐私级别。我们还通过核方法介绍了连续隐私约束下的隐私感知解形式，以及研究了其理论性质。所提出的方法应用于卫星轨迹跟踪模型。
+
+    
+
+    我们提出了第一个在隐私约束条件下的高斯过程回归的理论和方法框架。所提出的方法可以在数据所有者因隐私担忧而不愿与公众分享其从其数据构建的高保真监督学习模型时使用。所提出方法的关键思想是通过添加综合噪声来使高斯过程预测模型的预测方差达到预先指定的隐私级别。合成噪声的最优协方差矩阵以半定编程的形式给出。我们还介绍了基于核的方法来研究在连续约束隐私条件下的隐私感知解的形式，并研究了它们的理论属性。所提出的方法使用跟踪卫星轨迹的模型进行了说明。
+
+    We propose the first theoretical and methodological framework for Gaussian process regression subject to privacy constraints. The proposed method can be used when a data owner is unwilling to share a high-fidelity supervised learning model built from their data with the public due to privacy concerns. The key idea of the proposed method is to add synthetic noise to the data until the predictive variance of the Gaussian process model reaches a prespecified privacy level. The optimal covariance matrix of the synthetic noise is formulated in terms of semi-definite programming. We also introduce the formulation of privacy-aware solutions under continuous privacy constraints using kernel-based approaches, and study their theoretical properties. The proposed method is illustrated by considering a model that tracks the trajectories of satellites.
+    
+[^7]: 在线损失函数学习
+
+    Online Loss Function Learning. (arXiv:2301.13247v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2301.13247](http://arxiv.org/abs/2301.13247)
+
+    在线损失函数学习是一种新的元学习范例，旨在自动化为机器学习模型设计损失函数的重要任务。我们提出了一种新的损失函数学习技术，可以在每次更新基本模型参数后自适应地在线更新损失函数。实验结果表明，我们的方法在多个任务上稳定地优于现有技术。
+
+    
+
+    损失函数学习是一种新的元学习范例，旨在自动化为机器学习模型设计损失函数的重要任务。现有的损失函数学习技术已经显示出有希望的结果，经常改善模型的训练动态和最终推理性能。然而，这些技术的一个重要限制是损失函数以线下方式进行元学习，元目标仅考虑训练的前几个步骤，这与训练深度神经网络通常使用的时间范围相比显著较短。这导致对于在训练开始时表现良好但在训练结束时表现不佳的损失函数存在明显的偏差。为了解决这个问题，我们提出了一种新的损失函数学习技术，可以在每次更新基本模型参数后自适应地在线更新损失函数。实验结果表明，我们提出的方法在多个任务上稳定地优于现有技术。
+
+    Loss function learning is a new meta-learning paradigm that aims to automate the essential task of designing a loss function for a machine learning model. Existing techniques for loss function learning have shown promising results, often improving a model's training dynamics and final inference performance. However, a significant limitation of these techniques is that the loss functions are meta-learned in an offline fashion, where the meta-objective only considers the very first few steps of training, which is a significantly shorter time horizon than the one typically used for training deep neural networks. This causes significant bias towards loss functions that perform well at the very start of training but perform poorly at the end of training. To address this issue we propose a new loss function learning technique for adaptively updating the loss function online after each update to the base model parameters. The experimental results show that our proposed method consistently out
+    
+[^8]: 基于扩散生成模型的语音增强和去混响
+
+    Speech Enhancement and Dereverberation with Diffusion-based Generative Models. (arXiv:2208.05830v2 [eess.AS] UPDATED)
+
+    [http://arxiv.org/abs/2208.05830](http://arxiv.org/abs/2208.05830)
+
+    本文基于扩散生成模型，通过混合噪声语音和高斯噪声进行反向过程，仅使用30步就实现高质量的干净语音估计。调整网络架构，可以显著提高语音增强性能，达到了最新方法的竞争水平。
+
+    
+
+    在这项工作中，我们基于我们之前的出版物，并使用基于扩散的生成模型进行语音增强。我们详细介绍了基于随机微分方程的扩散过程，并进行了广泛的理论探讨其含义。与通常的条件生成任务相反，我们不是从纯高斯噪声开始反向过程，而是从噪声语音和高斯噪声的混合物开始。这与我们的正向过程相匹配，该过程通过包括漂移项将干净语音转变成噪声语音。我们表明，这个过程使得使用仅30个扩散步骤来生成高质量的干净语音估计成为可能。通过调整网络架构，我们能够显著提高语音增强性能，这表明网络而不是形式主义是我们原始方法的主要限制。在广泛的跨数据集评估中，我们展示了改进后的方法可以与最新的方法竞争。
+
+    In this work, we build upon our previous publication and use diffusion-based generative models for speech enhancement. We present a detailed overview of the diffusion process that is based on a stochastic differential equation and delve into an extensive theoretical examination of its implications. Opposed to usual conditional generation tasks, we do not start the reverse process from pure Gaussian noise but from a mixture of noisy speech and Gaussian noise. This matches our forward process which moves from clean speech to noisy speech by including a drift term. We show that this procedure enables using only 30 diffusion steps to generate high-quality clean speech estimates. By adapting the network architecture, we are able to significantly improve the speech enhancement performance, indicating that the network, rather than the formalism, was the main limitation of our original approach. In an extensive cross-dataset evaluation, we show that the improved method can compete with recent 
     
 

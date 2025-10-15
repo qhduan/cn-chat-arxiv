@@ -2,22 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Nonconcave Robust Utility Maximization under Projective Determinacy](https://arxiv.org/abs/2403.11824) | 该研究介绍了一个新的概念——射影可测函数，并在投资者具有非凹效用函数以及存在模型不确定性时，证明了在效用函数上半连续的情况下存在最优投资策略。 |
+| [^1] | [Proofs for the New Definitions in Financial Markets.](http://arxiv.org/abs/2309.03003) | 本研究提供了金融市场新定义的证明，通过构造定理来确定新定义中的效用曲线形状。与标准理论不同，新定义中出现了严格凹性、严格凸性或线性的情况。 |
+| [^2] | [An optimal transport approach for the multiple quantile hedging problem.](http://arxiv.org/abs/2308.01121) | 这篇论文提出了一种最优输运方法解决多分位数对冲问题，在非线性市场中，将该问题重构为一个蒙特卡罗最优输运问题，在线性市场中引入了半离散最优输运问题，并设计了基于SGA算法的数值方法来计算多分位数对冲价格。 |
 
 # 详细
 
-[^1]: 非凹健壮效用最大化在射影决定性下的研究
+[^1]: 金融市场新定义的证明
 
-    Nonconcave Robust Utility Maximization under Projective Determinacy
+    Proofs for the New Definitions in Financial Markets. (arXiv:2309.03003v1 [q-fin.GN])
 
-    [https://arxiv.org/abs/2403.11824](https://arxiv.org/abs/2403.11824)
+    [http://arxiv.org/abs/2309.03003](http://arxiv.org/abs/2309.03003)
 
-    该研究介绍了一个新的概念——射影可测函数，并在投资者具有非凹效用函数以及存在模型不确定性时，证明了在效用函数上半连续的情况下存在最优投资策略。
+    本研究提供了金融市场新定义的证明，通过构造定理来确定新定义中的效用曲线形状。与标准理论不同，新定义中出现了严格凹性、严格凸性或线性的情况。
 
     
 
-    我们研究了一个在一般离散时间无摩擦市场中的健壮效用最大化问题。投资者被假定具有一个随机、非凹且非递减的效用函数，该函数可能在整个实数线上是有限的，也可能不是有限的。她还面临对市场信念的模型不确定性，这是通过一组先验来建模的。我们证明了当效用函数也是上半连续的时，存在一个最优投资策略。为此，我们引入了新的射影可测函数的概念。我们展示了这些函数的基本属性，如在求和、差异、乘积、上确界、下确界和复合下的稳定性，但也假设射影决定性的集合论公理下积分下的稳定性和存在$\epsilon$-最优选择器。我们考虑射影可测的随机效用函数和价格过程，并假设它们的图形为...
+    构造定理可以帮助确定金融市场新定义中构成的某些效用曲线的形状。本研究旨在为这些定理提供证明。尽管风险厌恶、风险爱好和风险中性等术语在标准理论中分别等同于严格凹性、严格凸性和线性，但某些新定义满足严格凹性或严格凸性，或线性。
 
-    arXiv:2403.11824v1 Announce Type: new  Abstract: We study a robust utility maximization problem in a general discrete-time frictionless market. The investor is assumed to have a random, nonconcave and nondecreasing utility function, which may or may not be finite on the whole real-line. She also faces model ambiguity on her beliefs about the market, which is modeled through a set of priors. We prove, using only primal methods, the existence of an optimal investment strategy when the utility function is also upper-semicontinuous. For that, we introduce the new notion of projectively measurable functions. We show basic properties of these functions as stability under sums, differences, products, suprema, infima and compositions but also assuming the set-theoretical axiom of Projective Determinacy (PD) stability under integration and existence of $\epsilon$-optimal selectors. We consider projectively measurable random utility function and price process and assume that the graphs of the se
+    Constructing theorems can help to determine the shape of certain utility curves that make up the new definitions in financial markets. The aim of this study was to present proofs for these theorems. Although the terms of risk-averse, risk-loving, and risk-neutral are equivalent to strict concavity, strict convexity, and linearity, respectively, in standard theory, certain new definitions satisfy strict concavity or strict convexity, or linearity.
+    
+[^2]: 多分位数对冲问题的最优输运方法
+
+    An optimal transport approach for the multiple quantile hedging problem. (arXiv:2308.01121v1 [math.PR])
+
+    [http://arxiv.org/abs/2308.01121](http://arxiv.org/abs/2308.01121)
+
+    这篇论文提出了一种最优输运方法解决多分位数对冲问题，在非线性市场中，将该问题重构为一个蒙特卡罗最优输运问题，在线性市场中引入了半离散最优输运问题，并设计了基于SGA算法的数值方法来计算多分位数对冲价格。
+
+    
+
+    我们考虑多分位数对冲问题，这是一类包含分位数对冲问题（F{\"o}llmer \& Leukert 1999）和PnL匹配问题（Bouchard \& Vu 2012）作为特例的部分对冲问题。在非线性完全市场中，我们展示了这个问题可以重构为一种蒙特卡罗最优输运问题。利用这个观察，我们引入了该问题的Kantorovitch版本，并证明了两个问题的价值是相等的。在线性情况下，我们得到多分位数对冲问题可以看作是一种半离散最优输运问题，并进一步引入了对偶问题。然后，我们证明不存在对偶间隙，使我们能够设计基于SGA算法的数值方法来计算多分位数对冲价格。
+
+    We consider the multiple quantile hedging problem, which is a class of partial hedging problems containing as special examples the quantile hedging problem (F{\"o}llmer \& Leukert 1999) and the PnL matching problem (introduced in Bouchard \& Vu 2012). In complete non-linear markets, we show that the problem can be reformulated as a kind of Monge optimal transport problem. Using this observation, we introduce a Kantorovitch version of the problem and prove that the value of both problems coincide. In the linear case, we thus obtain that the multiple quantile hedging problem can be seen as a semi-discrete optimal transport problem, for which we further introduce the dual problem. We then prove that there is no duality gap, allowing us to design a numerical method based on SGA algorithms to compute the multiple quantile hedging price.
     
 

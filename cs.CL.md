@@ -2,67 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [DeAL: Decoding-time Alignment for Large Language Models](https://arxiv.org/abs/2402.06147) | DeAL是一个允许用户自定义奖励函数并实现解码时对齐LLMs的框架。 |
-| [^2] | [Survey of Natural Language Processing for Education: Taxonomy, Systematic Review, and Future Trends](https://arxiv.org/abs/2401.07518) | 这篇论文调查了教育领域自然语言处理的最新进展，提出了分类体系，并总结了挑战和未来研究方向。 |
-| [^3] | [Turkish Native Language Identification.](http://arxiv.org/abs/2307.14850) | 这项研究首次将母语识别应用于土耳其语,通过分析作者不同语言的写作来预测作者的母语。研究使用了土耳其学习者语料库和三个句法特征来展示其有效性。 |
-| [^4] | [SANTA: Separate Strategies for Inaccurate and Incomplete Annotation Noise in Distantly-Supervised Named Entity Recognition.](http://arxiv.org/abs/2305.04076) | 本文提出了一种处理Distantly-Supervised Named Entity Recognition中错误和不完整标注噪声的分离策略，使用不同的模型构建来应对两种类型的噪声。 |
+| [^1] | [Jailbreaking Proprietary Large Language Models using Word Substitution Cipher](https://arxiv.org/abs/2402.10601) | 本文使用密码技术编码了越狱提示，成功地绕过了大型语言模型对有害问题的检测，实验结果显示攻击成功率高达59.42%。 |
+| [^2] | [GRDD: A Dataset for Greek Dialectal NLP.](http://arxiv.org/abs/2308.00802) | 本文介绍了一个用于研究现代希腊方言的大规模数据集GRDD，并使用该数据集进行方言识别实验，结果显示即使是简单的机器学习模型也能在该任务上表现良好。 |
 
 # 详细
 
-[^1]: DeAL：用于大型语言模型的解码时对齐
+[^1]: 使用单词替换密码来越狱专有的大型语言模型
 
-    DeAL: Decoding-time Alignment for Large Language Models
+    Jailbreaking Proprietary Large Language Models using Word Substitution Cipher
 
-    [https://arxiv.org/abs/2402.06147](https://arxiv.org/abs/2402.06147)
+    [https://arxiv.org/abs/2402.10601](https://arxiv.org/abs/2402.10601)
 
-    DeAL是一个允许用户自定义奖励函数并实现解码时对齐LLMs的框架。
-
-    
-
-    大型语言模型（LLMs）现在期望生成与人类偏好对齐的内容。目前的工作主要集中在模型训练时间对齐上，通过诸如强化学习与人类反馈（RLHF）等技术。然而，目前还不清楚这些方法是否有效地教导模型对齐目标。首先，无法整合多个自定义奖励和依赖模型开发者对通用和静态原则的理解是主要局限。其次，模型训练中的残留差距以及这些方法的可靠性也值得质疑（例如，即使在安全训练后仍然容易被越狱）。为了解决这些问题，我们提出了DeAL，一个允许用户自定义奖励函数并实现解码时对齐LLMs（DeAL）的框架。核心思想在于将解码视为一个启发式引导的搜索过程，并促使使用各种对齐目标。我们的实验以编程约束为例进行了验证。
-
-    Large Language Models (LLMs) are nowadays expected to generate content aligned with human preferences. Current work focuses on alignment at model training time, through techniques such as Reinforcement Learning with Human Feedback (RLHF). However, it is unclear if such methods are an effective choice to teach alignment objectives to the model. First, the inability to incorporate multiple, custom rewards and reliance on a model developer's view of universal and static principles are key limitations. Second, the residual gaps in model training and the reliability of such approaches are also questionable (e.g. susceptibility to jail-breaking even after safety training). To address these, we propose DeAL, a framework that allows the user to customize reward functions and enables Decoding-time Alignment of LLMs (DeAL). At its core, we view decoding as a heuristic-guided search process and facilitate the use of a wide variety of alignment objectives. Our experiments with programmatic constra
-    
-[^2]: 教育领域自然语言处理的调查：分类体系、系统综述和未来趋势
-
-    Survey of Natural Language Processing for Education: Taxonomy, Systematic Review, and Future Trends
-
-    [https://arxiv.org/abs/2401.07518](https://arxiv.org/abs/2401.07518)
-
-    这篇论文调查了教育领域自然语言处理的最新进展，提出了分类体系，并总结了挑战和未来研究方向。
+    本文使用密码技术编码了越狱提示，成功地绕过了大型语言模型对有害问题的检测，实验结果显示攻击成功率高达59.42%。
 
     
 
-    自然语言处理（NLP）旨在通过计算机科学领域的技术分析文本，应用于医疗保健、商业和教育领域。特别是，在教育领域，NLP已经被应用于教学和学习方面的帮助。本调查研究主要关注解决与教育领域相关的问题，并回顾了NLP的最新进展。具体来说，我们从介绍相关背景开始，然后提出教育领域NLP的分类系统。接着，我们根据上述分类系统说明任务定义、挑战和相应的技术。之后，我们展示了该领域中的一些现有演示，并总结了未来的研究方向。
+    大型语言模型（LLMs）遵循道德和伦理准则，但仍然容易受到名为Jailbreak的创意提示的影响，这些提示可以绕过对齐过程。然而，大多数越狱提示包含自然语言（主要是英语）中的有害问题，可以被LLMs自身检测到。本文提出了使用密码技术编码的越狱提示。我们首先在最先进的LLM，GPT-4上进行了一个试点研究，解码了使用各种密码技术加密的几个安全句子，发现简单的单词替换密码可以被最有效地解码。受此结果启发，我们使用这种编码技术来编写越狱提示。我们提供了将不安全单词映射到安全单词，并使用这些映射的单词提出不安全问题的映射。实验结果显示，我们提出的越狱攻击成功率（高达59.42%）。
 
-    Natural Language Processing (NLP) aims to analyze the text via techniques in the computer science field. It serves the applications in healthcare, commerce, and education domains. Particularly, NLP has been applied to the education domain to help teaching and learning. In this survey, we review recent advances in NLP with a focus on solving problems related to the education domain. In detail, we begin with introducing the relevant background. Then, we present the taxonomy of NLP in the education domain. Next, we illustrate the task definition, challenges, and corresponding techniques based on the above taxonomy. After that, we showcase some off-the-shelf demonstrations in this domain and conclude with future directions.
+    arXiv:2402.10601v1 Announce Type: cross  Abstract: Large Language Models (LLMs) are aligned to moral and ethical guidelines but remain susceptible to creative prompts called Jailbreak that can bypass the alignment process. However, most jailbreaking prompts contain harmful questions in the natural language (mainly English), which can be detected by the LLM themselves. In this paper, we present jailbreaking prompts encoded using cryptographic techniques. We first present a pilot study on the state-of-the-art LLM, GPT-4, in decoding several safe sentences that have been encrypted using various cryptographic techniques and find that a straightforward word substitution cipher can be decoded most effectively. Motivated by this result, we use this encoding technique for writing jailbreaking prompts. We present a mapping of unsafe words with safe words and ask the unsafe question using these mapped words. Experimental results show an attack success rate (up to 59.42%) of our proposed jailbrea
     
-[^3]: 在这篇论文中，我们介绍了首次将母语识别（Native Language Identification，NLI）应用于土耳其语的研究。
+[^2]: GRDD: 希腊方言自然语言处理的数据集
 
-    Turkish Native Language Identification. (arXiv:2307.14850v1 [cs.CL])
+    GRDD: A Dataset for Greek Dialectal NLP. (arXiv:2308.00802v1 [cs.CL])
 
-    [http://arxiv.org/abs/2307.14850](http://arxiv.org/abs/2307.14850)
+    [http://arxiv.org/abs/2308.00802](http://arxiv.org/abs/2308.00802)
 
-    这项研究首次将母语识别应用于土耳其语,通过分析作者不同语言的写作来预测作者的母语。研究使用了土耳其学习者语料库和三个句法特征来展示其有效性。
-
-    
-
-    在这篇论文中，我们首次将母语识别（NLI）应用于土耳其语。NLI 是通过分析作者不同语言的写作来预测作者的母语。尽管大多数NLI研究都侧重于英语，我们的研究将其范围扩展到土耳其语。我们使用了最近构建的土耳其学习者语料库，并结合了三个句法特征（CFG 产生规则，词性n-gram和函数词）与L2文本，以展示它们在该任务中的有效性。
-
-    In this paper, we present the first application of Native Language Identification (NLI) for the Turkish language. NLI involves predicting the writer's first language by analysing their writing in different languages. While most NLI research has focused on English, our study extends its scope to Turkish. We used the recently constructed Turkish Learner Corpus and employed a combination of three syntactic features (CFG production rules, part-of-speech n-grams and function words) with L2 texts to demonstrate their effectiveness in this task.
-    
-[^4]: SANTA：Distantly-Supervised Named Entity Recognition中处理错误和不完整标注噪声的分离策略
-
-    SANTA: Separate Strategies for Inaccurate and Incomplete Annotation Noise in Distantly-Supervised Named Entity Recognition. (arXiv:2305.04076v1 [cs.CL])
-
-    [http://arxiv.org/abs/2305.04076](http://arxiv.org/abs/2305.04076)
-
-    本文提出了一种处理Distantly-Supervised Named Entity Recognition中错误和不完整标注噪声的分离策略，使用不同的模型构建来应对两种类型的噪声。
+    本文介绍了一个用于研究现代希腊方言的大规模数据集GRDD，并使用该数据集进行方言识别实验，结果显示即使是简单的机器学习模型也能在该任务上表现良好。
 
     
 
-    远程监督命名实体识别有效地减轻了监督设置中耗时且昂贵的注释负担，但是无上下文的匹配过程和知识库的有限覆盖引入了不准确和不完整的标注噪音。本研究提出了使用不同的策略来处理两种类型的噪声的SANTA，以解决由不准确和不完整标注带来的挑战。
+    本文介绍了一个用于研究现代希腊方言的数据集。该数据集包含了克里特、庞提、北希腊和塞浦路斯希腊四种方言的原始文本数据。尽管存在不平衡，但该数据集是相当大的，并且是创建现代希腊方言类似资源的首次尝试。我们还使用该数据集进行方言识别，并尝试了传统的机器学习算法和简单的深度学习架构。结果显示，在这个任务上表现非常好，这可能表明所研究的方言具有足够的独特特征，即使是简单的机器学习模型也能在该任务上表现良好。针对表现最佳的算法进行了错误分析，结果显示在一些情况下错误是由于数据集清理不足造成的。
 
-    Distantly-Supervised Named Entity Recognition effectively alleviates the burden of time-consuming and expensive annotation in the supervised setting. But the context-free matching process and the limited coverage of knowledge bases introduce inaccurate and incomplete annotation noise respectively. Previous studies either considered only incomplete annotation noise or indiscriminately handle two types of noise with the same strategy. In this paper, we argue that the different causes of two types of noise bring up the requirement of different strategies in model architecture. Therefore, we propose the SANTA to handle these two types of noise separately with (1) Memory-smoothed Focal Loss and Entity-aware KNN to relieve the entity ambiguity problem caused by inaccurate annotation, and (2) Boundary Mixup to alleviate decision boundary shifting problem caused by incomplete annotation and a noise-tolerant loss to improve the robustness. Benefiting from our separate tailored strategies, we co
+    In this paper, we present a dataset for the computational study of a number of Modern Greek dialects. It consists of raw text data from four dialects of Modern Greek, Cretan, Pontic, Northern Greek and Cypriot Greek. The dataset is of considerable size, albeit imbalanced, and presents the first attempt to create large scale dialectal resources of this type for Modern Greek dialects. We then use the dataset to perform dialect idefntification. We experiment with traditional ML algorithms, as well as simple DL architectures. The results show very good performance on the task, potentially revealing that the dialects in question have distinct enough characteristics allowing even simple ML models to perform well on the task. Error analysis is performed for the top performing algorithms showing that in a number of cases the errors are due to insufficient dataset cleaning.
     
 
