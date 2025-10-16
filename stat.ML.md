@@ -2,37 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Replicable Learning of Large-Margin Halfspaces](https://arxiv.org/abs/2402.13857) | 该论文提出了解决学习大间距半空间问题的可复制算法，相比之前的算法，在维度无关、时间复杂度优化、样本复杂度方面等多个关键参数上均有显著改进。 |
-| [^2] | [Replicable Clustering.](http://arxiv.org/abs/2302.10359) | 该论文提出了三个针对统计聚类的可复制算法，实现了可复制聚类的概念，其中包括利用近似算法组合问题的黑盒方式解决统计$k$-medians、统计$k$-means和统计$k$-centers问题，并给出了表示算法复杂度的函数和误差限制。 |
+| [^1] | [Hypothesis-Driven Deep Learning for Out of Distribution Detection](https://arxiv.org/abs/2403.14058) | 本论文提出了一种基于假设的深度学习方法，用于量化新样本是否属于内部分布或外部分布，在高风险应用中如医疗保健领域具有重要意义。 |
+| [^2] | [Leveraging Nested MLMC for Sequential Neural Posterior Estimation with Intractable Likelihoods.](http://arxiv.org/abs/2401.16776) | 本研究提出一种嵌套APT方法来解决顺序神经后验估计中的嵌套期望计算问题，从而实现了收敛性分析。 |
+| [^3] | [Clustering with minimum spanning trees: How good can it be?.](http://arxiv.org/abs/2303.05679) | 本文研究了使用最小生成树（MST）进行分区数据聚类任务的意义程度，并发现MST方法在总体上具有很强的竞争力。此外，通过回顾、研究、扩展和推广现有的MST-based划分方案，我们提出了一些新的和值得注意的方法。总体上，Genie和信息论方法往往优于其他非MST算法，在某些情况下MST方法可能不如其他算法。 |
+| [^4] | [Normalised clustering accuracy: An asymmetric external cluster validity measure.](http://arxiv.org/abs/2209.02935) | 本文提出了一种非对称的外部聚类有效度量方法，旨在区分不同任务类型上表现良好和系统性表现不佳的聚类算法。与传统的内部度量不同，该方法利用参考真实分组进行评估，并弥补了现有方法在最坏情况下的误差。 |
 
 # 详细
 
-[^1]: 可复制学习大间距半空间
+[^1]: 基于假设的深度学习用于外域检测
 
-    Replicable Learning of Large-Margin Halfspaces
+    Hypothesis-Driven Deep Learning for Out of Distribution Detection
 
-    [https://arxiv.org/abs/2402.13857](https://arxiv.org/abs/2402.13857)
+    [https://arxiv.org/abs/2403.14058](https://arxiv.org/abs/2403.14058)
 
-    该论文提出了解决学习大间距半空间问题的可复制算法，相比之前的算法，在维度无关、时间复杂度优化、样本复杂度方面等多个关键参数上均有显著改进。
-
-    
-
-    我们提供了有效的可复制算法来解决学习大间距半空间的问题。我们的结果改进了Impagliazzo, Lei, Pitassi和Sorrell在STOC, 2022中提供的算法。我们设计了这个任务的首个与维度无关的可复制算法，其运行时间为多项式，是正确的，并且在所有相关参数方面的样本复杂度都严格比Impagliazzo等人在2022年实现的算法要好。此外，我们的第一个算法在精度参数$\epsilon$方面具有样本复杂度。我们还设计了一个基于SGD的可复制算法，在某些参数范围内，其样本复杂度和时间复杂度优于我们的第一个算法。
-
-    arXiv:2402.13857v1 Announce Type: new  Abstract: We provide efficient replicable algorithms for the problem of learning large-margin halfspaces. Our results improve upon the algorithms provided by Impagliazzo, Lei, Pitassi, and Sorrell [STOC, 2022]. We design the first dimension-independent replicable algorithms for this task which runs in polynomial time, is proper, and has strictly improved sample complexity compared to the one achieved by Impagliazzo et al. [2022] with respect to all the relevant parameters. Moreover, our first algorithm has sample complexity that is optimal with respect to the accuracy parameter $\epsilon$. We also design an SGD-based replicable algorithm that, in some parameters' regimes, achieves better sample and time complexity than our first algorithm.   Departing from the requirement of polynomial time algorithms, using the DP-to-Replicability reduction of Bun, Gaboardi, Hopkins, Impagliazzo, Lei, Pitassi, Sorrell, and Sivakumar [STOC, 2023], we show how to o
-    
-[^2]: 可复制聚类算法
-
-    Replicable Clustering. (arXiv:2302.10359v2 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2302.10359](http://arxiv.org/abs/2302.10359)
-
-    该论文提出了三个针对统计聚类的可复制算法，实现了可复制聚类的概念，其中包括利用近似算法组合问题的黑盒方式解决统计$k$-medians、统计$k$-means和统计$k$-centers问题，并给出了表示算法复杂度的函数和误差限制。
+    本论文提出了一种基于假设的深度学习方法，用于量化新样本是否属于内部分布或外部分布，在高风险应用中如医疗保健领域具有重要意义。
 
     
 
-    我们在最近由Impagliazzo等人[2022]引入的可复制性概念下设计了在统计聚类中可复制的算法。根据这个定义，如果一个聚类算法是可复制的，那么在同一分布的两个不同输入上执行时，只要其内部随机性在执行中得到共享，就能高概率地产生完全相同的样本空间分区。我们通过黑盒的方式利用组合对应问题的近似算法，为统计$k$-medians、统计$k$-means和统计$k$-centers问题提出了这样的算法。特别地，我们展示了一个可复制的$O(1)$-逼近算法，其适用于统计欧几里得$k$-medians ($k$-means)，其样本复杂度为$\operatorname{poly}(d)$。我们还描述了一个$O(1)$-逼近算法，其在统计欧几里得$k$-centers$时具有额外的$O(1)$-加性误差，尽管其样本复杂度为$\exp(d)$。
+    不透明黑盒系统的预测经常用于诸如医疗保健等高风险应用中。对于这类应用，评估模型处理超出训练数据域的样本的方式至关重要。虽然存在几种度量和测试来检测深度神经网络（DNN）中的超出分布（OoD）数据和分布内（InD）数据，但它们的性能在数据集、模型和任务之间存在显著差异，这限制了它们的实际应用。在本文中，我们提出了一种基于假设的方法来量化新样本是InD还是OoD。给定一个训练过的DNN和一些输入，我们首先通过DNN馈送输入并计算一组OoD度量，称为潜在响应。然后，我们将OoD检测问题表述为潜在响应之间的假设检验，并使用基于排列的重新采样来推断在零假设下观察到的潜在响应的显著性。
 
-    We design replicable algorithms in the context of statistical clustering under the recently introduced notion of replicability from Impagliazzo et al. [2022]. According to this definition, a clustering algorithm is replicable if, with high probability, its output induces the exact same partition of the sample space after two executions on different inputs drawn from the same distribution, when its internal randomness is shared across the executions. We propose such algorithms for the statistical $k$-medians, statistical $k$-means, and statistical $k$-centers problems by utilizing approximation routines for their combinatorial counterparts in a black-box manner. In particular, we demonstrate a replicable $O(1)$-approximation algorithm for statistical Euclidean $k$-medians ($k$-means) with $\operatorname{poly}(d)$ sample complexity. We also describe an $O(1)$-approximation algorithm with an additional $O(1)$-additive error for statistical Euclidean $k$-centers, albeit with $\exp(d)$ samp
+    arXiv:2403.14058v1 Announce Type: new  Abstract: Predictions of opaque black-box systems are frequently deployed in high-stakes applications such as healthcare. For such applications, it is crucial to assess how models handle samples beyond the domain of training data. While several metrics and tests exist to detect out-of-distribution (OoD) data from in-distribution (InD) data to a deep neural network (DNN), their performance varies significantly across datasets, models, and tasks, which limits their practical use. In this paper, we propose a hypothesis-driven approach to quantify whether a new sample is InD or OoD. Given a trained DNN and some input, we first feed the input through the DNN and compute an ensemble of OoD metrics, which we term latent responses. We then formulate the OoD detection problem as a hypothesis test between latent responses of different groups, and use permutation-based resampling to infer the significance of the observed latent responses under a null hypothe
+    
+[^2]: 利用嵌套MLMC对具有难以处理的似然函数的顺序神经后验估计进行优化
+
+    Leveraging Nested MLMC for Sequential Neural Posterior Estimation with Intractable Likelihoods. (arXiv:2401.16776v1 [stat.CO])
+
+    [http://arxiv.org/abs/2401.16776](http://arxiv.org/abs/2401.16776)
+
+    本研究提出一种嵌套APT方法来解决顺序神经后验估计中的嵌套期望计算问题，从而实现了收敛性分析。
+
+    
+
+    最近提出了顺序神经后验估计（SNPE）技术，用于处理具有难以处理的似然函数的基于模拟的模型。它们致力于通过使用基于神经网络的条件密度估计器自适应地生成的模拟来学习后验。作为一种SNPE技术，Greenberg等人（2019）提出的自动后验变换（APT）方法表现出色，并可应用于高维数据。然而，APT方法包含计算难以处理的归一化常数的对数的期望，即嵌套期望。尽管原子APT通过离散化归一化常数来解决这个问题，但分析学习的收敛性仍然具有挑战性。在本文中，我们提出了一种嵌套APT方法来估计相关的嵌套期望。这有助于建立收敛性分析。由于损失函数及其梯度的嵌套估计是有偏的，我们进行了
+
+    Sequential neural posterior estimation (SNPE) techniques have been recently proposed for dealing with simulation-based models with intractable likelihoods. They are devoted to learning the posterior from adaptively proposed simulations using neural network-based conditional density estimators. As a SNPE technique, the automatic posterior transformation (APT) method proposed by Greenberg et al. (2019) performs notably and scales to high dimensional data. However, the APT method bears the computation of an expectation of the logarithm of an intractable normalizing constant, i.e., a nested expectation. Although atomic APT was proposed to solve this by discretizing the normalizing constant, it remains challenging to analyze the convergence of learning. In this paper, we propose a nested APT method to estimate the involved nested expectation instead. This facilitates establishing the convergence analysis. Since the nested estimators for the loss function and its gradient are biased, we make
+    
+[^3]: 使用最小生成树进行聚类：能有多好？
+
+    Clustering with minimum spanning trees: How good can it be?. (arXiv:2303.05679v2 [stat.ML] UPDATED)
+
+    [http://arxiv.org/abs/2303.05679](http://arxiv.org/abs/2303.05679)
+
+    本文研究了使用最小生成树（MST）进行分区数据聚类任务的意义程度，并发现MST方法在总体上具有很强的竞争力。此外，通过回顾、研究、扩展和推广现有的MST-based划分方案，我们提出了一些新的和值得注意的方法。总体上，Genie和信息论方法往往优于其他非MST算法，在某些情况下MST方法可能不如其他算法。
+
+    
+
+    最小生成树（MST）在许多模式识别任务中可以提供方便的数据集表示，并且计算相对较快。本文中，我们量化了MST在低维空间的分区数据聚类任务中的意义程度。通过识别最佳（oracle）算法与大量基准数据的专家标签之间的一致性上限，我们发现MST方法在总体上具有很强的竞争力。接下来，我们不是提出另一个只在有限的示例上表现良好的算法，而是回顾、研究、扩展和推广现有的最新MST-based划分方案。这导致了一些新的和值得注意的方法。总体上，Genie和信息论方法往往优于非MST算法，如k-means，高斯混合，谱聚类，Birch，基于密度和经典层次聚类程序。尽管如此，我们还是发现MST方法在某些情况下可能不如其他算法。
+
+    Minimum spanning trees (MSTs) provide a convenient representation of datasets in numerous pattern recognition activities. Moreover, they are relatively fast to compute. In this paper, we quantify the extent to which they can be meaningful in partitional data clustering tasks in low-dimensional spaces. By identifying the upper bounds for the agreement between the best (oracle) algorithm and the expert labels from a large battery of benchmark data, we discover that MST methods are overall very competitive. Next, instead of proposing yet another algorithm that performs well on a limited set of examples, we review, study, extend, and generalise existing, state-of-the-art MST-based partitioning schemes. This leads to a few new and noteworthy approaches. Overall, Genie and the information-theoretic methods often outperform the non-MST algorithms such as k-means, Gaussian mixtures, spectral clustering, Birch, density-based, and classical hierarchical agglomerative procedures. Nevertheless, we
+    
+[^4]: 规范化聚类准确度：一种非对称的外部聚类有效度量
+
+    Normalised clustering accuracy: An asymmetric external cluster validity measure. (arXiv:2209.02935v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2209.02935](http://arxiv.org/abs/2209.02935)
+
+    本文提出了一种非对称的外部聚类有效度量方法，旨在区分不同任务类型上表现良好和系统性表现不佳的聚类算法。与传统的内部度量不同，该方法利用参考真实分组进行评估，并弥补了现有方法在最坏情况下的误差。
+
+    
+
+    没有一个最好的聚类算法，我们仍然希望能够区分出在某些任务类型上表现良好和系统性表现不佳的方法。传统上，聚类算法使用内部或外部有效度量进行评估。内部度量量化所得分区的不同方面，例如，簇紧密度的平均程度或点的可分离性。然而，它们的有效性是有问题的，因为它们促使的聚类有时可能是无意义的。另一方面，外部度量将算法的输出与由专家提供的参考真实分组进行比较。在本文中，我们认为常用的经典分区相似性评分，例如规范化互信息、Fowlkes-Mallows或调整兰德指数，缺少一些可取的属性，例如，它们不能正确识别最坏情况，也不易解释。
+
+    There is no, nor will there ever be, single best clustering algorithm, but we would still like to be able to distinguish between methods which work well on certain task types and those that systematically underperform. Clustering algorithms are traditionally evaluated using either internal or external validity measures. Internal measures quantify different aspects of the obtained partitions, e.g., the average degree of cluster compactness or point separability. Yet, their validity is questionable, because the clusterings they promote can sometimes be meaningless. External measures, on the other hand, compare the algorithms' outputs to the reference, ground truth groupings that are provided by experts. In this paper, we argue that the commonly-used classical partition similarity scores, such as the normalised mutual information, Fowlkes-Mallows, or adjusted Rand index, miss some desirable properties, e.g., they do not identify worst-case scenarios correctly or are not easily interpretab
     
 

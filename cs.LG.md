@@ -2,127 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Deep Conditional Generative Learning: Model and Error Analysis](https://rss.arxiv.org/abs/2402.01460) | 提出了一种基于ODE的深度生成方法，通过条件Follmer流来学习条件分布，通过离散化和深度神经网络实现高效转化。同时，通过Wasserstein距离的非渐近收敛速率，提供了第一个端到端误差分析，数值实验证明其在不同场景下的优越性。 |
-| [^2] | [Discovery of the Hidden World with Large Language Models](https://arxiv.org/abs/2402.03941) | 通过使用大型语言模型，我们提出了COAT：因果表示助手，该助手从原始观测数据中提取潜在的因果因子，并将其转化为结构化数据，为探索隐藏世界提供了新的机会。 |
-| [^3] | [Hyper-STTN: Social Group-aware Spatial-Temporal Transformer Network for Human Trajectory Prediction with Hypergraph Reasoning.](http://arxiv.org/abs/2401.06344) | 本论文提出了Hyper-STTN，一种基于超图的时空转换网络，用于人群轨迹预测。通过构建多尺度超图来捕捉拥挤场景中的群体间相互作用，并利用空间-时间转换器来捕捉行人的成对潜在相互作用。这些异构的群体间和成对间相互作用通过一个多模态转换网络进行融合和对准。 |
-| [^4] | [Human-in-the-Loop Causal Discovery under Latent Confounding using Ancestral GFlowNets.](http://arxiv.org/abs/2309.12032) | 该论文提出了一种人机协同的因果发现方法，通过使用生成流网按照基于评分函数的信念分布采样祖先图，并引入最佳实验设计与专家互动，以提供专家可验证的不确定性估计并迭代改进因果推断。 |
-| [^5] | [Camouflaged Image Synthesis Is All You Need to Boost Camouflaged Detection.](http://arxiv.org/abs/2308.06701) | 该研究提出了一个用于合成伪装数据以改善对自然场景中伪装物体检测的框架，该方法利用生成模型生成逼真的伪装图像，并在三个数据集上取得了优于目前最先进方法的结果。 |
-| [^6] | [Privacy-aware Gaussian Process Regression.](http://arxiv.org/abs/2305.16541) | 以高斯过程回归为基础，我们提出了实现数据隐私保护的方法。方法将综合噪声添加到数据中，使得高斯过程预测模型达到特定的隐私级别。我们还通过核方法介绍了连续隐私约束下的隐私感知解形式，以及研究了其理论性质。所提出的方法应用于卫星轨迹跟踪模型。 |
-| [^7] | [Online Loss Function Learning.](http://arxiv.org/abs/2301.13247) | 在线损失函数学习是一种新的元学习范例，旨在自动化为机器学习模型设计损失函数的重要任务。我们提出了一种新的损失函数学习技术，可以在每次更新基本模型参数后自适应地在线更新损失函数。实验结果表明，我们的方法在多个任务上稳定地优于现有技术。 |
-| [^8] | [Speech Enhancement and Dereverberation with Diffusion-based Generative Models.](http://arxiv.org/abs/2208.05830) | 本文基于扩散生成模型，通过混合噪声语音和高斯噪声进行反向过程，仅使用30步就实现高质量的干净语音估计。调整网络架构，可以显著提高语音增强性能，达到了最新方法的竞争水平。 |
+| [^1] | [PPA-Game: Characterizing and Learning Competitive Dynamics Among Online Content Creators](https://arxiv.org/abs/2403.15524) | 引入了PPA-Game模型来表征类似YouTube和TikTok平台上的内容创作者之间竞争动态，分析显示纯纳什均衡在大多数情况下是常见的，提出了一种在线算法用于最大化每个代理者的累积收益。 |
+| [^2] | [Offline Fictitious Self-Play for Competitive Games](https://arxiv.org/abs/2403.00841) | 本文介绍了Off-FSP，这是竞争游戏的第一个实用的无模型离线RL算法，通过调整固定数据集的权重，使用重要性抽样，模拟与各种对手的互动。 |
+| [^3] | [Optimistic Multi-Agent Policy Gradient for Cooperative Tasks.](http://arxiv.org/abs/2311.01953) | 本论文提出了一个通用的、简单的框架，在多智能体策略梯度方法中引入乐观更新，以缓解合作任务中的相对过度概括问题。通过使用一个泄漏化线性整流函数来重塑优势，我们的方法能够保持对潜在由其他代理引起的低回报个别动作的乐观态度。 |
+| [^4] | [Zero-shot Task Preference Addressing Enabled by Imprecise Bayesian Continual Learning.](http://arxiv.org/abs/2305.14782) | 提出了零样本任务偏好的不精确贝叶斯继续学习（IBCL）算法，该算法更新模型参数分布凸壳形式的知识库，并使用零样本获取模型以满足不同的偏好，使得在具有大量任务偏好的情况下更加可扩展。 |
+| [^5] | [HyFL: A Hybrid Framework For Private Federated Learning.](http://arxiv.org/abs/2302.09904) | HyFL是一种混合框架，它结合了安全多方计算技术和分层联合学习，并能够在分布式环境中保证数据和全局模型的隐私安全，有助于大规模部署。 |
 
 # 详细
 
-[^1]: 深度条件生成学习：模型与误差分析
+[^1]: PPA-Game：表征和学习在线内容创作者之间的竞争动态
 
-    Deep Conditional Generative Learning: Model and Error Analysis
+    PPA-Game: Characterizing and Learning Competitive Dynamics Among Online Content Creators
 
-    [https://rss.arxiv.org/abs/2402.01460](https://rss.arxiv.org/abs/2402.01460)
+    [https://arxiv.org/abs/2403.15524](https://arxiv.org/abs/2403.15524)
 
-    提出了一种基于ODE的深度生成方法，通过条件Follmer流来学习条件分布，通过离散化和深度神经网络实现高效转化。同时，通过Wasserstein距离的非渐近收敛速率，提供了第一个端到端误差分析，数值实验证明其在不同场景下的优越性。
-
-    
-
-    我们介绍了一种基于普通微分方程（ODE）的深度生成方法，用于学习条件分布，称为条件Follmer流。从标准高斯分布开始，所提出的流能够以高效的方式将其转化为目标条件分布，在时间1处达到稳定。为了有效实现，我们使用欧拉方法对流进行离散化，使用深度神经网络非参数化估计速度场。此外，我们导出了学习样本的分布与目标分布之间的Wasserstein距离的非渐近收敛速率，在条件分布学习中提供了第一个全面的端到端误差分析。我们的数值实验展示了它在一系列情况下的有效性，从标准的非参数化条件密度估计问题到涉及图像数据的更复杂的挑战，说明它优于各种现有方法。
-
-    We introduce an Ordinary Differential Equation (ODE) based deep generative method for learning a conditional distribution, named the Conditional Follmer Flow. Starting from a standard Gaussian distribution, the proposed flow could efficiently transform it into the target conditional distribution at time 1. For effective implementation, we discretize the flow with Euler's method where we estimate the velocity field nonparametrically using a deep neural network. Furthermore, we derive a non-asymptotic convergence rate in the Wasserstein distance between the distribution of the learned samples and the target distribution, providing the first comprehensive end-to-end error analysis for conditional distribution learning via ODE flow. Our numerical experiments showcase its effectiveness across a range of scenarios, from standard nonparametric conditional density estimation problems to more intricate challenges involving image data, illustrating its superiority over various existing condition
-    
-[^2]: 用大型语言模型探索隐藏世界
-
-    Discovery of the Hidden World with Large Language Models
-
-    [https://arxiv.org/abs/2402.03941](https://arxiv.org/abs/2402.03941)
-
-    通过使用大型语言模型，我们提出了COAT：因果表示助手，该助手从原始观测数据中提取潜在的因果因子，并将其转化为结构化数据，为探索隐藏世界提供了新的机会。
+    引入了PPA-Game模型来表征类似YouTube和TikTok平台上的内容创作者之间竞争动态，分析显示纯纳什均衡在大多数情况下是常见的，提出了一种在线算法用于最大化每个代理者的累积收益。
 
     
 
-    科学起源于从已知事实和观察中发现新的因果知识。传统的因果发现方法主要依赖于高质量的测量变量，通常由人类专家提供，以找到因果关系。然而，在许多现实世界的应用中，因果变量通常无法获取。大型语言模型（LLMs）的崛起为从原始观测数据中发现高级隐藏变量提供了新的机会。因此，我们介绍了COAT：因果表示助手。COAT将LLMs作为因素提供器引入，提取出来自非结构化数据的潜在因果因子。此外，LLMs还可以被指示提供用于收集数据值（例如注释标准）的额外信息，并将原始非结构化数据进一步解析为结构化数据。注释数据将被输入到...
+    我们引入了比例性收益分配游戏（PPA-Game）来模拟代理者如何竞争可分配资源和消费者的注意力，类似于YouTube和TikTok等平台上的内容创作者。根据异质权重为代理者分配收益，反映了创作者之间内容质量的多样性。我们的分析表明，纯纳什均衡（PNE）并不在每种情况下都有保证，但在我们的模拟中，通常会观察到，其缺乏情况是罕见的。除了分析静态收益外，我们进一步讨论了代理者关于资源收益的在线学习，将多玩家多臂老虎机框架整合在一起。我们提出了一种在线算法，在$T$轮中促进每个代理者累积收益的最大化。从理论上讲，我们建立了任何代理者的遗憾在任何$\eta > 0$下都受到$O(\log^{1 + \eta} T)$的限制。经验结果进一步验证了我们的算法的有效性。
 
-    Science originates with discovering new causal knowledge from a combination of known facts and observations. Traditional causal discovery approaches mainly rely on high-quality measured variables, usually given by human experts, to find causal relations. However, the causal variables are usually unavailable in a wide range of real-world applications. The rise of large language models (LLMs) that are trained to learn rich knowledge from the massive observations of the world, provides a new opportunity to assist with discovering high-level hidden variables from the raw observational data. Therefore, we introduce COAT: Causal representatiOn AssistanT. COAT incorporates LLMs as a factor proposer that extracts the potential causal factors from unstructured data. Moreover, LLMs can also be instructed to provide additional information used to collect data values (e.g., annotation criteria) and to further parse the raw unstructured data into structured data. The annotated data will be fed to a
+    arXiv:2403.15524v1 Announce Type: cross  Abstract: We introduce the Proportional Payoff Allocation Game (PPA-Game) to model how agents, akin to content creators on platforms like YouTube and TikTok, compete for divisible resources and consumers' attention. Payoffs are allocated to agents based on heterogeneous weights, reflecting the diversity in content quality among creators. Our analysis reveals that although a pure Nash equilibrium (PNE) is not guaranteed in every scenario, it is commonly observed, with its absence being rare in our simulations. Beyond analyzing static payoffs, we further discuss the agents' online learning about resource payoffs by integrating a multi-player multi-armed bandit framework. We propose an online algorithm facilitating each agent's maximization of cumulative payoffs over $T$ rounds. Theoretically, we establish that the regret of any agent is bounded by $O(\log^{1 + \eta} T)$ for any $\eta > 0$. Empirical results further validate the effectiveness of ou
     
-[^3]: 超级-STTN：社交群体感知的时空转换网络用于人体轨迹预测与超图推理
+[^2]: 竞争游戏的离线虚构自我对弈
 
-    Hyper-STTN: Social Group-aware Spatial-Temporal Transformer Network for Human Trajectory Prediction with Hypergraph Reasoning. (arXiv:2401.06344v1 [cs.CV] CROSS LISTED)
+    Offline Fictitious Self-Play for Competitive Games
 
-    [http://arxiv.org/abs/2401.06344](http://arxiv.org/abs/2401.06344)
+    [https://arxiv.org/abs/2403.00841](https://arxiv.org/abs/2403.00841)
 
-    本论文提出了Hyper-STTN，一种基于超图的时空转换网络，用于人群轨迹预测。通过构建多尺度超图来捕捉拥挤场景中的群体间相互作用，并利用空间-时间转换器来捕捉行人的成对潜在相互作用。这些异构的群体间和成对间相互作用通过一个多模态转换网络进行融合和对准。
-
-    
-
-    在各种现实世界的应用中，包括服务机器人和自动驾驶汽车，预测拥挤的意图和轨迹是至关重要的。理解环境动态是具有挑战性的，不仅因为对建模成对的空间和时间相互作用的复杂性，还因为群体间相互作用的多样性。为了解码拥挤场景中全面的成对和群体间相互作用，我们引入了Hyper-STTN，这是一种基于超图的时空转换网络，用于人群轨迹预测。在Hyper-STTN中，通过一组多尺度超图构建了拥挤的群体间相关性，这些超图具有不同的群体大小，通过基于随机游走概率的超图谱卷积进行捕捉。此外，还采用了空间-时间转换器来捕捉行人在空间-时间维度上的对照相互作用。然后，这些异构的群体间和成对间相互作用通过一个多模态转换网络进行融合和对准。
-
-    Predicting crowded intents and trajectories is crucial in varouls real-world applications, including service robots and autonomous vehicles. Understanding environmental dynamics is challenging, not only due to the complexities of modeling pair-wise spatial and temporal interactions but also the diverse influence of group-wise interactions. To decode the comprehensive pair-wise and group-wise interactions in crowded scenarios, we introduce Hyper-STTN, a Hypergraph-based Spatial-Temporal Transformer Network for crowd trajectory prediction. In Hyper-STTN, crowded group-wise correlations are constructed using a set of multi-scale hypergraphs with varying group sizes, captured through random-walk robability-based hypergraph spectral convolution. Additionally, a spatial-temporal transformer is adapted to capture pedestrians' pair-wise latent interactions in spatial-temporal dimensions. These heterogeneous group-wise and pair-wise are then fused and aligned though a multimodal transformer net
-    
-[^4]: 人机协同下使用祖先GFlowNets进行潜在混淆的因果发现
-
-    Human-in-the-Loop Causal Discovery under Latent Confounding using Ancestral GFlowNets. (arXiv:2309.12032v1 [cs.LG])
-
-    [http://arxiv.org/abs/2309.12032](http://arxiv.org/abs/2309.12032)
-
-    该论文提出了一种人机协同的因果发现方法，通过使用生成流网按照基于评分函数的信念分布采样祖先图，并引入最佳实验设计与专家互动，以提供专家可验证的不确定性估计并迭代改进因果推断。
+    本文介绍了Off-FSP，这是竞争游戏的第一个实用的无模型离线RL算法，通过调整固定数据集的权重，使用重要性抽样，模拟与各种对手的互动。
 
     
 
-    结构学习是因果推断的关键。值得注意的是，当数据稀缺时，因果发现（CD）算法很脆弱，可能推断出与专家知识相矛盾的不准确因果关系，尤其是考虑到潜在混淆因素时更是如此。为了加重这个问题，大多数CD方法并不提供不确定性估计，这使得用户难以解释结果和改进推断过程。令人惊讶的是，尽管CD是一个以人为中心的事务，但没有任何研究专注于构建既能输出专家可验证的不确定性估计又能与专家进行交互迭代改进的方法。为了解决这些问题，我们首先提出使用生成流网，根据基于评分函数（如贝叶斯信息准则）的信念分布，按比例对（因果）祖先图进行采样。然后，我们利用候选图的多样性并引入最佳实验设计，以迭代性地探索实验来与专家互动。
+    离线强化学习（RL）因其在以前收集的数据集中改进策略而不需要在线交互的能力而受到重视。尽管在单一智能体设置中取得成功，但离线多智能体RL仍然是一个挑战，特别是在竞争游戏中。为了解决这些问题，本文介绍了Off-FSP，这是竞争游戏的第一个实用的无模型离线RL算法。我们首先通过调整固定数据集的权重，使用重要性抽样模拟与各种对手的互动。
 
-    Structure learning is the crux of causal inference. Notably, causal discovery (CD) algorithms are brittle when data is scarce, possibly inferring imprecise causal relations that contradict expert knowledge -- especially when considering latent confounders. To aggravate the issue, most CD methods do not provide uncertainty estimates, making it hard for users to interpret results and improve the inference process. Surprisingly, while CD is a human-centered affair, no works have focused on building methods that both 1) output uncertainty estimates that can be verified by experts and 2) interact with those experts to iteratively refine CD. To solve these issues, we start by proposing to sample (causal) ancestral graphs proportionally to a belief distribution based on a score function, such as the Bayesian information criterion (BIC), using generative flow networks. Then, we leverage the diversity in candidate graphs and introduce an optimal experimental design to iteratively probe the expe
+    arXiv:2403.00841v1 Announce Type: cross  Abstract: Offline Reinforcement Learning (RL) has received significant interest due to its ability to improve policies in previously collected datasets without online interactions. Despite its success in the single-agent setting, offline multi-agent RL remains a challenge, especially in competitive games. Firstly, unaware of the game structure, it is impossible to interact with the opponents and conduct a major learning paradigm, self-play, for competitive games. Secondly, real-world datasets cannot cover all the state and action space in the game, resulting in barriers to identifying Nash equilibrium (NE). To address these issues, this paper introduces Off-FSP, the first practical model-free offline RL algorithm for competitive games. We start by simulating interactions with various opponents by adjusting the weights of the fixed dataset with importance sampling. This technique allows us to learn best responses to different opponents and employ
     
-[^5]: 伪装图像合成是提高伪装物体检测的关键
+[^3]: 乐观的多智能体策略梯度在合作任务中的应用
 
-    Camouflaged Image Synthesis Is All You Need to Boost Camouflaged Detection. (arXiv:2308.06701v1 [cs.CV])
+    Optimistic Multi-Agent Policy Gradient for Cooperative Tasks. (arXiv:2311.01953v1 [cs.LG])
 
-    [http://arxiv.org/abs/2308.06701](http://arxiv.org/abs/2308.06701)
+    [http://arxiv.org/abs/2311.01953](http://arxiv.org/abs/2311.01953)
 
-    该研究提出了一个用于合成伪装数据以改善对自然场景中伪装物体检测的框架，该方法利用生成模型生成逼真的伪装图像，并在三个数据集上取得了优于目前最先进方法的结果。
-
-    
-
-    融入自然场景的伪装物体给深度学习模型检测和合成带来了重大挑战。伪装物体检测是计算机视觉中一个关键任务，具有广泛的实际应用，然而由于数据有限，该研究课题一直受到限制。我们提出了一个用于合成伪装数据以增强对自然场景中伪装物体检测的框架。我们的方法利用生成模型生成逼真的伪装图像，这些图像可以用来训练现有的物体检测模型。具体而言，我们使用伪装环境生成器，由伪装分布分类器进行监督，合成伪装图像，然后将其输入我们的生成器以扩展数据集。我们的框架在三个数据集（COD10k、CAMO和CHAMELEON）上的效果超过了目前最先进的方法，证明了它在改善伪装物体检测方面的有效性。
-
-    Camouflaged objects that blend into natural scenes pose significant challenges for deep-learning models to detect and synthesize. While camouflaged object detection is a crucial task in computer vision with diverse real-world applications, this research topic has been constrained by limited data availability. We propose a framework for synthesizing camouflage data to enhance the detection of camouflaged objects in natural scenes. Our approach employs a generative model to produce realistic camouflage images, which can be used to train existing object detection models. Specifically, we use a camouflage environment generator supervised by a camouflage distribution classifier to synthesize the camouflage images, which are then fed into our generator to expand the dataset. Our framework outperforms the current state-of-the-art method on three datasets (COD10k, CAMO, and CHAMELEON), demonstrating its effectiveness in improving camouflaged object detection. This approach can serve as a plug-
-    
-[^6]: 面向隐私的高斯过程回归
-
-    Privacy-aware Gaussian Process Regression. (arXiv:2305.16541v1 [cs.LG])
-
-    [http://arxiv.org/abs/2305.16541](http://arxiv.org/abs/2305.16541)
-
-    以高斯过程回归为基础，我们提出了实现数据隐私保护的方法。方法将综合噪声添加到数据中，使得高斯过程预测模型达到特定的隐私级别。我们还通过核方法介绍了连续隐私约束下的隐私感知解形式，以及研究了其理论性质。所提出的方法应用于卫星轨迹跟踪模型。
+    本论文提出了一个通用的、简单的框架，在多智能体策略梯度方法中引入乐观更新，以缓解合作任务中的相对过度概括问题。通过使用一个泄漏化线性整流函数来重塑优势，我们的方法能够保持对潜在由其他代理引起的低回报个别动作的乐观态度。
 
     
 
-    我们提出了第一个在隐私约束条件下的高斯过程回归的理论和方法框架。所提出的方法可以在数据所有者因隐私担忧而不愿与公众分享其从其数据构建的高保真监督学习模型时使用。所提出方法的关键思想是通过添加综合噪声来使高斯过程预测模型的预测方差达到预先指定的隐私级别。合成噪声的最优协方差矩阵以半定编程的形式给出。我们还介绍了基于核的方法来研究在连续约束隐私条件下的隐私感知解的形式，并研究了它们的理论属性。所提出的方法使用跟踪卫星轨迹的模型进行了说明。
+    在合作多智能体学习任务中，由于过拟合其他智能体的次优行为，导致智能体收敛到次优联合策略，出现了相对过度概括（RO）问题。早期研究表明，乐观主义可以缓解使用表格化Q学习时的RO问题。然而，对于复杂任务来说，利用函数逼近乐观主义可能加剧过估计，从而失败。另一方面，最近的深度多智能体策略梯度（MAPG）方法在许多复杂任务上取得了成功，但在严重的RO情况下可能失败。我们提出了一个通用而简单的框架，以在MAPG方法中实现乐观更新并缓解RO问题。具体而言，我们使用一个泄漏化线性整流函数，其中一个超参数选择乐观程度以在更新策略时重新塑造优势。直观地说，我们的方法对可能由其他代理引起的回报较低的个别动作保持乐观态度。
 
-    We propose the first theoretical and methodological framework for Gaussian process regression subject to privacy constraints. The proposed method can be used when a data owner is unwilling to share a high-fidelity supervised learning model built from their data with the public due to privacy concerns. The key idea of the proposed method is to add synthetic noise to the data until the predictive variance of the Gaussian process model reaches a prespecified privacy level. The optimal covariance matrix of the synthetic noise is formulated in terms of semi-definite programming. We also introduce the formulation of privacy-aware solutions under continuous privacy constraints using kernel-based approaches, and study their theoretical properties. The proposed method is illustrated by considering a model that tracks the trajectories of satellites.
+    \textit{Relative overgeneralization} (RO) occurs in cooperative multi-agent learning tasks when agents converge towards a suboptimal joint policy due to overfitting to suboptimal behavior of other agents. In early work, optimism has been shown to mitigate the \textit{RO} problem when using tabular Q-learning. However, with function approximation optimism can amplify overestimation and thus fail on complex tasks. On the other hand, recent deep multi-agent policy gradient (MAPG) methods have succeeded in many complex tasks but may fail with severe \textit{RO}. We propose a general, yet simple, framework to enable optimistic updates in MAPG methods and alleviate the RO problem. Specifically, we employ a \textit{Leaky ReLU} function where a single hyperparameter selects the degree of optimism to reshape the advantages when updating the policy. Intuitively, our method remains optimistic toward individual actions with lower returns which are potentially caused by other agents' sub-optimal be
     
-[^7]: 在线损失函数学习
+[^4]: 零样本任务偏好的不精确贝叶斯继续学习
 
-    Online Loss Function Learning. (arXiv:2301.13247v2 [cs.LG] UPDATED)
+    Zero-shot Task Preference Addressing Enabled by Imprecise Bayesian Continual Learning. (arXiv:2305.14782v1 [cs.LG])
 
-    [http://arxiv.org/abs/2301.13247](http://arxiv.org/abs/2301.13247)
+    [http://arxiv.org/abs/2305.14782](http://arxiv.org/abs/2305.14782)
 
-    在线损失函数学习是一种新的元学习范例，旨在自动化为机器学习模型设计损失函数的重要任务。我们提出了一种新的损失函数学习技术，可以在每次更新基本模型参数后自适应地在线更新损失函数。实验结果表明，我们的方法在多个任务上稳定地优于现有技术。
-
-    
-
-    损失函数学习是一种新的元学习范例，旨在自动化为机器学习模型设计损失函数的重要任务。现有的损失函数学习技术已经显示出有希望的结果，经常改善模型的训练动态和最终推理性能。然而，这些技术的一个重要限制是损失函数以线下方式进行元学习，元目标仅考虑训练的前几个步骤，这与训练深度神经网络通常使用的时间范围相比显著较短。这导致对于在训练开始时表现良好但在训练结束时表现不佳的损失函数存在明显的偏差。为了解决这个问题，我们提出了一种新的损失函数学习技术，可以在每次更新基本模型参数后自适应地在线更新损失函数。实验结果表明，我们提出的方法在多个任务上稳定地优于现有技术。
-
-    Loss function learning is a new meta-learning paradigm that aims to automate the essential task of designing a loss function for a machine learning model. Existing techniques for loss function learning have shown promising results, often improving a model's training dynamics and final inference performance. However, a significant limitation of these techniques is that the loss functions are meta-learned in an offline fashion, where the meta-objective only considers the very first few steps of training, which is a significantly shorter time horizon than the one typically used for training deep neural networks. This causes significant bias towards loss functions that perform well at the very start of training but perform poorly at the end of training. To address this issue we propose a new loss function learning technique for adaptively updating the loss function online after each update to the base model parameters. The experimental results show that our proposed method consistently out
-    
-[^8]: 基于扩散生成模型的语音增强和去混响
-
-    Speech Enhancement and Dereverberation with Diffusion-based Generative Models. (arXiv:2208.05830v2 [eess.AS] UPDATED)
-
-    [http://arxiv.org/abs/2208.05830](http://arxiv.org/abs/2208.05830)
-
-    本文基于扩散生成模型，通过混合噪声语音和高斯噪声进行反向过程，仅使用30步就实现高质量的干净语音估计。调整网络架构，可以显著提高语音增强性能，达到了最新方法的竞争水平。
+    提出了零样本任务偏好的不精确贝叶斯继续学习（IBCL）算法，该算法更新模型参数分布凸壳形式的知识库，并使用零样本获取模型以满足不同的偏好，使得在具有大量任务偏好的情况下更加可扩展。
 
     
 
-    在这项工作中，我们基于我们之前的出版物，并使用基于扩散的生成模型进行语音增强。我们详细介绍了基于随机微分方程的扩散过程，并进行了广泛的理论探讨其含义。与通常的条件生成任务相反，我们不是从纯高斯噪声开始反向过程，而是从噪声语音和高斯噪声的混合物开始。这与我们的正向过程相匹配，该过程通过包括漂移项将干净语音转变成噪声语音。我们表明，这个过程使得使用仅30个扩散步骤来生成高质量的干净语音估计成为可能。通过调整网络架构，我们能够显著提高语音增强性能，这表明网络而不是形式主义是我们原始方法的主要限制。在广泛的跨数据集评估中，我们展示了改进后的方法可以与最新的方法竞争。
+    类似于通用的多任务学习，继续学习也具有多目标优化的特性，因此需要在不同任务的性能之间进行平衡。也就是说，为了优化当前任务分布，可能需要在一些任务上牺牲性能以提高其他任务的性能。这意味着存在多个模型，每个模型在不同的时间都是最优的，每个模型都能够解决不同的任务-性能权衡问题。研究人员已经讨论如何训练特定的模型以满足交易偏好。然而，现有的算法需要额外的采样开销-在存在多个，可能是无限数量的偏好时会产生很大的负担。因此，我们提出了不精确贝叶斯继续学习（IBCL）。一旦有新任务，IBCL会（1）更新一个以模型参数分布凸壳形式存在的知识库，（2）并使用零样本获取特定模型以满足不同的偏好。也就是说，IBCL不需要任何额外的数据就能为一个特定的任务偏好生成新的模型，使得在具有大量任务偏好的情况下更加可扩展。
 
-    In this work, we build upon our previous publication and use diffusion-based generative models for speech enhancement. We present a detailed overview of the diffusion process that is based on a stochastic differential equation and delve into an extensive theoretical examination of its implications. Opposed to usual conditional generation tasks, we do not start the reverse process from pure Gaussian noise but from a mixture of noisy speech and Gaussian noise. This matches our forward process which moves from clean speech to noisy speech by including a drift term. We show that this procedure enables using only 30 diffusion steps to generate high-quality clean speech estimates. By adapting the network architecture, we are able to significantly improve the speech enhancement performance, indicating that the network, rather than the formalism, was the main limitation of our original approach. In an extensive cross-dataset evaluation, we show that the improved method can compete with recent 
+    Like generic multi-task learning, continual learning has the nature of multi-objective optimization, and therefore faces a trade-off between the performance of different tasks. That is, to optimize for the current task distribution, it may need to compromise performance on some tasks to improve on others. This means there exist multiple models that are each optimal at different times, each addressing a distinct task-performance trade-off. Researchers have discussed how to train particular models to address specific preferences on these trade-offs. However, existing algorithms require additional sample overheads -- a large burden when there are multiple, possibly infinitely many, preferences. As a response, we propose Imprecise Bayesian Continual Learning (IBCL). Upon a new task, IBCL (1) updates a knowledge base in the form of a convex hull of model parameter distributions and (2) obtains particular models to address preferences with zero-shot. That is, IBCL does not require any additi
+    
+[^5]: HyFL:一种用于私有联合学习的混合框架
+
+    HyFL: A Hybrid Framework For Private Federated Learning. (arXiv:2302.09904v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2302.09904](http://arxiv.org/abs/2302.09904)
+
+    HyFL是一种混合框架，它结合了安全多方计算技术和分层联合学习，并能够在分布式环境中保证数据和全局模型的隐私安全，有助于大规模部署。
+
+    
+
+    联合学习已经成为分布式机器学习的有效方法，通过在客户端设备上保留训练数据来确保数据隐私。然而，最近的研究强调了FL中的漏洞，包括通过单个模型更新甚至整个全局模型泄漏敏感信息。虽然关注点已放在客户端数据隐私上，但有限的研究解决了全局模型隐私问题。此外，客户端本地训练为恶意客户端启动强大的模型污染攻击开辟了途径。不幸的是，目前没有现有工作提供全面解决所有这些问题的解决方案。因此，我们介绍了HyFL，这是一种混合框架，可实现数据和全局模型隐私，并促进大规模部署。HyFL的基础是安全多方计算技术和分层联合学习的独特组合。在HyFL的训练过程中，客户端模型在多个抽象层次上进行安全聚合，以在分布式环境中提供隐私保护。实验证明，HyFL在大规模数据集上实现良好性能，同时确保客户端数据和全局模型的强大隐私和安全保障。
+
+    Federated learning (FL) has emerged as an efficient approach for large-scale distributed machine learning, ensuring data privacy by keeping training data on client devices. However, recent research has highlighted vulnerabilities in FL, including the potential disclosure of sensitive information through individual model updates and even the aggregated global model. While much attention has been given to clients' data privacy, limited research has addressed the issue of global model privacy. Furthermore, local training at the client's side has opened avenues for malicious clients to launch powerful model poisoning attacks. Unfortunately, no existing work has provided a comprehensive solution that tackles all these issues. Therefore, we introduce HyFL, a hybrid framework that enables data and global model privacy while facilitating large-scale deployments. The foundation of HyFL is a unique combination of secure multi-party computation (MPC) techniques with hierarchical federated learnin
     
 

@@ -2,37 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Proofs for the New Definitions in Financial Markets.](http://arxiv.org/abs/2309.03003) | 本研究提供了金融市场新定义的证明，通过构造定理来确定新定义中的效用曲线形状。与标准理论不同，新定义中出现了严格凹性、严格凸性或线性的情况。 |
-| [^2] | [An optimal transport approach for the multiple quantile hedging problem.](http://arxiv.org/abs/2308.01121) | 这篇论文提出了一种最优输运方法解决多分位数对冲问题，在非线性市场中，将该问题重构为一个蒙特卡罗最优输运问题，在线性市场中引入了半离散最优输运问题，并设计了基于SGA算法的数值方法来计算多分位数对冲价格。 |
+| [^1] | [An extended Merton problem with relaxed benchmark tracking.](http://arxiv.org/abs/2304.10802) | 本文在Merton问题中增加基准跟踪，提出了一种放松的跟踪公式，并采用反射辅助状态过程，通过双重转换和概率表示，得到了等效的随机控制问题，并且可以明确地解决。通过这种方法，我们可以清晰地了解资产的组成和绩效。 |
 
 # 详细
 
-[^1]: 金融市场新定义的证明
+[^1]: 一种拓展的Merton问题解决了放宽基准跟踪的难题
 
-    Proofs for the New Definitions in Financial Markets. (arXiv:2309.03003v1 [q-fin.GN])
+    An extended Merton problem with relaxed benchmark tracking. (arXiv:2304.10802v1 [math.OC])
 
-    [http://arxiv.org/abs/2309.03003](http://arxiv.org/abs/2309.03003)
+    [http://arxiv.org/abs/2304.10802](http://arxiv.org/abs/2304.10802)
 
-    本研究提供了金融市场新定义的证明，通过构造定理来确定新定义中的效用曲线形状。与标准理论不同，新定义中出现了严格凹性、严格凸性或线性的情况。
-
-    
-
-    构造定理可以帮助确定金融市场新定义中构成的某些效用曲线的形状。本研究旨在为这些定理提供证明。尽管风险厌恶、风险爱好和风险中性等术语在标准理论中分别等同于严格凹性、严格凸性和线性，但某些新定义满足严格凹性或严格凸性，或线性。
-
-    Constructing theorems can help to determine the shape of certain utility curves that make up the new definitions in financial markets. The aim of this study was to present proofs for these theorems. Although the terms of risk-averse, risk-loving, and risk-neutral are equivalent to strict concavity, strict convexity, and linearity, respectively, in standard theory, certain new definitions satisfy strict concavity or strict convexity, or linearity.
-    
-[^2]: 多分位数对冲问题的最优输运方法
-
-    An optimal transport approach for the multiple quantile hedging problem. (arXiv:2308.01121v1 [math.PR])
-
-    [http://arxiv.org/abs/2308.01121](http://arxiv.org/abs/2308.01121)
-
-    这篇论文提出了一种最优输运方法解决多分位数对冲问题，在非线性市场中，将该问题重构为一个蒙特卡罗最优输运问题，在线性市场中引入了半离散最优输运问题，并设计了基于SGA算法的数值方法来计算多分位数对冲价格。
+    本文在Merton问题中增加基准跟踪，提出了一种放松的跟踪公式，并采用反射辅助状态过程，通过双重转换和概率表示，得到了等效的随机控制问题，并且可以明确地解决。通过这种方法，我们可以清晰地了解资产的组成和绩效。
 
     
 
-    我们考虑多分位数对冲问题，这是一类包含分位数对冲问题（F{\"o}llmer \& Leukert 1999）和PnL匹配问题（Bouchard \& Vu 2012）作为特例的部分对冲问题。在非线性完全市场中，我们展示了这个问题可以重构为一种蒙特卡罗最优输运问题。利用这个观察，我们引入了该问题的Kantorovitch版本，并证明了两个问题的价值是相等的。在线性情况下，我们得到多分位数对冲问题可以看作是一种半离散最优输运问题，并进一步引入了对偶问题。然后，我们证明不存在对偶间隙，使我们能够设计基于SGA算法的数值方法来计算多分位数对冲价格。
+    本文研究了Merton的最优投资组合和消费问题，其扩展形式包括跟踪由几何布朗运动描述的基准过程。我们考虑一种放松的跟踪公式，即资产过程通过虚拟资本注入表现优于外部基准。基金经理旨在最大化消费的预期效用，减去资本注入成本，后者也可以视为相对于基准的预期最大缺口。通过引入一个具有反射的辅助状态过程，我们通过双重转换和概率表示制定和解决了等效的随机控制问题，其中对偶PDE可以明确地解决。凭借闭式结果的力量，我们可以导出并验证原始控制问题的半解析形式的反馈最优控制，从而使我们能够清晰地了解资产的组成和绩效。
 
-    We consider the multiple quantile hedging problem, which is a class of partial hedging problems containing as special examples the quantile hedging problem (F{\"o}llmer \& Leukert 1999) and the PnL matching problem (introduced in Bouchard \& Vu 2012). In complete non-linear markets, we show that the problem can be reformulated as a kind of Monge optimal transport problem. Using this observation, we introduce a Kantorovitch version of the problem and prove that the value of both problems coincide. In the linear case, we thus obtain that the multiple quantile hedging problem can be seen as a semi-discrete optimal transport problem, for which we further introduce the dual problem. We then prove that there is no duality gap, allowing us to design a numerical method based on SGA algorithms to compute the multiple quantile hedging price.
+    This paper studies a Merton's optimal portfolio and consumption problem in an extended formulation incorporating the tracking of a benchmark process described by a geometric Brownian motion. We consider a relaxed tracking formulation such that that the wealth process compensated by a fictitious capital injection outperforms the external benchmark at all times. The fund manager aims to maximize the expected utility of consumption deducted by the cost of the capital injection, where the latter term can also be regarded as the expected largest shortfall with reference to the benchmark. By introducing an auxiliary state process with reflection, we formulate and tackle an equivalent stochastic control problem by means of the dual transform and probabilistic representation, where the dual PDE can be solved explicitly. On the strength of the closed-form results, we can derive and verify the feedback optimal control in the semi-analytical form for the primal control problem, allowing us to obs
     
 

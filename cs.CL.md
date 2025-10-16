@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Jailbreaking Proprietary Large Language Models using Word Substitution Cipher](https://arxiv.org/abs/2402.10601) | 本文使用密码技术编码了越狱提示，成功地绕过了大型语言模型对有害问题的检测，实验结果显示攻击成功率高达59.42%。 |
-| [^2] | [GRDD: A Dataset for Greek Dialectal NLP.](http://arxiv.org/abs/2308.00802) | 本文介绍了一个用于研究现代希腊方言的大规模数据集GRDD，并使用该数据集进行方言识别实验，结果显示即使是简单的机器学习模型也能在该任务上表现良好。 |
+| [^1] | [Multi: Multimodal Understanding Leaderboard with Text and Images](https://arxiv.org/abs/2402.03173) | Multi是一个多模态理解的排行榜，提供了一个综合数据集，评估多模态大型语言模型对理解复杂图表和科学问题的能力。它兼具准确和开放式的回答形式，挑战MLLM的各种任务，并包含超过18,000个问题。 |
+| [^2] | [LLM-FuncMapper: Function Identification for Interpreting Complex Clauses in Building Codes via LLM.](http://arxiv.org/abs/2308.08728) | LLM-FuncMapper提出了一种通过LLM实现对建筑法规中复杂条款的函数识别的方法，通过定义原子函数和开发提示模板来解决传统逻辑表示的限制。 |
 
 # 详细
 
-[^1]: 使用单词替换密码来越狱专有的大型语言模型
+[^1]: 多模态：文本和图像的多模态理解排行榜
 
-    Jailbreaking Proprietary Large Language Models using Word Substitution Cipher
+    Multi: Multimodal Understanding Leaderboard with Text and Images
 
-    [https://arxiv.org/abs/2402.10601](https://arxiv.org/abs/2402.10601)
+    [https://arxiv.org/abs/2402.03173](https://arxiv.org/abs/2402.03173)
 
-    本文使用密码技术编码了越狱提示，成功地绕过了大型语言模型对有害问题的检测，实验结果显示攻击成功率高达59.42%。
-
-    
-
-    大型语言模型（LLMs）遵循道德和伦理准则，但仍然容易受到名为Jailbreak的创意提示的影响，这些提示可以绕过对齐过程。然而，大多数越狱提示包含自然语言（主要是英语）中的有害问题，可以被LLMs自身检测到。本文提出了使用密码技术编码的越狱提示。我们首先在最先进的LLM，GPT-4上进行了一个试点研究，解码了使用各种密码技术加密的几个安全句子，发现简单的单词替换密码可以被最有效地解码。受此结果启发，我们使用这种编码技术来编写越狱提示。我们提供了将不安全单词映射到安全单词，并使用这些映射的单词提出不安全问题的映射。实验结果显示，我们提出的越狱攻击成功率（高达59.42%）。
-
-    arXiv:2402.10601v1 Announce Type: cross  Abstract: Large Language Models (LLMs) are aligned to moral and ethical guidelines but remain susceptible to creative prompts called Jailbreak that can bypass the alignment process. However, most jailbreaking prompts contain harmful questions in the natural language (mainly English), which can be detected by the LLM themselves. In this paper, we present jailbreaking prompts encoded using cryptographic techniques. We first present a pilot study on the state-of-the-art LLM, GPT-4, in decoding several safe sentences that have been encrypted using various cryptographic techniques and find that a straightforward word substitution cipher can be decoded most effectively. Motivated by this result, we use this encoding technique for writing jailbreaking prompts. We present a mapping of unsafe words with safe words and ask the unsafe question using these mapped words. Experimental results show an attack success rate (up to 59.42%) of our proposed jailbrea
-    
-[^2]: GRDD: 希腊方言自然语言处理的数据集
-
-    GRDD: A Dataset for Greek Dialectal NLP. (arXiv:2308.00802v1 [cs.CL])
-
-    [http://arxiv.org/abs/2308.00802](http://arxiv.org/abs/2308.00802)
-
-    本文介绍了一个用于研究现代希腊方言的大规模数据集GRDD，并使用该数据集进行方言识别实验，结果显示即使是简单的机器学习模型也能在该任务上表现良好。
+    Multi是一个多模态理解的排行榜，提供了一个综合数据集，评估多模态大型语言模型对理解复杂图表和科学问题的能力。它兼具准确和开放式的回答形式，挑战MLLM的各种任务，并包含超过18,000个问题。
 
     
 
-    本文介绍了一个用于研究现代希腊方言的数据集。该数据集包含了克里特、庞提、北希腊和塞浦路斯希腊四种方言的原始文本数据。尽管存在不平衡，但该数据集是相当大的，并且是创建现代希腊方言类似资源的首次尝试。我们还使用该数据集进行方言识别，并尝试了传统的机器学习算法和简单的深度学习架构。结果显示，在这个任务上表现非常好，这可能表明所研究的方言具有足够的独特特征，即使是简单的机器学习模型也能在该任务上表现良好。针对表现最佳的算法进行了错误分析，结果显示在一些情况下错误是由于数据集清理不足造成的。
+    多模态大型语言模型（MLLM）的快速进展强调了向学术界引入具有挑战性而又真实的基准的需求。现有的基准主要关注简单的自然图像理解，但Multi成为了MLLM的尖端基准，提供了一个综合性的数据集，用于评估MLLM对理解复杂图表和科学问题的能力。该基准反映了当前真实的考试风格，提供多模态的输入，并要求准确或开放式的回答，类似于现实中的学校考试。它通过各种任务挑战MLLM，从公式推导到图像细节分析，以及跨模态推理。Multi包括超过18,000个问题，重点关注不同格式的基于科学的问答。我们还引入了Multi-Elite，一个包含500个问题的子集，用于测试MLLM的极端情况，以及Multi-Extend，通过超过4..。
 
-    In this paper, we present a dataset for the computational study of a number of Modern Greek dialects. It consists of raw text data from four dialects of Modern Greek, Cretan, Pontic, Northern Greek and Cypriot Greek. The dataset is of considerable size, albeit imbalanced, and presents the first attempt to create large scale dialectal resources of this type for Modern Greek dialects. We then use the dataset to perform dialect idefntification. We experiment with traditional ML algorithms, as well as simple DL architectures. The results show very good performance on the task, potentially revealing that the dialects in question have distinct enough characteristics allowing even simple ML models to perform well on the task. Error analysis is performed for the top performing algorithms showing that in a number of cases the errors are due to insufficient dataset cleaning.
+    Rapid progress in multimodal large language models (MLLMs) highlights the need to introduce challenging yet realistic benchmarks to the academic community. Existing benchmarks primarily focus on simple natural image understanding, but Multi emerges as a cutting-edge benchmark for MLLMs, offering a comprehensive dataset for evaluating MLLMs against understanding complex figures and tables, and scientific questions. This benchmark, reflecting current realistic examination styles, provides multimodal inputs and requires responses that are either precise or open-ended, similar to real-life school tests. It challenges MLLMs with a variety of tasks, ranging from formula derivation to image detail analysis, and cross-modality reasoning. Multi includes over 18,000 questions, with a focus on science-based QA in diverse formats. We also introduce Multi-Elite, a 500-question subset for testing the extremities of MLLMs, and Multi-Extend, which enhances In-Context Learning research with more than 4
+    
+[^2]: LLM-FuncMapper:通过LLM解释建筑法规中的复杂条款的函数识别
+
+    LLM-FuncMapper: Function Identification for Interpreting Complex Clauses in Building Codes via LLM. (arXiv:2308.08728v1 [cs.AI])
+
+    [http://arxiv.org/abs/2308.08728](http://arxiv.org/abs/2308.08728)
+
+    LLM-FuncMapper提出了一种通过LLM实现对建筑法规中复杂条款的函数识别的方法，通过定义原子函数和开发提示模板来解决传统逻辑表示的限制。
+
+    
+
+    作为自动化规则检查（ARC）的关键阶段，对监管性文本的规则解释需要相当大的努力。然而，由于缺乏领域知识和传统逻辑表示的表达能力有限，解释具有隐式属性或复杂计算逻辑的监管条款仍然具有挑战性。因此，提出了一种基于大型语言模型（LLM）的识别各种监管条款所需的预定义函数的方法LLM-FuncMapper。首先，通过对建筑法规进行系统分析，定义了一系列原子函数，以捕捉隐式属性和复杂约束的共享计算逻辑，创建了常见块的数据库，用于解释监管条款。然后，开发了一个具有思维链的提示模板，并通过基于分类的调优策略进一步增强，以实现有效的函数识别功能。最后，验证了所提出的方法。
+
+    As a vital stage of automated rule checking (ARC), rule interpretation of regulatory texts requires considerable effort. However, interpreting regulatory clauses with implicit properties or complex computational logic is still challenging due to the lack of domain knowledge and limited expressibility of conventional logic representations. Thus, LLM-FuncMapper, an approach to identifying predefined functions needed to interpret various regulatory clauses based on the large language model (LLM), is proposed. First, by systematically analysis of building codes, a series of atomic functions are defined to capture shared computational logics of implicit properties and complex constraints, creating a database of common blocks for interpreting regulatory clauses. Then, a prompt template with the chain of thought is developed and further enhanced with a classification-based tuning strategy, to enable common LLMs for effective function identification. Finally, the proposed approach is validated
     
 
