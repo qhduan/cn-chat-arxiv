@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Multi: Multimodal Understanding Leaderboard with Text and Images](https://arxiv.org/abs/2402.03173) | Multi是一个多模态理解的排行榜，提供了一个综合数据集，评估多模态大型语言模型对理解复杂图表和科学问题的能力。它兼具准确和开放式的回答形式，挑战MLLM的各种任务，并包含超过18,000个问题。 |
-| [^2] | [LLM-FuncMapper: Function Identification for Interpreting Complex Clauses in Building Codes via LLM.](http://arxiv.org/abs/2308.08728) | LLM-FuncMapper提出了一种通过LLM实现对建筑法规中复杂条款的函数识别的方法，通过定义原子函数和开发提示模板来解决传统逻辑表示的限制。 |
+| [^1] | [Interpretability and Transparency-Driven Detection and Transformation of Textual Adversarial Examples (IT-DT).](http://arxiv.org/abs/2307.01225) | 通过提出的解释性和透明性驱动的检测与转换（IT-DT）框架，我们在检测和转换文本对抗示例方面注重解释性和透明性。这个框架利用了注意力图、集成梯度和模型反馈等技术，在检测阶段有助于识别对对抗性分类有贡献的显著特征和扰动词语，并在转换阶段使用预训练的嵌入和模型反馈来生成扰动词语的最佳替代，以将对抗性示例转换为正常示例。 |
+| [^2] | [EasyNER: A Customizable Easy-to-Use Pipeline for Deep Learning- and Dictionary-based Named Entity Recognition from Medical Text.](http://arxiv.org/abs/2304.07805) | EasyNER是一种用于在医学研究文章中识别命名实体的端到端工具。它基于深度学习模型和字典方法，并且易于使用和定制。在COVID-19相关文章数据集上的应用证明了其可以准确地识别所需实体。 |
 
 # 详细
 
-[^1]: 多模态：文本和图像的多模态理解排行榜
+[^1]: 解释性和透明性驱动的文本对抗示例的检测与转换（IT-DT）
 
-    Multi: Multimodal Understanding Leaderboard with Text and Images
+    Interpretability and Transparency-Driven Detection and Transformation of Textual Adversarial Examples (IT-DT). (arXiv:2307.01225v1 [cs.CL])
 
-    [https://arxiv.org/abs/2402.03173](https://arxiv.org/abs/2402.03173)
+    [http://arxiv.org/abs/2307.01225](http://arxiv.org/abs/2307.01225)
 
-    Multi是一个多模态理解的排行榜，提供了一个综合数据集，评估多模态大型语言模型对理解复杂图表和科学问题的能力。它兼具准确和开放式的回答形式，挑战MLLM的各种任务，并包含超过18,000个问题。
-
-    
-
-    多模态大型语言模型（MLLM）的快速进展强调了向学术界引入具有挑战性而又真实的基准的需求。现有的基准主要关注简单的自然图像理解，但Multi成为了MLLM的尖端基准，提供了一个综合性的数据集，用于评估MLLM对理解复杂图表和科学问题的能力。该基准反映了当前真实的考试风格，提供多模态的输入，并要求准确或开放式的回答，类似于现实中的学校考试。它通过各种任务挑战MLLM，从公式推导到图像细节分析，以及跨模态推理。Multi包括超过18,000个问题，重点关注不同格式的基于科学的问答。我们还引入了Multi-Elite，一个包含500个问题的子集，用于测试MLLM的极端情况，以及Multi-Extend，通过超过4..。
-
-    Rapid progress in multimodal large language models (MLLMs) highlights the need to introduce challenging yet realistic benchmarks to the academic community. Existing benchmarks primarily focus on simple natural image understanding, but Multi emerges as a cutting-edge benchmark for MLLMs, offering a comprehensive dataset for evaluating MLLMs against understanding complex figures and tables, and scientific questions. This benchmark, reflecting current realistic examination styles, provides multimodal inputs and requires responses that are either precise or open-ended, similar to real-life school tests. It challenges MLLMs with a variety of tasks, ranging from formula derivation to image detail analysis, and cross-modality reasoning. Multi includes over 18,000 questions, with a focus on science-based QA in diverse formats. We also introduce Multi-Elite, a 500-question subset for testing the extremities of MLLMs, and Multi-Extend, which enhances In-Context Learning research with more than 4
-    
-[^2]: LLM-FuncMapper:通过LLM解释建筑法规中的复杂条款的函数识别
-
-    LLM-FuncMapper: Function Identification for Interpreting Complex Clauses in Building Codes via LLM. (arXiv:2308.08728v1 [cs.AI])
-
-    [http://arxiv.org/abs/2308.08728](http://arxiv.org/abs/2308.08728)
-
-    LLM-FuncMapper提出了一种通过LLM实现对建筑法规中复杂条款的函数识别的方法，通过定义原子函数和开发提示模板来解决传统逻辑表示的限制。
+    通过提出的解释性和透明性驱动的检测与转换（IT-DT）框架，我们在检测和转换文本对抗示例方面注重解释性和透明性。这个框架利用了注意力图、集成梯度和模型反馈等技术，在检测阶段有助于识别对对抗性分类有贡献的显著特征和扰动词语，并在转换阶段使用预训练的嵌入和模型反馈来生成扰动词语的最佳替代，以将对抗性示例转换为正常示例。
 
     
 
-    作为自动化规则检查（ARC）的关键阶段，对监管性文本的规则解释需要相当大的努力。然而，由于缺乏领域知识和传统逻辑表示的表达能力有限，解释具有隐式属性或复杂计算逻辑的监管条款仍然具有挑战性。因此，提出了一种基于大型语言模型（LLM）的识别各种监管条款所需的预定义函数的方法LLM-FuncMapper。首先，通过对建筑法规进行系统分析，定义了一系列原子函数，以捕捉隐式属性和复杂约束的共享计算逻辑，创建了常见块的数据库，用于解释监管条款。然后，开发了一个具有思维链的提示模板，并通过基于分类的调优策略进一步增强，以实现有效的函数识别功能。最后，验证了所提出的方法。
+    基于Transformer的文本分类器如BERT、Roberta、T5和GPT-3在自然语言处理方面展示了令人印象深刻的性能。然而，它们对于对抗性示例的脆弱性提出了安全风险。现有的防御方法缺乏解释性，很难理解对抗性分类并识别模型的漏洞。为了解决这个问题，我们提出了解释性和透明性驱动的检测与转换（IT-DT）框架。它专注于在检测和转换文本对抗示例时的解释性和透明性。IT-DT利用注意力图、集成梯度和模型反馈等技术进行解释性检测。这有助于识别对对抗性分类有贡献的显著特征和扰动词语。在转换阶段，IT-DT利用预训练的嵌入和模型反馈来生成扰动词语的最佳替代。通过找到合适的替换，我们的目标是将对抗性示例转换为正常示例。
 
-    As a vital stage of automated rule checking (ARC), rule interpretation of regulatory texts requires considerable effort. However, interpreting regulatory clauses with implicit properties or complex computational logic is still challenging due to the lack of domain knowledge and limited expressibility of conventional logic representations. Thus, LLM-FuncMapper, an approach to identifying predefined functions needed to interpret various regulatory clauses based on the large language model (LLM), is proposed. First, by systematically analysis of building codes, a series of atomic functions are defined to capture shared computational logics of implicit properties and complex constraints, creating a database of common blocks for interpreting regulatory clauses. Then, a prompt template with the chain of thought is developed and further enhanced with a classification-based tuning strategy, to enable common LLMs for effective function identification. Finally, the proposed approach is validated
+    Transformer-based text classifiers like BERT, Roberta, T5, and GPT-3 have shown impressive performance in NLP. However, their vulnerability to adversarial examples poses a security risk. Existing defense methods lack interpretability, making it hard to understand adversarial classifications and identify model vulnerabilities. To address this, we propose the Interpretability and Transparency-Driven Detection and Transformation (IT-DT) framework. It focuses on interpretability and transparency in detecting and transforming textual adversarial examples. IT-DT utilizes techniques like attention maps, integrated gradients, and model feedback for interpretability during detection. This helps identify salient features and perturbed words contributing to adversarial classifications. In the transformation phase, IT-DT uses pre-trained embeddings and model feedback to generate optimal replacements for perturbed words. By finding suitable substitutions, we aim to convert adversarial examples into
+    
+[^2]: EasyNER：一种可定制的易于使用的医学文本深度学习和基于字典的命名实体识别工具
+
+    EasyNER: A Customizable Easy-to-Use Pipeline for Deep Learning- and Dictionary-based Named Entity Recognition from Medical Text. (arXiv:2304.07805v1 [q-bio.QM])
+
+    [http://arxiv.org/abs/2304.07805](http://arxiv.org/abs/2304.07805)
+
+    EasyNER是一种用于在医学研究文章中识别命名实体的端到端工具。它基于深度学习模型和字典方法，并且易于使用和定制。在COVID-19相关文章数据集上的应用证明了其可以准确地识别所需实体。
+
+    
+
+    医学研究已经产生了大量出版物，PubMed数据库已经收录了超过3,500万篇研究文章。整合这些分散在大量文献中的知识可以提供有关生理机制和导致新型医学干预的疾病过程的关键见解。然而，对于研究人员来说，利用这些信息成为一个巨大挑战，因为数据的规模和复杂性远远超出了人类的处理能力。在COVID-19大流行的紧急情况下，这尤其成为问题。自动化文本挖掘可以帮助从大量医学研究文章中提取和连接信息。文本挖掘的第一步通常是识别特定类别的关键字（例如所有蛋白质或疾病名称），即命名实体识别（NER）。本文提出了一种端到端的NER工具EasyNER，用于识别医学研究文章中的典型实体，包括疾病名称、药物名称和蛋白质名称。EasyNER基于深度学习模型和基于字典的方法，旨在对自然语言处理具有不同经验水平的研究人员易于使用和定制。我们将EasyNER应用于COVID-19相关文章的数据集中并展示它可以准确地识别感兴趣的实体，为下游分析提供有用的信息。
+
+    Medical research generates a large number of publications with the PubMed database already containing >35 million research articles. Integration of the knowledge scattered across this large body of literature could provide key insights into physiological mechanisms and disease processes leading to novel medical interventions. However, it is a great challenge for researchers to utilize this information in full since the scale and complexity of the data greatly surpasses human processing abilities. This becomes especially problematic in cases of extreme urgency like the COVID-19 pandemic. Automated text mining can help extract and connect information from the large body of medical research articles. The first step in text mining is typically the identification of specific classes of keywords (e.g., all protein or disease names), so called Named Entity Recognition (NER). Here we present an end-to-end pipeline for NER of typical entities found in medical research articles, including diseas
     
 

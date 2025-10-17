@@ -2,82 +2,112 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [PPA-Game: Characterizing and Learning Competitive Dynamics Among Online Content Creators](https://arxiv.org/abs/2403.15524) | 引入了PPA-Game模型来表征类似YouTube和TikTok平台上的内容创作者之间竞争动态，分析显示纯纳什均衡在大多数情况下是常见的，提出了一种在线算法用于最大化每个代理者的累积收益。 |
-| [^2] | [Offline Fictitious Self-Play for Competitive Games](https://arxiv.org/abs/2403.00841) | 本文介绍了Off-FSP，这是竞争游戏的第一个实用的无模型离线RL算法，通过调整固定数据集的权重，使用重要性抽样，模拟与各种对手的互动。 |
-| [^3] | [Optimistic Multi-Agent Policy Gradient for Cooperative Tasks.](http://arxiv.org/abs/2311.01953) | 本论文提出了一个通用的、简单的框架，在多智能体策略梯度方法中引入乐观更新，以缓解合作任务中的相对过度概括问题。通过使用一个泄漏化线性整流函数来重塑优势，我们的方法能够保持对潜在由其他代理引起的低回报个别动作的乐观态度。 |
-| [^4] | [Zero-shot Task Preference Addressing Enabled by Imprecise Bayesian Continual Learning.](http://arxiv.org/abs/2305.14782) | 提出了零样本任务偏好的不精确贝叶斯继续学习（IBCL）算法，该算法更新模型参数分布凸壳形式的知识库，并使用零样本获取模型以满足不同的偏好，使得在具有大量任务偏好的情况下更加可扩展。 |
-| [^5] | [HyFL: A Hybrid Framework For Private Federated Learning.](http://arxiv.org/abs/2302.09904) | HyFL是一种混合框架，它结合了安全多方计算技术和分层联合学习，并能够在分布式环境中保证数据和全局模型的隐私安全，有助于大规模部署。 |
+| [^1] | [Improving Intrusion Detection with Domain-Invariant Representation Learning in Latent Space.](http://arxiv.org/abs/2312.17300) | 本研究提出了一种使用多任务学习的两阶段表示学习技术，通过培养潜在空间中的特征，包括本地和跨领域特征，以增强对未知分布领域的泛化效果。此外，通过最小化先验和潜在空间之间的互信息来分离潜在空间，并且在多个网络安全数据集上评估了模型的效能。 |
+| [^2] | [Evaluation of feature selection performance for identification of best effective technical indicators on stock market price prediction.](http://arxiv.org/abs/2310.09903) | 本研究评估了特征选择方法在股市价格预测中的性能，通过选择最佳的技术指标组合来实现最少误差的预测。研究结果表明，不同的包装器特征选择方法在不同的机器学习方法中具有不同的表现。 |
+| [^3] | [An analysis of the derivative-free loss method for solving PDEs.](http://arxiv.org/abs/2309.16829) | 本研究分析了一种无导数损失方法在使用神经网络求解椭圆型偏微分方程的方法。我们发现训练损失偏差与时间间隔和空间梯度成正比，与行走者大小成反比，同时时间间隔必须足够长。我们提供了数值测试结果以支持我们的分析。 |
+| [^4] | [Interpretability and Transparency-Driven Detection and Transformation of Textual Adversarial Examples (IT-DT).](http://arxiv.org/abs/2307.01225) | 通过提出的解释性和透明性驱动的检测与转换（IT-DT）框架，我们在检测和转换文本对抗示例方面注重解释性和透明性。这个框架利用了注意力图、集成梯度和模型反馈等技术，在检测阶段有助于识别对对抗性分类有贡献的显著特征和扰动词语，并在转换阶段使用预训练的嵌入和模型反馈来生成扰动词语的最佳替代，以将对抗性示例转换为正常示例。 |
+| [^5] | [Adversarial Evasion Attacks Practicality in Networks: Testing the Impact of Dynamic Learning.](http://arxiv.org/abs/2306.05494) | 本文对于基于机器学习的网络入侵检测系统(NIDS)的对抗性攻击进行了分类，同时探究了持续再训练对NIDS对抗性攻击的影响。实验表明，即使没有对抗性训练，持续再训练也可以减少对抗性攻击的影响。 |
+| [^6] | [The Principle of Uncertain Maximum Entropy.](http://arxiv.org/abs/2305.09868) | 介绍了不确定最大熵原理，该原理可以处理模型元素不可观测的情况，并优于特定条件下的最大熵方法。同时将黑匣子机器学习模型的输出用作不确定机器熵框架的输入，性能得到了提高。 |
+| [^7] | [Towards Automated Urban Planning: When Generative and ChatGPT-like AI Meets Urban Planning.](http://arxiv.org/abs/2304.03892) | 本文探讨了城市规划与人工智能的交叉应用，重点是自动化用地配置，通过对抗学习、生成神经网络、深度编码器-解码器网络、对话式 AI 和地理空间和时间机器学习等技术，AI 可以为现代城市规划带来不少创新与贡献。 |
 
 # 详细
 
-[^1]: PPA-Game：表征和学习在线内容创作者之间的竞争动态
+[^1]: 在潜在空间中通过领域不变表示学习改善入侵检测
 
-    PPA-Game: Characterizing and Learning Competitive Dynamics Among Online Content Creators
+    Improving Intrusion Detection with Domain-Invariant Representation Learning in Latent Space. (arXiv:2312.17300v2 [cs.CR] UPDATED)
 
-    [https://arxiv.org/abs/2403.15524](https://arxiv.org/abs/2403.15524)
+    [http://arxiv.org/abs/2312.17300](http://arxiv.org/abs/2312.17300)
 
-    引入了PPA-Game模型来表征类似YouTube和TikTok平台上的内容创作者之间竞争动态，分析显示纯纳什均衡在大多数情况下是常见的，提出了一种在线算法用于最大化每个代理者的累积收益。
-
-    
-
-    我们引入了比例性收益分配游戏（PPA-Game）来模拟代理者如何竞争可分配资源和消费者的注意力，类似于YouTube和TikTok等平台上的内容创作者。根据异质权重为代理者分配收益，反映了创作者之间内容质量的多样性。我们的分析表明，纯纳什均衡（PNE）并不在每种情况下都有保证，但在我们的模拟中，通常会观察到，其缺乏情况是罕见的。除了分析静态收益外，我们进一步讨论了代理者关于资源收益的在线学习，将多玩家多臂老虎机框架整合在一起。我们提出了一种在线算法，在$T$轮中促进每个代理者累积收益的最大化。从理论上讲，我们建立了任何代理者的遗憾在任何$\eta > 0$下都受到$O(\log^{1 + \eta} T)$的限制。经验结果进一步验证了我们的算法的有效性。
-
-    arXiv:2403.15524v1 Announce Type: cross  Abstract: We introduce the Proportional Payoff Allocation Game (PPA-Game) to model how agents, akin to content creators on platforms like YouTube and TikTok, compete for divisible resources and consumers' attention. Payoffs are allocated to agents based on heterogeneous weights, reflecting the diversity in content quality among creators. Our analysis reveals that although a pure Nash equilibrium (PNE) is not guaranteed in every scenario, it is commonly observed, with its absence being rare in our simulations. Beyond analyzing static payoffs, we further discuss the agents' online learning about resource payoffs by integrating a multi-player multi-armed bandit framework. We propose an online algorithm facilitating each agent's maximization of cumulative payoffs over $T$ rounds. Theoretically, we establish that the regret of any agent is bounded by $O(\log^{1 + \eta} T)$ for any $\eta > 0$. Empirical results further validate the effectiveness of ou
-    
-[^2]: 竞争游戏的离线虚构自我对弈
-
-    Offline Fictitious Self-Play for Competitive Games
-
-    [https://arxiv.org/abs/2403.00841](https://arxiv.org/abs/2403.00841)
-
-    本文介绍了Off-FSP，这是竞争游戏的第一个实用的无模型离线RL算法，通过调整固定数据集的权重，使用重要性抽样，模拟与各种对手的互动。
+    本研究提出了一种使用多任务学习的两阶段表示学习技术，通过培养潜在空间中的特征，包括本地和跨领域特征，以增强对未知分布领域的泛化效果。此外，通过最小化先验和潜在空间之间的互信息来分离潜在空间，并且在多个网络安全数据集上评估了模型的效能。
 
     
 
-    离线强化学习（RL）因其在以前收集的数据集中改进策略而不需要在线交互的能力而受到重视。尽管在单一智能体设置中取得成功，但离线多智能体RL仍然是一个挑战，特别是在竞争游戏中。为了解决这些问题，本文介绍了Off-FSP，这是竞争游戏的第一个实用的无模型离线RL算法。我们首先通过调整固定数据集的权重，使用重要性抽样模拟与各种对手的互动。
+    领域泛化聚焦于利用来自具有丰富训练数据和标签的多个相关领域的知识，增强对未知分布（IN）和超出分布（OOD）领域的推理。在我们的研究中，我们引入了一种两阶段表示学习技术，使用多任务学习。这种方法旨在从跨越多个领域的特征中培养一个潜在空间，包括本地和跨领域，以增强对IN和OOD领域的泛化。此外，我们尝试通过最小化先验与潜在空间之间的互信息来分离潜在空间，有效消除虚假特征相关性。综合而言，联合优化将促进领域不变特征学习。我们使用标准分类指标评估模型在多个网络安全数据集上的效能，对比了现代领域泛化方法的结果。
 
-    arXiv:2403.00841v1 Announce Type: cross  Abstract: Offline Reinforcement Learning (RL) has received significant interest due to its ability to improve policies in previously collected datasets without online interactions. Despite its success in the single-agent setting, offline multi-agent RL remains a challenge, especially in competitive games. Firstly, unaware of the game structure, it is impossible to interact with the opponents and conduct a major learning paradigm, self-play, for competitive games. Secondly, real-world datasets cannot cover all the state and action space in the game, resulting in barriers to identifying Nash equilibrium (NE). To address these issues, this paper introduces Off-FSP, the first practical model-free offline RL algorithm for competitive games. We start by simulating interactions with various opponents by adjusting the weights of the fixed dataset with importance sampling. This technique allows us to learn best responses to different opponents and employ
+    Domain generalization focuses on leveraging knowledge from multiple related domains with ample training data and labels to enhance inference on unseen in-distribution (IN) and out-of-distribution (OOD) domains. In our study, we introduce a two-phase representation learning technique using multi-task learning. This approach aims to cultivate a latent space from features spanning multiple domains, encompassing both native and cross-domains, to amplify generalization to IN and OOD territories. Additionally, we attempt to disentangle the latent space by minimizing the mutual information between the prior and latent space, effectively de-correlating spurious feature correlations. Collectively, the joint optimization will facilitate domain-invariant feature learning. We assess the model's efficacy across multiple cybersecurity datasets, using standard classification metrics on both unseen IN and OOD sets, and juxtapose the results with contemporary domain generalization methods.
     
-[^3]: 乐观的多智能体策略梯度在合作任务中的应用
+[^2]: 评估特征选择在股市价格预测中的性能，以确定最有效的技术指标
 
-    Optimistic Multi-Agent Policy Gradient for Cooperative Tasks. (arXiv:2311.01953v1 [cs.LG])
+    Evaluation of feature selection performance for identification of best effective technical indicators on stock market price prediction. (arXiv:2310.09903v1 [q-fin.ST])
 
-    [http://arxiv.org/abs/2311.01953](http://arxiv.org/abs/2311.01953)
+    [http://arxiv.org/abs/2310.09903](http://arxiv.org/abs/2310.09903)
 
-    本论文提出了一个通用的、简单的框架，在多智能体策略梯度方法中引入乐观更新，以缓解合作任务中的相对过度概括问题。通过使用一个泄漏化线性整流函数来重塑优势，我们的方法能够保持对潜在由其他代理引起的低回报个别动作的乐观态度。
-
-    
-
-    在合作多智能体学习任务中，由于过拟合其他智能体的次优行为，导致智能体收敛到次优联合策略，出现了相对过度概括（RO）问题。早期研究表明，乐观主义可以缓解使用表格化Q学习时的RO问题。然而，对于复杂任务来说，利用函数逼近乐观主义可能加剧过估计，从而失败。另一方面，最近的深度多智能体策略梯度（MAPG）方法在许多复杂任务上取得了成功，但在严重的RO情况下可能失败。我们提出了一个通用而简单的框架，以在MAPG方法中实现乐观更新并缓解RO问题。具体而言，我们使用一个泄漏化线性整流函数，其中一个超参数选择乐观程度以在更新策略时重新塑造优势。直观地说，我们的方法对可能由其他代理引起的回报较低的个别动作保持乐观态度。
-
-    \textit{Relative overgeneralization} (RO) occurs in cooperative multi-agent learning tasks when agents converge towards a suboptimal joint policy due to overfitting to suboptimal behavior of other agents. In early work, optimism has been shown to mitigate the \textit{RO} problem when using tabular Q-learning. However, with function approximation optimism can amplify overestimation and thus fail on complex tasks. On the other hand, recent deep multi-agent policy gradient (MAPG) methods have succeeded in many complex tasks but may fail with severe \textit{RO}. We propose a general, yet simple, framework to enable optimistic updates in MAPG methods and alleviate the RO problem. Specifically, we employ a \textit{Leaky ReLU} function where a single hyperparameter selects the degree of optimism to reshape the advantages when updating the policy. Intuitively, our method remains optimistic toward individual actions with lower returns which are potentially caused by other agents' sub-optimal be
-    
-[^4]: 零样本任务偏好的不精确贝叶斯继续学习
-
-    Zero-shot Task Preference Addressing Enabled by Imprecise Bayesian Continual Learning. (arXiv:2305.14782v1 [cs.LG])
-
-    [http://arxiv.org/abs/2305.14782](http://arxiv.org/abs/2305.14782)
-
-    提出了零样本任务偏好的不精确贝叶斯继续学习（IBCL）算法，该算法更新模型参数分布凸壳形式的知识库，并使用零样本获取模型以满足不同的偏好，使得在具有大量任务偏好的情况下更加可扩展。
+    本研究评估了特征选择方法在股市价格预测中的性能，通过选择最佳的技术指标组合来实现最少误差的预测。研究结果表明，不同的包装器特征选择方法在不同的机器学习方法中具有不同的表现。
 
     
 
-    类似于通用的多任务学习，继续学习也具有多目标优化的特性，因此需要在不同任务的性能之间进行平衡。也就是说，为了优化当前任务分布，可能需要在一些任务上牺牲性能以提高其他任务的性能。这意味着存在多个模型，每个模型在不同的时间都是最优的，每个模型都能够解决不同的任务-性能权衡问题。研究人员已经讨论如何训练特定的模型以满足交易偏好。然而，现有的算法需要额外的采样开销-在存在多个，可能是无限数量的偏好时会产生很大的负担。因此，我们提出了不精确贝叶斯继续学习（IBCL）。一旦有新任务，IBCL会（1）更新一个以模型参数分布凸壳形式存在的知识库，（2）并使用零样本获取特定模型以满足不同的偏好。也就是说，IBCL不需要任何额外的数据就能为一个特定的任务偏好生成新的模型，使得在具有大量任务偏好的情况下更加可扩展。
+    鉴于技术指标对股市预测的影响，特征选择对选择最佳指标至关重要。一种考虑在特征选择过程中模型性能的特征选择方法是包装器特征选择方法。本研究旨在通过特征选择鉴定出最少误差的预测股市价格的最佳股市指标组合。为评估包装器特征选择技术对股市预测的影响，本文在过去10年苹果公司的数据上使用了10个评估器和123个技术指标进行了SFS和SBS的考察。此外，通过提出的方法，将由3天时间窗口创建的数据转化为适用于回归方法的输入。从观察结果可以得出：（1）每种包装器特征选择方法在不同的机器学习方法中具有不同的结果，每种方法在不同的预测准确性上也有所不同。
 
-    Like generic multi-task learning, continual learning has the nature of multi-objective optimization, and therefore faces a trade-off between the performance of different tasks. That is, to optimize for the current task distribution, it may need to compromise performance on some tasks to improve on others. This means there exist multiple models that are each optimal at different times, each addressing a distinct task-performance trade-off. Researchers have discussed how to train particular models to address specific preferences on these trade-offs. However, existing algorithms require additional sample overheads -- a large burden when there are multiple, possibly infinitely many, preferences. As a response, we propose Imprecise Bayesian Continual Learning (IBCL). Upon a new task, IBCL (1) updates a knowledge base in the form of a convex hull of model parameter distributions and (2) obtains particular models to address preferences with zero-shot. That is, IBCL does not require any additi
+    Due to the influence of many factors, including technical indicators on stock market prediction, feature selection is important to choose the best indicators. One of the feature selection methods that consider the performance of models during feature selection is the wrapper feature selection method. The aim of this research is to identify a combination of the best stock market indicators through feature selection to predict the stock market price with the least error. In order to evaluate the impact of wrapper feature selection techniques on stock market prediction, in this paper SFS and SBS with 10 estimators and 123 technical indicators have been examined on the last 10 years of Apple Company. Also, by the proposed method, the data created by the 3-day time window were converted to the appropriate input for regression methods. Based on the results observed: (1) Each wrapper feature selection method has different results with different machine learning methods, and each method is mor
     
-[^5]: HyFL:一种用于私有联合学习的混合框架
+[^3]: 无导数损失方法在求解偏微分方程中的分析
 
-    HyFL: A Hybrid Framework For Private Federated Learning. (arXiv:2302.09904v2 [cs.LG] UPDATED)
+    An analysis of the derivative-free loss method for solving PDEs. (arXiv:2309.16829v1 [math.NA])
 
-    [http://arxiv.org/abs/2302.09904](http://arxiv.org/abs/2302.09904)
+    [http://arxiv.org/abs/2309.16829](http://arxiv.org/abs/2309.16829)
 
-    HyFL是一种混合框架，它结合了安全多方计算技术和分层联合学习，并能够在分布式环境中保证数据和全局模型的隐私安全，有助于大规模部署。
+    本研究分析了一种无导数损失方法在使用神经网络求解椭圆型偏微分方程的方法。我们发现训练损失偏差与时间间隔和空间梯度成正比，与行走者大小成反比，同时时间间隔必须足够长。我们提供了数值测试结果以支持我们的分析。
 
     
 
-    联合学习已经成为分布式机器学习的有效方法，通过在客户端设备上保留训练数据来确保数据隐私。然而，最近的研究强调了FL中的漏洞，包括通过单个模型更新甚至整个全局模型泄漏敏感信息。虽然关注点已放在客户端数据隐私上，但有限的研究解决了全局模型隐私问题。此外，客户端本地训练为恶意客户端启动强大的模型污染攻击开辟了途径。不幸的是，目前没有现有工作提供全面解决所有这些问题的解决方案。因此，我们介绍了HyFL，这是一种混合框架，可实现数据和全局模型隐私，并促进大规模部署。HyFL的基础是安全多方计算技术和分层联合学习的独特组合。在HyFL的训练过程中，客户端模型在多个抽象层次上进行安全聚合，以在分布式环境中提供隐私保护。实验证明，HyFL在大规模数据集上实现良好性能，同时确保客户端数据和全局模型的强大隐私和安全保障。
+    本研究分析了无导数损失方法在使用神经网络求解一类椭圆型偏微分方程中的应用。无导数损失方法采用费曼-卡克公式，结合随机行走者及其对应的平均值。我们考察了费曼-卡克公式中与时间间隔相关的影响，以及行走者大小对计算效率、可训练性和采样误差的影响。我们的分析表明，训练损失偏差与时间间隔和神经网络的空间梯度成正比，与行走者大小成反比。同时，我们还表明时间间隔必须足够长才能训练网络。这些分析结果说明，在时间间隔的最优下界基础上，我们可以选择尽可能小的行走者大小。我们还提供了支持我们分析的数值测试。
 
-    Federated learning (FL) has emerged as an efficient approach for large-scale distributed machine learning, ensuring data privacy by keeping training data on client devices. However, recent research has highlighted vulnerabilities in FL, including the potential disclosure of sensitive information through individual model updates and even the aggregated global model. While much attention has been given to clients' data privacy, limited research has addressed the issue of global model privacy. Furthermore, local training at the client's side has opened avenues for malicious clients to launch powerful model poisoning attacks. Unfortunately, no existing work has provided a comprehensive solution that tackles all these issues. Therefore, we introduce HyFL, a hybrid framework that enables data and global model privacy while facilitating large-scale deployments. The foundation of HyFL is a unique combination of secure multi-party computation (MPC) techniques with hierarchical federated learnin
+    This study analyzes the derivative-free loss method to solve a certain class of elliptic PDEs using neural networks. The derivative-free loss method uses the Feynman-Kac formulation, incorporating stochastic walkers and their corresponding average values. We investigate the effect of the time interval related to the Feynman-Kac formulation and the walker size in the context of computational efficiency, trainability, and sampling errors. Our analysis shows that the training loss bias is proportional to the time interval and the spatial gradient of the neural network while inversely proportional to the walker size. We also show that the time interval must be sufficiently long to train the network. These analytic results tell that we can choose the walker size as small as possible based on the optimal lower bound of the time interval. We also provide numerical tests supporting our analysis.
+    
+[^4]: 解释性和透明性驱动的文本对抗示例的检测与转换（IT-DT）
+
+    Interpretability and Transparency-Driven Detection and Transformation of Textual Adversarial Examples (IT-DT). (arXiv:2307.01225v1 [cs.CL])
+
+    [http://arxiv.org/abs/2307.01225](http://arxiv.org/abs/2307.01225)
+
+    通过提出的解释性和透明性驱动的检测与转换（IT-DT）框架，我们在检测和转换文本对抗示例方面注重解释性和透明性。这个框架利用了注意力图、集成梯度和模型反馈等技术，在检测阶段有助于识别对对抗性分类有贡献的显著特征和扰动词语，并在转换阶段使用预训练的嵌入和模型反馈来生成扰动词语的最佳替代，以将对抗性示例转换为正常示例。
+
+    
+
+    基于Transformer的文本分类器如BERT、Roberta、T5和GPT-3在自然语言处理方面展示了令人印象深刻的性能。然而，它们对于对抗性示例的脆弱性提出了安全风险。现有的防御方法缺乏解释性，很难理解对抗性分类并识别模型的漏洞。为了解决这个问题，我们提出了解释性和透明性驱动的检测与转换（IT-DT）框架。它专注于在检测和转换文本对抗示例时的解释性和透明性。IT-DT利用注意力图、集成梯度和模型反馈等技术进行解释性检测。这有助于识别对对抗性分类有贡献的显著特征和扰动词语。在转换阶段，IT-DT利用预训练的嵌入和模型反馈来生成扰动词语的最佳替代。通过找到合适的替换，我们的目标是将对抗性示例转换为正常示例。
+
+    Transformer-based text classifiers like BERT, Roberta, T5, and GPT-3 have shown impressive performance in NLP. However, their vulnerability to adversarial examples poses a security risk. Existing defense methods lack interpretability, making it hard to understand adversarial classifications and identify model vulnerabilities. To address this, we propose the Interpretability and Transparency-Driven Detection and Transformation (IT-DT) framework. It focuses on interpretability and transparency in detecting and transforming textual adversarial examples. IT-DT utilizes techniques like attention maps, integrated gradients, and model feedback for interpretability during detection. This helps identify salient features and perturbed words contributing to adversarial classifications. In the transformation phase, IT-DT uses pre-trained embeddings and model feedback to generate optimal replacements for perturbed words. By finding suitable substitutions, we aim to convert adversarial examples into
+    
+[^5]: 神经网络中对抗性漏洞攻击的实用性测试：动态学习的影响
+
+    Adversarial Evasion Attacks Practicality in Networks: Testing the Impact of Dynamic Learning. (arXiv:2306.05494v1 [cs.CR])
+
+    [http://arxiv.org/abs/2306.05494](http://arxiv.org/abs/2306.05494)
+
+    本文对于基于机器学习的网络入侵检测系统(NIDS)的对抗性攻击进行了分类，同时探究了持续再训练对NIDS对抗性攻击的影响。实验表明，即使没有对抗性训练，持续再训练也可以减少对抗性攻击的影响。
+
+    
+
+    机器学习被广泛应用于网络入侵检测系统(NIDS)中，由于其自动化的特性和在处理和分类大量数据上的高精度。但机器学习存在缺陷，其中最大的问题之一是对抗性攻击，其目的是使机器学习模型产生错误的预测。本文提出了两个独特的贡献：对抗性攻击对基于机器学习的NIDS实用性问题的分类和对持续训练对NIDS对抗性攻击的影响进行了研究。我们的实验表明，即使没有对抗性训练，持续再训练也可以减少对抗性攻击的影响。虽然对抗性攻击可能会危及基于机器学习的NIDS，但持续再训练可带来一定的缓解效果。
+
+    Machine Learning (ML) has become ubiquitous, and its deployment in Network Intrusion Detection Systems (NIDS) is inevitable due to its automated nature and high accuracy in processing and classifying large volumes of data. However, ML has been found to have several flaws, on top of them are adversarial attacks, which aim to trick ML models into producing faulty predictions. While most adversarial attack research focuses on computer vision datasets, recent studies have explored the practicality of such attacks against ML-based network security entities, especially NIDS.  This paper presents two distinct contributions: a taxonomy of practicality issues associated with adversarial attacks against ML-based NIDS and an investigation of the impact of continuous training on adversarial attacks against NIDS. Our experiments indicate that continuous re-training, even without adversarial training, can reduce the effect of adversarial attacks. While adversarial attacks can harm ML-based NIDSs, ou
+    
+[^6]: 不确定最大熵原理
+
+    The Principle of Uncertain Maximum Entropy. (arXiv:2305.09868v1 [cs.IT])
+
+    [http://arxiv.org/abs/2305.09868](http://arxiv.org/abs/2305.09868)
+
+    介绍了不确定最大熵原理，该原理可以处理模型元素不可观测的情况，并优于特定条件下的最大熵方法。同时将黑匣子机器学习模型的输出用作不确定机器熵框架的输入，性能得到了提高。
+
+    
+
+    最大熵原理在信息理论中的引入，为统计力学，机器学习和生态学等各个领域的发展做出了贡献。其得到的解决方案作为催化剂，促进研究人员将他们的经验观察映射到获取无偏模型，同时加深了对复杂系统和现象的理解。然而，在模型元素不直接可观测的情况下，例如存在噪声或眼部遮挡的情况下，标准最大熵方法可能会失败，因为它们无法匹配特征约束。在这里，我们展示了不确定最大熵原理作为一种方法，尽管存在任意噪声观察，它同时将所有可用信息编码，而且优于一些特定条件下的最大熵方法的准确度。此外，我们将黑匣子机器学习模型的输出用作不确定机器熵框架的输入，从而在与最大似然算法相比时建立了改进的性能。
+
+    The principle of maximum entropy, as introduced by Jaynes in information theory, has contributed to advancements in various domains such as Statistical Mechanics, Machine Learning, and Ecology. Its resultant solutions have served as a catalyst, facilitating researchers in mapping their empirical observations to the acquisition of unbiased models, whilst deepening the understanding of complex systems and phenomena. However, when we consider situations in which the model elements are not directly observable, such as when noise or ocular occlusion is present, possibilities arise for which standard maximum entropy approaches may fail, as they are unable to match feature constraints. Here we show the Principle of Uncertain Maximum Entropy as a method that both encodes all available information in spite of arbitrarily noisy observations while surpassing the accuracy of some ad-hoc methods. Additionally, we utilize the output of a black-box machine learning model as input into an uncertain ma
+    
+[^7]: 自动化城市规划：生成式和聊天式 AI 相结合的城市规划探索
+
+    Towards Automated Urban Planning: When Generative and ChatGPT-like AI Meets Urban Planning. (arXiv:2304.03892v1 [cs.AI])
+
+    [http://arxiv.org/abs/2304.03892](http://arxiv.org/abs/2304.03892)
+
+    本文探讨了城市规划与人工智能的交叉应用，重点是自动化用地配置，通过对抗学习、生成神经网络、深度编码器-解码器网络、对话式 AI 和地理空间和时间机器学习等技术，AI 可以为现代城市规划带来不少创新与贡献。
+
+    
+
+    城市规划领域和人工智能领域曾经是独立发展的，但现在两个领域开始交叉汇合，互相借鉴和受益。本文介绍了城市规划从可持续性、生活、经济、灾害和环境等方面的重要性，回顾了城市规划的基本概念，并将这些概念与机器学习的关键开放问题联系起来，包括对抗学习、生成神经网络、深度编码器-解码器网络、对话式 AI 以及地理空间和时间机器学习等，评估了 AI 如何为现代城市规划做出贡献。因此，一个核心问题是自动化用地配置，即从周围的地理空间、人类移动、社交媒体、环境和经济活动中为目标区域生成土地用途和建筑配置。最后，本文勾画了集成 AI 和城市规划面临的一些挑战和潜在解决方案。
+
+    The two fields of urban planning and artificial intelligence (AI) arose and developed separately. However, there is now cross-pollination and increasing interest in both fields to benefit from the advances of the other. In the present paper, we introduce the importance of urban planning from the sustainability, living, economic, disaster, and environmental perspectives. We review the fundamental concepts of urban planning and relate these concepts to crucial open problems of machine learning, including adversarial learning, generative neural networks, deep encoder-decoder networks, conversational AI, and geospatial and temporal machine learning, thereby assaying how AI can contribute to modern urban planning. Thus, a central problem is automated land-use configuration, which is formulated as the generation of land uses and building configuration for a target area from surrounding geospatial, human mobility, social media, environment, and economic activities. Finally, we delineate some 
     
 
