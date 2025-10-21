@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Estimating Individual Responses when Tomorrow Matters.](http://arxiv.org/abs/2310.09105) | 本论文提出了一种基于回归的方法，用于估计个体对对立情况的反应。通过应用该方法于意大利的调查数据，研究发现考虑个体的信念对税收政策对消费决策的影响很重要。 |
+| [^1] | [A Double Machine Learning Approach to Combining Experimental and Observational Data.](http://arxiv.org/abs/2307.01449) | 这种双机器学习方法将实验和观测研究结合起来，能够测试假设的违反情况并一致估计处理效应。它提供了半参数高效的处理效应估计器。这种方法在实际环境中是可行的。 |
 
 # 详细
 
-[^1]: 估计明天重要时的个体反应
+[^1]: 将实验数据与观测数据结合的双机器学习方法
 
-    Estimating Individual Responses when Tomorrow Matters. (arXiv:2310.09105v1 [econ.EM])
+    A Double Machine Learning Approach to Combining Experimental and Observational Data. (arXiv:2307.01449v1 [stat.ME])
 
-    [http://arxiv.org/abs/2310.09105](http://arxiv.org/abs/2310.09105)
+    [http://arxiv.org/abs/2307.01449](http://arxiv.org/abs/2307.01449)
 
-    本论文提出了一种基于回归的方法，用于估计个体对对立情况的反应。通过应用该方法于意大利的调查数据，研究发现考虑个体的信念对税收政策对消费决策的影响很重要。
+    这种双机器学习方法将实验和观测研究结合起来，能够测试假设的违反情况并一致估计处理效应。它提供了半参数高效的处理效应估计器。这种方法在实际环境中是可行的。
 
     
 
-    我们提出了一种基于回归的方法，用于估计个体的期望如何影响他们对对立情况的反应。我们提供了基于回归估计的平均偏效应恢复结构效应的条件。我们提出了一个依赖于主观信念数据的实用的三步估计方法。我们在一个消费和储蓄模型中说明了我们的方法，重点关注不仅改变当前收入而且影响对未来收入的信念的所得税的影响。通过将我们的方法应用于意大利的调查数据，我们发现考虑个体的信念对评估税收政策对消费决策的影响很重要。
+    实验和观测研究通常由于无法测试的假设而缺乏有效性。我们提出了一种双机器学习方法，将实验和观测研究结合起来，使从业人员能够测试假设违反情况并一致估计处理效应。我们的框架在较轻的假设下测试外部效度和可忽视性的违反情况。当只有一个假设被违反时，我们提供半参数高效的处理效应估计器。然而，我们的无免费午餐定理强调了准确识别违反的假设对一致的处理效应估计的必要性。我们通过三个实际案例研究展示了我们方法的适用性，并突出了其在实际环境中的相关性。
 
-    We propose a regression-based approach to estimate how individuals' expectations influence their responses to a counterfactual change. We provide conditions under which average partial effects based on regression estimates recover structural effects. We propose a practical three-step estimation method that relies on subjective beliefs data. We illustrate our approach in a model of consumption and saving, focusing on the impact of an income tax that not only changes current income but also affects beliefs about future income. By applying our approach to survey data from Italy, we find that considering individuals' beliefs matter for evaluating the impact of tax policies on consumption decisions.
+    Experimental and observational studies often lack validity due to untestable assumptions. We propose a double machine learning approach to combine experimental and observational studies, allowing practitioners to test for assumption violations and estimate treatment effects consistently. Our framework tests for violations of external validity and ignorability under milder assumptions. When only one assumption is violated, we provide semi-parametrically efficient treatment effect estimators. However, our no-free-lunch theorem highlights the necessity of accurately identifying the violated assumption for consistent treatment effect estimation. We demonstrate the applicability of our approach in three real-world case studies, highlighting its relevance for practical settings.
     
 
