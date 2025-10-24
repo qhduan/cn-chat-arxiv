@@ -2,67 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Phase-driven Domain Generalizable Learning for Nonstationary Time Series](https://arxiv.org/abs/2402.05960) | 该论文提出了一个基于相位驱动的时间序列学习框架PhASER，通过相位增强、分离特征编码和特征广播的方法，实现了对非平稳数据的通用学习能力。 |
-| [^2] | [Towards Context-Aware Domain Generalization: Understanding the Benefits and Limits of Marginal Transfer Learning](https://arxiv.org/abs/2312.10107) | 分析了上下文感知领域泛化的条件，提出了理论分析和实证分析所需的标准，并展示了该方法可以检测非常数域的场景。 |
-| [^3] | [AtomSurf : Surface Representation for Learning on Protein Structures.](http://arxiv.org/abs/2309.16519) | 本文研究了将蛋白质作为3D网格的表面表示，并提出了一种结合图表面的协同方法，既有竞争优势，又有实际应用潜力。 |
-| [^4] | [DR-VIDAL -- Doubly Robust Variational Information-theoretic Deep Adversarial Learning for Counterfactual Prediction and Treatment Effect Estimation on Real World Data.](http://arxiv.org/abs/2303.04201) | DR-VIDAL是一个新型的生成框架，可用于处理真实世界数据中的干预措施对结果的因果效应估计，并具有处理混淆偏差和模型不良的能力。 |
+| [^1] | [Log Neural Controlled Differential Equations: The Lie Brackets Make a Difference](https://arxiv.org/abs/2402.18512) | Log-NCDEs是一种新颖而有效的训练NCDEs的方法，通过引入Log-ODE方法从粗糙路径研究中近似CDE的解，并在多变量时间序列分类基准上表现出比其他模型更高的准确率。 |
+| [^2] | [Multi Task Inverse Reinforcement Learning for Common Sense Reward](https://arxiv.org/abs/2402.11367) | 将奖励分解为任务特定奖励和常识奖励，探索如何从专家演示中学习常识奖励；研究发现，逆强化学习成功训练代理后，并不会学到有用的奖励函数。 |
+| [^3] | [Optimal signal propagation in ResNets through residual scaling.](http://arxiv.org/abs/2305.07715) | 本文为ResNets导出系统的有限尺寸理论，指出对于深层网络架构，缩放参数是优化信号传播和确保有效利用网络深度方面的关键。 |
 
 # 详细
 
-[^1]: 基于相位驱动的非平稳时间序列通用学习
+[^1]: Log神经控制微分方程：李括号的差异
 
-    Phase-driven Domain Generalizable Learning for Nonstationary Time Series
+    Log Neural Controlled Differential Equations: The Lie Brackets Make a Difference
 
-    [https://arxiv.org/abs/2402.05960](https://arxiv.org/abs/2402.05960)
+    [https://arxiv.org/abs/2402.18512](https://arxiv.org/abs/2402.18512)
 
-    该论文提出了一个基于相位驱动的时间序列学习框架PhASER，通过相位增强、分离特征编码和特征广播的方法，实现了对非平稳数据的通用学习能力。
-
-    
-
-    监测和识别连续感知数据中的模式对许多实际应用至关重要。这些实际时间序列数据通常是非平稳的，其统计和谱特性随时间变化。这在开发能够有效泛化不同分布的学习模型方面提出了重大挑战。在本工作中，我们观察到非平稳统计与相位信息内在相关，提出了一个时间序列学习框架PhASER。它包括三个新颖的元素：1）相位增强，使非平稳性多样化同时保留有区别性的语义；2）将时变幅度和相位视为独立模态进行单独特征编码；3）利用新颖的残差连接将相位与特征结合，以强化分布不变性学习的固有正则化作用。通过在5个人体活动识别数据集上进行广泛评估，
-
-    Monitoring and recognizing patterns in continuous sensing data is crucial for many practical applications. These real-world time-series data are often nonstationary, characterized by varying statistical and spectral properties over time. This poses a significant challenge in developing learning models that can effectively generalize across different distributions. In this work, based on our observation that nonstationary statistics are intrinsically linked to the phase information, we propose a time-series learning framework, PhASER. It consists of three novel elements: 1) phase augmentation that diversifies non-stationarity while preserving discriminatory semantics, 2) separate feature encoding by viewing time-varying magnitude and phase as independent modalities, and 3) feature broadcasting by incorporating phase with a novel residual connection for inherent regularization to enhance distribution invariant learning. Upon extensive evaluation on 5 datasets from human activity recognit
-    
-[^2]: 迈向面向上下文感知领域泛化：理解边缘传递学习的好处和限制
-
-    Towards Context-Aware Domain Generalization: Understanding the Benefits and Limits of Marginal Transfer Learning
-
-    [https://arxiv.org/abs/2312.10107](https://arxiv.org/abs/2312.10107)
-
-    分析了上下文感知领域泛化的条件，提出了理论分析和实证分析所需的标准，并展示了该方法可以检测非常数域的场景。
+    Log-NCDEs是一种新颖而有效的训练NCDEs的方法，通过引入Log-ODE方法从粗糙路径研究中近似CDE的解，并在多变量时间序列分类基准上表现出比其他模型更高的准确率。
 
     
 
-    在这项工作中，我们分析了关于输入$X$的上下文信息如何改善深度学习模型在新领域中的预测的条件。在领域泛化中边缘传递学习的研究基础上，我们将上下文的概念形式化为一组数据点的排列不变表示，这些数据点来自于与输入本身相同的域。我们对这种方法在原则上可以产生好处的条件进行了理论分析，并制定了两个在实践中可以轻松验证的必要标准。此外，我们提供了关于边缘传递学习方法有望具有稳健性的分布变化类型的见解。实证分析表明我们的标准有效地区分了有利和不利的场景。最后，我们证明可以可靠地检测模型面临非常数域的场景。
+    受控微分方程（CDE）的矢量场描述了控制路径与解路径演化之间的关系。神经CDE（NCDE）将时间序列数据视为对控制路径的观测，使用神经网络对CDE的矢量场进行参数化，并将解路径作为持续演化的隐藏状态。由于其构造使其能够抵抗不规则采样率，NCDE是建模现实世界数据的强大方法。在神经粗糙微分方程（NRDE）的基础上，我们引入了Log-NCDE，这是一种训练NCDE的新颖且有效的方法。Log-NCDE的核心组件是Log-ODE方法，这是从粗糙路径研究中的一种用于近似CDE解的工具。在一系列多变量时间序列分类基准上，展示了Log-NCDE比NCDE，NRDE和两种最先进模型S5和线性递归模型具有更高的平均测试集准确率。
 
-    arXiv:2312.10107v2 Announce Type: replace-cross  Abstract: In this work, we analyze the conditions under which information about the context of an input $X$ can improve the predictions of deep learning models in new domains. Following work in marginal transfer learning in Domain Generalization (DG), we formalize the notion of context as a permutation-invariant representation of a set of data points that originate from the same domain as the input itself. We offer a theoretical analysis of the conditions under which this approach can, in principle, yield benefits, and formulate two necessary criteria that can be easily verified in practice. Additionally, we contribute insights into the kind of distribution shifts for which the marginal transfer learning approach promises robustness. Empirical analysis shows that our criteria are effective in discerning both favorable and unfavorable scenarios. Finally, we demonstrate that we can reliably detect scenarios where a model is tasked with unw
+    arXiv:2402.18512v1 Announce Type: new  Abstract: The vector field of a controlled differential equation (CDE) describes the relationship between a control path and the evolution of a solution path. Neural CDEs (NCDEs) treat time series data as observations from a control path, parameterise a CDE's vector field using a neural network, and use the solution path as a continuously evolving hidden state. As their formulation makes them robust to irregular sampling rates, NCDEs are a powerful approach for modelling real-world data. Building on neural rough differential equations (NRDEs), we introduce Log-NCDEs, a novel and effective method for training NCDEs. The core component of Log-NCDEs is the Log-ODE method, a tool from the study of rough paths for approximating a CDE's solution. On a range of multivariate time series classification benchmarks, Log-NCDEs are shown to achieve a higher average test set accuracy than NCDEs, NRDEs, and two state-of-the-art models, S5 and the linear recurren
     
-[^3]: AtomSurf：蛋白质结构上的学习的表面表示
+[^2]: 多任务逆强化学习用于常识奖励
 
-    AtomSurf : Surface Representation for Learning on Protein Structures. (arXiv:2309.16519v1 [cs.LG])
+    Multi Task Inverse Reinforcement Learning for Common Sense Reward
 
-    [http://arxiv.org/abs/2309.16519](http://arxiv.org/abs/2309.16519)
+    [https://arxiv.org/abs/2402.11367](https://arxiv.org/abs/2402.11367)
 
-    本文研究了将蛋白质作为3D网格的表面表示，并提出了一种结合图表面的协同方法，既有竞争优势，又有实际应用潜力。
-
-    
-
-    近期Cryo-EM和蛋白质结构预测算法的进展使得大规模蛋白质结构可获得，为基于机器学习的功能注释铺平了道路。几何深度学习领域关注创建适用于几何数据的方法。从蛋白质结构中学习的一个重要方面是将这些结构表示为几何对象（如网格、图或表面）并应用适合这种表示形式的学习方法。给定方法的性能将取决于表示和相应的学习方法。在本文中，我们研究将蛋白质表示为$\textit{3D mesh surfaces}$并将其纳入已建立的表示基准中。我们的第一个发现是，尽管有着有希望的初步结果，但仅单独表面表示似乎无法与3D网格竞争。在此基础上，我们提出了一种协同方法，将表面表示与图表面结合起来。
-
-    Recent advancements in Cryo-EM and protein structure prediction algorithms have made large-scale protein structures accessible, paving the way for machine learning-based functional annotations.The field of geometric deep learning focuses on creating methods working on geometric data. An essential aspect of learning from protein structures is representing these structures as a geometric object (be it a grid, graph, or surface) and applying a learning method tailored to this representation. The performance of a given approach will then depend on both the representation and its corresponding learning method.  In this paper, we investigate representing proteins as $\textit{3D mesh surfaces}$ and incorporate them into an established representation benchmark. Our first finding is that despite promising preliminary results, the surface representation alone does not seem competitive with 3D grids. Building on this, we introduce a synergistic approach, combining surface representations with gra
-    
-[^4]: DR-VIDAL--双重稳健变分信息论深度对抗学习用于真实世界数据的反事实预测和治疗效果估计
-
-    DR-VIDAL -- Doubly Robust Variational Information-theoretic Deep Adversarial Learning for Counterfactual Prediction and Treatment Effect Estimation on Real World Data. (arXiv:2303.04201v2 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2303.04201](http://arxiv.org/abs/2303.04201)
-
-    DR-VIDAL是一个新型的生成框架，可用于处理真实世界数据中的干预措施对结果的因果效应估计，并具有处理混淆偏差和模型不良的能力。
+    将奖励分解为任务特定奖励和常识奖励，探索如何从专家演示中学习常识奖励；研究发现，逆强化学习成功训练代理后，并不会学到有用的奖励函数。
 
     
 
-    从真实世界的观察性（非随机化）数据中确定干预措施对结果的因果效应，例如使用电子健康记录的治疗重用，由于潜在偏差而具有挑战性。因果深度学习已经改进了传统技术，用于估计个性化治疗效果（ITE）。我们提出了双重稳健变分信息论深度对抗学习（DR-VIDAL），这是一个结合了治疗和结果两个联合模型的新型生成框架，确保无偏的ITE估计，即使其中一个模型设定不正确。DR-VIDAL整合了： （i）变分自编码器（VAE）根据因果假设将混淆变量分解为潜在变量; （ii）基于信息论的生成对抗网络（Info-GAN）用于生成反事实情况; （iii）一个双重稳健块，其中包括治疗倾向于预测结果。在合成和真实数据集（Infant Health和Development Program，Transforming Clinical Practice Initiative [TCPI]）中进行实验，我们证明了DR-VIDAL在估计ITE方面优于现有的最先进方法，因为它具有处理混淆偏差和模型不正确的能力。
+    在将强化学习应用于复杂的现实环境中，一个挑战在于为agent提供足够详细的奖励函数。奖励与期望行为之间的不一致可能导致意外结果，如“奖励篡改”，agent通过意外行为最大化奖励。本文提出将奖励分解为两个明确部分：一个简单的任务特定奖励，概述了当前任务的细节；以及一个未知的常识奖励，指示agent在环境中的预期行为。我们探讨了如何从专家演示中学习这种常识奖励。我们首先展示，即使逆强化学习成功训练了一个代理，也不会学到一个有用的奖励函数。也就是说，使用学到的奖励训练新代理不会影响期望行为。
 
-    Determining causal effects of interventions onto outcomes from real-world, observational (non-randomized) data, e.g., treatment repurposing using electronic health records, is challenging due to underlying bias. Causal deep learning has improved over traditional techniques for estimating individualized treatment effects (ITE). We present the Doubly Robust Variational Information-theoretic Deep Adversarial Learning (DR-VIDAL), a novel generative framework that combines two joint models of treatment and outcome, ensuring an unbiased ITE estimation even when one of the two is misspecified. DR-VIDAL integrates: (i) a variational autoencoder (VAE) to factorize confounders into latent variables according to causal assumptions; (ii) an information-theoretic generative adversarial network (Info-GAN) to generate counterfactuals; (iii) a doubly robust block incorporating treatment propensities for outcome predictions. On synthetic and real-world datasets (Infant Health and Development Program, T
+    arXiv:2402.11367v1 Announce Type: new  Abstract: One of the challenges in applying reinforcement learning in a complex real-world environment lies in providing the agent with a sufficiently detailed reward function. Any misalignment between the reward and the desired behavior can result in unwanted outcomes. This may lead to issues like "reward hacking" where the agent maximizes rewards by unintended behavior. In this work, we propose to disentangle the reward into two distinct parts. A simple task-specific reward, outlining the particulars of the task at hand, and an unknown common-sense reward, indicating the expected behavior of the agent within the environment. We then explore how this common-sense reward can be learned from expert demonstrations. We first show that inverse reinforcement learning, even when it succeeds in training an agent, does not learn a useful reward function. That is, training a new agent with the learned reward does not impair the desired behaviors. We then d
+    
+[^3]: 通过残差缩放实现ResNets的信号最优传递
+
+    Optimal signal propagation in ResNets through residual scaling. (arXiv:2305.07715v1 [cond-mat.dis-nn])
+
+    [http://arxiv.org/abs/2305.07715](http://arxiv.org/abs/2305.07715)
+
+    本文为ResNets导出系统的有限尺寸理论，指出对于深层网络架构，缩放参数是优化信号传播和确保有效利用网络深度方面的关键。
+
+    
+
+    Residual网络（ResNets）在大深度上比前馈神经网络具有更好的训练能力和性能。引入跳过连接可以促进信号向更深层的传递。此外，先前的研究发现为残差分支添加缩放参数可以进一步提高泛化性能。尽管他们经验性地确定了这种缩放参数特别有利的取值范围，但其相关的性能提升及其在网络超参数上的普适性仍需要进一步理解。对于前馈神经网络（FFNets），有限尺寸理论在信号传播和超参数调节方面获得了重要洞见。我们在这里为ResNets导出了一个系统的有限尺寸理论，以研究信号传播及其对残差分支缩放的依赖性。我们导出响应函数的分析表达式，这是衡量网络对输入敏感性的一种指标，并表明对于深层网络架构，缩放参数在优化信号传播和确保有效利用网络深度方面发挥着至关重要的作用。
+
+    Residual networks (ResNets) have significantly better trainability and thus performance than feed-forward networks at large depth. Introducing skip connections facilitates signal propagation to deeper layers. In addition, previous works found that adding a scaling parameter for the residual branch further improves generalization performance. While they empirically identified a particularly beneficial range of values for this scaling parameter, the associated performance improvement and its universality across network hyperparameters yet need to be understood. For feed-forward networks (FFNets), finite-size theories have led to important insights with regard to signal propagation and hyperparameter tuning. We here derive a systematic finite-size theory for ResNets to study signal propagation and its dependence on the scaling for the residual branch. We derive analytical expressions for the response function, a measure for the network's sensitivity to inputs, and show that for deep netwo
     
 
