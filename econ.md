@@ -2,37 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Antinetwork among China A-shares](https://arxiv.org/abs/2404.00028) | 本研究首次考虑了负相关性和正相关性，构建了中国A股上市股票之间的加权时间反网络和网络，揭示了在21世纪前24年期间（反）网络之间节点度和强度、同配性系数、平均局部聚类系数以及平均最短路径长度等方面的一些重要差异 |
-| [^2] | [Maximal Inequalities for Empirical Processes under General Mixing Conditions with an Application to Strong Approximations](https://arxiv.org/abs/2402.11394) | 本文提出了针对一般混合随机过程的样本均值上确界的界限，不受混合速度的影响，强调了集中速率和复杂度度量的重要性，并发现了混合速度对集中速率的影响，引入了相变的概念。 |
+| [^1] | [Local Identification in the Instrumental Variable Multivariate Quantile Regression Model.](http://arxiv.org/abs/2401.11422) | 提出了基于最优输运的多元分位数回归模型，考虑结果变量中条目之间的相关性，并提供了局部识别结果。结果表明，所需的仪器变量（IV）的支持大小与结果向量的维度无关，只需IV足够信息量。 |
+| [^2] | [Human and Machine Intelligence in n-Person Games with Partial Knowledge.](http://arxiv.org/abs/2302.13937) | 提出了有限知识下n人博弈的框架，引入了“游戏智能”机制和“防作弊性”概念，GI机制可以实际评估玩家的智能，应用广泛。 |
+| [^3] | [Bayesian analysis of mixtures of lognormal distribution with an unknown number of components from grouped data.](http://arxiv.org/abs/2210.05115) | 本研究提出了一种用于估计收入的对数正态分布混合模型参数的贝叶斯分析方法，并通过模拟和实证数据的验证表明了其准确性和适用性。 |
 
 # 详细
 
-[^1]: 中国A股之间的反网络
+[^1]: 仪器变量多元分位数回归模型中的局部识别
 
-    Antinetwork among China A-shares
+    Local Identification in the Instrumental Variable Multivariate Quantile Regression Model. (arXiv:2401.11422v1 [econ.EM])
 
-    [https://arxiv.org/abs/2404.00028](https://arxiv.org/abs/2404.00028)
+    [http://arxiv.org/abs/2401.11422](http://arxiv.org/abs/2401.11422)
 
-    本研究首次考虑了负相关性和正相关性，构建了中国A股上市股票之间的加权时间反网络和网络，揭示了在21世纪前24年期间（反）网络之间节点度和强度、同配性系数、平均局部聚类系数以及平均最短路径长度等方面的一些重要差异
-
-    
-
-    基于涨跌幅时间序列之间的相关关系构建的金融网络得到了广泛研究。然而，这些研究忽视了负相关性的重要性。本文首次考虑了负相关性和正相关性，并相应地构建了上海和深圳证券交易所上市股票之间的加权时间反网络和网络。对21世纪前24年的(反)网络，系统分析了节点的度和强度、同配性系数、平均局部聚类系数和平均最短路径长度。本文揭示了这些拓扑测量指标在反网络和网络之间的一些基本差异。这些差异的发现在理解
-
-    arXiv:2404.00028v1 Announce Type: cross  Abstract: The correlation-based financial networks, constructed with the correlation relationships among the time series of fluctuations of daily logarithmic prices of stocks, are intensively studied. However, these studies ignore the importance of negative correlations. This paper is the first time to consider the negative and positive correlations separately, and accordingly to construct weighted temporal antinetwork and network among stocks listed in the Shanghai and Shenzhen stock exchanges. For (anti)networks during the first 24 years of the 21st century, the node's degree and strength, the assortativity coefficient, the average local clustering coefficient, and the average shortest path length are analyzed systematically. This paper unveils some essential differences in these topological measurements between antinetwork and network. The findings of the differences between antinetwork and network have an important role in understanding the 
-    
-[^2]: 基于一般混合条件的经验过程的极值不等式及其在强逼近中的应用
-
-    Maximal Inequalities for Empirical Processes under General Mixing Conditions with an Application to Strong Approximations
-
-    [https://arxiv.org/abs/2402.11394](https://arxiv.org/abs/2402.11394)
-
-    本文提出了针对一般混合随机过程的样本均值上确界的界限，不受混合速度的影响，强调了集中速率和复杂度度量的重要性，并发现了混合速度对集中速率的影响，引入了相变的概念。
+    提出了基于最优输运的多元分位数回归模型，考虑结果变量中条目之间的相关性，并提供了局部识别结果。结果表明，所需的仪器变量（IV）的支持大小与结果向量的维度无关，只需IV足够信息量。
 
     
 
-    本文针对具有任意混合率的一般混合随机过程提供了一个样本均值的上确界的界限。无论混合的速度如何，该界限由一个集中速率和一种新颖的复杂度度量组成。然而，混合的速度影响前者的数量，意味着出现了相变。快速混合导致标准的根号n集中速率，而慢速混合导致较慢的集中速率，其速度取决于混合结构。我们的发现应用于推导具有任意混合率的一般混合过程的强逼近结果。
+    Chernozhukov和Hansen（2005）引入的仪器变量（IV）分位数回归模型是分析内生性情况下分位数处理效应的有用工具，但当结果变量是多维的时，它对每个变量不同维度的联合分布保持沉默。为了克服这个限制，我们提出了一个基于最优输运的考虑结果变量中条目之间相关性的多元分位数回归模型。然后，我们为模型提供了一个局部识别结果。令人惊讶的是，我们发现，所需的用于识别的IV的支持大小与结果向量的维度无关，只要IV足够信息量。我们的结果来自我们建立的一个具有独立理论意义的一般识别定理。
 
-    arXiv:2402.11394v1 Announce Type: cross  Abstract: This paper provides a bound for the supremum of sample averages over a class of functions for a general class of mixing stochastic processes with arbitrary mixing rates. Regardless of the speed of mixing, the bound is comprised of a concentration rate and a novel measure of complexity. The speed of mixing, however, affects the former quantity implying a phase transition. Fast mixing leads to the standard root-n concentration rate, while slow mixing leads to a slower concentration rate, its speed depends on the mixing structure. Our findings are applied to derive strong approximation results for a general class of mixing processes with arbitrary mixing rates.
+    The instrumental variable (IV) quantile regression model introduced by Chernozhukov and Hansen (2005) is a useful tool for analyzing quantile treatment effects in the presence of endogeneity, but when outcome variables are multidimensional, it is silent on the joint distribution of different dimensions of each variable. To overcome this limitation, we propose an IV model built on the optimal-transport-based multivariate quantile that takes into account the correlation between the entries of the outcome variable. We then provide a local identification result for the model. Surprisingly, we find that the support size of the IV required for the identification is independent of the dimension of the outcome vector, as long as the IV is sufficiently informative. Our result follows from a general identification theorem that we establish, which has independent theoretical significance.
+    
+[^2]: 有限知识下n人博弈的人类与机器智能
+
+    Human and Machine Intelligence in n-Person Games with Partial Knowledge. (arXiv:2302.13937v2 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2302.13937](http://arxiv.org/abs/2302.13937)
+
+    提出了有限知识下n人博弈的框架，引入了“游戏智能”机制和“防作弊性”概念，GI机制可以实际评估玩家的智能，应用广泛。
+
+    
+
+    本文提出了一个新的框架——有限知识下的n人博弈，其中玩家只对游戏的某些方面（包括行动、结果和其他玩家）有限的了解。为了分析这些游戏，我介绍了一组新的概念和机制，重点关注人类和机器决策之间的相互作用。具体而言，我引入了两个主要概念：第一个是“游戏智能”（GI）机制，它通过考虑参考机器智能下的“错误”，不仅仅是游戏的结果，量化了玩家在游戏中展示出的智能。第二个是“防作弊性”，这是一种实用的、可计算的策略无关性的概念。GI机制提供了一种实用的方法来评估玩家，可以潜在地应用于从在线游戏到现实生活决策的各种游戏。
+
+    In this note, I introduce a new framework called n-person games with partial knowledge, in which players have only limited knowledge about the aspects of the game -- including actions, outcomes, and other players. For example, playing an actual game of chess is a game of partial knowledge. To analyze these games, I introduce a set of new concepts and mechanisms for measuring the intelligence of players, with a focus on the interplay between human- and machine-based decision-making. Specifically, I introduce two main concepts: firstly, the Game Intelligence (GI) mechanism, which quantifies a player's demonstrated intelligence in a game by considering not only the game's outcome but also the "mistakes" made during the game according to the reference machine's intelligence. Secondly, I define gaming-proofness, a practical and computational concept of strategy-proofness. The GI mechanism provides a practicable way to assess players and can potentially be applied to a wide range of games, f
+    
+[^3]: 未知组件数的对数正态分布混合模型的贝叶斯分析和组合数据的马尔可夫链蒙特卡洛方法
+
+    Bayesian analysis of mixtures of lognormal distribution with an unknown number of components from grouped data. (arXiv:2210.05115v3 [econ.EM] UPDATED)
+
+    [http://arxiv.org/abs/2210.05115](http://arxiv.org/abs/2210.05115)
+
+    本研究提出了一种用于估计收入的对数正态分布混合模型参数的贝叶斯分析方法，并通过模拟和实证数据的验证表明了其准确性和适用性。
+
+    
+
+    本研究提出了一种可逆跳跃马尔可夫链蒙特卡洛方法，用于估计收入的对数正态分布混合模型的参数。通过使用模拟数据示例，我们检验了所提算法的性能以及基尼系数的后验分布的准确性。结果表明参数估计准确，即使考虑了不同的数据生成过程，后验分布仍接近真实分布。此外，基于更具吸引力的基尼系数的结果，我们还将该方法应用于来自日本的实际数据。实证案例表明日本在2020年存在两个子群，并且基尼系数的完整性得到了验证。
+
+    This study proposes a reversible jump Markov chain Monte Carlo method for estimating parameters of lognormal distribution mixtures for income. Using simulated data examples, we examined the proposed algorithm's performance and the accuracy of posterior distributions of the Gini coefficients. Results suggest that the parameters were estimated accurately. Therefore, the posterior distributions are close to the true distributions even when the different data generating process is accounted for. Moreover, promising results for Gini coefficients encouraged us to apply our method to real data from Japan. The empirical examples indicate two subgroups in Japan (2020) and the Gini coefficients' integrity.
     
 
