@@ -2,67 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [FlexLLM: A System for Co-Serving Large Language Model Inference and Parameter-Efficient Finetuning](https://arxiv.org/abs/2402.18789) | FlexLLM是第一个可以在同一迭代中共同提供推理和参数高效微调请求的系统，通过引入标记级微调机制实现共享GPU资源的高效利用 |
-| [^2] | [Factor Fitting, Rank Allocation, and Partitioning in Multilevel Low Rank Matrices.](http://arxiv.org/abs/2310.19214) | 本文研究了多级低秩矩阵中的因子拟合、秩分配和分割问题，提出了相应的解决方法，并开发了一个开源软件包。 |
-| [^3] | [Interpretability and Transparency-Driven Detection and Transformation of Textual Adversarial Examples (IT-DT).](http://arxiv.org/abs/2307.01225) | 通过提出的解释性和透明性驱动的检测与转换（IT-DT）框架，我们在检测和转换文本对抗示例方面注重解释性和透明性。这个框架利用了注意力图、集成梯度和模型反馈等技术，在检测阶段有助于识别对对抗性分类有贡献的显著特征和扰动词语，并在转换阶段使用预训练的嵌入和模型反馈来生成扰动词语的最佳替代，以将对抗性示例转换为正常示例。 |
-| [^4] | [Regret Distribution in Stochastic Bandits: Optimal Trade-off between Expectation and Tail Risk.](http://arxiv.org/abs/2304.04341) | 该论文探讨了随机多臂赌博问题中，如何在期望和尾部风险之间做出最优权衡。提出了一种新的策略，能够实现最坏和实例相关的优异表现，并且能够最小化遗憾尾部概率。 |
+| [^1] | [Diffusion Models Meet Contextual Bandits with Large Action Spaces](https://arxiv.org/abs/2402.10028) | 本文设计了一种利用预训练扩散模型的扩散汤普森采样方法，用于在大动作空间下进行高效的情境强化学习探索。实证评估结果表明了该方法的优越性能。 |
+| [^2] | [Optimistically Tempered Online Learning](https://arxiv.org/abs/2301.07530) | 本文提出了一种乐观调节的在线学习框架和适应算法，挑战了对专家的信心假设，并通过动态遗憾界限的理论保证和实验证明了该方法的有效性。 |
+| [^3] | [Minimax Optimal Transfer Learning for Kernel-based Nonparametric Regression.](http://arxiv.org/abs/2310.13966) | 本文主要研究了在再生核希尔伯特空间中的非参数回归的传递学习问题，提出了两种情况下的解决方法，并分别给出了统计性质和最优性结果。 |
+| [^4] | [Exploit the antenna response consistency to define the alignment criteria for CSI data.](http://arxiv.org/abs/2310.06328) | 本论文提出了一个解决方案，利用天线响应一致性（ARC）来定义适当的对准标准，以解决在WiFi人体活动识别中的自我监督学习算法在CSI数据上无法达到预期性能的问题。 |
+| [^5] | [Datasheets for Machine Learning Sensors.](http://arxiv.org/abs/2306.08848) | 本研究提出了一种用于机器学习传感器的标准数据表模板，并讨论了其主要组成部分。这些数据表可以促进对传感器数据在机器学习应用中的理解和利用，并提供了客观的性能评估指标。 |
 
 # 详细
 
-[^1]: FlexLLM：一种用于共同提供大型语言模型推理和参数高效微调的系统
+[^1]: 扩散模型与大动作空间情境强化学习的结合
 
-    FlexLLM: A System for Co-Serving Large Language Model Inference and Parameter-Efficient Finetuning
+    Diffusion Models Meet Contextual Bandits with Large Action Spaces
 
-    [https://arxiv.org/abs/2402.18789](https://arxiv.org/abs/2402.18789)
+    [https://arxiv.org/abs/2402.10028](https://arxiv.org/abs/2402.10028)
 
-    FlexLLM是第一个可以在同一迭代中共同提供推理和参数高效微调请求的系统，通过引入标记级微调机制实现共享GPU资源的高效利用
-
-    
-
-    Parameter-efficient finetuning（PEFT）是一种广泛使用的技术，用于为不同任务调整大型语言模型。通常，服务提供商会为用户创建单独的系统，以执行PEFT模型微调和推理任务。这是因为现有系统无法处理包含推理和PEFT微调请求混合的工作负载。因此，共享的GPU资源利用不足，导致效率低下。为解决这一问题，我们提出了FlexLLM，这是第一个可以在同一迭代中为推理和参数高效微调请求提供服务的系统。我们的系统利用这两个任务的互补性质，并利用共享的GPU资源来共同运行它们，使用一种称为共同提供的方法。为实现这一目标，FlexLLM引入了一种新颖的标记级微调机制，将序列的微调计算分解为更小的标记级计算，并使用依赖并行化。
-
-    arXiv:2402.18789v1 Announce Type: cross  Abstract: Parameter-efficient finetuning (PEFT) is a widely used technique to adapt large language models for different tasks. Service providers typically create separate systems for users to perform PEFT model finetuning and inference tasks. This is because existing systems cannot handle workloads that include a mix of inference and PEFT finetuning requests. As a result, shared GPU resources are underutilized, leading to inefficiencies. To address this problem, we present FlexLLM, the first system that can serve inference and parameter-efficient finetuning requests in the same iteration. Our system leverages the complementary nature of these two tasks and utilizes shared GPU resources to run them jointly, using a method called co-serving. To achieve this, FlexLLM introduces a novel token-level finetuning mechanism, which breaks down the finetuning computation of a sequence into smaller token-level computations and uses dependent parallelization
-    
-[^2]: 在多级低秩矩阵中进行因子拟合、秩分配和分割
-
-    Factor Fitting, Rank Allocation, and Partitioning in Multilevel Low Rank Matrices. (arXiv:2310.19214v1 [stat.ML])
-
-    [http://arxiv.org/abs/2310.19214](http://arxiv.org/abs/2310.19214)
-
-    本文研究了多级低秩矩阵中的因子拟合、秩分配和分割问题，提出了相应的解决方法，并开发了一个开源软件包。
+    本文设计了一种利用预训练扩散模型的扩散汤普森采样方法，用于在大动作空间下进行高效的情境强化学习探索。实证评估结果表明了该方法的优越性能。
 
     
 
-    我们考虑多级低秩（MLR）矩阵，定义为一系列矩阵的行和列的排列，每个矩阵都是前一个矩阵的块对角修正，所有块以因子形式给出低秩矩阵。MLR矩阵扩展了低秩矩阵的概念，但它们共享许多特性，例如所需总存储空间和矩阵向量乘法的复杂度。我们解决了用Frobenius范数拟合给定矩阵到MLR矩阵的三个问题。第一个问题是因子拟合，通过调整MLR矩阵的因子来解决。第二个问题是秩分配，在每个级别中选择块的秩，满足总秩的给定值，以保持MLR矩阵所需的总存储空间。最后一个问题是选择行和列的层次分割，以及秩和因子。本文附带了一个开源软件包，实现了所提出的方法。
+    由于动作空间较大，有效的探索是情境强化学习中的一个关键挑战。本文通过利用预训练的扩散模型来捕捉动作之间的相关性，设计了扩散汤普森采样（dTS）方法，实现了高效的探索。我们为dTS方法提供了理论和算法基础，并通过实证评估展示了它的优越性能。
 
-    We consider multilevel low rank (MLR) matrices, defined as a row and column permutation of a sum of matrices, each one a block diagonal refinement of the previous one, with all blocks low rank given in factored form. MLR matrices extend low rank matrices but share many of their properties, such as the total storage required and complexity of matrix-vector multiplication. We address three problems that arise in fitting a given matrix by an MLR matrix in the Frobenius norm. The first problem is factor fitting, where we adjust the factors of the MLR matrix. The second is rank allocation, where we choose the ranks of the blocks in each level, subject to the total rank having a given value, which preserves the total storage needed for the MLR matrix. The final problem is to choose the hierarchical partition of rows and columns, along with the ranks and factors. This paper is accompanied by an open source package that implements the proposed methods.
+    arXiv:2402.10028v1 Announce Type: cross  Abstract: Efficient exploration is a key challenge in contextual bandits due to the large size of their action space, where uninformed exploration can result in computational and statistical inefficiencies. Fortunately, the rewards of actions are often correlated and this can be leveraged to explore them efficiently. In this work, we capture such correlations using pre-trained diffusion models; upon which we design diffusion Thompson sampling (dTS). Both theoretical and algorithmic foundations are developed for dTS, and empirical evaluation also shows its favorable performance.
     
-[^3]: 解释性和透明性驱动的文本对抗示例的检测与转换（IT-DT）
+[^2]: 乐观调节的在线学习
 
-    Interpretability and Transparency-Driven Detection and Transformation of Textual Adversarial Examples (IT-DT). (arXiv:2307.01225v1 [cs.CL])
+    Optimistically Tempered Online Learning
 
-    [http://arxiv.org/abs/2307.01225](http://arxiv.org/abs/2307.01225)
+    [https://arxiv.org/abs/2301.07530](https://arxiv.org/abs/2301.07530)
 
-    通过提出的解释性和透明性驱动的检测与转换（IT-DT）框架，我们在检测和转换文本对抗示例方面注重解释性和透明性。这个框架利用了注意力图、集成梯度和模型反馈等技术，在检测阶段有助于识别对对抗性分类有贡献的显著特征和扰动词语，并在转换阶段使用预训练的嵌入和模型反馈来生成扰动词语的最佳替代，以将对抗性示例转换为正常示例。
-
-    
-
-    基于Transformer的文本分类器如BERT、Roberta、T5和GPT-3在自然语言处理方面展示了令人印象深刻的性能。然而，它们对于对抗性示例的脆弱性提出了安全风险。现有的防御方法缺乏解释性，很难理解对抗性分类并识别模型的漏洞。为了解决这个问题，我们提出了解释性和透明性驱动的检测与转换（IT-DT）框架。它专注于在检测和转换文本对抗示例时的解释性和透明性。IT-DT利用注意力图、集成梯度和模型反馈等技术进行解释性检测。这有助于识别对对抗性分类有贡献的显著特征和扰动词语。在转换阶段，IT-DT利用预训练的嵌入和模型反馈来生成扰动词语的最佳替代。通过找到合适的替换，我们的目标是将对抗性示例转换为正常示例。
-
-    Transformer-based text classifiers like BERT, Roberta, T5, and GPT-3 have shown impressive performance in NLP. However, their vulnerability to adversarial examples poses a security risk. Existing defense methods lack interpretability, making it hard to understand adversarial classifications and identify model vulnerabilities. To address this, we propose the Interpretability and Transparency-Driven Detection and Transformation (IT-DT) framework. It focuses on interpretability and transparency in detecting and transforming textual adversarial examples. IT-DT utilizes techniques like attention maps, integrated gradients, and model feedback for interpretability during detection. This helps identify salient features and perturbed words contributing to adversarial classifications. In the transformation phase, IT-DT uses pre-trained embeddings and model feedback to generate optimal replacements for perturbed words. By finding suitable substitutions, we aim to convert adversarial examples into
-    
-[^4]: 随机赌博机中的遗憾分布：期望和尾部风险之间的最优权衡
-
-    Regret Distribution in Stochastic Bandits: Optimal Trade-off between Expectation and Tail Risk. (arXiv:2304.04341v1 [stat.ML])
-
-    [http://arxiv.org/abs/2304.04341](http://arxiv.org/abs/2304.04341)
-
-    该论文探讨了随机多臂赌博问题中，如何在期望和尾部风险之间做出最优权衡。提出了一种新的策略，能够实现最坏和实例相关的优异表现，并且能够最小化遗憾尾部概率。
+    本文提出了一种乐观调节的在线学习框架和适应算法，挑战了对专家的信心假设，并通过动态遗憾界限的理论保证和实验证明了该方法的有效性。
 
     
 
-    本文研究了随机多臂赌博问题中，遗憾分布的期望和尾部风险之间的权衡问题。我们完全刻画了策略设计中三个期望性质之间的相互作用：最坏情况下的最优性，实例相关的一致性和轻尾风险。我们展示了期望遗憾的顺序如何影响遗憾尾部概率的衰减率，同时包括了最坏情况和实例相关的情况。我们提出了一种新的策略，以表征对于任何遗憾阈值的最优遗憾尾部概率。具体地，对于任何给定的$\alpha \in [1/2, 1)$和$\beta \in [0, \alpha]$，我们的策略可以实现平均期望遗憾$\tilde O(T^\alpha)$的最坏情况下$\alpha$-最优和期望遗憾$\tilde O(T^\beta)$的实例相关的$\beta$-一致性，并且享有一定的概率可以避免$\tilde O(T^\delta)$的遗憾($\delta \geq \alpha$在最坏情况下和$\delta \geq \beta$在实例相关的情况下)。
+    乐观在线学习算法已经被开发出来，以利用专家意见，假设专家意见总是有用的。然而，我们可以合理地对这些意见与基于梯度的在线算法提供的学习信息的相关性提出质疑。在这项工作中，我们质疑对专家的信心假设，并开发了乐观调节（OT）在线学习框架以及在线算法的OT适应性。我们的算法具有动态遗憾界限的稳固理论保证，并最终验证了OT方法的有用性。
 
-    We study the trade-off between expectation and tail risk for regret distribution in the stochastic multi-armed bandit problem. We fully characterize the interplay among three desired properties for policy design: worst-case optimality, instance-dependent consistency, and light-tailed risk. We show how the order of expected regret exactly affects the decaying rate of the regret tail probability for both the worst-case and instance-dependent scenario. A novel policy is proposed to characterize the optimal regret tail probability for any regret threshold. Concretely, for any given $\alpha\in[1/2, 1)$ and $\beta\in[0, \alpha]$, our policy achieves a worst-case expected regret of $\tilde O(T^\alpha)$ (we call it $\alpha$-optimal) and an instance-dependent expected regret of $\tilde O(T^\beta)$ (we call it $\beta$-consistent), while enjoys a probability of incurring an $\tilde O(T^\delta)$ regret ($\delta\geq\alpha$ in the worst-case scenario and $\delta\geq\beta$ in the instance-dependent s
+    arXiv:2301.07530v2 Announce Type: replace Abstract: Optimistic Online Learning algorithms have been developed to exploit expert advices, assumed optimistically to be always useful. However, it is legitimate to question the relevance of such advices \emph{w.r.t.} the learning information provided by gradient-based online algorithms. In this work, we challenge the confidence assumption on the expert and develop the \emph{optimistically tempered} (OT) online learning framework as well as OT adaptations of online algorithms. Our algorithms come with sound theoretical guarantees in the form of dynamic regret bounds, and we eventually provide experimental validation of the usefulness of the OT approach.
+    
+[^3]: 基于核非参数回归的最优极小化传递学习
+
+    Minimax Optimal Transfer Learning for Kernel-based Nonparametric Regression. (arXiv:2310.13966v1 [stat.ML])
+
+    [http://arxiv.org/abs/2310.13966](http://arxiv.org/abs/2310.13966)
+
+    本文主要研究了在再生核希尔伯特空间中的非参数回归的传递学习问题，提出了两种情况下的解决方法，并分别给出了统计性质和最优性结果。
+
+    
+
+    近年来，传递学习在机器学习社区中受到了很大关注。它能够利用相关研究的知识来提高目标研究的泛化性能，使其具有很高的吸引力。本文主要研究在再生核希尔伯特空间中的非参数回归的传递学习问题，目的是缩小实际效果与理论保证之间的差距。具体考虑了两种情况：已知可传递的来源和未知的情况。对于已知可传递的来源情况，我们提出了一个两步核估计器，仅使用核岭回归。对于未知的情况，我们开发了一种基于高效聚合算法的新方法，可以自动检测并减轻负面来源的影响。本文提供了所需估计器的统计性质，并建立了该方法的最优性结果。
+
+    In recent years, transfer learning has garnered significant attention in the machine learning community. Its ability to leverage knowledge from related studies to improve generalization performance in a target study has made it highly appealing. This paper focuses on investigating the transfer learning problem within the context of nonparametric regression over a reproducing kernel Hilbert space. The aim is to bridge the gap between practical effectiveness and theoretical guarantees. We specifically consider two scenarios: one where the transferable sources are known and another where they are unknown. For the known transferable source case, we propose a two-step kernel-based estimator by solely using kernel ridge regression. For the unknown case, we develop a novel method based on an efficient aggregation algorithm, which can automatically detect and alleviate the effects of negative sources. This paper provides the statistical properties of the desired estimators and establishes the 
+    
+[^4]: 利用天线响应一致性定义CSI数据的对准标准
+
+    Exploit the antenna response consistency to define the alignment criteria for CSI data. (arXiv:2310.06328v1 [cs.LG])
+
+    [http://arxiv.org/abs/2310.06328](http://arxiv.org/abs/2310.06328)
+
+    本论文提出了一个解决方案，利用天线响应一致性（ARC）来定义适当的对准标准，以解决在WiFi人体活动识别中的自我监督学习算法在CSI数据上无法达到预期性能的问题。
+
+    
+
+    自我监督学习（SSL）用于基于WiFi的人体活动识别（HAR）由于能够解决标注数据不足的挑战而具有很大的潜力。然而，直接将原本设计用于其他领域的SSL算法，特别是对比学习，移植到CSI数据上往往无法达到预期的性能。我们将这个问题归因于对准标准不当，这破坏了特征空间和输入空间之间的语义距离一致性。为了解决这个挑战，我们引入了``Anetenna Response Consistency (ARC)''作为定义合适对准标准的解决方案。ARC的设计在保留输入空间的语义信息的同时，引入了对现实世界噪声的鲁棒性。我们从CSI数据结构的角度分析了ARC，并展示了其最优解导致了从输入CSI数据到特征映射中的动作向量的直接映射。
+
+    Self-supervised learning (SSL) for WiFi-based human activity recognition (HAR) holds great promise due to its ability to address the challenge of insufficient labeled data. However, directly transplanting SSL algorithms, especially contrastive learning, originally designed for other domains to CSI data, often fails to achieve the expected performance. We attribute this issue to the inappropriate alignment criteria, which disrupt the semantic distance consistency between the feature space and the input space. To address this challenge, we introduce \textbf{A}netenna \textbf{R}esponse \textbf{C}onsistency (ARC) as a solution to define proper alignment criteria. ARC is designed to retain semantic information from the input space while introducing robustness to real-world noise. We analyze ARC from the perspective of CSI data structure, demonstrating that its optimal solution leads to a direct mapping from input CSI data to action vectors in the feature map. Furthermore, we provide extensi
+    
+[^5]: 机器学习传感器的数据表
+
+    Datasheets for Machine Learning Sensors. (arXiv:2306.08848v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2306.08848](http://arxiv.org/abs/2306.08848)
+
+    本研究提出了一种用于机器学习传感器的标准数据表模板，并讨论了其主要组成部分。这些数据表可以促进对传感器数据在机器学习应用中的理解和利用，并提供了客观的性能评估指标。
+
+    
+
+    机器学习（ML）传感器提供了一种新的感知范式，能够在边缘进行智能化，同时赋予终端用户更多对其数据的控制权。由于这些ML传感器在智能设备的发展中起着至关重要的作用，清晰地记录其规格、功能和限制非常关键。本文介绍了一种用于ML传感器的标准数据表模板，并讨论了其主要组成部分，包括系统的硬件、ML模型和数据集属性、端到端性能指标以及环境影响。我们提供了一个我们自己ML传感器的示例数据表，并详细讨论了每个部分。我们强调这些数据表如何促进对ML应用中传感器数据的更好理解和利用，并提供了客观的衡量系统性能的指标进行评估和比较。ML传感器及其数据表共同提供了更高的隐私、安全性、透明度、可解释性、可审计性和
+
+    Machine learning (ML) sensors offer a new paradigm for sensing that enables intelligence at the edge while empowering end-users with greater control of their data. As these ML sensors play a crucial role in the development of intelligent devices, clear documentation of their specifications, functionalities, and limitations is pivotal. This paper introduces a standard datasheet template for ML sensors and discusses its essential components including: the system's hardware, ML model and dataset attributes, end-to-end performance metrics, and environmental impact. We provide an example datasheet for our own ML sensor and discuss each section in detail. We highlight how these datasheets can facilitate better understanding and utilization of sensor data in ML applications, and we provide objective measures upon which system performance can be evaluated and compared. Together, ML sensors and their datasheets provide greater privacy, security, transparency, explainability, auditability, and u
     
 
