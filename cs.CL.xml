@@ -1,1 +1,41 @@
-<rss version="2.0"><channel><title>Chat Arxiv cs.CL</title><link>https://github.com/qhduan/cn-chat-arxiv</link><description>This is arxiv RSS feed for cs.CL</description></channel></rss>
+<rss version="2.0"><channel><title>Chat Arxiv cs.CL</title><link>https://github.com/qhduan/cn-chat-arxiv</link><description>This is arxiv RSS feed for cs.CL</description><item><title>&#26412;&#35770;&#25991;&#25552;&#20986;&#20102;&#19968;&#31181;&#26032;&#26041;&#27861;&#65292;&#36890;&#36807;&#24443;&#24213;&#37325;&#26657;&#20934;&#20559;&#22909;&#25968;&#25454;&#38598;&#20013;&#30340;&#20215;&#20540;&#35266;&#65292;&#20197;&#22686;&#24378;&#22823;&#22411;&#35821;&#35328;&#27169;&#22411;&#23545;&#38382;&#39064;&#30340;&#38887;&#24615;&#12290;</title><link>https://arxiv.org/abs/2403.02745</link><description>&lt;p&gt;
+CURATRON&#65306;&#23436;&#25972;&#20581;&#22766;&#20559;&#22909;&#25968;&#25454;&#29992;&#20110;&#22823;&#22411;&#35821;&#35328;&#27169;&#22411;&#30340;&#20581;&#22766;&#23545;&#40784;
+&lt;/p&gt;
+&lt;p&gt;
+CURATRON: Complete Robust Preference Data for Robust Alignment of Large Language Models
+&lt;/p&gt;
+&lt;p&gt;
+https://arxiv.org/abs/2403.02745
+&lt;/p&gt;
+&lt;p&gt;
+&#26412;&#35770;&#25991;&#25552;&#20986;&#20102;&#19968;&#31181;&#26032;&#26041;&#27861;&#65292;&#36890;&#36807;&#24443;&#24213;&#37325;&#26657;&#20934;&#20559;&#22909;&#25968;&#25454;&#38598;&#20013;&#30340;&#20215;&#20540;&#35266;&#65292;&#20197;&#22686;&#24378;&#22823;&#22411;&#35821;&#35328;&#27169;&#22411;&#23545;&#38382;&#39064;&#30340;&#38887;&#24615;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+&#36825;&#31687;&#35770;&#25991;&#35299;&#20915;&#20102;&#36890;&#36807;&#20559;&#22909;&#23398;&#20064;&#65288;PL&#65289;&#23558;&#22823;&#22411;&#35821;&#35328;&#27169;&#22411;&#65288;LLMs&#65289;&#19982;&#20154;&#31867;&#20215;&#20540;&#35266;&#23545;&#40784;&#30340;&#25361;&#25112;&#65292;&#37325;&#28857;&#20851;&#27880;&#20559;&#22909;&#25968;&#25454;&#38598;&#20013;&#19981;&#23436;&#25972;&#21644;&#25439;&#22351;&#30340;&#38382;&#39064;&#12290;&#25105;&#20204;&#25552;&#20986;&#20102;&#19968;&#31181;&#26032;&#26041;&#27861;&#65292;&#36890;&#36807;&#24443;&#24213;&#21644;&#23436;&#20840;&#22320;&#37325;&#26032;&#26657;&#20934;&#36825;&#20123;&#25968;&#25454;&#38598;&#20013;&#30340;&#20215;&#20540;&#35266;&#65292;&#20197;&#22686;&#24378;LLMs&#23545;&#38382;&#39064;&#30340;&#38887;&#24615;&#12290;&#29305;&#21035;&#26159;&#65292;&#25105;&#20204;&#35774;&#35745;&#20102;&#19968;&#20010;&#26377;&#20445;&#35777;&#30340;&#22810;&#39033;&#24335;&#26102;&#38388;&#25490;&#21517;&#31639;&#27861;&#65292;&#21487;&#20197;&#22686;&#24378;&#20960;&#31181;&#29616;&#26377;&#27169;&#22411;&#30340;&#20581;&#22766;&#24615;&#65292;&#27604;&#22914;&#32463;&#20856;&#30340;Bradley&#8211;Terry&#8211;Luce&#65288;BTL&#65289;&#65288;Bradley&#21644;Terry&#65292;1952&#65289;&#27169;&#22411;&#20197;&#21450;&#23545;&#20854;&#26576;&#20123;&#25512;&#24191;&#12290;&#25454;&#25105;&#20204;&#25152;&#30693;&#65292;&#25105;&#20204;&#30340;&#24037;&#20316;&#26159;&#31532;&#19968;&#20010;&#25552;&#20986;&#19968;&#31181;&#21487;&#35777;&#26126;&#22312;&#39640;&#27010;&#29575;&#19979;&#24674;&#22797;{\epsilon}-&#26368;&#20248;&#25490;&#24207;&#30340;&#31639;&#27861;&#65292;&#21516;&#26102;&#20801;&#35768;&#27599;&#20010;&#27169;&#22411;&#21709;&#24212;&#22810;&#36798;O(n)&#25200;&#21160;&#30340;&#25104;&#23545;&#27604;&#36739;&#32467;&#26524;&#12290;&#27492;&#22806;&#65292;&#25105;&#20204;&#23637;&#31034;&#20102;&#22312;&#37096;&#20998;&#35266;&#23519;&#35774;&#32622;&#19979;&#30340;&#20581;&#22766;&#24674;&#22797;&#32467;&#26524;&#12290;&#25105;&#20204;&#30340;&#23454;&#39564;&#35777;&#23454;&#20102;&#25105;&#20204;&#30340;&#31639;&#27861;
+&lt;/p&gt;
+&lt;p&gt;
+arXiv:2403.02745v1 Announce Type: new  Abstract: This paper addresses the challenges of aligning large language models (LLMs) with human values via preference learning (PL), with a focus on the issues of incomplete and corrupted data in preference datasets. We propose a novel method for robustly and completely recalibrating values within these datasets to enhance LLMs resilience against the issues. In particular, we devise a guaranteed polynomial time ranking algorithm that robustifies several existing models, such as the classic Bradley--Terry--Luce (BTL) (Bradley and Terry, 1952) model and certain generalizations of it. To the best of our knowledge, our present work is the first to propose an algorithm that provably recovers an {\epsilon}-optimal ranking with high probability while allowing as large as O(n) perturbed pairwise comparison results per model response. Furthermore, we show robust recovery results in the partially observed setting. Our experiments confirm that our algorith
+&lt;/p&gt;</description></item><item><title>&#26412;&#25991;&#30740;&#31350;&#20102;&#22312;&#23481;&#38169;&#24615;&#37327;&#23376;&#35745;&#31639;&#30340;&#35270;&#35282;&#19979;Transformer&#26550;&#26500;&#65292;&#23637;&#31034;&#20102;&#22914;&#20309;&#21033;&#29992;&#37327;&#23376;&#32447;&#24615;&#20195;&#25968;&#26500;&#24314;Transformer&#30340;&#20851;&#38190;&#32452;&#20214;&#12290;</title><link>https://arxiv.org/abs/2402.16714</link><description>&lt;p&gt;
+&#37327;&#23376;&#32447;&#24615;&#20195;&#25968;&#26159;Transformer&#26550;&#26500;&#25152;&#38656;&#30340;&#19968;&#20999;
+&lt;/p&gt;
+&lt;p&gt;
+Quantum linear algebra is all you need for Transformer architectures
+&lt;/p&gt;
+&lt;p&gt;
+https://arxiv.org/abs/2402.16714
+&lt;/p&gt;
+&lt;p&gt;
+&#26412;&#25991;&#30740;&#31350;&#20102;&#22312;&#23481;&#38169;&#24615;&#37327;&#23376;&#35745;&#31639;&#30340;&#35270;&#35282;&#19979;Transformer&#26550;&#26500;&#65292;&#23637;&#31034;&#20102;&#22914;&#20309;&#21033;&#29992;&#37327;&#23376;&#32447;&#24615;&#20195;&#25968;&#26500;&#24314;Transformer&#30340;&#20851;&#38190;&#32452;&#20214;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+&#29983;&#25104;&#24335;&#26426;&#22120;&#23398;&#20064;&#26041;&#27861;&#22914;&#22823;&#22411;&#35821;&#35328;&#27169;&#22411;&#27491;&#22312;&#24443;&#24213;&#25913;&#21464;&#25991;&#26412;&#21644;&#22270;&#20687;&#30340;&#21019;&#20316;&#12290;&#26412;&#25991;&#36890;&#36807;&#23481;&#38169;&#24615;&#37327;&#23376;&#35745;&#31639;&#30340;&#35270;&#35282;&#30740;&#31350;&#20102;Transformer&#26550;&#26500;&#12290;&#25105;&#20204;&#23637;&#31034;&#20102;&#22914;&#20309;&#20934;&#22791;self-attention&#30697;&#38453;&#30340;&#22359;&#32534;&#30721;&#65292;&#24182;&#32467;&#21512;&#37327;&#23376;&#23376;&#31243;&#24207;&#26500;&#24314;&#20102;Transformer&#20013;&#30340;&#37325;&#35201;&#32452;&#25104;&#37096;&#20998;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+arXiv:2402.16714v1 Announce Type: cross  Abstract: Generative machine learning methods such as large-language models are revolutionizing the creation of text and images. While these models are powerful they also harness a large amount of computational resources. The transformer is a key component in large language models that aims to generate a suitable completion of a given partial sequence. In this work, we investigate transformer architectures under the lens of fault-tolerant quantum computing. The input model is one where pre-trained weight matrices are given as block encodings to construct the query, key, and value matrices for the transformer. As a first step, we show how to prepare a block encoding of the self-attention matrix, with a row-wise application of the softmax function using the Hadamard product. In addition, we combine quantum subroutines to construct important building blocks in the transformer, the residual connection, layer normalization, and the feed-forward neura
+&lt;/p&gt;</description></item></channel></rss>
