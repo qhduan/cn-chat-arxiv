@@ -2,127 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Enhancing Sequential Model Performance with Squared Sigmoid TanH (SST) Activation Under Data Constraints](https://arxiv.org/abs/2402.09034) | 该论文提出了一种平方Sigmoid TanH（SST）激活函数，用于增强在数据限制下的顺序模型学习能力。通过数学平方放大强激活和弱激活之间的差异，改善梯度流和信息过滤。在多个应用中评估了SST驱动的LSTM和GRU模型的性能。 |
-| [^2] | [APALU: A Trainable, Adaptive Activation Function for Deep Learning Networks](https://arxiv.org/abs/2402.08244) | APALU 是一种可训练的激活函数，通过增强深度学习的学习性能，在适应复杂数据表示的同时保持稳定和高效。 在图像分类任务中，APALU相对于传统激活函数能够显著提高准确性。 |
-| [^3] | [Knolling Bot: Learning Robotic Object Arrangement from Tidy Demonstrations](https://arxiv.org/abs/2310.04566) | 本论文介绍了一种自监督学习框架，利用Transformer神经网络使机器人能够从整齐排列的示范中理解和复制整洁的概念，从而实现整理物品的功能。 |
-| [^4] | [Hybrid-Task Meta-Learning: A Graph Neural Network Approach for Scalable and Transferable Bandwidth Allocation.](http://arxiv.org/abs/2401.10253) | 本文提出了一种基于图神经网络的混合任务元学习算法，用于可扩展和可转移的带宽分配。通过引入GNN和HML算法，该方法在不同的通信场景下具有较好的性能和采样效率。 |
-| [^5] | [LPAC: Learnable Perception-Action-Communication Loops with Applications to Coverage Control.](http://arxiv.org/abs/2401.04855) | 提出了一种可学习的感知-行动-通信(LPAC)架构，使用卷积神经网络处理环境感知，图神经网络实现机器人之间的信息交流，浅层多层感知机计算机器人的动作。使用集中式显微算法训练模型，实现机器人群体的协作。 |
-| [^6] | [On the Variance, Admissibility, and Stability of Empirical Risk Minimization.](http://arxiv.org/abs/2305.18508) | 本文指出，对于使用平方损失函数的经验风险最小化(ERM)，其次优性必须归因于大的偏差而非方差，并且在ERM的平方误差的偏差-方差分解中，方差项必然具有极小的失误率。作者还提供了Chatterjee的不可允许性定理的简单证明，并表示他们的估计表明ERM的稳定性。 |
-| [^7] | [Complex QA and language models hybrid architectures, Survey.](http://arxiv.org/abs/2302.09051) | 本文综述了语言模型架构和策略的最新进展，并重点关注混合技术在复杂问题回答中的应用，讨论了该领域的挑战和未来研究方向。 |
-| [^8] | [Algorithmic Assistance with Recommendation-Dependent Preferences.](http://arxiv.org/abs/2208.07626) | 本研究提出了一个联合人机决策的委托代理模型，探讨了算法推荐对选择的影响和设计，特别关注算法对偏好的改变，以解决算法辅助可能带来的意外后果。 |
+| [^1] | [Energy Model-based Accurate Shapley Value Estimation for Interpretable Deep Learning Predictive Modelling](https://arxiv.org/abs/2404.01078) | EmSHAP提出了基于能量模型的Shapley值估计方法，通过引入GRU来消除输入特征顺序的影响，从而可以有效近似任意特征子集下深度学习模型的Shapley值贡献函数。 |
+| [^2] | [Reset & Distill: A Recipe for Overcoming Negative Transfer in Continual Reinforcement Learning](https://arxiv.org/abs/2403.05066) | 开发了Reset & Distill（R&D）方法，通过重置代理的网络和提炼知识，有效克服了持续强化学习中负迁移问题。 |
+| [^3] | [Towards Understanding the Riemannian SGD and SVRG Flows on Wasserstein Probabilistic Space.](http://arxiv.org/abs/2401.13530) | 本文研究了在Wasserstein概率空间上的Riemannian SGD和SVRG流的优化方法，通过构建随机微分方程来丰富Wasserstein空间中的连续优化方法。 |
+| [^4] | [Efficient and Explainable Graph Neural Architecture Search via Monte-Carlo Tree Search.](http://arxiv.org/abs/2308.15734) | 该论文提出了一种高效且可解释的图神经网络架构搜索方法，名为ExGNAS。它包括适应各种图形的简单搜索空间和能解释决策过程的搜索算法。通过蒙特卡洛树搜索高效地搜索最佳GNN架构。 |
+| [^5] | [Efficient Learning of Quantum States Prepared With Few Non-Clifford Gates.](http://arxiv.org/abs/2305.13409) | 该研究提出了一种能有效学习几个非克利福德门制备的量子状态的算法，并给出了一个随着稳定维数增大而学习所有状态的算法。 |
 
 # 详细
 
-[^1]: 使用平方Sigmoid TanH (SST)激活在数据限制下提高顺序模型性能
+[^1]: 基于能量模型的准确Shapley值估计用于可解释深度学习预测建模
 
-    Enhancing Sequential Model Performance with Squared Sigmoid TanH (SST) Activation Under Data Constraints
+    Energy Model-based Accurate Shapley Value Estimation for Interpretable Deep Learning Predictive Modelling
 
-    [https://arxiv.org/abs/2402.09034](https://arxiv.org/abs/2402.09034)
+    [https://arxiv.org/abs/2404.01078](https://arxiv.org/abs/2404.01078)
 
-    该论文提出了一种平方Sigmoid TanH（SST）激活函数，用于增强在数据限制下的顺序模型学习能力。通过数学平方放大强激活和弱激活之间的差异，改善梯度流和信息过滤。在多个应用中评估了SST驱动的LSTM和GRU模型的性能。
-
-    
-
-    激活函数通过引入非线性来使神经网络能够学习复杂的表示。虽然前馈模型通常使用修正线性单元，但是顺序模型如递归神经网络、长短时记忆（LSTM）和门控循环单元（GRU）仍然依赖于Sigmoid和TanH激活函数。然而，这些传统的激活函数常常在训练在小顺序数据集上时难以建模稀疏模式以有效捕获时间依赖性。为了解决这个限制，我们提出了特别针对在数据限制下增强顺序模型学习能力的平方Sigmoid TanH（SST）激活。SST通过数学平方来放大强激活和弱激活之间的差异，随着信号随时间传播，有助于改善梯度流和信息过滤。我们评估了使用SST的LSTM和GRU模型在不同应用中的性能。
-
-    arXiv:2402.09034v1 Announce Type: cross Abstract: Activation functions enable neural networks to learn complex representations by introducing non-linearities. While feedforward models commonly use rectified linear units, sequential models like recurrent neural networks, long short-term memory (LSTMs) and gated recurrent units (GRUs) still rely on Sigmoid and TanH activation functions. However, these classical activation functions often struggle to model sparse patterns when trained on small sequential datasets to effectively capture temporal dependencies. To address this limitation, we propose squared Sigmoid TanH (SST) activation specifically tailored to enhance the learning capability of sequential models under data constraints. SST applies mathematical squaring to amplify differences between strong and weak activations as signals propagate over time, facilitating improved gradient flow and information filtering. We evaluate SST-powered LSTMs and GRUs for diverse applications, such a
-    
-[^2]: APALU: 一种可训练、适应性激活函数用于深度学习网络
-
-    APALU: A Trainable, Adaptive Activation Function for Deep Learning Networks
-
-    [https://arxiv.org/abs/2402.08244](https://arxiv.org/abs/2402.08244)
-
-    APALU 是一种可训练的激活函数，通过增强深度学习的学习性能，在适应复杂数据表示的同时保持稳定和高效。 在图像分类任务中，APALU相对于传统激活函数能够显著提高准确性。
+    EmSHAP提出了基于能量模型的Shapley值估计方法，通过引入GRU来消除输入特征顺序的影响，从而可以有效近似任意特征子集下深度学习模型的Shapley值贡献函数。
 
     
 
-    激活函数是深度学习的关键组成部分，有助于提取复杂的数据模式。虽然类似ReLU及其变种的经典激活函数被广泛应用，但它们的静态特性和简洁性，尽管有利，但通常限制了它们在特定任务中的有效性。可训练的激活函数有时也难以适应数据的独特特征。针对这些限制，我们引入了一种新颖的可训练激活函数，即自适应分段逼近激活线性单元（APALU），以增强深度学习在各种任务中的学习性能。它具有一套独特的特性，使其能够在学习过程中保持稳定和高效，并适应复杂的数据表示。实验证实，在不同任务中，与广泛使用的激活函数相比，APALU取得了显著的改进。在图像分类中，APALU提升了MobileNet和GoogleNet的准确性。
+    作为可解释人工智能（XAI）的有利工具，Shapley值已被广泛用于解释基于深度学习的预测模型。然而，由于计算负载随着输入特征的增加呈指数级增长，准确且高效地估计Shapley值是一项困难任务。大多数现有的加速Shapley值估计方法必须在估计准确性和效率之间做出妥协。在本文中，我们提出了EmSHAP（基于能量模型的Shapley值估计），它可以有效地近似预期Shapley贡献函数/深度学习模型在任意特征子集下给出其余特征的情况。为了确定能量模型中的提议条件分布，引入了门控循环单元（GRU），通过将输入特征映射到隐藏空间，从而消除了输入特征顺序的影响。此外，还采用了动态掩蔽方案.
 
-    Activation function is a pivotal component of deep learning, facilitating the extraction of intricate data patterns. While classical activation functions like ReLU and its variants are extensively utilized, their static nature and simplicity, despite being advantageous, often limit their effectiveness in specialized tasks. The trainable activation functions also struggle sometimes to adapt to the unique characteristics of the data. Addressing these limitations, we introduce a novel trainable activation function, adaptive piecewise approximated activation linear unit (APALU), to enhance the learning performance of deep learning across a broad range of tasks. It presents a unique set of features that enable it to maintain stability and efficiency in the learning process while adapting to complex data representations. Experiments reveal significant improvements over widely used activation functions for different tasks. In image classification, APALU increases MobileNet and GoogleNet accur
+    arXiv:2404.01078v1 Announce Type: new  Abstract: As a favorable tool for explainable artificial intelligence (XAI), Shapley value has been widely used to interpret deep learning based predictive models. However, accurate and efficient estimation of Shapley value is a difficult task since the computation load grows exponentially with the increase of input features. Most existing accelerated Shapley value estimation methods have to compromise on estimation accuracy with efficiency. In this article, we present EmSHAP(Energy model-based Shapley value estimation), which can effectively approximate the expectation of Shapley contribution function/deep learning model under arbitrary subset of features given the rest. In order to determine the proposal conditional distribution in the energy model, a gated recurrent unit(GRU) is introduced by mapping the input features onto a hidden space, so that the impact of input feature orderings can be eliminated. In addition, a dynamic masking scheme is 
     
-[^3]: Knolling Bot: 从整洁的示范中学习机器人对象排列
+[^2]: 复位和提炼：克服持续强化学习中负迁移的有效方法
 
-    Knolling Bot: Learning Robotic Object Arrangement from Tidy Demonstrations
+    Reset & Distill: A Recipe for Overcoming Negative Transfer in Continual Reinforcement Learning
 
-    [https://arxiv.org/abs/2310.04566](https://arxiv.org/abs/2310.04566)
+    [https://arxiv.org/abs/2403.05066](https://arxiv.org/abs/2403.05066)
 
-    本论文介绍了一种自监督学习框架，利用Transformer神经网络使机器人能够从整齐排列的示范中理解和复制整洁的概念，从而实现整理物品的功能。
-
-    
-
-    地址：arXiv:2310.04566v2  公告类型：replace-cross  摘要：解决家庭空间中散乱物品的整理挑战受到整洁性的多样性和主观性的复杂性影响。正如人类语言的复杂性允许同一理念的多种表达一样，家庭整洁偏好和组织模式变化广泛，因此预设物体位置将限制对新物体和环境的适应性。受自然语言处理（NLP）的进展启发，本文引入一种自监督学习框架，使机器人能够从整洁布局的示范中理解和复制整洁的概念，类似于使用会话数据集训练大语言模型（LLM）。我们利用一个Transformer神经网络来预测后续物体的摆放位置。我们展示了一个“整理”系统，利用机械臂和RGB相机在桌子上组织不同大小和数量的物品。
-
-    arXiv:2310.04566v2 Announce Type: replace-cross  Abstract: Addressing the challenge of organizing scattered items in domestic spaces is complicated by the diversity and subjective nature of tidiness. Just as the complexity of human language allows for multiple expressions of the same idea, household tidiness preferences and organizational patterns vary widely, so presetting object locations would limit the adaptability to new objects and environments. Inspired by advancements in natural language processing (NLP), this paper introduces a self-supervised learning framework that allows robots to understand and replicate the concept of tidiness from demonstrations of well-organized layouts, akin to using conversational datasets to train Large Language Models(LLM). We leverage a transformer neural network to predict the placement of subsequent objects. We demonstrate a ``knolling'' system with a robotic arm and an RGB camera to organize items of varying sizes and quantities on a table. Our 
-    
-[^4]: 混合任务元学习：一种用于可扩展和可转移带宽分配的图神经网络方法
-
-    Hybrid-Task Meta-Learning: A Graph Neural Network Approach for Scalable and Transferable Bandwidth Allocation. (arXiv:2401.10253v1 [cs.NI])
-
-    [http://arxiv.org/abs/2401.10253](http://arxiv.org/abs/2401.10253)
-
-    本文提出了一种基于图神经网络的混合任务元学习算法，用于可扩展和可转移的带宽分配。通过引入GNN和HML算法，该方法在不同的通信场景下具有较好的性能和采样效率。
+    开发了Reset & Distill（R&D）方法，通过重置代理的网络和提炼知识，有效克服了持续强化学习中负迁移问题。
 
     
 
-    本文提出了一种基于深度学习的带宽分配策略，该策略具有以下特点：1）随着用户数量的增加具有可扩展性；2）能够在不同的通信场景下进行转移，例如非平稳的无线信道、不同的服务质量要求和动态可用资源。为了支持可扩展性，带宽分配策略采用了图神经网络（GNN）进行表示，训练参数的数量随用户数量的增加而不变。为了实现GNN的泛化能力，我们开发了一种混合任务元学习（HML）算法，在元训练过程中使用不同的通信场景来训练GNN的初始参数。然后，在元测试过程中，使用少量样本对GNN进行微调以适应未见过的通信场景。仿真结果表明，与现有基准相比，我们的HML方法可以将初始性能提高8.79％，并提高采样效率73％。在微调后，
+    我们认为发展有效的持续强化学习（CRL）算法的主要障碍之一是当需要学习新任务时会发生负迁移问题。通过全面的实验证实，我们证明这种问题在CRL中经常存在，并且无法通过最近一些旨在减轻RL代理的可塑性损失的工作来有效解决。为此，我们开发了Reset & Distill（R&D），这是一种简单但高效的方法，用于克服CRL中负迁移问题。R&D结合了一种策略，即重置代理的在线演员和评论网络以学习新任务，以及离线学习步骤，用于提炼在线演员和以前专家动作概率的知识。我们在Meta-World任务的长序列上进行了大量实验，并展示了我们的方法始终优于最近的基线，取得了显着更高的成功率。
 
-    In this paper, we develop a deep learning-based bandwidth allocation policy that is: 1) scalable with the number of users and 2) transferable to different communication scenarios, such as non-stationary wireless channels, different quality-of-service (QoS) requirements, and dynamically available resources. To support scalability, the bandwidth allocation policy is represented by a graph neural network (GNN), with which the number of training parameters does not change with the number of users. To enable the generalization of the GNN, we develop a hybrid-task meta-learning (HML) algorithm that trains the initial parameters of the GNN with different communication scenarios during meta-training. Next, during meta-testing, a few samples are used to fine-tune the GNN with unseen communication scenarios. Simulation results demonstrate that our HML approach can improve the initial performance by $8.79\%$, and sampling efficiency by $73\%$, compared with existing benchmarks. After fine-tuning,
+    arXiv:2403.05066v1 Announce Type: cross  Abstract: We argue that one of the main obstacles for developing effective Continual Reinforcement Learning (CRL) algorithms is the negative transfer issue occurring when the new task to learn arrives. Through comprehensive experimental validation, we demonstrate that such issue frequently exists in CRL and cannot be effectively addressed by several recent work on mitigating plasticity loss of RL agents. To that end, we develop Reset & Distill (R&D), a simple yet highly effective method, to overcome the negative transfer problem in CRL. R&D combines a strategy of resetting the agent's online actor and critic networks to learn a new task and an offline learning step for distilling the knowledge from the online actor and previous expert's action probabilities. We carried out extensive experiments on long sequence of Meta-World tasks and show that our method consistently outperforms recent baselines, achieving significantly higher success rates acr
     
-[^5]: LPAC: 可学习的感知-行动-通信循环及其在覆盖控制中的应用
+[^3]: 在Wasserstein概率空间上理解Riemannian SGD和SVRG流的研究
 
-    LPAC: Learnable Perception-Action-Communication Loops with Applications to Coverage Control. (arXiv:2401.04855v1 [cs.RO])
+    Towards Understanding the Riemannian SGD and SVRG Flows on Wasserstein Probabilistic Space. (arXiv:2401.13530v1 [cs.LG])
 
-    [http://arxiv.org/abs/2401.04855](http://arxiv.org/abs/2401.04855)
+    [http://arxiv.org/abs/2401.13530](http://arxiv.org/abs/2401.13530)
 
-    提出了一种可学习的感知-行动-通信(LPAC)架构，使用卷积神经网络处理环境感知，图神经网络实现机器人之间的信息交流，浅层多层感知机计算机器人的动作。使用集中式显微算法训练模型，实现机器人群体的协作。
-
-    
-
-    覆盖控制是指导机器人群体协同监测未知的感兴趣特征或现象的问题。在有限的通信和感知能力的分散设置中，这个问题具有挑战性。本文提出了一种可学习的感知-行动-通信(LPAC)架构来解决覆盖控制问题。在该解决方案中，卷积神经网络(CNN)处理了环境的局部感知；图神经网络(GNN)实现了邻近机器人之间的相关信息通信；最后，浅层多层感知机(MLP)计算机器人的动作。通信模块中的GNN通过计算应该与邻居通信哪些信息以及如何利用接收到的信息采取适当的行动来实现机器人群体的协作。我们使用一个知晓整个环境的集中式显微算法来进行模型的训练。
-
-    Coverage control is the problem of navigating a robot swarm to collaboratively monitor features or a phenomenon of interest not known a priori. The problem is challenging in decentralized settings with robots that have limited communication and sensing capabilities. This paper proposes a learnable Perception-Action-Communication (LPAC) architecture for the coverage control problem. In the proposed solution, a convolution neural network (CNN) processes localized perception of the environment; a graph neural network (GNN) enables communication of relevant information between neighboring robots; finally, a shallow multi-layer perceptron (MLP) computes robot actions. The GNN in the communication module enables collaboration in the robot swarm by computing what information to communicate with neighbors and how to use received information to take appropriate actions. We train models using imitation learning with a centralized clairvoyant algorithm that is aware of the entire environment. Eva
-    
-[^6]: 论经验风险最小化的方差、可允许性和稳定性
-
-    On the Variance, Admissibility, and Stability of Empirical Risk Minimization. (arXiv:2305.18508v1 [math.ST])
-
-    [http://arxiv.org/abs/2305.18508](http://arxiv.org/abs/2305.18508)
-
-    本文指出，对于使用平方损失函数的经验风险最小化(ERM)，其次优性必须归因于大的偏差而非方差，并且在ERM的平方误差的偏差-方差分解中，方差项必然具有极小的失误率。作者还提供了Chatterjee的不可允许性定理的简单证明，并表示他们的估计表明ERM的稳定性。
+    本文研究了在Wasserstein概率空间上的Riemannian SGD和SVRG流的优化方法，通过构建随机微分方程来丰富Wasserstein空间中的连续优化方法。
 
     
 
-    众所周知，使用平方损失的经验风险最小化可能会达到极小的最大失误率。本文的关键信息是，在温和的假设下，ERM的次优性必须归因于大的偏差而非方差。在ERM的平方误差的偏差-方差分解中，方差项必然具有极小的失误率。我们为固定设计提供了一个简单的、使用概率方法证明这一事实的证明。然后，我们在随机设计设置下为各种模型证明了这一结果。此外，我们提供了 Chatterjee 不可允许性定理 (Chatterjee, 2014, Theorem 1.4) 的简单证明，该定理指出，在固定设计设置中，ERM不能被排除为一种最优方法，并将该结果扩展到随机设计设置。我们还表明，我们的估计表明ERM的稳定性，为Caponnetto和Rakhlin(2006)的非Donsker类的主要结果提供了补充。
+    最近，对于Riemannian流形上的优化研究为优化领域提供了新的见解。在这方面，概率测度度量空间作为流形，配备第二阶Wasserstein距离，尤其引人关注，因为在其上的优化可以与实际的采样过程相关联。一般来说，Wasserstein空间上的最优化方法是Riemannian梯度流（即，在最小化KL散度时的Langevin动力学）。在本文中，我们旨在通过将梯度流延展到随机梯度下降（SGD）流和随机方差减少梯度（SVRG）流，丰富Wasserstein空间中的连续优化方法。Euclidean空间上的这两种流是标准的随机优化方法，而它们在Riemannian空间中的对应方法尚未被探索。通过利用Wasserstein空间中的结构，我们构建了一个随机微分方程（SDE）来近似离散动态。
 
-    It is well known that Empirical Risk Minimization (ERM) with squared loss may attain minimax suboptimal error rates (Birg\'e and Massart, 1993). The key message of this paper is that, under mild assumptions, the suboptimality of ERM must be due to large bias rather than variance. More precisely, in the bias-variance decomposition of the squared error of the ERM, the variance term necessarily enjoys the minimax rate. In the case of fixed design, we provide an elementary proof of this fact using the probabilistic method. Then, we prove this result for various models in the random design setting. In addition, we provide a simple proof of Chatterjee's admissibility theorem (Chatterjee, 2014, Theorem 1.4), which states that ERM cannot be ruled out as an optimal method, in the fixed design setting, and extend this result to the random design setting. We also show that our estimates imply stability of ERM, complementing the main result of Caponnetto and Rakhlin (2006) for non-Donsker classes.
+    Recently, optimization on the Riemannian manifold has provided new insights to the optimization community. In this regard, the manifold taken as the probability measure metric space equipped with the second-order Wasserstein distance is of particular interest, since optimization on it can be linked to practical sampling processes. In general, the oracle (continuous) optimization method on Wasserstein space is Riemannian gradient flow (i.e., Langevin dynamics when minimizing KL divergence). In this paper, we aim to enrich the continuous optimization methods in the Wasserstein space by extending the gradient flow into the stochastic gradient descent (SGD) flow and stochastic variance reduction gradient (SVRG) flow. The two flows on Euclidean space are standard stochastic optimization methods, while their Riemannian counterparts are not explored yet. By leveraging the structures in Wasserstein space, we construct a stochastic differential equation (SDE) to approximate the discrete dynamic
     
-[^7]: 复杂问答和语言模型混合架构综述
+[^4]: 高效且可解释的图神经网络架构搜索通过蒙特卡洛树搜索
 
-    Complex QA and language models hybrid architectures, Survey. (arXiv:2302.09051v4 [cs.CL] UPDATED)
+    Efficient and Explainable Graph Neural Architecture Search via Monte-Carlo Tree Search. (arXiv:2308.15734v1 [cs.LG])
 
-    [http://arxiv.org/abs/2302.09051](http://arxiv.org/abs/2302.09051)
+    [http://arxiv.org/abs/2308.15734](http://arxiv.org/abs/2308.15734)
 
-    本文综述了语言模型架构和策略的最新进展，并重点关注混合技术在复杂问题回答中的应用，讨论了该领域的挑战和未来研究方向。
-
-    
-
-    本文回顾了语言模型架构和策略的最新进展，重点关注混合技术在复杂问题回答中的应用。大型语言模型能够在标准问题上利用公共数据，但在解决更具体的复杂问题时（如在不同文化中个人自由概念的变化如何？什么是为减少气候变化而实现的最佳发电方法组合？），需要特定的架构、知识、技能、方法、敏感数据保护、可解释性、人类审批和多功能反馈。最近的项目如ChatGPT和GALACTICA允许非专业人员了解LLM在复杂QA中的巨大潜力以及同等强大的局限性。在本文中，我们首先审查所需的技能和评估技术。然后，我们综述了现有的混合架构，将LLM与基于规则的方法、信息检索、知识图谱和其他AI/ML技术相结合。最后，我们指出这些CQA系统的挑战，并提出未来研究的可能方向。
-
-    This paper reviews the state-of-the-art of language models architectures and strategies for "complex" question-answering (QA, CQA, CPS) with a focus on hybridization. Large Language Models (LLM) are good at leveraging public data on standard problems but once you want to tackle more specific complex questions or problems (e.g. How does the concept of personal freedom vary between different cultures ? What is the best mix of power generation methods to reduce climate change ?) you may need specific architecture, knowledge, skills, methods, sensitive data protection, explainability, human approval and versatile feedback... Recent projects like ChatGPT and GALACTICA have allowed non-specialists to grasp the great potential as well as the equally strong limitations of LLM in complex QA. In this paper, we start by reviewing required skills and evaluation techniques. We integrate findings from the robust community edited research papers BIG, BLOOM and HELM which open source, benchmark and an
-    
-[^8]: 算法辅助下的推荐相关偏好
-
-    Algorithmic Assistance with Recommendation-Dependent Preferences. (arXiv:2208.07626v3 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2208.07626](http://arxiv.org/abs/2208.07626)
-
-    本研究提出了一个联合人机决策的委托代理模型，探讨了算法推荐对选择的影响和设计，特别关注算法对偏好的改变，以解决算法辅助可能带来的意外后果。
+    该论文提出了一种高效且可解释的图神经网络架构搜索方法，名为ExGNAS。它包括适应各种图形的简单搜索空间和能解释决策过程的搜索算法。通过蒙特卡洛树搜索高效地搜索最佳GNN架构。
 
     
 
-    当算法提供风险评估时，我们通常将其视为对人类决策的有益输入，例如将风险评分呈现给法官或医生。然而，决策者可能不仅仅只针对算法提供的信息做出反应。决策者还可能将算法推荐视为默认操作，使其难以偏离，例如法官在对被告进行高风险评估的时候不愿意推翻，或医生担心偏离推荐的程序会带来后果。为了解决算法辅助的这种意外后果，我们提出了一个联合人机决策的委托代理模型。在该模型中，我们考虑了算法推荐对选择的影响和设计，这种影响不仅仅是通过改变信念，还通过改变偏好。我们从制度因素和行为经济学中的已有模型等方面进行了这个假设的动机论证。
+    图神经网络（GNNs）是在各个领域进行数据科学任务的强大工具。尽管我们在广泛的应用场景中使用GNNs，但对研究人员和实践者来说，在不同的图中设计/选择最佳GNN架构是一项费力的任务。为了节省人力和计算成本，已经使用图神经网络架构搜索（Graph NAS）来搜索结合现有组件的次优GNN架构。然而，目前没有现有的Graph NAS方法能够同时满足可解释性、高效性和适应多样化图形的要求。因此，我们提出了一种高效且可解释的Graph NAS方法，称为ExGNAS，它包括（i）一个可以适应各种图形的简单搜索空间和（ii）一个能够解释决策过程的搜索算法。搜索空间仅包含可以处理同质和异质图的基本函数。搜索算法通过蒙特卡洛树搜索高效地搜索最佳GNN架构。
 
-    When an algorithm provides risk assessments, we typically think of them as helpful inputs to human decisions, such as when risk scores are presented to judges or doctors. However, a decision-maker may not only react to the information provided by the algorithm. The decision-maker may also view the algorithmic recommendation as a default action, making it costly for them to deviate, such as when a judge is reluctant to overrule a high-risk assessment for a defendant or a doctor fears the consequences of deviating from recommended procedures. To address such unintended consequences of algorithmic assistance, we propose a principal-agent model of joint human-machine decision-making. Within this model, we consider the effect and design of algorithmic recommendations when they affect choices not just by shifting beliefs, but also by altering preferences. We motivate this assumption from institutional factors, such as a desire to avoid audits, as well as from well-established models in behav
+    Graph neural networks (GNNs) are powerful tools for performing data science tasks in various domains. Although we use GNNs in wide application scenarios, it is a laborious task for researchers and practitioners to design/select optimal GNN rchitectures in diverse graphs. To save human efforts and computational costs, graph neural architecture search (Graph NAS) has been used to search for a sub-optimal GNN architecture that combines existing components. However, there are no existing Graph NAS methods that satisfy explainability, efficiency, and adaptability to various graphs. Therefore, we propose an efficient and explainable Graph NAS method, called ExGNAS, which consists of (i) a simple search space that can adapt to various graphs and (ii) a search algorithm that makes the decision process explainable. The search space includes only fundamental functions that can handle homophilic and heterophilic graphs. The search algorithm efficiently searches for the best GNN architecture via M
+    
+[^5]: 几个非克利福德门制备的量子状态的有效学习
+
+    Efficient Learning of Quantum States Prepared With Few Non-Clifford Gates. (arXiv:2305.13409v1 [quant-ph])
+
+    [http://arxiv.org/abs/2305.13409](http://arxiv.org/abs/2305.13409)
+
+    该研究提出了一种能有效学习几个非克利福德门制备的量子状态的算法，并给出了一个随着稳定维数增大而学习所有状态的算法。
+
+    
+
+    我们提出了一种算法，可以有效地学习通过克利福德门和$O(\log(n))$个非克利福德门制备的量子状态。具体而言，对于最多使用$t$个非克利福德门制备的$n$量子比特状态$|\psi\rangle$，我们证明可以用$\mathsf{poly}(n,2^t,1/\epsilon)$时间和$|\psi\rangle$的复制来学习$|\psi\rangle$，使其跟真实状态的距离不超过$\epsilon$。该结果是一个稳定维数较大的状态学习算法的特例，当一个量子状态的稳定子维数为$k$，表示它被一个由$2^k$个Pauli算子的Abel群稳定。
+
+    We give an algorithm that efficiently learns a quantum state prepared by Clifford gates and $O(\log(n))$ non-Clifford gates. Specifically, for an $n$-qubit state $\lvert \psi \rangle$ prepared with at most $t$ non-Clifford gates, we show that $\mathsf{poly}(n,2^t,1/\epsilon)$ time and copies of $\lvert \psi \rangle$ suffice to learn $\lvert \psi \rangle$ to trace distance at most $\epsilon$. This result follows as a special case of an algorithm for learning states with large stabilizer dimension, where a quantum state has stabilizer dimension $k$ if it is stabilized by an abelian group of $2^k$ Pauli operators. We also develop an efficient property testing algorithm for stabilizer dimension, which may be of independent interest.
     
 
