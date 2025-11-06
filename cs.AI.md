@@ -2,67 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Enhancing Sequential Model Performance with Squared Sigmoid TanH (SST) Activation Under Data Constraints](https://arxiv.org/abs/2402.09034) | 该论文提出了一种平方Sigmoid TanH（SST）激活函数，用于增强在数据限制下的顺序模型学习能力。通过数学平方放大强激活和弱激活之间的差异，改善梯度流和信息过滤。在多个应用中评估了SST驱动的LSTM和GRU模型的性能。 |
-| [^2] | [Improving Adversarial Attacks on Latent Diffusion Model](https://arxiv.org/abs/2310.04687) | 提出了一种改进 Latent Diffusion Model 的对抗攻击方法 ACE，其通过统一模式的额外误差来促使模型学习特定的偏差，从而胜过了目前最先进的方法 |
-| [^3] | [Knolling Bot: Learning Robotic Object Arrangement from Tidy Demonstrations](https://arxiv.org/abs/2310.04566) | 本论文介绍了一种自监督学习框架，利用Transformer神经网络使机器人能够从整齐排列的示范中理解和复制整洁的概念，从而实现整理物品的功能。 |
-| [^4] | [Complex QA and language models hybrid architectures, Survey.](http://arxiv.org/abs/2302.09051) | 本文综述了语言模型架构和策略的最新进展，并重点关注混合技术在复杂问题回答中的应用，讨论了该领域的挑战和未来研究方向。 |
+| [^1] | [A Survey of Graph Neural Networks in Real world: Imbalance, Noise, Privacy and OOD Challenges](https://arxiv.org/abs/2403.04468) | 本文调查了图神经网络在现实世界中面临的不平衡、噪声、隐私和OOD挑战，并致力于提高模型性能、可靠性和鲁棒性。 |
+| [^2] | [Using AI libraries for Incompressible Computational Fluid Dynamics](https://arxiv.org/abs/2402.17913) | 本文提出了一种将AI软件和硬件应用于数值建模领域的新方法，通过重新利用AI方法，如CNN，来解决偏微分方程的标准操作，带来高性能、架构不可知性和易用性。 |
 
 # 详细
 
-[^1]: 使用平方Sigmoid TanH (SST)激活在数据限制下提高顺序模型性能
+[^1]: 关于图神经网络在现实世界中的调查：不平衡、噪声、隐私和OOD挑战
 
-    Enhancing Sequential Model Performance with Squared Sigmoid TanH (SST) Activation Under Data Constraints
+    A Survey of Graph Neural Networks in Real world: Imbalance, Noise, Privacy and OOD Challenges
 
-    [https://arxiv.org/abs/2402.09034](https://arxiv.org/abs/2402.09034)
+    [https://arxiv.org/abs/2403.04468](https://arxiv.org/abs/2403.04468)
 
-    该论文提出了一种平方Sigmoid TanH（SST）激活函数，用于增强在数据限制下的顺序模型学习能力。通过数学平方放大强激活和弱激活之间的差异，改善梯度流和信息过滤。在多个应用中评估了SST驱动的LSTM和GRU模型的性能。
-
-    
-
-    激活函数通过引入非线性来使神经网络能够学习复杂的表示。虽然前馈模型通常使用修正线性单元，但是顺序模型如递归神经网络、长短时记忆（LSTM）和门控循环单元（GRU）仍然依赖于Sigmoid和TanH激活函数。然而，这些传统的激活函数常常在训练在小顺序数据集上时难以建模稀疏模式以有效捕获时间依赖性。为了解决这个限制，我们提出了特别针对在数据限制下增强顺序模型学习能力的平方Sigmoid TanH（SST）激活。SST通过数学平方来放大强激活和弱激活之间的差异，随着信号随时间传播，有助于改善梯度流和信息过滤。我们评估了使用SST的LSTM和GRU模型在不同应用中的性能。
-
-    arXiv:2402.09034v1 Announce Type: cross Abstract: Activation functions enable neural networks to learn complex representations by introducing non-linearities. While feedforward models commonly use rectified linear units, sequential models like recurrent neural networks, long short-term memory (LSTMs) and gated recurrent units (GRUs) still rely on Sigmoid and TanH activation functions. However, these classical activation functions often struggle to model sparse patterns when trained on small sequential datasets to effectively capture temporal dependencies. To address this limitation, we propose squared Sigmoid TanH (SST) activation specifically tailored to enhance the learning capability of sequential models under data constraints. SST applies mathematical squaring to amplify differences between strong and weak activations as signals propagate over time, facilitating improved gradient flow and information filtering. We evaluate SST-powered LSTMs and GRUs for diverse applications, such a
-    
-[^2]: 改进潜在扩散模型的对抗攻击
-
-    Improving Adversarial Attacks on Latent Diffusion Model
-
-    [https://arxiv.org/abs/2310.04687](https://arxiv.org/abs/2310.04687)
-
-    提出了一种改进 Latent Diffusion Model 的对抗攻击方法 ACE，其通过统一模式的额外误差来促使模型学习特定的偏差，从而胜过了目前最先进的方法
+    本文调查了图神经网络在现实世界中面临的不平衡、噪声、隐私和OOD挑战，并致力于提高模型性能、可靠性和鲁棒性。
 
     
 
-    对 Latent Diffusion Model (LDM)，这种最先进的图像生成模型，进行对抗攻击已经被证明是有效防止 LDM 在未经授权的图像上进行恶意微调的保护手段。我们展示了这些攻击会对 LDM 预测的对抗样本的评分函数添加额外的误差。在这些对抗样本上进行微调的 LDM 学习通过一个偏差降低误差，从而遭受攻击并使用偏差预测评分函数。基于这一动态，我们提出了通过一致得分函数错误进行攻击（ACE）来改进 LDM 的对抗攻击。ACE 统一了添加到预测得分函数的额外误差的模式。这促使微调的 LDM 学习与对评分函数进行预测的偏差学习相同的模式。然后我们引入一个精心设计的模式来改进攻击。我们的方法在对 LDM 的对抗攻击中胜过了最先进的方法。
+    arXiv:2403.04468v1 发布类型: 跨域 摘要: 图结构化数据表现出普适性和广泛适用性，涵盖社交网络分析、生物化学、金融欺诈检测和网络安全等多个领域。在利用图神经网络（GNNs）取得显著成功方面已经取得了重要进展。然而，在实际应用场景中，模型的训练环境往往远非理想，由于各种不利因素，包括数据分布不平衡、错误数据中存在噪声、敏感信息的隐私保护以及对于OOD场景的泛化能力，导致GNN模型的性能大幅下降。为解决这些问题，人们致力于改善GNN模型在实际应用场景中的性能，提高其可靠性和鲁棒性。本文全面调查了...
 
-    arXiv:2310.04687v3 Announce Type: replace-cross  Abstract: Adversarial attacks on Latent Diffusion Model (LDM), the state-of-the-art image generative model, have been adopted as effective protection against malicious finetuning of LDM on unauthorized images. We show that these attacks add an extra error to the score function of adversarial examples predicted by LDM. LDM finetuned on these adversarial examples learns to lower the error by a bias, from which the model is attacked and predicts the score function with biases.   Based on the dynamics, we propose to improve the adversarial attack on LDM by Attacking with Consistent score-function Errors (ACE). ACE unifies the pattern of the extra error added to the predicted score function. This induces the finetuned LDM to learn the same pattern as a bias in predicting the score function. We then introduce a well-crafted pattern to improve the attack. Our method outperforms state-of-the-art methods in adversarial attacks on LDM.
+    arXiv:2403.04468v1 Announce Type: cross  Abstract: Graph-structured data exhibits universality and widespread applicability across diverse domains, such as social network analysis, biochemistry, financial fraud detection, and network security. Significant strides have been made in leveraging Graph Neural Networks (GNNs) to achieve remarkable success in these areas. However, in real-world scenarios, the training environment for models is often far from ideal, leading to substantial performance degradation of GNN models due to various unfavorable factors, including imbalance in data distribution, the presence of noise in erroneous data, privacy protection of sensitive information, and generalization capability for out-of-distribution (OOD) scenarios. To tackle these issues, substantial efforts have been devoted to improving the performance of GNN models in practical real-world scenarios, as well as enhancing their reliability and robustness. In this paper, we present a comprehensive surv
     
-[^3]: Knolling Bot: 从整洁的示范中学习机器人对象排列
+[^2]: 使用AI库进行不可压缩计算流体动力学
 
-    Knolling Bot: Learning Robotic Object Arrangement from Tidy Demonstrations
+    Using AI libraries for Incompressible Computational Fluid Dynamics
 
-    [https://arxiv.org/abs/2310.04566](https://arxiv.org/abs/2310.04566)
+    [https://arxiv.org/abs/2402.17913](https://arxiv.org/abs/2402.17913)
 
-    本论文介绍了一种自监督学习框架，利用Transformer神经网络使机器人能够从整齐排列的示范中理解和复制整洁的概念，从而实现整理物品的功能。
-
-    
-
-    地址：arXiv:2310.04566v2  公告类型：replace-cross  摘要：解决家庭空间中散乱物品的整理挑战受到整洁性的多样性和主观性的复杂性影响。正如人类语言的复杂性允许同一理念的多种表达一样，家庭整洁偏好和组织模式变化广泛，因此预设物体位置将限制对新物体和环境的适应性。受自然语言处理（NLP）的进展启发，本文引入一种自监督学习框架，使机器人能够从整洁布局的示范中理解和复制整洁的概念，类似于使用会话数据集训练大语言模型（LLM）。我们利用一个Transformer神经网络来预测后续物体的摆放位置。我们展示了一个“整理”系统，利用机械臂和RGB相机在桌子上组织不同大小和数量的物品。
-
-    arXiv:2310.04566v2 Announce Type: replace-cross  Abstract: Addressing the challenge of organizing scattered items in domestic spaces is complicated by the diversity and subjective nature of tidiness. Just as the complexity of human language allows for multiple expressions of the same idea, household tidiness preferences and organizational patterns vary widely, so presetting object locations would limit the adaptability to new objects and environments. Inspired by advancements in natural language processing (NLP), this paper introduces a self-supervised learning framework that allows robots to understand and replicate the concept of tidiness from demonstrations of well-organized layouts, akin to using conversational datasets to train Large Language Models(LLM). We leverage a transformer neural network to predict the placement of subsequent objects. We demonstrate a ``knolling'' system with a robotic arm and an RGB camera to organize items of varying sizes and quantities on a table. Our 
-    
-[^4]: 复杂问答和语言模型混合架构综述
-
-    Complex QA and language models hybrid architectures, Survey. (arXiv:2302.09051v4 [cs.CL] UPDATED)
-
-    [http://arxiv.org/abs/2302.09051](http://arxiv.org/abs/2302.09051)
-
-    本文综述了语言模型架构和策略的最新进展，并重点关注混合技术在复杂问题回答中的应用，讨论了该领域的挑战和未来研究方向。
+    本文提出了一种将AI软件和硬件应用于数值建模领域的新方法，通过重新利用AI方法，如CNN，来解决偏微分方程的标准操作，带来高性能、架构不可知性和易用性。
 
     
 
-    本文回顾了语言模型架构和策略的最新进展，重点关注混合技术在复杂问题回答中的应用。大型语言模型能够在标准问题上利用公共数据，但在解决更具体的复杂问题时（如在不同文化中个人自由概念的变化如何？什么是为减少气候变化而实现的最佳发电方法组合？），需要特定的架构、知识、技能、方法、敏感数据保护、可解释性、人类审批和多功能反馈。最近的项目如ChatGPT和GALACTICA允许非专业人员了解LLM在复杂QA中的巨大潜力以及同等强大的局限性。在本文中，我们首先审查所需的技能和评估技术。然后，我们综述了现有的混合架构，将LLM与基于规则的方法、信息检索、知识图谱和其他AI/ML技术相结合。最后，我们指出这些CQA系统的挑战，并提出未来研究的可能方向。
+    最近，人们致力于开发高效开源库，以在不同的计算机架构（例如CPU、GPU和新的AI处理器）上执行人工智能（AI）相关的计算。这不仅使基于这些库的算法高效而且在不同架构之间可移植，还大大简化了使用AI开发方法的门槛。本文提出了一种新颖的方法论，将AI软件和硬件的强大功能带入数值建模领域，将AI方法（如卷积神经网络CNN）重新用于数值偏微分方程的标准操作。本工作的目标是将高性能、架构不可知性和易用性引入数值偏微分方程的解决领域。
 
-    This paper reviews the state-of-the-art of language models architectures and strategies for "complex" question-answering (QA, CQA, CPS) with a focus on hybridization. Large Language Models (LLM) are good at leveraging public data on standard problems but once you want to tackle more specific complex questions or problems (e.g. How does the concept of personal freedom vary between different cultures ? What is the best mix of power generation methods to reduce climate change ?) you may need specific architecture, knowledge, skills, methods, sensitive data protection, explainability, human approval and versatile feedback... Recent projects like ChatGPT and GALACTICA have allowed non-specialists to grasp the great potential as well as the equally strong limitations of LLM in complex QA. In this paper, we start by reviewing required skills and evaluation techniques. We integrate findings from the robust community edited research papers BIG, BLOOM and HELM which open source, benchmark and an
+    arXiv:2402.17913v1 Announce Type: cross  Abstract: Recently, there has been a huge effort focused on developing highly efficient open source libraries to perform Artificial Intelligence (AI) related computations on different computer architectures (for example, CPUs, GPUs and new AI processors). This has not only made the algorithms based on these libraries highly efficient and portable between different architectures, but also has substantially simplified the entry barrier to develop methods using AI. Here, we present a novel methodology to bring the power of both AI software and hardware into the field of numerical modelling by repurposing AI methods, such as Convolutional Neural Networks (CNNs), for the standard operations required in the field of the numerical solution of Partial Differential Equations (PDEs). The aim of this work is to bring the high performance, architecture agnosticism and ease of use into the field of the numerical solution of PDEs. We use the proposed methodol
     
 

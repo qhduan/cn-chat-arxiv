@@ -2,9 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-
+| [^1] | [A Survey of Graph Neural Networks in Real world: Imbalance, Noise, Privacy and OOD Challenges](https://arxiv.org/abs/2403.04468) | 本文调查了图神经网络在现实世界中面临的不平衡、噪声、隐私和OOD挑战，并致力于提高模型性能、可靠性和鲁棒性。 |
 
 # 详细
 
+[^1]: 关于图神经网络在现实世界中的调查：不平衡、噪声、隐私和OOD挑战
 
+    A Survey of Graph Neural Networks in Real world: Imbalance, Noise, Privacy and OOD Challenges
+
+    [https://arxiv.org/abs/2403.04468](https://arxiv.org/abs/2403.04468)
+
+    本文调查了图神经网络在现实世界中面临的不平衡、噪声、隐私和OOD挑战，并致力于提高模型性能、可靠性和鲁棒性。
+
+    
+
+    arXiv:2403.04468v1 发布类型: 跨域 摘要: 图结构化数据表现出普适性和广泛适用性，涵盖社交网络分析、生物化学、金融欺诈检测和网络安全等多个领域。在利用图神经网络（GNNs）取得显著成功方面已经取得了重要进展。然而，在实际应用场景中，模型的训练环境往往远非理想，由于各种不利因素，包括数据分布不平衡、错误数据中存在噪声、敏感信息的隐私保护以及对于OOD场景的泛化能力，导致GNN模型的性能大幅下降。为解决这些问题，人们致力于改善GNN模型在实际应用场景中的性能，提高其可靠性和鲁棒性。本文全面调查了...
+
+    arXiv:2403.04468v1 Announce Type: cross  Abstract: Graph-structured data exhibits universality and widespread applicability across diverse domains, such as social network analysis, biochemistry, financial fraud detection, and network security. Significant strides have been made in leveraging Graph Neural Networks (GNNs) to achieve remarkable success in these areas. However, in real-world scenarios, the training environment for models is often far from ideal, leading to substantial performance degradation of GNN models due to various unfavorable factors, including imbalance in data distribution, the presence of noise in erroneous data, privacy protection of sensitive information, and generalization capability for out-of-distribution (OOD) scenarios. To tackle these issues, substantial efforts have been devoted to improving the performance of GNN models in practical real-world scenarios, as well as enhancing their reliability and robustness. In this paper, we present a comprehensive surv
+    
 
