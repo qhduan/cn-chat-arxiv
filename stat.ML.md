@@ -2,52 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Variable Selection in Maximum Mean Discrepancy for Interpretable Distribution Comparison.](http://arxiv.org/abs/2311.01537) | 本文研究了数据集比较中的变量选择问题，提出了一种基于最大平均差异的两样本测试方法，通过优化自动相关性检测权重来增强测试的功效，并引入稀疏正则化方法来解决正则化参数选择的问题。 |
-| [^2] | [Neural networks learn to magnify areas near decision boundaries.](http://arxiv.org/abs/2301.11375) | 神经网络训练能够放大决策边界附近的局部区域，改善整个系统的泛化能力。 |
-| [^3] | [Uniform-in-time propagation of chaos for mean field Langevin dynamics.](http://arxiv.org/abs/2212.03050) | 研究了平均场 Langevin 动力学，证明了边缘分布 $L^p$ 收敛性和混沌现象的均匀时间传播。 |
+| [^1] | [A General Theory for Kernel Packets: from state space model to compactly supported basis](https://arxiv.org/abs/2402.04022) | 该论文提出了一种从状态空间模型到紧支持基的核分组的通用理论，该理论可以用于降低高斯过程的训练和预测时间，并且通过适当的线性组合产生了$m$个紧支持的核分组函数。 |
+| [^2] | [EERO: Early Exit with Reject Option for Efficient Classification with limited budget](https://arxiv.org/abs/2402.03779) | EERO 是一种早期退出与拒绝选项的新方法，通过使用多个分类器来选择每个实例的退出头，以实现高效分类。实验结果表明，它可以有效管理预算分配并提高准确性。 |
 
 # 详细
 
-[^1]: 在可解释的分布比较中的最大平均差异中的变量选择
+[^1]: 一种从状态空间模型到紧支持基的核分组的通用理论
 
-    Variable Selection in Maximum Mean Discrepancy for Interpretable Distribution Comparison. (arXiv:2311.01537v1 [stat.ML])
+    A General Theory for Kernel Packets: from state space model to compactly supported basis
 
-    [http://arxiv.org/abs/2311.01537](http://arxiv.org/abs/2311.01537)
+    [https://arxiv.org/abs/2402.04022](https://arxiv.org/abs/2402.04022)
 
-    本文研究了数据集比较中的变量选择问题，提出了一种基于最大平均差异的两样本测试方法，通过优化自动相关性检测权重来增强测试的功效，并引入稀疏正则化方法来解决正则化参数选择的问题。
-
-    
-
-    两样本测试是为了判断两个数据集是否来自同一分布。本文研究了两样本测试中的变量选择问题，即识别造成两个分布差异的变量（或维度）的任务。这个任务与模式分析和机器学习的许多问题相关，如数据集漂移适应、因果推断和模型验证。我们的方法基于基于最大平均差异（MMD）的两样本检验。我们优化针对各个变量定义的自动相关性检测（ARD）权重，以最大化基于MMD的检验的功率。对于这种优化，我们引入了稀疏正则化，并提出了两种方法来解决选择适当正则化参数的问题。一种方法是以数据驱动的方式确定正则化参数，另一种方法是合并不同正则化参数的结果。我们确认了这个方法的有效性。
-
-    Two-sample testing decides whether two datasets are generated from the same distribution. This paper studies variable selection for two-sample testing, the task being to identify the variables (or dimensions) responsible for the discrepancies between the two distributions. This task is relevant to many problems of pattern analysis and machine learning, such as dataset shift adaptation, causal inference and model validation. Our approach is based on a two-sample test based on the Maximum Mean Discrepancy (MMD). We optimise the Automatic Relevance Detection (ARD) weights defined for individual variables to maximise the power of the MMD-based test. For this optimisation, we introduce sparse regularisation and propose two methods for dealing with the issue of selecting an appropriate regularisation parameter. One method determines the regularisation parameter in a data-driven way, and the other aggregates the results of different regularisation parameters. We confirm the validity of the pr
-    
-[^2]: 神经网络学习放大决策边界附近的区域
-
-    Neural networks learn to magnify areas near decision boundaries. (arXiv:2301.11375v2 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2301.11375](http://arxiv.org/abs/2301.11375)
-
-    神经网络训练能够放大决策边界附近的局部区域，改善整个系统的泛化能力。
+    该论文提出了一种从状态空间模型到紧支持基的核分组的通用理论，该理论可以用于降低高斯过程的训练和预测时间，并且通过适当的线性组合产生了$m$个紧支持的核分组函数。
 
     
 
-    我们研究了训练如何塑造神经网络特征图诱导的黎曼几何。在宽度为无限的情况下，具有随机参数的神经网络在输入空间上引导高度对称的度量。训练分类任务的网络中的特征学习放大了沿决策边界的局部区域。这些变化与先前提出的用于手动调整核方法以改善泛化的几何方法一致。
+    众所周知，高斯过程（GP）的状态空间（SS）模型公式可以将其训练和预测时间降低到O（n）（n为数据点个数）。我们证明了一个m维的GP的SS模型公式等价于我们引入的一个概念，称为通用右核分组（KP）：一种用于GP协方差函数K的变换，使得对于任意$t \leq t_1$，$0 \leq j \leq m-1$和$m+1$个连续点$t_i$，都满足$\sum_{i=0}^{m}a_iD_t^{(j)}K(t,t_i)=0$，其中${D}_t^{(j)}f(t)$表示在$t$上作用的第j阶导数。我们将这个思想扩展到了GP的向后SS模型公式，得到了下一个$m$个连续点的左核分组的概念：$\sum_{i=0}^{m}b_i{D}_t^{(j)}K(t,t_{m+i})=0$，对于任意$t\geq t_{2m}$。通过结合左右核分组，可以证明这些协方差函数的适当线性组合产生了$m$个紧支持的核分组函数：对于任意$t\not\in(t_0,t_{2m})$和$j=0,\cdots,m-1$，$\phi^{(j)}(t)=0$。
 
-    We study how training molds the Riemannian geometry induced by neural network feature maps. At infinite width, neural networks with random parameters induce highly symmetric metrics on input space. Feature learning in networks trained to perform classification tasks magnifies local areas along decision boundaries. These changes are consistent with previously proposed geometric approaches for hand-tuning of kernel methods to improve generalization.
+    It is well known that the state space (SS) model formulation of a Gaussian process (GP) can lower its training and prediction time both to O(n) for n data points. We prove that an $m$-dimensional SS model formulation of GP is equivalent to a concept we introduce as the general right Kernel Packet (KP): a transformation for the GP covariance function $K$ such that $\sum_{i=0}^{m}a_iD_t^{(j)}K(t,t_i)=0$ holds for any $t \leq t_1$, 0 $\leq j \leq m-1$, and $m+1$ consecutive points $t_i$, where ${D}_t^{(j)}f(t) $ denotes $j$-th order derivative acting on $t$. We extend this idea to the backward SS model formulation of the GP, leading to the concept of the left KP for next $m$ consecutive points: $\sum_{i=0}^{m}b_i{D}_t^{(j)}K(t,t_{m+i})=0$ for any $t\geq t_{2m}$. By combining both left and right KPs, we can prove that a suitable linear combination of these covariance functions yields $m$ compactly supported KP functions: $\phi^{(j)}(t)=0$ for any $t\not\in(t_0,t_{2m})$ and $j=0,\cdots,m-1$
     
-[^3]: 均匀时间传播混沌的平均场 Langevin 动力学
+[^2]: EERO: 早期退出与拒绝选项用于有限预算下的高效分类
 
-    Uniform-in-time propagation of chaos for mean field Langevin dynamics. (arXiv:2212.03050v2 [math.PR] UPDATED)
+    EERO: Early Exit with Reject Option for Efficient Classification with limited budget
 
-    [http://arxiv.org/abs/2212.03050](http://arxiv.org/abs/2212.03050)
+    [https://arxiv.org/abs/2402.03779](https://arxiv.org/abs/2402.03779)
 
-    研究了平均场 Langevin 动力学，证明了边缘分布 $L^p$ 收敛性和混沌现象的均匀时间传播。
+    EERO 是一种早期退出与拒绝选项的新方法，通过使用多个分类器来选择每个实例的退出头，以实现高效分类。实验结果表明，它可以有效管理预算分配并提高准确性。
 
     
 
-    本文研究了平均场 Langevin 动力学及其相关粒子系统。通过假设能量函数的凸性，我们得出了边缘分布收敛到平均场动力学唯一不变测度的 $L^p$ 收敛性。此外，我们证明了在 $L^2$ Wasserstein 距离和相对熵两方面，混沌现象的均匀时间传播。
+    先进的机器学习模型的不断复杂化要求创新的方法来有效管理计算资源。其中一种方法是早期退出策略，通过提供缩短简单数据实例处理路径的机制，实现自适应计算。在本文中，我们提出了EERO，一种将早期退出问题转化为使用具有拒绝选项的多个分类器问题的新方法，以便更好地选择每个实例的退出头。我们使用指数权重聚合来校准不同头部退出的概率，以保证一个固定的预算。我们考虑贝叶斯风险、预算约束和头部特定预算消耗等因素。通过在Cifar和ImageNet数据集上使用ResNet-18模型和ConvNext架构进行的实验结果表明，我们的方法不仅能有效管理预算分配，还能提高过度考虑场景中的准确性。
 
-    We study the mean field Langevin dynamics and the associated particle system. By assuming the functional convexity of the energy, we obtain the $L^p$-convergence of the marginal distributions towards the unique invariant measure for the mean field dynamics. Furthermore, we prove the uniform-in-time propagation of chaos in both the $L^2$-Wasserstein metric and relative entropy.
+    The increasing complexity of advanced machine learning models requires innovative approaches to manage computational resources effectively. One such method is the Early Exit strategy, which allows for adaptive computation by providing a mechanism to shorten the processing path for simpler data instances. In this paper, we propose EERO, a new methodology to translate the problem of early exiting to a problem of using multiple classifiers with reject option in order to better select the exiting head for each instance. We calibrate the probabilities of exiting at the different heads using aggregation with exponential weights to guarantee a fixed budget .We consider factors such as Bayesian risk, budget constraints, and head-specific budget consumption. Experimental results, conducted using a ResNet-18 model and a ConvNext architecture on Cifar and ImageNet datasets, demonstrate that our method not only effectively manages budget allocation but also enhances accuracy in overthinking scenar
     
 

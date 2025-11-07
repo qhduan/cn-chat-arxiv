@@ -2,67 +2,97 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [A Survey of Graph Neural Networks in Real world: Imbalance, Noise, Privacy and OOD Challenges](https://arxiv.org/abs/2403.04468) | 本文调查了图神经网络在现实世界中面临的不平衡、噪声、隐私和OOD挑战，并致力于提高模型性能、可靠性和鲁棒性。 |
-| [^2] | [Using AI libraries for Incompressible Computational Fluid Dynamics](https://arxiv.org/abs/2402.17913) | 本文提出了一种将AI软件和硬件应用于数值建模领域的新方法，通过重新利用AI方法，如CNN，来解决偏微分方程的标准操作，带来高性能、架构不可知性和易用性。 |
-| [^3] | [Variable Selection in Maximum Mean Discrepancy for Interpretable Distribution Comparison.](http://arxiv.org/abs/2311.01537) | 本文研究了数据集比较中的变量选择问题，提出了一种基于最大平均差异的两样本测试方法，通过优化自动相关性检测权重来增强测试的功效，并引入稀疏正则化方法来解决正则化参数选择的问题。 |
-| [^4] | [Neural networks learn to magnify areas near decision boundaries.](http://arxiv.org/abs/2301.11375) | 神经网络训练能够放大决策边界附近的局部区域，改善整个系统的泛化能力。 |
+| [^1] | [A Unified Kernel for Neural Network Learning](https://arxiv.org/abs/2403.17467) | 本文提出了统一神经内核(UNK)，可以描述神经网络的学习动态，并在有限的学习步骤下表现出类似于NTK的行为，当学习步骤逼近无穷大时收敛到NNGP。 |
+| [^2] | [A General Theory for Kernel Packets: from state space model to compactly supported basis](https://arxiv.org/abs/2402.04022) | 该论文提出了一种从状态空间模型到紧支持基的核分组的通用理论，该理论可以用于降低高斯过程的训练和预测时间，并且通过适当的线性组合产生了$m$个紧支持的核分组函数。 |
+| [^3] | [EERO: Early Exit with Reject Option for Efficient Classification with limited budget](https://arxiv.org/abs/2402.03779) | EERO 是一种早期退出与拒绝选项的新方法，通过使用多个分类器来选择每个实例的退出头，以实现高效分类。实验结果表明，它可以有效管理预算分配并提高准确性。 |
+| [^4] | [Generative Noisy-Label Learning by Implicit Dicriminative Approximation with Partial Label Prior.](http://arxiv.org/abs/2308.01184) | 本文提出了一种新的生成噪声标签学习方法，直接关联数据和干净标签，通过使用判别的近似方法来隐式估计生成模型，解决了传统方法中的复杂公式、难以训练的生成模型和无信息先验的问题。 |
+| [^5] | [Improving Expressivity of Graph Neural Networks using Localization.](http://arxiv.org/abs/2305.19659) | 本文提出了Weisfeiler-Leman (WL)算法的局部版本，用于解决子图计数问题并提高图神经网络的表达能力，同时，也给出了一些时间和空间效率更高的$k-$WL变体和分裂技术。 |
+| [^6] | [Approximate non-linear model predictive control with safety-augmented neural networks.](http://arxiv.org/abs/2304.09575) | 本文提出了一种基于神经网络(NNs)的非线性模型预测控制(MPC)的近似方法，称为安全增强，可以使解决方案在线可行并具有收敛和约束条件的确定保证。 |
 
 # 详细
 
-[^1]: 关于图神经网络在现实世界中的调查：不平衡、噪声、隐私和OOD挑战
+[^1]: 一个统一的神经网络学习内核
 
-    A Survey of Graph Neural Networks in Real world: Imbalance, Noise, Privacy and OOD Challenges
+    A Unified Kernel for Neural Network Learning
 
-    [https://arxiv.org/abs/2403.04468](https://arxiv.org/abs/2403.04468)
+    [https://arxiv.org/abs/2403.17467](https://arxiv.org/abs/2403.17467)
 
-    本文调查了图神经网络在现实世界中面临的不平衡、噪声、隐私和OOD挑战，并致力于提高模型性能、可靠性和鲁棒性。
-
-    
-
-    arXiv:2403.04468v1 发布类型: 跨域 摘要: 图结构化数据表现出普适性和广泛适用性，涵盖社交网络分析、生物化学、金融欺诈检测和网络安全等多个领域。在利用图神经网络（GNNs）取得显著成功方面已经取得了重要进展。然而，在实际应用场景中，模型的训练环境往往远非理想，由于各种不利因素，包括数据分布不平衡、错误数据中存在噪声、敏感信息的隐私保护以及对于OOD场景的泛化能力，导致GNN模型的性能大幅下降。为解决这些问题，人们致力于改善GNN模型在实际应用场景中的性能，提高其可靠性和鲁棒性。本文全面调查了...
-
-    arXiv:2403.04468v1 Announce Type: cross  Abstract: Graph-structured data exhibits universality and widespread applicability across diverse domains, such as social network analysis, biochemistry, financial fraud detection, and network security. Significant strides have been made in leveraging Graph Neural Networks (GNNs) to achieve remarkable success in these areas. However, in real-world scenarios, the training environment for models is often far from ideal, leading to substantial performance degradation of GNN models due to various unfavorable factors, including imbalance in data distribution, the presence of noise in erroneous data, privacy protection of sensitive information, and generalization capability for out-of-distribution (OOD) scenarios. To tackle these issues, substantial efforts have been devoted to improving the performance of GNN models in practical real-world scenarios, as well as enhancing their reliability and robustness. In this paper, we present a comprehensive surv
-    
-[^2]: 使用AI库进行不可压缩计算流体动力学
-
-    Using AI libraries for Incompressible Computational Fluid Dynamics
-
-    [https://arxiv.org/abs/2402.17913](https://arxiv.org/abs/2402.17913)
-
-    本文提出了一种将AI软件和硬件应用于数值建模领域的新方法，通过重新利用AI方法，如CNN，来解决偏微分方程的标准操作，带来高性能、架构不可知性和易用性。
+    本文提出了统一神经内核(UNK)，可以描述神经网络的学习动态，并在有限的学习步骤下表现出类似于NTK的行为，当学习步骤逼近无穷大时收敛到NNGP。
 
     
 
-    最近，人们致力于开发高效开源库，以在不同的计算机架构（例如CPU、GPU和新的AI处理器）上执行人工智能（AI）相关的计算。这不仅使基于这些库的算法高效而且在不同架构之间可移植，还大大简化了使用AI开发方法的门槛。本文提出了一种新颖的方法论，将AI软件和硬件的强大功能带入数值建模领域，将AI方法（如卷积神经网络CNN）重新用于数值偏微分方程的标准操作。本工作的目标是将高性能、架构不可知性和易用性引入数值偏微分方程的解决领域。
+    过去几十年来，人们对神经网络学习和内核学习之间的区别和联系表现出极大的兴趣。最近的进展在连接无限宽神经网络和高斯过程方面取得了理论上的进展。出现了两种主流方法：神经网络高斯过程(NNGP)和神经切向核(NTK)。前者基于贝叶斯推断，代表了零阶核，而后者基于梯度下降的切向空间，是第一阶核。在本文中，我们提出了统一神经内核(UNK)，该内核表征了神经网络在梯度下降和参数初始化中的学习动态。所提出的UNK内核保持了NNGP和NTK的极限特性，表现出类似于NTK的行为，但有有限的学习步骤，并且当学习步骤接近无穷大时收敛到NNGP。此外，我们还从理论上对UNK内核进行了分析。
 
-    arXiv:2402.17913v1 Announce Type: cross  Abstract: Recently, there has been a huge effort focused on developing highly efficient open source libraries to perform Artificial Intelligence (AI) related computations on different computer architectures (for example, CPUs, GPUs and new AI processors). This has not only made the algorithms based on these libraries highly efficient and portable between different architectures, but also has substantially simplified the entry barrier to develop methods using AI. Here, we present a novel methodology to bring the power of both AI software and hardware into the field of numerical modelling by repurposing AI methods, such as Convolutional Neural Networks (CNNs), for the standard operations required in the field of the numerical solution of Partial Differential Equations (PDEs). The aim of this work is to bring the high performance, architecture agnosticism and ease of use into the field of the numerical solution of PDEs. We use the proposed methodol
+    arXiv:2403.17467v1 Announce Type: cross  Abstract: Past decades have witnessed a great interest in the distinction and connection between neural network learning and kernel learning. Recent advancements have made theoretical progress in connecting infinite-wide neural networks and Gaussian processes. Two predominant approaches have emerged: the Neural Network Gaussian Process (NNGP) and the Neural Tangent Kernel (NTK). The former, rooted in Bayesian inference, represents a zero-order kernel, while the latter, grounded in the tangent space of gradient descents, is a first-order kernel. In this paper, we present the Unified Neural Kernel (UNK), which characterizes the learning dynamics of neural networks with gradient descents and parameter initialization. The proposed UNK kernel maintains the limiting properties of both NNGP and NTK, exhibiting behaviors akin to NTK with a finite learning step and converging to NNGP as the learning step approaches infinity. Besides, we also theoreticall
     
-[^3]: 在可解释的分布比较中的最大平均差异中的变量选择
+[^2]: 一种从状态空间模型到紧支持基的核分组的通用理论
 
-    Variable Selection in Maximum Mean Discrepancy for Interpretable Distribution Comparison. (arXiv:2311.01537v1 [stat.ML])
+    A General Theory for Kernel Packets: from state space model to compactly supported basis
 
-    [http://arxiv.org/abs/2311.01537](http://arxiv.org/abs/2311.01537)
+    [https://arxiv.org/abs/2402.04022](https://arxiv.org/abs/2402.04022)
 
-    本文研究了数据集比较中的变量选择问题，提出了一种基于最大平均差异的两样本测试方法，通过优化自动相关性检测权重来增强测试的功效，并引入稀疏正则化方法来解决正则化参数选择的问题。
-
-    
-
-    两样本测试是为了判断两个数据集是否来自同一分布。本文研究了两样本测试中的变量选择问题，即识别造成两个分布差异的变量（或维度）的任务。这个任务与模式分析和机器学习的许多问题相关，如数据集漂移适应、因果推断和模型验证。我们的方法基于基于最大平均差异（MMD）的两样本检验。我们优化针对各个变量定义的自动相关性检测（ARD）权重，以最大化基于MMD的检验的功率。对于这种优化，我们引入了稀疏正则化，并提出了两种方法来解决选择适当正则化参数的问题。一种方法是以数据驱动的方式确定正则化参数，另一种方法是合并不同正则化参数的结果。我们确认了这个方法的有效性。
-
-    Two-sample testing decides whether two datasets are generated from the same distribution. This paper studies variable selection for two-sample testing, the task being to identify the variables (or dimensions) responsible for the discrepancies between the two distributions. This task is relevant to many problems of pattern analysis and machine learning, such as dataset shift adaptation, causal inference and model validation. Our approach is based on a two-sample test based on the Maximum Mean Discrepancy (MMD). We optimise the Automatic Relevance Detection (ARD) weights defined for individual variables to maximise the power of the MMD-based test. For this optimisation, we introduce sparse regularisation and propose two methods for dealing with the issue of selecting an appropriate regularisation parameter. One method determines the regularisation parameter in a data-driven way, and the other aggregates the results of different regularisation parameters. We confirm the validity of the pr
-    
-[^4]: 神经网络学习放大决策边界附近的区域
-
-    Neural networks learn to magnify areas near decision boundaries. (arXiv:2301.11375v2 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2301.11375](http://arxiv.org/abs/2301.11375)
-
-    神经网络训练能够放大决策边界附近的局部区域，改善整个系统的泛化能力。
+    该论文提出了一种从状态空间模型到紧支持基的核分组的通用理论，该理论可以用于降低高斯过程的训练和预测时间，并且通过适当的线性组合产生了$m$个紧支持的核分组函数。
 
     
 
-    我们研究了训练如何塑造神经网络特征图诱导的黎曼几何。在宽度为无限的情况下，具有随机参数的神经网络在输入空间上引导高度对称的度量。训练分类任务的网络中的特征学习放大了沿决策边界的局部区域。这些变化与先前提出的用于手动调整核方法以改善泛化的几何方法一致。
+    众所周知，高斯过程（GP）的状态空间（SS）模型公式可以将其训练和预测时间降低到O（n）（n为数据点个数）。我们证明了一个m维的GP的SS模型公式等价于我们引入的一个概念，称为通用右核分组（KP）：一种用于GP协方差函数K的变换，使得对于任意$t \leq t_1$，$0 \leq j \leq m-1$和$m+1$个连续点$t_i$，都满足$\sum_{i=0}^{m}a_iD_t^{(j)}K(t,t_i)=0$，其中${D}_t^{(j)}f(t)$表示在$t$上作用的第j阶导数。我们将这个思想扩展到了GP的向后SS模型公式，得到了下一个$m$个连续点的左核分组的概念：$\sum_{i=0}^{m}b_i{D}_t^{(j)}K(t,t_{m+i})=0$，对于任意$t\geq t_{2m}$。通过结合左右核分组，可以证明这些协方差函数的适当线性组合产生了$m$个紧支持的核分组函数：对于任意$t\not\in(t_0,t_{2m})$和$j=0,\cdots,m-1$，$\phi^{(j)}(t)=0$。
 
-    We study how training molds the Riemannian geometry induced by neural network feature maps. At infinite width, neural networks with random parameters induce highly symmetric metrics on input space. Feature learning in networks trained to perform classification tasks magnifies local areas along decision boundaries. These changes are consistent with previously proposed geometric approaches for hand-tuning of kernel methods to improve generalization.
+    It is well known that the state space (SS) model formulation of a Gaussian process (GP) can lower its training and prediction time both to O(n) for n data points. We prove that an $m$-dimensional SS model formulation of GP is equivalent to a concept we introduce as the general right Kernel Packet (KP): a transformation for the GP covariance function $K$ such that $\sum_{i=0}^{m}a_iD_t^{(j)}K(t,t_i)=0$ holds for any $t \leq t_1$, 0 $\leq j \leq m-1$, and $m+1$ consecutive points $t_i$, where ${D}_t^{(j)}f(t) $ denotes $j$-th order derivative acting on $t$. We extend this idea to the backward SS model formulation of the GP, leading to the concept of the left KP for next $m$ consecutive points: $\sum_{i=0}^{m}b_i{D}_t^{(j)}K(t,t_{m+i})=0$ for any $t\geq t_{2m}$. By combining both left and right KPs, we can prove that a suitable linear combination of these covariance functions yields $m$ compactly supported KP functions: $\phi^{(j)}(t)=0$ for any $t\not\in(t_0,t_{2m})$ and $j=0,\cdots,m-1$
+    
+[^3]: EERO: 早期退出与拒绝选项用于有限预算下的高效分类
+
+    EERO: Early Exit with Reject Option for Efficient Classification with limited budget
+
+    [https://arxiv.org/abs/2402.03779](https://arxiv.org/abs/2402.03779)
+
+    EERO 是一种早期退出与拒绝选项的新方法，通过使用多个分类器来选择每个实例的退出头，以实现高效分类。实验结果表明，它可以有效管理预算分配并提高准确性。
+
+    
+
+    先进的机器学习模型的不断复杂化要求创新的方法来有效管理计算资源。其中一种方法是早期退出策略，通过提供缩短简单数据实例处理路径的机制，实现自适应计算。在本文中，我们提出了EERO，一种将早期退出问题转化为使用具有拒绝选项的多个分类器问题的新方法，以便更好地选择每个实例的退出头。我们使用指数权重聚合来校准不同头部退出的概率，以保证一个固定的预算。我们考虑贝叶斯风险、预算约束和头部特定预算消耗等因素。通过在Cifar和ImageNet数据集上使用ResNet-18模型和ConvNext架构进行的实验结果表明，我们的方法不仅能有效管理预算分配，还能提高过度考虑场景中的准确性。
+
+    The increasing complexity of advanced machine learning models requires innovative approaches to manage computational resources effectively. One such method is the Early Exit strategy, which allows for adaptive computation by providing a mechanism to shorten the processing path for simpler data instances. In this paper, we propose EERO, a new methodology to translate the problem of early exiting to a problem of using multiple classifiers with reject option in order to better select the exiting head for each instance. We calibrate the probabilities of exiting at the different heads using aggregation with exponential weights to guarantee a fixed budget .We consider factors such as Bayesian risk, budget constraints, and head-specific budget consumption. Experimental results, conducted using a ResNet-18 model and a ConvNext architecture on Cifar and ImageNet datasets, demonstrate that our method not only effectively manages budget allocation but also enhances accuracy in overthinking scenar
+    
+[^4]: 通过部分标签先验的隐式判别逼近进行生成噪声标签学习
+
+    Generative Noisy-Label Learning by Implicit Dicriminative Approximation with Partial Label Prior. (arXiv:2308.01184v1 [cs.CV])
+
+    [http://arxiv.org/abs/2308.01184](http://arxiv.org/abs/2308.01184)
+
+    本文提出了一种新的生成噪声标签学习方法，直接关联数据和干净标签，通过使用判别的近似方法来隐式估计生成模型，解决了传统方法中的复杂公式、难以训练的生成模型和无信息先验的问题。
+
+    
+
+    对于带有噪声标签的学习问题，已经使用了判别模型和生成模型进行研究。尽管判别模型由于其简单的建模和更高效的计算训练过程而在该领域占主导地位，但生成模型能够更有效地分解干净和噪声标签，并改善标签转换矩阵的估计。然而，生成方法使用了复杂的公式来最大化噪声标签和数据的联合似然，这只间接优化了与数据和干净标签相关的感兴趣的模型。此外，这些方法依赖于很难训练的生成模型，并倾向于使用无信息的干净标签先验。在本文中，我们提出了一个新的生成噪声标签学习方法来解决这三个问题。首先，我们提出了一种新的模型优化方法，直接关联数据和干净标签。其次，通过使用判别的近似方法来隐式估计生成模型。
+
+    The learning with noisy labels has been addressed with both discriminative and generative models. Although discriminative models have dominated the field due to their simpler modeling and more efficient computational training processes, generative models offer a more effective means of disentangling clean and noisy labels and improving the estimation of the label transition matrix. However, generative approaches maximize the joint likelihood of noisy labels and data using a complex formulation that only indirectly optimizes the model of interest associating data and clean labels. Additionally, these approaches rely on generative models that are challenging to train and tend to use uninformative clean label priors. In this paper, we propose a new generative noisy-label learning approach that addresses these three issues. First, we propose a new model optimisation that directly associates data and clean labels. Second, the generative model is implicitly estimated using a discriminative m
+    
+[^5]: 利用局部化提高图神经网络的表达能力
+
+    Improving Expressivity of Graph Neural Networks using Localization. (arXiv:2305.19659v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.19659](http://arxiv.org/abs/2305.19659)
+
+    本文提出了Weisfeiler-Leman (WL)算法的局部版本，用于解决子图计数问题并提高图神经网络的表达能力，同时，也给出了一些时间和空间效率更高的$k-$WL变体和分裂技术。
+
+    
+
+    本文提出了Weisfeiler-Leman (WL)算法的局部版本，旨在增加表达能力并减少计算负担。我们专注于子图计数问题，并为任意$k$给出$k-$WL的局部版本。我们分析了Local $k-$WL的作用，并证明其比$k-$WL更具表现力，并且至多与$(k+1)-$WL一样具有表现力。我们给出了一些模式的特征，如果两个图是Local $k-$WL等价的，则它们的子图和诱导子图的计数是不变的。我们还介绍了$k-$WL的两个变体：层$k-$WL和递归$k-$WL。这些方法的时间和空间效率比在整个图上应用$k-$WL更高。我们还提出了一种分裂技术，使用$1-$WL即可保证所有大小不超过4的诱导子图的准确计数。相同的方法可以使用$k>1$进一步扩展到更大的模式。我们还将Local $k-$WL的表现力与其他GNN层次结构进行了比较。
+
+    In this paper, we propose localized versions of Weisfeiler-Leman (WL) algorithms in an effort to both increase the expressivity, as well as decrease the computational overhead. We focus on the specific problem of subgraph counting and give localized versions of $k-$WL for any $k$. We analyze the power of Local $k-$WL and prove that it is more expressive than $k-$WL and at most as expressive as $(k+1)-$WL. We give a characterization of patterns whose count as a subgraph and induced subgraph are invariant if two graphs are Local $k-$WL equivalent. We also introduce two variants of $k-$WL: Layer $k-$WL and recursive $k-$WL. These methods are more time and space efficient than applying $k-$WL on the whole graph. We also propose a fragmentation technique that guarantees the exact count of all induced subgraphs of size at most 4 using just $1-$WL. The same idea can be extended further for larger patterns using $k>1$. We also compare the expressive power of Local $k-$WL with other GNN hierarc
+    
+[^6]: 基于安全增强神经网络的非线性近似模型预测控制
+
+    Approximate non-linear model predictive control with safety-augmented neural networks. (arXiv:2304.09575v1 [eess.SY])
+
+    [http://arxiv.org/abs/2304.09575](http://arxiv.org/abs/2304.09575)
+
+    本文提出了一种基于神经网络(NNs)的非线性模型预测控制(MPC)的近似方法，称为安全增强，可以使解决方案在线可行并具有收敛和约束条件的确定保证。
+
+    
+
+    模型预测控制(MPC)可以实现对于一般非线性系统的稳定性和约束条件的满足，但需要进行计算开销很大的在线优化。本文研究了通过神经网络(NNs)对这种MPC控制器的近似，以实现快速的在线评估。我们提出了安全增强，尽管存在近似不准确性，但可以获得收敛和约束条件的确定保证。我们使用NN近似MPC的整个输入序列，这使得我们在线验证它是否是MPC问题的可行解。当该解决方案不可行或成本更高时，我们基于标准MPC技术将NN解决方案替换为安全候选解。我们的方法仅需要对NN进行一次评估和对输入序列进行在线前向积分，这在资源受限系统上的计算速度很快。所提出的控制框架在三个不同复杂度的非线性MPC基准上进行了演示，展示了计算效率。
+
+    Model predictive control (MPC) achieves stability and constraint satisfaction for general nonlinear systems, but requires computationally expensive online optimization. This paper studies approximations of such MPC controllers via neural networks (NNs) to achieve fast online evaluation. We propose safety augmentation that yields deterministic guarantees for convergence and constraint satisfaction despite approximation inaccuracies. We approximate the entire input sequence of the MPC with NNs, which allows us to verify online if it is a feasible solution to the MPC problem. We replace the NN solution by a safe candidate based on standard MPC techniques whenever it is infeasible or has worse cost. Our method requires a single evaluation of the NN and forward integration of the input sequence online, which is fast to compute on resource-constrained systems. The proposed control framework is illustrated on three non-linear MPC benchmarks of different complexity, demonstrating computational
     
 
