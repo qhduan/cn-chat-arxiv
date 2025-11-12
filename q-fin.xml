@@ -1,1 +1,21 @@
-<rss version="2.0"><channel><title>Chat Arxiv q-fin</title><link>https://github.com/qhduan/cn-chat-arxiv</link><description>This is arxiv RSS feed for q-fin</description></channel></rss>
+<rss version="2.0"><channel><title>Chat Arxiv q-fin</title><link>https://github.com/qhduan/cn-chat-arxiv</link><description>This is arxiv RSS feed for q-fin</description><item><title>&#32447;&#24615;&#35268;&#21010;&#22312;&#36190;&#21161;&#21015;&#34920;&#25490;&#21517;&#20013;&#30340;&#24212;&#29992;&#20026;&#35299;&#20915;&#22312;&#32447;&#24066;&#22330;&#20013;&#30340;&#25490;&#21517;&#25361;&#25112;&#25552;&#20379;&#20102;&#26377;&#21147;&#24037;&#20855;</title><link>https://arxiv.org/abs/2403.14862</link><description>&lt;p&gt;
+&#32447;&#24615;&#35268;&#21010;&#22312;&#36190;&#21161;&#21015;&#34920;&#25490;&#21517;&#20013;&#30340;&#23041;&#21147;&#65306;&#26469;&#33258;&#29616;&#22330;&#23454;&#39564;&#30340;&#35777;&#25454;
+&lt;/p&gt;
+&lt;p&gt;
+The Power of Linear Programming in Sponsored Listings Ranking: Evidence from Field Experiments
+&lt;/p&gt;
+&lt;p&gt;
+https://arxiv.org/abs/2403.14862
+&lt;/p&gt;
+&lt;p&gt;
+&#32447;&#24615;&#35268;&#21010;&#22312;&#36190;&#21161;&#21015;&#34920;&#25490;&#21517;&#20013;&#30340;&#24212;&#29992;&#20026;&#35299;&#20915;&#22312;&#32447;&#24066;&#22330;&#20013;&#30340;&#25490;&#21517;&#25361;&#25112;&#25552;&#20379;&#20102;&#26377;&#21147;&#24037;&#20855;
+&lt;/p&gt;
+&lt;p&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+&#36190;&#21161;&#21015;&#34920;&#26159;&#35768;&#22810;&#30693;&#21517;&#22312;&#32447;&#24066;&#22330;&#30340;&#20027;&#35201;&#25910;&#20837;&#26469;&#28304;&#20043;&#19968;&#65292;&#22914;&#20122;&#39532;&#36874;&#12289;&#27779;&#23572;&#29595;&#21644;&#38463;&#37324;&#24052;&#24052;&#12290;&#22312;&#32447;&#24066;&#22330;&#21487;&#33021;&#22312;&#23637;&#31034;&#29305;&#23450;&#21830;&#21697;&#30340;&#32593;&#39029;&#19978;&#38500;&#20102;&#35813;&#21830;&#21697;&#22806;&#65292;&#36824;&#20250;&#23637;&#31034;&#26469;&#33258;&#21508;&#31181;&#31532;&#19977;&#26041;&#21334;&#23478;&#30340;&#36190;&#21161;&#21830;&#21697;&#30340;&#25490;&#21517;&#21015;&#34920;&#12290;&#38024;&#23545;&#27599;&#27425;&#35775;&#38382;&#30830;&#23450;&#22914;&#20309;&#23545;&#36825;&#20123;&#36190;&#21161;&#21830;&#21697;&#36827;&#34892;&#25490;&#21517;&#26159;&#22312;&#32447;&#24066;&#22330;&#30340;&#19968;&#20010;&#20851;&#38190;&#25361;&#25112;&#65292;&#36825;&#20010;&#38382;&#39064;&#34987;&#31216;&#20026;&#36190;&#21161;&#21015;&#34920;&#25490;&#21517;&#65288;SLR&#65289;&#12290;SLR&#30340;&#20027;&#35201;&#22256;&#38590;&#22312;&#20110;&#24179;&#34913;&#26368;&#22823;&#21270;&#25972;&#20307;&#25910;&#20837;&#21644;&#25512;&#33616;&#39640;&#36136;&#37327;&#21644;&#30456;&#20851;&#25490;&#21517;&#21015;&#34920;&#20043;&#38388;&#30340;&#26435;&#34913;&#12290;&#34429;&#28982;&#26356;&#30456;&#20851;&#30340;&#25490;&#21517;&#21487;&#33021;&#23548;&#33268;&#26356;&#22810;&#30340;&#36141;&#20080;&#21644;&#28040;&#36153;&#32773;&#21442;&#19982;&#65292;&#20294;&#24066;&#22330;&#22312;&#21046;&#23450;&#25490;&#21517;&#20915;&#31574;&#26102;&#36824;&#38656;&#35201;&#32771;&#34385;&#28508;&#22312;&#25910;&#20837;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+arXiv:2403.14862v1 Announce Type: new  Abstract: Sponsored listing is one of the major revenue sources for many prominent online marketplaces, such as Amazon, Walmart, and Alibaba. When consumers visit a marketplace's webpage for a specific item, in addition to that item, the marketplace might also display a ranked listing of sponsored items from various third-party sellers. These sellers are charged an advertisement fee if a user purchases any of the sponsored items from this listing. Determining how to rank these sponsored items for each incoming visit is a crucial challenge for online marketplaces, a problem known as sponsored listings ranking (SLR). The major difficulty of SLR lies in balancing the trade-off between maximizing the overall revenue and recommending high-quality and relevant ranked listings. While a more relevant ranking may result in more purchases and consumer engagement, the marketplace also needs to take account of the potential revenue when making ranking decisio
+&lt;/p&gt;</description></item></channel></rss>
