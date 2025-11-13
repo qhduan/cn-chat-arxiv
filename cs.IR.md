@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [More Is Less: When Do Recommenders Underperform for Data-rich Users?.](http://arxiv.org/abs/2304.07487) | 研究了推荐算法在数据量丰富和数据量贫乏的用户中的性能表现。发现在所有数据集中，精度在数据丰富的用户中始终更高；平均精度相当，但其方差很大；当评估过程中采用负样本抽样时，召回率产生反直觉结果，表现更好的是数据贫乏的用户；随着用户与推荐系统的互动增加，他们收到的推荐质量会降低。 |
+| [^1] | [Understanding Performance of Long-Document Ranking Models through Comprehensive Evaluation and Leaderboarding](https://arxiv.org/abs/2207.01262) | 在标准收集的初步实验中，我们发现长文档模型在MRR或NDCG方面性能不佳，表现低于FirstP，或平均最多超越5％。我们推测这不是因为模型无法处理长上下文，而是由于相关段落具有位置偏见，往往位于前512个文档标记之中。我们找到证据表明这种偏见至少存在于两个测试集中，这促使我们创建了一个新的收集MS MARCO FarRelevant，其中包含 |
 
 # 详细
 
-[^1]: 更多不一定就是更好：何时推荐算法在数据丰富的用户中表现不佳？
+[^1]: 通过全面评估和Leaderboarding理解长文档排名模型的性能
 
-    More Is Less: When Do Recommenders Underperform for Data-rich Users?. (arXiv:2304.07487v1 [cs.IR])
+    Understanding Performance of Long-Document Ranking Models through Comprehensive Evaluation and Leaderboarding
 
-    [http://arxiv.org/abs/2304.07487](http://arxiv.org/abs/2304.07487)
+    [https://arxiv.org/abs/2207.01262](https://arxiv.org/abs/2207.01262)
 
-    研究了推荐算法在数据量丰富和数据量贫乏的用户中的性能表现。发现在所有数据集中，精度在数据丰富的用户中始终更高；平均精度相当，但其方差很大；当评估过程中采用负样本抽样时，召回率产生反直觉结果，表现更好的是数据贫乏的用户；随着用户与推荐系统的互动增加，他们收到的推荐质量会降低。
+    在标准收集的初步实验中，我们发现长文档模型在MRR或NDCG方面性能不佳，表现低于FirstP，或平均最多超越5％。我们推测这不是因为模型无法处理长上下文，而是由于相关段落具有位置偏见，往往位于前512个文档标记之中。我们找到证据表明这种偏见至少存在于两个测试集中，这促使我们创建了一个新的收集MS MARCO FarRelevant，其中包含
 
     
 
-    推荐系统的用户通常在与算法互动的水平上有所不同，这可能影响他们收到推荐的质量，并导致不可取的性能差异。本文研究了对于十个基准数据集应用的一组流行评估指标，数据丰富和数据贫乏的用户性能在什么条件下会发散。我们发现，针对所有数据集，精度在数据丰富的用户中始终更高；平均精度均等，但其方差很大；召回率产生了一个反直觉的结果，算法在数据贫乏的用户中表现更好，当在评估过程中采用负样本抽样时，这种偏差更加严重。最后一个观察结果表明，随着用户与推荐系统的互动增加，他们收到的推荐质量会降低（以召回率衡量）。我们的研究清楚地表明，在现实世界设置中，评估合理的推荐系统很重要，因为不同用户有不同的系统互作程度。
+    我们评估了20多个用于长文档排名的Transformer模型（包括最近使用FlashAttention训练的LongP模型），并将它们与简单的FirstP基线进行了比较（将相同模型应用于输入截断为前512个标记）。我们使用MS MARCO文档v1作为主要训练集，并在零-shot场景下评估了模型，以及在对其他收集进行微调后评估了模型。
 
-    Users of recommender systems tend to differ in their level of interaction with these algorithms, which may affect the quality of recommendations they receive and lead to undesirable performance disparity. In this paper we investigate under what conditions the performance for data-rich and data-poor users diverges for a collection of popular evaluation metrics applied to ten benchmark datasets. We find that Precision is consistently higher for data-rich users across all the datasets; Mean Average Precision is comparable across user groups but its variance is large; Recall yields a counter-intuitive result where the algorithm performs better for data-poor than for data-rich users, which bias is further exacerbated when negative item sampling is employed during evaluation. The final observation suggests that as users interact more with recommender systems, the quality of recommendations they receive degrades (when measured by Recall). Our insights clearly show the importance of an evaluat
+    arXiv:2207.01262v2 Announce Type: replace-cross  Abstract: We evaluated 20+ Transformer models for ranking of long documents (including recent LongP models trained with FlashAttention) and compared them with simple FirstP baselines (applying the same model to input truncated to the first 512 tokens). We used MS MARCO Documents v1 as a primary training set and evaluated models in the zero-shot scenario as well as after fine-tuning on other collections.   In our initial experiments with standard collections we found that long-document models underperformed FirstP or outperformed it by at most 5% on average in terms of MRR or NDCG. We then conjectured that this was not due to models inability to process long context but rather due to a positional bias of relevant passages, which tended to be among the first 512 document tokens. We found evidence that this bias was, indeed, present in at least two test sets, which motivated us to create a new collection MS MARCO FarRelevant where the relev
     
 
