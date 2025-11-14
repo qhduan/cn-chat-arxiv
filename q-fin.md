@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [The Power of Linear Programming in Sponsored Listings Ranking: Evidence from Field Experiments](https://arxiv.org/abs/2403.14862) | 线性规划在赞助列表排名中的应用为解决在线市场中的排名挑战提供了有力工具 |
-| [^2] | [Online Ensemble of Models for Optimal Predictive Performance with Applications to Sector Rotation Strategy.](http://arxiv.org/abs/2304.09947) | 通过机器学习模型和资产特定因素在预测行业回报和测量行业特定风险溢价方面获得更大经济收益，开发了一种新型在线集成算法来学习优化预测性能，特别适用于时间序列问题和可能的黑盒模型系统。 |
+| [^1] | [Unwinding Stochastic Order Flow: When to Warehouse Trades.](http://arxiv.org/abs/2310.14144) | 本论文研究了如何以最小的交易成本解构随机订单流程，模拟并解决了这个问题，并详细研究了订单流入特征对最优策略和核心交易指标的影响。 |
+| [^2] | [Unbiased estimators for the Heston model with stochastic interest rates.](http://arxiv.org/abs/2301.12072) | 本研究结合了无偏估计器和具有随机利率的Heston模型，通过开发半精确的对数欧拉方案，证明了其收敛率为O(h)，适用于多种模型。 |
 
 # 详细
 
-[^1]: 线性规划在赞助列表排名中的威力：来自现场实验的证据
+[^1]: 解构随机订单流程：何时存储交易
 
-    The Power of Linear Programming in Sponsored Listings Ranking: Evidence from Field Experiments
+    Unwinding Stochastic Order Flow: When to Warehouse Trades. (arXiv:2310.14144v1 [q-fin.TR])
 
-    [https://arxiv.org/abs/2403.14862](https://arxiv.org/abs/2403.14862)
+    [http://arxiv.org/abs/2310.14144](http://arxiv.org/abs/2310.14144)
 
-    线性规划在赞助列表排名中的应用为解决在线市场中的排名挑战提供了有力工具
-
-    
-
-    赞助列表是许多知名在线市场的主要收入来源之一，如亚马逊、沃尔玛和阿里巴巴。在线市场可能在展示特定商品的网页上除了该商品外，还会展示来自各种第三方卖家的赞助商品的排名列表。针对每次访问确定如何对这些赞助商品进行排名是在线市场的一个关键挑战，这个问题被称为赞助列表排名（SLR）。SLR的主要困难在于平衡最大化整体收入和推荐高质量和相关排名列表之间的权衡。虽然更相关的排名可能导致更多的购买和消费者参与，但市场在制定排名决策时还需要考虑潜在收入。
-
-    arXiv:2403.14862v1 Announce Type: new  Abstract: Sponsored listing is one of the major revenue sources for many prominent online marketplaces, such as Amazon, Walmart, and Alibaba. When consumers visit a marketplace's webpage for a specific item, in addition to that item, the marketplace might also display a ranked listing of sponsored items from various third-party sellers. These sellers are charged an advertisement fee if a user purchases any of the sponsored items from this listing. Determining how to rank these sponsored items for each incoming visit is a crucial challenge for online marketplaces, a problem known as sponsored listings ranking (SLR). The major difficulty of SLR lies in balancing the trade-off between maximizing the overall revenue and recommending high-quality and relevant ranked listings. While a more relevant ranking may result in more purchases and consumer engagement, the marketplace also needs to take account of the potential revenue when making ranking decisio
-    
-[^2]: 在线模型集成对最优预测性能的应用和行业轮换策略
-
-    Online Ensemble of Models for Optimal Predictive Performance with Applications to Sector Rotation Strategy. (arXiv:2304.09947v1 [q-fin.ST])
-
-    [http://arxiv.org/abs/2304.09947](http://arxiv.org/abs/2304.09947)
-
-    通过机器学习模型和资产特定因素在预测行业回报和测量行业特定风险溢价方面获得更大经济收益，开发了一种新型在线集成算法来学习优化预测性能，特别适用于时间序列问题和可能的黑盒模型系统。
+    本论文研究了如何以最小的交易成本解构随机订单流程，模拟并解决了这个问题，并详细研究了订单流入特征对最优策略和核心交易指标的影响。
 
     
 
-    资产特定因素通常用于预测金融回报并量化资产特定风险溢价。我们使用各种机器学习模型证明，这些因素包含的信息可以在预测行业回报和测量行业特定风险溢价方面带来更大的经济收益。为了利用不同行业表现的单个模型的强预测结果，我们开发了一种新型在线集成算法，该算法学习优化预测性能。该算法随着时间的推移不断适应，通过分析它们最近的预测性能来确定个体模型的最佳组合。这使它特别适用于时间序列问题，滚动窗口回测程序和可能的黑盒模型系统。我们推导出最优增益函数，用样本外R平方度量表达相应的遗憾界，并推导出最优解。
+    我们研究如何以最小的交易成本解构随机订单流程。随机订单流程在金融机构的中央风险簿（CRB）中出现，CRB是一个集中交易台，用于汇总金融机构内的订单流程。该交易台可以存储流入订单，理想情况下将其与随后的相反订单进行净化（内部化），或将其路由到市场（外部化）并承担与价格影响和买卖价差相关的成本。我们对一般类别的流入过程建模并解决了这个问题，使我们能够详细研究流入特征如何影响最优策略和核心交易指标。我们的模型允许半闭合形式的分析解，并且可以进行数值实现。与已知订单大小的标准执行问题相比，解构策略对预期未来流入有一个附加调整。其符号取决于订单的自相关性；只有真实流（鞅）才会被解构。
 
-    Asset-specific factors are commonly used to forecast financial returns and quantify asset-specific risk premia. Using various machine learning models, we demonstrate that the information contained in these factors leads to even larger economic gains in terms of forecasts of sector returns and the measurement of sector-specific risk premia. To capitalize on the strong predictive results of individual models for the performance of different sectors, we develop a novel online ensemble algorithm that learns to optimize predictive performance. The algorithm continuously adapts over time to determine the optimal combination of individual models by solely analyzing their most recent prediction performance. This makes it particularly suited for time series problems, rolling window backtesting procedures, and systems of potentially black-box models. We derive the optimal gain function, express the corresponding regret bounds in terms of the out-of-sample R-squared measure, and derive optimal le
+    We study how to unwind stochastic order flow with minimal transaction costs. Stochastic order flow arises, e.g., in the central risk book (CRB), a centralized trading desk that aggregates order flows within a financial institution. The desk can warehouse in-flow orders, ideally netting them against subsequent opposite orders (internalization), or route them to the market (externalization) and incur costs related to price impact and bid-ask spread. We model and solve this problem for a general class of in-flow processes, enabling us to study in detail how in-flow characteristics affect optimal strategy and core trading metrics. Our model allows for an analytic solution in semi-closed form and is readily implementable numerically. Compared with a standard execution problem where the order size is known upfront, the unwind strategy exhibits an additive adjustment for projected future in-flows. Its sign depends on the autocorrelation of orders; only truth-telling (martingale) flow is unwou
+    
+[^2]: 具有随机利率的Heston模型的无偏估计器
+
+    Unbiased estimators for the Heston model with stochastic interest rates. (arXiv:2301.12072v2 [q-fin.CP] UPDATED)
+
+    [http://arxiv.org/abs/2301.12072](http://arxiv.org/abs/2301.12072)
+
+    本研究结合了无偏估计器和具有随机利率的Heston模型，通过开发半精确的对数欧拉方案，证明了其收敛率为O(h)，适用于多种模型。
+
+    
+
+    我们结合了Rhee和Glynn（Operations Research: 63(5), 1026-1043，2015）中的无偏估计器和具有随机利率的Heston模型。具体地，我们首先为具有随机利率的Heston模型开发了一个半精确的对数欧拉方案。然后，在一些温和的假设下，我们证明收敛率在L^2范数中是O(h)，其中h是步长。该结果适用于许多模型，如Heston-Hull-While模型，Heston-CIR模型和Heston-Black-Karasinski模型。数值实验支持我们的理论收敛率。
+
+    We combine the unbiased estimators in Rhee and Glynn (Operations Research: 63(5), 1026-1043, 2015) and the Heston model with stochastic interest rates. Specifically, we first develop a semi-exact log-Euler scheme for the Heston model with stochastic interest rates. Then, under mild assumptions, we show that the convergence rate in the $L^2$ norm is $O(h)$, where $h$ is the step size. The result applies to a large class of models, such as the Heston-Hull-While model, the Heston-CIR model and the Heston-Black-Karasinski model. Numerical experiments support our theoretical convergence rate.
     
 
