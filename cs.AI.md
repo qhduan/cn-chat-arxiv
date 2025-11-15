@@ -2,22 +2,9 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Spikingformer: Spike-driven Residual Learning for Transformer-based Spiking Neural Network.](http://arxiv.org/abs/2304.11954) | 提出了一种适用于硬件的SNN脉冲驱动残差学习结构，基于该结构开发了一个纯Transformer的脉冲神经网络Spikingformer，用于避免非脉冲计算并在多个数据集上实现了优异的性能表现。 |
+
 
 # 详细
 
-[^1]: Spikingformer: 基于Transformer的脉冲神经网络的脉冲驱动残差学习
 
-    Spikingformer: Spike-driven Residual Learning for Transformer-based Spiking Neural Network. (arXiv:2304.11954v2 [cs.NE] UPDATED)
-
-    [http://arxiv.org/abs/2304.11954](http://arxiv.org/abs/2304.11954)
-
-    提出了一种适用于硬件的SNN脉冲驱动残差学习结构，基于该结构开发了一个纯Transformer的脉冲神经网络Spikingformer，用于避免非脉冲计算并在多个数据集上实现了优异的性能表现。
-
-    
-
-    脉冲神经网络(SNNs)由于其事件驱动的脉冲计算，提供了一种有前途的节能替代人工神经网络的方法。然而，包括Spikformer和SEW ResNet在内的最新深度SNN存在非脉冲计算（整数浮点乘法），这是由于它们的残差连接结构所导致的。这些非脉冲计算增加了SNN的功耗，并使其不适用于只支持脉冲操作的主流神经形态硬件上。本文提出了一种适用于硬件的脉冲驱动残差学习体系结构，用于避免非脉冲计算。基于这个残差设计，我们开发了Spikingformer，这是一个纯Transformer的脉冲神经网络。我们在ImageNet、CIFAR10、CIFAR100、CIFAR10-DVS和DVS128 Gesture数据集上评估了Spikingformer，并表明作为先进骨干的直接训练的纯SNN，Spikingformer表现出比现有技术更好的性能(75.85$\%$ top-1 accuracy on ImageNet)。
-
-    Spiking neural networks (SNNs) offer a promising energy-efficient alternative to artificial neural networks, due to their event-driven spiking computation. However, state-of-the-art deep SNNs (including Spikformer and SEW ResNet) suffer from non-spike computations (integer-float multiplications) caused by the structure of their residual connection. These non-spike computations increase SNNs' power consumption and make them unsuitable for deployment on mainstream neuromorphic hardware, which only supports spike operations. In this paper, we propose a hardware-friendly spike-driven residual learning architecture for SNNs to avoid non-spike computations. Based on this residual design, we develop Spikingformer, a pure transformer-based spiking neural network. We evaluate Spikingformer on ImageNet, CIFAR10, CIFAR100, CIFAR10-DVS and DVS128 Gesture datasets, and demonstrate that Spikingformer outperforms the state-of-the-art in directly trained pure SNNs as a novel advanced backbone (75.85$\
-    
 
