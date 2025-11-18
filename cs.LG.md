@@ -2,82 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [MoPE: Parameter-Efficient and Scalable Multimodal Fusion via Mixture of Prompt Experts](https://arxiv.org/abs/2403.10568) | 本文提出了MoPE技术，通过解开提示以自适应捕获数据集级和实例级特征，引入了混合Prompt专家来增强表达能力，并且在多模态融合中表现出更大的表达能力和可扩展性。 |
-| [^2] | [Mirror Descent Algorithms with Nearly Dimension-Independent Rates for Differentially-Private Stochastic Saddle-Point Problems](https://arxiv.org/abs/2403.02912) | 提出了具有差分隐私的随机鞍点问题的镜像下降算法，实现了几乎与维度无关的收敛速率，这种速率之前只针对双线性目标已知。 |
-| [^3] | [Understanding Deep Representation Learning via Layerwise Feature Compression and Discrimination.](http://arxiv.org/abs/2311.02960) | 本文通过研究中间特征的结构，揭示了深度网络在层级特征学习过程中的演化模式。研究发现线性层在特征学习中起到了与深层非线性网络类似的作用。 |
-| [^4] | [Connected Hidden Neurons (CHNNet): An Artificial Neural Network for Rapid Convergence.](http://arxiv.org/abs/2305.10468) | 该论文提出了一个更为强大的人工神经网络模型，该模型中同一隐藏层中的隐藏神经元相互连接，可以学习复杂模式并加速收敛速度。 |
-| [^5] | [NervePool: A Simplicial Pooling Layer.](http://arxiv.org/abs/2305.06315) | 单纯复形池化层NervePool在池化图结构数据时，基于顶点分区生成单纯复形的分层表示，可以灵活地建模更高阶的关系，同时缩小高维单纯形，实现降采样，减少计算成本和减少过拟合。 |
+| [^1] | [Modeling Latent Selection with Structural Causal Models.](http://arxiv.org/abs/2401.06925) | 本文介绍了一种在结构因果模型中对潜在选择进行建模的方法，并展示了它如何帮助进行因果推理任务，包括处理选择偏差。 |
+| [^2] | [FinGPT: Open-Source Financial Large Language Models.](http://arxiv.org/abs/2306.06031) | FinGPT是一个开源的金融大型语言模型，提供了可访问和透明的资源来开发金融LLMs，其重要性在于自动数据筛选管道和轻量级低秩适应技术。 |
+| [^3] | [Global universal approximation of functional input maps on weighted spaces.](http://arxiv.org/abs/2306.03303) | 本文提出了功能性输入神经网络，可以在带权重空间上完成全局函数逼近。这一方法适用于连续函数的推广，还可用于路径空间函数的逼近，同时也可以逼近线性函数签名。 |
+| [^4] | [Beyond Statistical Similarity: Rethinking Metrics for Deep Generative Models in Engineering Design.](http://arxiv.org/abs/2302.02913) | 本文提供了一篇深度学习在工程设计中度量方法的综述和指南。传统的基于似然性的统计度量方法在对工程应用的要求上可能无法充分捕捉，因此本文编辑了一组全面的新度量标准，旨在解决传统度量标准的缺点，并更好地与工程设计的需求相一致。通过案例研究，本文展示了这些度量标准如何应用于评估深度生成模型在工程设计中的性能，并发现这些度量标准在捕捉设计的重要细微差别方面表现优于传统的统计度量标准。 |
 
 # 详细
 
-[^1]: MoPE：通过Prompt专家混合实现参数高效和可扩展的多模态融合
+[^1]: 用结构因果模型对潜在选择进行建模
 
-    MoPE: Parameter-Efficient and Scalable Multimodal Fusion via Mixture of Prompt Experts
+    Modeling Latent Selection with Structural Causal Models. (arXiv:2401.06925v1 [cs.AI])
 
-    [https://arxiv.org/abs/2403.10568](https://arxiv.org/abs/2403.10568)
+    [http://arxiv.org/abs/2401.06925](http://arxiv.org/abs/2401.06925)
 
-    本文提出了MoPE技术，通过解开提示以自适应捕获数据集级和实例级特征，引入了混合Prompt专家来增强表达能力，并且在多模态融合中表现出更大的表达能力和可扩展性。
-
-    
-
-    Prompt调整已经证明在融合多模态任务的单模基础模型时具有参数效率性。然而，其有限的适应性和表达能力导致性能不佳与其他调整方法相比。本文通过将简单提示解开以自适应地捕获数据集级和实例级特征来解决这个问题。建立在这种解开的基础上，我们引入了Prompt专家的混合（MoPE）技术来增强表达能力。MoPE利用多模态配对先验在每个实例基础上路由最有效的提示。与简单提示相比，我们基于MoPE的条件提示对多模态融合具有更大的表达能力，在训练数据和可训练参数总数上具有更好的扩展性。我们还研究了一个专家路由的正则化项，导致专家的不断发展专长，不同专家专注于不同的特征。
-
-    arXiv:2403.10568v1 Announce Type: cross  Abstract: Prompt-tuning has demonstrated parameter-efficiency in fusing unimodal foundation models for multimodal tasks. However, its limited adaptivity and expressiveness lead to suboptimal performance when compared with other tuning methods. In this paper, we address this issue by disentangling the vanilla prompts to adaptively capture dataset-level and instance-level features. Building upon this disentanglement, we introduce the mixture of prompt experts (MoPE) technique to enhance expressiveness. MoPE leverages multimodal pairing priors to route the most effective prompt on a per-instance basis. Compared to vanilla prompting, our MoPE-based conditional prompting exhibits greater expressiveness for multimodal fusion, scaling better with the training data and the overall number of trainable parameters. We also study a regularization term for expert routing, leading to emergent expert specialization, where different experts focus on different c
-    
-[^2]: 具有几乎与维度无关收敛速率的镜像下降算法，用于具有差分隐私的随机鞍点问题
-
-    Mirror Descent Algorithms with Nearly Dimension-Independent Rates for Differentially-Private Stochastic Saddle-Point Problems
-
-    [https://arxiv.org/abs/2403.02912](https://arxiv.org/abs/2403.02912)
-
-    提出了具有差分隐私的随机鞍点问题的镜像下降算法，实现了几乎与维度无关的收敛速率，这种速率之前只针对双线性目标已知。
+    本文介绍了一种在结构因果模型中对潜在选择进行建模的方法，并展示了它如何帮助进行因果推理任务，包括处理选择偏差。
 
     
 
-    我们研究了多面体设置中具有差分隐私（DP）的随机（凸凹）鞍点问题。我们提出了基于随机镜像下降的（ϵ，δ）-DP算法，其实现了预期对偶间隙的几乎与维度无关的收敛速率，这种保证在以前只针对双线性目标已知。对于凸凹和一阶平滑随机目标，我们的算法实现了一个率，即sqrt(log(d)/n) + (log(d)^{3/2}/[nϵ])^{1/3}，其中d是问题的维度，n是数据集大小。在额外的二阶平滑性假设下，我们将预期间隙的速率改进为sqrt(log(d)/n) + (log(d)^{3/2}/[nϵ])^{2/5}。在这种额外假设下，我们还通过使用偏差减少的梯度估计器，证明了对偶间隙受常数成功概率的界为log(d)/sqrt(n) + log(d)/[nϵ]^{1/2}。
+    选择偏倚在现实世界的数据中是普遍存在的，如果不正确处理可能导致误导性结果。我们引入了对结构因果模型（SCMs）进行条件操作的方法，以从因果的角度对潜在选择进行建模。我们展示了条件操作将具有明确潜在选择机制的SCM转换为没有此类选择机制的SCM，这在一定程度上编码了根据原始SCM选择的亚总体的因果语义。此外，我们还展示了该条件操作保持SCMs的简洁性，无环性和线性性，并与边际化操作相符合。由于这些特性与边际化和干预结合起来，条件操作为在潜在细节已经去除的因果模型中进行因果推理任务提供了一个有价值的工具。我们通过例子演示了如何将因果推断的经典结果推广以包括选择偏倚。
 
-    arXiv:2403.02912v1 Announce Type: cross  Abstract: We study the problem of differentially-private (DP) stochastic (convex-concave) saddle-points in the polyhedral setting. We propose $(\varepsilon, \delta)$-DP algorithms based on stochastic mirror descent that attain nearly dimension-independent convergence rates for the expected duality gap, a type of guarantee that was known before only for bilinear objectives. For convex-concave and first-order-smooth stochastic objectives, our algorithms attain a rate of $\sqrt{\log(d)/n} + (\log(d)^{3/2}/[n\varepsilon])^{1/3}$, where $d$ is the dimension of the problem and $n$ the dataset size. Under an additional second-order-smoothness assumption, we improve the rate on the expected gap to $\sqrt{\log(d)/n} + (\log(d)^{3/2}/[n\varepsilon])^{2/5}$. Under this additional assumption, we also show, by using bias-reduced gradient estimators, that the duality gap is bounded by $\log(d)/\sqrt{n} + \log(d)/[n\varepsilon]^{1/2}$ with constant success pro
+    Selection bias is ubiquitous in real-world data, and can lead to misleading results if not dealt with properly. We introduce a conditioning operation on Structural Causal Models (SCMs) to model latent selection from a causal perspective. We show that the conditioning operation transforms an SCM with the presence of an explicit latent selection mechanism into an SCM without such selection mechanism, which partially encodes the causal semantics of the selected subpopulation according to the original SCM. Furthermore, we show that this conditioning operation preserves the simplicity, acyclicity, and linearity of SCMs, and commutes with marginalization. Thanks to these properties, combined with marginalization and intervention, the conditioning operation offers a valuable tool for conducting causal reasoning tasks within causal models where latent details have been abstracted away. We demonstrate by example how classical results of causal inference can be generalized to include selection b
     
-[^3]: 通过层间特征压缩和差别性学习理解深度表示学习
+[^2]: FinGPT：开源金融大型语言模型
 
-    Understanding Deep Representation Learning via Layerwise Feature Compression and Discrimination. (arXiv:2311.02960v2 [cs.LG] UPDATED)
+    FinGPT: Open-Source Financial Large Language Models. (arXiv:2306.06031v1 [q-fin.ST])
 
-    [http://arxiv.org/abs/2311.02960](http://arxiv.org/abs/2311.02960)
+    [http://arxiv.org/abs/2306.06031](http://arxiv.org/abs/2306.06031)
 
-    本文通过研究中间特征的结构，揭示了深度网络在层级特征学习过程中的演化模式。研究发现线性层在特征学习中起到了与深层非线性网络类似的作用。
-
-    
-
-    在过去的十年中，深度学习已经证明是从原始数据中学习有意义特征的一种高效工具。然而，深度网络如何在不同层级上进行等级特征学习仍然是一个开放问题。在这项工作中，我们试图通过研究中间特征的结构揭示这个谜团。受到我们实证发现的线性层在特征学习中模仿非线性网络中深层的角色的启发，我们研究了深度线性网络如何将输入数据转化为输出，通过研究训练后的每个层的输出（即特征）在多类分类问题的背景下。为了实现这个目标，我们首先定义了衡量中间特征的类内压缩和类间差别性的度量标准。通过对这两个度量标准的理论分析，我们展示了特征从浅层到深层的演变遵循着一种简单而量化的模式，前提是输入数据是
-
-    Over the past decade, deep learning has proven to be a highly effective tool for learning meaningful features from raw data. However, it remains an open question how deep networks perform hierarchical feature learning across layers. In this work, we attempt to unveil this mystery by investigating the structures of intermediate features. Motivated by our empirical findings that linear layers mimic the roles of deep layers in nonlinear networks for feature learning, we explore how deep linear networks transform input data into output by investigating the output (i.e., features) of each layer after training in the context of multi-class classification problems. Toward this goal, we first define metrics to measure within-class compression and between-class discrimination of intermediate features, respectively. Through theoretical analysis of these two metrics, we show that the evolution of features follows a simple and quantitative pattern from shallow to deep layers when the input data is
-    
-[^4]: 连接隐藏神经元（CHNNet）：一种快速收敛的人工神经网络
-
-    Connected Hidden Neurons (CHNNet): An Artificial Neural Network for Rapid Convergence. (arXiv:2305.10468v1 [cs.NE])
-
-    [http://arxiv.org/abs/2305.10468](http://arxiv.org/abs/2305.10468)
-
-    该论文提出了一个更为强大的人工神经网络模型，该模型中同一隐藏层中的隐藏神经元相互连接，可以学习复杂模式并加速收敛速度。
+    FinGPT是一个开源的金融大型语言模型，提供了可访问和透明的资源来开发金融LLMs，其重要性在于自动数据筛选管道和轻量级低秩适应技术。
 
     
 
-    人工神经网络的核心目的是模仿生物神经网络的功能。然而，与生物神经网络不同，传统的人工神经网络通常是按层次结构化的，这可能会妨碍神经元之间的信息流动，因为同一层中的神经元之间没有连接。因此，我们提出了一种更为强大的人工神经网络模型，其中同一隐藏层中的隐藏神经元是互相连接的，使得神经元能够学习复杂的模式并加速收敛速度。通过在浅层和深层网络中将我们提出的模型作为完全连接的层进行实验研究，我们证明这个模型可以显著提高收敛速率。
+    大型语言模型（LLMs）展示了在各个领域革新自然语言处理任务的潜力，引起了金融领域的浓厚兴趣。获得高质量的金融数据是金融LLMs（FinLLMs）的第一个挑战。在这篇论文中，我们提出了一个针对金融领域的开源大型语言模型FinGPT。与专有模型不同，FinGPT采用数据为中心的方法，为研究人员和从业者提供可访问和透明的资源来开发他们的金融LLMs。我们强调自动数据筛选管道和轻量级低秩适应技术在建立FinGPT中的重要性。此外，我们展示了几个潜在的应用作为用户的基础，如机器顾问、算法交易和论 。
 
-    The core purpose of developing artificial neural networks was to mimic the functionalities of biological neural networks. However, unlike biological neural networks, traditional artificial neural networks are often structured hierarchically, which can impede the flow of information between neurons as the neurons in the same layer have no connections between them. Hence, we propose a more robust model of artificial neural networks where the hidden neurons, residing in the same hidden layer, are interconnected, enabling the neurons to learn complex patterns and speeding up the convergence rate. With the experimental study of our proposed model as fully connected layers in shallow and deep networks, we demonstrate that the model results in a significant increase in convergence rate.
+    Large language models (LLMs) have shown the potential of revolutionizing natural language processing tasks in diverse domains, sparking great interest in finance. Accessing high-quality financial data is the first challenge for financial LLMs (FinLLMs). While proprietary models like BloombergGPT have taken advantage of their unique data accumulation, such privileged access calls for an open-source alternative to democratize Internet-scale financial data.  In this paper, we present an open-source large language model, FinGPT, for the finance sector. Unlike proprietary models, FinGPT takes a data-centric approach, providing researchers and practitioners with accessible and transparent resources to develop their FinLLMs. We highlight the importance of an automatic data curation pipeline and the lightweight low-rank adaptation technique in building FinGPT. Furthermore, we showcase several potential applications as stepping stones for users, such as robo-advising, algorithmic trading, and l
     
-[^5]: NervePool: 一个单纯复形池化层
+[^3]: 带权重空间上功能性输入映射的全局普适逼近
 
-    NervePool: A Simplicial Pooling Layer. (arXiv:2305.06315v1 [cs.CG])
+    Global universal approximation of functional input maps on weighted spaces. (arXiv:2306.03303v1 [stat.ML])
 
-    [http://arxiv.org/abs/2305.06315](http://arxiv.org/abs/2305.06315)
+    [http://arxiv.org/abs/2306.03303](http://arxiv.org/abs/2306.03303)
 
-    单纯复形池化层NervePool在池化图结构数据时，基于顶点分区生成单纯复形的分层表示，可以灵活地建模更高阶的关系，同时缩小高维单纯形，实现降采样，减少计算成本和减少过拟合。
+    本文提出了功能性输入神经网络，可以在带权重空间上完成全局函数逼近。这一方法适用于连续函数的推广，还可用于路径空间函数的逼近，同时也可以逼近线性函数签名。
 
     
 
-    对于图结构数据的深度学习问题，池化层对于降采样、减少计算成本和减少过拟合都很重要。我们提出了一个池化层，NervePool，适用于单纯复形结构的数据，这种结构是图的推广，包括比顶点和边更高维度的单纯形；这种结构可以更灵活地建模更高阶的关系。所提出的单纯复合缩小方案基于顶点的分区构建，这使得我们可以生成单纯复形的分层表示，以一种学习的方式折叠信息。NervePool建立在学习的顶点群集分配的基础上，并以一种确定性的方式扩展到高维单纯形的缩小。虽然在实践中，池化操作是通过一系列矩阵运算来计算的，但是其拓扑动机是一个基于单纯形星星的并集和神经复合体的集合构造。
+    我们引入了所谓的功能性输入神经网络，定义在可能是无限维带权重空间上，其值也在可能是无限维的输出空间中。为此，我们使用一个加性族作为隐藏层映射，以及一个非线性激活函数应用于每个隐藏层。依靠带权重空间上的Stone-Weierstrass定理，我们可以证明连续函数的推广的全局普适逼近结果，超越了常规紧集逼近。这特别适用于通过功能性输入神经网络逼近（非先见之明的）路径空间函数。作为带权Stone-Weierstrass定理的进一步应用，我们证明了线性函数签名的全局普适逼近结果。我们还在这个设置中引入了高斯过程回归的观点，并展示了签名内核的再生核希尔伯特空间是某些高斯过程的Cameron-Martin空间。
 
-    For deep learning problems on graph-structured data, pooling layers are important for down sampling, reducing computational cost, and to minimize overfitting. We define a pooling layer, NervePool, for data structured as simplicial complexes, which are generalizations of graphs that include higher-dimensional simplices beyond vertices and edges; this structure allows for greater flexibility in modeling higher-order relationships. The proposed simplicial coarsening scheme is built upon partitions of vertices, which allow us to generate hierarchical representations of simplicial complexes, collapsing information in a learned fashion. NervePool builds on the learned vertex cluster assignments and extends to coarsening of higher dimensional simplices in a deterministic fashion. While in practice, the pooling operations are computed via a series of matrix operations, the topological motivation is a set-theoretic construction based on unions of stars of simplices and the nerve complex
+    We introduce so-called functional input neural networks defined on a possibly infinite dimensional weighted space with values also in a possibly infinite dimensional output space. To this end, we use an additive family as hidden layer maps and a non-linear activation function applied to each hidden layer. Relying on Stone-Weierstrass theorems on weighted spaces, we can prove a global universal approximation result for generalizations of continuous functions going beyond the usual approximation on compact sets. This then applies in particular to approximation of (non-anticipative) path space functionals via functional input neural networks. As a further application of the weighted Stone-Weierstrass theorem we prove a global universal approximation result for linear functions of the signature. We also introduce the viewpoint of Gaussian process regression in this setting and show that the reproducing kernel Hilbert space of the signature kernels are Cameron-Martin spaces of certain Gauss
+    
+[^4]: 超越统计相似性：重新思考机器学习在工程设计中的度量方法
+
+    Beyond Statistical Similarity: Rethinking Metrics for Deep Generative Models in Engineering Design. (arXiv:2302.02913v3 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2302.02913](http://arxiv.org/abs/2302.02913)
+
+    本文提供了一篇深度学习在工程设计中度量方法的综述和指南。传统的基于似然性的统计度量方法在对工程应用的要求上可能无法充分捕捉，因此本文编辑了一组全面的新度量标准，旨在解决传统度量标准的缺点，并更好地与工程设计的需求相一致。通过案例研究，本文展示了这些度量标准如何应用于评估深度生成模型在工程设计中的性能，并发现这些度量标准在捕捉设计的重要细微差别方面表现优于传统的统计度量标准。
+
+    
+
+    深度生成模型，如变分自编码器（VAEs），生成对抗网络（GANs），扩散模型和Transformer等，在图像和语音合成、自然语言处理和药物开发等各种应用中显示出巨大的潜力。然而，在工程设计问题中应用这些模型时，评估这些模型的性能可能会很具有挑战性，因为传统的基于似然性的统计度量方法可能无法充分捕捉工程应用的要求。本文旨在提供一篇深度学习在工程设计中的度量指南和综述。首先，我们总结了深度生成模型的“经典”评估度量标准，这些标准基于机器学习理论和典型的计算机应用，然后使用案例研究，强调了这些度量标准为何很少能够转化为设计问题但又因缺乏确立的替代选择而经常使用。接下来，我们编辑了一组全面的新度量标准，旨在解决传统度量标准的缺点，并更好地与工程设计的需求相一致。我们演示了如何应用这些度量标准来评估深度生成模型在工程设计应用中的性能。我们的结果表明，提出的度量方法在捕捉设计的重要细微差别方面优于传统的统计度量标准，因此在工程设计情境中为深度生成模型提供了更准确的评估。
+
+    Deep generative models, such as Variational Autoencoders (VAEs), Generative Adversarial Networks (GANs), Diffusion Models, and Transformers, have shown great promise in a variety of applications, including image and speech synthesis, natural language processing, and drug discovery. However, when applied to engineering design problems, evaluating the performance of these models can be challenging, as traditional statistical metrics based on likelihood may not fully capture the requirements of engineering applications. This paper doubles as a review and a practical guide to evaluation metrics for deep generative models (DGMs) in engineering design. We first summarize well-accepted `classic' evaluation metrics for deep generative models grounded in machine learning theory and typical computer science applications. Using case studies, we then highlight why these metrics seldom translate well to design problems but see frequent use due to the lack of established alternatives. Next, we curat
     
 
