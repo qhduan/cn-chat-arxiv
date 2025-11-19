@@ -2,67 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [MoPE: Parameter-Efficient and Scalable Multimodal Fusion via Mixture of Prompt Experts](https://arxiv.org/abs/2403.10568) | 本文提出了MoPE技术，通过解开提示以自适应捕获数据集级和实例级特征，引入了混合Prompt专家来增强表达能力，并且在多模态融合中表现出更大的表达能力和可扩展性。 |
-| [^2] | [Survey in Characterization of Semantic Change](https://arxiv.org/abs/2402.19088) | 语义变化对计算语言学算法的结果质量可能会产生影响，因此重要性日益凸显。 |
-| [^3] | [GreatSplicing: A Semantically Rich Splicing Dataset.](http://arxiv.org/abs/2310.10070) | 本文提出了一个语义丰富的拼接数据集GreatSplicing，通过包括大量不同语义类别的拼接区域，训练的模型在拼接痕迹检测上表现出较低的误识率和更好的跨数据集检测能力。 |
-| [^4] | [Towards Efficient and Trustworthy AI Through Hardware-Algorithm-Communication Co-Design.](http://arxiv.org/abs/2309.15942) | 通过硬件-算法-通信协同设计，本论文提出了一种实现高效可信的人工智能的研究方法，即通过结合物理洞见、高效信息处理原则、最优不确定度量结果和分布式处理准则，来提高神经网络算法的效率和可信度。 |
+| [^1] | [GraphInstruct: Empowering Large Language Models with Graph Understanding and Reasoning Capability](https://arxiv.org/abs/2403.04483) | 该论文提出了一个名为GraphInstruct的基准，用于评估和增强大规模语言模型的图理解能力，并通过构建GraphLM和提出GraphLM+模型实现了显著的图推理能力增强。 |
+| [^2] | [Virtual Human Generative Model: Masked Modeling Approach for Learning Human Characteristics.](http://arxiv.org/abs/2306.10656) | 本论文提出了一种名为VHGM的深度生成模型，基于掩码建模的方法来学习健康属性、生活方式和人格之间的关系。通过使用异构表格数据集，VHGM有效地学习了超过1,800个属性。该模型具有潜在的应用前景，例如用于医疗属性的虚拟测量和生活方式的假设验证。 |
+| [^3] | [Arukikata Travelogue Dataset.](http://arxiv.org/abs/2305.11444) | Arukikata旅游游记数据集是一个包含超过3100万个日文单词的数据集，包括4672个日本国内游记和9607个海外游记，为研究人员提供了可重复和透明的研究数据。 |
 
 # 详细
 
-[^1]: MoPE：通过Prompt专家混合实现参数高效和可扩展的多模态融合
+[^1]: 使用图理解和推理功能增强大规模语言模型的GraphInstruct
 
-    MoPE: Parameter-Efficient and Scalable Multimodal Fusion via Mixture of Prompt Experts
+    GraphInstruct: Empowering Large Language Models with Graph Understanding and Reasoning Capability
 
-    [https://arxiv.org/abs/2403.10568](https://arxiv.org/abs/2403.10568)
+    [https://arxiv.org/abs/2403.04483](https://arxiv.org/abs/2403.04483)
 
-    本文提出了MoPE技术，通过解开提示以自适应捕获数据集级和实例级特征，引入了混合Prompt专家来增强表达能力，并且在多模态融合中表现出更大的表达能力和可扩展性。
-
-    
-
-    Prompt调整已经证明在融合多模态任务的单模基础模型时具有参数效率性。然而，其有限的适应性和表达能力导致性能不佳与其他调整方法相比。本文通过将简单提示解开以自适应地捕获数据集级和实例级特征来解决这个问题。建立在这种解开的基础上，我们引入了Prompt专家的混合（MoPE）技术来增强表达能力。MoPE利用多模态配对先验在每个实例基础上路由最有效的提示。与简单提示相比，我们基于MoPE的条件提示对多模态融合具有更大的表达能力，在训练数据和可训练参数总数上具有更好的扩展性。我们还研究了一个专家路由的正则化项，导致专家的不断发展专长，不同专家专注于不同的特征。
-
-    arXiv:2403.10568v1 Announce Type: cross  Abstract: Prompt-tuning has demonstrated parameter-efficiency in fusing unimodal foundation models for multimodal tasks. However, its limited adaptivity and expressiveness lead to suboptimal performance when compared with other tuning methods. In this paper, we address this issue by disentangling the vanilla prompts to adaptively capture dataset-level and instance-level features. Building upon this disentanglement, we introduce the mixture of prompt experts (MoPE) technique to enhance expressiveness. MoPE leverages multimodal pairing priors to route the most effective prompt on a per-instance basis. Compared to vanilla prompting, our MoPE-based conditional prompting exhibits greater expressiveness for multimodal fusion, scaling better with the training data and the overall number of trainable parameters. We also study a regularization term for expert routing, leading to emergent expert specialization, where different experts focus on different c
-    
-[^2]: 对语义变化特征的调查
-
-    Survey in Characterization of Semantic Change
-
-    [https://arxiv.org/abs/2402.19088](https://arxiv.org/abs/2402.19088)
-
-    语义变化对计算语言学算法的结果质量可能会产生影响，因此重要性日益凸显。
+    该论文提出了一个名为GraphInstruct的基准，用于评估和增强大规模语言模型的图理解能力，并通过构建GraphLM和提出GraphLM+模型实现了显著的图推理能力增强。
 
     
 
-    活语言不断发展，以吸纳人类社会的文化变化。这种演变通过新词语（新单词）或单词的语义变化（赋予已有单词新的含义）来体现。理解单词的含义对解释来自不同文化（地方用语或俚语）、领域（例如技术术语）或时代的文本至关重要。在计算机科学中，这些单词与计算语言学算法相关，例如翻译、信息检索、问答等。语义变化可能会影响这些算法的结果质量。因此，了解和形式化表征这些变化是很重要的。研究这种影响是计算语言学界近期引起关注的问题。几种方法提出了检测语义变化的方法，具有较高的精度，但需要更多努力来对其进行表征。
+    评估和增强大规模语言模型（LLMs）的通用能力一直是一个重要的研究课题。图是现实世界中常见的数据结构，理解图数据对于推进通用智能至关重要。为了评估和增强LLMs的图理解能力，在本文中，我们提出了一个名为GraphInstruct的基准，全面包括21个经典图推理任务，提供多样的图生成流水线和详细的推理步骤。基于GraphInstruct，我们进一步通过高效的指导调整构建了GraphLM，展示出显著的图理解能力。为了增强LLM的图推理能力，我们提出了一种步骤掩码训练策略，并构建了一个名为GraphLM+的模型。作为增强LLMs图理解和推理能力的先驱性努力之一，我们进行了大量实验。
 
-    arXiv:2402.19088v1 Announce Type: cross  Abstract: Live languages continuously evolve to integrate the cultural change of human societies. This evolution manifests through neologisms (new words) or \textbf{semantic changes} of words (new meaning to existing words). Understanding the meaning of words is vital for interpreting texts coming from different cultures (regionalism or slang), domains (e.g., technical terms), or periods. In computer science, these words are relevant to computational linguistics algorithms such as translation, information retrieval, question answering, etc. Semantic changes can potentially impact the quality of the outcomes of these algorithms. Therefore, it is important to understand and characterize these changes formally. The study of this impact is a recent problem that has attracted the attention of the computational linguistics community. Several approaches propose methods to detect semantic changes with good precision, but more effort is needed to charact
+    arXiv:2403.04483v1 Announce Type: new  Abstract: Evaluating and enhancing the general capabilities of large language models (LLMs) has been an important research topic. Graph is a common data structure in the real world, and understanding graph data is a crucial part for advancing general intelligence. To evaluate and enhance the graph understanding abilities of LLMs, in this paper, we propose a benchmark named GraphInstruct, which comprehensively includes 21 classical graph reasoning tasks, providing diverse graph generation pipelines and detailed reasoning steps. Based on GraphInstruct, we further construct GraphLM through efficient instruction-tuning, which shows prominent graph understanding capability. In order to enhance the LLM with graph reasoning capability as well, we propose a step mask training strategy, and construct a model named GraphLM+. As one of the pioneering efforts to enhance the graph understanding and reasoning abilities of LLMs, extensive experiments have demons
     
-[^3]: GreatSplicing: 一个语义丰富的拼接数据集
+[^2]: 虚拟人类生成模型：基于掩码建模的方法来学习人类特征
 
-    GreatSplicing: A Semantically Rich Splicing Dataset. (arXiv:2310.10070v2 [cs.CV] UPDATED)
+    Virtual Human Generative Model: Masked Modeling Approach for Learning Human Characteristics. (arXiv:2306.10656v1 [cs.LG])
 
-    [http://arxiv.org/abs/2310.10070](http://arxiv.org/abs/2310.10070)
+    [http://arxiv.org/abs/2306.10656](http://arxiv.org/abs/2306.10656)
 
-    本文提出了一个语义丰富的拼接数据集GreatSplicing，通过包括大量不同语义类别的拼接区域，训练的模型在拼接痕迹检测上表现出较低的误识率和更好的跨数据集检测能力。
-
-    
-
-    在现有的拼接伪造数据集中，拼接区域的语义变化不足导致训练的检测模型对语义特征的过拟合。同时，由于缺乏合理的数据集，不同的检测方法在实验设置上无法达成一致。为了解决这些紧迫的问题，本文提出了GreatSplicing，一个手动创建的具有大量和高质量的拼接数据集。GreatSplicing包括5000张拼接图像，并涵盖了335个不同的语义类别的拼接区域，让神经网络更好地抓住拼接痕迹。大量实验证明，使用GreatSplicing训练的模型相较于现有数据集表现出较低的误识率和更好的跨数据集检测能力。此外，GreatSplicing可供所有研究目的使用，并可从www.greatsplicing.net下载。
-
-    In existing splicing forgery datasets, the insufficient semantic varieties of spliced regions cause a problem that trained detection models overfit semantic features rather than splicing traces. Meanwhile, because of the absence of a reasonable dataset, different detection methods proposed cannot reach a consensus on experimental settings. To address these urgent issues, GreatSplicing, a manually created splicing dataset with a considerable amount and high quality, is proposed in this paper. GreatSplicing comprises 5,000 spliced images and covers spliced regions with 335 distinct semantic categories, allowing neural networks to grasp splicing traces better. Extensive experiments demonstrate that models trained on GreatSplicing exhibit minimal misidentification rates and superior cross-dataset detection capabilities compared to existing datasets. Furthermore, GreatSplicing is available for all research purposes and can be downloaded from www.greatsplicing.net.
-    
-[^4]: 通过硬件-算法-通信协同设计实现高效可信的人工智能
-
-    Towards Efficient and Trustworthy AI Through Hardware-Algorithm-Communication Co-Design. (arXiv:2309.15942v1 [cs.AI])
-
-    [http://arxiv.org/abs/2309.15942](http://arxiv.org/abs/2309.15942)
-
-    通过硬件-算法-通信协同设计，本论文提出了一种实现高效可信的人工智能的研究方法，即通过结合物理洞见、高效信息处理原则、最优不确定度量结果和分布式处理准则，来提高神经网络算法的效率和可信度。
+    本论文提出了一种名为VHGM的深度生成模型，基于掩码建模的方法来学习健康属性、生活方式和人格之间的关系。通过使用异构表格数据集，VHGM有效地学习了超过1,800个属性。该模型具有潜在的应用前景，例如用于医疗属性的虚拟测量和生活方式的假设验证。
 
     
 
-    基于神经网络的人工智能算法已经被设计了几十年，目标是最大化某种准确性度量。这导致了两个不希望出现的结果。首先，以计算和内存需求为衡量标准，模型复杂性呈指数增长。第二，最新的人工智能模型在提供可信度量方面很难实现，可能出现"幻觉"问题，从而阻碍了其在敏感应用的决策制定中的应用。为了实现高效可信的人工智能，本文强调硬件和软件设计交叉的研究方向，将物理洞见与计算基础、神经科学有关的高效信息处理原则、信息论中关于最优不确定度量的结果以及通信理论中关于分布式处理的准则相结合。总体而言，本文提倡新的硬件-算法-通信协同设计方法，以实现高效可信的人工智能。
+    识别医疗属性、生活方式和人格之间的关系对于理解和改善身体和精神状况至关重要。本文提出了一种名为虚拟人类生成模型（VHGM）的机器学习模型，用于估计有关医疗保健、生活方式和个性的属性。VHGM是一个深度生成模型，使用掩码建模训练，在已知属性的条件下学习属性的联合分布。利用异构表格数据集，VHGM高效地学习了超过1,800个属性。我们数值评估了VHGM及其训练技术的性能。作为VHGM的概念验证，我们提出了几个应用程序，演示了用户情境，例如医疗属性的虚拟测量和生活方式的假设验证。
 
-    Artificial intelligence (AI) algorithms based on neural networks have been designed for decades with the goal of maximising some measure of accuracy. This has led to two undesired effects. First, model complexity has risen exponentially when measured in terms of computation and memory requirements. Second, state-of-the-art AI models are largely incapable of providing trustworthy measures of their uncertainty, possibly `hallucinating' their answers and discouraging their adoption for decision-making in sensitive applications.  With the goal of realising efficient and trustworthy AI, in this paper we highlight research directions at the intersection of hardware and software design that integrate physical insights into computational substrates, neuroscientific principles concerning efficient information processing, information-theoretic results on optimal uncertainty quantification, and communication-theoretic guidelines for distributed processing. Overall, the paper advocates for novel d
+    Identifying the relationship between healthcare attributes, lifestyles, and personality is vital for understanding and improving physical and mental conditions. Machine learning approaches are promising for modeling their relationships and offering actionable suggestions. In this paper, we propose Virtual Human Generative Model (VHGM), a machine learning model for estimating attributes about healthcare, lifestyles, and personalities. VHGM is a deep generative model trained with masked modeling to learn the joint distribution of attributes conditioned on known ones. Using heterogeneous tabular datasets, VHGM learns more than 1,800 attributes efficiently. We numerically evaluate the performance of VHGM and its training techniques. As a proof-of-concept of VHGM, we present several applications demonstrating user scenarios, such as virtual measurements of healthcare attributes and hypothesis verifications of lifestyles.
+    
+[^3]: Arukikata旅游游记数据集 (arXiv:2305.11444v1 [cs.CL])
+
+    Arukikata Travelogue Dataset. (arXiv:2305.11444v1 [cs.CL])
+
+    [http://arxiv.org/abs/2305.11444](http://arxiv.org/abs/2305.11444)
+
+    Arukikata旅游游记数据集是一个包含超过3100万个日文单词的数据集，包括4672个日本国内游记和9607个海外游记，为研究人员提供了可重复和透明的研究数据。
+
+    
+
+    我们创建了Arukikata旅游游记数据集，并免费提供给学术研究使用。该数据集包含超过3100万个日文单词，包括4672个日本国内游记和9607个海外游记。在我们提供数据集之前，很难获得可用于研究的广泛旅游游记数据，每个研究人员都必须准备自己的数据。这阻碍了对现有研究的复制以及对实验结果进行公正比较分析。我们的数据集使得任何研究人员都可以对相同的数据进行研究，并确保研究的透明度和可重复性。 在本文中，我们描述了我们的数据集的学术意义、特点和前景。
+
+    We have constructed Arukikata Travelogue Dataset and released it free of charge for academic research. This dataset is a Japanese text dataset with a total of over 31 million words, comprising 4,672 Japanese domestic travelogues and 9,607 overseas travelogues. Before providing our dataset, there was a scarcity of widely available travelogue data for research purposes, and each researcher had to prepare their own data. This hinders the replication of existing studies and fair comparative analysis of experimental results. Our dataset enables any researchers to conduct investigation on the same data and to ensure transparency and reproducibility in research. In this paper, we describe the academic significance, characteristics, and prospects of our dataset.
     
 

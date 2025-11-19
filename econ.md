@@ -2,52 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Multi-District School Choice: Playing on Several Fields](https://arxiv.org/abs/2403.04530) | 在多个学区的环境中，学生的真诚或老练以及受限制程度的选择会影响他们的选择偏好，研究发现一些关键结果出现颠倒，学生之间的互动会导致学区选择机制的不同偏好。 |
-| [^2] | [The Power of Non-Superpowers.](http://arxiv.org/abs/2209.10206) | 这篇论文提出了一个博弈论模型，研究了在非超级大国具有异质偏好和资源分配的情况下，它们如何通过联盟的形成来影响超级大国的竞争，并揭示了非超级大国对超级大国具有一定的影响力。 |
-| [^3] | [Estimating Nonlinear Network Data Models with Fixed Effects.](http://arxiv.org/abs/2203.15603) | 本文提出一种使用杰克刀程序修正带有个体固定效应的非线性网络数据模型偏差的新方法，可适用于有向和无向网络，对非二元结果变量进行估计，并可用于修正平均效应和反事实结局的估算。 |
+| [^1] | [On Three-Layer Data Markets](https://arxiv.org/abs/2402.09697) | 这篇论文研究了一个三层数据市场，其中用户通过与平台共享数据来获得服务，但会产生隐私损失。研究发现，当购买方对用户数据的价值较高时，所有平台都向用户提供服务，而当购买方对用户数据的价值较低时，只有低成本的大型平台能够服务用户。 |
+| [^2] | [Market Design for Dynamic Pricing and Pooling in Capacitated Networks.](http://arxiv.org/abs/2307.03994) | 本研究提出了一种用于动态定价和汇聚网络的市场设计，通过设置边缘价格激励代理商共享有限网络容量。在考虑了整数和网络约束以及代理商异质偏好的情况下，我们提供了充分条件，保证市场均衡的存在和多项式时间计算，并识别了实现最大效用的特定市场均衡。 |
 
 # 详细
 
-[^1]: 多区域学校选择：在几个领域中进行游戏
+[^1]: 关于三层数据市场的研究
 
-    Multi-District School Choice: Playing on Several Fields
+    On Three-Layer Data Markets
 
-    [https://arxiv.org/abs/2403.04530](https://arxiv.org/abs/2403.04530)
+    [https://arxiv.org/abs/2402.09697](https://arxiv.org/abs/2402.09697)
 
-    在多个学区的环境中，学生的真诚或老练以及受限制程度的选择会影响他们的选择偏好，研究发现一些关键结果出现颠倒，学生之间的互动会导致学区选择机制的不同偏好。
-
-    
-
-    我们将Pathak和S\"onmez (2008)的开创性模型扩展到一个具有多个学区的环境中，每个学区都运行其自己的独立中心化匹配，重点关注两个学区的情况。在我们的设置中，除了每个学生是真诚还是老练之外，她还可以是受限制的 - 只能申请自己居住学区内的学校 - 或不受限制的 - 能够选择任何一个学区进行申请。我们展示了 Pathak和S\"onmez (2008) 中的几个关键结果在性质上发生了变化： 一个老练的学生可能希望一个真诚的学生变得老练，一个老练的学生可能更喜欢自己所在学区使用延迟接受而不是波士顿机制，而不考虑其他学区使用的机制。我们进一步研究了学生对其他学生受限水平的偏好。其中许多现象大量出现在大规模的随机中。
-
-    arXiv:2403.04530v1 Announce Type: cross  Abstract: We extend the seminal model of Pathak and S\"onmez (2008) to a setting with multiple school districts, each running its own separate centralized match, and focus on the case of two districts. In our setting, in addition to each student being either sincere or sophisticated, she is also either constrained - able to apply only to schools within her own district of residence - or unconstrained - able to choose any single district within which to apply. We show that several key results from Pathak and S\"onmez (2008) qualitatively flip: A sophisticated student may prefer for a sincere student to become sophisticated, and a sophisticated student may prefer for her own district to use Deferred Acceptance over the Boston Mechanism, irrespective of the mechanism used by the other district. We furthermore investigate the preferences of students over the constraint levels of other students. Many of these phenomena appear abundantly in large rand
-    
-[^2]: 非超级大国的力量
-
-    The Power of Non-Superpowers. (arXiv:2209.10206v3 [econ.GN] UPDATED)
-
-    [http://arxiv.org/abs/2209.10206](http://arxiv.org/abs/2209.10206)
-
-    这篇论文提出了一个博弈论模型，研究了在非超级大国具有异质偏好和资源分配的情况下，它们如何通过联盟的形成来影响超级大国的竞争，并揭示了非超级大国对超级大国具有一定的影响力。
+    这篇论文研究了一个三层数据市场，其中用户通过与平台共享数据来获得服务，但会产生隐私损失。研究发现，当购买方对用户数据的价值较高时，所有平台都向用户提供服务，而当购买方对用户数据的价值较低时，只有低成本的大型平台能够服务用户。
 
     
 
-    我们提出了一个博弈论模型，研究非超级大国在具有异质偏好和资源分配的情况下如何塑造超级大国在势力范围内的竞争。两个超级大国进行提供俱乐部公共品的斯塔克尔伯格博弈，而非超级大国则通过形成联盟来加入俱乐部并考虑外部性的存在。联盟的形成取决于非超级大国的特征，影响着超级大国的行为，从而影响俱乐部的规模。从这个意义上说，非超级大国对超级大国拥有一定的影响力。我们研究了子博弈完美纳什均衡，并模拟了游戏，以描绘美国和中国如何根据其他国家来形成他们的俱乐部。
+    我们研究了一个由用户（数据所有者）、平台和数据购买方组成的三层数据市场。每个用户通过共享数据获得平台服务，当他们的数据与购买方共享时，会发生隐私损失，尽管以噪声形式共享。用户选择与哪些平台分享数据，而平台在出售给购买方之前决定数据的噪声水平和定价。购买方选择从哪些平台购买数据。我们通过多阶段博弈模型来描述这些互动，重点研究子博弈纳什均衡。我们发现，当购买方对用户数据的价值较高（平台能够获取高价格）时，所有平台都向用户提供服务，并且用户加入并与每个平台分享数据。相反，当购买方对用户数据的估值较低时，只有低成本的大型平台能够为用户提供服务。在这种情况下，用户只加入并与这些低成本平台分享数据。有趣的是，增加平台数量会增加用户参与的意愿，但也会提高平台之间的竞争。
 
-    We propose a game-theoretic model to investigate how non-superpowers with heterogenous preferences and endowments shape the superpower competition for a sphere of influence. Two superpowers play a Stackelberg game of providing club goods while non-superpowers form coalitions to join a club in the presence of externalities. The coalition formation, which depends on the characteristics of non-superpowers, influences the behavior of superpowers and thus the club size. In this sense, non-superpowers have a power over superpowers. We study the subgame perfect Nash equilibrium and simulate the game to characterize how the US and China form their clubs depending on other countries.
+    arXiv:2402.09697v1 Announce Type: new  Abstract: We study a three-layer data market comprising users (data owners), platforms, and a data buyer. Each user benefits from platform services in exchange for data, incurring privacy loss when their data, albeit noisily, is shared with the buyer. The user chooses platforms to share data with, while platforms decide on data noise levels and pricing before selling to the buyer. The buyer selects platforms to purchase data from. We model these interactions via a multi-stage game, focusing on the subgame Nash equilibrium. We find that when the buyer places a high value on user data (and platforms can command high prices), all platforms offer services to the user who joins and shares data with every platform. Conversely, when the buyer's valuation of user data is low, only large platforms with low service costs can afford to serve users. In this scenario, users exclusively join and share data with these low-cost platforms. Interestingly, increased
     
-[^3]: 修正带有固定效应的非线性网络数据模型的估计方法
+[^2]: 动态定价和汇聚网络的市场设计
 
-    Estimating Nonlinear Network Data Models with Fixed Effects. (arXiv:2203.15603v2 [econ.EM] UPDATED)
+    Market Design for Dynamic Pricing and Pooling in Capacitated Networks. (arXiv:2307.03994v1 [cs.GT])
 
-    [http://arxiv.org/abs/2203.15603](http://arxiv.org/abs/2203.15603)
+    [http://arxiv.org/abs/2307.03994](http://arxiv.org/abs/2307.03994)
 
-    本文提出一种使用杰克刀程序修正带有个体固定效应的非线性网络数据模型偏差的新方法，可适用于有向和无向网络，对非二元结果变量进行估计，并可用于修正平均效应和反事实结局的估算。
+    本研究提出了一种用于动态定价和汇聚网络的市场设计，通过设置边缘价格激励代理商共享有限网络容量。在考虑了整数和网络约束以及代理商异质偏好的情况下，我们提供了充分条件，保证市场均衡的存在和多项式时间计算，并识别了实现最大效用的特定市场均衡。
 
     
 
-    本论文提出一种新的方法来修正带有特定个体的固定特征的二元模型——其中包括同质性和度异质性的二元链接形成模型的偏差。所提出的方法使用了杰克刀（jackknife）程序来处理关于偶然参数的问题。该方法可应用于有向和无向网络，并且允许使用非二元结果变量，并可用于修正平均效应和反事实结局的估计。作者还展示了如何使用杰克刀来纠正对多个节点的固定效应平均值的偏差，例如三元组或四元组。最后，作者在一个关于跨国进出口关系的引力模型的应用中展示了该估计器的实用性。
+    我们研究了一种市场机制，通过设置边缘价格来激励战略性代理商组织旅行，以有效共享有限的网络容量。该市场允许代理商组成团队共享旅行，做出出发时间和路线选择的决策，并支付边缘价格和其他成本。我们发展了一种新的方法来分析市场均衡的存在和计算，建立在组合拍卖和动态网络流理论的基础上。我们的方法解决了市场均衡特征化中的挑战，包括：（a）共享有限边缘容量中旅行的动态流量所引发的整数和网络约束；（b）战略性代理商的异质和私人偏好。我们提供了关于网络拓扑和代理商偏好的充分条件，以确保市场均衡的存在和多项式时间计算。我们确定了一个特定的市场均衡，实现了所有代理商的最大效用，并且与经典的最大流最小割问题等价。
 
-    I introduce a new method for bias correction of dyadic models with agent-specific fixed-effects, including the dyadic link formation model with homophily and degree heterogeneity. The proposed approach uses a jackknife procedure to deal with the incidental parameters problem. The method can be applied to both directed and undirected networks, allows for non-binary outcome variables, and can be used to bias correct estimates of average effects and counterfactual outcomes. I also show how the jackknife can be used to bias-correct fixed effect averages over functions that depend on multiple nodes, e.g. triads or tetrads in the network. As an example, I implement specification tests for dependence across dyads, such as reciprocity or transitivity. Finally, I demonstrate the usefulness of the estimator in an application to a gravity model for import/export relationships across countries.
+    We study a market mechanism that sets edge prices to incentivize strategic agents to organize trips that efficiently share limited network capacity. This market allows agents to form groups to share trips, make decisions on departure times and route choices, and make payments to cover edge prices and other costs. We develop a new approach to analyze the existence and computation of market equilibrium, building on theories of combinatorial auctions and dynamic network flows. Our approach tackles the challenges in market equilibrium characterization arising from: (a) integer and network constraints on the dynamic flow of trips in sharing limited edge capacity; (b) heterogeneous and private preferences of strategic agents. We provide sufficient conditions on the network topology and agents' preferences that ensure the existence and polynomial-time computation of market equilibrium. We identify a particular market equilibrium that achieves maximum utilities for all agents, and is equivalen
     
 
