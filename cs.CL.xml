@@ -1,1 +1,21 @@
-<rss version="2.0"><channel><title>Chat Arxiv cs.CL</title><link>https://github.com/qhduan/cn-chat-arxiv</link><description>This is arxiv RSS feed for cs.CL</description></channel></rss>
+<rss version="2.0"><channel><title>Chat Arxiv cs.CL</title><link>https://github.com/qhduan/cn-chat-arxiv</link><description>This is arxiv RSS feed for cs.CL</description><item><title>&#26412;&#25991;&#25552;&#20986;&#20102;&#19968;&#31181;&#23558;&#22823;&#22411;&#35821;&#35328;&#27169;&#22411;&#30340;&#30693;&#35782;&#33976;&#39311;&#21040;&#26356;&#23567;&#27169;&#22411;&#30340;&#26041;&#27861;&#65292;&#36890;&#36807;&#20351;&#29992;&#21453;&#21521;KLD&#26367;&#25442;&#26631;&#20934;KD&#26041;&#27861;&#20013;&#30340;&#21069;&#21521;KLD&#30446;&#26631;&#65292;&#26377;&#25928;&#36991;&#20813;&#20102;&#23398;&#29983;&#27169;&#22411;&#39640;&#20272;&#25945;&#24072;&#20998;&#24067;&#30340;&#20302;&#27010;&#29575;&#21306;&#22495;&#12290;</title><link>https://arxiv.org/abs/2306.08543</link><description>&lt;p&gt;
+MiniLLM&#65306;&#22823;&#22411;&#35821;&#35328;&#27169;&#22411;&#30340;&#30693;&#35782;&#33976;&#39311;
+&lt;/p&gt;
+&lt;p&gt;
+MiniLLM: Knowledge Distillation of Large Language Models
+&lt;/p&gt;
+&lt;p&gt;
+https://arxiv.org/abs/2306.08543
+&lt;/p&gt;
+&lt;p&gt;
+&#26412;&#25991;&#25552;&#20986;&#20102;&#19968;&#31181;&#23558;&#22823;&#22411;&#35821;&#35328;&#27169;&#22411;&#30340;&#30693;&#35782;&#33976;&#39311;&#21040;&#26356;&#23567;&#27169;&#22411;&#30340;&#26041;&#27861;&#65292;&#36890;&#36807;&#20351;&#29992;&#21453;&#21521;KLD&#26367;&#25442;&#26631;&#20934;KD&#26041;&#27861;&#20013;&#30340;&#21069;&#21521;KLD&#30446;&#26631;&#65292;&#26377;&#25928;&#36991;&#20813;&#20102;&#23398;&#29983;&#27169;&#22411;&#39640;&#20272;&#25945;&#24072;&#20998;&#24067;&#30340;&#20302;&#27010;&#29575;&#21306;&#22495;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+&#30693;&#35782;&#33976;&#39311;&#65288;KD&#65289;&#26159;&#19968;&#31181;&#20943;&#23569;&#22823;&#22411;&#35821;&#35328;&#27169;&#22411;&#65288;LLMs&#65289;&#39640;&#35745;&#31639;&#38656;&#27714;&#30340;&#26377;&#21069;&#36884;&#30340;&#25216;&#26415;&#12290;&#28982;&#32780;&#65292;&#20808;&#21069;&#30340;KD&#26041;&#27861;&#20027;&#35201;&#24212;&#29992;&#20110;&#30333;&#30418;&#20998;&#31867;&#27169;&#22411;&#25110;&#35757;&#32451;&#23567;&#27169;&#22411;&#26469;&#27169;&#20223;&#22914;ChatGPT&#20043;&#31867;&#30340;&#40657;&#30418;&#27169;&#22411;API&#12290;&#22914;&#20309;&#26377;&#25928;&#22320;&#23558;&#30333;&#30418;LLMs&#30340;&#30693;&#35782;&#33976;&#39311;&#21040;&#23567;&#27169;&#22411;&#20013;&#20173;&#26410;&#24471;&#21040;&#20805;&#20998;&#25506;&#35752;&#65292;&#38543;&#30528;&#24320;&#28304;LLMs&#30340;&#34028;&#21187;&#21457;&#23637;&#65292;&#36825;&#21464;&#24471;&#26356;&#20026;&#37325;&#35201;&#12290;&#22312;&#36825;&#39033;&#24037;&#20316;&#20013;&#65292;&#25105;&#20204;&#25552;&#20986;&#19968;&#31181;KD&#26041;&#27861;&#65292;&#23558;LLMs&#33976;&#39311;&#21040;&#26356;&#23567;&#30340;&#35821;&#35328;&#27169;&#22411;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+arXiv:2306.08543v2 Announce Type: replace-cross  Abstract: Knowledge Distillation (KD) is a promising technique for reducing the high computational demand of large language models (LLMs). However, previous KD methods are primarily applied to white-box classification models or training small models to imitate black-box model APIs like ChatGPT. How to effectively distill the knowledge of white-box LLMs into small models is still under-explored, which becomes more important with the prosperity of open-source LLMs. In this work, we propose a KD approach that distills LLMs into smaller language models. We first replace the forward Kullback-Leibler divergence (KLD) objective in the standard KD approaches with reverse KLD, which is more suitable for KD on generative language models, to prevent the student model from overestimating the low-probability regions of the teacher distribution. Then, we derive an effective optimization approach to learn this objective. The student models are named Mi
+&lt;/p&gt;</description></item></channel></rss>
