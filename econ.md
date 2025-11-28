@@ -2,22 +2,9 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Superiority of Instantaneous Decisions in Thin Dynamic Matching Markets.](http://arxiv.org/abs/2206.10287) | 本文发现，在动态匹配市场中，即使市场稀疏，只要满足离开分布的温和条件，即时决策也可以实现最优性，这是一个令人惊讶的结果，可以推广到其他市场中。 |
+
 
 # 详细
 
-[^1]: 稀疏动态匹配市场中即时决策的优越性研究
 
-    Superiority of Instantaneous Decisions in Thin Dynamic Matching Markets. (arXiv:2206.10287v2 [cs.DS] UPDATED)
-
-    [http://arxiv.org/abs/2206.10287](http://arxiv.org/abs/2206.10287)
-
-    本文发现，在动态匹配市场中，即使市场稀疏，只要满足离开分布的温和条件，即时决策也可以实现最优性，这是一个令人惊讶的结果，可以推广到其他市场中。
-
-    
-
-    本文研究了一种动态匹配过程，其中同质化的代理按泊松过程随机到达并随机形成边缘，形成一个稀疏市场。代理根据某种离开分布离开，也可以通过与兼容代理形成一对提前离开。主要目标是最大化匹配代理数。我们的主要结果是，尽管在稀疏市场中运作，但对离开分布条件的温和要求足以实现即时匹配的几乎最优性。因此，我们是首先提供了一种自然条件，在该条件下，即时决策在既稀疏又薄的市场中是卓越的。此结果令人惊讶，因为先前文献中的类似结果是基于市场厚度的。此外，即时匹配在其他目标方面也表现良好，如最小化等待时间和避免市场拥挤的风险。我们开发了新技术来证明我们的结果。
-
-    We study a dynamic matching procedure where homogeneous agents arrive at random according to a Poisson process and form edges at random yielding a sparse market. Agents leave according to a certain departure distribution and may leave early by forming a pair with a compatible agent. The primary objective is to maximize the number of matched agents. Our main result is to show that a mild condition on the departure distribution suffices to get almost optimal performance of instantaneous matching, despite operating in a thin market. We are thus the first to provide a natural condition under which instantaneous decisions are superior in a market that is both sparse and thin. This result is surprising because similar results in the previous literature are based on market thickness. In addition, instantaneous matching performs well with respect to further objectives such as minimizing waiting times and avoiding the risk of market congestion. We develop new techniques for proving our results 
-    
 
