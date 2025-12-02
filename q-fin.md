@@ -2,22 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Do Unions Shape Political Ideologies at Work?.](http://arxiv.org/abs/2209.02637) | 本文研究了工会对美国工作场所、管理层和员工政治活动的影响，发现工会化导致政治活动捐款向左转移，不仅在工人中增加对民主党的支持，也在管理层中增加了对民主党的支持，表明两组人之间的政治分化并未增加。 |
+| [^1] | [Learning to Maximize (Expected) Utility](https://arxiv.org/abs/2402.16538) | 该研究探讨了在重复相同决策过程中，参与者是否会更倾向于遵循序数和期望效用理论的预测行为，并发现在最后一组决策中有更多个体表现为序数和期望效用最大化者。 |
+| [^2] | [The Measure Preserving Martingale Sinkhorn Algorithm.](http://arxiv.org/abs/2310.13797) | 本文提供了一种保度量幂插值方法，可以通过类似于熵最优输运中使用的Sinkhorn系统来获得测度之间的插值。 |
 
 # 详细
 
-[^1]: 工会是否在工作中塑造政治意识形态？
+[^1]: 学习最大化（预期）效用
 
-    Do Unions Shape Political Ideologies at Work?. (arXiv:2209.02637v2 [econ.GN] UPDATED)
+    Learning to Maximize (Expected) Utility
 
-    [http://arxiv.org/abs/2209.02637](http://arxiv.org/abs/2209.02637)
+    [https://arxiv.org/abs/2402.16538](https://arxiv.org/abs/2402.16538)
 
-    本文研究了工会对美国工作场所、管理层和员工政治活动的影响，发现工会化导致政治活动捐款向左转移，不仅在工人中增加对民主党的支持，也在管理层中增加了对民主党的支持，表明两组人之间的政治分化并未增加。
+    该研究探讨了在重复相同决策过程中，参与者是否会更倾向于遵循序数和期望效用理论的预测行为，并发现在最后一组决策中有更多个体表现为序数和期望效用最大化者。
 
     
 
-    工会对政治影响力的最大潜力可能来自于它们与数百万个体在工作场所的直接联系。在那里，它们可以改变工会化工人及其非工会化管理层的意识形态立场。本文分析了美国1980年至2016年期间工会对工作场所、管理层和员工政治活动捐款的影响。为此，我们将企业级工会选举数据与联邦和地方候选人的捐款级别相链接。使用“差异因差异法”设计，并验证回归的不连续性和新颖的工具变量方法，我们发现工会化导致政治活动捐款向左转移。工会化不仅在工人中增加了对民主党的支持而且在管理层中也增加了对民主党的支持，这反映出两组人之间政治分裂的增加。
+    我们研究了在选择实验中，参与者是否会在重复从相同菜单中做出决策且没有接收任何反馈的情况下，学会表现出与序数和期望效用理论预测更加接近的行为。我们设计并实施了一项非强制选择的实验室实验，使用了金钱彩票，并每个菜单重复五次，旨在从多个行为角度测试这一假设。在我们从英国和德国的308名受试者中的数据中，显著更多的个体在他们最后15个相同决策问题中是序数效用和期望效用的最大化者，而不是在第一个15个中。此外，大约四分之一和五分之一的所有受试者，在实验中都以这些模式做决策，几乎一半显示出非平凡的不同。在那些始终理性的个体与满足随机效用理论核心原则的个体之间存在明显的重叠。
 
-    Labor unions' greatest potential for political influence likely arises from their direct connection to millions of individuals at the workplace. There, they may change the ideological positions of both unionizing workers and their non-unionizing management. In this paper, we analyze the workplace-level impact of unionization on workers' and managers' political campaign contributions over the 1980-2016 period in the United States. To do so, we link establishment-level union election data with transaction-level campaign contributions to federal and local candidates. In a difference-in-differences design that we validate with regression discontinuity tests and a novel instrumental variables approach, we find that unionization leads to a leftward shift of campaign contributions. Unionization increases the support for Democrats relative to Republicans not only among workers but also among managers, which speaks against an increase in political cleavages between the two groups. We provide ev
+    arXiv:2402.16538v1 Announce Type: new  Abstract: We study if participants in a choice experiment learn to behave in ways that are closer to the predictions of ordinal and expected utility theory as they make decisions from the same menus repeatedly and without receiving feedback of any kind. We designed and implemented a non-forced-choice lab experiment with money lotteries and five repetitions per menu that aimed to test this hypothesis from many behavioural angles. In our data from 308 subjects in the UK and Germany, significantly more individuals were ordinal- and expected-utility maximizers in their last 15 than in their first 15 identical decision problems. Furthermore, around a quarter and a fifth of all subjects, respectively, decided in those modes throughout the experiment, with nearly half revealing non-trivial indifferences. A considerable overlap was found between those consistently rational individuals and the ones who satisfied core principles of random utility theory. Fi
+    
+[^2]: 保度量幂丁格鲁沉降算法
+
+    The Measure Preserving Martingale Sinkhorn Algorithm. (arXiv:2310.13797v1 [q-fin.CP])
+
+    [http://arxiv.org/abs/2310.13797](http://arxiv.org/abs/2310.13797)
+
+    本文提供了一种保度量幂插值方法，可以通过类似于熵最优输运中使用的Sinkhorn系统来获得测度之间的插值。
+
+    
+
+    我们提供了一种保度量幂插值方法，该方法通过解决类似于熵最优输运中使用的Sinkhorn系统来获得的测度之间的插值。
+
+    We provide a martingale interpolation between measures that can be obtained by solving a Sinkhorn like system analogous to the one used in Entropic Optimal Transport.
     
 

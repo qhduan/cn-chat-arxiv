@@ -2,67 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Leveraging Biomolecule and Natural Language through Multi-Modal Learning: A Survey](https://arxiv.org/abs/2403.01528) | 生物分子与自然语言相结合的多模态学习为全面表示和分析生物分子开辟了新途径。 |
-| [^2] | [Extensible Multi-Granularity Fusion Network for Aspect-based Sentiment Analysis](https://arxiv.org/abs/2402.07787) | 这篇论文提出了一种可扩展的多粒度融合网络（EMGF）用于基于方面的情感分析，通过整合不同的语言和结构特征，包括句法依赖、组成、注意力语义和外部知识图谱等，来提高情感分析的性能和准确性。 |
-| [^3] | [Enhancing Continual Learning with Global Prototypes: Counteracting Negative Representation Drift.](http://arxiv.org/abs/2205.12186) | 该论文提出了一种基于全局原型的持续学习方法，在自监督信息的正则化下学习数据表示，以缓解负面表示漂移问题，并减少持续学习中的灾难性遗忘。 |
-| [^4] | [New-Onset Diabetes Assessment Using Artificial Intelligence-Enhanced Electrocardiography.](http://arxiv.org/abs/2205.02900) | 本研究表明，使用人工智能增强的心电图可以有效地识别新发糖尿病成人患者，相较于传统的ADA风险检测方法，该方法具有更好的准确性和特异性。 |
+| [^1] | [Recurrent networks recognize patterns with low-dimensional oscillations.](http://arxiv.org/abs/2310.07908) | 本研究提出了一种通过相位变化识别模式的循环神经网络机制，并通过验证手工制作的振荡模型证实了这一解释。该研究不仅提供了一种潜在的动力学机制用于模式识别，还暗示了有限状态自动机的神经实现方式，并且对深度学习模型的可解释性进行了贡献。 |
+| [^2] | [Combining Survival Analysis and Machine Learning for Mass Cancer Risk Prediction using EHR data.](http://arxiv.org/abs/2309.15039) | 该论文介绍了一种利用 EHR 数据进行大规模肿瘤风险预测的新方法，其创新之处在于只需利用历史的医疗服务代码和诊断信息来实现最小化的数据需求，通过将存活分析和机器学习相结合，可以在大规模应用中实现对患者癌症风险的个性化评估。 |
+| [^3] | [RPLKG: Robust Prompt Learning with Knowledge Graph.](http://arxiv.org/abs/2304.10805) | 本研究提出了一种基于知识图谱的鲁棒提示学习方法，通过自动设计有意义和可解释的提示集，提高小样本学习的泛化性能。 |
 
 # 详细
 
-[^1]: 利用生物分子和自然语言的多模态学习：一项综述
+[^1]: 循环网络通过低维振荡识别模式
 
-    Leveraging Biomolecule and Natural Language through Multi-Modal Learning: A Survey
+    Recurrent networks recognize patterns with low-dimensional oscillations. (arXiv:2310.07908v1 [q-bio.NC])
 
-    [https://arxiv.org/abs/2403.01528](https://arxiv.org/abs/2403.01528)
+    [http://arxiv.org/abs/2310.07908](http://arxiv.org/abs/2310.07908)
 
-    生物分子与自然语言相结合的多模态学习为全面表示和分析生物分子开辟了新途径。
-
-    
-
-    集成生物分子建模与自然语言（BL）已经成为人工智能、化学和生物学交叉领域中的一个具有前景的跨学科领域。这种方法利用文本数据源中包含的生物分子的丰富多面描述，增强我们对基本理解，并实现生物分子性质预测等计算任务。通过将自然语言中表达的微妙叙述与通过各种分子建模技术描述的生物分子的结构和功能细节融合，打开了全面表征和分析生物分子的新途径。通过将围绕生物分子的上下文语言数据纳入建模中，BL旨在捕捉包含语言传达的符号特性以及数量化结构特征的整体视图。
-
-    arXiv:2403.01528v1 Announce Type: cross  Abstract: The integration of biomolecular modeling with natural language (BL) has emerged as a promising interdisciplinary area at the intersection of artificial intelligence, chemistry and biology. This approach leverages the rich, multifaceted descriptions of biomolecules contained within textual data sources to enhance our fundamental understanding and enable downstream computational tasks such as biomolecule property prediction. The fusion of the nuanced narratives expressed through natural language with the structural and functional specifics of biomolecules described via various molecular modeling techniques opens new avenues for comprehensively representing and analyzing biomolecules. By incorporating the contextual language data that surrounds biomolecules into their modeling, BL aims to capture a holistic view encompassing both the symbolic qualities conveyed through language as well as quantitative structural characteristics. In this r
-    
-[^2]: 可扩展的多粒度融合网络用于基于方面的情感分析
-
-    Extensible Multi-Granularity Fusion Network for Aspect-based Sentiment Analysis
-
-    [https://arxiv.org/abs/2402.07787](https://arxiv.org/abs/2402.07787)
-
-    这篇论文提出了一种可扩展的多粒度融合网络（EMGF）用于基于方面的情感分析，通过整合不同的语言和结构特征，包括句法依赖、组成、注意力语义和外部知识图谱等，来提高情感分析的性能和准确性。
+    本研究提出了一种通过相位变化识别模式的循环神经网络机制，并通过验证手工制作的振荡模型证实了这一解释。该研究不仅提供了一种潜在的动力学机制用于模式识别，还暗示了有限状态自动机的神经实现方式，并且对深度学习模型的可解释性进行了贡献。
 
     
 
-    基于方面的情感分析（ABSA）评估文本中的情感表达以理解情感信息。先前的研究整合了外部知识，如知识图谱，以加强ABSA模型中的语义特征。最近的研究探讨了在依赖和组成树上使用图神经网络（GNN）进行句法分析。随着ABSA的不断发展，越来越多的创新的语言和结构特征被融入其中（例如潜在图），但这也引入了复杂性和混淆。目前，尚不存在一个可扩展的框架，可以将多样性的语言和结构特征集成到ABSA中。本文介绍了可扩展的多粒度融合（EMGF）网络，它整合了来自句法依赖和组成、注意力语义和外部知识图谱的信息。EMGF配备了多锚点三元学习和正交投影，高效地利用了这些特征的综合潜力。
+    本研究提出了一种通过解释在SET卡牌游戏启发下进行训练的循环神经网络(RNN)在简单任务上的动力学机制来识别模式。我们将训练后的RNN解释为通过低维极限环中的相位变化进行模式识别，类似于有限状态自动机(FSA)中的转换。我们进一步通过手工制作一个简单的振荡模型来验证了这一解释，该模型复制了训练后的RNN的动力学特性。我们的发现不仅暗示了一种潜在的动力学机制能够实现模式识别，还暗示了一种有限状态自动机的潜在神经实现。最重要的是，这项工作有助于关于深度学习模型可解释性的讨论。
 
-    Aspect-based Sentiment Analysis (ABSA) evaluates sentiment expressions within a text to comprehend sentiment information. Previous studies integrated external knowledge, such as knowledge graphs, to enhance the semantic features in ABSA models. Recent research has examined the use of Graph Neural Networks (GNNs) on dependency and constituent trees for syntactic analysis. With the ongoing development of ABSA, more innovative linguistic and structural features are being incorporated (e.g. latent graph), but this also introduces complexity and confusion. As of now, a scalable framework for integrating diverse linguistic and structural features into ABSA does not exist. This paper presents the Extensible Multi-Granularity Fusion (EMGF) network, which integrates information from dependency and constituent syntactic, attention semantic , and external knowledge graphs. EMGF, equipped with multi-anchor triplet learning and orthogonal projection, efficiently harnesses the combined potential of 
+    This study proposes a novel dynamical mechanism for pattern recognition discovered by interpreting a recurrent neural network (RNN) trained on a simple task inspired by the SET card game. We interpreted the trained RNN as recognizing patterns via phase shifts in a low-dimensional limit cycle in a manner analogous to transitions in a finite state automaton (FSA). We further validated this interpretation by handcrafting a simple oscillatory model that reproduces the dynamics of the trained RNN. Our findings not only suggest of a potential dynamical mechanism capable of pattern recognition, but also suggest of a potential neural implementation of FSA. Above all, this work contributes to the growing discourse on deep learning model interpretability.
     
-[^3]: 基于全局原型的增强持续学习: 对抗负表示漂移
+[^2]: 结合存活分析和机器学习利用电子健康记录数据进行肿瘤风险预测
 
-    Enhancing Continual Learning with Global Prototypes: Counteracting Negative Representation Drift. (arXiv:2205.12186v2 [cs.CL] UPDATED)
+    Combining Survival Analysis and Machine Learning for Mass Cancer Risk Prediction using EHR data. (arXiv:2309.15039v1 [cs.LG])
 
-    [http://arxiv.org/abs/2205.12186](http://arxiv.org/abs/2205.12186)
+    [http://arxiv.org/abs/2309.15039](http://arxiv.org/abs/2309.15039)
 
-    该论文提出了一种基于全局原型的持续学习方法，在自监督信息的正则化下学习数据表示，以缓解负面表示漂移问题，并减少持续学习中的灾难性遗忘。
-
-    
-
-    持续学习旨在学习一系列任务，其中数据分布从一个任务转移到另一个任务。在训练新任务数据时，旧任务的数据表示可能会漂移。一些负面的表示漂移可能会导致灾难性遗忘，因为会导致从本地学习的类别原型和数据表示在任务之间的相关性较差。为了缓解这种表示漂移，我们提出一种方法，通过全局原型指导学习，用自监督信息的正则化来学习数据表示。具体来说，对于NLP任务，我们将每个任务以屏蔽语言建模的方式进行公式化，并通过预训练的语言模型进行相邻注意机制学习任务。实验结果表明，我们提出的方法可以学习出具有较少表示漂移的相当一致的表示，并在不重新采样过去任务的数据的情况下显著减少持续学习中的灾难性遗忘。
-
-    Continual learning (CL) aims to learn a sequence of tasks over time, with data distributions shifting from one task to another. When training on new task data, data representations from old tasks may drift. Some negative representation drift can result in catastrophic forgetting, by causing the locally learned class prototypes and data representations to correlate poorly across tasks. To mitigate such representation drift, we propose a method that finds global prototypes to guide the learning, and learns data representations with the regularization of the self-supervised information. Specifically, for NLP tasks, we formulate each task in a masked language modeling style, and learn the task via a neighbor attention mechanism over a pre-trained language model. Experimental results show that our proposed method can learn fairly consistent representations with less representation drift, and significantly reduce catastrophic forgetting in CL without resampling data from past tasks.
-    
-[^4]: 使用人工智能增强的心电图进行新发糖尿病评估
-
-    New-Onset Diabetes Assessment Using Artificial Intelligence-Enhanced Electrocardiography. (arXiv:2205.02900v2 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2205.02900](http://arxiv.org/abs/2205.02900)
-
-    本研究表明，使用人工智能增强的心电图可以有效地识别新发糖尿病成人患者，相较于传统的ADA风险检测方法，该方法具有更好的准确性和特异性。
+    该论文介绍了一种利用 EHR 数据进行大规模肿瘤风险预测的新方法，其创新之处在于只需利用历史的医疗服务代码和诊断信息来实现最小化的数据需求，通过将存活分析和机器学习相结合，可以在大规模应用中实现对患者癌症风险的个性化评估。
 
     
 
-    未诊断的糖尿病在患者中占21.4％，由于筛查率的限制，糖尿病可能潜伏无症状而未被检测。本研究旨在通过使用人工智能（AI）增强的心电图（ECG）来确定新发糖尿病的成人患者。 我们训练了一个神经网络，使用12导联心电图和可用的人口统计学数据来估计HbA1c。 我们回顾性地收集了一组包含有配对的ECG和HbA1c数据的病人数据集。结果显示，相较于传统的ADA风险检测，基于ECG的评估效果更好。AI增强的ECG评估的准确性达到81％，灵敏度为80％，特异性为82％。研究结果表明，人工智能增强的ECG可以成为新发糖尿病成人患者的一个有前景的工具，特别是在传统筛查方法有限的人群中。
+    纯粹的医学肿瘤筛查方法通常费用高昂、耗时长，并且仅适用于大规模应用。先进的人工智能（AI）方法在癌症检测方面发挥了巨大作用，但需要特定或深入的医学数据。这些方面影响了癌症筛查方法的大规模实施。因此，基于已有的电子健康记录（EHR）数据对患者进行大规模个性化癌症风险评估应用AI方法是一种颠覆性的改变。本文提出了一种利用EHR数据进行大规模肿瘤风险预测的新方法。与其他方法相比，我们的方法通过最小的数据贪婪策略脱颖而出，仅需要来自EHR的医疗服务代码和诊断历史。我们将问题形式化为二分类问题。该数据集包含了175441名不记名的患者（其中2861名被诊断为癌症）。作为基准，我们实现了一个基于循环神经网络（RNN）的解决方案。我们提出了一种方法，将存活分析和机器学习相结合，
 
-    Undiagnosed diabetes is present in 21.4% of adults with diabetes. Diabetes can remain asymptomatic and undetected due to limitations in screening rates. To address this issue, questionnaires, such as the American Diabetes Association (ADA) Risk test, have been recommended for use by physicians and the public. Based on evidence that blood glucose concentration can affect cardiac electrophysiology, we hypothesized that an artificial intelligence (AI)-enhanced electrocardiogram (ECG) could identify adults with new-onset diabetes. We trained a neural network to estimate HbA1c using a 12-lead ECG and readily available demographics. We retrospectively assembled a dataset comprised of patients with paired ECG and HbA1c data. The population of patients who receive both an ECG and HbA1c may a biased sample of the complete outpatient population, so we adjusted the importance placed on each patient to generate a more representative pseudo-population. We found ECG-based assessment outperforms the 
+    Purely medical cancer screening methods are often costly, time-consuming, and weakly applicable on a large scale. Advanced Artificial Intelligence (AI) methods greatly help cancer detection but require specific or deep medical data. These aspects affect the mass implementation of cancer screening methods. For these reasons, it is a disruptive change for healthcare to apply AI methods for mass personalized assessment of the cancer risk among patients based on the existing Electronic Health Records (EHR) volume.  This paper presents a novel method for mass cancer risk prediction using EHR data. Among other methods, our one stands out by the minimum data greedy policy, requiring only a history of medical service codes and diagnoses from EHR. We formulate the problem as a binary classification. This dataset contains 175 441 de-identified patients (2 861 diagnosed with cancer). As a baseline, we implement a solution based on a recurrent neural network (RNN). We propose a method that combine
+    
+[^3]: RPLKG: 基于知识图谱的鲁棒提示学习
+
+    RPLKG: Robust Prompt Learning with Knowledge Graph. (arXiv:2304.10805v1 [cs.AI])
+
+    [http://arxiv.org/abs/2304.10805](http://arxiv.org/abs/2304.10805)
+
+    本研究提出了一种基于知识图谱的鲁棒提示学习方法，通过自动设计有意义和可解释的提示集，提高小样本学习的泛化性能。
+
+    
+
+    大规模预训练模型已经被证明是可迁移的，并且对未知数据集具有很好的泛化性能。最近，诸如CLIP之类的多模态预训练模型在各种实验中表现出显着的性能提升。然而，当标记数据集有限时，新数据集或领域的泛化仍然具有挑战性。为了提高小样本学习的泛化性能，已经进行了各种努力，如提示学习和适配器。然而，当前的少样本自适应方法不具备可解释性，并且需要高计算成本来进行自适应。在本研究中，我们提出了一种新的方法，即基于知识图谱的鲁棒提示学习（RPLKG）。基于知识图谱，我们自动设计出各种可解释和有意义的提示集。我们的模型在大型预训练模型的一次正向传递后获得提示集的缓存嵌入。之后，模型使用GumbelSoftmax优化提示选择过程。
+
+    Large-scale pre-trained models have been known that they are transferable, and they generalize well on the unseen dataset. Recently, multimodal pre-trained models such as CLIP show significant performance improvement in diverse experiments. However, when the labeled dataset is limited, the generalization of a new dataset or domain is still challenging. To improve the generalization performance on few-shot learning, there have been diverse efforts, such as prompt learning and adapter. However, the current few-shot adaptation methods are not interpretable, and they require a high computation cost for adaptation. In this study, we propose a new method, robust prompt learning with knowledge graph (RPLKG). Based on the knowledge graph, we automatically design diverse interpretable and meaningful prompt sets. Our model obtains cached embeddings of prompt sets after one forwarding from a large pre-trained model. After that, model optimizes the prompt selection processes with GumbelSoftmax. In
     
 
