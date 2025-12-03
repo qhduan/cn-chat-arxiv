@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [DistilWhisper: Efficient Distillation of Multi-task Speech Models via Language-Specific Experts.](http://arxiv.org/abs/2311.01070) | 本文提出了DistilWhisper方法，通过使用语言特定专家进行轻量级模块化ASR微调和知识蒸馏，成功弥合了多任务语音模型在少数语言上的性能差距，同时保留了多任务和多语言能力的优势。 |
+| [^1] | [Latent Attention for Linear Time Transformers](https://arxiv.org/abs/2402.17512) | 提出了一种基于潜在向量定义注意力的方法，将标准transformer中的注意力机制的时间复杂度从二次方降低到与时间线性相关，表现与标准注意力媲美，但允许上下文窗口扩展到远远超出标准的范围。 |
 
 # 详细
 
-[^1]: DistilWhisper：通过语言特定专家高效压缩多任务语音模型
+[^1]: Latent Attention for Linear Time Transformers
 
-    DistilWhisper: Efficient Distillation of Multi-task Speech Models via Language-Specific Experts. (arXiv:2311.01070v1 [cs.CL])
+    Latent Attention for Linear Time Transformers
 
-    [http://arxiv.org/abs/2311.01070](http://arxiv.org/abs/2311.01070)
+    [https://arxiv.org/abs/2402.17512](https://arxiv.org/abs/2402.17512)
 
-    本文提出了DistilWhisper方法，通过使用语言特定专家进行轻量级模块化ASR微调和知识蒸馏，成功弥合了多任务语音模型在少数语言上的性能差距，同时保留了多任务和多语言能力的优势。
+    提出了一种基于潜在向量定义注意力的方法，将标准transformer中的注意力机制的时间复杂度从二次方降低到与时间线性相关，表现与标准注意力媲美，但允许上下文窗口扩展到远远超出标准的范围。
 
     
 
-    Whisper是一个多任务和多语言的语音模型，涵盖99种语言。它在其涵盖的部分语言中获得了令人称赞的自动语音识别（ASR）结果，但在一些数量可观的少数语言中，该模型仍然表现不佳，尤其在较小的模型版本中表现更为严重。在这项工作中，我们提出了DistilWhisper，一种能够在ASR方面弥合这些语言的性能差距，同时保留多任务和多语言能力优势的方法。我们的方法包括两个关键策略：使用语言特定专家对whisper-small进行轻量级模块化ASR微调，并从whisper-large-v2进行知识蒸馏。这种双重方法使我们能够在保持多任务和多语言预训练的鲁棒性的同时有效提升ASR性能。结果表明，我们的方法比标准微调或LoRA适配器更有效，在目标语言中提升了性能。
+    标准transformer中的注意力机制的时间复杂度随着序列长度的增加呈二次方增长。我们引入一种通过定义潜在向量的注意力来将其降低到与时间线性相关的方法。该方法可以轻松作为标准注意力机制的替代品。我们的“Latte Transformer”模型可用于双向和单向任务，因果版本允许一种在推理语言生成任务中内存和时间高效的递归实现。标准transformer的下一个标记预测随着序列长度线性增长，而Latte Transformer计算下一个标记所需的时间是恒定的。我们的方法的实证表现可与标准注意力媲美，但允许将上下文窗口扩展到远远超出标准注意力实际可行的范围。
 
-    Whisper is a multitask and multilingual speech model covering 99 languages. It yields commendable automatic speech recognition (ASR) results in a subset of its covered languages, but the model still under-performs on a non-negligible number of under-represented languages, a problem exacerbated in smaller model versions. In this work, we propose DistilWhisper, an approach able to bridge the performance gap in ASR for these languages while retaining the advantages of multitask and multilingual capabilities. Our approach involves two key strategies: lightweight modular ASR fine-tuning of whisper-small using language-specific experts, and knowledge distillation from whisper-large-v2. This dual approach allows us to effectively boost ASR performance while keeping the robustness inherited from the multitask and multilingual pre-training. Results demonstrate that our approach is more effective than standard fine-tuning or LoRA adapters, boosting performance in the targeted languages for both 
+    arXiv:2402.17512v1 Announce Type: new  Abstract: The time complexity of the standard attention mechanism in a transformer scales quadratically with the length of the sequence. We introduce a method to reduce this to linear scaling with time, based on defining attention via latent vectors. The method is readily usable as a drop-in replacement for the standard attention mechanism. Our "Latte Transformer" model can be implemented for both bidirectional and unidirectional tasks, with the causal version allowing a recurrent implementation which is memory and time-efficient during inference of language generation tasks. Whilst next token prediction scales linearly with the sequence length for a standard transformer, a Latte Transformer requires constant time to compute the next token. The empirical performance of our method is comparable to standard attention, yet allows scaling to context windows much larger than practical in standard attention.
     
 
