@@ -2,82 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [ContourDiff: Unpaired Image Translation with Contour-Guided Diffusion Models](https://arxiv.org/abs/2403.10786) | ContourDiff是一种新颖的框架，利用图像的领域不变解剖轮廓表示，旨在帮助准确翻译医学图像并保持其解剖准确性。 |
-| [^2] | [PERP: Rethinking the Prune-Retrain Paradigm in the Era of LLMs](https://arxiv.org/abs/2312.15230) | 本研究中，通过仅更新少部分高度表达力的参数，我们挑战了全参数重新训练的做法，在修剪后恢复或甚至提升了性能。PERP方法显著减少了计算量和存储需求。 |
-| [^3] | [Towards Inferring Users' Impressions of Robot Performance in Navigation Scenarios.](http://arxiv.org/abs/2310.11590) | 本研究拟通过非语言行为提示和机器学习技术预测人们对机器人行为印象，并提供了一个数据集和分析结果，发现在导航场景中，空间特征是最关键的信息。 |
-| [^4] | [Combining Survival Analysis and Machine Learning for Mass Cancer Risk Prediction using EHR data.](http://arxiv.org/abs/2309.15039) | 该论文介绍了一种利用 EHR 数据进行大规模肿瘤风险预测的新方法，其创新之处在于只需利用历史的医疗服务代码和诊断信息来实现最小化的数据需求，通过将存活分析和机器学习相结合，可以在大规模应用中实现对患者癌症风险的个性化评估。 |
-| [^5] | [Data Augmentation in the Underparameterized and Overparameterized Regimes.](http://arxiv.org/abs/2202.09134) | 这项研究提供了数据增强如何影响估计的方差和极限分布的确切量化结果，发现数据增强可能会增加估计的不确定性，并且其效果取决于多个因素。同时，该研究还通过随机转换的高维随机向量的函数的极限定理进行了证明。 |
+| [^1] | [Are you a robot? Detecting Autonomous Vehicles from Behavior Analysis](https://arxiv.org/abs/2403.09571) | 提出了一个框架，通过监视车辆的行为和状态信息来自动识别自动驾驶车辆，无需车辆主动通知。 |
+| [^2] | [Variational Inference of Parameters in Opinion Dynamics Models](https://arxiv.org/abs/2403.05358) | 通过将估计问题转化为可直接解决的优化任务，本研究提出了一种使用变分推断来估计意见动态ABM参数的方法。 |
+| [^3] | [Tackling Missing Values in Probabilistic Wind Power Forecasting: A Generative Approach](https://arxiv.org/abs/2403.03631) | 本文提出了一种新的概率风力发电预测方法，通过生成模型估计特征和目标的联合分布，同时预测所有未知值，避免了预处理环节，在连续排名概率得分方面比传统方法表现更优。 |
+| [^4] | [From Large to Small Datasets: Size Generalization for Clustering Algorithm Selection](https://arxiv.org/abs/2402.14332) | 通过引入尺寸泛化概念，研究了在半监督设置下的聚类算法选择问题，提出了能够在小实例上保证准确度最高的算法也将在原始大实例上拥有最高准确度的条件。 |
+| [^5] | [Scheduling and Aggregation Design for Asynchronous Federated Learning over Wireless Networks.](http://arxiv.org/abs/2212.07356) | 本文提出了一种异步联邦学习的调度策略和聚合加权设计，通过采用基于信道感知数据重要性的调度策略和“年龄感知”的聚合加权设计来解决FL系统中的“拖沓”问题，并通过仿真证实了其有效性。 |
 
 # 详细
 
-[^1]: ContourDiff：带轮廓引导扩散模型的无配对图像翻译
+[^1]: 你是机器人吗？从行为分析中检测自动驾驶车辆
 
-    ContourDiff: Unpaired Image Translation with Contour-Guided Diffusion Models
+    Are you a robot? Detecting Autonomous Vehicles from Behavior Analysis
 
-    [https://arxiv.org/abs/2403.10786](https://arxiv.org/abs/2403.10786)
+    [https://arxiv.org/abs/2403.09571](https://arxiv.org/abs/2403.09571)
 
-    ContourDiff是一种新颖的框架，利用图像的领域不变解剖轮廓表示，旨在帮助准确翻译医学图像并保持其解剖准确性。
-
-    
-
-    准确地在不同模态之间翻译医学图像（例如从CT到MRI）对于许多临床和机器学习应用至关重要。本文提出了一种名为ContourDiff的新框架，该框架利用图像的领域不变解剖轮廓表示。这些表示易于从图像中提取，但对其解剖内容形成精确的空间约束。我们引入一种扩散模型，将来自任意输入领域的图像的轮廓表示转换为输出领域中的图像。
-
-    arXiv:2403.10786v1 Announce Type: cross  Abstract: Accurately translating medical images across different modalities (e.g., CT to MRI) has numerous downstream clinical and machine learning applications. While several methods have been proposed to achieve this, they often prioritize perceptual quality with respect to output domain features over preserving anatomical fidelity. However, maintaining anatomy during translation is essential for many tasks, e.g., when leveraging masks from the input domain to develop a segmentation model with images translated to the output domain. To address these challenges, we propose ContourDiff, a novel framework that leverages domain-invariant anatomical contour representations of images. These representations are simple to extract from images, yet form precise spatial constraints on their anatomical content. We introduce a diffusion model that converts contour representations of images from arbitrary input domains into images in the output domain of in
-    
-[^2]: PERP: 在LLMs时代重新思考修剪-重新训练范式
-
-    PERP: Rethinking the Prune-Retrain Paradigm in the Era of LLMs
-
-    [https://arxiv.org/abs/2312.15230](https://arxiv.org/abs/2312.15230)
-
-    本研究中，通过仅更新少部分高度表达力的参数，我们挑战了全参数重新训练的做法，在修剪后恢复或甚至提升了性能。PERP方法显著减少了计算量和存储需求。
+    提出了一个框架，通过监视车辆的行为和状态信息来自动识别自动驾驶车辆，无需车辆主动通知。
 
     
 
-    神经网络可以通过修剪实现高效压缩，显著减少存储和计算需求同时保持预测性能。像迭代幅值修剪（IMP，Han等，2015）这样的简单而有效的方法可以去除不重要的参数，并需要昂贵的重新训练过程以在修剪后恢复性能。然而，随着大型语言模型（LLMs）的兴起，由于内存和计算限制，完全重新训练变得不可行。在本研究中，我们挑战了重新训练所有参数的做法，通过证明只更新少部分高度表达力的参数通常足以恢复甚至提高性能。令人惊讶的是，仅重新训练GPT-结构的0.27%-0.35%的参数即可在不同稀疏水平上实现与一次性IMP相当的性能。我们的方法，即修剪后参数高效重新训练（PERP），大大减少了计算量。
+    自动驾驶技术的巨大热潮急切地呼唤新兴和创新技术，以支持先进的移动性使用案例。随着汽车制造商不断开发SAE 3级及以上系统来提高乘客的安全性和舒适性，交通管理机构需要建立新程序来管理从人工驾驶到完全自动驾驶车辆的过渡，并提供一个反馈机制来微调设想的自动驾驶系统。因此，自动对自动驾驶车辆进行自动分析并将其与人工驾驶车辆区分开是必要的。本文提出了一个完整的框架，通过监视使用摄像头图像和状态信息的活动车辆，以确定车辆是否为自动驾驶，而无需车辆主动通知。基本上，它依赖车辆之间的合作，这些车辆共享在道路上获取的数据，供机器学习使用。
 
-    Neural Networks can be efficiently compressed through pruning, significantly reducing storage and computational demands while maintaining predictive performance. Simple yet effective methods like Iterative Magnitude Pruning (IMP, Han et al., 2015) remove less important parameters and require a costly retraining procedure to recover performance after pruning. However, with the rise of Large Language Models (LLMs), full retraining has become infeasible due to memory and compute constraints. In this study, we challenge the practice of retraining all parameters by demonstrating that updating only a small subset of highly expressive parameters is often sufficient to recover or even improve performance compared to full retraining. Surprisingly, retraining as little as 0.27%-0.35% of the parameters of GPT-architectures achieves comparable performance to One Shot IMP across various sparsity levels. Our approach, Parameter-Efficient Retraining after Pruning (PERP), drastically reduces compute a
+    arXiv:2403.09571v1 Announce Type: cross  Abstract: The tremendous hype around autonomous driving is eagerly calling for emerging and novel technologies to support advanced mobility use cases. As car manufactures keep developing SAE level 3+ systems to improve the safety and comfort of passengers, traffic authorities need to establish new procedures to manage the transition from human-driven to fully-autonomous vehicles while providing a feedback-loop mechanism to fine-tune envisioned autonomous systems. Thus, a way to automatically profile autonomous vehicles and differentiate those from human-driven ones is a must. In this paper, we present a fully-fledged framework that monitors active vehicles using camera images and state information in order to determine whether vehicles are autonomous, without requiring any active notification from the vehicles themselves. Essentially, it builds on the cooperation among vehicles, which share their data acquired on the road feeding a machine learn
     
-[^3]: 探索在导航场景下推断用户对机器人性能的印象
+[^2]: 意见动态模型中参数的变分推断
 
-    Towards Inferring Users' Impressions of Robot Performance in Navigation Scenarios. (arXiv:2310.11590v1 [cs.RO])
+    Variational Inference of Parameters in Opinion Dynamics Models
 
-    [http://arxiv.org/abs/2310.11590](http://arxiv.org/abs/2310.11590)
+    [https://arxiv.org/abs/2403.05358](https://arxiv.org/abs/2403.05358)
 
-    本研究拟通过非语言行为提示和机器学习技术预测人们对机器人行为印象，并提供了一个数据集和分析结果，发现在导航场景中，空间特征是最关键的信息。
-
-    
-
-    人们对机器人性能的印象通常通过调查问卷来衡量。作为一种更可扩展且成本效益更高的替代方案，我们研究了使用非语言行为提示和机器学习技术预测人们对机器人行为印象的可能性。为此，我们首先提供了SEAN TOGETHER数据集，该数据集包括在虚拟现实模拟中人与移动机器人相互作用的观察结果，以及用户对机器人性能的5点量表评价。其次，我们对人类和监督学习技术如何基于不同的观察类型（例如面部、空间和地图特征）来预测感知到的机器人性能进行了分析。我们的结果表明，仅仅面部表情就能提供关于人们对机器人性能印象的有用信息；但在我们测试的导航场景中，空间特征是这种推断任务最关键的信息。
-
-    Human impressions of robot performance are often measured through surveys. As a more scalable and cost-effective alternative, we study the possibility of predicting people's impressions of robot behavior using non-verbal behavioral cues and machine learning techniques. To this end, we first contribute the SEAN TOGETHER Dataset consisting of observations of an interaction between a person and a mobile robot in a Virtual Reality simulation, together with impressions of robot performance provided by users on a 5-point scale. Second, we contribute analyses of how well humans and supervised learning techniques can predict perceived robot performance based on different combinations of observation types (e.g., facial, spatial, and map features). Our results show that facial expressions alone provide useful information about human impressions of robot performance; but in the navigation scenarios we tested, spatial features are the most critical piece of information for this inference task. Als
-    
-[^4]: 结合存活分析和机器学习利用电子健康记录数据进行肿瘤风险预测
-
-    Combining Survival Analysis and Machine Learning for Mass Cancer Risk Prediction using EHR data. (arXiv:2309.15039v1 [cs.LG])
-
-    [http://arxiv.org/abs/2309.15039](http://arxiv.org/abs/2309.15039)
-
-    该论文介绍了一种利用 EHR 数据进行大规模肿瘤风险预测的新方法，其创新之处在于只需利用历史的医疗服务代码和诊断信息来实现最小化的数据需求，通过将存活分析和机器学习相结合，可以在大规模应用中实现对患者癌症风险的个性化评估。
+    通过将估计问题转化为可直接解决的优化任务，本研究提出了一种使用变分推断来估计意见动态ABM参数的方法。
 
     
 
-    纯粹的医学肿瘤筛查方法通常费用高昂、耗时长，并且仅适用于大规模应用。先进的人工智能（AI）方法在癌症检测方面发挥了巨大作用，但需要特定或深入的医学数据。这些方面影响了癌症筛查方法的大规模实施。因此，基于已有的电子健康记录（EHR）数据对患者进行大规模个性化癌症风险评估应用AI方法是一种颠覆性的改变。本文提出了一种利用EHR数据进行大规模肿瘤风险预测的新方法。与其他方法相比，我们的方法通过最小的数据贪婪策略脱颖而出，仅需要来自EHR的医疗服务代码和诊断历史。我们将问题形式化为二分类问题。该数据集包含了175441名不记名的患者（其中2861名被诊断为癌症）。作为基准，我们实现了一个基于循环神经网络（RNN）的解决方案。我们提出了一种方法，将存活分析和机器学习相结合，
+    尽管基于代理人的模型（ABMs）在研究社会现象中被频繁使用，但参数估计仍然是一个挑战，通常依赖于昂贵的基于模拟的启发式方法。本研究利用变分推断来估计意见动态ABM的参数，通过将估计问题转化为可直接解决的优化任务。
 
-    Purely medical cancer screening methods are often costly, time-consuming, and weakly applicable on a large scale. Advanced Artificial Intelligence (AI) methods greatly help cancer detection but require specific or deep medical data. These aspects affect the mass implementation of cancer screening methods. For these reasons, it is a disruptive change for healthcare to apply AI methods for mass personalized assessment of the cancer risk among patients based on the existing Electronic Health Records (EHR) volume.  This paper presents a novel method for mass cancer risk prediction using EHR data. Among other methods, our one stands out by the minimum data greedy policy, requiring only a history of medical service codes and diagnoses from EHR. We formulate the problem as a binary classification. This dataset contains 175 441 de-identified patients (2 861 diagnosed with cancer). As a baseline, we implement a solution based on a recurrent neural network (RNN). We propose a method that combine
+    arXiv:2403.05358v1 Announce Type: cross  Abstract: Despite the frequent use of agent-based models (ABMs) for studying social phenomena, parameter estimation remains a challenge, often relying on costly simulation-based heuristics. This work uses variational inference to estimate the parameters of an opinion dynamics ABM, by transforming the estimation problem into an optimization task that can be solved directly.   Our proposal relies on probabilistic generative ABMs (PGABMs): we start by synthesizing a probabilistic generative model from the ABM rules. Then, we transform the inference process into an optimization problem suitable for automatic differentiation. In particular, we use the Gumbel-Softmax reparameterization for categorical agent attributes and stochastic variational inference for parameter estimation. Furthermore, we explore the trade-offs of using variational distributions with different complexity: normal distributions and normalizing flows.   We validate our method on a
     
-[^5]: 在欠参数化和过参数化的模式中的数据增强
+[^3]: 处理概率风力发电预测中的缺失值：一种生成方法
 
-    Data Augmentation in the Underparameterized and Overparameterized Regimes. (arXiv:2202.09134v3 [cs.LG] UPDATED)
+    Tackling Missing Values in Probabilistic Wind Power Forecasting: A Generative Approach
 
-    [http://arxiv.org/abs/2202.09134](http://arxiv.org/abs/2202.09134)
+    [https://arxiv.org/abs/2403.03631](https://arxiv.org/abs/2403.03631)
 
-    这项研究提供了数据增强如何影响估计的方差和极限分布的确切量化结果，发现数据增强可能会增加估计的不确定性，并且其效果取决于多个因素。同时，该研究还通过随机转换的高维随机向量的函数的极限定理进行了证明。
+    本文提出了一种新的概率风力发电预测方法，通过生成模型估计特征和目标的联合分布，同时预测所有未知值，避免了预处理环节，在连续排名概率得分方面比传统方法表现更优。
 
     
 
-    我们提供了确切量化数据增强如何影响估计的方差和极限分布的结果，并详细分析了几个具体模型。结果证实了机器学习实践中的一些观察，但也得出了意外的发现：数据增强可能会增加而不是减少估计的不确定性，比如经验预测风险。它可以充当正则化器，但在某些高维问题中却无法实现，并且可能会改变经验风险的双重下降峰值。总的来说，分析表明数据增强被赋予的几个属性要么是真的，要么是假的，而是取决于多个因素的组合-特别是数据分布，估计器的属性以及样本大小，增强数量和维数的相互作用。我们的主要理论工具是随机转换的高维随机向量的函数的极限定理。
+    机器学习技术已成功应用于概率风力发电预测。然而，由于传感器故障等原因导致数据集中存在缺失值的问题长期以来被忽视。尽管通常在模型估计和预测之前通过插补缺失值来解决这个问题是很自然的，但我们建议将缺失值和预测目标视为同等重要，并基于观测值同时预测所有未知值。本文通过基于生成模型估计特征和目标的联合分布，提出了一种有效的概率预测方法。这种方法无需预处理，避免引入潜在的错误。与传统的“插补，然后预测”流程相比，该方法在连续排名概率得分方面表现更好。
 
-    We provide results that exactly quantify how data augmentation affects the variance and limiting distribution of estimates, and analyze several specific models in detail. The results confirm some observations made in machine learning practice, but also lead to unexpected findings: Data augmentation may increase rather than decrease the uncertainty of estimates, such as the empirical prediction risk. It can act as a regularizer, but fails to do so in certain high-dimensional problems, and it may shift the double-descent peak of an empirical risk. Overall, the analysis shows that several properties data augmentation has been attributed with are not either true or false, but rather depend on a combination of factors -- notably the data distribution, the properties of the estimator, and the interplay of sample size, number of augmentations, and dimension. Our main theoretical tool is a limit theorem for functions of randomly transformed, high-dimensional random vectors. The proof draws on 
+    arXiv:2403.03631v1 Announce Type: new  Abstract: Machine learning techniques have been successfully used in probabilistic wind power forecasting. However, the issue of missing values within datasets due to sensor failure, for instance, has been overlooked for a long time. Although it is natural to consider addressing this issue by imputing missing values before model estimation and forecasting, we suggest treating missing values and forecasting targets indifferently and predicting all unknown values simultaneously based on observations. In this paper, we offer an efficient probabilistic forecasting approach by estimating the joint distribution of features and targets based on a generative model. It is free of preprocessing, and thus avoids introducing potential errors. Compared with the traditional "impute, then predict" pipeline, the proposed approach achieves better performance in terms of continuous ranked probability score.
+    
+[^4]: 从大规模到小规模数据集：用于聚类算法选择的尺寸泛化
+
+    From Large to Small Datasets: Size Generalization for Clustering Algorithm Selection
+
+    [https://arxiv.org/abs/2402.14332](https://arxiv.org/abs/2402.14332)
+
+    通过引入尺寸泛化概念，研究了在半监督设置下的聚类算法选择问题，提出了能够在小实例上保证准确度最高的算法也将在原始大实例上拥有最高准确度的条件。
+
+    
+
+    在聚类算法选择中，我们会得到一个大规模数据集，并要有效地选择要使用的聚类算法。我们在半监督设置下研究了这个问题，其中有一个未知的基准聚类，我们只能通过昂贵的oracle查询来访问。理想情况下，聚类算法的输出将与基本事实结构上接近。我们通过引入一种聚类算法准确性的尺寸泛化概念来解决这个问题。我们确定在哪些条件下我们可以（1）对大规模聚类实例进行子采样，（2）在较小实例上评估一组候选算法，（3）保证在小实例上准确度最高的算法将在原始大实例上拥有最高的准确度。我们为三种经典聚类算法提供了理论尺寸泛化保证：单链接、k-means++和Gonzalez的k中心启发式（一种平滑的变种）。
+
+    arXiv:2402.14332v1 Announce Type: new  Abstract: In clustering algorithm selection, we are given a massive dataset and must efficiently select which clustering algorithm to use. We study this problem in a semi-supervised setting, with an unknown ground-truth clustering that we can only access through expensive oracle queries. Ideally, the clustering algorithm's output will be structurally close to the ground truth. We approach this problem by introducing a notion of size generalization for clustering algorithm accuracy. We identify conditions under which we can (1) subsample the massive clustering instance, (2) evaluate a set of candidate algorithms on the smaller instance, and (3) guarantee that the algorithm with the best accuracy on the small instance will have the best accuracy on the original big instance. We provide theoretical size generalization guarantees for three classic clustering algorithms: single-linkage, k-means++, and (a smoothed variant of) Gonzalez's k-centers heuris
+    
+[^5]: 异步联邦学习在无线网络中的调度和聚合设计
+
+    Scheduling and Aggregation Design for Asynchronous Federated Learning over Wireless Networks. (arXiv:2212.07356v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2212.07356](http://arxiv.org/abs/2212.07356)
+
+    本文提出了一种异步联邦学习的调度策略和聚合加权设计，通过采用基于信道感知数据重要性的调度策略和“年龄感知”的聚合加权设计来解决FL系统中的“拖沓”问题，并通过仿真证实了其有效性。
+
+    
+
+    联邦学习（FL）是一种协作的机器学习（ML）框架，它结合了设备上的训练和基于服务器的聚合来在分布式代理间训练通用的ML模型。本文中，我们提出了一种异步FL设计，采用周期性的聚合来解决FL系统中的“拖沓”问题。考虑到有限的无线通信资源，我们研究了不同调度策略和聚合设计对收敛性能的影响。基于降低聚合模型更新的偏差和方差的重要性，我们提出了一个调度策略，它同时考虑了用户设备的信道质量和训练数据表示。通过仿真验证了我们的基于信道感知数据重要性的调度策略相对于同步联邦学习提出的现有最新方法的有效性。此外，我们还展示了一种“年龄感知”的聚合加权设计可以显著提高学习性能。
+
+    Federated Learning (FL) is a collaborative machine learning (ML) framework that combines on-device training and server-based aggregation to train a common ML model among distributed agents. In this work, we propose an asynchronous FL design with periodic aggregation to tackle the straggler issue in FL systems. Considering limited wireless communication resources, we investigate the effect of different scheduling policies and aggregation designs on the convergence performance. Driven by the importance of reducing the bias and variance of the aggregated model updates, we propose a scheduling policy that jointly considers the channel quality and training data representation of user devices. The effectiveness of our channel-aware data-importance-based scheduling policy, compared with state-of-the-art methods proposed for synchronous FL, is validated through simulations. Moreover, we show that an ``age-aware'' aggregation weighting design can significantly improve the learning performance i
     
 
