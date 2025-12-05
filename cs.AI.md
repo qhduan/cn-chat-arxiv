@@ -2,67 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Brain-grounding of semantic vectors improves neural decoding of visual stimuli](https://arxiv.org/abs/2403.15176) | 提出了一种表示学习框架，称为语义向量的脑接地，通过微调预训练的特征向量，使其更好地与人类大脑中视觉刺激的神经表示对齐。 |
-| [^2] | [PERP: Rethinking the Prune-Retrain Paradigm in the Era of LLMs](https://arxiv.org/abs/2312.15230) | 本研究中，通过仅更新少部分高度表达力的参数，我们挑战了全参数重新训练的做法，在修剪后恢复或甚至提升了性能。PERP方法显著减少了计算量和存储需求。 |
-| [^3] | [Computational Copyright: Towards A Royalty Model for Music Generative AI](https://arxiv.org/abs/2312.06646) | 本文旨在解决音乐生成AI领域中的版权问题，提出了一种用于AI音乐生成平台的版税模型，并探讨了对AI生成音乐进行版权归因的算法解决方案。 |
-| [^4] | [Combining Survival Analysis and Machine Learning for Mass Cancer Risk Prediction using EHR data.](http://arxiv.org/abs/2309.15039) | 该论文介绍了一种利用 EHR 数据进行大规模肿瘤风险预测的新方法，其创新之处在于只需利用历史的医疗服务代码和诊断信息来实现最小化的数据需求，通过将存活分析和机器学习相结合，可以在大规模应用中实现对患者癌症风险的个性化评估。 |
+| [^1] | [Purpose for Open-Ended Learning Robots: A Computational Taxonomy, Definition, and Operationalisation](https://arxiv.org/abs/2403.02514) | 提出了设定机器人目的的概念，以帮助机器人更加关注获取与目的相关的知识。 |
+| [^2] | [The Delusional Hedge Algorithm as a Model of Human Learning from Diverse Opinions](https://arxiv.org/abs/2402.13927) | 通过扩展妄想对冲算法，本研究提出了一种模型，能够帮助人们从多元信息源中学习并判断哪些观点值得信任。 |
+| [^3] | [Towards an end-to-end artificial intelligence driven global weather forecasting system](https://arxiv.org/abs/2312.12462) | 提出了一种端到端基于人工智能的全球天气预报系统，通过将AI技术应用于数据同化和天气预报模型，实现了从数据处理到预测全过程的自动化。 |
 
 # 详细
 
-[^1]: 语义向量的脑接地改善了神经解码视觉刺激
+[^1]: 为开放式学习机器人设定目的：一个计算分类、定义和操作化
 
-    Brain-grounding of semantic vectors improves neural decoding of visual stimuli
+    Purpose for Open-Ended Learning Robots: A Computational Taxonomy, Definition, and Operationalisation
 
-    [https://arxiv.org/abs/2403.15176](https://arxiv.org/abs/2403.15176)
+    [https://arxiv.org/abs/2403.02514](https://arxiv.org/abs/2403.02514)
 
-    提出了一种表示学习框架，称为语义向量的脑接地，通过微调预训练的特征向量，使其更好地与人类大脑中视觉刺激的神经表示对齐。
-
-    
-
-    发展准确全面的算法来解码大脑内容是神经科学和脑机接口领域的一个长期目标。之前的研究已经证明了通过训练机器学习模型将大脑活动模式映射到一个语义向量表示的神经解码的可行性。为了解决这个问题，我们提出了一个表示学习框架，称为语义向量的脑接地，它对预训练的特征向量进行微调，以更好地与人类大脑中视觉刺激的神经表示对齐。
-
-    arXiv:2403.15176v1 Announce Type: cross  Abstract: Developing algorithms for accurate and comprehensive neural decoding of mental contents is one of the long-cherished goals in the field of neuroscience and brain-machine interfaces. Previous studies have demonstrated the feasibility of neural decoding by training machine learning models to map brain activity patterns into a semantic vector representation of stimuli. These vectors, hereafter referred as pretrained feature vectors, are usually derived from semantic spaces based solely on image and/or text features and therefore they might have a totally different characteristics than how visual stimuli is represented in the human brain, resulting in limiting the capability of brain decoders to learn this mapping. To address this issue, we propose a representation learning framework, termed brain-grounding of semantic vectors, which fine-tunes pretrained feature vectors to better align with the neural representation of visual stimuli in t
-    
-[^2]: PERP: 在LLMs时代重新思考修剪-重新训练范式
-
-    PERP: Rethinking the Prune-Retrain Paradigm in the Era of LLMs
-
-    [https://arxiv.org/abs/2312.15230](https://arxiv.org/abs/2312.15230)
-
-    本研究中，通过仅更新少部分高度表达力的参数，我们挑战了全参数重新训练的做法，在修剪后恢复或甚至提升了性能。PERP方法显著减少了计算量和存储需求。
+    提出了设定机器人目的的概念，以帮助机器人更加关注获取与目的相关的知识。
 
     
 
-    神经网络可以通过修剪实现高效压缩，显著减少存储和计算需求同时保持预测性能。像迭代幅值修剪（IMP，Han等，2015）这样的简单而有效的方法可以去除不重要的参数，并需要昂贵的重新训练过程以在修剪后恢复性能。然而，随着大型语言模型（LLMs）的兴起，由于内存和计算限制，完全重新训练变得不可行。在本研究中，我们挑战了重新训练所有参数的做法，通过证明只更新少部分高度表达力的参数通常足以恢复甚至提高性能。令人惊讶的是，仅重新训练GPT-结构的0.27%-0.35%的参数即可在不同稀疏水平上实现与一次性IMP相当的性能。我们的方法，即修剪后参数高效重新训练（PERP），大大减少了计算量。
+    arXiv:2403.02514v1 公告类型: 跨领域 摘要: 自主开放式学习(OEL)机器人能够通过与环境的直接交互累积获取新技能和知识，例如依靠内在动机和自动生成的目标的指导。OEL机器人对应用具有很高的相关性，因为它们可以使用自主获取的知识来完成对人类用户有关的任务。然而，OEL机器人面临一个重要限制：这可能导致获取的知识对完成用户任务并不那么重要。本文分析了这个问题的一个可能解决方案，它围绕“目的”这一新概念展开。目的表示设计者和/或用户希望机器人从中获得什么。机器人应使用目的的内部表征，这里称为“愿望”，来将其开放式探索集中于获取与其完成目的相关的知识。这项工作有助于发展一个共同
 
-    Neural Networks can be efficiently compressed through pruning, significantly reducing storage and computational demands while maintaining predictive performance. Simple yet effective methods like Iterative Magnitude Pruning (IMP, Han et al., 2015) remove less important parameters and require a costly retraining procedure to recover performance after pruning. However, with the rise of Large Language Models (LLMs), full retraining has become infeasible due to memory and compute constraints. In this study, we challenge the practice of retraining all parameters by demonstrating that updating only a small subset of highly expressive parameters is often sufficient to recover or even improve performance compared to full retraining. Surprisingly, retraining as little as 0.27%-0.35% of the parameters of GPT-architectures achieves comparable performance to One Shot IMP across various sparsity levels. Our approach, Parameter-Efficient Retraining after Pruning (PERP), drastically reduces compute a
+    arXiv:2403.02514v1 Announce Type: cross  Abstract: Autonomous open-ended learning (OEL) robots are able to cumulatively acquire new skills and knowledge through direct interaction with the environment, for example relying on the guidance of intrinsic motivations and self-generated goals. OEL robots have a high relevance for applications as they can use the autonomously acquired knowledge to accomplish tasks relevant for their human users. OEL robots, however, encounter an important limitation: this may lead to the acquisition of knowledge that is not so much relevant to accomplish the users' tasks. This work analyses a possible solution to this problem that pivots on the novel concept of `purpose'. Purposes indicate what the designers and/or users want from the robot. The robot should use internal representations of purposes, called here `desires', to focus its open-ended exploration towards the acquisition of knowledge relevant to accomplish them. This work contributes to develop a co
     
-[^3]: 计算版权: 面向音乐生成AI的版税模型
+[^2]: 以妄想的对冲算法作为人类从多元观点学习的模型
 
-    Computational Copyright: Towards A Royalty Model for Music Generative AI
+    The Delusional Hedge Algorithm as a Model of Human Learning from Diverse Opinions
 
-    [https://arxiv.org/abs/2312.06646](https://arxiv.org/abs/2312.06646)
+    [https://arxiv.org/abs/2402.13927](https://arxiv.org/abs/2402.13927)
 
-    本文旨在解决音乐生成AI领域中的版权问题，提出了一种用于AI音乐生成平台的版税模型，并探讨了对AI生成音乐进行版权归因的算法解决方案。
-
-    
-
-    生成AI的进步引发了版权挑战，在音乐行业尤为突出。本文关注这些挑战的经济方面，强调经济影响在版权领域中构成一个核心问题。黑盒生成AI技术的复杂性不仅表明，而且需要算法解决方案。然而，这样的解决方案在很大程度上缺失，导致监管挑战。我们旨在通过为AI音乐生成平台提出潜在的版税模型来弥补当前方法的差距。我们的方法涉及对Spotify和YouTube等平台现有版税模型的详细分析，并将其调整到AI生成音乐的独特背景中。我们面临的一个重要挑战是将AI生成的音乐归因于训练数据中有影响力的版权内容。为此，我们提出了利用数据归因的算法解决方案。
-
-    The advancement of generative AI has given rise to pressing copyright challenges, particularly in music industry. This paper focuses on the economic aspects of these challenges, emphasizing that the economic impact constitutes a central issue in the copyright arena. The complexity of the black-box generative AI technologies not only suggests but necessitates algorithmic solutions. However, such solutions have been largely missing, leading to regulatory challenges in this landscape. We aim to bridge the gap in current approaches by proposing potential royalty models for revenue sharing on AI music generation platforms. Our methodology involves a detailed analysis of existing royalty models in platforms like Spotify and YouTube, and adapting these to the unique context of AI-generated music. A significant challenge we address is the attribution of AI-generated music to influential copyrighted content in the training data. To this end, we present algorithmic solutions employing data attri
-    
-[^4]: 结合存活分析和机器学习利用电子健康记录数据进行肿瘤风险预测
-
-    Combining Survival Analysis and Machine Learning for Mass Cancer Risk Prediction using EHR data. (arXiv:2309.15039v1 [cs.LG])
-
-    [http://arxiv.org/abs/2309.15039](http://arxiv.org/abs/2309.15039)
-
-    该论文介绍了一种利用 EHR 数据进行大规模肿瘤风险预测的新方法，其创新之处在于只需利用历史的医疗服务代码和诊断信息来实现最小化的数据需求，通过将存活分析和机器学习相结合，可以在大规模应用中实现对患者癌症风险的个性化评估。
+    通过扩展妄想对冲算法，本研究提出了一种模型，能够帮助人们从多元信息源中学习并判断哪些观点值得信任。
 
     
 
-    纯粹的医学肿瘤筛查方法通常费用高昂、耗时长，并且仅适用于大规模应用。先进的人工智能（AI）方法在癌症检测方面发挥了巨大作用，但需要特定或深入的医学数据。这些方面影响了癌症筛查方法的大规模实施。因此，基于已有的电子健康记录（EHR）数据对患者进行大规模个性化癌症风险评估应用AI方法是一种颠覆性的改变。本文提出了一种利用EHR数据进行大规模肿瘤风险预测的新方法。与其他方法相比，我们的方法通过最小的数据贪婪策略脱颖而出，仅需要来自EHR的医疗服务代码和诊断历史。我们将问题形式化为二分类问题。该数据集包含了175441名不记名的患者（其中2861名被诊断为癌症）。作为基准，我们实现了一个基于循环神经网络（RNN）的解决方案。我们提出了一种方法，将存活分析和机器学习相结合，
+    认知学习模型通常假设直接体验事件的特征和真实标签或结果，但大部分日常学习来源于听取他人观点，没有直接接触体验或准确结果。我们通过扩展对冲算法来考虑人们在这种场景下如何学会信任哪些观点：这是一个经典解决方案，用于从不同信息源学习。我们首次引入了一个我们称之为妄想对冲的半监督变体，它能够从监督和无监督经验中学习。通过两个实验，我们检验了人类判断和标准对冲、妄想对冲以及启发式基线模型预测之间的一致性。结果表明，人类有效地结合了标记和未标记信息，与妄想对冲算法一致地学习——这表明人类学习者
 
-    Purely medical cancer screening methods are often costly, time-consuming, and weakly applicable on a large scale. Advanced Artificial Intelligence (AI) methods greatly help cancer detection but require specific or deep medical data. These aspects affect the mass implementation of cancer screening methods. For these reasons, it is a disruptive change for healthcare to apply AI methods for mass personalized assessment of the cancer risk among patients based on the existing Electronic Health Records (EHR) volume.  This paper presents a novel method for mass cancer risk prediction using EHR data. Among other methods, our one stands out by the minimum data greedy policy, requiring only a history of medical service codes and diagnoses from EHR. We formulate the problem as a binary classification. This dataset contains 175 441 de-identified patients (2 861 diagnosed with cancer). As a baseline, we implement a solution based on a recurrent neural network (RNN). We propose a method that combine
+    arXiv:2402.13927v1 Announce Type: new  Abstract: Whereas cognitive models of learning often assume direct experience with both the features of an event and with a true label or outcome, much of everyday learning arises from hearing the opinions of others, without direct access to either the experience or the ground truth outcome. We consider how people can learn which opinions to trust in such scenarios by extending the hedge algorithm: a classic solution for learning from diverse information sources. We first introduce a semi-supervised variant we call the delusional hedge capable of learning from both supervised and unsupervised experiences. In two experiments, we examine the alignment between human judgments and predictions from the standard hedge, the delusional hedge, and a heuristic baseline model. Results indicate that humans effectively incorporate both labeled and unlabeled information in a manner consistent with the delusional hedge algorithm -- suggesting that human learners
+    
+[^3]: 实现端到端人工智能驱动的全球天气预报系统
+
+    Towards an end-to-end artificial intelligence driven global weather forecasting system
+
+    [https://arxiv.org/abs/2312.12462](https://arxiv.org/abs/2312.12462)
+
+    提出了一种端到端基于人工智能的全球天气预报系统，通过将AI技术应用于数据同化和天气预报模型，实现了从数据处理到预测全过程的自动化。
+
+    
+
+    天气预报系统对科学和社会至关重要，在将人工智能（AI）应用于中期天气预报方面取得了重大成就。然而，现有的基于AI的天气预报模型依赖于传统数值天气预报（NWP）系统的分析或再分析产品作为预测的初始条件。初始状态通常由传统数据同化组件生成，这是计算昂贵且耗时。本文提出了一种基于AI的数据同化模型，即Adas，用于全球天气变量。我们将Adas与先进的基于AI的天气预报模型（即FengWu）结合起来，构建了第一个端到端基于AI的全球天气预报系统：FengWu-Adas。我们证明了Adas能够同化稀疏的全球观测数据，产生高质量的分析结果，使系统能够稳定运行。
+
+    arXiv:2312.12462v2 Announce Type: replace-cross  Abstract: The weather forecasting system is important for science and society, and significant achievements have been made in applying artificial intelligence (AI) to medium-range weather forecasting. However, existing AI-based weather forecasting models rely on analysis or reanalysis products from the traditional numerical weather prediction (NWP) systems as initial conditions for making predictions. Initial states are typically generated by traditional data assimilation component, which is computational expensive and time-consuming. Here we present an AI-based data assimilation model, i.e., Adas, for global weather variables. And we combine Adas with the advanced AI-based weather forecasting model (i.e., FengWu) to construct the first end-to-end AI-based global weather forecasting system: FengWu-Adas. We demonstrate that Adas can assimilate sparse global observations to produce high-quality analysis, enabling the system operate stably 
     
 
