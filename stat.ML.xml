@@ -1,1 +1,21 @@
-<rss version="2.0"><channel><title>Chat Arxiv stat.ML</title><link>https://github.com/qhduan/cn-chat-arxiv</link><description>This is arxiv RSS feed for stat.ML</description></channel></rss>
+<rss version="2.0"><channel><title>Chat Arxiv stat.ML</title><link>https://github.com/qhduan/cn-chat-arxiv</link><description>This is arxiv RSS feed for stat.ML</description><item><title>&#25552;&#20986;&#20102;&#19968;&#31181;&#36866;&#24212;&#20219;&#20309;&#21327;&#21464;&#37327;&#20449;&#24687;&#23376;&#38598;&#30340;&#35843;&#25972;&#30340;&#36890;&#29992;&#26694;&#26550;&#65292;&#24182;&#36890;&#36807;&#29702;&#35770;&#32467;&#26524;&#24341;&#20837;&#20102;Debiased Outcome-adapted Propensity Estimator&#65288;DOPE&#65289;&#20197;&#23454;&#29616;&#26377;&#25928;&#35843;&#25972;&#12290;</title><link>https://arxiv.org/abs/2402.12980</link><description>&lt;p&gt;
+&#22797;&#26434;&#21327;&#21464;&#37327;&#30340;&#26377;&#25928;&#35843;&#25972;&#65306;&#21033;&#29992;DOPE&#25552;&#39640;&#25928;&#29575;
+&lt;/p&gt;
+&lt;p&gt;
+Efficient adjustment for complex covariates: Gaining efficiency with DOPE
+&lt;/p&gt;
+&lt;p&gt;
+https://arxiv.org/abs/2402.12980
+&lt;/p&gt;
+&lt;p&gt;
+&#25552;&#20986;&#20102;&#19968;&#31181;&#36866;&#24212;&#20219;&#20309;&#21327;&#21464;&#37327;&#20449;&#24687;&#23376;&#38598;&#30340;&#35843;&#25972;&#30340;&#36890;&#29992;&#26694;&#26550;&#65292;&#24182;&#36890;&#36807;&#29702;&#35770;&#32467;&#26524;&#24341;&#20837;&#20102;Debiased Outcome-adapted Propensity Estimator&#65288;DOPE&#65289;&#20197;&#23454;&#29616;&#26377;&#25928;&#35843;&#25972;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+&#21327;&#21464;&#37327;&#35843;&#25972;&#26159;&#19968;&#31181;&#29992;&#20110;&#20174;&#35266;&#27979;&#25968;&#25454;&#20013;&#20272;&#35745;&#24179;&#22343;&#22788;&#29702;&#25928;&#24212;&#65288;ATE&#65289;&#30340;&#26222;&#36941;&#26041;&#27861;&#12290;&#26368;&#36817;&#30340;&#30740;&#31350;&#32467;&#26524;&#20551;&#35774;&#25968;&#25454;&#29983;&#25104;&#27169;&#22411;&#30340;&#22270;&#32467;&#26500;&#24050;&#30693;&#65292;&#32473;&#20986;&#20102;&#29992;&#20110;&#26368;&#20339;&#35843;&#25972;&#30340;&#22270;&#24418;&#26631;&#20934;&#65292;&#20174;&#32780;&#23454;&#29616;&#20102;ATE&#30340;&#26377;&#25928;&#20272;&#35745;&#12290;&#28982;&#32780;&#65292;&#23545;&#20110;&#39640;&#32500;&#21644;&#22797;&#26434;&#25968;&#25454;&#65292;&#22270;&#24418;&#26041;&#27861;&#20855;&#26377;&#25361;&#25112;&#24615;&#65292;&#24182;&#19988;&#35201;&#25351;&#23450;&#38750;&#27431;&#20960;&#37324;&#24471;&#25968;&#25454;&#65288;&#22914;&#25991;&#26412;&#65289;&#30340;&#26377;&#24847;&#20041;&#22270;&#24418;&#27169;&#22411;&#24182;&#19981;&#31616;&#21333;&#12290;&#25105;&#20204;&#25552;&#20986;&#20102;&#19968;&#20010;&#36890;&#29992;&#26694;&#26550;&#65292;&#21487;&#36866;&#24212;&#30001;&#21327;&#21464;&#37327;&#34920;&#36798;&#30340;&#20219;&#20309;&#20449;&#24687;&#23376;&#38598;&#30340;&#35843;&#25972;&#12290;&#25105;&#20204;&#25512;&#24191;&#20102;&#20808;&#21069;&#30340;&#24037;&#20316;&#65292;&#24182;&#21033;&#29992;&#36825;&#20123;&#32467;&#26524;&#35782;&#21035;&#20102;&#29992;&#20110;&#26377;&#25928;&#35843;&#25972;&#30340;&#26368;&#20339;&#21327;&#21464;&#37327;&#20449;&#24687;&#12290;&#36825;&#20123;&#20449;&#24687;&#22312;&#32473;&#23450;&#22788;&#29702;&#26465;&#20214;&#19979;&#23545;&#32467;&#26524;&#30340;&#39044;&#27979;&#26159;&#26368;&#23567;&#20805;&#20998;&#30340;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+arXiv:2402.12980v1 Announce Type: cross  Abstract: Covariate adjustment is a ubiquitous method used to estimate the average treatment effect (ATE) from observational data. Assuming a known graphical structure of the data generating model, recent results give graphical criteria for optimal adjustment, which enables efficient estimation of the ATE. However, graphical approaches are challenging for high-dimensional and complex data, and it is not straightforward to specify a meaningful graphical model of non-Euclidean data such as texts. We propose an general framework that accommodates adjustment for any subset of information expressed by the covariates. We generalize prior works and leverage these results to identify the optimal covariate information for efficient adjustment. This information is minimally sufficient for prediction of the outcome conditionally on treatment.   Based on our theoretical results, we propose the Debiased Outcome-adapted Propensity Estimator (DOPE) for efficie
+&lt;/p&gt;</description></item></channel></rss>
