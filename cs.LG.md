@@ -2,22 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Exploring Small Language Models with Prompt-Learning Paradigm for Efficient Domain-Specific Text Classification.](http://arxiv.org/abs/2309.14779) | 本研究探索了将小型语言模型（SLMs）与提示学习范式结合应用于领域特定文本分类的潜力，并在零售业的客户和代理人交互中进行了评估。结果显示，在有限的标记数据下，SLM T5-base能够实现约75%的准确率，展现了SLMs与提示学习的潜力。 |
+| [^1] | [CATGNN: Cost-Efficient and Scalable Distributed Training for Graph Neural Networks](https://arxiv.org/abs/2404.02300) | CATGNN是一种成本有效且可扩展的分布式GNN训练系统，通过接受边流作为输入并提出名为SPRING的流式分区算法，实现将GNN训练扩展到数十亿以上规模的图中。 |
+| [^2] | [EL-MLFFs: Ensemble Learning of Machine Leaning Force Fields](https://arxiv.org/abs/2403.17507) | 提出了一种新颖的集成学习框架EL-MLFFs，利用堆叠方法整合来自不同MLFFs的预测，从而提高力预测准确性。 |
+| [^3] | [Hidden Minima in Two-Layer ReLU Networks](https://arxiv.org/abs/2312.16819) | 本文研究了两层ReLU网络中的隐藏极小值现象，并提出方法来研究这些隐藏极小值的独特解析性质。 |
+| [^4] | [Dynamic Gradient Balancing for Enhanced Adversarial Attacks on Multi-Task Models.](http://arxiv.org/abs/2305.12066) | 本文提出了动态梯度平衡攻击（DGBA）框架来攻击多任务模型，并通过实验回答了多任务模型的对抗攻击的安全性、多任务攻击和对抗训练是否增强多任务模型的鲁棒性等安全研究问题。 |
+| [^5] | [Stock Price Prediction Using Temporal Graph Model with Value Chain Data.](http://arxiv.org/abs/2303.09406) | 本论文提出了一种神经网络模型，LSTM-GCN，它能够结合价值链数据中的复杂结构和时间依赖性以预测股票价格。实验表明，该模型可以捕获价值链数据中未反映在价格数据中的信息，有助于交易者优化其交易策略和最大化利润。 |
 
 # 详细
 
-[^1]: 使用提示学习范式探索小型语言模型在高效领域特定文本分类中的应用
+[^1]: CATGNN：图神经网络的成本有效和可扩展的分布式训练
 
-    Exploring Small Language Models with Prompt-Learning Paradigm for Efficient Domain-Specific Text Classification. (arXiv:2309.14779v1 [cs.CL])
+    CATGNN: Cost-Efficient and Scalable Distributed Training for Graph Neural Networks
 
-    [http://arxiv.org/abs/2309.14779](http://arxiv.org/abs/2309.14779)
+    [https://arxiv.org/abs/2404.02300](https://arxiv.org/abs/2404.02300)
 
-    本研究探索了将小型语言模型（SLMs）与提示学习范式结合应用于领域特定文本分类的潜力，并在零售业的客户和代理人交互中进行了评估。结果显示，在有限的标记数据下，SLM T5-base能够实现约75%的准确率，展现了SLMs与提示学习的潜力。
+    CATGNN是一种成本有效且可扩展的分布式GNN训练系统，通过接受边流作为输入并提出名为SPRING的流式分区算法，实现将GNN训练扩展到数十亿以上规模的图中。
 
     
 
-    面对手动标记的高成本，领域特定文本分类面临稀缺的标记数据的挑战。提示学习作为传统微调方法的替代方案，在少样本场景中表现出高效性。此外，虽然大型语言模型（LLMs）已经引起了关注，但小型语言模型（SLMs，小于10亿个参数）在领域特定任务中具有显著的定制性、适应性和成本效益，符合工业约束。本研究探讨了将SLMs与提示学习范式结合应用于领域特定文本分类的潜力，尤其是在零售业的客户和代理人交互中。我们的评估结果显示，在少样本的情况下，当可以进行基于提示的模型微调时，具有220M参数的典型SLM T5-base能够在有限的标记数据上实现约75%的准确率（达到完整数据的15%），显示出SLMs与提示学习的巨大潜力。
+    近年来，图神经网络取得了成功。尽管已经开发了不同的GNN架构和训练系统，但在大规模实际图上进行GNN训练仍然具有挑战性。现有的分布式系统需要将整个图加载到内存中以进行图分区，需要大量内存空间来处理大图，从而阻碍了使用普通工作站在这些大图上进行GNN训练。本文提出CATGNN，一个成本效益高且可扩展的分布式GNN训练系统，专注于在有限计算资源下将GNN训练扩展到数十亿甚至更大规模的图中。在其他功能中，它接受一系列边作为输入，而不是将整个图加载到内存中进行分区。我们还提出了一种名为SPRING的新型流式分区算法，用于分布式GNN训练。我们在16个开放数据集上验证了CATGNN与SPRING的正确性和有效性。
 
-    Domain-specific text classification faces the challenge of scarce labeled data due to the high cost of manual labeling. Prompt-learning, known for its efficiency in few-shot scenarios, is proposed as an alternative to traditional fine-tuning methods. And besides, although large language models (LLMs) have gained prominence, small language models (SLMs, with under 1B parameters) offer significant customizability, adaptability, and cost-effectiveness for domain-specific tasks, given industry constraints. In this study, we investigate the potential of SLMs combined with prompt-learning paradigm for domain-specific text classification, specifically within customer-agent interactions in retail. Our evaluations show that, in few-shot settings when prompt-based model fine-tuning is possible, T5-base, a typical SLM with 220M parameters, achieve approximately 75% accuracy with limited labeled data (up to 15% of full data), which shows great potentials of SLMs with prompt-learning. Based on this
+    arXiv:2404.02300v1 Announce Type: new  Abstract: Graph neural networks have been shown successful in recent years. While different GNN architectures and training systems have been developed, GNN training on large-scale real-world graphs still remains challenging. Existing distributed systems load the entire graph in memory for graph partitioning, requiring a huge memory space to process large graphs and thus hindering GNN training on such large graphs using commodity workstations. In this paper, we propose CATGNN, a cost-efficient and scalable distributed GNN training system which focuses on scaling GNN training to billion-scale or larger graphs under limited computational resources. Among other features, it takes a stream of edges as input, instead of loading the entire graph in memory, for partitioning. We also propose a novel streaming partitioning algorithm named SPRING for distributed GNN training. We verify the correctness and effectiveness of CATGNN with SPRING on 16 open datase
+    
+[^2]: EL-MLFFs：机器学习力场的集成学习
+
+    EL-MLFFs: Ensemble Learning of Machine Leaning Force Fields
+
+    [https://arxiv.org/abs/2403.17507](https://arxiv.org/abs/2403.17507)
+
+    提出了一种新颖的集成学习框架EL-MLFFs，利用堆叠方法整合来自不同MLFFs的预测，从而提高力预测准确性。
+
+    
+
+    机器学习力场（MLFFs）已经成为一种有希望的方法，可以弥合量子力学方法的精确性和经典力场的效率。然而，MLFF模型的丰富性和准确预测原子力的挑战给它们的实际应用带来了重大障碍。在本文中，我们提出了一种新颖的集成学习框架EL-MLFFs，利用堆叠方法整合来自不同MLFFs的预测，增强力预测准确性。通过构建分子结构的图表示并采用图神经网络（GNN）作为元模型，EL-MLFFs有效地捕捉原子间相互作用并改进力的预测。我们在两个不同的数据集上评估了我们的方法：甲烷分子和吸附在Cu（100）表面上的甲醇。结果表明，EL-MLFFs相对于单个MLFF显著提高了力预测准确性。
+
+    arXiv:2403.17507v1 Announce Type: new  Abstract: Machine learning force fields (MLFFs) have emerged as a promising approach to bridge the accuracy of quantum mechanical methods and the efficiency of classical force fields. However, the abundance of MLFF models and the challenge of accurately predicting atomic forces pose significant obstacles in their practical application. In this paper, we propose a novel ensemble learning framework, EL-MLFFs, which leverages the stacking method to integrate predictions from diverse MLFFs and enhance force prediction accuracy. By constructing a graph representation of molecular structures and employing a graph neural network (GNN) as the meta-model, EL-MLFFs effectively captures atomic interactions and refines force predictions. We evaluate our approach on two distinct datasets: methane molecules and methanol adsorbed on a Cu(100) surface. The results demonstrate that EL-MLFFs significantly improves force prediction accuracy compared to individual ML
+    
+[^3]: 两层ReLU网络中的隐藏极小值
+
+    Hidden Minima in Two-Layer ReLU Networks
+
+    [https://arxiv.org/abs/2312.16819](https://arxiv.org/abs/2312.16819)
+
+    本文研究了两层ReLU网络中的隐藏极小值现象，并提出方法来研究这些隐藏极小值的独特解析性质。
+
+    
+
+    本文考虑拟合具有$d$个输入、$k$个神经元以及由目标网络生成的标签的两层ReLU网络所涉及的优化问题。最近发现了两种无穷族的虚假极小值，每个$d$对应一个极小值。属于第一类的极小值的损失在$d$增加时收敛于零。在第二类中，损失保持远离于零。那么，如何避免属于后一类的极小值呢？幸运的是，这样的极小值从不会被标准优化方法检测到。受到此现象性质的问题的启发，我们开发了研究隐藏极小值独特解析性质的方法。根据现有的分析，两种类型的Hessian谱在$O(d^{-1/2})$项模意义下一致 -- 不太乐观。因此，我们的研究通过研究损失被最小化或最大化的曲线进行，通常称为切线。
+
+    arXiv:2312.16819v2 Announce Type: replace  Abstract: The optimization problem associated to fitting two-layer ReLU networks having $d$~inputs, $k$~neurons, and labels generated by a target network, is considered. Two types of infinite families of spurious minima, giving one minimum per $d$, were recently found. The loss at minima belonging to the first type converges to zero as $d$ increases. In the second type, the loss remains bounded away from zero. That being so, how may one avoid minima belonging to the latter type? Fortunately, such minima are never detected by standard optimization methods. Motivated by questions concerning the nature of this phenomenon, we develop methods to study distinctive analytic properties of hidden minima.   By existing analyses, the Hessian spectrum of both types agree modulo $O(d^{-1/2})$-terms -- not promising. Thus, rather, our investigation proceeds by studying curves along which the loss is minimized or maximized, generally referred to as tangency 
+    
+[^4]: 多任务模型的动态梯度平衡增强对抗攻击
+
+    Dynamic Gradient Balancing for Enhanced Adversarial Attacks on Multi-Task Models. (arXiv:2305.12066v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.12066](http://arxiv.org/abs/2305.12066)
+
+    本文提出了动态梯度平衡攻击（DGBA）框架来攻击多任务模型，并通过实验回答了多任务模型的对抗攻击的安全性、多任务攻击和对抗训练是否增强多任务模型的鲁棒性等安全研究问题。
+
+    
+
+    多任务学习 (MTL) 创建了一个名为多任务模型的单个机器学习模型，可以同时执行多个任务。虽然单任务分类器的安全性得到了广泛的研究，但对于多任务模型，存在着几个关键的安全性研究问题，包括: 1）多任务模型对单任务对抗机器学习攻击的安全性如何？2）能否设计对抗性攻击来同时攻击多个任务？ 3）任务共享和对抗训练是否增加了多任务模型对对抗攻击的鲁棒性？本文通过仔细分析和严格的实验回答了这些问题。首先，我们开发了单任务白盒攻击的初级转化并分析了其固有缺陷。然后，我们提出了一种新的攻击框架，动态梯度平衡攻击（DGBA）。我们的框架把攻击多任务模型的问题作为一种基于平均相对损失变化的优化问题。
+
+    Multi-task learning (MTL) creates a single machine learning model called multi-task model to simultaneously perform multiple tasks. Although the security of single task classifiers has been extensively studied, there are several critical security research questions for multi-task models including 1) How secure are multi-task models to single task adversarial machine learning attacks, 2) Can adversarial attacks be designed to attack multiple tasks simultaneously, and 3) Does task sharing and adversarial training increase multi-task model robustness to adversarial attacks? In this paper, we answer these questions through careful analysis and rigorous experimentation. First, we develop na\"ive adaptation of single-task white-box attacks and analyze their inherent drawbacks. We then propose a novel attack framework, Dynamic Gradient Balancing Attack (DGBA). Our framework poses the problem of attacking a multi-task model as an optimization problem based on averaged relative loss change, whi
+    
+[^5]: 基于价值链数据的时间图模型进行股票价格预测
+
+    Stock Price Prediction Using Temporal Graph Model with Value Chain Data. (arXiv:2303.09406v1 [q-fin.ST])
+
+    [http://arxiv.org/abs/2303.09406](http://arxiv.org/abs/2303.09406)
+
+    本论文提出了一种神经网络模型，LSTM-GCN，它能够结合价值链数据中的复杂结构和时间依赖性以预测股票价格。实验表明，该模型可以捕获价值链数据中未反映在价格数据中的信息，有助于交易者优化其交易策略和最大化利润。
+
+    
+
+    股票价格预测是金融交易中至关重要的元素，它可以帮助交易者进行买卖和持有股票的决策。本文引入了一种基于神经网络的股票回报率预测方法，长短期记忆图卷积神经网络（LSTM-GCN）模型，它结合了图卷积网络（GCN）和长短期记忆细胞（LSTM）。GCN用于捕捉价值链数据的复杂拓扑结构和空间依赖性，而LSTM则捕捉股票回报数据的时间依赖性和动态变化。我们在由Eurostoxx 600和S＆P 500组成的两个数据集上评估了LSTM-GCN模型，实验表明该模型可以捕获价值链数据中未完全反映在价格数据中的附加信息。
+
+    Stock price prediction is a crucial element in financial trading as it allows traders to make informed decisions about buying, selling, and holding stocks. Accurate predictions of future stock prices can help traders optimize their trading strategies and maximize their profits. In this paper, we introduce a neural network-based stock return prediction method, the Long Short-Term Memory Graph Convolutional Neural Network (LSTM-GCN) model, which combines the Graph Convolutional Network (GCN) and Long Short-Term Memory (LSTM) Cells. Specifically, the GCN is used to capture complex topological structures and spatial dependence from value chain data, while the LSTM captures temporal dependence and dynamic changes in stock returns data. We evaluated the LSTM-GCN model on two datasets consisting of constituents of Eurostoxx 600 and S&P 500. Our experiments demonstrate that the LSTM-GCN model can capture additional information from value chain data that are not fully reflected in price data, a
     
 
