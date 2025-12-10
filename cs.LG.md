@@ -2,82 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [CATGNN: Cost-Efficient and Scalable Distributed Training for Graph Neural Networks](https://arxiv.org/abs/2404.02300) | CATGNN是一种成本有效且可扩展的分布式GNN训练系统，通过接受边流作为输入并提出名为SPRING的流式分区算法，实现将GNN训练扩展到数十亿以上规模的图中。 |
-| [^2] | [EL-MLFFs: Ensemble Learning of Machine Leaning Force Fields](https://arxiv.org/abs/2403.17507) | 提出了一种新颖的集成学习框架EL-MLFFs，利用堆叠方法整合来自不同MLFFs的预测，从而提高力预测准确性。 |
-| [^3] | [Hidden Minima in Two-Layer ReLU Networks](https://arxiv.org/abs/2312.16819) | 本文研究了两层ReLU网络中的隐藏极小值现象，并提出方法来研究这些隐藏极小值的独特解析性质。 |
-| [^4] | [Dynamic Gradient Balancing for Enhanced Adversarial Attacks on Multi-Task Models.](http://arxiv.org/abs/2305.12066) | 本文提出了动态梯度平衡攻击（DGBA）框架来攻击多任务模型，并通过实验回答了多任务模型的对抗攻击的安全性、多任务攻击和对抗训练是否增强多任务模型的鲁棒性等安全研究问题。 |
-| [^5] | [Stock Price Prediction Using Temporal Graph Model with Value Chain Data.](http://arxiv.org/abs/2303.09406) | 本论文提出了一种神经网络模型，LSTM-GCN，它能够结合价值链数据中的复杂结构和时间依赖性以预测股票价格。实验表明，该模型可以捕获价值链数据中未反映在价格数据中的信息，有助于交易者优化其交易策略和最大化利润。 |
+| [^1] | [BG-HGNN: Toward Scalable and Efficient Heterogeneous Graph Neural Network](https://arxiv.org/abs/2403.08207) | BG-HGNN提出了一种新颖的框架，有效地处理了现有HGNNs在复杂异构图上面临的参数爆炸和关系坍塌等挑战 |
+| [^2] | [WiGenAI: The Symphony of Wireless and Generative AI via Diffusion Models.](http://arxiv.org/abs/2310.07312) | WiGenAI通过引入扩散模型，将生成式人工智能应用于无线通信系统中，为研究奠定基础。这篇文章介绍了扩散模型作为生成模型的最新范式，并讨论了它在无线通信系统中的应用。通过两个案例研究展示了扩散模型在开发韧性的AI本地通信系统中的潜力。 |
+| [^3] | [Federated Learning on Heterogeneous Data via Adaptive Self-Distillation.](http://arxiv.org/abs/2305.19600) | 本文提出一种基于自适应自蒸馏的新型正则化技术来训练客户端模型，该正则化方案基于客户端本地模型预测和全局模型的相似性以及客户端的标签分布来自适应地调整客户端的训练数据。实验结果表明，该方法在各种基准数据集上优于目前流行的联邦学习方法。 |
+| [^4] | [Freeze then Train: Towards Provable Representation Learning under Spurious Correlations and Feature Noise.](http://arxiv.org/abs/2210.11075) | 本文提出了一种称为冻结再变换(FTT)的算法，用于在存在虚假相关和特征噪声下实现可证明的表示学习。该算法首先冻结特征学习器，然后在其上训练分类器，利用学习到的核心特征，经过实验证明其有效性。 |
 
 # 详细
 
-[^1]: CATGNN：图神经网络的成本有效和可扩展的分布式训练
+[^1]: BG-HGNN: 朝向可扩展和高效的异构图神经网络
 
-    CATGNN: Cost-Efficient and Scalable Distributed Training for Graph Neural Networks
+    BG-HGNN: Toward Scalable and Efficient Heterogeneous Graph Neural Network
 
-    [https://arxiv.org/abs/2404.02300](https://arxiv.org/abs/2404.02300)
+    [https://arxiv.org/abs/2403.08207](https://arxiv.org/abs/2403.08207)
 
-    CATGNN是一种成本有效且可扩展的分布式GNN训练系统，通过接受边流作为输入并提出名为SPRING的流式分区算法，实现将GNN训练扩展到数十亿以上规模的图中。
-
-    
-
-    近年来，图神经网络取得了成功。尽管已经开发了不同的GNN架构和训练系统，但在大规模实际图上进行GNN训练仍然具有挑战性。现有的分布式系统需要将整个图加载到内存中以进行图分区，需要大量内存空间来处理大图，从而阻碍了使用普通工作站在这些大图上进行GNN训练。本文提出CATGNN，一个成本效益高且可扩展的分布式GNN训练系统，专注于在有限计算资源下将GNN训练扩展到数十亿甚至更大规模的图中。在其他功能中，它接受一系列边作为输入，而不是将整个图加载到内存中进行分区。我们还提出了一种名为SPRING的新型流式分区算法，用于分布式GNN训练。我们在16个开放数据集上验证了CATGNN与SPRING的正确性和有效性。
-
-    arXiv:2404.02300v1 Announce Type: new  Abstract: Graph neural networks have been shown successful in recent years. While different GNN architectures and training systems have been developed, GNN training on large-scale real-world graphs still remains challenging. Existing distributed systems load the entire graph in memory for graph partitioning, requiring a huge memory space to process large graphs and thus hindering GNN training on such large graphs using commodity workstations. In this paper, we propose CATGNN, a cost-efficient and scalable distributed GNN training system which focuses on scaling GNN training to billion-scale or larger graphs under limited computational resources. Among other features, it takes a stream of edges as input, instead of loading the entire graph in memory, for partitioning. We also propose a novel streaming partitioning algorithm named SPRING for distributed GNN training. We verify the correctness and effectiveness of CATGNN with SPRING on 16 open datase
-    
-[^2]: EL-MLFFs：机器学习力场的集成学习
-
-    EL-MLFFs: Ensemble Learning of Machine Leaning Force Fields
-
-    [https://arxiv.org/abs/2403.17507](https://arxiv.org/abs/2403.17507)
-
-    提出了一种新颖的集成学习框架EL-MLFFs，利用堆叠方法整合来自不同MLFFs的预测，从而提高力预测准确性。
+    BG-HGNN提出了一种新颖的框架，有效地处理了现有HGNNs在复杂异构图上面临的参数爆炸和关系坍塌等挑战
 
     
 
-    机器学习力场（MLFFs）已经成为一种有希望的方法，可以弥合量子力学方法的精确性和经典力场的效率。然而，MLFF模型的丰富性和准确预测原子力的挑战给它们的实际应用带来了重大障碍。在本文中，我们提出了一种新颖的集成学习框架EL-MLFFs，利用堆叠方法整合来自不同MLFFs的预测，增强力预测准确性。通过构建分子结构的图表示并采用图神经网络（GNN）作为元模型，EL-MLFFs有效地捕捉原子间相互作用并改进力的预测。我们在两个不同的数据集上评估了我们的方法：甲烷分子和吸附在Cu（100）表面上的甲醇。结果表明，EL-MLFFs相对于单个MLFF显著提高了力预测准确性。
+    许多计算机视觉和机器学习问题被建模为在异构图上的学习任务，具有来自不同类型节点和边的各种关系。异构图神经网络(HGNNs)是一种为异构图设计的有前途的神经模型类。现有HGNNs建立在传统GNNs基础上，利用不同的参数空间来建模不同的关系。然而，现有HGNNs的实际有效性通常局限于简单的异构图，具有少量关系类型。本文首先突出和证明现有HGNNs使用的标准方法不可避免地导致参数爆炸和关系坍塌，使得HGNNs对具有大量关系类型的复杂异构图 less有效或不实用。为了克服这一问题，我们引入了一种新颖的框架，Blend&Grind-HGNN (BG-HGNN)，通过仔细处理挑战来有效应对这些问题。
 
-    arXiv:2403.17507v1 Announce Type: new  Abstract: Machine learning force fields (MLFFs) have emerged as a promising approach to bridge the accuracy of quantum mechanical methods and the efficiency of classical force fields. However, the abundance of MLFF models and the challenge of accurately predicting atomic forces pose significant obstacles in their practical application. In this paper, we propose a novel ensemble learning framework, EL-MLFFs, which leverages the stacking method to integrate predictions from diverse MLFFs and enhance force prediction accuracy. By constructing a graph representation of molecular structures and employing a graph neural network (GNN) as the meta-model, EL-MLFFs effectively captures atomic interactions and refines force predictions. We evaluate our approach on two distinct datasets: methane molecules and methanol adsorbed on a Cu(100) surface. The results demonstrate that EL-MLFFs significantly improves force prediction accuracy compared to individual ML
+    arXiv:2403.08207v1 Announce Type: new  Abstract: Many computer vision and machine learning problems are modelled as learning tasks on heterogeneous graphs, featuring a wide array of relations from diverse types of nodes and edges. Heterogeneous graph neural networks (HGNNs) stand out as a promising neural model class designed for heterogeneous graphs. Built on traditional GNNs, existing HGNNs employ different parameter spaces to model the varied relationships. However, the practical effectiveness of existing HGNNs is often limited to simple heterogeneous graphs with few relation types. This paper first highlights and demonstrates that the standard approach employed by existing HGNNs inevitably leads to parameter explosion and relation collapse, making HGNNs less effective or impractical for complex heterogeneous graphs with numerous relation types. To overcome this issue, we introduce a novel framework, Blend&Grind-HGNN (BG-HGNN), which effectively tackles the challenges by carefully i
     
-[^3]: 两层ReLU网络中的隐藏极小值
+[^2]: WiGenAI: 通过扩散模型实现无线和生成式人工智能的交织
 
-    Hidden Minima in Two-Layer ReLU Networks
+    WiGenAI: The Symphony of Wireless and Generative AI via Diffusion Models. (arXiv:2310.07312v1 [cs.IT])
 
-    [https://arxiv.org/abs/2312.16819](https://arxiv.org/abs/2312.16819)
+    [http://arxiv.org/abs/2310.07312](http://arxiv.org/abs/2310.07312)
 
-    本文研究了两层ReLU网络中的隐藏极小值现象，并提出方法来研究这些隐藏极小值的独特解析性质。
-
-    
-
-    本文考虑拟合具有$d$个输入、$k$个神经元以及由目标网络生成的标签的两层ReLU网络所涉及的优化问题。最近发现了两种无穷族的虚假极小值，每个$d$对应一个极小值。属于第一类的极小值的损失在$d$增加时收敛于零。在第二类中，损失保持远离于零。那么，如何避免属于后一类的极小值呢？幸运的是，这样的极小值从不会被标准优化方法检测到。受到此现象性质的问题的启发，我们开发了研究隐藏极小值独特解析性质的方法。根据现有的分析，两种类型的Hessian谱在$O(d^{-1/2})$项模意义下一致 -- 不太乐观。因此，我们的研究通过研究损失被最小化或最大化的曲线进行，通常称为切线。
-
-    arXiv:2312.16819v2 Announce Type: replace  Abstract: The optimization problem associated to fitting two-layer ReLU networks having $d$~inputs, $k$~neurons, and labels generated by a target network, is considered. Two types of infinite families of spurious minima, giving one minimum per $d$, were recently found. The loss at minima belonging to the first type converges to zero as $d$ increases. In the second type, the loss remains bounded away from zero. That being so, how may one avoid minima belonging to the latter type? Fortunately, such minima are never detected by standard optimization methods. Motivated by questions concerning the nature of this phenomenon, we develop methods to study distinctive analytic properties of hidden minima.   By existing analyses, the Hessian spectrum of both types agree modulo $O(d^{-1/2})$-terms -- not promising. Thus, rather, our investigation proceeds by studying curves along which the loss is minimized or maximized, generally referred to as tangency 
-    
-[^4]: 多任务模型的动态梯度平衡增强对抗攻击
-
-    Dynamic Gradient Balancing for Enhanced Adversarial Attacks on Multi-Task Models. (arXiv:2305.12066v1 [cs.LG])
-
-    [http://arxiv.org/abs/2305.12066](http://arxiv.org/abs/2305.12066)
-
-    本文提出了动态梯度平衡攻击（DGBA）框架来攻击多任务模型，并通过实验回答了多任务模型的对抗攻击的安全性、多任务攻击和对抗训练是否增强多任务模型的鲁棒性等安全研究问题。
+    WiGenAI通过引入扩散模型，将生成式人工智能应用于无线通信系统中，为研究奠定基础。这篇文章介绍了扩散模型作为生成模型的最新范式，并讨论了它在无线通信系统中的应用。通过两个案例研究展示了扩散模型在开发韧性的AI本地通信系统中的潜力。
 
     
 
-    多任务学习 (MTL) 创建了一个名为多任务模型的单个机器学习模型，可以同时执行多个任务。虽然单任务分类器的安全性得到了广泛的研究，但对于多任务模型，存在着几个关键的安全性研究问题，包括: 1）多任务模型对单任务对抗机器学习攻击的安全性如何？2）能否设计对抗性攻击来同时攻击多个任务？ 3）任务共享和对抗训练是否增加了多任务模型对对抗攻击的鲁棒性？本文通过仔细分析和严格的实验回答了这些问题。首先，我们开发了单任务白盒攻击的初级转化并分析了其固有缺陷。然后，我们提出了一种新的攻击框架，动态梯度平衡攻击（DGBA）。我们的框架把攻击多任务模型的问题作为一种基于平均相对损失变化的优化问题。
+    创新的基础模型，如GPT-3和稳定的扩散模型，已经在人工智能领域实现了范式转变，向生成式人工智能系统发展。从数据通信和网络的角度来看，人工智能和机器学习算法预计将广泛应用于未来无线通信系统的新一代中，强调了在新兴通信场景中需要新颖的AI本地解决方案。本文介绍生成式人工智能在无线通信系统中的应用，为该领域的研究奠定基础。介绍了扩散型生成模型作为生成模型的最新范式，并讨论了它们在无线通信系统中的应用。还提供了两个案例研究，展示了如何利用扩散模型开发具有韧性的AI本地通信系统。具体而言，我们提出了一种基于扩散模型的生成模型，以展示其在生成模型的应用中的优势。
 
-    Multi-task learning (MTL) creates a single machine learning model called multi-task model to simultaneously perform multiple tasks. Although the security of single task classifiers has been extensively studied, there are several critical security research questions for multi-task models including 1) How secure are multi-task models to single task adversarial machine learning attacks, 2) Can adversarial attacks be designed to attack multiple tasks simultaneously, and 3) Does task sharing and adversarial training increase multi-task model robustness to adversarial attacks? In this paper, we answer these questions through careful analysis and rigorous experimentation. First, we develop na\"ive adaptation of single-task white-box attacks and analyze their inherent drawbacks. We then propose a novel attack framework, Dynamic Gradient Balancing Attack (DGBA). Our framework poses the problem of attacking a multi-task model as an optimization problem based on averaged relative loss change, whi
+    Innovative foundation models, such as GPT-3 and stable diffusion models, have made a paradigm shift in the realm of artificial intelligence (AI) towards generative AI-based systems. In unison, from data communication and networking perspective, AI and machine learning (AI/ML) algorithms are envisioned to be pervasively incorporated into the future generations of wireless communications systems, highlighting the need for novel AI-native solutions for the emergent communication scenarios. In this article, we outline the applications of generative AI in wireless communication systems to lay the foundations for research in this field. Diffusion-based generative models, as the new state-of-the-art paradigm of generative models, are introduced, and their applications in wireless communication systems are discussed. Two case studies are also presented to showcase how diffusion models can be exploited for the development of resilient AI-native communication systems. Specifically, we propose de
     
-[^5]: 基于价值链数据的时间图模型进行股票价格预测
+[^3]: 自适应自蒸馏下的异构数据联邦学习
 
-    Stock Price Prediction Using Temporal Graph Model with Value Chain Data. (arXiv:2303.09406v1 [q-fin.ST])
+    Federated Learning on Heterogeneous Data via Adaptive Self-Distillation. (arXiv:2305.19600v1 [cs.LG])
 
-    [http://arxiv.org/abs/2303.09406](http://arxiv.org/abs/2303.09406)
+    [http://arxiv.org/abs/2305.19600](http://arxiv.org/abs/2305.19600)
 
-    本论文提出了一种神经网络模型，LSTM-GCN，它能够结合价值链数据中的复杂结构和时间依赖性以预测股票价格。实验表明，该模型可以捕获价值链数据中未反映在价格数据中的信息，有助于交易者优化其交易策略和最大化利润。
+    本文提出一种基于自适应自蒸馏的新型正则化技术来训练客户端模型，该正则化方案基于客户端本地模型预测和全局模型的相似性以及客户端的标签分布来自适应地调整客户端的训练数据。实验结果表明，该方法在各种基准数据集上优于目前流行的联邦学习方法。
 
     
 
-    股票价格预测是金融交易中至关重要的元素，它可以帮助交易者进行买卖和持有股票的决策。本文引入了一种基于神经网络的股票回报率预测方法，长短期记忆图卷积神经网络（LSTM-GCN）模型，它结合了图卷积网络（GCN）和长短期记忆细胞（LSTM）。GCN用于捕捉价值链数据的复杂拓扑结构和空间依赖性，而LSTM则捕捉股票回报数据的时间依赖性和动态变化。我们在由Eurostoxx 600和S＆P 500组成的两个数据集上评估了LSTM-GCN模型，实验表明该模型可以捕获价值链数据中未完全反映在价格数据中的附加信息。
+    联邦学习是一种机器学习范式，它使得客户机可以聚合本地训练模型而无需共享任何本地训练数据从而训练全局模型。然而，实践中发现，每个客户端观察到的本地数据分布之间可能存在显著的不均匀性（例如类别不平衡）。在这种不均匀的数据分布下，联邦学习会出现“客户机漂移”问题，导致每个客户端收敛到其自己的局部最优解，这会降低模型的收敛速度并降低模型性能。为了解决这个问题，我们提出了一种基于自适应自蒸馏的新型正则化技术来训练客户端模型。我们的正则化方案基于客户端本地模型预测和全局模型的相似性以及客户端的标签分布来自适应地调整客户端的训练数据。该正则化技术可以轻松地集成在现有的联邦学习算法之上，而不需要对客户端或服务器代码进行任何更改，因此具有高度的可部署性。我们在各种基准数据集上验证了我们的方法，并展示了在非独立同分布数据下的优越性。
 
-    Stock price prediction is a crucial element in financial trading as it allows traders to make informed decisions about buying, selling, and holding stocks. Accurate predictions of future stock prices can help traders optimize their trading strategies and maximize their profits. In this paper, we introduce a neural network-based stock return prediction method, the Long Short-Term Memory Graph Convolutional Neural Network (LSTM-GCN) model, which combines the Graph Convolutional Network (GCN) and Long Short-Term Memory (LSTM) Cells. Specifically, the GCN is used to capture complex topological structures and spatial dependence from value chain data, while the LSTM captures temporal dependence and dynamic changes in stock returns data. We evaluated the LSTM-GCN model on two datasets consisting of constituents of Eurostoxx 600 and S&P 500. Our experiments demonstrate that the LSTM-GCN model can capture additional information from value chain data that are not fully reflected in price data, a
+    Federated Learning (FL) is a machine learning paradigm that enables clients to jointly train a global model by aggregating the locally trained models without sharing any local training data. In practice, there can often be substantial heterogeneity (e.g., class imbalance) across the local data distributions observed by each of these clients. Under such non-iid data distributions across clients, FL suffers from the 'client-drift' problem where every client converges to its own local optimum. This results in slower convergence and poor performance of the aggregated model. To address this limitation, we propose a novel regularization technique based on adaptive self-distillation (ASD) for training models on the client side. Our regularization scheme adaptively adjusts to the client's training data based on: (1) the closeness of the local model's predictions with that of the global model and (2) the client's label distribution. The proposed regularization can be easily integrated atop exis
+    
+[^4]: 冻结再训练：在虚假相关和特征噪声下实现可证明的表示学习
+
+    Freeze then Train: Towards Provable Representation Learning under Spurious Correlations and Feature Noise. (arXiv:2210.11075v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2210.11075](http://arxiv.org/abs/2210.11075)
+
+    本文提出了一种称为冻结再变换(FTT)的算法，用于在存在虚假相关和特征噪声下实现可证明的表示学习。该算法首先冻结特征学习器，然后在其上训练分类器，利用学习到的核心特征，经过实验证明其有效性。
+
+    
+
+    在训练环境中存在虚假相关，如图像背景，可能使经验风险最小化方法(ERM)在测试环境中表现不佳。为了解决这个问题，Kirichenko等人(2022) 实证发现，即使存在虚假相关，与结果相关的核心特征仍然可以很好地学习。这开启了一种有前途的策略，即首先训练特征学习器而不是分类器，然后在测试环境中进行线性探测(重训练最后一层)。然而，缺乏一个理论上的理解何时以及为什么这种方法有效。在本文中，我们发现只有当与结果相关的核心特征关联的不可实现噪声小于虚假特征的噪声时，才能很好地学习这些特征，这在实践中并不一定成立。我们提供理论和实验证据支持这个发现，并阐述不可实现噪声的重要性。此外，我们提出了一种称为冻结再变换(FTT)的算法，首先冻结特征学习器，然后在其上训练分类器，利用学习到的核心特征。我们证明了FTT在特征学习器上的一个温和条件下保证有界的泛化误差。实验证明了FTT在各种数据集和虚假相关以及特征噪声设置下的有效性。
+
+    The existence of spurious correlations such as image backgrounds in the training environment can make empirical risk minimization (ERM) perform badly in the test environment. To address this problem, Kirichenko et al. (2022) empirically found that the core features that are related to the outcome can still be learned well even with the presence of spurious correlations. This opens a promising strategy to first train a feature learner rather than a classifier, and then perform linear probing (last layer retraining) in the test environment. However, a theoretical understanding of when and why this approach works is lacking. In this paper, we find that core features are only learned well when their associated non-realizable noise is smaller than that of spurious features, which is not necessarily true in practice. We provide both theories and experiments to support this finding and to illustrate the importance of non-realizable noise. Moreover, we propose an algorithm called Freeze then T
     
 

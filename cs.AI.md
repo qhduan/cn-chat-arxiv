@@ -2,52 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Generative AI and Copyright: A Dynamic Perspective](https://arxiv.org/abs/2402.17801) | 本文研究了生成人工智能对创意产业带来的版权问题，探讨了公平使用标准和AI-版权性对AI发展和公司利润的影响 |
-| [^2] | [I Learn Better If You Speak My Language: Enhancing Large Language Model Fine-Tuning with Style-Aligned Response Adjustments](https://arxiv.org/abs/2402.11192) | 将微调过程中的实际响应风格与大型语言模型固有风格相匹配能够产生更好的学习结果，开发的方法通过最小程度地调整模型响应来避免过拟合。 |
-| [^3] | [Deep Learning Meets Mechanism Design: Key Results and Some Novel Applications.](http://arxiv.org/abs/2401.05683) | 本文介绍了深度学习与机制设计的结合，探讨了使用深度学习方法在无法同时满足所有期望特性的情况下，学习近似满足特性要求的机制。 |
+| [^1] | [WiGenAI: The Symphony of Wireless and Generative AI via Diffusion Models.](http://arxiv.org/abs/2310.07312) | WiGenAI通过引入扩散模型，将生成式人工智能应用于无线通信系统中，为研究奠定基础。这篇文章介绍了扩散模型作为生成模型的最新范式，并讨论了它在无线通信系统中的应用。通过两个案例研究展示了扩散模型在开发韧性的AI本地通信系统中的潜力。 |
+| [^2] | [MiniGPT-5: Interleaved Vision-and-Language Generation via Generative Vokens.](http://arxiv.org/abs/2310.02239) | MiniGPT-5使用生成凭据作为桥梁，引入了一种创新的交错视觉与语言生成技术，并通过独特的两阶段训练策略和无分类器的指导来实现无描述的多模态生成。 |
 
 # 详细
 
-[^1]: 生成人工智能与版权：一个动态视角
+[^1]: WiGenAI: 通过扩散模型实现无线和生成式人工智能的交织
 
-    Generative AI and Copyright: A Dynamic Perspective
+    WiGenAI: The Symphony of Wireless and Generative AI via Diffusion Models. (arXiv:2310.07312v1 [cs.IT])
 
-    [https://arxiv.org/abs/2402.17801](https://arxiv.org/abs/2402.17801)
+    [http://arxiv.org/abs/2310.07312](http://arxiv.org/abs/2310.07312)
 
-    本文研究了生成人工智能对创意产业带来的版权问题，探讨了公平使用标准和AI-版权性对AI发展和公司利润的影响
-
-    
-
-    生成人工智能的快速发展即将颠覆创意产业。在对这项新技术的巨大兴奋中，其在创意产业中的未来发展和应用至关重要的两个版权问题是：1) 补偿那些用于训练生成人工智能模型的创作者（公平使用标准）；和2) AI生成的内容是否有资格获得版权保护（AI-版权性）。虽然这两个问题引发了学术界和实践者之间激烈的争论，但大多数分析都集中在它们对现有版权原则所带来的挑战上。在本文中，我们旨在更好地理解这两个监管问题及其互动对经济的影响。通过建立一个具有内生内容创作和AI模型发展的动态模型，我们揭示了公平使用标准和AI-版权性对AI发展、AI公司利润、cr的影响
-
-    arXiv:2402.17801v1 Announce Type: cross  Abstract: The rapid advancement of generative AI is poised to disrupt the creative industry. Amidst the immense excitement for this new technology, its future development and applications in the creative industry hinge crucially upon two copyright issues: 1) the compensation to creators whose content has been used to train generative AI models (the fair use standard); and 2) the eligibility of AI-generated content for copyright protection (AI-copyrightability). While both issues have ignited heated debates among academics and practitioners, most analysis has focused on their challenges posed to existing copyright doctrines. In this paper, we aim to better understand the economic implications of these two regulatory issues and their interactions. By constructing a dynamic model with endogenous content creation and AI model development, we unravel the impacts of the fair use standard and AI-copyrightability on AI development, AI company profit, cr
-    
-[^2]: 如果你讲我的语言，我会更好地学习：使用风格对齐响应调整增强大型语言模型微调
-
-    I Learn Better If You Speak My Language: Enhancing Large Language Model Fine-Tuning with Style-Aligned Response Adjustments
-
-    [https://arxiv.org/abs/2402.11192](https://arxiv.org/abs/2402.11192)
-
-    将微调过程中的实际响应风格与大型语言模型固有风格相匹配能够产生更好的学习结果，开发的方法通过最小程度地调整模型响应来避免过拟合。
+    WiGenAI通过引入扩散模型，将生成式人工智能应用于无线通信系统中，为研究奠定基础。这篇文章介绍了扩散模型作为生成模型的最新范式，并讨论了它在无线通信系统中的应用。通过两个案例研究展示了扩散模型在开发韧性的AI本地通信系统中的潜力。
 
     
 
-    使用小数据集为特定任务微调大型语言模型(LLMs)是一个普遍遇到的但复杂的挑战。在有限的示例上过多拟合可能会对模型的泛化能力和保留原始技能产生负面影响。我们的研究探讨了在微调过程中地实际响应风格的影响。我们发现将地实际响应风格与LLM固有风格匹配会产生更好的学习结果。基于这一观点，我们开发了一种方法，最小程度地修改LLM的现有响应以更正错误，使用这些调整后的响应作为训练目标。这种技术能够实现与模型固有响应风格一致的精确更正，维护模型的核心能力，从而避免过多拟合。我们的研究结果表明，这种方法不仅提高了LLM的特定任务准确性，而且关键地
+    创新的基础模型，如GPT-3和稳定的扩散模型，已经在人工智能领域实现了范式转变，向生成式人工智能系统发展。从数据通信和网络的角度来看，人工智能和机器学习算法预计将广泛应用于未来无线通信系统的新一代中，强调了在新兴通信场景中需要新颖的AI本地解决方案。本文介绍生成式人工智能在无线通信系统中的应用，为该领域的研究奠定基础。介绍了扩散型生成模型作为生成模型的最新范式，并讨论了它们在无线通信系统中的应用。还提供了两个案例研究，展示了如何利用扩散模型开发具有韧性的AI本地通信系统。具体而言，我们提出了一种基于扩散模型的生成模型，以展示其在生成模型的应用中的优势。
 
-    arXiv:2402.11192v1 Announce Type: cross  Abstract: Fine-tuning large language models (LLMs) with a small data set for particular tasks is a widely encountered yet complex challenge. The potential for overfitting on a limited number of examples can negatively impact the model's ability to generalize and retain its original skills. Our research explores the impact of the style of ground-truth responses during the fine-tuning process. We found that matching the ground-truth response style with the LLM's inherent style results in better learning outcomes. Building on this insight, we developed a method that minimally alters the LLM's pre-existing responses to correct errors, using these adjusted responses as training targets. This technique enables precise corrections in line with the model's native response style, safeguarding the model's core capabilities and thus avoid overfitting. Our findings show that this approach not only improves the LLM's task-specific accuracy but also crucially
+    Innovative foundation models, such as GPT-3 and stable diffusion models, have made a paradigm shift in the realm of artificial intelligence (AI) towards generative AI-based systems. In unison, from data communication and networking perspective, AI and machine learning (AI/ML) algorithms are envisioned to be pervasively incorporated into the future generations of wireless communications systems, highlighting the need for novel AI-native solutions for the emergent communication scenarios. In this article, we outline the applications of generative AI in wireless communication systems to lay the foundations for research in this field. Diffusion-based generative models, as the new state-of-the-art paradigm of generative models, are introduced, and their applications in wireless communication systems are discussed. Two case studies are also presented to showcase how diffusion models can be exploited for the development of resilient AI-native communication systems. Specifically, we propose de
     
-[^3]: 深度学习与机制设计：关键结果和一些新的应用
+[^2]: MiniGPT-5: 通过生成凭据实现交错的视觉与语言生成
 
-    Deep Learning Meets Mechanism Design: Key Results and Some Novel Applications. (arXiv:2401.05683v1 [cs.GT])
+    MiniGPT-5: Interleaved Vision-and-Language Generation via Generative Vokens. (arXiv:2310.02239v2 [cs.CV] UPDATED)
 
-    [http://arxiv.org/abs/2401.05683](http://arxiv.org/abs/2401.05683)
+    [http://arxiv.org/abs/2310.02239](http://arxiv.org/abs/2310.02239)
 
-    本文介绍了深度学习与机制设计的结合，探讨了使用深度学习方法在无法同时满足所有期望特性的情况下，学习近似满足特性要求的机制。
+    MiniGPT-5使用生成凭据作为桥梁，引入了一种创新的交错视觉与语言生成技术，并通过独特的两阶段训练策略和无分类器的指导来实现无描述的多模态生成。
 
     
 
-    机制设计本质上是对游戏的逆向工程，涉及在博弈中诱导一种方式，使得诱导的博弈在博弈均衡中满足一组期望的特性。机制的期望特性包括激励兼容性、个体合理性、福利最大化、收入最大化（或成本最小化）、分配公平等。根据机制设计理论，只有某些严格的子集可以同时被任何给定的机制完全满足。在现实世界应用中，通常所需的机制可能需要一些在理论上无法同时满足的特性子集。在这种情况下，一个显著的近期方法是使用基于深度学习的方法，通过最小化适当定义的损失函数来学习一个近似满足所需特性的机制。在本文中，我们从相关文献中介绍了技术细节。
+    大型语言模型（LLMs）因其在自然语言处理方面的进展而引起了广泛关注，展示了在文本理解和生成方面无与伦比的能力。然而，同时生成具有连贯文本叙述的图像仍然是一个不断发展的前沿。为此，我们引入了一种创新的交错视觉与语言生成技术，以"生成凭据"的概念为基础，作为协调图像文本输出的桥梁。我们的方法特点是独特的两阶段训练策略，重点是无描述的多模态生成，训练过程不需要对图像进行全面的描述。为了增强模型的完整性，我们还引入了无分类器的指导，增强了生成凭据在图像生成方面的效果。我们的模型MiniGPT-5在MMDialog数据集上相比基线Divter模型有显著改进，并始终提供优越或可比的多模态输出。
 
-    Mechanism design is essentially reverse engineering of games and involves inducing a game among strategic agents in a way that the induced game satisfies a set of desired properties in an equilibrium of the game. Desirable properties for a mechanism include incentive compatibility, individual rationality, welfare maximisation, revenue maximisation (or cost minimisation), fairness of allocation, etc. It is known from mechanism design theory that only certain strict subsets of these properties can be simultaneously satisfied exactly by any given mechanism. Often, the mechanisms required by real-world applications may need a subset of these properties that are theoretically impossible to be simultaneously satisfied. In such cases, a prominent recent approach is to use a deep learning based approach to learn a mechanism that approximately satisfies the required properties by minimizing a suitably defined loss function. In this paper, we present, from relevant literature, technical details 
+    Large Language Models (LLMs) have garnered significant attention for their advancements in natural language processing, demonstrating unparalleled prowess in text comprehension and generation. Yet, the simultaneous generation of images with coherent textual narratives remains an evolving frontier. In response, we introduce an innovative interleaved vision-and-language generation technique anchored by the concept of "generative vokens," acting as the bridge for harmonized image-text outputs. Our approach is characterized by a distinctive two-staged training strategy focusing on description-free multimodal generation, where the training requires no comprehensive descriptions of images. To bolster model integrity, classifier-free guidance is incorporated, enhancing the effectiveness of vokens on image generation. Our model, MiniGPT-5, exhibits substantial improvement over the baseline Divter model on the MMDialog dataset and consistently delivers superior or comparable multimodal outputs 
     
 
