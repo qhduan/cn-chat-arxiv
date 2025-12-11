@@ -1,1 +1,21 @@
-<rss version="2.0"><channel><title>Chat Arxiv stat.ML</title><link>https://github.com/qhduan/cn-chat-arxiv</link><description>This is arxiv RSS feed for stat.ML</description></channel></rss>
+<rss version="2.0"><channel><title>Chat Arxiv stat.ML</title><link>https://github.com/qhduan/cn-chat-arxiv</link><description>This is arxiv RSS feed for stat.ML</description><item><title>&#26412;&#25991;&#25552;&#20986;&#20102;&#19977;&#31181;&#26377;&#25928;&#30340;&#33719;&#21462;&#20989;&#25968;&#29992;&#20110;&#20027;&#21160;&#30456;&#20851;&#32858;&#31867;&#65292;&#20998;&#21035;&#22522;&#20110;&#19981;&#19968;&#33268;&#24615;&#27010;&#24565;&#21644;&#20449;&#24687;&#35770;&#37327;&#12290;</title><link>https://arxiv.org/abs/2402.03587</link><description>&lt;p&gt;
+&#20027;&#21160;&#30456;&#20851;&#32858;&#31867;&#30340;&#26377;&#25928;&#33719;&#21462;&#20989;&#25968;
+&lt;/p&gt;
+&lt;p&gt;
+Effective Acquisition Functions for Active Correlation Clustering
+&lt;/p&gt;
+&lt;p&gt;
+https://arxiv.org/abs/2402.03587
+&lt;/p&gt;
+&lt;p&gt;
+&#26412;&#25991;&#25552;&#20986;&#20102;&#19977;&#31181;&#26377;&#25928;&#30340;&#33719;&#21462;&#20989;&#25968;&#29992;&#20110;&#20027;&#21160;&#30456;&#20851;&#32858;&#31867;&#65292;&#20998;&#21035;&#22522;&#20110;&#19981;&#19968;&#33268;&#24615;&#27010;&#24565;&#21644;&#20449;&#24687;&#35770;&#37327;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+&#30456;&#20851;&#32858;&#31867;&#26159;&#19968;&#31181;&#24378;&#22823;&#30340;&#26080;&#30417;&#30563;&#23398;&#20064;&#33539;&#20363;&#65292;&#25903;&#25345;&#27491;&#21644;&#36127;&#30340;&#30456;&#20284;&#24615;&#12290;&#26412;&#25991;&#20551;&#35774;&#30456;&#20284;&#24615;&#20107;&#20808;&#26410;&#30693;&#65292;&#32780;&#26159;&#37319;&#29992;&#20027;&#21160;&#23398;&#20064;&#20197;&#19968;&#31181;&#25104;&#26412;&#26377;&#25928;&#30340;&#26041;&#24335;&#36845;&#20195;&#22320;&#26597;&#35810;&#30456;&#20284;&#24615;&#12290;&#20855;&#20307;&#32780;&#35328;&#65292;&#25105;&#20204;&#24320;&#21457;&#20102;&#19977;&#31181;&#26377;&#25928;&#30340;&#33719;&#21462;&#20989;&#25968;&#29992;&#20110;&#22312;&#27492;&#35774;&#32622;&#19979;&#20351;&#29992;&#12290;&#20854;&#20013;&#19968;&#31181;&#22522;&#20110;&#19981;&#19968;&#33268;&#24615;&#27010;&#24565;&#65288;&#21363;&#24403;&#30456;&#20284;&#24615;&#36829;&#21453;&#20256;&#36882;&#24615;&#26102;&#65289;&#12290;&#20854;&#20313;&#20004;&#20010;&#22522;&#20110;&#20449;&#24687;&#35770;&#37327;&#65292;&#21363;&#29109;&#21644;&#20449;&#24687;&#22686;&#30410;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+Correlation clustering is a powerful unsupervised learning paradigm that supports positive and negative similarities. In this paper, we assume the similarities are not known in advance. Instead, we employ active learning to iteratively query similarities in a cost-efficient way. In particular, we develop three effective acquisition functions to be used in this setting. One is based on the notion of inconsistency (i.e., when similarities violate the transitive property). The remaining two are based on information-theoretic quantities, i.e., entropy and information gain.
+&lt;/p&gt;</description></item></channel></rss>

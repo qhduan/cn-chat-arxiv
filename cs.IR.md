@@ -2,9 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-
+| [^1] | [Improving Topic Relevance Model by Mix-structured Summarization and LLM-based Data Augmentation](https://arxiv.org/abs/2404.02616) | 通过混合结构化摘要和基于LLM的数据增强方法，改进了主题相关性模型，使其能够更好地学习查询与文档之间的相关度。 |
 
 # 详细
 
+[^1]: 通过混合结构化摘要和基于LLM的数据增强来改进主题相关性模型
 
+    Improving Topic Relevance Model by Mix-structured Summarization and LLM-based Data Augmentation
+
+    [https://arxiv.org/abs/2404.02616](https://arxiv.org/abs/2404.02616)
+
+    通过混合结构化摘要和基于LLM的数据增强方法，改进了主题相关性模型，使其能够更好地学习查询与文档之间的相关度。
+
+    
+
+    查询和文档之间的主题相关性是社交搜索的一个非常重要的部分，可以评估文档与用户需求之间的匹配程度。在大多数社交搜索场景中，如大众点评，建模搜索相关性总是面临两个挑战。一个是许多社交搜索中的文档非常长且包含大量冗余信息。另一个问题是搜索相关性模型的训练数据很难获得，尤其是对于多分类相关性模型。为了解决以上两个问题，我们首先将查询与基于查询的摘要以及不带查询的文档摘要合并，作为主题相关性模型的输入，这有助于模型学习查询和文档核心主题之间的相关度。然后，我们利用大型语言模型（LLM）的语言理解和生成能力，从现有训练数据中重新编写和生成查询。
+
+    arXiv:2404.02616v1 Announce Type: cross  Abstract: Topic relevance between query and document is a very important part of social search, which can evaluate the degree of matching between document and user's requirement. In most social search scenarios such as Dianping, modeling search relevance always faces two challenges. One is that many documents in social search are very long and have much redundant information. The other is that the training data for search relevance model is difficult to get, especially for multi-classification relevance model. To tackle above two problems, we first take query concatenated with the query-based summary and the document summary without query as the input of topic relevance model, which can help model learn the relevance degree between query and the core topic of document. Then, we utilize the language understanding and generation abilities of large language model (LLM) to rewrite and generate query from queries and documents in existing training da
+    
 
