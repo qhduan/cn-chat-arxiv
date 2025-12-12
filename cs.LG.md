@@ -2,52 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Effective Acquisition Functions for Active Correlation Clustering](https://arxiv.org/abs/2402.03587) | 本文提出了三种有效的获取函数用于主动相关聚类，分别基于不一致性概念和信息论量。 |
-| [^2] | [FLTrojan: Privacy Leakage Attacks against Federated Language Models Through Selective Weight Tampering.](http://arxiv.org/abs/2310.16152) | 本文提出了一种FLTrojan攻击方法，通过选择性权重篡改，从联邦语言模型中泄露隐私敏感用户数据。通过观察到FL中中间轮次的模型快照可以引起更大的隐私泄露，并发现隐私泄露可以通过篡改模型的选择性权重来加剧。 |
-| [^3] | [Federated Learning on Heterogeneous Data via Adaptive Self-Distillation.](http://arxiv.org/abs/2305.19600) | 本文提出一种基于自适应自蒸馏的新型正则化技术来训练客户端模型，该正则化方案基于客户端本地模型预测和全局模型的相似性以及客户端的标签分布来自适应地调整客户端的训练数据。实验结果表明，该方法在各种基准数据集上优于目前流行的联邦学习方法。 |
+| [^1] | [Noisy Spiking Actor Network for Exploration](https://arxiv.org/abs/2403.04162) | 提出了一种噪声尖峰演员网络（NoisySAN）以解决尖峰神经网络（SNNs）在探索中的弱点，并在连续控制任务上取得了优于最先进方法的表现 |
+| [^2] | [Multi-Robot Path Planning Combining Heuristics and Multi-Agent Reinforcement Learning.](http://arxiv.org/abs/2306.01270) | 提出了一种多机器人路径规划方法MAPPOHR，该方法结合了启发式搜索、经验规则和多智能体强化学习。实验结果表明，该方法在规划效率和避碰能力方面优于现有方法。 |
 
 # 详细
 
-[^1]: 主动相关聚类的有效获取函数
+[^1]: 用于探索的噪声尖峰演员网络
 
-    Effective Acquisition Functions for Active Correlation Clustering
+    Noisy Spiking Actor Network for Exploration
 
-    [https://arxiv.org/abs/2402.03587](https://arxiv.org/abs/2402.03587)
+    [https://arxiv.org/abs/2403.04162](https://arxiv.org/abs/2403.04162)
 
-    本文提出了三种有效的获取函数用于主动相关聚类，分别基于不一致性概念和信息论量。
-
-    
-
-    相关聚类是一种强大的无监督学习范例，支持正和负的相似性。本文假设相似性事先未知，而是采用主动学习以一种成本有效的方式迭代地查询相似性。具体而言，我们开发了三种有效的获取函数用于在此设置下使用。其中一种基于不一致性概念（即当相似性违反传递性时）。其余两个基于信息论量，即熵和信息增益。
-
-    Correlation clustering is a powerful unsupervised learning paradigm that supports positive and negative similarities. In this paper, we assume the similarities are not known in advance. Instead, we employ active learning to iteratively query similarities in a cost-efficient way. In particular, we develop three effective acquisition functions to be used in this setting. One is based on the notion of inconsistency (i.e., when similarities violate the transitive property). The remaining two are based on information-theoretic quantities, i.e., entropy and information gain.
-    
-[^2]: FLTrojan: 通过选择性权重篡改对联邦语言模型进行隐私泄露攻击
-
-    FLTrojan: Privacy Leakage Attacks against Federated Language Models Through Selective Weight Tampering. (arXiv:2310.16152v1 [cs.CR])
-
-    [http://arxiv.org/abs/2310.16152](http://arxiv.org/abs/2310.16152)
-
-    本文提出了一种FLTrojan攻击方法，通过选择性权重篡改，从联邦语言模型中泄露隐私敏感用户数据。通过观察到FL中中间轮次的模型快照可以引起更大的隐私泄露，并发现隐私泄露可以通过篡改模型的选择性权重来加剧。
+    提出了一种噪声尖峰演员网络（NoisySAN）以解决尖峰神经网络（SNNs）在探索中的弱点，并在连续控制任务上取得了优于最先进方法的表现
 
     
 
-    联邦学习(Federated learning, FL)正成为许多技术应用中的关键组件，包括语言建模领域，其中个体FL参与者在其本地数据集中往往具有敏感的文本数据。然而，确定联邦语言模型中的隐私泄露程度并不简单，现有的攻击只是试图提取数据，而不考虑数据的敏感性或天真性。为了填补这一空白，在本文中，我们介绍了关于从联邦语言模型中泄露隐私敏感用户数据的两个新发现。首先，我们观察到FL中中间轮次的模型快照比最终训练模型能够造成更大的隐私泄露。其次，我们确定隐私泄露可以通过篡改模型的选择性权重来加剧，这些权重特别负责记忆敏感训练数据。我们展示了恶意客户端如何在FL中泄露其他用户的隐私敏感数据。
+    作为深度强化学习中探索的一种通用方法，NoisyNet能够产生特定于问题的探索策略。由于尖峰神经网络（SNNs）具有二进制发放机制，对于噪声具有很强的鲁棒性，因此难以通过局部干扰实现高效探索。为了解决这个探索问题，我们提出了一种引入时间相关噪声的噪声尖峰演员网络（NoisySAN）。此外，还提出了一种噪声减少方法来为代理找到稳定策略。大量实验结果表明，我们的方法在来自OpenAI gym的广泛连续控制任务上优于最先进的性能。
 
-    Federated learning (FL) is becoming a key component in many technology-based applications including language modeling -- where individual FL participants often have privacy-sensitive text data in their local datasets. However, realizing the extent of privacy leakage in federated language models is not straightforward and the existing attacks only intend to extract data regardless of how sensitive or naive it is. To fill this gap, in this paper, we introduce two novel findings with regard to leaking privacy-sensitive user data from federated language models. Firstly, we make a key observation that model snapshots from the intermediate rounds in FL can cause greater privacy leakage than the final trained model. Secondly, we identify that privacy leakage can be aggravated by tampering with a model's selective weights that are specifically responsible for memorizing the sensitive training data. We show how a malicious client can leak the privacy-sensitive data of some other user in FL even
+    arXiv:2403.04162v1 Announce Type: new  Abstract: As a general method for exploration in deep reinforcement learning (RL), NoisyNet can produce problem-specific exploration strategies. Spiking neural networks (SNNs), due to their binary firing mechanism, have strong robustness to noise, making it difficult to realize efficient exploration with local disturbances. To solve this exploration problem, we propose a noisy spiking actor network (NoisySAN) that introduces time-correlated noise during charging and transmission. Moreover, a noise reduction method is proposed to find a stable policy for the agent. Extensive experimental results demonstrate that our method outperforms the state-of-the-art performance on a wide range of continuous control tasks from OpenAI gym.
     
-[^3]: 自适应自蒸馏下的异构数据联邦学习
+[^2]: 组合启发式和多智能体强化学习的多机器人路径规划
 
-    Federated Learning on Heterogeneous Data via Adaptive Self-Distillation. (arXiv:2305.19600v1 [cs.LG])
+    Multi-Robot Path Planning Combining Heuristics and Multi-Agent Reinforcement Learning. (arXiv:2306.01270v1 [cs.AI])
 
-    [http://arxiv.org/abs/2305.19600](http://arxiv.org/abs/2305.19600)
+    [http://arxiv.org/abs/2306.01270](http://arxiv.org/abs/2306.01270)
 
-    本文提出一种基于自适应自蒸馏的新型正则化技术来训练客户端模型，该正则化方案基于客户端本地模型预测和全局模型的相似性以及客户端的标签分布来自适应地调整客户端的训练数据。实验结果表明，该方法在各种基准数据集上优于目前流行的联邦学习方法。
+    提出了一种多机器人路径规划方法MAPPOHR，该方法结合了启发式搜索、经验规则和多智能体强化学习。实验结果表明，该方法在规划效率和避碰能力方面优于现有方法。
 
     
 
-    联邦学习是一种机器学习范式，它使得客户机可以聚合本地训练模型而无需共享任何本地训练数据从而训练全局模型。然而，实践中发现，每个客户端观察到的本地数据分布之间可能存在显著的不均匀性（例如类别不平衡）。在这种不均匀的数据分布下，联邦学习会出现“客户机漂移”问题，导致每个客户端收敛到其自己的局部最优解，这会降低模型的收敛速度并降低模型性能。为了解决这个问题，我们提出了一种基于自适应自蒸馏的新型正则化技术来训练客户端模型。我们的正则化方案基于客户端本地模型预测和全局模型的相似性以及客户端的标签分布来自适应地调整客户端的训练数据。该正则化技术可以轻松地集成在现有的联邦学习算法之上，而不需要对客户端或服务器代码进行任何更改，因此具有高度的可部署性。我们在各种基准数据集上验证了我们的方法，并展示了在非独立同分布数据下的优越性。
+    动态环境下的多机器人路径规划是一个极具挑战性的经典问题。在移动过程中，机器人需要避免与其他移动机器人发生碰撞，同时最小化它们的行驶距离。以往的方法要么使用启发式搜索方法不断重新规划路径以避免冲突，要么基于学习方法选择适当的避碰策略。前者可能由于频繁的重新规划导致行驶距离较长，而后者可能由于低样本探索和利用率而导致学习效率低，从而使模型的训练成本较高。为解决这些问题，我们提出了一种路径规划方法MAPPOHR，该方法结合了启发式搜索、经验规则和多智能体强化学习。该方法包含两个层次：基于多智能体强化学习算法MAPPO的实时规划器，其将经验规则嵌入到动作输出层和奖励函数中；以及一个启发式规划器，它生成初始路径并向MAPPO规划器添加约束。我们的实验结果表明，所提出的方法在规划效率和避碰能力方面优于现有方法。
 
-    Federated Learning (FL) is a machine learning paradigm that enables clients to jointly train a global model by aggregating the locally trained models without sharing any local training data. In practice, there can often be substantial heterogeneity (e.g., class imbalance) across the local data distributions observed by each of these clients. Under such non-iid data distributions across clients, FL suffers from the 'client-drift' problem where every client converges to its own local optimum. This results in slower convergence and poor performance of the aggregated model. To address this limitation, we propose a novel regularization technique based on adaptive self-distillation (ASD) for training models on the client side. Our regularization scheme adaptively adjusts to the client's training data based on: (1) the closeness of the local model's predictions with that of the global model and (2) the client's label distribution. The proposed regularization can be easily integrated atop exis
+    Multi-robot path finding in dynamic environments is a highly challenging classic problem. In the movement process, robots need to avoid collisions with other moving robots while minimizing their travel distance. Previous methods for this problem either continuously replan paths using heuristic search methods to avoid conflicts or choose appropriate collision avoidance strategies based on learning approaches. The former may result in long travel distances due to frequent replanning, while the latter may have low learning efficiency due to low sample exploration and utilization, and causing high training costs for the model. To address these issues, we propose a path planning method, MAPPOHR, which combines heuristic search, empirical rules, and multi-agent reinforcement learning. The method consists of two layers: a real-time planner based on the multi-agent reinforcement learning algorithm, MAPPO, which embeds empirical rules in the action output layer and reward functions, and a heuri
     
 
