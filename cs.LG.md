@@ -2,97 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | ["All of Me": Mining Users' Attributes from their Public Spotify Playlists.](http://arxiv.org/abs/2401.14296) | 本研究调查了Spotify用户属性与他们公开播放列表之间的关系，特别关注识别与用户个人属性相关的音乐特征。 |
-| [^2] | [An Anytime Algorithm for Good Arm Identification.](http://arxiv.org/abs/2310.10359) | 提出了一个适用于随机贝叶斯臂机的随时和无参数采样规则APGAI，通过自适应策略提高了好臂识别效率，在固定置信度和固定预算的情况下有良好实验表现。 |
-| [^3] | [Sharp Generalization of Transductive Learning: A Transductive Local Rademacher Complexity Approach.](http://arxiv.org/abs/2309.16858) | 我们引入了一种新的工具，Transductive Local Rademacher Complexity (TLRC)，用于分析transductive learning方法的泛化性能并推动新的transductive learning算法的发展。我们利用变量的方差信息构建了TLRC，并将transductive learning模型的预测函数类分为多个部分，每个部分的Rademacher complexity上界由一个子根函数给出，并限制了每个部分中所有函数的方差。 |
-| [^4] | [Behavioral Machine Learning? Computer Predictions of Corporate Earnings also Overreact.](http://arxiv.org/abs/2303.16158) | 本文研究发现，机器学习算法可以更准确地预测公司盈利，但同样存在过度反应的问题，而传统培训的股市分析师和经过机器学习方法培训的分析师相比会产生较少的过度反应。 |
-| [^5] | [Vertical Semi-Federated Learning for Efficient Online Advertising.](http://arxiv.org/abs/2209.15635) | 垂直半联合学习为在线广告领域提供了高效的解决方案，通过学习一个联合感知的局部模型以应对传统垂直联合学习的限制。 |
-| [^6] | [The prediction of the quality of results in Logic Synthesis using Transformer and Graph Neural Networks.](http://arxiv.org/abs/2207.11437) | 该论文介绍了一种使用Transformer和图神经网络预测逻辑综合结果质量的深度学习方法，通过将结构转换表示为向量并提取优化序列的特征，以及利用图神经网络学习电路的图表示和预测QoR。 |
+| [^1] | [Iso-Diffusion: Improving Diffusion Probabilistic Models Using the Isotropy of the Additive Gaussian Noise](https://arxiv.org/abs/2403.16790) | 利用加性噪声的各向同性作为约束，改进了扩散概率模型的保真度，验证实验表明这种约束的整合显著提高了模型的性能。 |
+| [^2] | [Differentially Private Knowledge Distillation via Synthetic Text Generation](https://arxiv.org/abs/2403.00932) | 提出一种利用合成数据进行知识蒸馏的差分私密算法 |
+| [^3] | [PCL-Indexability and Whittle Index for Restless Bandits with General Observation Models.](http://arxiv.org/abs/2307.03034) | 本文研究了一种一般观测模型下的不安定多臂赌博机问题，提出了PCL-可索引性和Whittle索引的分析方法，并通过近似过程将问题转化为有限状态问题。数值实验表明算法表现优秀。 |
+| [^4] | [Theoretical Guarantees of Learning Ensembling Strategies with Applications to Time Series Forecasting.](http://arxiv.org/abs/2305.15786) | 本文研究了学习集合策略在时间序列预测中的应用，证明了在有限或有限维叠加泛化模型中选择基于交叉验证性能的最优叠加泛化与最优解性能相近。 |
+| [^5] | [What Symptoms and How Long? An Interpretable AI Approach for Depression Detection in Social Media.](http://arxiv.org/abs/2305.13127) | 本论文介绍了一种使用可解释的人工智能方法在社交媒体中检测抑郁症的方法。该方法创新地检测和解释抑郁症状及其持续时间，并通过大规模数据集的实证分析表明优于其他方法，发现了新的未注意到的症状。 |
 
 # 详细
 
-[^1]: "All of Me": 从公开的Spotify播放列表中挖掘用户属性
+[^1]: Iso-Diffusion: 使用加性高斯噪声的各向同性改进扩散概率模型
 
-    "All of Me": Mining Users' Attributes from their Public Spotify Playlists. (arXiv:2401.14296v1 [cs.CR])
+    Iso-Diffusion: Improving Diffusion Probabilistic Models Using the Isotropy of the Additive Gaussian Noise
 
-    [http://arxiv.org/abs/2401.14296](http://arxiv.org/abs/2401.14296)
+    [https://arxiv.org/abs/2403.16790](https://arxiv.org/abs/2403.16790)
 
-    本研究调查了Spotify用户属性与他们公开播放列表之间的关系，特别关注识别与用户个人属性相关的音乐特征。
-
-    
-
-    在数字音乐流媒体时代，像Spotify这样的平台上的播放列表已经成为个人音乐体验的重要组成部分。人们创建并公开分享自己的播放列表，以表达他们的音乐品味，推广他们最喜爱的艺术家的发现，并促进社交联系。这些可以公开访问的播放列表超越了仅仅音乐偏好的界限：它们是丰富洞察用户属性和身份的来源。例如，老年人的音乐偏好可能更偏向于弗兰克·辛纳屈，而比莉·艾利什仍然是十几岁青少年的首选。因此，这些播放列表成为了一扇了解音乐身份多样而不断演变的窗口。在这项工作中，我们研究了Spotify用户属性和他们的公开播放列表之间的关系。我们特别关注识别与用户个人属性相关的经常出现的音乐特征，例如人口统计信息，习惯或个性等。
-
-    In the age of digital music streaming, playlists on platforms like Spotify have become an integral part of individuals' musical experiences. People create and publicly share their own playlists to express their musical tastes, promote the discovery of their favorite artists, and foster social connections. These publicly accessible playlists transcend the boundaries of mere musical preferences: they serve as sources of rich insights into users' attributes and identities. For example, the musical preferences of elderly individuals may lean more towards Frank Sinatra, while Billie Eilish remains a favored choice among teenagers. These playlists thus become windows into the diverse and evolving facets of one's musical identity.  In this work, we investigate the relationship between Spotify users' attributes and their public playlists. In particular, we focus on identifying recurring musical characteristics associated with users' individual attributes, such as demographics, habits, or perso
-    
-[^2]: 一个适用于好臂识别的随时算法
-
-    An Anytime Algorithm for Good Arm Identification. (arXiv:2310.10359v1 [stat.ML])
-
-    [http://arxiv.org/abs/2310.10359](http://arxiv.org/abs/2310.10359)
-
-    提出了一个适用于随机贝叶斯臂机的随时和无参数采样规则APGAI，通过自适应策略提高了好臂识别效率，在固定置信度和固定预算的情况下有良好实验表现。
+    利用加性噪声的各向同性作为约束，改进了扩散概率模型的保真度，验证实验表明这种约束的整合显著提高了模型的性能。
 
     
 
-    在好臂识别（GAI）中，目标是识别其中一个平均性能超过给定阈值的臂，称为好臂（如果存在）。目前很少有研究在固定预算的情况下进行GAI，即在先确定好预算之后，或者在任何时刻都可以要求推荐的随时设置下进行GAI。我们提出了一种名为APGAI的随时和无参数采样规则，用于随机贝叶斯臂机。APGAI可以直接用于固定置信度和固定预算的设定中。首先，我们得出其任何时刻的误差概率的上界。这些上界表明，自适应策略在检测没有好臂的时候比均匀采样更高效。其次，当APGAI与一个停止规则结合时，我们证明了在任何置信水平下的预期采样复杂性的上界。最后，我们展示了APGAI在合成数据和真实世界数据上的良好实验性能。我们的工作为所有设置中的GAI问题提供了一个广泛的概述。
+    去噪扩散概率模型（DDPMs）在生成人工智能领域取得了很大成就。尽管它们性能很高，但还有改进的空间，特别是通过利用强加结构完整性的统计属性来提高样本保真度，如各向同性。仅减小加性和预测噪声之间的均方误差并不能强加对预测噪声为各向同性的约束。因此，我们受到动力，利用加性噪声的各向同性作为目标函数的约束来增强DDPMs的保真度。我们的方法简单，并可应用于任何DDPM变体。我们通过在四个合成2D数据集上进行的实验以及无条件图像生成来验证我们的方法。正如结果所示，这种约束的整合改善了2D数据集的保真度指标Precision和Density以及无条件图像生成的指标。
 
-    In good arm identification (GAI), the goal is to identify one arm whose average performance exceeds a given threshold, referred to as good arm, if it exists. Few works have studied GAI in the fixed-budget setting, when the sampling budget is fixed beforehand, or the anytime setting, when a recommendation can be asked at any time. We propose APGAI, an anytime and parameter-free sampling rule for GAI in stochastic bandits. APGAI can be straightforwardly used in fixed-confidence and fixed-budget settings. First, we derive upper bounds on its probability of error at any time. They show that adaptive strategies are more efficient in detecting the absence of good arms than uniform sampling. Second, when APGAI is combined with a stopping rule, we prove upper bounds on the expected sampling complexity, holding at any confidence level. Finally, we show good empirical performance of APGAI on synthetic and real-world data. Our work offers an extensive overview of the GAI problem in all settings.
+    arXiv:2403.16790v1 Announce Type: new  Abstract: Denoising Diffusion Probabilistic Models (DDPMs) have accomplished much in the realm of generative AI. Despite their high performance, there is room for improvement, especially in terms of sample fidelity by utilizing statistical properties that impose structural integrity, such as isotropy. Minimizing the mean squared error between the additive and predicted noise alone does not impose constraints on the predicted noise to be isotropic. Thus, we were motivated to utilize the isotropy of the additive noise as a constraint on the objective function to enhance the fidelity of DDPMs. Our approach is simple and can be applied to any DDPM variant. We validate our approach by presenting experiments conducted on four synthetic 2D datasets as well as on unconditional image generation. As demonstrated by the results, the incorporation of this constraint improves the fidelity metrics, Precision and Density for the 2D datasets as well as for the un
     
-[^3]: Transductive Learning的尖锐泛化：一种Transductive Local Rademacher Complexity方法
+[^2]: 通过合成文本生成的差分私密知识蒸馏
 
-    Sharp Generalization of Transductive Learning: A Transductive Local Rademacher Complexity Approach. (arXiv:2309.16858v1 [stat.ML])
+    Differentially Private Knowledge Distillation via Synthetic Text Generation
 
-    [http://arxiv.org/abs/2309.16858](http://arxiv.org/abs/2309.16858)
+    [https://arxiv.org/abs/2403.00932](https://arxiv.org/abs/2403.00932)
 
-    我们引入了一种新的工具，Transductive Local Rademacher Complexity (TLRC)，用于分析transductive learning方法的泛化性能并推动新的transductive learning算法的发展。我们利用变量的方差信息构建了TLRC，并将transductive learning模型的预测函数类分为多个部分，每个部分的Rademacher complexity上界由一个子根函数给出，并限制了每个部分中所有函数的方差。
-
-    
-
-    我们引入了一种新的工具，Transductive Local Rademacher Complexity (TLRC)，用于分析transductive learning方法的泛化性能并推动新的transductive learning算法的发展。我们的工作将传统的local rademacher complexity (LRC)的思想扩展到了transductive设置中，相对于典型的LRC方法在归纳设置中的分析有了相当大的变化。我们提出了一种基于Rademacher complex的局部化工具，可以应用于各种transductive learning问题，并在适当条件下得到了尖锐的界限。与LRC的发展类似，我们通过从独立变量的方差信息开始构建TLRC，将transductive learning模型的预测函数类分为多个部分，每个部分的Rademacher complexity上界由一个子根函数给出，并限制了每个部分中所有函数的方差。经过精心设计的...
-
-    We introduce a new tool, Transductive Local Rademacher Complexity (TLRC), to analyze the generalization performance of transductive learning methods and motivate new transductive learning algorithms. Our work extends the idea of the popular Local Rademacher Complexity (LRC) to the transductive setting with considerable changes compared to the analysis of typical LRC methods in the inductive setting. We present a localized version of Rademacher complexity based tool wihch can be applied to various transductive learning problems and gain sharp bounds under proper conditions. Similar to the development of LRC, we build TLRC by starting from a sharp concentration inequality for independent variables with variance information. The prediction function class of a transductive learning model is then divided into pieces with a sub-root function being the upper bound for the Rademacher complexity of each piece, and the variance of all the functions in each piece is limited. A carefully designed 
-    
-[^4]: 机器学习准确预测财报，但同样存在过度反应
-
-    Behavioral Machine Learning? Computer Predictions of Corporate Earnings also Overreact. (arXiv:2303.16158v1 [q-fin.ST])
-
-    [http://arxiv.org/abs/2303.16158](http://arxiv.org/abs/2303.16158)
-
-    本文研究发现，机器学习算法可以更准确地预测公司盈利，但同样存在过度反应的问题，而传统培训的股市分析师和经过机器学习方法培训的分析师相比会产生较少的过度反应。
+    提出一种利用合成数据进行知识蒸馏的差分私密算法
 
     
 
-    大量证据表明，在金融领域中，机器学习算法的预测能力比人类更为准确。但是，文献并未测试算法预测是否更为理性。本文研究了几个算法（包括线性回归和一种名为Gradient Boosted Regression Trees的流行算法）对于公司盈利的预测结果。结果发现，GBRT平均胜过线性回归和人类股市分析师，但仍存在过度反应且无法满足理性预期标准。通过降低学习率，可最小程度上减少过度反应程度，但这会牺牲预测准确性。通过机器学习方法培训过的股市分析师比传统训练的分析师产生的过度反应较少。此外，股市分析师的预测反映出机器算法没有捕捉到的信息。
+    大型语言模型(LLMs)在许多不同的下游任务中实现了最先进的性能。然而，数据隐私的增加紧迫性要求LLMs在私有数据上使用差分隐私(DP)进行训练。同时，还需要压缩LLMs以在资源受限的设备或延迟敏感的应用中进行真实部署。差分隐私和模型压缩通常必须在实现其目标的过程中权衡效用损失。此外，同时实现这两者可能导致更多的效用损失。为此，我们提出了一种新颖的差分私密知识蒸馏算法，该算法利用了由差分私密LLM生成的合成数据。教师模型的知识以两种方式转移到学生模型上：一种是来自合成数据本身的硬标签，另一种是通过在合成数据上评估的教师模型的输出分布。
 
-    There is considerable evidence that machine learning algorithms have better predictive abilities than humans in various financial settings. But, the literature has not tested whether these algorithmic predictions are more rational than human predictions. We study the predictions of corporate earnings from several algorithms, notably linear regressions and a popular algorithm called Gradient Boosted Regression Trees (GBRT). On average, GBRT outperformed both linear regressions and human stock analysts, but it still overreacted to news and did not satisfy rational expectation as normally defined. By reducing the learning rate, the magnitude of overreaction can be minimized, but it comes with the cost of poorer out-of-sample prediction accuracy. Human stock analysts who have been trained in machine learning methods overreact less than traditionally trained analysts. Additionally, stock analyst predictions reflect information not otherwise available to machine algorithms.
+    arXiv:2403.00932v1 Announce Type: cross  Abstract: Large Language models (LLMs) are achieving state-of-the-art performance in many different downstream tasks. However, the increasing urgency of data privacy requires LLMs to train with Differential Privacy (DP) on private data. Concurrently it is also necessary to compress LLMs for real-life deployments on resource-constrained devices or latency-sensitive applications. Differential privacy and model compression generally must trade off utility loss to achieve their objectives. Moreover, concurrently achieving both can result in even more utility loss. To this end, we propose a novel differentially private knowledge distillation algorithm that exploits synthetic data generated by a differentially private LLM. The knowledge of a teacher model is transferred onto the student in two ways: one way from the synthetic data itself, the hard labels, and the other way by the output distribution of the teacher model evaluated on the synthetic data
     
-[^5]: 垂直半联合学习用于高效在线广告
+[^3]: 带有一般观测模型的不安定赌博机问题的PCL-可索引性和Whittle索引
 
-    Vertical Semi-Federated Learning for Efficient Online Advertising. (arXiv:2209.15635v2 [cs.LG] UPDATED)
+    PCL-Indexability and Whittle Index for Restless Bandits with General Observation Models. (arXiv:2307.03034v1 [stat.ML])
 
-    [http://arxiv.org/abs/2209.15635](http://arxiv.org/abs/2209.15635)
+    [http://arxiv.org/abs/2307.03034](http://arxiv.org/abs/2307.03034)
 
-    垂直半联合学习为在线广告领域提供了高效的解决方案，通过学习一个联合感知的局部模型以应对传统垂直联合学习的限制。
-
-    
-
-    传统的垂直联合学习架构存在两个主要问题：1）适用范围受限于重叠样本；2）实时联合服务的系统挑战较高，这限制了其在广告系统中的应用。为解决这些问题，我们提出了一种新的学习设置——半垂直联合学习(Semi-VFL)，以应对这些挑战。半垂直联合学习旨在实现垂直联合学习的实际工业应用方式，通过学习一个联合感知的局部模型，该模型表现优于单方模型，同时保持了局部服务的便利性。为此，我们提出了精心设计的联合特权学习框架(JPL)，来解决被动方特征缺失和适应整个样本空间这两个问题。具体而言，我们构建了一个推理高效的适用于整个样本空间的单方学生模型，同时保持了联合特征扩展的优势。新的表示蒸馏
-
-    The traditional vertical federated learning schema suffers from two main issues: 1) restricted applicable scope to overlapped samples and 2) high system challenge of real-time federated serving, which limits its application to advertising systems. To this end, we advocate a new learning setting Semi-VFL (Vertical Semi-Federated Learning) to tackle these challenge. Semi-VFL is proposed to achieve a practical industry application fashion for VFL, by learning a federation-aware local model which performs better than single-party models and meanwhile maintain the convenience of local-serving. For this purpose, we propose the carefully designed Joint Privileged Learning framework (JPL) to i) alleviate the absence of the passive party's feature and ii) adapt to the whole sample space. Specifically, we build an inference-efficient single-party student model applicable to the whole sample space and meanwhile maintain the advantage of the federated feature extension. New representation distilla
-    
-[^6]: 使用Transformer和图神经网络预测逻辑综合结果的质量
-
-    The prediction of the quality of results in Logic Synthesis using Transformer and Graph Neural Networks. (arXiv:2207.11437v2 [cs.AR] UPDATED)
-
-    [http://arxiv.org/abs/2207.11437](http://arxiv.org/abs/2207.11437)
-
-    该论文介绍了一种使用Transformer和图神经网络预测逻辑综合结果质量的深度学习方法，通过将结构转换表示为向量并提取优化序列的特征，以及利用图神经网络学习电路的图表示和预测QoR。
+    本文研究了一种一般观测模型下的不安定多臂赌博机问题，提出了PCL-可索引性和Whittle索引的分析方法，并通过近似过程将问题转化为有限状态问题。数值实验表明算法表现优秀。
 
     
 
-    在逻辑综合阶段，综合工具中的结构转换需要与优化序列结合，并作用于电路，以满足指定的电路面积和延迟。然而，逻辑综合优化序列的运行时间较长，为电路对综合优化序列的结果质量（QoR）进行预测可以帮助工程师更快地找到更好的优化序列。在这项工作中，我们提出了一种深度学习方法，用于预测未见过的电路-优化序列对的QoR。具体而言，通过嵌入方法将结构转换转化为向量，并利用先进的自然语言处理（NLP）技术（Transformer）提取优化序列的特征。此外，为了使模型的预测过程能够从电路泛化到电路，电路的图表示被表示为邻接矩阵和特征矩阵。图神经网络被用于学习电路的图表示和预测QoR。
+    本文考虑了一种一般观测模型，用于不安定多臂赌博机问题。由于资源约束或环境或固有噪声，玩家操作需要基于某种有误差的反馈机制。通过建立反馈/观测动力学的一般概率模型，我们将问题表述为一个从任意初始信念（先验信息）开始的具有可数信念状态空间的不安定赌博机问题。我们利用具有部分守恒定律（PCL）的可实现区域方法，分析了无限状态问题的可索引性和优先级索引（Whittle索引）。最后，我们提出了一个近似过程，将问题转化为可以应用Niño-Mora和Bertsimas针对有限状态问题的AG算法的问题。数值实验表明，我们的算法具有出色的性能。
 
-    In the logic synthesis stage, structure transformations in the synthesis tool need to be combined into optimization sequences and act on the circuit to meet the specified circuit area and delay. However, logic synthesis optimization sequences are time-consuming to run, and predicting the quality of the results (QoR) against the synthesis optimization sequence for a circuit can help engineers find a better optimization sequence faster. In this work, we propose a deep learning method to predict the QoR of unseen circuit-optimization sequences pairs. Specifically, the structure transformations are translated into vectors by embedding methods and advanced natural language processing (NLP) technology (Transformer) is used to extract the features of the optimization sequences. In addition, to enable the prediction process of the model to be generalized from circuit to circuit, the graph representation of the circuit is represented as an adjacency matrix and a feature matrix. Graph neural net
+    In this paper, we consider a general observation model for restless multi-armed bandit problems. The operation of the player needs to be based on certain feedback mechanism that is error-prone due to resource constraints or environmental or intrinsic noises. By establishing a general probabilistic model for dynamics of feedback/observation, we formulate the problem as a restless bandit with a countable belief state space starting from an arbitrary initial belief (a priori information). We apply the achievable region method with partial conservation law (PCL) to the infinite-state problem and analyze its indexability and priority index (Whittle index). Finally, we propose an approximation process to transform the problem into which the AG algorithm of Ni\~no-Mora and Bertsimas for finite-state problems can be applied to. Numerical experiments show that our algorithm has an excellent performance.
+    
+[^4]: 学习集合策略的理论保证及其在时间序列预测中的应用
+
+    Theoretical Guarantees of Learning Ensembling Strategies with Applications to Time Series Forecasting. (arXiv:2305.15786v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.15786](http://arxiv.org/abs/2305.15786)
+
+    本文研究了学习集合策略在时间序列预测中的应用，证明了在有限或有限维叠加泛化模型中选择基于交叉验证性能的最优叠加泛化与最优解性能相近。
+
+    
+
+    集合是机器学习中最常用的工具之一，由于其能够有效地减少方差，从而提高泛化性能。针对黑盒基学习器的大多数集合方法都属于“叠加泛化”范畴，即训练一个接受基学习器推理作为输入的机器学习算法。虽然叠加泛化在实践中广泛应用，但其理论性质仍然不为人所知。本文证明了一个新的结果，表明选择基于交叉验证性能的“有限或有限维”叠加泛化中的最佳叠加泛化并不比最优解表现“差得多”。这一结果加强和大大扩展了Van der Laan等人（2007年）的结果。受到理论分析的启发，我们在概率预测的背景下进一步提出了一系列不同敏感性的叠加泛化模型。
+
+    Ensembling is among the most popular tools in machine learning (ML) due to its effectiveness in minimizing variance and thus improving generalization. Most ensembling methods for black-box base learners fall under the umbrella of "stacked generalization," namely training an ML algorithm that takes the inferences from the base learners as input. While stacking has been widely applied in practice, its theoretical properties are poorly understood. In this paper, we prove a novel result, showing that choosing the best stacked generalization from a (finite or finite-dimensional) family of stacked generalizations based on cross-validated performance does not perform "much worse" than the oracle best. Our result strengthens and significantly extends the results in Van der Laan et al. (2007). Inspired by the theoretical analysis, we further propose a particular family of stacked generalizations in the context of probabilistic forecasting, each one with a different sensitivity for how much the 
+    
+[^5]: 什么症状以及持续多久？一种可解释的人工智能方法用于社交媒体中的抑郁症检测。
+
+    What Symptoms and How Long? An Interpretable AI Approach for Depression Detection in Social Media. (arXiv:2305.13127v2 [q-bio.QM] UPDATED)
+
+    [http://arxiv.org/abs/2305.13127](http://arxiv.org/abs/2305.13127)
+
+    本论文介绍了一种使用可解释的人工智能方法在社交媒体中检测抑郁症的方法。该方法创新地检测和解释抑郁症状及其持续时间，并通过大规模数据集的实证分析表明优于其他方法，发现了新的未注意到的症状。
+
+    
+
+    抑郁症是最常见和严重的精神疾病，引发了严重的经济和社会影响。抑郁症的检测对于早期干预以减轻这些后果至关重要。这种高风险的决策本质上需要可解释性。虽然有一些抑郁症检测研究试图基于重要性分数或关注权重解释决策，但这些解释与临床抑郁症诊断标准不一致，后者基于抑郁症状。为了填补这一空白，我们遵循计算设计科学范式，开发了一种新颖的多尺度时间原型网络(MSTPNet)。MSTPNet创新地检测和解释抑郁症状及其持续时间。使用大规模数据集进行深入实证分析表明，MSTPNet在F1分数0.851上优于最先进的抑郁症检测方法。这个结果还揭示了未在调查方法中注意到的新症状，例如分享。
+
+    Depression is the most prevalent and serious mental illness, which induces grave financial and societal ramifications. Depression detection is key for early intervention to mitigate those consequences. Such a high-stake decision inherently necessitates interpretability. Although a few depression detection studies attempt to explain the decision based on the importance score or attention weights, these explanations misalign with the clinical depression diagnosis criterion that is based on depressive symptoms. To fill this gap, we follow the computational design science paradigm to develop a novel Multi-Scale Temporal Prototype Network (MSTPNet). MSTPNet innovatively detects and interprets depressive symptoms as well as how long they last. Extensive empirical analyses using a large-scale dataset show that MSTPNet outperforms state-of-the-art depression detection methods with an F1-score of 0.851. This result also reveals new symptoms that are unnoted in the survey approach, such as shari
     
 

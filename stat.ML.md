@@ -2,52 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Statistical inference for pairwise comparison models.](http://arxiv.org/abs/2401.08463) | 本论文通过建立极大似然估计量的渐近正态性结果，填补了配对比较模型中统计推断的空白，为各种配对比较模型提供了统一的方法，超越了Bradley-Terry模型，为实践者提供了坚实的理论保证。 |
-| [^2] | [An Anytime Algorithm for Good Arm Identification.](http://arxiv.org/abs/2310.10359) | 提出了一个适用于随机贝叶斯臂机的随时和无参数采样规则APGAI，通过自适应策略提高了好臂识别效率，在固定置信度和固定预算的情况下有良好实验表现。 |
-| [^3] | [Sharp Generalization of Transductive Learning: A Transductive Local Rademacher Complexity Approach.](http://arxiv.org/abs/2309.16858) | 我们引入了一种新的工具，Transductive Local Rademacher Complexity (TLRC)，用于分析transductive learning方法的泛化性能并推动新的transductive learning算法的发展。我们利用变量的方差信息构建了TLRC，并将transductive learning模型的预测函数类分为多个部分，每个部分的Rademacher complexity上界由一个子根函数给出，并限制了每个部分中所有函数的方差。 |
+| [^1] | [Cliqueful graphs as a means of calculating the maximal number of maximum cliques of simple graphs.](http://arxiv.org/abs/2307.14120) | 本论文研究了充满团图的概念，并且发现在简单图中，充满团图的最大数量取决于饱和复合充满团图。通过具体计算，我们得到了在n个顶点上具有最多最大团数量的图形式表达式。 |
+| [^2] | [PCL-Indexability and Whittle Index for Restless Bandits with General Observation Models.](http://arxiv.org/abs/2307.03034) | 本文研究了一种一般观测模型下的不安定多臂赌博机问题，提出了PCL-可索引性和Whittle索引的分析方法，并通过近似过程将问题转化为有限状态问题。数值实验表明算法表现优秀。 |
+| [^3] | [Theoretical Guarantees of Learning Ensembling Strategies with Applications to Time Series Forecasting.](http://arxiv.org/abs/2305.15786) | 本文研究了学习集合策略在时间序列预测中的应用，证明了在有限或有限维叠加泛化模型中选择基于交叉验证性能的最优叠加泛化与最优解性能相近。 |
 
 # 详细
 
-[^1]: 对于配对比较模型的统计推断
+[^1]: 作为计算简单图的最大团的最大数量的手段的充满团图
 
-    Statistical inference for pairwise comparison models. (arXiv:2401.08463v1 [math.ST])
+    Cliqueful graphs as a means of calculating the maximal number of maximum cliques of simple graphs. (arXiv:2307.14120v1 [math.CO])
 
-    [http://arxiv.org/abs/2401.08463](http://arxiv.org/abs/2401.08463)
+    [http://arxiv.org/abs/2307.14120](http://arxiv.org/abs/2307.14120)
 
-    本论文通过建立极大似然估计量的渐近正态性结果，填补了配对比较模型中统计推断的空白，为各种配对比较模型提供了统一的方法，超越了Bradley-Terry模型，为实践者提供了坚实的理论保证。
-
-    
-
-    配对比较模型被用于各个领域的实用性和排名评估。现代问题规模的增加强调了对于当被比较对象数量无限增加时，对于这些模型中的统计推断的理解的需求。目前，文献中对于这些模型中的统计推断的理解还相当有限，除非只是在少数特殊实例中。本文通过在广泛的配对比较模型中建立极大似然估计量的渐近正态性结果来填补这一空白。关键思想在于将费舍尔信息矩阵识别为加权图拉普拉斯矩阵，通过一种细致入微的谱分析方法来进行研究。我们的发现为在各种配对比较模型中进行统计推断提供了第一个统一的方法，超越了Bradley-Terry模型，为实践者提供了坚实的理论保证。通过利用合成数据进行的模拟验证这一渐近正态性结果，然后进行了
-
-    Pairwise comparison models are used for quantitatively evaluating utility and ranking in various fields. The increasing scale of modern problems underscores the need to understand statistical inference in these models when the number of subjects diverges, which is currently lacking in the literature except in a few special instances. This paper addresses this gap by establishing an asymptotic normality result for the maximum likelihood estimator in a broad class of pairwise comparison models. The key idea lies in identifying the Fisher information matrix as a weighted graph Laplacian matrix which can be studied via a meticulous spectral analysis. Our findings provide the first unified theory for performing statistical inference in a wide range of pairwise comparison models beyond the Bradley--Terry model, benefiting practitioners with a solid theoretical guarantee for their use. Simulations utilizing synthetic data are conducted to validate the asymptotic normality result, followed by 
-    
-[^2]: 一个适用于好臂识别的随时算法
-
-    An Anytime Algorithm for Good Arm Identification. (arXiv:2310.10359v1 [stat.ML])
-
-    [http://arxiv.org/abs/2310.10359](http://arxiv.org/abs/2310.10359)
-
-    提出了一个适用于随机贝叶斯臂机的随时和无参数采样规则APGAI，通过自适应策略提高了好臂识别效率，在固定置信度和固定预算的情况下有良好实验表现。
+    本论文研究了充满团图的概念，并且发现在简单图中，充满团图的最大数量取决于饱和复合充满团图。通过具体计算，我们得到了在n个顶点上具有最多最大团数量的图形式表达式。
 
     
 
-    在好臂识别（GAI）中，目标是识别其中一个平均性能超过给定阈值的臂，称为好臂（如果存在）。目前很少有研究在固定预算的情况下进行GAI，即在先确定好预算之后，或者在任何时刻都可以要求推荐的随时设置下进行GAI。我们提出了一种名为APGAI的随时和无参数采样规则，用于随机贝叶斯臂机。APGAI可以直接用于固定置信度和固定预算的设定中。首先，我们得出其任何时刻的误差概率的上界。这些上界表明，自适应策略在检测没有好臂的时候比均匀采样更高效。其次，当APGAI与一个停止规则结合时，我们证明了在任何置信水平下的预期采样复杂性的上界。最后，我们展示了APGAI在合成数据和真实世界数据上的良好实验性能。我们的工作为所有设置中的GAI问题提供了一个广泛的概述。
+    一个简单图在n个顶点上可能包含许多最大团。但它可能包含多少个呢？我们将展示最大团的最大数量取决于所谓的充满团图，具体地说，如果n≥15，我们将展示它取决于饱和复合充满团图。利用这一点，我们将展示包含3^{⌊n/3⌋}c个最大团的图在n个顶点上具有最多的最大团数量，其中c∈{1,4/3,2}，取决于n模3的值。
 
-    In good arm identification (GAI), the goal is to identify one arm whose average performance exceeds a given threshold, referred to as good arm, if it exists. Few works have studied GAI in the fixed-budget setting, when the sampling budget is fixed beforehand, or the anytime setting, when a recommendation can be asked at any time. We propose APGAI, an anytime and parameter-free sampling rule for GAI in stochastic bandits. APGAI can be straightforwardly used in fixed-confidence and fixed-budget settings. First, we derive upper bounds on its probability of error at any time. They show that adaptive strategies are more efficient in detecting the absence of good arms than uniform sampling. Second, when APGAI is combined with a stopping rule, we prove upper bounds on the expected sampling complexity, holding at any confidence level. Finally, we show good empirical performance of APGAI on synthetic and real-world data. Our work offers an extensive overview of the GAI problem in all settings.
+    A simple graph on $n$ vertices may contain a lot of maximum cliques. But how many can it potentially contain? We will show that the maximum number of maximum cliques is taken over so-called cliqueful graphs, more specifically, later we will show that it is taken over saturated composite cliqueful graphs, if $n \ge 15$. Using this we will show that the graph that contains $3^{\lfloor n/3 \rfloor}c$ maxcliques has the most number of maxcliques on $n$ vertices, where $c\in\{1,\frac{4}{3},2\}$, depending on $n \text{ mod } 3$.
     
-[^3]: Transductive Learning的尖锐泛化：一种Transductive Local Rademacher Complexity方法
+[^2]: 带有一般观测模型的不安定赌博机问题的PCL-可索引性和Whittle索引
 
-    Sharp Generalization of Transductive Learning: A Transductive Local Rademacher Complexity Approach. (arXiv:2309.16858v1 [stat.ML])
+    PCL-Indexability and Whittle Index for Restless Bandits with General Observation Models. (arXiv:2307.03034v1 [stat.ML])
 
-    [http://arxiv.org/abs/2309.16858](http://arxiv.org/abs/2309.16858)
+    [http://arxiv.org/abs/2307.03034](http://arxiv.org/abs/2307.03034)
 
-    我们引入了一种新的工具，Transductive Local Rademacher Complexity (TLRC)，用于分析transductive learning方法的泛化性能并推动新的transductive learning算法的发展。我们利用变量的方差信息构建了TLRC，并将transductive learning模型的预测函数类分为多个部分，每个部分的Rademacher complexity上界由一个子根函数给出，并限制了每个部分中所有函数的方差。
+    本文研究了一种一般观测模型下的不安定多臂赌博机问题，提出了PCL-可索引性和Whittle索引的分析方法，并通过近似过程将问题转化为有限状态问题。数值实验表明算法表现优秀。
 
     
 
-    我们引入了一种新的工具，Transductive Local Rademacher Complexity (TLRC)，用于分析transductive learning方法的泛化性能并推动新的transductive learning算法的发展。我们的工作将传统的local rademacher complexity (LRC)的思想扩展到了transductive设置中，相对于典型的LRC方法在归纳设置中的分析有了相当大的变化。我们提出了一种基于Rademacher complex的局部化工具，可以应用于各种transductive learning问题，并在适当条件下得到了尖锐的界限。与LRC的发展类似，我们通过从独立变量的方差信息开始构建TLRC，将transductive learning模型的预测函数类分为多个部分，每个部分的Rademacher complexity上界由一个子根函数给出，并限制了每个部分中所有函数的方差。经过精心设计的...
+    本文考虑了一种一般观测模型，用于不安定多臂赌博机问题。由于资源约束或环境或固有噪声，玩家操作需要基于某种有误差的反馈机制。通过建立反馈/观测动力学的一般概率模型，我们将问题表述为一个从任意初始信念（先验信息）开始的具有可数信念状态空间的不安定赌博机问题。我们利用具有部分守恒定律（PCL）的可实现区域方法，分析了无限状态问题的可索引性和优先级索引（Whittle索引）。最后，我们提出了一个近似过程，将问题转化为可以应用Niño-Mora和Bertsimas针对有限状态问题的AG算法的问题。数值实验表明，我们的算法具有出色的性能。
 
-    We introduce a new tool, Transductive Local Rademacher Complexity (TLRC), to analyze the generalization performance of transductive learning methods and motivate new transductive learning algorithms. Our work extends the idea of the popular Local Rademacher Complexity (LRC) to the transductive setting with considerable changes compared to the analysis of typical LRC methods in the inductive setting. We present a localized version of Rademacher complexity based tool wihch can be applied to various transductive learning problems and gain sharp bounds under proper conditions. Similar to the development of LRC, we build TLRC by starting from a sharp concentration inequality for independent variables with variance information. The prediction function class of a transductive learning model is then divided into pieces with a sub-root function being the upper bound for the Rademacher complexity of each piece, and the variance of all the functions in each piece is limited. A carefully designed 
+    In this paper, we consider a general observation model for restless multi-armed bandit problems. The operation of the player needs to be based on certain feedback mechanism that is error-prone due to resource constraints or environmental or intrinsic noises. By establishing a general probabilistic model for dynamics of feedback/observation, we formulate the problem as a restless bandit with a countable belief state space starting from an arbitrary initial belief (a priori information). We apply the achievable region method with partial conservation law (PCL) to the infinite-state problem and analyze its indexability and priority index (Whittle index). Finally, we propose an approximation process to transform the problem into which the AG algorithm of Ni\~no-Mora and Bertsimas for finite-state problems can be applied to. Numerical experiments show that our algorithm has an excellent performance.
+    
+[^3]: 学习集合策略的理论保证及其在时间序列预测中的应用
+
+    Theoretical Guarantees of Learning Ensembling Strategies with Applications to Time Series Forecasting. (arXiv:2305.15786v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.15786](http://arxiv.org/abs/2305.15786)
+
+    本文研究了学习集合策略在时间序列预测中的应用，证明了在有限或有限维叠加泛化模型中选择基于交叉验证性能的最优叠加泛化与最优解性能相近。
+
+    
+
+    集合是机器学习中最常用的工具之一，由于其能够有效地减少方差，从而提高泛化性能。针对黑盒基学习器的大多数集合方法都属于“叠加泛化”范畴，即训练一个接受基学习器推理作为输入的机器学习算法。虽然叠加泛化在实践中广泛应用，但其理论性质仍然不为人所知。本文证明了一个新的结果，表明选择基于交叉验证性能的“有限或有限维”叠加泛化中的最佳叠加泛化并不比最优解表现“差得多”。这一结果加强和大大扩展了Van der Laan等人（2007年）的结果。受到理论分析的启发，我们在概率预测的背景下进一步提出了一系列不同敏感性的叠加泛化模型。
+
+    Ensembling is among the most popular tools in machine learning (ML) due to its effectiveness in minimizing variance and thus improving generalization. Most ensembling methods for black-box base learners fall under the umbrella of "stacked generalization," namely training an ML algorithm that takes the inferences from the base learners as input. While stacking has been widely applied in practice, its theoretical properties are poorly understood. In this paper, we prove a novel result, showing that choosing the best stacked generalization from a (finite or finite-dimensional) family of stacked generalizations based on cross-validated performance does not perform "much worse" than the oracle best. Our result strengthens and significantly extends the results in Van der Laan et al. (2007). Inspired by the theoretical analysis, we further propose a particular family of stacked generalizations in the context of probabilistic forecasting, each one with a different sensitivity for how much the 
     
 
