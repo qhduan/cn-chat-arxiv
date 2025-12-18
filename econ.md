@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Nowcasting with signature methods.](http://arxiv.org/abs/2305.10256) | 该论文提出了利用路径签名进行回归建模，通过线性模型嵌入连续时间处理了混杂频率和不规则采样带来的缺失数据问题，相较于卡尔曼滤波器更为优秀。该方法已应用于金融、医学和网络安全领域达到最先进水平。 |
+| [^1] | [Testing for equivalence of pre-trends in Difference-in-Differences estimation.](http://arxiv.org/abs/2310.15796) | 本文提出了一种测试方法，旨在评估Difference-in-Differences估计中“平行趋势假设”的合理性，从而提高治疗效果估计的可信度。 |
 
 # 详细
 
-[^1]: 基于特征数据的实时预测方法
+[^1]: Difference-in-Differences估计中的前期趋势等效性测试
 
-    Nowcasting with signature methods. (arXiv:2305.10256v1 [econ.EM])
+    Testing for equivalence of pre-trends in Difference-in-Differences estimation. (arXiv:2310.15796v1 [econ.EM])
 
-    [http://arxiv.org/abs/2305.10256](http://arxiv.org/abs/2305.10256)
+    [http://arxiv.org/abs/2310.15796](http://arxiv.org/abs/2310.15796)
 
-    该论文提出了利用路径签名进行回归建模，通过线性模型嵌入连续时间处理了混杂频率和不规则采样带来的缺失数据问题，相较于卡尔曼滤波器更为优秀。该方法已应用于金融、医学和网络安全领域达到最先进水平。
+    本文提出了一种测试方法，旨在评估Difference-in-Differences估计中“平行趋势假设”的合理性，从而提高治疗效果估计的可信度。
 
     
 
-    许多重要的经济变量经常延迟一个月以上才能公布。当前预测方法已经在快速、可靠地估算经济滞后指标方面发挥了作用，与信号处理中的滤波方法密切相关。路径签名是一种数学对象，它捕捉序列数据的几何属性；它通过将观察到的数据嵌入连续时间，自然地处理混合频率和/或不规则采样带来的缺失数据问题，在金融、医学和网络安全等领域的应用已经达到了最先进的水平。我们通过对签名回归进行简单的线性建模来研究现在预测问题，这种方法比流行的卡尔曼滤波器更优秀。我们通过模拟实验量化了性能，并通过对美国GDP增长的预测应用进行了说明。
+    通常通过对双组平均结果的差异在治疗前时间段保持恒定的零假设进行测试来评估Difference-in-Differences估计中“平行趋势假设”的合理性。然而，未能拒绝零假设并不意味着两组之间的时间趋势没有差异。我们提供了等效性测试，使研究人员能够找到支持平行趋势假设的证据，从而增加他们的治疗效果估计的可信度。虽然我们在标准的双向固定效应模型中对我们的测试进行了解释，但我们还讨论了在时间分散的治疗采用设置中的简单扩展。
 
-    Key economic variables are often published with a significant delay of over a month. The nowcasting literature has arisen to provide fast, reliable estimates of delayed economic indicators and is closely related to filtering methods in signal processing. The path signature is a mathematical object which captures geometric properties of sequential data; it naturally handles missing data from mixed frequency and/or irregular sampling -- issues often encountered when merging multiple data sources -- by embedding the observed data in continuous time. Calculating path signatures and using them as features in models has achieved state-of-the-art results in fields such as finance, medicine, and cyber security. We look at the nowcasting problem by applying regression on signatures, a simple linear model on these nonlinear objects that we show subsumes the popular Kalman filter. We quantify the performance via a simulation exercise, and through application to nowcasting US GDP growth, where we 
+    The plausibility of the ``parallel trends assumption'' in Difference-in-Differences estimation is usually assessed by a test of the null hypothesis that the difference between the average outcomes of both groups is constant over time before the treatment. However, failure to reject the null hypothesis does not imply the absence of differences in time trends between both groups. We provide equivalence tests that allow researchers to find evidence in favor of the parallel trends assumption and thus increase the credibility of their treatment effect estimates. While we motivate our tests in the standard two-way fixed effects model, we discuss simple extensions to settings in which treatment adoption is staggered over time.
     
 

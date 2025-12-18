@@ -2,82 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Iso-Diffusion: Improving Diffusion Probabilistic Models Using the Isotropy of the Additive Gaussian Noise](https://arxiv.org/abs/2403.16790) | 利用加性噪声的各向同性作为约束，改进了扩散概率模型的保真度，验证实验表明这种约束的整合显著提高了模型的性能。 |
-| [^2] | [Differentially Private Knowledge Distillation via Synthetic Text Generation](https://arxiv.org/abs/2403.00932) | 提出一种利用合成数据进行知识蒸馏的差分私密算法 |
-| [^3] | [PCL-Indexability and Whittle Index for Restless Bandits with General Observation Models.](http://arxiv.org/abs/2307.03034) | 本文研究了一种一般观测模型下的不安定多臂赌博机问题，提出了PCL-可索引性和Whittle索引的分析方法，并通过近似过程将问题转化为有限状态问题。数值实验表明算法表现优秀。 |
-| [^4] | [Theoretical Guarantees of Learning Ensembling Strategies with Applications to Time Series Forecasting.](http://arxiv.org/abs/2305.15786) | 本文研究了学习集合策略在时间序列预测中的应用，证明了在有限或有限维叠加泛化模型中选择基于交叉验证性能的最优叠加泛化与最优解性能相近。 |
-| [^5] | [What Symptoms and How Long? An Interpretable AI Approach for Depression Detection in Social Media.](http://arxiv.org/abs/2305.13127) | 本论文介绍了一种使用可解释的人工智能方法在社交媒体中检测抑郁症的方法。该方法创新地检测和解释抑郁症状及其持续时间，并通过大规模数据集的实证分析表明优于其他方法，发现了新的未注意到的症状。 |
+| [^1] | [REAL: Representation Enhanced Analytic Learning for Exemplar-free Class-incremental Learning](https://arxiv.org/abs/2403.13522) | 本文提出了REAL方法，通过构建双流基础预训练和表示增强蒸馏过程来增强提取器的表示，从而解决了无范例类增量学习中的遗忘问题。 |
+| [^2] | [Variational Continual Test-Time Adaptation](https://arxiv.org/abs/2402.08182) | 本文介绍了VCoTTA，一种变分贝叶斯方法用于测量连续测试时适应性中的不确定性。采用变分预热策略将预训练的模型转为贝叶斯神经网络，在测试时通过均值教师更新策略来更新学生模型，结合源模型和教师模型的先验。实验证明该方法在减轻先验偏移方面有效。 |
+| [^3] | [SketchOGD: Memory-Efficient Continual Learning.](http://arxiv.org/abs/2305.16424) | SketchOGD提出了一种内存高效的解决灾难性遗忘的方法，通过采用在线草图算法，将模型梯度压缩为固定大小的矩阵，从而改进了现有的算法——正交梯度下降（OGD）。 |
+| [^4] | [Optimal Prediction Using Expert Advice and Randomized Littlestone Dimension.](http://arxiv.org/abs/2302.13849) | 本研究证明了在线学习中，在学习一个类别时，最优期望错误边界等于其随机化的Littlestone维度。在不可知的情况下，最优错误边界与最佳函数的错误次数之间存在特定关系。此外，该研究还解决了一个开放问题，并将其应用于预测问题。 |
 
 # 详细
 
-[^1]: Iso-Diffusion: 使用加性高斯噪声的各向同性改进扩散概率模型
+[^1]: REAL：用于无范例类增量学习的表示增强分析学习
 
-    Iso-Diffusion: Improving Diffusion Probabilistic Models Using the Isotropy of the Additive Gaussian Noise
+    REAL: Representation Enhanced Analytic Learning for Exemplar-free Class-incremental Learning
 
-    [https://arxiv.org/abs/2403.16790](https://arxiv.org/abs/2403.16790)
+    [https://arxiv.org/abs/2403.13522](https://arxiv.org/abs/2403.13522)
 
-    利用加性噪声的各向同性作为约束，改进了扩散概率模型的保真度，验证实验表明这种约束的整合显著提高了模型的性能。
-
-    
-
-    去噪扩散概率模型（DDPMs）在生成人工智能领域取得了很大成就。尽管它们性能很高，但还有改进的空间，特别是通过利用强加结构完整性的统计属性来提高样本保真度，如各向同性。仅减小加性和预测噪声之间的均方误差并不能强加对预测噪声为各向同性的约束。因此，我们受到动力，利用加性噪声的各向同性作为目标函数的约束来增强DDPMs的保真度。我们的方法简单，并可应用于任何DDPM变体。我们通过在四个合成2D数据集上进行的实验以及无条件图像生成来验证我们的方法。正如结果所示，这种约束的整合改善了2D数据集的保真度指标Precision和Density以及无条件图像生成的指标。
-
-    arXiv:2403.16790v1 Announce Type: new  Abstract: Denoising Diffusion Probabilistic Models (DDPMs) have accomplished much in the realm of generative AI. Despite their high performance, there is room for improvement, especially in terms of sample fidelity by utilizing statistical properties that impose structural integrity, such as isotropy. Minimizing the mean squared error between the additive and predicted noise alone does not impose constraints on the predicted noise to be isotropic. Thus, we were motivated to utilize the isotropy of the additive noise as a constraint on the objective function to enhance the fidelity of DDPMs. Our approach is simple and can be applied to any DDPM variant. We validate our approach by presenting experiments conducted on four synthetic 2D datasets as well as on unconditional image generation. As demonstrated by the results, the incorporation of this constraint improves the fidelity metrics, Precision and Density for the 2D datasets as well as for the un
-    
-[^2]: 通过合成文本生成的差分私密知识蒸馏
-
-    Differentially Private Knowledge Distillation via Synthetic Text Generation
-
-    [https://arxiv.org/abs/2403.00932](https://arxiv.org/abs/2403.00932)
-
-    提出一种利用合成数据进行知识蒸馏的差分私密算法
+    本文提出了REAL方法，通过构建双流基础预训练和表示增强蒸馏过程来增强提取器的表示，从而解决了无范例类增量学习中的遗忘问题。
 
     
 
-    大型语言模型(LLMs)在许多不同的下游任务中实现了最先进的性能。然而，数据隐私的增加紧迫性要求LLMs在私有数据上使用差分隐私(DP)进行训练。同时，还需要压缩LLMs以在资源受限的设备或延迟敏感的应用中进行真实部署。差分隐私和模型压缩通常必须在实现其目标的过程中权衡效用损失。此外，同时实现这两者可能导致更多的效用损失。为此，我们提出了一种新颖的差分私密知识蒸馏算法，该算法利用了由差分私密LLM生成的合成数据。教师模型的知识以两种方式转移到学生模型上：一种是来自合成数据本身的硬标签，另一种是通过在合成数据上评估的教师模型的输出分布。
+    无范例的类增量学习(EFCIL)旨在减轻类增量学习中的灾难性遗忘，而没有可用的历史数据。与存储历史样本的回放式CIL相比，EFCIL在无范例约束下更容易遗忘。在本文中，受最近发展的基于分析学习(AL)的CIL的启发，我们提出了一种用于EFCIL的表示增强分析学习(REAL)。REAL构建了一个双流基础预训练(DS-BPT)和一个表示增强蒸馏(RED)过程，以增强提取器的表示。DS-BPT在监督学习和自监督对比学习(SSCL)两个流中预训练模型，用于基础知识提取。RED过程将监督知识提炼到SSCL预训练骨干部分，促进后续的基于AL的CIL，将CIL转换为递归最小化学习
 
-    arXiv:2403.00932v1 Announce Type: cross  Abstract: Large Language models (LLMs) are achieving state-of-the-art performance in many different downstream tasks. However, the increasing urgency of data privacy requires LLMs to train with Differential Privacy (DP) on private data. Concurrently it is also necessary to compress LLMs for real-life deployments on resource-constrained devices or latency-sensitive applications. Differential privacy and model compression generally must trade off utility loss to achieve their objectives. Moreover, concurrently achieving both can result in even more utility loss. To this end, we propose a novel differentially private knowledge distillation algorithm that exploits synthetic data generated by a differentially private LLM. The knowledge of a teacher model is transferred onto the student in two ways: one way from the synthetic data itself, the hard labels, and the other way by the output distribution of the teacher model evaluated on the synthetic data
+    arXiv:2403.13522v1 Announce Type: new  Abstract: Exemplar-free class-incremental learning (EFCIL) aims to mitigate catastrophic forgetting in class-incremental learning without available historical data. Compared with its counterpart (replay-based CIL) that stores historical samples, the EFCIL suffers more from forgetting issues under the exemplar-free constraint. In this paper, inspired by the recently developed analytic learning (AL) based CIL, we propose a representation enhanced analytic learning (REAL) for EFCIL. The REAL constructs a dual-stream base pretraining (DS-BPT) and a representation enhancing distillation (RED) process to enhance the representation of the extractor. The DS-BPT pretrains model in streams of both supervised learning and self-supervised contrastive learning (SSCL) for base knowledge extraction. The RED process distills the supervised knowledge to the SSCL pretrained backbone and facilitates a subsequent AL-basd CIL that converts the CIL to a recursive least
     
-[^3]: 带有一般观测模型的不安定赌博机问题的PCL-可索引性和Whittle索引
+[^2]: 变分连续测试时适应性
 
-    PCL-Indexability and Whittle Index for Restless Bandits with General Observation Models. (arXiv:2307.03034v1 [stat.ML])
+    Variational Continual Test-Time Adaptation
 
-    [http://arxiv.org/abs/2307.03034](http://arxiv.org/abs/2307.03034)
+    [https://arxiv.org/abs/2402.08182](https://arxiv.org/abs/2402.08182)
 
-    本文研究了一种一般观测模型下的不安定多臂赌博机问题，提出了PCL-可索引性和Whittle索引的分析方法，并通过近似过程将问题转化为有限状态问题。数值实验表明算法表现优秀。
-
-    
-
-    本文考虑了一种一般观测模型，用于不安定多臂赌博机问题。由于资源约束或环境或固有噪声，玩家操作需要基于某种有误差的反馈机制。通过建立反馈/观测动力学的一般概率模型，我们将问题表述为一个从任意初始信念（先验信息）开始的具有可数信念状态空间的不安定赌博机问题。我们利用具有部分守恒定律（PCL）的可实现区域方法，分析了无限状态问题的可索引性和优先级索引（Whittle索引）。最后，我们提出了一个近似过程，将问题转化为可以应用Niño-Mora和Bertsimas针对有限状态问题的AG算法的问题。数值实验表明，我们的算法具有出色的性能。
-
-    In this paper, we consider a general observation model for restless multi-armed bandit problems. The operation of the player needs to be based on certain feedback mechanism that is error-prone due to resource constraints or environmental or intrinsic noises. By establishing a general probabilistic model for dynamics of feedback/observation, we formulate the problem as a restless bandit with a countable belief state space starting from an arbitrary initial belief (a priori information). We apply the achievable region method with partial conservation law (PCL) to the infinite-state problem and analyze its indexability and priority index (Whittle index). Finally, we propose an approximation process to transform the problem into which the AG algorithm of Ni\~no-Mora and Bertsimas for finite-state problems can be applied to. Numerical experiments show that our algorithm has an excellent performance.
-    
-[^4]: 学习集合策略的理论保证及其在时间序列预测中的应用
-
-    Theoretical Guarantees of Learning Ensembling Strategies with Applications to Time Series Forecasting. (arXiv:2305.15786v1 [cs.LG])
-
-    [http://arxiv.org/abs/2305.15786](http://arxiv.org/abs/2305.15786)
-
-    本文研究了学习集合策略在时间序列预测中的应用，证明了在有限或有限维叠加泛化模型中选择基于交叉验证性能的最优叠加泛化与最优解性能相近。
+    本文介绍了VCoTTA，一种变分贝叶斯方法用于测量连续测试时适应性中的不确定性。采用变分预热策略将预训练的模型转为贝叶斯神经网络，在测试时通过均值教师更新策略来更新学生模型，结合源模型和教师模型的先验。实验证明该方法在减轻先验偏移方面有效。
 
     
 
-    集合是机器学习中最常用的工具之一，由于其能够有效地减少方差，从而提高泛化性能。针对黑盒基学习器的大多数集合方法都属于“叠加泛化”范畴，即训练一个接受基学习器推理作为输入的机器学习算法。虽然叠加泛化在实践中广泛应用，但其理论性质仍然不为人所知。本文证明了一个新的结果，表明选择基于交叉验证性能的“有限或有限维”叠加泛化中的最佳叠加泛化并不比最优解表现“差得多”。这一结果加强和大大扩展了Van der Laan等人（2007年）的结果。受到理论分析的启发，我们在概率预测的背景下进一步提出了一系列不同敏感性的叠加泛化模型。
+    先验偏移在只使用无标签测试数据的连续测试时适应性（CTTA）方法中至关重要，因为它可能导致严重的误差传播。在本文中，我们介绍了VCoTTA，一种用于测量CTTA中不确定性的变分贝叶斯方法。在源阶段，我们通过变分预热策略将预训练的确定性模型转化为贝叶斯神经网络（BNN），将不确定性注入模型中。在测试时，我们采用变分推断的均值教师更新策略，将学生模型和指数移动平均法用于教师模型。我们的新方法通过结合源模型和教师模型的先验来更新学生模型。证据下界被制定为学生模型和教师模型之间的交叉熵，以及先验混合的Kullback-Leibler（KL）散度。在三个数据集上的实验结果表明该方法在减轻在CTTA中的先验偏移方面的有效性。
 
-    Ensembling is among the most popular tools in machine learning (ML) due to its effectiveness in minimizing variance and thus improving generalization. Most ensembling methods for black-box base learners fall under the umbrella of "stacked generalization," namely training an ML algorithm that takes the inferences from the base learners as input. While stacking has been widely applied in practice, its theoretical properties are poorly understood. In this paper, we prove a novel result, showing that choosing the best stacked generalization from a (finite or finite-dimensional) family of stacked generalizations based on cross-validated performance does not perform "much worse" than the oracle best. Our result strengthens and significantly extends the results in Van der Laan et al. (2007). Inspired by the theoretical analysis, we further propose a particular family of stacked generalizations in the context of probabilistic forecasting, each one with a different sensitivity for how much the 
+    The prior drift is crucial in Continual Test-Time Adaptation (CTTA) methods that only use unlabeled test data, as it can cause significant error propagation. In this paper, we introduce VCoTTA, a variational Bayesian approach to measure uncertainties in CTTA. At the source stage, we transform a pre-trained deterministic model into a Bayesian Neural Network (BNN) via a variational warm-up strategy, injecting uncertainties into the model. During the testing time, we employ a mean-teacher update strategy using variational inference for the student model and exponential moving average for the teacher model. Our novel approach updates the student model by combining priors from both the source and teacher models. The evidence lower bound is formulated as the cross-entropy between the student and teacher models, along with the Kullback-Leibler (KL) divergence of the prior mixture. Experimental results on three datasets demonstrate the method's effectiveness in mitigating prior drift within th
     
-[^5]: 什么症状以及持续多久？一种可解释的人工智能方法用于社交媒体中的抑郁症检测。
+[^3]: SketchOGD：内存高效的持续学习
 
-    What Symptoms and How Long? An Interpretable AI Approach for Depression Detection in Social Media. (arXiv:2305.13127v2 [q-bio.QM] UPDATED)
+    SketchOGD: Memory-Efficient Continual Learning. (arXiv:2305.16424v1 [cs.LG])
 
-    [http://arxiv.org/abs/2305.13127](http://arxiv.org/abs/2305.13127)
+    [http://arxiv.org/abs/2305.16424](http://arxiv.org/abs/2305.16424)
 
-    本论文介绍了一种使用可解释的人工智能方法在社交媒体中检测抑郁症的方法。该方法创新地检测和解释抑郁症状及其持续时间，并通过大规模数据集的实证分析表明优于其他方法，发现了新的未注意到的症状。
+    SketchOGD提出了一种内存高效的解决灾难性遗忘的方法，通过采用在线草图算法，将模型梯度压缩为固定大小的矩阵，从而改进了现有的算法——正交梯度下降（OGD）。
 
     
 
-    抑郁症是最常见和严重的精神疾病，引发了严重的经济和社会影响。抑郁症的检测对于早期干预以减轻这些后果至关重要。这种高风险的决策本质上需要可解释性。虽然有一些抑郁症检测研究试图基于重要性分数或关注权重解释决策，但这些解释与临床抑郁症诊断标准不一致，后者基于抑郁症状。为了填补这一空白，我们遵循计算设计科学范式，开发了一种新颖的多尺度时间原型网络(MSTPNet)。MSTPNet创新地检测和解释抑郁症状及其持续时间。使用大规模数据集进行深入实证分析表明，MSTPNet在F1分数0.851上优于最先进的抑郁症检测方法。这个结果还揭示了未在调查方法中注意到的新症状，例如分享。
+    当机器学习模型在一系列任务上持续训练时，它们容易忘记先前任务上学习到的知识，这种现象称为灾难性遗忘。现有的解决灾难性遗忘的方法往往涉及存储过去任务的信息，这意味着内存使用是确定实用性的主要因素。本文提出了一种内存高效的解决灾难性遗忘的方法，改进了一种已有的算法——正交梯度下降（OGD）。OGD利用先前模型梯度来找到维持先前数据点性能的权重更新。然而，由于存储先前模型梯度的内存成本随算法运行时间增长而增加，因此OGD不适用于任意长时间跨度的连续学习。针对这个问题，本文提出了SketchOGD。SketchOGD采用在线草图算法，将模型梯度压缩为固定大小的矩阵。
 
-    Depression is the most prevalent and serious mental illness, which induces grave financial and societal ramifications. Depression detection is key for early intervention to mitigate those consequences. Such a high-stake decision inherently necessitates interpretability. Although a few depression detection studies attempt to explain the decision based on the importance score or attention weights, these explanations misalign with the clinical depression diagnosis criterion that is based on depressive symptoms. To fill this gap, we follow the computational design science paradigm to develop a novel Multi-Scale Temporal Prototype Network (MSTPNet). MSTPNet innovatively detects and interprets depressive symptoms as well as how long they last. Extensive empirical analyses using a large-scale dataset show that MSTPNet outperforms state-of-the-art depression detection methods with an F1-score of 0.851. This result also reveals new symptoms that are unnoted in the survey approach, such as shari
+    When machine learning models are trained continually on a sequence of tasks, they are liable to forget what they learned on previous tasks -- a phenomenon known as catastrophic forgetting. Proposed solutions to catastrophic forgetting tend to involve storing information about past tasks, meaning that memory usage is a chief consideration in determining their practicality. This paper proposes a memory-efficient solution to catastrophic forgetting, improving upon an established algorithm known as orthogonal gradient descent (OGD). OGD utilizes prior model gradients to find weight updates that preserve performance on prior datapoints. However, since the memory cost of storing prior model gradients grows with the runtime of the algorithm, OGD is ill-suited to continual learning over arbitrarily long time horizons. To address this problem, this paper proposes SketchOGD. SketchOGD employs an online sketching algorithm to compress model gradients as they are encountered into a matrix of a fix
+    
+[^4]: 使用专家建议和随机化的Littlestone维度进行最优预测
+
+    Optimal Prediction Using Expert Advice and Randomized Littlestone Dimension. (arXiv:2302.13849v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2302.13849](http://arxiv.org/abs/2302.13849)
+
+    本研究证明了在线学习中，在学习一个类别时，最优期望错误边界等于其随机化的Littlestone维度。在不可知的情况下，最优错误边界与最佳函数的错误次数之间存在特定关系。此外，该研究还解决了一个开放问题，并将其应用于预测问题。
+
+    
+
+    在在线学习中，经典的结果表明使用确定性学习器的最优错误边界可以通过Littlestone维度来实现（Littlestone '88）。我们证明了随机学习器的类似结果：我们证明了在学习一个类别 $\mathcal{H}$时，最优期望错误边界等于其随机化的Littlestone维度，即存在一个由 $\mathcal{H}$ 打碎的树，其平均深度为 $2d$，而 $d$ 是最大的维度。此外，我们进一步研究了在不可知的情况下，最优错误边界与 $\mathcal{H}$ 中最佳函数的错误次数 $k$ 之间的关系。我们证明了具有Littlestone维度 $d$ 的类别学习的最优随机化错误边界是 $k + \Theta (\sqrt{k d} + d )$。这也意味着确定性学习的最优错误边界是 $2k + O (\sqrt{k d} + d )$，从而解决了Auer和Long ['99]研究的一个开放问题。作为我们理论的一个应用，我们重新审视了经典问题的预测
+
+    A classical result in online learning characterizes the optimal mistake bound achievable by deterministic learners using the Littlestone dimension (Littlestone '88). We prove an analogous result for randomized learners: we show that the optimal expected mistake bound in learning a class $\mathcal{H}$ equals its randomized Littlestone dimension, which is the largest $d$ for which there exists a tree shattered by $\mathcal{H}$ whose average depth is $2d$. We further study optimal mistake bounds in the agnostic case, as a function of the number of mistakes made by the best function in $\mathcal{H}$, denoted by $k$. We show that the optimal randomized mistake bound for learning a class with Littlestone dimension $d$ is $k + \Theta (\sqrt{k d} + d )$. This also implies an optimal deterministic mistake bound of $2k + O (\sqrt{k d} + d )$, thus resolving an open question which was studied by Auer and Long ['99].  As an application of our theory, we revisit the classical problem of prediction 
     
 
