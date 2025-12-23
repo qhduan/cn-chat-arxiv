@@ -2,52 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [SCAFFLSA: Quantifying and Eliminating Heterogeneity Bias in Federated Linear Stochastic Approximation and Temporal Difference Learning](https://arxiv.org/abs/2402.04114) | 本文量化了联邦线性随机逼近算法中异质性偏差的影响，并提出SCAFFLSA作为一种改进方法来消除此偏差。在联邦时间差异学习中，该方法能够显著提高算法的复杂性。 |
-| [^2] | [Differentially Private Bayesian Tests.](http://arxiv.org/abs/2401.15502) | 本文提出了一种差分隐私贝叶斯检验框架，利用规范化的数据生成机制来进行推断，并避免了对完整数据生成机制的建模需求。该框架具有可解释性，并在计算上具有实质性的优势。 |
-| [^3] | [Unifying Distributionally Robust Optimization via Optimal Transport Theory.](http://arxiv.org/abs/2308.05414) | 本文通过最优输运理论将分布鲁棒优化的散度方法和Wasserstein方法统一到一个框架中，并且提出了可以同时扰动似然和结果的最优对抗分布。这个统一框架在实际应用中具有较强的可行性和实用性。 |
+| [^1] | [Variance Reduction and Low Sample Complexity in Stochastic Optimization via Proximal Point Method](https://arxiv.org/abs/2402.08992) | 本文提出了一种通过近端点方法进行随机优化的方法，能够在弱条件下获得低样本复杂度，并实现方差减少的目标。 |
+| [^2] | [Structure of Classifier Boundaries: Case Study for a Naive Bayes Classifier](https://arxiv.org/abs/2212.04382) | 本文研究了在图形输入空间中，分类器边界的结构。通过创建一种新的不确定性度量，称为邻居相似度，我们展示了朴素贝叶斯分类器的边界是巨大且复杂的结构。 |
+| [^3] | [Normalized mutual information is a biased measure for classification and community detection.](http://arxiv.org/abs/2307.01282) | 标准化归一互信息是一种偏倚度量，因为它忽略了条件表的信息内容并且对算法输出有噪声依赖。本文提出了一种修正版本的互信息，并通过对网络社区检测算法的测试证明了使用无偏度量的重要性。 |
+| [^4] | [Generalized Data Thinning Using Sufficient Statistics.](http://arxiv.org/abs/2303.12931) | 本研究发展了一种基于充分统计量的通用策略，通过松弛求和要求并仅要求函数重构随机变量X，进一步推广了数据稀化方法，扩展了可进行稀化的分布族，并统一了样本分裂和数据稀化。 |
 
 # 详细
 
-[^1]: SCAFFLSA：量化和消除联邦线性随机逼近和时间差异学习中的异质性偏差
+[^1]: 通过近端点方法进行随机优化中的方差减少和低样本复杂性
 
-    SCAFFLSA: Quantifying and Eliminating Heterogeneity Bias in Federated Linear Stochastic Approximation and Temporal Difference Learning
+    Variance Reduction and Low Sample Complexity in Stochastic Optimization via Proximal Point Method
 
-    [https://arxiv.org/abs/2402.04114](https://arxiv.org/abs/2402.04114)
+    [https://arxiv.org/abs/2402.08992](https://arxiv.org/abs/2402.08992)
 
-    本文量化了联邦线性随机逼近算法中异质性偏差的影响，并提出SCAFFLSA作为一种改进方法来消除此偏差。在联邦时间差异学习中，该方法能够显著提高算法的复杂性。
-
-    
-
-    本文对联邦线性随机逼近算法（FedLSA）进行了非渐进分析。我们明确量化了异质代理本地训练引入的偏差，并研究了该算法的样本复杂性。我们证明了FedLSA的通信复杂性与所需精度 $\epsilon$ 呈多项式关系，这限制了联邦的好处。为了克服这一问题，我们提出了SCAFFLSA，一种新型的FedLSA变体，它使用控制变量来校正本地训练的偏差，并在不对统计异质性做出任何假设的情况下证明了其收敛性。我们将所提出的方法应用于具有线性函数逼近的联邦时间差异学习，并分析了相应的复杂性改进。
-
-    In this paper, we perform a non-asymptotic analysis of the federated linear stochastic approximation (FedLSA) algorithm. We explicitly quantify the bias introduced by local training with heterogeneous agents, and investigate the sample complexity of the algorithm. We show that the communication complexity of FedLSA scales polynomially with the desired precision $\epsilon$, which limits the benefits of federation. To overcome this, we propose SCAFFLSA, a novel variant of FedLSA, that uses control variates to correct the bias of local training, and prove its convergence without assumptions on statistical heterogeneity. We apply the proposed methodology to federated temporal difference learning with linear function approximation, and analyze the corresponding complexity improvements.
-    
-[^2]: 差分隐私贝叶斯检验
-
-    Differentially Private Bayesian Tests. (arXiv:2401.15502v1 [stat.ML])
-
-    [http://arxiv.org/abs/2401.15502](http://arxiv.org/abs/2401.15502)
-
-    本文提出了一种差分隐私贝叶斯检验框架，利用规范化的数据生成机制来进行推断，并避免了对完整数据生成机制的建模需求。该框架具有可解释性，并在计算上具有实质性的优势。
+    本文提出了一种通过近端点方法进行随机优化的方法，能够在弱条件下获得低样本复杂度，并实现方差减少的目标。
 
     
 
-    在利用机密数据进行科学假设检验的领域中，差分隐私已经成为一个重要的基石。在报告科学发现时，广泛采用贝叶斯检验，因为它们有效地避免了P值的主要批评，即缺乏可解释性和无法量化对竞争假设的支持证据。我们提出了一个新颖的差分隐私贝叶斯假设检验框架，该框架在基于规范化的数据生成机制基础上自然产生，从而保持了推断结果的可解释性。此外，通过专注于基于广泛使用的检验统计量的差分隐私贝叶斯因子，我们避免了对完整数据生成机制建模的需求，并确保了实质性的计算优势。我们还提供了一组充分条件，以在所提框架下确立贝叶斯因子一致性的结果。
+    本文提出了一种随机近端点法来解决随机凸复合优化问题。随机优化中的高概率结果通常依赖于对随机梯度噪声的限制性假设，例如子高斯分布。本文只假设了随机梯度的有界方差等弱条件，建立了一种低样本复杂度以获得关于所提方法收敛的高概率保证。此外，本工作的一个显著方面是发展了一个用于解决近端子问题的子程序，它同时也是一种用于减少方差的新技术。
 
-    Differential privacy has emerged as an significant cornerstone in the realm of scientific hypothesis testing utilizing confidential data. In reporting scientific discoveries, Bayesian tests are widely adopted since they effectively circumnavigate the key criticisms of P-values, namely, lack of interpretability and inability to quantify evidence in support of the competing hypotheses. We present a novel differentially private Bayesian hypotheses testing framework that arise naturally under a principled data generative mechanism, inherently maintaining the interpretability of the resulting inferences. Furthermore, by focusing on differentially private Bayes factors based on widely used test statistics, we circumvent the need to model the complete data generative mechanism and ensure substantial computational benefits. We also provide a set of sufficient conditions to establish results on Bayes factor consistency under the proposed framework. The utility of the devised technology is showc
+    arXiv:2402.08992v1 Announce Type: cross Abstract: This paper proposes a stochastic proximal point method to solve a stochastic convex composite optimization problem. High probability results in stochastic optimization typically hinge on restrictive assumptions on the stochastic gradient noise, for example, sub-Gaussian distributions. Assuming only weak conditions such as bounded variance of the stochastic gradient, this paper establishes a low sample complexity to obtain a high probability guarantee on the convergence of the proposed method. Additionally, a notable aspect of this work is the development of a subroutine to solve the proximal subproblem, which also serves as a novel technique for variance reduction.
     
-[^3]: 通过最优输运理论统一分布鲁棒优化
+[^2]: 分类器边界的结构：朴素贝叶斯分类器的案例研究
 
-    Unifying Distributionally Robust Optimization via Optimal Transport Theory. (arXiv:2308.05414v1 [math.OC])
+    Structure of Classifier Boundaries: Case Study for a Naive Bayes Classifier
 
-    [http://arxiv.org/abs/2308.05414](http://arxiv.org/abs/2308.05414)
+    [https://arxiv.org/abs/2212.04382](https://arxiv.org/abs/2212.04382)
 
-    本文通过最优输运理论将分布鲁棒优化的散度方法和Wasserstein方法统一到一个框架中，并且提出了可以同时扰动似然和结果的最优对抗分布。这个统一框架在实际应用中具有较强的可行性和实用性。
+    本文研究了在图形输入空间中，分类器边界的结构。通过创建一种新的不确定性度量，称为邻居相似度，我们展示了朴素贝叶斯分类器的边界是巨大且复杂的结构。
 
     
 
-    在过去几年中，对于分布鲁棒优化 (DRO) 有两种主要方法引起了相当大的关注：基于散度和基于Wasserstein的方法。散度方法使用似然比来建模错配，而后者使用实际结果的距离或成本来建模错配。在这些进展的基础上，本文引入了一种新的方法，将这些方法统一到一个基于最优输运 (OT) 和条件矩约束的框架中。例如，我们提出的方法可以使得最优对抗分布同时扰动似然和结果，并在基线模型和对抗模型之间产生一个最优 (从最优输运意义上) 的耦合。此外，本文还研究了几个对偶结果，并提出了可行的改进，增强了这个统一框架的实际适用性。
+    无论基于模型、训练数据还是二者组合，分类器将（可能复杂的）输入数据归入相对较少的输出类别之一。本文研究在输入空间为图的情况下，边界的结构——那些被分类为不同类别的邻近点——的特性。我们的科学背景是基于模型的朴素贝叶斯分类器，用于处理由下一代测序仪生成的DNA读数。我们展示了边界既是巨大的，又具有复杂的结构。我们创建了一种新的不确定性度量，称为邻居相似度，它将一个点的结果与其邻居的结果分布进行比较。这个度量不仅追踪了贝叶斯分类器的两个固有不确定性度量，还可以在没有固有不确定性度量的分类器上实现，但需要计算成本。
 
-    In the past few years, there has been considerable interest in two prominent approaches for Distributionally Robust Optimization (DRO): Divergence-based and Wasserstein-based methods. The divergence approach models misspecification in terms of likelihood ratios, while the latter models it through a measure of distance or cost in actual outcomes. Building upon these advances, this paper introduces a novel approach that unifies these methods into a single framework based on optimal transport (OT) with conditional moment constraints. Our proposed approach, for example, makes it possible for optimal adversarial distributions to simultaneously perturb likelihood and outcomes, while producing an optimal (in an optimal transport sense) coupling between the baseline model and the adversarial model.Additionally, the paper investigates several duality results and presents tractable reformulations that enhance the practical applicability of this unified framework.
+    Whether based on models, training data or a combination, classifiers place (possibly complex) input data into one of a relatively small number of output categories. In this paper, we study the structure of the boundary--those points for which a neighbor is classified differently--in the context of an input space that is a graph, so that there is a concept of neighboring inputs, The scientific setting is a model-based naive Bayes classifier for DNA reads produced by Next Generation Sequencers. We show that the boundary is both large and complicated in structure. We create a new measure of uncertainty, called Neighbor Similarity, that compares the result for a point to the distribution of results for its neighbors. This measure not only tracks two inherent uncertainty measures for the Bayes classifier, but also can be implemented, at a computational cost, for classifiers without inherent measures of uncertainty.
+    
+[^3]: 标准化归一互信息是分类和社区检测的一种偏倚度量
+
+    Normalized mutual information is a biased measure for classification and community detection. (arXiv:2307.01282v1 [cs.SI] CROSS LISTED)
+
+    [http://arxiv.org/abs/2307.01282](http://arxiv.org/abs/2307.01282)
+
+    标准化归一互信息是一种偏倚度量，因为它忽略了条件表的信息内容并且对算法输出有噪声依赖。本文提出了一种修正版本的互信息，并通过对网络社区检测算法的测试证明了使用无偏度量的重要性。
+
+    
+
+    标准归一互信息被广泛用作评估聚类和分类算法性能的相似性度量。本文表明标准化归一互信息的结果有两个偏倚因素：首先，因为它们忽略了条件表的信息内容；其次，因为它们的对称归一化引入了对算法输出的噪声依赖。我们提出了一种修正版本的互信息，解决了这两个缺陷。通过对网络社区检测中一篮子流行算法进行大量数值测试，我们展示了使用无偏度量的重要性，并且显示传统互信息中的偏倚对选择最佳算法的结论产生了显著影响。
+
+    Normalized mutual information is widely used as a similarity measure for evaluating the performance of clustering and classification algorithms. In this paper, we show that results returned by the normalized mutual information are biased for two reasons: first, because they ignore the information content of the contingency table and, second, because their symmetric normalization introduces spurious dependence on algorithm output. We introduce a modified version of the mutual information that remedies both of these shortcomings. As a practical demonstration of the importance of using an unbiased measure, we perform extensive numerical tests on a basket of popular algorithms for network community detection and show that one's conclusions about which algorithm is best are significantly affected by the biases in the traditional mutual information.
+    
+[^4]: 基于充分统计量的广义数据稀化
+
+    Generalized Data Thinning Using Sufficient Statistics. (arXiv:2303.12931v1 [stat.ME])
+
+    [http://arxiv.org/abs/2303.12931](http://arxiv.org/abs/2303.12931)
+
+    本研究发展了一种基于充分统计量的通用策略，通过松弛求和要求并仅要求函数重构随机变量X，进一步推广了数据稀化方法，扩展了可进行稀化的分布族，并统一了样本分裂和数据稀化。
+
+    
+
+    本文旨在开发一种将随机变量X分解为多个独立随机变量的通用策略，而不会丢失任何有关未知参数的信息。我们通过松弛求和要求并仅要求一些已知的独立随机变量的函数完全重构X来推广了最近一篇论文的过程。该过程的推广有两个目的。首先，它极大地扩展了可进行稀化的分布族。其次，它统一了样本分裂和数据稀化，它们在表面上似乎非常不同，但应用了同样的原理。这个共同的原理是充分性。我们利用这一认识对各种不同的家族进行广义稀疏化操作。
+
+    Our goal is to develop a general strategy to decompose a random variable $X$ into multiple independent random variables, without sacrificing any information about unknown parameters. A recent paper showed that for some well-known natural exponential families, $X$ can be "thinned" into independent random variables $X^{(1)}, \ldots, X^{(K)}$, such that $X = \sum_{k=1}^K X^{(k)}$. In this paper, we generalize their procedure by relaxing this summation requirement and simply asking that some known function of the independent random variables exactly reconstruct $X$. This generalization of the procedure serves two purposes. First, it greatly expands the families of distributions for which thinning can be performed. Second, it unifies sample splitting and data thinning, which on the surface seem to be very different, as applications of the same principle. This shared principle is sufficiency. We use this insight to perform generalized thinning operations for a diverse set of families.
     
 

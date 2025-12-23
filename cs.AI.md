@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [DualView: Data Attribution from the Dual Perspective](https://arxiv.org/abs/2402.12118) | 提出了DualView，一种基于替代建模的后期数据归因方法，具有高效计算和优质评估结果。 |
-| [^2] | [The changing rule of human bone density with aging based on a novel definition and mensuration of bone density with computed tomography.](http://arxiv.org/abs/2308.02815) | 本研究提出了一种新的骨密度定义和测量方法，利用计算机断层扫描图像中的骨像素分布来测量骨密度。研究发现，在成年期39岁到80岁之间，骨密度呈线性下降，女性下降速度大约是男性的1.6倍，与现有观点相矛盾。这对于了解人体衰老过程具有重要意义。 |
+| [^1] | [ViGoR: Improving Visual Grounding of Large Vision Language Models with Fine-Grained Reward Modeling](https://arxiv.org/abs/2402.06118) | ViGoR通过细粒度奖励建模提高了大型视觉语言模型在视觉对接方面的性能，通过人工评估和自动化方法有效地解决了视觉对接中的误差问题。 |
+| [^2] | [CodeTF: One-stop Transformer Library for State-of-the-art Code LLM.](http://arxiv.org/abs/2306.00029) | CodeTF是一个开源的Transformer库，提供了包括预训练的Code LLM模型和标准化接口等一系列功能，可以轻松地将最先进的Code LLM模型应用于各种软件工程任务中。 |
 
 # 详细
 
-[^1]: DualView：双重视角下的数据归因
+[^1]: ViGoR：通过细粒度奖励建模改进大规模视觉语言模型的视觉对接
 
-    DualView: Data Attribution from the Dual Perspective
+    ViGoR: Improving Visual Grounding of Large Vision Language Models with Fine-Grained Reward Modeling
 
-    [https://arxiv.org/abs/2402.12118](https://arxiv.org/abs/2402.12118)
+    [https://arxiv.org/abs/2402.06118](https://arxiv.org/abs/2402.06118)
 
-    提出了DualView，一种基于替代建模的后期数据归因方法，具有高效计算和优质评估结果。
-
-    
-
-    本文提出了DualView，这是一种基于替代建模的后期数据归因方法，展示了高计算效率和良好的评估结果。我们专注于神经网络，在与文献相关的适当定量评估策略下评估了我们提出的技术，比较了与相关主要本地数据归因方法的性能。
-
-    arXiv:2402.12118v1 Announce Type: cross  Abstract: Local data attribution (or influence estimation) techniques aim at estimating the impact that individual data points seen during training have on particular predictions of an already trained Machine Learning model during test time. Previous methods either do not perform well consistently across different evaluation criteria from literature, are characterized by a high computational demand, or suffer from both. In this work we present DualView, a novel method for post-hoc data attribution based on surrogate modelling, demonstrating both high computational efficiency, as well as good evaluation results. With a focus on neural networks, we evaluate our proposed technique using suitable quantitative evaluation strategies from the literature against related principal local data attribution methods. We find that DualView requires considerably lower computational resources than other methods, while demonstrating comparable performance to comp
-    
-[^2]: 基于新的骨密度定义和计算机断层扫描进行人骨密度随年龄变化的研究
-
-    The changing rule of human bone density with aging based on a novel definition and mensuration of bone density with computed tomography. (arXiv:2308.02815v1 [physics.med-ph])
-
-    [http://arxiv.org/abs/2308.02815](http://arxiv.org/abs/2308.02815)
-
-    本研究提出了一种新的骨密度定义和测量方法，利用计算机断层扫描图像中的骨像素分布来测量骨密度。研究发现，在成年期39岁到80岁之间，骨密度呈线性下降，女性下降速度大约是男性的1.6倍，与现有观点相矛盾。这对于了解人体衰老过程具有重要意义。
+    ViGoR通过细粒度奖励建模提高了大型视觉语言模型在视觉对接方面的性能，通过人工评估和自动化方法有效地解决了视觉对接中的误差问题。
 
     
 
-    随着人口老龄化，骨质疏松症和易碎性骨折已成为重要的公共卫生问题。然而，使用双能X射线吸收法测量骨密度在个性化风险评估方面受到各种因素的干扰。本研究提出了一种创新的统计模型，该模型利用细分的计算机断层扫描图像中的骨像素分布来测量骨密度。我们的研究结果表明，在39岁到80岁之间的成年期，骨密度呈线性下降，女性下降速度大约是男性的1.6倍。这与广泛接受的观点相矛盾，即骨密度在女性绝经期开始下降，在男性大约50岁时开始下降。年龄相关变化的线性性提供了对人体老化动态的进一步洞察。
+    通过将自然语言理解、大语言模型的生成能力和广泛知识与图像感知相结合，最近的大规模视觉语言模型（LVLMs）在现实世界中展示了前所未有的推理能力。然而，生成的文本往往在视觉输入中存在不准确的对接，导致错误，如产生幻觉的不存在场景元素、遗漏重要的场景部分，以及推测对象之间的属性和关系时出现错误。为了解决这些问题，我们引入了一个新颖的框架ViGoR（通过细粒度奖励建模进行视觉对接），它利用细粒度奖励建模来显著提升基于预训练基线的LVLMs的视觉对接能力。这种改进通过使用比完全监督更便宜的人工评估和自动化方法高效实现。我们通过多个基准测试的多个指标展示了我们方法的有效性。
 
-    Osteoporosis and fragility fractures have emerged as major public health concerns in an aging population. However, measuring age-related changes in bone density using dual-energy X-ray absorptiometry has limited personalized risk assessment due to susceptibility to interference from various factors. In this study, we propose an innovative statistical model of bone pixel distribution in fine-segmented computed tomography (CT) images, along with a novel approach to measuring bone density based on CT values of bone pixels. Our findings indicate that bone density exhibits a linear decline with age during adulthood between the ages of 39 and 80, with the rate of decline being approximately 1.6 times faster in women than in men. This contradicts the widely accepted notion that bone density starts declining in women at menopause and in men at around 50 years of age. The linearity of age-related changes provides further insights into the dynamics of the aging human body. Consequently, our find
+    By combining natural language understanding and the generation capabilities and breadth of knowledge of large language models with image perception, recent large vision language models (LVLMs) have shown unprecedented reasoning capabilities in the real world. However, the generated text often suffers from inaccurate grounding in the visual input, resulting in errors such as hallucinating nonexistent scene elements, missing significant parts of the scene, and inferring incorrect attributes and relationships between objects. To address these issues, we introduce a novel framework, ViGoR (Visual Grounding Through Fine-Grained Reward Modeling) that utilizes fine-grained reward modeling to significantly enhance the visual grounding of LVLMs over pre-trained baselines. This improvement is efficiently achieved using much cheaper human evaluations instead of full supervisions, as well as automated methods. We show the effectiveness of our approach through numerous metrics on several benchmarks
+    
+[^2]: CodeTF：一站式Transformer库，实现最先进的代码LLM
+
+    CodeTF: One-stop Transformer Library for State-of-the-art Code LLM. (arXiv:2306.00029v1 [cs.SE])
+
+    [http://arxiv.org/abs/2306.00029](http://arxiv.org/abs/2306.00029)
+
+    CodeTF是一个开源的Transformer库，提供了包括预训练的Code LLM模型和标准化接口等一系列功能，可以轻松地将最先进的Code LLM模型应用于各种软件工程任务中。
+
+    
+
+    代码智能在转型现代软件工程中扮演着重要角色。近年来，基于深度学习的模型，尤其是利用大量开源代码和编程语言特征的Transformer-based大型语言模型（LLMs），已经展示出了对这些任务的显著潜力。然而，这些模型的开发和部署通常需要对机器学习和软件工程的专业知识，从而为模型应用带来了一定的障碍。本文提出了CodeTF，一个基于Transformer的开放源代码库，用于实现最先进的Code LLM和代码智能。我们采用模块化设计和可扩展框架的原则，设计CodeTF并提供统一接口，以便快速访问和开发不同类型的模型、数据集和任务。我们的库支持预训练的Code LLM模型和流行的代码基准测试，包括标准化接口以有效地训练和服务代码LLMs，并支持双GPU训练和推理。使用CodeTF，用户可以轻松将最先进的Code LLM模型应用于各种软件工程任务中，减少训练工作量。
+
+    Code intelligence plays a key role in transforming modern software engineering. Recently, deep learning-based models, especially Transformer-based large language models (LLMs), have demonstrated remarkable potential in tackling these tasks by leveraging massive open-source code data and programming language features. However, the development and deployment of such models often require expertise in both machine learning and software engineering, creating a barrier for the model adoption. In this paper, we present CodeTF, an open-source Transformer-based library for state-of-the-art Code LLMs and code intelligence. Following the principles of modular design and extensible framework, we design CodeTF with a unified interface to enable rapid access and development across different types of models, datasets and tasks. Our library supports a collection of pretrained Code LLM models and popular code benchmarks, including a standardized interface to train and serve code LLMs efficiently, and d
     
 
