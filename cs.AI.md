@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [ViGoR: Improving Visual Grounding of Large Vision Language Models with Fine-Grained Reward Modeling](https://arxiv.org/abs/2402.06118) | ViGoR通过细粒度奖励建模提高了大型视觉语言模型在视觉对接方面的性能，通过人工评估和自动化方法有效地解决了视觉对接中的误差问题。 |
-| [^2] | [CodeTF: One-stop Transformer Library for State-of-the-art Code LLM.](http://arxiv.org/abs/2306.00029) | CodeTF是一个开源的Transformer库，提供了包括预训练的Code LLM模型和标准化接口等一系列功能，可以轻松地将最先进的Code LLM模型应用于各种软件工程任务中。 |
+| [^1] | [Tactile-based Object Retrieval From Granular Media](https://arxiv.org/abs/2402.04536) | 这项研究介绍了一种基于触觉反馈的机器人操作方法，用于在颗粒介质中检索埋藏的物体。通过模拟传感器噪声进行端到端训练，实现了自然出现的学习推动行为，并成功将其迁移到实际硬件上。 |
+| [^2] | [FLex&Chill: Improving Local Federated Learning Training with Logit Chilling.](http://arxiv.org/abs/2401.09986) | FLex&Chill 提出了一种通过Logit Chilling方法改进本地联合学习训练的方法，可以加快模型收敛并提高推理精度。 |
 
 # 详细
 
-[^1]: ViGoR：通过细粒度奖励建模改进大规模视觉语言模型的视觉对接
+[^1]: 基于触觉的从颗粒介质中检索物体的研究
 
-    ViGoR: Improving Visual Grounding of Large Vision Language Models with Fine-Grained Reward Modeling
+    Tactile-based Object Retrieval From Granular Media
 
-    [https://arxiv.org/abs/2402.06118](https://arxiv.org/abs/2402.06118)
+    [https://arxiv.org/abs/2402.04536](https://arxiv.org/abs/2402.04536)
 
-    ViGoR通过细粒度奖励建模提高了大型视觉语言模型在视觉对接方面的性能，通过人工评估和自动化方法有效地解决了视觉对接中的误差问题。
-
-    
-
-    通过将自然语言理解、大语言模型的生成能力和广泛知识与图像感知相结合，最近的大规模视觉语言模型（LVLMs）在现实世界中展示了前所未有的推理能力。然而，生成的文本往往在视觉输入中存在不准确的对接，导致错误，如产生幻觉的不存在场景元素、遗漏重要的场景部分，以及推测对象之间的属性和关系时出现错误。为了解决这些问题，我们引入了一个新颖的框架ViGoR（通过细粒度奖励建模进行视觉对接），它利用细粒度奖励建模来显著提升基于预训练基线的LVLMs的视觉对接能力。这种改进通过使用比完全监督更便宜的人工评估和自动化方法高效实现。我们通过多个基准测试的多个指标展示了我们方法的有效性。
-
-    By combining natural language understanding and the generation capabilities and breadth of knowledge of large language models with image perception, recent large vision language models (LVLMs) have shown unprecedented reasoning capabilities in the real world. However, the generated text often suffers from inaccurate grounding in the visual input, resulting in errors such as hallucinating nonexistent scene elements, missing significant parts of the scene, and inferring incorrect attributes and relationships between objects. To address these issues, we introduce a novel framework, ViGoR (Visual Grounding Through Fine-Grained Reward Modeling) that utilizes fine-grained reward modeling to significantly enhance the visual grounding of LVLMs over pre-trained baselines. This improvement is efficiently achieved using much cheaper human evaluations instead of full supervisions, as well as automated methods. We show the effectiveness of our approach through numerous metrics on several benchmarks
-    
-[^2]: CodeTF：一站式Transformer库，实现最先进的代码LLM
-
-    CodeTF: One-stop Transformer Library for State-of-the-art Code LLM. (arXiv:2306.00029v1 [cs.SE])
-
-    [http://arxiv.org/abs/2306.00029](http://arxiv.org/abs/2306.00029)
-
-    CodeTF是一个开源的Transformer库，提供了包括预训练的Code LLM模型和标准化接口等一系列功能，可以轻松地将最先进的Code LLM模型应用于各种软件工程任务中。
+    这项研究介绍了一种基于触觉反馈的机器人操作方法，用于在颗粒介质中检索埋藏的物体。通过模拟传感器噪声进行端到端训练，实现了自然出现的学习推动行为，并成功将其迁移到实际硬件上。
 
     
 
-    代码智能在转型现代软件工程中扮演着重要角色。近年来，基于深度学习的模型，尤其是利用大量开源代码和编程语言特征的Transformer-based大型语言模型（LLMs），已经展示出了对这些任务的显著潜力。然而，这些模型的开发和部署通常需要对机器学习和软件工程的专业知识，从而为模型应用带来了一定的障碍。本文提出了CodeTF，一个基于Transformer的开放源代码库，用于实现最先进的Code LLM和代码智能。我们采用模块化设计和可扩展框架的原则，设计CodeTF并提供统一接口，以便快速访问和开发不同类型的模型、数据集和任务。我们的库支持预训练的Code LLM模型和流行的代码基准测试，包括标准化接口以有效地训练和服务代码LLMs，并支持双GPU训练和推理。使用CodeTF，用户可以轻松将最先进的Code LLM模型应用于各种软件工程任务中，减少训练工作量。
+    我们介绍了一种名为GEOTACT的机器人操作方法，能够在颗粒介质中检索埋藏的物体。这是一项具有挑战性的任务，因为需要与颗粒介质进行交互，并且仅依靠触觉反馈来完成，因为一个埋藏的物体可能完全被视觉隐藏。在这种环境中，触觉反馈本身具有挑战性，因为需要与周围介质进行普遍接触，并且由触觉读数引起的固有噪声水平。为了解决这些挑战，我们使用了一种通过模拟传感器噪声进行端到端训练的学习方法。我们展示了我们的问题表述导致了学习推动行为的自然出现，操作器使用这些行为来减少不确定性并将物体引导到稳定的抓取位置，尽管存在假的和噪声的触觉读数。我们还引入了一种培训方案，可以在仿真中学习这些行为，并在实际硬件上进行零样本迁移。据我们所知，GEOTACT是第一个这样的方法。
 
-    Code intelligence plays a key role in transforming modern software engineering. Recently, deep learning-based models, especially Transformer-based large language models (LLMs), have demonstrated remarkable potential in tackling these tasks by leveraging massive open-source code data and programming language features. However, the development and deployment of such models often require expertise in both machine learning and software engineering, creating a barrier for the model adoption. In this paper, we present CodeTF, an open-source Transformer-based library for state-of-the-art Code LLMs and code intelligence. Following the principles of modular design and extensible framework, we design CodeTF with a unified interface to enable rapid access and development across different types of models, datasets and tasks. Our library supports a collection of pretrained Code LLM models and popular code benchmarks, including a standardized interface to train and serve code LLMs efficiently, and d
+    We introduce GEOTACT, a robotic manipulation method capable of retrieving objects buried in granular media. This is a challenging task due to the need to interact with granular media, and doing so based exclusively on tactile feedback, since a buried object can be completely hidden from vision. Tactile feedback is in itself challenging in this context, due to ubiquitous contact with the surrounding media, and the inherent noise level induced by the tactile readings. To address these challenges, we use a learning method trained end-to-end with simulated sensor noise. We show that our problem formulation leads to the natural emergence of learned pushing behaviors that the manipulator uses to reduce uncertainty and funnel the object to a stable grasp despite spurious and noisy tactile readings. We also introduce a training curriculum that enables learning these behaviors in simulation, followed by zero-shot transfer to real hardware. To the best of our knowledge, GEOTACT is the first meth
+    
+[^2]: FLex&Chill：通过Logit Chilling改进本地联合学习训练
+
+    FLex&Chill: Improving Local Federated Learning Training with Logit Chilling. (arXiv:2401.09986v1 [cs.LG])
+
+    [http://arxiv.org/abs/2401.09986](http://arxiv.org/abs/2401.09986)
+
+    FLex&Chill 提出了一种通过Logit Chilling方法改进本地联合学习训练的方法，可以加快模型收敛并提高推理精度。
+
+    
+
+    联合学习由于本地客户端的非iid分布式训练数据而受到数据异质性的阻碍。我们提出了一种新的联合学习模型训练方法FLex&Chill，利用了Logit Chilling方法。通过广泛的评估，我们证明在联合学习系统中固有的非iid数据特征存在的情况下，这种方法可以加快模型收敛并提高推理精度。从我们的实验中，我们观察到全局联合学习模型收敛时间提高了6倍，推理精度提高了3.37%。
+
+    Federated learning are inherently hampered by data heterogeneity: non-iid distributed training data over local clients. We propose a novel model training approach for federated learning, FLex&Chill, which exploits the Logit Chilling method. Through extensive evaluations, we demonstrate that, in the presence of non-iid data characteristics inherent in federated learning systems, this approach can expedite model convergence and improve inference accuracy. Quantitatively, from our experiments, we observe up to 6X improvement in the global federated learning model convergence time, and up to 3.37% improvement in inference accuracy.
     
 
