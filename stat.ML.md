@@ -2,37 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Structure of Classifier Boundaries: Case Study for a Naive Bayes Classifier](https://arxiv.org/abs/2212.04382) | 本文研究了在图形输入空间中，分类器边界的结构。通过创建一种新的不确定性度量，称为邻居相似度，我们展示了朴素贝叶斯分类器的边界是巨大且复杂的结构。 |
-| [^2] | [Boosted Control Functions.](http://arxiv.org/abs/2310.05805) | 本研究通过建立同时方程模型和控制函数与分布概括的新连接，解决了在存在未观察到的混淆情况下，针对不同训练和测试分布的预测问题。 |
+| [^1] | [Eliciting Risk Aversion with Inverse Reinforcement Learning via Interactive Questioning.](http://arxiv.org/abs/2308.08427) | 本文提出了一个新的方法，通过交互式问答来识别代理人的风险规避。在一期情景和无限期情景下，我们通过要求代理人展示她的最优策略来回答问题，使用随机设计的问题来识别代理人的风险规避。这个方法可以通过一个有限的候选集有效地识别出代理人的风险规避。 |
 
 # 详细
 
-[^1]: 分类器边界的结构：朴素贝叶斯分类器的案例研究
+[^1]: 借助交互式问答通过逆强化学习来引导风险规避
 
-    Structure of Classifier Boundaries: Case Study for a Naive Bayes Classifier
+    Eliciting Risk Aversion with Inverse Reinforcement Learning via Interactive Questioning. (arXiv:2308.08427v1 [stat.ML])
 
-    [https://arxiv.org/abs/2212.04382](https://arxiv.org/abs/2212.04382)
+    [http://arxiv.org/abs/2308.08427](http://arxiv.org/abs/2308.08427)
 
-    本文研究了在图形输入空间中，分类器边界的结构。通过创建一种新的不确定性度量，称为邻居相似度，我们展示了朴素贝叶斯分类器的边界是巨大且复杂的结构。
-
-    
-
-    无论基于模型、训练数据还是二者组合，分类器将（可能复杂的）输入数据归入相对较少的输出类别之一。本文研究在输入空间为图的情况下，边界的结构——那些被分类为不同类别的邻近点——的特性。我们的科学背景是基于模型的朴素贝叶斯分类器，用于处理由下一代测序仪生成的DNA读数。我们展示了边界既是巨大的，又具有复杂的结构。我们创建了一种新的不确定性度量，称为邻居相似度，它将一个点的结果与其邻居的结果分布进行比较。这个度量不仅追踪了贝叶斯分类器的两个固有不确定性度量，还可以在没有固有不确定性度量的分类器上实现，但需要计算成本。
-
-    Whether based on models, training data or a combination, classifiers place (possibly complex) input data into one of a relatively small number of output categories. In this paper, we study the structure of the boundary--those points for which a neighbor is classified differently--in the context of an input space that is a graph, so that there is a concept of neighboring inputs, The scientific setting is a model-based naive Bayes classifier for DNA reads produced by Next Generation Sequencers. We show that the boundary is both large and complicated in structure. We create a new measure of uncertainty, called Neighbor Similarity, that compares the result for a point to the distribution of results for its neighbors. This measure not only tracks two inherent uncertainty measures for the Bayes classifier, but also can be implemented, at a computational cost, for classifiers without inherent measures of uncertainty.
-    
-[^2]: 提升控制函数
-
-    Boosted Control Functions. (arXiv:2310.05805v1 [stat.ML])
-
-    [http://arxiv.org/abs/2310.05805](http://arxiv.org/abs/2310.05805)
-
-    本研究通过建立同时方程模型和控制函数与分布概括的新连接，解决了在存在未观察到的混淆情况下，针对不同训练和测试分布的预测问题。
+    本文提出了一个新的方法，通过交互式问答来识别代理人的风险规避。在一期情景和无限期情景下，我们通过要求代理人展示她的最优策略来回答问题，使用随机设计的问题来识别代理人的风险规避。这个方法可以通过一个有限的候选集有效地识别出代理人的风险规避。
 
     
 
-    现代机器学习方法和大规模数据的可用性为从大量的协变量中准确预测目标数量打开了大门。然而，现有的预测方法在训练和测试数据不同的情况下表现不佳，尤其是在存在隐藏混淆的情况下。虽然对因果效应估计（例如仪器变量）已经对隐藏混淆进行了深入研究，但对于预测任务来说并非如此。本研究旨在填补这一空白，解决在存在未观察到的混淆的情况下，针对不同训练和测试分布的预测问题。具体而言，我们在机器学习的分布概括领域，以及计量经济学中的同时方程模型和控制函数之间建立了一种新的联系。我们的贡献的核心是描述在一组分布转变下的数据生成过程的分布概括同时方程模型（SIMDGs）。
+    本文提出了一个新颖的框架，利用交互式问答来识别代理人的风险规避。我们的研究在两种情景中进行：一期情景和无限期情景。在一期情景中，我们假设代理人的风险规避由状态的成本函数和失真风险度量所表征。在无限期情景中，我们用一个额外的成分，折扣因子，来建模风险规避。假设我们可以访问一个包含代理人真实风险规避的有限候选集，我们证明通过要求代理人在各种环境中展示她的最优政策来回答问题，这可以有效地识别代理人的风险规避。具体而言，我们证明了当问题的数量趋近无穷大并且问题是随机设计的时候，可以识别出代理人的风险规避。我们还开发了一个算法用于设计最优问题，并提供了实证证据来支持我们的方法。
 
-    Modern machine learning methods and the availability of large-scale data opened the door to accurately predict target quantities from large sets of covariates. However, existing prediction methods can perform poorly when the training and testing data are different, especially in the presence of hidden confounding. While hidden confounding is well studied for causal effect estimation (e.g., instrumental variables), this is not the case for prediction tasks. This work aims to bridge this gap by addressing predictions under different training and testing distributions in the presence of unobserved confounding. In particular, we establish a novel connection between the field of distribution generalization from machine learning, and simultaneous equation models and control function from econometrics. Central to our contribution are simultaneous equation models for distribution generalization (SIMDGs) which describe the data-generating process under a set of distributional shifts. Within thi
+    This paper proposes a novel framework for identifying an agent's risk aversion using interactive questioning. Our study is conducted in two scenarios: a one-period case and an infinite horizon case. In the one-period case, we assume that the agent's risk aversion is characterized by a cost function of the state and a distortion risk measure. In the infinite horizon case, we model risk aversion with an additional component, a discount factor. Assuming the access to a finite set of candidates containing the agent's true risk aversion, we show that asking the agent to demonstrate her optimal policies in various environment, which may depend on their previous answers, is an effective means of identifying the agent's risk aversion. Specifically, we prove that the agent's risk aversion can be identified as the number of questions tends to infinity, and the questions are randomly designed. We also develop an algorithm for designing optimal questions and provide empirical evidence that our met
     
 
