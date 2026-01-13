@@ -2,52 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Expression Syntax Information Bottleneck for Math Word Problems.](http://arxiv.org/abs/2310.15664) | 本文提出了一种通过变分信息瓶颈从数学问题的文本中提取关键特征的方法，同时去除冗余信息。该方法通过相互学习，鼓励多个模型为同一个问题的不同表述预测相同的表达式语法树，从而捕捉一致的信息并去除冗余。 |
-| [^2] | [Simple Mechanisms for Representing, Indexing and Manipulating Concepts.](http://arxiv.org/abs/2310.12143) | 通过查看概念的矩阵统计量，生成一个概念的具体表示或签名，可以用于发现概念之间的结构并递归产生更高级的概念，同时可以通过概念的签名来找到相关的共同主题。 |
-| [^3] | [An Evaluation on Large Language Model Outputs: Discourse and Memorization.](http://arxiv.org/abs/2304.08637) | 评估了九个大语言模型的输出，发现其中80％包含记忆数据，但包含最多记忆内容的输出更可能是高质量的。提出了缓解策略以降低记忆文本率。 |
+| [^1] | [Correcting misinformation on social media with a large language model](https://arxiv.org/abs/2403.11169) | 提出了一种名为MUSE的大型语言模型，通过访问最新信息并评估可信度，以解决社交媒体上误信息纠正的难题。 |
+| [^2] | [Browse and Concentrate: Comprehending Multimodal Content via prior-LLM Context Fusion](https://arxiv.org/abs/2402.12195) | 提出了一个两阶段范式"浏览和集中"，通过在将特征输入LLMs之前进行深入的多模态上下文融合，解决了多模态内容理解中的 prior-LLM 模态隔离问题 |
 
 # 详细
 
-[^1]: 数学问题的表达式语法信息瓶颈
+[^1]: 使用大型语言模型纠正社交媒体上的错误信息
 
-    Expression Syntax Information Bottleneck for Math Word Problems. (arXiv:2310.15664v1 [cs.CL])
+    Correcting misinformation on social media with a large language model
 
-    [http://arxiv.org/abs/2310.15664](http://arxiv.org/abs/2310.15664)
+    [https://arxiv.org/abs/2403.11169](https://arxiv.org/abs/2403.11169)
 
-    本文提出了一种通过变分信息瓶颈从数学问题的文本中提取关键特征的方法，同时去除冗余信息。该方法通过相互学习，鼓励多个模型为同一个问题的不同表述预测相同的表达式语法树，从而捕捉一致的信息并去除冗余。
-
-    
-
-    数学问题的表达式语法信息瓶颈 (ESIB) 方法旨在通过变分信息瓶颈从数学问题的文本中提取关键特征，同时过滤掉包含不相关特征的冗余信息。ESIB的关键思想是通过相互学习来鼓励多个模型为同一个问题的不同表述预测相同的表达式语法树，从而捕捉一致的表达式语法树信息，并去除具有特定语法无关特征的冗余部分。
-
-    Math Word Problems (MWP) aims to automatically solve mathematical questions given in texts. Previous studies tend to design complex models to capture additional information in the original text so as to enable the model to gain more comprehensive features. In this paper, we turn our attention in the opposite direction, and work on how to discard redundant features containing spurious correlations for MWP. To this end, we design an Expression Syntax Information Bottleneck method for MWP (called ESIB) based on variational information bottleneck, which extracts essential features of expression syntax tree while filtering latent-specific redundancy containing syntax-irrelevant features. The key idea of ESIB is to encourage multiple models to predict the same expression syntax tree for different problem representations of the same problem by mutual learning so as to capture consistent information of expression syntax tree and discard latent-specific redundancy. To improve the generalization
-    
-[^2]: 简单机制用于表示、索引和操作概念
-
-    Simple Mechanisms for Representing, Indexing and Manipulating Concepts. (arXiv:2310.12143v1 [cs.LG])
-
-    [http://arxiv.org/abs/2310.12143](http://arxiv.org/abs/2310.12143)
-
-    通过查看概念的矩阵统计量，生成一个概念的具体表示或签名，可以用于发现概念之间的结构并递归产生更高级的概念，同时可以通过概念的签名来找到相关的共同主题。
+    提出了一种名为MUSE的大型语言模型，通过访问最新信息并评估可信度，以解决社交媒体上误信息纠正的难题。
 
     
 
-    深度网络通常通过分类器学习概念，这涉及设置模型并通过梯度下降训练它以适应具有标记概念的数据。我们将提出一个不同的观点，即可以通过查看概念的矩阵矩阵统计量来生成概念的具体表示或签名。这些签名可以用于发现一组概念的结构，并且可以通过从这些签名中学习该结构来递归地产生更高级的概念。当概念"相交"时，概念的签名可以用于在一些相关的"相交"概念中找到一个共同的主题。这个过程可以用于保持一个概念字典，以便输入能够正确识别并被路由到与输入的(潜在)生成相关的概念集合中。
+    误信息会破坏公众对科学和民主的信任，特别是在社交媒体上，不准确信息会迅速传播。专家和普通人通过手动识别和解释不准确信息已经被证明是有效的纠正误信息的方法。然而，这种方法很难扩展，这是一个担忧，因为大型语言模型（LLMs）等技术使误信息更容易生成。LLMs还具有多功能能力，可以加速纠正误信息；然而，它们由于缺乏最新信息、倾向于生成似是而非的内容和引用以及无法处理多模态信息而面临困难。为了解决这些问题，我们提出了MUSE，这是一个带有最新信息访问和可信度评估的LLM。通过检索上下文证据和反驳，MUSE可以提供准确可信的解释和参考。它还描述
 
-    Deep networks typically learn concepts via classifiers, which involves setting up a model and training it via gradient descent to fit the concept-labeled data. We will argue instead that learning a concept could be done by looking at its moment statistics matrix to generate a concrete representation or signature of that concept. These signatures can be used to discover structure across the set of concepts and could recursively produce higher-level concepts by learning this structure from those signatures. When the concepts are `intersected', signatures of the concepts can be used to find a common theme across a number of related `intersected' concepts. This process could be used to keep a dictionary of concepts so that inputs could correctly identify and be routed to the set of concepts involved in the (latent) generation of the input.
+    arXiv:2403.11169v1 Announce Type: cross  Abstract: Misinformation undermines public trust in science and democracy, particularly on social media where inaccuracies can spread rapidly. Experts and laypeople have shown to be effective in correcting misinformation by manually identifying and explaining inaccuracies. Nevertheless, this approach is difficult to scale, a concern as technologies like large language models (LLMs) make misinformation easier to produce. LLMs also have versatile capabilities that could accelerate misinformation correction; however, they struggle due to a lack of recent information, a tendency to produce plausible but false content and references, and limitations in addressing multimodal information. To address these issues, we propose MUSE, an LLM augmented with access to and credibility evaluation of up-to-date information. By retrieving contextual evidence and refutations, MUSE can provide accurate and trustworthy explanations and references. It also describes 
     
-[^3]: 大型语言模型输出的评估：话语和记忆
+[^2]: 通过 prior-LLM 上下文融合来理解多模态内容
 
-    An Evaluation on Large Language Model Outputs: Discourse and Memorization. (arXiv:2304.08637v1 [cs.CL])
+    Browse and Concentrate: Comprehending Multimodal Content via prior-LLM Context Fusion
 
-    [http://arxiv.org/abs/2304.08637](http://arxiv.org/abs/2304.08637)
+    [https://arxiv.org/abs/2402.12195](https://arxiv.org/abs/2402.12195)
 
-    评估了九个大语言模型的输出，发现其中80％包含记忆数据，但包含最多记忆内容的输出更可能是高质量的。提出了缓解策略以降低记忆文本率。
+    提出了一个两阶段范式"浏览和集中"，通过在将特征输入LLMs之前进行深入的多模态上下文融合，解决了多模态内容理解中的 prior-LLM 模态隔离问题
 
     
 
-    我们对九个最广泛可用的大型语言模型（LLMs）生成的各种输出进行了经验性评估。我们使用现成的工具进行分析，发现在与输出病态（例如，反事实和逻辑上的错误陈述）以及不保持主题等方面的关系中，记忆文本百分比、独特文本百分比和整体输出质量之间存在相关性。总体而言，80.0％的输出包含记忆数据，但包含最多记忆内容的输出也更有可能被认为具有高质量。我们讨论和评估了缓解策略，并显示，在评估的模型中，输出的记忆文本率有所降低。最后，我们就学习、记忆和评估优质文本的潜在影响进行了讨论。
+    随着大型语言模型（LLMs）的兴起，近期将LLMs与预训练的视觉模型相结合的多模态大型语言模型（MLLMs）已经展现出在各种视觉语言任务上令人印象深刻的性能。然而，它们在理解涉及多张图片的上下文方面仍有不足。这一缺陷的主要原因是，在将视觉特征输入LLM主干之前，每张图片的视觉特征都是由冻结的编码器单独编码的，缺乏对其他图片和多模态指令的意识。我们将这一问题称为 prior-LLM 模态隔离，并提出了一个两阶段范式，即“浏览和集中”，以实现在将特征输入LLMs之前进行深入的多模态上下文融合。这种范式最初“浏览”输入以获取关键见解，然后再次回顾输入“集中”于关键细节，通过这些见解的指导，从而实现对多模态内容更全面的理解。
 
-    We present an empirical evaluation of various outputs generated by nine of the most widely-available large language models (LLMs). Our analysis is done with off-the-shelf, readily-available tools. We find a correlation between percentage of memorized text, percentage of unique text, and overall output quality, when measured with respect to output pathologies such as counterfactual and logically-flawed statements, and general failures like not staying on topic. Overall, 80.0% of the outputs evaluated contained memorized data, but outputs containing the most memorized content were also more likely to be considered of high quality. We discuss and evaluate mitigation strategies, showing that, in the models evaluated, the rate of memorized text being output is reduced. We conclude with a discussion on potential implications around what it means to learn, to memorize, and to evaluate quality text.
+    arXiv:2402.12195v1 Announce Type: new  Abstract: With the bloom of Large Language Models (LLMs), Multimodal Large Language Models (MLLMs) that incorporate LLMs with pre-trained vision models have recently demonstrated impressive performance across diverse vision-language tasks. However, they fall short to comprehend context involving multiple images. A primary reason for this shortcoming is that the visual features for each images are encoded individually by frozen encoders before feeding into the LLM backbone, lacking awareness of other images and the multimodal instructions. We term this issue as prior-LLM modality isolation and propose a two phase paradigm, browse-and-concentrate, to enable in-depth multimodal context fusion prior to feeding the features into LLMs. This paradigm initially "browses" through the inputs for essential insights, and then revisits the inputs to "concentrate" on crucial details, guided by these insights, to achieve a more comprehensive understanding of the
     
 
