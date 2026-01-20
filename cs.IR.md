@@ -2,22 +2,9 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Extending Transductive Knowledge Graph Embedding Models for Inductive Logical Relational Inference.](http://arxiv.org/abs/2309.03773) | 本文提出了一种扩展传导知识图嵌入方法的模型，用于处理归纳推理任务。通过引入广义的谐波扩展，利用传导嵌入方法学习的表示来推断在推理时引入的新实体的表示。 |
+
 
 # 详细
 
-[^1]: 扩展传导知识图嵌入模型用于归纳逻辑关系推理
 
-    Extending Transductive Knowledge Graph Embedding Models for Inductive Logical Relational Inference. (arXiv:2309.03773v1 [cs.AI])
-
-    [http://arxiv.org/abs/2309.03773](http://arxiv.org/abs/2309.03773)
-
-    本文提出了一种扩展传导知识图嵌入方法的模型，用于处理归纳推理任务。通过引入广义的谐波扩展，利用传导嵌入方法学习的表示来推断在推理时引入的新实体的表示。
-
-    
-
-    许多知识图的下游推理任务，例如关系预测，在传导设置下已经成功处理了。为了处理归纳设置，也就是在推理时引入新实体到知识图中，较新的工作选择了通过网络子图结构的复杂函数学习知识图的隐式表示的模型，通常由图神经网络架构参数化。这些模型的成本是增加的参数化、降低的可解释性和对其他下游推理任务的有限泛化能力。在这项工作中，我们通过引入广义的谐波扩展来弥合传统传导知识图嵌入方法和较新的归纳关系预测模型之间的差距，通过利用通过传导嵌入方法学习的表示来推断在推理时引入的新实体的表示。
-
-    Many downstream inference tasks for knowledge graphs, such as relation prediction, have been handled successfully by knowledge graph embedding techniques in the transductive setting. To address the inductive setting wherein new entities are introduced into the knowledge graph at inference time, more recent work opts for models which learn implicit representations of the knowledge graph through a complex function of a network's subgraph structure, often parametrized by graph neural network architectures. These come at the cost of increased parametrization, reduced interpretability and limited generalization to other downstream inference tasks. In this work, we bridge the gap between traditional transductive knowledge graph embedding approaches and more recent inductive relation prediction models by introducing a generalized form of harmonic extension which leverages representations learned through transductive embedding methods to infer representations of new entities introduced at infe
-    
 
