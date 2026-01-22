@@ -2,112 +2,97 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [AlphaMapleSAT: An MCTS-based Cube-and-Conquer SAT Solver for Hard Combinatorial Problems.](http://arxiv.org/abs/2401.13770) | AlphaMapleSAT是一种基于MCTS的Cube-and-Conquer SAT求解器，通过推理驱动的先行计算技术来高效解决困难的组合问题。 |
-| [^2] | [DiffusionGPT: LLM-Driven Text-to-Image Generation System.](http://arxiv.org/abs/2401.10061) | DiffusionGPT是一个基于LLM的统一文本生成图像系统，能够处理多样化的输入并整合领域专家模型。 |
-| [^3] | [Manipulating Feature Visualizations with Gradient Slingshots.](http://arxiv.org/abs/2401.06122) | 本研究探究了激活最大化方法在对抗模型操作中的脆弱性，并提出了一种新的方法来操纵特征可视化，以隐藏特定神经元的功能。 |
-| [^4] | [Quadratic Time-Frequency Analysis of Vibration Signals for Diagnosing Bearing Faults.](http://arxiv.org/abs/2401.01172) | 本文提出了一种融合时间频率分析和深度学习技术的方法，用于在实际条件下诊断带有时间变化速度和不同噪声水平的轴承故障。这种方法有效地解析与不同轴承故障相关的独特动态模式。 |
-| [^5] | [GNN2R: Weakly-Supervised Rationale-Providing Question Answering over Knowledge Graphs.](http://arxiv.org/abs/2312.02317) | GNN2R是一种基于图神经网络的两步推理模型，通过弱监督训练，能够在知识图谱问答中提供最终答案以及推理子图的理由。该方法解决了现有方法缺乏解释以及效率低下的问题。 |
-| [^6] | [Combining Shape Completion and Grasp Prediction for Fast and Versatile Grasping with a Multi-Fingered Hand.](http://arxiv.org/abs/2310.20350) | 本文提出了一种结合形状完成和抓取预测的方法，实现了快速灵活的多指抓取。通过使用基于深度图像的形状完成模块和基于预测的抓取预测器，实现了在具有有限或无先验知识的情况下，对物体进行抓取的任务。 |
-| [^7] | [Shape Completion with Prediction of Uncertain Regions.](http://arxiv.org/abs/2308.00377) | 该论文提出了两种方法来处理在给定模糊物体视图时可能存在的物体部分的不确定区域预测问题。研究表明这些方法可以作为任何预测空间占用的方法的直接扩展，通过后处理占用评分或直接预测不确定性指标来实现。这些方法与已知的概率形状完成方法进行了比较，并使用自动生成的深度图像数据集进行了验证。 |
+| [^1] | [Exploring and Evaluating Hallucinations in LLM-Powered Code Generation](https://arxiv.org/abs/2404.00971) | 本研究通过主题分析对LLM生成的代码中的幻觉进行了总结和分类，建立了代码中幻觉的全面分类法。 |
+| [^2] | [Sora as an AGI World Model? A Complete Survey on Text-to-Video Generation](https://arxiv.org/abs/2403.05131) | 对文本到视频生成技术的发展进行了详细调查, 着重介绍了从传统生成模型到尖端Sora模型的转变，强调了可扩展性和通用性的发展。 |
+| [^3] | [CoTBal: Comprehensive Task Balancing for Multi-Task Visual Instruction Tuning](https://arxiv.org/abs/2403.04343) | 提出了一种全面任务平衡算法（CoTBal）用于大型多模态模型的多任务视觉指令调整，首次探索了视觉指令调整中的多任务优化。 |
+| [^4] | [GSINA: Improving Subgraph Extraction for Graph Invariant Learning via Graph Sinkhorn Attention](https://arxiv.org/abs/2402.07191) | 本文提出了一种改进的图不变学习方法，通过稀疏性、软性和可微性原则来提取不变子图，从而提高图学习的泛化性能。 |
+| [^5] | [Towards an AI Accountability Policy.](http://arxiv.org/abs/2307.13658) | 这份白皮书是对美国国家电信和信息管理局的“AI问责政策评论请求”的回应，提出了一组相互关联的AI问责政策建议。 |
+| [^6] | [Benchmark data to study the influence of pre-training on explanation performance in MR image classification.](http://arxiv.org/abs/2306.12150) | 本研究提出了一个MRI分类任务的基准数据集，用于评估不同模型的解释性能。实验结果表明，XAI方法并不一定比简单模型提供更好的解释，且CNN的解释能力取决于底层数据的复杂性和标签的质量。 |
 
 # 详细
 
-[^1]: AlphaMapleSAT：一种基于MCTS的Cube-and-Conquer SAT求解器，用于解决困难的组合问题
+[^1]: 探索和评估LLM驱动的代码生成中的幻觉
 
-    AlphaMapleSAT: An MCTS-based Cube-and-Conquer SAT Solver for Hard Combinatorial Problems. (arXiv:2401.13770v1 [cs.AI])
+    Exploring and Evaluating Hallucinations in LLM-Powered Code Generation
 
-    [http://arxiv.org/abs/2401.13770](http://arxiv.org/abs/2401.13770)
+    [https://arxiv.org/abs/2404.00971](https://arxiv.org/abs/2404.00971)
 
-    AlphaMapleSAT是一种基于MCTS的Cube-and-Conquer SAT求解器，通过推理驱动的先行计算技术来高效解决困难的组合问题。
-
-    
-
-    本文介绍了AlphaMapleSAT，一种新颖的基于Monte Carlo Tree Search (MCTS)的Cube-and-Conquer (CnC) SAT求解方法，旨在高效地解决具有挑战性的组合问题。尽管CnC求解器在解决各种困难的组合问题上取得了巨大成功，但多年来，CnC的先行计算技术并没有得到很大发展。其中一个原因是很难提出既低成本又能有效地将输入公式分割为子公式的新型分割技术，从而使整体运行时间最小化。当前最先进的CnC求解器（如March）使用的先行计算技术通过约束搜索最优分割变量来降低计算成本。相比之下，我们的关键创新是一种基于推理驱动的MCTS先行计算技术，通过进行更深入的启发式搜索来寻找有效的分割，同时使计算成本低。我们进行了详细的对比实验
-
-    This paper introduces AlphaMapleSAT, a novel Monte Carlo Tree Search (MCTS) based Cube-and-Conquer (CnC) SAT solving method aimed at efficiently solving challenging combinatorial problems. Despite the tremendous success of CnC solvers in solving a variety of hard combinatorial problems, the lookahead cubing techniques at the heart of CnC have not evolved much for many years. Part of the reason is the sheer difficulty of coming up with new cubing techniques that are both low-cost and effective in partitioning input formulas into sub-formulas, such that the overall runtime is minimized.  Lookahead cubing techniques used by current state-of-the-art CnC solvers, such as March, keep their cubing costs low by constraining the search for the optimal splitting variables. By contrast, our key innovation is a deductively-driven MCTS-based lookahead cubing technique, that performs a deeper heuristic search to find effective cubes, while keeping the cubing cost low. We perform an extensive compari
-    
-[^2]: DiffusionGPT: 基于LLM的文本生成图像系统
-
-    DiffusionGPT: LLM-Driven Text-to-Image Generation System. (arXiv:2401.10061v1 [cs.CV])
-
-    [http://arxiv.org/abs/2401.10061](http://arxiv.org/abs/2401.10061)
-
-    DiffusionGPT是一个基于LLM的统一文本生成图像系统，能够处理多样化的输入并整合领域专家模型。
+    本研究通过主题分析对LLM生成的代码中的幻觉进行了总结和分类，建立了代码中幻觉的全面分类法。
 
     
 
-    扩散模型为图像生成领域打开了新的道路，导致了在开源平台上共享高质量模型的广泛传播。然而，目前的文本生成图像系统存在一个主要挑战，即往往无法处理多样化的输入，或仅限于单一模型的结果。目前的统一尝试通常分为两个正交方面：i）在输入阶段解析多样的提示；ii）激活专家模型进行输出。为了兼顾两者的优点，我们提出了DiffusionGPT，它利用大型语言模型（LLM）提供了一个统一的生成系统，能够无缝地适应各种类型的提示并整合领域专家模型。DiffusionGPT基于先验知识为各种生成模型构建了领域特定的Thought树。当提供输入时，LLM解析提示并利用Thought树来指导选择适当的模型，从而放松输入约束并确保异常的效果。
+    大型语言模型（LLMs）的崛起已经极大地推动了软件工程任务中许多应用的发展，特别是在代码生成方面。尽管表现出色，LLMs容易产生幻觉，即LLMs可能产生与用户意图偏离、表现出内部不一致或与事实知识不符的输出，使得在广泛应用中部署LLMs可能存在风险。现有研究主要集中在自然语言生成（NLG）领域的幻觉，缺乏对代码生成环境中幻觉类型和程度的理解。为了填补这一空白，我们对LLM生成的代码进行了主题分析，总结和归类其中存在的幻觉。我们的研究建立了LLM生成的代码中幻觉的全面分类法，涵盖了5个主要幻觉类别。
 
-    Diffusion models have opened up new avenues for the field of image generation, resulting in the proliferation of high-quality models shared on open-source platforms. However, a major challenge persists in current text-to-image systems are often unable to handle diverse inputs, or are limited to single model results. Current unified attempts often fall into two orthogonal aspects: i) parse Diverse Prompts in input stage; ii) activate expert model to output. To combine the best of both worlds, we propose DiffusionGPT, which leverages Large Language Models (LLM) to offer a unified generation system capable of seamlessly accommodating various types of prompts and integrating domain-expert models. DiffusionGPT constructs domain-specific Trees for various generative models based on prior knowledge. When provided with an input, the LLM parses the prompt and employs the Trees-of-Thought to guide the selection of an appropriate model, thereby relaxing input constraints and ensuring exceptional 
+    arXiv:2404.00971v1 Announce Type: cross  Abstract: The rise of Large Language Models (LLMs) has significantly advanced many applications on software engineering tasks, particularly in code generation. Despite the promising performance, LLMs are prone to generate hallucinations, which means LLMs might produce outputs that deviate from users' intent, exhibit internal inconsistencies, or misalign with the factual knowledge, making the deployment of LLMs potentially risky in a wide range of applications. Existing work mainly focuses on investing the hallucination in the domain of natural language generation (NLG), leaving a gap in understanding the types and extent of hallucinations in the context of code generation. To bridge the gap, we conducted a thematic analysis of the LLM-generated code to summarize and categorize the hallucinations present in it. Our study established a comprehensive taxonomy of hallucinations in LLM-generated code, encompassing 5 primary categories of hallucinatio
     
-[^3]: 用梯度弹射操纵特征可视化
+[^2]: Sora作为AGI世界模型？关于文本到视频生成的完整调查
 
-    Manipulating Feature Visualizations with Gradient Slingshots. (arXiv:2401.06122v1 [cs.LG])
+    Sora as an AGI World Model? A Complete Survey on Text-to-Video Generation
 
-    [http://arxiv.org/abs/2401.06122](http://arxiv.org/abs/2401.06122)
+    [https://arxiv.org/abs/2403.05131](https://arxiv.org/abs/2403.05131)
 
-    本研究探究了激活最大化方法在对抗模型操作中的脆弱性，并提出了一种新的方法来操纵特征可视化，以隐藏特定神经元的功能。
-
-    
-
-    深度神经网络(DNNs)能够学习复杂而多样化的表示，然而，学习到的概念的语义性质仍然未知。解释DNNs学习到的概念的常用方法是激活最大化(AM)，它生成一个合成的输入信号，最大化激活网络中的特定神经元。在本文中，我们研究了这种方法对于对抗模型操作的脆弱性，并引入了一种新的方法来操纵特征可视化，而不改变模型结构或对模型的决策过程产生显著影响。我们评估了我们的方法对几个神经网络模型的效果，并展示了它隐藏特定神经元功能的能力，在模型审核过程中使用选择的目标解释屏蔽了原始解释。作为一种补救措施，我们提出了一种防止这种操纵的防护措施，并提供了定量证据，证明了它的有效性。
-
-    Deep Neural Networks (DNNs) are capable of learning complex and versatile representations, however, the semantic nature of the learned concepts remains unknown. A common method used to explain the concepts learned by DNNs is Activation Maximization (AM), which generates a synthetic input signal that maximally activates a particular neuron in the network. In this paper, we investigate the vulnerability of this approach to adversarial model manipulations and introduce a novel method for manipulating feature visualization without altering the model architecture or significantly impacting the model's decision-making process. We evaluate the effectiveness of our method on several neural network models and demonstrate its capabilities to hide the functionality of specific neurons by masking the original explanations of neurons with chosen target explanations during model auditing. As a remedy, we propose a protective measure against such manipulations and provide quantitative evidence which 
-    
-[^4]: 振动信号的二次时间频率分析用于诊断轴承故障
-
-    Quadratic Time-Frequency Analysis of Vibration Signals for Diagnosing Bearing Faults. (arXiv:2401.01172v1 [cs.LG])
-
-    [http://arxiv.org/abs/2401.01172](http://arxiv.org/abs/2401.01172)
-
-    本文提出了一种融合时间频率分析和深度学习技术的方法，用于在实际条件下诊断带有时间变化速度和不同噪声水平的轴承故障。这种方法有效地解析与不同轴承故障相关的独特动态模式。
+    对文本到视频生成技术的发展进行了详细调查, 着重介绍了从传统生成模型到尖端Sora模型的转变，强调了可扩展性和通用性的发展。
 
     
 
-    轴承故障的诊断对于降低维修成本和设备停机至关重要。轴承故障是机器振动的主要原因，分析其信号形态可以揭示其健康状况。然而，现有的方法主要针对控制环境进行优化，忽略了实际条件下的时间变化的转速和振动的非平稳性。本文提出了一种时间频率分析和深度学习技术的融合方法，用于在时间变化速度和不同噪声水平下诊断轴承故障。首先，我们制定了轴承故障引起的振动，并讨论了它们的非平稳性与轴承固有和操作参数之间的联系。我们还阐述了二次时间频率分布，并验证了它们解析与不同轴承故障相关的独特动态模式的有效性。基于此，我们设计了一个时间频率卷积神经网络。
+    arXiv:2403.05131v1 公告类型: 新摘要: 文本到视频生成标志着生成式人工智能不断发展领域中的重要前沿，整合了文本到图像合成、视频字幕和文本引导编辑的进展。本调查对文本到视频技术的发展进行了批判性审视，重点关注传统生成模型向尖端Sora模型转变的过程，突出了可扩展性和通用性的发展。区别于以往作品的分析，我们深入探讨了这些模型的技术框架和演化路径。此外，我们还深入探讨了实际应用，并解决了伦理和技术挑战，如无法执行多实体处理、理解因果关系学习、理解物理互动、感知物体缩放和比例以及对抗物体幻觉，这也是生成模型中长期存在的问题。
 
-    Diagnosis of bearing faults is paramount to reducing maintenance costs and operational breakdowns. Bearing faults are primary contributors to machine vibrations, and analyzing their signal morphology offers insights into their health status. Unfortunately, existing approaches are optimized for controlled environments, neglecting realistic conditions such as time-varying rotational speeds and the vibration's non-stationary nature. This paper presents a fusion of time-frequency analysis and deep learning techniques to diagnose bearing faults under time-varying speeds and varying noise levels. First, we formulate the bearing fault-induced vibrations and discuss the link between their non-stationarity and the bearing's inherent and operational parameters. We also elucidate quadratic time-frequency distributions and validate their effectiveness in resolving distinctive dynamic patterns associated with different bearing faults. Based on this, we design a time-frequency convolutional neural n
+    arXiv:2403.05131v1 Announce Type: new  Abstract: Text-to-video generation marks a significant frontier in the rapidly evolving domain of generative AI, integrating advancements in text-to-image synthesis, video captioning, and text-guided editing. This survey critically examines the progression of text-to-video technologies, focusing on the shift from traditional generative models to the cutting-edge Sora model, highlighting developments in scalability and generalizability. Distinguishing our analysis from prior works, we offer an in-depth exploration of the technological frameworks and evolutionary pathways of these models. Additionally, we delve into practical applications and address ethical and technological challenges such as the inability to perform multiple entity handling, comprehend causal-effect learning, understand physical interaction, perceive object scaling and proportioning, and combat object hallucination which is also a long-standing problem in generative models. Our c
     
-[^5]: GNN2R: 基于弱监督的知识图谱问答中提供理由的问题回答方法
+[^3]: CoTBal: 多任务视觉指令调整的全面任务平衡
 
-    GNN2R: Weakly-Supervised Rationale-Providing Question Answering over Knowledge Graphs. (arXiv:2312.02317v3 [cs.CL] UPDATED)
+    CoTBal: Comprehensive Task Balancing for Multi-Task Visual Instruction Tuning
 
-    [http://arxiv.org/abs/2312.02317](http://arxiv.org/abs/2312.02317)
+    [https://arxiv.org/abs/2403.04343](https://arxiv.org/abs/2403.04343)
 
-    GNN2R是一种基于图神经网络的两步推理模型，通过弱监督训练，能够在知识图谱问答中提供最终答案以及推理子图的理由。该方法解决了现有方法缺乏解释以及效率低下的问题。
-
-    
-
-    目前大多数基于知识图谱的多跳问题回答方法只提供最终的确定答案，而没有解释，对于普通用户难以理解和查看的KG实体集。这严重限制了知识图谱问答在现实场景中的应用。本文提出了一种基于图神经网络的两步推理模型（GNN2R）来解决这个问题。GNN2R能够通过仅有的问题-最终答案对提供最终答案以及作为最终答案背后的推理子图的理由，且仅需要通过弱监督进行训练。我们对GNN2R进行了大量评估，并进行了详细的实验。
-
-    Most current methods for multi-hop question answering (QA) over knowledge graphs (KGs) only provide final conclusive answers without explanations, such as a set of KG entities that is difficult for normal users to review and comprehend. This issue severely limits the application of KG-based QA in real-world scenarios. However, it is non-trivial to solve due to two challenges: First, annotations of reasoning chains of multi-hop questions, which could serve as supervision for explanation generation, are usually lacking. Second, it is difficult to maintain high efficiency when explicit KG triples need to be retrieved to generate explanations. In this paper, we propose a novel Graph Neural Network-based Two-Step Reasoning model (GNN2R) to solve this issue. GNN2R can provide both final answers and reasoning subgraphs as a rationale behind final answers efficiently with only weak supervision that is available through question-final answer pairs. We extensively evaluated GNN2R with detailed a
-    
-[^6]: 将形状完成和抓取预测结合，实现快速灵活的多指抓取
-
-    Combining Shape Completion and Grasp Prediction for Fast and Versatile Grasping with a Multi-Fingered Hand. (arXiv:2310.20350v1 [cs.RO])
-
-    [http://arxiv.org/abs/2310.20350](http://arxiv.org/abs/2310.20350)
-
-    本文提出了一种结合形状完成和抓取预测的方法，实现了快速灵活的多指抓取。通过使用基于深度图像的形状完成模块和基于预测的抓取预测器，实现了在具有有限或无先验知识的情况下，对物体进行抓取的任务。
+    提出了一种全面任务平衡算法（CoTBal）用于大型多模态模型的多任务视觉指令调整，首次探索了视觉指令调整中的多任务优化。
 
     
 
-    在辅助机器人中，对于具有有限或无先验知识的物体进行抓取是一项非常重要的技能。然而，在这种普适情况下，尤其是在观测能力有限和利用多指手进行灵活抓取时，仍然存在一个开放的问题。我们提出了一种新颖、快速和高保真度的深度学习流程，由基于单个深度图像的形状完成模块和基于预测的物体形状的抓取预测器组成。形状完成网络基于VQDIF，在任意查询点上预测空间占用值。作为抓取预测器，我们使用了两阶段架构，首先使用自回归模型生成手姿势，然后回归每个姿势的手指关节配置。关键因素是足够的数据真实性和增强，以及在训练过程中对困难情况的特殊关注。在物理机器人平台上进行的实验表明，成功地实现了抓取。
+    arXiv:2403.04343v1 公告类型: 新   摘要: 视觉指令调整是大型多模态模型（LMMs）的关键训练阶段。然而，无差别混合来自各种任务的指令跟随数据的普遍做法可能导致由于任务之间的指令格式和知识领域不同而导致整体性能不佳。为了缓解这个问题，我们提出了一种新颖的全面任务平衡（CoTBal）算法，用于LMMs的多任务视觉指令调整。据我们所知，这是第一项探索视觉指令调整中多任务优化的工作。具体地，我们考虑任务平衡的两个关键维度:（1）任务间贡献，即学习一个任务可能增强其他任务的性能的现象，归因于重叠的知识领域，以及（2）任务内难度，指的是单个任务内的学习难度。通过用基于性能的方法量化这两个维度
 
-    Grasping objects with limited or no prior knowledge about them is a highly relevant skill in assistive robotics. Still, in this general setting, it has remained an open problem, especially when it comes to only partial observability and versatile grasping with multi-fingered hands. We present a novel, fast, and high fidelity deep learning pipeline consisting of a shape completion module that is based on a single depth image, and followed by a grasp predictor that is based on the predicted object shape. The shape completion network is based on VQDIF and predicts spatial occupancy values at arbitrary query points. As grasp predictor, we use our two-stage architecture that first generates hand poses using an autoregressive model and then regresses finger joint configurations per pose. Critical factors turn out to be sufficient data realism and augmentation, as well as special attention to difficult cases during training. Experiments on a physical robot platform demonstrate successful gras
+    arXiv:2403.04343v1 Announce Type: new  Abstract: Visual instruction tuning is a key training stage of large multimodal models (LMMs). Nevertheless, the common practice of indiscriminately mixing instruction-following data from various tasks may result in suboptimal overall performance due to different instruction formats and knowledge domains across tasks. To mitigate this issue, we propose a novel Comprehensive Task Balancing (CoTBal) algorithm for multi-task visual instruction tuning of LMMs. To our knowledge, this is the first work that explores multi-task optimization in visual instruction tuning. Specifically, we consider two key dimensions for task balancing: (1) Inter-Task Contribution, the phenomenon where learning one task potentially enhances the performance in other tasks, attributable to the overlapping knowledge domains, and (2) Intra-Task Difficulty, which refers to the learning difficulty within a single task. By quantifying these two dimensions with performance-based me
     
-[^7]: 带有不确定区域预测的形状完成
+[^4]: GSINA: 通过图Sinkhorn Attention改进图不变学习中的子图提取
 
-    Shape Completion with Prediction of Uncertain Regions. (arXiv:2308.00377v1 [cs.CV])
+    GSINA: Improving Subgraph Extraction for Graph Invariant Learning via Graph Sinkhorn Attention
 
-    [http://arxiv.org/abs/2308.00377](http://arxiv.org/abs/2308.00377)
+    [https://arxiv.org/abs/2402.07191](https://arxiv.org/abs/2402.07191)
 
-    该论文提出了两种方法来处理在给定模糊物体视图时可能存在的物体部分的不确定区域预测问题。研究表明这些方法可以作为任何预测空间占用的方法的直接扩展，通过后处理占用评分或直接预测不确定性指标来实现。这些方法与已知的概率形状完成方法进行了比较，并使用自动生成的深度图像数据集进行了验证。
+    本文提出了一种改进的图不变学习方法，通过稀疏性、软性和可微性原则来提取不变子图，从而提高图学习的泛化性能。
 
     
 
-    形状完成，即从部分观测预测物体的完整几何形状，对于几个下游任务非常重要，尤其是机器人操作。当基于物体形状重建进行规划或实际抓取的预测时，指示严重几何不确定性是必不可少的。特别是在给定模糊的物体视图时，在整个物体部分存在 irreducible uncertainty 的扩展区域。为了处理这种重要情况，我们提出了两种新方法来预测这些不确定区域，这两种方法都可以作为预测局部空间占用的任何方法的直接扩展，一种是通过后处理占用评分，另一种是通过直接预测不确定性指标。我们将这些方法与两种已知的概率形状完成方法进行了比较。此外，我们还生成了一个基于ShapeNet的数据集，其中包含了真实渲染的物体视图深度图像及其带有地面真值标注。
+    图不变学习(GIL)是一种有效的方法，用于在不同分布变化下发现图数据与其标签之间的不变关系，以解决各种图学习任务。最近的GIL研究主要集中在从输入图中提取不变子图，作为规则化策略来提高图学习的泛化性能。然而，这些方法在获取不变子图方面也存在各种限制。本文分析了现有工作的缺点，并提出了提取不变子图的相应原则：1）稀疏性，以过滤掉变异特征；2）软性，以获得更广泛的解空间；和3）可微性，以进行端到端优化。为了在一次操作中满足这些原则，我们利用最优传输(OT)理论，并提出了一种新颖的图注意机制，称为图Sinkhorn Attention（G)
 
-    Shape completion, i.e., predicting the complete geometry of an object from a partial observation, is highly relevant for several downstream tasks, most notably robotic manipulation. When basing planning or prediction of real grasps on object shape reconstruction, an indication of severe geometric uncertainty is indispensable. In particular, there can be an irreducible uncertainty in extended regions about the presence of entire object parts when given ambiguous object views. To treat this important case, we propose two novel methods for predicting such uncertain regions as straightforward extensions of any method for predicting local spatial occupancy, one through postprocessing occupancy scores, the other through direct prediction of an uncertainty indicator. We compare these methods together with two known approaches to probabilistic shape completion. Moreover, we generate a dataset, derived from ShapeNet, of realistically rendered depth images of object views with ground-truth annot
+    Graph invariant learning (GIL) has been an effective approach to discovering the invariant relationships between graph data and its labels for different graph learning tasks under various distribution shifts. Many recent endeavors of GIL focus on extracting the invariant subgraph from the input graph for prediction as a regularization strategy to improve the generalization performance of graph learning. Despite their success, such methods also have various limitations in obtaining their invariant subgraphs. In this paper, we provide in-depth analyses of the drawbacks of existing works and propose corresponding principles of our invariant subgraph extraction: 1) the sparsity, to filter out the variant features, 2) the softness, for a broader solution space, and 3) the differentiability, for a soundly end-to-end optimization. To meet these principles in one shot, we leverage the Optimal Transport (OT) theory and propose a novel graph attention mechanism called Graph Sinkhorn Attention (G
+    
+[^5]: 关于AI问责政策的探索
+
+    Towards an AI Accountability Policy. (arXiv:2307.13658v1 [cs.CY])
+
+    [http://arxiv.org/abs/2307.13658](http://arxiv.org/abs/2307.13658)
+
+    这份白皮书是对美国国家电信和信息管理局的“AI问责政策评论请求”的回应，提出了一组相互关联的AI问责政策建议。
+
+    
+
+    这份白皮书是对美国国家电信和信息管理局的“AI问责政策评论请求”作出的回应。在回答相关问题的关键句子末尾，提供了要求评论的问题编号的上标。该白皮书提出了一组相互关联的AI问责政策建议。
+
+    This white paper is a response to the "AI Accountability Policy Request for Comments" by the National Telecommunications and Information Administration of the United States. The question numbers for which comments were requested are provided in superscripts at the end of key sentences answering the respective questions. The white paper offers a set of interconnected recommendations for an AI accountability policy.
+    
+[^6]: 基于预训练的影响因素研究医学图像分类解释性能的基准数据
+
+    Benchmark data to study the influence of pre-training on explanation performance in MR image classification. (arXiv:2306.12150v1 [cs.CV])
+
+    [http://arxiv.org/abs/2306.12150](http://arxiv.org/abs/2306.12150)
+
+    本研究提出了一个MRI分类任务的基准数据集，用于评估不同模型的解释性能。实验结果表明，XAI方法并不一定比简单模型提供更好的解释，且CNN的解释能力取决于底层数据的复杂性和标签的质量。
+
+    
+
+    卷积神经网络（CNN）常常在医学预测任务中被成功地应用，通常与迁移学习相结合，在训练数据不足时能够提高性能。然而，由于CNN产生的模型高度复杂且通常不提供任何有关其预测机制的信息，这促使了“可解释性”人工智能（XAI）领域的研究。本文提出了一个基准数据集，用于在MRI分类任务中定量评估解释性能。通过这个基准数据集，我们可以了解迁移学习对解释质量的影响。实验结果表明，应用于基于迁移学习的CNN的流行XAI方法并不一定比简单模型提供更好的解释，并且CNN提供有意义解释的能力严重依赖于底层数据的复杂性和标签的质量。
+
+    Convolutional Neural Networks (CNNs) are frequently and successfully used in medical prediction tasks. They are often used in combination with transfer learning, leading to improved performance when training data for the task are scarce. The resulting models are highly complex and typically do not provide any insight into their predictive mechanisms, motivating the field of 'explainable' artificial intelligence (XAI). However, previous studies have rarely quantitatively evaluated the 'explanation performance' of XAI methods against ground-truth data, and transfer learning and its influence on objective measures of explanation performance has not been investigated. Here, we propose a benchmark dataset that allows for quantifying explanation performance in a realistic magnetic resonance imaging (MRI) classification task. We employ this benchmark to understand the influence of transfer learning on the quality of explanations. Experimental results show that popular XAI methods applied to t
     
 
