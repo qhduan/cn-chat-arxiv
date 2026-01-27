@@ -2,67 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Fine-Tuning, Prompting, In-Context Learning and Instruction-Tuning: How Many Labelled Samples Do We Need?](https://arxiv.org/abs/2402.12819) | 专门模型通常只需少量标记样本（100-1000个）就能与通用模型持平甚至更好，取决于任务的复杂性和结果的变化。 |
-| [^2] | [Entire Chain Uplift Modeling with Context-Enhanced Learning for Intelligent Marketing](https://arxiv.org/abs/2402.03379) | 全链路上升建模方法ECUP旨在解决链路偏差和处理不适应问题，在线营销中有重要的应用价值。 |
-| [^3] | [Task Aware Dreamer for Task Generalization in Reinforcement Learning.](http://arxiv.org/abs/2303.05092) | 本文提出了一种名为Task Aware Dreamer（TAD）的方法用于强化学习中的任务泛化。通过量化任务分布的相关性，TAD能够将历史信息编码到策略中，以便区分不同任务，并在泛化到未见任务时具有较好的性能。 |
-| [^4] | [Vertical Semi-Federated Learning for Efficient Online Advertising.](http://arxiv.org/abs/2209.15635) | 垂直半联合学习为在线广告领域提供了高效的解决方案，通过学习一个联合感知的局部模型以应对传统垂直联合学习的限制。 |
+| [^1] | [The Double-Edged Sword of Input Perturbations to Robust Accurate Fairness](https://arxiv.org/abs/2404.01356) | 该论文研究了深度神经网络对敌对输入扰动的敏感性，提出了新的鲁棒准确公平性定义，并介绍了一种敌对攻击方法和相应的解决方案。 |
+| [^2] | [Sound event localization and classification using WASN in Outdoor Environment](https://arxiv.org/abs/2403.20130) | 本文提出了一种基于深度学习的方法，利用多种特征和注意机制来估计声源的位置和类别，包括引入"声音地图"特征、使用Gammatone滤波器生成更适合室外环境的声学特征，以及集成注意机制来学习通道间的关系。 |
+| [^3] | [Theoretical Hardness and Tractability of POMDPs in RL with Partial Online State Information.](http://arxiv.org/abs/2306.08762) | 本论文研究了具有部分在线状态信息的POMDP问题的理论困难性和可计算性。作者通过建立下界得出一个惊人的难度结果：除非具有完整的在线状态信息，否则需要指数级的样本复杂度才能得到POMDP的最优策略解。然而，作者还发现了具有部分在线状态信息下的可计算POMDP类别，并提出了新的算法来证明其接近最优性。 |
+| [^4] | [Efficient Asynchronize Stochastic Gradient Algorithm with Structured Data.](http://arxiv.org/abs/2305.08001) | 本论文针对具有 Kronecker 结构的训练数据，提出了一种高效的异步随机梯度算法，可以在数据维度的次线性时间内完成每次迭代。 |
+| [^5] | [GFlowNet Foundations.](http://arxiv.org/abs/2111.09266) | GFlowNets是一种生成流网络方法，用于在主动学习环境中采样多样化的候选集。它们具有估计联合概率分布和边际分布的能力，可以表示关于复合对象（如集合和图）的分布。通过单次训练的生成传递，GFlowNets分摊了计算昂贵的MCMC方法的工作。 |
 
 # 详细
 
-[^1]: 微调、提示、上下文学习和指导微调：我们需要多少标记样本？
+[^1]: 输入扰动对鲁棒准确公平性的双刃剑
 
-    Fine-Tuning, Prompting, In-Context Learning and Instruction-Tuning: How Many Labelled Samples Do We Need?
+    The Double-Edged Sword of Input Perturbations to Robust Accurate Fairness
 
-    [https://arxiv.org/abs/2402.12819](https://arxiv.org/abs/2402.12819)
+    [https://arxiv.org/abs/2404.01356](https://arxiv.org/abs/2404.01356)
 
-    专门模型通常只需少量标记样本（100-1000个）就能与通用模型持平甚至更好，取决于任务的复杂性和结果的变化。
-
-    
-
-    当解决具有有限标记数据的任务时，研究人员可以选择使用通用的大型语言模型而不进行进一步更新，或者使用少量示例来调整专门的较小模型。 当有足够的标记可用时，专门的模型在许多自然语言处理任务上表现优于通用模型。 在这项工作中，我们旨在调查专门模型需要多少标记样本才能实现这种出色的性能，同时考虑结果的变化。观察提示、上下文学习、微调和指导微调的行为，识别它们在增加不同复杂性任务的标记训练样本数量时的收支平衡点，我们发现专门模型通常只需少量样本（100-1000个）就能与通用模型持平甚至更好。 同时，所需的标记数据量强烈依赖于任务的复杂性和结果的变化。
-
-    arXiv:2402.12819v1 Announce Type: cross  Abstract: When solving a task with limited labelled data, researchers can either use a general large language model without further update, or use the few examples to tune a specialised smaller model. When enough labels are available, the specialised models outperform the general ones on many NLP tasks. In this work, we aim to investigate how many labelled samples are required for the specialised models to achieve this superior performance, while taking the results variance into consideration. Observing the behaviour of prompting, in-context learning, fine-tuning and instruction-tuning, identifying their break-even points when increasing number of labelled training samples across three tasks of varying complexity, we find that the specialised models often need only few samples ($100-1000$) to be on par or better than the general ones. At the same time, the amount of required labelled data strongly depends on the task complexity and results varia
-    
-[^2]: 全链路上升建模与上下文增强学习用于智能营销
-
-    Entire Chain Uplift Modeling with Context-Enhanced Learning for Intelligent Marketing
-
-    [https://arxiv.org/abs/2402.03379](https://arxiv.org/abs/2402.03379)
-
-    全链路上升建模方法ECUP旨在解决链路偏差和处理不适应问题，在线营销中有重要的应用价值。
+    该论文研究了深度神经网络对敌对输入扰动的敏感性，提出了新的鲁棒准确公平性定义，并介绍了一种敌对攻击方法和相应的解决方案。
 
     
 
-    上升建模在在线营销中非常重要，它旨在通过预测个体处理效果（ITE）来准确衡量不同策略（如优惠券或折扣）对不同用户的影响。在电子商务环境中，用户行为遵循确定的顺序链路，包括展示、点击和转化。营销策略在这个链路中的每个阶段都会产生不同的上升效应，影响着点击率和转化率等指标。尽管其实用性，现有研究忽视了特定处理中所有阶段的相互影响，并未充分利用处理信息，可能给后续的营销决策引入了重大偏差。本文将这两个问题称为链路偏差问题和处理不适应问题。本文介绍了一种用于解决这些问题的具有上下文增强学习的全链路上升方法（ECUP）。ECUP包括两个主要组成部分：
+    深度神经网络(DNNs)被认为对敌对输入扰动敏感，导致预测的准确性或个体公平性降低。为了共同表征预测准确性和个体公平性对敌对扰动的敏感性，我们引入了一个名为鲁棒准确公平性的新定义。鲁棒准确公平性要求当实例及其相似对应物受到输入扰动时，预测与地面事实一致。我们提出一种敌对攻击方法RAFair，以暴露DNN中的虚假或偏见敌对缺陷，这些缺陷会欺骗准确性或损害个体公平性。然后，我们展示这样的敌对实例可以通过精心设计的良性扰动有效地解决，从而使它们的预测准确而公平。我们的工作探讨了输入对准确公平性的双刃剑。
 
-    Uplift modeling, vital in online marketing, seeks to accurately measure the impact of various strategies, such as coupons or discounts, on different users by predicting the Individual Treatment Effect (ITE). In an e-commerce setting, user behavior follows a defined sequential chain, including impression, click, and conversion. Marketing strategies exert varied uplift effects at each stage within this chain, impacting metrics like click-through and conversion rate. Despite its utility, existing research has neglected to consider the inter-task across all stages impacts within a specific treatment and has insufficiently utilized the treatment information, potentially introducing substantial bias into subsequent marketing decisions. We identify these two issues as the chain-bias problem and the treatment-unadaptive problem. This paper introduces the Entire Chain UPlift method with context-enhanced learning (ECUP), devised to tackle these issues. ECUP consists of two primary components: 1)
+    arXiv:2404.01356v1 Announce Type: cross  Abstract: Deep neural networks (DNNs) are known to be sensitive to adversarial input perturbations, leading to a reduction in either prediction accuracy or individual fairness. To jointly characterize the susceptibility of prediction accuracy and individual fairness to adversarial perturbations, we introduce a novel robustness definition termed robust accurate fairness. Informally, robust accurate fairness requires that predictions for an instance and its similar counterparts consistently align with the ground truth when subjected to input perturbations. We propose an adversarial attack approach dubbed RAFair to expose false or biased adversarial defects in DNN, which either deceive accuracy or compromise individual fairness. Then, we show that such adversarial instances can be effectively addressed by carefully designed benign perturbations, correcting their predictions to be accurate and fair. Our work explores the double-edged sword of input 
     
-[^3]: Task Aware Dreamer用于强化学习中的任务泛化
+[^2]: 在室外环境中使用WASN进行声事件定位和分类
 
-    Task Aware Dreamer for Task Generalization in Reinforcement Learning. (arXiv:2303.05092v2 [cs.LG] UPDATED)
+    Sound event localization and classification using WASN in Outdoor Environment
 
-    [http://arxiv.org/abs/2303.05092](http://arxiv.org/abs/2303.05092)
+    [https://arxiv.org/abs/2403.20130](https://arxiv.org/abs/2403.20130)
 
-    本文提出了一种名为Task Aware Dreamer（TAD）的方法用于强化学习中的任务泛化。通过量化任务分布的相关性，TAD能够将历史信息编码到策略中，以便区分不同任务，并在泛化到未见任务时具有较好的性能。
-
-    
-
-    强化学习的一个长期目标是获得能够在训练任务上学习并且在不同奖励函数下可以很好地泛化到未见任务的代理。一个通用的挑战是定量地衡量这些不同任务之间的相似性，这对于分析任务分布并进一步设计具有更强泛化能力的算法至关重要。为了解决这个问题，我们提出了一种新的度量方法，名为任务分布相关性（TDR），通过不同任务的最优Q函数来量化任务分布的相关性。在具有高TDR的任务情况下，即任务之间显著不同，我们发现马尔可夫策略无法区分它们，导致性能较差。基于这一观察，我们将所有历史信息编码到策略中以区分不同任务，并提出了Task Aware Dreamer（TAD），它将世界模型扩展为我们的奖励感知世界模型以捕捉任务的相关性。
-
-    A long-standing goal of reinforcement learning is to acquire agents that can learn on training tasks and generalize well on unseen tasks that may share a similar dynamic but with different reward functions. A general challenge is to quantitatively measure the similarities between these different tasks, which is vital for analyzing the task distribution and further designing algorithms with stronger generalization. To address this, we present a novel metric named Task Distribution Relevance (TDR) via optimal Q functions of different tasks to capture the relevance of the task distribution quantitatively. In the case of tasks with a high TDR, i.e., the tasks differ significantly, we show that the Markovian policies cannot differentiate them, leading to poor performance. Based on this insight, we encode all historical information into policies for distinguishing different tasks and propose Task Aware Dreamer (TAD), which extends world models into our reward-informed world models to capture
-    
-[^4]: 垂直半联合学习用于高效在线广告
-
-    Vertical Semi-Federated Learning for Efficient Online Advertising. (arXiv:2209.15635v2 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2209.15635](http://arxiv.org/abs/2209.15635)
-
-    垂直半联合学习为在线广告领域提供了高效的解决方案，通过学习一个联合感知的局部模型以应对传统垂直联合学习的限制。
+    本文提出了一种基于深度学习的方法，利用多种特征和注意机制来估计声源的位置和类别，包括引入"声音地图"特征、使用Gammatone滤波器生成更适合室外环境的声学特征，以及集成注意机制来学习通道间的关系。
 
     
 
-    传统的垂直联合学习架构存在两个主要问题：1）适用范围受限于重叠样本；2）实时联合服务的系统挑战较高，这限制了其在广告系统中的应用。为解决这些问题，我们提出了一种新的学习设置——半垂直联合学习(Semi-VFL)，以应对这些挑战。半垂直联合学习旨在实现垂直联合学习的实际工业应用方式，通过学习一个联合感知的局部模型，该模型表现优于单方模型，同时保持了局部服务的便利性。为此，我们提出了精心设计的联合特权学习框架(JPL)，来解决被动方特征缺失和适应整个样本空间这两个问题。具体而言，我们构建了一个推理高效的适用于整个样本空间的单方学生模型，同时保持了联合特征扩展的优势。新的表示蒸馏
+    基于深度学习的声事件定位和分类是无线声学传感器网络中的新兴研究领域。然而，当前的声事件定位和分类方法通常依赖于单个麦克风阵列，容易受到信号衰减和环境噪音的影响，这限制了它们的监测范围。此外，使用多个麦克风阵列的方法通常只关注源定位，忽略了声事件分类方面。在本文中，我们提出了一种基于深度学习的方法，利用多种特征和注意机制来估计声源的位置和类别。我们引入了"声音地图"特征，以捕获多个频段的空间信息。我们还使用Gammatone滤波器生成更适合室外环境的声学特征。此外，我们集成了注意机制来学习通道间的关系。
 
-    The traditional vertical federated learning schema suffers from two main issues: 1) restricted applicable scope to overlapped samples and 2) high system challenge of real-time federated serving, which limits its application to advertising systems. To this end, we advocate a new learning setting Semi-VFL (Vertical Semi-Federated Learning) to tackle these challenge. Semi-VFL is proposed to achieve a practical industry application fashion for VFL, by learning a federation-aware local model which performs better than single-party models and meanwhile maintain the convenience of local-serving. For this purpose, we propose the carefully designed Joint Privileged Learning framework (JPL) to i) alleviate the absence of the passive party's feature and ii) adapt to the whole sample space. Specifically, we build an inference-efficient single-party student model applicable to the whole sample space and meanwhile maintain the advantage of the federated feature extension. New representation distilla
+    arXiv:2403.20130v1 Announce Type: cross  Abstract: Deep learning-based sound event localization and classification is an emerging research area within wireless acoustic sensor networks. However, current methods for sound event localization and classification typically rely on a single microphone array, making them susceptible to signal attenuation and environmental noise, which limits their monitoring range. Moreover, methods using multiple microphone arrays often focus solely on source localization, neglecting the aspect of sound event classification. In this paper, we propose a deep learning-based method that employs multiple features and attention mechanisms to estimate the location and class of sound source. We introduce a Soundmap feature to capture spatial information across multiple frequency bands. We also use the Gammatone filter to generate acoustic features more suitable for outdoor environments. Furthermore, we integrate attention mechanisms to learn channel-wise relationsh
+    
+[^3]: 在具有部分在线状态信息的强化学习中，POMDP的理论难度和可计算性
+
+    Theoretical Hardness and Tractability of POMDPs in RL with Partial Online State Information. (arXiv:2306.08762v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2306.08762](http://arxiv.org/abs/2306.08762)
+
+    本论文研究了具有部分在线状态信息的POMDP问题的理论困难性和可计算性。作者通过建立下界得出一个惊人的难度结果：除非具有完整的在线状态信息，否则需要指数级的样本复杂度才能得到POMDP的最优策略解。然而，作者还发现了具有部分在线状态信息下的可计算POMDP类别，并提出了新的算法来证明其接近最优性。
+
+    
+
+    部分可观察的马尔可夫决策过程（POMDP）被广泛应用于捕捉许多现实世界的应用。然而，现有的理论结果已经表明，在一般的POMDP中学习可能是不可计算的，主要挑战在于缺乏潜在的状态信息。一个关键的基本问题是有多少在线状态信息（OSI）足以实现可计算性。在本文中，我们建立了一个下界，揭示了一个惊人的难度结果：除非我们具有完整的OSI，否则我们需要指数级的采样复杂度才能获得POMDP的$\epsilon$-最优策略解。尽管如此，受到我们下界设计的关键见解的启发，我们发现即使只有部分OSI，也存在重要的可计算的POMDP类别。特别地，对于具有部分OSI的两个新颖的POMDP类别，我们通过建立新的遗憾上下界证明了新的算法是接近最优的。
+
+    Partially observable Markov decision processes (POMDPs) have been widely applied to capture many real-world applications. However, existing theoretical results have shown that learning in general POMDPs could be intractable, where the main challenge lies in the lack of latent state information. A key fundamental question here is how much online state information (OSI) is sufficient to achieve tractability. In this paper, we establish a lower bound that reveals a surprising hardness result: unless we have full OSI, we need an exponentially scaling sample complexity to obtain an $\epsilon$-optimal policy solution for POMDPs. Nonetheless, inspired by the key insights in our lower bound design, we find that there exist important tractable classes of POMDPs even with only partial OSI. In particular, for two novel classes of POMDPs with partial OSI, we provide new algorithms that are proved to be near-optimal by establishing new regret upper and lower bounds.
+    
+[^4]: 具有结构化数据的高效异步随机梯度算法
+
+    Efficient Asynchronize Stochastic Gradient Algorithm with Structured Data. (arXiv:2305.08001v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.08001](http://arxiv.org/abs/2305.08001)
+
+    本论文针对具有 Kronecker 结构的训练数据，提出了一种高效的异步随机梯度算法，可以在数据维度的次线性时间内完成每次迭代。
+
+    
+
+    深度学习因其良好的泛化而在许多领域取得了显著的成功。但是，快速训练具有大量层数的神经网络一直是一个具有挑战性的问题。现有的研究利用局部敏感哈希技术或某些数据结构的空间划分来减轻每次迭代的训练成本。在本研究中，我们尝试从输入数据点的角度加速每次迭代中的计算。具体而言，针对一个两层全连接神经网络，当训练数据具有一些特殊属性，例如 Kronecker 结构时，每次迭代可以在数据维度的次线性时间内完成。
+
+    Deep learning has achieved impressive success in a variety of fields because of its good generalization. However, it has been a challenging problem to quickly train a neural network with a large number of layers. The existing works utilize the locality-sensitive hashing technique or some data structures on space partitioning to alleviate the training cost in each iteration. In this work, we try accelerating the computations in each iteration from the perspective of input data points. Specifically, for a two-layer fully connected neural network, when the training data have some special properties, e.g., Kronecker structure, each iteration can be completed in sublinear time in the data dimension.
+    
+[^5]: GFlowNet基础
+
+    GFlowNet Foundations. (arXiv:2111.09266v4 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2111.09266](http://arxiv.org/abs/2111.09266)
+
+    GFlowNets是一种生成流网络方法，用于在主动学习环境中采样多样化的候选集。它们具有估计联合概率分布和边际分布的能力，可以表示关于复合对象（如集合和图）的分布。通过单次训练的生成传递，GFlowNets分摊了计算昂贵的MCMC方法的工作。
+
+    
+
+    生成流网络（GFlowNets）被引入为在主动学习环境中采样多样化的候选集的方法，其训练目标使其近似按照给定的奖励函数进行采样。本文展示了GFlowNets的一些额外的理论性质。它们可以用于估计联合概率分布和相应的边际分布，其中一些变量未指定，特别是可以表示关于复合对象（如集合和图）的分布。GFlowNets通过单次训练的生成传递来分摊通常由计算昂贵的MCMC方法完成的工作。它们还可以用于估计分区函数和自由能，给定一个子集（子图）的超集（超图）的条件概率，以及给定一个集合（图）的所有超集（超图）的边际分布。我们介绍了一些变体，使得可以估计熵的值。
+
+    Generative Flow Networks (GFlowNets) have been introduced as a method to sample a diverse set of candidates in an active learning context, with a training objective that makes them approximately sample in proportion to a given reward function. In this paper, we show a number of additional theoretical properties of GFlowNets. They can be used to estimate joint probability distributions and the corresponding marginal distributions where some variables are unspecified and, of particular interest, can represent distributions over composite objects like sets and graphs. GFlowNets amortize the work typically done by computationally expensive MCMC methods in a single but trained generative pass. They could also be used to estimate partition functions and free energies, conditional probabilities of supersets (supergraphs) given a subset (subgraph), as well as marginal distributions over all supersets (supergraphs) of a given set (graph). We introduce variations enabling the estimation of entro
     
 
