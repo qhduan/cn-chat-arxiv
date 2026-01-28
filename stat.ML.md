@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [An Efficient Quasi-Random Sampling for Copulas](https://arxiv.org/abs/2403.05281) | 使用生成对抗网络（GANs）为任何Copula生成准随机样本的高效方法 |
-| [^2] | [GFlowNet Foundations.](http://arxiv.org/abs/2111.09266) | GFlowNets是一种生成流网络方法，用于在主动学习环境中采样多样化的候选集。它们具有估计联合概率分布和边际分布的能力，可以表示关于复合对象（如集合和图）的分布。通过单次训练的生成传递，GFlowNets分摊了计算昂贵的MCMC方法的工作。 |
+| [^1] | [Statistical Hypothesis Testing for Information Value (IV).](http://arxiv.org/abs/2309.13183) | 该论文提出了信息价值（IV）的统计假设检验方法，为模型建立前的特征选择提供了理论框架，并通过实验证明了该方法的有效性。 |
+| [^2] | [An efficient, provably exact algorithm for the 0-1 loss linear classification problem.](http://arxiv.org/abs/2306.12344) | 该研究详细介绍了一种名为增量单元枚举（ICE）的算法，该算法可以精确解决定维度0-1损失线性分类问题。 |
 
 # 详细
 
-[^1]: 一种高效的用于Copulas的准随机抽样方法
+[^1]: 信息价值（IV）的统计假设检验
 
-    An Efficient Quasi-Random Sampling for Copulas
+    Statistical Hypothesis Testing for Information Value (IV). (arXiv:2309.13183v1 [math.ST])
 
-    [https://arxiv.org/abs/2403.05281](https://arxiv.org/abs/2403.05281)
+    [http://arxiv.org/abs/2309.13183](http://arxiv.org/abs/2309.13183)
 
-    使用生成对抗网络（GANs）为任何Copula生成准随机样本的高效方法
-
-    
-
-    这篇论文研究了一种在蒙特卡罗计算中用于Copulas的高效准随机抽样方法。传统方法如条件分布法（CDM）在处理高维或隐式Copulas时存在局限性，指的是那些无法通过现有参数Copulas准确表示的Copulas。相反，本文提出使用生成模型，例如生成对抗网络（GANs），为任何Copula生成准随机样本。GANs是一种用于学习复杂数据分布的隐式生成模型，有助于简化抽样过程。在我们的研究中，GANs被用来学习从均匀分布到Copulas的映射。一旦学习了这种映射，从Copula获取准随机样本只需输入来自均匀分布的准随机样本。这种方法为任何Copula提供了更灵活的方式。此外，我们提供了t
-
-    arXiv:2403.05281v1 Announce Type: new  Abstract: This paper examines an efficient method for quasi-random sampling of copulas in Monte Carlo computations. Traditional methods, like conditional distribution methods (CDM), have limitations when dealing with high-dimensional or implicit copulas, which refer to those that cannot be accurately represented by existing parametric copulas. Instead, this paper proposes the use of generative models, such as Generative Adversarial Networks (GANs), to generate quasi-random samples for any copula. GANs are a type of implicit generative models used to learn the distribution of complex data, thus facilitating easy sampling. In our study, GANs are employed to learn the mapping from a uniform distribution to copulas. Once this mapping is learned, obtaining quasi-random samples from the copula only requires inputting quasi-random samples from the uniform distribution. This approach offers a more flexible method for any copula. Additionally, we provide t
-    
-[^2]: GFlowNet基础
-
-    GFlowNet Foundations. (arXiv:2111.09266v4 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2111.09266](http://arxiv.org/abs/2111.09266)
-
-    GFlowNets是一种生成流网络方法，用于在主动学习环境中采样多样化的候选集。它们具有估计联合概率分布和边际分布的能力，可以表示关于复合对象（如集合和图）的分布。通过单次训练的生成传递，GFlowNets分摊了计算昂贵的MCMC方法的工作。
+    该论文提出了信息价值（IV）的统计假设检验方法，为模型建立前的特征选择提供了理论框架，并通过实验证明了该方法的有效性。
 
     
 
-    生成流网络（GFlowNets）被引入为在主动学习环境中采样多样化的候选集的方法，其训练目标使其近似按照给定的奖励函数进行采样。本文展示了GFlowNets的一些额外的理论性质。它们可以用于估计联合概率分布和相应的边际分布，其中一些变量未指定，特别是可以表示关于复合对象（如集合和图）的分布。GFlowNets通过单次训练的生成传递来分摊通常由计算昂贵的MCMC方法完成的工作。它们还可以用于估计分区函数和自由能，给定一个子集（子图）的超集（超图）的条件概率，以及给定一个集合（图）的所有超集（超图）的边际分布。我们介绍了一些变体，使得可以估计熵的值。
+    信息价值（IV）是模型建立前进行特征选择的一种常用技术。目前存在一些实际标准，但基于IV的判断是否一个预测因子具有足够的预测能力的理论依据依然神秘且缺乏。然而，关于该技术的数学发展和统计推断方法在文献中几乎没有提及。在本研究中，我们提出了一个关于IV的理论框架，并提出了一种非参数假设检验方法来测试预测能力。我们展示了如何高效计算检验统计量，并在模拟数据上研究其表现。此外，我们将这一方法应用于银行欺诈数据，并提供了一个实现我们结果的Python库。
 
-    Generative Flow Networks (GFlowNets) have been introduced as a method to sample a diverse set of candidates in an active learning context, with a training objective that makes them approximately sample in proportion to a given reward function. In this paper, we show a number of additional theoretical properties of GFlowNets. They can be used to estimate joint probability distributions and the corresponding marginal distributions where some variables are unspecified and, of particular interest, can represent distributions over composite objects like sets and graphs. GFlowNets amortize the work typically done by computationally expensive MCMC methods in a single but trained generative pass. They could also be used to estimate partition functions and free energies, conditional probabilities of supersets (supergraphs) given a subset (subgraph), as well as marginal distributions over all supersets (supergraphs) of a given set (graph). We introduce variations enabling the estimation of entro
+    Information value (IV) is a quite popular technique for feature selection prior to the modeling phase. There are practical criteria, but at the same time mysterious and lacking theoretical arguments, based on the IV, to decide if a predictor has sufficient predictive power to be considered in the modeling phase. However, the mathematical development and statistical inference methods for this technique is almost non-existent in the literature. In this work we present a theoretical framework for the IV and propose a non-parametric hypothesis test to test the predictive power. We show how to efficiently calculate the test statistic and study its performance on simulated data. Additionally, we apply our test on bank fraud data and provide a Python library where we implement our results.
+    
+[^2]: 一种有效且可证明精确的0-1损失线性分类问题算法
+
+    An efficient, provably exact algorithm for the 0-1 loss linear classification problem. (arXiv:2306.12344v1 [cs.LG])
+
+    [http://arxiv.org/abs/2306.12344](http://arxiv.org/abs/2306.12344)
+
+    该研究详细介绍了一种名为增量单元枚举（ICE）的算法，该算法可以精确解决定维度0-1损失线性分类问题。
+
+    
+
+    解决线性分类问题的算法具有悠久的历史，至少可以追溯到1936年的线性判别分析。对于线性可分数据，许多算法可以有效地得到相应的0-1损失分类问题的精确解，但对于非线性可分数据，已经证明这个问题在完全范围内是NP难的。所有替代方法都涉及某种形式的近似，包括使用0-1损失的代理（例如hinge或logistic损失）或近似的组合搜索，这些都不能保证完全解决问题。找到解决定维度0-1损失线性分类问题的全局最优解的有效算法仍然是一个未解决的问题。在本研究中，我们详细介绍了一个新算法的构建过程，增量单元枚举（ICE），它可以精确解决0-1损失分类问题。
+
+    Algorithms for solving the linear classification problem have a long history, dating back at least to 1936 with linear discriminant analysis. For linearly separable data, many algorithms can obtain the exact solution to the corresponding 0-1 loss classification problem efficiently, but for data which is not linearly separable, it has been shown that this problem, in full generality, is NP-hard. Alternative approaches all involve approximations of some kind, including the use of surrogates for the 0-1 loss (for example, the hinge or logistic loss) or approximate combinatorial search, none of which can be guaranteed to solve the problem exactly. Finding efficient algorithms to obtain an exact i.e. globally optimal solution for the 0-1 loss linear classification problem with fixed dimension, remains an open problem. In research we report here, we detail the construction of a new algorithm, incremental cell enumeration (ICE), that can solve the 0-1 loss classification problem exactly in po
     
 

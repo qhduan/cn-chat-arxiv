@@ -2,82 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [The Double-Edged Sword of Input Perturbations to Robust Accurate Fairness](https://arxiv.org/abs/2404.01356) | 该论文研究了深度神经网络对敌对输入扰动的敏感性，提出了新的鲁棒准确公平性定义，并介绍了一种敌对攻击方法和相应的解决方案。 |
-| [^2] | [Sound event localization and classification using WASN in Outdoor Environment](https://arxiv.org/abs/2403.20130) | 本文提出了一种基于深度学习的方法，利用多种特征和注意机制来估计声源的位置和类别，包括引入"声音地图"特征、使用Gammatone滤波器生成更适合室外环境的声学特征，以及集成注意机制来学习通道间的关系。 |
-| [^3] | [Theoretical Hardness and Tractability of POMDPs in RL with Partial Online State Information.](http://arxiv.org/abs/2306.08762) | 本论文研究了具有部分在线状态信息的POMDP问题的理论困难性和可计算性。作者通过建立下界得出一个惊人的难度结果：除非具有完整的在线状态信息，否则需要指数级的样本复杂度才能得到POMDP的最优策略解。然而，作者还发现了具有部分在线状态信息下的可计算POMDP类别，并提出了新的算法来证明其接近最优性。 |
-| [^4] | [Efficient Asynchronize Stochastic Gradient Algorithm with Structured Data.](http://arxiv.org/abs/2305.08001) | 本论文针对具有 Kronecker 结构的训练数据，提出了一种高效的异步随机梯度算法，可以在数据维度的次线性时间内完成每次迭代。 |
-| [^5] | [GFlowNet Foundations.](http://arxiv.org/abs/2111.09266) | GFlowNets是一种生成流网络方法，用于在主动学习环境中采样多样化的候选集。它们具有估计联合概率分布和边际分布的能力，可以表示关于复合对象（如集合和图）的分布。通过单次训练的生成传递，GFlowNets分摊了计算昂贵的MCMC方法的工作。 |
+| [^1] | [Fast Quantum Algorithm for Attention Computation.](http://arxiv.org/abs/2307.08045) | 这篇论文研究了使用快速量子算法进行注意力计算，以加速大型语言模型 (LLMs) 的计算速度。 |
+| [^2] | [An efficient, provably exact algorithm for the 0-1 loss linear classification problem.](http://arxiv.org/abs/2306.12344) | 该研究详细介绍了一种名为增量单元枚举（ICE）的算法，该算法可以精确解决定维度0-1损失线性分类问题。 |
+| [^3] | [Hedonic Prices and Quality Adjusted Price Indices Powered by AI.](http://arxiv.org/abs/2305.00044) | 本研究提出了一种基于深度神经网络和转换器的经验享乐模型，能够处理大量未结构化的产品数据，准确地估计产品的享乐价格和派生指数。 |
 
 # 详细
 
-[^1]: 输入扰动对鲁棒准确公平性的双刃剑
+[^1]: 快速量子算法用于注意力计算
 
-    The Double-Edged Sword of Input Perturbations to Robust Accurate Fairness
+    Fast Quantum Algorithm for Attention Computation. (arXiv:2307.08045v1 [quant-ph])
 
-    [https://arxiv.org/abs/2404.01356](https://arxiv.org/abs/2404.01356)
+    [http://arxiv.org/abs/2307.08045](http://arxiv.org/abs/2307.08045)
 
-    该论文研究了深度神经网络对敌对输入扰动的敏感性，提出了新的鲁棒准确公平性定义，并介绍了一种敌对攻击方法和相应的解决方案。
-
-    
-
-    深度神经网络(DNNs)被认为对敌对输入扰动敏感，导致预测的准确性或个体公平性降低。为了共同表征预测准确性和个体公平性对敌对扰动的敏感性，我们引入了一个名为鲁棒准确公平性的新定义。鲁棒准确公平性要求当实例及其相似对应物受到输入扰动时，预测与地面事实一致。我们提出一种敌对攻击方法RAFair，以暴露DNN中的虚假或偏见敌对缺陷，这些缺陷会欺骗准确性或损害个体公平性。然后，我们展示这样的敌对实例可以通过精心设计的良性扰动有效地解决，从而使它们的预测准确而公平。我们的工作探讨了输入对准确公平性的双刃剑。
-
-    arXiv:2404.01356v1 Announce Type: cross  Abstract: Deep neural networks (DNNs) are known to be sensitive to adversarial input perturbations, leading to a reduction in either prediction accuracy or individual fairness. To jointly characterize the susceptibility of prediction accuracy and individual fairness to adversarial perturbations, we introduce a novel robustness definition termed robust accurate fairness. Informally, robust accurate fairness requires that predictions for an instance and its similar counterparts consistently align with the ground truth when subjected to input perturbations. We propose an adversarial attack approach dubbed RAFair to expose false or biased adversarial defects in DNN, which either deceive accuracy or compromise individual fairness. Then, we show that such adversarial instances can be effectively addressed by carefully designed benign perturbations, correcting their predictions to be accurate and fair. Our work explores the double-edged sword of input 
-    
-[^2]: 在室外环境中使用WASN进行声事件定位和分类
-
-    Sound event localization and classification using WASN in Outdoor Environment
-
-    [https://arxiv.org/abs/2403.20130](https://arxiv.org/abs/2403.20130)
-
-    本文提出了一种基于深度学习的方法，利用多种特征和注意机制来估计声源的位置和类别，包括引入"声音地图"特征、使用Gammatone滤波器生成更适合室外环境的声学特征，以及集成注意机制来学习通道间的关系。
+    这篇论文研究了使用快速量子算法进行注意力计算，以加速大型语言模型 (LLMs) 的计算速度。
 
     
 
-    基于深度学习的声事件定位和分类是无线声学传感器网络中的新兴研究领域。然而，当前的声事件定位和分类方法通常依赖于单个麦克风阵列，容易受到信号衰减和环境噪音的影响，这限制了它们的监测范围。此外，使用多个麦克风阵列的方法通常只关注源定位，忽略了声事件分类方面。在本文中，我们提出了一种基于深度学习的方法，利用多种特征和注意机制来估计声源的位置和类别。我们引入了"声音地图"特征，以捕获多个频段的空间信息。我们还使用Gammatone滤波器生成更适合室外环境的声学特征。此外，我们集成了注意机制来学习通道间的关系。
+    大型语言模型 (LLMs) 表现出色，在各种任务中显示出异常的性能。这些模型由先进的深度学习技术驱动，已经在自然语言处理 (NLP) 领域引起了革命，并在各种与语言相关的任务中取得了显著的结果。LLMs 在机器翻译、情感分析、问答、文本生成、文本分类、语言建模等任务中表现出色。它们在捕捉复杂的语言模式、理解背景、生成连贯且相关的文本方面非常有效。注意力计算方案在大型语言模型 (LLMs) 的架构中起着关键作用。它是一个基本组件，使得模型能够在语言处理任务中有效地捕捉和利用上下文信息。加快注意力计算方案的速度是加速LLMs计算的核心问题之一。
 
-    arXiv:2403.20130v1 Announce Type: cross  Abstract: Deep learning-based sound event localization and classification is an emerging research area within wireless acoustic sensor networks. However, current methods for sound event localization and classification typically rely on a single microphone array, making them susceptible to signal attenuation and environmental noise, which limits their monitoring range. Moreover, methods using multiple microphone arrays often focus solely on source localization, neglecting the aspect of sound event classification. In this paper, we propose a deep learning-based method that employs multiple features and attention mechanisms to estimate the location and class of sound source. We introduce a Soundmap feature to capture spatial information across multiple frequency bands. We also use the Gammatone filter to generate acoustic features more suitable for outdoor environments. Furthermore, we integrate attention mechanisms to learn channel-wise relationsh
+    Large language models (LLMs) have demonstrated exceptional performance across a wide range of tasks. These models, powered by advanced deep learning techniques, have revolutionized the field of natural language processing (NLP) and have achieved remarkable results in various language-related tasks.  LLMs have excelled in tasks such as machine translation, sentiment analysis, question answering, text generation, text classification, language modeling, and more. They have proven to be highly effective in capturing complex linguistic patterns, understanding context, and generating coherent and contextually relevant text. The attention scheme plays a crucial role in the architecture of large language models (LLMs). It is a fundamental component that enables the model to capture and utilize contextual information during language processing tasks effectively. Making the attention scheme computation faster is one of the central questions to speed up the LLMs computation. It is well-known that
     
-[^3]: 在具有部分在线状态信息的强化学习中，POMDP的理论难度和可计算性
+[^2]: 一种有效且可证明精确的0-1损失线性分类问题算法
 
-    Theoretical Hardness and Tractability of POMDPs in RL with Partial Online State Information. (arXiv:2306.08762v2 [cs.LG] UPDATED)
+    An efficient, provably exact algorithm for the 0-1 loss linear classification problem. (arXiv:2306.12344v1 [cs.LG])
 
-    [http://arxiv.org/abs/2306.08762](http://arxiv.org/abs/2306.08762)
+    [http://arxiv.org/abs/2306.12344](http://arxiv.org/abs/2306.12344)
 
-    本论文研究了具有部分在线状态信息的POMDP问题的理论困难性和可计算性。作者通过建立下界得出一个惊人的难度结果：除非具有完整的在线状态信息，否则需要指数级的样本复杂度才能得到POMDP的最优策略解。然而，作者还发现了具有部分在线状态信息下的可计算POMDP类别，并提出了新的算法来证明其接近最优性。
-
-    
-
-    部分可观察的马尔可夫决策过程（POMDP）被广泛应用于捕捉许多现实世界的应用。然而，现有的理论结果已经表明，在一般的POMDP中学习可能是不可计算的，主要挑战在于缺乏潜在的状态信息。一个关键的基本问题是有多少在线状态信息（OSI）足以实现可计算性。在本文中，我们建立了一个下界，揭示了一个惊人的难度结果：除非我们具有完整的OSI，否则我们需要指数级的采样复杂度才能获得POMDP的$\epsilon$-最优策略解。尽管如此，受到我们下界设计的关键见解的启发，我们发现即使只有部分OSI，也存在重要的可计算的POMDP类别。特别地，对于具有部分OSI的两个新颖的POMDP类别，我们通过建立新的遗憾上下界证明了新的算法是接近最优的。
-
-    Partially observable Markov decision processes (POMDPs) have been widely applied to capture many real-world applications. However, existing theoretical results have shown that learning in general POMDPs could be intractable, where the main challenge lies in the lack of latent state information. A key fundamental question here is how much online state information (OSI) is sufficient to achieve tractability. In this paper, we establish a lower bound that reveals a surprising hardness result: unless we have full OSI, we need an exponentially scaling sample complexity to obtain an $\epsilon$-optimal policy solution for POMDPs. Nonetheless, inspired by the key insights in our lower bound design, we find that there exist important tractable classes of POMDPs even with only partial OSI. In particular, for two novel classes of POMDPs with partial OSI, we provide new algorithms that are proved to be near-optimal by establishing new regret upper and lower bounds.
-    
-[^4]: 具有结构化数据的高效异步随机梯度算法
-
-    Efficient Asynchronize Stochastic Gradient Algorithm with Structured Data. (arXiv:2305.08001v1 [cs.LG])
-
-    [http://arxiv.org/abs/2305.08001](http://arxiv.org/abs/2305.08001)
-
-    本论文针对具有 Kronecker 结构的训练数据，提出了一种高效的异步随机梯度算法，可以在数据维度的次线性时间内完成每次迭代。
+    该研究详细介绍了一种名为增量单元枚举（ICE）的算法，该算法可以精确解决定维度0-1损失线性分类问题。
 
     
 
-    深度学习因其良好的泛化而在许多领域取得了显著的成功。但是，快速训练具有大量层数的神经网络一直是一个具有挑战性的问题。现有的研究利用局部敏感哈希技术或某些数据结构的空间划分来减轻每次迭代的训练成本。在本研究中，我们尝试从输入数据点的角度加速每次迭代中的计算。具体而言，针对一个两层全连接神经网络，当训练数据具有一些特殊属性，例如 Kronecker 结构时，每次迭代可以在数据维度的次线性时间内完成。
+    解决线性分类问题的算法具有悠久的历史，至少可以追溯到1936年的线性判别分析。对于线性可分数据，许多算法可以有效地得到相应的0-1损失分类问题的精确解，但对于非线性可分数据，已经证明这个问题在完全范围内是NP难的。所有替代方法都涉及某种形式的近似，包括使用0-1损失的代理（例如hinge或logistic损失）或近似的组合搜索，这些都不能保证完全解决问题。找到解决定维度0-1损失线性分类问题的全局最优解的有效算法仍然是一个未解决的问题。在本研究中，我们详细介绍了一个新算法的构建过程，增量单元枚举（ICE），它可以精确解决0-1损失分类问题。
 
-    Deep learning has achieved impressive success in a variety of fields because of its good generalization. However, it has been a challenging problem to quickly train a neural network with a large number of layers. The existing works utilize the locality-sensitive hashing technique or some data structures on space partitioning to alleviate the training cost in each iteration. In this work, we try accelerating the computations in each iteration from the perspective of input data points. Specifically, for a two-layer fully connected neural network, when the training data have some special properties, e.g., Kronecker structure, each iteration can be completed in sublinear time in the data dimension.
+    Algorithms for solving the linear classification problem have a long history, dating back at least to 1936 with linear discriminant analysis. For linearly separable data, many algorithms can obtain the exact solution to the corresponding 0-1 loss classification problem efficiently, but for data which is not linearly separable, it has been shown that this problem, in full generality, is NP-hard. Alternative approaches all involve approximations of some kind, including the use of surrogates for the 0-1 loss (for example, the hinge or logistic loss) or approximate combinatorial search, none of which can be guaranteed to solve the problem exactly. Finding efficient algorithms to obtain an exact i.e. globally optimal solution for the 0-1 loss linear classification problem with fixed dimension, remains an open problem. In research we report here, we detail the construction of a new algorithm, incremental cell enumeration (ICE), that can solve the 0-1 loss classification problem exactly in po
     
-[^5]: GFlowNet基础
+[^3]: 由人工智能驱动的享乐价格和质量调整价格指数
 
-    GFlowNet Foundations. (arXiv:2111.09266v4 [cs.LG] UPDATED)
+    Hedonic Prices and Quality Adjusted Price Indices Powered by AI. (arXiv:2305.00044v1 [econ.GN])
 
-    [http://arxiv.org/abs/2111.09266](http://arxiv.org/abs/2111.09266)
+    [http://arxiv.org/abs/2305.00044](http://arxiv.org/abs/2305.00044)
 
-    GFlowNets是一种生成流网络方法，用于在主动学习环境中采样多样化的候选集。它们具有估计联合概率分布和边际分布的能力，可以表示关于复合对象（如集合和图）的分布。通过单次训练的生成传递，GFlowNets分摊了计算昂贵的MCMC方法的工作。
+    本研究提出了一种基于深度神经网络和转换器的经验享乐模型，能够处理大量未结构化的产品数据，准确地估计产品的享乐价格和派生指数。
 
     
 
-    生成流网络（GFlowNets）被引入为在主动学习环境中采样多样化的候选集的方法，其训练目标使其近似按照给定的奖励函数进行采样。本文展示了GFlowNets的一些额外的理论性质。它们可以用于估计联合概率分布和相应的边际分布，其中一些变量未指定，特别是可以表示关于复合对象（如集合和图）的分布。GFlowNets通过单次训练的生成传递来分摊通常由计算昂贵的MCMC方法完成的工作。它们还可以用于估计分区函数和自由能，给定一个子集（子图）的超集（超图）的条件概率，以及给定一个集合（图）的所有超集（超图）的边际分布。我们介绍了一些变体，使得可以估计熵的值。
+    在当今的经济环境下，使用电子记录准确地实时测量价格指数的变化对于跟踪通胀和生产率至关重要。本文开发了经验享乐模型，能够处理大量未结构化的产品数据（文本、图像、价格和数量），并输出精确的享乐价格估计和派生指数。为实现这一目标，我们使用深度神经网络从文本描述和图像中生成抽象的产品属性或”特征“，然后使用这些属性来估算享乐价格函数。具体地，我们使用基于transformers的大型语言模型将有关产品的文本信息转换为数字特征，使用训练或微调过的产品描述信息，使用残差网络模型将产品图像转换为数字特征。为了产生估计的享乐价格函数，我们再次使用多任务神经网络，训练以在所有时间段同时预测产品的价格。
 
-    Generative Flow Networks (GFlowNets) have been introduced as a method to sample a diverse set of candidates in an active learning context, with a training objective that makes them approximately sample in proportion to a given reward function. In this paper, we show a number of additional theoretical properties of GFlowNets. They can be used to estimate joint probability distributions and the corresponding marginal distributions where some variables are unspecified and, of particular interest, can represent distributions over composite objects like sets and graphs. GFlowNets amortize the work typically done by computationally expensive MCMC methods in a single but trained generative pass. They could also be used to estimate partition functions and free energies, conditional probabilities of supersets (supergraphs) given a subset (subgraph), as well as marginal distributions over all supersets (supergraphs) of a given set (graph). We introduce variations enabling the estimation of entro
+    Accurate, real-time measurements of price index changes using electronic records are essential for tracking inflation and productivity in today's economic environment. We develop empirical hedonic models that can process large amounts of unstructured product data (text, images, prices, quantities) and output accurate hedonic price estimates and derived indices. To accomplish this, we generate abstract product attributes, or ``features,'' from text descriptions and images using deep neural networks, and then use these attributes to estimate the hedonic price function. Specifically, we convert textual information about the product to numeric features using large language models based on transformers, trained or fine-tuned using product descriptions, and convert the product image to numeric features using a residual network model. To produce the estimated hedonic price function, we again use a multi-task neural network trained to predict a product's price in all time periods simultaneousl
     
 
