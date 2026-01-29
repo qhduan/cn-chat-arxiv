@@ -2,52 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Fast Quantum Algorithm for Attention Computation.](http://arxiv.org/abs/2307.08045) | 这篇论文研究了使用快速量子算法进行注意力计算，以加速大型语言模型 (LLMs) 的计算速度。 |
-| [^2] | [An efficient, provably exact algorithm for the 0-1 loss linear classification problem.](http://arxiv.org/abs/2306.12344) | 该研究详细介绍了一种名为增量单元枚举（ICE）的算法，该算法可以精确解决定维度0-1损失线性分类问题。 |
-| [^3] | [Hedonic Prices and Quality Adjusted Price Indices Powered by AI.](http://arxiv.org/abs/2305.00044) | 本研究提出了一种基于深度神经网络和转换器的经验享乐模型，能够处理大量未结构化的产品数据，准确地估计产品的享乐价格和派生指数。 |
+| [^1] | [Masked Autoencoders Are Robust Neural Architecture Search Learners](https://arxiv.org/abs/2311.12086) | 提出了一种基于掩码自编码器的新型神经架构搜索框架，无需标记数据，在搜索过程中使用图像重建任务代替监督学习目标，具有鲁棒性、性能和泛化能力，并通过引入多尺度解码器解决了性能崩溃问题。 |
+| [^2] | [Comparing Time-Series Analysis Approaches Utilized in Research Papers to Forecast COVID-19 Cases in Africa: A Literature Review.](http://arxiv.org/abs/2310.03606) | 本文献综述比较了在预测非洲COVID-19病例中使用的各种时间序列分析方法，突出了它们的有效性和局限性。 |
+| [^3] | [On Memorization and Privacy Risks of Sharpness Aware Minimization.](http://arxiv.org/abs/2310.00488) | 本研究通过对过度参数化模型中的数据记忆的剖析，揭示了尖锐意识最小化算法在非典型数据点上实现的泛化收益。同时，也发现了与此算法相关的更高隐私风险，并提出了缓解策略，以达到更理想的准确度与隐私权衡。 |
 
 # 详细
 
-[^1]: 快速量子算法用于注意力计算
+[^1]: 掩码自编码器是鲁棒的神经架构搜索学习器
 
-    Fast Quantum Algorithm for Attention Computation. (arXiv:2307.08045v1 [quant-ph])
+    Masked Autoencoders Are Robust Neural Architecture Search Learners
 
-    [http://arxiv.org/abs/2307.08045](http://arxiv.org/abs/2307.08045)
+    [https://arxiv.org/abs/2311.12086](https://arxiv.org/abs/2311.12086)
 
-    这篇论文研究了使用快速量子算法进行注意力计算，以加速大型语言模型 (LLMs) 的计算速度。
-
-    
-
-    大型语言模型 (LLMs) 表现出色，在各种任务中显示出异常的性能。这些模型由先进的深度学习技术驱动，已经在自然语言处理 (NLP) 领域引起了革命，并在各种与语言相关的任务中取得了显著的结果。LLMs 在机器翻译、情感分析、问答、文本生成、文本分类、语言建模等任务中表现出色。它们在捕捉复杂的语言模式、理解背景、生成连贯且相关的文本方面非常有效。注意力计算方案在大型语言模型 (LLMs) 的架构中起着关键作用。它是一个基本组件，使得模型能够在语言处理任务中有效地捕捉和利用上下文信息。加快注意力计算方案的速度是加速LLMs计算的核心问题之一。
-
-    Large language models (LLMs) have demonstrated exceptional performance across a wide range of tasks. These models, powered by advanced deep learning techniques, have revolutionized the field of natural language processing (NLP) and have achieved remarkable results in various language-related tasks.  LLMs have excelled in tasks such as machine translation, sentiment analysis, question answering, text generation, text classification, language modeling, and more. They have proven to be highly effective in capturing complex linguistic patterns, understanding context, and generating coherent and contextually relevant text. The attention scheme plays a crucial role in the architecture of large language models (LLMs). It is a fundamental component that enables the model to capture and utilize contextual information during language processing tasks effectively. Making the attention scheme computation faster is one of the central questions to speed up the LLMs computation. It is well-known that
-    
-[^2]: 一种有效且可证明精确的0-1损失线性分类问题算法
-
-    An efficient, provably exact algorithm for the 0-1 loss linear classification problem. (arXiv:2306.12344v1 [cs.LG])
-
-    [http://arxiv.org/abs/2306.12344](http://arxiv.org/abs/2306.12344)
-
-    该研究详细介绍了一种名为增量单元枚举（ICE）的算法，该算法可以精确解决定维度0-1损失线性分类问题。
+    提出了一种基于掩码自编码器的新型神经架构搜索框架，无需标记数据，在搜索过程中使用图像重建任务代替监督学习目标，具有鲁棒性、性能和泛化能力，并通过引入多尺度解码器解决了性能崩溃问题。
 
     
 
-    解决线性分类问题的算法具有悠久的历史，至少可以追溯到1936年的线性判别分析。对于线性可分数据，许多算法可以有效地得到相应的0-1损失分类问题的精确解，但对于非线性可分数据，已经证明这个问题在完全范围内是NP难的。所有替代方法都涉及某种形式的近似，包括使用0-1损失的代理（例如hinge或logistic损失）或近似的组合搜索，这些都不能保证完全解决问题。找到解决定维度0-1损失线性分类问题的全局最优解的有效算法仍然是一个未解决的问题。在本研究中，我们详细介绍了一个新算法的构建过程，增量单元枚举（ICE），它可以精确解决0-1损失分类问题。
+    神经架构搜索（NAS）目前严重依赖标记数据，而获取标记数据既昂贵又耗时。本文提出了一种基于掩码自编码器（MAE）的新型NAS框架，它在搜索过程中消除了对标记数据的需求。通过将监督学习目标替换为图像重建任务，我们的方法使得能够在不损害性能和泛化能力的情况下鲁棒地发现网络架构。此外，我们通过引入多尺度解码器解决了在无监督范式中广泛使用的可微架构搜索（DARTS）方法遇到的性能崩溃问题。通过在各种搜索空间和数据集上进行大量实验，我们展示了所提方法的有效性和鲁棒性，为其胜过基准方法提供了实证证据。
 
-    Algorithms for solving the linear classification problem have a long history, dating back at least to 1936 with linear discriminant analysis. For linearly separable data, many algorithms can obtain the exact solution to the corresponding 0-1 loss classification problem efficiently, but for data which is not linearly separable, it has been shown that this problem, in full generality, is NP-hard. Alternative approaches all involve approximations of some kind, including the use of surrogates for the 0-1 loss (for example, the hinge or logistic loss) or approximate combinatorial search, none of which can be guaranteed to solve the problem exactly. Finding efficient algorithms to obtain an exact i.e. globally optimal solution for the 0-1 loss linear classification problem with fixed dimension, remains an open problem. In research we report here, we detail the construction of a new algorithm, incremental cell enumeration (ICE), that can solve the 0-1 loss classification problem exactly in po
+    arXiv:2311.12086v2 Announce Type: replace  Abstract: Neural Architecture Search (NAS) currently relies heavily on labeled data, which is both expensive and time-consuming to acquire. In this paper, we propose a novel NAS framework based on Masked Autoencoders (MAE) that eliminates the need for labeled data during the search process. By replacing the supervised learning objective with an image reconstruction task, our approach enables the robust discovery of network architectures without compromising performance and generalization ability. Additionally, we address the problem of performance collapse encountered in the widely-used Differentiable Architecture Search (DARTS) method in the unsupervised paradigm by introducing a multi-scale decoder. Through extensive experiments conducted on various search spaces and datasets, we demonstrate the effectiveness and robustness of the proposed method, providing empirical evidence of its superiority over baseline approaches.
     
-[^3]: 由人工智能驱动的享乐价格和质量调整价格指数
+[^2]: 将用于研究论文的时间序列分析方法与预测非洲COVID-19病例的比较：文献综述
 
-    Hedonic Prices and Quality Adjusted Price Indices Powered by AI. (arXiv:2305.00044v1 [econ.GN])
+    Comparing Time-Series Analysis Approaches Utilized in Research Papers to Forecast COVID-19 Cases in Africa: A Literature Review. (arXiv:2310.03606v1 [cs.LG])
 
-    [http://arxiv.org/abs/2305.00044](http://arxiv.org/abs/2305.00044)
+    [http://arxiv.org/abs/2310.03606](http://arxiv.org/abs/2310.03606)
 
-    本研究提出了一种基于深度神经网络和转换器的经验享乐模型，能够处理大量未结构化的产品数据，准确地估计产品的享乐价格和派生指数。
+    本文献综述比较了在预测非洲COVID-19病例中使用的各种时间序列分析方法，突出了它们的有效性和局限性。
 
     
 
-    在当今的经济环境下，使用电子记录准确地实时测量价格指数的变化对于跟踪通胀和生产率至关重要。本文开发了经验享乐模型，能够处理大量未结构化的产品数据（文本、图像、价格和数量），并输出精确的享乐价格估计和派生指数。为实现这一目标，我们使用深度神经网络从文本描述和图像中生成抽象的产品属性或”特征“，然后使用这些属性来估算享乐价格函数。具体地，我们使用基于transformers的大型语言模型将有关产品的文本信息转换为数字特征，使用训练或微调过的产品描述信息，使用残差网络模型将产品图像转换为数字特征。为了产生估计的享乐价格函数，我们再次使用多任务神经网络，训练以在所有时间段同时预测产品的价格。
+    本文献综述旨在比较在预测非洲COVID-19病例中使用的各种时间序列分析方法。该研究对2020年1月至2023年7月发表的英文研究论文进行了系统搜索，重点关注在非洲COVID-19数据集上使用时间序列分析方法的论文。该过程使用了包括PubMed、谷歌学术、Scopus和科学引文索引等多种数据库。研究论文经过评估过程，提取了关于时间序列分析模型的实施和性能的相关信息。该研究突出了不同的方法学，并评估了它们在预测病毒传播方面的有效性和局限性。本综述的结果可以为该领域提供更深入的见解，未来的研究应考虑这些见解，以改进时间序列分析模型并探索不同方法之间的整合。
 
-    Accurate, real-time measurements of price index changes using electronic records are essential for tracking inflation and productivity in today's economic environment. We develop empirical hedonic models that can process large amounts of unstructured product data (text, images, prices, quantities) and output accurate hedonic price estimates and derived indices. To accomplish this, we generate abstract product attributes, or ``features,'' from text descriptions and images using deep neural networks, and then use these attributes to estimate the hedonic price function. Specifically, we convert textual information about the product to numeric features using large language models based on transformers, trained or fine-tuned using product descriptions, and convert the product image to numeric features using a residual network model. To produce the estimated hedonic price function, we again use a multi-task neural network trained to predict a product's price in all time periods simultaneousl
+    This literature review aimed to compare various time-series analysis approaches utilized in forecasting COVID-19 cases in Africa. The study involved a methodical search for English-language research papers published between January 2020 and July 2023, focusing specifically on papers that utilized time-series analysis approaches on COVID-19 datasets in Africa. A variety of databases including PubMed, Google Scholar, Scopus, and Web of Science were utilized for this process. The research papers underwent an evaluation process to extract relevant information regarding the implementation and performance of the time-series analysis models. The study highlighted the different methodologies employed, evaluating their effectiveness and limitations in forecasting the spread of the virus. The result of this review could contribute deeper insights into the field, and future research should consider these insights to improve time series analysis models and explore the integration of different appr
+    
+[^3]: 关于尖锐意识最小化的记忆和隐私风险研究
+
+    On Memorization and Privacy Risks of Sharpness Aware Minimization. (arXiv:2310.00488v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2310.00488](http://arxiv.org/abs/2310.00488)
+
+    本研究通过对过度参数化模型中的数据记忆的剖析，揭示了尖锐意识最小化算法在非典型数据点上实现的泛化收益。同时，也发现了与此算法相关的更高隐私风险，并提出了缓解策略，以达到更理想的准确度与隐私权衡。
+
+    
+
+    在许多最近的研究中，设计寻求神经网络损失优化中更平坦的极值的算法成为焦点，因为有经验证据表明这会在许多数据集上导致更好的泛化性能。在这项工作中，我们通过过度参数化模型中的数据记忆视角来剖析这些性能收益。我们定义了一个新的度量指标，帮助我们确定相对于普通SGD，寻求更平坦极值的算法在哪些数据点上表现更好。我们发现，尖锐意识最小化（SAM）所实现的泛化收益在非典型数据点上特别显著，这需要记忆。这一认识帮助我们揭示与SAM相关的更高的隐私风险，并通过详尽的实证评估进行验证。最后，我们提出缓解策略，以实现更理想的准确度与隐私权衡。
+
+    In many recent works, there is an increased focus on designing algorithms that seek flatter optima for neural network loss optimization as there is empirical evidence that it leads to better generalization performance in many datasets. In this work, we dissect these performance gains through the lens of data memorization in overparameterized models. We define a new metric that helps us identify which data points specifically do algorithms seeking flatter optima do better when compared to vanilla SGD. We find that the generalization gains achieved by Sharpness Aware Minimization (SAM) are particularly pronounced for atypical data points, which necessitate memorization. This insight helps us unearth higher privacy risks associated with SAM, which we verify through exhaustive empirical evaluations. Finally, we propose mitigation strategies to achieve a more desirable accuracy vs privacy tradeoff.
     
 
