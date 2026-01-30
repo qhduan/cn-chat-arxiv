@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Inflation Target at Risk: A Time-varying Parameter Distributional Regression](https://arxiv.org/abs/2403.12456) | 介绍了一种新颖的半参数方法，用于构建时间变化的条件分布，通过分布回归估计所有模型参数，预测美国通货膨胀分布的风险。 |
-| [^2] | [Learning about a changing state.](http://arxiv.org/abs/2401.03607) | 该论文研究了一个长寿的贝叶斯代理观察到一个随时间变化的状态的昂贵信号的学习问题，通过比较不同精度选择策略下的结果，发现在状态遵循布朗运动时，最优的短视和前瞻性精度不同。 |
+| [^1] | [Testing Information Ordering for Strategic Agents](https://arxiv.org/abs/2402.19425) | 我们提出了一种信息排序测试方法，通过将信息结构的排序转化为函数的排序，检验真实信息结构是否至少和提出的基线一样信息丰富。 |
+| [^2] | [Identification and Estimation of a Semiparametric Logit Model using Network Data.](http://arxiv.org/abs/2310.07151) | 本文研究了半参数二元网络模型的识别和估计，提出了基于配对统计的估计方法，并通过蒙特卡洛模拟评估了该方法的性能。 |
 
 # 详细
 
-[^1]: 通货膨胀目标风险：一种时变参数分布回归
+[^1]: 为战略代理商测试信息排序
 
-    Inflation Target at Risk: A Time-varying Parameter Distributional Regression
+    Testing Information Ordering for Strategic Agents
 
-    [https://arxiv.org/abs/2403.12456](https://arxiv.org/abs/2403.12456)
+    [https://arxiv.org/abs/2402.19425](https://arxiv.org/abs/2402.19425)
 
-    介绍了一种新颖的半参数方法，用于构建时间变化的条件分布，通过分布回归估计所有模型参数，预测美国通货膨胀分布的风险。
-
-    
-
-    宏观变量经常显示时间变化的分布，这是由经济、社会和环境因素的动态和演变特征所驱动的，这些因素持续地重塑着统治这些变量的基本模式和关系。为了更好地理解超出中心趋势的分布动态，本文引入了一种新颖的半参数方法，用于构建时间变化的条件分布，依赖于分布回归的最新进展。我们提出了一种高效的基于精度的马尔可夫链蒙特卡罗算法，可以同时估计所有模型参数，同时明确地施加条件分布函数上的单调性条件。我们的模型被应用于构建美国通货膨胀的预测分布，条件于一组宏观经济和金融指标。未来通货膨胀偏离过高或过低的风险
-
-    arXiv:2403.12456v1 Announce Type: new  Abstract: Macro variables frequently display time-varying distributions, driven by the dynamic and evolving characteristics of economic, social, and environmental factors that consistently reshape the fundamental patterns and relationships governing these variables. To better understand the distributional dynamics beyond the central tendency, this paper introduces a novel semi-parametric approach for constructing time-varying conditional distributions, relying on the recent advances in distributional regression. We present an efficient precision-based Markov Chain Monte Carlo algorithm that simultaneously estimates all model parameters while explicitly enforcing the monotonicity condition on the conditional distribution function. Our model is applied to construct the forecasting distribution of inflation for the U.S., conditional on a set of macroeconomic and financial indicators. The risks of future inflation deviating excessively high or low fro
-    
-[^2]: 学习关于一个变化的状态
-
-    Learning about a changing state. (arXiv:2401.03607v1 [econ.TH])
-
-    [http://arxiv.org/abs/2401.03607](http://arxiv.org/abs/2401.03607)
-
-    该论文研究了一个长寿的贝叶斯代理观察到一个随时间变化的状态的昂贵信号的学习问题，通过比较不同精度选择策略下的结果，发现在状态遵循布朗运动时，最优的短视和前瞻性精度不同。
+    我们提出了一种信息排序测试方法，通过将信息结构的排序转化为函数的排序，检验真实信息结构是否至少和提出的基线一样信息丰富。
 
     
 
-    一个长寿的贝叶斯代理观察到一个随时间变化的状态的昂贵信号。他按序选择信号的精度，平衡其成本和边际信息。我比较了当状态遵循布朗运动时，最优的短视和前瞻性精度。我还比较了其他高斯过程引起的短视精度。
+    一种战略环境的关键基元是玩家可获得的信息。为实证研究人员事先指定一个信息结构通常很困难。我们开发了一种信息排序测试，使研究人员能够检验真实信息结构是否至少和提出的基线一样信息丰富。我们通过利用贝叶斯相关均衡（BCE）的概念，将信息结构的排序转化为函数的排序，构建了一个可计算的检验统计量。我们将我们的测试应用于研究枢纽是否为某些航空公司提供信息优势，除了市场力量之外。
 
-    A long-lived Bayesian agent observes costly signals of a time-varying state. He chooses the signals' precisions sequentially, balancing their costs and marginal informativeness. I compare the optimal myopic and forward-looking precisions when the state follows a Brownian motion. I also compare the myopic precisions induced by other Gaussian processes.
+    arXiv:2402.19425v1 Announce Type: new  Abstract: A key primitive of a strategic environment is the information available to players. Specifying a priori an information structure is often difficult for empirical researchers. We develop a test of information ordering that allows researchers to examine if the true information structure is at least as informative as a proposed baseline. We construct a computationally tractable test statistic by utilizing the notion of Bayes Correlated Equilibrium (BCE) to translate the ordering of information structures into an ordering of functions. We apply our test to examine whether hubs provide informational advantages to certain airlines in addition to market power.
+    
+[^2]: 使用网络数据进行半参数逻辑模型的识别和估计
+
+    Identification and Estimation of a Semiparametric Logit Model using Network Data. (arXiv:2310.07151v1 [econ.EM])
+
+    [http://arxiv.org/abs/2310.07151](http://arxiv.org/abs/2310.07151)
+
+    本文研究了半参数二元网络模型的识别和估计，提出了基于配对统计的估计方法，并通过蒙特卡洛模拟评估了该方法的性能。
+
+    
+
+    本文研究了半参数二元网络模型的识别和估计，其中未观测到的社会特征是内生的，即未观测到的个体特征影响了感兴趣的二元结果以及在网络内部形成联系的方式。潜在社会特征的确切函数形式是未知的。所提出的估计量是基于网络形成分布相同的匹配对之间的配对。提出了估计量的一致性和渐近分布。通过蒙特卡洛模拟评估了所提出的估计量的有限样本特性。最后，对该研究进行了实证应用。
+
+    This paper studies the identification and estimation of a semiparametric binary network model in which the unobserved social characteristic is endogenous, that is, the unobserved individual characteristic influences both the binary outcome of interest and how links are formed within the network. The exact functional form of the latent social characteristic is not known. The proposed estimators are obtained based on matching pairs of agents whose network formation distributions are the same. The consistency and the asymptotic distribution of the estimators are proposed. The finite sample properties of the proposed estimators in a Monte-Carlo simulation are assessed. We conclude this study with an empirical application.
     
 
