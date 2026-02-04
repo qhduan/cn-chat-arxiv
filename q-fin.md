@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Random neural networks for rough volatility.](http://arxiv.org/abs/2305.01035) | 本论文介绍了一种基于随机神经网络的深度学习数值算法，用于解决与粗波动相关的路径相关偏微分方程，并证明了该方法具有理论收敛性质。 |
+| [^1] | [Regulatory Markets: The Future of AI Governance.](http://arxiv.org/abs/2304.04914) | 提出一种监管市场的概念，即政府要求受监管对象从私人监管机构购买监管服务，以克服过度依赖行业自律和立法机构缺乏专业知识的局限性，从而逐步实现人工智能的恰当监管。 |
 
 # 详细
 
-[^1]: 用于粗波动的随机神经网络
+[^1]: 监管市场：人工智能治理的未来
 
-    Random neural networks for rough volatility. (arXiv:2305.01035v1 [q-fin.PR])
+    Regulatory Markets: The Future of AI Governance. (arXiv:2304.04914v1 [cs.AI])
 
-    [http://arxiv.org/abs/2305.01035](http://arxiv.org/abs/2305.01035)
+    [http://arxiv.org/abs/2304.04914](http://arxiv.org/abs/2304.04914)
 
-    本论文介绍了一种基于随机神经网络的深度学习数值算法，用于解决与粗波动相关的路径相关偏微分方程，并证明了该方法具有理论收敛性质。
+    提出一种监管市场的概念，即政府要求受监管对象从私人监管机构购买监管服务，以克服过度依赖行业自律和立法机构缺乏专业知识的局限性，从而逐步实现人工智能的恰当监管。
 
     
 
-    我们构建了一个基于深度学习的数值算法，用于求解与粗波动相关的路径相关偏微分方程。我们的方法基于将PDE解释为SPDE的解决方案，建立在由Bayer、Qiu和Yao最近得出的见解之上，并构建了一个像Gonon、Grigoryeva、Ortega最初开发的储层类型的神经网络。储层方法使我们能够将优化问题制定为简单的最小二乘回归，我们证明了其理论收敛性质。
+    恰当地监管人工智能是一个日益紧迫的政策挑战。立法机构和监管机构缺乏翻译公众需求为法律要求所需的专业知识。过度依赖行业自律未能使AI系统的生产者和使用者对民主要求负责。提出了监管市场的概念，即政府要求受监管对象从私人监管机构购买监管服务。这种方法可以克服命令和控制监管和自我监管的局限性。监管市场可以使政府为AI监管建立政策优先级，同时依靠市场力量和行业研发努力来开创最能实现政策制定者声明目标的监管方法。
 
-    We construct a deep learning-based numerical algorithm to solve path-dependent partial differential equations arising in the context of rough volatility. Our approach is based on interpreting the PDE as a solution to an SPDE, building upon recent insights by Bayer, Qiu and Yao, and on constructing a neural network of reservoir type as originally developed by Gonon, Grigoryeva, Ortega. The reservoir approach allows us to formulate the optimisation problem as a simple least-square regression for which we prove theoretical convergence properties.
+    Appropriately regulating artificial intelligence is an increasingly urgent policy challenge. Legislatures and regulators lack the specialized knowledge required to best translate public demands into legal requirements. Overreliance on industry self-regulation fails to hold producers and users of AI systems accountable to democratic demands. Regulatory markets, in which governments require the targets of regulation to purchase regulatory services from a private regulator, are proposed. This approach to AI regulation could overcome the limitations of both command-and-control regulation and self-regulation. Regulatory market could enable governments to establish policy priorities for the regulation of AI, whilst relying on market forces and industry R&D efforts to pioneer the methods of regulation that best achieve policymakers' stated objectives.
     
 

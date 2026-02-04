@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Synthetic Matching Control Method.](http://arxiv.org/abs/2306.02584) | 本文提出了一种叫做合成匹配控制方法的简单而有效的方法来解决合成控制方法中的选择对齐问题和欠拟合问题，并通过对比实验表明该方法有效地提高了因果效应的估计精度。 |
+| [^1] | [Regulatory Markets: The Future of AI Governance.](http://arxiv.org/abs/2304.04914) | 提出一种监管市场的概念，即政府要求受监管对象从私人监管机构购买监管服务，以克服过度依赖行业自律和立法机构缺乏专业知识的局限性，从而逐步实现人工智能的恰当监管。 |
 
 # 详细
 
-[^1]: 合成匹配控制方法
+[^1]: 监管市场：人工智能治理的未来
 
-    Synthetic Matching Control Method. (arXiv:2306.02584v1 [econ.EM])
+    Regulatory Markets: The Future of AI Governance. (arXiv:2304.04914v1 [cs.AI])
 
-    [http://arxiv.org/abs/2306.02584](http://arxiv.org/abs/2306.02584)
+    [http://arxiv.org/abs/2304.04914](http://arxiv.org/abs/2304.04914)
 
-    本文提出了一种叫做合成匹配控制方法的简单而有效的方法来解决合成控制方法中的选择对齐问题和欠拟合问题，并通过对比实验表明该方法有效地提高了因果效应的估计精度。
+    提出一种监管市场的概念，即政府要求受监管对象从私人监管机构购买监管服务，以克服过度依赖行业自律和立法机构缺乏专业知识的局限性，从而逐步实现人工智能的恰当监管。
 
     
 
-    在合成控制方法中，估计权重涉及同时选择和对齐对照组以接近匹配处理组的优化过程。然而，这种同时选择和对齐控制组单位的方式可能导致合成控制方法效率的下降。另一个担忧是由于不完美的预处理拟合而导致的欠拟合问题。为了解决这两个问题，本文提出了一种简单有效的方法——合成匹配控制方法。该方法通过执行单变量线性回归来建立控制组的预处理期与处理组之间的适当匹配，并通过合成匹配来获得一个SMC估计量，从而改善了估计的效率和拟合度。
+    恰当地监管人工智能是一个日益紧迫的政策挑战。立法机构和监管机构缺乏翻译公众需求为法律要求所需的专业知识。过度依赖行业自律未能使AI系统的生产者和使用者对民主要求负责。提出了监管市场的概念，即政府要求受监管对象从私人监管机构购买监管服务。这种方法可以克服命令和控制监管和自我监管的局限性。监管市场可以使政府为AI监管建立政策优先级，同时依靠市场力量和行业研发努力来开创最能实现政策制定者声明目标的监管方法。
 
-    Estimating weights in the synthetic control method involves an optimization procedure that simultaneously selects and aligns control units in order to closely match the treated unit. However, this simultaneous selection and alignment of control units may lead to a loss of efficiency in the synthetic control method. Another concern arising from the aforementioned procedure is its susceptibility to under-fitting due to imperfect pretreatment fit. It is not uncommon for the linear combination, using nonnegative weights, of pre-treatment period outcomes for the control units to inadequately approximate the pre-treatment outcomes for the treated unit. To address both of these issues, this paper proposes a simple and effective method called Synthetic Matching Control (SMC). The SMC method begins by performing the univariate linear regression to establish a proper match between the pre-treatment periods of the control units and the treated unit. Subsequently, a SMC estimator is obtained by sy
+    Appropriately regulating artificial intelligence is an increasingly urgent policy challenge. Legislatures and regulators lack the specialized knowledge required to best translate public demands into legal requirements. Overreliance on industry self-regulation fails to hold producers and users of AI systems accountable to democratic demands. Regulatory markets, in which governments require the targets of regulation to purchase regulatory services from a private regulator, are proposed. This approach to AI regulation could overcome the limitations of both command-and-control regulation and self-regulation. Regulatory market could enable governments to establish policy priorities for the regulation of AI, whilst relying on market forces and industry R&D efforts to pioneer the methods of regulation that best achieve policymakers' stated objectives.
     
 

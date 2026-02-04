@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Deep Learning for Trajectory Data Management and Mining: A Survey and Beyond](https://arxiv.org/abs/2403.14151) | 本文综述了深度学习在轨迹数据管理与挖掘中的发展和最新进展，探讨了其在预处理、存储、分析、预测、推荐、分类、估计和检测等方面的应用。 |
-| [^2] | [Factorized Tensor Networks for Multi-Task and Multi-Domain Learning.](http://arxiv.org/abs/2310.06124) | 本文提出了一种分解张量网络（FTN），它可以克服多任务多领域学习中的共享信息利用挑战，并在准确性、存储成本、计算量和样本复杂度等方面实现高效率。实验结果表明，FTN相对于现有方法需要更少的任务特定参数，并且可以适应大量的目标领域和任务。 |
+| [^1] | [Variance Reduction Based Experience Replay for Policy Optimization](https://arxiv.org/abs/2110.08902) | 引入了基于方差减少的经验回放框架，实现了选择性重复利用相关样本来改善策略梯度估计，并构建了高效的离策略算法PG-VRER。 |
+| [^2] | [AlignAtt: Using Attention-based Audio-Translation Alignments as a Guide for Simultaneous Speech Translation.](http://arxiv.org/abs/2305.11408) | AlignAtt是一种新型的SimulST策略，使用基于注意力的音频翻译对齐来指导模型，在BLEU和延迟方面均优于之前的策略。 |
 
 # 详细
 
-[^1]: 轨迹数据管理与挖掘的深度学习：调查与展望
+[^1]: 基于方差减少的经验回放用于策略优化
 
-    Deep Learning for Trajectory Data Management and Mining: A Survey and Beyond
+    Variance Reduction Based Experience Replay for Policy Optimization
 
-    [https://arxiv.org/abs/2403.14151](https://arxiv.org/abs/2403.14151)
+    [https://arxiv.org/abs/2110.08902](https://arxiv.org/abs/2110.08902)
 
-    本文综述了深度学习在轨迹数据管理与挖掘中的发展和最新进展，探讨了其在预处理、存储、分析、预测、推荐、分类、估计和检测等方面的应用。
-
-    
-
-    arXiv:2403.14151v1 公告类型：跨越 抽象：轨迹计算是一个重要的领域，涵盖轨迹数据管理和挖掘，因其在诸如位置服务、城市交通和公共安全等各种实际应用中的关键作用而受到广泛关注。传统方法侧重于简单的时空特征，面临复杂计算、有限的可扩展性和不足以适应现实复杂性的挑战。在本文中，我们对轨迹计算中深度学习的发展和最新进展进行了全面的回顾（DL4Traj）。我们首先定义轨迹数据，并简要介绍了广泛使用的深度学习模型。系统地探讨了深度学习在轨迹管理（预处理、存储、分析和可视化）和挖掘（与轨迹相关的预测、轨迹相关的推荐、轨迹分类、旅行时间估计、异常检测）
-
-    arXiv:2403.14151v1 Announce Type: cross  Abstract: Trajectory computing is a pivotal domain encompassing trajectory data management and mining, garnering widespread attention due to its crucial role in various practical applications such as location services, urban traffic, and public safety. Traditional methods, focusing on simplistic spatio-temporal features, face challenges of complex calculations, limited scalability, and inadequate adaptability to real-world complexities. In this paper, we present a comprehensive review of the development and recent advances in deep learning for trajectory computing (DL4Traj). We first define trajectory data and provide a brief overview of widely-used deep learning models. Systematically, we explore deep learning applications in trajectory management (pre-processing, storage, analysis, and visualization) and mining (trajectory-related forecasting, trajectory-related recommendation, trajectory classification, travel time estimation, anomaly detecti
-    
-[^2]: 分解张量网络用于多任务和多领域学习
-
-    Factorized Tensor Networks for Multi-Task and Multi-Domain Learning. (arXiv:2310.06124v1 [cs.LG])
-
-    [http://arxiv.org/abs/2310.06124](http://arxiv.org/abs/2310.06124)
-
-    本文提出了一种分解张量网络（FTN），它可以克服多任务多领域学习中的共享信息利用挑战，并在准确性、存储成本、计算量和样本复杂度等方面实现高效率。实验结果表明，FTN相对于现有方法需要更少的任务特定参数，并且可以适应大量的目标领域和任务。
+    引入了基于方差减少的经验回放框架，实现了选择性重复利用相关样本来改善策略梯度估计，并构建了高效的离策略算法PG-VRER。
 
     
 
-    多任务和多领域学习方法旨在使用单个统一的网络共同学习多个任务/领域，或者先后学习它们。关键挑战和机会是利用任务和领域之间的共享信息，提高统一网络的效率，包括准确性、存储成本、计算量或样本复杂度。本文提出了一种分解张量网络（FTN），可以通过增加少量附加参数实现与独立单任务/领域网络相当的准确性。FTN使用源模型的冻结主干网络，并逐步添加任务/领域特定的低秩张量因子到共享的冻结网络中。这种方法可以适应大量目标领域和任务，而不会出现灾难性遗忘。此外，与现有方法相比，FTN需要较少的任务特定参数。我们在广泛使用的多领域和多任务数据集上进行了实验。
+    在复杂随机系统上进行强化学习时，有效利用历史样本中的信息以加速策略优化是很有必要的。传统的经验回放虽然有效，但是将所有观测都视为相同，忽略了它们的相对重要性。为了解决这一限制，我们引入了一种新颖的方差减少经验回放（VRER）框架，实现对相关样本的选择性重复利用，从而改善策略梯度估计。VRER作为一种适应性方法，可以无缝集成到不同的策略优化算法中，构建了我们高效的离策略算法Policy Optimization with VRER (PG-VRER)。此外，文献中对经验回放方法缺乏严格的理论理解，这促使我们引入一个新颖的理论框架，考虑样本依赖性。
 
-    Multi-task and multi-domain learning methods seek to learn multiple tasks/domains, jointly or one after another, using a single unified network. The key challenge and opportunity is to exploit shared information across tasks and domains to improve the efficiency of the unified network. The efficiency can be in terms of accuracy, storage cost, computation, or sample complexity. In this paper, we propose a factorized tensor network (FTN) that can achieve accuracy comparable to independent single-task/domain networks with a small number of additional parameters. FTN uses a frozen backbone network from a source model and incrementally adds task/domain-specific low-rank tensor factors to the shared frozen network. This approach can adapt to a large number of target domains and tasks without catastrophic forgetting. Furthermore, FTN requires a significantly smaller number of task-specific parameters compared to existing methods. We performed experiments on widely used multi-domain and multi-
+    arXiv:2110.08902v3 Announce Type: replace-cross  Abstract: For reinforcement learning on complex stochastic systems, it is desirable to effectively leverage the information from historical samples collected in previous iterations to accelerate policy optimization. Classical experience replay, while effective, treats all observations uniformly, neglecting their relative importance. To address this limitation, we introduce a novel Variance Reduction Experience Replay (VRER) framework, enabling the selective reuse of relevant samples to improve policy gradient estimation. VRER, as an adaptable method that can seamlessly integrate with different policy optimization algorithms, forms the foundation of our sample-efficient off-policy algorithm known as Policy Optimization with VRER (PG-VRER). Furthermore, the lack of a rigorous theoretical understanding of the experience replay method in the literature motivates us to introduce a novel theoretical framework that accounts for sample dependenc
+    
+[^2]: AlignAtt：使用基于注意力的音频翻译对齐作为同时语音翻译的指导
+
+    AlignAtt: Using Attention-based Audio-Translation Alignments as a Guide for Simultaneous Speech Translation. (arXiv:2305.11408v1 [cs.CL])
+
+    [http://arxiv.org/abs/2305.11408](http://arxiv.org/abs/2305.11408)
+
+    AlignAtt是一种新型的SimulST策略，使用基于注意力的音频翻译对齐来指导模型，在BLEU和延迟方面均优于之前的策略。
+
+    
+
+    注意力是当今自然语言处理中最常用的架构的核心机制，并已从许多角度进行分析，包括其在机器翻译相关任务中的有效性。在这些研究中，注意力在输入文本被替换为音频片段的情况下，也是获取有关单词对齐的有用信息的一种方式，例如语音翻译（ST）任务。在本文中，我们提出了AlignAtt，一种新颖的同时ST（SimulST）策略，它利用注意力信息来生成源-目标对齐，以在推理过程中指导模型。通过对MuST-C v1.0的8种语言对的实验，我们发现，在线下训练的模型上应用先前的最新SimulST策略，AlignAtt在BLEU方面获得了2个分数的提高，并且8种语言的延迟缩减在0.5秒到0.8秒之间。
+
+    Attention is the core mechanism of today's most used architectures for natural language processing and has been analyzed from many perspectives, including its effectiveness for machine translation-related tasks. Among these studies, attention resulted to be a useful source of information to get insights about word alignment also when the input text is substituted with audio segments, as in the case of the speech translation (ST) task. In this paper, we propose AlignAtt, a novel policy for simultaneous ST (SimulST) that exploits the attention information to generate source-target alignments that guide the model during inference. Through experiments on the 8 language pairs of MuST-C v1.0, we show that AlignAtt outperforms previous state-of-the-art SimulST policies applied to offline-trained models with gains in terms of BLEU of 2 points and latency reductions ranging from 0.5s to 0.8s across the 8 languages.
     
 
