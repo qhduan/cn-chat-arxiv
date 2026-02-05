@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Regulatory Markets: The Future of AI Governance.](http://arxiv.org/abs/2304.04914) | 提出一种监管市场的概念，即政府要求受监管对象从私人监管机构购买监管服务，以克服过度依赖行业自律和立法机构缺乏专业知识的局限性，从而逐步实现人工智能的恰当监管。 |
+| [^1] | [Peer Effects in Consideration and Preferences.](http://arxiv.org/abs/2310.12272) | 该论文开发了一个离散选择模型，将同伴影响纳入偏好和考虑集，利用不同类型的变化区分同伴影响，并恢复网络中代理之间的连接集合和类型，非参数识别结果允许代理人之间的无限异质性，并应用于咖啡连锁店的扩张决策。 |
 
 # 详细
 
-[^1]: 监管市场：人工智能治理的未来
+[^1]: 考虑和偏好中的同伴影响
 
-    Regulatory Markets: The Future of AI Governance. (arXiv:2304.04914v1 [cs.AI])
+    Peer Effects in Consideration and Preferences. (arXiv:2310.12272v1 [econ.GN])
 
-    [http://arxiv.org/abs/2304.04914](http://arxiv.org/abs/2304.04914)
+    [http://arxiv.org/abs/2310.12272](http://arxiv.org/abs/2310.12272)
 
-    提出一种监管市场的概念，即政府要求受监管对象从私人监管机构购买监管服务，以克服过度依赖行业自律和立法机构缺乏专业知识的局限性，从而逐步实现人工智能的恰当监管。
+    该论文开发了一个离散选择模型，将同伴影响纳入偏好和考虑集，利用不同类型的变化区分同伴影响，并恢复网络中代理之间的连接集合和类型，非参数识别结果允许代理人之间的无限异质性，并应用于咖啡连锁店的扩张决策。
 
     
 
-    恰当地监管人工智能是一个日益紧迫的政策挑战。立法机构和监管机构缺乏翻译公众需求为法律要求所需的专业知识。过度依赖行业自律未能使AI系统的生产者和使用者对民主要求负责。提出了监管市场的概念，即政府要求受监管对象从私人监管机构购买监管服务。这种方法可以克服命令和控制监管和自我监管的局限性。监管市场可以使政府为AI监管建立政策优先级，同时依靠市场力量和行业研发努力来开创最能实现政策制定者声明目标的监管方法。
+    我们开发了一个一般的离散选择模型，将同伴影响纳入偏好和考虑集中。我们对平衡行为进行描述，并建立了一系列选择中能恢复模型各个部分的条件。我们允许同伴影响只作用于偏好、只作用于考虑，或者同时作用于两者。我们利用不同类型的变化来区分偏好和考虑集中的同伴影响。这使我们能够恢复网络中代理之间的连接集合（和类型）。然后我们利用这些信息来恢复每个代理人的随机偏好和注意机制。这些非参数识别结果允许代理人之间的无限异质性，并不依赖于协变量或可用选项（或菜单）的变化。我们将我们的结果应用于咖啡连锁店的扩张决策，并发现有限的考虑证据。我们进行了反事实预测模拟，并展示了有限的考虑如何影响决策。
 
-    Appropriately regulating artificial intelligence is an increasingly urgent policy challenge. Legislatures and regulators lack the specialized knowledge required to best translate public demands into legal requirements. Overreliance on industry self-regulation fails to hold producers and users of AI systems accountable to democratic demands. Regulatory markets, in which governments require the targets of regulation to purchase regulatory services from a private regulator, are proposed. This approach to AI regulation could overcome the limitations of both command-and-control regulation and self-regulation. Regulatory market could enable governments to establish policy priorities for the regulation of AI, whilst relying on market forces and industry R&D efforts to pioneer the methods of regulation that best achieve policymakers' stated objectives.
+    We develop a general model of discrete choice that incorporates peer effects in preferences and consideration sets. We characterize the equilibrium behavior and establish conditions under which all parts of the model can be recovered from a sequence of choices. We allow peers to affect only preferences, only consideration, or both. We exploit different types of variations to separate the peer effects in preferences and consideration sets. This allows us to recover the set (and type) of connections between the agents in the network. We then use this information to recover the random preferences and the attention mechanisms of each agent. These nonparametric identification results allow unrestricted heterogeneity across agents and do not rely on the variation of either covariates or the set of available options (or menus). We apply our results to model expansion decisions by coffee chains and find evidence of limited consideration. We simulate counterfactual predictions and show how limi
     
 

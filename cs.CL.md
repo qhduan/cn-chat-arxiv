@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [AlignAtt: Using Attention-based Audio-Translation Alignments as a Guide for Simultaneous Speech Translation.](http://arxiv.org/abs/2305.11408) | AlignAtt是一种新型的SimulST策略，使用基于注意力的音频翻译对齐来指导模型，在BLEU和延迟方面均优于之前的策略。 |
+| [^1] | [Vicarious Offense and Noise Audit of Offensive Speech Classifiers: Unifying Human and Machine Disagreement on What is Offensive.](http://arxiv.org/abs/2301.12534) | 本文通过人工和机器审核员的共情冒犯和噪声审计研究了冒犯性言论检测中的差异性。结果表明，审核员之间存在广泛的分歧，并且人工审核员和大型语言模型分类器无法预测其他审核员的回应。这对于内容审核具有重要意义。 |
 
 # 详细
 
-[^1]: AlignAtt：使用基于注意力的音频翻译对齐作为同时语音翻译的指导
+[^1]: 人工和机器关于什么是冒犯存在较大分歧的共情冒犯和噪声审计：统一主观冒犯的人类和机器差异
 
-    AlignAtt: Using Attention-based Audio-Translation Alignments as a Guide for Simultaneous Speech Translation. (arXiv:2305.11408v1 [cs.CL])
+    Vicarious Offense and Noise Audit of Offensive Speech Classifiers: Unifying Human and Machine Disagreement on What is Offensive. (arXiv:2301.12534v3 [cs.CL] UPDATED)
 
-    [http://arxiv.org/abs/2305.11408](http://arxiv.org/abs/2305.11408)
+    [http://arxiv.org/abs/2301.12534](http://arxiv.org/abs/2301.12534)
 
-    AlignAtt是一种新型的SimulST策略，使用基于注意力的音频翻译对齐来指导模型，在BLEU和延迟方面均优于之前的策略。
+    本文通过人工和机器审核员的共情冒犯和噪声审计研究了冒犯性言论检测中的差异性。结果表明，审核员之间存在广泛的分歧，并且人工审核员和大型语言模型分类器无法预测其他审核员的回应。这对于内容审核具有重要意义。
 
     
 
-    注意力是当今自然语言处理中最常用的架构的核心机制，并已从许多角度进行分析，包括其在机器翻译相关任务中的有效性。在这些研究中，注意力在输入文本被替换为音频片段的情况下，也是获取有关单词对齐的有用信息的一种方式，例如语音翻译（ST）任务。在本文中，我们提出了AlignAtt，一种新颖的同时ST（SimulST）策略，它利用注意力信息来生成源-目标对齐，以在推理过程中指导模型。通过对MuST-C v1.0的8种语言对的实验，我们发现，在线下训练的模型上应用先前的最新SimulST策略，AlignAtt在BLEU方面获得了2个分数的提高，并且8种语言的延迟缩减在0.5秒到0.8秒之间。
+    冒犯性言论检测是内容审核的一个关键组成部分。然而，什么是冒犯性的可以是高度主观的。本文研究了当涉及到现实世界社交网站政治言论时，人工和机器审核员对于什么是冒犯性的存在分歧。我们发现（1）审核员之间（包括人工和机器）存在广泛分歧；和（2）人工审核员和大型语言模型分类器无法预测其他审核员基于他们的政治倾向如何回应。对于（1），我们进行了一个前所未有规模的噪声审计，结合了机器和人工回答。对于（2），我们介绍了一个首创的共情冒犯的数据集。我们的噪声审计揭示了不同机器审核员之间的审核结果差异很大。我们与人工审核员进行的实验表明，政治倾向结合敏感问题会影响到一对一的冒犯，以及共情冒犯。数据集可通过https://github.com/Homan-Lab/voic获得。
 
-    Attention is the core mechanism of today's most used architectures for natural language processing and has been analyzed from many perspectives, including its effectiveness for machine translation-related tasks. Among these studies, attention resulted to be a useful source of information to get insights about word alignment also when the input text is substituted with audio segments, as in the case of the speech translation (ST) task. In this paper, we propose AlignAtt, a novel policy for simultaneous ST (SimulST) that exploits the attention information to generate source-target alignments that guide the model during inference. Through experiments on the 8 language pairs of MuST-C v1.0, we show that AlignAtt outperforms previous state-of-the-art SimulST policies applied to offline-trained models with gains in terms of BLEU of 2 points and latency reductions ranging from 0.5s to 0.8s across the 8 languages.
+    Offensive speech detection is a key component of content moderation. However, what is offensive can be highly subjective. This paper investigates how machine and human moderators disagree on what is offensive when it comes to real-world social web political discourse. We show that (1) there is extensive disagreement among the moderators (humans and machines); and (2) human and large-language-model classifiers are unable to predict how other human raters will respond, based on their political leanings. For (1), we conduct a noise audit at an unprecedented scale that combines both machine and human responses. For (2), we introduce a first-of-its-kind dataset of vicarious offense. Our noise audit reveals that moderation outcomes vary wildly across different machine moderators. Our experiments with human moderators suggest that political leanings combined with sensitive issues affect both first-person and vicarious offense. The dataset is available through https://github.com/Homan-Lab/voic
     
 
