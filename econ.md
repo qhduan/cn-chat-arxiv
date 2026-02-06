@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Peer Effects in Consideration and Preferences.](http://arxiv.org/abs/2310.12272) | 该论文开发了一个离散选择模型，将同伴影响纳入偏好和考虑集，利用不同类型的变化区分同伴影响，并恢复网络中代理之间的连接集合和类型，非参数识别结果允许代理人之间的无限异质性，并应用于咖啡连锁店的扩张决策。 |
+| [^1] | [Karma: An Experimental Study](https://arxiv.org/abs/2404.02687) | 实验证实因果报应在资源分配上带来显著且持久的福利好处，尤其在具有间歇急迫性的情境中效果更佳。 |
 
 # 详细
 
-[^1]: 考虑和偏好中的同伴影响
+[^1]: Karma：一个实验研究
 
-    Peer Effects in Consideration and Preferences. (arXiv:2310.12272v1 [econ.GN])
+    Karma: An Experimental Study
 
-    [http://arxiv.org/abs/2310.12272](http://arxiv.org/abs/2310.12272)
+    [https://arxiv.org/abs/2404.02687](https://arxiv.org/abs/2404.02687)
 
-    该论文开发了一个离散选择模型，将同伴影响纳入偏好和考虑集，利用不同类型的变化区分同伴影响，并恢复网络中代理之间的连接集合和类型，非参数识别结果允许代理人之间的无限异质性，并应用于咖啡连锁店的扩张决策。
+    实验证实因果报应在资源分配上带来显著且持久的福利好处，尤其在具有间歇急迫性的情境中效果更佳。
 
     
 
-    我们开发了一个一般的离散选择模型，将同伴影响纳入偏好和考虑集中。我们对平衡行为进行描述，并建立了一系列选择中能恢复模型各个部分的条件。我们允许同伴影响只作用于偏好、只作用于考虑，或者同时作用于两者。我们利用不同类型的变化来区分偏好和考虑集中的同伴影响。这使我们能够恢复网络中代理之间的连接集合（和类型）。然后我们利用这些信息来恢复每个代理人的随机偏好和注意机制。这些非参数识别结果允许代理人之间的无限异质性，并不依赖于协变量或可用选项（或菜单）的变化。我们将我们的结果应用于咖啡连锁店的扩张决策，并发现有限的考虑证据。我们进行了反事实预测模拟，并展示了有限的考虑如何影响决策。
+    非可交易积分系统，类似于因果报应，因此提议以此命名，是一种用于重复资源分配的机制，在理论上具有吸引人的效率和公平特性。在这项研究中，我们在一项在线实验中测试了因果报应，实验中人类被要求重复竞争获取一种具有时间变化和随机个人偏好或紧迫性的资源。我们确认，即使在没有任何事先培训的人群中，因果报应也具有显著且持久的福利好处。我们发现，在具有间歇急迫性的情境中，机制的使用次数比频繁中等紧迫性的情境更多，并且将其实施为一个简单（二元）的因果报应竞标方案，对于福利的提高特别有效：实现了相对较大的总体效率增益，这些增益几乎是帕累托改进的。这些发现为进一步测试和未来实施计划提供了指导。
 
-    We develop a general model of discrete choice that incorporates peer effects in preferences and consideration sets. We characterize the equilibrium behavior and establish conditions under which all parts of the model can be recovered from a sequence of choices. We allow peers to affect only preferences, only consideration, or both. We exploit different types of variations to separate the peer effects in preferences and consideration sets. This allows us to recover the set (and type) of connections between the agents in the network. We then use this information to recover the random preferences and the attention mechanisms of each agent. These nonparametric identification results allow unrestricted heterogeneity across agents and do not rely on the variation of either covariates or the set of available options (or menus). We apply our results to model expansion decisions by coffee chains and find evidence of limited consideration. We simulate counterfactual predictions and show how limi
+    arXiv:2404.02687v1 Announce Type: new  Abstract: A system of non-tradable credits that flow between individuals like karma, hence proposed under that name, is a mechanism for repeated resource allocation that comes with attractive efficiency and fairness properties, in theory. In this study, we test karma in an online experiment in which human subjects repeatedly compete for a resource with time-varying and stochastic individual preferences or urgency to acquire the resource. We confirm that karma has significant and sustained welfare benefits even in a population with no prior training. We identify mechanism usage in contexts with sporadic high urgency, more so than with frequent moderate urgency, and implemented as an easy (binary) karma bidding scheme as particularly effective for welfare improvements: relatively larger aggregate efficiency gains are realized that are (almost) Pareto superior. These findings provide guidance for further testing and for future implementation plans of
     
 
