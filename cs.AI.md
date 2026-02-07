@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Multi-Excitation Projective Simulation with a Many-Body Physics Inspired Inductive Bias](https://arxiv.org/abs/2402.10192) | 该论文引入了多激发投影模拟（mePS），通过在超图上多个粒子的随机游走，解决了投影模拟（PS）无法模拟同时结合多个概念的思维的问题。 |
+| [^1] | [CATS: Enhancing Multivariate Time Series Forecasting by Constructing Auxiliary Time Series as Exogenous Variables](https://arxiv.org/abs/2403.01673) | CATS通过构建辅助时间序列作为外生变量，有效地表示和整合多元时间序列之间的关系，提高了多元时间序列预测的效果，并且相较于之前的模型大幅减少了复杂性和参数。 |
 
 # 详细
 
-[^1]: 借鉴多体物理的归纳偏置的多激发投影模拟
+[^1]: CATS：通过构建辅助时间序列作为外生变量增强多元时间序列预测
 
-    Multi-Excitation Projective Simulation with a Many-Body Physics Inspired Inductive Bias
+    CATS: Enhancing Multivariate Time Series Forecasting by Constructing Auxiliary Time Series as Exogenous Variables
 
-    [https://arxiv.org/abs/2402.10192](https://arxiv.org/abs/2402.10192)
+    [https://arxiv.org/abs/2403.01673](https://arxiv.org/abs/2403.01673)
 
-    该论文引入了多激发投影模拟（mePS），通过在超图上多个粒子的随机游走，解决了投影模拟（PS）无法模拟同时结合多个概念的思维的问题。
+    CATS通过构建辅助时间序列作为外生变量，有效地表示和整合多元时间序列之间的关系，提高了多元时间序列预测的效果，并且相较于之前的模型大幅减少了复杂性和参数。
 
     
 
-    随着深度学习的进步，依赖于机器学习的应用正在越来越多地融入日常生活。然而，大多数深度学习模型具有不透明的、类似于神谕般的特性，使得解释和理解它们的决策变得困难。这个问题导致了被称为可解释人工智能（XAI）的领域的发展。该领域中的一种方法称为投影模拟（PS），将思维过程建模为一个在具有概念附加的顶点的图上的粒子的随机游走。虽然这种描述具有各种好处，包括量化的可能性，但不能自然地用来模拟同时结合多个概念的思维。为了克服这个限制，我们引入了一种称为多激发投影模拟（mePS）的推广，它将思维过程视为超图上多个粒子的随机游走。
+    对于多元时间序列预测（MTSF），最近的深度学习应用显示，单变量模型经常优于多元模型。为了解决多元模型的不足，我们引入了一种方法，即构建辅助时间序列（CATS），它类似于2D时间上下文关注机制，从原始时间序列（OTS）生成辅助时间序列（ATS），以有效表示和整合系列间关系用于预测。ATS的关键原则-连续性，稀疏性和变异性-通过不同模块进行识别和实现。即使是基本的2层MLP作为核心预测器，CATS也取得了最先进的成果，相对于先前的多元模型，它显著减少了复杂性和参数，使其成为高效且可转移的MTSF解决方案。
 
-    arXiv:2402.10192v1 Announce Type: cross  Abstract: With the impressive progress of deep learning, applications relying on machine learning are increasingly being integrated into daily life. However, most deep learning models have an opaque, oracle-like nature making it difficult to interpret and understand their decisions. This problem led to the development of the field known as eXplainable Artificial Intelligence (XAI). One method in this field known as Projective Simulation (PS) models a chain-of-thought as a random walk of a particle on a graph with vertices that have concepts attached to them. While this description has various benefits, including the possibility of quantization, it cannot be naturally used to model thoughts that combine several concepts simultaneously. To overcome this limitation, we introduce Multi-Excitation Projective Simulation (mePS), a generalization that considers a chain-of-thought to be a random walk of several particles on a hypergraph. A definition for
+    arXiv:2403.01673v1 Announce Type: cross  Abstract: For Multivariate Time Series Forecasting (MTSF), recent deep learning applications show that univariate models frequently outperform multivariate ones. To address the difficiency in multivariate models, we introduce a method to Construct Auxiliary Time Series (CATS) that functions like a 2D temporal-contextual attention mechanism, which generates Auxiliary Time Series (ATS) from Original Time Series (OTS) to effectively represent and incorporate inter-series relationships for forecasting. Key principles of ATS - continuity, sparsity, and variability - are identified and implemented through different modules. Even with a basic 2-layer MLP as core predictor, CATS achieves state-of-the-art, significantly reducing complexity and parameters compared to previous multivariate models, marking it an efficient and transferable MTSF solution.
     
 
