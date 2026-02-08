@@ -2,22 +2,9 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [CATS: Enhancing Multivariate Time Series Forecasting by Constructing Auxiliary Time Series as Exogenous Variables](https://arxiv.org/abs/2403.01673) | CATS通过构建辅助时间序列作为外生变量，有效地表示和整合多元时间序列之间的关系，提高了多元时间序列预测的效果，并且相较于之前的模型大幅减少了复杂性和参数。 |
+
 
 # 详细
 
-[^1]: CATS：通过构建辅助时间序列作为外生变量增强多元时间序列预测
 
-    CATS: Enhancing Multivariate Time Series Forecasting by Constructing Auxiliary Time Series as Exogenous Variables
-
-    [https://arxiv.org/abs/2403.01673](https://arxiv.org/abs/2403.01673)
-
-    CATS通过构建辅助时间序列作为外生变量，有效地表示和整合多元时间序列之间的关系，提高了多元时间序列预测的效果，并且相较于之前的模型大幅减少了复杂性和参数。
-
-    
-
-    对于多元时间序列预测（MTSF），最近的深度学习应用显示，单变量模型经常优于多元模型。为了解决多元模型的不足，我们引入了一种方法，即构建辅助时间序列（CATS），它类似于2D时间上下文关注机制，从原始时间序列（OTS）生成辅助时间序列（ATS），以有效表示和整合系列间关系用于预测。ATS的关键原则-连续性，稀疏性和变异性-通过不同模块进行识别和实现。即使是基本的2层MLP作为核心预测器，CATS也取得了最先进的成果，相对于先前的多元模型，它显著减少了复杂性和参数，使其成为高效且可转移的MTSF解决方案。
-
-    arXiv:2403.01673v1 Announce Type: cross  Abstract: For Multivariate Time Series Forecasting (MTSF), recent deep learning applications show that univariate models frequently outperform multivariate ones. To address the difficiency in multivariate models, we introduce a method to Construct Auxiliary Time Series (CATS) that functions like a 2D temporal-contextual attention mechanism, which generates Auxiliary Time Series (ATS) from Original Time Series (OTS) to effectively represent and incorporate inter-series relationships for forecasting. Key principles of ATS - continuity, sparsity, and variability - are identified and implemented through different modules. Even with a basic 2-layer MLP as core predictor, CATS achieves state-of-the-art, significantly reducing complexity and parameters compared to previous multivariate models, marking it an efficient and transferable MTSF solution.
-    
 
