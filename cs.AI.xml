@@ -1,1 +1,41 @@
-<rss version="2.0"><channel><title>Chat Arxiv cs.AI</title><link>https://github.com/qhduan/cn-chat-arxiv</link><description>This is arxiv RSS feed for cs.AI</description></channel></rss>
+<rss version="2.0"><channel><title>Chat Arxiv cs.AI</title><link>https://github.com/qhduan/cn-chat-arxiv</link><description>This is arxiv RSS feed for cs.AI</description><item><title>&#35813;&#35770;&#25991;&#25552;&#20986;&#20102;&#19968;&#20010;&#26681;&#25454;&#31038;&#20250;&#31185;&#23398;&#29702;&#35770;&#24314;&#31435;&#30340;&#35745;&#31639;&#26694;&#26550;&#65292;&#20026;&#30740;&#31350;&#20154;&#31867;&#20215;&#20540;&#35266;&#22914;&#20309;&#25903;&#25345;&#35774;&#35745;&#36947;&#24503;&#20154;&#24037;&#26234;&#33021;&#25552;&#20379;&#20102;&#22522;&#30784;&#12290;</title><link>http://arxiv.org/abs/2305.02748</link><description>&lt;p&gt;
+&#20154;&#31867;&#20215;&#20540;&#35266;&#30340;&#35745;&#31639;&#26694;&#26550;&#23545;&#20110;&#36947;&#24503;&#20154;&#24037;&#26234;&#33021;&#30340;&#24212;&#29992;
+&lt;/p&gt;
+&lt;p&gt;
+A computational framework of human values for ethical AI. (arXiv:2305.02748v1 [cs.AI])
+&lt;/p&gt;
+&lt;p&gt;
+http://arxiv.org/abs/2305.02748
+&lt;/p&gt;
+&lt;p&gt;
+&#35813;&#35770;&#25991;&#25552;&#20986;&#20102;&#19968;&#20010;&#26681;&#25454;&#31038;&#20250;&#31185;&#23398;&#29702;&#35770;&#24314;&#31435;&#30340;&#35745;&#31639;&#26694;&#26550;&#65292;&#20026;&#30740;&#31350;&#20154;&#31867;&#20215;&#20540;&#35266;&#22914;&#20309;&#25903;&#25345;&#35774;&#35745;&#36947;&#24503;&#20154;&#24037;&#26234;&#33021;&#25552;&#20379;&#20102;&#22522;&#30784;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+&#20174;&#24515;&#29702;&#23398;&#12289;&#21746;&#23398;&#21644;&#31038;&#20250;&#31185;&#23398;&#30340;&#22810;&#20803;&#21270;&#25506;&#32034;&#20013;&#65292;&#21487;&#20197;&#24471;&#20986;&#19968;&#20010;&#26126;&#30830;&#30340;&#20849;&#35782;&#65292;&#37027;&#23601;&#26159;&#20215;&#20540;&#35266;&#25351;&#23548;&#30528;&#34892;&#20026;&#12290;&#26368;&#36817;&#65292;&#20154;&#20204;&#35748;&#35782;&#21040;&#65292;&#20215;&#20540;&#35266;&#20026;&#24037;&#31243;&#21270;&#36947;&#24503;&#20154;&#24037;&#26234;&#33021;&#25552;&#20379;&#20102;&#19968;&#31181;&#26041;&#24335;&#12290;&#25105;&#20204;&#22522;&#20110;&#31038;&#20250;&#31185;&#23398;&#30340;&#27491;&#24335;&#27010;&#24565;&#26694;&#26550;&#65292;&#25552;&#20986;&#20102;&#23545;&#20110;&#20154;&#31867;&#20215;&#20540;&#35266;&#30340;&#35745;&#31639;&#24418;&#24335;&#23450;&#20041;&#65292;&#20026;&#31995;&#32479;&#12289;&#32508;&#21512;&#21644;&#36328;&#23398;&#31185;&#22320;&#30740;&#31350;&#20154;&#31867;&#20215;&#20540;&#35266;&#22914;&#20309;&#25903;&#25345;&#35774;&#35745;&#36947;&#24503;&#20154;&#24037;&#26234;&#33021;&#25552;&#20379;&#20102;&#22522;&#30784;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+In the diverse array of work investigating the nature of human values from psychology, philosophy and social sciences, there is a clear consensus that values guide behaviour. More recently, a recognition that values provide a means to engineer ethical AI has emerged. Indeed, Stuart Russell proposed shifting AI's focus away from simply ``intelligence'' towards intelligence ``provably aligned with human values''. This challenge -- the value alignment problem -- with others including an AI's learning of human values, aggregating individual values to groups, and designing computational mechanisms to reason over values, has energised a sustained research effort. Despite this, no formal, computational definition of values has yet been proposed. We address this through a formal conceptual framework rooted in the social sciences, that provides a foundation for the systematic, integrated and interdisciplinary investigation into how human values can support designing ethical AI.
+&lt;/p&gt;</description></item><item><title>&#26412;&#20070;&#26088;&#22312;&#20171;&#32461;&#36125;&#21494;&#26031;&#30697;&#38453;&#20998;&#35299;&#30340;&#27010;&#24565;&#21644;&#24037;&#20855;&#65292;&#24182;&#24635;&#32467;&#20102;&#36125;&#21494;&#26031;&#30697;&#38453;&#20998;&#35299;&#26041;&#27861;&#22312;&#19981;&#21516;&#39046;&#22495;&#30340;&#24212;&#29992;&#12290;</title><link>http://arxiv.org/abs/2302.11337</link><description>&lt;p&gt;
+&#36125;&#21494;&#26031;&#30697;&#38453;&#20998;&#35299;&#21450;&#24212;&#29992;
+&lt;/p&gt;
+&lt;p&gt;
+Bayesian Matrix Decomposition and Applications. (arXiv:2302.11337v2 [math.NA] UPDATED)
+&lt;/p&gt;
+&lt;p&gt;
+http://arxiv.org/abs/2302.11337
+&lt;/p&gt;
+&lt;p&gt;
+&#26412;&#20070;&#26088;&#22312;&#20171;&#32461;&#36125;&#21494;&#26031;&#30697;&#38453;&#20998;&#35299;&#30340;&#27010;&#24565;&#21644;&#24037;&#20855;&#65292;&#24182;&#24635;&#32467;&#20102;&#36125;&#21494;&#26031;&#30697;&#38453;&#20998;&#35299;&#26041;&#27861;&#22312;&#19981;&#21516;&#39046;&#22495;&#30340;&#24212;&#29992;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+&#26412;&#20070;&#30340;&#21807;&#19968;&#30446;&#30340;&#26159;&#20026;&#20102;&#32473;&#20986;&#36125;&#21494;&#26031;&#30697;&#38453;&#20998;&#35299;&#27010;&#24565;&#21644;&#25968;&#23398;&#24037;&#20855;&#30340;&#33258;&#21253;&#21547;&#20171;&#32461;&#65292;&#20197;&#20415;&#22312;&#21518;&#32493;&#31456;&#33410;&#20013;&#26080;&#32541;&#24341;&#20837;&#30697;&#38453;&#20998;&#35299;&#25216;&#26415;&#21450;&#20854;&#24212;&#29992;&#12290;&#28982;&#32780;&#65292;&#25105;&#20204;&#28165;&#26970;&#22320;&#24847;&#35782;&#21040;&#25105;&#20204;&#26080;&#27861;&#35206;&#30422;&#20851;&#20110;&#36125;&#21494;&#26031;&#30697;&#38453;&#20998;&#35299;&#30340;&#25152;&#26377;&#26377;&#29992;&#21644;&#26377;&#36259;&#30340;&#32467;&#26524;&#65292;&#24182;&#19988;&#30001;&#20110;&#35752;&#35770;&#30340;&#33539;&#22260;&#26377;&#38480;&#65292;&#20363;&#22914;&#20998;&#26512;&#21464;&#20998;&#25512;&#29702;&#20197;&#36827;&#34892;&#20248;&#21270;&#30340;&#20998;&#31163;&#20998;&#26512;&#12290;&#25105;&#20204;&#23558;&#35835;&#32773;&#24341;&#23548;&#21040;&#36125;&#21494;&#26031;&#20998;&#26512;&#39046;&#22495;&#30340;&#25991;&#29486;&#20013;&#65292;&#20197;&#20415;&#26356;&#35814;&#32454;&#22320;&#20171;&#32461;&#30456;&#20851;&#39046;&#22495;&#12290;&#26412;&#20070;&#20027;&#35201;&#24635;&#32467;&#20102;&#37325;&#35201;&#30340;&#36125;&#21494;&#26031;&#30697;&#38453;&#20998;&#35299;&#26041;&#27861;&#65288;&#20363;&#22914;&#23454;&#20540;&#20998;&#35299;&#12289;&#38750;&#36127;&#30697;&#38453;&#20998;&#35299;&#12289;&#36125;&#21494;&#26031;&#25554;&#20540;&#20998;&#35299;&#65289;&#30340;&#30446;&#30340;&#21644;&#24847;&#20041;&#65292;&#20197;&#21450;&#36825;&#20123;&#26041;&#27861;&#30340;&#36215;&#28304;&#21644;&#22797;&#26434;&#24615;&#23545;&#20854;&#24212;&#29992;&#25552;&#20379;&#30340;&#21551;&#31034;&#12290;&#25968;&#23398;&#20808;&#20915;&#26465;&#20214;&#26159;&#31532;&#19968;&#38376;&#35838;&#31243;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+The sole aim of this book is to give a self-contained introduction to concepts and mathematical tools in Bayesian matrix decomposition in order to seamlessly introduce matrix decomposition techniques and their applications in subsequent sections. However, we clearly realize our inability to cover all the useful and interesting results concerning Bayesian matrix decomposition and given the paucity of scope to present this discussion, e.g., the separated analysis of variational inference for conducting the optimization. We refer the reader to literature in the field of Bayesian analysis for a more detailed introduction to the related fields.  This book is primarily a summary of purpose, significance of important Bayesian matrix decomposition methods, e.g., real-valued decomposition, nonnegative matrix factorization, Bayesian interpolative decomposition, and the origin and complexity of the methods which shed light on their applications. The mathematical prerequisite is a first course in 
+&lt;/p&gt;</description></item></channel></rss>
