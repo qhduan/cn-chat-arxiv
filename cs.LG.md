@@ -2,52 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Gradient Alignment with Prototype Feature for Fully Test-time Adaptation](https://arxiv.org/abs/2402.09004) | 在测试时间自适应中，我们提出了一种名为GAP的正则化方法，通过梯度对齐和原型特征，减轻了来自于错误分类伪标签熵最小化损失的不适当引导，显著改善了TTA方法。 |
-| [^2] | [Keep or toss? A nonparametric score to evaluate solutions for noisy ICA](https://arxiv.org/abs/2401.08468) | 本文提出一种非参数分数来自适应选择适用于任意高斯噪声的ICA算法，并通过特征函数评估估计的混合矩阵质量，无需了解噪声分布参数。 |
-| [^3] | [Bayesian Matrix Decomposition and Applications.](http://arxiv.org/abs/2302.11337) | 本书旨在介绍贝叶斯矩阵分解的概念和工具，并总结了贝叶斯矩阵分解方法在不同领域的应用。 |
+| [^1] | [KIX: A Metacognitive Generalization Framework](https://arxiv.org/abs/2402.05346) | 人工智能代理缺乏通用行为，需要利用结构化知识表示。该论文提出了一种元认知泛化框架KIX，通过与对象的交互学习可迁移的交互概念和泛化能力，促进了知识与强化学习的融合，为实现人工智能系统的自主和通用行为提供了潜力。 |
+| [^2] | [Rates of Convergence in the Central Limit Theorem for Markov Chains, with an Application to TD Learning](https://arxiv.org/abs/2401.15719) | 本研究证明了一个非渐近的中心极限定理，并通过应用于TD学习，展示了其实际应用的可行性。 |
+| [^3] | [YaRN: Efficient Context Window Extension of Large Language Models.](http://arxiv.org/abs/2309.00071) | YaRN是一种高效的上下文窗口扩展方法，可以在大型语言模型中有效利用和推断比原始预训练允许的上下文长度更长的上下文，同时超越了之前的最新研究成果。 |
+| [^4] | [Estimating the Value of Evidence-Based Decision Making.](http://arxiv.org/abs/2306.13681) | 本文提出了一个实证框架，用于估算证据决策的价值和统计精度投资回报。 |
+| [^5] | [UNREAL:Unlabeled Nodes Retrieval and Labeling for Heavily-imbalanced Node Classification.](http://arxiv.org/abs/2303.10371) | 本文提出了一种用于重度不平衡节点分类的迭代过采样方法UNREAL，通过添加未标记节点而不是合成节点，解决了特征和邻域生成的难题，并利用节点嵌入空间中的无监督学习进行几何排名来有效地校准伪标签分配。 |
 
 # 详细
 
-[^1]: 使用原型特征进行梯度对齐的完全测试时间自适应
+[^1]: KIX: 一种元认知泛化框架
 
-    Gradient Alignment with Prototype Feature for Fully Test-time Adaptation
+    KIX: A Metacognitive Generalization Framework
 
-    [https://arxiv.org/abs/2402.09004](https://arxiv.org/abs/2402.09004)
+    [https://arxiv.org/abs/2402.05346](https://arxiv.org/abs/2402.05346)
 
-    在测试时间自适应中，我们提出了一种名为GAP的正则化方法，通过梯度对齐和原型特征，减轻了来自于错误分类伪标签熵最小化损失的不适当引导，显著改善了TTA方法。
-
-    
-
-    在测试时间自适应（TTA）的背景下，我们提出了一种正则化方法，称为梯度对齐与原型特征（GAP），它可以减轻由于错误分类伪标签的熵最小化损失而导致的不适当引导。我们开发了一个梯度对齐损失，以精确地管理适应过程，确保对某些数据进行的更改不会对模型在其他数据上的性能产生负面影响。我们引入了一个类的原型特征作为负面影响的代理测量。为了使在TTA约束下GAP正则化方法可行，即模型只能访问没有标签的测试数据，我们通过两种方式修改了其公式：用分类器的权重向量近似原型特征，不使用反向传播计算梯度。我们证明了GAP在各种数据集上显著改善了TTA方法，证明了其多功能性和有效性。
-
-    arXiv:2402.09004v1 Announce Type: cross Abstract: In context of Test-time Adaptation(TTA), we propose a regularizer, dubbed Gradient Alignment with Prototype feature (GAP), which alleviates the inappropriate guidance from entropy minimization loss from misclassified pseudo label. We developed a gradient alignment loss to precisely manage the adaptation process, ensuring that changes made for some data don't negatively impact the model's performance on other data. We introduce a prototype feature of a class as a proxy measure of the negative impact. To make GAP regularizer feasible under the TTA constraints, where model can only access test data without labels, we tailored its formula in two ways: approximating prototype features with weight vectors of the classifier, calculating gradient without back-propagation. We demonstrate GAP significantly improves TTA methods across various datasets, which proves its versatility and effectiveness.
-    
-[^2]: 保留还是丢弃？一种评估有噪声ICA解决方案的非参数分数
-
-    Keep or toss? A nonparametric score to evaluate solutions for noisy ICA
-
-    [https://arxiv.org/abs/2401.08468](https://arxiv.org/abs/2401.08468)
-
-    本文提出一种非参数分数来自适应选择适用于任意高斯噪声的ICA算法，并通过特征函数评估估计的混合矩阵质量，无需了解噪声分布参数。
+    人工智能代理缺乏通用行为，需要利用结构化知识表示。该论文提出了一种元认知泛化框架KIX，通过与对象的交互学习可迁移的交互概念和泛化能力，促进了知识与强化学习的融合，为实现人工智能系统的自主和通用行为提供了潜力。
 
     
 
-    独立分量分析（ICA）于20世纪80年代引入，作为盲源分离（BSS）的模型，指的是在对混合信号进行恢复时，对源信号或混合过程了解有限的情况下的过程。尽管有许多精密算法进行估计，但不同方法存在不同的缺点。在本文中，我们开发了一种非参数分数，用于自适应地选择ICA算法和任意高斯噪声。该分数的创新之处在于，它只假设数据具有有限的二阶矩，并使用特征函数来评估估计的混合矩阵的质量，而无需了解噪声分布的参数。此外，我们提出了一些新的对比函数和算法，它们具有与现有算法（如FASTICA和JADE）相同的快速计算性能，但在前者可能失败的领域中工作。尽管这些方法也可能存在缺点，
+    人类和其他动物能够灵活解决各种任务，并且能够通过重复使用和应用长期积累的高级知识来适应新颖情境，这表现了一种泛化智能行为。但是人工智能代理更多地是专家，缺乏这种通用行为。人工智能代理需要理解和利用关键的结构化知识表示。我们提出了一种元认知泛化框架，称为Knowledge-Interaction-eXecution (KIX)，并且认为通过与对象的交互来利用类型空间可以促进学习可迁移的交互概念和泛化能力。这是将知识融入到强化学习中的一种自然方式，并有望成为人工智能系统中实现自主和通用行为的推广者。
 
-    Independent Component Analysis (ICA) was introduced in the 1980's as a model for Blind Source Separation (BSS), which refers to the process of recovering the sources underlying a mixture of signals, with little knowledge about the source signals or the mixing process. While there are many sophisticated algorithms for estimation, different methods have different shortcomings. In this paper, we develop a nonparametric score to adaptively pick the right algorithm for ICA with arbitrary Gaussian noise. The novelty of this score stems from the fact that it just assumes a finite second moment of the data and uses the characteristic function to evaluate the quality of the estimated mixing matrix without any knowledge of the parameters of the noise distribution. In addition, we propose some new contrast functions and algorithms that enjoy the same fast computability as existing algorithms like FASTICA and JADE but work in domains where the former may fail. While these also may have weaknesses,
+    Humans and other animals aptly exhibit general intelligence behaviors in solving a variety of tasks with flexibility and ability to adapt to novel situations by reusing and applying high level knowledge acquired over time. But artificial agents are more of a specialist, lacking such generalist behaviors. Artificial agents will require understanding and exploiting critical structured knowledge representations. We present a metacognitive generalization framework, Knowledge-Interaction-eXecution (KIX), and argue that interactions with objects leveraging type space facilitate the learning of transferable interaction concepts and generalization. It is a natural way of integrating knowledge into reinforcement learning and promising to act as an enabler for autonomous and generalist behaviors in artificial intelligence systems.
     
-[^3]: 贝叶斯矩阵分解及应用
+[^2]: 关于马尔可夫链中心极限定理的收敛速度，及其在TD学习中的应用
 
-    Bayesian Matrix Decomposition and Applications. (arXiv:2302.11337v2 [math.NA] UPDATED)
+    Rates of Convergence in the Central Limit Theorem for Markov Chains, with an Application to TD Learning
 
-    [http://arxiv.org/abs/2302.11337](http://arxiv.org/abs/2302.11337)
+    [https://arxiv.org/abs/2401.15719](https://arxiv.org/abs/2401.15719)
 
-    本书旨在介绍贝叶斯矩阵分解的概念和工具，并总结了贝叶斯矩阵分解方法在不同领域的应用。
+    本研究证明了一个非渐近的中心极限定理，并通过应用于TD学习，展示了其实际应用的可行性。
 
     
 
-    本书的唯一目的是为了给出贝叶斯矩阵分解概念和数学工具的自包含介绍，以便在后续章节中无缝引入矩阵分解技术及其应用。然而，我们清楚地意识到我们无法覆盖关于贝叶斯矩阵分解的所有有用和有趣的结果，并且由于讨论的范围有限，例如分析变分推理以进行优化的分离分析。我们将读者引导到贝叶斯分析领域的文献中，以便更详细地介绍相关领域。本书主要总结了重要的贝叶斯矩阵分解方法（例如实值分解、非负矩阵分解、贝叶斯插值分解）的目的和意义，以及这些方法的起源和复杂性对其应用提供的启示。数学先决条件是第一门课程。
+    我们使用Stein方法证明了一个非渐近的、矢量值鞅差的中心极限定理，并利用泊松方程将结果推广到马尔可夫链的函数。然后我们展示了这些结果可以应用于建立基于平均的非渐近的TD学习的中心极限定理。
 
-    The sole aim of this book is to give a self-contained introduction to concepts and mathematical tools in Bayesian matrix decomposition in order to seamlessly introduce matrix decomposition techniques and their applications in subsequent sections. However, we clearly realize our inability to cover all the useful and interesting results concerning Bayesian matrix decomposition and given the paucity of scope to present this discussion, e.g., the separated analysis of variational inference for conducting the optimization. We refer the reader to literature in the field of Bayesian analysis for a more detailed introduction to the related fields.  This book is primarily a summary of purpose, significance of important Bayesian matrix decomposition methods, e.g., real-valued decomposition, nonnegative matrix factorization, Bayesian interpolative decomposition, and the origin and complexity of the methods which shed light on their applications. The mathematical prerequisite is a first course in 
+    We prove a non-asymptotic central limit theorem for vector-valued martingale differences using Stein's method, and use Poisson's equation to extend the result to functions of Markov Chains. We then show that these results can be applied to establish a non-asymptotic central limit theorem for Temporal Difference (TD) learning with averaging.
+    
+[^3]: YaRN: 大型语言模型的高效上下文窗口扩展方法
+
+    YaRN: Efficient Context Window Extension of Large Language Models. (arXiv:2309.00071v1 [cs.CL])
+
+    [http://arxiv.org/abs/2309.00071](http://arxiv.org/abs/2309.00071)
+
+    YaRN是一种高效的上下文窗口扩展方法，可以在大型语言模型中有效利用和推断比原始预训练允许的上下文长度更长的上下文，同时超越了之前的最新研究成果。
+
+    
+
+    旋转位置嵌入（RoPE）已被证明可以有效地编码transformer-based语言模型中的位置信息。然而，这些模型在超过它们训练的序列长度时无法泛化。我们提出了YaRN（Yet another RoPE extensioN method），一种计算高效的方法来扩展这些模型的上下文窗口，需要的tokens数量和训练步骤少于之前的方法的10倍和2.5倍。使用YaRN，我们展示了LLaMA模型可以有效地利用和推断比原始预训练允许的上下文长度更长的上下文，并且在上下文窗口扩展方面超过了之前的最新研究成果。此外，我们还展示了YaRN具有超越微调数据集有限上下文的能力。我们在https://github.com/jquesnelle/yarn上发布了使用64k和128k上下文窗口进行Fine-tuning的Llama 2 7B/13B的检查点。
+
+    Rotary Position Embeddings (RoPE) have been shown to effectively encode positional information in transformer-based language models. However, these models fail to generalize past the sequence length they were trained on. We present YaRN (Yet another RoPE extensioN method), a compute-efficient method to extend the context window of such models, requiring 10x less tokens and 2.5x less training steps than previous methods. Using YaRN, we show that LLaMA models can effectively utilize and extrapolate to context lengths much longer than their original pre-training would allow, while also surpassing previous the state-of-the-art at context window extension. In addition, we demonstrate that YaRN exhibits the capability to extrapolate beyond the limited context of a fine-tuning dataset. We publish the checkpoints of Llama 2 7B/13B fine-tuned using YaRN with 64k and 128k context windows at https://github.com/jquesnelle/yarn
+    
+[^4]: 估算基于证据决策的价值
+
+    Estimating the Value of Evidence-Based Decision Making. (arXiv:2306.13681v1 [stat.ME])
+
+    [http://arxiv.org/abs/2306.13681](http://arxiv.org/abs/2306.13681)
+
+    本文提出了一个实证框架，用于估算证据决策的价值和统计精度投资回报。
+
+    
+
+    商业/政策决策通常基于随机实验和观察性研究的证据。本文提出了一个实证框架来估算基于证据的决策（EBDM）的价值和统计精度投资回报。
+
+    Business/policy decisions are often based on evidence from randomized experiments and observational studies. In this article we propose an empirical framework to estimate the value of evidence-based decision making (EBDM) and the return on the investment in statistical precision.
+    
+[^5]: UNREAL: 用于重度不平衡节点分类的未标记节点检索和标记方法
+
+    UNREAL:Unlabeled Nodes Retrieval and Labeling for Heavily-imbalanced Node Classification. (arXiv:2303.10371v1 [cs.LG])
+
+    [http://arxiv.org/abs/2303.10371](http://arxiv.org/abs/2303.10371)
+
+    本文提出了一种用于重度不平衡节点分类的迭代过采样方法UNREAL，通过添加未标记节点而不是合成节点，解决了特征和邻域生成的难题，并利用节点嵌入空间中的无监督学习进行几何排名来有效地校准伪标签分配。
+
+    
+
+    在现实世界的节点分类任务中，极度倾斜的标签分布很常见。如果不合适地处理，这对少数类别的GNNs性能会有极大的影响。由于其实用性，最近一系列的研究都致力于解决这个难题。现有的过采样方法通过产生“假”的少数节点和合成其特征和局部拓扑来平滑标签分布，这在很大程度上忽略了图上未标记节点的丰富信息。在本文中，我们提出了UNREAL，一种迭代过采样方法。第一个关键区别在于，我们只添加未标记节点而不是合成节点，这消除了特征和邻域生成的挑战。为了选择要添加的未标记节点，我们提出了几何排名来对未标记节点进行排名。几何排名利用节点嵌入空间中的无监督学习来有效地校准伪标签分配。最后，我们确定了问题。
+
+    Extremely skewed label distributions are common in real-world node classification tasks. If not dealt with appropriately, it significantly hurts the performance of GNNs in minority classes. Due to its practical importance, there have been a series of recent research devoted to this challenge. Existing over-sampling techniques smooth the label distribution by generating ``fake'' minority nodes and synthesizing their features and local topology, which largely ignore the rich information of unlabeled nodes on graphs. In this paper, we propose UNREAL, an iterative over-sampling method. The first key difference is that we only add unlabeled nodes instead of synthetic nodes, which eliminates the challenge of feature and neighborhood generation. To select which unlabeled nodes to add, we propose geometric ranking to rank unlabeled nodes. Geometric ranking exploits unsupervised learning in the node embedding space to effectively calibrates pseudo-label assignment. Finally, we identify the issu
     
 
