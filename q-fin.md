@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Exponential utility maximization in small/large financial markets](https://arxiv.org/abs/2208.06549) | 本文给出了在小型和大型金融市场中，当回报向量遵循正态均值方差混合模型时，最大化指数效用的最优投资组合的闭合形式，并证明在指数效用下，小型市场的最优效用将收敛到大型市场的最优效用。 |
+| [^1] | [Rough volatility, path-dependent PDEs and weak rates of convergence.](http://arxiv.org/abs/2304.03042) | 该研究探究了粗糙波动率模型中的路径依赖PDE问题，证明了条件期望是其唯一的经典解。并且，该研究还研究了具有Hurst参数的离散随机积分的弱收敛率，以逼近粗糙波动率模型中的对数股票价格。 |
 
 # 详细
 
-[^1]: 小/大型金融市场中的指数效用最大化研究
+[^1]: 粗糙波动率，路径依赖PDE和弱收敛率的研究
 
-    Exponential utility maximization in small/large financial markets
+    Rough volatility, path-dependent PDEs and weak rates of convergence. (arXiv:2304.03042v1 [math.PR])
 
-    [https://arxiv.org/abs/2208.06549](https://arxiv.org/abs/2208.06549)
+    [http://arxiv.org/abs/2304.03042](http://arxiv.org/abs/2304.03042)
 
-    本文给出了在小型和大型金融市场中，当回报向量遵循正态均值方差混合模型时，最大化指数效用的最优投资组合的闭合形式，并证明在指数效用下，小型市场的最优效用将收敛到大型市场的最优效用。
+    该研究探究了粗糙波动率模型中的路径依赖PDE问题，证明了条件期望是其唯一的经典解。并且，该研究还研究了具有Hurst参数的离散随机积分的弱收敛率，以逼近粗糙波动率模型中的对数股票价格。
 
     
 
-    当回报向量遵循比正态分布更一般的分布时，在闭合形式中获得最大效用的最优投资组合是一个具有挑战性的问题。在本文中，我们给出了在仅基于有限资产的市场中，当回报向量遵循正态均值方差混合模型时，最大化期望指数效用的最优投资组合的闭合形式表达式。然后，我们还考虑了基于正态均值方差混合模型的大型金融市场，并证明在指数效用下，基于小型市场的最优效用会收敛到大型金融市场中的最优效用。该结果特别表明，为了达到最优效用水平，投资者需要通过将无限多的资产包含在其投资组合中进行多样化，并且基于仅有有限资产集合的投资组合，他们永远无法达到最优效用水平。本文还考虑了更加复杂的投资组合优化问题。
+    在随机Volterra方程的设置中，特别是粗糙波动率模型中，我们展示了条件期望是路径依赖PDE的唯一经典解。后者由[Viens，F。，＆Zhang，J。（2019）。对分数布朗运动及其相关路径依赖PDE的鞅方法的开发而来。Ann. Appl. Probab.],。然后，我们利用这些工具研究具有Hurst参数$H \in (0,1/2)$的Riemann-Liouville分数布朗运动的平滑函数的离散随机积分的弱收敛率。这些积分逼近粗糙波动率模型中的对数股票价格。如果测试函数是二次的，则我们获得1阶弱误差率，如果测试函数是平滑的，则获得$H + 1/2$阶的误差率。
 
-    Obtaining utility maximizing optimal portfolios in closed form is a challenging issue when the return vector follows a more general distribution than the normal one. In this note, we give closed form expressions, in markets based on finitely many assets, for optimal portfolios that maximize the expected exponential utility when the return vector follows normal mean-variance mixture models. We then consider large financial markets based on normal mean-variance mixture models also and show that, under exponential utility, the optimal utilities based on small markets converge to the optimal utility in the large financial market. This result shows, in particular, that to reach optimal utility level investors need to diversify their portfolios to include infinitely many assets into their portfolio and with portfolios based on any set of only finitely many assets, they never be able to reach optimum level of utility. In this paper, we also consider portfolio optimization problems with more g
+    In the setting of stochastic Volterra equations, and in particular rough volatility models, we show that conditional expectations are the unique classical solutions to path-dependent PDEs. The latter arise from the functional It\^o formula developed by [Viens, F., & Zhang, J. (2019). A martingale approach for fractional Brownian motions and related path dependent PDEs. Ann. Appl. Probab.]. We then leverage these tools to study weak rates of convergence for discretised stochastic integrals of smooth functions of a Riemann-Liouville fractional Brownian motion with Hurst parameter $H \in (0,1/2)$. These integrals approximate log-stock prices in rough volatility models. We obtain weak error rates of order 1 if the test function is quadratic and of order $H+1/2$ for smooth test functions.
     
 
