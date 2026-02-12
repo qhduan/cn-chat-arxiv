@@ -2,9 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-
+| [^1] | [Structured Sentiment Analysis as Transition-based Dependency Parsing.](http://arxiv.org/abs/2305.05311) | 本文提出了第一种将结构化情感分析作为依存句法分析处理的基于转移的方法，其基于Pointer Network体系结构，实现了在准确性和效率方面均优于以前提出的图形模型的结果，是迄今为止最为准确的SSA方法。 |
 
 # 详细
 
+[^1]: 结构化情感分析作为基于转移的依存句法分析
 
+    Structured Sentiment Analysis as Transition-based Dependency Parsing. (arXiv:2305.05311v1 [cs.CL])
+
+    [http://arxiv.org/abs/2305.05311](http://arxiv.org/abs/2305.05311)
+
+    本文提出了第一种将结构化情感分析作为依存句法分析处理的基于转移的方法，其基于Pointer Network体系结构，实现了在准确性和效率方面均优于以前提出的图形模型的结果，是迄今为止最为准确的SSA方法。
+
+    
+
+    结构化情感分析（SSA）旨在从自然语言文本中自动提取人们的观点，并以图形结构充分表示该信息。最近提出了一种最准确的执行SSA的方法，即将其视为依存句法分析任务。尽管我们可以在文献中发现基于转移的算法在依存句法分析的准确性和效率方面优于其他方法，但所有尝试采用这种方法解决SSA的方法都基于基于图形的模型。在本文中，我们提出了第一个将SSA作为依存句法分析处理的基于转移的方法。具体而言，我们设计了一个转移系统，以从左到右的方式处理输入文本，逐步生成包含所有识别出的观点的图形结构。为了有效地实现我们的最终基于转移的模型，我们借助了Pointer Network体系结构作为支撑。通过广泛的评估，我们证明了我们的模型超越了SSA的最新技术水平，在包括SemEval 2014 Task 4在内的四个基准数据集上取得了迄今为止报告的最高准确性。
+
+    Structured sentiment analysis (SSA) aims to automatically extract people's opinions from a text in natural language and adequately represent that information in a graph structure. One of the most accurate methods for performing SSA was recently proposed and consists of approaching it as a dependency parsing task. Although we can find in the literature how transition-based algorithms excel in dependency parsing in terms of accuracy and efficiency, all proposed attempts to tackle SSA following that approach were based on graph-based models. In this article, we present the first transition-based method to address SSA as dependency parsing. Specifically, we design a transition system that processes the input text in a left-to-right pass, incrementally generating the graph structure containing all identified opinions. To effectively implement our final transition-based model, we resort to a Pointer Network architecture as a backbone. From an extensive evaluation, we demonstrate that our mod
+    
 
