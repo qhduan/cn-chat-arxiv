@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Structured Sentiment Analysis as Transition-based Dependency Parsing.](http://arxiv.org/abs/2305.05311) | 本文提出了第一种将结构化情感分析作为依存句法分析处理的基于转移的方法，其基于Pointer Network体系结构，实现了在准确性和效率方面均优于以前提出的图形模型的结果，是迄今为止最为准确的SSA方法。 |
+| [^1] | [Efficient compilation of expressive problem space specifications to neural network solvers](https://rss.arxiv.org/abs/2402.01353) | 本文提出了一种算法，可以将高级的问题空间规范编译为适合神经网络求解器的满足性查询，以解决神经网络验证中存在的嵌入间隙问题。 |
 
 # 详细
 
-[^1]: 结构化情感分析作为基于转移的依存句法分析
+[^1]: 将表达丰富的问题空间规范高效编译为神经网络求解器
 
-    Structured Sentiment Analysis as Transition-based Dependency Parsing. (arXiv:2305.05311v1 [cs.CL])
+    Efficient compilation of expressive problem space specifications to neural network solvers
 
-    [http://arxiv.org/abs/2305.05311](http://arxiv.org/abs/2305.05311)
+    [https://rss.arxiv.org/abs/2402.01353](https://rss.arxiv.org/abs/2402.01353)
 
-    本文提出了第一种将结构化情感分析作为依存句法分析处理的基于转移的方法，其基于Pointer Network体系结构，实现了在准确性和效率方面均优于以前提出的图形模型的结果，是迄今为止最为准确的SSA方法。
+    本文提出了一种算法，可以将高级的问题空间规范编译为适合神经网络求解器的满足性查询，以解决神经网络验证中存在的嵌入间隙问题。
 
     
 
-    结构化情感分析（SSA）旨在从自然语言文本中自动提取人们的观点，并以图形结构充分表示该信息。最近提出了一种最准确的执行SSA的方法，即将其视为依存句法分析任务。尽管我们可以在文献中发现基于转移的算法在依存句法分析的准确性和效率方面优于其他方法，但所有尝试采用这种方法解决SSA的方法都基于基于图形的模型。在本文中，我们提出了第一个将SSA作为依存句法分析处理的基于转移的方法。具体而言，我们设计了一个转移系统，以从左到右的方式处理输入文本，逐步生成包含所有识别出的观点的图形结构。为了有效地实现我们的最终基于转移的模型，我们借助了Pointer Network体系结构作为支撑。通过广泛的评估，我们证明了我们的模型超越了SSA的最新技术水平，在包括SemEval 2014 Task 4在内的四个基准数据集上取得了迄今为止报告的最高准确性。
+    最近的研究揭示了神经网络验证中存在的嵌入间隙。在间隙的一侧是一个关于网络行为的高级规范，由领域专家根据可解释的问题空间编写。在另一侧是一组逻辑上等价的可满足性查询，以适合神经网络求解器的形式表达在不可理解的嵌入空间中。在本文中，我们描述了一种将前者编译为后者的算法。我们探索和克服了针对神经网络求解器而不是标准SMT求解器所出现的问题。
 
-    Structured sentiment analysis (SSA) aims to automatically extract people's opinions from a text in natural language and adequately represent that information in a graph structure. One of the most accurate methods for performing SSA was recently proposed and consists of approaching it as a dependency parsing task. Although we can find in the literature how transition-based algorithms excel in dependency parsing in terms of accuracy and efficiency, all proposed attempts to tackle SSA following that approach were based on graph-based models. In this article, we present the first transition-based method to address SSA as dependency parsing. Specifically, we design a transition system that processes the input text in a left-to-right pass, incrementally generating the graph structure containing all identified opinions. To effectively implement our final transition-based model, we resort to a Pointer Network architecture as a backbone. From an extensive evaluation, we demonstrate that our mod
+    Recent work has described the presence of the embedding gap in neural network verification. On one side of the gap is a high-level specification about the network's behaviour, written by a domain expert in terms of the interpretable problem space. On the other side are a logically-equivalent set of satisfiability queries, expressed in the uninterpretable embedding space in a form suitable for neural network solvers. In this paper we describe an algorithm for compiling the former to the latter. We explore and overcome complications that arise from targeting neural network solvers as opposed to standard SMT solvers.
     
 
