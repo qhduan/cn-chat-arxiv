@@ -2,9 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-
+| [^1] | [Firm-quasi-stability and re-equilibration in matching markets with contracts.](http://arxiv.org/abs/2305.17948) | 本研究探讨了带合约的匹配市场中的稳定性问题，发现稳定性破坏后，公司准稳定的分配方式可以自然出现，而我们提出的算法可以使市场从准稳定性中重新获得稳定性。 |
 
 # 详细
 
+[^1]: 带合约的匹配市场中的公司准稳定性和重新平衡
 
+    Firm-quasi-stability and re-equilibration in matching markets with contracts. (arXiv:2305.17948v1 [econ.TH])
+
+    [http://arxiv.org/abs/2305.17948](http://arxiv.org/abs/2305.17948)
+
+    本研究探讨了带合约的匹配市场中的稳定性问题，发现稳定性破坏后，公司准稳定的分配方式可以自然出现，而我们提出的算法可以使市场从准稳定性中重新获得稳定性。
+
+    
+
+    本文研究了可替代偏好条件下，带有合约的多对多匹配中的公司准稳定性。我们建立了公司准稳定性和稳定性之间的各种关系，并对稳定配置的存在性和格子性质提供了新的见解。此外，我们证明了当市场的稳定性由于新公司的加入或一些工人的退休而受到破坏时，公司准稳定的分配自然出现，并介绍了一种广义的延迟接受算法，以表明市场可以通过分散的报价和接受过程从公司准稳定的分配中恢复稳定性。
+
+    We study firm-quasi-stability in the framework of many-to-many matching with contracts under substitutable preferences. We establish various links between firm-quasi-stability and stability and give new insights into the existence and lattice property of stable allocations. Moreover, we show that firm-quasi-stable allocations appears naturally when the stability of the market is disrupted by the entry of new firms or the retirement of some workers, and introduce a generalized deferred acceptance algorithm to show that the market can regain stability from firm-quasi-stable allocations by a decentralized process of offers and acceptances.
+    
 
