@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Energy Concerns with HPC Systems and Applications.](http://arxiv.org/abs/2309.08615) | 该论文讨论了HPC系统和应用中的能源问题，特别关注了嵌入式计算和超级计算两个上下文中的能源限制和问题。尤其在面对人工智能的应用时，高效的计算支持显得尤为重要。 |
+| [^1] | [Evaluating Language Model Agency through Negotiations.](http://arxiv.org/abs/2401.04536) | 本研究通过谈判游戏的视角，提出共同评估语言模型（LM）的性能和对齐，以更好地反映真实世界的部署条件，并避免数据泄漏。通过评估多轮次和跨模型交互，我们发现了LM的自我对弈和交叉对弈性能。 |
 
 # 详细
 
-[^1]: HPC系统和应用中的能源问题
+[^1]: 通过谈判评估语言模型的代理能力
 
-    Energy Concerns with HPC Systems and Applications. (arXiv:2309.08615v1 [cs.CY])
+    Evaluating Language Model Agency through Negotiations. (arXiv:2401.04536v1 [cs.CL])
 
-    [http://arxiv.org/abs/2309.08615](http://arxiv.org/abs/2309.08615)
+    [http://arxiv.org/abs/2401.04536](http://arxiv.org/abs/2401.04536)
 
-    该论文讨论了HPC系统和应用中的能源问题，特别关注了嵌入式计算和超级计算两个上下文中的能源限制和问题。尤其在面对人工智能的应用时，高效的计算支持显得尤为重要。
+    本研究通过谈判游戏的视角，提出共同评估语言模型（LM）的性能和对齐，以更好地反映真实世界的部署条件，并避免数据泄漏。通过评估多轮次和跨模型交互，我们发现了LM的自我对弈和交叉对弈性能。
 
     
 
-    出于与气候变化相关的各种原因，能源已经成为与所有相关活动和技术设计密切相关的一个关键问题。对于计算机活动的特殊情况而言，随着所谓的智能设备的出现和普及，问题变得更加严重。从应用的角度来看，我们指出了人工智能这个特殊主题，它明显需要高效的计算支持，以便在成为无处不在的助手的目标上取得成功。能源是两个上下文中最重要的问题的一个：嵌入式计算和超级计算。对于前者，功耗至关重要，因为设备可用能源的量是有限的。对于后者，散热是一个严重的故障源，与能源相关的财务成本很可能是维护预算的重要组成部分。在单个计算机上，这个问题通常也会变得紧迫。
+    公司、组织和政府越来越多地利用语言模型（LM）展示类似代理行为的出色能力。随着LM被采用来执行越来越具有自主性的任务，迫切需要可靠且可扩展的评估基准。当前主要是静态的LM基准无法很好地评估此类动态应用。因此，我们提议通过谈判游戏的视角来共同评估LM的性能和对齐。我们认为这个共同任务更好地反映了真实世界的部署条件，并提供了关于LM决策过程的见解。至关重要的是，谈判游戏使我们能够研究多轮次和跨模型交互，调整复杂性，并避免评估中的意外数据泄漏。我们报告了来自几个主要供应商的六个公开可访问的LM在各种谈判游戏上的结果，评估了自我对弈和交叉对弈性能。值得注意的发现包括：（i）开源模式
 
-    For various reasons including those related to climate changes, {\em energy} has become a critical concern in all relevant activities and technical designs. For the specific case of computer activities, the problem is exacerbated with the emergence and pervasiveness of the so called {\em intelligent devices}. From the application side, we point out the special topic of {\em Artificial Intelligence}, who clearly needs an efficient computing support in order to succeed in its purpose of being a {\em ubiquitous assistant}. There are mainly two contexts where {\em energy} is one of the top priority concerns: {\em embedded computing} and {\em supercomputing}. For the former, power consumption is critical because the amount of energy that is available for the devices is limited. For the latter, the heat dissipated is a serious source of failure and the financial cost related to energy is likely to be a significant part of the maintenance budget. On a single computer, the problem is commonly 
+    Companies, organizations, and governments increasingly exploit Language Models' (LM) remarkable capability to display agent-like behavior. As LMs are adopted to perform tasks with growing autonomy, there exists an urgent need for reliable and scalable evaluation benchmarks. Current, predominantly static LM benchmarks are ill-suited to evaluate such dynamic applications. Thus, we propose jointly evaluating LM performance and alignment through the lenses of negotiation games. We argue that this common task better reflects real-world deployment conditions while offering insights into LMs' decision-making processes. Crucially, negotiation games allow us to study multi-turn, and cross-model interactions, modulate complexity, and side-step accidental data leakage in evaluation. We report results for six publicly accessible LMs from several major providers on a variety of negotiation games, evaluating both self-play and cross-play performance. Noteworthy findings include: (i) open-source mode
     
 
