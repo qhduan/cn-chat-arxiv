@@ -2,9 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-
+| [^1] | [A Generalized Approach to Online Convex Optimization](https://arxiv.org/abs/2402.08621) | 这是一篇关于在线凸优化的论文，作者分析了不同环境下的问题并提出了一种通用的解决方法，该方法可以转化为相应的线性优化算法，并可以在面对不同类型对手时获得可比较的遗憾界限。 |
 
 # 详细
 
+[^1]: 一种广义的在线凸优化方法
 
+    A Generalized Approach to Online Convex Optimization
+
+    [https://arxiv.org/abs/2402.08621](https://arxiv.org/abs/2402.08621)
+
+    这是一篇关于在线凸优化的论文，作者分析了不同环境下的问题并提出了一种通用的解决方法，该方法可以转化为相应的线性优化算法，并可以在面对不同类型对手时获得可比较的遗憾界限。
+
+    
+
+    在本文中，我们分析了不同环境下的在线凸优化问题。我们证明了任何用于具有完全自适应对手的在线线性优化的算法都是用于在线凸优化的算法。我们还证明了任何需要全信息反馈的算法都可以转化为具有可比较的遗憾界限的半匹配反馈算法。此外，我们还证明了使用确定性半匹配反馈的全自适应对手设计的算法在面对无知对手时可以使用只有随机半匹配反馈的算法获得相似的界限。我们利用这一结果描述了将一阶算法转化为零阶算法的通用元算法，这些算法具有可比较的遗憾界限。我们的框架使我们能够分析各种设置中的在线优化问题，包括全信息反馈、半匹配反馈、随机遗憾、对抗遗憾和各种形式的非平稳遗憾。利用我们的分析结果，
+
+    In this paper, we analyze the problem of online convex optimization in different settings. We show that any algorithm for online linear optimization with fully adaptive adversaries is an algorithm for online convex optimization. We also show that any such algorithm that requires full-information feedback may be transformed to an algorithm with semi-bandit feedback with comparable regret bound. We further show that algorithms that are designed for fully adaptive adversaries using deterministic semi-bandit feedback can obtain similar bounds using only stochastic semi-bandit feedback when facing oblivious adversaries. We use this to describe general meta-algorithms to convert first order algorithms to zeroth order algorithms with comparable regret bounds. Our framework allows us to analyze online optimization in various settings, such full-information feedback, bandit feedback, stochastic regret, adversarial regret and various forms of non-stationary regret. Using our analysis, we provide
+    
 
