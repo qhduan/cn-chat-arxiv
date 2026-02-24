@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Closed form solution to zero coupon bond using a linear stochastic delay differential equation](https://arxiv.org/abs/2402.16428) | 该论文提出了一个使用线性随机延迟微分方程的短期利率模型，并且给出了零息债券价格的封闭形式解决方案，证明了短期利率分布为正态分布且存在稳态和极限分布。 |
+| [^1] | [The Cost of Coming Out](https://arxiv.org/abs/2403.03649) | 通过在线视频游戏中的创新数据和自然实验，研究揭露性取向对玩家偏好的影响。 |
 
 # 详细
 
-[^1]: 使用线性随机延迟微分方程对零息债券提出了封闭形式解决方案
+[^1]: 揭露的成本
 
-    Closed form solution to zero coupon bond using a linear stochastic delay differential equation
+    The Cost of Coming Out
 
-    [https://arxiv.org/abs/2402.16428](https://arxiv.org/abs/2402.16428)
+    [https://arxiv.org/abs/2403.03649](https://arxiv.org/abs/2403.03649)
 
-    该论文提出了一个使用线性随机延迟微分方程的短期利率模型，并且给出了零息债券价格的封闭形式解决方案，证明了短期利率分布为正态分布且存在稳态和极限分布。
+    通过在线视频游戏中的创新数据和自然实验，研究揭露性取向对玩家偏好的影响。
 
     
 
-    我们提出了一个满足随机延迟微分方程的短期利率模型。该模型可以被视为Merton模型(Merton 1970, 1973)或Vasi\v{c}ek模型(Vasi\v{c}ek 1977)的延迟版本。使用与Flore和Nappo(2019)相同的技术，我们展示了债券价格是短期利率的仿射函数，其系数满足一组延迟微分方程。我们给出了这组延迟微分方程的解析解，得到了零息债券价格的封闭公式。在该模型下，我们可以展示短期利率的分布是一个正态分布，其均值取决于短期利率的过去值。基于K\"uchler和Mensch(1992)的结果，我们证明了平稳分布和极限分布的存在。
+    社会污名和歧视的恐惧导致全球许多个体在公开披露其性取向时犹豫不决。鉴于隐瞒身份的巨大代价，理解反对LGB情绪的程度和对出柜的反应至关重要。然而，披露自己的性取向是个人选择，使得数据获取复杂化并引入内生性问题。本文通过使用一种创新的数据源（一个热门在线视频游戏）和一个自然实验来解决这些挑战。我们利用可玩角色身份的外生变化来识别出披露对玩家对该角色的已显露偏好的影响。借助详细的日常数据，我们监测玩家在全球各地对角色的偏好，并采用合成控制方法来分离披露对玩家偏好的影响。我们的研究发现了一个显著
 
-    arXiv:2402.16428v1 Announce Type: new  Abstract: We present a short rate model that satisfies a stochastic delay differential equation. The model can be considered a delayed version of the Merton model (Merton 1970, 1973) or the Vasi\v{c}ek model (Vasi\v{c}ek 1977). Using the same technique as the one used by Flore and Nappo (2019), we show that the bond price is an affine function of the short rate, whose coefficients satisfy a system of delay differential equations. We give an analytical solution to this system of delay differential equations, obtaining a closed formula for the zero coupon bond price. Under this model, we can show that the distribution of the short rate is a normal distribution whose mean depends on past values of the short rate. Based on the results of K\"uchler and Mensch (1992), we prove the existence of stationary and limiting distributions.
+    arXiv:2403.03649v1 Announce Type: new  Abstract: The fear of social stigma and discrimination leads many individuals worldwide to hesitate in openly disclosing their sexual orientation. Due to the large costs of concealing identity, it is crucial to understand the extent of anti-LGB sentiments and reactions to coming out. However, disclosing one's sexual orientation is a personal choice, complicating data access and introducing endogeneity issues. This paper tackles these challenges by using an innovative data source from a popular online video game together with a natural experiment. We exploit exogenous variation in the identity of a playable character to identify the effects of disclosure on players' revealed preferences for that character. Leveraging detailed daily data, we monitor players' preferences for the character across diverse regions globally and employ synthetic control methods to isolate the effect of the disclosure on players' preferences. Our findings reveal a substant
     
 
