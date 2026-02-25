@@ -2,22 +2,9 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Calibrating Large Language Models with Sample Consistency](https://arxiv.org/abs/2402.13904) | 通过多个随机抽样模型生成的分布推断置信度的潜力，可以增强大型语言模型的校准性能。 |
+
 
 # 详细
 
-[^1]: 使用样本一致性校准大型语言模型
 
-    Calibrating Large Language Models with Sample Consistency
-
-    [https://arxiv.org/abs/2402.13904](https://arxiv.org/abs/2402.13904)
-
-    通过多个随机抽样模型生成的分布推断置信度的潜力，可以增强大型语言模型的校准性能。
-
-    
-
-    准确评估大型语言模型（LLMs）预测的置信水平对于它们的可靠应用至关重要。然而，由于其专有性质和大规模，LLMs通常天生不经校准，使得传统的校准技术很难适用。在这项工作中，我们探讨了通过多个随机抽样的模型生成的分布来推断置信度的潜力，采用了三种一致性度量。我们在九个推理数据集上对各种开源和闭源模型进行了广泛评估。结果显示，基于一致性的校准方法胜过现有的事后方法。同时，我们发现中间解释、模型扩展和更大的样本大小等因素可以增强校准，而指导调整会使校准变得更加困难。此外，通过一致性获得的置信度分数有望提升模型性能。最后，我们提供
-
-    arXiv:2402.13904v1 Announce Type: new  Abstract: Accurately gauging the confidence level of Large Language Models' (LLMs) predictions is pivotal for their reliable application. However, LLMs are often uncalibrated inherently and elude conventional calibration techniques due to their proprietary nature and massive scale. In this work, we explore the potential of deriving confidence from the distribution of multiple randomly sampled model generations, via three measures of consistency. We perform an extensive evaluation across various open and closed-source models on nine reasoning datasets. Results show that consistency-based calibration methods outperform existing post-hoc approaches. Meanwhile, we find that factors such as intermediate explanations, model scaling, and larger sample sizes enhance calibration, while instruction-tuning makes calibration more difficult. Moreover, confidence scores obtained from consistency have the potential to enhance model performance. Finally, we offer
-    
 
