@@ -2,22 +2,9 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Not All Attention is Needed: Parameter and Computation Efficient Transfer Learning for Multi-modal Large Language Models](https://arxiv.org/abs/2403.15226) | 本文提出了一种高效跳过注意力的方法，用于多模态大型语言模型，能够减少计算开销并保持高性能和参数效率。 |
+
 
 # 详细
 
-[^1]: 不是所有的注意力都是必要的：多模态大型语言模型的参数和计算高效迁移学习
 
-    Not All Attention is Needed: Parameter and Computation Efficient Transfer Learning for Multi-modal Large Language Models
-
-    [https://arxiv.org/abs/2403.15226](https://arxiv.org/abs/2403.15226)
-
-    本文提出了一种高效跳过注意力的方法，用于多模态大型语言模型，能够减少计算开销并保持高性能和参数效率。
-
-    
-
-    在本文中，我们提出了一种新颖的参数和计算高效的调参方法，用于多模态大型语言模型（MLLMs），称为高效跳过注意力（EAS）。具体而言，我们首先揭示了多头注意力（MHA）作为MLLM的主要计算开销，通常对下游任务来说是多余的。基于这一观察结果，EAS评估注意力冗余并跳过较不重要的MHA以加速推理。此外，我们还提出了一种新颖的信息传播适配器（PIA）来服务EAS的注意力跳过并保持参数效率，它可以进一步重新参数化为零额外延迟的前馈网络（FFNs）。为了验证EAS，我们将其应用于最近提出的LaVIN和经典的VL预训练模型METER，并在一组基准测试上进行了大量实验。实验证明，EAS不仅保持了高性能和参数效率，
-
-    arXiv:2403.15226v1 Announce Type: cross  Abstract: In this paper, we propose a novel parameter and computation efficient tuning method for Multi-modal Large Language Models (MLLMs), termed Efficient Attention Skipping (EAS). Concretely, we first reveal that multi-head attentions (MHAs), the main computational overhead of MLLMs, are often redundant to downstream tasks. Based on this observation, EAS evaluates the attention redundancy and skips the less important MHAs to speed up inference. Besides, we also propose a novel propagation-of-information adapter (PIA) to serve the attention skipping of EAS and keep parameter efficiency, which can be further re-parameterized into feed-forward networks (FFNs) for zero-extra latency. To validate EAS, we apply it to a recently proposed MLLM called LaVIN and a classic VL pre-trained model called METER, and conduct extensive experiments on a set of benchmarks. The experiments show that EAS not only retains high performance and parameter efficiency,
-    
 
