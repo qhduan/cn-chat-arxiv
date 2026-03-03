@@ -2,82 +2,97 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [On Minimal Depth in Neural Networks](https://arxiv.org/abs/2402.15315) | 本研究研究了神经网络中关于最小深度的问题，特别关注了ReLU神经网络的表达能力和最小深度与CPWL函数的关系。 |
-| [^2] | [Distributional Reinforcement Learning with Online Risk-awareness Adaption](https://arxiv.org/abs/2310.05179) | 本论文提出了一个新的分布式强化学习框架，可以通过在线风险适应性调整来量化不确定性，并动态选择认知风险水平。 |
-| [^3] | [Geometric structure of shallow neural networks and constructive ${\mathcal L}^2$ cost minimization.](http://arxiv.org/abs/2309.10370) | 本文提供了浅层神经网络的几何结构解释，并通过基于${\mathcal L}^2$代价最小化的构造方法获得了一个具有优越性能的网络。 |
-| [^4] | [Gradient is All You Need?.](http://arxiv.org/abs/2306.09778) | 本文提供了一种新的角度分析了基于梯度的学习算法，将一种新的多粒子无导数优化方法解释为梯度下降的随机松弛方法。此优化方法证明了零阶方法并不一定低效或不具备泛化能力，并且可以在丰富类别的非光滑和非凸目标函数下全局收敛于全局最小值。 |
-| [^5] | [TimeMAE: Self-Supervised Representations of Time Series with Decoupled Masked Autoencoders.](http://arxiv.org/abs/2303.00320) | TimeMAE是一种新型自监督模型，利用transformer网络将每个时间序列处理成一系列不重叠的子序列，并通过随机掩码策略覆盖本地化子序列的语义单元，以学习到丰富的上下文信息和可传递的时间序列表示。 |
+| [^1] | [Diffusion-Driven Domain Adaptation for Generating 3D Molecules](https://arxiv.org/abs/2404.00962) | 该研究提出了一种基于扩散的领域自适应分子生成方法 GADM，可以在不需要收集数据的情况下将生成模型迁移到新领域，通过利用等变蒙板自编码器和各种掩蔽策略来捕获结构变化所带来的领域差异，并能够泛化到目标领域中看不见的结构变化。 |
+| [^2] | [Revealing Multimodal Contrastive Representation Learning through Latent Partial Causal Models](https://arxiv.org/abs/2402.06223) | 通过潜在部分因果模型，我们展示了多模式对比表示学习在识别潜在耦合变量方面的优秀能力，并揭示了预训练的多模态模型通过线性独立分量分析学习分离表示的潜力。 |
+| [^3] | [Topologically-Regularized Multiple Instance Learning for Red Blood Cell Disease Classification.](http://arxiv.org/abs/2307.14025) | 本论文提出一种基于拓扑正则化的多实例学习方法，用于罕见贫血疾病的红细胞分类。通过从单个红细胞图像中提取多尺度的拓扑特征来进行模型正则化，以保持数据的特征拓扑属性。实验结果表明，该方法是有效的。 |
+| [^4] | [NUBO: A Transparent Python Package for Bayesian Optimisation.](http://arxiv.org/abs/2305.06709) | NUBO是一个透明的Python包，用于优化昂贵的黑盒函数，它利用高斯过程做代理模型以及获取函数来指导选择候选点，专注于透明度和用户体验。 |
+| [^5] | [FedHB: Hierarchical Bayesian Federated Learning.](http://arxiv.org/abs/2305.04979) | 该论文提出了一种层次贝叶斯联邦学习方法，通过块坐标下降分布式算法实现对客户端私有数据不透露的学习，在收敛速度上与正则化相同。 |
+| [^6] | [Impossibility of Depth Reduction in Explainable Clustering.](http://arxiv.org/abs/2305.02850) | 可解释聚类中，决策树深度是无法减少的固有复杂度度量之一，减少深度会显著降低聚类质量。 |
 
 # 详细
 
-[^1]: 关于神经网络中的最小深度
+[^1]: 基于扩散驱动的领域自适应生成3D分子
 
-    On Minimal Depth in Neural Networks
+    Diffusion-Driven Domain Adaptation for Generating 3D Molecules
 
-    [https://arxiv.org/abs/2402.15315](https://arxiv.org/abs/2402.15315)
+    [https://arxiv.org/abs/2404.00962](https://arxiv.org/abs/2404.00962)
 
-    本研究研究了神经网络中关于最小深度的问题，特别关注了ReLU神经网络的表达能力和最小深度与CPWL函数的关系。
-
-    
-
-    通过对ReLU神经网络表达能力以及与表示任何连续分段线性函数（CPWL）所需的最小深度相关的猜想的关系进行研究，本研究探讨了神经网络的表达能力特性。研究重点包括对求和和最大运算的最小深度表示，以及对多面体神经网络的探索。实验结果表明，对于求和运算，我们建立了关于操作数最小深度的充分条件以找到运算的最小深度。相反，关于最大运算，我们提供了全面的例子，证明仅依赖于操作数深度的充分条件，并不会暗示运算的最小深度。研究还考察了凸CPWL函数之间的最小深度关系。
-
-    arXiv:2402.15315v1 Announce Type: new  Abstract: A characterization of the representability of neural networks is relevant to comprehend their success in artificial intelligence. This study investigate two topics on ReLU neural network expressivity and their connection with a conjecture related to the minimum depth required for representing any continuous piecewise linear function (CPWL). The topics are the minimal depth representation of the sum and max operations, as well as the exploration of polytope neural networks. For the sum operation, we establish a sufficient condition on the minimal depth of the operands to find the minimal depth of the operation. In contrast, regarding the max operation, a comprehensive set of examples is presented, demonstrating that no sufficient conditions, depending solely on the depth of the operands, would imply a minimal depth for the operation. The study also examine the minimal depth relationship between convex CPWL functions. On polytope neural ne
-    
-[^2]: 具有在线风险感知适应性的分布式强化学习
-
-    Distributional Reinforcement Learning with Online Risk-awareness Adaption
-
-    [https://arxiv.org/abs/2310.05179](https://arxiv.org/abs/2310.05179)
-
-    本论文提出了一个新的分布式强化学习框架，可以通过在线风险适应性调整来量化不确定性，并动态选择认知风险水平。
+    该研究提出了一种基于扩散的领域自适应分子生成方法 GADM，可以在不需要收集数据的情况下将生成模型迁移到新领域，通过利用等变蒙板自编码器和各种掩蔽策略来捕获结构变化所带来的领域差异，并能够泛化到目标领域中看不见的结构变化。
 
     
 
-    在实际应用中使用强化学习（RL）需要考虑次优结果，这取决于代理人对不确定环境的熟悉程度。本文介绍了一个新的框架，Distributional RL with Online Risk Adaption（DRL-ORA），可以综合量化不确定性并动态选择认知风险水平，通过在线解决总变差最小化问题。风险水平选择可以通过使用Follow-The-Leader类型算法进行网格搜索来有效实现。
+    我们能否训练一个分子生成器，可以生成来自新领域的3D分子，从而避免收集数据的需求？这个问题可以被视为领域自适应分子生成的问题。本文提出了一种新颖且基于原则的基于扩散的方法，称为GADM，它允许将生成模型移至所需的新领域，而无需收集任何一个分子。由于领域转移通常由分子的结构变化引起，例如骨架变化，我们利用指定的等变蒙板自编码器（MAE）以及各种掩蔽策略来捕获领域内变体的结构精细表示。特别是，通过一个不对称的编码器-解码器模块，MAE可以泛化到目标领域中看不见的结构变化。这些结构变化被编码为等变编码器，并被视为领域监督员来控制去噪。
 
-    arXiv:2310.05179v2 Announce Type: replace  Abstract: The use of reinforcement learning (RL) in practical applications requires considering sub-optimal outcomes, which depend on the agent's familiarity with the uncertain environment. Dynamically adjusting the level of epistemic risk over the course of learning can tactically achieve reliable optimal policy in safety-critical environments and tackle the sub-optimality of a static risk level. In this work, we introduce a novel framework, Distributional RL with Online Risk Adaption (DRL-ORA), which can quantify the aleatory and epistemic uncertainties compositely and dynamically select the epistemic risk levels via solving a total variation minimization problem online. The risk level selection can be efficiently achieved through grid search using a Follow-The-Leader type algorithm, and its offline oracle is related to "satisficing measure" (in the decision analysis community) under a special modification of the loss function. We show multi
+    arXiv:2404.00962v1 Announce Type: new  Abstract: Can we train a molecule generator that can generate 3D molecules from a new domain, circumventing the need to collect data? This problem can be cast as the problem of domain adaptive molecule generation. This work presents a novel and principled diffusion-based approach, called GADM, that allows shifting a generative model to desired new domains without the need to collect even a single molecule. As the domain shift is typically caused by the structure variations of molecules, e.g., scaffold variations, we leverage a designated equivariant masked autoencoder (MAE) along with various masking strategies to capture the structural-grained representations of the in-domain varieties. In particular, with an asymmetric encoder-decoder module, the MAE can generalize to unseen structure variations from the target domains. These structure variations are encoded with an equivariant encoder and treated as domain supervisors to control denoising. We s
     
-[^3]: 浅层神经网络的几何结构和基于${\mathcal L}^2$代价最小化的构造方法
+[^2]: 通过潜在部分因果模型揭示多模式对比表示学习
 
-    Geometric structure of shallow neural networks and constructive ${\mathcal L}^2$ cost minimization. (arXiv:2309.10370v1 [cs.LG])
+    Revealing Multimodal Contrastive Representation Learning through Latent Partial Causal Models
 
-    [http://arxiv.org/abs/2309.10370](http://arxiv.org/abs/2309.10370)
+    [https://arxiv.org/abs/2402.06223](https://arxiv.org/abs/2402.06223)
 
-    本文提供了浅层神经网络的几何结构解释，并通过基于${\mathcal L}^2$代价最小化的构造方法获得了一个具有优越性能的网络。
-
-    
-
-    本文给出了一个几何解释：浅层神经网络的结构由一个隐藏层、一个斜坡激活函数、一个${\mathcal L}^2$谱范类（或者Hilbert-Schmidt）的代价函数、输入空间${\mathbb R}^M$、输出空间${\mathbb R}^Q$（其中$Q\leq M$），以及训练输入样本数量$N>QM$所特征。我们证明了代价函数的最小值具有$O(\delta_P)$的上界，其中$\delta_P$衡量了训练输入的信噪比。我们使用适应于属于同一输出向量$y_j$的训练输入向量$\overline{x_{0,j}}$的投影来获得近似的优化器，其中$j=1,\dots,Q$。在特殊情况$M=Q$下，我们明确确定了代价函数的一个确切退化局部最小值；这个尖锐的值与对于$Q\leq M$所获得的上界之间有一个相对误差$O(\delta_P^2)$。上界证明的方法提供了一个构造性训练的网络；我们证明它测度了$Q$维空间中的给定输出。
-
-    In this paper, we provide a geometric interpretation of the structure of shallow neural networks characterized by one hidden layer, a ramp activation function, an ${\mathcal L}^2$ Schatten class (or Hilbert-Schmidt) cost function, input space ${\mathbb R}^M$, output space ${\mathbb R}^Q$ with $Q\leq M$, and training input sample size $N>QM$. We prove an upper bound on the minimum of the cost function of order $O(\delta_P$ where $\delta_P$ measures the signal to noise ratio of training inputs. We obtain an approximate optimizer using projections adapted to the averages $\overline{x_{0,j}}$ of training input vectors belonging to the same output vector $y_j$, $j=1,\dots,Q$. In the special case $M=Q$, we explicitly determine an exact degenerate local minimum of the cost function; the sharp value differs from the upper bound obtained for $Q\leq M$ by a relative error $O(\delta_P^2)$. The proof of the upper bound yields a constructively trained network; we show that it metrizes the $Q$-dimen
-    
-[^4]: 梯度真的是你所需要的一切吗？
-
-    Gradient is All You Need?. (arXiv:2306.09778v1 [cs.LG])
-
-    [http://arxiv.org/abs/2306.09778](http://arxiv.org/abs/2306.09778)
-
-    本文提供了一种新的角度分析了基于梯度的学习算法，将一种新的多粒子无导数优化方法解释为梯度下降的随机松弛方法。此优化方法证明了零阶方法并不一定低效或不具备泛化能力，并且可以在丰富类别的非光滑和非凸目标函数下全局收敛于全局最小值。
+    通过潜在部分因果模型，我们展示了多模式对比表示学习在识别潜在耦合变量方面的优秀能力，并揭示了预训练的多模态模型通过线性独立分量分析学习分离表示的潜力。
 
     
 
-    本文提供了一种新的分析方法，通过将一种新的多粒子无导数优化方法结合梯度下降看作随机松弛方法，来解释基于梯度的学习算法的理论理解。通过粒子之间的通讯，这种优化方法表现出类似于随机梯度下降的行为，证明了零阶方法并不一定低效或不具备泛化能力，并且可以在非光滑和非凸目标函数的丰富类别下全局收敛于全局最小值。
+    多模式对比表示学习方法在各个领域取得了成功，部分原因是由于它们能够生成复杂现象的有意义的共享表示。为了增强对这些获得的表示的深度分析和理解，我们引入了一种特别针对多模态数据设计的统一因果模型。通过研究这个模型，我们展示了多模式对比表示学习在识别在提出的统一模型中的潜在耦合变量方面的优秀能力，即使在不同假设下导致的线性或置换变换。我们的发现揭示了预训练的多模态模型（如CLIP）通过线性独立分量分析这一令人惊讶的简单而高效的工具学习分离表示的潜力。实验证明了我们发现的鲁棒性，即使在被违反假设的情况下，也验证了所提出方法在学习疾病方面的有效性。
 
-    In this paper we provide a novel analytical perspective on the theoretical understanding of gradient-based learning algorithms by interpreting consensus-based optimization (CBO), a recently proposed multi-particle derivative-free optimization method, as a stochastic relaxation of gradient descent. Remarkably, we observe that through communication of the particles, CBO exhibits a stochastic gradient descent (SGD)-like behavior despite solely relying on evaluations of the objective function. The fundamental value of such link between CBO and SGD lies in the fact that CBO is provably globally convergent to global minimizers for ample classes of nonsmooth and nonconvex objective functions, hence, on the one side, offering a novel explanation for the success of stochastic relaxations of gradient descent. On the other side, contrary to the conventional wisdom for which zero-order methods ought to be inefficient or not to possess generalization abilities, our results unveil an intrinsic gradi
+    Multimodal contrastive representation learning methods have proven successful across a range of domains, partly due to their ability to generate meaningful shared representations of complex phenomena. To enhance the depth of analysis and understanding of these acquired representations, we introduce a unified causal model specifically designed for multimodal data. By examining this model, we show that multimodal contrastive representation learning excels at identifying latent coupled variables within the proposed unified model, up to linear or permutation transformations resulting from different assumptions. Our findings illuminate the potential of pre-trained multimodal models, eg, CLIP, in learning disentangled representations through a surprisingly simple yet highly effective tool: linear independent component analysis. Experiments demonstrate the robustness of our findings, even when the assumptions are violated, and validate the effectiveness of the proposed method in learning dise
     
-[^5]: TimeMAE: 基于解耦掩码自编码器的自监督时间序列表示
+[^3]: 基于拓扑正则化的多实例学习用于红细胞疾病分类
 
-    TimeMAE: Self-Supervised Representations of Time Series with Decoupled Masked Autoencoders. (arXiv:2303.00320v3 [cs.LG] UPDATED)
+    Topologically-Regularized Multiple Instance Learning for Red Blood Cell Disease Classification. (arXiv:2307.14025v1 [cs.LG])
 
-    [http://arxiv.org/abs/2303.00320](http://arxiv.org/abs/2303.00320)
+    [http://arxiv.org/abs/2307.14025](http://arxiv.org/abs/2307.14025)
 
-    TimeMAE是一种新型自监督模型，利用transformer网络将每个时间序列处理成一系列不重叠的子序列，并通过随机掩码策略覆盖本地化子序列的语义单元，以学习到丰富的上下文信息和可传递的时间序列表示。
+    本论文提出一种基于拓扑正则化的多实例学习方法，用于罕见贫血疾病的红细胞分类。通过从单个红细胞图像中提取多尺度的拓扑特征来进行模型正则化，以保持数据的特征拓扑属性。实验结果表明，该方法是有效的。
 
     
 
-    在时间序列分类中，利用自监督预训练提高深度学习模型的表达能力正在变得越来越普遍。虽然已经有很多工作致力于开发面向时间序列数据的自监督模型，但由于仅在稀疏逐点输入单元上进行单向编码，当前方法不能学习到最优时间序列表示。在这项工作中，我们提出了TimeMAE，一种基于transformer网络的学习可传递时间序列表示的新型自监督范式。TimeMAE的独特特点在于将每个时间序列通过窗口切片分区处理成一系列不重叠的子序列，然后通过随机掩码策略覆盖本地化子序列的语义单元。这种简单而有效的设置可以帮助我们达到一举三得的目标，即（1）学习丰富的上下文信息；
+    使用显微图像诊断罕见的贫血疾病对于熟练的专家和机器学习方法来说都具有挑战性。由于在单个血样中有数千个与疾病相关的细胞，这构成了一个复杂的多实例学习（MIL）问题。虽然红细胞的空间邻域本身并不重要，但整个血样的拓扑结构，即数据的几何性质，包含了有益的特征，以解决典型的MIL问题，如梯度消失和在有限数据上训练时的过拟合。因此，我们开发了一种基于拓扑的方法，从单个红细胞图像的包中提取多尺度的拓扑特征。这些拓扑特征被用来对模型进行正则化，强制保持数据的特征拓扑属性。在包含71个罕见贫血疾病患者的数据集上，包括521张红细胞显微图像，我们的实验表明拓扑正则化是一个有效的方法。
 
-    Enhancing the expressive capacity of deep learning-based time series models with self-supervised pre-training has become ever-increasingly prevalent in time series classification. Even though numerous efforts have been devoted to developing self-supervised models for time series data, we argue that the current methods are not sufficient to learn optimal time series representations due to solely unidirectional encoding over sparse point-wise input units. In this work, we propose TimeMAE, a novel self-supervised paradigm for learning transferrable time series representations based on transformer networks. The distinct characteristics of the TimeMAE lie in processing each time series into a sequence of non-overlapping sub-series via window-slicing partitioning, followed by random masking strategies over the semantic units of localized sub-series. Such a simple yet effective setting can help us achieve the goal of killing three birds with one stone, i.e., (1) learning enriched contextual r
+    Diagnosing rare anemia disorders using microscopic images is challenging for skilled specialists and machine-learning methods alike. Due to thousands of disease-relevant cells in a single blood sample, this constitutes a complex multiple-instance learning (MIL) problem. While the spatial neighborhood of red blood cells is not meaningful per se, the topology, i.e., the geometry of blood samples as a whole, contains informative features to remedy typical MIL issues, such as vanishing gradients and overfitting when training on limited data. We thus develop a topology-based approach that extracts multi-scale topological features from bags of single red blood cell images. The topological features are used to regularize the model, enforcing the preservation of characteristic topological properties of the data. Applied to a dataset of 71 patients suffering from rare anemia disorders with 521 microscopic images of red blood cells, our experiments show that topological regularization is an effe
+    
+[^4]: NUBO：一个透明的 Python 包用于贝叶斯优化
+
+    NUBO: A Transparent Python Package for Bayesian Optimisation. (arXiv:2305.06709v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.06709](http://arxiv.org/abs/2305.06709)
+
+    NUBO是一个透明的Python包，用于优化昂贵的黑盒函数，它利用高斯过程做代理模型以及获取函数来指导选择候选点，专注于透明度和用户体验。
+
+    
+
+    NUBO（Newcastle University Bayesian Optimisation）是一个贝叶斯优化框架，用于优化昂贵的黑盒函数，比如物理实验和计算机模拟器。它利用高斯过程做代理模型、并通过获取函数来选择用于全局最优化的候选点。NUBO专注于透明度和用户体验，以便让不同领域的研究人员更容易使用贝叶斯优化。
+
+    NUBO, short for Newcastle University Bayesian Optimisation, is a Bayesian optimisation framework for the optimisation of expensive-to-evaluate black-box functions, such as physical experiments and computer simulators. Bayesian optimisation is a cost-efficient optimisation strategy that uses surrogate modelling via Gaussian processes to represent an objective function and acquisition functions to guide the selection of candidate points to approximate the global optimum of the objective function. NUBO itself focuses on transparency and user experience to make Bayesian optimisation easily accessible to researchers from all disciplines. Clean and understandable code, precise references, and thorough documentation ensure transparency, while user experience is ensured by a modular and flexible design, easy-to-write syntax, and careful selection of Bayesian optimisation algorithms. NUBO allows users to tailor Bayesian optimisation to their specific problem by writing the optimisation loop the
+    
+[^5]: FedHB: 层次贝叶斯联邦学习
+
+    FedHB: Hierarchical Bayesian Federated Learning. (arXiv:2305.04979v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.04979](http://arxiv.org/abs/2305.04979)
+
+    该论文提出了一种层次贝叶斯联邦学习方法，通过块坐标下降分布式算法实现对客户端私有数据不透露的学习，在收敛速度上与正则化相同。
+
+    
+
+    本文提出了一种新的层次贝叶斯联邦学习方法，通过层次贝叶斯建模合理地描述了客户端本地数据的生成过程：构成客户端本地模型的随机变量，由更高水平的全局变量进行控制。有趣的是，我们贝叶斯模型中的变分推断导致了一个优化问题，其块坐标下降求解成为一个可分客户端的分布式算法，这使得客户端完全不需要透露自己的私有数据，因此与联邦学习完全兼容。我们还强调，我们的块坐标算法具有特定形式，包括Fed-Avg和Fed-Prox在内的众所周知的FL算法都可以作为其特例进行子归。除了引入新的建模和导出之外，我们还提供了收敛性分析，表明我们的块坐标FL算法以$O(1/\sqrt{t})$的速度收敛到目标的（本地）最优解，这与正则化具有相同的速率。
+
+    We propose a novel hierarchical Bayesian approach to Federated Learning (FL), where our model reasonably describes the generative process of clients' local data via hierarchical Bayesian modeling: constituting random variables of local models for clients that are governed by a higher-level global variate. Interestingly, the variational inference in our Bayesian model leads to an optimisation problem whose block-coordinate descent solution becomes a distributed algorithm that is separable over clients and allows them not to reveal their own private data at all, thus fully compatible with FL. We also highlight that our block-coordinate algorithm has particular forms that subsume the well-known FL algorithms including Fed-Avg and Fed-Prox as special cases. Beyond introducing novel modeling and derivations, we also offer convergence analysis showing that our block-coordinate FL algorithm converges to an (local) optimum of the objective at the rate of $O(1/\sqrt{t})$, the same rate as regul
+    
+[^6]: 可解释聚类中深度减少的不可能性证明
+
+    Impossibility of Depth Reduction in Explainable Clustering. (arXiv:2305.02850v1 [cs.LG])
+
+    [http://arxiv.org/abs/2305.02850](http://arxiv.org/abs/2305.02850)
+
+    可解释聚类中，决策树深度是无法减少的固有复杂度度量之一，减少深度会显著降低聚类质量。
+
+    
+
+    近年来，可解释聚类引起了许多关注。本论文在Euclidean平面中证明，对于可解释的k-means和k-median聚类问题，决策树的深度是不可避免的复杂度度量之一，无法减少而不显著降低聚类质量。我们证明了对于任何在Euclidean平面上的数据X，深度为k-1的决策树的k-means/k-median聚类代价与X的优化聚类代价相同，但是对于深度小于k-1的决策树，其聚类代价相对于最优聚类代价而言是不可接受的。我们还将结果扩展到了k-center目标。
+
+    Over the last few years Explainable Clustering has gathered a lot of attention. Dasgupta et al. [ICML'20] initiated the study of explainable k-means and k-median clustering problems where the explanation is captured by a threshold decision tree which partitions the space at each node using axis parallel hyperplanes. Recently, Laber et al. [Pattern Recognition'23] made a case to consider the depth of the decision tree as an additional complexity measure of interest.  In this work, we prove that even when the input points are in the Euclidean plane, then any depth reduction in the explanation incurs unbounded loss in the k-means and k-median cost. Formally, we show that there exists a data set X in the Euclidean plane, for which there is a decision tree of depth k-1 whose k-means/k-median cost matches the optimal clustering cost of X, but every decision tree of depth less than k-1 has unbounded cost w.r.t. the optimal cost of clustering. We extend our results to the k-center objective as
     
 
