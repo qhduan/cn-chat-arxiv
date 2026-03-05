@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Statistical Inference with Stochastic Gradient Methods under $\phi$-mixing Data.](http://arxiv.org/abs/2302.12717) | 本文提出了一种基于 mini-batch SGD 估计器进行 $\varphi$-混合数据统计推断的方法，有效解决了普通方法在构建置信区间时面临的相关性问题。 |
+| [^1] | [List Sample Compression and Uniform Convergence](https://arxiv.org/abs/2403.10889) | 研究在列表学习中均匀收敛和样本压缩原则的适用性，证明了在列表PAC学习中均匀收敛仍然等价于可学习性 |
 
 # 详细
 
-[^1]: 基于 $\varphi$-混合数据的随机梯度方法在统计推断中的应用
+[^1]: 列表样本压缩和均匀收敛
 
-    Statistical Inference with Stochastic Gradient Methods under $\phi$-mixing Data. (arXiv:2302.12717v2 [stat.ME] UPDATED)
+    List Sample Compression and Uniform Convergence
 
-    [http://arxiv.org/abs/2302.12717](http://arxiv.org/abs/2302.12717)
+    [https://arxiv.org/abs/2403.10889](https://arxiv.org/abs/2403.10889)
 
-    本文提出了一种基于 mini-batch SGD 估计器进行 $\varphi$-混合数据统计推断的方法，有效解决了普通方法在构建置信区间时面临的相关性问题。
+    研究在列表学习中均匀收敛和样本压缩原则的适用性，证明了在列表PAC学习中均匀收敛仍然等价于可学习性
 
     
 
-    随机梯度下降（SGD）是一种可扩展且内存效率高的优化算法，适用于大型数据集和流式数据的处理，因此受到了广泛关注和欢迎。SGD 基于的估计器在统计推断中的应用，如区间估计，也取得了巨大成功。然而，大多数相关工作都是基于独立同分布观测或马尔可夫链的。当观测数据来自一个混合时间序列时，如何进行有效的统计推断尚未研究。事实上，观测数据之间的一般相关性给区间估计带来了挑战。大多数现有方法可能会忽略这种相关性并导致无效的置信区间。本文提出了一种基于 mini-batch SGD 估计器进行 $\varphi$-混合数据统计推断的方法。置信区间是使用相关的 mini-batch bootstrap SGD 程序构建的。通过使用 \cite{yu1994rates} 中的 “独立块” 技巧，我们证明了该方法的有效性。
+    列表学习是监督分类的一个变种，在这种学习中，学习器为每个实例输出多个可能的标签，而不仅仅是一个。我们研究了与列表学习上的泛化相关的经典原则。我们的主要目标是确定在列表PAC学习领域，PAC设置中的经典原则是否保留其适用性。我们重点关注均匀收敛（这是经验风险最小化的基础）和样本压缩（这是Occam's Razor的一个强大体现）。在经典PAC学习中，均匀收敛和样本压缩都满足一种“完备性”形式：每当一个类是可学习的时候，也可以通过遵循这些原则的学习规则来学习它。我们探讨在列表学习环境中是否也存在相同的完备性。我们表明在列表PAC学习环境中，均匀收敛仍然等价于可学习性。
 
-    Stochastic gradient descent (SGD) is a scalable and memory-efficient optimization algorithm for large datasets and stream data, which has drawn a great deal of attention and popularity. The applications of SGD-based estimators to statistical inference such as interval estimation have also achieved great success. However, most of the related works are based on i.i.d. observations or Markov chains. When the observations come from a mixing time series, how to conduct valid statistical inference remains unexplored. As a matter of fact, the general correlation among observations imposes a challenge on interval estimation. Most existing methods may ignore this correlation and lead to invalid confidence intervals. In this paper, we propose a mini-batch SGD estimator for statistical inference when the data is $\phi$-mixing. The confidence intervals are constructed using an associated mini-batch bootstrap SGD procedure. Using ``independent block'' trick from \cite{yu1994rates}, we show that the
+    arXiv:2403.10889v1 Announce Type: new  Abstract: List learning is a variant of supervised classification where the learner outputs multiple plausible labels for each instance rather than just one. We investigate classical principles related to generalization within the context of list learning. Our primary goal is to determine whether classical principles in the PAC setting retain their applicability in the domain of list PAC learning. We focus on uniform convergence (which is the basis of Empirical Risk Minimization) and on sample compression (which is a powerful manifestation of Occam's Razor). In classical PAC learning, both uniform convergence and sample compression satisfy a form of `completeness': whenever a class is learnable, it can also be learned by a learning rule that adheres to these principles. We ask whether the same completeness holds true in the list learning setting.   We show that uniform convergence remains equivalent to learnability in the list PAC learning setting
     
 
