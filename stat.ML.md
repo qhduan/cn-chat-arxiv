@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [List Sample Compression and Uniform Convergence](https://arxiv.org/abs/2403.10889) | 研究在列表学习中均匀收敛和样本压缩原则的适用性，证明了在列表PAC学习中均匀收敛仍然等价于可学习性 |
+| [^1] | [Zeroth-Order primal-dual Alternating Projection Gradient Algorithms for Nonconvex Minimax Problems with Coupled linear Constraints](https://arxiv.org/abs/2402.03352) | 本文研究了具有耦合线性约束的非凸极小极大问题的零阶算法，提出了两个单循环算法用于求解这些问题，并证明了它们的迭代复杂度分别为O(ε^(-2))和O(ε^(-4))。 |
 
 # 详细
 
-[^1]: 列表样本压缩和均匀收敛
+[^1]: 面向具有耦合线性约束的非凸极小极大问题的零阶原始对偶交替投影梯度算法
 
-    List Sample Compression and Uniform Convergence
+    Zeroth-Order primal-dual Alternating Projection Gradient Algorithms for Nonconvex Minimax Problems with Coupled linear Constraints
 
-    [https://arxiv.org/abs/2403.10889](https://arxiv.org/abs/2403.10889)
+    [https://arxiv.org/abs/2402.03352](https://arxiv.org/abs/2402.03352)
 
-    研究在列表学习中均匀收敛和样本压缩原则的适用性，证明了在列表PAC学习中均匀收敛仍然等价于可学习性
+    本文研究了具有耦合线性约束的非凸极小极大问题的零阶算法，提出了两个单循环算法用于求解这些问题，并证明了它们的迭代复杂度分别为O(ε^(-2))和O(ε^(-4))。
 
     
 
-    列表学习是监督分类的一个变种，在这种学习中，学习器为每个实例输出多个可能的标签，而不仅仅是一个。我们研究了与列表学习上的泛化相关的经典原则。我们的主要目标是确定在列表PAC学习领域，PAC设置中的经典原则是否保留其适用性。我们重点关注均匀收敛（这是经验风险最小化的基础）和样本压缩（这是Occam's Razor的一个强大体现）。在经典PAC学习中，均匀收敛和样本压缩都满足一种“完备性”形式：每当一个类是可学习的时候，也可以通过遵循这些原则的学习规则来学习它。我们探讨在列表学习环境中是否也存在相同的完备性。我们表明在列表PAC学习环境中，均匀收敛仍然等价于可学习性。
+    本文研究了确定性和随机设置下具有耦合线性约束的非凸极小极大问题的零阶算法，这在机器学习、信号处理和其他领域中近年来引起了广泛关注，例如资源分配问题和网络流问题中的对抗攻击等。我们提出了两个单循环算法，分别是零阶原始对偶交替投影梯度（ZO-PDAPG）算法和零阶正则动量原始对偶投影梯度算法（ZO-RMPDPG），用于解决具有耦合线性约束的确定性和随机非凸-(强)凹极小极大问题。证明了这两个算法获得一个ε-稳定点的迭代复杂度分别为O(ε^(-2))（对于求解非凸-凹极小极大问题）和O(ε^(-4))（对于求解非凸-凹极小极大问题）。
 
-    arXiv:2403.10889v1 Announce Type: new  Abstract: List learning is a variant of supervised classification where the learner outputs multiple plausible labels for each instance rather than just one. We investigate classical principles related to generalization within the context of list learning. Our primary goal is to determine whether classical principles in the PAC setting retain their applicability in the domain of list PAC learning. We focus on uniform convergence (which is the basis of Empirical Risk Minimization) and on sample compression (which is a powerful manifestation of Occam's Razor). In classical PAC learning, both uniform convergence and sample compression satisfy a form of `completeness': whenever a class is learnable, it can also be learned by a learning rule that adheres to these principles. We ask whether the same completeness holds true in the list learning setting.   We show that uniform convergence remains equivalent to learnability in the list PAC learning setting
+    In this paper, we study zeroth-order algorithms for nonconvex minimax problems with coupled linear constraints under the deterministic and stochastic settings, which have attracted wide attention in machine learning, signal processing and many other fields in recent years, e.g., adversarial attacks in resource allocation problems and network flow problems etc. We propose two single-loop algorithms, namely the zero-order primal-dual alternating projected gradient (ZO-PDAPG) algorithm and the zero-order regularized momentum primal-dual projected gradient algorithm (ZO-RMPDPG), for solving deterministic and stochastic nonconvex-(strongly) concave minimax problems with coupled linear constraints. The iteration complexity of the two proposed algorithms to obtain an $\varepsilon$-stationary point are proved to be $\mathcal{O}(\varepsilon ^{-2})$ (resp. $\mathcal{O}(\varepsilon ^{-4})$) for solving nonconvex-strongly concave (resp. nonconvex-concave) minimax problems with coupled linear const
     
 
