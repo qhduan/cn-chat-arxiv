@@ -2,37 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Partially identified heteroskedastic SVARs](https://arxiv.org/abs/2403.06879) | 该论文研究了一种利用结构性冲击方差的突变来识别SVAR的方法，提出了冲激响应的已确定集，并展示了计算方法。 |
-| [^2] | [Learning from Viral Content.](http://arxiv.org/abs/2210.01267) | 本文研究了社交媒体上的学习，发现向用户展示病毒性故事可以增加信息汇集，但也可能导致大多数分享的故事是错误的稳定状态。这些误导性的稳定状态会自我维持，对平台设计和鲁棒性产生多种后果。 |
+| [^1] | [Causal Effects in Matching Mechanisms with Strategically Reported Preferences.](http://arxiv.org/abs/2307.14282) | 本文提供一种考虑了策略性误报的因果效应识别方法，可以对学校分配对未来结果产生的影响进行准确度量。我们的方法适用于各种机制，并能够得到对策略行为鲁棒的因果效应的尖锐边界。 |
 
 # 详细
 
-[^1]: 部分识别的异方差SVARs
+[^1]: 匹配机制中的因果效应与策略性报告偏好
 
-    Partially identified heteroskedastic SVARs
+    Causal Effects in Matching Mechanisms with Strategically Reported Preferences. (arXiv:2307.14282v1 [econ.EM])
 
-    [https://arxiv.org/abs/2403.06879](https://arxiv.org/abs/2403.06879)
+    [http://arxiv.org/abs/2307.14282](http://arxiv.org/abs/2307.14282)
 
-    该论文研究了一种利用结构性冲击方差的突变来识别SVAR的方法，提出了冲激响应的已确定集，并展示了计算方法。
-
-    
-
-    本文研究了利用结构性冲击方差的突变来识别结构向量自回归模型（SVARs）。对于这类模型的点识别依赖于涉及约减型误差的协方差矩阵的特征值分解，并要求所有特征值是不同的。然而，在存在多重特征值的情况下，这种点识别会失败。在一个实证相关的场景中出现这种情况，例如只有一个子集的结构性冲击有了方差的突变，或者其中一组变量展示了相同幅度的方差变化。结合对结构参数和冲激响应的零或符号约束，我们得出了冲激响应的已确定集，并展示了如何计算它们。我们基于为已确定集SVARs开发的稳健贝叶斯方法进行了冲激响应函数的推论。
-
-    arXiv:2403.06879v1 Announce Type: new  Abstract: This paper studies the identification of Structural Vector Autoregressions (SVARs) exploiting a break in the variances of the structural shocks. Point-identification for this class of models relies on an eigen-decomposition involving the covariance matrices of reduced-form errors and requires that all the eigenvalues are distinct. This point-identification, however, fails in the presence of multiplicity of eigenvalues. This occurs in an empirically relevant scenario where, for instance, only a subset of structural shocks had the break in their variances, or where a group of variables shows a variance shift of the same amount. Together with zero or sign restrictions on the structural parameters and impulse responses, we derive the identified sets for impulse responses and show how to compute them. We perform inference on the impulse response functions, building on the robust Bayesian approach developed for set identified SVARs. To illustr
-    
-[^2]: 从病毒性内容中学习
-
-    Learning from Viral Content. (arXiv:2210.01267v2 [econ.TH] UPDATED)
-
-    [http://arxiv.org/abs/2210.01267](http://arxiv.org/abs/2210.01267)
-
-    本文研究了社交媒体上的学习，发现向用户展示病毒性故事可以增加信息汇集，但也可能导致大多数分享的故事是错误的稳定状态。这些误导性的稳定状态会自我维持，对平台设计和鲁棒性产生多种后果。
+    本文提供一种考虑了策略性误报的因果效应识别方法，可以对学校分配对未来结果产生的影响进行准确度量。我们的方法适用于各种机制，并能够得到对策略行为鲁棒的因果效应的尖锐边界。
 
     
 
-    我们研究了社交媒体上的学习，采用了一个均衡模型来描述用户与共享新闻故事进行交互。理性用户按顺序到达，观察到原始故事（即私有信号）和新闻推送中前辈故事的样本，然后决定分享哪些故事。观察到的故事样本取决于前辈分享的内容以及生成新闻推送的抽样算法。我们重点研究了这个算法如何选择更具病毒性（即被广泛分享）的故事的频率。向用户展示病毒性故事可以增加信息汇集，但也可能产生大多数分享故事错误的稳定状态。这些误导性的稳定状态自我持续，因为观察到错误故事的用户会形成错误的信念，从而理性地继续分享它们。最后，我们描述了平台设计和鲁棒性方面的若干后果。
+    越来越多的中央机构使用分配机制将学生分配到学校，以反映学生的偏好和学校的优先权。然而，大多数现实世界的机制会给学生提供一种策略性并误报他们的偏好的激励。在本文中，我们提供了一种识别因果效应的方法，该方法考虑了策略性的误报。误报可能使现有的点识别方法无效，我们推导出对策略行为鲁棒的因果效应的尖锐边界。我们的方法适用于任何机制，只要存在描述该机制分配规则的配对分数和截点。我们使用智利一个延迟接受机制的数据，该机制将学生分配到1000多个大学专业组合。学生出于策略考虑而行动，因为智利的机制限制了学生在偏好中提交的专业数量为八个。
 
-    We study learning on social media with an equilibrium model of users interacting with shared news stories. Rational users arrive sequentially, observe an original story (i.e., a private signal) and a sample of predecessors' stories in a news feed, and then decide which stories to share. The observed sample of stories depends on what predecessors share as well as the sampling algorithm generating news feeds. We focus on how often this algorithm selects more viral (i.e., widely shared) stories. Showing users viral stories can increase information aggregation, but it can also generate steady states where most shared stories are wrong. These misleading steady states self-perpetuate, as users who observe wrong stories develop wrong beliefs, and thus rationally continue to share them. Finally, we describe several consequences for platform design and robustness.
+    A growing number of central authorities use assignment mechanisms to allocate students to schools in a way that reflects student preferences and school priorities. However, most real-world mechanisms give students an incentive to be strategic and misreport their preferences. In this paper, we provide an identification approach for causal effects of school assignment on future outcomes that accounts for strategic misreporting. Misreporting may invalidate existing point-identification approaches, and we derive sharp bounds for causal effects that are robust to strategic behavior. Our approach applies to any mechanism as long as there exist placement scores and cutoffs that characterize that mechanism's allocation rule. We use data from a deferred acceptance mechanism that assigns students to more than 1,000 university-major combinations in Chile. Students behave strategically because the mechanism in Chile constrains the number of majors that students submit in their preferences to eight
     
 

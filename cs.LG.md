@@ -2,52 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Survey of Computerized Adaptive Testing: A Machine Learning Perspective](https://arxiv.org/abs/2404.00712) | 本文以机器学习视角综述了计算机自适应测试（CAT），重点解析其测试问题选择算法和如何优化认知诊断模型、题库构建和测试控制。 |
-| [^2] | [Machine Unlearning by Suppressing Sample Contribution](https://arxiv.org/abs/2402.15109) | 本文提出了一种机器遗忘方法，通过最小化输入敏感度来抑制遗忘数据的贡献，并在实验中表现出优异的性能。 |
-| [^3] | [Can Direct Latent Model Learning Solve Linear Quadratic Gaussian Control?](https://arxiv.org/abs/2212.14511) | 该论文提出了直接潜在模型学习的方法，用于解决线性二次高斯控制问题，能够在有限样本下找到近似最优状态表示函数和控制器。 |
+| [^1] | [Provable Filter for Real-world Graph Clustering](https://arxiv.org/abs/2403.03666) | 提出了一种可证实的方案，针对实际世界图聚类问题，在处理同源和异源图时表现出色，并构建了低通和高通滤波器来捕捉全面信息。 |
+| [^2] | [A Survey on Decentralized Federated Learning.](http://arxiv.org/abs/2308.04604) | 最近几年，联邦学习成为训练分布式、大规模、保护隐私的机器学习系统的流行范式。然而，其中一个关键挑战是克服集中式编排的单点故障问题。 |
 
 # 详细
 
-[^1]: 计算机自适应测试综述：机器学习视角
+[^1]: 可证滤波器用于现实世界图聚类
 
-    Survey of Computerized Adaptive Testing: A Machine Learning Perspective
+    Provable Filter for Real-world Graph Clustering
 
-    [https://arxiv.org/abs/2404.00712](https://arxiv.org/abs/2404.00712)
+    [https://arxiv.org/abs/2403.03666](https://arxiv.org/abs/2403.03666)
 
-    本文以机器学习视角综述了计算机自适应测试（CAT），重点解析其测试问题选择算法和如何优化认知诊断模型、题库构建和测试控制。
-
-    
-
-    计算机自适应测试（CAT）提供了一种高效、量身定制的评估考生熟练程度的方法，通过根据他们的表现动态调整测试问题。CAT广泛应用于教育、医疗、体育和社会学等多个领域，彻底改变了测试实践。然而，随着大规模测试的增加复杂性，CAT已经融合了机器学习技术。本文旨在提供一个以机器学习为重点的CAT综述，从新的角度解读这种自适应测试方法。通过研究CAT适应性核心的测试问题选择算法，我们揭示了其功能。此外，我们探讨了认知诊断模型、题库构建和CAT中的测试控制，探索了机器学习如何优化这些组成部分。通过对当前情况的分析，
-
-    arXiv:2404.00712v1 Announce Type: cross  Abstract: Computerized Adaptive Testing (CAT) provides an efficient and tailored method for assessing the proficiency of examinees, by dynamically adjusting test questions based on their performance. Widely adopted across diverse fields like education, healthcare, sports, and sociology, CAT has revolutionized testing practices. While traditional methods rely on psychometrics and statistics, the increasing complexity of large-scale testing has spurred the integration of machine learning techniques. This paper aims to provide a machine learning-focused survey on CAT, presenting a fresh perspective on this adaptive testing method. By examining the test question selection algorithm at the heart of CAT's adaptivity, we shed light on its functionality. Furthermore, we delve into cognitive diagnosis models, question bank construction, and test control within CAT, exploring how machine learning can optimize these components. Through an analysis of curre
-    
-[^2]: 抑制样本贡献的机器遗忘
-
-    Machine Unlearning by Suppressing Sample Contribution
-
-    [https://arxiv.org/abs/2402.15109](https://arxiv.org/abs/2402.15109)
-
-    本文提出了一种机器遗忘方法，通过最小化输入敏感度来抑制遗忘数据的贡献，并在实验中表现出优异的性能。
+    提出了一种可证实的方案，针对实际世界图聚类问题，在处理同源和异源图时表现出色，并构建了低通和高通滤波器来捕捉全面信息。
 
     
 
-    机器遗忘（MU）是指从经过良好训练的模型中删除数据，这在实践中非常重要，因为涉及“被遗忘的权利”。本文从训练数据和未见数据对模型贡献的基本区别入手：训练数据对最终模型有贡献，而未见数据没有。我们理论上发现输入敏感度可以近似衡量贡献，并实际设计了一种算法，称为MU-Mis（通过最小化输入敏感度进行机器遗忘），来抑制遗忘数据的贡献。实验结果表明，MU-Mis明显优于最先进的MU方法。此外，MU-Mis与MU的应用更加密切，因为它不需要使用剩余数据。
+    图聚类是一个重要的无监督问题，已经被证明对图神经网络（GNNs）的进展更具抵抗力。此外，几乎所有的聚类方法都专注于同源图，忽略异源性。这严重限制了它们在实践中的适用性，因为现实世界图展现出结构不一致，不能简单地被归类为同源性和异源性。因此，迫切需要一种处理实际图的原则性方法。为了填补这一空白，我们提供了一个具有理论支持的新颖解决方案。有趣的是，我们发现大多数同源和异源边可以基于邻居信息被正确识别。受到这一发现的启发，我们构建了两个分别高度同源和异源的图。它们用于构建低通和高通滤波器以捕捉整体信息。重要的特征进一步由挤压-激励块增强。
 
-    arXiv:2402.15109v1 Announce Type: new  Abstract: Machine Unlearning (MU) is to forget data from a well-trained model, which is practically important due to the "right to be forgotten". In this paper, we start from the fundamental distinction between training data and unseen data on their contribution to the model: the training data contributes to the final model while the unseen data does not. We theoretically discover that the input sensitivity can approximately measure the contribution and practically design an algorithm, called MU-Mis (machine unlearning via minimizing input sensitivity), to suppress the contribution of the forgetting data. Experimental results demonstrate that MU-Mis outperforms state-of-the-art MU methods significantly. Additionally, MU-Mis aligns more closely with the application of MU as it does not require the use of remaining data.
+    arXiv:2403.03666v1 Announce Type: new  Abstract: Graph clustering, an important unsupervised problem, has been shown to be more resistant to advances in Graph Neural Networks (GNNs). In addition, almost all clustering methods focus on homophilic graphs and ignore heterophily. This significantly limits their applicability in practice, since real-world graphs exhibit a structural disparity and cannot simply be classified as homophily and heterophily. Thus, a principled way to handle practical graphs is urgently needed. To fill this gap, we provide a novel solution with theoretical support. Interestingly, we find that most homophilic and heterophilic edges can be correctly identified on the basis of neighbor information. Motivated by this finding, we construct two graphs that are highly homophilic and heterophilic, respectively. They are used to build low-pass and high-pass filters to capture holistic information. Important features are further enhanced by the squeeze-and-excitation block
     
-[^3]: 直接潜在模型学习能够解决线性二次高斯控制问题吗？
+[^2]: 分散式联邦学习综述
 
-    Can Direct Latent Model Learning Solve Linear Quadratic Gaussian Control?
+    A Survey on Decentralized Federated Learning. (arXiv:2308.04604v1 [cs.LG])
 
-    [https://arxiv.org/abs/2212.14511](https://arxiv.org/abs/2212.14511)
+    [http://arxiv.org/abs/2308.04604](http://arxiv.org/abs/2308.04604)
 
-    该论文提出了直接潜在模型学习的方法，用于解决线性二次高斯控制问题，能够在有限样本下找到近似最优状态表示函数和控制器。
+    最近几年，联邦学习成为训练分布式、大规模、保护隐私的机器学习系统的流行范式。然而，其中一个关键挑战是克服集中式编排的单点故障问题。
 
     
 
-    我们研究了从潜在高维观测中学习状态表示的任务，目标是控制未知的部分可观察系统。我们采用直接潜在模型学习方法，通过预测与规划直接相关的数量（例如成本）来学习潜在状态空间中的动态模型，而无需重建观测。具体来说，我们专注于一种直观的基于成本驱动的状态表示学习方法，用于解决线性二次高斯（LQG）控制问题，这是最基本的部分可观察控制问题之一。作为我们的主要结果，我们建立了在有限样本下找到近似最优状态表示函数和使用直接学习的潜在模型找到近似最优控制器的保证。据我们所知，尽管以前的相关工作取得了各种经验成功，但在这项工作之前，尚不清楚这种基于成本驱动的潜在模型学习方法是否具有有限样本保证。
+    最近几年，联邦学习（FL）已经成为训练分布式、大规模、保护隐私的机器学习（ML）系统的流行范式。与标准ML不同，需要将数据收集在训练执行的确切位置，FL利用数百万边缘设备的计算能力来协同训练共享的全局模型，同时不会披露其本地私有数据。在典型的FL系统中，中央服务器只充当协调器的角色；它迭代地收集和汇总每个客户端在自己的私有数据上训练的本地模型，直到收敛。尽管FL在设计上具有许多优点（例如通过设计保护私有数据所有权），但也存在一些弱点。其中最关键的挑战之一是克服经典FL客户端-服务器架构的集中式编排，这被认为是易受单点故障攻击的。
 
-    arXiv:2212.14511v2 Announce Type: replace  Abstract: We study the task of learning state representations from potentially high-dimensional observations, with the goal of controlling an unknown partially observable system. We pursue a direct latent model learning approach, where a dynamic model in some latent state space is learned by predicting quantities directly related to planning (e.g., costs) without reconstructing the observations. In particular, we focus on an intuitive cost-driven state representation learning method for solving Linear Quadratic Gaussian (LQG) control, one of the most fundamental partially observable control problems. As our main results, we establish finite-sample guarantees of finding a near-optimal state representation function and a near-optimal controller using the directly learned latent model. To the best of our knowledge, despite various empirical successes, prior to this work it was unclear if such a cost-driven latent model learner enjoys finite-sampl
+    In recent years, federated learning (FL) has become a very popular paradigm for training distributed, large-scale, and privacy-preserving machine learning (ML) systems. In contrast to standard ML, where data must be collected at the exact location where training is performed, FL takes advantage of the computational capabilities of millions of edge devices to collaboratively train a shared, global model without disclosing their local private data. Specifically, in a typical FL system, the central server acts only as an orchestrator; it iteratively gathers and aggregates all the local models trained by each client on its private data until convergence. Although FL undoubtedly has several benefits over traditional ML (e.g., it protects private data ownership by design), it suffers from several weaknesses. One of the most critical challenges is to overcome the centralized orchestration of the classical FL client-server architecture, which is known to be vulnerable to single-point-of-failur
     
 
