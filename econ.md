@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Optimal Auction Design with Flexible Royalty Payments](https://arxiv.org/abs/2403.19945) | 通过提出具有灵活版税支付机制的设计，我们解决了许可证拍卖中的最优拍卖问题，赢家支付线性版税直至上限，并可能接受审计。 |
+| [^1] | [Identification and Estimation of a Semiparametric Logit Model using Network Data.](http://arxiv.org/abs/2310.07151) | 本文研究了半参数二元网络模型的识别和估计，提出了基于配对统计的估计方法，并通过蒙特卡洛模拟评估了该方法的性能。 |
 
 # 详细
 
-[^1]: 具有灵活版税支付的最优拍卖设计
+[^1]: 使用网络数据进行半参数逻辑模型的识别和估计
 
-    Optimal Auction Design with Flexible Royalty Payments
+    Identification and Estimation of a Semiparametric Logit Model using Network Data. (arXiv:2310.07151v1 [econ.EM])
 
-    [https://arxiv.org/abs/2403.19945](https://arxiv.org/abs/2403.19945)
+    [http://arxiv.org/abs/2310.07151](http://arxiv.org/abs/2310.07151)
 
-    通过提出具有灵活版税支付机制的设计，我们解决了许可证拍卖中的最优拍卖问题，赢家支付线性版税直至上限，并可能接受审计。
+    本文研究了半参数二元网络模型的识别和估计，提出了基于配对统计的估计方法，并通过蒙特卡洛模拟评估了该方法的性能。
 
     
 
-    我们研究了一种许可证拍卖的设计。每个参与者对自己赢得许可证后未来利润的信号。如果许可证被分配，赢家可以根据他报告的利润支付灵活的版税。委托人可以对赢家进行审计，这会产生成本，并对其收取有限的处罚。我们为最大化收入净审计成本的拍卖问题进行了求解。在这个拍卖中，赢家支付线性版税直至上限，超过上限则不再审计。一个更乐观的投标者会提前支付更多费用以换取较低的版税上限。
+    本文研究了半参数二元网络模型的识别和估计，其中未观测到的社会特征是内生的，即未观测到的个体特征影响了感兴趣的二元结果以及在网络内部形成联系的方式。潜在社会特征的确切函数形式是未知的。所提出的估计量是基于网络形成分布相同的匹配对之间的配对。提出了估计量的一致性和渐近分布。通过蒙特卡洛模拟评估了所提出的估计量的有限样本特性。最后，对该研究进行了实证应用。
 
-    arXiv:2403.19945v1 Announce Type: new  Abstract: We study the design of an auction for a license. Each agent has a signal about his future profit from winning the license. If the license is allocated, the winner can be charged a flexible royalty based on the profits he reports. The principal can audit the winner, at a cost, and charge limited penalties. We solve for the auction that maximizes revenue, net auditing costs. In this auction, the winner pays linear royalties up to a cap, beyond which there is no auditing. A more optimistic bidder pays more upfront in exchange for a lower royalty cap.
+    This paper studies the identification and estimation of a semiparametric binary network model in which the unobserved social characteristic is endogenous, that is, the unobserved individual characteristic influences both the binary outcome of interest and how links are formed within the network. The exact functional form of the latent social characteristic is not known. The proposed estimators are obtained based on matching pairs of agents whose network formation distributions are the same. The consistency and the asymptotic distribution of the estimators are proposed. The finite sample properties of the proposed estimators in a Monte-Carlo simulation are assessed. We conclude this study with an empirical application.
     
 

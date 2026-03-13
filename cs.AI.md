@@ -2,52 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Personalizing explanations of AI-driven hints to users cognitive abilities: an empirical evaluation](https://arxiv.org/abs/2403.04035) | 该研究调查了如何个性化智能辅导系统生成的提示的解释，以帮助促进学生学习，实证结果表明，该个性化方法显著提高了目标用户与提示解释的互动、理解和学习效果。 |
-| [^2] | [Assessment of Reinforcement Learning for Macro Placement.](http://arxiv.org/abs/2302.11014) | 本论文提供了基于强化学习的宏观布局方法以及Circuit Training (CT)实现的开源代码和评估。研究人员评估了CT相对于多个可替代的宏观布局方法，并进行了学术性混合尺寸布局基准测试和消融和稳定性研究，为未来的相关研究提供了方向。 |
-| [^3] | [Increasing Fairness via Combination with Learning Guarantees.](http://arxiv.org/abs/2301.10813) | 该论文提出了一种公平质量度量方法，名为判别风险，旨在反映个体和群体公平性。此外，研究者还讨论了公平性是否可以在理论上得到保证。 |
+| [^1] | [Partially Recentralization Softmax Loss for Vision-Language Models Robustness](https://arxiv.org/abs/2402.03627) | 本文研究了通过修改预训练多模态模型的损失函数来提高对抗鲁棒性，通过限制前K个softmax输出。实验结果表明，经过微调后，模型的对抗鲁棒性显著提高，能够有效抵御常见的攻击。 |
+| [^2] | [A Multi-Perspective Machine Learning Approach to Evaluate Police-Driver Interaction in Los Angeles](https://arxiv.org/abs/2402.01703) | 该研究提出了一种多角度的机器学习方法，用于分析洛杉矶警察与司机的互动。该方法利用多模态的数据包括音频、视频和文字信息，旨在提供对复杂和有争议的警民互动的分析工具。 |
+| [^3] | [Domain-Independent Dynamic Programming.](http://arxiv.org/abs/2401.13883) | 本文提出了一种领域无关的动态规划方法，并介绍了基于状态转移系统的动态规划描述语言。实验证明，该方法在许多组合优化问题上优于传统的混合整数规划和约束规划方法。 |
 
 # 详细
 
-[^1]: 个性化AI驱动提示对用户认知能力的解释：一项实证评估
+[^1]: 近似的中心化softmax损失用于视觉-语言模型的鲁棒性
 
-    Personalizing explanations of AI-driven hints to users cognitive abilities: an empirical evaluation
+    Partially Recentralization Softmax Loss for Vision-Language Models Robustness
 
-    [https://arxiv.org/abs/2403.04035](https://arxiv.org/abs/2403.04035)
+    [https://arxiv.org/abs/2402.03627](https://arxiv.org/abs/2402.03627)
 
-    该研究调查了如何个性化智能辅导系统生成的提示的解释，以帮助促进学生学习，实证结果表明，该个性化方法显著提高了目标用户与提示解释的互动、理解和学习效果。
-
-    
-
-    我们调查了个性化解释智能辅导系统生成的提示，以证明它们提供提示促进学生学习的有效性。个性化针对具有两种特征（认知需求和认真度）较低水平的学生，旨在增强这些学生对解释的参与，基于先前研究发现，这些学生不会自然参与解释，但如果他们这样做将会受益。为了评估个性化的有效性，我们进行了一项用户研究，我们发现我们提出的个性化显著增加了我们目标用户与提示解释的互动、他们对提示的理解以及他们的学习。因此，这项工作为个性化AI驱动解释提供了有价值的见解，适用于如学习等认知要求高的任务。
-
-    arXiv:2403.04035v1 Announce Type: new  Abstract: We investigate personalizing the explanations that an Intelligent Tutoring System generates to justify the hints it provides to students to foster their learning. The personalization targets students with low levels of two traits, Need for Cognition and Conscientiousness, and aims to enhance these students' engagement with the explanations, based on prior findings that these students do not naturally engage with the explanations but they would benefit from them if they do. To evaluate the effectiveness of the personalization, we conducted a user study where we found that our proposed personalization significantly increases our target users' interaction with the hint explanations, their understanding of the hints and their learning. Hence, this work provides valuable insights into effectively personalizing AI-driven explanations for cognitively demanding tasks such as learning.
-    
-[^2]: 强化学习在宏观布局中的评估
-
-    Assessment of Reinforcement Learning for Macro Placement. (arXiv:2302.11014v2 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2302.11014](http://arxiv.org/abs/2302.11014)
-
-    本论文提供了基于强化学习的宏观布局方法以及Circuit Training (CT)实现的开源代码和评估。研究人员评估了CT相对于多个可替代的宏观布局方法，并进行了学术性混合尺寸布局基准测试和消融和稳定性研究，为未来的相关研究提供了方向。
+    本文研究了通过修改预训练多模态模型的损失函数来提高对抗鲁棒性，通过限制前K个softmax输出。实验结果表明，经过微调后，模型的对抗鲁棒性显著提高，能够有效抵御常见的攻击。
 
     
 
-    我们提供了Google Brain深度强化学习方法在宏观布局及其Circuit Training (CT)实现的开放透明实现和评估，并在GitHub中实现了CT的关键"黑盒"元素，澄清了CT与Nature论文之间的差异。我们开发并发布了新的对开放实现的测试用例。我们评估了CT及多个可替代的宏观布局方法，所有的评估流程和相关脚本都在GitHub上公开。我们的实验还包括了学术性混合尺寸布局基准测试，以及消融和稳定性研究。我们评论了Nature和CT的影响，以及未来研究的方向。
+    随着大型语言模型在自然语言处理任务中的突破，多模态技术变得非常流行。然而，已经证明多模态自然语言处理模型容易受到对抗攻击，即模型的输出可以通过对输入进行微小扰动而发生巨大变化。虽然计算机视觉和自然语言处理模型中已经提出了几种防御技术，但对多模态模型的鲁棒性还没有进行充分探索。在本文中，我们研究了通过修改预训练多模态模型的损失函数，通过限制前K个softmax输出来提供的对抗鲁棒性。基于评估和评分，我们的实验结果显示，在经过微调后，预训练模型的对抗鲁棒性可以显着提高，对抗常见的攻击有效。进一步的研究应该探索这类损失函数的输出多样性、泛化能力以及鲁棒性和性能之间的平衡。我们的代码将在之后提供。
 
-    We provide open, transparent implementation and assessment of Google Brain's deep reinforcement learning approach to macro placement and its Circuit Training (CT) implementation in GitHub. We implement in open source key "blackbox" elements of CT, and clarify discrepancies between CT and Nature paper. New testcases on open enablements are developed and released. We assess CT alongside multiple alternative macro placers, with all evaluation flows and related scripts public in GitHub. Our experiments also encompass academic mixed-size placement benchmarks, as well as ablation and stability studies. We comment on the impact of Nature and CT, as well as directions for future research.
+    As Large Language Models make a breakthrough in natural language processing tasks (NLP), multimodal technique becomes extremely popular. However, it has been shown that multimodal NLP are vulnerable to adversarial attacks, where the outputs of a model can be dramatically changed by a perturbation to the input. While several defense techniques have been proposed both in computer vision and NLP models, the multimodal robustness of models have not been fully explored. In this paper, we study the adversarial robustness provided by modifying loss function of pre-trained multimodal models, by restricting top K softmax outputs. Based on the evaluation and scoring, our experiments show that after a fine-tuning, adversarial robustness of pre-trained models can be significantly improved, against popular attacks. Further research should be studying, such as output diversity, generalization and the robustness-performance trade-off of this kind of loss functions. Our code will be available after th
     
-[^3]: 通过学习保证提高公平性
+[^2]: 一种多角度的机器学习方法用于评估洛杉矶警察与司机的互动
 
-    Increasing Fairness via Combination with Learning Guarantees. (arXiv:2301.10813v2 [cs.LG] UPDATED)
+    A Multi-Perspective Machine Learning Approach to Evaluate Police-Driver Interaction in Los Angeles
 
-    [http://arxiv.org/abs/2301.10813](http://arxiv.org/abs/2301.10813)
+    [https://arxiv.org/abs/2402.01703](https://arxiv.org/abs/2402.01703)
 
-    该论文提出了一种公平质量度量方法，名为判别风险，旨在反映个体和群体公平性。此外，研究者还讨论了公平性是否可以在理论上得到保证。
+    该研究提出了一种多角度的机器学习方法，用于分析洛杉矶警察与司机的互动。该方法利用多模态的数据包括音频、视频和文字信息，旨在提供对复杂和有争议的警民互动的分析工具。
 
     
 
-    随着机器学习系统在越来越多的现实场景中得到广泛应用，对于隐藏在机器学习模型中的潜在歧视的担忧正在增加。许多技术已经被开发出来以增强公平性，包括常用的群体公平性度量和几种结合集成学习的公平感知方法。然而，现有的公平度量只能关注其中之一，即群体公平性或个体公平性，它们之间的硬性兼容性暗示了即使其中之一得到满足，仍可能存在偏见。此外，现有的提升公平性的机制通常只提供经验结果来证明其有效性，但很少有论文讨论公平性是否可以在理论上得到保证。为了解决这些问题，本文提出了一种公平质量度量方法——判别风险，以反映个体和群体公平性两个方面。此外，我们还研究了p...
+    政府官员与市民之间的互动影响公共福祉和民主社会的正当性。警察是国家最显而易见、最接触市民的代理人，在交通站停期间，他们每年与公众互动超过2000万次。如今，这些互动经常被戴在身上的摄像机记录下来，这被视为提高警察问责制和改善警民互动的手段。然而，由于缺乏可靠的自动化工具来分析这些复杂而有争议的警民互动，这些记录的及时分析受到了阻碍。本文提出了一种新的多角度、多模态机器学习（ML）工具的方法，用于分析来自这些身上摄像机记录的音频、视频和文字信息。我们的方法首先确定与不同利益相关者最相关的沟通方面，包括共同感知互动的标志标记以及具有这些标记的符号。
 
-    The concern about underlying discrimination hidden in ML models is increasing, as ML systems have been widely applied in more and more real-world scenarios and any discrimination hidden in them will directly affect human life. Many techniques have been developed to enhance fairness including commonly-used group fairness measures and several fairness-aware methods combining ensemble learning. However, existing fairness measures can only focus on one aspect -- either group or individual fairness, and the hard compatibility among them indicates a possibility of remaining biases even if one of them is satisfied. Moreover, existing mechanisms to boost fairness usually present empirical results to show validity, yet few of them discuss whether fairness can be boosted with certain theoretical guarantees. To address these issues, we propose a fairness quality measure named discriminative risk in this paper to reflect both individual and group fairness aspects. Furthermore, we investigate the p
+    Interactions between the government officials and civilians affect public wellbeing and the state legitimacy that is necessary for the functioning of democratic society. Police officers, the most visible and contacted agents of the state, interact with the public more than 20 million times a year during traffic stops. Today, these interactions are regularly recorded by body-worn cameras (BWCs), which are lauded as a means to enhance police accountability and improve police-public interactions. However, the timely analysis of these recordings is hampered by a lack of reliable automated tools that can enable the analysis of these complex and contested police-public interactions. This article proposes an approach to developing new multi-perspective, multimodal machine learning (ML) tools to analyze the audio, video, and transcript information from this BWC footage. Our approach begins by identifying the aspects of communication most salient to different stakeholders, including both commun
+    
+[^3]: 领域无关的动态规划方法
+
+    Domain-Independent Dynamic Programming. (arXiv:2401.13883v1 [cs.AI])
+
+    [http://arxiv.org/abs/2401.13883](http://arxiv.org/abs/2401.13883)
+
+    本文提出了一种领域无关的动态规划方法，并介绍了基于状态转移系统的动态规划描述语言。实验证明，该方法在许多组合优化问题上优于传统的混合整数规划和约束规划方法。
+
+    
+
+    对于组合优化问题，基于模型的范例如混合整数规划 (MIP) 和约束规划 (CP) 旨在解耦问题的建模和求解过程，这是声明性问题求解的“圣杯”。我们提出了领域无关的动态规划（DIDP），这是一种基于动态规划 (DP) 的新的基于模型的方法。虽然DP并不新鲜，但通常它被作为一种特定问题的方法来实现。我们引入了动态规划描述语言 (DyPDL)，一种基于状态转移系统的形式化语言，灵感来自于AI规划。我们展示了启发式搜索算法可以用来求解DyPDL模型，并提出了七种DIDP求解器。我们在常见的11个组合优化问题类别的基准实例上，将我们的DIDP求解器与商业MIP和CP求解器进行了实验比较（分别求解MIP和CP模型）。结果显示DIDP在九个问题类别中优于MIP，也优于CP在九个问题类别中。
+
+    For combinatorial optimization problems, model-based paradigms such as mixed-integer programming (MIP) and constraint programming (CP) aim to decouple modeling and solving a problem: the `holy grail' of declarative problem solving. We propose domain-independent dynamic programming (DIDP), a new model-based paradigm based on dynamic programming (DP). While DP is not new, it has typically been implemented as a problem-specific method. We introduce Dynamic Programming Description Language (DyPDL), a formalism to define DP models based on a state transition system, inspired by AI planning. We show that heuristic search algorithms can be used to solve DyPDL models and propose seven DIDP solvers. We experimentally compare our DIDP solvers with commercial MIP and CP solvers (solving MIP and CP models, respectively) on common benchmark instances of eleven combinatorial optimization problem classes. We show that DIDP outperforms MIP in nine problem classes, CP also in nine problem classes, and 
     
 
