@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Tight Non-asymptotic Inference via Sub-Gaussian Intrinsic Moment Norm.](http://arxiv.org/abs/2303.07287) | 本文提出了一种通过最大化一系列归一化矩来使用子高斯内在矩范实现紧凑的非渐进推断的方法，该方法可以导致更紧的Hoeffding子高斯浓度不等式，并且可以通过子高斯图检查具有有限样本大小的子高斯数据。 |
+| [^1] | [The Heterogeneous Earnings Impact of Job Loss Across Workers, Establishments, and Markets.](http://arxiv.org/abs/2307.06684) | 这项研究利用广义随机森林和瑞典行政数据发现，工作丧失对不同工人、企业和市场的收入影响具有极大的异质性。对受影响程度最大的工人而言，失去的工作使其每年收入损失50%，十年期间累计损失达到250%。对受影响程度最小的工人而言，仅遭受边际损失不到6%。总体而言，这些影响在企业内部和不同个体特征之间都存在差异。 |
 
 # 详细
 
-[^1]: 通过子高斯内在矩范实现紧凑的非渐进推断
+[^1]: 工作丧失对不同工人、企业和市场的收入影响异质性研究
 
-    Tight Non-asymptotic Inference via Sub-Gaussian Intrinsic Moment Norm. (arXiv:2303.07287v1 [stat.ML])
+    The Heterogeneous Earnings Impact of Job Loss Across Workers, Establishments, and Markets. (arXiv:2307.06684v1 [econ.GN])
 
-    [http://arxiv.org/abs/2303.07287](http://arxiv.org/abs/2303.07287)
+    [http://arxiv.org/abs/2307.06684](http://arxiv.org/abs/2307.06684)
 
-    本文提出了一种通过最大化一系列归一化矩来使用子高斯内在矩范实现紧凑的非渐进推断的方法，该方法可以导致更紧的Hoeffding子高斯浓度不等式，并且可以通过子高斯图检查具有有限样本大小的子高斯数据。
+    这项研究利用广义随机森林和瑞典行政数据发现，工作丧失对不同工人、企业和市场的收入影响具有极大的异质性。对受影响程度最大的工人而言，失去的工作使其每年收入损失50%，十年期间累计损失达到250%。对受影响程度最小的工人而言，仅遭受边际损失不到6%。总体而言，这些影响在企业内部和不同个体特征之间都存在差异。
 
-    This paper proposes a method of achieving tight non-asymptotic inference by using sub-Gaussian intrinsic moment norm through maximizing a series of normalized moments, which can lead to tighter Hoeffding's sub-Gaussian concentration inequalities and can be checked with sub-Gaussian plot for sub-Gaussian data with a finite sample size.
+    
 
-    在非渐进统计推断中，子高斯分布的方差类型参数起着至关重要的作用。然而，基于经验矩生成函数（MGF）的直接估计这些参数是不可行的。为此，我们建议通过最大化一系列归一化矩来使用子高斯内在矩范[Buldygin和Kozachenko（2000），定理1.3]。重要的是，推荐的范数不仅可以恢复相应MGF的指数矩界限，而且还可以导致更紧的Hoeffding子高斯浓度不等式。在实践中，我们提出了一种直观的方法，通过子高斯图检查具有有限样本大小的子高斯数据。可以通过简单的插入方法鲁棒地估计内在矩范数。我们的理论结果应用于非渐进分析，包括多臂赌博机。
+    使用广义随机森林和丰富的瑞典行政数据，我们发现由于企业关闭而导致的工作失去的收入影响在工人、企业和市场之间存在极大的异质性。受影响程度最大的十分位工人在失业后的一年内会损失50%的年收入，并且在十年期间累计损失达到250%。相反，受影响程度最小的十分位工人在失业后的一年内只会遭受不到6%的边际损失。受影响程度最大的十分位工人往往是低薪工人且薪资出现负增长趋势。这意味着对于低收入工人而言，（失去的）就业的经济价值是最大的。原因是许多这些工人在失业后未能找到新的工作。总体而言，这些影响在企业内部和不同重要个体特征（如年龄和受教育程度）之间都存在异质性。
 
-    In non-asymptotic statistical inferences, variance-type parameters of sub-Gaussian distributions play a crucial role. However, direct estimation of these parameters based on the empirical moment generating function (MGF) is infeasible. To this end, we recommend using a sub-Gaussian intrinsic moment norm [Buldygin and Kozachenko (2000), Theorem 1.3] through maximizing a series of normalized moments. Importantly, the recommended norm can not only recover the exponential moment bounds for the corresponding MGFs, but also lead to tighter Hoeffding's sub-Gaussian concentration inequalities. In practice, {\color{black} we propose an intuitive way of checking sub-Gaussian data with a finite sample size by the sub-Gaussian plot}. Intrinsic moment norm can be robustly estimated via a simple plug-in approach. Our theoretical results are applied to non-asymptotic analysis, including the multi-armed bandit.
+    Using generalized random forests and rich Swedish administrative data, we show that the earnings effects of job displacement due to establishment closures are extremely heterogeneous across workers, establishments, and markets. The decile of workers with the largest predicted effects lose 50 percent of annual earnings the year after displacement and accumulated losses amount to 250 percent during a decade. In contrast, workers in the least affected decile experience only marginal losses of less than 6 percent in the year after displacement. Workers in the most affected decile tend to be lower paid workers on negative earnings trajectories. This implies that the economic value of (lost) jobs is greatest for workers with low earnings. The reason is that many of these workers fail to find new employment after displacement. Overall, the effects are heterogeneous both within and across establishments and combinations of important individual characteristics such as age and schooling. Adverse
     
 

@@ -2,37 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Partially Recentralization Softmax Loss for Vision-Language Models Robustness](https://arxiv.org/abs/2402.03627) | 本文研究了通过修改预训练多模态模型的损失函数来提高对抗鲁棒性，通过限制前K个softmax输出。实验结果表明，经过微调后，模型的对抗鲁棒性显著提高，能够有效抵御常见的攻击。 |
-| [^2] | [Superiority of Softmax: Unveiling the Performance Edge Over Linear Attention.](http://arxiv.org/abs/2310.11685) | 通过对softmax和线性注意力机制进行全面比较分析，本论文揭示了softmax注意力在大多数情况下优于线性注意力的潜在原因。 |
+| [^1] | [PARAMANU-AYN: An Efficient Novel Generative and Instruction-tuned Language Model for Indian Legal Case Documents](https://arxiv.org/abs/2403.13681) | PARAMANU-AYN是一种基于印度法律案例文件的高效生成式语言模型，采用自回归解码器进行预训练，并经过面向指令的微调，在各种法律任务上取得了良好表现。 |
 
 # 详细
 
-[^1]: 近似的中心化softmax损失用于视觉-语言模型的鲁棒性
+[^1]: PARAMANU-AYN：一种有效的新型生成式、面向印度法律案例文件的语言模型
 
-    Partially Recentralization Softmax Loss for Vision-Language Models Robustness
+    PARAMANU-AYN: An Efficient Novel Generative and Instruction-tuned Language Model for Indian Legal Case Documents
 
-    [https://arxiv.org/abs/2402.03627](https://arxiv.org/abs/2402.03627)
+    [https://arxiv.org/abs/2403.13681](https://arxiv.org/abs/2403.13681)
 
-    本文研究了通过修改预训练多模态模型的损失函数来提高对抗鲁棒性，通过限制前K个softmax输出。实验结果表明，经过微调后，模型的对抗鲁棒性显著提高，能够有效抵御常见的攻击。
-
-    
-
-    随着大型语言模型在自然语言处理任务中的突破，多模态技术变得非常流行。然而，已经证明多模态自然语言处理模型容易受到对抗攻击，即模型的输出可以通过对输入进行微小扰动而发生巨大变化。虽然计算机视觉和自然语言处理模型中已经提出了几种防御技术，但对多模态模型的鲁棒性还没有进行充分探索。在本文中，我们研究了通过修改预训练多模态模型的损失函数，通过限制前K个softmax输出来提供的对抗鲁棒性。基于评估和评分，我们的实验结果显示，在经过微调后，预训练模型的对抗鲁棒性可以显着提高，对抗常见的攻击有效。进一步的研究应该探索这类损失函数的输出多样性、泛化能力以及鲁棒性和性能之间的平衡。我们的代码将在之后提供。
-
-    As Large Language Models make a breakthrough in natural language processing tasks (NLP), multimodal technique becomes extremely popular. However, it has been shown that multimodal NLP are vulnerable to adversarial attacks, where the outputs of a model can be dramatically changed by a perturbation to the input. While several defense techniques have been proposed both in computer vision and NLP models, the multimodal robustness of models have not been fully explored. In this paper, we study the adversarial robustness provided by modifying loss function of pre-trained multimodal models, by restricting top K softmax outputs. Based on the evaluation and scoring, our experiments show that after a fine-tuning, adversarial robustness of pre-trained models can be significantly improved, against popular attacks. Further research should be studying, such as output diversity, generalization and the robustness-performance trade-off of this kind of loss functions. Our code will be available after th
-    
-[^2]: Softmax的优越性：揭示其相对于线性注意力的性能优势
-
-    Superiority of Softmax: Unveiling the Performance Edge Over Linear Attention. (arXiv:2310.11685v1 [cs.CL])
-
-    [http://arxiv.org/abs/2310.11685](http://arxiv.org/abs/2310.11685)
-
-    通过对softmax和线性注意力机制进行全面比较分析，本论文揭示了softmax注意力在大多数情况下优于线性注意力的潜在原因。
+    PARAMANU-AYN是一种基于印度法律案例文件的高效生成式语言模型，采用自回归解码器进行预训练，并经过面向指令的微调，在各种法律任务上取得了良好表现。
 
     
 
-    大型Transformer模型在许多自然语言处理任务中取得了最先进的结果。在Transformer架构的重要组成部分中，注意力机制通过利用softmax函数捕捉序列中的标记交互起着关键作用。相反，线性注意力通过线性复杂度近似softmax操作，提供了一种计算效率更高的替代方法。然而，与传统的softmax注意力机制相比，它在性能上表现出明显的降级。在本文中，我们对这两种注意力机制进行了全面的比较分析，揭示了softmax注意力在大多数情况下优于线性注意力的潜在原因。
+    在这篇论文中，我们介绍了PARAMANU-AYN，这是一个仅基于印度最高法院案例文件、印度宪法和印度刑法的语言模型。这种新颖的基于自回归（AR）解码器的模型是从头开始在上下文大小为8192的情况下进行预训练的。我们在困惑度指标上评估了我们的预训练法律模型。我们还对一组包括各种法律任务（如法律推理、判决解释、法律条款生成、法律草拟、法律合同草拟、案件摘要、宪法问题回答等）的10,763条指令进行了针对性训练。我们还通过GPT-3.5-Turbo对面向指令的模型的提示响应进行了在10分制度上的清晰度、相关性、完整性和法律推理指标的评估。我们的模型可以在CPU上运行，并实现每秒42.46个令牌的CPU推理速度。
 
-    Large transformer models have achieved state-of-the-art results in numerous natural language processing tasks. Among the pivotal components of the transformer architecture, the attention mechanism plays a crucial role in capturing token interactions within sequences through the utilization of softmax function.  Conversely, linear attention presents a more computationally efficient alternative by approximating the softmax operation with linear complexity. However, it exhibits substantial performance degradation when compared to the traditional softmax attention mechanism.  In this paper, we bridge the gap in our theoretical understanding of the reasons behind the practical performance gap between softmax and linear attention. By conducting a comprehensive comparative analysis of these two attention mechanisms, we shed light on the underlying reasons for why softmax attention outperforms linear attention in most scenarios.
+    arXiv:2403.13681v1 Announce Type: new  Abstract: In this paper, we present PARAMANU-AYN, a language model based exclusively on case documents of the Supreme Court of India, the Constitution of India, and the Indian Penal Code. The novel Auto Regressive (AR) decoder based model is pretrained from scratch at a context size of 8192. We evaluated our pretrained legal model on perplexity metrics. We also instruction-tuned our pretrained model on a set of 10,763 instructions covering various legal tasks such as legal reasoning, judgement explanation, legal clause generation, legal drafting, legal contract drafting, case summarization, constitutional question-answering, etc. We also evaluated the responses of prompts for instruction-tuned models by GPT-3.5-Turbo on clarity, relevance, completeness, and legal reasoning metrics in a scale of 10. Our model can be run on CPU and achieved 42.46 tokens/sec CPU inference speed. We found that our models, despite not being pretrained on legal books, v
     
 
