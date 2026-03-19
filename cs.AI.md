@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Deformation-Invariant Neural Network and Its Applications in Distorted Image Restoration and Analysis.](http://arxiv.org/abs/2310.02641) | 本文提出了一种弹性不变神经网络（DINN）用于处理受到几何形变影响的图像的图像处理任务。DINN通过融入拟保形变换网络（QCTN）来输出一致的潜在特征，使得具有相同原始对象或场景的几何形变图像能够更接近自然或良好图像分布。 |
+| [^1] | [Full Characterization of Adaptively Strong Majority Voting in Crowdsourcing.](http://arxiv.org/abs/2111.06390) | 本研究通过利用吸收式马尔可夫链对众包中自适应强多数投票进行建模和分析，得出了该投票过程的一些重要特征，包括共识投票的质量、投票数和需求的方差等。研究结果显示，可以通过调整阈值来实现在不同准确性水平的工人参与的投票过程中的质量等效。 |
 
 # 详细
 
-[^1]: 弹性不变神经网络及其在变形图像恢复和分析中的应用
+[^1]: 众包中自适应强多数投票的全面特征化
 
-    Deformation-Invariant Neural Network and Its Applications in Distorted Image Restoration and Analysis. (arXiv:2310.02641v1 [cs.CV])
+    Full Characterization of Adaptively Strong Majority Voting in Crowdsourcing. (arXiv:2111.06390v2 [stat.AP] UPDATED)
 
-    [http://arxiv.org/abs/2310.02641](http://arxiv.org/abs/2310.02641)
+    [http://arxiv.org/abs/2111.06390](http://arxiv.org/abs/2111.06390)
 
-    本文提出了一种弹性不变神经网络（DINN）用于处理受到几何形变影响的图像的图像处理任务。DINN通过融入拟保形变换网络（QCTN）来输出一致的潜在特征，使得具有相同原始对象或场景的几何形变图像能够更接近自然或良好图像分布。
+    本研究通过利用吸收式马尔可夫链对众包中自适应强多数投票进行建模和分析，得出了该投票过程的一些重要特征，包括共识投票的质量、投票数和需求的方差等。研究结果显示，可以通过调整阈值来实现在不同准确性水平的工人参与的投票过程中的质量等效。
 
     
 
-    受到几何形变影响的图像对于目标识别等图像处理和计算机视觉任务来说是一个重要的挑战。基于深度学习的图像模型通常无法对几何形变图像给出准确的性能。本文中，我们提出了一种弹性不变神经网络（DINN），用于解决几何形变图像的图像处理任务。DINN为几何形变图像输出一致的潜在特征，这些图像具有相同的原始对象或场景。DINN的思想是将一个简单的组件，称为拟保形变换网络（QCTN），融入到其他现有的深度网络中进行图像处理任务。QCTN是一个深度神经网络，它输出一个拟保形映射，可以将几何形变的图像转换为更接近自然或良好图像分布的改进版本。它首先输出一个贝尔特拉密系数，用于衡量拟保形映射的效果。
+    在众包中，通过让工人检查项目并对其正确性进行投票，可以实现质量控制。为了最小化不可靠工人响应的影响，采用了一个$\delta$-边界投票过程，直到超过了工人之间达成一致的预定阈值$\delta$为止，额外的投票将被征求意见。该过程被广泛采用，但仅作为一种经验法则。我们的研究提出了一种利用吸收式马尔可夫链来分析在众包过程中与这种投票过程相关的特征的建模方法。我们提供了一种闭式方程，用于描述所得出的共识投票的质量、达成共识所需的平均投票数、投票需求的方差和其他分布矩。我们的研究结果表明，可以调整阈值$\delta$以实现在使用具有不同准确性水平的工人的投票过程中的质量等效。我们还提供了与投票过程效率相等的支付费率。
 
-    Images degraded by geometric distortions pose a significant challenge to imaging and computer vision tasks such as object recognition. Deep learning-based imaging models usually fail to give accurate performance for geometrically distorted images. In this paper, we propose the deformation-invariant neural network (DINN), a framework to address the problem of imaging tasks for geometrically distorted images. The DINN outputs consistent latent features for images that are geometrically distorted but represent the same underlying object or scene. The idea of DINN is to incorporate a simple component, called the quasiconformal transformer network (QCTN), into other existing deep networks for imaging tasks. The QCTN is a deep neural network that outputs a quasiconformal map, which can be used to transform a geometrically distorted image into an improved version that is closer to the distribution of natural or good images. It first outputs a Beltrami coefficient, which measures the quasiconf
+    In crowdsourcing, quality control is commonly achieved by having workers examine items and vote on their correctness. To minimize the impact of unreliable worker responses, a $\delta$-margin voting process is utilized, where additional votes are solicited until a predetermined threshold $\delta$ for agreement between workers is exceeded. The process is widely adopted but only as a heuristic. Our research presents a modeling approach using absorbing Markov chains to analyze the characteristics of this voting process that matter in crowdsourced processes. We provide closed-form equations for the quality of resulting consensus vote, the expected number of votes required for consensus, the variance of vote requirements, and other distribution moments. Our findings demonstrate how the threshold $\delta$ can be adjusted to achieve quality equivalence across voting processes that employ workers with varying accuracy levels. We also provide efficiency-equalizing payment rates for voting proces
     
 

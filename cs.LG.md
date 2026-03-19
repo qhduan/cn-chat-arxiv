@@ -2,52 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Exact and efficient solutions of the LMC Multitask Gaussian Process model.](http://arxiv.org/abs/2310.12032) | LMC多任务高斯过程模型的精确解决方案表明，只需对噪声模型进行温和假设，即可实现高效计算。通过引入完整参数化的“投影LMC”模型和边缘似然函数表达式，展示了该方法相对于未经处理的方法的优异性能。 |
-| [^2] | [From structure mining to unsupervised exploration of atomic octahedral networks.](http://arxiv.org/abs/2306.12272) | 该论文提出了一种自动化的化学直觉算法，可以对配位八面体网络进行几何解析、量化和分类，并利用无监督机器学习对无机框架聚型进行分类。作者发现了ABO$_{3}$钙钛矿多形体系中的轴向倾斜趋势，并揭示了Pauling的第三条规则违反和设计原则的更新。 |
-| [^3] | [UNREAL:Unlabeled Nodes Retrieval and Labeling for Heavily-imbalanced Node Classification.](http://arxiv.org/abs/2303.10371) | 本文提出了一种用于重度不平衡节点分类的迭代过采样方法UNREAL，通过添加未标记节点而不是合成节点，解决了特征和邻域生成的难题，并利用节点嵌入空间中的无监督学习进行几何排名来有效地校准伪标签分配。 |
+| [^1] | [Selective Prediction for Semantic Segmentation using Post-Hoc Confidence Estimation and Its Performance under Distribution Shift](https://arxiv.org/abs/2402.10665) | 本文研究了在低资源环境中语义分割的选择性预测，提出了一种针对语义分割量身定制的新型图像级置信度测量，并通过实验证明了其有效性 |
+| [^2] | [QFT: Quantized Full-parameter Tuning of LLMs with Affordable Resources.](http://arxiv.org/abs/2310.07147) | 我们提出了一种新的QFT框架，可以对LLMs进行内存高效的全参数微调，而不损害性能。 |
 
 # 详细
 
-[^1]: LMC多任务高斯过程模型的精确和高效解决方案
+[^1]: 使用事后置信度估计的选择性预测在语义分割中的性能及其在分布偏移下的表现
 
-    Exact and efficient solutions of the LMC Multitask Gaussian Process model. (arXiv:2310.12032v1 [cs.LG])
+    Selective Prediction for Semantic Segmentation using Post-Hoc Confidence Estimation and Its Performance under Distribution Shift
 
-    [http://arxiv.org/abs/2310.12032](http://arxiv.org/abs/2310.12032)
+    [https://arxiv.org/abs/2402.10665](https://arxiv.org/abs/2402.10665)
 
-    LMC多任务高斯过程模型的精确解决方案表明，只需对噪声模型进行温和假设，即可实现高效计算。通过引入完整参数化的“投影LMC”模型和边缘似然函数表达式，展示了该方法相对于未经处理的方法的优异性能。
-
-    
-
-    线性共同关联模型（LMC）是一种非常通用的多任务高斯过程模型，用于回归或分类。虽然其表达能力和概念简单性很有吸引力，但朴素实现在数据点数量和任务数量方面具有立方复杂度，使得对大多数应用来说，必须进行近似处理。然而，最近的研究表明，在某些条件下，该模型的潜在过程可以解耦，导致仅与所述过程数量呈线性复杂度。我们在这里扩展了这些结果，从最一般的假设中展示了在LMC的高效精确计算所需的唯一条件是对噪声模型进行温和假设。我们引入了结果的完整参数化“投影LMC”模型，并给出了边缘似然函数的表达式，以实现高效的优化。我们对合成数据进行了参数研究，展示了我们方法相对于未经处理的方法的优异性能。
-
-    The Linear Model of Co-regionalization (LMC) is a very general model of multitask gaussian process for regression or classification. While its expressivity and conceptual simplicity are appealing, naive implementations have cubic complexity in the number of datapoints and number of tasks, making approximations mandatory for most applications. However, recent work has shown that under some conditions the latent processes of the model can be decoupled, leading to a complexity that is only linear in the number of said processes. We here extend these results, showing from the most general assumptions that the only condition necessary to an efficient exact computation of the LMC is a mild hypothesis on the noise model. We introduce a full parametrization of the resulting \emph{projected LMC} model, and an expression of the marginal likelihood enabling efficient optimization. We perform a parametric study on synthetic data to show the excellent performance of our approach, compared to an unr
-    
-[^2]: 从结构挖掘到无监督探索八面体原子网络
-
-    From structure mining to unsupervised exploration of atomic octahedral networks. (arXiv:2306.12272v1 [cond-mat.mtrl-sci])
-
-    [http://arxiv.org/abs/2306.12272](http://arxiv.org/abs/2306.12272)
-
-    该论文提出了一种自动化的化学直觉算法，可以对配位八面体网络进行几何解析、量化和分类，并利用无监督机器学习对无机框架聚型进行分类。作者发现了ABO$_{3}$钙钛矿多形体系中的轴向倾斜趋势，并揭示了Pauling的第三条规则违反和设计原则的更新。
+    本文研究了在低资源环境中语义分割的选择性预测，提出了一种针对语义分割量身定制的新型图像级置信度测量，并通过实验证明了其有效性
 
     
 
-    原子中心的配位八面体网络通常出现在无机和混合固态材料中。表征它们的空间排列和特性对于许多材料系列将结构与性质联系起来至关重要。传统的逐案例检查方法在发现大型数据集中的趋势和相似之处方面变得不可行。在这里，我们运用化学直觉自动化地进行几何解析、量化和分类配位八面体网络。我们在ABO$_{3}$钙钛矿多形体系中发现了轴向倾斜趋势，有助于检测氧化态变化。此外，我们开发了一个尺度不变的编码方案来表示这些网络，并与人类辅助的无监督机器学习相结合，可以对混合碘铅酸盐(A$_x$Pb$_y$I$_z$)中的无机框架聚型进行分类。因此，我们揭示了Pauling的第三条规则违反和设计原则ereotype0的更新。
+    语义分割在各种计算机视觉应用中扮演着重要角色，然而其有效性常常受到高质量标记数据的缺乏所限。为了解决这一挑战，一个常见策略是利用在不同种群上训练的模型，如公开可用的数据集。然而，这种方法导致了分布偏移问题，在兴趣种群上表现出降低的性能。在模型错误可能带来重大后果的情况下，选择性预测方法提供了一种减轻风险、减少对专家监督依赖的手段。本文研究了在资源匮乏环境下语义分割的选择性预测，着重于应用于在分布偏移下运行的预训练模型的事后置信度估计器。我们提出了一种针对语义分割量身定制的新型图像级置信度测量，并通过实验证明了其有效性。
 
-    Networks of atom-centered coordination octahedra commonly occur in inorganic and hybrid solid-state materials. Characterizing their spatial arrangements and characteristics is crucial for relating structures to properties for many materials families. The traditional method using case-by-case inspection becomes prohibitive for discovering trends and similarities in large datasets. Here, we operationalize chemical intuition to automate the geometric parsing, quantification, and classification of coordination octahedral networks. We find axis-resolved tilting trends in ABO$_{3}$ perovskite polymorphs, which assist in detecting oxidation state changes. Moreover, we develop a scale-invariant encoding scheme to represent these networks, which, combined with human-assisted unsupervised machine learning, allows us to taxonomize the inorganic framework polytypes in hybrid iodoplumbates (A$_x$Pb$_y$I$_z$). Consequently, we uncover a violation of Pauling's third rule and the design principles und
+    arXiv:2402.10665v1 Announce Type: new  Abstract: Semantic segmentation plays a crucial role in various computer vision applications, yet its efficacy is often hindered by the lack of high-quality labeled data. To address this challenge, a common strategy is to leverage models trained on data from different populations, such as publicly available datasets. This approach, however, leads to the distribution shift problem, presenting a reduced performance on the population of interest. In scenarios where model errors can have significant consequences, selective prediction methods offer a means to mitigate risks and reduce reliance on expert supervision. This paper investigates selective prediction for semantic segmentation in low-resource settings, thus focusing on post-hoc confidence estimators applied to pre-trained models operating under distribution shift. We propose a novel image-level confidence measure tailored for semantic segmentation and demonstrate its effectiveness through expe
     
-[^3]: UNREAL: 用于重度不平衡节点分类的未标记节点检索和标记方法
+[^2]: QFT: 使用可承担资源对LLMs进行量化全参数调整
 
-    UNREAL:Unlabeled Nodes Retrieval and Labeling for Heavily-imbalanced Node Classification. (arXiv:2303.10371v1 [cs.LG])
+    QFT: Quantized Full-parameter Tuning of LLMs with Affordable Resources. (arXiv:2310.07147v1 [cs.CL])
 
-    [http://arxiv.org/abs/2303.10371](http://arxiv.org/abs/2303.10371)
+    [http://arxiv.org/abs/2310.07147](http://arxiv.org/abs/2310.07147)
 
-    本文提出了一种用于重度不平衡节点分类的迭代过采样方法UNREAL，通过添加未标记节点而不是合成节点，解决了特征和邻域生成的难题，并利用节点嵌入空间中的无监督学习进行几何排名来有效地校准伪标签分配。
+    我们提出了一种新的QFT框架，可以对LLMs进行内存高效的全参数微调，而不损害性能。
 
     
 
-    在现实世界的节点分类任务中，极度倾斜的标签分布很常见。如果不合适地处理，这对少数类别的GNNs性能会有极大的影响。由于其实用性，最近一系列的研究都致力于解决这个难题。现有的过采样方法通过产生“假”的少数节点和合成其特征和局部拓扑来平滑标签分布，这在很大程度上忽略了图上未标记节点的丰富信息。在本文中，我们提出了UNREAL，一种迭代过采样方法。第一个关键区别在于，我们只添加未标记节点而不是合成节点，这消除了特征和邻域生成的挑战。为了选择要添加的未标记节点，我们提出了几何排名来对未标记节点进行排名。几何排名利用节点嵌入空间中的无监督学习来有效地校准伪标签分配。最后，我们确定了问题。
+    大型语言模型（LLMs）在自然语言处理任务中展示出了显著的影响。对这些预训练模型进行微调可以进一步提高性能，但由于其巨大的资源需求，这一过程具有挑战性。为此，现有的努力都集中在参数高效的微调上，不幸的是，它们没有充分发挥全参数微调的潜力。在这项工作中，我们提出了QFT，一种新颖的用于LLMs的量化全参数调整框架，可以在不损害性能的情况下实现高效的内存微调。我们的框架包括两个新颖的思想：（i）我们采用高效的Lion优化器，仅跟踪动量并具有每个参数一致的更新幅度，这对于稳健的量化是一种内在优势；（ii）我们将所有模型状态进行量化，并以整数值存储，同时提供梯度流和参数更新的方法。
 
-    Extremely skewed label distributions are common in real-world node classification tasks. If not dealt with appropriately, it significantly hurts the performance of GNNs in minority classes. Due to its practical importance, there have been a series of recent research devoted to this challenge. Existing over-sampling techniques smooth the label distribution by generating ``fake'' minority nodes and synthesizing their features and local topology, which largely ignore the rich information of unlabeled nodes on graphs. In this paper, we propose UNREAL, an iterative over-sampling method. The first key difference is that we only add unlabeled nodes instead of synthetic nodes, which eliminates the challenge of feature and neighborhood generation. To select which unlabeled nodes to add, we propose geometric ranking to rank unlabeled nodes. Geometric ranking exploits unsupervised learning in the node embedding space to effectively calibrates pseudo-label assignment. Finally, we identify the issu
+    Large Language Models (LLMs) have showcased remarkable impacts across a wide spectrum of natural language processing tasks. Fine-tuning these pre-trained models on downstream datasets provides further significant performance gains, but this process has been challenging due to its extraordinary resource requirements. To this end, existing efforts focus on parameter-efficient fine-tuning, which, unfortunately, fail to capitalize on the powerful potential of full-parameter fine-tuning. In this work, we propose QFT, a novel Quantized Full-parameter Tuning framework for LLMs that enables memory-efficient fine-tuning without harming performance. Our framework incorporates two novel ideas: (i) we adopt the efficient Lion optimizer, which only keeps track of the momentum and has consistent update magnitudes for each parameter, an inherent advantage for robust quantization; and (ii) we quantize all model states and store them as integer values, and present a gradient flow and parameter update s
     
 
