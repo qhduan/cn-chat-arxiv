@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Designing Auctions when Algorithms Learn to Bid: The critical role of Payment Rules.](http://arxiv.org/abs/2306.09437) | 本文研究了算法学习竞标时不同支付规则对效率的影响，发现支付规则对竞拍效率至关重要。 |
+| [^1] | [A Note on Cursed Sequential Equilibrium and Sequential Cursed Equilibrium.](http://arxiv.org/abs/2304.05515) | 本文比较了可恶的顺序均衡和顺序可恶的均衡，发现它们在适用的游戏族、自由参数数量、信念更新过程、公共历史处理、子博弈完美和顺序理性违反等方面存在不同。 |
 
 # 详细
 
-[^1]: 当算法学习竞标时的拍卖设计：支付规则的重要作用研究
+[^1]: 有关“可恶的顺序均衡”和“顺序可恶的均衡”的一个注记
 
-    Designing Auctions when Algorithms Learn to Bid: The critical role of Payment Rules. (arXiv:2306.09437v1 [econ.GN])
+    A Note on Cursed Sequential Equilibrium and Sequential Cursed Equilibrium. (arXiv:2304.05515v1 [econ.TH])
 
-    [http://arxiv.org/abs/2306.09437](http://arxiv.org/abs/2306.09437)
+    [http://arxiv.org/abs/2304.05515](http://arxiv.org/abs/2304.05515)
 
-    本文研究了算法学习竞标时不同支付规则对效率的影响，发现支付规则对竞拍效率至关重要。
+    本文比较了可恶的顺序均衡和顺序可恶的均衡，发现它们在适用的游戏族、自由参数数量、信念更新过程、公共历史处理、子博弈完美和顺序理性违反等方面存在不同。
 
     
 
-    本文研究了算法学习竞标时不同支付规则对效率的影响。我们进行了一个完全随机实验，进行了427次试验，其中Q-learning的竞标者参加了高达250,000次关于共同评估项的竞拍。我们的研究发现，第一价格拍卖，即胜利者支付获胜出价，容易受到协调竞标压制，胜出出价平均低于真实价值约20%。相比之下，第二价格拍卖，即胜利者支付第二高出价，使获胜出价与实际价值一致，减少学习期间的波动并加快收敛速度。回归分析考虑了诸如支付规则、参与人数、折扣和学习率等算法因素、异步/同步更新、反馈和探索策略等设计因素，发现支付规则对效率至关重要。此外，机器学习估计器发现，支付规则甚至比其他因素更加重要。
+    在本短文中，我们比较了Fong等人提出的可恶的顺序均衡(CSE)和Cohen和Li提出的顺序可恶的均衡(SCE)。我们发现CSE和SCE在以下方面存在八个主要差异：(1)适用的游戏族，(2)自由参数的数量，(3)信念更新过程，(4)公共历史的处理，(5)完全信息博弈的影响，(6)子博弈完美和顺序理性的违反，(7)动作的重新标记和(8)在一阶段同时行动博弈中的影响。
 
-    This paper examines the impact of different payment rules on efficiency when algorithms learn to bid. We use a fully randomized experiment of 427 trials, where Q-learning bidders participate in up to 250,000 auctions for a commonly valued item. The findings reveal that the first price auction, where winners pay the winning bid, is susceptible to coordinated bid suppression, with winning bids averaging roughly 20% below the true values. In contrast, the second price auction, where winners pay the second highest bid, aligns winning bids with actual values, reduces the volatility during learning and speeds up convergence. Regression analysis, incorporating design elements such as payment rules, number of participants, algorithmic factors including the discount and learning rate, asynchronous/synchronous updating, feedback, and exploration strategies, discovers the critical role of payment rules on efficiency. Furthermore, machine learning estimators find that payment rules matter even mor
+    In this short note, we compare the cursed sequential equilibrium (CSE) by Fong et al. (2023) and the sequential cursed equilibrium (SCE) by Cohen and Li (2023). We identify eight main differences between CSE and SCE with respect to the following features: (1) the family of applicable games, (2) the number of free parameters, (3) the belief updating process, (4) the treatment of public histories, (5) effects in games of complete information, (6) violations of subgame perfection and sequential rationality, (7) re-labeling of actions, and (8) effects in one-stage simultaneous-move games.
     
 
