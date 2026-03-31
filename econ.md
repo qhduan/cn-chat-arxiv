@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [The Effects of Incentives on Choices and Beliefs in Games: An Experiment.](http://arxiv.org/abs/2304.00412) | 本文研究激励对战略游戏中选择和信念的影响，通过实验证明在支配可解游戏中，更高的激励水平可以提高行动的复杂性和最佳响应率，并减少错误倾向；而在简单游戏中，更高自身激励会使信念更加准确。但是，具有更高激励水平的对手更难预测且信念也更加有偏见。研究还发现，激励可以影响认知努力和表现，其与选择和信念复杂性相关。 |
+| [^1] | [Non-robustness of diffusion estimates on networks with measurement error](https://arxiv.org/abs/2403.05704) | 测量误差对网络扩散估计产生了严重的非鲁棒性，即使误差很小，也会导致扩散程度被低估，并且初始种子的微小误差会大大改变预期扩散路径。 |
 
 # 详细
 
-[^1]: 激励对游戏中选择和信念的影响：一个实验
+[^1]: 测量误差对网络扩散估计的非鲁棒性
 
-    The Effects of Incentives on Choices and Beliefs in Games: An Experiment. (arXiv:2304.00412v1 [econ.TH])
+    Non-robustness of diffusion estimates on networks with measurement error
 
-    [http://arxiv.org/abs/2304.00412](http://arxiv.org/abs/2304.00412)
+    [https://arxiv.org/abs/2403.05704](https://arxiv.org/abs/2403.05704)
 
-    本文研究激励对战略游戏中选择和信念的影响，通过实验证明在支配可解游戏中，更高的激励水平可以提高行动的复杂性和最佳响应率，并减少错误倾向；而在简单游戏中，更高自身激励会使信念更加准确。但是，具有更高激励水平的对手更难预测且信念也更加有偏见。研究还发现，激励可以影响认知努力和表现，其与选择和信念复杂性相关。
+    测量误差对网络扩散估计产生了严重的非鲁棒性，即使误差很小，也会导致扩散程度被低估，并且初始种子的微小误差会大大改变预期扩散路径。
 
     
 
-    本文研究了一个实验，以确定激励水平对战略设置下选择和信念的因果效应，其中对手的行为被固定。在支配可解的游戏中，更高的激励水平增加了行动的复杂性和最佳响应率，并减少了错误倾向。在简单游戏中，更高自身激励往往使得信念更加准确。然而，具有更高激励水平的对手更难预测：当对手具有更高激励水平时，信念会跟踪对手的行为，但对对手的信念也会变得更加有偏见。我们提供证据表明激励影响了认知努力，并且更大的努力提高了表现，并且预测了选择和信念的复杂性。总的来说，数据支持将依赖于回报的错误与昂贵的推理相结合。
+    网络扩散模型被用于研究疾病传播、信息传播和技术采用等问题。然而，构建这些模型的网络中极有可能存在少量测量误差。我们展示了扩散估计对这种测量误差的非常非鲁棒性。首先，我们展示即使测量误差几乎可以忽略不计，错过链接的比例接近于零，关于扩散程度的预测也会大大低估真实情况。其次，初始种子身份的微小测量误差会导致预期扩散路径的位置发生很大偏移。我们展示了即使微小的测量误差只是局部性质，这两项结果仍然成立。即使在基础传播数可持续估计的条件下，预测中存在这种非鲁棒性。可能的解决方案，比如估计测量误差的方法。
 
-    How and why do incentive levels affect strategic behavior? This paper examines an experiment designed to identify the causal effect of scaling up incentives on choices and beliefs in strategic settings by holding fixed opponents' actions. In dominance-solvable games, higher incentives increase action sophistication and best-response rates and decrease mistake propensity. Beliefs tend to become more accurate with higher own incentives in simple games. However, opponents with higher incentive levels are harder to predict: while beliefs track opponents' behavior when they have higher incentive levels, beliefs about opponents also become more biased. We provide evidence that incentives affect cognitive effort and that greater effort increases performance and predicts choice and belief sophistication. Overall, the data lends support to combining both payoff-dependent mistakes and costly reasoning.
+    arXiv:2403.05704v1 Announce Type: new  Abstract: Network diffusion models are used to study things like disease transmission, information spread, and technology adoption. However, small amounts of mismeasurement are extremely likely in the networks constructed to operationalize these models. We show that estimates of diffusions are highly non-robust to this measurement error. First, we show that even when measurement error is vanishingly small, such that the share of missed links is close to zero, forecasts about the extent of diffusion will greatly underestimate the truth. Second, a small mismeasurement in the identity of the initial seed generates a large shift in the locations of expected diffusion path. We show that both of these results still hold when the vanishing measurement error is only local in nature. Such non-robustness in forecasting exists even under conditions where the basic reproductive number is consistently estimable. Possible solutions, such as estimating the measu
     
 
