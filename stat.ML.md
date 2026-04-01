@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Learning Expressive Priors for Generalization and Uncertainty Estimation in Neural Networks.](http://arxiv.org/abs/2307.07753) | 本文提出了一种用于神经网络的先验学习方法，通过利用可扩展和结构化的神经网络后验作为推广的信息先验，提高了神经网络的推广和不确定性估计能力。我们的方法在大规模上提供了表达性的概率表示，并产生了非空推广界限。我们的技术贡献是推导出可处理的目标函数，并提出了改进的推广界限计算方法。在经验上，我们证明了该方法在不确定性估计和推广方面的有效性。 |
+| [^1] | [Resampling Stochastic Gradient Descent Cheaply for Efficient Uncertainty Quantification.](http://arxiv.org/abs/2310.11065) | 本研究提出了两种低成本重采样的方法，用于构建随机梯度下降解的置信区间，这一方法可以有效减少计算工作量，并绕过现有方法中的混合条件。 |
 
 # 详细
 
-[^1]: 学习神经网络中的表达性先验，提高推广和不确定性估计
+[^1]: 低成本重采样随机梯度下降用于高效不确定性量化
 
-    Learning Expressive Priors for Generalization and Uncertainty Estimation in Neural Networks. (arXiv:2307.07753v1 [cs.LG])
+    Resampling Stochastic Gradient Descent Cheaply for Efficient Uncertainty Quantification. (arXiv:2310.11065v1 [stat.ML])
 
-    [http://arxiv.org/abs/2307.07753](http://arxiv.org/abs/2307.07753)
+    [http://arxiv.org/abs/2310.11065](http://arxiv.org/abs/2310.11065)
 
-    本文提出了一种用于神经网络的先验学习方法，通过利用可扩展和结构化的神经网络后验作为推广的信息先验，提高了神经网络的推广和不确定性估计能力。我们的方法在大规模上提供了表达性的概率表示，并产生了非空推广界限。我们的技术贡献是推导出可处理的目标函数，并提出了改进的推广界限计算方法。在经验上，我们证明了该方法在不确定性估计和推广方面的有效性。
+    本研究提出了两种低成本重采样的方法，用于构建随机梯度下降解的置信区间，这一方法可以有效减少计算工作量，并绕过现有方法中的混合条件。
 
     
 
-    在这项工作中，我们提出了一种新的先验学习方法，用于提高深度神经网络中的推广和不确定性估计。关键思想是利用可扩展和结构化的神经网络后验作为具有推广保证的信息先验。我们学习到的先验在大规模上提供了表达性的概率表示，类似于在ImageNet上预训练模型的贝叶斯对应物，并进一步产生了非空推广界限。我们还将这个想法扩展到连续学习框架中，我们的先验的有利特性是可取的。主要的推动因素是我们的技术贡献：(1) Kronecker积求和的计算，(2) 推导和优化可处理的目标函数，从而导致改进的推广界限。在经验上，我们详尽地展示了该方法在不确定性估计和推广方面的有效性。
+    随机梯度下降（SGD）或随机逼近在模型训练和随机优化中被广泛使用。虽然有大量关于其收敛性分析的文献，但对从SGD获得的解进行推断的研究只是最近才开始，但由于对不确定性量化的日益需求而变得重要。我们研究了两种计算上廉价的基于重采样的方法来构建SGD解的置信区间。一个方法通过从数据中进行替换重采样来使用多个但少量的SGD并行进行操作，另一个方法以在线方式进行操作。我们的方法可以被视为对已建立的Bootstrap方案进行增强，以显着减少重采样需求方面的计算工作量，同时绕过现有批处理方法中复杂的混合条件。我们通过最近的所谓低成本bootstrap思想和SGD的Berry-Esseen型边界来实现这些目标。
 
-    In this work, we propose a novel prior learning method for advancing generalization and uncertainty estimation in deep neural networks. The key idea is to exploit scalable and structured posteriors of neural networks as informative priors with generalization guarantees. Our learned priors provide expressive probabilistic representations at large scale, like Bayesian counterparts of pre-trained models on ImageNet, and further produce non-vacuous generalization bounds. We also extend this idea to a continual learning framework, where the favorable properties of our priors are desirable. Major enablers are our technical contributions: (1) the sums-of-Kronecker-product computations, and (2) the derivations and optimizations of tractable objectives that lead to improved generalization bounds. Empirically, we exhaustively show the effectiveness of this method for uncertainty estimation and generalization.
+    Stochastic gradient descent (SGD) or stochastic approximation has been widely used in model training and stochastic optimization. While there is a huge literature on analyzing its convergence, inference on the obtained solutions from SGD has only been recently studied, yet is important due to the growing need for uncertainty quantification. We investigate two computationally cheap resampling-based methods to construct confidence intervals for SGD solutions. One uses multiple, but few, SGDs in parallel via resampling with replacement from the data, and another operates this in an online fashion. Our methods can be regarded as enhancements of established bootstrap schemes to substantially reduce the computation effort in terms of resampling requirements, while at the same time bypassing the intricate mixing conditions in existing batching methods. We achieve these via a recent so-called cheap bootstrap idea and Berry-Esseen-type bound for SGD.
     
 

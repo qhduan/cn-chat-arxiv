@@ -2,97 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Finite-Time Error Analysis of Online Model-Based Q-Learning with a Relaxed Sampling Model](https://arxiv.org/abs/2402.11877) | 本文通过有限时间分析以及实证评估，探讨了集成模型方法的Q学习在样本复杂度方面的优势。 |
-| [^2] | [Unichain and Aperiodicity are Sufficient for Asymptotic Optimality of Average-Reward Restless Bandits](https://arxiv.org/abs/2402.05689) | 该论文提出了一种新的策略类别，用于解决无限期平均回报好转胆冒险问题。研究表明，在单臂松弛问题是Unichain和非周期性的情况下，该策略类别具有渐进最优性。 |
-| [^3] | [Deep Neural Networks: A Formulation Via Non-Archimedean Analysis](https://arxiv.org/abs/2402.00094) | 该论文引入了一种新的深度神经网络（DNNs）类别，其采用多层树状结构的架构并使用非阿基米德局部域的整数环进行编码。这些DNNs是稳健的对实值函数和实值平方可积函数的普遍逼近器。 |
-| [^4] | [Learning Expressive Priors for Generalization and Uncertainty Estimation in Neural Networks.](http://arxiv.org/abs/2307.07753) | 本文提出了一种用于神经网络的先验学习方法，通过利用可扩展和结构化的神经网络后验作为推广的信息先验，提高了神经网络的推广和不确定性估计能力。我们的方法在大规模上提供了表达性的概率表示，并产生了非空推广界限。我们的技术贡献是推导出可处理的目标函数，并提出了改进的推广界限计算方法。在经验上，我们证明了该方法在不确定性估计和推广方面的有效性。 |
-| [^5] | [Adversarial Evasion Attacks Practicality in Networks: Testing the Impact of Dynamic Learning.](http://arxiv.org/abs/2306.05494) | 本文对于基于机器学习的网络入侵检测系统(NIDS)的对抗性攻击进行了分类，同时探究了持续再训练对NIDS对抗性攻击的影响。实验表明，即使没有对抗性训练，持续再训练也可以减少对抗性攻击的影响。 |
-| [^6] | [Convergence of the Inexact Langevin Algorithm and Score-based Generative Models in KL Divergence.](http://arxiv.org/abs/2211.01512) | 本文研究了不精确 Langevin 算法与基于得分的生成模型在 KL 散度中的收敛性，提出了建立稳定偏差收敛保证的两个关键假设：目标分布满足对数 Sobolev 不等式和分数估计器展示出有界的矩阵生成函数误差。作者探讨了如何获得可靠的分数估计器，并证明了基于核密度估计的简单估计器满足假设。 |
+| [^1] | [Just Say the Name: Online Continual Learning with Category Names Only via Data Generation](https://arxiv.org/abs/2403.10853) | 提出了在线连续学习框架G-NoCL，采用生成数据并利用DIverSity和COmplexity enhancing ensemBlER（DISCOBER）进行数据融合，展示了其在在线连续学习基准测试中的优越性能。 |
+| [^2] | [Exploring Prime Number Classification: Achieving High Recall Rate and Rapid Convergence with Sparse Encoding](https://arxiv.org/abs/2402.03363) | 通过稀疏编码和神经网络结构的组合，本文提出了一种在质数和非质数分类中实现高召回率和快速收敛的新方法，取得了令人满意的结果。 |
+| [^3] | [Resampling Stochastic Gradient Descent Cheaply for Efficient Uncertainty Quantification.](http://arxiv.org/abs/2310.11065) | 本研究提出了两种低成本重采样的方法，用于构建随机梯度下降解的置信区间，这一方法可以有效减少计算工作量，并绕过现有方法中的混合条件。 |
+| [^4] | [Quadratic Gradient: Combining Gradient Algorithms and Newton's Method as One.](http://arxiv.org/abs/2209.03282) | 本文提出了一种基于对角矩阵的二次梯度，可以加速梯度的收敛速度，在实验中表现良好。研究者还推测海森矩阵与学习率之间可能存在关系。 |
 
 # 详细
 
-[^1]: 在具有放松采样模型的在线模型的有限时间误差分析下的Q学习
+[^1]: 只说名称：通过数据生成实现仅利用类别名称进行在线连续学习
 
-    Finite-Time Error Analysis of Online Model-Based Q-Learning with a Relaxed Sampling Model
+    Just Say the Name: Online Continual Learning with Category Names Only via Data Generation
 
-    [https://arxiv.org/abs/2402.11877](https://arxiv.org/abs/2402.11877)
+    [https://arxiv.org/abs/2403.10853](https://arxiv.org/abs/2403.10853)
 
-    本文通过有限时间分析以及实证评估，探讨了集成模型方法的Q学习在样本复杂度方面的优势。
-
-    
-
-    强化学习在模型为基础的方法的出现下取得了显著进展。在这些方法中，Q学习在无模型设置中被证明是一种强大的算法。然而，将Q学习扩展到基于模型的框架仍然相对未被探索。在本文中，我们深入研究了Q学习与基于模型方法相结合时的样本复杂度。通过理论分析和实证评估，我们试图阐明在哪些条件下，基于模型的Q学习在样本效率方面优于其无模型对应物。
-
-    arXiv:2402.11877v1 Announce Type: cross  Abstract: Reinforcement learning has witnessed significant advancements, particularly with the emergence of model-based approaches. Among these, $Q$-learning has proven to be a powerful algorithm in model-free settings. However, the extension of $Q$-learning to a model-based framework remains relatively unexplored. In this paper, we delve into the sample complexity of $Q$-learning when integrated with a model-based approach. Through theoretical analyses and empirical evaluations, we seek to elucidate the conditions under which model-based $Q$-learning excels in terms of sample efficiency compared to its model-free counterpart.
-    
-[^2]: Unichain和非周期性足以保证平均回报好转胆冒险目标的渐进最优性
-
-    Unichain and Aperiodicity are Sufficient for Asymptotic Optimality of Average-Reward Restless Bandits
-
-    [https://arxiv.org/abs/2402.05689](https://arxiv.org/abs/2402.05689)
-
-    该论文提出了一种新的策略类别，用于解决无限期平均回报好转胆冒险问题。研究表明，在单臂松弛问题是Unichain和非周期性的情况下，该策略类别具有渐进最优性。
+    提出了在线连续学习框架G-NoCL，采用生成数据并利用DIverSity和COmplexity enhancing ensemBlER（DISCOBER）进行数据融合，展示了其在在线连续学习基准测试中的优越性能。
 
     
 
-    我们考虑了离散时间下的无限期平均回报的好转胆冒险问题。我们提出了一种新的策略类别，旨在将逐渐扩大的臂子集向最佳分布方向推进。我们证明了我们的策略在N臂问题中是渐进最优的，如果单臂松弛问题是Unichain和非周期性的，那么就会有一个$O(1/\sqrt{N})$的最优间隙。我们的方法不同于大多数现有的研究，这些研究侧重于指数或优先级策略，这些策略依赖于统一全局吸引子属性（UGAP）来保证收敛到最优，或者依赖于最近开发的基于模拟的策略，该策略要求遵循同步假设（SA）。
+    在现实世界的场景中，由于成本过高，对于连续学习进行大量手动注释是不切实际的。虽然之前的研究受到大规模网络监督训练的影响，建议在连续学习中利用网络抓取的数据，但这带来了诸如数据不平衡、使用限制和隐私问题等挑战。为了解决连续网络监督训练的风险，我们提出了一种在线连续学习框架 - 仅使用名称的生成式连续学习（G-NoCL）。所提出的G-NoCL使用一组生成器G以及学习者。当遇到新概念（例如，类别）时，G-NoCL采用新颖的样本复杂性引导数据合成技术DIverSity and COmplexity enhancing ensemBlER（DISCOBER）从生成的数据中最优抽样训练数据。通过大量实验，我们展示了DISCOBER在G-NoCL在线连续学习基准测试中表现出的优越性能，涵盖了In-Distributi。
 
-    We consider the infinite-horizon, average-reward restless bandit problem in discrete time. We propose a new class of policies that are designed to drive a progressively larger subset of arms toward the optimal distribution. We show that our policies are asymptotically optimal with an $O(1/\sqrt{N})$ optimality gap for an $N$-armed problem, provided that the single-armed relaxed problem is unichain and aperiodic. Our approach departs from most existing work that focuses on index or priority policies, which rely on the Uniform Global Attractor Property (UGAP) to guarantee convergence to the optimum, or a recently developed simulation-based policy, which requires a Synchronization Assumption (SA).
+    arXiv:2403.10853v1 Announce Type: cross  Abstract: In real-world scenarios, extensive manual annotation for continual learning is impractical due to prohibitive costs. Although prior arts, influenced by large-scale webly supervised training, suggest leveraging web-scraped data in continual learning, this poses challenges such as data imbalance, usage restrictions, and privacy concerns. Addressing the risks of continual webly supervised training, we present an online continual learning framework - Generative Name only Continual Learning (G-NoCL). The proposed G-NoCL uses a set of generators G along with the learner. When encountering new concepts (i.e., classes), G-NoCL employs the novel sample complexity-guided data ensembling technique DIverSity and COmplexity enhancing ensemBlER (DISCOBER) to optimally sample training data from generated data. Through extensive experimentation, we demonstrate superior performance of DISCOBER in G-NoCL online CL benchmarks, covering both In-Distributi
     
-[^3]: 深度神经网络: 非阿基米德分析的表述方式
+[^2]: 探索质数分类：使用稀疏编码实现高召回率和快速收敛
 
-    Deep Neural Networks: A Formulation Via Non-Archimedean Analysis
+    Exploring Prime Number Classification: Achieving High Recall Rate and Rapid Convergence with Sparse Encoding
 
-    [https://arxiv.org/abs/2402.00094](https://arxiv.org/abs/2402.00094)
+    [https://arxiv.org/abs/2402.03363](https://arxiv.org/abs/2402.03363)
 
-    该论文引入了一种新的深度神经网络（DNNs）类别，其采用多层树状结构的架构并使用非阿基米德局部域的整数环进行编码。这些DNNs是稳健的对实值函数和实值平方可积函数的普遍逼近器。
-
-    
-
-    我们引入了一种新的深度神经网络（DNNs），采用多层树状结构的架构。这些架构使用非阿基米德局部域的整数环中的数字进行编码。这些环具有自然的层次结构，类似无限根树。这些环上的自然态射使我们能够构建有限的多层架构。新的DNNs是对在所提到的环上定义的实值函数的稳健的普遍逼近器。我们还证明了DNNs也是对在单位区间上定义的实值平方可积函数的稳健的普遍逼近器。
-
-    We introduce a new class of deep neural networks (DNNs) with multilayered tree-like architectures. The architectures are codified using numbers from the ring of integers of non-Archimdean local fields. These rings have a natural hierarchical organization as infinite rooted trees. Natural morphisms on these rings allow us to construct finite multilayered architectures. The new DNNs are robust universal approximators of real-valued functions defined on the mentioned rings. We also show that the DNNs are robust universal approximators of real-valued square-integrable functions defined in the unit interval.
-    
-[^4]: 学习神经网络中的表达性先验，提高推广和不确定性估计
-
-    Learning Expressive Priors for Generalization and Uncertainty Estimation in Neural Networks. (arXiv:2307.07753v1 [cs.LG])
-
-    [http://arxiv.org/abs/2307.07753](http://arxiv.org/abs/2307.07753)
-
-    本文提出了一种用于神经网络的先验学习方法，通过利用可扩展和结构化的神经网络后验作为推广的信息先验，提高了神经网络的推广和不确定性估计能力。我们的方法在大规模上提供了表达性的概率表示，并产生了非空推广界限。我们的技术贡献是推导出可处理的目标函数，并提出了改进的推广界限计算方法。在经验上，我们证明了该方法在不确定性估计和推广方面的有效性。
+    通过稀疏编码和神经网络结构的组合，本文提出了一种在质数和非质数分类中实现高召回率和快速收敛的新方法，取得了令人满意的结果。
 
     
 
-    在这项工作中，我们提出了一种新的先验学习方法，用于提高深度神经网络中的推广和不确定性估计。关键思想是利用可扩展和结构化的神经网络后验作为具有推广保证的信息先验。我们学习到的先验在大规模上提供了表达性的概率表示，类似于在ImageNet上预训练模型的贝叶斯对应物，并进一步产生了非空推广界限。我们还将这个想法扩展到连续学习框架中，我们的先验的有利特性是可取的。主要的推动因素是我们的技术贡献：(1) Kronecker积求和的计算，(2) 推导和优化可处理的目标函数，从而导致改进的推广界限。在经验上，我们详尽地展示了该方法在不确定性估计和推广方面的有效性。
+    本文提出了一种新颖的方法，结合机器学习和数论，在质数和非质数分类上进行研究。我们的研究核心是开发一种高度稀疏的编码方法，与传统的神经网络结构相结合。这种组合取得了令人满意的结果，在识别质数时达到了超过99\%的召回率，在识别非质数时达到了79\%的召回率，这些数字是从本质上不平衡的顺序整数序列中得出的，并且在完成单个训练周期之前迅速收敛。我们使用 $10^6$ 个整数进行训练，从指定的整数开始，然后在一个不同范围的 $2 \times 10^6$ 个整数上进行测试，范围从 $10^6$ 到 $3 \times 10^6$，偏移量相同。尽管受限于资源的内存容量，限制我们的分析跨越了 $3\times10^6$，但我们认为我们的研究对机器学习在......的应用做出了贡献
 
-    In this work, we propose a novel prior learning method for advancing generalization and uncertainty estimation in deep neural networks. The key idea is to exploit scalable and structured posteriors of neural networks as informative priors with generalization guarantees. Our learned priors provide expressive probabilistic representations at large scale, like Bayesian counterparts of pre-trained models on ImageNet, and further produce non-vacuous generalization bounds. We also extend this idea to a continual learning framework, where the favorable properties of our priors are desirable. Major enablers are our technical contributions: (1) the sums-of-Kronecker-product computations, and (2) the derivations and optimizations of tractable objectives that lead to improved generalization bounds. Empirically, we exhaustively show the effectiveness of this method for uncertainty estimation and generalization.
+    This paper presents a novel approach at the intersection of machine learning and number theory, focusing on the classification of prime and non-prime numbers. At the core of our research is the development of a highly sparse encoding method, integrated with conventional neural network architectures. This combination has shown promising results, achieving a recall of over 99\% in identifying prime numbers and 79\% for non-prime numbers from an inherently imbalanced sequential series of integers, while exhibiting rapid model convergence before the completion of a single training epoch. We performed training using $10^6$ integers starting from a specified integer and tested on a different range of $2 \times 10^6$ integers extending from $10^6$ to $3 \times 10^6$, offset by the same starting integer. While constrained by the memory capacity of our resources, which limited our analysis to a span of $3\times10^6$, we believe that our study contribute to the application of machine learning in
     
-[^5]: 神经网络中对抗性漏洞攻击的实用性测试：动态学习的影响
+[^3]: 低成本重采样随机梯度下降用于高效不确定性量化
 
-    Adversarial Evasion Attacks Practicality in Networks: Testing the Impact of Dynamic Learning. (arXiv:2306.05494v1 [cs.CR])
+    Resampling Stochastic Gradient Descent Cheaply for Efficient Uncertainty Quantification. (arXiv:2310.11065v1 [stat.ML])
 
-    [http://arxiv.org/abs/2306.05494](http://arxiv.org/abs/2306.05494)
+    [http://arxiv.org/abs/2310.11065](http://arxiv.org/abs/2310.11065)
 
-    本文对于基于机器学习的网络入侵检测系统(NIDS)的对抗性攻击进行了分类，同时探究了持续再训练对NIDS对抗性攻击的影响。实验表明，即使没有对抗性训练，持续再训练也可以减少对抗性攻击的影响。
-
-    
-
-    机器学习被广泛应用于网络入侵检测系统(NIDS)中，由于其自动化的特性和在处理和分类大量数据上的高精度。但机器学习存在缺陷，其中最大的问题之一是对抗性攻击，其目的是使机器学习模型产生错误的预测。本文提出了两个独特的贡献：对抗性攻击对基于机器学习的NIDS实用性问题的分类和对持续训练对NIDS对抗性攻击的影响进行了研究。我们的实验表明，即使没有对抗性训练，持续再训练也可以减少对抗性攻击的影响。虽然对抗性攻击可能会危及基于机器学习的NIDS，但持续再训练可带来一定的缓解效果。
-
-    Machine Learning (ML) has become ubiquitous, and its deployment in Network Intrusion Detection Systems (NIDS) is inevitable due to its automated nature and high accuracy in processing and classifying large volumes of data. However, ML has been found to have several flaws, on top of them are adversarial attacks, which aim to trick ML models into producing faulty predictions. While most adversarial attack research focuses on computer vision datasets, recent studies have explored the practicality of such attacks against ML-based network security entities, especially NIDS.  This paper presents two distinct contributions: a taxonomy of practicality issues associated with adversarial attacks against ML-based NIDS and an investigation of the impact of continuous training on adversarial attacks against NIDS. Our experiments indicate that continuous re-training, even without adversarial training, can reduce the effect of adversarial attacks. While adversarial attacks can harm ML-based NIDSs, ou
-    
-[^6]: 不精确 Langevin 算法与基于得分的生成模型在 KL 散度中的收敛性
-
-    Convergence of the Inexact Langevin Algorithm and Score-based Generative Models in KL Divergence. (arXiv:2211.01512v2 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2211.01512](http://arxiv.org/abs/2211.01512)
-
-    本文研究了不精确 Langevin 算法与基于得分的生成模型在 KL 散度中的收敛性，提出了建立稳定偏差收敛保证的两个关键假设：目标分布满足对数 Sobolev 不等式和分数估计器展示出有界的矩阵生成函数误差。作者探讨了如何获得可靠的分数估计器，并证明了基于核密度估计的简单估计器满足假设。
+    本研究提出了两种低成本重采样的方法，用于构建随机梯度下降解的置信区间，这一方法可以有效减少计算工作量，并绕过现有方法中的混合条件。
 
     
 
-    本文研究了不精确 Langevin 动力学（ILD）、不精确 Langevin 算法（ILA）和基于得分的生成建模（SGM）在利用估计得分函数进行采样时的情况。我们的重点在于建立关于 Kullback-Leibler（KL）散度的稳定偏差收敛保证。为了实现这些保证，我们采用了两个关键假设：1）目标分布满足对数 Sobolev 不等式（LSI），2）分数估计器展示出一个有界的矩阵生成函数（MGF）误差。值得注意的是，我们采用的 MGF 误差假设相比现有文献中使用的 $L^\infty$ 误差假设更为宽松。然而，它比最近的作品中使用的 $L^2$ 误差假设更强，后者常常导致不稳定的边界。我们探讨了如何获得满足 MGF 误差假设的可靠分数估计器的问题。具体来说，我们证明了一种基于核密度估计的简单估计器满足 MGF 误差假设。
+    随机梯度下降（SGD）或随机逼近在模型训练和随机优化中被广泛使用。虽然有大量关于其收敛性分析的文献，但对从SGD获得的解进行推断的研究只是最近才开始，但由于对不确定性量化的日益需求而变得重要。我们研究了两种计算上廉价的基于重采样的方法来构建SGD解的置信区间。一个方法通过从数据中进行替换重采样来使用多个但少量的SGD并行进行操作，另一个方法以在线方式进行操作。我们的方法可以被视为对已建立的Bootstrap方案进行增强，以显着减少重采样需求方面的计算工作量，同时绕过现有批处理方法中复杂的混合条件。我们通过最近的所谓低成本bootstrap思想和SGD的Berry-Esseen型边界来实现这些目标。
 
-    We study the Inexact Langevin Dynamics (ILD), Inexact Langevin Algorithm (ILA), and Score-based Generative Modeling (SGM) when utilizing estimated score functions for sampling. Our focus lies in establishing stable biased convergence guarantees in terms of the Kullback-Leibler (KL) divergence. To achieve these guarantees, we impose two key assumptions: 1) the target distribution satisfies the log-Sobolev inequality (LSI), and 2) the score estimator exhibits a bounded Moment Generating Function (MGF) error. Notably, the MGF error assumption we adopt is more lenient compared to the $L^\infty$ error assumption used in existing literature. However, it is stronger than the $L^2$ error assumption utilized in recent works, which often leads to unstable bounds. We explore the question of how to obtain a provably accurate score estimator that satisfies the MGF error assumption. Specifically, we demonstrate that a simple estimator based on kernel density estimation fulfills the MGF error assumpt
+    Stochastic gradient descent (SGD) or stochastic approximation has been widely used in model training and stochastic optimization. While there is a huge literature on analyzing its convergence, inference on the obtained solutions from SGD has only been recently studied, yet is important due to the growing need for uncertainty quantification. We investigate two computationally cheap resampling-based methods to construct confidence intervals for SGD solutions. One uses multiple, but few, SGDs in parallel via resampling with replacement from the data, and another operates this in an online fashion. Our methods can be regarded as enhancements of established bootstrap schemes to substantially reduce the computation effort in terms of resampling requirements, while at the same time bypassing the intricate mixing conditions in existing batching methods. We achieve these via a recent so-called cheap bootstrap idea and Berry-Esseen-type bound for SGD.
+    
+[^4]: 二次梯度：将梯度算法和牛顿法融合为一体
+
+    Quadratic Gradient: Combining Gradient Algorithms and Newton's Method as One. (arXiv:2209.03282v2 [math.OC] UPDATED)
+
+    [http://arxiv.org/abs/2209.03282](http://arxiv.org/abs/2209.03282)
+
+    本文提出了一种基于对角矩阵的二次梯度，可以加速梯度的收敛速度，在实验中表现良好。研究者还推测海森矩阵与学习率之间可能存在关系。
+
+    
+
+    使用一列与梯度相同大小的列向量，而不是仅使用一个浮点数来加速每个梯度元素的不同速率，可能对牛顿法的线搜索技术不足。此外，使用一个与海森矩阵大小相同的正方形矩阵来纠正海森矩阵可能是有用的。Chiang提出了一种介于列向量和正方形矩阵之间的东西，即对角矩阵，来加速梯度，并进一步提出了一种更快的梯度变体，称为二次梯度。在本文中，我们提出一种构建新版本的二次梯度的新方法。这个新的二次梯度不满足固定海森牛顿法的收敛条件。然而，实验结果显示，它有时比原始方法的收敛速度更快。此外，Chiang推测海森矩阵与学习率f之间可能存在关系。
+
+    It might be inadequate for the line search technique for Newton's method to use only one floating point number. A column vector of the same size as the gradient might be better than a mere float number to accelerate each of the gradient elements with different rates. Moreover, a square matrix of the same order as the Hessian matrix might be helpful to correct the Hessian matrix. Chiang applied something between a column vector and a square matrix, namely a diagonal matrix, to accelerate the gradient and further proposed a faster gradient variant called quadratic gradient. In this paper, we present a new way to build a new version of the quadratic gradient. This new quadratic gradient doesn't satisfy the convergence conditions of the fixed Hessian Newton's method. However, experimental results show that it sometimes has a better performance than the original one in convergence rate. Also, Chiang speculates that there might be a relation between the Hessian matrix and the learning rate f
     
 
