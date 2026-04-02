@@ -2,67 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Just Say the Name: Online Continual Learning with Category Names Only via Data Generation](https://arxiv.org/abs/2403.10853) | 提出了在线连续学习框架G-NoCL，采用生成数据并利用DIverSity和COmplexity enhancing ensemBlER（DISCOBER）进行数据融合，展示了其在在线连续学习基准测试中的优越性能。 |
-| [^2] | [Exploring Prime Number Classification: Achieving High Recall Rate and Rapid Convergence with Sparse Encoding](https://arxiv.org/abs/2402.03363) | 通过稀疏编码和神经网络结构的组合，本文提出了一种在质数和非质数分类中实现高召回率和快速收敛的新方法，取得了令人满意的结果。 |
-| [^3] | [Resampling Stochastic Gradient Descent Cheaply for Efficient Uncertainty Quantification.](http://arxiv.org/abs/2310.11065) | 本研究提出了两种低成本重采样的方法，用于构建随机梯度下降解的置信区间，这一方法可以有效减少计算工作量，并绕过现有方法中的混合条件。 |
-| [^4] | [Quadratic Gradient: Combining Gradient Algorithms and Newton's Method as One.](http://arxiv.org/abs/2209.03282) | 本文提出了一种基于对角矩阵的二次梯度，可以加速梯度的收敛速度，在实验中表现良好。研究者还推测海森矩阵与学习率之间可能存在关系。 |
+| [^1] | [Differentially Private Functional Summaries via the Independent Component Laplace Process.](http://arxiv.org/abs/2309.00125) | 本论文提出了一种新的差分隐私函数性摘要机制，通过使用独立分量拉普拉斯过程对无限维的函数性摘要进行扰动，放宽了对数据轨迹的假设，并相对于传统的有限维子空间嵌入方法保留了更高的效用。实验证明了该机制的可行性和有效性。 |
+| [^2] | [MCMC-Correction of Score-Based Diffusion Models for Model Composition.](http://arxiv.org/abs/2307.14012) | 本文提出了一种修正基于得分的扩散模型的方法，使其能够与各种MCMC方法结合，从而实现模型组合和进行更好的采样。 |
+| [^3] | [A Survey on Graph Neural Network Acceleration: Algorithms, Systems, and Customized Hardware.](http://arxiv.org/abs/2306.14052) | 本文综述了如何加速图神经网络处理图结构数据的方法，包括智能算法、高效系统和自定义硬件等，提出了GNN加速的分类，并为未来的研究提供了方向。 |
+| [^4] | [Learning to Grow Artificial Hippocampi in Vision Transformers for Resilient Lifelong Learning.](http://arxiv.org/abs/2303.08250) | 本文提出了一种在Vision Transformer中学习成长人工海马的方法，以实现弹性终身学习。通过神经架构搜索进行维护，选取多头自注意力块中的最终线性投影层进行ArtiHippo的实现和成长。 |
 
 # 详细
 
-[^1]: 只说名称：通过数据生成实现仅利用类别名称进行在线连续学习
+[^1]: 通过独立分量拉普拉斯过程实现差分隐私的函数性摘要
 
-    Just Say the Name: Online Continual Learning with Category Names Only via Data Generation
+    Differentially Private Functional Summaries via the Independent Component Laplace Process. (arXiv:2309.00125v1 [stat.ML])
 
-    [https://arxiv.org/abs/2403.10853](https://arxiv.org/abs/2403.10853)
+    [http://arxiv.org/abs/2309.00125](http://arxiv.org/abs/2309.00125)
 
-    提出了在线连续学习框架G-NoCL，采用生成数据并利用DIverSity和COmplexity enhancing ensemBlER（DISCOBER）进行数据融合，展示了其在在线连续学习基准测试中的优越性能。
-
-    
-
-    在现实世界的场景中，由于成本过高，对于连续学习进行大量手动注释是不切实际的。虽然之前的研究受到大规模网络监督训练的影响，建议在连续学习中利用网络抓取的数据，但这带来了诸如数据不平衡、使用限制和隐私问题等挑战。为了解决连续网络监督训练的风险，我们提出了一种在线连续学习框架 - 仅使用名称的生成式连续学习（G-NoCL）。所提出的G-NoCL使用一组生成器G以及学习者。当遇到新概念（例如，类别）时，G-NoCL采用新颖的样本复杂性引导数据合成技术DIverSity and COmplexity enhancing ensemBlER（DISCOBER）从生成的数据中最优抽样训练数据。通过大量实验，我们展示了DISCOBER在G-NoCL在线连续学习基准测试中表现出的优越性能，涵盖了In-Distributi。
-
-    arXiv:2403.10853v1 Announce Type: cross  Abstract: In real-world scenarios, extensive manual annotation for continual learning is impractical due to prohibitive costs. Although prior arts, influenced by large-scale webly supervised training, suggest leveraging web-scraped data in continual learning, this poses challenges such as data imbalance, usage restrictions, and privacy concerns. Addressing the risks of continual webly supervised training, we present an online continual learning framework - Generative Name only Continual Learning (G-NoCL). The proposed G-NoCL uses a set of generators G along with the learner. When encountering new concepts (i.e., classes), G-NoCL employs the novel sample complexity-guided data ensembling technique DIverSity and COmplexity enhancing ensemBlER (DISCOBER) to optimally sample training data from generated data. Through extensive experimentation, we demonstrate superior performance of DISCOBER in G-NoCL online CL benchmarks, covering both In-Distributi
-    
-[^2]: 探索质数分类：使用稀疏编码实现高召回率和快速收敛
-
-    Exploring Prime Number Classification: Achieving High Recall Rate and Rapid Convergence with Sparse Encoding
-
-    [https://arxiv.org/abs/2402.03363](https://arxiv.org/abs/2402.03363)
-
-    通过稀疏编码和神经网络结构的组合，本文提出了一种在质数和非质数分类中实现高召回率和快速收敛的新方法，取得了令人满意的结果。
+    本论文提出了一种新的差分隐私函数性摘要机制，通过使用独立分量拉普拉斯过程对无限维的函数性摘要进行扰动，放宽了对数据轨迹的假设，并相对于传统的有限维子空间嵌入方法保留了更高的效用。实验证明了该机制的可行性和有效性。
 
     
 
-    本文提出了一种新颖的方法，结合机器学习和数论，在质数和非质数分类上进行研究。我们的研究核心是开发一种高度稀疏的编码方法，与传统的神经网络结构相结合。这种组合取得了令人满意的结果，在识别质数时达到了超过99\%的召回率，在识别非质数时达到了79\%的召回率，这些数字是从本质上不平衡的顺序整数序列中得出的，并且在完成单个训练周期之前迅速收敛。我们使用 $10^6$ 个整数进行训练，从指定的整数开始，然后在一个不同范围的 $2 \times 10^6$ 个整数上进行测试，范围从 $10^6$ 到 $3 \times 10^6$，偏移量相同。尽管受限于资源的内存容量，限制我们的分析跨越了 $3\times10^6$，但我们认为我们的研究对机器学习在......的应用做出了贡献
+    在这项工作中，我们提出了一种称为独立分量拉普拉斯过程（ICLP）机制的差分隐私函数性摘要的新机制。通过将感兴趣的函数性摘要视为真正无限维对象，并使用ICLP噪声来扰动它们，该新机制放宽了关于数据轨迹的假设，并相对于文献中的经典有限维子空间嵌入方法保留了更高的效用。我们在多个函数空间中验证了所提出机制的可行性。我们考虑了几个统计估计问题，并通过轻微过平滑摘要来证明隐私成本不会主导统计误差，并且在渐近情况下可以忽略。对合成和真实数据集的数值实验证明了所提出机制的有效性。
 
-    This paper presents a novel approach at the intersection of machine learning and number theory, focusing on the classification of prime and non-prime numbers. At the core of our research is the development of a highly sparse encoding method, integrated with conventional neural network architectures. This combination has shown promising results, achieving a recall of over 99\% in identifying prime numbers and 79\% for non-prime numbers from an inherently imbalanced sequential series of integers, while exhibiting rapid model convergence before the completion of a single training epoch. We performed training using $10^6$ integers starting from a specified integer and tested on a different range of $2 \times 10^6$ integers extending from $10^6$ to $3 \times 10^6$, offset by the same starting integer. While constrained by the memory capacity of our resources, which limited our analysis to a span of $3\times10^6$, we believe that our study contribute to the application of machine learning in
+    In this work, we propose a new mechanism for releasing differentially private functional summaries called the Independent Component Laplace Process, or ICLP, mechanism. By treating the functional summaries of interest as truly infinite-dimensional objects and perturbing them with the ICLP noise, this new mechanism relaxes assumptions on data trajectories and preserves higher utility compared to classical finite-dimensional subspace embedding approaches in the literature. We establish the feasibility of the proposed mechanism in multiple function spaces. Several statistical estimation problems are considered, and we demonstrate by slightly over-smoothing the summary, the privacy cost will not dominate the statistical error and is asymptotically negligible. Numerical experiments on synthetic and real datasets demonstrate the efficacy of the proposed mechanism.
     
-[^3]: 低成本重采样随机梯度下降用于高效不确定性量化
+[^2]: MCMC-修正基于得分的扩散模型用于模型组合
 
-    Resampling Stochastic Gradient Descent Cheaply for Efficient Uncertainty Quantification. (arXiv:2310.11065v1 [stat.ML])
+    MCMC-Correction of Score-Based Diffusion Models for Model Composition. (arXiv:2307.14012v1 [stat.ML])
 
-    [http://arxiv.org/abs/2310.11065](http://arxiv.org/abs/2310.11065)
+    [http://arxiv.org/abs/2307.14012](http://arxiv.org/abs/2307.14012)
 
-    本研究提出了两种低成本重采样的方法，用于构建随机梯度下降解的置信区间，这一方法可以有效减少计算工作量，并绕过现有方法中的混合条件。
-
-    
-
-    随机梯度下降（SGD）或随机逼近在模型训练和随机优化中被广泛使用。虽然有大量关于其收敛性分析的文献，但对从SGD获得的解进行推断的研究只是最近才开始，但由于对不确定性量化的日益需求而变得重要。我们研究了两种计算上廉价的基于重采样的方法来构建SGD解的置信区间。一个方法通过从数据中进行替换重采样来使用多个但少量的SGD并行进行操作，另一个方法以在线方式进行操作。我们的方法可以被视为对已建立的Bootstrap方案进行增强，以显着减少重采样需求方面的计算工作量，同时绕过现有批处理方法中复杂的混合条件。我们通过最近的所谓低成本bootstrap思想和SGD的Berry-Esseen型边界来实现这些目标。
-
-    Stochastic gradient descent (SGD) or stochastic approximation has been widely used in model training and stochastic optimization. While there is a huge literature on analyzing its convergence, inference on the obtained solutions from SGD has only been recently studied, yet is important due to the growing need for uncertainty quantification. We investigate two computationally cheap resampling-based methods to construct confidence intervals for SGD solutions. One uses multiple, but few, SGDs in parallel via resampling with replacement from the data, and another operates this in an online fashion. Our methods can be regarded as enhancements of established bootstrap schemes to substantially reduce the computation effort in terms of resampling requirements, while at the same time bypassing the intricate mixing conditions in existing batching methods. We achieve these via a recent so-called cheap bootstrap idea and Berry-Esseen-type bound for SGD.
-    
-[^4]: 二次梯度：将梯度算法和牛顿法融合为一体
-
-    Quadratic Gradient: Combining Gradient Algorithms and Newton's Method as One. (arXiv:2209.03282v2 [math.OC] UPDATED)
-
-    [http://arxiv.org/abs/2209.03282](http://arxiv.org/abs/2209.03282)
-
-    本文提出了一种基于对角矩阵的二次梯度，可以加速梯度的收敛速度，在实验中表现良好。研究者还推测海森矩阵与学习率之间可能存在关系。
+    本文提出了一种修正基于得分的扩散模型的方法，使其能够与各种MCMC方法结合，从而实现模型组合和进行更好的采样。
 
     
 
-    使用一列与梯度相同大小的列向量，而不是仅使用一个浮点数来加速每个梯度元素的不同速率，可能对牛顿法的线搜索技术不足。此外，使用一个与海森矩阵大小相同的正方形矩阵来纠正海森矩阵可能是有用的。Chiang提出了一种介于列向量和正方形矩阵之间的东西，即对角矩阵，来加速梯度，并进一步提出了一种更快的梯度变体，称为二次梯度。在本文中，我们提出一种构建新版本的二次梯度的新方法。这个新的二次梯度不满足固定海森牛顿法的收敛条件。然而，实验结果显示，它有时比原始方法的收敛速度更快。此外，Chiang推测海森矩阵与学习率f之间可能存在关系。
+    扩散模型可以用得分或能量函数来参数化。能量参数化具有更好的理论特性，主要是它可以通过在提议样本中总能量的变化基于Metropolis-Hastings修正步骤来进行扩展采样过程。然而，它似乎产生了稍微较差的性能，更重要的是，由于基于得分的扩散模型的普遍流行，现有的预训练能量参数化模型的可用性受到限制。这种限制削弱了模型组合的目的，即将预训练模型组合起来从新分布中进行采样。然而，我们的提议建议保留得分参数化，而是通过对得分函数进行线积分来计算基于能量的接受概率。这使我们能够重用现有的扩散模型，并将反向过程与各种马尔可夫链蒙特卡罗（MCMC）方法组合起来。
 
-    It might be inadequate for the line search technique for Newton's method to use only one floating point number. A column vector of the same size as the gradient might be better than a mere float number to accelerate each of the gradient elements with different rates. Moreover, a square matrix of the same order as the Hessian matrix might be helpful to correct the Hessian matrix. Chiang applied something between a column vector and a square matrix, namely a diagonal matrix, to accelerate the gradient and further proposed a faster gradient variant called quadratic gradient. In this paper, we present a new way to build a new version of the quadratic gradient. This new quadratic gradient doesn't satisfy the convergence conditions of the fixed Hessian Newton's method. However, experimental results show that it sometimes has a better performance than the original one in convergence rate. Also, Chiang speculates that there might be a relation between the Hessian matrix and the learning rate f
+    Diffusion models can be parameterised in terms of either a score or an energy function. The energy parameterisation has better theoretical properties, mainly that it enables an extended sampling procedure with a Metropolis--Hastings correction step, based on the change in total energy in the proposed samples. However, it seems to yield slightly worse performance, and more importantly, due to the widespread popularity of score-based diffusion, there are limited availability of off-the-shelf pre-trained energy-based ones. This limitation undermines the purpose of model composition, which aims to combine pre-trained models to sample from new distributions. Our proposal, however, suggests retaining the score parameterization and instead computing the energy-based acceptance probability through line integration of the score function. This allows us to re-use existing diffusion models and still combine the reverse process with various Markov-Chain Monte Carlo (MCMC) methods. We evaluate our 
+    
+[^3]: 一项图神经网络加速的综述：算法、系统和自定义硬件
+
+    A Survey on Graph Neural Network Acceleration: Algorithms, Systems, and Customized Hardware. (arXiv:2306.14052v1 [cs.LG])
+
+    [http://arxiv.org/abs/2306.14052](http://arxiv.org/abs/2306.14052)
+
+    本文综述了如何加速图神经网络处理图结构数据的方法，包括智能算法、高效系统和自定义硬件等，提出了GNN加速的分类，并为未来的研究提供了方向。
+
+    
+
+    图神经网络（GNN）正在成为处理图结构数据的机器学习研究中的新兴领域。尽管GNN在许多任务上取得了最先进的性能，但在涉及许多数据和严格延迟要求的实际应用中，它们面临着可扩展性挑战。为了解决这些挑战，许多研究已经在如何加速GNN方面进行了。这些加速技术涉及GNN流程的各个方面，从智能训练和推理算法到高效的系统和自定义硬件。随着对GNN加速的研究量快速增长，缺乏一个系统化的处理来提供一个统一的视图，并解决相关工作的复杂性问题。在这篇综述中，我们提供了GNN加速的分类，审查了现有方法，并提出了未来的研究方向。我们对GNN加速的分类处理连接了现有的工作，并为这一领域的进一步发展铺平了道路。
+
+    Graph neural networks (GNNs) are emerging for machine learning research on graph-structured data. GNNs achieve state-of-the-art performance on many tasks, but they face scalability challenges when it comes to real-world applications that have numerous data and strict latency requirements. Many studies have been conducted on how to accelerate GNNs in an effort to address these challenges. These acceleration techniques touch on various aspects of the GNN pipeline, from smart training and inference algorithms to efficient systems and customized hardware. As the amount of research on GNN acceleration has grown rapidly, there lacks a systematic treatment to provide a unified view and address the complexity of relevant works. In this survey, we provide a taxonomy of GNN acceleration, review the existing approaches, and suggest future research directions. Our taxonomic treatment of GNN acceleration connects the existing works and sets the stage for further development in this area.
+    
+[^4]: 在视觉Transformer中学习成长人工海马，实现弹性终身学习
+
+    Learning to Grow Artificial Hippocampi in Vision Transformers for Resilient Lifelong Learning. (arXiv:2303.08250v1 [cs.CV])
+
+    [http://arxiv.org/abs/2303.08250](http://arxiv.org/abs/2303.08250)
+
+    本文提出了一种在Vision Transformer中学习成长人工海马的方法，以实现弹性终身学习。通过神经架构搜索进行维护，选取多头自注意力块中的最终线性投影层进行ArtiHippo的实现和成长。
+
+    
+
+    终身学习需要拥有人类智能的韧性，即不存在灾难性遗忘，这种韧性与大脑中复杂的记忆机制，尤其是海马维护的长期记忆（LM）紧密相关。Transformer已经成为人工智能“大脑”的对应体，但LM组件在终身学习中尚未充分探索。本文提出了一种在Vision Transformer中学习成长人工海马（ArtiHippo）以实现弹性终身学习的方法。通过全面消融实验，选定多头自注意力（MHSA）块中的最终线性投影层来实现和成长ArtiHippo。ArtiHippo由专家混合（MoEs）表示。每个专家组件是线性投影层的现场变体，通过神经架构搜索（NAS）进行维护，搜索空间由四个基本成长操作（跳过、重用、适应和新）定义。
+
+    Lifelong learning without catastrophic forgetting (i.e., resiliency) possessed by human intelligence is entangled with sophisticated memory mechanisms in the brain, especially the long-term memory (LM) maintained by Hippocampi. To a certain extent, Transformers have emerged as the counterpart ``Brain" of Artificial Intelligence (AI), and yet leave the LM component under-explored for lifelong learning settings. This paper presents a method of learning to grow Artificial Hippocampi (ArtiHippo) in Vision Transformers (ViTs) for resilient lifelong learning. With a comprehensive ablation study, the final linear projection layer in the multi-head self-attention (MHSA) block is selected in realizing and growing ArtiHippo. ArtiHippo is represented by a mixture of experts (MoEs). Each expert component is an on-site variant of the linear projection layer, maintained via neural architecture search (NAS) with the search space defined by four basic growing operations -- skip, reuse, adapt, and new 
     
 

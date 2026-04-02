@@ -2,37 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Similarity and Comparison Complexity](https://arxiv.org/abs/2401.17578) | 本研究提出了一个关于比较复杂性的理论，并证明了比较复杂性导致选择错误和系统性错误。我们的模型表明，选项的相似性和接近支配度是影响比较复杂性的两个重要因素。该研究的实证结果还表明，比较复杂性度量可以预测选择错误、选择不一致以及认知不确定性，并可以解释选择和评估中的经典异常现象。 |
-| [^2] | [Trimmed Mean Group Estimation of Average Treatment Effects in Ultra Short T Panels under Correlated Heterogeneity.](http://arxiv.org/abs/2310.11680) | 本文在相关异质性下，提出了一种修剪均值组（TMG）估计器，可以在面板数据时间维度很小的情况下以不规则的速度保持一致性。该方法具有较好的性质和性能，并提供了相关异质性的检验方法。通过实证应用展示了该方法的实用性。 |
+| [^1] | [The general solution to an autoregressive law of motion](https://arxiv.org/abs/2402.01966) | 本文通过对自回归运动的解进行分析，提供了一个完整的描述，并给出了解的分解方式和参数化方法。 |
+| [^2] | [Predictive Incrementality by Experimentation (PIE) for Ad Measurement.](http://arxiv.org/abs/2304.06828) | 提出一种称为PIE的新型广告因果测量方法，利用外生变化建立模型来预测广告活动的因果效应，其中关键是使用后广告活动特征而不需要RCT，比传统方法更有效。 |
+| [^3] | [Distance Functions and Generalized Means: Duality and Taxonomy.](http://arxiv.org/abs/2112.09443) | 本文介绍了一类可以从效用函数中导出的效率度量，在此基础上，推广了多种已有效率度量，并得出了一种新的距离函数。通过证明广义对偶定理和将新的距离函数与利润函数联系起来的对偶结果，进一步建立了多个对偶对应关系。 |
 
 # 详细
 
-[^1]: 相似性和比较的复杂性
+[^1]: 自回归运动的一般解决方案
 
-    Similarity and Comparison Complexity
+    The general solution to an autoregressive law of motion
 
-    [https://arxiv.org/abs/2401.17578](https://arxiv.org/abs/2401.17578)
+    [https://arxiv.org/abs/2402.01966](https://arxiv.org/abs/2402.01966)
 
-    本研究提出了一个关于比较复杂性的理论，并证明了比较复杂性导致选择错误和系统性错误。我们的模型表明，选项的相似性和接近支配度是影响比较复杂性的两个重要因素。该研究的实证结果还表明，比较复杂性度量可以预测选择错误、选择不一致以及认知不确定性，并可以解释选择和评估中的经典异常现象。
-
-    
-
-    一些选择选项比其他选项更难比较。本文建立了一个关于什么导致比较复杂以及比较复杂如何在选择中产生系统性错误的理论。在我们的模型中，当选项共享相似特征（在固定价值差异的情况下）且更接近支配时，比较更容易。我们展示了如何在多属性、彩票和时间间隔选择领域通过这两个假设得出可操作的比较复杂性度量。使用关于二元选择的实验数据，我们证明了我们的复杂性度量可以预测选择错误、选择不一致以及认知不确定性在这三个领域中的存在。然后我们展示了在选择和评估中的经典异常现象，诸如情境效应、偏好逆转以及在对冒险和时间间隔前景的评估中表现出的明显概率加权和时间偏差，可以被理解为对比较复杂性的反应。
-
-    Some choice options are more difficult to compare than others. This paper develops a theory of what makes a comparison complex, and how comparison complexity generates systematic mistakes in choice. In our model, options are easier to compare when they 1) share similar features, holding fixed their value difference, and 2) are closer to dominance. We show how these two postulates yield tractable measures of comparison complexity in the domains of multiattribute, lottery, and intertemporal choice. Using experimental data on binary choices, we demonstrate that our complexity measures predict choice errors, choice inconsistency, and cognitive uncertainty across all three domains. We then show how canonical anomalies in choice and valuation, such as context effects, preference reversals, and apparent probability weighting and present bias in the valuation of risky and intertemporal prospects, can be understood as responses to comparison complexity.
-    
-[^2]: 在相关异质性下，短期面板中关于平均处理效应的修剪均值组估计方法
-
-    Trimmed Mean Group Estimation of Average Treatment Effects in Ultra Short T Panels under Correlated Heterogeneity. (arXiv:2310.11680v1 [econ.EM])
-
-    [http://arxiv.org/abs/2310.11680](http://arxiv.org/abs/2310.11680)
-
-    本文在相关异质性下，提出了一种修剪均值组（TMG）估计器，可以在面板数据时间维度很小的情况下以不规则的速度保持一致性。该方法具有较好的性质和性能，并提供了相关异质性的检验方法。通过实证应用展示了该方法的实用性。
+    本文通过对自回归运动的解进行分析，提供了一个完整的描述，并给出了解的分解方式和参数化方法。
 
     
 
-    在相关异质性下，常用的两路固定效应估计方法存在偏差并可能导致误导性推断。本文提出了一种新的修剪均值组估计器（TMG estimator），即使面板的时间维度与回归变量数目一样小，也能以不规则的n^{1/3}速度保持一致性。本文还提供了适用于具有时间效应的面板的扩展方法，并提出了一种相关异质性的豪斯曼式检验。通过蒙特卡洛实验，研究了TMG估计器（带有和不带有时间效应）在小样本情况下的性质，结果表明其性能令人满意，优于文献中提出的其他修剪估计器。同时，所提出的相关异质性检验显示出正确的大小和令人满意的功效。通过实证应用，展示了TMG方法的实用性。
+    在本文中，我们提供了一个有限维复向量空间中自回归运动的全部解的完整描述。我们证明每个解都可以分解为三个部分，分别对应于时间的正向流动、负向流动和从时间零开始的外向流动。这三个部分是通过将解应用三个互补的谱投影获得的，这些谱投影根据自回归算子的特征值是在、外或者在单位圆上将其分离。我们提供了对所有解的有限维参数化。
 
-    Under correlated heterogeneity, the commonly used two-way fixed effects estimator is biased and can lead to misleading inference. This paper proposes a new trimmed mean group (TMG) estimator which is consistent at the irregular rate of n^{1/3} even if the time dimension of the panel is as small as the number of its regressors. Extensions to panels with time effects are provided, and a Hausman-type test of correlated heterogeneity is proposed. Small sample properties of the TMG estimator (with and without time effects) are investigated by Monte Carlo experiments and shown to be satisfactory and perform better than other trimmed estimators proposed in the literature. The proposed test of correlated heterogeneity is also shown to have the correct size and satisfactory power. The utility of the TMG approach is illustrated with an empirical application.
+    In this article we provide a complete description of the set of all solutions to an autoregressive law of motion in a finite-dimensional complex vector space. Every solution is shown to be the sum of three parts, each corresponding to a directed flow of time. One part flows forward from the arbitrarily distant past; one flows backward from the arbitrarily distant future; and one flows outward from time zero. The three parts are obtained by applying three complementary spectral projections to the solution, these corresponding to a separation of the eigenvalues of the autoregressive operator according to whether they are inside, outside or on the unit circle. We provide a finite-dimensional parametrization of the set of all solutions.
+    
+[^2]: 利用实验预测增效（PIE）方法进行广告测量
+
+    Predictive Incrementality by Experimentation (PIE) for Ad Measurement. (arXiv:2304.06828v1 [econ.EM])
+
+    [http://arxiv.org/abs/2304.06828](http://arxiv.org/abs/2304.06828)
+
+    提出一种称为PIE的新型广告因果测量方法，利用外生变化建立模型来预测广告活动的因果效应，其中关键是使用后广告活动特征而不需要RCT，比传统方法更有效。
+
+    
+
+    我们提出了一种新的广告因果测量方法，即利用广告暴露的外生变化（RCTs）来针对部分广告活动建立模型，以预测未进行RCTs的广告活动的因果效应。这种方法——预测增效实验（PIE）——将估计广告活动的因果效应视为预测问题，观察单位即为RCT本身。相比之下，传统的因果推断方法通过用户层面调整协变量不平衡。关键的洞见是使用后广告活动特征（比如最后一次点击转换次数）作为预测模型的特征，而这些特征并不需要RCT。我们发现，我们的PIE模型比Gordon等人研究中分析的程序评估方法更好地恢复了每美元增量转换（ICPD）的RCT导出。最佳PIE模型的预测误差分别为48％，42％和62％。
+
+    We present a novel approach to causal measurement for advertising, namely to use exogenous variation in advertising exposure (RCTs) for a subset of ad campaigns to build a model that can predict the causal effect of ad campaigns that were run without RCTs. This approach -- Predictive Incrementality by Experimentation (PIE) -- frames the task of estimating the causal effect of an ad campaign as a prediction problem, with the unit of observation being an RCT itself. In contrast, traditional causal inference approaches with observational data seek to adjust covariate imbalance at the user level. A key insight is to use post-campaign features, such as last-click conversion counts, that do not require an RCT, as features in our predictive model. We find that our PIE model recovers RCT-derived incremental conversions per dollar (ICPD) much better than the program evaluation approaches analyzed in Gordon et al. (forthcoming). The prediction errors from the best PIE model are 48%, 42%, and 62%
+    
+[^3]: 距离函数与广义平均数：对偶性和分类
+
+    Distance Functions and Generalized Means: Duality and Taxonomy. (arXiv:2112.09443v2 [econ.TH] UPDATED)
+
+    [http://arxiv.org/abs/2112.09443](http://arxiv.org/abs/2112.09443)
+
+    本文介绍了一类可以从效用函数中导出的效率度量，在此基础上，推广了多种已有效率度量，并得出了一种新的距离函数。通过证明广义对偶定理和将新的距离函数与利润函数联系起来的对偶结果，进一步建立了多个对偶对应关系。
+
+    
+
+    本文中引入了一大类可以从效用函数中导出的效率度量，该类度量在生产理论中具有重要作用。同时，文章还建立了这些距离函数与 Stone-Geary 效用函数之间的关系。具体而言，本文关注一种新的距离函数，可以推广多种已有效率度量，并受到 Atkinson 不等式指数的启发，最大化达到有效点所需的净产出扩展之和。证明了一个广义对偶定理，并获得了一个将新的距离函数与利润函数联系起来的对偶结果。对于所有可行的生产向量，它包括先前在文献中建立的大多数对偶对应关系的特殊情况。最后，我们确定了一大类度量，可以在没有凸性的情况下获得这些对偶结果。
+
+    This paper introduces in production theory a large class of efficiency measures that can be derived from the notion of utility function. This article also establishes a relation between these distance functions and Stone-Geary utility functions. More specifically, the paper focusses on new distance function that generalizes several existing efficiency measures. The new distance function is inspired from the Atkinson inequality index and maximizes the sum of the netput expansions required to reach an efficient point. A generalized duality theorem is proved and a duality result linking the new distance functions and the profit function is obtained. For all feasible production vectors, it includes as special cases most of the dual correspondences previously established in the literature. Finally, we identify a large class of measures for which these duality results can be obtained without convexity.
     
 
