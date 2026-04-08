@@ -2,67 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Federated Transfer Learning with Differential Privacy](https://arxiv.org/abs/2403.11343) | 本文提出了具有差分隐私的联邦迁移学习框架，通过利用多个异构源数据集的信息来增强对目标数据集的学习，同时考虑隐私约束。 |
-| [^2] | [Sparse Gaussian Graphical Models with Discrete Optimization: Computational and Statistical Perspectives.](http://arxiv.org/abs/2307.09366) | 本文提出了基于离散优化的稀疏高斯图模型学习问题的新方法，并提供了大规模求解器来获取良好的原始解。 |
-| [^3] | [Importance Sparsification for Sinkhorn Algorithm.](http://arxiv.org/abs/2306.06581) | Spar-Sink是一种重要性稀疏化方法，能够有效近似熵正则化最优传输和不平衡最优传输问题，并且在实验中表现优异。 |
-| [^4] | [Piecewise Deterministic Markov Processes for Bayesian Neural Networks.](http://arxiv.org/abs/2302.08724) | 本文介绍了基于分段确定性马尔可夫过程的贝叶斯神经网络推理方法，通过引入新的自适应稀疏方案，实现了对困难采样问题的加速处理。实验证明，这种方法在计算上可行，并能提高预测准确性、MCMC混合性能，并提供更有信息量的不确定性测量。 |
+| [^1] | [Towards Better Statistical Understanding of Watermarking LLMs](https://arxiv.org/abs/2403.13027) | 本文研究了水印LLMs的问题，提出了一种基于优化算法的水印算法，实现了模型失真和检测能力之间的最优平衡。 |
+| [^2] | [Understanding Uncertainty Sampling.](http://arxiv.org/abs/2307.02719) | 本研究通过系统研究流式和池式主动学习下的不确定性采样算法，提出了一个等效损失的概念，并证明不确定性采样算法实质上是针对该等效损失进行优化。 |
+| [^3] | [Statistical Optimality of Deep Wide Neural Networks.](http://arxiv.org/abs/2305.02657) | 本文研究了深度宽松弛ReLU神经网络的泛化能力，证明适当早停的梯度下降训练的多层宽神经网络可以实现最小极大率，前提是回归函数在对应的NTK相关的再生核希尔伯特空间中，但过度拟合的多层宽神经网络在$\mathbb S^{d}$上不能很好地泛化。 |
 
 # 详细
 
-[^1]: 具有差分隐私的联邦迁移学习
+[^1]: 更好地统计理解水印LLMs
 
-    Federated Transfer Learning with Differential Privacy
+    Towards Better Statistical Understanding of Watermarking LLMs
 
-    [https://arxiv.org/abs/2403.11343](https://arxiv.org/abs/2403.11343)
+    [https://arxiv.org/abs/2403.13027](https://arxiv.org/abs/2403.13027)
 
-    本文提出了具有差分隐私的联邦迁移学习框架，通过利用多个异构源数据集的信息来增强对目标数据集的学习，同时考虑隐私约束。
-
-    
-
-    联邦学习越来越受到欢迎，数据异构性和隐私性是两个突出的挑战。在本文中，我们在联邦迁移学习框架内解决了这两个问题，旨在通过利用来自多个异构源数据集的信息来增强对目标数据集的学习，同时遵守隐私约束。我们严格制定了\textit{联邦差分隐私}的概念，为每个数据集提供隐私保证，而无需假设有一个受信任的中央服务器。在这个隐私约束下，我们研究了三个经典的统计问题，即单变量均值估计、低维线性回归和高维线性回归。通过研究极小值率并确定这些问题的隐私成本，我们展示了联邦差分隐私是已建立的局部和中央模型之间的一种中间隐私模型。
-
-    arXiv:2403.11343v1 Announce Type: new  Abstract: Federated learning is gaining increasing popularity, with data heterogeneity and privacy being two prominent challenges. In this paper, we address both issues within a federated transfer learning framework, aiming to enhance learning on a target data set by leveraging information from multiple heterogeneous source data sets while adhering to privacy constraints. We rigorously formulate the notion of \textit{federated differential privacy}, which offers privacy guarantees for each data set without assuming a trusted central server. Under this privacy constraint, we study three classical statistical problems, namely univariate mean estimation, low-dimensional linear regression, and high-dimensional linear regression. By investigating the minimax rates and identifying the costs of privacy for these problems, we show that federated differential privacy is an intermediate privacy model between the well-established local and central models of 
-    
-[^2]: 稀疏高斯图模型的离散优化：计算和统计角度
-
-    Sparse Gaussian Graphical Models with Discrete Optimization: Computational and Statistical Perspectives. (arXiv:2307.09366v1 [cs.LG])
-
-    [http://arxiv.org/abs/2307.09366](http://arxiv.org/abs/2307.09366)
-
-    本文提出了基于离散优化的稀疏高斯图模型学习问题的新方法，并提供了大规模求解器来获取良好的原始解。
+    本文研究了水印LLMs的问题，提出了一种基于优化算法的水印算法，实现了模型失真和检测能力之间的最优平衡。
 
     
 
-    我们考虑了学习基于无向高斯图模型的稀疏图的问题，这是统计机器学习中的一个关键问题。给定来自具有p个变量的多元高斯分布的n个样本，目标是估计p×p的逆协方差矩阵（也称为精度矩阵），假设它是稀疏的（即具有少数非零条目）。我们提出了GraphL0BnB这一新的估计方法，它基于伪似然函数的l0惩罚版本，而大多数早期方法都是基于l1松弛。我们的估计方法可以被形式化为一个凸混合整数规划（MIP），使用现成的商用求解器在大规模计算时可能很难计算。为了解决MIP问题，我们提出了一个定制的非线性分支定界（BnB）框架，用于使用定制的一阶方法来解决节点放松问题。作为我们BnB框架的副产品，我们提出了用于获得独立兴趣的良好原始解的大规模求解器。
+    在本文中，我们研究了水印大型语言模型（LLMs）的问题。我们考虑模型失真和检测能力之间的权衡，并将其构建为基于Kirchenbauer等人（2023a）的绿-红算法的受限优化问题。我们展示了优化问题的最优解享有良好的分析性质，这有助于更好地理解并启发水印过程的算法设计。我们根据这一优化公式开发了一个在线双梯度上升水印算法，并证明了其在模型失真和检测能力之间的渐近帕累托最优性。这样的结果保证了平均增加的绿色列表概率，从而明确提高了检测能力（与先前结果相比）。此外，我们对水印问题的模型失真度量的选择进行了系统讨论。
 
-    We consider the problem of learning a sparse graph underlying an undirected Gaussian graphical model, a key problem in statistical machine learning. Given $n$ samples from a multivariate Gaussian distribution with $p$ variables, the goal is to estimate the $p \times p$ inverse covariance matrix (aka precision matrix), assuming it is sparse (i.e., has a few nonzero entries). We propose GraphL0BnB, a new estimator based on an $\ell_0$-penalized version of the pseudolikelihood function, while most earlier approaches are based on the $\ell_1$-relaxation. Our estimator can be formulated as a convex mixed integer program (MIP) which can be difficult to compute at scale using off-the-shelf commercial solvers. To solve the MIP, we propose a custom nonlinear branch-and-bound (BnB) framework that solves node relaxations with tailored first-order methods. As a by-product of our BnB framework, we propose large-scale solvers for obtaining good primal solutions that are of independent interest. We d
+    arXiv:2403.13027v1 Announce Type: cross  Abstract: In this paper, we study the problem of watermarking large language models (LLMs). We consider the trade-off between model distortion and detection ability and formulate it as a constrained optimization problem based on the green-red algorithm of Kirchenbauer et al. (2023a). We show that the optimal solution to the optimization problem enjoys a nice analytical property which provides a better understanding and inspires the algorithm design for the watermarking process. We develop an online dual gradient ascent watermarking algorithm in light of this optimization formulation and prove its asymptotic Pareto optimality between model distortion and detection ability. Such a result guarantees an averaged increased green list probability and henceforth detection ability explicitly (in contrast to previous results). Moreover, we provide a systematic discussion on the choice of the model distortion metrics for the watermarking problem. We justi
     
-[^3]: Sinkhorn算法的重要性稀疏化
+[^2]: 理解不确定性采样
 
-    Importance Sparsification for Sinkhorn Algorithm. (arXiv:2306.06581v1 [stat.ML])
+    Understanding Uncertainty Sampling. (arXiv:2307.02719v1 [cs.LG])
 
-    [http://arxiv.org/abs/2306.06581](http://arxiv.org/abs/2306.06581)
+    [http://arxiv.org/abs/2307.02719](http://arxiv.org/abs/2307.02719)
 
-    Spar-Sink是一种重要性稀疏化方法，能够有效近似熵正则化最优传输和不平衡最优传输问题，并且在实验中表现优异。
-
-    
-
-    Sinkhorn算法被广泛应用于近似求解最优传输（OT）和不平衡最优传输（UOT）问题。但由于高计算复杂度，其实际应用受到限制。为减轻计算负担，我们提出了一种新的重要性稀疏化方法Spar-Sink，用于高效近似熵正则化OT和UOT解。具体来说，我们的方法利用未知最优传输计划的自然上界确定有效的采样概率，并构建稀疏的核矩阵以加速Sinkhorn迭代，将每次迭代的计算成本从$ O（n ^ 2）$降低到$\widetilde {O（n）}$适用于样本大小为$ n $的情况。理论上，我们证明了对于温和正则性条件下，所提出的OT和UOT问题的估计量是一致的。在各种合成数据上的实验表明，在估计误差方面，Spar-Sink优于主流竞争对手。
-
-    Sinkhorn algorithm has been used pervasively to approximate the solution to optimal transport (OT) and unbalanced optimal transport (UOT) problems. However, its practical application is limited due to the high computational complexity. To alleviate the computational burden, we propose a novel importance sparsification method, called Spar-Sink, to efficiently approximate entropy-regularized OT and UOT solutions. Specifically, our method employs natural upper bounds for unknown optimal transport plans to establish effective sampling probabilities, and constructs a sparse kernel matrix to accelerate Sinkhorn iterations, reducing the computational cost of each iteration from $O(n^2)$ to $\widetilde{O}(n)$ for a sample of size $n$. Theoretically, we show the proposed estimators for the regularized OT and UOT problems are consistent under mild regularity conditions. Experiments on various synthetic data demonstrate Spar-Sink outperforms mainstream competitors in terms of both estimation erro
-    
-[^4]: 基于分段确定性马尔可夫过程的贝叶斯神经网络研究
-
-    Piecewise Deterministic Markov Processes for Bayesian Neural Networks. (arXiv:2302.08724v2 [stat.ML] UPDATED)
-
-    [http://arxiv.org/abs/2302.08724](http://arxiv.org/abs/2302.08724)
-
-    本文介绍了基于分段确定性马尔可夫过程的贝叶斯神经网络推理方法，通过引入新的自适应稀疏方案，实现了对困难采样问题的加速处理。实验证明，这种方法在计算上可行，并能提高预测准确性、MCMC混合性能，并提供更有信息量的不确定性测量。
+    本研究通过系统研究流式和池式主动学习下的不确定性采样算法，提出了一个等效损失的概念，并证明不确定性采样算法实质上是针对该等效损失进行优化。
 
     
 
-    现代贝叶斯神经网络（BNNs）的推理通常依赖于变分推断处理，这要求违反了独立性和后验形式的假设。传统的MCMC方法避免了这些假设，但由于无法适应似然的子采样，导致计算量增加。新的分段确定性马尔可夫过程（PDMP）采样器允许子采样，但引入了模型特定的不均匀泊松过程（IPPs），从中采样困难。本研究引入了一种新的通用自适应稀疏方案，用于从这些IPPs中进行采样，并展示了如何加速将PDMPs应用于BNNs推理。实验表明，使用这些方法进行推理在计算上是可行的，可以提高预测准确性、MCMC混合性能，并与其他近似推理方案相比，提供更有信息量的不确定性测量。
+    不确定性采样是一种常见的主动学习算法，它顺序地查询当前预测模型对数据样本的不确定性。然而，不确定性采样的使用往往是启发式的：（i）关于在特定任务和特定损失函数下对“不确定性”的准确定义没有共识；（ii）没有理论保证能够给出一个标准协议来实施该算法，例如，在随机梯度下降等优化算法框架下如何处理顺序到达的注释数据。在本研究中，我们系统地研究了流式和池式主动学习下的不确定性采样算法。我们提出了一个等效损失的概念，该概念取决于使用的不确定性度量和原始损失函数，并确立了不确定性采样算法本质上是针对这种等效损失进行优化。这一观点验证了算法的适当性。
 
-    Inference on modern Bayesian Neural Networks (BNNs) often relies on a variational inference treatment, imposing violated assumptions of independence and the form of the posterior. Traditional MCMC approaches avoid these assumptions at the cost of increased computation due to its incompatibility to subsampling of the likelihood. New Piecewise Deterministic Markov Process (PDMP) samplers permit subsampling, though introduce a model specific inhomogenous Poisson Process (IPPs) which is difficult to sample from. This work introduces a new generic and adaptive thinning scheme for sampling from these IPPs, and demonstrates how this approach can accelerate the application of PDMPs for inference in BNNs. Experimentation illustrates how inference with these methods is computationally feasible, can improve predictive accuracy, MCMC mixing performance, and provide informative uncertainty measurements when compared against other approximate inference schemes.
+    Uncertainty sampling is a prevalent active learning algorithm that queries sequentially the annotations of data samples which the current prediction model is uncertain about. However, the usage of uncertainty sampling has been largely heuristic: (i) There is no consensus on the proper definition of "uncertainty" for a specific task under a specific loss; (ii) There is no theoretical guarantee that prescribes a standard protocol to implement the algorithm, for example, how to handle the sequentially arrived annotated data under the framework of optimization algorithms such as stochastic gradient descent. In this work, we systematically examine uncertainty sampling algorithms under both stream-based and pool-based active learning. We propose a notion of equivalent loss which depends on the used uncertainty measure and the original loss function and establish that an uncertainty sampling algorithm essentially optimizes against such an equivalent loss. The perspective verifies the properne
+    
+[^3]: 深度宽松弛神经网络的统计优化性
+
+    Statistical Optimality of Deep Wide Neural Networks. (arXiv:2305.02657v1 [stat.ML])
+
+    [http://arxiv.org/abs/2305.02657](http://arxiv.org/abs/2305.02657)
+
+    本文研究了深度宽松弛ReLU神经网络的泛化能力，证明适当早停的梯度下降训练的多层宽神经网络可以实现最小极大率，前提是回归函数在对应的NTK相关的再生核希尔伯特空间中，但过度拟合的多层宽神经网络在$\mathbb S^{d}$上不能很好地泛化。
+
+    
+
+    本文研究了定义在有界域$\mathcal X \subset \mathbb R^{d}$上的深度宽松弛ReLU神经网络的泛化能力。首先证明了神经网络的泛化能力可以被相应的深度神经切向核回归所完全描绘。然后，我们研究了深度神经切向核的谱特性，并证明了深度神经切向核在$\mathcal{X}$上为正定，其特征值衰减率为$(d+1)/d$。由于核回归中已经建立的理论，我们得出结论，适当早停的梯度下降训练的多层宽神经网络可以实现最小极大率，前提是回归函数在对应的NTK相关的再生核希尔伯特空间中。最后，我们证明过度拟合的多层宽神经网络在$\mathbb S^{d}$上不能很好地泛化。
+
+    In this paper, we consider the generalization ability of deep wide feedforward ReLU neural networks defined on a bounded domain $\mathcal X \subset \mathbb R^{d}$. We first demonstrate that the generalization ability of the neural network can be fully characterized by that of the corresponding deep neural tangent kernel (NTK) regression. We then investigate on the spectral properties of the deep NTK and show that the deep NTK is positive definite on $\mathcal{X}$ and its eigenvalue decay rate is $(d+1)/d$. Thanks to the well established theories in kernel regression, we then conclude that multilayer wide neural networks trained by gradient descent with proper early stopping achieve the minimax rate, provided that the regression function lies in the reproducing kernel Hilbert space (RKHS) associated with the corresponding NTK. Finally, we illustrate that the overfitted multilayer wide neural networks can not generalize well on $\mathbb S^{d}$.
     
 

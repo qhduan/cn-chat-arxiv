@@ -2,26 +2,11 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Using Machine Learning to Forecast Market Direction with Efficient Frontier Coefficients](https://arxiv.org/abs/2404.00825) | 提出了一种利用机器学习预测市场方向的新方法，该方法使用有效边界系数进行资产回报估计，并将市场预测集成到投资组合优化框架中。 |
-| [^2] | [Learning to be Homo Economicus: Can an LLM Learn Preferences from Choice.](http://arxiv.org/abs/2401.07345) | 本文研究了使用大型语言模型（LLM）作为决策辅助工具的能力，重点关注其学习偏好和提供个性化推荐的能力。通过实验和数据分析，研究发现LLM的选择与效用最大化理论一致，并能够根据个体的风险厌恶程度进行个性化的推荐。 |
+| [^1] | [Learning to be Homo Economicus: Can an LLM Learn Preferences from Choice.](http://arxiv.org/abs/2401.07345) | 本文研究了使用大型语言模型（LLM）作为决策辅助工具的能力，重点关注其学习偏好和提供个性化推荐的能力。通过实验和数据分析，研究发现LLM的选择与效用最大化理论一致，并能够根据个体的风险厌恶程度进行个性化的推荐。 |
 
 # 详细
 
-[^1]: 利用机器学习预测市场方向与有效边界系数
-
-    Using Machine Learning to Forecast Market Direction with Efficient Frontier Coefficients
-
-    [https://arxiv.org/abs/2404.00825](https://arxiv.org/abs/2404.00825)
-
-    提出了一种利用机器学习预测市场方向的新方法，该方法使用有效边界系数进行资产回报估计，并将市场预测集成到投资组合优化框架中。
-
-    
-
-    我们提出了一种新方法，用于改善投资组合优化中资产回报的估计。该方法首先使用在线决策树执行月度市场方向预测。决策树是在从投资组合理论中提取的一组新特征上进行训练的：有效边界函数系数。有效边界可以被分解为其函数形式，即平方根二次多项式，该函数的系数捕捉了组成当前时间段市场的所有成分的信息。为了使这些预测可操作，这些方向预测被集成到一个投资组合优化框架中，该框架使用基于市场预测的预期回报作为回报向量的估计。这个条件期望是使用倒数密尔斯比率来计算的，资本资产定价模型用于将市场预测转化为个体
-
-    arXiv:2404.00825v1 Announce Type: new  Abstract: We propose a novel method to improve estimation of asset returns for portfolio optimization. This approach first performs a monthly directional market forecast using an online decision tree. The decision tree is trained on a novel set of features engineered from portfolio theory: the efficient frontier functional coefficients. Efficient frontiers can be decomposed to their functional form, a square-root second-order polynomial, and the coefficients of this function captures the information of all the constituents that compose the market in the current time period. To make these forecasts actionable, these directional forecasts are integrated to a portfolio optimization framework using expected returns conditional on the market forecast as an estimate for the return vector. This conditional expectation is calculated using the inverse Mills ratio, and the Capital Asset Pricing Model is used to translate the market forecast to individual as
-    
-[^2]: 学习成为经济人：LLM能否从选择中学习偏好
+[^1]: 学习成为经济人：LLM能否从选择中学习偏好
 
     Learning to be Homo Economicus: Can an LLM Learn Preferences from Choice. (arXiv:2401.07345v1 [econ.GN])
 
