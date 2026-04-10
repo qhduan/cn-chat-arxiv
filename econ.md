@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [The Priced Survey Methodology: Theory.](http://arxiv.org/abs/2401.03876) | 本文介绍了一种名为“价格调查方法学（PSM）”的工具，旨在克服传统调查方法在分析社会偏好方面的局限性。通过一般化阿弗里亚定理，本文证明了PSM的回答存在一个凹、连续且单峰的效用函数时，揭示偏好的广义公理是必要且充分的。这一结果意味着我们可以通过只利用可能答案之间的序关系来衡量受访者对调查的理想答案，同时PSM还可以捕捉到标准调查中常常被忽视的社会偏好的方面。 |
+| [^1] | [Linking Mechanisms: Limits and Robustness.](http://arxiv.org/abs/2309.07363) | 本文研究了配额机制在代理人面临多个决策且货币转移不可行时的应用。研究发现，随着决策数量的增加，配额机制可以实现与使用转移的独立机制相同的社会选择函数集合，并且对于代理对彼此的信念是鲁棒的。研究还发现，为了设置正确的配额，设计者必须对环境有精确的了解，否则只能实施平凡的社会选择规则。同时，配额使得报告的分布成为共知。 |
 
 # 详细
 
-[^1]: 价格调查方法学：理论
+[^1]: 链接机制：限制和鲁棒性
 
-    The Priced Survey Methodology: Theory. (arXiv:2401.03876v1 [econ.TH])
+    Linking Mechanisms: Limits and Robustness. (arXiv:2309.07363v1 [econ.TH])
 
-    [http://arxiv.org/abs/2401.03876](http://arxiv.org/abs/2401.03876)
+    [http://arxiv.org/abs/2309.07363](http://arxiv.org/abs/2309.07363)
 
-    本文介绍了一种名为“价格调查方法学（PSM）”的工具，旨在克服传统调查方法在分析社会偏好方面的局限性。通过一般化阿弗里亚定理，本文证明了PSM的回答存在一个凹、连续且单峰的效用函数时，揭示偏好的广义公理是必要且充分的。这一结果意味着我们可以通过只利用可能答案之间的序关系来衡量受访者对调查的理想答案，同时PSM还可以捕捉到标准调查中常常被忽视的社会偏好的方面。
+    本文研究了配额机制在代理人面临多个决策且货币转移不可行时的应用。研究发现，随着决策数量的增加，配额机制可以实现与使用转移的独立机制相同的社会选择函数集合，并且对于代理对彼此的信念是鲁棒的。研究还发现，为了设置正确的配额，设计者必须对环境有精确的了解，否则只能实施平凡的社会选择规则。同时，配额使得报告的分布成为共知。
 
     
 
-    本文介绍了一种名为“价格调查方法学（PSM）”的工具，旨在克服传统调查方法在分析社会偏好方面的局限性。PSM的设计借鉴了消费选择实验，受访者在不同的选择集下多次填写相同的调查问卷。本文一般化了阿弗里亚定理，并证明了关于PSM的回答存在一个凹、连续且单峰的效用函数时，揭示偏好的广义公理是必要且充分的。这个结果有两个主要意义。首先，只利用可能答案之间的序关系就可以衡量受访者对调查的理想答案。其次，PSM捕捉到了在标准调查中经常被忽视的社会偏好的方面，例如受访者对不同调查问题的相对重要性。本文在一组在线参与者中应用PSM测量无私偏好。
+    配额机制在代理面对多个决策且货币转移不可行时常被用于引出私人信息。当决策数量增加时，配额机制渐近地实施与使用转移的独立机制相同的社会选择函数集合。我们分析了配额机制的鲁棒性。为了设置正确的配额，设计者必须对环境有精确的了解。我们证明，没有转移的情况下，只有平凡的社会选择规则可以以先验独立的方式实施。当配额不匹配真实的类型分布时，我们得到了决策误差的紧密界限。最后，我们证明在多代理的环境中，配额对于代理对彼此的信念是鲁棒的。关键是，配额使得报告的分布成为共知。
 
-    In this paper, I introduce the Priced Survey Methodology (PSM), a tool designed to overcome the limitations of traditional survey methods in analyzing social preferences. The PSM's design draws inspiration from consumption choice experiments, as respondents fill out the same survey multiple times under different choice sets. I generalize Afriat's theorem and show that the Generalized Axiom of Revealed Preferences is necessary and sufficient for the existence of a concave, continuous, and single-peaked utility function rationalizing answers to the PSM. This result has two major implications. First, it is possible to measure a respondent's ideal answer to a survey using only ordinal relations between possible answers. Second, the PSM captures aspects of social preferences often overlooked in standard surveys, such as the relative importance that respondents attribute to different survey questions. I deploy a PSM measuring altruistic preferences in a sample of online participants, recover
+    Quota mechanisms are commonly used to elicit private information when agents face multiple decisions and monetary transfers are infeasible. As the number of decisions grows large, quotas asymptotically implement the same set of social choice functions as do separate mechanisms with transfers. We analyze the robustness of quota mechanisms. To set the correct quota, the designer must have precise knowledge of the environment. We show that, without transfers, only trivial social choice rules can be implemented in a prior-independent way. We obtain a tight bound on the decision error that results when the quota does not match the true type distribution. Finally, we show that in a multi-agent setting, quotas are robust to agents' beliefs about each other. Crucially, quotas make the distribution of reports common knowledge.
     
 

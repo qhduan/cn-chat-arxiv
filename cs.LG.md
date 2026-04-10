@@ -2,56 +2,71 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Active Statistical Inference](https://arxiv.org/abs/2403.03208) | 主动推断是一种统计推断方法，通过利用机器学习模型确定最有利于标记的数据点来有效利用预算，实现比现有基线更少样本的相同准确性。 |
-| [^2] | [Don't Label Twice: Quantity Beats Quality when Comparing Binary Classifiers on a Budget](https://arxiv.org/abs/2402.02249) | 在比较两个二元分类器的准确性时，通过收集更多样本的单个标签而不是汇总多个噪声标签能更好地利用预算。 |
-| [^3] | [Smoothing the Edges: A General Framework for Smooth Optimization in Sparse Regularization using Hadamard Overparametrization.](http://arxiv.org/abs/2307.03571) | 本文介绍了一种通用框架，可以在稀疏正则化中进行平滑优化，与主流的一阶优化方法兼容，并且能够得到匹配的全局最小值和等价的局部最小值。 |
-| [^4] | [A survey of Generative AI Applications.](http://arxiv.org/abs/2306.02781) | 本篇论文对350多个生成式人工智能应用进行了全面调查，总结了不同单模和多模生成式人工智能的应用。该调查为研究人员和从业者提供了宝贵的资源，帮助他们更好地了解生成式人工智能领域目前的最先进技术，并促进该领域的进一步创新。 |
+| [^1] | [Deep Privacy Funnel Model: From a Discriminative to a Generative Approach with an Application to Face Recognition](https://arxiv.org/abs/2404.02696) | 该研究将信息论隐私原则与表示学习相结合，提出了一种新的隐私保护表示学习方法，适用于人脸识别系统，并引入了生成式隐私漏斗模型。 |
+| [^2] | [CODA: A COst-efficient Test-time Domain Adaptation Mechanism for HAR](https://arxiv.org/abs/2403.14922) | CODA 提出了一种节约成本的测试时域自适应机制，通过主动学习理论处理实时漂移，实现在设备上直接进行成本有效的自适应，并保留数据分布中的有意义结构。 |
+| [^3] | [Time series generation for option pricing on quantum computers using tensor network](https://arxiv.org/abs/2402.17148) | 提出了一种使用矩阵乘积态作为时间序列生成的方法，可以有效生成多个时间点处基础资产价格的联合分布的态，并证实了该方法在Heston模型中的可行性。 |
+| [^4] | [Reconstructing the Geometry of Random Geometric Graphs](https://arxiv.org/abs/2402.09591) | 该论文通过在底层空间中采样的图来有效地重构随机几何图的几何形状。该方法基于流形假设，即底层空间是低维流形，并且连接概率是嵌入在$\mathbb{R}^N$中的流形中点之间欧几里德距离的严格递减函数。 |
+| [^5] | [A survey of Generative AI Applications.](http://arxiv.org/abs/2306.02781) | 本篇论文对350多个生成式人工智能应用进行了全面调查，总结了不同单模和多模生成式人工智能的应用。该调查为研究人员和从业者提供了宝贵的资源，帮助他们更好地了解生成式人工智能领域目前的最先进技术，并促进该领域的进一步创新。 |
 
 # 详细
 
-[^1]: 主动统计推断
+[^1]: 深度隐私漏斗模型：从判别式方法到生成式方法的转变，并其在人脸识别中的应用
 
-    Active Statistical Inference
+    Deep Privacy Funnel Model: From a Discriminative to a Generative Approach with an Application to Face Recognition
 
-    [https://arxiv.org/abs/2403.03208](https://arxiv.org/abs/2403.03208)
+    [https://arxiv.org/abs/2404.02696](https://arxiv.org/abs/2404.02696)
 
-    主动推断是一种统计推断方法，通过利用机器学习模型确定最有利于标记的数据点来有效利用预算，实现比现有基线更少样本的相同准确性。
-
-    
-
-    受主动学习概念启发，我们提出了主动推断——一种利用机器学习辅助数据收集进行统计推断的方法。假设对可收集的标签数量有预算限制，该方法利用机器学习模型确定哪些数据点最有利于标记，从而有效利用预算。其运作方式基于一种简单而强大的直觉：优先收集模型表现出不确定性的数据点的标签，并在模型表现出自信时依赖于其预测。主动推断构建了可证明有效的置信区间和假设检验，同时利用任何黑盒机器学习模型并处理任何数据分布。关键点在于，它能以比依赖于非自适应收集数据的现有基线更少的样本达到相同水平的准确性。这意味着对于相同数量的样本，...
-
-    arXiv:2403.03208v1 Announce Type: cross  Abstract: Inspired by the concept of active learning, we propose active inference$\unicode{x2013}$a methodology for statistical inference with machine-learning-assisted data collection. Assuming a budget on the number of labels that can be collected, the methodology uses a machine learning model to identify which data points would be most beneficial to label, thus effectively utilizing the budget. It operates on a simple yet powerful intuition: prioritize the collection of labels for data points where the model exhibits uncertainty, and rely on the model's predictions where it is confident. Active inference constructs provably valid confidence intervals and hypothesis tests while leveraging any black-box machine learning model and handling any data distribution. The key point is that it achieves the same level of accuracy with far fewer samples than existing baselines relying on non-adaptively-collected data. This means that for the same number 
-    
-[^2]: 不要重复标记：在有限预算下比较二元分类器时，数量胜过质量
-
-    Don't Label Twice: Quantity Beats Quality when Comparing Binary Classifiers on a Budget
-
-    [https://arxiv.org/abs/2402.02249](https://arxiv.org/abs/2402.02249)
-
-    在比较两个二元分类器的准确性时，通过收集更多样本的单个标签而不是汇总多个噪声标签能更好地利用预算。
+    该研究将信息论隐私原则与表示学习相结合，提出了一种新的隐私保护表示学习方法，适用于人脸识别系统，并引入了生成式隐私漏斗模型。
 
     
 
-    我们研究了如何更好地利用有限预算来比较两个二元分类器的准确性。通常的做法是通过多次收集和汇总给定数据点的多个噪声标签，通过多数投票形成一个不太噪声的标签。我们证明了一个与常识相反的定理。如果目标是确定两个分类器中的较好者，我们展示了更好的做法是将预算用于收集更多样本的单个标签。我们的结果来自于对Cram\'er定理的非平凡应用，这是大偏差理论中的一个重要工具。我们讨论了我们的工作对机器学习基准设计的影响，其中它们推翻了一些历史上的建议。此外，我们的结果提供了比Hoeffding界更优的样本大小界限。
+    在这项研究中，我们将信息论隐私漏斗（PF）模型应用于人脸识别领域，开发了一种新的隐私保护表示学习方法，以端到端训练框架来实现。我们的方法解决了数据保护中模糊化和效用之间的权衡，通过对数损失（也称为自信息损失）来量化。这项研究详细探讨了信息论隐私原则与表示学习的整合，在特定关注于人脸识别系统。我们特别强调了我们的框架与人脸识别网络的最新进展（如AdaFace和ArcFace）之间的适应性。此外，我们还介绍了生成式隐私漏斗（GenPF）模型，这是一种超出传统PF模型范围的范例，被称为判别式隐私漏斗（DisPF）。
 
-    We study how to best spend a budget of noisy labels to compare the accuracy of two binary classifiers. It's common practice to collect and aggregate multiple noisy labels for a given data point into a less noisy label via a majority vote. We prove a theorem that runs counter to conventional wisdom. If the goal is to identify the better of two classifiers, we show it's best to spend the budget on collecting a single label for more samples. Our result follows from a non-trivial application of Cram\'er's theorem, a staple in the theory of large deviations. We discuss the implications of our work for the design of machine learning benchmarks, where they overturn some time-honored recommendations. In addition, our results provide sample size bounds superior to what follows from Hoeffding's bound.
+    arXiv:2404.02696v1 Announce Type: new  Abstract: In this study, we apply the information-theoretic Privacy Funnel (PF) model to the domain of face recognition, developing a novel method for privacy-preserving representation learning within an end-to-end training framework. Our approach addresses the trade-off between obfuscation and utility in data protection, quantified through logarithmic loss, also known as self-information loss. This research provides a foundational exploration into the integration of information-theoretic privacy principles with representation learning, focusing specifically on the face recognition systems. We particularly highlight the adaptability of our framework with recent advancements in face recognition networks, such as AdaFace and ArcFace. In addition, we introduce the Generative Privacy Funnel ($\mathsf{GenPF}$) model, a paradigm that extends beyond the traditional scope of the PF model, referred to as the Discriminative Privacy Funnel ($\mathsf{DisPF}$)
     
-[^3]: 平滑边缘：利用Hadamard超参数化在稀疏正则化的平滑优化中的一般框架
+[^2]: CODA：一种用于HAR的节约成本的测试时域自适应机制
 
-    Smoothing the Edges: A General Framework for Smooth Optimization in Sparse Regularization using Hadamard Overparametrization. (arXiv:2307.03571v1 [cs.LG])
+    CODA: A COst-efficient Test-time Domain Adaptation Mechanism for HAR
 
-    [http://arxiv.org/abs/2307.03571](http://arxiv.org/abs/2307.03571)
+    [https://arxiv.org/abs/2403.14922](https://arxiv.org/abs/2403.14922)
 
-    本文介绍了一种通用框架，可以在稀疏正则化中进行平滑优化，与主流的一阶优化方法兼容，并且能够得到匹配的全局最小值和等价的局部最小值。
+    CODA 提出了一种节约成本的测试时域自适应机制，通过主动学习理论处理实时漂移，实现在设备上直接进行成本有效的自适应，并保留数据分布中的有意义结构。
 
     
 
-    本文介绍了一种用于（结构化）稀疏正则化问题中的$\ell_q$和$\ell_{p,q}$正则化的平滑方法。这些非平滑且可能非凸的问题的优化通常依赖于专门的过程。相比之下，我们的一般框架与主流的一阶优化方法（如随机梯度下降和加速变体）兼容，无需任何修改。这是通过平滑优化转移实现的，其中选定模型参数的超参数化使用Hadamard乘积和惩罚的改变。在超参数问题中，通过用替代参数进行平滑和凸性的$\ell_2$正则化，能够在原始参数化中引入非平滑和非凸性的$\ell_q$或$\ell_{p,q}$正则化。我们证明了我们的方法不仅能够得到匹配的全局最小值，还能得到等价的局部最小值。这在非凸稀疏正则化中尤其有用，因为在这种情况下找到全局最小值非常困难。
+    近年来，移动感知的新兴研究导致了增强人类日常生活的新型场景，但是动态的使用条件经常导致系统在实际环境中部署时性能下降。现有的解决方案通常采用基于神经网络的一次性自适应方案，这些方案往往难以确保针对人类感知场景中不确定漂移条件的稳健性。本文提出了CODA，一种针对移动感知的节约成本域自适应机制，从数据分布角度利用主动学习理论解决实时漂移，以确保在设备上直接进行成本有效的自适应。通过结合聚类损失和重要性加权主动学习算法，CODA在成本效益的实例级更新过程中保留不同聚类之间的关系，保留数据分布中的有意义结构。
 
-    This paper introduces a smooth method for (structured) sparsity in $\ell_q$ and $\ell_{p,q}$ regularized optimization problems. Optimization of these non-smooth and possibly non-convex problems typically relies on specialized procedures. In contrast, our general framework is compatible with prevalent first-order optimization methods like Stochastic Gradient Descent and accelerated variants without any required modifications. This is accomplished through a smooth optimization transfer, comprising an overparametrization of selected model parameters using Hadamard products and a change of penalties. In the overparametrized problem, smooth and convex $\ell_2$ regularization of the surrogate parameters induces non-smooth and non-convex $\ell_q$ or $\ell_{p,q}$ regularization in the original parametrization. We show that our approach yields not only matching global minima but also equivalent local minima. This is particularly useful in non-convex sparse regularization, where finding global m
+    arXiv:2403.14922v1 Announce Type: new  Abstract: In recent years, emerging research on mobile sensing has led to novel scenarios that enhance daily life for humans, but dynamic usage conditions often result in performance degradation when systems are deployed in real-world settings. Existing solutions typically employ one-off adaptation schemes based on neural networks, which struggle to ensure robustness against uncertain drifting conditions in human-centric sensing scenarios. In this paper, we propose CODA, a COst-efficient Domain Adaptation mechanism for mobile sensing that addresses real-time drifts from the data distribution perspective with active learning theory, ensuring cost-efficient adaptation directly on the device. By incorporating a clustering loss and importance-weighted active learning algorithm, CODA retains the relationship between different clusters during cost-effective instance-level updates, preserving meaningful structure within the data distribution. We also sho
     
-[^4]: 生成式人工智能应用调查
+[^3]: 使用张量网络在量子计算机上生成期权定价的时间序列
+
+    Time series generation for option pricing on quantum computers using tensor network
+
+    [https://arxiv.org/abs/2402.17148](https://arxiv.org/abs/2402.17148)
+
+    提出了一种使用矩阵乘积态作为时间序列生成的方法，可以有效生成多个时间点处基础资产价格的联合分布的态，并证实了该方法在Heston模型中的可行性。
+
+    
+
+    金融，特别是期权定价，是一个有望从量子计算中受益的行业。尽管已经提出了用于期权定价的量子算法，但人们希望在算法中设计出更高效的实现方式，其中之一是准备编码基础资产价格概率分布的量子态。特别是在定价依赖路径的期权时，我们需要生成一个编码多个时间点处基础资产价格的联合分布的态，这更具挑战性。为解决这些问题，我们提出了一种使用矩阵乘积态（MPS）作为时间序列生成的生成模型的新方法。为了验证我们的方法，以Heston模型为目标，我们进行数值实验以在模型中生成时间序列。我们的研究结果表明MPS模型能够生成Heston模型中的路径，突显了...
+
+    arXiv:2402.17148v1 Announce Type: cross  Abstract: Finance, especially option pricing, is a promising industrial field that might benefit from quantum computing. While quantum algorithms for option pricing have been proposed, it is desired to devise more efficient implementations of costly operations in the algorithms, one of which is preparing a quantum state that encodes a probability distribution of the underlying asset price. In particular, in pricing a path-dependent option, we need to generate a state encoding a joint distribution of the underlying asset price at multiple time points, which is more demanding. To address these issues, we propose a novel approach using Matrix Product State (MPS) as a generative model for time series generation. To validate our approach, taking the Heston model as a target, we conduct numerical experiments to generate time series in the model. Our findings demonstrate the capability of the MPS model to generate paths in the Heston model, highlightin
+    
+[^4]: 重构随机几何图的几何形状
+
+    Reconstructing the Geometry of Random Geometric Graphs
+
+    [https://arxiv.org/abs/2402.09591](https://arxiv.org/abs/2402.09591)
+
+    该论文通过在底层空间中采样的图来有效地重构随机几何图的几何形状。该方法基于流形假设，即底层空间是低维流形，并且连接概率是嵌入在$\mathbb{R}^N$中的流形中点之间欧几里德距离的严格递减函数。
+
+    
+
+    随机几何图是在度量空间上定义的随机图模型。该模型首先从度量空间中采样点，然后以依赖于它们之间距离的概率独立地连接每对采样点。在本工作中，我们展示了如何在流形假设下有效地从采样的图中重构底层空间的几何形状，即假设底层空间是低维流形，并且连接概率是嵌入在$\mathbb{R}^N$中的流形中点之间欧几里德距离的严格递减函数。我们的工作补充了大量关于流形学习的工作，其目标是从在流形中采样的点及其（近似的）距离中恢复出流形。
+
+    arXiv:2402.09591v1 Announce Type: new  Abstract: Random geometric graphs are random graph models defined on metric spaces. Such a model is defined by first sampling points from a metric space and then connecting each pair of sampled points with probability that depends on their distance, independently among pairs. In this work, we show how to efficiently reconstruct the geometry of the underlying space from the sampled graph under the manifold assumption, i.e., assuming that the underlying space is a low dimensional manifold and that the connection probability is a strictly decreasing function of the Euclidean distance between the points in a given embedding of the manifold in $\mathbb{R}^N$. Our work complements a large body of work on manifold learning, where the goal is to recover a manifold from sampled points sampled in the manifold along with their (approximate) distances.
+    
+[^5]: 生成式人工智能应用调查
 
     A survey of Generative AI Applications. (arXiv:2306.02781v2 [cs.LG] UPDATED)
 
