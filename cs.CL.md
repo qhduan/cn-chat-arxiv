@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Authorship Verification based on the Likelihood Ratio of Grammar Models](https://arxiv.org/abs/2403.08462) | 提出了一种基于计算作者文件在候选作者语法模型与参考群体语法模型下的可能性比率的方法，用以解决作者身份验证中存在的科学解释不足和难以解释的问题 |
+| [^1] | [InstructionGPT-4: A 200-Instruction Paradigm for Fine-Tuning MiniGPT-4.](http://arxiv.org/abs/2308.12067) | InstructionGPT-4通过仅使用200个例子进行微调，在多模式指令数据质量度量和选择器的帮助下，在各种评估任务中优于原始的MiniGPT-4。 |
 
 # 详细
 
-[^1]: 基于语法模型似然比的作者身份验证
+[^1]: InstructionGPT-4: 一个200指令范式用于微调MiniGPT-4
 
-    Authorship Verification based on the Likelihood Ratio of Grammar Models
+    InstructionGPT-4: A 200-Instruction Paradigm for Fine-Tuning MiniGPT-4. (arXiv:2308.12067v1 [cs.LG])
 
-    [https://arxiv.org/abs/2403.08462](https://arxiv.org/abs/2403.08462)
+    [http://arxiv.org/abs/2308.12067](http://arxiv.org/abs/2308.12067)
 
-    提出了一种基于计算作者文件在候选作者语法模型与参考群体语法模型下的可能性比率的方法，用以解决作者身份验证中存在的科学解释不足和难以解释的问题
+    InstructionGPT-4通过仅使用200个例子进行微调，在多模式指令数据质量度量和选择器的帮助下，在各种评估任务中优于原始的MiniGPT-4。
 
     
 
-    作者身份验证（AV）是分析一组文件以确定它们是否由特定作者撰写的过程。现有的最先进AV方法使用计算解决方案，对于其功能没有合理的科学解释，并且常常难以解释给分析人员。为解决这个问题，我们提出了一种方法，依赖于计算一个我们称之为 $\lambda_G$（LambdaG）的量：候选作者的上下文语法模型给出的文档的可能性与参考群体的上下文语法模型给出的相同文档的可能性之间的比率。这些语法模型是使用仅针对语法特征进行训练的 $n$-gram语言模型进行估计的。尽管不需要大量数据进行训练，LambdaG...
+    多模式大型语言模型通过两阶段的训练过程获取其遵循指令的能力：在图像-文本对上进行预训练，然后在监督式视觉-语言指令数据上进行微调。最近的研究表明，即使只有有限量的高质量遵循指令数据，大型语言模型也能取得令人满意的结果。在本文中，我们介绍了InstructionGPT-4，它经过微调的数据集只包含200个例子，约占MiniGPT-4对齐数据集中使用的遵循指令数据的6%。我们首先提出了几个用于评估多模式指令数据质量的度量指标。基于这些度量指标，我们提出了一个简单而有效的数据选择器，自动识别和过滤低质量的视觉-语言数据。通过采用这种方法，InstructionGPT-4在各种评估（如视觉问答、GPT-4偏好）上优于原始的MiniGPT-4。总体而言，我们的研究发现...
 
-    arXiv:2403.08462v1 Announce Type: new  Abstract: Authorship Verification (AV) is the process of analyzing a set of documents to determine whether they were written by a specific author. This problem often arises in forensic scenarios, e.g., in cases where the documents in question constitute evidence for a crime. Existing state-of-the-art AV methods use computational solutions that are not supported by a plausible scientific explanation for their functioning and that are often difficult for analysts to interpret. To address this, we propose a method relying on calculating a quantity we call $\lambda_G$ (LambdaG): the ratio between the likelihood of a document given a model of the Grammar for the candidate author and the likelihood of the same document given a model of the Grammar for a reference population. These Grammar Models are estimated using $n$-gram language models that are trained solely on grammatical features. Despite not needing large amounts of data for training, LambdaG st
+    Multimodal large language models acquire their instruction-following capabilities through a two-stage training process: pre-training on image-text pairs and fine-tuning on supervised vision-language instruction data. Recent studies have shown that large language models can achieve satisfactory results even with a limited amount of high-quality instruction-following data. In this paper, we introduce InstructionGPT-4, which is fine-tuned on a small dataset comprising only 200 examples, amounting to approximately 6% of the instruction-following data used in the alignment dataset for MiniGPT-4. We first propose several metrics to access the quality of multimodal instruction data. Based on these metrics, we present a simple and effective data selector to automatically identify and filter low-quality vision-language data. By employing this method, InstructionGPT-4 outperforms the original MiniGPT-4 on various evaluations (e.g., visual question answering, GPT-4 preference). Overall, our findi
     
 
