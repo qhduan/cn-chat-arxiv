@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Automatic Combination of Sample Selection Strategies for Few-Shot Learning](https://arxiv.org/abs/2402.03038) | 本文研究了20种样本选择策略对少样本学习性能的影响，并提出了一种自动组合样本选择策略的方法（ACSESS），在多个数据集上证明了其优越性能。 |
-| [^2] | [Deep Learning Based Amharic Chatbot for FAQs in Universities](https://arxiv.org/abs/2402.01720) | 本文提出了一个基于深度学习的阿姆哈拉语常见问题解答聊天机器人模型，可以帮助大学生解答常见问题，通过使用自然语言处理和深度学习技术，采用多种机器学习模型算法进行分析和分类，取得了最好的成绩。 |
+| [^1] | [Multimodal Sentiment Analysis with Missing Modality: A Knowledge-Transfer Approach.](http://arxiv.org/abs/2401.10747) | 本文提出了一种知识迁移方法，用于在缺失模态下进行多模态情感分析。通过翻译不同模态之间的内容以重构缺失的音频模态，并利用跨模态注意机制进行情感预测，实验证明了该方法在多个数据集上表现出显著的改进和与完整多模态监督方法相媲美的效果。 |
+| [^2] | [Neural Operator: Is data all you need to model the world? An insight into the impact of Physics Informed Machine Learning.](http://arxiv.org/abs/2301.13331) | 本文探讨了如何将数据驱动方法与传统技术相结合，以解决工程和物理问题，并指出了机器学习方法的一些主要问题。 |
 
 # 详细
 
-[^1]: 自动组合样本选择策略用于少样本学习
+[^1]: 缺失模态下的多模态情感分析:一种知识迁移方法
 
-    Automatic Combination of Sample Selection Strategies for Few-Shot Learning
+    Multimodal Sentiment Analysis with Missing Modality: A Knowledge-Transfer Approach. (arXiv:2401.10747v1 [cs.SD])
 
-    [https://arxiv.org/abs/2402.03038](https://arxiv.org/abs/2402.03038)
+    [http://arxiv.org/abs/2401.10747](http://arxiv.org/abs/2401.10747)
 
-    本文研究了20种样本选择策略对少样本学习性能的影响，并提出了一种自动组合样本选择策略的方法（ACSESS），在多个数据集上证明了其优越性能。
-
-    
-
-    在少样本学习中，如元学习、少样本微调或上下文学习中，用于训练模型的有限样本数量对整体成功具有显著影响。尽管存在大量的样本选择策略，但它们对少样本学习性能的影响尚不十分明确，因为大部分只被在典型的监督设置中进行了评估。本文通过对8个图像和6个文本数据集上的5种少样本学习方法，彻底研究了20种样本选择策略对性能的影响。此外，我们提出了一种新的自动组合样本选择策略的方法（ACSESS），它充分利用了个体策略的优势和互补信息。实验结果表明，我们的方法始终优于个体选择策略，以及最近提出的上下文学习支持样本选择方法。
-
-    In few-shot learning, such as meta-learning, few-shot fine-tuning or in-context learning, the limited number of samples used to train a model have a significant impact on the overall success. Although a large number of sample selection strategies exist, their impact on the performance of few-shot learning is not extensively known, as most of them have been so far evaluated in typical supervised settings only. In this paper, we thoroughly investigate the impact of 20 sample selection strategies on the performance of 5 few-shot learning approaches over 8 image and 6 text datasets. In addition, we propose a new method for automatic combination of sample selection strategies (ACSESS) that leverages the strengths and complementary information of the individual strategies. The experimental results show that our method consistently outperforms the individual selection strategies, as well as the recently proposed method for selecting support examples for in-context learning. We also show a str
-    
-[^2]: 基于深度学习的阿姆哈拉语常见问题解答聊天机器人
-
-    Deep Learning Based Amharic Chatbot for FAQs in Universities
-
-    [https://arxiv.org/abs/2402.01720](https://arxiv.org/abs/2402.01720)
-
-    本文提出了一个基于深度学习的阿姆哈拉语常见问题解答聊天机器人模型，可以帮助大学生解答常见问题，通过使用自然语言处理和深度学习技术，采用多种机器学习模型算法进行分析和分类，取得了最好的成绩。
+    本文提出了一种知识迁移方法，用于在缺失模态下进行多模态情感分析。通过翻译不同模态之间的内容以重构缺失的音频模态，并利用跨模态注意机制进行情感预测，实验证明了该方法在多个数据集上表现出显著的改进和与完整多模态监督方法相媲美的效果。
 
     
 
-    大学生常常花费大量时间向管理员或教师寻求常见问题的答案。这对双方来说都很繁琐，需要找到一个解决方案。为此，本文提出了一个聊天机器人模型，利用自然语言处理和深度学习技术，在阿姆哈拉语中回答常见问题。聊天机器人是通过人工智能模拟人类对话的计算机程序，作为虚拟助手处理问题和其他任务。所提出的聊天机器人程序使用标记化、规范化、去除停用词和词干提取对阿姆哈拉语输入句子进行分析和分类。采用了三种机器学习模型算法来分类标记和检索合适的回答：支持向量机（SVM）、多项式朴素贝叶斯和通过TensorFlow、Keras和NLTK实现的深度神经网络。深度学习模型取得了最好的成绩。
+    多模态情感分析旨在通过视觉、语言和声音线索来识别个体表达的情绪。然而，现有研究大多假设在训练和测试过程中所有模态都是可用的，这使得它们的算法容易受到缺失模态的影响。在本文中，我们提出了一种新颖的知识迁移网络，用于在不同模态之间进行翻译，以重构缺失的音频模态。此外，我们还开发了一种跨模态注意机制，以保留重构和观察到的模态的最大信息，用于情感预测。在三个公开数据集上进行的大量实验证明了相对于基线算法的显著改进，并实现了与具有完整多模态监督的先前方法相媲美的结果。
 
-    University students often spend a considerable amount of time seeking answers to common questions from administrators or teachers. This can become tedious for both parties, leading to a need for a solution. In response, this paper proposes a chatbot model that utilizes natural language processing and deep learning techniques to answer frequently asked questions (FAQs) in the Amharic language. Chatbots are computer programs that simulate human conversation through the use of artificial intelligence (AI), acting as a virtual assistant to handle questions and other tasks. The proposed chatbot program employs tokenization, normalization, stop word removal, and stemming to analyze and categorize Amharic input sentences. Three machine learning model algorithms were used to classify tokens and retrieve appropriate responses: Support Vector Machine (SVM), Multinomial Na\"ive Bayes, and deep neural networks implemented through TensorFlow, Keras, and NLTK. The deep learning model achieved the be
+    Multimodal sentiment analysis aims to identify the emotions expressed by individuals through visual, language, and acoustic cues. However, most of the existing research efforts assume that all modalities are available during both training and testing, making their algorithms susceptible to the missing modality scenario. In this paper, we propose a novel knowledge-transfer network to translate between different modalities to reconstruct the missing audio modalities. Moreover, we develop a cross-modality attention mechanism to retain the maximal information of the reconstructed and observed modalities for sentiment prediction. Extensive experiments on three publicly available datasets demonstrate significant improvements over baselines and achieve comparable results to the previous methods with complete multi-modality supervision.
+    
+[^2]: 神经操作员：数据是否足以模拟世界？对物理启示机器学习影响的洞察
+
+    Neural Operator: Is data all you need to model the world? An insight into the impact of Physics Informed Machine Learning. (arXiv:2301.13331v2 [cs.AI] UPDATED)
+
+    [http://arxiv.org/abs/2301.13331](http://arxiv.org/abs/2301.13331)
+
+    本文探讨了如何将数据驱动方法与传统技术相结合，以解决工程和物理问题，并指出了机器学习方法的一些主要问题。
+
+    
+
+    常常使用偏微分方程（PDE）的数值近似来构建解决物理、工程和数学问题的方案，这些问题涉及到多个变量的函数，比如热传导或声音传播、流体流动、弹性、静电学、电动力学等。虽然这在解决许多复杂现象方面发挥了作用，但存在一些限制。常规方法如有限元法（FEM）和有限差分法（FDM）需要大量时间且计算成本高。相比之下，数据驱动的基于神经网络的方法提供了一种更快速、相对准确的替代方案，并具有离散不变性和分辨率不变性等优势。本文旨在深入了解数据驱动方法如何与传统技术相辅相成，解决工程和物理问题，同时指出机器学习方法的一些主要问题。
+
+    Numerical approximations of partial differential equations (PDEs) are routinely employed to formulate the solution of physics, engineering and mathematical problems involving functions of several variables, such as the propagation of heat or sound, fluid flow, elasticity, electrostatics, electrodynamics, and more. While this has led to solving many complex phenomena, there are some limitations. Conventional approaches such as Finite Element Methods (FEMs) and Finite Differential Methods (FDMs) require considerable time and are computationally expensive. In contrast, data driven machine learning-based methods such as neural networks provide a faster, fairly accurate alternative, and have certain advantages such as discretization invariance and resolution invariance. This article aims to provide a comprehensive insight into how data-driven approaches can complement conventional techniques to solve engineering and physics problems, while also noting some of the major pitfalls of machine l
     
 
