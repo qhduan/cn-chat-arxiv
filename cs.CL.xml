@@ -1,1 +1,21 @@
-<rss version="2.0"><channel><title>Chat Arxiv cs.CL</title><link>https://github.com/qhduan/cn-chat-arxiv</link><description>This is arxiv RSS feed for cs.CL</description></channel></rss>
+<rss version="2.0"><channel><title>Chat Arxiv cs.CL</title><link>https://github.com/qhduan/cn-chat-arxiv</link><description>This is arxiv RSS feed for cs.CL</description><item><title>&#35821;&#20041;&#21464;&#21270;&#23545;&#35745;&#31639;&#35821;&#35328;&#23398;&#31639;&#27861;&#30340;&#32467;&#26524;&#36136;&#37327;&#21487;&#33021;&#20250;&#20135;&#29983;&#24433;&#21709;&#65292;&#22240;&#27492;&#37325;&#35201;&#24615;&#26085;&#30410;&#20984;&#26174;&#12290;</title><link>https://arxiv.org/abs/2402.19088</link><description>&lt;p&gt;
+&#23545;&#35821;&#20041;&#21464;&#21270;&#29305;&#24449;&#30340;&#35843;&#26597;
+&lt;/p&gt;
+&lt;p&gt;
+Survey in Characterization of Semantic Change
+&lt;/p&gt;
+&lt;p&gt;
+https://arxiv.org/abs/2402.19088
+&lt;/p&gt;
+&lt;p&gt;
+&#35821;&#20041;&#21464;&#21270;&#23545;&#35745;&#31639;&#35821;&#35328;&#23398;&#31639;&#27861;&#30340;&#32467;&#26524;&#36136;&#37327;&#21487;&#33021;&#20250;&#20135;&#29983;&#24433;&#21709;&#65292;&#22240;&#27492;&#37325;&#35201;&#24615;&#26085;&#30410;&#20984;&#26174;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+&#27963;&#35821;&#35328;&#19981;&#26029;&#21457;&#23637;&#65292;&#20197;&#21560;&#32435;&#20154;&#31867;&#31038;&#20250;&#30340;&#25991;&#21270;&#21464;&#21270;&#12290;&#36825;&#31181;&#28436;&#21464;&#36890;&#36807;&#26032;&#35789;&#35821;&#65288;&#26032;&#21333;&#35789;&#65289;&#25110;&#21333;&#35789;&#30340;&#35821;&#20041;&#21464;&#21270;&#65288;&#36171;&#20104;&#24050;&#26377;&#21333;&#35789;&#26032;&#30340;&#21547;&#20041;&#65289;&#26469;&#20307;&#29616;&#12290;&#29702;&#35299;&#21333;&#35789;&#30340;&#21547;&#20041;&#23545;&#35299;&#37322;&#26469;&#33258;&#19981;&#21516;&#25991;&#21270;&#65288;&#22320;&#26041;&#29992;&#35821;&#25110;&#20442;&#35821;&#65289;&#12289;&#39046;&#22495;&#65288;&#20363;&#22914;&#25216;&#26415;&#26415;&#35821;&#65289;&#25110;&#26102;&#20195;&#30340;&#25991;&#26412;&#33267;&#20851;&#37325;&#35201;&#12290;&#22312;&#35745;&#31639;&#26426;&#31185;&#23398;&#20013;&#65292;&#36825;&#20123;&#21333;&#35789;&#19982;&#35745;&#31639;&#35821;&#35328;&#23398;&#31639;&#27861;&#30456;&#20851;&#65292;&#20363;&#22914;&#32763;&#35793;&#12289;&#20449;&#24687;&#26816;&#32034;&#12289;&#38382;&#31572;&#31561;&#12290;&#35821;&#20041;&#21464;&#21270;&#21487;&#33021;&#20250;&#24433;&#21709;&#36825;&#20123;&#31639;&#27861;&#30340;&#32467;&#26524;&#36136;&#37327;&#12290;&#22240;&#27492;&#65292;&#20102;&#35299;&#21644;&#24418;&#24335;&#21270;&#34920;&#24449;&#36825;&#20123;&#21464;&#21270;&#26159;&#24456;&#37325;&#35201;&#30340;&#12290;&#30740;&#31350;&#36825;&#31181;&#24433;&#21709;&#26159;&#35745;&#31639;&#35821;&#35328;&#23398;&#30028;&#36817;&#26399;&#24341;&#36215;&#20851;&#27880;&#30340;&#38382;&#39064;&#12290;&#20960;&#31181;&#26041;&#27861;&#25552;&#20986;&#20102;&#26816;&#27979;&#35821;&#20041;&#21464;&#21270;&#30340;&#26041;&#27861;&#65292;&#20855;&#26377;&#36739;&#39640;&#30340;&#31934;&#24230;&#65292;&#20294;&#38656;&#35201;&#26356;&#22810;&#21162;&#21147;&#26469;&#23545;&#20854;&#36827;&#34892;&#34920;&#24449;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+arXiv:2402.19088v1 Announce Type: cross  Abstract: Live languages continuously evolve to integrate the cultural change of human societies. This evolution manifests through neologisms (new words) or \textbf{semantic changes} of words (new meaning to existing words). Understanding the meaning of words is vital for interpreting texts coming from different cultures (regionalism or slang), domains (e.g., technical terms), or periods. In computer science, these words are relevant to computational linguistics algorithms such as translation, information retrieval, question answering, etc. Semantic changes can potentially impact the quality of the outcomes of these algorithms. Therefore, it is important to understand and characterize these changes formally. The study of this impact is a recent problem that has attracted the attention of the computational linguistics community. Several approaches propose methods to detect semantic changes with good precision, but more effort is needed to charact
+&lt;/p&gt;</description></item></channel></rss>
