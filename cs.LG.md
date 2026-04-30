@@ -2,37 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Enhancing Sequential Model Performance with Squared Sigmoid TanH (SST) Activation Under Data Constraints](https://arxiv.org/abs/2402.09034) | 该论文提出了一种平方Sigmoid TanH（SST）激活函数，用于增强在数据限制下的顺序模型学习能力。通过数学平方放大强激活和弱激活之间的差异，改善梯度流和信息过滤。在多个应用中评估了SST驱动的LSTM和GRU模型的性能。 |
-| [^2] | [NUBO: A Transparent Python Package for Bayesian Optimisation.](http://arxiv.org/abs/2305.06709) | NUBO是一个透明的Python包，用于优化昂贵的黑盒函数，它利用高斯过程做代理模型以及获取函数来指导选择候选点，专注于透明度和用户体验。 |
+| [^1] | [Data-Centric Foundation Models in Computational Healthcare: A Survey.](http://arxiv.org/abs/2401.02458) | 计算医疗中的数据中心基础模型是一项调查研究，为医疗工作流程的改进提供了基于数据的人工智能方法，并讨论了安全性、评估和与人类价值观的一致性。基于FM的分析有望提高患者结果和临床工作流程表现。 |
 
 # 详细
 
-[^1]: 使用平方Sigmoid TanH (SST)激活在数据限制下提高顺序模型性能
+[^1]: 计算医疗中的数据中心基础模型：一项调查
 
-    Enhancing Sequential Model Performance with Squared Sigmoid TanH (SST) Activation Under Data Constraints
+    Data-Centric Foundation Models in Computational Healthcare: A Survey. (arXiv:2401.02458v1 [cs.LG])
 
-    [https://arxiv.org/abs/2402.09034](https://arxiv.org/abs/2402.09034)
+    [http://arxiv.org/abs/2401.02458](http://arxiv.org/abs/2401.02458)
 
-    该论文提出了一种平方Sigmoid TanH（SST）激活函数，用于增强在数据限制下的顺序模型学习能力。通过数学平方放大强激活和弱激活之间的差异，改善梯度流和信息过滤。在多个应用中评估了SST驱动的LSTM和GRU模型的性能。
-
-    
-
-    激活函数通过引入非线性来使神经网络能够学习复杂的表示。虽然前馈模型通常使用修正线性单元，但是顺序模型如递归神经网络、长短时记忆（LSTM）和门控循环单元（GRU）仍然依赖于Sigmoid和TanH激活函数。然而，这些传统的激活函数常常在训练在小顺序数据集上时难以建模稀疏模式以有效捕获时间依赖性。为了解决这个限制，我们提出了特别针对在数据限制下增强顺序模型学习能力的平方Sigmoid TanH（SST）激活。SST通过数学平方来放大强激活和弱激活之间的差异，随着信号随时间传播，有助于改善梯度流和信息过滤。我们评估了使用SST的LSTM和GRU模型在不同应用中的性能。
-
-    arXiv:2402.09034v1 Announce Type: cross Abstract: Activation functions enable neural networks to learn complex representations by introducing non-linearities. While feedforward models commonly use rectified linear units, sequential models like recurrent neural networks, long short-term memory (LSTMs) and gated recurrent units (GRUs) still rely on Sigmoid and TanH activation functions. However, these classical activation functions often struggle to model sparse patterns when trained on small sequential datasets to effectively capture temporal dependencies. To address this limitation, we propose squared Sigmoid TanH (SST) activation specifically tailored to enhance the learning capability of sequential models under data constraints. SST applies mathematical squaring to amplify differences between strong and weak activations as signals propagate over time, facilitating improved gradient flow and information filtering. We evaluate SST-powered LSTMs and GRUs for diverse applications, such a
-    
-[^2]: NUBO：一个透明的 Python 包用于贝叶斯优化
-
-    NUBO: A Transparent Python Package for Bayesian Optimisation. (arXiv:2305.06709v1 [cs.LG])
-
-    [http://arxiv.org/abs/2305.06709](http://arxiv.org/abs/2305.06709)
-
-    NUBO是一个透明的Python包，用于优化昂贵的黑盒函数，它利用高斯过程做代理模型以及获取函数来指导选择候选点，专注于透明度和用户体验。
+    计算医疗中的数据中心基础模型是一项调查研究，为医疗工作流程的改进提供了基于数据的人工智能方法，并讨论了安全性、评估和与人类价值观的一致性。基于FM的分析有望提高患者结果和临床工作流程表现。
 
     
 
-    NUBO（Newcastle University Bayesian Optimisation）是一个贝叶斯优化框架，用于优化昂贵的黑盒函数，比如物理实验和计算机模拟器。它利用高斯过程做代理模型、并通过获取函数来选择用于全局最优化的候选点。NUBO专注于透明度和用户体验，以便让不同领域的研究人员更容易使用贝叶斯优化。
+    作为一套新兴的人工智能技术，基础模型（FMs）的出现为计算医疗带来了一系列机遇。这些模型的交互性由预训练数据和人类指令引导，引发了一个数据中心的人工智能范式，强调更好的数据表征、质量和规模。在医疗人工智能领域，获取和处理高质量的临床数据记录一直是一个长期存在的挑战，涉及数据数量、注释、患者隐私和伦理等方面。在这项调查中，我们研究了FM时代的广泛数据中心方法（从模型预训练到推理），以改进医疗工作流程。我们讨论了人工智能安全性、评估以及与人类价值观的一致性的关键观点。最后，我们展望了基于FM的分析在医疗和医药领域不断发展的格局中提高患者结果和临床工作流程表现的前景。我们提供了一个最新的医疗清单。
 
-    NUBO, short for Newcastle University Bayesian Optimisation, is a Bayesian optimisation framework for the optimisation of expensive-to-evaluate black-box functions, such as physical experiments and computer simulators. Bayesian optimisation is a cost-efficient optimisation strategy that uses surrogate modelling via Gaussian processes to represent an objective function and acquisition functions to guide the selection of candidate points to approximate the global optimum of the objective function. NUBO itself focuses on transparency and user experience to make Bayesian optimisation easily accessible to researchers from all disciplines. Clean and understandable code, precise references, and thorough documentation ensure transparency, while user experience is ensured by a modular and flexible design, easy-to-write syntax, and careful selection of Bayesian optimisation algorithms. NUBO allows users to tailor Bayesian optimisation to their specific problem by writing the optimisation loop the
+    The advent of foundation models (FMs) as an emerging suite of AI techniques has struck a wave of opportunities in computational healthcare. The interactive nature of these models, guided by pre-training data and human instructions, has ignited a data-centric AI paradigm that emphasizes better data characterization, quality, and scale. In healthcare AI, obtaining and processing high-quality clinical data records has been a longstanding challenge, ranging from data quantity, annotation, patient privacy, and ethics. In this survey, we investigate a wide range of data-centric approaches in the FM era (from model pre-training to inference) towards improving the healthcare workflow. We discuss key perspectives in AI security, assessment, and alignment with human values. Finally, we offer a promising outlook of FM-based analytics to enhance the performance of patient outcome and clinical workflow in the evolving landscape of healthcare and medicine. We provide an up-to-date list of healthcare
     
 
