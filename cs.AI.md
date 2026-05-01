@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Data-Centric Foundation Models in Computational Healthcare: A Survey.](http://arxiv.org/abs/2401.02458) | 计算医疗中的数据中心基础模型是一项调查研究，为医疗工作流程的改进提供了基于数据的人工智能方法，并讨论了安全性、评估和与人类价值观的一致性。基于FM的分析有望提高患者结果和临床工作流程表现。 |
+| [^1] | [Junk DNA Hypothesis: A Task-Centric Angle of LLM Pre-trained Weights through Sparsity.](http://arxiv.org/abs/2310.02277) | 本文研究通过稀疏性分析LLM预训练权重的任务中心角度，挑战了传统对于权重中冗余性的观点，并提出了"垃圾DNA假设"。 |
 
 # 详细
 
-[^1]: 计算医疗中的数据中心基础模型：一项调查
+[^1]: "垃圾DNA假设：通过稀疏性对LLM预训练权重进行任务中心角度分析"
 
-    Data-Centric Foundation Models in Computational Healthcare: A Survey. (arXiv:2401.02458v1 [cs.LG])
+    Junk DNA Hypothesis: A Task-Centric Angle of LLM Pre-trained Weights through Sparsity. (arXiv:2310.02277v1 [cs.LG])
 
-    [http://arxiv.org/abs/2401.02458](http://arxiv.org/abs/2401.02458)
+    [http://arxiv.org/abs/2310.02277](http://arxiv.org/abs/2310.02277)
 
-    计算医疗中的数据中心基础模型是一项调查研究，为医疗工作流程的改进提供了基于数据的人工智能方法，并讨论了安全性、评估和与人类价值观的一致性。基于FM的分析有望提高患者结果和临床工作流程表现。
+    本文研究通过稀疏性分析LLM预训练权重的任务中心角度，挑战了传统对于权重中冗余性的观点，并提出了"垃圾DNA假设"。
 
     
 
-    作为一套新兴的人工智能技术，基础模型（FMs）的出现为计算医疗带来了一系列机遇。这些模型的交互性由预训练数据和人类指令引导，引发了一个数据中心的人工智能范式，强调更好的数据表征、质量和规模。在医疗人工智能领域，获取和处理高质量的临床数据记录一直是一个长期存在的挑战，涉及数据数量、注释、患者隐私和伦理等方面。在这项调查中，我们研究了FM时代的广泛数据中心方法（从模型预训练到推理），以改进医疗工作流程。我们讨论了人工智能安全性、评估以及与人类价值观的一致性的关键观点。最后，我们展望了基于FM的分析在医疗和医药领域不断发展的格局中提高患者结果和临床工作流程表现的前景。我们提供了一个最新的医疗清单。
+    传统对"垃圾DNA"的概念长期以来与人类基因组中的非编码片段相关联，占其组成的大约98%。然而，最近的研究揭示了一些这些看似无功能的DNA序列在细胞过程中起到的关键作用。有趣的是，深度神经网络中的权重与人类基因中观察到的冗余性有着显著的相似性。人们认为，庞大模型中的权重包含了过多的冗余，可以在不影响性能的情况下去除。本文通过提出一个令人信服的反论来挑战这个传统观点。我们使用稀疏性作为一种工具，来独立而准确地量化预训练大语言模型(LLM)中低幅度权重的细微重要性，从下游任务中心的角度理解它们包含的知识。我们提出了支持我们深入研究的"垃圾DNA假设"。
 
-    The advent of foundation models (FMs) as an emerging suite of AI techniques has struck a wave of opportunities in computational healthcare. The interactive nature of these models, guided by pre-training data and human instructions, has ignited a data-centric AI paradigm that emphasizes better data characterization, quality, and scale. In healthcare AI, obtaining and processing high-quality clinical data records has been a longstanding challenge, ranging from data quantity, annotation, patient privacy, and ethics. In this survey, we investigate a wide range of data-centric approaches in the FM era (from model pre-training to inference) towards improving the healthcare workflow. We discuss key perspectives in AI security, assessment, and alignment with human values. Finally, we offer a promising outlook of FM-based analytics to enhance the performance of patient outcome and clinical workflow in the evolving landscape of healthcare and medicine. We provide an up-to-date list of healthcare
+    The traditional notion of "Junk DNA" has long been linked to non-coding segments within the human genome, constituting roughly 98% of its composition. However, recent research has unveiled the critical roles some of these seemingly non-functional DNA sequences play in cellular processes. Intriguingly, the weights within deep neural networks exhibit a remarkable similarity to the redundancy observed in human genes. It was believed that weights in gigantic models contained excessive redundancy, and could be removed without compromising performance. This paper challenges this conventional wisdom by presenting a compelling counter-argument. We employ sparsity as a tool to isolate and quantify the nuanced significance of low-magnitude weights in pre-trained large language models (LLMs). Our study demonstrates a strong correlation between these weight magnitudes and the knowledge they encapsulate, from a downstream task-centric angle. we raise the "Junk DNA Hypothesis" backed by our in-depth
     
 
