@@ -2,52 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Koopman-Assisted Reinforcement Learning](https://arxiv.org/abs/2403.02290) | 该论文利用Koopman算子技术将非线性系统提升到新坐标系，在其中动力学变得近似线性，从而构建两种新的强化学习算法，以解决高维状态和非线性系统中传统方程难以解决的问题。 |
-| [^2] | [Value Explicit Pretraining for Learning Transferable Representations](https://arxiv.org/abs/2312.12339) | 提出了价值显性预训练（VEP）方法，通过学习编码器来实现学习可迁移的表示，使得能够在新任务中表现优异，对不同任务之间的状态进行关联，实现在Atari和视觉导航中获得多达2倍奖励改善。 |
-| [^3] | [Efficient Finite Initialization for Tensorized Neural Networks.](http://arxiv.org/abs/2309.06577) | 这种方法提出了一种高效有限初始化张量化神经网络层的方法，避免了参数爆炸问题，并通过使用弗罗贝尼乌斯范数的迭代部分形式来计算范数，使其具有有限范围。应用于不同层的实验表明其性能良好。 |
+| [^1] | [A tutorial on learning from preferences and choices with Gaussian Processes](https://arxiv.org/abs/2403.11782) | 提供了一个使用高斯过程进行偏好学习的框架，能够将理性原则融入学习过程，涵盖了多种偏好学习模型。 |
+| [^2] | [Analyzing Adversarial Inputs in Deep Reinforcement Learning](https://arxiv.org/abs/2402.05284) | 这篇论文通过形式验证的视角，分析了深度强化学习中对抗输入的特征，并提出了一个新的度量标准——对抗率，以及计算该度量标准的一套工具和算法。 |
+| [^3] | [CCNETS: A Novel Brain-Inspired Approach for Enhanced Pattern Recognition in Imbalanced Datasets.](http://arxiv.org/abs/2401.04139) | CCNETS是一种新颖的脑启发方法，通过模拟大脑的信息处理，通过生成高质量的数据集来增强不平衡数据集中的模式识别，特别关注处理机器学习中的不平衡数据集的挑战。 |
+| [^4] | [Optimal Fair Multi-Agent Bandits.](http://arxiv.org/abs/2306.04498) | 本文针对多智能体之间公平多臂赌博机学习问题提出了一种算法，通过分布式拍卖算法学习样本最优匹配，使用一种新的利用阶段和一种基于顺序统计的遗憾分析实现，相较于先前的结果遗憾阶数从$O(\log T \log\log T)$到了$O\left(N^3 \log N \log T \right)$，能够更好地处理多个智能体之间的依赖关系。 |
 
 # 详细
 
-[^1]: Koopman辅助强化学习
+[^1]: 使用高斯过程从偏好和选择中学习的教程
 
-    Koopman-Assisted Reinforcement Learning
+    A tutorial on learning from preferences and choices with Gaussian Processes
 
-    [https://arxiv.org/abs/2403.02290](https://arxiv.org/abs/2403.02290)
+    [https://arxiv.org/abs/2403.11782](https://arxiv.org/abs/2403.11782)
 
-    该论文利用Koopman算子技术将非线性系统提升到新坐标系，在其中动力学变得近似线性，从而构建两种新的强化学习算法，以解决高维状态和非线性系统中传统方程难以解决的问题。
-
-    
-
-    鲍曼方程及其连续形式，即哈密顿-雅可比-贝尔曼（HJB）方程，在强化学习（RL）和控制理论中无处不在。然而，对于具有高维状态和非线性的系统，这些方程很快变得难以解决。本文探讨了数据驱动的Koopman算子与马尔可夫决策过程（MDPs）之间的联系，从而开发出两种新的RL算法来解决这些限制。我们利用Koopman算子技术将非线性系统提升到新坐标系，其中动力学变得近似线性，HJB方法更易处理。特别地，Koopman算子能够通过提升到的坐标系中的线性动态来捕获给定系统值函数的时间演化的期望。通过用控制动作参数化Koopman算子，我们构建了一个“Koopman张量”，以便实现...
-
-    arXiv:2403.02290v1 Announce Type: new  Abstract: The Bellman equation and its continuous form, the Hamilton-Jacobi-Bellman (HJB) equation, are ubiquitous in reinforcement learning (RL) and control theory. However, these equations quickly become intractable for systems with high-dimensional states and nonlinearity. This paper explores the connection between the data-driven Koopman operator and Markov Decision Processes (MDPs), resulting in the development of two new RL algorithms to address these limitations. We leverage Koopman operator techniques to lift a nonlinear system into new coordinates where the dynamics become approximately linear, and where HJB-based methods are more tractable. In particular, the Koopman operator is able to capture the expectation of the time evolution of the value function of a given system via linear dynamics in the lifted coordinates. By parameterizing the Koopman operator with the control actions, we construct a ``Koopman tensor'' that facilitates the es
-    
-[^2]: 为学习可迁移表示提出价值显性预训练
-
-    Value Explicit Pretraining for Learning Transferable Representations
-
-    [https://arxiv.org/abs/2312.12339](https://arxiv.org/abs/2312.12339)
-
-    提出了价值显性预训练（VEP）方法，通过学习编码器来实现学习可迁移的表示，使得能够在新任务中表现优异，对不同任务之间的状态进行关联，实现在Atari和视觉导航中获得多达2倍奖励改善。
+    提供了一个使用高斯过程进行偏好学习的框架，能够将理性原则融入学习过程，涵盖了多种偏好学习模型。
 
     
 
-    我们提出一种名为价值显性预训练（Value Explicit Pretraining，VEP）的方法，用于学习可迁移的表示，以进行强化学习的迁移。VEP通过学习为与先前学习任务共享类似目标的新任务学习编码器来实现，无论外观变化和环境动态如何，都能学习到目标条件表示。为了从一系列观察中预训练编码器，我们使用了一种自监督对比损失，导致学习到时间上平滑的表示。VEP学习将基于反映任务进展的贝尔曼回报估计来关联不同任务之间的状态。在使用真实导航模拟器和Atari基准进行实验后，结果显示我们方法产生的预训练编码器在泛化到未见任务的能力上优于当前最先进的预训练方法。VEP在Atari和视觉导航上的奖励上获得了多达2倍的改善。
+    偏好建模位于经济学、决策理论、机器学习和统计学的交叉点。通过理解个体的偏好及其选择方式，我们可以构建更接近他们期望的产品，为跨领域的更高效、个性化应用铺平道路。此教程的目标是提供一个连贯、全面的偏好学习框架，使用高斯过程演示如何将理性原则（来自经济学和决策理论）无缝地纳入学习过程中。通过合适地定制似然函数，这一框架使得能够构建涵盖随机效用模型、辨识限制和对象和标签偏好的多重冲突效用情景的偏好学习模型。
 
-    arXiv:2312.12339v2 Announce Type: replace  Abstract: We propose Value Explicit Pretraining (VEP), a method that learns generalizable representations for transfer reinforcement learning. VEP enables learning of new tasks that share similar objectives as previously learned tasks, by learning an encoder for objective-conditioned representations, irrespective of appearance changes and environment dynamics. To pre-train the encoder from a sequence of observations, we use a self-supervised contrastive loss that results in learning temporally smooth representations. VEP learns to relate states across different tasks based on the Bellman return estimate that is reflective of task progress. Experiments using a realistic navigation simulator and Atari benchmark show that the pretrained encoder produced by our method outperforms current SoTA pretraining methods on the ability to generalize to unseen tasks. VEP achieves up to a 2 times improvement in rewards on Atari and visual navigation, and up 
+    arXiv:2403.11782v1 Announce Type: new  Abstract: Preference modelling lies at the intersection of economics, decision theory, machine learning and statistics. By understanding individuals' preferences and how they make choices, we can build products that closely match their expectations, paving the way for more efficient and personalised applications across a wide range of domains. The objective of this tutorial is to present a cohesive and comprehensive framework for preference learning with Gaussian Processes (GPs), demonstrating how to seamlessly incorporate rationality principles (from economics and decision theory) into the learning process. By suitably tailoring the likelihood function, this framework enables the construction of preference learning models that encompass random utility models, limits of discernment, and scenarios with multiple conflicting utilities for both object- and label-preference. This tutorial builds upon established research while simultaneously introducin
     
-[^3]: 高效有限初始化张量化神经网络的方法
+[^2]: 分析深度强化学习中的对抗输入
 
-    Efficient Finite Initialization for Tensorized Neural Networks. (arXiv:2309.06577v1 [cs.LG])
+    Analyzing Adversarial Inputs in Deep Reinforcement Learning
 
-    [http://arxiv.org/abs/2309.06577](http://arxiv.org/abs/2309.06577)
+    [https://arxiv.org/abs/2402.05284](https://arxiv.org/abs/2402.05284)
 
-    这种方法提出了一种高效有限初始化张量化神经网络层的方法，避免了参数爆炸问题，并通过使用弗罗贝尼乌斯范数的迭代部分形式来计算范数，使其具有有限范围。应用于不同层的实验表明其性能良好。
+    这篇论文通过形式验证的视角，分析了深度强化学习中对抗输入的特征，并提出了一个新的度量标准——对抗率，以及计算该度量标准的一套工具和算法。
 
     
 
-    我们提出了一种新的方法，用于初始化张量化神经网络的层，以避免参数爆炸。该方法适用于具有大量节点的层，其中所有或大多数节点与输入或输出有连接。该方法的核心是使用该层的弗罗贝尼乌斯范数的迭代部分形式，使其具有有限的范围。这个范数的计算是高效的，对于大多数情况都可以完全或部分计算。我们将这个方法应用于不同的层，并检查其性能。我们创建了一个Python函数，在i3BQuantum存储库的Jupyter Notebook中可以运行它：https://github.com/i3BQuantumTeam/Q4Real/blob/e07c827651ef16bcf74590ab965ea3985143f891/Quantum-Inspired%20Variational%20Methods/Normalization_process.ipynb
+    近年来，深度强化学习（DRL）由于在实际和复杂系统中取得的成功应用而成为机器学习中受欢迎的范例。然而，即使最先进的DRL模型也被证明存在可靠性问题，例如对抗输入的敏感性，即小型且大量的输入扰动会导致模型做出不可预测且潜在危险的决策。这个缺点限制了DRL系统在安全关键环境中的部署，即使是小的错误都是不可容忍的。在这项工作中，我们通过形式验证的视角提出了对对抗输入进行分类的新度量标准——对抗率，并提出了一套用于计算对抗率的工具和算法。我们的分析通过实验证明了对抗输入对DRL模型的影响。
 
-    We present a novel method for initializing layers of tensorized neural networks in a way that avoids the explosion of the parameters of the matrix it emulates. The method is intended for layers with a high number of nodes in which there is a connection to the input or output of all or most of the nodes. The core of this method is the use of the Frobenius norm of this layer in an iterative partial form, so that it has to be finite and within a certain range. This norm is efficient to compute, fully or partially for most cases of interest. We apply the method to different layers and check its performance. We create a Python function to run it on an arbitrary layer, available in a Jupyter Notebook in the i3BQuantum repository: https://github.com/i3BQuantumTeam/Q4Real/blob/e07c827651ef16bcf74590ab965ea3985143f891/Quantum-Inspired%20Variational%20Methods/Normalization_process.ipynb
+    In recent years, Deep Reinforcement Learning (DRL) has become a popular paradigm in machine learning due to its successful applications to real-world and complex systems. However, even the state-of-the-art DRL models have been shown to suffer from reliability concerns -- for example, their susceptibility to adversarial inputs, i.e., small and abundant input perturbations that can fool the models into making unpredictable and potentially dangerous decisions. This drawback limits the deployment of DRL systems in safety-critical contexts, where even a small error cannot be tolerated. In this work, we present a comprehensive analysis of the characterization of adversarial inputs, through the lens of formal verification. Specifically, we introduce a novel metric, the Adversarial Rate, to classify models based on their susceptibility to such perturbations, and present a set of tools and algorithms for its computation. Our analysis empirically demonstrates how adversarial inputs can affect th
+    
+[^3]: CCNETS:一种新颖的脑启发方法用于增强不平衡数据集中的模式识别
+
+    CCNETS: A Novel Brain-Inspired Approach for Enhanced Pattern Recognition in Imbalanced Datasets. (arXiv:2401.04139v1 [cs.LG])
+
+    [http://arxiv.org/abs/2401.04139](http://arxiv.org/abs/2401.04139)
+
+    CCNETS是一种新颖的脑启发方法，通过模拟大脑的信息处理，通过生成高质量的数据集来增强不平衡数据集中的模式识别，特别关注处理机器学习中的不平衡数据集的挑战。
+
+    
+
+    本研究介绍了CCNETS（具有因果合作网络的因果学习），这是一种新颖的基于生成模型的分类器，旨在解决模式识别中不平衡数据集生成的挑战。CCNETS独特地设计成模拟类似于大脑的信息处理，并包括三个主要组件：解释器、生成器和推理器。每个组件都被设计成模仿特定的大脑功能，有助于生成高质量的数据集并增强分类性能。该模型特别关注在机器学习中处理不平衡数据集的常见和重要挑战。通过将CCNETS应用于一个“欺诈数据集”，其中正常交易明显多于欺诈交易（99.83％ vs. 0.17％），证明了CCNETS的有效性。传统方法往往在处理这种不平衡时遇到困难，导致性能指标不均衡。然而，CCNETS展现出优越的分类能力，通过其性能指标的改善来体现。
+
+    This study introduces CCNETS (Causal Learning with Causal Cooperative Nets), a novel generative model-based classifier designed to tackle the challenge of generating data for imbalanced datasets in pattern recognition. CCNETS is uniquely crafted to emulate brain-like information processing and comprises three main components: Explainer, Producer, and Reasoner. Each component is designed to mimic specific brain functions, which aids in generating high-quality datasets and enhancing classification performance.  The model is particularly focused on addressing the common and significant challenge of handling imbalanced datasets in machine learning. CCNETS's effectiveness is demonstrated through its application to a "fraud dataset," where normal transactions significantly outnumber fraudulent ones (99.83% vs. 0.17%). Traditional methods often struggle with such imbalances, leading to skewed performance metrics. However, CCNETS exhibits superior classification ability, as evidenced by its pe
+    
+[^4]: 公平多智能体赌博机的最优算法研究
+
+    Optimal Fair Multi-Agent Bandits. (arXiv:2306.04498v1 [cs.LG])
+
+    [http://arxiv.org/abs/2306.04498](http://arxiv.org/abs/2306.04498)
+
+    本文针对多智能体之间公平多臂赌博机学习问题提出了一种算法，通过分布式拍卖算法学习样本最优匹配，使用一种新的利用阶段和一种基于顺序统计的遗憾分析实现，相较于先前的结果遗憾阶数从$O(\log T \log\log T)$到了$O\left(N^3 \log N \log T \right)$，能够更好地处理多个智能体之间的依赖关系。
+
+    
+
+    本文研究了在多个不相互通信的智能体之间进行公平的多臂赌博机学习的问题，这些智能体只有在同时访问同一个臂时才提供碰撞信息。我们提出了一种算法，其遗憾为$O\left(N^3 \log N \log T \right)$（假设奖励有界，但未知上界）。这大大改进了之前结果，其遗憾阶数为$O(\log T \log\log T)$，并且对智能体数量具有指数依赖性。结果是通过使用分布式拍卖算法来学习样本最优匹配，一种新的利用阶段，其长度来自于观察到的样本，以及一种基于顺序统计的遗憾分析实现的。仿真结果显示了遗憾对$\log T$的依存关系。
+
+    In this paper, we study the problem of fair multi-agent multi-arm bandit learning when agents do not communicate with each other, except collision information, provided to agents accessing the same arm simultaneously. We provide an algorithm with regret $O\left(N^3 \log N \log T \right)$ (assuming bounded rewards, with unknown bound). This significantly improves previous results which had regret of order $O(\log T \log\log T)$ and exponential dependence on the number of agents. The result is attained by using a distributed auction algorithm to learn the sample-optimal matching, a new type of exploitation phase whose length is derived from the observed samples, and a novel order-statistics-based regret analysis. Simulation results present the dependence of the regret on $\log T$.
     
 

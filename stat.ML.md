@@ -2,9 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-
+| [^1] | [A tutorial on learning from preferences and choices with Gaussian Processes](https://arxiv.org/abs/2403.11782) | 提供了一个使用高斯过程进行偏好学习的框架，能够将理性原则融入学习过程，涵盖了多种偏好学习模型。 |
 
 # 详细
 
+[^1]: 使用高斯过程从偏好和选择中学习的教程
 
+    A tutorial on learning from preferences and choices with Gaussian Processes
+
+    [https://arxiv.org/abs/2403.11782](https://arxiv.org/abs/2403.11782)
+
+    提供了一个使用高斯过程进行偏好学习的框架，能够将理性原则融入学习过程，涵盖了多种偏好学习模型。
+
+    
+
+    偏好建模位于经济学、决策理论、机器学习和统计学的交叉点。通过理解个体的偏好及其选择方式，我们可以构建更接近他们期望的产品，为跨领域的更高效、个性化应用铺平道路。此教程的目标是提供一个连贯、全面的偏好学习框架，使用高斯过程演示如何将理性原则（来自经济学和决策理论）无缝地纳入学习过程中。通过合适地定制似然函数，这一框架使得能够构建涵盖随机效用模型、辨识限制和对象和标签偏好的多重冲突效用情景的偏好学习模型。
+
+    arXiv:2403.11782v1 Announce Type: new  Abstract: Preference modelling lies at the intersection of economics, decision theory, machine learning and statistics. By understanding individuals' preferences and how they make choices, we can build products that closely match their expectations, paving the way for more efficient and personalised applications across a wide range of domains. The objective of this tutorial is to present a cohesive and comprehensive framework for preference learning with Gaussian Processes (GPs), demonstrating how to seamlessly incorporate rationality principles (from economics and decision theory) into the learning process. By suitably tailoring the likelihood function, this framework enables the construction of preference learning models that encompass random utility models, limits of discernment, and scenarios with multiple conflicting utilities for both object- and label-preference. This tutorial builds upon established research while simultaneously introducin
+    
 
