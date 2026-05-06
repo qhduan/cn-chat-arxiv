@@ -2,67 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [A tutorial on learning from preferences and choices with Gaussian Processes](https://arxiv.org/abs/2403.11782) | 提供了一个使用高斯过程进行偏好学习的框架，能够将理性原则融入学习过程，涵盖了多种偏好学习模型。 |
-| [^2] | [Analyzing Adversarial Inputs in Deep Reinforcement Learning](https://arxiv.org/abs/2402.05284) | 这篇论文通过形式验证的视角，分析了深度强化学习中对抗输入的特征，并提出了一个新的度量标准——对抗率，以及计算该度量标准的一套工具和算法。 |
-| [^3] | [CCNETS: A Novel Brain-Inspired Approach for Enhanced Pattern Recognition in Imbalanced Datasets.](http://arxiv.org/abs/2401.04139) | CCNETS是一种新颖的脑启发方法，通过模拟大脑的信息处理，通过生成高质量的数据集来增强不平衡数据集中的模式识别，特别关注处理机器学习中的不平衡数据集的挑战。 |
-| [^4] | [Optimal Fair Multi-Agent Bandits.](http://arxiv.org/abs/2306.04498) | 本文针对多智能体之间公平多臂赌博机学习问题提出了一种算法，通过分布式拍卖算法学习样本最优匹配，使用一种新的利用阶段和一种基于顺序统计的遗憾分析实现，相较于先前的结果遗憾阶数从$O(\log T \log\log T)$到了$O\left(N^3 \log N \log T \right)$，能够更好地处理多个智能体之间的依赖关系。 |
+| [^1] | [A Review of Deep Learning Methods for Photoplethysmography Data.](http://arxiv.org/abs/2401.12783) | 本综述系统地回顾了自2017年至2023年期间应用深度学习模型处理光电容积法数据的论文。研究发现，深度学习在个人健康管理和其他应用中具有显著成果。根据任务的不同，这些论文被分为医学相关和非医学相关两大类别，医学相关又细分为七个子组，包括血压分析... |
+| [^2] | [Proof of Training (PoT): Harnessing Crypto Mining Power for Distributed AI Training.](http://arxiv.org/abs/2307.07066) | Proof of Training (PoT)是一种结合了AI和区块链技术的协议，利用实用性拜占庭错误容忍（PBFT）共识机制同步全局状态。该协议在任务吞吐量、系统鲁棒性和网络安全方面表现出相当的潜力。 |
 
 # 详细
 
-[^1]: 使用高斯过程从偏好和选择中学习的教程
+[^1]: 深度学习方法在光电容积法数据中的应用综述
 
-    A tutorial on learning from preferences and choices with Gaussian Processes
+    A Review of Deep Learning Methods for Photoplethysmography Data. (arXiv:2401.12783v1 [cs.AI])
 
-    [https://arxiv.org/abs/2403.11782](https://arxiv.org/abs/2403.11782)
+    [http://arxiv.org/abs/2401.12783](http://arxiv.org/abs/2401.12783)
 
-    提供了一个使用高斯过程进行偏好学习的框架，能够将理性原则融入学习过程，涵盖了多种偏好学习模型。
-
-    
-
-    偏好建模位于经济学、决策理论、机器学习和统计学的交叉点。通过理解个体的偏好及其选择方式，我们可以构建更接近他们期望的产品，为跨领域的更高效、个性化应用铺平道路。此教程的目标是提供一个连贯、全面的偏好学习框架，使用高斯过程演示如何将理性原则（来自经济学和决策理论）无缝地纳入学习过程中。通过合适地定制似然函数，这一框架使得能够构建涵盖随机效用模型、辨识限制和对象和标签偏好的多重冲突效用情景的偏好学习模型。
-
-    arXiv:2403.11782v1 Announce Type: new  Abstract: Preference modelling lies at the intersection of economics, decision theory, machine learning and statistics. By understanding individuals' preferences and how they make choices, we can build products that closely match their expectations, paving the way for more efficient and personalised applications across a wide range of domains. The objective of this tutorial is to present a cohesive and comprehensive framework for preference learning with Gaussian Processes (GPs), demonstrating how to seamlessly incorporate rationality principles (from economics and decision theory) into the learning process. By suitably tailoring the likelihood function, this framework enables the construction of preference learning models that encompass random utility models, limits of discernment, and scenarios with multiple conflicting utilities for both object- and label-preference. This tutorial builds upon established research while simultaneously introducin
-    
-[^2]: 分析深度强化学习中的对抗输入
-
-    Analyzing Adversarial Inputs in Deep Reinforcement Learning
-
-    [https://arxiv.org/abs/2402.05284](https://arxiv.org/abs/2402.05284)
-
-    这篇论文通过形式验证的视角，分析了深度强化学习中对抗输入的特征，并提出了一个新的度量标准——对抗率，以及计算该度量标准的一套工具和算法。
+    本综述系统地回顾了自2017年至2023年期间应用深度学习模型处理光电容积法数据的论文。研究发现，深度学习在个人健康管理和其他应用中具有显著成果。根据任务的不同，这些论文被分为医学相关和非医学相关两大类别，医学相关又细分为七个子组，包括血压分析...
 
     
 
-    近年来，深度强化学习（DRL）由于在实际和复杂系统中取得的成功应用而成为机器学习中受欢迎的范例。然而，即使最先进的DRL模型也被证明存在可靠性问题，例如对抗输入的敏感性，即小型且大量的输入扰动会导致模型做出不可预测且潜在危险的决策。这个缺点限制了DRL系统在安全关键环境中的部署，即使是小的错误都是不可容忍的。在这项工作中，我们通过形式验证的视角提出了对对抗输入进行分类的新度量标准——对抗率，并提出了一套用于计算对抗率的工具和算法。我们的分析通过实验证明了对抗输入对DRL模型的影响。
+    光电容积法（PPG）是一种非常有前景的设备，因为它具有便携性、用户友好操作和非侵入性测量多种生理信息的能力。深度学习的最新进展，通过利用PPG信号，展示了在个人健康管理和其他多方面应用任务上取得了显著的成果。本综述系统地回顾了自2017年1月1日至2023年7月31日期间在Google学术、PubMed和Dimensions发表的应用深度学习模型处理PPG数据的论文。每篇论文从任务、模型和数据三个关键角度进行分析。最终提取了193篇论文，其中使用了不同的深度学习框架来处理PPG信号。根据这些论文所涉及的任务，我们将它们分为两大类别：医学相关和非医学相关。医学相关任务进一步分为七个子组，包括血压分析...
 
-    In recent years, Deep Reinforcement Learning (DRL) has become a popular paradigm in machine learning due to its successful applications to real-world and complex systems. However, even the state-of-the-art DRL models have been shown to suffer from reliability concerns -- for example, their susceptibility to adversarial inputs, i.e., small and abundant input perturbations that can fool the models into making unpredictable and potentially dangerous decisions. This drawback limits the deployment of DRL systems in safety-critical contexts, where even a small error cannot be tolerated. In this work, we present a comprehensive analysis of the characterization of adversarial inputs, through the lens of formal verification. Specifically, we introduce a novel metric, the Adversarial Rate, to classify models based on their susceptibility to such perturbations, and present a set of tools and algorithms for its computation. Our analysis empirically demonstrates how adversarial inputs can affect th
+    Photoplethysmography (PPG) is a highly promising device due to its advantages in portability, user-friendly operation, and non-invasive capabilities to measure a wide range of physiological information. Recent advancements in deep learning have demonstrated remarkable outcomes by leveraging PPG signals for tasks related to personal health management and other multifaceted applications. In this review, we systematically reviewed papers that applied deep learning models to process PPG data between January 1st of 2017 and July 31st of 2023 from Google Scholar, PubMed and Dimensions. Each paper is analyzed from three key perspectives: tasks, models, and data. We finally extracted 193 papers where different deep learning frameworks were used to process PPG signals. Based on the tasks addressed in these papers, we categorized them into two major groups: medical-related, and non-medical-related. The medical-related tasks were further divided into seven subgroups, including blood pressure anal
     
-[^3]: CCNETS:一种新颖的脑启发方法用于增强不平衡数据集中的模式识别
+[^2]: Proof of Training (PoT): 利用加密挖掘的算力进行分布式AI训练
 
-    CCNETS: A Novel Brain-Inspired Approach for Enhanced Pattern Recognition in Imbalanced Datasets. (arXiv:2401.04139v1 [cs.LG])
+    Proof of Training (PoT): Harnessing Crypto Mining Power for Distributed AI Training. (arXiv:2307.07066v1 [cs.CR])
 
-    [http://arxiv.org/abs/2401.04139](http://arxiv.org/abs/2401.04139)
+    [http://arxiv.org/abs/2307.07066](http://arxiv.org/abs/2307.07066)
 
-    CCNETS是一种新颖的脑启发方法，通过模拟大脑的信息处理，通过生成高质量的数据集来增强不平衡数据集中的模式识别，特别关注处理机器学习中的不平衡数据集的挑战。
-
-    
-
-    本研究介绍了CCNETS（具有因果合作网络的因果学习），这是一种新颖的基于生成模型的分类器，旨在解决模式识别中不平衡数据集生成的挑战。CCNETS独特地设计成模拟类似于大脑的信息处理，并包括三个主要组件：解释器、生成器和推理器。每个组件都被设计成模仿特定的大脑功能，有助于生成高质量的数据集并增强分类性能。该模型特别关注在机器学习中处理不平衡数据集的常见和重要挑战。通过将CCNETS应用于一个“欺诈数据集”，其中正常交易明显多于欺诈交易（99.83％ vs. 0.17％），证明了CCNETS的有效性。传统方法往往在处理这种不平衡时遇到困难，导致性能指标不均衡。然而，CCNETS展现出优越的分类能力，通过其性能指标的改善来体现。
-
-    This study introduces CCNETS (Causal Learning with Causal Cooperative Nets), a novel generative model-based classifier designed to tackle the challenge of generating data for imbalanced datasets in pattern recognition. CCNETS is uniquely crafted to emulate brain-like information processing and comprises three main components: Explainer, Producer, and Reasoner. Each component is designed to mimic specific brain functions, which aids in generating high-quality datasets and enhancing classification performance.  The model is particularly focused on addressing the common and significant challenge of handling imbalanced datasets in machine learning. CCNETS's effectiveness is demonstrated through its application to a "fraud dataset," where normal transactions significantly outnumber fraudulent ones (99.83% vs. 0.17%). Traditional methods often struggle with such imbalances, leading to skewed performance metrics. However, CCNETS exhibits superior classification ability, as evidenced by its pe
-    
-[^4]: 公平多智能体赌博机的最优算法研究
-
-    Optimal Fair Multi-Agent Bandits. (arXiv:2306.04498v1 [cs.LG])
-
-    [http://arxiv.org/abs/2306.04498](http://arxiv.org/abs/2306.04498)
-
-    本文针对多智能体之间公平多臂赌博机学习问题提出了一种算法，通过分布式拍卖算法学习样本最优匹配，使用一种新的利用阶段和一种基于顺序统计的遗憾分析实现，相较于先前的结果遗憾阶数从$O(\log T \log\log T)$到了$O\left(N^3 \log N \log T \right)$，能够更好地处理多个智能体之间的依赖关系。
+    Proof of Training (PoT)是一种结合了AI和区块链技术的协议，利用实用性拜占庭错误容忍（PBFT）共识机制同步全局状态。该协议在任务吞吐量、系统鲁棒性和网络安全方面表现出相当的潜力。
 
     
 
-    本文研究了在多个不相互通信的智能体之间进行公平的多臂赌博机学习的问题，这些智能体只有在同时访问同一个臂时才提供碰撞信息。我们提出了一种算法，其遗憾为$O\left(N^3 \log N \log T \right)$（假设奖励有界，但未知上界）。这大大改进了之前结果，其遗憾阶数为$O(\log T \log\log T)$，并且对智能体数量具有指数依赖性。结果是通过使用分布式拍卖算法来学习样本最优匹配，一种新的利用阶段，其长度来自于观察到的样本，以及一种基于顺序统计的遗憾分析实现的。仿真结果显示了遗憾对$\log T$的依存关系。
+    在人工智能（AI）与加密挖掘相融合的新趋势中，我们发现两个领域存在三个主要挑战。为了弥合这一差距，我们引入了一种名为Proof of Training (PoT)的协议，它结合了AI和区块链技术的优势。PoT协议利用实用性拜占庭错误容忍（PBFT）共识机制来同步全局状态。为了评估协议设计的性能，我们提出了一种采用PoT协议的分散训练网络（DTN）的实现。我们的结果表明，该协议在任务吞吐量、系统鲁棒性和网络安全方面具有相当的潜力。
 
-    In this paper, we study the problem of fair multi-agent multi-arm bandit learning when agents do not communicate with each other, except collision information, provided to agents accessing the same arm simultaneously. We provide an algorithm with regret $O\left(N^3 \log N \log T \right)$ (assuming bounded rewards, with unknown bound). This significantly improves previous results which had regret of order $O(\log T \log\log T)$ and exponential dependence on the number of agents. The result is attained by using a distributed auction algorithm to learn the sample-optimal matching, a new type of exploitation phase whose length is derived from the observed samples, and a novel order-statistics-based regret analysis. Simulation results present the dependence of the regret on $\log T$.
+    In the midst of the emerging trend of integrating artificial intelligence (AI) with crypto mining, we identify three major challenges that create a gap between these two fields. To bridge this gap, we introduce the proof-of-training (PoT) protocol, an approach that combines the strengths of both AI and blockchain technology. The PoT protocol utilizes the practical Byzantine fault tolerance (PBFT) consensus mechanism to synchronize global states. To evaluate the performance of the protocol design, we present an implementation of a decentralized training network (DTN) that adopts the PoT protocol. Our results indicate that the protocol exhibits considerable potential in terms of task throughput, system robustness, and network security.
     
 

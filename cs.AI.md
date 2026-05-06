@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Koopman-Assisted Reinforcement Learning](https://arxiv.org/abs/2403.02290) | 该论文利用Koopman算子技术将非线性系统提升到新坐标系，在其中动力学变得近似线性，从而构建两种新的强化学习算法，以解决高维状态和非线性系统中传统方程难以解决的问题。 |
+| [^1] | [Unsupervised Learning of Robust Spectral Shape Matching.](http://arxiv.org/abs/2304.14419) | 该方法提出了一种新的学习方法，使用无监督方式进行鲁棒的三维形状匹配，可以获得不同场景下的准确对应关系。 |
 
 # 详细
 
-[^1]: Koopman辅助强化学习
+[^1]: 无监督学习鲁棒性谱形匹配
 
-    Koopman-Assisted Reinforcement Learning
+    Unsupervised Learning of Robust Spectral Shape Matching. (arXiv:2304.14419v1 [cs.CV])
 
-    [https://arxiv.org/abs/2403.02290](https://arxiv.org/abs/2403.02290)
+    [http://arxiv.org/abs/2304.14419](http://arxiv.org/abs/2304.14419)
 
-    该论文利用Koopman算子技术将非线性系统提升到新坐标系，在其中动力学变得近似线性，从而构建两种新的强化学习算法，以解决高维状态和非线性系统中传统方程难以解决的问题。
+    该方法提出了一种新的学习方法，使用无监督方式进行鲁棒的三维形状匹配，可以获得不同场景下的准确对应关系。
 
     
 
-    鲍曼方程及其连续形式，即哈密顿-雅可比-贝尔曼（HJB）方程，在强化学习（RL）和控制理论中无处不在。然而，对于具有高维状态和非线性的系统，这些方程很快变得难以解决。本文探讨了数据驱动的Koopman算子与马尔可夫决策过程（MDPs）之间的联系，从而开发出两种新的RL算法来解决这些限制。我们利用Koopman算子技术将非线性系统提升到新坐标系，其中动力学变得近似线性，HJB方法更易处理。特别地，Koopman算子能够通过提升到的坐标系中的线性动态来捕获给定系统值函数的时间演化的期望。通过用控制动作参数化Koopman算子，我们构建了一个“Koopman张量”，以便实现...
+    我们提出了一种新的学习方法来进行鲁棒的三维形状匹配。我们的方法基于深度函数映射，并可以完全无监督地进行训练。之前的深度函数映射方法主要集中在预测最优化函数映射上，然后依靠现成的后期处理来获得在推理过程中准确的点映射。然而，这个两阶段过程通常会产生次优性能。相比之下，我们提出了一种新的无监督损失，利用函数映射和点映射之间关系的最新见解，从而直接获得点映射而无需任何后期处理。我们的方法不仅可以获得近等距形状的准确对应关系，还可以获得更具挑战性的非等距形状和部分形状，以及存在不同离散化或拓扑噪声的形状的准确对应关系。使用总共九个不同的数据集，我们的方法在不同场景下得到了很好的结果。
 
-    arXiv:2403.02290v1 Announce Type: new  Abstract: The Bellman equation and its continuous form, the Hamilton-Jacobi-Bellman (HJB) equation, are ubiquitous in reinforcement learning (RL) and control theory. However, these equations quickly become intractable for systems with high-dimensional states and nonlinearity. This paper explores the connection between the data-driven Koopman operator and Markov Decision Processes (MDPs), resulting in the development of two new RL algorithms to address these limitations. We leverage Koopman operator techniques to lift a nonlinear system into new coordinates where the dynamics become approximately linear, and where HJB-based methods are more tractable. In particular, the Koopman operator is able to capture the expectation of the time evolution of the value function of a given system via linear dynamics in the lifted coordinates. By parameterizing the Koopman operator with the control actions, we construct a ``Koopman tensor'' that facilitates the es
+    We propose a novel learning-based approach for robust 3D shape matching. Our method builds upon deep functional maps and can be trained in a fully unsupervised manner. Previous deep functional map methods mainly focus on predicting optimised functional maps alone, and then rely on off-the-shelf post-processing to obtain accurate point-wise maps during inference. However, this two-stage procedure for obtaining point-wise maps often yields sub-optimal performance. In contrast, building upon recent insights about the relation between functional maps and point-wise maps, we propose a novel unsupervised loss to couple the functional maps and point-wise maps, and thereby directly obtain point-wise maps without any post-processing. Our approach obtains accurate correspondences not only for near-isometric shapes, but also for more challenging non-isometric shapes and partial shapes, as well as shapes with different discretisation or topological noise. Using a total of nine diverse datasets, we
     
 
