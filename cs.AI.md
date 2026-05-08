@@ -2,37 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [A Review of Deep Learning Methods for Photoplethysmography Data.](http://arxiv.org/abs/2401.12783) | 本综述系统地回顾了自2017年至2023年期间应用深度学习模型处理光电容积法数据的论文。研究发现，深度学习在个人健康管理和其他应用中具有显著成果。根据任务的不同，这些论文被分为医学相关和非医学相关两大类别，医学相关又细分为七个子组，包括血压分析... |
-| [^2] | [Adaptive Reorganization of Neural Pathways for Continual Learning with Spiking Neural Networks.](http://arxiv.org/abs/2309.09550) | 本文提出了一种脑启发式的可持续学习算法，通过自组织调节网络将单一有限的脉冲神经网络重新组织为丰富的稀疏神经路径，以高效应对递增任务，并在各种可持续学习任务以及泛化的CIFAR100和ImageNet数据集上展现出一致的性能优势、能耗和内存容量优势。 |
+| [^1] | [ANGOFA: Leveraging OFA Embedding Initialization and Synthetic Data for Angolan Language Model](https://arxiv.org/abs/2404.02534) | 本文介绍了四个专门针对安哥拉语言进行微调的PLM，并使用多语言自适应微调（MAFT）方法，通过采用知情嵌入初始化和合成数据，提高了MAFT模型在下游任务中的性能，将基线提高了12.3个百分点，超越了SOTA AfroXLMR-base和OFA。 |
 
 # 详细
 
-[^1]: 深度学习方法在光电容积法数据中的应用综述
+[^1]: ANGOFA：利用OFA嵌入初始化和合成数据的安哥拉语言模型
 
-    A Review of Deep Learning Methods for Photoplethysmography Data. (arXiv:2401.12783v1 [cs.AI])
+    ANGOFA: Leveraging OFA Embedding Initialization and Synthetic Data for Angolan Language Model
 
-    [http://arxiv.org/abs/2401.12783](http://arxiv.org/abs/2401.12783)
+    [https://arxiv.org/abs/2404.02534](https://arxiv.org/abs/2404.02534)
 
-    本综述系统地回顾了自2017年至2023年期间应用深度学习模型处理光电容积法数据的论文。研究发现，深度学习在个人健康管理和其他应用中具有显著成果。根据任务的不同，这些论文被分为医学相关和非医学相关两大类别，医学相关又细分为七个子组，包括血压分析...
-
-    
-
-    光电容积法（PPG）是一种非常有前景的设备，因为它具有便携性、用户友好操作和非侵入性测量多种生理信息的能力。深度学习的最新进展，通过利用PPG信号，展示了在个人健康管理和其他多方面应用任务上取得了显著的成果。本综述系统地回顾了自2017年1月1日至2023年7月31日期间在Google学术、PubMed和Dimensions发表的应用深度学习模型处理PPG数据的论文。每篇论文从任务、模型和数据三个关键角度进行分析。最终提取了193篇论文，其中使用了不同的深度学习框架来处理PPG信号。根据这些论文所涉及的任务，我们将它们分为两大类别：医学相关和非医学相关。医学相关任务进一步分为七个子组，包括血压分析...
-
-    Photoplethysmography (PPG) is a highly promising device due to its advantages in portability, user-friendly operation, and non-invasive capabilities to measure a wide range of physiological information. Recent advancements in deep learning have demonstrated remarkable outcomes by leveraging PPG signals for tasks related to personal health management and other multifaceted applications. In this review, we systematically reviewed papers that applied deep learning models to process PPG data between January 1st of 2017 and July 31st of 2023 from Google Scholar, PubMed and Dimensions. Each paper is analyzed from three key perspectives: tasks, models, and data. We finally extracted 193 papers where different deep learning frameworks were used to process PPG signals. Based on the tasks addressed in these papers, we categorized them into two major groups: medical-related, and non-medical-related. The medical-related tasks were further divided into seven subgroups, including blood pressure anal
-    
-[^2]: 具有脉冲神经网络的可持续学习的神经路径的自适应重组
-
-    Adaptive Reorganization of Neural Pathways for Continual Learning with Spiking Neural Networks. (arXiv:2309.09550v2 [cs.NE] UPDATED)
-
-    [http://arxiv.org/abs/2309.09550](http://arxiv.org/abs/2309.09550)
-
-    本文提出了一种脑启发式的可持续学习算法，通过自组织调节网络将单一有限的脉冲神经网络重新组织为丰富的稀疏神经路径，以高效应对递增任务，并在各种可持续学习任务以及泛化的CIFAR100和ImageNet数据集上展现出一致的性能优势、能耗和内存容量优势。
+    本文介绍了四个专门针对安哥拉语言进行微调的PLM，并使用多语言自适应微调（MAFT）方法，通过采用知情嵌入初始化和合成数据，提高了MAFT模型在下游任务中的性能，将基线提高了12.3个百分点，超越了SOTA AfroXLMR-base和OFA。
 
     
 
-    人脑可以自组织出丰富多样的稀疏神经路径，逐步掌握数百个认知任务。然而，目前大多数深度人工和脉冲神经网络的可持续学习算法无法充分自动调节网络中有限的资源，这导致随着任务增加，性能下降，能耗上升。在本文中，我们提出了一种脑启发式的可持续学习算法，通过自组织调节网络将单一有限的脉冲神经网络（SOR-SNN）重新组织为丰富的稀疏神经路径，以高效应对递增任务。所提出的模型在各种可持续学习任务上表现出了一致的性能优势、能耗和内存容量优势，包括从儿童简单任务到复杂任务、以及泛化的CIFAR100和ImageNet数据集。尤其是，SOR-SNN模型表现出了令人满意的性能、能耗和内存容量。
+    近年来，预训练语言模型（PLMs）的发展势头迅猛，展示了它们超越语言障碍、促进跨多种语言的知识转移的能力。然而，这一进展主要忽视了极低资源语言的包含，导致多语言景观中出现明显的空白。本文通过引入四个定制的PLM，专门为安哥拉语言进行微调，采用多语言自适应微调（MAFT）方法，以填补这一空白。我们调查了信息嵌入初始化和合成数据在增强MAFT模型在下游任务中性能方面的作用。我们将基线提高了12.3个百分点，超过了通过MAFT开发的SOTA AfroXLMR-base和有效嵌入初始化OFA分别提高了3.8个百分点。
 
-    The human brain can self-organize rich and diverse sparse neural pathways to incrementally master hundreds of cognitive tasks. However, most existing continual learning algorithms for deep artificial and spiking neural networks are unable to adequately auto-regulate the limited resources in the network, which leads to performance drop along with energy consumption rise as the increase of tasks. In this paper, we propose a brain-inspired continual learning algorithm with adaptive reorganization of neural pathways, which employs Self-Organizing Regulation networks to reorganize the single and limited Spiking Neural Network (SOR-SNN) into rich sparse neural pathways to efficiently cope with incremental tasks. The proposed model demonstrates consistent superiority in performance, energy consumption, and memory capacity on diverse continual learning tasks ranging from child-like simple to complex tasks, as well as on generalized CIFAR100 and ImageNet datasets. In particular, the SOR-SNN mod
+    arXiv:2404.02534v1 Announce Type: cross  Abstract: In recent years, the development of pre-trained language models (PLMs) has gained momentum, showcasing their capacity to transcend linguistic barriers and facilitate knowledge transfer across diverse languages. However, this progress has predominantly bypassed the inclusion of very-low resource languages, creating a notable void in the multilingual landscape. This paper addresses this gap by introducing four tailored PLMs specifically finetuned for Angolan languages, employing a Multilingual Adaptive Fine-tuning (MAFT) approach. In this paper, we survey the role of informed embedding initialization and synthetic data in enhancing the performance of MAFT models in downstream tasks. We improve baseline over SOTA AfroXLMR-base (developed through MAFT) and OFA (an effective embedding initialization) by 12.3 and 3.8 points respectively.
     
 

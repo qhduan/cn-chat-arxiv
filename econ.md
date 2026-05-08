@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Inevitability of Polarization in Geometric Opinion Exchange](https://arxiv.org/abs/2402.08446) | 在这篇论文中，我们研究了几何观点交换中极化的必然性，发现在我们研究的模型类中，极化似乎是普遍存在的，只需要相对较小的… |
+| [^1] | [Social Learning of General Rules.](http://arxiv.org/abs/2310.15861) | 为了解决为何个体在多个行为规则中选择特定规则的问题，我们引入了一个动态社会学习框架，其中个体基于一般的经验规则并模仿成功同伴的行为规则。我们发现社会学习结果不依赖于初始规则分布，当一个主导规则产生出优越结果时，几乎肯定会被所有个体采纳；否则，较好规则会成为共识规则。因此，社会学习过程中选取的行为规则不一定能最大化社会福利。 |
 
 # 详细
 
-[^1]: “几何观点交换中极化的必然性”
+[^1]: 社会学习的一般规则
 
-    Inevitability of Polarization in Geometric Opinion Exchange
+    Social Learning of General Rules. (arXiv:2310.15861v1 [econ.TH])
 
-    [https://arxiv.org/abs/2402.08446](https://arxiv.org/abs/2402.08446)
+    [http://arxiv.org/abs/2310.15861](http://arxiv.org/abs/2310.15861)
 
-    在这篇论文中，我们研究了几何观点交换中极化的必然性，发现在我们研究的模型类中，极化似乎是普遍存在的，只需要相对较小的…
+    为了解决为何个体在多个行为规则中选择特定规则的问题，我们引入了一个动态社会学习框架，其中个体基于一般的经验规则并模仿成功同伴的行为规则。我们发现社会学习结果不依赖于初始规则分布，当一个主导规则产生出优越结果时，几乎肯定会被所有个体采纳；否则，较好规则会成为共识规则。因此，社会学习过程中选取的行为规则不一定能最大化社会福利。
 
     
 
-    极化和观点在政治、文化和消费选择等多个领域的意外相关性是受到持续关注的对象。然而，许多理论模型似乎无法令人信服地解释这些现象。本文受到最近的一系列研究的启发，研究了极化可以通过有偏倚的同化和观点之间的几何相互作用来解释的模型。代理人的观点被表示为多维球上的单位向量，并根据几何规则进行更新。与先前的工作不同，我们专注于经典的观点交换设定中，代理人在离散时间步骤中更新其观点，每一步中随机选择一对代理人进行交互。观点根据属于一个通用类别的更新规则进行更新。我们的发现有两个方面。首先，在我们研究的模型类中，极化似乎是普遍存在的，只需要相对较小的…
+    为什么在可能的多个行为规则中，个体会选择特定的一般行为规则？为了解决这个问题，我们引入了一个动态社会学习框架，在这个框架中，个体依赖于一般的经验之规并模仿成功的同伴的行为规则。我们发现社会学习的结果可以独立于初始规则分布进行描述。当一个主导的一般规则始终产生出优越的问题特定结果时，社会学习几乎肯定会导致所有个体采纳这个主导规则；否则，只要人口足够大，更频繁问题的较好规则会以任意高的概率成为共识规则。因此，在社会学习过程中选择的行为规则不一定能最大化社会福利。我们通过在随机生产市场中应用市场情绪选择来补充我们的理论分析。
 
-    Polarization and unexpected correlations between opinions on diverse topics (including in politics, culture and consumer choices) are an object of sustained attention. However, numerous theoretical models do not seem to convincingly explain these phenomena.   This paper is motivated by a recent line of work, studying models where polarization can be explained in terms of biased assimilation and geometric interplay between opinions on various topics. The agent opinions are represented as unit vectors on a multidimensional sphere and updated according to geometric rules. In contrast to previous work, we focus on the classical opinion exchange setting, where the agents update their opinions in discrete time steps, with a pair of agents interacting randomly at every step. The opinions are updated according to an update rule belonging to a general class.   Our findings are twofold. First, polarization appears to be ubiquitous in the class of models we study, requiring only relatively modest
+    Why do agents adopt a particular general behavioral rule among a collection of possible alternatives? To address this question, we introduce a dynamic social learning framework, where agents rely on general rules of thumb and imitate the behavioral rules of successful peers. We find the social learning outcome can be characterized independent of the initial rule distribution. When one dominant general rule consistently yields superior problem-specific outcomes, social learning almost surely leads all agents to adopt this dominant rule; otherwise, provided the population is sufficiently large, the better rule for the more frequent problem becomes the consensus rule with arbitrarily high probability. As a result, the behavioral rule selected by the social learning process need not maximize social welfare. We complement our theoretical analysis with an application to the market sentiment selection in a stochastic production market.
     
 
