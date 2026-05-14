@@ -2,37 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Transformer-based models and hardware acceleration analysis in autonomous driving: A survey.](http://arxiv.org/abs/2304.10891) | 本文综述了基于Transformer的模型在自动驾驶中的应用，探讨了不同体系结构和运算符的优缺点，重点讨论了针对便携计算平台的硬件加速方案，并对卷积神经网络和Transformer的层进行了对比。 |
-| [^2] | [DiFaReli : Diffusion Face Relighting.](http://arxiv.org/abs/2304.09479) | DiFaReli提出了一种新方法，通过利用条件扩散隐式模型解码解耦的光编码以及从现成的估算器推断出的与3D形状和面部身份相关的其他编码，能够处理单视角的野外环境下的人脸重照，无需光线舞台数据、多视图图像或光照基础事实，实验表明其效果优于现有方法。 |
+| [^1] | [The Impact of LoRA on the Emergence of Clusters in Transformers](https://arxiv.org/abs/2402.15415) | 本文利用转换器数学框架探讨了LoRA算法对Token聚类结构动态的影响，发现在不同参数下，修改后的注意力矩阵动态的聚类表现出较长时间的显著差异，但仍在短时间内保持密切相似。 |
+| [^2] | [Digital Computers Break the Curse of Dimensionality: Adaptive Bounds via Finite Geometry](https://arxiv.org/abs/2402.05576) | 通过利用离散结构，本论文以真实计算机上的实现为基础，打破了统计学习中的维度诅咒，并给出了无维度率的新的泛化界限。 |
+| [^3] | [The Score-Difference Flow for Implicit Generative Modeling.](http://arxiv.org/abs/2304.12906) | 本文提出了一种新的评分差异流模型(SD flow)，它可以最优地减少两个分布之间的散度，同时解决Schr​​ödinger桥问题。与去噪扩散模型不同，它没有对先验分布施加任何限制，在一些基准数据集中优于其他方法。 |
 
 # 详细
 
-[^1]: 自动驾驶中基于Transformer的模型及其硬件加速分析：综述 (arXiv:2304.10891v1 [cs.LG])
+[^1]: LoRA对转换器中聚类的影响
 
-    Transformer-based models and hardware acceleration analysis in autonomous driving: A survey. (arXiv:2304.10891v1 [cs.LG])
+    The Impact of LoRA on the Emergence of Clusters in Transformers
 
-    [http://arxiv.org/abs/2304.10891](http://arxiv.org/abs/2304.10891)
+    [https://arxiv.org/abs/2402.15415](https://arxiv.org/abs/2402.15415)
 
-    本文综述了基于Transformer的模型在自动驾驶中的应用，探讨了不同体系结构和运算符的优缺点，重点讨论了针对便携计算平台的硬件加速方案，并对卷积神经网络和Transformer的层进行了对比。
-
-    
-
-    近年来，Transformer架构在各种自动驾驶应用中表现出了很好的性能。另一方面，将其专门用于便携式计算平台的硬件加速已成为实际部署在真实自动汽车中的下一步关键步骤。本综述论文提供了针对自动驾驶任务的基于Transformer的模型的全面概述、基准和分析，例如车道检测、分割、跟踪、规划和决策制定。我们审查了不同的体系结构，用于组织Transformer的输入和输出，例如编码器-解码器和仅编码器结构，并探讨了它们各自的优缺点。此外，我们深入讨论了Transformer相关的运算符及其硬件加速方案，考虑到关键因素，如量化和运行时。我们特别在移动和桌面平台上对卷积神经网络的层与基于Transformer的模型的运算符进行了对比。总的来说，本综述论文为研究人员和从业者提供了系统的指南，以了解基于Transformer的模型及其在自动驾驶中的硬件加速的当前进展和挑战。
-
-    Transformer architectures have exhibited promising performance in various autonomous driving applications in recent years. On the other hand, its dedicated hardware acceleration on portable computational platforms has become the next critical step for practical deployment in real autonomous vehicles. This survey paper provides a comprehensive overview, benchmark, and analysis of Transformer-based models specifically tailored for autonomous driving tasks such as lane detection, segmentation, tracking, planning, and decision-making. We review different architectures for organizing Transformer inputs and outputs, such as encoder-decoder and encoder-only structures, and explore their respective advantages and disadvantages. Furthermore, we discuss Transformer-related operators and their hardware acceleration schemes in depth, taking into account key factors such as quantization and runtime. We specifically illustrate the operator level comparison between layers from convolutional neural ne
-    
-[^2]: DiFaReli: 扩散人脸重照技术
-
-    DiFaReli : Diffusion Face Relighting. (arXiv:2304.09479v1 [cs.CV])
-
-    [http://arxiv.org/abs/2304.09479](http://arxiv.org/abs/2304.09479)
-
-    DiFaReli提出了一种新方法，通过利用条件扩散隐式模型解码解耦的光编码以及从现成的估算器推断出的与3D形状和面部身份相关的其他编码，能够处理单视角的野外环境下的人脸重照，无需光线舞台数据、多视图图像或光照基础事实，实验表明其效果优于现有方法。
+    本文利用转换器数学框架探讨了LoRA算法对Token聚类结构动态的影响，发现在不同参数下，修改后的注意力矩阵动态的聚类表现出较长时间的显著差异，但仍在短时间内保持密切相似。
 
     
 
-    我们提出了一种新方法，用于处理野外环境下的单视角人脸重照。处理全局照明或投影阴影等非漫反射效应一直是人脸重照领域的难点。以往的研究通常假定兰伯特反射表面，简化光照模型，或者需要估计三维形状、反射率或阴影图。然而，这种估计是容易出错的，需要许多具有光照基础事实的训练样本才能很好地推广。我们的研究绕过了准确估计固有组件的需要，可以仅通过2D图像训练而不需要任何光线舞台数据、多视图图像或光照基础事实。我们的关键思想是利用条件扩散隐式模型（DDIM）解码解耦的光编码以及从现成的估算器推断出的与3D形状和面部身份相关的其他编码。我们还提出了一种新的调节技术，通过使用归一化方案，简化光与几何之间复杂互动的建模。在多个基准数据集上的实验表明，我们的方法优于现有方法。
+    在本文中，我们利用\citet{sander2022sinkformers,geshkovski2023emergence,geshkovski2023mathematical}提出的转换器数学框架，探讨注意力参数和初始标记值的变化如何影响标记聚类的结构动态。我们的分析表明，虽然修改后的注意力矩阵动态中的聚类可能在较长时间内与原始聚类差异显著，但在较短时间间隔内，它们在参数差异的影响下仍保持密切相似。这项工作通过LoRA算法\cite{hu2021lora,peft}的实际应用，为微调领域做出了贡献，增进了我们对LoRA增强的Transformer模型行为的理解。
 
-    We present a novel approach to single-view face relighting in the wild. Handling non-diffuse effects, such as global illumination or cast shadows, has long been a challenge in face relighting. Prior work often assumes Lambertian surfaces, simplified lighting models or involves estimating 3D shape, albedo, or a shadow map. This estimation, however, is error-prone and requires many training examples with lighting ground truth to generalize well. Our work bypasses the need for accurate estimation of intrinsic components and can be trained solely on 2D images without any light stage data, multi-view images, or lighting ground truth. Our key idea is to leverage a conditional diffusion implicit model (DDIM) for decoding a disentangled light encoding along with other encodings related to 3D shape and facial identity inferred from off-the-shelf estimators. We also propose a novel conditioning technique that eases the modeling of the complex interaction between light and geometry by using a ren
+    arXiv:2402.15415v1 Announce Type: new  Abstract: In this paper, we employ the mathematical framework on Transformers developed by \citet{sander2022sinkformers,geshkovski2023emergence,geshkovski2023mathematical} to explore how variations in attention parameters and initial token values impact the structural dynamics of token clusters. Our analysis demonstrates that while the clusters within a modified attention matrix dynamics can exhibit significant divergence from the original over extended periods, they maintain close similarities over shorter intervals, depending on the parameter differences. This work contributes to the fine-tuning field through practical applications to the LoRA algorithm \cite{hu2021lora,peft}, enhancing our understanding of the behavior of LoRA-enhanced Transformer models.
+    
+[^2]: 数字计算机打破维度诅咒：通过有限几何的自适应界限
+
+    Digital Computers Break the Curse of Dimensionality: Adaptive Bounds via Finite Geometry
+
+    [https://arxiv.org/abs/2402.05576](https://arxiv.org/abs/2402.05576)
+
+    通过利用离散结构，本论文以真实计算机上的实现为基础，打破了统计学习中的维度诅咒，并给出了无维度率的新的泛化界限。
+
+    
+
+    许多机器学习的基础是建立在理想情况下的前提下，即所有的输入和输出空间都是无穷的，例如$\mathbb{R}^d$。然而，由于有限的机器精度、舍入和有限的存储空间等数字计算机的限制，实际情况下这个核心假设往往被违背。简而言之，数字计算机在$\mathbb{R}^d$上操作的是有限的网格。通过利用这些离散结构，我们展示了在实际计算机上实现模型时，统计学习中的维度诅咒被系统地打破。因此，我们针对在真实世界机器上实现的核函数和深度ReLU MLP回归器获得了新的无维度率的泛化界限。我们的结果应用了一种新的非渐进测度集中性结果，该结果给出了概率测度和其在$N$个独立同分布样本上的经验版本之间的距离为$1$-Wasserstein距离的集中性。
+
+    Many of the foundations of machine learning rely on the idealized premise that all input and output spaces are infinite, e.g.~$\mathbb{R}^d$. This core assumption is systematically violated in practice due to digital computing limitations from finite machine precision, rounding, and limited RAM. In short, digital computers operate on finite grids in $\mathbb{R}^d$. By exploiting these discrete structures, we show the curse of dimensionality in statistical learning is systematically broken when models are implemented on real computers. Consequentially, we obtain new generalization bounds with dimension-free rates for kernel and deep ReLU MLP regressors, which are implemented on real-world machines.   Our results are derived using a new non-asymptotic concentration of measure result between a probability measure over any finite metric space and its empirical version associated with $N$ i.i.d. samples when measured in the $1$-Wasserstein distance. Unlike standard concentration of measure 
+    
+[^3]: 评分差值流模型用于隐式生成建模
+
+    The Score-Difference Flow for Implicit Generative Modeling. (arXiv:2304.12906v1 [cs.LG])
+
+    [http://arxiv.org/abs/2304.12906](http://arxiv.org/abs/2304.12906)
+
+    本文提出了一种新的评分差异流模型(SD flow)，它可以最优地减少两个分布之间的散度，同时解决Schr​​ödinger桥问题。与去噪扩散模型不同，它没有对先验分布施加任何限制，在一些基准数据集中优于其他方法。
+
+    
+
+    隐式生成建模(IGM)旨在生成符合目标数据分布特征的合成数据样本。最近的研究(例如评分匹配网络、扩散模型)从通过环境空间中的动态扰动或流将合成源数据推向目标分布的角度解决了IGM问题。我们引入了任意目标和源分布之间的评分差异(SD)作为流，它可以最优地减少它们之间的Kullback-Leibler散度，同时解决Schr​​ödinger桥问题。我们将SD流应用于方便的代理分布，当且仅当原始分布对齐时，它们是对齐的。我们在某些条件下展示了这种公式与去噪扩散模型的形式一致性。然而，与扩散模型不同，SD流没有对先验分布施加任何限制。我们还表明，在无限辨别器能力的极限下，生成对抗网络的训练包含SD流。我们的实验表明，SD流在几个基准数据集上优于先前的最新技术。
+
+    Implicit generative modeling (IGM) aims to produce samples of synthetic data matching the characteristics of a target data distribution. Recent work (e.g. score-matching networks, diffusion models) has approached the IGM problem from the perspective of pushing synthetic source data toward the target distribution via dynamical perturbations or flows in the ambient space. We introduce the score difference (SD) between arbitrary target and source distributions as a flow that optimally reduces the Kullback-Leibler divergence between them while also solving the Schr\"odinger bridge problem. We apply the SD flow to convenient proxy distributions, which are aligned if and only if the original distributions are aligned. We demonstrate the formal equivalence of this formulation to denoising diffusion models under certain conditions. However, unlike diffusion models, SD flow places no restrictions on the prior distribution. We also show that the training of generative adversarial networks includ
     
 
