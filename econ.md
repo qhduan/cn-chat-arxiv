@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [A mean-field model of optimal investment](https://arxiv.org/abs/2404.02871) | 该论文建立了一个关于最优投资的随机均场博弈模型，证明了均衡的存在性和唯一性，探讨了有限和无限时间范围的情况，同时研究了确定性对应物。 |
+| [^1] | [Combating Algorithmic Collusion: A Mechanism Design Approach.](http://arxiv.org/abs/2303.02576) | 本文提出了一种机制设计方法来打击算法勾结，通过保护欺骗者免受价格战的影响，实现了有效降低价格，不影响产品种类或平台付款。 |
 
 # 详细
 
-[^1]: 一个关于最优投资的均场模型
+[^1]: 打击算法勾结：一种机制设计方法
 
-    A mean-field model of optimal investment
+    Combating Algorithmic Collusion: A Mechanism Design Approach. (arXiv:2303.02576v2 [econ.TH] UPDATED)
 
-    [https://arxiv.org/abs/2404.02871](https://arxiv.org/abs/2404.02871)
+    [http://arxiv.org/abs/2303.02576](http://arxiv.org/abs/2303.02576)
 
-    该论文建立了一个关于最优投资的随机均场博弈模型，证明了均衡的存在性和唯一性，探讨了有限和无限时间范围的情况，同时研究了确定性对应物。
+    本文提出了一种机制设计方法来打击算法勾结，通过保护欺骗者免受价格战的影响，实现了有效降低价格，不影响产品种类或平台付款。
 
     
 
-    我们建立了一个关于最优投资的随机均场博弈的均衡存在性和唯一性。分析涵盖了有限和无限时间范围，代表公司与大量相同和不可区分的公司群体之间的均场相互作用通过生产商品的售价进行建模。在均衡状态下，这个价格以代表公司的预期(最优控制)生产能力的非线性函数来表示。均场均衡存在性和唯一性的证明依赖于先验估计和非线性积分方程的研究，但对于有限和无限时间范围的情况采用了不同的技术。此外，我们还研究了所讨论的均场博弈的确定性对应物。
+    最近关注的焦点是平台上人工智能卖家勾结限制产量并提高价格的可能性。然而，这样的协议（卡特尔）对个别卖家以低价（欺骗）违背有增加自己利润的动机。因此，稳定这样的卡特尔需要可信的惩罚威胁，例如价格战。本文提出了一种机制，通过保护任何欺骗者免受价格战的影响来瓦解卡特尔，只有在实际发生这样的惩罚时，才保证不受任意惩罚影响的利润流。引发游戏的均衡分析预测会恢复到重复静态纳什定价。当在强化学习框架中实施时，它能够显著降低价格（降低40%或更多的利润率），不影响产品种类或要求平台在路径上进行任何付款。这种机制适用于差异化销售。
 
-    arXiv:2404.02871v1 Announce Type: cross  Abstract: We establish the existence and uniqueness of the equilibrium for a stochastic mean-field game of optimal investment. The analysis covers both finite and infinite time horizons, and the mean-field interaction of the representative company with a mass of identical and indistinguishable firms is modeled through the time-dependent price at which the produced good is sold. At equilibrium, this price is given in terms of a nonlinear function of the expected (optimally controlled) production capacity of the representative company at each time. The proof of the existence and uniqueness of the mean-field equilibrium relies on a priori estimates and the study of nonlinear integral equations, but employs different techniques for the finite and infinite horizon cases. Additionally, we investigate the deterministic counterpart of the mean-field game under study.
+    Attention has recently been focused on the possibility of artificially intelligent sellers on platforms colluding to limit output and raise prices. Such arrangements (cartels), however, feature an incentive for individual sellers to deviate to a lower price (cheat) to increase their own profits. Stabilizing such cartels therefore requires credible threats of punishments, such as price wars. In this paper, I propose a mechanism to destabilize cartels by protecting any cheaters from a price war by guaranteeing a stream of profits which is unaffected by arbitrary punishments, only if such punishments actually occur. Equilibrium analysis of the induced game predicts a reversion to repeated static Nash pricing. When implemented in a reinforcement learning framework, it provides substantial reductions in prices (reducing markups by 40% or more), without affecting product variety or requiring the platform to make any payments on path. This mechanism applies to both the sale of differentiated 
     
 
