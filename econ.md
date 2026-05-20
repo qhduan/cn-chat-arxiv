@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Combating Algorithmic Collusion: A Mechanism Design Approach.](http://arxiv.org/abs/2303.02576) | 本文提出了一种机制设计方法来打击算法勾结，通过保护欺骗者免受价格战的影响，实现了有效降低价格，不影响产品种类或平台付款。 |
+| [^1] | [Testing the identification of causal effects in observational data.](http://arxiv.org/abs/2203.15890) | 本研究提出一种机器学习方法用于检测观测数据中因果效应的识别，并且连带着提出一种工具变量和协变量的可测试条件，这为治疗效果的评估提供了途径。 |
 
 # 详细
 
-[^1]: 打击算法勾结：一种机制设计方法
+[^1]: 在观测数据中检验因果效应的识别
 
-    Combating Algorithmic Collusion: A Mechanism Design Approach. (arXiv:2303.02576v2 [econ.TH] UPDATED)
+    Testing the identification of causal effects in observational data. (arXiv:2203.15890v4 [econ.EM] UPDATED)
 
-    [http://arxiv.org/abs/2303.02576](http://arxiv.org/abs/2303.02576)
+    [http://arxiv.org/abs/2203.15890](http://arxiv.org/abs/2203.15890)
 
-    本文提出了一种机制设计方法来打击算法勾结，通过保护欺骗者免受价格战的影响，实现了有效降低价格，不影响产品种类或平台付款。
+    本研究提出一种机器学习方法用于检测观测数据中因果效应的识别，并且连带着提出一种工具变量和协变量的可测试条件，这为治疗效果的评估提供了途径。
 
     
 
-    最近关注的焦点是平台上人工智能卖家勾结限制产量并提高价格的可能性。然而，这样的协议（卡特尔）对个别卖家以低价（欺骗）违背有增加自己利润的动机。因此，稳定这样的卡特尔需要可信的惩罚威胁，例如价格战。本文提出了一种机制，通过保护任何欺骗者免受价格战的影响来瓦解卡特尔，只有在实际发生这样的惩罚时，才保证不受任意惩罚影响的利润流。引发游戏的均衡分析预测会恢复到重复静态纳什定价。当在强化学习框架中实施时，它能够显著降低价格（降低40%或更多的利润率），不影响产品种类或要求平台在路径上进行任何付款。这种机制适用于差异化销售。
+    本研究展示了一个可测试的条件，用于在观测数据中识别治疗对结果的因果效应，该条件基于两组变量：需要控制的观测协变量和被怀疑的工具变量。在实证应用中常见的因果结构下，被怀疑的工具变量与结果（在给定治疗和协变量的条件下）的可测试条件独立性有两个含义。第一，工具变量是有效的，即它不直接影响结果（除了通过治疗）并在协变量条件下未受到混淆。第二，治疗在协变量条件下不受混淆，因此治疗效应得以确定。我们建议使用基于机器学习方法的条件独立性测试，以数据驱动的方式考虑协变量，并在模拟研究中研究其渐近行为和有限样本性能。我们还将我们的方法应用于真实数据，以说明其适用性。
 
-    Attention has recently been focused on the possibility of artificially intelligent sellers on platforms colluding to limit output and raise prices. Such arrangements (cartels), however, feature an incentive for individual sellers to deviate to a lower price (cheat) to increase their own profits. Stabilizing such cartels therefore requires credible threats of punishments, such as price wars. In this paper, I propose a mechanism to destabilize cartels by protecting any cheaters from a price war by guaranteeing a stream of profits which is unaffected by arbitrary punishments, only if such punishments actually occur. Equilibrium analysis of the induced game predicts a reversion to repeated static Nash pricing. When implemented in a reinforcement learning framework, it provides substantial reductions in prices (reducing markups by 40% or more), without affecting product variety or requiring the platform to make any payments on path. This mechanism applies to both the sale of differentiated 
+    This study demonstrates the existence of a testable condition for the identification of the causal effect of a treatment on an outcome in observational data, which relies on two sets of variables: observed covariates to be controlled for and a suspected instrument. Under a causal structure commonly found in empirical applications, the testable conditional independence of the suspected instrument and the outcome given the treatment and the covariates has two implications. First, the instrument is valid, i.e. it does not directly affect the outcome (other than through the treatment) and is unconfounded conditional on the covariates. Second, the treatment is unconfounded conditional on the covariates such that the treatment effect is identified. We suggest tests of this conditional independence based on machine learning methods that account for covariates in a data-driven way and investigate their asymptotic behavior and finite sample performance in a simulation study. We also apply our t
     
 
