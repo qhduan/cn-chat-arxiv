@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Testing the identification of causal effects in observational data.](http://arxiv.org/abs/2203.15890) | 本研究提出一种机器学习方法用于检测观测数据中因果效应的识别，并且连带着提出一种工具变量和协变量的可测试条件，这为治疗效果的评估提供了途径。 |
+| [^1] | [Estimating Individual Responses when Tomorrow Matters.](http://arxiv.org/abs/2310.09105) | 本论文提出了一种基于回归的方法，用于估计个体对对立情况的反应。通过应用该方法于意大利的调查数据，研究发现考虑个体的信念对税收政策对消费决策的影响很重要。 |
 
 # 详细
 
-[^1]: 在观测数据中检验因果效应的识别
+[^1]: 估计明天重要时的个体反应
 
-    Testing the identification of causal effects in observational data. (arXiv:2203.15890v4 [econ.EM] UPDATED)
+    Estimating Individual Responses when Tomorrow Matters. (arXiv:2310.09105v1 [econ.EM])
 
-    [http://arxiv.org/abs/2203.15890](http://arxiv.org/abs/2203.15890)
+    [http://arxiv.org/abs/2310.09105](http://arxiv.org/abs/2310.09105)
 
-    本研究提出一种机器学习方法用于检测观测数据中因果效应的识别，并且连带着提出一种工具变量和协变量的可测试条件，这为治疗效果的评估提供了途径。
+    本论文提出了一种基于回归的方法，用于估计个体对对立情况的反应。通过应用该方法于意大利的调查数据，研究发现考虑个体的信念对税收政策对消费决策的影响很重要。
 
     
 
-    本研究展示了一个可测试的条件，用于在观测数据中识别治疗对结果的因果效应，该条件基于两组变量：需要控制的观测协变量和被怀疑的工具变量。在实证应用中常见的因果结构下，被怀疑的工具变量与结果（在给定治疗和协变量的条件下）的可测试条件独立性有两个含义。第一，工具变量是有效的，即它不直接影响结果（除了通过治疗）并在协变量条件下未受到混淆。第二，治疗在协变量条件下不受混淆，因此治疗效应得以确定。我们建议使用基于机器学习方法的条件独立性测试，以数据驱动的方式考虑协变量，并在模拟研究中研究其渐近行为和有限样本性能。我们还将我们的方法应用于真实数据，以说明其适用性。
+    我们提出了一种基于回归的方法，用于估计个体的期望如何影响他们对对立情况的反应。我们提供了基于回归估计的平均偏效应恢复结构效应的条件。我们提出了一个依赖于主观信念数据的实用的三步估计方法。我们在一个消费和储蓄模型中说明了我们的方法，重点关注不仅改变当前收入而且影响对未来收入的信念的所得税的影响。通过将我们的方法应用于意大利的调查数据，我们发现考虑个体的信念对评估税收政策对消费决策的影响很重要。
 
-    This study demonstrates the existence of a testable condition for the identification of the causal effect of a treatment on an outcome in observational data, which relies on two sets of variables: observed covariates to be controlled for and a suspected instrument. Under a causal structure commonly found in empirical applications, the testable conditional independence of the suspected instrument and the outcome given the treatment and the covariates has two implications. First, the instrument is valid, i.e. it does not directly affect the outcome (other than through the treatment) and is unconfounded conditional on the covariates. Second, the treatment is unconfounded conditional on the covariates such that the treatment effect is identified. We suggest tests of this conditional independence based on machine learning methods that account for covariates in a data-driven way and investigate their asymptotic behavior and finite sample performance in a simulation study. We also apply our t
+    We propose a regression-based approach to estimate how individuals' expectations influence their responses to a counterfactual change. We provide conditions under which average partial effects based on regression estimates recover structural effects. We propose a practical three-step estimation method that relies on subjective beliefs data. We illustrate our approach in a model of consumption and saving, focusing on the impact of an income tax that not only changes current income but also affects beliefs about future income. By applying our approach to survey data from Italy, we find that considering individuals' beliefs matter for evaluating the impact of tax policies on consumption decisions.
     
 
