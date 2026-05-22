@@ -2,52 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Mercer Large-Scale Kernel Machines from Ridge Function Perspective.](http://arxiv.org/abs/2307.11925) | 本文从岭函数的角度介绍了Mercer大规模核机器，通过研究哪些核函数可以被余弦函数乘积逼近，解决了大规模核机器中的难题。这些结果对深度学习，特别是图像处理有潜在应用。 |
-| [^2] | [AI-Augmented Surveys: Leveraging Large Language Models for Opinion Prediction in Nationally Representative Surveys.](http://arxiv.org/abs/2305.09620) | 本论文研究了利用经过全国代表性调查微调的大语言模型（LLMs）来增强调查的观点预测，取得了在遗漏数据插值和回溯推理方面优秀的成果，在零次预测方面仍需进一步研究。 |
-| [^3] | [The Score-Difference Flow for Implicit Generative Modeling.](http://arxiv.org/abs/2304.12906) | 本文提出了一种新的评分差异流模型(SD flow)，它可以最优地减少两个分布之间的散度，同时解决Schr​​ödinger桥问题。与去噪扩散模型不同，它没有对先验分布施加任何限制，在一些基准数据集中优于其他方法。 |
+| [^1] | [Improved DDIM Sampling with Moment Matching Gaussian Mixtures.](http://arxiv.org/abs/2311.04938) | 在DDIM框架中使用GMM作为反向转移算子，通过矩匹配可以获得质量更高的样本。在无条件模型和类条件模型上进行了实验，并通过FID和IS指标证明了我们的方法的改进效果。 |
+| [^2] | [TreeDQN: Learning to minimize Branch-and-Bound tree.](http://arxiv.org/abs/2306.05905) | TreeDQN提出了一种强化学习方法，可以学习到更加效率的分支启发式算法，减少了训练数据，并产生更小的子任务树。 |
+| [^3] | [Attacking the Spike: On the Transferability and Security of Spiking Neural Networks to Adversarial Examples.](http://arxiv.org/abs/2209.03358) | 这项研究主要关注于脉冲神经网络(SNNs)对抗性样本的鲁棒性和转移性。研究发现，成功的白盒对抗攻击SNNs在很大程度上依赖于替代梯度技术，并且非SNN架构创建的对抗样本往往不被SNNs误分类。 |
 
 # 详细
 
-[^1]: 基于岭函数角度的Mercer大规模核机器
+[^1]: 使用矩匹配高斯混合模型改进了DDIM采样
 
-    Mercer Large-Scale Kernel Machines from Ridge Function Perspective. (arXiv:2307.11925v1 [cs.LG])
+    Improved DDIM Sampling with Moment Matching Gaussian Mixtures. (arXiv:2311.04938v2 [cs.CV] UPDATED)
 
-    [http://arxiv.org/abs/2307.11925](http://arxiv.org/abs/2307.11925)
+    [http://arxiv.org/abs/2311.04938](http://arxiv.org/abs/2311.04938)
 
-    本文从岭函数的角度介绍了Mercer大规模核机器，通过研究哪些核函数可以被余弦函数乘积逼近，解决了大规模核机器中的难题。这些结果对深度学习，特别是图像处理有潜在应用。
-
-    
-
-    为了从岭函数的角度介绍Mercer大规模核机器，我们回顾了Lin和Pinkus在岭函数的基本性上的结果。我们考虑了Rachimi和Recht在近似理论中的最近一篇论文的主要定理，即大规模核机器的随机特征。我们研究了哪些核函数可以被$x$和$y$的余弦函数乘积的和逼近，并提出了这种方法的障碍。本文的结果可能在深度学习中有各种应用，尤其是与图像处理相关的问题。
-
-    To present Mercer large-scale kernel machines from a ridge function perspective, we recall the results by Lin and Pinkus from Fundamentality of ridge functions. We consider the main theorem of the recent paper by Rachimi and Recht, 2008, Random features for large-scale kernel machines in terms of the Approximation Theory. We study which kernels can be approximated by a sum of cosine function products with arguments depending on $x$ and $y$ and present the obstacles of such an approach. The results of this article may have various applications in Deep Learning, especially in problems related to Image Processing.
-    
-[^2]: AI增强的调查：利用大语言模型进行全国代表性调查的观点预测
-
-    AI-Augmented Surveys: Leveraging Large Language Models for Opinion Prediction in Nationally Representative Surveys. (arXiv:2305.09620v1 [cs.CL])
-
-    [http://arxiv.org/abs/2305.09620](http://arxiv.org/abs/2305.09620)
-
-    本论文研究了利用经过全国代表性调查微调的大语言模型（LLMs）来增强调查的观点预测，取得了在遗漏数据插值和回溯推理方面优秀的成果，在零次预测方面仍需进一步研究。
+    在DDIM框架中使用GMM作为反向转移算子，通过矩匹配可以获得质量更高的样本。在无条件模型和类条件模型上进行了实验，并通过FID和IS指标证明了我们的方法的改进效果。
 
     
 
-    本论文研究了如何使用经过全国代表性调查微调的大语言模型（LLMs）来增强调查。本文探讨了LLMs在观点预测中，遗漏数据插值，回溯推理和零次预测三个不同应用。我们提出了一种新的方法论框架，将调查问题、个人信念和时间背景的神经嵌入引入到观点预测的个性化LLMs中。在1972年到2021年的“常规社会调查”中，我们从68,846名美国人中获得了3,110个二进制观点，在Alpaca-7b模型的基础上取得了最好的成果，在缺失数据插值（AUC=0.87，公开观点预测为$\rho$=0.99）和回溯推理（AUC=0.86，$\rho$=0.98）方面表现出色。这些显著的预测能力能够以高置信度填补缺失的趋势，并标明公众态度何时发生变化，如同性婚姻的获取支持。然而，在零次预测的情况下，模型的表现受到限制，需要进一步研究。
+    我们提出在Denoising Diffusion Implicit Models (DDIM)框架中使用高斯混合模型（GMM）作为反向转移算子（内核），这是一种从预训练的Denoising Diffusion Probabilistic Models (DDPM)中加速采样的广泛应用方法之一。具体而言，我们通过约束GMM的参数，匹配DDPM前向边际的一阶和二阶中心矩。我们发现，通过矩匹配，可以获得与使用高斯核的原始DDIM相同或更好质量的样本。我们在CelebAHQ和FFHQ的无条件模型以及ImageNet数据集的类条件模型上提供了实验结果。我们的结果表明，在采样步骤较少的情况下，使用GMM内核可以显著改善生成样本的质量，这是通过FID和IS指标衡量的。例如，在ImageNet 256x256上，使用10个采样步骤，我们实现了一个FID值为...
 
-    How can we use large language models (LLMs) to augment surveys? This paper investigates three distinct applications of LLMs fine-tuned by nationally representative surveys for opinion prediction -- missing data imputation, retrodiction, and zero-shot prediction. We present a new methodological framework that incorporates neural embeddings of survey questions, individual beliefs, and temporal contexts to personalize LLMs in opinion prediction. Among 3,110 binarized opinions from 68,846 Americans in the General Social Survey from 1972 to 2021, our best models based on Alpaca-7b excels in missing data imputation (AUC = 0.87 for personal opinion prediction and $\rho$ = 0.99 for public opinion prediction) and retrodiction (AUC = 0.86, $\rho$ = 0.98). These remarkable prediction capabilities allow us to fill in missing trends with high confidence and pinpoint when public attitudes changed, such as the rising support for same-sex marriage. However, the models show limited performance in a zer
+    We propose using a Gaussian Mixture Model (GMM) as reverse transition operator (kernel) within the Denoising Diffusion Implicit Models (DDIM) framework, which is one of the most widely used approaches for accelerated sampling from pre-trained Denoising Diffusion Probabilistic Models (DDPM). Specifically we match the first and second order central moments of the DDPM forward marginals by constraining the parameters of the GMM. We see that moment matching is sufficient to obtain samples with equal or better quality than the original DDIM with Gaussian kernels. We provide experimental results with unconditional models trained on CelebAHQ and FFHQ and class-conditional models trained on ImageNet datasets respectively. Our results suggest that using the GMM kernel leads to significant improvements in the quality of the generated samples when the number of sampling steps is small, as measured by FID and IS metrics. For example on ImageNet 256x256, using 10 sampling steps, we achieve a FID of
     
-[^3]: 评分差值流模型用于隐式生成建模
+[^2]: TreeDQN: 学习如何最小化分支定界树
 
-    The Score-Difference Flow for Implicit Generative Modeling. (arXiv:2304.12906v1 [cs.LG])
+    TreeDQN: Learning to minimize Branch-and-Bound tree. (arXiv:2306.05905v1 [cs.LG])
 
-    [http://arxiv.org/abs/2304.12906](http://arxiv.org/abs/2304.12906)
+    [http://arxiv.org/abs/2306.05905](http://arxiv.org/abs/2306.05905)
 
-    本文提出了一种新的评分差异流模型(SD flow)，它可以最优地减少两个分布之间的散度，同时解决Schr​​ödinger桥问题。与去噪扩散模型不同，它没有对先验分布施加任何限制，在一些基准数据集中优于其他方法。
+    TreeDQN提出了一种强化学习方法，可以学习到更加效率的分支启发式算法，减少了训练数据，并产生更小的子任务树。
 
     
 
-    隐式生成建模(IGM)旨在生成符合目标数据分布特征的合成数据样本。最近的研究(例如评分匹配网络、扩散模型)从通过环境空间中的动态扰动或流将合成源数据推向目标分布的角度解决了IGM问题。我们引入了任意目标和源分布之间的评分差异(SD)作为流，它可以最优地减少它们之间的Kullback-Leibler散度，同时解决Schr​​ödinger桥问题。我们将SD流应用于方便的代理分布，当且仅当原始分布对齐时，它们是对齐的。我们在某些条件下展示了这种公式与去噪扩散模型的形式一致性。然而，与扩散模型不同，SD流没有对先验分布施加任何限制。我们还表明，在无限辨别器能力的极限下，生成对抗网络的训练包含SD流。我们的实验表明，SD流在几个基准数据集上优于先前的最新技术。
+    组合优化问题需要通过全面搜索才能找到最优解。分支定界是解决混合整数线性规划问题的方便方法。分支定界求解器将任务分成两个部分，将整数变量的域分成两个部分，然后递归地解决它们，产生一个嵌套子任务树。求解器的效率取决于用于选择分裂变量的分支启发式算法。在本研究中，我们提出了一种强化学习方法，可以有效地学习分支启发式算法。我们将变量选择任务视为树形马尔科夫决策过程，并证明了适用于树形马尔科夫决策过程的贝尔曼算子平均收缩，并提出了修改后的强化学习代理的学习目标。与之前的强化学习方法相比，我们的代理需要更少的训练数据，并产生更小的子任务树。
 
-    Implicit generative modeling (IGM) aims to produce samples of synthetic data matching the characteristics of a target data distribution. Recent work (e.g. score-matching networks, diffusion models) has approached the IGM problem from the perspective of pushing synthetic source data toward the target distribution via dynamical perturbations or flows in the ambient space. We introduce the score difference (SD) between arbitrary target and source distributions as a flow that optimally reduces the Kullback-Leibler divergence between them while also solving the Schr\"odinger bridge problem. We apply the SD flow to convenient proxy distributions, which are aligned if and only if the original distributions are aligned. We demonstrate the formal equivalence of this formulation to denoising diffusion models under certain conditions. However, unlike diffusion models, SD flow places no restrictions on the prior distribution. We also show that the training of generative adversarial networks includ
+    Combinatorial optimization problems require an exhaustive search to find the optimal solution. A convenient approach to solving combinatorial optimization tasks in the form of Mixed Integer Linear Programs is Branch-and-Bound. Branch-and-Bound solver splits a task into two parts dividing the domain of an integer variable, then it solves them recursively, producing a tree of nested sub-tasks. The efficiency of the solver depends on the branchning heuristic used to select a variable for splitting. In the present work, we propose a reinforcement learning method that can efficiently learn the branching heuristic. We view the variable selection task as a tree Markov Decision Process, prove that the Bellman operator adapted for the tree Markov Decision Process is contracting in mean, and propose a modified learning objective for the reinforcement learning agent. Our agent requires less training data and produces smaller trees compared to previous reinforcement learning methods.
+    
+[^3]: 攻击脉冲：关于脉冲神经网络对抗性样本的可转移性与安全性的研究
+
+    Attacking the Spike: On the Transferability and Security of Spiking Neural Networks to Adversarial Examples. (arXiv:2209.03358v3 [cs.NE] UPDATED)
+
+    [http://arxiv.org/abs/2209.03358](http://arxiv.org/abs/2209.03358)
+
+    这项研究主要关注于脉冲神经网络(SNNs)对抗性样本的鲁棒性和转移性。研究发现，成功的白盒对抗攻击SNNs在很大程度上依赖于替代梯度技术，并且非SNN架构创建的对抗样本往往不被SNNs误分类。
+
+    
+
+    脉冲神经网络(SNNs)因其高能效和最近在分类性能上的进展而受到广泛关注。然而，与传统的深度学习方法不同，对SNNs对抗性样本的鲁棒性的分析和研究仍然相对不完善。在这项工作中，我们关注于推进SNNs的对抗攻击方面，并做出了三个主要贡献。首先，我们展示了成功的白盒对抗攻击SNNs在很大程度上依赖于底层的替代梯度技术，即使在对抗性训练SNNs的情况下也一样。其次，利用最佳的替代梯度技术，我们分析了对抗攻击在SNNs和其他最先进的架构如Vision Transformers(ViTs)和Big Transfer Convolutional Neural Networks(CNNs)之间的可转移性。我们证明了非SNN架构创建的对抗样本往往不被SNNs误分类。第三，由于缺乏一个共性
+
+    Spiking neural networks (SNNs) have attracted much attention for their high energy efficiency and for recent advances in their classification performance. However, unlike traditional deep learning approaches, the analysis and study of the robustness of SNNs to adversarial examples remain relatively underdeveloped. In this work, we focus on advancing the adversarial attack side of SNNs and make three major contributions. First, we show that successful white-box adversarial attacks on SNNs are highly dependent on the underlying surrogate gradient technique, even in the case of adversarially trained SNNs. Second, using the best surrogate gradient technique, we analyze the transferability of adversarial attacks on SNNs and other state-of-the-art architectures like Vision Transformers (ViTs) and Big Transfer Convolutional Neural Networks (CNNs). We demonstrate that the adversarial examples created by non-SNN architectures are not misclassified often by SNNs. Third, due to the lack of an ubi
     
 

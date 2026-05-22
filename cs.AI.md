@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Monitoring AI-Modified Content at Scale: A Case Study on the Impact of ChatGPT on AI Conference Peer Reviews](https://arxiv.org/abs/2403.07183) | 该研究提出了一种估计大语料库中被大语言模型大幅修改的文本比例的方法，并在AI会议的同行评审中进行了实证分析，发现6.5%至16.9%的文本可能被LLMs大幅修改，揭示了用户行为的一些见解。 |
+| [^1] | [AI-Augmented Surveys: Leveraging Large Language Models for Opinion Prediction in Nationally Representative Surveys.](http://arxiv.org/abs/2305.09620) | 本论文研究了利用经过全国代表性调查微调的大语言模型（LLMs）来增强调查的观点预测，取得了在遗漏数据插值和回溯推理方面优秀的成果，在零次预测方面仍需进一步研究。 |
 
 # 详细
 
-[^1]: 在规模上监测AI修改的内容：AI会议同行评审中ChatGPT影响的案例研究
+[^1]: AI增强的调查：利用大语言模型进行全国代表性调查的观点预测
 
-    Monitoring AI-Modified Content at Scale: A Case Study on the Impact of ChatGPT on AI Conference Peer Reviews
+    AI-Augmented Surveys: Leveraging Large Language Models for Opinion Prediction in Nationally Representative Surveys. (arXiv:2305.09620v1 [cs.CL])
 
-    [https://arxiv.org/abs/2403.07183](https://arxiv.org/abs/2403.07183)
+    [http://arxiv.org/abs/2305.09620](http://arxiv.org/abs/2305.09620)
 
-    该研究提出了一种估计大语料库中被大语言模型大幅修改的文本比例的方法，并在AI会议的同行评审中进行了实证分析，发现6.5%至16.9%的文本可能被LLMs大幅修改，揭示了用户行为的一些见解。
+    本论文研究了利用经过全国代表性调查微调的大语言模型（LLMs）来增强调查的观点预测，取得了在遗漏数据插值和回溯推理方面优秀的成果，在零次预测方面仍需进一步研究。
 
     
 
-    我们提出了一种估计大语料库中文本可能被大语言模型（LLM）大幅修改或生成的部分比例的方法。我们的最大似然模型利用专家撰写和AI生成的参考文本，准确高效地检查语料库级别上真实世界LLM使用。我们将这种方法应用于AI会议上科学同行评审的案例研究，该研究发生在ChatGPT发布之后，包括ICLR 2024、NeurIPS 2023、CoRL 2023和EMNLP 2023。我们的研究结果表明，在这些会议提交的同行评审中，6.5%至16.9%的文本可能是由LLMs大幅修改的，即超出拼写检查或小幅更新的范围。生成文本出现的情况为用户行为提供了见解：在报告信心较低、在截止日期前提交的评论以及从评论公司
+    本论文研究了如何使用经过全国代表性调查微调的大语言模型（LLMs）来增强调查。本文探讨了LLMs在观点预测中，遗漏数据插值，回溯推理和零次预测三个不同应用。我们提出了一种新的方法论框架，将调查问题、个人信念和时间背景的神经嵌入引入到观点预测的个性化LLMs中。在1972年到2021年的“常规社会调查”中，我们从68,846名美国人中获得了3,110个二进制观点，在Alpaca-7b模型的基础上取得了最好的成果，在缺失数据插值（AUC=0.87，公开观点预测为$\rho$=0.99）和回溯推理（AUC=0.86，$\rho$=0.98）方面表现出色。这些显著的预测能力能够以高置信度填补缺失的趋势，并标明公众态度何时发生变化，如同性婚姻的获取支持。然而，在零次预测的情况下，模型的表现受到限制，需要进一步研究。
 
-    arXiv:2403.07183v1 Announce Type: cross  Abstract: We present an approach for estimating the fraction of text in a large corpus which is likely to be substantially modified or produced by a large language model (LLM). Our maximum likelihood model leverages expert-written and AI-generated reference texts to accurately and efficiently examine real-world LLM-use at the corpus level. We apply this approach to a case study of scientific peer review in AI conferences that took place after the release of ChatGPT: ICLR 2024, NeurIPS 2023, CoRL 2023 and EMNLP 2023. Our results suggest that between 6.5% and 16.9% of text submitted as peer reviews to these conferences could have been substantially modified by LLMs, i.e. beyond spell-checking or minor writing updates. The circumstances in which generated text occurs offer insight into user behavior: the estimated fraction of LLM-generated text is higher in reviews which report lower confidence, were submitted close to the deadline, and from review
+    How can we use large language models (LLMs) to augment surveys? This paper investigates three distinct applications of LLMs fine-tuned by nationally representative surveys for opinion prediction -- missing data imputation, retrodiction, and zero-shot prediction. We present a new methodological framework that incorporates neural embeddings of survey questions, individual beliefs, and temporal contexts to personalize LLMs in opinion prediction. Among 3,110 binarized opinions from 68,846 Americans in the General Social Survey from 1972 to 2021, our best models based on Alpaca-7b excels in missing data imputation (AUC = 0.87 for personal opinion prediction and $\rho$ = 0.99 for public opinion prediction) and retrodiction (AUC = 0.86, $\rho$ = 0.98). These remarkable prediction capabilities allow us to fill in missing trends with high confidence and pinpoint when public attitudes changed, such as the rising support for same-sex marriage. However, the models show limited performance in a zer
     
 
