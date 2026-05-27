@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Automated regime detection in multidimensional time series data using sliced Wasserstein k-means clustering.](http://arxiv.org/abs/2310.01285) | 本文通过研究使用Wasserstein k-means聚类算法在一维时间序列数据中的行为，并将其扩展到多维时间序列数据，通过切片Wasserstein距离进行多维制度检测。 |
+| [^1] | [Rough volatility, path-dependent PDEs and weak rates of convergence.](http://arxiv.org/abs/2304.03042) | 该研究探究了粗糙波动率模型中的路径依赖PDE问题，证明了条件期望是其唯一的经典解。并且，该研究还研究了具有Hurst参数的离散随机积分的弱收敛率，以逼近粗糙波动率模型中的对数股票价格。 |
 
 # 详细
 
-[^1]: 使用切片Wasserstein k-means聚类在多维时间序列数据中自动检测制度
+[^1]: 粗糙波动率，路径依赖PDE和弱收敛率的研究
 
-    Automated regime detection in multidimensional time series data using sliced Wasserstein k-means clustering. (arXiv:2310.01285v1 [q-fin.CP])
+    Rough volatility, path-dependent PDEs and weak rates of convergence. (arXiv:2304.03042v1 [math.PR])
 
-    [http://arxiv.org/abs/2310.01285](http://arxiv.org/abs/2310.01285)
+    [http://arxiv.org/abs/2304.03042](http://arxiv.org/abs/2304.03042)
 
-    本文通过研究使用Wasserstein k-means聚类算法在一维时间序列数据中的行为，并将其扩展到多维时间序列数据，通过切片Wasserstein距离进行多维制度检测。
+    该研究探究了粗糙波动率模型中的路径依赖PDE问题，证明了条件期望是其唯一的经典解。并且，该研究还研究了具有Hurst参数的离散随机积分的弱收敛率，以逼近粗糙波动率模型中的对数股票价格。
 
     
 
-    最近的研究提出了Wasserstein k-means (Wk-means)聚类作为一种强大的方法来识别时间序列数据中的制度，尤其是一维资产收益。本文首先详细研究了应用于合成一维时间序列数据的Wasserstein k-means聚类算法的行为。我们研究了算法的动态性，并调查了不同超参数对不同随机初始化下聚类算法性能的影响。我们计算了一些简单的指标，发现它们对于识别高质量的聚类是有用的。然后，我们通过将多维Wasserstein距离近似为切片Wasserstein距离，将Wasserstein k-means聚类技术扩展到多维时间序列数据，得到一种我们称之为`sliced Wasserstein k-means (sWk-means)聚类'的方法。我们将sWk-means聚类方法应用于多维时间序列数据的自动制度检测问题。
+    在随机Volterra方程的设置中，特别是粗糙波动率模型中，我们展示了条件期望是路径依赖PDE的唯一经典解。后者由[Viens，F。，＆Zhang，J。（2019）。对分数布朗运动及其相关路径依赖PDE的鞅方法的开发而来。Ann. Appl. Probab.],。然后，我们利用这些工具研究具有Hurst参数$H \in (0,1/2)$的Riemann-Liouville分数布朗运动的平滑函数的离散随机积分的弱收敛率。这些积分逼近粗糙波动率模型中的对数股票价格。如果测试函数是二次的，则我们获得1阶弱误差率，如果测试函数是平滑的，则获得$H + 1/2$阶的误差率。
 
-    Recent work has proposed Wasserstein k-means (Wk-means) clustering as a powerful method to identify regimes in time series data, and one-dimensional asset returns in particular. In this paper, we begin by studying in detail the behaviour of the Wasserstein k-means clustering algorithm applied to synthetic one-dimensional time series data. We study the dynamics of the algorithm and investigate how varying different hyperparameters impacts the performance of the clustering algorithm for different random initialisations. We compute simple metrics that we find are useful in identifying high-quality clusterings. Then, we extend the technique of Wasserstein k-means clustering to multidimensional time series data by approximating the multidimensional Wasserstein distance as a sliced Wasserstein distance, resulting in a method we call `sliced Wasserstein k-means (sWk-means) clustering'. We apply the sWk-means clustering method to the problem of automated regime detection in multidimensional ti
+    In the setting of stochastic Volterra equations, and in particular rough volatility models, we show that conditional expectations are the unique classical solutions to path-dependent PDEs. The latter arise from the functional It\^o formula developed by [Viens, F., & Zhang, J. (2019). A martingale approach for fractional Brownian motions and related path dependent PDEs. Ann. Appl. Probab.]. We then leverage these tools to study weak rates of convergence for discretised stochastic integrals of smooth functions of a Riemann-Liouville fractional Brownian motion with Hurst parameter $H \in (0,1/2)$. These integrals approximate log-stock prices in rough volatility models. We obtain weak error rates of order 1 if the test function is quadratic and of order $H+1/2$ for smooth test functions.
     
 
