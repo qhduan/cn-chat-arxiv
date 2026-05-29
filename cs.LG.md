@@ -2,28 +2,13 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Weak Convergence Analysis of Online Neural Actor-Critic Algorithms](https://arxiv.org/abs/2403.16825) | 在线神经演员-评论算法中，我们证明当隐藏单元和训练步数的数量$\rightarrow \infty$时，单层神经网络将收敛于随机ODE，通过建立数据样本的几何遍历性和使用泊松方程证明模型更新波动消失，演员神经网络和评论神经网络收敛到具有随机初始条件的ODE系统的解。 |
-| [^2] | [Adversarial Fine-tuning of Compressed Neural Networks for Joint Improvement of Robustness and Efficiency](https://arxiv.org/abs/2403.09441) | 本研究探讨了对压缩神经网络进行对抗微调对提高鲁棒性和效率的影响。 |
-| [^3] | [Structure of Classifier Boundaries: Case Study for a Naive Bayes Classifier](https://arxiv.org/abs/2212.04382) | 本文研究了在图形输入空间中，分类器边界的结构。通过创建一种新的不确定性度量，称为邻居相似度，我们展示了朴素贝叶斯分类器的边界是巨大且复杂的结构。 |
-| [^4] | [DSSE: a drone swarm search environment.](http://arxiv.org/abs/2307.06240) | DSSE是一个无人机群集搜索环境，用于研究需要动态概率作为输入的强化学习算法。 |
+| [^1] | [Adversarial Fine-tuning of Compressed Neural Networks for Joint Improvement of Robustness and Efficiency](https://arxiv.org/abs/2403.09441) | 本研究探讨了对压缩神经网络进行对抗微调对提高鲁棒性和效率的影响。 |
+| [^2] | [MATNet: Multi-Level Fusion Transformer-Based Model for Day-Ahead PV Generation Forecasting](https://arxiv.org/abs/2306.10356) | 提出了MATNet，结合了人工智能范式与光伏发电的物理先验知识，通过多级联合融合方法进行日前光伏发电预测 |
+| [^3] | [Matrix Completion with Hypergraphs:Sharp Thresholds and Efficient Algorithms.](http://arxiv.org/abs/2401.08197) | 本论文研究了基于子采样矩阵条目、观察到的社交图和超图的矩阵补全问题。我们发现了一个尖锐阈值，可以精确补全评分矩阵。通过量化超图的“质量”函数，我们可以评估超图利用对样本概率的影响。通过开发高效算法，我们在高概率情况下成功地完成了矩阵补全任务。 |
 
 # 详细
 
-[^1]: 在线神经演员-评论算法的弱收敛分析
-
-    Weak Convergence Analysis of Online Neural Actor-Critic Algorithms
-
-    [https://arxiv.org/abs/2403.16825](https://arxiv.org/abs/2403.16825)
-
-    在线神经演员-评论算法中，我们证明当隐藏单元和训练步数的数量$\rightarrow \infty$时，单层神经网络将收敛于随机ODE，通过建立数据样本的几何遍历性和使用泊松方程证明模型更新波动消失，演员神经网络和评论神经网络收敛到具有随机初始条件的ODE系统的解。
-
-    
-
-    我们证明，使用在线演员评论算法训练的单层神经网络在隐藏单元和训练步数的数量$\rightarrow \infty$时，收敛于一个随机常微分方程（ODE）。在线演员评论算法中，随着模型的更新，数据样本的分布会动态变化，这对于任何收敛分析来说都是一个关键挑战。我们在固定演员策略下建立了数据样本的几何遍历性。然后，使用泊松方程，我们证明由于随机到达的数据样本带来的模型更新波动会随着参数更新次数的增加$\rightarrow \infty$而消失。利用泊松方程和弱收敛技术，我们证明演员神经网络和评论神经网络收敛到具有随机初始条件的ODE系统的解。
-
-    arXiv:2403.16825v1 Announce Type: new  Abstract: We prove that a single-layer neural network trained with the online actor critic algorithm converges in distribution to a random ordinary differential equation (ODE) as the number of hidden units and the number of training steps $\rightarrow \infty$. In the online actor-critic algorithm, the distribution of the data samples dynamically changes as the model is updated, which is a key challenge for any convergence analysis. We establish the geometric ergodicity of the data samples under a fixed actor policy. Then, using a Poisson equation, we prove that the fluctuations of the model updates around the limit distribution due to the randomly-arriving data samples vanish as the number of parameter updates $\rightarrow \infty$. Using the Poisson equation and weak convergence techniques, we prove that the actor neural network and critic neural network converge to the solutions of a system of ODEs with random initial conditions. Analysis of the 
-    
-[^2]: 对压缩神经网络进行对抗微调，共同提高鲁棒性和效率
+[^1]: 对压缩神经网络进行对抗微调，共同提高鲁棒性和效率
 
     Adversarial Fine-tuning of Compressed Neural Networks for Joint Improvement of Robustness and Efficiency
 
@@ -37,32 +22,32 @@
 
     arXiv:2403.09441v1 Announce Type: new  Abstract: As deep learning (DL) models are increasingly being integrated into our everyday lives, ensuring their safety by making them robust against adversarial attacks has become increasingly critical. DL models have been found to be susceptible to adversarial attacks which can be achieved by introducing small, targeted perturbations to disrupt the input data. Adversarial training has been presented as a mitigation strategy which can result in more robust models. This adversarial robustness comes with additional computational costs required to design adversarial attacks during training. The two objectives -- adversarial robustness and computational efficiency -- then appear to be in conflict of each other. In this work, we explore the effects of two different model compression methods -- structured weight pruning and quantization -- on adversarial robustness. We specifically explore the effects of fine-tuning on compressed models, and present th
     
-[^3]: 分类器边界的结构：朴素贝叶斯分类器的案例研究
+[^2]: MATNet: 多级融合变压器模型用于日前光伏发电预测
 
-    Structure of Classifier Boundaries: Case Study for a Naive Bayes Classifier
+    MATNet: Multi-Level Fusion Transformer-Based Model for Day-Ahead PV Generation Forecasting
 
-    [https://arxiv.org/abs/2212.04382](https://arxiv.org/abs/2212.04382)
+    [https://arxiv.org/abs/2306.10356](https://arxiv.org/abs/2306.10356)
 
-    本文研究了在图形输入空间中，分类器边界的结构。通过创建一种新的不确定性度量，称为邻居相似度，我们展示了朴素贝叶斯分类器的边界是巨大且复杂的结构。
-
-    
-
-    无论基于模型、训练数据还是二者组合，分类器将（可能复杂的）输入数据归入相对较少的输出类别之一。本文研究在输入空间为图的情况下，边界的结构——那些被分类为不同类别的邻近点——的特性。我们的科学背景是基于模型的朴素贝叶斯分类器，用于处理由下一代测序仪生成的DNA读数。我们展示了边界既是巨大的，又具有复杂的结构。我们创建了一种新的不确定性度量，称为邻居相似度，它将一个点的结果与其邻居的结果分布进行比较。这个度量不仅追踪了贝叶斯分类器的两个固有不确定性度量，还可以在没有固有不确定性度量的分类器上实现，但需要计算成本。
-
-    Whether based on models, training data or a combination, classifiers place (possibly complex) input data into one of a relatively small number of output categories. In this paper, we study the structure of the boundary--those points for which a neighbor is classified differently--in the context of an input space that is a graph, so that there is a concept of neighboring inputs, The scientific setting is a model-based naive Bayes classifier for DNA reads produced by Next Generation Sequencers. We show that the boundary is both large and complicated in structure. We create a new measure of uncertainty, called Neighbor Similarity, that compares the result for a point to the distribution of results for its neighbors. This measure not only tracks two inherent uncertainty measures for the Bayes classifier, but also can be implemented, at a computational cost, for classifiers without inherent measures of uncertainty.
-    
-[^4]: DSSE: 无人机群集搜索环境
-
-    DSSE: a drone swarm search environment. (arXiv:2307.06240v1 [cs.LG])
-
-    [http://arxiv.org/abs/2307.06240](http://arxiv.org/abs/2307.06240)
-
-    DSSE是一个无人机群集搜索环境，用于研究需要动态概率作为输入的强化学习算法。
+    提出了MATNet，结合了人工智能范式与光伏发电的物理先验知识，通过多级联合融合方法进行日前光伏发电预测
 
     
 
-    无人机群集搜索项目是一个基于PettingZoo的环境，与多智能体（或单智能体）强化学习算法配合使用。该环境中的智能体（无人机）必须找到目标（遇险人员），但不知道目标的位置，并且不会根据自身与目标的距离得到奖励。但是，智能体会接收到目标出现在地图某个单元格的概率。该项目的目标是帮助研究需要动态概率作为输入的强化学习算法。
+    准确预测可再生能源发电对促进可再生能源整合到电力系统中至关重要。针对光伏单元，预测方法主要可分为基于物理和基于数据的策略两类，基于人工智能的模型提供了最先进的性能。然而，虽然这些基于人工智能的模型可以捕捉数据中的复杂模式和关系，但它们忽略了现象的潜在物理先验知识。因此，在本文中，我们提出了MATNet，一种新颖的基于自注意力变压器架构，用于多元多步日前光伏发电预测。它采用一种混合方法，将人工智能范式与基于物理的光伏发电的先验知识相结合。该模型通过多级联合融合方法输入历史光伏数据以及历史和预测天气数据。
 
-    The Drone Swarm Search project is an environment, based on PettingZoo, that is to be used in conjunction with multi-agent (or single-agent) reinforcement learning algorithms. It is an environment in which the agents (drones), have to find the targets (shipwrecked people). The agents do not know the position of the target and do not receive rewards related to their own distance to the target(s). However, the agents receive the probabilities of the target(s) being in a certain cell of the map. The aim of this project is to aid in the study of reinforcement learning algorithms that require dynamic probabilities as inputs.
+    arXiv:2306.10356v2 Announce Type: replace-cross  Abstract: Accurate forecasting of renewable generation is crucial to facilitate the integration of RES into the power system. Focusing on PV units, forecasting methods can be divided into two main categories: physics-based and data-based strategies, with AI-based models providing state-of-the-art performance. However, while these AI-based models can capture complex patterns and relationships in the data, they ignore the underlying physical prior knowledge of the phenomenon. Therefore, in this paper we propose MATNet, a novel self-attention transformer-based architecture for multivariate multi-step day-ahead PV power generation forecasting. It consists of a hybrid approach that combines the AI paradigm with the prior physical knowledge of PV power generation of physics-based methods. The model is fed with historical PV data and historical and forecast weather data through a multi-level joint fusion approach. The effectiveness of the propo
+    
+[^3]: 基于超图的矩阵补全：尖锐阈值和高效算法
+
+    Matrix Completion with Hypergraphs:Sharp Thresholds and Efficient Algorithms. (arXiv:2401.08197v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2401.08197](http://arxiv.org/abs/2401.08197)
+
+    本论文研究了基于子采样矩阵条目、观察到的社交图和超图的矩阵补全问题。我们发现了一个尖锐阈值，可以精确补全评分矩阵。通过量化超图的“质量”函数，我们可以评估超图利用对样本概率的影响。通过开发高效算法，我们在高概率情况下成功地完成了矩阵补全任务。
+
+    
+
+    该论文研究了基于子采样矩阵条目以及观察到的社交图和超图的补全评分矩阵的问题。我们证明了在样本概率上存在一个尖锐阈值，用于精确完成评分矩阵的任务，当样本概率高于阈值时，任务可完成，反之则不可能，这展示了一个相变现象。阈值可以作为超图的“质量”函数来表示，从而使我们能够量化由于超图利用而导致的样本概率减少量，这也突显了超图在矩阵补全问题中的有用性。在发现尖锐阈值的过程中，我们开发了一种计算高效的矩阵补全算法，该算法有效地利用了观察到的图和超图。理论分析表明，只要样本概率高于某个阈值，我们的算法可以高概率地成功。
+
+    This paper considers the problem of completing a rating matrix based on sub-sampled matrix entries as well as observed social graphs and hypergraphs. We show that there exists a \emph{sharp threshold} on the sample probability for the task of exactly completing the rating matrix -- the task is achievable when the sample probability is above the threshold, and is impossible otherwise -- demonstrating a phase transition phenomenon. The threshold can be expressed as a function of the ``quality'' of hypergraphs, enabling us to \emph{quantify} the amount of reduction in sample probability due to the exploitation of hypergraphs. This also highlights the usefulness of hypergraphs in the matrix completion problem. En route to discovering the sharp threshold, we develop a computationally efficient matrix completion algorithm that effectively exploits the observed graphs and hypergraphs. Theoretical analyses show that our algorithm succeeds with high probability as long as the sample probability
     
 
