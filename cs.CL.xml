@@ -1,1 +1,41 @@
-<rss version="2.0"><channel><title>Chat Arxiv cs.CL</title><link>https://github.com/qhduan/cn-chat-arxiv</link><description>This is arxiv RSS feed for cs.CL</description></channel></rss>
+<rss version="2.0"><channel><title>Chat Arxiv cs.CL</title><link>https://github.com/qhduan/cn-chat-arxiv</link><description>This is arxiv RSS feed for cs.CL</description><item><title>&#25552;&#20986;&#20102;&#29992;&#21512;&#25104;&#25968;&#25454;&#36827;&#34892;&#27169;&#22411;&#35780;&#20272;&#30340;&#26041;&#27861;&#65292;&#36890;&#36807;&#39640;&#25928;&#21644;&#32479;&#35745;&#19978;&#21512;&#29702;&#30340;&#31639;&#27861;&#65292;&#22312;GPT-4&#23454;&#39564;&#20013;&#26377;&#25928;&#30340;&#20154;&#24037;&#26631;&#35760;&#26679;&#26412;&#22823;&#23567;&#22686;&#21152;&#20102;50%&#12290;</title><link>https://arxiv.org/abs/2403.07008</link><description>&lt;p&gt;
+&#33258;&#21160;&#35780;&#20215;&#27491;&#30830;: &#20351;&#29992;&#21512;&#25104;&#25968;&#25454;&#36827;&#34892;&#27169;&#22411;&#35780;&#20272;
+&lt;/p&gt;
+&lt;p&gt;
+AutoEval Done Right: Using Synthetic Data for Model Evaluation
+&lt;/p&gt;
+&lt;p&gt;
+https://arxiv.org/abs/2403.07008
+&lt;/p&gt;
+&lt;p&gt;
+&#25552;&#20986;&#20102;&#29992;&#21512;&#25104;&#25968;&#25454;&#36827;&#34892;&#27169;&#22411;&#35780;&#20272;&#30340;&#26041;&#27861;&#65292;&#36890;&#36807;&#39640;&#25928;&#21644;&#32479;&#35745;&#19978;&#21512;&#29702;&#30340;&#31639;&#27861;&#65292;&#22312;GPT-4&#23454;&#39564;&#20013;&#26377;&#25928;&#30340;&#20154;&#24037;&#26631;&#35760;&#26679;&#26412;&#22823;&#23567;&#22686;&#21152;&#20102;50%&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+&#26426;&#22120;&#23398;&#20064;&#27169;&#22411;&#30340;&#35780;&#20272;&#20351;&#29992;&#20154;&#24037;&#26631;&#35760;&#30340;&#39564;&#35777;&#25968;&#25454;&#21487;&#33021;&#26082;&#26114;&#36149;&#21448;&#32791;&#26102;&#12290;&#21487;&#20197;&#20351;&#29992;AI&#26631;&#35760;&#30340;&#21512;&#25104;&#25968;&#25454;&#26469;&#20943;&#23569;&#27492;&#31867;&#30446;&#30340;&#20154;&#24037;&#27880;&#37322;&#25968;&#37327;&#65292;&#36825;&#19968;&#36807;&#31243;&#31216;&#20026;&#33258;&#21160;&#35780;&#20272;&#12290;&#25105;&#20204;&#25552;&#20986;&#20102;&#29992;&#20110;&#27492;&#30446;&#30340;&#30340;&#39640;&#25928;&#21644;&#32479;&#35745;&#19978;&#21512;&#29702;&#30340;&#31639;&#27861;&#65292;&#21487;&#20197;&#25552;&#39640;&#26679;&#26412;&#25928;&#29575;&#65292;&#21516;&#26102;&#20445;&#25345;&#19981;&#20559;&#12290;&#36825;&#20123;&#31639;&#27861;&#22312;&#19982;GPT-4&#36827;&#34892;&#30340;&#23454;&#39564;&#20013;&#23558;&#26377;&#25928;&#30340;&#20154;&#24037;&#26631;&#35760;&#26679;&#26412;&#22823;&#23567;&#22686;&#21152;&#20102;&#39640;&#36798;50%&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+arXiv:2403.07008v1 Announce Type: cross  Abstract: The evaluation of machine learning models using human-labeled validation data can be expensive and time-consuming. AI-labeled synthetic data can be used to decrease the number of human annotations required for this purpose in a process called autoevaluation. We suggest efficient and statistically principled algorithms for this purpose that improve sample efficiency while remaining unbiased. These algorithms increase the effective human-labeled sample size by up to 50% on experiments with GPT-4.
+&lt;/p&gt;</description></item><item><title>&#36890;&#36807;&#26500;&#24314;&#19968;&#20010;&#21547;&#26377;&#23454;&#20307;&#21644;&#20851;&#31995;&#26631;&#27880;&#30340;&#39532;&#26469;&#35199;&#20122;&#33521;&#35821;&#26032;&#38395;&#25968;&#25454;&#38598;&#65292;&#24182;&#23545;spaCy NER&#24037;&#20855;&#36827;&#34892;&#24494;&#35843;&#65292;&#26412;&#30740;&#31350;&#26174;&#33879;&#25913;&#21892;&#20102;&#39532;&#26469;&#35199;&#20122;&#33521;&#35821;&#20013;NER&#30340;&#24615;&#33021;&#12290;</title><link>https://arxiv.org/abs/2402.14521</link><description>&lt;p&gt;
+&#39532;&#26469;&#35199;&#20122;&#33521;&#35821;&#26032;&#38395;&#35299;&#26512;&#65306;&#19968;&#20010;&#29992;&#20110;&#21629;&#21517;&#23454;&#20307;&#21644;&#20851;&#31995;&#25277;&#21462;&#30340;&#35821;&#35328;&#36164;&#28304;
+&lt;/p&gt;
+&lt;p&gt;
+Malaysian English News Decoded: A Linguistic Resource for Named Entity and Relation Extraction
+&lt;/p&gt;
+&lt;p&gt;
+https://arxiv.org/abs/2402.14521
+&lt;/p&gt;
+&lt;p&gt;
+&#36890;&#36807;&#26500;&#24314;&#19968;&#20010;&#21547;&#26377;&#23454;&#20307;&#21644;&#20851;&#31995;&#26631;&#27880;&#30340;&#39532;&#26469;&#35199;&#20122;&#33521;&#35821;&#26032;&#38395;&#25968;&#25454;&#38598;&#65292;&#24182;&#23545;spaCy NER&#24037;&#20855;&#36827;&#34892;&#24494;&#35843;&#65292;&#26412;&#30740;&#31350;&#26174;&#33879;&#25913;&#21892;&#20102;&#39532;&#26469;&#35199;&#20122;&#33521;&#35821;&#20013;NER&#30340;&#24615;&#33021;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+&#26631;&#20934;&#33521;&#35821;&#21644;&#39532;&#26469;&#35199;&#20122;&#33521;&#35821;&#23384;&#22312;&#26126;&#26174;&#24046;&#24322;&#65292;&#22312;&#39532;&#26469;&#35199;&#20122;&#33521;&#35821;&#30340;&#33258;&#28982;&#35821;&#35328;&#22788;&#29702;&#65288;NLP&#65289;&#20219;&#21153;&#20013;&#23384;&#22312;&#25361;&#25112;&#12290;&#26412;&#25991;&#20171;&#32461;&#20102;&#19968;&#20010;&#21253;&#21547;200&#31687;&#26032;&#38395;&#25991;&#31456;&#30340;&#39532;&#26469;&#35199;&#20122;&#33521;&#35821;&#26032;&#38395;&#65288;MEN&#65289;&#25968;&#25454;&#38598;&#65292;&#25163;&#21160;&#23545;&#23454;&#20307;&#21644;&#20851;&#31995;&#36827;&#34892;&#20102;&#26631;&#27880;&#65292;&#24182;&#36890;&#36807;&#23545;spaCy NER&#24037;&#20855;&#36827;&#34892;&#24494;&#35843;&#39564;&#35777;&#20102;&#38024;&#23545;&#39532;&#26469;&#35199;&#20122;&#33521;&#35821;&#23450;&#21046;&#30340;&#25968;&#25454;&#38598;&#21487;&#20197;&#26174;&#33879;&#25552;&#39640;NER&#22312;&#39532;&#26469;&#35199;&#20122;&#33521;&#35821;&#20013;&#30340;&#24615;&#33021;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+arXiv:2402.14521v1 Announce Type: new  Abstract: Standard English and Malaysian English exhibit notable differences, posing challenges for natural language processing (NLP) tasks on Malaysian English. Unfortunately, most of the existing datasets are mainly based on standard English and therefore inadequate for improving NLP tasks in Malaysian English. An experiment using state-of-the-art Named Entity Recognition (NER) solutions on Malaysian English news articles highlights that they cannot handle morphosyntactic variations in Malaysian English. To the best of our knowledge, there is no annotated dataset available to improvise the model. To address these issues, we constructed a Malaysian English News (MEN) dataset, which contains 200 news articles that are manually annotated with entities and relations. We then fine-tuned the spaCy NER tool and validated that having a dataset tailor-made for Malaysian English could improve the performance of NER in Malaysian English significantly. This
+&lt;/p&gt;</description></item></channel></rss>
