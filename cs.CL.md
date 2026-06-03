@@ -2,37 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [AutoEval Done Right: Using Synthetic Data for Model Evaluation](https://arxiv.org/abs/2403.07008) | 提出了用合成数据进行模型评估的方法，通过高效和统计上合理的算法，在GPT-4实验中有效的人工标记样本大小增加了50%。 |
-| [^2] | [Malaysian English News Decoded: A Linguistic Resource for Named Entity and Relation Extraction](https://arxiv.org/abs/2402.14521) | 通过构建一个含有实体和关系标注的马来西亚英语新闻数据集，并对spaCy NER工具进行微调，本研究显著改善了马来西亚英语中NER的性能。 |
+| [^1] | [Typhoon: Towards an Effective Task-Specific Masking Strategy for Pre-trained Language Models.](http://arxiv.org/abs/2303.15619) | 本文探讨了一种针对预训练语言模型的任务特定的屏蔽框架，称为Typhoon，可在GLUE基准数据集上实现卓越的下游任务性能，尤其在MRPC数据集上表现优异。 |
 
 # 详细
 
-[^1]: 自动评价正确: 使用合成数据进行模型评估
+[^1]: 台风：针对预训练语言模型的有效特定任务屏蔽策略
 
-    AutoEval Done Right: Using Synthetic Data for Model Evaluation
+    Typhoon: Towards an Effective Task-Specific Masking Strategy for Pre-trained Language Models. (arXiv:2303.15619v1 [cs.CL])
 
-    [https://arxiv.org/abs/2403.07008](https://arxiv.org/abs/2403.07008)
+    [http://arxiv.org/abs/2303.15619](http://arxiv.org/abs/2303.15619)
 
-    提出了用合成数据进行模型评估的方法，通过高效和统计上合理的算法，在GPT-4实验中有效的人工标记样本大小增加了50%。
-
-    
-
-    机器学习模型的评估使用人工标记的验证数据可能既昂贵又耗时。可以使用AI标记的合成数据来减少此类目的人工注释数量，这一过程称为自动评估。我们提出了用于此目的的高效和统计上合理的算法，可以提高样本效率，同时保持不偏。这些算法在与GPT-4进行的实验中将有效的人工标记样本大小增加了高达50%。
-
-    arXiv:2403.07008v1 Announce Type: cross  Abstract: The evaluation of machine learning models using human-labeled validation data can be expensive and time-consuming. AI-labeled synthetic data can be used to decrease the number of human annotations required for this purpose in a process called autoevaluation. We suggest efficient and statistically principled algorithms for this purpose that improve sample efficiency while remaining unbiased. These algorithms increase the effective human-labeled sample size by up to 50% on experiments with GPT-4.
-    
-[^2]: 马来西亚英语新闻解析：一个用于命名实体和关系抽取的语言资源
-
-    Malaysian English News Decoded: A Linguistic Resource for Named Entity and Relation Extraction
-
-    [https://arxiv.org/abs/2402.14521](https://arxiv.org/abs/2402.14521)
-
-    通过构建一个含有实体和关系标注的马来西亚英语新闻数据集，并对spaCy NER工具进行微调，本研究显著改善了马来西亚英语中NER的性能。
+    本文探讨了一种针对预训练语言模型的任务特定的屏蔽框架，称为Typhoon，可在GLUE基准数据集上实现卓越的下游任务性能，尤其在MRPC数据集上表现优异。
 
     
 
-    标准英语和马来西亚英语存在明显差异，在马来西亚英语的自然语言处理（NLP）任务中存在挑战。本文介绍了一个包含200篇新闻文章的马来西亚英语新闻（MEN）数据集，手动对实体和关系进行了标注，并通过对spaCy NER工具进行微调验证了针对马来西亚英语定制的数据集可以显著提高NER在马来西亚英语中的性能。
+    通过利用图形处理单元所能提供的高度并行性，变压器架构使自然语言处理领域取得了巨大的进展。在传统的屏蔽语言模型中，使用特殊的MASK标记来提示模型从周围单词中收集情境信息以恢复原本隐藏的信息。在本文中，我们探讨了一种预训练大型语言模型的任务特定的屏蔽框架，以在GLUE基准数据集上实现卓越的下游任务性能。我们基于记号输入梯度开发了自己的屏蔽算法Typhoon，并将其与其他标准基线进行比较。我们发现，Typhoon在MRPC数据集上的性能与整体字屏蔽相当。我们的实现可以在公共Github库中找到。
 
-    arXiv:2402.14521v1 Announce Type: new  Abstract: Standard English and Malaysian English exhibit notable differences, posing challenges for natural language processing (NLP) tasks on Malaysian English. Unfortunately, most of the existing datasets are mainly based on standard English and therefore inadequate for improving NLP tasks in Malaysian English. An experiment using state-of-the-art Named Entity Recognition (NER) solutions on Malaysian English news articles highlights that they cannot handle morphosyntactic variations in Malaysian English. To the best of our knowledge, there is no annotated dataset available to improvise the model. To address these issues, we constructed a Malaysian English News (MEN) dataset, which contains 200 news articles that are manually annotated with entities and relations. We then fine-tuned the spaCy NER tool and validated that having a dataset tailor-made for Malaysian English could improve the performance of NER in Malaysian English significantly. This
+    Through exploiting a high level of parallelism enabled by graphics processing units, transformer architectures have enabled tremendous strides forward in the field of natural language processing. In a traditional masked language model, special MASK tokens are used to prompt our model to gather contextual information from surrounding words to restore originally hidden information. In this paper, we explore a task-specific masking framework for pre-trained large language models that enables superior performance on particular downstream tasks on the datasets in the GLUE benchmark. We develop our own masking algorithm, Typhoon, based on token input gradients, and compare this with other standard baselines. We find that Typhoon offers performance competitive with whole-word masking on the MRPC dataset. Our implementation can be found in a public Github Repository.
     
 

@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Multi-task learning of convex combinations of forecasting models.](http://arxiv.org/abs/2310.20545) | 本文提出了一种多任务学习方法，通过深度神经网络同时解决了预测模型选择和凸组合权重学习的问题。通过回归分支学习权重和分类分支选择具有多样性的预测方法，提高了基于特征的预测的精确度。 |
+| [^1] | [Exact recovery for the non-uniform Hypergraph Stochastic Block Model.](http://arxiv.org/abs/2304.13139) | 本文首次建立了非均匀超图随机块模型（HSBM）下的精确恢复的尖锐阈值，提供了两种有效算法，并依赖于非均匀随机超图的邻接矩阵的集中和正则化进行理论分析。 |
 
 # 详细
 
-[^1]: 多任务学习凸组合预测模型
+[^1]: 非均匀超图随机块模型的精确恢复
 
-    Multi-task learning of convex combinations of forecasting models. (arXiv:2310.20545v1 [cs.LG])
+    Exact recovery for the non-uniform Hypergraph Stochastic Block Model. (arXiv:2304.13139v1 [math.ST])
 
-    [http://arxiv.org/abs/2310.20545](http://arxiv.org/abs/2310.20545)
+    [http://arxiv.org/abs/2304.13139](http://arxiv.org/abs/2304.13139)
 
-    本文提出了一种多任务学习方法，通过深度神经网络同时解决了预测模型选择和凸组合权重学习的问题。通过回归分支学习权重和分类分支选择具有多样性的预测方法，提高了基于特征的预测的精确度。
+    本文首次建立了非均匀超图随机块模型（HSBM）下的精确恢复的尖锐阈值，提供了两种有效算法，并依赖于非均匀随机超图的邻接矩阵的集中和正则化进行理论分析。
 
     
 
-    预测组合涉及使用多个预测来创建单一、更精确的预测。最近，基于特征的预测已被用于选择最合适的预测模型或学习它们的凸组合权重。在本文中，我们提出了一种同时解决这两个问题的多任务学习方法。该方法通过深度神经网络实现，其中包括两个分支：回归分支通过最小化组合预测误差来学习各种预测方法的权重，分类分支则重点选择多样性的预测方法。为了为分类任务生成训练标签，我们引入了一种优化驱动的方法，用于确定给定时间序列的最合适的方法。所提出的方法揭示了基于特征的预测中多样性的重要作用，并凸显了模型组合和选择之间的相互作用。
+    考虑在非均匀超图随机块模型（HSBM）下的随机超图中的社区检测问题，其中每个超边独立地以某些给定概率出现，该概率仅取决于其顶点的标签。我们在本文中首次建立了在这种非均匀情况下实现精确恢复的尖锐阈值，受到次要约束；尤其是，我们考虑了具有K类别的模型和对称二进制模型（K=2）。关键点是通过聚合所有均匀层的信息，即使在考虑每个层时似乎不可能实现精确恢复，我们也可以获得精确恢复。我们提供了两种有效算法，成功地在阈值以上实现了精确恢复。我们算法的理论分析依赖于非均匀随机超图的邻接矩阵的集中和正则化，这可能具有独立的兴趣。我们还解决了一些实际问题
 
-    Forecast combination involves using multiple forecasts to create a single, more accurate prediction. Recently, feature-based forecasting has been employed to either select the most appropriate forecasting models or to learn the weights of their convex combination. In this paper, we present a multi-task learning methodology that simultaneously addresses both problems. This approach is implemented through a deep neural network with two branches: the regression branch, which learns the weights of various forecasting methods by minimizing the error of combined forecasts, and the classification branch, which selects forecasting methods with an emphasis on their diversity. To generate training labels for the classification task, we introduce an optimization-driven approach that identifies the most appropriate methods for a given time series. The proposed approach elicits the essential role of diversity in feature-based forecasting and highlights the interplay between model combination and mo
+    Consider the community detection problem in random hypergraphs under the non-uniform hypergraph stochastic block model (HSBM), where each hyperedge appears independently with some given probability depending only on the labels of its vertices. We establish, for the first time in the literature, a sharp threshold for exact recovery under this non-uniform case, subject to minor constraints; in particular, we consider the model with $K$ classes as well as the symmetric binary model ($K=2$). One crucial point here is that by aggregating information from all the uniform layers, we may obtain exact recovery even in cases when this may appear impossible if each layer were considered alone. Two efficient algorithms that successfully achieve exact recovery above the threshold are provided. The theoretical analysis of our algorithms relies on the concentration and regularization of the adjacency matrix for non-uniform random hypergraphs, which could be of independent interest. We also address so
     
 
