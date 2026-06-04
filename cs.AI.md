@@ -2,37 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Policy-Space Search: Equivalences, Improvements, and Compression](https://arxiv.org/abs/2403.19883) | 该论文研究并改进了AND*执行的政策空间搜索的性能，提出了三个政策之间的等价性概念，并利用政策等价性修剪政策搜索空间，从而使AND*在解决FOND任务时更加有效。 |
-| [^2] | [Typhoon: Towards an Effective Task-Specific Masking Strategy for Pre-trained Language Models.](http://arxiv.org/abs/2303.15619) | 本文探讨了一种针对预训练语言模型的任务特定的屏蔽框架，称为Typhoon，可在GLUE基准数据集上实现卓越的下游任务性能，尤其在MRPC数据集上表现优异。 |
+| [^1] | [Transformer-based models and hardware acceleration analysis in autonomous driving: A survey.](http://arxiv.org/abs/2304.10891) | 本文综述了基于Transformer的模型在自动驾驶中的应用，探讨了不同体系结构和运算符的优缺点，重点讨论了针对便携计算平台的硬件加速方案，并对卷积神经网络和Transformer的层进行了对比。 |
 
 # 详细
 
-[^1]: 政策空间搜索: 等价性、改进和压缩
+[^1]: 自动驾驶中基于Transformer的模型及其硬件加速分析：综述 (arXiv:2304.10891v1 [cs.LG])
 
-    Policy-Space Search: Equivalences, Improvements, and Compression
+    Transformer-based models and hardware acceleration analysis in autonomous driving: A survey. (arXiv:2304.10891v1 [cs.LG])
 
-    [https://arxiv.org/abs/2403.19883](https://arxiv.org/abs/2403.19883)
+    [http://arxiv.org/abs/2304.10891](http://arxiv.org/abs/2304.10891)
 
-    该论文研究并改进了AND*执行的政策空间搜索的性能，提出了三个政策之间的等价性概念，并利用政策等价性修剪政策搜索空间，从而使AND*在解决FOND任务时更加有效。
-
-    
-
-    完全可观察的非确定性（FOND）规划是人工智能计划中不确定性的核心。它通过具有非确定性效果的动作来建模不确定性。AND*（Messa和Pereira，2023）是一个泛化了A* (Hart等人，1968) 用于FOND规划的FOND规划器。 本文研究并改进了AND*执行的政策空间搜索的性能。我们提出了一个多项式时间过程，仅给定应映射的状态集即可构造出解决方案政策。 这个过程，与对FOND政策结构的更好理解结合在一起，使我们能够提出三个政策之间的等价性概念。 我们使用政策等价性来修剪政策搜索空间的一部分，使AND*在解决FOND任务时更加有效。
-
-    arXiv:2403.19883v1 Announce Type: new  Abstract: Fully-observable non-deterministic (FOND) planning is at the core of artificial intelligence planning with uncertainty. It models uncertainty through actions with non-deterministic effects. A* with Non-Determinism (AND*) (Messa and Pereira, 2023) is a FOND planner that generalizes A* (Hart et al., 1968) for FOND planning. It searches for a solution policy by performing an explicit heuristic search on the policy space of the FOND task. In this paper, we study and improve the performance of the policy-space search performed by AND*. We present a polynomial-time procedure that constructs a solution policy given just the set of states that should be mapped. This procedure, together with a better understanding of the structure of FOND policies, allows us to present three concepts of equivalences between policies. We use policy equivalences to prune part of the policy search space, making AND* substantially more effective in solving FOND tasks
-    
-[^2]: 台风：针对预训练语言模型的有效特定任务屏蔽策略
-
-    Typhoon: Towards an Effective Task-Specific Masking Strategy for Pre-trained Language Models. (arXiv:2303.15619v1 [cs.CL])
-
-    [http://arxiv.org/abs/2303.15619](http://arxiv.org/abs/2303.15619)
-
-    本文探讨了一种针对预训练语言模型的任务特定的屏蔽框架，称为Typhoon，可在GLUE基准数据集上实现卓越的下游任务性能，尤其在MRPC数据集上表现优异。
+    本文综述了基于Transformer的模型在自动驾驶中的应用，探讨了不同体系结构和运算符的优缺点，重点讨论了针对便携计算平台的硬件加速方案，并对卷积神经网络和Transformer的层进行了对比。
 
     
 
-    通过利用图形处理单元所能提供的高度并行性，变压器架构使自然语言处理领域取得了巨大的进展。在传统的屏蔽语言模型中，使用特殊的MASK标记来提示模型从周围单词中收集情境信息以恢复原本隐藏的信息。在本文中，我们探讨了一种预训练大型语言模型的任务特定的屏蔽框架，以在GLUE基准数据集上实现卓越的下游任务性能。我们基于记号输入梯度开发了自己的屏蔽算法Typhoon，并将其与其他标准基线进行比较。我们发现，Typhoon在MRPC数据集上的性能与整体字屏蔽相当。我们的实现可以在公共Github库中找到。
+    近年来，Transformer架构在各种自动驾驶应用中表现出了很好的性能。另一方面，将其专门用于便携式计算平台的硬件加速已成为实际部署在真实自动汽车中的下一步关键步骤。本综述论文提供了针对自动驾驶任务的基于Transformer的模型的全面概述、基准和分析，例如车道检测、分割、跟踪、规划和决策制定。我们审查了不同的体系结构，用于组织Transformer的输入和输出，例如编码器-解码器和仅编码器结构，并探讨了它们各自的优缺点。此外，我们深入讨论了Transformer相关的运算符及其硬件加速方案，考虑到关键因素，如量化和运行时。我们特别在移动和桌面平台上对卷积神经网络的层与基于Transformer的模型的运算符进行了对比。总的来说，本综述论文为研究人员和从业者提供了系统的指南，以了解基于Transformer的模型及其在自动驾驶中的硬件加速的当前进展和挑战。
 
-    Through exploiting a high level of parallelism enabled by graphics processing units, transformer architectures have enabled tremendous strides forward in the field of natural language processing. In a traditional masked language model, special MASK tokens are used to prompt our model to gather contextual information from surrounding words to restore originally hidden information. In this paper, we explore a task-specific masking framework for pre-trained large language models that enables superior performance on particular downstream tasks on the datasets in the GLUE benchmark. We develop our own masking algorithm, Typhoon, based on token input gradients, and compare this with other standard baselines. We find that Typhoon offers performance competitive with whole-word masking on the MRPC dataset. Our implementation can be found in a public Github Repository.
+    Transformer architectures have exhibited promising performance in various autonomous driving applications in recent years. On the other hand, its dedicated hardware acceleration on portable computational platforms has become the next critical step for practical deployment in real autonomous vehicles. This survey paper provides a comprehensive overview, benchmark, and analysis of Transformer-based models specifically tailored for autonomous driving tasks such as lane detection, segmentation, tracking, planning, and decision-making. We review different architectures for organizing Transformer inputs and outputs, such as encoder-decoder and encoder-only structures, and explore their respective advantages and disadvantages. Furthermore, we discuss Transformer-related operators and their hardware acceleration schemes in depth, taking into account key factors such as quantization and runtime. We specifically illustrate the operator level comparison between layers from convolutional neural ne
     
 
