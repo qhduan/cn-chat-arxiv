@@ -2,37 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Transformer-based models and hardware acceleration analysis in autonomous driving: A survey.](http://arxiv.org/abs/2304.10891) | 本文综述了基于Transformer的模型在自动驾驶中的应用，探讨了不同体系结构和运算符的优缺点，重点讨论了针对便携计算平台的硬件加速方案，并对卷积神经网络和Transformer的层进行了对比。 |
-| [^2] | [Blessing from Human-AI Interaction: Super Reinforcement Learning in Confounded Environments.](http://arxiv.org/abs/2209.15448) | 本文介绍了一种新的强化学习范式——超级强化学习，它通过人工智能与人类的互动来实现数据驱动的顺序决策。在决策过程中，利用过去代理的行为可以提供有关未披露信息的洞见。通过以合法的方式将这些信息纳入策略搜索中，超级强化学习将得到一个在性能上优于标准最优策略和行为策略的超级策略。我们将这个更强大的神谕称为人工智能与人类互动的福音。 |
+| [^1] | [Binary Gaussian Copula Synthesis: A Novel Data Augmentation Technique to Advance ML-based Clinical Decision Support Systems for Early Prediction of Dialysis Among CKD Patients](https://arxiv.org/abs/2403.00965) | 提出了一种新的数据增强技术 Binary Gaussian Copula Synthesis (BGCS)，用于解决基于机器学习的临床决策支持系统在早期预测慢性肾病患者透析需求中所面临的数据不平衡问题 |
+| [^2] | [Exploration via linearly perturbed loss minimisation](https://arxiv.org/abs/2311.07565) | 提出了一种名为EVILL的随机探索方法，通过解决线性扰动的负对数似然函数的极小化问题来工作，提供了关于随机奖励扰动产生良好赌博算法的简洁解释，并在实践中展示了与汤普森抽样风格参数扰动方法性能相匹配的能力 |
+| [^3] | [Semi-Offline Reinforcement Learning for Optimized Text Generation.](http://arxiv.org/abs/2306.09712) | 该研究提出了一种半离线强化学习范式，该范式平衡了探索能力和培训成本，提供了一个理论基础来比较不同的强化学习设置，并在优化成本、渐近误差和过度拟合误差界方面实现了最优的RL设置。实验结果表明，该方法高效且性能优异。 |
 
 # 详细
 
-[^1]: 自动驾驶中基于Transformer的模型及其硬件加速分析：综述 (arXiv:2304.10891v1 [cs.LG])
+[^1]: 二值高斯Copula合成：一种新的数据增强技术，用于推进基于机器学习的临床决策支持系统，旨在早期预测慢性肾病患者的透析需求
 
-    Transformer-based models and hardware acceleration analysis in autonomous driving: A survey. (arXiv:2304.10891v1 [cs.LG])
+    Binary Gaussian Copula Synthesis: A Novel Data Augmentation Technique to Advance ML-based Clinical Decision Support Systems for Early Prediction of Dialysis Among CKD Patients
 
-    [http://arxiv.org/abs/2304.10891](http://arxiv.org/abs/2304.10891)
+    [https://arxiv.org/abs/2403.00965](https://arxiv.org/abs/2403.00965)
 
-    本文综述了基于Transformer的模型在自动驾驶中的应用，探讨了不同体系结构和运算符的优缺点，重点讨论了针对便携计算平台的硬件加速方案，并对卷积神经网络和Transformer的层进行了对比。
-
-    
-
-    近年来，Transformer架构在各种自动驾驶应用中表现出了很好的性能。另一方面，将其专门用于便携式计算平台的硬件加速已成为实际部署在真实自动汽车中的下一步关键步骤。本综述论文提供了针对自动驾驶任务的基于Transformer的模型的全面概述、基准和分析，例如车道检测、分割、跟踪、规划和决策制定。我们审查了不同的体系结构，用于组织Transformer的输入和输出，例如编码器-解码器和仅编码器结构，并探讨了它们各自的优缺点。此外，我们深入讨论了Transformer相关的运算符及其硬件加速方案，考虑到关键因素，如量化和运行时。我们特别在移动和桌面平台上对卷积神经网络的层与基于Transformer的模型的运算符进行了对比。总的来说，本综述论文为研究人员和从业者提供了系统的指南，以了解基于Transformer的模型及其在自动驾驶中的硬件加速的当前进展和挑战。
-
-    Transformer architectures have exhibited promising performance in various autonomous driving applications in recent years. On the other hand, its dedicated hardware acceleration on portable computational platforms has become the next critical step for practical deployment in real autonomous vehicles. This survey paper provides a comprehensive overview, benchmark, and analysis of Transformer-based models specifically tailored for autonomous driving tasks such as lane detection, segmentation, tracking, planning, and decision-making. We review different architectures for organizing Transformer inputs and outputs, such as encoder-decoder and encoder-only structures, and explore their respective advantages and disadvantages. Furthermore, we discuss Transformer-related operators and their hardware acceleration schemes in depth, taking into account key factors such as quantization and runtime. We specifically illustrate the operator level comparison between layers from convolutional neural ne
-    
-[^2]: 人工智能与人类互动的福音：在混杂环境中的超级强化学习
-
-    Blessing from Human-AI Interaction: Super Reinforcement Learning in Confounded Environments. (arXiv:2209.15448v2 [cs.LG] UPDATED)
-
-    [http://arxiv.org/abs/2209.15448](http://arxiv.org/abs/2209.15448)
-
-    本文介绍了一种新的强化学习范式——超级强化学习，它通过人工智能与人类的互动来实现数据驱动的顺序决策。在决策过程中，利用过去代理的行为可以提供有关未披露信息的洞见。通过以合法的方式将这些信息纳入策略搜索中，超级强化学习将得到一个在性能上优于标准最优策略和行为策略的超级策略。我们将这个更强大的神谕称为人工智能与人类互动的福音。
+    提出了一种新的数据增强技术 Binary Gaussian Copula Synthesis (BGCS)，用于解决基于机器学习的临床决策支持系统在早期预测慢性肾病患者透析需求中所面临的数据不平衡问题
 
     
 
-    随着人工智能在社会中的普及，有效地整合人类和人工智能系统，发挥各自的优势并减少风险已成为一个重要的优先事项。在本文中，我们介绍了利用人工智能与人类互动的超级强化学习范式，用于数据驱动的顺序决策。该方法利用观察到的行为（来自人工智能或人类）作为决策者（人类或人工智能）策略学习的更强大的神谕输入。在存在未测量混杂的决策过程中，过去代理的行为可以提供有关未披露信息的宝贵见解。通过以一种新颖和合法的方式将这些信息包括在策略搜索中，所提出的超级强化学习将产生一个管保能在标准最优策略和行为策略（例如过去代理的行为）之上表现更好的超级策略。我们将这个更强大的神谕称为来自人工智能与人类互动的福音。
+    谷歌学术：2403.00965v1  公告类型：跨界  摘要：美国疾病控制中心估计，超过3700万成年美国人患有慢性肾病（CKD），然而其中的9成患者由于早期没有症状而不知道自己的状况。早期预测透析需求至关重要，因为这可以显著改善患者预后，并帮助医疗提供者及时做出知情决策。然而，开发有效的基于机器学习（ML）的早期透析预测临床决策支持系统（CDSS）面临关键挑战，即数据的不平衡性。为了解决这一挑战，本研究评估了各种数据增强技术，以了解它们在现实世界数据集上的有效性。我们提出了一种名为二值高斯Copula合成（BGCS）的新方法，该方法针对二进制数据进行了优化。
 
-    As AI becomes more prevalent throughout society, effective methods of integrating humans and AI systems that leverage their respective strengths and mitigate risk have become an important priority. In this paper, we introduce the paradigm of super reinforcement learning that takes advantage of Human-AI interaction for data driven sequential decision making. This approach utilizes the observed action, either from AI or humans, as input for achieving a stronger oracle in policy learning for the decision maker (humans or AI). In the decision process with unmeasured confounding, the actions taken by past agents can offer valuable insights into undisclosed information. By including this information for the policy search in a novel and legitimate manner, the proposed super reinforcement learning will yield a super-policy that is guaranteed to outperform both the standard optimal policy and the behavior one (e.g., past agents' actions). We call this stronger oracle a blessing from human-AI in
+    arXiv:2403.00965v1 Announce Type: cross  Abstract: The Center for Disease Control estimates that over 37 million US adults suffer from chronic kidney disease (CKD), yet 9 out of 10 of these individuals are unaware of their condition due to the absence of symptoms in the early stages. It has a significant impact on patients' quality of life, particularly when it progresses to the need for dialysis. Early prediction of dialysis is crucial as it can significantly improve patient outcomes and assist healthcare providers in making timely and informed decisions. However, developing an effective machine learning (ML)-based Clinical Decision Support System (CDSS) for early dialysis prediction poses a key challenge due to the imbalanced nature of data. To address this challenge, this study evaluates various data augmentation techniques to understand their effectiveness on real-world datasets. We propose a new approach named Binary Gaussian Copula Synthesis (BGCS). BGCS is tailored for binary me
+    
+[^2]: 通过线性扰动的损失最小化来进行探索
+
+    Exploration via linearly perturbed loss minimisation
+
+    [https://arxiv.org/abs/2311.07565](https://arxiv.org/abs/2311.07565)
+
+    提出了一种名为EVILL的随机探索方法，通过解决线性扰动的负对数似然函数的极小化问题来工作，提供了关于随机奖励扰动产生良好赌博算法的简洁解释，并在实践中展示了与汤普森抽样风格参数扰动方法性能相匹配的能力
+
+    
+
+    我们引入了一种称为通过线性损失扰动进行探索（EVILL）的随机探索方法，用于结构化随机赌博问题，该方法通过解决线性扰动正则化负对数似然函数的极小化问题来工作。我们展示，对于广义线性赌博问题，EVILL可以简化为扰动历史探索（PHE），一种通过在随机扰动奖励上进行训练来进行探索的方法。通过这样做，我们对随机奖励扰动何时以及为何产生良好的赌博算法提供了简单干净的解释。我们提出了先前PHE类型方法中不含的数据相关扰动，使EVILL能够在理论和实践中与汤普森抽样风格参数扰动方法的性能相匹配。此外，我们展示了一个超出广义线性赌博的例子，其中PHE导致不一致的估计，从而导致线性后悔，而EVILL则保持表现。
+
+    arXiv:2311.07565v2 Announce Type: replace  Abstract: We introduce exploration via linear loss perturbations (EVILL), a randomised exploration method for structured stochastic bandit problems that works by solving for the minimiser of a linearly perturbed regularised negative log-likelihood function. We show that, for the case of generalised linear bandits, EVILL reduces to perturbed history exploration (PHE), a method where exploration is done by training on randomly perturbed rewards. In doing so, we provide a simple and clean explanation of when and why random reward perturbations give rise to good bandit algorithms. We propose data-dependent perturbations not present in previous PHE-type methods that allow EVILL to match the performance of Thompson-sampling-style parameter-perturbation methods, both in theory and in practice. Moreover, we show an example outside generalised linear bandits where PHE leads to inconsistent estimates, and thus linear regret, while EVILL remains performa
+    
+[^3]: 半离线强化学习用于优化文本生成
+
+    Semi-Offline Reinforcement Learning for Optimized Text Generation. (arXiv:2306.09712v1 [cs.LG])
+
+    [http://arxiv.org/abs/2306.09712](http://arxiv.org/abs/2306.09712)
+
+    该研究提出了一种半离线强化学习范式，该范式平衡了探索能力和培训成本，提供了一个理论基础来比较不同的强化学习设置，并在优化成本、渐近误差和过度拟合误差界方面实现了最优的RL设置。实验结果表明，该方法高效且性能优异。
+
+    
+
+    在强化学习中，与环境交互有两种主要方式：在线和离线。在线方法探索环境所需时间较长，而离线方法通过牺牲探索能力有效地获得奖励信号。我们提出了半离线RL，一种新的范式，可以平滑地从离线转换到在线设置，平衡探索能力和培训成本，并为比较不同RL设置提供理论基础。基于半离线公式，我们提出了在优化成本、渐近误差和过度拟合误差界方面最优的RL设置。广泛的实验表明，我们的半离线方法效率高，与最先进的方法相比具有可比性或更好的性能。
+
+    In reinforcement learning (RL), there are two major settings for interacting with the environment: online and offline. Online methods explore the environment at significant time cost, and offline methods efficiently obtain reward signals by sacrificing exploration capability. We propose semi-offline RL, a novel paradigm that smoothly transits from offline to online settings, balances exploration capability and training cost, and provides a theoretical foundation for comparing different RL settings. Based on the semi-offline formulation, we present the RL setting that is optimal in terms of optimization cost, asymptotic error, and overfitting error bound. Extensive experiments show that our semi-offline approach is efficient and yields comparable or often better performance compared with state-of-the-art methods.
     
 
