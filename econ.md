@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Robustly estimating heterogeneity in factorial data using Rashomon Partitions](https://arxiv.org/abs/2404.02141) | 通过使用拉细孟划分集，我们能够在因子数据中稳健地估计异质性，并将因子空间划分成协变量组合的“池”，以便区分结果的差异。 |
+| [^1] | [Machine Learning Inference on Inequality of Opportunity.](http://arxiv.org/abs/2206.05235) | 通过机器学习在预测结果和计算预测的不平等指数的两个步骤中可能存在偏差，我们提出了一种简单的去偏IOp估计器，并提供了第一个有效的IOp推论理论。我们在欧洲报告了首个无偏的收入IOp度量，发现母亲的教育和父亲的职业是最重要的解释因素。插值估计器对机器学习算法非常敏感，而去偏IOp估计器则具有鲁棒性。 |
 
 # 详细
 
-[^1]: 使用拉细孟划分在因子数据中稳健估计异质性
+[^1]: 机器学习在机会不平等上的推论
 
-    Robustly estimating heterogeneity in factorial data using Rashomon Partitions
+    Machine Learning Inference on Inequality of Opportunity. (arXiv:2206.05235v3 [econ.EM] UPDATED)
 
-    [https://arxiv.org/abs/2404.02141](https://arxiv.org/abs/2404.02141)
+    [http://arxiv.org/abs/2206.05235](http://arxiv.org/abs/2206.05235)
 
-    通过使用拉细孟划分集，我们能够在因子数据中稳健地估计异质性，并将因子空间划分成协变量组合的“池”，以便区分结果的差异。
+    通过机器学习在预测结果和计算预测的不平等指数的两个步骤中可能存在偏差，我们提出了一种简单的去偏IOp估计器，并提供了第一个有效的IOp推论理论。我们在欧洲报告了首个无偏的收入IOp度量，发现母亲的教育和父亲的职业是最重要的解释因素。插值估计器对机器学习算法非常敏感，而去偏IOp估计器则具有鲁棒性。
 
     
 
-    许多统计分析，无论是在观测数据还是随机对照试验中，都会问：感兴趣的结果如何随可观察协变量组合变化？不同的药物组合如何影响健康结果，科技采纳如何依赖激励和人口统计学？我们的目标是将这个因子空间划分成协变量组合的“池”，在这些池中结果会发生差异（但池内部不会发生），而现有方法要么寻找一个单一的“最优”分割，要么从可能分割的整个集合中抽样。这两种方法都忽视了这样一个事实：特别是在协变量之间存在相关结构的情况下，可能以许多种方式划分协变量空间，在统计上是无法区分的，尽管对政策或科学有着非常不同的影响。我们提出了一种名为拉细孟划分集的替代视角
+    机会平等已经成为分配公正的重要理念。实证上，机会不平等(IOp)通过两个步骤进行测量：首先，根据个人情况预测一个结果（如收入）；然后，计算预测的不平等指数（如基尼系数）。机器学习方法在第一步非常有用。然而，在IOp的第二步中，它们可能会导致相当大的偏差，因为偏差-方差权衡允许偏差渗入。我们提出了一个简单的，抵消了这种机器学习偏差的IOp估计器，并提供了第一个有效的IOp推论理论。我们在模拟中展示了改进的性能，并报道了欧洲的首个无偏收入IOp度量。母亲的教育和父亲的职业是最重要的解释因素。插值估计器对机器学习算法非常敏感，而抵消偏差的IOp估计器则具有鲁棒性。这些结果还扩展到了一般的U-统计设置。
 
-    arXiv:2404.02141v1 Announce Type: cross  Abstract: Many statistical analyses, in both observational data and randomized control trials, ask: how does the outcome of interest vary with combinations of observable covariates? How do various drug combinations affect health outcomes, or how does technology adoption depend on incentives and demographics? Our goal is to partition this factorial space into ``pools'' of covariate combinations where the outcome differs across the pools (but not within a pool). Existing approaches (i) search for a single ``optimal'' partition under assumptions about the association between covariates or (ii) sample from the entire set of possible partitions. Both these approaches ignore the reality that, especially with correlation structure in covariates, many ways to partition the covariate space may be statistically indistinguishable, despite very different implications for policy or science. We develop an alternative perspective, called Rashomon Partition Set
+    Equality of opportunity has emerged as an important ideal of distributive justice. Empirically, Inequality of Opportunity (IOp) is measured in two steps: first, an outcome (e.g., income) is predicted given individual circumstances; and second, an inequality index (e.g., Gini) of the predictions is computed. Machine Learning (ML) methods are tremendously useful in the first step. However, they can cause sizable biases in IOp since the bias-variance trade-off allows the bias to creep in the second step. We propose a simple debiased IOp estimator robust to such ML biases and provide the first valid inferential theory for IOp. We demonstrate improved performance in simulations and report the first unbiased measures of income IOp in Europe. Mother's education and father's occupation are the circumstances that explain the most. Plug-in estimators are very sensitive to the ML algorithm, while debiased IOp estimators are robust. These results are extended to a general U-statistics setting.
     
 
