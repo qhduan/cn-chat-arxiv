@@ -2,22 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Robust Deep Reinforcement Learning Through Adversarial Attacks and Training : A Survey](https://arxiv.org/abs/2403.00420) | 通过对抗性训练来改进DRL对条件变化的鲁棒性，研究者系统分析了当代对抗攻击方法，提供了详细见解。 |
+| [^1] | [Beyond Conservatism: Diffusion Policies in Offline Multi-agent Reinforcement Learning.](http://arxiv.org/abs/2307.01472) | DOM2是一种离线多智能体强化学习模型，通过扩散策略的改进，提高了算法在性能、泛化能力和数据效率方面的表现。DOM2在多智能体粒子和多智能体MuJoCo环境中优于现有算法，并在移位环境中具有更好的泛化能力。此外，DOM2还展现了卓越的数据效率，只使用较少的数据即可达到最先进的性能水平。 |
+| [^2] | [LSTM based IoT Device Identification.](http://arxiv.org/abs/2304.13905) | 本研究提出了一种使用LSTM进行物联网设备识别的方法，以预防安全威胁和检测漏洞为目标。 |
 
 # 详细
 
-[^1]: 经由对抗攻击和训练的稳健深度强化学习：一项调查
+[^1]: 超越保守主义：离线多智能体强化学习中的扩散策略
 
-    Robust Deep Reinforcement Learning Through Adversarial Attacks and Training : A Survey
+    Beyond Conservatism: Diffusion Policies in Offline Multi-agent Reinforcement Learning. (arXiv:2307.01472v1 [cs.AI])
 
-    [https://arxiv.org/abs/2403.00420](https://arxiv.org/abs/2403.00420)
+    [http://arxiv.org/abs/2307.01472](http://arxiv.org/abs/2307.01472)
 
-    通过对抗性训练来改进DRL对条件变化的鲁棒性，研究者系统分析了当代对抗攻击方法，提供了详细见解。
+    DOM2是一种离线多智能体强化学习模型，通过扩散策略的改进，提高了算法在性能、泛化能力和数据效率方面的表现。DOM2在多智能体粒子和多智能体MuJoCo环境中优于现有算法，并在移位环境中具有更好的泛化能力。此外，DOM2还展现了卓越的数据效率，只使用较少的数据即可达到最先进的性能水平。
 
     
 
-    深度强化学习（DRL）是一种训练自主代理在各种复杂环境中的方法。尽管在众所周知的环境中表现出色，但它仍然容易受到轻微条件变化的影响，引发了人们对其在现实应用中可靠性的担忧。为了提高可用性，DRL必须展示出可信度和鲁棒性。通过对抗性训练提高DRL对条件变化的鲁棒性是一种改进方式，通过训练代理针对环境动态的适当对抗性攻击。我们的工作致力于解决这一关键问题，对当代对抗攻击方法进行了深入分析，系统地对其进行分类，并比较它们的目标和操作机制。这种分类为我们提供了对对抗性攻击如何有效评估DRL代理的恢复力的详细见解，从而为开辟DRL在实际应用中的道路奠定了基础。
+    我们提出了一种新颖的离线多智能体模型（DOM2），用于离线多智能体强化学习（MARL）。与现有算法在策略设计中主要依赖保守主义不同，DOM2基于扩散增强了策略的表达能力和多样性。具体而言，我们将扩散模型纳入策略网络，并提出了一种基于轨迹的数据增强方案进行训练。这些关键因素使我们的算法在环境变化方面更加稳健，并在性能、泛化能力和数据效率方面取得了显著的改进。我们广泛的实验结果表明，DOM2在多智能体粒子和多智能体MuJoCo环境中优于现有的最先进方法，并且由于其高表达能力和多样性，在移位环境中具有更好的泛化能力。此外，DOM2表现出卓越的数据效率，在与现有算法相比只使用$20+$倍少的数据下，就能达到最先进的性能水平。
 
-    arXiv:2403.00420v1 Announce Type: cross  Abstract: Deep Reinforcement Learning (DRL) is an approach for training autonomous agents across various complex environments. Despite its significant performance in well known environments, it remains susceptible to minor conditions variations, raising concerns about its reliability in real-world applications. To improve usability, DRL must demonstrate trustworthiness and robustness. A way to improve robustness of DRL to unknown changes in the conditions is through Adversarial Training, by training the agent against well suited adversarial attacks on the dynamics of the environment. Addressing this critical issue, our work presents an in-depth analysis of contemporary adversarial attack methodologies, systematically categorizing them and comparing their objectives and operational mechanisms. This classification offers a detailed insight into how adversarial attacks effectively act for evaluating the resilience of DRL agents, thereby paving the 
+    We present a novel Diffusion Offline Multi-agent Model (DOM2) for offline Multi-Agent Reinforcement Learning (MARL). Different from existing algorithms that rely mainly on conservatism in policy design, DOM2 enhances policy expressiveness and diversity based on diffusion. Specifically, we incorporate a diffusion model into the policy network and propose a trajectory-based data-augmentation scheme in training. These key ingredients make our algorithm more robust to environment changes and achieve significant improvements in performance, generalization and data-efficiency. Our extensive experimental results demonstrate that DOM2 outperforms existing state-of-the-art methods in multi-agent particle and multi-agent MuJoCo environments, and generalizes significantly better in shifted environments thanks to its high expressiveness and diversity. Furthermore, DOM2 shows superior data efficiency and can achieve state-of-the-art performance with $20+$ times less data compared to existing algori
+    
+[^2]: 基于LSTM的物联网设备识别
+
+    LSTM based IoT Device Identification. (arXiv:2304.13905v1 [cs.CR])
+
+    [http://arxiv.org/abs/2304.13905](http://arxiv.org/abs/2304.13905)
+
+    本研究提出了一种使用LSTM进行物联网设备识别的方法，以预防安全威胁和检测漏洞为目标。
+
+    
+
+    随着物联网的使用越来越普遍，随之而来的是大量设备造成的安全漏洞。在这样的环境下，物联网设备识别方法成为重要的预防性安全措施，可以识别这些设备并检测它们所面临的漏洞。本研究提出了一种使用长短时记忆（LSTM）的方法，在Aalto数据集中识别设备。
+
+    While the use of the Internet of Things is becoming more and more popular, many security vulnerabilities are emerging with the large number of devices being introduced to the market. In this environment, IoT device identification methods provide a preventive security measure as an important factor in identifying these devices and detecting the vulnerabilities they suffer from. In this study, we present a method that identifies devices in the Aalto dataset using Long short-term memory (LSTM)
     
 

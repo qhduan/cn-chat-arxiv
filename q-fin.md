@@ -2,22 +2,9 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [On the impact of insurance on households susceptible to random proportional losses: An analysis of poverty trapping.](http://arxiv.org/abs/2310.09295) | 本研究讨论了一个具有确定性增长和乘性跳跃的风险过程，模拟了低收入家庭的资本。通过分析陷阱概率和引入比例覆盖的保险产品，研究了保险对家庭陷入贫困的影响。 |
+
 
 # 详细
 
-[^1]: 关于保险对易受随机比例损失影响的研究：贫困陷阱分析
 
-    On the impact of insurance on households susceptible to random proportional losses: An analysis of poverty trapping. (arXiv:2310.09295v1 [q-fin.RM])
-
-    [http://arxiv.org/abs/2310.09295](http://arxiv.org/abs/2310.09295)
-
-    本研究讨论了一个具有确定性增长和乘性跳跃的风险过程，模拟了低收入家庭的资本。通过分析陷阱概率和引入比例覆盖的保险产品，研究了保险对家庭陷入贫困的影响。
-
-    
-
-    本文中，我们考虑了一个具有确定性增长和乘性跳跃的风险过程，以模拟低收入家庭的资本。考虑到低收入环境的高风险性质，假设资本损失与跳跃时积累的资本水平成正比。我们的目标是推导一个家庭陷入贫困线以下的概率，即陷阱概率，其中“陷阱”发生在家庭资本水平降到贫困线以下，处于需要外部帮助才能摆脱的困境中。考虑将剩余的资本比例分布视为贝塔分布的特殊情况，通过分析过程的无穷小生成元的拉普拉斯变换，得到了陷阱概率的封闭形式表达。为了研究保险对该概率的影响，介绍了一种提供比例覆盖的保险产品。
-
-    In this paper, we consider a risk process with deterministic growth and multiplicative jumps to model the capital of a low-income household. Reflecting the high-risk nature of the low-income environment, capital losses are assumed to be proportional to the level of accumulated capital at the jump time. Our aim is to derive the probability that a household falls below the poverty line, i.e. the trapping probability, where ``trapping" occurs when the level of capital of a household holds falls below the poverty line, to an area from which it is difficult to escape without external help. Considering the remaining proportion of capital to be distributed as a special case of the beta distribution, closed-form expressions for the trapping probability are obtained via analysis of the Laplace transform of the infinitesimal generator of the process. To study the impact of insurance on this probability, introduction of an insurance product offering proportional coverage is presented. The infinit
-    
 
