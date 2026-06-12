@@ -2,37 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Beyond Conservatism: Diffusion Policies in Offline Multi-agent Reinforcement Learning.](http://arxiv.org/abs/2307.01472) | DOM2是一种离线多智能体强化学习模型，通过扩散策略的改进，提高了算法在性能、泛化能力和数据效率方面的表现。DOM2在多智能体粒子和多智能体MuJoCo环境中优于现有算法，并在移位环境中具有更好的泛化能力。此外，DOM2还展现了卓越的数据效率，只使用较少的数据即可达到最先进的性能水平。 |
-| [^2] | [LSTM based IoT Device Identification.](http://arxiv.org/abs/2304.13905) | 本研究提出了一种使用LSTM进行物联网设备识别的方法，以预防安全威胁和检测漏洞为目标。 |
+| [^1] | [On Pitfalls of $\textit{RemOve-And-Retrain}$: Data Processing Inequality Perspective.](http://arxiv.org/abs/2304.13836) | 本论文评估了RemOve-And-Retrain（ROAR）协议的可靠性。研究结果表明，ROAR基准测试中的属性可能有更少的有关决策的重要信息，这种偏差称为毛糙度偏差，并提醒人们不要在ROAR指标上进行盲目的依赖。 |
 
 # 详细
 
-[^1]: 超越保守主义：离线多智能体强化学习中的扩散策略
+[^1]: 论RemOve-And-Retrain的陷阱：数据处理不等式的视角
 
-    Beyond Conservatism: Diffusion Policies in Offline Multi-agent Reinforcement Learning. (arXiv:2307.01472v1 [cs.AI])
+    On Pitfalls of $\textit{RemOve-And-Retrain}$: Data Processing Inequality Perspective. (arXiv:2304.13836v1 [cs.LG])
 
-    [http://arxiv.org/abs/2307.01472](http://arxiv.org/abs/2307.01472)
+    [http://arxiv.org/abs/2304.13836](http://arxiv.org/abs/2304.13836)
 
-    DOM2是一种离线多智能体强化学习模型，通过扩散策略的改进，提高了算法在性能、泛化能力和数据效率方面的表现。DOM2在多智能体粒子和多智能体MuJoCo环境中优于现有算法，并在移位环境中具有更好的泛化能力。此外，DOM2还展现了卓越的数据效率，只使用较少的数据即可达到最先进的性能水平。
-
-    
-
-    我们提出了一种新颖的离线多智能体模型（DOM2），用于离线多智能体强化学习（MARL）。与现有算法在策略设计中主要依赖保守主义不同，DOM2基于扩散增强了策略的表达能力和多样性。具体而言，我们将扩散模型纳入策略网络，并提出了一种基于轨迹的数据增强方案进行训练。这些关键因素使我们的算法在环境变化方面更加稳健，并在性能、泛化能力和数据效率方面取得了显著的改进。我们广泛的实验结果表明，DOM2在多智能体粒子和多智能体MuJoCo环境中优于现有的最先进方法，并且由于其高表达能力和多样性，在移位环境中具有更好的泛化能力。此外，DOM2表现出卓越的数据效率，在与现有算法相比只使用$20+$倍少的数据下，就能达到最先进的性能水平。
-
-    We present a novel Diffusion Offline Multi-agent Model (DOM2) for offline Multi-Agent Reinforcement Learning (MARL). Different from existing algorithms that rely mainly on conservatism in policy design, DOM2 enhances policy expressiveness and diversity based on diffusion. Specifically, we incorporate a diffusion model into the policy network and propose a trajectory-based data-augmentation scheme in training. These key ingredients make our algorithm more robust to environment changes and achieve significant improvements in performance, generalization and data-efficiency. Our extensive experimental results demonstrate that DOM2 outperforms existing state-of-the-art methods in multi-agent particle and multi-agent MuJoCo environments, and generalizes significantly better in shifted environments thanks to its high expressiveness and diversity. Furthermore, DOM2 shows superior data efficiency and can achieve state-of-the-art performance with $20+$ times less data compared to existing algori
-    
-[^2]: 基于LSTM的物联网设备识别
-
-    LSTM based IoT Device Identification. (arXiv:2304.13905v1 [cs.CR])
-
-    [http://arxiv.org/abs/2304.13905](http://arxiv.org/abs/2304.13905)
-
-    本研究提出了一种使用LSTM进行物联网设备识别的方法，以预防安全威胁和检测漏洞为目标。
+    本论文评估了RemOve-And-Retrain（ROAR）协议的可靠性。研究结果表明，ROAR基准测试中的属性可能有更少的有关决策的重要信息，这种偏差称为毛糙度偏差，并提醒人们不要在ROAR指标上进行盲目的依赖。
 
     
 
-    随着物联网的使用越来越普遍，随之而来的是大量设备造成的安全漏洞。在这样的环境下，物联网设备识别方法成为重要的预防性安全措施，可以识别这些设备并检测它们所面临的漏洞。本研究提出了一种使用长短时记忆（LSTM）的方法，在Aalto数据集中识别设备。
+    本文评估了RemOve-And-Retrain（ROAR）协议的可靠性，该协议用于测量特征重要性估计的性能。我们从理论背景和实证实验中发现，具有较少有关决策功能的信息的属性在ROAR基准测试中表现更好，与ROAR的原始目的相矛盾。这种现象也出现在最近提出的变体RemOve-And-Debias（ROAD）中，我们提出了ROAR归因度量中毛糙度偏差的一致趋势。我们的结果提醒人们不要盲目依赖ROAR的性能评估指标。
 
-    While the use of the Internet of Things is becoming more and more popular, many security vulnerabilities are emerging with the large number of devices being introduced to the market. In this environment, IoT device identification methods provide a preventive security measure as an important factor in identifying these devices and detecting the vulnerabilities they suffer from. In this study, we present a method that identifies devices in the Aalto dataset using Long short-term memory (LSTM)
+    This paper assesses the reliability of the RemOve-And-Retrain (ROAR) protocol, which is used to measure the performance of feature importance estimates. Our findings from the theoretical background and empirical experiments indicate that attributions that possess less information about the decision function can perform better in ROAR benchmarks, conflicting with the original purpose of ROAR. This phenomenon is also observed in the recently proposed variant RemOve-And-Debias (ROAD), and we propose a consistent trend of blurriness bias in ROAR attribution metrics. Our results caution against uncritical reliance on ROAR metrics.
     
 
