@@ -2,37 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Uncertainty Quantification in Anomaly Detection with Cross-Conformal $p$-Values](https://arxiv.org/abs/2402.16388) | 针对异常检测系统中不确定性量化的需求，提出了一种新颖的框架，称为交叉一致异常检测，通过校准模型的不确定性提供统计保证。 |
-| [^2] | [On Rate-Optimal Partitioning Classification from Observable and from Privatised Data](https://arxiv.org/abs/2312.14889) | 研究了在放宽条件下的分区分类方法的收敛速率，提出了绝对连续分量的新特性，计算了分类错误概率的精确收敛率 |
+| [^1] | [Information Leakage Detection through Approximate Bayes-optimal Prediction.](http://arxiv.org/abs/2401.14283) | 本论文通过建立一个理论框架，利用统计学习理论和信息论来准确量化和检测信息泄漏，通过近似贝叶斯预测的对数损失和准确性来准确估计互信息。 |
 
 # 详细
 
-[^1]: 具有交叉一致$p$-值的异常检测中的不确定性量化
+[^1]: 通过近似贝叶斯最优预测检测信息泄漏
 
-    Uncertainty Quantification in Anomaly Detection with Cross-Conformal $p$-Values
+    Information Leakage Detection through Approximate Bayes-optimal Prediction. (arXiv:2401.14283v1 [stat.ML])
 
-    [https://arxiv.org/abs/2402.16388](https://arxiv.org/abs/2402.16388)
+    [http://arxiv.org/abs/2401.14283](http://arxiv.org/abs/2401.14283)
 
-    针对异常检测系统中不确定性量化的需求，提出了一种新颖的框架，称为交叉一致异常检测，通过校准模型的不确定性提供统计保证。
-
-    
-
-    随着可靠、可信和可解释机器学习的重要性日益增加，对异常检测系统进行不确定性量化的要求变得愈发重要。在这种情况下，有效控制类型I错误率($\alpha$)而又不损害系统的统计功率($1-\beta$)可以建立信任，并减少与假发现相关的成本，特别是当后续程序昂贵时。利用符合预测原则的方法有望通过校准模型的不确定性为异常检测提供相应的统计保证。该工作引入了一个新颖的异常检测框架，称为交叉一致异常检测，建立在为预测任务设计的著名交叉一致方法之上。通过这种方法，他填补了在归纳一致异常检测环境中扩展先前研究的自然研究空白
-
-    arXiv:2402.16388v1 Announce Type: cross  Abstract: Given the growing significance of reliable, trustworthy, and explainable machine learning, the requirement of uncertainty quantification for anomaly detection systems has become increasingly important. In this context, effectively controlling Type I error rates ($\alpha$) without compromising the statistical power ($1-\beta$) of these systems can build trust and reduce costs related to false discoveries, particularly when follow-up procedures are expensive. Leveraging the principles of conformal prediction emerges as a promising approach for providing respective statistical guarantees by calibrating a model's uncertainty. This work introduces a novel framework for anomaly detection, termed cross-conformal anomaly detection, building upon well-known cross-conformal methods designed for prediction tasks. With that, it addresses a natural research gap by extending previous works in the context of inductive conformal anomaly detection, rel
-    
-[^2]: 论从可观测和私密数据中实现速率最优分区分类
-
-    On Rate-Optimal Partitioning Classification from Observable and from Privatised Data
-
-    [https://arxiv.org/abs/2312.14889](https://arxiv.org/abs/2312.14889)
-
-    研究了在放宽条件下的分区分类方法的收敛速率，提出了绝对连续分量的新特性，计算了分类错误概率的精确收敛率
+    本论文通过建立一个理论框架，利用统计学习理论和信息论来准确量化和检测信息泄漏，通过近似贝叶斯预测的对数损失和准确性来准确估计互信息。
 
     
 
-    在这篇论文中，我们重新审视了分区分类的经典方法，并研究了在放宽条件下的收敛速率，包括可观测（非私密）和私密数据。我们假设特征向量$X$取值于$\mathbb{R}^d$，其标签为$Y$。之前关于分区分类器的结果基于强密度假设，这种假设限制较大，我们通过简单的例子加以证明。我们假设$X$的分布是绝对连续分布和离散分布的混合体，其中绝对连续分量集中于一个$d_a$维子空间。在这里，我们在更宽松的条件下研究了这个问题：除了标准的Lipschitz和边际条件外，我们还引入了绝对连续分量的一个新特性，通过该特性计算了分类错误概率的精确收敛率，对于...
+    在今天的以数据驱动的世界中，公开可获得的信息的增加加剧了信息泄漏（IL）的挑战，引发了安全问题。IL涉及通过系统的可观察信息无意地将秘密（敏感）信息暴露给未经授权的方，传统的统计方法通过估计可观察信息和秘密信息之间的互信息（MI）来检测IL，面临维度灾难、收敛、计算复杂度和MI估计错误等挑战。此外，虽然新兴的监督机器学习（ML）方法在二进制系统敏感信息的检测上有效，但缺乏一个全面的理论框架。为了解决这些限制，我们使用统计学习理论和信息论建立了一个理论框架来准确量化和检测IL。我们证明了可以通过近似贝叶斯预测的对数损失和准确性来准确估计MI。
 
-    arXiv:2312.14889v2 Announce Type: replace-cross  Abstract: In this paper we revisit the classical method of partitioning classification and study its convergence rate under relaxed conditions, both for observable (non-privatised) and for privatised data. Let the feature vector $X$ take values in $\mathbb{R}^d$ and denote its label by $Y$. Previous results on the partitioning classifier worked with the strong density assumption, which is restrictive, as we demonstrate through simple examples. We assume that the distribution of $X$ is a mixture of an absolutely continuous and a discrete distribution, such that the absolutely continuous component is concentrated to a $d_a$ dimensional subspace. Here, we study the problem under much milder assumptions: in addition to the standard Lipschitz and margin conditions, a novel characteristic of the absolutely continuous component is introduced, by which the exact convergence rate of the classification error probability is calculated, both for the
+    In today's data-driven world, the proliferation of publicly available information intensifies the challenge of information leakage (IL), raising security concerns. IL involves unintentionally exposing secret (sensitive) information to unauthorized parties via systems' observable information. Conventional statistical approaches, which estimate mutual information (MI) between observable and secret information for detecting IL, face challenges such as the curse of dimensionality, convergence, computational complexity, and MI misestimation. Furthermore, emerging supervised machine learning (ML) methods, though effective, are limited to binary system-sensitive information and lack a comprehensive theoretical framework. To address these limitations, we establish a theoretical framework using statistical learning theory and information theory to accurately quantify and detect IL. We demonstrate that MI can be accurately estimated by approximating the log-loss and accuracy of the Bayes predict
     
 
