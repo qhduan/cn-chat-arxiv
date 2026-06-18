@@ -2,52 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Towards Leveraging AutoML for Sustainable Deep Learning: A Multi-Objective HPO Approach on Deep Shift Neural Networks](https://arxiv.org/abs/2404.01965) | 该研究旨在利用AutoML技术最大化Deep Shift神经网络性能并最小化资源消耗，提出了结合多保真度HPO和多目标优化的方法，实验证明该方法在提高准确率的同时降低了计算复杂性。 |
-| [^2] | [Moderating Illicit Online Image Promotion for Unsafe User-Generated Content Games Using Large Vision-Language Models](https://arxiv.org/abs/2403.18957) | 该研究旨在调查不安全用户生成内容游戏中的违法推广威胁，收集了一组包含性暴力和暴力内容的真实图像数据集。 |
-| [^3] | [Manifold GCN: Diffusion-based Convolutional Neural Network for Manifold-valued Graphs.](http://arxiv.org/abs/2401.14381) | 本研究提出了两个用于具有流形值特征的图的神经网络层。这些层具有对节点排列和特征流形的等变性，并在深度学习任务中显示出有益的归纳偏差。 |
+| [^1] | [A DeepLearning Framework for Dynamic Estimation of Origin-Destination Sequence.](http://arxiv.org/abs/2307.05623) | 本文提出了一个综合方法，使用深度学习方法推断OD序列的结构，并使用结构约束指导传统的数值优化，解决了交通领域中静态和动态OD矩阵估计中的欠定和滞后挑战。 |
+| [^2] | [Simple Domain Generalization Methods are Strong Baselines for Open Domain Generalization.](http://arxiv.org/abs/2303.18031) | 该论文评估了基于领域泛化的方法在开放领域泛化中的表现，证明了CORAL和MMD等简单DG方法在某些情况下的竞争力，提出了这些方法的简单扩展。 |
+| [^3] | [Enhancing Core Image Classification Using Generative Adversarial Networks (GANs).](http://arxiv.org/abs/2204.14224) | 本研究提出了一种使用生成对抗网络(GANs)增强核心图像分类的创新方法，通过应用先进的模型来检测和分割岩心图像中的核心和洞，并利用强大的GANs技术填补岩心图像中的洞。这项研究将为油气勘探行业带来重大转变。 |
 
 # 详细
 
-[^1]: 旨在利用AutoML实现可持续深度学习：基于Deep Shift神经网络的多目标HPO方法
+[^1]: 用于动态估计出发地-目的地序列的深度学习框架
 
-    Towards Leveraging AutoML for Sustainable Deep Learning: A Multi-Objective HPO Approach on Deep Shift Neural Networks
+    A DeepLearning Framework for Dynamic Estimation of Origin-Destination Sequence. (arXiv:2307.05623v1 [cs.LG])
 
-    [https://arxiv.org/abs/2404.01965](https://arxiv.org/abs/2404.01965)
+    [http://arxiv.org/abs/2307.05623](http://arxiv.org/abs/2307.05623)
 
-    该研究旨在利用AutoML技术最大化Deep Shift神经网络性能并最小化资源消耗，提出了结合多保真度HPO和多目标优化的方法，实验证明该方法在提高准确率的同时降低了计算复杂性。
-
-    
-
-    深度学习（DL）通过从大型数据集中提取复杂模式推动了各个领域的发展。然而，DL模型的计算需求带来了环境和资源挑战。Deep Shift神经网络（DSNN）利用shift操作减少推理时的计算复杂性，为此提供了解决方案。通过借鉴标准DNN的见解，我们有兴趣通过AutoML技术充分发挥DSNN的潜力。我们研究了超参数优化（HPO）对于最大化DSNN性能同时最小化资源消耗的影响。由于将准确性和能耗作为可能互补目标结合的多目标（MO）优化，我们建议将最先进的多保真度（MF）HPO与多目标优化相结合。实验结果证明了我们方法的有效性，得到了准确率超过80％且计算低耗的模型。
-
-    arXiv:2404.01965v1 Announce Type: cross  Abstract: Deep Learning (DL) has advanced various fields by extracting complex patterns from large datasets. However, the computational demands of DL models pose environmental and resource challenges. Deep shift neural networks (DSNNs) offer a solution by leveraging shift operations to reduce computational complexity at inference. Following the insights from standard DNNs, we are interested in leveraging the full potential of DSNNs by means of AutoML techniques. We study the impact of hyperparameter optimization (HPO) to maximize DSNN performance while minimizing resource consumption. Since this combines multi-objective (MO) optimization with accuracy and energy consumption as potentially complementary objectives, we propose to combine state-of-the-art multi-fidelity (MF) HPO with multi-objective optimization. Experimental results demonstrate the effectiveness of our approach, resulting in models with over 80\% in accuracy and low computational 
-    
-[^2]: 利用大规模视觉语言模型调节不安全用户生成内容游戏中的违法在线图片推广
-
-    Moderating Illicit Online Image Promotion for Unsafe User-Generated Content Games Using Large Vision-Language Models
-
-    [https://arxiv.org/abs/2403.18957](https://arxiv.org/abs/2403.18957)
-
-    该研究旨在调查不安全用户生成内容游戏中的违法推广威胁，收集了一组包含性暴力和暴力内容的真实图像数据集。
+    本文提出了一个综合方法，使用深度学习方法推断OD序列的结构，并使用结构约束指导传统的数值优化，解决了交通领域中静态和动态OD矩阵估计中的欠定和滞后挑战。
 
     
 
-    在线用户生成内容游戏（UGCGs）在儿童和青少年中越来越受欢迎，用于社交互动和更有创意的在线娱乐。然而，它们存在着更高的暴露不良内容的风险，引发了人们对儿童和青少年在线安全的日益关注。我们采取了第一步研究对不安全UGCGs的违法推广进行威胁性分析。我们收集了一组现实世界数据集，包括2,924张展示不同性暴力和暴力内容的图像，这些内容被游戏创建者用于推广UGCGs。
+    OD矩阵估计是交通领域的一个关键问题。主要方法使用交通传感器测量信息（如交通流量）来估计由OD矩阵表示的交通需求。该问题分为静态OD矩阵估计和动态OD矩阵序列（简称OD序列）估计两类。上述两种方法面临由于大量估计参数和不足的约束信息造成的欠定问题。此外，OD序列估计还面临滞后挑战：由于拥堵等不同交通条件，相同的车辆在同一观测时段内会出现在不同的路段上，导致相同的OD需求对应不同的行程。为此，本文提出了一种综合方法，它使用深度学习方法推断OD序列的结构，并使用结构约束指导传统的数值优化。我们的实验显示...
 
-    arXiv:2403.18957v1 Announce Type: cross  Abstract: Online user-generated content games (UGCGs) are increasingly popular among children and adolescents for social interaction and more creative online entertainment. However, they pose a heightened risk of exposure to explicit content, raising growing concerns for the online safety of children and adolescents. Despite these concerns, few studies have addressed the issue of illicit image-based promotions of unsafe UGCGs on social media, which can inadvertently attract young users. This challenge arises from the difficulty of obtaining comprehensive training data for UGCG images and the unique nature of these images, which differ from traditional unsafe content. In this work, we take the first step towards studying the threat of illicit promotions of unsafe UGCGs. We collect a real-world dataset comprising 2,924 images that display diverse sexually explicit and violent content used to promote UGCGs by their game creators. Our in-depth studi
+    OD matrix estimation is a critical problem in the transportation domain. The principle method uses the traffic sensor measured information such as traffic counts to estimate the traffic demand represented by the OD matrix. The problem is divided into two categories: static OD matrix estimation and dynamic OD matrices sequence(OD sequence for short) estimation. The above two face the underdetermination problem caused by abundant estimated parameters and insufficient constraint information. In addition, OD sequence estimation also faces the lag challenge: due to different traffic conditions such as congestion, identical vehicle will appear on different road sections during the same observation period, resulting in identical OD demands correspond to different trips. To this end, this paper proposes an integrated method, which uses deep learning methods to infer the structure of OD sequence and uses structural constraints to guide traditional numerical optimization. Our experiments show th
     
-[^3]: 面向流形值图的扩散卷积神经网络：多重难题图神经网络层
+[^2]: 简单的领域泛化方法是开放领域泛化的强大基准方法
 
-    Manifold GCN: Diffusion-based Convolutional Neural Network for Manifold-valued Graphs. (arXiv:2401.14381v1 [cs.LG])
+    Simple Domain Generalization Methods are Strong Baselines for Open Domain Generalization. (arXiv:2303.18031v1 [cs.CV])
 
-    [http://arxiv.org/abs/2401.14381](http://arxiv.org/abs/2401.14381)
+    [http://arxiv.org/abs/2303.18031](http://arxiv.org/abs/2303.18031)
 
-    本研究提出了两个用于具有流形值特征的图的神经网络层。这些层具有对节点排列和特征流形的等变性，并在深度学习任务中显示出有益的归纳偏差。
+    该论文评估了基于领域泛化的方法在开放领域泛化中的表现，证明了CORAL和MMD等简单DG方法在某些情况下的竞争力，提出了这些方法的简单扩展。
 
     
 
-    我们提出了两种用于具有Riemannian流形特征的图上的图神经网络层。第一，基于流形值图的扩散方程，我们构建了一个扩散层，可以应用于任意数量的节点和图连接模式。第二，我们通过将向量神经元框架的思想转化到我们的一般设置中，建立了一个切线多层感知器。这两个层对节点排列和特征流形的等变具有响应，这些特性在许多深度学习任务中已被证明具有有益的归纳偏差。我们在合成数据上以及在右侧海马三角网格上分类阿尔茨海默病的数值实例表明我们建立的层具有非常好的性能。
+    在现实世界的应用中，机器学习模型需要处理开放集识别（OSR），即在推理过程中出现未知类别，以及领域漂移（domain shift），即训练和推理阶段之间数据分布不同的情况。领域泛化（DG）旨在处理推理阶段的目标领域在模型训练期间不可访问的情况下的领域漂移情况。开放领域泛化（ODG）同时考虑了DG和OSR。领域增强元学习（DAML）是一个面向ODG的方法，但其学习过程较为复杂。另一方面，尽管提出了各种DG方法，但它们尚未在ODG情况下进行评估。本文全面评估现有的DG方法在ODG中的表现，并展示了两种简单的DG方法，即CORrelation ALignment（CORAL）和Maximum Mean Discrepancy（MMD）在若干情况下与DAML具有竞争力。此外，我们通过引入一个小调整，提出了CORAL和MMD的简单扩展。
 
-    We propose two graph neural network layers for graphs with features in a Riemannian manifold. First, based on a manifold-valued graph diffusion equation, we construct a diffusion layer that can be applied to an arbitrary number of nodes and graph connectivity patterns. Second, we model a tangent multilayer perceptron by transferring ideas from the vector neuron framework to our general setting. Both layers are equivariant with respect to node permutations and isometries of the feature manifold. These properties have been shown to lead to a beneficial inductive bias in many deep learning tasks. Numerical examples on synthetic data as well as on triangle meshes of the right hippocampus to classify Alzheimer's disease demonstrate the very good performance of our layers.
+    In real-world applications, a machine learning model is required to handle an open-set recognition (OSR), where unknown classes appear during the inference, in addition to a domain shift, where the distribution of data differs between the training and inference phases. Domain generalization (DG) aims to handle the domain shift situation where the target domain of the inference phase is inaccessible during model training. Open domain generalization (ODG) takes into account both DG and OSR. Domain-Augmented Meta-Learning (DAML) is a method targeting ODG but has a complicated learning process. On the other hand, although various DG methods have been proposed, they have not been evaluated in ODG situations. This work comprehensively evaluates existing DG methods in ODG and shows that two simple DG methods, CORrelation ALignment (CORAL) and Maximum Mean Discrepancy (MMD), are competitive with DAML in several cases. In addition, we propose simple extensions of CORAL and MMD by introducing th
+    
+[^3]: 通过生成对抗网络(GANs)增强核心图像分类
+
+    Enhancing Core Image Classification Using Generative Adversarial Networks (GANs). (arXiv:2204.14224v2 [cs.CV] UPDATED)
+
+    [http://arxiv.org/abs/2204.14224](http://arxiv.org/abs/2204.14224)
+
+    本研究提出了一种使用生成对抗网络(GANs)增强核心图像分类的创新方法，通过应用先进的模型来检测和分割岩心图像中的核心和洞，并利用强大的GANs技术填补岩心图像中的洞。这项研究将为油气勘探行业带来重大转变。
+
+    
+
+    在兴奋人心的油气勘探世界中，岩心样品是解锁地质信息以寻找有利可图的油气矿床的关键。尽管这些样品的重要性，传统的岩心记录技术被认为是耗时且主观的。幸运的是，该行业已经采用了一种创新的解决方案-岩心成像，它可以对大量岩心进行无损和非侵入性的快速表征。我们杰出的研究论文旨在解决岩心检测和分类的紧迫问题。使用最先进的技术，我们提出了一个突破性的解决方案，将改变该行业。我们首先面临的挑战是检测图像中的岩心并分割出孔洞，我们将分别使用Faster RCNN和Mask RCNN模型来实现。然后，我们将利用强大的生成对抗网络(GANs)和Contextual Residual来解决填补岩心图像中的洞的问题。
+
+    In the thrilling world of oil exploration, drill core samples are key to unlocking geological information critical to finding lucrative oil deposits. Despite the importance of these samples, traditional core logging techniques are known to be laborious and, worse still, subjective. Thankfully, the industry has embraced an innovative solution core imaging that allows for nondestructive and noninvasive rapid characterization of large quantities of drill cores. Our preeminent research paper aims to tackle the pressing problem of core detection and classification. Using state-of-the-art techniques, we present a groundbreaking solution that will transform the industry. Our first challenge is detecting the cores and segmenting the holes in images, which we will achieve using the Faster RCNN and Mask RCNN models, respectively. Then, we will address the problem of filling the hole in the core image, utilizing the powerful Generative Adversarial Networks (GANs) and employing Contextual Residual
     
 

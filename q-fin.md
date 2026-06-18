@@ -2,37 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Karma: An Experimental Study](https://arxiv.org/abs/2404.02687) | 实验证实因果报应在资源分配上带来显著且持久的福利好处，尤其在具有间歇急迫性的情境中效果更佳。 |
-| [^2] | [Idiosyncratic Risk, Government Debt and Inflation](https://arxiv.org/abs/2403.00471) | 公共债务扩张可能会提高自然利率并导致通货膨胀，特别是在活跃的货币政策下，持续升高的公共债务可能会使实现通货紧缩的最后一“英里”变得更加困难。 |
+| [^1] | [Second-Order Approximation of Limit Order Books in a Single-Scale Regime.](http://arxiv.org/abs/2308.00805) | 本文在单一尺度下对无限维限价委托订单簿模型进行了一阶和二阶近似，得到了非退化的价格和成交量动态，并证明了演化方程的唯一解以及标准化的LOB模型序列弱收敛于该解。 |
 
 # 详细
 
-[^1]: Karma：一个实验研究
+[^1]: 单尺度情况下限价委托订单簿的二阶近似
 
-    Karma: An Experimental Study
+    Second-Order Approximation of Limit Order Books in a Single-Scale Regime. (arXiv:2308.00805v1 [q-fin.MF])
 
-    [https://arxiv.org/abs/2404.02687](https://arxiv.org/abs/2404.02687)
+    [http://arxiv.org/abs/2308.00805](http://arxiv.org/abs/2308.00805)
 
-    实验证实因果报应在资源分配上带来显著且持久的福利好处，尤其在具有间歇急迫性的情境中效果更佳。
-
-    
-
-    非可交易积分系统，类似于因果报应，因此提议以此命名，是一种用于重复资源分配的机制，在理论上具有吸引人的效率和公平特性。在这项研究中，我们在一项在线实验中测试了因果报应，实验中人类被要求重复竞争获取一种具有时间变化和随机个人偏好或紧迫性的资源。我们确认，即使在没有任何事先培训的人群中，因果报应也具有显著且持久的福利好处。我们发现，在具有间歇急迫性的情境中，机制的使用次数比频繁中等紧迫性的情境更多，并且将其实施为一个简单（二元）的因果报应竞标方案，对于福利的提高特别有效：实现了相对较大的总体效率增益，这些增益几乎是帕累托改进的。这些发现为进一步测试和未来实施计划提供了指导。
-
-    arXiv:2404.02687v1 Announce Type: new  Abstract: A system of non-tradable credits that flow between individuals like karma, hence proposed under that name, is a mechanism for repeated resource allocation that comes with attractive efficiency and fairness properties, in theory. In this study, we test karma in an online experiment in which human subjects repeatedly compete for a resource with time-varying and stochastic individual preferences or urgency to acquire the resource. We confirm that karma has significant and sustained welfare benefits even in a population with no prior training. We identify mechanism usage in contexts with sporadic high urgency, more so than with frequent moderate urgency, and implemented as an easy (binary) karma bidding scheme as particularly effective for welfare improvements: relatively larger aggregate efficiency gains are realized that are (almost) Pareto superior. These findings provide guidance for further testing and for future implementation plans of
-    
-[^2]: 特质风险、政府债务和通货膨胀
-
-    Idiosyncratic Risk, Government Debt and Inflation
-
-    [https://arxiv.org/abs/2403.00471](https://arxiv.org/abs/2403.00471)
-
-    公共债务扩张可能会提高自然利率并导致通货膨胀，特别是在活跃的货币政策下，持续升高的公共债务可能会使实现通货紧缩的最后一“英里”变得更加困难。
+    本文在单一尺度下对无限维限价委托订单簿模型进行了一阶和二阶近似，得到了非退化的价格和成交量动态，并证明了演化方程的唯一解以及标准化的LOB模型序列弱收敛于该解。
 
     
 
-    公共债务对价格稳定有何重要性？如果私营部门为了保险特质风险而有用，政府债务扩张可能会提高自然利率并导致通货膨胀。正如我在一个易处理的模型中展示的那样，这在存在积极的泰勒规则的情况下成立，并且并不需要未来财政巩固的缺席。进一步使用一个完整的2资产HANK模型进行分析，揭示了这一机制的定量影响在很大程度上取决于资产市场的结构：在标准假设下，公共债务对自然利率的影响要么过于强大，要么过于弱。采用简明的方法来克服这个问题，我的框架表明公共债务对活跃的货币政策下通货膨胀产生相关影响：特别是，持续升高的公共债务可能使实现通货紧缩的最后一“英里”变得更加困难，除非央行明确考虑其影响。
+    我们在一个单一的尺度情况下建立了一个无限维度的限价委托订单簿模型(LOB)的一阶和二阶近似，该模型中市场委托和限价委托在一个共同的时间尺度下到达。通过我们选择的尺度，我们得到价格和成交量动态的非退化的一阶和二阶近似。一阶近似由一个标准的耦合ODE-PDE系统给出，而二阶近似是非标准的，并且用一个由圆柱布朗运动驱动的无限维随机演化方程描述。驱动噪声过程在模型参数方面表现出非平凡的相关性。我们证明演化方程有唯一的解，并且标准化的LOB模型序列弱收敛于演化方程的解。证明使用了一个非标准的鞅问题。我们将我们模型的简化版本校准到市场数据，并展示了模型的准确性。
 
-    arXiv:2403.00471v1 Announce Type: new  Abstract: How does public debt matter for price stability? If it is useful for the private sector to insure idiosyncratic risk, government debt expansions can increase the natural rate of interest and create inflation. As I demonstrate using a tractable model, this holds in the presence of an active Taylor rule and does not require the absence of future fiscal consolidation. Further analysis using a full-blown 2-asset HANK model reveals the quantitative magnitude of the mechanism to crucially depend on the structure of the asset market: under standard assumptions, the effect of public debt on the natural rate is either overly strong or overly weak. Employing a parsimonious way to overcome this issue, my framework suggests relevant effects of public debt on inflation under active monetary policy: In particular, persistently elevated public debt may make it harder to go the last "mile of disinflation" unless central banks explicitly take its effect 
+    We establish a first and second-order approximation for an infinite dimensional limit order book model (LOB) in a single (''critical'') scaling regime where market and limit orders arrive at a common time scale. With our choice of scaling we obtain non-degenerate first-order and second-order approximations for the price and volume dynamics. While the first-order approximation is given by a standard coupled ODE-PDE system, the second-order approximation is non-standard and described in terms of an infinite-dimensional stochastic evolution equation driven by a cylindrical Brownian motion. The driving noise processes exhibit a non-trivial correlation in terms of the model parameters. We prove that the evolution equation has a unique solution and that the sequence of standardized LOB models converges weakly to the solution of the evolution equation. The proof uses a non-standard martingale problem. We calibrate a simplified version of our model to market data and show that the model accura
     
 
