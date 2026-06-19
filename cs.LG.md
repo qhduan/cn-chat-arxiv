@@ -2,52 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [A DeepLearning Framework for Dynamic Estimation of Origin-Destination Sequence.](http://arxiv.org/abs/2307.05623) | 本文提出了一个综合方法，使用深度学习方法推断OD序列的结构，并使用结构约束指导传统的数值优化，解决了交通领域中静态和动态OD矩阵估计中的欠定和滞后挑战。 |
-| [^2] | [Simple Domain Generalization Methods are Strong Baselines for Open Domain Generalization.](http://arxiv.org/abs/2303.18031) | 该论文评估了基于领域泛化的方法在开放领域泛化中的表现，证明了CORAL和MMD等简单DG方法在某些情况下的竞争力，提出了这些方法的简单扩展。 |
-| [^3] | [Enhancing Core Image Classification Using Generative Adversarial Networks (GANs).](http://arxiv.org/abs/2204.14224) | 本研究提出了一种使用生成对抗网络(GANs)增强核心图像分类的创新方法，通过应用先进的模型来检测和分割岩心图像中的核心和洞，并利用强大的GANs技术填补岩心图像中的洞。这项研究将为油气勘探行业带来重大转变。 |
+| [^1] | [Wisdom of Committee: Distilling from Foundation Model to SpecializedApplication Model](https://arxiv.org/abs/2402.14035) | 将基础模型的知识转移到专用应用模型中存在挑战，提出了通过创建教学委员会来应对这些挑战。 |
+| [^2] | [Group-Sparse Matrix Factorization for Transfer Learning of Word Embeddings](https://arxiv.org/abs/2104.08928) | 提出了一种基于群稀疏矩阵分解的方法，用于在新领域进行词嵌入的传递学习，以解决不同领域单词含义差异的挑战。 |
+| [^3] | [Algebraic and Statistical Properties of the Ordinary Least Squares Interpolator.](http://arxiv.org/abs/2309.15769) | 本文研究了普通最小二乘插值器在高维环境中的代数和统计属性，并为最小l2范数OLS插值器提供了基本结果。这些结果对理解OLS插值器的泛化能力具有重要意义。 |
 
 # 详细
 
-[^1]: 用于动态估计出发地-目的地序列的深度学习框架
+[^1]: 委员会的智慧：从基础模型到专用应用模型的提取
 
-    A DeepLearning Framework for Dynamic Estimation of Origin-Destination Sequence. (arXiv:2307.05623v1 [cs.LG])
+    Wisdom of Committee: Distilling from Foundation Model to SpecializedApplication Model
 
-    [http://arxiv.org/abs/2307.05623](http://arxiv.org/abs/2307.05623)
+    [https://arxiv.org/abs/2402.14035](https://arxiv.org/abs/2402.14035)
 
-    本文提出了一个综合方法，使用深度学习方法推断OD序列的结构，并使用结构约束指导传统的数值优化，解决了交通领域中静态和动态OD矩阵估计中的欠定和滞后挑战。
-
-    
-
-    OD矩阵估计是交通领域的一个关键问题。主要方法使用交通传感器测量信息（如交通流量）来估计由OD矩阵表示的交通需求。该问题分为静态OD矩阵估计和动态OD矩阵序列（简称OD序列）估计两类。上述两种方法面临由于大量估计参数和不足的约束信息造成的欠定问题。此外，OD序列估计还面临滞后挑战：由于拥堵等不同交通条件，相同的车辆在同一观测时段内会出现在不同的路段上，导致相同的OD需求对应不同的行程。为此，本文提出了一种综合方法，它使用深度学习方法推断OD序列的结构，并使用结构约束指导传统的数值优化。我们的实验显示...
-
-    OD matrix estimation is a critical problem in the transportation domain. The principle method uses the traffic sensor measured information such as traffic counts to estimate the traffic demand represented by the OD matrix. The problem is divided into two categories: static OD matrix estimation and dynamic OD matrices sequence(OD sequence for short) estimation. The above two face the underdetermination problem caused by abundant estimated parameters and insufficient constraint information. In addition, OD sequence estimation also faces the lag challenge: due to different traffic conditions such as congestion, identical vehicle will appear on different road sections during the same observation period, resulting in identical OD demands correspond to different trips. To this end, this paper proposes an integrated method, which uses deep learning methods to infer the structure of OD sequence and uses structural constraints to guide traditional numerical optimization. Our experiments show th
-    
-[^2]: 简单的领域泛化方法是开放领域泛化的强大基准方法
-
-    Simple Domain Generalization Methods are Strong Baselines for Open Domain Generalization. (arXiv:2303.18031v1 [cs.CV])
-
-    [http://arxiv.org/abs/2303.18031](http://arxiv.org/abs/2303.18031)
-
-    该论文评估了基于领域泛化的方法在开放领域泛化中的表现，证明了CORAL和MMD等简单DG方法在某些情况下的竞争力，提出了这些方法的简单扩展。
+    将基础模型的知识转移到专用应用模型中存在挑战，提出了通过创建教学委员会来应对这些挑战。
 
     
 
-    在现实世界的应用中，机器学习模型需要处理开放集识别（OSR），即在推理过程中出现未知类别，以及领域漂移（domain shift），即训练和推理阶段之间数据分布不同的情况。领域泛化（DG）旨在处理推理阶段的目标领域在模型训练期间不可访问的情况下的领域漂移情况。开放领域泛化（ODG）同时考虑了DG和OSR。领域增强元学习（DAML）是一个面向ODG的方法，但其学习过程较为复杂。另一方面，尽管提出了各种DG方法，但它们尚未在ODG情况下进行评估。本文全面评估现有的DG方法在ODG中的表现，并展示了两种简单的DG方法，即CORrelation ALignment（CORAL）和Maximum Mean Discrepancy（MMD）在若干情况下与DAML具有竞争力。此外，我们通过引入一个小调整，提出了CORAL和MMD的简单扩展。
+    最近基础模型的进展在各种任务上取得了令人印象深刻的性能，与此同时，为特定应用，从业者们一直在开发专门的应用模型。为了享受这两种模型的好处，一个自然的路径是将基础模型中的知识转移到专用应用模型中，后者通常更有效地提供服务。知识蒸馏的技术可以在这里应用，其中应用模型学会模仿基础模型。然而，专用应用模型和基础模型在容量上存在实质性差距，采用不同的架构，使用来自不同模态的不同输入特征，并在不同的分布上进行优化。模型特征上的这些差异导致了蒸馏方法面临重大挑战。在这项工作中，我们提出创建一个教学委员会，包括基础模型和专用应用模型。
 
-    In real-world applications, a machine learning model is required to handle an open-set recognition (OSR), where unknown classes appear during the inference, in addition to a domain shift, where the distribution of data differs between the training and inference phases. Domain generalization (DG) aims to handle the domain shift situation where the target domain of the inference phase is inaccessible during model training. Open domain generalization (ODG) takes into account both DG and OSR. Domain-Augmented Meta-Learning (DAML) is a method targeting ODG but has a complicated learning process. On the other hand, although various DG methods have been proposed, they have not been evaluated in ODG situations. This work comprehensively evaluates existing DG methods in ODG and shows that two simple DG methods, CORrelation ALignment (CORAL) and Maximum Mean Discrepancy (MMD), are competitive with DAML in several cases. In addition, we propose simple extensions of CORAL and MMD by introducing th
+    arXiv:2402.14035v1 Announce Type: cross  Abstract: Recent advancements in foundation models have yielded impressive performance across a wide range of tasks. Meanwhile, for specific applications, practitioners have been developing specialized application models. To enjoy the benefits of both kinds of models, one natural path is to transfer the knowledge in foundation models into specialized application models, which are generally more efficient for serving. Techniques from knowledge distillation may be applied here, where the application model learns to mimic the foundation model. However, specialized application models and foundation models have substantial gaps in capacity, employing distinct architectures, using different input features from different modalities, and being optimized on different distributions. These differences in model characteristics lead to significant challenges for distillation methods. In this work, we propose creating a teaching committee comprising both foun
     
-[^3]: 通过生成对抗网络(GANs)增强核心图像分类
+[^2]: 基于群稀疏矩阵分解的词嵌入传递学习
 
-    Enhancing Core Image Classification Using Generative Adversarial Networks (GANs). (arXiv:2204.14224v2 [cs.CV] UPDATED)
+    Group-Sparse Matrix Factorization for Transfer Learning of Word Embeddings
 
-    [http://arxiv.org/abs/2204.14224](http://arxiv.org/abs/2204.14224)
+    [https://arxiv.org/abs/2104.08928](https://arxiv.org/abs/2104.08928)
 
-    本研究提出了一种使用生成对抗网络(GANs)增强核心图像分类的创新方法，通过应用先进的模型来检测和分割岩心图像中的核心和洞，并利用强大的GANs技术填补岩心图像中的洞。这项研究将为油气勘探行业带来重大转变。
+    提出了一种基于群稀疏矩阵分解的方法，用于在新领域进行词嵌入的传递学习，以解决不同领域单词含义差异的挑战。
 
     
 
-    在兴奋人心的油气勘探世界中，岩心样品是解锁地质信息以寻找有利可图的油气矿床的关键。尽管这些样品的重要性，传统的岩心记录技术被认为是耗时且主观的。幸运的是，该行业已经采用了一种创新的解决方案-岩心成像，它可以对大量岩心进行无损和非侵入性的快速表征。我们杰出的研究论文旨在解决岩心检测和分类的紧迫问题。使用最先进的技术，我们提出了一个突破性的解决方案，将改变该行业。我们首先面临的挑战是检测图像中的岩心并分割出孔洞，我们将分别使用Faster RCNN和Mask RCNN模型来实现。然后，我们将利用强大的生成对抗网络(GANs)和Contextual Residual来解决填补岩心图像中的洞的问题。
+    非结构化文本为许多领域的决策者提供了丰富的数据源，涵盖范围从零售中的产品评论到医疗保健中的护理记录。为了利用这些信息，通常会通过无监督学习算法（如矩阵分解）将单词转换为词嵌入——编码单词之间语义关系的向量。然而，从具有有限训练数据的新领域学习单词嵌入可能具有挑战性，因为在新领域中，单词的含义/用法可能不同，例如，“positive”一词通常具有正面情绪，但在医疗记录中往往具有负面情绪，因为它可能意味着患者检测呈阳性。在实践中，我们预计只有少量领域特定单词可能具有新含义。我们提出了一个直观的两阶段估计器，通过群稀疏惩罚来有效地传递学习领域特定的新含义。
 
-    In the thrilling world of oil exploration, drill core samples are key to unlocking geological information critical to finding lucrative oil deposits. Despite the importance of these samples, traditional core logging techniques are known to be laborious and, worse still, subjective. Thankfully, the industry has embraced an innovative solution core imaging that allows for nondestructive and noninvasive rapid characterization of large quantities of drill cores. Our preeminent research paper aims to tackle the pressing problem of core detection and classification. Using state-of-the-art techniques, we present a groundbreaking solution that will transform the industry. Our first challenge is detecting the cores and segmenting the holes in images, which we will achieve using the Faster RCNN and Mask RCNN models, respectively. Then, we will address the problem of filling the hole in the core image, utilizing the powerful Generative Adversarial Networks (GANs) and employing Contextual Residual
+    arXiv:2104.08928v3 Announce Type: replace-cross  Abstract: Unstructured text provides decision-makers with a rich data source in many domains, ranging from product reviews in retail to nursing notes in healthcare. To leverage this information, words are typically translated into word embeddings -- vectors that encode the semantic relationships between words -- through unsupervised learning algorithms such as matrix factorization. However, learning word embeddings from new domains with limited training data can be challenging, because the meaning/usage may be different in the new domain, e.g., the word ``positive'' typically has positive sentiment, but often has negative sentiment in medical notes since it may imply that a patient tested positive for a disease. In practice, we expect that only a small number of domain-specific words may have new meanings. We propose an intuitive two-stage estimator that exploits this structure via a group-sparse penalty to efficiently transfer learn dom
+    
+[^3]: 普通最小二乘插值器的代数和统计属性
+
+    Algebraic and Statistical Properties of the Ordinary Least Squares Interpolator. (arXiv:2309.15769v1 [math.ST])
+
+    [http://arxiv.org/abs/2309.15769](http://arxiv.org/abs/2309.15769)
+
+    本文研究了普通最小二乘插值器在高维环境中的代数和统计属性，并为最小l2范数OLS插值器提供了基本结果。这些结果对理解OLS插值器的泛化能力具有重要意义。
+
+    
+
+    深度学习研究揭示了对超参数化统计模型的良性过拟合现象，近年来引起了重大的理论兴趣。鉴于其简单性和实用性，普通最小二乘（OLS）插值器已成为获得对这种现象基础洞察力的关键所在。尽管OLS在经典环境中的性质已经得到了很好的建立，但在高维环境中的行为还没有像岭回归或套索回归那样被探索得那么透彻，尽管近年来已取得了显著进展。我们通过为最小l2范数OLS插值器提供基本的代数和统计结果来贡献于这一日益增长的文献。特别地，我们提供了（i）留-k-out残差公式的高维代数等价物，（ii） Cochran公式，以及（iii）Frisch-Waugh-Lovell定理。这些结果有助于理解OLS插值器的泛化能力并具有实质性的影响。
+
+    Deep learning research has uncovered the phenomenon of benign overfitting for over-parameterized statistical models, which has drawn significant theoretical interest in recent years. Given its simplicity and practicality, the ordinary least squares (OLS) interpolator has become essential to gain foundational insights into this phenomenon. While properties of OLS are well established in classical settings, its behavior in high-dimensional settings is less explored (unlike for ridge or lasso regression) though significant progress has been made of late. We contribute to this growing literature by providing fundamental algebraic and statistical results for the minimum $\ell_2$-norm OLS interpolator. In particular, we provide high-dimensional algebraic equivalents of (i) the leave-$k$-out residual formula, (ii) Cochran's formula, and (iii) the Frisch-Waugh-Lovell theorem. These results aid in understanding the OLS interpolator's ability to generalize and have substantive implications for c
     
 

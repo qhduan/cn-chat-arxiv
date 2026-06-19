@@ -2,9 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-
+| [^1] | [Group-Sparse Matrix Factorization for Transfer Learning of Word Embeddings](https://arxiv.org/abs/2104.08928) | 提出了一种基于群稀疏矩阵分解的方法，用于在新领域进行词嵌入的传递学习，以解决不同领域单词含义差异的挑战。 |
 
 # 详细
 
+[^1]: 基于群稀疏矩阵分解的词嵌入传递学习
 
+    Group-Sparse Matrix Factorization for Transfer Learning of Word Embeddings
+
+    [https://arxiv.org/abs/2104.08928](https://arxiv.org/abs/2104.08928)
+
+    提出了一种基于群稀疏矩阵分解的方法，用于在新领域进行词嵌入的传递学习，以解决不同领域单词含义差异的挑战。
+
+    
+
+    非结构化文本为许多领域的决策者提供了丰富的数据源，涵盖范围从零售中的产品评论到医疗保健中的护理记录。为了利用这些信息，通常会通过无监督学习算法（如矩阵分解）将单词转换为词嵌入——编码单词之间语义关系的向量。然而，从具有有限训练数据的新领域学习单词嵌入可能具有挑战性，因为在新领域中，单词的含义/用法可能不同，例如，“positive”一词通常具有正面情绪，但在医疗记录中往往具有负面情绪，因为它可能意味着患者检测呈阳性。在实践中，我们预计只有少量领域特定单词可能具有新含义。我们提出了一个直观的两阶段估计器，通过群稀疏惩罚来有效地传递学习领域特定的新含义。
+
+    arXiv:2104.08928v3 Announce Type: replace-cross  Abstract: Unstructured text provides decision-makers with a rich data source in many domains, ranging from product reviews in retail to nursing notes in healthcare. To leverage this information, words are typically translated into word embeddings -- vectors that encode the semantic relationships between words -- through unsupervised learning algorithms such as matrix factorization. However, learning word embeddings from new domains with limited training data can be challenging, because the meaning/usage may be different in the new domain, e.g., the word ``positive'' typically has positive sentiment, but often has negative sentiment in medical notes since it may imply that a patient tested positive for a disease. In practice, we expect that only a small number of domain-specific words may have new meanings. We propose an intuitive two-stage estimator that exploits this structure via a group-sparse penalty to efficiently transfer learn dom
+    
 
