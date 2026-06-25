@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Few shot chain-of-thought driven reasoning to prompt LLMs for open ended medical question answering](https://arxiv.org/abs/2403.04890) | 本文提出了基于少样本推动推理的链式思维驱动LLMs用于开放式医学问题回答，通过修改MedQA-USMLE数据集并采用奖励训练机制，实现了在医疗场景中正确响应临床问题的有效方法。 |
+| [^1] | [Narrative Feature or Structured Feature? A Study of Large Language Models to Identify Cancer Patients at Risk of Heart Failure](https://arxiv.org/abs/2403.11425) | 使用大型语言模型结合新颖的叙述特征，能够有效识别癌症患者患心力衰竭的风险，表现优于传统机器学习模型和深度学习模型。 |
 
 # 详细
 
-[^1]: 基于少样本推动推理的链式思维驱动LLMs用于开放式医学问题回答
+[^1]: 叙事特征还是结构特征？研究大型语言模型以识别患心力衰竭风险的癌症患者
 
-    Few shot chain-of-thought driven reasoning to prompt LLMs for open ended medical question answering
+    Narrative Feature or Structured Feature? A Study of Large Language Models to Identify Cancer Patients at Risk of Heart Failure
 
-    [https://arxiv.org/abs/2403.04890](https://arxiv.org/abs/2403.04890)
+    [https://arxiv.org/abs/2403.11425](https://arxiv.org/abs/2403.11425)
 
-    本文提出了基于少样本推动推理的链式思维驱动LLMs用于开放式医学问题回答，通过修改MedQA-USMLE数据集并采用奖励训练机制，实现了在医疗场景中正确响应临床问题的有效方法。
+    使用大型语言模型结合新颖的叙述特征，能够有效识别癌症患者患心力衰竭的风险，表现优于传统机器学习模型和深度学习模型。
 
     
 
-    大型语言模型（LLMs）已经展示了在转变医疗保健方面的巨大潜力，通过自动化诸如临床文档、信息检索和决策支持等任务。在这方面，精心设计的提示已经成为在医疗场景中使用LLMs的强大工具，例如患者临床场景。在本文中，我们提出了MedQA-USMLE数据集的修改版本，目的是模拟真实临床场景。我们探讨了基于主观响应生成的Chain of Thought（CoT）推理，用于修改后的MedQA-USMLE数据集，通过适当的LM驱动前向推理来获得正确的医学问题答案。考虑到在医疗环境中响应验证的重要性，我们利用奖励训练机制，其中语言模型还为特定的临床问题回应提供了适当的验证响应。
+    癌症治疗已知会引入心毒性，对预后和生存率产生负面影响。识别患心力衰竭（HF）风险的癌症患者对于改善癌症治疗结果和安全性至关重要。本研究使用来自电子健康记录（EHRs）的机器学习（ML）模型，包括传统ML、时间感知长短期记忆（T-LSTM）和使用从结构化医学代码衍生的新颖叙述特征的大型语言模型（LLMs）来识别患HF风险的癌症患者。我们从佛罗里达大学健康中心识别了一组包括12,806名肺癌、乳腺癌和结直肠癌患者的癌症队列，其中1,602人在癌症后发展为HF。LLM GatorTron-3.9B取得了最佳的F1分数，比传统支持向量机高出39%，比T-LSTM深度学习模型高出7%，比广泛使用的Transformer模型BERT高出5.6%。
 
-    arXiv:2403.04890v1 Announce Type: new  Abstract: Large Language models (LLMs) have demonstrated significant potential in transforming healthcare by automating tasks such as clinical documentation, information retrieval, and decision support. In this aspect, carefully engineered prompts have emerged as a powerful tool for using LLMs for medical scenarios, e.g., patient clinical scenarios. In this paper, we propose a modified version of the MedQA-USMLE dataset, which is subjective, to mimic real-life clinical scenarios. We explore the Chain of Thought (CoT) reasoning based on subjective response generation for the modified MedQA-USMLE dataset with appropriate LM-driven forward reasoning for correct responses to the medical questions. Keeping in mind the importance of response verification in the medical setting, we utilize a reward training mechanism whereby the language model also provides an appropriate verified response for a particular response to a clinical question. In this regard,
+    arXiv:2403.11425v1 Announce Type: cross  Abstract: Cancer treatments are known to introduce cardiotoxicity, negatively impacting outcomes and survivorship. Identifying cancer patients at risk of heart failure (HF) is critical to improving cancer treatment outcomes and safety. This study examined machine learning (ML) models to identify cancer patients at risk of HF using electronic health records (EHRs), including traditional ML, Time-Aware long short-term memory (T-LSTM), and large language models (LLMs) using novel narrative features derived from the structured medical codes. We identified a cancer cohort of 12,806 patients from the University of Florida Health, diagnosed with lung, breast, and colorectal cancers, among which 1,602 individuals developed HF after cancer. The LLM, GatorTron-3.9B, achieved the best F1 scores, outperforming the traditional support vector machines by 39%, the T-LSTM deep learning model by 7%, and a widely used transformer model, BERT, by 5.6%. The analysi
     
 
