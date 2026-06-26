@@ -1,1 +1,21 @@
-<rss version="2.0"><channel><title>Chat Arxiv q-fin</title><link>https://github.com/qhduan/cn-chat-arxiv</link><description>This is arxiv RSS feed for q-fin</description></channel></rss>
+<rss version="2.0"><channel><title>Chat Arxiv q-fin</title><link>https://github.com/qhduan/cn-chat-arxiv</link><description>This is arxiv RSS feed for q-fin</description><item><title>&#26412;&#25991;&#38024;&#23545;&#19981;&#21516;&#20132;&#26131;&#25104;&#26412;&#32467;&#26500;&#65292;&#36890;&#36807;&#21160;&#24577;&#35268;&#21010;&#21644;&#22855;&#24322;&#25668;&#21160;&#23637;&#24320;&#30340;&#26041;&#27861;&#65292;&#24471;&#20986;&#20102;&#32771;&#34385;CRRA&#25928;&#29992;&#19979;&#30340;&#26368;&#20248;&#25237;&#36164;&#19982;&#28040;&#36153;&#31574;&#30053;&#12290;</title><link>http://arxiv.org/abs/2304.07672</link><description>&lt;p&gt;
+CRRA&#25928;&#29992;&#19979;&#32771;&#34385;&#19981;&#21516;&#20132;&#26131;&#25104;&#26412;&#30340;&#26368;&#20248;&#25237;&#36164;&#21644;&#28040;&#36153;&#31574;&#30053;
+&lt;/p&gt;
+&lt;p&gt;
+Optimal Investment and Consumption Strategies with General and Linear Transaction Costs under CRRA Utility. (arXiv:2304.07672v1 [q-fin.PM])
+&lt;/p&gt;
+&lt;p&gt;
+http://arxiv.org/abs/2304.07672
+&lt;/p&gt;
+&lt;p&gt;
+&#26412;&#25991;&#38024;&#23545;&#19981;&#21516;&#20132;&#26131;&#25104;&#26412;&#32467;&#26500;&#65292;&#36890;&#36807;&#21160;&#24577;&#35268;&#21010;&#21644;&#22855;&#24322;&#25668;&#21160;&#23637;&#24320;&#30340;&#26041;&#27861;&#65292;&#24471;&#20986;&#20102;&#32771;&#34385;CRRA&#25928;&#29992;&#19979;&#30340;&#26368;&#20248;&#25237;&#36164;&#19982;&#28040;&#36153;&#31574;&#30053;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+&#22312;&#36164;&#20135;&#37197;&#32622;&#21644;&#32452;&#21512;&#31649;&#29702;&#20013;&#65292;&#20132;&#26131;&#25104;&#26412;&#22312;&#25237;&#36164;&#21644;&#28040;&#36153;&#31574;&#30053;&#20013;&#21457;&#25381;&#30528;&#33267;&#20851;&#37325;&#35201;&#30340;&#20316;&#29992;&#12290;&#25105;&#20204;&#24212;&#29992;&#21160;&#24577;&#35268;&#21010;&#21644;&#22855;&#24322;&#25668;&#21160;&#23637;&#24320;&#30340;&#26041;&#27861;&#65292;&#36890;&#36807;&#26368;&#22823;&#21270;&#27492;&#38382;&#39064;&#30340;&#26399;&#26395;CRRA&#65288;&#24658;&#23450;&#30456;&#23545;&#39118;&#38505;&#21388;&#24694;&#65289;&#25928;&#29992;&#20989;&#25968;&#65292;&#24471;&#20986;&#20102;&#38024;&#23545;&#20219;&#24847;&#20132;&#26131;&#25104;&#26412;&#32467;&#26500;&#30340;&#23567;&#20132;&#26131;&#25104;&#26412;&#30340;&#38381;&#21512;&#24335;&#30340;&#20027;&#23548;&#35299;&#12290;&#25105;&#20204;&#36824;&#35814;&#32454;&#35752;&#35770;&#20102;&#22266;&#23450;&#21644;&#27604;&#20363;&#20132;&#26131;&#25104;&#26412;&#37117;&#23384;&#22312;&#30340;&#24773;&#20917;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+Transaction costs play a critical role in asset allocation and consumption strategies in portfolio management. We apply the methods of dynamic programming and singular perturbation expansion to derive the closed-form leading solutions to this problem for small transaction costs with arbitrary transaction cost structure by maximizing the expected CRRA (constant relative risk aversion) utility function for this problem. We also discuss in detail the case which consists of both fixed and proportional transaction costs.
+&lt;/p&gt;</description></item></channel></rss>
