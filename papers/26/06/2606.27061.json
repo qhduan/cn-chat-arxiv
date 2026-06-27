@@ -1,0 +1,12 @@
+{
+    "title": "How to evaluate clustering with ground truth?",
+    "abstract": "arXiv:2606.27061v1 Announce Type: new  Abstract: External indexes can be used for cluster evaluation when ground truth is available. We review the most common external validity indexes focusing on set-matching-based measures. We recommend centroid index (CI), because it is an intuitive cluster-level measure with an explainable result. If we need a more fine-tuned, point-level measure, there are more choices. Pair-set index (PSI) provides a normalized score which is not biased by cluster sizes. If all points should matter equally, then clustering accuracy (ACC) or any other set-matching measure is suitable.",
+    "link": "https://arxiv.org/abs/2606.27061",
+    "context": "Title: How to evaluate clustering with ground truth?\nAbstract: arXiv:2606.27061v1 Announce Type: new  Abstract: External indexes can be used for cluster evaluation when ground truth is available. We review the most common external validity indexes focusing on set-matching-based measures. We recommend centroid index (CI), because it is an intuitive cluster-level measure with an explainable result. If we need a more fine-tuned, point-level measure, there are more choices. Pair-set index (PSI) provides a normalized score which is not biased by cluster sizes. If all points should matter equally, then clustering accuracy (ACC) or any other set-matching measure is suitable.",
+    "path": "papers/26/06/2606.27061.json",
+    "total_tokens": 512,
+    "translated_title": "如何利用真实标签评估聚类效果？",
+    "translated_abstract": "arXiv:2606.27061v1 公告类型：新 摘要：当拥有真实标签时，外部指标可用于聚类评估。我们回顾了最常用的外部有效性指标，重点关注基于集合匹配的度量方法。我们推荐使用质心指数（CI），因为它是一种直观的聚类级别度量，且结果具有可解释性。如果需要更精细的点级别度量，则有更多选择。成对集合指数（PSI）提供了一种不受聚类规模偏差影响的标准化分数。如果所有点应被同等重视，则聚类准确率（ACC）或任何其他集合匹配度量都是合适的。",
+    "tldr": "本文推荐了质心指数（CI）作为最直观且可解释的聚类外部评估指标，并指出在需要更精细的点级评估时，成对集合指数（PSI）或聚类准确率（ACC）等指标各有适用场景。",
+    "en_tdlr": "This paper recommends the Centroid Index (CI) as the most intuitive and explainable external clustering evaluation measure, while noting that for finer-grained point-level assessment, Pair-set Index (PSI) or Clustering Accuracy (ACC) are suitable depending on specific needs."
+}

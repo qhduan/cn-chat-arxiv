@@ -1,0 +1,12 @@
+{
+    "title": "Robust Hedging Valuation Adjustment under Liquidity--Demand Stress",
+    "abstract": "arXiv:2606.26731v1 Announce Type: new  Abstract: This paper develops a robust hedging valuation adjustment (HVA) measure for dynamic hedging. Simulated rebalancing and maturity-unwind trades generate a loss distribution for each no-trade-band rule, and we define robust HVA as the worst-case expected loss over a relative-entropy neighborhood of that distribution. Because band width affects turnover, the same relative-entropy radius applied to different bands can imply different levels of demand-liquidity stress. We distinguish a fixed-radius convention from a fixed benchmark-stress convention and show that wider no-trade bands lower rebalancing costs but raise hedge-error risk.",
+    "link": "https://arxiv.org/abs/2606.26731",
+    "context": "Title: Robust Hedging Valuation Adjustment under Liquidity--Demand Stress\nAbstract: arXiv:2606.26731v1 Announce Type: new  Abstract: This paper develops a robust hedging valuation adjustment (HVA) measure for dynamic hedging. Simulated rebalancing and maturity-unwind trades generate a loss distribution for each no-trade-band rule, and we define robust HVA as the worst-case expected loss over a relative-entropy neighborhood of that distribution. Because band width affects turnover, the same relative-entropy radius applied to different bands can imply different levels of demand-liquidity stress. We distinguish a fixed-radius convention from a fixed benchmark-stress convention and show that wider no-trade bands lower rebalancing costs but raise hedge-error risk.",
+    "path": "papers/26/06/2606.26731.json",
+    "total_tokens": 479,
+    "translated_title": "流动性需求压力下的稳健对冲估值调整",
+    "translated_abstract": "本文提出了一种针对动态对冲的稳健对冲估值调整（HVA）指标。模拟再平衡与到期平仓交易为每个无交易区间规则生成损失分布，我们将稳健HVA定义为该分布在相对熵邻域内的最坏情况期望损失。由于区间宽度影响交易周转率，相同的相对熵半径应用于不同区间可能意味着不同程度的流动性需求压力。我们区分了固定半径惯例与固定基准压力惯例，并表明更宽的无交易区间虽能降低再平衡成本，但会增加对冲误差风险。",
+    "tldr": "本文提出了一种在流动性需求压力下衡量动态对冲风险的稳健估值调整方法，通过相对熵邻域内的最坏情况期望损失来平衡再平衡成本与对冲误差风险。",
+    "en_tdlr": "This paper proposes a robust hedging valuation adjustment method under liquidity-demand stress, balancing rebalancing costs and hedge-error risk via worst-case expected loss within a relative-entropy neighborhood."
+}

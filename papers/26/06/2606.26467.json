@@ -1,0 +1,12 @@
+{
+    "title": "A Causal Foundation Model for Structure and Outcome Prediction",
+    "abstract": "arXiv:2606.26467v1 Announce Type: new  Abstract: We introduce TabPFN-CFM, a causal foundation model that can handle multiple causal problems. TabPFN-CFM predicts both causal structure and outcomes from observational data, supports queries on all three levels of Pearl's Causal Hierarchy and uses known graph structure when available to improve predictions. TabPFN-CFM is trained on synthetic datasets, and generalises to real datasets, demonstrating improved performance over both structural and outcome prediction baselines.",
+    "link": "https://arxiv.org/abs/2606.26467",
+    "context": "Title: A Causal Foundation Model for Structure and Outcome Prediction\nAbstract: arXiv:2606.26467v1 Announce Type: new  Abstract: We introduce TabPFN-CFM, a causal foundation model that can handle multiple causal problems. TabPFN-CFM predicts both causal structure and outcomes from observational data, supports queries on all three levels of Pearl's Causal Hierarchy and uses known graph structure when available to improve predictions. TabPFN-CFM is trained on synthetic datasets, and generalises to real datasets, demonstrating improved performance over both structural and outcome prediction baselines.",
+    "path": "papers/26/06/2606.26467.json",
+    "total_tokens": 413,
+    "translated_title": "一种用于结构与结果预测的因果基础模型",
+    "translated_abstract": "我们引入了TabPFN-CFM，这是一个能够处理多种因果问题的因果基础模型。TabPFN-CFM可以从观测数据中预测因果结构和结果，支持Pearl因果层级中所有三个层面的查询，并在已知图结构可用时利用其改进预测。该模型在合成数据集上训练，并能泛化到真实数据集，在结构预测和结果预测基准上均展现出优于基线的性能。",
+    "tldr": "本文提出了一种基于合成数据训练、能同时预测因果结构与结果并支持多层级因果查询的通用因果基础模型TabPFN-CFM。",
+    "en_tdlr": "This paper introduces TabPFN-CFM, a causal foundation model trained on synthetic data that simultaneously predicts causal structure and outcomes while supporting multi-level causal queries."
+}

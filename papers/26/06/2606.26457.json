@@ -1,0 +1,12 @@
+{
+    "title": "A probabilistic framework for online test-time adaptation",
+    "abstract": "arXiv:2606.26457v1 Announce Type: cross  Abstract: This paper presents a probabilistic framework for online test-time adaptation problems. In them, a model is trained on labeled data but must adapt to unlabeled data at test time under the assumption that training and test distributions potentially differ, that is, there might have been a distributional shift. The framework is based on a state-space modelling architecture from which parameter learning, parameter time evolution, prior tuning, and prediction can be characterized.",
+    "link": "https://arxiv.org/abs/2606.26457",
+    "context": "Title: A probabilistic framework for online test-time adaptation\nAbstract: arXiv:2606.26457v1 Announce Type: cross  Abstract: This paper presents a probabilistic framework for online test-time adaptation problems. In them, a model is trained on labeled data but must adapt to unlabeled data at test time under the assumption that training and test distributions potentially differ, that is, there might have been a distributional shift. The framework is based on a state-space modelling architecture from which parameter learning, parameter time evolution, prior tuning, and prediction can be characterized.",
+    "path": "papers/26/06/2606.26457.json",
+    "total_tokens": 383,
+    "translated_title": "在线测试时自适应的概率框架",
+    "translated_abstract": "本文提出了一种用于在线测试时自适应问题的概率框架。在该问题中，模型基于标注数据进行训练，但必须在测试时适应未标注数据，且假设训练分布与测试分布可能存在差异，即可能存在分布偏移。该框架基于状态空间建模架构，可对参数学习、参数时间演化、先验调优以及预测进行系统刻画。",
+    "tldr": "提出了一种基于状态空间模型的概率框架，用于在线测试时自适应，以应对训练与测试分布之间的偏移。",
+    "en_tdlr": "A probabilistic framework based on state-space modeling is proposed for online test-time adaptation to handle distributional shifts between training and test data."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Note on the size of a stable matching",
+    "abstract": "arXiv:2505.24637v2 Announce Type: replace  Abstract: Consider a one-to-one two-sided matching market with workers on one side and single-position firms on the other, and suppose that the largest individually rational matching contains $n$ pairs. We show that the number of workers employed and positions filled in every stable matching is bounded from below by $\\lceil\\frac{n}{2}\\rceil$ and we characterise the class of preferences that attain the bound. We then identify the minimum number of equilibrium pairings that must be ``sacrificed'' when maximising the employment rate is the objective; if each stable matching is of size $\\ceiling{\\frac{n}{2}}$, then no such pairs appear when all vacancies are filled.",
+    "link": "https://arxiv.org/abs/2505.24637",
+    "context": "Title: Note on the size of a stable matching\nAbstract: arXiv:2505.24637v2 Announce Type: replace  Abstract: Consider a one-to-one two-sided matching market with workers on one side and single-position firms on the other, and suppose that the largest individually rational matching contains $n$ pairs. We show that the number of workers employed and positions filled in every stable matching is bounded from below by $\\lceil\\frac{n}{2}\\rceil$ and we characterise the class of preferences that attain the bound. We then identify the minimum number of equilibrium pairings that must be ``sacrificed'' when maximising the employment rate is the objective; if each stable matching is of size $\\ceiling{\\frac{n}{2}}$, then no such pairs appear when all vacancies are filled.",
+    "path": "papers/25/05/2505.24637.json",
+    "total_tokens": 513,
+    "translated_title": "关于稳定匹配规模的一个注记",
+    "translated_abstract": "考虑一个一对一的双边匹配市场，其中一方为工人，另一方为单一职位企业，并假设最大的个体理性匹配包含 $n$ 对。我们证明，每个稳定匹配中就业工人和职位填补的数量下限为 $\\lceil\\frac{n}{2}\\rceil$，并刻画了达到这一下限的偏好类别。随后，我们确定了在最大化就业率目标下必须“牺牲”的最小均衡配对数量；如果每个稳定匹配的规模为 $\\lceil\\frac{n}{2}\\rceil$，则当所有空缺职位被填补时，不会出现这样的配对。",
+    "tldr": "本文证明稳定匹配的规模下限为最大个体理性匹配的一半，并刻画了达到该下限的偏好类别，同时分析了最大化就业率时需牺牲的最小均衡配对数量。",
+    "en_tdlr": "This paper proves that the size of any stable matching is at least half of the largest individually rational matching, characterizes the preference classes achieving this bound, and identifies the minimum number of equilibrium pairings sacrificed when maximizing employment."
+}

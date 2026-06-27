@@ -1,0 +1,12 @@
+{
+    "title": "Volatility time series modeling by single-qubit quantum circuit learning",
+    "abstract": "arXiv:2512.10584v3 Announce Type: replace  Abstract: We employ single-qubit quantum circuit learning (QCL) to model the dynamics of volatility time series. To assess its effectiveness, we generate synthetic data using the Rational GARCH model, which is specifically designed to capture volatility asymmetry. Our results show that QCL-based volatility predictions preserve the negative return-volatility correlation, a hallmark of asymmetric volatility dynamics. Moreover, analysis of the Hurst exponent and multifractal characteristics indicates that the predicted series, like the original synthetic data, exhibits anti-persistent behavior and retains its multifractal structure.",
+    "link": "https://arxiv.org/abs/2512.10584",
+    "context": "Title: Volatility time series modeling by single-qubit quantum circuit learning\nAbstract: arXiv:2512.10584v3 Announce Type: replace  Abstract: We employ single-qubit quantum circuit learning (QCL) to model the dynamics of volatility time series. To assess its effectiveness, we generate synthetic data using the Rational GARCH model, which is specifically designed to capture volatility asymmetry. Our results show that QCL-based volatility predictions preserve the negative return-volatility correlation, a hallmark of asymmetric volatility dynamics. Moreover, analysis of the Hurst exponent and multifractal characteristics indicates that the predicted series, like the original synthetic data, exhibits anti-persistent behavior and retains its multifractal structure.",
+    "path": "papers/25/12/2512.10584.json",
+    "total_tokens": 465,
+    "translated_title": "基于单量子比特电路学习的波动率时间序列建模",
+    "translated_abstract": "我们采用单量子比特电路学习（QCL）来建模波动率时间序列的动态特性。为评估其有效性，我们利用专门设计用于捕捉波动率非对称性的理性GARCH模型生成合成数据。结果表明，基于QCL的波动率预测保留了负收益-波动率相关性，这是非对称波动率动态的典型特征。此外，对赫斯特指数和多重分形特征的分析表明，预测序列与原始合成数据一样，表现出反持续性行为并保留了其多重分形结构。",
+    "tldr": "本文通过单量子比特电路学习成功建模了波动率时间序列的非对称动态特性，并验证了预测结果在相关性和分形结构上的保真性。",
+    "en_tdlr": "This paper successfully models asymmetric volatility dynamics in time series using single-qubit quantum circuit learning, and validates the fidelity of predictions in terms of correlation and fractal structure."
+}

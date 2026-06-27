@@ -1,0 +1,12 @@
+{
+    "title": "Clinical Harness for Governable Medical AI Skill Ecosystems",
+    "abstract": "arXiv:2606.26494v1 Announce Type: new  Abstract: Medical AI remains organized around isolated models, whereas clinical care requires accountable capabilities that persist across time. We propose clinical AI skills and the Clinical Harness: a runtime governance architecture for registering, orchestrating, guarding and monitoring AI-enabled clinical capabilities. Using osteoporosis as an exemplar, we show how knowledge-driven, data-driven and physics-enhanced skills can support lifecycle care under runtime governance.",
+    "link": "https://arxiv.org/abs/2606.26494",
+    "context": "Title: Clinical Harness for Governable Medical AI Skill Ecosystems\nAbstract: arXiv:2606.26494v1 Announce Type: new  Abstract: Medical AI remains organized around isolated models, whereas clinical care requires accountable capabilities that persist across time. We propose clinical AI skills and the Clinical Harness: a runtime governance architecture for registering, orchestrating, guarding and monitoring AI-enabled clinical capabilities. Using osteoporosis as an exemplar, we show how knowledge-driven, data-driven and physics-enhanced skills can support lifecycle care under runtime governance.",
+    "path": "papers/26/06/2606.26494.json",
+    "total_tokens": 428,
+    "translated_title": "可治理医疗AI技能生态系统的临床管控框架",
+    "translated_abstract": "arXiv:2606.26494v1 公告类型：新论文 摘要：医疗人工智能目前仍围绕孤立模型组织，而临床护理需要跨时间持续存在的可问责能力。我们提出临床AI技能与临床管控框架：一种用于注册、编排、防护和监控AI驱动临床能力的运行时治理架构。以骨质疏松症为例，我们展示了知识驱动、数据驱动和物理增强的技能如何在运行时治理下支持全生命周期护理。",
+    "tldr": "本文提出一种名为“临床管控框架”的运行时治理架构，通过注册、编排、防护和监控AI技能，解决医疗AI模型孤立化问题，并以骨质疏松症为例验证其在全生命周期护理中的有效性。",
+    "en_tdlr": "This paper proposes a \"Clinical Harness\" runtime governance architecture that registers, orchestrates, guards, and monitors AI skills to address the isolation of medical AI models, validated through osteoporosis lifecycle care."
+}

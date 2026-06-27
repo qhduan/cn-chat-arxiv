@@ -1,0 +1,12 @@
+{
+    "title": "What We are Missing in Multimodal LLM Evaluation?",
+    "abstract": "arXiv:2606.26348v1 Announce Type: new  Abstract: Multimodal large language models (MLLMs) can process diverse inputs, e.g., text, images, audio, and video, and generate textual responses. While their capabilities have advanced rapidly, evaluation of such models has not kept pace. Most existing evaluation benchmarks are limited to isolated tasks and reveal little about whether a model integrates information across modalities. We examine current means for evaluating MLLMs and review the existing benchmark taxonomy to identify gaps, including temporal-spatial coherence, physical world understanding, multimodal consistency, and selective attention. Addressing these gaps is essential for measuring real progress in multimodal intelligence and exposing capability boundaries.",
+    "link": "https://arxiv.org/abs/2606.26348",
+    "context": "Title: What We are Missing in Multimodal LLM Evaluation?\nAbstract: arXiv:2606.26348v1 Announce Type: new  Abstract: Multimodal large language models (MLLMs) can process diverse inputs, e.g., text, images, audio, and video, and generate textual responses. While their capabilities have advanced rapidly, evaluation of such models has not kept pace. Most existing evaluation benchmarks are limited to isolated tasks and reveal little about whether a model integrates information across modalities. We examine current means for evaluating MLLMs and review the existing benchmark taxonomy to identify gaps, including temporal-spatial coherence, physical world understanding, multimodal consistency, and selective attention. Addressing these gaps is essential for measuring real progress in multimodal intelligence and exposing capability boundaries.",
+    "path": "papers/26/06/2606.26348.json",
+    "total_tokens": 504,
+    "translated_title": "多模态大语言模型评估中我们遗漏了什么？",
+    "translated_abstract": "多模态大语言模型（MLLMs）能够处理多种输入，例如文本、图像、音频和视频，并生成文本响应。尽管它们的能力迅速提升，但对这类模型的评估却未能跟上步伐。大多数现有的评估基准仅限于孤立的任务，并且几乎无法揭示模型是否在不同模态之间整合信息。我们审视了当前评估MLLMs的方法，并回顾了现有的基准分类体系，以识别其中的空白，包括时空连贯性、物理世界理解、多模态一致性以及选择性注意力。解决这些空白对于衡量多模态智能的实际进展和揭示能力边界至关重要。",
+    "tldr": "本文指出现有多模态大语言模型评估基准在时空连贯性、物理世界理解、多模态一致性和选择性注意力方面存在关键空白，这些空白阻碍了对其真实多模态整合能力的衡量。",
+    "en_tdlr": "This paper identifies key gaps in existing multimodal LLM evaluation benchmarks, including temporal-spatial coherence, physical world understanding, multimodal consistency, and selective attention, which hinder the measurement of true multimodal integration capabilities."
+}

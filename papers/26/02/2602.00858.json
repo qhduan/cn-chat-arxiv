@@ -1,0 +1,12 @@
+{
+    "title": "Short-Rate-Dependent Volatility Models",
+    "abstract": "arXiv:2602.00858v3 Announce Type: replace  Abstract: We price European options in a class of models in which the volatility of the underlying risky asset depends on the short rate of interest. Our study results in an explicit pricing formula that is expressed in terms of a characteristic function. We provide examples of models in which the characteristic function can be computed analytically and, thus, the value of European options is explicit. Numerical implementation to produce the implied volatility is also presented.",
+    "link": "https://arxiv.org/abs/2602.00858",
+    "context": "Title: Short-Rate-Dependent Volatility Models\nAbstract: arXiv:2602.00858v3 Announce Type: replace  Abstract: We price European options in a class of models in which the volatility of the underlying risky asset depends on the short rate of interest. Our study results in an explicit pricing formula that is expressed in terms of a characteristic function. We provide examples of models in which the characteristic function can be computed analytically and, thus, the value of European options is explicit. Numerical implementation to produce the implied volatility is also presented.",
+    "path": "papers/26/02/2602.00858.json",
+    "total_tokens": 373,
+    "translated_title": "短期利率依赖的波动率模型",
+    "translated_abstract": "我们在风险资产的波动率依赖于短期利率的一类模型中为欧式期权定价。我们的研究得到了一个用特征函数表示的显式定价公式。我们提供了特征函数可以解析计算的模型示例，因此欧式期权的价值是显式的。同时还给出了生成隐含波动率的数值实现方法。",
+    "tldr": "本文提出了一种在波动率依赖短期利率的模型下，通过特征函数显式定价欧式期权的方法，并给出了数值实现。",
+    "en_tdlr": "This paper proposes an explicit pricing method for European options in models where volatility depends on the short rate, using characteristic functions, with numerical implementation provided."
+}

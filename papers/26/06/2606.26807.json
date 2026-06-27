@@ -1,0 +1,12 @@
+{
+    "title": "KARLA: Knowledge-base Augmented Retrieval for Language Models",
+    "abstract": "arXiv:2606.26807v1 Announce Type: new  Abstract: We propose a new method that allows an LLM to automatically pull in factual knowledge from a knowledge base during token generation. This means that (1)~factual knowledge in the LLM output can be updated without retraining the LLM, (2)~facts in the LLM output can be traced to the knowledge base for transparency and explainability, and (3)~smaller models can achieve the same factual accuracy as larger models. Our core idea is to train the model to produce special tokens that trigger a query to the knowledge base. Our experiments show that our method improves factual grounding in both short and long-form generation, and allows factual revisions to take effect through KB edits rather than parameter updates.",
+    "link": "https://arxiv.org/abs/2606.26807",
+    "context": "Title: KARLA: Knowledge-base Augmented Retrieval for Language Models\nAbstract: arXiv:2606.26807v1 Announce Type: new  Abstract: We propose a new method that allows an LLM to automatically pull in factual knowledge from a knowledge base during token generation. This means that (1)~factual knowledge in the LLM output can be updated without retraining the LLM, (2)~facts in the LLM output can be traced to the knowledge base for transparency and explainability, and (3)~smaller models can achieve the same factual accuracy as larger models. Our core idea is to train the model to produce special tokens that trigger a query to the knowledge base. Our experiments show that our method improves factual grounding in both short and long-form generation, and allows factual revisions to take effect through KB edits rather than parameter updates.",
+    "path": "papers/26/06/2606.26807.json",
+    "total_tokens": 539,
+    "translated_title": "KARLA：面向语言模型的知识库增强检索方法",
+    "translated_abstract": "arXiv:2606.26807v1 公告类型：新论文 摘要：我们提出了一种新方法，使大语言模型在生成令牌的过程中能够自动从知识库中提取事实性知识。这意味着：（1）无需重新训练LLM即可更新其输出中的事实性知识；（2）LLM输出中的事实可以追溯到知识库，从而实现透明性和可解释性；（3）较小的模型可以达到与较大模型相同的事实准确性。我们的核心思想是训练模型生成特殊令牌，这些令牌会触发对知识库的查询。实验表明，我们的方法在短文本和长文本生成中均改善了事实基础，并且通过知识库编辑而非参数更新即可实现事实性修订。",
+    "tldr": "本文提出一种通过训练模型生成特殊令牌来触发知识库查询的方法，使LLM无需重训即可更新事实知识，并提升小模型的事实准确性。",
+    "en_tdlr": "This paper proposes a method that trains models to generate special tokens for triggering knowledge base queries, enabling LLMs to update factual knowledge without retraining and improving factual accuracy in smaller models."
+}
