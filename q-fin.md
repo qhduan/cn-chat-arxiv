@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Robust Hedging Valuation Adjustment under Liquidity--Demand Stress](https://arxiv.org/abs/2606.26731) | 本文提出了一种在流动性需求压力下衡量动态对冲风险的稳健估值调整方法，通过相对熵邻域内的最坏情况期望损失来平衡再平衡成本与对冲误差风险。 |
-| [^2] | ["Generate" the Future of Work through AI: Empirical Evidence from Online Labor Markets.](http://arxiv.org/abs/2308.05201) | 这项研究通过利用ChatGPT作为外生冲击，揭示了其对在线劳动市场的影响。结果显示，直接接触ChatGPT的任务和自由职业者的交易量显著下降，但适应新技术并提供增强人工智能的服务的自由职业者仍能获得利益。 |
+| [^1] | [The Growing Self-Reliance of Chinese Innovation](https://arxiv.org/abs/2606.26470) | 通过分析中国发明专利与全球科学文献的关联，发现中国创新对美国科学的依赖大幅下降，本土科学贡献已超越美国，表明限制政策已不符合美国实际战略地位。 |
+| [^2] | [Large (and Deep) Factor Models](https://arxiv.org/abs/2402.06635) | 本文通过证明一个足够宽而任意深的神经网络训练出来的投资组合优化模型与大型因子模型等效，打开了深度学习在此领域中的黑盒子，并提供了一种封闭形式的推导方法。研究实证了不同架构选择对模型性能的影响，并证明了随着深度增加，模型在足够多数据下的表现逐渐提升，直至达到饱和。 |
 
 # 详细
 
-[^1]: 流动性需求压力下的稳健对冲估值调整
+[^1]: 中国创新日益增强的自主性
 
-    Robust Hedging Valuation Adjustment under Liquidity--Demand Stress
+    The Growing Self-Reliance of Chinese Innovation
 
-    [https://arxiv.org/abs/2606.26731](https://arxiv.org/abs/2606.26731)
+    [https://arxiv.org/abs/2606.26470](https://arxiv.org/abs/2606.26470)
 
-    本文提出了一种在流动性需求压力下衡量动态对冲风险的稳健估值调整方法，通过相对熵邻域内的最坏情况期望损失来平衡再平衡成本与对冲误差风险。
-
-    
-
-    本文提出了一种针对动态对冲的稳健对冲估值调整（HVA）指标。模拟再平衡与到期平仓交易为每个无交易区间规则生成损失分布，我们将稳健HVA定义为该分布在相对熵邻域内的最坏情况期望损失。由于区间宽度影响交易周转率，相同的相对熵半径应用于不同区间可能意味着不同程度的流动性需求压力。我们区分了固定半径惯例与固定基准压力惯例，并表明更宽的无交易区间虽能降低再平衡成本，但会增加对冲误差风险。
-
-    arXiv:2606.26731v1 Announce Type: new  Abstract: This paper develops a robust hedging valuation adjustment (HVA) measure for dynamic hedging. Simulated rebalancing and maturity-unwind trades generate a loss distribution for each no-trade-band rule, and we define robust HVA as the worst-case expected loss over a relative-entropy neighborhood of that distribution. Because band width affects turnover, the same relative-entropy radius applied to different bands can imply different levels of demand-liquidity stress. We distinguish a fixed-radius convention from a fixed benchmark-stress convention and show that wider no-trade bands lower rebalancing costs but raise hedge-error risk.
-    
-[^2]: 通过人工智能"生成"工作：在线劳动市场的经验证据
-
-    "Generate" the Future of Work through AI: Empirical Evidence from Online Labor Markets. (arXiv:2308.05201v1 [cs.AI])
-
-    [http://arxiv.org/abs/2308.05201](http://arxiv.org/abs/2308.05201)
-
-    这项研究通过利用ChatGPT作为外生冲击，揭示了其对在线劳动市场的影响。结果显示，直接接触ChatGPT的任务和自由职业者的交易量显著下降，但适应新技术并提供增强人工智能的服务的自由职业者仍能获得利益。
+    通过分析中国发明专利与全球科学文献的关联，发现中国创新对美国科学的依赖大幅下降，本土科学贡献已超越美国，表明限制政策已不符合美国实际战略地位。
 
     
 
-    随着通用生成式人工智能的出现，对其对劳动市场的影响的兴趣不断增加。为了填补现有的实证空白，我们将ChatGPT的推出解释为一种外生冲击，并采用差异法来量化其对在线劳动市场中与文本相关的工作和自由职业者的影响。我们的结果显示，直接接触ChatGPT的任务和自由职业者的交易量显著下降。此外，这种下降在相对较高的过去交易量或较低的质量标准下尤为显著。然而，并非所有服务提供商都普遍经历了负面影响。随后的分析表明，在这个转型期间，能够适应新进展并提供增强人工智能技术的服务的自由职业者可以获得可观的利益。因此，虽然ChatGPT的出现有可能替代人力劳动
+    arXiv:2606.26470v1 公告类型：新 摘要：美国政策日益试图通过限制中国获取美国科学成果来减缓其技术崛起，其假设前提是中国创新依赖美国科学。通过将中国全部发明专利与全球科学文献进行关联分析，我们发现这种依赖近年来正在下降：中国专利背后所依赖的中国本土科学成果占比从2000年的1%上升至2025年的26%，并于2021年超过美国所占份额。随着中国对美国科学成果依赖程度的减弱，限制获取的政策已与美国实际战略地位不相匹配。
 
-    With the advent of general-purpose Generative AI, the interest in discerning its impact on the labor market escalates. In an attempt to bridge the extant empirical void, we interpret the launch of ChatGPT as an exogenous shock, and implement a Difference-in-Differences (DID) approach to quantify its influence on text-related jobs and freelancers within an online labor marketplace. Our results reveal a significant decrease in transaction volume for gigs and freelancers directly exposed to ChatGPT. Additionally, this decline is particularly marked in units of relatively higher past transaction volume or lower quality standards. Yet, the negative effect is not universally experienced among service providers. Subsequent analyses illustrate that freelancers proficiently adapting to novel advancements and offering services that augment AI technologies can yield substantial benefits amidst this transformative period. Consequently, even though the advent of ChatGPT could conceivably substitute
+    arXiv:2606.26470v1 Announce Type: new  Abstract: U.S. policy increasingly seeks to slow China's technological rise by restricting its access to American science, on the assumption that Chinese innovation depends on U.S. science. Linking the full corpus of Chinese invention patents to the global scientific literature, we show that this dependence has fallen in recent years: the share of the China-produced science behind Chinese patents rose from 1% in 2000 to 26% in 2025, overtaking the U.S. share in 2021. As China's reliance on U.S.-produced science fades, policies restricting access fall out of alignment with the U.S.' actual strategic position.
+    
+[^2]: 大型（和深度）因子模型
+
+    Large (and Deep) Factor Models
+
+    [https://arxiv.org/abs/2402.06635](https://arxiv.org/abs/2402.06635)
+
+    本文通过证明一个足够宽而任意深的神经网络训练出来的投资组合优化模型与大型因子模型等效，打开了深度学习在此领域中的黑盒子，并提供了一种封闭形式的推导方法。研究实证了不同架构选择对模型性能的影响，并证明了随着深度增加，模型在足够多数据下的表现逐渐提升，直至达到饱和。
+
+    
+
+    我们打开了深度学习在投资组合优化中的黑盒子，并证明了一个足够宽而任意深的神经网络(DNN)被训练用来最大化随机贴现因子(SDF)的夏普比率等效于一个大型因子模型(LFM)：一个使用许多非线性特征的线性因子定价模型。这些特征的性质取决于DNN的体系结构，在一种明确可追踪的方式下。这使得首次可以推导出封闭形式的端到端训练的基于DNN的SDF。我们通过实证评估了LFMs，并展示了各种架构选择如何影响SDF的性能。我们证明了深度复杂性的优点：随着足够多的数据，DNN-SDF的外样总体表现会随着神经网络的深度而增加，当隐藏层达到约100层时达到饱和。
+
+    We open up the black box behind Deep Learning for portfolio optimization and prove that a sufficiently wide and arbitrarily deep neural network (DNN) trained to maximize the Sharpe ratio of the Stochastic Discount Factor (SDF) is equivalent to a large factor model (LFM): A linear factor pricing model that uses many non-linear characteristics. The nature of these characteristics depends on the architecture of the DNN in an explicit, tractable fashion. This makes it possible to derive end-to-end trained DNN-based SDFs in closed form for the first time. We evaluate LFMs empirically and show how various architectural choices impact SDF performance. We document the virtue of depth complexity: With enough data, the out-of-sample performance of DNN-SDF is increasing in the NN depth, saturating at huge depths of around 100 hidden layers.
     
 
