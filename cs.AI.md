@@ -2,127 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Heavy-Ball Q-Learning with Residual Weighting Correction](https://arxiv.org/abs/2606.27112) | 本文提出了一种带残差加权校正的重球Q学习方法，通过切换线性系统视角证明了其收敛性和加速效果，并扩展到了线性函数逼近场景。 |
-| [^2] | [Multipath Adaptive Gated Bottleneck Latent ODE with Raman Data Fusion for Cell Culture Process Forecasting](https://arxiv.org/abs/2606.26520) | 提出了一种结合门控瓶颈潜在常微分方程与多路径即时微调的自适应框架，通过变量级门控和掩码感知瓶颈机制有效处理高维稀疏数据，实现了对细胞培养过程的多日早期预测。 |
-| [^3] | [Hybrid privacy-aware semantic search: SVD-truncated document geometry and CKKS-encrypted query reranking under a restricted threat model](https://arxiv.org/abs/2606.26373) | 本文提出一种混合隐私保护语义搜索方法，通过SVD截断和秘密正交变换保护文档集合，利用CKKS同态加密保护查询，在受限威胁模型下平衡了安全性与效率。 |
-| [^4] | [Autodata: An agentic data scientist to create high quality synthetic data](https://arxiv.org/abs/2606.25996) | 本文提出了一种名为Autodata的通用方法，通过训练AI智能体作为自主数据科学家，并对其进行元优化，从而在多个任务上生成比传统方法更高质量的合成数据，显著提升模型性能。 |
-| [^5] | [To Use AI as Dice of Possibilities with Timing Computation](https://arxiv.org/abs/2605.01134) | 本文提出了一种基于动词范式的因果推理框架，通过时间计算与因果事实定义，使AI能够从数据中自动发现临床轨迹并进行反事实推理，在乳腺癌患者数据上首次实现了纯数据驱动的因果世界模型。 |
-| [^6] | [CausalChaos! Dataset for Comprehensive Causal Action Question Answering Over Longer Causal Chains Grounded in Dynamic Visual Scenes](https://arxiv.org/abs/2404.01299) | 利用卡通图像构建的CausalChaos!数据集，包含更长因果链的因果问答，通过动态互动和视觉展示挑战性因果关系，为模型提供了更多具挑战性且明确定义的因果关系。 |
-| [^7] | [Graph Unitary Message Passing](https://arxiv.org/abs/2403.11199) | 提出了一种名为GUMP的图单元消息传递方法，通过应用单元邻接矩阵来缓解图神经网络中的过度压缩问题。 |
-| [^8] | [Learning to Visually Connect Actions and their Effects.](http://arxiv.org/abs/2401.10805) | 该论文提出了视觉连接动作和其效果的概念（CATE），用于视频理解。研究表明，不同的任务形式产生了捕捉直观动作特性的表示，但模型表现不佳，人类的表现明显优于它们。该研究为未来的努力奠定了基础，并希望能激发出高级形式和模型的灵感。 |
+| [^1] | [CARVE: Content-Aware Recurrent with Value Efficiency for Chunk-Parallel Linear Attention](https://arxiv.org/abs/2606.27229) | CARVE通过仅在键轴上擦除的单一原则，解决了递归模型中的记忆盲区门控、参数浪费和WY形式求解器失效三个问题，实现了高效的内容感知递归线性注意力。 |
+| [^2] | [Application of LLMs to Threat Assessment of Foreign Peacekeeping Missions](https://arxiv.org/abs/2606.27106) | 本文提出了一种结合跨学科风险模型、开源情报媒体收集和大语言模型的新方法，用于维和任务的威胁评估，验证了其自动结果与人类判断的高度一致性。 |
+| [^3] | [The Inattentional Gap: Task-Conditioned Language and Vision Models Omit the Safety-Critical Signals They Can Otherwise Report](https://arxiv.org/abs/2606.26529) | 论文发现，当语言或视觉模型被限定于特定任务时，会系统性地抑制报告同时出现的其他安全关键信号，导致基准测试安全性与真实安全性脱钩。 |
+| [^4] | [Accelerating Returns and the Qualitative Engine for Science](https://arxiv.org/abs/2606.26359) | 本文指出，即使技术进步呈现加速回报的指数增长趋势，这主要提升执行和基础设施能力，而科学发现的核心——识别框架结构缺陷并进行概念创新——依赖于不同的定性推理能力，人类在这方面仍具优势。 |
+| [^5] | [An LLM-Native Psychometric Instrument Does Not Predict LLM Behavior: Evidence Across 25 Models](https://arxiv.org/abs/2606.09843) | 本研究构建了首个从LLM行为中自下而上推导的心理测量工具，发现其维度（响应性、服从性、大胆性、谨慎性和冗长性）高度可靠，但LLM的自我报告仍无法预测其实际行为，表明人类特质类别与LLM行为之间存在根本性差异。 |
 
 # 详细
 
-[^1]: 带残差加权校正的重球Q学习
+[^1]: CARVE：面向分块并行线性注意力的内容感知递归与价值效率模型
 
-    Heavy-Ball Q-Learning with Residual Weighting Correction
+    CARVE: Content-Aware Recurrent with Value Efficiency for Chunk-Parallel Linear Attention
 
-    [https://arxiv.org/abs/2606.27112](https://arxiv.org/abs/2606.27112)
+    [https://arxiv.org/abs/2606.27229](https://arxiv.org/abs/2606.27229)
 
-    本文提出了一种带残差加权校正的重球Q学习方法，通过切换线性系统视角证明了其收敛性和加速效果，并扩展到了线性函数逼近场景。
-
-    
-
-    本文提出了一种用于强化学习的校正重球Q学习方法，并证明了其收敛性。同时，文章识别了该方法在理论上保证比标准Q学习收敛更快的条件。随后，相同的构造被扩展到线性函数逼近的Q学习中，并推导出了类似的收敛性和加速结论。该分析基于Q学习算法的切换线性系统表示以及相关切换族的联合谱半径。这种切换线性系统视角在标准Q学习分析中并不常用，它为理解重球动量如何加速Q学习提供了补充框架和新的见解。
-
-    arXiv:2606.27112v1 Announce Type: cross  Abstract: This paper proposes a corrected heavy-ball Q-learning method for reinforcement learning (RL) and establishes its convergence. It also identifies conditions under which the method is theoretically guaranteed to converge faster than standard Q-learning. The same construction is then extended to Q-learning with linear function approximation, where analogous convergence and acceleration statements are derived. The analysis is based on a switched linear system (SLS) representation of Q-learning algorithms and on the joint spectral radius (JSR) of the associated switching families. This SLS viewpoint is not commonly used in standard analyses of Q-learning, and it provides a complementary framework and new insight into how heavy-ball momentum can accelerate Q-learning.
-    
-[^2]: 基于多路径自适应门控瓶颈潜在常微分方程与拉曼数据融合的细胞培养过程预测方法
-
-    Multipath Adaptive Gated Bottleneck Latent ODE with Raman Data Fusion for Cell Culture Process Forecasting
-
-    [https://arxiv.org/abs/2606.26520](https://arxiv.org/abs/2606.26520)
-
-    提出了一种结合门控瓶颈潜在常微分方程与多路径即时微调的自适应框架，通过变量级门控和掩码感知瓶颈机制有效处理高维稀疏数据，实现了对细胞培养过程的多日早期预测。
+    CARVE通过仅在键轴上擦除的单一原则，解决了递归模型中的记忆盲区门控、参数浪费和WY形式求解器失效三个问题，实现了高效的内容感知递归线性注意力。
 
     
 
-    哺乳动物细胞培养过程是许多生物制药生产的基础，但保持过程稳定运行十分困难：关键工艺参数会随时间漂移，而偏离规格的趋势往往在确认时已为时过晚，无法及时干预。早期的多日预测能够实现对补料、采样和控制的及时调整，但生物过程预测面临诸多挑战：测量数据稀疏且采样时间不规则，不同细胞系和培养基的操作条件存在异质性，且初始行为几乎相同的运行过程可能走向截然不同的未来结果。为此，我们提出了一种自适应框架，将门控瓶颈潜在常微分方程与多路径即时微调相结合。门控瓶颈潜在常微分方程通过可学习的变量级门控和掩码感知瓶颈机制对标准潜在常微分方程进行增强，能够压缩高维稀疏输入，从而在有限数据条件下提升学习效果。
+    arXiv:2606.27229v1 公告类型：跨领域 摘要：递归模型必须通过遗忘来记住，然而现有技术决定遗忘什么时并不参考已存储的内容——门控机制仅看到当前到达的标记，而非即将修改的记忆。这种记忆盲区门控是当前主流delta规则架构（GDN-2）中三个相互耦合的缺陷之一：价值轴擦除掩码在价值投影的尺度上浪费参数，并且——正如我们所证明的——在数学上阻碍了使递归训练与Transformer相媲美的WY形式三角分块求解器。我们提出CARVE（内容感知递归与价值效率模型），通过一个原则解决所有三个问题：仅在键轴上擦除。这在数学上被证明是WY形式求解器保持有效的必要且充分条件。在此框架下，CARVE复用已写入GPU内存的递归输出张量作为擦除门控的免费内容信号，并替换逐值写入门控。
 
-    arXiv:2606.26520v1 Announce Type: cross  Abstract: Mammalian cell-culture processes underpin the manufacture of many biopharmaceuticals, yet keeping a run on track is hard: critical process parameters drift over days, and an off-specification trend is often confirmed too late to intervene. Early-stage, multi-day forecasts could enable timely adjustment of feeding, sampling, and control, but bioprocess forecasting is challenging because measurements are sparse and irregularly sampled, operating conditions are heterogeneous across cell lines and media, and runs with near-identical early behaviour can diverge into different futures. We propose an adaptive framework combining a Gated Bottleneck Latent Ordinary Differential Equation (GB-Latent ODE) with Multi-Path Just-In-Time Fine Tuning (MP-JIT-FT). The GB-Latent ODE augments the stan dard Latent ODE with learnable variable-wise gating and a mask-aware bottleneck that compress high-dimensional sparse inputs, improving learning under limit
+    arXiv:2606.27229v1 Announce Type: cross  Abstract: Recurrent models must forget in order to remember, yet the state of the art decides what to erase without consulting what is stored -- the gate sees only the arriving token, not the memory it is about to modify. This memory-blind gating is one of three coupled defects in the leading delta-rule architecture (GDN-2): the value-axis erase mask wastes parameters at the scale of the value projection, and -- as we prove -- mathematically prevents the WY-form triangular chunk solver that makes recurrent training competitive with Transformers.   We introduce CARVE (Content-Aware Recurrent with Value Efficiency), which resolves all three problems through one principle: erase only on the key axis. This is provably necessary and sufficient for the WY-form solver to remain valid. Within it, CARVE reuses the recurrent output tensor -- already written to GPU memory -- as a free content signal for the erase gate, and replaces the per-value write-gate
     
-[^3]: 混合隐私感知语义搜索：受限威胁模型下基于SVD截断文档几何与CKKS加密查询重排序
+[^2]: 大语言模型在外围维和任务威胁评估中的应用
 
-    Hybrid privacy-aware semantic search: SVD-truncated document geometry and CKKS-encrypted query reranking under a restricted threat model
+    Application of LLMs to Threat Assessment of Foreign Peacekeeping Missions
 
-    [https://arxiv.org/abs/2606.26373](https://arxiv.org/abs/2606.26373)
+    [https://arxiv.org/abs/2606.27106](https://arxiv.org/abs/2606.27106)
 
-    本文提出一种混合隐私保护语义搜索方法，通过SVD截断和秘密正交变换保护文档集合，利用CKKS同态加密保护查询，在受限威胁模型下平衡了安全性与效率。
-
-    
-
-    arXiv:2606.26373v1 公告类型：交叉 摘要：稠密嵌入为语义搜索和检索增强生成提供了强大支持，但嵌入反转攻击可以从向量中重建源文本：当向量数据库泄露时，其背后的文档也会随之泄露。教科书式的防御措施是极端方案——对整个搜索进行同态加密是可靠的，但在百万级文档规模下速度过慢，而隐私噪声在提供保护之前就已严重降低排序质量。我们研究了一条中间路径，利用静态集合与动态查询之间的不对称性。集合通过几何方式保护：每个向量被截断到低维SVD子空间，并通过仅由所有者知道的秘密正交变换进行旋转。查询通过密码学方式保护：在CKKS同态加密下进行重排序，因此诚实但好奇的服务器永远无法看到查询或分数。CKKS参数来自一个小型离线基准测试。我们证明了重构的下界紧致性。
-
-    arXiv:2606.26373v1 Announce Type: cross  Abstract: Dense embeddings power semantic search and retrieval-augmented generation, but embedding-inversion attacks can reconstruct source text from a vector: when a vector database leaks, the documents behind it leak too. The textbook defences are extremes - encrypting the whole search homomorphically is sound but too slow at million-document scale, while privacy noise degrades ranking long before it protects. We study a middle path exploiting the asymmetry between the static collection and the dynamic query. The collection is protected geometrically: each vector is truncated onto a lower-dimensional SVD subspace and rotated by a secret orthogonal transform known only to the owner. The query is protected cryptographically: it is reranked under CKKS homomorphic encryption, so an honest-but-curious server never sees the query or the scores. CKKS parameters come from a small offline benchmark.   We prove a tight lower bound on the reconstruction 
-    
-[^4]: Autodata：一个用于创建高质量合成数据的自主数据科学家
-
-    Autodata: An agentic data scientist to create high quality synthetic data
-
-    [https://arxiv.org/abs/2606.25996](https://arxiv.org/abs/2606.25996)
-
-    本文提出了一种名为Autodata的通用方法，通过训练AI智能体作为自主数据科学家，并对其进行元优化，从而在多个任务上生成比传统方法更高质量的合成数据，显著提升模型性能。
+    本文提出了一种结合跨学科风险模型、开源情报媒体收集和大语言模型的新方法，用于维和任务的威胁评估，验证了其自动结果与人类判断的高度一致性。
 
     
 
-    arXiv:2606.25996v2 公告类型：替换 摘要：我们介绍了Autodata，一种通用方法，使AI智能体能够充当数据科学家，构建高质量的训练和评估数据。我们展示了如何训练（元优化）这样一个数据科学家智能体，使其学会创建更强大的数据。我们描述了总体框架以及一个具体的实践实现——自主自我指令（Agentic Self-Instruct）。我们在计算机科学研究任务、法律推理任务和数学对象推理任务上进行了实验，与经典的合成数据集创建方法相比，我们获得了更好的结果。此外，对数据科学家智能体本身进行元优化带来了更大的性能提升。自主数据创建提供了一种将增加的推理计算转化为更高质量模型训练的方法。总体而言，我们相信这一方向有潜力改变我们构建AI数据的方式。
+    我们提出了一种新颖的方法，将大语言模型应用于外围维和任务中的威胁评估。基于PINPOINT项目及其用例——欧盟驻格鲁吉亚监测团，我们结合了跨学科风险模型、基于开源情报的媒体收集以及大语言模型支持的威胁提取。所提出的工作流程将媒体内容映射到与任务相关的威胁，提取结构化信息，并应用多个基于大语言模型的额外处理步骤以提高相关性和基础性。对从媒体文档中提取的威胁进行的评估显示，在威胁和任务相关性等核心方面，自动生成的结果与人类判断之间具有高度一致性。这些结果表明，大语言模型为支持维和任务中的分析人员提供了一种有前景的方法。
 
-    arXiv:2606.25996v2 Announce Type: replace  Abstract: We introduce Autodata, a general method that enables AI agents to act as data scientists who build high quality training and evaluation data. We show how to train (meta-optimize) such a data scientist agent, so that it learns to create even stronger data. We describe the overall formulation, and a specific practical implementation, Agentic Self-Instruct. We conduct experiments on computer science research tasks, legal reasoning tasks and reasoning with mathematical objects, where we obtain improved results compared to classical synthetic dataset creation methods. Further, meta-optimizing the data scientist agent itself delivers an even larger performance uplift. Agentic data creation provides a way to convert increased inference compute into higher quality model training. Overall, we believe this direction has the potential to change the way we build AI data.
+    arXiv:2606.27106v1 Announce Type: cross  Abstract: We present a novel approach for applying Large Language Models (LLMs) to threat assessment in the context of foreign peacekeeping missions. Building on the PINPOINT project and its use case, the EU Monitoring Mission in Georgia, we combine an interdisciplinary risk-model with OSINT-based media collection and LLM-supported threat extraction. The proposed workflow maps media contents to mission-relevant threats, extracts structured information and applies several additional LLM-based processing steps to improve relevance and grounding. An evaluation of threats extracted from media documents shows high agreement between automatically generated results and human judgment for core aspects such as threat and mission relevance. These results indicate that LLMs provide a promising approach to support analysts in the context of peacekeeping missions.
     
-[^5]: 将人工智能用作带有时间计算的“可能性骰子”
+[^3]: 注意盲区：任务条件化的语言与视觉模型会遗漏它们本可报告的安全关键信号
 
-    To Use AI as Dice of Possibilities with Timing Computation
+    The Inattentional Gap: Task-Conditioned Language and Vision Models Omit the Safety-Critical Signals They Can Otherwise Report
 
-    [https://arxiv.org/abs/2605.01134](https://arxiv.org/abs/2605.01134)
+    [https://arxiv.org/abs/2606.26529](https://arxiv.org/abs/2606.26529)
 
-    本文提出了一种基于动词范式的因果推理框架，通过时间计算与因果事实定义，使AI能够从数据中自动发现临床轨迹并进行反事实推理，在乳腺癌患者数据上首次实现了纯数据驱动的因果世界模型。
-
-    
-
-    arXiv:2605.01134v3 公告类型：替换 摘要：当前以名词为主的建模范式从根本上限制了人工智能的发展，使其无法充分将未来表征为一个开放的时间维度。本文引入了一种以动词为主的范式，并给出了“时间计算”和“因果事实”的精确定义，从而使人工智能能够作为自发构建因果推理世界模型的工具。将该框架应用于来自3276名乳腺癌患者的纵向电子健康记录数据，实证结果表明：(1) 自动发现具有临床意义的患者轨迹，以及(2) 反事实时间推理，即一种“假设机器”。这两项结果均以纯数据驱动的方式实现，无需借助先验领域知识，据我们所知，这是机器学习文献中首次展示此类成果。
-
-    arXiv:2605.01134v3 Announce Type: replace  Abstract: The dominant noun-based modeling paradigm has fundamentally constrained AI development, precluding any adequate representation of the future as an open temporal dimension. This paper introduces a verb-based paradigm, together with precise definitions of \emph{timing computation} and \emph{causal factum}, that enables AI to function as an instrument for spontaneously constructing a causal-reasoning world model.   Applied to longitudinal EHR data from 3,276 breast cancer patients, the framework empirically demonstrates: (1) automatic discovery of clinically significant patient trajectories, and (2) counterfactual timing deduction, that is, a \emph{What-If Machine}. Both results are achieved in a purely data-driven manner, without recourse to prior domain knowledge, and represent, to our knowledge, the first such demonstrations in the machine learning literature.
-    
-[^6]: CausalChaos!数据集：基于动态视觉场景中更长因果链的全面因果行动问答
-
-    CausalChaos! Dataset for Comprehensive Causal Action Question Answering Over Longer Causal Chains Grounded in Dynamic Visual Scenes
-
-    [https://arxiv.org/abs/2404.01299](https://arxiv.org/abs/2404.01299)
-
-    利用卡通图像构建的CausalChaos!数据集，包含更长因果链的因果问答，通过动态互动和视觉展示挑战性因果关系，为模型提供了更多具挑战性且明确定义的因果关系。
+    论文发现，当语言或视觉模型被限定于特定任务时，会系统性地抑制报告同时出现的其他安全关键信号，导致基准测试安全性与真实安全性脱钩。
 
     
 
-    因果视频问答（QA）越来越受到关注，然而现有数据集在因果推理分析方面往往缺乏深度。为了填补这一空白，我们利用卡通的独特属性构建了CausalChaos!，这是一个新颖且具有挑战性的因果问答（Why-QA）数据集，基于标志性的“猫和老鼠”卡通系列。我们的数据集通过周到的问题和多层次答案，包含着嵌入动态互动和视觉中的更长因果链，同时动画原理允许动画师创造定义明确、明了的因果关系。这些因素使模型能够解决更具挑战性但明确定义的因果关系。我们还引入了硬负采样，包括CausalConfusion版本。虽然模型表现良好，但仍有很大改进空间，特别是在开放式答案方面。我们确定了更为先进/明确的因果关系建模和联合建模等改进方向。
+    arXiv:2606.26529v1 公告类型：交叉 摘要：人工智能安全性通常通过模型能否可靠地检测指定危害来评估，但事故往往源于无人指定的危害。我们证明，将语言或视觉模型限定于狭窄任务会抑制其报告同时存在的、本可报告的安全关键信号，这类似于人类注意盲区的机器模拟，但源于不同的机制。在放射学与驾驶文本场景以及胸部X光片视觉任务中，所有测试模型均出现抑制现象，且不随模型规模减小，在推理模型中持续存在，不同模型家族间的差异大于模型大小间的差异，而同一模型在无约束条件下报告这些信号的比率显著更高。我们将这种分离命名为“注意盲区”，并论证它使基准安全性评估与真实世界安全性脱钩：系统可在评估指定的危害上获得近乎完美的分数，却对未指定的危害视而不见。
 
-    arXiv:2404.01299v1 Announce Type: cross  Abstract: Causal video question answering (QA) has garnered increasing interest, yet existing datasets often lack depth in causal reasoning analysis. To address this gap, we capitalize on the unique properties of cartoons and construct CausalChaos!, a novel, challenging causal Why-QA dataset built upon the iconic "Tom and Jerry" cartoon series. With thoughtful questions and multi-level answers, our dataset contains much longer causal chains embedded in dynamic interactions and visuals, at the same time principles of animation allows animators to create well-defined, unambiguous causal relationships. These factors allow models to solve more challenging, yet well-defined causal relationships. We also introduce hard negative mining, including CausalConfusion version. While models perform well, there is much room for improvement, especially, on open-ended answers. We identify more advanced/explicit causal relationship modeling and joint modeling of 
+    arXiv:2606.26529v1 Announce Type: cross  Abstract: AI safety is evaluated by how reliably a model detects the hazards it is told to find, yet accidents often arise from the hazard no one specified. We show that conditioning a language or vision model on a narrow task suppresses its reporting of co-present, safety-critical signals it can otherwise report, a machine analogue of human inattentional blindness arising from a different mechanism. Across radiology and driving text scenarios and chest-radiograph vision tasks, suppression appeared in every model tested, did not diminish with scale, persisted in a reasoning model, and varied more by model family than by size, while the same models reported these signals at substantially higher rates when unconstrained. We name this dissociation the Inattentional Gap and argue that it decouples measured benchmark safety from real-world safety: a system can score near-perfectly on the hazards an evaluation specifies while remaining blind to those 
     
-[^7]: 图单元消息传递
+[^4]: 加速回报与科学中的定性引擎
 
-    Graph Unitary Message Passing
+    Accelerating Returns and the Qualitative Engine for Science
 
-    [https://arxiv.org/abs/2403.11199](https://arxiv.org/abs/2403.11199)
+    [https://arxiv.org/abs/2606.26359](https://arxiv.org/abs/2606.26359)
 
-    提出了一种名为GUMP的图单元消息传递方法，通过应用单元邻接矩阵来缓解图神经网络中的过度压缩问题。
-
-    
-
-    消息传递机制是图神经网络在各种应用中取得成功的原因，但也带来了过度压缩的问题。最近的研究通过改善图谱的重连技术、破坏图中的结构偏见来抵制过度压缩，然而在过度压缩度量方面对过度压缩的改进有所限制。受到单元RNN的启发，我们提出了图单元消息传递（GUMP），通过应用单元邻接矩阵进行消息传递来缓解图神经网络中的过度压缩问题。为设计GUMP，首先提出了一种转换方法，使普通图具有单元邻接矩阵并保持其结构偏差。然后，通过利用单元邻接矩阵的固有结构实现单位化投影算法获得单元邻接矩阵，并允许GUMP是置换等变的。实验结果表明了GUMP在改善各种应用任务上性能的有效性。
-
-    arXiv:2403.11199v1 Announce Type: cross  Abstract: Message passing mechanism contributes to the success of GNNs in various applications, but also brings the oversquashing problem. Recent works combat oversquashing by improving the graph spectrums with rewiring techniques, disrupting the structural bias in graphs, and having limited improvement on oversquashing in terms of oversquashing measure. Motivated by unitary RNN, we propose Graph Unitary Message Passing (GUMP) to alleviate oversquashing in GNNs by applying unitary adjacency matrix for message passing. To design GUMP, a transformation is first proposed to make general graphs have unitary adjacency matrix and keep its structural bias. Then, unitary adjacency matrix is obtained with a unitary projection algorithm, which is implemented by utilizing the intrinsic structure of unitary adjacency matrix and allows GUMP to be permutation-equivariant. Experimental results show the effectiveness of GUMP in improving the performance on vari
-    
-[^8]: 学习视觉连接动作和其效果
-
-    Learning to Visually Connect Actions and their Effects. (arXiv:2401.10805v1 [cs.CV])
-
-    [http://arxiv.org/abs/2401.10805](http://arxiv.org/abs/2401.10805)
-
-    该论文提出了视觉连接动作和其效果的概念（CATE），用于视频理解。研究表明，不同的任务形式产生了捕捉直观动作特性的表示，但模型表现不佳，人类的表现明显优于它们。该研究为未来的努力奠定了基础，并希望能激发出高级形式和模型的灵感。
+    本文指出，即使技术进步呈现加速回报的指数增长趋势，这主要提升执行和基础设施能力，而科学发现的核心——识别框架结构缺陷并进行概念创新——依赖于不同的定性推理能力，人类在这方面仍具优势。
 
     
 
-    在这项工作中，我们引入了视觉连接动作和其效果（CATE）的新概念，用于视频理解。CATE可以在任务规划和从示范中学习等领域中应用。我们提出了不同基于CATE的任务形式，如动作选择和动作指定，其中视频理解模型以语义和细粒度的方式连接动作和效果。我们观察到不同的形式产生了捕捉直观动作特性的表示。我们还设计了各种基线模型用于动作选择和动作指定。尽管任务具有直观性，但我们观察到模型困难重重，人类表现明显优于它们。本研究旨在为未来的努力奠定基础，展示了连接视频理解中动作和效果的灵活性和多功能性，希望能激发出高级形式和模型的灵感。
+    arXiv:2606.26359v1 公告类型：新 摘要：雷·库兹韦尔提出了一种加速回报的论点，这是技术进步讨论中最具影响力的叙述之一。其核心主张是，多个技术领域（尤其是计算、人工智能、脑科学和生物技术）的进步相互影响，使得进步呈现自放大且近似指数增长的趋势。本文对这一主张给出了一个简单的数学解释，然后论证，即使这种加速是真实的，它本身并不能解决科学发现的核心问题。原因是加速回报最自然地适用于执行和基础设施能力，而真正的发现往往依赖于另一种能力：关于当前框架在结构上何时不足以及下一步需要何种概念转变的定性推理。最近的ARC-AGI-3结果进一步凸显了这一区别：人类能够解决该基准测试。
 
-    In this work, we introduce the novel concept of visually Connecting Actions and Their Effects (CATE) in video understanding. CATE can have applications in areas like task planning and learning from demonstration. We propose different CATE-based task formulations, such as action selection and action specification, where video understanding models connect actions and effects at semantic and fine-grained levels. We observe that different formulations produce representations capturing intuitive action properties. We also design various baseline models for action selection and action specification. Despite the intuitive nature of the task, we observe that models struggle, and humans outperform them by a large margin. The study aims to establish a foundation for future efforts, showcasing the flexibility and versatility of connecting actions and effects in video understanding, with the hope of inspiring advanced formulations and models.
+    arXiv:2606.26359v1 Announce Type: new  Abstract: Ray Kurzweil described a thesis of accelerating returns, which is the most influential narratives in discussions of technological progress. Its central claim is that advances in multiple technological fields, especially compute, artificial intelligence, brain science, and biotechnology, interact in such a way that progress becomes self-amplifying and approximately exponential. This paper gives a simple mathematical interpretation of that claim and then argues that, even if such acceleration is real, it does not by itself resolve the central problem of scientific discovery. The reason is that accelerating returns apply most naturally to executional and infrastructural capability, whereas genuine discovery often depends on a different capacity: qualitative reasoning about when a current framework is structurally inadequate and what conceptual move is needed next. Recent ARC-AGI-3 results sharpen this distinction: humans solve the benchmark
+    
+[^5]: 一种基于大语言模型原生的心理测量工具无法预测大语言模型行为：来自25个模型的证据
+
+    An LLM-Native Psychometric Instrument Does Not Predict LLM Behavior: Evidence Across 25 Models
+
+    [https://arxiv.org/abs/2606.09843](https://arxiv.org/abs/2606.09843)
+
+    本研究构建了首个从LLM行为中自下而上推导的心理测量工具，发现其维度（响应性、服从性、大胆性、谨慎性和冗长性）高度可靠，但LLM的自我报告仍无法预测其实际行为，表明人类特质类别与LLM行为之间存在根本性差异。
+
+    
+
+    大语言模型（LLMs）对人格问卷给出了稳定的回答，但这些自我报告未能预测模型的实际行为。这种差距是源于将人类特质类别强加给LLMs的人为产物，还是源于LLM自我报告本身的更深层问题？为了探究这一点，我们构建了首个心理测量工具，其维度是从LLM行为中自下而上推导出来的，而非借用人类心理学。我们向来自17个模型家族的25个LLM（每个模型重复30次）施测了300个条目（240个李克特量表+60个情景题），探索性因素分析揭示了五个可复制且高度可靠的因素：响应性、服从性、大胆性、谨慎性和冗长性（所有Tucker $\phi \geq .957$，所有$\alpha \geq .930$）。随后，我们收集了2500个开放式行为样本，并由151名人类和三人LLM评判团进行评分。人类与评判团对模型行为的看法一致（平均相关系数$r = .51$），但自我报告未能预测这些行为。
+
+    arXiv:2606.09843v2 Announce Type: replace-cross  Abstract: Large language models (LLMs) give stable answers to personality questionnaires, yet these self-reports fail to predict how the models actually behave. Is this gap an artifact of forcing human trait categories onto LLMs, or something deeper about LLM self-report itself? To find out, we built the first psychometric instrument whose dimensions are derived bottom-up from LLM behavior rather than borrowed from human psychology. Administering 300 items (240 Likert + 60 scenario) to 25 LLMs across 17 model families, 30 times each, exploratory factor analysis revealed five replicable, highly reliable factors: Responsiveness, Deference, Boldness, Guardedness, and Verbosity (all Tucker $\phi \geq .957$, all $\alpha \geq .930$). We then collected 2,500 open-ended behavioral samples and had them rated by 151 humans and a three-judge LLM ensemble. Humans and judges agreed about model behavior ($\bar{r} = .51$), but self-report predicted nei
     
 

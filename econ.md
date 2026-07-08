@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Mr.Keynes and the... Complexity! A suggested agent-based version of the General Theory of Employment, Interest and Money.](http://arxiv.org/abs/2303.00889) | 本文提出了一种基于代理的宏观经济模型，旨在遵循凯恩斯的《失业、利率和货币的一般理论》，通过确定收入和就业水平来确定资本边际效益和倾向于消费的边际倾向。 |
+| [^1] | [The Priced Survey Methodology: Theory.](http://arxiv.org/abs/2401.03876) | 本文介绍了一种名为“价格调查方法学（PSM）”的工具，旨在克服传统调查方法在分析社会偏好方面的局限性。通过一般化阿弗里亚定理，本文证明了PSM的回答存在一个凹、连续且单峰的效用函数时，揭示偏好的广义公理是必要且充分的。这一结果意味着我们可以通过只利用可能答案之间的序关系来衡量受访者对调查的理想答案，同时PSM还可以捕捉到标准调查中常常被忽视的社会偏好的方面。 |
 
 # 详细
 
-[^1]: Mr. Keynes和复杂性！一种建议的基于代理的就业，利率和货币总论的版本。
+[^1]: 价格调查方法学：理论
 
-    Mr.Keynes and the... Complexity! A suggested agent-based version of the General Theory of Employment, Interest and Money. (arXiv:2303.00889v2 [econ.TH] UPDATED)
+    The Priced Survey Methodology: Theory. (arXiv:2401.03876v1 [econ.TH])
 
-    [http://arxiv.org/abs/2303.00889](http://arxiv.org/abs/2303.00889)
+    [http://arxiv.org/abs/2401.03876](http://arxiv.org/abs/2401.03876)
 
-    本文提出了一种基于代理的宏观经济模型，旨在遵循凯恩斯的《失业、利率和货币的一般理论》，通过确定收入和就业水平来确定资本边际效益和倾向于消费的边际倾向。
+    本文介绍了一种名为“价格调查方法学（PSM）”的工具，旨在克服传统调查方法在分析社会偏好方面的局限性。通过一般化阿弗里亚定理，本文证明了PSM的回答存在一个凹、连续且单峰的效用函数时，揭示偏好的广义公理是必要且充分的。这一结果意味着我们可以通过只利用可能答案之间的序关系来衡量受访者对调查的理想答案，同时PSM还可以捕捉到标准调查中常常被忽视的社会偏好的方面。
 
     
 
-    本文提出了一个模型，旨在尽可能地遵循J.M.凯恩斯在他著名的《失业、利率和货币的一般理论》中提出的宏观经济模型的基本原理，以提供一个可行的宏观经济研究工具。将展示凯恩斯的主要成果，即从资本边际效益和倾向于消费的边际倾向开始，在给定利率的情况下确定收入和就业水平。模型的要素将通过参考原始文本进行描述。模型操作中的顺序性将证明在描述宏观经济系统的复杂性时必不可少。
+    本文介绍了一种名为“价格调查方法学（PSM）”的工具，旨在克服传统调查方法在分析社会偏好方面的局限性。PSM的设计借鉴了消费选择实验，受访者在不同的选择集下多次填写相同的调查问卷。本文一般化了阿弗里亚定理，并证明了关于PSM的回答存在一个凹、连续且单峰的效用函数时，揭示偏好的广义公理是必要且充分的。这个结果有两个主要意义。首先，只利用可能答案之间的序关系就可以衡量受访者对调查的理想答案。其次，PSM捕捉到了在标准调查中经常被忽视的社会偏好的方面，例如受访者对不同调查问题的相对重要性。本文在一组在线参与者中应用PSM测量无私偏好。
 
-    This paper presents a model with the aim to follow, as closely as possible, the rationale of the macroeconomic model advanced by J.M. Keynes in his famous "The General Theory of Unemployment, Interest and Money", in order to provide a viable tool for macroeconomic research. Keynes' main result will be shown, i.e., to determine the level of income and employment starting from the marginal efficiency of capital and the marginal propensity to consume, given the interest rate. Elements of the model will be described by referring to the original text. The sequentiality in model operation will prove quintessential in order to describe the complex nature of macroeconomic systems.
+    In this paper, I introduce the Priced Survey Methodology (PSM), a tool designed to overcome the limitations of traditional survey methods in analyzing social preferences. The PSM's design draws inspiration from consumption choice experiments, as respondents fill out the same survey multiple times under different choice sets. I generalize Afriat's theorem and show that the Generalized Axiom of Revealed Preferences is necessary and sufficient for the existence of a concave, continuous, and single-peaked utility function rationalizing answers to the PSM. This result has two major implications. First, it is possible to measure a respondent's ideal answer to a survey using only ordinal relations between possible answers. Second, the PSM captures aspects of social preferences often overlooked in standard surveys, such as the relative importance that respondents attribute to different survey questions. I deploy a PSM measuring altruistic preferences in a sample of online participants, recover
     
 
