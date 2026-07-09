@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [The Priced Survey Methodology: Theory.](http://arxiv.org/abs/2401.03876) | 本文介绍了一种名为“价格调查方法学（PSM）”的工具，旨在克服传统调查方法在分析社会偏好方面的局限性。通过一般化阿弗里亚定理，本文证明了PSM的回答存在一个凹、连续且单峰的效用函数时，揭示偏好的广义公理是必要且充分的。这一结果意味着我们可以通过只利用可能答案之间的序关系来衡量受访者对调查的理想答案，同时PSM还可以捕捉到标准调查中常常被忽视的社会偏好的方面。 |
+| [^1] | [Optimal Queueing Regimes.](http://arxiv.org/abs/2401.13812) | 该论文研究了一个M/M/1排队模型，顾客可以根据策略决定加入队列或退出队列，并且给出了一类排队制度，使得在任何参数下，社会效率行为都是均衡结果。 |
 
 # 详细
 
-[^1]: 价格调查方法学：理论
+[^1]: 最优排队制度
 
-    The Priced Survey Methodology: Theory. (arXiv:2401.03876v1 [econ.TH])
+    Optimal Queueing Regimes. (arXiv:2401.13812v1 [econ.TH])
 
-    [http://arxiv.org/abs/2401.03876](http://arxiv.org/abs/2401.03876)
+    [http://arxiv.org/abs/2401.13812](http://arxiv.org/abs/2401.13812)
 
-    本文介绍了一种名为“价格调查方法学（PSM）”的工具，旨在克服传统调查方法在分析社会偏好方面的局限性。通过一般化阿弗里亚定理，本文证明了PSM的回答存在一个凹、连续且单峰的效用函数时，揭示偏好的广义公理是必要且充分的。这一结果意味着我们可以通过只利用可能答案之间的序关系来衡量受访者对调查的理想答案，同时PSM还可以捕捉到标准调查中常常被忽视的社会偏好的方面。
+    该论文研究了一个M/M/1排队模型，顾客可以根据策略决定加入队列或退出队列，并且给出了一类排队制度，使得在任何参数下，社会效率行为都是均衡结果。
 
     
 
-    本文介绍了一种名为“价格调查方法学（PSM）”的工具，旨在克服传统调查方法在分析社会偏好方面的局限性。PSM的设计借鉴了消费选择实验，受访者在不同的选择集下多次填写相同的调查问卷。本文一般化了阿弗里亚定理，并证明了关于PSM的回答存在一个凹、连续且单峰的效用函数时，揭示偏好的广义公理是必要且充分的。这个结果有两个主要意义。首先，只利用可能答案之间的序关系就可以衡量受访者对调查的理想答案。其次，PSM捕捉到了在标准调查中经常被忽视的社会偏好的方面，例如受访者对不同调查问题的相对重要性。本文在一组在线参与者中应用PSM测量无私偏好。
+    我们考虑了一个M/M/1排队模型，其中顾客可以根据策略决定是否加入队列、何时退出队列。我们对排队制度的类别进行了刻画，使得在模型的任何参数下，社会效率行为都是均衡结果。
 
-    In this paper, I introduce the Priced Survey Methodology (PSM), a tool designed to overcome the limitations of traditional survey methods in analyzing social preferences. The PSM's design draws inspiration from consumption choice experiments, as respondents fill out the same survey multiple times under different choice sets. I generalize Afriat's theorem and show that the Generalized Axiom of Revealed Preferences is necessary and sufficient for the existence of a concave, continuous, and single-peaked utility function rationalizing answers to the PSM. This result has two major implications. First, it is possible to measure a respondent's ideal answer to a survey using only ordinal relations between possible answers. Second, the PSM captures aspects of social preferences often overlooked in standard surveys, such as the relative importance that respondents attribute to different survey questions. I deploy a PSM measuring altruistic preferences in a sample of online participants, recover
+    We consider an M/M/1 queueing model where customers can strategically decide whether to join the queue or balk and when to renege. We characterize the class of queueing regimes such that, for any parameters of the model, the socially efficient behavior is an equilibrium outcome.
     
 

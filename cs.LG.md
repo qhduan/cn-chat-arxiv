@@ -2,67 +2,82 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [DanceOPD: On-Policy Generative Field Distillation](https://arxiv.org/abs/2606.27377) | DanceOPD提出了一种在线策略生成场蒸馏框架，通过将不同图像生成能力（文生图、局部编辑、全局编辑）建模为共享空间中的速度场，并利用学生自身状态进行查询和训练，有效解决了多种能力之间的冲突与组合问题。 |
-| [^2] | [CARVE: Content-Aware Recurrent with Value Efficiency for Chunk-Parallel Linear Attention](https://arxiv.org/abs/2606.27229) | CARVE通过仅在键轴上擦除的单一原则，解决了递归模型中的记忆盲区门控、参数浪费和WY形式求解器失效三个问题，实现了高效的内容感知递归线性注意力。 |
-| [^3] | [Reproducibility Study of "AlphaEdit: Null-Space Constrained Knowledge Editing for Language Models"](https://arxiv.org/abs/2606.26783) | 本研究复现了AlphaEdit知识编辑方法，发现其原始结果基本可重复，但在流畅性指标上存在差异，且该方法在新型模型架构上的优势不具有普遍性。 |
-| [^4] | [Label Hierarchy Transition: Delving into Class Hierarchies to Enhance Deep Classifiers.](http://arxiv.org/abs/2112.02353) | 本文提出了Label Hierarchy Transition (LHT)框架，基于深度学习，用于改进层次分类。LHT框架主要包括转换网络和混淆损失两个部分，通过显式学习标签层次转换矩阵和鼓励分类网络处理混淆情况，有效地利用类层次结构的相关性。 |
+| [^1] | [Chebyshev Policies and the Mountain Car Problem: Reinforcement Learning for Low-Dimensional Control Tasks](https://arxiv.org/abs/2605.22305) | 本文通过解析求解山地车问题的最优控制，提出切比雪夫策略作为神经网络的轻量级替代，在低维控制任务中大幅降低参数量和遗憾值，并提升性能。 |
+| [^2] | [A Distributionally Robust Optimisation Approach to Fair Credit Scoring](https://arxiv.org/abs/2402.01811) | 本文研究了如何在信用评分中应用分布鲁棒优化方法，并对现有技术的鲁棒性效果进行了实证评估。 |
+| [^3] | [In-context learning for model-free system identification.](http://arxiv.org/abs/2308.13380) | 本文提出了一种基于上下文学习的无模型系统辨识方法，通过观察同一类别中其他系统的行为来理解动态系统的复杂性。 |
+| [^4] | [Reinforcement Federated Learning Method Based on Adaptive OPTICS Clustering.](http://arxiv.org/abs/2306.12859) | 本文提出了一种基于自适应OPTICS聚类的强化联邦学习方法，旨在缓解不同用户终端上的数据分布不同所带来的负面影响，并有效提高了联邦学习方法的性能。 |
+| [^5] | [EZClone: Improving DNN Model Extraction Attack via Shape Distillation from GPU Execution Profiles.](http://arxiv.org/abs/2304.03388) | 本论文介绍了两种不同威胁模型下的DNN结构提取技术，其中EZClone利用聚合GPU文件作为侧信道来预测DNN结构，并且通过实验验证了其有效性。 |
 
 # 详细
 
-[^1]: DanceOPD：在线策略生成场蒸馏
+[^1]: 切比雪夫策略与山地车问题：面向低维控制任务的强化学习
 
-    DanceOPD: On-Policy Generative Field Distillation
+    Chebyshev Policies and the Mountain Car Problem: Reinforcement Learning for Low-Dimensional Control Tasks
 
-    [https://arxiv.org/abs/2606.27377](https://arxiv.org/abs/2606.27377)
+    [https://arxiv.org/abs/2605.22305](https://arxiv.org/abs/2605.22305)
 
-    DanceOPD提出了一种在线策略生成场蒸馏框架，通过将不同图像生成能力（文生图、局部编辑、全局编辑）建模为共享空间中的速度场，并利用学生自身状态进行查询和训练，有效解决了多种能力之间的冲突与组合问题。
-
-    
-
-    现代图像生成需要一个统一的模型，能够集成多种能力，包括文生图、局部编辑和全局编辑。然而，这些能力很少自然对齐，且常常相互冲突。例如，编辑往往会降低文生图的性能，而全局编辑与局部编辑也会相互干扰。因此，如何有效组合这些能力已成为图像生成模型训练的核心挑战。为了解决这一问题，我们提出了DanceOPD，一种用于流匹配模型的在线策略生成场蒸馏框架。该框架将每个样本路由至一个能力场，查询一个低噪声的学生诱导状态，并通过简单的速度均方误差目标进行训练。每个能力源被定义为共享流状态空间上的速度场，学生通过在其自身生成状态上查询这些场来学习组合专家能力。该公式还吸收了操作符依赖。
-
-    arXiv:2606.27377v1 Announce Type: cross  Abstract: Modern image generation demands a single model that unifies diverse capabilities, including text-to-image (T2I), local editing, and global editing. However, these capabilities are rarely naturally aligned and often conflict. For instance, editing tends to degrade T2I performance, while global and local editing interfere with each other. Consequently, effectively composing these capabilities has become a central challenge for image generation model training. To tackle this, we introduce DanceOPD, an on-policy generative field distillation framework for flow-matching models that routes each sample to one capability field, queries one low-noise student-induced state, and trains with a simple velocity MSE objective. With each capability source defined as a velocity field over the shared flow state space, the student learns from fields queried on its own rollout states to compose expert capabilities. This formulation also absorbs operator-d
-    
-[^2]: CARVE：面向分块并行线性注意力的内容感知递归与价值效率模型
-
-    CARVE: Content-Aware Recurrent with Value Efficiency for Chunk-Parallel Linear Attention
-
-    [https://arxiv.org/abs/2606.27229](https://arxiv.org/abs/2606.27229)
-
-    CARVE通过仅在键轴上擦除的单一原则，解决了递归模型中的记忆盲区门控、参数浪费和WY形式求解器失效三个问题，实现了高效的内容感知递归线性注意力。
+    本文通过解析求解山地车问题的最优控制，提出切比雪夫策略作为神经网络的轻量级替代，在低维控制任务中大幅降低参数量和遗憾值，并提升性能。
 
     
 
-    arXiv:2606.27229v1 公告类型：跨领域 摘要：递归模型必须通过遗忘来记住，然而现有技术决定遗忘什么时并不参考已存储的内容——门控机制仅看到当前到达的标记，而非即将修改的记忆。这种记忆盲区门控是当前主流delta规则架构（GDN-2）中三个相互耦合的缺陷之一：价值轴擦除掩码在价值投影的尺度上浪费参数，并且——正如我们所证明的——在数学上阻碍了使递归训练与Transformer相媲美的WY形式三角分块求解器。我们提出CARVE（内容感知递归与价值效率模型），通过一个原则解决所有三个问题：仅在键轴上擦除。这在数学上被证明是WY形式求解器保持有效的必要且充分条件。在此框架下，CARVE复用已写入GPU内存的递归输出张量作为擦除门控的免费内容信号，并替换逐值写入门控。
+    我们解析求解了强化学习中的经典基准问题——山地车问题，并推导出最优控制解，填补了36年来的理论空白。这揭示了两个令人惊讶的发现：最优控制实际上非常简单，但现代强化学习智能体与最优解之间存在巨大差距。受最优控制分析的启发，我们从基本原理出发，提出切比雪夫策略作为一种通用（即密集）的强化学习策略类别。它们可以作为神经网络的直接替代品进行训练，将遗憾值降低4.18倍，同时所需参数减少277倍，从而提升样本效率、可解释性和实时处理能力。切比雪夫策略在更多强化学习任务上进行了评估，包括一个真实世界的非线性运动控制测试平台。在PPO、ARS和REINFORCE算法中，它们始终优于神经网络。我们的结果表明，切比雪夫策略提供了一种极具吸引力且轻量级的替代方案。
 
-    arXiv:2606.27229v1 Announce Type: cross  Abstract: Recurrent models must forget in order to remember, yet the state of the art decides what to erase without consulting what is stored -- the gate sees only the arriving token, not the memory it is about to modify. This memory-blind gating is one of three coupled defects in the leading delta-rule architecture (GDN-2): the value-axis erase mask wastes parameters at the scale of the value projection, and -- as we prove -- mathematically prevents the WY-form triangular chunk solver that makes recurrent training competitive with Transformers.   We introduce CARVE (Content-Aware Recurrent with Value Efficiency), which resolves all three problems through one principle: erase only on the key axis. This is provably necessary and sufficient for the WY-form solver to remain valid. Within it, CARVE reuses the recurrent output tensor -- already written to GPU memory -- as a free content signal for the erase gate, and replaces the per-value write-gate
+    arXiv:2605.22305v3 Announce Type: replace  Abstract: We analytically solve the Mountain Car problem, a canonical benchmark in RL, and derive an optimal control solution, closing a gap after 36 years. This enables us to reveal two surprising insights: The optimal control is quite simple, yet modern RL agents display a large gap to optimality. Motivated by the analysis of the optimal control, we introduce Chebyshev policies as a universal (i.e. dense) class of RL policies from first principles. They can be trained as drop-in replacements of neural nets, reducing the regret by a factor of 4.18, while requiring 277 times fewer parameters, fostering sample efficiency, explainability and realtime capability. Chebyshev policies are evaluated on further RL tasks, including a real-world nonlinear motion control testbed. They consistently improve performance over neural nets with PPO, ARS and REINFORCE. Our results demonstrate how Chebyshev policies offer a compelling and lightweight alternative
     
-[^3]: “AlphaEdit：语言模型的零空间约束知识编辑”的可重复性研究
+[^2]: 分布鲁棒优化方法在公平信用评分中的应用
 
-    Reproducibility Study of "AlphaEdit: Null-Space Constrained Knowledge Editing for Language Models"
+    A Distributionally Robust Optimisation Approach to Fair Credit Scoring
 
-    [https://arxiv.org/abs/2606.26783](https://arxiv.org/abs/2606.26783)
+    [https://arxiv.org/abs/2402.01811](https://arxiv.org/abs/2402.01811)
 
-    本研究复现了AlphaEdit知识编辑方法，发现其原始结果基本可重复，但在流畅性指标上存在差异，且该方法在新型模型架构上的优势不具有普遍性。
-
-    
-
-    Fang等人（2025）提出了一种名为AlphaEdit的零空间约束投影方法，用于“定位-编辑”式知识编辑技术，该方法在理论上保证了编辑操作不会破坏先前保存的知识，并在LLaMA3、GPT2-XL和GPT-J上报告了相较于现有编辑方法的显著性能提升。本研究对AlphaEdit进行了可重复性验证，在原始实验设置下复现了其报告的结果，并沿着三个方向扩展了评估：新的模型架构、额外的下游基准测试以及更长的序列编辑范围。我们成功地在原始模型上复现了AlphaEdit报告的指标，但在报告的流畅性和一致性指标上发现了一处差异。将AlphaEdit扩展到更新的模型系列后，我们发现其优势并未普遍适用，这归因于“定位-编辑”范式中的架构假设。
-
-    arXiv:2606.26783v1 Announce Type: cross  Abstract: Fang et al. (2025) introduced a null-space constrained projection, named AlphaEdit, for locate-then-edit knowledge editing methods, theoretically guaranteeing that edits do not disrupt previously preserved knowledge, and reports substantial gains over existing editing methods on LLaMA3, GPT2-XL, and GPT-J. In this work, we present a reproducibility study of AlphaEdit, reproducing its reported results under the original experimental setup and extending the evaluation along three axes: new model architectures, additional downstream benchmarks, and substantially longer sequential editing horizons. We successfully reproduce AlphaEdit's reported metrics across the original models, though we identify a discrepancy in the reported fluency and consistency metric. Extending AlphaEdit to newer model families, we find that its advantage does not generalize uniformly, which we trace to architectural assumptions in the locate-then-edit paradigm tha
-    
-[^4]: 标签层级转换：深入研究类层次结构以增强深度分类器
-
-    Label Hierarchy Transition: Delving into Class Hierarchies to Enhance Deep Classifiers. (arXiv:2112.02353v2 [cs.CV] UPDATED)
-
-    [http://arxiv.org/abs/2112.02353](http://arxiv.org/abs/2112.02353)
-
-    本文提出了Label Hierarchy Transition (LHT)框架，基于深度学习，用于改进层次分类。LHT框架主要包括转换网络和混淆损失两个部分，通过显式学习标签层次转换矩阵和鼓励分类网络处理混淆情况，有效地利用类层次结构的相关性。
+    本文研究了如何在信用评分中应用分布鲁棒优化方法，并对现有技术的鲁棒性效果进行了实证评估。
 
     
 
-    层次分类旨在将对象按照类别的层次结构进行排序。现有方法通常通过将其解耦为一系列多类别分类任务来处理层次分类。然而，这种多任务学习策略未能充分利用层次结构不同层级之间各个类别之间的相关性。在本文中，我们提出了一种基于深度学习的统一概率框架Label Hierarchy Transition (LHT)，以应对层次分类的挑战。LHT框架由一个转换网络和一个混淆损失组成。转换网络专注于显式学习标签层次转换矩阵，这有助于有效地编码嵌入在类层次结构中的潜在相关性。混淆损失鼓励分类网络学习更好地处理类别之间的混淆情况。
+    信用评分被欧洲委员会和美国总统办公室归为高风险分类任务，关键问题是基于可能偏向某些群体的模型进行贷款批准决策可能造成的潜在风险。为解决这一问题，近期的信用评分研究考虑了机器学习领域提出的一系列增强公平性的技术来减少分类系统中的偏见和不公平对待。然而，尽管公平性的定义或实施方法各有不同，这些技术大多忽视了结果的鲁棒性。这可能导致在训练集中有效纠正不公平对待，但在生成样本外的分类时会再次产生不公平对待。因此，在本文中，我们将研究如何将分布鲁棒优化(DRO)方法应用于信用评分，并为此对现有技术的鲁棒性效果进行实证评估。
 
-    Hierarchical classification aims to sort the object into a hierarchical structure of categories. For example, a bird can be categorized according to a three-level hierarchy of order, family, and species. Existing methods commonly address hierarchical classification by decoupling it into a series of multi-class classification tasks. However, such a multi-task learning strategy fails to fully exploit the correlation among various categories across different levels of the hierarchy. In this paper, we propose Label Hierarchy Transition (LHT), a unified probabilistic framework based on deep learning, to address the challenges of hierarchical classification. The LHT framework consists of a transition network and a confusion loss. The transition network focuses on explicitly learning the label hierarchy transition matrices, which has the potential to effectively encode the underlying correlations embedded within class hierarchies. The confusion loss encourages the classification network to le
+    Credit scoring has been catalogued by the European Commission and the Executive Office of the US President as a high-risk classification task, a key concern being the potential harms of making loan approval decisions based on models that would be biased against certain groups. To address this concern, recent credit scoring research has considered a range of fairness-enhancing techniques put forward by the machine learning community to reduce bias and unfair treatment in classification systems. While the definition of fairness or the approach they follow to impose it may vary, most of these techniques, however, disregard the robustness of the results. This can create situations where unfair treatment is effectively corrected in the training set, but when producing out-of-sample classifications, unfair treatment is incurred again. Instead, in this paper, we will investigate how to apply Distributionally Robust Optimisation (DRO) methods to credit scoring, thereby empirically evaluating h
+    
+[^3]: 基于上下文学习的无模型系统辨识
+
+    In-context learning for model-free system identification. (arXiv:2308.13380v1 [eess.SY])
+
+    [http://arxiv.org/abs/2308.13380](http://arxiv.org/abs/2308.13380)
+
+    本文提出了一种基于上下文学习的无模型系统辨识方法，通过观察同一类别中其他系统的行为来理解动态系统的复杂性。
+
+    
+
+    在传统的系统辨识中，我们通过给定的输入/输出序列和可用的物理知识来估计未知动态系统的模型。然而，是否还可以通过观察同一类别中其他系统的行为，而不仅仅是从它们的输入/输出模式中理解动态系统的复杂性呢？这个核心问题驱动着本文的研究。作为对这个问题的回应，我们引入了一种新的系统辨识范式，解决了两个主要任务：一步预测和多步模拟。与传统方法不同的是，我们不直接对特定系统进行模型估计，而是预先训练一个代表动态系统类别的元模型。该元模型是通过从某个分布中随机抽取的系统生成的潜在无限流的合成数据进行训练的。在其核心，元模型作为对主要特征的隐式表示，
+
+    In traditional system identification, we estimate a model of an unknown dynamical system based on given input/output sequences and available physical knowledge. Yet, is it also possible to understand the intricacies of dynamical systems not solely from their input/output patterns, but by observing the behavior of other systems within the same class? This central question drives the study presented in this paper.  In response to this query, we introduce a novel paradigm for system identification, addressing two primary tasks: one-step-ahead prediction and multi-step simulation. Unlike conventional methods, we do not directly estimate a model for the specific system. Instead, we pretrain a meta model that represents a class of dynamical systems. This meta model is trained from a potentially infinite stream of synthetic data, generated by systems randomly extracted from a certain distribution. At its core, the meta model serves as an implicit representation of the main characteristics of 
+    
+[^4]: 基于自适应OPTICS聚类的强化联邦学习方法
+
+    Reinforcement Federated Learning Method Based on Adaptive OPTICS Clustering. (arXiv:2306.12859v1 [cs.LG])
+
+    [http://arxiv.org/abs/2306.12859](http://arxiv.org/abs/2306.12859)
+
+    本文提出了一种基于自适应OPTICS聚类的强化联邦学习方法，旨在缓解不同用户终端上的数据分布不同所带来的负面影响，并有效提高了联邦学习方法的性能。
+
+    
+
+    联邦学习是一种分布式机器学习技术，它实现了数据隐私保护和数据共享计算之间的平衡。为了保护数据隐私，联邦学习通过在参与设备上本地执行分布式训练并将本地模型聚合成全局模型来学习共享模型。联邦学习存在的问题是，由于数据在不同用户终端上的非独立和相同分布所导致的负面影响。为了缓解这个问题，本文提出了一种基于自适应OPTICS聚类的增强型联邦聚合方法。具体来说，该方法将聚类环境视为马尔科夫决策过程，并对参数搜索方向的调整过程进行建模，以找到最佳聚类参数以达到最佳联邦聚合方法。本文的核心贡献是提出了一种适用于联邦学习的自适应OPTICS聚类算法，可有效提高联邦学习方法的性能。
+
+    Federated learning is a distributed machine learning technology, which realizes the balance between data privacy protection and data sharing computing. To protect data privacy, feder-ated learning learns shared models by locally executing distributed training on participating devices and aggregating local models into global models. There is a problem in federated learning, that is, the negative impact caused by the non-independent and identical distribu-tion of data across different user terminals. In order to alleviate this problem, this paper pro-poses a strengthened federation aggregation method based on adaptive OPTICS clustering. Specifically, this method perceives the clustering environment as a Markov decision process, and models the adjustment process of parameter search direction, so as to find the best clus-tering parameters to achieve the best federated aggregation method. The core contribution of this paper is to propose an adaptive OPTICS clustering algorithm for federated
+    
+[^5]: EZClone：通过GPU执行文件的形状精炼提高DNN模型提取攻击
+
+    EZClone: Improving DNN Model Extraction Attack via Shape Distillation from GPU Execution Profiles. (arXiv:2304.03388v1 [cs.LG])
+
+    [http://arxiv.org/abs/2304.03388](http://arxiv.org/abs/2304.03388)
+
+    本论文介绍了两种不同威胁模型下的DNN结构提取技术，其中EZClone利用聚合GPU文件作为侧信道来预测DNN结构，并且通过实验验证了其有效性。
+
+    
+
+    由于在预测和分类问题上表现出色，深度神经网络（DNN）已经变得无处不在。然而，随着它们的使用扩展，它们面临各种威胁。模型提取攻击窃取DNN会危及知识产权、数据隐私和安全。先前的研究表明，系统级侧信道可用于通过暴露受害者DNN的体系结构来泄露模型的细节，从而加剧这些风险。我们提出了两种针对不同威胁模型的DNN结构提取技术。第一种技术使用恶意的、动态链接的PyTorch版本，在通过PyTorch分析器暴露受害者DNN结构。第二种技术称为EZClone，利用聚合（而不是时间序列）GPU文件作为侧信道来预测DNN结构，使用简单的方法，假设攻击者的能力比先前的研究低。我们在最小化攻击复杂性的情况下调查了EZClone的有效性，并在多种模型和数据集上进行了实验。
+
+    Deep Neural Networks (DNNs) have become ubiquitous due to their performance on prediction and classification problems. However, they face a variety of threats as their usage spreads. Model extraction attacks, which steal DNNs, endanger intellectual property, data privacy, and security. Previous research has shown that system-level side-channels can be used to leak the architecture of a victim DNN, exacerbating these risks. We propose two DNN architecture extraction techniques catering to various threat models. The first technique uses a malicious, dynamically linked version of PyTorch to expose a victim DNN architecture through the PyTorch profiler. The second, called EZClone, exploits aggregate (rather than time-series) GPU profiles as a side-channel to predict DNN architecture, employing a simple approach and assuming little adversary capability as compared to previous work. We investigate the effectiveness of EZClone when minimizing the complexity of the attack, when applied to prun
     
 
