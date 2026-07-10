@@ -2,82 +2,67 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Chebyshev Policies and the Mountain Car Problem: Reinforcement Learning for Low-Dimensional Control Tasks](https://arxiv.org/abs/2605.22305) | 本文通过解析求解山地车问题的最优控制，提出切比雪夫策略作为神经网络的轻量级替代，在低维控制任务中大幅降低参数量和遗憾值，并提升性能。 |
-| [^2] | [A Distributionally Robust Optimisation Approach to Fair Credit Scoring](https://arxiv.org/abs/2402.01811) | 本文研究了如何在信用评分中应用分布鲁棒优化方法，并对现有技术的鲁棒性效果进行了实证评估。 |
-| [^3] | [In-context learning for model-free system identification.](http://arxiv.org/abs/2308.13380) | 本文提出了一种基于上下文学习的无模型系统辨识方法，通过观察同一类别中其他系统的行为来理解动态系统的复杂性。 |
-| [^4] | [Reinforcement Federated Learning Method Based on Adaptive OPTICS Clustering.](http://arxiv.org/abs/2306.12859) | 本文提出了一种基于自适应OPTICS聚类的强化联邦学习方法，旨在缓解不同用户终端上的数据分布不同所带来的负面影响，并有效提高了联邦学习方法的性能。 |
-| [^5] | [EZClone: Improving DNN Model Extraction Attack via Shape Distillation from GPU Execution Profiles.](http://arxiv.org/abs/2304.03388) | 本论文介绍了两种不同威胁模型下的DNN结构提取技术，其中EZClone利用聚合GPU文件作为侧信道来预测DNN结构，并且通过实验验证了其有效性。 |
+| [^1] | [Conformal Predictive Programming for Chance Constrained Optimization](https://arxiv.org/abs/2402.07407) | 可容许预测规划（CPP）是一种解决受任意随机参数影响的优化问题的方法，通过利用样本和量子引理将机遇受限优化（CCO）问题转化为确定性优化问题，并具备边际概率可行性保证。 |
+| [^2] | [Precise localization within the GI tract by combining classification of CNNs and time-series analysis of HMMs.](http://arxiv.org/abs/2310.07895) | 本文提出了一种通过使用CNN进行分类和HMM的时间序列分析，高效地将胃肠造影的图像进行分类，并通过连续的时间序列分析纠正CNN输出来实现精确定位。研究结果表明，该方法在Rhode Island胃肠病学数据集上达到了98.04％的准确率，可以在低功耗设备上使用。 |
+| [^3] | [Efficient Partitioning Method of Large-Scale Public Safety Spatio-Temporal Data based on Information Loss Constraints.](http://arxiv.org/abs/2306.12857) | 本文提出了一种基于信息丢失约束的大规模公共安全时空数据高效划分方法(IFL-LSTP)，可以显著减小数据规模，同时保持模型的准确性，确保分布式存储的负载平衡，同时保持数据划分的时空接近性。 |
+| [^4] | [Calibrated Stackelberg Games: Learning Optimal Commitments Against Calibrated Agents.](http://arxiv.org/abs/2306.02704) | 本文提出了一种新的校准史塔克伯格博弈（CSG）框架，其中智能体根据校准预测进行最佳响应。同时引入了自适应校准概念，提供精细的任何时候校准保证。在有限CSG中，主体可以获得最优解。 |
 
 # 详细
 
-[^1]: 切比雪夫策略与山地车问题：面向低维控制任务的强化学习
+[^1]: 可容许预测规划用于机遇受限优化
 
-    Chebyshev Policies and the Mountain Car Problem: Reinforcement Learning for Low-Dimensional Control Tasks
+    Conformal Predictive Programming for Chance Constrained Optimization
 
-    [https://arxiv.org/abs/2605.22305](https://arxiv.org/abs/2605.22305)
+    [https://arxiv.org/abs/2402.07407](https://arxiv.org/abs/2402.07407)
 
-    本文通过解析求解山地车问题的最优控制，提出切比雪夫策略作为神经网络的轻量级替代，在低维控制任务中大幅降低参数量和遗憾值，并提升性能。
-
-    
-
-    我们解析求解了强化学习中的经典基准问题——山地车问题，并推导出最优控制解，填补了36年来的理论空白。这揭示了两个令人惊讶的发现：最优控制实际上非常简单，但现代强化学习智能体与最优解之间存在巨大差距。受最优控制分析的启发，我们从基本原理出发，提出切比雪夫策略作为一种通用（即密集）的强化学习策略类别。它们可以作为神经网络的直接替代品进行训练，将遗憾值降低4.18倍，同时所需参数减少277倍，从而提升样本效率、可解释性和实时处理能力。切比雪夫策略在更多强化学习任务上进行了评估，包括一个真实世界的非线性运动控制测试平台。在PPO、ARS和REINFORCE算法中，它们始终优于神经网络。我们的结果表明，切比雪夫策略提供了一种极具吸引力且轻量级的替代方案。
-
-    arXiv:2605.22305v3 Announce Type: replace  Abstract: We analytically solve the Mountain Car problem, a canonical benchmark in RL, and derive an optimal control solution, closing a gap after 36 years. This enables us to reveal two surprising insights: The optimal control is quite simple, yet modern RL agents display a large gap to optimality. Motivated by the analysis of the optimal control, we introduce Chebyshev policies as a universal (i.e. dense) class of RL policies from first principles. They can be trained as drop-in replacements of neural nets, reducing the regret by a factor of 4.18, while requiring 277 times fewer parameters, fostering sample efficiency, explainability and realtime capability. Chebyshev policies are evaluated on further RL tasks, including a real-world nonlinear motion control testbed. They consistently improve performance over neural nets with PPO, ARS and REINFORCE. Our results demonstrate how Chebyshev policies offer a compelling and lightweight alternative
-    
-[^2]: 分布鲁棒优化方法在公平信用评分中的应用
-
-    A Distributionally Robust Optimisation Approach to Fair Credit Scoring
-
-    [https://arxiv.org/abs/2402.01811](https://arxiv.org/abs/2402.01811)
-
-    本文研究了如何在信用评分中应用分布鲁棒优化方法，并对现有技术的鲁棒性效果进行了实证评估。
+    可容许预测规划（CPP）是一种解决受任意随机参数影响的优化问题的方法，通过利用样本和量子引理将机遇受限优化（CCO）问题转化为确定性优化问题，并具备边际概率可行性保证。
 
     
 
-    信用评分被欧洲委员会和美国总统办公室归为高风险分类任务，关键问题是基于可能偏向某些群体的模型进行贷款批准决策可能造成的潜在风险。为解决这一问题，近期的信用评分研究考虑了机器学习领域提出的一系列增强公平性的技术来减少分类系统中的偏见和不公平对待。然而，尽管公平性的定义或实施方法各有不同，这些技术大多忽视了结果的鲁棒性。这可能导致在训练集中有效纠正不公平对待，但在生成样本外的分类时会再次产生不公平对待。因此，在本文中，我们将研究如何将分布鲁棒优化(DRO)方法应用于信用评分，并为此对现有技术的鲁棒性效果进行实证评估。
+    在对预测规划（CP）的进展的激励下，我们提出了可容许预测规划（CPP），一种解决机遇受限优化（CCO）问题的方法，即受任意随机参数影响的非线性约束函数的优化问题。CPP利用这些随机参数的样本以及量子引理（CP的核心）将CCO问题转化为确定性优化问题。然后，我们通过：（1）将量子表示为线性规划以及其KKT条件（CPP-KKT）；（2）使用混合整数规划（CPP-MIP）来呈现CPP的两种易于处理的改进。CPP具备对CCO问题进行边际概率可行性保证，这与现有方法（例如样本逼近和场景方法）在概念上有所不同。尽管我们探讨了与样本逼近方法的算法相似之处，但我们强调CPP的优势在于易于扩展。
 
-    Credit scoring has been catalogued by the European Commission and the Executive Office of the US President as a high-risk classification task, a key concern being the potential harms of making loan approval decisions based on models that would be biased against certain groups. To address this concern, recent credit scoring research has considered a range of fairness-enhancing techniques put forward by the machine learning community to reduce bias and unfair treatment in classification systems. While the definition of fairness or the approach they follow to impose it may vary, most of these techniques, however, disregard the robustness of the results. This can create situations where unfair treatment is effectively corrected in the training set, but when producing out-of-sample classifications, unfair treatment is incurred again. Instead, in this paper, we will investigate how to apply Distributionally Robust Optimisation (DRO) methods to credit scoring, thereby empirically evaluating h
+    Motivated by the advances in conformal prediction (CP), we propose conformal predictive programming (CPP), an approach to solve chance constrained optimization (CCO) problems, i.e., optimization problems with nonlinear constraint functions affected by arbitrary random parameters. CPP utilizes samples from these random parameters along with the quantile lemma -- which is central to CP -- to transform the CCO problem into a deterministic optimization problem. We then present two tractable reformulations of CPP by: (1) writing the quantile as a linear program along with its KKT conditions (CPP-KKT), and (2) using mixed integer programming (CPP-MIP). CPP comes with marginal probabilistic feasibility guarantees for the CCO problem that are conceptually different from existing approaches, e.g., the sample approximation and the scenario approach. While we explore algorithmic similarities with the sample approximation approach, we emphasize that the strength of CPP is that it can easily be ext
     
-[^3]: 基于上下文学习的无模型系统辨识
+[^2]: 通过结合CNN的分类和HMM的时间序列分析在GI道中进行精确定位的方法
 
-    In-context learning for model-free system identification. (arXiv:2308.13380v1 [eess.SY])
+    Precise localization within the GI tract by combining classification of CNNs and time-series analysis of HMMs. (arXiv:2310.07895v1 [cs.LG])
 
-    [http://arxiv.org/abs/2308.13380](http://arxiv.org/abs/2308.13380)
+    [http://arxiv.org/abs/2310.07895](http://arxiv.org/abs/2310.07895)
 
-    本文提出了一种基于上下文学习的无模型系统辨识方法，通过观察同一类别中其他系统的行为来理解动态系统的复杂性。
-
-    
-
-    在传统的系统辨识中，我们通过给定的输入/输出序列和可用的物理知识来估计未知动态系统的模型。然而，是否还可以通过观察同一类别中其他系统的行为，而不仅仅是从它们的输入/输出模式中理解动态系统的复杂性呢？这个核心问题驱动着本文的研究。作为对这个问题的回应，我们引入了一种新的系统辨识范式，解决了两个主要任务：一步预测和多步模拟。与传统方法不同的是，我们不直接对特定系统进行模型估计，而是预先训练一个代表动态系统类别的元模型。该元模型是通过从某个分布中随机抽取的系统生成的潜在无限流的合成数据进行训练的。在其核心，元模型作为对主要特征的隐式表示，
-
-    In traditional system identification, we estimate a model of an unknown dynamical system based on given input/output sequences and available physical knowledge. Yet, is it also possible to understand the intricacies of dynamical systems not solely from their input/output patterns, but by observing the behavior of other systems within the same class? This central question drives the study presented in this paper.  In response to this query, we introduce a novel paradigm for system identification, addressing two primary tasks: one-step-ahead prediction and multi-step simulation. Unlike conventional methods, we do not directly estimate a model for the specific system. Instead, we pretrain a meta model that represents a class of dynamical systems. This meta model is trained from a potentially infinite stream of synthetic data, generated by systems randomly extracted from a certain distribution. At its core, the meta model serves as an implicit representation of the main characteristics of 
-    
-[^4]: 基于自适应OPTICS聚类的强化联邦学习方法
-
-    Reinforcement Federated Learning Method Based on Adaptive OPTICS Clustering. (arXiv:2306.12859v1 [cs.LG])
-
-    [http://arxiv.org/abs/2306.12859](http://arxiv.org/abs/2306.12859)
-
-    本文提出了一种基于自适应OPTICS聚类的强化联邦学习方法，旨在缓解不同用户终端上的数据分布不同所带来的负面影响，并有效提高了联邦学习方法的性能。
+    本文提出了一种通过使用CNN进行分类和HMM的时间序列分析，高效地将胃肠造影的图像进行分类，并通过连续的时间序列分析纠正CNN输出来实现精确定位。研究结果表明，该方法在Rhode Island胃肠病学数据集上达到了98.04％的准确率，可以在低功耗设备上使用。
 
     
 
-    联邦学习是一种分布式机器学习技术，它实现了数据隐私保护和数据共享计算之间的平衡。为了保护数据隐私，联邦学习通过在参与设备上本地执行分布式训练并将本地模型聚合成全局模型来学习共享模型。联邦学习存在的问题是，由于数据在不同用户终端上的非独立和相同分布所导致的负面影响。为了缓解这个问题，本文提出了一种基于自适应OPTICS聚类的增强型联邦聚合方法。具体来说，该方法将聚类环境视为马尔科夫决策过程，并对参数搜索方向的调整过程进行建模，以找到最佳聚类参数以达到最佳联邦聚合方法。本文的核心贡献是提出了一种适用于联邦学习的自适应OPTICS聚类算法，可有效提高联邦学习方法的性能。
+    本文介绍了一种通过探索卷积神经网络（CNN）进行分类和隐马尔可夫模型（HMM）的时间序列分析属性的组合来高效地对视频胶囊内镜（VCE）研究中基于图像的胃肠学部分进行分类的方法。实验证明连续的时间序列分析可以识别和纠正CNN输出中的错误。我们的方法在Rhode Island（RI）胃肠病学数据集上实现了98.04％的准确率。这使得在胃肠道内实现精确定位成为可能，同时只需要约1M个参数，因此适用于低功耗设备。
 
-    Federated learning is a distributed machine learning technology, which realizes the balance between data privacy protection and data sharing computing. To protect data privacy, feder-ated learning learns shared models by locally executing distributed training on participating devices and aggregating local models into global models. There is a problem in federated learning, that is, the negative impact caused by the non-independent and identical distribu-tion of data across different user terminals. In order to alleviate this problem, this paper pro-poses a strengthened federation aggregation method based on adaptive OPTICS clustering. Specifically, this method perceives the clustering environment as a Markov decision process, and models the adjustment process of parameter search direction, so as to find the best clus-tering parameters to achieve the best federated aggregation method. The core contribution of this paper is to propose an adaptive OPTICS clustering algorithm for federated
+    This paper presents a method to efficiently classify the gastroenterologic section of images derived from Video Capsule Endoscopy (VCE) studies by exploring the combination of a Convolutional Neural Network (CNN) for classification with the time-series analysis properties of a Hidden Markov Model (HMM). It is demonstrated that successive time-series analysis identifies and corrects errors in the CNN output. Our approach achieves an accuracy of $98.04\%$ on the Rhode Island (RI) Gastroenterology dataset. This allows for precise localization within the gastrointestinal (GI) tract while requiring only approximately 1M parameters and thus, provides a method suitable for low power devices
     
-[^5]: EZClone：通过GPU执行文件的形状精炼提高DNN模型提取攻击
+[^3]: 基于信息丢失约束的大规模公共安全时空数据高效划分方法
 
-    EZClone: Improving DNN Model Extraction Attack via Shape Distillation from GPU Execution Profiles. (arXiv:2304.03388v1 [cs.LG])
+    Efficient Partitioning Method of Large-Scale Public Safety Spatio-Temporal Data based on Information Loss Constraints. (arXiv:2306.12857v1 [cs.LG])
 
-    [http://arxiv.org/abs/2304.03388](http://arxiv.org/abs/2304.03388)
+    [http://arxiv.org/abs/2306.12857](http://arxiv.org/abs/2306.12857)
 
-    本论文介绍了两种不同威胁模型下的DNN结构提取技术，其中EZClone利用聚合GPU文件作为侧信道来预测DNN结构，并且通过实验验证了其有效性。
+    本文提出了一种基于信息丢失约束的大规模公共安全时空数据高效划分方法(IFL-LSTP)，可以显著减小数据规模，同时保持模型的准确性，确保分布式存储的负载平衡，同时保持数据划分的时空接近性。
 
     
 
-    由于在预测和分类问题上表现出色，深度神经网络（DNN）已经变得无处不在。然而，随着它们的使用扩展，它们面临各种威胁。模型提取攻击窃取DNN会危及知识产权、数据隐私和安全。先前的研究表明，系统级侧信道可用于通过暴露受害者DNN的体系结构来泄露模型的细节，从而加剧这些风险。我们提出了两种针对不同威胁模型的DNN结构提取技术。第一种技术使用恶意的、动态链接的PyTorch版本，在通过PyTorch分析器暴露受害者DNN结构。第二种技术称为EZClone，利用聚合（而不是时间序列）GPU文件作为侧信道来预测DNN结构，使用简单的方法，假设攻击者的能力比先前的研究低。我们在最小化攻击复杂性的情况下调查了EZClone的有效性，并在多种模型和数据集上进行了实验。
+    大规模时空数据的存储、管理和应用在各种实际场景中广泛应用，包括公共安全。然而，由于现实世界数据的独特时空分布特征，大多数现有方法在数据时空接近度和分布式存储负载平衡方面存在限制。因此，本文提出了一种基于信息丢失约束的大规模公共安全时空数据高效划分方法(IFL-LSTP)。该IFL-LSTP模型针对大规模时空点数据，将时空划分模块(STPM)和图划分模块(GPM)相结合。该方法可以显著减小数据规模，同时保持模型的准确性，以提高划分效率。它还可以确保分布式存储的负载平衡，同时保持数据划分的时空接近性。
 
-    Deep Neural Networks (DNNs) have become ubiquitous due to their performance on prediction and classification problems. However, they face a variety of threats as their usage spreads. Model extraction attacks, which steal DNNs, endanger intellectual property, data privacy, and security. Previous research has shown that system-level side-channels can be used to leak the architecture of a victim DNN, exacerbating these risks. We propose two DNN architecture extraction techniques catering to various threat models. The first technique uses a malicious, dynamically linked version of PyTorch to expose a victim DNN architecture through the PyTorch profiler. The second, called EZClone, exploits aggregate (rather than time-series) GPU profiles as a side-channel to predict DNN architecture, employing a simple approach and assuming little adversary capability as compared to previous work. We investigate the effectiveness of EZClone when minimizing the complexity of the attack, when applied to prun
+    The storage, management, and application of massive spatio-temporal data are widely applied in various practical scenarios, including public safety. However, due to the unique spatio-temporal distribution characteristics of re-al-world data, most existing methods have limitations in terms of the spatio-temporal proximity of data and load balancing in distributed storage. There-fore, this paper proposes an efficient partitioning method of large-scale public safety spatio-temporal data based on information loss constraints (IFL-LSTP). The IFL-LSTP model specifically targets large-scale spatio-temporal point da-ta by combining the spatio-temporal partitioning module (STPM) with the graph partitioning module (GPM). This approach can significantly reduce the scale of data while maintaining the model's accuracy, in order to improve the partitioning efficiency. It can also ensure the load balancing of distributed storage while maintaining spatio-temporal proximity of the data partitioning res
+    
+[^4]: 校准史塔克伯格博弈：学习对抗校准智能体的最优承诺
+
+    Calibrated Stackelberg Games: Learning Optimal Commitments Against Calibrated Agents. (arXiv:2306.02704v1 [cs.GT] CROSS LISTED)
+
+    [http://arxiv.org/abs/2306.02704](http://arxiv.org/abs/2306.02704)
+
+    本文提出了一种新的校准史塔克伯格博弈（CSG）框架，其中智能体根据校准预测进行最佳响应。同时引入了自适应校准概念，提供精细的任何时候校准保证。在有限CSG中，主体可以获得最优解。
+
+    
+
+    本文提出了标准史塔克伯格博弈（SG）框架的一种推广：校准史塔克伯格博弈（CSG）。在CSG中，一个主体与一个智能体反复交互，后者不像标准SG一样直接访问主体的动作，而是对其进行校准预测，以达到最佳响应。CSG是一个强大的建模工具，超越了假定代理使用特定算法进行战略交互的做法，因此更加鲁棒地应对了SG最初旨在捕捉的现实应用。除了CSG外，本文还介绍了更强的校准概念，称为自适应校准，可针对敌对序列提供精细的任何时候校准保证。本文给出了获得自适应校准算法的一般方法，并将其专门用于有限CSG。在我们的主要技术结果中，我们证明在CSG中，主体可以获得收敛于最优解的效用。
+
+    In this paper, we introduce a generalization of the standard Stackelberg Games (SGs) framework: Calibrated Stackelberg Games (CSGs). In CSGs, a principal repeatedly interacts with an agent who (contrary to standard SGs) does not have direct access to the principal's action but instead best-responds to calibrated forecasts about it. CSG is a powerful modeling tool that goes beyond assuming that agents use ad hoc and highly specified algorithms for interacting in strategic settings and thus more robustly addresses real-life applications that SGs were originally intended to capture. Along with CSGs, we also introduce a stronger notion of calibration, termed adaptive calibration, that provides fine-grained any-time calibration guarantees against adversarial sequences. We give a general approach for obtaining adaptive calibration algorithms and specialize them for finite CSGs. In our main technical result, we show that in CSGs, the principal can achieve utility that converges to the optimum
     
 
