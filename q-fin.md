@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [The Politics of (No) Compromise: Information Acquisition, Policy Discretion, and Reputation.](http://arxiv.org/abs/2111.00522) | 论文讨论了在政策裁量可以被限制的情况下，具有职业忧虑的决策者何时以及如何获取政策相关信息并进行改革决策，并指出公众可以通过在决策者的选择中消除温和政策或现状来鼓励信息获取。 |
+| [^1] | [Peace through bribing.](http://arxiv.org/abs/2107.11575) | 本文研究了一种贿赂带来和平的模型。作者发现在该模型中和平是不可能的，并表征了实现和平的必要和充分条件。作者还考虑了一个请求模型，在该模型中可以实现和平安全。 |
 
 # 详细
 
-[^1]: (无)妥协的政治：信息获取、政策裁量和声誉
+[^1]: 贿赂带来的和平
 
-    The Politics of (No) Compromise: Information Acquisition, Policy Discretion, and Reputation. (arXiv:2111.00522v2 [econ.GN] UPDATED)
+    Peace through bribing. (arXiv:2107.11575v3 [econ.TH] UPDATED)
 
-    [http://arxiv.org/abs/2111.00522](http://arxiv.org/abs/2111.00522)
+    [http://arxiv.org/abs/2107.11575](http://arxiv.org/abs/2107.11575)
 
-    论文讨论了在政策裁量可以被限制的情况下，具有职业忧虑的决策者何时以及如何获取政策相关信息并进行改革决策，并指出公众可以通过在决策者的选择中消除温和政策或现状来鼓励信息获取。
+    本文研究了一种贿赂带来和平的模型。作者发现在该模型中和平是不可能的，并表征了实现和平的必要和充分条件。作者还考虑了一个请求模型，在该模型中可以实现和平安全。
 
     
 
-    精确的信息对于制定良好的政策，尤其是涉及改革决策的政策至关重要。然而，决策者可能会犹豫不决地获取这些信息，因为某些决策可能对他们未来的职业生涯产生负面影响。我们模拟了具有职业忧虑的决策者在政策裁量可以在前被限制的情况下，如何获取政策相关信息并进行改革决策。通常情况下，具有职业忧虑的决策者相对于没有此类忧虑的决策者，获取信息的动力较弱。在这种情况下，我们证明公众可以通过在决策者的裁量中消除"温和政策"或现状来鼓励信息获取。我们还分析了何时应该将改革决策战略性地委托给具有或没有职业忧虑的决策者。
+    本文研究了一个模型，在这个模型中，冲突双方在升级为“全付出拍卖”之前，一方可以向另一方提供一个“接受或离开”的贿赂，以达成和平解决。与现有文献不同的是，我们发现在我们的模型中和平是不可能的。我们表征了和平实施的必要和充分条件。此外，我们发现分离均衡不存在，在任何非和平均衡中的(路径上的)贿赂数量最多为两个。我们还考虑了一个请求模型，并表征了稳健和平均衡的必要和充分条件，所有这些均由相同的(路径上的)请求维持。与贿赂模型相反，在请求模型中可以实现和平安全。
 
-    Precise information is essential for making good policies, especially those regarding reform decisions. However, decision-makers may hesitate to gather such information if certain decisions could have negative impacts on their future careers. We model how decision-makers with career concerns may acquire policy-relevant information and carry out reform decisions when their policy discretion can be limited ex ante. Typically, decision-makers with career concerns have weaker incentives to acquire information compared to decision-makers without such concerns. In this context, we demonstrate that the public can encourage information acquisition by eliminating either the "moderate policy" or the status quo from decision-makers' discretion. We also analyze when reform decisions should be strategically delegated to decision-makers with or without career concerns.
+    We study a model in which before a conflict between two parties escalates into a war (in the form of an all-pay auction), a party can offer a take-it-or-leave-it bribe to the other for a peaceful settlement. In contrast to the received literature, we find that peace security is impossible in our model. We characterize the necessary and sufficient conditions for peace implementability. Furthermore, we find that separating equilibria do not exist and the number of (on-path) bribes in any non-peaceful equilibria is at most two. We also consider a requesting model and characterize the necessary and sufficient conditions for the existence of robust peaceful equilibria, all of which are sustained by the identical (on-path) request. Contrary to the bribing model, peace security is possible in the requesting model.
     
 

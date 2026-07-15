@@ -2,67 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Randomized Confidence Bounds for Stochastic Partial Monitoring](https://arxiv.org/abs/2402.05002) | 本文研究了随机部分监控中基于随机化的偏置界策略，该策略扩展了现有随机策略无法应用的情境和非情境设置，实验证明该策略优于最先进的方法。 |
-| [^2] | [HiQA: A Hierarchical Contextual Augmentation RAG for Massive Documents QA](https://arxiv.org/abs/2402.01767) | HiQA是一个先进的多文档问答框架，使用分层的上下文增强和多路径检索机制，解决了大规模文档问答中的检索准确性问题，并在多文档环境中展示了最先进的性能。 |
-| [^3] | [Federated Topic Model and Model Pruning Based on Variational Autoencoder.](http://arxiv.org/abs/2311.00314) | 本论文提出了一种基于变分自编码器的联邦主题模型和模型剪枝方法，用于解决跨多个方参与交叉分析时的数据隐私问题，并通过神经网络模型剪枝加速模型。两种不同的方法被提出来确定模型剪枝率。 |
-| [^4] | [The Impact of Equal Opportunity on Statistical Discrimination.](http://arxiv.org/abs/2310.04585) | 本文通过修改统计性歧视模型，考虑了由机器学习生成的可合同化信念，给监管者提供了一种超过肯定行动的工具，通过要求公司选取一个平衡不同群体真正阳性率的决策策略，实现机会平等来消除统计性歧视。 |
+| [^1] | [Beyond the Hard Budget: Sparsity Regularizers for More Interpretable Top-k Sparse Autoencoders](https://arxiv.org/abs/2606.27321) | 本文针对Top-k稀疏自编码器固定预算和过拟合缺陷，提出了两种新的稀疏正则化方法，通过作用于Top-k选择前的激活值来提升模型可解释性。 |
+| [^2] | [Explaining Temporal Graph Neural Networks via Feature-induced Information Flow](https://arxiv.org/abs/2606.27201) | 提出了一种基于正则化相关性度量框架的新归因方法，通过分析所有事件相关变量中的完整信息流，克服了现有方法忽略事件诱导变量路径的局限，从而更全面地解释基于事件的时序图神经网络。 |
+| [^3] | [TopCoW: Benchmarking Topology-Aware Anatomical Segmentation of the Circle of Willis (CoW) for CTA and MRA.](http://arxiv.org/abs/2312.17670) | 这项研究提出了TopCoW挑战，通过发布具有13种血管组分注释的Willis循环（CoW）数据集，并使用虚拟现实（VR）技术进行拓扑感知解剖分割，解决了手动和耗时的CoW表征问题。 |
 
 # 详细
 
-[^1]: 随机偏置界对随机部分监控的应用
+[^1]: 超越硬预算：面向更可解释的Top-k稀疏自编码器的稀疏正则化方法
 
-    Randomized Confidence Bounds for Stochastic Partial Monitoring
+    Beyond the Hard Budget: Sparsity Regularizers for More Interpretable Top-k Sparse Autoencoders
 
-    [https://arxiv.org/abs/2402.05002](https://arxiv.org/abs/2402.05002)
+    [https://arxiv.org/abs/2606.27321](https://arxiv.org/abs/2606.27321)
 
-    本文研究了随机部分监控中基于随机化的偏置界策略，该策略扩展了现有随机策略无法应用的情境和非情境设置，实验证明该策略优于最先进的方法。
-
-    
-
-    部分监控 (PM) 框架提供了通过不完整的反馈进行顺序学习问题的理论表述。在每个回合中，学习代理选择一个动作，而环境同时选择一个结果。然后代理观察到一个仅部分提供信息关于（未观察到的）结果的反馈信号。代理利用接收到的反馈信号选择能够最小化（未观察到的）累计损失的动作。在情境 PM 中，结果依赖于代理在每轮选择动作之前可观察到的某些附加信息。在本文中，我们考虑了具有随机结果的情境和非情境的 PM 设置。我们引入了一种基于确定性置信界的随机化策略的新类方法，将遗憾保证扩展到现有的随机策略不适用的设置中。我们的实验表明，所提出的 RandCBP 和 RandCBPside* 策略改进了最先进的方法。
-
-    The partial monitoring (PM) framework provides a theoretical formulation of sequential learning problems with incomplete feedback. On each round, a learning agent plays an action while the environment simultaneously chooses an outcome. The agent then observes a feedback signal that is only partially informative about the (unobserved) outcome. The agent leverages the received feedback signals to select actions that minimize the (unobserved) cumulative loss. In contextual PM, the outcomes depend on some side information that is observable by the agent before selecting the action on each round. In this paper, we consider the contextual and non-contextual PM settings with stochastic outcomes. We introduce a new class of strategies based on the randomization of deterministic confidence bounds, that extend regret guarantees to settings where existing stochastic strategies are not applicable. Our experiments show that the proposed RandCBP and RandCBPside* strategies improve state-of-the-art b
-    
-[^2]: HiQA：一种用于大规模文档问答的分层上下文增强的RAG模型
-
-    HiQA: A Hierarchical Contextual Augmentation RAG for Massive Documents QA
-
-    [https://arxiv.org/abs/2402.01767](https://arxiv.org/abs/2402.01767)
-
-    HiQA是一个先进的多文档问答框架，使用分层的上下文增强和多路径检索机制，解决了大规模文档问答中的检索准确性问题，并在多文档环境中展示了最先进的性能。
+    本文针对Top-k稀疏自编码器固定预算和过拟合缺陷，提出了两种新的稀疏正则化方法，通过作用于Top-k选择前的激活值来提升模型可解释性。
 
     
 
-    随着利用外部工具的语言模型代理迅速发展，使用补充文档和检索增强生成（RAG）方法的问答（QA）方法学取得了重要进展。这种进步提高了语言模型的回答质量，并减轻了幻觉的出现。然而，当面临大量无法区分的文档时，这些方法在检索准确性方面表现有限，给实际应用带来了显著挑战。针对这些新兴的挑战，我们提出了HiQA，这是一个先进的多文档问答（MDQA）框架，将级联的元数据整合到内容中，同时具备多路径检索机制。我们还发布了一个名为MasQA的基准来评估和研究MDQA。最后，HiQA在多文档环境中展示了最先进的性能。
+    arXiv:2606.27321v1 公告类型：交叉 摘要：稀疏自编码器已成为解释视觉基础模型表示的主要工具，将其多语义激活分解为更大规模的稀疏、更单语义特征集合。Top-k稀疏自编码器作为当前标准变体，通过其激活函数从架构层面强制实现稀疏性，每个输入仅保留最活跃的k个潜在变量。由于该设计旨在规避早期稀疏自编码器使用的ℓ1惩罚及其已知缺陷，因此尽管其本身存在局限性——如预算k固定不变（不随输入复杂度调整）以及倾向于对训练时设定的k值过拟合——但至今未与显式稀疏正则化方法结合。我们提出了两种与Top-k架构兼容的稀疏正则化方法，两者均在Top-k选择之前作用于激活值：对未选中单元施加ℓ1惩罚，以及一种尺度不变的ℓ...（原文截断）
 
-    As language model agents leveraging external tools rapidly evolve, significant progress has been made in question-answering(QA) methodologies utilizing supplementary documents and the Retrieval-Augmented Generation (RAG) approach. This advancement has improved the response quality of language models and alleviates the appearance of hallucination. However, these methods exhibit limited retrieval accuracy when faced with massive indistinguishable documents, presenting notable challenges in their practical application. In response to these emerging challenges, we present HiQA, an advanced framework for multi-document question-answering (MDQA) that integrates cascading metadata into content as well as a multi-route retrieval mechanism. We also release a benchmark called MasQA to evaluate and research in MDQA. Finally, HiQA demonstrates the state-of-the-art performance in multi-document environments.
+    arXiv:2606.27321v1 Announce Type: cross  Abstract: Sparse autoencoders (SAEs) have become a leading tool for interpreting the representations of vision foundation models, decomposing their polysemantic activations into a larger set of sparse, more monosemantic features. The Top-$k$ SAE, a now-standard variant, enforces sparsity architecturally through its activation function, retaining only the $k$ most active latents per input. Because it was designed precisely to avoid the $\ell_1$ penalty used by earlier SAEs and its known drawbacks, it has not been combined with an explicit sparsity regularizer, despite retaining limitations of its own, such as a budget $k$ that is fixed regardless of input complexity and a tendency to overfit to the training value of $k$. We introduce two sparsity regularizers compatible with the Top-$k$ architecture, both acting on the activations before the Top-$k$ selection: an $\ell_1$ penalty on the unselected (off-support) units, and a scale-invariant $\ell_
     
-[^3]: 基于变分自编码器的联邦主题模型和模型剪枝
+[^2]: 通过特征诱导的信息流解释时序图神经网络
 
-    Federated Topic Model and Model Pruning Based on Variational Autoencoder. (arXiv:2311.00314v1 [cs.LG])
+    Explaining Temporal Graph Neural Networks via Feature-induced Information Flow
 
-    [http://arxiv.org/abs/2311.00314](http://arxiv.org/abs/2311.00314)
+    [https://arxiv.org/abs/2606.27201](https://arxiv.org/abs/2606.27201)
 
-    本论文提出了一种基于变分自编码器的联邦主题模型和模型剪枝方法，用于解决跨多个方参与交叉分析时的数据隐私问题，并通过神经网络模型剪枝加速模型。两种不同的方法被提出来确定模型剪枝率。
-
-    
-
-    主题建模已经成为在大规模文档集合中发现模式和主题的有价值工具。然而，当跨多个方参与交叉分析时，数据隐私成为一个关键问题。联邦主题建模已经被开发出来解决这个问题，允许多个参与方在保护隐私的同时共同训练模型。然而，在联邦场景中存在通信和性能挑战。为了解决上述问题，本文提出了一种建立联邦主题模型并确保每个节点隐私的方法，并使用神经网络模型剪枝加速模型，其中客户端定期将模型神经元累积梯度和模型权重发送给服务器，服务器对模型进行剪枝。为了满足不同的要求，提出了两种确定模型剪枝率的不同方法。
-
-    Topic modeling has emerged as a valuable tool for discovering patterns and topics within large collections of documents. However, when cross-analysis involves multiple parties, data privacy becomes a critical concern. Federated topic modeling has been developed to address this issue, allowing multiple parties to jointly train models while protecting pri-vacy. However, there are communication and performance challenges in the federated sce-nario. In order to solve the above problems, this paper proposes a method to establish a federated topic model while ensuring the privacy of each node, and use neural network model pruning to accelerate the model, where the client periodically sends the model neu-ron cumulative gradients and model weights to the server, and the server prunes the model. To address different requirements, two different methods are proposed to determine the model pruning rate. The first method involves slow pruning throughout the entire model training process, which has 
-    
-[^4]: 机会平等对统计性歧视的影响
-
-    The Impact of Equal Opportunity on Statistical Discrimination. (arXiv:2310.04585v1 [econ.TH])
-
-    [http://arxiv.org/abs/2310.04585](http://arxiv.org/abs/2310.04585)
-
-    本文通过修改统计性歧视模型，考虑了由机器学习生成的可合同化信念，给监管者提供了一种超过肯定行动的工具，通过要求公司选取一个平衡不同群体真正阳性率的决策策略，实现机会平等来消除统计性歧视。
+    提出了一种基于正则化相关性度量框架的新归因方法，通过分析所有事件相关变量中的完整信息流，克服了现有方法忽略事件诱导变量路径的局限，从而更全面地解释基于事件的时序图神经网络。
 
     
 
-    本文修改了Coate和Loury（1993）的经典统计性歧视模型，假设公司对个体未观察到的类别的信念是由机器学习生成的，因此是可合同化的。这扩展了监管者的工具箱，超出了像肯定行动这样的无信念规定。可合同化的信念使得要求公司选择一个决策策略，使得不同群体之间的真正阳性率相等（算法公平文献中所称的机会平等）成为可能。尽管肯定行动不一定能消除统计性歧视，但本文表明实施机会平等可以做到。
+    arXiv:2606.27201v1 公告类型：新 摘要：基于事件的时序图神经网络（ETGNNs）在社交网络分析、疫情追踪、推荐系统和政治事件预测等多种应用中表现出强大的性能。然而，其日益增长的复杂性对可解释性提出了重大挑战。现有的解释方法仅关注ETGNNs中信息流的一部分，通常追踪从事件相关嵌入到输出的贡献。因此，它们忽略了通过事件诱导变量的重要路径，这些变量介导了节点之间的交互，从而在捕捉长期时序依赖中发挥核心作用。为克服这一局限，我们提出了一种新的归因方法，分析所有事件相关变量中的完整信息流。我们的方法建立在最近的正则化相关性度量（NRM）框架之上，从而实现了可解释性。
 
-    I modify the canonical statistical discrimination model of Coate and Loury (1993) by assuming the firm's belief about an individual's unobserved class is machine learning-generated and, therefore, contractible. This expands the toolkit of a regulator beyond belief-free regulations like affirmative action. Contractible beliefs make it feasible to require the firm to select a decision policy that equalizes true positive rates across groups -- what the algorithmic fairness literature calls equal opportunity. While affirmative action does not necessarily end statistical discrimination, I show that imposing equal opportunity does.
+    arXiv:2606.27201v1 Announce Type: new  Abstract: Event-based Temporal Graph Neural Networks (ETGNNs) have demonstrated strong performance across a wide range of applications, including social network analysis, epidemic tracing, recommender systems, and political event forecasting. However, their increasing complexity poses significant challenges for explainability. Existing explanation methods focus only on a subset of the information flow within ETGNNs, typically tracing contributions from the event-related embeddings to the output. Consequently, they overlook the important pathways through event-induced variables, which mediate interactions between nodes and thereby play a central role in capturing long-range temporal dependencies. To overcome this limitation, we propose a novel attribution method that analyzes the \emph{entire} information flow through all event-associated variables. Our method is built upon the recent Normalized Relevance Measure (NRM) framework, which enables expl
+    
+[^3]: TopCoW：基于拓扑感知解剖分割的Willis循环（CoW）在CTA和MRA中的基准测试
+
+    TopCoW: Benchmarking Topology-Aware Anatomical Segmentation of the Circle of Willis (CoW) for CTA and MRA. (arXiv:2312.17670v2 [cs.CV] UPDATED)
+
+    [http://arxiv.org/abs/2312.17670](http://arxiv.org/abs/2312.17670)
+
+    这项研究提出了TopCoW挑战，通过发布具有13种血管组分注释的Willis循环（CoW）数据集，并使用虚拟现实（VR）技术进行拓扑感知解剖分割，解决了手动和耗时的CoW表征问题。
+
+    
+
+    Willis循环（CoW）是连接大脑主要循环的重要动脉网络。其血管结构被认为影响着严重神经血管疾病的风险、严重程度和临床结果。然而，对高度变化的CoW解剖进行表征仍然是一项需要手动和耗时的专家任务。CoW通常通过两种血管造影成像模式进行成像，即磁共振血管成像（MRA）和计算机断层血管造影（CTA），但是关于CTA的CoW解剖的公共数据集及其注释非常有限。因此，我们在2023年组织了TopCoW挑战赛，并发布了一个带有注释的CoW数据集。TopCoW数据集是第一个具有13种可能的CoW血管组分的体素级注释的公共数据集，通过虚拟现实（VR）技术实现。它也是第一个带有来自同一患者的成对MRA和CTA的大型数据集。TopCoW挑战将CoW表征问题形式化为多类问题。
+
+    The Circle of Willis (CoW) is an important network of arteries connecting major circulations of the brain. Its vascular architecture is believed to affect the risk, severity, and clinical outcome of serious neuro-vascular diseases. However, characterizing the highly variable CoW anatomy is still a manual and time-consuming expert task. The CoW is usually imaged by two angiographic imaging modalities, magnetic resonance angiography (MRA) and computed tomography angiography (CTA), but there exist limited public datasets with annotations on CoW anatomy, especially for CTA. Therefore we organized the TopCoW Challenge in 2023 with the release of an annotated CoW dataset. The TopCoW dataset was the first public dataset with voxel-level annotations for thirteen possible CoW vessel components, enabled by virtual-reality (VR) technology. It was also the first large dataset with paired MRA and CTA from the same patients. TopCoW challenge formalized the CoW characterization problem as a multiclas
     
 
