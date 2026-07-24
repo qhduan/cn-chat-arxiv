@@ -2,52 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Sketched Linear Contrastive Learning: Approximation, Optimization, and Statistical Scaling](https://arxiv.org/abs/2606.26617) | 本文针对对比学习中的草图线性模型，推导了包含近似、优化和统计误差的显式尺度定律，揭示了草图维度、样本大小与光谱衰减率之间的权衡关系。 |
-| [^2] | [Sample-efficient Transfer Reinforcement Learning via Adaptive Reward Shaping and Policy-Ratio Reweighting Strategy](https://arxiv.org/abs/2606.26527) | 本文提出了一种通过自适应奖励塑造和策略比重新加权策略解决迁移分布偏移与安全探索冲突的自主车道变换强化学习框架。 |
-| [^3] | [Kernel Ridge Regression Inference.](http://arxiv.org/abs/2302.06578) | 我们提供了核岭回归方法的一致推断和置信带，为广泛应用于各种数据类型的非参数回归估计器提供了准确的统计推断方法。 |
+| [^1] | [Graph Reinforcement Learning for Calibration-Aware Quantum Circuit Routing](https://arxiv.org/abs/2606.12816) | 该论文提出了一种利用实时校准数据通过图强化学习进行量子电路路由的方法，在中小型量子电路上显著提升了保真度，平均精确保真度达到0.727，远超基线方法。 |
+| [^2] | [SymQNet: Amortized Acquisition for Low-Latency Adaptive Hamiltonian Learning](https://arxiv.org/abs/2606.12808) | 本文提出SymQNet，一种通过离线学习后验条件采集策略并在线快速执行，从而大幅降低自适应哈密顿学习延迟的摊销强化学习方法。 |
 
 # 详细
 
-[^1]: 草图线性对比学习：近似、优化与统计尺度
+[^1]: 面向校准感知的量子电路路由的图强化学习
 
-    Sketched Linear Contrastive Learning: Approximation, Optimization, and Statistical Scaling
+    Graph Reinforcement Learning for Calibration-Aware Quantum Circuit Routing
 
-    [https://arxiv.org/abs/2606.26617](https://arxiv.org/abs/2606.26617)
+    [https://arxiv.org/abs/2606.12816](https://arxiv.org/abs/2606.12816)
 
-    本文针对对比学习中的草图线性模型，推导了包含近似、优化和统计误差的显式尺度定律，揭示了草图维度、样本大小与光谱衰减率之间的权衡关系。
-
-    
-
-    arXiv:2606.26617v1 公告类型：新 摘要：尺度定律描述了学习性能如何随模型大小、数据规模和计算量变化。虽然近期理论工作已为草图线性回归建立了尺度定律，但对对比表征学习的理解仍非常有限。本文研究了一种在配对高斯潜变量设置下用于对比学习的草图线性模型。学习者仅观察到两个相关变量的草图化视图，并通过全批次经验梯度下降训练一个双线性对比评分。我们在对齐幂律谱和对比源条件下分析了一个高斯负二次对比代理函数，其中我们将风险分解为不可约风险、近似误差、梯度下降偏差、梯度下降方差和一个交叉项。交叉项由偏差和方差控制，因此不影响上界尺度。我们的主要定理给出了一个关于草图化维度、样本大小、模型秩和光谱衰减率的显式尺度定律，并揭示了近似误差、优化偏差和统计方差之间的权衡。我们还刻画了梯度下降的动态行为，展示了早期停止如何通过避免过度拟合噪声特征来改善泛化性能。数值实验验证了理论预测。
-
-    arXiv:2606.26617v1 Announce Type: new  Abstract: Scaling laws describe how learning performance varies with model size, data size, and compute. While recent theoretical work has established scaling laws for sketched linear regression, much less is understood for contrastive representation learning. In this paper, we study a sketched linear model for contrastive learning under a paired Gaussian latent-variable setup. The learner observes only sketched views of two correlated variables and trains a bilinear contrastive score by full-batch empirical gradient descent. We analyze a Gaussian-negative quadratic contrastive surrogate under aligned power-law spectra and a contrastive source condition, where we derive a risk decomposition into irreducible risk, approximation error, GD bias, GD variance, and a cross term. The cross term is controlled by the bias and variance and therefore does not affect the upper-bound scaling. Our main theorem gives an explicit scaling law with respect to sketc
-    
-[^2]: 基于自适应奖励塑造与策略比重新加权策略的高效样本迁移强化学习
-
-    Sample-efficient Transfer Reinforcement Learning via Adaptive Reward Shaping and Policy-Ratio Reweighting Strategy
-
-    [https://arxiv.org/abs/2606.26527](https://arxiv.org/abs/2606.26527)
-
-    本文提出了一种通过自适应奖励塑造和策略比重新加权策略解决迁移分布偏移与安全探索冲突的自主车道变换强化学习框架。
+    该论文提出了一种利用实时校准数据通过图强化学习进行量子电路路由的方法，在中小型量子电路上显著提升了保真度，平均精确保真度达到0.727，远超基线方法。
 
     
 
-    arXiv:2606.26527v1 公告类型：新 摘要：迁移学习通过重用源任务的知识来提高策略学习效率，为安全高效的自主高速公路车道变换决策提供了一种可行的范式。现有方法经常遭遇由源域和目标域之间分布偏移引起的迁移不匹配，导致训练振荡和性能下降。此外，目标域适应依赖于探索性交互，这在安全关键的车道变换场景中难以保证训练安全性。为解决这些限制，本文提出了一种用于自主高速公路车道变换的安全迁移强化学习框架。首先，我们设计了一种基于瞬时安全成本的自适应教师干预机制，以抑制风险探索并逐渐减弱干预强度，并对混合行为策略的回报边界进行了理论分析。这种干预还产生了双源……
+    arXiv:2606.12816v3 公告类型：替换-交叉 摘要：量子电路路由是为噪声中等规模量子处理器编译程序的关键步骤。即使通过标准开销指标看起来高效的路径，当它们经过校准不良的耦合器时，仍然可能损失保真度。我们研究了一种校准感知的图强化学习路由器，它利用同一天的IBM Heron r2校准数据来选择硬件边缘的SWAP操作。我们使用近端策略优化训练该策略，并通过九个慕尼黑量子工具包（MQT）基准电路和三个校准快照，以精确模拟的保真度对其进行评估。在这些评估中，合并的平均精确保真度为0.727，而SABRE-best20为0.440，目标感知SABRE为0.481。我们观察到，保真度的提升伴随着更高的路由双量子比特计数，并且集中在5量子比特和8量子比特电路族中；在固定的树状动作图下，所有10量子比特族都更倾向于SABRE-best20。总体而言，我们的方法在中小型电路上显著优于基线。
 
-    arXiv:2606.26527v1 Announce Type: new  Abstract: Transfer learning improves policy learning efficiency by reusing knowledge from source tasks, providing a feasible paradigm for safe and efficient autonomous highway lane changing decision-making. Existing methods frequently encounter transfer mismatch induced by distribution shifts between source and target domains, leading to training oscillation and performance decline. Besides, target domain adaptation depends on exploratory interactions, which struggles to guarantee training safety in safety-critical lane changing cases. To tackle these limitations, this paper proposes a safe transfer reinforcement learning framework for autonomous highway lane changing. First, we design an adaptive teacher intervention mechanism based on instantaneous safety cost to restrain risky exploration and fade intervention strength progressively, with theoretical analysis on return bounds for mixed behavior policy. This intervention also produces dual-sourc
+    arXiv:2606.12816v3 Announce Type: replace-cross  Abstract: Quantum circuit routing is a key step in compiling programs for noisy intermediate-scale quantum processors. Routes that appear efficient by standard overhead metrics can still lose fidelity when they pass through poorly calibrated couplers. We study a calibration-aware graph reinforcement-learning router that uses same-day IBM Heron r2 calibration data to choose hardware-edge SWAPs. We train the policy with proximal policy optimization and evaluate it with exact simulated fidelity across nine Munich Quantum Toolkit (MQT) Bench circuits and three calibration snapshots. Across these evaluations, pooled mean exact fidelity is $0.727$, compared with $0.440$ for SABRE-best20 and $0.481$ for target-aware SABRE. We observed that fidelity gains came with higher routed two-qubit counts and were concentrated in 5 qubit and 8 qubit circuit families; under the fixed tree action graph, all 10 qubit families favored SABRE-best20. Overall, o
     
-[^3]: 核岭回归推断
+[^2]: SymQNet：面向低延迟自适应哈密顿学习的摊销采集方法
 
-    Kernel Ridge Regression Inference. (arXiv:2302.06578v2 [math.ST] UPDATED)
+    SymQNet: Amortized Acquisition for Low-Latency Adaptive Hamiltonian Learning
 
-    [http://arxiv.org/abs/2302.06578](http://arxiv.org/abs/2302.06578)
+    [https://arxiv.org/abs/2606.12808](https://arxiv.org/abs/2606.12808)
 
-    我们提供了核岭回归方法的一致推断和置信带，为广泛应用于各种数据类型的非参数回归估计器提供了准确的统计推断方法。
+    本文提出SymQNet，一种通过离线学习后验条件采集策略并在线快速执行，从而大幅降低自适应哈密顿学习延迟的摊销强化学习方法。
 
     
 
-    我们提供了核岭回归(KRR)的一致推断和置信带，这是一种广泛应用于包括排名、图像和图表在内的一般数据类型的非参数回归估计器。尽管这些数据的普遍存在，如学校分配中的排序优先级列表，但KRR的推断理论尚未完全知悉，限制了它在经济学和其他科学领域中的作用。我们构建了针对一般回归器的尖锐、一致的置信区间。为了进行推断，我们开发了一种有效的自举程序，通过对称化来消除偏差并限制计算开销。为了证明该程序，我们推导了再生核希尔伯特空间(RKHS)中部分和的有限样本、均匀高斯和自举耦合。这些推导暗示了基于RKHS单位球的经验过程的强逼近，对覆盖数具有对数依赖关系。模拟验证了置信度。
+    自适应哈密顿学习是校准和表征量子器件的核心。在自适应控制器中，选择下一个实验本身就是一个计算过程。贝叶斯设计规则在每次后验更新后都会重新计算，这一步骤可能需要数秒时间。在数百次实验轮次中，这些秒数会累积成为自适应过程显著的时钟时间成本。我们提出了SymQNet，一种用于低延迟自适应哈密顿学习的摊销强化学习方法。SymQNet离线学习一个基于后验条件的采集策略，然后在线使用快速策略前向传播，同时保留贝叶斯后验反馈。在横向场伊辛模型基准测试中，与有界费舍尔信息搜索和有界两步贝叶斯主动学习（BALD）相比，SymQNet显著降低了采集延迟。在五个量子比特上，相对于这两种方法，其仅采集决策延迟分别降低了47.1倍和72.6倍。
 
-    We provide uniform inference and confidence bands for kernel ridge regression (KRR), a widely-used non-parametric regression estimator for general data types including rankings, images, and graphs. Despite the prevalence of these data -e.g., ranked preference lists in school assignment -- the inferential theory of KRR is not fully known, limiting its role in economics and other scientific domains. We construct sharp, uniform confidence sets for KRR, which shrink at nearly the minimax rate, for general regressors. To conduct inference, we develop an efficient bootstrap procedure that uses symmetrization to cancel bias and limit computational overhead. To justify the procedure, we derive finite-sample, uniform Gaussian and bootstrap couplings for partial sums in a reproducing kernel Hilbert space (RKHS). These imply strong approximation for empirical processes indexed by the RKHS unit ball with logarithmic dependence on the covering number. Simulations verify coverage. We use our proce
+    arXiv:2606.12808v3 Announce Type: replace-cross  Abstract: Adaptive Hamiltonian learning is central to calibrating and characterizing quantum devices. In an adaptive controller, choosing the next experiment is itself a computation. Bayesian design rules are recomputed after every posterior update, and that step can take seconds. Across hundreds of shots, those seconds become a significant wall-clock cost for adaptivity. We introduce SymQNet, an amortized reinforcement-learning approach for low-latency adaptive Hamiltonian learning. SymQNet learns a posterior-conditioned acquisition policy offline, then uses a fast policy forward pass online while retaining Bayesian posterior feedback. On transverse-field Ising benchmarks, SymQNet substantially reduces acquisition latency relative to bounded Fisher-information search and bounded two-step Bayesian active learning by disagreement (BALD). At five qubits, it reduces acquisition-only decision latency by $47.1\times$ and $72.6\times$ relative
     
 
