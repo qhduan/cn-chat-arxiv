@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Mapping Political-Elite Networks in Europe with a Multilingual Joint Entity-Relation Extraction Pipeline](https://arxiv.org/abs/2606.27347) | 提出了一种模块化、完全开源的多语言联合实体关系抽取流水线，通过结合跨度NER和三阶段链接级联，从大规模新闻语料中构建带符号的时间知识图谱，解决了现有方法依赖专有API、缺乏跨语言能力及可扩展性差的问题。 |
+| [^1] | [Speed Reading Tool Powered by Artificial Intelligence for Students with ADHD, Dyslexia, or Short Attention Span.](http://arxiv.org/abs/2307.14544) | 这项研究提出了一种基于人工智能的速读工具，用于帮助患有ADHD、诵读困难或注意力不集中的学生更高效地消化文本信息。该工具利用多层感知机算法和T5模型，通过文本处理和摘要任务实现。同时，该工具还应用了仿生阅读原则来增强可读性。 |
 
 # 详细
 
-[^1]: 绘制欧洲政治精英网络：一种多语言联合实体关系抽取流水线
+[^1]: 基于人工智能的速读工具，用于辅助患有ADHD、诵读困难或注意力不集中的学生
 
-    Mapping Political-Elite Networks in Europe with a Multilingual Joint Entity-Relation Extraction Pipeline
+    Speed Reading Tool Powered by Artificial Intelligence for Students with ADHD, Dyslexia, or Short Attention Span. (arXiv:2307.14544v1 [cs.CL])
 
-    [https://arxiv.org/abs/2606.27347](https://arxiv.org/abs/2606.27347)
+    [http://arxiv.org/abs/2307.14544](http://arxiv.org/abs/2307.14544)
 
-    提出了一种模块化、完全开源的多语言联合实体关系抽取流水线，通过结合跨度NER和三阶段链接级联，从大规模新闻语料中构建带符号的时间知识图谱，解决了现有方法依赖专有API、缺乏跨语言能力及可扩展性差的问题。
+    这项研究提出了一种基于人工智能的速读工具，用于帮助患有ADHD、诵读困难或注意力不集中的学生更高效地消化文本信息。该工具利用多层感知机算法和T5模型，通过文本处理和摘要任务实现。同时，该工具还应用了仿生阅读原则来增强可读性。
 
     
 
-    arXiv:2606.27347v1 公告类型：新 摘要：政治精英是组织成寻租联盟以攫取公共资源，还是形成维持治理的公民网络，是比较政治学的一个核心问题。然而，大规模观察这些复杂、非正式且充满对抗性的关系，历史上需要大量的人工编码，而基于文本的数据自动化方法大多局限于简单的共现分析。近期的大语言模型方法提供了一条前进道路，但往往依赖专有API、缺乏跨语言能力，并且在可扩展的实体消解方面存在困难。我们提出了一种模块化、完全开源的流水线，用于多语言联合实体关系抽取，该流水线能够从大规模非结构化新闻语料中构建带符号的时间知识图谱。它结合了基于跨度的命名实体识别与一个三阶段链接级联，将提及映射到语言无关的Wikidata标识符；一个高吞吐量、本体约束的混合模型。
+    本文提出了一种新颖的方法，用于帮助患有诵读困难、ADHD和注意力不集中的学生更高效地消化任何基于文本的信息。所提出的解决方案利用了多层感知机（MLP）算法进行复杂文本处理和摘要任务。该工具利用了Hugging Face的T5（文本到文本转换器）模型，将每个自然语言处理任务视为文本生成任务。模型使用较小的数据集对特定任务进行微调。NLTK的Punkt句子分词器用于将文本分割为句子列表。应用程序使用轻量级Web服务器和框架Flask提供。该工具还应用了仿生阅读的原则来增强可读性，包括加粗功能和对行、单词和字符间距的调整。本文讨论了基于人工智能的速读工具的方法、实现和结果。
 
-    arXiv:2606.27347v1 Announce Type: new  Abstract: Whether political elites organise into rent-seeking coalitions that capture public resources or civic networks that sustain governance is a central question in comparative politics. Yet observing these complex, informal, and adversarial ties at scale has historically required intensive manual coding, while automated text-as-data methods have largely been limited to simple co-occurrence. Recent large language model (LLM) approaches offer a path forward but often rely on proprietary APIs, lack cross-lingual capability, and struggle with scalable entity resolution. We present a modular, fully open-weight pipeline for multilingual joint entity-relation extraction that builds signed, temporal knowledge graphs from massive unstructured news corpora. It combines span-based named-entity recognition (NER) with a three-stage linking cascade mapping mentions to language-independent Wikidata identifiers; a high-throughput, ontology-constrained mixtu
+    This paper presents a novel approach to assist students with dyslexia, ADHD, and short attention span in digesting any text-based information more efficiently. The proposed solution utilizes the Multilayer Perceptron (MLP) algorithm for complex text processing and summarization tasks. The tool leverages the T5 (Text-to-Text Transfer Transformer) model from Hugging Face, which treats every NLP task as a text generation task. The model is fine-tuned on specific tasks using a smaller dataset. The NLTK's Punkt Sentence Tokenizer is used to divide a text into a list of sentences. The application is served using Flask, a lightweight web server and framework. The tool also applies principles from Bionic Reading to enhance readability, which includes a bolding function and adjustments to line, word, and character spacing. The paper discusses the methodology, implementation, and results of the AI-based speed reading tool.
     
 
