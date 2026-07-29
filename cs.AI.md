@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Speed Reading Tool Powered by Artificial Intelligence for Students with ADHD, Dyslexia, or Short Attention Span.](http://arxiv.org/abs/2307.14544) | 这项研究提出了一种基于人工智能的速读工具，用于帮助患有ADHD、诵读困难或注意力不集中的学生更高效地消化文本信息。该工具利用多层感知机算法和T5模型，通过文本处理和摘要任务实现。同时，该工具还应用了仿生阅读原则来增强可读性。 |
+| [^1] | [Investigating Collaborative Data Practices: a Case Study on Artificial Intelligence for Healthcare Research.](http://arxiv.org/abs/2311.18424) | 本文通过研究英国多种长期疾病研究联盟中的参与者的访谈，探讨了协作数据实践的工具、沟通过程和环境，以及协作工作的条件和障碍。研究结果显示了工具的适应性和信息根据受众的个性化，以及电子医疗记录和数据集访问的限制。 |
 
 # 详细
 
-[^1]: 基于人工智能的速读工具，用于辅助患有ADHD、诵读困难或注意力不集中的学生
+[^1]: 探究协作数据实践：以医疗健康研究中的人工智能为例的案例研究
 
-    Speed Reading Tool Powered by Artificial Intelligence for Students with ADHD, Dyslexia, or Short Attention Span. (arXiv:2307.14544v1 [cs.CL])
+    Investigating Collaborative Data Practices: a Case Study on Artificial Intelligence for Healthcare Research. (arXiv:2311.18424v2 [cs.HC] UPDATED)
 
-    [http://arxiv.org/abs/2307.14544](http://arxiv.org/abs/2307.14544)
+    [http://arxiv.org/abs/2311.18424](http://arxiv.org/abs/2311.18424)
 
-    这项研究提出了一种基于人工智能的速读工具，用于帮助患有ADHD、诵读困难或注意力不集中的学生更高效地消化文本信息。该工具利用多层感知机算法和T5模型，通过文本处理和摘要任务实现。同时，该工具还应用了仿生阅读原则来增强可读性。
+    本文通过研究英国多种长期疾病研究联盟中的参与者的访谈，探讨了协作数据实践的工具、沟通过程和环境，以及协作工作的条件和障碍。研究结果显示了工具的适应性和信息根据受众的个性化，以及电子医疗记录和数据集访问的限制。
 
     
 
-    本文提出了一种新颖的方法，用于帮助患有诵读困难、ADHD和注意力不集中的学生更高效地消化任何基于文本的信息。所提出的解决方案利用了多层感知机（MLP）算法进行复杂文本处理和摘要任务。该工具利用了Hugging Face的T5（文本到文本转换器）模型，将每个自然语言处理任务视为文本生成任务。模型使用较小的数据集对特定任务进行微调。NLTK的Punkt句子分词器用于将文本分割为句子列表。应用程序使用轻量级Web服务器和框架Flask提供。该工具还应用了仿生阅读的原则来增强可读性，包括加粗功能和对行、单词和字符间距的调整。本文讨论了基于人工智能的速读工具的方法、实现和结果。
+    开发医疗健康领域的人工智能工具是一项协作工作，将数据科学家、临床医生、患者和其他学科汇集在一起。本文通过对英国应用人工智能工具来理解和管理多种长期疾病的研究联盟中的参与者进行的13次半结构化访谈的归纳主题分析，探讨了协作数据实践的工具、沟通过程和环境，以及协作工作的条件和障碍。我们的研究结果揭示了共享知识所使用的工具的适应性以及根据受众，特别是临床医生或患者的观点进行信息定制。同时，我们还发现了电子医疗记录和数据集访问的限制限制了这种定制的能力。我们确定了会议是关键的环境设置。
 
-    This paper presents a novel approach to assist students with dyslexia, ADHD, and short attention span in digesting any text-based information more efficiently. The proposed solution utilizes the Multilayer Perceptron (MLP) algorithm for complex text processing and summarization tasks. The tool leverages the T5 (Text-to-Text Transfer Transformer) model from Hugging Face, which treats every NLP task as a text generation task. The model is fine-tuned on specific tasks using a smaller dataset. The NLTK's Punkt Sentence Tokenizer is used to divide a text into a list of sentences. The application is served using Flask, a lightweight web server and framework. The tool also applies principles from Bionic Reading to enhance readability, which includes a bolding function and adjustments to line, word, and character spacing. The paper discusses the methodology, implementation, and results of the AI-based speed reading tool.
+    Developing artificial intelligence (AI) tools for healthcare is a collaborative effort, bringing data scientists, clinicians, patients and other disciplines together. In this paper, we explore the collaborative data practices of research consortia tasked with applying AI tools to understand and manage multiple long-term conditions in the UK. Through an inductive thematic analysis of 13 semi-structured interviews with participants of these consortia, we aimed to understand how collaboration happens based on the tools used, communication processes and settings, as well as the conditions and obstacles for collaborative work. Our findings reveal the adaptation of tools that are used for sharing knowledge and the tailoring of information based on the audience, particularly those from a clinical or patient perspective. Limitations on the ability to do this were also found to be imposed by the use of electronic healthcare records and access to datasets. We identified meetings as the key setti
     
 
