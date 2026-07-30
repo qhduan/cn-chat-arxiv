@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [NOVA: A Verification-Aware Agent Harness for Architecture Evolution in Industrial Recommender Systems](https://arxiv.org/abs/2606.27243) | NOVA 通过引入“架构梯度”这一受SGD启发的不可微更新信号，实现了对工业推荐系统架构演进的验证感知自动化，解决了现有方法仅关注代码可运行性而忽视架构有效性的问题。 |
+| [^1] | [Library Drift: Diagnosing and Fixing a Silent Failure Mode in Self-Evolving LLM Skill Libraries](https://arxiv.org/abs/2605.19576) | 本文首次系统性地识别、诊断并修复了自我进化型大语言模型技能库中的“库漂移”问题，通过可复现的触发条件、追踪级诊断工具和最小化治理方案，有效解决了无管理技能积累导致的性能停滞。 |
 
 # 详细
 
-[^1]: NOVA：面向工业推荐系统架构演进的验证感知智能体框架
+[^1]: 库漂移：诊断与修复自我进化型大语言模型技能库中的一种静默失效模式
 
-    NOVA: A Verification-Aware Agent Harness for Architecture Evolution in Industrial Recommender Systems
+    Library Drift: Diagnosing and Fixing a Silent Failure Mode in Self-Evolving LLM Skill Libraries
 
-    [https://arxiv.org/abs/2606.27243](https://arxiv.org/abs/2606.27243)
+    [https://arxiv.org/abs/2605.19576](https://arxiv.org/abs/2605.19576)
 
-    NOVA 通过引入“架构梯度”这一受SGD启发的不可微更新信号，实现了对工业推荐系统架构演进的验证感知自动化，解决了现有方法仅关注代码可运行性而忽视架构有效性的问题。
+    本文首次系统性地识别、诊断并修复了自我进化型大语言模型技能库中的“库漂移”问题，通过可复现的触发条件、追踪级诊断工具和最小化治理方案，有效解决了无管理技能积累导致的性能停滞。
 
     
 
-    arXiv:2606.27243v1 公告类型：新文 摘要：工业广告推荐模型通过架构演进持续改进。诸如RankMixer、TokenMixer-Large和MixFormer等升级表明，更好的结构仍然是质量和业务收益的关键来源。然而，在生产环境中开发此类升级需要大量专家投入且难以规模化。现有自动化方法存在不足：AutoML主要调优超参数，而有效收益往往需要在严格约束下进行跨模块更改；通用LLM编码智能体优化可运行代码，但可运行代码并不意味着有效的推荐架构。候选方案可能通过局部测试，但会导致静默故障从而降低性能。我们提出了NOVA，一种用于验证感知架构演进的层级感知智能体框架。NOVA使用架构梯度，这是一种受SGD启发的、不可微的更新信号，它聚合了先前的修改、验证诊断和指标反馈。
+    arXiv:2605.19576v2 公告类型：替换 摘要：自我进化的技能库面临一种我们称之为“库漂移”的静默失效模式：无限制的技能积累缺乏基于结果的生命周期管理，导致检索退化、误报注入以及性能停滞。最近的评估证实了该症状（大语言模型生成的技能带来+0.0%的提升，而人工整理的技能带来+16.2%的提升（SkillsBench）），但其根本机制尚未被分离。我们提供：（1）一个**可复现的触发条件**：通过消融实验隔离漂移：一项禁用技能注入（平坦基线，+0.002），另一项强制过早淘汰（主动损害，-0.019）；（2）**追踪级别的诊断**：一个仅追加的日志，包含每项技能的贡献分数、归属判定和路由器参与指标，使故障在影响最终任务得分之前即可被发现；（3）**经过验证的修复方案**：一个最小化的治理方案（基于结果的淘汰 + 有界活跃缓存）。
 
-    arXiv:2606.27243v1 Announce Type: new  Abstract: Industrial advertising recommender models are continuously improved through architecture evolution. Upgrades such as RankMixer, TokenMixer-Large, and MixFormer show that better structures remain a key source of quality and business gains. Yet developing such upgrades in production is expert-intensive and difficult to scale. Existing automation is insufficient: AutoML mainly tunes hyper-parameters, while effective gains often require cross-module changes under strict constraints; generic LLM coding agents optimize for runnable code, but runnable code does not imply a valid recommender architecture. Candidates may pass local tests while causing silent failures that degrade performance.   We present NOVA, a level-aware agent harness for verification-aware architecture evolution. NOVA uses an architecture gradient, an SGD-inspired, non-differentiable update signal that aggregates prior modifications, verification diagnostics, metric feedback
+    arXiv:2605.19576v2 Announce Type: replace  Abstract: Self-evolving skill libraries face a silent failure mode we term \emph{library drift}: unbounded skill accumulation without outcome-driven lifecycle management causes retrieval degradation, false-positive injections, and performance stagnation. Recent evaluation confirms the symptom (LLM-authored skills deliver +0.0pp gain while human-curated ones deliver +16.2pp (SkillsBench)), yet the underlying mechanism has not been isolated. We provide (1) a \textbf{reproducible trigger}: ablations that isolate drift: one disables skill injection (flat floor, +0.002), one imposes premature retirement (active harm, $-$0.019); (2) \textbf{trace-level diagnostics}: an append-only evidence log with per-skill contribution scores, attribution verdicts, and router engagement metrics that make the failure visible before it reaches end-task scores; and (3) a \textbf{verified fix}: a minimal governance recipe (outcome-driven retirement + bounded active-ca
     
 
