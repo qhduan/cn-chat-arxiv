@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Investigating Collaborative Data Practices: a Case Study on Artificial Intelligence for Healthcare Research.](http://arxiv.org/abs/2311.18424) | 本文通过研究英国多种长期疾病研究联盟中的参与者的访谈，探讨了协作数据实践的工具、沟通过程和环境，以及协作工作的条件和障碍。研究结果显示了工具的适应性和信息根据受众的个性化，以及电子医疗记录和数据集访问的限制。 |
+| [^1] | [Library Drift: Diagnosing and Fixing a Silent Failure Mode in Self-Evolving LLM Skill Libraries](https://arxiv.org/abs/2605.19576) | 本文首次系统性地识别、诊断并修复了自我进化型大语言模型技能库中的“库漂移”问题，通过可复现的触发条件、追踪级诊断工具和最小化治理方案，有效解决了无管理技能积累导致的性能停滞。 |
 
 # 详细
 
-[^1]: 探究协作数据实践：以医疗健康研究中的人工智能为例的案例研究
+[^1]: 库漂移：诊断与修复自我进化型大语言模型技能库中的一种静默失效模式
 
-    Investigating Collaborative Data Practices: a Case Study on Artificial Intelligence for Healthcare Research. (arXiv:2311.18424v2 [cs.HC] UPDATED)
+    Library Drift: Diagnosing and Fixing a Silent Failure Mode in Self-Evolving LLM Skill Libraries
 
-    [http://arxiv.org/abs/2311.18424](http://arxiv.org/abs/2311.18424)
+    [https://arxiv.org/abs/2605.19576](https://arxiv.org/abs/2605.19576)
 
-    本文通过研究英国多种长期疾病研究联盟中的参与者的访谈，探讨了协作数据实践的工具、沟通过程和环境，以及协作工作的条件和障碍。研究结果显示了工具的适应性和信息根据受众的个性化，以及电子医疗记录和数据集访问的限制。
+    本文首次系统性地识别、诊断并修复了自我进化型大语言模型技能库中的“库漂移”问题，通过可复现的触发条件、追踪级诊断工具和最小化治理方案，有效解决了无管理技能积累导致的性能停滞。
 
     
 
-    开发医疗健康领域的人工智能工具是一项协作工作，将数据科学家、临床医生、患者和其他学科汇集在一起。本文通过对英国应用人工智能工具来理解和管理多种长期疾病的研究联盟中的参与者进行的13次半结构化访谈的归纳主题分析，探讨了协作数据实践的工具、沟通过程和环境，以及协作工作的条件和障碍。我们的研究结果揭示了共享知识所使用的工具的适应性以及根据受众，特别是临床医生或患者的观点进行信息定制。同时，我们还发现了电子医疗记录和数据集访问的限制限制了这种定制的能力。我们确定了会议是关键的环境设置。
+    arXiv:2605.19576v2 公告类型：替换 摘要：自我进化的技能库面临一种我们称之为“库漂移”的静默失效模式：无限制的技能积累缺乏基于结果的生命周期管理，导致检索退化、误报注入以及性能停滞。最近的评估证实了该症状（大语言模型生成的技能带来+0.0%的提升，而人工整理的技能带来+16.2%的提升（SkillsBench）），但其根本机制尚未被分离。我们提供：（1）一个**可复现的触发条件**：通过消融实验隔离漂移：一项禁用技能注入（平坦基线，+0.002），另一项强制过早淘汰（主动损害，-0.019）；（2）**追踪级别的诊断**：一个仅追加的日志，包含每项技能的贡献分数、归属判定和路由器参与指标，使故障在影响最终任务得分之前即可被发现；（3）**经过验证的修复方案**：一个最小化的治理方案（基于结果的淘汰 + 有界活跃缓存）。
 
-    Developing artificial intelligence (AI) tools for healthcare is a collaborative effort, bringing data scientists, clinicians, patients and other disciplines together. In this paper, we explore the collaborative data practices of research consortia tasked with applying AI tools to understand and manage multiple long-term conditions in the UK. Through an inductive thematic analysis of 13 semi-structured interviews with participants of these consortia, we aimed to understand how collaboration happens based on the tools used, communication processes and settings, as well as the conditions and obstacles for collaborative work. Our findings reveal the adaptation of tools that are used for sharing knowledge and the tailoring of information based on the audience, particularly those from a clinical or patient perspective. Limitations on the ability to do this were also found to be imposed by the use of electronic healthcare records and access to datasets. We identified meetings as the key setti
+    arXiv:2605.19576v2 Announce Type: replace  Abstract: Self-evolving skill libraries face a silent failure mode we term \emph{library drift}: unbounded skill accumulation without outcome-driven lifecycle management causes retrieval degradation, false-positive injections, and performance stagnation. Recent evaluation confirms the symptom (LLM-authored skills deliver +0.0pp gain while human-curated ones deliver +16.2pp (SkillsBench)), yet the underlying mechanism has not been isolated. We provide (1) a \textbf{reproducible trigger}: ablations that isolate drift: one disables skill injection (flat floor, +0.002), one imposes premature retirement (active harm, $-$0.019); (2) \textbf{trace-level diagnostics}: an append-only evidence log with per-skill contribution scores, attribution verdicts, and router engagement metrics that make the failure visible before it reaches end-task scores; and (3) a \textbf{verified fix}: a minimal governance recipe (outcome-driven retirement + bounded active-ca
     
 

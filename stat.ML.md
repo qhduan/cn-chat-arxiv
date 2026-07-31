@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Differentially Private Permutation Tests: Applications to Kernel Methods.](http://arxiv.org/abs/2310.19043) | 本文提出了差分隐私排列检验的框架，扩展了经典的非私有排列检验，以在私有环境中保持有限样本有效性和差分隐私性质。该检验的功率取决于检验统计量的选择，并建立了一般条件来保证一致性和非渐进均匀的功率。 |
+| [^1] | [Benchmarks and Custom Package for Electrical Load Forecasting.](http://arxiv.org/abs/2307.07191) | 本文提供了一个全面的电力负荷预测存档，包括负荷领域特定的特征工程，帮助模型更好地模拟负荷数据，并提供了一种新的损失函数来最小化后续任务的成本。 |
 
 # 详细
 
-[^1]: 差分隐私排列检验：应用于核方法
+[^1]: 用于电力负荷预测的基准和自定义包
 
-    Differentially Private Permutation Tests: Applications to Kernel Methods. (arXiv:2310.19043v1 [math.ST])
+    Benchmarks and Custom Package for Electrical Load Forecasting. (arXiv:2307.07191v1 [cs.LG])
 
-    [http://arxiv.org/abs/2310.19043](http://arxiv.org/abs/2310.19043)
+    [http://arxiv.org/abs/2307.07191](http://arxiv.org/abs/2307.07191)
 
-    本文提出了差分隐私排列检验的框架，扩展了经典的非私有排列检验，以在私有环境中保持有限样本有效性和差分隐私性质。该检验的功率取决于检验统计量的选择，并建立了一般条件来保证一致性和非渐进均匀的功率。
+    本文提供了一个全面的电力负荷预测存档，包括负荷领域特定的特征工程，帮助模型更好地模拟负荷数据，并提供了一种新的损失函数来最小化后续任务的成本。
 
     
 
-    近年来，人们对敏感数据的隐私问题越来越关注。为了应对这些问题，差分隐私作为一种严格的隐私保护框架应运而生，在学术界和工业界广泛认可。尽管在私有数据分析方面取得了相当大的进展，但现有的方法往往存在不实用或明显的统计效率损失。本文旨在通过引入差分隐私排列检验来缓解这些担忧。所提出的框架将经典的非私有排列检验扩展到私有环境中，以严格的方式保持有限样本有效性和差分隐私性质。所提出的检验的功率取决于一个检验统计量的选择，并建立了一般条件保证了一致性和非渐进均匀的功率。为了证明我们框架的实用性和可行性，我们重点关注重现核方法。
+    负荷预测在电力行业中具有重要意义，可以为后续任务如电网调度提供参考，从而带来巨大的经济效益。然而，负荷预测与传统的时间序列预测之间存在许多差异。一方面，负荷预测的目标是最小化后续任务（如电网调度）的成本，而不仅仅追求预测准确性。另一方面，负荷受到许多外部因素的影响，如温度或日历变量。此外，预测的规模（如建筑级负荷和聚合级负荷）也会对预测结果产生重大影响。在本文中，我们提供了一个全面的负荷预测存档，其中包括负荷领域特定的特征工程，以帮助预测模型更好地模拟负荷数据。此外，与传统的损失函数仅追求准确性不同，我们还提供了一种方法来...
 
-    Recent years have witnessed growing concerns about the privacy of sensitive data. In response to these concerns, differential privacy has emerged as a rigorous framework for privacy protection, gaining widespread recognition in both academic and industrial circles. While substantial progress has been made in private data analysis, existing methods often suffer from impracticality or a significant loss of statistical efficiency. This paper aims to alleviate these concerns in the context of hypothesis testing by introducing differentially private permutation tests. The proposed framework extends classical non-private permutation tests to private settings, maintaining both finite-sample validity and differential privacy in a rigorous manner. The power of the proposed test depends on the choice of a test statistic, and we establish general conditions for consistency and non-asymptotic uniform power. To demonstrate the utility and practicality of our framework, we focus on reproducing kerne
+    Load forecasting is of great significance in the power industry as it can provide a reference for subsequent tasks such as power grid dispatch, thus bringing huge economic benefits. However, there are many differences between load forecasting and traditional time series forecasting. On the one hand, load forecasting aims to minimize the cost of subsequent tasks such as power grid dispatch, rather than simply pursuing prediction accuracy. On the other hand, the load is largely influenced by many external factors, such as temperature or calendar variables. In addition, the scale of predictions (such as building-level loads and aggregated-level loads) can also significantly impact the predicted results. In this paper, we provide a comprehensive load forecasting archive, which includes load domain-specific feature engineering to help forecasting models better model load data. In addition, different from the traditional loss function which only aims for accuracy, we also provide a method to
     
 
