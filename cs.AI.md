@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Information Processing by Neuron Populations in the Central Nervous System: Mathematical Structure of Data and Operations.](http://arxiv.org/abs/2309.02332) | 神经群体在中枢神经系统中使用数学结构精确地表示和操作信息，实现了特化、泛化、新奇检测等多种功能。 |
+| [^1] | [Mixed-Initiative Human-Robot Teaming under Suboptimality with Online Bayesian Adaptation](https://arxiv.org/abs/2403.16178) | 该论文研究了在次优情况下进行在线贝叶斯适应的混合倡议人机协作的计算建模和优化技术，能够推断人们在协作中是否愿意遵从机器人的帮助。 |
 
 # 详细
 
-[^1]: 神经群体在中枢神经系统中的信息处理：数据和操作的数学结构
+[^1]: 在次优情况下进行在线贝叶斯适应的混合倡议人机协作
 
-    Information Processing by Neuron Populations in the Central Nervous System: Mathematical Structure of Data and Operations. (arXiv:2309.02332v1 [q-bio.NC] CROSS LISTED)
+    Mixed-Initiative Human-Robot Teaming under Suboptimality with Online Bayesian Adaptation
 
-    [http://arxiv.org/abs/2309.02332](http://arxiv.org/abs/2309.02332)
+    [https://arxiv.org/abs/2403.16178](https://arxiv.org/abs/2403.16178)
 
-    神经群体在中枢神经系统中使用数学结构精确地表示和操作信息，实现了特化、泛化、新奇检测等多种功能。
+    该论文研究了在次优情况下进行在线贝叶斯适应的混合倡议人机协作的计算建模和优化技术，能够推断人们在协作中是否愿意遵从机器人的帮助。
 
     
 
-    在哺乳动物中枢神经系统的复杂结构中，神经元形成群体。轴索束通过脉冲列作为媒介在这些群集之间进行通信。然而，这些神经群体的精确编码和操作还有待发现。在我们的分析中，出发点是一个具有可塑性的通用神经元的先进的机械模型。从这个简单的框架中出现了一个深刻的数学构造：通过有限凸锥的代数可以准确地描述信息的表示和操作。此外，这些神经群体不仅仅是被动传输者。它们在这个代数结构中扮演着运算符的角色，反映了低级编程语言的功能。当这些群体互连时，它们具有简洁而强大的代数表达式。这些网络使它们能够实现许多操作，如特化、泛化、新奇检测、维度降低等。
+    为了实现有效的人-智能体协作，机器人和其他人工智能（AI）代理必须推断他们的人类伙伴的能力和行为响应模式，并相应地进行调整。大多数先前的工作都作出了一个不切实际的假设，即一个或多个队友可以在接近最优的情况下行动。在现实世界的协作中，人类和自主代理可能是次优的，特别是当每个人只拥有部分领域知识时。在这项工作中，我们开发了用于增强次优人-智能体团队表现的计算建模和优化技术，其中人类和代理具有不对称的能力，并且由于环境知识不完整而表现次优。我们采用一种在线贝叶斯方法，使机器人能够推断人们在顺序决策游戏中是否愿意遵从其帮助。我们的用户研究表明，用户偏好和团队表现确实随着机器人介入风格而变化。
 
-    In the intricate architecture of the mammalian central nervous system, neurons form populations. Axonal bundles communicate between these clusters using spike trains as their medium. However, these neuron populations' precise encoding and operations have yet to be discovered. In our analysis, the starting point is a state-of-the-art mechanistic model of a generic neuron endowed with plasticity. From this simple framework emerges a profound mathematical construct: The representation and manipulation of information can be precisely characterized by an algebra of finite convex cones. Furthermore, these neuron populations are not merely passive transmitters. They act as operators within this algebraic structure, mirroring the functionality of a low-level programming language. When these populations interconnect, they embody succinct yet potent algebraic expressions. These networks allow them to implement many operations, such as specialization, generalization, novelty detection, dimensiona
+    arXiv:2403.16178v1 Announce Type: cross  Abstract: For effective human-agent teaming, robots and other artificial intelligence (AI) agents must infer their human partner's abilities and behavioral response patterns and adapt accordingly. Most prior works make the unrealistic assumption that one or more teammates can act near-optimally. In real-world collaboration, humans and autonomous agents can be suboptimal, especially when each only has partial domain knowledge. In this work, we develop computational modeling and optimization techniques for enhancing the performance of suboptimal human-agent teams, where the human and the agent have asymmetric capabilities and act suboptimally due to incomplete environmental knowledge. We adopt an online Bayesian approach that enables a robot to infer people's willingness to comply with its assistance in a sequential decision-making game. Our user studies show that user preferences and team performance indeed vary with robot intervention styles, an
     
 

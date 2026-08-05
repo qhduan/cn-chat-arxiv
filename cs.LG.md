@@ -2,37 +2,37 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [The Elements of Differentiable Programming](https://arxiv.org/abs/2403.14606) | 可微分编程是一个新的编程范式，使得复杂程序能够端对端地进行微分，实现基于梯度的参数优化。 |
-| [^2] | [Quadratic Gradient: Combining Gradient Algorithms and Newton's Method as One.](http://arxiv.org/abs/2209.03282) | 本文提出了一种基于对角矩阵的二次梯度，可以加速梯度的收敛速度，在实验中表现良好。研究者还推测海森矩阵与学习率之间可能存在关系。 |
+| [^1] | [Symplectic Neural Networks for learning Generalized Hamiltonians](https://arxiv.org/abs/2606.27029) | 本文提出利用伴随系统的辛离散化与反向传播灵敏度等价的特性，实现了一种在噪声观测下高效训练哈密顿神经网络的方法，解决了隐式辛积分器计算复杂和反向传播困难的问题。 |
+| [^2] | [Representing Random Utility Choice Models with Neural Networks.](http://arxiv.org/abs/2207.12877) | 本论文提出了一种基于神经网络的离散选择模型类，RUMnets，可以近似表示任何随机效用最大化推导出的模型，并且在选择数据上有良好的预测能力。 |
 
 # 详细
 
-[^1]: 可微分编程的要素
+[^1]: 用于学习广义哈密顿量的辛神经网络
 
-    The Elements of Differentiable Programming
+    Symplectic Neural Networks for learning Generalized Hamiltonians
 
-    [https://arxiv.org/abs/2403.14606](https://arxiv.org/abs/2403.14606)
+    [https://arxiv.org/abs/2606.27029](https://arxiv.org/abs/2606.27029)
 
-    可微分编程是一个新的编程范式，使得复杂程序能够端对端地进行微分，实现基于梯度的参数优化。
-
-    
-
-    人工智能最近取得了显著进展，这得益于大型模型、庞大数据集、加速硬件，以及可微分编程的变革性力量。这种新的编程范式使复杂计算机程序（包括具有控制流和数据结构的程序）能够进行端对端的微分，从而实现对程序参数的基于梯度的优化。不仅仅是程序的微分，可微分编程也包括了程序优化、概率等多个领域的概念。本书介绍了可微分编程所需的基本概念，并采用了优化和概率两个主要视角进行阐述。
-
-    arXiv:2403.14606v1 Announce Type: new  Abstract: Artificial intelligence has recently experienced remarkable advances, fueled by large models, vast datasets, accelerated hardware, and, last but not least, the transformative power of differentiable programming. This new programming paradigm enables end-to-end differentiation of complex computer programs (including those with control flows and data structures), making gradient-based optimization of program parameters possible. As an emerging paradigm, differentiable programming builds upon several areas of computer science and applied mathematics, including automatic differentiation, graphical models, optimization and statistics. This book presents a comprehensive review of the fundamental concepts useful for differentiable programming. We adopt two main perspectives, that of optimization and that of probability, with clear analogies between the two. Differentiable programming is not merely the differentiation of programs, but also the t
-    
-[^2]: 二次梯度：将梯度算法和牛顿法融合为一体
-
-    Quadratic Gradient: Combining Gradient Algorithms and Newton's Method as One. (arXiv:2209.03282v2 [math.OC] UPDATED)
-
-    [http://arxiv.org/abs/2209.03282](http://arxiv.org/abs/2209.03282)
-
-    本文提出了一种基于对角矩阵的二次梯度，可以加速梯度的收敛速度，在实验中表现良好。研究者还推测海森矩阵与学习率之间可能存在关系。
+    本文提出利用伴随系统的辛离散化与反向传播灵敏度等价的特性，实现了一种在噪声观测下高效训练哈密顿神经网络的方法，解决了隐式辛积分器计算复杂和反向传播困难的问题。
 
     
 
-    使用一列与梯度相同大小的列向量，而不是仅使用一个浮点数来加速每个梯度元素的不同速率，可能对牛顿法的线搜索技术不足。此外，使用一个与海森矩阵大小相同的正方形矩阵来纠正海森矩阵可能是有用的。Chiang提出了一种介于列向量和正方形矩阵之间的东西，即对角矩阵，来加速梯度，并进一步提出了一种更快的梯度变体，称为二次梯度。在本文中，我们提出一种构建新版本的二次梯度的新方法。这个新的二次梯度不满足固定海森牛顿法的收敛条件。然而，实验结果显示，它有时比原始方法的收敛速度更快。此外，Chiang推测海森矩阵与学习率f之间可能存在关系。
+    arXiv:2606.27029v1 公告类型：新 摘要：哈密顿神经网络通过学习系统的哈密顿量将物理先验融入神经模型，从而提升泛化能力和样本效率。从状态变量的噪声观测中识别系统哈密顿量是一项具有挑战性的任务。为使模拟真实反映哈密顿系统的长期行为（尤其是能量守恒），必须使用能够保持系统几何结构的辛积分器。这种保真度是有代价的：隐式辛积分器计算强度更高，且使得通过常微分方程求解器进行反向传播变得复杂。然而，通过利用伴随系统的辛离散化能产生与反向传播相同的灵敏度这一事实，我们获得了一种训练神经网络参数的高效方法。在本工作中，我们探索了在轨迹噪声观测下训练哈密顿神经网络的这种替代方法。
 
-    It might be inadequate for the line search technique for Newton's method to use only one floating point number. A column vector of the same size as the gradient might be better than a mere float number to accelerate each of the gradient elements with different rates. Moreover, a square matrix of the same order as the Hessian matrix might be helpful to correct the Hessian matrix. Chiang applied something between a column vector and a square matrix, namely a diagonal matrix, to accelerate the gradient and further proposed a faster gradient variant called quadratic gradient. In this paper, we present a new way to build a new version of the quadratic gradient. This new quadratic gradient doesn't satisfy the convergence conditions of the fixed Hessian Newton's method. However, experimental results show that it sometimes has a better performance than the original one in convergence rate. Also, Chiang speculates that there might be a relation between the Hessian matrix and the learning rate f
+    arXiv:2606.27029v1 Announce Type: new  Abstract: Hamiltonian Neural Networks (HNNs) integrate physical priors into neural models by learning a system's Hamiltonian, improving generalization and sample efficiency. Identifying the system Hamiltonian from noisy observations of state variables is a challenging task. For simulations to faithfully reflect the long-term behavior of Hamiltonian systems, especially energy conservation, it is essential to use symplectic integrators, which preserve the system's geometric structure. This fidelity comes at a cost: implicit symplectic integrators are more computationally intensive and make backpropagation through the ODE solver non-trivial. However, by leveraging the fact that symplectic discretizations of the adjoint system yield the same sensitivities associated by backpropagation, we obtain an efficient method of training the Neural Network parameters. In our work, we explore this alternate method of HNN training under noisy observation of trajec
+    
+[^2]: 用神经网络表示随机效用选择模型
+
+    Representing Random Utility Choice Models with Neural Networks. (arXiv:2207.12877v2 [cs.LG] UPDATED)
+
+    [http://arxiv.org/abs/2207.12877](http://arxiv.org/abs/2207.12877)
+
+    本论文提出了一种基于神经网络的离散选择模型类，RUMnets，可以近似表示任何随机效用最大化推导出的模型，并且在选择数据上有良好的预测能力。
+
+    
+
+    在深度学习的成功之下，我们提出了一种基于神经网络的离散选择模型类，称为RUMnets，受随机效用最大化（RUM）框架的启发。该模型使用样本平均逼近来构建代理人的随机效用函数。我们证明了RUMnets可以对RUM离散选择模型类进行尖锐逼近：任何从随机效用最大化推导出的模型都可以被RUMnet无限接近地逼近。相反地，任何RUMnet都符合RUM原则。我们得到了在选择数据上拟合的RUMnet的泛化误差的上界，并且根据数据集和架构的关键参数，获得了关于其在新的未知数据上预测选择能力的理论洞见。通过利用神经网络的开源库，我们发现RUMnets在预测准确性方面与几种选择建模和机器学习方法具有竞争力。
+
+    Motivated by the successes of deep learning, we propose a class of neural network-based discrete choice models, called RUMnets, inspired by the random utility maximization (RUM) framework. This model formulates the agents' random utility function using a sample average approximation. We show that RUMnets sharply approximate the class of RUM discrete choice models: any model derived from random utility maximization has choice probabilities that can be approximated arbitrarily closely by a RUMnet. Reciprocally, any RUMnet is consistent with the RUM principle. We derive an upper bound on the generalization error of RUMnets fitted on choice data, and gain theoretical insights on their ability to predict choices on new, unseen data depending on critical parameters of the dataset and architecture. By leveraging open-source libraries for neural networks, we find that RUMnets are competitive against several choice modeling and machine learning methods in terms of predictive accuracy on two rea
     
 
