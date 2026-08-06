@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Mixed-Initiative Human-Robot Teaming under Suboptimality with Online Bayesian Adaptation](https://arxiv.org/abs/2403.16178) | 该论文研究了在次优情况下进行在线贝叶斯适应的混合倡议人机协作的计算建模和优化技术，能够推断人们在协作中是否愿意遵从机器人的帮助。 |
+| [^1] | [A Differential Datalog Interpreter.](http://arxiv.org/abs/2308.04214) | 本文研究了差分Datalog解释器的材料化性能，特别是增量维护和工作分配方面的表现。 |
 
 # 详细
 
-[^1]: 在次优情况下进行在线贝叶斯适应的混合倡议人机协作
+[^1]: 《一种差分Datalog解释器》
 
-    Mixed-Initiative Human-Robot Teaming under Suboptimality with Online Bayesian Adaptation
+    A Differential Datalog Interpreter. (arXiv:2308.04214v1 [cs.DB])
 
-    [https://arxiv.org/abs/2403.16178](https://arxiv.org/abs/2403.16178)
+    [http://arxiv.org/abs/2308.04214](http://arxiv.org/abs/2308.04214)
 
-    该论文研究了在次优情况下进行在线贝叶斯适应的混合倡议人机协作的计算建模和优化技术，能够推断人们在协作中是否愿意遵从机器人的帮助。
+    本文研究了差分Datalog解释器的材料化性能，特别是增量维护和工作分配方面的表现。
 
     
 
-    为了实现有效的人-智能体协作，机器人和其他人工智能（AI）代理必须推断他们的人类伙伴的能力和行为响应模式，并相应地进行调整。大多数先前的工作都作出了一个不切实际的假设，即一个或多个队友可以在接近最优的情况下行动。在现实世界的协作中，人类和自主代理可能是次优的，特别是当每个人只拥有部分领域知识时。在这项工作中，我们开发了用于增强次优人-智能体团队表现的计算建模和优化技术，其中人类和代理具有不对称的能力，并且由于环境知识不完整而表现次优。我们采用一种在线贝叶斯方法，使机器人能够推断人们在顺序决策游戏中是否愿意遵从其帮助。我们的用户研究表明，用户偏好和团队表现确实随着机器人介入风格而变化。
+    Datalog引擎的核心推理任务是材料化，即在数据库中评估Datalog程序并将其物理纳入数据库本身。计算它的事实上的方法是通过递归应用推理规则。由于这是一个昂贵的操作，Datalog引擎必须提供增量材料化，即将计算调整到新数据上，而不是从头开始。其中一个主要的缺陷就是删除数据比添加数据复杂得多，因为必须考虑所有可能从正在删除的数据中推导出的数据。差分数据流是一种提供有效的增量维护的计算模型，尤其在添加和删除之间拥有相等的性能，并且能够处理迭代数据流的工作分配。在本文中，我们研究了使用三个参考Datalog实现进行材料化的性能情况。
 
-    arXiv:2403.16178v1 Announce Type: cross  Abstract: For effective human-agent teaming, robots and other artificial intelligence (AI) agents must infer their human partner's abilities and behavioral response patterns and adapt accordingly. Most prior works make the unrealistic assumption that one or more teammates can act near-optimally. In real-world collaboration, humans and autonomous agents can be suboptimal, especially when each only has partial domain knowledge. In this work, we develop computational modeling and optimization techniques for enhancing the performance of suboptimal human-agent teams, where the human and the agent have asymmetric capabilities and act suboptimally due to incomplete environmental knowledge. We adopt an online Bayesian approach that enables a robot to infer people's willingness to comply with its assistance in a sequential decision-making game. Our user studies show that user preferences and team performance indeed vary with robot intervention styles, an
+    The core reasoning task for datalog engines is materialization, the evaluation of a datalog program over a database alongside its physical incorporation into the database itself. The de-facto method of computing it, is through the recursive application of inference rules. Due to it being a costly operation, it is a must for datalog engines to provide incremental materialization, that is, to adjust the computation to new data, instead of restarting from scratch. One of the major caveats, is that deleting data is notoriously more involved than adding, since one has to take into account all possible data that has been entailed from what is being deleted. Differential Dataflow is a computational model that provides efficient incremental maintenance, notoriously with equal performance between additions and deletions, and work distribution, of iterative dataflows. In this paper we investigate the performance of materialization with three reference datalog implementations, out of which one is
     
 

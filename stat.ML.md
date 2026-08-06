@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Representing Random Utility Choice Models with Neural Networks.](http://arxiv.org/abs/2207.12877) | 本论文提出了一种基于神经网络的离散选择模型类，RUMnets，可以近似表示任何随机效用最大化推导出的模型，并且在选择数据上有良好的预测能力。 |
+| [^1] | [Partial Identification of Causal Effects Using Proxy Variables.](http://arxiv.org/abs/2304.04374) | 这篇论文提出了一种无需完备性的部分识别方法，它为我们提供了一组界限，用于在未能控制混淆因素的情形下，评估治疗对结果变量因果效应。 |
 
 # 详细
 
-[^1]: 用神经网络表示随机效用选择模型
+[^1]: 利用代理变量进行因果效应部分识别
 
-    Representing Random Utility Choice Models with Neural Networks. (arXiv:2207.12877v2 [cs.LG] UPDATED)
+    Partial Identification of Causal Effects Using Proxy Variables. (arXiv:2304.04374v1 [stat.ME])
 
-    [http://arxiv.org/abs/2207.12877](http://arxiv.org/abs/2207.12877)
+    [http://arxiv.org/abs/2304.04374](http://arxiv.org/abs/2304.04374)
 
-    本论文提出了一种基于神经网络的离散选择模型类，RUMnets，可以近似表示任何随机效用最大化推导出的模型，并且在选择数据上有良好的预测能力。
+    这篇论文提出了一种无需完备性的部分识别方法，它为我们提供了一组界限，用于在未能控制混淆因素的情形下，评估治疗对结果变量因果效应。
 
     
 
-    在深度学习的成功之下，我们提出了一种基于神经网络的离散选择模型类，称为RUMnets，受随机效用最大化（RUM）框架的启发。该模型使用样本平均逼近来构建代理人的随机效用函数。我们证明了RUMnets可以对RUM离散选择模型类进行尖锐逼近：任何从随机效用最大化推导出的模型都可以被RUMnet无限接近地逼近。相反地，任何RUMnet都符合RUM原则。我们得到了在选择数据上拟合的RUMnet的泛化误差的上界，并且根据数据集和架构的关键参数，获得了关于其在新的未知数据上预测选择能力的理论洞见。通过利用神经网络的开源库，我们发现RUMnets在预测准确性方面与几种选择建模和机器学习方法具有竞争力。
+    近年来，近端因果推断被提出为一种在未能控制混淆因素的情形下评估治疗对结果变量因果效应的框架。其中利用未被观测到的混淆因素的代理变量进行点估计，前提是这样的代理变量对混淆因素相当有关，然而这种完备性却是经验不可检验的。本文提出了一种不要求完备性的部分识别方法，并为感兴趣的因果效应提供了一组界限。该方法建立在敏感性分析的基础上，并且比现有的基于代理变量的方法要求更弱。这项工作在模拟数据和现实数据上进行了展示。
 
-    Motivated by the successes of deep learning, we propose a class of neural network-based discrete choice models, called RUMnets, inspired by the random utility maximization (RUM) framework. This model formulates the agents' random utility function using a sample average approximation. We show that RUMnets sharply approximate the class of RUM discrete choice models: any model derived from random utility maximization has choice probabilities that can be approximated arbitrarily closely by a RUMnet. Reciprocally, any RUMnet is consistent with the RUM principle. We derive an upper bound on the generalization error of RUMnets fitted on choice data, and gain theoretical insights on their ability to predict choices on new, unseen data depending on critical parameters of the dataset and architecture. By leveraging open-source libraries for neural networks, we find that RUMnets are competitive against several choice modeling and machine learning methods in terms of predictive accuracy on two rea
+    Proximal causal inference is a recently proposed framework for evaluating the causal effect of a treatment on an outcome variable in the presence of unmeasured confounding (Miao et al., 2018a; Tchetgen Tchetgen et al., 2020). For nonparametric point identification, the framework leverages proxy variables of unobserved confounders, provided that such proxies are sufficiently relevant for the latter, a requirement that has previously been formalized as a completeness condition. Completeness is key to connecting the observed proxy data to hidden factors via a so-called confounding bridge function, identification of which is an important step towards proxy-based point identification of causal effects. However, completeness is well-known not to be empirically testable, therefore potentially restricting the application of the proximal causal framework. In this paper, we propose partial identification methods that do not require completeness and obviate the need for identification of a bridge
     
 
