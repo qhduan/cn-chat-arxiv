@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Chebyshev Policies and the Mountain Car Problem: Reinforcement Learning for Low-Dimensional Control Tasks](https://arxiv.org/abs/2605.22305) | 本文通过解析求解山地车问题的最优控制，提出切比雪夫策略作为神经网络的轻量级替代，在低维控制任务中大幅降低参数量和遗憾值，并提升性能。 |
+| [^1] | [A Flexible Framework for Incorporating Patient Preferences Into Q-Learning.](http://arxiv.org/abs/2307.12022) | 这个论文提出了一种称为潜在效用Q学习的方法，能够将患者偏好纳入复合结果的动态治疗方案中，解决了传统方法对时间点和结果数量的限制，能够实现强大的性能。 |
 
 # 详细
 
-[^1]: 切比雪夫策略与山地车问题：面向低维控制任务的强化学习
+[^1]: 将患者偏好纳入Q学习的灵活框架
 
-    Chebyshev Policies and the Mountain Car Problem: Reinforcement Learning for Low-Dimensional Control Tasks
+    A Flexible Framework for Incorporating Patient Preferences Into Q-Learning. (arXiv:2307.12022v1 [cs.LG])
 
-    [https://arxiv.org/abs/2605.22305](https://arxiv.org/abs/2605.22305)
+    [http://arxiv.org/abs/2307.12022](http://arxiv.org/abs/2307.12022)
 
-    本文通过解析求解山地车问题的最优控制，提出切比雪夫策略作为神经网络的轻量级替代，在低维控制任务中大幅降低参数量和遗憾值，并提升性能。
+    这个论文提出了一种称为潜在效用Q学习的方法，能够将患者偏好纳入复合结果的动态治疗方案中，解决了传统方法对时间点和结果数量的限制，能够实现强大的性能。
 
     
 
-    我们解析求解了强化学习中的经典基准问题——山地车问题，并推导出最优控制解，填补了36年来的理论空白。这揭示了两个令人惊讶的发现：最优控制实际上非常简单，但现代强化学习智能体与最优解之间存在巨大差距。受最优控制分析的启发，我们从基本原理出发，提出切比雪夫策略作为一种通用（即密集）的强化学习策略类别。它们可以作为神经网络的直接替代品进行训练，将遗憾值降低4.18倍，同时所需参数减少277倍，从而提升样本效率、可解释性和实时处理能力。切比雪夫策略在更多强化学习任务上进行了评估，包括一个真实世界的非线性运动控制测试平台。在PPO、ARS和REINFORCE算法中，它们始终优于神经网络。我们的结果表明，切比雪夫策略提供了一种极具吸引力且轻量级的替代方案。
+    在现实世界的医疗问题中，通常存在多个竞争性的关注点，如治疗疗效和副作用严重程度。然而，用于估计动态治疗方案 (DTRs) 的统计方法通常假设只有一个关注点，而处理复合结果的方法很少，存在重要限制，包括对单个时间点和两个结果的限制、无法纳入患者的自述偏好以及有限的理论保证。为此，我们提出了一个新的方法来解决这些限制，我们称之为潜在效用Q学习(LUQ-Learning)。LUQ-Learning采用潜在模型方法，自然地将Q学习扩展到复合结果设置，并为每个患者选择理想的结果权衡。与之前的方法不同，我们的框架允许任意数量的时间点和结果，纳入陈述的偏好，并实现强大的渐近性能。
 
-    arXiv:2605.22305v3 Announce Type: replace  Abstract: We analytically solve the Mountain Car problem, a canonical benchmark in RL, and derive an optimal control solution, closing a gap after 36 years. This enables us to reveal two surprising insights: The optimal control is quite simple, yet modern RL agents display a large gap to optimality. Motivated by the analysis of the optimal control, we introduce Chebyshev policies as a universal (i.e. dense) class of RL policies from first principles. They can be trained as drop-in replacements of neural nets, reducing the regret by a factor of 4.18, while requiring 277 times fewer parameters, fostering sample efficiency, explainability and realtime capability. Chebyshev policies are evaluated on further RL tasks, including a real-world nonlinear motion control testbed. They consistently improve performance over neural nets with PPO, ARS and REINFORCE. Our results demonstrate how Chebyshev policies offer a compelling and lightweight alternative
+    In real-world healthcare problems, there are often multiple competing outcomes of interest, such as treatment efficacy and side effect severity. However, statistical methods for estimating dynamic treatment regimes (DTRs) usually assume a single outcome of interest, and the few methods that deal with composite outcomes suffer from important limitations. This includes restrictions to a single time point and two outcomes, the inability to incorporate self-reported patient preferences and limited theoretical guarantees. To this end, we propose a new method to address these limitations, which we dub Latent Utility Q-Learning (LUQ-Learning). LUQ-Learning uses a latent model approach to naturally extend Q-learning to the composite outcome setting and adopt the ideal trade-off between outcomes to each patient. Unlike previous approaches, our framework allows for an arbitrary number of time points and outcomes, incorporates stated preferences and achieves strong asymptotic performance with rea
     
 
