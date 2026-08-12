@@ -2,52 +2,52 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Weak Correlations as the Underlying Principle for Linearization of Gradient-Based Learning Systems.](http://arxiv.org/abs/2401.04013) | 本文研究了梯度下降学习算法在参数动力学中的线性结构，发现这种线性化现象是由于初始值附近假设函数的一阶和高阶导数之间的弱相关性所致。这一发现为深度学习模型的线性化提供了新的认识。 |
-| [^2] | [A Differentially Private Weighted Empirical Risk Minimization Procedure and its Application to Outcome Weighted Learning.](http://arxiv.org/abs/2307.13127) | 本文提出了一种差分隐私加权经验风险最小化算法，可以在使用敏感数据的情况下保护隐私。这是第一个在权重ERM中应用差分隐私的算法，并且在一定的条件下提供了严格的DP保证。 |
-| [^3] | [Convergence Guarantees for Stochastic Subgradient Methods in Nonsmooth Nonconvex Optimization.](http://arxiv.org/abs/2307.10053) | 本文研究了非平滑非凸优化中随机次梯度方法的收敛性质，并提出了一种新的框架，证明了其在单时间尺度和双时间尺度情况下的全局收敛性，包括了多种已知的SGD类型方法。对于有限和形式的目标函数，证明了这些方法能够在随机选择的步长和初始点上找到Clarke稳定点。 |
+| [^1] | [Convergence of Sign-based Random Reshuffling Algorithms for Nonconvex Optimization.](http://arxiv.org/abs/2310.15976) | 该论文通过证明signSGD算法在非凸优化问题中的随机重排（SignRR）的收敛性，弥补了现有分析中的缺陷，提出了SignRVR和SignRVM算法，并且都以较快的收敛速度收敛于全局最优解。 |
+| [^2] | [BOF-UCB: A Bayesian-Optimistic Frequentist Algorithm for Non-Stationary Contextual Bandits.](http://arxiv.org/abs/2307.03587) | BOF-UCB是一种用于非平稳环境下的背景线性赌博机的贝叶斯优化频率算法，其结合了贝叶斯和频率学派原则，提高了在动态环境中的性能。它利用贝叶斯更新推断后验分布，并使用频率学派方法计算上界信心界以平衡探索和开发。实验证明，BOF-UCB优于现有方法，是非平稳环境中顺序决策的有前途的解决方案。 |
+| [^3] | [Emergent Neural Network Mechanisms for Generalization to Objects in Novel Orientations.](http://arxiv.org/abs/2109.13445) | 本研究提供了证据表明，深度神经网络具有通过传播方向不变性来泛化到新颖方向上的对象的能力。这种能力受到训练中使用的熟悉对象数量的影响，但仅限于涉及2D旋转的熟悉方向。 |
 
 # 详细
 
-[^1]: 以弱相关性作为梯度下降学习系统线性化的基本原则
+[^1]: 非凸优化的基于符号随机重排算法的收敛性研究
 
-    Weak Correlations as the Underlying Principle for Linearization of Gradient-Based Learning Systems. (arXiv:2401.04013v1 [cs.LG])
+    Convergence of Sign-based Random Reshuffling Algorithms for Nonconvex Optimization. (arXiv:2310.15976v1 [cs.LG])
 
-    [http://arxiv.org/abs/2401.04013](http://arxiv.org/abs/2401.04013)
+    [http://arxiv.org/abs/2310.15976](http://arxiv.org/abs/2310.15976)
 
-    本文研究了梯度下降学习算法在参数动力学中的线性结构，发现这种线性化现象是由于初始值附近假设函数的一阶和高阶导数之间的弱相关性所致。这一发现为深度学习模型的线性化提供了新的认识。
-
-    
-
-    深度学习模型，如宽神经网络，可以被概念化为非线性动力学物理系统，其具有多个相互作用的自由度。在无限极限下，这些系统趋向于表现出简化的动力学。本文深入研究了基于梯度下降的学习算法，在其参数动力学中展示出与神经切向核类似的线性结构。我们发现，这种明显的线性化是因为在初始值附近，假设函数的一阶和高阶导数之间的弱相关性。这一洞见表明，这些弱相关性可能是此类系统中观察到的线性化的潜在原因。作为一个例证，我们展示了在宽度很大的神经网络中存在的这种弱相关性结构。利用线性和弱相关性之间的关系，我们推导出线性度偏离的一个界限。
-
-    Deep learning models, such as wide neural networks, can be conceptualized as nonlinear dynamical physical systems characterized by a multitude of interacting degrees of freedom. Such systems in the infinite limit, tend to exhibit simplified dynamics. This paper delves into gradient descent-based learning algorithms, that display a linear structure in their parameter dynamics, reminiscent of the neural tangent kernel. We establish this apparent linearity arises due to weak correlations between the first and higher-order derivatives of the hypothesis function, concerning the parameters, taken around their initial values. This insight suggests that these weak correlations could be the underlying reason for the observed linearization in such systems. As a case in point, we showcase this weak correlations structure within neural networks in the large width limit. Exploiting the relationship between linearity and weak correlations, we derive a bound on deviations from linearity observed duri
-    
-[^2]: 一个差分隐私加权经验风险最小化算法及其在结果加权学习中的应用
-
-    A Differentially Private Weighted Empirical Risk Minimization Procedure and its Application to Outcome Weighted Learning. (arXiv:2307.13127v1 [stat.ML])
-
-    [http://arxiv.org/abs/2307.13127](http://arxiv.org/abs/2307.13127)
-
-    本文提出了一种差分隐私加权经验风险最小化算法，可以在使用敏感数据的情况下保护隐私。这是第一个在权重ERM中应用差分隐私的算法，并且在一定的条件下提供了严格的DP保证。
+    该论文通过证明signSGD算法在非凸优化问题中的随机重排（SignRR）的收敛性，弥补了现有分析中的缺陷，提出了SignRVR和SignRVM算法，并且都以较快的收敛速度收敛于全局最优解。
 
     
 
-    在经验风险最小化(ERM)框架中，使用包含个人信息的数据来构建预测模型是常见的做法。尽管这些模型在预测上可以非常准确，但使用敏感数据得到的结果可能容易受到隐私攻击。差分隐私(DP)是一种有吸引力的框架，可以通过提供数学上可证明的隐私损失界限来解决这些数据隐私问题。先前的工作主要集中在将DP应用于无权重的ERM中。我们考虑到了权重ERM(wERM)的重要推广。在wERM中，可以为每个个体的目标函数贡献分配不同的权重。在这个背景下，我们提出了第一个有差分隐私保障的wERM算法，并在一定的正则条件下提供了严格的理论证明。将现有的DP-ERM程序扩展到wERM为结果加权学习铺平了道路。
+    由于其通信效率较高，signSGD在非凸优化中很受欢迎。然而，现有对signSGD的分析基于假设每次迭代中的数据都是有放回采样的，这与实际实现中数据的随机重排和顺序馈送进算法的情况相矛盾。为了弥补这一差距，我们证明了signSGD在非凸优化中的随机重排（SignRR）的首个收敛结果。给定数据集大小$n$，数据迭代次数$T$，和随机梯度的方差限制$\sigma^2$，我们证明了SignRR的收敛速度与signSGD相同，为$O(\log(nT)/\sqrt{nT} + \|\sigma\|_1)$ \citep{bernstein2018signsgd}。接着，我们还提出了 SignRVR 和 SignRVM，分别利用了方差约减梯度和动量更新，都以$O(\log(nT)/\sqrt{nT})$的速度收敛。与signSGD的分析不同，我们的结果不需要每次迭代中极大的批次大小与同等数量的梯度进行比较。
 
-    It is commonplace to use data containing personal information to build predictive models in the framework of empirical risk minimization (ERM). While these models can be highly accurate in prediction, results obtained from these models with the use of sensitive data may be susceptible to privacy attacks. Differential privacy (DP) is an appealing framework for addressing such data privacy issues by providing mathematically provable bounds on the privacy loss incurred when releasing information from sensitive data. Previous work has primarily concentrated on applying DP to unweighted ERM. We consider an important generalization to weighted ERM (wERM). In wERM, each individual's contribution to the objective function can be assigned varying weights. In this context, we propose the first differentially private wERM algorithm, backed by a rigorous theoretical proof of its DP guarantees under mild regularity conditions. Extending the existing DP-ERM procedures to wERM paves a path to derivin
+    signSGD is popular in nonconvex optimization due to its communication efficiency. Yet, existing analyses of signSGD rely on assuming that data are sampled with replacement in each iteration, contradicting the practical implementation where data are randomly reshuffled and sequentially fed into the algorithm. We bridge this gap by proving the first convergence result of signSGD with random reshuffling (SignRR) for nonconvex optimization. Given the dataset size $n$, the number of epochs of data passes $T$, and the variance bound of a stochastic gradient $\sigma^2$, we show that SignRR has the same convergence rate $O(\log(nT)/\sqrt{nT} + \|\sigma\|_1)$ as signSGD \citep{bernstein2018signsgd}. We then present SignRVR and SignRVM, which leverage variance-reduced gradients and momentum updates respectively, both converging at $O(\log(nT)/\sqrt{nT})$. In contrast with the analysis of signSGD, our results do not require an extremely large batch size in each iteration to be of the same order a
     
-[^3]: 非平滑非凸优化中随机次梯度方法的收敛性保证
+[^2]: BOF-UCB: 一种用于非平稳环境下的上下界信心算法的贝叶斯优化频率算法
 
-    Convergence Guarantees for Stochastic Subgradient Methods in Nonsmooth Nonconvex Optimization. (arXiv:2307.10053v1 [math.OC])
+    BOF-UCB: A Bayesian-Optimistic Frequentist Algorithm for Non-Stationary Contextual Bandits. (arXiv:2307.03587v1 [cs.LG])
 
-    [http://arxiv.org/abs/2307.10053](http://arxiv.org/abs/2307.10053)
+    [http://arxiv.org/abs/2307.03587](http://arxiv.org/abs/2307.03587)
 
-    本文研究了非平滑非凸优化中随机次梯度方法的收敛性质，并提出了一种新的框架，证明了其在单时间尺度和双时间尺度情况下的全局收敛性，包括了多种已知的SGD类型方法。对于有限和形式的目标函数，证明了这些方法能够在随机选择的步长和初始点上找到Clarke稳定点。
+    BOF-UCB是一种用于非平稳环境下的背景线性赌博机的贝叶斯优化频率算法，其结合了贝叶斯和频率学派原则，提高了在动态环境中的性能。它利用贝叶斯更新推断后验分布，并使用频率学派方法计算上界信心界以平衡探索和开发。实验证明，BOF-UCB优于现有方法，是非平稳环境中顺序决策的有前途的解决方案。
 
     
 
-    本文研究了随机梯度下降（SGD）方法及其变种在训练由非平滑激活函数构建的神经网络中的收敛性质。我们提出了一种新颖的框架，为更新动量项和变量的步长分配了不同的时间尺度。在一些温和的条件下，我们证明了我们提出的框架在单时间尺度和双时间尺度情况下的全局收敛性。我们还证明了我们提出的框架包含了很多已知的SGD类型方法，包括heavy-ball SGD、SignSGD、Lion、normalized SGD和clipped SGD。此外，当目标函数采用有限和形式时，我们基于我们提出的框架证明了这些SGD类型方法的收敛性质。特别地，在温和的假设下，我们证明了这些SGD类型方法在随机选择的步长和初始点上能够找到目标函数的Clarke稳定点。
+    我们提出了一种新颖的贝叶斯优化频率上下界信心算法（BOF-UCB），用于非平稳环境下的随机背景线性赌博机。贝叶斯和频率学派原则的独特结合增强了算法在动态环境中的适应性和性能。BOF-UCB算法利用顺序贝叶斯更新推断未知回归参数的后验分布，并随后采用频率学派方法通过最大化后验分布上的期望收益来计算上界信心界（UCB）。我们提供了BOF-UCB性能的理论保证，并在合成数据集和强化学习环境中的经典控制任务中展示了其有效性。我们的结果表明，BOF-UCB优于现有的方法，在非平稳环境中进行顺序决策是一个有前途的解决方案。
 
-    In this paper, we investigate the convergence properties of the stochastic gradient descent (SGD) method and its variants, especially in training neural networks built from nonsmooth activation functions. We develop a novel framework that assigns different timescales to stepsizes for updating the momentum terms and variables, respectively. Under mild conditions, we prove the global convergence of our proposed framework in both single-timescale and two-timescale cases. We show that our proposed framework encompasses a wide range of well-known SGD-type methods, including heavy-ball SGD, SignSGD, Lion, normalized SGD and clipped SGD. Furthermore, when the objective function adopts a finite-sum formulation, we prove the convergence properties for these SGD-type methods based on our proposed framework. In particular, we prove that these SGD-type methods find the Clarke stationary points of the objective function with randomly chosen stepsizes and initial points under mild assumptions. Preli
+    We propose a novel Bayesian-Optimistic Frequentist Upper Confidence Bound (BOF-UCB) algorithm for stochastic contextual linear bandits in non-stationary environments. This unique combination of Bayesian and frequentist principles enhances adaptability and performance in dynamic settings. The BOF-UCB algorithm utilizes sequential Bayesian updates to infer the posterior distribution of the unknown regression parameter, and subsequently employs a frequentist approach to compute the Upper Confidence Bound (UCB) by maximizing the expected reward over the posterior distribution. We provide theoretical guarantees of BOF-UCB's performance and demonstrate its effectiveness in balancing exploration and exploitation on synthetic datasets and classical control tasks in a reinforcement learning setting. Our results show that BOF-UCB outperforms existing methods, making it a promising solution for sequential decision-making in non-stationary environments.
+    
+[^3]: 新颖方向上对象泛化的新兴神经网络机制
+
+    Emergent Neural Network Mechanisms for Generalization to Objects in Novel Orientations. (arXiv:2109.13445v2 [cs.CV] UPDATED)
+
+    [http://arxiv.org/abs/2109.13445](http://arxiv.org/abs/2109.13445)
+
+    本研究提供了证据表明，深度神经网络具有通过传播方向不变性来泛化到新颖方向上的对象的能力。这种能力受到训练中使用的熟悉对象数量的影响，但仅限于涉及2D旋转的熟悉方向。
+
+    
+
+    深度神经网络（DNNs）在识别训练数据分布之外的方向上的对象的能力尚不完全了解。我们提供证据表明，DNNs能够通过传播从多个视点观察到的熟悉对象获得的方向不变性来泛化到新颖方向上的对象。这种能力在训练DNN时使用越来越多的熟悉对象时会增强，但仅限于涉及到熟悉方向的2D旋转的方向。我们展示了这种传播是通过调整到熟悉和不熟悉对象之间共同特征的神经元实现的。这些结果揭示了类脑神经机制的泛化能力。
+
+    The capability of Deep Neural Networks (DNNs) to recognize objects in orientations outside the distribution of the training data is not well understood. We present evidence that DNNs are capable of generalizing to objects in novel orientations by disseminating orientation-invariance obtained from familiar objects seen from many viewpoints. This capability strengthens when training the DNN with an increasing number of familiar objects, but only in orientations that involve 2D rotations of familiar orientations. We show that this dissemination is achieved via neurons tuned to common features between familiar and unfamiliar objects. These results implicate brain-like neural mechanisms for generalization.
     
 
