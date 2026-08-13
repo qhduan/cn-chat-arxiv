@@ -1,0 +1,12 @@
+{
+    "title": "On Weak Bisimilarities in CCSK",
+    "abstract": "arXiv:2608.11531v1 Announce Type: new  Abstract: In the context of CCSK, a reversible extension of CCS, we study different notions of bisimilarity (strong/weak, forward-only/reversible) and highlight their differences and commonalities. In particular, for the weak reversible case, not previously studied in the literature, we propose two variants, dubbed directional and mixed bisimilarity, depending on whether $\\tau$ actions should be in the same direction (forward/backward) as the action being matched or not. We show, in particular, that mixed bisimilarity is a congruence and completely abstracts away from $\\tau$ actions.",
+    "link": "https://arxiv.org/abs/2608.11531",
+    "context": "Title: On Weak Bisimilarities in CCSK\nAbstract: arXiv:2608.11531v1 Announce Type: new  Abstract: In the context of CCSK, a reversible extension of CCS, we study different notions of bisimilarity (strong/weak, forward-only/reversible) and highlight their differences and commonalities. In particular, for the weak reversible case, not previously studied in the literature, we propose two variants, dubbed directional and mixed bisimilarity, depending on whether $\\tau$ actions should be in the same direction (forward/backward) as the action being matched or not. We show, in particular, that mixed bisimilarity is a congruence and completely abstracts away from $\\tau$ actions.",
+    "path": "papers/26/08/2608.11531.json",
+    "total_tokens": 478,
+    "translated_title": "关于CCSK中的弱互模拟等价性",
+    "translated_abstract": "在CCSK（CCS的可逆扩展）的背景下，我们研究了不同形式的互模拟等价性（强/弱、仅前向/可逆），并强调了它们的差异与共同点。特别地，对于文献中尚未研究的弱可逆情形，我们提出了两种变体，分别称为方向性互模拟和混合互模拟，这取决于τ动作是否应与被匹配的动作在同一方向（前向/后向）。我们特别证明了混合互模拟是一种同余关系，并完全抽象掉了τ动作。",
+    "tldr": "本文首次在CCSK中提出并研究了弱可逆互模拟的两种变体（方向性与混合），证明混合互模拟是同余且能完全忽略τ动作。",
+    "en_tdlr": "This paper introduces and studies two variants of weak reversible bisimilarity (directional and mixed) in CCSK, proving that mixed bisimilarity is a congruence that fully abstracts away from τ actions."
+}

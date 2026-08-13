@@ -1,0 +1,12 @@
+{
+    "title": "From World Models to World Action Models: A Concise Tutorial for Robotics",
+    "abstract": "arXiv:2607.00836v5 Announce Type: replace-cross  Abstract: Rather than providing an exhaustive survey, this paper presents a concise tutorial on world models and world action models for robotics. After reading the tutorial, readers should have a clear understanding of what constitutes a \"world\", how world models and world action models are defined, and what roles they play within robotic AI systems. The tutorial also develops a unified perspective for comparing representative approaches, such as World Labs' spatial intelligence models, Yann LeCun's JEPA framework, and NVIDIA's Cosmos platform, and clarifies how these models differ in their representations, predictive capabilities, and interaction mechanisms.",
+    "link": "https://arxiv.org/abs/2607.00836",
+    "context": "Title: From World Models to World Action Models: A Concise Tutorial for Robotics\nAbstract: arXiv:2607.00836v5 Announce Type: replace-cross  Abstract: Rather than providing an exhaustive survey, this paper presents a concise tutorial on world models and world action models for robotics. After reading the tutorial, readers should have a clear understanding of what constitutes a \"world\", how world models and world action models are defined, and what roles they play within robotic AI systems. The tutorial also develops a unified perspective for comparing representative approaches, such as World Labs' spatial intelligence models, Yann LeCun's JEPA framework, and NVIDIA's Cosmos platform, and clarifies how these models differ in their representations, predictive capabilities, and interaction mechanisms.",
+    "path": "papers/26/07/2607.00836.json",
+    "total_tokens": 483,
+    "translated_title": "从世界模型到世界行动模型：面向机器人的简明教程",
+    "translated_abstract": "arXiv:2607.00836v5 公告类型：替换-交叉 摘要：本文并非提供详尽综述，而是呈现了一篇关于机器人领域世界模型和世界行动模型的简明教程。阅读本教程后，读者应清晰理解何为“世界”，世界模型和世界行动模型如何定义，以及它们在机器人人工智能系统中扮演的角色。教程还开发了一个统一视角，用于比较代表性方法，如World Labs的空间智能模型、Yann LeCun的JEPA框架和NVIDIA的Cosmos平台，并阐明这些模型在表示、预测能力和交互机制上的差异。",
+    "tldr": "本教程以统一视角简明阐述了机器人世界模型与行动模型的定义、作用及代表性方法对比，帮助读者理解其核心差异与角色。",
+    "en_tdlr": "This tutorial concisely explains the definitions, roles, and comparative perspectives of world and world action models in robotics, clarifying key differences among representative approaches."
+}

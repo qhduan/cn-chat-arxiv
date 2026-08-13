@@ -1,0 +1,12 @@
+{
+    "title": "Draw This First",
+    "abstract": "arXiv:2608.12064v1 Announce Type: cross  Abstract: We invert the typical formulation of sketch generation: instead of drawing strokes in order, we predict a 2D field that defines the order in which strokes are drawn. We use a pretrained latent flow-matching transformer to supply the image prior to predict an intermediate representation, while training the VAE's decoder to predict the order field, stroke mask, and stroke segmentation. We vectorize the predicted segmentation into polylines and sort them by the field, producing an ordered vector sketch. Our model can predict an ordered vector sketch from a text description or derender an image into ordered vectors; for either, it follows text instructions specifying the order of drawing.",
+    "link": "https://arxiv.org/abs/2608.12064",
+    "context": "Title: Draw This First\nAbstract: arXiv:2608.12064v1 Announce Type: cross  Abstract: We invert the typical formulation of sketch generation: instead of drawing strokes in order, we predict a 2D field that defines the order in which strokes are drawn. We use a pretrained latent flow-matching transformer to supply the image prior to predict an intermediate representation, while training the VAE's decoder to predict the order field, stroke mask, and stroke segmentation. We vectorize the predicted segmentation into polylines and sort them by the field, producing an ordered vector sketch. Our model can predict an ordered vector sketch from a text description or derender an image into ordered vectors; for either, it follows text instructions specifying the order of drawing.",
+    "path": "papers/26/08/2608.12064.json",
+    "total_tokens": 492,
+    "translated_title": "首先绘制这个",
+    "translated_abstract": "arXiv:2608.12064v1 公告类型：交叉 摘要：我们反转了草图生成的典型公式：不是按顺序绘制笔画，而是预测一个定义笔画绘制顺序的二维场。我们使用预训练的潜在流匹配变换器提供图像先验来预测中间表示，同时训练VAE的解码器来预测顺序场、笔画掩码和笔画分割。我们将预测的分割向量化为多段线，并按场进行排序，生成有序的向量草图。我们的模型可以从文本描述预测有序的向量草图，或将图像反渲染为有序向量；对于这两种情况，它都遵循指定绘制顺序的文本指令。",
+    "tldr": "本文提出了一种新方法，通过预测二维顺序场来生成有序的矢量草图，支持从文本或图像输入并遵循文本指令控制绘制顺序。",
+    "en_tdlr": "This paper proposes a novel approach to generate ordered vector sketches by predicting a 2D order field, enabling text or image input with text-specified drawing order."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Basin: Efficient and Extensible Numerical Optimization in Rust",
+    "abstract": "arXiv:2608.11279v1 Announce Type: new  Abstract: Basin is a numerical optimization library for the Rust programming language. Numerical optimization is the task of finding the inputs that minimize a function, and it is a fundamental element across the sciences: fitting a model to data, calibrating a simulation, training a machine learning model, or choosing engineering parameters that minimize cost. Basin gives users a single, consistent way to both state and solve such problems, with a broad catalog of solvers and first-class support for constraints.",
+    "link": "https://arxiv.org/abs/2608.11279",
+    "context": "Title: Basin: Efficient and Extensible Numerical Optimization in Rust\nAbstract: arXiv:2608.11279v1 Announce Type: new  Abstract: Basin is a numerical optimization library for the Rust programming language. Numerical optimization is the task of finding the inputs that minimize a function, and it is a fundamental element across the sciences: fitting a model to data, calibrating a simulation, training a machine learning model, or choosing engineering parameters that minimize cost. Basin gives users a single, consistent way to both state and solve such problems, with a broad catalog of solvers and first-class support for constraints.",
+    "path": "papers/26/08/2608.11279.json",
+    "total_tokens": 426,
+    "translated_title": "Basin：Rust中高效且可扩展的数值优化库",
+    "translated_abstract": "arXiv:2608.11279v1 公告类型：新 摘要：Basin是一个用于Rust编程语言的数值优化库。数值优化是寻找使函数最小化的输入的任务，它是科学领域的基本要素：将模型拟合到数据、校准模拟、训练机器学习模型或选择最小化成本的工程参数。Basin为用户提供了一种统一、一致的方式来表述和解决此类问题，拥有广泛的求解器目录，并对约束提供一流支持。",
+    "tldr": "Basin为Rust提供了一种统一、可扩展的数值优化框架，集成多种求解器并原生支持约束条件，简化了科学计算中的优化问题求解。",
+    "en_tdlr": "Basin offers a unified, extensible numerical optimization framework for Rust, integrating diverse solvers with first-class constraint support to streamline optimization in scientific computing."
+}

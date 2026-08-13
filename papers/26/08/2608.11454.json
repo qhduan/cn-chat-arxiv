@@ -1,0 +1,12 @@
+{
+    "title": "Simplifying Requirements Engineering in the Context of the LGPD: An LLM-Based Investigation",
+    "abstract": "arXiv:2608.11454v1 Announce Type: new  Abstract: Compliance with privacy legislation poses a complex challenge to Requirements Engineering (RE): translating legal norms into software requirements. In this context, this study investigates whether Large Language Models (LLMs) can simplify RE within the framework of the Brazilian General Data Protection Law (LGPD). The proposed approach utilizes current legislation to automatically generate User Stories and Acceptance Test Scenarios. The evaluation results demonstrated high performance, confirming the potential of LLMs to ensure regulatory compliance from the software's inception.",
+    "link": "https://arxiv.org/abs/2608.11454",
+    "context": "Title: Simplifying Requirements Engineering in the Context of the LGPD: An LLM-Based Investigation\nAbstract: arXiv:2608.11454v1 Announce Type: new  Abstract: Compliance with privacy legislation poses a complex challenge to Requirements Engineering (RE): translating legal norms into software requirements. In this context, this study investigates whether Large Language Models (LLMs) can simplify RE within the framework of the Brazilian General Data Protection Law (LGPD). The proposed approach utilizes current legislation to automatically generate User Stories and Acceptance Test Scenarios. The evaluation results demonstrated high performance, confirming the potential of LLMs to ensure regulatory compliance from the software's inception.",
+    "path": "papers/26/08/2608.11454.json",
+    "total_tokens": 449,
+    "translated_title": "简化《通用数据保护法》背景下的需求工程：一项基于大型语言模型的研究",
+    "translated_abstract": "遵守隐私立法对需求工程（RE）构成了复杂挑战：将法律规范转化为软件需求。在此背景下，本研究探讨了大型语言模型（LLMs）是否能在巴西《通用数据保护法》（LGPD）框架内简化需求工程。所提出的方法利用现行立法自动生成用户故事和验收测试场景。评估结果显示其高性能，证实了LLMs从软件初始阶段确保法规合规性的潜力。",
+    "tldr": "本研究提出并验证了利用大型语言模型自动生成用户故事和验收测试场景，以简化巴西《通用数据保护法》下的需求工程，实现从软件初始阶段确保法规合规。",
+    "en_tdlr": "This study proposes and validates using large language models to automatically generate user stories and acceptance test scenarios, simplifying requirements engineering under Brazil's LGPD to ensure regulatory compliance from the software's inception."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A 12-CNOT Double Qubit Excitation Gate",
+    "abstract": "arXiv:2608.11733v1 Announce Type: cross  Abstract: Effective implementation of high-level quantum gates is essential for practical quantum computing. To the best of our knowledge, we present the first reported 12-CNOT decomposition of the double qubit excitation operator, improving upon state-of-the-art (SOTA) implementations with 13 CNOTs. Our new circuit has the lowest CNOT count (12), lowest CNOT depth (10), and lowest total circuit depth (16) among all the previous SOTA circuits. Further, we only added 2 extra one-qubit gates compared to the lowest one-qubit gate count (11) among the previous SOTA circuits.",
+    "link": "https://arxiv.org/abs/2608.11733",
+    "context": "Title: A 12-CNOT Double Qubit Excitation Gate\nAbstract: arXiv:2608.11733v1 Announce Type: cross  Abstract: Effective implementation of high-level quantum gates is essential for practical quantum computing. To the best of our knowledge, we present the first reported 12-CNOT decomposition of the double qubit excitation operator, improving upon state-of-the-art (SOTA) implementations with 13 CNOTs. Our new circuit has the lowest CNOT count (12), lowest CNOT depth (10), and lowest total circuit depth (16) among all the previous SOTA circuits. Further, we only added 2 extra one-qubit gates compared to the lowest one-qubit gate count (11) among the previous SOTA circuits.",
+    "path": "papers/26/08/2608.11733.json",
+    "total_tokens": 507,
+    "translated_title": "一个12-CNOT双量子比特激发门",
+    "translated_abstract": "摘要：arXiv:2608.11733v1 公告类型：交叉 摘要：高效实现高级量子门对实用量子计算至关重要。据我们所知，我们首次报道了双量子比特激发算子的12-CNOT分解，改进了现有最优（SOTA）实现中的13个CNOT。我们的新电路在所有先前SOTA电路中拥有最低的CNOT数量（12）、最低的CNOT深度（10）和最低的总电路深度（16）。此外，与先前SOTA电路中最低的单量子比特门数量（11）相比，我们仅增加了2个额外的单量子比特门。",
+    "tldr": "本文首次实现了双量子比特激发门的12-CNOT分解，刷新了CNOT数量、深度和总电路深度的最低记录，仅增加少量单量子比特门。",
+    "en_tdlr": "This paper presents the first 12-CNOT decomposition of the double qubit excitation gate, achieving the lowest CNOT count, depth, and total circuit depth with only a slight increase in single-qubit gates."
+}

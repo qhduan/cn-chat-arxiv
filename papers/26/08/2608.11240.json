@@ -1,0 +1,12 @@
+{
+    "title": "VQ-bench: A Composable Vector Quantization Framework",
+    "abstract": "arXiv:2608.11240v1 Announce Type: new  Abstract: Vector quantization is an old problem but has recently become central to AI infrastructure. It is therefore experiencing a surge of renewed engineering and research activity. This paper provides a unified framework for developing and benchmarking new quantization algorithms. We describe 7 common conceptual quantization primitives and show how to compose them arbitrarily. We then re-express 25 common quantizers as pipelines of these primitives. Finally, we publish VQ-bench as open-source to be extended further and make reproducible benchmarks publicly available.",
+    "link": "https://arxiv.org/abs/2608.11240",
+    "context": "Title: VQ-bench: A Composable Vector Quantization Framework\nAbstract: arXiv:2608.11240v1 Announce Type: new  Abstract: Vector quantization is an old problem but has recently become central to AI infrastructure. It is therefore experiencing a surge of renewed engineering and research activity. This paper provides a unified framework for developing and benchmarking new quantization algorithms. We describe 7 common conceptual quantization primitives and show how to compose them arbitrarily. We then re-express 25 common quantizers as pipelines of these primitives. Finally, we publish VQ-bench as open-source to be extended further and make reproducible benchmarks publicly available.",
+    "path": "papers/26/08/2608.11240.json",
+    "total_tokens": 455,
+    "translated_title": "VQ-bench：一个可组合的向量量化框架",
+    "translated_abstract": "向量量化是一个古老的问题，但最近已成为人工智能基础设施的核心。因此，它正经历着工程和研究活动的新一轮激增。本文提供了一个统一的框架，用于开发和基准测试新的量化算法。我们描述了7种常见的概念性量化原语，并展示了如何任意组合它们。然后，我们将25种常见的量化器重新表达为这些原语的流水线。最后，我们以开源形式发布VQ-bench，以便进一步扩展，并公开提供可复现的基准测试。",
+    "tldr": "本文提出了一个可组合的向量量化框架VQ-bench，通过7种量化原语统一了25种常见量化器，并开源以促进可复现的基准测试。",
+    "en_tdlr": "This paper proposes a composable vector quantization framework VQ-bench that unifies 25 common quantizers via 7 primitives and is open-sourced for reproducible benchmarking."
+}

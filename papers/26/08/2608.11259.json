@@ -1,0 +1,12 @@
+{
+    "title": "Methodologies for Improving the Quality of AI Tutoring in K-12 Education",
+    "abstract": "arXiv:2608.11259v1 Announce Type: cross  Abstract: Many AI tutors leverage large language models (LLMs) today. Given that LLMs are opaque black boxes, robust evaluation and live experimentation to measure the impact of every change are essential. We pioneered AI-powered tutoring for K-12 with the launch of Khanmigo (Khan Academy, 2023). We describe the metrics we use to measure AI tutoring quality and student engagement as well as various experiments we have run. We highlight the changes that have moved our metrics, including models, prompting, personalization and agents.",
+    "link": "https://arxiv.org/abs/2608.11259",
+    "context": "Title: Methodologies for Improving the Quality of AI Tutoring in K-12 Education\nAbstract: arXiv:2608.11259v1 Announce Type: cross  Abstract: Many AI tutors leverage large language models (LLMs) today. Given that LLMs are opaque black boxes, robust evaluation and live experimentation to measure the impact of every change are essential. We pioneered AI-powered tutoring for K-12 with the launch of Khanmigo (Khan Academy, 2023). We describe the metrics we use to measure AI tutoring quality and student engagement as well as various experiments we have run. We highlight the changes that have moved our metrics, including models, prompting, personalization and agents.",
+    "path": "papers/26/08/2608.11259.json",
+    "total_tokens": 476,
+    "translated_title": "提升K-12教育中AI辅导质量的方法论",
+    "translated_abstract": "摘要：arXiv:2608.11259v1 公告类型：交叉 摘要：如今，许多AI辅导系统利用大型语言模型（LLMs）。鉴于LLMs是不透明的黑盒，进行稳健的评估和实时实验以衡量每次更改的影响至关重要。我们通过推出Khanmigo（可汗学院，2023年）开创了K-12教育的AI辅导。我们描述了用于衡量AI辅导质量和学生参与度的指标，以及我们进行的各种实验。我们重点介绍了推动指标变化的关键改进，包括模型、提示、个性化和智能体。",
+    "tldr": "本文提出了一套衡量K-12 AI辅导质量与参与度的指标体系，并通过模型、提示、个性化和智能体等实验改进，显著提升了辅导效果。",
+    "en_tdlr": "This paper proposes a metric system for measuring K-12 AI tutoring quality and engagement, and through experiments on models, prompting, personalization, and agents, significantly improves tutoring effectiveness."
+}

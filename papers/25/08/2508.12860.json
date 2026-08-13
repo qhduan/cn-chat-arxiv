@@ -1,0 +1,12 @@
+{
+    "title": "Estimation and exclusion restrictions in clustered linear models",
+    "abstract": "arXiv:2508.12860v3 Announce Type: replace  Abstract: We study linear regression models with clustered data, high-dimensional controls, and intricate exclusion restrictions. We propose a correctly centered internal instrument IV estimator that accommodates a broad class of exclusion restrictions and allows within-cluster dependence. The estimator admits a simple leave-out interpretation and is computationally tractable. We derive a central limit theorem for the associated quadratic form and propose a robust variance estimator. We also develop identification-robust inference procedures. Our framework extends dynamic panel methods to general clustered settings. We illustrate the approach in a large-scale fiscal intervention in rural Kenya, where spatial interference generates the exclusion-restriction pattern.",
+    "link": "https://arxiv.org/abs/2508.12860",
+    "context": "Title: Estimation and exclusion restrictions in clustered linear models\nAbstract: arXiv:2508.12860v3 Announce Type: replace  Abstract: We study linear regression models with clustered data, high-dimensional controls, and intricate exclusion restrictions. We propose a correctly centered internal instrument IV estimator that accommodates a broad class of exclusion restrictions and allows within-cluster dependence. The estimator admits a simple leave-out interpretation and is computationally tractable. We derive a central limit theorem for the associated quadratic form and propose a robust variance estimator. We also develop identification-robust inference procedures. Our framework extends dynamic panel methods to general clustered settings. We illustrate the approach in a large-scale fiscal intervention in rural Kenya, where spatial interference generates the exclusion-restriction pattern.",
+    "path": "papers/25/08/2508.12860.json",
+    "total_tokens": 475,
+    "translated_title": "聚类线性模型中的估计与排除限制",
+    "translated_abstract": "我们研究了具有聚类数据、高维控制变量和复杂排除限制的线性回归模型。我们提出了一种正确居中的内部工具变量估计器，该估计器适用于广泛的排除限制类别，并允许组内相关性。该估计器具有简单的留出解释，并且计算上易于处理。我们推导了相关二次形式的中心极限定理，并提出了稳健方差估计器。我们还开发了识别稳健的推断程序。我们的框架将动态面板方法扩展到一般聚类设置。我们在肯尼亚农村的大规模财政干预中展示了该方法，其中空间干扰产生了排除限制模式。",
+    "tldr": "本文提出一种适用于聚类线性模型的新工具变量估计方法，能处理复杂排除限制和组内相关性，并通过肯尼亚案例验证了其有效性。",
+    "en_tdlr": "This paper proposes a new instrumental variable estimator for clustered linear models that handles intricate exclusion restrictions and within-cluster dependence, validated through a Kenya case study."
+}

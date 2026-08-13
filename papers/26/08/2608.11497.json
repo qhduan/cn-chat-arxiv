@@ -1,0 +1,12 @@
+{
+    "title": "Diversity as Majorization",
+    "abstract": "arXiv:2608.11497v1 Announce Type: new  Abstract: How should institutions compare group diversity, and which group should they select when they value diversity and merit? We take a target-based approach that evaluates the entire group composition without treating any type as intrinsically diversity-enhancing. Because different diversity indices may rank groups differently, we instead adapt majorization to construct an ordinal diversity preorder. We show that its maximally diverse selections are exactly those maximizing every index in a broad class. This characterization yields a reserve-and-quota policy that selects a maximally diverse group and, among such groups, the highest-merit agents. Any alternative is less diverse, less meritorious, or both.",
+    "link": "https://arxiv.org/abs/2608.11497",
+    "context": "Title: Diversity as Majorization\nAbstract: arXiv:2608.11497v1 Announce Type: new  Abstract: How should institutions compare group diversity, and which group should they select when they value diversity and merit? We take a target-based approach that evaluates the entire group composition without treating any type as intrinsically diversity-enhancing. Because different diversity indices may rank groups differently, we instead adapt majorization to construct an ordinal diversity preorder. We show that its maximally diverse selections are exactly those maximizing every index in a broad class. This characterization yields a reserve-and-quota policy that selects a maximally diverse group and, among such groups, the highest-merit agents. Any alternative is less diverse, less meritorious, or both.",
+    "path": "papers/26/08/2608.11497.json",
+    "total_tokens": 509,
+    "translated_title": "多样性作为主化",
+    "translated_abstract": "arXiv:2608.11497v1 公告类型：新 摘要：机构应如何比较群体多样性，并在重视多样性和才能时应选择哪个群体？我们采取一种基于目标的方法，评估整个群体构成，而不将任何类型视为本质上增强多样性。由于不同的多样性指数可能对群体进行不同排序，我们转而采用主化方法来构建一个序数多样性预序。我们证明，其最大化多样性选择恰好是那些在广泛类别中最大化每个指数的选择。这一特征化产生了一种储备和配额政策，该政策选择一个最大化多样性的群体，并在这些群体中选择最高才能的个体。任何替代方案要么多样性较低，要么才能较低，或两者兼而有之。",
+    "tldr": "本文提出了一种基于主化的多样性排序方法，证明了最大化多样性的选择等同于最大化所有广义多样性指数，并设计了一种储备和配额政策来同时优化多样性和才能。",
+    "en_tdlr": "This paper introduces a majorization-based diversity preorder, showing that maximally diverse selections maximize all indices in a broad class, and proposes a reserve-and-quota policy that balances diversity and merit."
+}

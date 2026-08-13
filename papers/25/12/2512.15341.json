@@ -1,0 +1,12 @@
+{
+    "title": "The comparative statics of dominance",
+    "abstract": "arXiv:2512.15341v3 Announce Type: replace  Abstract: In finite problems comprising objects, cases, and an object- and case-contingent payoff function, we study the comparative statics of the set of undominated objects, meaning those for which there exists no mixture over objects that is superior in every case. We consider both weak and strict dominance (corresponding to different degrees of 'strictness' in the definition of superiority). Our main theorem characterises those payoff transformations which robustly expand the not-weakly-dominated and not-strictly-dominated sets: the necessary and sufficient condition is that payoffs be transformed separately across cases, in either a monotone-concave or a constant manner. We apply our results to Pareto frontiers and games.",
+    "link": "https://arxiv.org/abs/2512.15341",
+    "context": "Title: The comparative statics of dominance\nAbstract: arXiv:2512.15341v3 Announce Type: replace  Abstract: In finite problems comprising objects, cases, and an object- and case-contingent payoff function, we study the comparative statics of the set of undominated objects, meaning those for which there exists no mixture over objects that is superior in every case. We consider both weak and strict dominance (corresponding to different degrees of 'strictness' in the definition of superiority). Our main theorem characterises those payoff transformations which robustly expand the not-weakly-dominated and not-strictly-dominated sets: the necessary and sufficient condition is that payoffs be transformed separately across cases, in either a monotone-concave or a constant manner. We apply our results to Pareto frontiers and games.",
+    "path": "papers/25/12/2512.15341.json",
+    "total_tokens": 500,
+    "translated_title": "支配关系的比较静态分析",
+    "translated_abstract": "在包含对象、情形以及依赖于对象和情形的收益函数的有限问题中，我们研究了未被支配对象集合的比较静态性质，这些对象是指不存在任何在每种情形下都更优的对象混合。我们考虑了弱支配和严格支配（对应于优越性定义中不同“严格”程度）。我们的主要定理刻画了那些能够稳健地扩展非弱支配集和非严格支配集的收益变换：必要且充分条件是收益在每种情形下分别以单调凹或常数方式进行变换。我们将结果应用于帕累托前沿和博弈论。",
+    "tldr": "本文提出并证明了在有限决策问题中，收益变换能稳健扩展非支配对象集合的充要条件，即按情形进行单调凹或常数变换，并应用于帕累托前沿和博弈分析。",
+    "en_tdlr": "This paper characterizes payoff transformations that robustly expand undominated sets in finite problems, requiring case-wise monotone-concave or constant transformations, with applications to Pareto frontiers and games."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A Taxonomy of Single-Turn Textual Prompt Patterns",
+    "abstract": "arXiv:2607.00043v2 Announce Type: replace  Abstract: Large language models (LLMs) are now widely employed in software development and everyday use. Interacting with LLMs requires crafting prompts, which range from simple ad hoc sentences to extensive, detailed, and structured instructions. Knowledge about prompt engineering has been documented in several surveys and catalogs in the literature. However, the term ``prompt pattern'' is defined differently across sources, and existing works have classified prompt patterns in different ways. In this report, we present a taxonomy of prompt patterns for single-turn, text-based interactions. Following a reproducible method, we identified 30 unique and canonical prompt patterns, organized along two dimensions.",
+    "link": "https://arxiv.org/abs/2607.00043",
+    "context": "Title: A Taxonomy of Single-Turn Textual Prompt Patterns\nAbstract: arXiv:2607.00043v2 Announce Type: replace  Abstract: Large language models (LLMs) are now widely employed in software development and everyday use. Interacting with LLMs requires crafting prompts, which range from simple ad hoc sentences to extensive, detailed, and structured instructions. Knowledge about prompt engineering has been documented in several surveys and catalogs in the literature. However, the term ``prompt pattern'' is defined differently across sources, and existing works have classified prompt patterns in different ways. In this report, we present a taxonomy of prompt patterns for single-turn, text-based interactions. Following a reproducible method, we identified 30 unique and canonical prompt patterns, organized along two dimensions.",
+    "path": "papers/26/07/2607.00043.json",
+    "total_tokens": 482,
+    "translated_title": "单轮文本提示模式分类法",
+    "translated_abstract": "大型语言模型（LLMs）现已广泛应用于软件开发和日常使用中。与LLMs交互需要精心设计提示，这些提示范围从简单的临时句子到详尽、详细且结构化的指令。关于提示工程的知识已在文献中的多项综述和目录中记录。然而，术语“提示模式”在不同来源中的定义各异，现有研究以不同方式对提示模式进行分类。在本报告中，我们提出了一种针对单轮、基于文本交互的提示模式分类法。遵循可复现的方法，我们识别出30种独特且规范的提示模式，并按两个维度进行组织。",
+    "tldr": "本文提出了一种针对单轮文本交互的提示模式分类法，通过可复现方法识别出30种规范模式，并按两个维度进行组织。",
+    "en_tdlr": "This paper presents a taxonomy of prompt patterns for single-turn text interactions, identifying 30 canonical patterns through a reproducible method and organizing them along two dimensions."
+}

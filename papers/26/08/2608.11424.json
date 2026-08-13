@@ -1,0 +1,12 @@
+{
+    "title": "Click2Poly: A VLM for vector mapping buildings and walls",
+    "abstract": "arXiv:2608.11424v1 Announce Type: new  Abstract: Accurate vector mapping of buildings and walls is critical for geospatial applications but remains a labor-intensive process. While recent deep learning methods have improved automatic extraction, in order to meet cartographic standards they always require a human to perform quality control and fix complex cases in the extraction. We present Click2Poly, a human-in-the-loop AI assistant designed to speed up this manual step. Extending the Florence-2 Vision Language Model (VLM), Click2Poly responds to user clicks by editing the building or wall vector layer directly. Implemented as a QGIS plugin, Click2Poly speeds up the manual editing of building and wall vector layers in a real-world production environment.",
+    "link": "https://arxiv.org/abs/2608.11424",
+    "context": "Title: Click2Poly: A VLM for vector mapping buildings and walls\nAbstract: arXiv:2608.11424v1 Announce Type: new  Abstract: Accurate vector mapping of buildings and walls is critical for geospatial applications but remains a labor-intensive process. While recent deep learning methods have improved automatic extraction, in order to meet cartographic standards they always require a human to perform quality control and fix complex cases in the extraction. We present Click2Poly, a human-in-the-loop AI assistant designed to speed up this manual step. Extending the Florence-2 Vision Language Model (VLM), Click2Poly responds to user clicks by editing the building or wall vector layer directly. Implemented as a QGIS plugin, Click2Poly speeds up the manual editing of building and wall vector layers in a real-world production environment.",
+    "path": "papers/26/08/2608.11424.json",
+    "total_tokens": 548,
+    "translated_title": "Click2Poly：一种用于建筑与墙体矢量制图的大型视觉语言模型",
+    "translated_abstract": "arXiv:2608.11424v1 公告类型：新论文 摘要：建筑和墙体的精确矢量制图对于地理空间应用至关重要，但这一过程仍然劳动密集。尽管最近的深度学习方法改进了自动提取，但为了符合制图标准，始终需要人工进行质量控制并修复提取中的复杂情况。我们提出了Click2Poly，一个带有人工介入的AI助手，旨在加速这一手动步骤。通过扩展Florence-2视觉语言模型（VLM），Click2Poly能响应用户点击，直接编辑建筑或墙体矢量图层。作为QGIS插件实现，Click2Poly在真实生产环境中加速了建筑和墙体矢量图层的手动编辑。",
+    "tldr": "Click2Poly是一个基于Florence-2视觉语言模型并集成于QGIS的交互式AI助手，通过用户点击直接编辑建筑和墙体矢量图层，显著加快人工制图修正过程。",
+    "en_tdlr": "Click2Poly is an interactive AI assistant based on the Florence-2 Vision Language Model and integrated into QGIS, which accelerates manual cartographic correction by directly editing building and wall vector layers in response to user clicks."
+}

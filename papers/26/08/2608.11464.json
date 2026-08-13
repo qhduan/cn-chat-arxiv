@@ -1,0 +1,12 @@
+{
+    "title": "Estimating the perturbed utility route choice model with trip-level data",
+    "abstract": "arXiv:2608.11464v1 Announce Type: cross  Abstract: We provide an estimator for the perturbed utility route choice (PURC) model that works with data at the level of individual trips. The estimator is a nested fixed-point algorithm that combines an upper bias-corrected linear regression problem with a lower individual-level perturbed utility maximization problem. We establish the statistical properties of the microPURC estimator and confirm these results with an experiment using simulated data. Finally, we demonstrate the estimator in practice using a large real-world dataset.",
+    "link": "https://arxiv.org/abs/2608.11464",
+    "context": "Title: Estimating the perturbed utility route choice model with trip-level data\nAbstract: arXiv:2608.11464v1 Announce Type: cross  Abstract: We provide an estimator for the perturbed utility route choice (PURC) model that works with data at the level of individual trips. The estimator is a nested fixed-point algorithm that combines an upper bias-corrected linear regression problem with a lower individual-level perturbed utility maximization problem. We establish the statistical properties of the microPURC estimator and confirm these results with an experiment using simulated data. Finally, we demonstrate the estimator in practice using a large real-world dataset.",
+    "path": "papers/26/08/2608.11464.json",
+    "total_tokens": 439,
+    "translated_title": "基于行程级数据的扰动效用路径选择模型估计",
+    "translated_abstract": "摘要：arXiv:2608.11464v1 公告类型：交叉 摘要：我们提出了一种适用于个体行程级别数据的扰动效用路径选择（PURC）模型的估计方法。该估计器是一种嵌套固定点算法，结合了上层偏差校正的线性回归问题和下层个体级别扰动效用最大化问题。我们确立了microPURC估计器的统计性质，并通过模拟数据实验验证了这些结果。最后，我们使用一个大型真实世界数据集展示了该估计器在实际中的应用。",
+    "tldr": "本文提出了一种针对个体行程数据的扰动效用路径选择模型的嵌套固定点估计方法，并验证了其统计性质及实际应用效果。",
+    "en_tdlr": "This paper proposes a nested fixed-point estimator for the perturbed utility route choice model using trip-level data, and validates its statistical properties and practical application."
+}

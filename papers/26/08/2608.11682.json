@@ -1,0 +1,12 @@
+{
+    "title": "A Solution to the Roommate Problem",
+    "abstract": "arXiv:2608.11682v1 Announce Type: new  Abstract: We extend the concept of priority-neutral matching, introduced by Reny (2022) in the school choice context, to the roommate problem. We prove three main results. First, a blocking-neutral matching always exists in constrained roommate problems under arbitrary feasibility constraints (Theorem 1). Second, the set of stable matchings is contained in the set of blocking-neutral matchings, which in turn is contained in the set of Pareto-optimal matchings (Theorem 2). Third, whenever stable matchings exist, the set of blocking-neutral matchings coincides with the set of stable matchings (Theorem 3). We also show that existence fails under weak preferences and extend the concept to two-sided school choice.",
+    "link": "https://arxiv.org/abs/2608.11682",
+    "context": "Title: A Solution to the Roommate Problem\nAbstract: arXiv:2608.11682v1 Announce Type: new  Abstract: We extend the concept of priority-neutral matching, introduced by Reny (2022) in the school choice context, to the roommate problem. We prove three main results. First, a blocking-neutral matching always exists in constrained roommate problems under arbitrary feasibility constraints (Theorem 1). Second, the set of stable matchings is contained in the set of blocking-neutral matchings, which in turn is contained in the set of Pareto-optimal matchings (Theorem 2). Third, whenever stable matchings exist, the set of blocking-neutral matchings coincides with the set of stable matchings (Theorem 3). We also show that existence fails under weak preferences and extend the concept to two-sided school choice.",
+    "path": "papers/26/08/2608.11682.json",
+    "total_tokens": 511,
+    "translated_title": "室友问题的一种解决方案",
+    "translated_abstract": "arXiv:2608.11682v1 公告类型：新 摘要：我们将Reny（2022）在学校选择背景下引入的优先中性匹配概念扩展到室友问题。我们证明了三个主要结果。首先，在任意可行性约束下的受限室友问题中，阻断中性匹配总是存在（定理1）。其次，稳定匹配集包含在阻断中性匹配集中，而后者又包含在帕累托最优匹配集中（定理2）。第三，只要稳定匹配存在，阻断中性匹配集与稳定匹配集重合（定理3）。我们还表明，在弱偏好下存在性失效，并将该概念扩展到双边学校选择。",
+    "tldr": "本文扩展了优先中性匹配概念至室友问题，证明了其在受限情况下的存在性、与稳定匹配和帕累托最优匹配的关系，并指出弱偏好下失效。",
+    "en_tdlr": "This paper extends priority-neutral matching to the roommate problem, proving its existence under constraints, its containment relations with stable and Pareto-optimal matchings, and failure under weak preferences."
+}

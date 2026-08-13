@@ -1,0 +1,12 @@
+{
+    "title": "How to Beat FCFS",
+    "abstract": "arXiv:2608.11710v1 Announce Type: new  Abstract: We study two observable queues with identical service rates, serving agents who arrive stochastically over time. Agents join the queue that minimizes their expected waiting time. Assuming one queue uses the ubiquitous First-Come-First-Served (FCFS) service rule, we show that by simply modifying its service order, the other queue can capture a strict majority of the demand. We establish an upper bound on the arrival share any rule can capture against FCFS. When both queues can design their service order, we show a novel variant of Last-Come-First-Served (LCFS) is an equilibrium in a low congestion regime. Without commitment, the picture changes, and there is an equilibrium where both queues use FCFS, and agents route to the queue with the shorter waitlist.",
+    "link": "https://arxiv.org/abs/2608.11710",
+    "context": "Title: How to Beat FCFS\nAbstract: arXiv:2608.11710v1 Announce Type: new  Abstract: We study two observable queues with identical service rates, serving agents who arrive stochastically over time. Agents join the queue that minimizes their expected waiting time. Assuming one queue uses the ubiquitous First-Come-First-Served (FCFS) service rule, we show that by simply modifying its service order, the other queue can capture a strict majority of the demand. We establish an upper bound on the arrival share any rule can capture against FCFS. When both queues can design their service order, we show a novel variant of Last-Come-First-Served (LCFS) is an equilibrium in a low congestion regime. Without commitment, the picture changes, and there is an equilibrium where both queues use FCFS, and agents route to the queue with the shorter waitlist.",
+    "path": "papers/26/08/2608.11710.json",
+    "total_tokens": 561,
+    "translated_title": "如何击败FCFS",
+    "translated_abstract": "arXiv:2608.11710v1 公告类型：新 摘要：我们研究两个具有相同服务率的可观察队列，为随时间随机到达的代理提供服务。代理加入预期等待时间最小的队列。假设一个队列采用普遍的先到先服务（FCFS）规则，我们表明，仅通过修改其服务顺序，另一个队列就能捕获严格多数的需求。我们建立了任何规则在对抗FCFS时所能捕获的到达份额的上界。当两个队列都能设计其服务顺序时，我们证明了一种新颖的后到先服务（LCFS）变体在低拥塞状态下是一个均衡。在没有承诺的情况下，情况发生变化，存在一个均衡，其中两个队列都使用FCFS，且代理路由到等待名单较短的队列。",
+    "tldr": "本文证明通过改变服务顺序（如采用LCFS变体），一个队列能在与FCFS的竞争中赢得多数需求，并揭示低拥塞下的均衡策略。",
+    "en_tdlr": "This paper shows that by altering service order (e.g., a novel LCFS variant), a queue can capture majority demand against FCFS, and identifies equilibrium strategies under low congestion."
+}
