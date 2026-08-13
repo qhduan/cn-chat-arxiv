@@ -4,31 +4,36 @@ import traceback
 
 import requests
 
-API_KEY = os.environ.get('OPENAI_API_KEY')
-API_BASE = os.environ.get('OPENAI_API_BASE')
-MODEL = os.environ.get('OPENAI_API_MODEL', 'gpt-3.5-turbo')
+# 空字符串视为未设置，避免 secrets 缺失时带着空 key 去请求然后得到 401
+API_KEY = os.environ.get('OPENAI_API_KEY') or None
+API_BASE = os.environ.get('OPENAI_API_BASE') or None
+MODEL = os.environ.get('OPENAI_API_MODEL') or 'gpt-3.5-turbo'
 
-AZURE_API_KEY = os.environ.get('OPENAI_AZURE_API_KEY')
-AZURE_BASE = os.environ.get('OPENAI_AZURE_BASE')
-AZURE_ENGINE = os.environ.get('OPENAI_AZURE_ENGINE')
-AZURE_VERSION = os.environ.get('OPENAI_AZURE_VERSION', '2022-12-01')
+AZURE_API_KEY = os.environ.get('OPENAI_AZURE_API_KEY') or None
+AZURE_BASE = os.environ.get('OPENAI_AZURE_BASE') or None
+AZURE_ENGINE = os.environ.get('OPENAI_AZURE_ENGINE') or None
+AZURE_VERSION = os.environ.get('OPENAI_AZURE_VERSION') or '2022-12-01'
 
 # 单个请求的超时（秒），可通过环境变量覆盖
 REQUEST_TIMEOUT = int(os.environ.get('OPENAI_REQUEST_TIMEOUT', '60'))
 
+def short(x):
+    return x[:5] if x else x
+
+
 if AZURE_BASE is not None:
     API_TYPE = 'azure'
     print('api_type:', 'azure')
-    print('api_base:', AZURE_BASE[:5])
-    print('api_key:', AZURE_API_KEY[:5])
+    print('api_base:', short(AZURE_BASE))
+    print('api_key:', short(AZURE_API_KEY))
 elif API_KEY is not None:
     API_TYPE = 'openai'
     if API_BASE is None:
         API_BASE = 'https://api.openai.com'
     print('api_type:', 'openai')
-    print('api_base:', API_BASE[:5])
-    print('api_key:', API_KEY[:5])
-    print('model:', MODEL[:5])
+    print('api_base:', short(API_BASE))
+    print('api_key:', short(API_KEY))
+    print('model:', short(MODEL))
 else:
     print('Please set OPENAI_API_KEY or OPENAI_AZURE_API_KEY and OPENAI_AZURE_BASE')
     exit(1)
@@ -73,6 +78,9 @@ def call_chat(context):
     ret = None
     try:
         if API_TYPE == 'azure':
+            if not AZURE_API_KEY or not AZURE_ENGINE:
+                print('OPENAI_AZURE_BASE is set but OPENAI_AZURE_API_KEY/OPENAI_AZURE_ENGINE is missing')
+                return final_ret
             url = f'{AZURE_BASE.rstrip("/")}/openai/deployments/{AZURE_ENGINE}/completions'
             payload = {
                 'prompt': prompt_temp_azure.format(context=context),
@@ -97,7 +105,11 @@ def call_chat(context):
             params = None
 
         resp = session.post(url, json=payload, headers=headers, params=params, timeout=REQUEST_TIMEOUT)
-        resp.raise_for_status()
+        if not resp.ok:
+            # 401/403 等错误时，上游返回的 body 通常带具体原因，打印出来方便定位
+            print('http status:', resp.status_code, resp.reason)
+            print('response body:', resp.text[:2000])
+            resp.raise_for_status()
         ret = resp.json()
 
         if API_TYPE == 'azure':
