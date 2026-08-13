@@ -14,7 +14,7 @@ import feedparser
 from bs4 import BeautifulSoup
 from tqdm.auto import tqdm
 from pebble import concurrent, ProcessPool
-from llm import call_chat, openai
+from llm import call_chat
 
 output_dir = 'papers'
 
