@@ -9,6 +9,9 @@ if os.environ.get('OPENAI_AZURE_BASE') is not None:
     engine = os.environ.get('OPENAI_AZURE_ENGINE')
     openai.api_version = os.environ.get('OPENAI_AZURE_VERSION', "2022-12-01")
     openai.api_type = "azure"
+    print('openai.api_type:', 'azure')
+    print('openai.api_base:', openai.api_base[:5])
+    print('openai.api_key:', openai.api_key[:5])
 elif os.environ.get('OPENAI_API_KEY') is not None:
     openai.api_key = os.environ.get('OPENAI_API_KEY')
     if os.environ.get('OPENAI_API_BASE') is not None:
@@ -16,6 +19,10 @@ elif os.environ.get('OPENAI_API_KEY') is not None:
     openai_model = "gpt-3.5-turbo"
     if os.environ.get('OPENAI_API_MODEL') is not None:
         openai_model = os.environ.get('OPENAI_API_MODEL')
+    print('openai.api_type:', 'openai')
+    print('openai.api_base:', openai.api_base[:5])
+    print('openai.api_key:', openai.api_key[:5])
+    print('openai_model:', openai_model[:5])
 else:
     print('Please set OPENAI_API_KEY or OPENAI_AZURE_API_KEY and OPENAI_AZURE_BASE')
     exit(1)
