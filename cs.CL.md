@@ -2,22 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Forecasting With LLMs: Improved Generalization Through Feature Steering](https://arxiv.org/abs/2606.27199) | 本研究发现通过增强大型语言模型中的时间感知特征，可以有效减少预测中的前瞻偏差，提升泛化能力，而干预前瞻偏差特征则无效。 |
+| [^1] | [MinGram: A Minimalist Unigram Tokenizer with High Compression and Competitive Morphological Alignment](https://arxiv.org/abs/2606.27019) | MinGram通过极简化的训练流程，在保持高压缩率的同时，实现了与概率方法相媲美的形态对齐能力。 |
 
 # 详细
 
-[^1]: 利用大型语言模型进行预测：通过特征引导提升泛化能力
+[^1]: MinGram：一种高压缩率且具备竞争性形态对齐能力的极简Unigram分词器
 
-    Forecasting With LLMs: Improved Generalization Through Feature Steering
+    MinGram: A Minimalist Unigram Tokenizer with High Compression and Competitive Morphological Alignment
 
-    [https://arxiv.org/abs/2606.27199](https://arxiv.org/abs/2606.27199)
+    [https://arxiv.org/abs/2606.27019](https://arxiv.org/abs/2606.27019)
 
-    本研究发现通过增强大型语言模型中的时间感知特征，可以有效减少预测中的前瞻偏差，提升泛化能力，而干预前瞻偏差特征则无效。
+    MinGram通过极简化的训练流程，在保持高压缩率的同时，实现了与概率方法相媲美的形态对齐能力。
 
     
 
-    arXiv:2606.27199v1 公告类型：新论文 摘要：成功的预测需要识别历史与未来世界状态之间的模式，这些模式能够泛化到未来的观测中。我们将大型语言模型应用于多种预测任务，并使用稀疏自编码器检查其内部状态，以理解它们是否依赖特定时间的知识还是可泛化的模式。我们的分析识别出与时间感知推理和前瞻偏差推理相关的特征。随后，我们将LLMs应用于一个完全不同的领域，并对这些特征进行干预。我们发现，增强时间感知特征显著减少了预测提示中的前瞻偏差，同时保留了通用的推理性能。相比之下，引导候选的前瞻偏差特征并未产生效果。这些结果表明，可解释的时间特征可以因果性地将LLMs转向更基于历史事实的推理。
+    arXiv:2606.27019v1 公告类型：新文 摘要：Unigram分词器采用优雅的表示方式，使得词汇表编辑变得直接简单，但其训练过程相对繁重复杂。我们提出MinGram（极简Unigram），该方法保留令牌列表表示，但通过使用BPE衍生种子词汇、基于最小令牌路径的硬期望最大化算法以及单次平坦分数剪枝步骤来简化训练。这消除了后缀数组、前向-后向传递和迭代剪枝循环，使得整个过程几乎不需要超出分词器推理本身的操作。通过将令牌数量作为主要目标，并仅将Unigram分数用作平局判定依据，MinGram在保持纯令牌计数方法压缩率的同时，保留了概率方法的大部分形态对齐能力和下游质量。在六种语言上，MinGram的压缩率优于BPE和标准Unigram，并且其压缩导向变体与最强令牌计数压缩器性能相当。
 
-    arXiv:2606.27199v1 Announce Type: new  Abstract: Successful forecasting involves identifying patterns between historical and future states of the world which generalize to future observations. We apply LLMs to a variety of forecasting tasks and inspect their internal states using sparse autoencoders to understand whether they appear to rely on time-specific pieces of knowledge versus generalizable patterns. Our analyses identify features associated with both time-aware reasoning and look-ahead-biased reasoning. We then apply the LLMs to an entirely different domain and intervene on these features. We find that amplifying time-awareness features substantially reduces look-ahead bias on forecasting prompts while preserving general reasoning performance. In contrast, steering the candidate look-ahead-bias features does not produce an effect. These results suggest that interpretable temporal features can be used to causally shift LLMs toward more historically grounded reasoning.
+    arXiv:2606.27019v1 Announce Type: new  Abstract: The Unigram tokenizer uses an elegant representation which makes it straightforward to edit vocabularies, but its training is comparatively heavy and complex. We introduce MinGram (Minimalist Unigram), which keeps the token-list representation but simplifies training using a BPE-derived seed vocabulary, Hard EM on a minimum-token path, and a single flat score-pruning step. This removes the suffix array, the forward-backward pass, and the iterative prune loop, leaving a procedure that requires little beyond tokenizer inference itself. By making token count the primary objective and using a Unigram score only as a tiebreak, MinGram keeps the compression of pure token-count methods while retaining much of the morphological alignment and downstream quality of probabilistic ones. Across six languages, MinGram compresses better than both BPE and standard Unigram, and a compression-oriented variant matches the strongest token-count compressors 
     
 
