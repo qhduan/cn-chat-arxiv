@@ -1,0 +1,12 @@
+{
+    "title": "ReconSpan: Reconstruction-Guided Adaptive Latent Tokenization",
+    "abstract": "arXiv:2608.12756v1 Announce Type: new  Abstract: Adaptive latent tokenization maps a fine-grained input to a shorter sequence of continuous representations associated with input-dependent spans. We introduce ReconSpan, which divides text into chunks that a backward decoder can reconstruct from a single contextual prefix code and retains one such code as the latent token for each chunk. The reconstruction criterion is applied when chunks are formed, allowing one trained autoencoder to produce average chunk lengths from 6.5 to 12.2. At matched average length, reconstruction-guided boundaries preserve more text than random boundaries. Readers of the resulting latent sequence recover topic information reliably but struggle to extract exact details.",
+    "link": "https://arxiv.org/abs/2608.12756",
+    "context": "Title: ReconSpan: Reconstruction-Guided Adaptive Latent Tokenization\nAbstract: arXiv:2608.12756v1 Announce Type: new  Abstract: Adaptive latent tokenization maps a fine-grained input to a shorter sequence of continuous representations associated with input-dependent spans. We introduce ReconSpan, which divides text into chunks that a backward decoder can reconstruct from a single contextual prefix code and retains one such code as the latent token for each chunk. The reconstruction criterion is applied when chunks are formed, allowing one trained autoencoder to produce average chunk lengths from 6.5 to 12.2. At matched average length, reconstruction-guided boundaries preserve more text than random boundaries. Readers of the resulting latent sequence recover topic information reliably but struggle to extract exact details.",
+    "path": "papers/26/08/2608.12756.json",
+    "total_tokens": 471,
+    "translated_title": "ReconSpan：重构引导的自适应潜在分词",
+    "translated_abstract": "自适应潜在分词将细粒度输入映射为与输入相关片段对应的较短连续表示序列。我们引入了ReconSpan，它将文本划分为可由后向解码器从单一上下文前缀代码重构的块，并为每个块保留一个此类代码作为潜在令牌。重构准则在形成块时应用，使得一个训练好的自编码器能够产生从6.5到12.2的平均块长度。在匹配的平均长度下，重构引导的边界比随机边界保留更多文本。所得潜在序列的读者能可靠地恢复主题信息，但难以提取精确细节。",
+    "tldr": "ReconSpan通过重构引导的自适应分词，在保持文本主题信息的同时，显著提高了潜在序列的压缩效率，但精确细节的保留仍有局限。",
+    "en_tdlr": "ReconSpan uses reconstruction-guided adaptive tokenization to improve compression efficiency while preserving topic information, though exact details remain challenging to retain."
+}

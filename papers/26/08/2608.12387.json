@@ -1,0 +1,12 @@
+{
+    "title": "Query Timing Produces Opposite Positional Biases Between LLMs and Humans",
+    "abstract": "arXiv:2608.12387v1 Announce Type: cross  Abstract: Positional biases such as recency and primacy effects have been documented in large language models (LLMs), yet the underlying mechanism by which these models make their evaluations remains poorly understood. Both primacy and recency biases have been observed in human judgments in response to evidence, but recent work suggest that \\emph{when} the listener updates their beliefs -- during the presentation of evidence or only at the end -- influences the presence of such effects. We investigate whether a similar phenomenon holds for LLMs, finding divergence from human behavior. These biases are more exacerbated in newer models compared to their predecessors.",
+    "link": "https://arxiv.org/abs/2608.12387",
+    "context": "Title: Query Timing Produces Opposite Positional Biases Between LLMs and Humans\nAbstract: arXiv:2608.12387v1 Announce Type: cross  Abstract: Positional biases such as recency and primacy effects have been documented in large language models (LLMs), yet the underlying mechanism by which these models make their evaluations remains poorly understood. Both primacy and recency biases have been observed in human judgments in response to evidence, but recent work suggest that \\emph{when} the listener updates their beliefs -- during the presentation of evidence or only at the end -- influences the presence of such effects. We investigate whether a similar phenomenon holds for LLMs, finding divergence from human behavior. These biases are more exacerbated in newer models compared to their predecessors.",
+    "path": "papers/26/08/2608.12387.json",
+    "total_tokens": 479,
+    "translated_title": "查询时机导致大语言模型与人类之间产生相反的位置偏差",
+    "translated_abstract": "位置偏差，如近因效应和首因效应，已在大型语言模型（LLMs）中被记录，然而这些模型进行评估的潜在机制仍知之甚少。在人类对证据的回应中，首因和近因偏差均有观察到，但近期研究表明，听者更新其信念的时间点——是在证据呈现过程中还是仅在结束时——会影响这些效应的存在。我们研究了类似现象是否在LLMs中成立，发现其与人类行为存在分歧。这些偏差在较新模型中相较于早期模型更为加剧。",
+    "tldr": "本研究揭示了LLMs在位置偏差上表现出与人类相反的模式，且新模型中的偏差更为显著，表明查询时机对模型评估机制有重要影响。",
+    "en_tdlr": "This study reveals that LLMs exhibit opposite positional biases compared to humans, with newer models showing exacerbated effects, highlighting the impact of query timing on model evaluation mechanisms."
+}

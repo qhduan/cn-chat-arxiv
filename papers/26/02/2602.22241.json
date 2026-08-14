@@ -1,0 +1,12 @@
+{
+    "title": "Stochastic Neural Networks for Quantum Devices",
+    "abstract": "arXiv:2602.22241v2 Announce Type: replace-cross  Abstract: This work presents a formulation to express and optimize stochastic neural networks as quantum circuits in gate-based quantum computing. Motivated by a classical perceptron, stochastic artificial neurons are introduced and combined into a quantum neural network. The Kiefer-Wolfowitz algorithm in combination with simulated annealing is used for training the network weights. Several topologies and models are presented, including shallow fully connected networks, Hopfield Networks, Restricted Boltzmann Machines, Autoencoders and convolutional neural networks. We also demonstrate the combination of our optimized neural networks as an oracle for the Grover algorithm to realize a quantum generative AI model.",
+    "link": "https://arxiv.org/abs/2602.22241",
+    "context": "Title: Stochastic Neural Networks for Quantum Devices\nAbstract: arXiv:2602.22241v2 Announce Type: replace-cross  Abstract: This work presents a formulation to express and optimize stochastic neural networks as quantum circuits in gate-based quantum computing. Motivated by a classical perceptron, stochastic artificial neurons are introduced and combined into a quantum neural network. The Kiefer-Wolfowitz algorithm in combination with simulated annealing is used for training the network weights. Several topologies and models are presented, including shallow fully connected networks, Hopfield Networks, Restricted Boltzmann Machines, Autoencoders and convolutional neural networks. We also demonstrate the combination of our optimized neural networks as an oracle for the Grover algorithm to realize a quantum generative AI model.",
+    "path": "papers/26/02/2602.22241.json",
+    "total_tokens": 483,
+    "translated_title": "随机神经网络在量子设备中的应用",
+    "translated_abstract": "arXiv:2602.22241v2 公告类型：替换-交叉 摘要：本工作提出了一种将随机神经网络表达并优化为基于门控量子计算中的量子电路的公式化方法。受经典感知器的启发，引入了随机人工神经元，并将其组合成量子神经网络。使用Kiefer-Wolfowitz算法结合模拟退火来训练网络权重。展示了多种拓扑结构和模型，包括浅层全连接网络、Hopfield网络、受限玻尔兹曼机、自编码器和卷积神经网络。我们还演示了将优化后的神经网络作为Grover算法的预言机，以实现量子生成式AI模型。",
+    "tldr": "本文提出了一种将随机神经网络映射为量子电路的新方法，并通过优化网络权重，展示了其在多种拓扑及量子生成AI中的应用。",
+    "en_tdlr": "This paper introduces a novel formulation to map stochastic neural networks into quantum circuits, optimizing weights via Kiefer-Wolfowitz with simulated annealing, and demonstrates applications across multiple topologies and quantum generative AI."
+}

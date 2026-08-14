@@ -1,0 +1,12 @@
+{
+    "title": "Training AI For When Humans Will Use It",
+    "abstract": "arXiv:2608.12538v1 Announce Type: new  Abstract: AI predicts; humans use its predictions to make decisions. These predictions are combined with human verification and analysis, queries to other statistical models, and so on. The economic value of an AI, therefore, depends on how it interacts with the surrounding decision environment. We describe the value of AI as part of this ``composite experiment'' where AI makes a coarse prediction of the state of the world, show what this means for optimal model training via a geometric argument, explain why optimal training can be discontinuous in economic variables, and study how heterogeneous users or monopoly model trainers affect these results. In particular, maximizing the unconditional accuracy of AI predictions is generally suboptimal.",
+    "link": "https://arxiv.org/abs/2608.12538",
+    "context": "Title: Training AI For When Humans Will Use It\nAbstract: arXiv:2608.12538v1 Announce Type: new  Abstract: AI predicts; humans use its predictions to make decisions. These predictions are combined with human verification and analysis, queries to other statistical models, and so on. The economic value of an AI, therefore, depends on how it interacts with the surrounding decision environment. We describe the value of AI as part of this ``composite experiment'' where AI makes a coarse prediction of the state of the world, show what this means for optimal model training via a geometric argument, explain why optimal training can be discontinuous in economic variables, and study how heterogeneous users or monopoly model trainers affect these results. In particular, maximizing the unconditional accuracy of AI predictions is generally suboptimal.",
+    "path": "papers/26/08/2608.12538.json",
+    "total_tokens": 499,
+    "translated_title": "训练AI以适应人类使用场景",
+    "translated_abstract": "摘要：arXiv:2608.12538v1 公告类型：新 摘要：AI进行预测；人类利用其预测来做决策。这些预测与人类验证和分析、对其他统计模型的查询等相结合。因此，AI的经济价值取决于它如何与周围的决策环境互动。我们将AI的价值描述为这个“复合实验”的一部分，其中AI对世界状态进行粗略预测，通过几何论证展示了这对最优模型训练的意义，解释了为什么最优训练在经济变量上可能是不连续的，并研究了异质性用户或垄断模型训练者如何影响这些结果。特别是，最大化AI预测的无条件准确性通常不是最优的。",
+    "tldr": "本文指出，AI的经济价值取决于其与人类决策环境的互动，最大化预测准确性通常非最优，而应针对“复合实验”环境进行训练。",
+    "en_tdlr": "This paper shows that AI's economic value depends on its interaction with human decision-making environments, where maximizing unconditional accuracy is generally suboptimal, and training should target the composite experiment."
+}

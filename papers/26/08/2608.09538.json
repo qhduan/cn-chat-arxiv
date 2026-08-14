@@ -1,0 +1,12 @@
+{
+    "title": "TCS-BENCH: Benchmarking State-of-the-Art Generative AI Theoretical Computer Science Research Ability",
+    "abstract": "arXiv:2608.09538v2 Announce Type: replace-cross  Abstract: We introduce TCS-Bench, a benchmark for evaluating Large Language Models (LLMs) on research-level Theoretical Computer Science (TCS) proof generation. TCS-Bench consists of theorem-proving tasks from papers published at top theoretical computer science venues (STOC, FOCS, and SODA). Each task provides the necessary context to derive a self-contained proof for a target result. We evaluate state-of-the-art models on this benchmark. We verify the correctness of generated proofs via a verification agent, and further benchmark the verifier against human-expert proof judgements on a set of target statements and generated proofs pairs. Our reference verifier achieves over 90% accuracy on the expert labeled set.",
+    "link": "https://arxiv.org/abs/2608.09538",
+    "context": "Title: TCS-BENCH: Benchmarking State-of-the-Art Generative AI Theoretical Computer Science Research Ability\nAbstract: arXiv:2608.09538v2 Announce Type: replace-cross  Abstract: We introduce TCS-Bench, a benchmark for evaluating Large Language Models (LLMs) on research-level Theoretical Computer Science (TCS) proof generation. TCS-Bench consists of theorem-proving tasks from papers published at top theoretical computer science venues (STOC, FOCS, and SODA). Each task provides the necessary context to derive a self-contained proof for a target result. We evaluate state-of-the-art models on this benchmark. We verify the correctness of generated proofs via a verification agent, and further benchmark the verifier against human-expert proof judgements on a set of target statements and generated proofs pairs. Our reference verifier achieves over 90% accuracy on the expert labeled set.",
+    "path": "papers/26/08/2608.09538.json",
+    "total_tokens": 540,
+    "translated_title": "TCS-BENCH：评估最先进生成式人工智能理论计算机科学研究能力的基准测试",
+    "translated_abstract": "我们引入了TCS-Bench，这是一个用于评估大型语言模型（LLMs）在研究级理论计算机科学（TCS）证明生成方面的基准测试。TCS-Bench包含来自顶级理论计算机科学会议（STOC、FOCS和SODA）发表论文中的定理证明任务。每个任务提供必要的上下文，以推导出目标结果的完整证明。我们在此基准上评估了最先进的模型。我们通过一个验证代理来检查生成证明的正确性，并进一步将验证器与人类专家在目标陈述和生成证明对上的判断进行基准比较。我们的参考验证器在专家标记集上实现了超过90%的准确率。",
+    "tldr": "本文提出了TCS-Bench基准，首次系统性地评估大语言模型在理论计算机科学研究级证明生成能力，并引入高准确率的自动验证器。",
+    "en_tdlr": "This paper introduces TCS-Bench, the first benchmark systematically evaluating LLMs on research-level theoretical computer science proof generation, with a high-accuracy automatic verifier."
+}

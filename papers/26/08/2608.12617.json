@@ -1,0 +1,12 @@
+{
+    "title": "The Boolean Power of ReLU",
+    "abstract": "arXiv:2608.12617v1 Announce Type: new  Abstract: We prove that, on finite simple undirected graphs equipped with a single Boolean node feature, the Boolean queries expressible in $\\Sigma$-MPLang, for any collection $\\Sigma$ of eventually constant activation functions and with arbitrary real coefficients, form a strict subclass of the Boolean queries expressible in ReLU-MPLang. We thereby settle a recently posed open problem: whether ReLU-MPLang is more powerful than trReLU-MPLang when it comes to Boolean queries. In particular, this implies that ReLU-GNNs are strictly more expressive than {TrReLU,id}-GNNs with respect to Boolean queries on Boolean-featured graphs.",
+    "link": "https://arxiv.org/abs/2608.12617",
+    "context": "Title: The Boolean Power of ReLU\nAbstract: arXiv:2608.12617v1 Announce Type: new  Abstract: We prove that, on finite simple undirected graphs equipped with a single Boolean node feature, the Boolean queries expressible in $\\Sigma$-MPLang, for any collection $\\Sigma$ of eventually constant activation functions and with arbitrary real coefficients, form a strict subclass of the Boolean queries expressible in ReLU-MPLang. We thereby settle a recently posed open problem: whether ReLU-MPLang is more powerful than trReLU-MPLang when it comes to Boolean queries. In particular, this implies that ReLU-GNNs are strictly more expressive than {TrReLU,id}-GNNs with respect to Boolean queries on Boolean-featured graphs.",
+    "path": "papers/26/08/2608.12617.json",
+    "total_tokens": 497,
+    "translated_title": "ReLU的布尔能力",
+    "translated_abstract": "arXiv:2608.12617v1 公告类型：新 摘要：我们证明了，在具有单一布尔节点特征的有限简单无向图上，对于任何由最终常数激活函数组成的集合$\\Sigma$，以及任意实数系数，$\\Sigma$-MPLang中可表达的布尔查询严格属于ReLU-MPLang中可表达的布尔查询的一个子类。因此，我们解决了一个近期提出的开放问题：在布尔查询方面，ReLU-MPLang是否比trReLU-MPLang更强大。特别地，这意味着在布尔特征图上，ReLU-GNN在布尔查询方面严格比{TrReLU,id}-GNN更具表达力。",
+    "tldr": "本文证明了ReLU激活函数在布尔查询上比截断ReLU等最终常数激活函数更具表达能力，解决了相关开放问题。",
+    "en_tdlr": "This paper proves that ReLU activation is strictly more expressive than eventually constant activations like truncated ReLU for Boolean queries, resolving an open problem."
+}

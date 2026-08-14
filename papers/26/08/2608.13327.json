@@ -1,0 +1,12 @@
+{
+    "title": "Breaking the Chain: Division Norms and Criminal Deterrence",
+    "abstract": "arXiv:2608.13327v1 Announce Type: new  Abstract: In organized crime, membership moves fastest, deterrence capacity moves more slowly, and division norms move slowest. We model this as a three-stage game: division norms fix how every possible coalition divides its proceeds; the authority then attaches deterrence capacity to named members, before knowing which coalition will form; membership adjusts last, around whoever remains undeterred. Under population-monotone division, the minimum deterrence budget is the cost of a shortest dismantling path, removing one member at a time. When the Shapley value is population monotone, it uniquely maximizes this budget by making every path equally costly.",
+    "link": "https://arxiv.org/abs/2608.13327",
+    "context": "Title: Breaking the Chain: Division Norms and Criminal Deterrence\nAbstract: arXiv:2608.13327v1 Announce Type: new  Abstract: In organized crime, membership moves fastest, deterrence capacity moves more slowly, and division norms move slowest. We model this as a three-stage game: division norms fix how every possible coalition divides its proceeds; the authority then attaches deterrence capacity to named members, before knowing which coalition will form; membership adjusts last, around whoever remains undeterred. Under population-monotone division, the minimum deterrence budget is the cost of a shortest dismantling path, removing one member at a time. When the Shapley value is population monotone, it uniquely maximizes this budget by making every path equally costly.",
+    "path": "papers/26/08/2608.13327.json",
+    "total_tokens": 508,
+    "translated_title": "打破链条：分配规范与犯罪威慑",
+    "translated_abstract": "在有组织犯罪中，成员变动最快，威慑能力变化较慢，而分配规范变化最慢。我们将此建模为一个三阶段博弈：分配规范决定了每个可能联盟如何分配其收益；随后，当局在知道哪个联盟将形成之前，将威慑能力附加到指定成员身上；最后，成员调整围绕那些未被威慑的人进行。在人口单调分配下，最小威慑预算是最短瓦解路径的成本，即一次移除一名成员。当Shapley值具有人口单调性时，它通过使每条路径成本相等来唯一地最大化该预算。",
+    "tldr": "本文通过三阶段博弈模型，提出在人口单调分配下，最小威慑预算等于最短瓦解路径成本，且Shapley值在人口单调时能唯一最大化威慑预算。",
+    "en_tdlr": "This paper models organized crime as a three-stage game, showing that under population-monotone division, the minimum deterrence budget equals the cost of the shortest dismantling path, and the Shapley value uniquely maximizes this budget when population monotone."
+}

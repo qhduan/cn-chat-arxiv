@@ -1,0 +1,12 @@
+{
+    "title": "A Better Test of Choice Overload",
+    "abstract": "arXiv:2212.03931v4 Announce Type: replace  Abstract: Choice overload - in which larger choice sets are detrimental to a chooser's well-being - is potentially of great importance in the design of economic policy. Yet current evidence on its prevalence is inconclusive. We argue that existing tests are likely to be underpowered and hence that choice overload may occur more often than the literature suggests. We propose more powerful tests based on richer data and characterization theorems based on specific models, including random utility. These new approaches come with significant econometric challenges, which we show how to address. We apply our tests to new experimental data and find strong evidence of choice overload that would likely be missed using current approaches.",
+    "link": "https://arxiv.org/abs/2212.03931",
+    "context": "Title: A Better Test of Choice Overload\nAbstract: arXiv:2212.03931v4 Announce Type: replace  Abstract: Choice overload - in which larger choice sets are detrimental to a chooser's well-being - is potentially of great importance in the design of economic policy. Yet current evidence on its prevalence is inconclusive. We argue that existing tests are likely to be underpowered and hence that choice overload may occur more often than the literature suggests. We propose more powerful tests based on richer data and characterization theorems based on specific models, including random utility. These new approaches come with significant econometric challenges, which we show how to address. We apply our tests to new experimental data and find strong evidence of choice overload that would likely be missed using current approaches.",
+    "path": "papers/22/12/2212.03931.json",
+    "total_tokens": 493,
+    "translated_title": "选择过载的更优检验方法",
+    "translated_abstract": "摘要：arXiv:2212.03931v4 公告类型：替换 摘要：选择过载——即更大的选择集合对选择者的福祉产生不利影响——在经济政策设计中可能具有极其重要的意义。然而，目前关于其普遍性的证据尚无定论。我们认为，现有的检验方法可能功效不足，因此选择过载发生的频率可能比文献所暗示的更高。我们提出基于更丰富数据和基于特定模型（包括随机效用）的特征化定理的更强效检验方法。这些新方法带来了显著的经济计量学挑战，我们展示了如何应对这些挑战。我们将我们的检验应用于新的实验数据，并发现了选择过载的强有力证据，而使用当前方法可能会遗漏这些证据。",
+    "tldr": "本文提出更强效的检验方法，发现选择过载在实验中普遍存在，而现有方法可能低估其发生率。",
+    "en_tdlr": "This paper proposes more powerful tests and finds strong evidence of choice overload in experiments, which existing methods likely underestimate."
+}

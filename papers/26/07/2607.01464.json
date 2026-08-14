@@ -1,0 +1,12 @@
+{
+    "title": "Comparing Architectures for Supervised Political Scaling",
+    "abstract": "arXiv:2607.01464v2 Announce Type: replace  Abstract: Text scaling, the task of positioning political actors on an ideological scale, is a fundamental task in political analysis. To ease the need for manual analysis, various NLP methods have been proposed for this task, including classification- and regression-based approaches, showing successes as well as limitations. The goal of our paper is to consolidate the state of the art in this area. We ask two questions: (a) Can the performance of scaling methods be improved by predicting scales not individually but jointly? (b) Is there a middle ground between classification and regression?",
+    "link": "https://arxiv.org/abs/2607.01464",
+    "context": "Title: Comparing Architectures for Supervised Political Scaling\nAbstract: arXiv:2607.01464v2 Announce Type: replace  Abstract: Text scaling, the task of positioning political actors on an ideological scale, is a fundamental task in political analysis. To ease the need for manual analysis, various NLP methods have been proposed for this task, including classification- and regression-based approaches, showing successes as well as limitations. The goal of our paper is to consolidate the state of the art in this area. We ask two questions: (a) Can the performance of scaling methods be improved by predicting scales not individually but jointly? (b) Is there a middle ground between classification and regression?",
+    "path": "papers/26/07/2607.01464.json",
+    "total_tokens": 438,
+    "translated_title": "监督式政治尺度化架构的比较研究",
+    "translated_abstract": "文本尺度化，即将政治行为者定位在意识形态尺度上的任务，是政治分析中的一项基本任务。为减轻人工分析的需求，研究者提出了多种自然语言处理方法，包括基于分类和回归的方法，这些方法既取得了成功也存在局限性。本文旨在整合该领域的最新技术水平。我们提出两个问题：（a）通过联合预测而非单独预测尺度，能否提升尺度化方法的性能？（b）在分类与回归之间是否存在折中方案？",
+    "tldr": "本文系统比较了监督式政治尺度化的多种架构，探讨了联合预测与分类回归折中方案的潜力，以优化意识形态定位性能。",
+    "en_tdlr": "This paper systematically compares architectures for supervised political scaling, exploring the potential of joint prediction and a middle ground between classification and regression to optimize ideological positioning performance."
+}

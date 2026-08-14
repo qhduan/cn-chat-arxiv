@@ -1,0 +1,12 @@
+{
+    "title": "Large-scale Testing Global Optimization Methods with Black-box Adversarial Attacks",
+    "abstract": "arXiv:2608.13296v1 Announce Type: cross  Abstract: Existing global optimization benchmark suites are of a moderate size and are based on a small number of analytical functions that date back even to the 1970s. This causes a risk of biasing the development of global optimization methods. We argue that the tasks related to the black-box adversarial attack (BBAA) can serve as valuable global optimization benchmark in many-dimensional space. We demonstrate the efficiency of several types of evolutionary algorithms and other metaheuristics in solving example BBAA problems. Thus, we take a step towards convergence of global optimization methods to the challenges and needs that arise in the modern machine learning field.",
+    "link": "https://arxiv.org/abs/2608.13296",
+    "context": "Title: Large-scale Testing Global Optimization Methods with Black-box Adversarial Attacks\nAbstract: arXiv:2608.13296v1 Announce Type: cross  Abstract: Existing global optimization benchmark suites are of a moderate size and are based on a small number of analytical functions that date back even to the 1970s. This causes a risk of biasing the development of global optimization methods. We argue that the tasks related to the black-box adversarial attack (BBAA) can serve as valuable global optimization benchmark in many-dimensional space. We demonstrate the efficiency of several types of evolutionary algorithms and other metaheuristics in solving example BBAA problems. Thus, we take a step towards convergence of global optimization methods to the challenges and needs that arise in the modern machine learning field.",
+    "path": "papers/26/08/2608.13296.json",
+    "total_tokens": 496,
+    "translated_title": "基于黑盒对抗攻击的大规模全局优化方法测试",
+    "translated_abstract": "arXiv:2608.13296v1 公告类型：交叉 摘要：现有的全局优化基准测试套件规模适中，且基于少数可追溯到1970年代的分析函数。这可能导致全局优化方法开发中的偏差风险。我们认为，与黑盒对抗攻击（BBAA）相关的任务可以作为高维空间中有价值的全局优化基准。我们展示了多种进化算法和其他元启发式方法在解决示例BBAA问题中的效率。因此，我们朝着全局优化方法向现代机器学习领域所面临的挑战和需求收敛迈出了一步。",
+    "tldr": "该论文提出将黑盒对抗攻击任务作为高维全局优化基准，并验证了多种进化算法和元启发式方法在解决此类问题中的有效性，从而推动全局优化与现代机器学习需求的融合。",
+    "en_tdlr": "This paper proposes using black-box adversarial attack tasks as high-dimensional global optimization benchmarks, demonstrating the efficiency of evolutionary algorithms and metaheuristics, thereby advancing convergence between global optimization and modern machine learning needs."
+}

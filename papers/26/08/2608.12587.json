@@ -1,0 +1,12 @@
+{
+    "title": "DYSANOS Generative Dynamic Smooth Arbitrage-free Non-parametric Option Surfaces",
+    "abstract": "arXiv:2608.12587v1 Announce Type: cross  Abstract: This article presents with DYSANOS the first generative market model for smooth SANOS option surfaces for all strikes and expiries which are free of static arbitrage. Our model is designed to generate entire paths of daily spot and option prices for years in the future.   We present a robust and useful if somewhat simplistic baseline hidden state generative model in the form of an AR(1) model. We discuss model setup, data pipeline, and training and investigate numerical resence of dynamic arbitrage. We illustrate model performance on Option Metrics' IvyDB S\\&P Index data from 2020 to~2025 and compare it to a pure implied-vol PCA model.",
+    "link": "https://arxiv.org/abs/2608.12587",
+    "context": "Title: DYSANOS Generative Dynamic Smooth Arbitrage-free Non-parametric Option Surfaces\nAbstract: arXiv:2608.12587v1 Announce Type: cross  Abstract: This article presents with DYSANOS the first generative market model for smooth SANOS option surfaces for all strikes and expiries which are free of static arbitrage. Our model is designed to generate entire paths of daily spot and option prices for years in the future.   We present a robust and useful if somewhat simplistic baseline hidden state generative model in the form of an AR(1) model. We discuss model setup, data pipeline, and training and investigate numerical resence of dynamic arbitrage. We illustrate model performance on Option Metrics' IvyDB S\\&P Index data from 2020 to~2025 and compare it to a pure implied-vol PCA model.",
+    "path": "papers/26/08/2608.12587.json",
+    "total_tokens": 525,
+    "translated_title": "DYSANOS：生成式动态平滑无套利非参数期权曲面",
+    "translated_abstract": "本文介绍了DYSANOS，这是首个生成式市场模型，用于生成所有行权价和到期日的平滑且无静态套利的SANOS期权曲面。该模型旨在生成未来数年的每日现货和期权价格完整路径。我们提出了一种稳健且实用但相对简单的基线隐状态生成模型，形式为AR(1)模型。我们讨论了模型设置、数据管道和训练过程，并研究了动态套利的数值存在性。我们使用Option Metrics的IvyDB S&P指数数据（2020年至2025年）展示了模型性能，并将其与纯隐含波动率主成分分析模型进行了比较。",
+    "tldr": "本文提出首个生成式无套利期权曲面模型DYSANOS，能够生成未来多年每日期权价格路径，并验证其优于传统隐含波动率PCA模型。",
+    "en_tdlr": "This paper introduces DYSANOS, the first generative arbitrage-free option surface model that generates multi-year daily option price paths, outperforming traditional implied-vol PCA models."
+}

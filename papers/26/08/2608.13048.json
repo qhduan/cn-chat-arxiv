@@ -1,0 +1,12 @@
+{
+    "title": "DMDIntel: Interpreting Large Language Models via Dynamic Mode Decomposition",
+    "abstract": "arXiv:2608.13048v1 Announce Type: new  Abstract: In this work, we introduce DMDIntel which uses dynamic mode decomposition (DMD) to make the predictions made by LLMs in a classification task interpretable. It develops an input attribution pipeline, that first decomposes the hidden states of an LLM into prominent patterns, also known as modes, and then associates ranks to the input tokens based on the projection values on those modes. Rigorous experiments across three datasets and three model families consistently show that the ranked attribution of input tokens obtained using DMDIntel by far outperforms state-of-the-art techniques such as principal component analysis, integrated gradients and SHAP.",
+    "link": "https://arxiv.org/abs/2608.13048",
+    "context": "Title: DMDIntel: Interpreting Large Language Models via Dynamic Mode Decomposition\nAbstract: arXiv:2608.13048v1 Announce Type: new  Abstract: In this work, we introduce DMDIntel which uses dynamic mode decomposition (DMD) to make the predictions made by LLMs in a classification task interpretable. It develops an input attribution pipeline, that first decomposes the hidden states of an LLM into prominent patterns, also known as modes, and then associates ranks to the input tokens based on the projection values on those modes. Rigorous experiments across three datasets and three model families consistently show that the ranked attribution of input tokens obtained using DMDIntel by far outperforms state-of-the-art techniques such as principal component analysis, integrated gradients and SHAP.",
+    "path": "papers/26/08/2608.13048.json",
+    "total_tokens": 491,
+    "translated_title": "DMDIntel：通过动态模式分解解读大型语言模型",
+    "translated_abstract": "本文介绍了DMDIntel，该方法利用动态模式分解（DMD）使大型语言模型（LLM）在分类任务中的预测变得可解释。它开发了一个输入归因流水线，首先将LLM的隐藏状态分解为显著模式（也称为模态），然后基于这些模态上的投影值对输入标记进行排名。在三个数据集和三个模型系列上的严格实验一致表明，使用DMDIntel获得的输入标记排名归因远优于主成分分析、集成梯度和SHAP等最先进技术。",
+    "tldr": "本文提出DMDIntel，通过动态模式分解对LLM隐藏状态进行分解并基于投影值对输入标记排名，其归因性能显著超越现有最先进方法。",
+    "en_tdlr": "This paper introduces DMDIntel, which decomposes LLM hidden states via dynamic mode decomposition and ranks input tokens based on projection values, achieving attribution performance far superior to existing state-of-the-art methods."
+}

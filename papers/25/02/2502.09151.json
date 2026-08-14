@@ -1,0 +1,12 @@
+{
+    "title": "Regularization can make diffusion models more efficient",
+    "abstract": "arXiv:2502.09151v4 Announce Type: replace  Abstract: Diffusion models are one of the key architectures of generative AI. Their main drawback, however, is the computational costs. This study indicates that the concept of sparsity, well known especially in statistics, can provide a pathway to more efficient diffusion pipelines. Our mathematical guarantees prove that sparsity can reduce the input dimension's influence on the computational complexity to that of a much smaller intrinsic dimension of the data. Our empirical findings confirm that inducing sparsity can indeed lead to better samples at a lower cost.",
+    "link": "https://arxiv.org/abs/2502.09151",
+    "context": "Title: Regularization can make diffusion models more efficient\nAbstract: arXiv:2502.09151v4 Announce Type: replace  Abstract: Diffusion models are one of the key architectures of generative AI. Their main drawback, however, is the computational costs. This study indicates that the concept of sparsity, well known especially in statistics, can provide a pathway to more efficient diffusion pipelines. Our mathematical guarantees prove that sparsity can reduce the input dimension's influence on the computational complexity to that of a much smaller intrinsic dimension of the data. Our empirical findings confirm that inducing sparsity can indeed lead to better samples at a lower cost.",
+    "path": "papers/25/02/2502.09151.json",
+    "total_tokens": 413,
+    "translated_title": "正则化能使扩散模型更高效",
+    "translated_abstract": "arXiv:2502.09151v4 公告类型：替换 摘要：扩散模型是生成式人工智能的关键架构之一。然而，其主要缺点在于计算成本。本研究表明，尤其在统计学中广为人知的稀疏性概念，可以为更高效的扩散流程提供一条路径。我们的数学保证证明，稀疏性可以将输入维度对计算复杂度的影响降低到数据更小的内在维度水平。我们的实证结果证实，引入稀疏性确实能以更低成本生成更好的样本。",
+    "tldr": "本文提出利用稀疏性正则化降低扩散模型的计算复杂度，并证明其能提升生成质量与效率。",
+    "en_tdlr": "This paper proposes using sparsity regularization to reduce the computational complexity of diffusion models, demonstrating improved generation quality and efficiency."
+}
