@@ -1,0 +1,12 @@
+{
+    "title": "AI Evaluation Should Work With Humans",
+    "abstract": "arXiv:2608.13577v1 Announce Type: new  Abstract: This position paper argues that the dominant paradigm of AI evaluation (which focuses on superhuman autonomous performance and so implicitly targets the goal of replacing humans) is guiding AI development in the wrong direction. Instead, the AI community should pivot to evaluating the performance of human--AI teams. We argue that this collaborative shift will foster AI systems that act as true complements to human capabilities and therefore lead to far better societal outcomes than will the current process.",
+    "link": "https://arxiv.org/abs/2608.13577",
+    "context": "Title: AI Evaluation Should Work With Humans\nAbstract: arXiv:2608.13577v1 Announce Type: new  Abstract: This position paper argues that the dominant paradigm of AI evaluation (which focuses on superhuman autonomous performance and so implicitly targets the goal of replacing humans) is guiding AI development in the wrong direction. Instead, the AI community should pivot to evaluating the performance of human--AI teams. We argue that this collaborative shift will foster AI systems that act as true complements to human capabilities and therefore lead to far better societal outcomes than will the current process.",
+    "path": "papers/26/08/2608.13577.json",
+    "total_tokens": 394,
+    "translated_title": "AI评估应与人类协作",
+    "translated_abstract": "本文立场论文认为，当前AI评估的主导范式（侧重于超人自主性能，并隐含以取代人类为目标）正将AI发展引向错误方向。相反，AI社区应转向评估人机协作团队的表现。我们主张，这种协作转向将促进AI系统真正成为人类能力的补充，从而比现有过程带来更好的社会成果。",
+    "tldr": "本文主张AI评估应从追求取代人类的自主性能，转向评估人机协作效能，以促进AI成为人类能力的补充，实现更优社会结果。",
+    "en_tdlr": "This paper argues that AI evaluation should shift from focusing on autonomous performance that replaces humans to assessing human-AI collaboration, fostering AI as a complement to human capabilities for better societal outcomes."
+}

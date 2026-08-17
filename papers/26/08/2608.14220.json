@@ -1,0 +1,12 @@
+{
+    "title": "A Generalized Parallelogram Rule for Proportional Analogies on Riemannian Manifolds",
+    "abstract": "arXiv:2608.14220v1 Announce Type: new  Abstract: Analogies are quaternary relations of the form \"a is to b as c is to d\", usually denoted a : b :: c : d. This notion is formalized in particular with the notion of proportional analogy, which imposes some constraints on the valid analogies. Whereas proportional analogies have been studied mostly in symbolic domains and in vector spaces, their use is limited in non-Euclidean spaces. In this paper, we introduce a proportional analogy relation in Riemannian domains, extending the parallelogram rule used for arithmetic analogies in Euclidean spaces. We illustrate the introduced analogy on various manifolds, such as the sphere, shape spaces and manifolds of probability distributions.",
+    "link": "https://arxiv.org/abs/2608.14220",
+    "context": "Title: A Generalized Parallelogram Rule for Proportional Analogies on Riemannian Manifolds\nAbstract: arXiv:2608.14220v1 Announce Type: new  Abstract: Analogies are quaternary relations of the form \"a is to b as c is to d\", usually denoted a : b :: c : d. This notion is formalized in particular with the notion of proportional analogy, which imposes some constraints on the valid analogies. Whereas proportional analogies have been studied mostly in symbolic domains and in vector spaces, their use is limited in non-Euclidean spaces. In this paper, we introduce a proportional analogy relation in Riemannian domains, extending the parallelogram rule used for arithmetic analogies in Euclidean spaces. We illustrate the introduced analogy on various manifolds, such as the sphere, shape spaces and manifolds of probability distributions.",
+    "path": "papers/26/08/2608.14220.json",
+    "total_tokens": 518,
+    "translated_title": "黎曼流形上比例类比的一种广义平行四边形规则",
+    "translated_abstract": "摘要：arXiv:2608.14220v1 公告类型：新 摘要：类比是一种四元关系，形式为“a之于b如同c之于d”，通常记为a : b :: c : d。这一概念尤其通过比例类比的概念形式化，该概念对有效类比施加了一些约束。虽然比例类比主要已在符号领域和向量空间中得到研究，但在非欧几里得空间中的使用有限。在本文中，我们引入了黎曼域中的比例类比关系，扩展了用于欧几里得空间中算术类比的平行四边形规则。我们通过各种流形（如球面、形状空间和概率分布流形）展示了所引入的类比。",
+    "tldr": "本文提出了一种在黎曼流形上推广平行四边形规则的比例类比关系，从而将类比推理扩展到非欧几里得空间。",
+    "en_tdlr": "This paper introduces a proportional analogy relation on Riemannian manifolds by generalizing the parallelogram rule, thereby extending analogical reasoning to non-Euclidean spaces."
+}

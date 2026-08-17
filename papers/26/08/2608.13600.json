@@ -1,0 +1,12 @@
+{
+    "title": "Continual Evolution Strategies in Control Tasks",
+    "abstract": "arXiv:2608.13600v1 Announce Type: cross  Abstract: We study Evolution Strategies (ES) for continual control, where agents must adapt to changing tasks without forgetting previous ones. On sequential MuJoCo locomotion tasks, naive ES suffers from severe catastrophic forgetting. Replay substantially improves retention and can induce positive transfer, while larger replay budgets reduce plasticity. Overall, these results show that ES can support continual adaptation in control and that replay is an effective mechanism for mitigating forgetting.",
+    "link": "https://arxiv.org/abs/2608.13600",
+    "context": "Title: Continual Evolution Strategies in Control Tasks\nAbstract: arXiv:2608.13600v1 Announce Type: cross  Abstract: We study Evolution Strategies (ES) for continual control, where agents must adapt to changing tasks without forgetting previous ones. On sequential MuJoCo locomotion tasks, naive ES suffers from severe catastrophic forgetting. Replay substantially improves retention and can induce positive transfer, while larger replay budgets reduce plasticity. Overall, these results show that ES can support continual adaptation in control and that replay is an effective mechanism for mitigating forgetting.",
+    "path": "papers/26/08/2608.13600.json",
+    "total_tokens": 424,
+    "translated_title": "控制任务中的持续进化策略",
+    "translated_abstract": "arXiv:2608.13600v1 公告类型：交叉 摘要：我们研究了用于持续控制的进化策略（ES），在这种场景中，代理必须适应变化的任务而不遗忘先前任务。在顺序MuJoCo运动任务中，朴素ES遭受严重的灾难性遗忘。重放机制显著提高了保留能力，并可以引发正向迁移，而更大的重放预算则降低了可塑性。总体而言，这些结果表明ES能够支持控制中的持续适应，并且重放是缓解遗忘的有效机制。",
+    "tldr": "本文发现进化策略在持续控制任务中易受灾难性遗忘，而重放机制能有效缓解遗忘并促进正向迁移，但需权衡可塑性。",
+    "en_tdlr": "This paper finds that Evolution Strategies suffer from catastrophic forgetting in continual control tasks, and replay effectively mitigates forgetting while promoting positive transfer, albeit with a trade-off in plasticity."
+}

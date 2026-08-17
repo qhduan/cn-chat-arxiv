@@ -1,0 +1,12 @@
+{
+    "title": "Acquiring irrelevant information as a commitment",
+    "abstract": "arXiv:2608.14173v1 Announce Type: new  Abstract: We formulate the voter's strategic information acquisition to control the future self's action as a Bayesian persuasion problem. Our main result shows that acquiring information that is irrelevant to the voter's objective can be a \\textit{worst-case optimal} solution: it can reduce the possibility that the future self is swayed by additional information whose content is ambiguous to the current voter.",
+    "link": "https://arxiv.org/abs/2608.14173",
+    "context": "Title: Acquiring irrelevant information as a commitment\nAbstract: arXiv:2608.14173v1 Announce Type: new  Abstract: We formulate the voter's strategic information acquisition to control the future self's action as a Bayesian persuasion problem. Our main result shows that acquiring information that is irrelevant to the voter's objective can be a \\textit{worst-case optimal} solution: it can reduce the possibility that the future self is swayed by additional information whose content is ambiguous to the current voter.",
+    "path": "papers/26/08/2608.14173.json",
+    "total_tokens": 386,
+    "translated_title": "获取无关信息作为一种承诺",
+    "translated_abstract": "arXiv:2608.14173v1 公告类型：新 摘要：我们将选民为了控制未来自我行为而进行的策略性信息获取问题，构建为一个贝叶斯说服问题。我们的主要结果表明，获取与选民目标无关的信息可以是一种\\textit{最坏情况最优}解决方案：它能降低未来自我被当前选民所不清楚的额外信息所动摇的可能性。",
+    "tldr": "本文提出，在贝叶斯说服框架下，获取与目标无关的信息可作为最坏情况最优策略，以减少未来自我受模糊信息影响的风险。",
+    "en_tdlr": "This paper proposes that acquiring irrelevant information can be a worst-case optimal strategy in a Bayesian persuasion framework, reducing the risk of future self being swayed by ambiguous information."
+}

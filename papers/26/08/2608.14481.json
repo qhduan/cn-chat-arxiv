@@ -1,0 +1,12 @@
+{
+    "title": "Ensuring Safe Physical AI in Urban Mobility via Hazard-Informed Synthesized Envelopes",
+    "abstract": "arXiv:2608.14481v1 Announce Type: cross  Abstract: As heterogeneous robotic systems deploy across diverse urban zones, maintaining safety amid complex human-robot interactions remains a critical challenge. We present a unified framework that bridges systematic hazard analysis and runtime enforcement using hazard-informed safety envelopes. Rather than treating safety as a static constraint isolated within individual software modules, we introduce a cross-layer safety transformation process spanning symbolic, spatial, and dynamic world models. We show how this representation naturally interfaces with physical AI runtime harnesses to guarantee safe urban mobility.",
+    "link": "https://arxiv.org/abs/2608.14481",
+    "context": "Title: Ensuring Safe Physical AI in Urban Mobility via Hazard-Informed Synthesized Envelopes\nAbstract: arXiv:2608.14481v1 Announce Type: cross  Abstract: As heterogeneous robotic systems deploy across diverse urban zones, maintaining safety amid complex human-robot interactions remains a critical challenge. We present a unified framework that bridges systematic hazard analysis and runtime enforcement using hazard-informed safety envelopes. Rather than treating safety as a static constraint isolated within individual software modules, we introduce a cross-layer safety transformation process spanning symbolic, spatial, and dynamic world models. We show how this representation naturally interfaces with physical AI runtime harnesses to guarantee safe urban mobility.",
+    "path": "papers/26/08/2608.14481.json",
+    "total_tokens": 438,
+    "translated_title": "通过危险知情的合成包络确保城市移动中的物理AI安全",
+    "translated_abstract": "随着异构机器人系统在城市各区域广泛部署，在复杂的人机交互中维持安全性仍是一项关键挑战。我们提出一个统一框架，通过危险知情的安全包络，将系统性危险分析与运行时执行相结合。我们不将安全视为孤立于单个软件模块内的静态约束，而是引入一种跨层安全转换过程，涵盖符号、空间和动态世界模型。我们展示了这一表示如何自然地与物理AI运行时框架接口，以确保城市移动的安全。",
+    "tldr": "本文提出一个统一框架，通过危险知情的合成安全包络，结合系统性危险分析与运行时执行，实现城市移动中异构机器人系统的跨层安全保障。",
+    "en_tdlr": "This paper proposes a unified framework that integrates hazard-informed synthesized safety envelopes with runtime enforcement to ensure cross-layer safety for heterogeneous robotic systems in urban mobility."
+}

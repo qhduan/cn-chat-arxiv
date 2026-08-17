@@ -1,0 +1,12 @@
+{
+    "title": "The Nonstationarity-Complexity Tradeoff in Return Prediction",
+    "abstract": "arXiv:2512.23596v2 Announce Type: replace-cross  Abstract: Does more data improve return prediction? In non-stationary financial markets, longer training windows improve prediction of complex models but incorporate outdated economic regimes, whereas simpler models require less data and are less vulnerable to changes in economic conditions. We formally characterize this nonstationarity-complexity tradeoff, showing that model complexity and training window length must be jointly optimized. We propose an adaptive selection procedure with formal performance guarantees. Over three decades of U.S. equity markets, our method improves out-of-sample $R^2$ on industry portfolios by 14% relative to fixed-window and regime-switching benchmarks, with large gains during recessions.",
+    "link": "https://arxiv.org/abs/2512.23596",
+    "context": "Title: The Nonstationarity-Complexity Tradeoff in Return Prediction\nAbstract: arXiv:2512.23596v2 Announce Type: replace-cross  Abstract: Does more data improve return prediction? In non-stationary financial markets, longer training windows improve prediction of complex models but incorporate outdated economic regimes, whereas simpler models require less data and are less vulnerable to changes in economic conditions. We formally characterize this nonstationarity-complexity tradeoff, showing that model complexity and training window length must be jointly optimized. We propose an adaptive selection procedure with formal performance guarantees. Over three decades of U.S. equity markets, our method improves out-of-sample $R^2$ on industry portfolios by 14% relative to fixed-window and regime-switching benchmarks, with large gains during recessions.",
+    "path": "papers/25/12/2512.23596.json",
+    "total_tokens": 512,
+    "translated_title": "收益预测中的非平稳性与复杂性权衡",
+    "translated_abstract": "更多数据是否能改善收益预测？在非平稳的金融市场中，较长的训练窗口能提升复杂模型的预测能力，但会纳入过时的经济体制；而较简单的模型需要较少数据，且对经济条件变化不那么敏感。我们正式刻画了这种非平稳性与复杂性之间的权衡，表明模型复杂度和训练窗口长度必须联合优化。我们提出了一种具有正式性能保证的自适应选择程序。在美国股市三十年的数据中，我们的方法在行业组合上的样本外$R^2$相对于固定窗口和体制切换基准提高了14%，且在经济衰退期间收益显著。",
+    "tldr": "本文正式定义了收益预测中的非平稳性与复杂性权衡，并提出一种自适应选择方法，联合优化模型复杂度和训练窗口长度，在美国股市中显著提升了样本外预测表现。",
+    "en_tdlr": "This paper formally characterizes the nonstationarity-complexity tradeoff in return prediction and proposes an adaptive selection procedure that jointly optimizes model complexity and training window length, significantly improving out-of-sample performance in U.S. equity markets."
+}

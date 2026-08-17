@@ -1,0 +1,12 @@
+{
+    "title": "Agent-Orchestration in Autonomous Chip Design",
+    "abstract": "arXiv:2608.14035v1 Announce Type: new  Abstract: Recent developments in large language models (LLMs) and tool-using agents encourage people to explore the potential of using agents in chip design. The core question is what kind of AI we really need in such a sophisticated industry.   To this end, we bring the idea of modeling a chip-design superintelligence as an enormous \\textit{AI-organization}.",
+    "link": "https://arxiv.org/abs/2608.14035",
+    "context": "Title: Agent-Orchestration in Autonomous Chip Design\nAbstract: arXiv:2608.14035v1 Announce Type: new  Abstract: Recent developments in large language models (LLMs) and tool-using agents encourage people to explore the potential of using agents in chip design. The core question is what kind of AI we really need in such a sophisticated industry.   To this end, we bring the idea of modeling a chip-design superintelligence as an enormous \\textit{AI-organization}.",
+    "path": "papers/26/08/2608.14035.json",
+    "total_tokens": 348,
+    "translated_title": "自主芯片设计中的代理编排",
+    "translated_abstract": "最近大语言模型（LLM）和工具使用代理的发展鼓励人们探索在芯片设计中使用代理的潜力。核心问题是在这样一个复杂的行业中，我们真正需要什么样的AI。为此，我们提出了将芯片设计超级智能建模为一个庞大的“AI组织”的想法。",
+    "tldr": "本文将芯片设计超级智能构想为一个庞大的AI组织，以探索在复杂行业中代理编排的潜力。",
+    "en_tdlr": "This paper proposes modeling chip-design superintelligence as an enormous AI organization to explore the potential of agent orchestration in complex industries."
+}

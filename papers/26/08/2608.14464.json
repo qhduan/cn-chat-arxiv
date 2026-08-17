@@ -1,0 +1,12 @@
+{
+    "title": "A distance-based theory of lottery complexity",
+    "abstract": "arXiv:2608.14464v1 Announce Type: new  Abstract: This paper proposes a metric approach to measuring the complexity of lotteries. Starting by observing that degenerate lotteries are the simplest choice alternatives, the complexity of a lottery is evaluated by its distance from the closest degenerate lottery. Equivalently, a lottery is complex when it is difficult to approximate it by a single outcome. Given a metric over outcomes, the complexity index we consider is the minimum average distance between the lottery and one of its best degenerate proxies.",
+    "link": "https://arxiv.org/abs/2608.14464",
+    "context": "Title: A distance-based theory of lottery complexity\nAbstract: arXiv:2608.14464v1 Announce Type: new  Abstract: This paper proposes a metric approach to measuring the complexity of lotteries. Starting by observing that degenerate lotteries are the simplest choice alternatives, the complexity of a lottery is evaluated by its distance from the closest degenerate lottery. Equivalently, a lottery is complex when it is difficult to approximate it by a single outcome. Given a metric over outcomes, the complexity index we consider is the minimum average distance between the lottery and one of its best degenerate proxies.",
+    "path": "papers/26/08/2608.14464.json",
+    "total_tokens": 389,
+    "translated_title": "一种基于距离的彩票复杂性理论",
+    "translated_abstract": "本文提出了一种度量彩票复杂性的指标方法。首先观察到退化彩票是最简单的选择方案，彩票的复杂性通过其与最接近的退化彩票之间的距离来评估。等价地，当彩票难以被单一结果近似时，它就是复杂的。给定结果上的一个度量，我们考虑的复杂性指数是彩票与其最佳退化代理之一之间的最小平均距离。",
+    "tldr": "本文提出了一种基于距离的彩票复杂性度量方法，通过彩票与最接近退化彩票的最小平均距离来量化其复杂性。",
+    "en_tdlr": "This paper proposes a distance-based metric for lottery complexity, quantifying it via the minimum average distance between a lottery and its closest degenerate proxy."
+}

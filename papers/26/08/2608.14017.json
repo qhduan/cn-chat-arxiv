@@ -1,0 +1,12 @@
+{
+    "title": "An axiomatic model of robust Bayesian persuasion",
+    "abstract": "arXiv:2608.14017v1 Announce Type: new  Abstract: We develop an axiomatic model of robust Bayesian persuasion where the sender cannot fully control the information available to the receiver. After selecting an information structure, the sender expects that more informative structures might be implemented. We model this by allowing the sender to assess each information structure under worst-case information leakage, represented by a set of more informative structures. The model encompasses a wide range of examples of information leakage, which we also explore.",
+    "link": "https://arxiv.org/abs/2608.14017",
+    "context": "Title: An axiomatic model of robust Bayesian persuasion\nAbstract: arXiv:2608.14017v1 Announce Type: new  Abstract: We develop an axiomatic model of robust Bayesian persuasion where the sender cannot fully control the information available to the receiver. After selecting an information structure, the sender expects that more informative structures might be implemented. We model this by allowing the sender to assess each information structure under worst-case information leakage, represented by a set of more informative structures. The model encompasses a wide range of examples of information leakage, which we also explore.",
+    "path": "papers/26/08/2608.14017.json",
+    "total_tokens": 412,
+    "translated_title": "稳健贝叶斯说服的公理化模型",
+    "translated_abstract": "arXiv:2608.14017v1 公告类型：新 摘要：我们开发了一个稳健贝叶斯说服的公理化模型，其中发送者无法完全控制接收者可获得的信息。在选择信息结构后，发送者预期可能实施更具信息量的结构。我们通过允许发送者在最坏情况信息泄露下评估每个信息结构来建模，这由一组更具信息量的结构表示。该模型涵盖了广泛的信息泄露示例，我们也将对此进行探讨。",
+    "tldr": "本文提出了一个公理化框架，用于建模发送者在信息泄露不确定性下的稳健贝叶斯说服，通过最坏情况评估来捕捉信息结构的选择。",
+    "en_tdlr": "This paper proposes an axiomatic framework for robust Bayesian persuasion under information leakage uncertainty, using worst-case evaluation to capture information structure choices."
+}

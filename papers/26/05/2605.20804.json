@@ -1,0 +1,12 @@
+{
+    "title": "OlmoEarth v1.2: A more efficient family of OlmoEarth models",
+    "abstract": "arXiv:2605.20804v3 Announce Type: replace-cross  Abstract: We present a set of improvements to the OlmoEarth family. These improvements allow us to cut compute costs during training ($3.0 \\times$ reduction in GPU hours required to train our Base models) and inference ($2.9\\times$ reductions in MACs on Sentinel-2 tasks), while maintaining the models' overall performance. All training code is available at github.com/allenai/olmoearth_pretrain.",
+    "link": "https://arxiv.org/abs/2605.20804",
+    "context": "Title: OlmoEarth v1.2: A more efficient family of OlmoEarth models\nAbstract: arXiv:2605.20804v3 Announce Type: replace-cross  Abstract: We present a set of improvements to the OlmoEarth family. These improvements allow us to cut compute costs during training ($3.0 \\times$ reduction in GPU hours required to train our Base models) and inference ($2.9\\times$ reductions in MACs on Sentinel-2 tasks), while maintaining the models' overall performance. All training code is available at github.com/allenai/olmoearth_pretrain.",
+    "path": "papers/26/05/2605.20804.json",
+    "total_tokens": 421,
+    "translated_title": "OlmoEarth v1.2：一个更高效的OlmoEarth模型系列",
+    "translated_abstract": "arXiv:2605.20804v3 公告类型：替换-交叉 摘要：我们提出了一系列对OlmoEarth模型家族的改进。这些改进使我们能够在训练过程中削减计算成本（训练我们的基础模型所需的GPU小时数减少了3.0倍），并在推理过程中降低计算量（在Sentinel-2任务上的MACs减少了2.9倍），同时保持模型的整体性能。所有训练代码可在github.com/allenai/olmoearth_pretrain获取。",
+    "tldr": "本文通过对OlmoEarth模型家族进行改进，在保持性能的同时，显著降低了训练和推理的计算成本。",
+    "en_tdlr": "This paper improves the OlmoEarth model family, significantly reducing training and inference compute costs while maintaining performance."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Optimal Scheduling of Road Maintenance Jobs Considering Impact on Traffic Flows",
+    "abstract": "arXiv:2608.14491v1 Announce Type: cross  Abstract: Network-level maintenance planning requires repeated evaluations of equilibrium traffic flows under road capacity reductions. While equilibrium traffic assignment models are well established, their repeated solution quickly becomes computationally prohibitive and challenging to embed within maintenance scheduling problems. This paper investigates data-driven surrogate models that approximate equilibrium arc flows directly from origin-destination demand, using optimization-based equilibrium solutions as ground truth. A real-world case study based on traffic data from the Newark, New Jersey area demonstrates the effectiveness of the proposed approach as a scalable building block for future maintenance scheduling frameworks.",
+    "link": "https://arxiv.org/abs/2608.14491",
+    "context": "Title: Optimal Scheduling of Road Maintenance Jobs Considering Impact on Traffic Flows\nAbstract: arXiv:2608.14491v1 Announce Type: cross  Abstract: Network-level maintenance planning requires repeated evaluations of equilibrium traffic flows under road capacity reductions. While equilibrium traffic assignment models are well established, their repeated solution quickly becomes computationally prohibitive and challenging to embed within maintenance scheduling problems. This paper investigates data-driven surrogate models that approximate equilibrium arc flows directly from origin-destination demand, using optimization-based equilibrium solutions as ground truth. A real-world case study based on traffic data from the Newark, New Jersey area demonstrates the effectiveness of the proposed approach as a scalable building block for future maintenance scheduling frameworks.",
+    "path": "papers/26/08/2608.14491.json",
+    "total_tokens": 458,
+    "translated_title": "考虑交通流影响的道路养护作业最优调度",
+    "translated_abstract": "网络级养护规划需要反复评估道路容量减少情况下的均衡交通流。虽然均衡交通分配模型已很成熟，但其重复求解在计算上很快变得不可行，且难以嵌入养护调度问题中。本文研究了数据驱动的替代模型，该模型直接从起点-终点需求近似均衡弧流，以基于优化的均衡解作为真实值。基于新泽西州纽瓦克地区交通数据的实际案例研究证明了所提方法作为未来养护调度框架的可扩展构建模块的有效性。",
+    "tldr": "本文提出了一种数据驱动的替代模型，通过直接从出行需求预测均衡交通流，以替代计算密集的均衡分配求解，为道路养护调度提供可扩展的高效支持。",
+    "en_tdlr": "This paper proposes a data-driven surrogate model that directly predicts equilibrium traffic flows from travel demand, replacing computationally intensive equilibrium assignment solves to provide scalable and efficient support for road maintenance scheduling."
+}

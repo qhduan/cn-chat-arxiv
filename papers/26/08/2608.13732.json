@@ -1,0 +1,12 @@
+{
+    "title": "On the First Hitting Time Problems for Diffusion Processes: Local Time-Space Approach",
+    "abstract": "arXiv:2608.13732v1 Announce Type: cross  Abstract: Using the local time-space calculus of Peskir (2005) and the method developed in Mijatovic (2010), we derive a new integral representation for the distribution of the first-passage time (FPT) of a diffusion process through a time-dependent barrier. We present a complete three-step numerical algorithm: first, the problem is reduced to a Volterra-type integral equation; second, its kernel is approximated by a Markov chain; finally, the resulting equation is solved using a quadrature method. The method is implemented for several representative examples, and its convergence properties are established. An extension to double barrier problems is carried out.",
+    "link": "https://arxiv.org/abs/2608.13732",
+    "context": "Title: On the First Hitting Time Problems for Diffusion Processes: Local Time-Space Approach\nAbstract: arXiv:2608.13732v1 Announce Type: cross  Abstract: Using the local time-space calculus of Peskir (2005) and the method developed in Mijatovic (2010), we derive a new integral representation for the distribution of the first-passage time (FPT) of a diffusion process through a time-dependent barrier. We present a complete three-step numerical algorithm: first, the problem is reduced to a Volterra-type integral equation; second, its kernel is approximated by a Markov chain; finally, the resulting equation is solved using a quadrature method. The method is implemented for several representative examples, and its convergence properties are established. An extension to double barrier problems is carried out.",
+    "path": "papers/26/08/2608.13732.json",
+    "total_tokens": 509,
+    "translated_title": "扩散过程首次击中时间问题研究：局部时-空间方法",
+    "translated_abstract": "摘要：利用Peskir（2005）的局部时-空间演算和Mijatovic（2010）开发的方法，我们推导出扩散过程通过时变障碍的首次通过时间（FPT）分布的一种新的积分表示。我们提出了一个完整的三步数值算法：首先，将问题简化为Volterra型积分方程；其次，其核函数通过马尔可夫链进行近似；最后，使用求积方法求解所得方程。该方法已在几个代表性示例中实现，并建立了其收敛性质。此外，还进行了双障碍问题的扩展。",
+    "tldr": "本文提出了一种新的积分表示和完整的三步数值算法，用于高效计算扩散过程通过时变障碍的首次通过时间分布，并扩展至双障碍问题。",
+    "en_tdlr": "This paper introduces a novel integral representation and a complete three-step numerical algorithm for efficiently computing the first-passage time distribution of diffusion processes through time-dependent barriers, with extension to double barrier problems."
+}

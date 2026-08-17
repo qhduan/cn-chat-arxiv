@@ -1,0 +1,12 @@
+{
+    "title": "Failure Privacy and Safe Collective Expression with Social Assurance Contracts",
+    "abstract": "arXiv:2607.05802v5 Announce Type: replace  Abstract: Controversial views sometimes remain unspoken because they invite retaliation. However, a sufficiently large group could speak safely if only they spoke together. Speaking up one-by-one may encourage others, but retaliation against early participants can stop that cascade before a protective group forms. A Social Assurance Contract privately collects signed commitments and publishes them only when all signers will be safe. I show that such contracts can tunnel beneath this exposure barrier to safe coalitions the public speaking cascade cannot reach. Doing so requires private commitments and joint publication.",
+    "link": "https://arxiv.org/abs/2607.05802",
+    "context": "Title: Failure Privacy and Safe Collective Expression with Social Assurance Contracts\nAbstract: arXiv:2607.05802v5 Announce Type: replace  Abstract: Controversial views sometimes remain unspoken because they invite retaliation. However, a sufficiently large group could speak safely if only they spoke together. Speaking up one-by-one may encourage others, but retaliation against early participants can stop that cascade before a protective group forms. A Social Assurance Contract privately collects signed commitments and publishes them only when all signers will be safe. I show that such contracts can tunnel beneath this exposure barrier to safe coalitions the public speaking cascade cannot reach. Doing so requires private commitments and joint publication.",
+    "path": "papers/26/07/2607.05802.json",
+    "total_tokens": 467,
+    "translated_title": "失败隐私与通过社会保证契约实现的安全集体表达",
+    "translated_abstract": "arXiv:2607.05802v5 公告类型：替换 摘要：有争议的观点有时因可能招致报复而未被表达。然而，如果足够大的群体能同时发声，他们本可以安全地表达。逐个发声可能鼓励他人，但对早期参与者的报复可能阻止这种级联，直到保护性群体形成。社会保证契约私下收集签署承诺，并且仅在所有签署者安全时才公布它们。我表明，此类契约可以穿越这一暴露屏障，到达公开演讲级联无法触及的安全联盟。这需要私下承诺和联合发布。",
+    "tldr": "本文提出社会保证契约，通过私下收集承诺和联合发布，使有争议观点能在避免早期报复的情况下安全集体表达，穿越公开演讲的暴露屏障。",
+    "en_tdlr": "This paper introduces Social Assurance Contracts that enable safe collective expression of controversial views by privately collecting commitments and publishing jointly, bypassing the exposure barrier that public speaking cascades cannot cross."
+}

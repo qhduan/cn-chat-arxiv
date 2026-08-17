@@ -1,0 +1,12 @@
+{
+    "title": "Robust XGBoosting for Regression",
+    "abstract": "arXiv:2608.13590v1 Announce Type: new  Abstract: XGBoost is a very popular and powerful method for prediction. It iteratively fits simple decision trees to the residuals of the previous step. An efficient and scalable implementation is available. The standard loss function for XGBoost is the quadratic loss, but a Huber loss can also be used. In this paper, we study the robustness of XGBoost and show that its performance can be affected by vertical outliers and leverage points. To address this, we explore alternative loss functions, based on M-, S-, and {\\tau} -estimators from robust regression. Our results indicate that a two-step procedure, referred to as MM-XGBoost, provides the best trade-off between robustness and prediction accuracy.",
+    "link": "https://arxiv.org/abs/2608.13590",
+    "context": "Title: Robust XGBoosting for Regression\nAbstract: arXiv:2608.13590v1 Announce Type: new  Abstract: XGBoost is a very popular and powerful method for prediction. It iteratively fits simple decision trees to the residuals of the previous step. An efficient and scalable implementation is available. The standard loss function for XGBoost is the quadratic loss, but a Huber loss can also be used. In this paper, we study the robustness of XGBoost and show that its performance can be affected by vertical outliers and leverage points. To address this, we explore alternative loss functions, based on M-, S-, and {\\tau} -estimators from robust regression. Our results indicate that a two-step procedure, referred to as MM-XGBoost, provides the best trade-off between robustness and prediction accuracy.",
+    "path": "papers/26/08/2608.13590.json",
+    "total_tokens": 529,
+    "translated_title": "回归问题的稳健XGBoosting方法",
+    "translated_abstract": "XGBoost是一种非常流行且强大的预测方法。它迭代地将简单决策树拟合到前一步的残差上，并提供了一种高效且可扩展的实现。XGBoost的标准损失函数是二次损失，但也可以使用Huber损失。在本文中，我们研究了XGBoost的稳健性，并表明其性能可能受到垂直异常值和杠杆点的影响。为了解决这个问题，我们探索了基于稳健回归中M估计、S估计和τ估计的替代损失函数。我们的结果表明，一种称为MM-XGBoost的两步过程在稳健性和预测准确性之间提供了最佳权衡。",
+    "tldr": "本文提出MM-XGBoost方法，通过结合稳健回归的M估计和S估计损失函数，有效提升了XGBoost在存在异常值和杠杆点时的稳健性，同时保持了较高的预测精度。",
+    "en_tdlr": "This paper proposes MM-XGBoost, which integrates M- and S-estimator loss functions from robust regression to enhance XGBoost's robustness against outliers and leverage points while maintaining high prediction accuracy."
+}
