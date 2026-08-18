@@ -43,15 +43,16 @@
 | [^39] | [Constrained optimal transport with applications to large matching markets](https://arxiv.org/abs/2604.02559) | 本文提出了约束大规模匹配市场的Monge-Kantorovich对偶新变体，并展示了其在均衡价格刻画和核心非空性上的应用。 |
 | [^40] | [Learning the Macroeconomic Language](https://arxiv.org/abs/2512.21031) | 本文提出了一种混合预测方法，利用DSGE模型生成合成数据来正则化大型语言模型的训练，在有限数据下实现更优的宏观经济预测。 |
 | [^41] | [Limitations of Randomization Tests in Finite Samples](https://arxiv.org/abs/2512.07099) | 本文揭示了随机化检验在有限样本中实现精确控制所需的恒定性条件与常见零假设之间的根本性不匹配，并给出了零假设可接受随机化检验的充要条件，证明如均值为零等常见假设在连续支持集上不可行。 |
-| [^42] | [Large Bayesian Tensor Autoregressions](https://arxiv.org/abs/2511.03097) | 本文提出一种结合随机波动性和低秩Tucker分解的贝叶斯张量自回归框架，用于高效分析大型多维时间序列（如国际贸易数据）的动态与时变波动性。 |
-| [^43] | [Synthetic Control with Weight Uncertainty: Robust Identification and Statistical Inference](https://arxiv.org/abs/2511.02632) | 本文提出一种权重稳健处理效应估计量，通过最坏情况优化处理合成权重不确定性和处理-对照关系变化，在经典条件下与真效应一致，否则仍可点识别，并建立敏感性区间。 |
-| [^44] | [Hope, Signals, and Silicon: A Game-Theoretic Model of the Pre-Doctoral Academic Labor Market in the Age of AI](https://arxiv.org/abs/2511.00068) | 本文通过博弈论模型揭示，生成式AI在博士前学术劳动力市场中虽能提升常规研究产出，却削弱了评估信号的可诊断性，并受异质性目标与固定精英博士容量的影响。 |
-| [^45] | [General-Purpose Technologies and Stock Market Bubbles](https://arxiv.org/abs/2501.08215) | 本文提出一个宏观金融模型，证明在通用目的技术（如信息技术和AI）下，即使理性预期，股息支付股票仍可出现泡沫，泡沫通过IPO促进研发，但技术成熟时泡沫崩溃。 |
-| [^46] | [A Neyman-Orthogonalization Approach to the Incidental Parameter Problem in Likelihood Models](https://arxiv.org/abs/2412.10304) | 本文提出了一种在似然模型中构造任意阶正交估计方程的方法，使目标参数估计不受干扰参数影响至q阶，解决了固定效应模型中干扰参数估计不精确的问题。 |
-| [^47] | [Memoryless Algorithmic Collusion: Sure to Fail, Slow to Fall](https://arxiv.org/abs/2409.01147) | 本文证明无记忆Q-learning算法在长期探索下会收敛至纳什均衡，但高折扣因子导致收敛极慢，且学习率对收敛时间的影响是非单调的。 |
-| [^48] | [Macroeconomic Forecasting with Large Language Models](https://arxiv.org/abs/2407.00890) | 本文通过FRED-MD数据库对比评估了大型语言模型与传统方法在宏观经济预测中的表现，揭示了LLMs的优缺点及实际应用潜力。 |
-| [^49] | [The Anatomy of Dependence in Multivariate Ordered Choice](https://arxiv.org/abs/2205.05779) | 本文提出一种通用的矩形结构模型，通过引入决策阈值结构和潜在效用相关性两层依赖性，捕捉多元有序选择中的广泛框架效应，并在多个应用场景中验证其有效性。 |
-| [^50] | [A new model of trust based on neural information processing.](http://arxiv.org/abs/2401.08064) | 这项研究提出了一个基于现代神经科学的信任机制模型，该模型可以帮助我们更好地理解人类组织和关系中信任的建立和失去的基本机制。 |
+| [^42] | [Two-Sided Market Design for Goods with Perishable Utility](https://arxiv.org/abs/2511.16357) | 本文提出一种针对易逝效用商品的双边市场机制，通过解耦价格发现与分配，并设计CFM-SP算法，在保证均衡存在唯一性的同时实现对抗性到达下需求侧福利的1/2竞争比。 |
+| [^43] | [Large Bayesian Tensor Autoregressions](https://arxiv.org/abs/2511.03097) | 本文提出一种结合随机波动性和低秩Tucker分解的贝叶斯张量自回归框架，用于高效分析大型多维时间序列（如国际贸易数据）的动态与时变波动性。 |
+| [^44] | [Synthetic Control with Weight Uncertainty: Robust Identification and Statistical Inference](https://arxiv.org/abs/2511.02632) | 本文提出一种权重稳健处理效应估计量，通过最坏情况优化处理合成权重不确定性和处理-对照关系变化，在经典条件下与真效应一致，否则仍可点识别，并建立敏感性区间。 |
+| [^45] | [Hope, Signals, and Silicon: A Game-Theoretic Model of the Pre-Doctoral Academic Labor Market in the Age of AI](https://arxiv.org/abs/2511.00068) | 本文通过博弈论模型揭示，生成式AI在博士前学术劳动力市场中虽能提升常规研究产出，却削弱了评估信号的可诊断性，并受异质性目标与固定精英博士容量的影响。 |
+| [^46] | [General-Purpose Technologies and Stock Market Bubbles](https://arxiv.org/abs/2501.08215) | 本文提出一个宏观金融模型，证明在通用目的技术（如信息技术和AI）下，即使理性预期，股息支付股票仍可出现泡沫，泡沫通过IPO促进研发，但技术成熟时泡沫崩溃。 |
+| [^47] | [A Neyman-Orthogonalization Approach to the Incidental Parameter Problem in Likelihood Models](https://arxiv.org/abs/2412.10304) | 本文提出了一种在似然模型中构造任意阶正交估计方程的方法，使目标参数估计不受干扰参数影响至q阶，解决了固定效应模型中干扰参数估计不精确的问题。 |
+| [^48] | [Memoryless Algorithmic Collusion: Sure to Fail, Slow to Fall](https://arxiv.org/abs/2409.01147) | 本文证明无记忆Q-learning算法在长期探索下会收敛至纳什均衡，但高折扣因子导致收敛极慢，且学习率对收敛时间的影响是非单调的。 |
+| [^49] | [Macroeconomic Forecasting with Large Language Models](https://arxiv.org/abs/2407.00890) | 本文通过FRED-MD数据库对比评估了大型语言模型与传统方法在宏观经济预测中的表现，揭示了LLMs的优缺点及实际应用潜力。 |
+| [^50] | [The Anatomy of Dependence in Multivariate Ordered Choice](https://arxiv.org/abs/2205.05779) | 本文提出一种通用的矩形结构模型，通过引入决策阈值结构和潜在效用相关性两层依赖性，捕捉多元有序选择中的广泛框架效应，并在多个应用场景中验证其有效性。 |
+| [^51] | [A new model of trust based on neural information processing.](http://arxiv.org/abs/2401.08064) | 这项研究提出了一个基于现代神经科学的信任机制模型，该模型可以帮助我们更好地理解人类组织和关系中信任的建立和失去的基本机制。 |
 
 # 详细
 
@@ -629,7 +630,21 @@
 
     arXiv:2512.07099v3 Announce Type: replace  Abstract: Randomization tests deliver exact finite-sample Type 1 error control when the null satisfies the randomization hypothesis. In practice, achieving these guarantees often requires stronger conditions than the null hypothesis of primary interest. For example, sign-change tests of mean zero require symmetry and need not control finite-sample size for non-symmetric mean-zero distributions. We investigate whether the mismatch between the null and the invariance conditions required for exactness reflects the use of particular transformations or a more fundamental limitation. We provide a simple necessary and sufficient condition for a null hypothesis to admit a randomization test. Applying this framework to one-sample problems, we characterize the nulls that admit randomization tests on finite supports and derive impossibility results on continuous supports. In particular, we show that several common nulls, including mean zero, do not admit
     
-[^42]: 大型贝叶斯张量自回归模型
+[^42]: 具有易逝效用的商品的双边市场设计
+
+    Two-Sided Market Design for Goods with Perishable Utility
+
+    [https://arxiv.org/abs/2511.16357](https://arxiv.org/abs/2511.16357)
+
+    本文提出一种针对易逝效用商品的双边市场机制，通过解耦价格发现与分配，并设计CFM-SP算法，在保证均衡存在唯一性的同时实现对抗性到达下需求侧福利的1/2竞争比。
+
+    
+
+    我们研究了效用若未被消费便会消失的商品的双边市场设计。受去中心化计算市场的启发，我们提出了一种将价格发现与分配解耦的机制；基于负载的标价规则确定每期市场价格，而带有第二价格支付的贪婪匹配算法处理任务分配。我们证明了均衡的存在性和唯一性，并给出了均衡可接受（即活跃供给覆盖需求且无需配给）的充分条件。在分配方面，我们展示了福利最优匹配算法并非策略-proof，并引入了带第二价格支付的最便宜可行匹配（CFM-SP），在该机制下，短视的提供者如实报告成本并质押其全部可用性。CFM-SP在对抗性到达下实现了需求侧福利的紧密1/2竞争比；当提供者的成本随可用性单调变化时，该比率进一步改善。
+
+    arXiv:2511.16357v2 Announce Type: replace  Abstract: We study two-sided market design for goods whose utility perishes if unconsumed. Motivated by decentralized compute markets, we propose a mechanism that decouples price discovery from allocation; a load-based posted-price rule determines a per-period market price, while a greedy matching algorithm with second-price payments handles job assignment. We prove existence and uniqueness of equilibria, and give sufficient conditions under which equilibria are admissible~(i.e., active supply covers demand without rationing). On the allocation side, we show that the welfare-optimal matching algorithm is not strategy-proof and introduce Cheapest-Feasible Matching with Second-Price Payment~(CFM-SP), under which myopic providers truthfully report costs while staking their full availability. CFM-SP achieves a tight $1/2$-competitive ratio for demand-side welfare under adversarial arrivals; when providers' costs are monotone in availability, the r
+    
+[^43]: 大型贝叶斯张量自回归模型
 
     Large Bayesian Tensor Autoregressions
 
@@ -643,7 +658,7 @@
 
     arXiv:2511.03097v3 Announce Type: replace  Abstract: The availability of multidimensional economic datasets has grown significantly in recent years. An example is bilateral trade values across goods among countries, comprising three dimensions -- importing countries, exporting countries, and goods -- forming a third-order tensor time series. This paper introduces a general Bayesian tensor autoregressive framework to analyze the dynamics of large, multidimensional time series with a particular focus on international trade across different countries and sectors. Departing from the standard homoscedastic assumption in this literature, we incorporate flexible stochastic volatility into the tensor autoregressive models. The proposed models can capture time-varying volatility due to the COVID-19 pandemic and recent outbreaks of war. To address computational challenges and mitigate overfitting, we develop an efficient sampling method based on low-rank Tucker decomposition and hierarchical shr
     
-[^43]: 合成控制法中的权重不确定性：稳健识别与统计推断
+[^44]: 合成控制法中的权重不确定性：稳健识别与统计推断
 
     Synthetic Control with Weight Uncertainty: Robust Identification and Statistical Inference
 
@@ -657,7 +672,7 @@
 
     arXiv:2511.02632v3 Announce Type: replace-cross  Abstract: The synthetic control method estimates causal effects by comparing a treated unit with weighted controls matched on its pre-treatment trajectory. However, validity can be compromised when highly correlated controls leave the synthetic weights weakly determined or when treated-control relationships shift after treatment. We propose a new estimand, the weight-robust treatment effect, defined as the optimizer of a worst-case optimization problem over an uncertainty class of synthetic weights compatible with the pre-treatment fit. We establish its connection to sensitivity analysis: the uncertainty class induces an interval of plausible treatment effects, and the proposed estimand is the point in the interval closest to zero. Under the classical identification conditions, the estimand coincides with the true treatment effect. When these conditions fail, the estimand remains point identified; if the uncertainty class contains the tr
     
-[^44]: 希望、信号与硅：AI时代博士前学术劳动力市场的博弈论模型
+[^45]: 希望、信号与硅：AI时代博士前学术劳动力市场的博弈论模型
 
     Hope, Signals, and Silicon: A Game-Theoretic Model of the Pre-Doctoral Academic Labor Market in the Age of AI
 
@@ -671,7 +686,7 @@
 
     arXiv:2511.00068v3 Announce Type: replace  Abstract: Generative AI can make early research work easier to produce and harder to interpret. This paper develops a compact game-theoretic model of this production evaluation tension in the pre-doctoral academic labor market. In the model, PIs organize RA labor, allocate AI between routine and novel tasks, and choose mentoring intensity. RAs choose effort, while admissions committees infer research potential from noisy task-level signals under fixed admissions capacity. A mechanism-preserving simulation examines whether the model's qualitative mechanisms continue to hold when RAs and PIs are heterogeneous, research outcomes partly depend on luck, admissions evaluation is noisy, and elite Ph.D. capacity is fixed. The analysis yields three implications. First, routine task AI can increase observable routine output while reducing the diagnostic precision of routine evidence. Second, heterogeneous PI objectives and task complementarity can lead 
     
-[^45]: 通用目的技术与股市泡沫
+[^46]: 通用目的技术与股市泡沫
 
     General-Purpose Technologies and Stock Market Bubbles
 
@@ -685,7 +700,7 @@
 
     arXiv:2501.08215v3 Announce Type: replace  Abstract: We develop a macro-finance model linking stock price bubbles to a general-purpose technology (GPT), such as information technology and artificial intelligence. Knowledge spillovers differ across production factors, generating unbalanced growth and causing stock prices to outgrow dividends. Under our conditions, the unique equilibrium contains a bubble on dividend-paying stocks even though agents share common beliefs and rationally anticipate its collapse. The probability that spillovers persist affects the bubble's duration but not its existence. When spillovers equalize as the technology matures, the economy reaches balanced growth and the bubble collapses. Through IPO proceeds, the bubble can increase R\&D employment, while accumulated knowledge remains productive afterward. More broadly, balanced growth is a knife-edge property: the restrictions used to obtain it make stock prices and dividends grow at the same rate, thereby rulin
     
-[^46]: 似然模型中偶然参数问题的尼曼正交化方法
+[^47]: 似然模型中偶然参数问题的尼曼正交化方法
 
     A Neyman-Orthogonalization Approach to the Incidental Parameter Problem in Likelihood Models
 
@@ -699,7 +714,7 @@
 
     arXiv:2412.10304v4 Announce Type: replace  Abstract: A popular approach to perform inference on a target parameter in the presence of nuisance parameters is to construct estimating equations that are orthogonal to the nuisance parameters, in the sense that their expected first derivative is zero. Such first-order orthogonalization allows the estimator of the nuisance parameters to converge at a slower-than-parametric rate. It may, however, not suffice when the nuisance parameters are very imprecisely estimated. Leading examples are models for panel and network data that feature fixed effects. In this paper, we show how, in the conditional-likelihood setting, estimating equations can be constructed that are orthogonal to any chosen order q, in that their leading q expected derivatives are zero. This yields estimators of target parameters that are unaffected by the presence of nuisance parameters to order q. In an empirical illustration, we apply our method to a fixed-effect model of tea
     
-[^47]: 无记忆算法共谋：必然失败，缓慢崩溃
+[^48]: 无记忆算法共谋：必然失败，缓慢崩溃
 
     Memoryless Algorithmic Collusion: Sure to Fail, Slow to Fall
 
@@ -713,7 +728,7 @@
 
     arXiv:2409.01147v2 Announce Type: replace  Abstract: This paper shows that, in a class of Bertrand-style competition games, memoryless Q-learning algorithms should adapt to Nash Equilibrium given sufficient explorations in the long-run. This is also verified through accelerating simulations, while the convergence time grows super-exponentially for high discount factors. The resilience of collusive outcomes in the short-run is due to exploration of unprofitable actions, making the system resemble random walk. A structural model is proposed to estimate the convergence time, which not only explains the role of discount factor, but also unveils the non-monotonic relation in learning rate, which is overlooked in the literature.
     
-[^48]: 大型语言模型在宏观经济预测中的应用
+[^49]: 大型语言模型在宏观经济预测中的应用
 
     Macroeconomic Forecasting with Large Language Models
 
@@ -727,7 +742,7 @@
 
     arXiv:2407.00890v5 Announce Type: replace-cross  Abstract: This paper presents a comparative analysis evaluating the accuracy of Large Language Models (LLMs) against traditional macro time series forecasting approaches. In recent times, LLMs have surged in popularity for forecasting due to their ability to capture intricate patterns in data and quickly adapt across very different domains. However, their effectiveness in forecasting macroeconomic time series data compared to conventional methods remains an area of interest. To address this, we conduct a rigorous evaluation of LLMs against traditional macro forecasting methods, using as common ground the FRED-MD database. Our findings provide valuable insights into the strengths and limitations of LLMs in forecasting macroeconomic time series, shedding light on their applicability in real-world scenarios
     
-[^49]: 多元有序选择中的依赖性剖析
+[^50]: 多元有序选择中的依赖性剖析
 
     The Anatomy of Dependence in Multivariate Ordered Choice
 
@@ -741,7 +756,7 @@
 
     arXiv:2205.05779v4 Announce Type: replace  Abstract: When individuals make simultaneous decisions across multiple ordered dimensions, standard multivariate ordered choice models impose narrow bracketing: each dimension is decided as if the others did not exist. We develop a general rectangular structure model capturing broad bracketing while nesting the standard model. The framework introduces two layers of dependence, one through the decision-threshold structure and the other through the correlation of latent utilities. We provide microfoundations, prove identification, and discuss estimation. We showcase the model in applications to parental investment in children's education, cryptocurrency familiarity and expectations, and health insurance, where the latter separates moral hazard from adverse selection.
     
-[^50]: 基于神经信息处理的信任新模型
+[^51]: 基于神经信息处理的信任新模型
 
     A new model of trust based on neural information processing. (arXiv:2401.08064v1 [econ.GN])
 
