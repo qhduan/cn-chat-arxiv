@@ -1,0 +1,12 @@
+{
+    "title": "Efficient Code Embeddings from Code Generation Models",
+    "abstract": "arXiv:2508.21290v2 Announce Type: replace-cross  Abstract: jina-code-embeddings is a novel code embedding model suite designed to retrieve code from natural language queries, perform technical question-answering, and identify semantically similar code snippets across programming languages. It makes innovative use of an autoregressive backbone pre-trained on both text and code, generating embeddings via last-token pooling. We outline the training recipe and demonstrate state-of-the-art performance despite the relatively small size of the models, validating this approach to code embedding model construction.",
+    "link": "https://arxiv.org/abs/2508.21290",
+    "context": "Title: Efficient Code Embeddings from Code Generation Models\nAbstract: arXiv:2508.21290v2 Announce Type: replace-cross  Abstract: jina-code-embeddings is a novel code embedding model suite designed to retrieve code from natural language queries, perform technical question-answering, and identify semantically similar code snippets across programming languages. It makes innovative use of an autoregressive backbone pre-trained on both text and code, generating embeddings via last-token pooling. We outline the training recipe and demonstrate state-of-the-art performance despite the relatively small size of the models, validating this approach to code embedding model construction.",
+    "path": "papers/25/08/2508.21290.json",
+    "total_tokens": 447,
+    "translated_title": "从代码生成模型中提取高效代码嵌入",
+    "translated_abstract": "arXiv:2508.21290v2 公告类型：替换交叉 摘要：jina-code-embeddings 是一个新型代码嵌入模型套件，旨在从自然语言查询中检索代码、执行技术问答，并识别跨编程语言的语义相似代码片段。它创新性地使用了在文本和代码上预训练的自回归骨干网络，通过最后令牌池化生成嵌入。我们概述了训练方案，并展示了尽管模型规模相对较小，仍取得了最先进的性能，验证了这种代码嵌入模型构建方法的有效性。",
+    "tldr": "本文提出了一种基于自回归模型和最后令牌池化的代码嵌入方法，在小型模型上实现了跨语言代码检索和问答的最先进性能。",
+    "en_tdlr": "This paper introduces a code embedding approach using an autoregressive backbone with last-token pooling, achieving state-of-the-art performance in cross-language code retrieval and QA with compact models."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Class Imbalance and Batch Effects in LLM-Based Screening for Systematic Reviews",
+    "abstract": "arXiv:2608.14737v1 Announce Type: cross  Abstract: This study analyses LLMs in imbalanced binary classification, using study screening in systematic reviews as the application domain. An experiment was conducted in five reviews, comparing individual and batch processing, with and without prevalence metadata. The results indicate a limited influence of the prevalence metadata, with no evidence that it improves performance. In contrast, batch processing produced larger behavioral changes that varied according to the prevalence of the class. The aggregate and item-level analyses did not always coincide. Therefore, batch processing should be evaluated not only in terms of cost, but also in relation to its effects on decision-making behavior.",
+    "link": "https://arxiv.org/abs/2608.14737",
+    "context": "Title: Class Imbalance and Batch Effects in LLM-Based Screening for Systematic Reviews\nAbstract: arXiv:2608.14737v1 Announce Type: cross  Abstract: This study analyses LLMs in imbalanced binary classification, using study screening in systematic reviews as the application domain. An experiment was conducted in five reviews, comparing individual and batch processing, with and without prevalence metadata. The results indicate a limited influence of the prevalence metadata, with no evidence that it improves performance. In contrast, batch processing produced larger behavioral changes that varied according to the prevalence of the class. The aggregate and item-level analyses did not always coincide. Therefore, batch processing should be evaluated not only in terms of cost, but also in relation to its effects on decision-making behavior.",
+    "path": "papers/26/08/2608.14737.json",
+    "total_tokens": 486,
+    "translated_title": "基于LLM的系统综述筛选中类别不平衡与批次效应研究",
+    "translated_abstract": "本研究分析了LLM在不平衡二元分类中的表现，以系统综述中的研究筛选为应用领域。实验在五项综述中进行，比较了单独处理与批次处理，以及有无患病率元数据的情况。结果表明，患病率元数据的影响有限，没有证据表明它能提升性能。相反，批次处理产生了更大的行为变化，这些变化根据类别的患病率而有所不同。总体和项目层面的分析并不总是一致的。因此，批次处理不仅应在成本方面进行评估，还应考虑其对决策行为的影响。",
+    "tldr": "本研究揭示在系统综述筛选中，LLM的批次处理虽改变决策行为但受类别不平衡影响，患病率元数据未显著提升性能，强调需综合评估批次处理的影响。",
+    "en_tdlr": "This study reveals that batch processing in LLM-based systematic review screening alters decision behavior influenced by class imbalance, with prevalence metadata showing limited performance gains, emphasizing the need for comprehensive evaluation of batch effects."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Spinning Conformal Correlators from Neural Networks",
+    "abstract": "arXiv:2608.15001v1 Announce Type: cross  Abstract: We construct spinning conformal fields from neural networks and the embedding formalism, computing their two-, three- and four-point functions in examples, building on scalar conformal field techniques introduced in \\cite{Halverson:2024axc}. For a particular ensemble of i.i.d. neurons we recover the 4d Maxwell CFT in the infinite-width limit.",
+    "link": "https://arxiv.org/abs/2608.15001",
+    "context": "Title: Spinning Conformal Correlators from Neural Networks\nAbstract: arXiv:2608.15001v1 Announce Type: cross  Abstract: We construct spinning conformal fields from neural networks and the embedding formalism, computing their two-, three- and four-point functions in examples, building on scalar conformal field techniques introduced in \\cite{Halverson:2024axc}. For a particular ensemble of i.i.d. neurons we recover the 4d Maxwell CFT in the infinite-width limit.",
+    "path": "papers/26/08/2608.15001.json",
+    "total_tokens": 422,
+    "translated_title": "从神经网络生成旋转共形关联函数",
+    "translated_abstract": "arXiv:2608.15001v1 公告类型：交叉 摘要：我们利用神经网络和嵌入形式构造旋转共形场，在标量共形场技术（参见\\cite{Halverson:2024axc}）的基础上，计算了它们的二点、三点和四点函数实例。对于特定的独立同分布神经元集合，我们在无限宽度极限下恢复了4维麦克斯韦共形场论。",
+    "tldr": "本文通过神经网络与嵌入形式构建旋转共形场，并在无限宽度极限下成功恢复4维麦克斯韦共形场论，展示了神经网络在共形场论计算中的新应用。",
+    "en_tdlr": "This paper constructs spinning conformal fields using neural networks and the embedding formalism, recovering the 4D Maxwell CFT in the infinite-width limit, demonstrating a novel application of neural networks to conformal field theory computations."
+}

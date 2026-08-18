@@ -1,0 +1,12 @@
+{
+    "title": "Uncovering Hidden Leptonic Correlations with Flow Matching and Autoencoders",
+    "abstract": "arXiv:2608.15042v1 Announce Type: cross  Abstract: We perform a global search for values of the Yukawa matrices and Majorana masses in the Type-I seesaw mechanism. Using flow matching, which is a generative artificial intelligence (generative AI) method, we generate a broad set of solutions reproducing the experimentally measured values of the neutrino mass-squared differences and the mixing angles. Then, a machine learning method known as an autoencoder is applied to uncover non-trivial correlations among physical quantities in the lepton sector. Our analysis reveals new non-linear relations involving neutrino masses and CP phases. These findings may contribute to elucidating the origins of the mass hierarchies and mixing patterns among generation structure.",
+    "link": "https://arxiv.org/abs/2608.15042",
+    "context": "Title: Uncovering Hidden Leptonic Correlations with Flow Matching and Autoencoders\nAbstract: arXiv:2608.15042v1 Announce Type: cross  Abstract: We perform a global search for values of the Yukawa matrices and Majorana masses in the Type-I seesaw mechanism. Using flow matching, which is a generative artificial intelligence (generative AI) method, we generate a broad set of solutions reproducing the experimentally measured values of the neutrino mass-squared differences and the mixing angles. Then, a machine learning method known as an autoencoder is applied to uncover non-trivial correlations among physical quantities in the lepton sector. Our analysis reveals new non-linear relations involving neutrino masses and CP phases. These findings may contribute to elucidating the origins of the mass hierarchies and mixing patterns among generation structure.",
+    "path": "papers/26/08/2608.15042.json",
+    "total_tokens": 526,
+    "translated_title": "利用流匹配与自编码器揭示隐藏的轻子关联性",
+    "translated_abstract": "arXiv:2608.15042v1 公告类型：交叉 摘要：我们对I型跷跷板机制中的汤川矩阵和马约拉纳质量值进行了全局搜索。利用流匹配这一生成式人工智能（生成式AI）方法，我们生成了一组广泛的解，这些解重现了实验测量的中微子质量平方差和混合角。随后，应用一种称为自编码器的机器学习方法来揭示轻子扇区中物理量之间的非平凡关联性。我们的分析揭示了涉及中微子质量和CP相位的新非线性关系。这些发现可能有助于阐明代际结构中质量层级和混合模式的起源。",
+    "tldr": "该研究通过流匹配生成和自编码器分析，首次发现了中微子质量与CP相位之间的新非线性关联，为理解I型跷跷板机制中的质量层级和混合模式提供了新见解。",
+    "en_tdlr": "This study, using flow matching generation and autoencoder analysis, uncovers novel nonlinear correlations between neutrino masses and CP phases, offering new insights into the mass hierarchies and mixing patterns in the Type-I seesaw mechanism."
+}

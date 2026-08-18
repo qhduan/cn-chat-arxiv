@@ -1,0 +1,12 @@
+{
+    "title": "Mental Model Management: An Operator-Based Framework for LLM Memory",
+    "abstract": "arXiv:2608.15451v1 Announce Type: new  Abstract: Large language models process large amounts of information but usually lack an explicit mechanism for maintaining compact and evolving conceptual representations. We introduce Mental Model Management (3M), a framework in which knowledge is represented as mental models consisting of compact chunks. Rather than accumulating text passages, 3M continuously integrates new information into an existing conceptual representation. A set of operators extracts knowledge, retrieves relevant models, adds and updates chunks, reorganizes representations, detects inconsistencies, and derives new knowledge. We describe the main 3M operators and illustrate each operation using Evolution Strategies as a running example.",
+    "link": "https://arxiv.org/abs/2608.15451",
+    "context": "Title: Mental Model Management: An Operator-Based Framework for LLM Memory\nAbstract: arXiv:2608.15451v1 Announce Type: new  Abstract: Large language models process large amounts of information but usually lack an explicit mechanism for maintaining compact and evolving conceptual representations. We introduce Mental Model Management (3M), a framework in which knowledge is represented as mental models consisting of compact chunks. Rather than accumulating text passages, 3M continuously integrates new information into an existing conceptual representation. A set of operators extracts knowledge, retrieves relevant models, adds and updates chunks, reorganizes representations, detects inconsistencies, and derives new knowledge. We describe the main 3M operators and illustrate each operation using Evolution Strategies as a running example.",
+    "path": "papers/26/08/2608.15451.json",
+    "total_tokens": 504,
+    "translated_title": "心智模型管理：一种基于操作符的LLM记忆框架",
+    "translated_abstract": "arXiv:2608.15451v1 公告类型：新 摘要：大型语言模型处理大量信息，但通常缺乏显式机制来维护紧凑且不断演进的概念表示。我们引入了心智模型管理（3M），这是一个将知识表示为由紧凑块组成的心智模型的框架。3M不是积累文本段落，而是持续将新信息整合到现有的概念表示中。一组操作符提取知识、检索相关模型、添加和更新块、重组表示、检测不一致性并推导新知识。我们描述了主要的3M操作符，并使用进化策略作为运行示例来说明每个操作。",
+    "tldr": "本论文提出心智模型管理（3M）框架，通过一组操作符动态整合和重组知识，使大型语言模型能维护紧凑且演进的概念表示，而非简单积累文本。",
+    "en_tdlr": "This paper introduces the Mental Model Management (3M) framework, which uses a set of operators to dynamically integrate and reorganize knowledge, enabling large language models to maintain compact and evolving conceptual representations rather than merely accumulating text."
+}

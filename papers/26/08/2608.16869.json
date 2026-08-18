@@ -1,0 +1,12 @@
+{
+    "title": "The New Mathematics of Democracy",
+    "abstract": "arXiv:2608.16869v1 Announce Type: cross  Abstract: This article surveys emerging directions in the mathematics of democracy. It uses three case studies --- voting theory, participatory budgeting, and deliberative democracy --- to highlight how contemporary challenges motivate rigorous mathematical research that incorporates real-world data, institutional constraints, and implementation feasibility. Within each case, we highlight active and promising research frontiers, evidence of real-world impact, practical applications, and opportunities for getting involved.",
+    "link": "https://arxiv.org/abs/2608.16869",
+    "context": "Title: The New Mathematics of Democracy\nAbstract: arXiv:2608.16869v1 Announce Type: cross  Abstract: This article surveys emerging directions in the mathematics of democracy. It uses three case studies --- voting theory, participatory budgeting, and deliberative democracy --- to highlight how contemporary challenges motivate rigorous mathematical research that incorporates real-world data, institutional constraints, and implementation feasibility. Within each case, we highlight active and promising research frontiers, evidence of real-world impact, practical applications, and opportunities for getting involved.",
+    "path": "papers/26/08/2608.16869.json",
+    "total_tokens": 380,
+    "translated_title": "民主的新数学",
+    "translated_abstract": "arXiv:2608.16869v1 公告类型：交叉 摘要：本文综述了民主数学中的新兴方向。通过三个案例研究——投票理论、参与式预算和审议民主——来强调当代挑战如何推动融入现实世界数据、制度约束和实施可行性的严谨数学研究。在每个案例中，我们突出了活跃且有前景的研究前沿、现实世界影响的证据、实际应用以及参与机会。",
+    "tldr": "本文通过三个案例展示了民主数学如何结合现实数据与制度约束，推动投票、预算和审议领域的前沿研究。",
+    "en_tdlr": "This article demonstrates how the mathematics of democracy integrates real-world data and institutional constraints to advance frontier research in voting, budgeting, and deliberation."
+}

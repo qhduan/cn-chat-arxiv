@@ -1,0 +1,12 @@
+{
+    "title": "Social Learning with Selective Sampling",
+    "abstract": "arXiv:2608.16599v1 Announce Type: new  Abstract: This paper studies how robust social learning is when sampling is selective, i.e., some types of actions are more likely to be sampled by successors. We show that Bayesian agents can achieve asymptotic learning despite non-expanding observations, because the endogenous observation network itself carries information and agents have ways to undo the selection bias.",
+    "link": "https://arxiv.org/abs/2608.16599",
+    "context": "Title: Social Learning with Selective Sampling\nAbstract: arXiv:2608.16599v1 Announce Type: new  Abstract: This paper studies how robust social learning is when sampling is selective, i.e., some types of actions are more likely to be sampled by successors. We show that Bayesian agents can achieve asymptotic learning despite non-expanding observations, because the endogenous observation network itself carries information and agents have ways to undo the selection bias.",
+    "path": "papers/26/08/2608.16599.json",
+    "total_tokens": 369,
+    "translated_title": "选择性采样下的社会学习",
+    "translated_abstract": "arXiv:2608.16599v1 公告类型：新 摘要：本文研究了当采样具有选择性时，即某些类型的行动更可能被后继者采样时，社会学习的鲁棒性。我们表明，尽管观测不扩展，贝叶斯智能体仍能实现渐近学习，因为内生观测网络本身携带信息，且智能体有办法消除选择偏差。",
+    "tldr": "本文证明在选择性采样下，贝叶斯智能体仍能通过内生观测网络的信息传递实现渐近学习，并有效纠正选择偏差。",
+    "en_tdlr": "This paper shows that under selective sampling, Bayesian agents can still achieve asymptotic learning by leveraging information from the endogenous observation network and correcting selection bias."
+}

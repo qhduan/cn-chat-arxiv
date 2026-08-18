@@ -1,0 +1,12 @@
+{
+    "title": "Sampling the Schwinger Model with Gauge-Equivariant Diffusion",
+    "abstract": "arXiv:2606.27481v2 Announce Type: replace-cross  Abstract: We present a first study of a diffusion-based approach to accelerated sampling of the $N_f = 2$ lattice Schwinger model. Our work is inspired by recent and growing successes in developing such generative models for ensemble generation in LFT to overcome the well-known critical slowing down problem. We train a U(1)-equivariant score-based generative model to sample gauge link configurations from the marginal Schwinger model. By computing model likelihoods, we obtain unbiased estimates for observables that closely match those produced by MCMC simulations. We also demonstrate improvement over HMC as measured qualitatively by a reduction in topological freezing near critical parameters.",
+    "link": "https://arxiv.org/abs/2606.27481",
+    "context": "Title: Sampling the Schwinger Model with Gauge-Equivariant Diffusion\nAbstract: arXiv:2606.27481v2 Announce Type: replace-cross  Abstract: We present a first study of a diffusion-based approach to accelerated sampling of the $N_f = 2$ lattice Schwinger model. Our work is inspired by recent and growing successes in developing such generative models for ensemble generation in LFT to overcome the well-known critical slowing down problem. We train a U(1)-equivariant score-based generative model to sample gauge link configurations from the marginal Schwinger model. By computing model likelihoods, we obtain unbiased estimates for observables that closely match those produced by MCMC simulations. We also demonstrate improvement over HMC as measured qualitatively by a reduction in topological freezing near critical parameters.",
+    "path": "papers/26/06/2606.27481.json",
+    "total_tokens": 506,
+    "translated_title": "采样规范等变扩散的施温格模型",
+    "translated_abstract": "arXiv:2606.27481v2 公告类型：替换交叉 摘要：我们首次研究了基于扩散的方法，用于加速 $N_f = 2$ 晶格施温格模型的采样。我们的工作受到近期在格点场论中开发此类生成模型以克服众所周知的临界减速问题的日益增长的成功的启发。我们训练了一个 U(1) 等变的基于分数的生成模型，从边缘施温格模型中采样规范链接配置。通过计算模型似然，我们获得了与 MCMC 模拟结果密切匹配的可观测量的无偏估计。我们还展示了在临界参数附近，通过拓扑冻结的减少所定性地衡量的对 HMC 的改进。",
+    "tldr": "该论文提出了一种使用 U(1) 等变扩散模型加速晶格施温格模型采样，并显著减少了拓扑冻结问题。",
+    "en_tdlr": "This paper proposes a U(1)-equivariant diffusion model to accelerate sampling of the lattice Schwinger model, significantly reducing topological freezing."
+}

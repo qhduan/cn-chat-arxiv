@@ -1,0 +1,12 @@
+{
+    "title": "Equilibrium stochastic control with implicitly defined objective functions",
+    "abstract": "arXiv:2312.15173v3 Announce Type: replace-cross  Abstract: This paper considers a class of stochastic control problems with implicitly defined objective functions, which are the sources of time-inconsistency. We study the closed-loop equilibrium solutions in a general controlled diffusion framework. First, we provide a sufficient and necessary condition for a strategy to be an equilibrium. Then, we apply the result to discuss two problems of dynamic portfolio selection for a class of betweenness preferences, allowing for closed convex constraints on portfolio weights and borrowing cost, respectively. The equilibrium portfolio strategies are explicitly characterized in terms of the solutions of some first-order ordinary differential equations for the case of deterministic market coefficients.",
+    "link": "https://arxiv.org/abs/2312.15173",
+    "context": "Title: Equilibrium stochastic control with implicitly defined objective functions\nAbstract: arXiv:2312.15173v3 Announce Type: replace-cross  Abstract: This paper considers a class of stochastic control problems with implicitly defined objective functions, which are the sources of time-inconsistency. We study the closed-loop equilibrium solutions in a general controlled diffusion framework. First, we provide a sufficient and necessary condition for a strategy to be an equilibrium. Then, we apply the result to discuss two problems of dynamic portfolio selection for a class of betweenness preferences, allowing for closed convex constraints on portfolio weights and borrowing cost, respectively. The equilibrium portfolio strategies are explicitly characterized in terms of the solutions of some first-order ordinary differential equations for the case of deterministic market coefficients.",
+    "path": "papers/23/12/2312.15173.json",
+    "total_tokens": 457,
+    "translated_title": "隐式定义目标函数的均衡随机控制",
+    "translated_abstract": "本文考虑了一类具有隐式定义目标函数的随机控制问题，这类问题是时间不一致性的来源。我们在一般受控扩散框架下研究了闭环均衡解。首先，我们给出了一个策略成为均衡的充分必要条件。然后，我们将该结果应用于讨论一类中间性偏好下的动态投资组合选择问题，分别允许投资组合权重和借贷成本上的闭凸约束。在确定性市场系数的情况下，均衡投资组合策略通过某些一阶常微分方程的解显式表征。",
+    "tldr": "本文提出并解决了隐式定义目标函数的随机控制问题中的均衡策略条件，并将其应用于中间性偏好下的动态投资组合选择，给出了显式解。",
+    "en_tdlr": "This paper establishes necessary and sufficient conditions for equilibrium strategies in stochastic control with implicitly defined objectives, and applies them to derive explicit portfolio solutions under betweenness preferences."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Second-Moment Memory in Coordinatewise Adam",
+    "abstract": "arXiv:2608.15824v1 Announce Type: new  Abstract: Adam retains a moving average of past squared gradients in its denominator, but the optimization cost of this memory is not well understood. We show that second-moment memory can itself suppress progress toward the optimum even under finite-variance stochastic gradients. For a simple two-point oracle, the expected positive normalized update is $O(M_2^{-1/2})$ after an initialization transient, where $M_2=(1-\\beta_2)^{-1}$ is the second-moment memory length. We convert this directional bound, under the stated memory and stepsize scaling, into an average-stationarity lower bound of the same order on a smooth convex problem with normalized gap, smoothness, and variance. Long second-moment memory can slow optimization even when the gradient noise has finite variance.",
+    "link": "https://arxiv.org/abs/2608.15824",
+    "context": "Title: Second-Moment Memory in Coordinatewise Adam\nAbstract: arXiv:2608.15824v1 Announce Type: new  Abstract: Adam retains a moving average of past squared gradients in its denominator, but the optimization cost of this memory is not well understood. We show that second-moment memory can itself suppress progress toward the optimum even under finite-variance stochastic gradients. For a simple two-point oracle, the expected positive normalized update is $O(M_2^{-1/2})$ after an initialization transient, where $M_2=(1-\\beta_2)^{-1}$ is the second-moment memory length. We convert this directional bound, under the stated memory and stepsize scaling, into an average-stationarity lower bound of the same order on a smooth convex problem with normalized gap, smoothness, and variance. Long second-moment memory can slow optimization even when the gradient noise has finite variance.",
+    "path": "papers/26/08/2608.15824.json",
+    "total_tokens": 544,
+    "translated_title": "坐标自适应Adam中的二阶矩记忆",
+    "translated_abstract": "arXiv:2608.15824v1 公告类型：新 摘要：Adam在其分母中保留了过往平方梯度的移动平均，但这种记忆的优化成本尚未被充分理解。我们表明，即使在有限方差随机梯度下，二阶矩记忆本身也能抑制向最优解的进展。对于一个简单的两点Oracle，在初始化瞬态后，期望的正归一化更新为$O(M_2^{-1/2})$，其中$M_2=(1-\\beta_2)^{-1}$是二阶矩记忆长度。我们在所述记忆和步长缩放条件下，将此方向性界限转化为一个具有归一化间隙、平滑性和方差的光滑凸问题上的同阶平均平稳性下界。即使梯度噪声具有有限方差，长的二阶矩记忆也可能减缓优化速度。",
+    "tldr": "本文证明Adam中的长二阶矩记忆即使在有限方差噪声下也会抑制优化进展，并给出了相应的收敛下界。",
+    "en_tdlr": "This paper shows that long second-moment memory in Adam can slow optimization even under finite-variance gradient noise, providing a corresponding lower bound on convergence."
+}

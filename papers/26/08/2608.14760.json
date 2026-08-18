@@ -1,0 +1,12 @@
+{
+    "title": "The Price of Submission",
+    "abstract": "arXiv:2608.14760v1 Announce Type: new  Abstract: Economics journals ration access to peer review with time and money. A July 2026 census of 500 RePEc-ranked economics journals accepting unsolicited submissions finds that 113 (22.6 per cent) charge a fee, with incidence falling from 68 per cent in the top 50 to 2 per cent in the bottom 50. A sequential-submission model shows that waiting pays part of the capacity-clearing price, leaving the fee as a residual. Because rejected manuscripts move down the ranking, a fee reduces system-wide referee demand only when authors stop, shorten their submission chains or switch to journals requiring fewer reports.",
+    "link": "https://arxiv.org/abs/2608.14760",
+    "context": "Title: The Price of Submission\nAbstract: arXiv:2608.14760v1 Announce Type: new  Abstract: Economics journals ration access to peer review with time and money. A July 2026 census of 500 RePEc-ranked economics journals accepting unsolicited submissions finds that 113 (22.6 per cent) charge a fee, with incidence falling from 68 per cent in the top 50 to 2 per cent in the bottom 50. A sequential-submission model shows that waiting pays part of the capacity-clearing price, leaving the fee as a residual. Because rejected manuscripts move down the ranking, a fee reduces system-wide referee demand only when authors stop, shorten their submission chains or switch to journals requiring fewer reports.",
+    "path": "papers/26/08/2608.14760.json",
+    "total_tokens": 509,
+    "translated_title": "提交的代价",
+    "translated_abstract": "经济学期刊通过时间和金钱来配给同行评审的准入。一项2026年7月对500家接受主动投稿的RePEc排名经济学期刊的普查发现，有113家（占22.6%）收取费用，其发生率从排名前50的68%下降到排名后50的2%。一个顺序提交模型表明，等待支付了容量清算价格的一部分，使费用成为剩余部分。由于被拒稿的论文会沿排名向下移动，只有当作者停止投稿、缩短投稿链或转向要求较少审稿报告的期刊时，费用才会减少整个系统的审稿人需求。",
+    "tldr": "本文通过普查500家经济学期刊和构建顺序提交模型，揭示了投稿费用随期刊排名递减的分布规律，并指出费用仅在作者缩短投稿链或转向低要求期刊时才能降低系统审稿需求。",
+    "en_tdlr": "This paper reveals that submission fees decline with journal ranking through a census of 500 economics journals and a sequential-submission model, showing fees reduce system-wide referee demand only when authors shorten chains or switch to less demanding journals."
+}

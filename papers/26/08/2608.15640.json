@@ -1,0 +1,12 @@
+{
+    "title": "A contribution to the critique of blockchain censorship",
+    "abstract": "arXiv:2608.15640v1 Announce Type: cross  Abstract: We study the blockchain censorship attack introduced in [21], which shows that joining the attack is a dominant strategy. We show that, by introducing certain detectability threshold, joining the attack can lead to strictly less reward for whales, which are defined to be a small number of validators that hold significantly more voting power than the rest (henceforth known as minnows). This leads to a change of the equilibrium: With whales unwilling to participate in the attack, it is difficult for minnows alone to launch the attack. We also perform Monte Carlo simulation to show the existence of reduction for whales' reward in Ethereum and Solana.",
+    "link": "https://arxiv.org/abs/2608.15640",
+    "context": "Title: A contribution to the critique of blockchain censorship\nAbstract: arXiv:2608.15640v1 Announce Type: cross  Abstract: We study the blockchain censorship attack introduced in [21], which shows that joining the attack is a dominant strategy. We show that, by introducing certain detectability threshold, joining the attack can lead to strictly less reward for whales, which are defined to be a small number of validators that hold significantly more voting power than the rest (henceforth known as minnows). This leads to a change of the equilibrium: With whales unwilling to participate in the attack, it is difficult for minnows alone to launch the attack. We also perform Monte Carlo simulation to show the existence of reduction for whales' reward in Ethereum and Solana.",
+    "path": "papers/26/08/2608.15640.json",
+    "total_tokens": 533,
+    "translated_title": "对区块链审查制度批判的贡献",
+    "translated_abstract": "arXiv:2608.15640v1 公告类型：交叉 摘要：我们研究了文献[21]中引入的区块链审查攻击，该研究表明加入攻击是一种主导策略。我们证明，通过引入一定的可检测性阈值，加入攻击可能导致被称为“鲸鱼”的少数验证者（这些验证者持有的投票权显著高于其他验证者，后者被称为“小鱼”）获得的奖励严格减少。这导致了均衡状态的改变：当鲸鱼不愿参与攻击时，仅靠小鱼很难发动攻击。我们还进行了蒙特卡洛模拟，以证明在以太坊和Solana中鲸鱼奖励减少的存在性。",
+    "tldr": "本文通过引入可检测性阈值，证明区块链审查攻击对大型验证者（鲸鱼）不再有利，从而改变均衡状态，使小鱼难以单独发起攻击，并在以太坊和Solana上通过模拟验证了这一点。",
+    "en_tdlr": "This paper introduces a detectability threshold to show that blockchain censorship attacks become less rewarding for large validators (whales), shifting the equilibrium so that small validators (minnows) alone struggle to launch attacks, with Monte Carlo simulations confirming reduced whale rewards in Ethereum and Solana."
+}

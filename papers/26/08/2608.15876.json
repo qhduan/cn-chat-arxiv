@@ -1,0 +1,12 @@
+{
+    "title": "The Yeoman's Portfolio: Measuring Historical Risk Preferences Using Crop Choice",
+    "abstract": "arXiv:2608.15876v1 Announce Type: new  Abstract: We design a method for measuring the risk preferences of agents in the deep past. The method combines a structural model of crop choice as a portfolio allocation with machine-learning prediction of expected crop returns, using historic agronomic and climate data. We estimate county-level risk preferences for the United States and farmer-level preferences in Kansas from 1889 to 1929. More risk averse farmers leveraged less, were less likely to purchase novel WWI Liberty Bonds, and were more likely to participate in local risk-sharing institutions. We show that higher risk aversion predicts slower tractor adoption and farm mechanization during the 1920s.",
+    "link": "https://arxiv.org/abs/2608.15876",
+    "context": "Title: The Yeoman's Portfolio: Measuring Historical Risk Preferences Using Crop Choice\nAbstract: arXiv:2608.15876v1 Announce Type: new  Abstract: We design a method for measuring the risk preferences of agents in the deep past. The method combines a structural model of crop choice as a portfolio allocation with machine-learning prediction of expected crop returns, using historic agronomic and climate data. We estimate county-level risk preferences for the United States and farmer-level preferences in Kansas from 1889 to 1929. More risk averse farmers leveraged less, were less likely to purchase novel WWI Liberty Bonds, and were more likely to participate in local risk-sharing institutions. We show that higher risk aversion predicts slower tractor adoption and farm mechanization during the 1920s.",
+    "path": "papers/26/08/2608.15876.json",
+    "total_tokens": 514,
+    "translated_title": "农夫的投资组合：通过作物选择衡量历史风险偏好",
+    "translated_abstract": "arXiv:2608.15876v1 公告类型：新 摘要：我们设计了一种方法，用于测量遥远过去中个体的风险偏好。该方法将作物选择的结构性模型视为投资组合配置，并结合机器学习预测预期作物收益，使用历史农业和气候数据。我们估算了美国县级风险偏好以及1889年至1929年间堪萨斯州的农场主级偏好。更厌恶风险的农民杠杆率更低，购买新颖的一战自由债券的可能性更小，而更可能参与地方风险共担机构。我们表明，更高的风险厌恶程度预测了20世纪20年代拖拉机采用和农业机械化的速度更慢。",
+    "tldr": "本文提出了一种结合结构模型和机器学习的新方法，利用历史作物选择数据衡量过去个体的风险偏好，并发现风险厌恶程度与金融决策及农业技术采用速度显著相关。",
+    "en_tdlr": "This paper proposes a novel method combining structural modeling and machine learning to measure historical risk preferences from crop choices, revealing that higher risk aversion correlates with lower leverage, reduced bond purchases, and slower farm mechanization."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "PureTD: Reinforcement Learning for Backgammon Money Games with No Evaluation-time Search",
+    "abstract": "arXiv:2608.15146v1 Announce Type: new  Abstract: We revisit Tesauro's TD-Gammon for backgammon money games in the setting of no evaluation-time search. Both checker play and cube action (use of the doubling cube) are learned from scratch via self-play reinforcement learning (RL), with minimal hand-coded logic and no expert features. In this setting, we demonstrate that pure self-play RL suffices to train models that reach near-state-of-the-art playing strength. Specifically, for cubeful money games, our search-free model evaluates faster and is substantially stronger than the open-source engines GNU Backgammon and Open Sage running a one-move (1-ply) look-ahead search.",
+    "link": "https://arxiv.org/abs/2608.15146",
+    "context": "Title: PureTD: Reinforcement Learning for Backgammon Money Games with No Evaluation-time Search\nAbstract: arXiv:2608.15146v1 Announce Type: new  Abstract: We revisit Tesauro's TD-Gammon for backgammon money games in the setting of no evaluation-time search. Both checker play and cube action (use of the doubling cube) are learned from scratch via self-play reinforcement learning (RL), with minimal hand-coded logic and no expert features. In this setting, we demonstrate that pure self-play RL suffices to train models that reach near-state-of-the-art playing strength. Specifically, for cubeful money games, our search-free model evaluates faster and is substantially stronger than the open-source engines GNU Backgammon and Open Sage running a one-move (1-ply) look-ahead search.",
+    "path": "papers/26/08/2608.15146.json",
+    "total_tokens": 548,
+    "translated_title": "纯TD：无评估时搜索的后台棋金钱游戏强化学习",
+    "translated_abstract": "摘要：我们重新审视了Tesauro的TD-Gammon在无评估时搜索的后台棋金钱游戏设置中的应用。棋子移动和骰子立方体操作（使用加倍骰子）均通过自对弈强化学习从零开始学习，仅使用最少的硬编码逻辑，且不依赖专家特征。在此设置下，我们证明纯自对弈强化学习足以训练出接近当前最优水平的模型。具体而言，对于带骰子立方体的金钱游戏，我们的无搜索模型评估速度更快，且显著强于开源引擎GNU Backgammon和Open Sage在单步（1-ply）前瞻搜索下的表现。",
+    "tldr": "该论文证明纯自对弈强化学习无需评估时搜索即可训练出接近最优的后台棋模型，在金钱游戏中速度快且强于带单步搜索的开源引擎。",
+    "en_tdlr": "This paper demonstrates that pure self-play reinforcement learning, without evaluation-time search, can train backgammon models to near-state-of-the-art strength, outperforming open-source engines with 1-ply search in speed and performance for money games."
+}

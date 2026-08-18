@@ -1,0 +1,12 @@
+{
+    "title": "Memoryless Algorithmic Collusion: Sure to Fail, Slow to Fall",
+    "abstract": "arXiv:2409.01147v2 Announce Type: replace  Abstract: This paper shows that, in a class of Bertrand-style competition games, memoryless Q-learning algorithms should adapt to Nash Equilibrium given sufficient explorations in the long-run. This is also verified through accelerating simulations, while the convergence time grows super-exponentially for high discount factors. The resilience of collusive outcomes in the short-run is due to exploration of unprofitable actions, making the system resemble random walk. A structural model is proposed to estimate the convergence time, which not only explains the role of discount factor, but also unveils the non-monotonic relation in learning rate, which is overlooked in the literature.",
+    "link": "https://arxiv.org/abs/2409.01147",
+    "context": "Title: Memoryless Algorithmic Collusion: Sure to Fail, Slow to Fall\nAbstract: arXiv:2409.01147v2 Announce Type: replace  Abstract: This paper shows that, in a class of Bertrand-style competition games, memoryless Q-learning algorithms should adapt to Nash Equilibrium given sufficient explorations in the long-run. This is also verified through accelerating simulations, while the convergence time grows super-exponentially for high discount factors. The resilience of collusive outcomes in the short-run is due to exploration of unprofitable actions, making the system resemble random walk. A structural model is proposed to estimate the convergence time, which not only explains the role of discount factor, but also unveils the non-monotonic relation in learning rate, which is overlooked in the literature.",
+    "path": "papers/24/09/2409.01147.json",
+    "total_tokens": 484,
+    "translated_title": "无记忆算法共谋：必然失败，缓慢崩溃",
+    "translated_abstract": "本文证明，在一类伯特兰式竞争博弈中，无记忆Q-learning算法在长期充分探索的情况下应适应纳什均衡。这一点通过加速模拟得到了验证，同时收敛时间在高折扣因子下呈超指数增长。短期共谋结果的韧性源于对无利可图行动的探索，使得系统类似于随机游走。本文提出一个结构模型来估计收敛时间，这不仅解释了折扣因子的作用，还揭示了文献中忽视的学习率的非单调关系。",
+    "tldr": "本文证明无记忆Q-learning算法在长期探索下会收敛至纳什均衡，但高折扣因子导致收敛极慢，且学习率对收敛时间的影响是非单调的。",
+    "en_tdlr": "This paper proves that memoryless Q-learning converges to Nash Equilibrium in Bertrand competition with sufficient exploration, but convergence is super-exponentially slow for high discount factors, revealing a non-monotonic effect of learning rate."
+}

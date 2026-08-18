@@ -1,0 +1,12 @@
+{
+    "title": "Probability-Preserving Transformer for the Time-Dependent Schr\\\"odinger Equation",
+    "abstract": "arXiv:2608.15112v1 Announce Type: new  Abstract: Solving the time-dependent Schr\\\"odinger equation (TDSE) via traditional numerical methods is computationally intensive. Transformer models offer a compelling alternative, but standard implementations rely on soft constraints that cannot rigorously guarantee probability conservation. Here, we introduce a Transformer architecture that enforces TDSE probability conservation as a hard constraint. The design intrinsically ensures unitarity across temporal evolution without requiring repeated retraining. Our empirical findings show that this hard-constraint approach is not only physically exact but also computationally superior to conventional soft-constraint methods.",
+    "link": "https://arxiv.org/abs/2608.15112",
+    "context": "Title: Probability-Preserving Transformer for the Time-Dependent Schr\\\"odinger Equation\nAbstract: arXiv:2608.15112v1 Announce Type: new  Abstract: Solving the time-dependent Schr\\\"odinger equation (TDSE) via traditional numerical methods is computationally intensive. Transformer models offer a compelling alternative, but standard implementations rely on soft constraints that cannot rigorously guarantee probability conservation. Here, we introduce a Transformer architecture that enforces TDSE probability conservation as a hard constraint. The design intrinsically ensures unitarity across temporal evolution without requiring repeated retraining. Our empirical findings show that this hard-constraint approach is not only physically exact but also computationally superior to conventional soft-constraint methods.",
+    "path": "papers/26/08/2608.15112.json",
+    "total_tokens": 473,
+    "translated_title": "用于含时薛定谔方程的概率保持Transformer",
+    "translated_abstract": "arXiv:2608.15112v1 公告类型：新 摘要：通过传统数值方法求解含时薛定谔方程（TDSE）计算量巨大。Transformer模型提供了一种有吸引力的替代方案，但标准实现依赖于软约束，无法严格保证概率守恒。在此，我们引入了一种Transformer架构，将TDSE概率守恒作为硬约束强制执行。该设计从本质上确保时间演化过程中的幺正性，无需重复训练。我们的实证结果表明，这种硬约束方法不仅在物理上精确，而且在计算上也优于传统的软约束方法。",
+    "tldr": "本文提出了一种将概率守恒作为硬约束的Transformer架构，用于求解含时薛定谔方程，既保证了物理精确性，又提升了计算效率。",
+    "en_tdlr": "This paper introduces a Transformer architecture that enforces probability conservation as a hard constraint for solving the time-dependent Schrödinger equation, achieving both physical exactness and computational superiority."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Using the Mimi codec for metalinguistic representations",
+    "abstract": "arXiv:2608.15799v1 Announce Type: new  Abstract: In this paper, we focus on the dictionary of 2048 tokens used in Mimi semantic token codebook, the neural codec of the Moshi language model. We show that the ABX experiment carried out with Mimi fails to capture the mapping of the semantic tokens to phone realisations. By realigning Mimi representations to the TIMIT corpus transcriptions, we show that the 2048 tokens IDs of the semantic codebook map to quadphone, triphone, biphone, phone and subphone realisations.",
+    "link": "https://arxiv.org/abs/2608.15799",
+    "context": "Title: Using the Mimi codec for metalinguistic representations\nAbstract: arXiv:2608.15799v1 Announce Type: new  Abstract: In this paper, we focus on the dictionary of 2048 tokens used in Mimi semantic token codebook, the neural codec of the Moshi language model. We show that the ABX experiment carried out with Mimi fails to capture the mapping of the semantic tokens to phone realisations. By realigning Mimi representations to the TIMIT corpus transcriptions, we show that the 2048 tokens IDs of the semantic codebook map to quadphone, triphone, biphone, phone and subphone realisations.",
+    "path": "papers/26/08/2608.15799.json",
+    "total_tokens": 454,
+    "translated_title": "利用Mimi编解码器进行元语言表征",
+    "translated_abstract": "本文聚焦于Moshi语言模型的神经编解码器Mimi语义标记码本中的2048个标记词典。我们表明，使用Mimi进行的ABX实验未能捕捉语义标记到音素实现之间的映射。通过将Mimi表征重新对齐到TIMIT语料库转录，我们展示了语义码本的2048个标记ID映射到四音素、三音素、双音素、单音素和亚音素实现。",
+    "tldr": "本文揭示了Mimi语义码本中的标记实际上映射到多级音素实现（从四音素到亚音素），而非仅捕捉单一音素，这挑战了先前ABX实验的结论。",
+    "en_tdlr": "This paper reveals that tokens in Mimi's semantic codebook map to multi-level phonetic realizations (from quadphones to subphones), challenging previous ABX experiment conclusions."
+}

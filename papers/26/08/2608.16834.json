@@ -1,0 +1,12 @@
+{
+    "title": "Model Hypnosis: Strong control of AI via additive subliminal effects",
+    "abstract": "arXiv:2608.16834v1 Announce Type: cross  Abstract: We demonstrate that AI models are broadly susceptible to a phenomenon we call model hypnosis, in which individually weak and seemingly irrelevant cues in the prompt can be systematically combined to strongly control model behavior. Model hypnosis occurs across model families and scales, including in frontier reasoning models, and hypnotic prompts can transfer between models. Because the model is controlled by inconspicuous textual choices, such as paraphrases and typos, model hypnosis presents new challenges and avenues for AI safety, and is a major hurdle for AI interpretability.",
+    "link": "https://arxiv.org/abs/2608.16834",
+    "context": "Title: Model Hypnosis: Strong control of AI via additive subliminal effects\nAbstract: arXiv:2608.16834v1 Announce Type: cross  Abstract: We demonstrate that AI models are broadly susceptible to a phenomenon we call model hypnosis, in which individually weak and seemingly irrelevant cues in the prompt can be systematically combined to strongly control model behavior. Model hypnosis occurs across model families and scales, including in frontier reasoning models, and hypnotic prompts can transfer between models. Because the model is controlled by inconspicuous textual choices, such as paraphrases and typos, model hypnosis presents new challenges and avenues for AI safety, and is a major hurdle for AI interpretability.",
+    "path": "papers/26/08/2608.16834.json",
+    "total_tokens": 469,
+    "translated_title": "模型催眠：通过附加的阈下效应实现对AI的强力控制",
+    "translated_abstract": "arXiv:2608.16834v1 公告类型：交叉 摘要：我们证明AI模型普遍易受一种我们称之为“模型催眠”的现象影响，在这种现象中，提示中单独微弱且看似无关的线索可以被系统性地组合起来，从而强力控制模型行为。模型催眠跨越不同模型家族和规模，包括前沿推理模型，且催眠提示可以在模型之间转移。由于模型被不显眼的文本选择（如改写和拼写错误）所控制，模型催眠为AI安全带来了新的挑战和途径，并且是AI可解释性的一个重大障碍。",
+    "tldr": "模型催眠通过组合微弱提示线索强力控制AI行为，跨模型通用且可转移，对AI安全和可解释性构成重大挑战。",
+    "en_tdlr": "Model hypnosis strongly controls AI behavior by combining weak prompt cues, transfers across models, and poses major challenges to AI safety and interpretability."
+}
