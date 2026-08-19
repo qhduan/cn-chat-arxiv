@@ -1,0 +1,12 @@
+{
+    "title": "Reinforcement Learning as (Discrete) Potential Theory",
+    "abstract": "arXiv:2608.17181v1 Announce Type: new  Abstract: Reinforcement learning (RL) theory fundamentally depends on probability theory through the Markov chain. There is a deep connection between probability theory and potential theory. This paper reviews that connection and explores the potential-theoretic viewpoint for core reinforcement learning representations and algorithms under a fixed-policy assumption. This viewpoint may offer a path for improved sample efficiency and formal constraints that can be applied to RL. When the fixed-policy assumption is relaxed, the linear potential theory framework can be naturally extended to the nonlinear case.",
+    "link": "https://arxiv.org/abs/2608.17181",
+    "context": "Title: Reinforcement Learning as (Discrete) Potential Theory\nAbstract: arXiv:2608.17181v1 Announce Type: new  Abstract: Reinforcement learning (RL) theory fundamentally depends on probability theory through the Markov chain. There is a deep connection between probability theory and potential theory. This paper reviews that connection and explores the potential-theoretic viewpoint for core reinforcement learning representations and algorithms under a fixed-policy assumption. This viewpoint may offer a path for improved sample efficiency and formal constraints that can be applied to RL. When the fixed-policy assumption is relaxed, the linear potential theory framework can be naturally extended to the nonlinear case.",
+    "path": "papers/26/08/2608.17181.json",
+    "total_tokens": 425,
+    "translated_title": "强化学习作为（离散）位势理论",
+    "translated_abstract": "强化学习（RL）理论从根本上依赖于通过马尔可夫链的概率论。概率论与位势理论之间存在深刻的联系。本文回顾了这一联系，并在固定策略假设下，从位势理论的视角探讨了核心强化学习表示和算法。这一视角可能为提高样本效率和为RL应用提供正式约束开辟道路。当放宽固定策略假设时，线性位势理论框架可自然地扩展到非线性情况。",
+    "tldr": "本文从位势理论的角度重新审视强化学习，为固定策略下的核心算法提供了新见解，并可能提升样本效率，同时扩展到非线性情况。",
+    "en_tdlr": "This paper reinterprets reinforcement learning through the lens of potential theory, offering new insights for core algorithms under fixed policies, potentially improving sample efficiency and extending to nonlinear cases."
+}

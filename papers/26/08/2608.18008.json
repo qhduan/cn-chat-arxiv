@@ -1,0 +1,12 @@
+{
+    "title": "Policy-Invariant Reward Shaping from LLM Feedback: A Framework for Hybrid RL Agents",
+    "abstract": "arXiv:2608.18008v1 Announce Type: cross  Abstract: Combining large language models with reinforcement learning is increasingly explored, yet the theoretical status of LLM-derived reward signals is often left implicit. We formalize the hybrid LLM-planner and RL-controller architecture as a Goal-Augmented Markov Decision Process and show that when the LLM per-state progress score is used as a bounded potential function, the resulting shaping term preserves the optimal policy set even when the LLM scores are inaccurate. This guarantee is stronger than what general LLM-as-reward approaches provide. We verify the result numerically on a small MDP under four potential configurations, including an adversarial one scaled to twenty times the base reward magnitude.",
+    "link": "https://arxiv.org/abs/2608.18008",
+    "context": "Title: Policy-Invariant Reward Shaping from LLM Feedback: A Framework for Hybrid RL Agents\nAbstract: arXiv:2608.18008v1 Announce Type: cross  Abstract: Combining large language models with reinforcement learning is increasingly explored, yet the theoretical status of LLM-derived reward signals is often left implicit. We formalize the hybrid LLM-planner and RL-controller architecture as a Goal-Augmented Markov Decision Process and show that when the LLM per-state progress score is used as a bounded potential function, the resulting shaping term preserves the optimal policy set even when the LLM scores are inaccurate. This guarantee is stronger than what general LLM-as-reward approaches provide. We verify the result numerically on a small MDP under four potential configurations, including an adversarial one scaled to twenty times the base reward magnitude.",
+    "path": "papers/26/08/2608.18008.json",
+    "total_tokens": 549,
+    "translated_title": "基于LLM反馈的策略不变奖励塑形：混合强化学习智能体的框架",
+    "translated_abstract": "arXiv:2608.18008v1 公告类型：交叉 摘要：将大型语言模型与强化学习结合的研究日益增多，但LLM衍生的奖励信号的理论地位往往被隐含处理。我们将混合LLM规划器与RL控制器架构形式化为目标增强马尔可夫决策过程，并证明当LLM的每状态进展分数被用作有界势函数时，即使LLM分数不准确，所产生的塑形项也能保持最优策略集不变。这一保证比通用的LLM作为奖励方法更强。我们在一个小型MDP上通过四种势配置数值验证了该结果，包括一种对抗性配置，其规模放大到基础奖励幅度的二十倍。",
+    "tldr": "本文提出一种基于LLM反馈的奖励塑形框架，通过将LLM分数作为有界势函数，确保在LLM不准确时仍保持最优策略不变，优于通用LLM奖励方法。",
+    "en_tdlr": "This paper proposes a policy-invariant reward shaping framework from LLM feedback, using LLM scores as a bounded potential function to preserve optimal policies even under inaccuracy, outperforming general LLM-as-reward approaches."
+}

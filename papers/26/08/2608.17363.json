@@ -1,0 +1,12 @@
+{
+    "title": "Conservation of Short-term Flows: Signed Optimal Transport",
+    "abstract": "arXiv:2608.17363v1 Announce Type: new  Abstract: This paper develops a theoretical framework for signed optimal transport. A global flatness measure induced by the continuum transport equation serves as the regularizer. We examine transport networks from a harmonic analysis perspective, prove the existence and uniqueness of the optimal coupling in the variational problem, and provide an algorithmic scheme that guarantees lossless information transport under bi-marginal constraints. To bridge theory with practice, we design an empirical analysis framework for the resulting optimal estimators, which is sufficiently general to accommodate both time-series and panel-structural analyses of the network, owing to the intrinsic invariance properties of locally compact abelian groups.",
+    "link": "https://arxiv.org/abs/2608.17363",
+    "context": "Title: Conservation of Short-term Flows: Signed Optimal Transport\nAbstract: arXiv:2608.17363v1 Announce Type: new  Abstract: This paper develops a theoretical framework for signed optimal transport. A global flatness measure induced by the continuum transport equation serves as the regularizer. We examine transport networks from a harmonic analysis perspective, prove the existence and uniqueness of the optimal coupling in the variational problem, and provide an algorithmic scheme that guarantees lossless information transport under bi-marginal constraints. To bridge theory with practice, we design an empirical analysis framework for the resulting optimal estimators, which is sufficiently general to accommodate both time-series and panel-structural analyses of the network, owing to the intrinsic invariance properties of locally compact abelian groups.",
+    "path": "papers/26/08/2608.17363.json",
+    "total_tokens": 494,
+    "translated_title": "短期流守恒：带符号最优传输",
+    "translated_abstract": "arXiv:2608.17363v1 公告类型：新 摘要：本文发展了一个带符号最优传输的理论框架。由连续输运方程诱导的全局平坦度度量作为正则化项。我们从调和分析的角度考察传输网络，证明了变分问题中最优耦合的存在性和唯一性，并提供了一种算法方案，在双边际约束下保证无损信息传输。为了将理论与实践联系起来，我们为所得最优估计量设计了一个实证分析框架，该框架足够通用，能够适应网络的时间序列和面板结构分析，这得益于局部紧阿贝尔群的内在不变性。",
+    "tldr": "本文提出了带符号最优传输的理论框架，通过调和分析证明最优耦合的存在唯一性，并设计了适用于时间序列和面板数据的无损传输算法及实证分析框架。",
+    "en_tdlr": "This paper proposes a theoretical framework for signed optimal transport, proving the existence and uniqueness of optimal couplings via harmonic analysis, and designing a lossless transport algorithm with an empirical analysis framework applicable to time-series and panel data."
+}

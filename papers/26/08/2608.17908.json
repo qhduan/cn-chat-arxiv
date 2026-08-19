@@ -1,0 +1,12 @@
+{
+    "title": "An RKHS Framework for Fixed Effects in Permanental Process Models",
+    "abstract": "arXiv:2608.17908v1 Announce Type: cross  Abstract: This short work describes an extension of the permanental process model which includes fixed effects. By starting with a prior on the fixed effects coefficients we show that, in the diffuse prior limit, the intensity function of the permanental process can be found using the representer theorem and naturally decomposed into a fixed effects term and a function which is an element of a Reproducing Kernel Hilbert Space (RKHS). We show that the limiting equivalent kernel defines an RKHS whose squared norm is exactly the limiting penalty. This allows for straightforward scientific interpretation of permanental process models and the easy incorporation of domain knowledge into the estimation process.",
+    "link": "https://arxiv.org/abs/2608.17908",
+    "context": "Title: An RKHS Framework for Fixed Effects in Permanental Process Models\nAbstract: arXiv:2608.17908v1 Announce Type: cross  Abstract: This short work describes an extension of the permanental process model which includes fixed effects. By starting with a prior on the fixed effects coefficients we show that, in the diffuse prior limit, the intensity function of the permanental process can be found using the representer theorem and naturally decomposed into a fixed effects term and a function which is an element of a Reproducing Kernel Hilbert Space (RKHS). We show that the limiting equivalent kernel defines an RKHS whose squared norm is exactly the limiting penalty. This allows for straightforward scientific interpretation of permanental process models and the easy incorporation of domain knowledge into the estimation process.",
+    "path": "papers/26/08/2608.17908.json",
+    "total_tokens": 508,
+    "translated_title": "永久过程模型中固定效应的RKHS框架",
+    "translated_abstract": "这篇短文描述了永久过程模型的一种扩展，该扩展包含了固定效应。通过对固定效应系数设定先验，我们证明在扩散先验极限下，永久过程的强度函数可以通过表示定理求得，并自然地分解为一个固定效应项和一个属于再生核希尔伯特空间（RKHS）的函数。我们证明极限等价核定义了一个RKHS，其平方范数恰好是极限惩罚项。这使得永久过程模型的科学解释变得直接，并便于将领域知识纳入估计过程。",
+    "tldr": "本文提出了一个包含固定效应的永久过程模型扩展框架，利用表示定理将强度函数分解为固定效应和RKHS函数，并证明了等价核的平方范数等于惩罚项，从而增强了模型的可解释性和领域知识的整合能力。",
+    "en_tdlr": "This paper proposes an extension of the permanental process model with fixed effects, using the representer theorem to decompose the intensity function into fixed effects and an RKHS function, and shows that the squared norm of the equivalent kernel equals the penalty, enhancing interpretability and domain knowledge integration."
+}

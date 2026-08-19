@@ -1,0 +1,12 @@
+{
+    "title": "Pessimistic Meta-Induction and Its Limits: Lessons from Frequentist Statistics and Machine Learning Theory",
+    "abstract": "arXiv:2608.17213v1 Announce Type: new  Abstract: This paper challenges the pessimistic meta-inductive argument against scientific realism by undermining its inductive step rather than its historical premise. Although related challenges already exist, I develop a new one. Drawing on a general epistemology of scientific inference developed in frequentist statistics, machine learning, and formal epistemology, I evaluate induction in terms of convergence to the truth. I argue that ordinary enumerative induction can achieve everywhere convergence, whereas meta-induction fails even to achieve almost everywhere convergence. Indeed, in the problem context where meta-induction arises, the failure is deeper: no inference method whatsoever achieves almost everywhere convergence.",
+    "link": "https://arxiv.org/abs/2608.17213",
+    "context": "Title: Pessimistic Meta-Induction and Its Limits: Lessons from Frequentist Statistics and Machine Learning Theory\nAbstract: arXiv:2608.17213v1 Announce Type: new  Abstract: This paper challenges the pessimistic meta-inductive argument against scientific realism by undermining its inductive step rather than its historical premise. Although related challenges already exist, I develop a new one. Drawing on a general epistemology of scientific inference developed in frequentist statistics, machine learning, and formal epistemology, I evaluate induction in terms of convergence to the truth. I argue that ordinary enumerative induction can achieve everywhere convergence, whereas meta-induction fails even to achieve almost everywhere convergence. Indeed, in the problem context where meta-induction arises, the failure is deeper: no inference method whatsoever achieves almost everywhere convergence.",
+    "path": "papers/26/08/2608.17213.json",
+    "total_tokens": 498,
+    "translated_title": "悲观元归纳及其局限：来自频率统计与机器学习理论的启示",
+    "translated_abstract": "arXiv:2608.17213v1 公告类型：新 摘要：本文通过削弱悲观元归纳论证的归纳步骤而非其历史前提，挑战了科学实在论中的这一论证。尽管已有相关挑战，我提出了一种新的挑战。借鉴频率统计、机器学习和形式认识论中发展的科学推理一般认识论，我以收敛于真理为标准评估归纳。我认为，普通枚举归纳可以实现处处收敛，而元归纳甚至无法实现几乎处处收敛。实际上，在元归纳产生的问题情境中，失败更为深刻：任何推理方法都无法实现几乎处处收敛。",
+    "tldr": "本文论证了悲观元归纳在归纳推理层面存在根本缺陷，因为元归纳无法实现几乎处处收敛，而普通枚举归纳却可以做到。",
+    "en_tdlr": "This paper argues that pessimistic meta-induction has a fundamental flaw at the inductive inference level, as meta-induction fails to achieve almost everywhere convergence while ordinary enumerative induction can."
+}

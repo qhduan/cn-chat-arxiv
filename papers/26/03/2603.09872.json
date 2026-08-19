@@ -1,0 +1,12 @@
+{
+    "title": "N-gram-like Language Models Predict Naturalistic Reading Time Best",
+    "abstract": "arXiv:2603.09872v2 Announce Type: replace  Abstract: Recent work has found that contemporary language models such as transformers can become so good at next-word prediction that the probabilities they calculate become worse for predicting naturalistic reading time. In this paper, we propose that this can be explained by reading time being shaped by simple n-gram statistics rather than the more complex statistics learned by state-of-the-art transformer language models. We demonstrate that the neural language models whose predictions are most correlated with n-gram probability are also those that calculate probabilities that are the most correlated with eye-tracking-based metrics of reading time on naturalistic text.",
+    "link": "https://arxiv.org/abs/2603.09872",
+    "context": "Title: N-gram-like Language Models Predict Naturalistic Reading Time Best\nAbstract: arXiv:2603.09872v2 Announce Type: replace  Abstract: Recent work has found that contemporary language models such as transformers can become so good at next-word prediction that the probabilities they calculate become worse for predicting naturalistic reading time. In this paper, we propose that this can be explained by reading time being shaped by simple n-gram statistics rather than the more complex statistics learned by state-of-the-art transformer language models. We demonstrate that the neural language models whose predictions are most correlated with n-gram probability are also those that calculate probabilities that are the most correlated with eye-tracking-based metrics of reading time on naturalistic text.",
+    "path": "papers/26/03/2603.09872.json",
+    "total_tokens": 479,
+    "translated_title": "类N-gram语言模型最能预测自然主义阅读时间",
+    "translated_abstract": "摘要：arXiv:2603.09872v2 公告类型：替换 摘要：近期研究发现，诸如Transformer等当代语言模型在下一词预测上可能变得过于出色，以至于它们计算出的概率对预测自然主义阅读时间的准确性反而下降。本文提出，这一现象可归因于阅读时间受简单的n-gram统计影响，而非最先进的Transformer语言模型所学习的更复杂统计特征。我们证明，那些预测结果与n-gram概率最相关的神经语言模型，其计算出的概率也与基于眼动追踪的自然主义文本阅读时间指标最为相关。",
+    "tldr": "本文发现，语言模型预测自然主义阅读时间的最佳性能源于其与简单n-gram统计的关联，而非复杂Transformer模型的学习能力。",
+    "en_tdlr": "This paper finds that language models predict naturalistic reading time best when their predictions align with simple n-gram statistics, rather than the complex statistics learned by advanced transformers."
+}

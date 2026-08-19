@@ -1,0 +1,12 @@
+{
+    "title": "Information Spreading in Diffusion Models from Effective Field Theory",
+    "abstract": "arXiv:2608.14308v1 Announce Type: cross  Abstract: We study score-matching diffusion models with a convolutional architecture. We argue that the inductive bias of locality means that the machinery of effective field theory from physics can be usefully applied to describe the denoising dynamics. We apply this formalism first to a simple toy example which permits an analytical description, and thereafter to MNIST, and show that in both cases, the mutual information between two points grows in a manner predicted by a simple effective field theory of Brownian motion.",
+    "link": "https://arxiv.org/abs/2608.14308",
+    "context": "Title: Information Spreading in Diffusion Models from Effective Field Theory\nAbstract: arXiv:2608.14308v1 Announce Type: cross  Abstract: We study score-matching diffusion models with a convolutional architecture. We argue that the inductive bias of locality means that the machinery of effective field theory from physics can be usefully applied to describe the denoising dynamics. We apply this formalism first to a simple toy example which permits an analytical description, and thereafter to MNIST, and show that in both cases, the mutual information between two points grows in a manner predicted by a simple effective field theory of Brownian motion.",
+    "path": "papers/26/08/2608.14308.json",
+    "total_tokens": 409,
+    "translated_title": "扩散模型中信息传播的有效场论视角",
+    "translated_abstract": "我们研究了具有卷积架构的评分匹配扩散模型。我们认为，局部性的归纳偏差意味着物理学中的有效场论机制可以有效地用于描述去噪动力学。我们首先将此形式应用于一个允许解析描述的简单玩具示例，然后应用于MNIST数据集，并表明在这两种情况下，两点之间的互信息以一种由简单布朗运动有效场论预测的方式增长。",
+    "tldr": "本文提出将物理学中的有效场论应用于扩散模型，揭示其去噪过程中信息传播遵循布朗运动规律，并通过理论和实验验证了该观点。",
+    "en_tdlr": "This paper applies effective field theory from physics to diffusion models, revealing that information propagation during denoising follows Brownian motion, validated through both theoretical and experimental analysis."
+}

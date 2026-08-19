@@ -1,0 +1,12 @@
+{
+    "title": "On detection probabilities of link invariants",
+    "abstract": "arXiv:2509.05574v3 Announce Type: replace-cross  Abstract: We prove that, for many standard link invariants, both the proportion of distinct invariant values and the detection probability among prime alternating links with at most n crossings decay exponentially in n, with an explicit universal rate. In fact, almost every such link belongs to an invariant fiber whose size is itself exponential in n. This phenomenon applies broadly, in particular to the Jones and HOMFLYPT polynomials and integral Khovanov homology. The companion website gives a much more detailed view of the data, including complete distributions of fiber sizes, separate alternating and non-alternating data, and topological data analysis.",
+    "link": "https://arxiv.org/abs/2509.05574",
+    "context": "Title: On detection probabilities of link invariants\nAbstract: arXiv:2509.05574v3 Announce Type: replace-cross  Abstract: We prove that, for many standard link invariants, both the proportion of distinct invariant values and the detection probability among prime alternating links with at most n crossings decay exponentially in n, with an explicit universal rate. In fact, almost every such link belongs to an invariant fiber whose size is itself exponential in n. This phenomenon applies broadly, in particular to the Jones and HOMFLYPT polynomials and integral Khovanov homology. The companion website gives a much more detailed view of the data, including complete distributions of fiber sizes, separate alternating and non-alternating data, and topological data analysis.",
+    "path": "papers/25/09/2509.05574.json",
+    "total_tokens": 517,
+    "translated_title": "关于链环不变量的检测概率",
+    "translated_abstract": "我们证明，对于许多标准的链环不变量，在最多有n个交叉的素数交错链环中，不同不变量值的比例以及检测概率都随n呈指数衰减，且具有明确的通用速率。事实上，几乎每个这样的链环都属于一个不变量纤维，其大小本身也随n呈指数增长。这一现象广泛适用，尤其适用于Jones多项式、HOMFLYPT多项式和整系数Khovanov同调。配套网站提供了更详细的数据视图，包括纤维大小的完整分布、交错与非交错数据的区分以及拓扑数据分析。",
+    "tldr": "该论文证明了多种标准链环不变量（如Jones多项式、HOMFLYPT多项式和Khovanov同调）在素数交错链环中的检测概率随交叉数呈指数衰减，并揭示了几乎所有链环都位于大小指数增长的纤维中。",
+    "en_tdlr": "This paper proves that for many standard link invariants, including Jones and HOMFLYPT polynomials and integral Khovanov homology, the detection probability among prime alternating links decays exponentially with crossing number, with almost every link lying in a fiber of exponential size."
+}

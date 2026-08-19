@@ -1,0 +1,12 @@
+{
+    "title": "On Stability in Optimistic Bilevel Optimization",
+    "abstract": "arXiv:2408.13323v3 Announce Type: replace-cross  Abstract: Solutions of bilevel optimization problems tend to suffer from instability under changes to problem data. In the optimistic setting, we construct a lifted formulation that exhibits desirable stability properties under mild assumptions that neither invoke convexity nor smoothness. The upper- and lower-level problems might involve integer restrictions and disjunctive constraints. In a range of results, we invoke at most pointwise and local calmness for the lower-level problem in a sense that holds broadly. The lifted formulation is computationally attractive with structural properties being brought out and an outer approximation algorithm becoming available.",
+    "link": "https://arxiv.org/abs/2408.13323",
+    "context": "Title: On Stability in Optimistic Bilevel Optimization\nAbstract: arXiv:2408.13323v3 Announce Type: replace-cross  Abstract: Solutions of bilevel optimization problems tend to suffer from instability under changes to problem data. In the optimistic setting, we construct a lifted formulation that exhibits desirable stability properties under mild assumptions that neither invoke convexity nor smoothness. The upper- and lower-level problems might involve integer restrictions and disjunctive constraints. In a range of results, we invoke at most pointwise and local calmness for the lower-level problem in a sense that holds broadly. The lifted formulation is computationally attractive with structural properties being brought out and an outer approximation algorithm becoming available.",
+    "path": "papers/24/08/2408.13323.json",
+    "total_tokens": 461,
+    "translated_title": "乐观双层优化中的稳定性研究",
+    "translated_abstract": "双层优化问题的解往往在问题数据变化时表现出不稳定性。在乐观设置下，我们构建了一个提升公式，该公式在既不需要凸性也不需要光滑性的温和假设下展现出理想的稳定性性质。上层和下层问题可能涉及整数限制和析取约束。在一系列结果中，我们至多对下层问题引入点态和局部平静性条件，这种条件在广泛情况下成立。该提升公式在计算上具有吸引力，其结构性质得以凸显，并可用外逼近算法求解。",
+    "tldr": "本文提出了一种在温和假设下无需凸性或光滑性即可提升双层优化稳定性的新公式，并支持整数和析取约束，同时提供了有效的计算算法。",
+    "en_tdlr": "This paper proposes a lifted formulation that enhances stability in optimistic bilevel optimization under mild assumptions without convexity or smoothness, accommodating integer and disjunctive constraints, and enables an efficient outer approximation algorithm."
+}

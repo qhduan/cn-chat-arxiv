@@ -1,0 +1,12 @@
+{
+    "title": "Diagonal Multi-omics Integration of Heterogenous Datasets",
+    "abstract": "arXiv:2608.16968v1 Announce Type: cross  Abstract: In this paper, we consider methods for the diagonal multi-omics integration of heterogeneous datasets. Several approaches to the nature of biological heterogeneity are analyzed and developed to comprehend more clearly the generated differences. Specifically, the extremal trace problems for the coupled Laplacian on sets homeomorphic to the Stiefel manifold embedded in the complex Euclidean space are investigated. The gradient ascent method for the maximization problem is elaborated in the classical terms of functional analysis, which is of significant interest in itself. On this basis, we introduce a novel characteristic of dataset heterogeneity by employing the norm of the difference between the maximum and minimum points.",
+    "link": "https://arxiv.org/abs/2608.16968",
+    "context": "Title: Diagonal Multi-omics Integration of Heterogenous Datasets\nAbstract: arXiv:2608.16968v1 Announce Type: cross  Abstract: In this paper, we consider methods for the diagonal multi-omics integration of heterogeneous datasets. Several approaches to the nature of biological heterogeneity are analyzed and developed to comprehend more clearly the generated differences. Specifically, the extremal trace problems for the coupled Laplacian on sets homeomorphic to the Stiefel manifold embedded in the complex Euclidean space are investigated. The gradient ascent method for the maximization problem is elaborated in the classical terms of functional analysis, which is of significant interest in itself. On this basis, we introduce a novel characteristic of dataset heterogeneity by employing the norm of the difference between the maximum and minimum points.",
+    "path": "papers/26/08/2608.16968.json",
+    "total_tokens": 489,
+    "translated_title": "异质数据集的对角多组学整合",
+    "translated_abstract": "本文考虑了异质数据集的对角多组学整合方法。我们分析并发展了多种处理生物异质性本质的方法，以更清晰地理解所产生的差异。具体而言，研究了嵌入复欧几里得空间中与Stiefel流形同胚的集合上耦合拉普拉斯算子的极值迹问题。最大化问题的梯度上升方法以泛函分析的经典术语进行了详细阐述，这本身具有重要研究意义。在此基础上，我们通过采用最大值与最小值点之间差的范数，引入了数据集异质性的一个新特征。",
+    "tldr": "本文提出了一种基于极值迹问题和梯度上升方法的新特征，利用最大值与最小值点差的范数来表征数据集异质性，用于异质数据集的对角多组学整合。",
+    "en_tdlr": "This paper introduces a novel heterogeneity characteristic using the norm of the difference between maximum and minimum points, based on extremal trace problems and gradient ascent methods, for diagonal multi-omics integration of heterogeneous datasets."
+}

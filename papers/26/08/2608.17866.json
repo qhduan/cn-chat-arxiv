@@ -1,0 +1,12 @@
+{
+    "title": "BayesPrompt: human readable prompts that make sense",
+    "abstract": "arXiv:2608.17866v1 Announce Type: new  Abstract: Reconstructing prompts that can elicit a desired answer or behaviour in an LLM is an open and important research topic. Optimisation methods which aim at minimising the perplexity of a given answer, however, consistently yield so-called pseudoprompts, unintelligible strings of tokens which can lack human interpretability. We argue that this is a consequence of the ill-posedness of the prompt optimisation task. By reframing the task as a Bayesian posterior inference over prompts, we propose an efficient algorithm to sample prompts which are both efficient (in terms of perplexity) and human readable. We compare our approach with state of the art alternatives showing on a real data set a marked improvement over a range of metrics.",
+    "link": "https://arxiv.org/abs/2608.17866",
+    "context": "Title: BayesPrompt: human readable prompts that make sense\nAbstract: arXiv:2608.17866v1 Announce Type: new  Abstract: Reconstructing prompts that can elicit a desired answer or behaviour in an LLM is an open and important research topic. Optimisation methods which aim at minimising the perplexity of a given answer, however, consistently yield so-called pseudoprompts, unintelligible strings of tokens which can lack human interpretability. We argue that this is a consequence of the ill-posedness of the prompt optimisation task. By reframing the task as a Bayesian posterior inference over prompts, we propose an efficient algorithm to sample prompts which are both efficient (in terms of perplexity) and human readable. We compare our approach with state of the art alternatives showing on a real data set a marked improvement over a range of metrics.",
+    "path": "papers/26/08/2608.17866.json",
+    "total_tokens": 543,
+    "translated_title": "BayesPrompt：可读且有意义的人类提示词",
+    "translated_abstract": "arXiv:2608.17866v1 公告类型：新 摘要：重建能够在大语言模型中引发期望答案或行为的提示词是一个开放且重要的研究课题。然而，旨在最小化给定答案困惑度的优化方法，始终产生所谓的伪提示词——这些无法理解的标记字符串可能缺乏人类可解释性。我们认为这是提示词优化任务不适定性的结果。通过将任务重新定义为提示词上的贝叶斯后验推断，我们提出了一种高效算法来采样既高效（就困惑度而言）又具有人类可读性的提示词。我们与最先进的方法进行了比较，在真实数据集上展示了在多种指标上的显著改进。",
+    "tldr": "本文通过将提示词优化重构为贝叶斯后验推断，提出了一种高效采样算法，生成既低困惑度又具人类可读性的提示词，在真实数据上显著优于现有方法。",
+    "en_tdlr": "This paper reframes prompt optimization as Bayesian posterior inference, proposing an efficient algorithm to sample prompts that are both low-perplexity and human-readable, significantly outperforming state-of-the-art methods on real data."
+}
