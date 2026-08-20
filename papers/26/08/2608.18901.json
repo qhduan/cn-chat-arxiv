@@ -1,0 +1,12 @@
+{
+    "title": "Quantum Tensor Network Learning with DMRG",
+    "abstract": "arXiv:2608.18901v1 Announce Type: cross  Abstract: Tensor Networks are a relatively new machine learning approach. The architectures proposed initially are inspired by approaches from quantum many-body physics simulations. One common layout is the matrix product state (MPS) also known as a tensor train optimized with gradient descent techniques. We introduce a global normalization condition, so that the MPS represents a quantum state. We investigate two optimization methods that find the locally optimal tensors and compare them regarding their effectiveness. One is based on gradient descent and the other on an adaptation of DMRG.",
+    "link": "https://arxiv.org/abs/2608.18901",
+    "context": "Title: Quantum Tensor Network Learning with DMRG\nAbstract: arXiv:2608.18901v1 Announce Type: cross  Abstract: Tensor Networks are a relatively new machine learning approach. The architectures proposed initially are inspired by approaches from quantum many-body physics simulations. One common layout is the matrix product state (MPS) also known as a tensor train optimized with gradient descent techniques. We introduce a global normalization condition, so that the MPS represents a quantum state. We investigate two optimization methods that find the locally optimal tensors and compare them regarding their effectiveness. One is based on gradient descent and the other on an adaptation of DMRG.",
+    "path": "papers/26/08/2608.18901.json",
+    "total_tokens": 457,
+    "translated_title": "基于DMRG的量子张量网络学习",
+    "translated_abstract": "arXiv:2608.18901v1 公告类型：交叉 摘要：张量网络是一种相对较新的机器学习方法。最初提出的架构灵感来源于量子多体物理模拟的方法。一种常见的布局是矩阵乘积态（MPS），也称为通过梯度下降技术优化的张量列。我们引入了一个全局归一化条件，使得MPS表示一个量子态。我们研究了两种寻找局部最优张量的优化方法，并比较了它们的有效性。一种基于梯度下降，另一种基于DMRG的改编版本。",
+    "tldr": "本文提出了一种全局归一化条件，使矩阵乘积态能表示量子态，并比较了梯度下降与改编DMRG两种优化方法在张量网络学习中的有效性。",
+    "en_tdlr": "This paper introduces a global normalization condition for matrix product states to represent quantum states and compares the effectiveness of gradient descent versus an adapted DMRG method in tensor network learning."
+}

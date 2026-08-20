@@ -1,0 +1,12 @@
+{
+    "title": "Stable Matching with Peer-Dependent Preferences: Existence and Cutoff Characterization",
+    "abstract": "arXiv:2608.18381v1 Announce Type: new  Abstract: This paper presents a framework for stable matching markets that accommodates the peer-dependent preferences employed in empirical work. We show the existence of a stable matching in a continuum economy and of an approximately stable matching in a large finite sampled economy under assumptions satisfied by standard empirical specifications. The analysis builds on a tractable characterization of stable matchings with peer-dependent preferences in terms of supply and demand equations along with a rational-expectations condition.",
+    "link": "https://arxiv.org/abs/2608.18381",
+    "context": "Title: Stable Matching with Peer-Dependent Preferences: Existence and Cutoff Characterization\nAbstract: arXiv:2608.18381v1 Announce Type: new  Abstract: This paper presents a framework for stable matching markets that accommodates the peer-dependent preferences employed in empirical work. We show the existence of a stable matching in a continuum economy and of an approximately stable matching in a large finite sampled economy under assumptions satisfied by standard empirical specifications. The analysis builds on a tractable characterization of stable matchings with peer-dependent preferences in terms of supply and demand equations along with a rational-expectations condition.",
+    "path": "papers/26/08/2608.18381.json",
+    "total_tokens": 409,
+    "translated_title": "具有同伴依赖偏好的稳定匹配：存在性与截止特征描述",
+    "translated_abstract": "本文提出了一个稳定匹配市场的框架，该框架能够容纳实证研究中采用的同伴依赖偏好。我们证明，在连续经济体中存在稳定匹配，并且在大型有限样本经济体中，在标准实证规范所满足的假设下，存在近似稳定匹配。分析基于同伴依赖偏好下稳定匹配的可处理特征描述，该描述通过供需方程以及理性预期条件来表述。",
+    "tldr": "本文提出了一种框架，证明在同伴依赖偏好下稳定匹配的存在性，并通过供需方程和理性预期条件提供了可处理的特征描述。",
+    "en_tdlr": "This paper proposes a framework proving the existence of stable matching under peer-dependent preferences and provides a tractable characterization via supply-demand equations and rational-expectations conditions."
+}

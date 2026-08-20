@@ -1,0 +1,12 @@
+{
+    "title": "Characterizing the Plurality Rule via Clone Invariance",
+    "abstract": "arXiv:2608.18798v1 Announce Type: new  Abstract: The Plurality rule is vulnerable to vote splitting between similar alternatives. Defying conventional wisdom, we characterize the Plurality rule through a specific type of clone independence condition. We further introduce the notion of a one-parameter family of $p$-Clone Resistance ($p$-CR), and examine the property within the class of scoring rules. For $p \\in (0,1)$, nontrivial rules exist with at most three alternatives, but only the Trivial rule generally satisfies the condition.",
+    "link": "https://arxiv.org/abs/2608.18798",
+    "context": "Title: Characterizing the Plurality Rule via Clone Invariance\nAbstract: arXiv:2608.18798v1 Announce Type: new  Abstract: The Plurality rule is vulnerable to vote splitting between similar alternatives. Defying conventional wisdom, we characterize the Plurality rule through a specific type of clone independence condition. We further introduce the notion of a one-parameter family of $p$-Clone Resistance ($p$-CR), and examine the property within the class of scoring rules. For $p \\in (0,1)$, nontrivial rules exist with at most three alternatives, but only the Trivial rule generally satisfies the condition.",
+    "path": "papers/26/08/2608.18798.json",
+    "total_tokens": 477,
+    "translated_title": "通过克隆不变性刻画多数规则",
+    "translated_abstract": "arXiv:2608.18798v1 公告类型：新 摘要：多数规则在相似备选方案之间容易受到选票分裂的影响。与传统观念相反，我们通过一种特定类型的克隆独立性条件来刻画多数规则。我们进一步引入了单参数族 $p$-克隆抵抗（$p$-CR）的概念，并在计分规则类别内考察该性质。对于 $p \\in (0,1)$，在至多三个备选方案的情况下存在非平凡规则，但只有平凡规则一般性地满足该条件。",
+    "tldr": "本文通过一种特定的克隆不变性条件刻画了多数规则，并引入了$p$-克隆抵抗概念，发现仅在三个备选方案时存在非平凡规则，而一般情况下只有平凡规则满足该性质。",
+    "en_tdlr": "This paper characterizes the Plurality rule via a specific clone invariance condition, introduces a $p$-Clone Resistance family, and shows that nontrivial rules exist only with at most three alternatives, while only the Trivial rule generally satisfies the property."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Multidimensional Sorting: Comparative Statics",
+    "abstract": "arXiv:2512.10853v2 Announce Type: replace  Abstract: Characterizing multidimensional sorting problems is notoriously difficult - solutions are known only for a small number of examples. Our main results completely characterize the comparative statics of sorting and earnings with respect to technological change for a general class of multidimensional assignment models. We show that symmetric technological change passes fully into worker earnings, while antisymmetric change results only in reallocation. In general, both margins adjust, with relative importance governed by the complementarity between workers and jobs and their distributions. To quantitatively illustrate our theory, we quantify responses in sorting and earnings to cognitive skill-biased technological change for U.S. data.",
+    "link": "https://arxiv.org/abs/2512.10853",
+    "context": "Title: Multidimensional Sorting: Comparative Statics\nAbstract: arXiv:2512.10853v2 Announce Type: replace  Abstract: Characterizing multidimensional sorting problems is notoriously difficult - solutions are known only for a small number of examples. Our main results completely characterize the comparative statics of sorting and earnings with respect to technological change for a general class of multidimensional assignment models. We show that symmetric technological change passes fully into worker earnings, while antisymmetric change results only in reallocation. In general, both margins adjust, with relative importance governed by the complementarity between workers and jobs and their distributions. To quantitatively illustrate our theory, we quantify responses in sorting and earnings to cognitive skill-biased technological change for U.S. data.",
+    "path": "papers/25/12/2512.10853.json",
+    "total_tokens": 477,
+    "translated_title": "多维排序：比较静态分析",
+    "translated_abstract": "arXiv:2512.10853v2 公告类型：替换 摘要：刻画多维排序问题历来困难——目前仅有少数示例有解。我们的主要结果完整刻画了一类广义多维分配模型中，技术进步对排序和收入的比较静态效应。我们证明，对称性技术进步完全转化为工人收入，而非对称性变化仅导致重新配置。一般而言，两个维度都会调整，其相对重要性取决于工人与岗位之间的互补性及其分布。为定量说明我们的理论，我们利用美国数据量化了认知技能偏向型技术进步对排序和收入的影响。",
+    "tldr": "本文首次完整刻画了一类广义多维分配模型中技术进步对排序和收入的比较静态效应，并基于美国数据定量分析了认知技能偏向型技术进步的影响。",
+    "en_tdlr": "This paper fully characterizes the comparative statics of sorting and earnings under technological change for a general class of multidimensional assignment models, and quantifies cognitive skill-biased technological change effects using U.S. data."
+}

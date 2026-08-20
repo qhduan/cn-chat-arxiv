@@ -1,0 +1,12 @@
+{
+    "title": "Backdoor Learning in Language Models and Vision-Language Models",
+    "abstract": "arXiv:2608.18095v1 Announce Type: cross  Abstract: Recent advances in deep learning have significantly enhanced the capabilities of Natural Language Processing (NLP) and Vision-Language Models (VLMs). However, these advancements come with increased vulnerabilities, notably through backdoor attacks that pose severe security threats. This thesis addresses two critical dimensions of Trustworthy AI and Efficient Multimodal Representation Learning: (1) security through analyzing, detecting, and designing backdoor attacks in NLP and VLMs, and (2) efficiency through advanced multimodal representation methods tailored for clinical and medical imaging applications.",
+    "link": "https://arxiv.org/abs/2608.18095",
+    "context": "Title: Backdoor Learning in Language Models and Vision-Language Models\nAbstract: arXiv:2608.18095v1 Announce Type: cross  Abstract: Recent advances in deep learning have significantly enhanced the capabilities of Natural Language Processing (NLP) and Vision-Language Models (VLMs). However, these advancements come with increased vulnerabilities, notably through backdoor attacks that pose severe security threats. This thesis addresses two critical dimensions of Trustworthy AI and Efficient Multimodal Representation Learning: (1) security through analyzing, detecting, and designing backdoor attacks in NLP and VLMs, and (2) efficiency through advanced multimodal representation methods tailored for clinical and medical imaging applications.",
+    "path": "papers/26/08/2608.18095.json",
+    "total_tokens": 473,
+    "translated_title": "语言模型与视觉-语言模型中的后门学习",
+    "translated_abstract": "arXiv:2608.18095v1 公告类型：交叉 摘要：近年来，深度学习的进展显著增强了自然语言处理（NLP）和视觉-语言模型（VLMs）的能力。然而，这些进步也带来了日益增加的脆弱性，特别是通过后门攻击构成严重的安全威胁。本论文探讨了可信人工智能和高效多模态表示学习的两个关键维度：（1）通过分析、检测和设计NLP与VLMs中的后门攻击来确保安全性，（2）通过针对临床和医学影像应用定制的高级多模态表示方法来实现效率。",
+    "tldr": "本论文系统研究了语言模型和视觉-语言模型中的后门攻击安全威胁，并提出针对临床与医学影像的高效多模态表示方法，兼顾可信AI与效率。",
+    "en_tdlr": "This thesis systematically investigates backdoor attack security threats in language models and vision-language models, while proposing efficient multimodal representation methods for clinical and medical imaging, balancing trustworthy AI and efficiency."
+}

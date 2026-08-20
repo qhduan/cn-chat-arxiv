@@ -1,0 +1,12 @@
+{
+    "title": "Dynamic Tracking Error and the Total Portfolio Approach",
+    "abstract": "arXiv:2603.03213v2 Announce Type: replace  Abstract: Strategic Asset Allocation and the Total Portfolio Approach differ in one thing: the tracking error the board grants the chief investment officer. The board's first decision should be the drawdown it can tolerate; the benchmark and tracking error budget follow. The value comes from spending that budget dynamically, adding active risk when the reward is high and shedding it as the fund nears its limit. Managed this way, a fund would have compounded about two percentage points a year faster at the same drawdown, with no security selection. What matters is dynamic versus static tracking error, not the label.",
+    "link": "https://arxiv.org/abs/2603.03213",
+    "context": "Title: Dynamic Tracking Error and the Total Portfolio Approach\nAbstract: arXiv:2603.03213v2 Announce Type: replace  Abstract: Strategic Asset Allocation and the Total Portfolio Approach differ in one thing: the tracking error the board grants the chief investment officer. The board's first decision should be the drawdown it can tolerate; the benchmark and tracking error budget follow. The value comes from spending that budget dynamically, adding active risk when the reward is high and shedding it as the fund nears its limit. Managed this way, a fund would have compounded about two percentage points a year faster at the same drawdown, with no security selection. What matters is dynamic versus static tracking error, not the label.",
+    "path": "papers/26/03/2603.03213.json",
+    "total_tokens": 449,
+    "translated_title": "动态跟踪误差与整体投资组合方法",
+    "translated_abstract": "战略资产配置与整体投资组合方法的唯一区别在于董事会授予首席投资官的跟踪误差。董事会的首要决策应是其能承受的回撤；基准和跟踪误差预算随后确定。价值在于动态使用该预算，当回报高时增加主动风险，当基金接近其限制时减少风险。通过这种方式管理，在相同回撤下，基金的年化复合增长率可提高约两个百分点，且无需进行证券选择。关键在于动态与静态跟踪误差的对比，而非标签本身。",
+    "tldr": "本文提出动态跟踪误差管理优于静态方法，在相同回撤下可显著提升年化收益，无需依赖证券选择。",
+    "en_tdlr": "This paper argues that dynamic tracking error management outperforms static approaches, boosting annualized returns by about two percentage points at the same drawdown without security selection."
+}

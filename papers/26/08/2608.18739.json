@@ -1,0 +1,12 @@
+{
+    "title": "Coalitional Manipulation of Set-Valued Median Voting",
+    "abstract": "arXiv:2608.18739v1 Announce Type: new  Abstract: We study coalitional manipulation of interval-valued median correspondences on the single-peaked domain. Under the pessimistic extension, group strategy-proofness rules out any genuinely set-valued choice. Under the optimistic and best--worst extensions, by contrast, group strategy-proofness characterizes target set correspondences. Moreover, coalitions of at most two voters suffice for both the impossibility and characterization results. Thus, coalitional robustness sharply restricts, but need not eliminate, set-valued flexibility.",
+    "link": "https://arxiv.org/abs/2608.18739",
+    "context": "Title: Coalitional Manipulation of Set-Valued Median Voting\nAbstract: arXiv:2608.18739v1 Announce Type: new  Abstract: We study coalitional manipulation of interval-valued median correspondences on the single-peaked domain. Under the pessimistic extension, group strategy-proofness rules out any genuinely set-valued choice. Under the optimistic and best--worst extensions, by contrast, group strategy-proofness characterizes target set correspondences. Moreover, coalitions of at most two voters suffice for both the impossibility and characterization results. Thus, coalitional robustness sharply restricts, but need not eliminate, set-valued flexibility.",
+    "path": "papers/26/08/2608.18739.json",
+    "total_tokens": 457,
+    "translated_title": "集合值中位数投票的联盟操纵",
+    "translated_abstract": "我们研究单峰域上区间值中位数对应的联盟操纵。在悲观扩展下，群体策略-proofness排除了任何真正的集合值选择。相比之下，在乐观和最佳-最差扩展下，群体策略-proofness刻画了目标集合对应。此外，最多两名选民的联盟就足以得到不可能性和刻画结果。因此，联盟鲁棒性严格限制但不必消除集合值灵活性。",
+    "tldr": "本文揭示了在单峰域上，联盟操纵对集合值中位数投票的影响，指出在悲观扩展下群体策略-proofness排除集合值选择，而在乐观和最佳-最差扩展下刻画了目标集合对应，且两人联盟足以决定结果。",
+    "en_tdlr": "This paper reveals that coalitional manipulation on interval-valued median voting in the single-peaked domain eliminates set-valued choices under pessimistic extension, while characterizing target correspondences under optimistic and best-worst extensions, with coalitions of at most two voters being sufficient."
+}

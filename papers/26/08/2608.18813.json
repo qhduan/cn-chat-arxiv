@@ -1,0 +1,12 @@
+{
+    "title": "A strengthening of the MCFL-ness of $O_2$",
+    "abstract": "arXiv:2608.18813v1 Announce Type: cross  Abstract: In the last years, a number of proofs of the fact that $O_2$ is a multiple context-free grammar (MCFG) were given. Such results can be exploited in the fields of both computational linguistics and of computational algebra. Here, we focus on a recent such proof spelled in terms of factorizations of string tuples, and give a new result with a stronger characterization of such factorizations than in existing theorems.",
+    "link": "https://arxiv.org/abs/2608.18813",
+    "context": "Title: A strengthening of the MCFL-ness of $O_2$\nAbstract: arXiv:2608.18813v1 Announce Type: cross  Abstract: In the last years, a number of proofs of the fact that $O_2$ is a multiple context-free grammar (MCFG) were given. Such results can be exploited in the fields of both computational linguistics and of computational algebra. Here, we focus on a recent such proof spelled in terms of factorizations of string tuples, and give a new result with a stronger characterization of such factorizations than in existing theorems.",
+    "path": "papers/26/08/2608.18813.json",
+    "total_tokens": 415,
+    "translated_title": "对 $O_2$ 的 MCFL 性质的加强",
+    "translated_abstract": "arXiv:2608.18813v1 公告类型：交叉 摘要：近年来，已有多个关于 $O_2$ 是多重上下文无关文法（MCFG）的证明被给出。这些结果可在计算语言学和计算代数领域中得到应用。在此，我们聚焦于近期一个以字符串元组分解形式表述的证明，并给出一个新结果，该结果对这些分解的特征刻画比现有定理更强。",
+    "tldr": "本文通过加强字符串元组分解的特征刻画，为 $O_2$ 是多重上下文无关文法提供了更强的新证明。",
+    "en_tdlr": "This paper strengthens the characterization of string tuple factorizations, providing a stronger new proof that $O_2$ is a multiple context-free grammar."
+}

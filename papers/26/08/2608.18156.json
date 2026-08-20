@@ -1,0 +1,12 @@
+{
+    "title": "FPGA Lifecycle Management for RISC-V Systems",
+    "abstract": "arXiv:2608.18156v1 Announce Type: cross  Abstract: FPGA lifecycle management remains tied to proprietary toolchains and host architectures, leaving RISC-V without a vendor-neutral model for scalable bitstream deployment. A host-agnostic control-plane architecture is presented that shifts lifecycle management to the operating-system layer by leveraging standard Linux capabilities, thereby decoupling deployment from specific ISAs and vendor stacks. This enables Linux-capable RISC-V processors to serve as control hosts in heterogeneous FPGA systems. Prototyped on a Zynq-7000 SoC and generalizable to RISC-V platforms, the architecture provides a portable foundation for fleet-scale FPGA management.",
+    "link": "https://arxiv.org/abs/2608.18156",
+    "context": "Title: FPGA Lifecycle Management for RISC-V Systems\nAbstract: arXiv:2608.18156v1 Announce Type: cross  Abstract: FPGA lifecycle management remains tied to proprietary toolchains and host architectures, leaving RISC-V without a vendor-neutral model for scalable bitstream deployment. A host-agnostic control-plane architecture is presented that shifts lifecycle management to the operating-system layer by leveraging standard Linux capabilities, thereby decoupling deployment from specific ISAs and vendor stacks. This enables Linux-capable RISC-V processors to serve as control hosts in heterogeneous FPGA systems. Prototyped on a Zynq-7000 SoC and generalizable to RISC-V platforms, the architecture provides a portable foundation for fleet-scale FPGA management.",
+    "path": "papers/26/08/2608.18156.json",
+    "total_tokens": 502,
+    "translated_title": "RISC-V系统的FPGA生命周期管理",
+    "translated_abstract": "arXiv:2608.18156v1 公告类型：交叉 摘要：FPGA生命周期管理仍受限于专有工具链和主机架构，使得RISC-V缺乏可扩展位流部署的供应商中立模型。本文提出了一种与主机无关的控制平面架构，通过利用标准Linux功能将生命周期管理转移到操作系统层，从而将部署与特定ISA和供应商堆栈解耦。这使得具备Linux能力的RISC-V处理器能够作为异构FPGA系统中的控制主机。该架构在Zynq-7000 SoC上进行了原型验证，并可推广至RISC-V平台，为大规模FPGA管理提供了可移植的基础。",
+    "tldr": "该论文提出了一种基于Linux操作系统层的与主机无关的控制平面架构，使RISC-V处理器能作为FPGA生命周期管理主机，实现供应商中立且可扩展的位流部署。",
+    "en_tdlr": "This paper presents a host-agnostic control-plane architecture at the Linux OS layer, enabling RISC-V processors to serve as FPGA lifecycle management hosts for vendor-neutral and scalable bitstream deployment."
+}

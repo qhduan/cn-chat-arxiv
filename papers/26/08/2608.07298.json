@@ -1,0 +1,12 @@
+{
+    "title": "Revealed Default Under Choice Overload",
+    "abstract": "arXiv:2608.07298v2 Announce Type: replace  Abstract: Empirical and experimental studies suggest that a decision maker can remain with their default option even when preferred alternatives are available, yet standard choice data may not record which option is the default. Existing default-based models often assume that the default option is observed. In contrast, I study a decision maker subject to status quo bias and choice overload and illustrate how one can identify both the decision maker's default and preference from the observed behavior. This paper shows that anomalous choice behavior may arise from a latent default, a possibility largely overlooked in studies of standard choice data.",
+    "link": "https://arxiv.org/abs/2608.07298",
+    "context": "Title: Revealed Default Under Choice Overload\nAbstract: arXiv:2608.07298v2 Announce Type: replace  Abstract: Empirical and experimental studies suggest that a decision maker can remain with their default option even when preferred alternatives are available, yet standard choice data may not record which option is the default. Existing default-based models often assume that the default option is observed. In contrast, I study a decision maker subject to status quo bias and choice overload and illustrate how one can identify both the decision maker's default and preference from the observed behavior. This paper shows that anomalous choice behavior may arise from a latent default, a possibility largely overlooked in studies of standard choice data.",
+    "path": "papers/26/08/2608.07298.json",
+    "total_tokens": 468,
+    "translated_title": "选择过载下的隐性默认选项揭示",
+    "translated_abstract": "arXiv:2608.07298v2 公告类型：替换 摘要：实证和实验研究表明，决策者即使在有更优选项可用时也可能坚持默认选项，但标准选择数据可能不会记录哪个选项是默认的。现有的基于默认的模型通常假设默认选项是可观察的。相比之下，我研究一个受现状偏见和选择过载影响的决策者，并说明如何从观察到的行为中识别决策者的默认选项和偏好。本文表明，异常选择行为可能源于一个潜在的默认选项，这一可能性在标准选择数据的研究中很大程度上被忽视了。",
+    "tldr": "本文提出了一种从标准选择数据中识别决策者隐性默认选项和偏好的方法，揭示了选择过载下异常行为可能源于未观察到的默认选项。",
+    "en_tdlr": "This paper proposes a method to identify a decision maker's latent default and preference from standard choice data, revealing that anomalous behavior under choice overload may stem from unobserved defaults."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Sanyu Studio: A Multi-Agent System for Art-Historical Narrative Construction",
+    "abstract": "arXiv:2608.18677v1 Announce Type: new  Abstract: Amid concerns that generative AI may standardize art interpretation, this paper examines whether LLM-based interaction can support plural art-historical narrative construction. We present Sanyu Studio, a multi-agent dialogue system that models 321 Sanyu oil paintings as agents with fact, interpretation, organization, and memory-filtering mechanisms. Based on a seven-day workshop with eight art-university participants, the study shows that user prompts, evidence organization, and cognitive tendencies shaped divergent yet coherent versions of digital Sanyu. The findings suggest that, under conditions of limited historical evidence, AI can amplify human agency and offer public audiences an interactive entry point into art-historical interpretation.",
+    "link": "https://arxiv.org/abs/2608.18677",
+    "context": "Title: Sanyu Studio: A Multi-Agent System for Art-Historical Narrative Construction\nAbstract: arXiv:2608.18677v1 Announce Type: new  Abstract: Amid concerns that generative AI may standardize art interpretation, this paper examines whether LLM-based interaction can support plural art-historical narrative construction. We present Sanyu Studio, a multi-agent dialogue system that models 321 Sanyu oil paintings as agents with fact, interpretation, organization, and memory-filtering mechanisms. Based on a seven-day workshop with eight art-university participants, the study shows that user prompts, evidence organization, and cognitive tendencies shaped divergent yet coherent versions of digital Sanyu. The findings suggest that, under conditions of limited historical evidence, AI can amplify human agency and offer public audiences an interactive entry point into art-historical interpretation.",
+    "path": "papers/26/08/2608.18677.json",
+    "total_tokens": 511,
+    "translated_title": "三余工作室：面向艺术史叙事建构的多智能体系统",
+    "translated_abstract": "针对生成式AI可能使艺术解读标准化的担忧，本文探讨了基于LLM的交互是否能支持多元艺术史叙事建构。我们提出了“三余工作室”（Sanyu Studio），这是一个多智能体对话系统，将321幅三余油画建模为具有事实、阐释、组织和记忆过滤机制的智能体。基于与八位艺术院校参与者进行的为期七天的研讨会，研究表明，用户的提示、证据组织和认知倾向塑造了不同但连贯的数字三余版本。研究结果表明，在历史证据有限的条件下，AI可以增强人的能动性，并为公众提供进入艺术史解读的互动入口。",
+    "tldr": "本文提出“三余工作室”多智能体系统，证明在历史证据有限时，AI能促进多元艺术史叙事建构并增强人的能动性。",
+    "en_tdlr": "This paper presents Sanyu Studio, a multi-agent system demonstrating that AI can foster plural art-historical narratives and amplify human agency under limited historical evidence."
+}

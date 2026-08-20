@@ -1,0 +1,12 @@
+{
+    "title": "When to Sell an Asset? - A Distribution Builder Approach",
+    "abstract": "arXiv:2608.18783v1 Announce Type: new  Abstract: We consider the question of the optimal timing of the sale of an asset with stochastic dynamics. Our analysis is based on the method of the distribution builder introduced by Sharpe, Goldstein and Blythe [SGB00] for the purpose of optimal portfolio selection. Instead of specifying a utility function or risk aversion coefficient, this tool directly elicits the target distribution of the investor. We show how the problem of an optimal asset sale is in this setting linked to the problem of finding a Skorokhod embedding of a distribution into a diffusion process. In the case where the asset process follows a geometric Brownian motion and a specific family of distributions is targeted, one can observe a risk-return tradeoff.",
+    "link": "https://arxiv.org/abs/2608.18783",
+    "context": "Title: When to Sell an Asset? - A Distribution Builder Approach\nAbstract: arXiv:2608.18783v1 Announce Type: new  Abstract: We consider the question of the optimal timing of the sale of an asset with stochastic dynamics. Our analysis is based on the method of the distribution builder introduced by Sharpe, Goldstein and Blythe [SGB00] for the purpose of optimal portfolio selection. Instead of specifying a utility function or risk aversion coefficient, this tool directly elicits the target distribution of the investor. We show how the problem of an optimal asset sale is in this setting linked to the problem of finding a Skorokhod embedding of a distribution into a diffusion process. In the case where the asset process follows a geometric Brownian motion and a specific family of distributions is targeted, one can observe a risk-return tradeoff.",
+    "path": "papers/26/08/2608.18783.json",
+    "total_tokens": 505,
+    "translated_title": "何时出售资产？——一种分布构建方法",
+    "translated_abstract": "摘要：我们考虑具有随机动态特性的资产出售最优时机问题。我们的分析基于Sharpe、Goldstein和Blythe [SGB00] 引入的分布构建方法，该方法旨在优化投资组合选择。与指定效用函数或风险厌恶系数不同，该工具直接引出投资者的目标分布。我们展示了在此框架下，最优资产出售问题如何与将分布嵌入扩散过程的Skorokhod嵌入问题相关联。在资产过程遵循几何布朗运动且针对特定分布族的情况下，可以观察到风险-收益权衡。",
+    "tldr": "本文提出了一种基于分布构建方法的新框架，将资产出售时机问题转化为Skorokhod嵌入问题，并揭示了在几何布朗运动下风险与收益之间的权衡关系。",
+    "en_tdlr": "This paper proposes a novel framework based on the distribution builder method, linking optimal asset sale timing to a Skorokhod embedding problem, and reveals a risk-return tradeoff under geometric Brownian motion."
+}

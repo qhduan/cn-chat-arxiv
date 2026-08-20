@@ -1,0 +1,12 @@
+{
+    "title": "Finetuning Strategies for Querying Sounds by Vocal Imitation",
+    "abstract": "arXiv:2608.19174v1 Announce Type: cross  Abstract: This technical report describes our winning submission to the AES AIMLA 2025 Challenge on querying sound effects by vocal imitation. We investigate two complementary fine-tuning strategies: contrastive learning with a frozen, pretrained CED encoder, and joint contrastive-triplet learning with semi-hard negatives using a MobileNetV3 encoder. This report has been updated for posterity to include details released after the challenge.",
+    "link": "https://arxiv.org/abs/2608.19174",
+    "context": "Title: Finetuning Strategies for Querying Sounds by Vocal Imitation\nAbstract: arXiv:2608.19174v1 Announce Type: cross  Abstract: This technical report describes our winning submission to the AES AIMLA 2025 Challenge on querying sound effects by vocal imitation. We investigate two complementary fine-tuning strategies: contrastive learning with a frozen, pretrained CED encoder, and joint contrastive-triplet learning with semi-hard negatives using a MobileNetV3 encoder. This report has been updated for posterity to include details released after the challenge.",
+    "path": "papers/26/08/2608.19174.json",
+    "total_tokens": 435,
+    "translated_title": "通过声音模仿查询声音的微调策略",
+    "translated_abstract": "本技术报告描述了我们提交给AES AIMLA 2025挑战赛的获胜方案，该挑战赛旨在通过声音模仿查询音效。我们研究了两种互补的微调策略：使用冻结的预训练CED编码器进行对比学习，以及使用MobileNetV3编码器结合半困难负样本的联合对比-三元组学习。本报告已为后人更新，包含了挑战赛后发布的细节。",
+    "tldr": "本文提出并验证了两种微调策略（冻结CED编码器的对比学习和MobileNetV3的联合对比-三元组学习），在声音模仿查询音效任务中取得了冠军成绩。",
+    "en_tdlr": "This paper proposes and validates two fine-tuning strategies (contrastive learning with a frozen CED encoder and joint contrastive-triplet learning with MobileNetV3), achieving a winning result in the vocal imitation-based sound effect querying task."
+}

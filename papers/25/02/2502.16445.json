@@ -1,0 +1,12 @@
+{
+    "title": "Iterative Flow Matching: Path Correction and Gradual Refinement for Enhanced Generative Modeling",
+    "abstract": "arXiv:2502.16445v4 Announce Type: replace-cross  Abstract: Generative models for image generation are now commonly used for a wide variety of applications, ranging from guided image generation for entertainment to solving inverse problems. Nonetheless, training a generator is a non-trivial feat that requires fine-tuning and can lead to so-called hallucinations, that is, the generation of images that are unrealistic. In this work, we explore image generation using flow matching. We explain and demonstrate why flow matching can generate hallucinations, and propose an iterative process to improve the generation process. Our iterative process can be integrated into virtually any generative modeling technique, thereby enhancing the performance and robustness of image synthesis systems.",
+    "link": "https://arxiv.org/abs/2502.16445",
+    "context": "Title: Iterative Flow Matching: Path Correction and Gradual Refinement for Enhanced Generative Modeling\nAbstract: arXiv:2502.16445v4 Announce Type: replace-cross  Abstract: Generative models for image generation are now commonly used for a wide variety of applications, ranging from guided image generation for entertainment to solving inverse problems. Nonetheless, training a generator is a non-trivial feat that requires fine-tuning and can lead to so-called hallucinations, that is, the generation of images that are unrealistic. In this work, we explore image generation using flow matching. We explain and demonstrate why flow matching can generate hallucinations, and propose an iterative process to improve the generation process. Our iterative process can be integrated into virtually any generative modeling technique, thereby enhancing the performance and robustness of image synthesis systems.",
+    "path": "papers/25/02/2502.16445.json",
+    "total_tokens": 467,
+    "translated_title": "迭代流匹配：路径校正与逐步细化以增强生成建模",
+    "translated_abstract": "图像生成的生成模型现已广泛应用于从娱乐引导图像生成到解决逆问题的各种场景。然而，训练生成器是一项艰巨的任务，需要精细调优，并可能导致所谓的“幻觉”，即生成不切实际的图像。在本工作中，我们探索使用流匹配进行图像生成。我们解释并证明了流匹配为何会产生幻觉，并提出了一种迭代过程来改进生成过程。我们的迭代过程可集成到几乎任何生成建模技术中，从而增强图像合成系统的性能和鲁棒性。",
+    "tldr": "本文提出一种可集成到任意生成模型的迭代流匹配方法，通过路径校正和逐步细化来减少幻觉，提升图像生成的稳健性。",
+    "en_tdlr": "This paper introduces an iterative flow matching method integrable into any generative model, reducing hallucinations via path correction and gradual refinement to enhance image synthesis robustness."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Pandora's Box Reopened: Robust Search and Choice Overload",
+    "abstract": "arXiv:2512.21192v2 Announce Type: replace  Abstract: This paper revisits the classic Pandora's box problem, studying a decision-maker (DM) who seeks to minimize her maximal ex-post regret. The DM decides how many options to explore and in what order, before choosing one or taking an outside option. We characterize the regret-minimizing search rule and show that the likelihood of opting out often increases as more options become available for exploration. We show that this ``choice overload\" is driven by the DM's fear of ``selection error\" -- the regret from searching the wrong options -- suggesting that steering choice via recommendations or cost heterogeneity can mitigate regret and encourage search.",
+    "link": "https://arxiv.org/abs/2512.21192",
+    "context": "Title: Pandora's Box Reopened: Robust Search and Choice Overload\nAbstract: arXiv:2512.21192v2 Announce Type: replace  Abstract: This paper revisits the classic Pandora's box problem, studying a decision-maker (DM) who seeks to minimize her maximal ex-post regret. The DM decides how many options to explore and in what order, before choosing one or taking an outside option. We characterize the regret-minimizing search rule and show that the likelihood of opting out often increases as more options become available for exploration. We show that this ``choice overload\" is driven by the DM's fear of ``selection error\" -- the regret from searching the wrong options -- suggesting that steering choice via recommendations or cost heterogeneity can mitigate regret and encourage search.",
+    "path": "papers/25/12/2512.21192.json",
+    "total_tokens": 503,
+    "translated_title": "潘多拉魔盒重开：稳健搜索与选择过载",
+    "translated_abstract": "本文重新审视了经典的潘多拉盒子问题，研究了一个决策者（DM）如何最小化其最大事后遗憾。决策者在选择一个选项或采取外部选项之前，决定探索多少选项以及探索的顺序。我们刻画了遗憾最小化的搜索规则，并表明随着可供探索的选项增多，退出选择的概率往往会增加。我们证明这种“选择过载”是由决策者对“选择错误”的恐惧驱动的——即搜索错误选项所带来的遗憾——这表明通过推荐或成本异质性来引导选择可以减轻遗憾并鼓励搜索。",
+    "tldr": "本文通过最小化最大事后遗憾，揭示了潘多拉盒子问题中“选择过载”现象源于对搜索错误选项的恐惧，并提出推荐或成本异质性可缓解遗憾并促进搜索。",
+    "en_tdlr": "This paper reveals that \"choice overload\" in the Pandora's box problem stems from fear of selecting wrong options under minimax regret, and suggests recommendations or cost heterogeneity can mitigate regret and encourage search."
+}

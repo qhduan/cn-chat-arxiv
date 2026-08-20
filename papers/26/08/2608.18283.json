@@ -1,0 +1,12 @@
+{
+    "title": "The Fragility of Social Learning with Noisy Messages",
+    "abstract": "arXiv:2608.18283v1 Announce Type: new  Abstract: We examine how agents learn when information from original sources only reaches them after noisy relay. A receiver learns if and only if they have access to sufficiently many chains of noisy relay and they perfectly understand the noise process. However, even slight uncertainty over message mutation rates makes learning from long chains impossible, no matter how many independent sources are accessed.",
+    "link": "https://arxiv.org/abs/2608.18283",
+    "context": "Title: The Fragility of Social Learning with Noisy Messages\nAbstract: arXiv:2608.18283v1 Announce Type: new  Abstract: We examine how agents learn when information from original sources only reaches them after noisy relay. A receiver learns if and only if they have access to sufficiently many chains of noisy relay and they perfectly understand the noise process. However, even slight uncertainty over message mutation rates makes learning from long chains impossible, no matter how many independent sources are accessed.",
+    "path": "papers/26/08/2608.18283.json",
+    "total_tokens": 383,
+    "translated_title": "噪声信息下社会学习的脆弱性",
+    "translated_abstract": "arXiv:2608.18283v1 公告类型：新 摘要：我们研究了当信息从原始来源经过噪声中继后才到达个体时，个体如何进行学习。接收者只有在能够访问足够多的噪声中继链，并且完全理解噪声过程的情况下才能学习。然而，即使对消息突变率存在轻微的不确定性，无论访问多少独立来源，从长链中学习都是不可能的。",
+    "tldr": "即使完全理解噪声过程，对消息突变率的微小不确定性也会使社会学习在长信息链中彻底失效，凸显了其脆弱性。",
+    "en_tdlr": "Even with full understanding of the noise process, slight uncertainty about message mutation rates makes social learning impossible over long chains, highlighting its fragility."
+}

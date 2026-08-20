@@ -1,0 +1,12 @@
+{
+    "title": "SingularClip: Preventing Spectral Collapse to Maintain Plasticity in Continual and Reinforcement Learning",
+    "abstract": "arXiv:2608.18319v1 Announce Type: new  Abstract: Neural networks trained on nonstationary tasks frequently lose the ability to fit new targets, a phenomenon referred to as loss of plasticity. We identify a novel source of plasticity loss due to the growing anisotropy of weight matrices' singular values during training, and analyze this phenomenon both empirically and theoretically. To mitigate this issue, we introduce SingularClip, a procedure that periodically clips the singular values of all weight matrices. We show that SingularClip performs strongly against baselines across a range of tasks in both continual supervised learning and deep reinforcement learning.",
+    "link": "https://arxiv.org/abs/2608.18319",
+    "context": "Title: SingularClip: Preventing Spectral Collapse to Maintain Plasticity in Continual and Reinforcement Learning\nAbstract: arXiv:2608.18319v1 Announce Type: new  Abstract: Neural networks trained on nonstationary tasks frequently lose the ability to fit new targets, a phenomenon referred to as loss of plasticity. We identify a novel source of plasticity loss due to the growing anisotropy of weight matrices' singular values during training, and analyze this phenomenon both empirically and theoretically. To mitigate this issue, we introduce SingularClip, a procedure that periodically clips the singular values of all weight matrices. We show that SingularClip performs strongly against baselines across a range of tasks in both continual supervised learning and deep reinforcement learning.",
+    "path": "papers/26/08/2608.18319.json",
+    "total_tokens": 454,
+    "translated_title": "SingularClip：防止谱坍缩以保持持续学习与强化学习中的可塑性",
+    "translated_abstract": "在非平稳任务上训练的神经网络经常丧失适应新目标的能力，这种现象被称为可塑性丧失。我们识别出可塑性丧失的一个新来源，即在训练过程中权重矩阵奇异值的各向异性增长，并通过实证和理论分析研究了这一现象。为了缓解这个问题，我们引入了SingularClip，一种定期裁剪所有权重矩阵奇异值的方法。我们表明，在持续监督学习和深度强化学习的多种任务中，SingularClip在基线上表现出色。",
+    "tldr": "本文提出SingularClip方法，通过周期性裁剪权重矩阵的奇异值来防止谱坍缩，从而有效保持神经网络在持续学习和强化学习中的可塑性。",
+    "en_tdlr": "This paper introduces SingularClip, which periodically clips the singular values of weight matrices to prevent spectral collapse, thereby maintaining plasticity in continual and reinforcement learning."
+}
