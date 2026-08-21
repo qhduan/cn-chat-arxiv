@@ -1,0 +1,12 @@
+{
+    "title": "Green BOA: Determining the environmental break-even point for ML-based data compression",
+    "abstract": "arXiv:2608.19994v1 Announce Type: new  Abstract: We summarise the outcome of two summer internship projects based at the University of Manchester, focused on the break-even point in terms of environmental sustainability for ML-based data compression algorithms. Using the example of a ML-based lossless compression algorithm, we compare estimates for the carbon-equivalent of the infrastructure needed for ML training and inference with the carbon-equivalent savings from reduced disk storage requirements, and discuss their break-even point.",
+    "link": "https://arxiv.org/abs/2608.19994",
+    "context": "Title: Green BOA: Determining the environmental break-even point for ML-based data compression\nAbstract: arXiv:2608.19994v1 Announce Type: new  Abstract: We summarise the outcome of two summer internship projects based at the University of Manchester, focused on the break-even point in terms of environmental sustainability for ML-based data compression algorithms. Using the example of a ML-based lossless compression algorithm, we compare estimates for the carbon-equivalent of the infrastructure needed for ML training and inference with the carbon-equivalent savings from reduced disk storage requirements, and discuss their break-even point.",
+    "path": "papers/26/08/2608.19994.json",
+    "total_tokens": 392,
+    "translated_title": "绿色BOA：确定基于机器学习的数据压缩的环境盈亏平衡点",
+    "translated_abstract": "我们总结了两个基于曼彻斯特大学的暑期实习项目的成果，重点关注基于机器学习的数据压缩算法在环境可持续性方面的盈亏平衡点。以基于机器学习的无损压缩算法为例，我们将机器学习训练和推理所需基础设施的碳当量与减少磁盘存储需求所节省的碳当量进行比较，并讨论它们的盈亏平衡点。",
+    "tldr": "本文通过比较机器学习数据压缩算法在训练和推理中的碳成本与存储节省的碳收益，确定了其环境盈亏平衡点。",
+    "en_tdlr": "This paper determines the environmental break-even point for ML-based data compression by comparing carbon costs of training/inference with savings from reduced storage."
+}

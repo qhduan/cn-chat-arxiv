@@ -1,0 +1,12 @@
+{
+    "title": "Trace-Based Execution-Level Observability of VDM-SL Specifications",
+    "abstract": "arXiv:2608.19510v1 Announce Type: new  Abstract: VDM has been pursuing rigorous verification through mathematical theorem proving and software testing via simulated execution. Animation through an interpreter enables validation of the specification to ensure it meets the required functionality. Step-by-step execution in a debugger also allows the user to follow the internal behavior of operations. In this paper, we propose the recording and utilization of execution traces of assignments, operation calls, and return statements to make the internal behavior of operations persistent and analyzable as state-based models. The data model of events in execution traces, its implementation in ViennaTalk, and its application to visualization will be introduced.",
+    "link": "https://arxiv.org/abs/2608.19510",
+    "context": "Title: Trace-Based Execution-Level Observability of VDM-SL Specifications\nAbstract: arXiv:2608.19510v1 Announce Type: new  Abstract: VDM has been pursuing rigorous verification through mathematical theorem proving and software testing via simulated execution. Animation through an interpreter enables validation of the specification to ensure it meets the required functionality. Step-by-step execution in a debugger also allows the user to follow the internal behavior of operations. In this paper, we propose the recording and utilization of execution traces of assignments, operation calls, and return statements to make the internal behavior of operations persistent and analyzable as state-based models. The data model of events in execution traces, its implementation in ViennaTalk, and its application to visualization will be introduced.",
+    "path": "papers/26/08/2608.19510.json",
+    "total_tokens": 506,
+    "translated_title": "基于轨迹的VDM-SL规格执行级可观察性",
+    "translated_abstract": "摘要：arXiv:2608.19510v1 公告类型：新 摘要：VDM一直通过数学定理证明和模拟执行的软件测试来追求严格验证。通过解释器的动画化能够验证规格以确保其满足所需功能。调试器中的逐步执行还允许用户跟踪操作的内部行为。在本文中，我们提出记录和利用赋值、操作调用和返回语句的执行轨迹，以使操作的内部行为持久化并可作为基于状态的模型进行分析。将介绍执行轨迹中事件的数据模型、其在ViennaTalk中的实现及其在可视化中的应用。",
+    "tldr": "本文提出通过记录执行轨迹（包括赋值、操作调用和返回）来增强VDM-SL规格的可观察性，使内部行为持久化并可分析，并在ViennaTalk中实现及用于可视化。",
+    "en_tdlr": "This paper proposes recording execution traces (including assignments, operation calls, and returns) to enhance observability of VDM-SL specifications, making internal behavior persistent and analyzable, implemented in ViennaTalk and applied to visualization."
+}

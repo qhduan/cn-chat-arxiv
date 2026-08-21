@@ -2,292 +2,262 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [When to Sell an Asset? - A Distribution Builder Approach](https://arxiv.org/abs/2608.18783) | 本文提出了一种基于分布构建方法的新框架，将资产出售时机问题转化为Skorokhod嵌入问题，并揭示了在几何布朗运动下风险与收益之间的权衡关系。 |
-| [^2] | [Europe's Climate Ambition Under Scrutiny: Evidence from Deep Learning Emission Projections](https://arxiv.org/abs/2608.18690) | 深度学习预测显示，欧盟27国按当前趋势将无法实现2030年减排目标，排放缺口达35%，其中交通部门的结构性惯性是主要障碍。 |
-| [^3] | [Accounting for intra-household joint travel in agent-based transport simulations](https://arxiv.org/abs/2608.18657) | 本文提出一种三步方法，通过机器学习分类器和离散选择模型将家庭联合出行整合到基于代理的交通模拟中，以提高政策评估的可靠性。 |
-| [^4] | [CentaurBench: Benchmarking LLM Capabilities on Augmenting vs. Automating Real-World Work Tasks](https://arxiv.org/abs/2608.18554) | 本文提出CentaurBench框架，通过比较LLM在自动化和增强模式下的表现，发现两种模式排名关联度低，自动化胜者在增强任务中表现不佳，强调了模型选择需考虑辅助能力。 |
-| [^5] | [The Market's Conditioning Representation: Equilibrium, Crowding, and Convention Multiplicity](https://arxiv.org/abs/2608.18299) | 本文提出了一种内生化的市场条件表征均衡框架，区分头寸拥挤与表征拥挤，并证明了在紧性和连续认证下均衡的存在性及局部唯一性。 |
-| [^6] | [Multi-Level Market Making with Reinforcement Learning](https://arxiv.org/abs/2608.18195) | 本文提出一种基于强化学习的多层级做市框架，通过深度集编码器和多元逻辑正态分布优化订单分配，并利用势能奖励塑形提升学习效率，在多种模拟市场环境中验证了其有效性。 |
-| [^7] | [Tradable It\^o Signatures: A Model-Free, Interpretable Framework for Dynamic Hedging](https://arxiv.org/abs/2608.18120) | 本文提出了一种基于伊藤签名的无模型动态对冲框架，通过将签名分量转化为可交易的自融资策略，实现非线性衍生品的透明对冲，并提供理论误差界限，兼具高效性和可解释性。 |
-| [^8] | [Shifting Social Dispositions, Stable Prosocial Traits: A Global Age-Period-Cohort Analysis of Human Personality](https://arxiv.org/abs/2608.18119) | 该研究通过大规模数据分析发现，代际间社会互动倾向存在差异，但亲社会核心特质保持稳定，表明个性变化是选择性的而非全局性的。 |
-| [^9] | [Position: AI Leaderboards Are Underserving the Global South: A Case Study from India](https://arxiv.org/abs/2608.18117) | 本文指出AI排行榜因缺乏独立治理和指标演化机制，结构性忽视了全球南方的高质量基准，并以印度为例揭示了这一制度性缺陷。 |
-| [^10] | [Optimal Loss Allocation in a Mean-Field Model of Systemic Risk](https://arxiv.org/abs/2608.18113) | 本文提出在系统风险中，最优损失分配策略是将损失集中于最健康的银行，而非救助或分散，以最大化系统终端健康。 |
-| [^11] | [FinSkillBench: Evaluating AI Agents and Domain Skills for Investment Management](https://arxiv.org/abs/2608.18099) | FinSkillBench是一个评估套件，通过三个领域和2603个任务实例，测试AI代理在投资管理中运用领域技能（包括无技能、精选技能和自生成技能）的能力，以衡量其有效性和可审计性。 |
-| [^12] | [Is Bitcoin A Hedge Against Central Banking? Evidence from AI-Driven Monetary Policy Expectations](https://arxiv.org/abs/2604.08825) | 该研究首次利用AI驱动的货币政策预期指数，证明比特币对央行政策信号具有敏感的预测性反应，且这种关系呈非线性和制度依赖性。 |
-| [^13] | [Dynamic Tracking Error and the Total Portfolio Approach](https://arxiv.org/abs/2603.03213) | 本文提出动态跟踪误差管理优于静态方法，在相同回撤下可显著提升年化收益，无需依赖证券选择。 |
-| [^14] | [FactorMiner: A Self-Evolving Agent with Skills and Experience Memory for Financial Alpha Discovery](https://arxiv.org/abs/2602.14670) | FactorMiner提出了一种自进化智能体框架，通过模块化技能和结构化经验记忆，利用Ralph Loop范式迭代减少冗余搜索，从而高效发现金融Alpha因子。 |
-| [^15] | [Multidimensional Sorting: Comparative Statics](https://arxiv.org/abs/2512.10853) | 本文首次完整刻画了一类广义多维分配模型中技术进步对排序和收入的比较静态效应，并基于美国数据定量分析了认知技能偏向型技术进步的影响。 |
-| [^16] | [Sleeping Kelly](https://arxiv.org/abs/2510.15911) | 本文通过凯利准则重新审视睡美人问题，发现理性决策者应最大化财富增长率而非期望值，从而得出事前哈尔弗派和事后三分派的结论，并避免历时荷兰赌。 |
-| [^17] | [Neural Functionally Generated Portfolios](https://arxiv.org/abs/2506.19715) | 本文提出一种基于神经网络的函数生成投资组合方法，通过可学习的生成函数直接从市场数据中优化回报，无需估计漂移或协方差，同时保持自融资和路径分解特性。 |
-| [^18] | [On variable annuities with surrender charges](https://arxiv.org/abs/2405.02115) | 本文严格推导了带退保费用的可变年金定价公式，并证明了最优退保边界尽管非单调但连续正则，为保险公司风险管理提供了理论支撑。 |
-| [^19] | [Value-transforming financial, carbon and biodiversity footprint accounting.](http://arxiv.org/abs/2309.14186) | 本文展示了如何利用组织的财务报表来开发一个综合的碳和生物多样性足迹账户。通过利用空间明确的潜在物种损失作为度量标准，我们提供了一个全球生物多样性足迹数据库。 |
+| [^1] | [Calibration-Induced Degeneracy in LLM Financial Forecasting: An Audit-Trailed Case Study on Next-Day Market Risk](https://arxiv.org/abs/2608.20304) | 本文揭示了LLM金融预测中校准可能导致所有LLM特征权重归零的退化问题，并提出一种无需保留结果的校准可行性检查点来预防此问题，同时强调廉价基线作为关键诊断工具的重要性。 |
+| [^2] | [Dynamic Portfolio Optimization under CVaR Constraints](https://arxiv.org/abs/2608.20179) | 本文提出了一种在CVaR约束下处理动态投资组合优化的对偶算法，证明了其收敛性，并展示了在风险约束绑定时的状态依赖最优策略。 |
+| [^3] | [The Reconfiguration Premium: Co-movement Structure as an Unspanned Dimension of the Variance Risk Premium](https://arxiv.org/abs/2608.20020) | 本文发现股票共同运动结构的重构速率是方差风险溢价的非跨越定价维度，其机制为预付效应，且只有持续性成分被定价。 |
+| [^4] | [Deep-MKV-TS: Path-Dependent McKean--Vlasov Control for Financial Time Series Generation](https://arxiv.org/abs/2608.19394) | 本文提出Deep-MKV-TS框架，通过路径依赖麦基恩-弗拉索夫控制匹配金融时间序列的路径和波动率特征，显著提升生成情景的准确性，尤其在长预测范围内优于直接训练方法。 |
+| [^5] | [Concentrated Liquidity Provision: a Reinforcement Learning Perspective](https://arxiv.org/abs/2608.19389) | 该论文通过强化学习解决集中流动性提供中的动态决策问题，学习策略能根据市场状态优化流动性分配，有效降低风险并提升收益表现。 |
+| [^6] | [M3: A State-Event Generative Foundation Model for Market Microstructure Dynamics](https://arxiv.org/abs/2608.19227) | M3是一种新的生成基础模型，通过联合建模订单事件与限价订单簿流动性的动态交互，实现了逼真的市场微观结构轨迹级模拟，并在大规模数据上展现出可预测的缩放特性。 |
+| [^7] | [Henstock--Kurzweil Path Integral in Financial Mathematics: A Machine-Verified Pricing of European and Barrier Options](https://arxiv.org/abs/2608.19223) | 本文用Henstock--Kurzweil积分在Lean 4中机器验证了欧式期权定价公式，无需随机微积分，并扩展至数字和障碍期权。 |
+| [^8] | [Filtering Credit Risk with Stochastic Discontinuities](https://arxiv.org/abs/2608.19221) | 该论文提出了一种考虑随机披露信息不连续性的结构性信用风险模型，并推导了相应的非线性过滤方程，揭示了公告事件对信用利差和对冲比率的独特扭曲效应。 |
+| [^9] | [CAT Bond Pricing with Kolmogorov--Arnold Networks](https://arxiv.org/abs/2608.19217) | 本文提出了一种基于Kolmogorov--Arnold网络的可解释巨灾债券定价方法，通过提取符号公式并保证单调性，实现了极低的定价误差。 |
+| [^10] | [Robustness over efficiency in climate coalitions: a bistable model and a map of architectures](https://arxiv.org/abs/2608.12143) | 本文提出一个双稳态气候联盟模型，揭示成员资格通过市场渠道驱动，并量化了稳健性对效率的权衡，指出已建立联盟的稳健性远高于初始形成阶段。 |
+| [^11] | [Happy Birthday? Age Labels, Search Criteria, and Matching from Dating to Marriage](https://arxiv.org/abs/2607.23325) | 本研究揭示生日年龄更新显著影响婚姻平台的匹配过程，尤其是对三十多岁女性接收者，导致求婚数量下降并改变追求者年龄分布，表明年龄标签并非中立。 |
+| [^12] | [From Accuracy to Auditability: A Survey of Determinism in Financial AI Systems](https://arxiv.org/abs/2605.23955) | 该综述系统性地分析了金融AI系统中从表格模型到图网络再到LLM智能体的三类非确定性来源，并通过公开数据实验量化了复现性失败，为可审计金融AI提供了系统视角。 |
+| [^13] | [Machine-learning a family of solutions to an optimal pension investment problem](https://arxiv.org/abs/2511.07045) | 本文提出了一种通过缩放损失函数使神经网络能够有效求解一族养老金投资问题的方法，并证明了算法收敛性，同时开发了探索偏好参数影响的实用工具。 |
+| [^14] | [Are Final Market Prices Sufficient for Information Aggregation? Evidence from Last-Minute Dynamics in Parimutuel Betting](https://arxiv.org/abs/2509.14645) | 本文通过赛马彩池投注数据揭示，最终赔率不足以完全反映信息聚合，赔率变化路径（如最后时刻下降）对回报有显著影响，且模型表明最终赔率-回报模式无法单独区分信息聚合与概率扭曲。 |
+| [^15] | [ContestTrade: A Multi-Agent Trading System Based on Internal Contest Mechanism](https://arxiv.org/abs/2508.00554) | ContestTrade通过引入内部竞赛机制和“量化-预测-分配”流程，有效提升了多智能体交易系统对嘈杂市场信息的适应性和决策质量。 |
+| [^16] | [Modeling and Forecasting Realized Volatility with Multivariate Fractional Brownian Motion](https://arxiv.org/abs/2504.15985) | 本文提出一种基于多元分数布朗运动的已实现波动率建模与预测方法，通过引入分量级赫斯特指数和非零相关性，显著降低了预测误差，并提供了理论估计和实证验证。 |
+| [^17] | [The Impact of the General Data Protection Regulation (GDPR) on Online Usage Behavior](https://arxiv.org/abs/2411.11589) | 本文发现GDPR实施后在线使用行为显著下降，且主要由独立访客数减少驱动，而非每位访客的访问次数变化，揭示了隐私法规对用户行为的因果影响。 |
 
 # 详细
 
-[^1]: 何时出售资产？——一种分布构建方法
+[^1]: 校准引发的退化在大语言模型金融预测中的应用：关于次日市场风险的审计追踪案例研究
 
-    When to Sell an Asset? - A Distribution Builder Approach
+    Calibration-Induced Degeneracy in LLM Financial Forecasting: An Audit-Trailed Case Study on Next-Day Market Risk
 
-    [https://arxiv.org/abs/2608.18783](https://arxiv.org/abs/2608.18783)
+    [https://arxiv.org/abs/2608.20304](https://arxiv.org/abs/2608.20304)
 
-    本文提出了一种基于分布构建方法的新框架，将资产出售时机问题转化为Skorokhod嵌入问题，并揭示了在几何布朗运动下风险与收益之间的权衡关系。
-
-    
-
-    摘要：我们考虑具有随机动态特性的资产出售最优时机问题。我们的分析基于Sharpe、Goldstein和Blythe [SGB00] 引入的分布构建方法，该方法旨在优化投资组合选择。与指定效用函数或风险厌恶系数不同，该工具直接引出投资者的目标分布。我们展示了在此框架下，最优资产出售问题如何与将分布嵌入扩散过程的Skorokhod嵌入问题相关联。在资产过程遵循几何布朗运动且针对特定分布族的情况下，可以观察到风险-收益权衡。
-
-    arXiv:2608.18783v1 Announce Type: new  Abstract: We consider the question of the optimal timing of the sale of an asset with stochastic dynamics. Our analysis is based on the method of the distribution builder introduced by Sharpe, Goldstein and Blythe [SGB00] for the purpose of optimal portfolio selection. Instead of specifying a utility function or risk aversion coefficient, this tool directly elicits the target distribution of the investor. We show how the problem of an optimal asset sale is in this setting linked to the problem of finding a Skorokhod embedding of a distribution into a diffusion process. In the case where the asset process follows a geometric Brownian motion and a specific family of distributions is targeted, one can observe a risk-return tradeoff.
-    
-[^2]: 欧洲气候雄心面临审视：来自深度学习排放预测的证据
-
-    Europe's Climate Ambition Under Scrutiny: Evidence from Deep Learning Emission Projections
-
-    [https://arxiv.org/abs/2608.18690](https://arxiv.org/abs/2608.18690)
-
-    深度学习预测显示，欧盟27国按当前趋势将无法实现2030年减排目标，排放缺口达35%，其中交通部门的结构性惯性是主要障碍。
+    本文揭示了LLM金融预测中校准可能导致所有LLM特征权重归零的退化问题，并提出一种无需保留结果的校准可行性检查点来预防此问题，同时强调廉价基线作为关键诊断工具的重要性。
 
     
 
-    欧盟承诺到2030年将温室气体排放量比1990年水平降低55%，但当前趋势是否与该雄心相符仍不确定。我们应用深度学习技术，结合欧盟27个成员国截至2023年的高分辨率社会经济和部门数据，预测当前趋势下的部门二氧化碳排放轨迹，在不对政策环境的步伐或有效性进行超出历史数据已反映的假设变化的情况下，外推观察到的部门发展势头。我们预测，欧盟27国的排放量将超出2030年目标35%（缺口达620百万吨二氧化碳），仅有少数国家的排放轨迹与该集团的承诺一致。虽然电力部门在可再生能源转型推动下实现了与目标一致的减排，但交通部门进展甚微，到2030年将占总排放量的三分之一以上，反映出成员国之间的结构性惯性。
+    摘要：昂贵的LLM特性只有在校准能让它们影响预测时才有意义。我们在一项针对两只宽基市场基金的次日风险研究中记录了这种联系的失败。全历史评分发生在2022年校准之前。校准随后将所有四个LLM权重设为零。因此，后续856个评分无法影响评估。我们将此称为校准引发的退化。允许带符号的权重重新激活了所有四个映射。但在家族wise校正后，没有一个能改善预测。相比之下，一个近零成本的标题计数将SPY方差预测损失降低了0.001720（95%家族wise区间：[0.000719, 0.002830]）。因此，廉价基线是一个关键的诊断工具。我们提出一个校准可行性检查点：拟合映射，在预设校准值上扰动特征，并要求在获取保留特征前有有意义的预测响应。该检查不使用保留结果。在这里，它本可以阻止这种退化。
 
-    arXiv:2608.18690v1 Announce Type: cross  Abstract: The European Union has committed to reducing greenhouse gas emissions 55% below 1990 levels by 2030, but whether current trends are compatible with this ambition remains uncertain. We apply deep learning to high-resolution socioeconomic and sectoral data across EU27 member states till 2023 to project sectoral CO$_2$ trajectories under current trends, extrapolating observed sectoral momentum without assuming changes in the pace or effectiveness of the policy environment beyond what is already reflected in historical data. We project that EU27 emissions will exceed the 2030 target by 35% (620 Mt CO$_2$ shortfall), with only a small minority of countries on trajectories consistent with the bloc's commitments. While the Power sector achieves target-consistent reductions driven by the renewable transition, Mobility shows minimal progress and accounts for over a third of total emissions by 2030, reflecting a structural inertia across member 
+    arXiv:2608.20304v1 Announce Type: new  Abstract: Costly LLM features matter only if calibration lets them affect the forecast. We document a failure of this link in a next-day risk study of two broad-market funds. Full-history scoring preceded the 2022 calibration. Calibration then set all four LLM weights to zero. The 856 later scores therefore could not affect the evaluation. We call this calibration-induced degeneracy. Allowing signed weights reactivated all four mappings. None improved forecasts after familywise correction. By contrast, a near-zero-cost headline count reduced SPY variance-forecast loss by 0.001720 (95 percent familywise interval: [0.000719, 0.002830]). The cheap baseline is therefore a critical diagnostic. We propose a calibration-viability checkpoint. Fit the mapping, perturb the feature over prespecified calibration values, and require a meaningful forecast response before acquiring holdout features. The check uses no holdout outcomes. Here, it would have stopped
     
-[^3]: 在基于代理的交通模拟中考虑家庭内部联合出行
+[^2]: 基于CVaR约束的动态投资组合优化
 
-    Accounting for intra-household joint travel in agent-based transport simulations
+    Dynamic Portfolio Optimization under CVaR Constraints
 
-    [https://arxiv.org/abs/2608.18657](https://arxiv.org/abs/2608.18657)
+    [https://arxiv.org/abs/2608.20179](https://arxiv.org/abs/2608.20179)
 
-    本文提出一种三步方法，通过机器学习分类器和离散选择模型将家庭联合出行整合到基于代理的交通模拟中，以提高政策评估的可靠性。
-
-    
-
-    摘要：家庭内部联合家庭出行——即家庭成员一起出发、共同参与活动并一起返回的行程——在日常出行中占据重要比例，但在交通模拟中却系统性被忽视。将联合出行和单独出行混在单一出行方式选择框架中，会导致偏好参数估计出现偏差。本文提出了一种三步方法，将联合出行整合到基于代理的交通模型中：使用随机森林分类器识别联合出行，用多项Logit模型估计联合出行特有的出行方式选择，以及用惩罚逻辑回归进行驾驶员/乘客分配。该方法应用于巴黎地区，使用家庭出行调查数据，成功在合成人群中复现了观察到的联合出行份额和方式分布。所提出的框架能够更可靠地评估对联合和单独出行影响不同的政策。
-
-    arXiv:2608.18657v1 Announce Type: new  Abstract: Intra-household joint home-based tours - trips in which household members depart together, engage in shared activities, and return together - represent a significant share of daily travel, yet are systematically ignored in transport simulations. Conflating joint and solo tours within a single mode choice framework introduces bias in preference parameter estimates. This paper proposes a three-step methodology to integrate joint tours in agent-based transport models: a Random Forest classifier to identify joint tours, a Multinomial Logit model estimating mode choice specific to joint tours, and a Penalized Logistic Regression for driver/passenger assignment. Applied to the Paris region using household travel survey data, the methodology successfully replicates observed joint tour shares and mode distributions in a synthetic population. The proposed framework enables more reliable evaluation of policies whose impacts differ between joint an
-    
-[^4]: CentaurBench：基准测试LLM在增强与自动化现实工作任务上的能力
-
-    CentaurBench: Benchmarking LLM Capabilities on Augmenting vs. Automating Real-World Work Tasks
-
-    [https://arxiv.org/abs/2608.18554](https://arxiv.org/abs/2608.18554)
-
-    本文提出CentaurBench框架，通过比较LLM在自动化和增强模式下的表现，发现两种模式排名关联度低，自动化胜者在增强任务中表现不佳，强调了模型选择需考虑辅助能力。
+    本文提出了一种在CVaR约束下处理动态投资组合优化的对偶算法，证明了其收敛性，并展示了在风险约束绑定时的状态依赖最优策略。
 
     
 
-    arXiv:2608.18554v1 公告类型：交叉 摘要：大多数LLM基准测试根据模型自动化工作任务的能力对其进行排名。然而，在实践中，模型通常被用来辅助其他（人类或LLM）代理。因此，驱动模型选择的不仅是哪个模型产生最佳输出，而是哪个模型最能提升另一个（较弱）代理的工作。我们引入了一个统一框架，评估模型自动化和增强另一个代理性能的能力。在七个经济上基于现实的任务中，一个助手模型为标准化低能力工人模型编写辅助文本，后者产生最终交付物。在自动化模式下，助手直接产生输出。输出通过LLM评审小组使用特定任务评分标准的盲对比较进行评分，并在十次运行中重复。两种模式下的排名仅适度相关，自动化获胜者在七个任务中的五个上输掉了增强。
+    摘要：arXiv:2608.20179v1 公告类型：交叉 摘要：我们研究了在投资者终端损失的条件风险价值（CVaR）约束下的连续时间动态投资组合优化。对于一类广泛的凸交易目标，我们利用CVaR的辅助阈值表示，在不要求市场完备性的情况下，建立了最优策略的存在性和强对偶性。这些结果促使我们提出一种基于对偶的嵌套二分-黄金分割算法，该算法在阈值和拉格朗日乘子上运行，其中内部迭代简化为标准的无约束随机控制问题。我们证明了随着迭代次数趋于无穷，所得策略收敛到最优控制。数值实验在风险约束非绑定情况下恢复了Merton策略。当约束绑定且最优策略变得依赖于状态时，投资者在不利结果后减少风险敞口，但在接近到期时保留风险。
 
-    arXiv:2608.18554v1 Announce Type: cross  Abstract: Most LLM benchmarks rank models on their ability to automate work tasks. In practice, however, models are often used to assist other (human or LLM) agents. The question that drives model selection is therefore not only which model produces the best output, but which model most improves the work of another (weaker) agent. We introduce a unified framework that evaluates the capability of models to automate and augment another agent's performance. Across seven economically grounded real-world tasks, an assistant model writes assistance text for a standardized lower-capacity worker model, which produces the deliverable. In automation mode, the assistant produces the output directly. Outputs are scored through blind pairwise comparisons by an LLM judge panel with task-specific rubrics, replicated across ten runs. Rankings across the two regimes are only modestly correlated, and the automation winner loses augmentation on five of seven tasks
+    arXiv:2608.20179v1 Announce Type: cross  Abstract: We study continuous-time dynamic portfolio optimization under a Conditional Value-at-Risk (CVaR) constraint on the investor's terminal loss. For a general class of convex trading objectives, we exploit the auxiliary-threshold representation of CVaR to establish the existence of an optimal strategy and strong duality without requiring market completeness. These results motivate a dual-based nested bisection--golden-search algorithm over the threshold and Lagrangian multiplier, where the inner iterations reduce to standard unconstrained stochastic control problems. We prove that the resulting strategies converge to the optimal control as the number of iterations tends to infinity. Numerical experiments recover the Merton policy when the risk constraint is nonbinding. When the constraint is binding, the optimal strategy becomes state dependent: the investor reduces risky exposure following adverse outcomes but preserves, and near maturity
     
-[^5]: 市场的条件表征：均衡、拥挤与惯例多重性
+[^3]: 重构溢价：共同运动结构作为方差风险溢价的非跨越维度
 
-    The Market's Conditioning Representation: Equilibrium, Crowding, and Convention Multiplicity
+    The Reconfiguration Premium: Co-movement Structure as an Unspanned Dimension of the Variance Risk Premium
 
-    [https://arxiv.org/abs/2608.18299](https://arxiv.org/abs/2608.18299)
+    [https://arxiv.org/abs/2608.20020](https://arxiv.org/abs/2608.20020)
 
-    本文提出了一种内生化的市场条件表征均衡框架，区分头寸拥挤与表征拥挤，并证明了在紧性和连续认证下均衡的存在性及局部唯一性。
-
-    
-
-    arXiv:2608.18299v1 公告类型：新 摘要：资产定价模型通常基于固定的信息集进行条件设定。本文将市场的条件架构内生化，允许投资组合选择其诱导的风险暴露影响价格的表征。跨表征配置的资本决定了总头寸和清算溢价，而价格反馈会改变表征价值，并通过因果认证影响可容许的表征。表征均衡是这种配置—价格—认证循环的不动点。该框架将头寸拥挤（通过市场影响）与表征拥挤（由驱动空间重叠产生，并通过基不变的信息容量成本定价）区分开来。在紧性、预解正则性和连续认证条件下，均衡在任意切换成本下均存在；在稳定的认证单元内，信息拥塞产生凹人口博弈和局部唯一性。
-
-    arXiv:2608.18299v1 Announce Type: new  Abstract: Asset-pricing models typically condition on a fixed information set. This paper endogenises the market's conditioning architecture by allowing portfolios to choose representations whose induced exposures affect prices. Capital allocated across representations determines aggregate positions and the clearing premium, while price feedback changes representation value and, through causal certification, admissible representations. A representation equilibrium is the fixed point of this configuration--price--certification loop. The framework separates position crowding through market impact from representation crowding generated by driver-space overlap and priced through a basis-invariant information-capacity cost. Under compactness, resolvent regularity and continuous certification, equilibrium exists at every switching cost; within a stable certification cell, informational congestion yields a concave population game and local uniqueness und
-    
-[^6]: 基于强化学习的多层级做市策略
-
-    Multi-Level Market Making with Reinforcement Learning
-
-    [https://arxiv.org/abs/2608.18195](https://arxiv.org/abs/2608.18195)
-
-    本文提出一种基于强化学习的多层级做市框架，通过深度集编码器和多元逻辑正态分布优化订单分配，并利用势能奖励塑形提升学习效率，在多种模拟市场环境中验证了其有效性。
+    本文发现股票共同运动结构的重构速率是方差风险溢价的非跨越定价维度，其机制为预付效应，且只有持续性成分被定价。
 
     
 
-    arXiv:2608.18195v1 公告类型：新 摘要：我们提出了一种用于限价订单簿中做市的强化学习框架。我们的算法旨在通过动态地在多个价格层级提交不同规模的市场订单和限价订单，同时控制库存规模，以最大化交易收益。我们使用多元逻辑正态分布来建模订单分配，并采用深度集编码器将可变长度订单集合中的特征聚合为固定维度的潜在表示。此外，我们引入了基于势能的奖励塑形技术，以在不改变最优策略的情况下加速学习。我们在三个模拟市场环境中展示了该方法的性能，这些环境包括提交随机交易的噪声交易者、对瞬时成交量失衡做出反应的战术交易者，以及沿指数加权成交量失衡信号方向交易的战略交易者。
+    摘要：arXiv:2608.20020v1 公告类型：新 摘要：对冲比率、因子模型和分散化投资组合都依赖于对公司共同运动方式的估计。这种估计并不稳定：公司会在市场视为一致的分组之间迁移，当足够多的公司迁移时，横截面的组织轴就会转变。我们通过连续十二个月S&P 500相关矩阵的次主导特征空间之间主角的均方正弦来度量这种转变速率。一个典型的月份会重写五分之一的结构，并保留五分之四。该速率是有定价的：它与总体方差风险溢价在t=5.40时耦合，没有水平度量相关系数超过0.32，隐含相关曲面最多解释其6.7%。只有持续性成分被定价——溢价补偿的是修正的节奏，而非距离。机制是预付效应：隐含方差在冲击时上升，波动性在两到三个季度后跟进。
 
-    arXiv:2608.18195v1 Announce Type: new  Abstract: We introduce a reinforcement learning framework for market making in a limit order book. Our algorithm aims to maximize trading revenue by dynamically submitting market and limit orders of varying sizes across multiple price levels while controlling inventory size. We use multivariate logistic-normal distributions to model order allocations and employ a deep-set encoder to aggregate features from variable-length order sets into a fixed-dimensional latent representation. Additionally, we incorporate potential-based reward shaping to accelerate learning without altering the optimal policy. We illustrate the performance of the method in three simulated market environments consisting of noise traders who submit random trades, tactical traders who respond to instantaneous volume imbalance, and strategic traders who trade in the direction of an exponentially weighted volume imbalance signal.
+    arXiv:2608.20020v1 Announce Type: new  Abstract: Hedge ratios, factor models and diversified portfolios all rest on an estimate of which firms move together. That estimate is not stable: firms migrate between the groupings the market treats as coherent, and when enough migrate the organizing axes of the cross-section turn. We measure the rate of that turning as the mean squared sine of the principal angles between subdominant eigenspaces of consecutive twelve-month S&P 500 correlation matrices. A typical month rewrites a fifth of the structure and carries four-fifths forward. That rate is priced: it couples to the aggregate variance risk premium at t = 5.40, no level measure correlates above 0.32, and the implied-correlation surface spans at most 6.7 percent of it. Only the persistent component is priced - the premium compensates the pace of revision, not the distance traveled. The mechanism is prepayment: implied variance rises on impact, volatility follows two to three quarters later
     
-[^7]: 可交易的伊藤签名：一种无模型、可解释的动态对冲框架
+[^4]: 深度MKV-TS：用于金融时间序列生成的路径依赖麦基恩-弗拉索夫控制
 
-    Tradable It\^o Signatures: A Model-Free, Interpretable Framework for Dynamic Hedging
+    Deep-MKV-TS: Path-Dependent McKean--Vlasov Control for Financial Time Series Generation
 
-    [https://arxiv.org/abs/2608.18120](https://arxiv.org/abs/2608.18120)
+    [https://arxiv.org/abs/2608.19394](https://arxiv.org/abs/2608.19394)
 
-    本文提出了一种基于伊藤签名的无模型动态对冲框架，通过将签名分量转化为可交易的自融资策略，实现非线性衍生品的透明对冲，并提供理论误差界限，兼具高效性和可解释性。
-
-    
-
-    arXiv:2608.18120v1 公告类型：新 摘要：我们提出了一种使用伊藤签名变换的可解释机器学习框架，用于动态对冲。该变换将资产价格路径转化为一组线性特征，这些特征能够通用地表示时间序列上的非线性函数。我们表明，每个离散化的伊藤签名分量都可以通过仅使用基础资产和现金的简单自融资策略完美复制，从而使伊藤签名分量成为可交易且透明的对冲基础。这使得非线性衍生品收益可以通过签名项的线性组合来近似，并通过相应的交易策略组合进行对冲。我们进一步建立了伊藤签名的新近似结果，并推导了样本内和样本外对冲误差的理论界限。我们的方法计算高效、易于实现，并避免了未来条件期望的估计，这使其在应用中更具优势。
-
-    arXiv:2608.18120v1 Announce Type: new  Abstract: We propose an interpretable machine-learning framework for dynamic hedging using the It\^o signature transform, which turns asset-price paths into a set of linear features that universally represent nonlinear functions on time-series. We show that each discretized It\^o signature component can be perfectly replicated by a simple self-financing strategy using only the underlying assets and cash, which turns It\^o signature components into tradable and transparent hedging bases. This allows nonlinear derivative payoffs to be approximated by linear combinations of signature terms and hedged through the corresponding combination of trading strategies. We further establish a new approximation result for the It\^o signature and derive theoretical bounds for both in-sample and out-of-sample hedging errors. Our method is computationally efficient, easy to implement, and avoids the estimation of future conditional expectations, which makes it att
-    
-[^8]: 社会倾向的变迁与稳定亲社会特质：人类个性的全球年龄-时期-队列分析
-
-    Shifting Social Dispositions, Stable Prosocial Traits: A Global Age-Period-Cohort Analysis of Human Personality
-
-    [https://arxiv.org/abs/2608.18119](https://arxiv.org/abs/2608.18119)
-
-    该研究通过大规模数据分析发现，代际间社会互动倾向存在差异，但亲社会核心特质保持稳定，表明个性变化是选择性的而非全局性的。
+    本文提出Deep-MKV-TS框架，通过路径依赖麦基恩-弗拉索夫控制匹配金融时间序列的路径和波动率特征，显著提升生成情景的准确性，尤其在长预测范围内优于直接训练方法。
 
     
 
-    代际刻板印象普遍存在，但它们往往依赖于轶事，并且将真正的出生队列差异与衰老和历时期的普遍影响区分开来仍具挑战性。我们采用一种分离年龄、日历时间和队列效应的统计方法，分析了跨越30年评估的N=773,714名个体的五大个性数据（个性的五个广泛维度）。塑造社会互动的特质在不同代际间出现分化，而包含道德、纪律和情感意识的亲社会核心在队列间保持稳定。Z世代（出生于1995年至2012年间）表现出较低的寻求刺激和合群性，同时具有较高的自我意识和焦虑水平。这些发现表明，队列变化是选择性的而非全局性的：人们与社会世界互动的方式可能正在适应当代文化条件，而核心特质保持稳定。
+    摘要：arXiv:2608.19394v1 公告类型：交叉 摘要：我们引入了Deep-MKV-TS，一种用于金融情景生成的路径依赖麦基恩-弗拉索夫框架。随机动力学通过将生成情景的选定路径和波动率特征与数据中观察到的特征进行匹配来选择。从一个可解释的参考模型出发，Deep-MKV-TS保留参考漂移并调整其波动率，同时正则化惩罚限制了与校准动力学的非必要偏离。我们使用随机最大值原理的神经样本实现来解决所得的控制问题。我们针对一个可精确计算的基准模型验证了该方法。在Heston和Heston混合模型上，Deep-MKV-TS显著减少了参考模型的路径依赖和波动率相关缺陷。在延迟波动率实验中，随着预测范围的增加，校正仍然有效，而直接训练变得不太可靠。在保留的日内数据上，该模型也表现良好。
 
-    arXiv:2608.18119v1 Announce Type: cross  Abstract: Generational stereotypes are widespread, but they often rely on anecdotes, and it remains challenging to disentangle true birth-cohort differences from the universal effects of ageing and historical periods. Using a statistical approach that separates effects of age, calendar time, and cohort, we analyzed Big Five personality data (five broad dimensions of personality) from N=773,714 individuals assessed across 30 years. Traits that shape social interaction diverged between generations, whereas a prosocial core comprising morality, discipline, and emotional awareness was stable across cohorts. Generation Z (born between 1995 and 2012) showed lower excitement seeking and gregariousness alongside higher self-consciousness and anxiety. These findings suggest that cohort change is selective rather than global: the dispositions through which people engage with the social world may be adapting to contemporary cultural conditions, while core 
+    arXiv:2608.19394v1 Announce Type: cross  Abstract: We introduce Deep-MKV-TS, a path-dependent McKean-Vlasov framework for financial scenario generation. The stochastic dynamics are chosen by matching selected path and volatility features of generated scenarios to those observed in the data. Starting from an interpretable reference model, Deep-MKV-TS preserves the reference drift and adjusts its volatility, while a regularization penalty limits unnecessary departures from the calibrated dynamics. We solve the resulting control problem using a neural, sample-based implementation of the stochastic maximum principle.   We validate the method against an exactly computable oracle. On Heston and Heston-mixture models, Deep-MKV-TS substantially reduces path-dependent and volatility-related deficiencies of the reference model. In delayed-volatility experiments, the correction remains effective as the forecasting horizon increases, while direct training becomes less reliable. On held-out intrada
     
-[^9]: 立场：AI排行榜未能充分服务全球南方——来自印度的案例研究
+[^5]: 集中流动性提供：一种强化学习视角
 
-    Position: AI Leaderboards Are Underserving the Global South: A Case Study from India
+    Concentrated Liquidity Provision: a Reinforcement Learning Perspective
 
-    [https://arxiv.org/abs/2608.18117](https://arxiv.org/abs/2608.18117)
+    [https://arxiv.org/abs/2608.19389](https://arxiv.org/abs/2608.19389)
 
-    本文指出AI排行榜因缺乏独立治理和指标演化机制，结构性忽视了全球南方的高质量基准，并以印度为例揭示了这一制度性缺陷。
-
-    
-
-    arXiv:2608.18117v1 公告类型：新 摘要：本立场论文认为，AI排行榜在结构上不适合服务全球南方，因为它们缺乏独立治理、利益冲突政策以及指标演化机制。障碍并非数据缺失；高质量的区域基准已经存在：如印度的IndicSUPERB、MILU和LAHAJA；非洲的IrokoBench；阿拉伯语的AlGhafa。障碍在于制度设计。全球排行榜不包含这些基准，且没有治理机制强制它们这样做。当全球北方的付费客户受到影响时，商业压力会纠正排行榜的失败。而全球南方缺乏同等的杠杆。没有治理，影响印地语、斯瓦希里语或阿拉伯语使用者的失败会无限期存在，成为已记录但未解决的空白。以印度为案例（14亿人口，22种官方语言，高质量基准，但缺乏可信的聚合），我们报告了相关发现。
-
-    arXiv:2608.18117v1 Announce Type: new  Abstract: This position paper argues that AI leaderboards are structurally ill-suited to serving the Global South because they lack independent governance, conflict-of-interest policies, and mechanisms for metric evolution. The barrier is not missing data; high-quality regional benchmarks already exist: IndicSUPERB, MILU, and LAHAJA for India; IrokoBench for Africa; AlGhafa for Arabic. The barrier is institutional design. Global leaderboards do not include these benchmarks, and no governance mechanism compels them to do so. Commercial pressure corrects leaderboard failures when paying customers in the Global North are affected. The Global South lacks equivalent leverage. Without governance, failures affecting Hindi, Swahili, or Arabic speakers persist indefinitely as documented but unaddressed gaps. Using India as a case study (1.4 billion people, 22 scheduled languages, high-quality benchmarks, but no trusted aggregation), we report findings from
-    
-[^10]: 系统风险均值场模型中的最优损失分配
-
-    Optimal Loss Allocation in a Mean-Field Model of Systemic Risk
-
-    [https://arxiv.org/abs/2608.18113](https://arxiv.org/abs/2608.18113)
-
-    本文提出在系统风险中，最优损失分配策略是将损失集中于最健康的银行，而非救助或分散，以最大化系统终端健康。
+    该论文通过强化学习解决集中流动性提供中的动态决策问题，学习策略能根据市场状态优化流动性分配，有效降低风险并提升收益表现。
 
     
 
-    我们研究了一个系统风险控制问题，其中中央规划者在幸存机构之间分配由银行违约产生的损失。银行通过其违约距离建模，该距离演化为吸收布朗运动，并带有由重新分配的违约损失引起的向下跳跃。与救助模型不同，规划者不能注入外部资本或减少总损失，唯一允许的干预是决定每个内生损失如何在有偿付能力的银行之间分配。目标是最大化终端系统健康，包括作为主要特殊情况的生存质量，以及更一般地，终端分布的递增凹福利泛函。我们的主要结果确定了一个具有简单经济解释的最优分配规则：损失应集中在当前最健康的机构上。在离散时间中，该规则采取截断或对最富者征税的政策形式。
+    arXiv:2608.19389v1 公告类型：交叉 摘要：自动化做市商（AMMs）是去中心化金融（DeFi）的基石。具有集中流动性的恒定乘积市场，如UniswapV3，现已是一种成熟的设计。在这些市场中，流动性提供者（LPs）面临一个序贯决策问题：他们必须决定何时重新平衡其头寸，以及随着市场条件变化，将资本分配到哪些价格区间。我们将动态流动性提供建模为一个随机脉冲控制问题，并使用强化学习（RL）来解决它，重点关注提供可解释的解决方案。我们表明，学习到的策略表现出丰富的状态依赖行为，根据错误定价、重新平衡成本、不确定性、库存暴露和异质性风险偏好来分配流动性。这些行为有助于压缩损益（PnL）分布的左尾，并在高不确定性下避免灾难性结果。最后，我们对RL进行了基准测试。
 
-    arXiv:2608.18113v1 Announce Type: cross  Abstract: We study a systemic-risk control problem in which a central planner allocates losses generated by bank defaults across the surviving institutions. Banks are modeled through their distances to default, evolving as absorbed Brownian motions with downward jumps induced by redistributed default losses. Unlike bailout models, the planner cannot inject external capital or reduce the aggregate loss, and the only admissible intervention is to decide how each endogenous loss is assigned among solvent banks. The objective is to maximize terminal system health, including survival mass as a leading special case and, more generally, increasing concave welfare functionals of the terminal distribution.   Our main result identifies an optimal allocation rule with a simple economic interpretation: losses should be concentrated on the currently healthiest institutions. In discrete time, this rule takes the form of a cutoff or taxing-the-richest policy, 
+    arXiv:2608.19389v1 Announce Type: cross  Abstract: Automated market makers (AMMs) are a cornerstone of decentralised finance (DeFi). Constant product markets with concentrated liquidity, such as UniswapV3, are now a well-established design. In these markets, liquidity providers (LPs) face a sequential decision problem: they must decide when to rebalance their positions and which price ranges to allocate capital to as market conditions evolve. We formulate dynamic liquidity provision as a stochastic impulse control problem and use reinforcement learning (RL) to solve it, focusing on providing interpretable solutions. We show that learned policies exhibit rich state-dependent behaviour, allocating liquidity according to mispricing, rebalancing costs, uncertainty, inventory exposure, and heterogeneous risk preferences. These behaviours help compress the left tail of the Profit and Loss (PnL) distribution and avoid catastrophic outcomes under high uncertainty. Finally, we benchmark the RL 
     
-[^11]: FinSkillBench：评估投资管理中的AI代理与领域技能
+[^6]: M3：一种面向市场微观结构动态的状态-事件生成基础模型
 
-    FinSkillBench: Evaluating AI Agents and Domain Skills for Investment Management
+    M3: A State-Event Generative Foundation Model for Market Microstructure Dynamics
 
-    [https://arxiv.org/abs/2608.18099](https://arxiv.org/abs/2608.18099)
+    [https://arxiv.org/abs/2608.19227](https://arxiv.org/abs/2608.19227)
 
-    FinSkillBench是一个评估套件，通过三个领域和2603个任务实例，测试AI代理在投资管理中运用领域技能（包括无技能、精选技能和自生成技能）的能力，以衡量其有效性和可审计性。
-
-    
-
-    投资管理是一个高风险领域，其中代理型AI系统必须做的不仅仅是生成看似合理的文本。它们必须检索时点数据、组装正确的计算输入、调用专门方法，并生成可审计的结构化输出。我们引入了FinSkillBench，一个旨在衡量语言模型代理能否有效使用金融领域技能来解决投资管理任务的评估套件。该基准涵盖三个领域：投资组合构建、风险管理和基本面分析，并包括12个子任务，共2,603个任务实例。每个实例提供时点输入、隐藏的真实答案和任务特定的验证器。我们比较了三种条件：无技能、由程序文档和可执行组件组成的精选技能包，以及代理在实例内编写并重用自身程序的自生成技能。在9个模型和大规模评估中，我们展示了...
-
-    arXiv:2608.18099v1 Announce Type: new  Abstract: Investment management is a high-stakes domain in which agentic AI systems must do more than generate plausible text. They must retrieve point-in-time data, assemble correct computational inputs, invoke specialized methods, and produce auditable structured outputs. We introduce FinSkillBench, an evaluation suite designed to measure whether language model agents can effectively use financial domain skills to solve investment management tasks. The benchmark spans three domains, portfolio construction, risk management, and fundamental analysis, and includes 12 subtasks with 2,603 task episodes.   Each episode provides point-in-time inputs, hidden ground truth, and a task-specific verifier.We compare three conditions: no skill, curated skill packages consisting of procedural documents and executable components, and self-generated skills in which the agent writes and reuses its own procedures within an episode. Across 9 models and a large-scal
-    
-[^12]: 比特币是对冲中央银行政策的工具吗？来自AI驱动的货币政策预期的证据
-
-    Is Bitcoin A Hedge Against Central Banking? Evidence from AI-Driven Monetary Policy Expectations
-
-    [https://arxiv.org/abs/2604.08825](https://arxiv.org/abs/2604.08825)
-
-    该研究首次利用AI驱动的货币政策预期指数，证明比特币对央行政策信号具有敏感的预测性反应，且这种关系呈非线性和制度依赖性。
+    M3是一种新的生成基础模型，通过联合建模订单事件与限价订单簿流动性的动态交互，实现了逼真的市场微观结构轨迹级模拟，并在大规模数据上展现出可预测的缩放特性。
 
     
 
-    本研究探讨了货币政策叙事向比特币价格的传导机制，并区分了政策预期与实际政策实施。我们引入了一个基于大语言模型（LLM）分类的每周货币政策预期（MPE）指数，该指数基于118,000多条市场消息，提供了对鹰派和鸽派货币政策论述的细粒度度量。我们证明，MPE指数的变化在短期至中期范围内为比特币收益提供了显著的线性预测信息，并在多个滞后期上表现出显著的格兰杰因果关系。结合长短期记忆（LSTM）框架和SHapley加性解释（SHAP）方法，进一步识别了货币政策预期与比特币收益之间的非线性和制度依赖关系，表明比特币作为中央银行信号传递的敏感晴雨表。特别是，鹰派货币政策预期对比特币价格产生了显著影响。
+    市场微观结构模拟旨在建模电子金融市场中流动性、价格和订单流的演变过程。由于市场数据仅揭示一条已实现的轨迹，许多重要问题本质上属于反事实问题，需要逼真的轨迹级模拟。然而，现有的金融生成模型通常孤立地建模订单事件和市场状态（如限价订单簿），忽视了订单流与流动性在市场微观结构中的动态交互。我们提出了M3（市场微观结构模型），一种面向市场微观结构动态的状态-事件生成基础模型。M3学习生成未来的订单流轨迹，同时考虑订单事件与限价订单簿流动性之间的演变交互。通过在大型订单级真实股票数据上训练，M3表现出可预测的缩放行为，并重新...
 
-    arXiv:2604.08825v2 Announce Type: replace  Abstract: This study investigates the transmission of monetary policy narratives to Bitcoin prices, distinguishing policy expectations from realized policy implementation. We introduce a weekly Monetary Policy Expectations (MPE) index derived from the Large Language Model (LLM)-based classification of 118,000+ market messages, providing a granular measure of hawkish and dovish monetary policy discourse. We demonstrate that changes in the MPE index provide evidence of significant linear predictive information for Bitcoin returns at short-to-medium horizons, with significant Granger causality at multiple lags. A Long Short-Term Memory (LSTM) framework combined with SHapley Additive exPlanations (SHAP) further identifies nonlinear and regime-dependent relationships between monetary-policy expectations and Bitcoin returns, indicating that Bitcoin functions as a sensitive barometer of central bank signaling. In particular, hawkish monetary-policy n
+    arXiv:2608.19227v1 Announce Type: cross  Abstract: Market microstructure simulation aims to model how liquidity, prices, and order flow evolve in electronic financial markets. Since market data reveal only one realized trajectory, many important questions are inherently counterfactual and require realistic trajectory-level simulation. Existing financial generative models, however, often model order events and market states, such as the LOB, in isolation, overlooking the dynamic interaction between order flow and liquidity in market microstructure. We propose the \textbf{M3} (\underline{M}arket \underline{M}icrostructure \underline{M}odel), a state-event generative foundation model for market microstructure dynamics. \textbf{M3} learns to generate future order-flow trajectories, while accounting for the evolving interaction between order events and limit-order-book liquidity. Trained on large-scale order-level real stock market data, \textbf{M3} exhibits predictable scaling behavior, re
     
-[^13]: 动态跟踪误差与整体投资组合方法
+[^7]: 金融数学中的Henstock--Kurzweil路径积分：欧式与障碍期权的机器验证定价
 
-    Dynamic Tracking Error and the Total Portfolio Approach
+    Henstock--Kurzweil Path Integral in Financial Mathematics: A Machine-Verified Pricing of European and Barrier Options
 
-    [https://arxiv.org/abs/2603.03213](https://arxiv.org/abs/2603.03213)
+    [https://arxiv.org/abs/2608.19223](https://arxiv.org/abs/2608.19223)
 
-    本文提出动态跟踪误差管理优于静态方法，在相同回撤下可显著提升年化收益，无需依赖证券选择。
-
-    
-
-    战略资产配置与整体投资组合方法的唯一区别在于董事会授予首席投资官的跟踪误差。董事会的首要决策应是其能承受的回撤；基准和跟踪误差预算随后确定。价值在于动态使用该预算，当回报高时增加主动风险，当基金接近其限制时减少风险。通过这种方式管理，在相同回撤下，基金的年化复合增长率可提高约两个百分点，且无需进行证券选择。关键在于动态与静态跟踪误差的对比，而非标签本身。
-
-    arXiv:2603.03213v2 Announce Type: replace  Abstract: Strategic Asset Allocation and the Total Portfolio Approach differ in one thing: the tracking error the board grants the chief investment officer. The board's first decision should be the drawdown it can tolerate; the benchmark and tracking error budget follow. The value comes from spending that budget dynamically, adding active risk when the reward is high and shedding it as the fund nears its limit. Managed this way, a fund would have compounded about two percentage points a year faster at the same drawdown, with no security selection. What matters is dynamic versus static tracking error, not the label.
-    
-[^14]: FactorMiner：一种具有技能与经验记忆的自进化智能体，用于金融Alpha发现
-
-    FactorMiner: A Self-Evolving Agent with Skills and Experience Memory for Financial Alpha Discovery
-
-    [https://arxiv.org/abs/2602.14670](https://arxiv.org/abs/2602.14670)
-
-    FactorMiner提出了一种自进化智能体框架，通过模块化技能和结构化经验记忆，利用Ralph Loop范式迭代减少冗余搜索，从而高效发现金融Alpha因子。
+    本文用Henstock--Kurzweil积分在Lean 4中机器验证了欧式期权定价公式，无需随机微积分，并扩展至数字和障碍期权。
 
     
 
-    公式化Alpha因子挖掘是量化投资中一项关键且具有挑战性的任务，其特点是搜索空间巨大，且需要领域知识和可解释的信号。然而，随着因子库的不断增长，由于高度冗余，发现新颖信号变得越来越困难。我们提出了FactorMiner，一个轻量级且灵活的自进化智能体框架，旨在通过持续的知识积累来应对这一复杂局面。FactorMiner结合了模块化技能架构和结构化经验记忆，前者将系统性金融评估封装为可执行工具，后者将历史挖掘试验提炼为可操作的见解（成功模式和失败约束）。通过实例化Ralph Loop范式——检索、生成、评估和提炼——FactorMiner迭代地利用记忆先验来引导探索，减少冗余搜索，同时专注于有前景的方向。
+    arXiv:2608.19223v1 公告类型：新 摘要：我们将Henstock--Kurzweil（HK）规范积分应用于布莱克-舒尔斯期权定价模型，并直接从高斯圆柱核获得欧式看涨期权价格，无需随机微积分。在风险中性测度下，对数价格是带漂移nu = r - sigma^2/2的布朗运动。其转移密度为高斯核G_t(x,y) = (2 pi sigma^2 t)^{-1/2} exp( - (y - x - nu t)^2 / (2 sigma^2 t) )。我们在Lean 4 / Mathlib中给出了以下内容的机器验证形式化：Chapman--Kolmogorov（半群）性质、G_t是概率密度的事实、定价算子的强连续性、闭式价格C = S_0 N(d_1) - K e^{-rT} N(d_2)（其中N为标准正态分布函数），以及漂移-扩散Chernoff分裂在每个级别的精确性。整个证明是“无sorry”的，且仅依赖于propext、Classical.choice和Quot.sound。数字期权和障碍期权作为进一步处理。
 
-    arXiv:2602.14670v2 Announce Type: replace  Abstract: Formulaic alpha factor mining is a critical yet challenging task in quantitative investment, characterized by a vast search space and the need for domain-informed, interpretable signals. However, finding novel signals becomes increasingly difficult as the library grows due to high redundancy. We propose FactorMiner, a lightweight and flexible self-evolving agent framework designed to navigate this complex landscape through continuous knowledge accumulation. FactorMiner combines a Modular Skill Architecture that encapsulates systematic financial evaluation into executable tools with a structured Experience Memory that distills historical mining trials into actionable insights (successful patterns and failure constraints). By instantiating the Ralph Loop paradigm -- retrieve, generate, evaluate, and distill -- FactorMiner iteratively uses memory priors to guide exploration, reducing redundant search while focusing on promising directio
+    arXiv:2608.19223v1 Announce Type: new  Abstract: We apply the Henstock--Kurzweil (HK) gauge integral to the Black--Scholes model of option pricing and obtain the European call price directly from a Gaussian cylindrical kernel, without stochastic calculus. Under the risk- neutral measure, the log-price is a Brownian motion with drift nu = r - sigma^2/2. Its transition density is the Gaussian kernel G_t(x,y) = (2 pi sigma^2 t)^{-1/2} exp( - (y - x - nu t)^2 / (2 sigma^2 t) ). We give a machine-checked formalization in Lean 4 / Mathlib of the following: the Chapman--Kolmogorov (semigroup) property, the fact that G_t is a probability density, strong continuity of the pricing operator, the closed-form price C = S_0 N(d_1) - K e^{-rT} N(d_2) with the standard normal CDF N, and the exactness of the drift--diffusion Chernoff splitting at every level. The entire proof is "sorry"-free and depends only on propext, Classical.choice, and Quot.sound. Digital and barrier options are treated as furthe
     
-[^15]: 多维排序：比较静态分析
+[^8]: 具有随机不连续性的信用风险过滤
 
-    Multidimensional Sorting: Comparative Statics
+    Filtering Credit Risk with Stochastic Discontinuities
 
-    [https://arxiv.org/abs/2512.10853](https://arxiv.org/abs/2512.10853)
+    [https://arxiv.org/abs/2608.19221](https://arxiv.org/abs/2608.19221)
 
-    本文首次完整刻画了一类广义多维分配模型中技术进步对排序和收入的比较静态效应，并基于美国数据定量分析了认知技能偏向型技术进步的影响。
-
-    
-
-    arXiv:2512.10853v2 公告类型：替换 摘要：刻画多维排序问题历来困难——目前仅有少数示例有解。我们的主要结果完整刻画了一类广义多维分配模型中，技术进步对排序和收入的比较静态效应。我们证明，对称性技术进步完全转化为工人收入，而非对称性变化仅导致重新配置。一般而言，两个维度都会调整，其相对重要性取决于工人与岗位之间的互补性及其分布。为定量说明我们的理论，我们利用美国数据量化了认知技能偏向型技术进步对排序和收入的影响。
-
-    arXiv:2512.10853v2 Announce Type: replace  Abstract: Characterizing multidimensional sorting problems is notoriously difficult - solutions are known only for a small number of examples. Our main results completely characterize the comparative statics of sorting and earnings with respect to technological change for a general class of multidimensional assignment models. We show that symmetric technological change passes fully into worker earnings, while antisymmetric change results only in reallocation. In general, both margins adjust, with relative importance governed by the complementarity between workers and jobs and their distributions. To quantitatively illustrate our theory, we quantify responses in sorting and earnings to cognitive skill-biased technological change for U.S. data.
-    
-[^16]: 睡着的凯莉
-
-    Sleeping Kelly
-
-    [https://arxiv.org/abs/2510.15911](https://arxiv.org/abs/2510.15911)
-
-    本文通过凯利准则重新审视睡美人问题，发现理性决策者应最大化财富增长率而非期望值，从而得出事前哈尔弗派和事后三分派的结论，并避免历时荷兰赌。
+    该论文提出了一种考虑随机披露信息不连续性的结构性信用风险模型，并推导了相应的非线性过滤方程，揭示了公告事件对信用利差和对冲比率的独特扭曲效应。
 
     
 
-    睡美人问题是一个关于不完美记忆的问题，受到了广泛关注。解决睡美人问题的一种方法是允许睡美人基于其信念做出决策，然后刻画她的决策在何种条件下是“理性的”。特别是，可以允许她基于信念进行金钱投注，并假设她希望增加财富而非损失财富。然而，这种方法常常与一个错误假设相伴，即睡美人应最大化其投注的期望值。在此，我们推断当睡美人使用凯利准则最大化其财富增长率时的概率，以表明睡着的凯莉是一个事前哈尔弗派和事后三分派，并且不受历时荷兰赌的影响。
+    arXiv:2608.19221v1 公告类型：新 摘要：我们开发了一个在不完全信息下的结构性信用风险模型，其中投资者仅通过有噪声的市场信号和预定的公司披露间接观察公司价值。虽然披露日期事先已知，但其信息内容是随机的，导致观察过程中出现随机不连续性。我们通过应用具有可预测跳跃的非线性过滤框架，推导了具有内生违约的结构性信用风险模型的Kushner-Stratonovich方程。然后，我们研究了部分信息下对违约敏感证券的估值和局部风险最小化对冲。可预测披露事件与内生违约之间的相互作用在条件违约补偿器中产生了离散调整，导致信用利差和对冲比率出现公告驱动的扭曲，这些扭曲在经典基于扩散和不可及跳跃的模型中是不存在的。数值实验...
 
-    arXiv:2510.15911v3 Announce Type: replace-cross  Abstract: The Sleeping Beauty problem is a problem of imperfect recall that has received considerable attention. One approach to solving the Sleeping Beauty problem is to allow Sleeping Beauty to make decisions based on her beliefs, and then characterize what it takes for her decisions to be "rational". In particular, she can be allowed to make monetary bets based on her beliefs, with the assumption that she wants to gain wealth rather than lose it. However, this approach is often coupled with the erroneous assumption that Sleeping Beauty should maximize the expected value of her bets. Here, we infer probabilities when Sleeping Beauty maximizes the expected growth rate of her wealth using the Kelly Criterion, to show that Sleeping Kelly is an ex ante Halfer and de se Thirder and impervious diachronic Dutch Books.
+    arXiv:2608.19221v1 Announce Type: new  Abstract: We develop a structural credit-risk model under incomplete information in which investors observe firm value only indirectly through noisy market signals and scheduled corporate disclosures. While disclosure dates are known in advance, their informational content is random, leading to stochastic discontinuities in the observation process. We derive the Kushner-Stratonovich equation for structural credit-risk models with endogenous default by applying the nonlinear filtering framework with predictable jumps. We then study the valuation and local risk-minimization hedging for default-sensitive securities under partial information. The interaction between predictable disclosure events and endogenous default produces discrete adjustments in the conditional default compensator, leading to announcement-driven distortions in credit spreads and hedge ratios that are absent from classical diffusion-based and inaccessible-jump models. Numerical ex
     
-[^17]: 神经函数生成投资组合
+[^9]: 基于Kolmogorov--Arnold网络的巨灾债券定价
 
-    Neural Functionally Generated Portfolios
+    CAT Bond Pricing with Kolmogorov--Arnold Networks
 
-    [https://arxiv.org/abs/2506.19715](https://arxiv.org/abs/2506.19715)
+    [https://arxiv.org/abs/2608.19217](https://arxiv.org/abs/2608.19217)
 
-    本文提出一种基于神经网络的函数生成投资组合方法，通过可学习的生成函数直接从市场数据中优化回报，无需估计漂移或协方差，同时保持自融资和路径分解特性。
-
-    
-
-    arXiv:2506.19715v2 公告类型：替换。摘要：我们引入了一种基于神经网络的新方法，用于从合成或真实市场数据中学习函数生成投资组合（FGP）的生成函数$G(\cdot)$。在神经网络设置中，生成函数表示为$G_{\theta}(\cdot)$，其中$\theta$是一个可迭代的神经网络参数向量，$G_{\theta}(\cdot)$被训练以最大化相对于市场投资组合的投资回报。我们将神经FGP方法的性能与经典FGP基准进行了比较。FGP通过绕过估计漂移或协方差的需求，提供了经典投资组合优化的稳健替代方案。神经FGP框架通过引入生成函数设计的灵活性扩展了这一点，使其能够从市场动态中学习，同时保持自融资和路径分解特性。
-
-    arXiv:2506.19715v2 Announce Type: replace  Abstract: We introduce a novel neural-network-based approach to learning the generating function $G(\cdot)$ of a functionally generated portfolio (FGP) from synthetic or real market data. In the neural network setting, the generating function is represented as $G_{\theta}(\cdot)$, where $\theta$ is an iterable neural network parameter vector, and $G_{\theta}(\cdot)$ is trained to maximise investment return relative to the market portfolio. We compare the performance of the Neural FGP approach against classical FGP benchmarks. FGPs provide a robust alternative to classical portfolio optimisation by bypassing the need to estimate drifts or covariances. The neural FGP framework extends this by introducing flexibility in the design of the generating function, enabling it to learn from market dynamics while preserving self-financing and pathwise decomposition properties.
-    
-[^18]: 关于带退保费用的可变年金研究
-
-    On variable annuities with surrender charges
-
-    [https://arxiv.org/abs/2405.02115](https://arxiv.org/abs/2405.02115)
-
-    本文严格推导了带退保费用的可变年金定价公式，并证明了最优退保边界尽管非单调但连续正则，为保险公司风险管理提供了理论支撑。
+    本文提出了一种基于Kolmogorov--Arnold网络的可解释巨灾债券定价方法，通过提取符号公式并保证单调性，实现了极低的定价误差。
 
     
 
-    本文对可变年金（VAs）进行了理论分析，重点关注持有人提前终止合同的权利。基于风险管理考虑，并与现有文献一致，我们假设退保期权从纯财务角度被最优执行（即考虑保险公司的极端不利情况）。在此背景下，我们严格推导了VA的定价公式，并刻画了最优退保时间。我们还通过大量数值实验展示了理论结果。定价问题被表述为一个最优停止问题，其收益依赖于时间，在合同到期时具有不连续性和非光滑性。这种结构导致非单调的最优停止边界，但我们证明该边界在扩散意义上对于停止集是连续且正则的。缺乏单调性...
+    摘要：我们研究了在具有对数正态严重程度的复合泊松损失模型下，使用Kolmogorov--Arnold网络（KANs）近似巨灾债券价格的方法。基于基线加残差的学习流程，我们训练一个KAN来拟合相对于封闭形式对数正态基线价格的偏差，并提取出一个可解释的符号定价公式。该提取公式在90,000个模拟价格的完全独立留出样本上实现了平均相对定价误差0.483%。与纯经验建模不同，我们还分析了真实巨灾债券定价图的结构性质，包括对灾难到达强度lambda、初始短期利率r0和触发阈值D的单调性。我们推导了KAN边函数的充分条件，以保证这些单调性被学习模型保留，并制定了一个具有收敛保证的单调性约束训练目标。我们的结果...
 
-    arXiv:2405.02115v2 Announce Type: replace  Abstract: In this paper we provide a theoretical analysis of Variable Annuities (VAs) with a focus on the holder's right to an early termination of the contract. Motivated by risk-management considerations, and in line with existing literature, we assume that the surrender option is optimally exercised from a purely financial perspective (i.e., we consider the worst-case scenario for the insurer). In this context, we rigorously derive the pricing formula for the VA and characterise the optimal surrender time. We also illustrate our theoretical results with extensive numerical experiments.   The pricing problem is formulated as an optimal stopping problem with a time-dependent payoff which is discontinuous at the maturity of the contract and non-smooth. This structure leads to non-monotonic optimal stopping boundaries which we prove nevertheless to be continuous and regular in the sense of diffusions for the stopping set. The lack of monotonici
+    arXiv:2608.19217v1 Announce Type: new  Abstract: We study the approximation of CAT bond prices under a compound Poisson loss model with lognormal severities using Kolmogorov--Arnold Networks (KANs). Building on a baseline-plus-residual learning pipeline, we train a KAN on the deviation from a closed-form lognormal baseline price and extract an interpretable symbolic pricing formula. The extracted formula achieves an average relative pricing error of 0.483% on a fully disjoint holdout sample of 90,000 simulated prices. In contrast to purely empirical modelling, we also analyse structural properties of the true CAT bond pricing map, including monotonicity with respect to the catastrophe arrival intensity lambda, the initial short rate r0, and the trigger threshold D. We derive sufficient conditions on KAN edge functions that guarantee these monotonicities are preserved by the learned model, and formulate a monotonicity-constrained training objective with a convergence guarantee. Our resu
     
-[^19]: 可转化的金融、碳和生物多样性足迹会计
+[^10]: 气候联盟中的稳健性优于效率：一个双稳态模型及架构图谱
 
-    Value-transforming financial, carbon and biodiversity footprint accounting. (arXiv:2309.14186v1 [econ.GN])
+    Robustness over efficiency in climate coalitions: a bistable model and a map of architectures
 
-    [http://arxiv.org/abs/2309.14186](http://arxiv.org/abs/2309.14186)
+    [https://arxiv.org/abs/2608.12143](https://arxiv.org/abs/2608.12143)
 
-    本文展示了如何利用组织的财务报表来开发一个综合的碳和生物多样性足迹账户。通过利用空间明确的潜在物种损失作为度量标准，我们提供了一个全球生物多样性足迹数据库。
+    本文提出一个双稳态气候联盟模型，揭示成员资格通过市场渠道驱动，并量化了稳健性对效率的权衡，指出已建立联盟的稳健性远高于初始形成阶段。
 
     
 
-    为了实现碳中和、无净损失生物多样性和地球福祉，需要对我们的生产和消费习惯进行转型性变革。组织是我们人类组织日常生活的方式，我们的负面环境影响，也称为碳和生物多样性足迹，大部分是由组织引起的。本文展示了如何利用任何组织的财务报表来开发一个综合的碳和生物多样性足迹账户。作为度量标准，我们利用了空间明确的潜在全球物种损失，我们认为这可以理解为生物多样性的等效指标，对于生物多样性来说，其效用类似于对气候来说的二氧化碳等效指标。我们提供了一个全球生物多样性足迹数据库，组织、专家和研究人员可以使用该数据库来评估基于消费的生物多样性足迹。我们还认为，当前财务和环境指标的整合有待进一步完善。
+    arXiv:2608.12143v1 公告类型：交叉 摘要：国际气候合作的设计面临分配效率与制度稳健性之间的权衡，这种稳健性是指应对因违约、重新谈判和政治更迭导致的制度侵蚀的能力。我们在一个简化的联盟形成博弈中形式化了这一权衡，其中成员资格由两个基于市场的渠道驱动，即成员溢价和外部流失效应，并通过稳健控制机制来抵御一组有界的制度扰动。每个成员面临的搭便车缺口源自经济基本要素，如碳价格差异和出口排放强度，并与特定架构的渠道相分离；这种分离使模型可解且可比较。该模型是双稳态的：一个小型残余俱乐部和一个近乎普遍的联盟之间由一个临界质量分隔。已建立的联盟能够承受约为点火时可允许扰动十二倍的扰动，且
 
-    Transformative changes in our production and consumption habits are needed to enable the sustainability transition towards carbon neutrality, no net loss of biodiversity, and planetary well-being. Organizations are the way we humans have organized our everyday life, and much of our negative environmental impacts, also called carbon and biodiversity footprints, are caused by organizations. Here we show how the financial accounts of any organization can be exploited to develop an integrated carbon and biodiversity footprint account. As a metric we utilize spatially explicit potential global loss of species which, we argue, can be understood as the biodiversity equivalent, the utility of which for biodiversity is similar to what carbon dioxide equivalent is for climate. We provide a global Biodiversity Footprint Database that organizations, experts and researchers can use to assess consumption-based biodiversity footprints. We also argue that the current integration of financial and envir
+    arXiv:2608.12143v1 Announce Type: cross  Abstract: Designs for international climate cooperation face a trade-off between allocative efficiency and robustness to the erosion of institutions by defection, renegotiation, and political turnover. We formalize this trade-off in a stylized coalition-formation game in which membership is driven by two market-based channels, a membership premium and an outsider drain, and is stabilized against a bounded set of institutional perturbations using the apparatus of robust control. The free-rider gap that each member faces is derived from economic primitives, the carbon price differential and the emission intensity of exports, and separated from the architecture-specific channels; the separation makes the model solvable and comparative. The model is bistable: a small remnant club and a near-universal coalition are separated by a critical mass. The established coalition withstands roughly twelve times the perturbation admissible at ignition, and the 
+    
+[^11]: 生日快乐？年龄标签、搜索标准与从约会到婚姻的匹配
+
+    Happy Birthday? Age Labels, Search Criteria, and Matching from Dating to Marriage
+
+    [https://arxiv.org/abs/2607.23325](https://arxiv.org/abs/2607.23325)
+
+    本研究揭示生日年龄更新显著影响婚姻平台的匹配过程，尤其是对三十多岁女性接收者，导致求婚数量下降并改变追求者年龄分布，表明年龄标签并非中立。
+
+    
+
+    年龄是一种匹配特征，也是搜索平台上的显著标签。利用来自日本大型婚姻平台的保密记录，我研究了生日年龄更新如何影响考虑、申请、关系进展和订婚。只有显示的年龄在生日时更新。接收者随着退出某些可接受年龄范围而进入其他范围，总体资格变化不大。申请数量通常增加。申请从较年轻追求者转向较年长追求者。在女性接收者年龄31至40岁的十个年龄段中，九个年龄段的求婚数量下降，损失集中在进入早期约会阶段。对于三十多岁的接收者，在分阶段核算中，无生日情况下的求婚数量女性接收者比基准高12.9%，男性接收者低6.7%；女性接收者渠道中年轻男性比例高出4.8个百分点。年龄标签和过滤器并非中立。
+
+    arXiv:2607.23325v2 Announce Type: replace  Abstract: Age is a match trait and a prominent label on search platforms. Using confidential records from a large Japanese marriage platform, I study how a birthday age update affects consideration, applications, relationship progression, and engagement. Only displayed age updates at birthdays. Receivers enter some acceptable-age ranges as they exit others, leaving only modest overall eligibility changes. Application counts often increase. Applications shift from younger to older suitors. Proposal counts fall at nine of ten female receiver ages \(31\text{--}40\), with losses concentrated at entry into early dating. In stage-specific accounting for receivers in their thirties, the no-birthday proposal count is \(12.9\) percent above the benchmark for female receivers and \(6.7\) percent below it for male receivers; the younger-man share in the female-receiver channel is \(4.8\) percentage points higher. Age labels and filters are not neutral wi
+    
+[^12]: 从准确性到可审计性：金融AI系统确定性综述
+
+    From Accuracy to Auditability: A Survey of Determinism in Financial AI Systems
+
+    [https://arxiv.org/abs/2605.23955](https://arxiv.org/abs/2605.23955)
+
+    该综述系统性地分析了金融AI系统中从表格模型到图网络再到LLM智能体的三类非确定性来源，并通过公开数据实验量化了复现性失败，为可审计金融AI提供了系统视角。
+
+    
+
+    在受监管的金融环境中部署机器学习——如信用风险、欺诈检测和反洗钱——暴露了算法可复现性中的关键脆弱性。尽管早期金融机器学习解决了回测过拟合等统计挑战，但深度神经网络和生成式AI引入了根源于硬件和架构的机械性非确定性。本综述从系统视角审视了当前金融AI中主导的三种模态下的复现性失败：表格模型（事后解释方差）、图网络（随机采样和时间异步性），以及基于LLM的智能体工作流（批次依赖的差异和轨迹漂移）。我们通过公开金融数据集上的第一方实验补充了文献分析——量化了信用评分中的解释排名不稳定性、基于GNN的欺诈检测中的预测翻转率，以及张量并行中的（此处原文截断）。
+
+    arXiv:2605.23955v3 Announce Type: replace  Abstract: Deploying machine learning in regulated financial environments -- credit risk, fraud detection, and anti-money laundering -- exposes critical vulnerabilities in algorithmic reproducibility. While early financial ML addressed statistical challenges such as backtest overfitting, deep neural networks and Generative AI have introduced mechanical nondeterminism rooted in hardware and architecture. This survey provides a systems perspective on reproducibility failures across three modalities now dominant in financial AI: tabular models (post-hoc explanation variance), graph networks (stochastic sampling and temporal asynchrony), and LLM-based agentic workflows (batch-dependent divergence and trajectory drift). We supplement the literature analysis with first-party experiments on public financial datasets -- quantifying explanation rank instability in credit scoring, prediction flip rates in GNN-based fraud detection, and tensor-parallel-in
+    
+[^13]: 机器学习求解最优养老金投资问题的一族解
+
+    Machine-learning a family of solutions to an optimal pension investment problem
+
+    [https://arxiv.org/abs/2511.07045](https://arxiv.org/abs/2511.07045)
+
+    本文提出了一种通过缩放损失函数使神经网络能够有效求解一族养老金投资问题的方法，并证明了算法收敛性，同时开发了探索偏好参数影响的实用工具。
+
+    
+
+    摘要：arXiv:2511.07045v2 公告类型：替换版。摘要：我们使用神经网络来识别一族养老金投资问题的最优解，其中决定投资者风险和消费偏好的参数与经济变量一起作为神经网络的输入。在未经修改的情况下，仅训练一个网络来处理整个族的问题会失败。我们的主要贡献是对损失函数进行缩放以解决此问题，并证明了由此产生的算法的收敛性。我们利用这一点开发了一个实用工具，用于探索养老金结果如何随偏好参数变化。我们采用Black-Scholes经济模型，以便使用基于对偶方法的经典且可证明收敛的数值方法来验证网络的准确性。
+
+    arXiv:2511.07045v2 Announce Type: replace  Abstract: We use a neural network to identify the optimal solutions to a family of pension investment problems, where the parameters determining an investor's risk and consumption preferences are given as inputs to the neural network in addition to economic variables. Training a single network across such a family fails without modification. Our main contribution is a scaling of the loss function that resolves this, together with a proof that the resulting algorithm converges. We use this to develop a practical tool for exploring how pension outcomes vary with preference parameters. We use a Black-Scholes economic model so that we may validate the accuracy of the network using a classical and provably convergent numerical method developed using the duality approach.
+    
+[^14]: 最终市场价格是否足以实现信息聚合？来自彩池投注最后时刻动态的证据
+
+    Are Final Market Prices Sufficient for Information Aggregation? Evidence from Last-Minute Dynamics in Parimutuel Betting
+
+    [https://arxiv.org/abs/2509.14645](https://arxiv.org/abs/2509.14645)
+
+    本文通过赛马彩池投注数据揭示，最终赔率不足以完全反映信息聚合，赔率变化路径（如最后时刻下降）对回报有显著影响，且模型表明最终赔率-回报模式无法单独区分信息聚合与概率扭曲。
+
+    
+
+    本研究提供了挑战从彩池投注市场中推断风险偏好、概率感知和信念的证据，因为在该市场中投注不能基于最终赔率进行。利用赛马中的临时赔率，我们表明预期回报不仅取决于最终赔率，还取决于达到最终赔率的路径：最终五分钟赔率下降的马匹，其实际回报高于具有相似最终赔率的马匹。我们通过基于奥蒂亚维尼-索伦森信息模型的二期扩展来解释这种路径依赖性，其中最终阶段赔率下降源于知情投注者基于私人信号的后期投注。该模型还强调，仅凭最终赔率-回报模式可能无法区分信息聚合与概率扭曲。
+
+    arXiv:2509.14645v3 Announce Type: replace  Abstract: This study presents evidence challenging the practice of inferring risk preferences, probability perceptions, and beliefs from parimutuel betting markets, where wagers cannot be made contingent on final odds. Using interim odds from horse racing, we show that expected returns depend not only on final odds but also on the path through which they are reached: horses with final-five-minute odds declines earn higher realized returns than horses with similar final odds. We rationalize this path dependence using a two-period extension of the information-based model \`{a} la Ottaviani--S{\o}rensen, in which final-stage odds declines arise from informed bettors' late wagers based on private signals. The model also highlights that final odds--return patterns alone may not distinguish information aggregation from probability distortions.
+    
+[^15]: ContestTrade：一种基于内部竞赛机制的多智能体交易系统
+
+    ContestTrade: A Multi-Agent Trading System Based on Internal Contest Mechanism
+
+    [https://arxiv.org/abs/2508.00554](https://arxiv.org/abs/2508.00554)
+
+    ContestTrade通过引入内部竞赛机制和“量化-预测-分配”流程，有效提升了多智能体交易系统对嘈杂市场信息的适应性和决策质量。
+
+    
+
+    在金融交易中，基于大型语言模型（LLM）的智能体展现出显著潜力，但其决策可能对嘈杂且非平稳的市场信息敏感。我们提出了ContestTrade，一种受机构投资工作流程启发的、具有内部竞争机制的多智能体交易系统。该系统由两个专门团队组成：（1）数据团队，负责处理并压缩海量市场数据，将其转化为多样化的文本因子，以优化受限的LLM上下文窗口；（2）研究团队，通过工具增强的深度研究生成并行化的多路径交易决策。核心设计是每个团队内部的“量化-预测-分配”竞赛机制：智能体的输出仅在市场结果可观察后进行评分，未来效用根据历史得分进行预测，并将资源分配给具有正预测效用的智能体。在2024年后的A股回测中，Co...
+
+    arXiv:2508.00554v5 Announce Type: replace-cross  Abstract: In financial trading, large language model (LLM)-based agents demonstrate significant potential, but their decisions can be sensitive to noisy and non-stationary market information. We propose ContestTrade, a multi-agent trading system with an internal competitive mechanism inspired by institutional investment workflows. The system consists of two specialized teams: (1) a Data Team that processes and condenses massive market data into diversified textual factors optimized for constrained LLM context windows, and (2) a Research Team that produces parallelized multipath trading decisions via tool-augmented deep research. The core design is a "Quantify-Predict-Allocate" contest mechanism within each team: agent outputs are scored only after market outcomes become observable, future utility is predicted from historical scores, and resources are allocated to agents with positive predicted utility. In a post-2024 A-share backtest, Co
+    
+[^16]: 基于多元分数布朗运动的已实现波动率建模与预测
+
+    Modeling and Forecasting Realized Volatility with Multivariate Fractional Brownian Motion
+
+    [https://arxiv.org/abs/2504.15985](https://arxiv.org/abs/2504.15985)
+
+    本文提出一种基于多元分数布朗运动的已实现波动率建模与预测方法，通过引入分量级赫斯特指数和非零相关性，显著降低了预测误差，并提供了理论估计和实证验证。
+
+    
+
+    本文采用具有分量级赫斯特指数的多元分数布朗运动（mfBm）来建模和预测已实现波动率（RV）。我们研究了相关系数与赫斯特指数之间的相互作用，并提出了一种新的模型参数估计方法，建立了其一致性和渐近正态性。此外，我们开发了一个时间可逆性检验，该检验通常不会被RV数据拒绝。当数据生成过程是时间可逆的mfBm时，我们推导了最优预测公式并分析了其性质。一个关键见解是，与一维模型相比，具有不同赫斯特指数和非零相关性的mfBm可以降低预测误差。与该理论一致，使用时间可逆mfBm的样本外预测显示出相对于单变量fBm的改进，特别是在估计的赫斯特指数显著不同时。实证结果表明，mfBm在预测已实现波动率方面具有优越性。
+
+    arXiv:2504.15985v2 Announce Type: replace  Abstract: A multivariate fractional Brownian motion (mfBm) with component-wise Hurst exponents is used to model and forecast realized volatility (RV). We investigate the interplay between correlation coefficients and Hurst exponents and propose a novel method to estimate model parameters, establishing its consistency and asymptotic normality. Additionally, we develop a time-reversibility test, which is typically not rejected by RV data. When the data generating process is a time-reversible mfBm, we derive optimal forecasting formulae and analyze their properties. A key insight is that an mfBm with different Hurst exponents and non-zero correlations can reduce forecasting errors compared to a one-dimensional model. Consistent with this theory, out-of-sample forecasts using the time-reversible mfBm show improvements over univariate fBm, particularly when the estimated Hurst exponents differ significantly. Empirical results demonstrate that mfBm 
+    
+[^17]: 《通用数据保护条例》(GDPR)对在线使用行为的影响
+
+    The Impact of the General Data Protection Regulation (GDPR) on Online Usage Behavior
+
+    [https://arxiv.org/abs/2411.11589](https://arxiv.org/abs/2411.11589)
+
+    本文发现GDPR实施后在线使用行为显著下降，且主要由独立访客数减少驱动，而非每位访客的访问次数变化，揭示了隐私法规对用户行为的因果影响。
+
+    
+
+    隐私法规旨在保护消费者，但可能对用户与网站的互动方式产生意想不到的后果。本文估算了欧盟《通用数据保护条例》(GDPR)对在线使用行为的因果效应，并将其分解为使用频率（独立访客数）和使用强度（每位独立访客的访问次数）。使用广义合成控制估计器，对24个行业、13个国家中6,387个网站的数十亿次访问（执行前11个月和执行后19个月）进行比较，将受GDPR约束的观察对象（欧盟用户或欧盟网站）与不受影响的观察对象（非欧盟网站上的非欧盟用户）进行对比。每周访问量在3个月内下降4.88%，18个月后下降10.02%，且下降日益由使用频率驱动：到18个月时，独立访客数下降6.61%，而每位独立访客的访问次数仅下降0.59%。平均值掩盖了相互抵消的效应。
+
+    arXiv:2411.11589v2 Announce Type: replace  Abstract: Privacy regulations aim to safeguard consumers, but can have unintended consequences on how users interact with websites. This article estimates the causal effect of the EU's General Data Protection Regulation (GDPR) on online usage behavior and decomposes it into usage frequency (unique visitors) and usage intensity (visits per unique visitor). Using a generalized synthetic control estimator across trillions of visits to 6,387 websites in 24 industries and 13 countries-11 months before and 19 months after enforcement-it compares observations subject to the GDPR (EU users or EU websites) with unaffected observations (non-EU users on non-EU websites). Weekly visits decline by 4.88% within 3 months and by 10.02%% after 18 months, with the decline increasingly driven by usage frequency: by 18 months, unique visitors decline by 6.61%, whereas visits per unique visitor decline by only 0.59%. The average conceals offsetting effects consist
     
 

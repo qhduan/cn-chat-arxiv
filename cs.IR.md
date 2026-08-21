@@ -2,92 +2,249 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Finetuning Strategies for Querying Sounds by Vocal Imitation](https://arxiv.org/abs/2608.19174) | 本文提出并验证了两种微调策略（冻结CED编码器的对比学习和MobileNetV3的联合对比-三元组学习），在声音模仿查询音效任务中取得了冠军成绩。 |
-| [^2] | [rEDMRec: Distilling Large Language Model Reasoning into an Editable Experience Memory for Recommendation](https://arxiv.org/abs/2608.18952) | 本文提出rEDMRec，通过将大语言模型的推理蒸馏为四种可编辑的经验记忆通道，使轻量级模型能复用推理结果，从而避免每次推荐请求时重复生成推理，同时支持用户口味变化时的检查与修正。 |
-| [^3] | [Think-to-Personalize: Unifying Reasoning and Retrieval for User-Centric Personalized Dense Retrieval](https://arxiv.org/abs/2608.18855) | 本论文提出TTP框架，通过结合显式用户意图推理与稠密检索，解决了电商中模糊查询和噪声历史导致的个性化检索难题。 |
-| [^4] | [SIDScope: A Diagnostic Resource for Semantic-ID Interfaces in Generative Recommendation](https://arxiv.org/abs/2608.18779) | SIDScope是一个源追踪诊断资源，用于评估生成式推荐中语义ID接口的健康状况，核心发现是接口健康需多信号评估，且前缀对齐的有效性取决于检索机制是否依赖前缀。 |
-| [^5] | [GateDiffInt: Gate-Mediated Controllable Diffusion and Multi-Intent LLM Distillation for User Behavior Modeling](https://arxiv.org/abs/2608.18764) | 该论文提出了GateDiffInt框架，通过门控可控扩散和大型语言模型多意图蒸馏，有效解决了用户行为序列中噪声与意图耦合的问题，从而提升工业排序模型的性能。 |
-| [^6] | [GreekBarRetrieval: A Benchmark for Greek Statutory Retrieval](https://arxiv.org/abs/2608.18752) | 本文提出了希腊法律条文检索基准GreekBarRetrieval，并通过实验发现LLM查询重构能显著提升BM25与密集检索的性能差距。 |
-| [^7] | [Visual-Aware Representation of Web Pages for Machine Learning Applications](https://arxiv.org/abs/2608.18727) | 该平台利用FitLayout渲染网页并生成RDF表示的视觉感知数据，通过REST API和SPARQL查询支持机器学习应用，实现细粒度布局数据的共享。 |
-| [^8] | [Composed Historical Image Retrieval by Modeling Temporal Representations](https://arxiv.org/abs/2608.18694) | 本文提出了一种名为TDIR的表示学习方法，通过正交子空间将历史图像分解为时间和内容成分，在保留时间结构的同时维持检索性能，并提供了数学基础与误差分析。 |
-| [^9] | [PILOT Technical Report](https://arxiv.org/abs/2608.18637) | 本文提出了PILOT框架，通过LLM代理在受限控制循环中实现推荐系统优化的主动实验设计、用户细分个性化及方法复用，突破了现有反应式方法的局限。 |
-| [^10] | [OneModel: A Unified Foundation for Platform-Scale Multi-Scenario Ranking](https://arxiv.org/abs/2608.18606) | OneModel 是一个统一的多场景排序框架，通过共享事件序列和场景感知信息调制，有效平衡跨流迁移与流特定专业化，并优化了生产部署性能。 |
-| [^11] | [FinRCA-Bench: Benchmarking Evidence Retrieval and Reasoning for Financial AI Systems](https://arxiv.org/abs/2608.18534) | FinRCA-Bench是一个合成金融对账基准，通过分离证据检索与推理评估，揭示了金融AI系统在证据获取和推理质量上的独立性能。 |
-| [^12] | [Reducing Technician Search Burden: A Multimodal RAG for Cessna 172 Maintenance Manual](https://arxiv.org/abs/2608.18465) | 本研究开发了一种针对塞斯纳172维修手册的多模态检索增强生成系统，通过同时检索文本和图像页面，显著减少了技师查找维修信息的时间负担，达到了93.37%的召回率。 |
-| [^13] | [More Context, Same Budget: Dual-Bounded Relational Recall Beyond Top-K Retrieval](https://arxiv.org/abs/2608.18448) | 本文提出双界关系召回（DBRR）方法，在相同检索预算下通过关系连接证据，显著提升HotpotQA支持证据的完整恢复率，比平面top-k检索提高23.8个百分点。 |
-| [^14] | [AI in Search Reduces Publisher Referrals Without Improving User Experience: Experimental Evidence](https://arxiv.org/abs/2608.18352) | 本研究通过现场实验证明，谷歌搜索中的生成式AI功能（如AI概览和AI模式）会减少用户对出版商的点击流量，且未改善用户体验，反而可能损害用户信任，对依赖搜索流量的在线出版商构成经济威胁。 |
-| [^15] | [Multimedia Asset Personalization via Multimodal Embeddings at Netflix](https://arxiv.org/abs/2608.18322) | 奈飞利用多模态嵌入（如CLIP）统一了艺术作品个性化模型，实现跨画布知识转移和冷启动性能提升，并扩展至查询感知搜索。 |
-| [^16] | [Evaluating Structured Information Extraction with Open Models in a High Risk Public Sector Application](https://arxiv.org/abs/2608.18289) | 本文提出了一个针对高风险公共部门应用（如国际学生申请处理）的开源系统端到端结构化信息提取基准，填补了现实多步骤流程评估的空白。 |
-| [^17] | [Global Crises and National Policies: A Large Scale Analysis of Political Content in German Language Online Media](https://arxiv.org/abs/2608.18268) | 本文通过大规模分析2019-2022年德语在线媒体内容，展示了自动化细粒度政治偏见分析的潜力，并发现德国和瑞士报道在国际事件驱动主题上的相似性与分歧。 |
-| [^18] | [Redakto - The Incognito Tab for LLMs](https://arxiv.org/abs/2608.18260) | Redakto 是一个用于在将文本输入LLM前进行匿名化和假名化的工具，提供最先进的PII编辑功能，并通过Web应用和开发者接口方便使用。 |
-| [^19] | [MITRE-SAGE: A Multi-Agent Cybersecurity Question-Answering model](https://arxiv.org/abs/2608.16921) | MITRE-SAGE通过多智能体检索增强生成框架，结合语义与结构化网络安全知识，解决了LLM在网络安全问答中的知识不足和幻觉问题，提升了可靠性和可解释性。 |
-| [^20] | [Score-Only Distillation for Compact Dense Retrieval](https://arxiv.org/abs/2607.11465) | 本文提出仅利用分数向量进行蒸馏的方法，使紧凑检索器恢复教师排名差距的50%，同时实现4.7倍查询编码和9.7倍文档编码的速度提升。 |
-| [^21] | [ICICLE: Expanding Retrieval with In-Context Documents](https://arxiv.org/abs/2605.26902) | ICICLE通过将新文档作为推理时的上下文证据，结合复制路由和校准机制，实现了无需重新训练即可扩展生成式检索的增量索引。 |
-| [^22] | [Predicting the Benefit of Retrieval Augmentation in Open-Domain Question Answering](https://arxiv.org/abs/2604.07985) | 本文提出了一种基于多种信号（包括LLM内部状态探测）的预测方法，用于判断检索是否有助于提升问答质量，并据此构建了动态选择检索或非检索模式的选择性框架，在性能上接近计算密集型的生成后方法。 |
-| [^23] | [Semantic Trimming and Auxiliary Multi-step Prediction for Generative Recommendation](https://arxiv.org/abs/2604.05329) | 本文提出STAMP框架，通过语义修剪和辅助多步预测的双端优化策略，解决生成式推荐中语义稀释效应导致的训练开销和性能不稳定问题。 |
-| [^24] | [Can David Beat Goliath? On Multi-Hop Reasoning with Resource-Constrained Agents](https://arxiv.org/abs/2601.21699) | 本文提出David-GRPO方法，通过结合外部专家知识和内部策略信息，有效解决了资源受限条件下多跳推理强化学习中小批量训练效率低下的问题。 |
-| [^25] | [LACONIC: Dense-Level Effectiveness for Scalable Sparse Retrieval via a Two-Phase Training Curriculum](https://arxiv.org/abs/2601.01684) | LACONIC通过一种两阶段训练课程（弱监督预微调和高信号微调）使基于Llama3的稀疏检索器达到密集模型的性能水平，在MTEB基准上取得60.2 nDCG@10的最先进结果。 |
-| [^26] | [PLASMA: A Layout-Aware Benchmark Reveals Memory Layout Matters for Graph-based ANNS on GPU](https://arxiv.org/abs/2508.15436) | 本文提出了PLASMA，一个统一评估框架，首次系统性地揭示了在GPU上基于图的ANNS中，内存布局（顶点重排序）可带来高达80%的性能提升，而这一因素此前常被忽视。 |
+| [^1] | [Projecting BrowseComp-Plus onto ClimbMix: Toward More Realistic Corpora for Agentic Search](https://arxiv.org/abs/2608.20317) | 本文提出了一种投影流水线，将BrowseComp-Plus基准的问题迁移到大规模真实网页语料库ClimbMix中，从而构建更真实的智能体搜索评估环境，同时保持问题质量。 |
+| [^2] | [What Makes a Good Fiqh Retriever? Answer Retrieval for Arabic Islamic Jurisprudence](https://arxiv.org/abs/2608.20246) | 本文首次系统研究阿拉伯伊斯兰法学中的答案承载检索，发现教法学派感知过滤能显著提升检索性能，而主要挑战在于区分答案段落与主题相似的非答案段落。 |
+| [^3] | [Daedalus-150M: A Convolution-Attention Hybrid Designed for CPU Inference](https://arxiv.org/abs/2608.20210) | 该论文提出一种针对CPU推理优化的卷积-注意力混合架构，仅用6个注意力块和12个短卷积块，在少量数据上训练即超越多种更大模型，实现了高效推理和卓越性能。 |
+| [^4] | [SCoRD: Semantic-Assisted Continual Retriever-Reranker Distillation for LLM-Based Recommendation](https://arxiv.org/abs/2608.19998) | SCoRD提出了一种语义辅助的持续蒸馏框架，通过将LLM重排序器的意图推理能力蒸馏为可复用的意图级指导，在非平稳数据流下高效提升检索器性能，避免了反复更新LLM的高昂成本。 |
+| [^5] | [Do Sequential Recommendation Benchmarks Really Require Higher-Order Sequence Modelling?](https://arxiv.org/abs/2608.19833) | 本文通过两个简单探针证明，广泛使用的顺序推荐基准测试可能无法有效区分高阶序列建模带来的收益，提示现有评估协议存在局限性。 |
+| [^6] | [Training-Free LLM-Based Recommendation with Post-LLM Item Refinement Using Collaborative Signals](https://arxiv.org/abs/2608.19665) | 本文提出CoRRe框架，通过后LLM范式将协同过滤信号注入物品表示，无需训练即可显著提升推荐性能。 |
+| [^7] | [SSR-GRPO: Integrating Supervision and Semantic IDs into Reinforcement Learning for Dense Retrieval in E-commerce](https://arxiv.org/abs/2608.19595) | SSR-GRPO通过结合语义标识和双视角评估框架，解决了电子商务密集检索中强化学习方法的噪声和偏差问题，提高了相关性评估的准确性。 |
+| [^8] | [Two-sided receptivity to conversational AI agents in online dating: Bilingual survey data from Fledge.Love](https://arxiv.org/abs/2608.19545) | 该研究首次提供了来自国际约会平台用户的双语调查数据，系统区分了用户作为主动部署者和被动接收者两种角色对AI智能体的接受度，填补了生成式AI在在线约会中接收端态度的关键证据空白。 |
+| [^9] | [From Retrieved Context to Runtime Control: Adaptive Compression for Edge-based RAG](https://arxiv.org/abs/2608.19535) | 本文提出了一种基于边缘设备遥测状态的自适应上下文压缩方法，以动态平衡压缩开销与生成收益，提升边缘RAG的效率和性能。 |
+| [^10] | [Automated Summarization of Financial News Using Large Language Models and Retrieval-Augmented Generation: An Early Empirical Study (Fall 2023)](https://arxiv.org/abs/2608.19526) | 本研究构建了一个自动化金融新闻摘要流程，通过将股票数据转换为自然语言，并比较不同摘要方法，证明了大型语言模型在金融信息处理中的可行性。 |
+| [^11] | [HARP: Hierarchical Adaptive Ranking with Preference-Adaptive Fusion for Query-Based CVE Prioritization](https://arxiv.org/abs/2608.19430) | 本论文提出了HARP框架，通过利用历史标记案例和漏洞知识图谱，实现了无需显式偏好描述的查询驱动CVE优先级排序，解决了不同操作偏好场景下的自适应排序问题。 |
+| [^12] | [Quantization Beyond Uniform Bit Allocation](https://arxiv.org/abs/2608.19388) | 本文提出一种可变比特分配量化框架，通过非均匀分配存储空间，在相同内存预算下显著提升量化质量，优于均匀分配基线。 |
+| [^13] | [CrossQ: Task-Aligned Cross-Token Conditional Quantization for Late Interaction Retrieval](https://arxiv.org/abs/2608.19204) | CrossQ通过索引时轻量级文档上下文条件化令牌编码，结合排序对齐训练目标，在极低比特率下显著提升晚期交互检索的排序质量，同时大幅压缩索引存储。 |
+| [^14] | [Automatic bioinformatic software named entity recognition from literature](https://arxiv.org/abs/2608.19201) | 本文提出了SNAIL，一种混合命名实体识别框架，通过结合词汇和语义策略自动识别生物医学文献中的软件和数据库名称，解决了生物信息学资源目录不完整的问题。 |
+| [^15] | [A Virtual Member of a Community of Practice for the Society of Petroleum Engineers: From Prototype to Deployment](https://arxiv.org/abs/2608.19199) | 本文介绍了ATHENA虚拟助手的升级版，通过改进多文档检索、答案验证和主动传播，显著提升了石油工程师在井规划任务中的知识支持效率和绩效。 |
+| [^16] | [GateDiffInt: Gate-Mediated Controllable Diffusion and Multi-Intent LLM Distillation for User Behavior Modeling](https://arxiv.org/abs/2608.18764) | 该论文提出了GateDiffInt框架，通过门控可控扩散和大型语言模型多意图蒸馏，有效解决了用户行为序列中噪声与意图耦合的问题，从而提升工业排序模型的性能。 |
+| [^17] | [GreekBarRetrieval: A Benchmark for Greek Statutory Retrieval](https://arxiv.org/abs/2608.18752) | 本文提出了希腊法律条文检索基准GreekBarRetrieval，并通过实验发现LLM查询重构能显著提升BM25与密集检索的性能差距。 |
+| [^18] | [PILOT Technical Report](https://arxiv.org/abs/2608.18637) | 本文提出了PILOT框架，通过LLM代理在受限控制循环中实现推荐系统优化的主动实验设计、用户细分个性化及方法复用，突破了现有反应式方法的局限。 |
+| [^19] | [OneModel: A Unified Foundation for Platform-Scale Multi-Scenario Ranking](https://arxiv.org/abs/2608.18606) | OneModel 是一个统一的多场景排序框架，通过共享事件序列和场景感知信息调制，有效平衡跨流迁移与流特定专业化，并优化了生产部署性能。 |
+| [^20] | [Ask to Be Sure: Informative Interactions for Confident Multi-Turn LLM Recommendation](https://arxiv.org/abs/2608.15949) | 本文提出了一种通过熵减少量化交互信息增益并作为奖励微调LLM的新方法，无需真实推荐即可生成策略性多轮对话，提升推荐置信度。 |
+| [^21] | [LODESTAR: Trustworthy Entropy Is Navigated, Not Merely Measured -- Reinforced Polarizer Keeps a Frozen LLM from Being Confidently Misled by the Wrong Evidence](https://arxiv.org/abs/2608.11922) | LODESTAR通过干预文本上下文并利用第三方冻结LLM的不确定性评分，解决了最低熵规则在误导性段落上导致自信错误的问题，从而提升了检索增强问答的可靠性。 |
+| [^22] | [Bridging the Structural Gap: Adapting Autoregressive Generation for Recommendation](https://arxiv.org/abs/2607.21028) | 本文提出BARGE方法，通过项目上下文感知注意力恢复项目级结构，并采用层次化路径重排序和双路径解码抑制语义漂移，有效弥合了生成式推荐中的结构差距。 |
+| [^23] | [Drift-Adaptive ICU Intervention Prediction: Freezing the Physiological Encoder for Auditable Model Updating](https://arxiv.org/abs/2607.19020) | 该论文提出了一种双流架构，在模型更新时冻结生理编码器，仅更新治疗流，从而实现可审计的ICU干预预测，且性能与全参数更新相当。 |
+| [^24] | [Right Family, Wrong Skill: Benchmarking Risk Exposure in Agent Skill Retrieval](https://arxiv.org/abs/2606.10388) | 本文提出了SameCapRisk-Bench基准，专门研究智能体技能检索中“找到正确技能族但暴露错误同族技能”的风险暴露失败，并提供了1,190个技能-风险单元和1,686个评估查询案例。 |
+| [^25] | [BRIDGE: Behavior-Guided Residual Integration with Dual-Frequency Graph Evidence](https://arxiv.org/abs/2605.22073) | BRIDGE提出了一种行为引导的残差整合框架，通过双频图证据分离和候选集内证据应用，解决了多模态推荐中对齐强度与排序性能之间的非线性关系。 |
+| [^26] | [Personalized w-Event Privacy for Infinite Stream Estimation](https://arxiv.org/abs/2605.09054) | 本文提出个性化w-事件隐私框架，通过PWSM机制和预算分配/吸收策略，在无限流估计中满足用户特定隐私需求，同时保持统计准确性。 |
+| [^27] | [EchoTrace: Diagnosing Recursive Risks in LLM-Powered Recommender Systems](https://arxiv.org/abs/2602.07442) | 本文提出了一个角色感知的分阶段诊断框架，用于分析LLM在推荐系统中的递归风险如何产生、传播和累积，并发现LLM组件会放大这些风险。 |
+| [^28] | [Beyond Uniform Token Training: A Multi-Target Framework for Learning Token-Weighted Objectives in Generative Recommenders](https://arxiv.org/abs/2601.17787) | 提出一种多目标框架，通过前置感知加权和频率加权来优化生成式推荐器中的令牌级训练目标，以更好地匹配语义ID的结构特性。 |
+| [^29] | [Can LLM Annotations Replace User Clicks for Learning to Rank?](https://arxiv.org/abs/2511.06635) | 本文通过多维度对比发现，LLM标注和点击数据在学习排序中各有优势，LLM标注不能完全取代点击数据，但在中低频查询上表现更佳。 |
 
 # 详细
 
-[^1]: 通过声音模仿查询声音的微调策略
+[^1]: 将BrowseComp-Plus映射到ClimbMix：朝向更真实的智能体搜索语料库
 
-    Finetuning Strategies for Querying Sounds by Vocal Imitation
+    Projecting BrowseComp-Plus onto ClimbMix: Toward More Realistic Corpora for Agentic Search
 
-    [https://arxiv.org/abs/2608.19174](https://arxiv.org/abs/2608.19174)
+    [https://arxiv.org/abs/2608.20317](https://arxiv.org/abs/2608.20317)
 
-    本文提出并验证了两种微调策略（冻结CED编码器的对比学习和MobileNetV3的联合对比-三元组学习），在声音模仿查询音效任务中取得了冠军成绩。
-
-    
-
-    本技术报告描述了我们提交给AES AIMLA 2025挑战赛的获胜方案，该挑战赛旨在通过声音模仿查询音效。我们研究了两种互补的微调策略：使用冻结的预训练CED编码器进行对比学习，以及使用MobileNetV3编码器结合半困难负样本的联合对比-三元组学习。本报告已为后人更新，包含了挑战赛后发布的细节。
-
-    arXiv:2608.19174v1 Announce Type: cross  Abstract: This technical report describes our winning submission to the AES AIMLA 2025 Challenge on querying sound effects by vocal imitation. We investigate two complementary fine-tuning strategies: contrastive learning with a frozen, pretrained CED encoder, and joint contrastive-triplet learning with semi-hard negatives using a MobileNetV3 encoder. This report has been updated for posterity to include details released after the challenge.
-    
-[^2]: rEDMRec：将大语言模型推理蒸馏为可编辑的经验记忆以用于推荐
-
-    rEDMRec: Distilling Large Language Model Reasoning into an Editable Experience Memory for Recommendation
-
-    [https://arxiv.org/abs/2608.18952](https://arxiv.org/abs/2608.18952)
-
-    本文提出rEDMRec，通过将大语言模型的推理蒸馏为四种可编辑的经验记忆通道，使轻量级模型能复用推理结果，从而避免每次推荐请求时重复生成推理，同时支持用户口味变化时的检查与修正。
+    本文提出了一种投影流水线，将BrowseComp-Plus基准的问题迁移到大规模真实网页语料库ClimbMix中，从而构建更真实的智能体搜索评估环境，同时保持问题质量。
 
     
 
-    大语言模型可以通过对用户历史和候选项目进行显式推理来提升推荐质量——例如，提取用户的偏好或解释为何某个项目比另一个更合适——而不是直接将历史映射为排序列表。然而，这种推理在每次排序请求中重复执行成本高昂，且一旦生成，通常只被使用一次即被丢弃，既无法在未来的请求中复用，也难以在用户口味变化时进行检查或修正。我们的见解是，如果推理能够被一次性压缩为紧凑、结构化的记忆，并由轻量级模型从中检索，那么就不需要在每次调用时重新生成。我们提出了rEDMRec，它将教师大语言模型的推理蒸馏为四种类型化、可编辑的经验通道——长期偏好、短期上下文、项目感知和反事实硬负样本比较——并由一个大语言模型记忆控制器维护。
+    BrowseComp-Plus基准通过用固定语料库替换不透明的网络搜索，解耦了智能体搜索的评估，从而可以将智能体的角色与检索器的角色分离。然而，该语料库仅包含约10万篇文档，且是由基准自身查询的支持文档加上挖掘的困难负样本组成的，因此证据和干扰项都是针对每个查询选择的。我们引入了$\text{BrowseComp-Plus}_{\text{CM}}$，它保留了BrowseComp-Plus的问题，但将其证据迁移到ClimbMix——一个由NVIDIA发布的、用于预训练语言模型的400B词元、553M文档的网页文本混合语料库，该语料库的构建未参考任何基准。我们的主要贡献是实现这一迁移的投影流水线：它将每个问题分解为原子推理步骤，并将每个步骤在新语料库中进行定位，仅当自动验证、独立智能体和人工检查（h）均通过时才保留问题。
 
-    arXiv:2608.18952v1 Announce Type: cross  Abstract: Large language models can improve recommendation quality by reasoning explicitly over user history and candidate items - for example, extracting a user's preferences or explaining why one item fits better than another - rather than mapping history directly to a ranked list. This reasoning, however, is expensive to repeat on every ranking request and, once produced, is typically consumed once and discarded, leaving it neither reusable across future requests nor easy to inspect or correct as user tastes drift. Our insight is that reasoning does not need to be regenerated at every call if it can instead be compressed once into a compact, structured memory that a lightweight model retrieves from. We propose rEDMRec, which distills a teacher LLM's reasoning into four typed, editable experience channels - long-term preference, short-term context, item-perception, and counterfactual hard-negative comparisons - maintained by an LLM memory cont
+    arXiv:2608.20317v1 Announce Type: new  Abstract: The BrowseComp-Plus benchmark disentangled the evaluation of agentic search by replacing opaque web search with a fixed corpus, so that an agent's role can be separated from the retriever's. That corpus, however, holds only about 100K documents and was assembled from the supporting documents of the benchmark's own queries plus mined hard negatives, so the evidence and the distractors were both selected per query. We introduce $\text{BrowseComp-Plus}_{\text{CM}}$, which keeps the BrowseComp-Plus questions but relocates their evidence to ClimbMix, a 400B-token, 553M-document mixture of web text released by NVIDIA for pre-training language models and built without reference to any benchmark. Our main contribution is the projection pipeline that makes this possible: it decomposes each question into atomic reasoning hops and grounds every hop in the new corpus, retaining a question only when automatic verification, an independent agent, and h
     
-[^3]: 思考至个性化：统一推理与检索以实现用户中心的个性化稠密检索
+[^2]: 什么造就了好的伊斯兰教法检索器？阿拉伯伊斯兰法学的答案检索
 
-    Think-to-Personalize: Unifying Reasoning and Retrieval for User-Centric Personalized Dense Retrieval
+    What Makes a Good Fiqh Retriever? Answer Retrieval for Arabic Islamic Jurisprudence
 
-    [https://arxiv.org/abs/2608.18855](https://arxiv.org/abs/2608.18855)
+    [https://arxiv.org/abs/2608.20246](https://arxiv.org/abs/2608.20246)
 
-    本论文提出TTP框架，通过结合显式用户意图推理与稠密检索，解决了电商中模糊查询和噪声历史导致的个性化检索难题。
-
-    
-
-    稠密检索通过将查询和物品编码到语义嵌入空间中，已成为现代本地生活电商搜索的基石。尽管最近的进展已从基于BERT的嵌入模型转向大型语言模型（LLMs），但大多数方法仍将LLMs视为静态文本编码器，忽略了其固有的推理能力。此外，标准稠密检索模型保持查询中心，这在电商场景中不足，因为稀疏和模糊的查询会产生意图差距，只能通过用户历史的丰富上下文来弥合。同时，现有的个性化检索方法通常依赖隐式嵌入交互，缺乏从噪声历史行为中有效消除用户意图歧义的推理能力。为解决这些挑战，我们提出了“思考至个性化”（TTP），一种新颖的框架，将显式的用户中心意图推理与稠密检索统一起来。
-
-    arXiv:2608.18855v1 Announce Type: new  Abstract: Dense retrieval has become a cornerstone of modern local-lifestyle e-commerce search by encoding queries and items into semantic embedding spaces. While recent advancements have transitioned from BERT-based embedding models to Large Language Models (LLMs), most approaches still treat LLMs as static text encoders, neglecting their inherent reasoning capabilities. Furthermore, standard dense retrieval models remain query-centric, which is insufficient in e-commerce scenarios where sparse and ambiguous queries create an intent gap that can only be bridged by the rich context of user history. Meanwhile, existing personalized retrieval methods typically rely on implicit embedding interactions, which lack the reasoning capability to effectively disambiguate user intent from noisy historical behaviors. To address these challenges, we propose Think-to-Personalize (TTP), a novel framework that unifies explicit user-centric intent reasoning with d
-    
-[^4]: SIDScope：生成式推荐中语义ID接口的诊断资源
-
-    SIDScope: A Diagnostic Resource for Semantic-ID Interfaces in Generative Recommendation
-
-    [https://arxiv.org/abs/2608.18779](https://arxiv.org/abs/2608.18779)
-
-    SIDScope是一个源追踪诊断资源，用于评估生成式推荐中语义ID接口的健康状况，核心发现是接口健康需多信号评估，且前缀对齐的有效性取决于检索机制是否依赖前缀。
+    本文首次系统研究阿拉伯伊斯兰法学中的答案承载检索，发现教法学派感知过滤能显著提升检索性能，而主要挑战在于区分答案段落与主题相似的非答案段落。
 
     
 
-    arXiv:2608.18779v1 公告类型：交叉 摘要：语义ID映射是物品分词器与生成式推荐器之间的可复用接口，然而发布的映射很少说明它们是否连贯、暴露何种结构、生成路径如何解析，或刷新后必须重新验证什么。SIDScope是一个用于这些决策的源追踪诊断资源。它规范化物品到代码的产物，验证来源和连接，分析映射结构，比较配对修订，并解释生成轨迹中的路径到物品结果。在来自亚马逊和Yelp数据的七个家族的九个源追踪分词器导出中——包括八条可执行路径和一个可审计快照——SIDScope揭示接口健康是多信号而非标量。其核心发现是机制条件性的：当检索消耗SID前缀时，前缀对齐强烈跟踪保留候选曝光，然后随着评分变得前缀无关而减弱。训练轨迹约占...
+    arXiv:2608.20246v1 公告类型：新  摘要：检索增强生成被用于伊斯兰问题解答，但大多数系统是端到端评估的，这使得检索失败难以与生成失败区分开来。我们研究了阿拉伯伊斯兰法学（fiqh）中的答案承载检索，其中段落只有在陈述问题所要求的裁决时才相关。我们为阿拉伯伊斯兰法学构建了一个检索测试集合，并用于评估密集、词汇、混合、微调以及教法学派感知的检索策略。最佳检索器实现了0.524的MRR@5，而微调将性能提升至0.553。混合检索对强模型提供的增益有限，而教法学派感知过滤在特定学派问题上使MRR@5提高了两倍以上。我们进一步进行了错误分析，表明主要挑战在于区分承载答案的段落与主题相似但不包含所要求裁决的段落。
 
-    arXiv:2608.18779v1 Announce Type: cross  Abstract: Semantic-ID mappings are reusable interfaces between item tokenizers and generative recommenders, yet released mappings rarely state whether they are coherent, what structure they expose, how generated paths resolve, or what must be revalidated after a refresh. SIDScope is a source-traced diagnostic resource for these decisions. It normalizes item-to-code artifacts, verifies provenance and joins, profiles mapping structure, compares paired revisions, and accounts for path-to-item outcomes in generated traces. Across nine source-traced tokenizer exports from seven families on Amazon and Yelp data - eight executable routes plus one auditable snapshot - SIDScope reveals that interface health is multi-signal rather than scalar. Its central finding is mechanism-conditional: prefix alignment strongly tracks held-out candidate exposure when retrieval consumes SID prefixes, then weakens as scoring becomes prefix-independent. Trained trace acco
+    arXiv:2608.20246v1 Announce Type: new  Abstract: Retrieval-Augmented Generation is used for Islamic question answering, but most systems are evaluated end-to-end, making retrieval failures difficult to isolate from generation failures. We study answer-bearing retrieval for Arabic fiqh, where a passage is relevant only if it states the ruling required by the question. We build a retrieval test collection for Arabic fiqh and use it to evaluate dense, lexical, hybrid, fine-tuned, and madhhab-aware retrieval strategies. The best retriever achieves 0.524 MRR@5, while fine-tuning improves performance to 0.553. Hybrid retrieval provides limited gains for strong models, whereas madhhab-aware filtering more than doubles MRR@5 on school-specific questions. We further present an error analysis showing that the main challenge is distinguishing answer-bearing passages from topically similar passages that do not contain the requested ruling.
     
-[^5]: GateDiffInt：基于门控介导的可控扩散与多意图大语言模型蒸馏的用户行为建模
+[^3]: Daedalus-150M：一种为CPU推理设计的卷积-注意力混合架构
+
+    Daedalus-150M: A Convolution-Attention Hybrid Designed for CPU Inference
+
+    [https://arxiv.org/abs/2608.20210](https://arxiv.org/abs/2608.20210)
+
+    该论文提出一种针对CPU推理优化的卷积-注意力混合架构，仅用6个注意力块和12个短卷积块，在少量数据上训练即超越多种更大模型，实现了高效推理和卓越性能。
+
+    
+
+    arXiv:2608.20210v1 公告类型：交叉 摘要：小型语言模型通常像大型模型一样构建，然后在之后被压缩到CPU上。我们反其道而行之：我们首先确定目标——一个用户、一次一个令牌、4位权重、普通CPU，然后选择适合它的架构。结果在18个块中仅6个保留了完整的注意力机制。其余12个使用短卷积，其记忆宽度为两个时间步长，无论对话多长，因此网络的三分之二永远不会重新读取不断增长的缓存。该模型从头开始在59.9B个令牌上训练，在一个五项基准测试中得分47.31，而训练前设定的基准为42.20。它超越了GPT-2 124M、Pythia-160M、OPT-125M和GPT-neo-125M（这些模型均在3到6倍的数据上训练），并且超过了MobileLLM-125M的已发布得分，尽管后者看到了万亿个令牌。验证字节每比特为0.8685。为了检验架构而非训练配方，我们训练了一个传统的全...
+
+    arXiv:2608.20210v1 Announce Type: cross  Abstract: Small language models are usually built like large ones and then squeezed onto a CPU afterwards. We did the opposite: we fixed the target first, one user, one token at a time, 4-bit weights, ordinary CPU, and chose the architecture to suit it. The result keeps full attention in only 6 of its 18 blocks. The other 12 use short convolutions whose memory is two timesteps wide no matter how long the conversation gets, so two thirds of the network never re-reads a growing cache.   Trained from scratch on 59.9B tokens, the model scores 47.31 on a five-task benchmark against a bar of 42.20 that was fixed before training began. It beats GPT-2 124M, Pythia-160M, OPT-125M and GPT-neo-125M, all trained on three to six times more data, and exceeds MobileLLM-125M's published score despite that model seeing a trillion tokens. Validation bits-per-byte is 0.8685.   To check the architecture rather than the training recipe, we trained a conventional all
+    
+[^4]: SCoRD：基于语义辅助的持续检索器-重排序器蒸馏用于大语言模型推荐
+
+    SCoRD: Semantic-Assisted Continual Retriever-Reranker Distillation for LLM-Based Recommendation
+
+    [https://arxiv.org/abs/2608.19998](https://arxiv.org/abs/2608.19998)
+
+    SCoRD提出了一种语义辅助的持续蒸馏框架，通过将LLM重排序器的意图推理能力蒸馏为可复用的意图级指导，在非平稳数据流下高效提升检索器性能，避免了反复更新LLM的高昂成本。
+
+    
+
+    arXiv:2608.19998v1 公告类型：新 摘要：推荐系统日益采用两阶段流水线，其中基于ID的检索器检索候选项目，而基于大语言模型（LLM）的重排序器优化其排序。为了提高检索质量，通常使用重排序器到检索器的蒸馏技术，将重排序器的知识转移给检索器。然而，在实际部署中，该流水线必须持续适应不断变化的兴趣和新的交互数据。一种简单的解决方案是反复更新LLM重排序器并蒸馏其最新知识，但这会导致高昂的成本。仅更新检索器成本较低，但其有限的能力使其难以从稀疏数据中进行适应。我们提出了SCoRD，一种用于非平稳数据流下基于LLM的重排序流水线的持续知识蒸馏框架。SCoRD引入了一个语义推理助手，将LLM推断潜在用户意图的能力蒸馏为可复用的意图级指导。它选择性地...
+
+    arXiv:2608.19998v1 Announce Type: new  Abstract: Recommendation systems increasingly adopt a two-stage pipeline, where an ID-based retriever retrieves candidates and an LLM-based reranker refines their rankings. To improve retrieval quality, reranker-to-retriever distillation is commonly used to transfer the reranker's knowledge to the retriever. For practical deployment, however, this pipeline must continually adapt to evolving interests and incoming interactions. A naive solution is to repeatedly update the LLM reranker and distill its latest knowledge, but this incurs prohibitive costs. Updating the retriever alone is cheaper, but its limited capacity makes adaptation from sparse data difficult. We propose SCoRD, a continual knowledge distillation framework for LLM-based reranking pipelines under a non-stationary data stream. SCoRD introduces a semantic reasoning assistant that distills the LLM's ability to infer underlying user intents into reusable intent-level guidance. It select
+    
+[^5]: 顺序推荐基准测试真的需要高阶序列建模吗？
+
+    Do Sequential Recommendation Benchmarks Really Require Higher-Order Sequence Modelling?
+
+    [https://arxiv.org/abs/2608.19833](https://arxiv.org/abs/2608.19833)
+
+    本文通过两个简单探针证明，广泛使用的顺序推荐基准测试可能无法有效区分高阶序列建模带来的收益，提示现有评估协议存在局限性。
+
+    
+
+    arXiv:2608.19833v1 公告类型：新 摘要：顺序推荐器越来越多地使用旨在捕获复杂、上下文依赖交互的语言模型架构。然而，目前尚不清楚广泛使用的基准测试是否真正需要这种建模能力。我们通过两个简单的、基于近期加权的成对探针来研究这个问题，这些探针不学习高阶序列表示：顺序规则（SeqRules）和我们的概率协作转移模型（PCM）。使用eSASRec的评估协议，至少一个探针在三个Amazon数据集上超过我们的eSASRec复现结果15-38%，在MovieLens-1M上超过4.4%，但在MovieLens-20M上落后27.3%。在其余四个数据集上，至少一个探针也优于我们的采样softmax SASRec复现结果9-28%，这表明这些广泛使用的基准测试不适合衡量高阶序列建模带来的收益。更广泛地说，将基于Transformer的模型与强基线进行比较时，需要谨慎。
+
+    arXiv:2608.19833v1 Announce Type: new  Abstract: Sequential recommenders increasingly use language-model architectures designed to capture complex, context-dependent interactions. Yet it remains unclear whether widely used benchmarks actually require this modelling capacity. We investigate this question using two simple, recency-weighted pairwise probes that do not learn higher-order sequence representations: Sequential Rules (SeqRules) and our Probabilistic Collaborative Transition Model (PCTM). Using the evaluation protocol of eSASRec, at least one probe exceeds our eSASRec reproduction by 15-38% on three Amazon datasets and by 4.4% on MovieLens-1M, but trails it by 27.3% on MovieLens-20M. On the four remaining datasets, at least one probe also outperforms our sampled-softmax SASRec reproduction by 9-28%, suggesting that these widely used benchmarks are poorly suited to measuring gains from higher-order sequence modelling. More broadly, comparing Transformer-based models against stro
+    
+[^6]: 基于协同信号的后LLM物品精炼的无训练推荐方法
+
+    Training-Free LLM-Based Recommendation with Post-LLM Item Refinement Using Collaborative Signals
+
+    [https://arxiv.org/abs/2608.19665](https://arxiv.org/abs/2608.19665)
+
+    本文提出CoRRe框架，通过后LLM范式将协同过滤信号注入物品表示，无需训练即可显著提升推荐性能。
+
+    
+
+    arXiv:2608.19665v1 公告类型：新 摘要：大型语言模型（LLMs）在无训练推荐中展现出潜力，但LLM生成的用户兴趣往往过于宽泛，难以进行细粒度物品检索。现有方法通过候选重排序或提示增强以预LLM方式整合协同过滤（CF）信号，但增益有限。我们提出CoRRe，一种采用后LLM范式的无训练推荐框架，将CF信号注入LLM生成的物品表示中，随后与LLM生成的用户兴趣匹配以进行排名。具体而言，CoRRe利用物品间共购图精炼物品嵌入的方向，并利用物品流行度精炼其幅度。在真实世界数据集上的实验表明，CoRRe持续优于现有无训练方法，并且与基于训练的方法相比，在无需任何模型训练或任务特定微调的情况下，达到具有竞争力或更优的性能。
+
+    arXiv:2608.19665v1 Announce Type: new  Abstract: Large language models (LLMs) have shown promise for training-free recommendation, but LLM-generated user interests are often too broad for fine-grained item retrieval. Existing methods incorporate collaborative filtering (CF) signals in a pre-LLM manner through candidate reranking or prompt augmentation, yielding limited gains. We propose CoRRe, a training-free recommendation framework with a post-LLM paradigm that injects CF signals into LLM-generated item representations, which are later matched with LLM-generated user interests for ranking. Specifically, CoRRe refines the directions of item embeddings using an item-item co-purchase graph and their magnitudes using item popularity. Experiments on real-world datasets show that CoRRe consistently outperforms existing training-free methods and achieves competitive or superior performance compared with training-based methods, without requiring any model training or task-specific fine-tunin
+    
+[^7]: SSR-GRPO：将监督与语义标识集成到电子商务密集检索的强化学习中
+
+    SSR-GRPO: Integrating Supervision and Semantic IDs into Reinforcement Learning for Dense Retrieval in E-commerce
+
+    [https://arxiv.org/abs/2608.19595](https://arxiv.org/abs/2608.19595)
+
+    SSR-GRPO通过结合语义标识和双视角评估框架，解决了电子商务密集检索中强化学习方法的噪声和偏差问题，提高了相关性评估的准确性。
+
+    
+
+    基于嵌入的检索（EBR）在电子商务搜索中至关重要，但常常难以处理复杂语义。尽管近期方法通常微调大型语言模型（LLMs）以进行表示学习，但它们往往缺乏处理复杂和隐式语义的稳健机制。虽然检索-GRPO（R-GRPO）最近将强化学习引入密集检索，但由于有限批次采样导致的嘈杂top-K候选以及使用相似训练的LLMs作为奖励模型造成的偏差相关性评估，它面临挑战。为解决这些问题，我们提出了带有语义标识的监督检索-GRPO（SSR-GRPO）。具体而言，我们的方法首先提出一个双视角相关性评估框架。它利用量化学习生成的语义标识（SIDs）和密集表示向量，以生成更无偏的相关性分数。此外，利用层次相似性关系...
+
+    arXiv:2608.19595v1 Announce Type: new  Abstract: Embedding-based retrieval (EBR) is pivotal in e-commerce search but often struggles with complex semantics. While recent methods often fine-tune large language models (LLMs) for representation learning, they typically lack robust mechanisms for handling complex and implicit semantics. While Retrieval-GRPO (R-GRPO) recently introduced reinforcement learning to dense retrieval, it suffers from noisy top-K candidates due to limited batch sampling and biased relevance assessments caused by using similarly trained LLMs as reward models. To tackle these issues, we propose Supervised Retrieval-GRPO with Semantic Identifiers (SSR-GRPO). Specifically, our method first proposes a dual-perspective framework for relevance assessment. It leverages both Semantic Identifiers (SIDs) produced by quantization learning and dense representation vectors to generate more unbiased relevance scores. Furthermore, leveraging the hierarchical similarity relationsh
+    
+[^8]: 在线约会中对会话式AI智能体的双向接受度：来自Fledge.Love的双语调查数据
+
+    Two-sided receptivity to conversational AI agents in online dating: Bilingual survey data from Fledge.Love
+
+    [https://arxiv.org/abs/2608.19545](https://arxiv.org/abs/2608.19545)
+
+    该研究首次提供了来自国际约会平台用户的双语调查数据，系统区分了用户作为主动部署者和被动接收者两种角色对AI智能体的接受度，填补了生成式AI在在线约会中接收端态度的关键证据空白。
+
+    
+
+    自主会话智能体和生成式AI功能正在被添加到在线约会平台中，其速度远超公众态度证据的积累，而最稀缺的证据涉及接收方：当人们遇到机器生成的个人资料、消息或对话伙伴时，他们会如何反应。我们发布了从Fledge.Love（一个服务国际用户群的约会平台）活跃用户收集的两个匿名调查数据集。第一个数据集（N = 2,617；俄语和英语版本）通过一个包含七项的测量工具评估对自主会话智能体的接受度，该工具将主要角色（部署自己的智能体）与对应角色（遇到他人的智能体）分开，并包含六个有序协变量和两个辅助项目。第二个数据集（N = 2,894）测量对三种被动生成式AI功能的兴趣。此次发布包括2,499个完整案例的模型派生得分、一个双语编码手册以及一个补充说明。
+
+    arXiv:2608.19545v1 Announce Type: cross  Abstract: Autonomous conversational agents and generative-AI features are being added to online dating platforms faster than public evidence about user attitudes can accumulate, and the scarcest evidence concerns the receiving side: how people react when the profiles, messages, or conversation partners they encounter are machine-generated. We release two anonymized survey datasets collected from active users of Fledge.Love, a dating platform serving an international user base. The first (N = 2,617; Russian and English forms) measures receptivity to autonomous conversational agents with a seven-item battery that separates the principal role (deploying one's own agent) from the counterpart role (encountering someone else's), plus six ordinal covariates and two auxiliary items. The second (N = 2,894) measures interest in three passive generative-AI features. The release includes model-derived scores for 2,499 complete cases, a bilingual codebook, a
+    
+[^9]: 从检索上下文到运行时控制：面向边缘RAG的自适应压缩
+
+    From Retrieved Context to Runtime Control: Adaptive Compression for Edge-based RAG
+
+    [https://arxiv.org/abs/2608.19535](https://arxiv.org/abs/2608.19535)
+
+    本文提出了一种基于边缘设备遥测状态的自适应上下文压缩方法，以动态平衡压缩开销与生成收益，提升边缘RAG的效率和性能。
+
+    
+
+    检索增强生成（RAG）通过将生成过程锚定在外部段落中来改善语言模型的响应，但这带来了额外开销：检索到的上下文会延长提示词，增加预填充工作、KV缓存占用、内存流量、延迟和能耗。上下文压缩通过生成前修剪检索文本提供了一种自然的补救措施。然而，最先进的上下文压缩方法通常使用固定的压缩预算，或者离线选择压缩率然后在推理时应用。这种静态视角忽略了工作负载变化和边缘设备的实时状态。在边缘系统级芯片（SoC）上，压缩并非无成本：压缩器本身在同一SoC上运行，消耗延迟和能量，可能抵消生成的节省。本文提出了一种基于遥测信息的边缘RAG自适应压缩愿景，并基于实验证据。我们在NVIDIA上表征了压缩权衡。
+
+    arXiv:2608.19535v1 Announce Type: new  Abstract: Retrieval-augmented generation (RAG) improves language-model responses by grounding generation in external passages, which comes with overhead: retrieved context lengthens the prompt, increasing prefill work, KV-cache footprint, memory traffic, latency, and energy. Context compression offers a natural remedy by pruning retrieved text before generation. However, state-of-the-art context-compression methods are typically used with a fixed compression budget, or with the rate selected offline and then applied at inference time. This static view ignores both workload variation and the live state of the edge device. On an edge SoC, compression is not free: the compressor itself runs on the same SoC and consumes latency and energy that can offset any generation savings.   This paper proposes a vision for telemetry-informed adaptive compression in edge RAG, grounded in experimental evidence. We characterize the compression tradeoff on the NVIDI
+    
+[^10]: 利用大型语言模型与检索增强生成技术自动化金融新闻摘要：一项初步实证研究（2023年秋季）
+
+    Automated Summarization of Financial News Using Large Language Models and Retrieval-Augmented Generation: An Early Empirical Study (Fall 2023)
+
+    [https://arxiv.org/abs/2608.19526](https://arxiv.org/abs/2608.19526)
+
+    本研究构建了一个自动化金融新闻摘要流程，通过将股票数据转换为自然语言，并比较不同摘要方法，证明了大型语言模型在金融信息处理中的可行性。
+
+    
+
+    股票市场分析师和投资者每天面临一个挑战：金融新闻太多，时间太少。手动阅读和综合数百篇公司特定文章是不切实际的，但错过关键信息可能直接影响投资决策。本项目于2023年秋季在乔治华盛顿大学开展，探讨大型语言模型能否可靠地自动化这一过程。我们构建了一个流程，从News API获取新闻文章，从Wikipedia获取公司背景，从Yahoo Finance获取十家主要公司（AAPL、MSFT、GOOGL、AMZN、META、TSLA、JPM、NVDA、WMT、DIS）的股价数据。由于LLM无法直接处理数值表格，我们开发了一种简单但有效的模板，将股票数据转换为自然语言叙述。随后，我们测试了两种摘要方法（Summarize Chains和基于FAISS的检索增强生成），使用了三种开源模型（Falcon-7B-Instruct、...），并进行了初步实证比较。
+
+    arXiv:2608.19526v1 Announce Type: cross  Abstract: Stock market analysts and investors face a daily challenge: too much financial news, too little time. Manually reading and synthesizing hundreds of company-specific articles is impractical, yet missing key information can directly affect investment decisions. This project, conducted at George Washington University in Fall 2023, explores whether Large Language Models can automate this process reliably. We built a pipeline that pulls news articles from the News API, company background from Wikipedia, and stock price data from Yahoo Finance for ten major companies (AAPL, MSFT, GOOGL, AMZN, META, TSLA, JPM, NVDA, WMT, DIS). Because LLMs cannot directly process numerical tables, we developed a simple but effective template that converts stock data into natural language narratives. We then tested two summarization approaches (Summarize Chains and Retrieval-Augmented Generation with FAISS) across three open-source models (Falcon-7B-Instruct, 
+    
+[^11]: HARP：基于偏好自适应融合的分层自适应排序用于查询驱动的CVE优先级排序
+
+    HARP: Hierarchical Adaptive Ranking with Preference-Adaptive Fusion for Query-Based CVE Prioritization
+
+    [https://arxiv.org/abs/2608.19430](https://arxiv.org/abs/2608.19430)
+
+    本论文提出了HARP框架，通过利用历史标记案例和漏洞知识图谱，实现了无需显式偏好描述的查询驱动CVE优先级排序，解决了不同操作偏好场景下的自适应排序问题。
+
+    
+
+    arXiv:2608.19430v1 公告类型：交叉 摘要：漏洞优先级排序本质上是依赖于偏好的，因为同一个CVE在不同的操作偏好场景下可能获得不同的修复优先级。现有的评分系统和排序方法通常假设一个固定的标准。在实践中，组织已经在某种偏好场景下运作，但这种偏好通常是隐性的，难以用书面提示指令表达，而分诊查询通常不包含该偏好。当前场景下过去已验证的分诊案例更容易获得。我们研究了在这种设置下的查询驱动的CVE优先级排序，并提出了HARP，一个图基础的、多视图框架，它从自然语言查询中，结合当前偏好场景下的历史标记示例支持库，对候选对象进行排序，而无需该场景的显式文本摘要。HARP从漏洞知识图谱中检索证据，并评分...
+
+    arXiv:2608.19430v1 Announce Type: cross  Abstract: Vulnerability prioritization is inherently preference dependent, since the same CVE can receive different remediation priority under different operational preference scenarios. Existing scoring systems and ranking methods typically assume a fixed criterion. In practice, organizations already operate under a preference scenario, but this preference is often implicit and difficult to express as a written prompt instruction, while triage queries usually do not encode it. Past validated triage cases under the current scenario are more readily available. We study query-based CVE prioritization in this setting and propose HARP, a graph-grounded multi-view framework that ranks candidates from a natural-language query together with a support bank of historical labeled examples from the current preference scenario, without requiring an explicit textual summary of that scenario. HARP retrieves evidence from a vulnerability knowledge graph, score
+    
+[^12]: 超越均匀比特分配的量化方法
+
+    Quantization Beyond Uniform Bit Allocation
+
+    [https://arxiv.org/abs/2608.19388](https://arxiv.org/abs/2608.19388)
+
+    本文提出一种可变比特分配量化框架，通过非均匀分配存储空间，在相同内存预算下显著提升量化质量，优于均匀分配基线。
+
+    
+
+    摘要：量化是处理现代模型生成的嵌入向量规模不断增长的基本技术。现有量化方案大多与嵌入内容无关，并在各维度上均匀分配比特。然而，近期模型生成的嵌入具有显著的几何结构。在本研究中，我们探讨在固定内存预算下，可变比特分配方案是否能提高量化质量。我们提出了一种简单的可变比特分配框架，该框架将嵌入划分为连续的桶，并在桶之间非均匀地分配存储空间。通过贪婪分配策略，我们将此框架应用于乘积量化（PQ）和标量量化（SQ）。我们在已知具有Matryoshka属性（MRL）的嵌入上进行了系列实验，并一致观察到，在相同存储预算下，非均匀分配优于均匀基线。最大改进发生在……
+
+    arXiv:2608.19388v1 Announce Type: new  Abstract: Quantization is a fundamental technique to handle the growing sizes of embeddings generated by modern models. Existing quantization schemes are largely embedding agnostic and allocate bits uniformly across dimensions. However, recent models produce embeddings with significant geometric structure. In this work, we investigate whether a variable bit allocation scheme can improve quantization quality under a fixed memory budget. We propose a simple variable bit allocation framework that partitions an embedding into contiguous buckets and allocates storage non-uniformly across them. Using a greedy allocation strategy, we instantiate this framework for both Product Quantization (PQ) and Scalar Quantization (SQ). We perform a series of experiments on embeddings known to have the Matryoshka property (MRL), and consistently observe that non-uniform allocations outperform uniform baselines at identical storage budgets. The largest improvements oc
+    
+[^13]: CrossQ：面向晚期交互检索的任务对齐跨令牌条件量化
+
+    CrossQ: Task-Aligned Cross-Token Conditional Quantization for Late Interaction Retrieval
+
+    [https://arxiv.org/abs/2608.19204](https://arxiv.org/abs/2608.19204)
+
+    CrossQ通过索引时轻量级文档上下文条件化令牌编码，结合排序对齐训练目标，在极低比特率下显著提升晚期交互检索的排序质量，同时大幅压缩索引存储。
+
+    
+
+    晚期交互检索器如ColBERT虽然质量高，但多向量索引开销大。标准压缩方法最小化令牌重建误差，而排序性能关键取决于保留稀疏“胜出”令牌的分数。我们提出CrossQ，通过在索引时计算（但不存储）轻量级文档上下文，对令牌编码进行条件化，自适应提高文档内的有效令牌保真度。CrossQ使用与排序对齐的目标进行训练，保留候选分数分布并保护难负样本的间隔。在2 B/token下，CrossQ在MRR@10上比最强严格足迹匹配量化基线提高+0.010，比最强候选匹配系统参考提高+0.012。在九个数据集的BEIR子集上，CrossQ在4 B/token下比最强候选匹配系统参考平均nDCG@10提高+0.009。在4 B/token下，CrossQ实现64倍原始令牌存储缩减。
+
+    arXiv:2608.19204v1 Announce Type: new  Abstract: Late-interaction retrievers like ColBERT achieve high quality but suffer from large multi-vector indices. Standard compression minimizes token reconstruction error, while ranking depends critically on preserving scores of sparse "winner" tokens. We introduce CrossQ, which adaptively improves effective token fidelity within documents by conditioning token codes on lightweight document context computed at indexing time (but not stored). CrossQ is trained with ranking-aligned objectives that preserve candidate score distributions and protect hard-negative margins. At 2 B/token, CrossQ improves MRR@10 by +0.010 over the strongest strictly footprint-matched quantization baseline and by +0.012 over the strongest candidate-matched system reference. On a nine-dataset BEIR subset, CrossQ improves average nDCG@10 by +0.009 at 4 B/token over the strongest candidate-matched system reference. At 4 B/token, CrossQ achieves 64x raw token-storage reduct
+    
+[^14]: 文献中生物信息学软件命名实体的自动识别
+
+    Automatic bioinformatic software named entity recognition from literature
+
+    [https://arxiv.org/abs/2608.19201](https://arxiv.org/abs/2608.19201)
+
+    本文提出了SNAIL，一种混合命名实体识别框架，通过结合词汇和语义策略自动识别生物医学文献中的软件和数据库名称，解决了生物信息学资源目录不完整的问题。
+
+    
+
+    arXiv:2608.19201v1 公告类型：交叉 摘要：生物信息学软件和数据库是现代生命科学研究的重要组成部分，然而它们在科学文献中的提及往往不一致，难以大规模系统识别。缺乏全面且最新的生物信息学资源目录阻碍了自动化生物医学知识提取和简化数据分析的努力。在此，我们提出了SNAIL，一种混合命名实体识别框架，旨在自动从生物医学文本中识别生物信息学软件和数据库（SW/DB）名称。SNAIL整合了互补的词汇和语义建模策略。词汇组件捕获SW/DB名称特有的正字法模式和上下文线索，而语义组件利用基于Transformer的语言模型（如SciBERT）生成的上下文嵌入，并结合显式令牌掩蔽策略以增强实体聚焦表示。
+
+    arXiv:2608.19201v1 Announce Type: cross  Abstract: Bioinformatics software and databases are essential components of modern life science research, yet their mentions in the scientific literature are often inconsistent and difficult to systematically identify at scale. The lack of a comprehensive and up-to-date catalog of bioinformatics resources hinders efforts toward automated biomedical knowledge extraction and streamlined data analysis. Here we present SNAIL, a hybrid named entity recognition framework designed to automatically identify bioinformatics software and database (SW/DB) names from biomedical texts. SNAIL integrates complementary lexical and semantic modeling strategies. The lexical component captures orthographic patterns and contextual cues characteristic of SW/DB names, while the semantic component leverages contextual embeddings generated by transformer-based language models such as SciBERT, combined with an explicit token-masking strategy to enhance entity-focused rep
+    
+[^15]: 石油工程师协会实践社区中的虚拟成员：从原型到部署
+
+    A Virtual Member of a Community of Practice for the Society of Petroleum Engineers: From Prototype to Deployment
+
+    [https://arxiv.org/abs/2608.19199](https://arxiv.org/abs/2608.19199)
+
+    本文介绍了ATHENA虚拟助手的升级版，通过改进多文档检索、答案验证和主动传播，显著提升了石油工程师在井规划任务中的知识支持效率和绩效。
+
+    
+
+    我们描述了一个名为ATHENA的虚拟助手的演变过程，该助手旨在支持石油和天然气领域实践社区（CoP）成员的知识捕获、检索和传播。对涉及石油工程协会（SPE）75名专业人士的首个原型的评估显示，与使用最先进的RAG基线系统相比，ATHENA在一组现实井规划任务中显著提高了他们的生产力和绩效均等性。然而，评估也指出了需要改进的领域。本文描述了我们对首个原型在多文档检索、答案验证支持以及更聚焦的主动传播方面的技术进展。评估结果表明，这种增强版的ATHENA在完成与井规划相关的知识密集型任务方面，提供了比最先进基线系统更好的支持。
+
+    arXiv:2608.19199v1 Announce Type: cross  Abstract: We describe the evolution of a virtual assistant, called ATHENA, designed to support the capture, retrieval, and dissemination of knowledge for members of a Community of Practice (CoP) related to the Oil and Gas sector. An evaluation of a first prototype involving 75 professionals from the Society of Petroleum Engineering (SPE) showed that ATHENA dramatically improved both their productivity and performance equality on a set of realistic well-planning tasks compare to their use of a state-of-the-art RAG baseline system. However, the evaluation also identified areas for improvement. This paper describes technical advances to our first prototype in the areas of multi-document retrieval, support for answer validation, and more focused proactive dissemination. Evaluation results show that this enhanced version of ATHENA provides better support for completing knowledge-intensive tasks related to well planning than does a state-of-the-art ba
+    
+[^16]: GateDiffInt：基于门控介导的可控扩散与多意图大语言模型蒸馏的用户行为建模
 
     GateDiffInt: Gate-Mediated Controllable Diffusion and Multi-Intent LLM Distillation for User Behavior Modeling
 
@@ -101,7 +258,7 @@
 
     arXiv:2608.18764v1 Announce Type: new  Abstract: Existing ranking models encode intent only implicitly, making it hard to disentangle structured intents of varying strength and temporal scale. Noise and intent in behavior sequences are mutually reinforcing---we call this Noise--Intent Coupling (NIC). Noise dilutes true intents, while the lack of structured intent priors leaves denoising without a clear target.To address NIC, we propose GateDiffInt, an intent interaction framework for industrial ranking. It uses the final conversion signal to jointly align sequence denoising and intent extraction. GateDiffInt applies a controllable forward diffusion process with dual gating to enhance and denoise behavior sequences. A large language model then acts as teacher to distill four structured intents---long-term, short-term, latent, and conversion---into a lightweight student model. The enhanced sequence and structured intent representations are deeply fused via attention to produce intent-awa
     
-[^6]: 希腊法律条文检索基准：GreekBarRetrieval
+[^17]: 希腊法律条文检索基准：GreekBarRetrieval
 
     GreekBarRetrieval: A Benchmark for Greek Statutory Retrieval
 
@@ -115,35 +272,7 @@
 
     arXiv:2608.18752v1 Announce Type: cross  Abstract: Statutory retrieval is necessary for citation-grounded legal question answering, but remains underexplored for Greek. We introduce GreekBarRetrieval, a public retrieval benchmark derived from, and complementing GreekBarBench, which did not include retrieval. The new benchmark comprises 283 bar-exam questions, each accompanied by the facts of the case it refers to, and 6,308 candidate statutory articles to retrieve from. Questions and facts are stated in everyday language, but need to be mapped to the formal terminology of statutes and their abstract legal concepts. A further complication is that not all of the case facts are relevant to each question of a case. Experimenting with three BM25 variants and nine dense retrievers, we find that vanilla dense retrieval far outperforms vanilla sparse retrieval in Recall@100. However, LLM-based query reformulation helps BM25 close that gap, while also improving dense retrieval. With a ten-round
     
-[^7]: 面向机器学习应用的网页视觉感知表示
-
-    Visual-Aware Representation of Web Pages for Machine Learning Applications
-
-    [https://arxiv.org/abs/2608.18727](https://arxiv.org/abs/2608.18727)
-
-    该平台利用FitLayout渲染网页并生成RDF表示的视觉感知数据，通过REST API和SPARQL查询支持机器学习应用，实现细粒度布局数据的共享。
-
-    
-
-    arXiv:2608.18727v1 公告类型：新公告 摘要：将机器学习应用于网页具有挑战性，因为需要解释HTML及其相关资源，并执行渲染以获得有意义的视觉和布局感知表示。因此，基于网页内容的机器学习研究相对不足。在本文中，我们提出了一个基于开源渲染工具FitLayout的视觉感知表示和网页机器学习平台。该平台提供能够渲染网页的服务器，明确捕获其视觉和结构属性为基于RDF的表示，并将渲染后的文档持久化在集成存储中。处理流程通过REST API控制，而SPARQL查询用于检索适合作为机器学习算法输入的结构化数据。通过显式建模渲染后的网页（包括细粒度布局细节），该平台实现了数据集共享。
-
-    arXiv:2608.18727v1 Announce Type: new  Abstract: Applying machine learning to web pages is challenging due to the need to interpret HTML together with associated resources and perform rendering to obtain a meaningful visual and layout-aware representation. As a result, machine learning over web content remains comparatively underexplored. In this paper, we present a platform for visual-aware representation and machine learning over web pages based on the open-source rendering tool FitLayout. The platform provides a server capable of rendering web pages, explicitly capturing their visual and structural properties in an RDF-based representation, and persisting the rendered documents in an integrated storage. The processing pipeline is controlled via a REST API, while SPARQL queries are used to retrieve structured data suitable as input for machine learning algorithms. By explicitly modeling rendered web pages, including fine-grained layout details, the platform enables dataset sharing an
-    
-[^8]: 通过建模时间表示实现历史图像组合检索
-
-    Composed Historical Image Retrieval by Modeling Temporal Representations
-
-    [https://arxiv.org/abs/2608.18694](https://arxiv.org/abs/2608.18694)
-
-    本文提出了一种名为TDIR的表示学习方法，通过正交子空间将历史图像分解为时间和内容成分，在保留时间结构的同时维持检索性能，并提供了数学基础与误差分析。
-
-    
-
-    摘要：虽然时间呈线性演变，但神经嵌入空间的几何结构本质上是多维的，通常混乱且难以解释。原则上，可以将嵌入空间约束为单一时间维度；然而，这种缩减会牺牲下游任务的性能，因为一维嵌入无法保留足够的表达能力。本文探讨是否可能学习既保留时间结构又对图像和物体检索有效的表示，并通过构建此类系统的数学基础来回答这一问题。我们提出了时间可分解图像表示（TDIR），一种表示学习算法，通过正交子空间将历史照片分解为独立的日期和内容组件。我们定义并证明了此类分解可实现的条件，并刻画了所引入的误差。
-
-    arXiv:2608.18694v1 Announce Type: cross  Abstract: While time evolves linearly, the geometry of neural embedding spaces is inherently multi-dimensional, often chaotic, and difficult to interpret. In principle, one could constrain an embedding space to a single temporal dimension; however, such a reduction would sacrifice performance on downstream tasks, as one-dimensional embeddings cannot retain sufficient expressive capacity. This paper asks whether it is possible to learn representations that preserve temporal structure while remaining effective for image and object retrieval, and answers this question by building the mathematical foundations of such a system. We propose Temporally Decomposable Image Representations (TDIR), a representation learning algorithm that decomposes historical photographs into separate date and content components through orthogonal subspaces. We define and prove the conditions under which such a decomposition is achievable, characterize the error incurred w
-    
-[^9]: PILOT技术报告
+[^18]: PILOT技术报告
 
     PILOT Technical Report
 
@@ -157,7 +286,7 @@
 
     arXiv:2608.18637v1 Announce Type: new  Abstract: Existing agentic approaches for recommendation system optimization remain fundamentally reactive: they adjust parameters in response to observed metric changes but lack the ability to proactively design controlled experiments, personalize strategies at the user-segment level, or accumulate reusable experimental methodology across tasks. We present PILOT (Proactive Insight Learner for Online Tree-Experiments), an LLM-agent framework that organizes three roles within a constrained control loop where deterministic services enforce all safety, statistical, and permission boundaries: (1) an Experiment Manager that drives the full experiment lifecycle -- task intake, observation governance, anomaly recovery, and postmortem -- by selecting only from a rule-generated legal-command envelope; (2) a Search Planner that proposes candidate decision trees for user-segment-level personalization, invoked only when the Manager requests planning; and (3) 
     
-[^10]: 一模型：平台级多场景排序的统一基础
+[^19]: 一模型：平台级多场景排序的统一基础
 
     OneModel: A Unified Foundation for Platform-Scale Multi-Scenario Ranking
 
@@ -171,228 +300,144 @@
 
     arXiv:2608.18606v1 Announce Type: new  Abstract: Platform-scale recommender systems often span multiple business streams such as organic recommendation, advertising, and merchant services, where user behaviors form a continuous cross-stream trajectory. Maintaining separate ranking systems fragments user representations and increases engineering cost. We propose \textbf{OneModel}, a unified framework for multi-stream final ranking. OneModel maps heterogeneous behaviors into shared event sequences, learns long-context user representations with an action-oriented backbone, and introduces \emph{Scenario-aware Information Modulation} to balance cross-stream transfer and stream-specific specialization. For production deployment, OneModel further adopts stratified user representation, multi-objective training, and optimized online serving with feature decomposition, user feature prefetching, shared user-tower computation, and graph-level inference optimization. We deploy OneModel in productio
     
-[^11]: FinRCA-Bench：面向金融AI系统的证据检索与推理基准测试
+[^20]: 确保可靠：为自信的多轮LLM推荐提供信息丰富的交互
 
-    FinRCA-Bench: Benchmarking Evidence Retrieval and Reasoning for Financial AI Systems
+    Ask to Be Sure: Informative Interactions for Confident Multi-Turn LLM Recommendation
 
-    [https://arxiv.org/abs/2608.18534](https://arxiv.org/abs/2608.18534)
+    [https://arxiv.org/abs/2608.15949](https://arxiv.org/abs/2608.15949)
 
-    FinRCA-Bench是一个合成金融对账基准，通过分离证据检索与推理评估，揭示了金融AI系统在证据获取和推理质量上的独立性能。
-
-    
-
-    大型语言模型越来越多地被用于支持金融操作，但其表面上的推理性能可能取决于它们是否获得了正确的证据。在金融对账中，诊断所需的证据分布在发票、采购订单、审批、分配、付款、总账分录和银行活动中，这些证据通过交易关系而非文本相似性相互关联。因此，端到端的准确性可能将证据获取与推理质量混为一谈。我们引入了FinRCA-Bench，这是一个确定性的合成基准测试，包含2,250个应付账款到银行的对账案例，涵盖14个操作表，其中包括1,500个跨15个因果类别的注入故障和750个合法或硬负样本案例。根本原因标签和记录级证据契约对模型隐藏，使得检索可以独立于答案正确性进行评估。我们比较了规则/SQL、经典机器学习方法。
-
-    arXiv:2608.18534v1 Announce Type: new  Abstract: Large language models are increasingly used to support financial operations, but their apparent reasoning performance can depend on whether they receive the right evidence. In financial reconciliation, the evidence needed for diagnosis is distributed across invoices, purchase orders, approvals, allocations, payments, ledger entries, and bank activity, linked by transactional relationships rather than textual similarity. End-to-end accuracy can therefore conflate evidence access with reasoning quality. We introduce FinRCA-Bench, a deterministic synthetic benchmark of 2,250 accounts-payable-to-bank reconciliation cases spanning 14 operational tables, including 1,500 injected failures across 15 causal categories and 750 legitimate or hard-negative cases. Root-cause labels and record-level evidence contracts are hidden from the model, allowing retrieval to be evaluated independently of answer correctness. We compare Rules/SQL, classical mach
-    
-[^12]: 减轻技师检索负担：针对塞斯纳172维修手册的多模态RAG系统
-
-    Reducing Technician Search Burden: A Multimodal RAG for Cessna 172 Maintenance Manual
-
-    [https://arxiv.org/abs/2608.18465](https://arxiv.org/abs/2608.18465)
-
-    本研究开发了一种针对塞斯纳172维修手册的多模态检索增强生成系统，通过同时检索文本和图像页面，显著减少了技师查找维修信息的时间负担，达到了93.37%的召回率。
+    本文提出了一种通过熵减少量化交互信息增益并作为奖励微调LLM的新方法，无需真实推荐即可生成策略性多轮对话，提升推荐置信度。
 
     
 
-    正确使用飞机维修手册对于确保维修工作无误至关重要，它提供了程序、图解、注意事项和规格参数。然而，技师常常因为手册难以导航且在严格时间限制下耗时过长而避免查阅。近年来，检索增强生成（RAG）模型被引入飞机维修领域，但现有模型仅侧重于文本检索。因此，本研究以通用航空中广泛使用的塞斯纳172维修手册（C172-MM）为目标，开发了一种能够检索多模态手册页面的多模态手册检索器（MMR）。检索性能通过涵盖程序、图解、警告/安全信息和规格参数的综合查询进行评估；MMR实现了93.37%的召回率@5。在检索之外，还研究了一种多模态RAG（MRAG）流程，其中检索到的页面被输入视觉语言模型，由其生成...
+    arXiv:2608.15949v1 公告类型：交叉 摘要：大型语言模型（LLMs）的最新进展使其能够用作对话式推荐系统（CRS），展现出强大的推荐准确性和自然对话能力。然而，有效引导多轮交互以挖掘用户偏好仍然具有挑战性。现有方法要么使用带有模板化交互的独立强化学习代理，要么通过另一个LLM评判交互性来优化，而不测量实际获得的有用信息量。我们提出了一种新方法，通过助手不确定性的降低（通过推荐上的熵来衡量）来量化每次交互的有效性。我们将这种熵减少作为奖励——不依赖真实推荐（在现实场景中通常不可用）——来微调LLM，从而实现策略性交互生成。使用监督微调（SFT）和直接偏好优化（DPO）的实证结果展示了其有效性。
 
-    arXiv:2608.18465v1 Announce Type: cross  Abstract: Proper use of the aircraft maintenance manual is essential for correct maintenance, providing procedures, diagrams, cautions, and specifications. However, technicians often avoid consulting it because it is difficult to navigate and time-consuming under strict schedules. Retrieval augmented generation (RAG) models have recently been introduced in aircraft maintenance, yet existing models focus solely on textual retrieval. This research therefore targeted the Cessna 172 Maintenance Manual (C172-MM), widely used in general aviation, and developed a multimodal manual retriever (MMR) capable of retrieving multimodal manual pages. Retrieval performance was evaluated using synthetic queries covering procedures, diagrams, caution/safety information, and specifications; the MMR achieved 93.37% recall@5. Beyond retrieval, a multimodal RAG (MRAG) pipeline was examined, in which retrieved pages were input to a vision-language model that generated
+    arXiv:2608.15949v1 Announce Type: cross  Abstract: Recent advances in large language models (LLMs) have enabled their use as conversational recommender systems (CRS), demonstrating strong recommendation accuracy and natural dialogue. However, guiding multi-turn interactions to elicit user preferences effectively remains challenging. Existing approaches either use separate reinforcement learning agents with templated interactions or optimize for interactivity judged by another LLM, without measuring how much useful information is actually gained. We propose a new approach that quantifies the effectiveness of each interaction by the reduction in the assistant's uncertainty, measured via entropy over recommendations. We apply this entropy reduction as a reward---without relying on ground-truth recommendations, which are often unavailable in real-world scenarios---to fine-tune the LLM, enabling strategic interaction generation. Empirical results with supervised fine-tuning (SFT) and direct
     
-[^13]: 更多上下文，相同预算：超越Top-K检索的双界关系召回
+[^21]: LODESTAR：可信熵是被引导的，而非仅被测量——强化极化器防止冻结LLM被错误证据自信误导
 
-    More Context, Same Budget: Dual-Bounded Relational Recall Beyond Top-K Retrieval
+    LODESTAR: Trustworthy Entropy Is Navigated, Not Merely Measured -- Reinforced Polarizer Keeps a Frozen LLM from Being Confidently Misled by the Wrong Evidence
 
-    [https://arxiv.org/abs/2608.18448](https://arxiv.org/abs/2608.18448)
+    [https://arxiv.org/abs/2608.11922](https://arxiv.org/abs/2608.11922)
 
-    本文提出双界关系召回（DBRR）方法，在相同检索预算下通过关系连接证据，显著提升HotpotQA支持证据的完整恢复率，比平面top-k检索提高23.8个百分点。
-
-    
-
-    arXiv:2608.18448v1 公告类型：交叉 摘要：更多上下文并不需要更大的检索预算。在相同的上限下，检索系统可以通过遵循平面top-k排名所遗漏的证据之间的关系，恢复问题所需的更多证据。我们通过双界关系召回（DBRR）来检验这一命题，该机制在相关性选择的种子和有界的图邻接上下文之间分配固定的检索预算，并与使用相同相关性排序阶段和相同最大检索单元及令牌数量的匹配平面top-k检索进行比较。结果是每个问题都能完全恢复官方HotpotQA支持证据集。在7,405个FullWiki问题中，主要DBRR分配使完全支持证据恢复率比其匹配的平面基线提高了23.8个百分点（配对风险差异0.2377；问题级自助法95%区间0.2269至0.2489）。它改善了1,952个问题，在5,26个问题上持平。
-
-    arXiv:2608.18448v1 Announce Type: cross  Abstract: More context does not require a larger retrieval budget. Under the same ceiling, a retrieval system can recover more of the evidence a question requires by following relationships between evidence that flat top-k ranking leaves behind. We test that proposition with Dual-Bounded Relational Recall (DBRR), which allocates a fixed retrieval budget between relevance-selected seeds and bounded graph-adjacent context, against matched flat top-k retrieval using the same relevance-ranking stage and the same maximum number of retrieval units and tokens. The outcome is complete recovery of the official HotpotQA supporting-evidence set for each question.   Across 7,405 FullWiki questions, the Primary DBRR allocation increased complete supporting-evidence recovery by 23.8 percentage points over its matched flat baseline (paired risk difference 0.2377; question-level bootstrap 95% interval 0.2269 to 0.2489). It improved 1,952 questions, tied on 5,26
-    
-[^14]: 搜索中的AI减少出版商引荐流量且未改善用户体验：实验证据
-
-    AI in Search Reduces Publisher Referrals Without Improving User Experience: Experimental Evidence
-
-    [https://arxiv.org/abs/2608.18352](https://arxiv.org/abs/2608.18352)
-
-    本研究通过现场实验证明，谷歌搜索中的生成式AI功能（如AI概览和AI模式）会减少用户对出版商的点击流量，且未改善用户体验，反而可能损害用户信任，对依赖搜索流量的在线出版商构成经济威胁。
+    LODESTAR通过干预文本上下文并利用第三方冻结LLM的不确定性评分，解决了最低熵规则在误导性段落上导致自信错误的问题，从而提升了检索增强问答的可靠性。
 
     
 
-    arXiv:2608.18352v1 公告类型：新 摘要：将生成式AI整合到网络搜索中，为用户查询提供综合答案，改变了人们导航和评估信息的方式，同时引发了对提供底层内容的出版商下游影响的担忧。我们在主导在线搜索平台谷歌搜索上进行了一项预注册的现场实验（N=1,100），以估计AI概览和AI模式对用户行为、感知和出版商流量的因果效应。我们表明，移除AI概览和AI模式会增加对出版商的点击率，而仅使用AI模式的体验会降低点击率，并削弱用户体验和对在谷歌上找到的信息的信任。这些发现表明，将生成式AI整合到网络搜索中重塑了在线注意力，对支撑搜索平台和整体信息生态系统的在线出版商具有经济后果。
+    arXiv:2608.11922v1 公告类型：新 摘要：预测分布熵在检索增强的问答中构成了一个强大的选择规则：在五个问答基准测试中，保持冻结回答型LLM对候选答案生成的最低答案令牌熵，将平均答案F1分数从0.4769提升至0.5148，相对于检索器排名最高的段落，且无需金标准答案。然而，这种最低熵规则（先前的基于熵的选择器所采用的）在一种具体且重要的方式上失败：一个误导性段落使回答者自信地犯错，恰好在其信号看起来最可信的地方降低了熵。我们表明，这种失败源于回答者所读的段落——而该段落被阅读的上下文是我们可干预的输入。我们引入了LODESTAR，据我们所知，这是第一种通过其在第三方冻结回答者中引发的不确定性来评分文本干预的方法，并跨一个问题的候选进行比较。LODESTAR使用
 
-    arXiv:2608.18352v1 Announce Type: new  Abstract: The integration of generative AI into web search delivers synthesized answers to user queries, changing how people navigate and assess information, while raising concerns about the downstream impacts on publishers who supply the underlying content. We conduct a preregistered field experiment (N=1,100) on Google Search, the dominant online search platform, to estimate the causal effects of AI Overviews and AI Mode on user behavior, perceptions, and publisher traffic. We show that removing AI Overviews and AI Mode increases click-through rates to publishers, while an AI Mode-only experience reduces click-through rates and erodes user experience and trust in information found on Google. These findings show that integrating generative AI into web search reshapes online attention, with economic consequences for the online publishers that sustain both search platforms and the overall information ecosystem.
+    arXiv:2608.11922v1 Announce Type: new  Abstract: Predictive-distribution entropy makes a strong selection rule in retrieval-augmented question answering: across five QA benchmarks, keeping the candidate answer that a frozen respondent LLM produces with the lowest answer-token entropy lifts mean answer $F_1$ from 0.4769 to 0.5148 over the retriever's top-ranked passage, with no gold answers. Yet this lowest-entropy rule, which prior entropy-based selectors adopt, fails in a specific and consequential way: a misleading passage makes the respondent confidently wrong, driving its entropy down precisely where the signal looks most trustworthy. We show that the failure comes from the passage the respondent reads -- and the context that passage is read in is an input we can intervene on. We introduce LODESTAR, to our knowledge the first method to score a text intervention by the uncertainty it induces in a third-party frozen respondent, compared across one question's candidates. LODESTAR uses
     
-[^15]: 奈飞多媒体资产通过多模态嵌入实现个性化
+[^22]: 弥合结构差距：自适应自回归生成用于推荐
 
-    Multimedia Asset Personalization via Multimodal Embeddings at Netflix
+    Bridging the Structural Gap: Adapting Autoregressive Generation for Recommendation
 
-    [https://arxiv.org/abs/2608.18322](https://arxiv.org/abs/2608.18322)
+    [https://arxiv.org/abs/2607.21028](https://arxiv.org/abs/2607.21028)
 
-    奈飞利用多模态嵌入（如CLIP）统一了艺术作品个性化模型，实现跨画布知识转移和冷启动性能提升，并扩展至查询感知搜索。
-
-    
-
-    个性化促销资产，即艺术作品图片和视频预览片段，对于奈飞上的内容发现至关重要。传统的资产选择模型依赖于基于ID的交互历史，这使它们对资产内容视而不见，无法服务于新推出的标题和资产。我们描述了多模态嵌入如何重塑了奈飞的生产系统，并报告了为从业者将基础模型嵌入应用于推荐系统的可转移经验。首先，预训练的图像嵌入解锁了跨标题、跨画布的知识转移。通过向双塔模型添加CLIP图像嵌入，一个单一模型即可服务于所有五种奈飞艺术作品画布类型，取代了五个分别训练的每画布模型，并大幅提升了冷启动性能。一个轻量级扩展复用了CLIP的联合文本-图像空间，使艺术作品个性化在搜索中具备查询感知能力。其次，多模态性在性能上决定性胜出。
-
-    arXiv:2608.18322v1 Announce Type: new  Abstract: Personalized promotional assets, namely artwork images and video preview clips, are critical to content discovery on Netflix. Traditional models for asset selection rely on ID-based interaction history, leaving them blind to asset content and unable to serve newly launched titles and assets. We describe how multimodal embeddings reshaped production systems at Netflix and report transferable lessons for practitioners adopting foundation-model embeddings into recommender systems. First, pretrained image embeddings unlock cross-title, cross-canvas knowledge transfer. Augmenting a two-tower model with CLIP image embeddings lets a single model serve all five Netflix artwork canvas types, replacing five separately trained per-canvas models and substantially improving cold-start performance. A lightweight extension reuses CLIP's joint text-image space to make artwork personalization query-aware in search. Second, multimodality decisively beats 
-    
-[^16]: 高风险公共部门应用中开放模型的结构化信息提取评估
-
-    Evaluating Structured Information Extraction with Open Models in a High Risk Public Sector Application
-
-    [https://arxiv.org/abs/2608.18289](https://arxiv.org/abs/2608.18289)
-
-    本文提出了一个针对高风险公共部门应用（如国际学生申请处理）的开源系统端到端结构化信息提取基准，填补了现实多步骤流程评估的空白。
+    本文提出BARGE方法，通过项目上下文感知注意力恢复项目级结构，并采用层次化路径重排序和双路径解码抑制语义漂移，有效弥合了生成式推荐中的结构差距。
 
     
 
-    arXiv:2608.18289v1 公告类型：新 摘要：从非结构化文档中提取结构化信息是各行业数字化转型的关键组成部分。虽然专有解决方案主导商业应用，但快速发展的开源光学字符识别（OCR）引擎、大型语言模型（LLM）和视觉语言模型（VLM）生态系统提供了可访问的替代方案。然而，在现实的多步骤提取流程上进行系统性评估仍然稀缺。负责任的此类提取工具使用要求在现实任务上进行全面评估，尤其是当这些解决方案将成为欧盟AI法案归类为高风险的公共部门应用的关键组件时。为解决这一空白，我们提出了一个综合基准，评估开源系统在复杂真实世界文档处理任务上的端到端性能，该任务被归类为高风险：国际学生申请。
+    生成式推荐（GR）已成为序列推荐的一种新范式，其中代表性工作通过残差量化将项目编码为层次化语义ID，并逐词预测这些ID。然而，这种生成式表述在推荐任务中仍存在结构差距：将多词ID展平为单个序列会破坏项目级结构，而层次化码本上训练与推理之间的不一致性导致语义漂移。为弥合这两个差距，我们提出BARGE，它采用项目上下文感知注意力（ICA）在编码过程中恢复项目级结构，并利用层次化路径重排序（HPR）结合双路径解码（DPD）在解码过程中从两个互补角度抑制语义漂移。在公开基准和大型离线测试上的广泛实验和分析研究表明，该方法显著提升了性能。
 
-    arXiv:2608.18289v1 Announce Type: new  Abstract: The extraction of structured information from unstructured documents represents a critical component of digital transformations in all sectors. While proprietary solutions dominate commercial applications, a rapidly growing ecosystem of open-source Optical Character Recognition (OCR) engines, Large Language Models (LLMs), and Vision-Language Models (VLMs) offers accessible alternatives. However, systematic evaluations on realistic, multi-step extraction pipelines remain scarce. Responsible usage of such extraction tools require comprehensive evaluations on realistic tasks, especially as these solutions will be key components of applications in the public sector that the EU AI act categorizes as high risk. To address this gap we present a comprehensive benchmark assessing the end-to-end performance of open-source systems on a complex real-world document processing task classified as high risk: Student applications for an international stu
+    arXiv:2607.21028v3 Announce Type: replace  Abstract: Generative Recommendation (GR) has emerged as a new paradigm for sequential recommendation, in which a representative line of work encodes items into hierarchical semantic IDs via residual quantization and predicts the IDs token by token. However, this generative formulation still exhibits structural gaps with respect to the recommendation task: flattening multi-token IDs into a single sequence destroys item-level structure, and the inconsistency between training and inference over a hierarchical codebook gives rise to semantic drift. To bridge these two gaps, we propose BARGE, which employs Item Context-Aware Attention (ICA) to restore item-level structure during encoding, and Hierarchical Path Reranking (HPR) together with Dual-Path Decoding (DPD) to suppress semantic drift from two complementary angles during decoding. Extensive experiments and analytical studies on public benchmarks and a large-scale offline test demonstrate that
     
-[^17]: 全球危机与国家政策：德语在线媒体政治内容的大规模分析
+[^23]: 漂移自适应的ICU干预预测：冻结生理编码器以实现可审计的模型更新
 
-    Global Crises and National Policies: A Large Scale Analysis of Political Content in German Language Online Media
+    Drift-Adaptive ICU Intervention Prediction: Freezing the Physiological Encoder for Auditable Model Updating
 
-    [https://arxiv.org/abs/2608.18268](https://arxiv.org/abs/2608.18268)
+    [https://arxiv.org/abs/2607.19020](https://arxiv.org/abs/2607.19020)
 
-    本文通过大规模分析2019-2022年德语在线媒体内容，展示了自动化细粒度政治偏见分析的潜力，并发现德国和瑞士报道在国际事件驱动主题上的相似性与分歧。
-
-    
-
-    摘要：如今，大多数媒体内容都是基于算法推荐消费的。有证据表明，这可能导致政治偏向性的媒体消费模式。从文本中自动提取政治议程可以揭示和分析在线媒体中的政治偏见——从而有助于促进政治无偏见的媒体消费。在此，我们采用现代政治文本分析方法，展示了在线媒体中自动进行细粒度政治偏见分析的潜力。我们对2019年至2022年期间德语在线媒体的政治内容进行了分析，涵盖了数百万篇文章和推文，涉及全球和国家层面具有深远社会影响的事件，包括COVID-19大流行和乌克兰战争的开始。我们的分析识别出国家（德国和瑞士）报道之间的主题相似性，特别是在由国际事件驱动的类别中。我们还发现了分歧。
-
-    arXiv:2608.18268v1 Announce Type: cross  Abstract: Today most media content is consumed based on algorithmic recommendations. Evidence suggests that this can lead to politically biased media consumption patterns. Automated extraction of political agendas from texts can reveal and analyze political biases in online media -- and thus help fostering politically unbiased media consumption. Here we employ modern political text analysis methods demonstrating the potential of automated fine-grained political bias analysis in online media. We conduct an analysis of political content in German language online media during the period 2019--2022, encompassing several million articles and tweets covering events with profound societal impact globally and nationally, the COVID-19 pandemic and the beginning of the war in Ukraine. Our analysis identifies thematic similarity between national (German and Swiss) reporting, particularly for categories driven by international events. We also find divergenc
-    
-[^18]: Redakto - 大型语言模型的隐身标签页
-
-    Redakto - The Incognito Tab for LLMs
-
-    [https://arxiv.org/abs/2608.18260](https://arxiv.org/abs/2608.18260)
-
-    Redakto 是一个用于在将文本输入LLM前进行匿名化和假名化的工具，提供最先进的PII编辑功能，并通过Web应用和开发者接口方便使用。
+    该论文提出了一种双流架构，在模型更新时冻结生理编码器，仅更新治疗流，从而实现可审计的ICU干预预测，且性能与全参数更新相当。
 
     
 
-    大型语言模型（LLM）正日益广泛应用于日常应用中。在使用LLM或一般人工智能（AI）时，一个主要挑战是确保隐私，即从输入LLM的任何文本中移除个人身份信息（PII）。随着欧盟新立法的出台，这些挑战变得更加紧迫。在欧盟国家中，围绕LLM使用和隐私问题的不确定性可能成为创新速度和从研究到应用转化的主要障碍。在此，我们介绍了\textbf{Redakto}，一个可在将文本输入LLM或其他下游文本处理之前用于匿名化的工具。我们提供了最先进的PII编辑功能，同时也支持假名化使用。这些功能通过Redakto Web应用程序可轻松供最终用户使用，也面向开发者和研究人员开放。
+    arXiv:2607.19020v2 公告类型：替换交叉 摘要：随着治疗方案的发展，临床决策支持系统会性能下降，但更新已部署模型的障碍既在于治理也在于准确性：一旦重新训练触及所有参数，之后无人能说明更新作用在何处。我们提出了一种双流架构，将生理（LSTM）表示与治疗（MLP）表示分离。在双重分布/准确性触发条件下，更新仅限于治疗流和融合头，使生理编码器与源模型逐位保持一致。审计日志记录更新所依赖的治疗特征，证据检索将每个实例的PubMed查询与冻结的编码器耦合。我们在按三年时期划分的84,792个MIMIC-IV住院病例上进行了评估。该约束几乎无成本：选择性适应在整体判别力上与无约束的全适应相比无损失（平均AUROC 0.9316对比0.9249；在血管加压药方面领先，其他方面略落后）。
 
-    arXiv:2608.18260v1 Announce Type: new  Abstract: Large Language Models (LLMs) are being increasingly used in everyday applications. A major challenge in the context of LLMs or Artificial Intelligence (AI) in general is to ensure privacy when using them, meaning that personally identifiable information (PII) is removed from any text that enters an LLM. These challenges have become more urgent with novel EU legislation. Uncertainty around LLM usage with respect to privacy concerns in EU countries can be a major blocker for the speed of innovation and transfer from research to applications. Here we present \textbf{Redakto}, a tool that can be used for anonymizing text prior to feeding it to an LLM or other downstream text processing. We provide state-of-the-art functionalities for both redaction of PII but also when used for pseudonymization. These functionalities are exposed such that they can easily be used by end-users, through the Redakto web application, and by developers and researc
+    arXiv:2607.19020v2 Announce Type: replace-cross  Abstract: Clinical decision support degrades as treatment protocols evolve, but the obstacle to updating a deployed model is governance as much as accuracy: once retraining touches every parameter, no one can say afterwards where the update acted. We propose a two-stream architecture separating physiological (LSTM) from treatment (MLP) representations. On a dual distributional/accuracy trigger, updates are confined to the treatment stream and fusion head, leaving the physiological encoder bitwise identical to the source model. Audit logs record which treatment features the update relied on, and evidence retrieval couples per-instance PubMed queries to the frozen encoder. We evaluate on 84,792 MIMIC-IV stays split by three-year era. The constraint proved close to free: selective adaptation cost nothing in aggregate discrimination against unconstrained full adaptation (mean AUROC 0.9316 vs. 0.9249; ahead on vasopressor, marginally behind o
     
-[^19]: MITRE-SAGE：一种多智能体网络安全问答模型
+[^24]: 正确的技能族，错误的技能项：智能体技能检索中的风险暴露基准测试
 
-    MITRE-SAGE: A Multi-Agent Cybersecurity Question-Answering model
+    Right Family, Wrong Skill: Benchmarking Risk Exposure in Agent Skill Retrieval
 
-    [https://arxiv.org/abs/2608.16921](https://arxiv.org/abs/2608.16921)
+    [https://arxiv.org/abs/2606.10388](https://arxiv.org/abs/2606.10388)
 
-    MITRE-SAGE通过多智能体检索增强生成框架，结合语义与结构化网络安全知识，解决了LLM在网络安全问答中的知识不足和幻觉问题，提升了可靠性和可解释性。
-
-    
-
-    有效的网络安全运营需要及时、准确地分析大规模异构安全信息；然而，分析师日益面临信息过载、警报疲劳和时间受限的决策挑战。尽管大型语言模型（LLMs）在问答（QA）方面展现出有前景的能力，但其在网络安全领域的有效性仍受限于领域知识不足、易产生幻觉以及难以捕捉语义和结构关系的缺陷。本工作提出MITRE-SAGE，一种多智能体检索增强生成框架，该框架整合语义和结构化的网络安全知识，以提高基于LLM的问答系统的可靠性和可解释性。通过将复杂任务分解为查询解释、证据检索和答案合成，MITRE-SAGE有效支持漏洞评估、威胁分析等网络安全任务。
-
-    arXiv:2608.16921v1 Announce Type: cross  Abstract: Effective cybersecurity operations require timely and accurate analysis of large-scale heterogeneous security information; however, analysts increasingly struggle with information overload, alert fatigue, and time-constrained decision-making. Although large language models (LLMs) have demonstrated promising capabilities for question answering (QA), their effectiveness in cybersecurity remains limited by insufficient domain knowledge, a tendency to hallucinate, and difficulties in capturing both semantic and structural relationships. This work proposes MITRE-SAGE, a multi-agent retrieval-augmented generation framework that integrates semantic and structural cybersecurity knowledge to improve the reliability and interpretability of LLM-based QA systems. By decomposing complex tasks into query interpretation, evidence retrieval, and answer synthesis, MITRE-SAGE effectively supports cybersecurity tasks such as vulnerability assessment, thr
-    
-[^20]: 仅基于分数的紧凑型稠密检索蒸馏
-
-    Score-Only Distillation for Compact Dense Retrieval
-
-    [https://arxiv.org/abs/2607.11465](https://arxiv.org/abs/2607.11465)
-
-    本文提出仅利用分数向量进行蒸馏的方法，使紧凑检索器恢复教师排名差距的50%，同时实现4.7倍查询编码和9.7倍文档编码的速度提升。
+    本文提出了SameCapRisk-Bench基准，专门研究智能体技能检索中“找到正确技能族但暴露错误同族技能”的风险暴露失败，并提供了1,190个技能-风险单元和1,686个评估查询案例。
 
     
 
-    arXiv:2607.11465v2 公告类型：替换 摘要：大型嵌入模型提升了检索质量，但在线服务大型编码器成本高昂。我们研究紧凑型检索器是否能够仅从分数向量学习教师的排名行为，而无需访问教师的隐藏状态。学生模型在由真实正例和我们的数据生成流程产生的负候选构建的行上进行训练；我们将学生-教师硬负样本挖掘作为扩展单独评估。我们采用行中心分数向量目标，这是统一全对PairMSE损失的内存高效实现。在固定的八任务评估面板上，我们的蒸馏协议恢复了基础模型到教师差距的50%。蒸馏后的0.6B学生模型在查询编码上速度快4.7倍，在文档编码上比顺序在线教师融合快9.7倍。蒸馏后的外部迁移性能仍然参差不齐，因此我们的证据支持在匹配重排场景下压缩教师排名。
+    arXiv:2606.10388v2 公告类型：替换-交叉 摘要：智能体技能库正成为可路由的软件资产：检索到的技能可以为智能体提供指令、脚本、资源绑定和执行假设。这使得检索失败比广泛的不相关性更具特异性。系统可能找到正确的技能族，却暴露了错误的同族代表性技能。我们将这种失败研究为同族风险暴露检索。每个基准单元将一个有用的技能与一个查询特定的风险孪生技能配对，该孪生技能共享技能族但在执行控制契约（如所需资源、前置条件、过程或工件）上有所不同。我们引入了SameCapRisk-Bench，一个可审计的基准测试，包含1,190个技能-风险单元和1,686个评估查询案例：694个在公共库压力下的标记孪生单元，以及496个硬角色翻转单元，其中相同的两个技能在配对查询中交换有用/风险角色。发布记录包括资格标准、排除规则、查询生成协议和验证程序。
 
-    arXiv:2607.11465v2 Announce Type: replace  Abstract: Large embedding models improve retrieval quality, but serving large encoders online is expensive. We study whether a compact retriever can learn teacher ranking behavior from score vectors without access to teacher hidden states. The student trains on rows built from ground-truth positives and negative candidates produced by our data generation pipeline; we evaluate student-teacher hard-negative mining separately as an extension. We use a row-centered score-vector objective, a memory-efficient implementation of uniform all-pairs PairMSE loss. On a fixed eight-task evaluation panel, our distillation protocol recovers up to 50% of the base-to-teacher gap. The distilled 0.6B student is 4.7 times faster for query encoding and 9.7 times faster for document encoding than sequential online teacher fusion. External-transfer performance after distillation remains mixed, so our evidence supports compression of teacher rankings under matched re
+    arXiv:2606.10388v2 Announce Type: replace-cross  Abstract: Agent skill libraries are becoming routable software assets: a retrieved skill can contribute instructions, scripts, resource bindings, and execution assumptions to an agent. This makes retrieval failures more specific than broad irrelevance. A system can find the right capability family yet expose the wrong same-capability representative. We study this failure as same-capability risk-exposure retrieval. Each benchmark unit pairs a helpful skill with a query-specific risky sibling that shares the capability family but differs on an execution-controlling contract, such as the required resource, precondition, procedure, or artifact. We introduce SameCapRisk-Bench, an auditable benchmark with 1,190 skill-risk units and 1,686 evaluation query cases: 694 marked-sibling units under public library pressure and 496 hard role-flip units where the same two skills swap helpful/risky roles across paired queries. The release records admissi
     
-[^21]: ICICLE：利用上下文文档扩展检索
+[^25]: BRIDGE：行为引导的残差整合与双频图证据
 
-    ICICLE: Expanding Retrieval with In-Context Documents
+    BRIDGE: Behavior-Guided Residual Integration with Dual-Frequency Graph Evidence
 
-    [https://arxiv.org/abs/2605.26902](https://arxiv.org/abs/2605.26902)
+    [https://arxiv.org/abs/2605.22073](https://arxiv.org/abs/2605.22073)
 
-    ICICLE通过将新文档作为推理时的上下文证据，结合复制路由和校准机制，实现了无需重新训练即可扩展生成式检索的增量索引。
-
-    
-
-    生成式检索（GR）利用参数化知识将查询直接映射到文档标识符（docids）。然而，这种设计使得语料库扩展成本高昂：添加新文档需要更新模型参数以编码新的文档-docid关联，这会导致重复训练和对先前索引文档的灾难性遗忘。在本工作中，我们将增量GR重新审视为一个上下文内检索问题，其中新添加的文档作为推理时的文档-docid证据提供。我们提出ICICLE，一种上下文内索引框架，它在参数化记忆和上下文提供的文档-docid对上进行源感知的docid生成。ICICLE结合了基于`[COPY]`的路由机制、基于偏好的校准以及大型上下文适应，以区分上下文基于的检索与参数化检索。在MS MARCO和NQ320K上的实验表明，ICICLE提高了新引入文档的检索性能。
-
-    arXiv:2605.26902v3 Announce Type: replace-cross  Abstract: Generative retrieval (GR) maps queries directly to document identifiers (docids) using parametric knowledge, However, this design makes corpus expansion costly: adding new documents requires updating model parameters to encode new document-docid associations incurs repeated training and catastrophic forgetting of previously indexed documents. In this work, we revisit incremental GR as an in-context retrieval problem, where newly added documents are supplied as inference-time document-docid evidence. We propose ICICLE, an in-context indexing framework that performs source-aware docid generation over both parametric memory and context-provided document-docid pairs. ICICLE combines a `[COPY]`-based routing mechanism, preference-based calibration, and large context adaptation to distinguish context-grounded retrieval from parametric retrieval. Experiments on MS MARCO and NQ320K show that ICICLE improves retrieval of newly introduce
-    
-[^22]: 预测开放域问答中检索增强的益处
-
-    Predicting the Benefit of Retrieval Augmentation in Open-Domain Question Answering
-
-    [https://arxiv.org/abs/2604.07985](https://arxiv.org/abs/2604.07985)
-
-    本文提出了一种基于多种信号（包括LLM内部状态探测）的预测方法，用于判断检索是否有助于提升问答质量，并据此构建了动态选择检索或非检索模式的选择性框架，在性能上接近计算密集型的生成后方法。
+    BRIDGE提出了一种行为引导的残差整合框架，通过双频图证据分离和候选集内证据应用，解决了多模态推荐中对齐强度与排序性能之间的非线性关系。
 
     
 
-    arXiv:2604.07985v3 公告类型：替换 摘要：虽然检索增强生成已成为增强问答系统的常见方法，但检索并非总是有利的。我们研究了预测对于给定问题，纳入外部检索信息是否可能提高回答质量的问题。为此，我们评估了一系列基于检索信号、回答特征以及生成回答与检索段落之间语义一致性的预测方法。我们进一步设计了一种探测大语言模型内部状态的预测器，其预测性能显著缩小了计算密集型的生成后方法与生成前（检索后）方法之间的性能差距。我们利用这些预测方法构建了一个选择性检索框架，该框架能够根据每个问题动态选择检索或非检索生成模式。实验结果表明，该选择性框架……（摘要在此处截断）
+    多模态推荐通过结合视觉、文本和协同信号来改善物品表示，但更强的跨视图对齐并不总能提升排序性能。我们在Amazon Baby数据集上的诊断显示，直接一致性存在有效范围：适度的对齐有助于性能提升，而更强的对齐则会抑制推荐特有的变异性。我们还观察到明显的频谱分离：低频成分捕获共享结构，而高频成分保留更多私有排序信号。基于这些发现，我们提出了BRIDGE，一个建立在双频图证据上的行为引导残差整合框架。BRIDGE将模型分为三个部分：DFGE将图平滑的ID、视觉和文本通道分解为频谱带；BEN将仅训练时的共用户重叠转化为有符号的候选证据；CRI仅在训练过程中将该证据应用于基础Top-K候选集内部。
 
-    arXiv:2604.07985v3 Announce Type: replace  Abstract: While retrieval augmented generation has become a common approach for enhancing question answering systems, retrieval is not universally advantageous. We study the problem of predicting whether incorporating external retrieved information is likely to improve response quality for a given question. To this end, we evaluate a range of prediction methods that are based on retrieval signals, answer characteristics, and semantic consistency between generated responses and retrieved passages. We further devise a predictor that probes the LLM's internal state. Its prediction performance significantly narrows the performance gap between post-generation methods which are computationally demanding and pre-generation (post-retrieval) methods. We use the prediction methods to devise a selective retrieval framework that dynamically chooses between retrieval and non-retrieval generation modes per question. Experimental results demonstrate that sel
+    arXiv:2605.22073v2 Announce Type: replace  Abstract: Multimodal recommendation improves item representations by combining visual, textual, and collaborative signals, but stronger cross-view alignment does not always improve ranking. Our diagnostics on Amazon Baby show that direct consistency has an effective range: moderate alignment helps, while stronger alignment suppresses recommendation-specific variation. We also observe a clear spectral split: low-frequency components capture shared structure, whereas higher-frequency components retain more private ranking signal. Based on these findings, we propose BRIDGE, a behavior-guided residual integration framework built on dual-frequency graph evidence. BRIDGE separates the model into three parts: DFGE decomposes graph-smoothed ID, visual, and textual channels into spectral bands; BEN converts training-only co-user overlap into signed candidate evidence; and CRI applies that evidence only inside the base top-K candidate set during trainin
     
-[^23]: 语义修剪与辅助多步预测用于生成式推荐
+[^26]: 面向无限流估计的个性化w-事件隐私
 
-    Semantic Trimming and Auxiliary Multi-step Prediction for Generative Recommendation
+    Personalized w-Event Privacy for Infinite Stream Estimation
 
-    [https://arxiv.org/abs/2604.05329](https://arxiv.org/abs/2604.05329)
+    [https://arxiv.org/abs/2605.09054](https://arxiv.org/abs/2605.09054)
 
-    本文提出STAMP框架，通过语义修剪和辅助多步预测的双端优化策略，解决生成式推荐中语义稀释效应导致的训练开销和性能不稳定问题。
-
-    
-
-    生成式推荐（GR）最近从原子项目索引转向基于语义ID（SID）的框架，以捕捉内在项目关系并增强泛化能力。然而，采用高粒度SID带来了两个关键挑战：由于序列扩展导致的过高训练开销，以及以非单调精度波动为特征的不稳定性能可靠性。我们识别出这些看似不同的问题根本上源于语义稀释效应，其中冗余令牌浪费大量计算并稀释了推荐中本已稀疏的学习信号。为解决这一问题，我们提出STAMP（语义修剪与辅助多步预测），一个利用双端优化策略的框架。我们认为有效的SID学习需要同时解决低输入信息密度和稀疏输出监督的问题。在输入侧，我们引入语义自适应修剪机制。
-
-    arXiv:2604.05329v2 Announce Type: replace  Abstract: Generative Recommendation (GR) has recently transitioned from atomic item-indexing to Semantic ID (SID)-based frameworks to capture intrinsic item relationships and enhance generalization. However, the adoption of high-granularity SIDs leads to two critical challenges: prohibitive training overhead due to sequence expansion and unstable performance reliability characterized by non-monotonic accuracy fluctuations. We identify that these disparate issues are fundamentally rooted in the Semantic Dilution Effect, where redundant tokens waste massive computation and dilute the already sparse learning signals in recommendation. To counteract this, we propose STAMP (Semantic Trimming and Auxiliary Multi-step Prediction), a framework utilizing a dual-end optimization strategy. We argue that effective SID learning requires simultaneously addressing low input information density and sparse output supervision. On the input side, Semantic Adapti
-    
-[^24]: 大卫能打败歌利亚吗？资源受限智能体的多跳推理研究
-
-    Can David Beat Goliath? On Multi-Hop Reasoning with Resource-Constrained Agents
-
-    [https://arxiv.org/abs/2601.21699](https://arxiv.org/abs/2601.21699)
-
-    本文提出David-GRPO方法，通过结合外部专家知识和内部策略信息，有效解决了资源受限条件下多跳推理强化学习中小批量训练效率低下的问题。
+    本文提出个性化w-事件隐私框架，通过PWSM机制和预算分配/吸收策略，在无限流估计中满足用户特定隐私需求，同时保持统计准确性。
 
     
 
-    arXiv:2601.21699v3 公告类型：交叉 摘要：多轮推理智能体通过将复杂问题分解为中间检索或工具使用步骤来解决问题，从而在多个回合中积累支持性证据。同时，使用强化学习（RL）训练这些智能体依赖于许多在线策略回放和大型训练批次。在现实资源约束下，密集探索不可行，每个RL批次仅包含当前策略中的少量有用推理路径。现有方法未能完全解决这一瓶颈：基于SFT的初始化在标注轨迹稀缺时可能过拟合，检索级奖励可以分配信用给单个检索文档，但未直接优化整个证据集的覆盖范围，扩展可能浪费来自选择不当前缀的回放。我们引入了David-GRPO，通过利用当前策略外部和内部的信息来改进小批量学习：（i）专家引导注入
+    在事件监控、日志分析和视频查询等应用中，w-事件隐私在滑动时间窗口内保护个人数据，同时支持准确的流统计。现有的无限数据流研究主要假设所有用户具有同质的隐私需求，这无法捕捉用户特定的隐私偏好。本文研究了用于私有数据流估计的个性化w-事件隐私。我们首先设计了个性化窗口大小机制（PWSM），该机制支持每个时隙的个性化隐私需求。基于PWSM，我们提出了个性化预算分配（PBD）和个性化预算吸收（PBA），以在$\boldsymbol{w}$-事件$\boldsymbol{\mathcal{E}}$个性化差分隐私（($\boldsymbol{w}$, $\boldsymbol{\mathcal{E}}$)-EPDP）下估计流统计量。PBD保证为下一步预留的预算不小于b
 
-    arXiv:2601.21699v3 Announce Type: cross  Abstract: Multi-turn reasoning agents solve complex questions by decomposing them into intermediate retrieval or tool-use steps, for accumulating supporting evidence across turns. Meanwhile, with reinforcement learning (RL), training these agents rely on many on-policy rollouts and large training batches. Under realistic resource constraints that make dense exploration infeasible, each RL batch contains only few useful reasoning paths from the current policy. Existing approaches do not fully address this bottleneck: SFT-based initialization can overfit when annotated trajectories are scarce, retrieval-level rewards can assign credit to individual retrieved documents without directly optimizing coverage of the full evidence set, and expansion can waste rollouts from poorly chosen prefixes. We introduce David-GRPO, which improves small-batch learning by using information from both outside and inside the current policy: (i) expert bootstrapping inj
+    arXiv:2605.09054v3 Announce Type: replace-cross  Abstract: In applications such as event monitoring, log analysis, and video querying, $w$-event privacy protects individual data within a sliding time window while supporting accurate stream statistics. Existing studies on infinite data streams mainly assume homogeneous privacy requirements for all users, which cannot capture user-specific privacy preferences. This paper studies personalized $w$-event privacy for private data stream estimation. We first design the Personalized Window Size Mechanism (PWSM), which supports personalized privacy requirements at each time slot. Based on PWSM, we propose Personalized Budget Distribution (PBD) and Personalized Budget Absorption (PBA) to estimate streaming statistics under $\boldsymbol{w}$-Event $\boldsymbol{\mathcal{E}}$ Personalized Differential Privacy (($\boldsymbol{w}$, $\boldsymbol{\mathcal{E}}$)-EPDP). PBD guarantees that the budget reserved for the next time step is no smaller than the b
     
-[^25]: LACONIC：通过两阶段训练课程实现可扩展稀疏检索的密集级效果
+[^27]: EchoTrace：诊断基于大语言模型推荐系统中的递归风险
 
-    LACONIC: Dense-Level Effectiveness for Scalable Sparse Retrieval via a Two-Phase Training Curriculum
+    EchoTrace: Diagnosing Recursive Risks in LLM-Powered Recommender Systems
 
-    [https://arxiv.org/abs/2601.01684](https://arxiv.org/abs/2601.01684)
+    [https://arxiv.org/abs/2602.07442](https://arxiv.org/abs/2602.07442)
 
-    LACONIC通过一种两阶段训练课程（弱监督预微调和高信号微调）使基于Llama3的稀疏检索器达到密集模型的性能水平，在MTEB基准上取得60.2 nDCG@10的最先进结果。
-
-    
-
-    摘要：虽然密集检索模型一直是先进信息检索的标准，但其部署常受限于高内存需求和依赖GPU加速器进行大规模向量相似性搜索。学习型稀疏检索通过倒排索引实现高效搜索，提供了一种有吸引力的替代方案，但历史上受到的关注少于密集方法。在本文中，我们介绍了LACONIC，一个基于Llama3架构（1B、3B和8B）的学习型稀疏检索器家族。我们提出了一种简化的两阶段训练课程，包括：（1）弱监督预微调，以适应因果LLM进行双向上下文化；（2）使用精选硬负样本的高信号微调。我们的结果表明，LACONIC有效弥合了与密集模型的性能差距：8B变体在MTEB检索基准上达到了最先进的60.2 nDCG@10。
-
-    arXiv:2601.01684v2 Announce Type: replace-cross  Abstract: While dense retrieval models have been the standard for state-of-the-art information retrieval, their deployment is often constrained by high memory requirements and reliance on GPU accelerators for vector similarity search at scale. Learned sparse retrieval offers a compelling alternative by enabling efficient search via inverted indices, yet it has historically received less attention than dense approaches. In this paper, we introduce LACONIC, a family of learned sparse retrievers based on the Llama3 architecture (1B, 3B, and 8B). We propose a streamlined two-phase training curriculum consisting of (1) weakly supervised pre-finetuning to adapt causal LLMs for bidirectional contextualization and (2) high-signal finetuning using curated hard negatives. Our results demonstrate that LACONIC effectively bridges the performance gap with dense models: the 8B variant achieves a state-of-the-art 60.2 nDCG@10 on the MTEB Retrieval benc
-    
-[^26]: PLASMA：一个布局感知基准揭示内存布局对GPU上基于图的近似最近邻搜索至关重要
-
-    PLASMA: A Layout-Aware Benchmark Reveals Memory Layout Matters for Graph-based ANNS on GPU
-
-    [https://arxiv.org/abs/2508.15436](https://arxiv.org/abs/2508.15436)
-
-    本文提出了PLASMA，一个统一评估框架，首次系统性地揭示了在GPU上基于图的ANNS中，内存布局（顶点重排序）可带来高达80%的性能提升，而这一因素此前常被忽视。
+    本文提出了一个角色感知的分阶段诊断框架，用于分析LLM在推荐系统中的递归风险如何产生、传播和累积，并发现LLM组件会放大这些风险。
 
     
 
-    我们提出了一个用于GPU上基于图的近似最近邻搜索（ANNS）的统一评估框架——布局感知搜索与内存排列平台（PLASMA），该框架能够隔离图索引拓扑和内存布局的影响。基于图的ANNS在现代AI应用（如RAG）中至关重要，而GPU利用对于包含数百万或更多向量的数据集正受到关注。我们的框架提取任意基于图的索引的拓扑结构，并在统一的、GPU优化的搜索算法下执行，通过指定顶点ID与内存位置之间的对应关系，允许任意的顶点排序。通过全面实验，我们证明顶点重排序在保持搜索精度的同时，能带来高达80%（通常为10-30%）的每秒查询数（QPS）提升。
+    大语言模型（LLMs）越来越多地被集成到推荐系统中，作为数据增强器、用户画像生成器和推荐模块。虽然这些角色能增强语义理解和推荐质量，但也引入了LLM特有的风险，如偏见和幻觉。这些风险在反馈循环场景中变得更为关键，因为LLM生成的信号和推荐会递归地塑造未来的训练数据和推荐动态。在本文中，我们提出了一个角色感知、分阶段诊断框架，用于分析LLM引发的风险如何在基于LLM的推荐系统中产生、传播和累积。我们的框架结合了受控反馈循环模拟与跨LLM生成内容、推荐输出、反馈循环动态和生态系统级效应的纵向分阶段诊断。在广泛使用的基准上的实验表明，基于LLM的组件可能放大风险。
 
-    arXiv:2508.15436v2 Announce Type: replace  Abstract: We propose a $\textbf{P}$latform for $\textbf{L}$ayout-$\textbf{A}$ware $\textbf{S}$earch and $\textbf{M}$emory $\textbf{A}$rrangement ($\textbf{PLASMA}$), a unified evaluation framework for graph-based Approximate Nearest Neighbor Search (ANNS) on GPU that isolates the effects of graph index topology and memory layout. Graph-based ANNS is essential in modern AI applications such as RAG, and GPU utilization is attracting attention for datasets of millions or more vectors. Our framework extracts the topology of arbitrary graph-based indices and enables execution under a unified, GPU-optimized search algorithm, specifying the correspondence between vertex IDs and positions on memory to allow arbitrary vertex orderings. Through comprehensive experiments, we demonstrate that vertex reordering yields up to $80\%$ (typically $10-30\%$) QPS improvement while preserving search accuracy.
+    arXiv:2602.07442v2 Announce Type: replace-cross  Abstract: Large language models (LLMs) are increasingly integrated into recommender systems as data augmenters, profile generators, and recommendation modules. While these roles can enhance semantic understanding and recommendation quality, they also introduce LLM-specific risks such as bias and hallucination. These risks become more critical in feedback-loop settings, where LLM-generated signals and recommendations recursively shape future training data and recommendation dynamics. In this paper, we propose a role-aware, phase-wise diagnostic framework for analyzing how LLM-induced risks emerge, propagate, and accumulate in LLM-powered recommender systems. Our framework combines controlled feedback-loop simulation with longitudinal phase-wise diagnosis across LLM-generated content, recommendation outputs, feedback-loop dynamics, and ecosystem-level effects. Experiments on widely used benchmarks show that LLM-based components can amplify
+    
+[^28]: 超越统一令牌训练：一种用于生成式推荐器中学习令牌加权目标的多目标框架
+
+    Beyond Uniform Token Training: A Multi-Target Framework for Learning Token-Weighted Objectives in Generative Recommenders
+
+    [https://arxiv.org/abs/2601.17787](https://arxiv.org/abs/2601.17787)
+
+    提出一种多目标框架，通过前置感知加权和频率加权来优化生成式推荐器中的令牌级训练目标，以更好地匹配语义ID的结构特性。
+
+    
+
+    最近生成的推荐模型将下一项预测重新定义为生成语义标识符序列。虽然这种表述使自回归模型能够直接生成物品ID，但常用的令牌级似然目标并未区分在物品识别中扮演不同角色的令牌。这一局限性在语义ID表示中尤为明显，其中前缀令牌通常决定粗粒度物品组，而后缀令牌提供更细粒度的消歧。为了更好地将训练与语义ID的结构对齐，我们从两个互补视角研究令牌级学习信号。首先，我们引入一种前缀感知加权方案，即“前置更大加权”，它根据令牌对减少候选物品间语义歧义的贡献来强调令牌。其次，频率加权增加对低频令牌的学习重视，解决长尾问题。
+
+    arXiv:2601.17787v2 Announce Type: replace  Abstract: Recent generative recommendation models recast next-item prediction as the generation of a semantic identifier sequence. While this formulation enables autoregressive models to produce item IDs directly, the commonly used token-level likelihood objective does not distinguish between tokens that play different roles in item identification. This limitation is especially pronounced for semantic-ID representations, where prefix tokens often determine coarse item groups and later tokens provide finer-grained disambiguation. To better align training with the structure of semantic IDs, we study token-level learning signals from two complementary perspectives. First, we introduce a prefix-aware weighting scheme, Front-Greater Weighting, which emphasizes tokens according to their contribution to reducing semantic ambiguity among candidate items. Second, frequency weighting increases the learning emphasis on infrequent tokens, addressing the l
+    
+[^29]: 大语言模型标注能否取代用户点击用于学习排序？
+
+    Can LLM Annotations Replace User Clicks for Learning to Rank?
+
+    [https://arxiv.org/abs/2511.06635](https://arxiv.org/abs/2511.06635)
+
+    本文通过多维度对比发现，LLM标注和点击数据在学习排序中各有优势，LLM标注不能完全取代点击数据，但在中低频查询上表现更佳。
+
+    
+
+    大规模监督数据对于训练现代排序模型至关重要，但获取高质量的人工标注成本高昂。点击数据已被广泛用作低成本替代方案，随着大语言模型（LLM）的最新进展，基于LLM的相关性标注已成为另一种有前景的标注方式。本文通过在多个维度上的全面比较，研究LLM标注是否能取代点击数据用于学习排序（LTR）。在公共数据集TianGong-ST和工业数据集Baidu-Click上的实验表明，点击监督模型在高频查询上表现更好，而LLM标注监督模型在中低频查询上更有效。进一步分析显示，点击监督模型更擅长捕捉文档级信号，如权威性或质量，而LLM标注监督模型在捕捉查询-文档匹配语义方面更有效。
+
+    arXiv:2511.06635v2 Announce Type: replace  Abstract: Large-scale supervised data is essential for training modern ranking models, but obtaining high-quality human annotations is costly. Click data has been widely used as a low-cost alternative, and with recent advances in large language models (LLMs), LLM-based relevance annotation has emerged as another promising annotation. This paper investigates whether LLM annotations can replace click data for learning to rank (LTR) by conducting a comprehensive comparison across multiple dimensions. Experiments on both a public dataset, TianGong-ST, and an industrial dataset, Baidu-Click, show that click-supervised models perform better on high-frequency queries, while LLM annotation-supervised models are more effective on medium- and low-frequency queries. Further analysis shows that click-supervised models are better at capturing document-level signals such as authority or quality, while LLM annotation-supervised models are more effective at m
     
 

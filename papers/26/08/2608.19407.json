@@ -1,0 +1,12 @@
+{
+    "title": "HiRA-CAM: Preserving Fine-Grained Spatial Relevance in Gradient-Based Visual Explanations",
+    "abstract": "arXiv:2608.19407v1 Announce Type: cross  Abstract: Deep Learning models can include billions of parameters or more, making it difficult to explain their internal transformations and outputs. However, explainability is increasing in importance due to the use of AI in crucial applications. This paper focuses on the interpretability of convolutional neural networks (CNNs). Building on the popular gradient based method LayerCAM for extracting internal features in CNNs, we propose an improved method named HiRA-CAM, and show that it outperforms both LayerCAM and Grad-CAM on creating useful saliency maps for object classification. The main feature of HiRA-CAM is its adaptive use of activation maps from all the layers of the CNN to arrive at a more focused saliency map.",
+    "link": "https://arxiv.org/abs/2608.19407",
+    "context": "Title: HiRA-CAM: Preserving Fine-Grained Spatial Relevance in Gradient-Based Visual Explanations\nAbstract: arXiv:2608.19407v1 Announce Type: cross  Abstract: Deep Learning models can include billions of parameters or more, making it difficult to explain their internal transformations and outputs. However, explainability is increasing in importance due to the use of AI in crucial applications. This paper focuses on the interpretability of convolutional neural networks (CNNs). Building on the popular gradient based method LayerCAM for extracting internal features in CNNs, we propose an improved method named HiRA-CAM, and show that it outperforms both LayerCAM and Grad-CAM on creating useful saliency maps for object classification. The main feature of HiRA-CAM is its adaptive use of activation maps from all the layers of the CNN to arrive at a more focused saliency map.",
+    "path": "papers/26/08/2608.19407.json",
+    "total_tokens": 533,
+    "translated_title": "HiRA-CAM：在基于梯度的视觉解释中保留细粒度空间相关性",
+    "translated_abstract": "arXiv:2608.19407v1 公告类型：交叉 摘要：深度学习模型可能包含数十亿或更多参数，这使得解释其内部转换和输出变得困难。然而，由于人工智能在关键应用中的使用，可解释性日益重要。本文聚焦于卷积神经网络（CNNs）的可解释性。基于流行的梯度方法LayerCAM提取CNN内部特征，我们提出了一种改进方法，名为HiRA-CAM，并展示其在为物体分类创建有用的显著性图方面优于LayerCAM和Grad-CAM。HiRA-CAM的主要特点是自适应地利用CNN所有层的激活图，以获得更聚焦的显著性图。",
+    "tldr": "本文提出HiRA-CAM方法，通过自适应整合CNN所有层的激活图，生成更聚焦且细粒度的显著性图，显著提升了基于梯度的视觉解释性能。",
+    "en_tdlr": "This paper proposes HiRA-CAM, which adaptively integrates activation maps from all CNN layers to generate more focused and fine-grained saliency maps, significantly improving gradient-based visual explanations."
+}

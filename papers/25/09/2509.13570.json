@@ -1,0 +1,12 @@
+{
+    "title": "Gen AI in Proof-based Math Courses: A Pilot Study",
+    "abstract": "arXiv:2509.13570v2 Announce Type: replace  Abstract: With the rapid rise of generative AI in higher education, understanding how students use AI is increasingly important. This exploratory study examines student use and perceptions of generative AI across three proof-based undergraduate mathematics courses: a first-semester abstract algebra course, a topology course, and a second-semester abstract algebra course. In each case, course policy permitted some use of generative AI. Drawing on survey responses and student interviews, we analyze how students engaged with AI tools as well as their perceptions of generative AI's usefulness, accuracy and limitations.",
+    "link": "https://arxiv.org/abs/2509.13570",
+    "context": "Title: Gen AI in Proof-based Math Courses: A Pilot Study\nAbstract: arXiv:2509.13570v2 Announce Type: replace  Abstract: With the rapid rise of generative AI in higher education, understanding how students use AI is increasingly important. This exploratory study examines student use and perceptions of generative AI across three proof-based undergraduate mathematics courses: a first-semester abstract algebra course, a topology course, and a second-semester abstract algebra course. In each case, course policy permitted some use of generative AI. Drawing on survey responses and student interviews, we analyze how students engaged with AI tools as well as their perceptions of generative AI's usefulness, accuracy and limitations.",
+    "path": "papers/25/09/2509.13570.json",
+    "total_tokens": 452,
+    "translated_title": "生成式AI在基于证明的数学课程中的应用：一项试点研究",
+    "translated_abstract": "随着生成式AI在高等教育中的迅速崛起，理解学生如何使用AI变得越来越重要。这项探索性研究考察了学生在三门基于证明的本科数学课程中对生成式AI的使用和看法：第一学期抽象代数课程、拓扑学课程和第二学期抽象代数课程。在每个案例中，课程政策允许一定程度地使用生成式AI。通过调查问卷和学生访谈，我们分析了学生如何与AI工具互动，以及他们对生成式AI的有用性、准确性和局限性的看法。",
+    "tldr": "本研究通过试点调查，揭示了学生在基于证明的数学课程中如何实际使用生成式AI，并评估了他们对AI工具的有用性、准确性和局限性的认知。",
+    "en_tdlr": "This pilot study reveals how students actually use generative AI in proof-based math courses and assesses their perceptions of the tools' usefulness, accuracy, and limitations."
+}

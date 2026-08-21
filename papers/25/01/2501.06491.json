@@ -1,0 +1,12 @@
+{
+    "title": "Improving Requirements Classification with SMOTE-Tomek Preprocessing",
+    "abstract": "arXiv:2501.06491v4 Announce Type: replace-cross  Abstract: This study emphasizes the domain of requirements engineering by applying the SMOTE-Tomek preprocessing technique, combined with stratified K-fold cross-validation, to address class imbalance in the PROMISE dataset. This dataset comprises 969 categorized requirements, classified into functional and non-functional types. The proposed approach enhances the representation of minority classes while maintaining the integrity of validation folds, leading to a notable improvement in classification accuracy. Logistic regression achieved 76.16%, significantly surpassing the baseline of 59.85%. These results highlight the applicability and efficiency of machine learning models as scalable and interpretable solutions.",
+    "link": "https://arxiv.org/abs/2501.06491",
+    "context": "Title: Improving Requirements Classification with SMOTE-Tomek Preprocessing\nAbstract: arXiv:2501.06491v4 Announce Type: replace-cross  Abstract: This study emphasizes the domain of requirements engineering by applying the SMOTE-Tomek preprocessing technique, combined with stratified K-fold cross-validation, to address class imbalance in the PROMISE dataset. This dataset comprises 969 categorized requirements, classified into functional and non-functional types. The proposed approach enhances the representation of minority classes while maintaining the integrity of validation folds, leading to a notable improvement in classification accuracy. Logistic regression achieved 76.16%, significantly surpassing the baseline of 59.85%. These results highlight the applicability and efficiency of machine learning models as scalable and interpretable solutions.",
+    "path": "papers/25/01/2501.06491.json",
+    "total_tokens": 474,
+    "translated_title": "利用SMOTE-Tomek预处理改进需求分类",
+    "translated_abstract": "本研究聚焦于需求工程领域，通过应用SMOTE-Tomek预处理技术，并结合分层K折交叉验证，来解决PROMISE数据集中的类别不平衡问题。该数据集包含969条分类需求，分为功能性和非功能性两类。所提出的方法在保持验证折完整性的同时，增强了少数类别的表示，从而显著提升了分类准确性。逻辑回归达到了76.16%的准确率，远超基线水平的59.85%。这些结果凸显了机器学习模型作为可扩展且可解释解决方案的适用性和效率。",
+    "tldr": "通过SMOTE-Tomek预处理和分层交叉验证解决需求分类中的类别不平衡，将逻辑回归准确率从59.85%提升至76.16%。",
+    "en_tdlr": "By applying SMOTE-Tomek preprocessing with stratified cross-validation to address class imbalance in requirements classification, logistic regression accuracy improved from 59.85% to 76.16%."
+}

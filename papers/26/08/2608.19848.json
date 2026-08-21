@@ -1,0 +1,12 @@
+{
+    "title": "Further Progress Towards Operation Proof Obligation Generation for VDM",
+    "abstract": "arXiv:2608.19848v1 Announce Type: new  Abstract: The VDM formalism can ensure that models are internally consistent. Potential inconsistencies are highlighted by assertions called proof obligations. This paper is an update to the work described in [1], regarding proof obligation generation for VDM operations. We present the latest work which improves the approach to loop invariants, adds loop variants, improves proof obligations for operation calls, including implicitly declared operations and specification statements, and adds recursive measures for operations. The new features are illustrated with examples.",
+    "link": "https://arxiv.org/abs/2608.19848",
+    "context": "Title: Further Progress Towards Operation Proof Obligation Generation for VDM\nAbstract: arXiv:2608.19848v1 Announce Type: new  Abstract: The VDM formalism can ensure that models are internally consistent. Potential inconsistencies are highlighted by assertions called proof obligations. This paper is an update to the work described in [1], regarding proof obligation generation for VDM operations. We present the latest work which improves the approach to loop invariants, adds loop variants, improves proof obligations for operation calls, including implicitly declared operations and specification statements, and adds recursive measures for operations. The new features are illustrated with examples.",
+    "path": "papers/26/08/2608.19848.json",
+    "total_tokens": 423,
+    "translated_title": "VDM操作证明义务生成的进一步进展",
+    "translated_abstract": "arXiv:2608.19848v1 公告类型：新 摘要：VDM形式化方法可以确保模型内部一致性。通过称为证明义务的断言来突出潜在的不一致性。本文是对[1]中描述的关于VDM操作证明义务生成工作的更新。我们介绍了最新工作，改进了循环不变量的处理方法，增加了循环变体，改进了操作调用的证明义务，包括隐式声明的操作和规范语句，并为操作添加了递归度量。新特性通过示例进行了说明。",
+    "tldr": "本文改进了VDM操作的证明义务生成，涵盖循环不变量、变体、操作调用和递归度量。",
+    "en_tdlr": "This paper improves proof obligation generation for VDM operations, covering loop invariants, variants, operation calls, and recursive measures."
+}

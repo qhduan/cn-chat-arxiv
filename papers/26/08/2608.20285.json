@@ -1,0 +1,12 @@
+{
+    "title": "Dynamic Structural Causal Modeling for Sleep",
+    "abstract": "arXiv:2608.20285v1 Announce Type: new  Abstract: The causal dynamics of sleep-disordered breathing are complex and vary across patient populations, hindering the development of targeted interventions. We learn dynamic causal graphs of sleep-disordered breathing from Home Sleep Apnea Test (HSAT) recordings, revealing systematic differences in causal structure across sex and age subcohorts. We do so using the PCMCI+ algorithm on windowed fractional variables derived from 105 HSAT recordings, exploiting domain knowledge via edge blacklisting and employing bootstrap aggregation to address small subcohort sizes. The learned graphs show that temporal self-dependencies and the apnea-desaturation relationship persist across all cohorts, while other relationships vary substantially.",
+    "link": "https://arxiv.org/abs/2608.20285",
+    "context": "Title: Dynamic Structural Causal Modeling for Sleep\nAbstract: arXiv:2608.20285v1 Announce Type: new  Abstract: The causal dynamics of sleep-disordered breathing are complex and vary across patient populations, hindering the development of targeted interventions. We learn dynamic causal graphs of sleep-disordered breathing from Home Sleep Apnea Test (HSAT) recordings, revealing systematic differences in causal structure across sex and age subcohorts. We do so using the PCMCI+ algorithm on windowed fractional variables derived from 105 HSAT recordings, exploiting domain knowledge via edge blacklisting and employing bootstrap aggregation to address small subcohort sizes. The learned graphs show that temporal self-dependencies and the apnea-desaturation relationship persist across all cohorts, while other relationships vary substantially.",
+    "path": "papers/26/08/2608.20285.json",
+    "total_tokens": 510,
+    "translated_title": "睡眠的动态结构因果建模",
+    "translated_abstract": "摘要：睡眠呼吸障碍的因果动态复杂且在不同患者群体中差异显著，阻碍了针对性干预措施的发展。我们从家庭睡眠呼吸暂停测试（HSAT）记录中学习睡眠呼吸障碍的动态因果图，揭示了不同性别和年龄亚组之间因果结构的系统性差异。我们使用PCMCI+算法对来自105份HSAT记录的分窗分数变量进行分析，通过边缘黑名单利用领域知识，并采用自举聚合来处理小样本亚组。学习到的图显示，时间自依赖性和呼吸暂停-去饱和关系在所有群体中持续存在，而其他关系则差异显著。",
+    "tldr": "本文利用PCMCI+算法从家庭睡眠测试数据中学习动态因果图，首次揭示睡眠呼吸障碍在不同性别和年龄亚组中的系统性因果结构差异，并识别出跨群体稳定的核心关系。",
+    "en_tdlr": "This paper applies the PCMCI+ algorithm to learn dynamic causal graphs from home sleep test data, revealing systematic causal structure differences across sex and age subgroups in sleep-disordered breathing, while identifying stable core relationships across cohorts."
+}

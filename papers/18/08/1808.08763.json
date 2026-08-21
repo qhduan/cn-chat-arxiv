@@ -1,0 +1,12 @@
+{
+    "title": "On the convergence of optimistic policy iteration for stochastic shortest path problem",
+    "abstract": "arXiv:1808.08763v3 Announce Type: replace  Abstract: In this paper, we prove some convergence results of a special case of optimistic policy iteration algorithm for stochastic shortest path problem. We consider both Monte Carlo and $TD(\\lambda)$ methods for the policy evaluation step under the condition that the termination state will eventually be reached almost surely.",
+    "link": "https://arxiv.org/abs/1808.08763",
+    "context": "Title: On the convergence of optimistic policy iteration for stochastic shortest path problem\nAbstract: arXiv:1808.08763v3 Announce Type: replace  Abstract: In this paper, we prove some convergence results of a special case of optimistic policy iteration algorithm for stochastic shortest path problem. We consider both Monte Carlo and $TD(\\lambda)$ methods for the policy evaluation step under the condition that the termination state will eventually be reached almost surely.",
+    "path": "papers/18/08/1808.08763.json",
+    "total_tokens": 364,
+    "translated_title": "关于随机最短路径问题中乐观策略迭代的收敛性研究",
+    "translated_abstract": "本文证明了随机最短路径问题中乐观策略迭代算法的一个特例的收敛性结果。我们考虑了在终止状态几乎必然最终达到的条件下，策略评估步骤中蒙特卡洛方法和$TD(\\lambda)$方法的收敛性。",
+    "tldr": "本文证明了在随机最短路径问题中，乐观策略迭代算法在策略评估步骤采用蒙特卡洛或TD(λ)方法时，在终止状态几乎必然可达条件下的收敛性。",
+    "en_tdlr": "This paper proves convergence results for optimistic policy iteration in stochastic shortest path problems, covering both Monte Carlo and TD(λ) policy evaluation methods under the condition that the termination state is almost surely reached."
+}

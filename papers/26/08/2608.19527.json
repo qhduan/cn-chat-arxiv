@@ -1,0 +1,12 @@
+{
+    "title": "Does Listening Matter? Backchanneling and Nodding in AI Clone",
+    "abstract": "arXiv:2608.19527v1 Announce Type: cross  Abstract: AI clones that imitate a specific person typically reproduce what the person says and how they sound, but not how they listen. We investigate whether adding multimodal listening behaviors gives such a clone more presence and authenticity. We integrated verbal backchannels and head nodding, driven by real-time prediction models, into an AI clone equipped with voice cloning and LLM-based responses. In a within-subjects study (N=35), adding these behaviors significantly improved the perceived attentiveness of the avatar, the sense of talking with the real person, and the feeling of co-presence. These results indicate that AI clone fidelity should extend beyond voice and response content to include interactive listening behavior.",
+    "link": "https://arxiv.org/abs/2608.19527",
+    "context": "Title: Does Listening Matter? Backchanneling and Nodding in AI Clone\nAbstract: arXiv:2608.19527v1 Announce Type: cross  Abstract: AI clones that imitate a specific person typically reproduce what the person says and how they sound, but not how they listen. We investigate whether adding multimodal listening behaviors gives such a clone more presence and authenticity. We integrated verbal backchannels and head nodding, driven by real-time prediction models, into an AI clone equipped with voice cloning and LLM-based responses. In a within-subjects study (N=35), adding these behaviors significantly improved the perceived attentiveness of the avatar, the sense of talking with the real person, and the feeling of co-presence. These results indicate that AI clone fidelity should extend beyond voice and response content to include interactive listening behavior.",
+    "path": "papers/26/08/2608.19527.json",
+    "total_tokens": 526,
+    "translated_title": "倾听重要吗？AI克隆中的反馈信号与点头行为",
+    "translated_abstract": "arXiv:2608.19527v1 公告类型：交叉 摘要：模仿特定人物的AI克隆通常再现该人物的言语内容和声音特征，但并未再现其倾听方式。我们研究了添加多模态倾听行为是否能提升这类克隆的存在感和真实性。我们将由实时预测模型驱动的言语反馈信号和头部点头行为集成到配备语音克隆及基于大语言模型响应的AI克隆中。在一项被试内研究（N=35）中，添加这些行为显著提升了虚拟形象被感知的专注度、与真人交谈的感觉以及共同在场感。这些结果表明，AI克隆的保真度应超越语音和响应内容，扩展到互动倾听行为。",
+    "tldr": "本文发现，在AI克隆中加入由实时预测驱动的言语反馈和点头等倾听行为，能显著增强其存在感和真实性，表明克隆保真度需包含交互式倾听。",
+    "en_tdlr": "This paper finds that adding real-time prediction-driven backchanneling and nodding listening behaviors to AI clones significantly enhances their presence and authenticity, indicating that clone fidelity should include interactive listening."
+}

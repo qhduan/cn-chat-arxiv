@@ -1,0 +1,12 @@
+{
+    "title": "A Neurosymbolic Approach for Explainable Early Diagnosis of Alzheimer's Disease",
+    "abstract": "arXiv:2607.29530v2 Announce Type: replace  Abstract: Identifying reliable Alzheimer's disease (AD) markers typically requires manual, labor-intensive transcription and expert analysis, limiting its scale. We introduce an automated pipeline that extracts qualitative knowledge about potential AD progression indicators directly from audio recordings of verbal fluency tests. Our method uses pretrained foundation models to process raw audio and extract clinically relevant variables to construct a Bayesian Network (BN); this BN is used to reason about the AD progression markers and infer their qualitative relationships. Our system successfully recovers known clinical knowledge and identifies novel relationships between linguistic markers.",
+    "link": "https://arxiv.org/abs/2607.29530",
+    "context": "Title: A Neurosymbolic Approach for Explainable Early Diagnosis of Alzheimer's Disease\nAbstract: arXiv:2607.29530v2 Announce Type: replace  Abstract: Identifying reliable Alzheimer's disease (AD) markers typically requires manual, labor-intensive transcription and expert analysis, limiting its scale. We introduce an automated pipeline that extracts qualitative knowledge about potential AD progression indicators directly from audio recordings of verbal fluency tests. Our method uses pretrained foundation models to process raw audio and extract clinically relevant variables to construct a Bayesian Network (BN); this BN is used to reason about the AD progression markers and infer their qualitative relationships. Our system successfully recovers known clinical knowledge and identifies novel relationships between linguistic markers.",
+    "path": "papers/26/07/2607.29530.json",
+    "total_tokens": 509,
+    "translated_title": "一种用于阿尔茨海默病可解释早期诊断的神经符号方法",
+    "translated_abstract": "arXiv:2607.29530v2 公告类型：替换 摘要：识别可靠的阿尔茨海默病（AD）标志物通常需要手动、劳动密集型的转录和专家分析，这限制了其规模。我们引入了一个自动化流程，直接从语言流畅性测试的音频录音中提取关于潜在AD进展指标的定性知识。我们的方法使用预训练的基础模型处理原始音频并提取临床相关变量，以构建贝叶斯网络（BN）；该BN用于推理AD进展标志物并推断它们之间的定性关系。我们的系统成功恢复了已知的临床知识，并识别了语言标志物之间的新关系。",
+    "tldr": "本文提出一种神经符号自动化流程，通过预训练模型从语音测试中提取特征并构建贝叶斯网络，实现阿尔茨海默病的可解释早期诊断，同时发现新的语言标志物关系。",
+    "en_tdlr": "This paper presents a neurosymbolic automated pipeline that extracts features from verbal fluency test audio using foundation models and builds a Bayesian network for explainable early diagnosis of Alzheimer's disease, recovering known knowledge and discovering novel linguistic marker relationships."
+}
