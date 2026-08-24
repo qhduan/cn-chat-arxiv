@@ -1,0 +1,12 @@
+{
+    "title": "Candidate Set Size and Voting Behavior: A Front-Door Approach to Causal Moderation",
+    "abstract": "arXiv:2608.20779v1 Announce Type: new  Abstract: We study causal moderation when treatment assignment is randomized but the moderator is not. We combine the parallel estimation framework with front-door adjustment to identify an average mediated treatment moderation effect. We apply this approach to 165 municipal assembly elections in Tokyo (1987-2023), where pamphlet positions are assigned by lottery and total pamphlet pages are mechanically determined by candidate set size and fixed municipal rules. One additional candidate increases the front-page effect on winning probability by 0.322 percentage points through the page-count channel, 8.0% of its baseline magnitude, while the back-page effect does not increase significantly.",
+    "link": "https://arxiv.org/abs/2608.20779",
+    "context": "Title: Candidate Set Size and Voting Behavior: A Front-Door Approach to Causal Moderation\nAbstract: arXiv:2608.20779v1 Announce Type: new  Abstract: We study causal moderation when treatment assignment is randomized but the moderator is not. We combine the parallel estimation framework with front-door adjustment to identify an average mediated treatment moderation effect. We apply this approach to 165 municipal assembly elections in Tokyo (1987-2023), where pamphlet positions are assigned by lottery and total pamphlet pages are mechanically determined by candidate set size and fixed municipal rules. One additional candidate increases the front-page effect on winning probability by 0.322 percentage points through the page-count channel, 8.0% of its baseline magnitude, while the back-page effect does not increase significantly.",
+    "path": "papers/26/08/2608.20779.json",
+    "total_tokens": 535,
+    "translated_title": "候选人数规模与投票行为：因果调节的前门方法",
+    "translated_abstract": "arXiv:2608.20779v1 公告类型：新论文。摘要：我们在处理分配随机化但调节变量非随机化的情况下研究因果调节效应。我们将平行估计框架与前门调整相结合，以识别平均中介处理调节效应。我们将此方法应用于东京165次市议会选举（1987-2023年），在这些选举中，宣传册位置通过抽签分配，总宣传册页数由候选人数规模和固定市政规则机械决定。每增加一名候选人，通过页数渠道对获胜概率的头版效应增加0.322个百分点，为其基线幅度的8.0%，而背页效应没有显著增加。",
+    "tldr": "该论文提出了一种结合前门调整的新方法，用于在调节变量非随机化时估计因果调节效应，并应用于东京选举数据，发现候选人数量通过页数渠道显著影响头版效应的获胜概率。",
+    "en_tdlr": "This paper proposes a novel method combining front-door adjustment to estimate causal moderation when the moderator is non-randomized, and applying it to Tokyo election data, finds that candidate count significantly affects the front-page effect on winning probability through the page-count channel."
+}

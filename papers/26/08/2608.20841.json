@@ -1,0 +1,12 @@
+{
+    "title": "Foundation Models for Partial Causal Identification",
+    "abstract": "arXiv:2608.20841v1 Announce Type: new  Abstract: This paper investigates the development of causal foundation models for bounding the effect of interventions and counterfactuals from observational data. We show that a canonical prior can be defined with full support over the space of structural causal models with discrete observables. With this canonical prior, we translate the problem of bounding counterfactuals into that of learning distributions over functions that map data (and possibly structural assumptions) to a causal query of interest. This extends the promising causal foundational modelling paradigm to the estimation of partially-identifiable causal effects, i.e., under unobserved confounding, where multiple values are equally compatible with the observed data and prior structural assumptions.",
+    "link": "https://arxiv.org/abs/2608.20841",
+    "context": "Title: Foundation Models for Partial Causal Identification\nAbstract: arXiv:2608.20841v1 Announce Type: new  Abstract: This paper investigates the development of causal foundation models for bounding the effect of interventions and counterfactuals from observational data. We show that a canonical prior can be defined with full support over the space of structural causal models with discrete observables. With this canonical prior, we translate the problem of bounding counterfactuals into that of learning distributions over functions that map data (and possibly structural assumptions) to a causal query of interest. This extends the promising causal foundational modelling paradigm to the estimation of partially-identifiable causal effects, i.e., under unobserved confounding, where multiple values are equally compatible with the observed data and prior structural assumptions.",
+    "path": "papers/26/08/2608.20841.json",
+    "total_tokens": 486,
+    "translated_title": "部分因果识别的基础模型",
+    "translated_abstract": "本文探讨了开发因果基础模型，用于从观测数据中界定干预和反事实效应的方法。我们证明，在具有离散观测变量的结构因果模型空间中，可以定义一个具有完全支持的标准先验。借助这一标准先验，我们将界定反事实的问题转化为学习函数分布的问题，这些函数将数据（以及可能的结构假设）映射到感兴趣的因果查询。这扩展了有前景的因果基础建模范式，使其能够估计部分可识别的因果效应，即在存在未观测混杂因素的情况下，多个值与观测数据和先验结构假设同样兼容。",
+    "tldr": "本文提出了一种因果基础模型方法，通过定义完全支持的标准先验，将部分因果识别问题转化为学习函数分布，从而在未观测混杂下估计反事实边界。",
+    "en_tdlr": "This paper proposes a causal foundation model approach that defines a fully supported canonical prior to transform partial causal identification into learning function distributions, enabling counterfactual bounding under unobserved confounding."
+}

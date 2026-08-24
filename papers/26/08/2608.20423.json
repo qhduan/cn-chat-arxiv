@@ -1,0 +1,12 @@
+{
+    "title": "From Thermal Preference Prediction to Adaptive Thermal Intervention: A Reinforcement Learning Approach Using Physiological and Environmental Sensing",
+    "abstract": "arXiv:2608.20423v1 Announce Type: cross  Abstract: Personalised thermal comfort is essential for occupant wellbeing and for the development of more responsive building-control strategies, yet conventional Heating, Ventilation, and Air Conditioning (HVAC) systems rely on static setpoints and population-level comfort models that fail to capture individual physiological variability. This paper presents a two-stage personalised thermal comfort approach integrating multimodal physiological and environmental sensing with reinforcement learning-based decision-making.",
+    "link": "https://arxiv.org/abs/2608.20423",
+    "context": "Title: From Thermal Preference Prediction to Adaptive Thermal Intervention: A Reinforcement Learning Approach Using Physiological and Environmental Sensing\nAbstract: arXiv:2608.20423v1 Announce Type: cross  Abstract: Personalised thermal comfort is essential for occupant wellbeing and for the development of more responsive building-control strategies, yet conventional Heating, Ventilation, and Air Conditioning (HVAC) systems rely on static setpoints and population-level comfort models that fail to capture individual physiological variability. This paper presents a two-stage personalised thermal comfort approach integrating multimodal physiological and environmental sensing with reinforcement learning-based decision-making.",
+    "path": "papers/26/08/2608.20423.json",
+    "total_tokens": 404,
+    "translated_title": "从热偏好预测到自适应热干预：一种利用生理与环境感知的强化学习方法",
+    "translated_abstract": "个性化热舒适对于居住者的福祉以及开发更灵敏的建筑控制策略至关重要，然而传统的供暖、通风与空调（HVAC）系统依赖于静态设定点和群体层面的舒适模型，这些模型无法捕捉个体生理差异。本文提出了一种两阶段的个性化热舒适方法，该方法将多模态生理与环境感知与基于强化学习的决策相结合。",
+    "tldr": "本文提出了一种结合多模态生理与环境感知和强化学习的两阶段个性化热舒适方法，实现了从热偏好预测到自适应热干预的闭环控制。",
+    "en_tdlr": "This paper presents a two-stage personalized thermal comfort approach integrating multimodal physiological and environmental sensing with reinforcement learning, enabling closed-loop control from thermal preference prediction to adaptive thermal intervention."
+}

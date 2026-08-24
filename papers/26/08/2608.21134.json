@@ -1,0 +1,12 @@
+{
+    "title": "Llama-Mobile: Efficient 2.7-Bit Quantization of VLMs",
+    "abstract": "arXiv:2608.21134v1 Announce Type: cross  Abstract: Deploying vision-language models (VLMs) on mobile devices is challenging due to their significant memory and compute requirements. We present a framework for quantizing VLMs for efficient inference on resource-constrained hardware. Our approach combines a quantization pipeline that uses the model itself to generate training data and does not require access to the training setup, with a novel 2.7-bit-per-parameter format supporting efficient execution on Arm CPUs. We validate our approach by compressing the Llama 3.2 11B Vision Instruct model to 3.7 GB with 8-bit activations, preserving strong performance on a set of standard visual question answering tasks.",
+    "link": "https://arxiv.org/abs/2608.21134",
+    "context": "Title: Llama-Mobile: Efficient 2.7-Bit Quantization of VLMs\nAbstract: arXiv:2608.21134v1 Announce Type: cross  Abstract: Deploying vision-language models (VLMs) on mobile devices is challenging due to their significant memory and compute requirements. We present a framework for quantizing VLMs for efficient inference on resource-constrained hardware. Our approach combines a quantization pipeline that uses the model itself to generate training data and does not require access to the training setup, with a novel 2.7-bit-per-parameter format supporting efficient execution on Arm CPUs. We validate our approach by compressing the Llama 3.2 11B Vision Instruct model to 3.7 GB with 8-bit activations, preserving strong performance on a set of standard visual question answering tasks.",
+    "path": "papers/26/08/2608.21134.json",
+    "total_tokens": 522,
+    "translated_title": "移动端大模型：视觉语言模型的高效2.7位量化",
+    "translated_abstract": "摘要：由于视觉语言模型（VLMs）在部署到移动设备时面临显著的内存和计算需求挑战，我们提出了一种用于在资源受限硬件上高效推理的VLM量化框架。我们的方法结合了一个量化流程，该流程利用模型自身生成训练数据，无需访问训练设置，并采用一种新颖的每参数2.7位格式，支持在Arm CPU上高效执行。我们通过将Llama 3.2 11B视觉指令模型压缩至3.7 GB（使用8位激活），在标准视觉问答任务集上保持强大性能，验证了我们的方法。",
+    "tldr": "提出一种无需训练数据的2.7位量化框架，将视觉语言模型压缩至3.7 GB，同时保持视觉问答性能，适用于移动设备高效推理。",
+    "en_tdlr": "Proposes a training-data-free 2.7-bit quantization framework that compresses vision-language models to 3.7 GB while preserving performance on visual question answering, enabling efficient mobile inference."
+}

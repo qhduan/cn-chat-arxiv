@@ -1,0 +1,12 @@
+{
+    "title": "Sparse Token Routing in Efficient Transformers",
+    "abstract": "arXiv:2608.20632v1 Announce Type: new  Abstract: Efficient-transformer research often motivates token pruning and adaptive computation with the claim that not all tokens require equal computational effort. We test this claim end to end using SEWN, a two-stream Transformer that routes tokens through either lightweight or full-capacity processing using a learned gate. Across our experiments, routing introduces negligible accuracy change relative to parameter-matched baselines, while the gate's token-importance signal depends critically on how it is learned. A static lexicon-seeded prior fails a counterfactual faithfulness test on BoolQ, whereas a fully contextual gate achieves highly significant separation ($p<10^{-10}$) on both evaluated tasks without changing task accuracy.",
+    "link": "https://arxiv.org/abs/2608.20632",
+    "context": "Title: Sparse Token Routing in Efficient Transformers\nAbstract: arXiv:2608.20632v1 Announce Type: new  Abstract: Efficient-transformer research often motivates token pruning and adaptive computation with the claim that not all tokens require equal computational effort. We test this claim end to end using SEWN, a two-stream Transformer that routes tokens through either lightweight or full-capacity processing using a learned gate. Across our experiments, routing introduces negligible accuracy change relative to parameter-matched baselines, while the gate's token-importance signal depends critically on how it is learned. A static lexicon-seeded prior fails a counterfactual faithfulness test on BoolQ, whereas a fully contextual gate achieves highly significant separation ($p<10^{-10}$) on both evaluated tasks without changing task accuracy.",
+    "path": "papers/26/08/2608.20632.json",
+    "total_tokens": 545,
+    "translated_title": "高效Transformer中的稀疏令牌路由",
+    "translated_abstract": "arXiv:2608.20632v1 公告类型：新 摘要：高效Transformer研究常以“并非所有令牌都需要相同的计算量”为由，推动令牌剪枝和自适应计算。我们使用SEWN（一种双流Transformer，通过学习的门控将令牌路由至轻量或全容量处理）端到端测试了这一论断。在我们的实验中，与参数匹配的基线相比，路由引入的精度变化可忽略不计，而门控的令牌重要性信号关键取决于其学习方式。静态词典种子先验在BoolQ上的反事实忠实度测试中失败，而全上下文门控在两个评估任务上实现了高度显著的分离（p<10^-10），且不改变任务精度。",
+    "tldr": "本文提出SEWN双流Transformer，通过上下文门控实现令牌路由，在不牺牲任务精度的前提下，显著区分令牌重要性（p<10^-10），而静态先验方法则无法通过反事实测试。",
+    "en_tdlr": "This paper introduces SEWN, a two-stream Transformer with context-aware gating for token routing, achieving highly significant token-importance separation (p<10^-10) without task accuracy loss, while static priors fail counterfactual faithfulness."
+}

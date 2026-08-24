@@ -1,0 +1,12 @@
+{
+    "title": "Crypto x AI, AI x Crypto: A Survey",
+    "abstract": "arXiv:2606.13892v2 Announce Type: replace-cross  Abstract: The intersection of crypto x AI is spawning papers, products, online posts, and companies. All the surrounding buzz, though, obscures what exactly has been done, what the opportunities and challenges are, and what open questions deserve attention. This survey paper asks what AI can do for blockchain-based technologies (broadly construed as \"crypto\") (crypto x AI), and vice versa (AI x crypto). We systematize existing work, summarize key takeaways, highlight open research questions, and offer a perspective on pervasive industry misconceptions, concluding that AI and crypto are still in the very early stages of meaningful integration.",
+    "link": "https://arxiv.org/abs/2606.13892",
+    "context": "Title: Crypto x AI, AI x Crypto: A Survey\nAbstract: arXiv:2606.13892v2 Announce Type: replace-cross  Abstract: The intersection of crypto x AI is spawning papers, products, online posts, and companies. All the surrounding buzz, though, obscures what exactly has been done, what the opportunities and challenges are, and what open questions deserve attention. This survey paper asks what AI can do for blockchain-based technologies (broadly construed as \"crypto\") (crypto x AI), and vice versa (AI x crypto). We systematize existing work, summarize key takeaways, highlight open research questions, and offer a perspective on pervasive industry misconceptions, concluding that AI and crypto are still in the very early stages of meaningful integration.",
+    "path": "papers/26/06/2606.13892.json",
+    "total_tokens": 494,
+    "translated_title": "加密与人工智能，人工智能与加密：综述",
+    "translated_abstract": "arXiv:2606.13892v2 公告类型：交叉替换 摘要：加密与人工智能的交叉领域正催生大量论文、产品、在线帖子和公司。然而，围绕这一领域的所有喧嚣掩盖了已经完成的具体工作、存在的机遇与挑战，以及值得关注的开放问题。本综述论文探讨了人工智能能为基于区块链的技术（广义上称为“加密”）带来什么（加密×人工智能），以及反之亦然（人工智能×加密）。我们系统化了现有工作，总结了关键要点，强调了开放的研究问题，并对行业中的普遍误解提供了见解，得出结论：人工智能与加密仍处于有意义整合的非常早期阶段。",
+    "tldr": "本文系统综述了加密与人工智能交叉领域的研究现状，指出两者整合仍处于早期阶段，并总结了关键机遇、挑战和开放问题。",
+    "en_tdlr": "This survey systematically reviews the intersection of crypto and AI, concluding that their meaningful integration is still in its infancy, while summarizing key opportunities, challenges, and open questions."
+}

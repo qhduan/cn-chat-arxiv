@@ -1,0 +1,12 @@
+{
+    "title": "Nonlinear Binscatter Methods",
+    "abstract": "arXiv:2407.15276v2 Announce Type: replace-cross  Abstract: Binscatters are a powerful tool for empirical work in the social, behavioral, and biomedical sciences. Available tools rely on least squares estimation of the conditional mean. We introduce novel binscatter methods based on nonlinear, possibly nonsmooth M-estimation, covering generalized linear, robust, and quantile regression models. We provide theoretical results and practical tools, including optimal bin selection, confidence bands, and statistical tests regarding functional form or shape restrictions. We demonstrate our methods by studying the relationship of income and (lack of) health insurance. We provide software for Python, R, and Stata. Our technical results may be of independent interest.",
+    "link": "https://arxiv.org/abs/2407.15276",
+    "context": "Title: Nonlinear Binscatter Methods\nAbstract: arXiv:2407.15276v2 Announce Type: replace-cross  Abstract: Binscatters are a powerful tool for empirical work in the social, behavioral, and biomedical sciences. Available tools rely on least squares estimation of the conditional mean. We introduce novel binscatter methods based on nonlinear, possibly nonsmooth M-estimation, covering generalized linear, robust, and quantile regression models. We provide theoretical results and practical tools, including optimal bin selection, confidence bands, and statistical tests regarding functional form or shape restrictions. We demonstrate our methods by studying the relationship of income and (lack of) health insurance. We provide software for Python, R, and Stata. Our technical results may be of independent interest.",
+    "path": "papers/24/07/2407.15276.json",
+    "total_tokens": 537,
+    "translated_title": "非线性Binscatter方法",
+    "translated_abstract": "arXiv:2407.15276v2 公告类型：替换交叉 摘要：Binscatter是社会科学、行为科学和生物医学领域实证研究中的强大工具。现有工具依赖于条件均值的最小二乘估计。我们引入了基于非线性、可能非光滑的M估计的新型Binscatter方法，涵盖了广义线性模型、稳健回归和分位数回归模型。我们提供了理论结果和实用工具，包括最优分箱选择、置信带以及关于函数形式或形状限制的统计检验。我们通过研究收入与（缺乏）健康保险之间的关系来展示我们的方法。我们提供了Python、R和Stata的软件实现。我们的技术结果可能具有独立的研究价值。",
+    "tldr": "本文提出了一种基于非线性M估计的新型Binscatter方法，扩展了传统最小二乘方法，支持广义线性、稳健和分位数回归，并提供了最优分箱、置信带和形状检验工具，适用于社会科学实证研究。",
+    "en_tdlr": "This paper introduces novel nonlinear M-estimation-based binscatter methods, extending traditional least squares approaches to generalized linear, robust, and quantile regressions, with optimal binning, confidence bands, and shape tests for empirical research."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Surrender runs",
+    "abstract": "arXiv:2608.20982v1 Announce Type: new  Abstract: Rising interest rates can expose life insurers to surrender risk by reducing the market value of their assets and raising policyholders' outside returns. This paper develops a minimal model of an insurance-specific run mechanism in which strategic interaction arises because early surrenders can deplete the asset pool backing continuation values. We analyze a strategic surrender game in which a run is an equilibrium outcome determined jointly by asset values, contractual surrender claims, and payoff-dependent continuation benefits. The model yields closed-form interest-rate thresholds for fundamentals-driven and self-fulfilling runs. Thinner capitalization weakly lowers the joint-surrender cutoff. Continuation benefits raise surrender thresholds but can also create strategic complementarity.",
+    "link": "https://arxiv.org/abs/2608.20982",
+    "context": "Title: Surrender runs\nAbstract: arXiv:2608.20982v1 Announce Type: new  Abstract: Rising interest rates can expose life insurers to surrender risk by reducing the market value of their assets and raising policyholders' outside returns. This paper develops a minimal model of an insurance-specific run mechanism in which strategic interaction arises because early surrenders can deplete the asset pool backing continuation values. We analyze a strategic surrender game in which a run is an equilibrium outcome determined jointly by asset values, contractual surrender claims, and payoff-dependent continuation benefits. The model yields closed-form interest-rate thresholds for fundamentals-driven and self-fulfilling runs. Thinner capitalization weakly lowers the joint-surrender cutoff. Continuation benefits raise surrender thresholds but can also create strategic complementarity.",
+    "path": "papers/26/08/2608.20982.json",
+    "total_tokens": 502,
+    "translated_title": "投降式挤兑",
+    "translated_abstract": "利率上升可能通过降低保险公司资产的市场价值并提高保单持有人的外部回报，从而使寿险公司面临投降风险。本文开发了一个保险特定挤兑机制的最小模型，在该模型中，由于早期投降可能耗尽支撑继续价值的资产池，从而产生战略互动。我们分析了一个战略投降博弈，其中挤兑是由资产价值、合同投降索赔和依赖于收益的继续利益共同决定的均衡结果。该模型为基本面驱动的挤兑和自我实现的挤兑提供了闭式利率阈值。较薄的资本化会弱化联合投降的临界点。继续利益提高了投降阈值，但也可能产生战略互补性。",
+    "tldr": "本文提出了一个最小模型，通过分析战略投降博弈，揭示了利率变化如何引发寿险公司的投降式挤兑，并得出了基本面与自我实现挤兑的闭式利率阈值。",
+    "en_tdlr": "This paper proposes a minimal model that analyzes a strategic surrender game to reveal how interest-rate changes trigger surrender runs in life insurers, deriving closed-form thresholds for fundamentals-driven and self-fulfilling runs."
+}

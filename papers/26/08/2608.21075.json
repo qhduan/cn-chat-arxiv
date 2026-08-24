@@ -1,0 +1,12 @@
+{
+    "title": "AudioWorldSim: Realistic Binaural Audio Datasets For World Models",
+    "abstract": "arXiv:2608.21075v1 Announce Type: cross  Abstract: This technical report presents AudioWorldSim, an open-source platform designed to generate realistic binaural audio datasets and advance research in audio-based machine learning, particularly world models. Built as a custom extension of Meta's SoundSpaces 2.0 platform, AudioWorldSim leverages their comprehensive acoustics framework, but focuses on the automatic rollout of random agent navigations, as well as implements crucial fixes to how continuous sound is composed. AudioWorldSim is made publicly available to the research community at https://github.com/Luizerko/AudioWorldSim to facilitate reproducibility.",
+    "link": "https://arxiv.org/abs/2608.21075",
+    "context": "Title: AudioWorldSim: Realistic Binaural Audio Datasets For World Models\nAbstract: arXiv:2608.21075v1 Announce Type: cross  Abstract: This technical report presents AudioWorldSim, an open-source platform designed to generate realistic binaural audio datasets and advance research in audio-based machine learning, particularly world models. Built as a custom extension of Meta's SoundSpaces 2.0 platform, AudioWorldSim leverages their comprehensive acoustics framework, but focuses on the automatic rollout of random agent navigations, as well as implements crucial fixes to how continuous sound is composed. AudioWorldSim is made publicly available to the research community at https://github.com/Luizerko/AudioWorldSim to facilitate reproducibility.",
+    "path": "papers/26/08/2608.21075.json",
+    "total_tokens": 485,
+    "translated_title": "AudioWorldSim：面向世界模型的真实双耳音频数据集",
+    "translated_abstract": "本技术报告介绍了AudioWorldSim，这是一个开源平台，旨在生成真实的双耳音频数据集，并推动基于音频的机器学习研究，特别是世界模型领域。作为Meta的SoundSpaces 2.0平台的自定义扩展，AudioWorldSim利用了其全面的声学框架，但专注于随机代理导航的自动展开，并实现了对连续声音合成方式的关键修复。AudioWorldSim已公开发布给研究社区，网址为https://github.com/Luizerko/AudioWorldSim，以促进可复现性。",
+    "tldr": "AudioWorldSim通过扩展SoundSpaces 2.0并改进连续声音合成，自动生成真实双耳音频数据集，为世界模型研究提供了开源、可复现的平台。",
+    "en_tdlr": "AudioWorldSim extends SoundSpaces 2.0 with automated agent navigation and fixed continuous sound composition to generate realistic binaural audio datasets, offering an open-source platform for advancing world model research."
+}

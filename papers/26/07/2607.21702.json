@@ -1,0 +1,12 @@
+{
+    "title": "An Introduction to Bayesian and Frequentist Simulation-Based Inference with Machine Learning",
+    "abstract": "arXiv:2607.21702v2 Announce Type: replace  Abstract: Simulation-based inference (SBI) with machine learning is an increasingly important tool for solving inverse problems in science and engineering, including parameter inference and the inversion of detector effects. We provide an overview of the Bayesian and frequentist statistical frameworks, describe how machine-learning-based SBI methods, such as neural posterior estimation and neural likelihood estimation, can be used for parameter estimation within these frameworks, and show that the same methods can also be applied to Empirical Bayes or unfolding tasks. We also discuss how to validate inference results and the limitations of SBI with machine learning.",
+    "link": "https://arxiv.org/abs/2607.21702",
+    "context": "Title: An Introduction to Bayesian and Frequentist Simulation-Based Inference with Machine Learning\nAbstract: arXiv:2607.21702v2 Announce Type: replace  Abstract: Simulation-based inference (SBI) with machine learning is an increasingly important tool for solving inverse problems in science and engineering, including parameter inference and the inversion of detector effects. We provide an overview of the Bayesian and frequentist statistical frameworks, describe how machine-learning-based SBI methods, such as neural posterior estimation and neural likelihood estimation, can be used for parameter estimation within these frameworks, and show that the same methods can also be applied to Empirical Bayes or unfolding tasks. We also discuss how to validate inference results and the limitations of SBI with machine learning.",
+    "path": "papers/26/07/2607.21702.json",
+    "total_tokens": 455,
+    "translated_title": "基于机器学习的贝叶斯与频率学派模拟推断导论",
+    "translated_abstract": "模拟推断（SBI）结合机器学习，是解决科学与工程中逆问题（包括参数推断和探测器效应反转）日益重要的工具。我们概述了贝叶斯和频率学派的统计框架，描述了如何在这些框架内使用基于机器学习的SBI方法（如神经后验估计和神经似然估计）进行参数估计，并展示了这些方法同样适用于经验贝叶斯或展开任务。我们还讨论了如何验证推断结果以及机器学习在SBI中的局限性。",
+    "tldr": "本文系统介绍了机器学习驱动的模拟推断方法在贝叶斯与频率学派框架下的参数估计、展开任务中的应用，并强调了验证策略与局限性。",
+    "en_tdlr": "This paper provides a comprehensive overview of machine-learning-based simulation-based inference for parameter estimation and unfolding within Bayesian and frequentist frameworks, emphasizing validation and limitations."
+}
