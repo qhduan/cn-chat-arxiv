@@ -1,0 +1,12 @@
+{
+    "title": "Data-Driven Dynamic Algorithm Dispatch with Large Language Models",
+    "abstract": "arXiv:2608.21584v1 Announce Type: new  Abstract: We introduce a large language model (LLM)-driven approach for generating dynamic algorithmic dispatch heuristics in high-performance linear algebra. By combining prompt engineering with LLaMA 3 and a curated performance database, the model learns to synthesize selection heuristics that exploit structural patterns to identify fast algorithmic choices. A case study on LU factorization demonstrates the model's ability to replicate expert-designed strategies. This work, developed as part of the DARPA-MIT SmartSolve project, highlights the promise of LLMs for algorithmic discovery and the development of more adaptive, fast linear algebra software.",
+    "link": "https://arxiv.org/abs/2608.21584",
+    "context": "Title: Data-Driven Dynamic Algorithm Dispatch with Large Language Models\nAbstract: arXiv:2608.21584v1 Announce Type: new  Abstract: We introduce a large language model (LLM)-driven approach for generating dynamic algorithmic dispatch heuristics in high-performance linear algebra. By combining prompt engineering with LLaMA 3 and a curated performance database, the model learns to synthesize selection heuristics that exploit structural patterns to identify fast algorithmic choices. A case study on LU factorization demonstrates the model's ability to replicate expert-designed strategies. This work, developed as part of the DARPA-MIT SmartSolve project, highlights the promise of LLMs for algorithmic discovery and the development of more adaptive, fast linear algebra software.",
+    "path": "papers/26/08/2608.21584.json",
+    "total_tokens": 493,
+    "translated_title": "基于数据驱动的大型语言模型动态算法调度",
+    "translated_abstract": "我们提出了一种由大型语言模型（LLM）驱动的方法，用于在高性能线性代数中生成动态算法调度启发式规则。通过将提示工程与LLaMA 3及一个精选的性能数据库相结合，该模型学习合成选择启发式规则，以利用结构模式识别快速的算法选择。关于LU分解的案例研究展示了该模型复制专家设计策略的能力。这项工作作为DARPA-MIT SmartSolve项目的一部分开发，突显了LLM在算法发现以及开发更具适应性和快速的线性代数软件方面的潜力。",
+    "tldr": "本文提出了一种利用大型语言模型（LLaMA 3）结合性能数据库生成动态算法调度启发式规则的方法，并通过LU分解案例证明了其能复制专家策略，展现了LLM在算法发现中的潜力。",
+    "en_tdlr": "This paper proposes an LLM-driven approach (using LLaMA 3) with a performance database to generate dynamic algorithm dispatch heuristics, demonstrated via LU factorization to replicate expert strategies, highlighting LLM potential in algorithmic discovery."
+}

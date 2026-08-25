@@ -1,0 +1,12 @@
+{
+    "title": "KellyBoost: Growth-Optimal Portfolio Construction with Gradient-Boosted Trees",
+    "abstract": "arXiv:2608.23393v1 Announce Type: new  Abstract: KellyBoost is a single multi-output XGBoost model whose softmax output is the portfolio: with y the vector of per-asset holding-period returns, the training loss is - log(1 + w y), the negative log growth rate, so the fitted model is the growth-optimal (Kelly) allocation conditioned on the features. The objective is exact rather than a surrogate: we derive the gradient, the analytic diagonal Hessian and the full Hessian in closed form, verify them by finite differences, and ship a dependency-free reference engine.",
+    "link": "https://arxiv.org/abs/2608.23393",
+    "context": "Title: KellyBoost: Growth-Optimal Portfolio Construction with Gradient-Boosted Trees\nAbstract: arXiv:2608.23393v1 Announce Type: new  Abstract: KellyBoost is a single multi-output XGBoost model whose softmax output is the portfolio: with y the vector of per-asset holding-period returns, the training loss is - log(1 + w y), the negative log growth rate, so the fitted model is the growth-optimal (Kelly) allocation conditioned on the features. The objective is exact rather than a surrogate: we derive the gradient, the analytic diagonal Hessian and the full Hessian in closed form, verify them by finite differences, and ship a dependency-free reference engine.",
+    "path": "papers/26/08/2608.23393.json",
+    "total_tokens": 530,
+    "translated_title": "KellyBoost：基于梯度提升树的最优增长投资组合构建",
+    "translated_abstract": "arXiv:2608.23393v1 公告类型：新 摘要：KellyBoost是一个单一的多输出XGBoost模型，其softmax输出即为投资组合：设y为每项资产的持有期收益向量，训练损失为- log(1 + w y)，即负对数增长率，因此拟合模型即为基于特征的条件下的最优增长（Kelly）配置。该目标函数是精确的而非近似替代：我们推导了梯度、解析对角Hessian矩阵和完整Hessian矩阵的闭式形式，并通过有限差分验证了它们，同时提供了一个无依赖的参考引擎。",
+    "tldr": "KellyBoost通过将XGBoost的softmax输出直接作为投资组合，以精确的负对数增长率为损失函数，实现了基于特征的最优增长（Kelly）配置，并提供了闭式梯度和Hessian矩阵的验证实现。",
+    "en_tdlr": "KellyBoost directly uses the softmax output of a multi-output XGBoost model as the portfolio, with the exact negative log growth rate as the loss, achieving feature-conditioned growth-optimal (Kelly) allocation, and provides closed-form gradients and Hessians verified by finite differences."
+}

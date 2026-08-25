@@ -1,0 +1,12 @@
+{
+    "title": "The Axiomatic Trader: Latent Regularity, Information Budgets, and the Canonical Form of a Quantitative Investment System",
+    "abstract": "arXiv:2608.23416v1 Announce Type: cross  Abstract: Systematic trading rests on one article of faith: that regularities found in the past persist. We state it as a time-invariant mechanism driven by an unobserved latent state, and show that it leaves a researcher five constants to declare --- the recurrence bound $Lambda$ at a block length $b$, the invariance defect $epsilon_0$ of the representation it is declared of, the coherence times $ell_i$ of the state's coordinates, the signal ceiling $rho$ and the fraction $kappa$ of it contingent on the regime --- after which the architecture of a correct quantitative investment system is nearly forced.",
+    "link": "https://arxiv.org/abs/2608.23416",
+    "context": "Title: The Axiomatic Trader: Latent Regularity, Information Budgets, and the Canonical Form of a Quantitative Investment System\nAbstract: arXiv:2608.23416v1 Announce Type: cross  Abstract: Systematic trading rests on one article of faith: that regularities found in the past persist. We state it as a time-invariant mechanism driven by an unobserved latent state, and show that it leaves a researcher five constants to declare --- the recurrence bound $Lambda$ at a block length $b$, the invariance defect $epsilon_0$ of the representation it is declared of, the coherence times $ell_i$ of the state's coordinates, the signal ceiling $rho$ and the fraction $kappa$ of it contingent on the regime --- after which the architecture of a correct quantitative investment system is nearly forced.",
+    "path": "papers/26/08/2608.23416.json",
+    "total_tokens": 525,
+    "translated_title": "公理化交易者：潜在规律性、信息预算与量化投资系统的规范形式",
+    "translated_abstract": "arXiv:2608.23416v1 公告类型：交叉 摘要：系统性交易基于一个信念：过去发现的规律性会持续存在。我们将其表述为由一个未观测潜在状态驱动的时间不变机制，并证明它留给研究者五个待声明的常数——在块长度$b$下的复发界限$\\Lambda$、表示中声明的不变性缺陷$\\epsilon_0$、状态坐标的相干时间$\\ell_i$、信号上限$\\rho$以及依赖于机制的部分$\\kappa$——之后，一个正确量化投资系统的架构几乎是被迫确定的。",
+    "tldr": "本文通过五个关键常数（复发界限、不变性缺陷、相干时间、信号上限和机制依赖比例）形式化定义了量化投资系统的公理化基础，从而推导出其近乎必然的架构。",
+    "en_tdlr": "This paper formalizes the axiomatic foundation of quantitative investment systems through five key constants (recurrence bound, invariance defect, coherence times, signal ceiling, and regime-dependent fraction), thereby deriving a nearly forced architecture."
+}

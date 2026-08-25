@@ -1,0 +1,12 @@
+{
+    "title": "AI Learning and Conceptual Transfer in the Game of Hidden Rules",
+    "abstract": "arXiv:2608.21372v1 Announce Type: new  Abstract: This report summarizes the work conducted on the Game of Hidden Rules (GOHR), focusing on reinforcement learning agents trained to infer hidden rules from trial-and-error feedback, representation design, rule difficulty analysis, transfer learning, generalization, and pseudo-bot-assisted human learning analysis. The report focuses on the Transformer-based A2C framework, Feature-Centric and Object-Centric representations, experimental findings, and classification of human learning data.",
+    "link": "https://arxiv.org/abs/2608.21372",
+    "context": "Title: AI Learning and Conceptual Transfer in the Game of Hidden Rules\nAbstract: arXiv:2608.21372v1 Announce Type: new  Abstract: This report summarizes the work conducted on the Game of Hidden Rules (GOHR), focusing on reinforcement learning agents trained to infer hidden rules from trial-and-error feedback, representation design, rule difficulty analysis, transfer learning, generalization, and pseudo-bot-assisted human learning analysis. The report focuses on the Transformer-based A2C framework, Feature-Centric and Object-Centric representations, experimental findings, and classification of human learning data.",
+    "path": "papers/26/08/2608.21372.json",
+    "total_tokens": 416,
+    "translated_title": "隐藏规则游戏中的AI学习与概念迁移",
+    "translated_abstract": "本报告总结了在隐藏规则游戏（GOHR）上进行的研究工作，重点涉及通过试错反馈推断隐藏规则的强化学习智能体、表征设计、规则难度分析、迁移学习、泛化能力以及伪机器人辅助的人类学习分析。报告聚焦于基于Transformer的A2C框架、特征中心和对象中心表征、实验结果以及人类学习数据的分类。",
+    "tldr": "该论文通过Transformer-based A2C框架和多种表征设计，系统研究了AI在隐藏规则游戏中的学习与概念迁移能力，并分析了人类学习数据以验证智能体性能。",
+    "en_tdlr": "This paper systematically investigates AI learning and conceptual transfer in the Game of Hidden Rules using a Transformer-based A2C framework and various representation designs, while analyzing human learning data to validate agent performance."
+}

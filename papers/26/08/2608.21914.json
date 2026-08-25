@@ -1,0 +1,12 @@
+{
+    "title": "Consistency Is Not Coherence: Orientation Search for Certified Alignments Between 4D Defence Upper Ontologies",
+    "abstract": "arXiv:2608.21914v1 Announce Type: new  Abstract: We align three upper ontologies that sit under UK and NATO defence data infrastructure: the Information Exchange Standard (IES), the Higher Quality Data Model (HQDM) that underpins the National Digital Twin, and Basic Formal Ontology (BFO). No public alignment between IES and HQDM existed. Promoting a hand-curated 17-correspondence crosswalk to OWL and reasoning over the complete merged ontologies with HermiT produces three results that we believe matter beyond this pair.",
+    "link": "https://arxiv.org/abs/2608.21914",
+    "context": "Title: Consistency Is Not Coherence: Orientation Search for Certified Alignments Between 4D Defence Upper Ontologies\nAbstract: arXiv:2608.21914v1 Announce Type: new  Abstract: We align three upper ontologies that sit under UK and NATO defence data infrastructure: the Information Exchange Standard (IES), the Higher Quality Data Model (HQDM) that underpins the National Digital Twin, and Basic Formal Ontology (BFO). No public alignment between IES and HQDM existed. Promoting a hand-curated 17-correspondence crosswalk to OWL and reasoning over the complete merged ontologies with HermiT produces three results that we believe matter beyond this pair.",
+    "path": "papers/26/08/2608.21914.json",
+    "total_tokens": 461,
+    "translated_title": "一致性并非协调性：面向4D防御上层本体认证对齐的定向搜索",
+    "translated_abstract": "arXiv:2608.21914v1 公告类型：新 摘要：我们对英国和北约防御数据基础设施下的三个上层本体进行了对齐：信息交换标准（IES）、支撑国家数字孪生的更高质量数据模型（HQDM）以及基础形式本体（BFO）。此前不存在IES和HQDM之间的公开对齐。我们将手工策划的17对应关系交叉映射提升至OWL，并使用HermiT推理器对完整合并后的本体进行推理，产生了三项我们认为超越此对的结果。",
+    "tldr": "本文首次对IES和HQDM上层本体进行认证对齐，通过手工交叉映射和推理，揭示了关键发现，超越了单纯的一致性检查。",
+    "en_tdlr": "This paper presents the first certified alignment between IES and HQDM upper ontologies, using hand-curated crosswalks and reasoning to uncover key insights beyond mere consistency checks."
+}

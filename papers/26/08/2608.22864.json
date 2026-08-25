@@ -1,0 +1,12 @@
+{
+    "title": "From Exponential to Polynomial: An Exact Filter for High-Dimensional MSM Models",
+    "abstract": "arXiv:2608.22864v1 Announce Type: new  Abstract: In this paper we propose a new formulation of the Bayesian Filter as used in the discrete-time Markov-Switching-Multifractal (MSM) model of volatility based on existing permutation symmetry within the likelihood structure. We show both analytically and empirically that such a formulation leads to a reduction in time complexity from $O(D^k)$ to $O(k^D)$ thereby significantly reducing the computational bottleneck associated with dimensionality. We compare the agreement between the naive and sector filters and find that while there are significant disagreements, the ground-truth recovery of the latter seems to improve on the former.",
+    "link": "https://arxiv.org/abs/2608.22864",
+    "context": "Title: From Exponential to Polynomial: An Exact Filter for High-Dimensional MSM Models\nAbstract: arXiv:2608.22864v1 Announce Type: new  Abstract: In this paper we propose a new formulation of the Bayesian Filter as used in the discrete-time Markov-Switching-Multifractal (MSM) model of volatility based on existing permutation symmetry within the likelihood structure. We show both analytically and empirically that such a formulation leads to a reduction in time complexity from $O(D^k)$ to $O(k^D)$ thereby significantly reducing the computational bottleneck associated with dimensionality. We compare the agreement between the naive and sector filters and find that while there are significant disagreements, the ground-truth recovery of the latter seems to improve on the former.",
+    "path": "papers/26/08/2608.22864.json",
+    "total_tokens": 479,
+    "translated_title": "从指数到多项式：高维MSM模型的精确滤波器",
+    "translated_abstract": "本文基于波动率离散时间马尔可夫切换多重分形（MSM）模型中似然结构内现有的排列对称性，提出了一种贝叶斯滤波器的新公式。我们通过分析和实证表明，该公式将时间复杂度从$O(D^k)$降至$O(k^D)$，从而显著减轻了与维度相关的计算瓶颈。我们比较了朴素滤波器和扇区滤波器之间的一致性，发现虽然存在显著差异，但后者对真实状态的恢复似乎优于前者。",
+    "tldr": "本文利用MSM模型似然结构的排列对称性，提出了一种新的贝叶斯滤波器公式，将时间复杂度从指数级降至多项式级，有效缓解了高维计算瓶颈。",
+    "en_tdlr": "This paper leverages the permutation symmetry in the likelihood structure of MSM models to propose a novel Bayesian filter formulation, reducing time complexity from exponential to polynomial and effectively alleviating the high-dimensional computational bottleneck."
+}

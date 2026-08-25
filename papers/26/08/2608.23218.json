@@ -1,0 +1,12 @@
+{
+    "title": "What is mathematics now, and what should it be?",
+    "abstract": "arXiv:2608.23218v1 Announce Type: new  Abstract: Advances in neural theorem provers have been impressive, but the successes obscure a broader vision of what AI can do for mathematics and how mathematicians can engage with AI. This essay advances a more expansive and optimistic point of view.",
+    "link": "https://arxiv.org/abs/2608.23218",
+    "context": "Title: What is mathematics now, and what should it be?\nAbstract: arXiv:2608.23218v1 Announce Type: new  Abstract: Advances in neural theorem provers have been impressive, but the successes obscure a broader vision of what AI can do for mathematics and how mathematicians can engage with AI. This essay advances a more expansive and optimistic point of view.",
+    "path": "papers/26/08/2608.23218.json",
+    "total_tokens": 334,
+    "translated_title": "数学现在是什么，又应该是什么？",
+    "translated_abstract": "arXiv:2608.23218v1 公告类型：新 摘要：神经定理证明器的进展令人瞩目，但这些成功掩盖了一个更广阔的愿景：人工智能能为数学做什么，以及数学家如何与人工智能互动。本文提出了一个更宏大且乐观的观点。",
+    "tldr": "本文倡导一种更广阔且乐观的视角，探讨人工智能在数学中的潜力以及数学家如何与之互动，超越当前神经定理证明器的局限。",
+    "en_tdlr": "This essay advocates a broader and more optimistic perspective on AI's potential in mathematics and how mathematicians can engage with it, beyond current neural theorem provers."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Practical Principles for AI Cost and Compute Accounting",
+    "abstract": "arXiv:2502.15873v5 Announce Type: replace  Abstract: Policymakers increasingly use development cost and compute as proxies for AI capabilities and risks. Recent laws have introduced regulatory requirements for models or developers that are contingent on specific thresholds. However, technical ambiguities in how to perform this accounting create loopholes that can undermine regulatory effectiveness. We propose seven principles for designing AI cost and compute accounting standards that (1) reduce opportunities for strategic gaming, (2) avoid disincentivizing responsible risk mitigation, and (3) enable consistent implementation across companies and jurisdictions.",
+    "link": "https://arxiv.org/abs/2502.15873",
+    "context": "Title: Practical Principles for AI Cost and Compute Accounting\nAbstract: arXiv:2502.15873v5 Announce Type: replace  Abstract: Policymakers increasingly use development cost and compute as proxies for AI capabilities and risks. Recent laws have introduced regulatory requirements for models or developers that are contingent on specific thresholds. However, technical ambiguities in how to perform this accounting create loopholes that can undermine regulatory effectiveness. We propose seven principles for designing AI cost and compute accounting standards that (1) reduce opportunities for strategic gaming, (2) avoid disincentivizing responsible risk mitigation, and (3) enable consistent implementation across companies and jurisdictions.",
+    "path": "papers/25/02/2502.15873.json",
+    "total_tokens": 452,
+    "translated_title": "AI成本与计算核算的实用原则",
+    "translated_abstract": "arXiv:2502.15873v5 公告类型：替换 摘要：政策制定者越来越多地使用开发成本和计算量作为AI能力和风险的代理指标。近期法律引入了针对模型或开发者的监管要求，这些要求取决于特定的阈值。然而，在进行此类核算时存在的技术模糊性造成了漏洞，可能削弱监管有效性。我们提出了七项设计AI成本与计算核算标准的原则，这些原则旨在（1）减少战略性操纵的机会，（2）避免抑制负责任的缓解风险措施，以及（3）确保跨公司和司法管辖区的实施一致性。",
+    "tldr": "本文提出了七项原则，旨在设计AI成本和计算核算标准，以减少漏洞、避免抑制风险管理，并确保跨公司和地区的一致实施。",
+    "en_tdlr": "This paper proposes seven principles for designing AI cost and compute accounting standards to reduce loopholes, avoid discouraging risk mitigation, and ensure consistent implementation across companies and jurisdictions."
+}

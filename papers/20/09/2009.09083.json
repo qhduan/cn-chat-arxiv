@@ -1,0 +1,12 @@
+{
+    "title": "What is an intelligent system?",
+    "abstract": "arXiv:2009.09083v4 Announce Type: replace-cross  Abstract: The term intelligent system has emerged in the field of information technology as a category of computer systems derived from successful applications of artificial intelligence. This paper proposes a general description that identifies the main properties and types of components typically found in such systems. Adopting an integrative and pedagogical approach, this description provides a conceptual framework for systems engineering practitioners seeking a coherent vocabulary and organizational structure to approach the analysis and construction of intelligent systems. The paper presents examples of both classical and modern intelligent systems to illustrate the generality and applicability of the description.",
+    "link": "https://arxiv.org/abs/2009.09083",
+    "context": "Title: What is an intelligent system?\nAbstract: arXiv:2009.09083v4 Announce Type: replace-cross  Abstract: The term intelligent system has emerged in the field of information technology as a category of computer systems derived from successful applications of artificial intelligence. This paper proposes a general description that identifies the main properties and types of components typically found in such systems. Adopting an integrative and pedagogical approach, this description provides a conceptual framework for systems engineering practitioners seeking a coherent vocabulary and organizational structure to approach the analysis and construction of intelligent systems. The paper presents examples of both classical and modern intelligent systems to illustrate the generality and applicability of the description.",
+    "path": "papers/20/09/2009.09083.json",
+    "total_tokens": 406,
+    "translated_title": "什么是智能系统？",
+    "translated_abstract": "术语“智能系统”在信息技术领域已出现，作为源自人工智能成功应用的一类计算机系统。本文提出了一种通用描述，识别了此类系统中通常包含的主要属性和组件类型。采用综合性和教学性的方法，该描述为系统工程实践者提供了一个概念框架，旨在帮助他们获得一致的词汇和组织结构，以分析和构建智能系统。论文通过古典和现代智能系统的例子，展示了该描述的通用性和适用性。",
+    "tldr": "本文提出了一种通用描述智能系统的方法，为系统工程实践者提供了分析、构建智能系统的概念框架。",
+    "en_tdlr": "This paper proposes a general description of intelligent systems, offering a conceptual framework for systems engineering practitioners to analyze and construct such systems."
+}

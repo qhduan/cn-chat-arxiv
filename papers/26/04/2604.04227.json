@@ -1,0 +1,12 @@
+{
+    "title": "An econometrician's guide to optimal transport",
+    "abstract": "arXiv:2604.04227v2 Announce Type: replace  Abstract: We propose an overview of optimal transport theory and its applications to econometric methodology. This review is specifically designed for practitioners, be they econometric theorists or applied econometricians. The review of applications of optimal transport to econometrics is organized around the particular aspects of the mathematical theory of optimal transport they rely on.",
+    "link": "https://arxiv.org/abs/2604.04227",
+    "context": "Title: An econometrician's guide to optimal transport\nAbstract: arXiv:2604.04227v2 Announce Type: replace  Abstract: We propose an overview of optimal transport theory and its applications to econometric methodology. This review is specifically designed for practitioners, be they econometric theorists or applied econometricians. The review of applications of optimal transport to econometrics is organized around the particular aspects of the mathematical theory of optimal transport they rely on.",
+    "path": "papers/26/04/2604.04227.json",
+    "total_tokens": 354,
+    "translated_title": "计量经济学家最优传输指南",
+    "translated_abstract": "arXiv:2604.04227v2 公告类型：替换 摘要：我们提出一个关于最优传输理论及其在计量经济学方法论中应用的综述。本综述专为实践者设计，无论是计量经济学理论家还是应用计量经济学家。对最优传输在计量经济学中应用的综述，围绕其依赖的最优传输数学理论的特定方面进行组织。",
+    "tldr": "本文为计量经济学家提供了最优传输理论的全面指南，重点介绍了其在计量经济学方法论中的实际应用。",
+    "en_tdlr": "This paper provides a comprehensive guide to optimal transport theory for econometricians, focusing on its practical applications in econometric methodology."
+}

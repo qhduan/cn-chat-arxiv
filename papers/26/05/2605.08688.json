@@ -1,0 +1,12 @@
+{
+    "title": "Reconciling Consistency-Based Diagnosis with Actual-Causality-Based Explanations",
+    "abstract": "arXiv:2605.08688v2 Announce Type: replace  Abstract: We establish, from the point of view of Explainable AI (XAI), connections between Consistency-Based Diagnosis (CBD), on one side, and Actual Causality and Causal Responsibility, on the other. CBD has received little attention from the XAI community. Connections between these two areas could have a fruitful impact on XAI and Explainable Data Management.",
+    "link": "https://arxiv.org/abs/2605.08688",
+    "context": "Title: Reconciling Consistency-Based Diagnosis with Actual-Causality-Based Explanations\nAbstract: arXiv:2605.08688v2 Announce Type: replace  Abstract: We establish, from the point of view of Explainable AI (XAI), connections between Consistency-Based Diagnosis (CBD), on one side, and Actual Causality and Causal Responsibility, on the other. CBD has received little attention from the XAI community. Connections between these two areas could have a fruitful impact on XAI and Explainable Data Management.",
+    "path": "papers/26/05/2605.08688.json",
+    "total_tokens": 367,
+    "translated_title": "调和基于一致性的诊断与基于实际因果的解释",
+    "translated_abstract": "我们从可解释人工智能（XAI）的角度出发，建立了基于一致性的诊断（CBD）与实际因果关系及因果责任之间的联系。CBD在XAI社区中受到的关注较少。这两个领域之间的联系可能对XAI和可解释数据管理产生富有成效的影响。",
+    "tldr": "本文从XAI视角建立了基于一致性的诊断与实际因果解释之间的理论联系，为可解释数据管理提供了新的交叉视角。",
+    "en_tdlr": "This paper establishes theoretical connections between consistency-based diagnosis and actual-causality-based explanations from an XAI perspective, offering new cross-disciplinary insights for explainable data management."
+}

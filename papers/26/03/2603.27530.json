@@ -1,0 +1,12 @@
+{
+    "title": "A gentle tutorial on Bock's algorithm for minimum directed spanning trees with a structured reformulation",
+    "abstract": "arXiv:2603.27530v2 Announce Type: replace  Abstract: Bock's 1971 algorithm is an exact primal--dual method for the minimum-cost arborescence problem, but its Algol presentation obscures the interaction of its maintained arrays and label-directed control flow. We provide a self-contained tutorial comprising the original listing, a line-mapped explanation, a circuit-forming three-node example, and a complete trace of Bock's ten-node instance. We also present a structured reformulation that replaces temporary span-label changes with explicit component and trace state. Local tightness and contraction-progress results, together with an operational-correspondence theorem, establish that the reformulation preserves Bock's candidate choices, transfers, and final solution.",
+    "link": "https://arxiv.org/abs/2603.27530",
+    "context": "Title: A gentle tutorial on Bock's algorithm for minimum directed spanning trees with a structured reformulation\nAbstract: arXiv:2603.27530v2 Announce Type: replace  Abstract: Bock's 1971 algorithm is an exact primal--dual method for the minimum-cost arborescence problem, but its Algol presentation obscures the interaction of its maintained arrays and label-directed control flow. We provide a self-contained tutorial comprising the original listing, a line-mapped explanation, a circuit-forming three-node example, and a complete trace of Bock's ten-node instance. We also present a structured reformulation that replaces temporary span-label changes with explicit component and trace state. Local tightness and contraction-progress results, together with an operational-correspondence theorem, establish that the reformulation preserves Bock's candidate choices, transfers, and final solution.",
+    "path": "papers/26/03/2603.27530.json",
+    "total_tokens": 525,
+    "translated_title": "Bock算法用于最小有向生成树的温和教程及其结构化重构",
+    "translated_abstract": "arXiv:2603.27530v2 公告类型：替换 摘要：Bock于1971年提出的算法是解决最小成本树形图问题的一种精确原始-对偶方法，但其Algol语言呈现方式掩盖了其维护数组与标签导向控制流之间的交互。我们提供一个自包含的教程，包括原始代码清单、逐行映射解释、一个形成电路的三节点示例，以及Bock十节点实例的完整追踪。我们还提出了一种结构化重构，用显式的组件和追踪状态替代临时的跨度标签更改。局部紧致性和收缩进展结果，连同操作对应定理，确立了该重构保留了Bock的候选选择、转移和最终解决方案。",
+    "tldr": "本教程详细解读Bock算法，并通过结构化重构保留其核心选择与结果，使原始复杂逻辑更清晰易懂。",
+    "en_tdlr": "This tutorial demystifies Bock's algorithm and introduces a structured reformulation that preserves its candidate choices and final solutions, making the original complex logic more accessible."
+}

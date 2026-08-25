@@ -1,0 +1,12 @@
+{
+    "title": "Artificial Empathy: Towards a Framework for Unsupervised Agency Detection and Policy Reconstruction",
+    "abstract": "arXiv:2608.23030v1 Announce Type: new  Abstract: We study how an AI system can identify and model other agents in its environment from observation alone, which is a capability necessary for cooperative behaviour in the real world. This problem is less constrained than inverse reinforcement learning and remains largely unexplored. We propose a framework that uses a reinforcement learning agent, trained on an independent task as a prior about agentic dynamics, to perform agency detection and policy reconstruction.",
+    "link": "https://arxiv.org/abs/2608.23030",
+    "context": "Title: Artificial Empathy: Towards a Framework for Unsupervised Agency Detection and Policy Reconstruction\nAbstract: arXiv:2608.23030v1 Announce Type: new  Abstract: We study how an AI system can identify and model other agents in its environment from observation alone, which is a capability necessary for cooperative behaviour in the real world. This problem is less constrained than inverse reinforcement learning and remains largely unexplored. We propose a framework that uses a reinforcement learning agent, trained on an independent task as a prior about agentic dynamics, to perform agency detection and policy reconstruction.",
+    "path": "papers/26/08/2608.23030.json",
+    "total_tokens": 414,
+    "translated_title": "人工同理心：面向无监督代理检测与策略重建的框架",
+    "translated_abstract": "我们研究AI系统如何仅通过观察来识别和建模其环境中的其他代理，这是在现实世界中实现合作行为所必需的能力。这个问题比逆强化学习的约束更少，且在很大程度上尚未被探索。我们提出一个框架，该框架利用一个在独立任务上训练的强化学习代理作为代理动态的先验知识，来执行代理检测和策略重建。",
+    "tldr": "本文提出一个利用独立任务训练的强化学习代理作为先验，实现无监督代理检测与策略重建的框架，以增强AI在现实环境中的合作能力。",
+    "en_tdlr": "This paper proposes a framework that leverages a reinforcement learning agent trained on an independent task as a prior to enable unsupervised agency detection and policy reconstruction, enhancing AI cooperation in real-world environments."
+}

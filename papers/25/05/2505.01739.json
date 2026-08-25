@@ -1,0 +1,12 @@
+{
+    "title": "Stochastic dominance for linear combinations of infinite-mean risks",
+    "abstract": "arXiv:2505.01739v2 Announce Type: replace-cross  Abstract: In this paper, we establish a sufficient condition to compare linear combinations of independent and identically distributed (iid) infinite-mean random variables under usual stochastic order. We introduce a new class of distributions that includes many commonly used heavy-tailed distributions and show that within this class, a linear combination of random variables is stochastically larger when its weight vector is smaller in the sense of majorization order. We proceed to study the case where each random variable is a compound Poisson sum and demonstrate that if the stochastic dominance relation holds, the summand of the compound Poisson sum belongs to our new class of distributions. Additional discussions are presented for stable distributions.",
+    "link": "https://arxiv.org/abs/2505.01739",
+    "context": "Title: Stochastic dominance for linear combinations of infinite-mean risks\nAbstract: arXiv:2505.01739v2 Announce Type: replace-cross  Abstract: In this paper, we establish a sufficient condition to compare linear combinations of independent and identically distributed (iid) infinite-mean random variables under usual stochastic order. We introduce a new class of distributions that includes many commonly used heavy-tailed distributions and show that within this class, a linear combination of random variables is stochastically larger when its weight vector is smaller in the sense of majorization order. We proceed to study the case where each random variable is a compound Poisson sum and demonstrate that if the stochastic dominance relation holds, the summand of the compound Poisson sum belongs to our new class of distributions. Additional discussions are presented for stable distributions.",
+    "path": "papers/25/05/2505.01739.json",
+    "total_tokens": 502,
+    "translated_title": "无限均值风险线性组合的随机占优",
+    "translated_abstract": "本文针对独立同分布（iid）无限均值随机变量的线性组合，在通常随机序下建立了比较的充分条件。我们引入了一类新的分布，该分布涵盖了许多常用的重尾分布，并证明在此类分布内，当权重向量在控制序意义下较小时，随机变量的线性组合在随机意义上更大。我们进一步研究了每个随机变量为复合泊松和的情形，并证明若随机占优关系成立，则复合泊松和的被加项属于我们新引入的分布类。此外，还针对稳定分布进行了额外讨论。",
+    "tldr": "本文提出了一类新分布，证明了在控制序下权重向量较小的无限均值随机变量线性组合具有随机占优性，并扩展至复合泊松和情形。",
+    "en_tdlr": "This paper introduces a new class of distributions and proves that linear combinations of infinite-mean random variables with smaller weight vectors in majorization order are stochastically larger, with extensions to compound Poisson sums."
+}

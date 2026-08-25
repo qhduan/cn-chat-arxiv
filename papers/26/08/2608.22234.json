@@ -1,0 +1,12 @@
+{
+    "title": "Learning to Agree under Pseudo-Reciprocity",
+    "abstract": "arXiv:2608.22234v1 Announce Type: new  Abstract: We characterize the communication networks that ensure consensus in rational social learning under the sure-thing principle. A network ensures consensus if and only if it is pseudo-reciprocal, a property under which reciprocity may fail between individuals but holds at a coarser group level. Prior work has assumed message exchange to be bidirectional, yet such pairwise reciprocity proves largely dispensable. We show that a single bidirectional link can suffice, however large the population.",
+    "link": "https://arxiv.org/abs/2608.22234",
+    "context": "Title: Learning to Agree under Pseudo-Reciprocity\nAbstract: arXiv:2608.22234v1 Announce Type: new  Abstract: We characterize the communication networks that ensure consensus in rational social learning under the sure-thing principle. A network ensures consensus if and only if it is pseudo-reciprocal, a property under which reciprocity may fail between individuals but holds at a coarser group level. Prior work has assumed message exchange to be bidirectional, yet such pairwise reciprocity proves largely dispensable. We show that a single bidirectional link can suffice, however large the population.",
+    "path": "papers/26/08/2608.22234.json",
+    "total_tokens": 446,
+    "translated_title": "在伪互惠条件下学习达成共识",
+    "translated_abstract": "arXiv:2608.22234v1 公告类型：新 摘要：我们刻画了在“确定事物原则”下，确保理性社会学习中达成共识的通信网络。一个网络能确保共识，当且仅当它是伪互惠的，这一性质允许个体间的互惠可能失效，但在更粗粒度的群体层面上仍然成立。先前的研究假设信息交换是双向的，然而这种成对互惠在很大程度上并非必要。我们证明，无论群体规模多大，单个双向链接就可能足以确保共识。",
+    "tldr": "本文揭示了在理性社会学习中，确保共识的网络只需具备伪互惠性，且单个双向链接即可在任意大规模群体中实现共识，挑战了传统双向互惠的必要性。",
+    "en_tdlr": "This paper reveals that consensus in rational social learning only requires pseudo-reciprocal networks, and a single bidirectional link suffices for any population size, challenging the necessity of pairwise reciprocity."
+}

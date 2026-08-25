@@ -1,0 +1,12 @@
+{
+    "title": "Why Does Robustness Reduce Superposition?",
+    "abstract": "arXiv:2608.22155v1 Announce Type: cross  Abstract: The study of adversarial examples and their origins remains an open area of research. Mechanistic interpretability, and superposition in particular, offers new avenues for approaching this problem. Gorton & Lewis (2025) demonstrate that adversarial examples arise from superposition and show empirically that adversarial training reduces superposition, yet provide no mechanistic account of why this occurs. We present an empirical explanation inspired by the feature taxonomy of Ilyas et al. (2019), tracing the following chain of causalities: adversarial training abandons non-robust features, leading to fewer total features to represent, resulting in less superposition.",
+    "link": "https://arxiv.org/abs/2608.22155",
+    "context": "Title: Why Does Robustness Reduce Superposition?\nAbstract: arXiv:2608.22155v1 Announce Type: cross  Abstract: The study of adversarial examples and their origins remains an open area of research. Mechanistic interpretability, and superposition in particular, offers new avenues for approaching this problem. Gorton & Lewis (2025) demonstrate that adversarial examples arise from superposition and show empirically that adversarial training reduces superposition, yet provide no mechanistic account of why this occurs. We present an empirical explanation inspired by the feature taxonomy of Ilyas et al. (2019), tracing the following chain of causalities: adversarial training abandons non-robust features, leading to fewer total features to represent, resulting in less superposition.",
+    "path": "papers/26/08/2608.22155.json",
+    "total_tokens": 467,
+    "translated_title": "鲁棒性为何会减少叠加现象？",
+    "translated_abstract": "摘要：对抗样本及其起源的研究仍是一个开放的研究领域。机械可解释性，尤其是叠加现象，为处理这一问题提供了新途径。Gorton和Lewis（2025）证明了对抗样本源于叠加现象，并通过实验表明对抗训练能减少叠加，但未提供其发生机制的合理解释。我们基于Ilyas等人（2019）的特征分类法，提出了一种经验性解释，追溯了以下因果链：对抗训练放弃非鲁棒特征，导致需要表示的总特征减少，从而减少叠加现象。",
+    "tldr": "本文通过因果链解释对抗训练为何减少叠加现象：它放弃非鲁棒特征，减少了特征表示需求，从而降低了叠加程度。",
+    "en_tdlr": "This paper explains why adversarial training reduces superposition via a causal chain: it abandons non-robust features, reducing the total features to represent, thus lessening superposition."
+}

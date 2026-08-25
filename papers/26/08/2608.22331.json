@@ -1,0 +1,12 @@
+{
+    "title": "Noise Floor Audit for Agent Benchmarks",
+    "abstract": "arXiv:2608.22331v1 Announce Type: new  Abstract: We audit measurement variability for 3 native tool-calling endpoints across 2 providers on the official BFCL multiple and parallel categories, using matched AST grading. At temperature 0, reruns are nearly deterministic across Groq endpoints and a thinking-enabled Gemini setting: ever-flip fractions are 0.7%, 2.0%, and 2.7%, with mean run correlations of 0.997, 0.966, and 0.961. Semantics-preserving prompt perturbations create the larger floor on all endpoints, with median perturbation paired SDs 11x to 58x larger than rerun paired SDs. The failure character also shifts: malformed-output failures account for 30%, 7%, and <1% of task failures, so marginal accuracy hides not only stability but also failure mode.",
+    "link": "https://arxiv.org/abs/2608.22331",
+    "context": "Title: Noise Floor Audit for Agent Benchmarks\nAbstract: arXiv:2608.22331v1 Announce Type: new  Abstract: We audit measurement variability for 3 native tool-calling endpoints across 2 providers on the official BFCL multiple and parallel categories, using matched AST grading. At temperature 0, reruns are nearly deterministic across Groq endpoints and a thinking-enabled Gemini setting: ever-flip fractions are 0.7%, 2.0%, and 2.7%, with mean run correlations of 0.997, 0.966, and 0.961. Semantics-preserving prompt perturbations create the larger floor on all endpoints, with median perturbation paired SDs 11x to 58x larger than rerun paired SDs. The failure character also shifts: malformed-output failures account for 30%, 7%, and <1% of task failures, so marginal accuracy hides not only stability but also failure mode.",
+    "path": "papers/26/08/2608.22331.json",
+    "total_tokens": 580,
+    "translated_title": "代理基准测试中的噪声底限审计",
+    "translated_abstract": "arXiv:2608.22331v1 公告类型：新 摘要：我们使用匹配的AST评分，对两个提供商的3个原生工具调用端点在官方BFCL多任务和并行类别中进行了测量变异性审计。在温度0下，Groq端点和启用思考的Gemini设置的重新运行几乎确定性：翻转率分别为0.7%、2.0%和2.7%，平均运行相关性为0.997、0.966和0.961。语义保持的提示扰动在所有端点上形成了更大的噪声底限，中位数扰动配对标准差比重新运行配对标准差大11倍至58倍。失败特征也发生变化：格式错误输出失败占任务失败的30%、7%和<1%，因此边际准确性不仅隐藏了稳定性，还隐藏了失败模式。",
+    "tldr": "本文通过审计发现，在代理基准测试中，语义保持的提示扰动比重新运行带来更大的噪声底限，且失败模式差异显著，凸显了边际准确性指标的局限性。",
+    "en_tdlr": "This paper audits agent benchmarks and finds that semantics-preserving prompt perturbations create a larger noise floor than reruns, with failure modes varying significantly, highlighting limitations of marginal accuracy metrics."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "The Mask Is Not the Model: Auditing Prefix Invariance in Attention, State-Space, and Hybrid Sequence Models",
+    "abstract": "arXiv:2608.22876v1 Announce Type: cross  Abstract: We formalize prefix invariance: representations at position t must not depend on future inputs. We give a lightweight audit, two forward passes, no training or gradients, that localizes exactly where causality breaks. Attention-mask inspection is incomplete: leaks can occur via scans or normalization despite correct masks. Across 192 injected-fault trials on eight checkpoints, mask inspection found none, while our audit localized all 192/192, also finding a defect in Zamba2 and Nemotron-H.",
+    "link": "https://arxiv.org/abs/2608.22876",
+    "context": "Title: The Mask Is Not the Model: Auditing Prefix Invariance in Attention, State-Space, and Hybrid Sequence Models\nAbstract: arXiv:2608.22876v1 Announce Type: cross  Abstract: We formalize prefix invariance: representations at position t must not depend on future inputs. We give a lightweight audit, two forward passes, no training or gradients, that localizes exactly where causality breaks. Attention-mask inspection is incomplete: leaks can occur via scans or normalization despite correct masks. Across 192 injected-fault trials on eight checkpoints, mask inspection found none, while our audit localized all 192/192, also finding a defect in Zamba2 and Nemotron-H.",
+    "path": "papers/26/08/2608.22876.json",
+    "total_tokens": 496,
+    "translated_title": "面具不是模型：审计注意力、状态空间及混合序列模型中的前缀不变性",
+    "translated_abstract": "arXiv:2608.22876v1 公告类型：交叉 摘要：我们形式化了前缀不变性：位置t处的表示不得依赖于未来输入。我们提供了一种轻量级审计方法，只需两次前向传播，无需训练或梯度，即可精确定位因果性破坏的位置。仅检查注意力掩码是不完整的：即使掩码正确，泄漏也可能通过扫描或归一化发生。在八个检查点上的192次注入故障试验中，掩码检查未发现任何问题，而我们的审计方法定位了全部192/192个故障，并在Zamba2和Nemotron-H中发现了缺陷。",
+    "tldr": "我们提出了一种轻量级审计方法，通过两次前向传播精确检测序列模型中的前缀不变性破坏，优于传统的掩码检查，并在多个模型中发现现有方法遗漏的缺陷。",
+    "en_tdlr": "We propose a lightweight audit method using two forward passes to precisely detect prefix invariance violations in sequence models, outperforming mask inspection and uncovering defects in multiple models."
+}

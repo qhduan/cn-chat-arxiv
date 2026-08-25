@@ -1,0 +1,12 @@
+{
+    "title": "The Multilingual FrameNet Corpus",
+    "abstract": "arXiv:2608.23037v1 Announce Type: cross  Abstract: This paper introduces the Multilingual FrameNet Corpus (mFNC), a novel resource that extends the English Berkeley FrameNet corpus by collecting and harmonizing existing language-specific corpora across nine additional languages: Brazilian Portuguese, Chinese, Dutch, French, German, Italian, Korean, Latvian and Swedish. By training models that rely on different architectures on the mFNC, we consistently outperform existing state-of-the-art Frame Semantic Parsers in both multilingual and cross-lingual settings, underscoring the importance of multilingual training data. The mFNC and our trained FSP models are openly available at https://github.com/beatrice-f/mFNC.",
+    "link": "https://arxiv.org/abs/2608.23037",
+    "context": "Title: The Multilingual FrameNet Corpus\nAbstract: arXiv:2608.23037v1 Announce Type: cross  Abstract: This paper introduces the Multilingual FrameNet Corpus (mFNC), a novel resource that extends the English Berkeley FrameNet corpus by collecting and harmonizing existing language-specific corpora across nine additional languages: Brazilian Portuguese, Chinese, Dutch, French, German, Italian, Korean, Latvian and Swedish. By training models that rely on different architectures on the mFNC, we consistently outperform existing state-of-the-art Frame Semantic Parsers in both multilingual and cross-lingual settings, underscoring the importance of multilingual training data. The mFNC and our trained FSP models are openly available at https://github.com/beatrice-f/mFNC.",
+    "path": "papers/26/08/2608.23037.json",
+    "total_tokens": 526,
+    "translated_title": "多语言FrameNet语料库",
+    "translated_abstract": "arXiv:2608.23037v1 公告类型：交叉 摘要：本文介绍了多语言FrameNet语料库（mFNC），这是一种新颖的资源，通过收集并整合九种额外语言（巴西葡萄牙语、中文、荷兰语、法语、德语、意大利语、韩语、拉脱维亚语和瑞典语）的现有特定语言语料库，扩展了英语伯克利FrameNet语料库。通过在不同架构的模型上训练mFNC，我们在多语言和跨语言场景中持续优于现有的最先进框架语义解析器，强调了多语言训练数据的重要性。mFNC和我们训练的FSP模型可在https://github.com/beatrice-f/mFNC公开获取。",
+    "tldr": "本文构建了包含九种语言的多语言FrameNet语料库（mFNC），通过多语言训练数据显著提升了框架语义解析的性能，超越了现有最先进模型。",
+    "en_tdlr": "This paper constructs a multilingual FrameNet corpus (mFNC) spanning nine languages, and by leveraging multilingual training data, significantly improves frame semantic parsing performance, surpassing state-of-the-art models."
+}

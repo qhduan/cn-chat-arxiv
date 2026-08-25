@@ -1,0 +1,12 @@
+{
+    "title": "LLM assisted writing deserves empirical evaluation",
+    "abstract": "arXiv:2608.22124v1 Announce Type: new  Abstract: LLM-assisted writing is often treated as a detection problem, as it raises questions about clarity, integrity, equity, and evaluation. An analysis of 69,209 Health Informatics papers links it to more focused presentation, broader citation practices, and more globally distributed authorship. These patterns do not prove better science, but they support evaluating manuscripts by scholarly quality and accountability rather than by tool use.",
+    "link": "https://arxiv.org/abs/2608.22124",
+    "context": "Title: LLM assisted writing deserves empirical evaluation\nAbstract: arXiv:2608.22124v1 Announce Type: new  Abstract: LLM-assisted writing is often treated as a detection problem, as it raises questions about clarity, integrity, equity, and evaluation. An analysis of 69,209 Health Informatics papers links it to more focused presentation, broader citation practices, and more globally distributed authorship. These patterns do not prove better science, but they support evaluating manuscripts by scholarly quality and accountability rather than by tool use.",
+    "path": "papers/26/08/2608.22124.json",
+    "total_tokens": 416,
+    "translated_title": "大语言模型辅助写作值得进行实证评估",
+    "translated_abstract": "arXiv:2608.22124v1 公告类型：新 摘要：大语言模型辅助写作常被视为一个检测问题，因为它引发了关于清晰度、完整性、公平性和评估的疑问。对69,209篇健康信息学论文的分析表明，这种辅助写作与更聚焦的表述、更广泛的引用实践以及更全球化的作者分布相关。这些模式并不证明科学质量更高，但它们支持应根据学术质量和责任性而非工具使用来评估手稿。",
+    "tldr": "通过对大量健康信息学论文的分析，本文主张应基于学术质量和责任性评估手稿，而非将大语言模型辅助写作视为检测问题。",
+    "en_tdlr": "Based on an analysis of numerous health informatics papers, this work argues that manuscripts should be evaluated by scholarly quality and accountability rather than treating LLM-assisted writing as a detection issue."
+}

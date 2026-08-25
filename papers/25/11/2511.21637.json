@@ -1,0 +1,12 @@
+{
+    "title": "Arctic Auctions, Linear Fisher Markets, and Rational Convex Programs",
+    "abstract": "arXiv:2511.21637v2 Announce Type: replace-cross  Abstract: This paper unifies two foundational constructs from economics and algorithmic game theory, the Arctic Auction and the linear Fisher market, to address the efficient allocation of differentiated goods in complex markets. Our main contributions are showing that an equilibrium for the Arctic Auction is captured by a Rational Convex Program, and deriving the first combinatorial polynomial-time algorithm for computing Arctic Auction equilibria.",
+    "link": "https://arxiv.org/abs/2511.21637",
+    "context": "Title: Arctic Auctions, Linear Fisher Markets, and Rational Convex Programs\nAbstract: arXiv:2511.21637v2 Announce Type: replace-cross  Abstract: This paper unifies two foundational constructs from economics and algorithmic game theory, the Arctic Auction and the linear Fisher market, to address the efficient allocation of differentiated goods in complex markets. Our main contributions are showing that an equilibrium for the Arctic Auction is captured by a Rational Convex Program, and deriving the first combinatorial polynomial-time algorithm for computing Arctic Auction equilibria.",
+    "path": "papers/25/11/2511.21637.json",
+    "total_tokens": 391,
+    "translated_title": "北极拍卖、线性费雪市场与理性凸规划",
+    "translated_abstract": "本文统一了经济学和算法博弈论中的两个基础构造，即北极拍卖和线性费雪市场，以解决复杂市场中差异化商品的有效配置问题。我们的主要贡献是证明了北极拍卖的均衡可由一个理性凸规划所刻画，并推导出首个计算北极拍卖均衡的组合多项式时间算法。",
+    "tldr": "本文首次将北极拍卖与线性费雪市场统一，证明其均衡可由理性凸规划表示，并提出了首个计算北极拍卖均衡的多项式时间组合算法。",
+    "en_tdlr": "This paper unifies Arctic Auctions with linear Fisher markets, shows their equilibria are captured by Rational Convex Programs, and presents the first combinatorial polynomial-time algorithm for computing Arctic Auction equilibria."
+}

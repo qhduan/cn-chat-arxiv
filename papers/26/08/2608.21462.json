@@ -1,0 +1,12 @@
+{
+    "title": "CyrillicQA: The Influence of Phonetically Encoded Secret Language on LLM Performance",
+    "abstract": "arXiv:2608.21462v1 Announce Type: cross  Abstract: Due to the selection of their training data, large language models (LLMs) perform best on standard-language inputs from languages using the Latin alphabet with large speaker populations, while disadvantaging other language varieties. Nevertheless, they can also be a versatile tool for preserving precisely such endangered languages. But do they also possess the necessary creativity and capacity for abstraction to decode phonetically encoded language the same way humans do?",
+    "link": "https://arxiv.org/abs/2608.21462",
+    "context": "Title: CyrillicQA: The Influence of Phonetically Encoded Secret Language on LLM Performance\nAbstract: arXiv:2608.21462v1 Announce Type: cross  Abstract: Due to the selection of their training data, large language models (LLMs) perform best on standard-language inputs from languages using the Latin alphabet with large speaker populations, while disadvantaging other language varieties. Nevertheless, they can also be a versatile tool for preserving precisely such endangered languages. But do they also possess the necessary creativity and capacity for abstraction to decode phonetically encoded language the same way humans do?",
+    "path": "papers/26/08/2608.21462.json",
+    "total_tokens": 407,
+    "translated_title": "西里尔问答：语音编码秘密语言对大型语言模型性能的影响",
+    "translated_abstract": "由于训练数据的选择，大型语言模型（LLMs）在处理使用拉丁字母、拥有大量使用者的标准语言输入时表现最佳，而其他语言变体则处于劣势。尽管如此，它们也可以成为保护此类濒危语言的通用工具。但它们是否也具备人类那样的创造力和抽象能力，来解码语音编码的语言呢？",
+    "tldr": "本文探讨了大型语言模型在解码语音编码秘密语言（如西里尔字母音译）时的能力，并评估其创造性和抽象推理水平。",
+    "en_tdlr": "This paper investigates the ability of large language models to decode phonetically encoded secret languages, such as Cyrillic transliteration, and evaluates their creativity and abstract reasoning capabilities."
+}

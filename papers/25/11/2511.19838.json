@@ -1,0 +1,12 @@
+{
+    "title": "Dynamic Reward Design",
+    "abstract": "arXiv:2511.19838v2 Announce Type: replace  Abstract: We study a dynamic mechanism design problem with limited liability. A principal hires an agent to work over a finite horizon. The agent's costs are i.i.d. across periods and privately known, while his working status is publicly observable. The nonnegative-payment constraint distinguishes our problem from the dynamic screening literature. We identify conditions under which the optimal mechanism takes a simple form: a consecutive-working menu, in which the agent chooses when to start working and is then incentivized to work consecutively until the end. We explain why this consecutive structure is optimal despite i.i.d. costs and additively separable payoffs, shedding light on real-world reward schemes that require consecutive actions.",
+    "link": "https://arxiv.org/abs/2511.19838",
+    "context": "Title: Dynamic Reward Design\nAbstract: arXiv:2511.19838v2 Announce Type: replace  Abstract: We study a dynamic mechanism design problem with limited liability. A principal hires an agent to work over a finite horizon. The agent's costs are i.i.d. across periods and privately known, while his working status is publicly observable. The nonnegative-payment constraint distinguishes our problem from the dynamic screening literature. We identify conditions under which the optimal mechanism takes a simple form: a consecutive-working menu, in which the agent chooses when to start working and is then incentivized to work consecutively until the end. We explain why this consecutive structure is optimal despite i.i.d. costs and additively separable payoffs, shedding light on real-world reward schemes that require consecutive actions.",
+    "path": "papers/25/11/2511.19838.json",
+    "total_tokens": 483,
+    "translated_title": "动态奖励设计",
+    "translated_abstract": "我们研究了一个具有有限责任的动态机制设计问题。委托人雇佣代理人在有限时间内工作。代理人的成本在各期之间独立同分布且为私人信息，而其工作状态是公开可观察的。非负支付约束将我们的问题与动态筛选文献区分开来。我们确定了最优机制采取简单形式的条件：一个连续工作菜单，其中代理人选择何时开始工作，然后被激励连续工作至结束。我们解释了为什么尽管成本独立同分布且收益可加分离，这种连续结构仍然是最优的，这为现实世界中要求连续行动的奖励方案提供了启示。",
+    "tldr": "本文揭示了在有限责任约束下，即使成本独立同分布，最优动态机制仍采用连续工作结构，为现实奖励方案提供了理论依据。",
+    "en_tdlr": "This paper reveals that under limited liability, even with i.i.d. costs, the optimal dynamic mechanism adopts a consecutive-working structure, providing theoretical support for real-world reward schemes."
+}
