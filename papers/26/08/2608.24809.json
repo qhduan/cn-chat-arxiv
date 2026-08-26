@@ -1,0 +1,12 @@
+{
+    "title": "Structurally-bounded Agentic Graph Exploration for Evidence-Grounded Scholarly DeepSearch",
+    "abstract": "arXiv:2608.24809v1 Announce Type: cross  Abstract: We present Crase, a bounded and inspectable alternative to deep research agents for scholarly search. Instead of an open-ended search loop, Crase queries a search engine once for seed papers, expands them along their 1.5-hop citation neighborhood, prunes citation edges whose claims lack entailment support, and ranks the remaining papers with a recency-aware random walk. This makes the candidate set, the reason each paper is kept, and the stopping condition explicit and fixed before inference. On LitSearch and one further benchmarks over a 500K-paper arXiv corpus, Crase outperforms deep research agents built on proprietary models by up to 3$\\times$ recall@50 at roughly a third of the cost.",
+    "link": "https://arxiv.org/abs/2608.24809",
+    "context": "Title: Structurally-bounded Agentic Graph Exploration for Evidence-Grounded Scholarly DeepSearch\nAbstract: arXiv:2608.24809v1 Announce Type: cross  Abstract: We present Crase, a bounded and inspectable alternative to deep research agents for scholarly search. Instead of an open-ended search loop, Crase queries a search engine once for seed papers, expands them along their 1.5-hop citation neighborhood, prunes citation edges whose claims lack entailment support, and ranks the remaining papers with a recency-aware random walk. This makes the candidate set, the reason each paper is kept, and the stopping condition explicit and fixed before inference. On LitSearch and one further benchmarks over a 500K-paper arXiv corpus, Crase outperforms deep research agents built on proprietary models by up to 3$\\times$ recall@50 at roughly a third of the cost.",
+    "path": "papers/26/08/2608.24809.json",
+    "total_tokens": 573,
+    "translated_title": "结构约束的智能体图探索用于基于证据的学术深度搜索",
+    "translated_abstract": "arXiv:2608.24809v1 公告类型：交叉 摘要：我们提出了Crase，一种用于学术搜索的受限且可检查的深度研究智能体替代方案。不同于开放式搜索循环，Crase仅向搜索引擎查询一次以获取种子论文，沿其1.5跳引用邻域进行扩展，剪除其声明缺乏蕴含支持的引用边，并使用考虑时效性的随机游走对剩余论文进行排序。这使得候选集、每篇论文被保留的原因以及停止条件在推理前都是明确且固定的。在LitSearch及另一个基准测试上，基于500K篇arXiv论文语料库，Crase在recall@50上比基于专有模型的深度研究智能体高出最多3倍，而成本仅为后者的约三分之一。",
+    "tldr": "本文提出Crase，一种通过一次性查询、1.5跳引用扩展和蕴含剪枝的结构受限搜索方法，在学术深度搜索中显著提升召回率并降低成本。",
+    "en_tdlr": "This paper introduces Crase, a structurally-bounded search method using one-shot querying, 1.5-hop citation expansion, and entailment pruning, achieving significantly higher recall at lower cost in scholarly deep search."
+}

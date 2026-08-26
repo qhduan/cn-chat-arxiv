@@ -1,0 +1,12 @@
+{
+    "title": "Principal Component Analysis for a Mix of Stationary and Nonstationary Variables",
+    "abstract": "arXiv:2608.23732v1 Announce Type: new  Abstract: This paper develops a procedure for uncovering the common cyclical factors that drive a mix of stationary and nonstationary variables. The method does not require knowing which variables are nonstationary or the nature of the nonstationarity. An application to the FRED-MD macroeconomic dataset demonstrates that the approach offers similar benefits to those of traditional principal component analysis with some added advantages.",
+    "link": "https://arxiv.org/abs/2608.23732",
+    "context": "Title: Principal Component Analysis for a Mix of Stationary and Nonstationary Variables\nAbstract: arXiv:2608.23732v1 Announce Type: new  Abstract: This paper develops a procedure for uncovering the common cyclical factors that drive a mix of stationary and nonstationary variables. The method does not require knowing which variables are nonstationary or the nature of the nonstationarity. An application to the FRED-MD macroeconomic dataset demonstrates that the approach offers similar benefits to those of traditional principal component analysis with some added advantages.",
+    "path": "papers/26/08/2608.23732.json",
+    "total_tokens": 389,
+    "translated_title": "面向平稳与非平稳变量混合的主成分分析",
+    "translated_abstract": "本文开发了一种方法，用于揭示驱动平稳与非平稳变量混合的常见周期因子。该方法无需预先知道哪些变量是非平稳的，也无需了解非平稳性的具体性质。将该方法应用于FRED-MD宏观经济数据集，结果表明，该方法在提供与传统主成分分析类似益处的同时，还具备一些额外优势。",
+    "tldr": "本文提出了一种无需预知变量平稳性的主成分分析方法，能够有效处理平稳与非平稳混合数据，并在宏观经济数据上展现出优于传统方法的附加优势。",
+    "en_tdlr": "This paper proposes a principal component analysis method that handles mixed stationary and nonstationary variables without prior knowledge of their stationarity, offering added advantages over traditional PCA in macroeconomic applications."
+}

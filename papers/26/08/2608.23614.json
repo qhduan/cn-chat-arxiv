@@ -1,0 +1,12 @@
+{
+    "title": "SDR Driver for Precise Timing Applications",
+    "abstract": "arXiv:2608.23614v1 Announce Type: new  Abstract: This paper describes the development of software drivers that enable precise timing applications with the low-cost HackRF One software-defined radio (SDR). The original firmware was extended with timing functions for synchronized sampling, time-scale control, and clock-frequency adjustment. An initial implementation based on a Python wrapper was later redesigned as a SoapySDR-compatible driver. Using an AI-assisted development workflow, the new driver was generated from the existing HackRF One and SoapySDR codebases and became operational after only limited debugging. The approach reduced development effort by more than an order of magnitude while improving software maintainability.",
+    "link": "https://arxiv.org/abs/2608.23614",
+    "context": "Title: SDR Driver for Precise Timing Applications\nAbstract: arXiv:2608.23614v1 Announce Type: new  Abstract: This paper describes the development of software drivers that enable precise timing applications with the low-cost HackRF One software-defined radio (SDR). The original firmware was extended with timing functions for synchronized sampling, time-scale control, and clock-frequency adjustment. An initial implementation based on a Python wrapper was later redesigned as a SoapySDR-compatible driver. Using an AI-assisted development workflow, the new driver was generated from the existing HackRF One and SoapySDR codebases and became operational after only limited debugging. The approach reduced development effort by more than an order of magnitude while improving software maintainability.",
+    "path": "papers/26/08/2608.23614.json",
+    "total_tokens": 493,
+    "translated_title": "用于精确计时应用的SDR驱动程序",
+    "translated_abstract": "本文描述了软件驱动程序的开发，这些驱动程序使得低成本HackRF One软件定义无线电（SDR）能够实现精确计时应用。原始固件被扩展了计时功能，包括同步采样、时间尺度控制和时钟频率调整。最初基于Python包装器的实现后来被重新设计为兼容SoapySDR的驱动程序。利用AI辅助开发工作流程，新驱动程序从现有的HackRF One和SoapySDR代码库中生成，并且在仅经过有限调试后即可运行。该方法将开发工作量减少了一个数量级以上，同时提高了软件的可维护性。",
+    "tldr": "本文通过AI辅助开发，从现有代码库生成SoapySDR兼容的HackRF One驱动程序，显著降低了开发成本并提升了计时精度和可维护性。",
+    "en_tdlr": "This paper presents an AI-assisted development of a SoapySDR-compatible driver for HackRF One, reducing development effort by over an order of magnitude while enhancing timing precision and maintainability."
+}

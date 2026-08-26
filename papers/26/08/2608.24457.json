@@ -1,0 +1,12 @@
+{
+    "title": "Participation, selection and indicative bidding in auctions with costly entry",
+    "abstract": "arXiv:2608.24457v1 Announce Type: new  Abstract: We study auctions with costly entry in which bidders have incomplete information about their affiliated private valuations prior to entry. We examine whether indicative bidding--a mechanism requiring non-binding preliminary bids before entry--can stimulate participation and improve entrant selection, and we compare its performance with unrestricted and capped entry in a controlled laboratory experiment. When entry costs are high, indicative bidding generates significantly more revenue, primarily by increasing participation beyond theoretical predictions. When entry costs are low, its predicted revenue advantage is attenuated by higher-than-predicted selection inefficiency.",
+    "link": "https://arxiv.org/abs/2608.24457",
+    "context": "Title: Participation, selection and indicative bidding in auctions with costly entry\nAbstract: arXiv:2608.24457v1 Announce Type: new  Abstract: We study auctions with costly entry in which bidders have incomplete information about their affiliated private valuations prior to entry. We examine whether indicative bidding--a mechanism requiring non-binding preliminary bids before entry--can stimulate participation and improve entrant selection, and we compare its performance with unrestricted and capped entry in a controlled laboratory experiment. When entry costs are high, indicative bidding generates significantly more revenue, primarily by increasing participation beyond theoretical predictions. When entry costs are low, its predicted revenue advantage is attenuated by higher-than-predicted selection inefficiency.",
+    "path": "papers/26/08/2608.24457.json",
+    "total_tokens": 468,
+    "translated_title": "高成本进入拍卖中的参与、选择与指示性投标",
+    "translated_abstract": "我们研究了进入成本高昂的拍卖，其中投标者在进入前对其关联的私人估值信息不完全。我们考察了指示性投标——一种在进入前要求非约束性初步投标的机制——是否能刺激参与并改善进入者选择，并通过受控实验室实验将其表现与无限制进入和限制进入进行比较。当进入成本高时，指示性投标主要通过增加超出理论预测的参与度来显著提高收入。当进入成本低时，其预测的收入优势因高于预期的选择效率低下而被削弱。",
+    "tldr": "本文通过实验发现，指示性投标在高进入成本下能显著提升拍卖收入，主要归因于参与度的增加，但在低进入成本下其优势受选择效率不足影响。",
+    "en_tdlr": "This paper experimentally shows that indicative bidding significantly boosts auction revenue under high entry costs by increasing participation, but its advantage diminishes under low entry costs due to selection inefficiency."
+}

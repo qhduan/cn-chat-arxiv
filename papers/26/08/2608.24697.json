@@ -1,0 +1,12 @@
+{
+    "title": "Single State Update Predictive Coding training for Time Series Forecasting and Anomaly Detection",
+    "abstract": "arXiv:2608.24697v1 Announce Type: new  Abstract: Predictive Coding (PC) is a neural learning paradigm that enables parallelizable neural network layer updates. However, the main bottleneck of PC Networks (PCN) is the sequential backwards error propagation. To tackle this, we introduce a training technique that pairs a Generative PCN with a support Encoding PCN. The two PCNs are trained in parallel to match their neural activations, without sequential propagation. We apply this to time series anomaly detection and show that our approach results in more stable, continuous, online learning.",
+    "link": "https://arxiv.org/abs/2608.24697",
+    "context": "Title: Single State Update Predictive Coding training for Time Series Forecasting and Anomaly Detection\nAbstract: arXiv:2608.24697v1 Announce Type: new  Abstract: Predictive Coding (PC) is a neural learning paradigm that enables parallelizable neural network layer updates. However, the main bottleneck of PC Networks (PCN) is the sequential backwards error propagation. To tackle this, we introduce a training technique that pairs a Generative PCN with a support Encoding PCN. The two PCNs are trained in parallel to match their neural activations, without sequential propagation. We apply this to time series anomaly detection and show that our approach results in more stable, continuous, online learning.",
+    "path": "papers/26/08/2608.24697.json",
+    "total_tokens": 470,
+    "translated_title": "单状态更新预测编码训练用于时间序列预测与异常检测",
+    "translated_abstract": "摘要：arXiv:2608.24697v1 公告类型：新  摘要：预测编码（PC）是一种神经学习范式，能够实现神经网络层的并行更新。然而，PC网络（PCN）的主要瓶颈是顺序反向误差传播。为解决这一问题，我们引入了一种训练技术，将生成式PCN与支持编码PCN配对使用。这两个PCN并行训练以匹配其神经激活，无需顺序传播。我们将此应用于时间序列异常检测，并表明我们的方法能实现更稳定、连续、在线的学习。",
+    "tldr": "本文提出一种配对生成式与编码式预测编码网络的并行训练方法，消除顺序反向传播瓶颈，从而实现更稳定、连续的时间序列异常检测在线学习。",
+    "en_tdlr": "This paper proposes a parallel training method pairing generative and encoding predictive coding networks to eliminate sequential backpropagation bottlenecks, enabling more stable, continuous online learning for time series anomaly detection."
+}

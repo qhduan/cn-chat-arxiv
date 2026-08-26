@@ -1,0 +1,12 @@
+{
+    "title": "Information Revelation in Constant-Sum Games: Elections and Beyond",
+    "abstract": "arXiv:2406.17084v3 Announce Type: replace  Abstract: Do elections aggregate the private information of office-motivated candidates? Our answer stems from a general result for two-player constant-sum Bayesian games with type-independent payoffs. Under a \"completeness\" statistical condition, every \"identifiable\" equilibrium is an ex-post equilibrium. Applied to Downsian elections, the ex-post property implies a sharp bound on information aggregation: equilibrium voter welfare is at best equal to the efficient use of a single candidate's information. In canonical specifications, politicians may \"anti-pander\" (overreact to their information), whereas some degree of pandering would be socially beneficial. We discuss other applications of the ex-post result.",
+    "link": "https://arxiv.org/abs/2406.17084",
+    "context": "Title: Information Revelation in Constant-Sum Games: Elections and Beyond\nAbstract: arXiv:2406.17084v3 Announce Type: replace  Abstract: Do elections aggregate the private information of office-motivated candidates? Our answer stems from a general result for two-player constant-sum Bayesian games with type-independent payoffs. Under a \"completeness\" statistical condition, every \"identifiable\" equilibrium is an ex-post equilibrium. Applied to Downsian elections, the ex-post property implies a sharp bound on information aggregation: equilibrium voter welfare is at best equal to the efficient use of a single candidate's information. In canonical specifications, politicians may \"anti-pander\" (overreact to their information), whereas some degree of pandering would be socially beneficial. We discuss other applications of the ex-post result.",
+    "path": "papers/24/06/2406.17084.json",
+    "total_tokens": 526,
+    "translated_title": "常数和博弈中的信息揭示：选举及其超越",
+    "translated_abstract": "摘要：arXiv:2406.17084v3 公告类型：替换 摘要：选举是否聚合了以职位为导向的候选人的私人信息？我们的答案源于一个关于类型无关收益的两玩家常数和贝叶斯博弈的一般性结果。在“完备性”统计条件下，每个“可识别”的均衡都是事后均衡。应用于唐斯式选举时，事后性质意味着信息聚合的严格界限：均衡选民福利至多等于对单一候选人信息的有效利用。在典型设定中，政治家可能“反迎合”（对信息过度反应），而某种程度的迎合将对社会有益。我们讨论了事后结果的其他应用。",
+    "tldr": "本文通过常数和博弈的一般性结果，证明在完备性条件下选举均衡无法有效聚合信息，且政治家可能过度反应，提出了信息聚合的严格界限及社会最优的迎合程度。",
+    "en_tdlr": "This paper establishes, via a general result for constant-sum Bayesian games, that under a completeness condition, elections cannot efficiently aggregate information, with politicians potentially overreacting, leading to a sharp bound on welfare and socially optimal pandering."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Contagious Ambiguity",
+    "abstract": "arXiv:2608.24560v1 Announce Type: new  Abstract: We study the strategic impact of ambiguity through the channel of higher-order beliefs. We show that even small amounts of prior ambiguity about game payoffs can generate arbitrarily large amounts of higher-order ambiguity. This gives rise to a novel form of contagion: vanishingly small payoff ambiguity can select ``secure'' actions (e.g., non-participation) as the unique equilibrium outcome even when those actions are almost dominated. We highlight two main implications. First, classical robustness results under probabilistic uncertainty break down under ambiguity when players can deviate to secure actions. Second, if a designer can introduce small amounts of payoff ambiguity into a game, this can serve as a powerful tool for unique implementation.",
+    "link": "https://arxiv.org/abs/2608.24560",
+    "context": "Title: Contagious Ambiguity\nAbstract: arXiv:2608.24560v1 Announce Type: new  Abstract: We study the strategic impact of ambiguity through the channel of higher-order beliefs. We show that even small amounts of prior ambiguity about game payoffs can generate arbitrarily large amounts of higher-order ambiguity. This gives rise to a novel form of contagion: vanishingly small payoff ambiguity can select ``secure'' actions (e.g., non-participation) as the unique equilibrium outcome even when those actions are almost dominated. We highlight two main implications. First, classical robustness results under probabilistic uncertainty break down under ambiguity when players can deviate to secure actions. Second, if a designer can introduce small amounts of payoff ambiguity into a game, this can serve as a powerful tool for unique implementation.",
+    "path": "papers/26/08/2608.24560.json",
+    "total_tokens": 539,
+    "translated_title": "传染性模糊性",
+    "translated_abstract": "arXiv:2608.24560v1 公告类型：新 摘要：我们通过高阶信念的渠道研究模糊性的战略影响。我们表明，即使关于博弈收益的先验模糊性很小，也能产生任意大的高阶模糊性。这引发了一种新颖的传染形式：即使收益模糊性微小到几乎可以忽略，也能选择“安全”行动（例如，不参与）作为唯一均衡结果，尽管这些行动几乎被支配。我们强调两个主要含义。第一，在模糊性下，当玩家可以转向安全行动时，概率不确定性下的经典稳健性结果会失效。第二，如果设计者能在博弈中引入微小的收益模糊性，这可以作为实现唯一实施的强大工具。",
+    "tldr": "本文发现，微小的先验收益模糊性通过高阶信念能传染为巨大的高阶模糊性，从而选择“安全”行动作为唯一均衡结果，破坏经典稳健性，并为设计者提供实现唯一实施的新工具。",
+    "en_tdlr": "This paper shows that tiny prior payoff ambiguity can contagiously amplify into arbitrarily large higher-order ambiguity, selecting \"secure\" actions as unique equilibrium outcomes, undermining classical robustness and offering a powerful tool for unique implementation by designers."
+}

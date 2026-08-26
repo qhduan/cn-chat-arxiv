@@ -1,0 +1,12 @@
+{
+    "title": "Do LLMs Understand Limit Order Book Dynamics?",
+    "abstract": "arXiv:2608.23706v1 Announce Type: new  Abstract: A large language model (LLM) trained on synthetic limit order book (LOB) data achieves near perfect scores in generating valid sequences of LOB events. However, the LLM's implicit world model fails to learn the state of the LOB. This deficiency leads to biased estimates and spurious predictability in using the LLM to forecast future LOB events. Our analysis uses novel tests of an LLM's world model, extending prior work from deterministic settings to the stochastic dynamics needed for the LOB.",
+    "link": "https://arxiv.org/abs/2608.23706",
+    "context": "Title: Do LLMs Understand Limit Order Book Dynamics?\nAbstract: arXiv:2608.23706v1 Announce Type: new  Abstract: A large language model (LLM) trained on synthetic limit order book (LOB) data achieves near perfect scores in generating valid sequences of LOB events. However, the LLM's implicit world model fails to learn the state of the LOB. This deficiency leads to biased estimates and spurious predictability in using the LLM to forecast future LOB events. Our analysis uses novel tests of an LLM's world model, extending prior work from deterministic settings to the stochastic dynamics needed for the LOB.",
+    "path": "papers/26/08/2608.23706.json",
+    "total_tokens": 472,
+    "translated_title": "大型语言模型是否理解限价订单簿动态？",
+    "translated_abstract": "arXiv:2608.23706v1 公告类型：新 摘要：一个在合成限价订单簿（LOB）数据上训练的大型语言模型（LLM）在生成有效的LOB事件序列方面达到了近乎完美的分数。然而，该LLM的隐式世界模型未能学习到LOB的状态。这一缺陷导致在使用LLM预测未来LOB事件时产生偏差估计和虚假的可预测性。我们的分析采用了对LLM世界模型的新测试，将先前的工作从确定性设置扩展到LOB所需的随机动力学。",
+    "tldr": "本文发现，尽管LLM在生成有效LOB序列上表现完美，但其世界模型无法捕捉LOB状态，导致预测存在偏差和虚假可预测性，并通过新测试扩展了随机动力学下的世界模型评估。",
+    "en_tdlr": "This paper reveals that although LLMs excel at generating valid LOB sequences, their world model fails to learn LOB states, causing biased and spuriously predictable forecasts, and extends world model testing to stochastic dynamics."
+}

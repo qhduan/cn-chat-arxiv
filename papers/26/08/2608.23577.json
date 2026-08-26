@@ -1,0 +1,12 @@
+{
+    "title": "Where Does Ethereum Validators' Money Go? A Spectral Analysis",
+    "abstract": "arXiv:2608.23577v1 Announce Type: new  Abstract: Existing decentralization measures are almost entirely origination-side, quantifying concentration in who mines or validates blocks. We introduce a spectral methodology measuring concentration on the destination side instead: where value ultimately flows once it leaves a validator wallet. Modeling wallet-to-wallet transfers as a Markov chain, we compute near-real-time steady-state probabilities via the Perron--Frobenius theorem to identify long-run terminal recipients. Applied to 76,855 Ethereum wallets from four years of mining data, fund flows collapse to just four terminal accounts. None of these fund destination accounts are among the network's three dominant identifiable revenue-earning miners.",
+    "link": "https://arxiv.org/abs/2608.23577",
+    "context": "Title: Where Does Ethereum Validators' Money Go? A Spectral Analysis\nAbstract: arXiv:2608.23577v1 Announce Type: new  Abstract: Existing decentralization measures are almost entirely origination-side, quantifying concentration in who mines or validates blocks. We introduce a spectral methodology measuring concentration on the destination side instead: where value ultimately flows once it leaves a validator wallet. Modeling wallet-to-wallet transfers as a Markov chain, we compute near-real-time steady-state probabilities via the Perron--Frobenius theorem to identify long-run terminal recipients. Applied to 76,855 Ethereum wallets from four years of mining data, fund flows collapse to just four terminal accounts. None of these fund destination accounts are among the network's three dominant identifiable revenue-earning miners.",
+    "path": "papers/26/08/2608.23577.json",
+    "total_tokens": 519,
+    "translated_title": "以太坊验证者的资金去向何方？谱分析",
+    "translated_abstract": "arXiv:2608.23577v1 公告类型：新 摘要：现有的去中心化衡量标准几乎完全从源头侧出发，量化谁在挖掘或验证区块的集中程度。我们引入一种谱分析方法，从目的地侧衡量集中度：即资金离开验证者钱包后的最终流向。将钱包间转账建模为马尔可夫链，我们通过Perron-Frobenius定理计算近实时的稳态概率，以识别长期终端接收者。应用于四年挖掘数据中的76,855个以太坊钱包，资金流最终汇聚到仅四个终端账户。这些资金目的地账户均不在网络三大可识别收入最高的矿工之列。",
+    "tldr": "该论文提出一种新的谱分析方法，从资金流向目的地而非源头衡量去中心化，发现以太坊验证者的资金最终高度集中于四个终端账户，且与主要矿工无关。",
+    "en_tdlr": "This paper introduces a spectral methodology to measure decentralization from the destination side of fund flows, revealing that Ethereum validators' funds ultimately concentrate in just four terminal accounts, independent of the network's dominant miners."
+}

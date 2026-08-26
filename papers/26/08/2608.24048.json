@@ -1,0 +1,12 @@
+{
+    "title": "Don't Just Listen, Try Planning: Graph-based Retrieval-Generation Agent for Long-form Audio Meeting Understanding",
+    "abstract": "arXiv:2608.24048v1 Announce Type: cross  Abstract: While long-form audio meeting understanding (LAMU) is garnering growing attention, task-specific question answering (QA) datasets remain scarce. Existing speech QA paradigms and state-of-the-art Speech LLMs suffer from acoustic information loss and poor long-term context memory. To address these issues, we construct the LongAudioQA dataset and propose the GRGA model, which models heterogeneous audio features into a multi-dimensional graph and leverages agent planning for retrieval and answer generation.",
+    "link": "https://arxiv.org/abs/2608.24048",
+    "context": "Title: Don't Just Listen, Try Planning: Graph-based Retrieval-Generation Agent for Long-form Audio Meeting Understanding\nAbstract: arXiv:2608.24048v1 Announce Type: cross  Abstract: While long-form audio meeting understanding (LAMU) is garnering growing attention, task-specific question answering (QA) datasets remain scarce. Existing speech QA paradigms and state-of-the-art Speech LLMs suffer from acoustic information loss and poor long-term context memory. To address these issues, we construct the LongAudioQA dataset and propose the GRGA model, which models heterogeneous audio features into a multi-dimensional graph and leverages agent planning for retrieval and answer generation.",
+    "path": "papers/26/08/2608.24048.json",
+    "total_tokens": 475,
+    "translated_title": "不要只听，尝试规划：基于图检索生成的智能体用于长音频会议理解",
+    "translated_abstract": "尽管长音频会议理解（LAMU）正受到越来越多的关注，但针对特定任务的问答（QA）数据集仍然稀缺。现有的语音问答范式和最先进的语音大语言模型（Speech LLMs）存在声学信息丢失和长期上下文记忆能力差的问题。为解决这些问题，我们构建了LongAudioQA数据集，并提出了GRGA模型，该模型将异构音频特征建模为多维图，并利用智能体规划进行检索和答案生成。",
+    "tldr": "本文提出了GRGA模型，通过构建LongAudioQA数据集，将异构音频特征建模为多维图并利用智能体规划，解决了长音频会议理解中声学信息丢失和长期上下文记忆不足的问题。",
+    "en_tdlr": "This paper proposes the GRGA model, which constructs the LongAudioQA dataset, models heterogeneous audio features into a multi-dimensional graph, and uses agent planning to address acoustic information loss and poor long-term context memory in long-form audio meeting understanding."
+}
