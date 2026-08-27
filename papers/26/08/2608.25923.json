@@ -1,0 +1,12 @@
+{
+    "title": "Efficient tensor bases for pairwise comparisons",
+    "abstract": "arXiv:2608.25923v1 Announce Type: cross  Abstract: In this study, we construct the first orthogonal basis for additively consistent subspace in pairwise comparisons theory. This construction is based on our representation of additively consistent best approximations of skew-symmetric matrices with respect to a tensor basis having minimal support. The orthogonal basis establishes the logarithmic consistent projection for the orthogonal windowing of pairwise comparisons matrices. It is compared with the windowing of the Saaty and SVD types. These comparisons resulted in new composite formulae for logarithmic, Saaty, and SVD projections. The theoretical considerations presented in the paper are accompanied by numerous examples.",
+    "link": "https://arxiv.org/abs/2608.25923",
+    "context": "Title: Efficient tensor bases for pairwise comparisons\nAbstract: arXiv:2608.25923v1 Announce Type: cross  Abstract: In this study, we construct the first orthogonal basis for additively consistent subspace in pairwise comparisons theory. This construction is based on our representation of additively consistent best approximations of skew-symmetric matrices with respect to a tensor basis having minimal support. The orthogonal basis establishes the logarithmic consistent projection for the orthogonal windowing of pairwise comparisons matrices. It is compared with the windowing of the Saaty and SVD types. These comparisons resulted in new composite formulae for logarithmic, Saaty, and SVD projections. The theoretical considerations presented in the paper are accompanied by numerous examples.",
+    "path": "papers/26/08/2608.25923.json",
+    "total_tokens": 461,
+    "translated_title": "高效的两两比较张量基",
+    "translated_abstract": "本文构建了两两比较理论中加性一致子空间的第一个正交基。该构造基于我们对具有最小支撑张量基的反对称矩阵的加性一致最佳逼近的表示。该正交基为两两比较矩阵的正交窗口化建立了对数一致投影，并与Saaty型和SVD型窗口化进行了比较。这些比较得出了对数、Saaty和SVD投影的新复合公式。文中提出的理论考虑配有大量示例。",
+    "tldr": "本文首次为两两比较理论中的加性一致子空间构造了正交基，并基于此提出了对数一致投影的新复合公式，与Saaty和SVD方法相比具有优势。",
+    "en_tdlr": "This paper constructs the first orthogonal basis for the additively consistent subspace in pairwise comparisons theory, and derives new composite formulas for logarithmic consistent projection, offering improvements over Saaty and SVD methods."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A Primer on Computational Semantics for Artificial Intelligence Systems",
+    "abstract": "arXiv:2608.25022v1 Announce Type: new  Abstract: As people adopt transformer-based language models (e.g., ChatGPT and Gemini) for an increasing number of use-cases, it is important to know how such models learn and represent the meaning of the language, and to be more informed about what language is. This document is an attempt to help the reader understand how linguistic meaning (i.e., semantics) is approached from different fields of scientific and philosophical examination. I also explain three primary semantic theories: formal semantics, grounded semantics, and distributional semantics then compare how transformer-based language models differ from how humans learn language.",
+    "link": "https://arxiv.org/abs/2608.25022",
+    "context": "Title: A Primer on Computational Semantics for Artificial Intelligence Systems\nAbstract: arXiv:2608.25022v1 Announce Type: new  Abstract: As people adopt transformer-based language models (e.g., ChatGPT and Gemini) for an increasing number of use-cases, it is important to know how such models learn and represent the meaning of the language, and to be more informed about what language is. This document is an attempt to help the reader understand how linguistic meaning (i.e., semantics) is approached from different fields of scientific and philosophical examination. I also explain three primary semantic theories: formal semantics, grounded semantics, and distributional semantics then compare how transformer-based language models differ from how humans learn language.",
+    "path": "papers/26/08/2608.25022.json",
+    "total_tokens": 457,
+    "translated_title": "人工智能系统计算语义学入门指南",
+    "translated_abstract": "arXiv:2608.25022v1 公告类型：新论文 摘要：随着人们越来越多地采用基于Transformer的语言模型（例如ChatGPT和Gemini）用于各种用例，了解这些模型如何学习和表示语言的含义，以及更深入地了解语言本身是什么，变得至关重要。本文档旨在帮助读者理解语言意义（即语义学）如何从不同的科学和哲学考察领域进行研究。我还解释了三种主要的语义理论：形式语义学、基础语义学和分布语义学，然后比较了基于Transformer的语言模型与人类学习语言的方式有何不同。",
+    "tldr": "本文介绍人工智能系统中计算语义学的入门知识，涵盖三种主要语义理论，并对比了Transformer模型与人类学习语言方式的差异。",
+    "en_tdlr": "This primer introduces computational semantics for AI systems, covering three primary semantic theories and comparing how transformer-based models differ from human language learning."
+}

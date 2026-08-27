@@ -1,0 +1,12 @@
+{
+    "title": "Leveraging Speech Acts for Low-Data and Cross-Domain Conversation Derailment Forecasting",
+    "abstract": "arXiv:2608.25359v1 Announce Type: new  Abstract: Conversational derailment forecasting aims to predict when online discussions will escalate into hostility, enabling proactive moderation. Existing approaches often struggle in low-data settings and to generalize across domains. This poses a challenge for new platforms and smaller communities where annotated data is limited. We propose modeling pragmatic representations of conversations to reduce lexical noise and improve generalizability. Specifically, speech act information is used as an auxiliary learning signal alongside textual semantics. Experimental results show improved performance across three datasets, particularly in low-data and cross-domain settings.",
+    "link": "https://arxiv.org/abs/2608.25359",
+    "context": "Title: Leveraging Speech Acts for Low-Data and Cross-Domain Conversation Derailment Forecasting\nAbstract: arXiv:2608.25359v1 Announce Type: new  Abstract: Conversational derailment forecasting aims to predict when online discussions will escalate into hostility, enabling proactive moderation. Existing approaches often struggle in low-data settings and to generalize across domains. This poses a challenge for new platforms and smaller communities where annotated data is limited. We propose modeling pragmatic representations of conversations to reduce lexical noise and improve generalizability. Specifically, speech act information is used as an auxiliary learning signal alongside textual semantics. Experimental results show improved performance across three datasets, particularly in low-data and cross-domain settings.",
+    "path": "papers/26/08/2608.25359.json",
+    "total_tokens": 453,
+    "translated_title": "利用言语行为进行低数据和跨领域对话脱轨预测",
+    "translated_abstract": "对话脱轨预测旨在预测在线讨论何时会升级为敌对行为，从而实现主动调节。现有方法在低数据设置下往往表现不佳，且难以跨领域泛化。这对新平台和标注数据有限的小型社区构成了挑战。我们提出对对话的语用表示进行建模，以减少词汇噪声并提高泛化能力。具体而言，言语行为信息作为辅助学习信号与文本语义一起使用。实验结果表明，在三个数据集上性能均有提升，尤其是在低数据和跨领域设置中。",
+    "tldr": "本文提出利用言语行为作为辅助信号，结合文本语义进行对话脱轨预测，显著提升了低数据和跨领域场景下的性能。",
+    "en_tdlr": "This paper proposes leveraging speech acts as an auxiliary signal alongside textual semantics for conversation derailment forecasting, significantly improving performance in low-data and cross-domain settings."
+}

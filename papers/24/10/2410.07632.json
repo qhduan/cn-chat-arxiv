@@ -1,0 +1,12 @@
+{
+    "title": "Provable Privacy Attacks on Trained Shallow Neural Networks",
+    "abstract": "arXiv:2410.07632v3 Announce Type: replace  Abstract: We study what provable privacy attacks can be shown for trained 2-layer ReLU neural networks, focusing on two types of attacks: membership inference and data reconstruction. We prove that theoretical results on the implicit bias of 2-layer neural networks can be used to provably identify with high probability whether a given point was used in the training set in a high-dimensional, nearly orthogonal setting, and can also be used to construct a finite set of which at least a constant fraction are training points in a univariate setting. To the best of our knowledge, our work is the first to show provable vulnerabilities in this implicit-bias-driven setting.",
+    "link": "https://arxiv.org/abs/2410.07632",
+    "context": "Title: Provable Privacy Attacks on Trained Shallow Neural Networks\nAbstract: arXiv:2410.07632v3 Announce Type: replace  Abstract: We study what provable privacy attacks can be shown for trained 2-layer ReLU neural networks, focusing on two types of attacks: membership inference and data reconstruction. We prove that theoretical results on the implicit bias of 2-layer neural networks can be used to provably identify with high probability whether a given point was used in the training set in a high-dimensional, nearly orthogonal setting, and can also be used to construct a finite set of which at least a constant fraction are training points in a univariate setting. To the best of our knowledge, our work is the first to show provable vulnerabilities in this implicit-bias-driven setting.",
+    "path": "papers/24/10/2410.07632.json",
+    "total_tokens": 483,
+    "translated_title": "可证明的隐私攻击：针对训练过的浅层神经网络",
+    "translated_abstract": "arXiv:2410.07632v3 公告类型：替换 摘要：我们研究了针对训练过的两层ReLU神经网络可展示的隐私攻击，重点关注两种攻击类型：成员推断和数据重建。我们证明，两层神经网络的隐式偏差理论结果可用于在高维、近似正交的设置中，以高概率可证明地识别给定点是否曾用于训练集，并且还可用于构建一个有限集合，其中至少一个常数比例的点在单变量设置中是训练点。据我们所知，我们的工作首次展示了在这种隐式偏差驱动设置中的可证明漏洞。",
+    "tldr": "本研究首次证明了在训练过的两层ReLU神经网络中，基于隐式偏差理论可实现可证明的成员推断和数据重建攻击。",
+    "en_tdlr": "This work is the first to demonstrate provable membership inference and data reconstruction attacks on trained two-layer ReLU neural networks, leveraging implicit bias theory."
+}

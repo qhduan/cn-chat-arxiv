@@ -1,0 +1,12 @@
+{
+    "title": "Towards Robust and Scalable Density-based Clustering via Graph Propagation",
+    "abstract": "arXiv:2605.00390v2 Announce Type: replace  Abstract: We present \\textit{CluProp}, a novel framework that reimagines varied-density clustering in high-dimensional spaces as a label propagation process over neighborhood graphs. Our approach formally bridges the gap between density-based clustering and graph connectivity, leveraging efficient propagation mechanisms from network science to mitigate the parameter sensitivity inherent in traditional density-based methods. Specifically, we introduce a deterministic density-based propagation strategy to ensure scalable neighborhood identification. The framework is agnostic to the choice of distance metric and exhibits superior performance on large-scale data, processing millions of points in minutes while consistently outperforming existing baselines in accuracy.",
+    "link": "https://arxiv.org/abs/2605.00390",
+    "context": "Title: Towards Robust and Scalable Density-based Clustering via Graph Propagation\nAbstract: arXiv:2605.00390v2 Announce Type: replace  Abstract: We present \\textit{CluProp}, a novel framework that reimagines varied-density clustering in high-dimensional spaces as a label propagation process over neighborhood graphs. Our approach formally bridges the gap between density-based clustering and graph connectivity, leveraging efficient propagation mechanisms from network science to mitigate the parameter sensitivity inherent in traditional density-based methods. Specifically, we introduce a deterministic density-based propagation strategy to ensure scalable neighborhood identification. The framework is agnostic to the choice of distance metric and exhibits superior performance on large-scale data, processing millions of points in minutes while consistently outperforming existing baselines in accuracy.",
+    "path": "papers/26/05/2605.00390.json",
+    "total_tokens": 490,
+    "translated_title": "基于图传播的鲁棒且可扩展的密度聚类方法",
+    "translated_abstract": "我们提出了\\textit{CluProp}，一种新颖的框架，将高维空间中的变密度聚类重新构想为邻域图上的标签传播过程。该框架正式弥合了基于密度的聚类与图连通性之间的差距，利用网络科学中的高效传播机制来缓解传统基于密度方法固有的参数敏感性。具体而言，我们引入了一种确定性的基于密度的传播策略，以确保可扩展的邻域识别。该框架与距离度量的选择无关，在大规模数据上表现出优越性能，能够在几分钟内处理数百万个点，同时在准确性上持续优于现有基线。",
+    "tldr": "提出了一种名为CluProp的基于图传播的密度聚类框架，通过标签传播机制缓解参数敏感性，实现了大规模数据上的高效且鲁棒的聚类。",
+    "en_tdlr": "Proposed CluProp, a graph-propagation-based density clustering framework that mitigates parameter sensitivity via label propagation, achieving efficient and robust clustering on large-scale data."
+}

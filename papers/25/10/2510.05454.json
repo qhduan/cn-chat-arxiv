@@ -1,0 +1,12 @@
+{
+    "title": "Estimating Treatment Effects Under Bounded Heterogeneity",
+    "abstract": "arXiv:2510.05454v3 Announce Type: replace  Abstract: Specifications that impose constant treatment effects are common and can be biased under heterogeneity, whereas fully flexible alternatives can be imprecise or infeasible. Under a bound on the target-weighted variance of treatment effects, this paper proposes a generalized ridge estimator, $\\texttt{regulaTE}$, that yields heterogeneity-aware confidence intervals (CIs). The ridge penalty is chosen to minimize the heterogeneity-aware CI length in a homoskedastic Gaussian setting; the resulting CIs are asymptotically valid even when overlap fails. Varying the bound enables sensitivity analysis of departures from constant effects, illustrated in applications to unconfoundedness and staggered adoption designs.",
+    "link": "https://arxiv.org/abs/2510.05454",
+    "context": "Title: Estimating Treatment Effects Under Bounded Heterogeneity\nAbstract: arXiv:2510.05454v3 Announce Type: replace  Abstract: Specifications that impose constant treatment effects are common and can be biased under heterogeneity, whereas fully flexible alternatives can be imprecise or infeasible. Under a bound on the target-weighted variance of treatment effects, this paper proposes a generalized ridge estimator, $\\texttt{regulaTE}$, that yields heterogeneity-aware confidence intervals (CIs). The ridge penalty is chosen to minimize the heterogeneity-aware CI length in a homoskedastic Gaussian setting; the resulting CIs are asymptotically valid even when overlap fails. Varying the bound enables sensitivity analysis of departures from constant effects, illustrated in applications to unconfoundedness and staggered adoption designs.",
+    "path": "papers/25/10/2510.05454.json",
+    "total_tokens": 519,
+    "translated_title": "在有界异质性下估计处理效应",
+    "translated_abstract": "摘要：arXiv:2510.05454v3 公告类型：替换 摘要：设定恒定处理效应的规格很常见，但在异质性下可能存在偏误，而完全灵活的替代方案可能不精确或不可行。在目标加权处理效应方差有界的情况下，本文提出了一种广义岭估计器 $\\texttt{regulaTE}$，它能产生考虑异质性的置信区间（CI）。岭惩罚参数在齐方差高斯设置下被选择以最小化考虑异质性的置信区间长度；由此得到的置信区间即使在重叠失败时也渐近有效。改变该界限能够对偏离恒定效应的敏感性进行分析，并在无混杂和交错采用设计中的应用中进行了说明。",
+    "tldr": "本文提出一种广义岭估计器，在目标加权处理效应方差有界时，生成在重叠失败下也渐近有效的异质性感知置信区间，并支持敏感性分析。",
+    "en_tdlr": "This paper proposes a generalized ridge estimator that, under a bound on target-weighted treatment effect variance, yields heterogeneity-aware confidence intervals that remain asymptotically valid even when overlap fails, enabling sensitivity analysis."
+}

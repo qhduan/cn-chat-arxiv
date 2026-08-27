@@ -1,0 +1,12 @@
+{
+    "title": "CountTRuCoLa: Rule Learning for Interpretable Temporal Knowledge Graph Forecasting",
+    "abstract": "arXiv:2509.09474v4 Announce Type: replace  Abstract: We address the task of temporal knowledge graph forecasting with an inherently interpretable method based on symbolic rules. Motivated by recent work proposing a strong baseline based on recurrent facts, our approach learns four simple rule types, including temporal rules with confidence functions that combine both recency and frequency. Evaluated on nine datasets, our method achieves performance that is competitive with state-of-the-art models and outperforms the majority of them, while each prediction remains directly traceable to the rules and observations that produced it. Moreover, our approach remains functional on very large datasets, where other methods encounter runtime or memory failures.",
+    "link": "https://arxiv.org/abs/2509.09474",
+    "context": "Title: CountTRuCoLa: Rule Learning for Interpretable Temporal Knowledge Graph Forecasting\nAbstract: arXiv:2509.09474v4 Announce Type: replace  Abstract: We address the task of temporal knowledge graph forecasting with an inherently interpretable method based on symbolic rules. Motivated by recent work proposing a strong baseline based on recurrent facts, our approach learns four simple rule types, including temporal rules with confidence functions that combine both recency and frequency. Evaluated on nine datasets, our method achieves performance that is competitive with state-of-the-art models and outperforms the majority of them, while each prediction remains directly traceable to the rules and observations that produced it. Moreover, our approach remains functional on very large datasets, where other methods encounter runtime or memory failures.",
+    "path": "papers/25/09/2509.09474.json",
+    "total_tokens": 482,
+    "translated_title": "CountTRuCoLa：用于可解释时间知识图谱预测的规则学习",
+    "translated_abstract": "我们针对时间知识图谱预测任务，提出了一种基于符号规则的固有可解释方法。受近期基于循环事实的强基线模型的启发，我们的方法学习了四种简单规则类型，包括结合了近期性和频率的置信度函数的时间规则。在九个数据集上的评估表明，我们的方法性能与最先进模型相当，并优于其中大多数模型，同时每次预测都能直接追溯到生成它的规则和观测。此外，我们的方法在超大数据集上仍能正常运行，而其他方法在此类数据集上会遇到运行时或内存故障。",
+    "tldr": "本文提出一种基于四种简单符号规则的可解释时间知识图谱预测方法，在九个数据集上性能优于多数最先进模型，并能处理超大数据集。",
+    "en_tdlr": "This paper proposes an interpretable temporal knowledge graph forecasting method based on four simple symbolic rules, achieving competitive performance on nine datasets and scalability to very large data."
+}

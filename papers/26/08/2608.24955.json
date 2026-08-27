@@ -1,0 +1,12 @@
+{
+    "title": "The Evolution of Binary Decompilation in the Modern Era: A Taxonomy, Literature Review, and Future Perspectives",
+    "abstract": "arXiv:2608.24955v1 Announce Type: new  Abstract: Decompilation has become a foundational technique in software engineering and security analysis, and it is now advancing through the integration of modern machine learning (ML) approaches. This article presents a systematic review of decompilation studies published over the past decades and develops a comprehensive taxonomy of methodologies employed in contemporary research. We further examine trends in evaluation metrics, tools, and benchmarks used to assess state-of-the-art approaches. Our review reveals key challenges, such as the lack of reliable ground truth and the absence of standardized benchmarks, which hinder rigorous comparison. Finally, we outline future research directions.",
+    "link": "https://arxiv.org/abs/2608.24955",
+    "context": "Title: The Evolution of Binary Decompilation in the Modern Era: A Taxonomy, Literature Review, and Future Perspectives\nAbstract: arXiv:2608.24955v1 Announce Type: new  Abstract: Decompilation has become a foundational technique in software engineering and security analysis, and it is now advancing through the integration of modern machine learning (ML) approaches. This article presents a systematic review of decompilation studies published over the past decades and develops a comprehensive taxonomy of methodologies employed in contemporary research. We further examine trends in evaluation metrics, tools, and benchmarks used to assess state-of-the-art approaches. Our review reveals key challenges, such as the lack of reliable ground truth and the absence of standardized benchmarks, which hinder rigorous comparison. Finally, we outline future research directions.",
+    "path": "papers/26/08/2608.24955.json",
+    "total_tokens": 465,
+    "translated_title": "现代二进制反编译的演进：分类法、文献综述与未来展望",
+    "translated_abstract": "arXiv:2608.24955v1 公告类型：新 摘要：反编译已成为软件工程和安全分析中的基础技术，目前正通过集成现代机器学习（ML）方法而不断进步。本文对过去几十年发表的反编译研究进行了系统性回顾，并开发了当代研究方法论的全面分类法。我们进一步考察了用于评估最新方法的评估指标、工具和基准的趋势。我们的综述揭示了关键挑战，如缺乏可靠的基准真相和标准化基准，这些阻碍了严格比较。最后，我们概述了未来的研究方向。",
+    "tldr": "本文系统综述了现代反编译研究，提出分类法并指出基准缺失等挑战，展望了未来方向。",
+    "en_tdlr": "This paper systematically reviews modern decompilation research, proposes a taxonomy, and highlights challenges like missing benchmarks while outlining future directions."
+}

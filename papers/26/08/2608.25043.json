@@ -1,0 +1,12 @@
+{
+    "title": "Interpersonally Comparable Utility",
+    "abstract": "arXiv:2608.25043v1 Announce Type: new  Abstract: We develop a theory of measurement scales for utility functions, based on a generalization of the notion of numeraire commodity. Every sufficiently well-behaved utility is denominated in some scale of this form, and conversely, the choice of a compatible scale unit uniquely identifies utilities up to an additive constant. We define a profile of utilities to be interpersonally comparable precisely when they are denominated in a common measurement unit. We study when profiles of comparable utilities exist, as well as how a planner ought to aggregate them, and provide applications to social choice and welfare economics.",
+    "link": "https://arxiv.org/abs/2608.25043",
+    "context": "Title: Interpersonally Comparable Utility\nAbstract: arXiv:2608.25043v1 Announce Type: new  Abstract: We develop a theory of measurement scales for utility functions, based on a generalization of the notion of numeraire commodity. Every sufficiently well-behaved utility is denominated in some scale of this form, and conversely, the choice of a compatible scale unit uniquely identifies utilities up to an additive constant. We define a profile of utilities to be interpersonally comparable precisely when they are denominated in a common measurement unit. We study when profiles of comparable utilities exist, as well as how a planner ought to aggregate them, and provide applications to social choice and welfare economics.",
+    "path": "papers/26/08/2608.25043.json",
+    "total_tokens": 453,
+    "translated_title": "人际可比较的效用",
+    "translated_abstract": "摘要：我们基于对计价商品概念的推广，发展了一种效用函数测量尺度理论。每一个足够良态的效用都以这种形式的一定尺度计价，反之，选择兼容的尺度单位唯一地确定效用，直至一个加法常数。我们定义一组效用为人际可比较的，当且仅当它们以共同的测量单位计价。我们研究了可比较效用组合存在的条件，以及规划者应如何聚合这些效用，并提供了在社会选择与福利经济学中的应用。",
+    "tldr": "本文提出了一种基于计价商品泛化概念的效用测量尺度理论，定义了人际可比较效用的条件，并探讨了其聚合方法及在社会选择与福利经济学中的应用。",
+    "en_tdlr": "This paper develops a theory of utility measurement scales based on generalized numeraire commodities, defines when utilities are interpersonally comparable, and explores their aggregation with applications to social choice and welfare economics."
+}

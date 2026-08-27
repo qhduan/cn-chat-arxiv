@@ -1,0 +1,12 @@
+{
+    "title": "Virgil: Navigating Explainability for Transformer-based Language Models",
+    "abstract": "arXiv:2608.25555v1 Announce Type: new  Abstract: Explainability for transformer-based language models is becoming crucial as these systems are deployed in high-stakes applications. As a result, the ecosystem of explainability tools is rapidly evolving, becoming richer, but also more fragmented and harder to navigate. To address this challenge, we present Virgil, an interactive system that lets practitioners and researchers, including non-experts, navigate explainability tools for transformer language models. Supported by a curated knowledge base, the system enables users to discover and compare explainability tools within a unified interface.",
+    "link": "https://arxiv.org/abs/2608.25555",
+    "context": "Title: Virgil: Navigating Explainability for Transformer-based Language Models\nAbstract: arXiv:2608.25555v1 Announce Type: new  Abstract: Explainability for transformer-based language models is becoming crucial as these systems are deployed in high-stakes applications. As a result, the ecosystem of explainability tools is rapidly evolving, becoming richer, but also more fragmented and harder to navigate. To address this challenge, we present Virgil, an interactive system that lets practitioners and researchers, including non-experts, navigate explainability tools for transformer language models. Supported by a curated knowledge base, the system enables users to discover and compare explainability tools within a unified interface.",
+    "path": "papers/26/08/2608.25555.json",
+    "total_tokens": 479,
+    "translated_title": "维吉尔：导航基于Transformer的语言模型的可解释性",
+    "translated_abstract": "arXiv:2608.25555v1 公告类型：新 摘要：随着基于Transformer的语言模型被部署在高风险应用中，其可解释性变得至关重要。因此，可解释性工具的生态系统正在迅速发展，变得更加丰富，但也更加碎片化和难以导航。为了应对这一挑战，我们提出了Virgil，一个交互式系统，让从业者和研究人员（包括非专家）能够导航基于Transformer的语言模型的可解释性工具。在策展知识库的支持下，该系统使用户能够在统一界面中发现和比较可解释性工具。",
+    "tldr": "Virgil是一个交互式系统，通过策展知识库在统一界面中帮助用户（包括非专家）发现和比较基于Transformer的语言模型的可解释性工具，解决了工具生态碎片化的问题。",
+    "en_tdlr": "Virgil is an interactive system that enables users, including non-experts, to discover and compare explainability tools for transformer-based language models within a unified interface, supported by a curated knowledge base, addressing the fragmentation of the tool ecosystem."
+}

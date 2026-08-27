@@ -1,0 +1,12 @@
+{
+    "title": "The Dynamic Trade-Off of Dual-Class Shares",
+    "abstract": "arXiv:2608.25972v1 Announce Type: new  Abstract: Dual-class shares allocate control to founders whose firm-specific investments drive firm value but separate control from ownership, raising agency costs. We analyze this trade-off dynamically. Using new data on US dual-class firms spanning 52 years and difference-in-differences designs, we show that valuations rise following dual-class recapitalizations but decline over time, whereas innovative output increases persistently. These effects are concentrated in industries with greater firm-specific investments. We find corresponding results for stock unifications. Investment by mature dual-class firms is less sensitive to opportunities and voting premia increase with maturity. Our results support dynamic treatment effects and yield new policy implications.",
+    "link": "https://arxiv.org/abs/2608.25972",
+    "context": "Title: The Dynamic Trade-Off of Dual-Class Shares\nAbstract: arXiv:2608.25972v1 Announce Type: new  Abstract: Dual-class shares allocate control to founders whose firm-specific investments drive firm value but separate control from ownership, raising agency costs. We analyze this trade-off dynamically. Using new data on US dual-class firms spanning 52 years and difference-in-differences designs, we show that valuations rise following dual-class recapitalizations but decline over time, whereas innovative output increases persistently. These effects are concentrated in industries with greater firm-specific investments. We find corresponding results for stock unifications. Investment by mature dual-class firms is less sensitive to opportunities and voting premia increase with maturity. Our results support dynamic treatment effects and yield new policy implications.",
+    "path": "papers/26/08/2608.25972.json",
+    "total_tokens": 495,
+    "translated_title": "双重股权结构的动态权衡",
+    "translated_abstract": "双重股权结构将控制权分配给创始人，其公司特定投资驱动了企业价值，但控制权与所有权分离，增加了代理成本。我们动态地分析了这一权衡。利用覆盖52年的美国双重股权公司新数据和差分设计，我们表明在双重股权重组后估值上升，但随时间下降，而创新产出持续增加。这些效应集中在公司特定投资更多的行业中。我们在股票统一中也发现了相应结果。成熟双重股权公司的投资对机会的敏感度较低，投票溢价随成熟度增加。我们的结果支持动态处理效应，并产生了新的政策含义。",
+    "tldr": "本文通过52年数据动态分析双重股权结构，发现其短期提升估值但长期下降，而创新产出持续增长，且效应集中于公司特定投资行业，并据此提出新政策启示。",
+    "en_tdlr": "This paper dynamically analyzes dual-class shares over 52 years, finding short-term valuation gains but long-term declines, with persistently increased innovation concentrated in firm-specific investment industries, yielding new policy implications."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "It's a matter of timescale: non-linear utility in successor features and multi-objective planning and learning",
+    "abstract": "arXiv:2608.25723v1 Announce Type: new  Abstract: Time is of the essence when dealing with multiple reward signals and non-linear utility. In this paper we argue that the current main approaches in multi-objectiveRL (SER and ESR), and successor features, are insufficient. While each approach deals with non-linear effects on user utility on different timescales, none of them take into account that different effects happening on different timescales can happen within the same decision problem. We motivate that this can indeed be the case by an example, both intuitively and numerically, leading to a new perspective, and a significant and non-trivial gap in the literature.",
+    "link": "https://arxiv.org/abs/2608.25723",
+    "context": "Title: It's a matter of timescale: non-linear utility in successor features and multi-objective planning and learning\nAbstract: arXiv:2608.25723v1 Announce Type: new  Abstract: Time is of the essence when dealing with multiple reward signals and non-linear utility. In this paper we argue that the current main approaches in multi-objectiveRL (SER and ESR), and successor features, are insufficient. While each approach deals with non-linear effects on user utility on different timescales, none of them take into account that different effects happening on different timescales can happen within the same decision problem. We motivate that this can indeed be the case by an example, both intuitively and numerically, leading to a new perspective, and a significant and non-trivial gap in the literature.",
+    "path": "papers/26/08/2608.25723.json",
+    "total_tokens": 506,
+    "translated_title": "这是一个时间尺度的问题：后继特征中的非线性效用与多目标规划及学习",
+    "translated_abstract": "在处理多个奖励信号和非线性效用时，时间至关重要。本文认为，当前多目标强化学习中的主要方法（SER和ESR）以及后继特征方法均存在不足。虽然每种方法在不同的时间尺度上处理用户效用的非线性效应，但没有任何一种方法考虑到在同一决策问题中，不同时间尺度上的不同效应可能同时发生。我们通过一个例子从直观和数值上论证了这种情况确实可能存在，从而引出一个新的视角，并指出文献中一个重大且非平凡的研究空白。",
+    "tldr": "本文指出多目标强化学习现有方法（SER、ESR和后继特征）未能处理同一决策问题中不同时间尺度上的非线性效用效应，并通过示例论证了这一研究空白。",
+    "en_tdlr": "This paper identifies that existing multi-objective RL methods (SER, ESR, and successor features) fail to handle non-linear utility effects occurring at different timescales within the same decision problem, demonstrating this gap with an example."
+}

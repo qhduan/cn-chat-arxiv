@@ -1,0 +1,12 @@
+{
+    "title": "Correcting Nonresponse Bias Using Panel Data on Data Requests and Responses",
+    "abstract": "arXiv:2404.17693v5 Announce Type: replace  Abstract: When subjects who respond to requests for data, such as in surveys or post-treatment follow-up, are unrepresentative of the population of interest, inferences drawn from the data can be misleading. We show that if subjects' accumulated requests and responses over time are recorded and organized as panel data, requests can be used as instruments in standard nonresponse corrections. Randomizing total requests between subjects is insufficient for identification when responses depend on time and is unnecessary when they do not. We demonstrate our method by estimating an 18-percentage-point gender gap in entrepreneurial career intentions using a survey of undergraduates at the University of Wisconsin-Madison.",
+    "link": "https://arxiv.org/abs/2404.17693",
+    "context": "Title: Correcting Nonresponse Bias Using Panel Data on Data Requests and Responses\nAbstract: arXiv:2404.17693v5 Announce Type: replace  Abstract: When subjects who respond to requests for data, such as in surveys or post-treatment follow-up, are unrepresentative of the population of interest, inferences drawn from the data can be misleading. We show that if subjects' accumulated requests and responses over time are recorded and organized as panel data, requests can be used as instruments in standard nonresponse corrections. Randomizing total requests between subjects is insufficient for identification when responses depend on time and is unnecessary when they do not. We demonstrate our method by estimating an 18-percentage-point gender gap in entrepreneurial career intentions using a survey of undergraduates at the University of Wisconsin-Madison.",
+    "path": "papers/24/04/2404.17693.json",
+    "total_tokens": 486,
+    "translated_title": "利用数据请求与响应的面板数据纠正无响应偏差",
+    "translated_abstract": "当响应数据请求（如调查或治疗后随访）的受试者不能代表目标人群时，基于这些数据得出的推断可能会产生误导。我们表明，如果受试者随时间累积的请求和响应被记录并组织为面板数据，则请求可以作为标准无响应纠正中的工具变量。当响应依赖于时间时，在受试者之间随机化总请求量不足以进行识别；而当响应不依赖于时间时，则无需随机化。我们通过使用威斯康星大学麦迪逊分校本科生调查，估算创业职业意向中18个百分点的性别差距，来展示我们的方法。",
+    "tldr": "本文提出利用面板数据中的请求作为工具变量纠正无响应偏差，并实证估算出创业意向的性别差距。",
+    "en_tdlr": "This paper proposes using requests as instrumental variables in panel data to correct nonresponse bias and empirically estimates a gender gap in entrepreneurial intentions."
+}

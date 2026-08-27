@@ -1,0 +1,12 @@
+{
+    "title": "Flow Games with Public Arcs: the Least Core and the Nucleolus",
+    "abstract": "arXiv:2606.23288v2 Announce Type: replace  Abstract: We study flow games with public arcs, an extension of classical cooperative flow games that allows players to use public resources. In these games, a coalition corresponds to a set of arcs, while certain arcs, called public arcs, can be used freely by any coalition. The value of a coalition is the maximum flow value achievable using the arcs controlled by the coalition along with the public arcs. We investigate two solution concepts, the least core and the nucleolus. Both solution concepts provide fair ways to allocate the value of the grand coalition among individual players. We provide characterizations of the least core of these games. We also give a deterministic polynomial-time algorithm for computing the nucleolus, whether or not the core is empty.",
+    "link": "https://arxiv.org/abs/2606.23288",
+    "context": "Title: Flow Games with Public Arcs: the Least Core and the Nucleolus\nAbstract: arXiv:2606.23288v2 Announce Type: replace  Abstract: We study flow games with public arcs, an extension of classical cooperative flow games that allows players to use public resources. In these games, a coalition corresponds to a set of arcs, while certain arcs, called public arcs, can be used freely by any coalition. The value of a coalition is the maximum flow value achievable using the arcs controlled by the coalition along with the public arcs. We investigate two solution concepts, the least core and the nucleolus. Both solution concepts provide fair ways to allocate the value of the grand coalition among individual players. We provide characterizations of the least core of these games. We also give a deterministic polynomial-time algorithm for computing the nucleolus, whether or not the core is empty.",
+    "path": "papers/26/06/2606.23288.json",
+    "total_tokens": 523,
+    "translated_title": "具有公共弧的流博弈：最小核心与核仁",
+    "translated_abstract": "arXiv:2606.23288v2 公告类型：替换 摘要：我们研究了具有公共弧的流博弈，这是经典合作流博弈的一种扩展，允许玩家使用公共资源。在这些博弈中，一个联盟对应于一组弧，而某些被称为公共弧的弧可以被任何联盟自由使用。联盟的价值是使用联盟控制的弧以及公共弧所能达到的最大流值。我们研究了两个解概念：最小核心和核仁。这两个解概念为在大联盟中公平分配价值给各个玩家提供了方式。我们给出了这些博弈的最小核心的特征描述。我们还提供了一种确定性多项式时间算法来计算核仁，无论核心是否为空。",
+    "tldr": "本文扩展了合作流博弈以包含公共弧，并提供了最小核心的特征描述以及计算核仁的多项式时间算法，无论核心是否为空。",
+    "en_tdlr": "This paper extends cooperative flow games to include public arcs, characterizes the least core, and provides a polynomial-time algorithm for computing the nucleolus, regardless of core emptiness."
+}

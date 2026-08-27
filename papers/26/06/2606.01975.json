@@ -1,0 +1,12 @@
+{
+    "title": "Algorithmic algorithm development with LLMs: A Case Study on LLM-Usage for Contraction Order Optimization in Tensor Networks",
+    "abstract": "arXiv:2606.01975v2 Announce Type: replace-cross  Abstract: We consider LLM-based algorithm development through a case study on contractionorder optimisation for tensor networks with OpenEvolve. We pay particular attention to the choice of the LLM as well as design choices such as evaluation metric and test instances. Our results highlight both the promise of verifier-guided evolutionary coding agents for algorithm development/improvement and the continuing importance of evaluation, validation, and interpretation -- and corresponding challenges -- by the human scientist.",
+    "link": "https://arxiv.org/abs/2606.01975",
+    "context": "Title: Algorithmic algorithm development with LLMs: A Case Study on LLM-Usage for Contraction Order Optimization in Tensor Networks\nAbstract: arXiv:2606.01975v2 Announce Type: replace-cross  Abstract: We consider LLM-based algorithm development through a case study on contractionorder optimisation for tensor networks with OpenEvolve. We pay particular attention to the choice of the LLM as well as design choices such as evaluation metric and test instances. Our results highlight both the promise of verifier-guided evolutionary coding agents for algorithm development/improvement and the continuing importance of evaluation, validation, and interpretation -- and corresponding challenges -- by the human scientist.",
+    "path": "papers/26/06/2606.01975.json",
+    "total_tokens": 462,
+    "translated_title": "基于大语言模型的算法开发：以张量网络收缩顺序优化的LLM应用为例",
+    "translated_abstract": "arXiv:2606.01975v2 公告类型：替换交叉 摘要：我们通过一个关于张量网络收缩顺序优化的案例研究，探讨了基于大语言模型的算法开发，并使用了OpenEvolve工具。我们特别关注了LLM的选择以及评估指标和测试实例等设计选择。我们的结果既凸显了验证器引导的进化编码代理在算法开发/改进方面的潜力，也强调了人类科学家在评估、验证和解释方面持续的重要性及相应挑战。",
+    "tldr": "本研究通过张量网络收缩顺序优化的案例，展示了LLM驱动的进化编码代理在算法开发中的潜力，并强调了人类科学家在评估与验证中的关键作用。",
+    "en_tdlr": "This study demonstrates the potential of LLM-driven evolutionary coding agents for algorithm development via tensor network contraction order optimization, while underscoring the critical role of human scientists in evaluation and validation."
+}
