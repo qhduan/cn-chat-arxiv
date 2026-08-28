@@ -1,0 +1,12 @@
+{
+    "title": "Lattice operations for the stable set in many-to-many markets via re-equilibration dynamics",
+    "abstract": "arXiv:2407.21198v4 Announce Type: replace  Abstract: We compute the lattice operations for the (pairwise) stable set in many-to-many matching markets when only path-independence on agents' choice functions is imposed. To do this, we first show that the sets of firm-quasi-stable and worker-quasi-stable many-to-many matchings form lattices. Then, we construct Tarski operators on these lattices whose fixed points coincide with the set of stable matchings, and show that iterating these operators from suitable quasi-stable matchings yields the lattice operations in the stable set. These operators resemble lay-off and vacancy chain dynamics, respectively.",
+    "link": "https://arxiv.org/abs/2407.21198",
+    "context": "Title: Lattice operations for the stable set in many-to-many markets via re-equilibration dynamics\nAbstract: arXiv:2407.21198v4 Announce Type: replace  Abstract: We compute the lattice operations for the (pairwise) stable set in many-to-many matching markets when only path-independence on agents' choice functions is imposed. To do this, we first show that the sets of firm-quasi-stable and worker-quasi-stable many-to-many matchings form lattices. Then, we construct Tarski operators on these lattices whose fixed points coincide with the set of stable matchings, and show that iterating these operators from suitable quasi-stable matchings yields the lattice operations in the stable set. These operators resemble lay-off and vacancy chain dynamics, respectively.",
+    "path": "papers/24/07/2407.21198.json",
+    "total_tokens": 494,
+    "translated_title": "多对多市场稳定集合的格运算通过再平衡动态",
+    "translated_abstract": "摘要：arXiv:2407.21198v4 公告类型：替换 摘要：我们在仅对代理人选择函数施加路径独立性的条件下，计算了多对多匹配市场中（成对）稳定集合的格运算。为此，我们首先证明了企业拟稳定和工人拟稳定的多对多匹配集合构成格。然后，我们构造了这些格上的Tarski算子，其不动点与稳定匹配集合重合，并展示了从适当的拟稳定匹配出发迭代这些算子可得到稳定集合中的格运算。这些算子分别类似于裁员和职位空缺链动态。",
+    "tldr": "本文通过引入再平衡动态构建Tarski算子，在多对多匹配市场中仅依赖路径独立性条件，实现了稳定集合的格运算。",
+    "en_tdlr": "This paper constructs Tarski operators via re-equilibration dynamics to compute lattice operations for the stable set in many-to-many markets under only path-independence."
+}

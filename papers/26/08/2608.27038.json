@@ -1,0 +1,12 @@
+{
+    "title": "Cascaded Batch Prompting",
+    "abstract": "arXiv:2608.27038v1 Announce Type: new  Abstract: Although batch prompting makes large language model inference more efficient by processing multiple instances simultaneously, it suffers from unpredictable downstream task performance. We propose cascaded batch prompting, a two-stage approach designed to resolve the unpredictability of conventional batch prompting by disentangling complex reasoning from symbol grounding. Experiments on multiple-choice question answering and natural language inference demonstrate that the proposed method outperforms the standard single prompting baseline while achieving a speedup proportional to batch size, establishing a new state of the art on the Pareto frontier.",
+    "link": "https://arxiv.org/abs/2608.27038",
+    "context": "Title: Cascaded Batch Prompting\nAbstract: arXiv:2608.27038v1 Announce Type: new  Abstract: Although batch prompting makes large language model inference more efficient by processing multiple instances simultaneously, it suffers from unpredictable downstream task performance. We propose cascaded batch prompting, a two-stage approach designed to resolve the unpredictability of conventional batch prompting by disentangling complex reasoning from symbol grounding. Experiments on multiple-choice question answering and natural language inference demonstrate that the proposed method outperforms the standard single prompting baseline while achieving a speedup proportional to batch size, establishing a new state of the art on the Pareto frontier.",
+    "path": "papers/26/08/2608.27038.json",
+    "total_tokens": 453,
+    "translated_title": "级联批量提示",
+    "translated_abstract": "arXiv:2608.27038v1 公告类型：新 摘要：尽管批量提示通过同时处理多个实例使大型语言模型推理更高效，但它面临下游任务性能不可预测的问题。我们提出级联批量提示，一种两阶段方法，旨在通过将复杂推理与符号接地分离来解决传统批量提示的不可预测性。在多项选择问答和自然语言推理上的实验表明，所提方法优于标准单一提示基线，同时实现与批量大小成比例的速度提升，在帕累托前沿上确立了新的最先进水平。",
+    "tldr": "提出级联批量提示，通过两阶段分离复杂推理与符号接地，解决了批量提示的性能不可预测性，并在多项选择问答和自然语言推理任务中实现速度提升和性能突破。",
+    "en_tdlr": "Cascaded batch prompting resolves unpredictability in batch prompting by disentangling complex reasoning from symbol grounding, achieving state-of-the-art performance with speed proportional to batch size."
+}

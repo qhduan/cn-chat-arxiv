@@ -1,0 +1,12 @@
+{
+    "title": "Distribution-constrained optimal multiple stopping: the Root-type solution",
+    "abstract": "arXiv:2608.27374v1 Announce Type: cross  Abstract: We consider the distribution-constrained optimal stopping problem introduced by Bayraktar and Miller (Mathematical Finance, 2019) and Beiglbock et al. (PTRF, 2018). Motivated by the multi-marginal Skorokhod embedding problems (SEP) and applications in mathematical finance, we generalize (a class of) its solution to the multi-marginal case. First, we give a probabilistic characterization of the solution as the first hitting times of barrier sets by some time-reversed process, in the same spirit as Cox et al. (PTRF, 2019). Then, we prove the optimality results using martingale inequality arguments, which extends the type of cost functions considered in Beiglbock et al. (PTRF, 2018).",
+    "link": "https://arxiv.org/abs/2608.27374",
+    "context": "Title: Distribution-constrained optimal multiple stopping: the Root-type solution\nAbstract: arXiv:2608.27374v1 Announce Type: cross  Abstract: We consider the distribution-constrained optimal stopping problem introduced by Bayraktar and Miller (Mathematical Finance, 2019) and Beiglbock et al. (PTRF, 2018). Motivated by the multi-marginal Skorokhod embedding problems (SEP) and applications in mathematical finance, we generalize (a class of) its solution to the multi-marginal case. First, we give a probabilistic characterization of the solution as the first hitting times of barrier sets by some time-reversed process, in the same spirit as Cox et al. (PTRF, 2019). Then, we prove the optimality results using martingale inequality arguments, which extends the type of cost functions considered in Beiglbock et al. (PTRF, 2018).",
+    "path": "papers/26/08/2608.27374.json",
+    "total_tokens": 569,
+    "translated_title": "分布约束下的最优多重停止：Root型解",
+    "translated_abstract": "我们考虑了由Bayraktar和Miller（《数学金融》，2019年）以及Beiglbock等人（《概率论与相关领域》，2018年）引入的分布约束最优停止问题。受多边际Skorokhod嵌入问题（SEP）及数学金融应用的启发，我们将其（一类）解推广到多边际情形。首先，我们给出了解的随机特征描述，即某个时间倒向过程首次击中障碍集的时间，这与Cox等人（《概率论与相关领域》，2019年）的思想一致。然后，我们利用鞅不等式论证证明了最优性结果，这扩展了Beiglbock等人（《概率论与相关领域》，2018年）所考虑的成本函数类型。",
+    "tldr": "本文将分布约束最优停止问题推广至多边际情形，通过时间倒向过程的首次击中时间刻画解，并利用鞅不等式扩展了成本函数类型。",
+    "en_tdlr": "This paper extends the distribution-constrained optimal stopping problem to the multi-marginal case, characterizing solutions via first hitting times of time-reversed processes and broadening cost function types using martingale inequalities."
+}

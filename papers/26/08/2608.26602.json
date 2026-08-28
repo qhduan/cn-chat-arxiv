@@ -1,0 +1,12 @@
+{
+    "title": "The Thousand-Graph Hypothesis: A Testable Hypothesis of Task-Conditioned Relation Materialization in Repository-Level Code Reasoning",
+    "abstract": "arXiv:2608.26602v1 Announce Type: cross  Abstract: Large software repositories are often beyond model context limits. Training repository knowledge into models is costly and quickly stale, while local retrieval can miss scattered requirements, and explicit relation graphs add ongoing maintenance burden. We propose an entity-only external interface with task-conditioned relation materialization during inference. A two-layer index separates global routing from local entity focus and is evaluated on DeepSeek-V4-Flash and SWE-bench Verified. The base, one-layer, and two-layer conditions achieve 92.1%, 94.2%, and 95.6% success, respectively, under zero pre-built entity-relation edges.",
+    "link": "https://arxiv.org/abs/2608.26602",
+    "context": "Title: The Thousand-Graph Hypothesis: A Testable Hypothesis of Task-Conditioned Relation Materialization in Repository-Level Code Reasoning\nAbstract: arXiv:2608.26602v1 Announce Type: cross  Abstract: Large software repositories are often beyond model context limits. Training repository knowledge into models is costly and quickly stale, while local retrieval can miss scattered requirements, and explicit relation graphs add ongoing maintenance burden. We propose an entity-only external interface with task-conditioned relation materialization during inference. A two-layer index separates global routing from local entity focus and is evaluated on DeepSeek-V4-Flash and SWE-bench Verified. The base, one-layer, and two-layer conditions achieve 92.1%, 94.2%, and 95.6% success, respectively, under zero pre-built entity-relation edges.",
+    "path": "papers/26/08/2608.26602.json",
+    "total_tokens": 521,
+    "translated_title": "千图假说：仓库级代码推理中任务条件化关系具体化的可检验假说",
+    "translated_abstract": "大型软件仓库通常超出模型上下文限制。将仓库知识训练进模型成本高昂且容易过时，而局部检索可能遗漏分散的需求，显式关系图则增加了持续维护负担。我们提出了一种仅含实体的外部接口，在推理过程中进行任务条件化关系具体化。一个两层索引将全局路由与局部实体聚焦分离，并在DeepSeek-V4-Flash和SWE-bench Verified上进行了评估。在零预构建实体-关系边的情况下，基础、单层和两层条件分别达到92.1%、94.2%和95.6%的成功率。",
+    "tldr": "本文提出一种仅含实体的外部接口，通过推理时的任务条件化关系具体化，在无需预构建关系图的情况下，显著提升了仓库级代码推理的成功率。",
+    "en_tdlr": "This paper proposes an entity-only external interface with task-conditioned relation materialization during inference, significantly improving repository-level code reasoning success without pre-built relation graphs."
+}

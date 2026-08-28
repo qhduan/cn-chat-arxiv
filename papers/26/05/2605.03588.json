@@ -1,0 +1,12 @@
+{
+    "title": "Cartan flow matching",
+    "abstract": "arXiv:2605.03588v2 Announce Type: replace-cross  Abstract: We introduce Cartan flow matching, a general framework for training flow matching models on Riemannian symmetric spaces, i.e. Riemannian manifolds with the property that at any point there exists a geodesic symmetry. This is a large class of manifolds that includes the sphere, hyperbolic space and Grassmannians. We exploit their algebraic structure to reformulate flow matching on symmetric spaces as flow matching on a subspace of the Lie algebra of their isometry group, thus linearizing the problem and avoiding the need to construct geodesic interpolation paths on the manifold. As an application, we showcase our framework on the real Grassmannians $ \\operatorname{SO}(n) / \\operatorname{SO}(k) \\times \\operatorname{SO}(n-k) $.",
+    "link": "https://arxiv.org/abs/2605.03588",
+    "context": "Title: Cartan flow matching\nAbstract: arXiv:2605.03588v2 Announce Type: replace-cross  Abstract: We introduce Cartan flow matching, a general framework for training flow matching models on Riemannian symmetric spaces, i.e. Riemannian manifolds with the property that at any point there exists a geodesic symmetry. This is a large class of manifolds that includes the sphere, hyperbolic space and Grassmannians. We exploit their algebraic structure to reformulate flow matching on symmetric spaces as flow matching on a subspace of the Lie algebra of their isometry group, thus linearizing the problem and avoiding the need to construct geodesic interpolation paths on the manifold. As an application, we showcase our framework on the real Grassmannians $ \\operatorname{SO}(n) / \\operatorname{SO}(k) \\times \\operatorname{SO}(n-k) $.",
+    "path": "papers/26/05/2605.03588.json",
+    "total_tokens": 568,
+    "translated_title": "Cartan流匹配",
+    "translated_abstract": "arXiv:2605.03588v2 公告类型：替换-交叉 摘要：我们引入了Cartan流匹配，这是一个在黎曼对称空间上训练流匹配模型的通用框架，即具有在任何点存在测地对称性的黎曼流形。这是一大类流形，包括球面、双曲空间和格拉斯曼流形。我们利用它们的代数结构，将对称空间上的流匹配重新表述为其等距群李代数子空间上的流匹配，从而使问题线性化，并避免在流形上构造测地插值路径。作为一个应用，我们在实格拉斯曼流形$ \\operatorname{SO}(n) / \\operatorname{SO}(k) \\times \\operatorname{SO}(n-k) $上展示了我们的框架。",
+    "tldr": "我们提出了Cartan流匹配框架，通过利用黎曼对称空间的代数结构，将流匹配线性化到李代数子空间，避免了在流形上构造测地路径的需求，并在格拉斯曼流形上进行了应用验证。",
+    "en_tdlr": "We introduce Cartan flow matching, a framework that linearizes flow matching on Riemannian symmetric spaces by reformulating it on a Lie algebra subspace, avoiding geodesic path construction, with applications to Grassmannians."
+}

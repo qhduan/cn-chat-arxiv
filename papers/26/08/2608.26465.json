@@ -1,0 +1,12 @@
+{
+    "title": "Compositional Generalization via Structural Identification in a Category-Theoretic Framework",
+    "abstract": "arXiv:2608.26465v1 Announce Type: new  Abstract: Compositional generalization is usually evaluated through model accuracy. We instead ask which structural or lexical identifications make held-out COGS examples admissible from the structures observed in training. Sentences are represented as functors from syntactic addresses to lexical tokens, and selective collapses induce Kan extensions that propagate observed associations. Across 21 COGS generalization types, admissibility follows distinct identification profiles, while residual failures separate unsupported structural templates. These data-side diagnoses characterize what the training corpus licenses under specified identifications, without training a predictive model.",
+    "link": "https://arxiv.org/abs/2608.26465",
+    "context": "Title: Compositional Generalization via Structural Identification in a Category-Theoretic Framework\nAbstract: arXiv:2608.26465v1 Announce Type: new  Abstract: Compositional generalization is usually evaluated through model accuracy. We instead ask which structural or lexical identifications make held-out COGS examples admissible from the structures observed in training. Sentences are represented as functors from syntactic addresses to lexical tokens, and selective collapses induce Kan extensions that propagate observed associations. Across 21 COGS generalization types, admissibility follows distinct identification profiles, while residual failures separate unsupported structural templates. These data-side diagnoses characterize what the training corpus licenses under specified identifications, without training a predictive model.",
+    "path": "papers/26/08/2608.26465.json",
+    "total_tokens": 474,
+    "translated_title": "基于范畴论框架中结构识别的组合泛化",
+    "translated_abstract": "组合泛化通常通过模型准确率来评估。我们转而询问，哪些结构或词汇识别使得训练中观察到的结构能够支持COGS测试集中的未见示例。句子被表示为从句法地址到词汇标记的函子，选择性塌缩诱导出Kan扩展，从而传播观察到的关联。在21种COGS泛化类型中，可接受性遵循不同的识别轮廓，而残余失败则揭示了不支持的结构模板。这些数据侧诊断刻画了在特定识别下训练语料库所许可的内容，而无需训练预测模型。",
+    "tldr": "本文提出一种无需训练模型、基于范畴论函子和Kan扩展的方法，通过分析训练语料在结构识别下的可接受性，来诊断组合泛化的支持与失败模式。",
+    "en_tdlr": "This paper proposes a model-free, category-theoretic approach using functors and Kan extensions to diagnose compositional generalization by analyzing which structural identifications make held-out examples admissible from training data."
+}

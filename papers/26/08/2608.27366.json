@@ -1,0 +1,12 @@
+{
+    "title": "Stageboost: Recommending Signals Based on Counterfactual Estimation",
+    "abstract": "arXiv:2608.27366v1 Announce Type: cross  Abstract: Signals are short textual or visual snippets displayed on the eBay View-Item (VI) page, providing additional, contextual information for users about the viewed item. The aim of displaying these signals is to facilitate intelligent purchase and to incentivize engagement. In this paper, we present a 2 stage xgboost based model that optimally populates the VI page with signals. This approach has shown a 0.08% lift in overall GMB (Gross Merchandise Bought) and 0.58% increase in Parts and Accessories GMB, primarily due to increase in conversion of high average price items in online experimentation.",
+    "link": "https://arxiv.org/abs/2608.27366",
+    "context": "Title: Stageboost: Recommending Signals Based on Counterfactual Estimation\nAbstract: arXiv:2608.27366v1 Announce Type: cross  Abstract: Signals are short textual or visual snippets displayed on the eBay View-Item (VI) page, providing additional, contextual information for users about the viewed item. The aim of displaying these signals is to facilitate intelligent purchase and to incentivize engagement. In this paper, we present a 2 stage xgboost based model that optimally populates the VI page with signals. This approach has shown a 0.08% lift in overall GMB (Gross Merchandise Bought) and 0.58% increase in Parts and Accessories GMB, primarily due to increase in conversion of high average price items in online experimentation.",
+    "path": "papers/26/08/2608.27366.json",
+    "total_tokens": 514,
+    "translated_title": "Stageboost：基于反事实估计的信号推荐",
+    "translated_abstract": "arXiv:2608.27366v1 公告类型：交叉 摘要：信号是显示在eBay商品详情（VI）页面上的简短文本或视觉片段，为用户提供关于所查看商品的额外上下文信息。展示这些信号的目的是促进智能购买并激励用户参与。在本文中，我们提出了一种基于两阶段XGBoost的模型，该模型能最优地填充VI页面上的信号。这种方法在整体GMB（总购买商品额）上实现了0.08%的提升，在零部件及配件类GMB上实现了0.58%的增长，这主要归因于在线实验中高平均价格商品转化率的提高。",
+    "tldr": "本文提出了一种两阶段XGBoost模型，通过反事实估计优化eBay商品页面的信号推荐，显著提升了高均价商品的转化率和整体购买额。",
+    "en_tdlr": "This paper proposes a two-stage XGBoost model that optimizes signal recommendation on eBay item pages via counterfactual estimation, significantly boosting conversion rates for high-priced items and overall purchase volume."
+}

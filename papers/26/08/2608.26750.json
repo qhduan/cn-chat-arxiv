@@ -1,0 +1,12 @@
+{
+    "title": "Discovering Relationships in Data Lakes Using Large Language Models: An Industrial Case",
+    "abstract": "arXiv:2608.26750v1 Announce Type: new  Abstract: Data lakes rely on metadata to remain usable, yet this meta data is often limited or weakly informative for column relationship discovery, especially in ERP-derived datasets with coded or abbreviated schema labels. We propose ColRel, a two-stage method that builds column embeddings from metadata and data available at ingestion time. In difficult cases, such as coded schemata, business dictionaries help better interpret column names and support the generation of short natural-language descriptions used in the second stage. Experiments on public benchmarks and an industrial ERP dataset show that ColRel is particularly effective in semantically related, weak-signal settings.",
+    "link": "https://arxiv.org/abs/2608.26750",
+    "context": "Title: Discovering Relationships in Data Lakes Using Large Language Models: An Industrial Case\nAbstract: arXiv:2608.26750v1 Announce Type: new  Abstract: Data lakes rely on metadata to remain usable, yet this meta data is often limited or weakly informative for column relationship discovery, especially in ERP-derived datasets with coded or abbreviated schema labels. We propose ColRel, a two-stage method that builds column embeddings from metadata and data available at ingestion time. In difficult cases, such as coded schemata, business dictionaries help better interpret column names and support the generation of short natural-language descriptions used in the second stage. Experiments on public benchmarks and an industrial ERP dataset show that ColRel is particularly effective in semantically related, weak-signal settings.",
+    "path": "papers/26/08/2608.26750.json",
+    "total_tokens": 502,
+    "translated_title": "利用大型语言模型发现数据湖中的关系：一项工业案例研究",
+    "translated_abstract": "摘要：数据湖依赖元数据来保持可用性，然而这些元数据在列关系发现方面往往有限或信息薄弱，尤其是在从ERP系统派生的具有编码或缩写模式标签的数据集中。我们提出了ColRel，一种两阶段方法，它利用摄取时的元数据和数据构建列嵌入。在困难情况下，例如编码模式，业务词典有助于更好地解释列名，并支持生成用于第二阶段的简短自然语言描述。在公共基准测试和一个工业ERP数据集上的实验表明，ColRel在语义相关、弱信号设置中尤其有效。",
+    "tldr": "本文提出ColRel，一种两阶段方法，结合元数据、数据和业务词典，利用大型语言模型增强数据湖中列关系的发现，尤其适用于编码或缩写模式标签的ERP数据集。",
+    "en_tdlr": "This paper proposes ColRel, a two-stage method that combines metadata, data, and business dictionaries to enhance column relationship discovery in data lakes using large language models, particularly effective for ERP datasets with coded or abbreviated schema labels."
+}

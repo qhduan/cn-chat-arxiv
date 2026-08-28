@@ -1,0 +1,12 @@
+{
+    "title": "Learning-Augmented Online Allocation under Unreliable Advice: Robustness, Exposure Fairness, and Distribution Shift",
+    "abstract": "arXiv:2608.26889v1 Announce Type: new  Abstract: Learning-augmented algorithms improve online decisions using predictions, but unreliable advice may harm efficiency and fairness. We study an online allocation problem with finite candidate sets, irreversible decisions, and exposure constraints. We propose a robust and fair rule combining advice with a conservative fallback and fairness correction. Under bounded-error assumptions, we prove consistency and robustness with loss proportional to prediction error. Experiments show stability under adversarial advice and significant reductions in exposure disparity.",
+    "link": "https://arxiv.org/abs/2608.26889",
+    "context": "Title: Learning-Augmented Online Allocation under Unreliable Advice: Robustness, Exposure Fairness, and Distribution Shift\nAbstract: arXiv:2608.26889v1 Announce Type: new  Abstract: Learning-augmented algorithms improve online decisions using predictions, but unreliable advice may harm efficiency and fairness. We study an online allocation problem with finite candidate sets, irreversible decisions, and exposure constraints. We propose a robust and fair rule combining advice with a conservative fallback and fairness correction. Under bounded-error assumptions, we prove consistency and robustness with loss proportional to prediction error. Experiments show stability under adversarial advice and significant reductions in exposure disparity.",
+    "path": "papers/26/08/2608.26889.json",
+    "total_tokens": 476,
+    "translated_title": "不可靠建议下的学习增强在线分配：鲁棒性、曝光公平性与分布偏移",
+    "translated_abstract": "arXiv:2608.26889v1 公告类型：新 摘要：学习增强算法利用预测改进在线决策，但不可靠的建议可能损害效率和公平性。我们研究了一个具有有限候选集、不可逆决策和曝光约束的在线分配问题。我们提出了一种鲁棒且公平的规则，将建议与保守回退和公平性修正相结合。在有界误差假设下，我们证明了一致性和鲁棒性，损失与预测误差成正比。实验表明，在对抗性建议下具有稳定性，并显著减少了曝光差异。",
+    "tldr": "本文提出了一种结合预测与保守回退及公平性修正的在线分配规则，在不可靠建议下实现鲁棒性和公平性，损失与预测误差成比例，并显著降低曝光差异。",
+    "en_tdlr": "This paper proposes an online allocation rule combining predictions with conservative fallback and fairness correction, achieving robustness and fairness under unreliable advice with loss proportional to prediction error and significantly reduced exposure disparity."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Active Curriculum Refinement for Reinforcement Learning",
+    "abstract": "arXiv:2608.26469v1 Announce Type: new  Abstract: In many reinforcement learning (RL) domains, environments are connected by prerequisite relations, such as difficulty-increasing edits or parameter increments, which induce a directed acyclic curriculum graph (DAG). Although this structure is often exploited only implicitly, explicitly modeling it can improve training. We introduce PATH, a curriculum-learning framework that performs active learning over the curriculum graph. PATH first expands coverage by sampling diverse curriculum paths and then reallocates training toward regions that remain unmastered. Experiments across diverse environments show that PATH explicitly leverages the graph structure to achieve strong robustness and generalization.",
+    "link": "https://arxiv.org/abs/2608.26469",
+    "context": "Title: Active Curriculum Refinement for Reinforcement Learning\nAbstract: arXiv:2608.26469v1 Announce Type: new  Abstract: In many reinforcement learning (RL) domains, environments are connected by prerequisite relations, such as difficulty-increasing edits or parameter increments, which induce a directed acyclic curriculum graph (DAG). Although this structure is often exploited only implicitly, explicitly modeling it can improve training. We introduce PATH, a curriculum-learning framework that performs active learning over the curriculum graph. PATH first expands coverage by sampling diverse curriculum paths and then reallocates training toward regions that remain unmastered. Experiments across diverse environments show that PATH explicitly leverages the graph structure to achieve strong robustness and generalization.",
+    "path": "papers/26/08/2608.26469.json",
+    "total_tokens": 494,
+    "translated_title": "强化学习的主动课程优化",
+    "translated_abstract": "arXiv:2608.26469v1 公告类型：新 摘要：在许多强化学习（RL）领域中，环境通过先决条件关系相互连接，例如难度递增的编辑或参数增量，这形成了一个有向无环课程图（DAG）。尽管这种结构通常仅被隐式利用，但显式建模它可以改善训练。我们引入了PATH，一个在课程图上进行主动学习的课程学习框架。PATH首先通过采样多样化的课程路径来扩大覆盖范围，然后将训练资源重新分配到尚未掌握的区域。跨多种环境的实验表明，PATH显式利用图结构实现了强大的鲁棒性和泛化能力。",
+    "tldr": "该论文提出PATH框架，通过显式建模强化学习环境中的有向无环课程图，并采用主动学习策略扩大覆盖和重分配训练资源，从而提升鲁棒性和泛化性能。",
+    "en_tdlr": "This paper introduces PATH, a curriculum-learning framework that explicitly models the directed acyclic curriculum graph in reinforcement learning and employs active learning to expand coverage and reallocate training, enhancing robustness and generalization."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Survival-Guided Length Control for Efficient Diffusion Language Models",
+    "abstract": "arXiv:2608.26374v1 Announce Type: new  Abstract: Diffusion language models (DLMs) generate text by iteratively denoising masked sequences, but standard decoding either fixes the sequence length or relies on ad hoc stopping rules, often leading to unnecessary denoising steps. We recast length selection as a discrete-time survival problem over the end-of-sequence token and propose a plug-in, training-free length predictor that can be added to any existing DLM. Across reasoning and code-generation benchmarks, survival-guided length decoding speeds up inference by up to 7 times while preserving task accuracy. We further find that predicted lengths vary widely even within the same dataset, making model performance sensitive to the chosen length.",
+    "link": "https://arxiv.org/abs/2608.26374",
+    "context": "Title: Survival-Guided Length Control for Efficient Diffusion Language Models\nAbstract: arXiv:2608.26374v1 Announce Type: new  Abstract: Diffusion language models (DLMs) generate text by iteratively denoising masked sequences, but standard decoding either fixes the sequence length or relies on ad hoc stopping rules, often leading to unnecessary denoising steps. We recast length selection as a discrete-time survival problem over the end-of-sequence token and propose a plug-in, training-free length predictor that can be added to any existing DLM. Across reasoning and code-generation benchmarks, survival-guided length decoding speeds up inference by up to 7 times while preserving task accuracy. We further find that predicted lengths vary widely even within the same dataset, making model performance sensitive to the chosen length.",
+    "path": "papers/26/08/2608.26374.json",
+    "total_tokens": 519,
+    "translated_title": "面向高效扩散语言模型的生存引导长度控制",
+    "translated_abstract": "arXiv:2608.26374v1 公告类型：新 摘要：扩散语言模型（DLMs）通过迭代去噪掩码序列来生成文本，但标准解码要么固定序列长度，要么依赖临时停止规则，这往往导致不必要的去噪步骤。我们将长度选择重新定义为结束标记上的离散时间生存问题，并提出一种即插即用、无需训练的长度预测器，可添加到任何现有DLM中。在推理和代码生成基准测试中，生存引导长度解码将推理速度提升高达7倍，同时保持任务准确性。我们进一步发现，即使在同一数据集内，预测长度也差异很大，这使得模型性能对所选长度敏感。",
+    "tldr": "提出一种无需训练的生存分析长度预测器，通过预测序列结束标记来动态调整扩散语言模型的解码长度，实现高达7倍的推理加速且不损失准确性。",
+    "en_tdlr": "Propose a training-free survival-analysis length predictor that dynamically adjusts decoding length for diffusion language models by predicting the end-of-sequence token, achieving up to 7x inference speedup without accuracy loss."
+}

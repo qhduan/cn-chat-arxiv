@@ -1,0 +1,12 @@
+{
+    "title": "Guided Data Generation for Understanding Model Behavior",
+    "abstract": "arXiv:2502.06658v4 Announce Type: replace  Abstract: We propose a method for generating distributions over the input space as an inspection tool for understanding trained models. Our framework poses questions of the form ``which inputs would make a trained model exhibit a specified behavior?'' and encodes each question through a guidance function. The generated data provide insights into how the models behave. To showcase our framework, we pose queries such as generating distributions of data where a specified label would be predicted by the model, where two distinct models would disagree, where the output is sensitive to parameter perturbations, and where predictions would be risky. Our method can be applied with a variety of classification and regression tasks and on a range of model types.",
+    "link": "https://arxiv.org/abs/2502.06658",
+    "context": "Title: Guided Data Generation for Understanding Model Behavior\nAbstract: arXiv:2502.06658v4 Announce Type: replace  Abstract: We propose a method for generating distributions over the input space as an inspection tool for understanding trained models. Our framework poses questions of the form ``which inputs would make a trained model exhibit a specified behavior?'' and encodes each question through a guidance function. The generated data provide insights into how the models behave. To showcase our framework, we pose queries such as generating distributions of data where a specified label would be predicted by the model, where two distinct models would disagree, where the output is sensitive to parameter perturbations, and where predictions would be risky. Our method can be applied with a variety of classification and regression tasks and on a range of model types.",
+    "path": "papers/25/02/2502.06658.json",
+    "total_tokens": 479,
+    "translated_title": "引导数据生成以理解模型行为",
+    "translated_abstract": "我们提出了一种在输入空间上生成分布的方法，作为理解已训练模型的检查工具。我们的框架提出诸如“哪些输入会使已训练模型表现出指定行为？”的问题，并通过引导函数对每个问题进行编码。生成的数据提供了对模型行为的洞察。为了展示我们的框架，我们提出了诸如生成模型将预测指定标签的数据分布、两个不同模型会产生分歧的数据分布、输出对参数扰动敏感的数据分布以及预测存在风险的数据分布等查询。我们的方法可应用于各种分类和回归任务以及多种模型类型。",
+    "tldr": "提出了一种通过引导函数生成输入分布的方法，用于理解和检查已训练模型的行为，涵盖标签预测、模型分歧、参数敏感性和风险预测等多种查询场景。",
+    "en_tdlr": "Proposes a method for generating input distributions via guidance functions to understand and inspect trained model behavior, covering queries like label prediction, model disagreement, parameter sensitivity, and risky predictions."
+}
