@@ -13,27 +13,28 @@
 | [^9] | [From Architecture to Binary: Ensuring Cross-Domain Consistency in Model-Based Airborne Software Development](https://arxiv.org/abs/2608.28156) | 本文提出一种以仓库为中心的机载软件开发方法，通过关系接口数据库、跨仓库引用和自动化CI流水线，确保有人/无人飞行器开发中从系统架构、功能模型到嵌入式软件的跨领域一致性，且适用于资源受限的小型团队。 |
 | [^10] | [Post-Edit Re-Verification in Simulator-Backed Engineering Agents: A Controlled Comparison of Verification-Cadence Guidance](https://arxiv.org/abs/2608.28147) | 该研究通过受控比较考察了在基于仿真器的工程智能体中，保留或省略“修改后请求新仿真”的显式验证节奏指导是否会影响编辑后重新验证行为，测量的是指令条件下的验证策略遵循度而非对证据过时的自发识别，并在DWSIM阀门-压力调节任务上用五个Qwen模型进行了评估。 |
 | [^11] | [RESTCov: A Tool for Structural Coverage Analysis of REST APIs](https://arxiv.org/abs/2608.28114) | RESTCov是一个基于OpenAPI规范和HTTP请求/响应日志、无需访问源代码即可在路径、操作、参数、媒体类型和状态码等多个维度上对REST API进行结构化覆盖率分析的轻量级工具。 |
-| [^12] | [Compared to What? A Human-Anchored Security Benchmark for LLM-Generated Infrastructure-as-Code](https://arxiv.org/abs/2608.28021) | 该论文提出GenIaC-SecBench基准，首次通过扫描634个人类编写的IaC模板建立规模匹配的人类安全基线，发现漏洞密度与代码规模强负相关，从而揭示此前未匹配规模的LLM安全评估实际衡量的是代码大小而非真实安全性。 |
-| [^13] | [Moirae: A Multimodal Agent Collaborative Framework for Dynamic Android Malware Detection](https://arxiv.org/abs/2608.27994) | 提出Moirae框架，通过多模态智能体协作动态收集运行时证据（视觉欺骗线索、UI状态转换、运行时API行为），并融合多维度行为视图，解决了现有检测器面临的概念漂移和混淆攻击问题。 |
-| [^14] | [CHISEL-ing Back Source Code with AI-enabled Iterative Recovery](https://arxiv.org/abs/2608.27981) | 提出了无需测试套件的CHISEL框架，仅依靠编译器静态分析与覆盖率引导模糊测试的迭代反馈，即可从Ghidra伪C代码中恢复可编译且语义等价的源代码。 |
-| [^15] | [GraftyVul: Synthesising Insecure Programs Through Real-World Vulnerability Grafting](https://arxiv.org/abs/2608.27928) | GraftyVul通过将真实世界漏洞嫁接到开源项目中，生成了212个覆盖5种编程语言和23个CWE类别、经过验证且可利用的漏洞程序，同时兼顾了多样性、可复现性和真实性。 |
-| [^16] | [Antipatterns in AI-assisted Qualitative Data Analysis: A Catalog of Temptations and Pitfalls for Software Engineering Researchers](https://arxiv.org/abs/2608.27927) | 本文基于作者数十年的定性研究经验，首次系统性地提出了AI辅助定性数据分析中的反模式目录，将其按影响程度递进划分为“危险驱动因素、操作失误和分析失败”三大类别，旨在帮助软件工程研究人员识别并规避AI辅助分析中损害研究严谨性与有效性的方法论风险。 |
-| [^17] | [Decoupling is a Necessity: Transformation-Agnostic Decompiled Code Recovery under Optimization and Obfuscation](https://arxiv.org/abs/2608.27889) | 提出ReSource——首个面向变换无关源代码恢复的多阶段LLM框架，通过将二进制与源代码的差异解耦为词汇、语法、语义三个正交层次，在编译器优化与代码混淆的双重干扰下实现高质量的反编译代码恢复。 |
-| [^18] | [DBRepro: Automated Database Synthesis via a Hybrid Constraint-Solving Approach for Reproducing Slow Queries](https://arxiv.org/abs/2608.27822) | DBRepro通过混合约束求解方法，从非侵入式元数据自动合成代理数据库，在保留全局统计分布的同时满足精确的局部基数约束，使查询优化器生成与慢查询相同的物理执行计划，从而实现安全的离线性能诊断。 |
-| [^19] | [RiskBlend: A Multi-Signal Framework for Test Input Prioritization in Machine Learning Regression Testing](https://arxiv.org/abs/2608.27704) | RiskBlend提出了一种与分类器无关的多信号测试输入优先级排序框架，通过融合历史失败模式、预测偏移、决策边界偏移和邻域变化四种互补风险信号，在有限验证预算下更有效地发现机器学习模型重训练引发的回归缺陷。 |
-| [^20] | [Operationalizing Regulations into Code: A Model to Enhance Governance and Compliance in LLM Selection for Software Engineering](https://arxiv.org/abs/2608.27703) | 本文通过设计科学研究方法提出一个三层模型，将欧盟《人工智能法案》、NIST RMF、GDPR等法规要求操作化为包含否决性和加权评分标准的多准则决策矩阵，从而增强软件工程项目中选择大语言模型时的治理与合规性。 |
-| [^21] | [Predicting LLM Performance from Prompt Linguistic Features: An Empirical Study in Requirements Engineering](https://arxiv.org/abs/2608.27621) | 该研究证明提示词的可测量语言特征能够在推理之前预测大语言模型的性能，从而为需求工程中的提示词选择与优化提供了一种低成本、无需反复试错的方法。 |
-| [^22] | [Image Augmentation as Test Generation for Deep Learning-Based Image Retrieval Systems](https://arxiv.org/abs/2608.27502) | 本文系统梳理了50种图像增强与生成技术并建立十类分类体系，同时通过大规模实证研究评估这些技术作为基于嵌入的图像检索系统测试生成器的有效性。 |
-| [^23] | [Grounded Checklist Partial Credit for Agent Skill Trajectories](https://arxiv.org/abs/2608.27487) | 提出GCPC方法，由人类一次性定义可复用规则、大语言模型基于任务指令和官方验证器实例化任务专属清单，实现对智能体轨迹的可信部分给分评估，克服了二值任务成功率掩盖部分进展的局限。 |
-| [^24] | [Report of the 2026 Workshop on Next-Generation Ecosystems for Scientific Computing: Harnessing Community, Software, and AI for Cross-Disciplinary Team Science](https://arxiv.org/abs/2608.26519) | 本报告基于2026年研讨会，提炼出科学计算生态系统未来发展的四大战略主题和八项社区行动优先事项，强调通过社会技术协同设计整合人工智能、软件和跨学科合作。 |
-| [^25] | [SPECMINE: A Large-Scale Corpus of Spec-Driven Development Artifacts](https://arxiv.org/abs/2608.25202) | 我们提出了SPECMINE，这是首个大规模语料库，通过两次普查系统地捕捉了GitHub上规范驱动开发工件，为研究规范如何转化为代码提供了基础数据。 |
-| [^26] | [VR-Themis: A Scalable Framework for Virtual Reality Application Clone Detection](https://arxiv.org/abs/2608.13290) | 本文提出了基于“层次-对象-行为”（HOB）模型的两阶段VR应用克隆检测框架VR-Themis，通过粗粒度统计特征聚类实现大规模数据集上的可扩展性，再对可疑应用进行细粒度深入分析，弥补了现有移动应用克隆检测方法无法有效检测VR应用克隆的不足。 |
-| [^27] | [Set-shifting Behavioral Test for Harnessed Agents](https://arxiv.org/abs/2607.13396) | 该论文借鉴认知心理学中的“定势转换”概念，提出了一种通过在冗余工具库中隐藏地切换可靠工具组来测试LLM智能体适应能力的行为测试方法，并发现不同模型面对相同切换时表现出截然不同的行为模式。 |
-| [^28] | [EvoRepair: Enhancing Vulnerability Repair Agents Through Experience-Based Self-Evolution](https://arxiv.org/abs/2605.30105) | EvoRepair是首个基于经验自进化的自动化漏洞修复智能体框架，通过循环的学习-修复过程实现修复经验的积累、精炼与跨漏洞复用，从而提升LLM的漏洞修复能力。 |
-| [^29] | [Beyond Output Correctness: Benchmarking and Evaluating Large Language Model Reasoning in Coding Tasks](https://arxiv.org/abs/2604.12379) | 该论文提出了首个覆盖代码生成、摘要与分类三类编程任务的推理质量评估基准CodeRQ-Bench，并通过分析评估器失配案例得出设计启示，进而提出结合证据验证与歧义感知评分修正的两阶段评估器VERA，显著提升了编程任务中大语言模型推理质量的评估效果。 |
-| [^30] | ["An Endless Stream of AI Slop": How Developers Discuss the Burden of AI-Assisted Software Development](https://arxiv.org/abs/2603.27249) | 该研究通过定性分析1,154条Reddit和Hacker News帖子，首次系统揭示了开发者对AI生成的低质量内容（“AI slop”）给软件开发带来负担的感知与应对，并将其框架化为一种公地悲剧——个人生产力收益以牺牲审查者、维护者和整个社区的利益为代价。 |
-| [^31] | [Do Not Treat Code as Natural Language: Implications for Repository-Level Code Generation and Beyond](https://arxiv.org/abs/2602.11671) | 提出Hydra框架，将代码视为结构化代码而非自然语言，通过结构感知索引策略解决现有RAG方法因分块和相似性检索导致的代码结构关系丢失问题，从而提升仓库级代码生成的效果。 |
-| [^32] | [ASA: Backbone-Training-Free Representation Engineering for Tool-Calling Agents](https://arxiv.org/abs/2602.04935) | ASA提出了一种无需骨干训练的推理时激活引导方法，弥合了LLM智能体“知道该用工具却不敢用”的表示-行为鸿沟，在不微调模型的情况下显著提升了特定领域工具调用的可靠性。 |
+| [^12] | [CC4M: Code Clone Analysis and Visualization for Microservices](https://arxiv.org/abs/2608.28111) | CC4M是一个面向微服务的代码克隆分析与可视化工具，它利用服务边界、共同修改等信息丰富克隆对，并通过交互式散点图和度量过滤，帮助开发者优先处理维护影响较大的跨服务代码克隆。 |
+| [^13] | [Compared to What? A Human-Anchored Security Benchmark for LLM-Generated Infrastructure-as-Code](https://arxiv.org/abs/2608.28021) | 该论文提出GenIaC-SecBench基准，首次通过扫描634个人类编写的IaC模板建立规模匹配的人类安全基线，发现漏洞密度与代码规模强负相关，从而揭示此前未匹配规模的LLM安全评估实际衡量的是代码大小而非真实安全性。 |
+| [^14] | [Moirae: A Multimodal Agent Collaborative Framework for Dynamic Android Malware Detection](https://arxiv.org/abs/2608.27994) | 提出Moirae框架，通过多模态智能体协作动态收集运行时证据（视觉欺骗线索、UI状态转换、运行时API行为），并融合多维度行为视图，解决了现有检测器面临的概念漂移和混淆攻击问题。 |
+| [^15] | [CHISEL-ing Back Source Code with AI-enabled Iterative Recovery](https://arxiv.org/abs/2608.27981) | 提出了无需测试套件的CHISEL框架，仅依靠编译器静态分析与覆盖率引导模糊测试的迭代反馈，即可从Ghidra伪C代码中恢复可编译且语义等价的源代码。 |
+| [^16] | [GraftyVul: Synthesising Insecure Programs Through Real-World Vulnerability Grafting](https://arxiv.org/abs/2608.27928) | GraftyVul通过将真实世界漏洞嫁接到开源项目中，生成了212个覆盖5种编程语言和23个CWE类别、经过验证且可利用的漏洞程序，同时兼顾了多样性、可复现性和真实性。 |
+| [^17] | [Antipatterns in AI-assisted Qualitative Data Analysis: A Catalog of Temptations and Pitfalls for Software Engineering Researchers](https://arxiv.org/abs/2608.27927) | 本文基于作者数十年的定性研究经验，首次系统性地提出了AI辅助定性数据分析中的反模式目录，将其按影响程度递进划分为“危险驱动因素、操作失误和分析失败”三大类别，旨在帮助软件工程研究人员识别并规避AI辅助分析中损害研究严谨性与有效性的方法论风险。 |
+| [^18] | [Decoupling is a Necessity: Transformation-Agnostic Decompiled Code Recovery under Optimization and Obfuscation](https://arxiv.org/abs/2608.27889) | 提出ReSource——首个面向变换无关源代码恢复的多阶段LLM框架，通过将二进制与源代码的差异解耦为词汇、语法、语义三个正交层次，在编译器优化与代码混淆的双重干扰下实现高质量的反编译代码恢复。 |
+| [^19] | [DBRepro: Automated Database Synthesis via a Hybrid Constraint-Solving Approach for Reproducing Slow Queries](https://arxiv.org/abs/2608.27822) | DBRepro通过混合约束求解方法，从非侵入式元数据自动合成代理数据库，在保留全局统计分布的同时满足精确的局部基数约束，使查询优化器生成与慢查询相同的物理执行计划，从而实现安全的离线性能诊断。 |
+| [^20] | [RiskBlend: A Multi-Signal Framework for Test Input Prioritization in Machine Learning Regression Testing](https://arxiv.org/abs/2608.27704) | RiskBlend提出了一种与分类器无关的多信号测试输入优先级排序框架，通过融合历史失败模式、预测偏移、决策边界偏移和邻域变化四种互补风险信号，在有限验证预算下更有效地发现机器学习模型重训练引发的回归缺陷。 |
+| [^21] | [Operationalizing Regulations into Code: A Model to Enhance Governance and Compliance in LLM Selection for Software Engineering](https://arxiv.org/abs/2608.27703) | 本文通过设计科学研究方法提出一个三层模型，将欧盟《人工智能法案》、NIST RMF、GDPR等法规要求操作化为包含否决性和加权评分标准的多准则决策矩阵，从而增强软件工程项目中选择大语言模型时的治理与合规性。 |
+| [^22] | [Predicting LLM Performance from Prompt Linguistic Features: An Empirical Study in Requirements Engineering](https://arxiv.org/abs/2608.27621) | 该研究证明提示词的可测量语言特征能够在推理之前预测大语言模型的性能，从而为需求工程中的提示词选择与优化提供了一种低成本、无需反复试错的方法。 |
+| [^23] | [Image Augmentation as Test Generation for Deep Learning-Based Image Retrieval Systems](https://arxiv.org/abs/2608.27502) | 本文系统梳理了50种图像增强与生成技术并建立十类分类体系，同时通过大规模实证研究评估这些技术作为基于嵌入的图像检索系统测试生成器的有效性。 |
+| [^24] | [Grounded Checklist Partial Credit for Agent Skill Trajectories](https://arxiv.org/abs/2608.27487) | 提出GCPC方法，由人类一次性定义可复用规则、大语言模型基于任务指令和官方验证器实例化任务专属清单，实现对智能体轨迹的可信部分给分评估，克服了二值任务成功率掩盖部分进展的局限。 |
+| [^25] | [Report of the 2026 Workshop on Next-Generation Ecosystems for Scientific Computing: Harnessing Community, Software, and AI for Cross-Disciplinary Team Science](https://arxiv.org/abs/2608.26519) | 本报告基于2026年研讨会，提炼出科学计算生态系统未来发展的四大战略主题和八项社区行动优先事项，强调通过社会技术协同设计整合人工智能、软件和跨学科合作。 |
+| [^26] | [SPECMINE: A Large-Scale Corpus of Spec-Driven Development Artifacts](https://arxiv.org/abs/2608.25202) | 我们提出了SPECMINE，这是首个大规模语料库，通过两次普查系统地捕捉了GitHub上规范驱动开发工件，为研究规范如何转化为代码提供了基础数据。 |
+| [^27] | [VR-Themis: A Scalable Framework for Virtual Reality Application Clone Detection](https://arxiv.org/abs/2608.13290) | 本文提出了基于“层次-对象-行为”（HOB）模型的两阶段VR应用克隆检测框架VR-Themis，通过粗粒度统计特征聚类实现大规模数据集上的可扩展性，再对可疑应用进行细粒度深入分析，弥补了现有移动应用克隆检测方法无法有效检测VR应用克隆的不足。 |
+| [^28] | [Set-shifting Behavioral Test for Harnessed Agents](https://arxiv.org/abs/2607.13396) | 该论文借鉴认知心理学中的“定势转换”概念，提出了一种通过在冗余工具库中隐藏地切换可靠工具组来测试LLM智能体适应能力的行为测试方法，并发现不同模型面对相同切换时表现出截然不同的行为模式。 |
+| [^29] | [EvoRepair: Enhancing Vulnerability Repair Agents Through Experience-Based Self-Evolution](https://arxiv.org/abs/2605.30105) | EvoRepair是首个基于经验自进化的自动化漏洞修复智能体框架，通过循环的学习-修复过程实现修复经验的积累、精炼与跨漏洞复用，从而提升LLM的漏洞修复能力。 |
+| [^30] | [Beyond Output Correctness: Benchmarking and Evaluating Large Language Model Reasoning in Coding Tasks](https://arxiv.org/abs/2604.12379) | 该论文提出了首个覆盖代码生成、摘要与分类三类编程任务的推理质量评估基准CodeRQ-Bench，并通过分析评估器失配案例得出设计启示，进而提出结合证据验证与歧义感知评分修正的两阶段评估器VERA，显著提升了编程任务中大语言模型推理质量的评估效果。 |
+| [^31] | ["An Endless Stream of AI Slop": How Developers Discuss the Burden of AI-Assisted Software Development](https://arxiv.org/abs/2603.27249) | 该研究通过定性分析1,154条Reddit和Hacker News帖子，首次系统揭示了开发者对AI生成的低质量内容（“AI slop”）给软件开发带来负担的感知与应对，并将其框架化为一种公地悲剧——个人生产力收益以牺牲审查者、维护者和整个社区的利益为代价。 |
+| [^32] | [Do Not Treat Code as Natural Language: Implications for Repository-Level Code Generation and Beyond](https://arxiv.org/abs/2602.11671) | 提出Hydra框架，将代码视为结构化代码而非自然语言，通过结构感知索引策略解决现有RAG方法因分块和相似性检索导致的代码结构关系丢失问题，从而提升仓库级代码生成的效果。 |
+| [^33] | [ASA: Backbone-Training-Free Representation Engineering for Tool-Calling Agents](https://arxiv.org/abs/2602.04935) | ASA提出了一种无需骨干训练的推理时激活引导方法，弥合了LLM智能体“知道该用工具却不敢用”的表示-行为鸿沟，在不微调模型的情况下显著提升了特定领域工具调用的可靠性。 |
 
 # 详细
 
@@ -191,7 +192,21 @@
 
     arXiv:2608.28114v1 Announce Type: new  Abstract: REST APIs are widely used in modern software systems, but developers and testers often lack visibility into which parts of an API specification are exercised by a test suite. Traditional coverage analysis usually relies on source-code instrumentation, which is impractical for REST APIs that are distributed, externally maintained, and hence accessible only through black-box execution. This paper presents RESTCov, a lightweight tool that computes structural REST API coverage from an OpenAPI specification and observed HTTP request/response logs, reporting coverage across paths, operations, parameters, media types, status codes, and status classes. RESTCov produces both machine-readable results and a human-readable HTML report, helping users inspect coverage gaps, diagnose specification-log mismatches, and evaluate REST API test suites without requiring access to the implementation.   Screencast: https://youtu.be/mNz2P43OyUc   Repository: ht
     
-[^12]: 与什么相比？一个以人类为基准的大语言模型生成基础设施即代码安全评测基准
+[^12]: CC4M：面向微服务的代码克隆分析与可视化
+
+    CC4M: Code Clone Analysis and Visualization for Microservices
+
+    [https://arxiv.org/abs/2608.28111](https://arxiv.org/abs/2608.28111)
+
+    CC4M是一个面向微服务的代码克隆分析与可视化工具，它利用服务边界、共同修改等信息丰富克隆对，并通过交互式散点图和度量过滤，帮助开发者优先处理维护影响较大的跨服务代码克隆。
+
+    
+
+    微服务架构通过将系统分解为可独立部署的小型、松耦合服务来支持软件演化。与高模块化的预期相反，先前的研究报告指出，代码克隆会跨越服务边界存在，其中一些克隆还会在同一版本中被共同修改。这类克隆可能需要在服务边界之间传播变更，从而削弱服务的独立性并增加维护成本。然而，现有工具并不支持面向微服务的克隆分析。我们提出了CC4M，一个具备微服务感知能力的克隆分析与可视化工具。CC4M检测克隆对，并用服务边界、共同修改、文件类别和度量等信息对其进行丰富。丰富后的克隆在一个带有明确服务边界的交互式散点图中进行可视化，支持基于度量的过滤，以优先处理具有潜在更高维护影响的克隆。
+
+    arXiv:2608.28111v1 Announce Type: new  Abstract: Microservice architecture supports software evolution by decomposing a system into small, loosely coupled services that can be deployed independently. Contrary to the expectation of high modularity, prior studies have reported that code clones exist across service boundaries, some of which are co-modified in the same version. Such clones may require changes to be propagated across service boundaries, thereby undermining service independence and increasing maintenance costs. However, existing tools do not support microservice-aware clone analysis. We present CC4M, a microservice-aware clone analysis and visualization tool. CC4M detects and enriches clone pairs with service-boundary, co-modification, file-category, and metric information. The enriched clones are visualized in an interactive scatter plot with explicit service boundaries, supporting metric-based filtering to prioritize clones with potentially higher maintenance impact. Using
+    
+[^13]: 与什么相比？一个以人类为基准的大语言模型生成基础设施即代码安全评测基准
 
     Compared to What? A Human-Anchored Security Benchmark for LLM-Generated Infrastructure-as-Code
 
@@ -205,7 +220,7 @@
 
     arXiv:2608.28021v1 Announce Type: cross  Abstract: Large language models are increasingly used to author Infrastructure-as-Code (IaC), where a single insecure default can be deployed directly into production. Prior evaluations report raw vulnerability counts for model-generated IaC, but without a human baseline they cannot determine whether models are actually worse than engineers. We introduce GenIaC-SecBench, a benchmark of 100 deployment scenarios stratified by architectural complexity, evaluated across 12 model configurations from four vendors, producing 1,196 IaC artifacts scanned by three independent policy engines (Checkov, Trivy, KICS). Critically, we also scan 634 human-authored IaC templates with the same toolchain, providing the first size-matched human security baseline.   Vulnerability density is strongly inverse to artifact size (Spearman $\rho = -0.55$, $p < 10^{-77}$), meaning unmatched comparisons measure size rather than security. When matched on declared-resource cou
     
-[^13]: Moirae：用于动态Android恶意软件检测的多模态智能体协作框架
+[^14]: Moirae：用于动态Android恶意软件检测的多模态智能体协作框架
 
     Moirae: A Multimodal Agent Collaborative Framework for Dynamic Android Malware Detection
 
@@ -219,7 +234,7 @@
 
     arXiv:2608.27994v1 Announce Type: cross  Abstract: The Android ecosystem faces persistent and rapidly evolving malware threats. Existing machine learning detectors are vulnerable to concept drift because they rely on implementation-specific features whose distributions change over time. Large language models (LLMs) offer strong semantic understanding and zero-shot reasoning, but current LLM-based detectors typically depend on code-centric or single-dimensional evidence, making them susceptible to obfuscation and limiting comprehensive behavior analysis. We present {\sysname}, a multimodal agent collaborative framework for dynamic Android malware detection. {\sysname} dynamically collects multimodal runtime evidence and employs ReAct-based specialized agents to analyze complementary behavioral views. The detection process begins by identifying visual deception cues, modeling UI state transitions, and integrating runtime API behaviors to fuse multi-dimensional evidence across user-visibl
     
-[^14]: CHISEL：利用AI赋能的迭代恢复技术还原源代码
+[^15]: CHISEL：利用AI赋能的迭代恢复技术还原源代码
 
     CHISEL-ing Back Source Code with AI-enabled Iterative Recovery
 
@@ -233,7 +248,7 @@
 
     arXiv:2608.27981v1 Announce Type: cross  Abstract: Decompilation aims to recover high-level, compilable, and semantically equivalent code from binaries. Traditional decompilers produce pseudo-C that is difficult to read and does not compile, while the recent LLM-assisted approaches generate readable, but semantically incorrect code. LLM-aided iterative recovery is an emerging branch of research, but prior works rely on supplied test suites for semantic recovery. In this work, we present CHISEL, a test suite-free framework to iteratively recover source code from Ghidra-derived pseudo-C. CHISEL uses simple yet effective feedback from a compiler (static analysis) and a coverage-guided fuzzer (differential analysis), augmented by rich observables for grounded divergence detection and feedback, cross-iteration divergence memory, and best candidate retention. We systematically evaluate CHISEL for compilation and semantic recovery, feedback oracle soundness, and iteration overhead on 120 ExeB
     
-[^15]: GraftyVul：通过真实世界漏洞嫁接合成不安全程序
+[^16]: GraftyVul：通过真实世界漏洞嫁接合成不安全程序
 
     GraftyVul: Synthesising Insecure Programs Through Real-World Vulnerability Grafting
 
@@ -247,7 +262,7 @@
 
     arXiv:2608.27928v1 Announce Type: cross  Abstract: Vulnerability datasets underpin a wide range of security research, including vulnerability detection, automated remediation, and secure code generation. However, existing datasets sacrifice at least one of three desirable properties: diversity (of language or vulnerability type), reproducibility/executability, or realism. We therefore present GraftyVul, a system that constructs vulnerable programs by grafting real-world vulnerabilities into open-source projects. This grounds the dataset in vulnerabilities observed in real-world contexts while harnessing known good build and test environments, enabling exploit-verification scripts to guarantee that an introduced vulnerability successfully alters a program's behaviour. Using GraftyVul, we generate 212 verified and exploitable vulnerable programs spanning five programming languages (Python, TypeScript, Java, Go, and C#) across 23 CWE categories. To evaluate fidelity, we introduce a langua
     
-[^16]: AI辅助定性数据分析中的反模式：软件工程研究人员面临的诱惑与陷阱目录
+[^17]: AI辅助定性数据分析中的反模式：软件工程研究人员面临的诱惑与陷阱目录
 
     Antipatterns in AI-assisted Qualitative Data Analysis: A Catalog of Temptations and Pitfalls for Software Engineering Researchers
 
@@ -261,7 +276,7 @@
 
     arXiv:2608.27927v1 Announce Type: new  Abstract: AI-assisted qualitative data analysis (QDA) offers unprecedented opportunities to streamline software engineering (SE) research, yet uncritical use risks compromising analytical rigor and flooding the field with accelerated production of low-quality research. While tactical best practices will naturally evolve over time, SE researchers currently lack strategic guidance to identify and mitigate methodological risks when attempting AI-assisted QDA. Based on our decades of qualitative SE research expertise and experience combined with an understanding of the emerging landscape of AI-assisted QDA, this paper presents a catalog of antipatterns in AI-assisted QDA - a set of assumptions and practices that initially appear advantageous but ultimately undermine analytical rigor and validity. The antipatterns are grouped into three categories reflecting escalating impact: Dangerous Drivers, Operational Missteps, and Analytical Failures. As more SE
     
-[^17]: 解耦是必需的：优化与混淆下变换无关的反编译代码恢复
+[^18]: 解耦是必需的：优化与混淆下变换无关的反编译代码恢复
 
     Decoupling is a Necessity: Transformation-Agnostic Decompiled Code Recovery under Optimization and Obfuscation
 
@@ -275,7 +290,7 @@
 
     arXiv:2608.27889v1 Announce Type: new  Abstract: Reverse engineering is essential for software security analysis and vulnerability detection. Decompilation, the process of lifting binaries to high-level pseudocode, is central to this task. However, production binaries are hostile environments: aggressive compiler optimizations and adversarial obfuscation jointly mangle control structures, obscure variable intents, and disguise high-level program logic. Consequently, existing LLM-based decompilation tools frequently suffer from structural collapse and semantic hallucinations. We present ReSource, the first multi-phase LLM framework designed for transformation-agnostic source recovery. To tackle these intertwined distortions, ReSource conceptualizes the binary-to-source discrepancies into three orthogonal tiers, namely lexical, syntactic, and semantic, and decouples the recovery process accordingly. First, to ground the LLM and prevent logic drift, it retrieves empirical priors from a cu
     
-[^18]: DBRepro：基于混合约束求解方法的慢查询复现自动化数据库合成
+[^19]: DBRepro：基于混合约束求解方法的慢查询复现自动化数据库合成
 
     DBRepro: Automated Database Synthesis via a Hybrid Constraint-Solving Approach for Reproducing Slow Queries
 
@@ -289,7 +304,7 @@
 
     arXiv:2608.27822v1 Announce Type: cross  Abstract: Slow queries frequently cause severe performance bottlenecks in database management systems. Diagnosing their root causes online risks exacerbating resource contention, while data privacy regulations often prohibit copying production data to test environments. Synthesizing a proxy database from non-intrusive metadata that induces the query optimizer to generate the same physical execution plans is therefore critical for offline diagnosis. High-fidelity reproduction requires preserving global statistical distributions while enforcing exact local cardinalities. Existing data-driven and workload-aware approaches cannot satisfy both requirements simultaneously.   We present DBRepro, an automated end-to-end framework that formulates database generation as a constrained distribution synthesis problem. DBRepro initializes a global distribution from lightweight column statistics, extracts execution constraints from target queries, and progress
     
-[^19]: RiskBlend：一种用于机器学习回归测试的测试输入优先级排序多信号框架
+[^20]: RiskBlend：一种用于机器学习回归测试的测试输入优先级排序多信号框架
 
     RiskBlend: A Multi-Signal Framework for Test Input Prioritization in Machine Learning Regression Testing
 
@@ -303,7 +318,7 @@
 
     arXiv:2608.27704v1 Announce Type: new  Abstract: When machine learning classifiers are retrained, inputs correctly classified by the previous model version may be misclassified by the updated version, creating regression faults that are costly to detect because verifying predictions against ground truth may require human annotation, expert review, or expensive simulation rather than inexpensive model inference. Test input prioritization addresses this problem by ranking inputs so that a limited verification budget reveals as many regression faults as possible. Existing approaches rely predominantly on single-model confidence scores and do not exploit how predictions, decision boundaries, and local neighborhoods change between model versions. We propose RiskBlend, a classifier-agnostic prioritization framework that combines four complementary risk signals: historical failure patterns, prediction shift, decision-boundary shift, and neighborhood change. These signals are combined using va
     
-[^20]: 将法规操作化为代码：一个增强软件工程中大语言模型选择治理与合规性的模型
+[^21]: 将法规操作化为代码：一个增强软件工程中大语言模型选择治理与合规性的模型
 
     Operationalizing Regulations into Code: A Model to Enhance Governance and Compliance in LLM Selection for Software Engineering
 
@@ -317,7 +332,7 @@
 
     arXiv:2608.27703v1 Announce Type: new  Abstract: Integrating Large Language Models (LLMs) into the Software Development Life Cycle (SDLC) can improve developer productivity, but it also introduces security, privacy, and compliance risks during model selection. Regulations and frameworks such as the EU AI Act, the NIST AI Risk Management Framework (RMF), the General Data Protection Regulation (GDPR), the Lei Geral de Prote\c{c}\~ao de Dados (LGPD), and ISO/IEC 42001 establish obligations that are often difficult to translate into operational criteria for technical decision-making. This paper proposes a model to support governance and compliance in LLM selection for software engineering projects. The model is developed through Design Science Research (DSR) and is structured in three layers: (i) regulatory requirements, (ii) organizational governance capabilities, instantiated by a multi-criteria decision matrix with knock-out and weighted scoring criteria, and (iii) productivity and sust
     
-[^21]: 从提示词语言特征预测大语言模型性能：需求工程中的实证研究
+[^22]: 从提示词语言特征预测大语言模型性能：需求工程中的实证研究
 
     Predicting LLM Performance from Prompt Linguistic Features: An Empirical Study in Requirements Engineering
 
@@ -331,7 +346,7 @@
 
     arXiv:2608.27621v1 Announce Type: new  Abstract: Background. LLM outputs are highly sensitive to prompt formulation: small wording changes can substantially affect output quality. This matters in software engineering, where prompts guide requirements analysis, code generation, and artefact synthesis. Poor formulations yield unreliable artefacts, yet practitioners lack principled ways to assess a prompt before inference, making selection depend on costly LLM calls and trial-and-error refinement. Aims. We investigate whether measurable linguistic properties of prompts can predict LLM performance before inference, enabling low-cost prompt selection and refinement, validated on binary requirements classification targeting F1, F2, precision, and recall. Method. We generate 9,000 linguistically controlled prompt variants from 100 initial prompts by varying 30 linguistic metrics, evaluated with five open-source LLMs on 625 annotated requirements. Regression predictors are trained via stratifi
     
-[^22]: 图像增强作为基于深度学习的图像检索系统的测试生成方法
+[^23]: 图像增强作为基于深度学习的图像检索系统的测试生成方法
 
     Image Augmentation as Test Generation for Deep Learning-Based Image Retrieval Systems
 
@@ -345,7 +360,7 @@
 
     arXiv:2608.27502v1 Announce Type: new  Abstract: Ensuring the reliability of deep learning-based image retrieval systems is a software engineering challenge. This paper presents a dual contribution: (1) a literature review of augmentation and generation techniques which resulted in the identification of 50 techniques which we organized into a ten-category taxonomy, and (2) a large-scale empirical study that evaluates these techniques as test generators for embedding-based image retrieval systems. Augmented images are embedded using Amazon Titan and OpenCLIP, and evaluated across four analytical dimensions: (1) embedding-space similarity, (2) embedding uncertainty measured via four estimators, (3) semantic realism scored by LLaVA, and (4) retrieval failure rate. Experiments are performed on three datasets: CIFAR-10, ImageNet-1K, and a dataset from an industrial partner (March Networks). Across all evaluated datasets and embedding models, and under the single severity level tested for ea
     
-[^23]: 面向智能体技能轨迹的有据可依清单式部分给分评估
+[^24]: 面向智能体技能轨迹的有据可依清单式部分给分评估
 
     Grounded Checklist Partial Credit for Agent Skill Trajectories
 
@@ -359,7 +374,7 @@
 
     arXiv:2608.27487v1 Announce Type: new  Abstract: Language-model agents increasingly tackle long-horizon tasks in interactive environments, yet their evaluation commonly relies on task-level success rates by reducing an entire execution trajectory to whether the task passes an official verifier. This binary score hides partial progress and is particularly limited for procedural agent skill evaluations, since a skill can alter execution without changing the final outcome. While checklists provide finer-grained evaluation by scoring individual task requirements, costly manual authoring and unreliable automatic generation make trustworthy evaluation difficult to scale. To address these challenges, we introduce Grounded Checklist Partial Credit (GCPC), a human-governed and LLM-instantiated partial-credit evaluation of agent trajectories. Humans define reusable rules once, from which an LLM instantiates a task-specific checklist grounded in the task instruction and official verifier. To keep
     
-[^24]: 2026年下一代科学计算生态系统研讨会报告：利用社区、软件和人工智能促进跨学科团队科学
+[^25]: 2026年下一代科学计算生态系统研讨会报告：利用社区、软件和人工智能促进跨学科团队科学
 
     Report of the 2026 Workshop on Next-Generation Ecosystems for Scientific Computing: Harnessing Community, Software, and AI for Cross-Disciplinary Team Science
 
@@ -373,7 +388,7 @@
 
     arXiv:2608.26519v1 Announce Type: cross  Abstract: Scientific computing is undergoing rapid transformation as advances in artificial intelligence, heterogeneous computing, automation, and data-intensive research reshape not only computational tools but also the institutions, workforce models, and collaborative practices that support scientific discovery. This report synthesizes insights from the 2026 Workshop on Next-Generation Ecosystems for Scientific Computing, the second in a three-year series focused on strengthening scientific computing ecosystems through socio-technical co-design. Workshop discussions identified four interdependent strategic themes: software ecosystems for AI-enabled scientific discovery; trust, validation, and traceability; human-AI teaming and paradigm shifts; and workforce, pedagogy, and governance. The report translates these themes into eight priorities for community action spanning shared research infrastructure, trust and traceability, user experience, hu
     
-[^25]: SPECMINE：一个大规模的规范驱动开发工件语料库
+[^26]: SPECMINE：一个大规模的规范驱动开发工件语料库
 
     SPECMINE: A Large-Scale Corpus of Spec-Driven Development Artifacts
 
@@ -387,7 +402,7 @@
 
     arXiv:2608.25202v1 Announce Type: new  Abstract: Spec-Driven Development (SDD) is a fast-emerging practice in which a structured natural-language specification, written by a developer, or (more often) drafted by an AI tool and then curated by the developer, drives an AI coding agent's implementation. A wave of tooling (GitHub Spec Kit [3], OpenSpec [4], AWS Kiro [5], and dozens of others) has appeared since 2025, yet the artifacts these tools produce have never been studied at scale. We present SPECMINE, a corpus that captures SDD in public GitHub repositories through two censuses: a broad census of spec.md/specs.md files covering most tools (470,795 files across 73,030 repositories, attributed to 17 named tools), and a Kiro census of its distinct requirements/design/tasks layout (98,574 files across 12,910 repositories). Each spec is enriched with full repository metadata, complete commit history, and parsed document structure. How a spec becomes code is itself an open question, so fo
     
-[^26]: VR-Themis：一个可扩展的虚拟现实应用克隆检测框架
+[^27]: VR-Themis：一个可扩展的虚拟现实应用克隆检测框架
 
     VR-Themis: A Scalable Framework for Virtual Reality Application Clone Detection
 
@@ -401,7 +416,7 @@
 
     arXiv:2608.13290v1 Announce Type: cross  Abstract: Repackaging of mobile applications (aka app cloning) not only threatens the security and privacy of mobile users but also infringes upon the copyright of the original app developers. However, existing detection methods that primarily focus on mobile platforms (such as Android) fail to capture the essential features of virtual reality (VR). Consequently, they are inadequate for effectively detecting cloned VR apps, which have often been targeted by illegal users in the VR market. Considering the unique features of VR apps, this paper proposes a two-stage app clone detection framework, namely VR-Themis, based on \emph{Hierarchy-Object-Behaviour} (HOB). Firstly, VR-Themis exploits the coarse-grained stage to cluster apps based on their retrievable statistical features, making this tool scalable to large-scale VR app datasets. Then, in the fine-grained stage, VR-Themis performs in-depth analysis of the suspicious apps (identified in the fi
     
-[^27]: 面向配备框架智能体的定势转换行为测试
+[^28]: 面向配备框架智能体的定势转换行为测试
 
     Set-shifting Behavioral Test for Harnessed Agents
 
@@ -415,7 +430,7 @@
 
     arXiv:2607.13396v2 Announce Type: replace-cross  Abstract: What happens to an LLM agent's tool choice when the reliable tool silently changes within an ongoing session? We borrow the notion of set-shifting from cognitive psychology to study how well agents adapt to hidden reliability shifts. Our cognitive test for LLM agents mounts libraries of redundant tools and skills, in which many tools solve the same task but differ in hidden reliability. Using a branching schedule, we shift the reliable tool group in the environment and compare it with a stable control, allowing us to isolate the effect of each shift on the agent's behavior. We conduct our study on a panel of LLMs equipped with harnesses and show that the same set of shifts results in distinct behaviors across models: some latch onto a fixed routine within a few turns, whereas others continue to vary. Less capable models often omit the reliable tool group, while frontier models keep calling it alongside the other groups. We intr
     
-[^28]: EvoRepair：通过基于经验的自进化增强漏洞修复智能体
+[^29]: EvoRepair：通过基于经验的自进化增强漏洞修复智能体
 
     EvoRepair: Enhancing Vulnerability Repair Agents Through Experience-Based Self-Evolution
 
@@ -429,7 +444,7 @@
 
     arXiv:2605.30105v2 Announce Type: replace  Abstract: Large Language Models (LLMs) have shown promise for automated vulnerability repair (AVR), but they still face several limitations, including the lack of intra-vulnerability experience accumulation and the lack of cross-vulnerability experience reuse. As a result, LLMs may repeatedly make similar mistakes during iterative repair and underutilize valuable repair knowledge from historical vulnerabilities. To address these challenges, we propose EvoRepair, the first experience-based self-evolving AVR agent framework that enables LLMs to accumulate, refine, and leverage domain-specific knowledge across long-horizon vulnerability repairs. EvoRepair follows a cyclic learn-and-repair process that retrieves relevant past experiences to guide repair, extracts new experiences from repair trajectories, and updates an experience bank using quality-aware scoring. We evaluate EvoRepair against 12 representative vulnerability repair baselines on PAT
     
-[^29]: 超越输出正确性：编程任务中大语言模型推理能力的基准测试与评估
+[^30]: 超越输出正确性：编程任务中大语言模型推理能力的基准测试与评估
 
     Beyond Output Correctness: Benchmarking and Evaluating Large Language Model Reasoning in Coding Tasks
 
@@ -443,7 +458,7 @@
 
     arXiv:2604.12379v2 Announce Type: replace-cross  Abstract: Large language models (LLMs) increasingly rely on explicit reasoning to solve coding tasks, yet evaluating the quality of this reasoning remains challenging. Existing reasoning evaluators are not designed for coding, and current benchmarks focus primarily on code generation, leaving other coding tasks largely unexplored. We introduce CodeRQ-Bench, the first benchmark for evaluating LLM reasoning quality across three coding task categories: generation, summarization, and classification. Using this benchmark, we analyze 1,069 mismatch cases from existing evaluators, identify five recurring limitations, and derive four design insights for reasoning evaluation in coding tasks. Guided by these insights, we propose VERA, a two-stage evaluator that combines evidence-grounded verification with ambiguity-aware score correction. Experiments on CodeRQ-Bench show that VERA consistently outperforms strong baselines across four datasets, imp
     
-[^30]: “无穷无尽的AI垃圾”：开发者如何讨论AI辅助软件开发的负担
+[^31]: “无穷无尽的AI垃圾”：开发者如何讨论AI辅助软件开发的负担
 
     "An Endless Stream of AI Slop": How Developers Discuss the Burden of AI-Assisted Software Development
 
@@ -457,7 +472,7 @@
 
     arXiv:2603.27249v4 Announce Type: replace  Abstract: "AI slop", that is, low-quality AI-generated content, is increasingly affecting software development, from generated code and pull requests to documentation and bug reports. However, there is limited empirical research on how developers perceive and respond to this phenomenon. We qualitatively analyzed how developers discuss AI slop in 1,154 Reddit and Hacker News posts, developing a codebook of 15 codes organized into three thematic clusters: Review Friction (how AI slop burdens reviewers, erodes trust, and prompts countermeasures), Quality Degradation (damage to codebases, knowledge resources, and developer competence), and Forces and Consequences (systemic incentives, mandated adoption, craft erosion, and workforce disruption). Our findings frame AI slop as a tragedy of the commons, where individual productivity gains externalize costs onto reviewers, maintainers, and the broader community. We report the concerns developers raise 
     
-[^31]: 不要将代码视为自然语言：对仓库级代码生成及更广泛领域的影响
+[^32]: 不要将代码视为自然语言：对仓库级代码生成及更广泛领域的影响
 
     Do Not Treat Code as Natural Language: Implications for Repository-Level Code Generation and Beyond
 
@@ -471,7 +486,7 @@
 
     arXiv:2602.11671v2 Announce Type: replace  Abstract: Large language models for code (CodeLLMs) have demonstrated remarkable success in standalone code completion and generation, sometimes even surpassing human performance, yet their effectiveness diminishes in repository-level settings where cross-file dependencies and structural context are essential. Existing Retrieval-Augmented Generation (RAG) approaches often borrow strategies from NLP, relying on chunking-based indexing and similarity-based retrieval. Chunking results in the loss of coherence between code units and overlooks structural relationships, while similarity-driven methods frequently miss functionally relevant dependencies such as helper functions, classes, or global variables. To address these limitations, we present Hydra, a repository-level code generation framework that treats code as structured code rather than natural language. Our approach introduces (i) a structure-aware indexing strategy that represents reposito
     
-[^32]: ASA：面向工具调用智能体的无需骨干训练的表示工程方法
+[^33]: ASA：面向工具调用智能体的无需骨干训练的表示工程方法
 
     ASA: Backbone-Training-Free Representation Engineering for Tool-Calling Agents
 
