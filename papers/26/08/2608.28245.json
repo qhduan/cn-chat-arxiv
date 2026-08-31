@@ -1,0 +1,12 @@
+{
+    "title": "I-FLOP: Fast Learning of Order and Parents from Interventional Data",
+    "abstract": "arXiv:2608.28245v1 Announce Type: cross  Abstract: We extend the FLOP (fast learning of order and parents) algorithm recently proposed by Wien\\\"obst et al. (2026) from observational to interventional data. In particular, we use the interventional BIC score of Hauser and B\\\"uhlmann (2012), adapting it to be used with the iterative Cholesky-based score updates that are partly responsible for FLOP's speed. We show that, in the sample limit, I-FLOP recovers a DAG in the same interventional Markov equivalence class as the data-generating DAG. We compare I-FLOP to existing causal structure learning algorithms on real and simulated interventional data, where it performs favorably in terms of both performance and run time.",
+    "link": "https://arxiv.org/abs/2608.28245",
+    "context": "Title: I-FLOP: Fast Learning of Order and Parents from Interventional Data\nAbstract: arXiv:2608.28245v1 Announce Type: cross  Abstract: We extend the FLOP (fast learning of order and parents) algorithm recently proposed by Wien\\\"obst et al. (2026) from observational to interventional data. In particular, we use the interventional BIC score of Hauser and B\\\"uhlmann (2012), adapting it to be used with the iterative Cholesky-based score updates that are partly responsible for FLOP's speed. We show that, in the sample limit, I-FLOP recovers a DAG in the same interventional Markov equivalence class as the data-generating DAG. We compare I-FLOP to existing causal structure learning algorithms on real and simulated interventional data, where it performs favorably in terms of both performance and run time.",
+    "path": "papers/26/08/2608.28245.json",
+    "total_tokens": 1073,
+    "translated_title": "I-FLOP：基于干预数据的序与父节点快速学习",
+    "translated_abstract": "我们将Wienöbst等人（2026）近期提出的FLOP（序与父节点快速学习）算法从观测数据扩展到干预数据。特别地，我们采用Hauser和Bühlmann（2012）提出的干预BIC评分，并将其适配到基于Cholesky分解的迭代评分更新框架中，而后者正是FLOP算法速度优势的部分来源。我们证明，在样本极限情况下，I-FLOP能够恢复出与数据生成DAG处于同一干预马尔可夫等价类中的DAG。我们在真实和模拟的干预数据上将I-FLOP与现有的因果结构学习算法进行比较，结果表明I-FLOP在性能和运行时间两方面均表现优异。",
+    "tldr": "I-FLOP将FLOP算法从观测数据扩展到干预数据场景，通过将干预BIC评分适配到基于Cholesky的迭代评分更新机制中，实现了兼具速度优势与理论保证（可恢复正确干预马尔可夫等价类）的快速因果结构学习。",
+    "en_tdlr": "I-FLOP extends the FLOP algorithm from observational to interventional data by adapting the interventional BIC score to iterative Cholesky-based score updates, achieving fast causal structure learning with theoretical guarantees of recovering the correct interventional Markov equivalence class."
+}

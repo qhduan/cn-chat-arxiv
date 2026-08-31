@@ -1,0 +1,12 @@
+{
+    "title": "Diffusion Distillation for Efficient Weather Ensembles",
+    "abstract": "arXiv:2608.27728v1 Announce Type: new  Abstract: Diffusion models generate skillful weather ensembles but require costly iterative sampling. We introduce a supervised energy-distance distillation method that compresses a multi-step diffusion teacher into a single-step student by aligning student forecasts with teacher samples and ground-truth observations. Experiments on global forecasting and typhoon-track prediction show that our student outperforms existing distillation methods and preserves skill for extreme events. It matches or surpasses the teacher across key metrics using only one neural function evaluation per autoregressive step.",
+    "link": "https://arxiv.org/abs/2608.27728",
+    "context": "Title: Diffusion Distillation for Efficient Weather Ensembles\nAbstract: arXiv:2608.27728v1 Announce Type: new  Abstract: Diffusion models generate skillful weather ensembles but require costly iterative sampling. We introduce a supervised energy-distance distillation method that compresses a multi-step diffusion teacher into a single-step student by aligning student forecasts with teacher samples and ground-truth observations. Experiments on global forecasting and typhoon-track prediction show that our student outperforms existing distillation methods and preserves skill for extreme events. It matches or surpasses the teacher across key metrics using only one neural function evaluation per autoregressive step.",
+    "path": "papers/26/08/2608.27728.json",
+    "total_tokens": 904,
+    "translated_title": "用于高效天气集合预报的扩散蒸馏",
+    "translated_abstract": "扩散模型能够生成高质量的天气集合预报，但需要代价高昂的迭代采样。我们提出了一种有监督的能量距离蒸馏方法，通过将学生模型的预报与教师模型的样本以及真实观测进行对齐，将多步扩散教师模型压缩为单步学生模型。在全球天气预报和台风路径预测的实验中，我们的学生模型优于现有的蒸馏方法，并在极端事件中保持了预报能力。在每次自回归步骤仅需一次神经函数评估的情况下，该模型在关键指标上达到或超越了教师模型的水平。",
+    "tldr": "该论文提出一种有监督的能量距离蒸馏方法，将多步扩散天气集合预报模型压缩为单步学生模型，在每次自回归步骤仅需一次神经函数评估的情况下达到或超越教师模型性能，并在极端事件预报中保持预报能力。",
+    "en_tdlr": "This paper introduces a supervised energy-distance distillation method that compresses a multi-step diffusion weather ensemble model into a single-step student, matching or surpassing the teacher's performance with only one neural function evaluation per autoregressive step while preserving forecast skill for extreme events."
+}

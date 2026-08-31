@@ -1,0 +1,12 @@
+{
+    "title": "Informational Antilocality and the Locality Bias in LLMs",
+    "abstract": "arXiv:2608.27760v1 Announce Type: new  Abstract: We consider the ability of transformer-based language models (LLMs) to learn what we call k-antilocal languages, i.e., languages that have no mutual information across any span of $k$ contiguous symbols. We construct such languages with increasing $k$, finding that LLMs trained on them achieve comparable cross-entropy loss regardless of antilocality, but converge more slowly on more antilocal languages. Our findings support the idea that non-local dependencies are more difficult to learn, but the evidence for this bias comes from learning speed rather than learning success.",
+    "link": "https://arxiv.org/abs/2608.27760",
+    "context": "Title: Informational Antilocality and the Locality Bias in LLMs\nAbstract: arXiv:2608.27760v1 Announce Type: new  Abstract: We consider the ability of transformer-based language models (LLMs) to learn what we call k-antilocal languages, i.e., languages that have no mutual information across any span of $k$ contiguous symbols. We construct such languages with increasing $k$, finding that LLMs trained on them achieve comparable cross-entropy loss regardless of antilocality, but converge more slowly on more antilocal languages. Our findings support the idea that non-local dependencies are more difficult to learn, but the evidence for this bias comes from learning speed rather than learning success.",
+    "path": "papers/26/08/2608.27760.json",
+    "total_tokens": 884,
+    "translated_title": "信息反局部性与LLM中的局部性偏差",
+    "translated_abstract": "我们研究了基于Transformer的语言模型（LLM）学习我们称之为k-反局部语言的能力，即在任何k个连续符号的跨度上均不存在互信息的语言。我们构建了反局部性程度递增的此类语言，发现在其上训练的LLM无论反局部性程度如何都能达到相当的交叉熵损失，但在反局部性更强的语言上收敛速度更慢。我们的发现支持了非局部依赖更难学习的观点，但这一偏差的证据来自学习速度而非学习成败。",
+    "tldr": "LLM最终能够学会反局部语言并达到相当的损失水平，但在反局部性更强的语言上收敛更慢，表明局部性偏差体现在学习速度上而非学习能力上。",
+    "en_tdlr": "LLMs can ultimately learn k-antilocal languages with comparable loss, but converge more slowly on more antilocal languages, showing that the locality bias manifests in learning speed rather than learning success."
+}

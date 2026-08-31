@@ -1,0 +1,12 @@
+{
+    "title": "Iterative Distributed Multinomial Regression",
+    "abstract": "arXiv:2412.01030v2 Announce Type: replace  Abstract: This article introduces an iterative distributed computing estimator for the multinomial logistic regression model with large choice sets. Compared to the maximum likelihood estimator, the proposed iterative distributed estimator achieves significantly faster computation and, when initialized with a consistent estimator, attains asymptotic efficiency under a weak dominance condition. Additionally, we propose a parametric bootstrap inference procedure based on the iterative distributed estimator and establish its consistency. Extensive simulation studies validate the effectiveness of the proposed methods and highlight the computational efficiency of the iterative distributed estimator.",
+    "link": "https://arxiv.org/abs/2412.01030",
+    "context": "Title: Iterative Distributed Multinomial Regression\nAbstract: arXiv:2412.01030v2 Announce Type: replace  Abstract: This article introduces an iterative distributed computing estimator for the multinomial logistic regression model with large choice sets. Compared to the maximum likelihood estimator, the proposed iterative distributed estimator achieves significantly faster computation and, when initialized with a consistent estimator, attains asymptotic efficiency under a weak dominance condition. Additionally, we propose a parametric bootstrap inference procedure based on the iterative distributed estimator and establish its consistency. Extensive simulation studies validate the effectiveness of the proposed methods and highlight the computational efficiency of the iterative distributed estimator.",
+    "path": "papers/24/12/2412.01030.json",
+    "total_tokens": 861,
+    "translated_title": "迭代分布式多项式回归",
+    "translated_abstract": "本文介绍了一种针对具有大选择集的多项Logistic回归模型的迭代分布式计算估计器。与最大似然估计器相比，所提出的迭代分布式估计器实现了显著更快的计算速度，并且在用一致估计器初始化时，在弱占优条件下达到渐近有效性。此外，我们提出了一种基于迭代分布式估计器的参数自助法（bootstrap）推断程序，并建立了其一致性。大量的模拟研究验证了所提方法的有效性，并突出了迭代分布式估计器的计算效率。",
+    "tldr": "本文提出了一种针对大选择集多项Logistic回归的迭代分布式估计器，其计算速度显著快于最大似然估计且在弱占优条件下达到渐近有效性，并配套提出了一致性的参数自助法推断程序。",
+    "en_tdlr": "This paper proposes an iterative distributed estimator for multinomial logistic regression with large choice sets, which computes significantly faster than the maximum likelihood estimator while attaining asymptotic efficiency under a weak dominance condition, accompanied by a consistent parametric bootstrap inference procedure."
+}

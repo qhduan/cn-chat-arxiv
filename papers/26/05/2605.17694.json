@@ -1,0 +1,12 @@
+{
+    "title": "Do LLM Agents Mirror Socio-Cognitive Effects in Power-Asymmetric Conversations?",
+    "abstract": "arXiv:2605.17694v3 Announce Type: replace  Abstract: Power differences shape human communication through well documented socio cognitive effects, including language coordination, pronoun usage, authority bias, and harmful compliance. We examine whether large language models (LLMs) exhibit similar behaviors when assigned high or low status personas. Using personas from diverse professions, we simulate multi turn, power asymmetric dialogues (e.g., principal teacher, justice lawyer) and measure (i) language coordination, (ii) pronoun usage, (iii) persuasion success, and (iv) compliance with unsafe requests. Our results show that LLMs show key socio-cognitive effects of power, albeit with nuances and variability, linking simulated interactions to both desirable and unsafe behaviors.",
+    "link": "https://arxiv.org/abs/2605.17694",
+    "context": "Title: Do LLM Agents Mirror Socio-Cognitive Effects in Power-Asymmetric Conversations?\nAbstract: arXiv:2605.17694v3 Announce Type: replace  Abstract: Power differences shape human communication through well documented socio cognitive effects, including language coordination, pronoun usage, authority bias, and harmful compliance. We examine whether large language models (LLMs) exhibit similar behaviors when assigned high or low status personas. Using personas from diverse professions, we simulate multi turn, power asymmetric dialogues (e.g., principal teacher, justice lawyer) and measure (i) language coordination, (ii) pronoun usage, (iii) persuasion success, and (iv) compliance with unsafe requests. Our results show that LLMs show key socio-cognitive effects of power, albeit with nuances and variability, linking simulated interactions to both desirable and unsafe behaviors.",
+    "path": "papers/26/05/2605.17694.json",
+    "total_tokens": 842,
+    "translated_title": "LLM智能体能否在权力不对称对话中反映社会认知效应？",
+    "translated_abstract": "权力差异通过已被充分记录的社会认知效应塑造着人类交流，包括语言协调、代词使用、权威偏见和有害顺从。我们研究大型语言模型（LLM）在被赋予高地位或低地位角色设定时是否表现出类似行为。我们使用来自不同职业的角色设定，模拟多轮权力不对称对话（如校长-教师、法官-律师），并测量以下四个方面：语言协调、代词使用、说服成功率以及对不安全请求的顺从度。我们的结果表明，LLM表现出权力的关键社会认知效应，尽管存在细微差异和变异性，这将模拟互动与理想行为和不安全行为联系起来。",
+    "tldr": "研究发现LLM智能体在权力不对称对话中会展现出类似人类的社会认知效应（如语言协调、权威偏见），这既可能促成理想行为，也可能导致对不安全请求的顺从。",
+    "en_tdlr": "LLM agents exhibit human-like socio-cognitive effects of power in asymmetric conversations, such as language coordination and authority bias, linking simulated interactions to both desirable and unsafe behaviors."
+}

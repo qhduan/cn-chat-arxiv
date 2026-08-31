@@ -1,0 +1,12 @@
+{
+    "title": "A Deeper Analysis of Block-Sparse Featurizers",
+    "abstract": "arXiv:2608.27515v1 Announce Type: new  Abstract: The recently introduced block-sparse featurizer (BSF; Fel et al., 2026) is similar to a sparse autoencoder (SAE), but its atomic unit is a small subspace (a block of directions) rather than a single direction. It is designed for features that live on low-dimensional manifolds, which are especially frequent in vision. This work studies the BSF's strengths and weaknesses, finding how it still somewhat suffers from classic SAE failure modes, like feature splitting and composition. We propose several architectural changes to the BSF, including a Tournament Top-K selection rule that significantly reduces feature splitting, and we also extend the block paradigm to the crosscoder.",
+    "link": "https://arxiv.org/abs/2608.27515",
+    "context": "Title: A Deeper Analysis of Block-Sparse Featurizers\nAbstract: arXiv:2608.27515v1 Announce Type: new  Abstract: The recently introduced block-sparse featurizer (BSF; Fel et al., 2026) is similar to a sparse autoencoder (SAE), but its atomic unit is a small subspace (a block of directions) rather than a single direction. It is designed for features that live on low-dimensional manifolds, which are especially frequent in vision. This work studies the BSF's strengths and weaknesses, finding how it still somewhat suffers from classic SAE failure modes, like feature splitting and composition. We propose several architectural changes to the BSF, including a Tournament Top-K selection rule that significantly reduces feature splitting, and we also extend the block paradigm to the crosscoder.",
+    "path": "papers/26/08/2608.27515.json",
+    "total_tokens": 976,
+    "translated_title": "块稀疏特征化器的深入分析",
+    "translated_abstract": "最近提出的块稀疏特征化器（BSF；Fel et al., 2026）类似于稀疏自编码器（SAE），但其原子单元是一个小子空间（一组方向的块）而非单一方向。它专为存在于低维流形上的特征而设计，这类特征在视觉领域尤为常见。本工作研究了BSF的优势与不足，发现它仍然在一定程度上受到经典SAE失效模式的影响，例如特征分裂与特征组合。我们提出了对BSF的若干架构改进，包括一种能显著减少特征分裂的锦标赛Top-K选择规则，并且我们还将块范式扩展到了交叉编码器。",
+    "tldr": "本文深入分析了块稀疏特征化器（BSF）的优缺点，提出包括锦标赛Top-K选择规则在内的多项架构改进以显著减少特征分裂，并将块范式扩展到了交叉编码器。",
+    "en_tdlr": "This paper deeply analyzes the strengths and weaknesses of block-sparse featurizers (BSF), proposes architectural improvements including a Tournament Top-K selection rule that significantly reduces feature splitting, and extends the block paradigm to crosscoders."
+}
