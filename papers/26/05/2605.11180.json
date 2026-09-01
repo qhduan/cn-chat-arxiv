@@ -1,0 +1,12 @@
+{
+    "title": "The Value of Information: A Puzzle",
+    "abstract": "arXiv:2605.11180v2 Announce Type: replace-cross  Abstract: We show that the total value of information to informed traders can be measured by the covariation between price changes and order flow. This covariation captures noise trader losses, which equal informed trader gains when market making is competitive. We estimate the value of information using high frequency data on US equities at $3.5 million per year. The aggregate value of information is 0.04% of market cap, considerably lower than the 0.67% in fees investors pay searching for superior returns according to French (2008), which we extend through 2024. We discuss potential resolutions for these puzzling findings.",
+    "link": "https://arxiv.org/abs/2605.11180",
+    "context": "Title: The Value of Information: A Puzzle\nAbstract: arXiv:2605.11180v2 Announce Type: replace-cross  Abstract: We show that the total value of information to informed traders can be measured by the covariation between price changes and order flow. This covariation captures noise trader losses, which equal informed trader gains when market making is competitive. We estimate the value of information using high frequency data on US equities at $3.5 million per year. The aggregate value of information is 0.04% of market cap, considerably lower than the 0.67% in fees investors pay searching for superior returns according to French (2008), which we extend through 2024. We discuss potential resolutions for these puzzling findings.",
+    "path": "papers/26/05/2605.11180.json",
+    "total_tokens": 1032,
+    "translated_title": "信息的价值：一个谜题",
+    "translated_abstract": "我们证明，知情交易者所获得的信息总价值可以通过价格变动与订单流之间的协变关系来衡量。这种协变关系反映了噪声交易者的损失，而在做市具有竞争性的条件下，噪声交易者的损失等于知情交易者的收益。我们利用美国股票的高频数据估计了信息的价值，约为每年350万美元。信息的总价值占市值的0.04%，远低于投资者为寻求超额收益所支付的费用比例——根据French (2008)的研究（我们将其数据更新扩展至2024年），这一比例为0.67%。我们讨论了针对这一令人费解的发现的可能解释。",
+    "tldr": "该论文提出用价格变动与订单流的协变关系来衡量信息的价值，发现美国股市信息总价值仅占市值的0.04%，远低于投资者为追求超额收益所支付的0.67%费用，构成一个待解谜题。",
+    "en_tdlr": "This paper shows that the value of information can be measured by the covariation between price changes and order flow, and finds that the aggregate value of information in US equities is only 0.04% of market cap—far below the 0.67% investors pay in fees seeking superior returns—posing a puzzling gap."
+}

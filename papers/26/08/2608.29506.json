@@ -1,0 +1,12 @@
+{
+    "title": "Pure Risk",
+    "abstract": "arXiv:2608.29506v1 Announce Type: new  Abstract: We introduce a behavioral notion of domain-specific risk aversion that separates attitudes toward risk from deterministic utility: an agent is more pure risk averse in one domain than in another if, for prizes that are indifferent under certainty, he is more averse to risk in the former domain than in the latter. We develop a model that goes beyond expected utility by allowing risk attitudes to vary across domains, while preserving expected utility within each domain. The domains are subjective and need not be specified in advance; they are identified from choice behavior. We establish uniqueness of the model's parameters and provide an axiomatic characterization.",
+    "link": "https://arxiv.org/abs/2608.29506",
+    "context": "Title: Pure Risk\nAbstract: arXiv:2608.29506v1 Announce Type: new  Abstract: We introduce a behavioral notion of domain-specific risk aversion that separates attitudes toward risk from deterministic utility: an agent is more pure risk averse in one domain than in another if, for prizes that are indifferent under certainty, he is more averse to risk in the former domain than in the latter. We develop a model that goes beyond expected utility by allowing risk attitudes to vary across domains, while preserving expected utility within each domain. The domains are subjective and need not be specified in advance; they are identified from choice behavior. We establish uniqueness of the model's parameters and provide an axiomatic characterization.",
+    "path": "papers/26/08/2608.29506.json",
+    "total_tokens": 932,
+    "translated_title": "纯粹风险",
+    "translated_abstract": "我们引入了一种行为意义上的领域特定风险厌恶概念，将风险态度与确定性效用分离开来：如果在确定性下无差异的奖品之间，某个决策者在一个领域中比在另一个领域中更厌恶风险，那么他在前一个领域中就比在后一个领域中更具有纯粹风险厌恶。我们开发了一个超越期望效用理论的模型，允许风险态度在不同领域之间变化，同时在每个领域内部保持期望效用。这些领域是主观的，无需事先指定；它们可以从选择行为中被识别出来。我们建立了模型参数的唯一性，并提供了公理化刻画。",
+    "tldr": "该论文提出了“纯粹风险厌恶”这一行为概念，将风险态度与确定性效用分离，构建了一个允许风险态度跨主观领域变化、但领域内保持期望效用的决策模型，并从选择行为中识别领域、证明参数唯一性并给出公理化刻画。",
+    "en_tdlr": "This paper introduces a behavioral notion of \"pure risk aversion\" that separates risk attitudes from deterministic utility, develops a model allowing risk attitudes to vary across subjective domains identified from choice behavior while preserving expected utility within each domain, and establishes parameter uniqueness with an axiomatic characterization."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Explanations, Prompts, and Formalizations: Arguments for New Norms in LLM-Enabled Mathematical Research",
+    "abstract": "arXiv:2608.29401v1 Announce Type: cross  Abstract: As several mathematical conjectures have recently been settled using large language models (LLMs), the mathematical community has formulated norms and recommendations regarding the publishing of such results. These norms do not cover the disclosure of the prompts and precise software setup used to obtain those results, nor do they require that results be formalized in a manner that allows for machine verification. I argue that both of these are essential. In addition, since LLM-obtained results may be hard to understand, human authors have the responsibility to invent intuitive explanations.",
+    "link": "https://arxiv.org/abs/2608.29401",
+    "context": "Title: Explanations, Prompts, and Formalizations: Arguments for New Norms in LLM-Enabled Mathematical Research\nAbstract: arXiv:2608.29401v1 Announce Type: cross  Abstract: As several mathematical conjectures have recently been settled using large language models (LLMs), the mathematical community has formulated norms and recommendations regarding the publishing of such results. These norms do not cover the disclosure of the prompts and precise software setup used to obtain those results, nor do they require that results be formalized in a manner that allows for machine verification. I argue that both of these are essential. In addition, since LLM-obtained results may be hard to understand, human authors have the responsibility to invent intuitive explanations.",
+    "path": "papers/26/08/2608.29401.json",
+    "total_tokens": 838,
+    "translated_title": "解释、提示词与形式化：关于LLM赋能数学研究新规范的论证",
+    "translated_abstract": "随着最近若干数学猜想借助大语言模型（LLM）得到解决，数学界已针对此类结果的发表制定了规范和建议。然而，这些规范并未涵盖披露用于获得这些结果的提示词及精确的软件设置，也没有要求将结果形式化为可进行机器验证的形式。我认为这两点都至关重要。此外，由于LLM获得的结果可能难以理解，人类作者有责任提出直观的解释。",
+    "tldr": "该论文主张，LLM辅助数学研究的新规范应要求披露提示词与软件设置、对结果进行可机器验证的形式化，并由人类作者提供直观解释。",
+    "en_tdlr": "This paper argues that new norms for LLM-enabled mathematical research should require disclosure of prompts and software setups, machine-verifiable formalization of results, and intuitive explanations from human authors."
+}

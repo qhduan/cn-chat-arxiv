@@ -1,0 +1,12 @@
+{
+    "title": "Understanding Deep Learning via Entropy Space Theory",
+    "abstract": "arXiv:2608.29279v1 Announce Type: new  Abstract: Deep learning is often criticized for its theoretical research lagging behind practice. To make deep learning easier to understand, the entropy space theory is first introduced here. The entropy space can cover all the possibilities of any deep learning model by topological structure. It is independent of network parameters. Through the designed fundamental operations and norm, entropy space is proven to be a normed space within the formal axiomatic framework. Based on the theory, a unified coordinate system is proposed. It can coordinatize every state of a model and rank them by compression of the maximal value of information entropy. The theory offers a novel priori framework for mathematical fundamentals of deep learning.",
+    "link": "https://arxiv.org/abs/2608.29279",
+    "context": "Title: Understanding Deep Learning via Entropy Space Theory\nAbstract: arXiv:2608.29279v1 Announce Type: new  Abstract: Deep learning is often criticized for its theoretical research lagging behind practice. To make deep learning easier to understand, the entropy space theory is first introduced here. The entropy space can cover all the possibilities of any deep learning model by topological structure. It is independent of network parameters. Through the designed fundamental operations and norm, entropy space is proven to be a normed space within the formal axiomatic framework. Based on the theory, a unified coordinate system is proposed. It can coordinatize every state of a model and rank them by compression of the maximal value of information entropy. The theory offers a novel priori framework for mathematical fundamentals of deep learning.",
+    "path": "papers/26/08/2608.29279.json",
+    "total_tokens": 953,
+    "translated_title": "基于熵空间理论理解深度学习",
+    "translated_abstract": "深度学习常因其理论研究滞后于实践而受到批评。为了让深度学习更易于理解，本文首次引入了熵空间理论。熵空间能够通过拓扑结构涵盖任何深度学习模型的所有可能性，并且独立于网络参数。通过所设计的基本运算和范数，熵空间在形式化公理框架内被证明是一个赋范空间。基于该理论，本文提出了一个统一的坐标系，可以对模型的每一个状态进行坐标化，并通过对信息熵最大值的压缩对它们进行排序。该理论为深度学习的数学基础提供了一个新颖的先验框架。",
+    "tldr": "本文首次提出熵空间理论，证明其为赋范空间并构建统一坐标系以刻画深度学习模型的所有状态，为深度学习的数学基础提供了独立于网络参数的先验理论框架。",
+    "en_tdlr": "This paper introduces entropy space theory for the first time, proves it to be a normed space, and establishes a unified coordinate system to characterize all states of deep learning models, offering a novel a priori framework for the mathematical foundations of deep learning."
+}

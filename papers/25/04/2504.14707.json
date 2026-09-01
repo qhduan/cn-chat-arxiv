@@ -1,0 +1,12 @@
+{
+    "title": "FLAME: A New Dataset on FLemish Accounts of Momentary Experiences",
+    "abstract": "arXiv:2504.14707v4 Announce Type: replace  Abstract: We introduce FLAME (FLemish Accounts of Momentary Experiences), a corpus of nearly 25,000 personal narratives in Belgian-Dutch (Flemish), collected through experience sampling to support Natural Language Processing (NLP) research on an underrepresented variety. Such everyday narratives are rich in culturally grounded themes, but their informal register and low-resource setting make thematic extraction hard. Comparing K-Means, LDA, and BERTopic, we find that human evaluation favors BERTopic, which produces the most coherent, culturally resonant topics. FLAME, thereby, offers a new resource for studying everyday language use in a low-resource variety.",
+    "link": "https://arxiv.org/abs/2504.14707",
+    "context": "Title: FLAME: A New Dataset on FLemish Accounts of Momentary Experiences\nAbstract: arXiv:2504.14707v4 Announce Type: replace  Abstract: We introduce FLAME (FLemish Accounts of Momentary Experiences), a corpus of nearly 25,000 personal narratives in Belgian-Dutch (Flemish), collected through experience sampling to support Natural Language Processing (NLP) research on an underrepresented variety. Such everyday narratives are rich in culturally grounded themes, but their informal register and low-resource setting make thematic extraction hard. Comparing K-Means, LDA, and BERTopic, we find that human evaluation favors BERTopic, which produces the most coherent, culturally resonant topics. FLAME, thereby, offers a new resource for studying everyday language use in a low-resource variety.",
+    "path": "papers/25/04/2504.14707.json",
+    "total_tokens": 1022,
+    "translated_title": "FLAME：一个关于佛兰德语即时体验叙述的新数据集",
+    "translated_abstract": "我们介绍了FLAME（佛兰德语即时体验叙述），这是一个包含近25,000篇比利时荷兰语（佛兰德语）个人叙事的语料库，通过经验取样法收集，旨在支持针对这一代表性不足的语言变体的自然语言处理（NLP）研究。这类日常叙事富含扎根于文化的主题，但其非正式的语域和低资源环境使得主题提取变得困难。通过比较K-Means、LDA和BERTopic三种方法，我们发现人类评估更青睐BERTopic，它生成了最连贯、最具文化共鸣的主题。因此，FLAME为研究低资源语言变体中的日常语言使用提供了新的资源。",
+    "tldr": "FLAME是一个包含近25,000篇佛兰德语个人叙事的新语料库，通过经验取样法收集，为低资源语言变体的日常语言研究提供了新资源，且BERTopic在该数据集的主题提取任务中表现最佳。",
+    "en_tdlr": "FLAME is a new corpus of nearly 25,000 Flemish personal narratives collected through experience sampling, offering a new resource for studying everyday language use in a low-resource variety, with BERTopic producing the most coherent and culturally resonant topics."
+}

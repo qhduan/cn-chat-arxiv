@@ -1,0 +1,12 @@
+{
+    "title": "TSExplorer: An interactive data annotation and exploration tool for time-series data",
+    "abstract": "arXiv:2608.30514v1 Announce Type: cross  Abstract: We present TSExplorer, a cross-platform tool for interactive annotation and exploration of time-series data. The tool enables users to inspect high-dimensional datasets through multiple complementary 2D visualizations derived from high-dimensional feature representations. TSExplorer is designed as a general-purpose research tool supporting a wide range of workflows, including exploratory data analysis, annotation of unlabeled or partially-labeled datasets, comparison of feature representations, and post-hoc inspection and refinement of existing labels with interactive visual feedback.",
+    "link": "https://arxiv.org/abs/2608.30514",
+    "context": "Title: TSExplorer: An interactive data annotation and exploration tool for time-series data\nAbstract: arXiv:2608.30514v1 Announce Type: cross  Abstract: We present TSExplorer, a cross-platform tool for interactive annotation and exploration of time-series data. The tool enables users to inspect high-dimensional datasets through multiple complementary 2D visualizations derived from high-dimensional feature representations. TSExplorer is designed as a general-purpose research tool supporting a wide range of workflows, including exploratory data analysis, annotation of unlabeled or partially-labeled datasets, comparison of feature representations, and post-hoc inspection and refinement of existing labels with interactive visual feedback.",
+    "path": "papers/26/08/2608.30514.json",
+    "total_tokens": 856,
+    "translated_title": "TSExplorer：一个用于时间序列数据的交互式数据标注与探索工具",
+    "translated_abstract": "我们提出了TSExplorer，一个用于时间序列数据交互式标注与探索的跨平台工具。该工具使用户能够通过由高维特征表示派生的多个互补的二维可视化来检查高维数据集。TSExplorer被设计为一个通用研究工具，支持广泛的工作流程，包括探索性数据分析、对无标签或部分标注数据集的标注、特征表示的比较，以及借助交互式视觉反馈对现有标签进行事后检查与完善。",
+    "tldr": "TSExplorer是一个跨平台的时间序列数据交互式标注与探索工具，通过多种互补的二维可视化帮助用户检查高维数据集，支持探索性数据分析、数据标注、特征表示比较及标签完善等多种研究工作流程。",
+    "en_tdlr": "TSExplorer is a cross-platform interactive tool for annotating and exploring time-series data, enabling users to inspect high-dimensional datasets through multiple complementary 2D visualizations while supporting diverse workflows including exploratory analysis, annotation, feature comparison, and label refinement."
+}

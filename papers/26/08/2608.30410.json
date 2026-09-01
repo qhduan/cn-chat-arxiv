@@ -1,0 +1,12 @@
+{
+    "title": "SePArate: Segmenting Patterns from Defects in Wafer Manufacturing Using Weak Supervision",
+    "abstract": "arXiv:2608.30410v1 Announce Type: cross  Abstract: In semiconductor manufacturing, defect analysis is essential, but manual inspection cannot scale. However, existing automated inspection methods remain insufficient for root-cause analysis and process optimization. To this end, we present SePArate, a weakly supervised wafer defect segmentation method. SePArate enables pixel-level separation of patterns by leveraging only image-level annotations. It consists of a three-phase training: encoder pretraining, knowledge transfer to learn spatial cues, and training on synthetic mixed-defect data for accurate segmentation. Experiments demonstrate that SePArate outperforms the baselines.",
+    "link": "https://arxiv.org/abs/2608.30410",
+    "context": "Title: SePArate: Segmenting Patterns from Defects in Wafer Manufacturing Using Weak Supervision\nAbstract: arXiv:2608.30410v1 Announce Type: cross  Abstract: In semiconductor manufacturing, defect analysis is essential, but manual inspection cannot scale. However, existing automated inspection methods remain insufficient for root-cause analysis and process optimization. To this end, we present SePArate, a weakly supervised wafer defect segmentation method. SePArate enables pixel-level separation of patterns by leveraging only image-level annotations. It consists of a three-phase training: encoder pretraining, knowledge transfer to learn spatial cues, and training on synthetic mixed-defect data for accurate segmentation. Experiments demonstrate that SePArate outperforms the baselines.",
+    "path": "papers/26/08/2608.30410.json",
+    "total_tokens": 937,
+    "translated_title": "SePArate：利用弱监督从晶圆制造缺陷中分割图案",
+    "translated_abstract": "在半导体制造中，缺陷分析至关重要，但人工检测无法规模化。然而，现有的自动化检测方法在根因分析和工艺优化方面仍然不足。为此，我们提出了SePArate，一种弱监督的晶圆缺陷分割方法。SePArate仅利用图像级标注即可实现像素级的图案分离。该方法由三个阶段的训练组成：编码器预训练、通过知识迁移学习空间线索，以及在合成的混合缺陷数据上进行训练以实现精确分割。实验表明，SePArate的性能优于基线方法。",
+    "tldr": "SePArate是一种弱监督的晶圆缺陷分割方法，仅需图像级标注即可通过编码器预训练、知识迁移和合成混合缺陷数据三阶段训练实现像素级的缺陷图案分离，性能超越现有基线方法。",
+    "en_tdlr": "SePArate is a weakly supervised wafer defect segmentation method that achieves pixel-level pattern separation using only image-level annotations through a three-phase training pipeline, outperforming existing baselines."
+}

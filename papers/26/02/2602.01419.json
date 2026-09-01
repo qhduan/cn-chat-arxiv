@@ -1,0 +1,12 @@
+{
+    "title": "Semi-supervised CAPP Transformer Learning via Pseudo-labeling",
+    "abstract": "arXiv:2602.01419v2 Announce Type: replace-cross  Abstract: High-level Computer-Aided Process Planning (CAPP) generates manufacturing process plans from part specifications. It suffers from limited dataset availability in industry, reducing model generalization. We propose a semi-supervised learning approach to improve transformer-based CAPP transformer models without manual labeling. An oracle, trained on available transformer behaviour data, filters correct predictions from unseen parts, which are then used for one-shot retraining. Experiments on small-scale datasets with simulated ground truth across the full data distribution show consistent accuracy gains over baselines, demonstrating the method's effectiveness in data-scarce manufacturing environments.",
+    "link": "https://arxiv.org/abs/2602.01419",
+    "context": "Title: Semi-supervised CAPP Transformer Learning via Pseudo-labeling\nAbstract: arXiv:2602.01419v2 Announce Type: replace-cross  Abstract: High-level Computer-Aided Process Planning (CAPP) generates manufacturing process plans from part specifications. It suffers from limited dataset availability in industry, reducing model generalization. We propose a semi-supervised learning approach to improve transformer-based CAPP transformer models without manual labeling. An oracle, trained on available transformer behaviour data, filters correct predictions from unseen parts, which are then used for one-shot retraining. Experiments on small-scale datasets with simulated ground truth across the full data distribution show consistent accuracy gains over baselines, demonstrating the method's effectiveness in data-scarce manufacturing environments.",
+    "path": "papers/26/02/2602.01419.json",
+    "total_tokens": 962,
+    "translated_title": "基于伪标签的半监督CAPP Transformer学习",
+    "translated_abstract": "高层计算机辅助工艺规划（CAPP）根据零件规格生成制造工艺方案。该领域在工业中面临数据集可用性有限的问题，降低了模型的泛化能力。我们提出了一种半监督学习方法，无需人工标注即可改进基于Transformer的CAPP模型。一个在现有Transformer行为数据上训练的预言机（oracle）从未见过的零件中筛选出正确的预测结果，随后将其用于一次性重训练。在具有覆盖完整数据分布的模拟真实标签的小规模数据集上的实验表明，该方法相比基线模型获得了一致的准确率提升，证明了该方法在数据稀缺的制造环境中的有效性。",
+    "tldr": "提出一种基于伪标签的半监督学习方法，利用预言机从未标注零件中筛选正确预测并进行一次性重训练，无需人工标注即可提升CAPP Transformer模型在数据稀缺制造环境中的准确率。",
+    "en_tdlr": "Proposes a semi-supervised pseudo-labeling approach where an oracle filters correct predictions on unseen parts for one-shot retraining, improving CAPP transformer accuracy without manual labeling in data-scarce manufacturing environments."
+}

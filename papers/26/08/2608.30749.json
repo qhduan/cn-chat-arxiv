@@ -1,0 +1,12 @@
+{
+    "title": "Importance Sampling Enhanced with the COS Method for the Portfolio Risk Allocation",
+    "abstract": "arXiv:2608.30749v1 Announce Type: new  Abstract: We introduce ISCOS, a cross-entropy importance-sampling calibration method for rare credit-portfolio losses. We derive Gaussian and Gaussian--inverse-Gamma proposals and analyse the propagation of finite-COS approximation errors to the fitted parameters. Numerical experiments for Gaussian and Student t-copula credit portfolios show the efficiency of this method.",
+    "link": "https://arxiv.org/abs/2608.30749",
+    "context": "Title: Importance Sampling Enhanced with the COS Method for the Portfolio Risk Allocation\nAbstract: arXiv:2608.30749v1 Announce Type: new  Abstract: We introduce ISCOS, a cross-entropy importance-sampling calibration method for rare credit-portfolio losses. We derive Gaussian and Gaussian--inverse-Gamma proposals and analyse the propagation of finite-COS approximation errors to the fitted parameters. Numerical experiments for Gaussian and Student t-copula credit portfolios show the efficiency of this method.",
+    "path": "papers/26/08/2608.30749.json",
+    "total_tokens": 710,
+    "translated_title": "基于COS方法增强的重要性抽样在投资组合风险分配中的应用",
+    "translated_abstract": "我们提出了ISCOS，一种针对稀有信用投资组合损失的交叉熵重要性抽样校准方法。我们推导了高斯分布和高斯-逆伽马分布的建议分布，并分析了有限COS近似误差向拟合参数的传播过程。针对高斯Copula和Student t-Copula信用投资组合的数值实验证明了该方法的高效性。",
+    "tldr": "本文提出了一种结合COS方法的交叉熵重要性抽样校准方法ISCOS，通过推导高斯及高斯-逆伽马建议分布并分析近似误差传播，实现了对稀有信用投资组合损失的高效估计。",
+    "en_tdlr": "This paper introduces ISCOS, a cross-entropy importance-sampling calibration method enhanced with the COS method, which efficiently estimates rare credit-portfolio losses by deriving Gaussian and Gaussian-inverse-Gamma proposals and analyzing the propagation of finite-COS approximation errors."
+}

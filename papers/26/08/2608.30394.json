@@ -1,0 +1,12 @@
+{
+    "title": "TopGQ: Fast GNN Post-Training Quantization Leveraging Topology Information",
+    "abstract": "arXiv:2608.30394v1 Announce Type: cross  Abstract: Existing GNN quantization methods suffer from considerable quantization overhead, which severely limits their practical usage in real-world scenarios. To this end, we present TopGQ, an accurate post-training GNN quantization framework, alleviating redundant quantization overhead. We propose dual-axis scale absorption, which enables activation quantization along both the outer and inner dimensions by merging one into the adjacency matrix. On top of that, we introduce TopPIN, a proxy for nodes' local structure, and use it to group nodes with similar topology during quantization. Experimental results show that TopGQ reduces quantization time by an order of magnitude while preserving accuracy.",
+    "link": "https://arxiv.org/abs/2608.30394",
+    "context": "Title: TopGQ: Fast GNN Post-Training Quantization Leveraging Topology Information\nAbstract: arXiv:2608.30394v1 Announce Type: cross  Abstract: Existing GNN quantization methods suffer from considerable quantization overhead, which severely limits their practical usage in real-world scenarios. To this end, we present TopGQ, an accurate post-training GNN quantization framework, alleviating redundant quantization overhead. We propose dual-axis scale absorption, which enables activation quantization along both the outer and inner dimensions by merging one into the adjacency matrix. On top of that, we introduce TopPIN, a proxy for nodes' local structure, and use it to group nodes with similar topology during quantization. Experimental results show that TopGQ reduces quantization time by an order of magnitude while preserving accuracy.",
+    "path": "papers/26/08/2608.30394.json",
+    "total_tokens": 974,
+    "translated_title": "TopGQ：利用拓扑信息的快速GNN训练后量化框架",
+    "translated_abstract": "现有的GNN量化方法存在相当大的量化开销，这严重限制了它们在现实场景中的实际应用。为此，我们提出了TopGQ，一个精确的GNN训练后量化框架，可减少冗余的量化开销。我们提出了双轴尺度吸收方法，通过将其中的一个维度合并到邻接矩阵中，实现沿外维度和内维度两个方向的激活量化。在此基础上，我们引入了TopPIN，一种节点局部结构的代理指标，并在量化过程中利用它对具有相似拓扑结构的节点进行分组。实验结果表明，TopGQ在保持精度的同时，将量化时间减少了一个数量级。",
+    "tldr": "TopGQ通过双轴尺度吸收技术和基于节点局部结构的拓扑分组方法（TopPIN），实现了快速且精确的GNN训练后量化，在保持精度的同时将量化时间减少了一个数量级。",
+    "en_tdlr": "TopGQ is a fast and accurate post-training GNN quantization framework that leverages dual-axis scale absorption and topology-aware node grouping (TopPIN) to reduce quantization time by an order of magnitude while preserving accuracy."
+}

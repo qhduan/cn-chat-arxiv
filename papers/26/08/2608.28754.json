@@ -1,0 +1,12 @@
+{
+    "title": "Peer Oversight in Collective Decision Making",
+    "abstract": "arXiv:2608.28754v1 Announce Type: cross  Abstract: This article introduces peer $k$-oversight, a property of sequential collective decision mechanisms requiring at least $k$ agents to be responsible for every harmful outcome. It is shown that whenever $k$-oversight can be achieved by redistributing control over the decisions in a mechanism, it can be achieved using just $k$ agents. A polynomial-time algorithm is also presented that determines whether such a redistribution exists and, when it does, constructs one. These results establish peer oversight as a tractable design principle for multiagent decision-making systems.",
+    "link": "https://arxiv.org/abs/2608.28754",
+    "context": "Title: Peer Oversight in Collective Decision Making\nAbstract: arXiv:2608.28754v1 Announce Type: cross  Abstract: This article introduces peer $k$-oversight, a property of sequential collective decision mechanisms requiring at least $k$ agents to be responsible for every harmful outcome. It is shown that whenever $k$-oversight can be achieved by redistributing control over the decisions in a mechanism, it can be achieved using just $k$ agents. A polynomial-time algorithm is also presented that determines whether such a redistribution exists and, when it does, constructs one. These results establish peer oversight as a tractable design principle for multiagent decision-making systems.",
+    "path": "papers/26/08/2608.28754.json",
+    "total_tokens": 959,
+    "translated_title": "集体决策中的同伴监督",
+    "translated_abstract": "本文提出了“同伴k-监督”这一概念，它是序贯集体决策机制的一种性质，要求每个有害结果至少由k个智能体负责。研究表明，只要k-监督可以通过重新分配机制中对决策的控制权来实现，那么它就可以仅由k个智能体来实现。文章还提出了一种多项式时间算法，用于判断这样的重新分配方案是否存在，并在存在时构造出该方案。这些结果确立了同伴监督作为多智能体决策系统的一个可行设计原则。",
+    "tldr": "本文提出“同伴k-监督”概念，要求集体决策中每个有害结果至少由k个智能体负责，证明了该性质可通过仅k个智能体实现，并给出判断和构造控制权重新分配的多项式时间算法，从而确立了同伴监督作为多智能体决策系统的可行设计原则。",
+    "en_tdlr": "This paper introduces peer k-oversight—requiring at least k agents to be responsible for every harmful outcome in sequential collective decision mechanisms—and proves that whenever it can be achieved by redistributing control, it can be achieved with just k agents, supported by a polynomial-time algorithm that determines and constructs such redistributions, establishing peer oversight as a tractable design principle for multiagent decision-making systems."
+}

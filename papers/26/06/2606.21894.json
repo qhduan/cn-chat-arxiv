@@ -1,0 +1,12 @@
+{
+    "title": "Skills for the future software profession: beyond agentic AI!",
+    "abstract": "arXiv:2606.21894v3 Announce Type: replace-cross  Abstract: As coding agents are rapidly changing software engineering, a natural question is: what are the core skills needed by future software engineers? To identify where software engineering is headed and thus what skills will be needed, we summarize the results of two round-tables with researchers and industrial practitioners, held in 2026 in New York and Singapore. One key finding is that verification and validation is increasing in importance as agents handle implementation, as highlighted by anecdotes from the events. From our observations, we identify the skills developers need in the agentic era of development, with implications for training and educating future software engineers in coming years.",
+    "link": "https://arxiv.org/abs/2606.21894",
+    "context": "Title: Skills for the future software profession: beyond agentic AI!\nAbstract: arXiv:2606.21894v3 Announce Type: replace-cross  Abstract: As coding agents are rapidly changing software engineering, a natural question is: what are the core skills needed by future software engineers? To identify where software engineering is headed and thus what skills will be needed, we summarize the results of two round-tables with researchers and industrial practitioners, held in 2026 in New York and Singapore. One key finding is that verification and validation is increasing in importance as agents handle implementation, as highlighted by anecdotes from the events. From our observations, we identify the skills developers need in the agentic era of development, with implications for training and educating future software engineers in coming years.",
+    "path": "papers/26/06/2606.21894.json",
+    "total_tokens": 909,
+    "translated_title": "未来软件职业所需的技能：超越智能体AI！",
+    "translated_abstract": "随着编码智能体迅速改变软件工程，一个自然的问题是：未来的软件工程师需要哪些核心技能？为了确定软件工程的发展方向以及因此需要哪些技能，我们总结了2026年在纽约和新加坡举行的两次研究者与工业界从业者圆桌会议的结果。一个关键发现是，随着智能体承担代码实现工作，验证与确认的重要性日益提升，会议中的诸多实例突显了这一点。基于我们的观察，我们识别出开发者在智能体开发时代所需的技能，这对未来几年培养和教育软件工程师具有重要意义。",
+    "tldr": "该论文通过2026年在纽约和新加坡举办的两场专家圆桌会议，总结了智能体AI时代软件工程师所需的核心技能，并指出随着智能体承担代码实现工作，验证与确认能力将变得愈发重要。",
+    "en_tdlr": "Based on two round-tables with researchers and practitioners held in 2026, this paper identifies the core skills future software engineers need in the agentic AI era, highlighting that verification and validation will become increasingly important as agents take over implementation."
+}

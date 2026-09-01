@@ -1,0 +1,12 @@
+{
+    "title": "Can We Change the Stroke Size for Easier Diffusion?",
+    "abstract": "arXiv:2603.26783v3 Announce Type: replace-cross  Abstract: Diffusion models can be challenged in the low signal-to-noise regime, where they have to make pixel-level predictions despite the presence of high noise. The geometric intuition is akin to using the finest stroke for oil painting throughout, which may be ineffective. We therefore study \\emph{stroke-size control} as a controlled intervention that changes the roughness of the supervised target, predictions and perturbations across timesteps, in an attempt to ease the low signal-to-noise challenge via prediction target simplification.",
+    "link": "https://arxiv.org/abs/2603.26783",
+    "context": "Title: Can We Change the Stroke Size for Easier Diffusion?\nAbstract: arXiv:2603.26783v3 Announce Type: replace-cross  Abstract: Diffusion models can be challenged in the low signal-to-noise regime, where they have to make pixel-level predictions despite the presence of high noise. The geometric intuition is akin to using the finest stroke for oil painting throughout, which may be ineffective. We therefore study \\emph{stroke-size control} as a controlled intervention that changes the roughness of the supervised target, predictions and perturbations across timesteps, in an attempt to ease the low signal-to-noise challenge via prediction target simplification.",
+    "path": "papers/26/03/2603.26783.json",
+    "total_tokens": 842,
+    "translated_title": "我们能否通过改变笔画大小来简化扩散过程？",
+    "translated_abstract": "扩散模型在低信噪比区间可能面临挑战，此时它们必须在存在高噪声的情况下进行像素级预测。其几何直觉类似于在整个油画过程中始终使用最细的笔画，这可能效果不佳。因此，我们研究了“笔画大小控制”作为一种受控干预手段，它在不同时间步上改变监督目标、预测和扰动的粗糙度，试图通过简化预测目标来缓解低信噪比带来的挑战。",
+    "tldr": "该论文提出“笔画大小控制”方法，通过在不同时间步调整监督目标、预测和扰动的粗糙度来简化预测目标，从而缓解扩散模型在低信噪比情况下的预测挑战。",
+    "en_tdlr": "This paper proposes \"stroke-size control,\" a controlled intervention that adjusts the roughness of supervised targets, predictions, and perturbations across timesteps to simplify prediction targets and ease the low signal-to-noise challenge in diffusion models."
+}

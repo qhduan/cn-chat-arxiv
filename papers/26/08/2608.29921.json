@@ -1,0 +1,12 @@
+{
+    "title": "Sleight of Word Benchmark: Can Language Models Notice If Their Own Output Was Tampered With?",
+    "abstract": "arXiv:2608.29921v1 Announce Type: cross  Abstract: The output of a Language Model can be tampered with \\emph{while} the model is writing it. A simple test can thus be constructed by evaluating the model's perception of this external perturbation. In this spirit, a simple benchmark is built in which a single word is consistently substituted with another in the generation process. We call this method \\emph{Sleight of Word}. Two distinct axes are measured: metrics that relate to the model's surprise, as well as an evaluation of the textual reaction for 19 different open-weight language models.",
+    "link": "https://arxiv.org/abs/2608.29921",
+    "context": "Title: Sleight of Word Benchmark: Can Language Models Notice If Their Own Output Was Tampered With?\nAbstract: arXiv:2608.29921v1 Announce Type: cross  Abstract: The output of a Language Model can be tampered with \\emph{while} the model is writing it. A simple test can thus be constructed by evaluating the model's perception of this external perturbation. In this spirit, a simple benchmark is built in which a single word is consistently substituted with another in the generation process. We call this method \\emph{Sleight of Word}. Two distinct axes are measured: metrics that relate to the model's surprise, as well as an evaluation of the textual reaction for 19 different open-weight language models.",
+    "path": "papers/26/08/2608.29921.json",
+    "total_tokens": 953,
+    "translated_title": "文字戏法基准：语言模型能否察觉自己的输出被篡改？",
+    "translated_abstract": "语言模型的输出可以在模型正在生成的过程中被篡改。因此，可以通过评估模型对这种外部扰动的感知来构建一个简单的测试。本着这一思路，我们构建了一个简单的基准，在生成过程中将一个单词持续替换为另一个单词。我们将这种方法称为“文字戏法”。我们测量了两个不同的维度：与模型惊讶程度相关的指标，以及对19个不同的开源权重语言模型文本反应的评估。",
+    "tldr": "该论文提出了“文字戏法”基准，通过在生成过程中持续替换单词来测试语言模型能否察觉自身输出被篡改，并从惊讶度指标和文本反应两个维度评估了19个开源权重语言模型。",
+    "en_tdlr": "The paper introduces the Sleight of Word benchmark, which tests whether language models can notice their own output being tampered with by consistently substituting a single word during generation, evaluating 19 open-weight models through surprise metrics and textual reactions."
+}

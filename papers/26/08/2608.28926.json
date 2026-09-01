@@ -1,0 +1,12 @@
+{
+    "title": "Leveraging Turn-taking Dynamics for Intent Recognition in Multi-party Conversations",
+    "abstract": "arXiv:2608.28926v1 Announce Type: new  Abstract: We propose a multi-task learning approach for multi-party dialogue intent recognition that leverages an auxiliary task that models turn-taking dynamics. Specifically, we introduce turn-transition entropy, a self-supervised target computed from the sequence of speaker transitions, which quantifies the predictability of interaction patterns. Experiments on multiple pre-trained models demonstrate that incorporating this auxiliary task improves intent recognition performance, outperforming existing approaches which ignore multi-party interaction dynamics. We find that our proposed continuous target can be learned as a single-task objective, suggesting that it is an actual signal carrying useful information.",
+    "link": "https://arxiv.org/abs/2608.28926",
+    "context": "Title: Leveraging Turn-taking Dynamics for Intent Recognition in Multi-party Conversations\nAbstract: arXiv:2608.28926v1 Announce Type: new  Abstract: We propose a multi-task learning approach for multi-party dialogue intent recognition that leverages an auxiliary task that models turn-taking dynamics. Specifically, we introduce turn-transition entropy, a self-supervised target computed from the sequence of speaker transitions, which quantifies the predictability of interaction patterns. Experiments on multiple pre-trained models demonstrate that incorporating this auxiliary task improves intent recognition performance, outperforming existing approaches which ignore multi-party interaction dynamics. We find that our proposed continuous target can be learned as a single-task objective, suggesting that it is an actual signal carrying useful information.",
+    "path": "papers/26/08/2608.28926.json",
+    "total_tokens": 828,
+    "translated_title": "利用轮次转换动态进行多方对话中的意图识别",
+    "translated_abstract": "我们提出了一种用于多方对话意图识别的多任务学习方法，该方法利用了一个建模轮次转换动态的辅助任务。具体而言，我们引入了轮次转换熵，这是一种从说话人转换序列中计算得到的自监督目标，用于量化交互模式的可预测性。在多个预训练模型上的实验表明，加入这一辅助任务可以提高意图识别性能，优于忽略多方交互动态的现有方法。我们还发现，所提出的连续目标可以作为单任务目标进行学习，这表明它是一个确实携带有用信息的真实信号。",
+    "tldr": "提出将轮次转换熵作为辅助任务的多任务学习方法，通过建模多方对话中的轮次转换动态来显著提升意图识别性能。",
+    "en_tdlr": "A multi-task learning approach that introduces turn-transition entropy as an auxiliary task to model turn-taking dynamics, improving intent recognition performance in multi-party conversations."
+}

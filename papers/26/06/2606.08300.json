@@ -1,0 +1,12 @@
+{
+    "title": "QueryGraph: Reliable Multi-Tool Query Execution Planning via LLM-Based Graph Generation",
+    "abstract": "arXiv:2606.08300v2 Announce Type: replace  Abstract: Many real-world queries over personal data span multiple applications and require structured planning, as individual tools expose only partial information. While LLMs show strong reasoning and tool use, reliably executing multi-step, cross-tool queries remains challenging. We introduce a system that converts natural language queries into structured graphs and executes them via a deterministic planner. Our approach uses depth-first search to resolve dependencies and combine results across tools, improving reliability and enabling queries beyond traditional keyword-based search. We demonstrate high accuracy even with smaller or locally hosted LLMs.",
+    "link": "https://arxiv.org/abs/2606.08300",
+    "context": "Title: QueryGraph: Reliable Multi-Tool Query Execution Planning via LLM-Based Graph Generation\nAbstract: arXiv:2606.08300v2 Announce Type: replace  Abstract: Many real-world queries over personal data span multiple applications and require structured planning, as individual tools expose only partial information. While LLMs show strong reasoning and tool use, reliably executing multi-step, cross-tool queries remains challenging. We introduce a system that converts natural language queries into structured graphs and executes them via a deterministic planner. Our approach uses depth-first search to resolve dependencies and combine results across tools, improving reliability and enabling queries beyond traditional keyword-based search. We demonstrate high accuracy even with smaller or locally hosted LLMs.",
+    "path": "papers/26/06/2606.08300.json",
+    "total_tokens": 940,
+    "translated_title": "QueryGraph：通过基于大语言模型的图生成实现可靠的多工具查询执行规划",
+    "translated_abstract": "许多针对个人数据的真实世界查询跨越多个应用程序，需要进行结构化规划，因为单个工具只能提供部分信息。虽然大语言模型（LLM）展现出强大的推理和工具使用能力，但可靠地执行多步骤、跨工具的查询仍然具有挑战性。我们引入了一个系统，该系统将自然语言查询转换为结构化图，并通过确定性规划器执行。我们的方法使用深度优先搜索来解析依赖关系并组合跨工具的结果，提高了可靠性，并使查询能力超越传统的基于关键字的搜索。我们证明了即使使用较小或本地部署的大语言模型也能实现高准确率。",
+    "tldr": "该论文提出QueryGraph系统，将自然语言查询转换为结构化图并通过确定性规划器结合深度优先搜索执行，实现了可靠的跨工具多步骤查询，即使使用小型或本地部署的LLM也能达到高准确率。",
+    "en_tdlr": "The paper proposes QueryGraph, a system that converts natural language queries into structured graphs executed via a deterministic planner with depth-first search, achieving reliable multi-tool query execution with high accuracy even when using smaller or locally hosted LLMs."
+}

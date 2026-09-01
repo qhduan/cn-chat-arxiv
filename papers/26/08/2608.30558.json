@@ -1,0 +1,12 @@
+{
+    "title": "A note on markets with semi-static trading strategies",
+    "abstract": "arXiv:2608.30558v1 Announce Type: new  Abstract: We investigate arbitrage in a discrete-time financial market model where, in addition to finitely many dynamically traded assets, there are also static options to choose from. We introduce the concept of small cones of random variables and present a sufficient condition for the attainable positions in the market to be closed in probability.   A fundamental theorem of asset pricing is shown in the present context. Utility maximization will also be considered. We will provide economically meaningful examples of infinite dimensional small cones to demonstrate the pertinence of our approach.",
+    "link": "https://arxiv.org/abs/2608.30558",
+    "context": "Title: A note on markets with semi-static trading strategies\nAbstract: arXiv:2608.30558v1 Announce Type: new  Abstract: We investigate arbitrage in a discrete-time financial market model where, in addition to finitely many dynamically traded assets, there are also static options to choose from. We introduce the concept of small cones of random variables and present a sufficient condition for the attainable positions in the market to be closed in probability.   A fundamental theorem of asset pricing is shown in the present context. Utility maximization will also be considered. We will provide economically meaningful examples of infinite dimensional small cones to demonstrate the pertinence of our approach.",
+    "path": "papers/26/08/2608.30558.json",
+    "total_tokens": 872,
+    "translated_title": "关于具有半静态交易策略的市场的一个注记",
+    "translated_abstract": "我们研究了离散时间金融市场模型中的套利问题，在该模型中，除了有限多个动态交易的资产外，还存在可供选择的静态期权。我们引入了随机变量小锥的概念，并给出了市场中可实现头寸依概率闭的一个充分条件。在此背景下，我们证明了资产定价基本定理，同时还考虑了效用最大化问题。我们提供了具有经济意义的无穷维小锥的例子，以展示我们方法的适用性与相关性。",
+    "tldr": "本文在同时包含动态交易资产与静态期权的离散时间市场中引入“随机变量小锥”概念，给出可实现头寸依概率闭的充分条件，并证明了资产定价基本定理与效用最大化结果。",
+    "en_tdlr": "This paper introduces the concept of small cones of random variables in discrete-time markets with semi-static trading strategies, establishes a sufficient condition for attainable positions to be closed in probability, and proves a fundamental theorem of asset pricing together with utility maximization results."
+}

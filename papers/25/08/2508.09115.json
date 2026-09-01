@@ -1,0 +1,12 @@
+{
+    "title": "SinLlama -- A Large Language Model for Sinhala",
+    "abstract": "arXiv:2508.09115v5 Announce Type: replace  Abstract: Low-resource languages such as Sinhala are often overlooked by open-source Large Language Models (LLMs). In this research, we extend an existing multilingual LLM (Llama-3-8B) to better serve Sinhala. We enhance the LLM tokenizer with Sinhala specific vocabulary and perform continual pre-training on a cleaned 10 million Sinhala corpus, resulting in the SinLlama model. This is the very first decoder-based open-source LLM with explicit Sinhala support. When SinLlama was instruction fine-tuned for three text classification tasks, it outperformed base and instruct variants of Llama-3-8B by a significant margin.",
+    "link": "https://arxiv.org/abs/2508.09115",
+    "context": "Title: SinLlama -- A Large Language Model for Sinhala\nAbstract: arXiv:2508.09115v5 Announce Type: replace  Abstract: Low-resource languages such as Sinhala are often overlooked by open-source Large Language Models (LLMs). In this research, we extend an existing multilingual LLM (Llama-3-8B) to better serve Sinhala. We enhance the LLM tokenizer with Sinhala specific vocabulary and perform continual pre-training on a cleaned 10 million Sinhala corpus, resulting in the SinLlama model. This is the very first decoder-based open-source LLM with explicit Sinhala support. When SinLlama was instruction fine-tuned for three text classification tasks, it outperformed base and instruct variants of Llama-3-8B by a significant margin.",
+    "path": "papers/25/08/2508.09115.json",
+    "total_tokens": 942,
+    "translated_title": "SinLlama——一个面向僧伽罗语的大语言模型",
+    "translated_abstract": "僧伽罗语等低资源语言常常被开源大语言模型（LLM）所忽视。在本研究中，我们对现有的多语言大语言模型（Llama-3-8B）进行了扩展，使其能够更好地服务于僧伽罗语。我们通过添加僧伽罗语专用词汇增强了该LLM的分词器，并在清洗后的1000万僧伽罗语语料库上进行了持续预训练，最终得到了SinLlama模型。这是首个明确支持僧伽罗语的基于解码器架构的开源大语言模型。当SinLlama针对三个文本分类任务进行指令微调后，其性能显著超越了Llama-3-8B的基础版本和指令版本。",
+    "tldr": "本研究通过扩展分词器并在1000万僧伽罗语语料上进行持续预训练，构建了首个明确支持僧伽罗语的开源大语言模型SinLlama，在文本分类任务上显著优于Llama-3-8B的原有版本。",
+    "en_tdlr": "This research develops SinLlama, the first open-source decoder-based LLM with explicit Sinhala support, by extending the tokenizer with Sinhala vocabulary and performing continual pre-training on a 10 million Sinhala corpus, significantly outperforming Llama-3-8B's base and instruct variants on text classification tasks."
+}

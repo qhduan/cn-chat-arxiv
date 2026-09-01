@@ -1,0 +1,12 @@
+{
+    "title": "Fully Distributed GNE Algorithms for Multi-Robot Placement without Consensus on Multipliers",
+    "abstract": "arXiv:2608.29388v1 Announce Type: cross  Abstract: Recent machine learning research has increasingly focused on equilibrium analysis in non-cooperative games rather than solely on optimal solutions. Many such problems involve shared constraints and can be formulated as Generalized Nash Equilibrium Problems (GNEPs). For strongly monotone games, existing methods compute consensus-based variational GNEs (v-GNEs) by exchanging Lagrange multipliers. We propose a fully distributed continuous-time algorithm for shared linear equality constraints that converges without multiplier exchange and reaches any GNE, reducing communication overhead and improving privacy. Discrete-time schemes are also provided, and the method is validated on a multi-robot placement task.",
+    "link": "https://arxiv.org/abs/2608.29388",
+    "context": "Title: Fully Distributed GNE Algorithms for Multi-Robot Placement without Consensus on Multipliers\nAbstract: arXiv:2608.29388v1 Announce Type: cross  Abstract: Recent machine learning research has increasingly focused on equilibrium analysis in non-cooperative games rather than solely on optimal solutions. Many such problems involve shared constraints and can be formulated as Generalized Nash Equilibrium Problems (GNEPs). For strongly monotone games, existing methods compute consensus-based variational GNEs (v-GNEs) by exchanging Lagrange multipliers. We propose a fully distributed continuous-time algorithm for shared linear equality constraints that converges without multiplier exchange and reaches any GNE, reducing communication overhead and improving privacy. Discrete-time schemes are also provided, and the method is validated on a multi-robot placement task.",
+    "path": "papers/26/08/2608.29388.json",
+    "total_tokens": 976,
+    "translated_title": "无需乘子共识的多机器人放置全分布式广义纳什均衡（GNE）算法",
+    "translated_abstract": "近年来，机器学习研究越来越关注非合作博弈中的均衡分析，而不再仅仅追求最优解。许多此类问题涉及共享约束，可以建模为广义纳什均衡问题（GNEP）。对于强单调博弈，现有方法通过交换拉格朗日乘子来计算基于共识的变分广义纳什均衡（v-GNE）。我们提出了一种针对共享线性等式约束的全分布式连续时间算法，该算法无需交换乘子即可收敛到任意广义纳什均衡，从而降低了通信开销并提升了隐私性。此外，我们还给出了离散时间方案，并通过多机器人放置任务对所提方法进行了验证。",
+    "tldr": "提出了一种无需交换拉格朗日乘子即可收敛到任意广义纳什均衡的全分布式连续时间算法，降低了通信开销并提升了隐私性，并通过多机器人放置任务验证了其有效性。",
+    "en_tdlr": "This paper proposes a fully distributed continuous-time algorithm that converges to any GNE without exchanging Lagrange multipliers, reducing communication overhead and improving privacy, and validates it on a multi-robot placement task."
+}
