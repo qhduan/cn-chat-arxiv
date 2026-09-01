@@ -1,0 +1,11 @@
+{
+    "title": "Book Readership During Movie Releases: An Exploratory Analysis",
+    "abstract": "arXiv:2608.29019v1 Announce Type: new  Abstract: Exogenous events can temporarily change the relevance of items in recommender systems, but these shifts are often not visible in historical interaction data until after users have already responded. In book recommendation, movie adaptations provide a clear example of such events: the release of a movie based on a book can temporarily increase attention to the source text and change its relevance for some readers. We examine this phenomenon using a large Goodreads dataset matched to movie release dates. We find a clear spike in readership around the release month, and then we evaluate existing recommendation models to understand how they rank movie-adapted books around the movie release date.",
+    "link": "https://arxiv.org/abs/2608.29019",
+    "context": "Title: Book Readership During Movie Releases: An Exploratory Analysis\nAbstract: arXiv:2608.29019v1 Announce Type: new  Abstract: Exogenous events can temporarily change the relevance of items in recommender systems, but these shifts are often not visible in historical interaction data until after users have already responded. In book recommendation, movie adaptations provide a clear example of such events: the release of a movie based on a book can temporarily increase attention to the source text and change its relevance for some readers. We examine this phenomenon using a large Goodreads dataset matched to movie release dates. We find a clear spike in readership around the release month, and then we evaluate existing recommendation models to understand how they rank movie-adapted books around the movie release date.",
+    "path": "papers/26/08/2608.29019.json",
+    "total_tokens": 922,
+    "translated_title": "电影上映期间的图书阅读量：一项探索性分析",
+    "translated_abstract": "外生事件可能会暂时改变推荐系统中物品的相关性，但这些变化往往要等到用户已经做出反应之后，才会体现在历史交互数据中。在图书推荐领域，电影改编作品为这类事件提供了典型的例子：基于图书改编的电影上映可能会暂时提升人们对原著的关注度，并改变其在某些读者中的相关性。我们利用与电影上映日期相匹配的大型Goodreads数据集来研究这一现象。我们发现图书阅读量在电影上映月份前后出现明显激增，随后我们评估了现有的推荐模型，以了解它们在电影上映日期前后会如何对改编自电影的图书进行排序。",
+    "tldr": "本研究利用Goodreads数据集发现图书阅读量在电影改编版上映前后显著激增，并评估了现有推荐模型对此类图书的排序表现。"
+}
