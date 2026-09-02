@@ -1,0 +1,12 @@
+{
+    "title": "How outside options are incorporated into payoff distributions",
+    "abstract": "arXiv:2609.00799v1 Announce Type: new  Abstract: This paper examines how outside options are incorporated into payoff distributions in games with coalition structures. We introduce and characterize the alpha-value, which \"fully\" incorporates outside options, and provide a new characterization of the Aumann-Dreze value as an allocation rule that does not incorporate outside options. We show that the chi-value (Casajus, 2009) is a component-wise convex combination of these two values and thus incorporates outside options in a discounted form.",
+    "link": "https://arxiv.org/abs/2609.00799",
+    "context": "Title: How outside options are incorporated into payoff distributions\nAbstract: arXiv:2609.00799v1 Announce Type: new  Abstract: This paper examines how outside options are incorporated into payoff distributions in games with coalition structures. We introduce and characterize the alpha-value, which \"fully\" incorporates outside options, and provide a new characterization of the Aumann-Dreze value as an allocation rule that does not incorporate outside options. We show that the chi-value (Casajus, 2009) is a component-wise convex combination of these two values and thus incorporates outside options in a discounted form.",
+    "path": "papers/26/09/2609.00799.json",
+    "total_tokens": 828,
+    "translated_title": "外部选择权如何被纳入收益分配之中",
+    "translated_abstract": "本文研究了在具有联盟结构的博弈中，外部选择权是如何被纳入收益分配的。我们引入并刻画了α-值，该值“完全”纳入了外部选择权，并为Aumann-Dreze值提供了一个新的刻画，将其视为一种不纳入外部选择权的分配规则。我们证明了chi值（Casajus, 2009）是这两个值在分量层面的凸组合，因此以折扣的形式纳入外部选择权。",
+    "tldr": "本文提出了完全纳入外部选择权的α-值，并将Aumann-Dreze值刻画为不纳入外部选择权的分配规则，进而证明chi值是二者的分量凸组合，即以折扣形式纳入外部选择权。",
+    "en_tdlr": "This paper introduces the alpha-value, which fully incorporates outside options, provides a new characterization of the Aumann-Dreze value as an allocation rule that does not incorporate them, and shows that the chi-value is a component-wise convex combination of the two, thus incorporating outside options in a discounted form."
+}

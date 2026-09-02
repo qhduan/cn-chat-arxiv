@@ -1,0 +1,12 @@
+{
+    "title": "Communicating About Endogenous Issues",
+    "abstract": "arXiv:2609.00380v1 Announce Type: new  Abstract: Limited attention forces organizations to decide not only how much to discuss, but also which issues merit discussion. We study strategic communication about a multidimensional decision when a receiver can respond only along a few endogenously chosen issues. Players agree on the ideal action but prioritize different errors. In equilibrium, communicated and omitted issues must be statistically unrelated and separable according to the sender's preferences. Thus, the sender's priorities determine the agenda; the receiver's do not. Synchronized priorities raise the receiver's best equilibrium payoff but lower his worst, so he may prefer a less synchronized sender.",
+    "link": "https://arxiv.org/abs/2609.00380",
+    "context": "Title: Communicating About Endogenous Issues\nAbstract: arXiv:2609.00380v1 Announce Type: new  Abstract: Limited attention forces organizations to decide not only how much to discuss, but also which issues merit discussion. We study strategic communication about a multidimensional decision when a receiver can respond only along a few endogenously chosen issues. Players agree on the ideal action but prioritize different errors. In equilibrium, communicated and omitted issues must be statistically unrelated and separable according to the sender's preferences. Thus, the sender's priorities determine the agenda; the receiver's do not. Synchronized priorities raise the receiver's best equilibrium payoff but lower his worst, so he may prefer a less synchronized sender.",
+    "path": "papers/26/09/2609.00380.json",
+    "total_tokens": 953,
+    "translated_title": "关于内生议题的沟通",
+    "translated_abstract": "有限的注意力迫使组织不仅要决定讨论多少内容，还要决定哪些议题值得讨论。我们研究了多维决策中的策略性沟通问题，其中接收方只能针对内生选择的少数议题做出回应。参与者对理想行动意见一致，但对不同错误的优先排序不同。在均衡状态下，被沟通的议题与被省略的议题必须在统计上相互无关，且根据发送方的偏好是可分离的。因此，是发送方的优先排序决定了议程，而接收方的优先排序则不起作用。优先排序的同步性会提高接收方在最佳均衡下的收益，但降低其最坏情形下的收益，因此接收方可能更偏好优先排序较不同步的发送方。",
+    "tldr": "在注意力受限的多维策略沟通中，发送方（而非接收方）的偏好优先排序决定了哪些议题进入议程，且优先排序的同步性对接收方而言是一把双刃剑——既可能提升最佳收益也可能恶化最坏情形，故接收方可能反而偏好优先排序较不同步的发送方。",
+    "en_tdlr": "Under limited attention in multidimensional strategic communication, the sender's—rather than the receiver's—preference priorities determine which issues make the agenda, and synchronized priorities are a double-edged sword that can make the receiver prefer a less synchronized sender."
+}

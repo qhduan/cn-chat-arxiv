@@ -1,0 +1,12 @@
+{
+    "title": "If you can distinguish, you can express: Galois theory, Stone--Weierstrass, machine learning, and linguistics",
+    "abstract": "arXiv:2510.09902v3 Announce Type: replace-cross  Abstract: This essay develops a parallel between the Fundamental Theorem of Galois Theory and the Stone--Weierstrass theorem: both can be viewed as assertions that tie the distinguishing power of a class of objects to their expressive power. We provide an elementary theorem connecting the relevant notions of \"distinguishing power\". We also discuss machine learning and data science contexts in which these theorems, and more generally the theme of links between distinguishing power and expressive power, appear. Finally, we discuss the same theme in the context of linguistics, where it appears as a foundational principle, and illustrate it with several examples.",
+    "link": "https://arxiv.org/abs/2510.09902",
+    "context": "Title: If you can distinguish, you can express: Galois theory, Stone--Weierstrass, machine learning, and linguistics\nAbstract: arXiv:2510.09902v3 Announce Type: replace-cross  Abstract: This essay develops a parallel between the Fundamental Theorem of Galois Theory and the Stone--Weierstrass theorem: both can be viewed as assertions that tie the distinguishing power of a class of objects to their expressive power. We provide an elementary theorem connecting the relevant notions of \"distinguishing power\". We also discuss machine learning and data science contexts in which these theorems, and more generally the theme of links between distinguishing power and expressive power, appear. Finally, we discuss the same theme in the context of linguistics, where it appears as a foundational principle, and illustrate it with several examples.",
+    "path": "papers/25/10/2510.09902.json",
+    "total_tokens": 946,
+    "translated_title": "如果你能区分，你就能表达：伽罗瓦理论、Stone–Weierstrass定理、机器学习与语言学",
+    "translated_abstract": "本文探讨了伽罗瓦理论基本定理与Stone–Weierstrass定理之间的平行关系：两者都可以被视为将一类对象的区分能力与其表达能力联系起来的断言。我们提供了一个连接相关“区分能力”概念的初等定理。我们还讨论了机器学习和数据科学领域中这些定理出现的相关情境，以及更广泛意义上区分能力与表达能力之间联系这一主题。最后，我们在语言学语境中讨论了同一主题，它在语言学中作为一种基础性原则出现，并用几个例子加以说明。",
+    "tldr": "本文揭示了伽罗瓦理论基本定理与Stone–Weierstrass定理的共同本质——区分能力决定表达能力，并将这一原理延伸至机器学习、数据科学与语言学领域。",
+    "en_tdlr": "This essay reveals that the Fundamental Theorem of Galois Theory and the Stone–Weierstrass theorem share the common principle that distinguishing power implies expressive power, and extends this theme to machine learning, data science, and linguistics."
+}

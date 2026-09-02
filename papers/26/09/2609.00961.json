@@ -1,0 +1,12 @@
+{
+    "title": "Few-Shot Out of Domain Intent Detection with Covariance Corrected Mahalanobis Distance",
+    "abstract": "arXiv:2609.00961v1 Announce Type: new  Abstract: Conversational agents like chatbots and voice assistants are trained to understand and respond to user intents. On encountering an utterance with an intent different from the ones they have been trained on, these agents are expected to classify the intent as `unknown' or `out of domain'. This problem is known as out of domain (OOD) intent detection. Podolskiy et al. (2021), showed that Mahalanobis distance can be used effectively for identifying OOD intents, outperforming competing approaches. However, their method fails to outperform the baselines in the practically important few-shot setting. In this paper we analyze the reason for low performance and propose a covariance corrected Mahalanobis distance for detecting out-of-domain intents.",
+    "link": "https://arxiv.org/abs/2609.00961",
+    "context": "Title: Few-Shot Out of Domain Intent Detection with Covariance Corrected Mahalanobis Distance\nAbstract: arXiv:2609.00961v1 Announce Type: new  Abstract: Conversational agents like chatbots and voice assistants are trained to understand and respond to user intents. On encountering an utterance with an intent different from the ones they have been trained on, these agents are expected to classify the intent as `unknown' or `out of domain'. This problem is known as out of domain (OOD) intent detection. Podolskiy et al. (2021), showed that Mahalanobis distance can be used effectively for identifying OOD intents, outperforming competing approaches. However, their method fails to outperform the baselines in the practically important few-shot setting. In this paper we analyze the reason for low performance and propose a covariance corrected Mahalanobis distance for detecting out-of-domain intents.",
+    "path": "papers/26/09/2609.00961.json",
+    "total_tokens": 985,
+    "translated_title": "基于协方差修正马氏距离的少样本域外意图检测",
+    "translated_abstract": "聊天机器人和语音助手等对话智能体经过训练以理解和响应用户意图。当遇到与其训练过的意图不同的语句时，这些智能体应将该意图分类为“未知”或“域外”。这个问题被称为域外（OOD）意图检测。Podolskiy等人（2021）证明了马氏距离可以有效地用于识别OOD意图，且优于其他竞争方法。然而，在实际应用中十分重要的少样本设置下，他们的方法未能超越基线方法。在本文中，我们分析了其性能不佳的原因，并提出了一种用于检测域外意图的协方差修正马氏距离。",
+    "tldr": "本文分析了马氏距离方法在少样本设置下域外意图检测性能不佳的原因，并提出了一种协方差修正的马氏距离来有效检测域外意图。",
+    "en_tdlr": "This paper analyzes why the Mahalanobis distance method underperforms in the few-shot setting and proposes a covariance corrected Mahalanobis distance for detecting out-of-domain intents."
+}

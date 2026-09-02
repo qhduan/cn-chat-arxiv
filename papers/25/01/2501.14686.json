@@ -1,0 +1,12 @@
+{
+    "title": "The Division of Surplus and the Burden of Proof",
+    "abstract": "arXiv:2501.14686v5 Announce Type: replace  Abstract: A principal and an agent divide a surplus whose size is known only to the agent. The agent decides how much to reveal initially. Both parties can acquire costly evidence to verify the surplus. The agent's liability is bounded by the revealed surplus. The principal commits to their own acquisition-effort and to transfers contingent on who provides evidence. With these instruments, the principal simultaneously motivates the agent to reveal the surplus and to acquire evidence. We characterize optimal mechanisms using a novel technique that is based on reforming existing mechanisms and orders the instruments. It applies to related multi-instrument problems.",
+    "link": "https://arxiv.org/abs/2501.14686",
+    "context": "Title: The Division of Surplus and the Burden of Proof\nAbstract: arXiv:2501.14686v5 Announce Type: replace  Abstract: A principal and an agent divide a surplus whose size is known only to the agent. The agent decides how much to reveal initially. Both parties can acquire costly evidence to verify the surplus. The agent's liability is bounded by the revealed surplus. The principal commits to their own acquisition-effort and to transfers contingent on who provides evidence. With these instruments, the principal simultaneously motivates the agent to reveal the surplus and to acquire evidence. We characterize optimal mechanisms using a novel technique that is based on reforming existing mechanisms and orders the instruments. It applies to related multi-instrument problems.",
+    "path": "papers/25/01/2501.14686.json",
+    "total_tokens": 913,
+    "translated_title": "剩余的分配与举证责任",
+    "translated_abstract": "委托人与代理人需要分配一笔剩余，而剩余的规模只有代理人自己知晓。代理人决定最初披露多少信息。双方都可以获取有成本的证据来核实剩余规模。代理人的责任以其所披露的剩余规模为上限。委托人承诺自身的取证努力，并承诺提供取决于由谁提供证据的转移支付。凭借这些工具，委托人能够同时激励代理人披露剩余规模并获取证据。我们运用一种新颖的技术来刻画最优机制，该技术基于对现有机制的改造，并对各种工具进行排序。该技术也适用于相关的多工具问题。",
+    "tldr": "本文研究信息不对称下的委托—代理人剩余分配问题，提出了一种基于改造现有机制的新技术来刻画最优机制，使委托人能够同时激励代理人披露信息与收集证据。",
+    "en_tdlr": "This paper studies surplus division between a principal and an agent under information asymmetry, and characterizes optimal mechanisms using a novel reform-based technique that enables the principal to simultaneously incentivize the agent to reveal information and acquire evidence."
+}

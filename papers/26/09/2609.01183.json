@@ -1,0 +1,12 @@
+{
+    "title": "Harvesting the Variance Risk Premium in Nuclear and Energy Equities: A Short-Put Portfolio Derisking Strategy",
+    "abstract": "arXiv:2609.01183v1 Announce Type: new  Abstract: We study whether nuclear and energy-adjacent equity options exhibit a harvestable variance risk premium. Using CRSP and OptionMetrics data for 2000-2024, we construct a systematic cash-secured short-put strategy on a curated universe of nuclear-related firms. The strategy compares at-the-money put implied volatility with GARCH-based realized volatility forecasts, then evaluates unconditional and IV/RV-filtered put-writing portfolios. The results show positive average option premia, high win rates, and substantially lower volatility than an equal-weight stock benchmark, though performance is measured before transaction costs and with a fixed universe.",
+    "link": "https://arxiv.org/abs/2609.01183",
+    "context": "Title: Harvesting the Variance Risk Premium in Nuclear and Energy Equities: A Short-Put Portfolio Derisking Strategy\nAbstract: arXiv:2609.01183v1 Announce Type: new  Abstract: We study whether nuclear and energy-adjacent equity options exhibit a harvestable variance risk premium. Using CRSP and OptionMetrics data for 2000-2024, we construct a systematic cash-secured short-put strategy on a curated universe of nuclear-related firms. The strategy compares at-the-money put implied volatility with GARCH-based realized volatility forecasts, then evaluates unconditional and IV/RV-filtered put-writing portfolios. The results show positive average option premia, high win rates, and substantially lower volatility than an equal-weight stock benchmark, though performance is measured before transaction costs and with a fixed universe.",
+    "path": "papers/26/09/2609.01183.json",
+    "total_tokens": 1044,
+    "translated_title": "收获核能与能源相关股票中的方差风险溢价：一种卖空看跌期权组合的去风险策略",
+    "translated_abstract": "我们研究核能及能源相关股票的期权是否存在可收获的方差风险溢价。利用2000年至2024年的CRSP和OptionMetrics数据，我们在一个精选的核相关公司股票池上构建了系统性的现金担保卖空看跌期权策略。该策略将平值看跌期权的隐含波动率与基于GARCH的已实现波动率预测进行比较，进而评估无条件以及经隐含波动率/已实现波动率（IV/RV）筛选的卖权组合。结果显示，期权平均溢价为正、胜率高，且组合波动率显著低于等权重股票基准，不过业绩是在扣除交易成本之前、且在固定股票池的条件下衡量的。",
+    "tldr": "本文利用2000-2024年数据，针对核能相关股票构建系统性卖空看跌期权策略，发现该策略能持续收获正的方差风险溢价，胜率高且波动率显著低于等权重股票基准。",
+    "en_tdlr": "This paper constructs a systematic cash-secured short-put strategy on nuclear-related equities using 2000-2024 data, showing it consistently harvests positive variance risk premia with high win rates and substantially lower volatility than an equal-weight stock benchmark."
+}

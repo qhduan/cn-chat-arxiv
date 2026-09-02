@@ -1,0 +1,12 @@
+{
+    "title": "The Alexander-Hirschowitz theorem for neurovarieties",
+    "abstract": "arXiv:2511.19703v2 Announce Type: replace-cross  Abstract: We study the dimension and identifiability of neurovarieties associated to polynomial neural networks. We give an independent geometric proof that the linear bounds $d_i\\geq 2n_i-1$ on the activation degrees imply non defectiveness for any number of outputs, a dimension statement previously obtained from finite identifiability. The proof is based on a direct analysis of the differential of the parameterization. We also investigate secant and Grassmann-secant obstructions outside this range and prove global identifiability for multi-output architectures under the same degree bounds.",
+    "link": "https://arxiv.org/abs/2511.19703",
+    "context": "Title: The Alexander-Hirschowitz theorem for neurovarieties\nAbstract: arXiv:2511.19703v2 Announce Type: replace-cross  Abstract: We study the dimension and identifiability of neurovarieties associated to polynomial neural networks. We give an independent geometric proof that the linear bounds $d_i\\geq 2n_i-1$ on the activation degrees imply non defectiveness for any number of outputs, a dimension statement previously obtained from finite identifiability. The proof is based on a direct analysis of the differential of the parameterization. We also investigate secant and Grassmann-secant obstructions outside this range and prove global identifiability for multi-output architectures under the same degree bounds.",
+    "path": "papers/25/11/2511.19703.json",
+    "total_tokens": 1225,
+    "translated_title": "神经簇的Alexander-Hirschowitz定理",
+    "translated_abstract": "我们研究与多项式神经网络相关的神经簇的维数与可辨识性。我们给出了一个独立的几何证明，表明激活次数上的线性界 $d_i\\geq 2n_i-1$ 蕴含任意输出数目下的非亏缺性，这一维数结论此前是从有限可辨识性推导得到的。该证明基于对参数化微分的直接分析。我们还研究了该范围之外的割线与Grassmann割线障碍，并在相同的次数界下证明了多输出架构的全局可辨识性。",
+    "tldr": "本文通过独立的几何方法证明了激活次数满足线性界 d_i ≥ 2n_i−1 时多项式神经网络的神经簇对任意输出数都是非亏缺的，并进一步证明了多输出架构在相同次数界下的全局可辨识性。",
+    "en_tdlr": "The paper gives an independent geometric proof that linear bounds d_i ≥ 2n_i−1 on activation degrees imply non-defectiveness of neurovarieties for polynomial neural networks with any number of outputs, and establishes global identifiability for multi-output architectures under the same degree bounds."
+}

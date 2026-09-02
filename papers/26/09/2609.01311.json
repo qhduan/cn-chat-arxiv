@@ -1,0 +1,12 @@
+{
+    "title": "One-Layer Transformer Provably Learns Multiclass One-Nearest Neighbor in Context",
+    "abstract": "arXiv:2609.01311v1 Announce Type: new  Abstract: We extend recent work establishing an equivalence between one-layer transformers and nearest-neighbor classifiers in the binary setting to the multiclass case. By leveraging the simplex encoding, we show that one-layer transformers with an argmax classification head behave identically to a one-nearest-neighbor classifier in the multiclass setting. This closes a gap left by prior work, whose multiclass result relied on a non-standard rounding-based approach rather than the typical argmax head used in practice.",
+    "link": "https://arxiv.org/abs/2609.01311",
+    "context": "Title: One-Layer Transformer Provably Learns Multiclass One-Nearest Neighbor in Context\nAbstract: arXiv:2609.01311v1 Announce Type: new  Abstract: We extend recent work establishing an equivalence between one-layer transformers and nearest-neighbor classifiers in the binary setting to the multiclass case. By leveraging the simplex encoding, we show that one-layer transformers with an argmax classification head behave identically to a one-nearest-neighbor classifier in the multiclass setting. This closes a gap left by prior work, whose multiclass result relied on a non-standard rounding-based approach rather than the typical argmax head used in practice.",
+    "path": "papers/26/09/2609.01311.json",
+    "total_tokens": 964,
+    "translated_title": "单层Transformer被证明能够以上下文方式学习多分类单最近邻",
+    "translated_abstract": "我们将近期一项在二分类设定下建立了单层Transformer与最近邻分类器之间等价性的工作，扩展到多分类情形。通过利用单纯形编码，我们证明了带argmax分类头的单层Transformer在多分类设定下的行为与单最近邻分类器完全一致。这填补了先前工作留下的空白——先前工作的多分类结果依赖于基于舍入的非标准方法，而非实践中常用的argmax分类头。",
+    "tldr": "本文证明了带argmax分类头的单层Transformer在多分类的上下文学习中行为与单最近邻分类器完全一致，填补了此前工作依赖非标准舍入方法所留下的理论空白。",
+    "en_tdlr": "This paper proves that a one-layer transformer with an argmax classification head behaves identically to a multiclass one-nearest-neighbor classifier in-context, closing the gap left by prior work that relied on non-standard rounding-based approaches."
+}

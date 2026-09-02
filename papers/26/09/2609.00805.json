@@ -1,0 +1,11 @@
+{
+    "title": "Towards a Reliable and Practical Eval Pipeline",
+    "abstract": "arXiv:2609.00805v1 Announce Type: new  Abstract: LLM-based software systems increasingly require effective \"evals\" as quality gates in the development lifecycle. However, existing work typically addresses individual aspects of eval reliability rather than the full set of practical requirements. We present an end-to-end eval pipeline that combines eval checklist creation, with learned aggregation for checklist responses, to improve agreement across LLM judges and accuracy against human judgments. The framework additionally pro- vides self-consistency, explanations, and prediction uncertainty, and we empirically demonstrate its effectiveness.",
+    "link": "https://arxiv.org/abs/2609.00805",
+    "context": "Title: Towards a Reliable and Practical Eval Pipeline\nAbstract: arXiv:2609.00805v1 Announce Type: new  Abstract: LLM-based software systems increasingly require effective \"evals\" as quality gates in the development lifecycle. However, existing work typically addresses individual aspects of eval reliability rather than the full set of practical requirements. We present an end-to-end eval pipeline that combines eval checklist creation, with learned aggregation for checklist responses, to improve agreement across LLM judges and accuracy against human judgments. The framework additionally pro- vides self-consistency, explanations, and prediction uncertainty, and we empirically demonstrate its effectiveness.",
+    "path": "papers/26/09/2609.00805.json",
+    "total_tokens": 845,
+    "translated_title": "迈向可靠且实用的评估流水线",
+    "translated_abstract": "基于大语言模型（LLM）的软件系统日益需要在开发生命周期中将有效的“评估”作为质量门控。然而，现有工作通常仅解决评估可靠性的个别方面，而非全部实际需求。我们提出了一种端到端的评估流水线，将评估检查清单的创建与针对检查清单响应的学习式聚合相结合，以提高LLM评判者之间的一致性以及与人类判断相比的准确性。该框架还提供了自一致性、解释和预测不确定性，并通过实验证明了其有效性。",
+    "tldr": "该论文提出了一种结合评估检查清单创建与学习式聚合的端到端评估流水线，提高了LLM评判者之间的一致性及与人类判断的吻合度，同时提供自一致性、解释和预测不确定性。"
+}

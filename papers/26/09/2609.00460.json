@@ -1,0 +1,12 @@
+{
+    "title": "Context Window Failures in Relational Foundation Models",
+    "abstract": "arXiv:2609.00460v1 Announce Type: new  Abstract: Recent Relational Deep Learning architectures have been proposed as foundation models for multi-table relational data, yet they impose constrained neighborhood budgets that force row truncation when an entity has many related records. We introduce Animus, a synthetic financial dataset in which predicting customer income requires aggregating up to tens of thousands of transactions. On the raw representation, three recently proposed models (RT, Griffin, RelGT) achieve $R^2 \\le 0.18$; a single, routine, temporal pre-aggregation step recovers $R^2$ up to $0.65$. This questions whether current relational foundation models are ready for high-cardinality real-world data.",
+    "link": "https://arxiv.org/abs/2609.00460",
+    "context": "Title: Context Window Failures in Relational Foundation Models\nAbstract: arXiv:2609.00460v1 Announce Type: new  Abstract: Recent Relational Deep Learning architectures have been proposed as foundation models for multi-table relational data, yet they impose constrained neighborhood budgets that force row truncation when an entity has many related records. We introduce Animus, a synthetic financial dataset in which predicting customer income requires aggregating up to tens of thousands of transactions. On the raw representation, three recently proposed models (RT, Griffin, RelGT) achieve $R^2 \\le 0.18$; a single, routine, temporal pre-aggregation step recovers $R^2$ up to $0.65$. This questions whether current relational foundation models are ready for high-cardinality real-world data.",
+    "path": "papers/26/09/2609.00460.json",
+    "total_tokens": 1014,
+    "translated_title": "关系型基础模型中的上下文窗口失效问题",
+    "translated_abstract": "近年来，关系深度学习架构被提出作为多表关系数据的基础模型，但它们对邻域预算施加了限制，当某个实体拥有大量相关记录时会迫使行被截断。我们介绍了Animus，一个合成金融数据集，其中预测客户收入需要聚合多达数万笔交易。在原始表示上，三个近期提出的模型（RT、Griffin、RelGT）的R²均不超过0.18；而仅通过一个简单常规的时序预聚合步骤，就能将R²提升至0.65。这质疑了当前关系基础模型是否已准备好应对高基数的现实世界数据。",
+    "tldr": "当前关系基础模型因上下文窗口限制，在面对拥有大量关联记录的实体时会严重失效，仅一个简单的时序预聚合步骤就能将R²从0.18提升至0.65，表明现有模型尚无法应对高基数现实数据。",
+    "en_tdlr": "Current relational foundation models fail on entities with many related records due to constrained context windows—a simple temporal pre-aggregation step boosts R² from 0.18 to 0.65, showing these models are not yet ready for high-cardinality real-world data."
+}

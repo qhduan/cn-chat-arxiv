@@ -1,0 +1,12 @@
+{
+    "title": "Higher Structures in Deep Learning",
+    "abstract": "arXiv:2609.00472v1 Announce Type: cross  Abstract: We provide an expository introduction on the importance of higher-arity tensor operations to deep learning. Then, we conduct a novel empirical investigation of higher-arity phenomenon in trained neural networks, introduce a hypergraphical generalization of the multilayer perceptron, and explore connections to evolutionary algorithms. We conclude with a discussion of promising directions for future research.",
+    "link": "https://arxiv.org/abs/2609.00472",
+    "context": "Title: Higher Structures in Deep Learning\nAbstract: arXiv:2609.00472v1 Announce Type: cross  Abstract: We provide an expository introduction on the importance of higher-arity tensor operations to deep learning. Then, we conduct a novel empirical investigation of higher-arity phenomenon in trained neural networks, introduce a hypergraphical generalization of the multilayer perceptron, and explore connections to evolutionary algorithms. We conclude with a discussion of promising directions for future research.",
+    "path": "papers/26/09/2609.00472.json",
+    "total_tokens": 736,
+    "translated_title": "深度学习中的高阶结构",
+    "translated_abstract": "我们提供了一篇关于高元张量运算对深度学习重要性的阐述性介绍。随后，我们对训练后的神经网络中的高元现象进行了新颖的实证研究，提出了多层感知机的一种超图推广形式，并探讨了其与进化算法之间的联系。最后，我们对未来研究中富有前景的方向进行了讨论。",
+    "tldr": "本文阐述了高元张量运算在深度学习中的重要性，对训练后神经网络中的高元现象进行了新颖的实证研究，并提出了多层感知机的超图推广形式，同时探讨了其与进化算法的联系。",
+    "en_tdlr": "This paper provides an expository introduction to the importance of higher-arity tensor operations in deep learning, conducts a novel empirical investigation of higher-arity phenomena in trained neural networks, and introduces a hypergraphical generalization of the multilayer perceptron with connections to evolutionary algorithms."
+}

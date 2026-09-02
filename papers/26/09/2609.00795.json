@@ -1,0 +1,12 @@
+{
+    "title": "Agentic programs: an emerging form of scientific software in computational materials science",
+    "abstract": "arXiv:2609.00795v1 Announce Type: cross  Abstract: Computational materials science has traditionally delegated algorithmic tasks to computers while leaving scientific judgments to humans. We argue that recent LLM-based agent harnesses enable an emerging form of scientific software, agentic programs, that combine deterministic algorithms with bounded LLM-based judgment, task-specific verification, episodic maturation, and complete delegation in production. We illustrate this concept with DeMARS, an agentic program for constructing atomistic models from experimentally measured disordered crystal structures.",
+    "link": "https://arxiv.org/abs/2609.00795",
+    "context": "Title: Agentic programs: an emerging form of scientific software in computational materials science\nAbstract: arXiv:2609.00795v1 Announce Type: cross  Abstract: Computational materials science has traditionally delegated algorithmic tasks to computers while leaving scientific judgments to humans. We argue that recent LLM-based agent harnesses enable an emerging form of scientific software, agentic programs, that combine deterministic algorithms with bounded LLM-based judgment, task-specific verification, episodic maturation, and complete delegation in production. We illustrate this concept with DeMARS, an agentic program for constructing atomistic models from experimentally measured disordered crystal structures.",
+    "path": "papers/26/09/2609.00795.json",
+    "total_tokens": 879,
+    "translated_title": "智能体程序：计算材料科学中一种新兴形式的科学软件",
+    "translated_abstract": "计算材料科学传统上将算法任务委托给计算机，而将科学判断留给人类。我们提出，近期基于大语言模型（LLM）的智能体框架催生了一种新兴形式的科学软件——智能体程序，它将确定性算法与有界的LLM判断、任务特定的验证、阶段性成熟以及生产中的完全委托相结合。我们以DeMARS为例说明这一概念，DeMARS是一个用于从实验测量的无序晶体结构构建原子级模型的智能体程序。",
+    "tldr": "本文提出“智能体程序”这一新兴科学软件范式，将确定性算法与有界的LLM科学判断、任务验证和阶段性成熟相结合，并以从实验测量的无序晶体结构构建原子模型的DeMARS系统为例加以展示。",
+    "en_tdlr": "This paper proposes \"agentic programs\" as an emerging form of scientific software combining deterministic algorithms with bounded LLM-based judgment, task-specific verification, and episodic maturation, illustrated by DeMARS for constructing atomistic models from experimentally measured disordered crystal structures."
+}
