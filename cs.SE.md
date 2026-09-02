@@ -11,50 +11,52 @@
 | [^7] | [Athena: Vulnerability-Affected Library Identification via Knowledge Graph Completion](https://arxiv.org/abs/2609.01187) | 提出了首个基于图的方法Athena，将漏洞数据库建模为知识图谱，通过知识图谱补全和链接预测自动识别并补全CVE缺失的受影响软件库信息。 |
 | [^8] | [Smart Contracts Claimed Vulnerable by the CVE Database, with Labels and Source Locations](https://arxiv.org/abs/2609.01186) | 该论文发布了CVE-Smart-Contracts数据集，收录截至2026年7月与以太坊智能合约相关的CVE记录，提供漏洞工件、三种分类体系的标签和函数级漏洞位置，其构建流程85%自动化且完全可复现。 |
 | [^9] | [Hints Help But Do They Teach? Evaluating Skills Transfer in Code Generation](https://arxiv.org/abs/2609.01106) | 研究发现，提示对失败代码生成的“挽救”效果大多可通过无提示的重复采样复现，且相关与无关提示共享同一激活方向，表明提示更多是引导模型已有能力而非传授新技能。 |
-| [^10] | [Fine-Tuning Large Language Models to Classify Pull Request-Issue Alignments: Going Beyond Prompting](https://arxiv.org/abs/2609.01087) | 本研究超越了简单的提示工程方法，通过微调GPT-4o及多种开源大语言模型来自动分类拉取请求与问题之间的对齐关系，并结合可解释性分析揭示了PR-问题各字段对模型预测的影响。 |
-| [^11] | [Does Fault Localization Beat a Fresh Attempt? A Placebo-Controlled Study of Test-Guided Code Repair](https://arxiv.org/abs/2609.00854) | 该安慰剂对照研究发现，故障定位在实际场景中很少可用（仅约9%的失败候选可定位），且即便可定位，基于频谱定位的片段填充修复也显著劣于盲目的整体重采样。 |
-| [^12] | [Probabilistic Model Checking of Autoregressive Neural Sequence Models](https://arxiv.org/abs/2609.00838) | 本文提出一种基于概率模型检测的验证流程，从自回归神经序列模型的逐token生成中提取DTMC并用PRISM验证PCTL规约，从而给出约束违反概率的认证区间和构造性保守的输入空间覆盖率曲线，并借助CEGAR循环自适应收紧区间。 |
-| [^13] | [Replacing Training with Memory: Listwise Selection for Text-to-SQL](https://arxiv.org/abs/2609.00834) | 该论文提出MaP-SQL，一种无需微调的Text-to-SQL列表式选择器，通过从训练数据蒸馏的可复用结构化记忆替代学习选择标准，并利用排名聚合缓解位置偏差，从而以更低成本实现候选查询选择。 |
-| [^14] | [Towards a Reliable and Practical Eval Pipeline](https://arxiv.org/abs/2609.00805) | 该论文提出了一种结合评估检查清单创建与学习式聚合的端到端评估流水线，提高了LLM评判者之间的一致性及与人类判断的吻合度，同时提供自一致性、解释和预测不确定性。 |
-| [^15] | [Predicting Program Exit Code with LLMs and Programming Language Semantics](https://arxiv.org/abs/2609.00579) | 该论文提出了程序可执行性预测这一新任务，并构建了由有效程序系统性生成无效变换的数据集，以研究大语言模型在判断程序有效性及其违反的形式化语义规则时，究竟是依赖预训练先验知识还是给定的程序语义。 |
-| [^16] | [WiseSpec: Requirements-Driven Agents for Code Generation](https://arxiv.org/abs/2609.00568) | 该论文提出WiseSpec框架，借鉴软件需求工程思想，通过自动构建高质量结构化需求并结合基于执行的评估进行迭代优化，从而提升大语言模型在仓库级代码生成中的表现。 |
-| [^17] | [Runtime-Independent Persistent Agents: Preserving Identity, Memory, and Code Across Models, Harnesses, and Servers](https://arxiv.org/abs/2609.00546) | 该论文提出一种运行时无关的持久化智能体架构，将身份、持久记忆和版本化代码作为连续性基底，与可替换的模型、执行框架、宿主服务器及交互表面解耦，使得更换这些运行时组件属于智能体迁移而非重新创建。 |
-| [^18] | [What Survives the Next Model? Benchmarking LLM-Based Techniques Against Single-Prompts](https://arxiv.org/abs/2609.00468) | 该研究通过对 ICSE 2026 的 35 篇基于 LLM 的技术论文进行基准测试，发现在 37% 到 63% 的论文中，新一代模型仅凭一个自动生成的提示词就能超越一年前提出的复杂工程化工具，表明许多复杂 LLM 技术面临被下一代模型原生能力淘汰的风险。 |
-| [^19] | [Audit-First Rollback Semantics for Safety-Critical Deployment Pipelines](https://arxiv.org/abs/2609.00406) | 提出审计优先回滚语义这一容错机制，保证在转换阶段发生故障停机崩溃时，部署运行时的审计链与实时状态在每个已提交的终止状态上保持一致。 |
-| [^20] | [Federated Trust for Embodied Robot Capability Marketplaces](https://arxiv.org/abs/2609.00404) | 本文提出用本地信任目录与 Ed25519 分离签名实现的联邦信任机制，取代中心化 PKI，使具身机器人技能市场能够在离线、多监管环境下完成本地化的安全安装验证。 |
-| [^21] | [Operation-Type-Aware Client Routing for Leader-Based Consensus Datastores](https://arxiv.org/abs/2609.00392) | 提出一种操作类型感知的客户端路由策略，通过将写操作固定路由至领导者、将读操作分散至健康节点读池，在降低延迟、提升吞吐量的同时还能自动检测并隔离静默劣化的跟随者节点。 |
-| [^22] | [Bounded, Indeterminate, or a Bug: A Condition-Aware Oracle for Differential Testing of SQL Aggregates](https://arxiv.org/abs/2609.00381) | 该论文提出一个条件感知的差分测试判定器，以存储双精度浮点数的精确有理值为真值，将聚合结果差异分类为“精确、有界或不确定”，并推导出由算法条件数决定的可测试性边界 kappa* = (1/C_A)^(1/p)，从而能够区分真实缺陷与合理的浮点舍入误差。 |
-| [^23] | [Deterministic LLM Inference Across GPU Kernels: Power-of-Two INT8 Quantization Scales and the Limits of Tolerance-Based Conformance](https://arxiv.org/abs/2609.00363) | 本文通过对INT8量化GEMM流水线系统性注入九种故障，证明了基于容差的符合性测试在构造上无法检测仅使输出偏移至多一个bfloat16间距的尾部计算故障，而采用二的幂次量化缩放因子是保障跨GPU核函数确定性推理的关键途径之一。 |
-| [^24] | [Revisiting Feedback-Driven LLM Code Repair: A Replication and Exploratory Java Extension](https://arxiv.org/abs/2609.00362) | 该研究部分复现了FeedbackEval基准并探索性地将其扩展到Java语言，发现基于Python得出的反馈驱动代码修复结论可能缺乏跨语言的泛化性。 |
-| [^25] | [Exploring Quantum Software Testing Across Research and Practice: Emerging Results from a Multivocal Literature Review](https://arxiv.org/abs/2609.00354) | 本文通过整合学术文献与灰色文献的多声部综述，首次系统刻画了研究界与工业界对量子软件测试的挑战、技术和工具的认知现状，揭示出该领域快速演进但碎片化的生态系统。 |
-| [^26] | [Spec-Driven Development for Agentic Software Engineering: Harnessing Human-Agent Teamwork](https://arxiv.org/abs/2609.00252) | 本文提出规范驱动开发（SDD）作为团队规模智能体软件工程的使能学科，并刻画了团队治理自主智能体行为的“缰绳”机制，以应对个体生产力提升但团队吞吐量与稳定性下降的生产力悖论。 |
-| [^27] | [Empirical Software Engineering in Practice: Insights from Google](https://arxiv.org/abs/2609.00247) | 本文作为“实践中的ESE”专栏首篇，通过采访谷歌开发者智能团队的从业者，揭示了实证软件工程在工业界的实际实施方式、研究方法选择、成果应用及面临的常见障碍。 |
-| [^28] | [Beyond Locks and Thread IDs: Static Data Race Detection Off The Beaten Path (Extended Version)](https://arxiv.org/abs/2609.00246) | 该论文扩展了摘要框架，以支持线程屏障、pthread_once以及祖先线程锁集合等此前被静态数据竞争检测所忽视的并发构造与同步机制，并通过判定测试套件证明现有最先进的工具缺乏对这些特征的支持。 |
-| [^29] | [Don't Let the Model Write the YAML: Deterministic, Minimal-Diff GitOps Remediation from LLM-Proposed Field Changes](https://arxiv.org/abs/2609.00227) | 该论文提出让 LLM 只负责做出字段级的语义决策，再由确定性工具将其转换为最小差异的配置修改，从而避免让模型直接生成 YAML 文件或 diff 所带来的静默损坏、不确定性和高开销问题。 |
-| [^30] | [Commit-first LLM judging inherits the judge's own errors](https://arxiv.org/abs/2609.00088) | 研究发现“先答后判”式LLM评判会继承评判者自身的错误，而对八个主流评估框架的审计表明无一真正实现该方法，其中九个框架因复制同一祖先提示词而采用了已被证明无效的变体，导致大量错误代码被放行。 |
-| [^31] | [Framework and Benchmark for Code-Driven Agentic Testing in Web Development](https://arxiv.org/abs/2609.00081) | 提出了代码驱动智能体测试（CAT）范式，通过CATJudge框架与CATTest基准让智能体编写Playwright代码自主探索Web应用以发现缺陷，实验揭示当前主流视觉语言模型的缺陷发现能力仍然薄弱。 |
-| [^32] | [Beneath the Diff: Diagnosing and Mitigating Algorithmic Mode Collapse in Code-Level Autonomous Research Loops](https://arxiv.org/abs/2609.00077) | 论文系统性地诊断出代码级自主研究循环中一种名为“算法模式坍缩”的失效模式——即表层编辑多样性看似稳定但算法层面的语义与机制多样性已经坍缩，并提出了相应的缓解方法。 |
-| [^33] | [Can MCP Clients Decide What to Do After Failure? A Result-Only Actionability Audit](https://arxiv.org/abs/2609.00072) | 该论文提出了一种仅基于MCP失败结果的可操作性审计框架，发现类型化字段虽能暴露失败和宽泛策略信息，但缺乏具体原因、目标和可执行修复方法，而自然语言描述虽含更丰富的信息却需要语义解释才能用于恢复。 |
-| [^34] | [CUDA-Harness: Harnessing Agentic CUDA Kernel Generation and Optimization from Natural Language](https://arxiv.org/abs/2609.00058) | 该论文提出CUDA-Harness框架，通过智能体式方法直接从自然语言生成并优化高性能CUDA内核，克服了现有工作局限于PyTorch转译以及因依赖预定义测试输入而易受奖励欺骗的不足。 |
-| [^35] | [Towards Agentic Cloud Engineering: Graph and Loop Engineering with a Zero-Trust Agent Harness](https://arxiv.org/abs/2609.00050) | 提出了一个智能体云工作流工程框架，通过将图工程（长时程工作流推进）、循环工程（有界诊断与修复重试）和零信任智能体套件（受限执行）三个关注点分离，将自然语言云工程任务自动转化为经过验证的代码仓库和可验证的云部署。 |
-| [^36] | [What Is a System? An Interaction-Based Account of Structure-Behavior Coalescence in General Systems Theory](https://arxiv.org/abs/2609.00043) | 本文提出“结构-行为融合”（SBC）观点，主张系统是结构化实体，其行为源于组成实体间的相互作用，且这些相互作用同时构成系统的结构组织与行为实现，从而为“什么是系统”提供了基于相互作用的统一解释。 |
-| [^37] | [Structure-Behavior Coalescence and the Limits of Traditional Systems Theory](https://arxiv.org/abs/2609.00042) | 本文提出“结构-行为融合”（SBC）原则，主张结构与行为是同一系统过程中相互构成的两个方面，系统同一性源于二者的持续共同决定，从而克服传统系统论将结构与行为分离处理所带来的解释困难。 |
-| [^38] | [trajectory-judge: What Outcome-Only LLM Judges Miss on Agent Trajectories](https://arxiv.org/abs/2609.00038) | 仅看最终结果的LLM评判器无法发现智能体“答对但走错路”的问题——在可构造真值的确定性客服工具环境中，仅结果型评判器对静默故障的召回率仅45%且误报33%的正确轨迹，而基于逐步评分标准的评判器可将静默故障召回率提升至77%。 |
-| [^39] | [SilentProbe: Measuring Silent Failure in Production APIs Used as Agent Tools](https://arxiv.org/abs/2609.00035) | 该论文首次大规模测量了LLM智能体调用生产API时的“静默失败”现象，发现API模式中机器可校验的约束（而非供应商身份）是预测服务器能否诚实报错的关键因素，而当前OpenAPI文档中这类约束严重缺失。 |
-| [^40] | [Harness Engineering: Anatomy, Architecture, and Evolution of Coding Agents -- A Source-Code Study of Eleven Systems](https://arxiv.org/abs/2609.00006) | 本文通过对十一套生产级编码智能体 harness 的源代码解剖，定义了 harness 的七大标准子系统，总结出 13 条跨系统观察结论和 29 种常见设计模式，为新兴的 harness 工程学科建立了最全面的实证基础。 |
-| [^41] | [RealSWE: A Compositional Evaluation of Coding Agents under Realistic User Requests](https://arxiv.org/abs/2608.27831) | 该论文提出RealSWE基准，通过381个源自SWE-bench的多变体任务族来模拟简短、随意、信息稀疏的真实用户请求，从而更真实地评估编程智能体，并揭示了现有基准与真实用户请求在信息完整度和语言风格上的显著差距。 |
-| [^42] | [SWE-bench Science: Can Coding Agents Resolve Engineering Tasks in Science?](https://arxiv.org/abs/2608.19799) | 本文提出了SWE-bench Science，一个针对科学软件工程的仓库级基准，并揭示即使最佳代理在科学任务中成功率也低于50%，主要因科学知识不足等四种机制导致失败。 |
-| [^43] | [MetaInfer: A Knowledge Only LLM Inference Engine Generator SKILL Toolbox](https://arxiv.org/abs/2607.12875) | 本文提出MetaInfer，一种利用LLM作为编译器，通过多智能体协作和契约知识库，仅根据用户指定的运行时约束自动生成定制化推理框架的方法，以减少代码复杂性和性能开销。 |
-| [^44] | [SEDCoT: Enhancing LLM-Based COBOL Code Translation via Symbolic Execution and Delta Debugging](https://arxiv.org/abs/2607.04092) | SEDCoT是一个COBOL到C的代码翻译框架，它先利用大语言模型进行初始翻译，再结合符号执行生成测试套件迭代修复语义差异，并通过增量调试将失败测试最小化为简洁反例，从而提升翻译正确性。 |
-| [^45] | [ChainSWE: Benchmarking Coding Agents on Multi-Bug Software Maintenance](https://arxiv.org/abs/2607.02606) | ChainSWE是首个评估编码智能体在共享代码库中进行顺序性、相互依赖缺陷修复的基准测试，通过收集54个Python项目的304个问题链条，揭示了随着链条长度增加智能体性能最多下降70%的现象。 |
-| [^46] | [Steer, Don't Solve: Training Small Critic Models for Large Code Agents](https://arxiv.org/abs/2606.21811) | 通过训练专门负责高层次规划的小型评论模型（4B/8B）在推理时引导大型编码智能体识别并纠正错误，在SWE-Bench Verified上显著提升多个更大规模编码智能体的解决率（最高提升16.0%）并降低推理成本。 |
-| [^47] | [Test vs Mutant: Adversarial LLM Agents for Robust Unit Test Generation](https://arxiv.org/abs/2602.08146) | 提出AdverTest框架，通过测试用例生成智能体与变异体生成智能体之间的对抗循环博弈，显著提升LLM生成单元测试在缺陷检测方面的鲁棒性。 |
-| [^48] | [Measuring Computer Science Enthusiasm: A Questionnaire-Based Analysis of Age and Gender Effects on Students' Interest](https://arxiv.org/abs/2512.08472) | 本研究开发了一份28条目的问卷来测量学生对计算机科学的热情，发现青少年兴趣在青春期早期显著下降（尤其女生），推翻了早期接触能保证持久兴趣的常见假设。 |
-| [^49] | [Multi-Agent LLM Orchestration Achieves Deterministic, High-Quality Decision Support for Incident Response](https://arxiv.org/abs/2511.15755) | 该论文提出MyAntFarm.ai框架，通过348次受控试验证明多智能体LLM编排相比单智能体方法可将可操作建议率从1.7%提升至100%，实现行动具体性提升80倍、方案正确性提升140倍且质量零方差的确定性事件响应决策支持。 |
-| [^50] | [Oops!... I did it again. Analysing and Handling Conclusion (In-)Stability in Socio-Technical Software Engineering](https://arxiv.org/abs/2510.06844) | 本研究通过用四个独立挖掘工具正式复现三项已发表的社会技术软件分析研究，揭示了不同工具流水线在数据、结果与结论上的不稳定性，并为研究者和从业者提供了应对此类效度威胁的可操作建议。 |
-| [^51] | [Essence Coach: A Bot for Software Practice Adoption](https://arxiv.org/abs/2508.16445) | 该论文提出 Essence Coach——一个结合大语言模型与检索增强生成（RAG）技术的聊天机器人，可作为教练工具帮助学习者和从业者理解并采纳 Essence 软件工程框架。 |
-| [^52] | [ParaStudent: Closing the Sim2Real Gap in User Simulators for AI Tutor Evaluation](https://arxiv.org/abs/2507.12674) | ParaStudent是一个通过微调来模拟初学者编程修改的框架，其模拟结果更贴近真实学生代码分布，可用于AI导师部署前的反馈评估与筛选。 |
-| [^53] | [The Popularity Hypothesis in Software Security: A Large-Scale Replication with PHP Packages](https://arxiv.org/abs/2502.16670) | 本文通过对近40万个PHP开源软件包和6000多个WordPress组件的大规模复现分析，验证了软件安全领域的流行度假设，即出现过漏洞报告的软件包通常比漏洞较少或没有漏洞的软件包更流行。 |
+| [^10] | [Reliable LLM-Generated Programs for High-Energy Physics Experiments through Graph-Grounded Software Knowledge](https://arxiv.org/abs/2609.01095) | 该论文构建了异构软件知识图谱并结合混合检索、技能筛选的工作流示例与执行引导修复机制，显著提升了大语言模型在高能物理ROOT软件生态中生成可靠可用程序的成功率。 |
+| [^11] | [Fine-Tuning Large Language Models to Classify Pull Request-Issue Alignments: Going Beyond Prompting](https://arxiv.org/abs/2609.01087) | 本研究超越了简单的提示工程方法，通过微调GPT-4o及多种开源大语言模型来自动分类拉取请求与问题之间的对齐关系，并结合可解释性分析揭示了PR-问题各字段对模型预测的影响。 |
+| [^12] | [Does Fault Localization Beat a Fresh Attempt? A Placebo-Controlled Study of Test-Guided Code Repair](https://arxiv.org/abs/2609.00854) | 该安慰剂对照研究发现，故障定位在实际场景中很少可用（仅约9%的失败候选可定位），且即便可定位，基于频谱定位的片段填充修复也显著劣于盲目的整体重采样。 |
+| [^13] | [Probabilistic Model Checking of Autoregressive Neural Sequence Models](https://arxiv.org/abs/2609.00838) | 本文提出一种基于概率模型检测的验证流程，从自回归神经序列模型的逐token生成中提取DTMC并用PRISM验证PCTL规约，从而给出约束违反概率的认证区间和构造性保守的输入空间覆盖率曲线，并借助CEGAR循环自适应收紧区间。 |
+| [^14] | [Replacing Training with Memory: Listwise Selection for Text-to-SQL](https://arxiv.org/abs/2609.00834) | 该论文提出MaP-SQL，一种无需微调的Text-to-SQL列表式选择器，通过从训练数据蒸馏的可复用结构化记忆替代学习选择标准，并利用排名聚合缓解位置偏差，从而以更低成本实现候选查询选择。 |
+| [^15] | [Towards a Reliable and Practical Eval Pipeline](https://arxiv.org/abs/2609.00805) | 该论文提出了一种结合评估检查清单创建与学习式聚合的端到端评估流水线，提高了LLM评判者之间的一致性及与人类判断的吻合度，同时提供自一致性、解释和预测不确定性。 |
+| [^16] | [Predicting Program Exit Code with LLMs and Programming Language Semantics](https://arxiv.org/abs/2609.00579) | 该论文提出了程序可执行性预测这一新任务，并构建了由有效程序系统性生成无效变换的数据集，以研究大语言模型在判断程序有效性及其违反的形式化语义规则时，究竟是依赖预训练先验知识还是给定的程序语义。 |
+| [^17] | [WiseSpec: Requirements-Driven Agents for Code Generation](https://arxiv.org/abs/2609.00568) | 该论文提出WiseSpec框架，借鉴软件需求工程思想，通过自动构建高质量结构化需求并结合基于执行的评估进行迭代优化，从而提升大语言模型在仓库级代码生成中的表现。 |
+| [^18] | [Runtime-Independent Persistent Agents: Preserving Identity, Memory, and Code Across Models, Harnesses, and Servers](https://arxiv.org/abs/2609.00546) | 该论文提出一种运行时无关的持久化智能体架构，将身份、持久记忆和版本化代码作为连续性基底，与可替换的模型、执行框架、宿主服务器及交互表面解耦，使得更换这些运行时组件属于智能体迁移而非重新创建。 |
+| [^19] | [What Survives the Next Model? Benchmarking LLM-Based Techniques Against Single-Prompts](https://arxiv.org/abs/2609.00468) | 该研究通过对 ICSE 2026 的 35 篇基于 LLM 的技术论文进行基准测试，发现在 37% 到 63% 的论文中，新一代模型仅凭一个自动生成的提示词就能超越一年前提出的复杂工程化工具，表明许多复杂 LLM 技术面临被下一代模型原生能力淘汰的风险。 |
+| [^20] | [Audit-First Rollback Semantics for Safety-Critical Deployment Pipelines](https://arxiv.org/abs/2609.00406) | 提出审计优先回滚语义这一容错机制，保证在转换阶段发生故障停机崩溃时，部署运行时的审计链与实时状态在每个已提交的终止状态上保持一致。 |
+| [^21] | [Federated Trust for Embodied Robot Capability Marketplaces](https://arxiv.org/abs/2609.00404) | 本文提出用本地信任目录与 Ed25519 分离签名实现的联邦信任机制，取代中心化 PKI，使具身机器人技能市场能够在离线、多监管环境下完成本地化的安全安装验证。 |
+| [^22] | [Operation-Type-Aware Client Routing for Leader-Based Consensus Datastores](https://arxiv.org/abs/2609.00392) | 提出一种操作类型感知的客户端路由策略，通过将写操作固定路由至领导者、将读操作分散至健康节点读池，在降低延迟、提升吞吐量的同时还能自动检测并隔离静默劣化的跟随者节点。 |
+| [^23] | [Bounded, Indeterminate, or a Bug: A Condition-Aware Oracle for Differential Testing of SQL Aggregates](https://arxiv.org/abs/2609.00381) | 该论文提出一个条件感知的差分测试判定器，以存储双精度浮点数的精确有理值为真值，将聚合结果差异分类为“精确、有界或不确定”，并推导出由算法条件数决定的可测试性边界 kappa* = (1/C_A)^(1/p)，从而能够区分真实缺陷与合理的浮点舍入误差。 |
+| [^24] | [Deterministic LLM Inference Across GPU Kernels: Power-of-Two INT8 Quantization Scales and the Limits of Tolerance-Based Conformance](https://arxiv.org/abs/2609.00363) | 本文通过对INT8量化GEMM流水线系统性注入九种故障，证明了基于容差的符合性测试在构造上无法检测仅使输出偏移至多一个bfloat16间距的尾部计算故障，而采用二的幂次量化缩放因子是保障跨GPU核函数确定性推理的关键途径之一。 |
+| [^25] | [Revisiting Feedback-Driven LLM Code Repair: A Replication and Exploratory Java Extension](https://arxiv.org/abs/2609.00362) | 该研究部分复现了FeedbackEval基准并探索性地将其扩展到Java语言，发现基于Python得出的反馈驱动代码修复结论可能缺乏跨语言的泛化性。 |
+| [^26] | [Exploring Quantum Software Testing Across Research and Practice: Emerging Results from a Multivocal Literature Review](https://arxiv.org/abs/2609.00354) | 本文通过整合学术文献与灰色文献的多声部综述，首次系统刻画了研究界与工业界对量子软件测试的挑战、技术和工具的认知现状，揭示出该领域快速演进但碎片化的生态系统。 |
+| [^27] | [Spec-Driven Development for Agentic Software Engineering: Harnessing Human-Agent Teamwork](https://arxiv.org/abs/2609.00252) | 本文提出规范驱动开发（SDD）作为团队规模智能体软件工程的使能学科，并刻画了团队治理自主智能体行为的“缰绳”机制，以应对个体生产力提升但团队吞吐量与稳定性下降的生产力悖论。 |
+| [^28] | [Empirical Software Engineering in Practice: Insights from Google](https://arxiv.org/abs/2609.00247) | 本文作为“实践中的ESE”专栏首篇，通过采访谷歌开发者智能团队的从业者，揭示了实证软件工程在工业界的实际实施方式、研究方法选择、成果应用及面临的常见障碍。 |
+| [^29] | [Beyond Locks and Thread IDs: Static Data Race Detection Off The Beaten Path (Extended Version)](https://arxiv.org/abs/2609.00246) | 该论文扩展了摘要框架，以支持线程屏障、pthread_once以及祖先线程锁集合等此前被静态数据竞争检测所忽视的并发构造与同步机制，并通过判定测试套件证明现有最先进的工具缺乏对这些特征的支持。 |
+| [^30] | [Don't Let the Model Write the YAML: Deterministic, Minimal-Diff GitOps Remediation from LLM-Proposed Field Changes](https://arxiv.org/abs/2609.00227) | 该论文提出让 LLM 只负责做出字段级的语义决策，再由确定性工具将其转换为最小差异的配置修改，从而避免让模型直接生成 YAML 文件或 diff 所带来的静默损坏、不确定性和高开销问题。 |
+| [^31] | [Commit-first LLM judging inherits the judge's own errors](https://arxiv.org/abs/2609.00088) | 研究发现“先答后判”式LLM评判会继承评判者自身的错误，而对八个主流评估框架的审计表明无一真正实现该方法，其中九个框架因复制同一祖先提示词而采用了已被证明无效的变体，导致大量错误代码被放行。 |
+| [^32] | [Framework and Benchmark for Code-Driven Agentic Testing in Web Development](https://arxiv.org/abs/2609.00081) | 提出了代码驱动智能体测试（CAT）范式，通过CATJudge框架与CATTest基准让智能体编写Playwright代码自主探索Web应用以发现缺陷，实验揭示当前主流视觉语言模型的缺陷发现能力仍然薄弱。 |
+| [^33] | [Beneath the Diff: Diagnosing and Mitigating Algorithmic Mode Collapse in Code-Level Autonomous Research Loops](https://arxiv.org/abs/2609.00077) | 论文系统性地诊断出代码级自主研究循环中一种名为“算法模式坍缩”的失效模式——即表层编辑多样性看似稳定但算法层面的语义与机制多样性已经坍缩，并提出了相应的缓解方法。 |
+| [^34] | [Can MCP Clients Decide What to Do After Failure? A Result-Only Actionability Audit](https://arxiv.org/abs/2609.00072) | 该论文提出了一种仅基于MCP失败结果的可操作性审计框架，发现类型化字段虽能暴露失败和宽泛策略信息，但缺乏具体原因、目标和可执行修复方法，而自然语言描述虽含更丰富的信息却需要语义解释才能用于恢复。 |
+| [^35] | [CUDA-Harness: Harnessing Agentic CUDA Kernel Generation and Optimization from Natural Language](https://arxiv.org/abs/2609.00058) | 该论文提出CUDA-Harness框架，通过智能体式方法直接从自然语言生成并优化高性能CUDA内核，克服了现有工作局限于PyTorch转译以及因依赖预定义测试输入而易受奖励欺骗的不足。 |
+| [^36] | [Towards Agentic Cloud Engineering: Graph and Loop Engineering with a Zero-Trust Agent Harness](https://arxiv.org/abs/2609.00050) | 提出了一个智能体云工作流工程框架，通过将图工程（长时程工作流推进）、循环工程（有界诊断与修复重试）和零信任智能体套件（受限执行）三个关注点分离，将自然语言云工程任务自动转化为经过验证的代码仓库和可验证的云部署。 |
+| [^37] | [What Is a System? An Interaction-Based Account of Structure-Behavior Coalescence in General Systems Theory](https://arxiv.org/abs/2609.00043) | 本文提出“结构-行为融合”（SBC）观点，主张系统是结构化实体，其行为源于组成实体间的相互作用，且这些相互作用同时构成系统的结构组织与行为实现，从而为“什么是系统”提供了基于相互作用的统一解释。 |
+| [^38] | [Structure-Behavior Coalescence and the Limits of Traditional Systems Theory](https://arxiv.org/abs/2609.00042) | 本文提出“结构-行为融合”（SBC）原则，主张结构与行为是同一系统过程中相互构成的两个方面，系统同一性源于二者的持续共同决定，从而克服传统系统论将结构与行为分离处理所带来的解释困难。 |
+| [^39] | [trajectory-judge: What Outcome-Only LLM Judges Miss on Agent Trajectories](https://arxiv.org/abs/2609.00038) | 仅看最终结果的LLM评判器无法发现智能体“答对但走错路”的问题——在可构造真值的确定性客服工具环境中，仅结果型评判器对静默故障的召回率仅45%且误报33%的正确轨迹，而基于逐步评分标准的评判器可将静默故障召回率提升至77%。 |
+| [^40] | [SilentProbe: Measuring Silent Failure in Production APIs Used as Agent Tools](https://arxiv.org/abs/2609.00035) | 该论文首次大规模测量了LLM智能体调用生产API时的“静默失败”现象，发现API模式中机器可校验的约束（而非供应商身份）是预测服务器能否诚实报错的关键因素，而当前OpenAPI文档中这类约束严重缺失。 |
+| [^41] | [Harness Engineering: Anatomy, Architecture, and Evolution of Coding Agents -- A Source-Code Study of Eleven Systems](https://arxiv.org/abs/2609.00006) | 本文通过对十一套生产级编码智能体 harness 的源代码解剖，定义了 harness 的七大标准子系统，总结出 13 条跨系统观察结论和 29 种常见设计模式，为新兴的 harness 工程学科建立了最全面的实证基础。 |
+| [^42] | [RealSWE: A Compositional Evaluation of Coding Agents under Realistic User Requests](https://arxiv.org/abs/2608.27831) | 该论文提出RealSWE基准，通过381个源自SWE-bench的多变体任务族来模拟简短、随意、信息稀疏的真实用户请求，从而更真实地评估编程智能体，并揭示了现有基准与真实用户请求在信息完整度和语言风格上的显著差距。 |
+| [^43] | [SWE-bench Science: Can Coding Agents Resolve Engineering Tasks in Science?](https://arxiv.org/abs/2608.19799) | 本文提出了SWE-bench Science，一个针对科学软件工程的仓库级基准，并揭示即使最佳代理在科学任务中成功率也低于50%，主要因科学知识不足等四种机制导致失败。 |
+| [^44] | [MetaInfer: A Knowledge Only LLM Inference Engine Generator SKILL Toolbox](https://arxiv.org/abs/2607.12875) | 本文提出MetaInfer，一种利用LLM作为编译器，通过多智能体协作和契约知识库，仅根据用户指定的运行时约束自动生成定制化推理框架的方法，以减少代码复杂性和性能开销。 |
+| [^45] | [SEDCoT: Enhancing LLM-Based COBOL Code Translation via Symbolic Execution and Delta Debugging](https://arxiv.org/abs/2607.04092) | SEDCoT是一个COBOL到C的代码翻译框架，它先利用大语言模型进行初始翻译，再结合符号执行生成测试套件迭代修复语义差异，并通过增量调试将失败测试最小化为简洁反例，从而提升翻译正确性。 |
+| [^46] | [ChainSWE: Benchmarking Coding Agents on Multi-Bug Software Maintenance](https://arxiv.org/abs/2607.02606) | ChainSWE是首个评估编码智能体在共享代码库中进行顺序性、相互依赖缺陷修复的基准测试，通过收集54个Python项目的304个问题链条，揭示了随着链条长度增加智能体性能最多下降70%的现象。 |
+| [^47] | [Steer, Don't Solve: Training Small Critic Models for Large Code Agents](https://arxiv.org/abs/2606.21811) | 通过训练专门负责高层次规划的小型评论模型（4B/8B）在推理时引导大型编码智能体识别并纠正错误，在SWE-Bench Verified上显著提升多个更大规模编码智能体的解决率（最高提升16.0%）并降低推理成本。 |
+| [^48] | [Test vs Mutant: Adversarial LLM Agents for Robust Unit Test Generation](https://arxiv.org/abs/2602.08146) | 提出AdverTest框架，通过测试用例生成智能体与变异体生成智能体之间的对抗循环博弈，显著提升LLM生成单元测试在缺陷检测方面的鲁棒性。 |
+| [^49] | [From Rookie to Pro: Social Engineering LLMs for Automated Vulnerability Exploitation in Enterprise Software](https://arxiv.org/abs/2512.22753) | 本文提出RSA社会工程学预设策略，可绕过主流大语言模型的安全机制，使没有技术背景的新手在3-5轮提示交互内自动生成针对企业软件Odoo已知CVE漏洞的可利用代码，揭示了LLM的普及化对企业软件安全构成的严重威胁。 |
+| [^50] | [Measuring Computer Science Enthusiasm: A Questionnaire-Based Analysis of Age and Gender Effects on Students' Interest](https://arxiv.org/abs/2512.08472) | 本研究开发了一份28条目的问卷来测量学生对计算机科学的热情，发现青少年兴趣在青春期早期显著下降（尤其女生），推翻了早期接触能保证持久兴趣的常见假设。 |
+| [^51] | [Multi-Agent LLM Orchestration Achieves Deterministic, High-Quality Decision Support for Incident Response](https://arxiv.org/abs/2511.15755) | 该论文提出MyAntFarm.ai框架，通过348次受控试验证明多智能体LLM编排相比单智能体方法可将可操作建议率从1.7%提升至100%，实现行动具体性提升80倍、方案正确性提升140倍且质量零方差的确定性事件响应决策支持。 |
+| [^52] | [Oops!... I did it again. Analysing and Handling Conclusion (In-)Stability in Socio-Technical Software Engineering](https://arxiv.org/abs/2510.06844) | 本研究通过用四个独立挖掘工具正式复现三项已发表的社会技术软件分析研究，揭示了不同工具流水线在数据、结果与结论上的不稳定性，并为研究者和从业者提供了应对此类效度威胁的可操作建议。 |
+| [^53] | [Essence Coach: A Bot for Software Practice Adoption](https://arxiv.org/abs/2508.16445) | 该论文提出 Essence Coach——一个结合大语言模型与检索增强生成（RAG）技术的聊天机器人，可作为教练工具帮助学习者和从业者理解并采纳 Essence 软件工程框架。 |
+| [^54] | [ParaStudent: Closing the Sim2Real Gap in User Simulators for AI Tutor Evaluation](https://arxiv.org/abs/2507.12674) | ParaStudent是一个通过微调来模拟初学者编程修改的框架，其模拟结果更贴近真实学生代码分布，可用于AI导师部署前的反馈评估与筛选。 |
+| [^55] | [The Popularity Hypothesis in Software Security: A Large-Scale Replication with PHP Packages](https://arxiv.org/abs/2502.16670) | 本文通过对近40万个PHP开源软件包和6000多个WordPress组件的大规模复现分析，验证了软件安全领域的流行度假设，即出现过漏洞报告的软件包通常比漏洞较少或没有漏洞的软件包更流行。 |
 
 # 详细
 
@@ -184,7 +186,21 @@
 
     arXiv:2609.01106v1 Announce Type: cross  Abstract: When a hint turns a failing generated program into a passing one, does it provide missing information or merely steer the model toward a solution it could already produce? We test these hypotheses on HumanEval+ and MBPP+ using executable evaluation. For Qwen2.5-3B-Instruct, adaptive relevant hints rescue 36 of 79 selected failures; an unrelated hint rescues 19, while eight unhinted samples solve 46 and recover 31 of the 36 relevant-hint rescues. Phi-3.5-mini shows the same pattern: relevant hints rescue 42 of 101 failures, an unrelated hint rescues 17, and unhinted sampling solves 57, including 36 of the 42 relevant-hint rescues. Because the hint conditions use different attempt budgets, these comparisons do not isolate a purely semantic effect. Mechanistic tests on Qwen identify a stable activation direction shared by relevant and unrelated hints. Persistently adding this direction yields 14 rescues and 18 regressions, with no detecta
     
-[^10]: 微调大语言模型以分类拉取请求与问题的对齐关系：超越提示工程
+[^10]: 通过基于软件知识图谱的接地技术实现高能物理实验中可靠的大语言模型生成程序
+
+    Reliable LLM-Generated Programs for High-Energy Physics Experiments through Graph-Grounded Software Knowledge
+
+    [https://arxiv.org/abs/2609.01095](https://arxiv.org/abs/2609.01095)
+
+    该论文构建了异构软件知识图谱并结合混合检索、技能筛选的工作流示例与执行引导修复机制，显著提升了大语言模型在高能物理ROOT软件生态中生成可靠可用程序的成功率。
+
+    
+
+    从现代粒子物理实验中提取物理信息，需要在庞大且高度互联的软件生态系统之上实现多阶段分析。通用大语言模型（LLM）在此类任务中常常生成不可靠的程序，因为仅凭用户请求很少能明确所需的API、依赖关系和使用惯例。我们在生成之前预先组织这些软件关系，并在推理时检索与任务相关的知识。以开源ROOT框架作为具有代表性且可复现的测试平台，我们评估了一套完整的接地系统，该系统结合了基于异构软件知识图谱的混合检索、经技能筛选的工作流示例，以及执行引导的修复。在一个包含275个ROOT任务的基准测试中，接地技术将Claude Code编排下的首次执行成功率从58.5%提升至76.0%，在独立编排下从51.3%提升至64.0%，最终成功率也有显著提升。
+
+    arXiv:2609.01095v1 Announce Type: new  Abstract: Extracting physics information from modern particle-physics experiments requires multistage analyses implemented on top of large and highly interconnected software ecosystems. General-purpose large language models (LLMs) often produce unreliable programs for such tasks because a user request alone rarely specifies the required APIs, dependencies, and usage conventions. We organize these software relations before generation and retrieve task-relevant knowledge at inference time. Using the open-source ROOT framework as a representative and reproducible testbed, we evaluate a complete grounding system that combines hybrid retrieval over a heterogeneous software knowledge graph, skill-selected workflow examples, and execution-guided repair. On a benchmark of 275 ROOT tasks, grounding improves first-attempt execution from 58.5% to 76.0% under Claude Code orchestration and from 51.3% to 64.0% under standalone orchestration. Final success incre
+    
+[^11]: 微调大语言模型以分类拉取请求与问题的对齐关系：超越提示工程
 
     Fine-Tuning Large Language Models to Classify Pull Request-Issue Alignments: Going Beyond Prompting
 
@@ -198,7 +214,7 @@
 
     arXiv:2609.01087v1 Announce Type: new  Abstract: Context: Accurate alignment between pull requests (PRs) and corresponding issues is crucial for efficient software development and maintaining code quality, as misalignments can reduce traceability, hinder defect localization, and decrease maintainability.   Objective: This study aims to improve automated PR-issue alignment classification by leveraging fine-tuned large language models (LLMs) across multiple alignment categories, and conducts interpretability analysis to investigate the effects of PR-issue fields on the predictions of fine-tuned LLMs.   Method: Our methodology consists of dataset preparation, LLM fine-tuning, and interpretability analysis. We first extended an existing dataset and applied data augmentation to address class imbalance. GPT-4o was then fine-tuned via instruction tuning, and open-source LLMs including CodeLlama-7B, CodeQwen1.5-7B, StableCode-3B, CodeGemma-7B, and Deepseek-Coder-6.7B were fine-tuned using clas
     
-[^11]: 故障定位能否胜过重新尝试？——一项关于测试引导代码修复的安慰剂对照研究
+[^12]: 故障定位能否胜过重新尝试？——一项关于测试引导代码修复的安慰剂对照研究
 
     Does Fault Localization Beat a Fresh Attempt? A Placebo-Controlled Study of Test-Guided Code Repair
 
@@ -212,7 +228,7 @@
 
     arXiv:2609.00854v1 Announce Type: cross  Abstract: Fault localization can focus a code model's repair on the statements a failing test implicates, but a targeted edit may succeed merely because it is small, and a second model call may succeed without using the failure at all. We separate these explanations with three arms applied to the same failed candidate: blind whole-solution resampling, spectrum-based localization followed by suspect-span infilling, and same-length infilling at a disjoint random code span. Across three frozen 26-32B models, three benchmarks and 488 failing candidates, plus a separately declared 24B fourth model from a third family, three results follow. First, localization is rarely available: only 9.0% of failing candidates expose a failing public test with a usable spectrum. Second, among the 177 candidates localizable from a strong suite, localized infilling loses decisively to blind resampling at a matched attempt count (3:40, p = 3.0 x 10^-9), opposite to our
     
-[^12]: 自回归神经序列模型的概率模型检测
+[^13]: 自回归神经序列模型的概率模型检测
 
     Probabilistic Model Checking of Autoregressive Neural Sequence Models
 
@@ -226,7 +242,7 @@
 
     arXiv:2609.00838v1 Announce Type: cross  Abstract: Test-set accuracy is silent on two issues that matter when deploying autoregressive neural sequence models: how much probability mass the system under test (SUT) places on constraint-violating alternatives that are reachable under sampling and what fraction of the input population satisfies a domain requirement. We answer both with probabilistic model checking. The pipeline extracts a discrete-time Markov chain (DTMC) from the SUT's token-by-token generation, verifies formal PCTL specifications with the PRISM model checker, and aggregates the per-input verdicts into a coverage curve over the input space. A soundness theorem establishes the DTMC as an under-approximation, so every verdict yields a certified interval on the SUT's true reachability probability. The coverage built from those verdicts is, therefore, conservative by construction. A counterexample-guided abstraction refinement (CEGAR) loop adaptively tightens the interval, an
     
-[^13]: 用记忆取代训练：面向Text-to-SQL的列表式选择方法
+[^14]: 用记忆取代训练：面向Text-to-SQL的列表式选择方法
 
     Replacing Training with Memory: Listwise Selection for Text-to-SQL
 
@@ -240,7 +256,7 @@
 
     arXiv:2609.00834v1 Announce Type: cross  Abstract: Modern Text-to-SQL systems often follow generate-execute-select pipelines, generating multiple candidate queries then selecting the best one. Listwise selection, by jointly comparing multiple candidates, has been widely adopted, but fine-tuning listwise selectors is costly. We thus propose a fine-tuning-free listwise selector. We replace two major fine-tuning objectives with inference-time strategies: (1) learning selection criteria as ordering and (2) mitigating positional bias. First, we build reusable structured memories instead of learning selection behavior as model parameters. Given a question, MaP-SQL retrieves memories distilled from training data that encode how natural language maps to schema elements, SQL operations, and expected outputs. These memories serve as explicit decision criteria for evaluating candidates in a listwise manner. Second, to mitigate ordering bias of listwise selectors, we aggregate rankings across mult
     
-[^14]: 迈向可靠且实用的评估流水线
+[^15]: 迈向可靠且实用的评估流水线
 
     Towards a Reliable and Practical Eval Pipeline
 
@@ -254,7 +270,7 @@
 
     arXiv:2609.00805v1 Announce Type: new  Abstract: LLM-based software systems increasingly require effective "evals" as quality gates in the development lifecycle. However, existing work typically addresses individual aspects of eval reliability rather than the full set of practical requirements. We present an end-to-end eval pipeline that combines eval checklist creation, with learned aggregation for checklist responses, to improve agreement across LLM judges and accuracy against human judgments. The framework additionally pro- vides self-consistency, explanations, and prediction uncertainty, and we empirically demonstrate its effectiveness.
     
-[^15]: 基于大语言模型与程序设计语言语义的程序退出码预测
+[^16]: 基于大语言模型与程序设计语言语义的程序退出码预测
 
     Predicting Program Exit Code with LLMs and Programming Language Semantics
 
@@ -268,7 +284,7 @@
 
     arXiv:2609.00579v1 Announce Type: cross  Abstract: Large language models (LLMs) have shown proficiency in various software engineering tasks, such as code generation and translation. However, a key limitation in their performance may be their (lack of) understanding of programming-language semantics. Even when explicit semantics are given, it remains unclear whether LLMs apply those rules or lean on priors learned during pre-training instead. We study if LLMs lean on priors or given semantics with a novel task--Program Executability Prediction (PrEx)--that asks models to predict whether a program is semantically valid or invalid (and, if invalid, which formal rule it violates) given the program's syntax and operational semantics. Because PrEx requires both valid and invalid programs, we build a dataset with systematically generated invalid transformations derived from valid programs. We evaluate open-source coding LLMs under two semantic formalisms and two semantic shifts across Human-
     
-[^16]: WiseSpec：面向代码生成的需求驱动智能体
+[^17]: WiseSpec：面向代码生成的需求驱动智能体
 
     WiseSpec: Requirements-Driven Agents for Code Generation
 
@@ -282,7 +298,7 @@
 
     arXiv:2609.00568v1 Announce Type: cross  Abstract: Code generation aims to automatically generate source code from task requirements and has attracted significant attention with the rapid advancement of large language models (LLMs). Despite remarkable progress, LLMs often struggle to generate correct code for complex software engineering tasks because task descriptions are frequently incomplete, ambiguous, or lack critical contextual information. Existing approaches primarily improve the capabilities of coding agents through more sophisticated tools, skills, and workflows, while largely overlooking the quality of the task requirements themselves. To address this limitation, we draw inspiration from software requirements engineering and propose WiseSpec, a novel requirements-driven agent framework for repository-level code generation. WiseSpec automatically constructs structured and information-rich requirements, assesses their quality through execution-based evaluation, and iteratively
     
-[^17]: 运行时无关的持久化智能体：跨模型、执行框架与服务器保留身份、记忆与代码
+[^18]: 运行时无关的持久化智能体：跨模型、执行框架与服务器保留身份、记忆与代码
 
     Runtime-Independent Persistent Agents: Preserving Identity, Memory, and Code Across Models, Harnesses, and Servers
 
@@ -296,7 +312,7 @@
 
     arXiv:2609.00546v1 Announce Type: cross  Abstract: Agent systems are commonly described by the model and harness that currently produce their behavior. That boundary is useful for one execution but underspecifies a long-lived agent that may change models, orchestration harnesses, interaction sessions, and host servers while retaining one identity, memory, and executable code lineage. We present a runtime-independent architecture for persistent agents. A continuity-bearing substrate $P_t=(I_t,M_t,B_t)$ contains an architectural identity representation, private durable memory, and a versioned software body. A replaceable deployment binding comprises an execution substrate $E_t=(R_t,H_t,D_t)$, which supplies a reasoner, harness, and host, and a set of interaction surfaces $S_t$, such as chat, API, or user interface bindings. A deployed execution is $A_t=P_t\triangleright(E_t,S_t)$; changing either replaceable layer is migration, not agent creation, when an authorized protocol preserves at
     
-[^18]: 什么能在下一代模型中幸存？将基于大语言模型的技术与单一提示词进行基准对比
+[^19]: 什么能在下一代模型中幸存？将基于大语言模型的技术与单一提示词进行基准对比
 
     What Survives the Next Model? Benchmarking LLM-Based Techniques Against Single-Prompts
 
@@ -310,7 +326,7 @@
 
     arXiv:2609.00468v1 Announce Type: new  Abstract: The software engineering research community has enthusiastically embraced the integration of Large Language Models (LLMs) into complex techniques to solve a wide variety of tasks. However, the extent to which this investment is strategic remains unclear, as the native capabilities of successive frontier model generations can rapidly render existing techniques obsolete. To assess this research investment, we analyze 35 LLM-based technique papers from ICSE 2026. We evaluate whether their complex tools can be outperformed by the simplest possible alternative: a single, automatically generated prompt executed on a newer generation model, without any iterative refinement. We find that for between 37% and 63% papers, a newer model with a single prompt natively outperforms the heavily engineered tooling proposed just a year prior. We identify that constructive techniques like code generation or repair are more amenable to substitution by a sing
     
-[^19]: 面向安全关键部署流水线的审计优先回滚语义
+[^20]: 面向安全关键部署流水线的审计优先回滚语义
 
     Audit-First Rollback Semantics for Safety-Critical Deployment Pipelines
 
@@ -324,7 +340,7 @@
 
     arXiv:2609.00406v1 Announce Type: new  Abstract: Distributed deployment runtimes carry a coherence obligation that classical fault-tolerance frameworks do not name directly: the live state a component is configured to run and the audit chain that records how it got there must agree at every terminal configuration. Prior works mainly focus on individual aspects of the deploy-time fault surface (canary controllers, configuration rollback, signed attestations), leaving the cross-cutting question of audit/live coherence under fail-stop crash only loosely specified. Yet a key systems question remains unresolved: how can a deployment runtime guarantee that the audit chain answers truthfully about live state even when a transition crashes mid-flight? We present audit-first rollback semantics, a fault-tolerance mechanism that guarantees audit/live coherence at every committed terminal under fail-stop crashes during transition phases. The mechanism pairs with provisional state machines, pipelin
     
-[^20]: 具身机器人能力市场的联邦信任机制
+[^21]: 具身机器人能力市场的联邦信任机制
 
     Federated Trust for Embodied Robot Capability Marketplaces
 
@@ -338,7 +354,7 @@
 
     arXiv:2609.00404v1 Announce Type: cross  Abstract: Robot capability marketplaces, the "app store for robot skills," are emerging as the deployment vector for LLM-driven robot fleets. The default cloud-native answer to "is this package safe to install?" is centralised PKI: one certificate authority, one transparency log, one root of trust. We argue this is the wrong model for embodied robot fleets, where operators face heterogeneous regulatory regimes, air-gapped deployments, tiny operator headcounts, and physical-world consequences for trusting the wrong publisher. We present federated trust: each deployed bridge maintains its own local trust directory of acceptable signers; signers identify themselves with a public key embedded in a detached Ed25519 signature envelope; install-time verification is a local set-membership check rather than a network round trip to a certificate authority. The cryptographic primitives are deliberately standard (Ed25519 detached signatures and SSH-style tr
     
-[^21]: 面向基于领导者的共识数据存储的操作类型感知客户端路由
+[^22]: 面向基于领导者的共识数据存储的操作类型感知客户端路由
 
     Operation-Type-Aware Client Routing for Leader-Based Consensus Datastores
 
@@ -352,7 +368,7 @@
 
     arXiv:2609.00392v1 Announce Type: cross  Abstract: Leader-based consensus datastores (etcd, ZooKeeper) face two competing routing goals: spread load evenly across members, and route operations to the member whose protocol role matches the operation. Writes must commit through the leader, so sending them elsewhere adds a forwarding hop. Linearizable reads need only a lightweight leader confirmation before any member can serve them locally. The upstream etcd client uses gRPC's round_robin balancer, distributing reads and writes uniformly across cluster members. An operation-aware client resolves this by pinning writes to the leader and distributing reads across the healthy read pool. In steady state on a 3-node etcd cluster (80/20 read/write mix, 5 trials), this lowers write P50 by 29% and raises throughput by 9%. When a follower degrades silently, the operation-aware client detects the latency shift and removes it from the read pool, cutting read P99 by 64%, write P99 by 74%, and raisin
     
-[^22]: 有界、不确定，还是缺陷：一个面向SQL聚合差分测试的条件感知判定器
+[^23]: 有界、不确定，还是缺陷：一个面向SQL聚合差分测试的条件感知判定器
 
     Bounded, Indeterminate, or a Bug: A Condition-Aware Oracle for Differential Testing of SQL Aggregates
 
@@ -366,7 +382,7 @@
 
     arXiv:2609.00381v1 Announce Type: cross  Abstract: Differential database testing compares results across engines and calls a discrepancy a bug. For floating-point aggregates this is unsound: engines legitimately disagree because floating-point arithmetic is not associative. Practice patches this with an epsilon; the leading oracles avoid floating point entirely. We give the oracle this practice lacks, and show its decisive quantity is not the query but the engine's algorithm. Ground truth is the exact rational value of the stored doubles -- arithmetic, not another engine -- and each discrepancy is classified exact, bounded, or indeterminate. The relative error of an aggregate f under an algorithm A obeys rel_err <= C_A(n,u) * kappa_f^p, so the testability boundary, beyond which no oracle can separate a bug from rounding, is kappa*_{f,A} = (1/C_A)^{1/p}. SUM and AVG are the linear case p=1; variance is p=2 for the one-pass algorithm and p=1 for Welford. Across eight engines in four clas
     
-[^23]: 跨GPU核函数的确定性大语言模型推理：二的幂次INT8量化缩放因子与基于容差的符合性测试的局限
+[^24]: 跨GPU核函数的确定性大语言模型推理：二的幂次INT8量化缩放因子与基于容差的符合性测试的局限
 
     Deterministic LLM Inference Across GPU Kernels: Power-of-Two INT8 Quantization Scales and the Limits of Tolerance-Based Conformance
 
@@ -380,7 +396,7 @@
 
     arXiv:2609.00363v1 Announce Type: new  Abstract: Conformance suites for quantized GEMM kernels ask whether two implementations agree within a tolerance. We measure what such a suite can detect. Injecting nine faults into a reference INT8 pipeline over 8,232 layer--fault--regime cells of Qwen3-1.7B, we find that every one of five epilogue faults -- scale precision, double rounding, multiplication order, output truncation, fused ordering -- moves the output by at most a single bfloat16 spacing, and by exactly one whenever it moves it at all, across 5,880 cells. A tolerance of one spacing is therefore blind to the entire class by construction: four of the five faults are detected by no check in the suite, and the fifth only under power-of-two scales. Faults that violate the accumulator's exactness preconditions, or that break operand sharing, are detected without exception, and a null fault never fires. What a tolerance-based suite of this shape establishes is therefore narrower than inte
     
-[^24]: 重新审视反馈驱动的大语言模型代码修复：一项复现研究与探索性Java扩展
+[^25]: 重新审视反馈驱动的大语言模型代码修复：一项复现研究与探索性Java扩展
 
     Revisiting Feedback-Driven LLM Code Repair: A Replication and Exploratory Java Extension
 
@@ -394,7 +410,7 @@
 
     arXiv:2609.00362v1 Announce Type: new  Abstract: Since the advent of Large Language Models (LLMs), practitioners have increasingly leveraged them to support their software engineering tasks, including automated code repair, showing promising results. Yet, concerns regarding reproducibility and generalizability remain largely unexplored. To further evaluate these concerns and associated impacts, we partially reproduce and conduct an exploratory Java extension of the FeedbackEval benchmark [1], which evaluates how LLMs leverage different feedback types for Python code repair. First, we partially replicate the original study on 394 repair tasks using GPT-4o and Claude 3.5 Sonnet, reproducing and observing the main qualitative trends reported in the original work. Second, we conduct an exploratory Java extension by constructing 100 erroneous repair instances from 50 Java tasks and evaluating feedback effectiveness. Our results show that previous conclusions from Python may be sensitive to 
     
-[^25]: 探索研究与实践中的量子软件测试：多声部文献综述的新兴结果
+[^26]: 探索研究与实践中的量子软件测试：多声部文献综述的新兴结果
 
     Exploring Quantum Software Testing Across Research and Practice: Emerging Results from a Multivocal Literature Review
 
@@ -408,7 +424,7 @@
 
     arXiv:2609.00354v1 Announce Type: new  Abstract: This paper presents preliminary findings from a multivocal literature review investigating how quantum software testing is characterized across academic and practitioner-oriented sources. Our study integrated peer-reviewed studies with gray literature, including blogs, tutorials, forums, technical reports, documentation pages, and company webpages. Our results indicate a rapidly evolving but fragmented ecosystem involving classical adapted testing approaches, quantum-specific techniques, statistical validation methods, simulators, debugging environments, and verification frameworks. The reviewed material also revealed recurring challenges related to scalability limitations, hardware noise, probabilistic execution, limited observability, and immature tooling ecosystems. These findings provide an initial characterization of how research and practice currently discuss quantum software testing challenges, techniques, and tooling.
     
-[^26]: 面向智能体软件工程的规范驱动开发：驾驭人-智能体协作
+[^27]: 面向智能体软件工程的规范驱动开发：驾驭人-智能体协作
 
     Spec-Driven Development for Agentic Software Engineering: Harnessing Human-Agent Teamwork
 
@@ -422,7 +438,7 @@
 
     arXiv:2609.00252v1 Announce Type: new  Abstract: Context: Software engineering is moving from AI-assisted practices like vibe coding, in which assistants accelerate individual developers, towards Agentic Software Engineering (ASE), in which autonomous agents are delegated goal-level tasks. However, industry reports a productivity paradox: as individual productivity increases, team throughput, review capacity, and stability degrade because team-scale software engineering discipline is neglected. Objective: This paper aims to establish the conceptual and methodological foundations of Spec-Driven Development (SDD) as an enabling discipline for ASE at team scale and characterize the harness, i.e., the technical and methodological mechanisms through which teams govern agent behavior. Method: We conducted a conceptual analysis drawing predominantly on gray literature, including ASE vision and roadmap papers, practitioner reports, talks, and tooling, because peer-reviewed evidence and a share
     
-[^27]: 实践中的实证软件工程：来自谷歌的洞见
+[^28]: 实践中的实证软件工程：来自谷歌的洞见
 
     Empirical Software Engineering in Practice: Insights from Google
 
@@ -436,7 +452,7 @@
 
     arXiv:2609.00247v1 Announce Type: new  Abstract: While it is fairly well known how empirical software engineering (ESE) is used in the academic world, we have limited knowledge of how ESE is practiced in industry. As part of our regular column on empirical software engineering (ACM SIGSOFT SEN-ESE), we want to dedicate a series of articles to interviewing ESE practitioners from various companies. Among other things, we want to understand how ESE processes are implemented in industry, e.g., different research methods, how practitioners decide on what to study, how research results are used within companies and beyond, and if they face recurrent impediments to using ESE methods in industrial contexts. In the first edition of "ESE in Practice", we are joined by Ciera Jaspan and Collin Green from the Developer Intelligence team at Google. This article is a faithful account of our conversation from August 13, 2026, which we edited for our column.
     
-[^28]: 超越锁与线程ID：非常规路径上的静态数据竞争检测（扩展版）
+[^29]: 超越锁与线程ID：非常规路径上的静态数据竞争检测（扩展版）
 
     Beyond Locks and Thread IDs: Static Data Race Detection Off The Beaten Path (Extended Version)
 
@@ -450,7 +466,7 @@
 
     arXiv:2609.00246v1 Announce Type: cross  Abstract: Maintaining an abstraction of the execution history of threads can improve the precision of data race detection in static analysis. Here, we extend the digest framework to handle concurrency constructs and synchronization mechanisms that have been ignored in static race detection. We introduce mechanisms for the commonly used thread barriers, as well as pthread_once, which allows to ensure that an action is executed only once. We also instantiate the framework with an abstraction of locksets held by ancestor threads. We propose a suite of litmus tests to evaluate analyses for these features and compare our implementation to state-of-the-art tools, finding that they lack support.
     
-[^29]: 别让模型直接写 YAML：从 LLM 提议的字段变更生成确定性、最小差异的 GitOps 修复
+[^30]: 别让模型直接写 YAML：从 LLM 提议的字段变更生成确定性、最小差异的 GitOps 修复
 
     Don't Let the Model Write the YAML: Deterministic, Minimal-Diff GitOps Remediation from LLM-Proposed Field Changes
 
@@ -464,7 +480,7 @@
 
     arXiv:2609.00227v1 Announce Type: cross  Abstract: LLM agents increasingly diagnose incidents and propose remediations. In a GitOps workflow, applying a fix means editing a version-controlled config file, and the obvious implementation, having the model author the edited file or a diff, is what practitioners reach for first. Evaluating that choice on real Kubernetes manifests, we find no text-generation strategy is safe for unattended automation. Unified diffs are unsafe: under strict patching almost none apply, but that is an artifact, since a tolerant tool (GNU patch) applies 96%, yet silently misapplies about 1 in 7 (14-20%) with no error signal. Full-file rewrite is capability-dependent: a small model corrupts the file, while a frontier model is usually correct but non-deterministic (it silently drops a field or edits a neighbor on some runs) and must regenerate the whole file, costing O(file size) per edit. We present an alternative that separates the semantic decision (which reso
     
-[^30]: 先答后判式LLM评判会继承评判者自身的错误
+[^31]: 先答后判式LLM评判会继承评判者自身的错误
 
     Commit-first LLM judging inherits the judge's own errors
 
@@ -478,7 +494,7 @@
 
     arXiv:2609.00088v1 Announce Type: cross  Abstract: LLM judges, models that score another system's output, can be gamed by the systems they score. Recent work identifies one defence that works: the judge solves the task itself first and commits to that answer, then accepts a candidate only if the two match. We call this commit-first judging, and ask whether shipped software implements it, and what it costs.   We audit the default judge configurations of eight widely used evaluation frameworks. Of the 24 configurations in scope, none implement it. Nine implement a variant the literature measures as ineffective, and share one ancestor prompt, traceable through a copied typographical error.   In a controlled experiment, an ordinary best-of-N search with no access to correct answers optimises code against one of these configurations, used exactly as documented. On an interval merging task the judge accepted 90 of 96 candidates in one seed and 93 of 96 in the other; every accepted candidate 
     
-[^31]: 面向Web开发中代码驱动智能体测试的框架与基准
+[^32]: 面向Web开发中代码驱动智能体测试的框架与基准
 
     Framework and Benchmark for Code-Driven Agentic Testing in Web Development
 
@@ -492,7 +508,7 @@
 
     arXiv:2609.00081v1 Announce Type: new  Abstract: End-to-end GUI testing is essential for verifying web applications, yet existing evaluations rely on predefined checklists and are confined to the data and frameworks of web generation benchmarks, leaving the bug-discovery ability of vision-language models (VLMs) systematically untested. We introduce \textbf{C}ode-driven \textbf{A}gentic \textbf{T}esting (CAT), a paradigm in which the agent writes Playwright code to drive the browser, gathers feedback, and autonomously explores web applications to uncover bugs. We instantiate CAT with CATJudge, an agentic framework that unifies Browser-Use and Computer-Use tools within a single environment and CATTest, a benchmark of 102 AI-generated web applications with carefully annotated bugs, built through close human-AI collaboration to feature complex interactions and subtle defects. Experiments with mainstream VLMs show that all evaluated models perform poorly, revealing a clear gap between curre
     
-[^32]: 差异之下：诊断与缓解代码级自主研究循环中的算法模式坍缩
+[^33]: 差异之下：诊断与缓解代码级自主研究循环中的算法模式坍缩
 
     Beneath the Diff: Diagnosing and Mitigating Algorithmic Mode Collapse in Code-Level Autonomous Research Loops
 
@@ -506,7 +522,7 @@
 
     arXiv:2609.00077v1 Announce Type: new  Abstract: Code-level autonomous research loops (ARLs) have recently emerged as a concrete object of study in automated machine learning research. In such loops, an LLM agent proposes modifications to an experimental training pipeline, executes the modified pipeline, and retains edits that improve a verifiable in-loop metric. Although executable metrics may appear to provide a reliable signal of progress, it remains unclear whether repeated metric-driven code editing leads to genuine improvements that generalize beyond the loop. We provide a systematic diagnosis of this question. Across various experiment settings, we identify a robust failure mode that we call \textbf{algorithmic mode collapse}. In this regime, surface-level edit diversity remains stable, but semantic and mechanism-level diversity collapse: the agent continues to edit different lines of code while repeatedly proposing the same kinds of algorithmic changes. This collapse is accompa
     
-[^33]: MCP客户端能否在失败后决定下一步做什么？一种仅基于结果的可操作性审计
+[^34]: MCP客户端能否在失败后决定下一步做什么？一种仅基于结果的可操作性审计
 
     Can MCP Clients Decide What to Do After Failure? A Result-Only Actionability Audit
 
@@ -520,7 +536,7 @@
 
     arXiv:2609.00072v1 Announce Type: new  Abstract: A client that receives isError:true knows that something went wrong. It may still have no machine-readable basis for deciding whether to fix an argument, authenticate, wait, choose another tool, or stop. This paper studies what deterministic software can learn from a completed MCP failure result alone; request arguments, schemas, discovery history, authen- tication state, transport metadata, host policy, and ap- plication state are outside that boundary. We introduce a six-part actionability profile and apply it with record- level evidence. In a small illustrative study of 21 safely induced failures from ten reachable sampled servers, typed fields expose failure in 18 cases and a broad policy in 8, yet expose no specific cause, target, executable repair, or replay constraint. Prose often carries more cause and target information, at the price of making semantic interpretation part of the recovery path. A lexical source audit finds the sa
     
-[^34]: CUDA-Harness：从自然语言驱动的智能体式CUDA内核生成与优化
+[^35]: CUDA-Harness：从自然语言驱动的智能体式CUDA内核生成与优化
 
     CUDA-Harness: Harnessing Agentic CUDA Kernel Generation and Optimization from Natural Language
 
@@ -534,7 +550,7 @@
 
     arXiv:2609.00058v1 Announce Type: cross  Abstract: Developing high-performance CUDA kernels demands specialized knowledge in algorithm implementation, correctness validation, and hardware-aware parallel optimization, creating a substantial expertise barrier and making generating CUDA kernels directly from natural language (Text2CUDA) essential. Meanwhile, the general-purpose code generation capability of Large Language Models (LLMs) prompts a series of works exploring LLM-based CUDA kernel generation. They mainly focus on transpilation from high-level frameworks such as PyTorch to CUDA (Torch2CUDA) rather than Text2CUDA, where models must understand the high-level input semantics and handle low-level kernel implementation and validation. Additionally, these methods are vulnerable to reward hacking due to reliance on predefined test inputs. In this paper, we propose CUDA-Harness, a framework for harnessing agentic CUDA kernel generation and optimization from natural language. Specifical
     
-[^35]: 迈向智能体化云工程：基于零信任智能体套件的图工程与循环工程
+[^36]: 迈向智能体化云工程：基于零信任智能体套件的图工程与循环工程
 
     Towards Agentic Cloud Engineering: Graph and Loop Engineering with a Zero-Trust Agent Harness
 
@@ -548,7 +564,7 @@
 
     arXiv:2609.00050v1 Announce Type: cross  Abstract: Agentic AI is enabling cloud-based workflows in which autonomous agents reason over operational state, invoke authorized tools, modify software and infrastructure, deploy services, verify execution outcomes, and adapt across long-horizon, multistep tasks. Engineering such workflows requires explicit mechanisms for workflow progression, constrained execution, failure recovery, and verifiable completion. We present Agentic Cloud Workflow Engineering, an agentic AI framework that transforms natural-language agentic cloud-engineering tasks into validated code repositories and verified operational cloud deployments for automating cloud-based agentic workflows. The framework separates three complementary concerns: graph engineering specifies long-horizon workflow progression and verification-dependent transitions; loop engineering provides bounded diagnosis, repair or re-planning, retry, and re-verification; and agent harness engineering enf
     
-[^36]: 什么是系统？一般系统论中基于相互作用的结构-行为融合观
+[^37]: 什么是系统？一般系统论中基于相互作用的结构-行为融合观
 
     What Is a System? An Interaction-Based Account of Structure-Behavior Coalescence in General Systems Theory
 
@@ -562,7 +578,7 @@
 
     arXiv:2609.00043v1 Announce Type: new  Abstract: The question of what constitutes a system remains fundamental to General Systems Theory. Existing definitions commonly characterize a system in terms of elements, relationships, boundaries, functions, or interactions, but these perspectives do not always provide a unified account of how system structure and system behavior constitute one another. This paper proposes Structure-Behavior Coalescence (SBC) as an interaction-based account of what a system is. From the SBC perspective, a system is not merely a collection of elements or relationships, nor is it adequately characterized by behavior considered independently of structure. Rather, a system is a structured entity whose behavior arises through interactions among its constituent entities, with those interactions simultaneously contributing to both its structural organization and behavioral realization. The paper develops this perspective by distinguishing system structure, interaction
     
-[^37]: 结构-行为融合与传统系统论的局限
+[^38]: 结构-行为融合与传统系统论的局限
 
     Structure-Behavior Coalescence and the Limits of Traditional Systems Theory
 
@@ -576,7 +592,7 @@
 
     arXiv:2609.00042v1 Announce Type: new  Abstract: This paper examines a foundational assumption in traditional systems theory, namely that structure (the organization of components) and behavior (the evolution of system activity over time) can be treated as separable analytical dimensions. It argues that this separation contributes to persistent difficulties in explaining system identity, particularly in cases involving change, emergence, and boundary specification. To address this issue, the paper introduces Structure-Behavior Coalescence (SBC) as a reframing principle. SBC proposes that structure and behavior should not be understood as independently existing entities that are subsequently related through modeling constructs, but as mutually constitutive aspects of a single systemic process. From this perspective, system identity is understood as arising from the sustained co-determination of structural organization and behavioral dynamics, rather than from their external corresponden
     
-[^38]: trajectory-judge：仅基于结果的LLM评判器在智能体轨迹上遗漏了什么
+[^39]: trajectory-judge：仅基于结果的LLM评判器在智能体轨迹上遗漏了什么
 
     trajectory-judge: What Outcome-Only LLM Judges Miss on Agent Trajectories
 
@@ -590,7 +606,7 @@
 
     arXiv:2609.00038v1 Announce Type: cross  Abstract: Outcome-only evaluation is the production default for LLM agents: show a judge the request and the final reply and ask whether it was handled well. The metric is structurally blind to an agent that reaches the right answer the wrong way. We measure that blind spot where ground truth is known by construction: a deterministic tool-using support-desk environment, a scripted oracle policy that always solves it, and a fault injector that breaks exactly one thing at a known step, stratifying faults by whether the customer-visible outcome survived (silent) or not (loud). Five judges (programmatic rules, outcome-only, step-rubric at two model sizes, and a self-consistency ensemble) are scored on detection, step localisation, fault typing, calibration, and cost over 400 trajectories. The outcome-only judge catches 84% of loud faults but 45% of silent ones while flagging 33% of correct trajectories; a step-rubric judge reaches 77% silent recall 
     
-[^39]: SilentProbe：测量作为智能体工具的生产级API中的静默失败
+[^40]: SilentProbe：测量作为智能体工具的生产级API中的静默失败
 
     SilentProbe: Measuring Silent Failure in Production APIs Used as Agent Tools
 
@@ -604,7 +620,7 @@
 
     arXiv:2609.00035v1 Announce Type: new  Abstract: An LLM agent calling a production API cannot distinguish a query that matched nothing from a query the server did not understand. Both return HTTP 200 with a parsable body, no exception to catch and no field to branch on. We ask what predicts which one occurred, and what it does to the agent. Auditing 721,320 parameters across 2,501 independently published OpenAPI documents, we find that 7.5% declare an enumeration and 15.2% declare any machine-checkable constraint at all, while 40.1% of documents state at least one constraint in prose that their schema does not encode. Executing 219 schema-derived perturbations against live commercial endpoints from 27 vendors, reached through a single aggregation layer (Monid) that publishes a schema and returns a run identifier for every call, we find that constraint form, not vendor identity, predicts honesty: machine-checkable constraints yielded an honest error in 111 of 111 cases, prose-only const
     
-[^40]: Harness 工程学：编码智能体的解剖、架构与演化——基于十一套系统的源代码研究
+[^41]: Harness 工程学：编码智能体的解剖、架构与演化——基于十一套系统的源代码研究
 
     Harness Engineering: Anatomy, Architecture, and Evolution of Coding Agents -- A Source-Code Study of Eleven Systems
 
@@ -618,7 +634,7 @@
 
     arXiv:2609.00006v1 Announce Type: new  Abstract: An agent is a model plus a harness -- the runtime that couples an LLM to the world through a loop, tools, context management, safety controls, orchestration, and extension surfaces. Harness engineering, named as a discipline in early 2026, is the design and evolution of that runtime. This paper gives the young discipline its most comprehensive empirical foundation to date: a source-code anatomy of eleven production coding harnesses (Claude Code, Codex CLI, Gemini CLI, Mistral Vibe, OpenHands, Aider, Mini-SWE-Agent, Hermes, Pi, OpenCode, OpenClaw), plus Omnigent, the first meta-harness, analyzed as a contrast point. We define what a harness is, map its seven canonical subsystems with the minimal and maximal implementation of each, and dissect all eleven systems along those subsystems. The audit yields 13 cross-cutting observations and a catalog of 29 recurring design patterns. Two absences survive a threefold corpus expansion: across roug
     
-[^41]: RealSWE：真实用户请求下编程智能体的组合式评估
+[^42]: RealSWE：真实用户请求下编程智能体的组合式评估
 
     RealSWE: A Compositional Evaluation of Coding Agents under Realistic User Requests
 
@@ -632,7 +648,7 @@
 
     arXiv:2608.27831v1 Announce Type: cross  Abstract: Coding agents are now commonly evaluated on the SWE-bench family of benchmarks, whose tasks are built from curated GitHub issues--long, structured, and information-rich. Real user requests, however, are typically far shorter and less structured. To characterize this gap, we define a six-category information taxonomy and four dimensions of linguistic style, and apply them to real user prompts from SWE-chat and problem statements from SWE-bench Verified and Pro. We find that requests carrying only a problem statement, alone or with limited additional context, account for 88% of real prompts but just 7% of benchmark problems. Furthermore, 87% of real prompts are casually written whereas 94% of benchmark problems are formal. Guided by these observations, we introduce sys, 381 multi-variant task families derived from SWE-bench Verified and Pro. Variants within each family share the same underlying task and gold patch while differing only in
     
-[^42]: SWE-bench Science：编码代理能否解决科学中的工程任务？
+[^43]: SWE-bench Science：编码代理能否解决科学中的工程任务？
 
     SWE-bench Science: Can Coding Agents Resolve Engineering Tasks in Science?
 
@@ -646,7 +662,7 @@
 
     arXiv:2608.19799v1 Announce Type: new  Abstract: Software increasingly functions as part of the scientific instrument itself, making failures in scientific code capable of compromising not only program behavior but also the evidence underlying scientific conclusions. Yet existing evaluations of coding agents largely emphasize aggregate task success, providing limited insight into why agents fail when repairing scientific software. We introduce \textbf{SWE-bench Science}, a repository-level benchmark for scientific software engineering comprising 119 tasks from 98 GitHub repositories across 20 scientific domains. Each task is organized into one of three paradigms: Issue-driven, Expert-exploratory, and Engineering-integration. Even the best-performing agent, \textbf{Claude Code with Opus-5 (max), achieves a pass@1 below 50\%}, highlighting the substantial challenges posed by scientific software engineering. We identify four recurring failure mechanisms: deficits in scientific knowledge o
     
-[^43]: MetaInfer：一个仅需知识即可生成LLM推理引擎的SKILL工具箱
+[^44]: MetaInfer：一个仅需知识即可生成LLM推理引擎的SKILL工具箱
 
     MetaInfer: A Knowledge Only LLM Inference Engine Generator SKILL Toolbox
 
@@ -660,7 +676,7 @@
 
     arXiv:2607.12875v2 Announce Type: replace-cross  Abstract: As LLM technology advances, the space of model families, compute hardware, quantization schemes, parallelization strategies, and specialized optimization kernels continues to expand, sharply increasing the code complexity and maintenance cost of general-purpose inference frameworks. Conventional software engineering uses multiple layers of abstraction to support diverse application scenarios, but these abstractions also increase system complexity and may introduce additional performance overhead. This paper presents metainfer, an 'LLM-as-Compiler' approach in which users specify only the runtime constraints of an inference program. An LLM-driven multi-agent collaboration system, coupled with a contract knowledge base, then automatically generates a compact customized inference framework that satisfies these constraints. We evaluate metainfer from three perspectives: the effect of source-code reference, the runtime behavior and 
     
-[^44]: SEDCoT：通过符号执行与增量调试增强基于大语言模型的COBOL代码翻译
+[^45]: SEDCoT：通过符号执行与增量调试增强基于大语言模型的COBOL代码翻译
 
     SEDCoT: Enhancing LLM-Based COBOL Code Translation via Symbolic Execution and Delta Debugging
 
@@ -674,7 +690,7 @@
 
     arXiv:2607.04092v2 Announce Type: replace  Abstract: COBOL remains critical across banking, insurance, and government infrastructure. However, maintenance is increasingly challenging due to outdated technologies, sparse documentation, and developer retirement, necessitating code translation into modern languages like C. Traditional rule-based transcompilers yield outputs that are difficult to read and maintain, while general-purpose large language models (LLMs) achieve suboptimal correctness because COBOL is a low-resource language with distinct logic patterns. To bridge this gap, we propose SEDCoT, a novel COBOL-to-C translation framework. SEDCoT first leverages LLMs for initial translation, then combines symbolic execution with LLM guidance to generate test suites and iteratively repair semantic discrepancies. Finally, it integrates delta debugging to minimize failing tests into succinct counterexamples, accelerating automated code repair. Evaluating SEDCoT on a public COBOL-to-C dat
     
-[^45]: ChainSWE：在多缺陷软件维护任务上对编码智能体进行基准测试
+[^46]: ChainSWE：在多缺陷软件维护任务上对编码智能体进行基准测试
 
     ChainSWE: Benchmarking Coding Agents on Multi-Bug Software Maintenance
 
@@ -688,7 +704,7 @@
 
     arXiv:2607.02606v2 Announce Type: replace  Abstract: Language model (LM) agents are increasingly deployed to maintain codebases over extended periods, fixing streams of related defects while carrying context from one fix to the next. Yet existing software engineering (SWE) benchmarks evaluate models one bug at a time: the repository is reset, the codebase is re-read, and a single self-contained issue is graded in isolation. This setting collapses a continuous maintenance workflow into a series of independent sessions, ignoring the cumulative dependencies that make real-world bug fixing challenging. To bridge this gap, we introduce ChainSWE, the first benchmark for evaluating agents on sequential, dependent bug fixes within a shared codebase. We collect chronological chains of 304 issues across 54 Python projects, mined from six SWE-bench-family datasets. Our evaluation across a range of agents and models reveals a consistent performance drop by up to 70% as the chain length increases.
     
-[^46]: 引导而非解决：为大型代码智能体训练小型评论模型
+[^47]: 引导而非解决：为大型代码智能体训练小型评论模型
 
     Steer, Don't Solve: Training Small Critic Models for Large Code Agents
 
@@ -702,7 +718,7 @@
 
     arXiv:2606.21811v2 Announce Type: replace-cross  Abstract: Coding tasks are typically complicated and require multiple capabilities, ranging from high-level planning to low-level implementation. While coding agents are optimized for the joint capabilities, individual capabilities such as high-level planning may have different optima and remain a major bottleneck. To address this challenge, we train a separate critic model that is specialized in high-level planning to steer the coding agent in inference. We construct SFT and DPO data to train the critic model to identify errors made by the coding agent and provide correct and clear high-level guidance without generating concrete actions. Experiments show that our fine-tuned 4B and 8B critic models significantly improve the performance of 6 larger coding agents (e.g., improving the resolved rates of GLM-4.7-Flash-30B-A3B and GPT-OSS-120B by 16.0% and 14.4% on SWE-Bench Verified). The critic model also reduces the total inference costs fo
     
-[^47]: 测试对抗变异体：基于对抗式大语言模型智能体的鲁棒单元测试生成
+[^48]: 测试对抗变异体：基于对抗式大语言模型智能体的鲁棒单元测试生成
 
     Test vs Mutant: Adversarial LLM Agents for Robust Unit Test Generation
 
@@ -716,7 +732,21 @@
 
     arXiv:2602.08146v3 Announce Type: replace  Abstract: Software testing is a critical, yet resource-intensive phase of the software development lifecycle. Over the years, various automated tools have been developed to aid in this process. Search-based approaches typically achieve high coverage but produce tests with low readability, whereas large language model (LLM)-based methods generate more human-readable tests but often suffer from low coverage and compilability. While the majority of research efforts have focused on improving test coverage and readability, little attention has been paid to enhancing the robustness of bug detection, particularly in exposing corner cases and vulnerable execution paths. To address this gap, we propose AdverTest, a novel adversarial framework for LLM-powered test case generation. AdverTest comprises two interacting agents: a test case generation agent (T) and a mutant generation agent (M). These agents engage in an adversarial loop, where M persistentl
     
-[^48]: 测量计算机科学热情：基于问卷的年龄与性别对学生兴趣影响的分析
+[^49]: 从新手到专家：通过社会工程学操控大语言模型实现企业软件漏洞的自动化利用
+
+    From Rookie to Pro: Social Engineering LLMs for Automated Vulnerability Exploitation in Enterprise Software
+
+    [https://arxiv.org/abs/2512.22753](https://arxiv.org/abs/2512.22753)
+
+    本文提出RSA社会工程学预设策略，可绕过主流大语言模型的安全机制，使没有技术背景的新手在3-5轮提示交互内自动生成针对企业软件Odoo已知CVE漏洞的可利用代码，揭示了LLM的普及化对企业软件安全构成的严重威胁。
+
+    
+
+    大语言模型通过让非程序员也能创建应用程序，实现了软件工程的民主化，但这种可及性也从根本上动摇了数十年来指导软件工程的安全假设。本研究展示了如何通过社会工程学手段操控公开可用的大语言模型，将新手转变为具备攻击能力的攻击者，从而挑战了“漏洞利用必须依赖专业技术知识”这一基本原则。为此，我们提出了RSA（角色分配、场景预设、行动诱导），一种预设策略，能够操纵大语言模型突破其安全机制，生成可用的漏洞利用代码。我们针对广泛使用的企业资源规划平台Odoo进行测试，评估了五个主流大语言模型（GPT-4o、Gemini、Claude、Microsoft Copilot和DeepSeek），并成功利用了所有测试的CVE：在3-5轮提示交互内，至少有一个大语言模型为每个CVE生成了可用的漏洞利用程序。虽然先前的工作[13]发现大语言模型辅助的攻击……（原文摘要在此处截断）
+
+    arXiv:2512.22753v3 Announce Type: replace  Abstract: LLMs democratize software engineering by enabling non-programmers to create applications, but this same accessibility fundamentally undermines security assumptions that have guided software engineering for decades. We show in this work how publicly available LLMs can be socially engineered to transform novices into capable attackers, challenging the foundational principle that exploitation requires technical expertise. To that end, we propose RSA (Role-assignment, Scenario-pretexting, and Action-solicitation), a pretexting strategy that manipulates LLMs into generating functional exploits despite their safety mechanisms. Testing against Odoo---a widely used ERP platform, we evaluated five mainstream LLMs (GPT-4o, Gemini, Claude, Microsoft Copilot, and DeepSeek) and successfully exploited every tested CVE: at least one LLM produced a functional exploit for each within 3-5 prompting rounds. While prior work [13] found LLM-assisted atta
+    
+[^50]: 测量计算机科学热情：基于问卷的年龄与性别对学生兴趣影响的分析
 
     Measuring Computer Science Enthusiasm: A Questionnaire-Based Analysis of Age and Gender Effects on Students' Interest
 
@@ -730,7 +760,7 @@
 
     arXiv:2512.08472v2 Announce Type: replace  Abstract: This study examines how age and gender independently shape adolescents' interest in computer science (CS) education. Building on the Person-Object Theory of Interest (POI), we define enthusiasm as a short-term, activating response that combines positive affect, perceived relevance, and intention to re-engage. Because such enthusiasm can shift CS attitudes and engagement intentions even briefly, it offers a useful measure for short outreach activities.   We developed a 28-item pre-post questionnaire to assess whether CS interventions raise enthusiasm, then applied it to more than 400 students (244 female, 187 male, aged 10-18) in CS courses. Contrary to the common assumption that early exposure secures lasting interest, we found a marked decline during early adolescence, especially among girls, along with wide variation in interest trajectories across ages.   Exploratory factor analysis and ANOVA show that age predicts interest develo
     
-[^49]: 多智能体大语言模型编排为事件响应实现确定性、高质量决策支持
+[^51]: 多智能体大语言模型编排为事件响应实现确定性、高质量决策支持
 
     Multi-Agent LLM Orchestration Achieves Deterministic, High-Quality Decision Support for Incident Response
 
@@ -744,7 +774,7 @@
 
     arXiv:2511.15755v3 Announce Type: replace  Abstract: Large language models (LLMs) promise to accelerate incident response in production systems, yet single-agent approaches generate vague, unusable recommendations. We present MyAntFarm.ai, a reproducible containerized framework demonstrating that multi-agent orchestration fundamentally transforms LLM-based incident response quality. Through 348 controlled trials comparing single-agent copilot versus multi-agent systems on identical incident scenarios, we find that multi-agent orchestration achieves 100% actionable recommendation rate versus 1.7% for single-agent approaches, an 80 times improvement in action specificity and 140 times improvement in solution correctness. Critically, multi-agent systems exhibit zero quality variance across all trials, enabling production SLA commitments impossible with inconsistent single-agent outputs. Both architectures achieve similar comprehension latency (approx.40s), establishing that the architectu
     
-[^50]: 糟糕！……我又重蹈覆辙了：分析并处理社会技术软件工程中结论的（不）稳定性
+[^52]: 糟糕！……我又重蹈覆辙了：分析并处理社会技术软件工程中结论的（不）稳定性
 
     Oops!... I did it again. Analysing and Handling Conclusion (In-)Stability in Socio-Technical Software Engineering
 
@@ -758,7 +788,7 @@
 
     arXiv:2510.06844v3 Announce Type: replace  Abstract: Context: Mining software repositories is a popular means to gain insights into a software project's evolution, monitor project health, support decisions and derive best practices. Tools supporting the mining process are commonly applied by researchers and practitioners, but their limitations and agreement are often not well understood.   Objective: This study investigates some threats to validity in complex tool pipelines for evolutionary socio-technical software analyses. We evaluate the tools' agreement in terms of data, study outcomes and conclusions for the same research questions to derive actionable advice for researchers and practitioners.   Method: We conduct a lightweight literature review to select \emph{three} studies on collaboration and coordination, software maintenance and software quality from high-ranked venues, which we formally replicate with \emph{four} independent, systematically selected mining tools to quantita
     
-[^51]: Essence Coach：一个用于软件实践采纳的聊天机器人
+[^53]: Essence Coach：一个用于软件实践采纳的聊天机器人
 
     Essence Coach: A Bot for Software Practice Adoption
 
@@ -772,7 +802,7 @@
 
     arXiv:2508.16445v2 Announce Type: replace  Abstract: Although Essence has been proposed as a unifying framework for understanding and evaluating software engineering practices, its adoption remains challenging, calling for tools that can act as coaches for learners and practitioners. We present Essence Coach, a chatbot that integrates LLMs with retrieval-augmented generation (RAG) from a curated Essence knowledge base. Experiments with multiple LLMs show that RAG consistently improves response quality for Essence-related queries. Some preliminary tests suggest that such systems can help both technical and non-technical students understand and apply Essence concepts. While validation through broader user studies is needed, this work-in-progress highlights how LLMs can bridge abstract SE frameworks and practice adoption.
     
-[^52]: ParaStudent：缩小AI导师评估中用户模拟器的模拟到现实差距
+[^54]: ParaStudent：缩小AI导师评估中用户模拟器的模拟到现实差距
 
     ParaStudent: Closing the Sim2Real Gap in User Simulators for AI Tutor Evaluation
 
@@ -786,7 +816,7 @@
 
     arXiv:2507.12674v3 Announce Type: replace-cross  Abstract: Evaluating Artificial Intelligence (AI) tutor feedback before deployment requires anticipating student engagement, typically assessed through real interaction data. We introduce ParaStudent, a fine-tuning framework for simulating novice programming revisions to support AI tutor evaluation. Compared with prompted baselines, ParaStudent's revisions more closely match real student code distributions across functional, stylistic, and semantic metrics. Our best variant achieves AUCs of 0.80 for both feedback relevance and successful uptake when distinguishing streams with real engagement above versus at or below the median, while prompted baselines remain near chance on successful uptake. These findings demonstrate the promise of simulated engagement for pre-deployment feedback triage.
     
-[^53]: 软件安全中的流行度假设：基于PHP包的大规模复现研究
+[^55]: 软件安全中的流行度假设：基于PHP包的大规模复现研究
 
     The Popularity Hypothesis in Software Security: A Large-Scale Replication with PHP Packages
 

@@ -4,29 +4,32 @@
 | --- | --- | --- |
 | [^1] | [Mechanism Design for Alignment and Control](https://arxiv.org/abs/2609.01595) | 该论文提出了一个针对对齐和能力均未知的AI智能体的机制设计框架，利用“能力可隐藏但不可伪造”的单边模仿结构建立了显示原理与可实施政策的刻画方法，并应用于防“装弱”、对齐与可解释性权衡、同伴评分约束、多智能体竞争激励以及可扩展监督等AI对齐与控制问题。 |
 | [^2] | [Bi-Compositional Division Rules](https://arxiv.org/abs/2609.01489) | 该论文刻画了满足同等对待、双边一致性、向下复合与向上复合公理的索赔分配规则，证明它们恰好构成以约束等额分配（CEA）和约束等额损失（CEL）为两端点的单参数对数指数族，且比例规则恰为该族的中点，规则连续性可由公理自动推出。 |
-| [^3] | [Which Policy Works, and Where? Estimation and Inference for State-Level Treatment Effects in Difference-in-Differences](https://arxiv.org/abs/2609.01467) | 该论文提出UN-DID和DID-INT两种双重差分估计量，用于估计按实施批次、司法管辖区、时期或政策类型定义的次总体平均处理效应，并强调估计对象与推断方法应与政策问题和实施环境相匹配。 |
-| [^4] | [AI and the Economy: An Economic Examination of Production, Distribution, Firms, Labor, and Welfare](https://arxiv.org/abs/2609.01263) | 本文从经济学视角系统考察了人工智能对生产、分配、企业、劳动与福利的影响，提出应将AI同时理解为资本、合成劳动、通用目的技术与经济基础设施，并阐明其通过自动化、增强、优化、预测和创新成为多渠道生产率增长引擎的作用。 |
-| [^5] | [Illiquidity at Risk](https://arxiv.org/abs/2609.00943) | 该论文提出了一个新的尾部风险度量指标“非流动性风险价值”来量化极端流动性枯竭，并证明在基于已实现Amihud指标构建预测模型时纳入跳跃成分，能够在系统性压力时期显著改善预测效果，克服传统连续模型系统性低估流动性蒸发严重程度的缺陷。 |
-| [^6] | [How outside options are incorporated into payoff distributions](https://arxiv.org/abs/2609.00799) | 本文提出了完全纳入外部选择权的α-值，并将Aumann-Dreze值刻画为不纳入外部选择权的分配规则，进而证明chi值是二者的分量凸组合，即以折扣形式纳入外部选择权。 |
-| [^7] | [Optimal Uniform Pricing for Multi-Interval Dispatch without Make-Whole Uplifts](https://arxiv.org/abs/2609.00541) | 本文提出一种最优统一定价规则，能够在无需市场外全额补偿的情况下消除LMP低于发电机报价的问题，同时最小化需求侧支付、保留阻塞费用并确保收入充足。 |
-| [^8] | [Was Stalin Necessary? Counterfactual Evidence on Soviet Growth](https://arxiv.org/abs/2609.00418) | 本文通过合成控制、合成双重差分、矩阵补全等一系列要求逐步提高的反事实方法，检验1928年后苏联的高速增长是否必须归因于斯大林模式，其核心方法论创新是构建了一个修正的新经济政策反事实基准，而非简单外推1922至1928年的经济复苏。 |
-| [^9] | [LPG Subsidy Reform, Energy Compensation, and Social Risk in Bolivia: A Machine-Learning Agent-Based Microsimulation](https://arxiv.org/abs/2609.00414) | 该论文创新性地将机器学习与基于主体的微观模拟相结合，评估玻利维亚液化石油气补贴改革的多种设计方案在财政节约、贫困影响、能源替代和社会风险方面的表现。 |
-| [^10] | [Communicating About Endogenous Issues](https://arxiv.org/abs/2609.00380) | 在注意力受限的多维策略沟通中，发送方（而非接收方）的偏好优先排序决定了哪些议题进入议程，且优先排序的同步性对接收方而言是一把双刃剑——既可能提升最佳收益也可能恶化最坏情形，故接收方可能反而偏好优先排序较不同步的发送方。 |
-| [^11] | [Residential Price Modeling using Spatially Validated Machine Learning Methods: A Comparison Across Geographic Contexts](https://arxiv.org/abs/2609.00375) | 本研究采用经空间交叉验证的XGBoost和随机森林模型，对比巴基斯坦拉瓦尔品第-伊斯兰堡都会区与加拿大多伦多市的住宅价格建模，揭示了土地利用和交通基础设施对房价的影响，并利用SHAP值解释特征贡献。 |
-| [^12] | [Manipulation Testing in Boundary Discontinuity Designs](https://arxiv.org/abs/2609.00350) | 本文提出了首个适用于一般边界形状的边界断点设计（BDD）的操纵检验方法，该方法利用k均值聚类对边界附近观测值分组并进行二项式平衡检验，从而避免了多元密度估计，并证明了其渐近有效性。 |
-| [^13] | [Foundation models for electricity price forecasting and battery arbitrage: Can they replace market-specific forecasting models?](https://arxiv.org/abs/2609.00089) | 研究表明，在零样本模式下，只有TabPFN基础模型能在三个欧洲电力市场中持续显著超越专门的电价预测模型，但其统计优势并不能直接转化为电池储能套利中的经济优势。 |
-| [^14] | [Oil price shocks reveal unequal capacities for mobility adaptation](https://arxiv.org/abs/2608.12281) | 该研究利用石油价格冲击揭示，城市社区对出行成本上升的适应能力不平等，且相似结果可能源于不同机制。 |
-| [^15] | [Causal Forecasting in Panel Data: A Two-Way Synthetic Forecasting Approach](https://arxiv.org/abs/2606.18512) | 本文提出了一种结合合成控制与时间序列预测的因果预测框架，通过低秩时间结构识别前瞻性因果效应，并开发了双向合成预测估计器（TWSF）。 |
-| [^16] | [Caputo-Type Memory Invariants: A Fractional Generalization of the Cobb-Douglas Production Function](https://arxiv.org/abs/2605.20152) | 该论文将Caputo分数阶导数引入经济要素投入的动力学系统中，把Cobb-Douglas生产函数推广为能刻画政策、基础设施和技术采用中长期记忆效应的形式，并证明Mittag-Leffler函数是该分数阶框架下的自然增长解。 |
-| [^17] | [Identification and Estimation of Staggered Difference-in-Differences with Network Spillovers](https://arxiv.org/abs/2605.15119) | 本文提出了在存在网络溢出的交错双重差分设计中，利用暴露映射将总效应分解为自身采用的切换效应与溢出效应，借助条件平行趋势实现识别，并构造了在空间依赖下渐近正态的双重稳健估计量。 |
-| [^18] | [Direct Air Capture in Europe's 2050 Energy System: Integration, Storage and Cost Drivers](https://arxiv.org/abs/2604.05990) | 该研究首次将直接空气捕集、碳运输与碳储存分离并整合进2050年欧洲完全脱碳电力系统的容量扩展模型中，揭示了CO₂储存地点可用性（如仅限北海枯竭气田或遍布欧洲）及电力成本差异对DACCS总系统成本的关键影响。 |
-| [^19] | [How bad is time variability for users in mobility services? An economic framework under expected- and non-expected utility](https://arxiv.org/abs/2603.09142) | 本文构建期望效用框架量化时间成本与时间变异性成本，首次给出 COTV/COT 比值的理论上界（如二次效用下 COTV/COT ≤ ½CV²），为出行服务中时间变异性的最坏情况经济损失提供了评估基准。 |
-| [^20] | [Cross-Fitting-Free Debiased Machine Learning with Multiway Dependence](https://arxiv.org/abs/2602.11333) | 本文提出了一种无需交叉拟合的去偏机器学习方法，通过结合Neyman正交矩条件和局部化经验过程，在多重聚类依赖下实现有效的渐近推断。 |
-| [^21] | [The Replicator-Optimization Mechanism: A Scale-Relative Formalism for Persistence-Conditioned Dynamics with a Conditional Consent-Friction Instantiation](https://arxiv.org/abs/2601.06363) | 本文提出复制者-优化机制（ROM），一种将基线权重、有界存续与转移核分离、保持质量守恒但不承诺收敛或偏好的尺度相对形式化框架，证明了其唯一正构成、排序保证与集总封闭性，并给出基于同意摩擦的制度化实例。 |
-| [^22] | [Measuring Computer Science Enthusiasm: A Questionnaire-Based Analysis of Age and Gender Effects on Students' Interest](https://arxiv.org/abs/2512.08472) | 本研究开发了一份28条目的问卷来测量学生对计算机科学的热情，发现青少年兴趣在青春期早期显著下降（尤其女生），推翻了早期接触能保证持久兴趣的常见假设。 |
-| [^23] | [Individualized Algorithmic Advice as a Strategic Signal on Competitive Markets](https://arxiv.org/abs/2511.09454) | 古诺竞争实验表明，与均衡一致的个性化算法建议能促进稳定收敛，而串谋性向下偏倚的建议会诱发默示串谋行为（产量不足与超竞争利润），且个性化建议比集体建议更容易被参与者采纳。 |
-| [^24] | [The Division of Surplus and the Burden of Proof](https://arxiv.org/abs/2501.14686) | 本文研究信息不对称下的委托—代理人剩余分配问题，提出了一种基于改造现有机制的新技术来刻画最优机制，使委托人能够同时激励代理人披露信息与收集证据。 |
-| [^25] | [Local Media and the Shaping of Social Norms: Evidence from the Ebola outbreak](https://arxiv.org/abs/2210.15946) | 本研究利用几内亚埃博拉疫情期间社区电台接入的准随机变化发现，本地媒体通过促进当地可观察和可约束行为的协调，能使埃博拉病例减少12-17%，其作用源于媒体的本地性而非民族语言纽带。 |
+| [^3] | [Freemium Model for Information Provision](https://arxiv.org/abs/2609.01468) | 本文提出了一个信息销售的免费增值理论模型，证明信息卖方通过免费提供部分信息可以提高买方对付费信息的支付意愿，从而最大化信息销售收益。 |
+| [^4] | [Which Policy Works, and Where? Estimation and Inference for State-Level Treatment Effects in Difference-in-Differences](https://arxiv.org/abs/2609.01467) | 该论文提出UN-DID和DID-INT两种双重差分估计量，用于估计按实施批次、司法管辖区、时期或政策类型定义的次总体平均处理效应，并强调估计对象与推断方法应与政策问题和实施环境相匹配。 |
+| [^5] | [AI and the Economy: An Economic Examination of Production, Distribution, Firms, Labor, and Welfare](https://arxiv.org/abs/2609.01263) | 本文从经济学视角系统考察了人工智能对生产、分配、企业、劳动与福利的影响，提出应将AI同时理解为资本、合成劳动、通用目的技术与经济基础设施，并阐明其通过自动化、增强、优化、预测和创新成为多渠道生产率增长引擎的作用。 |
+| [^6] | [Illiquidity at Risk](https://arxiv.org/abs/2609.00943) | 该论文提出了一个新的尾部风险度量指标“非流动性风险价值”来量化极端流动性枯竭，并证明在基于已实现Amihud指标构建预测模型时纳入跳跃成分，能够在系统性压力时期显著改善预测效果，克服传统连续模型系统性低估流动性蒸发严重程度的缺陷。 |
+| [^7] | [How outside options are incorporated into payoff distributions](https://arxiv.org/abs/2609.00799) | 本文提出了完全纳入外部选择权的α-值，并将Aumann-Dreze值刻画为不纳入外部选择权的分配规则，进而证明chi值是二者的分量凸组合，即以折扣形式纳入外部选择权。 |
+| [^8] | [Optimal Uniform Pricing for Multi-Interval Dispatch without Make-Whole Uplifts](https://arxiv.org/abs/2609.00541) | 本文提出一种最优统一定价规则，能够在无需市场外全额补偿的情况下消除LMP低于发电机报价的问题，同时最小化需求侧支付、保留阻塞费用并确保收入充足。 |
+| [^9] | [Was Stalin Necessary? Counterfactual Evidence on Soviet Growth](https://arxiv.org/abs/2609.00418) | 本文通过合成控制、合成双重差分、矩阵补全等一系列要求逐步提高的反事实方法，检验1928年后苏联的高速增长是否必须归因于斯大林模式，其核心方法论创新是构建了一个修正的新经济政策反事实基准，而非简单外推1922至1928年的经济复苏。 |
+| [^10] | [LPG Subsidy Reform, Energy Compensation, and Social Risk in Bolivia: A Machine-Learning Agent-Based Microsimulation](https://arxiv.org/abs/2609.00414) | 该论文创新性地将机器学习与基于主体的微观模拟相结合，评估玻利维亚液化石油气补贴改革的多种设计方案在财政节约、贫困影响、能源替代和社会风险方面的表现。 |
+| [^11] | [Communicating About Endogenous Issues](https://arxiv.org/abs/2609.00380) | 在注意力受限的多维策略沟通中，发送方（而非接收方）的偏好优先排序决定了哪些议题进入议程，且优先排序的同步性对接收方而言是一把双刃剑——既可能提升最佳收益也可能恶化最坏情形，故接收方可能反而偏好优先排序较不同步的发送方。 |
+| [^12] | [Residential Price Modeling using Spatially Validated Machine Learning Methods: A Comparison Across Geographic Contexts](https://arxiv.org/abs/2609.00375) | 本研究采用经空间交叉验证的XGBoost和随机森林模型，对比巴基斯坦拉瓦尔品第-伊斯兰堡都会区与加拿大多伦多市的住宅价格建模，揭示了土地利用和交通基础设施对房价的影响，并利用SHAP值解释特征贡献。 |
+| [^13] | [Manipulation Testing in Boundary Discontinuity Designs](https://arxiv.org/abs/2609.00350) | 本文提出了首个适用于一般边界形状的边界断点设计（BDD）的操纵检验方法，该方法利用k均值聚类对边界附近观测值分组并进行二项式平衡检验，从而避免了多元密度估计，并证明了其渐近有效性。 |
+| [^14] | [Foundation models for electricity price forecasting and battery arbitrage: Can they replace market-specific forecasting models?](https://arxiv.org/abs/2609.00089) | 研究表明，在零样本模式下，只有TabPFN基础模型能在三个欧洲电力市场中持续显著超越专门的电价预测模型，但其统计优势并不能直接转化为电池储能套利中的经济优势。 |
+| [^15] | [Oil price shocks reveal unequal capacities for mobility adaptation](https://arxiv.org/abs/2608.12281) | 该研究利用石油价格冲击揭示，城市社区对出行成本上升的适应能力不平等，且相似结果可能源于不同机制。 |
+| [^16] | [Causal Forecasting in Panel Data: A Two-Way Synthetic Forecasting Approach](https://arxiv.org/abs/2606.18512) | 本文提出了一种结合合成控制与时间序列预测的因果预测框架，通过低秩时间结构识别前瞻性因果效应，并开发了双向合成预测估计器（TWSF）。 |
+| [^17] | [Caputo-Type Memory Invariants: A Fractional Generalization of the Cobb-Douglas Production Function](https://arxiv.org/abs/2605.20152) | 该论文将Caputo分数阶导数引入经济要素投入的动力学系统中，把Cobb-Douglas生产函数推广为能刻画政策、基础设施和技术采用中长期记忆效应的形式，并证明Mittag-Leffler函数是该分数阶框架下的自然增长解。 |
+| [^18] | [Identification and Estimation of Staggered Difference-in-Differences with Network Spillovers](https://arxiv.org/abs/2605.15119) | 本文提出了在存在网络溢出的交错双重差分设计中，利用暴露映射将总效应分解为自身采用的切换效应与溢出效应，借助条件平行趋势实现识别，并构造了在空间依赖下渐近正态的双重稳健估计量。 |
+| [^19] | [Direct Air Capture in Europe's 2050 Energy System: Integration, Storage and Cost Drivers](https://arxiv.org/abs/2604.05990) | 该研究首次将直接空气捕集、碳运输与碳储存分离并整合进2050年欧洲完全脱碳电力系统的容量扩展模型中，揭示了CO₂储存地点可用性（如仅限北海枯竭气田或遍布欧洲）及电力成本差异对DACCS总系统成本的关键影响。 |
+| [^20] | [How bad is time variability for users in mobility services? An economic framework under expected- and non-expected utility](https://arxiv.org/abs/2603.09142) | 本文构建期望效用框架量化时间成本与时间变异性成本，首次给出 COTV/COT 比值的理论上界（如二次效用下 COTV/COT ≤ ½CV²），为出行服务中时间变异性的最坏情况经济损失提供了评估基准。 |
+| [^21] | [Cross-Fitting-Free Debiased Machine Learning with Multiway Dependence](https://arxiv.org/abs/2602.11333) | 本文提出了一种无需交叉拟合的去偏机器学习方法，通过结合Neyman正交矩条件和局部化经验过程，在多重聚类依赖下实现有效的渐近推断。 |
+| [^22] | [The Replicator-Optimization Mechanism: A Scale-Relative Formalism for Persistence-Conditioned Dynamics with a Conditional Consent-Friction Instantiation](https://arxiv.org/abs/2601.06363) | 本文提出复制者-优化机制（ROM），一种将基线权重、有界存续与转移核分离、保持质量守恒但不承诺收敛或偏好的尺度相对形式化框架，证明了其唯一正构成、排序保证与集总封闭性，并给出基于同意摩擦的制度化实例。 |
+| [^23] | [Measuring Computer Science Enthusiasm: A Questionnaire-Based Analysis of Age and Gender Effects on Students' Interest](https://arxiv.org/abs/2512.08472) | 本研究开发了一份28条目的问卷来测量学生对计算机科学的热情，发现青少年兴趣在青春期早期显著下降（尤其女生），推翻了早期接触能保证持久兴趣的常见假设。 |
+| [^24] | [Individualized Algorithmic Advice as a Strategic Signal on Competitive Markets](https://arxiv.org/abs/2511.09454) | 古诺竞争实验表明，与均衡一致的个性化算法建议能促进稳定收敛，而串谋性向下偏倚的建议会诱发默示串谋行为（产量不足与超竞争利润），且个性化建议比集体建议更容易被参与者采纳。 |
+| [^25] | [Blameocracy: Causal Rhetoric in Politics](https://arxiv.org/abs/2504.06550) | 本文通过微调语言模型分析420万条国会推文，首次大规模量化了政治中的因果修辞，发现归咎性言论不仅是政客沟通的核心（占推文三分之一以上），还能带来显著政治回报——增加小额竞选捐款并提升政客的支持率。 |
+| [^26] | [The Division of Surplus and the Burden of Proof](https://arxiv.org/abs/2501.14686) | 本文研究信息不对称下的委托—代理人剩余分配问题，提出了一种基于改造现有机制的新技术来刻画最优机制，使委托人能够同时激励代理人披露信息与收集证据。 |
+| [^27] | [Local Media and the Shaping of Social Norms: Evidence from the Ebola outbreak](https://arxiv.org/abs/2210.15946) | 本研究利用几内亚埃博拉疫情期间社区电台接入的准随机变化发现，本地媒体通过促进当地可观察和可约束行为的协调，能使埃博拉病例减少12-17%，其作用源于媒体的本地性而非民族语言纽带。 |
+| [^28] | [Stable cooperation emerges in stochastic multiplicative growth](https://arxiv.org/abs/2202.02787) | 该论文提出了一种新机制，表明在财富随机乘性增长的环境中，当个体以长时间尺度运作时，将财富作为公共品共享的合作行为能在个体层面产生优势，有效屏蔽环境波动的不利影响，从而使稳定的合作得以涌现。 |
 
 # 详细
 
@@ -58,7 +61,21 @@
 
     arXiv:2609.01489v1 Announce Type: new  Abstract: We characterise the division rules for claims problems that satisfy equal treatment of equals, bilateral consistency, composition down, and composition up. The rules are precisely the members of a one-parameter log-exponential family $\{r^\theta\}_{\theta\in[-\infty,+\infty]}$, with constrained equal awards (CEA) and constrained equal losses (CEL) as its endpoints. For finite $\theta$, $r^\theta$ is the equal-sacrifice rule in awards for $u_\theta=\log\varphi_\theta$, where \[ \varphi_\theta(x):=\frac{e^{\theta x}-1}{\theta}\quad(\theta\ne0), \qquad \varphi_0(x):=x, \] and simultaneously the equal-sacrifice rule in losses for the dual utility $u_{-\theta}$. The proportional rule is the midpoint, $\theta=0$. Continuity of the rules are not assumed but a consequence of the other axioms.
     
-[^3]: 哪项政策有效，在何地有效？双重差分法中州级处理效应的估计与推断
+[^3]: 信息提供的免费增值模式
+
+    Freemium Model for Information Provision
+
+    [https://arxiv.org/abs/2609.01468](https://arxiv.org/abs/2609.01468)
+
+    本文提出了一个信息销售的免费增值理论模型，证明信息卖方通过免费提供部分信息可以提高买方对付费信息的支付意愿，从而最大化信息销售收益。
+
+    
+
+    本文探讨了一种用于出售信息的理论性免费增值模式，借鉴了重复零和博弈和贝叶斯说服研究中使用的数学工具。与标准的贝叶斯说服模型不同，信息卖方对信息买方所采取的行动并不关心，其唯一目标是最大化出售信息所获得的收入。免费提供部分信息可能会提高信息买方为获取更多信息而付费的意愿。信息买方所寻求的是关于世界状态的信息。起初，信息买方只知道各种可能状态的先验分布。信息卖方通过信号提供免费和付费信息，这些信号的状态相关分布经贝叶斯法则决定信息买方的后验分布。信息买方的效用是后验分布的函数。最优免费信号是指能使信息卖方从随后的付费信号中获得的期望收入最大化的信号。该收入……
+
+    arXiv:2609.01468v1 Announce Type: new  Abstract: The paper explores a theoretical freemium model for the sale of information, drawing on mathematical tools used in the study of repeated zero-sum games and Bayesian persuasion. Unlike standard Bayesian persuasion models, the information seller (IS) is indifferent to the actions taken by the information buyer (IB) and is concerned solely with maximizing the revenue from selling information. Offering some information for free may increase the IB's willingness to pay for additional information.   The information that the IB seeks is about the state of the world. Initially, the IB only knows the prior distribution over possible states. The IS supplies both free and paid information through signals whose state-dependent distributions determine the IB's posterior via Bayes' rule. The IB's utility is a function of the posterior. An optimal free signal is one that maximizes the IS's expected revenue from the subsequent paid signal. That revenue 
+    
+[^4]: 哪项政策有效，在何地有效？双重差分法中州级处理效应的估计与推断
 
     Which Policy Works, and Where? Estimation and Inference for State-Level Treatment Effects in Difference-in-Differences
 
@@ -72,7 +89,7 @@
 
     arXiv:2609.01467v1 Announce Type: new  Abstract: Policies with a common objective and implementation date may differ in details or context. We distinguish the aggregate average treatment effect on the treated (ATT) from sub-aggregate ATTs defined by implementation cohort, jurisdiction, period, or policy type. UN-DID and DID-INT, two DiD estimators that construct jurisdiction-by-time effects, estimate these ATTs under parallel-trends conditions matched to the aggregation. In CPS placebo-law simulations, randomization inference is generally well-sized, though some jurisdiction-specific tests are conservative. The jackknife can be undefined for sub-aggregate ATTs; when defined, it over-rejects with few treated or comparison jurisdictions. Estimands and inference methods should match the policy question and implementation setting.
     
-[^4]: 人工智能与经济：对生产、分配、企业、劳动与福利的经济学考察
+[^5]: 人工智能与经济：对生产、分配、企业、劳动与福利的经济学考察
 
     AI and the Economy: An Economic Examination of Production, Distribution, Firms, Labor, and Welfare
 
@@ -86,7 +103,7 @@
 
     arXiv:2609.01263v1 Announce Type: new  Abstract: Artificial Intelligence (AI) is rapidly transforming economic systems by altering production processes, labor markets, and the structure of firms and industries. AI is not merely a technological innovation. It is fundamentally a major economic phenomenon and a new wave of innovation with important implications for productivity, employment, market structure, public policy, long-run economic growth, and collective welfare. This essay examines the economics of AI by analyzing the multiple channels through which AI influences economic activity and societal well-being. It argues that AI should be understood simultaneously as a form of capital, a form of synthetic labor, a general-purpose technology, as well as an economic infrastructure. The analysis shows that AI functions as a multi-channel engine of productivity growth through automation, augmentation, optimization, prediction, and innovation. It is argued that AI has the potential to incr
     
-[^5]: 流动性枯竭风险价值
+[^6]: 流动性枯竭风险价值
 
     Illiquidity at Risk
 
@@ -100,7 +117,7 @@
 
     arXiv:2609.00943v1 Announce Type: cross  Abstract: Market efficiency relies fundamentally on stable liquidity. Consequently, forecasting liquidity dynamics is a priority for both investors and regulators. We introduce a new tail-risk metric, Illiquidity-at-Risk (IlliQaR), designed to quantify the magnitude of extreme liquidity dry-ups. Relying upon the realized Amihud (a precise illiquidity measurement derived from high-frequency data as the ratio of realized volatility to trading volume) we assess the predictive power of various linear and non-linear econometric models, with a specific focus on the impact of discontinuous jump components. Accounting for these jumps is essential for achieving accurate probability coverage and better IlliQaR predictions during periods of systemic stress, where standard continuous models systematically underestimate the severity of liquidity evaporation. Our empirical analysis, encompassing the S&P 500 index and a cross-section of 25 large U.S. equities,
     
-[^6]: 外部选择权如何被纳入收益分配之中
+[^7]: 外部选择权如何被纳入收益分配之中
 
     How outside options are incorporated into payoff distributions
 
@@ -114,7 +131,7 @@
 
     arXiv:2609.00799v1 Announce Type: new  Abstract: This paper examines how outside options are incorporated into payoff distributions in games with coalition structures. We introduce and characterize the alpha-value, which "fully" incorporates outside options, and provide a new characterization of the Aumann-Dreze value as an allocation rule that does not incorporate outside options. We show that the chi-value (Casajus, 2009) is a component-wise convex combination of these two values and thus incorporates outside options in a discounted form.
     
-[^7]: 无需市场外全额补偿的多区间调度最优统一定价
+[^8]: 无需市场外全额补偿的多区间调度最优统一定价
 
     Optimal Uniform Pricing for Multi-Interval Dispatch without Make-Whole Uplifts
 
@@ -128,7 +145,7 @@
 
     arXiv:2609.00541v1 Announce Type: cross  Abstract: In a network with ramp-limited generators and inaccurate net-demand forecasts, practical rolling-window dispatch can drive locational marginal prices (LMPs) below generators' bid-in offers. In such cases, out-of-market (OOM) settlements are used to compensate generators and maintain dispatch-following incentives, but OOM can have negative consequences, including nontransparent real-time price signals, discriminatory compensation, and incentives for untruthful bidding. This paper presents an optimal uniform pricing rule that minimizes demand payments, eliminates OOM make-whole payments, preserves LMP-based congestion charges, and ensures revenue adequacy. We derive the proposed pricing rule in closed form and relate it to existing pricing schemes. Numerical comparisons demonstrate favorable generator profits and reduced price volatility. However, higher generator profits are accompanied by increased demand payments, reflecting the in-ma
     
-[^8]: 斯大林是必要的吗？关于苏联经济增长的反事实证据
+[^9]: 斯大林是必要的吗？关于苏联经济增长的反事实证据
 
     Was Stalin Necessary? Counterfactual Evidence on Soviet Growth
 
@@ -142,7 +159,7 @@
 
     arXiv:2609.00418v1 Announce Type: new  Abstract: This article evaluates whether the exceptionally rapid growth of the Russian and Soviet economy after 1928 requires a specifically Stalinist explanation. The analysis treats this historical question as a sequence of increasingly demanding counterfactual comparisons rather than a binary comparison between observed growth and a single alternative. Long run output series from the Global Macro Database and the Maddison Project are combined with synthetic control, augmented synthetic control, synthetic difference in differences, interactive factor models, matrix completion, prediction benchmarks, historical analogues, spatial and temporal placebos, donor pool perturbations, endpoint sensitivity, and independent Soviet national account reconstructions. A key methodological contribution is a revised New Economic Policy counterfactual. Instead of extrapolating the rapid recovery observed from 1922 to 1928, the analysis models the recovery gap as
     
-[^9]: 玻利维亚的液化石油气补贴改革、能源补偿与社会风险：一种机器学习基于主体的微观模拟
+[^10]: 玻利维亚的液化石油气补贴改革、能源补偿与社会风险：一种机器学习基于主体的微观模拟
 
     LPG Subsidy Reform, Energy Compensation, and Social Risk in Bolivia: A Machine-Learning Agent-Based Microsimulation
 
@@ -156,7 +173,7 @@
 
     arXiv:2609.00414v1 Announce Type: new  Abstract: This study evaluates alternative designs for reforming Bolivia's liquefied petroleum gas subsidy using a machine-learning agent-based microsimulation framework. The analysis harmonizes household survey data, expenditure data, demographic and health information, and monthly hydrocarbon production and commercialization series to simulate fiscal savings, poverty effects, energy substitution, administrative costs, and social risks under multiple reform scenarios. The model compares uncompensated subsidy removal, fixed energy transfers, full compensation for vulnerable LPG users, voucher-based compensation, maternal-child transfers, clean-energy transition kits, and hybrid policy packages. Machine-learning models are used to learn household vulnerability, fuel-use patterns, food insecurity risk, and behavioral propensities that feed into a monthly agent-based simulation. The results show that eliminating the subsidy without compensation gener
     
-[^10]: 关于内生议题的沟通
+[^11]: 关于内生议题的沟通
 
     Communicating About Endogenous Issues
 
@@ -170,7 +187,7 @@
 
     arXiv:2609.00380v1 Announce Type: new  Abstract: Limited attention forces organizations to decide not only how much to discuss, but also which issues merit discussion. We study strategic communication about a multidimensional decision when a receiver can respond only along a few endogenously chosen issues. Players agree on the ideal action but prioritize different errors. In equilibrium, communicated and omitted issues must be statistically unrelated and separable according to the sender's preferences. Thus, the sender's priorities determine the agenda; the receiver's do not. Synchronized priorities raise the receiver's best equilibrium payoff but lower his worst, so he may prefer a less synchronized sender.
     
-[^11]: 使用空间验证机器学习方法进行住宅价格建模：跨地理环境的比较
+[^12]: 使用空间验证机器学习方法进行住宅价格建模：跨地理环境的比较
 
     Residential Price Modeling using Spatially Validated Machine Learning Methods: A Comparison Across Geographic Contexts
 
@@ -184,7 +201,7 @@
 
     arXiv:2609.00375v1 Announce Type: new  Abstract: Land use and transportation infrastructure are tightly linked systems, and residential property prices play a central role in transportation planning. Transportation investments also influence property values, making accurate forecasting of both systems an interconnected research challenge. This study examines these interactions and evaluates machine learning methods for modeling residential real estate prices across contrasting urban contexts. We use XGBoost and Random Forest models to assess how land use and transportation infrastructure shape dwelling prices, comparing results between the Rawalpindi and Islamabad Metropolitan Area in Pakistan and the City of Toronto in Canada. We also examine the performance of machine learning models on spatial data by comparing nonspatial and spatial cross validation, and use SHAP values to interpret feature impacts. Despite differences in demographics and economic development, both cities show simi
     
-[^12]: 具有一般边界形状的边界断点设计中的操纵检验
+[^13]: 具有一般边界形状的边界断点设计中的操纵检验
 
     Manipulation Testing in Boundary Discontinuity Designs
 
@@ -198,7 +215,7 @@
 
     arXiv:2609.00350v1 Announce Type: new  Abstract: We propose the first manipulation test designed for boundary discontinuity designs (BDDs) with general boundary shapes. A BDD is a multidimensional extension of the regression discontinuity design (RDD) in which treatment assignment is determined by whether the multidimensional running variable crosses a lower-dimensional boundary set. The test avoids multivariate density estimation and builds on the observation that, in the absence of manipulation, observations near the boundary should be approximately evenly split between treatment and control within arbitrary groups defined by their projections onto the boundary. We test this implication using a collection of binomial balance tests on observations near the boundary, with groups formed by k-means clustering. We establish the asymptotic validity of the test under suitable regularity conditions. We also evaluate finite-sample performance through Monte Carlo simulations and illustrate the
     
-[^13]: 面向电价预测与电池套利的基础模型：它们能否取代针对特定市场的预测模型？
+[^14]: 面向电价预测与电池套利的基础模型：它们能否取代针对特定市场的预测模型？
 
     Foundation models for electricity price forecasting and battery arbitrage: Can they replace market-specific forecasting models?
 
@@ -212,7 +229,7 @@
 
     arXiv:2609.00089v1 Announce Type: new  Abstract: Foundation models promise accurate forecasts with little or no task-specific training, but whether they can replace models designed specifically for electricity price forecasting remains unclear. We compare nine variants from five foundation model families, evaluated in zero-shot mode, with two state-of-the-art electricity price forecasting benchmarks in Germany, Poland, and Spain over 2021-2025. Their performance is assessed in terms of point and probabilistic forecasting accuracy, as well as economic value in battery energy storage arbitrage. Only the TabPFN models consistently and significantly outperform the benchmarks across all three markets and all statistical measures. However, this statistical dominance does not translate directly into economic dominance: TabPFN performs best under unlimited bids and riskier quantile-based strategies, whereas the Distributional Deep Neural Network benchmark is more profitable when risk tolerance
     
-[^14]: 石油价格冲击揭示了出行适应的不平等能力
+[^15]: 石油价格冲击揭示了出行适应的不平等能力
 
     Oil price shocks reveal unequal capacities for mobility adaptation
 
@@ -226,7 +243,7 @@
 
     arXiv:2608.12281v1 Announce Type: cross  Abstract: Urban decarbonization often raises the cost of travel, yet which neighbourhoods can adapt remains largely invisible under normal conditions. We leverage the 2026 US-Iran oil shock as a natural experiment, applying a hierarchical panel regression discontinuity design to 1.7 trillion point-of-interest visits across 122,000 neighbourhoods in China and the United States. Mobility range declined in nearly three-quarters of neighbourhoods, but responses varied systematically with pre-shock urban conditions. Exposure to energy-intensive travel explained the largest share of modelled heterogeneity in both countries, while adaptive capacity and activity composition further shaped how travel was reorganized. Longer baseline travel intensified contraction, whereas greater car dependence constrained adjustment. Crucially, similar mobility outcomes arose from different processes: some neighbourhoods maintained travel by absorbing higher costs, wher
     
-[^15]: 面板数据中的因果预测：一种双向合成预测方法
+[^16]: 面板数据中的因果预测：一种双向合成预测方法
 
     Causal Forecasting in Panel Data: A Two-Way Synthetic Forecasting Approach
 
@@ -240,7 +257,7 @@
 
     arXiv:2606.18512v2 Announce Type: replace  Abstract: Estimating causal effects in panel data is central to policy evaluation, yet existing methods largely address retrospective questions: what would have happened to a target unit under a different intervention during the observed panel? In many applications, however, decision-makers instead face a prospective question: what will happen to a target unit under an intervention it has not yet experienced, beyond the observed horizon? We develop a framework for such causal forecasting problems by combining the counterfactual logic of synthetic controls methods with the extrapolative structure of multivariate time-series forecasting. Building on latent factor models for synthetic controls, we impose a low-rank temporal structure on the treated latent time factors to identify prospective causal forecast estimands. We operationalize this idea through the Two-Way Synthetic Forecasting estimator (TWSF), which learns cross-unit relationships from
     
-[^16]: Caputo型记忆不变量：Cobb-Douglas生产函数的分数阶推广
+[^17]: Caputo型记忆不变量：Cobb-Douglas生产函数的分数阶推广
 
     Caputo-Type Memory Invariants: A Fractional Generalization of the Cobb-Douglas Production Function
 
@@ -254,7 +271,7 @@
 
     arXiv:2605.20152v3 Announce Type: replace  Abstract: Standard dynamical systems approaches to economic modeling, such as those deriving the Cobb-Douglas and CES production functions from exponential growth trajectories, typically rely on integer-order differential equations. While effective, these models assume that economic output depends solely on the instantaneous state of capital and labor, effectively ignoring the long-term ``memory effects'' inherent in policy, infrastructure, and technological adoption.   This paper extends the exponential framework by introducing the Caputo fractional derivative into the underlying dynamical systems governing factor inputs. By replacing standard growth rates with fractional-order counterparts of order $0 < \alpha \le 1$, we model economic trajectories where the rate of change is a non-local function of the system's entire history. We demonstrate that the Mittag-Leffler function emerges as the natural growth solution in this context, providing a
     
-[^17]: 具有网络溢出效应的交错双重差分设计的识别与估计
+[^18]: 具有网络溢出效应的交错双重差分设计的识别与估计
 
     Identification and Estimation of Staggered Difference-in-Differences with Network Spillovers
 
@@ -268,7 +285,7 @@
 
     arXiv:2605.15119v2 Announce Type: replace  Abstract: This paper studies staggered difference-in-differences designs in which treated and comparison units can be exposed to other units' adoption. Using an exposure mapping specified by the researcher, we define realized and counterfactual exposure states and decompose the total effect into a switching effect of own adoption and a spillover effect under no own adoption. Conditional parallel trends identify the total and switching effects by matching, respectively, the counterfactual and realized exposure states of the treated cohort to the same states among units that never adopt. The difference between these effects identifies the spillover effect for the treated cohort. We construct outcome regression estimators for these effects and doubly robust estimators for the total and switching effects, and establish their asymptotic normality under spatial dependence. Monte Carlo simulations assess finite-sample bias, RMSE, pointwise coverage, 
     
-[^18]: 2050年欧洲能源系统中的直接空气捕集：整合、储存与成本驱动因素
+[^19]: 2050年欧洲能源系统中的直接空气捕集：整合、储存与成本驱动因素
 
     Direct Air Capture in Europe's 2050 Energy System: Integration, Storage and Cost Drivers
 
@@ -282,7 +299,7 @@
 
     arXiv:2604.05990v2 Announce Type: replace-cross  Abstract: Direct Air Carbon Capture and Storage (DACCS) can mitigate hard-to-abate emissions, e.g. from transport or industry. However, there is a wide variety of cost estimates for DACCS, driven, to a significant extent, by differences in electricity cost. At the same time, there is a notable gap in research that integrates direct air capturing systems into long-term energy system models. We separate direct air capturing, carbon transport, and carbon storage and integrate them into a European capacity expansion model for a fully decarbonised electricity system in 2050. We explore how two dimensions affect the total system costs of DACCS. The first dimension is the availability of CO2 storage locations: In one analysis, storage locations are restricted to offshore storage locations in the North Sea only, i.e. depleted natural gas fields. The alternative analysis comprises suitable storage locations distributed across Europe, including on
     
-[^19]: 时间变异性对出行服务用户的影响究竟有多严重？一个基于期望效用与非期望效用的经济框架
+[^20]: 时间变异性对出行服务用户的影响究竟有多严重？一个基于期望效用与非期望效用的经济框架
 
     How bad is time variability for users in mobility services? An economic framework under expected- and non-expected utility
 
@@ -296,7 +313,7 @@
 
     arXiv:2603.09142v2 Announce Type: replace  Abstract: Time variability is a pervasive feature of mobility services and a major source of welfare loss. Although literature has quantified the cost of time variability (COTV), it remains theoretically unclear how bad time variability can be in the worst case. Without such a benchmark, quantified variability costs lack a principled reference for assessing whether they are economically meaningful. Meanwhile, this benchmark is critical for strategic prioritization in transport appraisal, service design, and pricing -- particularly in early-stage decision making where detailed valuation is often infeasible. To fill this gap, this paper develops an expected utility (EU) framework to quantify the cost of time (COT) and COTV, establishing theoretical upper bounds on the ratio $COTV/COT$. For users with quadratic utility, we show $COTV/COT \le 1/2 CV^2$, where $CV$ is the coefficient of variation of service time. For Poisson processes, a common ass
     
-[^20]: 无需交叉拟合的多重依赖去偏机器学习方法
+[^21]: 无需交叉拟合的多重依赖去偏机器学习方法
 
     Cross-Fitting-Free Debiased Machine Learning with Multiway Dependence
 
@@ -310,7 +327,7 @@
 
     arXiv:2602.11333v3 Announce Type: replace  Abstract: This paper develops an asymptotic theory for two-step debiased machine learning (DML) estimators in generalised method of moments (GMM) models with general multiway clustered dependence, without relying on cross-fitting. While cross-fitting is commonly employed, it can be statistically inefficient and computationally burdensome when first-stage learners are complex and the effective sample size is governed by the number of independent clusters. We show that valid inference can be achieved without sample splitting by combining Neyman-orthogonal moment conditions with a localisation-based empirical process approach, allowing for an arbitrary number of clustering dimensions. The resulting debiased GMM estimators are shown to be asymptotically linear and asymptotically normal under multiway clustered dependence. A central technical contribution of the paper is the derivation of novel global and local maximal inequalities for general clas
     
-[^21]: 复制者-优化机制：一种尺度相对的持续性条件动力学形式化框架及其条件同意摩擦实例化
+[^22]: 复制者-优化机制：一种尺度相对的持续性条件动力学形式化框架及其条件同意摩擦实例化
 
     The Replicator-Optimization Mechanism: A Scale-Relative Formalism for Persistence-Conditioned Dynamics with a Conditional Consent-Friction Instantiation
 
@@ -324,7 +341,7 @@
 
     arXiv:2601.06363v4 Announce Type: replace  Abstract: Persistence models often conflate propagation, survival, and cross-scale loss. The Replicator-Optimization Mechanism (ROM) is a replicator-mutator template separating baseline weight, bounded survival, and a transfer kernel at a declared scale. Its equation conserves mass but guarantees neither invariance, convergence, a potential, nor a preferred scale. For finite static density-independent continuous time, an irreducible weighted kernel yields a unique positive Perron-Frobenius composition; discrete-time power convergence needs primitivity. The componentwise ranking proved here is guaranteed under exact uniform-residual transfer. Strong lumpability gives universal first-order transfer closure, and blockwise effective fitness gives an exact quotient.   An institutional instantiation uses normalized stakes, signed preference-decision alignment, information loss, and descriptive effective voice. It specifies conditional survival, not 
     
-[^22]: 测量计算机科学热情：基于问卷的年龄与性别对学生兴趣影响的分析
+[^23]: 测量计算机科学热情：基于问卷的年龄与性别对学生兴趣影响的分析
 
     Measuring Computer Science Enthusiasm: A Questionnaire-Based Analysis of Age and Gender Effects on Students' Interest
 
@@ -338,7 +355,7 @@
 
     arXiv:2512.08472v2 Announce Type: replace  Abstract: This study examines how age and gender independently shape adolescents' interest in computer science (CS) education. Building on the Person-Object Theory of Interest (POI), we define enthusiasm as a short-term, activating response that combines positive affect, perceived relevance, and intention to re-engage. Because such enthusiasm can shift CS attitudes and engagement intentions even briefly, it offers a useful measure for short outreach activities.   We developed a 28-item pre-post questionnaire to assess whether CS interventions raise enthusiasm, then applied it to more than 400 students (244 female, 187 male, aged 10-18) in CS courses. Contrary to the common assumption that early exposure secures lasting interest, we found a marked decline during early adolescence, especially among girls, along with wide variation in interest trajectories across ages.   Exploratory factor analysis and ANOVA show that age predicts interest develo
     
-[^23]: 个性化算法建议作为竞争市场中的战略信号
+[^24]: 个性化算法建议作为竞争市场中的战略信号
 
     Individualized Algorithmic Advice as a Strategic Signal on Competitive Markets
 
@@ -352,7 +369,21 @@
 
     arXiv:2511.09454v2 Announce Type: replace-cross  Abstract: As algorithms increasingly mediate competitive decision-making, their influence extends beyond individual outcomes to shaping strategic market dynamics. In our experiment, we examined how algorithmic advice affects human behavior in a classic economic game with a unique, non-collusive, and analytically traceable equilibrium. Participants (N = 129) played a Cournot quantity competition with equilibrium-aligned or strategically biased algorithmic recommendations. While individualized equilibrium advice supported stable convergence, collusively downward-biased advice led to sustained underproduction and supracompetitive profits - hallmarks of tacit collusion. Participants' quantities converged faster and more consistently toward individualized than collective equilibrium advice, potentially due to an objective quality advantage or greater perceived ownership of the former. These findings demonstrate that algorithmic advice can fun
     
-[^24]: 剩余的分配与举证责任
+[^25]: 归咎政治：政治中的因果修辞
+
+    Blameocracy: Causal Rhetoric in Politics
+
+    [https://arxiv.org/abs/2504.06550](https://arxiv.org/abs/2504.06550)
+
+    本文通过微调语言模型分析420万条国会推文，首次大规模量化了政治中的因果修辞，发现归咎性言论不仅是政客沟通的核心（占推文三分之一以上），还能带来显著政治回报——增加小额竞选捐款并提升政客的支持率。
+
+    
+
+    本文研究了政治中因果修辞的供给与回报：即政客通过归咎与归功将政治行动与结果联系起来的语言。我们微调了一个语言模型，以测量其在2012至2023年间420万条国会推文中的使用情况。因果修辞是政客传播的核心：它占推文的三分之一以上，是政治分歧的语言，且随时间不断上升。因果修辞的政治回报主要集中在归咎（责备）上。将竞选捐款数据与推特普及在地理上的准外生变化相结合，我们发现接触归咎性言论对小额捐款的影响最大。利用调查数据中的投票意向以及围绕“仅归咎日”和“仅归功日”的事件研究设计，我们发现政客在“仅归咎日”之后一周的支持率会上升。其他证据表明，因果修辞尤其是归咎，能够将复杂的经济（摘要在此处截断）。
+
+    arXiv:2504.06550v4 Announce Type: replace  Abstract: This paper studies the supply and returns of causal rhetoric in politics: politicians' language linking political actions to outcomes through blame and credit. We fine-tune a language model to measure its use in 4.2 million congressional tweets spanning 2012--2023. Causal rhetoric is central to politicians' communication: it accounts for more than one third of tweets, is the language of political disagreement, and rises over time. The political returns of causal rhetoric are concentrated in blame. Combining campaign contributions with quasi-exogenous geographic variation in Twitter adoption, we find that exposure to blame has the largest effects on small donations. Using voting intentions from survey data and an event-study design around blame-only and credit-only days, we find that politicians' support rises in the week after blame-only days. Additional evidence suggests causal rhetoric, and especially blame, can turn complex econom
+    
+[^26]: 剩余的分配与举证责任
 
     The Division of Surplus and the Burden of Proof
 
@@ -366,7 +397,7 @@
 
     arXiv:2501.14686v5 Announce Type: replace  Abstract: A principal and an agent divide a surplus whose size is known only to the agent. The agent decides how much to reveal initially. Both parties can acquire costly evidence to verify the surplus. The agent's liability is bounded by the revealed surplus. The principal commits to their own acquisition-effort and to transfers contingent on who provides evidence. With these instruments, the principal simultaneously motivates the agent to reveal the surplus and to acquire evidence. We characterize optimal mechanisms using a novel technique that is based on reforming existing mechanisms and orders the instruments. It applies to related multi-instrument problems.
     
-[^25]: 本地媒体与社会规范的塑造：来自埃博拉疫情的证据
+[^27]: 本地媒体与社会规范的塑造：来自埃博拉疫情的证据
 
     Local Media and the Shaping of Social Norms: Evidence from the Ebola outbreak
 
@@ -379,5 +410,19 @@
     媒体对规范和行为的影响已得到广泛认可，但人们对媒体“本地化”所扮演的角色知之甚少。我在一个高风险的背景下研究了这一问题——几内亚的埃博拉疫情。我利用了无线电接入的准随机变化以及在社区电台播出公共卫生宣传活动的时间安排。研究发现，如果原本只能接入邻近社区电台的地方拥有自己的电台，那么12-17%的埃博拉病例本可以被预防。这些影响是由电台的本地性所驱动，而非民族语言的归属关系。研究结果表明，本地媒体促进了在当地被观察和约束的行为的协调。
 
     arXiv:2210.15946v3 Announce Type: replace  Abstract: Media's influence on norms and behavior is widely recognized. Less is known about the role played by media being local. I examine this in a high-stakes context, the Ebola outbreak in Guinea. I exploit quasi-random variation in access to radio and the timing of a public-health campaign aired on community radio. I find that 12-17% of Ebola cases could have been prevented if places with access to a neighboring community radio station instead had their own. Impacts are driven by radio being local rather than by ethno-linguistic belonging. Results suggest that local media facilitates coordination in behaviors observed and sanctioned locally.
+    
+[^28]: 稳定合作在随机乘性增长中涌现
+
+    Stable cooperation emerges in stochastic multiplicative growth
+
+    [https://arxiv.org/abs/2202.02787](https://arxiv.org/abs/2202.02787)
+
+    该论文提出了一种新机制，表明在财富随机乘性增长的环境中，当个体以长时间尺度运作时，将财富作为公共品共享的合作行为能在个体层面产生优势，有效屏蔽环境波动的不利影响，从而使稳定的合作得以涌现。
+
+    
+
+    理解合作的演化稳定性是生物学、社会学和经济学中的一个核心问题。目前已知只有少数几种机制能够保证合作的存在及其对欺骗行为的鲁棒性。本文引入了一种在波动环境中合作涌现的机制。我们考虑财富以乘性方式随机变化的个体。每个个体可以将部分财富作为公共品共享，这些公共品在所有个体之间平均分配。我们证明，当个体以长时间尺度进行运作时，合作会在个体层面产生优势，因为它能有效地使个体免受环境波动的有害影响。
+
+    arXiv:2202.02787v2 Announce Type: replace-cross  Abstract: Understanding the evolutionary stability of cooperation is a central problem in biology, sociology, and economics. There exist only a few known mechanisms that guarantee the existence of cooperation and its robustness to cheating. Here, we introduce a mechanism for the emergence of cooperation in the presence of fluctuations. We consider agents whose wealth changes stochastically in a multiplicative fashion. Each agent can share part of her wealth as a public good, which is equally distributed among all the agents. We show that, when agents operate with long-time horizons, cooperation produces an advantage at the individual level, as it effectively screens agents from the deleterious effect of environmental fluctuations.
     
 
