@@ -27,28 +27,29 @@
 | [^23] | [NeoMME: A Single-Tower Multimodal-Native Multilingual Foundation Encoder for Efficient Fine-Tuning and Inference](https://arxiv.org/abs/2609.01657) | NeoMME是一系列从零预训练的单塔双向多模态多语言基础编码器（260M/800M参数），采用掩码离散扩散目标训练并支持16K token上下文，在视觉文档检索等下游任务上以更低的参数与计算开销实现高效微调和推理。 |
 | [^24] | [From Feature Interaction to Feature Transport - A Unified Block for Scalable Recommendation Models](https://arxiv.org/abs/2609.01655) | 提出CRAFT统一模块，将非序列化特征转化为可靠性感知的上下文场，以残差位移和记忆保持信号主动控制意图信息在堆叠模块间的传输与演化，实现推荐模型从“特征交互”到“特征传输”的范式转变。 |
 | [^25] | [MELON: A Large-Scale Dataset for Multi-Event Text-to-Long-Video Retrieval](https://arxiv.org/abs/2609.01654) | 该论文提出了MELON——首个面向多事件文本到长视频检索的大规模数据集，通过为每个视频标注多个事件区间及文本描述，并引入多事件感知损失来提升模型对全事件与部分事件匹配的区分能力。 |
-| [^26] | [The Vocabulary Gap Is an Equity Gap: Register Mismatch in Retrieval Systems for Public-Benefits Access](https://arxiv.org/abs/2609.01645) | 该研究发现在公共福利资格检索系统中，用户用平实语言提问时的检索性能远低于用官方正式语体提问时（Recall@5从100%降至44%），表明文档与用户之间的词汇和语域鸿沟造成了实质性的公平性差距。 |
-| [^27] | [Imagine Before Retrieval: Prospective Skill Retrieval for LLM Agents](https://arxiv.org/abs/2609.01642) | 提出受人类前瞻性认知启发的SkillDreamer框架，通过“先想象后检索”策略解决LLM智能体技能检索中任务查询与技能之间的失配（QSM）问题。 |
-| [^28] | [GRAND-HC: Graph-Refined Author Name Disambiguation](https://arxiv.org/abs/2609.01636) | 提出端到端从头姓名消歧框架GRAND-HC，通过异构论文图、和谐对比学习和图优化距离矩阵，有效解决作者长尾分布导致的尾部作者过度合并问题。 |
-| [^29] | [Graph Neural Team Recommendation: An Integrated Approach](https://arxiv.org/abs/2609.01631) | 该论文提出将团队推荐问题重新表述为专家协作图上的端到端链接预测任务，从而利用图神经网络捕捉团队内与跨团队的多跳协作关系及其技能间的复杂依赖，实现端到端优化。 |
-| [^30] | [Marginal Expected Revenue for Jointly Ranking Auction and Fixed-Price Listings in E-Commerce Sponsored Search](https://arxiv.org/abs/2609.01628) | 该论文提出边际eCPM（meCPM）方法，将传统固定价格商品的期望收益估算框架扩展至价格动态演化的拍卖和“拍卖加一口价”（ABIN）商品，实现了电商赞助搜索中多种上架形式的联合排序。 |
-| [^31] | [The Utility of LLMs in Recommender Systems Explanation Evaluation](https://arxiv.org/abs/2609.01627) | 本文研究了大语言模型作为“评判者”在推荐系统解释评估中的可靠性，旨在帮助为给定应用自动选择有效的解释方法。 |
-| [^32] | [RecEvolve: A Knowledge-Driven Autonomous Agent System for Recommender Systems](https://arxiv.org/abs/2609.01622) | 本文提出知识驱动的自主智能体系统RecEvolve，将想法生成、代码实现、训练与评估的完整研究生命周期纳入持续自主闭环框架，首次在生产级大规模双塔召回模型上从零完成40余次自主训练迭代，突破隐藏架构瓶颈并取得NDCG约20%的相对提升，使线上用户满意度增长3.77%。 |
-| [^33] | [When Literature Data Mislead Artificial Intelligence in Materials Discovery](https://arxiv.org/abs/2609.01621) | 该研究以固态电解质电导率数据为例，揭示了科学文献中普遍存在的文本-图表不匹配、单位不一致等看似合理却难以检测的错误，这些错误会以结构化标签噪声的形式污染AI训练数据库，甚至导致高达100倍的电导率误差。 |
-| [^34] | [MGDiff: Multi-Interest Sequence Recommendation with Masking GNN-Guided Diffusion](https://arxiv.org/abs/2609.01619) | 提出了一种基于掩码GNN引导扩散的多兴趣序列推荐框架MGDiff，通过双层语义引导（DSG）和流行度感知引导（PAG）机制，在扩散过程中生成准确且无偏的用户兴趣表示，从而提升推荐精度。 |
-| [^35] | [Multi-Agent Retrieval-Augmented Generation for Efficient Cloud Knowledge Base Search in Telecom SNOC Environment](https://arxiv.org/abs/2609.01618) | 本文提出了一个完全离线的多智能体RAG框架Athena，通过融合E5稠密检索、BM25稀疏检索和知识图谱扩展，并结合加权CombSUM融合与交叉编码器重排序，实现了电信SNOC环境中企业云知识库的高效精准检索。 |
-| [^36] | [Hybrid Retrieval-Augmented Generation with Knowledge Graph Expansion, RRF Fusion, and Per-Chunk Grounded Evaluation for Enterprise Document Search](https://arxiv.org/abs/2609.01617) | DocuSearch 提出了一种混合检索增强生成系统，通过倒数排名融合（RRF）将稠密向量语义检索、BM25全文搜索与知识图谱邻居扩展三种互补证据源加权融合（权重分别为0.50、0.35、0.15），在电信网络运营生产环境中实现了更准确、有据可依的企业文档问答。 |
-| [^37] | [Incident Memory: Training-Free Operational Memory through Sequential Pattern Mining and Velocity-Stratified Retrieval](https://arxiv.org/abs/2609.01616) | 该论文提出了一种无需模型训练的确定性运维记忆系统 Incident Memory，通过速度分层检索、指纹条件 PrefixSpan 序列挖掘和溯源感知的指标定义，从历史事件日志中提取有序处置手册，在 UCI ITSM 数据集上覆盖了 84.3% 的留存事故。 |
-| [^38] | [Skim and Skip: Hierarchical Adaptive Inference for Efficient Multimodal Retrieval](https://arxiv.org/abs/2609.01613) | 提出层次化自适应推理框架SAS，通过词元级证据筛选与深度自适应推理两大机制，在保持检索性能的同时大幅降低通用多模态检索的推理成本。 |
-| [^39] | [MESSY STREETS: A Benchmark for Geocoding Real-World Addresses](https://arxiv.org/abs/2609.01612) | MESSY STREETS是一个评估地理编码器处理真实杂乱网页地址的新基准，揭示了商业地理编码器的召回率比开源系统高出多达49个百分点，差距主要源于非规范地址的候选返回率差异。 |
-| [^40] | [Making Revisions Understandable: A Survey of Edit Intentions, Methods, and Applications](https://arxiv.org/abs/2609.01610) | 这是首篇从编辑意图视角系统梳理文本修订研究的综述，为修订语料库、编辑意图分类体系、识别方法及写作辅助等下游应用提供了统一视图。 |
-| [^41] | [Towards Effective Structured Context Modeling for Conversational Recommender Systems via Dual-node Monte Carlo Tree Search](https://arxiv.org/abs/2609.00618) | 提出DREAMS框架，通过双节点树结构（引导节点用蒙特卡洛树搜索探索对话动作以推断潜在偏好，利用节点用大语言模型将偏好状态精炼为结构化检索查询），显式建模对话式推荐系统中用户偏好的多轮演化。 |
-| [^42] | [ICEGR: An Intent-Coherent End-to-End Generative Retrieval Framework for E-commerce Search](https://arxiv.org/abs/2608.29652) | 提出ICEGR框架，通过在生成式检索的语义ID构建、监督微调和偏好优化等整个训练流程中一致融入查询意图，解决电商搜索中查询意图不一致的问题，从而提升低曝光商品的检索效果和查询-商品相关性。 |
-| [^43] | [A Storage-Retrieval Gap in Parametric Knowledge Graph Memory](https://arxiv.org/abs/2608.25489) | 该论文提出将知识图谱离线编译为LoRA适配器作为参数化知识层，在零查询上下文成本下实现事实知识泛化，但发现存储知识无法通过相似性检索恢复，揭示了参数化记忆中的存储-检索差距。 |
-| [^44] | [Not Worth Another Token: Marginal Value Estimation for Efficient Deep Research Agents](https://arxiv.org/abs/2608.08389) | 该论文首次对深度研究智能体流水线中检索前、检索后和综合前三个阶段的上下文剪枝策略进行了系统性分阶段比较，发现剪枝时机比具体评分规则更关键，轻量级启发式方法可在几乎不损失质量的情况下减少多达73%的Token消耗。 |
-| [^45] | [SABER-Math: Automated Benchmark for Information Retrieval Evaluation in Mathematics](https://arxiv.org/abs/2606.29894) | 该论文提出了首个无需专家标注、完全自动化的数学信息检索评估基准SABER-Math，它从28.3万道高中数学题出发自动构建具有挑战性的重排序任务，以克服现有基准无法捕捉细粒度数学相关性的问题。 |
-| [^46] | [Beyond Retrieval: Learning Compact User Representations for Scalable LLM Personalization](https://arxiv.org/abs/2606.04547) | 提出TAP-PER框架，通过时序注意力前缀嵌入将用户偏好编码为紧凑的可学习表示，摆脱了检索式个性化对检索质量的依赖以及参数式个性化随用户规模增长的高昂存储成本，实现可扩展的大语言模型个性化。 |
-| [^47] | [CaST-POI: Candidate-Conditioned Spatiotemporal Modeling for Next POI Recommendation](https://arxiv.org/abs/2604.20845) | 提出CaST-POI，通过在目标注意力中引入时间新近度和地理距离两个分桶偏置，使不同候选点以不同的注意力权重读取同一用户轨迹，从而改进下一兴趣点推荐。 |
+| [^26] | [Not All Matches Are Equally Valuable: An Online Experiment of Retention-Focused Recommendation in a Job-Matching Platform](https://arxiv.org/abs/2609.01652) | 本文通过真实求职匹配平台的在线实验发现，匹配很少的用户流失风险显著更高，而成功用户的额外匹配边际留存价值有限，并据此提出一种留存感知的后处理方法，通过提升有流失风险用户的匹配排序得分来预防用户流失。 |
+| [^27] | [The Vocabulary Gap Is an Equity Gap: Register Mismatch in Retrieval Systems for Public-Benefits Access](https://arxiv.org/abs/2609.01645) | 该研究发现在公共福利资格检索系统中，用户用平实语言提问时的检索性能远低于用官方正式语体提问时（Recall@5从100%降至44%），表明文档与用户之间的词汇和语域鸿沟造成了实质性的公平性差距。 |
+| [^28] | [Imagine Before Retrieval: Prospective Skill Retrieval for LLM Agents](https://arxiv.org/abs/2609.01642) | 提出受人类前瞻性认知启发的SkillDreamer框架，通过“先想象后检索”策略解决LLM智能体技能检索中任务查询与技能之间的失配（QSM）问题。 |
+| [^29] | [GRAND-HC: Graph-Refined Author Name Disambiguation](https://arxiv.org/abs/2609.01636) | 提出端到端从头姓名消歧框架GRAND-HC，通过异构论文图、和谐对比学习和图优化距离矩阵，有效解决作者长尾分布导致的尾部作者过度合并问题。 |
+| [^30] | [Graph Neural Team Recommendation: An Integrated Approach](https://arxiv.org/abs/2609.01631) | 该论文提出将团队推荐问题重新表述为专家协作图上的端到端链接预测任务，从而利用图神经网络捕捉团队内与跨团队的多跳协作关系及其技能间的复杂依赖，实现端到端优化。 |
+| [^31] | [Marginal Expected Revenue for Jointly Ranking Auction and Fixed-Price Listings in E-Commerce Sponsored Search](https://arxiv.org/abs/2609.01628) | 该论文提出边际eCPM（meCPM）方法，将传统固定价格商品的期望收益估算框架扩展至价格动态演化的拍卖和“拍卖加一口价”（ABIN）商品，实现了电商赞助搜索中多种上架形式的联合排序。 |
+| [^32] | [The Utility of LLMs in Recommender Systems Explanation Evaluation](https://arxiv.org/abs/2609.01627) | 本文研究了大语言模型作为“评判者”在推荐系统解释评估中的可靠性，旨在帮助为给定应用自动选择有效的解释方法。 |
+| [^33] | [RecEvolve: A Knowledge-Driven Autonomous Agent System for Recommender Systems](https://arxiv.org/abs/2609.01622) | 本文提出知识驱动的自主智能体系统RecEvolve，将想法生成、代码实现、训练与评估的完整研究生命周期纳入持续自主闭环框架，首次在生产级大规模双塔召回模型上从零完成40余次自主训练迭代，突破隐藏架构瓶颈并取得NDCG约20%的相对提升，使线上用户满意度增长3.77%。 |
+| [^34] | [When Literature Data Mislead Artificial Intelligence in Materials Discovery](https://arxiv.org/abs/2609.01621) | 该研究以固态电解质电导率数据为例，揭示了科学文献中普遍存在的文本-图表不匹配、单位不一致等看似合理却难以检测的错误，这些错误会以结构化标签噪声的形式污染AI训练数据库，甚至导致高达100倍的电导率误差。 |
+| [^35] | [MGDiff: Multi-Interest Sequence Recommendation with Masking GNN-Guided Diffusion](https://arxiv.org/abs/2609.01619) | 提出了一种基于掩码GNN引导扩散的多兴趣序列推荐框架MGDiff，通过双层语义引导（DSG）和流行度感知引导（PAG）机制，在扩散过程中生成准确且无偏的用户兴趣表示，从而提升推荐精度。 |
+| [^36] | [Multi-Agent Retrieval-Augmented Generation for Efficient Cloud Knowledge Base Search in Telecom SNOC Environment](https://arxiv.org/abs/2609.01618) | 本文提出了一个完全离线的多智能体RAG框架Athena，通过融合E5稠密检索、BM25稀疏检索和知识图谱扩展，并结合加权CombSUM融合与交叉编码器重排序，实现了电信SNOC环境中企业云知识库的高效精准检索。 |
+| [^37] | [Hybrid Retrieval-Augmented Generation with Knowledge Graph Expansion, RRF Fusion, and Per-Chunk Grounded Evaluation for Enterprise Document Search](https://arxiv.org/abs/2609.01617) | DocuSearch 提出了一种混合检索增强生成系统，通过倒数排名融合（RRF）将稠密向量语义检索、BM25全文搜索与知识图谱邻居扩展三种互补证据源加权融合（权重分别为0.50、0.35、0.15），在电信网络运营生产环境中实现了更准确、有据可依的企业文档问答。 |
+| [^38] | [Incident Memory: Training-Free Operational Memory through Sequential Pattern Mining and Velocity-Stratified Retrieval](https://arxiv.org/abs/2609.01616) | 该论文提出了一种无需模型训练的确定性运维记忆系统 Incident Memory，通过速度分层检索、指纹条件 PrefixSpan 序列挖掘和溯源感知的指标定义，从历史事件日志中提取有序处置手册，在 UCI ITSM 数据集上覆盖了 84.3% 的留存事故。 |
+| [^39] | [Skim and Skip: Hierarchical Adaptive Inference for Efficient Multimodal Retrieval](https://arxiv.org/abs/2609.01613) | 提出层次化自适应推理框架SAS，通过词元级证据筛选与深度自适应推理两大机制，在保持检索性能的同时大幅降低通用多模态检索的推理成本。 |
+| [^40] | [MESSY STREETS: A Benchmark for Geocoding Real-World Addresses](https://arxiv.org/abs/2609.01612) | MESSY STREETS是一个评估地理编码器处理真实杂乱网页地址的新基准，揭示了商业地理编码器的召回率比开源系统高出多达49个百分点，差距主要源于非规范地址的候选返回率差异。 |
+| [^41] | [Making Revisions Understandable: A Survey of Edit Intentions, Methods, and Applications](https://arxiv.org/abs/2609.01610) | 这是首篇从编辑意图视角系统梳理文本修订研究的综述，为修订语料库、编辑意图分类体系、识别方法及写作辅助等下游应用提供了统一视图。 |
+| [^42] | [Towards Effective Structured Context Modeling for Conversational Recommender Systems via Dual-node Monte Carlo Tree Search](https://arxiv.org/abs/2609.00618) | 提出DREAMS框架，通过双节点树结构（引导节点用蒙特卡洛树搜索探索对话动作以推断潜在偏好，利用节点用大语言模型将偏好状态精炼为结构化检索查询），显式建模对话式推荐系统中用户偏好的多轮演化。 |
+| [^43] | [ICEGR: An Intent-Coherent End-to-End Generative Retrieval Framework for E-commerce Search](https://arxiv.org/abs/2608.29652) | 提出ICEGR框架，通过在生成式检索的语义ID构建、监督微调和偏好优化等整个训练流程中一致融入查询意图，解决电商搜索中查询意图不一致的问题，从而提升低曝光商品的检索效果和查询-商品相关性。 |
+| [^44] | [A Storage-Retrieval Gap in Parametric Knowledge Graph Memory](https://arxiv.org/abs/2608.25489) | 该论文提出将知识图谱离线编译为LoRA适配器作为参数化知识层，在零查询上下文成本下实现事实知识泛化，但发现存储知识无法通过相似性检索恢复，揭示了参数化记忆中的存储-检索差距。 |
+| [^45] | [Not Worth Another Token: Marginal Value Estimation for Efficient Deep Research Agents](https://arxiv.org/abs/2608.08389) | 该论文首次对深度研究智能体流水线中检索前、检索后和综合前三个阶段的上下文剪枝策略进行了系统性分阶段比较，发现剪枝时机比具体评分规则更关键，轻量级启发式方法可在几乎不损失质量的情况下减少多达73%的Token消耗。 |
+| [^46] | [SABER-Math: Automated Benchmark for Information Retrieval Evaluation in Mathematics](https://arxiv.org/abs/2606.29894) | 该论文提出了首个无需专家标注、完全自动化的数学信息检索评估基准SABER-Math，它从28.3万道高中数学题出发自动构建具有挑战性的重排序任务，以克服现有基准无法捕捉细粒度数学相关性的问题。 |
+| [^47] | [Beyond Retrieval: Learning Compact User Representations for Scalable LLM Personalization](https://arxiv.org/abs/2606.04547) | 提出TAP-PER框架，通过时序注意力前缀嵌入将用户偏好编码为紧凑的可学习表示，摆脱了检索式个性化对检索质量的依赖以及参数式个性化随用户规模增长的高昂存储成本，实现可扩展的大语言模型个性化。 |
+| [^48] | [CaST-POI: Candidate-Conditioned Spatiotemporal Modeling for Next POI Recommendation](https://arxiv.org/abs/2604.20845) | 提出CaST-POI，通过在目标注意力中引入时间新近度和地理距离两个分桶偏置，使不同候选点以不同的注意力权重读取同一用户轨迹，从而改进下一兴趣点推荐。 |
 
 # 详细
 
@@ -402,7 +403,21 @@
 
     arXiv:2609.01654v1 Announce Type: new  Abstract: Existing text-video retrieval datasets primarily consist of short-form clips containing a single dominant event. While suitable for measuring basic vision-language alignment, they are limited in capturing real-world retrieval scenarios, where long-form videos naturally contain multiple semantically distinct events and a single text query may correspond to several non-contiguous temporal segments. To bridge this gap, we introduce MELON, the first large-scale dataset designed to extend text-video retrieval to long-form videos featuring complex, multi-event structures. MELON explicitly annotates multiple event intervals per video along with their corresponding textual descriptions, enabling both training and evaluation of multi-event understanding in long, untrimmed videos. In addition, we propose a multi-event aware loss that encourages models to differentiate between full-event and partial-event matches, yielding substantial improvements 
     
-[^26]: 词汇鸿沟即是公平鸿沟：公共福利获取检索系统中的语域不匹配问题
+[^26]: 并非所有匹配都具有同等价值：求职匹配平台中以留存为导向的推荐在线实验
+
+    Not All Matches Are Equally Valuable: An Online Experiment of Retention-Focused Recommendation in a Job-Matching Platform
+
+    [https://arxiv.org/abs/2609.01652](https://arxiv.org/abs/2609.01652)
+
+    本文通过真实求职匹配平台的在线实验发现，匹配很少的用户流失风险显著更高，而成功用户的额外匹配边际留存价值有限，并据此提出一种留存感知的后处理方法，通过提升有流失风险用户的匹配排序得分来预防用户流失。
+
+    
+
+    双边匹配平台中的推荐系统通常以即时参与信号进行优化，例如点击率、回复率或成功匹配的总数。然而，在现实世界的市场中，仅最大化匹配数量可能与用户流失率和平台收入等业务目标不一致，尤其是当匹配较少的用户面临明显更高的流失风险时。在本文中，我们研究了一个真实的求职匹配平台，结果表明近期匹配很少的用户确实更有可能离开平台，而对于已经很成功的用户来说，额外的匹配对留存的边际价值有限。基于这一实证发现，我们提出了一个以留存为导向的推荐问题，并实现了一种简单的后处理方法，通过调整以匹配为中心的基线排序来防止用户流失。具体而言，该方法对有流失风险的
+
+    arXiv:2609.01652v1 Announce Type: new  Abstract: Recommender systems in two-sided matching platforms are commonly optimized for immediate engagement signals such as click-through rate, reply rate, or the total number of successful matches. However, in real-world marketplaces, maximizing matches alone may be misaligned with business goals such as user churn rate and platform revenue, especially when users with fewer matches are at substantially higher risk of churn. In this paper, we study a real job matching platform and show that users with very few recent matches are indeed much more likely to leave the platform, while additional matches for already successful users provide limited marginal value for retention. Motivated by this empirical finding, we formulate a retention-aware recommendation problem and implement a simple post-processing method that adjusts the baseline match-focused ranking to prevent user churn. Specifically, the implemented method gives a score boost to churn-ris
+    
+[^27]: 词汇鸿沟即是公平鸿沟：公共福利获取检索系统中的语域不匹配问题
 
     The Vocabulary Gap Is an Equity Gap: Register Mismatch in Retrieval Systems for Public-Benefits Access
 
@@ -416,7 +431,7 @@
 
     arXiv:2609.01645v1 Announce Type: new  Abstract: Retrieval-augmented question answering is increasingly used to help people navigate public-benefits eligibility, yet the documents these systems retrieve from are written in agency register while intended users often ask questions in plain, informal, or non-native English. We show that this register mismatch can turn a high-performing retrieval system into an inequitable one. We construct a controlled benchmark of 51 publicly documented federal benefit-eligibility rules and 25 information needs, each phrased in both agency register and plain user register while keeping the gold passage fixed. Across BM25, TF-IDF, and a term-graph retriever, formal-register evaluation is nearly perfect (Recall@5 96-100%), but plain-register retrieval collapses (Recall@5 36-44%). For BM25, Recall@1 falls from 84% to 16% and Recall@5 from 100% to 44%, a 56-point equity gap on identical information needs. We trace the mechanism to a measurable vocabulary gap
     
-[^27]: 先想象后检索：面向大语言模型智能体的前瞻性技能检索
+[^28]: 先想象后检索：面向大语言模型智能体的前瞻性技能检索
 
     Imagine Before Retrieval: Prospective Skill Retrieval for LLM Agents
 
@@ -430,7 +445,7 @@
 
     arXiv:2609.01642v1 Announce Type: new  Abstract: Skill retrieval has recently emerged as a promising paradigm for identifying the desirable execution guidelines from the skill gallery, thus equipping large language model (LLM) agents with the procedural knowledge to accomplish the specified task. To this end, most existing methods customize the retrieval model or reconfigure the retrieval pipeline to prioritize skills that are most semantically relevant to the task query. However, we empirically reveal that task queries and skills are naturally formulated from different perspectives, namely, objective-oriented and procedural-oriented, leading to an under-explored problem termed Query--Skill Misalignment (QSM). Clearly, it is daunting and even impossible to associate the desirable skills in the context of QSM, thus hindering the agent from correctly executing the task. As a remedy, inspired by human prospective cognition, we propose SkillDreamer, a novel framework to alleviate the negat
     
-[^28]: GRAND-HC：基于图优化的作者姓名消歧
+[^29]: GRAND-HC：基于图优化的作者姓名消歧
 
     GRAND-HC: Graph-Refined Author Name Disambiguation
 
@@ -444,7 +459,7 @@
 
     arXiv:2609.01636v1 Announce Type: new  Abstract: From-Scratch Name Disambiguation (SND) groups papers sharing an ambiguous name into clusters of distinct real-world authors. Existing methods suffer from two critical limitations: (1) inherent long-tailed author distribution biases representation learning, causing over-merging of tail authors; (2) existing cluster number estimation methods are unreliable for long paper sequences, hindering large-scale deployment. We propose \textbf{GRAND-HC}, a complete end-to-end SND framework. We construct a heterogeneous paper graph via co-author, co-organization, and co-venue relations, using a graph attention network as the embedding backbone. \textbf{Harmony Contrastive Learning (HCL)} dynamically reweights training loss to suppress overfitting to prolific authors, learning discriminative embeddings. A \textbf{Graph-Refined Distance Matrix (GRDM)} leverages graph topology to optimize pairwise distances, further preventing tail author over-merging. 
     
-[^29]: 图神经网络团队推荐：一种集成化方法
+[^30]: 图神经网络团队推荐：一种集成化方法
 
     Graph Neural Team Recommendation: An Integrated Approach
 
@@ -458,7 +473,7 @@
 
     arXiv:2609.01631v1 Announce Type: cross  Abstract: Team recommendation aims to select an optimal subset of experts who can form an almost surely successful collaborative team for a given set of required skills. State-of-the-art methods are neural multi-label classifiers that transfer dense vector representations of skills into a sparse occurrence vector representing the optimal subset of experts. Such methods, however, overlook experts' relational and structural information encoded in the expert collaboration graph and, thus, fall short of capturing complex inter-dependencies among experts and their associated skills within teams. Moreover, the skills' dense vectors are pretrained disjointly and independently of the underlying neural classifier, hence, preventing end-to-end optimization. In this paper, we propose to reformulate the team recommendation problem into end-to-end link predictions in the expert collaboration graph to consume multi-hop intra-team and cross-team collaborations
     
-[^30]: 电子商务赞助搜索中联合排序拍卖与固定价格商品列表的边际期望收益
+[^31]: 电子商务赞助搜索中联合排序拍卖与固定价格商品列表的边际期望收益
 
     Marginal Expected Revenue for Jointly Ranking Auction and Fixed-Price Listings in E-Commerce Sponsored Search
 
@@ -472,7 +487,7 @@
 
     arXiv:2609.01628v1 Announce Type: cross  Abstract: E-commerce search ranking must balance multiple objectives--relevance, user engagement, and platform revenue--when allocating impression slots to competing listings. Estimating the expected revenue component is well understood for fixed-price items, but becomes challenging when marketplace inventory includes mixed listing formats such as pure auctions and hybrid "Auction with Buy It Now" (ABIN) items, where prices evolve dynamically and the final transaction value is unknown at ranking time. Yet auction and ABIN listings account for a meaningful share of inventory and transaction volume on platforms such as eBay, and are a popular format for individual sellers and for unique items with unclear value. We extend the standard Expected Cost-per-Mille (eCPM) framework to auction and ABIN listings by deriving a marginal eCPM (meCPM) that captures the incremental value of showing one more impression of an item whose price is still evolving. T
     
-[^31]: 大语言模型在推荐系统解释评估中的效用
+[^32]: 大语言模型在推荐系统解释评估中的效用
 
     The Utility of LLMs in Recommender Systems Explanation Evaluation
 
@@ -486,7 +501,7 @@
 
     arXiv:2609.01627v1 Announce Type: cross  Abstract: Explanations play a crucial role in creating trustworthy recommender systems (RS), yet choosing a good explanation method presents challenges. Many explanation methods exist, but little guidance exists on which is best for which setting. Existing explanation generation methods often produce abstract outputs that require further formatting to become user-friendly, with a seemingly endless pool of options. Running user-based evaluations of all possible options is usually unfeasible, while automated evaluation metrics often either assess only the explainer's abstract output or require comparison with a ground truth, which is generally unavailable. Recent studies have shown that large language models (LLMs) can serve as ``judges'' for explanation evaluation, but their reliability has not yet been thoroughly explored. This paper studies the utility of LLMs in selecting an effective explanation method for a given application. We first explor
     
-[^32]: RecEvolve：面向推荐系统的知识驱动自主智能体系统
+[^33]: RecEvolve：面向推荐系统的知识驱动自主智能体系统
 
     RecEvolve: A Knowledge-Driven Autonomous Agent System for Recommender Systems
 
@@ -500,7 +515,7 @@
 
     arXiv:2609.01622v1 Announce Type: cross  Abstract: The rise of agentic AI has catalyzed a shift toward self-iterating systems, opening new frontiers for the autonomous optimization of production recommender models. This paper presents the empirical validation of a knowledge-driven autonomous agent system, deployed directly on a production large-scale Two-Tower retrieval model. By delegating the entire research lifecycle, spanning idea generation, code implementation, offline training, and metric evaluation, to a continuous closed-loop autonomous framework, the agent system executed over 40 completed autonomous training runs from scratch. Executing these runs under rigorous production-scale evaluations, the system systematically navigated hidden architectural bottlenecks on the latest production model to achieve a breakthrough ~20% relative improvement in NDCG, a gain that translated directly to a +3.77% increase in user satisfaction in live production traffic. Furthermore, the deployme
     
-[^33]: 当文献数据在材料发现中误导人工智能时
+[^34]: 当文献数据在材料发现中误导人工智能时
 
     When Literature Data Mislead Artificial Intelligence in Materials Discovery
 
@@ -514,7 +529,7 @@
 
     arXiv:2609.01621v1 Announce Type: cross  Abstract: Artificial intelligence (AI) increasingly treats scientific literature as a data source for building databases, training predictive models, and guiding discovery. Yet literature-derived datasets often assume that reported experimental values are internally consistent and directly reusable. Here, we analyze this assumption using solid electrolyte (SE) conductivity data as a representative materials-science case. By tracing values from source articles to curated datasets, we identify recurrent text-figure mismatches, ambiguous axis annotations, unit inconsistencies, and missing measurement context. These discrepancies are often numerically plausible and therefore difficult to detect through routine preprocessing, but they can propagate as structured label noise during database construction and machine-learning reuse. A cross-database example shows how ambiguous reporting can create a 100-fold conductivity error. Our analysis reframes dat
     
-[^34]: MGDiff：基于掩码GNN引导扩散的多兴趣序列推荐
+[^35]: MGDiff：基于掩码GNN引导扩散的多兴趣序列推荐
 
     MGDiff: Multi-Interest Sequence Recommendation with Masking GNN-Guided Diffusion
 
@@ -528,7 +543,7 @@
 
     arXiv:2609.01619v1 Announce Type: new  Abstract: We propose a novel Multi-Interest Sequence Recommendation Framework with \underline{M}asking \underline{G}NN-Guided \underline{Diff}usion Model (MGDiff), designed to generate accurate, bias-free user interest information during the diffusion process. First, we propose a semantics-enhanced Dual-layer Semantic Guidance (DSG) framework, which decomposes guidance into two synergistic stages: extracting latent item semantics and decoupling multidimensional user intent. We design a Weight-adaptive Masking Graph Neural Network reconstructs missing links to uncover deep item relationships beyond superficial co-occurrence, while a Dynamic Multi-Expert Network projects user preferences into distinct semantic subspaces to suppress irrelevant interference. This hierarchical design yields structured guidance that significantly improves the generation accuracy of diffusion models. Second, We propose a Popularity-Aware Guidance (PAG) mechanism that per
     
-[^35]: 面向电信SNOC环境高效云知识库检索的多智能体检索增强生成
+[^36]: 面向电信SNOC环境高效云知识库检索的多智能体检索增强生成
 
     Multi-Agent Retrieval-Augmented Generation for Efficient Cloud Knowledge Base Search in Telecom SNOC Environment
 
@@ -542,7 +557,7 @@
 
     arXiv:2609.01618v1 Announce Type: cross  Abstract: Telecom Service and Network Operations Centers (SNOCs) rely on large collections of cloud documents, including Standard Operating Procedures (SOPs), vendor technical manuals, incident reports, and configuration guides, to maintain uninterrupted network operations. During critical incidents, engineers must quickly retrieve accurate information, yet traditional keyword based and single stage retrieval approaches often struggle to provide precise results.   This paper presents Athena for Cloud Knowledge Base, a fully offline, multi agent Retrieval Augmented Generation (RAG) framework designed for enterprise cloud document search in Vodafone Idea's SNOC environment. The system integrates dense retrieval using E5 Large V2 embeddings, BM25 sparse retrieval, and Knowledge Graph expansion within a LangGraph based orchestration framework. Retrieved candidates are fused using Weighted CombSUM, followed by cross encoder reranking and Maximal Marg
     
-[^36]: 面向企业文档搜索的混合检索增强生成：知识图谱扩展、RRF融合与分块接地评估
+[^37]: 面向企业文档搜索的混合检索增强生成：知识图谱扩展、RRF融合与分块接地评估
 
     Hybrid Retrieval-Augmented Generation with Knowledge Graph Expansion, RRF Fusion, and Per-Chunk Grounded Evaluation for Enterprise Document Search
 
@@ -556,7 +571,7 @@
 
     arXiv:2609.01617v1 Announce Type: cross  Abstract: Getting accurate, grounded answers out of large enterprise document repositories is a difficult problem. Dense vector retrieval alone frequently performs poorly on queries that mix technical terminology, vendor-specific acronyms, or require reasoning across several non-adjacent sections. DocuSearch was built to address exactly this gap - an offline, multi-agent document intelligence system developed and evaluated in a production telecom network operations environment. Rather than relying on a single retrieval signal, DocuSearch pulls together three complementary sources of evidence: semantic search over a Qdrant vector store using BGE-Large embeddings, BM25 full text search over an SQLite FTS5 index, and Knowledge Graph neighbour expansion from a structured edge table. These three ranked lists are merged through Reciprocal Rank Fusion with signal weights of 0.50 for vector search, 0.35 for BM25, and 0.15 for the knowledge graph, using 
     
-[^37]: 事件记忆：通过序列模式挖掘与速度分层检索实现免训练的运维记忆
+[^38]: 事件记忆：通过序列模式挖掘与速度分层检索实现免训练的运维记忆
 
     Incident Memory: Training-Free Operational Memory through Sequential Pattern Mining and Velocity-Stratified Retrieval
 
@@ -570,7 +585,7 @@
 
     arXiv:2609.01616v1 Announce Type: new  Abstract: Incident response is a memory problem: teams accumulate tickets, traces, postmortems, and wiki pages, but the knowledge needed for the next incident is rarely stored with its order, freshness, and provenance intact. We present Incident Memory, a deterministic system that accumulates operational knowledge without model training. It combines (i) velocity-stratified retrieval, which ages structural, behavioral, contextual, and ephemeral facts at different rates; (ii) fingerprint-conditioned PrefixSpan mining, which extracts ordered playbooks from successful investigations; and (iii) provenance-aware metric definitions, which detect conflicting definitions through executable checks. On the UCI ITSM event log, containing 141,712 events across 24,918 incidents, Incident Memory extracts 23,110 ordered traces, mines 39 playbooks, and covers 84.3% of 6,934 held-out incidents. On controlled benchmarks with known ground truth, it achieves 99.2% ord
     
-[^38]: 略读与跳过：面向高效多模态检索的层次化自适应推理
+[^39]: 略读与跳过：面向高效多模态检索的层次化自适应推理
 
     Skim and Skip: Hierarchical Adaptive Inference for Efficient Multimodal Retrieval
 
@@ -584,7 +599,7 @@
 
     arXiv:2609.01613v1 Announce Type: new  Abstract: Universal multimodal retrieval (UMR) increasingly adopts multimodal large language models (MLLMs) as unified embedding backbones, but their strong retrieval performance comes at substantial inference cost. Existing methods typically rely on uniformly dense inference, where all input tokens are processed through the entire model and matched using the final-layer [EOS] representation. However, this paradigm overlooks two key forms of heterogeneity in multimodal retrieval: token contributions to the final retrieval embedding are highly uneven, and different queries require markedly different amounts of inference depth. To address this, we propose Skim and Skip (SAS), a hierarchical adaptive inference framework for efficient multimodal retrieval. SAS first performs token-level evidence selection to preserve only the input information most relevant to the final retrieval embedding, and then performs depth-adaptive inference to determine wheth
     
-[^39]: MESSY STREETS：一个用于真实世界地址地理编码的基准
+[^40]: MESSY STREETS：一个用于真实世界地址地理编码的基准
 
     MESSY STREETS: A Benchmark for Geocoding Real-World Addresses
 
@@ -598,7 +613,7 @@
 
     arXiv:2609.01612v1 Announce Type: cross  Abstract: We introduce MESSY STREETS, a benchmark for evaluating geocoders on verbatim web addresses, with existence verification and controlled measurement of surface-form divergence. Unlike conventional benchmarks based on clean or synthetically perturbed addresses, MESSY STREETS contains addresses whose surface forms diverge from canonical representations and whose components may be missing, repeated, malformed, or incomplete. The benchmark is constructed from the December 2024 Web Data Commons corpus, with reference locations established from OpenAddresses or OpenStreetMap.   The strongest commercial geocoders outperform open-source systems by up to 49 percentage points in recall. This gap is driven primarily by differences in candidate return rates on non-canonical addresses; once a candidate is returned, positional accuracy is broadly comparable across systems. Non-canonical surface form alone accounts for up to 25 percentage points of rec
     
-[^40]: 让修订变得可理解：编辑意图、方法与应用综述
+[^41]: 让修订变得可理解：编辑意图、方法与应用综述
 
     Making Revisions Understandable: A Survey of Edit Intentions, Methods, and Applications
 
@@ -612,7 +627,7 @@
 
     arXiv:2609.01610v1 Announce Type: new  Abstract: Text revision is a core process in document creation, capturing how authors iteratively refine, reorganize, and improve written content. With the increasing availability of large-scale revision histories from platforms such as Wikipedia and arXiv, NLP research has begun to move beyond modeling what changes are made to understanding why they are made, i.e., the underlying edit intentions. To our knowledge, this is the first survey that synthesizes text revision research through the lens of edit intentions, providing a unified view of datasets, taxonomies, identification methods, and applications. We review prior work across the full revision workflow, including revision corpus construction, edit intention taxonomy design, and edit intention identification. We further categorize representative datasets and methods, summarize downstream applications such as writing assistance and document edit summarization, and highlight key open research 
     
-[^41]: 基于双节点蒙特卡洛树搜索的对话式推荐系统高效结构化上下文建模
+[^42]: 基于双节点蒙特卡洛树搜索的对话式推荐系统高效结构化上下文建模
 
     Towards Effective Structured Context Modeling for Conversational Recommender Systems via Dual-node Monte Carlo Tree Search
 
@@ -626,7 +641,7 @@
 
     arXiv:2609.00618v1 Announce Type: cross  Abstract: We investigate the role of conversational context modeling in user preference tracking for Conversational Recommendation Systems (CRSs). In this regard, we propose DREAMS, a novel tree-structured context modeling framework that explicitly captures user preference evolution throughout multi-turn interactions. DREAMS introduces two specialized node types to support the two fundamental objectives of CRSs: preference elicitation and preference exploitation. Specifically, elicitation nodes leverage Monte Carlo Tree Search (MCTS) to strategically explore conversational actions and infer latent user preferences, while exploitation nodes employ LLM-based refinement to transform the tracked preference state into structured retrieval queries for recommendation. Extensive experiments on benchmark datasets demonstrate the effectiveness of DREAMS and its design.
     
-[^42]: ICEGR：面向电商搜索的意图连贯端到端生成式检索框架
+[^43]: ICEGR：面向电商搜索的意图连贯端到端生成式检索框架
 
     ICEGR: An Intent-Coherent End-to-End Generative Retrieval Framework for E-commerce Search
 
@@ -640,7 +655,7 @@
 
     arXiv:2608.29652v1 Announce Type: new  Abstract: Generative Retrieval (GR) is promising for e-commerce search, yet existing methods struggle to maintain query-intent consistency throughout the training pipeline. First, semantic ID (SID) construction based on static product information limits the ability of SIDs to encode product-intent associations. Second, although supervised fine-tuning (SFT) learns product-SID mappings across the catalog, low-exposure products still lack real query-intent supervision because query-to-SID training relies solely on online logs, resulting in poor retrieval performance for these products. Third, business-oriented preference optimization may favor popular or high-value products over those that best match the query intent, weakening query-product relevance. To address these issues, we propose ICEGR, an Intent-Coherent End-to-End Generative Retrieval Framework for E-commerce Search that integrates query intent consistently throughout the GR training pipeli
     
-[^43]: 参数化知识图谱记忆中的存储-检索差距
+[^44]: 参数化知识图谱记忆中的存储-检索差距
 
     A Storage-Retrieval Gap in Parametric Knowledge Graph Memory
 
@@ -654,7 +669,7 @@
 
     arXiv:2608.25489v1 Announce Type: cross  Abstract: Graph retrieval-augmented generation places retrieved subgraphs into the model's context window at query time, paying a recurring token cost and exposing source data on every call. We study an alternative: compiling a knowledge graph offline into a bank of LoRA adapters, one per entity, that serve as a parametric knowledge layer queried by injecting weights rather than text, at zero query-time context cost. On the MetaQA dataset, we find that subgraph-trained adapters encode context-free factual knowledge that generalizes to unseen questions: on single-valued relations the adapter gains $+0.243$ exact-match score over a base model that is nearly blind closed-book ($0.007$), and only the correct adapter recovers this knowledge (an oracle gap of $+0.283$ over the base model). However, the stored knowledge is not recoverable by similarity: given a query with no subgraph, embedding-based and weight-space geometry retrieval both perform at 
     
-[^44]: 不值得再多花一个Token：面向高效深度研究智能体的边际价值估计
+[^45]: 不值得再多花一个Token：面向高效深度研究智能体的边际价值估计
 
     Not Worth Another Token: Marginal Value Estimation for Efficient Deep Research Agents
 
@@ -668,7 +683,7 @@
 
     arXiv:2608.08389v2 Announce Type: replace  Abstract: Long-horizon research agents solve open-ended tasks through iterative retrieval, aggregation, and synthesis, but context grows rapidly while the marginal value of additional evidence often declines. This leads to unnecessary token cost, higher latency, and noisier inputs for final report generation. We study marginal value estimation for context management in deep research agents and present the first systematic stage-aware comparison of pruning strategies across the pipeline. We evaluate lightweight heuristic criteria and a learned value model at pre-retrieval, post-retrieval, and pre-synthesis stages. Our results show that pruning effectiveness depends more on where pruning is applied than on the specific scoring rule: early pruning yields the largest end-to-end savings, while later pruning mainly refines the final synthesis context. Lightweight heuristics reduce token usage by up to 73% with little quality degradation, learned pru
     
-[^45]: SABER-Math：面向数学信息检索评估的自动化基准
+[^46]: SABER-Math：面向数学信息检索评估的自动化基准
 
     SABER-Math: Automated Benchmark for Information Retrieval Evaluation in Mathematics
 
@@ -682,7 +697,7 @@
 
     arXiv:2606.29894v2 Announce Type: replace-cross  Abstract: As agentic AI systems tackle more complex mathematical tasks, they increasingly rely on information retrieval (IR) to search problem databases, theorem libraries, and educational resources. However, choosing the right retriever remains difficult, as it is infeasible to directly isolate its effect on downstream performance. On the other hand, existing retrieval-specific benchmarks often fail to capture fine-grained mathematical relevance, penalizing relevant documents. We address this gap by introducing SABER-Math, the first fully automated benchmark for evaluating mathematical IR without expert annotation. Starting from 283K high-school-level math problems with solutions, SABER-Math builds challenging reranking tasks in three steps: (i) first, LLMs extract concise solution summaries and mathematical topics for each problem; (ii) then, per-query relevant documents are discovered using ontology topic-based and lexical solutions-s
     
-[^46]: 超越检索：学习紧凑的用户表示以实现可扩展的大语言模型个性化
+[^47]: 超越检索：学习紧凑的用户表示以实现可扩展的大语言模型个性化
 
     Beyond Retrieval: Learning Compact User Representations for Scalable LLM Personalization
 
@@ -696,7 +711,7 @@
 
     arXiv:2606.04547v3 Announce Type: replace-cross  Abstract: Personalizing large language models requires adapting model behavior to individual users while preserving robustness and deployment-scale efficiency. Existing approaches typically personalize LLMs either at the input level, by retrieving user histories or constructing profile prompts, or at the parameter level, by maintaining user-specific parameter-efficient modules. The former makes personalization sensitive to retrieval quality and prompt design, whereas the latter incurs storage and maintenance costs that grow with the user population. To address these limitations, we propose TAP-PER (Temporal Attentive Prefix for PERsonalization), a prefix-based framework that encodes user preferences as learnable representations, avoiding the serialization of user histories into prompts and replacing heavy per-user adapters with lightweight user-state prefix embeddings. Inspired by personalized recommendation systems, TAP-PER decomposes u
     
-[^47]: CaST-POI：面向下一兴趣点推荐的候选条件化时空建模
+[^48]: CaST-POI：面向下一兴趣点推荐的候选条件化时空建模
 
     CaST-POI: Candidate-Conditioned Spatiotemporal Modeling for Next POI Recommendation
 
