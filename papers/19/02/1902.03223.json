@@ -1,0 +1,12 @@
+{
+    "title": "Robust Streaming PCA",
+    "abstract": "arXiv:1902.03223v4 Announce Type: replace-cross  Abstract: We consider streaming principal component analysis when the stochastic data generating model is subject to perturbations. While existing models assume a fixed covariance, we adopt a robust perspective where the covariance matrix belongs to a temporal uncertainty set. Under this setting, we provide fundamental limits on convergence of any algorithm recovering principal components. We analyze the convergence of the noisy power method and Oja's algorithm, both studied for the stationary data generating model, and argue that the noisy power method is rate-optimal in our setting. Finally, we demonstrate the validity of our analysis through numerical experiments on synthetic and real-world datasets.",
+    "link": "https://arxiv.org/abs/1902.03223",
+    "context": "Title: Robust Streaming PCA\nAbstract: arXiv:1902.03223v4 Announce Type: replace-cross  Abstract: We consider streaming principal component analysis when the stochastic data generating model is subject to perturbations. While existing models assume a fixed covariance, we adopt a robust perspective where the covariance matrix belongs to a temporal uncertainty set. Under this setting, we provide fundamental limits on convergence of any algorithm recovering principal components. We analyze the convergence of the noisy power method and Oja's algorithm, both studied for the stationary data generating model, and argue that the noisy power method is rate-optimal in our setting. Finally, we demonstrate the validity of our analysis through numerical experiments on synthetic and real-world datasets.",
+    "path": "papers/19/02/1902.03223.json",
+    "total_tokens": 903,
+    "translated_title": "鲁棒流式主成分分析",
+    "translated_abstract": "我们研究了当随机数据生成模型受到扰动时的流式主成分分析问题。现有模型假设协方差矩阵是固定的，而我们采用鲁棒的视角，即协方差矩阵属于一个随时间变化的不确定集合。在此设定下，我们给出了任何恢复主成分的算法在收敛性上的基本极限。我们分析了噪声幂法和Oja算法的收敛性（这两种算法此前都是针对平稳数据生成模型研究的），并论证了在我们的设定下噪声幂法在速率上是最优的。最后，我们通过在合成数据集和真实数据集上的数值实验验证了我们分析的有效性。",
+    "tldr": "该论文提出了协方差矩阵属于时变不确定集合的鲁棒流式主成分分析框架，给出了算法收敛的基本极限，并证明噪声幂法在此扰动设定下达到速率最优。",
+    "en_tdlr": "This paper establishes a robust streaming PCA framework where the covariance matrix belongs to a temporal uncertainty set, provides fundamental limits on algorithm convergence, and proves that the noisy power method is rate-optimal under such perturbations."
+}

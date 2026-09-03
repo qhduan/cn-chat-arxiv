@@ -1,0 +1,12 @@
+{
+    "title": "Monotonic anomaly detection",
+    "abstract": "arXiv:2410.23158v3 Announce Type: replace  Abstract: Semi-supervised anomaly detection is based on the principle that any record that looks different from normal training data is a potential anomaly. However, in some cases we are specifically interested in anomalies that correspond to high attribute values (or low, but not both). For distance-based methods, we propose an asymmetrical distance measure that takes this monotonicity into account by incorporating the ramp function. For the Isolation Forest algorithm, we propose a modified path length algorithm. Through experiments on synthetic and real-life datasets, we show that these proposals increase anomaly detection performance on datasets with monotonic attributes.",
+    "link": "https://arxiv.org/abs/2410.23158",
+    "context": "Title: Monotonic anomaly detection\nAbstract: arXiv:2410.23158v3 Announce Type: replace  Abstract: Semi-supervised anomaly detection is based on the principle that any record that looks different from normal training data is a potential anomaly. However, in some cases we are specifically interested in anomalies that correspond to high attribute values (or low, but not both). For distance-based methods, we propose an asymmetrical distance measure that takes this monotonicity into account by incorporating the ramp function. For the Isolation Forest algorithm, we propose a modified path length algorithm. Through experiments on synthetic and real-life datasets, we show that these proposals increase anomaly detection performance on datasets with monotonic attributes.",
+    "path": "papers/24/10/2410.23158.json",
+    "total_tokens": 943,
+    "translated_title": "单调异常检测",
+    "translated_abstract": "半监督异常检测基于这样的原则：任何看起来与正常训练数据不同的记录都是潜在的异常。然而，在某些情况下，我们特别关注那些对应于高属性值（或低属性值，但并非两者兼有）的异常。针对基于距离的方法，我们提出了一种非对称距离度量，通过引入斜坡函数（ramp function）来考虑这种单调性。针对孤立森林算法，我们提出了一种改进的路径长度算法。通过在合成数据集和真实数据集上的实验，我们证明这些方法提升了在具有单调属性的数据集上的异常检测性能。",
+    "tldr": "针对只需检测高（或低）属性值异常的场景，本文提出了融合斜坡函数的非对称距离度量和改进的孤立森林路径长度算法，实验证明二者能显著提升单调属性数据集上的异常检测效果。",
+    "en_tdlr": "For anomaly detection scenarios where only high (or low) attribute values are of interest, this paper proposes an asymmetric distance measure incorporating the ramp function and a modified path length algorithm for Isolation Forest, both of which improve detection performance on datasets with monotonic attributes."
+}

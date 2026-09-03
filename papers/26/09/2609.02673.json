@@ -1,0 +1,12 @@
+{
+    "title": "Estimation risk in conditional expectiles",
+    "abstract": "arXiv:2609.02673v1 Announce Type: new  Abstract: We establish the consistency and asymptotic normality of a two-step estimator of conditional expectiles in the context of conditional scale models. We first estimate the conditional variance parameters by quasi-maximum likelihood and then compute the unconditional expectile of the innovations using the empirical distribution of the standardized residuals. We show how replacing true innovations with standardized residuals affects the asymptotic variances of both conditional and unconditional expectile estimators. Finally, our empirical analysis reveals that conditional expectiles assess tail risk in cryptomarkets in a more robust manner than traditional quantile-based risk measures, such as value at risk and expected shortfall.",
+    "link": "https://arxiv.org/abs/2609.02673",
+    "context": "Title: Estimation risk in conditional expectiles\nAbstract: arXiv:2609.02673v1 Announce Type: new  Abstract: We establish the consistency and asymptotic normality of a two-step estimator of conditional expectiles in the context of conditional scale models. We first estimate the conditional variance parameters by quasi-maximum likelihood and then compute the unconditional expectile of the innovations using the empirical distribution of the standardized residuals. We show how replacing true innovations with standardized residuals affects the asymptotic variances of both conditional and unconditional expectile estimators. Finally, our empirical analysis reveals that conditional expectiles assess tail risk in cryptomarkets in a more robust manner than traditional quantile-based risk measures, such as value at risk and expected shortfall.",
+    "path": "papers/26/09/2609.02673.json",
+    "total_tokens": 923,
+    "translated_title": "条件期望分位数中的估计风险",
+    "translated_abstract": "在条件尺度模型的框架下，我们建立了条件期望分位数两步估计量的一致性和渐近正态性。我们首先通过准极大似然法估计条件方差参数，然后利用标准化残差的经验分布计算新息的无条件期望分位数。我们展示了用标准化残差替代真实新息会如何影响条件和无条件期望分位数估计量的渐近方差。最后，我们的实证分析表明，条件期望分位数相比风险价值和预期短缺等传统的基于分位数的风险度量方法，能以更稳健的方式评估加密货币市场中的尾部风险。",
+    "tldr": "本文建立了条件尺度模型下条件期望分位数两步估计量的一致性与渐近正态性理论，并通过实证表明条件期望分位数比VaR和预期短缺等传统风险度量更稳健地评估加密货币市场的尾部风险。",
+    "en_tdlr": "This paper establishes the consistency and asymptotic normality of a two-step estimator of conditional expectiles under conditional scale models, and empirically shows that conditional expectiles assess tail risk in cryptocurrency markets more robustly than traditional measures such as value at risk and expected shortfall."
+}

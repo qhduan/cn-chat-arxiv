@@ -1,0 +1,11 @@
+{
+    "title": "Percolation Dynamics in Optimization : Variance Cascades and Discrete Scale Invariance",
+    "abstract": "arXiv:2609.02373v1 Announce Type: cross  Abstract: We study the dynamics of Stochastic Gradient Descent (SGD), which is known to steer deep neural networks toward invariant sets that correspond to simpler subnetworks. How this steering unfolds over time remains poorly understood. We answer this by modeling the stochastic gradient flow (SGF) as a percolation process, in which architectural symmetries force subnetworks to merge in discrete simultaneous blocks rather than one at a time. These structural transitions register as variance spikes in a macroscopic order parameter, echoing physical phase transitions. We further show this trapping mechanism and its associated scaling cascade extend to Adam and AdamW under an explicit heavy-tailed noise model.",
+    "link": "https://arxiv.org/abs/2609.02373",
+    "context": "Title: Percolation Dynamics in Optimization : Variance Cascades and Discrete Scale Invariance\nAbstract: arXiv:2609.02373v1 Announce Type: cross  Abstract: We study the dynamics of Stochastic Gradient Descent (SGD), which is known to steer deep neural networks toward invariant sets that correspond to simpler subnetworks. How this steering unfolds over time remains poorly understood. We answer this by modeling the stochastic gradient flow (SGF) as a percolation process, in which architectural symmetries force subnetworks to merge in discrete simultaneous blocks rather than one at a time. These structural transitions register as variance spikes in a macroscopic order parameter, echoing physical phase transitions. We further show this trapping mechanism and its associated scaling cascade extend to Adam and AdamW under an explicit heavy-tailed noise model.",
+    "path": "papers/26/09/2609.02373.json",
+    "total_tokens": 1073,
+    "translated_title": "优化中的渗流动力学：方差级联与离散尺度不变性",
+    "translated_abstract": "我们研究了随机梯度下降（SGD）的动力学。已知SGD会将深度神经网络引导至对应于更简单子网络的不变集上，但这种引导如何随时间展开仍然知之甚少。我们通过将随机梯度流（SGF）建模为一个渗流过程来回答这一问题：在该过程中，架构对称性迫使子网络以离散的同步块方式合并，而非一次一个。这些结构性转变会在一个宏观序参量上表现为方差尖峰，与物理相变相呼应。我们进一步证明，在显式的重尾噪声模型下，这种捕获机制及其相关的标度级联同样适用于Adam和AdamW优化器。",
+    "tldr": "该论文将随机梯度下降的动力学建模为渗流过程，揭示出架构对称性迫使子网络以离散同步块方式合并，其结构转变在宏观序参量上表现为类似物理相变的方差尖峰，且该捕获机制及标度级联在重尾噪声模型下同样适用于Adam和AdamW。"
+}

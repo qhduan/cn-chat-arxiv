@@ -1,0 +1,12 @@
+{
+    "title": "Sample Complexity of Linear Quadratic Regulator Without Initial Stability",
+    "abstract": "arXiv:2502.14210v4 Announce Type: replace-cross  Abstract: Inspired by REINFORCE, we introduce a novel receding-horizon algorithm for the Linear Quadratic Regulator (LQR) problem with unknown dynamics. Unlike prior methods, our algorithm avoids reliance on two-point gradient estimates while maintaining the same order of sample complexity. Furthermore, it eliminates the restrictive requirement of starting with a stable initial policy, broadening its applicability. Beyond these improvements, we introduce a refined analysis of error propagation through the contraction of the Riccati operator under the Riemannian distance. This refinement leads to a better sample complexity and ensures improved convergence guarantees.",
+    "link": "https://arxiv.org/abs/2502.14210",
+    "context": "Title: Sample Complexity of Linear Quadratic Regulator Without Initial Stability\nAbstract: arXiv:2502.14210v4 Announce Type: replace-cross  Abstract: Inspired by REINFORCE, we introduce a novel receding-horizon algorithm for the Linear Quadratic Regulator (LQR) problem with unknown dynamics. Unlike prior methods, our algorithm avoids reliance on two-point gradient estimates while maintaining the same order of sample complexity. Furthermore, it eliminates the restrictive requirement of starting with a stable initial policy, broadening its applicability. Beyond these improvements, we introduce a refined analysis of error propagation through the contraction of the Riccati operator under the Riemannian distance. This refinement leads to a better sample complexity and ensures improved convergence guarantees.",
+    "path": "papers/25/02/2502.14210.json",
+    "total_tokens": 975,
+    "translated_title": "无需初始稳定性的线性二次调节器的样本复杂度",
+    "translated_abstract": "受REINFORCE算法启发，我们针对具有未知动态的线性二次调节器（LQR）问题提出了一种新颖的滚动时域算法。与以往方法不同，我们的算法避免了对两点梯度估计的依赖，同时保持了相同数量级的样本复杂度。此外，它消除了必须以稳定初始策略作为起点的限制性要求，从而拓宽了其适用范围。除了这些改进之外，我们还基于黎曼距离下黎卡提算子的收缩性，对误差传播进行了更精细的分析。这一改进带来了更优的样本复杂度，并确保了更强的收敛保证。",
+    "tldr": "该论文提出了一种受REINFORCE启发的滚动时域算法，无需初始稳定策略即可解决未知动态的LQR问题，并通过黎曼距离下黎卡提算子收缩性的精细误差传播分析，实现了更优的样本复杂度和收敛保证。",
+    "en_tdlr": "This paper introduces a REINFORCE-inspired receding-horizon algorithm for LQR with unknown dynamics that eliminates the stable initial policy requirement and achieves improved sample complexity and convergence guarantees through a refined error propagation analysis based on the contraction of the Riccati operator under the Riemannian distance."
+}

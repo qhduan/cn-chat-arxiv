@@ -1,0 +1,12 @@
+{
+    "title": "A Comparative Study of Graph Representations for GNN-Based Power Grid Control in L2RPN",
+    "abstract": "arXiv:2609.02538v1 Announce Type: new  Abstract: Graph construction is a critical but underexamined design choice in deep reinforcement learning for power grid control. We present a controlled experimental comparison of different graph representations, including physical topology, electrical-sensitivity, and hybrid variants for topology control in the Learning to Run a Power Network (L2RPN) environment. Our findings indicate that matching graph complexity to task granularity is more important than maximizing representational richness, and highlight the importance of controlled representation studies at scale.",
+    "link": "https://arxiv.org/abs/2609.02538",
+    "context": "Title: A Comparative Study of Graph Representations for GNN-Based Power Grid Control in L2RPN\nAbstract: arXiv:2609.02538v1 Announce Type: new  Abstract: Graph construction is a critical but underexamined design choice in deep reinforcement learning for power grid control. We present a controlled experimental comparison of different graph representations, including physical topology, electrical-sensitivity, and hybrid variants for topology control in the Learning to Run a Power Network (L2RPN) environment. Our findings indicate that matching graph complexity to task granularity is more important than maximizing representational richness, and highlight the importance of controlled representation studies at scale.",
+    "path": "papers/26/09/2609.02538.json",
+    "total_tokens": 797,
+    "translated_title": "L2RPN环境中基于图神经网络的电网控制的图表示比较研究",
+    "translated_abstract": "图构建是电力网格控制深度强化学习中的一个关键但未被充分研究的设计选择。我们在“学习运行电力网络”环境中，针对拓扑控制任务，对不同图表示方法进行了受控实验比较，包括物理拓扑、电气敏感性以及混合变体。我们的研究结果表明，使图的复杂度与任务粒度相匹配比最大化表示的丰富性更为重要，并凸显了大规模受控表示研究的重要性。",
+    "tldr": "本研究在L2RPN环境中对多种图表示方法进行了受控比较，发现使图复杂度与任务粒度相匹配比追求更丰富的图表示更为重要。",
+    "en_tdlr": "This controlled comparison of graph representations for GNN-based power grid control in L2RPN shows that matching graph complexity to task granularity is more important than maximizing representational richness."
+}

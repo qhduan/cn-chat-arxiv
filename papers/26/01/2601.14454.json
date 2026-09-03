@@ -1,0 +1,12 @@
+{
+    "title": "How Wasteful is Signaling?",
+    "abstract": "arXiv:2601.14454v3 Announce Type: replace  Abstract: Signaling is wasteful. But how wasteful? We study the fraction of surplus dissipated in a separating equilibrium. For isoelastic environments, this waste ratio has a simple formula: $\\beta/(\\beta+\\sigma)$, where $\\beta$ is the benefit elasticity (reward to higher perception) and $\\sigma$ is the elasticity of higher types' relative cost advantage. The ratio is constant across types and is independent of other parameters, including convexity of cost in the signal. We show that the directional effects of $\\beta$ and $\\sigma$ on waste extend to non-isoelastic environments. In an application to signaling tournaments, more competitors or fewer prizes increase waste, with full dissipation in large tournaments.",
+    "link": "https://arxiv.org/abs/2601.14454",
+    "context": "Title: How Wasteful is Signaling?\nAbstract: arXiv:2601.14454v3 Announce Type: replace  Abstract: Signaling is wasteful. But how wasteful? We study the fraction of surplus dissipated in a separating equilibrium. For isoelastic environments, this waste ratio has a simple formula: $\\beta/(\\beta+\\sigma)$, where $\\beta$ is the benefit elasticity (reward to higher perception) and $\\sigma$ is the elasticity of higher types' relative cost advantage. The ratio is constant across types and is independent of other parameters, including convexity of cost in the signal. We show that the directional effects of $\\beta$ and $\\sigma$ on waste extend to non-isoelastic environments. In an application to signaling tournaments, more competitors or fewer prizes increase waste, with full dissipation in large tournaments.",
+    "path": "papers/26/01/2601.14454.json",
+    "total_tokens": 1030,
+    "translated_title": "信号传递有多浪费？",
+    "translated_abstract": "信号传递是浪费的，但究竟有多浪费？我们研究了分离均衡中被耗散的剩余份额。对于等弹性环境，这一浪费比率有一个简单的公式：β/(β+σ)，其中β是收益弹性（对更高认知的回报），σ是更高类型相对成本优势的弹性。该比率在各类型之间保持恒定，且独立于其他参数，包括信号成本的凸性。我们证明了β和σ对浪费的方向性影响可以推广到非等弹性环境。在信号传递锦标赛的应用中，更多的竞争者或更少的奖品会增加浪费，而在大型锦标赛中会出现完全耗散。",
+    "tldr": "本文推导出分离均衡中信号传递浪费比率的简单公式β/(β+σ)（即收益弹性与成本优势弹性之比），证明该比率跨类型恒定且与成本凸性等参数无关，并应用于锦标赛模型表明竞争加剧或奖励减少会使浪费增加直至完全耗散。",
+    "en_tdlr": "The paper derives a simple formula β/(β+σ) for the fraction of surplus dissipated by signaling in separating equilibria—constant across types and independent of cost convexity—and shows in signaling tournaments that more competition or fewer prizes increases waste, up to full dissipation in large tournaments."
+}

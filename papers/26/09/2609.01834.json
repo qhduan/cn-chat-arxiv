@@ -1,0 +1,12 @@
+{
+    "title": "Architecting Conversational Data Systems for Stateless LLM APIs: The Hydration Proxy Pattern",
+    "abstract": "arXiv:2609.01834v1 Announce Type: new  Abstract: As enterprise platforms transition to conversational reasoning interfaces, the stateless nature of LLM APIs creates an architectural gap. While statelessness enables horizontal scalability for AI providers, it forces client applications to manage the entire burden of conversational state and semantic memory. The work identifies the Hydration Proxy Pattern, an architecture that decouples session persistence from the reasoning engine. The framework ensures platform sovereignty over conversational data while enabling secure, multi-stage semantic grounding. We further propose the Context Stabilization Mandate to resolve the tradeoff between sovereign state management and KV caching.",
+    "link": "https://arxiv.org/abs/2609.01834",
+    "context": "Title: Architecting Conversational Data Systems for Stateless LLM APIs: The Hydration Proxy Pattern\nAbstract: arXiv:2609.01834v1 Announce Type: new  Abstract: As enterprise platforms transition to conversational reasoning interfaces, the stateless nature of LLM APIs creates an architectural gap. While statelessness enables horizontal scalability for AI providers, it forces client applications to manage the entire burden of conversational state and semantic memory. The work identifies the Hydration Proxy Pattern, an architecture that decouples session persistence from the reasoning engine. The framework ensures platform sovereignty over conversational data while enabling secure, multi-stage semantic grounding. We further propose the Context Stabilization Mandate to resolve the tradeoff between sovereign state management and KV caching.",
+    "path": "papers/26/09/2609.01834.json",
+    "total_tokens": 1006,
+    "translated_title": "为无状态大语言模型API构建对话式数据系统：水合代理模式",
+    "translated_abstract": "随着企业平台向对话式推理界面转型，大语言模型API的无状态特性造成了架构上的鸿沟。虽然无状态性使AI提供商能够实现水平扩展，但它迫使客户端应用程序承担管理对话状态和语义记忆的全部负担。本工作提出了水合代理模式，这是一种将会话持久化与推理引擎解耦的架构。该框架在确保平台对对话数据主权的同时，支持安全的多阶段语义接地。我们进一步提出了上下文稳定化规范，以解决主权状态管理与KV缓存之间的权衡问题。",
+    "tldr": "本文提出了水合代理模式，通过将会话持久化与推理引擎解耦的架构，解决无状态LLM API带来的对话状态管理负担，在确保平台对对话数据主权的同时实现安全的多阶段语义接地。",
+    "en_tdlr": "This paper proposes the Hydration Proxy Pattern, an architecture that decouples session persistence from the reasoning engine to address the conversational state burden of stateless LLM APIs, ensuring platform sovereignty over conversational data while enabling secure multi-stage semantic grounding."
+}

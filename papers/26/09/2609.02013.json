@@ -1,0 +1,12 @@
+{
+    "title": "What Would it Cost to End Extreme Poverty?",
+    "abstract": "arXiv:2609.02013v1 Announce Type: new  Abstract: We study poverty minimization via direct transfers, framing this as a statistical learning problem while retaining the information constraints faced by real-world programs. Using nationally representative household consumption surveys from 34 countries that together account for 76% of the world's poor, we estimate that reducing the poverty rate to 1% (from a baseline of 13%) would cost $211 B nominal per year. This is 4.0 times the corresponding reduction in the aggregate poverty gap, but only 19% of the cost of universal basic income. Extrapolated globally, the results imply a cost of 0.28% of global GDP to (approximately) end extreme poverty.",
+    "link": "https://arxiv.org/abs/2609.02013",
+    "context": "Title: What Would it Cost to End Extreme Poverty?\nAbstract: arXiv:2609.02013v1 Announce Type: new  Abstract: We study poverty minimization via direct transfers, framing this as a statistical learning problem while retaining the information constraints faced by real-world programs. Using nationally representative household consumption surveys from 34 countries that together account for 76% of the world's poor, we estimate that reducing the poverty rate to 1% (from a baseline of 13%) would cost $211 B nominal per year. This is 4.0 times the corresponding reduction in the aggregate poverty gap, but only 19% of the cost of universal basic income. Extrapolated globally, the results imply a cost of 0.28% of global GDP to (approximately) end extreme poverty.",
+    "path": "papers/26/09/2609.02013.json",
+    "total_tokens": 962,
+    "translated_title": "终结极端贫困需要多少成本？",
+    "translated_abstract": "我们研究通过直接转移支付实现贫困最小化的问题，将其框架化为一个统计学习问题，同时保留了现实世界扶贫项目所面临的信息约束。利用来自34个国家（这些国家合计占世界贫困人口的76%）的全国代表性家庭消费调查数据，我们估计将贫困率从13%的基线降至1%，每年需要2110亿美元的名义支出。这一成本是相应贫困缺口总减少量的4.0倍，但仅为全民基本收入成本的19%。外推到全球范围，结果表明基本终结极端贫困的成本约为全球GDP的0.28%。",
+    "tldr": "本文将直接转移支付扶贫问题框架化为统计学习问题，利用34个国家的家庭消费调查数据估算出将贫困率降至1%每年仅需2110亿美元（约合全球GDP的0.28%），远低于全民基本收入的成本。",
+    "en_tdlr": "Framing poverty minimization via direct transfers as a statistical learning problem under real-world information constraints, this paper estimates using household surveys from 34 countries that reducing poverty to 1% would cost $211B annually (0.28% of global GDP)—far less than universal basic income."
+}
