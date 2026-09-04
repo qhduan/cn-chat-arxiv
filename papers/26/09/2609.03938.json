@@ -1,0 +1,12 @@
+{
+    "title": "Towards Numerical TOHTN Planning with SMT-based HTN-SAT Encoding",
+    "abstract": "arXiv:2609.03938v1 Announce Type: new  Abstract: While HTN planning has received significant attention in recent years, support for numerical reasoning remains very limited. In this paper, we investigate numerical Totally-Ordered HTN (TOHTN) planning and show how standard SAT-based encodings can be naturally extended with SMT to handle numeric fluents. In addition, we introduce a benchmark suite for numerical TOHTN planning, providing a first common basis for evaluation in this setting. Experimental results show that this simple encoding already constitutes a competitive baseline. This work opens the way to more expressive approaches to HTN planning.",
+    "link": "https://arxiv.org/abs/2609.03938",
+    "context": "Title: Towards Numerical TOHTN Planning with SMT-based HTN-SAT Encoding\nAbstract: arXiv:2609.03938v1 Announce Type: new  Abstract: While HTN planning has received significant attention in recent years, support for numerical reasoning remains very limited. In this paper, we investigate numerical Totally-Ordered HTN (TOHTN) planning and show how standard SAT-based encodings can be naturally extended with SMT to handle numeric fluents. In addition, we introduce a benchmark suite for numerical TOHTN planning, providing a first common basis for evaluation in this setting. Experimental results show that this simple encoding already constitutes a competitive baseline. This work opens the way to more expressive approaches to HTN planning.",
+    "path": "papers/26/09/2609.03938.json",
+    "total_tokens": 1035,
+    "translated_title": "迈向基于SMT的HTN-SAT编码的数值型TOHTN规划",
+    "translated_abstract": "尽管HTN规划近年来受到了广泛关注，但对其数值推理的支持仍然非常有限。在本文中，我们研究了数值型全序HTN（TOHTN）规划，并展示了如何用SMT自然地扩展标准的基于SAT的编码，以处理数值型流变量。此外，我们引入了一个数值型TOHTN规划的基准测试套件，为该领域的评估提供了首个共同基础。实验结果表明，这种简单的编码已经构成了一个具有竞争力的基线。这项工作为更具表达能力的HTN规划方法开辟了道路。",
+    "tldr": "本文通过将标准SAT编码与SMT自然结合来支持数值型全序HTN（TOHTN）规划，并发布了该领域首个基准测试套件，实验表明这种简单编码已构成具有竞争力的基线。",
+    "en_tdlr": "This paper naturally extends standard SAT-based encodings with SMT to handle numeric fluents in numerical TOHTN planning, introduces the first benchmark suite for this setting, and shows experimentally that this simple encoding already constitutes a competitive baseline."
+}

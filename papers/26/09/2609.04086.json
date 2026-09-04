@@ -1,0 +1,12 @@
+{
+    "title": "A Non-Formulable Theorem: A Fundamental Limit of Finite Syntactic Systems and Its Consequences for Security and AI",
+    "abstract": "arXiv:2609.04086v1 Announce Type: cross  Abstract: For every coherent and sufficiently expressive finite syntactic system S, we prove the existence of at least one theorem that S cannot produce autonomously. The result is a metatheorem: it proves the existence of a theorem, and applies to every finite syntactic system - security mechanisms, AI systems, formal verifiers, legal systems, economic models, and the formal system in which it is itself proved.",
+    "link": "https://arxiv.org/abs/2609.04086",
+    "context": "Title: A Non-Formulable Theorem: A Fundamental Limit of Finite Syntactic Systems and Its Consequences for Security and AI\nAbstract: arXiv:2609.04086v1 Announce Type: cross  Abstract: For every coherent and sufficiently expressive finite syntactic system S, we prove the existence of at least one theorem that S cannot produce autonomously. The result is a metatheorem: it proves the existence of a theorem, and applies to every finite syntactic system - security mechanisms, AI systems, formal verifiers, legal systems, economic models, and the formal system in which it is itself proved.",
+    "path": "papers/26/09/2609.04086.json",
+    "total_tokens": 1129,
+    "translated_title": "不可形式化的定理：有限句法系统的根本极限及其对安全与人工智能的影响",
+    "translated_abstract": "对于每一个连贯且具有充分表达能力的有限句法系统S，我们证明了至少存在一条S无法自主产出的定理。该结果是一个元定理：它证明了某条定理的存在性，并适用于每一个有限句法系统——包括安全机制、人工智能系统、形式化验证器、法律系统、经济模型，以及证明该定理本身的形式系统。",
+    "tldr": "本文证明了一个元定理：任何连贯且充分表达的有限句法系统都至少存在一条它无法自主产出的定理，这一根本性极限普遍适用于安全机制、AI系统、形式化验证器等各类有限句法系统。",
+    "en_tdlr": "This paper proves a metatheorem that every coherent and sufficiently expressive finite syntactic system S must have at least one theorem it cannot autonomously produce, establishing a fundamental limit that applies universally to security mechanisms, AI systems, formal verifiers, and even the formal system in which the theorem itself is proved."
+}

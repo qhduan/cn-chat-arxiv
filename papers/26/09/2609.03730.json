@@ -1,0 +1,12 @@
+{
+    "title": "Proof of Steady-State Multiplicity in Aiyagari",
+    "abstract": "arXiv:2609.03730v1 Announce Type: new  Abstract: I provide the first analytic construction of a canonical Aiyagari economy exhibiting at least three steady states. Along the way, I provide new upper and lower bounds on the stationary capital supply for the case where the net return on saving is negative. I also give parameter restrictions that guarantee the existence of a steady state with a rental rate in the neighborhood of a remarkably simple number: the capital share times the depreciation rate.",
+    "link": "https://arxiv.org/abs/2609.03730",
+    "context": "Title: Proof of Steady-State Multiplicity in Aiyagari\nAbstract: arXiv:2609.03730v1 Announce Type: new  Abstract: I provide the first analytic construction of a canonical Aiyagari economy exhibiting at least three steady states. Along the way, I provide new upper and lower bounds on the stationary capital supply for the case where the net return on saving is negative. I also give parameter restrictions that guarantee the existence of a steady state with a rental rate in the neighborhood of a remarkably simple number: the capital share times the depreciation rate.",
+    "path": "papers/26/09/2609.03730.json",
+    "total_tokens": 821,
+    "translated_title": "Aiyagari模型稳态多重性的证明",
+    "translated_abstract": "本文首次对典型的Aiyagari经济进行了解析构造，证明其存在至少三个稳态。在此过程中，我针对储蓄净回报为负的情形，给出了稳态资本供给的新的上界和下界。此外，我还提出了参数限制条件，保证存在一个稳态，其租金率位于一个非常简单的数值附近：即资本份额乘以折旧率。",
+    "tldr": "本文首次解析构造出一个存在至少三个稳态的标准Aiyagari经济，并给出了储蓄净回报为负时稳态资本供给的新上下界，以及保证稳态租金率接近“资本份额乘以折旧率”这一简单数值的参数条件。",
+    "en_tdlr": "This paper provides the first analytic construction of a canonical Aiyagari economy exhibiting at least three steady states, along with new bounds on stationary capital supply under negative net returns and parameter restrictions guaranteeing a steady-state rental rate near the simple product of the capital share and the depreciation rate."
+}

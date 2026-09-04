@@ -1,0 +1,12 @@
+{
+    "title": "Conditioning Degenerate Diffusion Models",
+    "abstract": "arXiv:2609.04090v1 Announce Type: new  Abstract: Current conditioned generative models heavily rely on score functions for guidance during training. When the generative model is a diffusion process with a singular diffusion coefficient and the underlying (conditional) densities either do not exist or are not smooth, we use causal optimal transport to define \\emph{approximate} loss functions that identify a minimum-entropy control for guidance under minimal assumptions. Our approach relies on causal optimal transport and its characterization through the predictable representation property of (conditioned) diffusion processes whose associated martingale problem is well posed, \\`a la \\\"Ust\\\"unel.",
+    "link": "https://arxiv.org/abs/2609.04090",
+    "context": "Title: Conditioning Degenerate Diffusion Models\nAbstract: arXiv:2609.04090v1 Announce Type: new  Abstract: Current conditioned generative models heavily rely on score functions for guidance during training. When the generative model is a diffusion process with a singular diffusion coefficient and the underlying (conditional) densities either do not exist or are not smooth, we use causal optimal transport to define \\emph{approximate} loss functions that identify a minimum-entropy control for guidance under minimal assumptions. Our approach relies on causal optimal transport and its characterization through the predictable representation property of (conditioned) diffusion processes whose associated martingale problem is well posed, \\`a la \\\"Ust\\\"unel.",
+    "path": "papers/26/09/2609.04090.json",
+    "total_tokens": 1110,
+    "translated_title": "退化扩散模型的条件化",
+    "translated_abstract": "当前受条件约束的生成模型在训练过程中严重依赖得分函数来进行引导。当生成模型是一个具有奇异扩散系数的扩散过程，且其底层的（条件）密度要么不存在要么不光滑时，我们利用因果最优传输，在极小的假设条件下定义了近似损失函数，用以确定用于引导的最小熵控制。我们的方法依赖于因果最优传输，以及通过（受条件约束的）扩散过程的可预测表示性质对其进行的刻画，其中这些扩散过程的相关鞅问题是适定的，遵循Üstünel的框架。",
+    "tldr": "该论文提出利用因果最优传输为扩散系数退化（奇异）的扩散生成模型构造近似损失函数，在条件密度不存在或不光滑的极弱假设下确定用于引导的最小熵控制。",
+    "en_tdlr": "This paper employs causal optimal transport to define approximate loss functions for degenerate diffusion generative models, identifying minimum-entropy guidance control under minimal assumptions even when the underlying conditional densities do not exist or are not smooth."
+}

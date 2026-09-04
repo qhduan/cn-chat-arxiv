@@ -1,0 +1,12 @@
+{
+    "title": "Reducing Catastrophic Risk from AI with Systematic Monitoring and Evaluation of Rogue AI Progression",
+    "abstract": "arXiv:2609.03189v1 Announce Type: cross  Abstract: This article presents a structured framework of behavioral indicators that may signal progression toward potentially catastrophic threats from artificial intelligence systems. We adopt a pragmatic approach, inspired by established methodologies in cybersecurity and national security. By establishing clear metrics, indicators, and thresholds across multiple dimensions of AI capability and behavior, this framework enables researchers and policymakers to implement evidence-based monitoring protocols.",
+    "link": "https://arxiv.org/abs/2609.03189",
+    "context": "Title: Reducing Catastrophic Risk from AI with Systematic Monitoring and Evaluation of Rogue AI Progression\nAbstract: arXiv:2609.03189v1 Announce Type: cross  Abstract: This article presents a structured framework of behavioral indicators that may signal progression toward potentially catastrophic threats from artificial intelligence systems. We adopt a pragmatic approach, inspired by established methodologies in cybersecurity and national security. By establishing clear metrics, indicators, and thresholds across multiple dimensions of AI capability and behavior, this framework enables researchers and policymakers to implement evidence-based monitoring protocols.",
+    "path": "papers/26/09/2609.03189.json",
+    "total_tokens": 650,
+    "translated_title": "通过系统性监测与评估失控AI演进进程降低人工智能灾难性风险",
+    "translated_abstract": "本文提出了一个结构化的行为指标框架，这些指标可能预示着人工智能系统正在朝潜在灾难性威胁的方向演进。我们采用务实的方法，借鉴了网络安全和国家安全领域已确立的方法论。通过在人工智能能力和行为的多个维度上建立明确的度量指标、行为标志和阈值，该框架使研究人员和政策制定者能够实施基于证据的监测协议。",
+    "tldr": "该论文借鉴网络安全方法论，提出了一个结构化行为指标框架，通过在AI能力与行为多个维度上设定明确的指标和阈值，实现对失控AI向灾难性威胁演进的系统性监测与评估。",
+    "en_tdlr": "This paper proposes a structured framework of behavioral indicators, inspired by cybersecurity and national security methodologies, to systematically monitor and evaluate rogue AI progression toward catastrophic threats through clear metrics and thresholds across multiple dimensions."
+}
