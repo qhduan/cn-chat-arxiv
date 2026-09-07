@@ -1,0 +1,12 @@
+{
+    "title": "Gatheral's Conjecture Revisited",
+    "abstract": "arXiv:2609.05047v1 Announce Type: new  Abstract: We compare the Heston model with $\\rho=-1$ to the one-dimensional local-volatility model calibrated to the same European option prices. We show that, for each fixed expiry $T>0$, their integrated variances satisfy \\[   I_T^{\\mathrm H}\\prec_{\\mathrm{cx}} I_T^{\\mathrm{LV}}. \\] This strict ordering gives a Heston-model counterexample to the convex-order inequality conjectured by J.\\ Gatheral",
+    "link": "https://arxiv.org/abs/2609.05047",
+    "context": "Title: Gatheral's Conjecture Revisited\nAbstract: arXiv:2609.05047v1 Announce Type: new  Abstract: We compare the Heston model with $\\rho=-1$ to the one-dimensional local-volatility model calibrated to the same European option prices. We show that, for each fixed expiry $T>0$, their integrated variances satisfy \\[   I_T^{\\mathrm H}\\prec_{\\mathrm{cx}} I_T^{\\mathrm{LV}}. \\] This strict ordering gives a Heston-model counterexample to the convex-order inequality conjectured by J.\\ Gatheral",
+    "path": "papers/26/09/2609.05047.json",
+    "total_tokens": 863,
+    "translated_title": "再探 Gatheral 猜想",
+    "translated_abstract": "我们将 ρ=-1 的 Heston 模型与校准到相同欧式期权价格的一维局部波动率模型进行比较。我们证明，对于每个固定的到期时间 T>0，两模型的积分方差满足 I_T^H ≺_cx I_T^LV（在凸序意义下的严格排序）。这一严格排序给出了一个基于 Heston 模型的反例，否定了 J. Gatheral 所猜测的凸序不等式。",
+    "tldr": "本文证明 ρ=-1 的 Heston 模型与校准到同一欧式期权价格的局部波动率模型的积分方差之间存在严格的凸序排序，从而为 Gatheral 猜想的凸序不等式提供了一个 Heston 模型反例。",
+    "en_tdlr": "This paper proves a strict convex-order ordering between the integrated variances of the Heston model with ρ=-1 and a local-volatility model calibrated to the same European option prices, thereby providing a Heston-model counterexample to Gatheral's conjectured convex-order inequality."
+}

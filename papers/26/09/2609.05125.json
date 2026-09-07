@@ -1,0 +1,12 @@
+{
+    "title": "Single-Query Black-Box Calibration Auditing via Logit Bias",
+    "abstract": "arXiv:2609.05125v1 Announce Type: new  Abstract: Evaluating the calibration of Large Language Models (LLMs) is critical for their safe deployment as zero-shot classifiers. Yet, commercial API providers increasingly hide the continuous output probabilities required by standard calibration metrics. To bypass this opacity, we demonstrate that any LLM API exposing a logit\\_bias parameter can be mathematically manipulated to evaluate exact probability thresholds using strictly one query per sample. Leveraging this mechanism, we introduce a novel and provably consistent estimator of the True Calibration Error for binary tasks. Our approach therefore provides an efficient framework for auditing black-box foundation models.",
+    "link": "https://arxiv.org/abs/2609.05125",
+    "context": "Title: Single-Query Black-Box Calibration Auditing via Logit Bias\nAbstract: arXiv:2609.05125v1 Announce Type: new  Abstract: Evaluating the calibration of Large Language Models (LLMs) is critical for their safe deployment as zero-shot classifiers. Yet, commercial API providers increasingly hide the continuous output probabilities required by standard calibration metrics. To bypass this opacity, we demonstrate that any LLM API exposing a logit\\_bias parameter can be mathematically manipulated to evaluate exact probability thresholds using strictly one query per sample. Leveraging this mechanism, we introduce a novel and provably consistent estimator of the True Calibration Error for binary tasks. Our approach therefore provides an efficient framework for auditing black-box foundation models.",
+    "path": "papers/26/09/2609.05125.json",
+    "total_tokens": 965,
+    "translated_title": "基于Logit偏置的单次查询黑盒校准审计",
+    "translated_abstract": "评估大型语言模型（LLM）的校准对于其作为零样本分类器的安全部署至关重要。然而，商业API提供商越来越多地隐藏标准校准指标所需的连续输出概率。为了绕过这种不透明性，我们证明任何暴露logit_bias参数的LLM API都可以通过数学操作，在严格每样本仅一次查询的情况下评估精确的概率阈值。利用这一机制，我们为二分类任务引入了一种新颖且可证明一致的真实校准误差估计器。因此，我们的方法为审计黑盒基础模型提供了一个高效的框架。",
+    "tldr": "本文提出利用LLM API中暴露的logit_bias参数进行数学操作，每样本仅需一次查询即可评估精确概率阈值，并给出二分类任务真实校准误差的首个可证明一致估计器，为黑盒基础模型的校准审计提供高效框架。",
+    "en_tdlr": "We demonstrate that any LLM API exposing a logit_bias parameter can be mathematically manipulated to evaluate exact probability thresholds with strictly one query per sample, introducing a provably consistent estimator of the True Calibration Error for binary tasks and enabling efficient auditing of black-box foundation models."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Analysis of multilevel Monte Carlo path simulation using the Milstein discretisation",
+    "abstract": "arXiv:1302.4676v4 Announce Type: replace  Abstract: The multilevel Monte Carlo path simulation method introduced by Giles ({\\it Operations Research}, 56(3):607-617, 2008) exploits strong convergence properties to improve the computational complexity by combining simulations with different levels of resolution. In this paper we analyse its efficiency when using the Milstein discretisation; this has an improved order of strong convergence compared to the standard Euler-Maruyama method, and it is proved that this leads to an improved order of convergence of the variance of the multilevel estimator. Numerical results are also given for basket options to illustrate the relevance of the analysis.",
+    "link": "https://arxiv.org/abs/1302.4676",
+    "context": "Title: Analysis of multilevel Monte Carlo path simulation using the Milstein discretisation\nAbstract: arXiv:1302.4676v4 Announce Type: replace  Abstract: The multilevel Monte Carlo path simulation method introduced by Giles ({\\it Operations Research}, 56(3):607-617, 2008) exploits strong convergence properties to improve the computational complexity by combining simulations with different levels of resolution. In this paper we analyse its efficiency when using the Milstein discretisation; this has an improved order of strong convergence compared to the standard Euler-Maruyama method, and it is proved that this leads to an improved order of convergence of the variance of the multilevel estimator. Numerical results are also given for basket options to illustrate the relevance of the analysis.",
+    "path": "papers/13/02/1302.4676.json",
+    "total_tokens": 898,
+    "translated_title": "使用Milstein离散化的多层蒙特卡罗路径模拟分析",
+    "translated_abstract": "Giles（发表于《Operations Research》，56(3):607-617，2008年）提出的多层蒙特卡罗路径模拟方法利用强收敛性质，通过结合不同分辨率层次的模拟来改善计算复杂度。本文分析了在使用Milstein离散化时该方法的效率；与标准的Euler-Maruyama方法相比，Milstein离散化具有更高的强收敛阶，并且本文证明了这将导致多层估计器方差的收敛阶得到改善。文中还给出了篮子期权的数值结果，以说明该分析的实际意义。",
+    "tldr": "本文证明使用具有更高强收敛阶的Milstein离散化可以改善多层蒙特卡罗估计器方差的收敛阶，从而提高路径模拟的计算效率。",
+    "en_tdlr": "This paper proves that using the Milstein discretisation, with its improved order of strong convergence, leads to an improved convergence rate of the variance of the multilevel Monte Carlo estimator, thereby enhancing computational efficiency in path simulation."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Regularity of Second-Order Elliptic PDEs in Spectral Barron Spaces",
+    "abstract": "arXiv:2602.19381v2 Announce Type: replace-cross  Abstract: We establish a regularity theorem for second-order elliptic PDEs on $\\mathbb{R}^{d}$ in spectral Barron spaces. Under mild ellipticity and smallness assumptions, the solution gains two additional orders of Barron regularity. As a corollary, we identify a class of PDEs whose solutions can be approximated by two-layer neural networks with cosine activation functions, where the width of the neural network is independent of the spatial dimension.",
+    "link": "https://arxiv.org/abs/2602.19381",
+    "context": "Title: Regularity of Second-Order Elliptic PDEs in Spectral Barron Spaces\nAbstract: arXiv:2602.19381v2 Announce Type: replace-cross  Abstract: We establish a regularity theorem for second-order elliptic PDEs on $\\mathbb{R}^{d}$ in spectral Barron spaces. Under mild ellipticity and smallness assumptions, the solution gains two additional orders of Barron regularity. As a corollary, we identify a class of PDEs whose solutions can be approximated by two-layer neural networks with cosine activation functions, where the width of the neural network is independent of the spatial dimension.",
+    "path": "papers/26/02/2602.19381.json",
+    "total_tokens": 910,
+    "translated_title": "谱Barron空间中二阶椭圆偏微分方程的正则性",
+    "translated_abstract": "我们在谱Barron空间中建立了 $\\mathbb{R}^{d}$ 上二阶椭圆偏微分方程的正则性定理。在温和的椭圆性和小性假设下，方程的解获得了额外两阶的Barron正则性。作为推论，我们确定了一类偏微分方程，其解可以由具有余弦激活函数的两层神经网络逼近，且神经网络的宽度与空间维度无关。",
+    "tldr": "该论文证明了在温和的椭圆性条件下，$\\mathbb{R}^d$ 上二阶椭圆偏微分方程的解在谱Barron空间中获得额外两阶正则性，从而确定了一类其解可被宽度与空间维度无关的两层余弦激活神经网络逼近的偏微分方程。",
+    "en_tdlr": "This paper proves that solutions of second-order elliptic PDEs on $\\mathbb{R}^d$ gain two additional orders of Barron regularity under mild assumptions, thereby identifying a class of PDEs whose solutions can be approximated by two-layer neural networks with cosine activation and dimension-independent width."
+}

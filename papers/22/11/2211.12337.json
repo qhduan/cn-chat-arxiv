@@ -1,0 +1,12 @@
+{
+    "title": "Quality-diversity in dissimilarity spaces",
+    "abstract": "arXiv:2211.12337v4 Announce Type: replace  Abstract: The theory of magnitude provides a mathematical framework for quantifying and maximizing diversity. We apply this framework to formulate quality-diversity algorithms in generic dissimilarity spaces. In particular, we instantiate and demonstrate a very general version of Go-Explore with promising performance.",
+    "link": "https://arxiv.org/abs/2211.12337",
+    "context": "Title: Quality-diversity in dissimilarity spaces\nAbstract: arXiv:2211.12337v4 Announce Type: replace  Abstract: The theory of magnitude provides a mathematical framework for quantifying and maximizing diversity. We apply this framework to formulate quality-diversity algorithms in generic dissimilarity spaces. In particular, we instantiate and demonstrate a very general version of Go-Explore with promising performance.",
+    "path": "papers/22/11/2211.12337.json",
+    "total_tokens": 997,
+    "translated_title": "相异空间中的质量-多样性",
+    "translated_abstract": "幅值（magnitude）理论为量化和最大化多样性提供了一个数学框架。我们将该框架应用于在一般性的相异空间中构建质量-多样性算法。特别地，我们实例化并演示了一个非常通用的Go-Explore版本，其展现出有前景的性能。",
+    "tldr": "该论文以幅值理论作为量化与最大化多样性的数学框架，在一般性相异空间中构建质量-多样性算法，并实例化了一个高度通用的Go-Explore版本，展现出有前景的性能。",
+    "en_tdlr": "This paper applies the theory of magnitude as a mathematical framework to formulate quality-diversity algorithms in generic dissimilarity spaces, instantiating and demonstrating a highly general version of Go-Explore with promising performance."
+}

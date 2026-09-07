@@ -1,0 +1,12 @@
+{
+    "title": "Fast and explicit European option pricing under tempered stable processes",
+    "abstract": "arXiv:2510.01211v2 Announce Type: replace  Abstract: We provide series expansions for the tempered stable densities and for the price of European-style contracts in the exponential L\\'evy model driven by the tempered stable process. These formulas recover several popular option pricing models, and become particularly simple in some specific cases such as bilateral Gamma process and one-sided TS process. When compared to traditional Fourier pricing, our method has the advantage of not involving delicate choices of hyperparameters, but only a truncation order for the resulting analytical pricing formulas. We also provide a detailed numerical analysis and show that our technique is competitive with state-of-the-art pricing methods.",
+    "link": "https://arxiv.org/abs/2510.01211",
+    "context": "Title: Fast and explicit European option pricing under tempered stable processes\nAbstract: arXiv:2510.01211v2 Announce Type: replace  Abstract: We provide series expansions for the tempered stable densities and for the price of European-style contracts in the exponential L\\'evy model driven by the tempered stable process. These formulas recover several popular option pricing models, and become particularly simple in some specific cases such as bilateral Gamma process and one-sided TS process. When compared to traditional Fourier pricing, our method has the advantage of not involving delicate choices of hyperparameters, but only a truncation order for the resulting analytical pricing formulas. We also provide a detailed numerical analysis and show that our technique is competitive with state-of-the-art pricing methods.",
+    "path": "papers/25/10/2510.01211.json",
+    "total_tokens": 879,
+    "translated_title": "温和稳定过程下快速且显式的欧式期权定价",
+    "translated_abstract": "我们为温和稳定过程的密度函数以及在温和稳定过程驱动的指数Lévy模型中欧式合约的价格提供了级数展开公式。这些公式涵盖了多种流行的期权定价模型，并且在某些特定情况下（如双边Gamma过程和单边TS过程）形式变得特别简单。与传统的傅里叶定价方法相比，我们的方法优势在于无需对超参数进行精细的选择，而只需对所得的解析定价公式选择截断阶数。我们还提供了详细的数值分析，并证明我们的技术与最先进的定价方法相比具有竞争力。",
+    "tldr": "本文为温和稳定过程驱动的指数Lévy模型中的欧式期权定价提供了级数展开解析公式，该方法无需繁琐的超参数选择，且数值表现与最先进的定价方法相当。",
+    "en_tdlr": "This paper provides explicit series expansion formulas for European option pricing in exponential Lévy models driven by tempered stable processes, avoiding delicate hyperparameter choices and achieving performance competitive with state-of-the-art pricing methods."
+}

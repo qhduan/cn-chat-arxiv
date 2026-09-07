@@ -1,0 +1,12 @@
+{
+    "title": "The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior",
+    "abstract": "arXiv:2609.05190v1 Announce Type: new  Abstract: In this paper we illustrate a novel architecture generating interpretable behavior and explanations. We refer to this architecture as the Mirror Agent Model because it defines the observer model, that is the target of explicit and implicit communications, as a mirror of the agent's. With the goal of providing a general understanding of this work, we firstly show prior relevant results addressing the informative communication of agents intentions and the production of legible behavior. In the second part of the paper we furnish the architecture with novel capabilities for explanations through off-the-shelf saliency methods, followed by preliminary qualitative results.",
+    "link": "https://arxiv.org/abs/2609.05190",
+    "context": "Title: The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior\nAbstract: arXiv:2609.05190v1 Announce Type: new  Abstract: In this paper we illustrate a novel architecture generating interpretable behavior and explanations. We refer to this architecture as the Mirror Agent Model because it defines the observer model, that is the target of explicit and implicit communications, as a mirror of the agent's. With the goal of providing a general understanding of this work, we firstly show prior relevant results addressing the informative communication of agents intentions and the production of legible behavior. In the second part of the paper we furnish the architecture with novel capabilities for explanations through off-the-shelf saliency methods, followed by preliminary qualitative results.",
+    "path": "papers/26/09/2609.05190.json",
+    "total_tokens": 872,
+    "translated_title": "镜像智能体模型：一种用于可解释智能体行为的贝叶斯架构",
+    "translated_abstract": "本文提出了一种能够生成可解释行为和解释的新型架构。我们将该架构称为镜像智能体模型，因为它将观察者模型（即显式和隐式通信的目标）定义为智能体自身的镜像。为了使读者对这项工作有一个总体了解，我们首先展示了先前关于智能体意图的信息性通信以及可读行为生成的相关研究成果。在论文的第二部分，我们通过现成的显著性方法为该架构赋予了新的解释能力，并给出了初步的定性结果。",
+    "tldr": "提出镜像智能体模型这一贝叶斯架构，通过将观察者模型视为智能体的镜像来生成可解释的智能体行为和解释，并结合显著性方法赋予架构新的解释能力。",
+    "en_tdlr": "The Mirror Agent Model is a Bayesian architecture that generates interpretable agent behavior and explanations by defining the observer model as a mirror of the agent, enhanced with novel explanation capabilities through off-the-shelf saliency methods."
+}

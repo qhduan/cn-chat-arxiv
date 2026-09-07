@@ -1,0 +1,12 @@
+{
+    "title": "Conformal Prediction for Offensive Security",
+    "abstract": "arXiv:2609.05165v1 Announce Type: cross  Abstract: Despite its introduction more than a quarter century ago, Conformal Prediction (CP) has seen surprisingly few applications to the cyber security world thus far. In particular, we observe that, while CP has been employed as a defensive measure in many recent works, its use for carrying out attacks (i.e., for offensive security) is hard to trace in the literature. We explore this gap, by presenting initial findings in two key areas of offensive security: Privacy-Preserving Machine Learning, and network traffic analysis.",
+    "link": "https://arxiv.org/abs/2609.05165",
+    "context": "Title: Conformal Prediction for Offensive Security\nAbstract: arXiv:2609.05165v1 Announce Type: cross  Abstract: Despite its introduction more than a quarter century ago, Conformal Prediction (CP) has seen surprisingly few applications to the cyber security world thus far. In particular, we observe that, while CP has been employed as a defensive measure in many recent works, its use for carrying out attacks (i.e., for offensive security) is hard to trace in the literature. We explore this gap, by presenting initial findings in two key areas of offensive security: Privacy-Preserving Machine Learning, and network traffic analysis.",
+    "path": "papers/26/09/2609.05165.json",
+    "total_tokens": 811,
+    "translated_title": "面向攻击性安全的共形预测",
+    "translated_abstract": "尽管共形预测（Conformal Prediction, CP）被提出已有二十五年多的时间，但迄今为止它在网络安全领域的应用却出人意料地稀少。我们特别观察到，虽然共形预测在许多近期工作中被用作防御措施，但其在实施攻击（即攻击性安全）方面的应用在文献中却难以寻到踪迹。我们探索了这一空白，在攻击性安全的两个关键领域——隐私保护机器学习和网络流量分析——提出了初步的研究发现。",
+    "tldr": "本文填补了共形预测在攻击性安全应用方面的研究空白，首次探索了其在隐私保护机器学习和网络流量分析两个关键攻击领域中的初步应用。",
+    "en_tdlr": "This paper fills the research gap of applying Conformal Prediction to offensive security, presenting initial findings on its use in two key attack areas: Privacy-Preserving Machine Learning and network traffic analysis."
+}

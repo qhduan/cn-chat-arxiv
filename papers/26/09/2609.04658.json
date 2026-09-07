@@ -1,0 +1,12 @@
+{
+    "title": "VizIt: A multi-view framework for exploring single-cell, spatial, and genetic data online",
+    "abstract": "arXiv:2609.04658v1 Announce Type: new  Abstract: Multi-omic studies increasingly require data to be examined from complementary biological perspectives, yet interactive exploration remains fragmented across modalities and tools. We present VizIt, an open-source framework for multi-view exploration of single-cell and spatial transcriptomic, epigenomic and genetic data. VizIt connects gene-, cell type-, condition-, spatial-, genomic region- and variant-centered views, enabling seamless navigation across biological perspectives. We demonstrate VizIt through the Parkinson's Cell Atlas, a customizable interactive multi-omic resource.",
+    "link": "https://arxiv.org/abs/2609.04658",
+    "context": "Title: VizIt: A multi-view framework for exploring single-cell, spatial, and genetic data online\nAbstract: arXiv:2609.04658v1 Announce Type: new  Abstract: Multi-omic studies increasingly require data to be examined from complementary biological perspectives, yet interactive exploration remains fragmented across modalities and tools. We present VizIt, an open-source framework for multi-view exploration of single-cell and spatial transcriptomic, epigenomic and genetic data. VizIt connects gene-, cell type-, condition-, spatial-, genomic region- and variant-centered views, enabling seamless navigation across biological perspectives. We demonstrate VizIt through the Parkinson's Cell Atlas, a customizable interactive multi-omic resource.",
+    "path": "papers/26/09/2609.04658.json",
+    "total_tokens": 774,
+    "translated_title": "VizIt：一个用于在线探索单细胞、空间和遗传数据的多视图框架",
+    "translated_abstract": "多组学研究日益需要从互补的生物学视角检视数据，然而交互式探索在不同数据模态和工具之间仍然处于碎片化状态。我们提出了VizIt，一个用于单细胞和空间转录组、表观基因组及遗传数据多视图探索的开源框架。VizIt连接了以基因、细胞类型、条件、空间、基因组区域和变异为中心的多种视图，实现了跨生物学视角的无缝导航。我们通过帕金森病细胞图谱展示了VizIt，这是一个可定制的交互式多组学资源。",
+    "tldr": "VizIt是一个开源多视图框架，支持在线无缝探索单细胞、空间转录组、表观基因组和遗传数据，并通过帕金森病细胞图谱加以展示。",
+    "en_tdlr": "VizIt is an open-source multi-view framework that enables seamless online exploration of single-cell, spatial transcriptomic, epigenomic, and genetic data, demonstrated through the Parkinson's Cell Atlas."
+}

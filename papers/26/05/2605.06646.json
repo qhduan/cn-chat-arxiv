@@ -1,0 +1,12 @@
+{
+    "title": "Inductive Venn-Abers and related regressors",
+    "abstract": "arXiv:2605.06646v2 Announce Type: replace  Abstract: Venn-Abers predictors are probabilistic predictors that enjoy appealing properties of validity, but their major limitation is that they have been applicable only to binary classification, apart from a recent extension to bounded regression. We generalize them to the case of unbounded regression, which requires adding an element of conformal prediction. In our simulation and empirical studies we investigate the predictive efficiency of point regressors derived from Venn-Abers regressors and argue that they somewhat improve the predictive efficiency of standard regressors for larger training sets.",
+    "link": "https://arxiv.org/abs/2605.06646",
+    "context": "Title: Inductive Venn-Abers and related regressors\nAbstract: arXiv:2605.06646v2 Announce Type: replace  Abstract: Venn-Abers predictors are probabilistic predictors that enjoy appealing properties of validity, but their major limitation is that they have been applicable only to binary classification, apart from a recent extension to bounded regression. We generalize them to the case of unbounded regression, which requires adding an element of conformal prediction. In our simulation and empirical studies we investigate the predictive efficiency of point regressors derived from Venn-Abers regressors and argue that they somewhat improve the predictive efficiency of standard regressors for larger training sets.",
+    "path": "papers/26/05/2605.06646.json",
+    "total_tokens": 899,
+    "translated_title": "归纳式Venn-Abers及相关回归器",
+    "translated_abstract": "Venn-Abers预测器是具有良好有效性性质的概率预测器，但其主要局限在于此前仅适用于二元分类，尽管最近已有扩展到有界回归的工作。本文将其推广到无界回归的情形，这需要引入共形预测的元素。在模拟和实证研究中，我们考察了由Venn-Abers回归器导出的点回归器的预测效率，并论证了在较大训练集上，它们能在一定程度上提升标准回归器的预测效率。",
+    "tldr": "本文通过引入共形预测，将Venn-Abers预测器从二元分类和有界回归推广到无界回归，并证明由此导出的点回归器在较大训练集上能在一定程度上提升标准回归器的预测效率。",
+    "en_tdlr": "This paper generalizes Venn-Abers predictors from binary classification and bounded regression to unbounded regression by incorporating conformal prediction, showing that the derived point regressors somewhat improve the predictive efficiency of standard regressors for larger training sets."
+}

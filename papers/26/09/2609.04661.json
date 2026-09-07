@@ -1,0 +1,12 @@
+{
+    "title": "Interpretability for Turing Machines",
+    "abstract": "arXiv:2609.04661v1 Announce Type: new  Abstract: We show that susceptibilities, an interpretability technique developed for neural networks, can identify the presence of algorithmic structure in Turing machines by probing the local loss landscape of a learning problem for noisy Turing machines introduced by Murfet and Troiani (arXiv:2504.08075). We prove that symmetries and path separation in the algorithm implemented by a Turing machine induce permutation symmetries and low-rank blocks in its susceptibility matrix. We study this empirically on a set of deterministic finite automata (DFAs) and demonstrate that algorithmic features can be recovered by principal component analysis and clustering methods in susceptibility space.",
+    "link": "https://arxiv.org/abs/2609.04661",
+    "context": "Title: Interpretability for Turing Machines\nAbstract: arXiv:2609.04661v1 Announce Type: new  Abstract: We show that susceptibilities, an interpretability technique developed for neural networks, can identify the presence of algorithmic structure in Turing machines by probing the local loss landscape of a learning problem for noisy Turing machines introduced by Murfet and Troiani (arXiv:2504.08075). We prove that symmetries and path separation in the algorithm implemented by a Turing machine induce permutation symmetries and low-rank blocks in its susceptibility matrix. We study this empirically on a set of deterministic finite automata (DFAs) and demonstrate that algorithmic features can be recovered by principal component analysis and clustering methods in susceptibility space.",
+    "path": "papers/26/09/2609.04661.json",
+    "total_tokens": 959,
+    "translated_title": "图灵机的可解释性",
+    "translated_abstract": "我们证明，敏感性分析（susceptibilities）——一种为神经网络开发的可解释性技术——可以通过探测Murfet和Troiani（arXiv:2504.08075）提出的噪声图灵机学习问题的局部损失景观，来识别图灵机中算法结构的存在。我们证明，图灵机所实现算法中的对称性和路径分离会在其敏感性矩阵中诱导出置换对称性和低秩块。我们在一组确定性有限自动机（DFA）上对这一结论进行了实证研究，并证明可以通过主成分分析和聚类方法在敏感性空间中恢复算法特征。",
+    "tldr": "本文将源自神经网络的可解释性技术“敏感性分析”拓展至图灵机，从理论和实证上证明算法中的对称性与路径分离会诱导敏感性矩阵中的置换对称性和低秩块，并可通过主成分分析和聚类方法恢复算法特征。",
+    "en_tdlr": "This paper extends the neural-network interpretability technique of \"susceptibilities\" to Turing machines, proving both theoretically and empirically that symmetries and path separation in an algorithm induce permutation symmetries and low-rank blocks in the susceptibility matrix, which can be recovered via principal component analysis and clustering."
+}

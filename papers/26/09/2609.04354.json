@@ -1,0 +1,12 @@
+{
+    "title": "A Quantum Variational Approach to Prototypical Recurrent Unit",
+    "abstract": "arXiv:2609.04354v1 Announce Type: new  Abstract: We introduce a lightweight Quantum Prototypical Recurrent Unit (QPRU) that requires significantly fewer parameters than both classical recurrent architectures, such as Long Short- Term Memory (LSTM) and Gated Recurrent Unit (GRU), and quantum variants, including Quantum LSTM (QLSTM) and Quantum GRU (QGRU). Despite its compact design, the QPRU achieves competitive forecasting performance, matching state-of-the-art baselines while offering important structural and practical advantages, including enhanced scalability and a reduced number of trainable parameters.",
+    "link": "https://arxiv.org/abs/2609.04354",
+    "context": "Title: A Quantum Variational Approach to Prototypical Recurrent Unit\nAbstract: arXiv:2609.04354v1 Announce Type: new  Abstract: We introduce a lightweight Quantum Prototypical Recurrent Unit (QPRU) that requires significantly fewer parameters than both classical recurrent architectures, such as Long Short- Term Memory (LSTM) and Gated Recurrent Unit (GRU), and quantum variants, including Quantum LSTM (QLSTM) and Quantum GRU (QGRU). Despite its compact design, the QPRU achieves competitive forecasting performance, matching state-of-the-art baselines while offering important structural and practical advantages, including enhanced scalability and a reduced number of trainable parameters.",
+    "path": "papers/26/09/2609.04354.json",
+    "total_tokens": 852,
+    "translated_title": "原型循环单元的量子变分方法",
+    "translated_abstract": "我们提出了一种轻量级的量子原型循环单元（QPRU），与经典循环架构（如长短期记忆网络 LSTM 和门控循环单元 GRU）以及量子变体（包括量子 LSTM 和量子 GRU）相比，其所需参数显著更少。尽管设计紧凑，QPRU 仍实现了具有竞争力的预测性能，可与最先进的基线相媲美，同时具备重要的结构和实用优势，包括更强的可扩展性和更少的可训练参数数量。",
+    "tldr": "提出了一种参数量显著少于经典（LSTM、GRU）和量子（QLSTM、QGRU）循环架构的轻量级量子原型循环单元 QPRU，在保持与最先进基线相当的预测性能的同时，具备更强的可扩展性。",
+    "en_tdlr": "A lightweight Quantum Prototypical Recurrent Unit (QPRU) is proposed that requires significantly fewer parameters than both classical (LSTM, GRU) and quantum (QLSTM, QGRU) recurrent architectures, achieving forecasting performance competitive with state-of-the-art baselines while offering enhanced scalability."
+}
