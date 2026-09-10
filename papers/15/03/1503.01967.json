@@ -1,0 +1,11 @@
+{
+    "title": "Information entropy as an anthropomorphic concept",
+    "abstract": "arXiv:1503.01967v3 Announce Type: replace-cross  Abstract: According to E.T. Jaynes and E.P. Wigner, entropy is an anthropomorphic concept in the sense that in a physical system correspond many thermodynamic systems. The physical system can be examined from many points of view each time examining different variables and calculating entropy differently. In this paper we discuss how this concept may be applied in information entropy; how Shannon's definition of entropy can fit in Jayne's and Wigner's statement. This is achieved by generalizing Shannon's notion of information entropy and this is the main contribution of the paper. Then we discuss how entropy under these considerations may be used for the comparison of password complexity and as a measure of diversity useful in the analysis of the behavior of genetic algorithms.",
+    "link": "https://arxiv.org/abs/1503.01967",
+    "context": "Title: Information entropy as an anthropomorphic concept\nAbstract: arXiv:1503.01967v3 Announce Type: replace-cross  Abstract: According to E.T. Jaynes and E.P. Wigner, entropy is an anthropomorphic concept in the sense that in a physical system correspond many thermodynamic systems. The physical system can be examined from many points of view each time examining different variables and calculating entropy differently. In this paper we discuss how this concept may be applied in information entropy; how Shannon's definition of entropy can fit in Jayne's and Wigner's statement. This is achieved by generalizing Shannon's notion of information entropy and this is the main contribution of the paper. Then we discuss how entropy under these considerations may be used for the comparison of password complexity and as a measure of diversity useful in the analysis of the behavior of genetic algorithms.",
+    "path": "papers/15/03/1503.01967.json",
+    "total_tokens": 936,
+    "translated_title": "信息熵作为一个拟人化概念",
+    "translated_abstract": "根据E.T. Jaynes和E.P. Wigner的观点，熵是一个拟人化的概念，即一个物理系统可以对应多个热力学系统。物理系统可以从多个角度进行考察，每次考察不同的变量并以不同的方式计算熵。本文讨论了如何将这一概念应用于信息熵，以及香农的熵定义如何符合Jaynes和Wigner的论述。这是通过推广香农的信息熵概念来实现的，这也是本文的主要贡献。随后，我们讨论了在这些考虑下，熵如何可以用于比较密码复杂度，以及作为多样性度量在遗传算法行为分析中的应用。",
+    "tldr": "本文的主要贡献是推广了香农的信息熵概念，使其符合Jaynes和Wigner关于熵是拟人化观点的论述，并展示了其在密码复杂度比较和遗传算法多样性分析中的应用。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Good Pretraining, Bad SFT: Checkpoint Quality Across the Training Stack",
+    "abstract": "arXiv:2609.08966v1 Announce Type: new  Abstract: Language-model checkpoints are commonly selected by pretraining loss or benchmark scores, assuming that the highest-scoring checkpoint will remain the best starting point for subsequent training. We show that this assumption can fail in a full 30B mixture-of-experts training pipeline. The checkpoints that perform better after the full downstream training stack also have higher solution density, i.e., retain downstream performance under local weight perturbations.",
+    "link": "https://arxiv.org/abs/2609.08966",
+    "context": "Title: Good Pretraining, Bad SFT: Checkpoint Quality Across the Training Stack\nAbstract: arXiv:2609.08966v1 Announce Type: new  Abstract: Language-model checkpoints are commonly selected by pretraining loss or benchmark scores, assuming that the highest-scoring checkpoint will remain the best starting point for subsequent training. We show that this assumption can fail in a full 30B mixture-of-experts training pipeline. The checkpoints that perform better after the full downstream training stack also have higher solution density, i.e., retain downstream performance under local weight perturbations.",
+    "path": "papers/26/09/2609.08966.json",
+    "total_tokens": 850,
+    "translated_title": "良好的预训练，糟糕的SFT：跨训练流程的检查点质量评估",
+    "translated_abstract": "语言模型的检查点通常通过预训练损失或基准测试分数来选择，其默认假设是得分最高的检查点仍然是后续训练的最佳起点。我们证明这一假设在完整的30B混合专家（mixture-of-experts）训练流水线中可能失效。在完整下游训练流程之后表现更好的检查点，同时也具有更高的解密度，即在局部权重扰动下仍能保持下游性能。",
+    "tldr": "该研究发现，在完整的30B混合专家模型训练流程中，按预训练损失或基准分数选出的最优检查点未必是后续微调的最佳起点，而“解密度”更高（对权重扰动更鲁棒）的检查点才能在完整下游训练后表现更好。",
+    "en_tdlr": "In a full 30B mixture-of-experts training pipeline, checkpoints chosen by pretraining loss or benchmark scores may not remain the best starting point for subsequent training—checkpoints with higher solution density (robust to local weight perturbations) perform better after the full downstream training stack."
+}

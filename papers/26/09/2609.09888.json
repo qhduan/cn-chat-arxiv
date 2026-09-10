@@ -1,0 +1,11 @@
+{
+    "title": "The Response of Consumption to Interest Rates with Borrowing Constraints: An Analytical Approach",
+    "abstract": "arXiv:2609.09888v1 Announce Type: new  Abstract: I derive an explicit mapping from initial assets, income and the real interest rate to consumption for an income fluctuation problem with a borrowing constraint and CARA utility. I show that there exists a threshold of initial wealth over which the partial equilibrium consumption response to a permanent increase in the real interest rate is positive, consistent with recent empirical evidence. I further show that precautionary savings reinforce the possibility of crowding in and that the possibility of a positive response extends to a more standard CRRA utility whenever the elasticity of intertemporal substitution is strictly less than 1.",
+    "link": "https://arxiv.org/abs/2609.09888",
+    "context": "Title: The Response of Consumption to Interest Rates with Borrowing Constraints: An Analytical Approach\nAbstract: arXiv:2609.09888v1 Announce Type: new  Abstract: I derive an explicit mapping from initial assets, income and the real interest rate to consumption for an income fluctuation problem with a borrowing constraint and CARA utility. I show that there exists a threshold of initial wealth over which the partial equilibrium consumption response to a permanent increase in the real interest rate is positive, consistent with recent empirical evidence. I further show that precautionary savings reinforce the possibility of crowding in and that the possibility of a positive response extends to a more standard CRRA utility whenever the elasticity of intertemporal substitution is strictly less than 1.",
+    "path": "papers/26/09/2609.09888.json",
+    "total_tokens": 967,
+    "translated_title": "存在借贷约束时消费对利率的反应：一种解析方法",
+    "translated_abstract": "针对带有借贷约束和CARA效用的收入波动问题，我推导出了从初始资产、收入和实际利率到消费的显式映射关系。我证明了存在一个初始财富阈值，当初始财富超过该阈值时，实际利率永久性上升所带来的局部均衡消费反应为正，这与近期的实证证据相一致。我进一步证明了预防性储蓄会强化“挤入效应”发生的可能性，并且当跨期替代弹性严格小于1时，消费出现正向反应的可能性同样适用于更为标准的CRRA效用函数。",
+    "tldr": "本文通过解析方法推导出存在借贷约束时消费对利率的显式反应函数，证明了存在初始财富阈值使得利率上升对消费产生正向“挤入”效应，且该结论在跨期替代弹性小于1时可推广至CRRA效用函数。"
+}

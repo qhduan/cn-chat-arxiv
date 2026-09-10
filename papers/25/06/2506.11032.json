@@ -1,0 +1,12 @@
+{
+    "title": "Deep Learning Approach to Bearing and Induction Motor Fault Diagnosis via Data Fusion",
+    "abstract": "arXiv:2506.11032v2 Announce Type: replace  Abstract: Convolutional Neural Networks (CNNs) are used to evaluate accelerometer and microphone data for bearing and induction motor diagnosis. A Long Short-Term Memory (LSTM) recurrent neural network is used to combine sensor information effectively, highlighting the benefits of data fusion. This approach encourages researchers to focus on multi model diagnosis for constant speed data collection by proposing a comprehensive way to use deep learning and sensor fusion and encourages data scientists to collect more multi-sensor data, including acoustic and accelerometer datasets.",
+    "link": "https://arxiv.org/abs/2506.11032",
+    "context": "Title: Deep Learning Approach to Bearing and Induction Motor Fault Diagnosis via Data Fusion\nAbstract: arXiv:2506.11032v2 Announce Type: replace  Abstract: Convolutional Neural Networks (CNNs) are used to evaluate accelerometer and microphone data for bearing and induction motor diagnosis. A Long Short-Term Memory (LSTM) recurrent neural network is used to combine sensor information effectively, highlighting the benefits of data fusion. This approach encourages researchers to focus on multi model diagnosis for constant speed data collection by proposing a comprehensive way to use deep learning and sensor fusion and encourages data scientists to collect more multi-sensor data, including acoustic and accelerometer datasets.",
+    "path": "papers/25/06/2506.11032.json",
+    "total_tokens": 819,
+    "translated_title": "基于数据融合的轴承与感应电机故障诊断深度学习方法",
+    "translated_abstract": "本文采用卷积神经网络（CNN）对加速度计和麦克风数据进行评估，用于轴承和感应电机的故障诊断。研究使用长短期记忆（LSTM）循环神经网络有效融合传感器信息，凸显了数据融合的优势。该方法通过提出一种综合运用深度学习与传感器融合的全面方案，鼓励研究人员关注恒定转速数据采集下的多模型诊断，并鼓励数据科学家收集更多多传感器数据，包括声学与加速度计数据集。",
+    "tldr": "本文提出利用CNN评估加速度计与麦克风数据，并通过LSTM循环神经网络实现多传感器数据融合，从而实现轴承与感应电机的高效故障诊断。",
+    "en_tdlr": "This paper proposes using CNNs to evaluate accelerometer and microphone data combined through an LSTM recurrent network, demonstrating the benefits of multi-sensor data fusion for bearing and induction motor fault diagnosis."
+}

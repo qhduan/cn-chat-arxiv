@@ -1,0 +1,12 @@
+{
+    "title": "Hypersolid: Emergent Vision Representations via Short-Range Repulsion",
+    "abstract": "arXiv:2601.21255v2 Announce Type: replace-cross  Abstract: A central problem in self-supervised learning is preventing representation collapse. Most methods avoid it through global mechanisms, such as contrastive expansion, variance constraints, decorrelating dimensions, or enforcing certain output distributions. In this work, we study a different design: short-range repulsion. We introduce Hypersolid, a self-supervised objective that combines view alignment with local collision avoidance.   Our method induces a latent geometry of compact, semantically aligned neighborhoods with low anisotropy. This geometry is especially effective for unsupervised clustering and fine-grained separation, although it comes at the cost of weaker transferability.",
+    "link": "https://arxiv.org/abs/2601.21255",
+    "context": "Title: Hypersolid: Emergent Vision Representations via Short-Range Repulsion\nAbstract: arXiv:2601.21255v2 Announce Type: replace-cross  Abstract: A central problem in self-supervised learning is preventing representation collapse. Most methods avoid it through global mechanisms, such as contrastive expansion, variance constraints, decorrelating dimensions, or enforcing certain output distributions. In this work, we study a different design: short-range repulsion. We introduce Hypersolid, a self-supervised objective that combines view alignment with local collision avoidance.   Our method induces a latent geometry of compact, semantically aligned neighborhoods with low anisotropy. This geometry is especially effective for unsupervised clustering and fine-grained separation, although it comes at the cost of weaker transferability.",
+    "path": "papers/26/01/2601.21255.json",
+    "total_tokens": 1021,
+    "translated_title": "Hypersolid：通过短程排斥涌现视觉表征",
+    "translated_abstract": "自监督学习的一个核心问题是防止表征坍缩。大多数方法通过全局机制来避免这一问题，例如对比扩展、方差约束、维度去相关或强制特定的输出分布。在本工作中，我们研究了另一种不同的设计：短程排斥。我们提出了Hypersolid，这是一种将视图对齐与局部碰撞避免相结合的自监督目标函数。我们的方法诱导出一种由紧凑的、语义对齐的邻域构成的低各向异性潜在几何结构。这种几何结构在无监督聚类和细粒度区分方面尤为有效，尽管其代价是迁移能力较弱。",
+    "tldr": "提出Hypersolid自监督学习方法，通过将视图对齐与短程排斥（局部碰撞避免）相结合，诱导出低各向异性、语义对齐的紧凑潜在几何结构，在无监督聚类和细粒度区分任务上表现尤为出色。",
+    "en_tdlr": "Hypersolid is a self-supervised objective that combines view alignment with short-range repulsion (local collision avoidance), inducing a compact, semantically aligned, low-anisotropy latent geometry that is especially effective for unsupervised clustering and fine-grained separation."
+}

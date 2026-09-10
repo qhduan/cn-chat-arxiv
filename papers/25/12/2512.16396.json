@@ -1,0 +1,11 @@
+{
+    "title": "Global universal approximation with Brownian signatures",
+    "abstract": "arXiv:2512.16396v3 Announce Type: replace-cross  Abstract: We establish $L^p$-universal approximation theorems for general path-dependent and non-anticipative functionals on suitable rough path spaces, showing that linear functionals acting on signatures of time-extended rough paths are dense with respect to the $L^p$-distance. To that end, we derive global universal approximation theorems for weighted rough path spaces. We demonstrate that these $L^p$-universal approximation theorems apply to Gaussian processes, in particular, to fractional Brownian motion. As a consequence, linear functionals on the signature of the time-extended Brownian motion can approximate any $p$-integrable stochastic process adapted to the Brownian filtration, including solutions to stochastic differential equations.",
+    "link": "https://arxiv.org/abs/2512.16396",
+    "context": "Title: Global universal approximation with Brownian signatures\nAbstract: arXiv:2512.16396v3 Announce Type: replace-cross  Abstract: We establish $L^p$-universal approximation theorems for general path-dependent and non-anticipative functionals on suitable rough path spaces, showing that linear functionals acting on signatures of time-extended rough paths are dense with respect to the $L^p$-distance. To that end, we derive global universal approximation theorems for weighted rough path spaces. We demonstrate that these $L^p$-universal approximation theorems apply to Gaussian processes, in particular, to fractional Brownian motion. As a consequence, linear functionals on the signature of the time-extended Brownian motion can approximate any $p$-integrable stochastic process adapted to the Brownian filtration, including solutions to stochastic differential equations.",
+    "path": "papers/25/12/2512.16396.json",
+    "total_tokens": 1098,
+    "translated_title": "基于布朗运动特征的全局万能逼近",
+    "translated_abstract": "我们在合适的粗糙路径空间上建立了一般路径依赖且非预期泛函的 $L^p$-万能逼近定理，证明了作用于时间延拓粗糙路径特征上的线性泛函在 $L^p$-距离意义下是稠密的。为此，我们推导了加权粗糙路径空间上的全局万能逼近定理。我们证明这些 $L^p$-万能逼近定理适用于高斯过程，特别是分数布朗运动。因此，作用于时间延拓布朗运动特征上的线性泛函可以逼近任何关于布朗滤流的 $p$-可积适应随机过程，包括随机微分方程的解。",
+    "tldr": "本文在加权粗糙路径空间上建立了全局万能逼近定理，证明了时间延拓布朗运动特征的线性泛函可在 $L^p$ 距离下逼近任意布朗滤流可积的适应随机过程（包括随机微分方程的解）。"
+}

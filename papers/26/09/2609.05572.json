@@ -1,0 +1,11 @@
+{
+    "title": "Deep belief networks are exact",
+    "abstract": "arXiv:2609.05572v1 Announce Type: new  Abstract: We prove that every strictly positive probability distribution on \\(\\{-1,1\\}^n\\) is represented exactly by a sigmoid belief network with finite parameters. This answers a question of Sutskever and Hinton. The proof upgrades their probability-sharing approximation to exact representation using Brouwer's fixed-point theorem.",
+    "link": "https://arxiv.org/abs/2609.05572",
+    "context": "Title: Deep belief networks are exact\nAbstract: arXiv:2609.05572v1 Announce Type: new  Abstract: We prove that every strictly positive probability distribution on \\(\\{-1,1\\}^n\\) is represented exactly by a sigmoid belief network with finite parameters. This answers a question of Sutskever and Hinton. The proof upgrades their probability-sharing approximation to exact representation using Brouwer's fixed-point theorem.",
+    "path": "papers/26/09/2609.05572.json",
+    "total_tokens": 736,
+    "translated_title": "深度信念网络是精确的",
+    "translated_abstract": "我们证明，定义在 \\(\\{-1,1\\}^n\\) 上的每一个严格正的概率分布，都可以被一个具有有限参数的 Sigmoid 信念网络精确表示。这回答了 Sutskever 和 Hinton 提出的一个问题。该证明利用布劳威尔（Brouwer）不动点定理，将他们的概率共享近似方法升级为精确表示。",
+    "tldr": "本文证明了 \\(\\{-1,1\\}^n\\) 上任意严格正的概率分布都能被有限参数的 Sigmoid 信念网络精确表示，利用布劳威尔不动点定理回答了 Sutskever 和 Hinton 的开放性问题。"
+}

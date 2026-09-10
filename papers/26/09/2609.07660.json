@@ -1,0 +1,12 @@
+{
+    "title": "Thermodynamic Cyclic Processes with Markov Samplers in Bayesian Inference",
+    "abstract": "arXiv:2609.07660v1 Announce Type: cross  Abstract: The concept of Markov chain Monte Carlo (MCMC) cycles, an analogy to cyclic processes in heat engines, is presented in order to examine Bayesian inference problems. In this effort, we develop adaptive ensemble schedulers that allow the tuning of external parameters of a Bayesian canonical ensemble during an MCMC run, realising the MCMC cycles in practice. We run these cycles on different statistical models. As a fundamental insight, we find (both theoretically and in practice) that such systems can produce a non-zero net work output if and only if the considered model is non-Gaussian. As such, they may serve as a measure of non-Gaussianity in Bayesian inference, which we test on an example from supernova cosmology.",
+    "link": "https://arxiv.org/abs/2609.07660",
+    "context": "Title: Thermodynamic Cyclic Processes with Markov Samplers in Bayesian Inference\nAbstract: arXiv:2609.07660v1 Announce Type: cross  Abstract: The concept of Markov chain Monte Carlo (MCMC) cycles, an analogy to cyclic processes in heat engines, is presented in order to examine Bayesian inference problems. In this effort, we develop adaptive ensemble schedulers that allow the tuning of external parameters of a Bayesian canonical ensemble during an MCMC run, realising the MCMC cycles in practice. We run these cycles on different statistical models. As a fundamental insight, we find (both theoretically and in practice) that such systems can produce a non-zero net work output if and only if the considered model is non-Gaussian. As such, they may serve as a measure of non-Gaussianity in Bayesian inference, which we test on an example from supernova cosmology.",
+    "path": "papers/26/09/2609.07660.json",
+    "total_tokens": 1027,
+    "translated_title": "贝叶斯推断中基于马尔可夫采样器的热力学循环过程",
+    "translated_abstract": "本文提出了马尔可夫链蒙特卡罗（MCMC）循环的概念，类比于热机中的循环过程，用以考察贝叶斯推断问题。在这项工作中，我们开发了自适应集成调度器，能够在MCMC运行过程中调整贝叶斯正则系综的外部参数，从而在实践中实现MCMC循环。我们在不同的统计模型上运行了这些循环。作为一个基本发现，我们从理论和实践两方面证明：此类系统能够产生非零净功输出的充要条件是所考虑的模型为非高斯模型。因此，它们可以作为贝叶斯推断中非高斯性的一种度量，我们在超新星宇宙学的一个实例上对此进行了检验。",
+    "tldr": "该研究将热机循环过程类比引入马尔可夫链蒙特卡罗方法，发现此类系统产生非零净功的充要条件是模型为非高斯模型，从而为贝叶斯推断提供了一种非高斯性度量手段。",
+    "en_tdlr": "The study introduces heat-engine-like cyclic processes into MCMC for Bayesian inference and finds that such systems produce non-zero net work if and only if the model is non-Gaussian, thus serving as a measure of non-Gaussianity in Bayesian inference."
+}

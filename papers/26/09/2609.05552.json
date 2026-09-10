@@ -1,0 +1,12 @@
+{
+    "title": "An Agent Model Abstraction for Human-AI Teaming Cognitive Coupling",
+    "abstract": "arXiv:2609.05552v1 Announce Type: cross  Abstract: Industrial environments increasingly rely on collaboration between humans and AI-enabled agents. Effective teamwork requires aligning how agents perceive situations, plan actions to pursue goals, and adapt to changing conditions, yet existing systems lack mechanisms for cross-agent cognitive processes coupling. This paper presents a conceptual cognitive agent model that formalises cognitive coupling through eight components: Input, Process, Output, State, Value, Memory, World Model, and Goal. The model abstracts how agents coordinate and co-regulate their cognitive cycles, providing a basis for analysing distributed cognition and designing cognitively interoperable human-AI systems.",
+    "link": "https://arxiv.org/abs/2609.05552",
+    "context": "Title: An Agent Model Abstraction for Human-AI Teaming Cognitive Coupling\nAbstract: arXiv:2609.05552v1 Announce Type: cross  Abstract: Industrial environments increasingly rely on collaboration between humans and AI-enabled agents. Effective teamwork requires aligning how agents perceive situations, plan actions to pursue goals, and adapt to changing conditions, yet existing systems lack mechanisms for cross-agent cognitive processes coupling. This paper presents a conceptual cognitive agent model that formalises cognitive coupling through eight components: Input, Process, Output, State, Value, Memory, World Model, and Goal. The model abstracts how agents coordinate and co-regulate their cognitive cycles, providing a basis for analysing distributed cognition and designing cognitively interoperable human-AI systems.",
+    "path": "papers/26/09/2609.05552.json",
+    "total_tokens": 876,
+    "translated_title": "面向人机协同认知耦合的智能体模型抽象",
+    "translated_abstract": "工业环境日益依赖于人类与具备AI能力的智能体之间的协作。有效的团队合作需要使智能体在感知情境、规划行动以追求目标以及适应不断变化的条件方面保持一致，然而现有系统缺乏跨智能体认知过程耦合的机制。本文提出了一个概念性的认知智能体模型，通过八个组件对认知耦合进行形式化：输入、过程、输出、状态、价值、记忆、世界模型和目标。该模型抽象了智能体如何协调和共同调节其认知循环，为分析分布式认知和设计认知互操作的人机系统提供了基础。",
+    "tldr": "本文提出了一个由输入、过程、输出、状态、价值、记忆、世界模型和目标八个组件构成的概念性认知智能体模型，为人机协同中认知耦合的形式化以及认知互操作系统的设计提供了理论基础。",
+    "en_tdlr": "This paper proposes a conceptual cognitive agent model that formalizes cognitive coupling through eight components—Input, Process, Output, State, Value, Memory, World Model, and Goal—providing a foundation for analyzing distributed cognition and designing cognitively interoperable human-AI systems."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Input-to-State Stability Framework for Fully Distributed Primal-Dual Dynamics for Quadratic GNEPs Without Multiplier Consensus",
+    "abstract": "arXiv:2609.06983v1 Announce Type: cross  Abstract: Generalized Nash Equilibrium Problems (GNEPs) often arise in multi-agent engineering applications that require distributed algorithms. Unlike traditional approaches that enforce consensus on multipliers, our method removes the need to share multipliers, reducing communication and improving privacy. As a result, different initializations can lead to different GNEs, including non-variational ones. We establish convergence under sufficient conditions using an input-to-state stability (ISS) framework.",
+    "link": "https://arxiv.org/abs/2609.06983",
+    "context": "Title: Input-to-State Stability Framework for Fully Distributed Primal-Dual Dynamics for Quadratic GNEPs Without Multiplier Consensus\nAbstract: arXiv:2609.06983v1 Announce Type: cross  Abstract: Generalized Nash Equilibrium Problems (GNEPs) often arise in multi-agent engineering applications that require distributed algorithms. Unlike traditional approaches that enforce consensus on multipliers, our method removes the need to share multipliers, reducing communication and improving privacy. As a result, different initializations can lead to different GNEs, including non-variational ones. We establish convergence under sufficient conditions using an input-to-state stability (ISS) framework.",
+    "path": "papers/26/09/2609.06983.json",
+    "total_tokens": 831,
+    "translated_title": "面向无乘子共识的二次广义纳什均衡问题的全分布式原始-对偶动力学的输入到状态稳定性框架",
+    "translated_abstract": "广义纳什均衡问题（GNEPs）常见于需要分布式算法的多智能体工程应用中。与传统方法通过对乘子强制达成共识不同，本方法无需共享乘子，从而减少了通信量并提升了隐私保护。因此，不同的初始化可以收敛到不同的广义纳什均衡（GNE），包括非变分均衡。我们利用输入到状态稳定性（ISS）框架，在充分条件下建立了算法的收敛性。",
+    "tldr": "本文提出了一种无需乘子共识的全分布式原始-对偶动力学方法来求解二次广义纳什均衡问题，并基于输入到状态稳定性（ISS）框架证明了算法的收敛性，减少了通信需求并提升了隐私性。",
+    "en_tdlr": "This paper proposes fully distributed primal-dual dynamics for quadratic GNEPs without requiring multiplier consensus, establishing convergence via an input-to-state stability (ISS) framework while reducing communication and improving privacy."
+}

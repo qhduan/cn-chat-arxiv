@@ -1,0 +1,12 @@
+{
+    "title": "Causal Persuasion",
+    "abstract": "arXiv:2604.20664v3 Announce Type: replace  Abstract: Correlation is not causation... until the right variables are on the table. We propose a model of causal persuasion, in which a sender selectively discloses variables alongside a subjective causal model linking them. Persuasion requires that the model rules out rival explanations, on top of being consistent with the underlying data distribution. To establish a causal link, the sender often needs to disclose at most two well-chosen variables, whereas dispelling a perceived link, every common cause must be disclosed. This highlights a fundamental asymmetry: Establishing causality is often much easier than ruling it out.",
+    "link": "https://arxiv.org/abs/2604.20664",
+    "context": "Title: Causal Persuasion\nAbstract: arXiv:2604.20664v3 Announce Type: replace  Abstract: Correlation is not causation... until the right variables are on the table. We propose a model of causal persuasion, in which a sender selectively discloses variables alongside a subjective causal model linking them. Persuasion requires that the model rules out rival explanations, on top of being consistent with the underlying data distribution. To establish a causal link, the sender often needs to disclose at most two well-chosen variables, whereas dispelling a perceived link, every common cause must be disclosed. This highlights a fundamental asymmetry: Establishing causality is often much easier than ruling it out.",
+    "path": "papers/26/04/2604.20664.json",
+    "total_tokens": 893,
+    "translated_title": "因果说服",
+    "translated_abstract": "相关性并不等于因果关系……直到正确的变量被摆上台面。我们提出了一个因果说服模型，其中发送方有选择性地披露变量，并辅以一个将这些变量联系起来的主观因果模型。说服要求该模型在符合底层数据分布的基础上，还能排除其他竞争性解释。为了建立因果联系，发送方通常只需披露至多两个精心挑选的变量；而要消除一个已被认知的因果联系，则必须披露所有共同原因。这凸显了一个根本的不对称性：建立因果关系往往比排除因果关系容易得多。",
+    "tldr": "该论文提出了一个因果说服模型，证明建立因果联系只需披露至多两个精心选择的变量，而排除因果联系则必须披露所有共同原因，从而揭示了“确立因果远比排除因果容易”这一根本不对称性。",
+    "en_tdlr": "This paper proposes a model of causal persuasion in which establishing a causal link requires disclosing at most two well-chosen variables, while dispelling one requires disclosing every common cause, highlighting a fundamental asymmetry: establishing causality is often much easier than ruling it out."
+}

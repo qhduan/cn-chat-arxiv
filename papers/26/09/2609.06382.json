@@ -1,0 +1,12 @@
+{
+    "title": "Recovering Weak Signals with Normalizing Flows",
+    "abstract": "arXiv:2609.06382v1 Announce Type: cross  Abstract: In many scientific disciplines, weak signals of interest are obscured by dominant nuisance signals that are several orders of magnitude stronger. Recovering these weak signals requires subtracting the dominant ones; however, this calibration process inherently distorts or partially suppresses the underlying signal of interest. To address this problem, we propose the use of normalizing flow models to reconstruct calibration-affected weak signals. By leveraging the statistical invariance of the target signals and assuming minimal initial suppression, our framework effectively recovers the lost signal components. We provide a comprehensive theoretical overview of this normalizing flow-based recovery method and demonstrate its efficacy using simulated data.",
+    "link": "https://arxiv.org/abs/2609.06382",
+    "context": "Title: Recovering Weak Signals with Normalizing Flows\nAbstract: arXiv:2609.06382v1 Announce Type: cross  Abstract: In many scientific disciplines, weak signals of interest are obscured by dominant nuisance signals that are several orders of magnitude stronger. Recovering these weak signals requires subtracting the dominant ones; however, this calibration process inherently distorts or partially suppresses the underlying signal of interest. To address this problem, we propose the use of normalizing flow models to reconstruct calibration-affected weak signals. By leveraging the statistical invariance of the target signals and assuming minimal initial suppression, our framework effectively recovers the lost signal components. We provide a comprehensive theoretical overview of this normalizing flow-based recovery method and demonstrate its efficacy using simulated data.",
+    "path": "papers/26/09/2609.06382.json",
+    "total_tokens": 917,
+    "translated_title": "使用归一化流恢复微弱信号",
+    "translated_abstract": "在许多科学学科中，感兴趣的微弱信号会被比其强几个数量级的主导性干扰信号所掩盖。恢复这些微弱信号需要扣除主导信号；然而，这种校准过程本身会不可避免地扭曲或部分抑制感兴趣的底层信号。为解决这一问题，我们提出使用归一化流模型来重建受校准影响的微弱信号。通过利用目标信号的统计不变性并假设初始抑制程度最小，我们的框架能够有效恢复丢失的信号成分。我们对这一基于归一化流的恢复方法提供了全面的理论概述，并通过模拟数据证明了其有效性。",
+    "tldr": "本文提出一种基于归一化流模型的方法，通过利用目标信号的统计不变性，有效重建和恢复在校准过程中被主导干扰信号掩盖或抑制的微弱信号成分。",
+    "en_tdlr": "This paper proposes a normalizing flow-based method that effectively reconstructs weak signals distorted or suppressed during calibration by leveraging the statistical invariance of target signals, recovering signal components obscured by dominant nuisance signals."
+}

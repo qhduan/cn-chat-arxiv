@@ -1,0 +1,12 @@
+{
+    "title": "Selective boundary condition reduction via learned error gating",
+    "abstract": "arXiv:2609.08461v1 Announce Type: cross  Abstract: Parametric PDEs can admit different boundary conditions with different accuracy and computational cost. We introduce a framework for learning when one reduced boundary condition can replace another: paired solutions train a neural network to estimate the resulting domain and boundary errors, and the simpler condition is used only when both predicted errors meet prescribed tolerances. We focus on singular limits in applications, in which a stiff Robin or nonlinear boundary law is replaced by its limiting Dirichlet form. We evaluate the method on a galvanic corrosion problem and other nonlinear stationary and evolution problems.",
+    "link": "https://arxiv.org/abs/2609.08461",
+    "context": "Title: Selective boundary condition reduction via learned error gating\nAbstract: arXiv:2609.08461v1 Announce Type: cross  Abstract: Parametric PDEs can admit different boundary conditions with different accuracy and computational cost. We introduce a framework for learning when one reduced boundary condition can replace another: paired solutions train a neural network to estimate the resulting domain and boundary errors, and the simpler condition is used only when both predicted errors meet prescribed tolerances. We focus on singular limits in applications, in which a stiff Robin or nonlinear boundary law is replaced by its limiting Dirichlet form. We evaluate the method on a galvanic corrosion problem and other nonlinear stationary and evolution problems.",
+    "path": "papers/26/09/2609.08461.json",
+    "total_tokens": 961,
+    "translated_title": "基于学习误差门控的选择性边界条件约简",
+    "translated_abstract": "参数化偏微分方程可以采用不同的边界条件，其精度和计算成本各不相同。我们引入了一个用于学习何时一个约简边界条件可以替代另一个的框架：利用成对的解训练神经网络来估计由此产生的区域误差和边界误差，只有当两个预测误差均满足规定的容差时，才使用更简单的边界条件。我们重点关注应用中的奇异极限情形，其中刚性的Robin边界或非线性边界定律被其极限Dirichlet形式所取代。我们在一个电偶腐蚀问题以及其他非线性定常问题和演化问题上对该方法进行了评估。",
+    "tldr": "该论文提出一种学习误差门控框架，利用神经网络预测边界条件约简带来的区域误差和边界误差，仅在预测误差满足容差时才用更简单的极限边界条件（如Dirichlet形式）替代复杂的刚性Robin或非线性边界条件，从而在保证精度的同时降低计算成本。",
+    "en_tdlr": "This paper introduces a learned error gating framework that trains a neural network to predict domain and boundary errors when replacing complex boundary conditions (such as stiff Robin or nonlinear laws) with simpler limiting Dirichlet forms, selectively applying the reduced conditions only when predicted errors meet prescribed tolerances."
+}

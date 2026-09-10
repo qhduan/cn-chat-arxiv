@@ -1,0 +1,11 @@
+{
+    "title": "A Generalization of Amari's Bayesian Duality",
+    "abstract": "arXiv:2609.09126v1 Announce Type: new  Abstract: Amari's contributions to information geometry and machine learning are well known. Here, we revisit Amari's work on Bayesian duality which has not received as much attention. We connect Amari's Bayesian duality to a convex duality of Bayes' rule. Using this connection, we present a generalization of Amari's Bayesian duality and discuss its relevance for modern artificial intelligence.",
+    "link": "https://arxiv.org/abs/2609.09126",
+    "context": "Title: A Generalization of Amari's Bayesian Duality\nAbstract: arXiv:2609.09126v1 Announce Type: new  Abstract: Amari's contributions to information geometry and machine learning are well known. Here, we revisit Amari's work on Bayesian duality which has not received as much attention. We connect Amari's Bayesian duality to a convex duality of Bayes' rule. Using this connection, we present a generalization of Amari's Bayesian duality and discuss its relevance for modern artificial intelligence.",
+    "path": "papers/26/09/2609.09126.json",
+    "total_tokens": 719,
+    "translated_title": "阿玛里贝叶斯对偶性的推广",
+    "translated_abstract": "阿玛里对信息几何和机器学习的贡献是众所周知的。在这里，我们重新审视阿玛里关于贝叶斯对偶性的工作，这项工作尚未受到足够多的关注。我们将阿玛里的贝叶斯对偶性与贝叶斯规则的凸对偶性联系起来。利用这种联系，我们提出了阿玛里贝叶斯对偶性的一个推广，并讨论了其与现代人工智能的相关性。",
+    "tldr": "本文通过将阿玛里的贝叶斯对偶性与贝叶斯规则的凸对偶性相联系，提出了阿玛里贝叶斯对偶性的推广，并探讨了其对现代人工智能的意义。"
+}

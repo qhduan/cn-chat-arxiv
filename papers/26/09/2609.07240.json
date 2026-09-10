@@ -1,0 +1,12 @@
+{
+    "title": "Kolmogorov--Arnold stability for discontinuous functions",
+    "abstract": "arXiv:2609.07240v1 Announce Type: new  Abstract: Here we investigate the stability of the Kolmogorov--Arnold representation theorem (KART) under adversarial reparameterisations of the hidden layer for multivariate discontinuous and unbounded functions. Our results provide a rigorous mathematical foundation for the structural robustness of modern deep learning architectures, such as Kolmogorov--Arnold Networks (KANs), under adversarial configurations.",
+    "link": "https://arxiv.org/abs/2609.07240",
+    "context": "Title: Kolmogorov--Arnold stability for discontinuous functions\nAbstract: arXiv:2609.07240v1 Announce Type: new  Abstract: Here we investigate the stability of the Kolmogorov--Arnold representation theorem (KART) under adversarial reparameterisations of the hidden layer for multivariate discontinuous and unbounded functions. Our results provide a rigorous mathematical foundation for the structural robustness of modern deep learning architectures, such as Kolmogorov--Arnold Networks (KANs), under adversarial configurations.",
+    "path": "papers/26/09/2609.07240.json",
+    "total_tokens": 807,
+    "translated_title": "不连续函数的Kolmogorov-Arnold稳定性",
+    "translated_abstract": "我们研究了Kolmogorov-Arnold表示定理（KART）在多元不连续且无界函数情形下，当隐藏层受到对抗性重参数化时的稳定性。我们的结果为现代深度学习架构（如Kolmogorov-Arnold网络，KANs）在对抗性配置下的结构鲁棒性提供了严格的数学基础。",
+    "tldr": "本文证明了Kolmogorov-Arnold表示定理对于多元不连续且无界函数在隐藏层受到对抗性重参数化时依然保持稳定，为KAN等现代深度学习架构的结构鲁棒性奠定了严格的数学基础。",
+    "en_tdlr": "This paper establishes the stability of the Kolmogorov-Arnold representation theorem under adversarial hidden-layer reparameterisations for multivariate discontinuous and unbounded functions, providing a rigorous mathematical foundation for the structural robustness of modern deep learning architectures such as KANs."
+}

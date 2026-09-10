@@ -1,0 +1,12 @@
+{
+    "title": "Stability of the Monge Map in Semi-Dual Optimal Transport",
+    "abstract": "arXiv:2605.05569v5 Announce Type: replace-cross  Abstract: This paper shows that the semi-dual formulation of the optimal transport problem has a degenerate saddle-point structure, and that its numerical solution is equivalent to solving a constrained optimization problem. We derive necessary and sufficient conditions for the convergence of Monge maps without requiring optimality of the dual potential. This analysis helps explain why, in practice, numerical algorithms often require more iterations to update the transport map than the potential.",
+    "link": "https://arxiv.org/abs/2605.05569",
+    "context": "Title: Stability of the Monge Map in Semi-Dual Optimal Transport\nAbstract: arXiv:2605.05569v5 Announce Type: replace-cross  Abstract: This paper shows that the semi-dual formulation of the optimal transport problem has a degenerate saddle-point structure, and that its numerical solution is equivalent to solving a constrained optimization problem. We derive necessary and sufficient conditions for the convergence of Monge maps without requiring optimality of the dual potential. This analysis helps explain why, in practice, numerical algorithms often require more iterations to update the transport map than the potential.",
+    "path": "papers/26/05/2605.05569.json",
+    "total_tokens": 863,
+    "translated_title": "半对偶最优传输中 Monge 映射的稳定性",
+    "translated_abstract": "本文证明最优传输问题的半对偶形式具有退化的鞍点结构，且其数值求解等价于求解一个约束优化问题。我们推导出了 Monge 映射收敛的充分必要条件，且无需假设对偶势函数达到最优。这一分析有助于解释为什么在实践中，数值算法更新传输映射通常比更新势函数需要更多的迭代次数。",
+    "tldr": "本文证明最优传输的半对偶形式具有退化鞍点结构且等价于约束优化问题，推导出了 Monge 映射收敛的充分必要条件，并解释了数值算法更新传输映射为何比更新势函数需要更多迭代。",
+    "en_tdlr": "This paper proves that the semi-dual formulation of optimal transport has a degenerate saddle-point structure equivalent to a constrained optimization problem, derives necessary and sufficient conditions for Monge map convergence without dual potential optimality, and explains why numerical algorithms often require more iterations to update the transport map than the potential."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Tensor-Train Weak SINDy: Identifying High-Dimensional Nonlinear Dynamics",
+    "abstract": "arXiv:2609.09434v1 Announce Type: cross  Abstract: In recent years, weak-form methods have made significant advances in data-driven discovery of dynamical systems. However, in high-dimensional settings, current techniques can prove expensive in both computation and memory. In this work, we introduce TT-WSINDy, which combines techniques of the Multidimensional Approximation of Nonlinear Dynamics (MANDy) and Weak Sparse Identification of Nonlinear Dynamics (WSINDy) methods, implementing requisite computations in the tensor-train (TT) format. We demonstrate that this method is able to search an exponentially-growing space of candidate functions -- performing weak-form transformation, regression, and sparsification -- without suffering from the curse of dimensionality.",
+    "link": "https://arxiv.org/abs/2609.09434",
+    "context": "Title: Tensor-Train Weak SINDy: Identifying High-Dimensional Nonlinear Dynamics\nAbstract: arXiv:2609.09434v1 Announce Type: cross  Abstract: In recent years, weak-form methods have made significant advances in data-driven discovery of dynamical systems. However, in high-dimensional settings, current techniques can prove expensive in both computation and memory. In this work, we introduce TT-WSINDy, which combines techniques of the Multidimensional Approximation of Nonlinear Dynamics (MANDy) and Weak Sparse Identification of Nonlinear Dynamics (WSINDy) methods, implementing requisite computations in the tensor-train (TT) format. We demonstrate that this method is able to search an exponentially-growing space of candidate functions -- performing weak-form transformation, regression, and sparsification -- without suffering from the curse of dimensionality.",
+    "path": "papers/26/09/2609.09434.json",
+    "total_tokens": 984,
+    "translated_title": "张量列车弱形式SINDy：识别高维非线性动力学",
+    "translated_abstract": "近年来，弱形式方法在数据驱动的动力系统发现领域取得了重大进展。然而，在高维设置下，现有技术在计算和内存方面的代价可能十分高昂。在这项工作中，我们提出了TT-WSINDy方法，该方法结合了非线性动力学多维近似（MANDy）和非线性动力学弱稀疏识别（WSINDy）两种方法的技术，并以张量列车（TT）格式实现所需的计算。我们证明了该方法能够在指数增长的候选函数空间中进行搜索——执行弱形式变换、回归和稀疏化——而不会遭受维数灾难的影响。",
+    "tldr": "本文提出TT-WSINDy方法，通过张量列车格式结合MANDy和WSINDy技术，实现对指数增长的候选函数空间的高效搜索，从而避免维数灾难并完成高维非线性动力学的数据驱动识别。",
+    "en_tdlr": "TT-WSINDy combines MANDy and WSINDy techniques using tensor-train format to identify high-dimensional nonlinear dynamics, efficiently searching an exponentially-growing space of candidate functions without suffering from the curse of dimensionality."
+}

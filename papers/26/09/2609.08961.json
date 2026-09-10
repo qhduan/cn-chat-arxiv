@@ -1,0 +1,12 @@
+{
+    "title": "Fitting and Learning Basis-Restricted Propositional Formulas",
+    "abstract": "arXiv:2609.08961v1 Announce Type: cross  Abstract: For a finite set $O$ of Boolean functions, we consider the class of propositional formulas built using the functions in $O$ as connectives. We determine, for each possible choice of $O$, the complexity of various fitting and learning problems. These include: finding a formula that fits a given labeled sample, finding a small one (an Occam algorithm), minimizing the number of misclassified examples when the sample is not realizable (empirical risk minimization), and several forms of PAC learning. Our results apply both to formulas (represented as trees) and to circuits. We also briefly discuss the status of the same questions for other kinds of propositional fragments.",
+    "link": "https://arxiv.org/abs/2609.08961",
+    "context": "Title: Fitting and Learning Basis-Restricted Propositional Formulas\nAbstract: arXiv:2609.08961v1 Announce Type: cross  Abstract: For a finite set $O$ of Boolean functions, we consider the class of propositional formulas built using the functions in $O$ as connectives. We determine, for each possible choice of $O$, the complexity of various fitting and learning problems. These include: finding a formula that fits a given labeled sample, finding a small one (an Occam algorithm), minimizing the number of misclassified examples when the sample is not realizable (empirical risk minimization), and several forms of PAC learning. Our results apply both to formulas (represented as trees) and to circuits. We also briefly discuss the status of the same questions for other kinds of propositional fragments.",
+    "path": "papers/26/09/2609.08961.json",
+    "total_tokens": 1039,
+    "translated_title": "基受限命题公式的拟合与学习",
+    "translated_abstract": "对于一个由有限个布尔函数组成的集合 $O$，我们考虑使用 $O$ 中的函数作为连接词所构建的命题公式类。我们针对 $O$ 的每一种可能选择，确定了各种拟合问题和学习问题的计算复杂度。这些问题包括：找到一个能拟合给定标记样本的公式、找到一个小规模公式（即 Occam 算法）、当样本不可实现时最小化误分类样本的数量（即经验风险最小化），以及多种形式的 PAC 学习。我们的结果既适用于公式（表示为树的形式），也适用于电路。我们还简要讨论了相同问题在其他类型命题片段上的研究现状。",
+    "tldr": "本文系统确定了在任意有限布尔函数基下构建的命题公式（及电路）在拟合、Occam 学习、经验风险最小化和 PAC 学习等各类问题上的计算复杂度分类。",
+    "en_tdlr": "This paper systematically determines, for every finite basis of Boolean functions, the complexity of fitting, Occam learning, empirical risk minimization, and various PAC learning problems for basis-restricted propositional formulas and circuits."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Linear and Quadratic Discriminant Analysis: Tutorial",
+    "abstract": "arXiv:1906.02590v2 Announce Type: replace-cross  Abstract: This tutorial explains Linear Discriminant Analysis (LDA) and Quadratic Discriminant Analysis (QDA) as two fundamental classification methods in statistical and probabilistic learning. We start with the optimization of decision boundary on which the posteriors are equal. Then, LDA and QDA are derived for binary and multiple classes. The estimation of parameters in LDA and QDA are also covered. Then, we explain how LDA and QDA are related to metric learning, kernel principal component analysis, Mahalanobis distance, logistic regression, Bayes optimal classifier, Gaussian naive Bayes, and likelihood ratio test. We also prove that LDA and Fisher discriminant analysis are equivalent. We finally clarify some of the theoretical concepts with simulations we provide.",
+    "link": "https://arxiv.org/abs/1906.02590",
+    "context": "Title: Linear and Quadratic Discriminant Analysis: Tutorial\nAbstract: arXiv:1906.02590v2 Announce Type: replace-cross  Abstract: This tutorial explains Linear Discriminant Analysis (LDA) and Quadratic Discriminant Analysis (QDA) as two fundamental classification methods in statistical and probabilistic learning. We start with the optimization of decision boundary on which the posteriors are equal. Then, LDA and QDA are derived for binary and multiple classes. The estimation of parameters in LDA and QDA are also covered. Then, we explain how LDA and QDA are related to metric learning, kernel principal component analysis, Mahalanobis distance, logistic regression, Bayes optimal classifier, Gaussian naive Bayes, and likelihood ratio test. We also prove that LDA and Fisher discriminant analysis are equivalent. We finally clarify some of the theoretical concepts with simulations we provide.",
+    "path": "papers/19/06/1906.02590.json",
+    "total_tokens": 1013,
+    "translated_title": "线性判别分析与二次判别分析：教程",
+    "translated_abstract": "本教程将线性判别分析（LDA）和二次判别分析（QDA）作为统计与概率学习中的两种基本分类方法进行讲解。我们从后验概率相等的决策边界优化入手，然后针对二分类和多分类推导了LDA和QDA，并介绍了两者中参数的估计方法。接着，我们解释了LDA和QDA与度量学习、核主成分分析、马氏距离、逻辑回归、贝叶斯最优分类器、高斯朴素贝叶斯以及似然比检验之间的关系。我们还证明了LDA与Fisher判别分析是等价的。最后，我们通过提供的仿真实验阐明了部分理论概念。",
+    "tldr": "本教程系统讲解了LDA和QDA两种基本分类方法的决策边界优化、参数估计及其与多种机器学习方法的内在联系，并证明了LDA与Fisher判别分析的等价性。"
+}

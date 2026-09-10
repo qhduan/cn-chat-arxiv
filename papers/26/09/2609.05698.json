@@ -1,0 +1,12 @@
+{
+    "title": "Analysis of Respiratory Sinus Arrhythmia with Neural Networks",
+    "abstract": "arXiv:2609.05698v1 Announce Type: cross  Abstract: The paper introduces a neural network-based approach for analyzing ECG signals to estimate respiratory rate by leveraging the phe- nomenon of Respiratory Sinus Arrhythmia (RSA). Our method employs a deep learning model trained to predict respiratory waveforms directly from ECG input data. To achieve this, we developed and evaluated three different neural network architectures capable of automatically extract- ing relevant features from ECG signals without the need for manual preprocessing. The proposed approach offers a robust and scalable solu- tion for non-invasive respiratory monitoring, with potential applications in healthcare and wearable technology",
+    "link": "https://arxiv.org/abs/2609.05698",
+    "context": "Title: Analysis of Respiratory Sinus Arrhythmia with Neural Networks\nAbstract: arXiv:2609.05698v1 Announce Type: cross  Abstract: The paper introduces a neural network-based approach for analyzing ECG signals to estimate respiratory rate by leveraging the phe- nomenon of Respiratory Sinus Arrhythmia (RSA). Our method employs a deep learning model trained to predict respiratory waveforms directly from ECG input data. To achieve this, we developed and evaluated three different neural network architectures capable of automatically extract- ing relevant features from ECG signals without the need for manual preprocessing. The proposed approach offers a robust and scalable solu- tion for non-invasive respiratory monitoring, with potential applications in healthcare and wearable technology",
+    "path": "papers/26/09/2609.05698.json",
+    "total_tokens": 880,
+    "translated_title": "基于神经网络的呼吸性窦性心律不齐分析",
+    "translated_abstract": "本文介绍了一种基于神经网络的方法，通过利用呼吸性窦性心律不齐（RSA）现象来分析心电图（ECG）信号以估计呼吸频率。我们的方法采用经过训练的深度学习模型，可直接从ECG输入数据预测呼吸波形。为实现这一目标，我们开发并评估了三种不同的神经网络架构，这些架构能够自动从ECG信号中提取相关特征，无需人工预处理。所提出的方法为无创呼吸监测提供了一种强大且可扩展的解决方案，在医疗保健和可穿戴技术领域具有潜在的应用前景。",
+    "tldr": "本文开发了三种深度神经网络架构，利用呼吸性窦性心律不齐现象直接从心电图信号预测呼吸波形以估计呼吸频率，实现了无需人工预处理的稳健可扩展的无创呼吸监测方案。",
+    "en_tdlr": "This paper develops three neural network architectures that leverage Respiratory Sinus Arrhythmia to predict respiratory waveforms directly from ECG signals, enabling robust and scalable non-invasive respiratory rate monitoring without manual preprocessing."
+}

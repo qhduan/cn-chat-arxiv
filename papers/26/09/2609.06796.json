@@ -1,0 +1,12 @@
+{
+    "title": "Hardware Trojan Threats to Multi-Chiplet Photonic Neural Network Accelerators",
+    "abstract": "arXiv:2609.06796v1 Announce Type: cross  Abstract: Multi-chiplet photonic neural network accelerators (MCPNAs) combine photonic computation, photonic communica-tion, and heterogeneous chiplet integration to enable scalable and energy-efficient AI acceleration. However, their distributed archi-tecture and reliance on third-party chiplets introduce significant hardware security risks. This paper examines Hardware Trojan (HT) threats to MCPNAs across three dimensions: confidentiality, integrity, and availability.",
+    "link": "https://arxiv.org/abs/2609.06796",
+    "context": "Title: Hardware Trojan Threats to Multi-Chiplet Photonic Neural Network Accelerators\nAbstract: arXiv:2609.06796v1 Announce Type: cross  Abstract: Multi-chiplet photonic neural network accelerators (MCPNAs) combine photonic computation, photonic communica-tion, and heterogeneous chiplet integration to enable scalable and energy-efficient AI acceleration. However, their distributed archi-tecture and reliance on third-party chiplets introduce significant hardware security risks. This paper examines Hardware Trojan (HT) threats to MCPNAs across three dimensions: confidentiality, integrity, and availability.",
+    "path": "papers/26/09/2609.06796.json",
+    "total_tokens": 785,
+    "translated_title": "多芯粒光子神经网络加速器的硬件木马威胁",
+    "translated_abstract": "多芯粒光子神经网络加速器（MCPNA）结合了光子计算、光子通信和异构芯粒集成技术，能够实现可扩展且高能效的AI加速。然而，其分布式架构以及对第三方芯粒的依赖带来了重大的硬件安全风险。本文从机密性、完整性和可用性三个维度研究了针对MCPNA的硬件木马（HT）威胁。",
+    "tldr": "本文从机密性、完整性和可用性三个维度系统分析了多芯粒光子神经网络加速器所面临的硬件木马安全威胁。",
+    "en_tdlr": "This paper systematically examines Hardware Trojan threats to multi-chiplet photonic neural network accelerators across three security dimensions: confidentiality, integrity, and availability."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Topological Fraud Detection in Latent Transaction Spaces",
+    "abstract": "arXiv:2609.08445v1 Announce Type: new  Abstract: Working entirely on topologically anonymized embeddings, we perform fraud detection using iterative rounds of unsupervised filtering followed by supervised sniping. The result is an ultra-low latency privacy--preserving triage that allows institutions to flag suspicious activity without compromising Personally Identifiable Information.",
+    "link": "https://arxiv.org/abs/2609.08445",
+    "context": "Title: Topological Fraud Detection in Latent Transaction Spaces\nAbstract: arXiv:2609.08445v1 Announce Type: new  Abstract: Working entirely on topologically anonymized embeddings, we perform fraud detection using iterative rounds of unsupervised filtering followed by supervised sniping. The result is an ultra-low latency privacy--preserving triage that allows institutions to flag suspicious activity without compromising Personally Identifiable Information.",
+    "path": "papers/26/09/2609.08445.json",
+    "total_tokens": 644,
+    "translated_title": "潜在交易空间中的拓扑欺诈检测",
+    "translated_abstract": "我们完全在拓扑匿名化的嵌入表示上进行操作，通过迭代式的无监督过滤和随后的有监督精确识别来执行欺诈检测。最终成果是一套超低延迟、保护隐私的分诊系统，使各机构能够在不泄露个人身份信息（PII）的前提下标记可疑活动。",
+    "tldr": "该论文提出一种在拓扑匿名化嵌入空间中迭代结合无监督过滤与有监督精确识别的欺诈检测方法，实现超低延迟且不泄露个人身份信息的隐私保护交易筛查。",
+    "en_tdlr": "An iterative fraud detection framework combining unsupervised filtering with supervised targeting on topologically anonymized embeddings enables ultra-low latency, privacy-preserving transaction triage without exposing personally identifiable information."
+}

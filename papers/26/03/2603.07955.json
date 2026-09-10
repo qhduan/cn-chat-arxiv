@@ -1,0 +1,12 @@
+{
+    "title": "RL unknotter, hard unknots and unknotting number",
+    "abstract": "arXiv:2603.07955v4 Announce Type: replace-cross  Abstract: We develop a reinforcement learning pipeline for simplifying knot diagrams. A trained agent learns move proposals and a value heuristic for navigating Reidemeister moves. The pipeline applies to arbitrary knots and links; we test it on ``very hard'' unknot diagrams and, using diagram inflation, on $4_1\\#9_{10}$ where we investigate the recently established and surprising upper bound of three for the unknotting number. In addition, we explain a self-improving workbook-driven extension of the pipeline that systematically improves unknotting number upper bounds on the prime knots.",
+    "link": "https://arxiv.org/abs/2603.07955",
+    "context": "Title: RL unknotter, hard unknots and unknotting number\nAbstract: arXiv:2603.07955v4 Announce Type: replace-cross  Abstract: We develop a reinforcement learning pipeline for simplifying knot diagrams. A trained agent learns move proposals and a value heuristic for navigating Reidemeister moves. The pipeline applies to arbitrary knots and links; we test it on ``very hard'' unknot diagrams and, using diagram inflation, on $4_1\\#9_{10}$ where we investigate the recently established and surprising upper bound of three for the unknotting number. In addition, we explain a self-improving workbook-driven extension of the pipeline that systematically improves unknotting number upper bounds on the prime knots.",
+    "path": "papers/26/03/2603.07955.json",
+    "total_tokens": 1123,
+    "translated_title": "强化学习解结器、困难平凡纽结与解结数",
+    "translated_abstract": "我们开发了一个用于简化纽结图的强化学习流水线。经过训练的智能体学习移动建议和价值启发式方法，以执行Reidemeister移动。该流水线适用于任意纽结和链环；我们在“非常困难”的平凡纽结图上对其进行测试，并利用图膨胀方法在 $4_1\\#9_{10}$ 上进行测试，其中我们研究了最近确立的令人惊讶的解结数上界3。此外，我们阐述了一种基于工作簿驱动的自改进流水线扩展，该扩展系统地改进了素纽结的解结数上界。",
+    "tldr": "本文开发了基于强化学习的纽结图简化流水线，智能体通过学习Reidemeister移动策略成功解开“非常困难”的平凡纽结图，并通过自改进的工作簿驱动扩展系统性地改进了素纽结解结数的上界。",
+    "en_tdlr": "A reinforcement learning pipeline is developed for simplifying knot diagrams, where a trained agent successfully untangles \"very hard\" unknots and a self-improving workbook-driven extension systematically improves unknotting number upper bounds for prime knots."
+}

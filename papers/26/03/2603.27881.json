@@ -1,0 +1,11 @@
+{
+    "title": "A Simple and Powerful Diagnostic Test for Binary Choice Models",
+    "abstract": "arXiv:2603.27881v2 Announce Type: replace  Abstract: Conventional binary choice models, such as probit and logit, impose thin-tailed errors, and that tail determines whether the parameters of a binary choice model can be estimated at the regular rate. We test the restriction on observables, asking whether the conditional choice probability decays at a polynomial rate in a covariate. Identification of tail heaviness requires no independence, no linear index, and no homoskedasticity. The test is simple to implement and attains nearly the point-optimal power envelope among invariant tests. An application to firm innovation decisions rejects the thin tail.",
+    "link": "https://arxiv.org/abs/2603.27881",
+    "context": "Title: A Simple and Powerful Diagnostic Test for Binary Choice Models\nAbstract: arXiv:2603.27881v2 Announce Type: replace  Abstract: Conventional binary choice models, such as probit and logit, impose thin-tailed errors, and that tail determines whether the parameters of a binary choice model can be estimated at the regular rate. We test the restriction on observables, asking whether the conditional choice probability decays at a polynomial rate in a covariate. Identification of tail heaviness requires no independence, no linear index, and no homoskedasticity. The test is simple to implement and attains nearly the point-optimal power envelope among invariant tests. An application to firm innovation decisions rejects the thin tail.",
+    "path": "papers/26/03/2603.27881.json",
+    "total_tokens": 923,
+    "translated_title": "一个针对二元选择模型的简单而强大的诊断检验",
+    "translated_abstract": "传统的二元选择模型（如probit和logit模型）施加了薄尾误差假设，而误差尾部决定了二元选择模型的参数能否以常规速率进行估计。我们针对可观测变量上的这一约束进行检验，考察条件选择概率是否随某个协变量以多项式速率衰减。尾部厚度的识别无需独立性假设、无需线性指数形式、也无需同方差性。该检验实施简单，并且在不变检验类中几乎达到了点最优功效包络。在关于企业创新决策的一项应用中，该检验拒绝了薄尾假设。",
+    "tldr": "本文提出一种检验二元选择模型薄尾误差约束的简单诊断方法，其识别尾部厚度无需独立性、线性指数或同方差假设，且在不变检验中几乎达到点最优检验功效。"
+}

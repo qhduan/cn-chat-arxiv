@@ -1,0 +1,12 @@
+{
+    "title": "Physical policy gradient theorem for in situ stochastic-adjoint training",
+    "abstract": "arXiv:2609.05808v1 Announce Type: cross  Abstract: In situ adjoint training extracts parameter gradients directly from measurement, but has so far been limited to reciprocal or restricted systems. Here, we introduce the physical counterpart of the policy gradient theorem: a stochastic-adjoint gradient estimator that lifts these constraints by trading reciprocity for nondegenerate diffusion. As validation, we train a nonlinear resonator network, whose own dynamics supply the policy, against antagonistic temporal modulations with gradients from measured stochastic trajectories alone, without finite differences or a separate adjoint experiment.",
+    "link": "https://arxiv.org/abs/2609.05808",
+    "context": "Title: Physical policy gradient theorem for in situ stochastic-adjoint training\nAbstract: arXiv:2609.05808v1 Announce Type: cross  Abstract: In situ adjoint training extracts parameter gradients directly from measurement, but has so far been limited to reciprocal or restricted systems. Here, we introduce the physical counterpart of the policy gradient theorem: a stochastic-adjoint gradient estimator that lifts these constraints by trading reciprocity for nondegenerate diffusion. As validation, we train a nonlinear resonator network, whose own dynamics supply the policy, against antagonistic temporal modulations with gradients from measured stochastic trajectories alone, without finite differences or a separate adjoint experiment.",
+    "path": "papers/26/09/2609.05808.json",
+    "total_tokens": 948,
+    "translated_title": "用于原位随机伴随训练的物理策略梯度定理",
+    "translated_abstract": "原位伴随训练可以直接从测量中提取参数梯度，但迄今为止仅限于互易系统或受限系统。在本文中，我们引入了策略梯度定理的物理对应形式：一种随机伴随梯度估计器，它通过用非简并扩散替代互易性来解除这些限制。作为验证，我们训练了一个非线性谐振器网络——其自身动力学充当策略——仅利用从测量的随机轨迹中获得的梯度来对抗拮抗性时间调制，而无需有限差分或单独的伴随实验。",
+    "tldr": "本文提出了策略梯度定理的物理对应形式——一种随机伴随梯度估计器，通过用非简并扩散取代互易性限制，仅凭测量得到的随机轨迹即可直接从物理系统中原位提取参数梯度，并在非线性谐振器网络上成功实现了训练。",
+    "en_tdlr": "This paper introduces the physical counterpart of the policy gradient theorem—a stochastic-adjoint gradient estimator that lifts reciprocity constraints by leveraging nondegenerate diffusion, enabling in situ parameter-gradient extraction directly from measured stochastic trajectories, validated on a nonlinear resonator network."
+}
