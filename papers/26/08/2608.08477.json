@@ -1,0 +1,12 @@
+{
+    "title": "VectraYX-Vision-1B: A Sub-2B Spanish/LATAM Cybersecurity Vision-Language Model with Structured Visual Reasoning and Native Tool Use",
+    "abstract": "arXiv:2608.08477v3 Announce Type: replace  Abstract: 25 pages, 1 figure, 10 tables. v3: transplanting a natively-trained visual tower (Qwen2-VL) onto the same frozen decoder takes the failing 8-nibble address field from 0.00 to 0.81 exact, at a coarser token budget than 2x2 tiling, refuting resolution as the operative variable. Second pre-registered field found 63% contaminated, demoted. B6/B7 tool-id remains at floor. Code/checkpoints on HF.",
+    "link": "https://arxiv.org/abs/2608.08477",
+    "context": "Title: VectraYX-Vision-1B: A Sub-2B Spanish/LATAM Cybersecurity Vision-Language Model with Structured Visual Reasoning and Native Tool Use\nAbstract: arXiv:2608.08477v3 Announce Type: replace  Abstract: 25 pages, 1 figure, 10 tables. v3: transplanting a natively-trained visual tower (Qwen2-VL) onto the same frozen decoder takes the failing 8-nibble address field from 0.00 to 0.81 exact, at a coarser token budget than 2x2 tiling, refuting resolution as the operative variable. Second pre-registered field found 63% contaminated, demoted. B6/B7 tool-id remains at floor. Code/checkpoints on HF.",
+    "path": "papers/26/08/2608.08477.json",
+    "total_tokens": 1484,
+    "translated_title": "VectraYX-Vision-1B：一个具有结构化视觉推理与原生工具使用能力的、参数量小于2B的西班牙语/拉美地区网络安全视觉语言模型",
+    "translated_abstract": "arXiv:2608.08477v3 公告类型：替换 摘要：25页，1幅图，10个表格。v3版本：将一个原生训练的视觉塔（Qwen2-VL）移植到相同的冻结解码器上，使原本完全失败的8个半字节（nibble）地址字段的精确匹配率从0.00提升至0.81，且所用的token预算比2x2平铺方案更粗糙，这一结果驳斥了分辨率是关键操作变量的假设。第二个预注册字段被发现存在63%的数据污染，已被降级处理。B6/B7工具识别仍停留在最低水平。代码和模型检查点已发布在Hugging Face上。",
+    "tldr": "v3版本将原生训练的Qwen2-VL视觉塔移植到同一冻结解码器上，使原本失败的8半字节地址字段精确率从0.00跃升至0.81，且token预算比2x2平铺更粗糙，证明分辨率并非关键变量。",
+    "en_tdlr": "v3 transplants a natively-trained Qwen2-VL visual tower onto the same frozen decoder, lifting the failing 8-nibble address field from 0.00 to 0.81 exact at a coarser token budget than 2x2 tiling, refuting resolution as the operative variable."
+}

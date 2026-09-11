@@ -1,0 +1,12 @@
+{
+    "title": "AI Safety: Not Optional, Not Later",
+    "abstract": "arXiv:2609.10630v1 Announce Type: new  Abstract: Incidents show that AI safety failures often arise across multiple layers. We present a safety-by-design assurance architecture combining model-level supervision, such as Scientist AI, with system-level controls over scaffolds and harnesses, independent verification, monitoring, and evidence infrastructure, supported by governance for accountability and evidence interoperability.",
+    "link": "https://arxiv.org/abs/2609.10630",
+    "context": "Title: AI Safety: Not Optional, Not Later\nAbstract: arXiv:2609.10630v1 Announce Type: new  Abstract: Incidents show that AI safety failures often arise across multiple layers. We present a safety-by-design assurance architecture combining model-level supervision, such as Scientist AI, with system-level controls over scaffolds and harnesses, independent verification, monitoring, and evidence infrastructure, supported by governance for accountability and evidence interoperability.",
+    "path": "papers/26/09/2609.10630.json",
+    "total_tokens": 694,
+    "translated_title": "AI安全：不是可选项，也不能再等",
+    "translated_abstract": "各类事故表明，AI安全失效往往跨越多个层面同时发生。我们提出了一种“安全即设计”的保证架构，将模型层面的监督（如Scientist AI）与系统层面对脚手架和工具框架的控制相结合，并辅以独立验证、监控和证据基础设施，同时由治理机制提供问责制和证据互操作性支持。",
+    "tldr": "论文提出一种“安全即设计”的多层次AI安全保证架构，通过结合模型级监督与系统级控制，并辅以独立验证、监控、证据基础设施和治理机制，全面保障AI系统安全。",
+    "en_tdlr": "This paper proposes a safety-by-design assurance architecture that combines model-level supervision with system-level controls over scaffolds and harnesses, supported by independent verification, monitoring, evidence infrastructure, and governance for accountability and evidence interoperability."
+}

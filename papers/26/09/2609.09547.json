@@ -1,0 +1,11 @@
+{
+    "title": "A Statistical Approach to Estimating Sample Size of Machine Learning Models",
+    "abstract": "arXiv:2609.09547v1 Announce Type: cross  Abstract: Sample size determination for machine learning (ML) prediction models is challenging because conventional power analysis typically requires the predictor-outcome relationship and effect structure to be specified a priori. Nonlinear ML models learn complex prediction surfaces that do not admit straightforward analytical power calculations. We propose a framework that approximates nonlinear ML models with localized linear representations and estimates sample size requirements by evaluating statistical power across these local regions.",
+    "link": "https://arxiv.org/abs/2609.09547",
+    "context": "Title: A Statistical Approach to Estimating Sample Size of Machine Learning Models\nAbstract: arXiv:2609.09547v1 Announce Type: cross  Abstract: Sample size determination for machine learning (ML) prediction models is challenging because conventional power analysis typically requires the predictor-outcome relationship and effect structure to be specified a priori. Nonlinear ML models learn complex prediction surfaces that do not admit straightforward analytical power calculations. We propose a framework that approximates nonlinear ML models with localized linear representations and estimates sample size requirements by evaluating statistical power across these local regions.",
+    "path": "papers/26/09/2609.09547.json",
+    "total_tokens": 729,
+    "translated_title": "一种估计机器学习模型样本量的统计方法",
+    "translated_abstract": "机器学习（ML）预测模型的样本量确定具有挑战性，因为传统的功效分析通常需要预先指定预测变量与结果之间的关系以及效应结构。非线性机器学习模型学习复杂的预测面，无法进行直接的分析性功效计算。我们提出了一个框架，该框架用局部线性表示来近似非线性机器学习模型，并通过评估这些局部区域上的统计功效来估计样本量需求。",
+    "tldr": "本文提出了一种通过局部线性表示近似非线性机器学习模型、并在各局部区域评估统计功效来估计所需样本量的统计框架。"
+}

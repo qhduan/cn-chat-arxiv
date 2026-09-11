@@ -1,0 +1,12 @@
+{
+    "title": "Efficient Leakage-Free Neural Architecture Search under Leave-One-Subject-Out Evaluation",
+    "abstract": "arXiv:2609.09433v1 Announce Type: cross  Abstract: Leave-One-Subject-Out (LOSO) evaluation estimates generalisation performance for subject-based classification but makes Neural Architecture Search (NAS) computationally expensive because a fully nested implementation requires N independent architecture searches and, assuming approximately linear training cost, scales as O(N^2). We propose a leakage-free, block-based approach that shares NAS runs across subjects. On the BioVid Heat Pain dataset, our approach increased the mean accuracy from 82.79% to 83.39% while reducing the number of parameters by up to 99.2%.",
+    "link": "https://arxiv.org/abs/2609.09433",
+    "context": "Title: Efficient Leakage-Free Neural Architecture Search under Leave-One-Subject-Out Evaluation\nAbstract: arXiv:2609.09433v1 Announce Type: cross  Abstract: Leave-One-Subject-Out (LOSO) evaluation estimates generalisation performance for subject-based classification but makes Neural Architecture Search (NAS) computationally expensive because a fully nested implementation requires N independent architecture searches and, assuming approximately linear training cost, scales as O(N^2). We propose a leakage-free, block-based approach that shares NAS runs across subjects. On the BioVid Heat Pain dataset, our approach increased the mean accuracy from 82.79% to 83.39% while reducing the number of parameters by up to 99.2%.",
+    "path": "papers/26/09/2609.09433.json",
+    "total_tokens": 1020,
+    "translated_title": "留一被试评估下高效的无泄漏神经架构搜索",
+    "translated_abstract": "留一被试（LOSO）评估用于估计基于被试分类的泛化性能，但它使得神经架构搜索（NAS）的计算成本极为高昂，因为完全嵌套的实现需要对N个被试分别进行独立的架构搜索，并且在假设训练成本近似线性的情况下，其复杂度达O(N^2)。我们提出了一种无泄漏的、基于分块的方法，可在不同被试之间共享NAS搜索运行结果。在BioVid热痛数据集上，我们的方法将平均准确率从82.79%提升至83.39%，同时将参数数量最多减少了99.2%。",
+    "tldr": "提出一种无泄漏的分块式神经架构搜索方法，通过在留一被试评估中跨被试共享搜索结果，将BioVid热痛数据集上的平均准确率从82.79%提升至83.39%，同时参数量最多减少99.2%。",
+    "en_tdlr": "A leakage-free, block-based NAS approach that shares search runs across subjects under LOSO evaluation improves mean accuracy from 82.79% to 83.39% on the BioVid Heat Pain dataset while reducing parameters by up to 99.2%."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Deep Learning-based Bug Triage System",
+    "abstract": "arXiv:2609.11420v1 Announce Type: new  Abstract: Effective bug triage is crucial for streamlining the software development lifecycle by accurately categorizing and assigning reported software defects. In this paper, we propose an automated bug triage system built upon the pre-trained RoBERTa-base transformer architecture. By leveraging deep contextual representations, our approach efficiently classifies incoming bug reports to optimize assignment. Experimental evaluation demonstrates that the proposed system achieves a strong bug identification accuracy of 0.90 within just five training epochs. These findings highlight the efficiency and high performance of fine-tuned transformer models for practical software engineering automation.",
+    "link": "https://arxiv.org/abs/2609.11420",
+    "context": "Title: Deep Learning-based Bug Triage System\nAbstract: arXiv:2609.11420v1 Announce Type: new  Abstract: Effective bug triage is crucial for streamlining the software development lifecycle by accurately categorizing and assigning reported software defects. In this paper, we propose an automated bug triage system built upon the pre-trained RoBERTa-base transformer architecture. By leveraging deep contextual representations, our approach efficiently classifies incoming bug reports to optimize assignment. Experimental evaluation demonstrates that the proposed system achieves a strong bug identification accuracy of 0.90 within just five training epochs. These findings highlight the efficiency and high performance of fine-tuned transformer models for practical software engineering automation.",
+    "path": "papers/26/09/2609.11420.json",
+    "total_tokens": 848,
+    "translated_title": "基于深度学习的缺陷分诊系统",
+    "translated_abstract": "有效的缺陷分诊通过准确分类和分配报告的软件缺陷，对于简化软件开发生命周期至关重要。本文提出了一种基于预训练RoBERTa-base transformer架构的自动化缺陷分诊系统。通过利用深度上下文表示，我们的方法能够高效地对传入的缺陷报告进行分类以优化分配。实验评估表明，所提出的系统仅用五个训练周期就实现了0.90的高缺陷识别准确率。这些发现凸显了微调transformer模型在实际软件工程自动化中的效率和高性能。",
+    "tldr": "本文提出一种基于预训练RoBERTa-base的自动化缺陷分诊系统，仅用五个训练周期即可达到0.90的缺陷识别准确率，展示了微调transformer模型在软件工程自动化中的高效性与高性能。",
+    "en_tdlr": "This paper proposes an automated bug triage system built on pre-trained RoBERTa-base that achieves 0.90 bug identification accuracy within just five training epochs, demonstrating the efficiency and high performance of fine-tuned transformer models for software engineering automation."
+}

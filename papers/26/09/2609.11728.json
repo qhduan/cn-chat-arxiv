@@ -1,0 +1,12 @@
+{
+    "title": "Reproducibility in the Age of Agentic AI: Context Engineering at the Timescale of a Codebase",
+    "abstract": "arXiv:2609.11728v1 Announce Type: new  Abstract: Reproducible research practices are context engineering for AI coding agents. I argue that agents lower the cost of maintaining tests, commit histories, repository structure, instructions, and decision records while making their benefits immediate. Researchers remain responsible for verifying these artifacts and the scientific judgments they encode.",
+    "link": "https://arxiv.org/abs/2609.11728",
+    "context": "Title: Reproducibility in the Age of Agentic AI: Context Engineering at the Timescale of a Codebase\nAbstract: arXiv:2609.11728v1 Announce Type: new  Abstract: Reproducible research practices are context engineering for AI coding agents. I argue that agents lower the cost of maintaining tests, commit histories, repository structure, instructions, and decision records while making their benefits immediate. Researchers remain responsible for verifying these artifacts and the scientific judgments they encode.",
+    "path": "papers/26/09/2609.11728.json",
+    "total_tokens": 802,
+    "translated_title": "智能体AI时代的可复现性：以代码库时间尺度进行的上下文工程",
+    "translated_abstract": "可复现的研究实践本身就是为AI编码智能体进行的上下文工程。我认为，智能体降低了维护测试、提交历史、仓库结构、指令和决策记录的成本，同时使其收益立竿见影。研究人员仍然有责任验证这些工件以及它们所编码的科学判断。",
+    "tldr": "本文提出可复现研究实践本质上就是为AI编码智能体进行的上下文工程，智能体降低了维护测试、提交历史和决策记录等科研工件的成本并使收益即时化，但研究人员仍需承担验证这些工件及其科学判断的责任。",
+    "en_tdlr": "This paper argues that reproducible research practices are fundamentally context engineering for AI coding agents, as agents lower the cost of maintaining tests, commit histories, and decision records while researchers remain responsible for verifying these artifacts and their scientific judgments."
+}

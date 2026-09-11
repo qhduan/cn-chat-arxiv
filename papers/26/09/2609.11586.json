@@ -1,0 +1,12 @@
+{
+    "title": "Short-maturity skew stickiness ratio under local volatility",
+    "abstract": "arXiv:2609.11586v1 Announce Type: cross  Abstract: We prove that the skew stickiness ratio converges to two at short maturity under local volatility models. This appears to be the first rigorous proof of this limit for a general time-dependent local volatility function. As a by-product, we strengthen the one-half rule of the implied volatility skew by removing uniform ellipticity and global bounds on spatial derivatives of order at least two. The proof uses a first-order Watanabe expansion.",
+    "link": "https://arxiv.org/abs/2609.11586",
+    "context": "Title: Short-maturity skew stickiness ratio under local volatility\nAbstract: arXiv:2609.11586v1 Announce Type: cross  Abstract: We prove that the skew stickiness ratio converges to two at short maturity under local volatility models. This appears to be the first rigorous proof of this limit for a general time-dependent local volatility function. As a by-product, we strengthen the one-half rule of the implied volatility skew by removing uniform ellipticity and global bounds on spatial derivatives of order at least two. The proof uses a first-order Watanabe expansion.",
+    "path": "papers/26/09/2609.11586.json",
+    "total_tokens": 824,
+    "translated_title": "局部波动率模型下的短期限偏度粘性比率",
+    "translated_abstract": "我们证明了在局部波动率模型下，偏度粘性比率在短期限内收敛于2。这似乎是首次对一般的时间依赖局部波动率函数严格证明该极限。作为副产品，我们通过去除一致椭圆性条件以及阶数至少为二的空间导数的全局界，强化了隐含波动率偏度的二分之一法则。证明采用了一阶Watanabe展开。",
+    "tldr": "本文首次严格证明了在一般时间依赖的局部波动率模型下，短期限偏度粘性比率收敛于2，并由此强化了隐含波动率偏度的二分之一法则。",
+    "en_tdlr": "This paper provides the first rigorous proof that the skew stickiness ratio converges to two at short maturity under general time-dependent local volatility models, thereby strengthening the one-half rule of the implied volatility skew."
+}

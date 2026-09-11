@@ -1,0 +1,12 @@
+{
+    "title": "Fundamental Properties of Linear Factor Models",
+    "abstract": "arXiv:2409.02521v4 Announce Type: replace  Abstract: We characterize the loading matrices that admit a conditional linear factor representation for excess returns in which the factors are traded, residual risk is unpriced, and the loadings are the betas of the factors. The characterization is a joint restriction on the loadings, the risk premia, and the second moment matrix of returns. It requires no rank assumptions, and exactly one traded factor representation attains it for given loadings: the moment-weighted factor portfolios. On Fama--French panels, characteristic loadings differ from the regression loadings of their factors by 19 to 48 percent of their size, at every estimation window.",
+    "link": "https://arxiv.org/abs/2409.02521",
+    "context": "Title: Fundamental Properties of Linear Factor Models\nAbstract: arXiv:2409.02521v4 Announce Type: replace  Abstract: We characterize the loading matrices that admit a conditional linear factor representation for excess returns in which the factors are traded, residual risk is unpriced, and the loadings are the betas of the factors. The characterization is a joint restriction on the loadings, the risk premia, and the second moment matrix of returns. It requires no rank assumptions, and exactly one traded factor representation attains it for given loadings: the moment-weighted factor portfolios. On Fama--French panels, characteristic loadings differ from the regression loadings of their factors by 19 to 48 percent of their size, at every estimation window.",
+    "path": "papers/24/09/2409.02521.json",
+    "total_tokens": 915,
+    "translated_title": "线性因子模型的基本性质",
+    "translated_abstract": "我们刻画了那些允许对超额收益进行条件线性因子表示的载荷矩阵，其中因子是可交易的、残余风险不被定价、且载荷即为各因子的贝塔值。该刻画是对载荷、风险溢价以及收益二阶矩矩阵的联合约束，无需任何秩假设；且对于给定的载荷，恰好只有一种可交易因子表示能够满足该条件，即矩加权因子组合。在Fama-French面板数据上，特征载荷与其对应因子的回归载荷之差达到其自身大小的19%至48%，且在每个估计窗口均如此。",
+    "tldr": "本文刻画了使超额收益具有可交易因子的条件线性因子表示所需的载荷矩阵联合约束条件，该条件无需秩假设，并证明矩加权因子组合是唯一满足该条件的因子表示。",
+    "en_tdlr": "This paper characterizes the joint restriction on loadings, risk premia, and second moment matrices under which excess returns admit a traded-factor conditional linear factor representation—requiring no rank assumptions—and shows that moment-weighted factor portfolios are the unique representation attaining it."
+}

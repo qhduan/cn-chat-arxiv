@@ -1,0 +1,12 @@
+{
+    "title": "Group Quantization and Mellin Representations of the Heston Model",
+    "abstract": "arXiv:2606.13992v2 Announce Type: replace  Abstract: We develop an Affine Holonomy Group Quantization framework for the Heston stochastic volatility model. The Heston affine pricing symbol is decomposed into a finite symplectic quadratic sector and a complementary holonomy sector, leading to a Poincare-Cartan form whose characteristic flow yields the affine Riccati dynamics. Momentum polarization gives a Mellin pricing representation, while the Riccati equation admits a projective linearization. The resulting option pricing formula is validated numerically against the standard Heston solution, and the Black-Scholes model is recovered as a limiting case.",
+    "link": "https://arxiv.org/abs/2606.13992",
+    "context": "Title: Group Quantization and Mellin Representations of the Heston Model\nAbstract: arXiv:2606.13992v2 Announce Type: replace  Abstract: We develop an Affine Holonomy Group Quantization framework for the Heston stochastic volatility model. The Heston affine pricing symbol is decomposed into a finite symplectic quadratic sector and a complementary holonomy sector, leading to a Poincare-Cartan form whose characteristic flow yields the affine Riccati dynamics. Momentum polarization gives a Mellin pricing representation, while the Riccati equation admits a projective linearization. The resulting option pricing formula is validated numerically against the standard Heston solution, and the Black-Scholes model is recovered as a limiting case.",
+    "path": "papers/26/06/2606.13992.json",
+    "total_tokens": 932,
+    "translated_title": "Heston模型的群量子化与Mellin表示",
+    "translated_abstract": "我们为Heston随机波动率模型建立了一个仿射和乐群量子化框架。Heston仿射定价符号被分解为一个有限的辛二次扇区和一个互补的和乐扇区，由此得到一个庞加莱-嘉当形式，其特征流生成仿射里卡蒂动力学。通过动量极化可获得Mellin定价表示，同时里卡蒂方程容许一个射影线性化。所得的期权定价公式经数值验证与标准Heston解相符，且Black-Scholes模型可作为极限情形被恢复。",
+    "tldr": "本文为Heston随机波动率模型提出仿射和乐群量子化框架，将仿射定价符号分解为辛二次扇区与和乐扇区，从而导出Mellin定价表示及里卡蒂方程的射影线性化，所得期权定价公式经数值验证并可恢复Black-Scholes极限。",
+    "en_tdlr": "This paper develops an Affine Holonomy Group Quantization framework for the Heston model, decomposing the affine pricing symbol into symplectic quadratic and holonomy sectors to derive a Mellin pricing representation and a projective linearization of the Riccati equation, with the resulting option pricing formula numerically validated and recovering Black-Scholes as a limiting case."
+}

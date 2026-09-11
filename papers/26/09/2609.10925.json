@@ -1,0 +1,12 @@
+{
+    "title": "Identification in Linear Quantile Panel Models",
+    "abstract": "arXiv:2609.10925v1 Announce Type: new  Abstract: This paper studies identification in linear quantile panel models with unrestricted individual heterogeneity when the number of time periods is fixed and small. We impose strict exogeneity, whereby the conditional quantile restriction holds given the individual's complete regressor history and latent individual effect, but otherwise allow the disturbances to be arbitrarily dependent over time.",
+    "link": "https://arxiv.org/abs/2609.10925",
+    "context": "Title: Identification in Linear Quantile Panel Models\nAbstract: arXiv:2609.10925v1 Announce Type: new  Abstract: This paper studies identification in linear quantile panel models with unrestricted individual heterogeneity when the number of time periods is fixed and small. We impose strict exogeneity, whereby the conditional quantile restriction holds given the individual's complete regressor history and latent individual effect, but otherwise allow the disturbances to be arbitrarily dependent over time.",
+    "path": "papers/26/09/2609.10925.json",
+    "total_tokens": 700,
+    "translated_title": "线性分位数面板模型中的识别问题",
+    "translated_abstract": "本文研究了当时间期数固定且较少时，具有无限制个体异质性的线性分位数面板模型的识别问题。我们施加了严格外生性假设，即条件分位数约束在给定个体的完整回归变量历史和潜在个体效应的条件下成立，但除此之外，允许扰动项在时间上任意相关。",
+    "tldr": "本文在时间期数固定且较少、仅施加严格外生性假设（允许扰动项在时间上任意相关）的条件下，研究了具有无限制个体异质性的线性分位数面板模型的识别问题。",
+    "en_tdlr": "This paper establishes identification in linear quantile panel models with unrestricted individual heterogeneity under strict exogeneity, allowing arbitrarily time-dependent disturbances when the number of time periods is fixed and small."
+}

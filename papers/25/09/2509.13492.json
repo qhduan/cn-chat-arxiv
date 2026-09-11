@@ -1,0 +1,11 @@
+{
+    "title": "Generalized Covariance Estimator under Misspecification",
+    "abstract": "arXiv:2509.13492v2 Announce Type: replace  Abstract: This paper investigates the properties of the Generalized Covariance (GCov) estimator under misspecification with application to processes with local explosive patterns, such as causal-noncausal processes. We show that GCov is consistent and has an asymptotically Normal distribution under misspecification. Then, we construct GCov-based Wald-type and score-type tests to test one specification against the other, all of which follow a $\\chi^2$ distribution. We validate the finite-sample performance of the proposed estimators and tests in the context of causal-noncausal models. Finally, we provide applications of the noncausal model to the final energy demand commodity index.",
+    "link": "https://arxiv.org/abs/2509.13492",
+    "context": "Title: Generalized Covariance Estimator under Misspecification\nAbstract: arXiv:2509.13492v2 Announce Type: replace  Abstract: This paper investigates the properties of the Generalized Covariance (GCov) estimator under misspecification with application to processes with local explosive patterns, such as causal-noncausal processes. We show that GCov is consistent and has an asymptotically Normal distribution under misspecification. Then, we construct GCov-based Wald-type and score-type tests to test one specification against the other, all of which follow a $\\chi^2$ distribution. We validate the finite-sample performance of the proposed estimators and tests in the context of causal-noncausal models. Finally, we provide applications of the noncausal model to the final energy demand commodity index.",
+    "path": "papers/25/09/2509.13492.json",
+    "total_tokens": 1006,
+    "translated_title": "误设情形下的广义协方差估计量",
+    "translated_abstract": "本文研究了广义协方差（GCov）估计量在模型误设情形下的性质，并将其应用于具有局部爆炸性模式的过程，例如因果-非因果过程。我们证明了GCov在误设情形下仍具有一致性且服从渐近正态分布。随后，我们构建了基于GCov的Wald型检验和得分型检验，用于将一种设定与另一种设定进行检验，这些检验均服从χ²分布。我们在因果-非因果模型框架下验证了所提出的估计量和检验的有限样本表现。最后，我们将非因果模型应用于最终能源需求商品指数。",
+    "tldr": "本文证明了广义协方差估计量在模型误设情形下仍具有一致性和渐近正态性，并构建了服从χ²分布的Wald型和得分型检验以区分因果与非因果模型设定，可应用于具有局部爆炸模式的能源需求商品指数。"
+}

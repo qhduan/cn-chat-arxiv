@@ -1,0 +1,12 @@
+{
+    "title": "City Editing: Hierarchical Agentic Execution for Dependency-Aware Urban Geospatial Modification",
+    "abstract": "arXiv:2602.19326v3 Announce Type: replace-cross  Abstract: Urban renewal requires incremental modifications to existing geospatial plans, yet manually updating complex layouts under spatial constraints is labor-intensive and error-prone. To tackle this, we propose CEAE, a hierarchical agentic framework that formulates urban renewal as machine-executable GeoJSON editing from natural-language instructions. CEAE decomposes instructions into hierarchical geometric intents, executing edits from coarse to fine while preserving spatial consistency through a self-reflective execution-validation loop. Experimental results show that CEAE outperforms baselines in execution validity, robustness, and geometric accuracy.",
+    "link": "https://arxiv.org/abs/2602.19326",
+    "context": "Title: City Editing: Hierarchical Agentic Execution for Dependency-Aware Urban Geospatial Modification\nAbstract: arXiv:2602.19326v3 Announce Type: replace-cross  Abstract: Urban renewal requires incremental modifications to existing geospatial plans, yet manually updating complex layouts under spatial constraints is labor-intensive and error-prone. To tackle this, we propose CEAE, a hierarchical agentic framework that formulates urban renewal as machine-executable GeoJSON editing from natural-language instructions. CEAE decomposes instructions into hierarchical geometric intents, executing edits from coarse to fine while preserving spatial consistency through a self-reflective execution-validation loop. Experimental results show that CEAE outperforms baselines in execution validity, robustness, and geometric accuracy.",
+    "path": "papers/26/02/2602.19326.json",
+    "total_tokens": 922,
+    "translated_title": "城市编辑：面向依赖感知城市地理空间修改的分层智能体执行框架",
+    "translated_abstract": "城市更新需要对现有地理空间规划进行增量修改，然而在空间约束下手动更新复杂布局既费时费力又容易出错。为解决这一问题，我们提出了CEAE，一个分层智能体框架，它将城市更新形式化为从自然语言指令到机器可执行GeoJSON编辑的转换。CEAE将指令分解为分层几何意图，从粗到细地执行编辑，并通过自我反思的执行-验证循环保持空间一致性。实验结果表明，CEAE在执行有效性、鲁棒性和几何精度方面均优于基线方法。",
+    "tldr": "提出CEAE分层智能体框架，将自然语言指令分解为分层几何意图并转化为机器可执行的GeoJSON编辑，通过自我反思的执行-验证循环实现依赖感知且空间一致的城市地理空间增量修改。",
+    "en_tdlr": "CEAE, a hierarchical agentic framework, decomposes natural-language instructions into hierarchical geometric intents and executes machine-readable GeoJSON edits from coarse to fine, enabling dependency-aware and spatially consistent urban geospatial modification through a self-reflective execution-validation loop."
+}

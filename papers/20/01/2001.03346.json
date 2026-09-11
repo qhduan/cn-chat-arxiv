@@ -1,0 +1,12 @@
+{
+    "title": "Time-Varying Graph Learning with Constraints on Graph Temporal Variation",
+    "abstract": "arXiv:2001.03346v4 Announce Type: replace-cross  Abstract: We propose a novel framework for learning time-varying graphs from spatiotemporal measurements. Given an appropriate prior on the temporal behavior of signals, our proposed method can estimate time-varying graphs from a small number of available measurements. To achieve this, we introduce three regularization terms in convex optimization problems that constrain the sparseness of temporal variations of the time-varying networks. Moreover, a computationally scalable algorithm is introduced to solve the optimization problem efficiently. The experimental results with synthetic and real datasets (point cloud, temperature, and EEG data) demonstrate that our proposed method outperforms state-of-the-art methods.",
+    "link": "https://arxiv.org/abs/2001.03346",
+    "context": "Title: Time-Varying Graph Learning with Constraints on Graph Temporal Variation\nAbstract: arXiv:2001.03346v4 Announce Type: replace-cross  Abstract: We propose a novel framework for learning time-varying graphs from spatiotemporal measurements. Given an appropriate prior on the temporal behavior of signals, our proposed method can estimate time-varying graphs from a small number of available measurements. To achieve this, we introduce three regularization terms in convex optimization problems that constrain the sparseness of temporal variations of the time-varying networks. Moreover, a computationally scalable algorithm is introduced to solve the optimization problem efficiently. The experimental results with synthetic and real datasets (point cloud, temperature, and EEG data) demonstrate that our proposed method outperforms state-of-the-art methods.",
+    "path": "papers/20/01/2001.03346.json",
+    "total_tokens": 892,
+    "translated_title": "具有图时间变化约束的时变图学习",
+    "translated_abstract": "我们提出了一种从时空测量数据中学习时变图的新颖框架。在给定信号时间行为适当先验条件的情况下，我们提出的方法可以从少量可用的测量数据中估计时变图。为实现这一目标，我们在凸优化问题中引入了三个正则化项，用于约束时变网络时间变化的稀疏性。此外，我们还引入了一种计算上可扩展的算法来高效求解该优化问题。在合成数据集和真实数据集（点云、温度和脑电图数据）上的实验结果表明，我们提出的方法优于最先进的方法。",
+    "tldr": "提出了一种带有时变稀疏性约束的凸优化框架，可从少量时空测量数据中高效学习时变图结构，性能优于现有最先进方法。",
+    "en_tdlr": "Proposes a convex optimization framework with temporal variation sparsity constraints that efficiently learns time-varying graphs from a small number of spatiotemporal measurements, outperforming state-of-the-art methods."
+}

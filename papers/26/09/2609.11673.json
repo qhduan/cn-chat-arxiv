@@ -1,0 +1,12 @@
+{
+    "title": "Multimodal Taxonomic Conditioning for Generative Plankton Imagery",
+    "abstract": "arXiv:2609.11673v1 Announce Type: cross  Abstract: Automated plankton imaging produces severely long-tailed datasets, where the rare taxa of greatest ecological interest have too few images to train or evaluate classifiers reliably. We generate synthetic plankton imagery conditioned on taxonomy: a CLIP encoder is adapted on a large plankton corpus with a ranked contrastive objective extended to deep, ragged taxonomies, then frozen to condition a parameter-efficient diffusion transformer. We evaluate synthetic sample quality on distributional fidelity and downstream classifier utility.",
+    "link": "https://arxiv.org/abs/2609.11673",
+    "context": "Title: Multimodal Taxonomic Conditioning for Generative Plankton Imagery\nAbstract: arXiv:2609.11673v1 Announce Type: cross  Abstract: Automated plankton imaging produces severely long-tailed datasets, where the rare taxa of greatest ecological interest have too few images to train or evaluate classifiers reliably. We generate synthetic plankton imagery conditioned on taxonomy: a CLIP encoder is adapted on a large plankton corpus with a ranked contrastive objective extended to deep, ragged taxonomies, then frozen to condition a parameter-efficient diffusion transformer. We evaluate synthetic sample quality on distributional fidelity and downstream classifier utility.",
+    "path": "papers/26/09/2609.11673.json",
+    "total_tokens": 916,
+    "translated_title": "面向生成式浮游生物图像的多模态分类学条件控制",
+    "translated_abstract": "自动化浮游生物成像会产生严重的长尾数据集，其中最具生态价值的稀有类群因图像过少而无法可靠地训练或评估分类器。我们生成以分类学为条件的合成浮游生物图像：在一个大型浮游生物语料库上，采用扩展至深层次、不规则分类体系的排序对比目标对CLIP编码器进行适配，随后将其冻结，用于对参数高效的扩散Transformer进行条件控制。我们从分布保真度和下游分类器效用两个方面评估合成样本的质量。",
+    "tldr": "本文提出基于分类学条件控制的合成浮游生物图像生成方法，通过排序对比目标适配CLIP编码器并冻结后引导参数高效的扩散Transformer，以解决浮游生物成像长尾数据集中稀有类群图像稀缺的问题。",
+    "en_tdlr": "This paper proposes taxonomy-conditioned synthetic plankton image generation, using a CLIP encoder adapted with a ranked contrastive objective and frozen to condition a parameter-efficient diffusion transformer, addressing the scarcity of images for rare taxa in long-tailed plankton imaging datasets."
+}
