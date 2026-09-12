@@ -1,0 +1,12 @@
+{
+    "title": "A machine-checked proof of the Dong-Yang classification of optimal (n,4) binary codes for BSCs",
+    "abstract": "arXiv:2609.10579v1 Announce Type: cross  Abstract: We present a machine-checked Lean~4 formalization of Dong and Yang's classification of optimal finite-length $(n,4)$ binary block codes for binary symmetric channels. The formalization was developed mainly by feeding the paper's proofs to an AI tool. To establish correctness, the authors verified the main theorem statements in Lean and the accepted axioms. This note discusses the corrections and simplifications made to the AI-generated formalization, and records discrepancies found in the paper during the formalization. The Lean code is available at https://github.com/shhyang/n4code_lean.",
+    "link": "https://arxiv.org/abs/2609.10579",
+    "context": "Title: A machine-checked proof of the Dong-Yang classification of optimal (n,4) binary codes for BSCs\nAbstract: arXiv:2609.10579v1 Announce Type: cross  Abstract: We present a machine-checked Lean~4 formalization of Dong and Yang's classification of optimal finite-length $(n,4)$ binary block codes for binary symmetric channels. The formalization was developed mainly by feeding the paper's proofs to an AI tool. To establish correctness, the authors verified the main theorem statements in Lean and the accepted axioms. This note discusses the corrections and simplifications made to the AI-generated formalization, and records discrepancies found in the paper during the formalization. The Lean code is available at https://github.com/shhyang/n4code_lean.",
+    "path": "papers/26/09/2609.10579.json",
+    "total_tokens": 947,
+    "translated_title": "关于二进制对称信道最优 (n,4) 二进制码的 Dong-Yang 分类的机器检验证明",
+    "translated_abstract": "我们提出了 Dong 和 Yang 关于二进制对称信道最优有限长 $(n,4)$ 二进制分组码分类的 Lean 4 机器检验形式化。该形式化主要通过将论文中的证明输入 AI 工具来开发。为了确立正确性，作者在 Lean 中验证了主要定理陈述及所接受的公理。本文讨论了对 AI 生成的形式化所做的修正与简化，并记录了在形式化过程中发现的论文中的不一致之处。Lean 代码可在 https://github.com/shhyang/n4code_lean 获取。",
+    "tldr": "本文利用 AI 工具辅助开发了 Dong-Yang 二进制对称信道最优 (n,4) 二进制码分类定理的 Lean 4 机器检验形式化证明，并在过程中修正了 AI 生成代码的错误、发现了原论文中的不一致之处。",
+    "en_tdlr": "This paper presents an AI-assisted, machine-checked Lean 4 formalization of the Dong-Yang classification of optimal (n,4) binary codes for BSCs, correcting errors in the AI-generated proof and identifying discrepancies in the original paper."
+}
