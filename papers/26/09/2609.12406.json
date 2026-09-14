@@ -1,0 +1,12 @@
+{
+    "title": "Representation Multiplicity in Causal Forests",
+    "abstract": "arXiv:2609.12406v1 Announce Type: new  Abstract: Including covariates alongside strictly monotone encodings can change a causal forest's treatment decisions without adding information. Random feature selection favors covariates represented by multiple columns. Under stated conditions, I show that this imbalance can persist as samples grow. Treatment effect components associated with other covariates are omitted, attenuated, or recovered depending on their inclusion probabilities and tree depth. Simulations and a job-training replication illustrate sensitivity to redundant encodings. Sampling groups of variables that generate identical splits restores prediction invariance on the grouping data when fitting and randomization are held fixed.",
+    "link": "https://arxiv.org/abs/2609.12406",
+    "context": "Title: Representation Multiplicity in Causal Forests\nAbstract: arXiv:2609.12406v1 Announce Type: new  Abstract: Including covariates alongside strictly monotone encodings can change a causal forest's treatment decisions without adding information. Random feature selection favors covariates represented by multiple columns. Under stated conditions, I show that this imbalance can persist as samples grow. Treatment effect components associated with other covariates are omitted, attenuated, or recovered depending on their inclusion probabilities and tree depth. Simulations and a job-training replication illustrate sensitivity to redundant encodings. Sampling groups of variables that generate identical splits restores prediction invariance on the grouping data when fitting and randomization are held fixed.",
+    "path": "papers/26/09/2609.12406.json",
+    "total_tokens": 916,
+    "translated_title": "因果森林中的表示多重性",
+    "translated_abstract": "在因果森林中，将协变量与严格单调编码一同纳入，可能会在不增加任何信息的情况下改变因果森林的处理决策。随机特征选择会偏向由多列表示的协变量。在给定条件下，本文证明了这种不平衡会随着样本量的增长而持续存在。与其他协变量相关的处理效应成分会根据其被选中的概率和树的深度而被省略、衰减或恢复。模拟实验和一项职业培训研究的复现展示了对冗余编码的敏感性。当拟合和随机化保持固定时，对生成相同分裂的变量组进行抽样，可以在分组数据上恢复预测的不变性。",
+    "tldr": "本文揭示了因果森林中冗余编码会导致随机特征选择偏向多列表示的协变量，从而使处理效应估计产生随样本量持续存在的偏差，并提出对生成相同分裂的变量组进行抽样以恢复预测不变性。",
+    "en_tdlr": "This paper reveals that redundant encodings bias random feature selection in causal forests toward covariates represented by multiple columns, causing persistent estimation distortions, and shows that sampling groups of variables generating identical splits restores prediction invariance."
+}

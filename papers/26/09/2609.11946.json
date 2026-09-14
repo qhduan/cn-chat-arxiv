@@ -1,0 +1,12 @@
+{
+    "title": "Hyperion: An AI-powered HPC cluster for sciences and humanities research that utilizes ML for predicting job turnaround time",
+    "abstract": "arXiv:2609.11946v1 Announce Type: cross  Abstract: Hyperion is an innovative high-performance computing (HPC) cluster developed for researchers in both science and humanities disciplines at the University of South Carolina (USC). Our approach involved constructing a HPC cluster designed to meet the current research needs while accommodating future expansion. Additionally, we developed and trained two machine learning (ML) models to predict turnaround time, including wait time and wall time, and seamlessly integrated them into the Slurm job submission. Finally, we showcase a variety of sample applications hosted on the Hyperion platform.",
+    "link": "https://arxiv.org/abs/2609.11946",
+    "context": "Title: Hyperion: An AI-powered HPC cluster for sciences and humanities research that utilizes ML for predicting job turnaround time\nAbstract: arXiv:2609.11946v1 Announce Type: cross  Abstract: Hyperion is an innovative high-performance computing (HPC) cluster developed for researchers in both science and humanities disciplines at the University of South Carolina (USC). Our approach involved constructing a HPC cluster designed to meet the current research needs while accommodating future expansion. Additionally, we developed and trained two machine learning (ML) models to predict turnaround time, including wait time and wall time, and seamlessly integrated them into the Slurm job submission. Finally, we showcase a variety of sample applications hosted on the Hyperion platform.",
+    "path": "papers/26/09/2609.11946.json",
+    "total_tokens": 871,
+    "translated_title": "Hyperion：一个面向科学与人文研究的AI驱动HPC集群，利用机器学习预测作业周转时间",
+    "translated_abstract": "Hyperion是南卡罗来纳大学（USC）为科学和人文学科研究人员开发的一个创新型高性能计算（HPC）集群。我们的方法是构建一个既能满足当前研究需求又能适应未来扩展的HPC集群。此外，我们开发并训练了两个机器学习（ML）模型来预测作业周转时间，包括等待时间和实际运行时间，并将其无缝集成到Slurm作业提交系统中。最后，我们展示了托管在Hyperion平台上的多种示例应用。",
+    "tldr": "南卡罗来纳大学开发了面向科学与人文研究的AI驱动HPC集群Hyperion，并训练机器学习模型预测作业周转时间，将其无缝集成到Slurm作业提交系统中。",
+    "en_tdlr": "Hyperion is an AI-powered HPC cluster at the University of South Carolina for science and humanities research, featuring ML models that predict job turnaround time and are seamlessly integrated into the Slurm job submission system."
+}

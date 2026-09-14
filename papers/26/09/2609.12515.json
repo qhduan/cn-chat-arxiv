@@ -1,0 +1,11 @@
+{
+    "title": "Arbitrage in Estimate Nothing: an example",
+    "abstract": "arXiv:2609.12515v1 Announce Type: new  Abstract: We give a two-period counterexample to the absence of arbitrage for the posterior-weighted pricing rule in Estimate nothing by Duembgen and Rogers. Both physical models have strictly positive transition densities, and each model is equipped with an equivalent martingale measure. Nevertheless, the mixed price of a single derivative falls deterministically from $5/2$ to $2$ between two trading dates. If these prices are tradable, shorting the derivative and closing the position one period later yields a certain profit. A finite-state appendix also illustrates the failure of recursive consistency.",
+    "link": "https://arxiv.org/abs/2609.12515",
+    "context": "Title: Arbitrage in Estimate Nothing: an example\nAbstract: arXiv:2609.12515v1 Announce Type: new  Abstract: We give a two-period counterexample to the absence of arbitrage for the posterior-weighted pricing rule in Estimate nothing by Duembgen and Rogers. Both physical models have strictly positive transition densities, and each model is equipped with an equivalent martingale measure. Nevertheless, the mixed price of a single derivative falls deterministically from $5/2$ to $2$ between two trading dates. If these prices are tradable, shorting the derivative and closing the position one period later yields a certain profit. A finite-state appendix also illustrates the failure of recursive consistency.",
+    "path": "papers/26/09/2609.12515.json",
+    "total_tokens": 999,
+    "translated_title": "《什么都不估计》中的套利：一个例子",
+    "translated_abstract": "我们针对Duembgen和Rogers的《Estimate nothing》一文中后验加权定价规则的无套利性，给出了一个两期反例。两个物理模型都具有严格正的转移密度，且每个模型均配备了一个等价鞅测度。然而，单一衍生品的混合价格在两个交易日期间确定性地从5/2降至2。如果这些价格可交易，则卖空该衍生品并在一个周期后平仓即可获得确定收益。附录中的有限状态模型还展示了递归一致性的失效。",
+    "tldr": "本文通过一个两期反例证明Duembgen和Rogers的“Estimate nothing”后验加权定价规则存在套利机会——尽管两个模型均具有严格正转移密度和等价鞅测度，衍生品混合价格仍会确定性下跌，卖空即可获得无风险利润。"
+}

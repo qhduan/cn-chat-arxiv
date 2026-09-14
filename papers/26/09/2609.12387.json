@@ -1,0 +1,12 @@
+{
+    "title": "Do Sanctions Backfire? New Evidence on the Macroeconomic Effects of Supporting Ukraine",
+    "abstract": "arXiv:2609.12387v1 Announce Type: new  Abstract: Using a balanced panel of 129 countries from 2000 to 2024, we estimate the macroeconomic costs of sanctions on Russia. To that end, we employ a novel two-wave common-correlated-effects imputation design that separates the 2014 sanctions from the 2022 escalation and accounts for heterogeneous exposure to global shocks. We find the main boomerang effect of these sanctions operates through prices rather than output. Specifically, relative to 2019-2021, we find a significant post-2022 increase in prices among sanctioning countries that remains robust under alternative counterfactuals, reference windows, and inference procedures. Conversely, we find no robust evidence of aggregate GDP-per-capita losses.",
+    "link": "https://arxiv.org/abs/2609.12387",
+    "context": "Title: Do Sanctions Backfire? New Evidence on the Macroeconomic Effects of Supporting Ukraine\nAbstract: arXiv:2609.12387v1 Announce Type: new  Abstract: Using a balanced panel of 129 countries from 2000 to 2024, we estimate the macroeconomic costs of sanctions on Russia. To that end, we employ a novel two-wave common-correlated-effects imputation design that separates the 2014 sanctions from the 2022 escalation and accounts for heterogeneous exposure to global shocks. We find the main boomerang effect of these sanctions operates through prices rather than output. Specifically, relative to 2019-2021, we find a significant post-2022 increase in prices among sanctioning countries that remains robust under alternative counterfactuals, reference windows, and inference procedures. Conversely, we find no robust evidence of aggregate GDP-per-capita losses.",
+    "path": "papers/26/09/2609.12387.json",
+    "total_tokens": 996,
+    "translated_title": "制裁是否适得其反？关于支持乌克兰宏观经济效应的新证据",
+    "translated_abstract": "基于2000年至2024年129个国家的平衡面板数据，我们估计了对俄罗斯制裁的宏观经济成本。为此，我们采用了一种新颖的两波次共同相关效应插补设计，将2014年的制裁与2022年的制裁升级区分开来，并考虑了各国对全球冲击的异质性暴露程度。我们发现，这些制裁的主要回旋镖效应是通过价格而非产出传导的。具体而言，相对于2019-2021年，我们发现2022年后制裁发起国的价格出现了显著上涨，且这一结果在替代反事实情形、参考窗口和推断方法下均保持稳健。相反，我们没有发现关于人均GDP总体损失的稳健证据。",
+    "tldr": "研究利用129国面板数据发现，对俄制裁的“回旋镖效应”主要通过物价上涨而非产出损失反噬制裁国，2022年后制裁国价格显著上升，但未发现人均GDP损失的稳健证据。",
+    "en_tdlr": "Using panel data from 129 countries, this study finds that sanctions on Russia primarily backfire through higher prices rather than output losses, showing no robust evidence of aggregate GDP-per-capita losses in sanctioning countries."
+}
