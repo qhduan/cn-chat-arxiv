@@ -1,0 +1,12 @@
+{
+    "title": "Thin-shell stability of Gaussian cooling: logconcave sampling with sesteric complexity from a cold start",
+    "abstract": "arXiv:2609.15884v1 Announce Type: cross  Abstract: We show that logconcave probability measures along the Gaussian cooling path have thin-shell stability, generalizing the thin-shell theorem. This result leads to improved complexity for the fundamental problem of sampling an arbitrary logconcave distribution from a cold start. For (near-)isotropic logconcave distributions, the complexity is nearly $n^{2.5}$, improving the previous bound of $n^{2.75}$, and matching the complexity of the abstract Speedy walk.",
+    "link": "https://arxiv.org/abs/2609.15884",
+    "context": "Title: Thin-shell stability of Gaussian cooling: logconcave sampling with sesteric complexity from a cold start\nAbstract: arXiv:2609.15884v1 Announce Type: cross  Abstract: We show that logconcave probability measures along the Gaussian cooling path have thin-shell stability, generalizing the thin-shell theorem. This result leads to improved complexity for the fundamental problem of sampling an arbitrary logconcave distribution from a cold start. For (near-)isotropic logconcave distributions, the complexity is nearly $n^{2.5}$, improving the previous bound of $n^{2.75}$, and matching the complexity of the abstract Speedy walk.",
+    "path": "papers/26/09/2609.15884.json",
+    "total_tokens": 929,
+    "translated_title": "高斯冷却的薄壳稳定性：从冷启动开始、复杂度为 n^2.5 的对数凹采样",
+    "translated_abstract": "我们证明了对数凹概率测度沿高斯冷却路径具有薄壳稳定性，从而推广了薄壳定理。这一结果为从一个基本问题——从冷启动采样任意对数凹分布——带来了复杂度上的改进。对于（近）各向同性的对数凹分布，复杂度接近 n^2.5，改进了此前 n^2.75 的界，并匹配了抽象 Speedy walk 的复杂度。",
+    "tldr": "证明了高斯冷却路径下对数凹测度具有薄壳稳定性，将冷启动对数凹分布采样的复杂度改进至接近 n^2.5。",
+    "en_tdlr": "Proves thin-shell stability of logconcave measures along the Gaussian cooling path, improving the cold-start complexity of sampling logconcave distributions to nearly n^2.5."
+}

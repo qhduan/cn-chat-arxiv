@@ -1,0 +1,12 @@
+{
+    "title": "Convex Order and Moment Persuasion",
+    "abstract": "arXiv:2609.13696v1 Announce Type: new  Abstract: If a probability measure is a mean-preserving contraction of another, the two measures are said to be in convex order. This paper provides a complete characterization of mean-preserving contractions and their extreme points in the multidimensional setting, extending the results of Kleiner, Moldovanu, Strack, and Whitmeyer (2024) to incorporate fully revealing regions and lower-dimensional pooling regions. A central feature of our characterization is a \"concentration \" structure: each state can be mapped only to posterior means lying within its own irreducible component. We apply these results to the moment persuasion problem.",
+    "link": "https://arxiv.org/abs/2609.13696",
+    "context": "Title: Convex Order and Moment Persuasion\nAbstract: arXiv:2609.13696v1 Announce Type: new  Abstract: If a probability measure is a mean-preserving contraction of another, the two measures are said to be in convex order. This paper provides a complete characterization of mean-preserving contractions and their extreme points in the multidimensional setting, extending the results of Kleiner, Moldovanu, Strack, and Whitmeyer (2024) to incorporate fully revealing regions and lower-dimensional pooling regions. A central feature of our characterization is a \"concentration \" structure: each state can be mapped only to posterior means lying within its own irreducible component. We apply these results to the moment persuasion problem.",
+    "path": "papers/26/09/2609.13696.json",
+    "total_tokens": 927,
+    "translated_title": "凸序与矩说服",
+    "translated_abstract": "如果一个概率测度是另一个测度的保均值收缩，则称这两个测度处于凸序关系中。本文在多维设定下对保均值收缩及其极值点提供了完整的刻画，将 Kleiner、Moldovanu、Strack 和 Whitmeyer（2024）的结果扩展到包含完全揭示区域和低维混同区域。我们刻画结果的一个核心特征是“集中”结构：每个状态只能被映射到位于其自身不可约分量内的后验均值。我们将这些结果应用于矩说服问题。",
+    "tldr": "本文在多维设定下完整刻画了凸序（保均值收缩）关系及其极值点，引入了每个状态只能映射到其自身不可约分量内后验均值的“集中”结构，并将这些结果应用于矩说服问题。",
+    "en_tdlr": "This paper provides a complete characterization of mean-preserving contractions (convex order) and their extreme points in multidimensional settings, introducing a \"concentration\" structure where each state maps only to posterior means within its own irreducible component, with applications to the moment persuasion problem."
+}

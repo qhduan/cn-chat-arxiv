@@ -1,0 +1,12 @@
+{
+    "title": "Gaussian Normalized Coordinates and Risk-Neutral CDF Deformations",
+    "abstract": "arXiv:2609.14212v1 Announce Type: new  Abstract: Normalized implied-volatility coordinates reveal no-arbitrage structure that is less transparent in strike space. This paper centers on a single quantity that gives those coordinates a direct probabilistic interpretation.",
+    "link": "https://arxiv.org/abs/2609.14212",
+    "context": "Title: Gaussian Normalized Coordinates and Risk-Neutral CDF Deformations\nAbstract: arXiv:2609.14212v1 Announce Type: new  Abstract: Normalized implied-volatility coordinates reveal no-arbitrage structure that is less transparent in strike space. This paper centers on a single quantity that gives those coordinates a direct probabilistic interpretation.",
+    "path": "papers/26/09/2609.14212.json",
+    "total_tokens": 667,
+    "translated_title": "高斯归一化坐标与风险中性累积分布函数形变",
+    "translated_abstract": "归一化隐含波动率坐标揭示了无套利结构，而这种结构在行权价空间中较难清晰呈现。本文聚焦于一个单一量，该量为这些坐标提供了直接的概率解释。",
+    "tldr": "本文通过引入一个单一量，为归一化隐含波动率坐标赋予了直接的概率解释，从而更清晰地揭示期权定价中的无套利结构。",
+    "en_tdlr": "This paper centers on a single quantity that gives normalized implied-volatility coordinates a direct probabilistic interpretation, making the no-arbitrage structure more transparent than in strike space."
+}

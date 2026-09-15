@@ -1,0 +1,12 @@
+{
+    "title": "Bridging the Synthetic-to-Real Gap for Few-Shot Cryo-ET Classification",
+    "abstract": "arXiv:2609.14097v1 Announce Type: cross  Abstract: Subtomogram classification in cryo-electron tomography (cryo-ET) is a challenging problem due to the scarcity of labeled examples. While cryo-ET simulators can be adopted to generate unlimited synthetic data, the substantial domain gap between synthetic and real subtomograms hinders its practical utilization. In this work, we propose a novel synthetic-to-real adaptation framework with a learnable transformation module, bridging this gap at both the input and feature levels. Extensive experiments demonstrate that our method consistently outperforms existing transfer learning baselines in few-shot settings.",
+    "link": "https://arxiv.org/abs/2609.14097",
+    "context": "Title: Bridging the Synthetic-to-Real Gap for Few-Shot Cryo-ET Classification\nAbstract: arXiv:2609.14097v1 Announce Type: cross  Abstract: Subtomogram classification in cryo-electron tomography (cryo-ET) is a challenging problem due to the scarcity of labeled examples. While cryo-ET simulators can be adopted to generate unlimited synthetic data, the substantial domain gap between synthetic and real subtomograms hinders its practical utilization. In this work, we propose a novel synthetic-to-real adaptation framework with a learnable transformation module, bridging this gap at both the input and feature levels. Extensive experiments demonstrate that our method consistently outperforms existing transfer learning baselines in few-shot settings.",
+    "path": "papers/26/09/2609.14097.json",
+    "total_tokens": 943,
+    "translated_title": "弥合少样本冷冻电子断层扫描分类中的合成-真实差距",
+    "translated_abstract": "冷冻电子断层扫描（cryo-ET）中的亚断层图分类由于标注样本的稀缺而是一个具有挑战性的问题。虽然可以采用冷冻电子断层扫描模拟器来生成无限的合成数据，但合成亚断层图与真实亚断层图之间存在的巨大域差距阻碍了其实际应用。在这项工作中，我们提出了一种新颖的合成到真实自适应框架，该框架包含一个可学习的变换模块，在输入和特征两个层面弥合这一差距。大量实验表明，我们的方法在少样本设置中始终优于现有的迁移学习基线方法。",
+    "tldr": "提出了一种带有可学习变换模块的合成到真实自适应框架，在输入和特征两个层面弥合合成与真实冷冻电子断层扫描数据之间的域差距，在少样本亚断层图分类任务中始终优于现有迁移学习基线方法。",
+    "en_tdlr": "A novel synthetic-to-real adaptation framework with a learnable transformation module bridges the domain gap between synthetic and real cryo-ET subtomograms at both input and feature levels, consistently outperforming existing transfer learning baselines in few-shot classification settings."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Conditional Disclosure as a Coordination Device",
+    "abstract": "arXiv:2604.00874v4 Announce Type: replace  Abstract: People with controversial views may stay silent rather than speak out alone, though in a large enough group they could speak safely together. A social assurance contract makes disclosure conditional: signed commitments of support stay private until enough people have signed for it to be safe to publish. In contrast, a survey can measure hidden support but cannot protect anyone who acts on it. I derive the contract's exact advantage over speaking openly, and when that advantage disappears. The contract can turn a few people who would speak alone into a larger coalition.",
+    "link": "https://arxiv.org/abs/2604.00874",
+    "context": "Title: Conditional Disclosure as a Coordination Device\nAbstract: arXiv:2604.00874v4 Announce Type: replace  Abstract: People with controversial views may stay silent rather than speak out alone, though in a large enough group they could speak safely together. A social assurance contract makes disclosure conditional: signed commitments of support stay private until enough people have signed for it to be safe to publish. In contrast, a survey can measure hidden support but cannot protect anyone who acts on it. I derive the contract's exact advantage over speaking openly, and when that advantage disappears. The contract can turn a few people who would speak alone into a larger coalition.",
+    "path": "papers/26/04/2604.00874.json",
+    "total_tokens": 927,
+    "translated_title": "条件性披露作为协调机制",
+    "translated_abstract": "持有争议性观点的人可能宁愿保持沉默也不愿独自发声，尽管在一个足够大的群体中他们可以安全地共同发声。本文提出一种“社会保障合同”，使披露成为有条件的：签署的支持承诺保持私密，直到有足够多的人签署、使得公开发表变得安全为止。相比之下，调查虽然可以测量隐藏的支持度，却无法保护任何根据调查结果采取行动的人。作者推导出了该合同相对于公开发声的精确优势，以及这种优势何时消失。该合同能够将少数愿意独自发声的人转变为一个更大的联盟。",
+    "tldr": "本文提出“社会保障合同”这一协调机制，通过在签署人数达到安全阈值前保持承诺私密，将少数敢于独自发声的人聚集为足够大的联盟，实现争议性观点的安全集体披露，并精确刻画了该机制优于公开发声的条件及优势消失的边界。",
+    "en_tdlr": "This paper proposes a \"social assurance contract\" that keeps signed commitments of support private until enough people have signed, transforming a few individuals willing to speak alone into a larger coalition for safe collective disclosure, and precisely characterizes both its advantage over speaking openly and when that advantage disappears."
+}

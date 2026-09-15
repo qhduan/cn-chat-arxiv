@@ -1,0 +1,12 @@
+{
+    "title": "Just add noise: Debiasing tree-based variable importance in mixed data",
+    "abstract": "arXiv:2609.14083v1 Announce Type: cross  Abstract: Variable importance scores from tree-based methods such as random forests favor continuous predictors over categorical ones. We present a theoretical analysis of this bias and propose a simple remedy: add a small amount of noise to each categorical predictor. The correction is demonstrated on a variety of simulated and real-world datasets and combined with integrated path stability selection to perform variable selection with false discovery control for mixed data.",
+    "link": "https://arxiv.org/abs/2609.14083",
+    "context": "Title: Just add noise: Debiasing tree-based variable importance in mixed data\nAbstract: arXiv:2609.14083v1 Announce Type: cross  Abstract: Variable importance scores from tree-based methods such as random forests favor continuous predictors over categorical ones. We present a theoretical analysis of this bias and propose a simple remedy: add a small amount of noise to each categorical predictor. The correction is demonstrated on a variety of simulated and real-world datasets and combined with integrated path stability selection to perform variable selection with false discovery control for mixed data.",
+    "path": "papers/26/09/2609.14083.json",
+    "total_tokens": 811,
+    "translated_title": "只需添加噪声：消除混合数据中基于树的变量重要性偏差",
+    "translated_abstract": "arXiv:2609.14083v1 公告类型：交叉 摘要：来自随机森林等基于树的方法的变量重要性得分往往偏向连续型预测变量而非分类型预测变量。我们对这种偏差进行了理论分析，并提出了一种简单的补救方法：向每个分类型预测变量添加少量噪声。该校正方法在多种模拟数据集和真实世界数据集上得到了验证，并与整合路径稳定性选择相结合，实现了对混合数据进行变量选择，同时控制错误发现率。",
+    "tldr": "提出通过向分类变量添加少量噪声这一简单方法，消除基于树的变量重要性度量（如随机森林）对连续变量的偏好偏差，从而实现对混合数据的变量选择并控制错误发现率。",
+    "en_tdlr": "Proposes a simple remedy of adding a small amount of noise to each categorical predictor to debias tree-based variable importance scores that favor continuous predictors, enabling variable selection with false discovery control in mixed data."
+}

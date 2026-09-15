@@ -1,0 +1,12 @@
+{
+    "title": "Beyond Retrieval: Scaffolding Children's Online Learning",
+    "abstract": "arXiv:2609.15568v1 Announce Type: new  Abstract: Children increasingly turn to online information access systems that are primarily designed for the mainstream population, e.g., adults, but possess a limited understanding of how these systems work, contributing to their unstructured and ineffective search practices. This lack of knowledge can hinder their curiosity and the development of critical search skills. Grounded on the existing literature of both child-oriented Information Retrieval and Human Computer Interaction, our work positions children as active participants in the search process, framing it as a scaffolded learning experience rather than a simple retrieval task.",
+    "link": "https://arxiv.org/abs/2609.15568",
+    "context": "Title: Beyond Retrieval: Scaffolding Children's Online Learning\nAbstract: arXiv:2609.15568v1 Announce Type: new  Abstract: Children increasingly turn to online information access systems that are primarily designed for the mainstream population, e.g., adults, but possess a limited understanding of how these systems work, contributing to their unstructured and ineffective search practices. This lack of knowledge can hinder their curiosity and the development of critical search skills. Grounded on the existing literature of both child-oriented Information Retrieval and Human Computer Interaction, our work positions children as active participants in the search process, framing it as a scaffolded learning experience rather than a simple retrieval task.",
+    "path": "papers/26/09/2609.15568.json",
+    "total_tokens": 695,
+    "translated_title": "超越检索：为儿童在线学习搭建脚手架",
+    "translated_abstract": "儿童越来越多地使用主要为主流人群（例如成人）设计的在线信息访问系统，但他们对这些系统如何运作的理解有限，这导致了他们非结构化且低效的搜索行为。这种知识的缺乏可能会阻碍他们的好奇心以及批判性搜索技能的发展。基于儿童导向信息检索和人机交互领域的现有文献，我们的工作将儿童定位为搜索过程中的积极参与者，将搜索过程构建为一种有脚手架支持的学习体验，而非简单的检索任务。",
+    "tldr": "该论文的核心创新在于将儿童的在线搜索从简单的信息检索任务重新定义为由脚手架支持的学习体验，并强调儿童作为搜索过程中积极参与者的角色。",
+    "en_tdlr": "The key contribution is reframing children's online search from a simple retrieval task into a scaffolded learning experience, positioning children as active participants in the search process."
+}

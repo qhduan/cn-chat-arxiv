@@ -1,0 +1,11 @@
+{
+    "title": "Yet another asymptotic formula for implied volatility",
+    "abstract": "arXiv:2609.13961v1 Announce Type: new  Abstract: We derive a first-order representation of Black-Scholes implied variance in a continuous local martingale model. Total implied variance is the conditional expectation of the quadratic variation of the log price given its terminal value, up to a smaller-order term, for bounded standardized log-strikes. The framework incorporates small volatility-of-volatility, fast mean-reverting, and short-maturity asymptotics.",
+    "link": "https://arxiv.org/abs/2609.13961",
+    "context": "Title: Yet another asymptotic formula for implied volatility\nAbstract: arXiv:2609.13961v1 Announce Type: new  Abstract: We derive a first-order representation of Black-Scholes implied variance in a continuous local martingale model. Total implied variance is the conditional expectation of the quadratic variation of the log price given its terminal value, up to a smaller-order term, for bounded standardized log-strikes. The framework incorporates small volatility-of-volatility, fast mean-reverting, and short-maturity asymptotics.",
+    "path": "papers/26/09/2609.13961.json",
+    "total_tokens": 802,
+    "translated_title": "隐含波动率的又一个渐近公式",
+    "translated_abstract": "我们在连续局部鞅模型中推导出了Black-Scholes隐含方差的一阶表示形式。对于有界的标准化对数行权价，总隐含方差在相差一个更小阶项的意义上，等于对数价格二次变差在给定其终端值条件下的条件期望。该框架统一涵盖了小波动率的波动率、快速均值回归以及短期到期等多种渐近情形。",
+    "tldr": "本文在连续局部鞅模型中证明了总隐含方差在相差一个更小阶项的意义上等于对数价格二次变差在给定终端值条件下的条件期望，并将小波动率的波动率、快速均值回归和短期到期渐近情形纳入统一框架。"
+}

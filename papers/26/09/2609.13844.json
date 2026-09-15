@@ -1,0 +1,11 @@
+{
+    "title": "Pre-training with Graph Transformers",
+    "abstract": "arXiv:2609.13844v1 Announce Type: new  Abstract: This article investigates pre-training strategies for graph transformers in the biochemistry domain. By conducting comprehensive experiments, the study reveals that supervised pre-training using computed properties as labels provides the highest performance gain on downstream tasks. The results also highlight the importance of constraining model capacity to mitigate overfitting in graph transformers.",
+    "link": "https://arxiv.org/abs/2609.13844",
+    "context": "Title: Pre-training with Graph Transformers\nAbstract: arXiv:2609.13844v1 Announce Type: new  Abstract: This article investigates pre-training strategies for graph transformers in the biochemistry domain. By conducting comprehensive experiments, the study reveals that supervised pre-training using computed properties as labels provides the highest performance gain on downstream tasks. The results also highlight the importance of constraining model capacity to mitigate overfitting in graph transformers.",
+    "path": "papers/26/09/2609.13844.json",
+    "total_tokens": 616,
+    "translated_title": "基于图Transformer的预训练",
+    "translated_abstract": "本文研究了生物化学领域中图Transformer的预训练策略。通过开展全面的实验，研究发现使用计算属性作为标签的监督预训练在下游任务上带来了最高的性能提升。研究结果还强调了约束模型容量以缓解图Transformer过拟合问题的重要性。",
+    "tldr": "本研究通过系统性实验发现，在生物化学领域，采用计算属性作为标签的监督预训练策略能为图Transformer带来最佳的下游任务性能提升，且约束模型容量对缓解过拟合至关重要。"
+}

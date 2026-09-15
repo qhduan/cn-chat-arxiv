@@ -1,0 +1,12 @@
+{
+    "title": "Very Credible Auction",
+    "abstract": "arXiv:2609.14263v1 Announce Type: new  Abstract: We introduce a notion and motivation for very credible auctions. This is a strengthening in the commitment in the credible auctions setting, making it more suitable for a modern digital applications.",
+    "link": "https://arxiv.org/abs/2609.14263",
+    "context": "Title: Very Credible Auction\nAbstract: arXiv:2609.14263v1 Announce Type: new  Abstract: We introduce a notion and motivation for very credible auctions. This is a strengthening in the commitment in the credible auctions setting, making it more suitable for a modern digital applications.",
+    "path": "papers/26/09/2609.14263.json",
+    "total_tokens": 530,
+    "translated_title": "非常可信拍卖",
+    "translated_abstract": "我们引入了“非常可信拍卖”这一概念及其动机。这是对可信拍卖设定中承诺机制的加强，使其更适合现代数字应用。",
+    "tldr": "本文提出了“非常可信拍卖”的新概念，通过加强可信拍卖中的承诺机制，使其更适用于现代数字应用场景。",
+    "en_tdlr": "This paper introduces the notion of \"very credible auctions,\" which strengthens the commitment in the credible auctions setting to better suit modern digital applications."
+}

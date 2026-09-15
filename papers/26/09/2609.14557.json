@@ -1,0 +1,12 @@
+{
+    "title": "Selecting k Paths with the Minimum Longest Path Length in the Stochastic Semi-Bandit Setting",
+    "abstract": "arXiv:2609.14557v1 Announce Type: new  Abstract: When performing parallel data transmission through a network using multiple paths, it is practically important to minimize the maximum transmission time among the selected paths. This study addresses an online problem in which $k$ paths from an origin vertex to a destination vertex must be selected at each time step within a network represented as a directed graph. Here, the number of paths going through each edge in each parallel data transmission is limited to its capacity, and the time required for transmission is determined stochastically. We formulate the semi-bandit problem of selecting a set of paths to minimize the maximum traversal time among the selected paths and propose an algorithm to solve it.",
+    "link": "https://arxiv.org/abs/2609.14557",
+    "context": "Title: Selecting k Paths with the Minimum Longest Path Length in the Stochastic Semi-Bandit Setting\nAbstract: arXiv:2609.14557v1 Announce Type: new  Abstract: When performing parallel data transmission through a network using multiple paths, it is practically important to minimize the maximum transmission time among the selected paths. This study addresses an online problem in which $k$ paths from an origin vertex to a destination vertex must be selected at each time step within a network represented as a directed graph. Here, the number of paths going through each edge in each parallel data transmission is limited to its capacity, and the time required for transmission is determined stochastically. We formulate the semi-bandit problem of selecting a set of paths to minimize the maximum traversal time among the selected paths and propose an algorithm to solve it.",
+    "path": "papers/26/09/2609.14557.json",
+    "total_tokens": 881,
+    "translated_title": "在随机半老虎机环境下选择最长路径长度最小的k条路径",
+    "translated_abstract": "当通过网络使用多条路径进行并行数据传输时，最小化所选路径中的最大传输时间在实践中非常重要。本研究解决了一个在线问题，即在以有向图表示的网络中，每个时间步必须选择k条从源顶点到目标顶点的路径。其中，每次并行数据传输中经过每条边的路径数量受限于该边的容量，且传输所需时间是随机确定的。我们构建了选择一组路径以最小化所选路径中最大通行时间的半老虎机问题，并提出了解决该问题的算法。",
+    "tldr": "该研究将网络中选择k条路径以最小化最大传输时间的在线问题建模为随机半老虎机问题，并提出了一种求解算法。",
+    "en_tdlr": "This study formulates the online problem of selecting k paths in a network to minimize the maximum transmission time as a stochastic semi-bandit problem and proposes an algorithm to solve it."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Evaluating covariate balance for long time horizon Markov decision processes",
+    "abstract": "arXiv:2607.15080v2 Announce Type: replace  Abstract: This article explores the application of covariate balance diagnostics for detecting the presence of hidden confounding/model miss-specification in studies applying offline reinforcement learning (RL) to deriving optimal treatment recommendations. The results demonstrate that, either there is a high risk of bias within existing offline RL studies for treatment recommendations and/or, existing covariate balance metrics are not sufficient to assess such studies. Regardless, existing offline RL studies cannot be concluded as being statistically robust. The conclusions propose future research directions for obtaining more methodologically robust applications of offline RL to treatment recommendation problems.",
+    "link": "https://arxiv.org/abs/2607.15080",
+    "context": "Title: Evaluating covariate balance for long time horizon Markov decision processes\nAbstract: arXiv:2607.15080v2 Announce Type: replace  Abstract: This article explores the application of covariate balance diagnostics for detecting the presence of hidden confounding/model miss-specification in studies applying offline reinforcement learning (RL) to deriving optimal treatment recommendations. The results demonstrate that, either there is a high risk of bias within existing offline RL studies for treatment recommendations and/or, existing covariate balance metrics are not sufficient to assess such studies. Regardless, existing offline RL studies cannot be concluded as being statistically robust. The conclusions propose future research directions for obtaining more methodologically robust applications of offline RL to treatment recommendation problems.",
+    "path": "papers/26/07/2607.15080.json",
+    "total_tokens": 847,
+    "translated_title": "评估长时间视野马尔可夫决策过程的协变量平衡",
+    "translated_abstract": "本文探讨了协变量平衡诊断方法在检测隐藏混杂因素/模型错误设定中的应用，研究对象是将离线强化学习（RL）应用于推导最优治疗建议的相关研究。结果表明，要么现有的离线强化学习治疗建议研究存在较高的偏差风险，和/或现有的协变量平衡指标不足以评估此类研究。无论如何，现有的离线强化学习研究不能被认为在统计上是稳健的。结论部分提出了未来研究方向，以获得方法学上更稳健的离线强化学习在治疗推荐问题中的应用。",
+    "tldr": "本文利用协变量平衡诊断方法评估发现，现有离线强化学习治疗推荐研究存在较高偏差风险或现有评估指标不足，其统计稳健性存疑，并提出未来改进方向。",
+    "en_tdlr": "This paper uses covariate balance diagnostics to reveal that existing offline RL treatment recommendation studies face high bias risks or insufficient evaluation metrics, questioning their statistical robustness and proposing directions for methodological improvements."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Mirror, Mirror on the Wall: Prompt Echoing in Small Instruct Language Models",
+    "abstract": "arXiv:2609.15045v1 Announce Type: cross  Abstract: Prompt echoing is a recognized failure mode of instruct language models, in which a model instead of generating a response, mirrors the provided prompt, even though it did not receive a specific instruction to do so. Is this phenomenon a sign of the model leaking the content of its training dataset, or is it rather caused by a misaligned behavior of the internal induction/copying mechanisms? We investigate prompt echoing small language models from different families (Gemma, Llama, Qwen, SmolLM and OLMo) and show that echoing prompts are likely to have partial overlap with the training dataset but the phenomenon is primarily driven by the model's induction heads.",
+    "link": "https://arxiv.org/abs/2609.15045",
+    "context": "Title: Mirror, Mirror on the Wall: Prompt Echoing in Small Instruct Language Models\nAbstract: arXiv:2609.15045v1 Announce Type: cross  Abstract: Prompt echoing is a recognized failure mode of instruct language models, in which a model instead of generating a response, mirrors the provided prompt, even though it did not receive a specific instruction to do so. Is this phenomenon a sign of the model leaking the content of its training dataset, or is it rather caused by a misaligned behavior of the internal induction/copying mechanisms? We investigate prompt echoing small language models from different families (Gemma, Llama, Qwen, SmolLM and OLMo) and show that echoing prompts are likely to have partial overlap with the training dataset but the phenomenon is primarily driven by the model's induction heads.",
+    "path": "papers/26/09/2609.15045.json",
+    "total_tokens": 987,
+    "translated_title": "魔镜魔镜告诉我：小型指令语言模型中的提示回显现象",
+    "translated_abstract": "提示回显是指令语言模型公认的一种失效模式，即模型不是生成回复，而是复述所提供的提示，即使它并未收到这样做的明确指令。这种现象是模型泄露其训练数据集内容的迹象，还是由内部归纳/复制机制的失调行为引起的？我们研究了来自不同家族（Gemma、Llama、Qwen、SmolLM和OLMo）的小型语言模型中的提示回显现象，结果表明出现回显的提示可能与训练数据集存在部分重叠，但这一现象主要由模型的归纳头机制驱动。",
+    "tldr": "本研究对Gemma、Llama、Qwen、SmolLM和OLMo等多个模型家族的分析表明，小型指令语言模型的提示回显现象虽与训练数据存在部分重叠，但主要由模型的归纳头机制驱动，而非简单的训练数据泄露。",
+    "en_tdlr": "This study reveals that prompt echoing in small instruct language models across Gemma, Llama, Qwen, SmolLM, and OLMo families, while showing partial overlap with training data, is primarily driven by the model's induction heads rather than mere training data leakage."
+}

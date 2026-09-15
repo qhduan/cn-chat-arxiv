@@ -1,0 +1,12 @@
+{
+    "title": "Measurement Error and Peer Effects in Networks",
+    "abstract": "arXiv:2608.00336v2 Announce Type: replace  Abstract: In many practical applications, only noisy proxies for the true regressors are available, which is commonly believed to induce an attenuation bias. In the linear-in-means model, however, estimated peer effects might be inflated, potentially leading to false positives. This paper shows that the asymptotic bias depends on the interplay between individual characteristics and network links and demonstrates how the network structure can facilitate identification without the need for additional external information. Based on these identification results, we present consistent GMM and 2SLS estimators that are easily implementable. Our results are illustrated by means of a Monte Carlo simulation.",
+    "link": "https://arxiv.org/abs/2608.00336",
+    "context": "Title: Measurement Error and Peer Effects in Networks\nAbstract: arXiv:2608.00336v2 Announce Type: replace  Abstract: In many practical applications, only noisy proxies for the true regressors are available, which is commonly believed to induce an attenuation bias. In the linear-in-means model, however, estimated peer effects might be inflated, potentially leading to false positives. This paper shows that the asymptotic bias depends on the interplay between individual characteristics and network links and demonstrates how the network structure can facilitate identification without the need for additional external information. Based on these identification results, we present consistent GMM and 2SLS estimators that are easily implementable. Our results are illustrated by means of a Monte Carlo simulation.",
+    "path": "papers/26/08/2608.00336.json",
+    "total_tokens": 819,
+    "translated_title": "网络中的测量误差与同伴效应",
+    "translated_abstract": "在许多实际应用中，研究者只能获得真实回归变量的含噪声代理变量，这通常被认为会导致衰减偏误。然而，在线性均值模型中，估计出的同伴效应可能被放大，从而可能导致假阳性。本文表明，渐近偏误取决于个体特征与网络链接之间的相互作用，并展示了网络结构如何能够在无需额外外部信息的情况下促进识别。基于这些识别结果，我们提出了易于实施的一致性GMM和2SLS估计量。我们的结果通过蒙特卡洛模拟加以说明。",
+    "tldr": "本文揭示了网络线性均值模型中测量误差会放大而非衰减同伴效应的估计值，并利用网络结构实现无需外部信息的识别，提出了易于实施的一致性GMM和2SLS估计量。",
+    "en_tdlr": "This paper shows that measurement error in the linear-in-means model can inflate rather than attenuate estimated peer effects, demonstrates that network structure facilitates identification without external information, and proposes easily implementable consistent GMM and 2SLS estimators."
+}

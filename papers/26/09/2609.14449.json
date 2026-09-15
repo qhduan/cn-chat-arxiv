@@ -1,0 +1,12 @@
+{
+    "title": "Towards Identifying the Dataset Biases Causing Phantom Transfer",
+    "abstract": "arXiv:2609.14449v1 Announce Type: new  Abstract: Recent work has shown that a teacher model can transfer a bias to a student through a dataset from which every explicit reference to that bias has been filtered out, and that no data-level defense reliably removes or detects it even when knowing what bias to look for. Aiming to shed light on the hidden traces of these biases, we show that a simple signature based on Sentence BERT embeddings can identify the topic of such a bias with a Matthews correlation coefficient of 0.83 if the teacher model used by the attacker is known and 0.46 if it is not. Additionally, we observe that different teacher models appear to express the same bias through different vocabulary.",
+    "link": "https://arxiv.org/abs/2609.14449",
+    "context": "Title: Towards Identifying the Dataset Biases Causing Phantom Transfer\nAbstract: arXiv:2609.14449v1 Announce Type: new  Abstract: Recent work has shown that a teacher model can transfer a bias to a student through a dataset from which every explicit reference to that bias has been filtered out, and that no data-level defense reliably removes or detects it even when knowing what bias to look for. Aiming to shed light on the hidden traces of these biases, we show that a simple signature based on Sentence BERT embeddings can identify the topic of such a bias with a Matthews correlation coefficient of 0.83 if the teacher model used by the attacker is known and 0.46 if it is not. Additionally, we observe that different teacher models appear to express the same bias through different vocabulary.",
+    "path": "papers/26/09/2609.14449.json",
+    "total_tokens": 983,
+    "translated_title": "迈向识别导致幻影迁移的数据集偏见",
+    "translated_abstract": "最近的研究表明，教师模型可以通过一个数据集将偏见传递给学生模型，即使该数据集中所有对该偏见的明确引用都已被过滤掉；而且即使知道要寻找什么样的偏见，也没有任何数据层面的防御方法能够可靠地移除或检测到它。为了揭示这些偏见的隐藏痕迹，我们展示了基于Sentence BERT嵌入的简单特征签名，在攻击者使用的教师模型已知的情况下，能够以0.83的马修斯相关系数识别此类偏见的主题；在教师模型未知的情况下，该系数为0.46。此外，我们观察到不同的教师模型似乎通过不同的词汇来表达相同的偏见。",
+    "tldr": "本文提出一种基于Sentence BERT嵌入的简单特征签名方法，能够在教师模型已知时以0.83的马修斯相关系数识别数据集中隐藏的偏见主题，为检测导致幻影迁移的数据集偏见提供了新途径。",
+    "en_tdlr": "This paper shows that a simple signature based on Sentence BERT embeddings can identify the topic of hidden dataset biases causing phantom transfer, achieving a Matthews correlation coefficient of 0.83 when the attacker's teacher model is known."
+}

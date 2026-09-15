@@ -1,0 +1,12 @@
+{
+    "title": "Math for AI safety: an invitation for mathematicians",
+    "abstract": "arXiv:2609.15289v1 Announce Type: cross  Abstract: Artificial intelligence threatens to outrun human understanding and control. New mathematics is needed to design AI that is legible, steerable, and cooperative with humanity. I organize this invitation by mathematical field, so you can turn straight to your own: logic and game theory for cooperation; probability for agency and world-models; algebra and representation theory for learned features; analysis and geometry for generalization and training dynamics. Each section ends with an open problem that is accessible to a working mathematician with no prior experience in AI safety.",
+    "link": "https://arxiv.org/abs/2609.15289",
+    "context": "Title: Math for AI safety: an invitation for mathematicians\nAbstract: arXiv:2609.15289v1 Announce Type: cross  Abstract: Artificial intelligence threatens to outrun human understanding and control. New mathematics is needed to design AI that is legible, steerable, and cooperative with humanity. I organize this invitation by mathematical field, so you can turn straight to your own: logic and game theory for cooperation; probability for agency and world-models; algebra and representation theory for learned features; analysis and geometry for generalization and training dynamics. Each section ends with an open problem that is accessible to a working mathematician with no prior experience in AI safety.",
+    "path": "papers/26/09/2609.15289.json",
+    "total_tokens": 893,
+    "translated_title": "面向AI安全的数学：致数学家的邀请",
+    "translated_abstract": "人工智能有可能超出人类的理解与控制范围。要设计出清晰可读、可引导、并与人类协同合作的AI，需要新的数学。本文按数学领域组织了这篇邀请，你可以直接翻到自己熟悉的方向：用于合作研究的逻辑与博弈论；用于智能体与世界模型的概率论；用于学习特征的代数与表示论；用于泛化与训练动力学的分析与几何。每一节末尾都给出一个开放性问题，任何没有AI安全经验背景的职业数学家都可以着手研究。",
+    "tldr": "本文按数学领域（逻辑与博弈论、概率论、代数与表示论、分析与几何）向数学家发出邀请，介绍AI安全研究中各领域可贡献的方向，并为每个领域提供一个无需AI背景即可入手的开放问题。",
+    "en_tdlr": "This paper invites mathematicians to contribute to AI safety by organizing open problems by mathematical field—logic and game theory for cooperation, probability for agency and world-models, algebra and representation theory for learned features, and analysis and geometry for generalization—each accessible without prior AI safety experience."
+}

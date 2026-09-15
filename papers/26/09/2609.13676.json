@@ -1,0 +1,11 @@
+{
+    "title": "Windowed A-K-MDP",
+    "abstract": "arXiv:2609.13676v1 Announce Type: new  Abstract: Markov decision processes (MDPs) are used to support decision-making in conservation of biodiversity, but policies, even over small state spaces, can be difficult to interpret for conservation managers. K-MDP methods address this problem by building simpler MDPs with at most K abstract states. We show that the previously proposed A-K-MDP algorithm that relies on selecting a discretisation divisor using binary search can skip better abstract states. To fix this issue, we propose Windowed A-K-MDP, an algorithm that generates every distinct feasible partition induced within a declared divisor window and evaluates candidates until reaching the ideal value loss (J = 0) or exhausting the family of candidates. Across 33 K-MDP instances, Windowed improved 25 and tied 8.",
+    "link": "https://arxiv.org/abs/2609.13676",
+    "context": "Title: Windowed A-K-MDP\nAbstract: arXiv:2609.13676v1 Announce Type: new  Abstract: Markov decision processes (MDPs) are used to support decision-making in conservation of biodiversity, but policies, even over small state spaces, can be difficult to interpret for conservation managers. K-MDP methods address this problem by building simpler MDPs with at most K abstract states. We show that the previously proposed A-K-MDP algorithm that relies on selecting a discretisation divisor using binary search can skip better abstract states. To fix this issue, we propose Windowed A-K-MDP, an algorithm that generates every distinct feasible partition induced within a declared divisor window and evaluates candidates until reaching the ideal value loss (J = 0) or exhausting the family of candidates. Across 33 K-MDP instances, Windowed improved 25 and tied 8.",
+    "path": "papers/26/09/2609.13676.json",
+    "total_tokens": 1058,
+    "translated_title": "窗口化 A-K-MDP",
+    "translated_abstract": "马尔可夫决策过程（MDP）被用于支持生物多样性保护中的决策，但即使在较小的状态空间上，其策略对保护管理者而言也可能难以解释。K-MDP方法通过构建至多包含K个抽象状态的更简单MDP来解决这一问题。我们证明了先前提出的依赖二分搜索选择离散化除数的A-K-MDP算法可能会跳过更优的抽象状态。为解决这一问题，我们提出了Windowed A-K-MDP算法，该算法在给定的除数窗口内生成每一个不同的可行划分，并对候选方案逐一评估，直到达到理想的价值损失（J = 0）或穷尽所有候选集合。在33个K-MDP实例中，Windowed算法改进了25个，并在其余8个上持平。",
+    "tldr": "提出Windowed A-K-MDP算法，通过在除数窗口内穷举评估所有可行划分，解决了原A-K-MDP算法因二分搜索而跳过更优抽象状态的问题，在33个K-MDP实例中改进了25个。"
+}
