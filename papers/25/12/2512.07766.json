@@ -1,0 +1,12 @@
+{
+    "title": "Formalized Hopfield Networks and Boltzmann Machines",
+    "abstract": "arXiv:2512.07766v2 Announce Type: replace  Abstract: Neural networks are widely used, yet their analysis and verification remain challenging. We present a Lean~4 formalization covering both deterministic and stochastic models. We first formalize Hopfield networks -- recurrent networks that store patterns as stable states -- and prove their convergence, and the correctness of Hebbian learning, the rule that updates parameters to encode patterns. We then turn to stochastic networks, whose probabilistic updates converge to a stationary distribution: we formalize the dynamics and learning of Boltzmann machines and prove their ergodicity -- convergence to a \\emph{unique} stationary distribution -- via a new formalization of the Perron--Frobenius theorem.",
+    "link": "https://arxiv.org/abs/2512.07766",
+    "context": "Title: Formalized Hopfield Networks and Boltzmann Machines\nAbstract: arXiv:2512.07766v2 Announce Type: replace  Abstract: Neural networks are widely used, yet their analysis and verification remain challenging. We present a Lean~4 formalization covering both deterministic and stochastic models. We first formalize Hopfield networks -- recurrent networks that store patterns as stable states -- and prove their convergence, and the correctness of Hebbian learning, the rule that updates parameters to encode patterns. We then turn to stochastic networks, whose probabilistic updates converge to a stationary distribution: we formalize the dynamics and learning of Boltzmann machines and prove their ergodicity -- convergence to a \\emph{unique} stationary distribution -- via a new formalization of the Perron--Frobenius theorem.",
+    "path": "papers/25/12/2512.07766.json",
+    "total_tokens": 1064,
+    "translated_title": "形式化的霍普菲尔德网络与玻尔兹曼机",
+    "translated_abstract": "神经网络被广泛使用，但其分析与验证仍然具有挑战性。我们提出了一个涵盖确定性模型和随机模型的 Lean 4 形式化。我们首先形式化了霍普菲尔德网络——一种将模式存储为稳定状态的循环网络——并证明了其收敛性以及赫布学习规则的正确性，该规则通过更新参数来编码模式。随后我们转向随机网络，其概率更新会收敛到一个平稳分布：我们形式化了玻尔兹曼机的动力学与学习过程，并通过佩龙-弗罗贝尼乌斯定理的新形式化证明了其遍历性——即收敛到一个唯一的平稳分布。",
+    "tldr": "本文在 Lean 4 中首次形式化了霍普菲尔德网络与玻尔兹曼机，证明了确定性网络的收敛性与赫布学习的正确性，并借助佩龙-弗罗贝尼乌斯定理的新形式化证明了随机网络的遍历性。",
+    "en_tdlr": "This work presents a Lean 4 formalization of Hopfield networks and Boltzmann machines, proving the convergence and correctness of Hebbian learning for deterministic networks, and establishing ergodicity for stochastic networks through a novel formalization of the Perron–Frobenius theorem."
+}

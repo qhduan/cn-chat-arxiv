@@ -1,0 +1,12 @@
+{
+    "title": "AI Policies: Help or Hindrance? A Software Developer's Perspective",
+    "abstract": "arXiv:2609.16496v1 Announce Type: cross  Abstract: AI policies introduced by software organisations to mitigate LLM-related risks such as sensitive information leaks and unauthorised usage are not useful if software developers do not engage with them. We draw on 19 software developer interviews to show how AI policies help and hinder developers. We suggest approaches to support managers and decision makers with a developer-centric approach to introducing AI policies.",
+    "link": "https://arxiv.org/abs/2609.16496",
+    "context": "Title: AI Policies: Help or Hindrance? A Software Developer's Perspective\nAbstract: arXiv:2609.16496v1 Announce Type: cross  Abstract: AI policies introduced by software organisations to mitigate LLM-related risks such as sensitive information leaks and unauthorised usage are not useful if software developers do not engage with them. We draw on 19 software developer interviews to show how AI policies help and hinder developers. We suggest approaches to support managers and decision makers with a developer-centric approach to introducing AI policies.",
+    "path": "papers/26/09/2609.16496.json",
+    "total_tokens": 694,
+    "translated_title": "AI政策：是帮助还是阻碍？来自软件开发者的视角",
+    "translated_abstract": "软件组织为缓解大语言模型（LLM）相关风险（如敏感信息泄露和未经授权的使用）而引入的AI政策，如果软件开发者不参与其中，就无法发挥作用。我们通过对19位软件开发者的访谈，展示了AI政策如何帮助和阻碍开发者。我们提出了以开发者为中心的AI政策引入方法，以支持管理者和决策者。",
+    "tldr": "该研究通过对19位软件开发者的访谈，揭示了AI政策对开发者的帮助与阻碍作用，并提出以开发者为中心的AI政策引入方法来支持管理者和决策者。",
+    "en_tdlr": "Through interviews with 19 software developers, this study reveals how AI policies help and hinder developers, and proposes developer-centric approaches for introducing AI policies to support managers and decision makers."
+}

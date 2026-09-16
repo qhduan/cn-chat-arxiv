@@ -1,0 +1,12 @@
+{
+    "title": "Target-Language Generation in Multilingual Models: Activation Steering and Optimal Control",
+    "abstract": "arXiv:2609.16967v1 Announce Type: new  Abstract: Ensuring that multilingual language models generate coherent text in a specific target language is a major issue in multilingual language modeling. We develop an optimal control method for target-language text generation as well as a framework for evaluating the quality of generated text in terms of language adherence, linguistic coherence, and semantic coherence. We find that the proposed method performs at least as well as the prominent difference-in-means activation steering method for the majority of models tested, with substantially less hyperparameter tuning required.",
+    "link": "https://arxiv.org/abs/2609.16967",
+    "context": "Title: Target-Language Generation in Multilingual Models: Activation Steering and Optimal Control\nAbstract: arXiv:2609.16967v1 Announce Type: new  Abstract: Ensuring that multilingual language models generate coherent text in a specific target language is a major issue in multilingual language modeling. We develop an optimal control method for target-language text generation as well as a framework for evaluating the quality of generated text in terms of language adherence, linguistic coherence, and semantic coherence. We find that the proposed method performs at least as well as the prominent difference-in-means activation steering method for the majority of models tested, with substantially less hyperparameter tuning required.",
+    "path": "papers/26/09/2609.16967.json",
+    "total_tokens": 830,
+    "translated_title": "多语言模型中的目标语言生成：激活导向与最优控制",
+    "translated_abstract": "确保多语言语言模型能够以特定目标语言生成连贯的文本，是多语言语言建模中的一个重要问题。我们开发了一种用于目标语言文本生成的最优控制方法，并构建了一个从语言符合度、语言连贯性和语义连贯性等方面评估生成文本质量的框架。我们发现，所提出的方法在测试的大多数模型上表现至少与著名的均值差激活导向方法相当，且所需的超参数调优大幅减少。",
+    "tldr": "该论文提出了一种用于多语言模型目标语言文本生成的最优控制方法及配套的文本质量评估框架，在大多数测试模型上表现不逊于均值差激活导向方法，且显著降低了超参数调优的需求。",
+    "en_tdlr": "This paper develops an optimal control method for target-language text generation in multilingual models, along with a text quality evaluation framework, which performs at least as well as the difference-in-means activation steering method on most tested models while requiring substantially less hyperparameter tuning."
+}

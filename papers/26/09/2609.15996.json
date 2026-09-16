@@ -1,0 +1,12 @@
+{
+    "title": "Comment on arXiv:2607.01233: Survivorship Bias in Published-Paper Baselines for Research-Idea Distributions",
+    "abstract": "arXiv:2609.15996v1 Announce Type: new  Abstract: Chen, Zhao, and Cohan introduce a valuable distributional evaluation of LLM-generated research ideas. This comment raises a narrower identification concern: their human baseline consists of published papers, whereas the LLM baseline consists of one-shot proposals. If bridge-like or synthesis-like ideas are relatively easy to generate but relatively unlikely to survive publication, then the published human baseline will understate their prevalence in the unseen human idea pool. The observed human--LLM gap may therefore be partly, or even largely, a consequence of survivorship bias.",
+    "link": "https://arxiv.org/abs/2609.15996",
+    "context": "Title: Comment on arXiv:2607.01233: Survivorship Bias in Published-Paper Baselines for Research-Idea Distributions\nAbstract: arXiv:2609.15996v1 Announce Type: new  Abstract: Chen, Zhao, and Cohan introduce a valuable distributional evaluation of LLM-generated research ideas. This comment raises a narrower identification concern: their human baseline consists of published papers, whereas the LLM baseline consists of one-shot proposals. If bridge-like or synthesis-like ideas are relatively easy to generate but relatively unlikely to survive publication, then the published human baseline will understate their prevalence in the unseen human idea pool. The observed human--LLM gap may therefore be partly, or even largely, a consequence of survivorship bias.",
+    "path": "papers/26/09/2609.15996.json",
+    "total_tokens": 995,
+    "translated_title": "对arXiv:2607.01233的评论：研究想法分布中已发表论文基线的幸存者偏差",
+    "translated_abstract": "arXiv:2609.15996v1 公告类型：新论文 摘要：Chen、Zhao和Cohan提出了一项有价值的LLM生成研究想法的分布评估。本评论指出了一个更具体的识别性问题：他们的人类基线由已发表的论文组成，而LLM基线则由一次性生成的提案组成。如果桥接型或综合型的研究想法相对容易生成，但相对不太可能通过发表流程存活下来，那么以已发表论文构建的人类基线将低估这类想法在未被观察到的完整人类想法池中的普遍程度。因此，所观察到的人类与LLM之间的差距可能部分地、甚至很大程度上是幸存者偏差造成的。",
+    "tldr": "本文指出在对比LLM与人类研究想法时，以已发表论文作为人类基线存在幸存者偏差，因此观察到的人机差距可能部分甚至很大程度上是这一偏差造成的。",
+    "en_tdlr": "This comment argues that using published papers as the human baseline introduces survivorship bias, so the observed gap between LLM and human research ideas may be partly or even largely a consequence of this bias."
+}

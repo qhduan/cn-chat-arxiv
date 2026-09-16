@@ -1,0 +1,12 @@
+{
+    "title": "Data-Driven Soft Labeling Scales DNA Read Classification to Whole-Body Cell-Type Deconvolution",
+    "abstract": "arXiv:2607.04987v3 Announce Type: replace  Abstract: Revised following peer review. We expanded baseline comparisons, corrected evaluation leakage and read-boundary handling, clarified the confidence-weighted loss, and added sensitivity analyses for pooling and region selection. We also expanded TCS failure-mode and limitations analyses, added a discussion section, and provided code and data links for reproducibility.",
+    "link": "https://arxiv.org/abs/2607.04987",
+    "context": "Title: Data-Driven Soft Labeling Scales DNA Read Classification to Whole-Body Cell-Type Deconvolution\nAbstract: arXiv:2607.04987v3 Announce Type: replace  Abstract: Revised following peer review. We expanded baseline comparisons, corrected evaluation leakage and read-boundary handling, clarified the confidence-weighted loss, and added sensitivity analyses for pooling and region selection. We also expanded TCS failure-mode and limitations analyses, added a discussion section, and provided code and data links for reproducibility.",
+    "path": "papers/26/07/2607.04987.json",
+    "total_tokens": 968,
+    "translated_title": "数据驱动的软标签将DNA读段分类扩展至全身细胞类型反卷积",
+    "translated_abstract": "本文根据同行评审意见进行了修订。我们扩展了基线比较，修正了评估中的数据泄漏和读段边界处理问题，澄清了置信度加权损失函数，并增加了关于池化和区域选择的敏感性分析。我们还扩展了TCS失效模式和局限性分析，新增了讨论部分，并提供了代码和数据链接以保证研究的可复现性。",
+    "tldr": "该论文提出一种数据驱动的软标签方法，能够将DNA读段分类规模化扩展至全身细胞类型反卷积任务。",
+    "en_tdlr": "The paper proposes a data-driven soft labeling approach that scales DNA read classification to whole-body cell-type deconvolution."
+}

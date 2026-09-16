@@ -1,0 +1,12 @@
+{
+    "title": "Vroom-Vroom at SHROOM-Visions: A Multi-Judge Committee for Detecting Hallucinated Spans in Vision-Language Outputs",
+    "abstract": "arXiv:2609.17327v1 Announce Type: cross  Abstract: This paper describes our submission to the SHROOM-Visions shared task on detecting and classifying hallucinated character spans in vision-language model outputs across four languages. We employ several fine-tuned vision-language models as independent annotators and combine their span predictions through character-level majority voting, and additionally explore activation probes. The approach ranks first in three of four languages and places on the podium in every language and metric. Our analysis indicates that disagreement among diverse models tracks disagreement among human annotators.",
+    "link": "https://arxiv.org/abs/2609.17327",
+    "context": "Title: Vroom-Vroom at SHROOM-Visions: A Multi-Judge Committee for Detecting Hallucinated Spans in Vision-Language Outputs\nAbstract: arXiv:2609.17327v1 Announce Type: cross  Abstract: This paper describes our submission to the SHROOM-Visions shared task on detecting and classifying hallucinated character spans in vision-language model outputs across four languages. We employ several fine-tuned vision-language models as independent annotators and combine their span predictions through character-level majority voting, and additionally explore activation probes. The approach ranks first in three of four languages and places on the podium in every language and metric. Our analysis indicates that disagreement among diverse models tracks disagreement among human annotators.",
+    "path": "papers/26/09/2609.17327.json",
+    "total_tokens": 923,
+    "translated_title": "Vroom-Vroom参加SHROOM-Visions竞赛：一种用于检测视觉-语言输出中幻觉片段的多裁判委员会方法",
+    "translated_abstract": "本文描述了我们对SHROOM-Visions共享任务的提交方案，该任务旨在检测和分类视觉-语言模型输出中四种语言里的幻觉字符片段。我们采用多个微调后的视觉-语言模型作为独立标注者，并通过字符级多数投票融合它们的片段预测结果，此外还探索了激活探针方法。该方法在四种语言中的三种排名第一，并在所有语言和指标上均登上领奖台。我们的分析表明，不同模型之间的分歧能够反映人类标注者之间的分歧。",
+    "tldr": "该论文提出一种多裁判委员会方法，通过多个微调视觉-语言模型的字符级多数投票来检测视觉-语言输出中的幻觉片段，在SHROOM-Visions竞赛四种语言中的三种排名第一。",
+    "en_tdlr": "This paper proposes a multi-judge committee approach that detects hallucinated spans in vision-language outputs via character-level majority voting across multiple fine-tuned vision-language models, ranking first in three of four languages in the SHROOM-Visions shared task."
+}

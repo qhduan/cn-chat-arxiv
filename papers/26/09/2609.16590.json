@@ -1,0 +1,12 @@
+{
+    "title": "Challenges of Auditing: Variability in Outputs of Large Language Models for Health",
+    "abstract": "arXiv:2609.16590v1 Announce Type: new  Abstract: People increasingly use frontier AI models for health advice, but via different access modes (e.g., ChatGPT, ChatGPT Health, APIs) with varying settings. Here, we find systematic differences across access modes. Because evaluations typically rely on APIs while consumers interact through chatbot interfaces, these discrepancies limit evaluation validity. Our findings underscore an urgent need for model providers to enable faithful replication of consumer experiences and settings for rigorous audits.",
+    "link": "https://arxiv.org/abs/2609.16590",
+    "context": "Title: Challenges of Auditing: Variability in Outputs of Large Language Models for Health\nAbstract: arXiv:2609.16590v1 Announce Type: new  Abstract: People increasingly use frontier AI models for health advice, but via different access modes (e.g., ChatGPT, ChatGPT Health, APIs) with varying settings. Here, we find systematic differences across access modes. Because evaluations typically rely on APIs while consumers interact through chatbot interfaces, these discrepancies limit evaluation validity. Our findings underscore an urgent need for model providers to enable faithful replication of consumer experiences and settings for rigorous audits.",
+    "path": "papers/26/09/2609.16590.json",
+    "total_tokens": 850,
+    "translated_title": "审计的挑战：大语言模型在健康领域输出的变异性",
+    "translated_abstract": "人们越来越多地使用前沿AI模型获取健康建议，但访问方式各不相同（如ChatGPT、ChatGPT Health、API），且相关设置存在差异。本研究发现，不同访问方式之间存在系统性的输出差异。由于学术评估通常依赖API，而消费者实际通过聊天机器人界面进行交互，这种差异限制了评估结果的有效性。我们的发现凸显了模型提供商迫切需要支持对消费者实际体验和设置进行忠实复现，以便开展严格的审计工作。",
+    "tldr": "该研究揭示了大语言模型在健康建议方面因访问方式不同（如API与聊天界面）而产生的系统性输出差异，指出当前基于API的评估无法真实反映消费者体验，并呼吁模型提供商支持忠实复现消费者设置的严格审计。",
+    "en_tdlr": "This study reveals systematic differences in large language model health outputs across access modes (e.g., APIs vs. chatbot interfaces), showing that API-based evaluations fail to reflect consumer experiences and urging model providers to enable faithful replication of consumer settings for rigorous audits."
+}

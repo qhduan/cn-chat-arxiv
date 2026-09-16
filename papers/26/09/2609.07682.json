@@ -1,0 +1,12 @@
+{
+    "title": "Very Justified Envy",
+    "abstract": "arXiv:2609.07682v2 Announce Type: replace  Abstract: This paper studies the intensity of priority violations in matching markets. An agent is said to have very justified envy if she prefers another agent's match to her own and her priority advantage for the object exceeds $k$ ranks. I show that unless $k$ is prohibitively large, Pareto efficiency is incompatible with the elimination of very justified envy. A simple generalization of Deferred Acceptance and Immediate Acceptance is shown to eliminate very justified envy for any $k$. In simulations of random matching markets, I find that modest relaxations to justified envy can yield significant improvements in assignment ranks.",
+    "link": "https://arxiv.org/abs/2609.07682",
+    "context": "Title: Very Justified Envy\nAbstract: arXiv:2609.07682v2 Announce Type: replace  Abstract: This paper studies the intensity of priority violations in matching markets. An agent is said to have very justified envy if she prefers another agent's match to her own and her priority advantage for the object exceeds $k$ ranks. I show that unless $k$ is prohibitively large, Pareto efficiency is incompatible with the elimination of very justified envy. A simple generalization of Deferred Acceptance and Immediate Acceptance is shown to eliminate very justified envy for any $k$. In simulations of random matching markets, I find that modest relaxations to justified envy can yield significant improvements in assignment ranks.",
+    "path": "papers/26/09/2609.07682.json",
+    "total_tokens": 1081,
+    "translated_title": "非常正当的嫉妒",
+    "translated_abstract": "本文研究了匹配市场中优先权违背的强度问题。如果一个代理人更偏好另一个代理人的匹配结果，并且她对某物品的优先权优势超过 $k$ 个名次，则称该代理人具有“非常正当的嫉妒”。我证明，除非 $k$ 大到不合实际的程度，否则帕累托效率与消除非常正当的嫉妒是不相容的。我提出了延迟接受算法和立即接受算法的一个简单推广，证明该推广能够在任意 $k$ 下消除非常正当的嫉妒。在随机匹配市场的模拟中，我发现对正当嫉妒的适度放宽可以显著改善分配名次。",
+    "tldr": "本文提出“非常正当的嫉妒”概念来量化匹配市场中优先权违背的强度，证明除非阈值极大否则帕累托效率与消除该嫉妒不相容，并通过推广延迟接受和立即接受算法实现了对任意阈值的消除。",
+    "en_tdlr": "This paper introduces the concept of \"very justified envy\" to quantify the intensity of priority violations in matching markets, proves that Pareto efficiency is incompatible with its elimination unless the threshold k is prohibitively large, and shows that a simple generalization of Deferred Acceptance and Immediate Acceptance eliminates it for any k."
+}

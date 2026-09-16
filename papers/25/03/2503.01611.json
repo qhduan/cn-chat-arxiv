@@ -1,0 +1,12 @@
+{
+    "title": "In-context Learning vs. Instruction Tuning: The Case of Small and Multilingual Language Models",
+    "abstract": "arXiv:2503.01611v4 Announce Type: replace  Abstract: Instruction following is a critical ability for Large Language Models to be used directly by humans. This often requires supervised fine-tuning on curated instruction datasets, sometimes complemented with an alignment step. However, in multilingual scenarios, obtaining high-quality data for these stages remains challenging, motivating the exploration of In-Context Learning (ICL) as a possible alternative. In this work, we study whether ICL can serve as a substitute for Instruction Tuning in multilingual language models, while also examining how the comparison changes with model scale. Our results indicate that a gap remains between ICL and Instruction Tuning, motivating further research to reduce it.",
+    "link": "https://arxiv.org/abs/2503.01611",
+    "context": "Title: In-context Learning vs. Instruction Tuning: The Case of Small and Multilingual Language Models\nAbstract: arXiv:2503.01611v4 Announce Type: replace  Abstract: Instruction following is a critical ability for Large Language Models to be used directly by humans. This often requires supervised fine-tuning on curated instruction datasets, sometimes complemented with an alignment step. However, in multilingual scenarios, obtaining high-quality data for these stages remains challenging, motivating the exploration of In-Context Learning (ICL) as a possible alternative. In this work, we study whether ICL can serve as a substitute for Instruction Tuning in multilingual language models, while also examining how the comparison changes with model scale. Our results indicate that a gap remains between ICL and Instruction Tuning, motivating further research to reduce it.",
+    "path": "papers/25/03/2503.01611.json",
+    "total_tokens": 966,
+    "translated_title": "上下文学习与指令微调的对比：小型多语言语言模型的案例研究",
+    "translated_abstract": "指令遵循是大语言模型能够被人类直接使用的关键能力。这通常需要在精心策划的指令数据集上进行监督微调，有时还需辅以对齐步骤。然而，在多语言场景中，为这些阶段获取高质量数据仍然具有挑战性，这促使人们探索上下文学习（ICL）作为可能的替代方案。在这项工作中，我们研究了ICL能否在多语言语言模型中替代指令微调，同时考察了这种比较随模型规模变化的情况。我们的结果表明，ICL与指令微调之间仍存在差距，这激发了进一步研究以缩小该差距的动力。",
+    "tldr": "本研究探讨了上下文学习（ICL）能否在小型多语言语言模型中替代指令微调，发现两者之间仍存在性能差距，且该对比结果随模型规模而变化。",
+    "en_tdlr": "This study investigates whether In-Context Learning (ICL) can substitute for Instruction Tuning in small multilingual language models, finding that a performance gap still remains between the two approaches, with results varying by model scale."
+}

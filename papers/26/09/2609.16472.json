@@ -1,0 +1,12 @@
+{
+    "title": "Online Gradient Computation for Warping Gaussian Process Transformations",
+    "abstract": "arXiv:2609.16472v1 Announce Type: new  Abstract: Warped Gaussian processes (GPs) handle non-Gaussian observations by mapping them into a latent standard GP via a parametric transformation called warping. Existing streaming variants, however, either optimize the warping parameters periodically or sacrifice analytical tractability for a higher model capacity. To bridge this gap, we show that the gradient of the instantaneous negative log-likelihood of a warped GP admits an exact recursive computation. Based on this result, we propose a novel online method for warped GPs that jointly updates the latent GP moments and optimizes the warping parameters.",
+    "link": "https://arxiv.org/abs/2609.16472",
+    "context": "Title: Online Gradient Computation for Warping Gaussian Process Transformations\nAbstract: arXiv:2609.16472v1 Announce Type: new  Abstract: Warped Gaussian processes (GPs) handle non-Gaussian observations by mapping them into a latent standard GP via a parametric transformation called warping. Existing streaming variants, however, either optimize the warping parameters periodically or sacrifice analytical tractability for a higher model capacity. To bridge this gap, we show that the gradient of the instantaneous negative log-likelihood of a warped GP admits an exact recursive computation. Based on this result, we propose a novel online method for warped GPs that jointly updates the latent GP moments and optimizes the warping parameters.",
+    "path": "papers/26/09/2609.16472.json",
+    "total_tokens": 891,
+    "translated_title": "扭曲高斯过程变换的在线梯度计算",
+    "translated_abstract": "扭曲高斯过程通过一种称为“扭曲”的参数化变换，将非高斯观测数据映射到潜在的标准高斯过程进行处理。然而，现有的流式变体要么需要周期性地优化扭曲参数，要么为获得更高的模型容量而牺牲解析可处理性。为弥补这一空白，我们证明了扭曲高斯过程的瞬时负对数似然梯度可以进行精确的递归计算。基于这一结果，我们提出了一种新颖的扭曲高斯过程在线方法，该方法能够联合更新潜在高斯过程的矩并优化扭曲参数。",
+    "tldr": "本文证明了扭曲高斯过程瞬时负对数似然的梯度可进行精确递归计算，并据此提出一种能够同时更新潜在GP矩和优化扭曲参数的新型在线方法。",
+    "en_tdlr": "We prove that the gradient of the instantaneous negative log-likelihood of warped GPs admits exact recursive computation, enabling a novel online method that jointly updates the latent GP moments and optimizes the warping parameters."
+}

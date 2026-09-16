@@ -1,0 +1,12 @@
+{
+    "title": "Vision And Text Transformer For Predicting Answerability On Visual Question Answering",
+    "abstract": "arXiv:2609.16565v1 Announce Type: cross  Abstract: Answerability on Visual Question Answering is a novel and attractive task to predict answerable scores between images and questions in multi-modal data. Existing works often utilize a binary mapping from visual question answering systems into Answerability. It does not reflect the essence of this problem. Together with our consideration of Answerability in a regression task, we propose VT-Transformer, which exploits visual and textual features through Transformer architecture. Experimental results on VizWiz 2020 dataset show the effectiveness and robustness of VT-Transformer for Answerability on Visual Question Answering when comparing with competitive baselines.",
+    "link": "https://arxiv.org/abs/2609.16565",
+    "context": "Title: Vision And Text Transformer For Predicting Answerability On Visual Question Answering\nAbstract: arXiv:2609.16565v1 Announce Type: cross  Abstract: Answerability on Visual Question Answering is a novel and attractive task to predict answerable scores between images and questions in multi-modal data. Existing works often utilize a binary mapping from visual question answering systems into Answerability. It does not reflect the essence of this problem. Together with our consideration of Answerability in a regression task, we propose VT-Transformer, which exploits visual and textual features through Transformer architecture. Experimental results on VizWiz 2020 dataset show the effectiveness and robustness of VT-Transformer for Answerability on Visual Question Answering when comparing with competitive baselines.",
+    "path": "papers/26/09/2609.16565.json",
+    "total_tokens": 943,
+    "translated_title": "用于预测视觉问答可回答性的视觉与文本Transformer",
+    "translated_abstract": "视觉问答中的可回答性预测是一项新颖且有吸引力的任务，用于预测多模态数据中图像与问题之间的可回答分数。现有工作通常采用从视觉问答系统到可回答性的二元映射，这并不能反映该问题的本质。结合我们将可回答性视为回归任务的考量，我们提出了VT-Transformer，它通过Transformer架构充分利用视觉和文本特征。在VizWiz 2020数据集上的实验结果表明，与竞争性基线方法相比，VT-Transformer在视觉问答可回答性预测任务上表现出了有效性和鲁棒性。",
+    "tldr": "本文提出VT-Transformer模型，将视觉问答中的可回答性预测作为回归任务处理，通过Transformer架构融合视觉与文本特征，在VizWiz 2020数据集上验证了其相比基线方法的有效性和鲁棒性。",
+    "en_tdlr": "This paper proposes VT-Transformer, which treats answerability prediction in Visual Question Answering as a regression task and leverages visual and textual features through a Transformer architecture, demonstrating effectiveness and robustness over competitive baselines on the VizWiz 2020 dataset."
+}
