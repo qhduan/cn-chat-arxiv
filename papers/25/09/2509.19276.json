@@ -1,0 +1,12 @@
+{
+    "title": "A Gradient Flow Approach to Solving Inverse Problems with Latent Diffusion Models",
+    "abstract": "arXiv:2509.19276v2 Announce Type: replace-cross  Abstract: Solving ill-posed inverse problems requires powerful and flexible priors. We propose leveraging pretrained latent diffusion models for this task through a new training-free approach, termed Diffusion-regularized Wasserstein Gradient Flow (DWGF). Specifically, we formulate the posterior sampling problem as a Wasserstein gradient flow in the latent space of an expected negative log posterior objective, regularized by a Kullback-Leibler divergence to the diffusion prior. We demonstrate the performance of our method on standard benchmarks using StableDiffusion (Rombach et al., 2022) as the prior.",
+    "link": "https://arxiv.org/abs/2509.19276",
+    "context": "Title: A Gradient Flow Approach to Solving Inverse Problems with Latent Diffusion Models\nAbstract: arXiv:2509.19276v2 Announce Type: replace-cross  Abstract: Solving ill-posed inverse problems requires powerful and flexible priors. We propose leveraging pretrained latent diffusion models for this task through a new training-free approach, termed Diffusion-regularized Wasserstein Gradient Flow (DWGF). Specifically, we formulate the posterior sampling problem as a Wasserstein gradient flow in the latent space of an expected negative log posterior objective, regularized by a Kullback-Leibler divergence to the diffusion prior. We demonstrate the performance of our method on standard benchmarks using StableDiffusion (Rombach et al., 2022) as the prior.",
+    "path": "papers/25/09/2509.19276.json",
+    "total_tokens": 903,
+    "translated_title": "一种利用潜在扩散模型求解逆问题的梯度流方法",
+    "translated_abstract": "求解不适定逆问题需要强大且灵活的先验。我们提出利用预训练的潜在扩散模型来完成这一任务，采用一种新的免训练方法，称为扩散正则化Wasserstein梯度流。具体而言，我们将后验采样问题表述为潜在空间中期望负对数后验目标的Wasserstein梯度流，并通过与扩散先验之间的Kullback-Leibler散度进行正则化。我们以StableDiffusion (Rombach et al., 2022) 作为先验，在标准基准上展示了我们方法的性能。",
+    "tldr": "提出了一种免训练的扩散正则化Wasserstein梯度流方法（DWGF），利用预训练潜在扩散模型作为先验来求解不适定逆问题。",
+    "en_tdlr": "Proposes a training-free Diffusion-regularized Wasserstein Gradient Flow (DWGF) method that leverages pretrained latent diffusion models as priors to solve ill-posed inverse problems."
+}

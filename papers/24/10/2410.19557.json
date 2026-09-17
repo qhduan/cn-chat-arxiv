@@ -1,0 +1,12 @@
+{
+    "title": "Truth, Lies, and Social Ties: When Image Concerns Fuel Fake News",
+    "abstract": "arXiv:2410.19557v5 Announce Type: replace  Abstract: We study how social image concerns shape information sharing among peers. Individuals receive a signal about a binary state with an observable direction and a veracity that can be learned only through costly verification, which depends on type. We analyze two motives: a desire to appear competent and a desire to signal one's worldview. For each, we characterize equilibrium sharing, derive implications for the relative diffusion of true versus false news, and compare welfare. The two motives can both generate greater sharing of false than factual news but imply distinct, testable patterns which we relate to existing empirical evidence.",
+    "link": "https://arxiv.org/abs/2410.19557",
+    "context": "Title: Truth, Lies, and Social Ties: When Image Concerns Fuel Fake News\nAbstract: arXiv:2410.19557v5 Announce Type: replace  Abstract: We study how social image concerns shape information sharing among peers. Individuals receive a signal about a binary state with an observable direction and a veracity that can be learned only through costly verification, which depends on type. We analyze two motives: a desire to appear competent and a desire to signal one's worldview. For each, we characterize equilibrium sharing, derive implications for the relative diffusion of true versus false news, and compare welfare. The two motives can both generate greater sharing of false than factual news but imply distinct, testable patterns which we relate to existing empirical evidence.",
+    "path": "papers/24/10/2410.19557.json",
+    "total_tokens": 926,
+    "translated_title": "真相、谎言与社会纽带：形象顾虑何时助长假新闻",
+    "translated_abstract": "我们研究了社会形象顾虑如何塑造同伴之间的信息分享。个体接收一个关于二元状态的信号，该信号具有可观察的方向，其真实性只能通过有成本的验证来获知，而验证取决于个体类型。我们分析了两种动机：希望显得有能力的欲望，以及表明自身世界观的欲望。针对每一种动机，我们刻画了均衡分享行为，推导出其对真实新闻与虚假新闻相对传播的影响，并比较了福利。这两种动机都可能使得虚假新闻的分享多于真实新闻，但它们蕴含着不同的、可检验的模式，我们将这些模式与现有的实证证据联系起来。",
+    "tldr": "本文通过理论模型证明，显能力与显世界观这两种形象动机均可导致假新闻比真新闻传播更广，但二者产生截然不同且可检验的传播模式，可与实证证据相互印证。",
+    "en_tdlr": "This paper develops a theoretical model showing that two image motives—the desire to appear competent and the desire to signal one's worldview—can both drive greater diffusion of false than factual news, yet imply distinct, testable patterns that align with existing empirical evidence."
+}

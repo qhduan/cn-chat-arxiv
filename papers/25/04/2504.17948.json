@@ -1,0 +1,12 @@
+{
+    "title": "Robust Contracting for Sequential Search",
+    "abstract": "arXiv:2504.17948v3 Announce Type: replace  Abstract: A principal contracts with an agent who sequentially searches over projects to generate a prize. The principal is unaware of the agent's full set of projects and evaluates a contract by its worst-case performance. We characterize the principal's robustly optimal contracts, which are all debt-like: the agent is paid only when the prize exceeds a threshold. Debt is optimal because it preserves the agent's incentive to continue exploring, discouraging the agent from settling down for cheap, safe alternatives. Our predictions map to contracts used to incentivize innovation in practice.",
+    "link": "https://arxiv.org/abs/2504.17948",
+    "context": "Title: Robust Contracting for Sequential Search\nAbstract: arXiv:2504.17948v3 Announce Type: replace  Abstract: A principal contracts with an agent who sequentially searches over projects to generate a prize. The principal is unaware of the agent's full set of projects and evaluates a contract by its worst-case performance. We characterize the principal's robustly optimal contracts, which are all debt-like: the agent is paid only when the prize exceeds a threshold. Debt is optimal because it preserves the agent's incentive to continue exploring, discouraging the agent from settling down for cheap, safe alternatives. Our predictions map to contracts used to incentivize innovation in practice.",
+    "path": "papers/25/04/2504.17948.json",
+    "total_tokens": 857,
+    "translated_title": "序贯搜索中的稳健契约设计",
+    "translated_abstract": "委托人与代理人签订契约，代理人通过序贯搜索项目来产生一项收益。委托人并不了解代理人所拥有的完整项目集合，并以最坏情况下的表现来评估契约。我们刻画了委托人的稳健最优契约，这些契约均呈债务特征：只有当收益超过某一阈值时，代理人才获得支付。债务契约之所以最优，是因为它保留了代理人继续探索的激励，防止代理人安于廉价、安全的替代选择。我们的预测与实践中用于激励创新的契约相吻合。",
+    "tldr": "本文刻画了序贯搜索环境下委托人的稳健最优契约，证明类债务契约（收益超过阈值才支付代理人）是最优的，因为它能保持代理人持续探索的激励，避免其安于廉价安全的选择。",
+    "en_tdlr": "This paper characterizes the principal's robustly optimal contracts in sequential search settings, showing that debt-like contracts—where the agent is paid only when the prize exceeds a threshold—are optimal because they preserve the agent's incentive to keep exploring rather than settling for cheap, safe alternatives."
+}

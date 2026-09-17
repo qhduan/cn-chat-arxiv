@@ -1,0 +1,12 @@
+{
+    "title": "Equilibrium Selection in Coordination Games with Planned Actions and Scouting",
+    "abstract": "arXiv:2609.17608v1 Announce Type: new  Abstract: We study coordination games in which every action requires planning and preparation. Before players act, they can revise their plans based on partially revealing information about their adversary's preparations. Precise information enables agents to screen for cooperation, selecting the payoff-dominant equilibrium either via small exogenous trembles or via payoff uncertainty. Across scenarios, we emphasize that decomposing an action into (i) preparation and (ii) execution allows us to analyze simultaneous-move games where players partially observe each other's contemporaneous actions.",
+    "link": "https://arxiv.org/abs/2609.17608",
+    "context": "Title: Equilibrium Selection in Coordination Games with Planned Actions and Scouting\nAbstract: arXiv:2609.17608v1 Announce Type: new  Abstract: We study coordination games in which every action requires planning and preparation. Before players act, they can revise their plans based on partially revealing information about their adversary's preparations. Precise information enables agents to screen for cooperation, selecting the payoff-dominant equilibrium either via small exogenous trembles or via payoff uncertainty. Across scenarios, we emphasize that decomposing an action into (i) preparation and (ii) execution allows us to analyze simultaneous-move games where players partially observe each other's contemporaneous actions.",
+    "path": "papers/26/09/2609.17608.json",
+    "total_tokens": 845,
+    "translated_title": "具有计划行动与侦察的协调博弈中的均衡选择",
+    "translated_abstract": "我们研究了一类每个行动都需要计划与准备的协调博弈。在参与者采取行动之前，他们可以根据关于对手准备情况的部分揭示信息来修正自己的计划。精确的信息使参与者能够甄别合作行为，从而通过微小的外生扰动或收益不确定性来选择收益占优均衡。在各类情境中，我们强调将行动分解为准备和执行两个阶段，这使我们能够分析参与者可以部分观察到彼此同期行动的同时行动博弈。",
+    "tldr": "该论文将行动分解为准备与执行两个阶段，研究了参与者可依据对手准备情况的部分信息修正计划的协调博弈，证明精确信息可通过微小外生扰动或收益不确定性帮助实现收益占优均衡的选择。",
+    "en_tdlr": "This paper decomposes actions into preparation and execution stages to study coordination games where players revise plans based on partially revealing information about opponents' preparations, showing that precise information enables selection of the payoff-dominant equilibrium via small exogenous trembles or payoff uncertainty."
+}

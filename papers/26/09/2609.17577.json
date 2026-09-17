@@ -1,0 +1,12 @@
+{
+    "title": "R\\'enyi Tracking Bounds for Langevin Dynamics with Moving Targets",
+    "abstract": "arXiv:2609.17577v1 Announce Type: cross  Abstract: We study Langevin diffusion and Langevin Monte Carlo (LMC) when the target distribution changes over time. Under a log-Sobolev inequality (LSI), we derive non-asymptotic R\\'enyi-divergence guarantees for tracking the current target. The framework covers continuous-time Langevin diffusion and its discretizations. We then apply the results to nonsmooth sampling based on successive Moreau envelopes. For this scheme, we give explicit choices of the smoothing parameters and step sizes, together with corresponding complexity bounds. To our knowledge, these are the first non-asymptotic R\\'enyi-divergence tracking bounds for Langevin dynamics with discrete target updates.",
+    "link": "https://arxiv.org/abs/2609.17577",
+    "context": "Title: R\\'enyi Tracking Bounds for Langevin Dynamics with Moving Targets\nAbstract: arXiv:2609.17577v1 Announce Type: cross  Abstract: We study Langevin diffusion and Langevin Monte Carlo (LMC) when the target distribution changes over time. Under a log-Sobolev inequality (LSI), we derive non-asymptotic R\\'enyi-divergence guarantees for tracking the current target. The framework covers continuous-time Langevin diffusion and its discretizations. We then apply the results to nonsmooth sampling based on successive Moreau envelopes. For this scheme, we give explicit choices of the smoothing parameters and step sizes, together with corresponding complexity bounds. To our knowledge, these are the first non-asymptotic R\\'enyi-divergence tracking bounds for Langevin dynamics with discrete target updates.",
+    "path": "papers/26/09/2609.17577.json",
+    "total_tokens": 1003,
+    "translated_title": "具有移动目标的朗之万动力学的Rényi追踪界",
+    "translated_abstract": "我们研究了当目标分布随时间变化时的朗之万扩散和朗之万蒙特卡洛（LMC）。在对数Sobolev不等式（LSI）的条件下，我们推导出了用于追踪当前目标的非渐近Rényi散度保证。该框架同时涵盖连续时间朗之万扩散及其离散化形式。随后，我们将这些结果应用于基于连续Moreau包络的非光滑采样方法。针对该方案，我们给出了平滑参数和步长的显式选择，以及相应的复杂度界。据我们所知，这些是首个针对具有离散目标更新的朗之万动力学的非渐近Rényi散度追踪界。",
+    "tldr": "该论文首次建立了具有离散目标更新的朗之万动力学的非渐近Rényi散度追踪界，并将其应用于基于连续Moreau包络的非光滑采样，给出了显式的参数选择和复杂度保证。",
+    "en_tdlr": "This paper establishes the first non-asymptotic Rényi-divergence tracking bounds for Langevin dynamics with discrete target updates and applies them to nonsmooth sampling via successive Moreau envelopes with explicit parameter choices and complexity guarantees."
+}

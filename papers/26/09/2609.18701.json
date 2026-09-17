@@ -1,0 +1,11 @@
+{
+    "title": "Comparison of Deterministic Information Providers",
+    "abstract": "arXiv:2609.18701v1 Announce Type: new  Abstract: We analyze incomplete-information games where an oracle publicly shares information with players. One oracle dominates another if, in every game, it can match the set of equilibrium outcomes induced by the latter. Characterizations are provided for deterministic signaling functions, based on simultaneous posterior matching, a constructive partition criterion, and common knowledge components. This study elaborates on the work of Blackwell (1951) in games with incomplete information, using the common knowledge components of Aumann (1976).",
+    "link": "https://arxiv.org/abs/2609.18701",
+    "context": "Title: Comparison of Deterministic Information Providers\nAbstract: arXiv:2609.18701v1 Announce Type: new  Abstract: We analyze incomplete-information games where an oracle publicly shares information with players. One oracle dominates another if, in every game, it can match the set of equilibrium outcomes induced by the latter. Characterizations are provided for deterministic signaling functions, based on simultaneous posterior matching, a constructive partition criterion, and common knowledge components. This study elaborates on the work of Blackwell (1951) in games with incomplete information, using the common knowledge components of Aumann (1976).",
+    "path": "papers/26/09/2609.18701.json",
+    "total_tokens": 799,
+    "translated_title": "确定性信息提供者的比较",
+    "translated_abstract": "我们分析了不完全信息博弈，其中一个“神谕”与参与者公开分享信息。如果一个神谕在每个博弈中都能复制出另一个神谕所诱导的均衡结果集合，则称前者支配后者。本文基于同时后验匹配、一种构造性划分准则以及共同知识成分，对确定性信号函数给出了刻画。本研究借助Aumann（1976）提出的共同知识成分，扩展了Blackwell（1951）在不完全信息博弈方面的经典工作。",
+    "tldr": "该论文提出以支配关系比较不完全信息博弈中的确定性信息提供者，并基于同时后验匹配、构造性划分准则和共同知识成分给出信号函数的刻画，扩展了Blackwell的经典研究。"
+}

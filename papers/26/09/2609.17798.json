@@ -1,0 +1,12 @@
+{
+    "title": "Random tilts to find stationary points in stochastic convex optimization",
+    "abstract": "arXiv:2609.17798v1 Announce Type: cross  Abstract: We consider the problem of finding stationary points of stochastic convex functions and related variational inequalities. For each, we show that regularized empirical risk minimization, coupled with a random tilting perturbation, obtains stationarity residual order $\\sqrt{d/n}$ for $d$-dimensional problems given $n$ observations. We present a few complementary results that show that some dimension dependence is necessary, in distinction from standard stochastic optimization and empirical risk minimization, by providing minimax lower bounds scaling as $\\sqrt{\\log d / n}$.",
+    "link": "https://arxiv.org/abs/2609.17798",
+    "context": "Title: Random tilts to find stationary points in stochastic convex optimization\nAbstract: arXiv:2609.17798v1 Announce Type: cross  Abstract: We consider the problem of finding stationary points of stochastic convex functions and related variational inequalities. For each, we show that regularized empirical risk minimization, coupled with a random tilting perturbation, obtains stationarity residual order $\\sqrt{d/n}$ for $d$-dimensional problems given $n$ observations. We present a few complementary results that show that some dimension dependence is necessary, in distinction from standard stochastic optimization and empirical risk minimization, by providing minimax lower bounds scaling as $\\sqrt{\\log d / n}$.",
+    "path": "papers/26/09/2609.17798.json",
+    "total_tokens": 933,
+    "translated_title": "随机倾斜法求解随机凸优化中的驻点",
+    "translated_abstract": "我们研究寻找随机凸函数及相关变分不等式驻点的问题。对于这些问题，我们证明了正则化经验风险最小化结合随机倾斜扰动，在给定 n 个观测值的 d 维问题中，可以获得量级为 $\\sqrt{d/n}$ 的驻点残差。我们还给出了一些补充结果，通过提供随 $\\sqrt{\\log d / n}$ 缩放的极小极大下界，表明与标准随机优化和经验风险最小化不同，一定的维度依赖性是必要的。",
+    "tldr": "该论文证明正则化经验风险最小化结合随机倾斜扰动能以 $\\sqrt{d/n}$ 的残差阶找到随机凸函数及相关变分不等式的驻点，并通过 $\\sqrt{\\log d/n}$ 量级的极小极大下界表明一定的维度依赖性是不可避免的。",
+    "en_tdlr": "This paper shows that regularized empirical risk minimization coupled with random tilting perturbations achieves stationarity residual order $\\sqrt{d/n}$ for stochastic convex functions and variational inequalities, and proves via minimax lower bounds of order $\\sqrt{\\log d/n}$ that some dimension dependence is unavoidable."
+}
