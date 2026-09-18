@@ -1,0 +1,12 @@
+{
+    "title": "Estimating the Energy Footprint of Software Systems: a Primer",
+    "abstract": "arXiv:2407.11611v3 Announce Type: replace  Abstract: In Green Software Development, quantifying the energy footprint of a software system is one of the most basic activities. This documents provides a high-level overview of how the energy footprint of a software system can be estimated to support Green Software Development. We introduce basic concepts in the area, highlight methodological issues that must be accounted for when conducting experiments, discuss trade-offs associated with different estimation approaches, and make some practical considerations. This document aims to be a starting point for researchers who want to begin conducting work in this area.",
+    "link": "https://arxiv.org/abs/2407.11611",
+    "context": "Title: Estimating the Energy Footprint of Software Systems: a Primer\nAbstract: arXiv:2407.11611v3 Announce Type: replace  Abstract: In Green Software Development, quantifying the energy footprint of a software system is one of the most basic activities. This documents provides a high-level overview of how the energy footprint of a software system can be estimated to support Green Software Development. We introduce basic concepts in the area, highlight methodological issues that must be accounted for when conducting experiments, discuss trade-offs associated with different estimation approaches, and make some practical considerations. This document aims to be a starting point for researchers who want to begin conducting work in this area.",
+    "path": "papers/24/07/2407.11611.json",
+    "total_tokens": 796,
+    "translated_title": "软件系统能源足迹估算：入门指南",
+    "translated_abstract": "在绿色软件开发中，量化软件系统的能源足迹是最基本的活动之一。本文档提供了关于如何估算软件系统能源足迹以支持绿色软件开发的高层次概述。我们介绍了该领域的基本概念，强调了进行实验时必须考虑的方法学问题，讨论了与不同估算方法相关的权衡取舍，并提出了一些实用建议。本文档旨在为希望开始在该领域开展研究工作的研究人员提供一个起点。",
+    "tldr": "本文为绿色软件开发领域的研究人员提供了一份关于软件系统能源足迹估算的入门指南，涵盖了基本概念、方法学问题、不同估算方法的权衡以及实用建议。",
+    "en_tdlr": "This paper serves as a primer for researchers to begin work on estimating the energy footprint of software systems in Green Software Development, introducing basic concepts, methodological issues, trade-offs of estimation approaches, and practical considerations."
+}

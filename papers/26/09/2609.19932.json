@@ -1,0 +1,12 @@
+{
+    "title": "Rational Bargaining: Characterization and Implementation",
+    "abstract": "arXiv:2609.19932v1 Announce Type: new  Abstract: The von Neumann-Morgenstern axioms are uncontroversial desiderata for individual decision-making. We say that a bargaining solution is rational if it can be interpreted as the most preferred alternatives under these axioms. Yet, neither the Nash nor the Kalai-Smorodinsky bargaining solution is rational in this sense. We formalize two consequences of rationality, namely that one can neither be strictly better off nor strictly worse off from randomizing over different actions. These two axioms, together with other standard axioms, characterize the relative utilitarian bargaining solution. We then implement this bargaining solution in sub-game perfect equilibrium.",
+    "link": "https://arxiv.org/abs/2609.19932",
+    "context": "Title: Rational Bargaining: Characterization and Implementation\nAbstract: arXiv:2609.19932v1 Announce Type: new  Abstract: The von Neumann-Morgenstern axioms are uncontroversial desiderata for individual decision-making. We say that a bargaining solution is rational if it can be interpreted as the most preferred alternatives under these axioms. Yet, neither the Nash nor the Kalai-Smorodinsky bargaining solution is rational in this sense. We formalize two consequences of rationality, namely that one can neither be strictly better off nor strictly worse off from randomizing over different actions. These two axioms, together with other standard axioms, characterize the relative utilitarian bargaining solution. We then implement this bargaining solution in sub-game perfect equilibrium.",
+    "path": "papers/26/09/2609.19932.json",
+    "total_tokens": 1005,
+    "translated_title": "理性讨价还价：刻画与实施",
+    "translated_abstract": "冯·诺依曼-摩根斯坦公理是个体决策中毫无争议的理想性质。如果一个讨价还价解可以被解释为在这些公理下最受偏好的备选方案，我们就称该解是理性的。然而，无论是纳什讨价还价解还是卡莱-斯莫罗丁斯基讨价还价解都不是这种意义上的理性解。我们形式化了理性的两个推论，即人们既不能因在不同行动之间进行随机化而严格变好，也不能严格变差。这两个公理与其他标准公理一起，刻画了相对功利主义讨价还价解。随后，我们在子博弈完美均衡中实施了这一讨价还价解。",
+    "tldr": "本文提出“理性讨价还价解”的新概念，证明纳什解和卡莱-斯莫罗丁斯基解均不满足理性要求，并通过刻画随机化不改变偏好的两条公理与其他标准公理共同刻画了相对功利主义讨价还价解，且在子博弈完美均衡中成功实施了该解。",
+    "en_tdlr": "This paper introduces the notion of a rational bargaining solution, shows that neither the Nash nor the Kalai-Smorodinsky solution is rational, characterizes the relative utilitarian bargaining solution through two new axioms against randomization together with standard axioms, and implements it in subgame perfect equilibrium."
+}

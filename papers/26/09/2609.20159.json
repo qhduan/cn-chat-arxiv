@@ -1,0 +1,12 @@
+{
+    "title": "Special Lagrangian cones in Deep Learning",
+    "abstract": "arXiv:2609.20159v1 Announce Type: cross  Abstract: We introduce a matrix generalization of the cone of Harvey and Lawson and prove that it is an exact special Lagrangian manifold. We further show that it belongs to a family of exact special Lagrangian manifolds that foliate the balanced manifold arising in deep learning.",
+    "link": "https://arxiv.org/abs/2609.20159",
+    "context": "Title: Special Lagrangian cones in Deep Learning\nAbstract: arXiv:2609.20159v1 Announce Type: cross  Abstract: We introduce a matrix generalization of the cone of Harvey and Lawson and prove that it is an exact special Lagrangian manifold. We further show that it belongs to a family of exact special Lagrangian manifolds that foliate the balanced manifold arising in deep learning.",
+    "path": "papers/26/09/2609.20159.json",
+    "total_tokens": 708,
+    "translated_title": "深度学习中的特殊拉格朗日锥",
+    "translated_abstract": "我们引入了Harvey和Lawson锥的一个矩阵推广形式，并证明它是一个精确特殊拉格朗日流形。我们进一步证明它属于一族精确特殊拉格朗日流形，该族流形对深度学习中出现的平衡流形进行叶状结构分解。",
+    "tldr": "本文提出了Harvey-Lawson锥的矩阵推广形式，证明其为精确特殊拉格朗日流形，并表明它属于一族对深度学习中平衡流形进行叶状分解的精确特殊拉格朗日流形。",
+    "en_tdlr": "This paper introduces a matrix generalization of the Harvey-Lawson cone, proves it is an exact special Lagrangian manifold, and shows it belongs to a family of such manifolds that foliate the balanced manifold arising in deep learning."
+}

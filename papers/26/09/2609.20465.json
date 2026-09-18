@@ -1,0 +1,12 @@
+{
+    "title": "Training Neural Networks to Approach the Optimum Bayes Estimator in Dense Multi-Emitter Localization",
+    "abstract": "arXiv:2609.20465v1 Announce Type: new  Abstract: We train neural networks on synthesized frames to approach the optimum Bayes estimator for dense emitter localization. The result justifies the future work on training neural networks to achieve high-throughput large-FOV super spatiotemporal resolution SMLM.",
+    "link": "https://arxiv.org/abs/2609.20465",
+    "context": "Title: Training Neural Networks to Approach the Optimum Bayes Estimator in Dense Multi-Emitter Localization\nAbstract: arXiv:2609.20465v1 Announce Type: new  Abstract: We train neural networks on synthesized frames to approach the optimum Bayes estimator for dense emitter localization. The result justifies the future work on training neural networks to achieve high-throughput large-FOV super spatiotemporal resolution SMLM.",
+    "path": "papers/26/09/2609.20465.json",
+    "total_tokens": 666,
+    "translated_title": "训练神经网络以逼近密集多发射源定位中的最优贝叶斯估计器",
+    "translated_abstract": "我们在合成帧上训练神经网络，以逼近密集发射源定位中的最优贝叶斯估计器。该结果为未来通过训练神经网络实现高通量、大视场、超时空分辨率的单分子定位显微镜（SMLM）的研究工作提供了依据。",
+    "tldr": "该论文通过在合成帧上训练神经网络来逼近密集发射源定位的最优贝叶斯估计器，为实现高通量、大视场、超时空分辨率的单分子定位显微镜奠定了基础。",
+    "en_tdlr": "This paper trains neural networks on synthesized frames to approach the optimum Bayes estimator for dense emitter localization, justifying future work on high-throughput large-FOV super spatiotemporal resolution SMLM."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A polyhedral characterization of worker-quasi-stable matchings",
+    "abstract": "arXiv:2609.20032v1 Announce Type: new  Abstract: We provide the first polyhedral characterization of worker-quasi-stable matchings in the classical one-to-one matching model. By modifying the classical stability constraints, we introduce a convex polytope and prove that it is integral. Consequently, its extreme points coincide exactly with the incidence vectors of worker-quasi-stable matchings, demonstrating that worker-quasi-stability preserves the geometric tractability of standard stability.",
+    "link": "https://arxiv.org/abs/2609.20032",
+    "context": "Title: A polyhedral characterization of worker-quasi-stable matchings\nAbstract: arXiv:2609.20032v1 Announce Type: new  Abstract: We provide the first polyhedral characterization of worker-quasi-stable matchings in the classical one-to-one matching model. By modifying the classical stability constraints, we introduce a convex polytope and prove that it is integral. Consequently, its extreme points coincide exactly with the incidence vectors of worker-quasi-stable matchings, demonstrating that worker-quasi-stability preserves the geometric tractability of standard stability.",
+    "path": "papers/26/09/2609.20032.json",
+    "total_tokens": 791,
+    "translated_title": "工作者拟稳定匹配的多面体刻画",
+    "translated_abstract": "我们在经典的一对一匹配模型中首次给出了工作者拟稳定匹配的多面体刻画。通过修改经典的稳定性约束，我们引入了一个凸多面体，并证明该多面体是整的。因此，其极点恰好与工作者拟稳定匹配的关联向量完全一致，这表明工作者拟稳定性保持了标准稳定性的几何可处理性。",
+    "tldr": "本文首次对经典一对一匹配模型中的工作者拟稳定匹配给出多面体刻画，通过修改经典稳定约束构造了一个整凸多面体，其极点恰好对应工作者拟稳定匹配的关联向量，证明工作者拟稳定性保持了标准稳定性的几何可处理性。",
+    "en_tdlr": "This paper provides the first polyhedral characterization of worker-quasi-stable matchings in the classical one-to-one matching model, introducing an integral convex polytope—built by modifying classical stability constraints—whose extreme points coincide exactly with the incidence vectors of worker-quasi-stable matchings."
+}

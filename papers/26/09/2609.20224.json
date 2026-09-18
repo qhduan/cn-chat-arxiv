@@ -1,0 +1,12 @@
+{
+    "title": "The Year-End Toll: Frictions Embedded in Option-Implied Rates",
+    "abstract": "arXiv:2609.20224v1 Announce Type: new  Abstract: Option-implied rates are often treated as frictionless because completed boxes deliver riskless payoffs. I show that this interpretation requires option- and benchmark-side implementation wedges to offset. Using SPX and RUT options from 2012-2025, I find a 2-3 bp unannualized increase in the option funding basis when maturity first crosses December 31. The effect behaves as a fixed price wedge, strengthens in the mid-2010s, survives alternative contracts and benchmarks, appears independently in government-bond CIP, and is reproduced in an independently constructed option panel. Put-call parity can identify discount rates precisely without establishing their economic purity.",
+    "link": "https://arxiv.org/abs/2609.20224",
+    "context": "Title: The Year-End Toll: Frictions Embedded in Option-Implied Rates\nAbstract: arXiv:2609.20224v1 Announce Type: new  Abstract: Option-implied rates are often treated as frictionless because completed boxes deliver riskless payoffs. I show that this interpretation requires option- and benchmark-side implementation wedges to offset. Using SPX and RUT options from 2012-2025, I find a 2-3 bp unannualized increase in the option funding basis when maturity first crosses December 31. The effect behaves as a fixed price wedge, strengthens in the mid-2010s, survives alternative contracts and benchmarks, appears independently in government-bond CIP, and is reproduced in an independently constructed option panel. Put-call parity can identify discount rates precisely without establishing their economic purity.",
+    "path": "papers/26/09/2609.20224.json",
+    "total_tokens": 1048,
+    "translated_title": "年末代价：嵌入期权隐含利率中的摩擦",
+    "translated_abstract": "期权隐含利率通常被视为无摩擦，因为完整的盒式套利组合能够提供无风险收益。本文表明，这一解释需要期权端和基准端的实施楔子相互抵消才能成立。利用2012至2025年的SPX和RUT期权数据，我发现当到期日首次跨越12月31日时，期权融资基差会出现2-3个基点的未年化上升。该效应表现为固定的价格楔子，在2010年代中期有所增强，在更换合约和基准后依然稳健，在国债抛补利率平价中独立显现，并在独立构建的期权面板数据中得到复现。看涨-看跌平价关系可以精确识别贴现率，但并不能确立其经济上的纯净性。",
+    "tldr": "本文发现期权隐含利率并非无摩擦——当期权到期日跨越12月31日时期权融资基差会出现2-3个基点的固定上升，揭示了期权隐含利率中嵌入的年末摩擦。",
+    "en_tdlr": "This paper shows that option-implied rates are not frictionless: the option funding basis rises by a fixed 2-3 unannualized basis points when maturities cross December 31, revealing year-end frictions embedded in option-implied rates."
+}

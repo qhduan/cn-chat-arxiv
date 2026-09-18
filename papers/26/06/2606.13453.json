@@ -1,0 +1,11 @@
+{
+    "title": "Rapid mixing for Gibbs measures in Riemannian manifolds",
+    "abstract": "arXiv:2606.13453v2 Announce Type: replace-cross  Abstract: Langevin dynamics on Riemannian manifolds is analyzed. Conditions ensuring the existence of a suitable logarithmic Sobolev inequality (rapid mixing to the Gibbs measure) are identified. These conditions involve the curvature of the manifold, the inverse temperature, escaping directions from saddle points, and exclude barren plateaus and spurious local minima. We show that when these conditions are met, mixing times polynomial in the dimension of the manifold are achievable. This result is obtained through a relation between Langevin processes in the domain and in the image of a Riemannian submersion. Such a relation can be of independent interest.",
+    "link": "https://arxiv.org/abs/2606.13453",
+    "context": "Title: Rapid mixing for Gibbs measures in Riemannian manifolds\nAbstract: arXiv:2606.13453v2 Announce Type: replace-cross  Abstract: Langevin dynamics on Riemannian manifolds is analyzed. Conditions ensuring the existence of a suitable logarithmic Sobolev inequality (rapid mixing to the Gibbs measure) are identified. These conditions involve the curvature of the manifold, the inverse temperature, escaping directions from saddle points, and exclude barren plateaus and spurious local minima. We show that when these conditions are met, mixing times polynomial in the dimension of the manifold are achievable. This result is obtained through a relation between Langevin processes in the domain and in the image of a Riemannian submersion. Such a relation can be of independent interest.",
+    "path": "papers/26/06/2606.13453.json",
+    "total_tokens": 990,
+    "translated_title": "黎曼流形中吉布斯测度的快速混合",
+    "translated_abstract": "本文分析了黎曼流形上的朗之万动力学。研究确定了确保合适的对数Sobolev不等式存在（即快速混合到吉布斯测度）的条件。这些条件涉及流形的曲率、逆温度以及从鞍点逃逸的方向，并排除了贫瘠高原和虚假局部极小值。我们证明，当满足这些条件时，可以实现与流形维度呈多项式关系的混合时间。该结果是通过黎曼浸没的定义域和像空间中朗之万过程之间的关系获得的。这种关系本身可能具有独立的研究价值。",
+    "tldr": "本文识别了黎曼流形上朗之万动力学快速混合到吉布斯测度的条件（涉及流形曲率、逆温度和鞍点逃逸方向），并证明满足这些条件时可实现与流形维度呈多项式关系的混合时间。"
+}

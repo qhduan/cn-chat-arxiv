@@ -1,0 +1,12 @@
+{
+    "title": "Putting Context into Preference Aggregation",
+    "abstract": "arXiv:2609.19888v1 Announce Type: new  Abstract: The axioms underlying Arrow's impossibility theorem are very restrictive in terms of what can be used when aggregating preferences. Social preferences may not depend on the menu nor on preferences over alternatives outside the menu. But context matters. So, we weaken these restrictions to allow for context to be included. The context, as we define, describes which alternatives in the menu and which preferences over alternatives outside the menu matter. We obtain unique representations. These are discussed in examples involving markets, the intertemporal well-being of an individual, and bargaining.",
+    "link": "https://arxiv.org/abs/2609.19888",
+    "context": "Title: Putting Context into Preference Aggregation\nAbstract: arXiv:2609.19888v1 Announce Type: new  Abstract: The axioms underlying Arrow's impossibility theorem are very restrictive in terms of what can be used when aggregating preferences. Social preferences may not depend on the menu nor on preferences over alternatives outside the menu. But context matters. So, we weaken these restrictions to allow for context to be included. The context, as we define, describes which alternatives in the menu and which preferences over alternatives outside the menu matter. We obtain unique representations. These are discussed in examples involving markets, the intertemporal well-being of an individual, and bargaining.",
+    "path": "papers/26/09/2609.19888.json",
+    "total_tokens": 898,
+    "translated_title": "将情境纳入偏好加总",
+    "translated_abstract": "阿罗不可能性定理所基于的公理对偏好加总时可使用的信息施加了非常严格的限制。社会偏好既不能依赖于备选菜单，也不能依赖于对菜单之外备选方案的偏好。但情境是重要的。因此，我们放宽了这些限制，以允许将情境纳入其中。按照我们的定义，情境描述了菜单中的哪些备选方案以及菜单之外备选方案的哪些偏好是重要的。我们获得了唯一的表示形式。这些结果在涉及市场、个人跨期福祉以及讨价还价的例子中进行了讨论。",
+    "tldr": "本文通过放宽阿罗不可能性定理中禁止社会偏好依赖菜单及菜单外偏好的严格公理，允许情境（即菜单中哪些备选方案及外部偏好是重要的）参与偏好加总，获得了唯一的表示形式，并以市场、跨期福祉和讨价还价的例子加以说明。",
+    "en_tdlr": "This paper relaxes the restrictive axioms of Arrow's impossibility theorem to allow context—specifying which menu alternatives and which preferences over outside alternatives matter—to be incorporated into preference aggregation, yielding unique representations illustrated through examples in markets, intertemporal well-being, and bargaining."
+}

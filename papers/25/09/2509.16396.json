@@ -1,0 +1,12 @@
+{
+    "title": "Bundling against Learning",
+    "abstract": "arXiv:2509.16396v2 Announce Type: replace  Abstract: A monopolist sells multiple goods to an uninformed buyer. The buyer chooses to learn any one-dimensional linear signal of his values for the goods, anticipating the seller's mechanism. The seller designs an optimal mechanism, anticipating the buyer's learning choice. In a generalized Gaussian environment, we show that every equilibrium has vertical learning where the buyer's posterior means are comonotonic, and every equilibrium is outcome-equivalent to nested bundling where the seller offers a menu of nested bundles. In equilibrium, the buyer learns more about a higher-tier good, resulting in a higher posterior variance on the log scale.",
+    "link": "https://arxiv.org/abs/2509.16396",
+    "context": "Title: Bundling against Learning\nAbstract: arXiv:2509.16396v2 Announce Type: replace  Abstract: A monopolist sells multiple goods to an uninformed buyer. The buyer chooses to learn any one-dimensional linear signal of his values for the goods, anticipating the seller's mechanism. The seller designs an optimal mechanism, anticipating the buyer's learning choice. In a generalized Gaussian environment, we show that every equilibrium has vertical learning where the buyer's posterior means are comonotonic, and every equilibrium is outcome-equivalent to nested bundling where the seller offers a menu of nested bundles. In equilibrium, the buyer learns more about a higher-tier good, resulting in a higher posterior variance on the log scale.",
+    "path": "papers/25/09/2509.16396.json",
+    "total_tokens": 1001,
+    "translated_title": "以捆绑对抗学习",
+    "translated_abstract": "arXiv:2509.16396v2 公告类型：替换 摘要：一个垄断者向一个不知情的买方出售多种商品。买方可以选择学习其商品价值的任意一维线性信号，并预期卖方的机制设计。卖方则设计最优机制，同时预期买方的学习选择。在一个广义高斯环境中，我们证明了每一个均衡都具有纵向学习的特征，即买方的后验均值是同单调的，并且每一个均衡在结果上都等价于嵌套捆绑销售，即卖方提供一份由嵌套捆绑组成的菜单。在均衡中，买方会更多地了解更高层级的商品，从而在商品层级上产生更大的对数尺度后验方差。",
+    "tldr": "在垄断者与可策略性学习的买方博弈中，所有均衡均表现为纵向学习且在结果上等价于嵌套捆绑销售，其中买方会对更高层级的商品了解更多。",
+    "en_tdlr": "In a monopolist-buyer game with strategic learning, every equilibrium features vertical learning and is outcome-equivalent to nested bundling, with the buyer learning more about higher-tier goods."
+}

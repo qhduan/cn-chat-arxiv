@@ -1,0 +1,12 @@
+{
+    "title": "Embedding Models Measure in Peculiar Ways",
+    "abstract": "arXiv:2609.20821v1 Announce Type: new  Abstract: Embedding spaces define notions of semantic similarity and distance. We study whether those embeddings reflect physical measurements of mass, distance, time and volume, which admit a unique, objective notion of semantic equivalence and distance. We find that physical measurement is only weakly modeled in the embedding space, and that instead quite peculiar measurement patterns can be observed. Further analysis indicates that embedding representations of physical measurements are strongly influenced by superficial string similarity, and recalibration of similarity does not substantially improve the alignment.",
+    "link": "https://arxiv.org/abs/2609.20821",
+    "context": "Title: Embedding Models Measure in Peculiar Ways\nAbstract: arXiv:2609.20821v1 Announce Type: new  Abstract: Embedding spaces define notions of semantic similarity and distance. We study whether those embeddings reflect physical measurements of mass, distance, time and volume, which admit a unique, objective notion of semantic equivalence and distance. We find that physical measurement is only weakly modeled in the embedding space, and that instead quite peculiar measurement patterns can be observed. Further analysis indicates that embedding representations of physical measurements are strongly influenced by superficial string similarity, and recalibration of similarity does not substantially improve the alignment.",
+    "path": "papers/26/09/2609.20821.json",
+    "total_tokens": 839,
+    "translated_title": "嵌入模型以奇特的方式进行测量",
+    "translated_abstract": "嵌入空间定义了语义相似性和距离的概念。我们研究了这些嵌入是否反映了质量、距离、时间和体积等物理测量，这些物理测量具有唯一且客观的语义等价与距离概念。我们发现物理测量在嵌入空间中仅被微弱地建模，相反，可以观察到相当奇特的测量模式。进一步的分析表明，物理测量的嵌入表示受到表面字符串相似性的强烈影响，而重新校准相似性并不能实质性改善对齐效果。",
+    "tldr": "该研究发现嵌入模型对质量、距离、时间和体积等物理测量的表示十分微弱且奇特，主要受表面字符串相似性的强烈影响，而重新校准相似度也无法显著改善其与真实物理测量的对齐。",
+    "en_tdlr": "This paper finds that embedding models only weakly and peculiarly represent physical measurements (mass, distance, time, and volume), with representations strongly influenced by superficial string similarity, and recalibrating similarity does not substantially improve their alignment."
+}

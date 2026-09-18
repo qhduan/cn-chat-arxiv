@@ -1,0 +1,12 @@
+{
+    "title": "An Arbitrarily Precise Global Closed Form Approximation for the Neoclassical Growth Model",
+    "abstract": "arXiv:2609.20405v1 Announce Type: new  Abstract: I consider a neoclassical growth model with a constant absolute risk aversion (CARA) utility function and derive a global closed form approximation that is arbitrarily precise as the discount rate $\\rho$ is close to the population growth rate $n$. I use it to show that the consumption function is strictly concave and that countries can have two different paths converging to the steady-state: front-loading and back-loading.",
+    "link": "https://arxiv.org/abs/2609.20405",
+    "context": "Title: An Arbitrarily Precise Global Closed Form Approximation for the Neoclassical Growth Model\nAbstract: arXiv:2609.20405v1 Announce Type: new  Abstract: I consider a neoclassical growth model with a constant absolute risk aversion (CARA) utility function and derive a global closed form approximation that is arbitrarily precise as the discount rate $\\rho$ is close to the population growth rate $n$. I use it to show that the consumption function is strictly concave and that countries can have two different paths converging to the steady-state: front-loading and back-loading.",
+    "path": "papers/26/09/2609.20405.json",
+    "total_tokens": 808,
+    "translated_title": "新古典增长模型的任意精度全局闭式近似",
+    "translated_abstract": "我考虑了一个具有常数绝对风险厌恶（CARA）效用函数的新古典增长模型，并推导出一个全局闭式近似，当贴现率 ρ 接近人口增长率 n 时，该近似可以达到任意精度。我利用该结果证明了消费函数是严格凹的，并且各国可以沿两种不同的路径收敛到稳态：前置型（front-loading）和后置型（back-loading）。",
+    "tldr": "本文为具有CARA效用函数的新古典增长模型推导出一个任意精度的全局闭式近似，并据此证明消费函数严格凹，且各国存在前置型和后置型两种收敛到稳态的不同路径。",
+    "en_tdlr": "This paper derives an arbitrarily precise global closed form approximation for a neoclassical growth model with a CARA utility function, showing that the consumption function is strictly concave and that countries can converge to the steady-state along two distinct paths: front-loading and back-loading."
+}
