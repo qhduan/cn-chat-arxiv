@@ -1,0 +1,12 @@
+{
+    "title": "Accelerating Dense LLMs via L0-regularized Mixture-of-Experts",
+    "abstract": "arXiv:2609.21672v1 Announce Type: new  Abstract: Large language models (LLMs) achieve strong performance but suffer from slow and costly inference. Existing acceleration methods often lead to noticeable performance degradation, while Mixture-of-Experts (MoE) models require extensive computational resources. In this paper, we propose L0-MoE, a lightweight MoE approach using L0-regularization to accelerate dense LLMs nearly without performance loss. Our method introduces a cluster confusion matrix for domain-aware dataset curation and applies dynamic batching for efficient training. Experiments show that L0-MoE achieves up to 2.5x speedup over dense models while maintaining competitive performance, outperforming existing LLM acceleration baselines.",
+    "link": "https://arxiv.org/abs/2609.21672",
+    "context": "Title: Accelerating Dense LLMs via L0-regularized Mixture-of-Experts\nAbstract: arXiv:2609.21672v1 Announce Type: new  Abstract: Large language models (LLMs) achieve strong performance but suffer from slow and costly inference. Existing acceleration methods often lead to noticeable performance degradation, while Mixture-of-Experts (MoE) models require extensive computational resources. In this paper, we propose L0-MoE, a lightweight MoE approach using L0-regularization to accelerate dense LLMs nearly without performance loss. Our method introduces a cluster confusion matrix for domain-aware dataset curation and applies dynamic batching for efficient training. Experiments show that L0-MoE achieves up to 2.5x speedup over dense models while maintaining competitive performance, outperforming existing LLM acceleration baselines.",
+    "path": "papers/26/09/2609.21672.json",
+    "total_tokens": 1060,
+    "translated_title": "通过L0正则化混合专家模型加速稠密大语言模型",
+    "translated_abstract": "大语言模型（LLMs）虽然取得了强大的性能，但推理速度慢且成本高昂。现有的加速方法往往会导致明显的性能下降，而混合专家模型则需要大量的计算资源。在本文中，我们提出了L0-MoE，这是一种轻量级的MoE方法，利用L0正则化来加速稠密大语言模型，且几乎不损失性能。我们的方法引入了聚类混淆矩阵用于领域感知的数据集筛选，并应用动态批处理以实现高效训练。实验表明，L0-MoE相比稠密模型实现了高达2.5倍的加速，同时保持了有竞争力的性能，优于现有的LLM加速基线方法。",
+    "tldr": "L0-MoE是一种利用L0正则化的轻量级混合专家方法，通过聚类混淆矩阵进行领域感知的数据筛选和动态批处理训练，在几乎不损失性能的前提下将稠密大语言模型的推理速度提升高达2.5倍。",
+    "en_tdlr": "L0-MoE is a lightweight Mixture-of-Experts approach using L0-regularization that accelerates dense LLMs by up to 2.5x with nearly no performance loss, leveraging cluster confusion matrices for domain-aware dataset curation and dynamic batching for efficient training."
+}

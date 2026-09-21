@@ -1,0 +1,12 @@
+{
+    "title": "Tubular Neighbourhoods of Pfaffian Sets and Applications to Neural Networks",
+    "abstract": "arXiv:2607.08370v2 Announce Type: replace-cross  Abstract: We derive bounds for the volume of tubular neighbourhoods of smooth Pfaffian hypersurfaces, generalising known results for algebraic varieties. The bounds are given in terms of the Pfaffian format of the defining functions. As an application, we obtain tail bounds on the probability distribution of a condition number measuring the robustness of neural network classifiers with Pfaffian activation functions, in both the uniform and Gaussian settings. In the special case of single-hidden-layer sigmoid networks with rational weights, we derive polynomial-in-width bounds for tubular neighbourhoods of the decision boundary.",
+    "link": "https://arxiv.org/abs/2607.08370",
+    "context": "Title: Tubular Neighbourhoods of Pfaffian Sets and Applications to Neural Networks\nAbstract: arXiv:2607.08370v2 Announce Type: replace-cross  Abstract: We derive bounds for the volume of tubular neighbourhoods of smooth Pfaffian hypersurfaces, generalising known results for algebraic varieties. The bounds are given in terms of the Pfaffian format of the defining functions. As an application, we obtain tail bounds on the probability distribution of a condition number measuring the robustness of neural network classifiers with Pfaffian activation functions, in both the uniform and Gaussian settings. In the special case of single-hidden-layer sigmoid networks with rational weights, we derive polynomial-in-width bounds for tubular neighbourhoods of the decision boundary.",
+    "path": "papers/26/07/2607.08370.json",
+    "total_tokens": 956,
+    "translated_title": "Pfaffian集合的管状邻域及其在神经网络中的应用",
+    "translated_abstract": "我们推导了光滑Pfaffian超曲面的管状邻域体积的界，推广了代数簇的已知结果。这些界用定义函数的Pfaffian格式来表示。作为应用，我们在均匀分布和高斯分布两种设置下，获得了衡量具有Pfaffian激活函数的神经网络分类器鲁棒性的条件数概率分布的尾部界。在具有有理权重的单隐层Sigmoid网络的特殊情形下，我们推导了决策边界的管状邻域关于网络宽度呈多项式级的界。",
+    "tldr": "本文推导了光滑Pfaffian超曲面管状邻域体积的界，并以此获得了具有Pfaffian激活函数的神经网络分类器鲁棒性条件数的尾部概率界，在单隐层Sigmoid网络情形下给出了决策边界管状邻域关于宽度呈多项式级的界。",
+    "en_tdlr": "This paper derives volume bounds for tubular neighbourhoods of smooth Pfaffian hypersurfaces and applies them to obtain tail bounds on the condition number measuring the robustness of neural network classifiers with Pfaffian activation functions, including polynomial-in-width bounds for the decision boundary of single-hidden-layer sigmoid networks."
+}

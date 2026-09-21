@@ -1,0 +1,12 @@
+{
+    "title": "The geometry of higher order modern portfolio theory",
+    "abstract": "arXiv:2511.20674v2 Announce Type: replace  Abstract: In this article, we study the generalized modern portfolio theory, with utility functions admitting higher-order cumulants. We establish that under certain genericity conditions, the utility function has a constant number of complex critical points. We study the discriminant locus of complex critical points with multiplicity. Finally, we switch our attention to the generalization of the feasible portfolio set (variety), determine its dimension, and give a formula for its degree.",
+    "link": "https://arxiv.org/abs/2511.20674",
+    "context": "Title: The geometry of higher order modern portfolio theory\nAbstract: arXiv:2511.20674v2 Announce Type: replace  Abstract: In this article, we study the generalized modern portfolio theory, with utility functions admitting higher-order cumulants. We establish that under certain genericity conditions, the utility function has a constant number of complex critical points. We study the discriminant locus of complex critical points with multiplicity. Finally, we switch our attention to the generalization of the feasible portfolio set (variety), determine its dimension, and give a formula for its degree.",
+    "path": "papers/25/11/2511.20674.json",
+    "total_tokens": 793,
+    "translated_title": "高阶现代投资组合理论的几何学",
+    "translated_abstract": "在本文中，我们研究了广义现代投资组合理论，其效用函数允许包含高阶累积量。我们证明，在某些一般性条件下，效用函数具有常数个复临界点。我们研究了具有重数的复临界点的判别轨迹。最后，我们将注意力转向可行投资组合集合（代数簇）的推广，确定了其维数，并给出了其次数的计算公式。",
+    "tldr": "本文从代数几何角度研究考虑高阶累积量的广义现代投资组合理论，证明了一般性条件下效用函数的复临界点数目为常数，并确定了可行投资组合代数簇的维数与次数公式。",
+    "en_tdlr": "This paper studies generalized modern portfolio theory with higher-order cumulant utility functions from an algebraic geometry perspective, proving that the number of complex critical points is constant under genericity conditions, and determining the dimension and degree of the feasible portfolio variety."
+}

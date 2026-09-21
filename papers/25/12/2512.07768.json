@@ -1,0 +1,12 @@
+{
+    "title": "Log-concave functions and transformations thereof",
+    "abstract": "arXiv:2512.07768v3 Announce Type: replace  Abstract: I summarize Bagnoli and Bergstrom (2005)'s review on log-concave functions, make several corrections, and augment the discussion with further results that can be useful in establishing monotone hazard rates. I also provide an application to monopoly pricing, where log-concavity of the demand curve implies strict concavity of the revenue function in quantity.",
+    "link": "https://arxiv.org/abs/2512.07768",
+    "context": "Title: Log-concave functions and transformations thereof\nAbstract: arXiv:2512.07768v3 Announce Type: replace  Abstract: I summarize Bagnoli and Bergstrom (2005)'s review on log-concave functions, make several corrections, and augment the discussion with further results that can be useful in establishing monotone hazard rates. I also provide an application to monopoly pricing, where log-concavity of the demand curve implies strict concavity of the revenue function in quantity.",
+    "path": "papers/25/12/2512.07768.json",
+    "total_tokens": 775,
+    "translated_title": "对数凹函数及其变换",
+    "translated_abstract": "本文总结了Bagnoli和Bergstrom（2005）关于对数凹函数的综述，进行了若干修正，并通过进一步的结果扩展了相关讨论，这些结果在建立单调风险率时可能有用。我还提供了一个在垄断定价中的应用，其中需求曲线的对数凹性意味着收入函数在数量上是严格凹的。",
+    "tldr": "本文修正并扩展了Bagnoli和Bergstrom（2005）关于对数凹函数的综述，提供了有助于建立单调风险率的新结果，并将其应用于垄断定价，证明需求曲线的对数凹性意味着收入函数在数量上严格凹。",
+    "en_tdlr": "This paper corrects and extends Bagnoli and Bergstrom's (2005) review of log-concave functions with additional results useful for establishing monotone hazard rates, and applies them to monopoly pricing, showing that log-concavity of the demand curve implies strict concavity of the revenue function in quantity."
+}

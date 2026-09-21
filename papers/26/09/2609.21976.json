@@ -1,0 +1,12 @@
+{
+    "title": "Multiplicative Optimism for Constant Regret in Games",
+    "abstract": "arXiv:2609.21976v1 Announce Type: cross  Abstract: We introduce Multiplicatively Optimistic Regret Matching (MORM), an uncoupled learning rule for finite general-sum games. Under simultaneous full-information self-play, every player achieves external regret $O(\\sqrt n\\log d)$ uniformly over all horizons, using only one-step optimism. The analysis combines a potential-based regret-matching argument with multiplicative stability and Hellinger control of strategy movement. A learning-rate safeguard additionally gives $O(\\sqrt{T\\log d})$ regret in the face of adversarial utilities.",
+    "link": "https://arxiv.org/abs/2609.21976",
+    "context": "Title: Multiplicative Optimism for Constant Regret in Games\nAbstract: arXiv:2609.21976v1 Announce Type: cross  Abstract: We introduce Multiplicatively Optimistic Regret Matching (MORM), an uncoupled learning rule for finite general-sum games. Under simultaneous full-information self-play, every player achieves external regret $O(\\sqrt n\\log d)$ uniformly over all horizons, using only one-step optimism. The analysis combines a potential-based regret-matching argument with multiplicative stability and Hellinger control of strategy movement. A learning-rate safeguard additionally gives $O(\\sqrt{T\\log d})$ regret in the face of adversarial utilities.",
+    "path": "papers/26/09/2609.21976.json",
+    "total_tokens": 1002,
+    "translated_title": "博弈中实现常数遗憾的乘性乐观方法",
+    "translated_abstract": "我们提出了乘性乐观遗憾匹配，这是一种用于有限一般和博弈的非耦合学习规则。在同时进行的全信息自博弈下，每个玩家仅需一步乐观即可在所有时间跨度上一致地实现 O(√n log d) 的外部遗憾。该分析将基于势函数的遗憾匹配论证与乘性稳定性以及策略移动的 Hellinger 控制相结合。此外，学习率保障机制在面对对抗性效用时还能提供 O(√T log d) 的遗憾保证。",
+    "tldr": "提出乘性乐观遗憾匹配（MORM）学习规则，使有限一般和博弈中的自博弈玩家在全信息下仅需一步乐观即可在所有时间跨度上一致地获得 O(√n log d) 的低遗憾，并能抵御对抗性效用。",
+    "en_tdlr": "We propose Multiplicatively Optimistic Regret Matching (MORM), an uncoupled learning rule that achieves O(√n log d) external regret uniformly over all horizons in finite general-sum games under full-information self-play, while remaining robust to adversarial utilities."
+}

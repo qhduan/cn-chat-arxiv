@@ -1,0 +1,11 @@
+{
+    "title": "Auctions as Experiments",
+    "abstract": "arXiv:2609.21168v1 Announce Type: new  Abstract: Consider an auction with buyers whose values depend on an underlying state (e.g., market fundamentals). How does the auction format shape the information that buyers' bids reveal about the state? We recast auctions as statistical experiments and compare different auction formats in terms of the (Lehmann) informativeness of the induced experiments. Our main finding is that among a large class of auctions (e.g., $k$th-price, all-pay), the first-price auction is the most informative. As a result, this auction guarantees the highest payoffs to a decision-maker who uses the information revealed by buyers' bids in a monotone decision problem (e.g., a prediction problem or the choice of a reserve price in a future auction).",
+    "link": "https://arxiv.org/abs/2609.21168",
+    "context": "Title: Auctions as Experiments\nAbstract: arXiv:2609.21168v1 Announce Type: new  Abstract: Consider an auction with buyers whose values depend on an underlying state (e.g., market fundamentals). How does the auction format shape the information that buyers' bids reveal about the state? We recast auctions as statistical experiments and compare different auction formats in terms of the (Lehmann) informativeness of the induced experiments. Our main finding is that among a large class of auctions (e.g., $k$th-price, all-pay), the first-price auction is the most informative. As a result, this auction guarantees the highest payoffs to a decision-maker who uses the information revealed by buyers' bids in a monotone decision problem (e.g., a prediction problem or the choice of a reserve price in a future auction).",
+    "path": "papers/26/09/2609.21168.json",
+    "total_tokens": 974,
+    "translated_title": "拍卖作为实验",
+    "translated_abstract": "考虑一个买家价值取决于潜在状态（如市场基本面）的拍卖。拍卖形式如何影响买家出价所揭示的关于该状态的信息？我们将拍卖重新表述为统计实验，并根据所诱导实验的（Lehmann）信息量来比较不同的拍卖形式。我们的主要发现是，在一大类拍卖中（如k价拍卖、全支付拍卖），第一价格拍卖的信息量最大。因此，对于在单调决策问题（如预测问题或未来拍卖中保留价格的选择）中利用买家出价所揭示信息的决策者而言，这种拍卖能保证其获得最高收益。",
+    "tldr": "本文将拍卖重新构建为统计实验，证明在一大类拍卖形式（如k价拍卖、全支付拍卖）中，第一价格拍卖的信息量最大，能为在单调决策问题中利用出价信息的决策者带来最高收益。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "New Approaches to Strategic Thinking in Dynamic Games",
+    "abstract": "arXiv:2609.21163v1 Announce Type: new  Abstract: We present several models of strategic choice concerning equilibrium reasoning and behaviour, as well as new applications to dynamic games. We propose concepts such as historical equilibrium, simple Nash equilibrium, cautious backward induction, and an approach inspired by how chess players reason in sequential games.",
+    "link": "https://arxiv.org/abs/2609.21163",
+    "context": "Title: New Approaches to Strategic Thinking in Dynamic Games\nAbstract: arXiv:2609.21163v1 Announce Type: new  Abstract: We present several models of strategic choice concerning equilibrium reasoning and behaviour, as well as new applications to dynamic games. We propose concepts such as historical equilibrium, simple Nash equilibrium, cautious backward induction, and an approach inspired by how chess players reason in sequential games.",
+    "path": "papers/26/09/2609.21163.json",
+    "total_tokens": 628,
+    "translated_title": "动态博弈中战略思维的新方法",
+    "translated_abstract": "我们提出了若干关于均衡推理与行为的策略选择模型，并将其新应用于动态博弈领域。我们提出了诸如历史均衡、简单纳什均衡、谨慎逆向归纳等概念，以及一种受国际象棋棋手在序贯博弈中推理方式启发的新方法。",
+    "tldr": "该论文提出了历史均衡、简单纳什均衡、谨慎逆向归纳以及受国际象棋棋手推理启发的策略选择模型等新概念，为动态博弈中的均衡推理与行为分析提供了全新的理论框架。",
+    "en_tdlr": "This paper introduces novel strategic choice concepts—including historical equilibrium, simple Nash equilibrium, cautious backward induction, and a chess-inspired reasoning approach—providing new frameworks for equilibrium reasoning and behavior in dynamic games."
+}

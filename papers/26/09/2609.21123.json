@@ -1,0 +1,12 @@
+{
+    "title": "Signal-Centric Remote Sensing via Alternative Preprocessing and Acoustic Processing for ML-Driven Applications",
+    "abstract": "arXiv:2609.21123v1 Announce Type: new  Abstract: The dominant method of processing sonar data is using image-based representations, requiring the preprocessing of image data on autonomous systems. We propose an alternative data processing method for remote sensing applications via the use of data in Comma-Seperated Value format. Experimentation on our alternative approach shows a reduction of processing time by 91.18%, an improvement in accurate object detection by Machine Learning, and an increase in SNR (Signal-to-noise ratio), PSNR (Peak signal-to-noise ratio), and other evaluation metrics.",
+    "link": "https://arxiv.org/abs/2609.21123",
+    "context": "Title: Signal-Centric Remote Sensing via Alternative Preprocessing and Acoustic Processing for ML-Driven Applications\nAbstract: arXiv:2609.21123v1 Announce Type: new  Abstract: The dominant method of processing sonar data is using image-based representations, requiring the preprocessing of image data on autonomous systems. We propose an alternative data processing method for remote sensing applications via the use of data in Comma-Seperated Value format. Experimentation on our alternative approach shows a reduction of processing time by 91.18%, an improvement in accurate object detection by Machine Learning, and an increase in SNR (Signal-to-noise ratio), PSNR (Peak signal-to-noise ratio), and other evaluation metrics.",
+    "path": "papers/26/09/2609.21123.json",
+    "total_tokens": 866,
+    "translated_title": "面向机器学习驱动应用的基于替代预处理与声学处理的以信号为中心的遥感方法",
+    "translated_abstract": "处理声呐数据的主流方法是使用基于图像的表示，这需要在自主系统上对图像数据进行预处理。我们提出了一种用于遥感应用的替代数据处理方法，即使用逗号分隔值（CSV）格式的数据。对这种替代方法的实验表明，处理时间减少了91.18%，机器学习的准确目标检测能力得到提升，信噪比（SNR）、峰值信噪比（PSNR）及其他评估指标均有所提高。",
+    "tldr": "本文提出用CSV格式数据替代传统图像表示来处理声呐遥感数据，使处理时间减少91.18%，同时提升了机器学习目标检测精度以及SNR、PSNR等评估指标。",
+    "en_tdlr": "This paper proposes using CSV-format data instead of traditional image-based representations for sonar remote sensing, reducing processing time by 91.18% while improving ML-based object detection accuracy and metrics such as SNR and PSNR."
+}

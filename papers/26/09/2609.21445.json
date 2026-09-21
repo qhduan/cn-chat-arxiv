@@ -1,0 +1,12 @@
+{
+    "title": "Optimal Randomized Proper Online Learning",
+    "abstract": "arXiv:2609.21445v1 Announce Type: new  Abstract: We prove that the optimal expected mistake bound of online learning a function class $\\mathcal{H}$ by a randomized proper learning algorithm is $O(\\mathtt{L}(\\mathcal{H}) \\log T)$, where $\\mathtt{L}(\\mathcal{H})$ is the Littlestone dimension of $\\mathcal{H}$ and $T$ is the time horizon. Our result improves upon the previously best known bound of $O(\\mathtt{L}(\\mathcal{H}) \\log^6 T)$ given by Daskalakis and Golowich (STOC 2022), and is optimal up to a universal constant for worst-case classes.",
+    "link": "https://arxiv.org/abs/2609.21445",
+    "context": "Title: Optimal Randomized Proper Online Learning\nAbstract: arXiv:2609.21445v1 Announce Type: new  Abstract: We prove that the optimal expected mistake bound of online learning a function class $\\mathcal{H}$ by a randomized proper learning algorithm is $O(\\mathtt{L}(\\mathcal{H}) \\log T)$, where $\\mathtt{L}(\\mathcal{H})$ is the Littlestone dimension of $\\mathcal{H}$ and $T$ is the time horizon. Our result improves upon the previously best known bound of $O(\\mathtt{L}(\\mathcal{H}) \\log^6 T)$ given by Daskalakis and Golowich (STOC 2022), and is optimal up to a universal constant for worst-case classes.",
+    "path": "papers/26/09/2609.21445.json",
+    "total_tokens": 1214,
+    "translated_title": "最优随机化正规在线学习",
+    "translated_abstract": "我们证明了，使用随机化正规学习算法在线学习函数类 $\\mathcal{H}$ 的最优期望错误界为 $O(\\mathtt{L}(\\mathcal{H}) \\log T)$，其中 $\\mathtt{L}(\\mathcal{H})$ 是 $\\mathcal{H}$ 的 Littlestone 维数，$T$ 是时间范围。我们的结果改进了 Daskalakis 和 Golowich（STOC 2022）此前给出的已知最优界 $O(\\mathtt{L}(\\mathcal{H}) \\log^6 T)$，并且对于最坏情况下的函数类，该界在通用常数因子内是最优的。",
+    "tldr": "本文证明了随机化正规在线学习的最优期望错误界为 $O(\\mathtt{L}(\\mathcal{H}) \\log T)$，将此前已知的 $O(\\mathtt{L}(\\mathcal{H}) \\log^6 T)$ 界显著改进，并在最坏情况下达到通用常数因子内的最优。",
+    "en_tdlr": "This paper proves that the optimal expected mistake bound for randomized proper online learning is $O(\\mathtt{L}(\\mathcal{H}) \\log T)$, improving the best known $O(\\mathtt{L}(\\mathcal{H}) \\log^6 T)$ bound and achieving optimality up to a universal constant for worst-case classes."
+}

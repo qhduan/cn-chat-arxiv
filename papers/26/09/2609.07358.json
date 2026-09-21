@@ -1,0 +1,12 @@
+{
+    "title": "Access to Live AI Advice and Behavior Under Risk: An Incentivized Experiment",
+    "abstract": "arXiv:2609.07358v2 Announce Type: replace  Abstract: Generative AI has become an everyday advisor, and the systems people consult are live and interactive, not pre-scripted. We ask whether access to such a system changes behavior under risk. In an incentivized experiment (N = 158), participants made lottery choices with an optional decision aid presented as a conventional pre-written tool, a live one-shot AI, or a live interactive AI they could query, with information format held equivalent across conditions. Risk preferences are elicited via DOSE. We find no evidence that access to a live AI advisor changes risk aversion.",
+    "link": "https://arxiv.org/abs/2609.07358",
+    "context": "Title: Access to Live AI Advice and Behavior Under Risk: An Incentivized Experiment\nAbstract: arXiv:2609.07358v2 Announce Type: replace  Abstract: Generative AI has become an everyday advisor, and the systems people consult are live and interactive, not pre-scripted. We ask whether access to such a system changes behavior under risk. In an incentivized experiment (N = 158), participants made lottery choices with an optional decision aid presented as a conventional pre-written tool, a live one-shot AI, or a live interactive AI they could query, with information format held equivalent across conditions. Risk preferences are elicited via DOSE. We find no evidence that access to a live AI advisor changes risk aversion.",
+    "path": "papers/26/09/2609.07358.json",
+    "total_tokens": 910,
+    "translated_title": "实时AI建议的获取与风险下的行为：一项激励实验",
+    "translated_abstract": "生成式AI已成为日常顾问，而人们所咨询的系统是实时且可互动的，并非预先编写好的脚本。我们探讨接触此类系统是否会改变人们在风险下的行为。在一项激励实验（N = 158）中，参与者进行彩票选择，并可选用一种决策辅助工具，该工具以三种形式呈现：传统的预编写工具、实时一次性AI，或参与者可以提问查询的实时互动AI，各条件下的信息格式保持一致。风险偏好通过DOSE方法进行引出。我们发现没有证据表明获取实时AI顾问会改变风险厌恶。",
+    "tldr": "该激励实验通过对比预编写工具、一次性AI和可查询的实时互动AI三种决策辅助形式，发现获取实时AI建议并不会改变人们在风险决策中的风险厌恶水平。",
+    "en_tdlr": "This incentivized experiment (N = 158) shows that access to a live interactive AI advisor, compared to pre-written tools or one-shot AI, does not change risk aversion in decision-making under risk."
+}
