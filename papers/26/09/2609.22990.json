@@ -1,0 +1,12 @@
+{
+    "title": "On attention heads and bilinear forms",
+    "abstract": "arXiv:2609.22990v1 Announce Type: new  Abstract: We study the symmetric and antisymmetric parts of bilinear forms in the attention heads of trained large language models. We introduce an orthogonally invariant profile map from real bilinear forms to a three-dimensional simplex and observe that profiles of trained bilinear forms accumulate near profiles of rank-one bilinear forms. We prove that the symmetric part of a bilinear form in an attention head is the sum of a hyperbolic form and a zero form for a Zariski-dense subset of query-key matrices.",
+    "link": "https://arxiv.org/abs/2609.22990",
+    "context": "Title: On attention heads and bilinear forms\nAbstract: arXiv:2609.22990v1 Announce Type: new  Abstract: We study the symmetric and antisymmetric parts of bilinear forms in the attention heads of trained large language models. We introduce an orthogonally invariant profile map from real bilinear forms to a three-dimensional simplex and observe that profiles of trained bilinear forms accumulate near profiles of rank-one bilinear forms. We prove that the symmetric part of a bilinear form in an attention head is the sum of a hyperbolic form and a zero form for a Zariski-dense subset of query-key matrices.",
+    "path": "papers/26/09/2609.22990.json",
+    "total_tokens": 907,
+    "translated_title": "论注意力头与双线性形式",
+    "translated_abstract": "我们研究训练后的大型语言模型中注意力头的双线性形式的对称部分与反对称部分。我们引入了一个从实双线性形式到三维单纯形的正交不变轮廓映射，并观察到训练得到的双线性形式的轮廓聚集在一秩双线性形式的轮廓附近。我们证明，对于一个Zariski稠密的查询-键矩阵子集，注意力头中双线性形式的对称部分是一个双曲形式与一个零形式之和。",
+    "tldr": "该论文通过引入正交不变的轮廓映射研究大语言模型注意力头中双线性形式的结构，发现训练后的双线性形式轮廓聚集于一秩形式附近，并证明其对称部分在Zariski稠密的查询-键矩阵子集上可分解为双曲形式与零形式之和。",
+    "en_tdlr": "This paper introduces an orthogonally invariant profile map to study bilinear forms in LLM attention heads, showing that profiles of trained bilinear forms accumulate near rank-one profiles and proving that their symmetric part decomposes into a hyperbolic form plus a zero form on a Zariski-dense subset of query-key matrices."
+}

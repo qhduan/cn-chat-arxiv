@@ -1,0 +1,12 @@
+{
+    "title": "From Outliers to Topics in Language Models: Anticipating Trends in News Corpora",
+    "abstract": "arXiv:2509.22030v2 Announce Type: replace  Abstract: This paper examines how outliers, often dismissed as noise in topic modeling, can act as weak signals of emerging topics in dynamic news corpora. Using vector embeddings from state-of-the-art language models and a cumulative clustering approach, we track their evolution over time in French and English news datasets focused on corporate social responsibility and climate change. The results reveal a consistent pattern: outliers tend to evolve into coherent topics over time across both models and languages.",
+    "link": "https://arxiv.org/abs/2509.22030",
+    "context": "Title: From Outliers to Topics in Language Models: Anticipating Trends in News Corpora\nAbstract: arXiv:2509.22030v2 Announce Type: replace  Abstract: This paper examines how outliers, often dismissed as noise in topic modeling, can act as weak signals of emerging topics in dynamic news corpora. Using vector embeddings from state-of-the-art language models and a cumulative clustering approach, we track their evolution over time in French and English news datasets focused on corporate social responsibility and climate change. The results reveal a consistent pattern: outliers tend to evolve into coherent topics over time across both models and languages.",
+    "path": "papers/25/09/2509.22030.json",
+    "total_tokens": 807,
+    "translated_title": "从语言模型中的离群值到主题：预测新闻语料库中的趋势",
+    "translated_abstract": "本文研究了在主题建模中常被当作噪声而忽略的离群值，如何能够作为动态新闻语料库中新兴主题的微弱信号。利用最先进语言模型生成的向量嵌入和累积聚类方法，我们追踪了这些离群值在聚焦于企业社会责任和气候变化的法语与英语新闻数据集中随时间的演变过程。结果揭示了一个一致的模式：在两种模型和两种语言中，离群值往往会随时间演变为连贯的主题。",
+    "tldr": "该论文发现主题建模中常被视为噪声的离群值实际上是新兴主题的微弱信号，会随时间演变为连贯主题，从而可用于预测新闻语料库中的趋势。",
+    "en_tdlr": "This paper reveals that outliers, typically dismissed as noise in topic modeling, act as weak signals of emerging topics that evolve into coherent themes over time, enabling the anticipation of trends in news corpora."
+}

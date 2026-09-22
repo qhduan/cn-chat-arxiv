@@ -1,0 +1,12 @@
+{
+    "title": "Dynamic reinsurance via martingale transport",
+    "abstract": "arXiv:2601.10375v2 Announce Type: replace  Abstract: We formulate a dynamic reinsurance problem in which the insurer seeks to satisfy prescribed terminal moment or risk-based constraints while minimizing the $L^2$-norm of the ceded risk. As a tool for this analysis, we first use techniques from martingale optimal transport to study the auxiliary problem in which the insurer matches a given terminal distribution of the surplus process. We show that, under suitable assumptions, this auxiliary problem admits a tractable solution analogous to the Bass martingale. We then relax this condition by only requiring certain moment or risk-based constraints.",
+    "link": "https://arxiv.org/abs/2601.10375",
+    "context": "Title: Dynamic reinsurance via martingale transport\nAbstract: arXiv:2601.10375v2 Announce Type: replace  Abstract: We formulate a dynamic reinsurance problem in which the insurer seeks to satisfy prescribed terminal moment or risk-based constraints while minimizing the $L^2$-norm of the ceded risk. As a tool for this analysis, we first use techniques from martingale optimal transport to study the auxiliary problem in which the insurer matches a given terminal distribution of the surplus process. We show that, under suitable assumptions, this auxiliary problem admits a tractable solution analogous to the Bass martingale. We then relax this condition by only requiring certain moment or risk-based constraints.",
+    "path": "papers/26/01/2601.10375.json",
+    "total_tokens": 917,
+    "translated_title": "基于鞅输运的动态再保险",
+    "translated_abstract": "我们构建了一个动态再保险问题，其中保险人力图在满足预设的终端矩约束或基于风险的约束的同时，最小化分出风险的 $L^2$ 范数。作为分析工具，我们首先运用鞅最优输运技术来研究一个辅助问题，即保险人使盈余过程匹配给定的终端分布。我们证明，在适当的假设下，该辅助问题存在一个类似于 Bass 鞅的易于处理的解。随后，我们放宽了这一条件，仅要求满足某些矩约束或基于风险的约束。",
+    "tldr": "该论文借助鞅最优输运技术求解动态再保险问题，证明在匹配盈余过程终端分布的辅助问题下存在类似 Bass 鞅的可解方案，并将约束放宽为终端矩或基于风险的约束。",
+    "en_tdlr": "This paper solves a dynamic reinsurance problem via martingale optimal transport, showing that the auxiliary problem of matching the terminal distribution of the surplus process admits a tractable Bass-martingale-type solution, and then relaxes the constraints to terminal moment or risk-based constraints."
+}
