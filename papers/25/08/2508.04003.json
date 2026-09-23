@@ -1,0 +1,12 @@
+{
+    "title": "The Marginal Effects of Ethereum Network MEV Transaction Re-Ordering",
+    "abstract": "arXiv:2508.04003v3 Announce Type: replace  Abstract: Two MEV builders now produce nearly 80\\% of Ethereum blocks. Block builders have the ability to reorder transactions on the blockchain in a way that can be harmful to participants. We estimate participants would pay in the aggregate nearly \\$7.2 million per month to guarantee that they remained in the first quartile of the block. Sandwich attacks, in which a transaction is front run, are frequent, averaging more than one every two blocks. Gas fees on these transactions pay for nearly 9.6\\% of the MEV payments to the validator. Reforms such as gas fee priority or private transaction pools might be helpful.",
+    "link": "https://arxiv.org/abs/2508.04003",
+    "context": "Title: The Marginal Effects of Ethereum Network MEV Transaction Re-Ordering\nAbstract: arXiv:2508.04003v3 Announce Type: replace  Abstract: Two MEV builders now produce nearly 80\\% of Ethereum blocks. Block builders have the ability to reorder transactions on the blockchain in a way that can be harmful to participants. We estimate participants would pay in the aggregate nearly \\$7.2 million per month to guarantee that they remained in the first quartile of the block. Sandwich attacks, in which a transaction is front run, are frequent, averaging more than one every two blocks. Gas fees on these transactions pay for nearly 9.6\\% of the MEV payments to the validator. Reforms such as gas fee priority or private transaction pools might be helpful.",
+    "path": "papers/25/08/2508.04003.json",
+    "total_tokens": 1014,
+    "translated_title": "以太坊网络MEV交易重排序的边际效应",
+    "translated_abstract": "目前两个MEV构建者生产了近80%的以太坊区块。区块构建者有能力以对参与者有害的方式重新排序区块链上的交易。我们估计参与者每月总共愿意支付近720万美元，以保证自己处于区块的第一四分位数位置。夹击攻击（即交易被抢跑）非常频繁，平均每两个区块就发生超过一次。这些交易的Gas费用支付了向验证者支付的MEV款项的近9.6%。诸如Gas费优先或私人交易池等改革措施可能会有所帮助。",
+    "tldr": "该论文估计以太坊MEV交易重排序使参与者每月愿支付约720万美元以保持在区块前排位置，夹击攻击平均每两个区块超过一次，其Gas费占向验证者支付MEV款项的近9.6%，并建议通过Gas费优先或私人交易池等改革来缓解这一问题。",
+    "en_tdlr": "This paper estimates that Ethereum participants would collectively pay about $7.2 million per month to avoid harmful MEV transaction reordering, with sandwich attacks occurring more than once every two blocks whose gas fees cover nearly 9.6% of MEV payments to validators, suggesting reforms like gas fee priority or private transaction pools."
+}

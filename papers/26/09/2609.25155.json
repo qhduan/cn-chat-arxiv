@@ -1,0 +1,11 @@
+{
+    "title": "Empirical Auditing of Edge-Private Graph Generators",
+    "abstract": "arXiv:2609.25155v1 Announce Type: cross  Abstract: We empirically audit privacy leakage by testing whether outputs from edge-neighbouring inputs remain distinguishable, using statistically valid lower bounds on the privacy loss witnessed by our attacks. Our framework compares direct-edge, local-structural, and GNN-based attacks through the geometry surrounding a target edge. Experiments across two generators and two networks show that privacy leakage is both mechanism- and network-dependent, with learned representations revealing information not captured by conventional local statistics.",
+    "link": "https://arxiv.org/abs/2609.25155",
+    "context": "Title: Empirical Auditing of Edge-Private Graph Generators\nAbstract: arXiv:2609.25155v1 Announce Type: cross  Abstract: We empirically audit privacy leakage by testing whether outputs from edge-neighbouring inputs remain distinguishable, using statistically valid lower bounds on the privacy loss witnessed by our attacks. Our framework compares direct-edge, local-structural, and GNN-based attacks through the geometry surrounding a target edge. Experiments across two generators and two networks show that privacy leakage is both mechanism- and network-dependent, with learned representations revealing information not captured by conventional local statistics.",
+    "path": "papers/26/09/2609.25155.json",
+    "total_tokens": 841,
+    "translated_title": "边隐私图生成器的实证审计",
+    "translated_abstract": "我们通过测试来自边相邻输入的输出是否仍然可区分，来实证审计隐私泄露情况，并使用统计上有效的隐私损失下界来衡量我们攻击所揭示的泄露程度。我们的框架通过围绕目标边的几何结构，比较直接边攻击、局部结构攻击和基于图神经网络（GNN）的攻击。在两个生成器和两个网络上的实验表明，隐私泄露程度既依赖于生成机制也依赖于网络本身，并且学习到的表示能够揭示传统局部统计方法无法捕获的信息。",
+    "tldr": "该论文提出了一个针对边隐私图生成器的实证审计框架，通过统计有效的隐私损失下界来比较直接边、局部结构和GNN三类攻击，发现隐私泄露程度依赖于生成机制和网络本身，且GNN学习到的表示能揭示传统局部统计无法捕获的隐私信息。"
+}

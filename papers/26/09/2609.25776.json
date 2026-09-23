@@ -1,0 +1,12 @@
+{
+    "title": "Graded Representation Theory of Equivariant Neural Networks",
+    "abstract": "arXiv:2609.25776v1 Announce Type: cross  Abstract: Nonlinear activations can create equivariant interactions between irreducible representations that linear maps cannot. We use the Gaussian degree decomposition to extend ordinary polynomial degree to such nonlinear maps, and prove that for a fixed coordinatewise equivariant layer each degree factors into a polynomial determined by the linear maps and a scalar determined by the activation. This separates three distinct obstructions, coming from symmetry, coordinates, and activation.",
+    "link": "https://arxiv.org/abs/2609.25776",
+    "context": "Title: Graded Representation Theory of Equivariant Neural Networks\nAbstract: arXiv:2609.25776v1 Announce Type: cross  Abstract: Nonlinear activations can create equivariant interactions between irreducible representations that linear maps cannot. We use the Gaussian degree decomposition to extend ordinary polynomial degree to such nonlinear maps, and prove that for a fixed coordinatewise equivariant layer each degree factors into a polynomial determined by the linear maps and a scalar determined by the activation. This separates three distinct obstructions, coming from symmetry, coordinates, and activation.",
+    "path": "papers/26/09/2609.25776.json",
+    "total_tokens": 809,
+    "translated_title": "等变神经网络的分次表示理论",
+    "translated_abstract": "非线性激活函数可以在不可约表示之间产生线性映射无法实现的等变相互作用。我们利用高斯度分解将普通的多项式次数扩展到这类非线性映射，并证明对于一个固定的逐坐标等变层，每个次数都可以分解为一个由线性映射确定的多项式和一个由激活函数确定的标量。这将三种不同的障碍分离开来，它们分别来自对称性、坐标和激活函数。",
+    "tldr": "该论文利用高斯度分解为等变神经网络的非线性层建立了分次表示理论，证明每个次数可分解为由线性映射确定的多项式与由激活函数确定的标量，从而将来自对称性、坐标和激活函数的三种不同障碍分离开来。",
+    "en_tdlr": "This paper develops a graded representation theory for nonlinear equivariant neural network layers via Gaussian degree decomposition, proving that each degree factors into a polynomial determined by the linear maps and a scalar determined by the activation, thereby separating the three distinct obstructions arising from symmetry, coordinates, and activation."
+}

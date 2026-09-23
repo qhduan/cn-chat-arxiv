@@ -1,0 +1,12 @@
+{
+    "title": "The Dynamics of Quasiregular Neural Learning",
+    "abstract": "arXiv:2609.26018v1 Announce Type: new  Abstract: Many learning problems combine a dominant regularity with systematic exceptions. Motivated by U-shaped learning in language acquisition, we study this interaction in controlled quasiregular regression problems where regular and exceptional solutions are explicitly known. Neural networks can partially acquire exceptions, subsequently regress toward the dominant regularity, and finally recover. This overregularization becomes substantially stronger when exceptions are rare, despite their early acquisition, but does not emerge equally across all regularities considered. Our results isolate a simple form of competition between regularities and exceptions during neural learning.",
+    "link": "https://arxiv.org/abs/2609.26018",
+    "context": "Title: The Dynamics of Quasiregular Neural Learning\nAbstract: arXiv:2609.26018v1 Announce Type: new  Abstract: Many learning problems combine a dominant regularity with systematic exceptions. Motivated by U-shaped learning in language acquisition, we study this interaction in controlled quasiregular regression problems where regular and exceptional solutions are explicitly known. Neural networks can partially acquire exceptions, subsequently regress toward the dominant regularity, and finally recover. This overregularization becomes substantially stronger when exceptions are rare, despite their early acquisition, but does not emerge equally across all regularities considered. Our results isolate a simple form of competition between regularities and exceptions during neural learning.",
+    "path": "papers/26/09/2609.26018.json",
+    "total_tokens": 948,
+    "translated_title": "准规则神经学习的动力学",
+    "translated_abstract": "许多学习问题都将主导的规则性与系统性例外结合在一起。受语言习得中U型学习的启发，我们在受控的准规则回归问题中研究了这种交互作用，其中规则解和例外解都是明确已知的。神经网络能够部分习得例外，随后退回到主导的规则性，最终再重新恢复。当例外较为罕见时，尽管它们在早期已被习得，这种过度规则化现象会显著增强，但在所考虑的各种规则性中，该现象并非均等地出现。我们的结果分离出了神经学习过程中规则性与例外之间的一种简单竞争形式。",
+    "tldr": "该研究通过规则解与例外解均明确已知的受控准规则回归问题，揭示了神经网络学习中的U型动态：先习得例外、后退回主导规则（过度规则化），且例外越罕见该现象越显著，从而分离出神经学习中规则与例外之间的简单竞争机制。",
+    "en_tdlr": "Using controlled quasiregular regression where regular and exceptional solutions are explicitly known, this study reveals U-shaped dynamics in neural learning—exceptions are acquired early, followed by overregularization that is stronger for rarer exceptions—thereby isolating a simple form of competition between regularities and exceptions."
+}

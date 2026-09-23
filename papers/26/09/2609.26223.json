@@ -1,0 +1,12 @@
+{
+    "title": "Wherefore BIC = DIC?",
+    "abstract": "arXiv:2609.26223v1 Announce Type: new  Abstract: I show that the equivalence in finite social-choice environments of Bayesian incentive compatibility and dominant-strategy incentive compatibility holds universally if and only if every type-dependent difference in the valuation of prizes operates through a single scalar type index. Beyond binary domains this universal robustifiability is nongeneric.",
+    "link": "https://arxiv.org/abs/2609.26223",
+    "context": "Title: Wherefore BIC = DIC?\nAbstract: arXiv:2609.26223v1 Announce Type: new  Abstract: I show that the equivalence in finite social-choice environments of Bayesian incentive compatibility and dominant-strategy incentive compatibility holds universally if and only if every type-dependent difference in the valuation of prizes operates through a single scalar type index. Beyond binary domains this universal robustifiability is nongeneric.",
+    "path": "papers/26/09/2609.26223.json",
+    "total_tokens": 894,
+    "translated_title": "何以BIC等于DIC？——论贝叶斯激励相容与占优策略激励相容的等价性",
+    "translated_abstract": "我证明了在有限社会选择环境中，贝叶斯激励相容（BIC）与占优策略激励相容（DIC）的等价性普遍成立，当且仅当所有类型相关的奖品估值差异都通过单一标量类型指数起作用。在二元域之外，这种普遍的稳健可强化性是非典型的。",
+    "tldr": "该论文刻画了有限社会选择环境中贝叶斯激励相容与占优策略激励相容普遍等价的充要条件——所有类型相关的估值差异必须通过单一标量类型指数传导，并指出该条件在二元域之外并非普遍成立。",
+    "en_tdlr": "This paper establishes that the universal equivalence of Bayesian and dominant-strategy incentive compatibility in finite social-choice environments holds if and only if every type-dependent valuation difference operates through a single scalar type index, a condition that is nongeneric beyond binary domains."
+}

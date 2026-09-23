@@ -1,0 +1,12 @@
+{
+    "title": "Dimensionality reduction for AI based hyperspectral image classification based on XAI",
+    "abstract": "arXiv:2609.22333v1 Announce Type: cross  Abstract: This research addresses the challenge of limited material recycling in wood recycling processes by leveraging artificial intelligence (AI)-based dimensionality reduction. Our study explores the application of convolutional neural networks (CNNs) in multi-channel hyperspectral imaging (HSI), extending beyond RGB channels to over 200 spectral channels. Dimensionality reduction within this context involves streamlining the feature space for AI system training and inference. Focusing on explainable AI (XAI) methods, this paper contributes to a broader research initiative, presenting a solution framework that enhances the sustainability and efficiency of wood recycling processes.",
+    "link": "https://arxiv.org/abs/2609.22333",
+    "context": "Title: Dimensionality reduction for AI based hyperspectral image classification based on XAI\nAbstract: arXiv:2609.22333v1 Announce Type: cross  Abstract: This research addresses the challenge of limited material recycling in wood recycling processes by leveraging artificial intelligence (AI)-based dimensionality reduction. Our study explores the application of convolutional neural networks (CNNs) in multi-channel hyperspectral imaging (HSI), extending beyond RGB channels to over 200 spectral channels. Dimensionality reduction within this context involves streamlining the feature space for AI system training and inference. Focusing on explainable AI (XAI) methods, this paper contributes to a broader research initiative, presenting a solution framework that enhances the sustainability and efficiency of wood recycling processes.",
+    "path": "papers/26/09/2609.22333.json",
+    "total_tokens": 891,
+    "translated_title": "基于可解释人工智能（XAI）的AI高光谱图像分类降维方法",
+    "translated_abstract": "本研究通过利用基于人工智能（AI）的降维技术，解决木材回收过程中材料回收受限的挑战。我们的研究探索了卷积神经网络（CNN）在多通道高光谱成像（HSI）中的应用，将范围从RGB通道扩展到超过200个光谱通道。在此背景下，降维涉及为AI系统的训练和推理精简特征空间。本文聚焦于可解释人工智能（XAI）方法，为更广泛的研究计划做出贡献，提出了一个能够提升木材回收过程可持续性和效率的解决方案框架。",
+    "tldr": "本文提出了一种基于可解释人工智能（XAI）的降维方法，将卷积神经网络应用于超过200个光谱通道的高光谱成像，以提升木材回收过程的可持续性和效率。",
+    "en_tdlr": "This paper proposes an XAI-based dimensionality reduction approach that applies CNNs to hyperspectral imaging with over 200 spectral channels, enhancing the sustainability and efficiency of wood recycling processes."
+}

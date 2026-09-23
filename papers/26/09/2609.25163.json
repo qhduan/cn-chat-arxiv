@@ -1,0 +1,12 @@
+{
+    "title": "Learning Neural Feedback Linearization for Data-driven Systems via Augmented Lagrangian",
+    "abstract": "arXiv:2609.25163v1 Announce Type: new  Abstract: The paper proposes a novel data-driven framework for designing and training a feedback linearizing controller by explicitly incorporating relative degree based conditions into the learning process. This enables the conventional feedback controller components to be replaced by neural Lie derivatives, thereby facilitating a fully data-driven feedback linearization framework. Furthermore, practical closed-loop stability is established by deriving sufficient conditions under which bounded identification errors lead to bounded tracking errors. The derived theoretical results are validated through their application to an armature controlled DC motor.",
+    "link": "https://arxiv.org/abs/2609.25163",
+    "context": "Title: Learning Neural Feedback Linearization for Data-driven Systems via Augmented Lagrangian\nAbstract: arXiv:2609.25163v1 Announce Type: new  Abstract: The paper proposes a novel data-driven framework for designing and training a feedback linearizing controller by explicitly incorporating relative degree based conditions into the learning process. This enables the conventional feedback controller components to be replaced by neural Lie derivatives, thereby facilitating a fully data-driven feedback linearization framework. Furthermore, practical closed-loop stability is established by deriving sufficient conditions under which bounded identification errors lead to bounded tracking errors. The derived theoretical results are validated through their application to an armature controlled DC motor.",
+    "path": "papers/26/09/2609.25163.json",
+    "total_tokens": 877,
+    "translated_title": "基于增广拉格朗日方法的数据驱动系统神经反馈线性化学习",
+    "translated_abstract": "本文提出了一种新颖的数据驱动框架，通过在学习过程中显式地纳入基于相对阶的条件，来设计和训练反馈线性化控制器。这使得传统的反馈控制器组件能够被神经李导数所替代，从而实现了一个完全数据驱动的反馈线性化框架。此外，通过推导出有界辨识误差导致有界跟踪误差的充分条件，建立了实际闭环稳定性。所推导的理论结果通过其在电枢控制直流电机上的应用得到了验证。",
+    "tldr": "本文提出一种基于增广拉格朗日的数据驱动框架，通过在学习过程中显式纳入相对阶条件并用神经李导数替代传统反馈控制器组件，实现了完全数据驱动的反馈线性化控制，并证明了有界辨识误差下闭环跟踪误差的有界性。",
+    "en_tdlr": "This paper proposes an augmented Lagrangian-based data-driven framework that explicitly incorporates relative degree conditions into the learning process, replacing conventional feedback controller components with neural Lie derivatives to achieve fully data-driven feedback linearization with guaranteed bounded tracking errors under bounded identification errors."
+}

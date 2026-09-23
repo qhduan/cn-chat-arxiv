@@ -1,0 +1,12 @@
+{
+    "title": "The Depth and Reach of Exploitation: Contracting with Endogenously Naive Consumers",
+    "abstract": "arXiv:2609.25509v1 Announce Type: new  Abstract: Consumers can invest resources to understand and avoid their behavioral mistakes, and their incentives to do so depend on the market consequences of remaining naive. We incorporate this feedback between consumers' cognitive states and market outcomes into a general contracting model. Firms face a trade-off between the depth and reach of exploitation: deeper exploitation raises profit from a naive consumer but induces greater cognitive investment, promoting sophistication and shrinking the exploitable consumer base. This trade-off disciplines exploitation and can cause policies that benefit consumers when cognition is fixed to backfire when cognition is endogenous.",
+    "link": "https://arxiv.org/abs/2609.25509",
+    "context": "Title: The Depth and Reach of Exploitation: Contracting with Endogenously Naive Consumers\nAbstract: arXiv:2609.25509v1 Announce Type: new  Abstract: Consumers can invest resources to understand and avoid their behavioral mistakes, and their incentives to do so depend on the market consequences of remaining naive. We incorporate this feedback between consumers' cognitive states and market outcomes into a general contracting model. Firms face a trade-off between the depth and reach of exploitation: deeper exploitation raises profit from a naive consumer but induces greater cognitive investment, promoting sophistication and shrinking the exploitable consumer base. This trade-off disciplines exploitation and can cause policies that benefit consumers when cognition is fixed to backfire when cognition is endogenous.",
+    "path": "papers/26/09/2609.25509.json",
+    "total_tokens": 964,
+    "translated_title": "剥削的深度与广度：与内生性天真消费者的合同设计",
+    "translated_abstract": "消费者可以投入资源来理解和避免自身的行为偏差，而他们这样做的激励取决于保持天真所面临的市场后果。我们将消费者认知状态与市场结果之间的这种反馈机制纳入一个一般性合同模型。企业面临剥削深度与广度之间的权衡：更深度的剥削能提高从天真消费者身上获得的利润，但会诱发更大的认知投资，促使消费者变得精明，从而缩小可被剥削的消费者群体。这种权衡会约束企业的剥削行为，并且可能使得在认知固定情形下有利于消费者的政策，在认知内生的情形下适得其反。",
+    "tldr": "本文在一般性合同模型中引入消费者认知投资与市场结果之间的内生反馈，揭示企业面临“剥削深度与广度”的权衡，该权衡能约束企业剥削行为，并可能使认知固定情形下有益消费者的政策在内生认知情形下适得其反。",
+    "en_tdlr": "This paper incorporates endogenous feedback between consumers' cognitive investment and market outcomes into a general contracting model, showing that firms face a depth-versus-reach trade-off in exploitation that disciplines exploitation and can cause consumer-benefiting policies to backfire when cognition is endogenous."
+}

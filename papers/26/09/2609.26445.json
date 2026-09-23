@@ -1,0 +1,12 @@
+{
+    "title": "A Practical Guide on Graphical Model Validation",
+    "abstract": "arXiv:2609.26445v1 Announce Type: cross  Abstract: This manuscript formalizes the most popular model validation tools used in general insurance actuarial modeling. These include graphical tools like calibration plots, actual-vs-expected plots, lift charts, Murphy diagrams, as well as classical statistical tools such as Bregman losses, deviance losses, elementary losses, Murphy's decomposition and Gini scores. Particular emphasis is placed on whether calibration and discrimination are studied under a policy-weighted or an exposure-weighted population measure. This distinction is crucial in ensuring that premium schemes are calibrated on the correct scale.",
+    "link": "https://arxiv.org/abs/2609.26445",
+    "context": "Title: A Practical Guide on Graphical Model Validation\nAbstract: arXiv:2609.26445v1 Announce Type: cross  Abstract: This manuscript formalizes the most popular model validation tools used in general insurance actuarial modeling. These include graphical tools like calibration plots, actual-vs-expected plots, lift charts, Murphy diagrams, as well as classical statistical tools such as Bregman losses, deviance losses, elementary losses, Murphy's decomposition and Gini scores. Particular emphasis is placed on whether calibration and discrimination are studied under a policy-weighted or an exposure-weighted population measure. This distinction is crucial in ensuring that premium schemes are calibrated on the correct scale.",
+    "path": "papers/26/09/2609.26445.json",
+    "total_tokens": 851,
+    "translated_title": "图形化模型验证实用指南",
+    "translated_abstract": "本手稿对一般保险精算建模中最常用的模型验证工具进行了形式化。这些工具包括图形化工具，如校准图、实际与预期对比图、提升图、Murphy图，以及经典统计工具，如Bregman损失、偏差损失、基本损失、Murphy分解和Gini分数。文中特别强调了在校准能力和区分能力的研究中，应采用保单加权还是风险暴露加权的总体度量。这一区别对于确保保费方案在正确的尺度上进行校准至关重要。",
+    "tldr": "本文系统化整理了保险精算建模中常用的图形化与统计模型验证工具，并强调保单加权与风险暴露加权度量之间的区别是确保保费方案在正确尺度上校准的关键。",
+    "en_tdlr": "This paper formalizes the most popular graphical and statistical model validation tools in general insurance actuarial modeling, emphasizing that the distinction between policy-weighted and exposure-weighted population measures is crucial for ensuring premium schemes are calibrated on the correct scale."
+}

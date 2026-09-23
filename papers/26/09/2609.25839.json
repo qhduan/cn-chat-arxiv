@@ -1,0 +1,11 @@
+{
+    "title": "Gaussian Flow-Matching Schedules: Implications for Sampling and Training",
+    "abstract": "arXiv:2609.25839v1 Announce Type: new  Abstract: Flow-matching schedules affect both sampling dynamics and the variance of the regression target. For centered commuting Gaussians, we show that a direction-dependent schedule decomposes into two independent design choices: a variance path, which fully determines the intermediate laws and probability flow, and a factorization, which leaves this flow unchanged while controlling irreducible regression variance. On the sampling side, we analyze finite-step Euler accuracy and derive a necessary drift bound for exact N -step sampling, connecting the geodesic and the logarithmic path. On the training side, for any fixed path, we derive closed-form factorizations that either minimize time-averaged regression variance or make it constant along the path.",
+    "link": "https://arxiv.org/abs/2609.25839",
+    "context": "Title: Gaussian Flow-Matching Schedules: Implications for Sampling and Training\nAbstract: arXiv:2609.25839v1 Announce Type: new  Abstract: Flow-matching schedules affect both sampling dynamics and the variance of the regression target. For centered commuting Gaussians, we show that a direction-dependent schedule decomposes into two independent design choices: a variance path, which fully determines the intermediate laws and probability flow, and a factorization, which leaves this flow unchanged while controlling irreducible regression variance. On the sampling side, we analyze finite-step Euler accuracy and derive a necessary drift bound for exact N -step sampling, connecting the geodesic and the logarithmic path. On the training side, for any fixed path, we derive closed-form factorizations that either minimize time-averaged regression variance or make it constant along the path.",
+    "path": "papers/26/09/2609.25839.json",
+    "total_tokens": 1058,
+    "translated_title": "高斯流匹配调度：对采样与训练的影响",
+    "translated_abstract": "流匹配调度同时影响采样动力学和回归目标的方差。对于中心化的可交换高斯分布，我们证明方向相关的调度可以分解为两个独立的设计选择：方差路径，它完全决定了中间分布和概率流；以及因式分解，它在保持该概率流不变的同时控制不可约的回归方差。在采样方面，我们分析了有限步欧拉法的精度，并推导出精确N步采样所需的必要漂移界，将测地线路径与对数路径联系起来。在训练方面，对于任意固定路径，我们推导出闭式因式分解，可以最小化时间平均回归方差，或使其沿路径保持恒定。",
+    "tldr": "该论文证明高斯流匹配调度可分解为方差路径与因式分解两个独立设计选择，前者完全决定概率流、后者控制不可约回归方差，并据此推导了精确N步采样的必要漂移界以及最小化或恒定化回归方差的闭式因式分解。"
+}

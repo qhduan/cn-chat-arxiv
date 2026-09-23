@@ -1,0 +1,12 @@
+{
+    "title": "Transformer Heads Looking for Order",
+    "abstract": "arXiv:2609.25588v1 Announce Type: cross  Abstract: In this note, we show that the problem of checking, whether a sequence of bits is ordered, is not doable by 1-head 1-layer transformers but is doable by a 2-head 1-layer transformer. Unlike similar previous results, our results assume the model where transformers have an output MLP.",
+    "link": "https://arxiv.org/abs/2609.25588",
+    "context": "Title: Transformer Heads Looking for Order\nAbstract: arXiv:2609.25588v1 Announce Type: cross  Abstract: In this note, we show that the problem of checking, whether a sequence of bits is ordered, is not doable by 1-head 1-layer transformers but is doable by a 2-head 1-layer transformer. Unlike similar previous results, our results assume the model where transformers have an output MLP.",
+    "path": "papers/26/09/2609.25588.json",
+    "total_tokens": 676,
+    "translated_title": "寻找顺序的Transformer注意力头",
+    "translated_abstract": "在这篇短文中，我们证明了检查一个比特序列是否有序这一问题，单头单层Transformer无法完成，但双头单层Transformer可以完成。与之前类似的结果不同，我们的结果是在Transformer带有输出MLP的模型设定下得出的。",
+    "tldr": "本文证明单头单层Transformer无法判断比特序列是否有序，而双头单层Transformer可以完成该任务，且这一结论在包含输出MLP的模型设定下成立。",
+    "en_tdlr": "This paper shows that checking whether a sequence of bits is ordered is impossible for a 1-head 1-layer transformer but achievable by a 2-head 1-layer transformer, under a model where transformers have an output MLP."
+}

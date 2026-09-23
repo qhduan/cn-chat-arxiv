@@ -1,0 +1,12 @@
+{
+    "title": "Toward an automated science of the mind",
+    "abstract": "arXiv:2603.20988v2 Announce Type: replace  Abstract: Artificial Intelligence is starting to automate scientific discovery, raising the prospect of an automated science of the mind. We chart this field around four challenges: representing experiments, generating synthetic behavior, synthesizing models, and closing the loop to discover psychological theories.",
+    "link": "https://arxiv.org/abs/2603.20988",
+    "context": "Title: Toward an automated science of the mind\nAbstract: arXiv:2603.20988v2 Announce Type: replace  Abstract: Artificial Intelligence is starting to automate scientific discovery, raising the prospect of an automated science of the mind. We chart this field around four challenges: representing experiments, generating synthetic behavior, synthesizing models, and closing the loop to discover psychological theories.",
+    "path": "papers/26/03/2603.20988.json",
+    "total_tokens": 593,
+    "translated_title": "迈向心智的自动化科学",
+    "translated_abstract": "人工智能正开始使科学发现自动化，这为心智的自动化科学带来了前景。我们围绕四个挑战描绘了这一领域的蓝图：实验的表示、合成行为的生成、模型的综合，以及闭合循环以发现心理学理论。",
+    "tldr": "本文描绘了利用人工智能自动化心理学研究这一新兴领域的蓝图，围绕实验表示、合成行为生成、模型综合以及闭环发现心理学理论四大核心挑战展开。",
+    "en_tdlr": "This paper charts the emerging field of an automated science of the mind, organized around four key challenges: representing experiments, generating synthetic behavior, synthesizing models, and closing the loop to discover psychological theories."
+}

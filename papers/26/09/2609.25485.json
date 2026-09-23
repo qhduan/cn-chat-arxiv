@@ -1,0 +1,12 @@
+{
+    "title": "Dynamic Disclosure with(out) Timestamps",
+    "abstract": "arXiv:2609.25485v1 Announce Type: new  Abstract: We study how timestamps affect dynamic disclosure. At a random date, a sender privately obtains hard evidence about an evolving binary state and chooses when to disclose it. With timestamps, the unique equilibrium features immediate good-evidence disclosure and timestamp-dependent bad-evidence delay. Without timestamps, high priors relative to impatience generate a stock of undisclosed good evidence, which is stochastically purged before permanent transparency. High impatience yields immediate good-evidence disclosure, while bad evidence can be arbitrarily delayed and disclosed in bursts. Timestamps prevent pretending old good evidence is fresh and certify bad evidence is old, accelerating good-evidence disclosure and facilitating bad-evidence disclosure.",
+    "link": "https://arxiv.org/abs/2609.25485",
+    "context": "Title: Dynamic Disclosure with(out) Timestamps\nAbstract: arXiv:2609.25485v1 Announce Type: new  Abstract: We study how timestamps affect dynamic disclosure. At a random date, a sender privately obtains hard evidence about an evolving binary state and chooses when to disclose it. With timestamps, the unique equilibrium features immediate good-evidence disclosure and timestamp-dependent bad-evidence delay. Without timestamps, high priors relative to impatience generate a stock of undisclosed good evidence, which is stochastically purged before permanent transparency. High impatience yields immediate good-evidence disclosure, while bad evidence can be arbitrarily delayed and disclosed in bursts. Timestamps prevent pretending old good evidence is fresh and certify bad evidence is old, accelerating good-evidence disclosure and facilitating bad-evidence disclosure.",
+    "path": "papers/26/09/2609.25485.json",
+    "total_tokens": 966,
+    "translated_title": "有（无）时间戳的动态披露",
+    "translated_abstract": "我们研究时间戳如何影响动态披露。在某个随机日期，发送方私下获得关于一个不断演化的二元状态的硬证据，并选择何时披露它。在有时间戳的情况下，唯一均衡的特征是好证据被立即披露，而坏证据的延迟则依赖于时间戳。在没有时间戳的情况下，相对于不耐烦程度而言较高的先验信念会产生一批未披露的好证据存量，这些存量在达到永久透明之前被随机清除。高度不耐烦会导致好证据被立即披露，而坏证据则可以被任意延迟并以爆发式方式披露。时间戳能够防止发送方将旧的好证据冒充为新证据，并证明坏证据确实是旧的，从而加速好证据的披露并促进坏证据的披露。",
+    "tldr": "本文证明时间戳通过防止发送方将旧好证据冒充为新证据并证明坏证据确实陈旧，从而加速好证据的披露并促进坏证据的披露。",
+    "en_tdlr": "Timestamps prevent senders from passing off old good evidence as fresh and certify that bad evidence is old, thereby accelerating good-evidence disclosure and facilitating bad-evidence disclosure."
+}

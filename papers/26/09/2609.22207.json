@@ -1,0 +1,12 @@
+{
+    "title": "An Implant-to-Wearable IR-UWB Transmitter-Receiver Architecture and Layered Protocol for High-Density Brain-Computer Interfaces",
+    "abstract": "arXiv:2609.22207v1 Announce Type: cross  Abstract: High-rate neural telemetry requires an implant-towearable link whose circuit partition, waveform mapping, packet processing, and failure semantics are mutually consistent. This paper specifies a chip-oriented, one-way impulse-radio ultrawideband (IR-UWB) uplink comprising an implanted packet engine and free-running transmitter, a tissue-proxy channel, and a wearable mixed-signal receiver and digital baseband.",
+    "link": "https://arxiv.org/abs/2609.22207",
+    "context": "Title: An Implant-to-Wearable IR-UWB Transmitter-Receiver Architecture and Layered Protocol for High-Density Brain-Computer Interfaces\nAbstract: arXiv:2609.22207v1 Announce Type: cross  Abstract: High-rate neural telemetry requires an implant-towearable link whose circuit partition, waveform mapping, packet processing, and failure semantics are mutually consistent. This paper specifies a chip-oriented, one-way impulse-radio ultrawideband (IR-UWB) uplink comprising an implanted packet engine and free-running transmitter, a tissue-proxy channel, and a wearable mixed-signal receiver and digital baseband.",
+    "path": "papers/26/09/2609.22207.json",
+    "total_tokens": 844,
+    "translated_title": "一种面向高密度脑机接口的植入式到可穿戴IR-UWB收发机架构与分层协议",
+    "translated_abstract": "高速率神经遥测需要一个植入式到可穿戴的链路，其电路划分、波形映射、数据包处理和失效语义需要相互一致。本文规定了一种面向芯片的单向脉冲无线电超宽带（IR-UWB）上行链路，包括植入式数据包引擎和自由运行发射机、组织代理信道，以及可穿戴混合信号接收机和数字基带。",
+    "tldr": "本文提出了一种面向高密度脑机接口的植入式到可穿戴IR-UWB单向收发机架构与分层协议，实现了电路划分、波形映射、数据包处理和失效语义的协同一致设计。",
+    "en_tdlr": "This paper specifies a chip-oriented one-way IR-UWB implant-to-wearable transmitter-receiver architecture and layered protocol for high-density brain-computer interfaces, with mutually consistent circuit partition, waveform mapping, packet processing, and failure semantics."
+}
