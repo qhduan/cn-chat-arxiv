@@ -1,0 +1,12 @@
+{
+    "title": "FastManly: An EM-Gradient Algorithm for Manly Mixture Models",
+    "abstract": "arXiv:2410.00848v2 Announce Type: replace-cross  Abstract: A faster implementation of mixtures of Manly transformations is proposed. This method, called FastManly, uses Newton's method for optimization in an EM gradient algorithm instead of Nelder-Mead in a traditional EM. A gradient and full Hessian are derived. Simulations show improved performance with noticeable speedups.",
+    "link": "https://arxiv.org/abs/2410.00848",
+    "context": "Title: FastManly: An EM-Gradient Algorithm for Manly Mixture Models\nAbstract: arXiv:2410.00848v2 Announce Type: replace-cross  Abstract: A faster implementation of mixtures of Manly transformations is proposed. This method, called FastManly, uses Newton's method for optimization in an EM gradient algorithm instead of Nelder-Mead in a traditional EM. A gradient and full Hessian are derived. Simulations show improved performance with noticeable speedups.",
+    "path": "papers/24/10/2410.00848.json",
+    "total_tokens": 735,
+    "translated_title": "FastManly：用于Manly混合模型的EM梯度算法",
+    "translated_abstract": "本文提出了一种更快速的Manly变换混合模型实现方法。该方法称为FastManly，在EM梯度算法中使用牛顿法进行优化，取代了传统EM算法中的Nelder-Mead方法。文中推导出了梯度以及完整的Hessian矩阵。仿真结果表明该方法性能更优，且速度提升显著。",
+    "tldr": "FastManly方法通过在EM梯度算法中采用牛顿法（并推导出梯度和完整Hessian矩阵）替代传统EM中的Nelder-Mead优化，显著加快了Manly变换混合模型的计算速度。",
+    "en_tdlr": "FastManly achieves faster computation of Manly mixture models by replacing Nelder-Mead optimization in traditional EM with Newton's method (with derived gradient and full Hessian) within an EM gradient algorithm, yielding noticeable speedups."
+}

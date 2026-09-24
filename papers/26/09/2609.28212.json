@@ -1,0 +1,12 @@
+{
+    "title": "Log-Depth Recurrent Language Modeling",
+    "abstract": "arXiv:2609.28212v1 Announce Type: cross  Abstract: Language modeling using Transformers has become commonplace despite their fixed computational depth and quadratic runtime with respect to input tokens. Recurrent models on the other hand offer linear depth but no parallel execution. In this work, we extend balanced-tree recursive operators from sequence encoding to autoregressive prediction, enabling all prefix representations to be computed with logarithmic depth and linear runtime. Our experiments provide an initial characterization of this model class, demonstrating robust length extrapolation and performance approaching that of ALiBi-based Transformers, highlighting its potential as an alternative architecture for language modeling.",
+    "link": "https://arxiv.org/abs/2609.28212",
+    "context": "Title: Log-Depth Recurrent Language Modeling\nAbstract: arXiv:2609.28212v1 Announce Type: cross  Abstract: Language modeling using Transformers has become commonplace despite their fixed computational depth and quadratic runtime with respect to input tokens. Recurrent models on the other hand offer linear depth but no parallel execution. In this work, we extend balanced-tree recursive operators from sequence encoding to autoregressive prediction, enabling all prefix representations to be computed with logarithmic depth and linear runtime. Our experiments provide an initial characterization of this model class, demonstrating robust length extrapolation and performance approaching that of ALiBi-based Transformers, highlighting its potential as an alternative architecture for language modeling.",
+    "path": "papers/26/09/2609.28212.json",
+    "total_tokens": 882,
+    "translated_title": "对数深度循环语言建模",
+    "translated_abstract": "尽管使用Transformer进行语言建模已成为常态，但其计算深度固定，且运行时间随输入token数量呈平方级增长。另一方面，循环模型虽然提供线性深度，却无法并行执行。在这项工作中，我们将平衡树递归算子从序列编码扩展到自回归预测，使得所有前缀表示能够以对数深度和线性运行时间计算。我们的实验对这一模型类别进行了初步刻画，展示了其稳健的长度外推能力以及接近基于ALiBi的Transformer的性能，突显了其作为语言建模替代架构的潜力。",
+    "tldr": "本文将平衡树递归算子扩展到自回归语言建模，实现了以对数深度和线性运行时间计算所有前缀表示，展现出稳健的长度外推能力和接近ALiBi Transformer的性能。",
+    "en_tdlr": "This paper extends balanced-tree recursive operators to autoregressive language modeling, enabling all prefix representations to be computed with logarithmic depth and linear runtime, demonstrating robust length extrapolation and performance approaching ALiBi-based Transformers."
+}

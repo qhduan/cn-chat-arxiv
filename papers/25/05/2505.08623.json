@@ -1,0 +1,12 @@
+{
+    "title": "Rough Bergomi turns grey",
+    "abstract": "arXiv:2505.08623v2 Announce Type: replace  Abstract: We propose a tractable extension of the rough Bergomi model, replacing the fractional Brownian motion with a generalised grey Brownian motion, which we show to be reminiscent of models with stochastic volatility of volatility. This extension breaks away from the log-Normal assumption of rough Bergomi, thereby making it a viable suggestion for the Equity Holy Grail -- the joint SPX/VIX options calibration. For this new (class of) model(s), we provide semi-closed and asymptotic formulae for SPX and VIX options and show numerically its potential advantages as well as calibration results.",
+    "link": "https://arxiv.org/abs/2505.08623",
+    "context": "Title: Rough Bergomi turns grey\nAbstract: arXiv:2505.08623v2 Announce Type: replace  Abstract: We propose a tractable extension of the rough Bergomi model, replacing the fractional Brownian motion with a generalised grey Brownian motion, which we show to be reminiscent of models with stochastic volatility of volatility. This extension breaks away from the log-Normal assumption of rough Bergomi, thereby making it a viable suggestion for the Equity Holy Grail -- the joint SPX/VIX options calibration. For this new (class of) model(s), we provide semi-closed and asymptotic formulae for SPX and VIX options and show numerically its potential advantages as well as calibration results.",
+    "path": "papers/25/05/2505.08623.json",
+    "total_tokens": 1209,
+    "translated_title": "粗糙Bergomi模型变“灰”了",
+    "translated_abstract": "我们提出了粗糙Bergomi模型的一个易于处理的扩展，用广义灰布朗运动替代其中的分数布朗运动，并证明其与具有随机波动率的波动率（stochastic volatility of volatility）的模型有相似之处。这一扩展摆脱了粗糙Bergomi模型的对数正态假设，从而使其成为攻克股票衍生品“圣杯”——SPX与VIX期权联合校准——的一个可行方案。针对这一新的（类）模型，我们提供了SPX和VIX期权的半闭式及渐近定价公式，并通过数值实验展示了其潜在优势以及校准结果。",
+    "tldr": "该论文用广义灰布朗运动替代分数布朗运动，提出了粗糙Bergomi模型的易处理扩展，突破了对数正态假设，有望实现SPX/VIX期权联合校准，并提供了半闭式与渐近定价公式。",
+    "en_tdlr": "The paper proposes a tractable extension of the rough Bergomi model by replacing fractional Brownian motion with generalized grey Brownian motion, breaking the log-Normal assumption and offering a viable approach for the joint SPX/VIX options calibration, with semi-closed and asymptotic pricing formulae provided."
+}

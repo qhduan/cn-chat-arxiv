@@ -1,0 +1,12 @@
+{
+    "title": "Random Polytope Descriptors",
+    "abstract": "arXiv:2009.13987v3 Announce Type: replace  Abstract: We introduce a class of random polytopes which simultaneously generalizes several known constructions. While being fairly general, these polytopes are also computationally exceptionally benign. We indicate how these properties can be exploited for classification and clustering tasks in data analysis. Crucially, our construction lets users smoothly trade off between a tighter description of the data and faster computation.",
+    "link": "https://arxiv.org/abs/2009.13987",
+    "context": "Title: Random Polytope Descriptors\nAbstract: arXiv:2009.13987v3 Announce Type: replace  Abstract: We introduce a class of random polytopes which simultaneously generalizes several known constructions. While being fairly general, these polytopes are also computationally exceptionally benign. We indicate how these properties can be exploited for classification and clustering tasks in data analysis. Crucially, our construction lets users smoothly trade off between a tighter description of the data and faster computation.",
+    "path": "papers/20/09/2009.13987.json",
+    "total_tokens": 762,
+    "translated_title": "随机多面体描述符",
+    "translated_abstract": "我们引入了一类随机多面体，它同时推广了多种已知的构造方法。这类多面体不仅相当通用，而且在计算上也异常友好。我们说明了如何利用这些性质来完成数据分析中的分类与聚类任务。至关重要的是，我们的构造让用户能够在更紧凑的数据描述与更快的计算之间平滑地权衡。",
+    "tldr": "该论文提出了一类既通用又计算友好的随机多面体描述符，可用于数据分析中的分类与聚类任务，并允许用户在数据描述的紧致性与计算速度之间灵活权衡。",
+    "en_tdlr": "This paper introduces a class of random polytopes that generalizes several known constructions, providing computationally friendly descriptors for classification and clustering tasks while allowing users to smoothly trade off between tighter data descriptions and faster computation."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "LLM-Assisted Workflow for Structural Difference Visualization in Evolving Software Requirements",
+    "abstract": "arXiv:2609.28002v1 Announce Type: cross  Abstract: This paper presents an LLM-assisted workflow for visualizing structural differences in evolving software require- ments. Implemented in the OntologyWeb environment, the work- flow represents baseline and current requirements as triple-based semantic graphs and supports side-by-side comparison of curated graph snapshots. The comparison view aligns matched entities and uses visual encoding to highlight structural changes.",
+    "link": "https://arxiv.org/abs/2609.28002",
+    "context": "Title: LLM-Assisted Workflow for Structural Difference Visualization in Evolving Software Requirements\nAbstract: arXiv:2609.28002v1 Announce Type: cross  Abstract: This paper presents an LLM-assisted workflow for visualizing structural differences in evolving software require- ments. Implemented in the OntologyWeb environment, the work- flow represents baseline and current requirements as triple-based semantic graphs and supports side-by-side comparison of curated graph snapshots. The comparison view aligns matched entities and uses visual encoding to highlight structural changes.",
+    "path": "papers/26/09/2609.28002.json",
+    "total_tokens": 783,
+    "translated_title": "基于大语言模型辅助的软件需求演化中结构差异可视化工作流",
+    "translated_abstract": "本文提出了一种基于大语言模型（LLM）辅助的工作流，用于可视化演化中的软件需求结构差异。该工作流在OntologyWeb环境中实现，将基线需求与当前需求表示为基于三元组的语义图，并支持对整理后的图快照进行并排比较。比较视图会对齐匹配的实体，并利用视觉编码来突出显示结构上的变化。",
+    "tldr": "本文提出了一种在OntologyWeb环境中实现的LLM辅助工作流，通过将基线需求与当前需求表示为语义图并进行并排比较，实现了软件需求演化中结构差异的可视化。",
+    "en_tdlr": "This paper presents an LLM-assisted workflow, implemented in OntologyWeb, that visualizes structural differences in evolving software requirements by representing baseline and current requirements as triple-based semantic graphs with side-by-side snapshot comparison."
+}

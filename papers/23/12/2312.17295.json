@@ -1,0 +1,12 @@
+{
+    "title": "Optimizing watermarks for large language models",
+    "abstract": "arXiv:2312.17295v2 Announce Type: replace-cross  Abstract: With the rise of large language models (LLMs) and concerns about potential misuse, watermarks for generative LLMs have recently attracted much attention. An important aspect of such watermarks is the trade-off between their identifiability and their impact on the quality of the generated text. This paper introduces a systematic approach to this trade-off in terms of a multi-objective optimization problem. For a large class of robust, efficient watermarks, the associated Pareto optimal solutions are identified and shown to outperform the currently default watermark.",
+    "link": "https://arxiv.org/abs/2312.17295",
+    "context": "Title: Optimizing watermarks for large language models\nAbstract: arXiv:2312.17295v2 Announce Type: replace-cross  Abstract: With the rise of large language models (LLMs) and concerns about potential misuse, watermarks for generative LLMs have recently attracted much attention. An important aspect of such watermarks is the trade-off between their identifiability and their impact on the quality of the generated text. This paper introduces a systematic approach to this trade-off in terms of a multi-objective optimization problem. For a large class of robust, efficient watermarks, the associated Pareto optimal solutions are identified and shown to outperform the currently default watermark.",
+    "path": "papers/23/12/2312.17295.json",
+    "total_tokens": 854,
+    "translated_title": "大语言模型水印的优化",
+    "translated_abstract": "随着大语言模型（LLM）的兴起以及对其潜在滥用的担忧，生成式大语言模型的水印技术近来受到了广泛关注。此类水印的一个重要方面是其可识别性与对生成文本质量影响之间的权衡。本文通过多目标优化问题的框架，为这一权衡引入了一种系统化的方法。对于一大类鲁棒且高效的水印，本文识别出了相应的帕累托最优解，并证明其性能优于当前默认的水印方案。",
+    "tldr": "本文将大语言模型水印中可识别性与生成文本质量影响之间的权衡形式化为多目标优化问题，识别出一大类鲁棒高效水印的帕累托最优解，并证明其性能优于当前默认水印方案。",
+    "en_tdlr": "This paper formulates the trade-off between watermark identifiability and its impact on generated text quality as a multi-objective optimization problem, identifies Pareto optimal solutions for a large class of robust and efficient watermarks, and shows they outperform the current default watermark."
+}

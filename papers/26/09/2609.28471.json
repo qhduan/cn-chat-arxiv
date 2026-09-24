@@ -1,0 +1,12 @@
+{
+    "title": "Contrastive Learning for Authorship Verification",
+    "abstract": "arXiv:2609.28471v1 Announce Type: new  Abstract: Our results show that contrastive learning outperforms a classification-based approach to authorship verification under the tested settings. We identify loss function, batch size, training duration, pre-trained model, input context length, and random text span data augmentation as important factors of model performance. Based on these considerations, we develop a ModernBERT Bi-Encoder model that achieves 98.4% accuracy on the PAN21 authorship verification task.",
+    "link": "https://arxiv.org/abs/2609.28471",
+    "context": "Title: Contrastive Learning for Authorship Verification\nAbstract: arXiv:2609.28471v1 Announce Type: new  Abstract: Our results show that contrastive learning outperforms a classification-based approach to authorship verification under the tested settings. We identify loss function, batch size, training duration, pre-trained model, input context length, and random text span data augmentation as important factors of model performance. Based on these considerations, we develop a ModernBERT Bi-Encoder model that achieves 98.4% accuracy on the PAN21 authorship verification task.",
+    "path": "papers/26/09/2609.28471.json",
+    "total_tokens": 742,
+    "translated_title": "用于作者身份验证的对比学习",
+    "translated_abstract": "我们的结果表明，在所测试的设置下，对比学习优于基于分类的作者身份验证方法。我们确定了损失函数、批大小、训练时长、预训练模型、输入上下文长度以及随机文本片段数据增强是影响模型性能的重要因素。基于这些考虑，我们开发了一个 ModernBERT 双编码器模型，在 PAN21 作者身份验证任务上达到了 98.4% 的准确率。",
+    "tldr": "本文提出基于 ModernBERT 双编码器的对比学习方法，通过优化损失函数、数据增强等关键因素，在 PAN21 作者身份验证任务上达到 98.4% 的准确率，优于基于分类的方法。",
+    "en_tdlr": "This paper proposes a ModernBERT Bi-Encoder contrastive learning approach that achieves 98.4% accuracy on the PAN21 authorship verification task, outperforming classification-based methods."
+}

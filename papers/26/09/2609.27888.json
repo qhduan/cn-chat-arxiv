@@ -1,0 +1,12 @@
+{
+    "title": "Bins",
+    "abstract": "arXiv:2609.27888v1 Announce Type: new  Abstract: For an exogenous source of information and a prespecified number of messages k, I characterize the set of maximal--that is to say, undominated--summaries of the information that use at most k messages. When the exogenous information produces a regular distribution over posteriors (if it has a density on its affine hull, for instance), the maximal summaries take a precise geometric form. They are hierarchical power diagrams: convex subdivisions of the space of beliefs constructed by recursively subdividing cells according to weighted proximity criteria.",
+    "link": "https://arxiv.org/abs/2609.27888",
+    "context": "Title: Bins\nAbstract: arXiv:2609.27888v1 Announce Type: new  Abstract: For an exogenous source of information and a prespecified number of messages k, I characterize the set of maximal--that is to say, undominated--summaries of the information that use at most k messages. When the exogenous information produces a regular distribution over posteriors (if it has a density on its affine hull, for instance), the maximal summaries take a precise geometric form. They are hierarchical power diagrams: convex subdivisions of the space of beliefs constructed by recursively subdividing cells according to weighted proximity criteria.",
+    "path": "papers/26/09/2609.27888.json",
+    "total_tokens": 1016,
+    "translated_title": "分箱",
+    "translated_abstract": "对于一个外生信息源和预先指定的消息数量k，我刻画了使用至多k条消息的极大——也就是说，不被支配的——信息摘要的集合。当外生信息产生一个关于后验信念的规则分布时（例如，如果它在其仿射包上具有密度），极大摘要会呈现出精确的几何形式。它们是层次化的幂图：即通过依据加权邻近准则递归地对单元格进行细分而构造出的信念空间的凸划分。",
+    "tldr": "本文刻画了在至多k条消息约束下外生信息的极大（不被支配）摘要集合，并证明当后验分布规则时，这些极大摘要呈现为层次化幂图这一精确的几何形式。",
+    "en_tdlr": "This paper characterizes the set of maximal (undominated) summaries of exogenous information using at most k messages, showing that when posteriors are regularly distributed, these maximal summaries take the precise geometric form of hierarchical power diagrams."
+}
