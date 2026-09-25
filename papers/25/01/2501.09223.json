@@ -1,0 +1,12 @@
+{
+    "title": "Foundations of Large Language Models",
+    "abstract": "arXiv:2501.09223v3 Announce Type: replace-cross  Abstract: This is a book about large language models. As indicated by the title, it primarily focuses on foundational concepts rather than comprehensive coverage of all cutting-edge technologies. The book is structured into six main chapters, each exploring a key area: pre-training, generative models, prompting, alignment, inference, and reasoning. It is intended for college students, professionals, and practitioners in natural language processing and related fields, and can serve as a reference for anyone interested in large language models.",
+    "link": "https://arxiv.org/abs/2501.09223",
+    "context": "Title: Foundations of Large Language Models\nAbstract: arXiv:2501.09223v3 Announce Type: replace-cross  Abstract: This is a book about large language models. As indicated by the title, it primarily focuses on foundational concepts rather than comprehensive coverage of all cutting-edge technologies. The book is structured into six main chapters, each exploring a key area: pre-training, generative models, prompting, alignment, inference, and reasoning. It is intended for college students, professionals, and practitioners in natural language processing and related fields, and can serve as a reference for anyone interested in large language models.",
+    "path": "papers/25/01/2501.09223.json",
+    "total_tokens": 892,
+    "translated_title": "大语言模型基础",
+    "translated_abstract": "这是一本关于大语言模型的书籍。正如书名所示，本书主要聚焦于基础性概念，而非全面涵盖所有前沿技术。全书由六个主要章节构成，每个章节探讨一个关键领域：预训练、生成模型、提示（Prompting）、对齐、推断（Inference）和推理（Reasoning）。本书面向大学生、自然语言处理及相关领域的专业人士和从业者，也可作为所有对大语言模型感兴趣的读者的参考书。",
+    "tldr": "本书系统阐述了大语言模型的六大核心基础领域——预训练、生成模型、提示、对齐、推断与推理，为学习者提供了一部权威的基础性参考书。",
+    "en_tdlr": "This book systematically covers the six foundational areas of large language models—pre-training, generative models, prompting, alignment, inference, and reasoning—providing an authoritative foundational reference for learners."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Controlling Backchannels in Streamable Full-duplex Models",
+    "abstract": "arXiv:2609.29418v1 Announce Type: new  Abstract: Backchannels, brief acknowledgements like \"uh-huh\" produced while the other party may still be talking, are central to natural conversation, but full-duplex spoken dialogue models rarely model them explicitly. We introduce a lightweight backchannel head that predicts, from a full-duplex model's own hidden states, when a backchannel should begin. Once this probability crosses a tunable threshold, a backchannel is force-decoded. Attached to both a 7B (PersonaPlex) and a 1B (F-Actor) model, it generalizes across scale. Probing confirms the hidden states anticipate real human timing, and generation evaluation shows more frequent, better-timed backchannels. Human raters judge the resulting backchannels on par with real ones.",
+    "link": "https://arxiv.org/abs/2609.29418",
+    "context": "Title: Controlling Backchannels in Streamable Full-duplex Models\nAbstract: arXiv:2609.29418v1 Announce Type: new  Abstract: Backchannels, brief acknowledgements like \"uh-huh\" produced while the other party may still be talking, are central to natural conversation, but full-duplex spoken dialogue models rarely model them explicitly. We introduce a lightweight backchannel head that predicts, from a full-duplex model's own hidden states, when a backchannel should begin. Once this probability crosses a tunable threshold, a backchannel is force-decoded. Attached to both a 7B (PersonaPlex) and a 1B (F-Actor) model, it generalizes across scale. Probing confirms the hidden states anticipate real human timing, and generation evaluation shows more frequent, better-timed backchannels. Human raters judge the resulting backchannels on par with real ones.",
+    "path": "papers/26/09/2609.29418.json",
+    "total_tokens": 1147,
+    "translated_title": "可流式全双工模型中的附和语控制",
+    "translated_abstract": "附和语是当对方可能仍在说话时发出的简短回应（如\"嗯嗯\"），是自然对话的核心组成部分，但全双工语音对话模型很少对其进行显式建模。我们提出了一种轻量级的附和语预测头，它可以从全双工模型自身的隐藏状态中预测附和语应该在何时开始。一旦该概率超过可调节的阈值，就会强制解码出一条附和语。该模块可同时附加到7B（PersonaPlex）和1B（F-Actor）模型上，并在不同模型规模间具有泛化能力。探测实验证实隐藏状态能够预示真实人类的附和时机，生成评估显示附和语出现得更频繁、时机更恰当。人类评估者认为由此生成的附和语与真实的附和语不相上下。",
+    "tldr": "本文提出一种轻量级附和语预测头，利用全双工语音模型自身的隐藏状态预测附和语的最佳发出时机，使生成的附和语在频率和时机上接近真实人类水平。",
+    "en_tdlr": "This paper introduces a lightweight backchannel head that leverages a full-duplex model's own hidden states to predict when to emit backchannels, producing more frequent and better-timed backchannels that human raters judge to be on par with real ones."
+}

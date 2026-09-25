@@ -1,0 +1,12 @@
+{
+    "title": "CatSIM: A Categorical Image Similarity Metric",
+    "abstract": "arXiv:2004.09073v2 Announce Type: replace-cross  Abstract: We introduce CatSIM, a new similarity metric for binary and multinary two- and three-dimensional images and volumes. CatSIM uses a structural similarity image quality paradigm and is robust to small perturbations in location so that structures in similar, but not entirely overlapping, image or volumetric regions are rated higher than by simple matching. The metric can also compare arbitrary regions inside images and volumes. CatSIM is evaluated on artificial data sets, validated by comparing with human perception in two separate image quality assessment surveys, and illustrated on two datasets. The publicly available R package \\texttt{catsim} implements the methodology.",
+    "link": "https://arxiv.org/abs/2004.09073",
+    "context": "Title: CatSIM: A Categorical Image Similarity Metric\nAbstract: arXiv:2004.09073v2 Announce Type: replace-cross  Abstract: We introduce CatSIM, a new similarity metric for binary and multinary two- and three-dimensional images and volumes. CatSIM uses a structural similarity image quality paradigm and is robust to small perturbations in location so that structures in similar, but not entirely overlapping, image or volumetric regions are rated higher than by simple matching. The metric can also compare arbitrary regions inside images and volumes. CatSIM is evaluated on artificial data sets, validated by comparing with human perception in two separate image quality assessment surveys, and illustrated on two datasets. The publicly available R package \\texttt{catsim} implements the methodology.",
+    "path": "papers/20/04/2004.09073.json",
+    "total_tokens": 923,
+    "translated_title": "CatSIM：一种分类图像相似度度量",
+    "translated_abstract": "我们提出了CatSIM，这是一种用于二值和多值二维及三维图像和体积的新相似度度量方法。CatSIM采用结构相似性图像质量范式，并对位置的微小扰动具有鲁棒性，因此位于相似但不完全重叠的图像或体积区域中的结构，能够获得比简单匹配更高的评分。该度量方法还可以比较图像和体积内部的任意区域。CatSIM在人工数据集上进行了评估，并通过两个独立的图像质量评估调查与人类感知进行对比验证，同时在两个数据集上进行了应用展示。公开可用的R包catsim实现了该方法。",
+    "tldr": "CatSIM是一种基于结构相似性范式的新图像相似度度量方法，适用于二值和多值的二维及三维图像与体积，对位置的微小扰动具有鲁棒性，并能比较图像内部的任意区域。",
+    "en_tdlr": "CatSIM is a new structural-similarity-based image metric for binary and multinary 2D/3D images and volumes, robust to small location perturbations and capable of comparing arbitrary regions within images and volumes."
+}

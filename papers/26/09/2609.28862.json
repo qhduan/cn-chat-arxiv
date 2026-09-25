@@ -1,0 +1,12 @@
+{
+    "title": "pytest-gpu-proof: Enabling Cloud-CPU Continuous Integration for GPU Code with Local GPU Attestation",
+    "abstract": "arXiv:2609.28862v1 Announce Type: cross  Abstract: GPU acceleration is now routine across robotics, but cloud-hosted GPU continuous integration (CI) runners are expensive, resulting in severe under-testing of GPU-accelerated code. We present pytest-gpu-proof, an open-source pytest plugin offering a practical middle ground. Tests can be run on a local machine, signed with a receipt of exactly what ran and what it produced, and integrated into standard CPU CI workflows (e.g., GitHub Actions). The tool is open source and on PyPI, and we are actively integrating it across our lab's software stack.",
+    "link": "https://arxiv.org/abs/2609.28862",
+    "context": "Title: pytest-gpu-proof: Enabling Cloud-CPU Continuous Integration for GPU Code with Local GPU Attestation\nAbstract: arXiv:2609.28862v1 Announce Type: cross  Abstract: GPU acceleration is now routine across robotics, but cloud-hosted GPU continuous integration (CI) runners are expensive, resulting in severe under-testing of GPU-accelerated code. We present pytest-gpu-proof, an open-source pytest plugin offering a practical middle ground. Tests can be run on a local machine, signed with a receipt of exactly what ran and what it produced, and integrated into standard CPU CI workflows (e.g., GitHub Actions). The tool is open source and on PyPI, and we are actively integrating it across our lab's software stack.",
+    "path": "papers/26/09/2609.28862.json",
+    "total_tokens": 867,
+    "translated_title": "pytest-gpu-proof：通过本地GPU认证为GPU代码实现云端CPU持续集成",
+    "translated_abstract": "GPU加速如今在机器人领域已十分普遍，但云端托管的GPU持续集成（CI）运行器成本高昂，导致GPU加速代码的测试严重不足。我们提出了pytest-gpu-proof，一个提供实用折中方案的开源pytest插件。测试可以在本地机器上运行，并附带一份签名收据，精确记录运行的内容及其产生的结果，随后集成到标准的CPU CI工作流中（例如GitHub Actions）。该工具已开源并发布在PyPI上，我们正在积极将其集成到实验室的整个软件栈中。",
+    "tldr": "该论文提出开源pytest插件pytest-gpu-proof，通过在本地运行GPU测试并生成签名认证收据，将其集成到低成本的云端CPU持续集成工作流中，解决了云端GPU CI成本高昂导致的GPU代码测试严重不足问题。",
+    "en_tdlr": "This paper introduces pytest-gpu-proof, an open-source pytest plugin that enables GPU code testing within affordable cloud-CPU CI workflows by running tests locally with signed attestation receipts, addressing the severe under-testing caused by expensive cloud GPU CI runners."
+}

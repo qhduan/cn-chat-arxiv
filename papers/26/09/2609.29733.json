@@ -1,0 +1,12 @@
+{
+    "title": "TTLab at StanceEval-2026: A Cloze-Style Prompting Approach for Arabic-Language Stance Detection (CLASP-Ar)",
+    "abstract": "arXiv:2609.29733v1 Announce Type: new  Abstract: Arabic-language stance detection remains challenging, and previous shared-task systems have largely relied on multitask learning and ensembles. While these systems achieve state-of-the-art performance, their applicability and transferability are limited by the additional complexity introduced by multitask learning.To reduce this complexity, we introduce $\\texttt{CLASP-Ar}$, which reformulates the task as cloze-style masked language modeling. In this approach, the target, predicted sentiment, and text are combined into a single prompt whose $\\texttt{[MASK]}$ prediction is restricted to a verbalizer-constrained label vocabulary.",
+    "link": "https://arxiv.org/abs/2609.29733",
+    "context": "Title: TTLab at StanceEval-2026: A Cloze-Style Prompting Approach for Arabic-Language Stance Detection (CLASP-Ar)\nAbstract: arXiv:2609.29733v1 Announce Type: new  Abstract: Arabic-language stance detection remains challenging, and previous shared-task systems have largely relied on multitask learning and ensembles. While these systems achieve state-of-the-art performance, their applicability and transferability are limited by the additional complexity introduced by multitask learning.To reduce this complexity, we introduce $\\texttt{CLASP-Ar}$, which reformulates the task as cloze-style masked language modeling. In this approach, the target, predicted sentiment, and text are combined into a single prompt whose $\\texttt{[MASK]}$ prediction is restricted to a verbalizer-constrained label vocabulary.",
+    "path": "papers/26/09/2609.29733.json",
+    "total_tokens": 943,
+    "translated_title": "TTLab 参加StanceEval-2026：一种用于阿拉伯语立场检测的完形填空式提示方法",
+    "translated_abstract": "阿拉伯语立场检测仍然是一项具有挑战性的任务，以往的共享任务系统主要依赖于多任务学习和模型集成方法。虽然这些系统取得了最先进的性能，但多任务学习引入的额外复杂性限制了它们的适用性和可迁移性。为了降低这种复杂性，我们提出了 CLASP-Ar，该方法将任务重新表述为完形填空式的掩码语言建模。在这种方法中，目标对象、预测的情感倾向和文本被组合成一个单一的提示，其中 [MASK] 位置的预测被限制在由语言化器约束的标签词汇表内。",
+    "tldr": "该论文提出 CLASP-Ar，通过将阿拉伯语立场检测转化为完形填空式的掩码语言建模提示方法，简化了以往多任务学习方案的额外复杂性。",
+    "en_tdlr": "This paper introduces CLASP-Ar, which reformulates Arabic stance detection as cloze-style masked language modeling, thereby reducing the additional complexity of previous multitask learning approaches."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Learned Cross-Task Relationships in Multi-Task Models",
+    "abstract": "arXiv:2609.28776v1 Announce Type: new  Abstract: We propose a framework that learns cross-task relationships in multi-task models by approximating the joint distribution of task labels through targeted pairwise relationships. This approach improves performance via transfer learning and enhances information extraction without the intractable complexity of modeling the full joint space. Although our framework applies to any multi-task system, we demonstrate its efficacy within YouTube's production recommendation systems. Experiments across the Notifications, Homepage, and Watch Next surfaces show improvements in both accuracy and user satisfaction metrics. Finally, we propose a workflow template to facilitate broader future implementation.",
+    "link": "https://arxiv.org/abs/2609.28776",
+    "context": "Title: Learned Cross-Task Relationships in Multi-Task Models\nAbstract: arXiv:2609.28776v1 Announce Type: new  Abstract: We propose a framework that learns cross-task relationships in multi-task models by approximating the joint distribution of task labels through targeted pairwise relationships. This approach improves performance via transfer learning and enhances information extraction without the intractable complexity of modeling the full joint space. Although our framework applies to any multi-task system, we demonstrate its efficacy within YouTube's production recommendation systems. Experiments across the Notifications, Homepage, and Watch Next surfaces show improvements in both accuracy and user satisfaction metrics. Finally, we propose a workflow template to facilitate broader future implementation.",
+    "path": "papers/26/09/2609.28776.json",
+    "total_tokens": 869,
+    "translated_title": "多任务模型中学习到的跨任务关系",
+    "translated_abstract": "我们提出了一个框架，通过针对性的成对关系来近似任务标签的联合分布，从而学习多任务模型中的跨任务关系。这种方法通过迁移学习提升了性能，并增强了信息提取能力，同时避免了建模完整联合空间所带来的难以处理的复杂性。尽管我们的框架适用于任何多任务系统，但我们在YouTube的生产推荐系统中展示了其有效性。在通知、首页和“接下来观看”等页面上的实验表明，准确性和用户满意度指标均有所提升。最后，我们提出了一个工作流程模板，以便于未来更广泛的实施。",
+    "tldr": "该论文提出一个通过针对性成对关系近似任务标签联合分布来学习多任务模型中跨任务关系的框架，并在YouTube生产推荐系统中验证了其在准确性和用户满意度上的显著提升。",
+    "en_tdlr": "The paper proposes a framework that learns cross-task relationships in multi-task models by approximating the joint distribution of task labels through targeted pairwise relationships, demonstrating improvements in both accuracy and user satisfaction within YouTube's production recommendation systems."
+}

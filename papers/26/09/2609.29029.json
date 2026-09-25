@@ -1,0 +1,12 @@
+{
+    "title": "Exploiting answer-invariant redundancies in satellite imagery for efficient VLM inference on edge",
+    "abstract": "arXiv:2609.29029v1 Announce Type: cross  Abstract: Onboard vision-language models could enable satellites to answer queries directly, but exhaustive tiled inference over high-resolution imagery is slow and energy-intensive. We identify answer-invariant token redundancy (AITR): image tiles and vision tokens that can be removed without changing the final answer. We present Rift, a two-stage system that performs query-conditioned tile pruning followed by elastic prefill to reduce token budget. We evaluate it on LLaVA-1.5 7B running on Jetson AGX Orin. Compared with exhaustive tiled inference, Rift reduces energy by 78% and latency by 69%, while increasing accuracy from 45% to 73%.",
+    "link": "https://arxiv.org/abs/2609.29029",
+    "context": "Title: Exploiting answer-invariant redundancies in satellite imagery for efficient VLM inference on edge\nAbstract: arXiv:2609.29029v1 Announce Type: cross  Abstract: Onboard vision-language models could enable satellites to answer queries directly, but exhaustive tiled inference over high-resolution imagery is slow and energy-intensive. We identify answer-invariant token redundancy (AITR): image tiles and vision tokens that can be removed without changing the final answer. We present Rift, a two-stage system that performs query-conditioned tile pruning followed by elastic prefill to reduce token budget. We evaluate it on LLaVA-1.5 7B running on Jetson AGX Orin. Compared with exhaustive tiled inference, Rift reduces energy by 78% and latency by 69%, while increasing accuracy from 45% to 73%.",
+    "path": "papers/26/09/2609.29029.json",
+    "total_tokens": 1143,
+    "translated_title": "利用卫星影像中答案不变的冗余实现边缘端高效视觉语言模型推理",
+    "translated_abstract": "星载视觉语言模型可以使卫星能够直接回答查询请求，但对高分辨率影像进行穷举式分块推理速度慢且能耗高。我们识别出了答案不变的token冗余（AITR）：即在不改变最终答案的前提下可以移除的图像分块和视觉token。我们提出了Rift，这是一个两阶段系统，首先执行基于查询条件的分块剪枝，随后进行弹性预填充以降低token预算。我们在Jetson AGX Orin上运行的LLaVA-1.5 7B模型上对其进行了评估。与穷举式分块推理相比，Rift将能耗降低了78%，延迟降低了69%，同时将准确率从45%提升至73%。",
+    "tldr": "该论文提出Rift两阶段系统，通过识别并剪除卫星影像中不影响最终答案的图像分块与视觉token冗余，在Jetson AGX Orin上使LLaVA-1.5 7B的能耗降低78%、延迟降低69%，同时将准确率从45%提升至73%。",
+    "en_tdlr": "Rift exploits answer-invariant token redundancy in satellite imagery via query-conditioned tile pruning and elastic prefill, cutting energy by 78% and latency by 69% while improving accuracy from 45% to 73% for edge VLM inference on Jetson AGX Orin."
+}

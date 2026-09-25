@@ -1,0 +1,12 @@
+{
+    "title": "A Polynomial-Time Test for Peak-Oriented Rationalizability",
+    "abstract": "arXiv:2609.30042v1 Announce Type: cross  Abstract: We study the computational complexity of peak-oriented rationalizability, a survey based revealed-preference test introduced by Seror (2026). We provide a polynomial-time algorithm for testing rationalizability and recovering a utility function, establishing that peak-oriented preference elicitation is computationally tractable. In contrast, we show that computing the peak-oriented Houtman-Maks index is NP-hard. These results delineate the precise computational boundaries of peak-oriented revealed-preference analysis.",
+    "link": "https://arxiv.org/abs/2609.30042",
+    "context": "Title: A Polynomial-Time Test for Peak-Oriented Rationalizability\nAbstract: arXiv:2609.30042v1 Announce Type: cross  Abstract: We study the computational complexity of peak-oriented rationalizability, a survey based revealed-preference test introduced by Seror (2026). We provide a polynomial-time algorithm for testing rationalizability and recovering a utility function, establishing that peak-oriented preference elicitation is computationally tractable. In contrast, we show that computing the peak-oriented Houtman-Maks index is NP-hard. These results delineate the precise computational boundaries of peak-oriented revealed-preference analysis.",
+    "path": "papers/26/09/2609.30042.json",
+    "total_tokens": 795,
+    "translated_title": "峰值导向理性化的多项式时间检验",
+    "translated_abstract": "我们研究了峰值导向理性化的计算复杂度，这是由Seror (2026)提出的一种基于问卷的显示偏好检验方法。我们提供了一个多项式时间算法用于检验理性化并恢复效用函数，从而证明峰值导向的偏好引出在计算上是可行的。与之相反，我们证明了计算峰值导向的Houtman-Maks指数是NP难的。这些结果精确地刻画了峰值导向显示偏好分析的计算边界。",
+    "tldr": "本文提出了检验峰值导向理性化并恢复效用函数的多项式时间算法，证明该偏好引出方法在计算上可行，但同时证明计算峰值导向Houtman-Maks指数是NP难的。",
+    "en_tdlr": "This paper provides a polynomial-time algorithm for testing peak-oriented rationalizability and recovering a utility function, establishing that peak-oriented preference elicitation is computationally tractable, while showing that computing the peak-oriented Houtman-Maks index is NP-hard."
+}

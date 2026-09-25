@@ -1,0 +1,12 @@
+{
+    "title": "The Cross-Section of Stock Returns and AI Exposure",
+    "abstract": "arXiv:2606.30583v3 Announce Type: replace-cross  Abstract: We study 380 trillion tokens of realized AI consumption across more than four hundred LLMs. We build a high-frequency AI factor and show that a long-short strategy based on firms' AI exposure earns significantly positive returns. The average strategy return is larger based on intensive, frontier-oriented AI consumption but smaller based on casual or open-weight usage. Internationally, the return spread is significant in developed countries but insignificant in emerging markets. Examining occupational AI exposure, we find more positive exposure in occupations intensive in nonroutine interactive tasks and more negative exposure in those intensive in nonroutine analytical tasks.",
+    "link": "https://arxiv.org/abs/2606.30583",
+    "context": "Title: The Cross-Section of Stock Returns and AI Exposure\nAbstract: arXiv:2606.30583v3 Announce Type: replace-cross  Abstract: We study 380 trillion tokens of realized AI consumption across more than four hundred LLMs. We build a high-frequency AI factor and show that a long-short strategy based on firms' AI exposure earns significantly positive returns. The average strategy return is larger based on intensive, frontier-oriented AI consumption but smaller based on casual or open-weight usage. Internationally, the return spread is significant in developed countries but insignificant in emerging markets. Examining occupational AI exposure, we find more positive exposure in occupations intensive in nonroutine interactive tasks and more negative exposure in those intensive in nonroutine analytical tasks.",
+    "path": "papers/26/06/2606.30583.json",
+    "total_tokens": 1006,
+    "translated_title": "股票收益横截面与AI暴露度",
+    "translated_abstract": "我们研究了超过四百个大语言模型（LLM）中380万亿词元的实际AI消费数据。我们构建了一个高频AI因子，并证明基于公司AI暴露度的多空对冲策略能获得显著为正的收益。基于密集型、面向前沿的AI消费时，该策略的平均收益更大；而基于随意性使用或开源权重模型使用时，平均收益则较小。在国际比较方面，该收益差在发达国家显著，但在新兴市场并不显著。通过考察职业层面的AI暴露度，我们发现非例行互动任务密集型职业的AI暴露度更偏正面，而非例行分析任务密集型职业的AI暴露度则更偏负面。",
+    "tldr": "该论文利用380万亿词元的实际AI消费数据构建了高频AI因子，首次证明基于公司AI暴露度的多空策略能获得显著为正的收益，且该收益在密集型前沿AI消费场景和发达国家市场中更为显著。",
+    "en_tdlr": "The paper builds a high-frequency AI factor from 380 trillion tokens of realized AI consumption across 400+ LLMs and shows that a long-short strategy based on firms' AI exposure earns significantly positive returns, which are stronger for intensive, frontier-oriented AI consumption and in developed markets."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Wearable ECG Quality Assessment: A Deep Learning and Ambulatory Context-Awareness Approach",
+    "abstract": "arXiv:2609.29396v1 Announce Type: new  Abstract: This paper presents and evaluates a Deep Learning-based (DL-based) Signal Quality Assessment (SQA) model to distinguish between clean and noisy ambulatory Electrocardiograms (ECG). The model is trained on Copenhagen Center for Health Technology-Contextualized Arrhythmia Database (CACHET-CADB), which, to the best of our knowledge, is the first ambulatory ECG database with both physical and patient-reported contextual data. The model shows stable performance on different databases such as MIT-databases and the latest PyhsioNet/Cinc Challenge 2021 databases. Subsequently, the paper demonstrates how complicated ECG noise can be investigated by the SQA model and the physical contextual data.",
+    "link": "https://arxiv.org/abs/2609.29396",
+    "context": "Title: Wearable ECG Quality Assessment: A Deep Learning and Ambulatory Context-Awareness Approach\nAbstract: arXiv:2609.29396v1 Announce Type: new  Abstract: This paper presents and evaluates a Deep Learning-based (DL-based) Signal Quality Assessment (SQA) model to distinguish between clean and noisy ambulatory Electrocardiograms (ECG). The model is trained on Copenhagen Center for Health Technology-Contextualized Arrhythmia Database (CACHET-CADB), which, to the best of our knowledge, is the first ambulatory ECG database with both physical and patient-reported contextual data. The model shows stable performance on different databases such as MIT-databases and the latest PyhsioNet/Cinc Challenge 2021 databases. Subsequently, the paper demonstrates how complicated ECG noise can be investigated by the SQA model and the physical contextual data.",
+    "path": "papers/26/09/2609.29396.json",
+    "total_tokens": 971,
+    "translated_title": "可穿戴心电信号质量评估：一种深度学习与动态情境感知方法",
+    "translated_abstract": "本文提出并评估了一种基于深度学习（DL）的信号质量评估（SQA）模型，用于区分干净的与含噪的动态心电图（ECG）。该模型在哥本哈根健康技术中心-情境化心律失常数据库（CACHET-CADB）上进行训练，据我们所知，这是首个同时包含身体情境数据和患者自报情境数据的动态心电图数据库。该模型在多个数据库（如MIT数据库和最新的PhysioNet/CinC Challenge 2021数据库）上均表现出稳定的性能。随后，论文展示了如何利用该SQA模型和身体情境数据来研究复杂的心电噪声。",
+    "tldr": "本文提出了首个基于深度学习的心电信号质量评估模型，利用首个同时包含身体与患者自报情境数据的动态心电图数据库CACHET-CADB进行训练，在多个数据库上表现稳定，并能结合情境数据有效分析复杂心电噪声。"
+}

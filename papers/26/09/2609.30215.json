@@ -1,0 +1,11 @@
+{
+    "title": "A Nearly Quadratic Lower Bound for Linear Optimization over Convex Bodies in the Membership Oracle Model",
+    "abstract": "arXiv:2609.30215v1 Announce Type: cross  Abstract: We prove nearly quadratic lower bounds for randomized algorithms for linear optimization and uniform sampling over convex bodies in the membership oracle model. For linear optimization, this matches the known nearly quadratic upper bound up to a polylog factor in the dimension. For uniform sampling, this improves on the previous linear lower bound. Our construction also implies the same lower bound for volume estimation.",
+    "link": "https://arxiv.org/abs/2609.30215",
+    "context": "Title: A Nearly Quadratic Lower Bound for Linear Optimization over Convex Bodies in the Membership Oracle Model\nAbstract: arXiv:2609.30215v1 Announce Type: cross  Abstract: We prove nearly quadratic lower bounds for randomized algorithms for linear optimization and uniform sampling over convex bodies in the membership oracle model. For linear optimization, this matches the known nearly quadratic upper bound up to a polylog factor in the dimension. For uniform sampling, this improves on the previous linear lower bound. Our construction also implies the same lower bound for volume estimation.",
+    "path": "papers/26/09/2609.30215.json",
+    "total_tokens": 806,
+    "translated_title": "成员资格预言机模型下凸体上线性优化的近似二次下界",
+    "translated_abstract": "我们证明了在成员资格预言机模型中，针对凸体上线性优化和均匀采样的随机算法的近似二次下界。对于线性优化，该下界与已知的近似二次上界在维度上至多相差一个多对数因子。对于均匀采样，该结果改进了先前的线性下界。我们的构造还隐含了体积估计的相同下界。",
+    "tldr": "本文在成员资格预言机模型下证明了凸体上线性优化和均匀采样的随机算法具有近似二次下界，其中线性优化的下界匹配已知上界，均匀采样的下界改进了之前的线性结果，且该构造同样给出了体积估计的下界。"
+}

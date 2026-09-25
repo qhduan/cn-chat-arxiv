@@ -1,0 +1,12 @@
+{
+    "title": "A Fast and Effective Solution to the Problem of Look-ahead Bias in LLMs",
+    "abstract": "arXiv:2512.06607v2 Announce Type: replace-cross  Abstract: Applying LLMs to predictive tasks in finance is challenging due to look-ahead bias resulting from their training on long time-series data. This precludes the backtests typically employed in finance since retraining frontier models from scratch with a specific knowledge cutoff is prohibitive. In this paper, we introduce a fast, effective, and low-cost alternative. Our method guides generation at inference time by adjusting the logits of a large base model using a pair of smaller, specialized models -- one fine-tuned on information to be forgotten and another on information to be retained. We demonstrate that our method effectively removes both verbatim and semantic knowledge, corrects biases, and outperforms prior methods.",
+    "link": "https://arxiv.org/abs/2512.06607",
+    "context": "Title: A Fast and Effective Solution to the Problem of Look-ahead Bias in LLMs\nAbstract: arXiv:2512.06607v2 Announce Type: replace-cross  Abstract: Applying LLMs to predictive tasks in finance is challenging due to look-ahead bias resulting from their training on long time-series data. This precludes the backtests typically employed in finance since retraining frontier models from scratch with a specific knowledge cutoff is prohibitive. In this paper, we introduce a fast, effective, and low-cost alternative. Our method guides generation at inference time by adjusting the logits of a large base model using a pair of smaller, specialized models -- one fine-tuned on information to be forgotten and another on information to be retained. We demonstrate that our method effectively removes both verbatim and semantic knowledge, corrects biases, and outperforms prior methods.",
+    "path": "papers/25/12/2512.06607.json",
+    "total_tokens": 948,
+    "translated_title": "一种快速有效解决大语言模型前瞻偏差问题的方法",
+    "translated_abstract": "由于大语言模型在长时间序列数据上训练而产生前瞻偏差，将其应用于金融预测任务面临挑战。这使得金融领域通常采用的回测方法无法实施，因为使用特定知识截止日期从头重新训练前沿模型的成本过于高昂。本文提出了一种快速、有效且低成本的替代方案。我们的方法在推理阶段通过一对较小的专门模型来调整大型基础模型的logits，从而引导生成过程——其中一个模型在需要遗忘的信息上进行微调，另一个在需要保留的信息上进行微调。我们证明该方法能有效消除逐字和语义两个层面的知识，纠正偏差，并且优于已有方法。",
+    "tldr": "本文提出一种推理时干预方法，利用两个小型专用模型调整大模型logits，从而快速、低成本地消除大语言模型在金融预测中的前瞻偏差。",
+    "en_tdlr": "This paper proposes an inference-time method that adjusts the logits of a large base model using a pair of small specialized models, providing a fast and low-cost solution to remove look-ahead bias in LLMs for financial prediction."
+}
