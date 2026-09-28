@@ -1,0 +1,12 @@
+{
+    "title": "Peer Review as Structured Commentary: Immutable Identity, Public Dialogue, and Reproducible Scholarship",
+    "abstract": "arXiv:2506.22497v2 Announce Type: replace-cross  Abstract: This paper reconceptualises peer review as structured public commentary. Traditional academic validation is hindered by anonymity, latency, and gatekeeping. We propose a transparent, identity-linked, and reproducible system of scholarly evaluation anchored in open commentary. Leveraging blockchain for immutable audit trails and AI for iterative synthesis, we design a framework that incentivises intellectual contribution, captures epistemic evolution, and enables traceable reputational dynamics. This model empowers fields from computational science to the humanities, reframing academic knowledge as a living process rather than a static credential.",
+    "link": "https://arxiv.org/abs/2506.22497",
+    "context": "Title: Peer Review as Structured Commentary: Immutable Identity, Public Dialogue, and Reproducible Scholarship\nAbstract: arXiv:2506.22497v2 Announce Type: replace-cross  Abstract: This paper reconceptualises peer review as structured public commentary. Traditional academic validation is hindered by anonymity, latency, and gatekeeping. We propose a transparent, identity-linked, and reproducible system of scholarly evaluation anchored in open commentary. Leveraging blockchain for immutable audit trails and AI for iterative synthesis, we design a framework that incentivises intellectual contribution, captures epistemic evolution, and enables traceable reputational dynamics. This model empowers fields from computational science to the humanities, reframing academic knowledge as a living process rather than a static credential.",
+    "path": "papers/25/06/2506.22497.json",
+    "total_tokens": 903,
+    "translated_title": "同行评议作为结构化评论：不可篡改的身份、公开对话与可复现的学术研究",
+    "translated_abstract": "本文将同行评议重新概念化为结构化的公开评论。传统的学术验证受到匿名性、延迟性和守门机制的阻碍。我们提出一个透明的、与身份绑定的、可复现的学术评价系统，以公开评论为基础。利用区块链实现不可篡改的审计追踪，利用人工智能实现迭代综合，我们设计了一个能够激励知识贡献、捕捉认知演变并支持可追溯声誉动态的框架。这一模型赋能从计算科学到人文学科的各个领域，将学术知识重新定义为一种动态演进的鲜活过程，而非静态的凭证。",
+    "tldr": "本文提出将同行评议重构为基于区块链不可篡改审计和AI迭代综合的结构化公开评论系统，实现透明、可复现、可追溯的学术评价新范式。",
+    "en_tdlr": "This paper proposes reconceptualizing peer review as a structured public commentary system leveraging blockchain for immutable audit trails and AI for iterative synthesis, enabling transparent, reproducible, and traceable scholarly evaluation."
+}

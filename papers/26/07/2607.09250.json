@@ -1,0 +1,12 @@
+{
+    "title": "Influence Diagnostics in High-dimensional M-estimation: Precise Asymptotics",
+    "abstract": "arXiv:2607.09250v2 Announce Type: replace  Abstract: The impact of a given training point on a statistical model can be measured through its leave-one-out influence on the model parameters, which quantifies how its removal from the training set affects the learned weights. For convex M-estimation under Gaussian design, in the high-dimensional limit $n\\asymp d$, we show that the empirical distribution of influences across training points concentrates around a deterministic measure which we sharply characterize. This characterization suggests that influential samples tend to lie on average close to the decision boundary, making contact with a standard data selection heuristic in active learning.",
+    "link": "https://arxiv.org/abs/2607.09250",
+    "context": "Title: Influence Diagnostics in High-dimensional M-estimation: Precise Asymptotics\nAbstract: arXiv:2607.09250v2 Announce Type: replace  Abstract: The impact of a given training point on a statistical model can be measured through its leave-one-out influence on the model parameters, which quantifies how its removal from the training set affects the learned weights. For convex M-estimation under Gaussian design, in the high-dimensional limit $n\\asymp d$, we show that the empirical distribution of influences across training points concentrates around a deterministic measure which we sharply characterize. This characterization suggests that influential samples tend to lie on average close to the decision boundary, making contact with a standard data selection heuristic in active learning.",
+    "path": "papers/26/07/2607.09250.json",
+    "total_tokens": 920,
+    "translated_title": "高维M估计中的影响诊断：精确渐近性",
+    "translated_abstract": "某个给定训练点对统计模型的影响可以通过其对模型参数的留一影响来衡量，该度量量化了将此训练点从训练集中移除对学习到的权重所产生的影响。对于高斯设计下的凸M估计，在高维极限 n ≍ d 情形下，我们证明了训练点间影响的经验分布集中于一个确定性测度附近，并对该测度给出了精确刻画。这一刻画表明，有影响的样本平均而言往往位于接近决策边界的位置，这与主动学习中的标准数据选择启发式方法相呼应。",
+    "tldr": "该论文在高维凸M估计中精确刻画了训练点留一影响的渐近分布，发现有影响力的样本平均而言倾向于靠近决策边界，与主动学习中的数据选择启发式方法相契合。",
+    "en_tdlr": "This paper precisely characterizes the asymptotic distribution of leave-one-out influences in high-dimensional convex M-estimation, revealing that influential samples tend on average to lie near the decision boundary, aligning with standard data selection heuristics in active learning."
+}

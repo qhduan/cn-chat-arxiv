@@ -1,0 +1,12 @@
+{
+    "title": "Selective Off-Policy Reference Tuning with Plan Guidance",
+    "abstract": "arXiv:2605.11505v3 Announce Type: replace  Abstract: Reinforcement learning with verifiable rewards helps reasoning, but GRPO-style methods stall on hard prompts where all sampled rollouts fail. SORT adds a repair update for those failures without changing rollout generation: it derives a plan from the reference solution, compares token probabilities with and without that plan, and gives higher weight to tokens that become more predictable under plan conditioning. This turns all-wrong prompts into selective, structure-aware learning signals instead of uniform imitation. Across three backbones and eight reasoning benchmarks, SORT improves over GRPO and guidance baselines, with largest gains on weaker models.",
+    "link": "https://arxiv.org/abs/2605.11505",
+    "context": "Title: Selective Off-Policy Reference Tuning with Plan Guidance\nAbstract: arXiv:2605.11505v3 Announce Type: replace  Abstract: Reinforcement learning with verifiable rewards helps reasoning, but GRPO-style methods stall on hard prompts where all sampled rollouts fail. SORT adds a repair update for those failures without changing rollout generation: it derives a plan from the reference solution, compares token probabilities with and without that plan, and gives higher weight to tokens that become more predictable under plan conditioning. This turns all-wrong prompts into selective, structure-aware learning signals instead of uniform imitation. Across three backbones and eight reasoning benchmarks, SORT improves over GRPO and guidance baselines, with largest gains on weaker models.",
+    "path": "papers/26/05/2605.11505.json",
+    "total_tokens": 1281,
+    "translated_title": "基于计划引导的选择性离策略参考调优",
+    "translated_abstract": "使用可验证奖励的强化学习有助于提升推理能力，但GRPO风格的方法在所有采样轨迹都失败的困难提示上会陷入停滞。SORT为这些失败情况增加了一种修复性更新，且不改变轨迹的生成方式：它从参考答案中推导出一个计划，比较有无该计划条件下的token概率，并给那些在计划条件下变得更可预测的token赋予更高的权重。这将全错的提示转化为选择性、结构感知的学习信号，而非单一的模仿。在三个骨干模型和八个推理基准上，SORT的表现优于GRPO及引导基线方法，且在较弱的模型上增益最大。",
+    "tldr": "SORT通过从参考答案推导计划并加权提升计划条件下更可预测的token，将GRPO中全部采样失败的困难提示转化为结构感知的选择性学习信号，在八个推理基准上超越GRPO基线，对较弱模型的增益最大。",
+    "en_tdlr": "SORT turns all-failed hard prompts in GRPO into selective, structure-aware learning signals by deriving plans from reference solutions and upweighting tokens that become more predictable under plan conditioning, outperforming GRPO across eight reasoning benchmarks with the largest gains on weaker models."
+}

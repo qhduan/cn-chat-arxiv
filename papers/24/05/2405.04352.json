@@ -1,0 +1,12 @@
+{
+    "title": "Return to Office and the Tenure Distribution",
+    "abstract": "arXiv:2405.04352v2 Announce Type: replace  Abstract: Debates over return-to-office mandates have intensified since the COVID-19 pandemic ended, though their economic implications remain poorly understood. Using large-scale resume data, we analyze how these policies affect employee tenure and seniority at three large U.S. tech companies: Microsoft, SpaceX, and Apple. Employing a distributional synthetic controls framework, we estimate a reduction in tenure and seniority at firms returning to the office. We extend the framework with a functional bootstrap procedure and prove its validity for constructing uniform confidence bands. Return-to-office mandates appear to drive senior employees away, posing a risk to firm productivity and innovation.",
+    "link": "https://arxiv.org/abs/2405.04352",
+    "context": "Title: Return to Office and the Tenure Distribution\nAbstract: arXiv:2405.04352v2 Announce Type: replace  Abstract: Debates over return-to-office mandates have intensified since the COVID-19 pandemic ended, though their economic implications remain poorly understood. Using large-scale resume data, we analyze how these policies affect employee tenure and seniority at three large U.S. tech companies: Microsoft, SpaceX, and Apple. Employing a distributional synthetic controls framework, we estimate a reduction in tenure and seniority at firms returning to the office. We extend the framework with a functional bootstrap procedure and prove its validity for constructing uniform confidence bands. Return-to-office mandates appear to drive senior employees away, posing a risk to firm productivity and innovation.",
+    "path": "papers/24/05/2405.04352.json",
+    "total_tokens": 919,
+    "translated_title": "返办公室政策与任职年限分布",
+    "translated_abstract": "自新冠疫情结束以来，关于返办公室强制令的争论愈演愈烈，但其经济影响仍鲜为人知。利用大规模简历数据，我们分析了这些政策对三家美国大型科技公司（微软、SpaceX和苹果）员工任职年限和资历的影响。采用分布合成控制框架，我们估计了实行返办公室政策的公司员工任职年限和资历出现下降。我们通过函数自助法程序对该框架进行了扩展，并证明了其在构建一致置信区间方面的有效性。返办公室强制令似乎会促使资深员工离职，从而对企业生产力和创新构成风险。",
+    "tldr": "该研究利用大规模简历数据和分布合成控制框架，发现微软、SpaceX和苹果等公司的返办公室强制令会降低员工任职年限和资历，导致资深员工流失，对企业生产力和创新构成风险。",
+    "en_tdlr": "Using large-scale resume data and a distributional synthetic controls framework, this study finds that return-to-office mandates at major U.S. tech companies reduce employee tenure and seniority, driving away senior employees and posing risks to firm productivity and innovation."
+}

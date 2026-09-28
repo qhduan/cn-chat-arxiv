@@ -1,0 +1,12 @@
+{
+    "title": "Murmurations, Mestre--Nagao sums, and Convolutional Neural Networks for elliptic curves",
+    "abstract": "arXiv:2603.17681v2 Announce Type: replace-cross  Abstract: We apply one-dimensional convolutional neural networks to the Frobenius traces of elliptic curves over $\\mathbb{Q}$ and evaluate and interpret their predictive capacity. In keeping with similar experiments by Kazalicki--Vlah, Bujanovi\\'{c}--Kazalicki--Novak, and Pozdnyakov, we observe high accuracy predictions for the analytic rank across a range of conductors. We interpret the prediction using saliency curves and explore the interesting interplay between saliency, murmurations and Mestre--Nagao sums.",
+    "link": "https://arxiv.org/abs/2603.17681",
+    "context": "Title: Murmurations, Mestre--Nagao sums, and Convolutional Neural Networks for elliptic curves\nAbstract: arXiv:2603.17681v2 Announce Type: replace-cross  Abstract: We apply one-dimensional convolutional neural networks to the Frobenius traces of elliptic curves over $\\mathbb{Q}$ and evaluate and interpret their predictive capacity. In keeping with similar experiments by Kazalicki--Vlah, Bujanovi\\'{c}--Kazalicki--Novak, and Pozdnyakov, we observe high accuracy predictions for the analytic rank across a range of conductors. We interpret the prediction using saliency curves and explore the interesting interplay between saliency, murmurations and Mestre--Nagao sums.",
+    "path": "papers/26/03/2603.17681.json",
+    "total_tokens": 1103,
+    "translated_title": "群舞现象、Mestre–Nagao 和与椭圆曲线的卷积神经网络",
+    "translated_abstract": "我们将一维卷积神经网络应用于 $\\mathbb{Q}$ 上椭圆曲线的 Frobenius 迹，并评估和解释其预测能力。与 Kazalicki–Vlah、Bujanović–Kazalicki–Novak 以及 Pozdnyakov 的类似实验相一致，我们观察到在一系列导子范围内对解析秩的高精度预测。我们利用显著性曲线对这些预测进行解释，并探索了显著性曲线、群舞现象与 Mestre–Nagao 和之间有趣的相互作用。",
+    "tldr": "本文将一维卷积神经网络应用于椭圆曲线的 Frobenius 迹，实现了对解析秩的高精度预测，并通过显著性曲线揭示了机器学习预测、群舞现象与 Mestre–Nagao 和之间的深刻联系。",
+    "en_tdlr": "This paper applies one-dimensional convolutional neural networks to Frobenius traces of elliptic curves, achieving high-accuracy predictions of analytic ranks, and reveals through saliency curves the intriguing interplay between machine learning predictions, murmurations, and Mestre–Nagao sums."
+}

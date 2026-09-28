@@ -1,0 +1,12 @@
+{
+    "title": "Predicting Transmembrane Protein Topology from 3D Structure",
+    "abstract": "arXiv:2609.30446v1 Announce Type: new  Abstract: This paper presents a novel approach to infer protein topology using the state-of-the-art graph neural network (GNN), SchNet. The model is trained on the same dataset used to develop the recent DeepTMHMM model with 5-fold cross-validation. Unlike the conventional approaches based on using only the protein sequences or the $\\alpha$-carbons as features, we have decoded our classifier in this way, so all atom-level embeddings are used. Without applying any pre-trained weight, the final results have shown great potential that GNNs can be used for topological predictions.",
+    "link": "https://arxiv.org/abs/2609.30446",
+    "context": "Title: Predicting Transmembrane Protein Topology from 3D Structure\nAbstract: arXiv:2609.30446v1 Announce Type: new  Abstract: This paper presents a novel approach to infer protein topology using the state-of-the-art graph neural network (GNN), SchNet. The model is trained on the same dataset used to develop the recent DeepTMHMM model with 5-fold cross-validation. Unlike the conventional approaches based on using only the protein sequences or the $\\alpha$-carbons as features, we have decoded our classifier in this way, so all atom-level embeddings are used. Without applying any pre-trained weight, the final results have shown great potential that GNNs can be used for topological predictions.",
+    "path": "papers/26/09/2609.30446.json",
+    "total_tokens": 847,
+    "translated_title": "基于三维结构预测跨膜蛋白拓扑结构",
+    "translated_abstract": "本文提出了一种利用最先进的图神经网络SchNet来推断蛋白质拓扑结构的新方法。该模型在与开发近期DeepTMHMM模型相同的数据集上进行训练，并采用五折交叉验证。与仅使用蛋白质序列或α-碳原子作为特征的传统方法不同，我们以这种方式设计分类器，从而利用了所有原子级别的嵌入表示。在未应用任何预训练权重的情况下，最终结果表明图神经网络在拓扑结构预测方面具有巨大潜力。",
+    "tldr": "该论文提出利用图神经网络SchNet直接从三维结构的全原子嵌入中预测跨膜蛋白拓扑结构，在无需预训练权重的情况下展现出优异的预测潜力。",
+    "en_tdlr": "This paper proposes using the graph neural network SchNet to predict transmembrane protein topology directly from all-atom embeddings of 3D structures, demonstrating strong predictive potential without any pre-trained weights."
+}
