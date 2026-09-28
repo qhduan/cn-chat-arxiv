@@ -1,0 +1,12 @@
+{
+    "title": "HuPER: A Human-Inspired Framework for Phonetic Perception",
+    "abstract": "arXiv:2602.01634v2 Announce Type: replace-cross  Abstract: We propose HuPER, a human-inspired framework that models phonetic perception as adaptive inference over acoustic-phonetics evidence and linguistic knowledge. With only 100 hours of training data, HuPER achieves state-of-the-art phonetic error rates on five English benchmarks and strong zero-shot transfer to 95 unseen languages. HuPER is also the first framework to enable adaptive, multi-path phonetic perception under diverse acoustic conditions. All training data, models, and code are open-sourced. Code and demo avaliable at https://github.com/Berkeley-Speech-Group/HuPER.",
+    "link": "https://arxiv.org/abs/2602.01634",
+    "context": "Title: HuPER: A Human-Inspired Framework for Phonetic Perception\nAbstract: arXiv:2602.01634v2 Announce Type: replace-cross  Abstract: We propose HuPER, a human-inspired framework that models phonetic perception as adaptive inference over acoustic-phonetics evidence and linguistic knowledge. With only 100 hours of training data, HuPER achieves state-of-the-art phonetic error rates on five English benchmarks and strong zero-shot transfer to 95 unseen languages. HuPER is also the first framework to enable adaptive, multi-path phonetic perception under diverse acoustic conditions. All training data, models, and code are open-sourced. Code and demo avaliable at https://github.com/Berkeley-Speech-Group/HuPER.",
+    "path": "papers/26/02/2602.01634.json",
+    "total_tokens": 1009,
+    "translated_title": "HuPER：一个受人类启发的语音感知框架",
+    "translated_abstract": "我们提出了HuPER，一个受人类启发的框架，它将语音感知建模为基于声学-语音证据和语言知识的自适应推理过程。仅使用100小时的训练数据，HuPER在五个英语基准测试中达到了最先进的语音错误率，并对95种未见过的语言展现出强大的零样本迁移能力。HuPER也是首个能够在多种声学条件下实现自适应、多路径语音感知的框架。所有训练数据、模型和代码均已开源。代码和演示可在 https://github.com/Berkeley-Speech-Group/HuPER 获取。",
+    "tldr": "HuPER是一个受人类启发的语音感知框架，仅用100小时训练数据即在五个英语基准上达到最先进的语音错误率，可零样本迁移至95种未见语言，并且是首个能在多种声学条件下实现自适应多路径语音感知的框架。",
+    "en_tdlr": "HuPER is a human-inspired phonetic perception framework that achieves state-of-the-art phonetic error rates on five English benchmarks with only 100 hours of training data, shows strong zero-shot transfer to 95 unseen languages, and is the first to enable adaptive, multi-path phonetic perception under diverse acoustic conditions."
+}

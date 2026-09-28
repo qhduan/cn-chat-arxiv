@@ -11,20 +11,21 @@
 | [^7] | [QReason: Query-Focused Decoupled Chain-of-Thought for Efficient Passage Reranking](https://arxiv.org/abs/2609.30904) | QReason提出一种解耦框架，通过重写器仅生成一次面向排序的推理查询并在各滑动窗口中复用，避免重复的思维链推理，从而在保持复杂查询处理能力的同时大幅降低段落重排序的冗余与延迟。 |
 | [^8] | [RecToolBench: Benchmarking Recommendation-Specific Tool Orchestration under Fuzzy User Intent](https://arxiv.org/abs/2609.30717) | 该论文提出了RecToolBench，一个基于MCP协议、用于评估推荐智能体在模糊用户意图下进行工具编排能力的基准测试，包含超过1,200个可执行任务，覆盖单工具调用、并行调用、顺序工具链和混合编排等多种复杂工具使用模式。 |
 | [^9] | [Recommendation World Models for Future-State Control](https://arxiv.org/abs/2609.30711) | 提出UA-TWM效用锚定世界模型接口，使已训练的序列推荐排序器能够估计候选列表的未来后果并在效用约束下选择替代方案，从而同时提升推荐准确性与未来状态对齐。 |
-| [^10] | [Epstein Files Engine: Agentic Search for Investigative Journalism](https://arxiv.org/abs/2609.30611) | 《纽约时报》开发的“爱泼斯坦文件引擎”通过大语言模型将记者问题转化为SQL查询，在三百万页司法部文件中检索带引用的可验证答案，助力100余名记者完成至少20篇报道，其核心创新Diff重复匹配方法放大了新颖性信号，并证明了新闻编辑室AI智能体应作为源材料接口而非自主写作者来发挥最大价值。 |
-| [^11] | [Embedding Subspace Partitioning for Dynamic Multi-Objective Retrieval](https://arxiv.org/abs/2609.30601) | 提出嵌入子空间划分（ESP）框架，将嵌入分解为任务感知的子空间，并用权重可在服务时调节的子空间相似度加权和替代单一内积，使检索器无需重新训练即可动态适应多目标优先级的变化，同时缓解多目标联合优化中的目标干扰问题。 |
-| [^12] | [T-RoPE: Time-Aware Rotary Position Embedding for Sequential Recommendation](https://arxiv.org/abs/2609.30576) | 提出T-RoPE，一种时间感知的旋转位置编码，通过基于时间戳的角度、可学习时间系数和多尺度频率等机制打破标准RoPE的时间平移不变性，使序列生成式推荐模型能够捕捉时间间隔、行为周期与季节性等关键时间信息。 |
-| [^13] | [Nearest but Not Dearest: Shared Curator-Feedback Infrastructure for Content-Only Search and Recommendation](https://arxiv.org/abs/2609.30568) | 该论文提出将策展人反馈中的“声音失败”与“上下文失败”进行分解，并以此构建共享反馈基础设施，用于改进缺乏用户行为信号的纯内容搜索与推荐系统。 |
-| [^14] | [REALMS: An AI-Assistant Conversational System for Real-Time Exact Audience Sizing over High-Dimensional Nested Profiles](https://arxiv.org/abs/2609.30547) | REALMS是一个部署在生产环境的对话式系统，结合嵌入向量检索与大语言模型NL2SQL技术，让营销人员用自然语言在数秒内对数百万级、上千属性的高维用户画像完成精确受众规模估算。 |
-| [^15] | [AutoResearch at Production Scale: Failure Modes and a Multi-Agent Framework](https://arxiv.org/abs/2609.30541) | 该论文将AutoResearch范式应用于生产规模的推荐系统嵌入优化，在220多次实验中识别出基础设施脆弱、智能体记忆衰退、搜索方向停滞、迭代成本不对称和指标固化五种失效模式，并据此提出多智能体框架加以解决。 |
-| [^16] | [Where Does Retrieval-Based Open-Ended Evaluation Fail? Automatic Taxonomy Induction from Long-Form Medical Answer Factuality Verification](https://arxiv.org/abs/2609.30467) | 该论文针对基于检索的开放式医学事实性验证，自动归纳出两套错误分类体系，将失败分解为五个质量维度上的检索阶段错误与六个连续步骤中的验证器推理错误，并利用LLM-as-Judge流程实现大规模自动化错误标注与分类，无需黄金答案或黄金证据。 |
-| [^17] | [Bootstrapping Conversational Recommendation Agents At Spotify: Synthetic Data Generation and Self-Improvement Loops](https://arxiv.org/abs/2609.30297) | Spotify提出了一条多轮合成数据生成流水线与自我改进循环，通过基于方差的对比优化和编码智能体的迭代修复，在冷启动场景下自动优化对话式推荐智能体的规划与工具调用能力，使质量提升8%。 |
-| [^18] | [SignTrace: Describe a Sign, Find the Word](https://arxiv.org/abs/2609.30295) | SignTrace 利用大语言模型增强的中国手语词典，结合动作提取、七路检索与候选重排序，让学习者仅凭日常语言描述的手部动作即可反向查找到对应手语词条及其含义，在 500 条查询的基准上达到 94.0% 的 Hit@1。 |
-| [^19] | [MM-ContextFold: Context Folding for Multimodal Agentic Retrieval](https://arxiv.org/abs/2609.23121) | 提出了无需训练的 MM-ContextFold 框架，基于对约一万条轨迹的实证发现——当视觉信息被提取并文本化后原始图像变得冗余——通过“折叠”冗余视觉内容来解决多模态智能体检索中的上下文爆炸问题。 |
-| [^20] | [High-probability guarantees for linear accessibility in feature superposition](https://arxiv.org/abs/2609.09556) | 该论文将特征叠加中的线性能及性建模为压缩感知问题，证明了充分维度只需线性规模（而非此前最坏情况的二次方限制）即可高概率地恢复同时激活的特征，从而量化了线性表示假设的几何约束并为稀疏自编码器和神经可解释性评估提供了理论框架。 |
-| [^21] | [Bringing Agentic Search to Earth Observation Data Discovery](https://arxiv.org/abs/2607.02387) | 该论文提出了一个基于NASA地球观测知识图谱的智能体搜索框架用于地球科学数据发现，构建了包含47k查询-数据集对的开放基准NASA-EO-Bench，并通过微调神经评分器与BM25分数融合，将R@10和MRR提升至余弦基线的5倍以上。 |
-| [^22] | [FlyAOC: Evaluating Agentic Ontology Curation of Drosophila Scientific Knowledge Bases](https://arxiv.org/abs/2602.09163) | FlyAOC是一个评估AI智能体从科学文献中进行端到端本体策展的基准，要求智能体在16,898篇果蝇论文中检索证据，并恢复策展人级别的结构化基因标注，涵盖功能术语、表达模式和历史同义词。 |
-| [^23] | [On Function-Correcting Codes in the Lee Metric](https://arxiv.org/abs/2507.17654) | 本文将函数校正码的研究扩展到Lee度量下任意整数模环 Z_m（m≥2）上，通过引入不规则Lee距离码并刻画其最短可能长度，给出了最优冗余度的上下界。 |
+| [^10] | [Component Benchmark: Hierarchical Model Profiling for Large-scale Recommendation Systems](https://arxiv.org/abs/2609.30656) | 本文提出了组件基准测试（CB）系统，以分层方式独立剖析大规模推荐系统中每个子模块的性能，并通过树状交互式可视化解决了现有工具无法将性能归因到具体子模块的问题。 |
+| [^11] | [Epstein Files Engine: Agentic Search for Investigative Journalism](https://arxiv.org/abs/2609.30611) | 《纽约时报》开发的“爱泼斯坦文件引擎”通过大语言模型将记者问题转化为SQL查询，在三百万页司法部文件中检索带引用的可验证答案，助力100余名记者完成至少20篇报道，其核心创新Diff重复匹配方法放大了新颖性信号，并证明了新闻编辑室AI智能体应作为源材料接口而非自主写作者来发挥最大价值。 |
+| [^12] | [Embedding Subspace Partitioning for Dynamic Multi-Objective Retrieval](https://arxiv.org/abs/2609.30601) | 提出嵌入子空间划分（ESP）框架，将嵌入分解为任务感知的子空间，并用权重可在服务时调节的子空间相似度加权和替代单一内积，使检索器无需重新训练即可动态适应多目标优先级的变化，同时缓解多目标联合优化中的目标干扰问题。 |
+| [^13] | [T-RoPE: Time-Aware Rotary Position Embedding for Sequential Recommendation](https://arxiv.org/abs/2609.30576) | 提出T-RoPE，一种时间感知的旋转位置编码，通过基于时间戳的角度、可学习时间系数和多尺度频率等机制打破标准RoPE的时间平移不变性，使序列生成式推荐模型能够捕捉时间间隔、行为周期与季节性等关键时间信息。 |
+| [^14] | [Nearest but Not Dearest: Shared Curator-Feedback Infrastructure for Content-Only Search and Recommendation](https://arxiv.org/abs/2609.30568) | 该论文提出将策展人反馈中的“声音失败”与“上下文失败”进行分解，并以此构建共享反馈基础设施，用于改进缺乏用户行为信号的纯内容搜索与推荐系统。 |
+| [^15] | [REALMS: An AI-Assistant Conversational System for Real-Time Exact Audience Sizing over High-Dimensional Nested Profiles](https://arxiv.org/abs/2609.30547) | REALMS是一个部署在生产环境的对话式系统，结合嵌入向量检索与大语言模型NL2SQL技术，让营销人员用自然语言在数秒内对数百万级、上千属性的高维用户画像完成精确受众规模估算。 |
+| [^16] | [AutoResearch at Production Scale: Failure Modes and a Multi-Agent Framework](https://arxiv.org/abs/2609.30541) | 该论文将AutoResearch范式应用于生产规模的推荐系统嵌入优化，在220多次实验中识别出基础设施脆弱、智能体记忆衰退、搜索方向停滞、迭代成本不对称和指标固化五种失效模式，并据此提出多智能体框架加以解决。 |
+| [^17] | [Where Does Retrieval-Based Open-Ended Evaluation Fail? Automatic Taxonomy Induction from Long-Form Medical Answer Factuality Verification](https://arxiv.org/abs/2609.30467) | 该论文针对基于检索的开放式医学事实性验证，自动归纳出两套错误分类体系，将失败分解为五个质量维度上的检索阶段错误与六个连续步骤中的验证器推理错误，并利用LLM-as-Judge流程实现大规模自动化错误标注与分类，无需黄金答案或黄金证据。 |
+| [^18] | [Bootstrapping Conversational Recommendation Agents At Spotify: Synthetic Data Generation and Self-Improvement Loops](https://arxiv.org/abs/2609.30297) | Spotify提出了一条多轮合成数据生成流水线与自我改进循环，通过基于方差的对比优化和编码智能体的迭代修复，在冷启动场景下自动优化对话式推荐智能体的规划与工具调用能力，使质量提升8%。 |
+| [^19] | [SignTrace: Describe a Sign, Find the Word](https://arxiv.org/abs/2609.30295) | SignTrace 利用大语言模型增强的中国手语词典，结合动作提取、七路检索与候选重排序，让学习者仅凭日常语言描述的手部动作即可反向查找到对应手语词条及其含义，在 500 条查询的基准上达到 94.0% 的 Hit@1。 |
+| [^20] | [MM-ContextFold: Context Folding for Multimodal Agentic Retrieval](https://arxiv.org/abs/2609.23121) | 提出了无需训练的 MM-ContextFold 框架，基于对约一万条轨迹的实证发现——当视觉信息被提取并文本化后原始图像变得冗余——通过“折叠”冗余视觉内容来解决多模态智能体检索中的上下文爆炸问题。 |
+| [^21] | [High-probability guarantees for linear accessibility in feature superposition](https://arxiv.org/abs/2609.09556) | 该论文将特征叠加中的线性能及性建模为压缩感知问题，证明了充分维度只需线性规模（而非此前最坏情况的二次方限制）即可高概率地恢复同时激活的特征，从而量化了线性表示假设的几何约束并为稀疏自编码器和神经可解释性评估提供了理论框架。 |
+| [^22] | [Bringing Agentic Search to Earth Observation Data Discovery](https://arxiv.org/abs/2607.02387) | 该论文提出了一个基于NASA地球观测知识图谱的智能体搜索框架用于地球科学数据发现，构建了包含47k查询-数据集对的开放基准NASA-EO-Bench，并通过微调神经评分器与BM25分数融合，将R@10和MRR提升至余弦基线的5倍以上。 |
+| [^23] | [FlyAOC: Evaluating Agentic Ontology Curation of Drosophila Scientific Knowledge Bases](https://arxiv.org/abs/2602.09163) | FlyAOC是一个评估AI智能体从科学文献中进行端到端本体策展的基准，要求智能体在16,898篇果蝇论文中检索证据，并恢复策展人级别的结构化基因标注，涵盖功能术语、表达模式和历史同义词。 |
+| [^24] | [On Function-Correcting Codes in the Lee Metric](https://arxiv.org/abs/2507.17654) | 本文将函数校正码的研究扩展到Lee度量下任意整数模环 Z_m（m≥2）上，通过引入不规则Lee距离码并刻画其最短可能长度，给出了最优冗余度的上下界。 |
 
 # 详细
 
@@ -154,7 +155,21 @@
 
     arXiv:2609.30711v1 Announce Type: new  Abstract: Sequential recommendation optimizes which items to rank, while each displayed slate also shapes subsequent feedback and user state. We study how a trained ranker can support decisions about these future consequences. We introduce UA-TWM, a utility-anchored world-model interface that constructs nearby slate actions, estimates their target-relevant consequences, and selects an alternative subject to utility constraints. The reference slate serves as a fallback when no alternative qualifies. A logged-replay instantiation combines utility and target-gain estimates with calibrated failure-risk prediction; a closed-loop instantiation uses one-step state-action prediction and updates its decisions after observed feedback. We evaluate transfer across twelve sequential backbones on MovieLens-25M and KuaiRand-Pure, and repeated target-directed interaction in KuaiSim. Attaching the interface improves Recall@20, NDCG@20, and future-state alignment f
     
-[^10]: 爱泼斯坦文件引擎：面向调查性新闻的智能体搜索
+[^10]: 组件基准测试：面向大规模推荐系统的分层模型性能剖析
+
+    Component Benchmark: Hierarchical Model Profiling for Large-scale Recommendation Systems
+
+    [https://arxiv.org/abs/2609.30656](https://arxiv.org/abs/2609.30656)
+
+    本文提出了组件基准测试（CB）系统，以分层方式独立剖析大规模推荐系统中每个子模块的性能，并通过树状交互式可视化解决了现有工具无法将性能归因到具体子模块的问题。
+
+    
+
+    大规模推荐模型带来了独特且尚未被充分研究的性能剖析挑战。大多数推荐模型架构在结构上是异构的，混合了内存带宽受限的操作、小规模计算受限的稠密层、来自不规则类别特征的动态形状，以及低算术强度的操作。推荐模型随着建模工程师不断尝试各种组合而快速演进，而这些代码的编写往往缺乏对硬件执行特性的可见性。标准的性能剖析工具要么提供端到端的吞吐量，要么提供算子级别的追踪信息，但无法将性能归因到从业者所关注的子模块上。我们提出了组件基准测试，这是一种以分层方式独立刻画每个子模块性能的剖析系统，提供树状结构的交互式可视化，为机器学习从业者带来性能上的清晰洞察。其核心在于，CB 提供了一种简单而有效的（原文摘要在此处被截断）
+
+    arXiv:2609.30656v1 Announce Type: new  Abstract: Large-scale recommendation models pose distinct, under-explored profiling challenges. Most recommendation model architectures are structurally heterogeneous, intermixing memory-bandwidth-bound operations, small compute-bound dense layers, dynamic shapes from jagged categorical features, and low-arithmetic-intensity operations. Recommendation models evolve rapidly as modeling engineers experiment with compositions, often written without visibility into hardware execution characteristics. Standard profiling tools offer either end-to-end throughput or operator-level traces, but cannot attribute performance to the submodules that practitioners reason about. We present Component Benchmark (CB), a profiling system that independently characterizes each submodule performance in a hierarchical manner, providing a tree-structured, interactive visualization that brings performance clarity to ML practitioners. At its core, CB provides a simple yet e
+    
+[^11]: 爱泼斯坦文件引擎：面向调查性新闻的智能体搜索
 
     Epstein Files Engine: Agentic Search for Investigative Journalism
 
@@ -168,7 +183,7 @@
 
     arXiv:2609.30611v1 Announce Type: cross  Abstract: On Jan. 30, 2026, the U.S. Department of Justice released a mixed-media collection concerning Jeffrey Epstein, including about three million pages of PDFs. We describe the Epstein Files Engine, an A.I. agent The New York Times deployed to investigate the files. The Engine translated reporter questions into Google BigQuery SQL queries across three corpora: Epstein-related releases, the Times's archive and external, Epstein-related news headlines. It used an LLM to plan queries and returned citation-rich answers a reporter could verify and trust. More than 100 journalists used the Engine, and it contributed to at least 20 published stories. We report how reporters queried it and describe Diff, our text-and-visual duplicate matching method that amplified novelty signals and allowed the Engine to surface genuinely new information. We argue that newsroom agents serve newsrooms best not as autonomous writers, but as interfaces to source mate
     
-[^11]: 面向动态多目标检索的嵌入子空间划分
+[^12]: 面向动态多目标检索的嵌入子空间划分
 
     Embedding Subspace Partitioning for Dynamic Multi-Objective Retrieval
 
@@ -182,7 +197,7 @@
 
     arXiv:2609.30601v1 Announce Type: new  Abstract: Modern industrial recommender systems must optimize across competing objectives, balancing semantic relevance with business metrics such as engagement and revenue. While bi-encoders dominate large-scale retrieval due to their efficiency, they collapse these heterogeneous signals into a single static embedding space. This design creates a fundamental limitation: once trained, the retriever cannot adapt to shifting objective priorities at serving time without retraining. Moreover, joint optimization with multi-objective losses often induces interference between objectives, leading to suboptimal trade-offs. We propose Embedding Subspace Partitioning (ESP), a retrieval framework that decomposes the embedding into task-aware subspaces and replaces the single dot product with a weighted sum of per-subspace similarities, whose weights are tunable at serving time. For Transformer bi-encoders, ESP uses the model's native end-of-sequence token as 
     
-[^12]: T-RoPE：面向序列推荐的时间感知旋转位置编码
+[^13]: T-RoPE：面向序列推荐的时间感知旋转位置编码
 
     T-RoPE: Time-Aware Rotary Position Embedding for Sequential Recommendation
 
@@ -196,7 +211,7 @@
 
     arXiv:2609.30576v1 Announce Type: new  Abstract: Large-scale recommenders increasingly adopt the sequential generative recipe behind large language models, bringing the Transformer into recommendation along with design choices made for text, including Rotary Position Embedding (RoPE). In language models, RoPE encodes token indices for relative position reasoning, but in recommendation, an interaction index records only event order, saying nothing about elapsed time, behavioral cycles across scales, or calendar phase. We revisit this choice and propose T-RoPE, a time-aware RoPE for sequential generative recommendation that replaces index-only rotation with timestamp-based angles, learnable temporal coefficients, multiscale frequency banks, shifted query alignment, and non-stationary key rotation. We prove that standard RoPE, even on timestamps, remains time-translation invariant and cannot distinguish seasonal contexts, and that T-RoPE breaks this invariance while preserving the RoPE in
     
-[^13]: 近在咫尺却非最爱：面向纯内容搜索与推荐的共享策展人反馈基础设施
+[^14]: 近在咫尺却非最爱：面向纯内容搜索与推荐的共享策展人反馈基础设施
 
     Nearest but Not Dearest: Shared Curator-Feedback Infrastructure for Content-Only Search and Recommendation
 
@@ -210,7 +225,7 @@
 
     arXiv:2609.30568v1 Announce Type: new  Abstract: A deployed B2B music-discovery platform serves both query-driven search (text prompts, vibe tags) and seed-driven recommendation (seed-track and artist stations) over one licensed catalog, one LAION-CLAP joint audio-text embedding space, one candidate-generation filter, and one ranking head -- and neither path consumes end-listener behavioral signal. In this content-only regime, curator judgment is the principal feedback signal available, and offline cosine similarity predicts it poorly: 38% of cosine-nearest neighbors are rejected by curators. The rejections reveal a clean partition: a majority (55%) are sound failures the encoder could address (style, tempo, mood mismatch), and a substantial minority (37%) are context failures orthogonal to the waveform (wrong language, holiday content, devotional content, rights and lyric flags). We deploy this sound-vs-context decomposition as feedback infrastructure, routing each failure mode to the
     
-[^14]: REALMS：一种面向高维嵌套用户画像的实时精确受众规模估算AI助手对话系统
+[^15]: REALMS：一种面向高维嵌套用户画像的实时精确受众规模估算AI助手对话系统
 
     REALMS: An AI-Assistant Conversational System for Real-Time Exact Audience Sizing over High-Dimensional Nested Profiles
 
@@ -224,7 +239,7 @@
 
     arXiv:2609.30547v1 Announce Type: new  Abstract: Audience sizing is a critical component of digital marketing. It enables precise resource allocation, campaign planning, and performance optimization. Traditional approaches using skeleton audiences, sampling, or predictive modeling suffer from significant delays, estimation errors, and poor scalability over high-dimensional profile data. We present REALMS (Real-time Exact Audience sizing via LLM-based Multi-attribute Search), a conversational system for exact audience sizing deployed in production on an enterprise customer data platform. REALMS enables marketers to query massive profile stores with millions of profiles and thousands of attributes using natural language and receive precise counts in seconds. The system introduces three key components: (1) a categorical attribute retrieval mechanism using embedding-based vector search to dynamically identify relevant schema attributes without manual configuration; (2) an LLM-powered NL2SQ
     
-[^15]: 生产规模的AutoResearch：失效模式与多智能体框架
+[^16]: 生产规模的AutoResearch：失效模式与多智能体框架
 
     AutoResearch at Production Scale: Failure Modes and a Multi-Agent Framework
 
@@ -238,7 +253,7 @@
 
     arXiv:2609.30541v1 Announce Type: cross  Abstract: Optimizing embedding systems for production recommendation pipelines demands systematic exploration that consumes disproportionate engineering effort at scale. We apply Andrej Karpathy's AutoResearch paradigm -- a large language model that iteratively edits a training script and retains modifications that improve a held-out scalar metric -- to automate this exploration. We report on twelve weeks of running this paradigm at production scale, where iterations consume hours of multi-GPU compute, evaluation involves competing criteria, and campaigns span weeks across many training jobs. Across two independently developed representation-learning systems for a book recommendation pipeline, we ran 220+ experiments and observed five recurring failure modes absent from the original setting: infrastructure fragility, agent memory decay, search-direction stagnation, iteration-cost asymmetry, and metric fixation. We contribute a three-principle sc
     
-[^16]: 基于检索的开放式评估在何处失效？从长篇医学答案事实性验证中自动归纳错误分类体系
+[^17]: 基于检索的开放式评估在何处失效？从长篇医学答案事实性验证中自动归纳错误分类体系
 
     Where Does Retrieval-Based Open-Ended Evaluation Fail? Automatic Taxonomy Induction from Long-Form Medical Answer Factuality Verification
 
@@ -252,7 +267,7 @@
 
     arXiv:2609.30467v1 Announce Type: new  Abstract: Retrieval-based factuality evaluation, where LLM-generated claims are verified against evidence from authoritative medical corpora, has become the dominant paradigm for scalable hallucination detection in high-stakes clinical settings. Despite the urgency of reliable and transparent medical fact verification, most systems measure performance with aggregate metrics like F1, which obscure where and why failures occur. Existing RAG diagnostics require gold answers or annotated gold evidence, neither of which exists in this regime. We introduce two comprehensive taxonomies, grounded in a case study on the open-ended MedExpert dataset and 3 closed-ended datasets, decomposing failures into retrieval-stage errors along five quality dimensions, and verifier-reasoning errors into six consecutive steps. We adapt an automatic pattern induction pipeline using LLM-as-Judge to label evidence quality and classify verifier reasoning errors at scale, and
     
-[^17]: 在Spotify引导对话式推荐智能体：合成数据生成与自我改进循环
+[^18]: 在Spotify引导对话式推荐智能体：合成数据生成与自我改进循环
 
     Bootstrapping Conversational Recommendation Agents At Spotify: Synthetic Data Generation and Self-Improvement Loops
 
@@ -266,7 +281,7 @@
 
     arXiv:2609.30297v1 Announce Type: cross  Abstract: Conversational recommendation agents are a new paradigm for content discovery, enabling users to express complex intents through natural language (e.g., "recommend Italian indie artists I haven't heard before"). A central challenge in building such agents is optimizing agent planning -- deciding how to select, sequence, and invoke tools -- particularly in cold-start settings where real user interactions are not yet available. We introduce a pipeline for multi-turn synthetic data generation and a self-improvement loop to address this challenge. The synthetic data pipeline transforms single-turn prompts into realistic multi-turn conversations, enabling systematic evaluation before launch. The self-improvement loop combines variance-based contrastive optimization with iterative refinement through a coding agent, automatically identifying and fixing planning and tool-use errors. Our approach improves quality by +8% on top of a highly optim
     
-[^18]: SignTrace：描述一个手势，找到对应的词
+[^19]: SignTrace：描述一个手势，找到对应的词
 
     SignTrace: Describe a Sign, Find the Word
 
@@ -280,7 +295,7 @@
 
     arXiv:2609.30295v1 Announce Type: cross  Abstract: Identifying an unfamiliar sign is difficult when a learner remembers its movement but does not know its meaning or formal feature codes. SignTrace addresses this longstanding reverse-lookup problem through natural-language access to a Chinese sign-language dictionary. The system integrates LLM-based dictionary enrichment, action extraction, dictionary-style rewriting, seven-channel retrieval, and candidate reranking over 6,699 entries. It has been deployed for user trials and has received positive informal feedback. Evaluation on a dictionary-derived benchmark of 500 movement-description queries yields 94.0% Hit@1, 97.4% Hit@9, and a mean reciprocal rank of 0.9540. Reranking increases Hit@1 from 71.8% to 94.0%, while component analyses show the contribution of enriched entry descriptions. Median query-processing time is 13.37 seconds with six concurrent queries. By connecting everyday movement descriptions to documented signs and meani
     
-[^19]: MM-ContextFold：面向多模态智能体检索的上下文折叠
+[^20]: MM-ContextFold：面向多模态智能体检索的上下文折叠
 
     MM-ContextFold: Context Folding for Multimodal Agentic Retrieval
 
@@ -294,7 +309,7 @@
 
     arXiv:2609.23121v1 Announce Type: cross  Abstract: Multimodal Agentic Retrieval (MAR) requires agents to solve complex information-seeking tasks by iteratively invoking external tools. Typical frameworks such as ReAct maintain raw multimodal inputs and the accumulating interaction history in a single, ever-growing context, leading to the context explosion problem. While existing methods alleviate this issue by compressing redundant text, effective strategies for managing token-intensive visual content remain largely underexplored. To address this gap, we first conduct a systematic empirical study of approximately 10,000 trajectories. The results show that as visual cues are progressively extracted through external tools and textualized into the context, raw images become increasingly redundant. Continued image retention is associated with higher output entropy and can even degrade task accuracy. Motivated by these findings, we propose MM-ContextFold, a training-free framework that load
     
-[^20]: 特征叠加中线性能及性的高概率保证
+[^21]: 特征叠加中线性能及性的高概率保证
 
     High-probability guarantees for linear accessibility in feature superposition
 
@@ -308,7 +323,7 @@
 
     arXiv:2609.09556v1 Announce Type: cross  Abstract: Neural networks can leverage feature superposition to encode more concepts than dimensions, but cross-feature interference constrains the linear accessibility of simultaneously active features. By framing linear accessibility as a compressed sensing problem, we derive high-probability bounds for fixed supports under subgaussian noise, proving the sufficient dimension scales linearly ($d=O_{\varepsilon}(k \log m)$) rather than prior worst-case quadratic limits. We then validate these bounds across system parameters through Gaussian-tail approximations. These results quantify the geometric constraints of the linear representation hypothesis, providing a framework for evaluating sparse autoencoders, compositional generalization, and neural interpretability.
     
-[^21]: 将智能体搜索引入地球观测数据发现
+[^22]: 将智能体搜索引入地球观测数据发现
 
     Bringing Agentic Search to Earth Observation Data Discovery
 
@@ -322,7 +337,7 @@
 
     arXiv:2607.02387v2 Announce Type: replace  Abstract: NASA and its data centers hold thousands of geoscience datasets and tools like Worldview, Giovanni, the Science Discovery Engine, and Harmony. Finding the right one is hard even for domain experts. We present an agentic search framework for geoscience data discovery that takes a natural-language research query and returns matching datasets and tools. We demonstrate that, in the era of large language models, the latent value of knowledge graphs (KGs) can be substantially amplified through agentic search. From the NASA Earth Observation Knowledge Graph (NASA EO-KG) we derive NASA-EO-Bench, an open benchmark of 47k query-dataset pairs (21k task-based queries). A neural scorer fine-tuned on NASA-EO-Bench beats cosine and BM25 baselines. Further combining it with BM25 via score fusion raises both Recall@10 (R@10) and MRR to over 5x the unadapted cosine baseline. On top of this supervised pipeline, a zero-shot reranking stage lifts MRR by 
     
-[^22]: FlyAOC：评估果蝇科学知识库的智能体本体策展
+[^23]: FlyAOC：评估果蝇科学知识库的智能体本体策展
 
     FlyAOC: Evaluating Agentic Ontology Curation of Drosophila Scientific Knowledge Bases
 
@@ -336,7 +351,7 @@
 
     arXiv:2602.09163v2 Announce Type: replace  Abstract: Scientific knowledge bases accelerate discovery by curating findings from primary literature into structured, queryable formats for both human researchers and emerging AI systems. Maintaining these resources requires expert curators to search papers, reconcile evidence across documents, and produce ontology-grounded annotations. Existing benchmarks usually evaluate isolated subtasks, such as named entity recognition or relation extraction, and therefore do not capture this end-to-end workflow. We present FlyAOC to evaluate AI agents on end-to-end agentic ontology curation from scientific literature. Given a gene symbol, a concise FlyBase gene description, access to a 16,898-paper corpus, and ontology resources, agents must search for evidence and recover as many curator-relevant structured annotations as possible. Outputs span standardized function terms, expression patterns, and historical synonyms linking decades of nomenclature. T
     
-[^23]: 关于Lee度量下的函数校正码
+[^24]: 关于Lee度量下的函数校正码
 
     On Function-Correcting Codes in the Lee Metric
 
