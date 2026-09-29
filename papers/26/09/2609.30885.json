@@ -1,0 +1,12 @@
+{
+    "title": "Retraction-Based Gradient Projection Algorithms on Manifolds",
+    "abstract": "arXiv:2609.30885v1 Announce Type: cross  Abstract: We introduce a framework for retraction-based convex optimization on Riemannian manifolds, which includes a notion of retraction-specific convex sets and retraction-based gradient projection algorithms. The standard theory of gradient projection algorithms generalizes easily to this framework. Within this framework, we establish convergence results for retraction-based gradient projection algorithms with various stepsize rules. As an application, we use our framework to study the weighted low-rank approximation. We also provide numerical validation of our convergence results on the image completion task.",
+    "link": "https://arxiv.org/abs/2609.30885",
+    "context": "Title: Retraction-Based Gradient Projection Algorithms on Manifolds\nAbstract: arXiv:2609.30885v1 Announce Type: cross  Abstract: We introduce a framework for retraction-based convex optimization on Riemannian manifolds, which includes a notion of retraction-specific convex sets and retraction-based gradient projection algorithms. The standard theory of gradient projection algorithms generalizes easily to this framework. Within this framework, we establish convergence results for retraction-based gradient projection algorithms with various stepsize rules. As an application, we use our framework to study the weighted low-rank approximation. We also provide numerical validation of our convergence results on the image completion task.",
+    "path": "papers/26/09/2609.30885.json",
+    "total_tokens": 956,
+    "translated_title": "流形上基于回缩的梯度投影算法",
+    "translated_abstract": "我们提出了一个在黎曼流形上进行基于回缩的凸优化的框架，其中包括回缩特定凸集的概念以及基于回缩的梯度投影算法。梯度投影算法的标准理论可以很容易地推广到该框架中。在该框架内，我们建立了采用各种步长规则的基于回缩的梯度投影算法的收敛性结果。作为应用，我们利用该框架研究了加权低秩逼近问题。我们还在图像补全任务上对我们的收敛性结果提供了数值验证。",
+    "tldr": "本文提出了黎曼流形上基于回缩的凸优化框架，建立了多种步长规则下基于回缩的梯度投影算法的收敛性结果，并成功应用于加权低秩逼近和图像补全问题。",
+    "en_tdlr": "This paper introduces a framework for retraction-based convex optimization on Riemannian manifolds, establishing convergence results for retraction-based gradient projection algorithms under various stepsize rules, with applications to weighted low-rank approximation and image completion."
+}

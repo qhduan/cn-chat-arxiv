@@ -1,0 +1,12 @@
+{
+    "title": "A Sharp Norm Inequality and Buzano's Inequality via Determinants",
+    "abstract": "arXiv:2604.01525v2 Announce Type: replace-cross  Abstract: We give a short linear-algebraic proof of the inequality $$ \\|x\\|_1\\,\\|x\\|_\\infty \\le \\frac{1+\\sqrt{n}}{2}\\,\\|x\\|_2^2, $$ valid for every $x\\in\\mathbb{R}^n$. This inequality relates three fundamental norms on finite-dimensional spaces and has applications in optimization and numerical analysis. Our proof exploits the determinantal structure of a parametrized family of quadratic forms, and we show the constant $(1+\\sqrt{n})/2$ is optimal. The inequality is a special case of Buzano's inequality, and the same method also proves Buzano's inequality for real vectors.",
+    "link": "https://arxiv.org/abs/2604.01525",
+    "context": "Title: A Sharp Norm Inequality and Buzano's Inequality via Determinants\nAbstract: arXiv:2604.01525v2 Announce Type: replace-cross  Abstract: We give a short linear-algebraic proof of the inequality $$ \\|x\\|_1\\,\\|x\\|_\\infty \\le \\frac{1+\\sqrt{n}}{2}\\,\\|x\\|_2^2, $$ valid for every $x\\in\\mathbb{R}^n$. This inequality relates three fundamental norms on finite-dimensional spaces and has applications in optimization and numerical analysis. Our proof exploits the determinantal structure of a parametrized family of quadratic forms, and we show the constant $(1+\\sqrt{n})/2$ is optimal. The inequality is a special case of Buzano's inequality, and the same method also proves Buzano's inequality for real vectors.",
+    "path": "papers/26/04/2604.01525.json",
+    "total_tokens": 1112,
+    "translated_title": "基于行列式的尖锐范数不等式与Buzano不等式",
+    "translated_abstract": "我们给出不等式 $$ \\|x\\|_1\\,\\|x\\|_\\infty \\le \\frac{1+\\sqrt{n}}{2}\\,\\|x\\|_2^2 $$ 的一个简短的线性代数证明，该不等式对每个 $x\\in\\mathbb{R}^n$ 都成立。这个不等式联系了有限维空间上的三种基本范数，并在优化和数值分析中有应用。我们的证明利用了一个参数化二次型族的行列式结构，并证明常数 $(1+\\sqrt{n})/2$ 是最优的。该不等式是 Buzano 不等式的特例，同样的方法也证明了实向量情形的 Buzano 不等式。",
+    "tldr": "本文利用参数化二次型族的行列式结构，给出了联系三种基本范数的尖锐不等式的简短证明，证明了常数 $(1+\\sqrt{n})/2$ 的最优性，并同时证明了实向量情形的 Buzano 不等式。",
+    "en_tdlr": "This paper gives a short linear-algebraic proof via determinants of a family of quadratic forms for the sharp inequality relating three fundamental norms, proves the optimality of the constant $(1+\\sqrt{n})/2$, and also establishes Buzano's inequality for real vectors."
+}

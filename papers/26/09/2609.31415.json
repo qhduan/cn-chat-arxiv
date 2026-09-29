@@ -1,0 +1,12 @@
+{
+    "title": "Evaluating the accuracy of KV cache reuse techniques",
+    "abstract": "arXiv:2609.31415v1 Announce Type: new  Abstract: Position-independent KV cache reuse aims to reduce latency in retrieval-augmented generation by reusing chunk-level KV caches across prompts. We show that current evaluations of KV cache reuse techniques rely on measurements that fail to faithfully capture the loss of accuracy attributable to reuse, often artificially inflating the reported effectiveness. We also show that existing datasets do not exhibit the reuse dynamics needed to thoroughly evaluate such techniques. To address these issues, we propose an evaluation methodology that measures this accuracy loss without ambiguity and we introduce Boxoffice, a tool that programmatically generates evaluation datasets that exercise challenging KV cache reuse patterns.",
+    "link": "https://arxiv.org/abs/2609.31415",
+    "context": "Title: Evaluating the accuracy of KV cache reuse techniques\nAbstract: arXiv:2609.31415v1 Announce Type: new  Abstract: Position-independent KV cache reuse aims to reduce latency in retrieval-augmented generation by reusing chunk-level KV caches across prompts. We show that current evaluations of KV cache reuse techniques rely on measurements that fail to faithfully capture the loss of accuracy attributable to reuse, often artificially inflating the reported effectiveness. We also show that existing datasets do not exhibit the reuse dynamics needed to thoroughly evaluate such techniques. To address these issues, we propose an evaluation methodology that measures this accuracy loss without ambiguity and we introduce Boxoffice, a tool that programmatically generates evaluation datasets that exercise challenging KV cache reuse patterns.",
+    "path": "papers/26/09/2609.31415.json",
+    "total_tokens": 902,
+    "translated_title": "评估KV缓存重用技术的准确性",
+    "translated_abstract": "与位置无关的KV缓存重用旨在通过跨提示重用块级KV缓存来降低检索增强生成的延迟。我们表明，当前对KV缓存重用技术的评估所依赖的测量方法无法忠实捕捉由重用导致的精度损失，往往会人为夸大所报告的有效性。我们还表明，现有数据集并不具备彻底评估此类技术所需的重用动态特征。为解决这些问题，我们提出了一种能够无歧义地测量这种精度损失的评估方法，并介绍了Boxoffice——一个能够以编程方式生成评估数据集的工具，这些数据集可施加具有挑战性的KV缓存重用模式。",
+    "tldr": "该论文指出现有KV缓存重用技术的评估方法会人为夸大其有效性，并提出了一种无歧义测量精度损失的评估方法，同时发布了Boxoffice工具来生成具有挑战性重用模式的评估数据集。",
+    "en_tdlr": "This paper shows that current evaluations of KV cache reuse artificially inflate effectiveness, and proposes an unambiguous methodology for measuring accuracy loss along with Boxoffice, a tool that programmatically generates evaluation datasets exercising challenging reuse patterns."
+}

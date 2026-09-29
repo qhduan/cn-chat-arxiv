@@ -1,0 +1,12 @@
+{
+    "title": "Gap-free Differentially Private PCA for Gaussian Data",
+    "abstract": "arXiv:2609.31614v1 Announce Type: cross  Abstract: We give a gap-free differentially private algorithm for the principal component analysis (PCA) problem with Gaussian data.",
+    "link": "https://arxiv.org/abs/2609.31614",
+    "context": "Title: Gap-free Differentially Private PCA for Gaussian Data\nAbstract: arXiv:2609.31614v1 Announce Type: cross  Abstract: We give a gap-free differentially private algorithm for the principal component analysis (PCA) problem with Gaussian data.",
+    "path": "papers/26/09/2609.31614.json",
+    "total_tokens": 551,
+    "translated_title": "面向高斯数据的无间隙差分隐私主成分分析",
+    "translated_abstract": "我们针对高斯数据的主成分分析（PCA）问题，提出了一种无间隙的差分隐私算法。",
+    "tldr": "该论文提出了一种无间隙的差分隐私算法，用于解决高斯数据下的主成分分析（PCA）问题。",
+    "en_tdlr": "This paper proposes a gap-free differentially private algorithm for the principal component analysis (PCA) problem with Gaussian data."
+}

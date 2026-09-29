@@ -1,0 +1,12 @@
+{
+    "title": "Audio emotion recognition for atypical hearing",
+    "abstract": "arXiv:2609.31168v1 Announce Type: new  Abstract: My doctoral work aims to explore Audio Emotion Recognition (AER) in the context of atypical listening. This research focuses on auditory hypersensitivity in people with autism, a phenomenon that is often difficult to evaluate and unique to each individual. Our core idea is to leverage our understanding of affect from acoustic traits, relying on the possibility of generalizing affective responses from a small amount of annotated data. As a first step, we fine-tune a large foundation model, Contrastive Language-Audio Pretraining (CLAP) using low-rank adaptation (LoRA), trained on a valence and arousal dataset of neurotypical listeners.",
+    "link": "https://arxiv.org/abs/2609.31168",
+    "context": "Title: Audio emotion recognition for atypical hearing\nAbstract: arXiv:2609.31168v1 Announce Type: new  Abstract: My doctoral work aims to explore Audio Emotion Recognition (AER) in the context of atypical listening. This research focuses on auditory hypersensitivity in people with autism, a phenomenon that is often difficult to evaluate and unique to each individual. Our core idea is to leverage our understanding of affect from acoustic traits, relying on the possibility of generalizing affective responses from a small amount of annotated data. As a first step, we fine-tune a large foundation model, Contrastive Language-Audio Pretraining (CLAP) using low-rank adaptation (LoRA), trained on a valence and arousal dataset of neurotypical listeners.",
+    "path": "papers/26/09/2609.31168.json",
+    "total_tokens": 952,
+    "translated_title": "面向非典型听觉的音频情感识别",
+    "translated_abstract": "我的博士工作旨在探索非典型听觉情境下的音频情感识别（AER）。这项研究聚焦于自闭症人士的听觉过敏现象，这一现象往往难以评估且因人而异。我们的核心思想是利用从声学特征中对情感的理解，依赖从少量标注数据中泛化情感反应的可能性。作为第一步，我们使用低秩自适应（LoRA）方法对一个大型基础模型——对比语言-音频预训练（CLAP）进行微调，该模型在神经典型听众的效价和唤醒度数据集上进行训练。",
+    "tldr": "该研究提出用LoRA微调CLAP基础模型，从少量神经典型听众的标注数据中泛化音频情感识别能力，以探索自闭症人士听觉过敏等非典型听觉情境下的情感评估方法。",
+    "en_tdlr": "This doctoral research proposes fine-tuning the CLAP foundation model with LoRA to generalize audio emotion recognition from a small amount of neurotypical listener annotation data, aiming to explore affect evaluation in atypical listening contexts such as auditory hypersensitivity in autism."
+}
