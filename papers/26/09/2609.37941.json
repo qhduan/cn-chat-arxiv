@@ -1,0 +1,12 @@
+{
+    "title": "An Efficient Machine Learning Approach for Degradation Forecasting in AEM Water Electrolysis",
+    "abstract": "arXiv:2609.37941v1 Announce Type: new  Abstract: This study provides a data-driven analysis of a novel dataset of single-cell Anion Exchange Membrane water electrolyzers (AEMWE), operated under constant current load across multiple heterogeneous experimental campaigns. We train and evaluate a range of machine learning models with different complexity, including linear baselines, LSTMs and CNNs, to perform medium-term forecasting of the cell voltage degradation curve. The models are assessed within a rigorous training and evaluation framework specifically designed for heterogeneous industrial data.",
+    "link": "https://arxiv.org/abs/2609.37941",
+    "context": "Title: An Efficient Machine Learning Approach for Degradation Forecasting in AEM Water Electrolysis\nAbstract: arXiv:2609.37941v1 Announce Type: new  Abstract: This study provides a data-driven analysis of a novel dataset of single-cell Anion Exchange Membrane water electrolyzers (AEMWE), operated under constant current load across multiple heterogeneous experimental campaigns. We train and evaluate a range of machine learning models with different complexity, including linear baselines, LSTMs and CNNs, to perform medium-term forecasting of the cell voltage degradation curve. The models are assessed within a rigorous training and evaluation framework specifically designed for heterogeneous industrial data.",
+    "path": "papers/26/09/2609.37941.json",
+    "total_tokens": 848,
+    "translated_title": "一种用于阴离子交换膜水电解退化预测的高效机器学习方法",
+    "translated_abstract": "本研究对一个新颖的单电池阴离子交换膜水电解器数据集进行了数据驱动分析，该数据集来自在恒定电流负载下运行的多个异构实验活动。我们训练并评估了一系列不同复杂度的机器学习模型，包括线性基线模型、长短期记忆网络（LSTM）和卷积神经网络（CNN），用于对电池电压退化曲线进行中期预测。这些模型在一个专门为异构工业数据设计的严格训练与评估框架内进行评估。",
+    "tldr": "本研究构建了阴离子交换膜水电解器电压退化的数据驱动预测方法，在专为异构工业数据设计的评估框架下比较了线性基线、LSTM和CNN等多种机器学习模型的中期退化预测性能。",
+    "en_tdlr": "This study develops data-driven approaches for medium-term forecasting of cell voltage degradation in AEM water electrolyzers, evaluating linear baselines, LSTMs, and CNNs within a rigorous framework designed for heterogeneous industrial data."
+}

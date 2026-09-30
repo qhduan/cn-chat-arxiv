@@ -1,0 +1,12 @@
+{
+    "title": "Aggregation of Time Preferences and Comparability of Intergenerational Utilities",
+    "abstract": "arXiv:2609.36744v1 Announce Type: new  Abstract: Experimental evidence reveals that, in aggregating time preferences, a decision maker exhibits mild aversion to inequality across individuals' evaluations of a stream. Neither the utilitarian nor the maxmin aggregation rule can account for this finding. Building on principles concerning the comparability of intergenerational utilities and intergenerational fairness, this paper axiomatizes a family of aggregation rules that allow the decision maker to display varying degrees of inequality aversion. These rules fit well with experimental data.",
+    "link": "https://arxiv.org/abs/2609.36744",
+    "context": "Title: Aggregation of Time Preferences and Comparability of Intergenerational Utilities\nAbstract: arXiv:2609.36744v1 Announce Type: new  Abstract: Experimental evidence reveals that, in aggregating time preferences, a decision maker exhibits mild aversion to inequality across individuals' evaluations of a stream. Neither the utilitarian nor the maxmin aggregation rule can account for this finding. Building on principles concerning the comparability of intergenerational utilities and intergenerational fairness, this paper axiomatizes a family of aggregation rules that allow the decision maker to display varying degrees of inequality aversion. These rules fit well with experimental data.",
+    "path": "papers/26/09/2609.36744.json",
+    "total_tokens": 786,
+    "translated_title": "时间偏好的聚合与代际效用的可比性",
+    "translated_abstract": "实验证据表明，在聚合时间偏好时，决策者对个体对某一消费流评价之间的不平等表现出轻微的厌恶。无论是功利主义聚合规则还是最大化最小值聚合规则都无法解释这一发现。基于关于代际效用可比性和代际公平的原则，本文公理化了一族聚合规则，使决策者能够表现出不同程度的不平等厌恶。这些规则与实验数据拟合良好。",
+    "tldr": "本文基于代际效用可比性与代际公平原则，公理化了一族能够刻画决策者不同程度不平等厌恶的时间偏好聚合规则，并能很好地拟合实验数据。",
+    "en_tdlr": "This paper axiomatizes a family of time preference aggregation rules based on intergenerational utility comparability and fairness principles, allowing decision makers to exhibit varying degrees of inequality aversion that fit experimental data well."
+}

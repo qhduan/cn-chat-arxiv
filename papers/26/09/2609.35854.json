@@ -1,0 +1,12 @@
+{
+    "title": "Position: Let's Strengthen Verifiability If We Can't Enforce Reproducibility",
+    "abstract": "arXiv:2609.35854v1 Announce Type: cross  Abstract: In the field of Machine Learning, many papers contain empirical results supporting claimed statements or illustrating the performance of a proposed method. However, most practitioners know that (1) results are generally hard to reproduce, and increasingly so, (2) code is not often available to do so, and (3) it hinders the development of research. In this position paper, we analyze and quantify these issues, and make concrete proposals to improve result checkability, if not reproducibility. Code and supporting materials are available at https://github.com/giddyyupp/position-enforce-verifiability.",
+    "link": "https://arxiv.org/abs/2609.35854",
+    "context": "Title: Position: Let's Strengthen Verifiability If We Can't Enforce Reproducibility\nAbstract: arXiv:2609.35854v1 Announce Type: cross  Abstract: In the field of Machine Learning, many papers contain empirical results supporting claimed statements or illustrating the performance of a proposed method. However, most practitioners know that (1) results are generally hard to reproduce, and increasingly so, (2) code is not often available to do so, and (3) it hinders the development of research. In this position paper, we analyze and quantify these issues, and make concrete proposals to improve result checkability, if not reproducibility. Code and supporting materials are available at https://github.com/giddyyupp/position-enforce-verifiability.",
+    "path": "papers/26/09/2609.35854.json",
+    "total_tokens": 811,
+    "translated_title": "立场论文：如果我们无法强制实现可复现性，那就让我们加强可验证性",
+    "translated_abstract": "在机器学习领域，许多论文包含支持所陈述观点的实证结果，或展示所提出方法的性能。然而，大多数从业者都知道：(1) 结果通常难以复现，且难度日益增加；(2) 通常没有可用的代码来进行复现；(3) 这阻碍了研究的发展。在这篇立场论文中，我们分析并量化了这些问题，并提出了具体的建议来改善结果的可检验性，即便无法实现完全的可复现性。",
+    "tldr": "该论文指出机器学习研究结果普遍难以复现且代码常常缺失，在分析和量化这些问题的基础上，提出了加强结果可验证性的具体建议。",
+    "en_tdlr": "This position paper analyzes and quantifies the reproducibility issues in machine learning research and makes concrete proposals to strengthen result verifiability when full reproducibility cannot be enforced."
+}

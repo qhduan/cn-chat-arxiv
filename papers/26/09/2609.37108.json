@@ -1,0 +1,12 @@
+{
+    "title": "The Efficient Frontier from a LASSO Solver",
+    "abstract": "arXiv:2609.37108v1 Announce Type: new  Abstract: In a recent paper, Schmelzer and Hastie argue that Markowitz's Critical Line Algorithm and the LASSO path trace the same curve. Here we use that identity to compute efficient frontiers with a stock LASSO solver, \\texttt{lars\\_path} from \\texttt{scikit-learn}. It handles long--short portfolios under a leverage cap, fixed leverage with varying risk appetite, and the classical long-only, fully invested frontier. Called naively, the last path stops at the maximum-Sharpe portfolio. One shift of the response, by an amount computed in advance, lets a single call reach the minimum-variance portfolio.",
+    "link": "https://arxiv.org/abs/2609.37108",
+    "context": "Title: The Efficient Frontier from a LASSO Solver\nAbstract: arXiv:2609.37108v1 Announce Type: new  Abstract: In a recent paper, Schmelzer and Hastie argue that Markowitz's Critical Line Algorithm and the LASSO path trace the same curve. Here we use that identity to compute efficient frontiers with a stock LASSO solver, \\texttt{lars\\_path} from \\texttt{scikit-learn}. It handles long--short portfolios under a leverage cap, fixed leverage with varying risk appetite, and the classical long-only, fully invested frontier. Called naively, the last path stops at the maximum-Sharpe portfolio. One shift of the response, by an amount computed in advance, lets a single call reach the minimum-variance portfolio.",
+    "path": "papers/26/09/2609.37108.json",
+    "total_tokens": 1096,
+    "translated_title": "基于LASSO求解器的有效前沿",
+    "translated_abstract": "在最近的一篇论文中，Schmelzer和Hastie论证了Markowitz的临界线算法与LASSO路径描绘的是同一条曲线。本文利用这一等价关系，使用现成的LASSO求解器——scikit-learn中的lars_path——来计算有效前沿。该求解器能够处理杠杆上限约束下的多空组合、固定杠杆下不同风险偏好的组合，以及经典的只做多、全额投资的有效前沿。若直接调用，最后一条路径会在最大夏普比率组合处停止；通过对响应变量进行一次预先计算好幅度的平移，单次调用即可到达最小方差组合。",
+    "tldr": "本文利用Markowitz临界线算法与LASSO路径的等价性，直接调用scikit-learn现成的LASSO求解器计算多种有效前沿，并通过一次预先计算的响应平移，使单次调用即可覆盖从最大夏普组合到最小方差组合的完整前沿。",
+    "en_tdlr": "Leveraging the equivalence between Markowitz's Critical Line Algorithm and the LASSO path, this paper computes efficient frontiers directly with a stock LASSO solver (scikit-learn's lars_path), where a single pre-computed shift of the response allows one call to reach the minimum-variance portfolio."
+}

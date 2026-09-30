@@ -1,0 +1,11 @@
+{
+    "title": "Dropout Universality: Scaling Laws and Optimal Scheduling at the Edge-of-Chaos",
+    "abstract": "arXiv:2605.21648v3 Announce Type: replace  Abstract: We ask whether the standard treatment of dropout as a static hyperparameter is optimal, or whether its utility can be improved by letting it vary over depth. We answer this by developing a mean-field theory of dropout near the edge of chaos, identifying distinct universality classes for smooth and kinked activations, together with their scaling exponents. The resulting propagation theory, constrained by maximizing the regularization delivered by dropout, motivates concentrating dropout near the input. Experiments on vision, speech and financial time series show gains most consistently in MLPs, with smaller gains in Transformers.",
+    "link": "https://arxiv.org/abs/2605.21648",
+    "context": "Title: Dropout Universality: Scaling Laws and Optimal Scheduling at the Edge-of-Chaos\nAbstract: arXiv:2605.21648v3 Announce Type: replace  Abstract: We ask whether the standard treatment of dropout as a static hyperparameter is optimal, or whether its utility can be improved by letting it vary over depth. We answer this by developing a mean-field theory of dropout near the edge of chaos, identifying distinct universality classes for smooth and kinked activations, together with their scaling exponents. The resulting propagation theory, constrained by maximizing the regularization delivered by dropout, motivates concentrating dropout near the input. Experiments on vision, speech and financial time series show gains most consistently in MLPs, with smaller gains in Transformers.",
+    "path": "papers/26/05/2605.21648.json",
+    "total_tokens": 992,
+    "translated_title": "Dropout 普适性：混沌边缘处的标度律与最优调度",
+    "translated_abstract": "我们探究将 dropout 作为静态超参数的标准处理方式是否最优，或者通过让其随网络深度变化是否能提升其效用。为此，我们发展了混沌边缘附近 dropout 的平均场理论，识别出平滑激活函数与折角（kinked）激活函数所属的不同普适类，并给出相应的标度指数。由此得到的信号传播理论，在以最大化 dropout 所提供的正则化效果为约束的条件下，启发我们应将 dropout 集中施加在靠近输入层的位置。在视觉、语音和金融时间序列上的实验表明，该方法在多层感知机（MLP）中带来最一致的收益，而在 Transformer 中收益较小。",
+    "tldr": "该论文建立了混沌边缘处 dropout 的平均场理论，揭示出不同激活函数的普适类与标度律，并证明将 dropout 随深度调度且集中于靠近输入层的位置能最大化正则化收益，在 MLP 等模型上表现最为一致。"
+}

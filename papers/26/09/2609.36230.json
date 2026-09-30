@@ -1,0 +1,12 @@
+{
+    "title": "The Role of Feed-Forward Layers in Transformer Dynamics",
+    "abstract": "arXiv:2609.36230v1 Announce Type: new  Abstract: We study the dynamical behavior of tokens in transformers from a control-theoretic perspective. Our model includes the feed-forward layer present after the self-attention mechanism, with the self-attention mechanism interpreted as an interacting particle system and the feed-forward layer as an independent control. Our main theoretical result establishes that the feed-forward network can steer the tokens arbitrarily close to consensus regardless of the key, query, and value matrices. Our result are easily extended to convergence to many clusters and to multi-head attention. We conduct numerical experiments to verify our results, and compare thresholding behavior from our theory to real-world LLMs.",
+    "link": "https://arxiv.org/abs/2609.36230",
+    "context": "Title: The Role of Feed-Forward Layers in Transformer Dynamics\nAbstract: arXiv:2609.36230v1 Announce Type: new  Abstract: We study the dynamical behavior of tokens in transformers from a control-theoretic perspective. Our model includes the feed-forward layer present after the self-attention mechanism, with the self-attention mechanism interpreted as an interacting particle system and the feed-forward layer as an independent control. Our main theoretical result establishes that the feed-forward network can steer the tokens arbitrarily close to consensus regardless of the key, query, and value matrices. Our result are easily extended to convergence to many clusters and to multi-head attention. We conduct numerical experiments to verify our results, and compare thresholding behavior from our theory to real-world LLMs.",
+    "path": "papers/26/09/2609.36230.json",
+    "total_tokens": 941,
+    "translated_title": "前馈层在Transformer动力学中的作用",
+    "translated_abstract": "我们从控制论的视角研究Transformer中词元的动力学行为。我们的模型包含了自注意力机制之后的前馈层，其中自注意力机制被解释为一个相互作用的粒子系统，而前馈层则被视为一个独立的控制项。我们的主要理论结果表明，无论键、查询和值矩阵如何取值，前馈网络都可以将词元引导至任意接近共识的状态。我们的结果可以轻松扩展到收敛至多个簇的情形以及多头注意力机制。我们进行了数值实验来验证我们的结果，并将理论预测的阈值行为与现实世界的大型语言模型进行了比较。",
+    "tldr": "本文从控制论视角证明，无论键、查询和值矩阵如何，Transformer中的前馈层都能作为独立控制项将词元引导至任意接近共识的状态，且该结论可推广至多簇收敛与多头注意力机制。",
+    "en_tdlr": "From a control-theoretic perspective, this paper proves that the feed-forward layer in a transformer can steer tokens arbitrarily close to consensus regardless of the key, query, and value matrices, with results extending to multi-cluster convergence and multi-head attention."
+}

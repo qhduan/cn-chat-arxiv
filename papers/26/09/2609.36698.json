@@ -1,0 +1,12 @@
+{
+    "title": "Learned Queries and Keys Are All You Need: Replacing the Value Projection with Structured Transforms",
+    "abstract": "arXiv:2609.36698v1 Announce Type: new  Abstract: To reduce the number of parameters and cache memory requirements of transformers we introduce dual-headed transformers instead of three heads. We studied Walsh-Hadamard Transform (WHT), Discrete Cosine Transform (DCT), Discrete Fourier Transform, filterbank based Shearlet Transform, and Multiplication-Avoiding (MA) operators to construct dual heads. We combine spatial patches and their orthogonal transforms (or Shearlet and MA operators) in a structure similar to the attention block. We obtained better results than triple headed transformers in ImageNet. Extensive simulation examples are presented.",
+    "link": "https://arxiv.org/abs/2609.36698",
+    "context": "Title: Learned Queries and Keys Are All You Need: Replacing the Value Projection with Structured Transforms\nAbstract: arXiv:2609.36698v1 Announce Type: new  Abstract: To reduce the number of parameters and cache memory requirements of transformers we introduce dual-headed transformers instead of three heads. We studied Walsh-Hadamard Transform (WHT), Discrete Cosine Transform (DCT), Discrete Fourier Transform, filterbank based Shearlet Transform, and Multiplication-Avoiding (MA) operators to construct dual heads. We combine spatial patches and their orthogonal transforms (or Shearlet and MA operators) in a structure similar to the attention block. We obtained better results than triple headed transformers in ImageNet. Extensive simulation examples are presented.",
+    "path": "papers/26/09/2609.36698.json",
+    "total_tokens": 970,
+    "translated_title": "学习到的查询和键就足够了：用结构化变换替代值投影",
+    "translated_abstract": "为了减少Transformer的参数数量和缓存内存需求，我们引入了双头Transformer来替代三头结构。我们研究了Walsh-Hadamard变换（WHT）、离散余弦变换（DCT）、离散傅里叶变换、基于滤波器组的Shearlet变换以及避免乘法（MA）算子来构建双头结构。我们在类似注意力块的结构中将空间图像块与其正交变换（或Shearlet和MA算子）相结合。在ImageNet上我们获得了优于三头Transformer的结果。文中展示了大量仿真示例。",
+    "tldr": "该论文提出用结构化变换（如WHT、DCT、Shearlet变换等）替代Transformer的值投影，构建仅需查询和键的双头注意力机制，在减少参数量和缓存内存的同时，在ImageNet上取得了优于传统三头Transformer的性能。",
+    "en_tdlr": "This paper proposes dual-headed transformers that replace the value projection with structured transforms (WHT, DCT, Shearlet, MA operators), requiring only learned queries and keys, which reduces parameters and cache memory while outperforming triple-headed transformers on ImageNet."
+}

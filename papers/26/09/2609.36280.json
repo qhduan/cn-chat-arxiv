@@ -1,0 +1,12 @@
+{
+    "title": "Probabilistic Seasonality",
+    "abstract": "arXiv:2609.36280v1 Announce Type: new  Abstract: Seasonal adjustment is fundamental to economic analysis, but uncertain because seasonal components are inherently latent. This article introduces a probabilistic model discovery method that decomposes a time series into seasonal and nonseasonal components. The method returns a posterior distribution over the structure and parameters of a seasonal component. In simulation studies, the method can improve point forecasts, interval predictions, and recovery of seasonal components relative to X-13ARIMA-SEATS. In a study of eight U.S. macroeconomic series during the COVID-19 recession, the method surfaces significant ex-ante uncertainty about current seasonal adjustments in real time, well before many X-13 revisions reach their eventual peaks.",
+    "link": "https://arxiv.org/abs/2609.36280",
+    "context": "Title: Probabilistic Seasonality\nAbstract: arXiv:2609.36280v1 Announce Type: new  Abstract: Seasonal adjustment is fundamental to economic analysis, but uncertain because seasonal components are inherently latent. This article introduces a probabilistic model discovery method that decomposes a time series into seasonal and nonseasonal components. The method returns a posterior distribution over the structure and parameters of a seasonal component. In simulation studies, the method can improve point forecasts, interval predictions, and recovery of seasonal components relative to X-13ARIMA-SEATS. In a study of eight U.S. macroeconomic series during the COVID-19 recession, the method surfaces significant ex-ante uncertainty about current seasonal adjustments in real time, well before many X-13 revisions reach their eventual peaks.",
+    "path": "papers/26/09/2609.36280.json",
+    "total_tokens": 972,
+    "translated_title": "概率季节性",
+    "translated_abstract": "季节调整是经济分析的基础，但由于季节成分本质上是潜在不可观测的，因此存在不确定性。本文提出了一种概率模型发现方法，可将时间序列分解为季节性和非季节性成分。该方法返回关于季节成分结构和参数的后验分布。在模拟研究中，相对于X-13ARIMA-SEATS方法，该方法能够改进点预测、区间预测以及季节成分的恢复效果。在一项针对COVID-19衰退期间八个美国宏观经济序列的研究中，该方法能够实时揭示当前季节调整中显著的事前不确定性，且远早于许多X-13修正达到其最终峰值的时间。",
+    "tldr": "本文提出一种概率模型发现方法，通过输出季节成分结构与参数的后验分布来分解时间序列，相比X-13ARIMA-SEATS能改进预测效果并实时揭示季节调整的事前不确定性。",
+    "en_tdlr": "This paper introduces a probabilistic model discovery method that decomposes time series into seasonal and nonseasonal components with a posterior distribution over structure and parameters, improving forecasts and revealing real-time ex-ante uncertainty in seasonal adjustments compared to X-13ARIMA-SEATS."
+}

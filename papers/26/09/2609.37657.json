@@ -1,0 +1,12 @@
+{
+    "title": "The double descent and Runge phenomena in overparametrized polynomial interpolation",
+    "abstract": "arXiv:2609.37657v1 Announce Type: cross  Abstract: The Runge phenomenon in polynomial interpolation is often considered a classical analogue of the double descent phenomenon in machine learning. In this note, we explore overparameterized polynomial interpolation in three popular polynomial bases: Monomial, Chebyshev and Legendre basis with coefficients that are minimal in the $\\ell^2$-norm (and, for the monomial basis, also those minimal in the $\\ell^1$-norm). We present our results primarily for equidistant and Chebyshev data points, but many results are independent of the exact form of sampling.",
+    "link": "https://arxiv.org/abs/2609.37657",
+    "context": "Title: The double descent and Runge phenomena in overparametrized polynomial interpolation\nAbstract: arXiv:2609.37657v1 Announce Type: cross  Abstract: The Runge phenomenon in polynomial interpolation is often considered a classical analogue of the double descent phenomenon in machine learning. In this note, we explore overparameterized polynomial interpolation in three popular polynomial bases: Monomial, Chebyshev and Legendre basis with coefficients that are minimal in the $\\ell^2$-norm (and, for the monomial basis, also those minimal in the $\\ell^1$-norm). We present our results primarily for equidistant and Chebyshev data points, but many results are independent of the exact form of sampling.",
+    "path": "papers/26/09/2609.37657.json",
+    "total_tokens": 924,
+    "translated_title": "过参数化多项式插值中的双重下降与龙格现象",
+    "translated_abstract": "多项式插值中的龙格现象通常被认为是机器学习中双重下降现象的经典类比。在本短文中，我们探讨了三种常用多项式基（单项式基、切比雪夫基和勒让德基）下的过参数化多项式插值，其中系数取 $\\ell^2$ 范数最小（对于单项式基，还考虑了 $\\ell^1$ 范数最小的系数）。我们的结果主要针对等距数据点和切比雪夫数据点给出，但许多结果并不依赖于采样的具体形式。",
+    "tldr": "该论文系统研究了单项式、切比雪夫和勒让德三种多项式基下具有最小范数系数的过参数化多项式插值，揭示了龙格现象与机器学习中双重下降现象之间的联系。",
+    "en_tdlr": "This paper systematically studies overparametrized polynomial interpolation with minimum-norm coefficients in the monomial, Chebyshev, and Legendre bases, elucidating the connection between the Runge phenomenon and the double descent phenomenon in machine learning."
+}

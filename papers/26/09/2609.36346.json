@@ -1,0 +1,12 @@
+{
+    "title": "Solving the Arctic Product-Mix Auction",
+    "abstract": "arXiv:2609.36346v1 Announce Type: cross  Abstract: Arctic product-mix auctions allow budget-constrained bidders to express preferences over multiple substitute goods. We give the first strongly polynomial algorithm to find the competitive equilibria when the auctioneer has separable convex piecewise-linear costs. It combines a strongly polynomial reduction to the costless Arctic auction with an existing strongly polynomial algorithm for costless Arctic auctions. We also give a polynomial-time Turing reduction from costless Arctic auctions to linear Fisher markets, and a strongly polynomial many-to-one reduction to linear Arrow-Debreu exchange markets. If a good is sold in positive quantity in two competitive equilibria, its price is the same in both.",
+    "link": "https://arxiv.org/abs/2609.36346",
+    "context": "Title: Solving the Arctic Product-Mix Auction\nAbstract: arXiv:2609.36346v1 Announce Type: cross  Abstract: Arctic product-mix auctions allow budget-constrained bidders to express preferences over multiple substitute goods. We give the first strongly polynomial algorithm to find the competitive equilibria when the auctioneer has separable convex piecewise-linear costs. It combines a strongly polynomial reduction to the costless Arctic auction with an existing strongly polynomial algorithm for costless Arctic auctions. We also give a polynomial-time Turing reduction from costless Arctic auctions to linear Fisher markets, and a strongly polynomial many-to-one reduction to linear Arrow-Debreu exchange markets. If a good is sold in positive quantity in two competitive equilibria, its price is the same in both.",
+    "path": "papers/26/09/2609.36346.json",
+    "total_tokens": 1087,
+    "translated_title": "求解北极产品组合拍卖",
+    "translated_abstract": "北极产品组合拍卖允许受预算约束的竞拍者对多种可替代商品表达偏好。当拍卖方具有可分离的凸分段线性成本时，我们给出了第一个求解竞争均衡的强多项式算法。该算法将一个问题强多项式地归约到无成本的北极拍卖，并结合已有的求解无成本北极拍卖的强多项式算法。我们还给出了从无成本北极拍卖到线性费希尔市场的多项式时间图灵归约，以及到线性阿罗-德布鲁交换市场的强多项式多对一归约。此外，若某商品在两个竞争均衡中均以正数量出售，则其在这两个均衡中的价格相同。",
+    "tldr": "本文提出了首个强多项式算法来计算具有可分离凸分段线性成本的北极产品组合拍卖的竞争均衡，并证明了竞争均衡中的单价唯一性（同价定律）。",
+    "en_tdlr": "This paper presents the first strongly polynomial algorithm for computing competitive equilibria in Arctic product-mix auctions with separable convex piecewise-linear costs, along with reductions to linear Fisher and Arrow-Debreu exchange markets and a law-of-one-price result."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Empirical Bayes 1-bit matrix completion",
+    "abstract": "arXiv:2605.09509v2 Announce Type: replace-cross  Abstract: The problem of predicting unobserved entries in a binary matrix, known as 1-bit matrix completion, has found diverse applications in fields such as recommendation systems. In this study, we develop an empirical Bayes method for 1-bit matrix completion motivated by the Efron--Morris estimator, a matrix generalization of the James--Stein estimator that shrinks singular values toward zero. The proposed method exploits the underlying low-rank structure of binary matrices, drawing parallels with multidimensional item response theory. Simulation studies and real-data applications demonstrate that the proposed method achieves competitive predictive accuracy and favorable predictive calibration.",
+    "link": "https://arxiv.org/abs/2605.09509",
+    "context": "Title: Empirical Bayes 1-bit matrix completion\nAbstract: arXiv:2605.09509v2 Announce Type: replace-cross  Abstract: The problem of predicting unobserved entries in a binary matrix, known as 1-bit matrix completion, has found diverse applications in fields such as recommendation systems. In this study, we develop an empirical Bayes method for 1-bit matrix completion motivated by the Efron--Morris estimator, a matrix generalization of the James--Stein estimator that shrinks singular values toward zero. The proposed method exploits the underlying low-rank structure of binary matrices, drawing parallels with multidimensional item response theory. Simulation studies and real-data applications demonstrate that the proposed method achieves competitive predictive accuracy and favorable predictive calibration.",
+    "path": "papers/26/05/2605.09509.json",
+    "total_tokens": 933,
+    "translated_title": "经验贝叶斯1比特矩阵补全",
+    "translated_abstract": "预测二值矩阵中未观测元素的问题，被称为1比特矩阵补全，在推荐系统等领域有着广泛的应用。在本研究中，我们受Efron-Morris估计量（一种将奇异值向零收缩的James-Stein估计量的矩阵推广形式）的启发，开发了一种用于1比特矩阵补全的经验贝叶斯方法。所提出的方法利用了二值矩阵的潜在低秩结构，并与多维项目反应理论相呼应。模拟研究和实际数据应用表明，所提出的方法实现了具有竞争力的预测精度和良好的预测校准性。",
+    "tldr": "本文提出了一种受Efron-Morris估计量启发的经验贝叶斯1比特矩阵补全方法，该方法利用二值矩阵的低秩结构并将奇异值向零收缩，实现了具有竞争力的预测精度和良好的预测校准性。",
+    "en_tdlr": "This paper develops an empirical Bayes method for 1-bit matrix completion, inspired by the Efron-Morris estimator, which exploits the low-rank structure of binary matrices by shrinking singular values toward zero, achieving competitive predictive accuracy and favorable predictive calibration."
+}

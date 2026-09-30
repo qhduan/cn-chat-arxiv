@@ -1,0 +1,12 @@
+{
+    "title": "Transversal Pooling Neural Networks",
+    "abstract": "arXiv:2609.36237v1 Announce Type: new  Abstract: Many learning tasks require stability to small transformations while retaining sensitivity to larger ones. We introduce \\emph{transversal pooling neural networks}, which generalize spatial max pooling to affine group actions. We establish equivariance to a chosen subgroup and derive explicit stability bounds for individual pooled wavelet coefficients under affine perturbations of the input. Experimentally, we demonstrate the utility of our networks in low-data environments and for predicting tropical cyclone intensification.",
+    "link": "https://arxiv.org/abs/2609.36237",
+    "context": "Title: Transversal Pooling Neural Networks\nAbstract: arXiv:2609.36237v1 Announce Type: new  Abstract: Many learning tasks require stability to small transformations while retaining sensitivity to larger ones. We introduce \\emph{transversal pooling neural networks}, which generalize spatial max pooling to affine group actions. We establish equivariance to a chosen subgroup and derive explicit stability bounds for individual pooled wavelet coefficients under affine perturbations of the input. Experimentally, we demonstrate the utility of our networks in low-data environments and for predicting tropical cyclone intensification.",
+    "path": "papers/26/09/2609.36237.json",
+    "total_tokens": 972,
+    "translated_title": "横截池化神经网络",
+    "translated_abstract": "许多学习任务既需要对小变换保持稳定性，又需要对较大变换保持敏感性。我们引入了“横截池化神经网络”，它将空间最大池化推广到仿射群作用上。我们建立了针对所选子群的等变性，并推导出输入在仿射扰动下单个池化小波系数的显式稳定性界。在实验中，我们证明了该网络在低数据环境以及预测热带气旋增强方面的实用性。",
+    "tldr": "该论文提出横截池化神经网络，将空间最大池化推广至仿射群作用，建立了等变性并推导出池化小波系数在仿射扰动下的显式稳定性界，且在低数据环境和热带气旋增强预测任务中展现出实用价值。",
+    "en_tdlr": "This paper introduces transversal pooling neural networks, which generalize spatial max pooling to affine group actions, establishing equivariance and explicit stability bounds for pooled wavelet coefficients under affine perturbations, with demonstrated utility in low-data settings and tropical cyclone intensification prediction."
+}

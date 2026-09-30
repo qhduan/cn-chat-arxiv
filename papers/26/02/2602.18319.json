@@ -1,0 +1,12 @@
+{
+    "title": "Robo-Saber: Generating and Simulating Virtual Reality Players",
+    "abstract": "arXiv:2602.18319v2 Announce Type: replace-cross  Abstract: We present the first motion generation system for playtesting virtual reality (VR) games. Our player model generates VR headset and handheld controller movements from in-game object arrangements, guided by style exemplars and aligned to maximize simulated gameplay score. We train on the large BOXRR-23 dataset and apply our framework on the popular VR game Beat Saber. The resulting model Robo-Saber produces skilled gameplay and captures diverse player behaviors, mirroring the skill levels and movement patterns specified by input style exemplars. Robo-Saber demonstrates promise in synthesizing rich gameplay data for predictive applications and enabling a physics-based whole-body VR playtesting agent.",
+    "link": "https://arxiv.org/abs/2602.18319",
+    "context": "Title: Robo-Saber: Generating and Simulating Virtual Reality Players\nAbstract: arXiv:2602.18319v2 Announce Type: replace-cross  Abstract: We present the first motion generation system for playtesting virtual reality (VR) games. Our player model generates VR headset and handheld controller movements from in-game object arrangements, guided by style exemplars and aligned to maximize simulated gameplay score. We train on the large BOXRR-23 dataset and apply our framework on the popular VR game Beat Saber. The resulting model Robo-Saber produces skilled gameplay and captures diverse player behaviors, mirroring the skill levels and movement patterns specified by input style exemplars. Robo-Saber demonstrates promise in synthesizing rich gameplay data for predictive applications and enabling a physics-based whole-body VR playtesting agent.",
+    "path": "papers/26/02/2602.18319.json",
+    "total_tokens": 892,
+    "translated_title": "Robo-Saber：虚拟现实玩家的生成与模拟",
+    "translated_abstract": "我们提出了首个用于虚拟现实（VR）游戏测试的动作生成系统。我们的玩家模型根据游戏内物体排布生成VR头显和手持控制器的运动，由风格示例引导，并通过最大化模拟游戏得分进行对齐。我们在大规模BOXRR-23数据集上进行训练，并将该框架应用于流行的VR游戏Beat Saber。所得到的模型Robo-Saber能够产生熟练的游戏玩法并捕捉多样的玩家行为，映射出输入风格示例所指定的技能水平和运动模式。Robo-Saber展示了在为预测性应用合成丰富游戏数据、以及实现基于物理的全身VR游戏测试智能体方面的前景。",
+    "tldr": "Robo-Saber是首个用于VR游戏测试的动作生成系统，能够根据游戏内物体排布和风格示例生成模拟玩家的头显与手柄运动，产生熟练且多样化的游戏行为。",
+    "en_tdlr": "Robo-Saber is the first motion generation system for VR game playtesting, which generates simulated players' headset and controller movements from in-game object arrangements and style exemplars, producing skilled and diverse gameplay behaviors."
+}

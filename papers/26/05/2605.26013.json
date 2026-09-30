@@ -1,0 +1,12 @@
+{
+    "title": "AdvantageFlow: Regularized Advantage-Weighted RL in Flow Models",
+    "abstract": "arXiv:2605.26013v2 Announce Type: replace-cross  Abstract: We present AdvantageFlow, a forward-process reinforcement learning (RL) algorithm for rectified flow models. The algorithm minimizes an advantage-weighted prediction loss, which maximizes reward, regularized by the rollout policy, which convexifies the objective and makes its optimization stable. Our objective can be viewed as fitting a local reward-improving target distribution. The rollout regularization arises as a variance reduction step. We evaluate AdvantageFlow empirically on text-to-image generation with Stable Diffusion 3.5 Medium and FLUX.1, and compare it to both forward- and reverse-process RL algorithms.",
+    "link": "https://arxiv.org/abs/2605.26013",
+    "context": "Title: AdvantageFlow: Regularized Advantage-Weighted RL in Flow Models\nAbstract: arXiv:2605.26013v2 Announce Type: replace-cross  Abstract: We present AdvantageFlow, a forward-process reinforcement learning (RL) algorithm for rectified flow models. The algorithm minimizes an advantage-weighted prediction loss, which maximizes reward, regularized by the rollout policy, which convexifies the objective and makes its optimization stable. Our objective can be viewed as fitting a local reward-improving target distribution. The rollout regularization arises as a variance reduction step. We evaluate AdvantageFlow empirically on text-to-image generation with Stable Diffusion 3.5 Medium and FLUX.1, and compare it to both forward- and reverse-process RL algorithms.",
+    "path": "papers/26/05/2605.26013.json",
+    "total_tokens": 1037,
+    "translated_title": "AdvantageFlow：流模型中的正则化优势加权强化学习",
+    "translated_abstract": "我们提出了AdvantageFlow，一种面向修正流模型的前向过程强化学习（RL）算法。该算法最小化一个优势加权预测损失以最大化奖励，并通过滚动策略进行正则化，从而使目标函数凸化并保证优化的稳定性。我们的目标函数可以被视为拟合一个局部奖励改进的目标分布，其中滚动正则化作为一种方差缩减的手段自然产生。我们在文本到图像生成任务上使用Stable Diffusion 3.5 Medium和FLUX.1对AdvantageFlow进行了实证评估，并将其与正向过程和反向过程的强化学习算法进行了比较。",
+    "tldr": "AdvantageFlow是一种针对修正流模型的前向过程强化学习算法，通过优势加权预测损失结合滚动策略正则化来凸化目标并稳定优化，在文本到图像生成任务上与正向和反向过程RL算法相比表现出色。",
+    "en_tdlr": "AdvantageFlow is a forward-process RL algorithm for rectified flow models that minimizes an advantage-weighted prediction loss regularized by the rollout policy, convexifying the objective for stable optimization and showing strong performance on text-to-image generation with Stable Diffusion 3.5 Medium and FLUX.1."
+}

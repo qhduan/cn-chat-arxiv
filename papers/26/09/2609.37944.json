@@ -1,0 +1,12 @@
+{
+    "title": "Identifiability Guarantees for Drivers and Dynamics of Delayed Physical Systems",
+    "abstract": "arXiv:2609.37944v1 Announce Type: cross  Abstract: A wide range of methods have been proposed, including physics-informed neural networks, which are powerful but do not guarantee identifiability of the dynamics, symbolic regression, which requires a set of precomputed operations, and causal discovery, which is more principled but usually relies on strong assumptions that physical systems may violate. In this work, we develop a theory-grounded method and prove that under a set of permissive assumptions, the structural drivers and drift of stochastic delayed differential equations are identifiable. Our method outperforms others on a benchmark for driver identifiability, and on a second benchmark to evaluate physical consistency of the learned dynamics.",
+    "link": "https://arxiv.org/abs/2609.37944",
+    "context": "Title: Identifiability Guarantees for Drivers and Dynamics of Delayed Physical Systems\nAbstract: arXiv:2609.37944v1 Announce Type: cross  Abstract: A wide range of methods have been proposed, including physics-informed neural networks, which are powerful but do not guarantee identifiability of the dynamics, symbolic regression, which requires a set of precomputed operations, and causal discovery, which is more principled but usually relies on strong assumptions that physical systems may violate. In this work, we develop a theory-grounded method and prove that under a set of permissive assumptions, the structural drivers and drift of stochastic delayed differential equations are identifiable. Our method outperforms others on a benchmark for driver identifiability, and on a second benchmark to evaluate physical consistency of the learned dynamics.",
+    "path": "papers/26/09/2609.37944.json",
+    "total_tokens": 1103,
+    "translated_title": "时滞物理系统驱动项与动力学的可辨识性保证",
+    "translated_abstract": "目前已有大量方法被提出，包括物理信息神经网络（功能强大但不保证动力学的可辨识性）、符号回归（需要一组预先计算好的操作）以及因果发现（更具原则性，但通常依赖于物理系统可能违反的强假设）。在本工作中，我们开发了一种有理论支撑的方法，并证明在一组宽松的假设下，随机时滞微分方程的结构驱动项和漂移项是可辨识的。我们的方法在驱动项可辨识性基准测试中优于其他方法，并在第二个用于评估所学动力学物理一致性的基准测试中也表现更佳。",
+    "tldr": "本文提出一种有理论支撑的方法，证明在宽松假设下随机时滞微分方程的结构驱动项与漂移项是可辨识的，并在驱动项可辨识性与动力学物理一致性基准上优于现有方法。",
+    "en_tdlr": "This work develops a theory-grounded method that proves the structural drivers and drift of stochastic delayed differential equations are identifiable under permissive assumptions, outperforming existing methods on benchmarks for driver identifiability and physical consistency of learned dynamics."
+}

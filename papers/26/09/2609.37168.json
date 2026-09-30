@@ -1,0 +1,12 @@
+{
+    "title": "Are there asymmetries in euro area monetary policy transmission?",
+    "abstract": "arXiv:2609.37168v1 Announce Type: new  Abstract: We answer the question posed in the title with a nonlinear mixed-frequency vector autoregression, estimated with Bayesian additive regression trees. The model combines monthly macro-financial variables with quarterly bank lending survey data, and identifies the dynamic responses from high-frequency policy surprises. Sign asymmetry dominates; a tightening produces monetary policy transmission mostly in line with the theoretical predictions, whereas easing of any size produces mostly insignificant responses. Peak effects vary with initial conditions, while several common, predefined regime splits do not yield considerable differences in the propagation of the shocks.",
+    "link": "https://arxiv.org/abs/2609.37168",
+    "context": "Title: Are there asymmetries in euro area monetary policy transmission?\nAbstract: arXiv:2609.37168v1 Announce Type: new  Abstract: We answer the question posed in the title with a nonlinear mixed-frequency vector autoregression, estimated with Bayesian additive regression trees. The model combines monthly macro-financial variables with quarterly bank lending survey data, and identifies the dynamic responses from high-frequency policy surprises. Sign asymmetry dominates; a tightening produces monetary policy transmission mostly in line with the theoretical predictions, whereas easing of any size produces mostly insignificant responses. Peak effects vary with initial conditions, while several common, predefined regime splits do not yield considerable differences in the propagation of the shocks.",
+    "path": "papers/26/09/2609.37168.json",
+    "total_tokens": 906,
+    "translated_title": "欧元区货币政策传导是否存在非对称性？",
+    "translated_abstract": "我们使用一个基于贝叶斯加性回归树估计的非线性混合频率向量自回归模型来回答标题中提出的问题。该模型将月度宏观金融变量与季度银行信贷调查数据相结合，并通过高频政策意外来识别动态响应。研究发现符号非对称性占主导地位：紧缩政策产生的货币政策传导基本符合理论预测，而任何规模的宽松政策所产生的响应大多不显著。峰值效应随初始条件而变化，而几种常见的、预先设定的经济状态划分在冲击传导方面并未产生显著差异。",
+    "tldr": "该研究发现欧元区货币政策传导存在显著的非对称性——紧缩政策的传导效果符合理论预测，而宽松政策的效果大多不显著，且冲击传导主要取决于初始经济条件而非预先设定的状态划分。",
+    "en_tdlr": "This study finds that euro area monetary policy transmission is significantly asymmetric—tightening produces effects in line with theoretical predictions while easing yields mostly insignificant responses, with shock propagation depending on initial conditions rather than predefined regime splits."
+}

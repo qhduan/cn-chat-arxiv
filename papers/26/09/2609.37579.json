@@ -1,0 +1,12 @@
+{
+    "title": "Ornstein-Uhlenbeck Is Hard to Beat, Yet Superlinear Drift Ships Lower Transport Costs",
+    "abstract": "arXiv:2609.37579v1 Announce Type: cross  Abstract: Bre\\v{s}ar and Mijatovi\\'c \\cite{bresar2025} show that Ornstein--Uhlenbeck diffusion is hard to beat in forward convergence under assumptions that exclude superlinear drift. We instead test superlinear Langevin diffusions for score-based image generation, computing their conditional scores numerically from a Fokker--Planck equation. In our experiments, the superlinear models beat the Ornstein--Uhlenbeck baseline on empirical Wasserstein distance across nearly the entire tested grid and show less variation across diffusion horizons. The ``hard to beat'' verdict of \\cite{bresar2025} thus fails to be universal.",
+    "link": "https://arxiv.org/abs/2609.37579",
+    "context": "Title: Ornstein-Uhlenbeck Is Hard to Beat, Yet Superlinear Drift Ships Lower Transport Costs\nAbstract: arXiv:2609.37579v1 Announce Type: cross  Abstract: Bre\\v{s}ar and Mijatovi\\'c \\cite{bresar2025} show that Ornstein--Uhlenbeck diffusion is hard to beat in forward convergence under assumptions that exclude superlinear drift. We instead test superlinear Langevin diffusions for score-based image generation, computing their conditional scores numerically from a Fokker--Planck equation. In our experiments, the superlinear models beat the Ornstein--Uhlenbeck baseline on empirical Wasserstein distance across nearly the entire tested grid and show less variation across diffusion horizons. The ``hard to beat'' verdict of \\cite{bresar2025} thus fails to be universal.",
+    "path": "papers/26/09/2609.37579.json",
+    "total_tokens": 1149,
+    "translated_title": "奥恩斯坦-乌伦贝克过程难以被超越，然而超线性漂移可带来更低的输运成本",
+    "translated_abstract": "Brešar和Mijatović证明，在排除超线性漂移的假设条件下，奥恩斯坦-乌伦贝克（OU）扩散在前向收敛方面难以被超越。我们转而针对基于分数的图像生成测试超线性朗之万扩散，并通过Fokker-Planck方程数值计算其条件分数。在我们的实验中，超线性模型在经验Wasserstein距离上于几乎整个测试网格范围内击败了奥恩斯坦-乌伦贝克基线，且在不同的扩散时域上表现出更小的波动。因此，Brešar和Mijatović所得出的“OU扩散难以被超越”的结论并不具有普适性。",
+    "tldr": "本文通过基于分数的图像生成实验证明，超线性朗之万扩散模型在经验Wasserstein距离上几乎全面优于奥恩斯坦-乌伦贝克基线且波动更小，表明OU扩散“难以被超越”的结论并非普遍成立。",
+    "en_tdlr": "Experiments on score-based image generation show that superlinear Langevin diffusions beat the Ornstein-Uhlenbeck baseline on empirical Wasserstein distance across nearly the entire tested grid with less variation across diffusion horizons, proving that the \"hard to beat\" verdict for OU diffusion is not universal."
+}

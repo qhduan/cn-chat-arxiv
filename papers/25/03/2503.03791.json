@@ -1,0 +1,12 @@
+{
+    "title": "Predicting Team Performance from Communications in Simulated Search-and-Rescue",
+    "abstract": "arXiv:2503.03791v1 Announce Type: cross  Abstract: Understanding how individual traits influence team performance is valuable, but these traits are not always directly observable. Prior research has inferred traits like trust from behavioral data. We analyze conversational data to identify team traits and their correlation with teaming outcomes. Using transcripts from a Minecraft-based search-and-rescue experiment, we apply topic modeling and clustering to uncover key interaction patterns. Our findings show that variations in teaming outcomes can be explained through these inferences, with different levels of predictive power derived from individual traits and team dynamics.",
+    "link": "https://arxiv.org/abs/2503.03791",
+    "context": "Title: Predicting Team Performance from Communications in Simulated Search-and-Rescue\nAbstract: arXiv:2503.03791v1 Announce Type: cross  Abstract: Understanding how individual traits influence team performance is valuable, but these traits are not always directly observable. Prior research has inferred traits like trust from behavioral data. We analyze conversational data to identify team traits and their correlation with teaming outcomes. Using transcripts from a Minecraft-based search-and-rescue experiment, we apply topic modeling and clustering to uncover key interaction patterns. Our findings show that variations in teaming outcomes can be explained through these inferences, with different levels of predictive power derived from individual traits and team dynamics.",
+    "path": "papers/25/03/2503.03791.json",
+    "total_tokens": 813,
+    "translated_title": "从模拟搜救任务中的通信预测团队绩效",
+    "translated_abstract": "理解个体特质如何影响团队绩效是有价值的，但这些特质并不总是能够被直接观察到。先前的研究已经从行为数据中推断出信任等特质。我们通过分析对话数据来识别团队特质及其与团队协作结果的关联。利用基于Minecraft的搜救实验的对话转录文本，我们应用主题建模和聚类方法来揭示关键的互动模式。我们的研究结果表明，团队协作结果的差异可以通过这些推断来解释，其中个体特质和团队动态提供了不同程度的预测能力。",
+    "tldr": "该研究通过分析模拟搜救任务中的对话数据，运用主题建模和聚类方法识别团队特质，证明这些从通信中推断出的个体特质和团队动态能够有效预测团队绩效的差异。",
+    "en_tdlr": "This study applies topic modeling and clustering to conversational data from simulated search-and-rescue tasks, demonstrating that inferred individual traits and team dynamics can predict variations in team performance."
+}
