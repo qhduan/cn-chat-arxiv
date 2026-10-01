@@ -1,0 +1,12 @@
+{
+    "title": "Completion-Aware Cross-Fidelity Offline-to-Online Reinforcement Learning for Multi-Line Bus Holding",
+    "abstract": "arXiv:2609.39868v1 Announce Type: new  Abstract: Exploratory reinforcement learning (RL) on an operating bus fleet is impractical,while policies trained only from historical data cannot acquire new experience. Hybrid Offline-and-Online (H2O) RL combines fixed target replay with simulator interaction, but the inexpensive online simulator can differ from the target in transition and event-duration dynamics. We study this cross-fidelity problem for multi-line bus holding and address a failure mode in which lower generalized passenger time coexists with incomplete passenger journeys.",
+    "link": "https://arxiv.org/abs/2609.39868",
+    "context": "Title: Completion-Aware Cross-Fidelity Offline-to-Online Reinforcement Learning for Multi-Line Bus Holding\nAbstract: arXiv:2609.39868v1 Announce Type: new  Abstract: Exploratory reinforcement learning (RL) on an operating bus fleet is impractical,while policies trained only from historical data cannot acquire new experience. Hybrid Offline-and-Online (H2O) RL combines fixed target replay with simulator interaction, but the inexpensive online simulator can differ from the target in transition and event-duration dynamics. We study this cross-fidelity problem for multi-line bus holding and address a failure mode in which lower generalized passenger time coexists with incomplete passenger journeys.",
+    "path": "papers/26/09/2609.39868.json",
+    "total_tokens": 1234,
+    "translated_title": "面向多线路公交驻站控制的完成度感知跨保真度离线到在线强化学习",
+    "translated_abstract": "在运营中的公交车队上进行探索性强化学习（RL）是不切实际的，而仅从历史数据训练的策略又无法获取新经验。混合离线与在线（H2O）强化学习将固定的目标回放与模拟器交互相结合，但廉价的在线模拟器在状态转移和事件持续时间动态方面可能与目标环境存在差异。我们针对多线路公交驻站控制研究这一跨保真度问题，并解决了一种失效模式：在该模式中，较低的广义乘客时间与不完整的乘客行程同时存在。",
+    "tldr": "该论文针对多线路公交驻站控制，提出一种完成度感知的跨保真度离线到在线强化学习方法，解决了模拟器与真实环境保真度差异所导致的“广义乘客时间降低但乘客行程不完整”的失效模式。",
+    "en_tdlr": "This paper proposes a completion-aware cross-fidelity offline-to-online reinforcement learning method for multi-line bus holding, addressing a failure mode in which reduced generalized passenger time coexists with incomplete passenger journeys due to fidelity gaps between the simulator and the target environment."
+}

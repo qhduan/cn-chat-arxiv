@@ -1,0 +1,12 @@
+{
+    "title": "The Capacity Cost of Informational Screening",
+    "abstract": "arXiv:2609.39077v1 Announce Type: new  Abstract: An advisor knows who would benefit from using a resource but cannot assign its use. Individuals have private assessments and may ignore advice. We study how their choices can respect a fixed usage limit. In our model, whenever coordination is possible, eliciting private assessments makes some harmful use unavoidable. Policies that maximize welfare, or even minimize harm, also forgo beneficial uses that direct assignment would permit. In those environments, observing assessments instead allows advice to achieve as much beneficial use as direct assignment, without harmful use. The loss therefore reflects the incentive cost of eliciting private beliefs while leaving use voluntary.",
+    "link": "https://arxiv.org/abs/2609.39077",
+    "context": "Title: The Capacity Cost of Informational Screening\nAbstract: arXiv:2609.39077v1 Announce Type: new  Abstract: An advisor knows who would benefit from using a resource but cannot assign its use. Individuals have private assessments and may ignore advice. We study how their choices can respect a fixed usage limit. In our model, whenever coordination is possible, eliciting private assessments makes some harmful use unavoidable. Policies that maximize welfare, or even minimize harm, also forgo beneficial uses that direct assignment would permit. In those environments, observing assessments instead allows advice to achieve as much beneficial use as direct assignment, without harmful use. The loss therefore reflects the incentive cost of eliciting private beliefs while leaving use voluntary.",
+    "path": "papers/26/09/2609.39077.json",
+    "total_tokens": 989,
+    "translated_title": "信息筛选的容量成本",
+    "translated_abstract": "顾问知道谁会从使用某种资源中受益，但无法直接分配其使用权。个人拥有私人评估，并可能忽视建议。我们研究他们的选择如何能够遵守固定的使用限额。在我们的模型中，只要协调是可能的，引导私人评估就会使某些有害使用不可避免。那些最大化福利、甚至最小化危害的政策，也会放弃直接分配所允许实现的有益使用。在这些环境中，直接观察评估反而能使建议实现与直接分配同样多的有益使用，且不产生有害使用。因此，这种损失反映了在保持使用自愿性的前提下引导私人信念所带来的激励成本。",
+    "tldr": "该论文证明了在资源存在固定使用限额时，通过信息筛选引导个人自愿使用的机制相比直接分配必然产生无法避免的有害使用并损失部分有益使用，揭示了诱导私人信念披露的激励成本。",
+    "en_tdlr": "This paper shows that when a resource faces a fixed usage limit, screening individuals' private assessments under voluntary use inevitably generates some harmful use and forgoes beneficial uses achievable through direct assignment, revealing the incentive cost of eliciting private beliefs."
+}

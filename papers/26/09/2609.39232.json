@@ -1,0 +1,12 @@
+{
+    "title": "What Streaming Anomaly Detection Finds (and Misses) in Industrial Time Series",
+    "abstract": "arXiv:2609.39232v1 Announce Type: cross  Abstract: EDF relies on continuous monitoring of its power plants to detect anomalies as soon as they occur. Given the absence of a universally optimal streaming method in unsupervised settings, we compare streaming methods with state-of-the-art TSAD models deployed online on a real nuclear power plant dataset. This work also evaluates Automated Anomaly Detection in a streaming context. Results show higher consistency for online TSAD and strong robustness from ensembling strategies.",
+    "link": "https://arxiv.org/abs/2609.39232",
+    "context": "Title: What Streaming Anomaly Detection Finds (and Misses) in Industrial Time Series\nAbstract: arXiv:2609.39232v1 Announce Type: cross  Abstract: EDF relies on continuous monitoring of its power plants to detect anomalies as soon as they occur. Given the absence of a universally optimal streaming method in unsupervised settings, we compare streaming methods with state-of-the-art TSAD models deployed online on a real nuclear power plant dataset. This work also evaluates Automated Anomaly Detection in a streaming context. Results show higher consistency for online TSAD and strong robustness from ensembling strategies.",
+    "path": "papers/26/09/2609.39232.json",
+    "total_tokens": 817,
+    "translated_title": "流式异常检测在工业时间序列中发现了什么（以及漏掉了什么）",
+    "translated_abstract": "法国电力集团（EDF）依靠对其发电厂的持续监控，以便在异常发生的第一时间将其检测出来。鉴于在无监督环境下不存在普遍最优的流式方法，我们将流式方法与部署在真实核电站数据集上在线运行的最先进时间序列异常检测（TSAD）模型进行了比较。这项工作还评估了流式环境下的自动化异常检测。结果表明，在线TSAD具有更高的一致性，而集成策略则表现出很强的鲁棒性。",
+    "tldr": "该研究在真实核电站数据集上将流式异常检测方法与最先进的在线TSAD模型进行对比，发现在线TSAD具有更高的一致性，且集成策略展现出很强的鲁棒性。",
+    "en_tdlr": "This study compares streaming anomaly detection methods with state-of-the-art online TSAD models on a real nuclear power plant dataset, finding that online TSAD achieves higher consistency while ensembling strategies demonstrate strong robustness."
+}

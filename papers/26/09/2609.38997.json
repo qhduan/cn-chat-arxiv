@@ -1,0 +1,12 @@
+{
+    "title": "Settle: Learning When to Stop Reasoning",
+    "abstract": "arXiv:2609.38997v1 Announce Type: new  Abstract: Reasoning models often continue generating after their answers have settled. Settle learns when to stop from answer stability in completed traces. It trains the existing end-of-reasoning token while keeping other predictions close to the base model, and requires only ordinary decoding at inference. On MATH-500 with Qwen3-4B, Settle reduces token count by 40% with a 0.5-percentage-point decrease in accuracy. It gains 6.16 percentage points over supervised fine-tuning on the same traces shortened at their first stable answer, at nearly identical token counts. Its stopping score predicts whether a correct answer will remain correct. Settle extends the accuracy-token-count Pareto frontier of the evaluated stopping methods.",
+    "link": "https://arxiv.org/abs/2609.38997",
+    "context": "Title: Settle: Learning When to Stop Reasoning\nAbstract: arXiv:2609.38997v1 Announce Type: new  Abstract: Reasoning models often continue generating after their answers have settled. Settle learns when to stop from answer stability in completed traces. It trains the existing end-of-reasoning token while keeping other predictions close to the base model, and requires only ordinary decoding at inference. On MATH-500 with Qwen3-4B, Settle reduces token count by 40% with a 0.5-percentage-point decrease in accuracy. It gains 6.16 percentage points over supervised fine-tuning on the same traces shortened at their first stable answer, at nearly identical token counts. Its stopping score predicts whether a correct answer will remain correct. Settle extends the accuracy-token-count Pareto frontier of the evaluated stopping methods.",
+    "path": "papers/26/09/2609.38997.json",
+    "total_tokens": 1024,
+    "translated_title": "Settle：学习何时停止推理",
+    "translated_abstract": "推理模型在答案已经稳定后往往还会继续生成内容。Settle从已完成推理轨迹中的答案稳定性来学习何时停止。它通过训练现有的推理结束标记来实现这一目标，同时保持其他预测接近基础模型，并且在推理时只需要普通的解码过程。在使用Qwen3-4B的MATH-500基准上，Settle将token数量减少了40%，而准确率仅下降0.5个百分点。与在首次出现稳定答案处截短相同轨迹的监督微调相比，它在几乎相同的token数量下获得了6.16个百分点的提升。其停止分数能够预测一个正确答案是否会保持正确。Settle扩展了所评估的各停止方法的准确率-token数量帕累托前沿。",
+    "tldr": "Settle通过从已完成推理轨迹中学习答案稳定性来训练推理结束标记，在几乎不损失准确率的情况下将token消耗减少40%，扩展了准确率与效率的帕累托前沿。",
+    "en_tdlr": "Settle learns when to stop reasoning by training the end-of-reasoning token based on answer stability in completed traces, reducing token count by 40% with only 0.5-point accuracy loss on MATH-500, thereby extending the accuracy-token-count Pareto frontier."
+}

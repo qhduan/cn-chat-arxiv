@@ -1,0 +1,12 @@
+{
+    "title": "Private From Whom? A Privacy Frontier for Auctions",
+    "abstract": "arXiv:2511.10349v4 Announce Type: replace  Abstract: In many auctions, bidders may value keeping their information private from the auctioneer and other bidders. Among deterministic bilateral communication protocols, revealing less information to bidders requires revealing more information to the auctioneer, and vice versa. A protocol implementing a choice rule is on the Privacy Frontier if no alternative protocol reveals less to both bidders and the auctioneer. The sealed-bid first-price auction, the descending auction and the ascending auction are on the Privacy Frontier, but the sealed-bid second-price auction is not. We provide sufficient conditions for protocols to be on the Privacy Frontier and devise alternative frontier protocols.",
+    "link": "https://arxiv.org/abs/2511.10349",
+    "context": "Title: Private From Whom? A Privacy Frontier for Auctions\nAbstract: arXiv:2511.10349v4 Announce Type: replace  Abstract: In many auctions, bidders may value keeping their information private from the auctioneer and other bidders. Among deterministic bilateral communication protocols, revealing less information to bidders requires revealing more information to the auctioneer, and vice versa. A protocol implementing a choice rule is on the Privacy Frontier if no alternative protocol reveals less to both bidders and the auctioneer. The sealed-bid first-price auction, the descending auction and the ascending auction are on the Privacy Frontier, but the sealed-bid second-price auction is not. We provide sufficient conditions for protocols to be on the Privacy Frontier and devise alternative frontier protocols.",
+    "path": "papers/25/11/2511.10349.json",
+    "total_tokens": 992,
+    "translated_title": "对谁保密？拍卖中的隐私前沿",
+    "translated_abstract": "在许多拍卖中，竞拍者可能希望对拍卖师和其他竞拍者保守自己的信息。在确定性双边通信协议中，向竞拍者透露更少的信息就需要向拍卖师透露更多的信息，反之亦然。如果一个实现某一选择规则的协议，不存在任何能同时向竞拍者和拍卖师透露更少信息的替代协议，则该协议处于隐私前沿上。密封式第一价格拍卖、降价拍卖和增价拍卖都处于隐私前沿上，而密封式第二价格拍卖则不在其上。我们给出了协议处于隐私前沿上的充分条件，并设计出了替代性的前沿协议。",
+    "tldr": "该论文提出了拍卖中的“隐私前沿”概念，刻画了向竞拍者与拍卖师泄露信息之间此消彼长的权衡关系，证明第一价格密封拍卖、降价拍卖和增价拍卖位于隐私前沿上，而第二价格密封拍卖则不在其上。",
+    "en_tdlr": "This paper introduces the concept of a \"Privacy Frontier\" for auctions, characterizing the trade-off between information revealed to bidders versus the auctioneer, and shows that the first-price sealed-bid, descending, and ascending auctions lie on this frontier while the second-price sealed-bid auction does not."
+}

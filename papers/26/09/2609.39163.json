@@ -1,0 +1,11 @@
+{
+    "title": "Pair rationality and top trading cycles on single-peaked and single-dipped domains",
+    "abstract": "arXiv:2609.39163v1 Announce Type: new  Abstract: In a recent study, Ekici and Yenmez (2026) characterize top trading cycles (TTC) on the unrestricted domain by strategy-proofness, individual rationality, and pair rationality, uncovering a correspondence between the axiomatic foundations of TTC and deferred acceptance, matching theory's two canonical rules. We show that their characterization fails on the single-peaked domain, but it holds on the single-dipped domain even without strategy-proofness. They also show that pair rationality can be replaced in their characterization by two weaker conditions concerning agents' first and second choices. In contrast, this replacement fails on the single-dipped domain, even when strategy-proofness is imposed.",
+    "link": "https://arxiv.org/abs/2609.39163",
+    "context": "Title: Pair rationality and top trading cycles on single-peaked and single-dipped domains\nAbstract: arXiv:2609.39163v1 Announce Type: new  Abstract: In a recent study, Ekici and Yenmez (2026) characterize top trading cycles (TTC) on the unrestricted domain by strategy-proofness, individual rationality, and pair rationality, uncovering a correspondence between the axiomatic foundations of TTC and deferred acceptance, matching theory's two canonical rules. We show that their characterization fails on the single-peaked domain, but it holds on the single-dipped domain even without strategy-proofness. They also show that pair rationality can be replaced in their characterization by two weaker conditions concerning agents' first and second choices. In contrast, this replacement fails on the single-dipped domain, even when strategy-proofness is imposed.",
+    "path": "papers/26/09/2609.39163.json",
+    "total_tokens": 1145,
+    "translated_title": "单峰域与单谷域上的配对理性和最优交易循环",
+    "translated_abstract": "在最近的一项研究中，Ekici和Yenmez（2026）通过策略防伪性、个人理性和配对理性刻画了无限制域上的最优交易循环（TTC），揭示了匹配理论两大经典规则——TTC与延迟接受机制——在公理化基础上的对应关系。我们证明，他们的刻画在单峰域上不成立，但在单谷域上即使不需要策略防伪性也成立。他们还证明了在其刻画中，配对理性可以被两个关于参与者第一选择和第二选择的更弱条件所替代。相比之下，这种替代在单谷域上并不成立，即使施加了策略防伪性也是如此。",
+    "tldr": "本研究证明Ekici和Yenmez对最优交易循环的公理化刻画在单峰域上失效但在单谷域上成立（且无需策略防伪性），而配对理性的弱化替代条件即使在单谷域上施加策略防伪性时也会失效。"
+}
