@@ -1,0 +1,11 @@
+{
+    "title": "FlashDiffusion: Fused Tiled Kernel Spectral Decomposition",
+    "abstract": "arXiv:2609.38198v1 Announce Type: new  Abstract: Diffusion maps, and kernel methods more generally, provide an interpretable nonlinear spectral representation basis for geometric learning. In the geometric limit, small bandwidth, these matrices tend to be high rank and thus require materializing dense Gaussian kernels requires $O(N^2)$ memory. We introduce FlashDiffusion, a matrix-free method that evaluates dense Gaussian kernel blocks in fused GPU tiles and couples the eigensolver to an empirical $\\beta$-flow that selects the finite-sample resolution scale. A continuation over sample size and bandwidth warm-starts increasingly expensive spectral solves from coarser resolutions.",
+    "link": "https://arxiv.org/abs/2609.38198",
+    "context": "Title: FlashDiffusion: Fused Tiled Kernel Spectral Decomposition\nAbstract: arXiv:2609.38198v1 Announce Type: new  Abstract: Diffusion maps, and kernel methods more generally, provide an interpretable nonlinear spectral representation basis for geometric learning. In the geometric limit, small bandwidth, these matrices tend to be high rank and thus require materializing dense Gaussian kernels requires $O(N^2)$ memory. We introduce FlashDiffusion, a matrix-free method that evaluates dense Gaussian kernel blocks in fused GPU tiles and couples the eigensolver to an empirical $\\beta$-flow that selects the finite-sample resolution scale. A continuation over sample size and bandwidth warm-starts increasingly expensive spectral solves from coarser resolutions.",
+    "path": "papers/26/09/2609.38198.json",
+    "total_tokens": 999,
+    "translated_title": "FlashDiffusion：融合分块核谱分解",
+    "translated_abstract": "扩散映射以及更广泛的核方法，为几何学习提供了可解释的非线性谱表示基。在几何极限（即小带宽）情况下，这些矩阵往往趋于高秩，因此物化稠密高斯核矩阵需要 $O(N^2)$ 的内存。我们提出 FlashDiffusion，这是一种无矩阵方法，它在融合的 GPU 分块中评估稠密高斯核块，并将特征值求解器与一个经验性 β-流相结合，该 β-流用于选择有限样本下的分辨率尺度。通过对样本规模和带宽进行延拓，可以从较粗分辨率热启动越来越昂贵的谱求解过程。",
+    "tldr": "FlashDiffusion 提出一种无矩阵方法，在融合 GPU 分块上计算稠密高斯核并将特征值求解器与经验 β-流耦合来选择分辨率尺度，从而免去 O(N²) 内存开销，并借助样本规模与带宽的延拓从粗到细热启动大规模谱分解求解。"
+}

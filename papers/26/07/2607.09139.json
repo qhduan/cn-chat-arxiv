@@ -1,0 +1,12 @@
+{
+    "title": "Control Laguerre Tessellation: Semi-discrete Optimal Transport Over Control Systems",
+    "abstract": "arXiv:2607.09139v2 Announce Type: replace-cross  Abstract: We study the optimal transport of optimally controlled agents from a compactly supported absolutely continuous source to a discrete target measure. The ground cost for the transport is induced by the optimal cost of the agents' motion. When this ground cost satisfies the twist condition, the optimal transport map is given almost everywhere in terms of a Laguerre tessellation of the state space. We refer to this control-theoretic generalization of Laguerre tessellation as Control Laguerre Tessellation (CLT), and illustrate it for two ground costs induced by linear controlled agents with minimum energy and minimum time objectives.",
+    "link": "https://arxiv.org/abs/2607.09139",
+    "context": "Title: Control Laguerre Tessellation: Semi-discrete Optimal Transport Over Control Systems\nAbstract: arXiv:2607.09139v2 Announce Type: replace-cross  Abstract: We study the optimal transport of optimally controlled agents from a compactly supported absolutely continuous source to a discrete target measure. The ground cost for the transport is induced by the optimal cost of the agents' motion. When this ground cost satisfies the twist condition, the optimal transport map is given almost everywhere in terms of a Laguerre tessellation of the state space. We refer to this control-theoretic generalization of Laguerre tessellation as Control Laguerre Tessellation (CLT), and illustrate it for two ground costs induced by linear controlled agents with minimum energy and minimum time objectives.",
+    "path": "papers/26/07/2607.09139.json",
+    "total_tokens": 995,
+    "translated_title": "控制拉盖尔镶嵌：控制系统的半离散最优传输",
+    "translated_abstract": "我们研究了最优受控智能体从紧支撑的绝对连续源测度到离散目标测度的最优传输问题。传输的基准代价由智能体运动的最优代价诱导。当该基准代价满足扭转条件时，最优传输映射在几乎处处意义下可由状态空间的一个拉盖尔镶嵌给出。我们将拉盖尔镶嵌的这一控制论推广称为控制拉盖尔镶嵌，并针对由具有最小能量和最小时间目标的线性受控智能体所诱导的两种基准代价进行了示例说明。",
+    "tldr": "本文提出“控制拉盖尔镶嵌”（CLT）这一新概念，将拉盖尔镶嵌推广到最优控制系统中，证明了当由控制代价诱导的传输代价满足扭转条件时，最优传输映射几乎处处可由状态空间的控制拉盖尔镶嵌刻画。",
+    "en_tdlr": "This paper introduces Control Laguerre Tessellation (CLT), a control-theoretic generalization of Laguerre tessellation, proving that when the transport cost induced by optimal control satisfies the twist condition, the optimal transport map is given almost everywhere by a CLT of the state space."
+}
