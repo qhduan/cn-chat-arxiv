@@ -1,0 +1,12 @@
+{
+    "title": "Heteroskedastic Canonical Polyadic Tensor Decomposition",
+    "abstract": "arXiv:2610.00498v1 Announce Type: cross  Abstract: When minimizing the squared-error loss, the popular CP decomposition can be interpreted as parameter inference in a Gaussian model with a low-rank mean tensor and constant variance across the tensor entries. We introduce heteroskedastic-CP (HCP), which models entrywise variability with a non-constant, low-rank precision tensor, and develop an alternating block-coordinate ascent method to recover both the low-rank mean and precision tensors from noisy observations. Our procedure is computationally competitive, with the same leading-order factor-update complexity as CP-ALS. We demonstrate HCP on synthetic experiments and an EEG application.",
+    "link": "https://arxiv.org/abs/2610.00498",
+    "context": "Title: Heteroskedastic Canonical Polyadic Tensor Decomposition\nAbstract: arXiv:2610.00498v1 Announce Type: cross  Abstract: When minimizing the squared-error loss, the popular CP decomposition can be interpreted as parameter inference in a Gaussian model with a low-rank mean tensor and constant variance across the tensor entries. We introduce heteroskedastic-CP (HCP), which models entrywise variability with a non-constant, low-rank precision tensor, and develop an alternating block-coordinate ascent method to recover both the low-rank mean and precision tensors from noisy observations. Our procedure is computationally competitive, with the same leading-order factor-update complexity as CP-ALS. We demonstrate HCP on synthetic experiments and an EEG application.",
+    "path": "papers/26/10/2610.00498.json",
+    "total_tokens": 1114,
+    "translated_title": "异方差规范多面张量分解",
+    "translated_abstract": "当最小化平方误差损失时，流行的CP分解可以被解释为高斯模型中的参数推断，该模型具有低秩均值张量，且张量各条目的方差恒定。我们提出了异方差CP（HCP），它用一个非常数、低秩的精度张量来建模逐条目的变异性，并开发了一种交替分块坐标上升方法，从含噪观测中同时恢复低秩均值张量和精度张量。我们的方法在计算上具有竞争力，其因子更新的首阶复杂度与CP-ALS相同。我们在合成实验和一个脑电图（EEG）应用中展示了HCP的效果。",
+    "tldr": "本文提出异方差CP分解（HCP），通过引入低秩精度张量来建模张量条目的异方差性，并采用交替分块坐标上升方法从含噪观测中同时估计低秩均值与精度张量，其计算复杂度与CP-ALS相当。",
+    "en_tdlr": "This paper introduces heteroskedastic-CP (HCP), which models entrywise variability via a low-rank precision tensor and jointly recovers the low-rank mean and precision tensors from noisy observations using an alternating block-coordinate ascent method with the same leading-order update complexity as CP-ALS."
+}

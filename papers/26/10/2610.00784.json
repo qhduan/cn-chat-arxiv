@@ -1,0 +1,11 @@
+{
+    "title": "Model Complexity and Restrictiveness",
+    "abstract": "arXiv:2610.00784v1 Announce Type: new  Abstract: We study the measure of restrictiveness proposed in Fudenberg, Gao, and Liang (2026) to evaluate complexity of economic models using synthetic data. We show that Rademacher complexity is an affine transformation of a particular case of a consistent finite-sample estimate of restrictiveness. Our results show that restrictiveness inherits a cardinal interpretation as a bound on generalization error while avoiding the inability of limiting Rademacher complexity to distinguish between some falsifiable models.",
+    "link": "https://arxiv.org/abs/2610.00784",
+    "context": "Title: Model Complexity and Restrictiveness\nAbstract: arXiv:2610.00784v1 Announce Type: new  Abstract: We study the measure of restrictiveness proposed in Fudenberg, Gao, and Liang (2026) to evaluate complexity of economic models using synthetic data. We show that Rademacher complexity is an affine transformation of a particular case of a consistent finite-sample estimate of restrictiveness. Our results show that restrictiveness inherits a cardinal interpretation as a bound on generalization error while avoiding the inability of limiting Rademacher complexity to distinguish between some falsifiable models.",
+    "path": "papers/26/10/2610.00784.json",
+    "total_tokens": 914,
+    "translated_title": "模型复杂性与限制性",
+    "translated_abstract": "我们研究了Fudenberg、Gao和Liang（2026）提出的限制性度量，该度量利用合成数据来评估经济模型的复杂性。我们证明，Rademacher复杂度是限制性的一致有限样本估计的一个特定情形的仿射变换。我们的结果表明，限制性继承了作为泛化误差上界的基数解释，同时避免了极限Rademacher复杂度无法区分某些可证伪模型的缺陷。",
+    "tldr": "本文证明了经济模型的限制性度量与Rademacher复杂度之间的数学联系——Rademacher复杂度是限制性的一致有限样本估计在特定情形下的仿射变换，从而使限制性度量既可作为泛化误差的上界获得基数解释，又能区分极限Rademacher复杂度无法区分的某些可证伪模型。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "AiSearch: Interactive Multi-Modal Search with VLMs",
+    "abstract": "arXiv:2610.01389v1 Announce Type: new  Abstract: Modern retrieval systems must both be automated and interactive, allowing users to search and refine results in real time. We present AiSearch, a flexible multimodal retrieval framework that leverages the zero shot capabilities of Vision Language Models (VLMs) for natural language search over images and videos. AiSearch supports interactive search refinement through user feedback to tailor results to the user's intent, and allows visual benchmarking across multiple VLMs, enabling users to select the most suitable model for their task.",
+    "link": "https://arxiv.org/abs/2610.01389",
+    "context": "Title: AiSearch: Interactive Multi-Modal Search with VLMs\nAbstract: arXiv:2610.01389v1 Announce Type: new  Abstract: Modern retrieval systems must both be automated and interactive, allowing users to search and refine results in real time. We present AiSearch, a flexible multimodal retrieval framework that leverages the zero shot capabilities of Vision Language Models (VLMs) for natural language search over images and videos. AiSearch supports interactive search refinement through user feedback to tailor results to the user's intent, and allows visual benchmarking across multiple VLMs, enabling users to select the most suitable model for their task.",
+    "path": "papers/26/10/2610.01389.json",
+    "total_tokens": 885,
+    "translated_title": "AiSearch：基于视觉语言模型的交互式多模态搜索",
+    "translated_abstract": "现代检索系统必须同时具备自动化和交互性，允许用户实时搜索并优化结果。我们提出了AiSearch，一个灵活的多模态检索框架，它利用视觉语言模型（VLM）的零样本能力，实现对图像和视频的自然语言搜索。AiSearch支持通过用户反馈进行交互式搜索优化，使结果更符合用户意图，并允许跨多个视觉语言模型进行可视化基准测试，帮助用户选择最适合其任务的模型。",
+    "tldr": "AiSearch是一个利用视觉语言模型零样本能力的交互式多模态检索框架，支持通过用户反馈实时优化图像和视频的自然语言搜索结果，并可跨多个VLM模型进行可视化基准测试以选择最合适的模型。",
+    "en_tdlr": "AiSearch is an interactive multimodal retrieval framework that leverages the zero-shot capabilities of Vision Language Models for natural language search over images and videos, supporting user-feedback-based result refinement and visual benchmarking across multiple VLMs."
+}

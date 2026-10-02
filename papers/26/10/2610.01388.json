@@ -1,0 +1,11 @@
+{
+    "title": "Supervising Sound Localization by In-the-wild Egomotion",
+    "abstract": "arXiv:2610.01388v1 Announce Type: cross  Abstract: We present a method for learning binaural sound localization using egomotion as a supervisory signal. Over the course of a video, the cameras direction to a sound source will change as the camera moves. We train an audio model to predict sound directions that are consistent with visual estimates of camera motion, which we obtain using traditional methods from multi-view geometry. This provides a weak but plentiful form of supervision that we combine with traditional binaural cues. To evaluate this method, we propose a dataset of real-world audio-visual videos with egomotion. We show that our model can successfully learn from real-world data and that it performs well on sound localization tasks",
+    "link": "https://arxiv.org/abs/2610.01388",
+    "context": "Title: Supervising Sound Localization by In-the-wild Egomotion\nAbstract: arXiv:2610.01388v1 Announce Type: cross  Abstract: We present a method for learning binaural sound localization using egomotion as a supervisory signal. Over the course of a video, the cameras direction to a sound source will change as the camera moves. We train an audio model to predict sound directions that are consistent with visual estimates of camera motion, which we obtain using traditional methods from multi-view geometry. This provides a weak but plentiful form of supervision that we combine with traditional binaural cues. To evaluate this method, we propose a dataset of real-world audio-visual videos with egomotion. We show that our model can successfully learn from real-world data and that it performs well on sound localization tasks",
+    "path": "papers/26/10/2610.01388.json",
+    "total_tokens": 959,
+    "translated_title": "利用野外自我运动监督声音定位",
+    "translated_abstract": "我们提出了一种以自我运动作为监督信号来学习双耳声音定位的方法。在视频播放过程中，随着摄像机的移动，摄像机指向声源的方向会发生变化。我们训练一个音频模型来预测与摄像机运动的视觉估计相一致的声音方向，这些视觉估计是利用多视图几何的传统方法获得的。这提供了一种微弱但丰富的监督形式，我们将其与传统双耳线索相结合。为了评估该方法，我们构建了一个包含自我运动的真实世界视听视频数据集。实验表明，我们的模型能够从真实世界数据中成功学习，并在声音定位任务上表现良好。",
+    "tldr": "该方法利用视频中的摄像机自我运动所引起的声源方向变化作为弱监督信号，结合传统双耳线索训练音频模型实现声音定位，并通过新提出的真实世界视听数据集验证了其有效性。"
+}

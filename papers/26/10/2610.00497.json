@@ -1,0 +1,11 @@
+{
+    "title": "Gumbel Straight Flow: Distilling Autoregressive Models into One-step Flow Maps",
+    "abstract": "arXiv:2610.00497v1 Announce Type: cross  Abstract: We present Gumbel Straight Flow (GSF), a continuous flow map language model that leverages the noise-data coupling of a pretrained autoregressive language (AR) model. We theoretically demonstrate that the coupling between Gumbel noise and one-hot token sequences induced by an autoregressive model yields non-intersecting linear paths connecting the noise to the sequence representations. To further enhance high-quality few-step path sampling, we use a flow map semigroup objective where the tangent (velocity) condition is guided directly by the AR teacher. Across various benchmarks, including pretraining and downstream tasks, GSF can outperform current few-step language generation baselines.",
+    "link": "https://arxiv.org/abs/2610.00497",
+    "context": "Title: Gumbel Straight Flow: Distilling Autoregressive Models into One-step Flow Maps\nAbstract: arXiv:2610.00497v1 Announce Type: cross  Abstract: We present Gumbel Straight Flow (GSF), a continuous flow map language model that leverages the noise-data coupling of a pretrained autoregressive language (AR) model. We theoretically demonstrate that the coupling between Gumbel noise and one-hot token sequences induced by an autoregressive model yields non-intersecting linear paths connecting the noise to the sequence representations. To further enhance high-quality few-step path sampling, we use a flow map semigroup objective where the tangent (velocity) condition is guided directly by the AR teacher. Across various benchmarks, including pretraining and downstream tasks, GSF can outperform current few-step language generation baselines.",
+    "path": "papers/26/10/2610.00497.json",
+    "total_tokens": 1073,
+    "translated_title": "Gumbel Straight Flow：将自回归模型蒸馏为一步流映射",
+    "translated_abstract": "我们提出了Gumbel Straight Flow（GSF），这是一种连续流映射语言模型，它利用了预训练自回归语言（AR）模型的噪声-数据耦合特性。我们从理论上证明了由自回归模型诱导的Gumbel噪声与独热词元序列之间的耦合，会产生连接噪声与序列表示的互不相交的线性路径。为了进一步提升高质量少步路径采样，我们采用了流映射半群目标，其切向（速度）条件由AR教师模型直接引导。在包括预训练和下游任务在内的各种基准测试中，GSF的表现优于当前的少步语言生成基线方法。",
+    "tldr": "GSF利用预训练自回归模型中Gumbel噪声与词元序列的耦合特性，理论上证明其可形成互不相交的线性路径，并结合由AR教师引导的流映射半群目标，将自回归语言模型成功蒸馏为一步生成的流映射语言模型，在多项基准上超越现有少步语言生成基线。"
+}

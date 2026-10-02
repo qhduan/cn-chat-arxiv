@@ -1,0 +1,12 @@
+{
+    "title": "Outer Diversity of Condorcet Domains",
+    "abstract": "arXiv:2610.00720v1 Announce Type: cross  Abstract: A Condorcet domain is a set of rankings over a given candidate set, such that every election that consists only of (an odd number of) votes from the domain has a transitive majority relation. We study outer diversity of Condorcet domains, i.e., a measure that quantifies expected swap distance from a random vote to a closest one in the domain. We numerically analyze outer diversity for maximal Condorcet domains with few candidates, and then we establish its asymptotic behavior for several special domains, mostly obtaining theoretical results.",
+    "link": "https://arxiv.org/abs/2610.00720",
+    "context": "Title: Outer Diversity of Condorcet Domains\nAbstract: arXiv:2610.00720v1 Announce Type: cross  Abstract: A Condorcet domain is a set of rankings over a given candidate set, such that every election that consists only of (an odd number of) votes from the domain has a transitive majority relation. We study outer diversity of Condorcet domains, i.e., a measure that quantifies expected swap distance from a random vote to a closest one in the domain. We numerically analyze outer diversity for maximal Condorcet domains with few candidates, and then we establish its asymptotic behavior for several special domains, mostly obtaining theoretical results.",
+    "path": "papers/26/10/2610.00720.json",
+    "total_tokens": 920,
+    "translated_title": "孔多塞域的外部多样性",
+    "translated_abstract": "孔多塞域是指针对给定候选集合的一组排序（投票），使得任何仅由该域中（奇数个）投票构成的选举都具有传递性的多数关系。我们研究孔多塞域的外部多样性，即一种量化从随机投票到域中最近投票的期望交换距离的度量。我们对候选人数量较少的最大孔多塞域的外部多样性进行了数值分析，进而确立了几种特殊域的渐近行为，并主要获得了理论性结果。",
+    "tldr": "本文提出并研究了孔多塞域的“外部多样性”度量，即随机投票到域中最近投票的期望交换距离，通过数值分析少量候选人情形下的最大孔多塞域，并理论证明了若干特殊域的渐近行为。",
+    "en_tdlr": "This paper introduces and studies \"outer diversity\" of Condorcet domains—measuring the expected swap distance from a random vote to the nearest vote in the domain—via numerical analysis of maximal domains with few candidates and theoretical results on the asymptotic behavior of several special domains."
+}

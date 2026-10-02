@@ -1,0 +1,11 @@
+{
+    "title": "Social welfare and price discovery in double auction markets",
+    "abstract": "arXiv:2610.01562v1 Announce Type: new  Abstract: The tendency of the double auction mechanism to drive prices to competitive equilibrium has been well documented in laboratory experiments, but the phenomenon has lacked a theoretical explanation. This paper studies dynamic double auctions in a pure exchange economy where agents bid their indifference prices implied by their current holdings and preferences. We show that Walras equilibria coincide with the fixed points of the double auction and that repeated double auctions generate bounded sequences of allocations and prices whose cluster points are Walras equilibria with transfers.",
+    "link": "https://arxiv.org/abs/2610.01562",
+    "context": "Title: Social welfare and price discovery in double auction markets\nAbstract: arXiv:2610.01562v1 Announce Type: new  Abstract: The tendency of the double auction mechanism to drive prices to competitive equilibrium has been well documented in laboratory experiments, but the phenomenon has lacked a theoretical explanation. This paper studies dynamic double auctions in a pure exchange economy where agents bid their indifference prices implied by their current holdings and preferences. We show that Walras equilibria coincide with the fixed points of the double auction and that repeated double auctions generate bounded sequences of allocations and prices whose cluster points are Walras equilibria with transfers.",
+    "path": "papers/26/10/2610.01562.json",
+    "total_tokens": 845,
+    "translated_title": "双向拍卖市场中的社会福利与价格发现",
+    "translated_abstract": "双向拍卖机制将价格推向竞争性均衡的倾向已在实验室实验中得到充分记录，但这一现象一直缺乏理论上的解释。本文研究了纯交换经济中的动态双向拍卖，其中代理人根据其当前持有和偏好所隐含的无差异价格进行出价。我们证明瓦尔拉斯均衡恰好与双向拍卖的不动点重合，并且重复进行的双向拍卖会产生有界的配置与价格序列，其聚点即为带转移支付的瓦尔拉斯均衡。",
+    "tldr": "本文首次为双向拍卖的价格发现能力提供了理论解释，证明在纯交换经济中代理人按无差异价格出价时，瓦尔拉斯均衡恰为拍卖的不动点，且重复双向拍卖产生的有界配置与价格序列的聚点收敛于带转移支付的瓦尔拉斯均衡。"
+}
