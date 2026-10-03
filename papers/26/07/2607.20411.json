@@ -1,0 +1,12 @@
+{
+    "title": "Lipschitzian SLLNs for random functions",
+    "abstract": "arXiv:2607.20411v2 Announce Type: replace-cross  Abstract: We prove strong laws of large numbers for random functions in the Lipschitz pseudometric. Our results hold under either a topological or a model-theoretic condition, with the latter encompassing functions jointly definable in o-minimal structures but extending substantially beyond this class. Applications include uniform convergence of limiting and Clarke subdifferentials and finite-sample identification of solutions. Consequently, we identify broad classes of functions for which the failure phenomena revealed by our previous negative results [Tian and Royset, arXiv:2511.16568, 2025] do not occur.",
+    "link": "https://arxiv.org/abs/2607.20411",
+    "context": "Title: Lipschitzian SLLNs for random functions\nAbstract: arXiv:2607.20411v2 Announce Type: replace-cross  Abstract: We prove strong laws of large numbers for random functions in the Lipschitz pseudometric. Our results hold under either a topological or a model-theoretic condition, with the latter encompassing functions jointly definable in o-minimal structures but extending substantially beyond this class. Applications include uniform convergence of limiting and Clarke subdifferentials and finite-sample identification of solutions. Consequently, we identify broad classes of functions for which the failure phenomena revealed by our previous negative results [Tian and Royset, arXiv:2511.16568, 2025] do not occur.",
+    "path": "papers/26/07/2607.20411.json",
+    "total_tokens": 1244,
+    "translated_title": "随机函数的Lipschitz强大数定律",
+    "translated_abstract": "我们证明了随机函数在Lipschitz伪度量下的强大数定律。我们的结果在一个拓扑条件或一个模型论条件下均成立，其中后者涵盖了可在o-极小结构中联合定义的函数，但其实际适用范围大大超出了这一类函数。应用包括极限次微分与Clarke次微分的一致收敛性，以及解的有限样本辨识。由此，我们识别出了广泛的函数类，使得我们先前的负面结果[Tian and Royset, arXiv:2511.16568, 2025]所揭示的失效现象在这些函数类上不会发生。",
+    "tldr": "本文证明了随机函数在Lipschitz伪度量下的强大数定律，其条件涵盖o-极小结构可定义函数等广泛函数类，从而保证了次微分的一致收敛与解的有限样本辨识，并识别出先前负面结果所揭示的失效现象不会发生的函数类。",
+    "en_tdlr": "This paper proves strong laws of large numbers for random functions in the Lipschitz pseudometric under topological or model-theoretic conditions, enabling uniform convergence of limiting and Clarke subdifferentials and finite-sample identification of solutions, and identifying broad function classes where previously revealed failure phenomena do not occur."
+}

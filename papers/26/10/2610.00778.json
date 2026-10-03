@@ -1,0 +1,12 @@
+{
+    "title": "Learning Goal-Reaching Quasimetric Geometry From Finite-Time Reachability",
+    "abstract": "arXiv:2610.00778v1 Announce Type: new  Abstract: In goal-conditioned reinforcement learning (GCRL), quasimetric learning models goal-reaching costs as quasimetric distances, connecting local constraints to global value geometry. Its local constraints, however, should reflect the direction- dependent effects of control composition over a finite horizon together with environmental feasibility. We propose ReQRL, which constrains the critic's value gradients through finite-horizon reachability. Drawing on state-constrained optimal control, we decouple dynamical reachability from boundary geometry, estimating both from data. On OGBench, our method outperforms or rivals existing quasimetric approaches and other offline GCRL methods.",
+    "link": "https://arxiv.org/abs/2610.00778",
+    "context": "Title: Learning Goal-Reaching Quasimetric Geometry From Finite-Time Reachability\nAbstract: arXiv:2610.00778v1 Announce Type: new  Abstract: In goal-conditioned reinforcement learning (GCRL), quasimetric learning models goal-reaching costs as quasimetric distances, connecting local constraints to global value geometry. Its local constraints, however, should reflect the direction- dependent effects of control composition over a finite horizon together with environmental feasibility. We propose ReQRL, which constrains the critic's value gradients through finite-horizon reachability. Drawing on state-constrained optimal control, we decouple dynamical reachability from boundary geometry, estimating both from data. On OGBench, our method outperforms or rivals existing quasimetric approaches and other offline GCRL methods.",
+    "path": "papers/26/10/2610.00778.json",
+    "total_tokens": 997,
+    "translated_title": "从有限时间可达性学习目标达成的拟度量几何",
+    "translated_abstract": "在目标条件强化学习（GCRL）中，拟度量学习将目标达成的代价建模为拟度量距离，从而将局部约束与全局价值几何联系起来。然而，其局部约束应当反映控制组合在有限时间范围内的方向依赖效应，以及环境的可行性。我们提出了ReQRL，它通过有限时间可达性来约束评论家网络的价值梯度。借鉴状态约束最优控制的思想，我们将动态可达性与边界几何解耦，并从数据中同时估计两者。在OGBench基准上，我们的方法优于或比肩现有的拟度量方法以及其他离线GCRL方法。",
+    "tldr": "该论文提出ReQRL方法，通过有限时间可达性约束评论家网络的价值梯度，并将动态可达性与边界几何解耦，从而在目标条件强化学习中更好地学习目标达成的拟度量几何。",
+    "en_tdlr": "The paper proposes ReQRL, which constrains the critic's value gradients via finite-horizon reachability and decouples dynamical reachability from boundary geometry, enabling better learning of goal-reaching quasimetric geometry in goal-conditioned reinforcement learning."
+}

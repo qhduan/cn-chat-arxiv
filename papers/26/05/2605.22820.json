@@ -1,0 +1,12 @@
+{
+    "title": "Integrable Elasticity via Neural Demand Potentials",
+    "abstract": "arXiv:2605.22820v2 Announce Type: replace  Abstract: We propose the Integrable Context-Dependent Demand Network (ICDN), a demand-first neural model for multiproduct retail demand. ICDN learns log-demand as a smooth, context-conditioned function of log-prices, allowing elasticities to be derived exactly from the learned demand surface. Across three retail datasets, the model achieves competitive out-of-sample prediction while producing analytically tractable, and economically regularized own- and cross-price responses.",
+    "link": "https://arxiv.org/abs/2605.22820",
+    "context": "Title: Integrable Elasticity via Neural Demand Potentials\nAbstract: arXiv:2605.22820v2 Announce Type: replace  Abstract: We propose the Integrable Context-Dependent Demand Network (ICDN), a demand-first neural model for multiproduct retail demand. ICDN learns log-demand as a smooth, context-conditioned function of log-prices, allowing elasticities to be derived exactly from the learned demand surface. Across three retail datasets, the model achieves competitive out-of-sample prediction while producing analytically tractable, and economically regularized own- and cross-price responses.",
+    "path": "papers/26/05/2605.22820.json",
+    "total_tokens": 884,
+    "translated_title": "基于神经需求势的可积弹性",
+    "translated_abstract": "我们提出了可积上下文相关需求网络（ICDN），这是一种以需求为先的多产品零售需求神经模型。ICDN 将对数需求学习为对数价格的平滑、上下文条件化函数，从而能够从学习到的需求曲面中精确推导出弹性。在三个零售数据集上，该模型实现了具有竞争力的样本外预测，同时产生了可解析求解且在经济上正则化的自身价格响应与交叉价格响应。",
+    "tldr": "该论文提出 ICDN 需求优先神经网络，将零售对数需求建模为对数价格的平滑上下文条件函数，使自身价格与交叉价格弹性能够从学习到的需求曲面中精确推导，在保证弹性经济合理性的同时实现了具有竞争力的样本外预测。",
+    "en_tdlr": "The paper proposes ICDN, a demand-first neural network that models log-demand as a smooth context-conditioned function of log-prices, enabling exact derivation of economically regularized own- and cross-price elasticities while achieving competitive out-of-sample predictive performance on retail datasets."
+}
