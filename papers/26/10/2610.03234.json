@@ -1,0 +1,12 @@
+{
+    "title": "WAMpy: Efficient Synthesis of Prolog Programs in Python",
+    "abstract": "arXiv:2610.03234v1 Announce Type: cross  Abstract: We present WAMpy, a Python framework optimized for synthesizing Prolog programs. Unlike general-purpose Prolog systems, WAMpy targets workloads that repeatedly generate and evaluate small candidate programs. WAMpy compiles Prolog clauses into NumPy array-based WAM instructions and supports partial recompilation of hypotheses against fixed background knowledge. Performance-critical routines are accelerated using Numba just-in-time (JIT) compilation. In a benchmark of repeated compilation-and-evaluation workloads, WAMpy improves end-to-end performance compared with SWI-Prolog accessed from Python using Janus.",
+    "link": "https://arxiv.org/abs/2610.03234",
+    "context": "Title: WAMpy: Efficient Synthesis of Prolog Programs in Python\nAbstract: arXiv:2610.03234v1 Announce Type: cross  Abstract: We present WAMpy, a Python framework optimized for synthesizing Prolog programs. Unlike general-purpose Prolog systems, WAMpy targets workloads that repeatedly generate and evaluate small candidate programs. WAMpy compiles Prolog clauses into NumPy array-based WAM instructions and supports partial recompilation of hypotheses against fixed background knowledge. Performance-critical routines are accelerated using Numba just-in-time (JIT) compilation. In a benchmark of repeated compilation-and-evaluation workloads, WAMpy improves end-to-end performance compared with SWI-Prolog accessed from Python using Janus.",
+    "path": "papers/26/10/2610.03234.json",
+    "total_tokens": 967,
+    "translated_title": "WAMpy：用Python高效合成Prolog程序",
+    "translated_abstract": "我们提出了WAMpy，一个专为Prolog程序合成而优化的Python框架。与通用Prolog系统不同，WAMpy面向需要反复生成和评估小型候选程序的工作负载。WAMpy将Prolog子句编译为基于NumPy数组的WAM（Warren抽象机）指令，并支持在固定背景知识下对假设进行部分重编译。性能关键的例程使用Numba即时（JIT）编译进行加速。在重复编译与评估工作负载的基准测试中，与通过Janus从Python调用SWI-Prolog的方式相比，WAMpy显著提升了端到端性能。",
+    "tldr": "WAMpy是一个Python框架，通过将Prolog子句编译为基于NumPy数组的WAM指令并结合Numba JIT加速，大幅提升了在Python中反复合成与评估小型Prolog候选程序的工作负载的端到端性能。",
+    "en_tdlr": "WAMpy is a Python framework that compiles Prolog clauses into NumPy array-based WAM instructions with Numba JIT acceleration, significantly improving end-to-end performance for workloads that repeatedly generate and evaluate small candidate Prolog programs."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "When defaults cannot be hedged: xVA calculations via local risk-minimization",
+    "abstract": "arXiv:2502.12774v3 Announce Type: replace  Abstract: We consider the pricing and hedging of counterparty credit risk and funding when there is no possibility to hedge the jump to default of either the bank or the counterparty. This represents the situation which is most often encountered in practice, due to the absence of quoted corporate bonds or CDS contracts written on the counterparty and the difficulty for the bank to buy/sell protection on her own default. We apply local risk-minimization to find the optimal strategy and compute it via a BSDE.",
+    "link": "https://arxiv.org/abs/2502.12774",
+    "context": "Title: When defaults cannot be hedged: xVA calculations via local risk-minimization\nAbstract: arXiv:2502.12774v3 Announce Type: replace  Abstract: We consider the pricing and hedging of counterparty credit risk and funding when there is no possibility to hedge the jump to default of either the bank or the counterparty. This represents the situation which is most often encountered in practice, due to the absence of quoted corporate bonds or CDS contracts written on the counterparty and the difficulty for the bank to buy/sell protection on her own default. We apply local risk-minimization to find the optimal strategy and compute it via a BSDE.",
+    "path": "papers/25/02/2502.12774.json",
+    "total_tokens": 860,
+    "translated_title": "当违约无法对冲时：通过局部风险最小化计算xVA",
+    "translated_abstract": "我们研究了在无法对冲银行自身或交易对手的违约跳跃的情况下，交易对手信用风险与融资成本的定价与对冲问题。这种情况在实践中最为常见，因为市场上往往缺乏以交易对手为标的的公开报价公司债券或CDS合约，同时银行也难以对自身违约进行买卖保护。我们应用局部风险最小化方法来寻找最优策略，并通过倒向随机微分方程（BSDE）对其进行计算。",
+    "tldr": "该论文针对银行与交易对手违约均无法对冲的现实情形，提出利用局部风险最小化方法并通过BSDE求解，实现交易对手信用风险与融资成本（xVA）的定价与对冲。",
+    "en_tdlr": "This paper prices and hedges counterparty credit risk and funding costs in the realistic setting where defaults of both bank and counterparty cannot be hedged, applying local risk-minimization and computing the optimal strategy via a BSDE."
+}

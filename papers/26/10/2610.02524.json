@@ -1,0 +1,12 @@
+{
+    "title": "BaCP: Backbone Contrastive Pruning for Preserving Representations in Extremely Sparse Neural Networks",
+    "abstract": "arXiv:2610.02524v1 Announce Type: new  Abstract: Unstructured pruning at extreme sparsity often suffers from representational collapse, causing sharp drops in accuracy. To address this, we study Backbone Contrastive Pruning (BaCP), which regularizes the sparse network's embedding space by aligning it with pretrained, fine-tuned, and historical snapshot models. Building on the contrastive decomposition of the CAP framework (Xu et al., 2022), we provide a rigorous matched-budget characterization of this approach across multiple pruning criteria. Evaluated across 90 settings, BaCP improves accuracy substantially in extreme sparsity regimes where standard pruning fails, and is close to baseline where representations remain intact.",
+    "link": "https://arxiv.org/abs/2610.02524",
+    "context": "Title: BaCP: Backbone Contrastive Pruning for Preserving Representations in Extremely Sparse Neural Networks\nAbstract: arXiv:2610.02524v1 Announce Type: new  Abstract: Unstructured pruning at extreme sparsity often suffers from representational collapse, causing sharp drops in accuracy. To address this, we study Backbone Contrastive Pruning (BaCP), which regularizes the sparse network's embedding space by aligning it with pretrained, fine-tuned, and historical snapshot models. Building on the contrastive decomposition of the CAP framework (Xu et al., 2022), we provide a rigorous matched-budget characterization of this approach across multiple pruning criteria. Evaluated across 90 settings, BaCP improves accuracy substantially in extreme sparsity regimes where standard pruning fails, and is close to baseline where representations remain intact.",
+    "path": "papers/26/10/2610.02524.json",
+    "total_tokens": 1021,
+    "translated_title": "BaCP：面向极稀疏神经网络表征保持的主干对比剪枝",
+    "translated_abstract": "极稀疏度下的非结构化剪枝常常遭受表征坍塌问题，导致准确率急剧下降。为了解决这一问题，我们研究了主干对比剪枝（BaCP），该方法通过将稀疏网络的嵌入空间与预训练模型、微调模型以及历史快照模型对齐来进行正则化。基于CAP框架（Xu等，2022）的对比分解，我们在多种剪枝准则下对该方法提供了严格的等预算刻画。在90种设置下的评估表明，BaCP在标准剪枝失效的极稀疏区间显著提升准确率，而在表征保持完好时则接近基线水平。",
+    "tldr": "提出主干对比剪枝（BaCP），通过将稀疏网络的嵌入空间与预训练、微调及历史快照模型对齐来正则化，解决极稀疏剪枝中的表征坍塌问题，在90种设置下显著提升极稀疏时的准确率。",
+    "en_tdlr": "BaCP regularizes the embedding space of sparse networks by aligning it with pretrained, fine-tuned, and historical snapshot models, mitigating representational collapse and substantially improving accuracy at extreme sparsity across 90 evaluation settings."
+}

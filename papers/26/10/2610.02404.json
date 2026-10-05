@@ -1,0 +1,12 @@
+{
+    "title": "Trained Agentic Context Management",
+    "abstract": "arXiv:2610.02404v1 Announce Type: cross  Abstract: We study long context language models. Instead of training long context natively, or designing a long context harness, we train a model over the simplest possible harness: a tool to call itself with any specified prompt and a tool to read tokens in a range from the input context. We finetune Qwen3.6-35B-A3B on a diverse synthetic dataset using this harness. With only 8,000 tokens of context, our small model is as strong as GPT-5.4 with 1M tokens of context on the OOLONG-synth benchmark when document length exceeds 40K tokens.",
+    "link": "https://arxiv.org/abs/2610.02404",
+    "context": "Title: Trained Agentic Context Management\nAbstract: arXiv:2610.02404v1 Announce Type: cross  Abstract: We study long context language models. Instead of training long context natively, or designing a long context harness, we train a model over the simplest possible harness: a tool to call itself with any specified prompt and a tool to read tokens in a range from the input context. We finetune Qwen3.6-35B-A3B on a diverse synthetic dataset using this harness. With only 8,000 tokens of context, our small model is as strong as GPT-5.4 with 1M tokens of context on the OOLONG-synth benchmark when document length exceeds 40K tokens.",
+    "path": "papers/26/10/2610.02404.json",
+    "total_tokens": 1001,
+    "translated_title": "可训练的智能体式上下文管理",
+    "translated_abstract": "我们研究长上下文语言模型。不同于原生训练长上下文能力或设计复杂的长上下文框架，我们在最简单的智能体框架上训练模型：该框架仅包含两个工具——一个可以用任意指定提示词调用自身的工具，以及一个可以读取输入上下文中指定范围内词元的工具。我们利用这一框架在多样化的合成数据集上对Qwen3.6-35B-A3B进行了微调。在仅有8,000词元上下文的条件下，当文档长度超过40K词元时，我们的小模型在OOLONG-synth基准测试上的表现与拥有1M词元上下文的GPT-5.4相当。",
+    "tldr": "通过在最简化的智能体框架（自我调用工具与上下文读取工具）上微调小模型，模型仅用8K词元上下文即可在长文档基准上媲美拥有1M词元上下文的GPT-5.4。",
+    "en_tdlr": "By fine-tuning a small model on the simplest agentic harness—tools for self-invocation and context reading—a model with only 8K tokens of context matches GPT-5.4 with 1M tokens of context on long-document benchmarks."
+}

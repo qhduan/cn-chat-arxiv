@@ -1,0 +1,12 @@
+{
+    "title": "Bellman Error Minimization Via Linear Programming Normalization",
+    "abstract": "arXiv:2610.02730v1 Announce Type: new  Abstract: This paper proposes a new functional approximation approach to reduce Bellman error in high-dimensional dynamic programming and Reinforcement Learning problems. Using a classic dynamic programming problem (network capacity control in revenue management) as the motivational example, the paper illustrates that deep neural networks and linear programming approximation algorithms can be combined to derive approximate solutions to dynamic programming problems. Simulation results show the proposed approximation algorithms achieves competitive performance when compared with benchmark.",
+    "link": "https://arxiv.org/abs/2610.02730",
+    "context": "Title: Bellman Error Minimization Via Linear Programming Normalization\nAbstract: arXiv:2610.02730v1 Announce Type: new  Abstract: This paper proposes a new functional approximation approach to reduce Bellman error in high-dimensional dynamic programming and Reinforcement Learning problems. Using a classic dynamic programming problem (network capacity control in revenue management) as the motivational example, the paper illustrates that deep neural networks and linear programming approximation algorithms can be combined to derive approximate solutions to dynamic programming problems. Simulation results show the proposed approximation algorithms achieves competitive performance when compared with benchmark.",
+    "path": "papers/26/10/2610.02730.json",
+    "total_tokens": 715,
+    "translated_title": "通过线性规划归一化最小化贝尔曼误差",
+    "translated_abstract": "本文提出了一种新的函数逼近方法，用于降低高维动态规划和强化学习问题中的贝尔曼误差。论文以一个经典的动态规划问题（收益管理中的网络容量控制）作为动机示例，说明了可以将深度神经网络与线性规划近似算法相结合，从而推导出动态规划问题的近似解。仿真结果表明，所提出的近似算法与基准方法相比具有有竞争力的性能。",
+    "tldr": "本文提出一种结合深度神经网络与线性规划归一化的函数逼近方法，以降低高维动态规划和强化学习问题中的贝尔曼误差。",
+    "en_tdlr": "This paper proposes a function approximation approach that combines deep neural networks with linear programming normalization to minimize Bellman error in high-dimensional dynamic programming and reinforcement learning problems."
+}
