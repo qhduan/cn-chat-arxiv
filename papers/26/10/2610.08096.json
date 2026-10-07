@@ -1,0 +1,12 @@
+{
+    "title": "The lattice structure of the crawler",
+    "abstract": "arXiv:2610.08096v1 Announce Type: new  Abstract: We study object reallocation problems with single-peaked preferences. On the unrestricted domain of strict preferences, top trading cycles (TTC) is the unique rule that satisfies efficiency, individual rationality, and strategy-proofness. On the single-peaked preference domain, the crawler introduced by Bade (2019) satisfies the same properties. We show that the Nash equilibrium allocations of the crawler's direct revelation game form a complete lattice under weak Pareto dominance. The truthful allocation is the greatest element of this lattice, while the initial endowment allocation is its least element.",
+    "link": "https://arxiv.org/abs/2610.08096",
+    "context": "Title: The lattice structure of the crawler\nAbstract: arXiv:2610.08096v1 Announce Type: new  Abstract: We study object reallocation problems with single-peaked preferences. On the unrestricted domain of strict preferences, top trading cycles (TTC) is the unique rule that satisfies efficiency, individual rationality, and strategy-proofness. On the single-peaked preference domain, the crawler introduced by Bade (2019) satisfies the same properties. We show that the Nash equilibrium allocations of the crawler's direct revelation game form a complete lattice under weak Pareto dominance. The truthful allocation is the greatest element of this lattice, while the initial endowment allocation is its least element.",
+    "path": "papers/26/10/2610.08096.json",
+    "total_tokens": 991,
+    "translated_title": "爬行机制的格结构",
+    "translated_abstract": "我们研究具有单峰偏好的物品再分配问题。在无限制的严格偏好域上，最高交易循环机制（TTC）是唯一同时满足效率、个体理性和防策略性的规则。而在单峰偏好域上，由 Bade（2019）提出的爬行机制同样满足这些性质。我们证明，爬行机制直接显示博弈的纳什均衡配置在弱帕累托占优关系下构成一个完备格。真实报告的配置是该格的最大元，而初始禀赋配置则是其最小元。",
+    "tldr": "本文证明了爬行机制直接显示博弈的纳什均衡配置在弱帕累托占优关系下构成完备格，其中真实配置为最大元、初始禀赋配置为最小元。",
+    "en_tdlr": "This paper proves that the Nash equilibrium allocations of the crawler's direct revelation game form a complete lattice under weak Pareto dominance, with the truthful allocation as the greatest element and the initial endowment allocation as the least element."
+}

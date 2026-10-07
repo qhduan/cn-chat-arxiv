@@ -1,0 +1,11 @@
+{
+    "title": "SENSE: State-aware Emotion Navigation Storytelling Engine",
+    "abstract": "arXiv:2610.07666v1 Announce Type: cross  Abstract: This paper presents SENSE, a state-aware framework for generating playable branching visual novels with multi-track emotional navigation. Integrating a state-based narrative architecture called MIND, a structure analyzer, and a path-aware context management module, SENSE produces narratives that are both structurally coherent and emotionally rich. From minimal high-level inputs, it generates multiple intersecting routes while preserving character consistency and narrative causality. Evaluations using LLM judges, affective metrics, and visual assessments indicate SENSE outperforms baselines in narrative diversity and robust asset integration, while preliminary human trials show directional improvements in emotional fidelity alongside comparable enjoyment.",
+    "link": "https://arxiv.org/abs/2610.07666",
+    "context": "Title: SENSE: State-aware Emotion Navigation Storytelling Engine\nAbstract: arXiv:2610.07666v1 Announce Type: cross  Abstract: This paper presents SENSE, a state-aware framework for generating playable branching visual novels with multi-track emotional navigation. Integrating a state-based narrative architecture called MIND, a structure analyzer, and a path-aware context management module, SENSE produces narratives that are both structurally coherent and emotionally rich. From minimal high-level inputs, it generates multiple intersecting routes while preserving character consistency and narrative causality. Evaluations using LLM judges, affective metrics, and visual assessments indicate SENSE outperforms baselines in narrative diversity and robust asset integration, while preliminary human trials show directional improvements in emotional fidelity alongside comparable enjoyment.",
+    "path": "papers/26/10/2610.07666.json",
+    "total_tokens": 870,
+    "translated_title": "SENSE：状态感知情感导航故事引擎",
+    "translated_abstract": "本文提出了SENSE，一个用于生成具有多轨道情感导航的可玩分支视觉小说的状态感知框架。SENSE集成了名为MIND的状态化叙事架构、一个结构分析器和一个路径感知上下文管理模块，能够生成结构连贯且情感丰富的叙事内容。仅需极少量的高层输入，它便可在保持角色一致性和叙事因果性的同时生成多条相互交叉的故事路线。基于LLM评审、情感指标和视觉评估的评测表明，SENSE在叙事多样性和稳健的资产集成方面优于基线方法，同时初步的人类实验显示其在情感保真度上有方向性的提升，并保持了相当的娱乐性。",
+    "tldr": "SENSE是一个状态感知框架，通过集成MIND状态化叙事架构、结构分析器和路径感知上下文管理模块，能够从极少的高层输入生成结构连贯、情感丰富且支持多轨道情感导航的可玩分支视觉小说。"
+}

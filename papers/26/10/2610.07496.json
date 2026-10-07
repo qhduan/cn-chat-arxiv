@@ -1,0 +1,12 @@
+{
+    "title": "The interface of data assimilation and machine learning",
+    "abstract": "arXiv:2610.07496v1 Announce Type: cross  Abstract: Data assimilation (DA) is the process of combining forecasts from a model with observations in order to optimally estimate the state of a system. This is critical for chaotic systems, such as the atmosphere, since if observations are not continually assimilated the model will quickly lose skill. DA is routinely performed (usually every 6 hours) at operational forecasting centres around the world.   In this article we discuss the interface of machine learning (ML) and DA. This is still an emerging and quickly developing field, and this article tries to give an overview of some of the main topics and methods.",
+    "link": "https://arxiv.org/abs/2610.07496",
+    "context": "Title: The interface of data assimilation and machine learning\nAbstract: arXiv:2610.07496v1 Announce Type: cross  Abstract: Data assimilation (DA) is the process of combining forecasts from a model with observations in order to optimally estimate the state of a system. This is critical for chaotic systems, such as the atmosphere, since if observations are not continually assimilated the model will quickly lose skill. DA is routinely performed (usually every 6 hours) at operational forecasting centres around the world.   In this article we discuss the interface of machine learning (ML) and DA. This is still an emerging and quickly developing field, and this article tries to give an overview of some of the main topics and methods.",
+    "path": "papers/26/10/2610.07496.json",
+    "total_tokens": 801,
+    "translated_title": "数据同化与机器学习的交汇",
+    "translated_abstract": "数据同化（DA）是将模型的预报结果与观测数据相结合，从而最优地估计系统状态的过程。这对于混沌系统（如大气）至关重要，因为如果不持续同化观测数据，模型将很快失去预测能力。世界各地的业务预报中心通常每6小时进行一次数据同化。本文讨论了机器学习（ML）与数据同化的交汇领域。这仍然是一个新兴且快速发展的领域，本文试图对其中一些主要主题和方法进行概述。",
+    "tldr": "本文综述了数据同化与机器学习这一新兴交叉领域的主要主题和方法，探讨了两者结合对混沌系统（如大气）进行最优状态估计的应用前景。",
+    "en_tdlr": "This article provides an overview of the main topics and methods at the emerging and rapidly developing interface of data assimilation and machine learning, discussing their combined application for optimally estimating the state of chaotic systems such as the atmosphere."
+}

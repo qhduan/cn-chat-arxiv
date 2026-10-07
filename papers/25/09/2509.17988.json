@@ -1,0 +1,11 @@
+{
+    "title": "Nord-Parl-TTS: Finnish and Swedish TTS Dataset from Parliament Speech",
+    "abstract": "arXiv:2509.17988v2 Announce Type: cross  Abstract: Text-to-speech (TTS) development is limited by scarcity of high-quality, publicly available speech data for most languages outside a few high-resource languages. We present Nord-Parl-TTS, an open TTS dataset for Finnish and Swedish based on speech found in the wild. Using recordings of Nordic parliamentary proceedings, we extract 900 hours of Finnish and 5090 hours of Swedish speech suitable for TTS training. The dataset is built using an adapted version of the Emilia data processing pipeline and includes unified evaluation sets to support model development and benchmarking. By offering open, large-scale data for Finnish and Swedish, Nord-Parl-TTS narrows the resource gap in TTS between high- and lower-resourced languages.",
+    "link": "https://arxiv.org/abs/2509.17988",
+    "context": "Title: Nord-Parl-TTS: Finnish and Swedish TTS Dataset from Parliament Speech\nAbstract: arXiv:2509.17988v2 Announce Type: cross  Abstract: Text-to-speech (TTS) development is limited by scarcity of high-quality, publicly available speech data for most languages outside a few high-resource languages. We present Nord-Parl-TTS, an open TTS dataset for Finnish and Swedish based on speech found in the wild. Using recordings of Nordic parliamentary proceedings, we extract 900 hours of Finnish and 5090 hours of Swedish speech suitable for TTS training. The dataset is built using an adapted version of the Emilia data processing pipeline and includes unified evaluation sets to support model development and benchmarking. By offering open, large-scale data for Finnish and Swedish, Nord-Parl-TTS narrows the resource gap in TTS between high- and lower-resourced languages.",
+    "path": "papers/25/09/2509.17988.json",
+    "total_tokens": 1120,
+    "translated_title": "Nord-Parl-TTS：来自议会演讲的芬兰语和瑞典语TTS数据集",
+    "translated_abstract": "文本转语音（TTS）的发展受到限制，因为除少数高资源语言外，大多数语言都缺乏高质量、公开可用的语音数据。我们提出了Nord-Parl-TTS，这是一个基于真实场景语音的芬兰语和瑞典语开源TTS数据集。利用北欧议会会议的录音，我们提取了900小时的芬兰语和5090小时的瑞典语语音，适合用于TTS训练。该数据集使用改编版的Emilia数据处理流水线构建，并包含统一的评估集，以支持模型开发和基准测试。通过为芬兰语和瑞典语提供开源的大规模数据，Nord-Parl-TTS缩小了高资源语言与低资源语言之间在TTS领域的资源差距。",
+    "tldr": "该论文发布了基于北欧议会演讲录音构建的开源TTS数据集Nord-Parl-TTS，包含900小时芬兰语和5090小时瑞典语语音，有效缩小了TTS领域高资源语言与低资源语言之间的数据资源差距。"
+}

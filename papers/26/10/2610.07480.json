@@ -1,0 +1,11 @@
+{
+    "title": "In With the Old: Enhancing 'Classical' Document Automation with Generative AI",
+    "abstract": "arXiv:2610.07480v1 Announce Type: new  Abstract: Software-based legal assistance systems have leveraged many different forms of knowledge representation and reasoning. This article explores how document automation services rooted in expert system style and other symbolic approaches can usefully enhance and be enhanced by current generative AI approaches. We discuss the possible benefits and challenges, and report on preliminary experiments in using large language models to identify and fix issues in texts written by laypeople.",
+    "link": "https://arxiv.org/abs/2610.07480",
+    "context": "Title: In With the Old: Enhancing 'Classical' Document Automation with Generative AI\nAbstract: arXiv:2610.07480v1 Announce Type: new  Abstract: Software-based legal assistance systems have leveraged many different forms of knowledge representation and reasoning. This article explores how document automation services rooted in expert system style and other symbolic approaches can usefully enhance and be enhanced by current generative AI approaches. We discuss the possible benefits and challenges, and report on preliminary experiments in using large language models to identify and fix issues in texts written by laypeople.",
+    "path": "papers/26/10/2610.07480.json",
+    "total_tokens": 775,
+    "translated_title": "推陈出新：利用生成式人工智能增强“经典”文档自动化",
+    "translated_abstract": "基于软件的法律援助系统已经利用了多种不同形式的知识表示和推理方法。本文探讨了植根于专家系统风格和其他符号方法的文档自动化服务如何能够有效地增强当前的生成式AI方法，并反过来被其增强。我们讨论了可能的益处和挑战，并报告了使用大语言模型来识别和修复非专业人士所写文本中问题的初步实验。",
+    "tldr": "本文探索了基于专家系统等符号方法的经典文档自动化与生成式AI如何相互增强，并通过初步实验证明大语言模型可用于识别和修复非专业人士撰写的法律文本中的问题。"
+}

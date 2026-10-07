@@ -1,0 +1,12 @@
+{
+    "title": "Post-Grokking Collapse at the Representation-Readout Interface in Muon-Trained Transformers",
+    "abstract": "arXiv:2608.07436v2 Announce Type: replace  Abstract: Muon-trained modular-arithmetic transformers can lose accuracy while retaining linearly decodable task information. Adjacent swaps localize five captured unnormalized failures to AdamW readout updates. Multiplying the actual readout displacement by the large feature mean produces a class-dependent logit offset shared across inputs that nearly reproduces each failure. Training-only decoders recover 98.20-100% held-out accuracy. Correcting cross-entropy derivative errors stabilizes five matched branches through step 100,000; four prospective accurate-CE RMS runs fail through embedding updates.",
+    "link": "https://arxiv.org/abs/2608.07436",
+    "context": "Title: Post-Grokking Collapse at the Representation-Readout Interface in Muon-Trained Transformers\nAbstract: arXiv:2608.07436v2 Announce Type: replace  Abstract: Muon-trained modular-arithmetic transformers can lose accuracy while retaining linearly decodable task information. Adjacent swaps localize five captured unnormalized failures to AdamW readout updates. Multiplying the actual readout displacement by the large feature mean produces a class-dependent logit offset shared across inputs that nearly reproduces each failure. Training-only decoders recover 98.20-100% held-out accuracy. Correcting cross-entropy derivative errors stabilizes five matched branches through step 100,000; four prospective accurate-CE RMS runs fail through embedding updates.",
+    "path": "papers/26/08/2608.07436.json",
+    "total_tokens": 1072,
+    "translated_title": "Muon训练的Transformer中表征-读出接口处的Grokking后崩溃",
+    "translated_abstract": "经过Muon训练的模运算Transformer可能在保持线性可解码任务信息的同时失去准确率。通过相邻交换实验，将五个捕获到的未归一化失败定位到AdamW读出层的更新上。将实际的读出位移乘以较大的特征均值，会产生一个跨输入共享、依赖类别的logit偏移，几乎能够复现每一种失败。仅用于训练的解码器可以恢复98.20%-100%的保留集准确率。修正交叉熵导数错误能够稳定五个匹配分支直至第100,000步；而四个使用准确交叉熵的RMS前瞻运行则因嵌入更新而失败。",
+    "tldr": "论文发现Muon训练的Transformer在grokking后发生崩溃的根源在于AdamW读出层更新与较大的特征均值相互作用产生类别相关的logit偏移，并叠加交叉熵导数错误，而修正这些错误可以稳定训练并恢复近乎完全的准确率。",
+    "en_tdlr": "The paper shows that post-grokking collapse in Muon-trained transformers stems from AdamW readout updates whose displacement, amplified by large feature means, creates a class-dependent logit offset, compounded by cross-entropy derivative errors, and correcting these errors stabilizes training while recovering near-perfect held-out accuracy."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "REViT-v2: Hierarchical Windowed Roto-reflection Equivariant ViT for Equivariant Feature Extraction",
+    "abstract": "arXiv:2610.07585v1 Announce Type: cross  Abstract: We propose a scalable roto-reflection-group-equivariant vision transformer based on windowed group-convolutional self-attention and a hierarchical feature architecture. We demonstrate that our approach can be scaled to group-equivariant vision transformers (ViTs) with millions of parameters and large datasets with practically sized images, i.e., ImageNet. The code and pretrained weights for the proposed Hierarchical Windowed Roto-reflection Equivariant ViTs (REViT-v2) are available at https://github.com/kc-ml2/revit.",
+    "link": "https://arxiv.org/abs/2610.07585",
+    "context": "Title: REViT-v2: Hierarchical Windowed Roto-reflection Equivariant ViT for Equivariant Feature Extraction\nAbstract: arXiv:2610.07585v1 Announce Type: cross  Abstract: We propose a scalable roto-reflection-group-equivariant vision transformer based on windowed group-convolutional self-attention and a hierarchical feature architecture. We demonstrate that our approach can be scaled to group-equivariant vision transformers (ViTs) with millions of parameters and large datasets with practically sized images, i.e., ImageNet. The code and pretrained weights for the proposed Hierarchical Windowed Roto-reflection Equivariant ViTs (REViT-v2) are available at https://github.com/kc-ml2/revit.",
+    "path": "papers/26/10/2610.07585.json",
+    "total_tokens": 1072,
+    "translated_title": "REViT-v2：用于等变特征提取的分层窗口化旋转-反射等变视觉Transformer",
+    "translated_abstract": "我们提出了一种可扩展的旋转-反射群等变视觉Transformer，该模型基于窗口化群卷积自注意力机制和分层特征架构。我们证明了该方法可以扩展到具有数百万参数的群等变视觉Transformer（ViT），并能处理实际尺寸图像的大规模数据集，例如ImageNet。所提出的分层窗口化旋转-反射等变视觉Transformer（REViT-v2）的代码和预训练权重已在 https://github.com/kc-ml2/revit 开源。",
+    "tldr": "本文提出了一种基于窗口化群卷积自注意力与分层特征架构的可扩展旋转-反射群等变视觉Transformer（REViT-v2），成功将群等变ViT扩展至数百万参数规模，并能在ImageNet等实际尺寸图像的大型数据集上进行等变特征提取。",
+    "en_tdlr": "REViT-v2 is a scalable roto-reflection group-equivariant vision transformer based on windowed group-convolutional self-attention and a hierarchical feature architecture, demonstrating that group-equivariant ViTs can be scaled to millions of parameters and trained on practically sized datasets like ImageNet."
+}

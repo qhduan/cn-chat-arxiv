@@ -1,0 +1,12 @@
+{
+    "title": "Information geometry of L\\'evy processes and financial models",
+    "abstract": "arXiv:2507.23646v4 Announce Type: replace-cross  Abstract: We develop the information geometry of L\\'evy processes. The $\\alpha$-divergence is derived directly in terms of the L\\'evy triplets, and the corresponding Fisher information matrix and $\\alpha$-connection are obtained from it. Potential functions and dually flat structures for a class of parametric L\\'evy processes are also investigated. In addition, we discuss statistical implications of this information geometry, including bias reduction and Bayesian predictive priors. Several L\\'evy processes widely used in financial modeling, such as tempered stable processes, the CGMY model, variance gamma processes, and the Merton model, are investigated as illustrative examples.",
+    "link": "https://arxiv.org/abs/2507.23646",
+    "context": "Title: Information geometry of L\\'evy processes and financial models\nAbstract: arXiv:2507.23646v4 Announce Type: replace-cross  Abstract: We develop the information geometry of L\\'evy processes. The $\\alpha$-divergence is derived directly in terms of the L\\'evy triplets, and the corresponding Fisher information matrix and $\\alpha$-connection are obtained from it. Potential functions and dually flat structures for a class of parametric L\\'evy processes are also investigated. In addition, we discuss statistical implications of this information geometry, including bias reduction and Bayesian predictive priors. Several L\\'evy processes widely used in financial modeling, such as tempered stable processes, the CGMY model, variance gamma processes, and the Merton model, are investigated as illustrative examples.",
+    "path": "papers/25/07/2507.23646.json",
+    "total_tokens": 1234,
+    "translated_title": "列维过程与金融模型的信息几何",
+    "translated_abstract": "我们发展了列维过程的信息几何。我们直接用列维三元组推导出α-散度，并由此得到相应的Fisher信息矩阵和α-联络。此外，我们还研究了一类参数化列维过程的势函数和对偶平坦结构。同时，我们讨论了这种信息几何的统计学意义，包括偏差缩减和贝叶斯预测先验。作为说明性例子，我们研究了几种在金融建模中广泛使用的列维过程，如缓和稳定过程、CGMY模型、方差伽马过程和Merton模型。",
+    "tldr": "本文建立了列维过程的信息几何理论框架，直接从列维三元组推导出α-散度、Fisher信息矩阵和α-联络，并将其应用于金融建模中常用的多种列维过程以及偏差缩减、贝叶斯预测先验等统计问题。",
+    "en_tdlr": "This paper develops the information geometry of Lévy processes by deriving the α-divergence directly from Lévy triplets, and applies the framework to widely-used financial models while discussing statistical implications such as bias reduction and Bayesian predictive priors."
+}

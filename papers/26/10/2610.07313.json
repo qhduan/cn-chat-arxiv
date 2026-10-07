@@ -1,0 +1,12 @@
+{
+    "title": "Rule-Based Languages for Neurosymbolic AI",
+    "abstract": "arXiv:2610.07313v1 Announce Type: new  Abstract: Logic programming is increasingly used as the symbolic component of neurosymbolic AI systems. We survey the main rule-based languages in this setting, namely Datalog, answer set, and probabilistic logic programs, along four axes: semantics, expressiveness, neural integration, and evaluation mechanism. We analyse over 50 recent systems and applications, comparing formalism usage across four research areas: databases and programming languages, machine learning, vision, and robotics. We provide a decision matrix mapping application scenarios to required features and close by outlining open problems.",
+    "link": "https://arxiv.org/abs/2610.07313",
+    "context": "Title: Rule-Based Languages for Neurosymbolic AI\nAbstract: arXiv:2610.07313v1 Announce Type: new  Abstract: Logic programming is increasingly used as the symbolic component of neurosymbolic AI systems. We survey the main rule-based languages in this setting, namely Datalog, answer set, and probabilistic logic programs, along four axes: semantics, expressiveness, neural integration, and evaluation mechanism. We analyse over 50 recent systems and applications, comparing formalism usage across four research areas: databases and programming languages, machine learning, vision, and robotics. We provide a decision matrix mapping application scenarios to required features and close by outlining open problems.",
+    "path": "papers/26/10/2610.07313.json",
+    "total_tokens": 913,
+    "translated_title": "面向神经符号人工智能的基于规则的语言",
+    "translated_abstract": "逻辑编程日益被用作神经符号AI系统的符号组件。我们从四个维度对这一领域中的主要基于规则的语言进行了综述，即 Datalog、答案集和概率逻辑程序，这四个维度分别是：语义、表达能力、神经集成方式以及求值机制。我们分析了 50 多个近期的系统与应用，比较了这些形式化方法在四个研究领域中的使用情况：数据库与编程语言、机器学习、视觉以及机器人学。我们提供了一个将应用场景映射到所需特性的决策矩阵，并在最后概述了开放性问题。",
+    "tldr": "本文沿语义、表达能力、神经集成和求值机制四个维度，综述了神经符号AI中的Datalog、答案集和概率逻辑程序三类基于规则的语言，分析了50多个系统并提供了一个将应用场景映射到所需特性的决策矩阵。",
+    "en_tdlr": "This paper surveys the main rule-based languages for neurosymbolic AI—Datalog, answer set, and probabilistic logic programs—along four axes (semantics, expressiveness, neural integration, and evaluation mechanism), analyzing over 50 recent systems and applications and providing a decision matrix that maps application scenarios to required features."
+}

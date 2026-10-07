@@ -1,0 +1,11 @@
+{
+    "title": "Social networks, confirmation bias and shock elections",
+    "abstract": "arXiv:2011.00520v2 Announce Type: replace  Abstract: This paper links the increasing prominence of social networks in politics to recent shock election outcomes. In our setup, agents learning on a network suffer from confirmation bias -- the tendency to ignore contrary evidence to ones own belief. Our main result is that confirmation bias slows down learning in a wide class of networks. For any network, consensus fails to emerge when confirmation bias is above a threshold. We explore the implications for elections and media markets. Confirmation bias increases the likelihood of shock elections, and encourages media organizations already at the fringe to take on even more extreme views.",
+    "link": "https://arxiv.org/abs/2011.00520",
+    "context": "Title: Social networks, confirmation bias and shock elections\nAbstract: arXiv:2011.00520v2 Announce Type: replace  Abstract: This paper links the increasing prominence of social networks in politics to recent shock election outcomes. In our setup, agents learning on a network suffer from confirmation bias -- the tendency to ignore contrary evidence to ones own belief. Our main result is that confirmation bias slows down learning in a wide class of networks. For any network, consensus fails to emerge when confirmation bias is above a threshold. We explore the implications for elections and media markets. Confirmation bias increases the likelihood of shock elections, and encourages media organizations already at the fringe to take on even more extreme views.",
+    "path": "papers/20/11/2011.00520.json",
+    "total_tokens": 841,
+    "translated_title": "社交网络、确认偏误与意外选举结果",
+    "translated_abstract": "本文将社交网络在政治中日益突出的地位与近期出现的意外选举结果联系起来。在我们的模型中，在网络中学习的个体会受到确认偏误的影响——即倾向于忽视与自己信念相悖的证据。我们的主要结论是，确认偏误会在广泛的一类网络中减缓学习进程。对于任何网络，当确认偏误超过某个阈值时，共识将无法形成。我们探讨了其对选举和媒体市场的启示。确认偏误增加了意外选举结果发生的可能性，并促使本已处于边缘的媒体机构采取更加极端的观点。",
+    "tldr": "本文通过建立网络学习模型证明，确认偏误会减缓学习进程并在超过阈值时阻止共识形成，从而增加意外选举结果的可能性，并使边缘媒体观点更加极端化。"
+}

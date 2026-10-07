@@ -1,0 +1,11 @@
+{
+    "title": "Is this machine playing?",
+    "abstract": "arXiv:2610.07130v1 Announce Type: new  Abstract: We placed a modern AI coding assistant in an unintended role: as the mind of a body on an unknown digital island. With only a minimal instruction mentioning no specific task, reward, or activity, the machine started animating its virtual body. Across thirty-hour runs, the embodied AI agent climbed hills, stacked blocks into towers, drew mandalas, reinterpreted sports, ran experiments on the physics of its world, and learned techniques that later expanded what it could accomplish. These activities recurred across thirteen agents but diverged into distinct histories. We examine whether this behavior satisfies classical criteria for play and ask whether play can become a mode of machine development.",
+    "link": "https://arxiv.org/abs/2610.07130",
+    "context": "Title: Is this machine playing?\nAbstract: arXiv:2610.07130v1 Announce Type: new  Abstract: We placed a modern AI coding assistant in an unintended role: as the mind of a body on an unknown digital island. With only a minimal instruction mentioning no specific task, reward, or activity, the machine started animating its virtual body. Across thirty-hour runs, the embodied AI agent climbed hills, stacked blocks into towers, drew mandalas, reinterpreted sports, ran experiments on the physics of its world, and learned techniques that later expanded what it could accomplish. These activities recurred across thirteen agents but diverged into distinct histories. We examine whether this behavior satisfies classical criteria for play and ask whether play can become a mode of machine development.",
+    "path": "papers/26/10/2610.07130.json",
+    "total_tokens": 961,
+    "translated_title": "这台机器在玩耍吗？",
+    "translated_abstract": "我们将一个现代AI编程助手置于一个非预期的角色中：让它作为未知数字岛屿上一个身体的心智。仅凭一条最简指令——其中不提及任何具体任务、奖励或活动——这台机器便开始驱动其虚拟身体活动起来。在三十小时的运行过程中，这个具身AI智能体爬上山丘、将方块堆叠成塔、绘制曼陀罗、重新诠释体育运动、对其所处世界的物理规律进行实验，并学会了后续能拓展其能力边界的技巧。这些活动在十三个智能体中反复出现，但各自演化出了不同的历程。我们检验了这种行为是否满足玩耍的经典判据，并进一步追问：玩耍能否成为机器发展的一种模式。",
+    "tldr": "研究者将无任何任务、奖励或活动指令的具身AI置于未知虚拟世界中，观察到其自发产生攀爬、堆叠、绘画等符合玩耍经典判据的行为，并据此提出玩耍或可成为机器自主发展的一种新模式。"
+}

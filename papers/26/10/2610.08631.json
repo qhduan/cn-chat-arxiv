@@ -1,0 +1,12 @@
+{
+    "title": "Exponential investors with weakly mean-reverting prices",
+    "abstract": "arXiv:2610.08631v1 Announce Type: new  Abstract: We investigate a continuous-time financial market where the asset price exhibits weak (sublinear) mean reversion and has a nonzero drift. Complementing earlier work on strong (superlinear) mean reversion, we show that, for an investor maximizing expected exponential utility, the certainty equivalent grows as $O(T^{2\\beta+1})$ where $0<\\beta<1$ is the strength of mean reversion. An explicit asymptotically optimal strategy is also given.",
+    "link": "https://arxiv.org/abs/2610.08631",
+    "context": "Title: Exponential investors with weakly mean-reverting prices\nAbstract: arXiv:2610.08631v1 Announce Type: new  Abstract: We investigate a continuous-time financial market where the asset price exhibits weak (sublinear) mean reversion and has a nonzero drift. Complementing earlier work on strong (superlinear) mean reversion, we show that, for an investor maximizing expected exponential utility, the certainty equivalent grows as $O(T^{2\\beta+1})$ where $0<\\beta<1$ is the strength of mean reversion. An explicit asymptotically optimal strategy is also given.",
+    "path": "papers/26/10/2610.08631.json",
+    "total_tokens": 902,
+    "translated_title": "弱均值回归价格下的指数效用投资者",
+    "translated_abstract": "我们研究了一个连续时间金融市场，其中资产价格表现出弱（次线性）均值回归特性并具有非零漂移。作为对先前关于强（超线性）均值回归研究的补充，我们证明，对于最大化期望指数效用的投资者，其确定性等价以 $O(T^{2\\beta+1})$ 的速度增长，其中 $0<\\beta<1$ 是均值回归的强度。此外，我们还给出了一个显式的渐近最优交易策略。",
+    "tldr": "该论文将均值回归价格下的最优交易研究从强（超线性）情形扩展到弱（次线性）情形，证明了指数效用投资者的确定性等价以 $O(T^{2\\beta+1})$ 的速度增长，并给出了显式的渐近最优策略。",
+    "en_tdlr": "This paper extends the study of optimal trading with mean-reverting prices from strong (superlinear) to weak (sublinear) mean reversion, showing that an exponential-utility investor's certainty equivalent grows as $O(T^{2\\beta+1})$ and providing an explicit asymptotically optimal strategy."
+}

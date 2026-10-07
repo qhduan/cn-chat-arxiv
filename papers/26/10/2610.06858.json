@@ -1,0 +1,12 @@
+{
+    "title": "Trajectools Demo: Towards No-Code Solutions for Movement Data Analytics",
+    "abstract": "arXiv:2610.06858v1 Announce Type: cross  Abstract: This demo paper presents the conceptual foundations and the first steps towards implementation of a novel no-code solution for movement data analytics based on the open-source Python library MovingPandas and the open-source geographic information system QGIS. The resulting Trajectools plugin is available open-source at https://github.com/movingpandas/qgis-processing-trajectory.",
+    "link": "https://arxiv.org/abs/2610.06858",
+    "context": "Title: Trajectools Demo: Towards No-Code Solutions for Movement Data Analytics\nAbstract: arXiv:2610.06858v1 Announce Type: cross  Abstract: This demo paper presents the conceptual foundations and the first steps towards implementation of a novel no-code solution for movement data analytics based on the open-source Python library MovingPandas and the open-source geographic information system QGIS. The resulting Trajectools plugin is available open-source at https://github.com/movingpandas/qgis-processing-trajectory.",
+    "path": "papers/26/10/2610.06858.json",
+    "total_tokens": 626,
+    "translated_title": "Trajectools演示：迈向移动数据分析的无代码解决方案",
+    "translated_abstract": "这篇演示论文介绍了一个面向移动数据分析的新型无代码解决方案的概念基础及其实施的初步步骤。该方案基于开源Python库MovingPandas和开源地理信息系统QGIS构建。由此产生的Trajectools插件已作为开源项目发布于 https://github.com/movingpandas/qgis-processing-trajectory。",
+    "tldr": "本文基于开源Python库MovingPandas和开源GIS软件QGIS，提出了无代码移动数据分析工具Trajectools插件的概念框架并完成了初步实现，使非程序员用户也能进行移动数据分析。",
+    "en_tdlr": "This paper presents the conceptual foundations and initial implementation of Trajectools, a novel no-code solution for movement data analytics built on the open-source Python library MovingPandas and QGIS, enabling non-programmers to perform movement data analysis."
+}
