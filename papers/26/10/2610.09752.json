@@ -1,0 +1,12 @@
+{
+    "title": "SoftSEEPS improves ML-based precipitation forecasting",
+    "abstract": "arXiv:2610.09752v1 Announce Type: new  Abstract: In this paper we have developed a differentiable approximation of the well-known SEEPS score, which we name SoftSEEPS. This allows the training of a Machine Learning model to forecast precipitation directly. We test SoftSEEPS on the IMERG dataset (0.1 degree resolution) by training a decoder for precipitation on the latent space of a pre-trained low-resolution forecasting model. Combining SoftSEEPS and RMSE in a joint objective is possible with marginal trade-offs in either metric.",
+    "link": "https://arxiv.org/abs/2610.09752",
+    "context": "Title: SoftSEEPS improves ML-based precipitation forecasting\nAbstract: arXiv:2610.09752v1 Announce Type: new  Abstract: In this paper we have developed a differentiable approximation of the well-known SEEPS score, which we name SoftSEEPS. This allows the training of a Machine Learning model to forecast precipitation directly. We test SoftSEEPS on the IMERG dataset (0.1 degree resolution) by training a decoder for precipitation on the latent space of a pre-trained low-resolution forecasting model. Combining SoftSEEPS and RMSE in a joint objective is possible with marginal trade-offs in either metric.",
+    "path": "papers/26/10/2610.09752.json",
+    "total_tokens": 845,
+    "translated_title": "SoftSEEPS改进了基于机器学习的降水预报",
+    "translated_abstract": "在本文中，我们开发了著名SEEPS评分的可微近似版本，并将其命名为SoftSEEPS。这使得机器学习模型能够直接以该评分作为目标进行训练来预报降水。我们在IMERG数据集（0.1度分辨率）上测试了SoftSEEPS，方法是在预训练的低分辨率预报模型的潜在空间上训练一个降水解码器。将SoftSEEPS与RMSE结合在联合目标函数中是可行的，且在两个指标上仅产生微小的性能权衡。",
+    "tldr": "本文提出了SEEPS评分的可微近似SoftSEEPS，使机器学习降水预报模型能够直接以该评分进行训练，且与RMSE联合优化时几乎不影响两个指标的表现。",
+    "en_tdlr": "This paper introduces SoftSEEPS, a differentiable approximation of the SEEPS score that enables direct training of ML-based precipitation forecasting models, and shows it can be jointly combined with RMSE with only marginal trade-offs."
+}

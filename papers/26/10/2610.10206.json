@@ -1,0 +1,12 @@
+{
+    "title": "Computations of the slice genus and the unknotting number of links via machine learning",
+    "abstract": "arXiv:2610.10206v1 Announce Type: cross  Abstract: Links are disjoint unions of circles smoothly embedded in $S^3$. We use reinforcement learning and Bayesian optimisation to obtain new upper bounds on several link invariants that are not known to be algorithmically computable: the slice genus and the unknotting number for links, and the strong slice genus for algebraically split links. We also compute lower bounds using known invariants. Combining the upper and lower bounds, we obtain new exact values in many cases. Our unknotting agents can reproduce the non-additivity of the unknotting number for several counterexamples due to Brittenham and Hermiller, in some cases finding new unknotting trajectories.",
+    "link": "https://arxiv.org/abs/2610.10206",
+    "context": "Title: Computations of the slice genus and the unknotting number of links via machine learning\nAbstract: arXiv:2610.10206v1 Announce Type: cross  Abstract: Links are disjoint unions of circles smoothly embedded in $S^3$. We use reinforcement learning and Bayesian optimisation to obtain new upper bounds on several link invariants that are not known to be algorithmically computable: the slice genus and the unknotting number for links, and the strong slice genus for algebraically split links. We also compute lower bounds using known invariants. Combining the upper and lower bounds, we obtain new exact values in many cases. Our unknotting agents can reproduce the non-additivity of the unknotting number for several counterexamples due to Brittenham and Hermiller, in some cases finding new unknotting trajectories.",
+    "path": "papers/26/10/2610.10206.json",
+    "total_tokens": 994,
+    "translated_title": "通过机器学习计算链环的切片亏格与解结数",
+    "translated_abstract": "链环是光滑嵌入在 $S^3$ 中的圆的不相交并集。我们使用强化学习和贝叶斯优化，为几种尚不知道是否可以算法计算的链环不变量获得了新的上界：链环的切片亏格和解结数，以及代数可分裂链环的强切片亏格。我们还利用已知不变量计算了下界。通过结合上界与下界，我们在许多情况下得到了新的精确值。我们的解结智能体能够重现 Brittenham 和 Hermiller 提出的若干反例中解结数的非可加性，并在某些情况下找到了新的解结轨迹。",
+    "tldr": "该论文利用强化学习和贝叶斯优化，为链环的切片亏格、解结数等难以算法计算的不变量求出新上界，并结合已知下界在许多情形下得到新的精确值，还重现了解结数的非可加性反例。",
+    "en_tdlr": "This paper uses reinforcement learning and Bayesian optimisation to obtain new upper bounds for link invariants such as the slice genus and unknotting number, deriving many new exact values by combining them with known lower bounds and reproducing the non-additivity of the unknotting number."
+}

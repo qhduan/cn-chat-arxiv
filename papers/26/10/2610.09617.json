@@ -1,0 +1,12 @@
+{
+    "title": "Second-order optimization of variable projection SVM models and road abnormality detection",
+    "abstract": "arXiv:2610.09617v1 Announce Type: cross  Abstract: We introduce a novel second-order optimization framework for minimizing so-called variable projection functionals. We demonstrate that the proposed framework is especially usefulfor the training of variable projection based kernel methods. In particular, the problem of efficiently training variable projection support vector machines (VP-SVMs) is considered. We show the effectiveness of the proposed training methodology in a real-world application, namely we demonstrate how second-order trust region algorithms can be used to train VPSVM models to recognize road surface abnormalities based on 1D signals obtained from a tire sensor.",
+    "link": "https://arxiv.org/abs/2610.09617",
+    "context": "Title: Second-order optimization of variable projection SVM models and road abnormality detection\nAbstract: arXiv:2610.09617v1 Announce Type: cross  Abstract: We introduce a novel second-order optimization framework for minimizing so-called variable projection functionals. We demonstrate that the proposed framework is especially usefulfor the training of variable projection based kernel methods. In particular, the problem of efficiently training variable projection support vector machines (VP-SVMs) is considered. We show the effectiveness of the proposed training methodology in a real-world application, namely we demonstrate how second-order trust region algorithms can be used to train VPSVM models to recognize road surface abnormalities based on 1D signals obtained from a tire sensor.",
+    "path": "papers/26/10/2610.09617.json",
+    "total_tokens": 869,
+    "translated_title": "变投影支持向量机模型的二阶优化与道路异常检测",
+    "translated_abstract": "我们提出了一种用于最小化所谓变投影泛函的新型二阶优化框架。我们证明所提出的框架对于基于变投影的核方法的训练特别有用。特别地，我们考虑了高效训练变投影支持向量机（VP-SVM）的问题。我们在一个实际应用中展示了所提出训练方法的有效性，即我们展示了如何使用二阶信赖域算法来训练VP-SVM模型，从而基于从轮胎传感器获得的一维信号识别路面异常。",
+    "tldr": "本文提出了一种针对变投影泛函的新型二阶优化框架，利用二阶信赖域算法高效训练变投影支持向量机（VP-SVM），并成功应用于基于轮胎传感器一维信号的道路异常检测。",
+    "en_tdlr": "This paper introduces a novel second-order optimization framework for minimizing variable projection functionals, enabling efficient training of VP-SVMs via second-order trust region algorithms, which is successfully applied to road surface abnormality detection based on 1D tire sensor signals."
+}

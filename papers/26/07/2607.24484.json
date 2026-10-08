@@ -1,0 +1,12 @@
+{
+    "title": "What do Reward Models Memorize?",
+    "abstract": "arXiv:2607.24484v2 Announce Type: replace-cross  Abstract: This paper studies what discriminatively trained reward models (RMs) memorize by measuring counterfactual memorization on two human preference datasets. We show that RMs 1) misallocate memorization to easy, high margin preference pairs, 2) memorize dataset-specific shortcuts (e.g., model identity, user sampling strategy), and 3) overgeneralize simple heuristic correlates of human preference (e.g., length, compliance) when confronted with unseen preference pairs. Overall, our findings indicate that discriminative training of RMs from human preference data results in biased RMs not yet capable of judging response quality in context-dependent scenarios.",
+    "link": "https://arxiv.org/abs/2607.24484",
+    "context": "Title: What do Reward Models Memorize?\nAbstract: arXiv:2607.24484v2 Announce Type: replace-cross  Abstract: This paper studies what discriminatively trained reward models (RMs) memorize by measuring counterfactual memorization on two human preference datasets. We show that RMs 1) misallocate memorization to easy, high margin preference pairs, 2) memorize dataset-specific shortcuts (e.g., model identity, user sampling strategy), and 3) overgeneralize simple heuristic correlates of human preference (e.g., length, compliance) when confronted with unseen preference pairs. Overall, our findings indicate that discriminative training of RMs from human preference data results in biased RMs not yet capable of judging response quality in context-dependent scenarios.",
+    "path": "papers/26/07/2607.24484.json",
+    "total_tokens": 976,
+    "translated_title": "奖励模型记住了什么？",
+    "translated_abstract": "本文通过在两个人类偏好数据集上测量反事实记忆，研究了判别式训练的奖励模型（RMs）究竟记住了什么。我们发现奖励模型存在三个问题：1）将记忆错误地分配给简单的、高余量的偏好对；2）记住了数据集特定的捷径（例如模型身份、用户采样策略）；3）在面对未见过的偏好对时，过度泛化人类偏好的简单启发式相关因素（例如回复长度、顺从性）。总体而言，我们的研究结果表明，从人类偏好数据中通过判别式方式训练奖励模型，会导致带有偏见的奖励模型，其尚不具备在情境相关场景中准确判断回复质量的能力。",
+    "tldr": "本文通过反事实记忆测量发现，判别式训练的奖励模型会错误记忆简单偏好对、记住数据集特定捷径，并过度泛化长度等简单启发式特征，导致其无法在情境相关场景中准确判断回复质量。",
+    "en_tdlr": "This paper reveals that discriminatively trained reward models misallocate memorization to easy preference pairs, memorize dataset-specific shortcuts, and overgeneralize simple heuristics like length, resulting in biased models unable to judge response quality in context-dependent scenarios."
+}

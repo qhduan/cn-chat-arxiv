@@ -1,0 +1,12 @@
+{
+    "title": "Existence of Bayesian Equilibria in Incomplete Information Games without Common Priors",
+    "abstract": "arXiv:2504.16240v4 Announce Type: replace  Abstract: This paper focuses on finite-player incomplete information games where players may hold mutually inconsistent beliefs without a common prior. We introduce absolute continuity of beliefs, extending the classical notion of absolute continuity of information in Milgrom and Weber (1985), and prove that Bayesian equilibria exist in a broad class of games, including those with discontinuous payoffs. Examples illustrate the scope and implications of our findings.",
+    "link": "https://arxiv.org/abs/2504.16240",
+    "context": "Title: Existence of Bayesian Equilibria in Incomplete Information Games without Common Priors\nAbstract: arXiv:2504.16240v4 Announce Type: replace  Abstract: This paper focuses on finite-player incomplete information games where players may hold mutually inconsistent beliefs without a common prior. We introduce absolute continuity of beliefs, extending the classical notion of absolute continuity of information in Milgrom and Weber (1985), and prove that Bayesian equilibria exist in a broad class of games, including those with discontinuous payoffs. Examples illustrate the scope and implications of our findings.",
+    "path": "papers/25/04/2504.16240.json",
+    "total_tokens": 792,
+    "translated_title": "无共同先验的不完全信息博弈中贝叶斯均衡的存在性",
+    "translated_abstract": "本文研究有限参与人的不完全信息博弈，其中参与人可能持有相互不一致的信念，即不存在共同先验。我们引入了“信念绝对连续性”这一概念，扩展了Milgrom和Weber（1985）中关于信息绝对连续性的经典概念，并证明了贝叶斯均衡在广泛的博弈类别中存在，包括支付不连续的博弈。文中通过例子说明了我们研究结果的适用范围及其含义。",
+    "tldr": "本文提出“信念绝对连续性”新概念，证明了在参与人不拥有共同先验（信念可相互不一致）的情况下，包括支付不连续博弈在内的广泛不完全信息博弈中贝叶斯均衡依然存在。",
+    "en_tdlr": "This paper introduces the novel concept of \"absolute continuity of beliefs\" and proves that Bayesian equilibria exist in a broad class of incomplete information games without common priors, including games with discontinuous payoffs."
+}

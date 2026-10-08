@@ -1,0 +1,11 @@
+{
+    "title": "Outsourced Cryptocurrency Wash Trading",
+    "abstract": "arXiv:2411.08720v2 Announce Type: replace-cross  Abstract: I show that outsourced cryptocurrency wash trading is shaped by the objective assigned to the outside firm. When hired to manufacture volume, wash traders buy and sell nearly equal amounts, repeatedly turning over the same inventory. When also tasked with selling issuer holdings, trading becomes markedly more one-sided, with sales exceeding purchases. Using documented enforcement cases and transaction records, I trace these differences in net selling, two-way trading, and inventory replenishment across controlled wallets. The results show that similar reported trading volume can mask fundamentally different economic activity as contractual objectives shape whether manipulation recycles inventory or liquidates issuer holdings.",
+    "link": "https://arxiv.org/abs/2411.08720",
+    "context": "Title: Outsourced Cryptocurrency Wash Trading\nAbstract: arXiv:2411.08720v2 Announce Type: replace-cross  Abstract: I show that outsourced cryptocurrency wash trading is shaped by the objective assigned to the outside firm. When hired to manufacture volume, wash traders buy and sell nearly equal amounts, repeatedly turning over the same inventory. When also tasked with selling issuer holdings, trading becomes markedly more one-sided, with sales exceeding purchases. Using documented enforcement cases and transaction records, I trace these differences in net selling, two-way trading, and inventory replenishment across controlled wallets. The results show that similar reported trading volume can mask fundamentally different economic activity as contractual objectives shape whether manipulation recycles inventory or liquidates issuer holdings.",
+    "path": "papers/24/11/2411.08720.json",
+    "total_tokens": 924,
+    "translated_title": "外包加密货币虚假交易（洗售交易）",
+    "translated_abstract": "本文证明了外包加密货币虚假交易的形式受委托给外部公司的目标所影响。当受雇制造交易量时，虚假交易者买入和卖出几乎等量的资产，反复周转相同的库存。当还被委托出售发行方持仓时，交易明显变得更加单向，卖出超过买入。利用有记录的执法案例和交易记录，作者追踪了受控钱包之间在净卖出、双向交易和库存补充方面的这些差异。结果表明，相似的报告交易量可能掩盖根本不同的经济活动，因为合同目标决定了操纵行为是在回收库存还是在清算发行方持仓。",
+    "tldr": "外包加密货币虚假交易的模式由合同目标决定：仅受雇制造交易量时交易者买卖近乎对等并反复周转库存，而同时受托出售发行方持仓时则呈现卖出显著超过买入的单向交易。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Anchor-proofness in Voting with Ranked Ballots",
+    "abstract": "arXiv:2610.10316v1 Announce Type: new  Abstract: When voters evaluate alternatives sequentially, an anchoring bias makes their ballots depend on the order in which alternatives are presented. For approval ballots, no non-constant voting rule is robust to this dependence. We show that ranked ballots change the picture sharply: a rank-based rule is robust to the presentation order if and only if it is tops-only. Robustness to anchoring is thus available, but only at the price of ignoring everything a voter reports beyond her favourite alternative.",
+    "link": "https://arxiv.org/abs/2610.10316",
+    "context": "Title: Anchor-proofness in Voting with Ranked Ballots\nAbstract: arXiv:2610.10316v1 Announce Type: new  Abstract: When voters evaluate alternatives sequentially, an anchoring bias makes their ballots depend on the order in which alternatives are presented. For approval ballots, no non-constant voting rule is robust to this dependence. We show that ranked ballots change the picture sharply: a rank-based rule is robust to the presentation order if and only if it is tops-only. Robustness to anchoring is thus available, but only at the price of ignoring everything a voter reports beyond her favourite alternative.",
+    "path": "papers/26/10/2610.10316.json",
+    "total_tokens": 903,
+    "translated_title": "排名选票投票中的锚定防操纵性",
+    "translated_abstract": "当选民依次评估各备选方案时，锚定偏差会使他们的选票依赖于备选方案呈现的顺序。对于赞成制选票，没有任何非常数投票规则能够对这种依赖性保持稳健。我们表明，排名选票极大地改变了这一图景：一个基于排名的投票规则对呈现顺序具有稳健性，当且仅当它是“仅看首选”的。因此，对锚定偏差的稳健性是可以实现的，但代价是必须忽略选民报告中除其最偏好方案之外的所有信息。",
+    "tldr": "本文证明了在排名选票投票中，投票规则对锚定偏差（备选方案呈现顺序的影响）具有稳健性当且仅当它是“仅看首选”的，即对锚定的稳健性只能以忽略选民首选之外的全部偏好信息为代价来实现。",
+    "en_tdlr": "This paper shows that in voting with ranked ballots, a rank-based rule is robust to anchoring bias (dependence on presentation order) if and only if it is tops-only, meaning robustness to anchoring is achievable only at the cost of ignoring all voter information beyond their favorite alternative."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Price Discrimination and Revealed Consumer Welfare",
+    "abstract": "arXiv:2610.10172v1 Announce Type: new  Abstract: We take a revealed-preference approach to study the welfare effects of price discrimination. An analyst observes price and quantity data before and after a monopolist segments the market. The analyst knows neither the aggregate demand curve nor the information available to the monopolist. We characterize the set of observable price-quantity pairs that are rationalizable by some market segmentation. We then obtain sharp bounds on the change in consumer surplus arising from some segmentation. Finally, we provide conditions under which the data identifies an unambiguous increase (decrease) in consumer surplus.",
+    "link": "https://arxiv.org/abs/2610.10172",
+    "context": "Title: Price Discrimination and Revealed Consumer Welfare\nAbstract: arXiv:2610.10172v1 Announce Type: new  Abstract: We take a revealed-preference approach to study the welfare effects of price discrimination. An analyst observes price and quantity data before and after a monopolist segments the market. The analyst knows neither the aggregate demand curve nor the information available to the monopolist. We characterize the set of observable price-quantity pairs that are rationalizable by some market segmentation. We then obtain sharp bounds on the change in consumer surplus arising from some segmentation. Finally, we provide conditions under which the data identifies an unambiguous increase (decrease) in consumer surplus.",
+    "path": "papers/26/10/2610.10172.json",
+    "total_tokens": 858,
+    "translated_title": "价格歧视与揭示的消费者福利",
+    "translated_abstract": "我们采用显示性偏好方法来研究价格歧视的福利效应。分析者观察到垄断者细分市场前后的价格和数量数据。分析者既不知道总需求曲线，也不知道垄断者所掌握的信息。我们刻画了可由某种市场细分合理化的可观测价格-数量组合的集合。随后，我们得到了由某种细分所引起的消费者剩余变化的紧致边界。最后，我们给出了数据能够明确识别消费者剩余增加（或减少）的条件。",
+    "tldr": "该论文采用显示性偏好方法，在分析者既不知总需求曲线也不知垄断者信息的情况下，刻画了可由市场细分解释的价格-数量数据集合，给出了消费者剩余变化的紧致边界，并识别出数据能明确判断消费者福利增减的条件。",
+    "en_tdlr": "This paper takes a revealed-preference approach to characterize price-quantity data rationalizable by market segmentation, derive sharp bounds on consumer surplus changes, and identify conditions under which the data reveals an unambiguous welfare effect of price discrimination."
+}

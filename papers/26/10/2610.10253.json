@@ -1,0 +1,12 @@
+{
+    "title": "On the Cyclic Assumption of the Cow-Path Search Algorithm",
+    "abstract": "arXiv:2610.10253v1 Announce Type: cross  Abstract: In the cow-path problem, a cow must find a goal lying at an unknown distance on one of $w$ paths connected only at the origin, and performance is measured by competitive ratio. Kao, Reif and Tate designed an efficient randomized algorithm in which the cow visits the paths in a fixed cyclic order. They proved the algorithm is optimal for $w=2$, and subsequently Kao, Ma, Sipser and Yin proved its optimality for all $w$, with a claim that no algorithm does better than the best cyclic one. This note provides a detailed proof of that claim.",
+    "link": "https://arxiv.org/abs/2610.10253",
+    "context": "Title: On the Cyclic Assumption of the Cow-Path Search Algorithm\nAbstract: arXiv:2610.10253v1 Announce Type: cross  Abstract: In the cow-path problem, a cow must find a goal lying at an unknown distance on one of $w$ paths connected only at the origin, and performance is measured by competitive ratio. Kao, Reif and Tate designed an efficient randomized algorithm in which the cow visits the paths in a fixed cyclic order. They proved the algorithm is optimal for $w=2$, and subsequently Kao, Ma, Sipser and Yin proved its optimality for all $w$, with a claim that no algorithm does better than the best cyclic one. This note provides a detailed proof of that claim.",
+    "path": "papers/26/10/2610.10253.json",
+    "total_tokens": 857,
+    "translated_title": "论牛路搜索算法中的循环假设",
+    "translated_abstract": "在牛路问题中，一头牛必须在 $w$ 条仅在原点相连的路径之一上寻找一个位于未知距离处的目标，其性能通过竞争比来衡量。Kao、Reif 和 Tate 设计了一种高效的随机算法，其中牛按照固定的循环顺序访问各条路径。他们证明了该算法在 $w=2$ 时是最优的，随后 Kao、Ma、Sipser 和 Yin 证明了该算法对所有 $w$ 都是最优的，并提出了一个断言：没有任何算法能够优于最佳的循环算法。本注释为该断言提供了详细的证明。",
+    "tldr": "本文为牛路搜索问题中“没有任何算法能优于最佳循环顺序算法”这一断言提供了详细的证明，从而完整补足了该随机算法最优性的论证。",
+    "en_tdlr": "This note provides a detailed proof of the claim that no algorithm can outperform the best cyclic-order algorithm in the randomized cow-path search problem."
+}

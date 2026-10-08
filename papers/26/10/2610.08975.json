@@ -1,0 +1,12 @@
+{
+    "title": "The Best Optimizer Depends on Batch Size",
+    "abstract": "arXiv:2610.08975v1 Announce Type: new  Abstract: A plethora of new adaptive optimizers are designed to efficiently estimate and use minibatch gradient statistics to shape parameter updates, but they are typically benchmarked at a single batch size. Hyperparameter scaling rules promise to preserve performance as batch size and gradient noise change, suggesting that the best optimizer at one batch size should remain the best at another. We challenge this approach to developing and evaluating optimizers by showing: (1) no principled scaling rule for Muon works consistently across training settings, and (2) the best optimizer for language model pretraining changes with batch size even after extensive hyperparameter tuning.",
+    "link": "https://arxiv.org/abs/2610.08975",
+    "context": "Title: The Best Optimizer Depends on Batch Size\nAbstract: arXiv:2610.08975v1 Announce Type: new  Abstract: A plethora of new adaptive optimizers are designed to efficiently estimate and use minibatch gradient statistics to shape parameter updates, but they are typically benchmarked at a single batch size. Hyperparameter scaling rules promise to preserve performance as batch size and gradient noise change, suggesting that the best optimizer at one batch size should remain the best at another. We challenge this approach to developing and evaluating optimizers by showing: (1) no principled scaling rule for Muon works consistently across training settings, and (2) the best optimizer for language model pretraining changes with batch size even after extensive hyperparameter tuning.",
+    "path": "papers/26/10/2610.08975.json",
+    "total_tokens": 917,
+    "translated_title": "最佳优化器取决于批量大小",
+    "translated_abstract": "大量新的自适应优化器被设计用于高效估计和利用小批量梯度统计量来塑造参数更新，但它们通常只在单一批量大小下进行基准测试。超参数缩放规则承诺在批量大小和梯度噪声变化时保持性能，这暗示着在某一批量大小下最佳的优化器在另一批量大小下也应保持最佳。我们通过以下发现挑战了这种开发和评估优化器的方法：(1) Muon没有一种原则性的缩放规则能在各种训练设置中保持一致有效；(2) 即使经过大量的超参数调优，语言模型预训练的最佳优化器也会随批量大小而变化。",
+    "tldr": "该论文挑战了“某一批量大小下最佳的优化器在其他批量大小下也最佳”的常见假设，证明Muon缺乏一致的缩放规则，且即使经过大量超参数调优，语言模型预训练的最佳优化器仍会随批量大小而改变。",
+    "en_tdlr": "The best optimizer for language model pretraining changes with batch size even after extensive hyperparameter tuning, and no principled scaling rule for Muon works consistently across training settings."
+}

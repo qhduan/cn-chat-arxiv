@@ -1,0 +1,12 @@
+{
+    "title": "Gaussian Equivalence for Multi-Head Self-Attention",
+    "abstract": "arXiv:2610.10033v1 Announce Type: cross  Abstract: A theoretical understanding of multi-head self-attention is fundamental to the study of modern neural networks. Using random matrix theory, we establish Gaussian equivalence for multi-head self-attention: replacing softmax attention with rescaled scores plus Gaussian noise preserves the limiting spectral law of the centered output. This equivalence also covers value and output projections that depend on the keys. The resulting laws separate the effects of head allocation and projection widths, and distinguish spectrum-preserving across-head sharing from within-head key--value dependence.",
+    "link": "https://arxiv.org/abs/2610.10033",
+    "context": "Title: Gaussian Equivalence for Multi-Head Self-Attention\nAbstract: arXiv:2610.10033v1 Announce Type: cross  Abstract: A theoretical understanding of multi-head self-attention is fundamental to the study of modern neural networks. Using random matrix theory, we establish Gaussian equivalence for multi-head self-attention: replacing softmax attention with rescaled scores plus Gaussian noise preserves the limiting spectral law of the centered output. This equivalence also covers value and output projections that depend on the keys. The resulting laws separate the effects of head allocation and projection widths, and distinguish spectrum-preserving across-head sharing from within-head key--value dependence.",
+    "path": "papers/26/10/2610.10033.json",
+    "total_tokens": 853,
+    "translated_title": "多头自注意力的高斯等价性",
+    "translated_abstract": "对多头自注意力的理论理解是研究现代神经网络的基础。利用随机矩阵理论，我们建立了多头自注意力的高斯等价性：用缩放后的分数加上高斯噪声替代softmax注意力，可以保持中心化输出的极限谱定律。这一等价性还涵盖了依赖于键的值投影和输出投影。所得到的定律分离了头分配和投影宽度的影响，并区分了保持谱特性的跨头共享与头内键-值依赖。",
+    "tldr": "利用随机矩阵理论建立了多头自注意力的高斯等价性，证明用缩放分数加高斯噪声替代softmax注意力可保持中心化输出的极限谱定律，从而分离了头分配与投影宽度的影响。",
+    "en_tdlr": "Using random matrix theory, we establish Gaussian equivalence for multi-head self-attention, showing that replacing softmax attention with rescaled scores plus Gaussian noise preserves the limiting spectral law of the centered output, thereby separating the effects of head allocation and projection widths."
+}

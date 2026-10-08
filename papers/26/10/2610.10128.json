@@ -1,0 +1,12 @@
+{
+    "title": "m-Set Adversarial Bandits with Winner Feedback",
+    "abstract": "arXiv:2610.10128v1 Announce Type: new  Abstract: We show upper and lower bounds on the regret of $m$-set adversarial bandits for different utilities (winner reward or sum of rewards) and feedback models (winner index, winner reward, sum of rewards, and their combinations). By comparing to standard bounds for combinatorial and MNL bandits, our results reveal how subtle changes in the setting can have a dramatic impact on the learning rates. Our main technical contributions are the information-theoretic lower bounds on the regret. Experiments on synthetic data confirm our theoretical analyses.",
+    "link": "https://arxiv.org/abs/2610.10128",
+    "context": "Title: m-Set Adversarial Bandits with Winner Feedback\nAbstract: arXiv:2610.10128v1 Announce Type: new  Abstract: We show upper and lower bounds on the regret of $m$-set adversarial bandits for different utilities (winner reward or sum of rewards) and feedback models (winner index, winner reward, sum of rewards, and their combinations). By comparing to standard bounds for combinatorial and MNL bandits, our results reveal how subtle changes in the setting can have a dramatic impact on the learning rates. Our main technical contributions are the information-theoretic lower bounds on the regret. Experiments on synthetic data confirm our theoretical analyses.",
+    "path": "papers/26/10/2610.10128.json",
+    "total_tokens": 871,
+    "translated_title": "基于赢家反馈的m集对抗性多臂老虎机",
+    "translated_abstract": "我们针对不同效用函数（赢家奖励或奖励总和）和不同反馈模型（赢家索引、赢家奖励、奖励总和及其组合），给出了 $m$ 集对抗性多臂老虎机遗憾值的上界和下界。通过与组合老虎机和 MNL 老虎机的标准界进行比较，我们的结果揭示了环境设置中的细微变化如何对学习速率产生巨大影响。我们的主要技术贡献在于遗憾值的信息论下界。在合成数据上的实验证实了我们的理论分析。",
+    "tldr": "本文研究了不同效用和反馈模型下m集对抗性多臂老虎机的遗憾界，其主要技术贡献是遗憾值的信息论下界，揭示了环境设置中的细微变化会对学习速率产生巨大影响。",
+    "en_tdlr": "This paper establishes regret upper and lower bounds for m-set adversarial bandits under various utilities and feedback models, with its main technical contribution being information-theoretic lower bounds revealing how subtle changes in the setting dramatically impact learning rates."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Demand Models for Market-Level Data with Closed-Form Inverses",
+    "abstract": "arXiv:2610.10069v1 Announce Type: new  Abstract: We introduce a class of demand models for market-level data. The models can be estimated by linear instrumental variables regression while accommodating substitution patterns far richer than the logit and nested logit models they embed. They are built from closed-form inverse market share functions through a generator analogous to McFadden's generalized extreme value generating function, but acting on market shares. Constructive results allow arbitrary nesting structures, including overlapping nests and partial membership, yielding inverse-share analogs of generalized extreme value models. The class is consistent with utility maximization and strictly larger than the class of regular additive random utility models.",
+    "link": "https://arxiv.org/abs/2610.10069",
+    "context": "Title: Demand Models for Market-Level Data with Closed-Form Inverses\nAbstract: arXiv:2610.10069v1 Announce Type: new  Abstract: We introduce a class of demand models for market-level data. The models can be estimated by linear instrumental variables regression while accommodating substitution patterns far richer than the logit and nested logit models they embed. They are built from closed-form inverse market share functions through a generator analogous to McFadden's generalized extreme value generating function, but acting on market shares. Constructive results allow arbitrary nesting structures, including overlapping nests and partial membership, yielding inverse-share analogs of generalized extreme value models. The class is consistent with utility maximization and strictly larger than the class of regular additive random utility models.",
+    "path": "papers/26/10/2610.10069.json",
+    "total_tokens": 941,
+    "translated_title": "具有闭式逆函数的市场层面数据需求模型",
+    "translated_abstract": "我们为市场层面数据引入了一类需求模型。这些模型可以通过线性工具变量回归进行估计，同时能够容纳比它们所嵌入的logit和嵌套logit模型丰富得多的替代模式。这些模型通过一个类似于McFadden广义极值生成函数的生成函数——但作用于市场份额——基于闭式逆市场份额函数构建。构造性结果允许任意嵌套结构，包括重叠嵌套和部分隶属关系，从而产生了广义极值模型的逆份额对应形式。该类模型与效用最大化一致，且严格大于正则可加随机效用模型类的范围。",
+    "tldr": "该论文提出了一类基于闭式逆市场份额函数构建的市场层面需求模型，可通过线性工具变量回归进行估计，既能容纳比logit和嵌套logit更丰富的替代模式（包括任意嵌套结构），又与效用最大化保持一致。"
+}

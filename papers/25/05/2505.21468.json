@@ -1,0 +1,12 @@
+{
+    "title": "Causal Posterior Estimation",
+    "abstract": "arXiv:2505.21468v2 Announce Type: replace  Abstract: We present Causal Posterior Estimation (CPE), a novel method for Bayesian inference in simulator models, where evaluating the likelihood function is intractable or computationally expensive, but generating outputs given parameter values is straightforward. CPE approximates the posterior distribution using flow matching while directly incorporating the conditional dependence structure induced by the model's graphical representation into the neural network architecture. Across extensive experiments, we demonstrate that hard-coding these conditional dependencies into the network, rather than requiring them to be learned from data, enables CPE to achieve highly accurate posterior inference that matches or outperforms state-of-the-art baselines.",
+    "link": "https://arxiv.org/abs/2505.21468",
+    "context": "Title: Causal Posterior Estimation\nAbstract: arXiv:2505.21468v2 Announce Type: replace  Abstract: We present Causal Posterior Estimation (CPE), a novel method for Bayesian inference in simulator models, where evaluating the likelihood function is intractable or computationally expensive, but generating outputs given parameter values is straightforward. CPE approximates the posterior distribution using flow matching while directly incorporating the conditional dependence structure induced by the model's graphical representation into the neural network architecture. Across extensive experiments, we demonstrate that hard-coding these conditional dependencies into the network, rather than requiring them to be learned from data, enables CPE to achieve highly accurate posterior inference that matches or outperforms state-of-the-art baselines.",
+    "path": "papers/25/05/2505.21468.json",
+    "total_tokens": 834,
+    "translated_title": "因果后验估计",
+    "translated_abstract": "我们提出了因果后验估计，这是一种用于模拟器模型贝叶斯推断的新方法，适用于似然函数难以求解或计算成本高昂、但根据给定参数值生成输出较为简单的场景。CPE利用流匹配来近似后验分布，同时将模型图结构所诱导的条件依赖关系直接融入神经网络架构中。通过大量实验，我们证明了将这些条件依赖关系硬编码到网络中（而非要求从数据中学习它们），使CPE能够实现高度精确的后验推断，其性能达到甚至超越当前最先进的基线方法。",
+    "tldr": "提出因果后验估计（CPE）方法，将模型图结构中的条件依赖关系直接硬编码进基于流匹配的神经网络架构，在似然函数难以计算的模拟器模型中实现高精度的贝叶斯后验推断。",
+    "en_tdlr": "Causal Posterior Estimation (CPE) enables accurate Bayesian posterior inference for simulator models with intractable likelihoods by hard-coding conditional dependencies from the model's graphical structure into a flow-matching neural network."
+}
