@@ -1,0 +1,12 @@
+{
+    "title": "Protecting Losers Undermines Auction Credibility",
+    "abstract": "arXiv:2610.12204v1 Announce Type: new  Abstract: A second-price auction must determine its price but need not learn how far losing values lie below it. We show that protecting this information from the seller conflicts with auction credibility. In deterministic protocols with private communication, lower-tail privacy forces the first informative question to reveal whether a bidder has the highest possible value. The seller can then manipulate the winner's payment without any bidder detecting the deviation, increasing revenue at some valuation profiles and never reducing it. A descending protocol conceals losing values below the price but permits manipulation; with mandatory sale, a credible ascending protocol reveals them.",
+    "link": "https://arxiv.org/abs/2610.12204",
+    "context": "Title: Protecting Losers Undermines Auction Credibility\nAbstract: arXiv:2610.12204v1 Announce Type: new  Abstract: A second-price auction must determine its price but need not learn how far losing values lie below it. We show that protecting this information from the seller conflicts with auction credibility. In deterministic protocols with private communication, lower-tail privacy forces the first informative question to reveal whether a bidder has the highest possible value. The seller can then manipulate the winner's payment without any bidder detecting the deviation, increasing revenue at some valuation profiles and never reducing it. A descending protocol conceals losing values below the price but permits manipulation; with mandatory sale, a credible ascending protocol reveals them.",
+    "path": "papers/26/10/2610.12204.json",
+    "total_tokens": 971,
+    "translated_title": "保护输家损害拍卖可信度",
+    "translated_abstract": "二级价格拍卖必须确定其价格，但无需了解落败估值低于该价格多少。我们证明，向卖家保护这一信息与拍卖可信度相冲突。在具有私密通信的确定性协议中，下尾隐私性迫使第一个信息性问题就揭示某竞标者是否拥有最高的可能估值。此后，卖家便可以在没有任何竞标者察觉偏差的情况下操纵获胜者的支付，从而在某些估值情形下增加收入，且绝不会减少收入。降价（荷兰式）协议隐藏价格以下的落败估值，但允许操纵；在强制出售的条件下，可信的升价（英式）协议则必须揭示这些估值。",
+    "tldr": "该论文证明在二级价格拍卖中，保护落败竞标者的估值信息（下尾隐私）与拍卖可信度不可兼得——任何隐藏输家信息的协议都允许卖家在无人察觉的情况下操纵获胜者的支付，而可信的升价拍卖协议必须揭示落败估值。",
+    "en_tdlr": "This paper proves that in second-price auctions, protecting losers' value information (lower-tail privacy) is incompatible with auction credibility—any protocol hiding losing values allows the seller to manipulate the winner's payment undetected, while a credible ascending auction must reveal them."
+}

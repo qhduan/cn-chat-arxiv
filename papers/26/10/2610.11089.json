@@ -1,0 +1,12 @@
+{
+    "title": "Decision Noise in Threshold Selection",
+    "abstract": "arXiv:2610.11089v1 Announce Type: new  Abstract: Can noisier threshold selection produce a group with higher mean true value? We answer this question by varying the scale of a fixed assessment error. Holding the selection rate fixed, less noise yields a first-order stochastically dominant distribution of selected values. At a fixed threshold, however, more noise can raise the selected mean even as selection loss, which weights selection mistakes by the distance of true value from the threshold, increases. Under joint Gaussianity, we characterize when the selected mean rises or falls with noise. In treatment selection, noise alone can generate subgroup differences in participants' average gains despite identical population gain distributions.",
+    "link": "https://arxiv.org/abs/2610.11089",
+    "context": "Title: Decision Noise in Threshold Selection\nAbstract: arXiv:2610.11089v1 Announce Type: new  Abstract: Can noisier threshold selection produce a group with higher mean true value? We answer this question by varying the scale of a fixed assessment error. Holding the selection rate fixed, less noise yields a first-order stochastically dominant distribution of selected values. At a fixed threshold, however, more noise can raise the selected mean even as selection loss, which weights selection mistakes by the distance of true value from the threshold, increases. Under joint Gaussianity, we characterize when the selected mean rises or falls with noise. In treatment selection, noise alone can generate subgroup differences in participants' average gains despite identical population gain distributions.",
+    "path": "papers/26/10/2610.11089.json",
+    "total_tokens": 1303,
+    "translated_title": "阈值选择中的决策噪声",
+    "translated_abstract": "更嘈杂的阈值选择能否产生真实均值更高的群体？我们通过改变固定评估误差的规模来回答这一问题。在保持选择率固定的情况下，更少的噪声会使被选择值的分布具有一阶随机占优性。然而，在固定阈值下，即使选择损失（即按真实值与阈值之间的距离对选择错误进行加权）增加，更多的噪声也可能提高被选择者的均值。在联合高斯分布的条件下，我们刻画了被选择均值随噪声上升或下降的情形。在治疗选择中，即使总体增益分布完全相同，仅凭噪声本身就能产生参与者平均收益的子群体差异。",
+    "tldr": "该研究证明在固定阈值下，更多的评估噪声反而可能提高被选择群体的真实均值，并指出仅噪声本身即可在总体增益分布相同时造成子群体间平均收益的差异。",
+    "en_tdlr": "This paper proves that, at a fixed threshold, more assessment noise can paradoxically raise the mean true value of the selected group, and that noise alone can generate subgroup differences in average gains despite identical population gain distributions."
+}

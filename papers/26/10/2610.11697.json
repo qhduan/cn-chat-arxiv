@@ -1,0 +1,12 @@
+{
+    "title": "What is the goal of unsupervised machine learning?",
+    "abstract": "arXiv:2610.11697v1 Announce Type: new  Abstract: Unsupervised learning is one of the main branches of machine learning. Here I argue that unlike the other branches of machine learning (supervised and reinforcement learning), unsupervised learning is a rather heterogenous field that can serve several different goals. It seems futile to try to define one single goal for unsupervised learning. I identify four different goals for unsupervised learning: 1) Estimating the distribution, 2) Generating new data points, 3) Extracting features for downstream tasks, and 4) Understanding the data.",
+    "link": "https://arxiv.org/abs/2610.11697",
+    "context": "Title: What is the goal of unsupervised machine learning?\nAbstract: arXiv:2610.11697v1 Announce Type: new  Abstract: Unsupervised learning is one of the main branches of machine learning. Here I argue that unlike the other branches of machine learning (supervised and reinforcement learning), unsupervised learning is a rather heterogenous field that can serve several different goals. It seems futile to try to define one single goal for unsupervised learning. I identify four different goals for unsupervised learning: 1) Estimating the distribution, 2) Generating new data points, 3) Extracting features for downstream tasks, and 4) Understanding the data.",
+    "path": "papers/26/10/2610.11697.json",
+    "total_tokens": 851,
+    "translated_title": "无监督机器学习的目标是什么？",
+    "translated_abstract": "无监督学习是机器学习的主要分支之一。在本文中，我认为与机器学习的其他分支（监督学习和强化学习）不同，无监督学习是一个相当异质化的领域，可以服务于多个不同的目标。试图为无监督学习定义单一的目标似乎是徒劳的。我确定了无监督学习的四个不同目标：1）估计分布，2）生成新的数据点，3）为下游任务提取特征，以及4）理解数据。",
+    "tldr": "本文认为无监督学习是异质化领域，无法定义单一目标，并提出其四个不同目标：估计分布、生成新数据、为下游任务提取特征和理解数据。",
+    "en_tdlr": "This paper argues that unsupervised learning is a heterogeneous field that cannot be defined by a single goal, and identifies four distinct goals: estimating distributions, generating new data points, extracting features for downstream tasks, and understanding the data."
+}

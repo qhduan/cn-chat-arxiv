@@ -1,0 +1,12 @@
+{
+    "title": "Rolling Window Selection in FAR Models with Structural Instabilities",
+    "abstract": "arXiv:2610.12025v1 Announce Type: new  Abstract: The paper develops a theory for selecting the rolling window when generating out-of-sample forecasts with factor-augmented regression (FAR) models in the presence of structural instabilities. It shows how to select a rolling window by minimizing the conditional mean squared forecast error (MSFE) while accounting for uncertainty in factor estimation. Because the conditional MSFE is unobserved and the factors are latent, this paper proposes a feasible version of the criterion and derives conditions under which the new method is asymptotically loss-efficient. A simulation experiment documents the procedure's performance.",
+    "link": "https://arxiv.org/abs/2610.12025",
+    "context": "Title: Rolling Window Selection in FAR Models with Structural Instabilities\nAbstract: arXiv:2610.12025v1 Announce Type: new  Abstract: The paper develops a theory for selecting the rolling window when generating out-of-sample forecasts with factor-augmented regression (FAR) models in the presence of structural instabilities. It shows how to select a rolling window by minimizing the conditional mean squared forecast error (MSFE) while accounting for uncertainty in factor estimation. Because the conditional MSFE is unobserved and the factors are latent, this paper proposes a feasible version of the criterion and derives conditions under which the new method is asymptotically loss-efficient. A simulation experiment documents the procedure's performance.",
+    "path": "papers/26/10/2610.12025.json",
+    "total_tokens": 899,
+    "translated_title": "存在结构不稳定性时FAR模型中的滚动窗口选择",
+    "translated_abstract": "本文针对在存在结构不稳定性的情况下，使用因子增广回归（FAR）模型生成样本外预测时如何选择滚动窗口的问题，发展了一套理论。本文展示了如何通过最小化条件均方预测误差（MSFE）来选择滚动窗口，同时考虑因子估计中的不确定性。由于条件MSFE是不可观测的，且因子是潜变量，本文提出了该准则的一个可行版本，并推导出新方法在何种条件下具有渐近损失有效性。一项仿真实验记录了该方法的表现。",
+    "tldr": "本文提出了一种在存在结构不稳定性时为因子增广回归（FAR）模型选择滚动窗口的新方法，该方法通过最小化考虑因子估计不确定性的条件均方预测误差，并给出了该准则的可行版本，证明其在一定条件下具有渐近损失有效性。",
+    "en_tdlr": "This paper develops a feasible method for selecting rolling windows in factor-augmented regression (FAR) models under structural instabilities by minimizing the conditional mean squared forecast error while accounting for factor estimation uncertainty, and proves the method is asymptotically loss-efficient."
+}

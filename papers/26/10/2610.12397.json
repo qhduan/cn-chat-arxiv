@@ -1,0 +1,12 @@
+{
+    "title": "Prospective Prediction of OOD Degradation from Source-Side Training Dynamics",
+    "abstract": "arXiv:2610.12397v1 Announce Type: new  Abstract: We study whether persistent out-of-distribution (OOD) degradation can be predicted before it is directly observed using only source-side training dynamics. In a controlled shortcut-learning setting, a simple logistic regression predictor develops a clear prospective signal, while training time alone does not. Temporal summaries of the source-side quantities are substantially more informative than their current values. When transferred without additional training from a CNN to an MLP, confidence and entropy dynamics retain substantial predictive information. These results provide a proof of principle that source-side training dynamics can contain an early warning signal for future OOD failure.",
+    "link": "https://arxiv.org/abs/2610.12397",
+    "context": "Title: Prospective Prediction of OOD Degradation from Source-Side Training Dynamics\nAbstract: arXiv:2610.12397v1 Announce Type: new  Abstract: We study whether persistent out-of-distribution (OOD) degradation can be predicted before it is directly observed using only source-side training dynamics. In a controlled shortcut-learning setting, a simple logistic regression predictor develops a clear prospective signal, while training time alone does not. Temporal summaries of the source-side quantities are substantially more informative than their current values. When transferred without additional training from a CNN to an MLP, confidence and entropy dynamics retain substantial predictive information. These results provide a proof of principle that source-side training dynamics can contain an early warning signal for future OOD failure.",
+    "path": "papers/26/10/2610.12397.json",
+    "total_tokens": 893,
+    "translated_title": "基于源侧训练动态对分布外（OOD）退化的前瞻性预测",
+    "translated_abstract": "我们研究了能否仅利用源侧训练动态，在直接观察到持续性分布外退化之前对其进行预测。在一个受控的捷径学习设置中，一个简单的逻辑回归预测器展现出明显的前瞻性信号，而仅凭训练时间则无法做到。源侧各量的时间汇总信息远比其当前值更有价值。当从CNN无需额外训练地迁移到MLP时，置信度和熵的动态仍保留了大量预测信息。这些结果提供了一个原理性证明：源侧训练动态可以包含对未来OOD失败的早期预警信号。",
+    "tldr": "论文证明了仅利用源侧训练动态（尤其是置信度和熵的时间汇总特征）即可在分布外退化发生之前预测到它，且该早期预警信号无需额外训练即可跨模型架构迁移。",
+    "en_tdlr": "Source-side training dynamics—especially temporal summaries of confidence and entropy—serve as an early warning signal that can prospectively predict future OOD degradation and transfer across architectures without additional training."
+}

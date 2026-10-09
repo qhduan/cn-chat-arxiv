@@ -1,0 +1,11 @@
+{
+    "title": "Natural Language to First-Order Logic LLM-based Autoformalization",
+    "abstract": "arXiv:2610.12030v1 Announce Type: new  Abstract: Large Language Models (LLMs) have renewed interest in autoformalization. Yet, when First-Order Logic (FOL) is considered as the target formalism, the field still lacks a unified task formulation and a systematic survey. This paper addresses this gap: we first provide a principled definition for the FOL-autoformalization task by distinguishing Ontology Extraction from Logical Translation, showing how their conflation obscures (cross-study) evaluation; we review existing datasets, evaluation metrics, and LLM-based methods, including fine-tuning, prompting, and verification-based refinement; we identify open challenges in benchmarking, semantic evaluation, ontology-aware methods, and end-to-end applications.",
+    "link": "https://arxiv.org/abs/2610.12030",
+    "context": "Title: Natural Language to First-Order Logic LLM-based Autoformalization\nAbstract: arXiv:2610.12030v1 Announce Type: new  Abstract: Large Language Models (LLMs) have renewed interest in autoformalization. Yet, when First-Order Logic (FOL) is considered as the target formalism, the field still lacks a unified task formulation and a systematic survey. This paper addresses this gap: we first provide a principled definition for the FOL-autoformalization task by distinguishing Ontology Extraction from Logical Translation, showing how their conflation obscures (cross-study) evaluation; we review existing datasets, evaluation metrics, and LLM-based methods, including fine-tuning, prompting, and verification-based refinement; we identify open challenges in benchmarking, semantic evaluation, ontology-aware methods, and end-to-end applications.",
+    "path": "papers/26/10/2610.12030.json",
+    "total_tokens": 1062,
+    "translated_title": "基于大语言模型的自然语言到一阶逻辑的自动形式化",
+    "translated_abstract": "大语言模型（LLMs）重新激发了人们对自动形式化的兴趣。然而，当以一阶逻辑（FOL）作为目标形式化语言时，该领域仍然缺乏统一的任务定义和系统性的综述。本文填补了这一空白：我们首先通过区分本体抽取与逻辑翻译，为一阶逻辑自动形式化任务提供了原则性的定义，并展示了两者概念混淆如何使（跨研究的）评估变得模糊不清；我们综述了现有的数据集、评估指标以及基于大语言模型的方法，包括微调、提示工程和基于验证的精炼；我们还指出了在基准测试、语义评估、本体感知方法以及端到端应用方面的开放性挑战。",
+    "tldr": "本文首次通过区分本体抽取与逻辑翻译，为一阶逻辑自动形式化任务提供了原则性定义，并系统综述了现有数据集、评估指标和基于大语言模型的方法，指出了基准测试与语义评估等方面的开放性挑战。"
+}

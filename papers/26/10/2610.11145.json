@@ -1,0 +1,12 @@
+{
+    "title": "Tight Bounds for Equivalence Testing with Non-Adaptive Conditional Samples",
+    "abstract": "arXiv:2610.11145v1 Announce Type: cross  Abstract: We study distribution testing with access to non-adaptive conditional samples. Specifically, we give tight bounds for equivalence testing, determining whether two unknown distributions are equal to or $\\varepsilon$-far from each other in total variation distance. Our algorithm and lower bound show that $\\tilde \\Theta\\left(\\frac{\\log n}{\\varepsilon^2}\\right)$ queries are necessary and sufficient for this problem. These results demonstrate that the complexity of uniformity, identity, and equivalence testing with non-adaptive conditional samples are all $\\tilde \\Theta(\\log n)$.",
+    "link": "https://arxiv.org/abs/2610.11145",
+    "context": "Title: Tight Bounds for Equivalence Testing with Non-Adaptive Conditional Samples\nAbstract: arXiv:2610.11145v1 Announce Type: cross  Abstract: We study distribution testing with access to non-adaptive conditional samples. Specifically, we give tight bounds for equivalence testing, determining whether two unknown distributions are equal to or $\\varepsilon$-far from each other in total variation distance. Our algorithm and lower bound show that $\\tilde \\Theta\\left(\\frac{\\log n}{\\varepsilon^2}\\right)$ queries are necessary and sufficient for this problem. These results demonstrate that the complexity of uniformity, identity, and equivalence testing with non-adaptive conditional samples are all $\\tilde \\Theta(\\log n)$.",
+    "path": "papers/26/10/2610.11145.json",
+    "total_tokens": 985,
+    "translated_title": "非自适应条件样本下等价性检验的紧致界",
+    "translated_abstract": "我们研究了具有非自适应条件样本访问权限的分布测试问题。具体而言，我们给出了等价性检验的紧致界，该问题旨在判定两个未知分布是相等的，还是在全变差距离下彼此相距至少 $\\varepsilon$ 远。我们的算法和下界表明，解决该问题需要且仅需 $\\tilde \\Theta\\left(\\frac{\\log n}{\\varepsilon^2}\\right)$ 次查询。这些结果表明，在非自适应条件样本模型下，均匀性检验、恒等性检验和等价性检验的复杂度均为 $\\tilde \\Theta(\\log n)$。",
+    "tldr": "本文针对非自适应条件样本模型下的等价性检验问题，给出了匹配的算法与下界，证明其查询复杂度为 $\\tilde \\Theta(\\log n/\\varepsilon^2)$，并由此揭示均匀性、恒等性和等价性检验的复杂度均为 $\\tilde \\Theta(\\log n)$。",
+    "en_tdlr": "This paper establishes tight bounds of $\\tilde\\Theta(\\log n/\\varepsilon^2)$ queries for equivalence testing with non-adaptive conditional samples, demonstrating that uniformity, identity, and equivalence testing all share the same complexity of $\\tilde\\Theta(\\log n)$."
+}

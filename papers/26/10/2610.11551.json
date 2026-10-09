@@ -1,0 +1,12 @@
+{
+    "title": "New Lower Bound and Upper Bounds on the Regret for Online Sparse Linear Regression",
+    "abstract": "arXiv:2610.11551v1 Announce Type: new  Abstract: We study online sparse linear regression (OSLR) where any algorithm is restricted to accessing only $b$ out of $d$ attributes per instance for prediction and $b_0\\geq 0$ additional attributes after prediction, which was proved to be NP-hard. Previous work focused on designing computationally efficient algorithms under regularity assumptions, but did not characterize its information theoretic complexity. In this work, we give the first lower bound on the minimax regret of OSLR and design algorithms with better upper bounds without regularity assumptions. We characterize how minimax regret scales with problem-dependent parameters, capturing the information theoretic complexity of OSLR.",
+    "link": "https://arxiv.org/abs/2610.11551",
+    "context": "Title: New Lower Bound and Upper Bounds on the Regret for Online Sparse Linear Regression\nAbstract: arXiv:2610.11551v1 Announce Type: new  Abstract: We study online sparse linear regression (OSLR) where any algorithm is restricted to accessing only $b$ out of $d$ attributes per instance for prediction and $b_0\\geq 0$ additional attributes after prediction, which was proved to be NP-hard. Previous work focused on designing computationally efficient algorithms under regularity assumptions, but did not characterize its information theoretic complexity. In this work, we give the first lower bound on the minimax regret of OSLR and design algorithms with better upper bounds without regularity assumptions. We characterize how minimax regret scales with problem-dependent parameters, capturing the information theoretic complexity of OSLR.",
+    "path": "papers/26/10/2610.11551.json",
+    "total_tokens": 1039,
+    "translated_title": "在线稀疏线性回归遗憾度的新下界与上界",
+    "translated_abstract": "我们研究在线稀疏线性回归（OSLR）问题，其中任何算法在预测时每个实例仅被允许访问 $d$ 个属性中的 $b$ 个，并在预测后可额外访问 $b_0\\geq 0$ 个属性，该问题已被证明是NP难的。以往的工作聚焦于在正则性假设下设计计算高效的算法，但并未刻画其信息论复杂度。在本工作中，我们给出了OSLR极小极大遗憾的首个下界，并在没有正则性假设的条件下设计了具有更优上界的算法。我们刻画了极小极大遗憾如何随问题相关参数变化而伸缩，从而捕捉了OSLR的信息论复杂度。",
+    "tldr": "本文首次给出了在线稀疏线性回归极小极大遗憾的下界，并在无需正则性假设的条件下设计了具有更优遗憾上界的算法，刻画了该问题的信息论复杂度。",
+    "en_tdlr": "This paper establishes the first minimax regret lower bound for online sparse linear regression and designs algorithms with improved upper bounds without regularity assumptions, characterizing its information-theoretic complexity."
+}

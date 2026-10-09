@@ -1,0 +1,12 @@
+{
+    "title": "Risk Ceilings and Development Deadlines: Pacing AI under Uncertain Safety Productivity",
+    "abstract": "arXiv:2610.11093v1 Announce Type: new  Abstract: Can a regulator promise both a risk ceiling and a development deadline when safety productivity is unknown? A ceiling below the final model's unprotected hazard requires a minimum stock of safety knowledge, so both promises hold only if weak research can be ruled out. Learning first and then replaying development, with spare compute in safety, comes close to that minimum. In a calibration with only state risk, constant safety yield, and full knowledge transfer, it needs only 3.3 percent more productivity than the necessary bound. Customer services pay for the guarantee. Rules that fix compute allocation fix dates, not risk.",
+    "link": "https://arxiv.org/abs/2610.11093",
+    "context": "Title: Risk Ceilings and Development Deadlines: Pacing AI under Uncertain Safety Productivity\nAbstract: arXiv:2610.11093v1 Announce Type: new  Abstract: Can a regulator promise both a risk ceiling and a development deadline when safety productivity is unknown? A ceiling below the final model's unprotected hazard requires a minimum stock of safety knowledge, so both promises hold only if weak research can be ruled out. Learning first and then replaying development, with spare compute in safety, comes close to that minimum. In a calibration with only state risk, constant safety yield, and full knowledge transfer, it needs only 3.3 percent more productivity than the necessary bound. Customer services pay for the guarantee. Rules that fix compute allocation fix dates, not risk.",
+    "path": "papers/26/10/2610.11093.json",
+    "total_tokens": 1655,
+    "translated_title": "风险上限与发展期限：在安全生产力不确定时为人工智能设定节奏",
+    "translated_abstract": "当安全生产力未知时，监管者能否同时承诺风险上限与发展期限？要使风险上限低于最终模型在无防护情况下的危险水平，需要最低限度的安全知识储备，因此只有当能够排除较弱的研究成果时，这两项承诺才能同时成立。“先学习、后重演开发”，并在安全上预留富余算力的策略可以接近这一最低要求。在一个仅包含状态风险、恒定安全产出和完全知识转移的校准设定下，该方法所需的生产力仅比必要下界高3.3%。这一保障的成本由客户服务来支付。固定算力分配的规则固定的是期限，而非风险。",
+    "tldr": "该论文提出，在安全研究生产力不确定的情况下，“先安全学习、后重演开发”并预留安全算力的策略能以仅比理论下界高3.3%的生产力代价，接近实现风险上限与发展期限的双重监管承诺，且保障成本可由客户服务承担。",
+    "en_tdlr": "Under uncertain safety productivity, a \"learn first, then replay development\" strategy with spare safety compute nearly achieves both a risk ceiling and a development deadline, requiring only 3.3% more productivity than the necessary bound, with the guarantee paid for by customer services."
+}

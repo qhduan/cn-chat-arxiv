@@ -1,0 +1,12 @@
+{
+    "title": "Can LLMs Simulate Novice Programmers' Misconceptions?",
+    "abstract": "arXiv:2610.10656v1 Announce Type: new  Abstract: We evaluate 13 LLMs on generating, solving, simulating, and diagnosing novice programming misconceptions on code-tracing problems. While frontier models reliably perform these tasks, small models ($\\le$14B) struggle with dynamic execution. Notably, code-tuned models fail during misconception simulation by reverting to correct execution. Finally, misconception diagnosis is significantly easier in True/False formats than in open-ended generation tasks.",
+    "link": "https://arxiv.org/abs/2610.10656",
+    "context": "Title: Can LLMs Simulate Novice Programmers' Misconceptions?\nAbstract: arXiv:2610.10656v1 Announce Type: new  Abstract: We evaluate 13 LLMs on generating, solving, simulating, and diagnosing novice programming misconceptions on code-tracing problems. While frontier models reliably perform these tasks, small models ($\\le$14B) struggle with dynamic execution. Notably, code-tuned models fail during misconception simulation by reverting to correct execution. Finally, misconception diagnosis is significantly easier in True/False formats than in open-ended generation tasks.",
+    "path": "papers/26/10/2610.10656.json",
+    "total_tokens": 907,
+    "translated_title": "大型语言模型能否模拟新手程序员的误解？",
+    "translated_abstract": "我们在代码追踪问题上评估了13个大语言模型在生成、解决、模拟和诊断新手编程误解方面的能力。研究发现，前沿模型能够可靠地完成这些任务，而小型模型（参数量≤14B）在动态执行方面存在困难。值得注意的是，经过代码调优的模型在模拟误解时会失败，因为它们会回退到正确的执行方式。此外，误解诊断在判断题（对/错）格式下比在开放式生成任务中要容易得多。",
+    "tldr": "本研究评估了13个大语言模型模拟新手编程误解的能力，发现前沿模型表现可靠，但小模型难以进行动态执行，代码调优模型在模拟误解时会回退到正确执行，且判断题格式的诊断任务显著易于开放式生成任务。",
+    "en_tdlr": "This study evaluates 13 LLMs on simulating novice programmers' misconceptions, finding that frontier models perform these tasks reliably while small models struggle with dynamic execution, code-tuned models fail at misconception simulation by reverting to correct execution, and diagnosis is significantly easier in True/False formats than in open-ended generation tasks."
+}

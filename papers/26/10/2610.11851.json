@@ -1,0 +1,12 @@
+{
+    "title": "Dictatorial profiles: a proof of Arrow's theorem",
+    "abstract": "arXiv:2610.11851v1 Announce Type: new  Abstract: We study social welfare rules with strict individual and social preferences. A preference profile is dictatorial for a rule if the social preference coincides with some agent's preference and no agent with a different preference can change the social preference unilaterally. We establish that (i) a rule is dictatorial if and only if all of its profiles are dictatorial; and (ii) if a rule satisfies unanimity and independence (of irrelevant alternatives), then all its profiles must be dictatorial. These results constitute a proof of Arrow's Impossibility Theorem.",
+    "link": "https://arxiv.org/abs/2610.11851",
+    "context": "Title: Dictatorial profiles: a proof of Arrow's theorem\nAbstract: arXiv:2610.11851v1 Announce Type: new  Abstract: We study social welfare rules with strict individual and social preferences. A preference profile is dictatorial for a rule if the social preference coincides with some agent's preference and no agent with a different preference can change the social preference unilaterally. We establish that (i) a rule is dictatorial if and only if all of its profiles are dictatorial; and (ii) if a rule satisfies unanimity and independence (of irrelevant alternatives), then all its profiles must be dictatorial. These results constitute a proof of Arrow's Impossibility Theorem.",
+    "path": "papers/26/10/2610.11851.json",
+    "total_tokens": 931,
+    "translated_title": "独裁剖面：阿罗定理的一个证明",
+    "translated_abstract": "我们研究具有严格个体偏好和社会偏好的社会福利规则。对于一个规则而言，如果社会偏好与某个行为人的偏好相一致，且任何具有不同偏好的行为人都无法单方面改变社会偏好，则称该偏好剖面对于这个规则是独裁的。我们证明：（i）一个规则是独裁的，当且仅当它的所有剖面都是独裁的；（ii）如果一个规则满足一致性（全体一致原则）和（无关备选项的）独立性，那么它的所有剖面都必然是独裁的。这些结果构成了阿罗不可能定理的一个证明。",
+    "tldr": "本文提出“独裁偏好剖面”概念并证明规则独裁当且仅当其所有剖面均独裁，进而表明满足一致性与无关备选项独立性的规则其所有剖面必然独裁，由此为阿罗不可能定理提供了一个新证明。",
+    "en_tdlr": "This paper proves that a social welfare rule is dictatorial if and only if all its preference profiles are dictatorial, and that unanimity and independence of irrelevant alternatives force every profile to be dictatorial, thereby providing a new proof of Arrow's Impossibility Theorem."
+}

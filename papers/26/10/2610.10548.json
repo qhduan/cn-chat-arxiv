@@ -1,0 +1,12 @@
+{
+    "title": "Interpretable Memory Models for Spaced Repetition",
+    "abstract": "arXiv:2610.10548v1 Announce Type: cross  Abstract: Spaced repetition software schedules reviews with a memory model fit to review logs. Accuracy on a test set is not sufficient evidence of quality since available data are produced by existing schedulers, and new solutions must extrapolate beyond them. A model also needs a simple mechanistic interpretation. We present SBD, a model that is more interpretable and 80% smaller than the current state of the art at nearly the same accuracy.",
+    "link": "https://arxiv.org/abs/2610.10548",
+    "context": "Title: Interpretable Memory Models for Spaced Repetition\nAbstract: arXiv:2610.10548v1 Announce Type: cross  Abstract: Spaced repetition software schedules reviews with a memory model fit to review logs. Accuracy on a test set is not sufficient evidence of quality since available data are produced by existing schedulers, and new solutions must extrapolate beyond them. A model also needs a simple mechanistic interpretation. We present SBD, a model that is more interpretable and 80% smaller than the current state of the art at nearly the same accuracy.",
+    "path": "papers/26/10/2610.10548.json",
+    "total_tokens": 748,
+    "translated_title": "面向间隔重复的可解释记忆模型",
+    "translated_abstract": "间隔重复软件通过一个根据复习日志拟合的记忆模型来安排复习计划。然而，仅在测试集上的准确性并不足以证明模型的质量，因为可用的数据是由现有调度器生成的，而新的解决方案必须能够外推超越这些数据的范围。此外，模型还需要具备简单的机制性解释。我们提出了SBD，一个比当前最先进模型更具可解释性、体积缩小80%，同时保持几乎相同准确性的模型。",
+    "tldr": "提出SBD记忆模型，在保持与最先进模型几乎相同准确性的同时，可解释性更强且模型体积缩小80%。",
+    "en_tdlr": "SBD is a more interpretable memory model for spaced repetition that is 80% smaller than the state of the art while achieving nearly the same accuracy."
+}

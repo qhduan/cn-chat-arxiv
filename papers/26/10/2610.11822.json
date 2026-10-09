@@ -1,0 +1,12 @@
+{
+    "title": "Weighted selection from elliptical distributions: a stochastic representation and an application to portfolio separation",
+    "abstract": "arXiv:2610.11822v1 Announce Type: new  Abstract: We represent (weighted-)selection-elliptical distributions as an affine combination of the $q$ selection variables plus an elliptical term whose direction alone is independent. This form suffices for $q+2$ fund separation via first-order stochastic dominance, inter alia relaxing Simaan's (1993) three-fund assumptions.",
+    "link": "https://arxiv.org/abs/2610.11822",
+    "context": "Title: Weighted selection from elliptical distributions: a stochastic representation and an application to portfolio separation\nAbstract: arXiv:2610.11822v1 Announce Type: new  Abstract: We represent (weighted-)selection-elliptical distributions as an affine combination of the $q$ selection variables plus an elliptical term whose direction alone is independent. This form suffices for $q+2$ fund separation via first-order stochastic dominance, inter alia relaxing Simaan's (1993) three-fund assumptions.",
+    "path": "papers/26/10/2610.11822.json",
+    "total_tokens": 956,
+    "translated_title": "椭圆分布的加权选择：一种随机表示及其在投资组合分离中的应用",
+    "translated_abstract": "我们将（加权）选择-椭圆分布表示为 $q$ 个选择变量的仿射组合，再加上一个椭圆项，其中该椭圆项仅方向是独立的。这种表示形式足以通过一阶随机占优实现 $q+2$ 基金分离，同时也放宽了 Simaan（1993）的三基金假设条件。",
+    "tldr": "本文提出了（加权）选择-椭圆分布的随机表示方法，并据此通过一阶随机占优证明了 $q+2$ 基金分离定理，从而放宽了 Simaan（1993）的三基金假设。",
+    "en_tdlr": "This paper derives a stochastic representation of (weighted-)selection-elliptical distributions and uses it to establish $q+2$ fund separation via first-order stochastic dominance, thereby relaxing Simaan's (1993) three-fund assumptions."
+}
