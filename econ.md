@@ -4,29 +4,37 @@
 | --- | --- | --- |
 | [^1] | [Linear Demand Systems are Consistent with Discrete Choice](https://arxiv.org/abs/2610.13785) | 本文证明加总线性需求系统可由异质性消费者的离散选择行为提供微观基础，并提出一种仅需市场层面数据的结构估计方法，兼具BLP模型的丰富性与线性需求的分析和计算优势。 |
 | [^2] | [Two-Sided Plausibility Constraints in Persuasion](https://arxiv.org/abs/2610.13702) | 本文刻画了信息设计（说服）中“后验均值须比先验均值更分散、比状态更不分散”这一双侧合理性约束何时为充分条件——当状态具有正密度时恰在区间分割信息下充分——并据此推导了投标者初始只知估值区间的第二价格拍卖中的最优对称披露规则。 |
-| [^3] | [AI-Mediation in Retail Markets: Revenue Effects and Assortment Optimization](https://arxiv.org/abs/2610.12917) | 该研究通过构建AI产品排序数据集并建立Plackett-Luce随机中介模型，证明在零售商品组合优化中纳入AI中介效应可将平均收入损失降低2.52%至11.37%，并显著改变最优商品组合的选择。 |
-| [^4] | [The Financing of Debt Relief: Intermediary Liquidity and the Value of Borrower Information](https://arxiv.org/abs/2610.12875) | 本文利用190万笔吉利美回购选择权数据发现，2020年融资市场冻结时流动性受限的非银行发行人推迟了约190亿美元逾期贷款回购，并通过按每美元现金价值配给的模型证明，借款人信息在融资紧张程度适中时最有价值。 |
-| [^5] | [An efficient stochastic generalized method of moments estimator for nonlinear moment models](https://arxiv.org/abs/2610.12873) | 本文针对非线性矩条件下的随机GMM算法，在预条件单调性条件下建立了几乎必然收敛性与收敛速率，并证明了具有有效GMM方差的函数中心极限定理，其单次更新成本与样本规模无关。 |
-| [^6] | [The False Allure of "Security by Obscurity": A Game-Theoretic Approach](https://arxiv.org/abs/2610.12858) | 本文首次运用博弈论方法对“模糊安全”理念进行严格建模，为安全界长期依赖经验直觉的“开放还是隐匿”之争提供了理论分析基础。 |
-| [^7] | [GMM for Panel Data Quantile Regression](https://arxiv.org/abs/2610.12824) | 本文提出了一个针对含个体固定效应和内生回归变量的面板分位数模型的平滑广义矩估计（GMM）框架，该估计量可通过标准GMM算法实现，并在弱时间依赖条件下建立了一致性、渐近正态性和可行推断理论。 |
-| [^8] | [Childcare Waitlists](https://arxiv.org/abs/2610.12732) | 论文揭示了托儿服务中“家长排队漫长”与“托儿中心空位闲置”并存的悖论源于家庭多重申请造成的幽灵名单和冗长的录取确认流程，并提出通过定期验证清除幽灵名单等运营措施来提高入学效率、减少空位。 |
-| [^9] | [Simple Standard Errors for Complicated (Quasi-)Experimental Designs](https://arxiv.org/abs/2610.12674) | 提出一种适用于已知处理暴露分布但存在复杂依赖模式（如单位间溢出/干扰或空间相关处理分配）的方差估计量，它将Neyman方差估计量的关键性质推广到一般实验设计，并在简单设计下退化为标准方法。 |
-| [^10] | [On the Optimality of Mental Accounting](https://arxiv.org/abs/2610.12587) | 本文提出心理账户（固定美元预算）可被视为消费者对抗卖方市场势力的最优承诺装置，因为单位弹性需求消除了卖方限制数量和加价的激励，且起关键作用的是预算刚性而非偏好可分离性。 |
-| [^11] | [Early Investment Snowballs for Low-Skill Children: Average Marginal Returns and the Dynamics of Skill Formation](https://arxiv.org/abs/2610.12509) | 论文通过区分贝克尔回报曲线（BSR）与平均边际回报（AMR）这两个不同概念，化解了项目评估与结构模型关于低技能儿童投资回报的表面矛盾，并发现低技能儿童在幼年因投资匮乏而拥有更高的平均边际投资回报，这一优势在较晚年龄段发生逆转。 |
-| [^12] | [Crisis without Collapse: A Theory of Capitalist Persistence](https://arxiv.org/abs/2610.12477) | 该论文将175年来“资本主义终将崩溃”预言屡屡落空这一现象模型化，通过统一自适应系统、机制设计与计算复杂性、行为决策理论和全局博弈等多领域成果，构建了一个包含十条假设、十二个形式化结果和一条定理的理论框架，证明崩溃风险随制度学习而呈几何级数衰减。 |
-| [^13] | [The Gendered Impacts of Perceived Skin Tone: Evidence from African American Siblings in 1870-1940](https://arxiv.org/abs/2610.10606) | 本研究利用1870-1940年美国人口普查全量数据，通过同性别兄弟姐妹内部对比这一创新方法，揭示了肤色歧视的性别化影响：被判定为深肤色的非裔美国女性在受教育程度、婚姻前景及配偶经济状况上均遭受显著不利，表明历史上针对非裔美国人的肤色歧视对女性尤为严重。 |
-| [^14] | [Endogenous Information Design and Informational Evolution in Dynamic Economic Systems with Incentives and Learning](https://arxiv.org/abs/2609.36093) | 本文构建了一个系统层面的动态均衡框架，研究信息生产、披露、学习与激励如何通过递归反馈在动态经济系统中内生地共同演化，并揭示了相对于信息环境外生固定的标准结论所出现的三个核心失灵。 |
-| [^15] | [The Robustness of Sequential Implementation under Information Perturbations](https://arxiv.org/abs/2609.30464) | 本文证明多阶段机制在序贯均衡精炼下超越贝叶斯单调性的额外实施能力是脆弱的——在任意小的信息扰动下，存在以严格正概率产生不可采纳决策的序贯均衡。 |
-| [^16] | [Optimal growth under irreversible pollution: The Forster-Ramsey model](https://arxiv.org/abs/2609.12693) | 该研究在Forster-Ramsey模型中刻画了决定经济可持续性的最大吸收能力阈值，并证明最优减排政策只能移动而无法消除不可逆污染的阈值。 |
-| [^17] | [Choosing the Dictionary and Penalty for IV-LASSO](https://arxiv.org/abs/2609.07033) | 本文利用一阶和二阶Stein恒等式推导出IV-LASSO估计量的近似均方误差（AMSE），为有限样本中选择工具变量字典和惩罚参数提供了可操作的依据。 |
-| [^18] | [Identification, Estimation and Inference Based on Constructed Instruments](https://arxiv.org/abs/2607.05699) | 提出结构投影（SP）方法，通过将结构误差投影到解释变量生成的σ-域上内部构造有效工具变量，无需外部工具变量即可对内生性回归模型进行识别、估计与推断，且适用于线性、非线性和不可分离等广泛模型类别。 |
-| [^19] | [Endogenous shareholding auctions](https://arxiv.org/abs/2607.02457) | 本文提出内生持股拍卖机制，其中拍卖利润按照拍卖过程中确定的持股比例在设计者与竞拍者之间分配，并基于标准公理刻画该类拍卖、研究最优拍卖设计，可应用于公共住房、自愿离职和垄断监管等场景。 |
-| [^20] | [When Do Markets Work? Multiplex Networks and Efficiency](https://arxiv.org/abs/2605.21117) | 本文在具有多层网络外部性的阿罗-德布鲁经济中量化了均衡配置偏离帕累托效率的程度，并证明当各网络中心性向量平行（如所有网络为正则网络或各层结构相同）时竞争均衡有效，而在市场配置无效率时可通过林达尔均衡加以纠正。 |
-| [^21] | [Two-Sided Market Power in Firm-to-Firm Trade](https://arxiv.org/abs/2507.12848) | 该论文构建并估计了一个双边市场势力模型，发现进口商具有显著谈判势力，在2018年美国加征关税中供应商通过降低边际成本吸收了约30%的关税成本。 |
-| [^22] | [Who and How? Adverse Selection and flexible Moral Hazard](https://arxiv.org/abs/2506.12979) | 本文通过引入规定误报后偏离路径行为的扩展推荐方案，完整刻画了同时存在逆向选择与灵活道德风险的环境下的激励相容机制，并识别出一类广泛环境，其中仿射合同菜单对利润最大化的委托人是最优的。 |
-| [^23] | [Complementarity, Augmentation, or Substitutivity? The Impact of Generative Artificial Intelligence on the U.S. Federal Workforce](https://arxiv.org/abs/2503.09637) | 本研究利用检索增强生成系统评估生成式AI对美国联邦各职业的影响，发现AI主要起互补和增强作用而非替代作用，因此应采取针对性再培训和人机协作策略，而非大规模裁员。 |
-| [^24] | [Predicting the Distribution of Treatment Effects: A Covariate-Adjustment Approach](https://arxiv.org/abs/2407.14635) | 本文提出一种通过协变量调整利用预测反事实来推断处理效应分布的新方法，并通过对五项小额信贷随机对照试验的再分析发现，尽管平均效应为零，信贷扩张实际上使部分人受益、部分人受损，存在显著的分布性影响。 |
-| [^25] | [Is Inference Conditional on Not Rejecting a Pre-test Less Reliable than Unconditional Inference?](https://arxiv.org/abs/2407.03725) | 本文证明，当识别假设成立时，条件于通过预检验的置信区间只会过度覆盖而不会覆盖不足，因此基于预检验的条件推断并不比无条件推断更不可靠。 |
+| [^3] | [Realized Tail-Risk Conditional Autoregressive Expectile Models: Accurate and Stable Forecasting Performance](https://arxiv.org/abs/2610.13446) | 本文提出RTCARE模型，通过将日内高频收益率构造的已实现尾部度量纳入条件期望分位的动态与测量方程，实现VaR与预期短缺的联合预测，在蒙特卡洛模拟和美国股市实证中展现出比现有方法更准确且稳定的尾部风险预测性能。 |
+| [^4] | [Intentionally Overidentifying Local Projections](https://arxiv.org/abs/2610.13269) | 该论文提出将局部投影中额外的滞后项作为排除性工具变量，构造过度识别的IV估计量，证明其渐近效率绝不低于OLS，并且在数据具有持续性时能够获得显著的效率提升。 |
+| [^5] | [Dynamic Matching with Abandonment: Optimal Guarantees via Static Priority Policies](https://arxiv.org/abs/2610.12991) | 该论文证明了简单的静态优先级策略在带放弃的动态匹配问题中能保证获得全知基准的至少0.5，从而确立了最优竞争比恰好为0.5，解决了该领域长期存在的开放性问题，并将此前最佳保证0.192大幅提升。 |
+| [^6] | [AI-Mediation in Retail Markets: Revenue Effects and Assortment Optimization](https://arxiv.org/abs/2610.12917) | 该研究通过构建AI产品排序数据集并建立Plackett-Luce随机中介模型，证明在零售商品组合优化中纳入AI中介效应可将平均收入损失降低2.52%至11.37%，并显著改变最优商品组合的选择。 |
+| [^7] | [The Financing of Debt Relief: Intermediary Liquidity and the Value of Borrower Information](https://arxiv.org/abs/2610.12875) | 本文利用190万笔吉利美回购选择权数据发现，2020年融资市场冻结时流动性受限的非银行发行人推迟了约190亿美元逾期贷款回购，并通过按每美元现金价值配给的模型证明，借款人信息在融资紧张程度适中时最有价值。 |
+| [^8] | [An efficient stochastic generalized method of moments estimator for nonlinear moment models](https://arxiv.org/abs/2610.12873) | 本文针对非线性矩条件下的随机GMM算法，在预条件单调性条件下建立了几乎必然收敛性与收敛速率，并证明了具有有效GMM方差的函数中心极限定理，其单次更新成本与样本规模无关。 |
+| [^9] | [The False Allure of "Security by Obscurity": A Game-Theoretic Approach](https://arxiv.org/abs/2610.12858) | 本文首次运用博弈论方法对“模糊安全”理念进行严格建模，为安全界长期依赖经验直觉的“开放还是隐匿”之争提供了理论分析基础。 |
+| [^10] | [GMM for Panel Data Quantile Regression](https://arxiv.org/abs/2610.12824) | 本文提出了一个针对含个体固定效应和内生回归变量的面板分位数模型的平滑广义矩估计（GMM）框架，该估计量可通过标准GMM算法实现，并在弱时间依赖条件下建立了一致性、渐近正态性和可行推断理论。 |
+| [^11] | [Childcare Waitlists](https://arxiv.org/abs/2610.12732) | 论文揭示了托儿服务中“家长排队漫长”与“托儿中心空位闲置”并存的悖论源于家庭多重申请造成的幽灵名单和冗长的录取确认流程，并提出通过定期验证清除幽灵名单等运营措施来提高入学效率、减少空位。 |
+| [^12] | [Simple Standard Errors for Complicated (Quasi-)Experimental Designs](https://arxiv.org/abs/2610.12674) | 提出一种适用于已知处理暴露分布但存在复杂依赖模式（如单位间溢出/干扰或空间相关处理分配）的方差估计量，它将Neyman方差估计量的关键性质推广到一般实验设计，并在简单设计下退化为标准方法。 |
+| [^13] | [On the Optimality of Mental Accounting](https://arxiv.org/abs/2610.12587) | 本文提出心理账户（固定美元预算）可被视为消费者对抗卖方市场势力的最优承诺装置，因为单位弹性需求消除了卖方限制数量和加价的激励，且起关键作用的是预算刚性而非偏好可分离性。 |
+| [^14] | [Early Investment Snowballs for Low-Skill Children: Average Marginal Returns and the Dynamics of Skill Formation](https://arxiv.org/abs/2610.12509) | 论文通过区分贝克尔回报曲线（BSR）与平均边际回报（AMR）这两个不同概念，化解了项目评估与结构模型关于低技能儿童投资回报的表面矛盾，并发现低技能儿童在幼年因投资匮乏而拥有更高的平均边际投资回报，这一优势在较晚年龄段发生逆转。 |
+| [^15] | [Crisis without Collapse: A Theory of Capitalist Persistence](https://arxiv.org/abs/2610.12477) | 该论文将175年来“资本主义终将崩溃”预言屡屡落空这一现象模型化，通过统一自适应系统、机制设计与计算复杂性、行为决策理论和全局博弈等多领域成果，构建了一个包含十条假设、十二个形式化结果和一条定理的理论框架，证明崩溃风险随制度学习而呈几何级数衰减。 |
+| [^16] | [The Gendered Impacts of Perceived Skin Tone: Evidence from African American Siblings in 1870-1940](https://arxiv.org/abs/2610.10606) | 本研究利用1870-1940年美国人口普查全量数据，通过同性别兄弟姐妹内部对比这一创新方法，揭示了肤色歧视的性别化影响：被判定为深肤色的非裔美国女性在受教育程度、婚姻前景及配偶经济状况上均遭受显著不利，表明历史上针对非裔美国人的肤色歧视对女性尤为严重。 |
+| [^17] | [Submission quotas as self-screening when manuscript production is cheap](https://arxiv.org/abs/2610.04688) | 在生成式AI大幅降低稿件生产成本而专家评审资源依旧稀缺的背景下，本文比较了不可转让投稿配额与按篇收费两种机制，并推导出投稿配额能产生不低于收费机制的平均已评审稿件价值的条件。 |
+| [^18] | [Endogenous Information Design and Informational Evolution in Dynamic Economic Systems with Incentives and Learning](https://arxiv.org/abs/2609.36093) | 本文构建了一个系统层面的动态均衡框架，研究信息生产、披露、学习与激励如何通过递归反馈在动态经济系统中内生地共同演化，并揭示了相对于信息环境外生固定的标准结论所出现的三个核心失灵。 |
+| [^19] | [The Robustness of Sequential Implementation under Information Perturbations](https://arxiv.org/abs/2609.30464) | 本文证明多阶段机制在序贯均衡精炼下超越贝叶斯单调性的额外实施能力是脆弱的——在任意小的信息扰动下，存在以严格正概率产生不可采纳决策的序贯均衡。 |
+| [^20] | [Optimal growth under irreversible pollution: The Forster-Ramsey model](https://arxiv.org/abs/2609.12693) | 该研究在Forster-Ramsey模型中刻画了决定经济可持续性的最大吸收能力阈值，并证明最优减排政策只能移动而无法消除不可逆污染的阈值。 |
+| [^21] | [Choosing the Dictionary and Penalty for IV-LASSO](https://arxiv.org/abs/2609.07033) | 本文利用一阶和二阶Stein恒等式推导出IV-LASSO估计量的近似均方误差（AMSE），为有限样本中选择工具变量字典和惩罚参数提供了可操作的依据。 |
+| [^22] | [Identification, Estimation and Inference Based on Constructed Instruments](https://arxiv.org/abs/2607.05699) | 提出结构投影（SP）方法，通过将结构误差投影到解释变量生成的σ-域上内部构造有效工具变量，无需外部工具变量即可对内生性回归模型进行识别、估计与推断，且适用于线性、非线性和不可分离等广泛模型类别。 |
+| [^23] | [Endogenous shareholding auctions](https://arxiv.org/abs/2607.02457) | 本文提出内生持股拍卖机制，其中拍卖利润按照拍卖过程中确定的持股比例在设计者与竞拍者之间分配，并基于标准公理刻画该类拍卖、研究最优拍卖设计，可应用于公共住房、自愿离职和垄断监管等场景。 |
+| [^24] | [When Do Markets Work? Multiplex Networks and Efficiency](https://arxiv.org/abs/2605.21117) | 本文在具有多层网络外部性的阿罗-德布鲁经济中量化了均衡配置偏离帕累托效率的程度，并证明当各网络中心性向量平行（如所有网络为正则网络或各层结构相同）时竞争均衡有效，而在市场配置无效率时可通过林达尔均衡加以纠正。 |
+| [^25] | [Truthful Production Uncertainty in Electricity Markets: A Two-Stage Mechanism](https://arxiv.org/abs/2604.02455) | 该论文提出一种两阶段电力市场机制，让发电商在日前阶段报告生产预测分布、实时阶段报告实际出力，并通过扩展VCG支付机制实现激励相容与个体理性，使市场运营商能在日前决策中考虑平衡成本，提升系统效率。 |
+| [^26] | [Smart Lotteries in School Choice: Ex-ante Pareto-Improvement with Ex-post Stability](https://arxiv.org/abs/2602.10679) | 本文提出一种“智能抽签”机制，在保证事后稳定性（可分解为原始粗略优先级下的稳定匹配）的同时，以随机占优的方式在事前帕累托改进学校选择中的学生录取概率分配。 |
+| [^27] | [Economic Impacts of Climate Change in the United States: Integrating and Harmonizing Evidence from Recent Studies](https://arxiv.org/abs/2509.00212) | 本文通过统一协调的输入条件对美国气候变化经济影响的计量经济学研究进行标准化比较，发现2100年GDP损失预测范围更窄且更低，但其隐含的温室气体社会成本仍高于现行列举式模型的市场损害估计，并首次尝试将非市场损害证据与GDP影响相整合。 |
+| [^28] | [Two-Sided Market Power in Firm-to-Firm Trade](https://arxiv.org/abs/2507.12848) | 该论文构建并估计了一个双边市场势力模型，发现进口商具有显著谈判势力，在2018年美国加征关税中供应商通过降低边际成本吸收了约30%的关税成本。 |
+| [^29] | [Who and How? Adverse Selection and flexible Moral Hazard](https://arxiv.org/abs/2506.12979) | 本文通过引入规定误报后偏离路径行为的扩展推荐方案，完整刻画了同时存在逆向选择与灵活道德风险的环境下的激励相容机制，并识别出一类广泛环境，其中仿射合同菜单对利润最大化的委托人是最优的。 |
+| [^30] | [Complementarity, Augmentation, or Substitutivity? The Impact of Generative Artificial Intelligence on the U.S. Federal Workforce](https://arxiv.org/abs/2503.09637) | 本研究利用检索增强生成系统评估生成式AI对美国联邦各职业的影响，发现AI主要起互补和增强作用而非替代作用，因此应采取针对性再培训和人机协作策略，而非大规模裁员。 |
+| [^31] | [Predicting the Distribution of Treatment Effects: A Covariate-Adjustment Approach](https://arxiv.org/abs/2407.14635) | 本文提出一种通过协变量调整利用预测反事实来推断处理效应分布的新方法，并通过对五项小额信贷随机对照试验的再分析发现，尽管平均效应为零，信贷扩张实际上使部分人受益、部分人受损，存在显著的分布性影响。 |
+| [^32] | [Is Inference Conditional on Not Rejecting a Pre-test Less Reliable than Unconditional Inference?](https://arxiv.org/abs/2407.03725) | 本文证明，当识别假设成立时，条件于通过预检验的置信区间只会过度覆盖而不会覆盖不足，因此基于预检验的条件推断并不比无条件推断更不可靠。 |
+| [^33] | [Convex Choice](https://arxiv.org/abs/2406.19063) | 本文提出并研究了多维类型空间中的凸选择性质，证明该性质刻画了局部激励约束的充分性，并通过方向性单交叉差分（DSCD）表明期望效用主体的偏好要么是一维的，要么必须采取多维机制设计中易于处理的仿射形式。 |
 
 # 详细
 
@@ -58,7 +66,49 @@
 
     arXiv:2610.13702v1 Announce Type: new  Abstract: A sender with commitment provides additional information to an already informed receiver. Final posterior means must be more dispersed than initial means and less dispersed than the state, in convex order. We characterize when these two plausibility constraints are also sufficient, so that every distribution satisfying them can be induced. If the state has a positive density, they are sufficient exactly under interval-partition information: the receiver learns which interval of a partition contains the state and nothing more, where an interval may be a single point. Otherwise, a nonempty open set of distributions satisfying both constraints cannot be induced, even when the sender observes the receiver's information. We use the sufficient case to derive an optimal symmetric disclosure rule in a second-price auction where bidders initially know valuation intervals.
     
-[^3]: 零售市场中的AI中介：收入效应与商品组合优化
+[^3]: 已实现尾部风险条件自回归期望分位模型：准确且稳定的预测表现
+
+    Realized Tail-Risk Conditional Autoregressive Expectile Models: Accurate and Stable Forecasting Performance
+
+    [https://arxiv.org/abs/2610.13446](https://arxiv.org/abs/2610.13446)
+
+    本文提出RTCARE模型，通过将日内高频收益率构造的已实现尾部度量纳入条件期望分位的动态与测量方程，实现VaR与预期短缺的联合预测，在蒙特卡洛模拟和美国股市实证中展现出比现有方法更准确且稳定的尾部风险预测性能。
+
+    
+
+    本文提出了一种已实现尾部风险条件自回归期望分位（RTCARE）模型，用于联合预测风险价值（VaR）和预期短缺（ES）。该模型将由日内高频收益率构造的已实现尾部度量（如已实现分位数和已实现预期短缺）纳入条件期望分位的动态方程和测量方程中，使下尾风险信息能够进入预测过程。模型参数通过马尔可夫链蒙特卡罗方法进行估计，作者在数值算例以及基于美国股票收益率数据的实证应用中对所得的VaR-ES预测进行了评估。结果表明，在所考虑的各尾部水平上，RTCARE模型相对于现有替代方法表现出具有竞争力且往往更优的预测性能，并且在蒙特卡罗重复实验和滚动预测评估中结果稳定。
+
+    arXiv:2610.13446v1 Announce Type: cross  Abstract: A realized tail-risk conditional autoregressive expectile (RTCARE) model is proposed for joint forecasting of value-at-risk (VaR) and expected shortfall (ES). Realized tail measures such as the realized quantile and the realized ES, constructed from intraday high-frequency returns, are incorporated into the dynamics and measurement equations of the conditional expectile, allowing information about lower-tail risk to enter the forecasts. The parameters are estimated by Markov chain Monte Carlo, and we evaluate the resulting VaR-ES forecasts in numerical examples and in an empirical application using U.S. stock-return data. Across the considered tail levels, the RTCARE models deliver competitive and often superior forecasting performance relative to existing alternatives, with stable results across Monte Carlo replications and rolling forecast evaluations.
+    
+[^4]: 有意过度识别的局部投影
+
+    Intentionally Overidentifying Local Projections
+
+    [https://arxiv.org/abs/2610.13269](https://arxiv.org/abs/2610.13269)
+
+    该论文提出将局部投影中额外的滞后项作为排除性工具变量，构造过度识别的IV估计量，证明其渐近效率绝不低于OLS，并且在数据具有持续性时能够获得显著的效率提升。
+
+    
+
+    局部投影（LP）已成为宏观经济学中估计动态效应的标准工具，通常在给定滞后阶数下采用普通最小二乘法（OLS）进行估计。我们提出了一种替代方法，将额外的滞后项作为排除性工具变量（IV）加以利用。在具有鞅差分冲击的有限阶模型下，由此得到的（最优加权的）工具变量估计量在渐近意义上绝不逊于OLS的效率，并且我们证明，当数据具有持续性时，该方法能够带来显著的效率提升。对于误差项独立同分布的单位根AR(1)数据，在整数传播视界 h 下，我们的基准IV估计量（含一个过度识别约束）的渐近方差为 2−h⁻¹，而 Montiel Olea 与 Plagborg-Møller（2021）的OLS增广滞后估计量的渐近方差为 h。随后，我们发展了基于IV的LP推断方法，该方法对未知的持续性和中等程度的局部模型偏离具有稳健性。
+
+    arXiv:2610.13269v1 Announce Type: new  Abstract: Local projections (LPs) have become a standard tool for estimating dynamic effects in macroeconomics and are typically implemented using ordinary least squares (OLS) for a given lag order. We propose an alternative approach that exploits additional lags as excluded instrumental variables (IVs). Under a finite-order model with martingale-difference shocks, the resulting (optimally weighted) IV estimator is never asymptotically less efficient than OLS and, as we show, can deliver substantial efficiency gains when data are persistent. For the unit-root AR(1) data with i.i.d. errors, our baseline IV estimator (with one overidentifying restriction) has asymptotic variance $2-h^{-1}$, compared with $h$, the asymptotic variance of the OLS lag-augmented estimator in Montiel Olea and Plagborg-M{\o}ller (2021), for an integer propagation horizon $h$. We then develop IV-based LP inference that is robust to unknown persistence and moderate local mod
+    
+[^5]: 带放弃的动态匹配：通过静态优先级策略实现最优保证
+
+    Dynamic Matching with Abandonment: Optimal Guarantees via Static Priority Policies
+
+    [https://arxiv.org/abs/2610.12991](https://arxiv.org/abs/2610.12991)
+
+    该论文证明了简单的静态优先级策略在带放弃的动态匹配问题中能保证获得全知基准的至少0.5，从而确立了最优竞争比恰好为0.5，解决了该领域长期存在的开放性问题，并将此前最佳保证0.192大幅提升。
+
+    
+
+    我们研究带放弃的随机动态匹配，这是一个基础模型：不同类型的智能体随时间到达，可能在等待期间离开市场，并且可以成对匹配以获得取决于其类型的奖励。没有任何在线策略能够保证超过全知基准（即知晓所有到达和离开时间的基准）的 0.5。这一保证是否可以实现一直是一个核心的开放性问题，即使在特殊情况下也是如此。我们通过证明一个简单的静态优先级策略（可在多项式时间内计算）在每个实例上都能获得至少全知基准的 0.5 来解决这一问题。这确立了最优竞争比恰好为 0.5，将此前一般模型下的最佳保证 0.192 [Li et al. 2026; Collina et al. 2020] 提升至最优水平。我们的分析基于一个关键的随机结果，即一个关于来自给定类型集合的某个智能体是…的新概率下界（摘要在此处截断）。
+
+    arXiv:2610.12991v1 Announce Type: cross  Abstract: We study stochastic dynamic matching with abandonment, a fundamental model in which agents of different types arrive over time, may abandon the market while waiting, and can be matched in pairs for rewards that depend on their types. No online policy can guarantee more than $0.5$ of the omniscient benchmark, which knows all arrival and departure times. Whether this guarantee is achievable has been a central open problem, even in special cases. We resolve this problem by showing that, on every instance, a simple static priority policy, which is computable in polynomial time, earns at least $0.5$ of the omniscient benchmark. This establishes that the optimal competitive ratio is exactly $0.5$, improving the previous best guarantee of 0.192 for the general model [Li et al. 2026; Collina et al. 2020]   Our analysis rests on a key stochastic result, which is a new lower bound on the probability that some agent from a given set of types is a
+    
+[^6]: 零售市场中的AI中介：收入效应与商品组合优化
 
     AI-Mediation in Retail Markets: Revenue Effects and Assortment Optimization
 
@@ -72,7 +122,7 @@
 
     arXiv:2610.12917v1 Announce Type: new  Abstract: AI shopping assistants increasingly influence which products consumers consider. We study retail assortment planning under AI mediation, where a retailer chooses a catalog, an AI intermediary forms a customer-facing shortlist, and the customer chooses from that shortlist according to a multinomial logit model. We consider both deterministic mediation, in which the AI follows a fixed segment-specific ranking, and stochastic mediation based on the Plackett-Luce model.   Empirically, we construct a dataset of product rankings from leading AI models, estimate Plackett-Luce ranking models, and evaluate their predictive performance on held-out assortments. Combining these estimates with synthetic customer preferences, we find that accounting for AI mediation can materially change optimal assortments and revenue. Across the tested capacity configurations, ignoring mediation yields mean revenue losses between 2.52% and 11.37% relative to the PL 
     
-[^4]: 债务减免的融资：中介流动性与借款人信息的价值
+[^7]: 债务减免的融资：中介流动性与借款人信息的价值
 
     The Financing of Debt Relief: Intermediary Liquidity and the Value of Borrower Information
 
@@ -86,7 +136,7 @@
 
     arXiv:2610.12875v1 Announce Type: cross  Abstract: I study how intermediary liquidity affects mortgage resolution using 1.9 million Ginnie Mae buyout options from 2019 to 2022. When funding markets froze in 2020, nonbank issuers repurchased far fewer delinquent loans than depositories servicing loans in the same pools and, within the same issuer and month, shifted repurchases away from large balances, the loans that require the most cash. About $19 billion of repurchases were delayed, and most were completed later. A model of rationing by value per dollar of cash explains this pattern and shows that borrower information is most valuable when funding is intermediate.
     
-[^5]: 面向非线性矩模型的高效随机广义矩估计方法
+[^8]: 面向非线性矩模型的高效随机广义矩估计方法
 
     An efficient stochastic generalized method of moments estimator for nonlinear moment models
 
@@ -100,7 +150,7 @@
 
     arXiv:2610.12873v1 Announce Type: cross  Abstract: We study the asymptotic properties of the nonlinear stochastic GMM algorithm proposed by Chen, Lee, Liao, Seo, Shin and Song for recursively estimating parameters defined by possibly nonlinear and overidentified moment restrictions $\E[g(X,\beta^*)]=0$. Each observation updates estimates of the moment Jacobian, inverse covariance matrix and Gauss--Newton preconditioner at a cost independent of sample size. For linear and nonlinear instrumental-variable moments, we derive an exact rank-two Sherman--Morrison--Woodbury update. The algorithm combines preconditioned stochastic approximation with iterate averaging. Under a preconditioned monotonicity condition, satisfied globally in linear models and locally around a consistent pilot estimate in general, we establish almost sure convergence and rates, as well as a functional central limit theorem with the efficient GMM variance. These results require four moments of the moment function and i
     
-[^6]: “模糊安全”的虚假魅力：一种博弈论方法
+[^9]: “模糊安全”的虚假魅力：一种博弈论方法
 
     The False Allure of "Security by Obscurity": A Game-Theoretic Approach
 
@@ -114,7 +164,7 @@
 
     arXiv:2610.12858v1 Announce Type: cross  Abstract: "Security by obscurity," or the idea that hiding how a system works helps protect it from adversaries, has long been poorly regarded in the security community. Yet its intuitive appeal persists, and it has resurfaced repeatedly in industry practices and public debates over the years. The logic, on the one hand, is that open scrutiny of systems is the best way to find and respond to problems; and on the other hand, that too much openness can increase risk by giving adversaries a roadmap for attack. This isn't purely a technical question, but a human one: it's about how attackers and good-faith security researchers respond to openness in the real world. As such, security experts base their stance on decades of community experience; however, the field lacks empirical or theoretical foundations to back up these long-standing beliefs. We provide the first rigorous modeling of "security by obscurity," aiming to capture how rational actors wi
     
-[^7]: 面板数据分位数回归的广义矩估计（GMM）方法
+[^10]: 面板数据分位数回归的广义矩估计（GMM）方法
 
     GMM for Panel Data Quantile Regression
 
@@ -128,7 +178,7 @@
 
     arXiv:2610.12824v1 Announce Type: new  Abstract: This paper develops a smoothed generalized method of moments (GMM) framework for panel quantile models with individual-specific fixed-effects and endogenous regressors. By smoothing the indicator in the quantile moment conditions and profiling out the individual effects through smoothed individual quantile restrictions, the proposed estimator can be implemented using standard GMM algorithms. We establish consistency, asymptotic normality, and feasible inference under weak time dependence as both panel dimensions diverge. This dependence structure accommodates dynamic panel specifications, serially dependent disturbances, lagged instruments, and within-individual heteroskedasticity and autocorrelation consistent inference. Monte Carlo simulations show that the estimator is nearly unbiased under endogeneity and yields generally accurate inference while remaining computationally tractable. An application to OECD inflation dynamics suggests 
     
-[^8]: 儿童保育等待名单
+[^11]: 儿童保育等待名单
 
     Childcare Waitlists
 
@@ -142,7 +192,7 @@
 
     arXiv:2610.12732v1 Announce Type: cross  Abstract: Parents seeking childcare often face long waitlists. At the same time, vacancies at childcare centers can remain unfilled for extended periods. We trace this paradox to two persistent features of childcare services. First, families consider multiple child care options due to enrollment uncertainties, resulting in phantom listings that remain on waitlists even after families have found care elsewhere or no longer need a slot. Second, filling a slot is time-consuming: centers learn whether a family is actively seeking enrollment only after making an offer and waiting for a response. As families pursue alternatives while they wait and their children age, these delays and feedback effects amplify the mismatch between demand and available capacity.   We study two operational remedies. First, we examine regular verification that removes phantom listings before offers are made, improving the efficiency of enrollment and reducing vacancies. Se
     
-[^9]: 复杂（准）实验设计的简单标准误
+[^12]: 复杂（准）实验设计的简单标准误
 
     Simple Standard Errors for Complicated (Quasi-)Experimental Designs
 
@@ -156,7 +206,7 @@
 
     arXiv:2610.12674v1 Announce Type: new  Abstract: We develop standard errors for estimates of causal effects in settings where the distribution of treatment exposures is known but potentially exhibits complicated dependence patterns across units. Such dependence arises, for example, in settings with spillovers/interference across units or when the treatment assignment is spatially correlated. Our variance estimator generalizes several properties of the Neyman variance estimator for completely randomized experiments to general designs: it is unbiased for an upper bound on the variance from the design-based perspective; the conservativeness of this upper bound depends on the heterogeneity of treatment effects; and it is also valid under certain forms of super-population sampling of the potential outcomes. Our estimator reduces to standard approaches in simple designs, such as the Neyman variance estimator in completely randomized experiments and the cluster-robust variance estimator in cl
     
-[^10]: 论心理账户的最优性
+[^13]: 论心理账户的最优性
 
     On the Optimality of Mental Accounting
 
@@ -170,7 +220,7 @@
 
     arXiv:2610.12587v1 Announce Type: new  Abstract: Mental accounting is usually explained by self-control, and two-stage budgeting by separable preferences. We propose a third explanation based on sellers' market power. A consumer who commits to spend a fixed number of dollars in a category has unit-elastic demand, so a seller in that category gains nothing by restricting quantity. A consumer who instead targets a fixed physical quantity has perfectly inelastic demand, a case that a monopolist can exploit. We characterize the commitments that remove a seller's incentive to mark up prices, and show that the fixed dollar budget is the least restrictive. We then show that what matters is budget rigidity rather than separability of preferences. A consumer who re-optimizes her category budget when prices change is insulated from market power only if categories are substitutes; a rigid budget insulates her in every case. Mental accounting can therefore be read as a commitment device against ma
     
-[^11]: 低技能儿童的早期投资滚雪球效应：平均边际回报与技能形成的动态过程
+[^14]: 低技能儿童的早期投资滚雪球效应：平均边际回报与技能形成的动态过程
 
     Early Investment Snowballs for Low-Skill Children: Average Marginal Returns and the Dynamics of Skill Formation
 
@@ -184,7 +234,7 @@
 
     arXiv:2610.12509v1 Announce Type: new  Abstract: Program evaluations routinely find larger returns to investment in low-skill children, while structural models of skill formation typically find that skill and investment are complements. I show that these findings are not in tension: they measure different objects. The Beckerian schedule of returns (BSR) is the elasticity of output with respect to an input, holding all inputs at fixed values; average marginal returns (AMR) average that elasticity over the joint distribution of inputs. Revisiting Cunha, Heckman, and Schennach (2010)'s model of child skill formation on the Children of the NLSY79, I find that skill and investment are complements, but that low-skill children receive so much less investment that their AMR to investment is higher in early childhood --- a pattern that reverses at later ages. The framework also provides a natural way to sign bias from curvature in log-linear models with interaction terms, which conflate the BSR
     
-[^12]: 危机而不崩溃：资本主义存续的理论
+[^15]: 危机而不崩溃：资本主义存续的理论
 
     Crisis without Collapse: A Theory of Capitalist Persistence
 
@@ -198,7 +248,7 @@
 
     arXiv:2610.12477v1 Announce Type: new  Abstract: The terminal crisis of capitalism has been predicted regularly since 1848. It has not occurred. We treat this 175-year forecasting record as a stylized fact in need of a model, and we supply one, unifying results from adaptive systems, mechanism design and computational complexity, behavioral decision theory, global games, and the political economy of redistribution. Ten assumptions deliver twelve formal results and one theorem. Recurring shock classes have geometrically decaying collapse hazards: within the banking class alone, the lag from systemic failure to a system-wide deposit backstop fell from 816 days (1930-33) to 18 days (2008) to 2 days (2023). A centralized replacement of the price mechanism fails on at least one of two horns, computation or truthful input, and we are explicit about which horn survives modern algorithms. We derive Davies's J-curve from cumulative prospect theory together with a new result: the revolutionary w
     
-[^13]: 感知肤色的性别化影响：来自1870-1940年非裔美国人兄弟姐妹的证据
+[^16]: 感知肤色的性别化影响：来自1870-1940年非裔美国人兄弟姐妹的证据
 
     The Gendered Impacts of Perceived Skin Tone: Evidence from African American Siblings in 1870-1940
 
@@ -212,7 +262,21 @@
 
     arXiv:2610.10606v1 Announce Type: new  Abstract: We study differences in economic outcomes by perceived skin tone among African Americans using full-count U.S. decennial census data from the late-19th and early-20th centuries. Comparing children coded as "Black" or "Mulatto" by census enumerators and linking these children across population censuses, we first document large gaps in educational attainment and income among African Americans with darker and lighter perceived skin tones. To disentangle the drivers of these gaps, we identify all 35,992 families in which enumerators assigned same-gender siblings different Black/Mulatto classifications. Relative to sisters coded as Mulatto, sisters coded as Black had lower educational attainment, were less likely to marry, and had less-educated, likely lower-earning husbands. These patterns are consistent with more severe contemporaneous discrimination against African American women with darker perceived skin tones. In contrast, we find simil
     
-[^14]: 具有激励与学习的动态经济系统中的内生信息设计与信息演化
+[^17]: 当稿件生产成本廉价时，投稿配额作为一种自我筛选机制
+
+    Submission quotas as self-screening when manuscript production is cheap
+
+    [https://arxiv.org/abs/2610.04688](https://arxiv.org/abs/2610.04688)
+
+    在生成式AI大幅降低稿件生产成本而专家评审资源依旧稀缺的背景下，本文比较了不可转让投稿配额与按篇收费两种机制，并推导出投稿配额能产生不低于收费机制的平均已评审稿件价值的条件。
+
+    
+
+    生成式人工智能使作者能够以更低的成本生产更多的稿件，但由专业编辑和审稿人进行的评估仍然稀缺。在这种背景下，作者投稿权的价值可能会上升。主要的研究存储库和期刊正通过实施投稿配额和收费来应对这一局面。不可转让的作者配额将稿件投稿转变为一种显示优先级的决策，作者会构建由其排名最高的稿件组成的组合；而统一收费则对作者提交的每篇稿件收费。这两种方法都有缺陷：配额无法将稀缺的评审能力灵活分配给那些实际拥有的候选稿件集合异常强大的作者；收费则可能产生异质的投稿门槛，且这些门槛可能与作者的基线稿件组合质量存在系统性关联。在本文中，我推导出了在给定均衡条件下，投稿配额相比收费机制能产生弱更高的平均已评审稿件价值的条件。
+
+    arXiv:2610.04688v2 Announce Type: replace  Abstract: Generative AI enables authors to produce more manuscripts at lower cost. But evaluation by expert editors and referees remains scarce. In this context, the value of an author's submission rights can increase. Major research repositories and journals are reacting by imposing submission quotas and fees. Non-transferable author quotas transform submission of a manuscript into a revealed-priority decision. Authors construct a portfolio of their highest-ranked manuscripts. A common fee charges an author for every manuscript they submit. Both methods have drawbacks. Quotas do not flexibly allocate scarce review capacity to authors who have unusually strong realised candidate sets. Fees can generate heterogeneous submission thresholds that may be systematically related to an author's baseline portfolio quality. In this paper, I derive the condition under which submission quotas yield weakly higher mean reviewed value than fees, given an equ
+    
+[^18]: 具有激励与学习的动态经济系统中的内生信息设计与信息演化
 
     Endogenous Information Design and Informational Evolution in Dynamic Economic Systems with Incentives and Learning
 
@@ -226,7 +290,7 @@
 
     arXiv:2609.36093v1 Announce Type: new  Abstract: This paper studies the endogenous informational evolution of dynamic economic systems. Building on Hurwicz's conceptual framework, such a system is defined as a dynamic joint adjustment process of resource and information allocation linked by recursive feedback. Economic theory gains precision by isolating particular margins, but when information production, disclosure, learning, incentives, actions, and future feasibility interact across these two processes, conclusions obtained by holding other margins fixed need not survive their joint determination. The paper develops a system-level dynamic equilibrium framework for this interaction. Holding particular links fixed yields familiar environments in dynamic mechanism design, information design, experimentation and learning, feedback and disclosure, and information acquisition. The analysis establishes three central failures relative to fixed or partially exogenous informational environme
     
-[^15]: 信息扰动下序贯实施的稳健性
+[^19]: 信息扰动下序贯实施的稳健性
 
     The Robustness of Sequential Implementation under Information Perturbations
 
@@ -240,7 +304,7 @@
 
     arXiv:2609.30464v1 Announce Type: new  Abstract: Bayesian monotonicity is a necessary condition for full implementation in Bayes-Nash equilibrium. Under the sequential equilibrium refinement, however, multi-stage mechanisms can expand the scope for implementation. We show that this additional implementation power is fragile. Whenever a multi-stage mechanism sequentially implements a social choice correspondence that is not Bayesian monotone, we construct arbitrarily small "information perturbations'' and show that there are sequential equilibria under these perturbations that yield inadmissible decisions with probability bounded away from zero. Under these perturbations, players' types are not independent conditional on the state and some player is sometimes uncertain of their payoff type. We show by example that the general result fails if perturbations are required to satisfy conditional independence or "known payoff types.''
     
-[^16]: 不可逆污染下的最优增长：Forster-Ramsey模型
+[^20]: 不可逆污染下的最优增长：Forster-Ramsey模型
 
     Optimal growth under irreversible pollution: The Forster-Ramsey model
 
@@ -254,7 +318,7 @@
 
     arXiv:2609.12693v1 Announce Type: new  Abstract: We study optimal growth in a Ramsey economy with irreversible pollution, where the natural absorption capacity is non-monotonic and non-concave a la Forster. In the absence of pollution control, the capital dynamics decouple from pollution, and we characterize a simple threshold on the maximal absorption capacity above which the optimal path is sustainable and below which an optimal regime of irreversible pollution sets in. We then introduce an optimal abatement pollution control to assess whether irreversible pollution ceases to be optimal. We derive a four-dimensional dynamical system for capital, consumption, pollution and the (shadow) cost of pollution, coupled with an algebraic rule for optimal abatement, which is eventually reduced to dimension three, with abatement linearly entering the pollution dynamics. Our main result is that optimal abatement shifts the irreversibility threshold but does not eliminate it. More importantly, we
     
-[^17]: IV-LASSO的字典与惩罚参数选择
+[^21]: IV-LASSO的字典与惩罚参数选择
 
     Choosing the Dictionary and Penalty for IV-LASSO
 
@@ -268,7 +332,7 @@
 
     arXiv:2609.07033v2 Announce Type: replace  Abstract: Estimating the first stage of an instrumental variables (IV) model with the least absolute shrinkage and selection operator (LASSO) requires choosing a dictionary of technical instruments and a penalty level. First-order asymptotic theory offers no guidance on these choices, as any consistent implementation yields a structural parameter estimator with the same limiting distribution. In finite samples, however, these choices can have a substantial impact on the resulting structural parameter estimate. Working in a model with a single endogenous regressor and homoskedastic Gaussian errors, we use first- and second-order Stein identities to derive the approximate mean squared error (AMSE) of the instrumental-variables LASSO (IV-LASSO) estimator, which can be consistently estimated and used to rank a prespecified list of dictionary-penalty candidates. The AMSE reveals a bias-variance trade-off: more complex first-stage fits better approx
     
-[^18]: 基于构造工具变量的识别、估计与推断
+[^22]: 基于构造工具变量的识别、估计与推断
 
     Identification, Estimation and Inference Based on Constructed Instruments
 
@@ -282,7 +346,7 @@
 
     arXiv:2607.05699v3 Announce Type: replace  Abstract: We propose a structural projection (SP) method for identifying and estimating structural parameters in regression models associated with endogenous regressors. The method projects the structural error onto the sigma-field generated by the regressors, decomposing it into a conditional mean component and an orthogonal residual. This decomposition yields an internally constructed instrument that is valid whenever the conditional mean lies in a known subspace, avoiding the need for external instruments.   We establish identification conditions, derive consistency and asymptotic normality for the resulting estimator, and propose a LASSO-based selection procedure for choosing the subspace when no natural candidate is available. The SP method applies to a broad class of linear, nonlinear, and non-separable models. Simulations show that SP substantially outperforms least-squares-based benchmarks under endogeneity while remaining competitive 
     
-[^19]: 内生持股拍卖
+[^23]: 内生持股拍卖
 
     Endogenous shareholding auctions
 
@@ -296,7 +360,7 @@
 
     arXiv:2607.02457v3 Announce Type: replace  Abstract: We introduce endogenous shareholding auctions for production economies where a designer must elicit demand in order to determine price and quantity. Each of these auctions has the property that the auction's profit is distributed across the designer and the bidders in accordance with ownership shares that are determined over the course of the auction. We characterize this class, and a larger class, on the basis of standard axioms. Finally, we investigate optimal auctions according to both prior-free domination and subjective expected welfare. Applications include public housing, voluntary separation, and monopoly regulation.
     
-[^20]: 市场何时有效？多层网络与效率
+[^24]: 市场何时有效？多层网络与效率
 
     When Do Markets Work? Multiplex Networks and Efficiency
 
@@ -310,7 +374,49 @@
 
     arXiv:2605.21117v2 Announce Type: replace  Abstract: We study an Arrow-Debreu economy with externalities generated by multiplex networks. Market equilibrium prices reflect not only preferences and the scarcity of goods, but also consumers' network positions induced by goods-specific externalities and the linkages across goods arising from the endogenous budget constraint. We quantify the departures of equilibrium allocations from Pareto efficiency using both a utility-based measure of efficiency loss and a coefficient of resource utilization, thereby linking network multiplexity quantitatively to equilibrium performance. These measures also identify zero-efficiency-loss cases: competitive equilibria are efficient when the relevant network-centrality vectors are parallel, a condition satisfied, in particular, when all networks are regular or when all layers share the same network structure. When competitive markets allocate goods inefficiently, a Lindahl equilibrium implemented through 
     
-[^21]: 企业间贸易中的双边市场势力
+[^25]: 电力市场中的真实生产不确定性：一种两阶段机制
+
+    Truthful Production Uncertainty in Electricity Markets: A Two-Stage Mechanism
+
+    [https://arxiv.org/abs/2604.02455](https://arxiv.org/abs/2604.02455)
+
+    该论文提出一种两阶段电力市场机制，让发电商在日前阶段报告生产预测分布、实时阶段报告实际出力，并通过扩展VCG支付机制实现激励相容与个体理性，使市场运营商能在日前决策中考虑平衡成本，提升系统效率。
+
+    
+
+    可再生能源发电的生产成本较低，但由于固有的生产不确定性，可能导致高昂的平衡成本。当前的日前市场仅获取单一的生产预测曲线，而忽略了每个发电资产所关联的不确定性程度，这导致市场运营商无法在日前调度和辅助服务采购中考虑平衡成本。这增加了系统总成本并损害了市场效率，在可再生能源占比较高的电力系统中尤为明显。为解决这一问题，我们提出了一种基于两阶段机制的全新市场出清范式：发电商在日前阶段报告其生产预测分布，随后在实时阶段报告实际生产情况。通过将VCG（Vickrey-Clarke-Groves）支付机制扩展到两阶段设定中，我们证明了该机制在激励相容性和个体理性方面具有良好的特性。
+
+    arXiv:2604.02455v2 Announce Type: replace-cross  Abstract: Renewable power sources have low production costs, but may result in high balancing costs due to the inherent production uncertainty. Current day-ahead markets elicit only point production profiles and neglect the degree of uncertainty associated with each generating asset, preventing the market operator from accounting for balancing costs in day-ahead dispatch and ancillary service procurement. This increases the total system cost and undermines market efficiency, especially in renewable-heavy power systems. To address this, we propose a new market clearing paradigm based on a two-stage mechanism, where producers report their production forecast distribution in the day-ahead stage, followed by the realized production in the real-time stage. By extending the Vickrey-Clarke-Groves (VCG) payments to the two-stage setting, we show appealing properties in terms of incentive compatibility and individual rationality. An electricity m
+    
+[^26]: 学校选择中的智能抽签：事前帕累托改进与事后稳定性
+
+    Smart Lotteries in School Choice: Ex-ante Pareto-Improvement with Ex-post Stability
+
+    [https://arxiv.org/abs/2602.10679](https://arxiv.org/abs/2602.10679)
+
+    本文提出一种“智能抽签”机制，在保证事后稳定性（可分解为原始粗略优先级下的稳定匹配）的同时，以随机占优的方式在事前帕累托改进学校选择中的学生录取概率分配。
+
+    
+
+    在学校选择问题中，学生通常对学校有严格的偏好，而学校则基于学生的居住距离和已入学的兄弟姐妹情况对学生拥有粗略的优先级。集中式录取机制的结果通常通过带随机打破平局的延迟接受算法（DA）获得。因此，该机制中每个以正概率出现的结果，对于粗略优先级而言都是一个稳定解。这意味着一种概率分配，即确定了每个学生-学校对的录取概率。在本文中，我们提出了一种新的提升效率且保持稳定的“智能抽签”机制。我们旨在以随机占优的意义在事前改进概率分配，同时确保改进后的随机匹配在事后仍然是稳定的，也就是说，它可以被分解为若干个关于原始粗略优先级的稳定匹配。因此，这种智能抽……（摘要原文在此处被截断）
+
+    arXiv:2602.10679v2 Announce Type: replace-cross  Abstract: In school choice, students typically have strict preferences over the schools while the schools have coarse priorities over the students based on their distance and their enrolled siblings. The outcome of a centralized admission mechanism is then usually obtained by the Deferred Acceptance (DA) algorithm with random tie-breaking. Therefore, every outcome of this mechanism that occurs with a positive probability is a stable solution for the coarse priorities. This implies a probabilistic assignment, specifying the admission probability for each student-school pair. In this paper, we propose a new efficiency-improving stable 'smart lottery' mechanism. We aim to improve the probabilistic assignment ex-ante in a stochastic dominance sense, while ensuring that the improved random matching is still ex-post stable, meaning that it can be decomposed into stable matchings regarding the original coarse priorities. Therefore, this smart l
+    
+[^27]: 美国气候变化的经济影响：整合与协调近期研究的证据
+
+    Economic Impacts of Climate Change in the United States: Integrating and Harmonizing Evidence from Recent Studies
+
+    [https://arxiv.org/abs/2509.00212](https://arxiv.org/abs/2509.00212)
+
+    本文通过统一协调的输入条件对美国气候变化经济影响的计量经济学研究进行标准化比较，发现2100年GDP损失预测范围更窄且更低，但其隐含的温室气体社会成本仍高于现行列举式模型的市场损害估计，并首次尝试将非市场损害证据与GDP影响相整合。
+
+    
+
+    本文综合了针对美国人口的气候变化影响的证据。我们对实证估计气候变化与国内生产总值（GDP）之间关系的计量经济学研究进行了统一口径的比较。我们证明，在使用统一协调的概率性社会经济和气候输入条件下，这些论文预测的2100年GDP损失范围比已发表文献中所报告的范围更窄且更低，但由此隐含的美国特定的温室气体社会成本（SC-GHG）仍然高于当前列举式模型中基于市场的损害估计。我们还迈出了将非市场损害证据与GDP影响相整合的第一步。我们的发现强调了需要更多研究来解决宏观经济实证研究的局限性，以及关于非市场损害和国际溢出影响的研究。对于宏观经济方法与列举式方法如何……（原文截断）
+
+    arXiv:2509.00212v2 Announce Type: replace  Abstract: This paper synthesizes evidence on climate change impacts specific to U.S. populations. We develop an apples-to-apples comparison of econometric studies that empirically estimate the relationship between climate change and gross domestic product (GDP). We demonstrate that with harmonized probabilistic socioeconomic and climate inputs these papers project a narrower and lower range of 2100 GDP losses than what is reported across the published studies, yet the implied U.S.-specific social cost of greenhouse gases (SC-GHG) is still greater than the market-based damage estimates in current enumerative models. We also take a first step in integrating evidence on nonmarket damages with the GDP impacts. Our findings highlight the need for more research addressing the limitations of macroeconomic empirical studies and research on nonmarket and international spillover impacts. Further investigation of how macroeconomic and enumerative approac
+    
+[^28]: 企业间贸易中的双边市场势力
 
     Two-Sided Market Power in Firm-to-Firm Trade
 
@@ -324,7 +430,7 @@
 
     arXiv:2507.12848v3 Announce Type: replace  Abstract: We develop and estimate a model of two-sided market power to study tariff pass-through in firm-to-firm trade. A tariff moves the negotiated price through two channels: the bilateral markup, set by bargaining, and the supplier's marginal cost, which falls alongside quantities under decreasing returns. The same decreasing returns give concentrated buyers rents to bargain over, so prices fall with the buyer's share of its supplier's output. Using U.S. customs data, we estimate substantial importer bargaining power and steep export supply. Within continuing relationships, suppliers absorb about 30 percent of the 2018 tariffs, primarily through lower marginal costs as demand contracts.
     
-[^22]: 谁来做与如何做？逆向选择与灵活的道德风险
+[^29]: 谁来做与如何做？逆向选择与灵活的道德风险
 
     Who and How? Adverse Selection and flexible Moral Hazard
 
@@ -338,7 +444,7 @@
 
     arXiv:2506.12979v3 Announce Type: replace  Abstract: We characterize incentive-compatible mechanisms in environments with hidden types and flexible hidden actions. Our approach introduces extended recommendation schedules that also prescribe actions off path, after misreports. This yields a tractable and complete characterization of incentive compatibility, which includes a generalized integral monotonicity condition capturing the interaction between adverse selection and moral hazard. We illustrate the usefulness of the characterization in a range of applications, including franchise agreements, employment contracts, and optimal taxation, covering both risk neutrality and risk aversion, with and without limited liability. Among other results, we identify a broad class of environments in which menus of affine contracts are optimal for a profit maximizing principal.
     
-[^23]: 互补、增强还是替代？生成式人工智能对美国联邦劳动力的影响
+[^30]: 互补、增强还是替代？生成式人工智能对美国联邦劳动力的影响
 
     Complementarity, Augmentation, or Substitutivity? The Impact of Generative Artificial Intelligence on the U.S. Federal Workforce
 
@@ -352,7 +458,7 @@
 
     arXiv:2503.09637v2 Announce Type: replace-cross  Abstract: This study applies a multi-stage Retrieval-Augmented Generation system, which grounds large language model assessments in curated evidence, to evaluate generative AI's near-term impact on knowledge, skills, and abilities across several hundred federal occupational series. Each occupation is scored along three dimensions of complementarity (AI enhances existing competencies), augmentation (AI requires workers to transform competencies), and substitutivity (AI replaces human tasks). Results reveal that generative AI primarily complements and augments federal roles, with limited substitution potential. Even occupations scoring highest on substitutivity reflect partial automation of routine subtasks rather than position elimination. These findings caution against blunt workforce reductions premised on displacement and instead support targeted reskilling, competency-based planning, and human-AI collaboration. The framework is adapta
     
-[^24]: 预测处理效应的分布：一种协变量调整方法
+[^31]: 预测处理效应的分布：一种协变量调整方法
 
     Predicting the Distribution of Treatment Effects: A Covariate-Adjustment Approach
 
@@ -366,7 +472,7 @@
 
     arXiv:2407.14635v5 Announce Type: replace  Abstract: Important questions for impact evaluation require knowledge not only of average effects, but of the distribution of treatment effects. The inability to observe individual counterfactuals makes answering these empirical questions challenging. I propose an inference approach for points of the distribution of treatment effects that uses predicted counterfactuals through covariate adjustment. I provide finite-sample valid inference using sample-splitting and asymptotically valid inference using cross-fitting under arguably weak conditions. Revisiting five randomized controlled trials on microcredit that reported null average effects, I find important distributional impacts, with some individuals helped and others harmed by the increased credit access.
     
-[^25]: 基于未拒绝预检验的条件推断是否比无条件推断更不可靠？
+[^32]: 基于未拒绝预检验的条件推断是否比无条件推断更不可靠？
 
     Is Inference Conditional on Not Rejecting a Pre-test Less Reliable than Unconditional Inference?
 
@@ -379,5 +485,19 @@
     研究人员通常只有在设定检验未被拒绝时才报告估计值和置信区间——例如，只有当预趋势检验支持双重差分设计时才报告结果。这是否会使所报告的置信区间变得不那么可靠？我们证明，当识别假设成立时，答案是否定的：在通过预检验的条件下，置信区间可能过度覆盖，但不会出现覆盖不足。当假设不成立时，预检验可能会降低覆盖率，但在一个附加条件下，相对于不进行预检验，它仍然能够提高覆盖率。对12个双重差分实例的校准分析表明，预检验对覆盖率的影响是有限的。
 
     arXiv:2407.03725v4 Announce Type: replace  Abstract: Researchers often report an estimate and confidence interval only if a specification test does not reject - for example, only if a pre-trend test supports a difference-in-differences design. Does this make the reported confidence interval less reliable? We show that when the identifying assumptions hold, the answer is no: conditional on passing the pre-test, the confidence interval may over-cover but cannot under-cover. When the assumptions fail, pre-testing can reduce coverage, but under an additional condition it still improves coverage relative to not pre-testing. A calibration to 12 differences-in-differences examples suggests modest effects of pre-testing on coverage.
+    
+[^33]: 凸选择
+
+    Convex Choice
+
+    [https://arxiv.org/abs/2406.19063](https://arxiv.org/abs/2406.19063)
+
+    本文提出并研究了多维类型空间中的凸选择性质，证明该性质刻画了局部激励约束的充分性，并通过方向性单交叉差分（DSCD）表明期望效用主体的偏好要么是一维的，要么必须采取多维机制设计中易于处理的仿射形式。
+
+    
+
+    对于多维欧几里得类型空间，我们研究凸选择这一性质：从任意选择集中，做出相同选择的类型集合是凸集。我们证明，在适当的意义上，这一性质刻画了局部激励约束的充分性。凸选择在更广泛的领域中也有意义，例如在廉价磋商博弈中。我们将凸选择与方向性单交叉差分（DSCD）这一概念联系起来。对于在彩票中进行选择的期望效用主体，DSCD意味着其偏好要么是一维的，要么必须采取在多维机制设计中已被证明易于处理的仿射形式。
+
+    arXiv:2406.19063v2 Announce Type: replace  Abstract: For multidimensional Euclidean type spaces, we study convex choice: from any choice set, the set of types that make the same choice is convex. We establish that, in a suitable sense, this property characterizes the sufficiency of local incentive constraints. Convex choice is also of interest more broadly, e.g., in cheap-talk games. We tie convex choice to a notion of directional single-crossing differences (DSCD). For an expected-utility agent choosing among lotteries, DSCD implies that preferences are either one-dimensional or must take the affine form that has been tractable in multidimensional mechanism design.
     
 

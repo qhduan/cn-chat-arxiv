@@ -1,0 +1,12 @@
+{
+    "title": "Convex Choice",
+    "abstract": "arXiv:2406.19063v2 Announce Type: replace  Abstract: For multidimensional Euclidean type spaces, we study convex choice: from any choice set, the set of types that make the same choice is convex. We establish that, in a suitable sense, this property characterizes the sufficiency of local incentive constraints. Convex choice is also of interest more broadly, e.g., in cheap-talk games. We tie convex choice to a notion of directional single-crossing differences (DSCD). For an expected-utility agent choosing among lotteries, DSCD implies that preferences are either one-dimensional or must take the affine form that has been tractable in multidimensional mechanism design.",
+    "link": "https://arxiv.org/abs/2406.19063",
+    "context": "Title: Convex Choice\nAbstract: arXiv:2406.19063v2 Announce Type: replace  Abstract: For multidimensional Euclidean type spaces, we study convex choice: from any choice set, the set of types that make the same choice is convex. We establish that, in a suitable sense, this property characterizes the sufficiency of local incentive constraints. Convex choice is also of interest more broadly, e.g., in cheap-talk games. We tie convex choice to a notion of directional single-crossing differences (DSCD). For an expected-utility agent choosing among lotteries, DSCD implies that preferences are either one-dimensional or must take the affine form that has been tractable in multidimensional mechanism design.",
+    "path": "papers/24/06/2406.19063.json",
+    "total_tokens": 946,
+    "translated_title": "凸选择",
+    "translated_abstract": "对于多维欧几里得类型空间，我们研究凸选择这一性质：从任意选择集中，做出相同选择的类型集合是凸集。我们证明，在适当的意义上，这一性质刻画了局部激励约束的充分性。凸选择在更广泛的领域中也有意义，例如在廉价磋商博弈中。我们将凸选择与方向性单交叉差分（DSCD）这一概念联系起来。对于在彩票中进行选择的期望效用主体，DSCD意味着其偏好要么是一维的，要么必须采取在多维机制设计中已被证明易于处理的仿射形式。",
+    "tldr": "本文提出并研究了多维类型空间中的凸选择性质，证明该性质刻画了局部激励约束的充分性，并通过方向性单交叉差分（DSCD）表明期望效用主体的偏好要么是一维的，要么必须采取多维机制设计中易于处理的仿射形式。",
+    "en_tdlr": "This paper introduces convex choice in multidimensional type spaces, establishes that it characterizes the sufficiency of local incentive constraints, and shows via directional single-crossing differences (DSCD) that expected-utility preferences must be either one-dimensional or take a tractable affine form."
+}
