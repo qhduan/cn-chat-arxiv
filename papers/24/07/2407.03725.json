@@ -1,0 +1,12 @@
+{
+    "title": "Is Inference Conditional on Not Rejecting a Pre-test Less Reliable than Unconditional Inference?",
+    "abstract": "arXiv:2407.03725v4 Announce Type: replace  Abstract: Researchers often report an estimate and confidence interval only if a specification test does not reject - for example, only if a pre-trend test supports a difference-in-differences design. Does this make the reported confidence interval less reliable? We show that when the identifying assumptions hold, the answer is no: conditional on passing the pre-test, the confidence interval may over-cover but cannot under-cover. When the assumptions fail, pre-testing can reduce coverage, but under an additional condition it still improves coverage relative to not pre-testing. A calibration to 12 differences-in-differences examples suggests modest effects of pre-testing on coverage.",
+    "link": "https://arxiv.org/abs/2407.03725",
+    "context": "Title: Is Inference Conditional on Not Rejecting a Pre-test Less Reliable than Unconditional Inference?\nAbstract: arXiv:2407.03725v4 Announce Type: replace  Abstract: Researchers often report an estimate and confidence interval only if a specification test does not reject - for example, only if a pre-trend test supports a difference-in-differences design. Does this make the reported confidence interval less reliable? We show that when the identifying assumptions hold, the answer is no: conditional on passing the pre-test, the confidence interval may over-cover but cannot under-cover. When the assumptions fail, pre-testing can reduce coverage, but under an additional condition it still improves coverage relative to not pre-testing. A calibration to 12 differences-in-differences examples suggests modest effects of pre-testing on coverage.",
+    "path": "papers/24/07/2407.03725.json",
+    "total_tokens": 1001,
+    "translated_title": "基于未拒绝预检验的条件推断是否比无条件推断更不可靠？",
+    "translated_abstract": "研究人员通常只有在设定检验未被拒绝时才报告估计值和置信区间——例如，只有当预趋势检验支持双重差分设计时才报告结果。这是否会使所报告的置信区间变得不那么可靠？我们证明，当识别假设成立时，答案是否定的：在通过预检验的条件下，置信区间可能过度覆盖，但不会出现覆盖不足。当假设不成立时，预检验可能会降低覆盖率，但在一个附加条件下，相对于不进行预检验，它仍然能够提高覆盖率。对12个双重差分实例的校准分析表明，预检验对覆盖率的影响是有限的。",
+    "tldr": "本文证明，当识别假设成立时，条件于通过预检验的置信区间只会过度覆盖而不会覆盖不足，因此基于预检验的条件推断并不比无条件推断更不可靠。",
+    "en_tdlr": "This paper shows that when identifying assumptions hold, confidence intervals conditional on passing a pre-test may over-cover but cannot under-cover, so inference based on pre-testing is no less reliable than unconditional inference."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "UxSID: Semantic-Aware User Interests Modeling for Ultra-Long Sequence",
+    "abstract": "arXiv:2605.09040v4 Announce Type: replace  Abstract: Modeling ultra-long user sequences involves a difficult trade-off between efficiency and effectiveness. While current paradigms rely on either item-specific search or item-agnostic compression, we propose UxSID, a framework exploring a third path: semantic-group shared interest memory. By utilizing Semantic IDs (SIDs) and a dual-level attention strategy, UxSID captures target-aware preferences without the heavy cost of item-specific models. This end-to-end architecture balances computational parsimony with semantic awareness, achieving state-of-the-art performance and a 0.337% revenue lift in large-scale advertising A/B test.",
+    "link": "https://arxiv.org/abs/2605.09040",
+    "context": "Title: UxSID: Semantic-Aware User Interests Modeling for Ultra-Long Sequence\nAbstract: arXiv:2605.09040v4 Announce Type: replace  Abstract: Modeling ultra-long user sequences involves a difficult trade-off between efficiency and effectiveness. While current paradigms rely on either item-specific search or item-agnostic compression, we propose UxSID, a framework exploring a third path: semantic-group shared interest memory. By utilizing Semantic IDs (SIDs) and a dual-level attention strategy, UxSID captures target-aware preferences without the heavy cost of item-specific models. This end-to-end architecture balances computational parsimony with semantic awareness, achieving state-of-the-art performance and a 0.337% revenue lift in large-scale advertising A/B test.",
+    "path": "papers/26/05/2605.09040.json",
+    "total_tokens": 995,
+    "translated_title": "UxSID：面向超长序列的语义感知用户兴趣建模",
+    "translated_abstract": "对超长用户行为序列进行建模需要在效率与效果之间进行艰难的权衡。现有范式要么依赖特定物品的检索，要么采用与物品无关的压缩方式，我们提出 UxSID 框架，探索第三条路径：语义组共享兴趣记忆。通过利用语义 ID（SIDs）和双层注意力策略，UxSID 无需承担特定物品模型的沉重开销，即可捕捉目标感知的用户偏好。这一端到端架构在计算简洁性与语义感知之间取得平衡，实现了最先进的性能，并在大规模广告 A/B 测试中带来 0.337% 的收入提升。",
+    "tldr": "UxSID 通过语义 ID 与双层注意力机制构建语义组共享兴趣记忆，为超长用户行为序列建模提供兼顾效率与效果的第三条路径，实现 SOTA 性能并在大规模广告 A/B 测试中带来 0.337% 的收入提升。",
+    "en_tdlr": "UxSID proposes a semantic-group shared interest memory framework using Semantic IDs and dual-level attention, offering a third path for ultra-long user sequence modeling that balances efficiency and effectiveness, achieving state-of-the-art performance and a 0.337% revenue lift in large-scale advertising A/B tests."
+}

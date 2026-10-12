@@ -1,0 +1,12 @@
+{
+    "title": "Learning Size Independent Constraint Models from Input Data and Positive and Negative Example Solutions",
+    "abstract": "arXiv:2610.13640v1 Announce Type: new  Abstract: In this paper we describe a Constraint Acquisition Tool that generates size independent constraint programs from input data and positive and negative example solutions of multiple problem instances. The system finds size specific models based on typical constraint patterns over global and binary constraints, then generalizes the models to a size independent model that can be run on unseen input data. The system produces MiniZinc code as well as a textual description of the model. We evaluate the tool on the example problems of the PTHG21 Challenge and show the feasibility of the approach.",
+    "link": "https://arxiv.org/abs/2610.13640",
+    "context": "Title: Learning Size Independent Constraint Models from Input Data and Positive and Negative Example Solutions\nAbstract: arXiv:2610.13640v1 Announce Type: new  Abstract: In this paper we describe a Constraint Acquisition Tool that generates size independent constraint programs from input data and positive and negative example solutions of multiple problem instances. The system finds size specific models based on typical constraint patterns over global and binary constraints, then generalizes the models to a size independent model that can be run on unseen input data. The system produces MiniZinc code as well as a textual description of the model. We evaluate the tool on the example problems of the PTHG21 Challenge and show the feasibility of the approach.",
+    "path": "papers/26/10/2610.13640.json",
+    "total_tokens": 848,
+    "translated_title": "从输入数据及正负示例解中学习尺寸无关的约束模型",
+    "translated_abstract": "本文描述了一个约束获取工具，该工具能够从输入数据以及多个问题实例的正负示例解中生成与尺寸无关的约束程序。该系统基于全局约束和二元约束上的典型约束模式找到特定尺寸的模型，然后将这些模型泛化为可以在未见过的输入数据上运行的尺寸无关模型。该系统生成MiniZinc代码以及模型的文本描述。我们在PTHG21挑战赛的示例问题上对该工具进行了评估，并展示了该方法的可行性。",
+    "tldr": "本文提出一个约束获取工具，能从输入数据和多个问题实例的正负示例解中自动学习特定尺寸的约束模型并将其泛化为尺寸无关的模型，生成可在未见数据上运行的MiniZinc代码。",
+    "en_tdlr": "This paper presents a constraint acquisition tool that learns size-specific constraint models from input data and positive/negative example solutions, and generalizes them into size-independent models that generate runnable MiniZinc code for unseen data."
+}

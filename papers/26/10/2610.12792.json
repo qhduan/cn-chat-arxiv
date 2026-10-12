@@ -1,0 +1,12 @@
+{
+    "title": "Large Language Models, Machine-Assisted Cultural Analytics, and the Agentic Turn",
+    "abstract": "arXiv:2610.12792v1 Announce Type: cross  Abstract: Technologies like large language models make it easier to convert cultural material into analyzable variables, while LLM-driven agentic systems extend machine assistance to other parts of the research workflow. Rather than a full how-to guide or an exhaustive review of recent LLM use cases, this chapter looks at some crucial aspects of this new paradigm as well as the bigger picture. I argue that these technologies expand the scale, methodological range, and scope for delegation, while the basic logic by which those measurements support cultural claims remains mostly unchanged.",
+    "link": "https://arxiv.org/abs/2610.12792",
+    "context": "Title: Large Language Models, Machine-Assisted Cultural Analytics, and the Agentic Turn\nAbstract: arXiv:2610.12792v1 Announce Type: cross  Abstract: Technologies like large language models make it easier to convert cultural material into analyzable variables, while LLM-driven agentic systems extend machine assistance to other parts of the research workflow. Rather than a full how-to guide or an exhaustive review of recent LLM use cases, this chapter looks at some crucial aspects of this new paradigm as well as the bigger picture. I argue that these technologies expand the scale, methodological range, and scope for delegation, while the basic logic by which those measurements support cultural claims remains mostly unchanged.",
+    "path": "papers/26/10/2610.12792.json",
+    "total_tokens": 863,
+    "translated_title": "大语言模型、机器辅助文化分析与智能体化转向",
+    "translated_abstract": "像大语言模型这样的技术使得将文化材料转化为可分析的变量变得更加容易，而由大语言模型驱动的智能体系统则将机器辅助扩展到了研究工作流程的其他环节。本章并非一份完整的操作指南，也不是对近期大语言模型应用案例的详尽综述，而是着眼于这一新范式的若干关键方面以及更宏观的整体图景。作者认为，这些技术扩展了研究的规模、方法范围和可委托任务的范畴，而这些测量结果支撑文化论断的基本逻辑基本保持不变。",
+    "tldr": "本章指出，大语言模型及其驱动的智能体系统扩展了文化分析在规模、方法范围和任务委托方面的可能性，但测量结果支撑文化论断的基本逻辑基本保持不变。",
+    "en_tdlr": "This chapter argues that large language models and LLM-driven agentic systems expand the scale, methodological range, and scope for delegation in cultural analytics, while the basic logic by which measurements support cultural claims remains largely unchanged."
+}

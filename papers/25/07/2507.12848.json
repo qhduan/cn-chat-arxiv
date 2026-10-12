@@ -1,0 +1,12 @@
+{
+    "title": "Two-Sided Market Power in Firm-to-Firm Trade",
+    "abstract": "arXiv:2507.12848v3 Announce Type: replace  Abstract: We develop and estimate a model of two-sided market power to study tariff pass-through in firm-to-firm trade. A tariff moves the negotiated price through two channels: the bilateral markup, set by bargaining, and the supplier's marginal cost, which falls alongside quantities under decreasing returns. The same decreasing returns give concentrated buyers rents to bargain over, so prices fall with the buyer's share of its supplier's output. Using U.S. customs data, we estimate substantial importer bargaining power and steep export supply. Within continuing relationships, suppliers absorb about 30 percent of the 2018 tariffs, primarily through lower marginal costs as demand contracts.",
+    "link": "https://arxiv.org/abs/2507.12848",
+    "context": "Title: Two-Sided Market Power in Firm-to-Firm Trade\nAbstract: arXiv:2507.12848v3 Announce Type: replace  Abstract: We develop and estimate a model of two-sided market power to study tariff pass-through in firm-to-firm trade. A tariff moves the negotiated price through two channels: the bilateral markup, set by bargaining, and the supplier's marginal cost, which falls alongside quantities under decreasing returns. The same decreasing returns give concentrated buyers rents to bargain over, so prices fall with the buyer's share of its supplier's output. Using U.S. customs data, we estimate substantial importer bargaining power and steep export supply. Within continuing relationships, suppliers absorb about 30 percent of the 2018 tariffs, primarily through lower marginal costs as demand contracts.",
+    "path": "papers/25/07/2507.12848.json",
+    "total_tokens": 1032,
+    "translated_title": "企业间贸易中的双边市场势力",
+    "translated_abstract": "我们构建并估计了一个双边市场势力模型，用以研究企业间贸易中的关税传导问题。关税通过两个渠道影响谈判达成的价格：一是由谈判决定的双边加成率，二是供应商的边际成本——在收益递减的情况下，边际成本会随贸易量的下降而下降。正是这种收益递减特征赋予集中化买方可供谈判争夺的租金，因此价格会随买方在其供应商总产出中所占份额的增加而下降。利用美国海关数据，我们估计出进口商拥有可观的谈判势力，且出口供给曲线较为陡峭。在持续存续的交易关系中，供应商吸收了2018年关税的约30%，这主要是通过需求收缩时降低边际成本实现的。",
+    "tldr": "该论文构建并估计了一个双边市场势力模型，发现进口商具有显著谈判势力，在2018年美国加征关税中供应商通过降低边际成本吸收了约30%的关税成本。",
+    "en_tdlr": "This paper develops and estimates a two-sided market power model of firm-to-firm trade, showing that suppliers absorb about 30 percent of the 2018 U.S. tariffs, primarily through lower marginal costs as demand contracts."
+}

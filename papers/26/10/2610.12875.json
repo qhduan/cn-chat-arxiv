@@ -1,0 +1,11 @@
+{
+    "title": "The Financing of Debt Relief: Intermediary Liquidity and the Value of Borrower Information",
+    "abstract": "arXiv:2610.12875v1 Announce Type: cross  Abstract: I study how intermediary liquidity affects mortgage resolution using 1.9 million Ginnie Mae buyout options from 2019 to 2022. When funding markets froze in 2020, nonbank issuers repurchased far fewer delinquent loans than depositories servicing loans in the same pools and, within the same issuer and month, shifted repurchases away from large balances, the loans that require the most cash. About $19 billion of repurchases were delayed, and most were completed later. A model of rationing by value per dollar of cash explains this pattern and shows that borrower information is most valuable when funding is intermediate.",
+    "link": "https://arxiv.org/abs/2610.12875",
+    "context": "Title: The Financing of Debt Relief: Intermediary Liquidity and the Value of Borrower Information\nAbstract: arXiv:2610.12875v1 Announce Type: cross  Abstract: I study how intermediary liquidity affects mortgage resolution using 1.9 million Ginnie Mae buyout options from 2019 to 2022. When funding markets froze in 2020, nonbank issuers repurchased far fewer delinquent loans than depositories servicing loans in the same pools and, within the same issuer and month, shifted repurchases away from large balances, the loans that require the most cash. About $19 billion of repurchases were delayed, and most were completed later. A model of rationing by value per dollar of cash explains this pattern and shows that borrower information is most valuable when funding is intermediate.",
+    "path": "papers/26/10/2610.12875.json",
+    "total_tokens": 1095,
+    "translated_title": "债务减免的融资：中介流动性与借款人信息的价值",
+    "translated_abstract": "本文利用2019年至2022年间190万笔吉利美回购选择权数据，研究中介流动性如何影响抵押贷款的处置。当2020年融资市场冻结时，非银行发行人回购的逾期贷款数量远少于在同一贷款池中服务这些贷款的存款机构，并且在同一发行人和同一月份内，回购从大额余额贷款（即最需要现金的贷款）转移开来。约190亿美元的回购被推迟，其中大部分后来得以完成。一个按每美元现金价值进行配给的模型解释了这一模式，并表明借款人信息在融资处于中间水平时最有价值。",
+    "tldr": "本文利用190万笔吉利美回购选择权数据发现，2020年融资市场冻结时流动性受限的非银行发行人推迟了约190亿美元逾期贷款回购，并通过按每美元现金价值配给的模型证明，借款人信息在融资紧张程度适中时最有价值。"
+}

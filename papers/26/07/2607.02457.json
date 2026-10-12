@@ -1,0 +1,12 @@
+{
+    "title": "Endogenous shareholding auctions",
+    "abstract": "arXiv:2607.02457v3 Announce Type: replace  Abstract: We introduce endogenous shareholding auctions for production economies where a designer must elicit demand in order to determine price and quantity. Each of these auctions has the property that the auction's profit is distributed across the designer and the bidders in accordance with ownership shares that are determined over the course of the auction. We characterize this class, and a larger class, on the basis of standard axioms. Finally, we investigate optimal auctions according to both prior-free domination and subjective expected welfare. Applications include public housing, voluntary separation, and monopoly regulation.",
+    "link": "https://arxiv.org/abs/2607.02457",
+    "context": "Title: Endogenous shareholding auctions\nAbstract: arXiv:2607.02457v3 Announce Type: replace  Abstract: We introduce endogenous shareholding auctions for production economies where a designer must elicit demand in order to determine price and quantity. Each of these auctions has the property that the auction's profit is distributed across the designer and the bidders in accordance with ownership shares that are determined over the course of the auction. We characterize this class, and a larger class, on the basis of standard axioms. Finally, we investigate optimal auctions according to both prior-free domination and subjective expected welfare. Applications include public housing, voluntary separation, and monopoly regulation.",
+    "path": "papers/26/07/2607.02457.json",
+    "total_tokens": 886,
+    "translated_title": "内生持股拍卖",
+    "translated_abstract": "我们为生产经济引入了内生持股拍卖机制，在这种经济中，设计者必须引导出需求才能确定价格和数量。此类拍卖的共同特性是：拍卖利润会按照在拍卖过程中确定的持股比例，在设计者与竞拍者之间进行分配。我们基于标准公理对这一类拍卖以及更大范围的一类拍卖进行了刻画。最后，我们分别从无先验占优和主观期望福利两个角度研究了最优拍卖。应用场景包括公共住房、自愿离职以及垄断监管。",
+    "tldr": "本文提出内生持股拍卖机制，其中拍卖利润按照拍卖过程中确定的持股比例在设计者与竞拍者之间分配，并基于标准公理刻画该类拍卖、研究最优拍卖设计，可应用于公共住房、自愿离职和垄断监管等场景。",
+    "en_tdlr": "This paper introduces endogenous shareholding auctions in which auction profits are distributed according to ownership shares determined during the auction, characterizes this class via standard axioms, and studies optimal auctions under prior-free domination and subjective expected welfare, with applications to public housing, voluntary separation, and monopoly regulation."
+}

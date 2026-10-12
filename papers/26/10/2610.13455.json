@@ -1,0 +1,12 @@
+{
+    "title": "Agentic Large Language Models",
+    "abstract": "arXiv:2610.13455v1 Announce Type: new  Abstract: Large language models (LLMs) have taken the world by storm. Their ability to communicate with us in our own language, and to reason about our world, has made them a favorite tool for writing, answering questions, and much more. Their answers already influence our decisions and our actions. What would happen if LLMs themselves could act in the world directly? What would happen if LLMs could interact with each other? Agentic LLMs combine the power of large language models with the ability to act in the real world. In this book we will discuss how agentic LLMs work, how they act, how they interact, and what this means for us, as users.",
+    "link": "https://arxiv.org/abs/2610.13455",
+    "context": "Title: Agentic Large Language Models\nAbstract: arXiv:2610.13455v1 Announce Type: new  Abstract: Large language models (LLMs) have taken the world by storm. Their ability to communicate with us in our own language, and to reason about our world, has made them a favorite tool for writing, answering questions, and much more. Their answers already influence our decisions and our actions. What would happen if LLMs themselves could act in the world directly? What would happen if LLMs could interact with each other? Agentic LLMs combine the power of large language models with the ability to act in the real world. In this book we will discuss how agentic LLMs work, how they act, how they interact, and what this means for us, as users.",
+    "path": "papers/26/10/2610.13455.json",
+    "total_tokens": 895,
+    "translated_title": "智能体化大型语言模型",
+    "translated_abstract": "大型语言模型（LLMs）已经风靡全球。它们能够用我们的语言与我们交流，并对我们的世界进行推理，这使它们成为写作、回答问题等众多任务的首选工具。它们的回答已经在影响我们的决策和行动。如果大型语言模型能够直接在世界中行动，会发生什么？如果大型语言模型之间能够相互交互，又会发生什么？智能体化大型语言模型将大型语言模型的能力与现实世界中的行动能力结合在一起。在本书中，我们将讨论智能体化大型语言模型如何工作、如何行动、如何交互，以及这对我们作为用户意味着什么。",
+    "tldr": "本书探讨了智能体化大型语言模型如何将LLM的语言推理能力与现实世界中的行动和交互能力相结合。",
+    "en_tdlr": "This book explores how agentic LLMs combine the reasoning power of large language models with the ability to act in the real world and interact with each other."
+}
