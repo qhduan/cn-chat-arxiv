@@ -1,0 +1,12 @@
+{
+    "title": "A Rate Transfer Method: Convergence Rates in Stochastic Gradient Descent via Stochastic Calculus",
+    "abstract": "arXiv:2610.18739v1 Announce Type: cross  Abstract: We develop a rate-transfer method that converts finite-time Lyapunov estimates for an associated stochastic differential equation (SDE) into finite-time convergence bounds for stochastic gradient algorithms. Under generic moment and smoothness conditions, the convergence analysis of the stochastic gradient method reduces to a calculus argument verifying a Lyapunov generator inequality for the SDE. The method recovers established rates for classical stochastic gradient methods and provides a way to establish convergence rates for new optimization algorithms through calculus arguments applied to their associated SDEs.",
+    "link": "https://arxiv.org/abs/2610.18739",
+    "context": "Title: A Rate Transfer Method: Convergence Rates in Stochastic Gradient Descent via Stochastic Calculus\nAbstract: arXiv:2610.18739v1 Announce Type: cross  Abstract: We develop a rate-transfer method that converts finite-time Lyapunov estimates for an associated stochastic differential equation (SDE) into finite-time convergence bounds for stochastic gradient algorithms. Under generic moment and smoothness conditions, the convergence analysis of the stochastic gradient method reduces to a calculus argument verifying a Lyapunov generator inequality for the SDE. The method recovers established rates for classical stochastic gradient methods and provides a way to establish convergence rates for new optimization algorithms through calculus arguments applied to their associated SDEs.",
+    "path": "papers/26/10/2610.18739.json",
+    "total_tokens": 873,
+    "translated_title": "一种速率转移方法：通过随机微积分获得随机梯度下降的收敛速率",
+    "translated_abstract": "我们开发了一种速率转移方法，该方法将相关随机微分方程（SDE）的有限时间Lyapunov估计转化为随机梯度算法的有限时间收敛界。在一般的矩条件和光滑性条件下，随机梯度方法的收敛分析可以简化为验证该SDE的Lyapunov生成元不等式的微积分论证。该方法恢复了经典随机梯度方法已确立的收敛速率，并为新优化算法提供了一种通过对其相关SDE应用微积分论证来建立收敛速率的途径。",
+    "tldr": "提出一种速率转移方法，将随机微分方程的有限时间Lyapunov估计转化为随机梯度算法的有限时间收敛界，使得新优化算法的收敛速率可通过简单的微积分论证来建立。",
+    "en_tdlr": "A rate-transfer method converts finite-time Lyapunov estimates for associated SDEs into finite-time convergence bounds for stochastic gradient algorithms, enabling convergence rates of new optimization algorithms to be established via simple calculus arguments."
+}

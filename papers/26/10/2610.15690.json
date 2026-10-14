@@ -1,0 +1,12 @@
+{
+    "title": "Notes on Uniform Policy Score Bounds and Lipschitz Continuity for Truncated Gaussian, Product Cauchy, Boltzmann, and Softmax Policies",
+    "abstract": "arXiv:2610.15690v1 Announce Type: new  Abstract: We establish uniform score bounds and Lipschitz continuity for truncated Gaussian, Cauchy, Boltzmann, and softmax policies under explicitly stated parameterizations.",
+    "link": "https://arxiv.org/abs/2610.15690",
+    "context": "Title: Notes on Uniform Policy Score Bounds and Lipschitz Continuity for Truncated Gaussian, Product Cauchy, Boltzmann, and Softmax Policies\nAbstract: arXiv:2610.15690v1 Announce Type: new  Abstract: We establish uniform score bounds and Lipschitz continuity for truncated Gaussian, Cauchy, Boltzmann, and softmax policies under explicitly stated parameterizations.",
+    "path": "papers/26/10/2610.15690.json",
+    "total_tokens": 611,
+    "translated_title": "关于截断高斯、乘积柯西、玻尔兹曼与Softmax策略的一致得分界与Lipschitz连续性的注记",
+    "translated_abstract": "我们在明确给定的参数化条件下，为截断高斯、柯西、玻尔兹曼以及softmax策略建立了一致得分界和Lipschitz连续性。",
+    "tldr": "本文在明确参数化条件下，证明了截断高斯、柯西、玻尔兹曼和softmax策略的一致得分界与Lipschitz连续性。",
+    "en_tdlr": "This paper establishes uniform score bounds and Lipschitz continuity for truncated Gaussian, Cauchy, Boltzmann, and softmax policies under explicitly stated parameterizations."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Retrieval-Based In-Context Learning: A Domain Adaptation Framework",
+    "abstract": "arXiv:2610.05717v2 Announce Type: replace  Abstract: In-context retrieval (ICR) is a retrieval-based form of in-context learning (ICL) in which demonstrations are retrieved from a source database based on similarity to the query, rather than sampled independently. In this work, we formulate ICR as a type of domain adaptation problem, where the source distribution $P$ of the database may differ from the target distribution $Q$ of the test query-label pair. We investigate the performance of ICR under a flexible class of distributional shifts that substantially extends prior work \\citep{li2024fine,guo2025retrieval}, and establish theoretical guarantees that quantify the benefits and pitfalls of this learning paradigm. Our theory is verified by experiments on synthetic and language tasks.",
+    "link": "https://arxiv.org/abs/2610.05717",
+    "context": "Title: Retrieval-Based In-Context Learning: A Domain Adaptation Framework\nAbstract: arXiv:2610.05717v2 Announce Type: replace  Abstract: In-context retrieval (ICR) is a retrieval-based form of in-context learning (ICL) in which demonstrations are retrieved from a source database based on similarity to the query, rather than sampled independently. In this work, we formulate ICR as a type of domain adaptation problem, where the source distribution $P$ of the database may differ from the target distribution $Q$ of the test query-label pair. We investigate the performance of ICR under a flexible class of distributional shifts that substantially extends prior work \\citep{li2024fine,guo2025retrieval}, and establish theoretical guarantees that quantify the benefits and pitfalls of this learning paradigm. Our theory is verified by experiments on synthetic and language tasks.",
+    "path": "papers/26/10/2610.05717.json",
+    "total_tokens": 961,
+    "translated_title": "基于检索的上下文学习：一个领域自适应框架",
+    "translated_abstract": "上下文检索（ICR）是一种基于检索的上下文学习（ICL）形式，其中示例演示是根据与查询的相似性从源数据库中检索出来的，而不是独立采样的。在这项工作中，我们将ICR形式化为一类领域自适应问题，其中数据库的源分布 $P$ 可能与测试查询-标签对的目标分布 $Q$ 不同。我们在一类灵活的分布偏移下研究了ICR的性能，这类偏移大幅扩展了先前的工作，并建立了理论保证以量化这种学习范式的优势与潜在缺陷。我们的理论通过合成任务和语言任务上的实验得到了验证。",
+    "tldr": "该论文首次将基于检索的上下文学习（ICR）形式化为领域自适应问题，在灵活的分布偏移条件下建立了理论保证，量化了该学习范式的优势与局限。",
+    "en_tdlr": "This paper formulates retrieval-based in-context learning (ICR) as a domain adaptation problem and establishes theoretical guarantees quantifying the benefits and pitfalls of this paradigm under a flexible class of distributional shifts."
+}

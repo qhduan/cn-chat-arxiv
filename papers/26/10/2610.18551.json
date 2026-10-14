@@ -1,0 +1,12 @@
+{
+    "title": "Understanding Circulant Permutation to Extend the CMinHash Estimator",
+    "abstract": "arXiv:2610.18551v1 Announce Type: new  Abstract: CMinHash promises a new direction for designing MinHash algorithms with reduced variance and storage space via circulant permutations. However, the original variance analysis is difficult to extend to other MinHash estimators. We present a new approach that gives explicit and easily comparable approximate variance expressions, and use it to analyze the Minner estimator. Numerical experiments show that our variance expression matches the empirical mean square error (MSE) of estimates. Our work thereby demonstrates how to apply circulant permutation to other MinHash estimators and compute their approximate variance.",
+    "link": "https://arxiv.org/abs/2610.18551",
+    "context": "Title: Understanding Circulant Permutation to Extend the CMinHash Estimator\nAbstract: arXiv:2610.18551v1 Announce Type: new  Abstract: CMinHash promises a new direction for designing MinHash algorithms with reduced variance and storage space via circulant permutations. However, the original variance analysis is difficult to extend to other MinHash estimators. We present a new approach that gives explicit and easily comparable approximate variance expressions, and use it to analyze the Minner estimator. Numerical experiments show that our variance expression matches the empirical mean square error (MSE) of estimates. Our work thereby demonstrates how to apply circulant permutation to other MinHash estimators and compute their approximate variance.",
+    "path": "papers/26/10/2610.18551.json",
+    "total_tokens": 886,
+    "translated_title": "理解循环置换以扩展 CMinHash 估计器",
+    "translated_abstract": "CMinHash 通过循环置换为设计具有更低方差和更少存储空间的 MinHash 算法开辟了新方向。然而，原有的方差分析难以扩展到其他 MinHash 估计器。我们提出了一种新方法，能够给出显式且易于比较的近似方差表达式，并利用该方法分析了 Minner 估计器。数值实验表明，我们的方差表达式与估计的经验均方误差（MSE）相吻合。因此，我们的工作展示了如何将循环置换应用于其他 MinHash 估计器并计算它们的近似方差。",
+    "tldr": "本文提出了一种新的近似方差分析方法，成功将 CMinHash 的循环置换技术扩展到 Minner 等其他 MinHash 估计器，并通过数值实验验证了方差表达式与经验均方误差的一致性。",
+    "en_tdlr": "This paper introduces a new approach for deriving explicit and comparable approximate variance expressions, extending circulant permutation techniques from CMinHash to other MinHash estimators such as Minner, with numerical experiments confirming consistency with empirical MSE."
+}
