@@ -1,0 +1,12 @@
+{
+    "title": "Robustifying Empirical Bayes",
+    "abstract": "arXiv:2603.00704v3 Announce Type: replace-cross  Abstract: Two strategies are explored for robustifying classical denoising procedures for the   Gaussian sequence model. First, the Hodges and Lehmann (1952)   restricted Bayes approach is used to reduce sensitivity to the specification   of the initial prior distribution. Second, alternatives to the Gaussian   noise assumption are explored. In both cases proposals of Huber (1964)   and Mallows (1978) play a crucial role.",
+    "link": "https://arxiv.org/abs/2603.00704",
+    "context": "Title: Robustifying Empirical Bayes\nAbstract: arXiv:2603.00704v3 Announce Type: replace-cross  Abstract: Two strategies are explored for robustifying classical denoising procedures for the   Gaussian sequence model. First, the Hodges and Lehmann (1952)   restricted Bayes approach is used to reduce sensitivity to the specification   of the initial prior distribution. Second, alternatives to the Gaussian   noise assumption are explored. In both cases proposals of Huber (1964)   and Mallows (1978) play a crucial role.",
+    "path": "papers/26/03/2603.00704.json",
+    "total_tokens": 817,
+    "translated_title": "强化经验贝叶斯方法的稳健性",
+    "translated_abstract": "本文探讨了两种策略，用于增强高斯序列模型中经典去噪方法的稳健性。首先，采用 Hodges 和 Lehmann (1952) 提出的受限贝叶斯方法，以降低对初始先验分布设定的敏感性。其次，探索了替代高斯噪声假设的其他方案。在这两种情况下，Huber (1964) 和 Mallows (1978) 的相关提议都发挥了关键作用。",
+    "tldr": "本文通过引入 Hodges-Lehmann 受限贝叶斯方法降低对先验分布设定的敏感性，并探索高斯噪声假设的替代方案，从而增强了高斯序列模型中经典去噪方法的稳健性。",
+    "en_tdlr": "This paper robustifies classical denoising procedures for the Gaussian sequence model by employing the Hodges-Lehmann restricted Bayes approach to reduce sensitivity to prior specification and exploring alternatives to the Gaussian noise assumption, with the proposals of Huber (1964) and Mallows (1978) playing a crucial role."
+}

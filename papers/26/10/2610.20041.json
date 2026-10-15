@@ -1,0 +1,12 @@
+{
+    "title": "Sequential Learning-Based Physics-Informed Neural Network Modeling for Parameter Estimation on a Power Converter",
+    "abstract": "arXiv:2610.20041v1 Announce Type: new  Abstract: A staged physics-informed neural network (PINN) is proposed for identifying the inductance, capacitance and parasitic resistances of a DC buck converter from time-domain data. Gradients are released in the order of L to C to rL to rC, a sequence derived from sensitivity analysis. The five-stage schedule recovers L and C to within 5% and the series ESR to 10%, while a three-stage variant attains the same accuracy 11% faster. An 84 factorial sweep confirms that the trained PINN remains accurate for simultaneous 8% perturbations of all four components, achieving a waveform RMSE of 2.6 x 10-2 over 5 ms-an order-of-magnitude better than a simultaneous-training baseline.",
+    "link": "https://arxiv.org/abs/2610.20041",
+    "context": "Title: Sequential Learning-Based Physics-Informed Neural Network Modeling for Parameter Estimation on a Power Converter\nAbstract: arXiv:2610.20041v1 Announce Type: new  Abstract: A staged physics-informed neural network (PINN) is proposed for identifying the inductance, capacitance and parasitic resistances of a DC buck converter from time-domain data. Gradients are released in the order of L to C to rL to rC, a sequence derived from sensitivity analysis. The five-stage schedule recovers L and C to within 5% and the series ESR to 10%, while a three-stage variant attains the same accuracy 11% faster. An 84 factorial sweep confirms that the trained PINN remains accurate for simultaneous 8% perturbations of all four components, achieving a waveform RMSE of 2.6 x 10-2 over 5 ms-an order-of-magnitude better than a simultaneous-training baseline.",
+    "path": "papers/26/10/2610.20041.json",
+    "total_tokens": 1271,
+    "translated_title": "基于序列学习的物理信息神经网络建模用于电力变换器参数估计",
+    "translated_abstract": "本文提出一种分阶段的物理信息神经网络（PINN），用于从时域数据中识别DC降压变换器的电感、电容和寄生电阻。梯度按照从L到C再到rL到rC的顺序逐步释放，该顺序来源于敏感性分析。五阶段训练方案可将L和C的估计误差控制在5%以内、串联ESR控制在10%以内，而三阶段变体能以快11%的速度达到相同精度。8⁴全因子参数扫描验证表明，训练好的PINN在四个元件同时受到8%扰动时仍保持精度，在5 ms范围内波形RMSE达到2.6×10⁻²，比同时训练的基线方法好一个数量级。",
+    "tldr": "该论文提出一种基于敏感性分析、按序释放梯度的分阶段PINN方法，可从时域数据中高精度识别降压变换器的电感、电容和寄生电阻参数，精度比同时训练基线提升一个数量级。",
+    "en_tdlr": "A staged PINN with sensitivity-based sequential gradient release accurately identifies the inductance, capacitance and parasitic resistances of a buck converter from time-domain data, achieving an order-of-magnitude improvement over simultaneous-training baselines."
+}

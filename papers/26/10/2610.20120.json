@@ -1,0 +1,12 @@
+{
+    "title": "A Bregman Proximal Viewpoint on Neural Operators",
+    "abstract": "arXiv:2610.20120v1 Announce Type: new  Abstract: We present several advances on neural operators by viewing the action of operator layers as the minimizers of Bregman regularized optimization problems over Banach function spaces. The proposed framework allows interpreting the activation operators as Bregman proximity operators from dual to primal space. This novel viewpoint is general enough to recover classical neural operators as well as a new variant, coined Bregman neural operators, which includes the inverse activation operator and features the same expressivity of standard neural operators. Numerical experiments support the added benefits of the Bregman variant of Fourier neural operators for training deeper and more accurate models.",
+    "link": "https://arxiv.org/abs/2610.20120",
+    "context": "Title: A Bregman Proximal Viewpoint on Neural Operators\nAbstract: arXiv:2610.20120v1 Announce Type: new  Abstract: We present several advances on neural operators by viewing the action of operator layers as the minimizers of Bregman regularized optimization problems over Banach function spaces. The proposed framework allows interpreting the activation operators as Bregman proximity operators from dual to primal space. This novel viewpoint is general enough to recover classical neural operators as well as a new variant, coined Bregman neural operators, which includes the inverse activation operator and features the same expressivity of standard neural operators. Numerical experiments support the added benefits of the Bregman variant of Fourier neural operators for training deeper and more accurate models.",
+    "path": "papers/26/10/2610.20120.json",
+    "total_tokens": 995,
+    "translated_title": "神经算子的Bregman近端视角",
+    "translated_abstract": "我们通过将算子层的作用视为Banach函数空间上Bregman正则化优化问题的最小值点，在神经算子方面取得了若干进展。所提出的框架允许将激活算子解释为从对偶空间到原空间的Bregman邻近算子。这一新颖的视角足够通用，既能涵盖经典的神经算子，又催生了一种新的变体——我们称之为Bregman神经算子，它包含逆激活算子，并具有与标准神经算子相同的表达能力。数值实验证明了傅里叶神经算子的Bregman变体在训练更深、更精确模型方面的额外优势。",
+    "tldr": "本文将神经算子层的作用解释为Banach函数空间上Bregman正则化优化问题的最小值点，由此提出了一种新的Bregman神经算子，其实验表明其傅里叶变体在训练更深、更精确的模型上更具优势。",
+    "en_tdlr": "This paper interprets neural operator layers as minimizers of Bregman-regularized optimization problems over Banach function spaces, leading to a novel Bregman neural operator whose Fourier variant shows improved performance in training deeper and more accurate models."
+}

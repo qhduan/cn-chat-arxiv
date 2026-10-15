@@ -1,0 +1,12 @@
+{
+    "title": "BehaviorFormer: Discovering Behavioral Patterns via Clusterable Next-Token Prediction",
+    "abstract": "arXiv:2610.16322v1 Announce Type: cross  Abstract: Discovering behavioral patterns in open-ended games is challenging due to the lack of clear objectives or ground-truth annotations. In this work, we extend a next-token prediction Transformer with the deep clustering algorithm DCSS to learn meaningful representations with well-separated clusters. In a controlled Minecraft session with 26 players, the method discovers 23 distinct behavioral patterns that generalize across the studied players, further refining structures present in self-supervised representations into clearly separable clusters. We group the clusters into seven interpretable categories covering stationary, roaming, travel, mining, base work, logging, and farming behavior.",
+    "link": "https://arxiv.org/abs/2610.16322",
+    "context": "Title: BehaviorFormer: Discovering Behavioral Patterns via Clusterable Next-Token Prediction\nAbstract: arXiv:2610.16322v1 Announce Type: cross  Abstract: Discovering behavioral patterns in open-ended games is challenging due to the lack of clear objectives or ground-truth annotations. In this work, we extend a next-token prediction Transformer with the deep clustering algorithm DCSS to learn meaningful representations with well-separated clusters. In a controlled Minecraft session with 26 players, the method discovers 23 distinct behavioral patterns that generalize across the studied players, further refining structures present in self-supervised representations into clearly separable clusters. We group the clusters into seven interpretable categories covering stationary, roaming, travel, mining, base work, logging, and farming behavior.",
+    "path": "papers/26/10/2610.16322.json",
+    "total_tokens": 919,
+    "translated_title": "BehaviorFormer：通过可聚类的下一词元预测发现行为模式",
+    "translated_abstract": "在开放性游戏中发现行为模式是一项挑战，因为缺乏明确的目标或真值标注。在这项工作中，我们将下一词元预测Transformer与深度聚类算法DCSS相结合，以学习具有良好分离簇的有意义表示。在一项有26名玩家参与的受控Minecraft会话中，该方法发现了23种不同的行为模式，这些模式能够泛化到所研究的玩家群体，并将自监督表示中已有的结构进一步细化为清晰可分的簇。我们将这些簇归入七个可解释的类别，涵盖静止、游荡、旅行、采矿、基地建设、伐木和耕作等行为。",
+    "tldr": "该论文提出BehaviorFormer，通过将下一词元预测Transformer与深度聚类算法DCSS结合，在Minecraft游戏中成功发现了23种可泛化且可解释的玩家行为模式。",
+    "en_tdlr": "This paper proposes BehaviorFormer, which combines a next-token prediction Transformer with the deep clustering algorithm DCSS to discover 23 generalizable and interpretable player behavioral patterns in Minecraft."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Unequal Voices: How LLMs Construct Constrained Queer Narratives",
+    "abstract": "arXiv:2507.15585v2 Announce Type: replace-cross  Abstract: One way social groups are marginalized in discourse is that the narratives told about them often default to a narrow, stereotyped range of topics. In contrast, default groups are allowed the full complexity of human existence. We describe the constrained representations of queer people in LLM generations in terms of harmful representations, narrow representations, and discursive othering and formulate hypotheses to test for these phenomena. Our results show that LLMs are significantly limited in their portrayals of queer personas.",
+    "link": "https://arxiv.org/abs/2507.15585",
+    "context": "Title: Unequal Voices: How LLMs Construct Constrained Queer Narratives\nAbstract: arXiv:2507.15585v2 Announce Type: replace-cross  Abstract: One way social groups are marginalized in discourse is that the narratives told about them often default to a narrow, stereotyped range of topics. In contrast, default groups are allowed the full complexity of human existence. We describe the constrained representations of queer people in LLM generations in terms of harmful representations, narrow representations, and discursive othering and formulate hypotheses to test for these phenomena. Our results show that LLMs are significantly limited in their portrayals of queer personas.",
+    "path": "papers/25/07/2507.15585.json",
+    "total_tokens": 1058,
+    "translated_title": "不平等的声音：大语言模型如何构建受限的酷儿叙事",
+    "translated_abstract": "社会群体在话语中被边缘化的一种方式是，关于这些群体所讲述的叙事往往默认局限于狭窄、刻板的话题范围。与此相对，默认群体则被允许展现人类存在的全部复杂性。本文从有害表征、狭隘表征和话语性他者化三个维度描述了大语言模型生成内容中对酷儿群体的受限表征，并制定了用于检验这些现象的假设。我们的研究结果表明，大语言模型在刻画酷儿人物形象方面存在显著局限。",
+    "tldr": "本研究通过有害表征、狭隘表征和话语性他者化三个维度实证分析发现，大语言模型对酷儿人物的叙事刻画显著受限，远不如默认群体所能展现的人类存在复杂性。"
+}

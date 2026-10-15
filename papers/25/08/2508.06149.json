@@ -1,0 +1,12 @@
+{
+    "title": "Scaling Personality Control in LLMs with Big Five Scaler Prompts",
+    "abstract": "arXiv:2508.06149v2 Announce Type: replace  Abstract: We present Big5-Scaler, a prompt-based framework for conditioning large language models (LLMs) with controllable Big Five personality traits. By embedding numeric trait values into natural language prompts, our method enables fine-grained personality control without additional training. We evaluate Big5-Scaler across trait expression, dialogue generation, and human trait imitation tasks. Results show that it induces consistent and distinguishable personality traits across models, with performance varying by prompt type and scale. Our analysis highlights the effectiveness of concise prompts and lower trait intensities, providing a efficient approach for building personality-aware dialogue agents.",
+    "link": "https://arxiv.org/abs/2508.06149",
+    "context": "Title: Scaling Personality Control in LLMs with Big Five Scaler Prompts\nAbstract: arXiv:2508.06149v2 Announce Type: replace  Abstract: We present Big5-Scaler, a prompt-based framework for conditioning large language models (LLMs) with controllable Big Five personality traits. By embedding numeric trait values into natural language prompts, our method enables fine-grained personality control without additional training. We evaluate Big5-Scaler across trait expression, dialogue generation, and human trait imitation tasks. Results show that it induces consistent and distinguishable personality traits across models, with performance varying by prompt type and scale. Our analysis highlights the effectiveness of concise prompts and lower trait intensities, providing a efficient approach for building personality-aware dialogue agents.",
+    "path": "papers/25/08/2508.06149.json",
+    "total_tokens": 944,
+    "translated_title": "使用大五人格缩放提示词实现大语言模型中的人格控制扩展",
+    "translated_abstract": "我们提出了Big5-Scaler，这是一个基于提示词的框架，用于通过可控的大五人格特质来调节大型语言模型（LLMs）。通过将数值型特质值嵌入自然语言提示词中，我们的方法无需额外训练即可实现细粒度的人格控制。我们在特质表达、对话生成和人类特质模仿任务上对Big5-Scaler进行了评估。结果表明，该方法能够在不同模型中诱导出一致且可区分的人格特质，其性能因提示词类型和规模而异。我们的分析强调了简洁提示词和较低特质强度的有效性，为构建具有人格感知能力的对话智能体提供了一种高效的方法。",
+    "tldr": "提出基于提示词的Big5-Scaler框架，通过将大五人格数值嵌入提示词，无需额外训练即可实现对大语言模型人格特质的细粒度控制。",
+    "en_tdlr": "Big5-Scaler is a prompt-based framework that embeds numeric Big Five trait values into natural language prompts, enabling fine-grained personality control of LLMs without additional training."
+}

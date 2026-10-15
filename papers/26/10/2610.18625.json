@@ -1,0 +1,12 @@
+{
+    "title": "Falsification-proof non-market allocation mechanisms",
+    "abstract": "arXiv:2610.18625v1 Announce Type: cross  Abstract: Relying on manipulable characteristics to target the allocation of resources is fraught with difficulties. Naively optimal rules lead to falsification and allocative inefficiency. Optimizing the rule for allocative efficiency while accounting for falsification typically induces falsification, at a heavy cost to the agents. Moreover, falsification generates negative externalities. We characterize optimal falsification-proof rules under a broad range of falsification technologies. We also provide an honesty condition under which they solve the unconstrained problem of a planner who maximizes a weighted sum of allocative surplus and agents' welfare.",
+    "link": "https://arxiv.org/abs/2610.18625",
+    "context": "Title: Falsification-proof non-market allocation mechanisms\nAbstract: arXiv:2610.18625v1 Announce Type: cross  Abstract: Relying on manipulable characteristics to target the allocation of resources is fraught with difficulties. Naively optimal rules lead to falsification and allocative inefficiency. Optimizing the rule for allocative efficiency while accounting for falsification typically induces falsification, at a heavy cost to the agents. Moreover, falsification generates negative externalities. We characterize optimal falsification-proof rules under a broad range of falsification technologies. We also provide an honesty condition under which they solve the unconstrained problem of a planner who maximizes a weighted sum of allocative surplus and agents' welfare.",
+    "path": "papers/26/10/2610.18625.json",
+    "total_tokens": 867,
+    "translated_title": "防伪造的非市场分配机制",
+    "translated_abstract": "依赖可操纵的特征来定向分配资源充满困难。天真的最优规则会导致伪造行为和配置效率低下。在考虑伪造行为的同时为配置效率优化规则，通常会诱发伪造，并使行为人付出沉重的代价。此外，伪造还会产生负外部性。本文在广泛的伪造技术下刻画了最优的防伪造规则。我们还提供了一个诚实性条件，在该条件下，这些规则能够解决规划者最大化配置剩余与行为人福利加权和的无约束问题。",
+    "tldr": "本文刻画了在广泛伪造技术下最优的防伪造非市场分配规则，并给出了一个诚实性条件，使这些规则能够解决规划者最大化配置剩余与行为人福利加权和的无约束问题。",
+    "en_tdlr": "This paper characterizes optimal falsification-proof non-market allocation rules under a broad range of falsification technologies and provides an honesty condition under which these rules solve a planner's unconstrained problem of maximizing a weighted sum of allocative surplus and agents' welfare."
+}

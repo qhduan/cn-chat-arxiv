@@ -1,0 +1,12 @@
+{
+    "title": "Persuading an inattentive and privately informed receiver",
+    "abstract": "arXiv:2408.01250v5 Announce Type: replace  Abstract: This paper studies the persuasion of a receiver who accesses information only if she exerts costly attention effort. A sender designs an experiment to persuade the receiver to take a specific action. The experiment affects the receiver's attention effort, that is, the probability that she updates her beliefs. Persuasion has two margins: an extensive margin (effort) and an intensive margin (action). The receiver's utility exhibits a complementarity property in information and effort. By leveraging this property, we establish an equivalence between experiments and persuasion mechanisms \\`a la Kolotilin et al.~(2017). In applications, the sender's optimal strategy involves censoring favorable states.",
+    "link": "https://arxiv.org/abs/2408.01250",
+    "context": "Title: Persuading an inattentive and privately informed receiver\nAbstract: arXiv:2408.01250v5 Announce Type: replace  Abstract: This paper studies the persuasion of a receiver who accesses information only if she exerts costly attention effort. A sender designs an experiment to persuade the receiver to take a specific action. The experiment affects the receiver's attention effort, that is, the probability that she updates her beliefs. Persuasion has two margins: an extensive margin (effort) and an intensive margin (action). The receiver's utility exhibits a complementarity property in information and effort. By leveraging this property, we establish an equivalence between experiments and persuasion mechanisms \\`a la Kolotilin et al.~(2017). In applications, the sender's optimal strategy involves censoring favorable states.",
+    "path": "papers/24/08/2408.01250.json",
+    "total_tokens": 979,
+    "translated_title": "说服一个注意力不集中且拥有私人信息的接收者",
+    "translated_abstract": "本文研究如何说服一个只有在付出有成本的注意力努力时才能获取信息的接收者。发送者设计一个实验来说服接收者采取特定行动。该实验会影响接收者的注意力努力，即她更新信念的概率。说服具有两个边际：扩展边际（努力）和集约边际（行动）。接收者的效用在信息与努力之间表现出互补性。通过利用这一性质，我们建立了实验与Kolotilin等人（2017）提出的说服机制之间的等价性。在应用中，发送者的最优策略涉及对有利状态的屏蔽。",
+    "tldr": "本文利用接收者效用中信息与努力之间的互补性，建立了实验与说服机制之间的等价性，并证明发送者的最优说服策略涉及屏蔽有利状态。",
+    "en_tdlr": "This paper establishes an equivalence between experiments and persuasion mechanisms by leveraging the complementarity between information and effort in the receiver's utility, showing that the sender's optimal strategy involves censoring favorable states."
+}

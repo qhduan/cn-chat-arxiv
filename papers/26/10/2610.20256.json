@@ -1,0 +1,12 @@
+{
+    "title": "Long-Horizon RL Needs Muon",
+    "abstract": "arXiv:2610.20256v1 Announce Type: new  Abstract: Long-horizon agents must coordinate reasoning, tool use, and environment feedback over extended interactions. Learning from sparse outcome rewards requires weighting trajectories of different lengths and updating the policy while rollouts are still being collected. We examine a single-rollout asynchronous recipe combining Muon, token-averaged loss, truncated importance sampling, and auxiliary length and tool-error penalties. Single-rollout sampling allows asynchronous learning without waiting for multiple trajectories for the same issue. We study optimizer choices and recipe components for repository-level issue resolution across two model families. The evaluated training runs show higher training success with the full recipe than with the baselines.",
+    "link": "https://arxiv.org/abs/2610.20256",
+    "context": "Title: Long-Horizon RL Needs Muon\nAbstract: arXiv:2610.20256v1 Announce Type: new  Abstract: Long-horizon agents must coordinate reasoning, tool use, and environment feedback over extended interactions. Learning from sparse outcome rewards requires weighting trajectories of different lengths and updating the policy while rollouts are still being collected. We examine a single-rollout asynchronous recipe combining Muon, token-averaged loss, truncated importance sampling, and auxiliary length and tool-error penalties. Single-rollout sampling allows asynchronous learning without waiting for multiple trajectories for the same issue. We study optimizer choices and recipe components for repository-level issue resolution across two model families. The evaluated training runs show higher training success with the full recipe than with the baselines.",
+    "path": "papers/26/10/2610.20256.json",
+    "total_tokens": 1007,
+    "translated_title": "长时程强化学习需要 Muon",
+    "translated_abstract": "长时程智能体需要在长时间交互中协调推理、工具使用与环境反馈。从稀疏的结果奖励中学习，要求对不同长度的轨迹进行加权，并在回合数据仍在收集时就更新策略。我们研究了一种单回合异步训练方案，它结合了 Muon 优化器、令牌平均损失、截断重要性采样，以及辅助性的长度惩罚和工具错误惩罚。单回合采样使异步学习无需等待针对同一问题收集的多条轨迹。我们在两个模型家族上，针对仓库级问题解决任务研究了优化器选择和方案各组件的作用。评估的训练运行结果表明，完整方案比基线方法取得了更高的训练成功率。",
+    "tldr": "提出了一种结合 Muon 优化器、令牌平均损失、截断重要性采样及长度与工具错误惩罚的单回合异步训练方案，显著提升了长时程强化学习在仓库级问题解决任务上的训练成功率。",
+    "en_tdlr": "A single-rollout asynchronous recipe combining Muon, token-averaged loss, truncated importance sampling, and auxiliary length and tool-error penalties improves training success for long-horizon RL on repository-level issue resolution."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Enhanced Trading Systems with Intelligent Market Analysis",
+    "abstract": "arXiv:2610.13998v1 Announce Type: cross  Abstract: This paper proposes a hybrid reinforcement learning trading framework integrating intraday market data with transformer-based financial sentiment signals. The system extracts sentiment dynamics and semantic event clusters from financial news and incorporates them into a PPO-based trading agent. Experiments on intraday NSE data demonstrate improved risk-adjusted returns compared to price-only baselines.",
+    "link": "https://arxiv.org/abs/2610.13998",
+    "context": "Title: Enhanced Trading Systems with Intelligent Market Analysis\nAbstract: arXiv:2610.13998v1 Announce Type: cross  Abstract: This paper proposes a hybrid reinforcement learning trading framework integrating intraday market data with transformer-based financial sentiment signals. The system extracts sentiment dynamics and semantic event clusters from financial news and incorporates them into a PPO-based trading agent. Experiments on intraday NSE data demonstrate improved risk-adjusted returns compared to price-only baselines.",
+    "path": "papers/26/10/2610.13998.json",
+    "total_tokens": 779,
+    "translated_title": "基于智能市场分析的增强交易系统",
+    "translated_abstract": "本文提出了一种混合强化学习交易框架，将日内市场数据与基于Transformer的金融情感信号相融合。该系统从金融新闻中提取情感动态和语义事件聚类，并将其融入基于PPO（近端策略优化）的交易智能体中。在NSE（印度国家证券交易所）日内数据上的实验表明，与仅使用价格数据的基线方法相比，该系统实现了更优的风险调整后收益。",
+    "tldr": "该论文提出一种将日内市场数据与基于Transformer的金融新闻情感信号相融合的混合强化学习交易框架，通过将情感动态和语义事件聚类融入PPO交易智能体，在NSE日内数据上实现了优于仅用价格数据基线的风险调整后收益。",
+    "en_tdlr": "This paper proposes a hybrid reinforcement learning trading framework that integrates intraday market data with transformer-based financial sentiment signals, incorporating sentiment dynamics and semantic event clusters into a PPO trading agent to achieve improved risk-adjusted returns over price-only baselines on NSE intraday data."
+}

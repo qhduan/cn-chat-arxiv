@@ -1,0 +1,12 @@
+{
+    "title": "Student Copula Markov Networks",
+    "abstract": "arXiv:2610.19135v1 Announce Type: cross  Abstract: This paper extends the applicability of probabilistic graphical models to non Gaussian data. It establishes a characterization of the pairwise Markov property in undirected probabilistic graphical models in terms of copula densities. Building on this characterization, we derive a necessary condition for the pairwise Markov property in Student copula Markov networks. An Expectation-Conditional Maximization algorithm (ECM) is provided to facilitate the penalized maximum likelihood estimation and graph selection. The performance of the proposed algorithm is evaluated through simulation studies, which demonstrate its effectiveness in estimating model parameters and recovering the underlying graph structure.",
+    "link": "https://arxiv.org/abs/2610.19135",
+    "context": "Title: Student Copula Markov Networks\nAbstract: arXiv:2610.19135v1 Announce Type: cross  Abstract: This paper extends the applicability of probabilistic graphical models to non Gaussian data. It establishes a characterization of the pairwise Markov property in undirected probabilistic graphical models in terms of copula densities. Building on this characterization, we derive a necessary condition for the pairwise Markov property in Student copula Markov networks. An Expectation-Conditional Maximization algorithm (ECM) is provided to facilitate the penalized maximum likelihood estimation and graph selection. The performance of the proposed algorithm is evaluated through simulation studies, which demonstrate its effectiveness in estimating model parameters and recovering the underlying graph structure.",
+    "path": "papers/26/10/2610.19135.json",
+    "total_tokens": 919,
+    "translated_title": "学生Copula马尔可夫网络",
+    "translated_abstract": "本文将概率图模型的应用范围扩展到了非高斯数据。该文建立了无向概率图模型中成对马尔可夫性质基于copula密度的刻画方式。基于这一刻画，我们推导出了学生t-Copula马尔可夫网络中成对马尔可夫性质的必要条件。文中提供了一种期望-条件最大化算法（ECM），用于实现带惩罚项的极大似然估计和图结构选择。通过模拟研究对该算法的性能进行了评估，结果表明该算法在估计模型参数和恢复底层图结构方面具有良好效果。",
+    "tldr": "本文基于copula密度刻画成对马尔可夫性质，提出学生t-Copula马尔可夫网络及相应的ECM算法，将概率图模型扩展至非高斯数据并实现参数估计与图结构选择。",
+    "en_tdlr": "This paper characterizes the pairwise Markov property via copula densities, proposes Student copula Markov networks with an ECM algorithm for penalized maximum likelihood estimation and graph selection, thereby extending probabilistic graphical models to non-Gaussian data."
+}

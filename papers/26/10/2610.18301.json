@@ -1,0 +1,12 @@
+{
+    "title": "A dataset of formalised theorem statements from the Annals of Mathematics",
+    "abstract": "arXiv:2610.18301v1 Announce Type: new  Abstract: Recent progress in autoformalisation of mathematics using AI has been impressive. Measuring this progress requires datasets of formal statements that are both hard and trustworthy. We present AnnalsChallenge: 50 formalised theorem statements written by hand in Lean 4 using Mathlib. Each is the main result of a paper published in the Annals of Mathematics since 2020. Every formalisation was manually reviewed and then audited by AI. We release them without formalised proofs.",
+    "link": "https://arxiv.org/abs/2610.18301",
+    "context": "Title: A dataset of formalised theorem statements from the Annals of Mathematics\nAbstract: arXiv:2610.18301v1 Announce Type: new  Abstract: Recent progress in autoformalisation of mathematics using AI has been impressive. Measuring this progress requires datasets of formal statements that are both hard and trustworthy. We present AnnalsChallenge: 50 formalised theorem statements written by hand in Lean 4 using Mathlib. Each is the main result of a paper published in the Annals of Mathematics since 2020. Every formalisation was manually reviewed and then audited by AI. We release them without formalised proofs.",
+    "path": "papers/26/10/2610.18301.json",
+    "total_tokens": 906,
+    "translated_title": "来自《数学年刊》的形式化定理陈述数据集",
+    "translated_abstract": "近年来利用人工智能对数学进行自动形式化的进展令人瞩目。衡量这一进展需要既具挑战性又值得信赖的形式化陈述数据集。我们提出了AnnalsChallenge：50条使用Lean 4并结合Mathlib手工编写的形式化定理陈述。每一条都是2020年以来发表在《数学年刊》上论文的主要结果。每个形式化都经过人工审核，随后由AI进行审计。我们在不包含形式化证明的情况下发布这些数据。",
+    "tldr": "提出了AnnalsChallenge数据集，包含50条来自2020年以来《数学年刊》论文主要结果、经人工审核和AI审计的Lean 4手工形式化定理陈述，为衡量AI数学自动形式化进展提供了高难度且可信的基准。",
+    "en_tdlr": "We present AnnalsChallenge, a dataset of 50 hand-written Lean 4 formalised theorem statements from the main results of Annals of Mathematics papers since 2020, each manually reviewed and AI-audited, providing a hard and trustworthy benchmark for measuring progress in AI-driven autoformalisation of mathematics."
+}

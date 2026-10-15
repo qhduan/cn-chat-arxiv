@@ -1,0 +1,12 @@
+{
+    "title": "Random sets from the perspective of metric statistics",
+    "abstract": "arXiv:2511.13440v2 Announce Type: replace-cross  Abstract: Since the seminal work by Beresteanu and Molinari(2008), the random set theory and related inference methods have been widely applied in partially identified econometric models. Meanwhile, there is an emerging field in statistics for studying random objects in metric spaces, called metric statistics. This paper clarifies a relationship between two fundamental concepts in these literatures, the Aumann and Fr\\'echet means, and presents some applications of metric statistics to econometric problems involving random sets.",
+    "link": "https://arxiv.org/abs/2511.13440",
+    "context": "Title: Random sets from the perspective of metric statistics\nAbstract: arXiv:2511.13440v2 Announce Type: replace-cross  Abstract: Since the seminal work by Beresteanu and Molinari(2008), the random set theory and related inference methods have been widely applied in partially identified econometric models. Meanwhile, there is an emerging field in statistics for studying random objects in metric spaces, called metric statistics. This paper clarifies a relationship between two fundamental concepts in these literatures, the Aumann and Fr\\'echet means, and presents some applications of metric statistics to econometric problems involving random sets.",
+    "path": "papers/25/11/2511.13440.json",
+    "total_tokens": 802,
+    "translated_title": "度量统计视角下的随机集",
+    "translated_abstract": "自Beresteanu和Molinari（2008）的开创性工作以来，随机集理论及相关推断方法已在部分识别的计量经济模型中得到广泛应用。与此同时，统计学中兴起了研究度量空间中随机对象的新领域，称为度量统计。本文阐明了这两个文献中两个基本概念——Aumann均值与Fréchet均值——之间的关系，并展示了度量统计在涉及随机集的计量经济问题中的一些应用。",
+    "tldr": "本文阐明了随机集理论中的Aumann均值与度量统计中的Fréchet均值之间的联系，并将度量统计方法应用于涉及随机集的计量经济问题。",
+    "en_tdlr": "This paper clarifies the relationship between Aumann means in random set theory and Fréchet means in metric statistics, and presents applications of metric statistics to econometric problems involving random sets."
+}

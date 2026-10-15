@@ -1,0 +1,11 @@
+{
+    "title": "Copy-Paste Language Models",
+    "abstract": "arXiv:2610.19247v1 Announce Type: new  Abstract: Transformers are intuitively considered to be efficient at copying from their inputs. We actually show that the ability of LLMs to copy in context can be improved through explicit modeling. We propose Copy-Paste Language Models (CPLMs), which add a lightweight Copy-Paste head to the conventional language modeling (LM) head. CPLMs improve training efficiency, downstream performance, and offer new operating points in long-context and retrieval setups. We validate our approach by pretraining models from 135M to 1.7B parameters, showing improvements across all scales and backbones with negligible training and inference overheads. We explain the success of CPLMs by showing that they partially mitigate the LM head gradient bottleneck through an alternative gradient path.",
+    "link": "https://arxiv.org/abs/2610.19247",
+    "context": "Title: Copy-Paste Language Models\nAbstract: arXiv:2610.19247v1 Announce Type: new  Abstract: Transformers are intuitively considered to be efficient at copying from their inputs. We actually show that the ability of LLMs to copy in context can be improved through explicit modeling. We propose Copy-Paste Language Models (CPLMs), which add a lightweight Copy-Paste head to the conventional language modeling (LM) head. CPLMs improve training efficiency, downstream performance, and offer new operating points in long-context and retrieval setups. We validate our approach by pretraining models from 135M to 1.7B parameters, showing improvements across all scales and backbones with negligible training and inference overheads. We explain the success of CPLMs by showing that they partially mitigate the LM head gradient bottleneck through an alternative gradient path.",
+    "path": "papers/26/10/2610.19247.json",
+    "total_tokens": 1053,
+    "translated_title": "复制-粘贴语言模型",
+    "translated_abstract": "从直观上看，Transformer被认为擅长从其输入中进行复制。我们实际上证明，大语言模型（LLM）在上下文中进行复制的能力可以通过显式建模得到提升。我们提出了复制-粘贴语言模型（CPLMs），它在传统的语言建模（LM）头之外增加了一个轻量级的复制-粘贴头。CPLMs提升了训练效率和下游性能，并在长上下文和检索场景中提供了新的工作点。我们通过预训练从1.35亿到17亿参数规模的模型来验证我们的方法，结果显示其在所有规模和各类骨干架构上都有改进，且训练和推理开销几乎可以忽略不计。我们通过证明CPLMs通过一条替代梯度路径部分缓解了LM头的梯度瓶颈，解释了其成功的原因。",
+    "tldr": "提出复制-粘贴语言模型（CPLMs），通过在传统语言建模头之外增加一个轻量级复制-粘贴头，以几乎可忽略的开销显著提升大语言模型的复制能力、训练效率、下游性能以及长上下文和检索表现。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Do Syntax Heads Influence Model Behavior?",
+    "abstract": "arXiv:2610.19231v1 Announce Type: new  Abstract: Transformer language models develop attention heads that specialize in syntactic relations, for example, attending from verbs to their subjects. Do these heads play a causal role in the model's syntactic predictions? Evidence for such a role is mixed to negative: even when we force these heads to attend to a distractor noun other than the subject, the model's syntactic predictions are still more consistent with the subject than with the distractor. Interventions on specialized syntax heads had a significantly stronger effect on syntactic predictions than interventions on random heads, but only in one of the two measures we propose.",
+    "link": "https://arxiv.org/abs/2610.19231",
+    "context": "Title: Do Syntax Heads Influence Model Behavior?\nAbstract: arXiv:2610.19231v1 Announce Type: new  Abstract: Transformer language models develop attention heads that specialize in syntactic relations, for example, attending from verbs to their subjects. Do these heads play a causal role in the model's syntactic predictions? Evidence for such a role is mixed to negative: even when we force these heads to attend to a distractor noun other than the subject, the model's syntactic predictions are still more consistent with the subject than with the distractor. Interventions on specialized syntax heads had a significantly stronger effect on syntactic predictions than interventions on random heads, but only in one of the two measures we propose.",
+    "path": "papers/26/10/2610.19231.json",
+    "total_tokens": 801,
+    "translated_title": "句法注意力头是否影响模型行为？",
+    "translated_abstract": "Transformer语言模型会发展出专门处理句法关系的注意力头，例如从动词注意到其主语。这些注意力头在模型的句法预测中是否起着因果作用？支持这种因果作用的证据好坏参半甚至偏向负面：即使我们强制这些注意力头去注意除主语之外的干扰名词，模型的句法预测仍然更符合主语而非干扰名词。对专门句法头的干预对句法预测的影响显著强于对随机注意力头的干预，但这仅在我们提出的两种测量指标中的其中一种上成立。",
+    "tldr": "研究发现，尽管Transformer中的句法注意力头看似专门处理句法关系，但其对句法预测的因果作用证据有限：强制干预这些注意力头并不能改变模型对主语的预测偏好，且其干预效果仅在两种指标之一上优于随机注意力头。",
+    "en_tdlr": "Although syntax-specialized attention heads in Transformers appear to encode syntactic relations, their causal role is limited—forcing them onto distractors does not override subject-based predictions, and their interventions outperform random heads on only one of two proposed measures."
+}

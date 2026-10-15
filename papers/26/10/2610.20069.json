@@ -1,0 +1,12 @@
+{
+    "title": "Trainable at Depth, Solvable at Small Size: What the Loss Surface of a Polynomial Activation Dictates for Designing, Initializing and Training Networks",
+    "abstract": "arXiv:2610.20069v1 Announce Type: new  Abstract: What makes a deep network train, and what shape is its loss surface? We answer both with one construction at two scales: a polynomial activation f (z) = z + {\\lambda}z 3 , clamped and projected onto the unit sphere, plus an unnormalized identity path. As a deep stack it trains to one hundred layers on MNIST with no normalization machinery; as a small model its square loss is a polynomial system we solve exactly. The small scale explains the large one: it prescribes how to design, initialize and train the stack.",
+    "link": "https://arxiv.org/abs/2610.20069",
+    "context": "Title: Trainable at Depth, Solvable at Small Size: What the Loss Surface of a Polynomial Activation Dictates for Designing, Initializing and Training Networks\nAbstract: arXiv:2610.20069v1 Announce Type: new  Abstract: What makes a deep network train, and what shape is its loss surface? We answer both with one construction at two scales: a polynomial activation f (z) = z + {\\lambda}z 3 , clamped and projected onto the unit sphere, plus an unnormalized identity path. As a deep stack it trains to one hundred layers on MNIST with no normalization machinery; as a small model its square loss is a polynomial system we solve exactly. The small scale explains the large one: it prescribes how to design, initialize and train the stack.",
+    "path": "papers/26/10/2610.20069.json",
+    "total_tokens": 1101,
+    "translated_title": "深度可训练，小尺寸可求解：多项式激活函数的损失面如何指导网络的设计、初始化与训练",
+    "translated_abstract": "是什么让深度网络得以训练，其损失面又是什么形状？我们用一个构造在两个尺度上同时回答了这两个问题：一个多项式激活函数 f(z) = z + λz³（经过截断并投影到单位球面上），外加一条未归一化的恒等路径。作为深层堆叠网络，它在无需任何归一化机制的情况下于 MNIST 上训练至一百层；作为小模型，其平方损失是一个我们可以精确求解的多项式系统。小尺度解释了大尺度：它规定了如何设计、初始化和训练这个深层堆叠网络。",
+    "tldr": "该论文提出多项式激活函数 f(z) = z + λz³ 加恒等路径的构造，通过精确求解小规模模型的损失面来指导深层网络的设计、初始化与训练，使百层网络无需任何归一化机制即可在 MNIST 上成功训练。",
+    "en_tdlr": "This paper proposes a polynomial activation f(z) = z + λz³ with an identity path, whose loss surface—exactly solvable at small scale—dictates how to design, initialize and train deep networks, enabling 100-layer training on MNIST without any normalization."
+}

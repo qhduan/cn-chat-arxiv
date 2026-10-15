@@ -1,0 +1,12 @@
+{
+    "title": "Showing versus Doing: Teaching by Demonstration",
+    "abstract": "arXiv:2610.14004v1 Announce Type: cross  Abstract: People often learn from others' demonstrations, and inverse reinforcement learning (IRL) techniques have realized this capacity in machines. In contrast, teaching by demonstration has been less well studied computationally. Here, we develop a Bayesian model for teaching by demonstration. Stark differences arise when demonstrators are intentionally teaching (i.e. showing) a task versus simply performing (i.e. doing) a task. In two experiments, we show that human participants modify their teaching behavior consistent with the predictions of our model. Further, we show that even standard IRL algorithms benefit when learning from showing versus doing.",
+    "link": "https://arxiv.org/abs/2610.14004",
+    "context": "Title: Showing versus Doing: Teaching by Demonstration\nAbstract: arXiv:2610.14004v1 Announce Type: cross  Abstract: People often learn from others' demonstrations, and inverse reinforcement learning (IRL) techniques have realized this capacity in machines. In contrast, teaching by demonstration has been less well studied computationally. Here, we develop a Bayesian model for teaching by demonstration. Stark differences arise when demonstrators are intentionally teaching (i.e. showing) a task versus simply performing (i.e. doing) a task. In two experiments, we show that human participants modify their teaching behavior consistent with the predictions of our model. Further, we show that even standard IRL algorithms benefit when learning from showing versus doing.",
+    "path": "papers/26/10/2610.14004.json",
+    "total_tokens": 984,
+    "translated_title": "展示与执行：通过演示进行教学",
+    "translated_abstract": "人们经常从他人的演示中学习，而逆强化学习（IRL）技术已经在机器中实现了这种能力。相比之下，通过演示进行教学在计算层面的研究还较少。在此，我们开发了一个用于演示教学的贝叶斯模型。当演示者有意地教授（即“展示”）一项任务与仅仅执行（即“做”）一项任务时，会出现显著的差异。在两个实验中，我们表明人类参与者会按照我们模型的预测调整他们的教学行为。此外，我们还表明，即使是标准的IRL算法，在从“展示”而非“做”中学习时也会受益。",
+    "tldr": "本文提出了一个演示教学的贝叶斯模型，发现人类在有意“教学展示”与单纯“执行”任务时的行为存在显著差异，且无论是人类还是标准的逆强化学习算法，从“展示”中学习都比从“执行”中学习更有效。",
+    "en_tdlr": "This paper develops a Bayesian model of teaching by demonstration, revealing stark behavioral differences between human demonstrators who intentionally teach versus merely perform a task, and showing that both humans and standard IRL algorithms benefit from learning from showing rather than doing."
+}

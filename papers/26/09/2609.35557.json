@@ -1,0 +1,12 @@
+{
+    "title": "The Compiler May Read It, the Agent May Not: Keeping Part of a Research Code Away from a Coding Agent",
+    "abstract": "arXiv:2609.35557v2 Announce Type: replace-cross  Abstract: The compiler must read modules a physics-based solver cannot build without; the coding agent must not read that intellectual property. The harness, the software around the model that executes its tool calls, does not ship that rule. We classified fifteen read routes against a container, permission rules and a sandbox. None of the three can tell which program is reading.",
+    "link": "https://arxiv.org/abs/2609.35557",
+    "context": "Title: The Compiler May Read It, the Agent May Not: Keeping Part of a Research Code Away from a Coding Agent\nAbstract: arXiv:2609.35557v2 Announce Type: replace-cross  Abstract: The compiler must read modules a physics-based solver cannot build without; the coding agent must not read that intellectual property. The harness, the software around the model that executes its tool calls, does not ship that rule. We classified fifteen read routes against a container, permission rules and a sandbox. None of the three can tell which program is reading.",
+    "path": "papers/26/09/2609.35557.json",
+    "total_tokens": 742,
+    "translated_title": "编译器可以读取它，智能体却不可以：将研究代码的一部分对编码智能体保密",
+    "translated_abstract": "编译器必须读取那些基于物理的求解器在构建时离不开的模块；而编码智能体却不应读取那些知识产权。运行框架——即围绕模型、负责执行其工具调用的软件——并不内置这样一条规则。我们针对容器、权限规则和沙箱这三种机制，对十五条可能的读取路径进行了分类。结果显示，这三者都无法辨别当前正在进行读取的程序究竟是哪一个。",
+    "tldr": "本文揭示了现有容器、权限规则和沙箱这三种机制都无法辨别读取代码的程序身份，因而无法阻止编码智能体读取研究代码中的知识产权。",
+    "en_tdlr": "This paper shows that none of the three mechanisms—containers, permission rules, and sandboxes—can tell which program is reading, leaving no way to keep intellectual property in research code away from coding agents."
+}
