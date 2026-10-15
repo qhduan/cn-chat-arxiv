@@ -1,0 +1,12 @@
+{
+    "title": "Qwenfant: Train Big Character-level BabyLMs on Concise Parallel Text",
+    "abstract": "arXiv:2610.19294v1 Announce Type: new  Abstract: This work concerns our submission for the Multilingual track of the 2026 BabyLM Challenge. We improve on our baseline using data that has been summarized and translated by an LLM, showing that higher-quality data can come from synthetic sources. We further improve with 2 simple changes: using a larger model, and using a character-level vocabulary. Both of these changes require LoRA-style fine-tuning for realizing their full potential. We dub our final Qwen3-based model Qwenfant, which, at the time of submission, ranks 1st in the Multilingual track.",
+    "link": "https://arxiv.org/abs/2610.19294",
+    "context": "Title: Qwenfant: Train Big Character-level BabyLMs on Concise Parallel Text\nAbstract: arXiv:2610.19294v1 Announce Type: new  Abstract: This work concerns our submission for the Multilingual track of the 2026 BabyLM Challenge. We improve on our baseline using data that has been summarized and translated by an LLM, showing that higher-quality data can come from synthetic sources. We further improve with 2 simple changes: using a larger model, and using a character-level vocabulary. Both of these changes require LoRA-style fine-tuning for realizing their full potential. We dub our final Qwen3-based model Qwenfant, which, at the time of submission, ranks 1st in the Multilingual track.",
+    "path": "papers/26/10/2610.19294.json",
+    "total_tokens": 929,
+    "translated_title": "Qwenfant：在简洁平行文本上训练大型字符级BabyLM",
+    "translated_abstract": "本工作是我们参加2026年BabyLM挑战赛多语言赛道的参赛作品。我们使用由大语言模型总结和翻译的数据对基线模型进行了改进，表明更高质量的数据可以来自合成来源。我们进一步通过两个简单的改动提升了性能：使用更大的模型，以及使用字符级词表。这两项改动都需要采用LoRA风格的微调才能充分发挥其潜力。我们将最终基于Qwen3的模型命名为Qwenfant，该模型在提交时于多语言赛道排名第一。",
+    "tldr": "该论文通过使用LLM总结翻译的合成数据、更大的模型和字符级词表（结合LoRA微调）训练出Qwenfant模型，在2026年BabyLM挑战赛多语言赛道中获得第一名。",
+    "en_tdlr": "This paper trains Qwenfant, which ranks 1st in the 2026 BabyLM Challenge Multilingual track by leveraging LLM-summarized and translated synthetic data, a larger model, and a character-level vocabulary with LoRA-style fine-tuning."
+}

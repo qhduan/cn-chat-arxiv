@@ -1,0 +1,12 @@
+{
+    "title": "VETNET: Assembling Benchmark Datasets for AI-Driven Veterinary Innovation",
+    "abstract": "arXiv:2610.14149v1 Announce Type: new  Abstract: VETNET represents an ecosystem of live benchmark datasets and evaluation frameworks designed to accelerate AI-driven innovation in animal science and veterinary medicine through standardized, high-quality datasets and multi-institutional collaboration across academic and non-academic sectors. This framework addresses the gap between AI advances in human medicine and the fragmented state of veterinary AI development.",
+    "link": "https://arxiv.org/abs/2610.14149",
+    "context": "Title: VETNET: Assembling Benchmark Datasets for AI-Driven Veterinary Innovation\nAbstract: arXiv:2610.14149v1 Announce Type: new  Abstract: VETNET represents an ecosystem of live benchmark datasets and evaluation frameworks designed to accelerate AI-driven innovation in animal science and veterinary medicine through standardized, high-quality datasets and multi-institutional collaboration across academic and non-academic sectors. This framework addresses the gap between AI advances in human medicine and the fragmented state of veterinary AI development.",
+    "path": "papers/26/10/2610.14149.json",
+    "total_tokens": 726,
+    "translated_title": "VETNET：为AI驱动的兽医学创新构建基准数据集",
+    "translated_abstract": "VETNET是一个由活跃基准数据集和评估框架组成的生态系统，旨在通过标准化、高质量的数据集以及跨学术与非学术机构的多机构协作，加速AI在动物科学和兽医学领域的创新。该框架旨在弥合人类医学AI进展与兽医学AI发展碎片化现状之间的差距。",
+    "tldr": "VETNET通过构建标准化高质量基准数据集和多机构协作生态系统，弥合人类医学AI与碎片化兽医AI发展之间的差距，推动AI驱动的兽医学创新。",
+    "en_tdlr": "VETNET is an ecosystem of live benchmark datasets and evaluation frameworks that bridges the gap between AI advances in human medicine and fragmented veterinary AI development through standardized, high-quality datasets and multi-institutional collaboration."
+}

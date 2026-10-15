@@ -281,211 +281,213 @@
 | [^277] | [How Far Can Coding Agents Go in Visual Generation?](https://arxiv.org/abs/2610.19025) | 该研究通过AgentDrawBench基准发现，通用编程智能体通过编写可执行程序生成图像时，擅长保持结构和满足精确视觉约束，在构图准确性重要的领域表现具有竞争力，但在感知丰富性上仍有局限。 |
 | [^278] | [Discrete Diffusion Models are Minimax Optimal Under Sparsity](https://arxiv.org/abs/2610.19020) | 该论文证明了在稀疏性假设下，基于正则化得分熵目标的离散扩散模型能够达到极小极大最优的统计速率，且所用正则化方法无需预知稀疏参数即可实现自适应。 |
 | [^279] | [IR-PRM+ with Previous-Utility Prediction: Constant Regret and Best-Iterate Convergence](https://arxiv.org/abs/2610.19016) | 本文提出了一种基于先前效用预测的新方法，使同步和交替更新的 IR-PRM+ 在有限两人零和矩阵博弈中都能获得常数遗憾保证与最优迭代收敛保证，克服了以往额外梯度分析无法涵盖乐观更新和交替更新的局限。 |
-| [^280] | [Data Density Scaling Laws for Image Self-Distillation](https://arxiv.org/abs/2610.19013) | 本文发现图像自蒸馏中样本重复的收益依赖于具体数据集，小数据集重复训练甚至可能优于大数据集，并提出同时考虑独特样本数量与每样本重复次数的改进版 Chinchilla 缩放定律。 |
-| [^281] | [PMO-Dock: Benchmarking Docking, Specificity, and Generalization in Molecular Optimization](https://arxiv.org/abs/2610.19011) | 提出了包含25个基于对接的分子优化任务的PMO-Dock基准测试，涵盖苗头化合物生成、先导化合物优化和特异性评估，并通过将模型开发与最终评估分离的标准化协议，解决了基于对接的分子优化评估缺乏统一标准的问题。 |
-| [^282] | [Discovering Undisclosed Concepts in LoRA Adapters for Diffusion-Based AIGC Models](https://arxiv.org/abs/2610.18990) | 本文提出一种概念发现机制，通过搜索能同时最大化输出连贯性、LoRA诱导独特性和子空间对齐度的条件输入，来揭示LoRA适配器中被训练生成但未公开的概念，从而支持对AIGC模型的内容审核与调查。 |
-| [^283] | [Virtual-Alloy Physics-Aware Semantic System for extrapolative prediction of perovskite solar cells](https://arxiv.org/abs/2610.18949) | 该研究提出V-PaSS系统，通过维加德定律插值端元化合物晶体图并结合界面能带偏移与科学语言模型，实现了对新型材料钙钛矿太阳能电池的外推性能预测。 |
-| [^284] | [Limits of Statistical Assurance for Embodied and Agentic AI under Adaptive Adversaries](https://arxiv.org/abs/2610.18948) | 本文证明了对于具身智能和智能体AI，任何有限时长的安全认证在原理上都无法排除那些在认证前伪装正常行为、认证后才激活的隐蔽自适应对手，并精确刻画了此类攻击带来的最坏情形期望损失。 |
-| [^285] | [Physical Layer Anomaly Detection via Adaptive Gaussian Mixture Model](https://arxiv.org/abs/2610.18946) | 提出基于自适应高斯混合模型的检测框架，通过学习合法CSI模式并检测统计异常，即使在攻击者与合法节点空间接近的情况下也能有效识别CSI欺骗攻击，在位移超过150毫米时实现95-98%的检测率且误报率仅为1%。 |
-| [^286] | [Semi-Amortized Bayesian Inference with Reusable Local Posteriors](https://arxiv.org/abs/2610.18945) | 该论文提出一种半摊销贝叶斯推断方法，将参数分块并为计算昂贵或频繁更新的块训练可复用的神经估计器来近似局部条件后验，再通过马尔可夫链将这些神经采样与常规更新交替进行，从而高效地实现高维复杂模型的贝叶斯推断。 |
-| [^287] | [Wong--Zakai Convergence and FNO Learning for Stochastic Volterra Equations](https://arxiv.org/abs/2610.18939) | 本文为随机Volterra积分方程建立了Wong–Zakai收敛定理，并在此基础上证明镜像填充傅里叶神经算子能够学习其解算子，实现对完整解轨迹的准确预测以及向更细时间网格的泛化。 |
-| [^288] | [Beyond Equation Search: Conjecture-Guided Discovery with SCOPE and ClosureBench](https://arxiv.org/abs/2610.18938) | 该论文提出SCOPE多智能体框架，将符号回归从优化单个方程转向以科学猜想为核心的研究范式，通过多个科学家智能体独立建模、主动实验与证据交换来检验和修正猜想，并配套ClosureBench基准评估猜想驱动式科学发现。 |
-| [^289] | [Delay Complexity Dimension: Learning with Delayed and Censored Labels](https://arxiv.org/abs/2610.18935) | 本文提出“延迟复杂度维度”（DCD），将VC维度与观测信道的标签信息率相结合，刻画了标签延迟且被删失情形下PAC学习的样本复杂度，证明任何学习器需要 Ω(DCD/ε²) 个样本，且伪标签ERM可在常数与对数因子内达到该界。 |
-| [^290] | [An Initial Study of Physiological Markers for Deepfake Speech Detection](https://arxiv.org/abs/2610.18934) | 该论文提出利用36个基于人类言语产生系统（呼吸、发声、时间协调）的手工生理标记来检测深度伪造语音，验证了通过识别生理模式不一致性检测伪造语音的可行性，域内最佳等错误率达21.40%，并在跨域场景下展现出一定的泛化能力。 |
-| [^291] | [The Agentic Scientist: Orchestrating Coding Agents for Automated Scientific (Co-)Discovery](https://arxiv.org/abs/2610.18933) | 提出了端到端分布式系统“智能体科学家”，将计算研究分解为多个阶段并由新一代编程智能体驱动、结合智能体自验证，实现人机协同的自动化科学发现。 |
-| [^292] | [TorchSpin: Differentiable Electron Paramagnetic Resonance Simulation in PyTorch](https://arxiv.org/abs/2610.18924) | TorchSpin 是一个基于 PyTorch 的开源可微分电子顺磁共振（EPR）模拟框架，它将 EasySpin 的组织结构与数值约定移植到张量计算环境中，在复现经典结果的同时，借助自动微分使 EPR 模拟能够融入机器学习工作流。 |
-| [^293] | [Popularity Trajectories and Mixing Patterns of Urban Venues in Two European Cities](https://arxiv.org/abs/2610.18917) | 本研究基于伦敦和巴塞罗那约一万个场所5.5年的Foursquare签到数据，发现城市场所的流行度演变可归纳为六种典型轨迹（下降、上升、先升后降、稳定、昙花一现、后起之秀），且不存在U型复苏轨迹，而社区的贫困程度与人口密度并不能预示场所的流行度走向。 |
-| [^294] | [Distinguishing Process Change, Instrument Fault and Data-Path Corruption in Streaming Telemetry: A Reference Implementation and Benchmark](https://arxiv.org/abs/2610.18904) | 提出了一种由多种在线检测器与确定性、可审查的归因规则组合的方法，能在流式遥测中以96.3%的检测率和91.2%的正确归因率区分过程变化、仪器故障与数据通路损坏这三种异常成因。 |
-| [^295] | [AI-Driven, Timing-Aware Power Optimization](https://arxiv.org/abs/2610.18890) | 提出了一种AI驱动的时序感知功耗优化框架，利用梯度提升模型集成来排序功耗恢复编辑和修复动作，在EDA确定性分析的把关下实现布线后功耗降低，同时避免引入新的约束违例。 |
-| [^296] | [Bayesian Causal Forests for Zero-Inflated Continuous Outcomes](https://arxiv.org/abs/2610.18889) | 本文提出ZIC-BCF-Smear方法，通过解耦的两部分贝叶斯因果森林（Probit BCF建模零值参与、高斯BCF建模正值强度），结合子群体倾向得分调整与Duan非参数平滑估计，有效解决了半连续结果下异质性处理效应估计的难题。 |
-| [^297] | [Physics-Guided Multi-Fidelity Surrogate Modeling for Natural Supercavity Geometry of an Axisymmetric Conical Cavitator](https://arxiv.org/abs/2610.18886) | 该论文提出一种物理引导的多保真度代理建模方法，用于预测轴对称锥形空化器的自然超空泡几何形态，在解析模型精度不足与多相CFD计算成本过高之间取得平衡，从而支撑超空泡鱼雷空化器的静态设计与实时形状管理。 |
-| [^298] | [Token Utility for On-Policy Distillation via Local Trust-Region Optimization](https://arxiv.org/abs/2610.18883) | 该论文从蒸馏目标本身出发推导出token效用公式 $s_t=g_t^T F_t^\dagger g_t$，证明其在反向KL下等价于师生对数概率比的学生加权方差、在正向KL下等价于Pearson χ²散度，为在线策略蒸馏的token选择提供了统一且有原则的理论基础。 |
-| [^299] | [Following the Flow the Law Requires: Training Voice Agents to Transfer to Unseen Regulated Procedures in Debt Collection](https://arxiv.org/abs/2610.18881) | 本文提出 FlowSpec 机器可读规范，通过在 297 个随机化监管程序上微调 90 亿参数模型，训练出能够零样本遵循从未见过的受监管债务催收流程的语音代理。 |
-| [^300] | [Do Perturbation Predictors Learn Gene Interactions? Diagnosing Extrapolation in Agentic Screening](https://arxiv.org/abs/2610.18880) | 该论文提出“加性分歧”这一诊断指标来评估扰动预测模型对未见基因组合的外推能力，并发现在八种方法和三个 Perturb-seq 数据集上，专门的神经预测器并不稳定优于简单的加性基线，且偏离加性基线越大的预测误差越大。 |
-| [^301] | [Do Vision CIL Methods Transfer to Protein? A Diagnostic Benchmark of Frozen Protein Encoders](https://arxiv.org/abs/2610.18879) | 该论文系统评估了九种视觉领域的类增量学习方法在冻结蛋白质编码器上的表现，发现没有任何方法能可靠地跨编码器迁移，其根源在于梯度稳定性信号弱、嵌入几何异质性大以及协方差假设不成立。 |
-| [^302] | [Inverse Reasoning Models for Efficient Post-Training and Verification from Answer-Only Data](https://arxiv.org/abs/2610.18878) | 该论文提出一种自蒸馏方法，通过训练一个“逆向推理模型”根据答案反向生成推理轨迹，从而仅利用提示-答案对数据即可高效后训练推理大语言模型，在数据效率与计算效率之间取得平衡。 |
-| [^303] | [Lotus: Learning to Understand Time-series by Learning to Forecast](https://arxiv.org/abs/2610.18877) | LOTUS 提出“预测锚定”预训练原则，通过要求时间序列的语言对齐表示能够预测未来片段演化，使其在映射到 LLM 嵌入空间时保留时间与频谱信息，从而学会真正理解时间序列。 |
-| [^304] | [RoboSimStudio: An Interactive Toolkit for Human and Agent Rapid Real2Sim of Robot Manipulation Tasks](https://arxiv.org/abs/2610.18835) | 该论文提出交互式工具包RoboSimStudio，通过将求解器、接触模型和物理参数的选择显式化且可编辑，使人类与编程智能体能够基于观察到的物理行为快速构建并迭代优化机器人操作任务的Real2Sim仿真。 |
-| [^305] | [Does Pretraining Teach Chemical Language Models Chemistry?](https://arxiv.org/abs/2610.18651) | 化学语言模型的预训练收益无法随规模扩大，性能低于梯度提升基线，仅有基于理化描述符的有监督预训练能持续带来提升，表明预训练几乎未能让模型真正学到化学知识。 |
-| [^306] | [Readout Scaling Shapes Sparse Feature Recovery](https://arxiv.org/abs/2610.18462) | 本文提出读出规范化决策空间（RC-DS）坐标方法以消除读出缩放的奇异值增益，并通过受控实验证明当训练恢复因子生成的原始空间时稀疏特征恢复效果最佳，将平均稀疏因子恢复从0.506提升至0.913。 |
-| [^307] | [Convergence-Rate-Guided Algorithm Design of Expected Improvement for Continuous Simulation Optimization](https://arxiv.org/abs/2610.18434) | 该论文通过推导简单遗憾的高概率上界，在收敛率分析的基础上系统性地设计了随机克里金期望改进算法的三个关键组件——当前最优解、采样重复次数和终端推荐，解决了未知异方差噪声下连续仿真优化中依赖启发式规则进行算法设计的局限。 |
-| [^308] | [ResearchFlow-Eval: Tracing the Execution Gap in End-to-End Multi-Claim Autoresearch](https://arxiv.org/abs/2610.18088) | 该论文提出 ResearchFlow-Eval——一个基于已发表论文锚定、在阶段与论断两个层面细粒度评估端到端多论断自主研究系统持续科学执行与迭代能力的评测框架，弥补了现有评估仅打分孤立任务或最终成果的不足。 |
-| [^309] | [Privacy-Preserving GNN Inference on Financial Transaction Graphs via Homomorphic Encryption](https://arxiv.org/abs/2610.18054) | 该论文提出了一种基于CKKS同态加密、以边为中心的图神经网络推理框架，使多家银行能够在不共享明文交易特征的前提下协作进行反洗钱检测。 |
-| [^310] | [Interaction-as-a-Judge](https://arxiv.org/abs/2610.17895) | 提出“交互即裁判”评估范式，让计算机操作智能体直接与应用交互来进行评估和生成，弥补了传统基于代码分析与单元测试的自动评估和人类交互式评估之间的差距，并发布了包含人类偏好对与经人类验证需求标签的两个数据集。 |
-| [^311] | [RT-J: Large-Scale Pretraining of Relational Transformers for Context-Efficient Predictions](https://arxiv.org/abs/2610.17867) | RT-J是一个8500万参数的关系型基础模型，通过在639个网络爬取数据库和LLM生成的预测任务上利用长上下文预训练，仅需数百个上下文样本即可实现准确预测，所需样本量比现有方法减少10倍。 |
-| [^312] | [MMTA: Benchmarking Multimodal Temporal Analysis with Time Series, Text, and Vision](https://arxiv.org/abs/2610.17856) | MMTA是一个涵盖九个领域、融合时间序列、文本与视觉三种模态的多模态时间分析基准测试，首次系统评估了多模态大语言模型能否将时间序列与真实世界视觉证据相整合的能力。 |
-| [^313] | [RELAY: Selective Self-Distillation with Adaptive Hand-off for Rubric-Based Reinforcement Learning](https://arxiv.org/abs/2610.17623) | RELAY提出一种两阶段训练方法，第一阶段将冻结教师模型的选择性自蒸馏与GRPO结合，并通过监控蒸馏损失的停滞检测器自适应地在最佳时机移除教师模型、切换到纯GRPO训练，从而在基于评分标准的强化学习中超越纯GRPO方法，且停滞检测器跨模型和领域具有良好泛化性。 |
-| [^314] | [Cross-View Time-Frequency Diffusion for Extreme-Aware Time-Series Generation](https://arxiv.org/abs/2610.17407) | 提出CrossTF框架，利用时间视角与频率视角去噪器之间的极端敏感不对称性，在扩散生成后期窗口进行跨视角调整，从而在不损害整体生成质量的前提下大幅提升时间序列中极端事件的保真度。 |
-| [^315] | [Learning to Design Convex Relaxations for Nonconvex Optimization](https://arxiv.org/abs/2610.16948) | 本文提出 AutoConvexRelax 方法，将非凸问题的符号公式表示为三元图并学习策略自动组合符号重写以生成针对具体问题的凸松弛轨迹，同时证明了该策略在明确条件下保持松弛有效性并给出可计算的误差界。 |
-| [^316] | [DEFlow: Deep Equilibrium Flow Maximum-Entropy Reinforcement Learning](https://arxiv.org/abs/2610.16597) | DEFlow提出了一种深度均衡流策略，通过隐式欧拉积分将所有中间动作作为均衡系统联合求解，并借助隐式微分与离散变量替换公式实现了无需反向传播的离策略训练，在多目标对接、机械臂操作和MuJoCo基准任务上均取得了约10%的平均相对性能提升。 |
-| [^317] | [Towards Modality-Agnostic Seizure Classification: A Unified Deep Learning Framework for Heterogeneous EEG and Intracranial EEG Signals](https://arxiv.org/abs/2610.16596) | 该论文提出了一个统一的深度学习框架，能够整合来自不同受试者和来源的异构EEG与iEEG信号进行模态无关的癫痫发作分类，突破了现有单模态系统的应用局限。 |
-| [^318] | [Who Sets the Pace of Judge Hacking? Judge Capability versus the Policy-Judge Gap](https://arxiv.org/abs/2610.15778) | 该研究发现强化学习“攻击评委”的深度由评委自身能力决定（与评委AUC呈负相关，系列内更大的评委更难被欺骗），而攻击速度反而与“策略-评委能力差距”的解释相矛盾——差距更大的组合被欺骗得更早，且所有组合均未带来真实的保留集准确率提升。 |
-| [^319] | [ProtoPur: Prototype-Purity Pseudo-Labeling for Weakly Supervised Instance Learning in Pathology](https://arxiv.org/abs/2610.15669) | 提出ProtoPur方法，通过基于冻结基础模型特征构建原型区域并估计类别平衡的局部纯度，为高纯度区域分配伪标签，从而实现病理全切片图像的弱监督实例级学习。 |
-| [^320] | [SuperAI: Merging Capabilities Across Heterogeneous Foundation Models](https://arxiv.org/abs/2610.15322) | 提出SuperAI跨架构多模型融合框架，利用共享锚点样本提取任务相关表示、PCA构建同维低维功能子空间，并通过正交Procrustes映射实现异构基础模型之间互补能力的融合迁移。 |
-| [^321] | [AlphaRLM: Aligning Language Models for Literature-Grounded Symbolic Factor Discovery](https://arxiv.org/abs/2610.14959) | AlphaRLM是一个强化学习框架，通过文献引导算子组装（LEGO）提供语义先验，并借助可执行有效性与分组收益分离等奖励将生成策略与市场反馈对齐，从而训练大语言模型直接从金融文献中构造可执行的符号化Alpha因子。 |
-| [^322] | [Strong Gaussian Approximation of Constant-Learning-Rate SGD: Bias and Trajectory Inference](https://arxiv.org/abs/2610.14567) | 本文为重尾噪声下的常学习率随机梯度下降建立了KMT型强高斯逼近，实现了有限样本下同时性的整个轨迹层面的推断，并蕴含泛函中心极限定理。 |
-| [^323] | [Natural Code Transformation Confuses Agents in Vulnerability Analysis](https://arxiv.org/abs/2610.14350) | 本文发现AI智能体在分析具有相同功能和相同漏洞的不同真实代码提交时会产出截然不同的结果，并据此提出从真实开发模式中挖掘自然且功能保持的代码变换，作为防御攻击者智能体的新手段。 |
-| [^324] | [MvFFN: Multi-view Floor plan Feed-forward Network for Unposed Wide-Baseline Panorama Layout Reconstruction](https://arxiv.org/abs/2610.14315) | 提出MvFFN网络，通过让每个全景图列仅局部预测所见墙体及顺时针相邻两堵墙，再由确定性聚合成全局户型图，实现无位姿宽基线全景图中相机位姿与布局的联合重建。 |
-| [^325] | [Hide and Seek: HIDE Concepts to SEEK explanations for black box models](https://arxiv.org/abs/2610.13935) | 提出了一种无需模型权重或概念标注数据集的黑盒视觉模型概念级归因方法HnS，通过视觉-语言模型检索概念相关图像、遮挡图像中的概念区域，并依据模型输出的变化来衡量该概念的归因贡献。 |
-| [^326] | [AI Models Can Provably Hide Arbitrary Capabilities](https://arxiv.org/abs/2610.13928) | 本文提出一种将加密神经网络嵌入模型权重的后门攻击方法，在密码学假设下可证明地隐藏任意能力，使现有能力评估手段难以引出或解读这些隐藏功能。 |
-| [^327] | [Human and LLM Facilitation in Collaborative Design Meetings: A Computational Behavioral Comparison](https://arxiv.org/abs/2610.13082) | 该研究基于AMI会议语料库199个配对情境，从五个维度对人类项目经理与Llama 3.1 8B在协作设计会议中的引导行为进行计算比较，发现人类引导在情境语义距离和共情/缓和语词汇密度上更高，且后者主要由缓和语词汇驱动。 |
-| [^328] | [Reinforcement Learning via Fixed-point Flow Matching](https://arxiv.org/abs/2610.12848) | 本文提出了一种无需数据的不动点流匹配（FFM）方法，通过将actor更新表述为不动点迭代、以critic的动作梯度作为回归目标，实现了强化学习中流策略的训练与微调。 |
-| [^329] | [HRIL: Learning Multimodal Synergy via Higher-Order Tensor Modeling](https://arxiv.org/abs/2610.12393) | 提出HRIL方法，通过在模态嵌入上构建经验交叉矩张量进行高阶张量建模，显式捕获体现为高阶统计依赖的多模态协同信息，从而在自监督多模态表示学习中保留协同信号的信息容量。 |
-| [^330] | [Automated Assembly Instruction Generation from CAD Models Using Grounded Large Language Models: A Human-in-the-Loop Framework](https://arxiv.org/abs/2610.11896) | 该论文提出一种人在回路的框架，将CAD装配模型映射为结构化的ProductGraph中间表示，利用大语言模型自动生成受工程信息约束的自然语言装配指令，并通过人工审核解决所有质量标记后才允许导出文档。 |
-| [^331] | [Do LLMs Learn from Rewards in Context? : Rethinking the role of reward in In-Context Reinforcement Learning](https://arxiv.org/abs/2610.11152) | 该研究通过受控实验发现，在大语言模型的直接上下文强化学习中，奖励信号虽然被读取却几乎不产生学习效果，而轨迹本身（即使语义被打乱或损坏）才是驱动上下文改进的关键，从而挑战了上下文学习真正实现强化学习的假设。 |
-| [^332] | [NOMOS: Compiling Written Policies into Statically Verified Tool-Call Gates for LLM Agents](https://arxiv.org/abs/2610.11030) | NOMOS是一个四遍编译器，可将自然语言策略编译为经过静态验证的确定性工具调用门控，将LLM代理在状态变更调用中的策略违规率从66.3%降至2.6%。 |
-| [^333] | [Sharp Asymptotic Theory of Maximum Likelihood Estimation for Gaussian Processes with an RBF Kernel](https://arxiv.org/abs/2610.10080) | 本文针对基于RBF核的高斯过程，在固定域渐近框架下建立了极大似然估计的精确渐近理论，攻克了密集采样强相关性与协方差矩阵非线性依赖带来的长期理论难题。 |
-| [^334] | [Immiscible Diffusion Policy: Preserving Multimodal Robot Actions through Label-Free Noise Assignment](https://arxiv.org/abs/2610.09369) | 提出互不相溶扩散策略，一种无需标签的训练时噪声分配方法，通过保持噪声到动作路径的相对分离，防止扩散策略在低维机器人动作空间中坍缩为单一模态，从而保留多模态动作分布。 |
-| [^335] | [Steering Diffusion Models to Rare Events with Sequential Monte Carlo](https://arxiv.org/abs/2610.08652) | 本文提出DireSMC，一种序列蒙特卡洛方法，通过引导加权样本群体趋向扩散模型中的稀有事件，不仅能生成稀有事件样本，还能给出其概率的校准估计，并可轻松扩展到各类用户自定义稀有事件。 |
-| [^336] | [ProximalFM: Amortized Proximal Causal Inference under Hidden Confounding](https://arxiv.org/abs/2610.08078) | 该论文提出ProximalFM，利用先验数据拟合网络（PFN）以摊销式贝叶斯方法在隐藏混杂下进行近端因果推断，通过先验正则化缓解了非参数近端估计中病态积分方程的数据饥渴、超参数敏感和优化不稳定等问题。 |
-| [^337] | [Self-Retrospection Distillation: Turning Post-hoc Experiences into Prior Foresight](https://arxiv.org/abs/2610.08077) | 该论文提出前瞻学习与自我回溯蒸馏方法，将已完成的轨迹作为特权后见之明，蒸馏为同一策略在交互前的轨迹无关的预见性预测，从而在组相对奖励信号消失时仍能从经验中有效学习。 |
-| [^338] | [Lost in the bf16 Cast: Exporting Ternary Language Models Can Revert Most Low-Learning-Rate Code Changes](https://arxiv.org/abs/2610.07853) | 该研究审计发现，三值语言模型导出流程中先将潜在权重转换为bf16，会在阈值处因“舍入到偶数”规则被错误映射为零，导致Falcon-E-1B-Base部署后GSM8K准确率从58.79%暴跌至0.78%，几乎抹去了低学习率微调带来的改进。 |
-| [^339] | [EMG-FM-Bench: A Comprehensive Benchmark for Foundation Model Transfer and Adaptation on Electromyography](https://arxiv.org/abs/2610.06450) | 该论文提出了EMG-FM-Bench，一个整合20个公开数据集（超100万个EMG片段）、系统评估九个预训练基础模型在肌电信号上迁移与适配能力的综合基准，全面回答了冻结与微调、预训练收益、少样本新用户泛化及跨任务性能等关键问题。 |
-| [^340] | [Langevin Flow Maps: Efficient Molecular Dynamics and Transition Path Sampling](https://arxiv.org/abs/2610.05998) | 提出朗之万流映射，通过扩展机器学习力场以额外学习随机朗之万积分器，实现大时间步长的高效分子动力学模拟，在准确恢复系统动力学性质的同时速度提升一个数量级，并展示了向可迁移模型发展的路径。 |
-| [^341] | [From Mixing to Tearing: Graph Decomposition in Decentralized Optimization via Message Passing](https://arxiv.org/abs/2610.03709) | 该论文从第一性原理出发提出了一种基于图分解的去中心化优化通用框架，通过消息传递联合设计优化子问题、对偶变量分块和协作求解的智能体集群，突破了传统仅利用网络混合信息的范式。 |
-| [^342] | [The Neuro-Physical Inverter: A Modular Framework for Magnetotelluric Inversion Coupling Ensemble Conditioning with Residual Learning](https://arxiv.org/abs/2610.03225) | 提出了一种模块化的神经物理反演器（NPI）框架，通过将集成条件高斯过程与残差学习神经网络相结合，实现了具备不确定性量化能力的大地电磁反演，在不破坏集成稳定性的情况下系统性降低误差。 |
-| [^343] | [Predictively Oriented Gaussian Process Posteriors](https://arxiv.org/abs/2610.03201) | 提出预测导向高斯过程（PrO-GPs），将预测不确定性作为主要推断目标，在模型错误设定下比标准高斯过程产生校准更好的预测分布。 |
-| [^344] | [Efficient Memory Crystallization for Graph Learning under Non-Stationary Distribution Shifts](https://arxiv.org/abs/2610.02795) | 该论文提出了一种无需训练的测试时框架EMC，通过闭式解将每个新到来的图域高效地“结晶”为紧凑且语义忠实的记忆，以低成本替代生成式记忆方案，从而应对图学习中的持续分布偏移。 |
-| [^345] | [Imagine the Future, Internalize the Gist: Efficient VLA Reasoning via Internalized Spatiotemporal Imagination](https://arxiv.org/abs/2610.02626) | 提出IG-VLA框架，通过在视觉表征空间中直接想象任务相关的未来场景演变，并将其内化为紧凑的场景要旨标记，使VLA模型在推理时无需昂贵的显式未来推演即可获得未来推理带来的动作预测增益，实现高效的机器人操作。 |
-| [^346] | [Participation-Sensitive Convergence and the Fragment First, Converge Later Pattern in Asynchronous Online Learning: A Topological Analysis Across 22 OULAD Courses](https://arxiv.org/abs/2610.01738) | 该研究基于22门OULAD课程（超22,000名学习者）的拓扑分析发现，Zigzag持续同调的β0是参与敏感指标，它与活跃学习者人数共同响应截止日期事件，且截止日期在82.6%的评估中引发“先分裂、后收敛”的群体行为模式。 |
-| [^347] | [The Teacher Is a Direction, Not a Destination: Extrapolating RL-Induced Representation Residuals in On-Policy Distillation](https://arxiv.org/abs/2609.36484) | 提出RIDE方法，通过在每一层外推强化学习引起的内部表征偏移方向（而非在输出空间外推隐式奖励），克服语言模型头的各向异性衰减与噪声放大问题，使学生模型在在线策略蒸馏中稳定地超越教师。 |
-| [^348] | [NeuronSifter: Intervention Planning in CNS Microenvironments](https://arxiv.org/abs/2609.35445) | NeuronSifter 的核心创新在于将决策质量构建于干预接口本身：它把给药方案编译为状态条件下的靶点占据场，用占据条件扩散算子在微环境动力学中传播，并依据干预损失的期望下降来选择测量手段，同时将不同类型的观测结果同化到同一后验分布中。 |
-| [^349] | [NeuronDiscover: Agent-in-Twin for Mechanistic Discovery in Neuronal Microenvironments with World Action Models](https://arxiv.org/abs/2609.35338) | NeuronDiscover 提出“孪生体中智能体”框架，以机制为基础的世界动作模型统一耦合预测、干预提议与观测设计，并对“孪生混淆”进行形式化、对机制—偏差联合信念进行实验设计，从而在稀疏观测下区分真实机制变化与计算孪生体误差，实现神经元微环境的自动化机制发现。 |
-| [^350] | [Deep kernel hedging](https://arxiv.org/abs/2609.34474) | 该论文提出了一种深度核对冲框架，通过神经网络参数化核函数并结合广义表示定理与随机傅里叶特征近似，实现了可处理路径依赖信息的可扩展、高效金融对冲。 |
-| [^351] | [The Statistical Benefits of Multiple Responses for Learning from Demonstrations](https://arxiv.org/abs/2609.33291) | 当示范者并非最优时，返回多个候选响应（pass@$k$）能带来更强的统计优势——将最坏情况下对目标精度的依赖从 $1/\varepsilon^2$ 改善为 $1/\varepsilon$，并将对奖励类大小的依赖从 $\log N$ 改善为 $\log N/\log k$。 |
-| [^352] | [PrismQuant: Optimal Null-Space Rotations for Grouped Quantizers](https://arxiv.org/abs/2609.32429) | PrismQuant提出了一种量化器感知的旋转框架，通过将旋转设计表述为Ky Fan迹最大化并推导出可证明最优的闭式解，将激活主特征空间与非对称分组INT4量化的常数组子空间精确对齐，从而在不扩大组内数值范围的前提下提升低比特量化效果。 |
-| [^353] | [TimeES: Probabilistic and Deterministic Time Series Forecasting via Evolutionary Spectra](https://arxiv.org/abs/2609.32384) | 提出TimeES框架，基于演化谱理论显式建模傅里叶谱中的演变与随机性，将非平稳随机过程建模转化为学习由随机变量调制的演化表示，并利用厄米对称性将谱估计复杂度从O(NM)降至O(NK)，从而实现对非平稳时间序列的概率性与确定性预测。 |
-| [^354] | [DiffPTS: Rethinking Diffusion ELBO for Probabilistic Time Series Forecasting](https://arxiv.org/abs/2609.32363) | 本文通过在位置-尺度噪声模型下重新推导扩散模型的证据下界（ELBO），提出了 DiffPTS，将估计器的训练与变分推断统一为一个自然的联合训练目标，从而改进概率时间序列预测。 |
-| [^355] | [Learning Provable Neural Network Observer for Uncertain Dynamical Systems](https://arxiv.org/abs/2609.30819) | 提出了一种两阶段训练框架（点引导李雅普诺夫预训练加LMI微调），为不确定动态系统的神经网络观测器实现了可证明的全局李雅普诺夫稳定性，同时克服了传统LMI方法带来的大规模半定规划可扩展性瓶颈。 |
-| [^356] | [A Computational Framework for Modelling Organisation-Level Semantic Identity from Longitudinal Textual Data](https://arxiv.org/abs/2609.29584) | 该论文提出了一个统一的计算框架，首次将组织级语义身份建模为可解释且随时间演化的语义构建，整合了语义表示学习、图语义建模、组织语义指纹、时序演化分析与证据驱动验证。 |
-| [^357] | [Memory Attention](https://arxiv.org/abs/2609.28399) | 提出记忆注意力，用可复用的词元记忆与上下文键结合构建注意力值，推理时可简化为查表加法并支持CPU卸载，在相同训练预算下提升了语言建模和下游任务性能。 |
-| [^358] | [hyperbolix: Hyperbolic Deep Learning in JAX](https://arxiv.org/abs/2609.28248) | 该论文提出了 hyperbolix，首个基于 JAX 与 Flax NNX 构建的全面、通用的开源双曲深度学习库，提供六种统一接口的流形、覆盖各类双曲神经网络层族以及黎曼优化器和降维工具。 |
-| [^359] | [EduBehaviors: Assertion-based Schemas for Auditable Coding of Educational Dialogues](https://arxiv.org/abs/2609.27043) | 提出了EduBehaviors框架，利用大语言模型测量教育对话中重复出现的可观察行为并据此学习分类器，实现了可解释、可审计的教育对话标注，其性能与直接提示方法相当。 |
-| [^360] | [Every Fixed Metric Has a Blind Spot: A Learned Atmospheric Critic for Scoring Forecast Realism](https://arxiv.org/abs/2609.18381) | 该论文提出通过训练判别器来生成类似散度的真实性评分，能够自适应地检测天气预报模型表现出的任何失败模式，从而克服固定指标存在的盲区。 |
-| [^361] | [A Unified and Constrained View of Regularization-Based Robust Reinforcement Learning](https://arxiv.org/abs/2609.13050) | 该论文通过推导性能差距上界统一了基于正则化的鲁棒强化学习方法，将鲁棒训练表述为约束优化问题，并通过联合更新拉格朗日乘子自动调整正则化权重以提升鲁棒性。 |
-| [^362] | [Relatively Smart II: Tractable or Semi-Supervised Instance-Optimal Learning](https://arxiv.org/abs/2609.10886) | 本文证明ERM乃至任何正规一致学习器在无分布二分类中都是相对智能的，从而解决了此前留下的开放问题，即自然的可处理学习器能否达到与单包含图学习器可比的保证。 |
-| [^363] | [Multi-Level-Set-Based Physics-Driven Neural Network to Solve 3-D Inverse Scattering Problems](https://arxiv.org/abs/2609.08594) | 本文提出基于多水平集的物理驱动神经网络（LSPDNN），利用软并集多材料模型将目标支撑域与材料分布分离描述，并结合作用于材料区域指示器的模型一致TV正则化，有效缓解了三维电磁逆散射重建中的边界模糊与伪影问题。 |
-| [^364] | [Rethinking One-Shot Federated Graph Learning: Training-Free Statistical Estimation](https://arxiv.org/abs/2609.06154) | 该论文提出免训练框架SPEAR，将单轮联邦图学习重新表述为统计估计问题，通过计算拓扑平滑的类别原型并使用样本量自适应的收缩估计器进行聚合，有效解决了极端非独立同分布条件下本地GNN训练导致的跨客户端表示不对齐问题。 |
-| [^365] | [When Genomic Masking Priors Fail to Transfer: Strong Variant Prediction, Weak Functional Generation](https://arxiv.org/abs/2609.04861) | GenDA双向扩散模型在变异效应预测上虽超越同规模自回归模型，但熵引导策略对性能提升并无实际贡献，且模型在零样本功能序列填充生成任务上失败，表明基因组掩码先验能很好地迁移到变异预测、却难以迁移到功能生成。 |
-| [^366] | [Diffusion as a Training Curriculum for Timestep-Free Iterative Reasoning](https://arxiv.org/abs/2609.01449) | 该论文将扩散去噪器改造为带持久隐藏状态且无时间步条件的通用迭代更新，构建出可随推理深度不断提升准确率的随时求解器，并通过推理时持续注入高斯噪声实现单轨迹高效探索解空间，在极限数独上达到99.90%的精确求解率。 |
-| [^367] | [LLMs Can Design Near-Optimal OR Algorithms](https://arxiv.org/abs/2608.27296) | 大语言模型（如gpt-5.6-sol）能够仅凭少量提示和固定计算资源，自动设计出在库存控制、排队网络和分类优化等问题上匹配或超越现有最佳方法的近乎最优运筹学算法。 |
-| [^368] | [Mechanistic Circuit Identification for Controllable Data Generation](https://arxiv.org/abs/2608.24065) | 本文提出了一种基于电路识别的框架，通过连接数据估值与机制可解释性，实现可控数据生成，并引入SAMS调度器以优化效用目标数据产出。 |
-| [^369] | [Physics-Integrated Operator Learning via Gaussian Splatting Representations](https://arxiv.org/abs/2608.24049) | 本文提出一种表示级物理集成方法，通过前馈高斯喷溅表示将连续高斯场与闭式导数结合，直接嵌入PDE算子于学习演化中，避免优化困难并提升长期预测精度。 |
-| [^370] | [Detecting and Discriminating Operator Misspecification in Hybrid PDE-Parameter Learning: a Reference-Free Instrument, with Discrimination Bounded In Sample](https://arxiv.org/abs/2608.16925) | 本文提出一种无需参考信息的统计工具，通过单次拟合即可区分混合PDE参数学习中的算子误设定与参数不可识别问题，并证明了样本内判别能力有界。 |
-| [^371] | [Equilibrium Forcing: Adaptive Video Generation Without Noise Conditioning](https://arxiv.org/abs/2608.14706) | 本文提出平衡力迫（EqF）框架，通过去除噪声水平条件化并解耦去噪与采样，实现了自适应闭环推理，显著提升了自回归视频生成的质量和一致性。 |
-| [^372] | [Uncertainty-Aware Probabilistic Constrained Clustering from Entangled Pairwise Supervision](https://arxiv.org/abs/2608.12027) | 本文提出了一种不确定性感知的概率约束聚类方法，通过角度成对目标和估计-校正-集成框架，有效处理现实中的软性、纠缠成对监督，提高了聚类性能。 |
-| [^373] | [Rubric Dropout: A Simple Way to Mitigate Reward Hacking in Rubric-as-Reward RL](https://arxiv.org/abs/2608.11669) | 本文提出一种简单方法（Rubric Dropout）来缓解基于评分标准的强化学习中的奖励黑客问题，并通过实验证实训练评判员与黄金评判员分数在训练中分化的现象，为提升模型鲁棒性提供新思路。 |
-| [^374] | [FACT: Failure-Aware Causal Training for World-Action Models](https://arxiv.org/abs/2608.10232) | FACT提出了一种失败感知的因果训练方法，让世界-动作模型以执行动作为条件预测未来视频和任务进度，从而利用失败轨迹监督动作后果，将失败数据转化为有效的训练信号而非被丢弃。 |
-| [^375] | [Comparing SGLD and a fixed-noise predictor-corrector adaptation in canonical joint energy-based models on CIFAR-10](https://arxiv.org/abs/2608.05025) | 该论文系统复现了经典联合能量模型（JEM），并首次检验了用固定噪声预测-校正采样器替代SGLD的效果，结果显示其分类性能接近经典方法但生成质量略有差距，同时记录了两种失败模式。 |
-| [^376] | [SPARK: Learning from Verification in Speculative GRPO Rollouts](https://arxiv.org/abs/2608.04962) | 提出SPARK，一种轻量级自适应机制，利用目标模型的验证反馈在推测性GRPO训练的采样过程中实时修正草稿模型的预测遗漏，从而提升训练效率。 |
-| [^377] | [Surrogate Substitution Preserves PHI Detectability: A Multi-Detector Equivalence Study](https://arxiv.org/abs/2608.03172) | 本文提出了一种成对多检测器评估协议，通过等价性检验和仅在掩盖跨度上评分，验证结构保留的PHI替代物能否被下游检测器可靠识别，并区分生成器缺陷与检测器固有局限。 |
-| [^378] | [QASP: Query-Adaptive Robust Vector Search Policy](https://arxiv.org/abs/2607.29606) | QASP通过单次预先监督回归预测每个查询的完整召回率进展曲线，从而为任意召回率目标推导出自适应搜索策略，在跨目标、索引配置和数据集泛化的同时兼顾高召回率与低计算成本。 |
-| [^379] | [The Zero Pattern of a Design Matrix Drives Multiple Descent in Over-parameterized Regression](https://arxiv.org/abs/2607.24041) | 本文放宽了过参数化线性回归中协变量独立且协方差矩阵非退化的假设，证明协方差退化与变量相关性会引发多重下降现象，并借助二部图的最大匹配和Dulmage-Mendelsohn分解精确定位了风险峰值出现的位置。 |
-| [^380] | [Hopformer: Homogeneity-Pursuit Transformer for Time Series Forecasting](https://arxiv.org/abs/2607.22299) | Hopformer提出两阶段时间序列预测框架，先通过稀疏模式聚合（SPA）提取融合协变量的共同低方差趋势作为同质化层，再用LoRA微调的Transformer建模残差中的复杂依赖，在理论上证明了近最优偏差-方差权衡与泛化界，在多个基准上平均提升MASE 6.56%。 |
-| [^381] | [Inpainting Insights: Elevating Visual XAI with Photorealistic Perturbations](https://arxiv.org/abs/2607.15482) | 该论文改进了广泛使用的基于扰动的方法LIME，利用生成式图像修复技术生成照片级逼真的扰动样本，解决了传统扰动方法产生不真实分布外样本和可见伪影的问题，从而提升视觉XAI的图像解释质量。 |
-| [^382] | [Gauge-Invariant, Parameter-Insensitive Regularization for Potential Recovery from Flow on Directed Graphs](https://arxiv.org/abs/2607.13609) | 该论文提出用规范不变的图狄利克雷能量替代岭正则化，从有向图流数据中恢复势能，解决了岭正则化导致的排序反转问题，并实现了跨λ四个数量级的参数不敏感性。 |
-| [^383] | [Adapting Generalist Vehicle Models for High-Speed MPC Across Terrains](https://arxiv.org/abs/2607.13319) | OptCar提出了一种基于FiLM条件化transformer的FKD架构，仅需有限真实世界数据即可将通用车辆动力学基础模型专业化为特定车辆的专用模型，在保持跨地形泛化能力的同时实现跨地形高速MPC精确控制。 |
-| [^384] | [tidyHEBO: Robust General-Purpose Bayesian Optimization with Model-Consistent Warping and Pareto Search](https://arxiv.org/abs/2607.10669) | tidyHEBO 是一个 BoTorch 原生的通用贝叶斯优化器，通过将 Yeo-Johnson 输出变换与高斯过程代理模型联合拟合、在原始目标尺度上评估采集函数并执行多准则累积帕累托搜索，在无需任何基准特定调优的情况下于 Olympus 基准上排名第一。 |
-| [^385] | [Does Depth Survive Composition, and Can a Router Use It? Adaptive Compute in Latent World Models](https://arxiv.org/abs/2607.10203) | 该论文通过在九个 DeepMind Control 任务上测试十二模块早退潜在世界模型发现，“更深预测器更准确”的假设在部分任务上不成立且多步复合会改变深度-误差关系，尽管逐步选择深度的贪婪 oracle 可将 rollout 误差降低 10-37%，但训练出的所有路由器均无法捕捉这种深度选择收益。 |
-| [^386] | [Correlation-Aware Contextual Bandits with Surrogate Rewards for LLM Routing](https://arxiv.org/abs/2607.09015) | 该论文提出了面向大语言模型路由的相关性感知上下文多臂老虎机算法，通过耦合奖励混合与解耦预测混合两种互补设计利用可能不可靠的代理奖励信号，在加速学习的同时对代理信号错误设定保持鲁棒性。 |
-| [^387] | [RhyMix: A Lightweight Adaptive Multi-Rhythm Network for Long-Term Time Series Forecasting](https://arxiv.org/abs/2607.08234) | RhyMix提出了一种轻量级的并行双路径混合神经架构，通过带可学习循环嵌入的循环路径与自适应门控机制，同时捕获时间序列中的季节周期、短期波动和长期趋势等多种模式，从而提升长期时间序列预测性能。 |
-| [^388] | [CausalDS: Benchmarking Causal Reasoning in Data-Science Agents](https://arxiv.org/abs/2607.08093) | 该论文提出CausalDS基准，通过系统性地生成结构因果模型、对应的观测数据以及基于真实领域的自然语言场景，填补了现有基准在评估数据科学智能体因果推理能力方面的空白。 |
-| [^389] | [What Does a Discrete Diffusion Model Learn? One Reverse Process in Three Coordinates](https://arxiv.org/abs/2607.05381) | 本文证明离散扩散模型中的去噪器、桥接插件和具体分数三种方法学习的其实是同一对象——加噪过程的精确时间反演，只是处于三种不同坐标系，并给出 Oracle Distance 恒等式（负 ELBO 等于数据熵加路径 KL 散度）及三种坐标间的精确转换。 |
-| [^390] | [Platonic Projection Structures: Operator-Induced Observability in Representation Learning](https://arxiv.org/abs/2607.05175) | 该论文提出柏拉图投影结构（PPS）这一算子理论框架，通过自伴半正定观测算子与商几何 $H/\ker(\Pi)$ 来刻画部分观测下表示学习的可观测性，并揭示量子测量与线性观测下的表示推断共享同一算子理论结构。 |
-| [^391] | [LIME: Learning Intent-aware Camera Motion from Egocentric Video](https://arxiv.org/abs/2607.02417) | 该论文首次将视觉-语言条件下的相机运动生成形式化为独立任务，并提出通过事后标注从自我中心视频中挖掘多意图监督数据的方法，使机器人能够根据自然语言意图预测相机运动。 |
-| [^392] | [Self-Organized Conformal Prediction: Reducing Regional Coverage Gaps with Unsupervised Group Discovery](https://arxiv.org/abs/2606.29403) | 提出自组织保形预测（SOCP），利用无需校准标签的无监督自组织映射（SOM）发现输入空间分组并从中提取校准缓冲，在预测器和非一致性分数保持不变的前提下实现精确的条件覆盖有效性，从而减少特征空间异质区域的覆盖差距。 |
-| [^393] | [Blackknife: Query-Free Black-Box Rewiring Attacks on Heterogeneous Graph Neural Networks](https://arxiv.org/abs/2606.29240) | Blackknife提出了一种免查询的严格黑盒攻击方法，仅通过观测一跳结构和保持度数不变的边重连操作，即可有效规避异构图神经网络的防御。 |
-| [^394] | [From Clicks to Intent: Cross-Platform Session Embeddings with LLM-Distilled Taxonomy for Financial Services Recommendations](https://arxiv.org/abs/2606.26277) | 本文提出了一种利用大语言模型提炼的分类法来生成跨平台会话嵌入，从而在金融服务推荐中实现从网页点击到用户意图的预测，并支持定量推荐与定性理解的双重目标。 |
-| [^395] | [Geological text descriptions in ill-posed inverse problems: insights from learned hydraulic-conductivity inversion](https://arxiv.org/abs/2606.24967) | 该研究通过合成达西流基准系统考察了地质文本描述在学习型渗透系数反演中的作用，发现当观测存在结构歧义时描述能改善重建，实例特定内容尤为有效，且求解器会依据描述所述的几何信息偏移重建结果，但随着观测信息量增大，描述的影响会减弱。 |
-| [^396] | [X-Safe: Embodiment-Agnostic Safeguarding for Robot Arm Manipulation Policies via Action Masking](https://arxiv.org/abs/2606.22278) | X-Safe提出了一种与机器人本体无关的安全保障方法，通过在构型空间中对当前构型进行局部推理建立安全区域，并利用动作掩码将策略动作限制在安全区域内，从而在无需模型简化或学习型安全函数的情况下，为机械臂操作策略提供形式化的防碰撞概率保证。 |
-| [^397] | [PoLAR: Factorizing Extent and Mode in Latent Actions for Robot Policy Learning](https://arxiv.org/abs/2606.21139) | PoLAR 通过在潜在动作空间中引入极坐标径向结构（半径编码动作幅度、方向编码动作模式），并借助双曲空间与观测时间偏移作为约束，使机器人策略更容易将潜在动作解码为实际的机器人动作。 |
-| [^398] | [HiMPO: Hindsight-Informed Memory Policy Optimization for Less-Entangled Credit in Long-Horizon Agents](https://arxiv.org/abs/2606.16285) | HiMPO框架将后见相关性作为有界回溯过滤器，为长时程智能体的记忆写入动作分配与下游工具故障等因素解耦的低纠缠信用，并仅对记忆token应用记忆特定优势进行优化。 |
-| [^399] | [Driving, Fast or Slow? Neuro-Symbolic Guidance for Motion Prediction in Multi-Modal Ground Mobility](https://arxiv.org/abs/2606.15251) | 提出了TraCS神经符号框架，通过代理式代码生成将自然语言交通法规转化为可解释的概率一阶逻辑约束，并利用响应式数据流推理引擎实时更新合规性图景，从而增强黑盒运动预测模型在异构交通环境中的可解释性与安全性。 |
-| [^400] | [A Unifying Framework for Concept-Based Representational Similarity](https://arxiv.org/abs/2606.09653) | 提出了一个基于概念的表征相似性统一框架，沿“对齐对象”与“对齐层级”两个轴分解concept对齐问题，并引入基于干预的基准InterVenchA，分别测量提取质量、translation质量与concept一致性，且与人类感知进行对照验证。 |
-| [^401] | [AgentWorld: A Data Factory for Training LLM Agents from Multi-Turn Interactions](https://arxiv.org/abs/2606.09138) | AgentWorld是一个数据工厂，通过API代理网关捕获异构智能体运行时的多轮交互，并将其转化为标准化、高质量的结构化训练数据，为LLM智能体训练提供从交互收集到训练消费的统一数据生命周期。 |
-| [^402] | [Activation Steering Induces Emergent Misalignment: Steering Vector Construction and Comprehensive Evaluation](https://arxiv.org/abs/2606.08682) | 该论文通过系统构建引导向量并综合评估，首次证实激活引导技术可以从狭窄任务出发，在大语言模型中诱发跨广泛无关领域的涌现性失调，揭示了这一流行推理时调节技术的潜在安全风险。 |
-| [^403] | [HARP: Efficient Data Selection for Finetuning Large Language Models](https://arxiv.org/abs/2606.07690) | 提出了一种基于训练的高效数据选择方法HARP，它将训练数据组织为层次结构、仅评估代表性子集并用经验贝叶斯后验推断其余数据的效用，配合互补的冗余控制与加性选择策略，在大幅降低选择成本的同时保持下游任务对齐效果。 |
-| [^404] | [STREAM: Stochastic Riemannian Flow Matching with Anisotropic Decoder for Digital Histopathology Image Generation](https://arxiv.org/abs/2606.07036) | 提出STREAM框架，首次在数字病理组织学图像生成中应用黎曼流匹配，直接以病理学视觉基础模型patch token所在的单位超球面作为潜在空间并配合各向异性解码器，克服了现有方法中条件信号主导多样性、导致生成多样性不足的问题。 |
-| [^405] | [Memory by Design: Probabilistic Sequence Layers](https://arxiv.org/abs/2605.31163) | 本文提出了一种设计模型框架，通过贝叶斯滤波和协方差传播统一多种次二次递归序列层，并恢复协方差传播以增强记忆保留和检索。 |
-| [^406] | [Subspace-Decomposed JEPAs: Disentangling Progression and Content in Latent World Models](https://arxiv.org/abs/2605.31111) | SD-JEPA将JEPA潜在空间分解为正交的进展子空间和内容子空间，使两种防坍缩力量在不相交的坐标上加性组合而非相互竞争，从而在多个控制基准上提升了世界模型性能。 |
-| [^407] | [Unification and Optimization of Robust Supervised Learning](https://arxiv.org/abs/2605.28165) | 该论文提出了一个统一框架，将分布鲁棒优化、Mixup、标签平滑等鲁棒学习方法纳入同一表述体系，明确了各方法间的冗余或互补关系，并推导出将设计选择转化为可调超参数的实用训练过程。 |
-| [^408] | [A Simple Plug-in for Improving Eviction-Based KV Cache Compression](https://arxiv.org/abs/2605.23258) | VECTOR是一种即插即用插件，通过引入“保留-近似-逐出”三路token路由机制，并结合离线校准的可重构性信号，恢复了原本会被二元逐出不可逆丢失的值信息，从而显著提升基于逐出的KV缓存压缩方法在长上下文推理中的性能。 |
-| [^409] | [A finite-element-inspired bipartite graph learned simulator for manufacturability assessment in large-deformation sheet forming](https://arxiv.org/abs/2605.22845) | 该论文提出CAtt-BiGNN，一种基于交叉注意力的二部图神经网络，通过模拟显式有限元中节点运动学与单元变形的耦合更新机制，实现大变形板料成形可制造性的高效评估。 |
-| [^410] | [OScaR: The Occam's Razor for Extreme KV Cache Quantization in LLMs and Beyond](https://arxiv.org/abs/2605.19660) | 该论文识别出Token范数不平衡（TNI）是极端压缩下KV缓存逐通道量化保真度的主要瓶颈，并提出了一种精确且轻量的量化方法OScaR，无需复杂的量化流水线即可实现高保真KV缓存压缩。 |
-| [^411] | [MOCHA: Multi-Objective Chebyshev Annealing for Agent Skill Optimization](https://arxiv.org/abs/2605.19330) | 提出 MOCHA 方法，通过切比雪夫标量化选择改进对象并以扩展帕累托前沿为接受准则，从探索退火到利用，实现智能体技能在准确性与上下文经济性之间的多目标优化，克服了现有单分数提示词优化器易停滞的问题。 |
-| [^412] | [BrainDyn: A Sheaf Neural ODE for Forecasting and Generating Brain Dynamics](https://arxiv.org/abs/2605.19324) | BrainDyn 提出了一种基于胞腔层束的图神经 ODE 网络，通过根据预测上下文窗口动态重算的限制映射来建模脑区之间异质的通信方式，从而实现对大脑动力学的预测与生成。 |
-| [^413] | [How Far Are We From True Auto-Research?](https://arxiv.org/abs/2605.19156) | 该研究提出ResearchArena评测框架，让现成智能体在轻量指导下自主完成从构思到写作的完整科研闭环，并通过仅稿件审稿、感知产物同行评审和人类元评审三种互补视角，系统评估了117篇智能体生成论文的真实质量，发现仅看稿件时结果乐观，凸显了更全面评估自动化研究成果的必要性。 |
-| [^414] | [Symmetry-Compatible Principle for Optimizer Design: Embeddings, LM Heads, SwiGLU MLPs, and MoE Routers](https://arxiv.org/abs/2605.18106) | 该论文提出优化器设计的对称兼容原则——梯度更新规则应在权重块的对称群下保持等变，据此统一了双正交等变更新方法，并为嵌入层、语言模型输出头、SwiGLU MLP和MoE路由器等结构推导出对称兼容的优化器。 |
-| [^415] | [When and Why Adversarial Training Improves PINNs: A Neural Tangent Kernel Perspective](https://arxiv.org/abs/2605.15959) | 本文基于神经正切核（NTK）视角提出了一个新的分析框架，揭示了GAN判别器如何影响PINNs训练动力学，从而解释了对抗训练何时及为何有效，并据此提出了一种实用高效的PINNs训练算法。 |
-| [^416] | [Njord: A Probabilistic Graph Neural Network for Ensemble Ocean Forecasting](https://arxiv.org/abs/2605.15470) | Njord是一个将深度潜变量框架与图神经网络相结合的概率性海洋预报模型，通过自适应不规则海面几何的K-means聚类网格实现全球0.25°和波罗的海2公里分辨率的预报，在单次前向传播中即可采样集合预报，性能超越确定性机器学习基线并提供不确定性估计。 |
-| [^417] | [GQLA: Group-Query Latent Attention for Hardware-Adaptive Decoding](https://arxiv.org/abs/2605.15250) | 该论文提出分组查询潜在注意力（GQLA），通过组共享投影使同一权重即可支持MQA吸收式与GQA两种解码路径，从而根据GPU计算带宽比和张量并行度自适应选择最优推理方式，并能零梯度转换现有MLA/GQA模型检查点。 |
-| [^418] | [Learning, Fast and Slow: Towards LLMs That Adapt Continually](https://arxiv.org/abs/2605.12484) | 受人类多时间尺度学习机制启发，提出了一种快-慢学习框架，以模型参数作为“慢”权重、优化上下文作为“快”权重，使大语言模型既能通过文本反馈快速适应特定任务，又能避免灾难性遗忘并保持通用推理能力。 |
-| [^419] | [A proximal gradient algorithm for composite log-concave sampling](https://arxiv.org/abs/2605.12461) | 提出了一种针对复合对数凹分布的近端梯度采样算法，通过结合 $f$ 的梯度评估与 $g$ 的受限高斯预言机，在 $f+g$ 为 $\alpha$-凸且 $f$ 为 $\beta$-光滑的条件下，以 $\widetilde{\mathcal{O}}(\kappa \sqrt d \log^4(1/\varepsilon))$ 次预言机调用实现总变差距离下 $\varepsilon$ 精度的采样，匹配了 $g=0$ 情形下的最优结果。 |
-| [^420] | [Split the Differences, Pool the Rest: Provably Efficient Multi-Objective Imitation](https://arxiv.org/abs/2605.12000) | 提出多输出增强行为克隆（MA-BC）算法，通过划分冲突专家数据并汇集无冲突的状态-动作对，以更快的统计速率收敛到帕累托最优策略，并达到极小极大最优。 |
-| [^421] | [LEAP: Unlocking dLLM Parallelism via Lookahead Early-Convergence Token Detection](https://arxiv.org/abs/2605.10980) | 提出LEAP，一种无需训练、即插即用的方法，通过前瞻性检测在去噪早期已收敛的token，突破现有置信度阈值的保守限制，从而显著加速扩散语言模型的并行解码。 |
-| [^422] | [TIDES: Implicit Time-Awareness in Selective State Space Models](https://arxiv.org/abs/2605.09742) | TIDES 提出了一种选择性状态空间模型变体，通过将输入依赖性从离散化步长转移到对角状态矩阵，在原生处理不规则时间戳的同时保留了逐词符表达能力。 |
-| [^423] | [TabFORGE: A Tabular Foundation Model for Generative Modelling](https://arxiv.org/abs/2605.09424) | 提出了TabFORGE——一个基于预训练表格基础生成表示的新型表格基础模型，通过更好地对齐表格数据的特征间依赖结构，显著提升生成式表格建模的合成数据质量。 |
-| [^424] | [Generative Actor-Critic with Soft Bridge Policies](https://arxiv.org/abs/2605.08733) | 提出SoftGAC软生成式行动者-评论家算法，利用软桥接策略在单次网络评估内生成动作并提供可处理的软目标，同时解决了生成式策略训练中边际动作密度不可得和迭代采样推理与内存开销大的两大障碍。 |
-| [^425] | [Attention Transfer Is Not Universally Effective for Vision Transformers](https://arxiv.org/abs/2605.07191) | 本研究通过对来自11个ViT家族的20个教师模型进行系统基准测试，发现注意力迁移并非普遍有效——其中4个ViT家族的注意力迁移持续失败且性能低于从零训练的基线，且该失败在不同模型规模、训练时长、数据集和分布外评估下均保持一致，其根源被定位在注意力路由通道。 |
-| [^426] | [From Causal Graphs to Markovian States: Multi-Order State Exposure for Deep RL](https://arxiv.org/abs/2605.07057) | 提出MOSE方法，将单个共享Q函数同时暴露于1到W阶基于历史的状态构造，解决了如何从纵向因果图构造可证明满足马尔可夫性质的最小状态这一根本问题。 |
-| [^427] | [Medical Imaging Classification with Cold-Atom Reservoir Computing using Auto-Encoders and Surrogate-Driven Training](https://arxiv.org/abs/2605.06727) | 该论文提出了一种结合引导式自编码器与可微分代理模型的冷原子储备池计算混合框架，克服了量子测量不可微带来的梯度障碍，实现了医学影像（息肉检测）分类任务的端到端训练。 |
-| [^428] | [Topology-Aware Representation Alignment for Semi-Supervised Vision-Language Learning](https://arxiv.org/abs/2604.26370) | 提出ToMA框架，利用持续同调将图文成对关系分解为H0-消亡与H1-诞生两类关系，并通过跨模态对应在模态间对齐，从而捕捉多模态表示流形的全局拓扑结构，提升半监督视觉-语言学习的泛化能力。 |
-| [^429] | [Dictionary learning for Kernel EDMD](https://arxiv.org/abs/2604.25572) | 本文将 EDMD 中的字典学习方法扩展到 kEDMD 中的核学习，实现了核函数及其参数的自动学习，从而简化了 kEDMD 中核函数定义与参数选择的繁琐过程。 |
-| [^430] | [Ideological Bias in LLMs' Economic Causal Reasoning](https://arxiv.org/abs/2604.21334) | 该研究在EconCausal基准中引入亲政府与亲市场观点存在分歧的意识形态争议案例，发现大语言模型在经济因果推理中表现出系统性意识形态偏见，且争议性案例的因果方向预测难度显著更高。 |
-| [^431] | [Causally-Constrained Probabilistic Forecasting for Time-Series Anomaly Detection](https://arxiv.org/abs/2604.17998) | 提出了一种因果引导Transformer（CGT）模型，通过将时滞因果图先验融入深度概率预测框架，实现了多变量时间序列异常检测中的因果解释与根因定位能力。 |
-| [^432] | [Scaling Human-AI Coding Collaboration Requires a Governable Consensus Layer](https://arxiv.org/abs/2604.17883) | 该论文提出扩展人机编码协作需要引入一个可治理的共识层，通过版本化的项目状态模型将意图、结构性承诺、代码工件和证据关联起来，使人类能够在AI编码过程中检查、协调和修订共享的设计决策。 |
-| [^433] | [StaRPO: Stability-Augmented Reinforcement Policy Optimization](https://arxiv.org/abs/2604.08905) | 提出StaRPO框架，通过自相关函数（ACF）和路径效率（PE）两个轻量级指标将推理稳定性显式纳入强化学习优化目标，从而改善大语言模型推理过程的逻辑一致性与结构稳定性。 |
-| [^434] | [Structural Pass Analysis in Football: Learning Pass Archetypes and Tactical Impact from Spatio-Temporal Tracking Data](https://arxiv.org/abs/2603.28916) | 该论文提出了由线突破得分（LBS）、空间增益度量（SGM）和结构破坏指数（SDI）组合而成的可解释战术影响值（TIV）框架，利用时空追踪数据量化足球传球对对方防守结构的突破与破坏效果。 |
-| [^435] | [Constitutive parameterized deep energy method for solid mechanics problems with random material parameters](https://arxiv.org/abs/2603.26030) | 提出本构参数化深度能量方法（CPDEM），这是一种纯物理驱动的框架，可高效求解具有随机材料参数的固体力学问题，避免了有限元方法重复网格划分的高昂计算成本、数据驱动代理模型对大规模数据集的依赖，以及标准深度能量方法在参数变化时需完全重新训练的缺陷。 |
-| [^436] | [Sharp Statistical Thresholds for Attributed Gaussian Graph Matching](https://arxiv.org/abs/2603.23305) | 本文针对边权重与节点特征联合相关的属性化高斯图匹配问题，推导出了精确恢复、几乎精确恢复和部分恢复的精确信息论阈值，并发现节点特征信息的引入使得精确恢复阈值从共享阈值中分离，呈现出比标准图匹配更丰富的相变结构。 |
-| [^437] | [Maximum-Entropy Exploration with Future State-Action Visitation Measures](https://arxiv.org/abs/2603.18965) | 该论文提出了一种与未来状态-动作特征折扣分布的熵成比例的内在奖励方法，理论上证明其期望总和是从初始状态出发的轨迹所访问分布熵的下界且可通过收缩算子的不动点性质进行离策略估计，从而实现了更优的最大熵探索。 |
-| [^438] | [Edgewise Envelopes Between Balanced Forman and Ollivier-Ricci Curvature](https://arxiv.org/abs/2603.13535) | 该论文通过推导平衡Forman曲率与Ollivier-Ricci曲率之间的显式双侧分段仿射界，将图上OR曲率的逐边计算从最优传输线性规划降至最坏情况O(最大度^2.5)时间，大幅提升大规模图上曲率计算的效率。 |
-| [^439] | [The Reasoning Trap -- Logical Reasoning as a Mechanistic Pathway to Situational Awareness](https://arxiv.org/abs/2603.09200) | 该论文提出RAISE框架，揭示提升大语言模型的演绎、归纳与溯因逻辑推理能力会经由三条机制性路径逐步促成AI的情境感知能力，警示逻辑推理研究与AI安全之间的冲突风险。 |
-| [^440] | [NePPO: Near-Potential Policy Optimization for General-Sum Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2603.06977) | 提出NePPO方法，通过学习一个与玩家无关的势函数，将一般和博弈转化为以该势函数为共同效用的合作博弈，使其纳什均衡近似原博弈的纳什均衡，从而在混合合作-竞争环境中实现近似纳什均衡的计算。 |
-| [^441] | [TimeWarp: Evaluating Web Agents by Revisiting the Past](https://arxiv.org/abs/2603.04949) | 提出了模拟网页UI演变的TimeWarp基准测试，揭示现有网页智能体对界面变化的脆弱性，并通过TimeTraj标注方法与BC变体训练显著提升了智能体跨网页版本的泛化能力。 |
-| [^442] | [MARS: Harmonizing Multimodal Convergence via Adaptive Rank Search](https://arxiv.org/abs/2603.00720) | 提出MARS方法，利用双缩放定律自适应搜索LoRA秩对，以平衡多模态大语言模型微调中不同模态的收敛速度，避免负面干扰并提升任务性能。 |
-| [^443] | [Task-Driven Subspace Decomposition for Knowledge Sharing and Isolation in LoRA-based Continual Learning](https://arxiv.org/abs/2603.00191) | 提出LoDA方法，从投影能量视角出发进行任务驱动的低秩子空间分解，在基于LoRA的持续学习中同时实现跨任务知识共享与真正有效的任务特定隔离。 |
-| [^444] | [Parameter-Efficient Temporal Domain Generalization](https://arxiv.org/abs/2602.11965) | LoTiC通过将时序参数更新分解为共享的低秩基和一个紧凑的时变核心，在r×r的小空间中学习时序动力学，从而实现对现代大模型参数高效的时序域泛化。 |
-| [^445] | [Flow Matching with Uncertainty Quantification and Guidance](https://arxiv.org/abs/2602.10326) | 提出了不确定性感知流匹配UA-Flow，通过预测速度场的异方差不确定性来量化生成样本的可靠性，并利用该信号实现不确定性感知引导，从而提升生成样本的保真度。 |
-| [^446] | [ANCRe: Adaptive Neural Connection Reassignment for Efficient Depth Scaling](https://arxiv.org/abs/2602.09009) | 该论文提出ANCRe框架，通过从数据中自适应学习并重新分配残差连接，以不到1%的额外开销显著提升网络深度的利用效率，并从理论上证明残差连接布局可导致收敛速率的指数级差距。 |
-| [^447] | [Bridging Academia and Industry: A Comprehensive Benchmark for Attributed Graph Clustering](https://arxiv.org/abs/2602.08519) | 该论文提出了PyAGC——首个面向属性图聚类、可直接用于生产环境的综合基准库，通过统一的“编码-聚类-优化”模块化框架和内存高效的小批次实现，弥合了学术研究与真实工业部署之间的鸿沟。 |
-| [^448] | [Is Flow Matching Just Trajectory Replay for Sequential Data?](https://arxiv.org/abs/2602.08318) | 本文推导了序列数据上流匹配目标的最优速度场，揭示其本质是一个非参数、记忆增强的连续时间动力系统，其速度场可表示为观测转移的瞬时速度的加权混合，为神经流匹配模型提供可解释视角并提出FreeFM。 |
-| [^449] | [On the Dynamics of Delayed Generalization in Linear Models](https://arxiv.org/abs/2602.08302) | 本文证明延迟泛化现象并非深度网络独有，在线性可分数据上用梯度下降和指数尾损失训练的线性模型中同样会出现，并将超平面动力学刻画为总体、支持向量主导的遗忘和泛化三个阶段，其中动力学的时间尺度是导致延迟泛化的原因。 |
-| [^450] | [Rational Transductors](https://arxiv.org/abs/2602.07599) | 本文提出有理转换器这一双流架构，通过将源自加权有限自动机的矩阵值递归以深度有理注入的方式嵌入Transformer注意力机制，将Transformer的表达能力严格推广至可捕获所有正则语言及 $\NC^1$ 完全语言，从而解决其在序列逻辑与状态追踪上的局限。 |
-| [^451] | [Deep Time-series Forecasting Needs Kernelized Moment Balancing](https://arxiv.org/abs/2602.00717) | 该论文提出 KMB-DF 方法，通过从再生核希尔伯特空间（RKHS）中自适应地选择最有信息量的平衡函数来实施核化矩匹配，克服了现有方法只能匹配少数预定义矩的局限，从而实现深度时间序列预测中预测分布与真实分布的充分平衡。 |
-| [^452] | [SWE-Spot: Building Small Repo-Experts with Repository-Centric Learning](https://arxiv.org/abs/2601.21649) | 本文提出仓库中心化学习（RCL）新范式，将静态代码库转化为交互式学习信号，训练出针对特定代码仓库深度专门化的小型语言模型SWE-Spot-4B，以弥补小型模型处理复杂陌生代码库时泛化能力不足的缺陷。 |
-| [^453] | [Beyond Sustainable Development Goal (SDG) Accelerators: Directed Evidence for Adaptive Sustainability Portfolios](https://arxiv.org/abs/2601.20875) | 本研究基于114个国家2000至2024年的面板数据，结合面板格兰杰因果检验与局部投影方法，识别出84个定向SDG联系（40个协同、44个权衡），证明不存在普适的SDG加速器，并主张依据定向因果证据构建适应性的可持续发展政策组合。 |
-| [^454] | [Interpolation of GEDI Biomass Estimates with Calibrated Uncertainty Quantification](https://arxiv.org/abs/2601.16834) | 该论文提出注意力神经过程（ANP）概率元学习架构，通过结合局部激光雷达观测集合与地理空间基础模型嵌入来插值GEDI稀疏生物量观测，能够根据景观异质性自适应调整不确定性，并在五种生物群系中实现了竞争性精度和良好的不确定性校准。 |
-| [^455] | [Tree-Structured Synergy of Large Language Models and Bayesian Optimization for Efficient CASH](https://arxiv.org/abs/2601.12355) | 该论文提出LB-MCTS框架，以蒙特卡洛树搜索作为共享的轨迹结构化状态，协同大语言模型的语义先验与贝叶斯优化，实现跨算法选择与算法内超参数空间的联合高效优化，从而更好地解决CASH问题。 |
-| [^456] | [Imaging-anchored Multiomics in Cardiovascular Disease: Integrating Cardiac Imaging, Bulk, Single-cell, and Spatial Transcriptomics](https://arxiv.org/abs/2601.07871) | 本综述提出以心脏影像为锚点的多组学整合框架，将超声心动图、心脏MRI和CT所定义的心脏空间表型，与bulk、单细胞及空间转录组提供的细胞类型和位置特异的分子背景相融合，从而打破数据孤岛、实现心血管疾病的多模态联合分析。 |
-| [^457] | [Long-Range Distillation: Distilling 10,000 Years of Simulated Climate into Long Timestep AI Weather Models](https://arxiv.org/abs/2512.22814) | 提出了一种“远程蒸馏”方法，利用自回归教师模型生成的一万年模拟气候合成数据，训练单步生成的长时间步长概率学生模型，从而解决AI长期天气预报中误差累积与再分析数据不足导致的过拟合问题。 |
-| [^458] | [The Instability of Safety: How Random Seeds and Temperature Expose Inconsistent LLM Refusal Behavior](https://arxiv.org/abs/2512.12066) | 该研究揭示大语言模型的安全拒绝决策在随机种子和温度变化下并不稳定，18-28%的有害提示词会出现“拒绝”与“配合”之间的决策翻转，且温度越高稳定性越差，表明单次安全评估无法真实反映模型的安全对齐水平。 |
-| [^459] | [Tracking large chemical reaction networks and rare events by neural networks](https://arxiv.org/abs/2512.10309) | 提出了一种基于自回归概率分布表示、二阶优化与增强采样策略的统一神经网络框架，可高效求解大型化学反应网络的化学主方程，并精确捕捉稀有事件与亚稳态跃迁动力学。 |
-| [^460] | [A Versatile Variational Quantum Kernel Framework for Non-Trivial Classification](https://arxiv.org/abs/2511.10831) | 该研究提出了一个结合资源高效拟设与参数缩放技术的多功能变分量子核框架，在涵盖表格、图像、时间序列和图数据的八个真实高维数据集上取得了与经典RBF核相当的分类性能。 |
-| [^461] | [When is a System Discoverable from Data? Discovery Requires Chaos](https://arxiv.org/abs/2511.08860) | 混沌虽然与不可预测性相关，却往往是使动力系统控制方程能够从数据中被发现的关键——系统的域外泛化能力恰好在混沌出现时产生，而保守系统本质上无法仅凭数据被发现。 |
-| [^462] | [Ground-Truth Subgraphs for Better Training and Evaluation of Knowledge Graph Augmented LLMs](https://arxiv.org/abs/2511.04473) | 提出了SynthKGQA框架，可从任意知识图谱生成包含完整真值事实的知识图谱问答数据集，既能更有效地评估知识图谱检索器，也能用于训练更好的知识图谱增强大语言模型，并基于Wikidata构建了测试零样本泛化能力的GTSQA数据集。 |
-| [^463] | [A Nesterov-Accelerated Byzantine-Robust Federated Learning](https://arxiv.org/abs/2511.02657) | 该论文提出了一种将Nesterov动量与拜占庭鲁棒聚合规则无缝结合的联邦学习算法Byrd-NAFL，在非凸光滑损失函数和宽松假设下建立了有限时间收敛保证，同时兼顾通信效率与对拜占庭攻击的抵抗能力。 |
-| [^464] | [Toward Agents That Reason About Their Computation](https://arxiv.org/abs/2510.22833) | 本文通过让强化学习智能体感知自身计算成本并自主控制计算使用时机，实现了在相同训练预算下于75%的游戏中性能更优、且平均计算量减少三倍的效果。 |
-| [^465] | [Don't Run with Scissors: Pruning Breaks VLA Models but They Can Be Recovered](https://arxiv.org/abs/2510.08464) | 剪枝会严重破坏VLA模型并加剧安全违规，本文通过谱分析揭示了其权重结构脆弱性的根源，并提出GLUESTICK方法——通过在权重空间对密集模型与剪枝模型插值计算一次性校正项，在保留稀疏性优势的同时恢复模型大部分性能。 |
-| [^466] | [Context Value Informed In-Context Reinforcement Learning](https://arxiv.org/abs/2509.23209) | 提出CV-ICRL方法，通过为上下文内策略引入显式的上下文价值估计，并将价值预测以价值token的形式写回上下文，实现TD式回报目标，从而降低策略更新的方差，使测试时对未见任务的适应更加稳定。 |
-| [^467] | [Anticipatory Evaluation of Language Models: Predicting LLM Benchmark Scores from Descriptions](https://arxiv.org/abs/2509.20645) | 该论文提出“前瞻性评估”新范式和EVALCAST数据集（2,290对描述-性能数据），证明前沿LLM能够从自然语言任务描述中推断出基准测试的相对难度排序，但精确预测绝对性能分数仍然困难。 |
-| [^468] | [Sig-DEG for Distillation: Making Diffusion Models Faster and Lighter](https://arxiv.org/abs/2508.16939) | 本文提出Sig-DEG，利用部分签名与循环结构逼近随机微分方程的解来蒸馏预训练扩散模型，在保持有竞争力的样本质量的同时显著提升推理速度。 |
-| [^469] | [Linearly Convergent Algorithms for Nonsmooth Problems with Unknown Smooth Regions](https://arxiv.org/abs/2507.19465) | 本文首次证明bundle-level类方法可在光滑区域未知的情况下，对满足二次增长条件的凸分片光滑函数实现全局线性收敛，并将该方法扩展至弱凸分片光滑问题，同时提出了无需任何问题参数的可验证精确终止准则。 |
-| [^470] | [The Invisible Leash: Why RLVR May or May Not Escape Its Origin](https://arxiv.org/abs/2507.14843) | 该论文提出“经验支持动力学”框架，逐题追踪RLVR对已验证解的保持、扩展与收缩，发现在给定采样预算下支持收缩超过扩展，表明RLVR可能并未真正扩展模型推理边界，而主要是放大了基座模型已知的高奖励输出。 |
-| [^471] | [State Space Models Naturally Produce Time Cell and Oscillatory Behaviors and Scale to Abstract Cognitive Functions](https://arxiv.org/abs/2507.13638) | 该论文提出状态空间模型凭借结构化的多时间尺度复数旋转基，无需训练即可自然涌现时间细胞和振荡等神经时间动态，并可通过学习扩展至抽象认知功能，为连接微观神经回路与认知功能提供了数学上充分、计算上合理的框架。 |
-| [^472] | [Rule-based and reinforcement-learning policies for resource allocation in a pediatric echo lab: a simulation study](https://arxiv.org/abs/2506.06297) | 该研究基于斯坦福儿童医院一周的真实运营数据，构建了儿科超声心动图实验室的离散事件随机仿真模型并通过开源Gymnasium接口提供，为基于规则和强化学习的资源分配策略优化提供了可复现的实验平台。 |
-| [^473] | [Score-Based Training for Energy-Based TTS Models](https://arxiv.org/abs/2505.13771) | 本文提出了一种新的分数学习准则，使能量文本转语音模型的分数更适合推理阶段的一阶优化方案，克服了NCE和SSM忽略对数似然函数形式的局限性。 |
-| [^474] | [Incentivize Contribution and Learn Parameters Too: Federated Learning with Strategic Data Owners](https://arxiv.org/abs/2505.12010) | 提出两种联邦学习机制：UPBReD 以几何速率联合收敛到贡献博弈的纳什均衡与福利最大化模型，而 2P-UPBReD 通过预算平衡的转移支付使完全贡献成为客户端的占优策略，从而实现最优模型训练。 |
-| [^475] | [Trustworthy AI Must Account for Interactions](https://arxiv.org/abs/2504.07170) | 可信人工智能的各维度（如公平性、隐私、鲁棒性等）之间存在负面相互作用，例如差分隐私可能放大偏见损害公平性，因此研究必须放弃孤立改进单一方面做法，转而采用同时兼顾所有维度的整体视角。 |
-| [^476] | [Spectral structure learning for clinical time series](https://arxiv.org/abs/2502.11680) | 该论文提出了一种基于多任务平稳高斯过程 StructGP 和改进 NOTEARS 算法的谱结构学习方法，能够从不规则采样的临床时间序列中有效学习时间序列之间的有向条件依赖关系图，并取得了高召回率和高精确率。 |
-| [^477] | [Forget About It: Mitigating Forgetting Without Replay or Auxiliary Objectives](https://arxiv.org/abs/2501.05559) | 本文提出序贯微调平均法（SFA），证明仅依靠微调过程中简单的周期性参数插值，无需重放或辅助目标即可有效缓解灾难性遗忘，并在 Qwen3-14B 适配器持续学习中以最多节省 36.3% 训练时间的优势超越了重放和自适应合并等复杂方法。 |
-| [^478] | [GLL: A Differentiable Graph Learning Layer for Neural Networks](https://arxiv.org/abs/2412.08016) | 该论文通过伴随方法推导出反向传播方程，提出了可微图学习层GLL，实现了图学习算法与神经网络的端到端精确集成，从而在分类任务中利用样本间的关系信息。 |
-| [^479] | [Noise-Aware Differentially Private Variational Inference](https://arxiv.org/abs/2410.19371) | 提出了一种基于随机梯度变分推断的噪声感知差分隐私近似贝叶斯推断新方法，突破了以往方法仅适用于简单概率模型的局限，可应用于高维和非共轭模型，并提出了一种更准确的噪声感知后验评估方法。 |
-| [^480] | [Active Exploration in Bayesian Model-based Reinforcement Learning for Robot Manipulation](https://arxiv.org/abs/2404.01867) | 该论文提出了在机器人操作中基于贝叶斯模型的强化学习中通过主动探索改善模型质量和保持数据效率的方法。 |
-| [^481] | [Bellman Conformal Inference: Calibrating Prediction Intervals For Time Series](https://arxiv.org/abs/2402.05203) | 贝尔曼符合推断（BCI）是一个框架，通过解决一维随机控制问题，利用多步预测来提供校准的时间序列预测区间。BCI在任意分布转换和时间依赖性下实现了长期覆盖，且在波动率预测问题上生成更短的预测区间。 |
-| [^482] | [Beyond Size: How Gradients Shape Pruning Decisions in Large Language Models](https://arxiv.org/abs/2311.04902) | 提出GBLM-Pruner，一种利用泰勒展开一阶项、基于少量校准样本归一化梯度的免训练剪枝方法，在大语言模型剪枝中显著优于SparseGPT和Wanda等现有方法。 |
-| [^483] | [Generation of data on discontinuous manifolds via continuous stochastic non-invertible networks](https://arxiv.org/abs/2112.09646) | 该论文提出了一种新框架：利用预训练对比编码器获得聚类潜空间，并为每个代表单峰子流形的聚类训练专用低复杂度网络，从而有效生成不连续分布的数据，克服了VAE和GAN等传统方法在此类任务上的局限。 |
-| [^484] | [Energy-Based Models For Speech Synthesis.](http://arxiv.org/abs/2310.12765) | 本文引入了一种新的非自回归模型，即基于能量的模型 (EBMs)，通过噪声对比估计进行训练。该模型可以使用 Langevin MCMC 进行采样，并在语音合成任务中取得了改进。 |
+| [^280] | [Scaling Cheap Synthetic Pretraining Improves Indoor Radio-Map Prediction](https://arxiv.org/abs/2610.19015) | 该论文提出自动室内布局生成器与快速开源近似射线追踪器相结合的数据生成流程，利用1.28亿合成样本预训练视觉模型，使室内无线电地图预测误差平均降低15%，并展现出可预测的数据规模扩展规律。 |
+| [^281] | [Data Density Scaling Laws for Image Self-Distillation](https://arxiv.org/abs/2610.19013) | 本文发现图像自蒸馏中样本重复的收益依赖于具体数据集，小数据集重复训练甚至可能优于大数据集，并提出同时考虑独特样本数量与每样本重复次数的改进版 Chinchilla 缩放定律。 |
+| [^282] | [PMO-Dock: Benchmarking Docking, Specificity, and Generalization in Molecular Optimization](https://arxiv.org/abs/2610.19011) | 提出了包含25个基于对接的分子优化任务的PMO-Dock基准测试，涵盖苗头化合物生成、先导化合物优化和特异性评估，并通过将模型开发与最终评估分离的标准化协议，解决了基于对接的分子优化评估缺乏统一标准的问题。 |
+| [^283] | [Discovering Undisclosed Concepts in LoRA Adapters for Diffusion-Based AIGC Models](https://arxiv.org/abs/2610.18990) | 本文提出一种概念发现机制，通过搜索能同时最大化输出连贯性、LoRA诱导独特性和子空间对齐度的条件输入，来揭示LoRA适配器中被训练生成但未公开的概念，从而支持对AIGC模型的内容审核与调查。 |
+| [^284] | [Virtual-Alloy Physics-Aware Semantic System for extrapolative prediction of perovskite solar cells](https://arxiv.org/abs/2610.18949) | 该研究提出V-PaSS系统，通过维加德定律插值端元化合物晶体图并结合界面能带偏移与科学语言模型，实现了对新型材料钙钛矿太阳能电池的外推性能预测。 |
+| [^285] | [Limits of Statistical Assurance for Embodied and Agentic AI under Adaptive Adversaries](https://arxiv.org/abs/2610.18948) | 本文证明了对于具身智能和智能体AI，任何有限时长的安全认证在原理上都无法排除那些在认证前伪装正常行为、认证后才激活的隐蔽自适应对手，并精确刻画了此类攻击带来的最坏情形期望损失。 |
+| [^286] | [Physical Layer Anomaly Detection via Adaptive Gaussian Mixture Model](https://arxiv.org/abs/2610.18946) | 提出基于自适应高斯混合模型的检测框架，通过学习合法CSI模式并检测统计异常，即使在攻击者与合法节点空间接近的情况下也能有效识别CSI欺骗攻击，在位移超过150毫米时实现95-98%的检测率且误报率仅为1%。 |
+| [^287] | [Semi-Amortized Bayesian Inference with Reusable Local Posteriors](https://arxiv.org/abs/2610.18945) | 该论文提出一种半摊销贝叶斯推断方法，将参数分块并为计算昂贵或频繁更新的块训练可复用的神经估计器来近似局部条件后验，再通过马尔可夫链将这些神经采样与常规更新交替进行，从而高效地实现高维复杂模型的贝叶斯推断。 |
+| [^288] | [Wong--Zakai Convergence and FNO Learning for Stochastic Volterra Equations](https://arxiv.org/abs/2610.18939) | 本文为随机Volterra积分方程建立了Wong–Zakai收敛定理，并在此基础上证明镜像填充傅里叶神经算子能够学习其解算子，实现对完整解轨迹的准确预测以及向更细时间网格的泛化。 |
+| [^289] | [Beyond Equation Search: Conjecture-Guided Discovery with SCOPE and ClosureBench](https://arxiv.org/abs/2610.18938) | 该论文提出SCOPE多智能体框架，将符号回归从优化单个方程转向以科学猜想为核心的研究范式，通过多个科学家智能体独立建模、主动实验与证据交换来检验和修正猜想，并配套ClosureBench基准评估猜想驱动式科学发现。 |
+| [^290] | [Delay Complexity Dimension: Learning with Delayed and Censored Labels](https://arxiv.org/abs/2610.18935) | 本文提出“延迟复杂度维度”（DCD），将VC维度与观测信道的标签信息率相结合，刻画了标签延迟且被删失情形下PAC学习的样本复杂度，证明任何学习器需要 Ω(DCD/ε²) 个样本，且伪标签ERM可在常数与对数因子内达到该界。 |
+| [^291] | [An Initial Study of Physiological Markers for Deepfake Speech Detection](https://arxiv.org/abs/2610.18934) | 该论文提出利用36个基于人类言语产生系统（呼吸、发声、时间协调）的手工生理标记来检测深度伪造语音，验证了通过识别生理模式不一致性检测伪造语音的可行性，域内最佳等错误率达21.40%，并在跨域场景下展现出一定的泛化能力。 |
+| [^292] | [The Agentic Scientist: Orchestrating Coding Agents for Automated Scientific (Co-)Discovery](https://arxiv.org/abs/2610.18933) | 提出了端到端分布式系统“智能体科学家”，将计算研究分解为多个阶段并由新一代编程智能体驱动、结合智能体自验证，实现人机协同的自动化科学发现。 |
+| [^293] | [TorchSpin: Differentiable Electron Paramagnetic Resonance Simulation in PyTorch](https://arxiv.org/abs/2610.18924) | TorchSpin 是一个基于 PyTorch 的开源可微分电子顺磁共振（EPR）模拟框架，它将 EasySpin 的组织结构与数值约定移植到张量计算环境中，在复现经典结果的同时，借助自动微分使 EPR 模拟能够融入机器学习工作流。 |
+| [^294] | [Popularity Trajectories and Mixing Patterns of Urban Venues in Two European Cities](https://arxiv.org/abs/2610.18917) | 本研究基于伦敦和巴塞罗那约一万个场所5.5年的Foursquare签到数据，发现城市场所的流行度演变可归纳为六种典型轨迹（下降、上升、先升后降、稳定、昙花一现、后起之秀），且不存在U型复苏轨迹，而社区的贫困程度与人口密度并不能预示场所的流行度走向。 |
+| [^295] | [Distinguishing Process Change, Instrument Fault and Data-Path Corruption in Streaming Telemetry: A Reference Implementation and Benchmark](https://arxiv.org/abs/2610.18904) | 提出了一种由多种在线检测器与确定性、可审查的归因规则组合的方法，能在流式遥测中以96.3%的检测率和91.2%的正确归因率区分过程变化、仪器故障与数据通路损坏这三种异常成因。 |
+| [^296] | [AI-Driven, Timing-Aware Power Optimization](https://arxiv.org/abs/2610.18890) | 提出了一种AI驱动的时序感知功耗优化框架，利用梯度提升模型集成来排序功耗恢复编辑和修复动作，在EDA确定性分析的把关下实现布线后功耗降低，同时避免引入新的约束违例。 |
+| [^297] | [Bayesian Causal Forests for Zero-Inflated Continuous Outcomes](https://arxiv.org/abs/2610.18889) | 本文提出ZIC-BCF-Smear方法，通过解耦的两部分贝叶斯因果森林（Probit BCF建模零值参与、高斯BCF建模正值强度），结合子群体倾向得分调整与Duan非参数平滑估计，有效解决了半连续结果下异质性处理效应估计的难题。 |
+| [^298] | [Physics-Guided Multi-Fidelity Surrogate Modeling for Natural Supercavity Geometry of an Axisymmetric Conical Cavitator](https://arxiv.org/abs/2610.18886) | 该论文提出一种物理引导的多保真度代理建模方法，用于预测轴对称锥形空化器的自然超空泡几何形态，在解析模型精度不足与多相CFD计算成本过高之间取得平衡，从而支撑超空泡鱼雷空化器的静态设计与实时形状管理。 |
+| [^299] | [Token Utility for On-Policy Distillation via Local Trust-Region Optimization](https://arxiv.org/abs/2610.18883) | 该论文从蒸馏目标本身出发推导出token效用公式 $s_t=g_t^T F_t^\dagger g_t$，证明其在反向KL下等价于师生对数概率比的学生加权方差、在正向KL下等价于Pearson χ²散度，为在线策略蒸馏的token选择提供了统一且有原则的理论基础。 |
+| [^300] | [Following the Flow the Law Requires: Training Voice Agents to Transfer to Unseen Regulated Procedures in Debt Collection](https://arxiv.org/abs/2610.18881) | 本文提出 FlowSpec 机器可读规范，通过在 297 个随机化监管程序上微调 90 亿参数模型，训练出能够零样本遵循从未见过的受监管债务催收流程的语音代理。 |
+| [^301] | [Do Perturbation Predictors Learn Gene Interactions? Diagnosing Extrapolation in Agentic Screening](https://arxiv.org/abs/2610.18880) | 该论文提出“加性分歧”这一诊断指标来评估扰动预测模型对未见基因组合的外推能力，并发现在八种方法和三个 Perturb-seq 数据集上，专门的神经预测器并不稳定优于简单的加性基线，且偏离加性基线越大的预测误差越大。 |
+| [^302] | [Do Vision CIL Methods Transfer to Protein? A Diagnostic Benchmark of Frozen Protein Encoders](https://arxiv.org/abs/2610.18879) | 该论文系统评估了九种视觉领域的类增量学习方法在冻结蛋白质编码器上的表现，发现没有任何方法能可靠地跨编码器迁移，其根源在于梯度稳定性信号弱、嵌入几何异质性大以及协方差假设不成立。 |
+| [^303] | [Inverse Reasoning Models for Efficient Post-Training and Verification from Answer-Only Data](https://arxiv.org/abs/2610.18878) | 该论文提出一种自蒸馏方法，通过训练一个“逆向推理模型”根据答案反向生成推理轨迹，从而仅利用提示-答案对数据即可高效后训练推理大语言模型，在数据效率与计算效率之间取得平衡。 |
+| [^304] | [Lotus: Learning to Understand Time-series by Learning to Forecast](https://arxiv.org/abs/2610.18877) | LOTUS 提出“预测锚定”预训练原则，通过要求时间序列的语言对齐表示能够预测未来片段演化，使其在映射到 LLM 嵌入空间时保留时间与频谱信息，从而学会真正理解时间序列。 |
+| [^305] | [RoboSimStudio: An Interactive Toolkit for Human and Agent Rapid Real2Sim of Robot Manipulation Tasks](https://arxiv.org/abs/2610.18835) | 该论文提出交互式工具包RoboSimStudio，通过将求解器、接触模型和物理参数的选择显式化且可编辑，使人类与编程智能体能够基于观察到的物理行为快速构建并迭代优化机器人操作任务的Real2Sim仿真。 |
+| [^306] | [Does Pretraining Teach Chemical Language Models Chemistry?](https://arxiv.org/abs/2610.18651) | 化学语言模型的预训练收益无法随规模扩大，性能低于梯度提升基线，仅有基于理化描述符的有监督预训练能持续带来提升，表明预训练几乎未能让模型真正学到化学知识。 |
+| [^307] | [Readout Scaling Shapes Sparse Feature Recovery](https://arxiv.org/abs/2610.18462) | 本文提出读出规范化决策空间（RC-DS）坐标方法以消除读出缩放的奇异值增益，并通过受控实验证明当训练恢复因子生成的原始空间时稀疏特征恢复效果最佳，将平均稀疏因子恢复从0.506提升至0.913。 |
+| [^308] | [Convergence-Rate-Guided Algorithm Design of Expected Improvement for Continuous Simulation Optimization](https://arxiv.org/abs/2610.18434) | 该论文通过推导简单遗憾的高概率上界，在收敛率分析的基础上系统性地设计了随机克里金期望改进算法的三个关键组件——当前最优解、采样重复次数和终端推荐，解决了未知异方差噪声下连续仿真优化中依赖启发式规则进行算法设计的局限。 |
+| [^309] | [ResearchFlow-Eval: Tracing the Execution Gap in End-to-End Multi-Claim Autoresearch](https://arxiv.org/abs/2610.18088) | 该论文提出 ResearchFlow-Eval——一个基于已发表论文锚定、在阶段与论断两个层面细粒度评估端到端多论断自主研究系统持续科学执行与迭代能力的评测框架，弥补了现有评估仅打分孤立任务或最终成果的不足。 |
+| [^310] | [Privacy-Preserving GNN Inference on Financial Transaction Graphs via Homomorphic Encryption](https://arxiv.org/abs/2610.18054) | 该论文提出了一种基于CKKS同态加密、以边为中心的图神经网络推理框架，使多家银行能够在不共享明文交易特征的前提下协作进行反洗钱检测。 |
+| [^311] | [Interaction-as-a-Judge](https://arxiv.org/abs/2610.17895) | 提出“交互即裁判”评估范式，让计算机操作智能体直接与应用交互来进行评估和生成，弥补了传统基于代码分析与单元测试的自动评估和人类交互式评估之间的差距，并发布了包含人类偏好对与经人类验证需求标签的两个数据集。 |
+| [^312] | [RT-J: Large-Scale Pretraining of Relational Transformers for Context-Efficient Predictions](https://arxiv.org/abs/2610.17867) | RT-J是一个8500万参数的关系型基础模型，通过在639个网络爬取数据库和LLM生成的预测任务上利用长上下文预训练，仅需数百个上下文样本即可实现准确预测，所需样本量比现有方法减少10倍。 |
+| [^313] | [MMTA: Benchmarking Multimodal Temporal Analysis with Time Series, Text, and Vision](https://arxiv.org/abs/2610.17856) | MMTA是一个涵盖九个领域、融合时间序列、文本与视觉三种模态的多模态时间分析基准测试，首次系统评估了多模态大语言模型能否将时间序列与真实世界视觉证据相整合的能力。 |
+| [^314] | [RELAY: Selective Self-Distillation with Adaptive Hand-off for Rubric-Based Reinforcement Learning](https://arxiv.org/abs/2610.17623) | RELAY提出一种两阶段训练方法，第一阶段将冻结教师模型的选择性自蒸馏与GRPO结合，并通过监控蒸馏损失的停滞检测器自适应地在最佳时机移除教师模型、切换到纯GRPO训练，从而在基于评分标准的强化学习中超越纯GRPO方法，且停滞检测器跨模型和领域具有良好泛化性。 |
+| [^315] | [Cross-View Time-Frequency Diffusion for Extreme-Aware Time-Series Generation](https://arxiv.org/abs/2610.17407) | 提出CrossTF框架，利用时间视角与频率视角去噪器之间的极端敏感不对称性，在扩散生成后期窗口进行跨视角调整，从而在不损害整体生成质量的前提下大幅提升时间序列中极端事件的保真度。 |
+| [^316] | [Learning to Design Convex Relaxations for Nonconvex Optimization](https://arxiv.org/abs/2610.16948) | 本文提出 AutoConvexRelax 方法，将非凸问题的符号公式表示为三元图并学习策略自动组合符号重写以生成针对具体问题的凸松弛轨迹，同时证明了该策略在明确条件下保持松弛有效性并给出可计算的误差界。 |
+| [^317] | [DEFlow: Deep Equilibrium Flow Maximum-Entropy Reinforcement Learning](https://arxiv.org/abs/2610.16597) | DEFlow提出了一种深度均衡流策略，通过隐式欧拉积分将所有中间动作作为均衡系统联合求解，并借助隐式微分与离散变量替换公式实现了无需反向传播的离策略训练，在多目标对接、机械臂操作和MuJoCo基准任务上均取得了约10%的平均相对性能提升。 |
+| [^318] | [Towards Modality-Agnostic Seizure Classification: A Unified Deep Learning Framework for Heterogeneous EEG and Intracranial EEG Signals](https://arxiv.org/abs/2610.16596) | 该论文提出了一个统一的深度学习框架，能够整合来自不同受试者和来源的异构EEG与iEEG信号进行模态无关的癫痫发作分类，突破了现有单模态系统的应用局限。 |
+| [^319] | [Who Sets the Pace of Judge Hacking? Judge Capability versus the Policy-Judge Gap](https://arxiv.org/abs/2610.15778) | 该研究发现强化学习“攻击评委”的深度由评委自身能力决定（与评委AUC呈负相关，系列内更大的评委更难被欺骗），而攻击速度反而与“策略-评委能力差距”的解释相矛盾——差距更大的组合被欺骗得更早，且所有组合均未带来真实的保留集准确率提升。 |
+| [^320] | [ProtoPur: Prototype-Purity Pseudo-Labeling for Weakly Supervised Instance Learning in Pathology](https://arxiv.org/abs/2610.15669) | 提出ProtoPur方法，通过基于冻结基础模型特征构建原型区域并估计类别平衡的局部纯度，为高纯度区域分配伪标签，从而实现病理全切片图像的弱监督实例级学习。 |
+| [^321] | [SuperAI: Merging Capabilities Across Heterogeneous Foundation Models](https://arxiv.org/abs/2610.15322) | 提出SuperAI跨架构多模型融合框架，利用共享锚点样本提取任务相关表示、PCA构建同维低维功能子空间，并通过正交Procrustes映射实现异构基础模型之间互补能力的融合迁移。 |
+| [^322] | [AlphaRLM: Aligning Language Models for Literature-Grounded Symbolic Factor Discovery](https://arxiv.org/abs/2610.14959) | AlphaRLM是一个强化学习框架，通过文献引导算子组装（LEGO）提供语义先验，并借助可执行有效性与分组收益分离等奖励将生成策略与市场反馈对齐，从而训练大语言模型直接从金融文献中构造可执行的符号化Alpha因子。 |
+| [^323] | [Strong Gaussian Approximation of Constant-Learning-Rate SGD: Bias and Trajectory Inference](https://arxiv.org/abs/2610.14567) | 本文为重尾噪声下的常学习率随机梯度下降建立了KMT型强高斯逼近，实现了有限样本下同时性的整个轨迹层面的推断，并蕴含泛函中心极限定理。 |
+| [^324] | [Natural Code Transformation Confuses Agents in Vulnerability Analysis](https://arxiv.org/abs/2610.14350) | 本文发现AI智能体在分析具有相同功能和相同漏洞的不同真实代码提交时会产出截然不同的结果，并据此提出从真实开发模式中挖掘自然且功能保持的代码变换，作为防御攻击者智能体的新手段。 |
+| [^325] | [MvFFN: Multi-view Floor plan Feed-forward Network for Unposed Wide-Baseline Panorama Layout Reconstruction](https://arxiv.org/abs/2610.14315) | 提出MvFFN网络，通过让每个全景图列仅局部预测所见墙体及顺时针相邻两堵墙，再由确定性聚合成全局户型图，实现无位姿宽基线全景图中相机位姿与布局的联合重建。 |
+| [^326] | [Hide and Seek: HIDE Concepts to SEEK explanations for black box models](https://arxiv.org/abs/2610.13935) | 提出了一种无需模型权重或概念标注数据集的黑盒视觉模型概念级归因方法HnS，通过视觉-语言模型检索概念相关图像、遮挡图像中的概念区域，并依据模型输出的变化来衡量该概念的归因贡献。 |
+| [^327] | [AI Models Can Provably Hide Arbitrary Capabilities](https://arxiv.org/abs/2610.13928) | 本文提出一种将加密神经网络嵌入模型权重的后门攻击方法，在密码学假设下可证明地隐藏任意能力，使现有能力评估手段难以引出或解读这些隐藏功能。 |
+| [^328] | [Human and LLM Facilitation in Collaborative Design Meetings: A Computational Behavioral Comparison](https://arxiv.org/abs/2610.13082) | 该研究基于AMI会议语料库199个配对情境，从五个维度对人类项目经理与Llama 3.1 8B在协作设计会议中的引导行为进行计算比较，发现人类引导在情境语义距离和共情/缓和语词汇密度上更高，且后者主要由缓和语词汇驱动。 |
+| [^329] | [Reinforcement Learning via Fixed-point Flow Matching](https://arxiv.org/abs/2610.12848) | 本文提出了一种无需数据的不动点流匹配（FFM）方法，通过将actor更新表述为不动点迭代、以critic的动作梯度作为回归目标，实现了强化学习中流策略的训练与微调。 |
+| [^330] | [HRIL: Learning Multimodal Synergy via Higher-Order Tensor Modeling](https://arxiv.org/abs/2610.12393) | 提出HRIL方法，通过在模态嵌入上构建经验交叉矩张量进行高阶张量建模，显式捕获体现为高阶统计依赖的多模态协同信息，从而在自监督多模态表示学习中保留协同信号的信息容量。 |
+| [^331] | [Automated Assembly Instruction Generation from CAD Models Using Grounded Large Language Models: A Human-in-the-Loop Framework](https://arxiv.org/abs/2610.11896) | 该论文提出一种人在回路的框架，将CAD装配模型映射为结构化的ProductGraph中间表示，利用大语言模型自动生成受工程信息约束的自然语言装配指令，并通过人工审核解决所有质量标记后才允许导出文档。 |
+| [^332] | [Do LLMs Learn from Rewards in Context? : Rethinking the role of reward in In-Context Reinforcement Learning](https://arxiv.org/abs/2610.11152) | 该研究通过受控实验发现，在大语言模型的直接上下文强化学习中，奖励信号虽然被读取却几乎不产生学习效果，而轨迹本身（即使语义被打乱或损坏）才是驱动上下文改进的关键，从而挑战了上下文学习真正实现强化学习的假设。 |
+| [^333] | [NOMOS: Compiling Written Policies into Statically Verified Tool-Call Gates for LLM Agents](https://arxiv.org/abs/2610.11030) | NOMOS是一个四遍编译器，可将自然语言策略编译为经过静态验证的确定性工具调用门控，将LLM代理在状态变更调用中的策略违规率从66.3%降至2.6%。 |
+| [^334] | [Sharp Asymptotic Theory of Maximum Likelihood Estimation for Gaussian Processes with an RBF Kernel](https://arxiv.org/abs/2610.10080) | 本文针对基于RBF核的高斯过程，在固定域渐近框架下建立了极大似然估计的精确渐近理论，攻克了密集采样强相关性与协方差矩阵非线性依赖带来的长期理论难题。 |
+| [^335] | [Immiscible Diffusion Policy: Preserving Multimodal Robot Actions through Label-Free Noise Assignment](https://arxiv.org/abs/2610.09369) | 提出互不相溶扩散策略，一种无需标签的训练时噪声分配方法，通过保持噪声到动作路径的相对分离，防止扩散策略在低维机器人动作空间中坍缩为单一模态，从而保留多模态动作分布。 |
+| [^336] | [Steering Diffusion Models to Rare Events with Sequential Monte Carlo](https://arxiv.org/abs/2610.08652) | 本文提出DireSMC，一种序列蒙特卡洛方法，通过引导加权样本群体趋向扩散模型中的稀有事件，不仅能生成稀有事件样本，还能给出其概率的校准估计，并可轻松扩展到各类用户自定义稀有事件。 |
+| [^337] | [ProximalFM: Amortized Proximal Causal Inference under Hidden Confounding](https://arxiv.org/abs/2610.08078) | 该论文提出ProximalFM，利用先验数据拟合网络（PFN）以摊销式贝叶斯方法在隐藏混杂下进行近端因果推断，通过先验正则化缓解了非参数近端估计中病态积分方程的数据饥渴、超参数敏感和优化不稳定等问题。 |
+| [^338] | [Self-Retrospection Distillation: Turning Post-hoc Experiences into Prior Foresight](https://arxiv.org/abs/2610.08077) | 该论文提出前瞻学习与自我回溯蒸馏方法，将已完成的轨迹作为特权后见之明，蒸馏为同一策略在交互前的轨迹无关的预见性预测，从而在组相对奖励信号消失时仍能从经验中有效学习。 |
+| [^339] | [Lost in the bf16 Cast: Exporting Ternary Language Models Can Revert Most Low-Learning-Rate Code Changes](https://arxiv.org/abs/2610.07853) | 该研究审计发现，三值语言模型导出流程中先将潜在权重转换为bf16，会在阈值处因“舍入到偶数”规则被错误映射为零，导致Falcon-E-1B-Base部署后GSM8K准确率从58.79%暴跌至0.78%，几乎抹去了低学习率微调带来的改进。 |
+| [^340] | [EMG-FM-Bench: A Comprehensive Benchmark for Foundation Model Transfer and Adaptation on Electromyography](https://arxiv.org/abs/2610.06450) | 该论文提出了EMG-FM-Bench，一个整合20个公开数据集（超100万个EMG片段）、系统评估九个预训练基础模型在肌电信号上迁移与适配能力的综合基准，全面回答了冻结与微调、预训练收益、少样本新用户泛化及跨任务性能等关键问题。 |
+| [^341] | [Langevin Flow Maps: Efficient Molecular Dynamics and Transition Path Sampling](https://arxiv.org/abs/2610.05998) | 提出朗之万流映射，通过扩展机器学习力场以额外学习随机朗之万积分器，实现大时间步长的高效分子动力学模拟，在准确恢复系统动力学性质的同时速度提升一个数量级，并展示了向可迁移模型发展的路径。 |
+| [^342] | [From Mixing to Tearing: Graph Decomposition in Decentralized Optimization via Message Passing](https://arxiv.org/abs/2610.03709) | 该论文从第一性原理出发提出了一种基于图分解的去中心化优化通用框架，通过消息传递联合设计优化子问题、对偶变量分块和协作求解的智能体集群，突破了传统仅利用网络混合信息的范式。 |
+| [^343] | [The Neuro-Physical Inverter: A Modular Framework for Magnetotelluric Inversion Coupling Ensemble Conditioning with Residual Learning](https://arxiv.org/abs/2610.03225) | 提出了一种模块化的神经物理反演器（NPI）框架，通过将集成条件高斯过程与残差学习神经网络相结合，实现了具备不确定性量化能力的大地电磁反演，在不破坏集成稳定性的情况下系统性降低误差。 |
+| [^344] | [Predictively Oriented Gaussian Process Posteriors](https://arxiv.org/abs/2610.03201) | 提出预测导向高斯过程（PrO-GPs），将预测不确定性作为主要推断目标，在模型错误设定下比标准高斯过程产生校准更好的预测分布。 |
+| [^345] | [Efficient Memory Crystallization for Graph Learning under Non-Stationary Distribution Shifts](https://arxiv.org/abs/2610.02795) | 该论文提出了一种无需训练的测试时框架EMC，通过闭式解将每个新到来的图域高效地“结晶”为紧凑且语义忠实的记忆，以低成本替代生成式记忆方案，从而应对图学习中的持续分布偏移。 |
+| [^346] | [Imagine the Future, Internalize the Gist: Efficient VLA Reasoning via Internalized Spatiotemporal Imagination](https://arxiv.org/abs/2610.02626) | 提出IG-VLA框架，通过在视觉表征空间中直接想象任务相关的未来场景演变，并将其内化为紧凑的场景要旨标记，使VLA模型在推理时无需昂贵的显式未来推演即可获得未来推理带来的动作预测增益，实现高效的机器人操作。 |
+| [^347] | [Participation-Sensitive Convergence and the Fragment First, Converge Later Pattern in Asynchronous Online Learning: A Topological Analysis Across 22 OULAD Courses](https://arxiv.org/abs/2610.01738) | 该研究基于22门OULAD课程（超22,000名学习者）的拓扑分析发现，Zigzag持续同调的β0是参与敏感指标，它与活跃学习者人数共同响应截止日期事件，且截止日期在82.6%的评估中引发“先分裂、后收敛”的群体行为模式。 |
+| [^348] | [The Teacher Is a Direction, Not a Destination: Extrapolating RL-Induced Representation Residuals in On-Policy Distillation](https://arxiv.org/abs/2609.36484) | 提出RIDE方法，通过在每一层外推强化学习引起的内部表征偏移方向（而非在输出空间外推隐式奖励），克服语言模型头的各向异性衰减与噪声放大问题，使学生模型在在线策略蒸馏中稳定地超越教师。 |
+| [^349] | [NeuronSifter: Intervention Planning in CNS Microenvironments](https://arxiv.org/abs/2609.35445) | NeuronSifter 的核心创新在于将决策质量构建于干预接口本身：它把给药方案编译为状态条件下的靶点占据场，用占据条件扩散算子在微环境动力学中传播，并依据干预损失的期望下降来选择测量手段，同时将不同类型的观测结果同化到同一后验分布中。 |
+| [^350] | [NeuronDiscover: Agent-in-Twin for Mechanistic Discovery in Neuronal Microenvironments with World Action Models](https://arxiv.org/abs/2609.35338) | NeuronDiscover 提出“孪生体中智能体”框架，以机制为基础的世界动作模型统一耦合预测、干预提议与观测设计，并对“孪生混淆”进行形式化、对机制—偏差联合信念进行实验设计，从而在稀疏观测下区分真实机制变化与计算孪生体误差，实现神经元微环境的自动化机制发现。 |
+| [^351] | [Deep kernel hedging](https://arxiv.org/abs/2609.34474) | 该论文提出了一种深度核对冲框架，通过神经网络参数化核函数并结合广义表示定理与随机傅里叶特征近似，实现了可处理路径依赖信息的可扩展、高效金融对冲。 |
+| [^352] | [The Statistical Benefits of Multiple Responses for Learning from Demonstrations](https://arxiv.org/abs/2609.33291) | 当示范者并非最优时，返回多个候选响应（pass@$k$）能带来更强的统计优势——将最坏情况下对目标精度的依赖从 $1/\varepsilon^2$ 改善为 $1/\varepsilon$，并将对奖励类大小的依赖从 $\log N$ 改善为 $\log N/\log k$。 |
+| [^353] | [PrismQuant: Optimal Null-Space Rotations for Grouped Quantizers](https://arxiv.org/abs/2609.32429) | PrismQuant提出了一种量化器感知的旋转框架，通过将旋转设计表述为Ky Fan迹最大化并推导出可证明最优的闭式解，将激活主特征空间与非对称分组INT4量化的常数组子空间精确对齐，从而在不扩大组内数值范围的前提下提升低比特量化效果。 |
+| [^354] | [TimeES: Probabilistic and Deterministic Time Series Forecasting via Evolutionary Spectra](https://arxiv.org/abs/2609.32384) | 提出TimeES框架，基于演化谱理论显式建模傅里叶谱中的演变与随机性，将非平稳随机过程建模转化为学习由随机变量调制的演化表示，并利用厄米对称性将谱估计复杂度从O(NM)降至O(NK)，从而实现对非平稳时间序列的概率性与确定性预测。 |
+| [^355] | [DiffPTS: Rethinking Diffusion ELBO for Probabilistic Time Series Forecasting](https://arxiv.org/abs/2609.32363) | 本文通过在位置-尺度噪声模型下重新推导扩散模型的证据下界（ELBO），提出了 DiffPTS，将估计器的训练与变分推断统一为一个自然的联合训练目标，从而改进概率时间序列预测。 |
+| [^356] | [Learning Provable Neural Network Observer for Uncertain Dynamical Systems](https://arxiv.org/abs/2609.30819) | 提出了一种两阶段训练框架（点引导李雅普诺夫预训练加LMI微调），为不确定动态系统的神经网络观测器实现了可证明的全局李雅普诺夫稳定性，同时克服了传统LMI方法带来的大规模半定规划可扩展性瓶颈。 |
+| [^357] | [A Computational Framework for Modelling Organisation-Level Semantic Identity from Longitudinal Textual Data](https://arxiv.org/abs/2609.29584) | 该论文提出了一个统一的计算框架，首次将组织级语义身份建模为可解释且随时间演化的语义构建，整合了语义表示学习、图语义建模、组织语义指纹、时序演化分析与证据驱动验证。 |
+| [^358] | [Memory Attention](https://arxiv.org/abs/2609.28399) | 提出记忆注意力，用可复用的词元记忆与上下文键结合构建注意力值，推理时可简化为查表加法并支持CPU卸载，在相同训练预算下提升了语言建模和下游任务性能。 |
+| [^359] | [hyperbolix: Hyperbolic Deep Learning in JAX](https://arxiv.org/abs/2609.28248) | 该论文提出了 hyperbolix，首个基于 JAX 与 Flax NNX 构建的全面、通用的开源双曲深度学习库，提供六种统一接口的流形、覆盖各类双曲神经网络层族以及黎曼优化器和降维工具。 |
+| [^360] | [EduBehaviors: Assertion-based Schemas for Auditable Coding of Educational Dialogues](https://arxiv.org/abs/2609.27043) | 提出了EduBehaviors框架，利用大语言模型测量教育对话中重复出现的可观察行为并据此学习分类器，实现了可解释、可审计的教育对话标注，其性能与直接提示方法相当。 |
+| [^361] | [Every Fixed Metric Has a Blind Spot: A Learned Atmospheric Critic for Scoring Forecast Realism](https://arxiv.org/abs/2609.18381) | 该论文提出通过训练判别器来生成类似散度的真实性评分，能够自适应地检测天气预报模型表现出的任何失败模式，从而克服固定指标存在的盲区。 |
+| [^362] | [A Unified and Constrained View of Regularization-Based Robust Reinforcement Learning](https://arxiv.org/abs/2609.13050) | 该论文通过推导性能差距上界统一了基于正则化的鲁棒强化学习方法，将鲁棒训练表述为约束优化问题，并通过联合更新拉格朗日乘子自动调整正则化权重以提升鲁棒性。 |
+| [^363] | [Relatively Smart II: Tractable or Semi-Supervised Instance-Optimal Learning](https://arxiv.org/abs/2609.10886) | 本文证明ERM乃至任何正规一致学习器在无分布二分类中都是相对智能的，从而解决了此前留下的开放问题，即自然的可处理学习器能否达到与单包含图学习器可比的保证。 |
+| [^364] | [Multi-Level-Set-Based Physics-Driven Neural Network to Solve 3-D Inverse Scattering Problems](https://arxiv.org/abs/2609.08594) | 本文提出基于多水平集的物理驱动神经网络（LSPDNN），利用软并集多材料模型将目标支撑域与材料分布分离描述，并结合作用于材料区域指示器的模型一致TV正则化，有效缓解了三维电磁逆散射重建中的边界模糊与伪影问题。 |
+| [^365] | [Rethinking One-Shot Federated Graph Learning: Training-Free Statistical Estimation](https://arxiv.org/abs/2609.06154) | 该论文提出免训练框架SPEAR，将单轮联邦图学习重新表述为统计估计问题，通过计算拓扑平滑的类别原型并使用样本量自适应的收缩估计器进行聚合，有效解决了极端非独立同分布条件下本地GNN训练导致的跨客户端表示不对齐问题。 |
+| [^366] | [When Genomic Masking Priors Fail to Transfer: Strong Variant Prediction, Weak Functional Generation](https://arxiv.org/abs/2609.04861) | GenDA双向扩散模型在变异效应预测上虽超越同规模自回归模型，但熵引导策略对性能提升并无实际贡献，且模型在零样本功能序列填充生成任务上失败，表明基因组掩码先验能很好地迁移到变异预测、却难以迁移到功能生成。 |
+| [^367] | [Diffusion as a Training Curriculum for Timestep-Free Iterative Reasoning](https://arxiv.org/abs/2609.01449) | 该论文将扩散去噪器改造为带持久隐藏状态且无时间步条件的通用迭代更新，构建出可随推理深度不断提升准确率的随时求解器，并通过推理时持续注入高斯噪声实现单轨迹高效探索解空间，在极限数独上达到99.90%的精确求解率。 |
+| [^368] | [LLMs Can Design Near-Optimal OR Algorithms](https://arxiv.org/abs/2608.27296) | 大语言模型（如gpt-5.6-sol）能够仅凭少量提示和固定计算资源，自动设计出在库存控制、排队网络和分类优化等问题上匹配或超越现有最佳方法的近乎最优运筹学算法。 |
+| [^369] | [Mechanistic Circuit Identification for Controllable Data Generation](https://arxiv.org/abs/2608.24065) | 本文提出了一种基于电路识别的框架，通过连接数据估值与机制可解释性，实现可控数据生成，并引入SAMS调度器以优化效用目标数据产出。 |
+| [^370] | [Physics-Integrated Operator Learning via Gaussian Splatting Representations](https://arxiv.org/abs/2608.24049) | 本文提出一种表示级物理集成方法，通过前馈高斯喷溅表示将连续高斯场与闭式导数结合，直接嵌入PDE算子于学习演化中，避免优化困难并提升长期预测精度。 |
+| [^371] | [Detecting and Discriminating Operator Misspecification in Hybrid PDE-Parameter Learning: a Reference-Free Instrument, with Discrimination Bounded In Sample](https://arxiv.org/abs/2608.16925) | 本文提出一种无需参考信息的统计工具，通过单次拟合即可区分混合PDE参数学习中的算子误设定与参数不可识别问题，并证明了样本内判别能力有界。 |
+| [^372] | [Equilibrium Forcing: Adaptive Video Generation Without Noise Conditioning](https://arxiv.org/abs/2608.14706) | 本文提出平衡力迫（EqF）框架，通过去除噪声水平条件化并解耦去噪与采样，实现了自适应闭环推理，显著提升了自回归视频生成的质量和一致性。 |
+| [^373] | [Uncertainty-Aware Probabilistic Constrained Clustering from Entangled Pairwise Supervision](https://arxiv.org/abs/2608.12027) | 本文提出了一种不确定性感知的概率约束聚类方法，通过角度成对目标和估计-校正-集成框架，有效处理现实中的软性、纠缠成对监督，提高了聚类性能。 |
+| [^374] | [Rubric Dropout: A Simple Way to Mitigate Reward Hacking in Rubric-as-Reward RL](https://arxiv.org/abs/2608.11669) | 本文提出一种简单方法（Rubric Dropout）来缓解基于评分标准的强化学习中的奖励黑客问题，并通过实验证实训练评判员与黄金评判员分数在训练中分化的现象，为提升模型鲁棒性提供新思路。 |
+| [^375] | [FACT: Failure-Aware Causal Training for World-Action Models](https://arxiv.org/abs/2608.10232) | FACT提出了一种失败感知的因果训练方法，让世界-动作模型以执行动作为条件预测未来视频和任务进度，从而利用失败轨迹监督动作后果，将失败数据转化为有效的训练信号而非被丢弃。 |
+| [^376] | [Comparing SGLD and a fixed-noise predictor-corrector adaptation in canonical joint energy-based models on CIFAR-10](https://arxiv.org/abs/2608.05025) | 该论文系统复现了经典联合能量模型（JEM），并首次检验了用固定噪声预测-校正采样器替代SGLD的效果，结果显示其分类性能接近经典方法但生成质量略有差距，同时记录了两种失败模式。 |
+| [^377] | [SPARK: Learning from Verification in Speculative GRPO Rollouts](https://arxiv.org/abs/2608.04962) | 提出SPARK，一种轻量级自适应机制，利用目标模型的验证反馈在推测性GRPO训练的采样过程中实时修正草稿模型的预测遗漏，从而提升训练效率。 |
+| [^378] | [Surrogate Substitution Preserves PHI Detectability: A Multi-Detector Equivalence Study](https://arxiv.org/abs/2608.03172) | 本文提出了一种成对多检测器评估协议，通过等价性检验和仅在掩盖跨度上评分，验证结构保留的PHI替代物能否被下游检测器可靠识别，并区分生成器缺陷与检测器固有局限。 |
+| [^379] | [QASP: Query-Adaptive Robust Vector Search Policy](https://arxiv.org/abs/2607.29606) | QASP通过单次预先监督回归预测每个查询的完整召回率进展曲线，从而为任意召回率目标推导出自适应搜索策略，在跨目标、索引配置和数据集泛化的同时兼顾高召回率与低计算成本。 |
+| [^380] | [The Zero Pattern of a Design Matrix Drives Multiple Descent in Over-parameterized Regression](https://arxiv.org/abs/2607.24041) | 本文放宽了过参数化线性回归中协变量独立且协方差矩阵非退化的假设，证明协方差退化与变量相关性会引发多重下降现象，并借助二部图的最大匹配和Dulmage-Mendelsohn分解精确定位了风险峰值出现的位置。 |
+| [^381] | [Hopformer: Homogeneity-Pursuit Transformer for Time Series Forecasting](https://arxiv.org/abs/2607.22299) | Hopformer提出两阶段时间序列预测框架，先通过稀疏模式聚合（SPA）提取融合协变量的共同低方差趋势作为同质化层，再用LoRA微调的Transformer建模残差中的复杂依赖，在理论上证明了近最优偏差-方差权衡与泛化界，在多个基准上平均提升MASE 6.56%。 |
+| [^382] | [Inpainting Insights: Elevating Visual XAI with Photorealistic Perturbations](https://arxiv.org/abs/2607.15482) | 该论文改进了广泛使用的基于扰动的方法LIME，利用生成式图像修复技术生成照片级逼真的扰动样本，解决了传统扰动方法产生不真实分布外样本和可见伪影的问题，从而提升视觉XAI的图像解释质量。 |
+| [^383] | [Gauge-Invariant, Parameter-Insensitive Regularization for Potential Recovery from Flow on Directed Graphs](https://arxiv.org/abs/2607.13609) | 该论文提出用规范不变的图狄利克雷能量替代岭正则化，从有向图流数据中恢复势能，解决了岭正则化导致的排序反转问题，并实现了跨λ四个数量级的参数不敏感性。 |
+| [^384] | [Adapting Generalist Vehicle Models for High-Speed MPC Across Terrains](https://arxiv.org/abs/2607.13319) | OptCar提出了一种基于FiLM条件化transformer的FKD架构，仅需有限真实世界数据即可将通用车辆动力学基础模型专业化为特定车辆的专用模型，在保持跨地形泛化能力的同时实现跨地形高速MPC精确控制。 |
+| [^385] | [AdaPCLA: Adaptive Prior-Calibrated Logit Adjustment for Long-Tailed Longitudinal EHR Generation](https://arxiv.org/abs/2607.12645) | 提出AdaPCLA框架，通过数据分布感知的模拟退火训练将先验知识内化到生成模型中，并结合零样本分布控制实现无需训练即可适应多样化临床人群的长尾纵向电子健康记录生成。 |
+| [^386] | [tidyHEBO: Robust General-Purpose Bayesian Optimization with Model-Consistent Warping and Pareto Search](https://arxiv.org/abs/2607.10669) | tidyHEBO 是一个 BoTorch 原生的通用贝叶斯优化器，通过将 Yeo-Johnson 输出变换与高斯过程代理模型联合拟合、在原始目标尺度上评估采集函数并执行多准则累积帕累托搜索，在无需任何基准特定调优的情况下于 Olympus 基准上排名第一。 |
+| [^387] | [Does Depth Survive Composition, and Can a Router Use It? Adaptive Compute in Latent World Models](https://arxiv.org/abs/2607.10203) | 该论文通过在九个 DeepMind Control 任务上测试十二模块早退潜在世界模型发现，“更深预测器更准确”的假设在部分任务上不成立且多步复合会改变深度-误差关系，尽管逐步选择深度的贪婪 oracle 可将 rollout 误差降低 10-37%，但训练出的所有路由器均无法捕捉这种深度选择收益。 |
+| [^388] | [Correlation-Aware Contextual Bandits with Surrogate Rewards for LLM Routing](https://arxiv.org/abs/2607.09015) | 该论文提出了面向大语言模型路由的相关性感知上下文多臂老虎机算法，通过耦合奖励混合与解耦预测混合两种互补设计利用可能不可靠的代理奖励信号，在加速学习的同时对代理信号错误设定保持鲁棒性。 |
+| [^389] | [RhyMix: A Lightweight Adaptive Multi-Rhythm Network for Long-Term Time Series Forecasting](https://arxiv.org/abs/2607.08234) | RhyMix提出了一种轻量级的并行双路径混合神经架构，通过带可学习循环嵌入的循环路径与自适应门控机制，同时捕获时间序列中的季节周期、短期波动和长期趋势等多种模式，从而提升长期时间序列预测性能。 |
+| [^390] | [CausalDS: Benchmarking Causal Reasoning in Data-Science Agents](https://arxiv.org/abs/2607.08093) | 该论文提出CausalDS基准，通过系统性地生成结构因果模型、对应的观测数据以及基于真实领域的自然语言场景，填补了现有基准在评估数据科学智能体因果推理能力方面的空白。 |
+| [^391] | [What Does a Discrete Diffusion Model Learn? One Reverse Process in Three Coordinates](https://arxiv.org/abs/2607.05381) | 本文证明离散扩散模型中的去噪器、桥接插件和具体分数三种方法学习的其实是同一对象——加噪过程的精确时间反演，只是处于三种不同坐标系，并给出 Oracle Distance 恒等式（负 ELBO 等于数据熵加路径 KL 散度）及三种坐标间的精确转换。 |
+| [^392] | [Platonic Projection Structures: Operator-Induced Observability in Representation Learning](https://arxiv.org/abs/2607.05175) | 该论文提出柏拉图投影结构（PPS）这一算子理论框架，通过自伴半正定观测算子与商几何 $H/\ker(\Pi)$ 来刻画部分观测下表示学习的可观测性，并揭示量子测量与线性观测下的表示推断共享同一算子理论结构。 |
+| [^393] | [LIME: Learning Intent-aware Camera Motion from Egocentric Video](https://arxiv.org/abs/2607.02417) | 该论文首次将视觉-语言条件下的相机运动生成形式化为独立任务，并提出通过事后标注从自我中心视频中挖掘多意图监督数据的方法，使机器人能够根据自然语言意图预测相机运动。 |
+| [^394] | [Self-Organized Conformal Prediction: Reducing Regional Coverage Gaps with Unsupervised Group Discovery](https://arxiv.org/abs/2606.29403) | 提出自组织保形预测（SOCP），利用无需校准标签的无监督自组织映射（SOM）发现输入空间分组并从中提取校准缓冲，在预测器和非一致性分数保持不变的前提下实现精确的条件覆盖有效性，从而减少特征空间异质区域的覆盖差距。 |
+| [^395] | [Blackknife: Query-Free Black-Box Rewiring Attacks on Heterogeneous Graph Neural Networks](https://arxiv.org/abs/2606.29240) | Blackknife提出了一种免查询的严格黑盒攻击方法，仅通过观测一跳结构和保持度数不变的边重连操作，即可有效规避异构图神经网络的防御。 |
+| [^396] | [From Clicks to Intent: Cross-Platform Session Embeddings with LLM-Distilled Taxonomy for Financial Services Recommendations](https://arxiv.org/abs/2606.26277) | 本文提出了一种利用大语言模型提炼的分类法来生成跨平台会话嵌入，从而在金融服务推荐中实现从网页点击到用户意图的预测，并支持定量推荐与定性理解的双重目标。 |
+| [^397] | [Geological text descriptions in ill-posed inverse problems: insights from learned hydraulic-conductivity inversion](https://arxiv.org/abs/2606.24967) | 该研究通过合成达西流基准系统考察了地质文本描述在学习型渗透系数反演中的作用，发现当观测存在结构歧义时描述能改善重建，实例特定内容尤为有效，且求解器会依据描述所述的几何信息偏移重建结果，但随着观测信息量增大，描述的影响会减弱。 |
+| [^398] | [X-Safe: Embodiment-Agnostic Safeguarding for Robot Arm Manipulation Policies via Action Masking](https://arxiv.org/abs/2606.22278) | X-Safe提出了一种与机器人本体无关的安全保障方法，通过在构型空间中对当前构型进行局部推理建立安全区域，并利用动作掩码将策略动作限制在安全区域内，从而在无需模型简化或学习型安全函数的情况下，为机械臂操作策略提供形式化的防碰撞概率保证。 |
+| [^399] | [PoLAR: Factorizing Extent and Mode in Latent Actions for Robot Policy Learning](https://arxiv.org/abs/2606.21139) | PoLAR 通过在潜在动作空间中引入极坐标径向结构（半径编码动作幅度、方向编码动作模式），并借助双曲空间与观测时间偏移作为约束，使机器人策略更容易将潜在动作解码为实际的机器人动作。 |
+| [^400] | [HiMPO: Hindsight-Informed Memory Policy Optimization for Less-Entangled Credit in Long-Horizon Agents](https://arxiv.org/abs/2606.16285) | HiMPO框架将后见相关性作为有界回溯过滤器，为长时程智能体的记忆写入动作分配与下游工具故障等因素解耦的低纠缠信用，并仅对记忆token应用记忆特定优势进行优化。 |
+| [^401] | [Driving, Fast or Slow? Neuro-Symbolic Guidance for Motion Prediction in Multi-Modal Ground Mobility](https://arxiv.org/abs/2606.15251) | 提出了TraCS神经符号框架，通过代理式代码生成将自然语言交通法规转化为可解释的概率一阶逻辑约束，并利用响应式数据流推理引擎实时更新合规性图景，从而增强黑盒运动预测模型在异构交通环境中的可解释性与安全性。 |
+| [^402] | [A Unifying Framework for Concept-Based Representational Similarity](https://arxiv.org/abs/2606.09653) | 提出了一个基于概念的表征相似性统一框架，沿“对齐对象”与“对齐层级”两个轴分解concept对齐问题，并引入基于干预的基准InterVenchA，分别测量提取质量、translation质量与concept一致性，且与人类感知进行对照验证。 |
+| [^403] | [AgentWorld: A Data Factory for Training LLM Agents from Multi-Turn Interactions](https://arxiv.org/abs/2606.09138) | AgentWorld是一个数据工厂，通过API代理网关捕获异构智能体运行时的多轮交互，并将其转化为标准化、高质量的结构化训练数据，为LLM智能体训练提供从交互收集到训练消费的统一数据生命周期。 |
+| [^404] | [Activation Steering Induces Emergent Misalignment: Steering Vector Construction and Comprehensive Evaluation](https://arxiv.org/abs/2606.08682) | 该论文通过系统构建引导向量并综合评估，首次证实激活引导技术可以从狭窄任务出发，在大语言模型中诱发跨广泛无关领域的涌现性失调，揭示了这一流行推理时调节技术的潜在安全风险。 |
+| [^405] | [HARP: Efficient Data Selection for Finetuning Large Language Models](https://arxiv.org/abs/2606.07690) | 提出了一种基于训练的高效数据选择方法HARP，它将训练数据组织为层次结构、仅评估代表性子集并用经验贝叶斯后验推断其余数据的效用，配合互补的冗余控制与加性选择策略，在大幅降低选择成本的同时保持下游任务对齐效果。 |
+| [^406] | [STREAM: Stochastic Riemannian Flow Matching with Anisotropic Decoder for Digital Histopathology Image Generation](https://arxiv.org/abs/2606.07036) | 提出STREAM框架，首次在数字病理组织学图像生成中应用黎曼流匹配，直接以病理学视觉基础模型patch token所在的单位超球面作为潜在空间并配合各向异性解码器，克服了现有方法中条件信号主导多样性、导致生成多样性不足的问题。 |
+| [^407] | [Memory by Design: Probabilistic Sequence Layers](https://arxiv.org/abs/2605.31163) | 本文提出了一种设计模型框架，通过贝叶斯滤波和协方差传播统一多种次二次递归序列层，并恢复协方差传播以增强记忆保留和检索。 |
+| [^408] | [Subspace-Decomposed JEPAs: Disentangling Progression and Content in Latent World Models](https://arxiv.org/abs/2605.31111) | SD-JEPA将JEPA潜在空间分解为正交的进展子空间和内容子空间，使两种防坍缩力量在不相交的坐标上加性组合而非相互竞争，从而在多个控制基准上提升了世界模型性能。 |
+| [^409] | [Unification and Optimization of Robust Supervised Learning](https://arxiv.org/abs/2605.28165) | 该论文提出了一个统一框架，将分布鲁棒优化、Mixup、标签平滑等鲁棒学习方法纳入同一表述体系，明确了各方法间的冗余或互补关系，并推导出将设计选择转化为可调超参数的实用训练过程。 |
+| [^410] | [A Simple Plug-in for Improving Eviction-Based KV Cache Compression](https://arxiv.org/abs/2605.23258) | VECTOR是一种即插即用插件，通过引入“保留-近似-逐出”三路token路由机制，并结合离线校准的可重构性信号，恢复了原本会被二元逐出不可逆丢失的值信息，从而显著提升基于逐出的KV缓存压缩方法在长上下文推理中的性能。 |
+| [^411] | [A finite-element-inspired bipartite graph learned simulator for manufacturability assessment in large-deformation sheet forming](https://arxiv.org/abs/2605.22845) | 该论文提出CAtt-BiGNN，一种基于交叉注意力的二部图神经网络，通过模拟显式有限元中节点运动学与单元变形的耦合更新机制，实现大变形板料成形可制造性的高效评估。 |
+| [^412] | [OScaR: The Occam's Razor for Extreme KV Cache Quantization in LLMs and Beyond](https://arxiv.org/abs/2605.19660) | 该论文识别出Token范数不平衡（TNI）是极端压缩下KV缓存逐通道量化保真度的主要瓶颈，并提出了一种精确且轻量的量化方法OScaR，无需复杂的量化流水线即可实现高保真KV缓存压缩。 |
+| [^413] | [MOCHA: Multi-Objective Chebyshev Annealing for Agent Skill Optimization](https://arxiv.org/abs/2605.19330) | 提出 MOCHA 方法，通过切比雪夫标量化选择改进对象并以扩展帕累托前沿为接受准则，从探索退火到利用，实现智能体技能在准确性与上下文经济性之间的多目标优化，克服了现有单分数提示词优化器易停滞的问题。 |
+| [^414] | [BrainDyn: A Sheaf Neural ODE for Forecasting and Generating Brain Dynamics](https://arxiv.org/abs/2605.19324) | BrainDyn 提出了一种基于胞腔层束的图神经 ODE 网络，通过根据预测上下文窗口动态重算的限制映射来建模脑区之间异质的通信方式，从而实现对大脑动力学的预测与生成。 |
+| [^415] | [How Far Are We From True Auto-Research?](https://arxiv.org/abs/2605.19156) | 该研究提出ResearchArena评测框架，让现成智能体在轻量指导下自主完成从构思到写作的完整科研闭环，并通过仅稿件审稿、感知产物同行评审和人类元评审三种互补视角，系统评估了117篇智能体生成论文的真实质量，发现仅看稿件时结果乐观，凸显了更全面评估自动化研究成果的必要性。 |
+| [^416] | [Symmetry-Compatible Principle for Optimizer Design: Embeddings, LM Heads, SwiGLU MLPs, and MoE Routers](https://arxiv.org/abs/2605.18106) | 该论文提出优化器设计的对称兼容原则——梯度更新规则应在权重块的对称群下保持等变，据此统一了双正交等变更新方法，并为嵌入层、语言模型输出头、SwiGLU MLP和MoE路由器等结构推导出对称兼容的优化器。 |
+| [^417] | [When and Why Adversarial Training Improves PINNs: A Neural Tangent Kernel Perspective](https://arxiv.org/abs/2605.15959) | 本文基于神经正切核（NTK）视角提出了一个新的分析框架，揭示了GAN判别器如何影响PINNs训练动力学，从而解释了对抗训练何时及为何有效，并据此提出了一种实用高效的PINNs训练算法。 |
+| [^418] | [Njord: A Probabilistic Graph Neural Network for Ensemble Ocean Forecasting](https://arxiv.org/abs/2605.15470) | Njord是一个将深度潜变量框架与图神经网络相结合的概率性海洋预报模型，通过自适应不规则海面几何的K-means聚类网格实现全球0.25°和波罗的海2公里分辨率的预报，在单次前向传播中即可采样集合预报，性能超越确定性机器学习基线并提供不确定性估计。 |
+| [^419] | [GQLA: Group-Query Latent Attention for Hardware-Adaptive Decoding](https://arxiv.org/abs/2605.15250) | 该论文提出分组查询潜在注意力（GQLA），通过组共享投影使同一权重即可支持MQA吸收式与GQA两种解码路径，从而根据GPU计算带宽比和张量并行度自适应选择最优推理方式，并能零梯度转换现有MLA/GQA模型检查点。 |
+| [^420] | [Learning, Fast and Slow: Towards LLMs That Adapt Continually](https://arxiv.org/abs/2605.12484) | 受人类多时间尺度学习机制启发，提出了一种快-慢学习框架，以模型参数作为“慢”权重、优化上下文作为“快”权重，使大语言模型既能通过文本反馈快速适应特定任务，又能避免灾难性遗忘并保持通用推理能力。 |
+| [^421] | [A proximal gradient algorithm for composite log-concave sampling](https://arxiv.org/abs/2605.12461) | 提出了一种针对复合对数凹分布的近端梯度采样算法，通过结合 $f$ 的梯度评估与 $g$ 的受限高斯预言机，在 $f+g$ 为 $\alpha$-凸且 $f$ 为 $\beta$-光滑的条件下，以 $\widetilde{\mathcal{O}}(\kappa \sqrt d \log^4(1/\varepsilon))$ 次预言机调用实现总变差距离下 $\varepsilon$ 精度的采样，匹配了 $g=0$ 情形下的最优结果。 |
+| [^422] | [Split the Differences, Pool the Rest: Provably Efficient Multi-Objective Imitation](https://arxiv.org/abs/2605.12000) | 提出多输出增强行为克隆（MA-BC）算法，通过划分冲突专家数据并汇集无冲突的状态-动作对，以更快的统计速率收敛到帕累托最优策略，并达到极小极大最优。 |
+| [^423] | [LEAP: Unlocking dLLM Parallelism via Lookahead Early-Convergence Token Detection](https://arxiv.org/abs/2605.10980) | 提出LEAP，一种无需训练、即插即用的方法，通过前瞻性检测在去噪早期已收敛的token，突破现有置信度阈值的保守限制，从而显著加速扩散语言模型的并行解码。 |
+| [^424] | [TIDES: Implicit Time-Awareness in Selective State Space Models](https://arxiv.org/abs/2605.09742) | TIDES 提出了一种选择性状态空间模型变体，通过将输入依赖性从离散化步长转移到对角状态矩阵，在原生处理不规则时间戳的同时保留了逐词符表达能力。 |
+| [^425] | [TabFORGE: A Tabular Foundation Model for Generative Modelling](https://arxiv.org/abs/2605.09424) | 提出了TabFORGE——一个基于预训练表格基础生成表示的新型表格基础模型，通过更好地对齐表格数据的特征间依赖结构，显著提升生成式表格建模的合成数据质量。 |
+| [^426] | [Generative Actor-Critic with Soft Bridge Policies](https://arxiv.org/abs/2605.08733) | 提出SoftGAC软生成式行动者-评论家算法，利用软桥接策略在单次网络评估内生成动作并提供可处理的软目标，同时解决了生成式策略训练中边际动作密度不可得和迭代采样推理与内存开销大的两大障碍。 |
+| [^427] | [Attention Transfer Is Not Universally Effective for Vision Transformers](https://arxiv.org/abs/2605.07191) | 本研究通过对来自11个ViT家族的20个教师模型进行系统基准测试，发现注意力迁移并非普遍有效——其中4个ViT家族的注意力迁移持续失败且性能低于从零训练的基线，且该失败在不同模型规模、训练时长、数据集和分布外评估下均保持一致，其根源被定位在注意力路由通道。 |
+| [^428] | [From Causal Graphs to Markovian States: Multi-Order State Exposure for Deep RL](https://arxiv.org/abs/2605.07057) | 提出MOSE方法，将单个共享Q函数同时暴露于1到W阶基于历史的状态构造，解决了如何从纵向因果图构造可证明满足马尔可夫性质的最小状态这一根本问题。 |
+| [^429] | [Medical Imaging Classification with Cold-Atom Reservoir Computing using Auto-Encoders and Surrogate-Driven Training](https://arxiv.org/abs/2605.06727) | 该论文提出了一种结合引导式自编码器与可微分代理模型的冷原子储备池计算混合框架，克服了量子测量不可微带来的梯度障碍，实现了医学影像（息肉检测）分类任务的端到端训练。 |
+| [^430] | [Topology-Aware Representation Alignment for Semi-Supervised Vision-Language Learning](https://arxiv.org/abs/2604.26370) | 提出ToMA框架，利用持续同调将图文成对关系分解为H0-消亡与H1-诞生两类关系，并通过跨模态对应在模态间对齐，从而捕捉多模态表示流形的全局拓扑结构，提升半监督视觉-语言学习的泛化能力。 |
+| [^431] | [Dictionary learning for Kernel EDMD](https://arxiv.org/abs/2604.25572) | 本文将 EDMD 中的字典学习方法扩展到 kEDMD 中的核学习，实现了核函数及其参数的自动学习，从而简化了 kEDMD 中核函数定义与参数选择的繁琐过程。 |
+| [^432] | [Ideological Bias in LLMs' Economic Causal Reasoning](https://arxiv.org/abs/2604.21334) | 该研究在EconCausal基准中引入亲政府与亲市场观点存在分歧的意识形态争议案例，发现大语言模型在经济因果推理中表现出系统性意识形态偏见，且争议性案例的因果方向预测难度显著更高。 |
+| [^433] | [Causally-Constrained Probabilistic Forecasting for Time-Series Anomaly Detection](https://arxiv.org/abs/2604.17998) | 提出了一种因果引导Transformer（CGT）模型，通过将时滞因果图先验融入深度概率预测框架，实现了多变量时间序列异常检测中的因果解释与根因定位能力。 |
+| [^434] | [Scaling Human-AI Coding Collaboration Requires a Governable Consensus Layer](https://arxiv.org/abs/2604.17883) | 该论文提出扩展人机编码协作需要引入一个可治理的共识层，通过版本化的项目状态模型将意图、结构性承诺、代码工件和证据关联起来，使人类能够在AI编码过程中检查、协调和修订共享的设计决策。 |
+| [^435] | [StaRPO: Stability-Augmented Reinforcement Policy Optimization](https://arxiv.org/abs/2604.08905) | 提出StaRPO框架，通过自相关函数（ACF）和路径效率（PE）两个轻量级指标将推理稳定性显式纳入强化学习优化目标，从而改善大语言模型推理过程的逻辑一致性与结构稳定性。 |
+| [^436] | [Structural Pass Analysis in Football: Learning Pass Archetypes and Tactical Impact from Spatio-Temporal Tracking Data](https://arxiv.org/abs/2603.28916) | 该论文提出了由线突破得分（LBS）、空间增益度量（SGM）和结构破坏指数（SDI）组合而成的可解释战术影响值（TIV）框架，利用时空追踪数据量化足球传球对对方防守结构的突破与破坏效果。 |
+| [^437] | [Constitutive parameterized deep energy method for solid mechanics problems with random material parameters](https://arxiv.org/abs/2603.26030) | 提出本构参数化深度能量方法（CPDEM），这是一种纯物理驱动的框架，可高效求解具有随机材料参数的固体力学问题，避免了有限元方法重复网格划分的高昂计算成本、数据驱动代理模型对大规模数据集的依赖，以及标准深度能量方法在参数变化时需完全重新训练的缺陷。 |
+| [^438] | [Sharp Statistical Thresholds for Attributed Gaussian Graph Matching](https://arxiv.org/abs/2603.23305) | 本文针对边权重与节点特征联合相关的属性化高斯图匹配问题，推导出了精确恢复、几乎精确恢复和部分恢复的精确信息论阈值，并发现节点特征信息的引入使得精确恢复阈值从共享阈值中分离，呈现出比标准图匹配更丰富的相变结构。 |
+| [^439] | [Maximum-Entropy Exploration with Future State-Action Visitation Measures](https://arxiv.org/abs/2603.18965) | 该论文提出了一种与未来状态-动作特征折扣分布的熵成比例的内在奖励方法，理论上证明其期望总和是从初始状态出发的轨迹所访问分布熵的下界且可通过收缩算子的不动点性质进行离策略估计，从而实现了更优的最大熵探索。 |
+| [^440] | [Edgewise Envelopes Between Balanced Forman and Ollivier-Ricci Curvature](https://arxiv.org/abs/2603.13535) | 该论文通过推导平衡Forman曲率与Ollivier-Ricci曲率之间的显式双侧分段仿射界，将图上OR曲率的逐边计算从最优传输线性规划降至最坏情况O(最大度^2.5)时间，大幅提升大规模图上曲率计算的效率。 |
+| [^441] | [The Reasoning Trap -- Logical Reasoning as a Mechanistic Pathway to Situational Awareness](https://arxiv.org/abs/2603.09200) | 该论文提出RAISE框架，揭示提升大语言模型的演绎、归纳与溯因逻辑推理能力会经由三条机制性路径逐步促成AI的情境感知能力，警示逻辑推理研究与AI安全之间的冲突风险。 |
+| [^442] | [NePPO: Near-Potential Policy Optimization for General-Sum Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2603.06977) | 提出NePPO方法，通过学习一个与玩家无关的势函数，将一般和博弈转化为以该势函数为共同效用的合作博弈，使其纳什均衡近似原博弈的纳什均衡，从而在混合合作-竞争环境中实现近似纳什均衡的计算。 |
+| [^443] | [TimeWarp: Evaluating Web Agents by Revisiting the Past](https://arxiv.org/abs/2603.04949) | 提出了模拟网页UI演变的TimeWarp基准测试，揭示现有网页智能体对界面变化的脆弱性，并通过TimeTraj标注方法与BC变体训练显著提升了智能体跨网页版本的泛化能力。 |
+| [^444] | [MARS: Harmonizing Multimodal Convergence via Adaptive Rank Search](https://arxiv.org/abs/2603.00720) | 提出MARS方法，利用双缩放定律自适应搜索LoRA秩对，以平衡多模态大语言模型微调中不同模态的收敛速度，避免负面干扰并提升任务性能。 |
+| [^445] | [Task-Driven Subspace Decomposition for Knowledge Sharing and Isolation in LoRA-based Continual Learning](https://arxiv.org/abs/2603.00191) | 提出LoDA方法，从投影能量视角出发进行任务驱动的低秩子空间分解，在基于LoRA的持续学习中同时实现跨任务知识共享与真正有效的任务特定隔离。 |
+| [^446] | [Parameter-Efficient Temporal Domain Generalization](https://arxiv.org/abs/2602.11965) | LoTiC通过将时序参数更新分解为共享的低秩基和一个紧凑的时变核心，在r×r的小空间中学习时序动力学，从而实现对现代大模型参数高效的时序域泛化。 |
+| [^447] | [Flow Matching with Uncertainty Quantification and Guidance](https://arxiv.org/abs/2602.10326) | 提出了不确定性感知流匹配UA-Flow，通过预测速度场的异方差不确定性来量化生成样本的可靠性，并利用该信号实现不确定性感知引导，从而提升生成样本的保真度。 |
+| [^448] | [ANCRe: Adaptive Neural Connection Reassignment for Efficient Depth Scaling](https://arxiv.org/abs/2602.09009) | 该论文提出ANCRe框架，通过从数据中自适应学习并重新分配残差连接，以不到1%的额外开销显著提升网络深度的利用效率，并从理论上证明残差连接布局可导致收敛速率的指数级差距。 |
+| [^449] | [Bridging Academia and Industry: A Comprehensive Benchmark for Attributed Graph Clustering](https://arxiv.org/abs/2602.08519) | 该论文提出了PyAGC——首个面向属性图聚类、可直接用于生产环境的综合基准库，通过统一的“编码-聚类-优化”模块化框架和内存高效的小批次实现，弥合了学术研究与真实工业部署之间的鸿沟。 |
+| [^450] | [Is Flow Matching Just Trajectory Replay for Sequential Data?](https://arxiv.org/abs/2602.08318) | 本文推导了序列数据上流匹配目标的最优速度场，揭示其本质是一个非参数、记忆增强的连续时间动力系统，其速度场可表示为观测转移的瞬时速度的加权混合，为神经流匹配模型提供可解释视角并提出FreeFM。 |
+| [^451] | [On the Dynamics of Delayed Generalization in Linear Models](https://arxiv.org/abs/2602.08302) | 本文证明延迟泛化现象并非深度网络独有，在线性可分数据上用梯度下降和指数尾损失训练的线性模型中同样会出现，并将超平面动力学刻画为总体、支持向量主导的遗忘和泛化三个阶段，其中动力学的时间尺度是导致延迟泛化的原因。 |
+| [^452] | [Rational Transductors](https://arxiv.org/abs/2602.07599) | 本文提出有理转换器这一双流架构，通过将源自加权有限自动机的矩阵值递归以深度有理注入的方式嵌入Transformer注意力机制，将Transformer的表达能力严格推广至可捕获所有正则语言及 $\NC^1$ 完全语言，从而解决其在序列逻辑与状态追踪上的局限。 |
+| [^453] | [Deep Time-series Forecasting Needs Kernelized Moment Balancing](https://arxiv.org/abs/2602.00717) | 该论文提出 KMB-DF 方法，通过从再生核希尔伯特空间（RKHS）中自适应地选择最有信息量的平衡函数来实施核化矩匹配，克服了现有方法只能匹配少数预定义矩的局限，从而实现深度时间序列预测中预测分布与真实分布的充分平衡。 |
+| [^454] | [SWE-Spot: Building Small Repo-Experts with Repository-Centric Learning](https://arxiv.org/abs/2601.21649) | 本文提出仓库中心化学习（RCL）新范式，将静态代码库转化为交互式学习信号，训练出针对特定代码仓库深度专门化的小型语言模型SWE-Spot-4B，以弥补小型模型处理复杂陌生代码库时泛化能力不足的缺陷。 |
+| [^455] | [Beyond Sustainable Development Goal (SDG) Accelerators: Directed Evidence for Adaptive Sustainability Portfolios](https://arxiv.org/abs/2601.20875) | 本研究基于114个国家2000至2024年的面板数据，结合面板格兰杰因果检验与局部投影方法，识别出84个定向SDG联系（40个协同、44个权衡），证明不存在普适的SDG加速器，并主张依据定向因果证据构建适应性的可持续发展政策组合。 |
+| [^456] | [Interpolation of GEDI Biomass Estimates with Calibrated Uncertainty Quantification](https://arxiv.org/abs/2601.16834) | 该论文提出注意力神经过程（ANP）概率元学习架构，通过结合局部激光雷达观测集合与地理空间基础模型嵌入来插值GEDI稀疏生物量观测，能够根据景观异质性自适应调整不确定性，并在五种生物群系中实现了竞争性精度和良好的不确定性校准。 |
+| [^457] | [Tree-Structured Synergy of Large Language Models and Bayesian Optimization for Efficient CASH](https://arxiv.org/abs/2601.12355) | 该论文提出LB-MCTS框架，以蒙特卡洛树搜索作为共享的轨迹结构化状态，协同大语言模型的语义先验与贝叶斯优化，实现跨算法选择与算法内超参数空间的联合高效优化，从而更好地解决CASH问题。 |
+| [^458] | [Imaging-anchored Multiomics in Cardiovascular Disease: Integrating Cardiac Imaging, Bulk, Single-cell, and Spatial Transcriptomics](https://arxiv.org/abs/2601.07871) | 本综述提出以心脏影像为锚点的多组学整合框架，将超声心动图、心脏MRI和CT所定义的心脏空间表型，与bulk、单细胞及空间转录组提供的细胞类型和位置特异的分子背景相融合，从而打破数据孤岛、实现心血管疾病的多模态联合分析。 |
+| [^459] | [Long-Range Distillation: Distilling 10,000 Years of Simulated Climate into Long Timestep AI Weather Models](https://arxiv.org/abs/2512.22814) | 提出了一种“远程蒸馏”方法，利用自回归教师模型生成的一万年模拟气候合成数据，训练单步生成的长时间步长概率学生模型，从而解决AI长期天气预报中误差累积与再分析数据不足导致的过拟合问题。 |
+| [^460] | [The Instability of Safety: How Random Seeds and Temperature Expose Inconsistent LLM Refusal Behavior](https://arxiv.org/abs/2512.12066) | 该研究揭示大语言模型的安全拒绝决策在随机种子和温度变化下并不稳定，18-28%的有害提示词会出现“拒绝”与“配合”之间的决策翻转，且温度越高稳定性越差，表明单次安全评估无法真实反映模型的安全对齐水平。 |
+| [^461] | [Tracking large chemical reaction networks and rare events by neural networks](https://arxiv.org/abs/2512.10309) | 提出了一种基于自回归概率分布表示、二阶优化与增强采样策略的统一神经网络框架，可高效求解大型化学反应网络的化学主方程，并精确捕捉稀有事件与亚稳态跃迁动力学。 |
+| [^462] | [A Versatile Variational Quantum Kernel Framework for Non-Trivial Classification](https://arxiv.org/abs/2511.10831) | 该研究提出了一个结合资源高效拟设与参数缩放技术的多功能变分量子核框架，在涵盖表格、图像、时间序列和图数据的八个真实高维数据集上取得了与经典RBF核相当的分类性能。 |
+| [^463] | [When is a System Discoverable from Data? Discovery Requires Chaos](https://arxiv.org/abs/2511.08860) | 混沌虽然与不可预测性相关，却往往是使动力系统控制方程能够从数据中被发现的关键——系统的域外泛化能力恰好在混沌出现时产生，而保守系统本质上无法仅凭数据被发现。 |
+| [^464] | [Ground-Truth Subgraphs for Better Training and Evaluation of Knowledge Graph Augmented LLMs](https://arxiv.org/abs/2511.04473) | 提出了SynthKGQA框架，可从任意知识图谱生成包含完整真值事实的知识图谱问答数据集，既能更有效地评估知识图谱检索器，也能用于训练更好的知识图谱增强大语言模型，并基于Wikidata构建了测试零样本泛化能力的GTSQA数据集。 |
+| [^465] | [A Nesterov-Accelerated Byzantine-Robust Federated Learning](https://arxiv.org/abs/2511.02657) | 该论文提出了一种将Nesterov动量与拜占庭鲁棒聚合规则无缝结合的联邦学习算法Byrd-NAFL，在非凸光滑损失函数和宽松假设下建立了有限时间收敛保证，同时兼顾通信效率与对拜占庭攻击的抵抗能力。 |
+| [^466] | [Toward Agents That Reason About Their Computation](https://arxiv.org/abs/2510.22833) | 本文通过让强化学习智能体感知自身计算成本并自主控制计算使用时机，实现了在相同训练预算下于75%的游戏中性能更优、且平均计算量减少三倍的效果。 |
+| [^467] | [Don't Run with Scissors: Pruning Breaks VLA Models but They Can Be Recovered](https://arxiv.org/abs/2510.08464) | 剪枝会严重破坏VLA模型并加剧安全违规，本文通过谱分析揭示了其权重结构脆弱性的根源，并提出GLUESTICK方法——通过在权重空间对密集模型与剪枝模型插值计算一次性校正项，在保留稀疏性优势的同时恢复模型大部分性能。 |
+| [^468] | [Context Value Informed In-Context Reinforcement Learning](https://arxiv.org/abs/2509.23209) | 提出CV-ICRL方法，通过为上下文内策略引入显式的上下文价值估计，并将价值预测以价值token的形式写回上下文，实现TD式回报目标，从而降低策略更新的方差，使测试时对未见任务的适应更加稳定。 |
+| [^469] | [Anticipatory Evaluation of Language Models: Predicting LLM Benchmark Scores from Descriptions](https://arxiv.org/abs/2509.20645) | 该论文提出“前瞻性评估”新范式和EVALCAST数据集（2,290对描述-性能数据），证明前沿LLM能够从自然语言任务描述中推断出基准测试的相对难度排序，但精确预测绝对性能分数仍然困难。 |
+| [^470] | [Sig-DEG for Distillation: Making Diffusion Models Faster and Lighter](https://arxiv.org/abs/2508.16939) | 本文提出Sig-DEG，利用部分签名与循环结构逼近随机微分方程的解来蒸馏预训练扩散模型，在保持有竞争力的样本质量的同时显著提升推理速度。 |
+| [^471] | [Linearly Convergent Algorithms for Nonsmooth Problems with Unknown Smooth Regions](https://arxiv.org/abs/2507.19465) | 本文首次证明bundle-level类方法可在光滑区域未知的情况下，对满足二次增长条件的凸分片光滑函数实现全局线性收敛，并将该方法扩展至弱凸分片光滑问题，同时提出了无需任何问题参数的可验证精确终止准则。 |
+| [^472] | [The Invisible Leash: Why RLVR May or May Not Escape Its Origin](https://arxiv.org/abs/2507.14843) | 该论文提出“经验支持动力学”框架，逐题追踪RLVR对已验证解的保持、扩展与收缩，发现在给定采样预算下支持收缩超过扩展，表明RLVR可能并未真正扩展模型推理边界，而主要是放大了基座模型已知的高奖励输出。 |
+| [^473] | [State Space Models Naturally Produce Time Cell and Oscillatory Behaviors and Scale to Abstract Cognitive Functions](https://arxiv.org/abs/2507.13638) | 该论文提出状态空间模型凭借结构化的多时间尺度复数旋转基，无需训练即可自然涌现时间细胞和振荡等神经时间动态，并可通过学习扩展至抽象认知功能，为连接微观神经回路与认知功能提供了数学上充分、计算上合理的框架。 |
+| [^474] | [Rule-based and reinforcement-learning policies for resource allocation in a pediatric echo lab: a simulation study](https://arxiv.org/abs/2506.06297) | 该研究基于斯坦福儿童医院一周的真实运营数据，构建了儿科超声心动图实验室的离散事件随机仿真模型并通过开源Gymnasium接口提供，为基于规则和强化学习的资源分配策略优化提供了可复现的实验平台。 |
+| [^475] | [Score-Based Training for Energy-Based TTS Models](https://arxiv.org/abs/2505.13771) | 本文提出了一种新的分数学习准则，使能量文本转语音模型的分数更适合推理阶段的一阶优化方案，克服了NCE和SSM忽略对数似然函数形式的局限性。 |
+| [^476] | [Incentivize Contribution and Learn Parameters Too: Federated Learning with Strategic Data Owners](https://arxiv.org/abs/2505.12010) | 提出两种联邦学习机制：UPBReD 以几何速率联合收敛到贡献博弈的纳什均衡与福利最大化模型，而 2P-UPBReD 通过预算平衡的转移支付使完全贡献成为客户端的占优策略，从而实现最优模型训练。 |
+| [^477] | [Trustworthy AI Must Account for Interactions](https://arxiv.org/abs/2504.07170) | 可信人工智能的各维度（如公平性、隐私、鲁棒性等）之间存在负面相互作用，例如差分隐私可能放大偏见损害公平性，因此研究必须放弃孤立改进单一方面做法，转而采用同时兼顾所有维度的整体视角。 |
+| [^478] | [Spectral structure learning for clinical time series](https://arxiv.org/abs/2502.11680) | 该论文提出了一种基于多任务平稳高斯过程 StructGP 和改进 NOTEARS 算法的谱结构学习方法，能够从不规则采样的临床时间序列中有效学习时间序列之间的有向条件依赖关系图，并取得了高召回率和高精确率。 |
+| [^479] | [Forget About It: Mitigating Forgetting Without Replay or Auxiliary Objectives](https://arxiv.org/abs/2501.05559) | 本文提出序贯微调平均法（SFA），证明仅依靠微调过程中简单的周期性参数插值，无需重放或辅助目标即可有效缓解灾难性遗忘，并在 Qwen3-14B 适配器持续学习中以最多节省 36.3% 训练时间的优势超越了重放和自适应合并等复杂方法。 |
+| [^480] | [GLL: A Differentiable Graph Learning Layer for Neural Networks](https://arxiv.org/abs/2412.08016) | 该论文通过伴随方法推导出反向传播方程，提出了可微图学习层GLL，实现了图学习算法与神经网络的端到端精确集成，从而在分类任务中利用样本间的关系信息。 |
+| [^481] | [Noise-Aware Differentially Private Variational Inference](https://arxiv.org/abs/2410.19371) | 提出了一种基于随机梯度变分推断的噪声感知差分隐私近似贝叶斯推断新方法，突破了以往方法仅适用于简单概率模型的局限，可应用于高维和非共轭模型，并提出了一种更准确的噪声感知后验评估方法。 |
+| [^482] | [Active Exploration in Bayesian Model-based Reinforcement Learning for Robot Manipulation](https://arxiv.org/abs/2404.01867) | 该论文提出了在机器人操作中基于贝叶斯模型的强化学习中通过主动探索改善模型质量和保持数据效率的方法。 |
+| [^483] | [Bellman Conformal Inference: Calibrating Prediction Intervals For Time Series](https://arxiv.org/abs/2402.05203) | 贝尔曼符合推断（BCI）是一个框架，通过解决一维随机控制问题，利用多步预测来提供校准的时间序列预测区间。BCI在任意分布转换和时间依赖性下实现了长期覆盖，且在波动率预测问题上生成更短的预测区间。 |
+| [^484] | [Beyond Size: How Gradients Shape Pruning Decisions in Large Language Models](https://arxiv.org/abs/2311.04902) | 提出GBLM-Pruner，一种利用泰勒展开一阶项、基于少量校准样本归一化梯度的免训练剪枝方法，在大语言模型剪枝中显著优于SparseGPT和Wanda等现有方法。 |
+| [^485] | [Generation of data on discontinuous manifolds via continuous stochastic non-invertible networks](https://arxiv.org/abs/2112.09646) | 该论文提出了一种新框架：利用预训练对比编码器获得聚类潜空间，并为每个代表单峰子流形的聚类训练专用低复杂度网络，从而有效生成不连续分布的数据，克服了VAE和GAN等传统方法在此类任务上的局限。 |
+| [^486] | [Energy-Based Models For Speech Synthesis.](http://arxiv.org/abs/2310.12765) | 本文引入了一种新的非自回归模型，即基于能量的模型 (EBMs)，通过噪声对比估计进行训练。该模型可以使用 Langevin MCMC 进行采样，并在语音合成任务中取得了改进。 |
 
 # 详细
 
@@ -4395,7 +4397,21 @@
 
     arXiv:2610.19016v1 Announce Type: new  Abstract: Regret matching (and its variants) and counterfactual regret minimization are central algorithms in practice for normal-form and extensive-form game solving. Yet these have historically lacked the stronger theoretical convergence guarantees available to optimistic and extra-gradient methods. Recent work introduced IREG-PRM+, a regret matching variant which does have strong theoretical convergence guarantees. However, it relies on a simultaneous, extra-gradient update. IREG-PRM+ is an instance of the more general IR-PRM framework, where empirically optimistic and alternating updates often have better performance. However, the prior extra-gradient analysis does not extend to these cases. We introduce a new approach that covers both settings. For simultaneous and alternating IR-PRM+ in finite two-player zero-sum matrix games, previous-utility prediction recovers the constant-regret and convergence-rate guarantees previously obtained with ex
     
-[^280]: 图像自蒸馏的数据密度缩放定律
+[^280]: 规模化廉价合成预训练提升室内无线电地图预测
+
+    Scaling Cheap Synthetic Pretraining Improves Indoor Radio-Map Prediction
+
+    [https://arxiv.org/abs/2610.19015](https://arxiv.org/abs/2610.19015)
+
+    该论文提出自动室内布局生成器与快速开源近似射线追踪器相结合的数据生成流程，利用1.28亿合成样本预训练视觉模型，使室内无线电地图预测误差平均降低15%，并展现出可预测的数据规模扩展规律。
+
+    
+
+    真实测量数据太过有限，难以训练出能够在各种建筑中准确工作的室内路径损耗预测器。大规模合成预训练提供了一条可行之路，但真实的建筑布局同样稀缺，而且精确的射线追踪仿真器速度慢、成本高且通常为专有软件。我们通过引入一个自动生成多样化室内布局的生成器以及一个快速、开源的近似射线追踪器来解决这两个问题，后者可为这些布局计算无线电地图。利用这一流程，我们生成了1.28亿个合成样本，对ResNet-101和Swin-T编码器-解码器进行预训练，并在高质量基准数据上进行微调。尽管存在仿真器失配问题，我们的ResNet-101模型在五项室内无线电地图预测任务中，相比已知最佳方法平均降低了15%的误差，并提升了在小型真实测量数据集上的迁移性能。两种架构均展现出可预测的数据扩展趋势：在200万至1600万样本上拟合的幂律……（原文摘要至此截断）
+
+    arXiv:2610.19015v1 Announce Type: new  Abstract: Real measurements are too limited to train an accurate indoor pathloss predictor that works across a wide range of buildings. Large-scale synthetic pretraining offers a way forward, but real building layouts are also scarce, and accurate ray-tracing simulators are slow, expensive, and often proprietary. We address both problems by introducing a generator that automatically creates diverse indoor layouts and a fast, open-source approximate ray tracer that computes radio maps for them. Using this pipeline, we generate 128M synthetic samples, pretrain ResNet-101 and Swin-T encoder-decoders, and fine-tune them on high-quality benchmark data. Despite simulator mismatch, our ResNet-101 model reduces error by 15% on average relative to the best known methods across five indoor radio-map prediction tasks and improves transfer on a small real-measurement dataset. Both architectures show predictable data-scaling trends: power laws fitted on 2M-16M
+    
+[^281]: 图像自蒸馏的数据密度缩放定律
 
     Data Density Scaling Laws for Image Self-Distillation
 
@@ -4409,7 +4425,7 @@
 
     arXiv:2610.19013v1 Announce Type: new  Abstract: Current scaling law formulations suggest that increasing the number of unique samples in a dataset improves model performance, while repeated exposure to the same samples provides diminishing value. In this work, we examine this assumption for image self-distillation models. Through systematic experiments across diverse datasets, namely Maxar, SATLAS, Waymo, nuPlan, Ego4D, ImageNet, and YFCC15M, we demonstrate that the effects of sample repetition on downstream performance are non-trivial and dataset-dependent. We identify settings where repeatedly training on a smaller random subset can outperform training on a larger set of unique samples. This finding highlights a limitation of existing scaling laws. To address this gap, we propose a modified version of a Chinchilla-style scaling law that explicitly accounts for two factors: the number of unique samples and repetition per sample. This formulation provides a framework for understanding
     
-[^281]: PMO-Dock：分子优化中对接、特异性与泛化能力的基准测试
+[^282]: PMO-Dock：分子优化中对接、特异性与泛化能力的基准测试
 
     PMO-Dock: Benchmarking Docking, Specificity, and Generalization in Molecular Optimization
 
@@ -4423,7 +4439,7 @@
 
     arXiv:2610.19011v1 Announce Type: new  Abstract: The Practical Molecular Optimization (PMO) benchmark standardized evaluation in molecular optimization, but it is built on simple property-based oracles that do not capture structure-based drug design. As the field has moved to docking-based objectives, evaluation practice has become unstandardized, and different methods report results on different docking tasks, often without a shared protocol for fair comparison or sample-efficiency constraints. To address this, we introduce Practical Molecular Optimization for Docking (PMO-Dock), a benchmark and protocol for docking-based optimization consisting of 25 tasks covering hit generation, lead optimization, and a new specificity task requiring strong on-target binding while penalizing off-target interactions. The protocol separates model development from final evaluation: validation tasks are used for hyperparameter tuning, and test tasks are held out for final evaluation and are not used du
     
-[^282]: 面向扩散式AIGC模型的LoRA适配器中未公开概念的发现方法
+[^283]: 面向扩散式AIGC模型的LoRA适配器中未公开概念的发现方法
 
     Discovering Undisclosed Concepts in LoRA Adapters for Diffusion-Based AIGC Models
 
@@ -4437,7 +4453,7 @@
 
     arXiv:2610.18990v1 Announce Type: cross  Abstract: Low-Rank Adaptation (LoRA) has made diffusion model personalization affordable and widely shareable, but it also creates moderation risks when harmful or problematic content is not faithfully disclosed. Hence, it is desired to develop a mechanism that, given a LoRA adapter, discovers the concept it was trained to generate, so as to support downstream investigation. We characterize the target concept through the conditioning input that most clearly exposes what the LoRA has learned. Such an input should induce coherent LoRA outputs that are distinctive from those of the base model and strongly align with the learned LoRA subspace. We therefore formulate concept discovery as searching for the conditioning input that jointly maximizes output coherence, LoRA-induced distinctiveness, and subspace alignment. Even with a clear objective, however, optimizing it over an open-ended input space is prohibitively expensive, since reliable evaluatio
     
-[^283]: 面向钙钛矿太阳能电池外推预测的虚拟合金物理感知语义系统
+[^284]: 面向钙钛矿太阳能电池外推预测的虚拟合金物理感知语义系统
 
     Virtual-Alloy Physics-Aware Semantic System for extrapolative prediction of perovskite solar cells
 
@@ -4451,7 +4467,7 @@
 
     arXiv:2610.18949v1 Announce Type: cross  Abstract: Existing machine-learning models for perovskite solar cells struggle to predict devices made from new materials. Most treat device layers as arbitrary categorical labels and represent perovskite absorbers either through featureless composition vectors or through rigid crystal graphs that require a pre-solved unit cell. As a result, they cannot generalize to unrecorded alloys or unfamiliar cell architectures. We present the Virtual-Alloy Physics-Aware Semantic System (V-PaSS), an architecture built around the physical continuity of perovskite solid solutions. V-PaSS represents arbitrary mixed-cation, mixed-halide absorbers by interpolating relaxed crystal graphs of 23 pure $ABX_3$ endpoint compounds via Vegard's law with learned bandgap bowing. For the device stack, it couples layer sequence and cell polarity (n-i-p or p-i-n) with interfacial band offsets and encodes chemical descriptions with a scientific language model. Evaluated unde
     
-[^284]: 自适应对手下具身智能与智能体AI统计保障的极限
+[^285]: 自适应对手下具身智能与智能体AI统计保障的极限
 
     Limits of Statistical Assurance for Embodied and Agentic AI under Adaptive Adversaries
 
@@ -4465,7 +4481,7 @@
 
     arXiv:2610.18948v1 Announce Type: cross  Abstract: Finite safety assessments cannot exclude an adversary that preserves unattacked behavior until certification and activates afterward. We characterize this limitation for embodied and tool-use AI. An adversary that matches the complete observation law until observable, irrevocable certification and retains intervention access afterward attains $v\mathbb{E}[(n-S_0)_+]$ expected post-certification events over $n$ trials, where $v$ is the active event probability and $S_0$ the unattacked certification time. The result covers adaptive and privately randomized evaluators. Switching at certification is exactly optimal for a fixed likelihood-ratio test under memoryless, event-increasing interventions without a binding intervention budget. A positive clean-certification requirement forces linear worst-case expected excess when intervention raises event rates over an authorized deployment horizon, even if certification is deferred to the deadlin
     
-[^285]: 基于自适应高斯混合模型的物理层异常检测
+[^286]: 基于自适应高斯混合模型的物理层异常检测
 
     Physical Layer Anomaly Detection via Adaptive Gaussian Mixture Model
 
@@ -4479,7 +4495,7 @@
 
     arXiv:2610.18946v1 Announce Type: cross  Abstract: Physical-layer spoofing attacks pose a critical threat to wireless localization systems by manipulating channel state information (CSI). Detecting such attacks becomes particularly challenging when the attacker and the legitimate node are spatially proximate, as their CSI characteristics become increasingly similar. To address this challenge in indoor scenarios, we propose an adaptive Gaussian mixture model (GMM)-based detection framework that learns legitimate CSI patterns and detects spatial inconsistency through statistical anomaly detection. Using a massive multiple-input multiple-output (MIMO) experimental dataset with 64 uniform linear array (ULA) antenna and 5 mm spatial resolution, we evaluated our detector against CSI spoofing attacks with spatial displacements ranging from 50 mm to 450 mm. The adaptive GMM achieves 95-98% detection rate for displacements above 150 mm while maintaining 1% false alarm rate. We benchmark our app
     
-[^286]: 具有可复用局部后验的半摊销贝叶斯推断
+[^287]: 具有可复用局部后验的半摊销贝叶斯推断
 
     Semi-Amortized Bayesian Inference with Reusable Local Posteriors
 
@@ -4493,7 +4509,7 @@
 
     arXiv:2610.18945v1 Announce Type: cross  Abstract: Amortized Bayesian inference uses simulations to perform Bayesian estimation when likelihoods are expensive or analytically unavailable. However, learning the full joint posterior is challenging in high-dimensional models with complex dependencies. We introduce a semi-amortized method that divides parameters into smaller blocks, and uses conditional independence to identify the information needed to infer each block. We train neural estimators for blocks whose posterior updates are computationally expensive or frequently repeated. Each estimator learns from simulations of the relevant model components to approximate the block's full conditional posterior, given the relevant observations and the values of the variables on which it depends. A Markov chain then alternates direct draws from these estimators with conventional updates of the remaining variables. Each neural update uses the current conditioning values and requires neither lik
     
-[^287]: 随机Volterra方程的Wong–Zakai收敛性与傅里叶神经算子学习
+[^288]: 随机Volterra方程的Wong–Zakai收敛性与傅里叶神经算子学习
 
     Wong--Zakai Convergence and FNO Learning for Stochastic Volterra Equations
 
@@ -4507,7 +4523,7 @@
 
     arXiv:2610.18939v1 Announce Type: cross  Abstract: This paper studies Wong--Zakai convergence and Fourier neural operator learning for stochastic Volterra integral equations (SVIEs) describing random systems with memory. A Wong--Zakai theorem establishes convergence of pathwise solutions driven by piecewise linear approximations of Brownian motion to the corresponding SVIE solution. This convergence provides a foundation for using mirror-padded Fourier neural operators to learn the solution operator mapping initial conditions and driving noise to entire solution trajectories. Numerical experiments demonstrate competitive prediction accuracy and generalization to temporal grids finer than those used for training, while assessing the influence of padding and computational cost. As a follow-up to \citet{LKP:26}, this study extends their operator-learning framework to SVIEs through separate convergence and approximation analyses tailored to convolutional memory.
     
-[^288]: 超越方程搜索：基于SCOPE与ClosureBench的猜想引导科学发现
+[^289]: 超越方程搜索：基于SCOPE与ClosureBench的猜想引导科学发现
 
     Beyond Equation Search: Conjecture-Guided Discovery with SCOPE and ClosureBench
 
@@ -4521,7 +4537,7 @@
 
     arXiv:2610.18938v1 Announce Type: cross  Abstract: Most symbolic regression methods optimize candidate equations, but improving an equation's fit does not establish whether its underlying scientific conjecture should be retained, revised, or rejected. A conjecture may admit multiple mathematical realizations, and similarly accurate equations may imply different explanations. This motivates a shift from refining individual expressions to developing and testing the conjectures that guide them. We introduce SCOPE, a framework that sustains multiple conjecture-driven research trajectories. Multiple scientist agents independently pursue conjectures through equation modeling, question formulation, and active experimentation, then exchange evidence to revise their conjectures and research directions. Their findings are consolidated into a scientific report linking models, conclusions, and evidence. Existing equation-discovery benchmarks primarily assess recovered expressions, leaving the evid
     
-[^289]: 延迟复杂度维度：带延迟与删失标签的学习
+[^290]: 延迟复杂度维度：带延迟与删失标签的学习
 
     Delay Complexity Dimension: Learning with Delayed and Censored Labels
 
@@ -4535,7 +4551,7 @@
 
     arXiv:2610.18935v1 Announce Type: cross  Abstract: We study PAC learning of binary classifiers when labels arrive after random delays and are censored beyond an observation window $W$. How many samples does this observation model require? We propose a distribution-dependent answer, the Delay Complexity Dimension (DCD). The DCD combines the VC dimension with the exact label-information rate of the observation channel. Every learner needs $\Omega(\mathrm{DCD}/\varepsilon^2)$ samples. An oracle pseudo-label ERM matches this rate on the instance family of the lower bound, up to constants and logarithmic factors. On that family the DCD is within a constant factor of the classical censored-ERM complexity, and whether the DCD rate is achievable where the two separate remains open. The theory also yields a quantization scheme under which delay information lowers the residual label variance, an expedition policy with a $(1-1/e)$ guarantee for its version-space objective, and a phenomenon with n
     
-[^290]: 深度伪造语音检测的生理标记初步研究
+[^291]: 深度伪造语音检测的生理标记初步研究
 
     An Initial Study of Physiological Markers for Deepfake Speech Detection
 
@@ -4549,7 +4565,7 @@
 
     arXiv:2610.18934v1 Announce Type: cross  Abstract: Conventional deepfake speech detectors primarily target synthesis artifacts and often degrade under unseen attacks or recording conditions. Human speech, however, contains physiological markers associated with respiration, phonation, and temporal coordination arising from the speech-production system that synthesizers may not reproduce faithfully. This motivates the hypothesis that deepfake speech can be detected by identifying inconsistencies in these patterns, which we test using 36 handcrafted physiological markers organized into respiratory, vocal, and temporal categories. We evaluate the marker vectors with logistic regression and SVM classifiers on pooled English recordings. The best in-domain system achieves a 21.40% equal error rate (EER), while logistic regression achieves 32.77% on the out-of-domain dataset pair. Since the markers describe specific speech-production properties, the logistic-regression coefficients indicate wh
     
-[^291]: 智能体科学家：编排编程智能体以实现自动化科学（协同）发现
+[^292]: 智能体科学家：编排编程智能体以实现自动化科学（协同）发现
 
     The Agentic Scientist: Orchestrating Coding Agents for Automated Scientific (Co-)Discovery
 
@@ -4563,7 +4579,7 @@
 
     arXiv:2610.18933v1 Announce Type: cross  Abstract: Modern coding agents are fundamentally reshaping the role of human input for computational research: they write code, launch in silico experiments, analyze their results, and autonomously operate with ever-increasing time horizons. Despite these developments, fully autonomous research agents suffer from a limited ideation radius and myopic hill-climbing search dynamics. To bridge this gap, we introduce The Agentic Scientist, an end-to-end distributed pipeline for human researchers to conduct computational research alongside modern coding agents. Building on its predecessor, our system decomposes research into task drafting, idea generation, planning, sandboxed experimentation, result aggregation, baseline and ablation construction, post-hoc analysis, and report writing. Importantly, each step in the pipeline is powered by the next generation of coding agents and leverages agentic self-verification. The overall research process is drive
     
-[^292]: TorchSpin：基于 PyTorch 的可微分电子顺磁共振模拟
+[^293]: TorchSpin：基于 PyTorch 的可微分电子顺磁共振模拟
 
     TorchSpin: Differentiable Electron Paramagnetic Resonance Simulation in PyTorch
 
@@ -4577,7 +4593,7 @@
 
     arXiv:2610.18924v1 Announce Type: cross  Abstract: Interpreting electron paramagnetic resonance (EPR) spectra commonly requires repeated forward simulation and optimization of spin Hamiltonian parameters. Established software provides mature simulation and fitting methods, but these calculations are not generally available as differentiable components within machine-learning workflows. We present TorchSpin, an open-source PyTorch framework that ports the organization and numerical conventions of EasySpin into a tensor-based computational environment. Representative calculations spanning continuous-wave EPR, ENDOR, pulse EPR, spin dynamics, trajectory simulation, and magnetometry closely reproduced corresponding EasySpin results. In matched benchmarks, TorchSpin CPU execution was faster than EasySpin for six of nine workloads although performance depended strongly on the calculation. We therefore focused on the capabilities enabled by automatic differentiation in PyTorch. In a Cu(II) po
     
-[^293]: 两个欧洲城市中城市场所的流行度轨迹与混合模式
+[^294]: 两个欧洲城市中城市场所的流行度轨迹与混合模式
 
     Popularity Trajectories and Mixing Patterns of Urban Venues in Two European Cities
 
@@ -4591,7 +4607,7 @@
 
     arXiv:2610.18917v1 Announce Type: cross  Abstract: Urban venues such as restaurants, shops, bars and parks host the daily life of a city, and their collective rise and fall signals how vibrant a neighbourhood is. The usual assumption is that a venue's fortunes follow its neighbourhood's, so that how wealthy an area is and how many people live there will decide a venue's performance. Yet whether there is a common performance trajectory shared by venues over time is underexplored. In this study, we use 5.5 years of Foursquare data for about 10^4 venues in London and Barcelona. We found six distinguishable shapes recur in both cities, that are (1) Fall, (2) Rise, (3) Rise & Fall, (4) Steady, (5) Ephemeral (an early hit that loses popularity fast) and (6) Underdogs (a slow starter that gains popularity late). However, no recovery shape appears, that is neither city yields a U-shaped fall-and-rise group. Additionally, we found that deprivation and population density are not indicative which
     
-[^294]: 流式遥测中区分过程变化、仪器故障与数据通路损坏：参考实现与基准测试
+[^295]: 流式遥测中区分过程变化、仪器故障与数据通路损坏：参考实现与基准测试
 
     Distinguishing Process Change, Instrument Fault and Data-Path Corruption in Streaming Telemetry: A Reference Implementation and Benchmark
 
@@ -4605,7 +4621,7 @@
 
     arXiv:2610.18904v1 Announce Type: cross  Abstract: A reading departs from what a monitoring system expects for one of three reasons: the physical process changed, the instrument is failing, or the value was corrupted between the instrument and the software. The three call for different responses and look alike in a single sample. We state the three-cause problem, prove which pairs of causes one channel cannot separate, and propose a bank of online detectors - a Kalman tracker with CUSUM and EWMA charts on its innovation, a Hampel median with generalized-ESD confirmation, a robust noise statistic with ADWIN, exact-value checks and an optional two-channel complementary filter - combined by a deterministic, inspectable attribution rule. The detectors were merged into a public algorithm library. On 2,942 injected events of thirteen fault types the method detects 96.3% (95% interval 95.7-97.0) at 0.22 false alarms per hour and attributes 91.2% (90.6-91.8) of detected events correctly from o
     
-[^295]: AI驱动的时序感知功耗优化
+[^296]: AI驱动的时序感知功耗优化
 
     AI-Driven, Timing-Aware Power Optimization
 
@@ -4619,7 +4635,7 @@
 
     arXiv:2610.18890v1 Announce Type: cross  Abstract: Post-route power recovery changes cell choices under tightly coupled timing, electrical and physical constraints, and the value of each change depends on what it costs to repair its side effects. We propose an AI-driven framework in which a learned model drives both phases of the optimization: it ranks the powerrecovery edits to try and the repair actions that follow, while deterministic electronic design automation (EDA) analyses govern every acceptance. The framework records baseline constraint margins, identifies the damage a recovery transaction introduces in each analysis view, holds pre-existing violations at their baseline rather than working them inside the power step, and caps repair spending at a fraction of the measured saving. An ensemble of gradient-boosted models predicts power change, normalized damage reduction and constraint-regression risk from action and timing-context features available before each trial; calibrated
     
-[^296]: 面向零膨胀连续结果的贝叶斯因果森林
+[^297]: 面向零膨胀连续结果的贝叶斯因果森林
 
     Bayesian Causal Forests for Zero-Inflated Continuous Outcomes
 
@@ -4633,7 +4649,7 @@
 
     arXiv:2610.18889v1 Announce Type: cross  Abstract: Estimating (heterogeneous) treatment effects is still challenging when the outcome is semicontinuous (i.e., exhibiting both a discrete point mass at zero and a skewed continuous distribution for positive values), despite the strong presence of this data type in real world settings. Existing methods either ignore the zero mass, impose fragile parametric assumptions, or suffer from extreme computational costs and data augmentation noise. This paper proposes Zero-Inflated Continuous Bayesian Causal Forests with Duan's Smearing (ZIC-BCF-Smear), a decoupled two-part nonparametric estimator that fits a Probit BCF on the full sample to model participation and a Gaussian BCF strictly on the active subpopulation to model positive intensity. Subpopulation Propensity Adjustment (SPA) mitigates regularization-induced confounding within the active subpopulation, and Duan's non-parametric smearing estimator re-transforms predictions to the response 
     
-[^297]: 面向轴对称锥形空化器自然超空泡几何形态的物理引导多保真度代理建模
+[^298]: 面向轴对称锥形空化器自然超空泡几何形态的物理引导多保真度代理建模
 
     Physics-Guided Multi-Fidelity Surrogate Modeling for Natural Supercavity Geometry of an Axisymmetric Conical Cavitator
 
@@ -4647,7 +4663,7 @@
 
     arXiv:2610.18886v1 Announce Type: cross  Abstract: Natural supercavitation behind conical cavitators generates a vapor-filled envelope that, when sustained over the full body of a high-speed underwater vehicles, reduces hydrodynamic skin-friction drag and enables performance levels unattainable in fully wetted flow. Accurate prediction of maximum cavity length and maximum cavity radius and local cavity profile as functions of cavitation number and cone half-angle is essential for both the static design and the real-time shape management of super-cavitating torpedo cavitators. Classical analytical models provide computationally inexpensive predictions but exhibit systematic disagreements in the practically important regime of moderate cavitation number and large angle, where slender-body assumptions begin to break down. Existing data-driven machine learning approaches offer higher accuracy but are constrained by the prohibitive cost of multiphase computational fluid dynamics (CFD) sweep
     
-[^298]: 基于局部信赖域优化的在线策略蒸馏Token效用
+[^299]: 基于局部信赖域优化的在线策略蒸馏Token效用
 
     Token Utility for On-Policy Distillation via Local Trust-Region Optimization
 
@@ -4661,7 +4677,7 @@
 
     arXiv:2610.18883v1 Announce Type: new  Abstract: Token-selection methods for on-policy distillation (OPD) prioritize student-visited positions using diverse signals, including uncertainty, teacher-student disagreement, and mismatch direction. We instead derive token importance from the distillation objective itself: how much can each position's loss decrease under an equal local KL budget on the student's predictive distribution? The answer is the utility $s_t=g_t^\top F_t^\dagger g_t$, where $g_t$ is the logit gradient and $F_t$ is the categorical Fisher matrix. For reverse-KL it equals the student-weighted variance of the student-teacher log-probability ratio, and for forward-KL it equals the Pearson $\chi^2$ divergence, so the appropriate utility follows from the choice of objective. On shared training checkpoints, several independently motivated criteria, including student entropy, KL disagreement, and TIP, concentrate their importance on nearly the same positions as the derived ut
     
-[^299]: 遵循法律规定的流程：训练语音代理迁移至未见过的受监管债务催收程序
+[^300]: 遵循法律规定的流程：训练语音代理迁移至未见过的受监管债务催收程序
 
     Following the Flow the Law Requires: Training Voice Agents to Transfer to Unseen Regulated Procedures in Debt Collection
 
@@ -4675,7 +4691,7 @@
 
     arXiv:2610.18881v1 Announce Type: new  Abstract: Voice agents built on large language models (LLMs) now handle customer calls, but in regulated applications completing the task is not enough: the agent must follow a conversational flow set by law. In debt collection, it must confirm it is speaking to the debtor before mentioning the debt, identify itself and the creditor, state the amount, and avoid prohibited language. Every creditor turns these rules into its own procedure and revises it. We ask whether a small, self-hosted policy can be trained once and then follow regulated procedures it has never seen. One machine-readable specification per deployment, FlowSpec, generates the policy instruction, gates the tools, supplies the supervision and defines the tests; the agent speaks only approved catalogue sentences. We fine-tune a 9-billion-parameter model on 2,506 conversations from 297 randomized procedures and evaluate a Thai outbound-call agent on four unseen deployment procedures (
     
-[^300]: 扰动预测器能学到基因相互作用吗？——智能体筛选中的外推能力诊断
+[^301]: 扰动预测器能学到基因相互作用吗？——智能体筛选中的外推能力诊断
 
     Do Perturbation Predictors Learn Gene Interactions? Diagnosing Extrapolation in Agentic Screening
 
@@ -4689,7 +4705,7 @@
 
     arXiv:2610.18880v1 Announce Type: new  Abstract: High-throughput perturbation screens increasingly use machine-learning models to predict the effects of gene combinations that were never measured. A difficult case arises when both genes in a test pair were seen individually during training, but their combination was not. In this setting, standard OOD methods often fail because neither gene appears unfamiliar on its own. We therefore compare each model prediction with a simple additive prediction obtained by summing the two observed single-gene effects. The difference between them, which we call additive disagreement (AD), measures how much extra interaction effect the model introduces for an unseen combination. Across eight prediction methods and three Perturb-seq datasets, specialised neural predictors do not consistently outperform this simple additive baseline. More importantly, predictions with larger deviations from the additive baseline tend to have larger errors. Conventional ou
     
-[^301]: 视觉类增量学习方法能否迁移到蛋白质领域？——面向冻结蛋白质编码器的诊断性基准测试
+[^302]: 视觉类增量学习方法能否迁移到蛋白质领域？——面向冻结蛋白质编码器的诊断性基准测试
 
     Do Vision CIL Methods Transfer to Protein? A Diagnostic Benchmark of Frozen Protein Encoders
 
@@ -4703,7 +4719,7 @@
 
     arXiv:2610.18879v1 Announce Type: new  Abstract: Protein function annotation operates over an expanding label space, making class-incremental learning (CIL) a natural framework for incorporating newly discovered functions without full retraining. Yet existing CIL methods have been developed largely in vision and have not been systematically evaluated over frozen protein representations. We conduct a controlled benchmark of nine representative CIL methods across five sequence-, structure-, and sequence--structure-based protein encoders and two enzyme function datasets at different scales, while keeping the encoders frozen and evaluation settings consistent across representations. We find that no method transfers reliably across encoders, and that these failures persist across alternative phase constructions. Diagnostic analyses reveal that this instability arises from weak gradient-based stability signals, substantial heterogeneity in embedding geometry, and covariance assumptions whose
     
-[^302]: 基于仅答案数据的高效后训练与验证的逆向推理模型
+[^303]: 基于仅答案数据的高效后训练与验证的逆向推理模型
 
     Inverse Reasoning Models for Efficient Post-Training and Verification from Answer-Only Data
 
@@ -4717,7 +4733,7 @@
 
     arXiv:2610.18878v1 Announce Type: new  Abstract: Post-training reasoning LLMs often requires making a tradeoff between costly supervision and compute inefficiency: supervised finetuning typically requires reasoning traces, which is data inefficient since in many applications one only has prompt-answer tuples and lacks the groundtruth chain-of-thought (CoT) sequence. On the other hand, reinforcement learning (with verifiable rewards, for example) can operate without CoT data but it is much more compute-inefficient since it requires multiple autoregressive completions per optimization step, none of which are guaranteed to give a non-zero policy gradient. In this work we explore a middleground, a self-distillation technique that uses answer-only data, treating CoT as latent variables. This relies on training a partner ``inverse reasoning LLM" that generates the original's reasoning traces conditioned on the answer. The inverse model is trained once and reused across incoming batches of an
     
-[^303]: Lotus：通过学习预测来学会理解时间序列
+[^304]: Lotus：通过学习预测来学会理解时间序列
 
     Lotus: Learning to Understand Time-series by Learning to Forecast
 
@@ -4731,7 +4747,7 @@
 
     arXiv:2610.18877v1 Announce Type: cross  Abstract: Time-series language models typically align numerical signals with language using labels, captions, or question-answer pairs. Although such supervision encourages linguistic representations, it does not explicitly require them to preserve information about how the underlying time-series signal evolves. We introduce forecast grounding, a pretraining principle that requires language-aligned time-series representations to remain predictive of the future evolution before they are adapted to downstream tasks. We instantiate this principle in LOTUS, which divides each time-series channel into non-overlapping patches and maps them into the LLM embedding space. It then predicts the next patch from the LLM hidden states of the time-series tokens, encouraging the learned representation to retain temporal information. To capture both temporal changes and periodic patterns, we also propose a temporal-spectral patch representation that combines eac
     
-[^304]: RoboSimStudio：面向人类与智能体快速实现机器人操作任务Real2Sim的交互式工具包
+[^305]: RoboSimStudio：面向人类与智能体快速实现机器人操作任务Real2Sim的交互式工具包
 
     RoboSimStudio: An Interactive Toolkit for Human and Agent Rapid Real2Sim of Robot Manipulation Tasks
 
@@ -4745,7 +4761,7 @@
 
     arXiv:2610.18835v2 Announce Type: cross  Abstract: It has been difficult to accurately model the physics of the interaction between a robot and the objects it manipulates, including contact mechanics, coupled contact dynamics, deformations, stiffness and friction. We present RoboSimStudio (RSS), an interactive toolkit that makes choices of solver, contact model, and physical parameters explicit and editable, allowing both humans and coding agents to quickly create and iteratively refine simulations based on observed physical behavior. We implement RSS with the open Newton physics simulation system and describe experiments with human-guided real2sim using (1) visual evaluation, (2) force-feedback and (3) agentic Real2Sim2Real. Code, video and additional information can be found on the project website: https://robosimstudio.github.io
     
-[^305]: 预训练能教会化学语言模型化学吗？
+[^306]: 预训练能教会化学语言模型化学吗？
 
     Does Pretraining Teach Chemical Language Models Chemistry?
 
@@ -4759,7 +4775,7 @@
 
     arXiv:2610.18651v2 Announce Type: replace-cross  Abstract: Chemical language models (CLMs) are pretrained on large corpora of molecules with the aim of learning representations that transfer to diverse downstream tasks. Here, we systematically study the effects of pretraining using a series of such CLMs across 64 molecular property prediction datasets. We find that the downstream gains of pretraining in CLMs do not scale and performance saturates below gradient-boosting baselines. Across the regimes evaluated, only supervised pretraining on traditional physico-chemical descriptors consistently improves downstream performance for the CLMs tested whereas some forms of pretraining result in models worse than a randomly initialized encoder. While models can resolve molecular structure well, they do so no better than a randomly initialized model, suggesting that, at best, CLMs learn descriptor-like properties in addition to low-level token statistics during pretraining, but surprisingly lit
     
-[^306]: 读出缩放塑造稀疏特征恢复
+[^307]: 读出缩放塑造稀疏特征恢复
 
     Readout Scaling Shapes Sparse Feature Recovery
 
@@ -4773,7 +4789,7 @@
 
     arXiv:2610.18462v2 Announce Type: cross  Abstract: Readout scaling changes what a sparse autoencoder (SAE) learns, but the benefit of removing it depends on the data. We use readout-canonicalized decision-space (RC-DS) coordinates to remove singular-value gains while preserving retained decision information. At a fixed readout condition number, changing the generating distribution reverses which training coordinates recover known factors best. In our controlled coordinate-matching study, recovery is highest when training restores the space in which the factors were generated. When factors are generated before readout scaling, RC-DS increases mean sparse-factor recovery from 0.506 to 0.913 at condition number 100, compared with centered-logit training under the same budget. An exact wrapper reproduces RC-DS training to numerical precision, isolating training geometry rather than additional information. In neural policies, RC-DS improves mean logit reconstruction under the tested budgets
     
-[^307]: 基于收敛率引导的连续仿真优化期望改进算法设计
+[^308]: 基于收敛率引导的连续仿真优化期望改进算法设计
 
     Convergence-Rate-Guided Algorithm Design of Expected Improvement for Continuous Simulation Optimization
 
@@ -4787,7 +4803,7 @@
 
     arXiv:2610.18434v1 Announce Type: new  Abstract: Expected improvement (EI) based on stochastic kriging (SK) surrogate is widely used in continuous simulation optimization, but unknown heteroscedastic noise on simulation output makes three basic design choices consequential: the incumbent used to define improvement, the replication level at each sampled point, and the terminal recommendation. Existing methods typically either assume the noise levels are known or choose these components separately through heuristic rules or empirical calibration. We instead derive a high-probability upper bound on the simple regret and systematically choose the three components within general rule classes to tighten this bound. We first establish a finite-sample confidence bound for the SK predictor with unknown and estimated noise levels as a foundation for the three design choices. We then analyze general posterior-quantile families for both the incumbent and the terminal recommendation. For the incumb
     
-[^308]: ResearchFlow-Eval：追踪端到端多论断自主研究中的执行差距
+[^309]: ResearchFlow-Eval：追踪端到端多论断自主研究中的执行差距
 
     ResearchFlow-Eval: Tracing the Execution Gap in End-to-End Multi-Claim Autoresearch
 
@@ -4801,7 +4817,7 @@
 
     arXiv:2610.18088v2 Announce Type: new  Abstract: Autoresearch systems increasingly undertake entire research projects. In practice, scientific research requires systems to pursue multiple interdependent claims through a continuous, multi-stage workflow and revise experiments as evidence accumulates. Existing evaluations of autoresearch systems, however, typically score isolated tasks or final artifacts, leaving these process-level capabilities largely unmeasured. We therefore introduce ResearchFlow-Eval, a fine-grained framework for assessing continuous scientific execution and iteration at both the stage and claim levels. Each evaluation is grounded in a published anchor paper, from which we derive stage-specific rubrics that decompose each research stage into dimensions and separately scored rubric items. Using these rubrics, we score each research stage and examine experimental execution in detail, focusing on multi-claim completion and revisions across attempts. We apply the evalua
     
-[^309]: 基于同态加密的金融交易图上隐私保护的图神经网络推理
+[^310]: 基于同态加密的金融交易图上隐私保护的图神经网络推理
 
     Privacy-Preserving GNN Inference on Financial Transaction Graphs via Homomorphic Encryption
 
@@ -4815,7 +4831,7 @@
 
     arXiv:2610.18054v2 Announce Type: replace-cross  Abstract: Anti-money laundering (AML) in financial networks requires modeling transaction patterns that span multiple institutions. In practice, however, banks cannot share account and transaction features due to strict privacy regulations. We propose a privacy-preserving graph neural network (GNN) inference framework tailored to this multi-bank setting. A central server holds the graph connectivity and pretrained model weights in plaintext, while each bank keeps its transaction features encrypted. Inference is then carried out entirely on encrypted features under the CKKS homomorphic encryption scheme, so that no plaintext transaction features or predictions are exposed to the server. The key to making this practical is an edge-centric GNN architecture, wherein message passing is expressed through operations on node--edge incidence matrices. This formulation not only preserves the edge-attributed multigraph structure of transaction netw
     
-[^310]: 交互即裁判
+[^311]: 交互即裁判
 
     Interaction-as-a-Judge
 
@@ -4829,7 +4845,7 @@
 
     arXiv:2610.17895v2 Announce Type: cross  Abstract: Coding agents are tasked with producing sophisticated interactive applications such as websites, desktop applications, and games. While humans assess these applications interactively, current automated LLM evaluations primarily focus on code analysis and unit tests. This mismatch can cause LLM judges to miss failures that are immediately apparent to human users. We study Interaction-as-a-Judge, an evaluation paradigm where computer-use agents (CUAs) directly interact with an application. We demonstrate that Interaction-as-a-Judge can improve both evaluation and generation of interactive applications. To this end, we collect and release two complementary datasets: $6,858$ pairs of applications with human preferences and corresponding agent traces, and $222$ applications with human-verified requirement labels. Relative to standard non-interactive approaches, we find that Interaction-as-a-Judge improves evaluation in terms of predicting h
     
-[^311]: RT-J：用于上下文高效预测的关系型Transformer大规模预训练
+[^312]: RT-J：用于上下文高效预测的关系型Transformer大规模预训练
 
     RT-J: Large-Scale Pretraining of Relational Transformers for Context-Efficient Predictions
 
@@ -4843,7 +4859,7 @@
 
     arXiv:2610.17867v2 Announce Type: cross  Abstract: Foundation models for tables and relational databases are increasingly used for predictive tasks across various scientific and industrial domains. However, adapting existing models to unseen datasets requires tens of thousands of examples. Here we introduce RT-J, an 85M-parameter relational foundation model (RFM) that makes accurate predictions even with hundreds of in-context examples or fewer. To achieve this, we first assemble the Join, a large collection of 639 web-crawled databases with 6,023 LLM-generated forecasting tasks. We pretrain with long contexts of up to 8,192 database cells, using in-context examples from a novel lightweight random-walk retriever. Finally, we leverage context tuning and ensembling to scale up test-time compute. On in-context regression tasks from RelBench, RT-J requires 10x fewer examples on average to match strong feature engineering pipelines with LLM-agent or RDBLearn featurizers and TabICLv2 or Ligh
     
-[^312]: MMTA：基于时间序列、文本与视觉的多模态时间分析基准测试
+[^313]: MMTA：基于时间序列、文本与视觉的多模态时间分析基准测试
 
     MMTA: Benchmarking Multimodal Temporal Analysis with Time Series, Text, and Vision
 
@@ -4857,7 +4873,7 @@
 
     arXiv:2610.17856v2 Announce Type: cross  Abstract: Time-series analysis is increasingly studied in multimodal settings, yet most benchmarks pair temporal signals with text or with visualizations derived from the same signal. This leaves open whether multimodal large language models (MLLMs) can integrate time series with real-world visual evidence. We introduce MMTA (multimodal temporal analysis), a benchmark of tri-modal tasks with diverse cross-modal complementarity patterns among time series, text, and vision. MMTA spans nine domains -- robotics, autonomous driving, human action, manufacturing, AR assistance, healthcare, recommendation, finance, and climate -- under video+TS and image+TS layouts, with a 3,524-sample test split covering classification and forecasting. The benchmark standardizes heterogeneous real-world sources into a shared schema with domain-specific prompts, provenance documentation, and success-weighted metrics that penalize both wrong answers and failed generation
     
-[^313]: RELAY：面向基于评分标准强化学习的自适应交接式选择性自蒸馏方法
+[^314]: RELAY：面向基于评分标准强化学习的自适应交接式选择性自蒸馏方法
 
     RELAY: Selective Self-Distillation with Adaptive Hand-off for Rubric-Based Reinforcement Learning
 
@@ -4871,7 +4887,7 @@
 
     arXiv:2610.17623v2 Announce Type: cross  Abstract: Rubric-based reinforcement learning grades a response against many written criteria but collapses them into one reward, which discards the detail the rubric carries and gives no GRPO reward gradient when a group's responses tie. A frozen teacher that reads the rubric as privileged context provides token-level supervision, but we observe an early plateau in the gains over GRPO. RELAY uses advantages and rewards to select positive-advantage and low-scoring zero-advantage rollouts, and monitors the distillation loss to decide when to retire the teacher. Stage 1 combines selective distillation from a frozen teacher with GRPO; a plateau detector then removes the teacher, and Stage 2 continues with GRPO alone. Calibrated on one model-domain pair and reused unchanged in three others, the plateau detector fires between steps 122 and 171. RELAY scores highest in-domain among the compared methods in all four settings, ahead of GRPO on RaR-Medici
     
-[^314]: 面向极端事件感知时间序列生成的跨视角时频扩散模型
+[^315]: 面向极端事件感知时间序列生成的跨视角时频扩散模型
 
     Cross-View Time-Frequency Diffusion for Extreme-Aware Time-Series Generation
 
@@ -4885,7 +4901,7 @@
 
     arXiv:2610.17407v2 Announce Type: cross  Abstract: Generating realistic time-series requires faithfully reproducing rare but high-impact extreme events. Existing approaches often rely on specialized representations or extreme-focused training objectives, which may restrict the diversity of captured extremes or compromise overall distributional fidelity. We propose Cross-View Time-Frequency Diffusion (CrossTF), a framework that exploits discrepancies between time- and frequency-view denoisers for extreme-aware time-series generation. Our key empirical finding is extreme-sensitive cross-view asymmetry: moving along the direction connecting the two views' clean-sample estimates substantially changes extreme fidelity while having limited effects on overall generation quality. We further identify a late-stage cross-view window in which this discrepancy stabilizes and cross-view adjustments have a particularly strong effect on extreme fidelity. These findings motivate a staged optimization s
     
-[^315]: 学习为非凸优化设计凸松弛
+[^316]: 学习为非凸优化设计凸松弛
 
     Learning to Design Convex Relaxations for Nonconvex Optimization
 
@@ -4899,7 +4915,7 @@
 
     arXiv:2610.16948v2 Announce Type: replace  Abstract: Convex relaxations make nonconvex optimization tractable by replacing hard nonconvex problems with convex surrogates that give valid bounds. Yet their design is still largely manual: a human expert must decide where to relax, which relaxation to use, and how much formulation growth is worth paying. We show that this design process can be learned. The method proposed in this paper, AutoConvexRelax, represents the symbolic formulation of a nonconvex problem as a tripartite graph linking variables, symbolic terms, and their objective or constraint positions. It then learns a policy that composes symbolic rewrites into problem-specific relaxation trajectories as the formulation evolves. We prove that finite action sequences generated by the learned policy preserve relaxation validity under explicit domain, occurrence-context, and representation-consistency conditions. We further establish computable error bounds for mixed relaxations and
     
-[^316]: DEFlow：深度均衡流最大熵强化学习
+[^317]: DEFlow：深度均衡流最大熵强化学习
 
     DEFlow: Deep Equilibrium Flow Maximum-Entropy Reinforcement Learning
 
@@ -4913,7 +4929,7 @@
 
     arXiv:2610.16597v2 Announce Type: replace  Abstract: Expressive flow policies can represent multiple high-value actions, but sampling them with few integration steps while retaining tractable action densities remains challenging. We introduce DEFlow, a deep equilibrium flow policy that replaces explicit Euler sampling with implicit Euler integration and solves all intermediate actions jointly as an equilibrium system. We combine implicit differentiation with a discrete change-of-variables formula for the final-action density, enabling off-policy training within soft actor-critic without backpropagating through solver iterations. DEFlow achieves an average relative improvement of approximately 10% in mean successful coverage over the strongest baseline across four Multi-Goal docking variants. It also achieves the highest mean time-averaged return on four of five manipulation tasks, while remaining broadly competitive across five MuJoCo tasks. These results support implicit flow policies
     
-[^317]: 迈向模态无关的癫痫发作分类：面向异构脑电图与颅内脑电信号的统一深度学习框架
+[^318]: 迈向模态无关的癫痫发作分类：面向异构脑电图与颅内脑电信号的统一深度学习框架
 
     Towards Modality-Agnostic Seizure Classification: A Unified Deep Learning Framework for Heterogeneous EEG and Intracranial EEG Signals
 
@@ -4927,7 +4943,7 @@
 
     arXiv:2610.16596v2 Announce Type: cross  Abstract: Seizure prediction and detection, essential for clinical treatment of epilepsy, remain the crucial task of this neurological disease. EEG and iEEG are widely used to analyze epilepsy due to its capability of capturing discriminative brain activities at high time resolution. However, existing works generally analyze either EEG or iEEG seizure activity separately, where EEG analysis has been well-researched, while more and more works consider iEEG for its higher specificity at the spatial level and signal quality. Currently, most of the existing seizure prediction systems are single-modal in nature, which limits its application to a variety of clinical conditions. Therefore, a common framework to analyze seizures with both EEG and iEEG signals needs to be developed. This paper presents a new framework of multimodal seizure classification integrating the heterogeneous EEG and iEEG recordings from different subjects and sources. A specific
     
-[^318]: 谁决定了“评委攻击”的节奏？评委能力与策略-评委差距之争
+[^319]: 谁决定了“评委攻击”的节奏？评委能力与策略-评委差距之争
 
     Who Sets the Pace of Judge Hacking? Judge Capability versus the Policy-Judge Gap
 
@@ -4941,7 +4957,7 @@
 
     arXiv:2610.15778v2 Announce Type: replace-cross  Abstract: Under GRPO against a frozen, reference-free LLM judge, RL exploits the judge's false positives. Does the policy-judge capability gap or the judge itself set how fast and how far? We train 0.5B and 1.5B Qwen2.5 policies on GSM8K against four judges at least as large, and the 1.5B policy also against one smaller judge. In a post-hoc analysis, judge acceptance rose, but no cell of 12 gained more than 0.04 in seed-mean held-out greedy accuracy. A gold-reward control with the same recipe raised the 1.5B policy's accuracy by +0.054 (for the 0.5B policy, gold reward gave no detectable gain either). The depth of judge hacking tracks the judge: the plateau correlates with judge AUC (Spearman -0.69 over 12 cells), and within a family the larger judge is fooled less deeply. For the pace, two pre-specified pairs contradict the gap account: the cell with the larger gap was fooled 3.5x sooner at the pre-specified threshold. With 12 cells, ho
     
-[^319]: ProtoPur：面向病理学弱监督实例学习的原型纯度伪标签方法
+[^320]: ProtoPur：面向病理学弱监督实例学习的原型纯度伪标签方法
 
     ProtoPur: Prototype-Purity Pseudo-Labeling for Weakly Supervised Instance Learning in Pathology
 
@@ -4955,7 +4971,7 @@
 
     arXiv:2610.15669v2 Announce Type: replace-cross  Abstract: Weak bag-level labels are widely available in computational pathology, whereas reliable instance-level annotations for whole-slide images remain expensive and ambiguous. Weakly supervised multiple instance learning (MIL) achieves strong bag-level classification, but instance-level supervision from attention scores, model predictions, negative bags, or spatial refinement may fail to identify class-specific local evidence. We propose ProtoPur, a prototype-purity pseudo-labeling method for weakly supervised instance-level learning in pathology whole-slide images. ProtoPur estimates class-balanced local purity over prototype regions constructed from frozen foundation-model features, and assigns pseudo-labels to high-purity regions strongly associated with a target class. This purity-first design separates class-specific evidence from negative or shared morphology, with coverage used only to ensure sufficient pseudo-label assignment
     
-[^320]: SuperAI：跨异构基础模型的能力融合
+[^321]: SuperAI：跨异构基础模型的能力融合
 
     SuperAI: Merging Capabilities Across Heterogeneous Foundation Models
 
@@ -4969,7 +4985,7 @@
 
     arXiv:2610.15322v2 Announce Type: new  Abstract: Enabling the reuse and composition of knowledge and capabilities distributed across foundation models is an important step toward building scalable artificial intelligence (AI) systems. However, architectural differences and incompatible representations make it difficult to transfer and integrate these capabilities through a unified cross-model interface. To address this challenge, we propose SuperAI, a cross-architecture multi-model fusion framework that integrates complementary capabilities from multiple source models into a host model through orthogonal alignment of low-dimensional task-relevant representations. Specifically, we first extract task-relevant representations from the source models and the host model using shared anchor samples, and apply principal component analysis (PCA) to construct low-dimensional functional subspaces with the same dimensionality. Next, we use orthogonal Procrustes mappings to align the source and hos
     
-[^321]: AlphaRLM：面向基于文献的符号化因子发现的语言模型对齐
+[^322]: AlphaRLM：面向基于文献的符号化因子发现的语言模型对齐
 
     AlphaRLM: Aligning Language Models for Literature-Grounded Symbolic Factor Discovery
 
@@ -4983,7 +4999,7 @@
 
     arXiv:2610.14959v2 Announce Type: new  Abstract: Formulaic alpha mining seeks to discover executable expressions that capture predictive market signals in a vast, noisy search space. Recent LLM-based approaches use prompting, iterative search, or seed-factor evolution, leaving direct factor construction through policy learning less explored. To address this, we introduce AlphaRLM, a reinforcement-learning framework that trains LLMs to construct executable symbolic factors from financial literature without input factor expressions. AlphaRLM incorporates Literature-Guided Operator Assembly (LEGO), which conditions factor construction on literature-derived ideas and executable operators, providing semantic priors for exploration. It further aligns the generation policy with market feedback through executable-validity and grouped-return-separation rewards that capture non-monotonic structures across factor quantiles. Extensive experiments on CSI 300, CSI 1000, and S&P 500 show that AlphaRL
     
-[^322]: 常学习率随机梯度下降的强高斯逼近：偏差与轨迹推断
+[^323]: 常学习率随机梯度下降的强高斯逼近：偏差与轨迹推断
 
     Strong Gaussian Approximation of Constant-Learning-Rate SGD: Bias and Trajectory Inference
 
@@ -4997,7 +5013,7 @@
 
     arXiv:2610.14567v1 Announce Type: new  Abstract: This paper develops strong Gaussian approximations (KMT type) for constant learning rate stochastic gradient descent (SGD). We work with heavy tailed noise and assume that the number of iterates grows and the learning rate shrinks simultaneously. Our work constructs simple Gaussian processes on the same space and bounds, in probability, the maximum difference between the SGD errors and their respective limits. While there exist central limit theorems for constant rate SGD centered at the optimum, these only provide individual iterate inference. By contrast, our quenched KMT approximations allow for finite sample, simultaneous, whole-trajectory-level inference and imply stochastic process convergence (Functional Central Limit Theorems (FCLTs)). For accumulated errors centered at the true optimum, we first obtain a KMT-type approximation bound when the learning rate scales as $\gamma_n=\frac{c}{\sqrt n}+o(n^{-1/2})$ for a constant $c \in \
     
-[^323]: 自然代码变换使智能体在漏洞分析中产生混淆
+[^324]: 自然代码变换使智能体在漏洞分析中产生混淆
 
     Natural Code Transformation Confuses Agents in Vulnerability Analysis
 
@@ -5011,7 +5027,7 @@
 
     arXiv:2610.14350v2 Announce Type: cross  Abstract: Having demonstrated a strong potential for automating vulnerability discovery, AI agents can also be used to attack software systems at scale. Today's software systems need mechanisms to level the playing field by slowing down potential attacks, giving them time to patch vulnerabilities and strengthen software. Along this line, our study of agent trajectories in vulnerability analysis shows a surprising finding: agents produce dramatically different results across real-world code commits that carry the same functionality and the same vulnerability. This phenomenon appears consistently in multiple code domains and vulnerability categories.   It motivates us to study natural and functionality-preserving code transformations derived from real-world software development, and their potential as a defense against attacker agents. We build a corpus of natural transformations by mining recurring development patterns from real-world code commit
     
-[^324]: MvFFN：用于无位姿宽基线全景图布局重建的多视角户型图前馈网络
+[^325]: MvFFN：用于无位姿宽基线全景图布局重建的多视角户型图前馈网络
 
     MvFFN: Multi-view Floor plan Feed-forward Network for Unposed Wide-Baseline Panorama Layout Reconstruction
 
@@ -5025,7 +5041,7 @@
 
     arXiv:2610.14315v2 Announce Type: cross  Abstract: Reconstructing accurate camera poses and floor-plan layouts from sparse, unposed, wide-baseline RGB panoramas remains a challenging open problem. Direct multi-room floor-plan prediction is especially difficult in this setting: pose, geometry, semantics, and global layout structure are tightly coupled, yet a complete floor-plan is hard to learn as a single global output. Our key insight is to keep the model's predictions strictly local. Multi-view Ordered Wall Instance Segmentation (MOIS) is designed around this concept. Each panorama column predicts only the wall it observes plus the next two adjacent walls in clockwise order. The global wall partition, room layouts, and shared coordinates emerge from deterministic aggregation of overlapping local predictions. Building on MOIS, we propose Multi-view floor-plan Feed-Forward Network (MvFFN), which jointly predicts coarse camera poses, dense global geometry, and per-wall semantic outputs.
     
-[^325]: 捉迷藏：隐藏概念以寻找黑盒模型的解释
+[^326]: 捉迷藏：隐藏概念以寻找黑盒模型的解释
 
     Hide and Seek: HIDE Concepts to SEEK explanations for black box models
 
@@ -5039,7 +5055,7 @@
 
     arXiv:2610.13935v1 Announce Type: cross  Abstract: Interpreting machine learning model predictions is a central challenge, particularly for black-box vision models. Concept-based attribution methods interpret models using human-understandable concepts. Existing concept-based methods can only interpret classification and regression models. They require access to model weights or large concept-annotated datasets, and most methods cannot provide image-level attribution. We propose Hide and Seek (HnS), a new method for concept-level attribution that does not require access to model weights or labeled concept datasets. HnS can interpret a wide range of vision models. Given a concept and image set, HnS retrieves concept-aligned images using a vision-language model, localizes the concept within each image, masks the localized region, and measures attribution from the change in the black-box model's output between the original and masked images. This enables faithful attribution by directly me
     
-[^326]: AI模型能够可证明地隐藏任意能力
+[^327]: AI模型能够可证明地隐藏任意能力
 
     AI Models Can Provably Hide Arbitrary Capabilities
 
@@ -5053,7 +5069,7 @@
 
     arXiv:2610.13928v1 Announce Type: new  Abstract: Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption does not hold under adversarial conditions by constructing backdoor attacks that embed encrypted neural networks within host model weights, decrypting and executing them only upon receiving a secret trigger. Using digital lockers, these hidden circuits remain provably hard to elicit and interpret under cryptographic assumptions, even given full access to model weights, extending prior work from hiding fixed strings to arbitrary computations. We implement our proof of concept constructions in PyTorch and evaluate elicitation through fine-tuning, weight noising, gradient-based trigger search, and latent adversarial training on a small chemical reaction prediction task - a proxy for CBRN-relevant capabilities. Our results demonstrate resistance to
     
-[^327]: 协作设计会议中的人类与大型语言模型引导：一项计算行为比较
+[^328]: 协作设计会议中的人类与大型语言模型引导：一项计算行为比较
 
     Human and LLM Facilitation in Collaborative Design Meetings: A Computational Behavioral Comparison
 
@@ -5067,7 +5083,7 @@
 
     arXiv:2610.13082v1 Announce Type: new  Abstract: Large language models (LLMs) are increasingly being explored as facilitators of group discussion and collaborative work, but the behavioral differences between LLM-generated and human facilitation remain insufficiently characterized. We compare human Project Manager facilitation turns from scenario-based collaborative design meetings with Llama 3.1 8B Instruct responses across 199 paired contexts from the AMI Meeting Corpus. The analysis covers five confirmatory dimensions: contextual semantic distance, a lexical elaboration proxy, empathyand-hedge lexical density, topic divergence, and phase-vocabulary alignment. An exploratory directiveness measure failed domain validation and is not interpreted. The sampled human Project Manager turns were higher on contextual semantic distance (r = 0.644) and on empathyand-hedge lexical density (r = 0.203). The second contrast is carried mainly by hedge terms, so we read it as lexical hedging rather 
     
-[^328]: 基于不动点流匹配的强化学习
+[^329]: 基于不动点流匹配的强化学习
 
     Reinforcement Learning via Fixed-point Flow Matching
 
@@ -5081,7 +5097,7 @@
 
     arXiv:2610.12848v1 Announce Type: new  Abstract: In maximum entropy and behavior-constrained reinforcement learning (RL), the optimal policy is given by a Boltzmann distribution. Generating samples from this distribution can be challenging, as it is often complex and multimodal. While flow policies trained with flow matching provide a powerful framework for representing such distributions, they traditionally rely on access to training data, which is generally unavailable in online RL. To address this limitation, we propose fixed-point flow matching (FFM), a data-free procedure for training and fine-tuning flow policies in RL. FFM leverages the target flow identity to formulate the actor update as a fixed-point iteration, utilizing a flow-matching-style regression objective where the critic's action gradients serve as regression targets. We show that the optimal policy is a fixed point of this iteration. Through extensive experiments, we demonstrate that FFM effectively fine-tunes pretr
     
-[^329]: HRIL：通过高阶张量建模学习多模态协同信息
+[^330]: HRIL：通过高阶张量建模学习多模态协同信息
 
     HRIL: Learning Multimodal Synergy via Higher-Order Tensor Modeling
 
@@ -5095,7 +5111,7 @@
 
     arXiv:2610.12393v1 Announce Type: new  Abstract: Self-supervised multimodal representation learning has achieved remarkable success across diverse domains, yet capturing synergistic information remains challenging due to the complexity of cross-modal interactions. Unlike the shared information across individual modalities, synergy arises when task-relevant signals emerge only from the joint configuration of multiple modalities and cannot be recovered from any modality in isolation. This work focuses on how to preserve the information capacity for such synergistic signals in multimodal representations. The key observation is that synergistic information is reflected in higher-order statistical dependence among modalities, which provides a principled target for explicitly modeling joint interactions. Motivated by this insight, we propose Higher-order Representation and Information Learning (HRIL), which constructs an empirical cross-moment tensor over modality embeddings to represent mul
     
-[^330]: 基于接地大语言模型的CAD模型自动化装配指令生成：一种人在回路框架
+[^331]: 基于接地大语言模型的CAD模型自动化装配指令生成：一种人在回路框架
 
     Automated Assembly Instruction Generation from CAD Models Using Grounded Large Language Models: A Human-in-the-Loop Framework
 
@@ -5109,7 +5125,7 @@
 
     arXiv:2610.11896v1 Announce Type: new  Abstract: Assembly documentation is a downstream manufacturing artifact that is still usually authored by interpreting CAD models by hand. Structured product data and large language models are both available, yet studies of CAD interpretation, assembly sequence planning, instruction writing, and human oversight have largely proceeded separately. This paper formulates CAD-grounded assembly instruction generation: the production of natural-language assembly procedures constrained by structured engineering information extracted from CAD models. The proposed framework maps a STEP assembly to a typed ProductGraph intermediate representation, derives a precedence order by deterministic topological sorting, realizes each step as language conditioned only on selected graph context, attaches per-step visual documentation, and applies rule-based and model-assisted checks. PDF export remains disabled until a human reviewer resolves every quality flag. The ca
     
-[^331]: 大语言模型会从上下文中的奖励中学习吗？：重新思考奖励在上下文强化学习中的作用
+[^332]: 大语言模型会从上下文中的奖励中学习吗？：重新思考奖励在上下文强化学习中的作用
 
     Do LLMs Learn from Rewards in Context? : Rethinking the role of reward in In-Context Reinforcement Learning
 
@@ -5123,7 +5139,7 @@
 
     arXiv:2610.11152v1 Announce Type: cross  Abstract: LLM agents increasingly improve at inference time by accumulating experience in context rather than by updating parameters. This process is often described as in-context reinforcement learning (ICRL). Whether in-context learning (ICL) can actually play the role of RL, however, has not been tested. We study this question in its simplest form, direct ICRL, where the model conditions directly on raw trajectory-reward pairs, and ask whether the reward acts as a learning signal. Through controlled experiments on four benchmarks across six models, we find that the reward is read, but its effect is small: flipping, randomizing, or removing the reward leaves the improvement curve almost unchanged, and this holds even under meta-prompts that explicitly instruct the model to explore, exploit, or reason over rewards. Trajectories drive improvement, but not through their semantic content: shuffled or corrupted trajectories work as well as real one
     
-[^332]: NOMOS：将书面策略编译为LLM代理的静态验证工具调用门控
+[^333]: NOMOS：将书面策略编译为LLM代理的静态验证工具调用门控
 
     NOMOS: Compiling Written Policies into Statically Verified Tool-Call Gates for LLM Agents
 
@@ -5137,7 +5153,7 @@
 
     arXiv:2610.11030v1 Announce Type: cross  Abstract: Tool-using LLM agents violate the policies they are deployed to enforce, often silently. Prior defenses hand-write rules, query an LLM verifier per action, or compile policies through heavyweight formal machinery. Naive compilation fails: extracted rules block the tool satisfying their own precondition, or read arguments their tool lacks. NOMOS, a four-pass compiler, turns a natural-language policy into a deterministic tool-call gate; static verification with tool-schema-level checks alone (no prover, solver, or LLM) repairs or rejects 37% (airline) and 13% (retail) of candidates, without which most shipped rules are inoperable. Replaying compiled rules over undefended transcripts flags bindings that refuse legitimate work (a development binding refused 95.9% of task-passing calls); no evaluation binding is flagged. On $\tau^2$-bench the gate cuts violations of reference-encoded clauses among state-changing calls from 66.3% to 2.6% (ai
     
-[^333]: 具有RBF核的高斯过程极大似然估计的精确渐近理论
+[^334]: 具有RBF核的高斯过程极大似然估计的精确渐近理论
 
     Sharp Asymptotic Theory of Maximum Likelihood Estimation for Gaussian Processes with an RBF Kernel
 
@@ -5151,7 +5167,7 @@
 
     arXiv:2610.10080v1 Announce Type: cross  Abstract: Gaussian processes (GPs) are widely used across machine learning, spatial statistics, time-series analysis, optimization, Bayesian statistics, and scientific applications. A central component of a GP model is its kernel, which is typically specified through a parametric family. Among the most widely used choices is the radial basis function (RBF), also known as the squared exponential or Gaussian kernel, owing to its simple form, smoothness, and flexibility. In practice, the kernel parameters are routinely estimated by the maximum likelihood estimators (MLEs), as implemented by standard GP software. Despite this widespread use, the asymptotic behavior of the MLEs remains poorly understood under fixed-domain asymptotics, even for the RBF kernel. The main difficulty arises from the increasingly strong dependence among densely sampled observations and the nonlinear dependence of the covariance matrix on the kernel parameters. In this pape
     
-[^334]: 互不相溶扩散策略：通过无标签噪声分配保留多模态机器人动作
+[^335]: 互不相溶扩散策略：通过无标签噪声分配保留多模态机器人动作
 
     Immiscible Diffusion Policy: Preserving Multimodal Robot Actions through Label-Free Noise Assignment
 
@@ -5165,7 +5181,7 @@
 
     arXiv:2610.09369v1 Announce Type: cross  Abstract: When diffusion policies were first introduced, they were expected to recover multi-modal action distributions. However, we find this expectation does not always hold, as diffusion policies often collapse to a single modality even when we guarantee the balance of dataset modalities and exact within-batch symmetry. Our analysis indicates that independent action-noise pairing contributes to this failure by increasing mixing and crossing among diffusion paths, which can produce averaged denoising responses and suppress modality-specific behavior. This issue is especially severe in robot planning, where action spaces are dense and low-dimensional, significantly increasing such mixing and crossing. To alleviate this problem, we propose Immiscible Diffusion Policy, a label-free training-time add-on to diffusion policy that uses action-noise assignment to preserve relatively distinct noise-to-action routes without modifying the policy architec
     
-[^335]: 利用序列蒙特卡洛引导扩散模型生成稀有事件
+[^336]: 利用序列蒙特卡洛引导扩散模型生成稀有事件
 
     Steering Diffusion Models to Rare Events with Sequential Monte Carlo
 
@@ -5179,7 +5195,7 @@
 
     arXiv:2610.08652v1 Announce Type: cross  Abstract: Diffusion models are increasingly used as surrogates for expensive simulators in weather prediction, molecular dynamics, and materials design. In these models, computing the probability $p_0[E]$ of an event $E$ is difficult, especially when the event of interest is rare. A stable estimate using Monte Carlo becomes computationally intractable, requiring a growing sample size $\propto\!1/p_0[E]$ to compensate for an increasing rarity. In this paper, we present Diffusion Importance Sampling of Rare Events or DireSMC, a sequential Monte Carlo scheme that guides a population of weighted samples towards the rare event, giving access not only to samples but also to a calibrated estimate of its probability. We set up our guidance using an analytical relaxation of the event set, allowing the method to easily extend to a wide range of user-defined rare events. We validate our method on a toy problem with analytical solutions and on a score-based
     
-[^336]: ProximalFM：隐藏混杂下的摊销式近端因果推断
+[^337]: ProximalFM：隐藏混杂下的摊销式近端因果推断
 
     ProximalFM: Amortized Proximal Causal Inference under Hidden Confounding
 
@@ -5193,7 +5209,7 @@
 
     arXiv:2610.08078v1 Announce Type: cross  Abstract: Standard causal identification methods often assume no unmeasured confounding and can fail when relevant confounders are unobserved. Proximal causal inference instead uses proxy variables to identify effects under hidden confounding. However, nonparametric proximal estimation can be challenging in practice: recovering causal estimands such as the conditional average treatment effect (CATE) requires solving an ill-posed integral equation that is data-hungry, hyperparameter-sensitive, and optimization-unstable. Bayesian inference for such models provides a desirable alternative, mitigating these difficulties by regularizing through the prior. However, computing a posterior is itself challenging, as a typical likelihood function will include latent variables. Following the recent success of tabular foundation models in backdoor, instrumental variable, and frontdoor settings, we propose that prior-data fitted networks (PFNs) are uniquely s
     
-[^337]: 自我回溯蒸馏：将事后经验转化为先验预见
+[^338]: 自我回溯蒸馏：将事后经验转化为先验预见
 
     Self-Retrospection Distillation: Turning Post-hoc Experiences into Prior Foresight
 
@@ -5207,7 +5223,7 @@
 
     arXiv:2610.08077v1 Announce Type: new  Abstract: Reinforcement learning with verifiable rewards (RLVR) turns agent experience into learning signals primarily through scalar outcome rewards after interaction. For group-relative objectives, however, this signal vanishes when all rollouts receive the same reward, even though their trajectories may reveal useful information about what the task requires and how the agent fails. We ask a complementary question: can hindsight teach an agent what it could have anticipated before acting? We introduce prospective learning, which uses post-hoc experience to supervise foresight predictions from the pre-interaction view, and instantiate it with Self-Retrospection Distillation (SRD). Intuitively, a completed trajectory reveals knowledge that would have been useful and pitfalls that should be avoided; SRD distills this privileged hindsight into trajectory-blind foresight of the same policy. Foresight serves only as a training target and need not be e
     
-[^338]: 迷失于bf16类型转换：导出三值语言模型可能抵消大部分低学习率代码改动的效果
+[^339]: 迷失于bf16类型转换：导出三值语言模型可能抵消大部分低学习率代码改动的效果
 
     Lost in the bf16 Cast: Exporting Ternary Language Models Can Revert Most Low-Learning-Rate Code Changes
 
@@ -5221,7 +5237,7 @@
 
     arXiv:2610.07853v1 Announce Type: cross  Abstract: Ternary language models such as BitNet b1.58, Falcon-E and BitCPM are fine-tuned with higher-precision latent weights and deployed as ternary codes produced by an export step that, in the labs' documented pipelines, first casts the latents to bf16. We audit those pipelines across three labs. In released checkpoints, fp32 quantization of the shipped latents disagrees with the deployed codes on 0.83-1.77% of codes in Falcon-E and BitCPM and on 1.530% in BitNet 2B-4T; for Falcon-E and BitCPM most disagreements are products that bf16 rounding lands exactly on the threshold, which ties-to-even maps to zero, and the unmodified onebitllms exporter reproduces all four Falcon-E releases byte for byte. At fine-tuned endpoints, with learning rates selected to match a nominal learning-rate-to-bf16-ULP ratio, the documented export lowers greedy GSM8K strict accuracy from 58.79% to 0.78% for Falcon-E-1B-Base and from 36.13% to 0.39% for BitCPM-CANN-
     
-[^339]: EMG-FM-Bench：一个面向肌电信号基础模型迁移与适配的综合性基准测试
+[^340]: EMG-FM-Bench：一个面向肌电信号基础模型迁移与适配的综合性基准测试
 
     EMG-FM-Bench: A Comprehensive Benchmark for Foundation Model Transfer and Adaptation on Electromyography
 
@@ -5235,7 +5251,7 @@
 
     arXiv:2610.06450v2 Announce Type: replace  Abstract: Foundation models (FMs) are increasingly being developed for general time series and physiological signals, yet their transferability to downstream physiological tasks remains poorly understood. This question is particularly challenging for electromyography (EMG), where signal distributions vary substantially across users, sensing configurations, acquisition hardware, and downstream tasks. We introduce EMG-FM-Bench, a systematic benchmark for studying foundation-model transfer and adaptation on EMG. EMG-FM-Bench unifies 20 public datasets with over 1 million EMG segments and evaluates nine pretrained foundation models across four questions: how pretrained models perform when frozen or fully fine-tuned, how much pretraining helps compared with training the same model from scratch, how well models generalize to new users with limited labeled data, and how performance changes across different EMG tasks. Across the benchmark, linear prob
     
-[^340]: 朗之万流映射：高效分子动力学与过渡路径采样
+[^341]: 朗之万流映射：高效分子动力学与过渡路径采样
 
     Langevin Flow Maps: Efficient Molecular Dynamics and Transition Path Sampling
 
@@ -5249,7 +5265,7 @@
 
     arXiv:2610.05998v2 Announce Type: replace  Abstract: Molecular dynamics simulations proceed by integrating the Langevin equations over many small femtosecond timesteps. This poses a challenge for estimating ensemble properties and transition dynamics that occur on much longer timescales. We introduce Langevin Flow Maps, which extend machine-learned force-fields to additionally learn the stochastic Langevin integrator. We show that Langevin Flow Maps enable large-timestep molecular dynamics and recover accurate dynamical properties of the system, while running an order of magnitude faster than current machine-learned force fields. Further, by training on a diverse molecular dataset, we demonstrate a path towards transferable Langevin Flow Maps.
     
-[^341]: 从混合到撕裂：基于消息传递的去中心化优化中的图分解
+[^342]: 从混合到撕裂：基于消息传递的去中心化优化中的图分解
 
     From Mixing to Tearing: Graph Decomposition in Decentralized Optimization via Message Passing
 
@@ -5263,7 +5279,7 @@
 
     arXiv:2610.03709v1 Announce Type: cross  Abstract: We study the minimization of sums of smooth strongly convex functions over undirected graphs, with each function held by one agent and communication restricted to neighbors in the graph. Existing decentralized methods, whether based on gossip or on routing over spanning trees, typically   use the network to mix or aggregate information to enable   {\it prescribed} local optimization   updates. What this communication-centered viewpoint lacks is a general   framework that uses graph structure to {\it jointly} design the   optimization subproblems and the cooperative computation and communication through which agents solve them   cooperatively.   We develop such a framework from first principles,   jointly designing the linear representation of agreement constraints, the blocks of   the resulting dual variables (jointly optimized), and connected cluster of agents that   cooperatively solve each block subproblem over the assigned subgraph
     
-[^342]: 神经物理反演器：一种耦合集成条件化与残差学习的大地电磁反演模块化框架
+[^343]: 神经物理反演器：一种耦合集成条件化与残差学习的大地电磁反演模块化框架
 
     The Neuro-Physical Inverter: A Modular Framework for Magnetotelluric Inversion Coupling Ensemble Conditioning with Residual Learning
 
@@ -5277,7 +5293,7 @@
 
     arXiv:2610.03225v1 Announce Type: new  Abstract: We present the Neuro-Physical Inverter (NPI), a modular, uncertainty-aware framework for geophysical inversion that couples ensemble-based conditioning with constrained residual learning, demonstrated in the 1D magnetotelluric (MT) setting as a controlled testbed. The framework operates in two stages. An Ensemble-Conditional Gaussian Process (EnsCGP) conditions a prior ensemble of resistivity models on the observed response, producing a physically admissible reference ensemble. A residual-learning neural network then predicts targeted corrections to this reference, trained on synthetic data and fine-tuned per station for field application through a physics-coupled objective. Because an ensemble is conditioned, refined, and propagated through both stages, every estimate carries an associated ensemble spread. Synthetic experiments show that NPI systematically reduces ensemble-mean error without destabilizing the ensemble. Applied to broadb
     
-[^343]: 预测导向的高斯过程后验
+[^344]: 预测导向的高斯过程后验
 
     Predictively Oriented Gaussian Process Posteriors
 
@@ -5291,7 +5307,7 @@
 
     arXiv:2610.03201v1 Announce Type: cross  Abstract: Gaussian Processes (GPs) are a powerful tool for modelling and quantifying uncertainty in functional relationships. However, they require practitioners to make a number of design decisions, such as the choice of the kernel and the observation model. Suboptimal choices can produce misspecified models that do not capture the underlying data generating process. We introduce Predictively Oriented Gaussian Processes (PrO-GPs), which treat predictive uncertainty as the primary inferential target and provide a robust alternative to standard GPs. Although direct computation of a PrO posterior for nonparametric models is intractable, we derive a reduced formulation and practical sampling scheme for efficient computation. Through synthetic and real data experiments, we show that PrO-GPs produce better calibrated predictive distributions under model misspecification compared to standard GP approaches.
     
-[^344]: 非平稳分布偏移下图学习的高效记忆结晶
+[^345]: 非平稳分布偏移下图学习的高效记忆结晶
 
     Efficient Memory Crystallization for Graph Learning under Non-Stationary Distribution Shifts
 
@@ -5305,7 +5321,7 @@
 
     arXiv:2610.02795v1 Announce Type: new  Abstract: Deep graph learning models deployed in real-world systems often need to cope with non-stationary environments, where the underlying graph distribution drifts continually over time. Prevailing solutions rely on training auxiliary generative modules to synthesize memory graphs for cross-domain adaptation, which incurs substantial computational overhead and scales poorly under prolonged distribution shifts. We argue that a more economical path exists: rather than generating memory, one can crystallize it. To this end, we propose Efficient Memory Crystallization (EMC), a training-free test-time framework that distills each incoming graph domain into a compact, semantically faithful memory through a closed-form solution to a memory-oriented distribution-matching objective, thereby eliminating redundant domain information under continual covariate shifts. To preserve both generalizability and adaptability as the model traverses a long sequence
     
-[^345]: 想象未来，内化要旨：通过内化时空想象实现高效的VLA推理
+[^346]: 想象未来，内化要旨：通过内化时空想象实现高效的VLA推理
 
     Imagine the Future, Internalize the Gist: Efficient VLA Reasoning via Internalized Spatiotemporal Imagination
 
@@ -5319,7 +5335,7 @@
 
     arXiv:2610.02626v2 Announce Type: cross  Abstract: Vision-language-action (VLA) models increasingly incorporate intermediate reasoning to improve robotic manipulation, yet existing approaches primarily reason about observed states without explicitly anticipating future scene evolution. Extending such reasoning to explicit future rollouts at every inference step, however, introduces substantial computational overhead. We propose IG-VLA, a VLA reasoning framework that enables models to imagine the future and internalize the gist. Our Latent Spatiotemporal Reasoning learns to imagine task-relevant future scene evolution directly in visual representation space, guiding action prediction without costly pixel-level video generation. To further reduce inference overhead, we introduce Scene Gist Memory, which internalizes reasoning-derived scene-behavior associations into a compact Scene Gist Token, preserving the benefits of future reasoning while bypassing explicit future imagination at infe
     
-[^346]: 参与敏感的收敛与异步在线学习中的“先分裂、后收敛”模式：基于22门OULAD课程的拓扑分析
+[^347]: 参与敏感的收敛与异步在线学习中的“先分裂、后收敛”模式：基于22门OULAD课程的拓扑分析
 
     Participation-Sensitive Convergence and the Fragment First, Converge Later Pattern in Asynchronous Online Learning: A Topological Analysis Across 22 OULAD Courses
 
@@ -5333,7 +5349,7 @@
 
     arXiv:2610.01738v1 Announce Type: cross  Abstract: Asynchronous online learning offers temporal flexibility at a structural cost: learning communities tend to fragment rather than cohere. $\beta_0$, the number of disconnected behavioral clusters from Zigzag Persistent Homology, serves as a cohort-level indicator of this structure. Two questions remained unverified at scale: (1) does apparent $\beta_0$ convergence reflect genuine behavioral alignment or learner dropout? and (2) do assessment deadlines produce reproducible fragmentation-convergence cycles? We address both across all 22 OULAD courses (N > 22,000; 857 week-pairs). Changes in $\beta_0$ strongly co-vary with active learner changes (pooled r = 0.387; median per-course r_delta = 0.459, 20/22 courses), identifying $\beta_0$ as a participation-sensitive indicator: $\beta_0$ and active learner counts co-respond to deadline events rather than one causing the other. Deadlines produced fragmentation in 82.6% of assessments and the f
     
-[^347]: 教师是方向，而非终点：在线策略蒸馏中外推强化学习诱导的表征残差
+[^348]: 教师是方向，而非终点：在线策略蒸馏中外推强化学习诱导的表征残差
 
     The Teacher Is a Direction, Not a Destination: Extrapolating RL-Induced Representation Residuals in On-Policy Distillation
 
@@ -5347,7 +5363,7 @@
 
     arXiv:2609.36484v1 Announce Type: new  Abstract: On-policy distillation (OPD) trains a student to match the teacher's next-token distributions on the student's own trajectories and has yielded substantial empirical gains. Generalized variants allow the student to surpass the teacher by extrapolating an implicit reward in output space. The language-model head, however, attenuates this change anisotropically: much of the change encoded in the teacher's hidden states reaches the logits at a small fraction of its weight, and the sampled-token log-probability ratios on which output-space extrapolation relies inject noise that the extrapolation amplifies, making training unstable. We observe that reinforcement learning (RL) shifts a model's internal representations relative to its base checkpoint, and that the direction of this shift can be measured at every layer. Motivated by this observation, we propose RIDE (RL-Induced Direction Extrapolation), which extrapolates the RL-induced change di
     
-[^348]: NeuronSifter：中枢神经系统微环境中的干预规划
+[^349]: NeuronSifter：中枢神经系统微环境中的干预规划
 
     NeuronSifter: Intervention Planning in CNS Microenvironments
 
@@ -5361,7 +5377,7 @@
 
     arXiv:2609.35445v2 Announce Type: replace  Abstract: Prioritizing central nervous system (CNS) interventions requires predicting how a dose, route, and schedule act on a partially observed microenvironment, then choosing the measurement that would change the decision. Action-conditioned predictors reduce a regimen to an identity token or a scalar exposure, discarding where and when the target is engaged; handing a point estimate to a separate planner then discards the joint uncertainty that makes a measurement worth running. We therefore treat decision quality as a property of the intervention interface, not of controller placement. NeuronSifter compiles regimens into state-conditional target-occupancy fields with support masks, propagates them through microenvironment dynamics with an occupancy-conditioned diffusion operator, and selects measurements by their expected reduction in intervention loss, assimilating typed outcomes into the same posterior. In a declared synthetic Alzheimer
     
-[^349]: NeuronDiscover：基于世界动作模型在神经元微环境中进行机制发现的“孪生体中智能体”框架
+[^350]: NeuronDiscover：基于世界动作模型在神经元微环境中进行机制发现的“孪生体中智能体”框架
 
     NeuronDiscover: Agent-in-Twin for Mechanistic Discovery in Neuronal Microenvironments with World Action Models
 
@@ -5375,7 +5391,7 @@
 
     arXiv:2609.35338v2 Announce Type: replace  Abstract: Mechanistic discovery in neuronal microenvironments requires interventions and measurements that separate competing explanations of solute transport and neuronal response. Predictive accuracy cannot settle the question: a real mechanistic change and an error in the computational twin leave the same signature in sparse observations. We formalize this twin confounding and reason over a joint mechanism--discrepancy belief, designing experiments that separate the two. NeuronDiscover is an Agent-in-Twin framework whose shared, mechanism-grounded World Action Model (WAM) couples prediction, intervention proposals, and observation design; independently adjudicated outcomes revise a scoped Mechanism--Intervention--Observation--Outcome (MIOY) graph, whose supported relations compile into executable programs carrying discrepancy-adjusted acceptance bounds. We evaluate on simulated brain-fluid tracer-transport worlds adjudicated by an independe
     
-[^350]: 深度核对冲
+[^351]: 深度核对冲
 
     Deep kernel hedging
 
@@ -5389,7 +5405,7 @@
 
     arXiv:2609.34474v2 Announce Type: replace  Abstract: We introduce a deep kernel hedging framework that combines the flexibility of deep learning with the structural inductive bias of kernel methods. The hedging functional is restricted to a reproducing kernel Hilbert space whose kernel is parameterized through a neural network embedding of the input features. The framework minimizes a regularized empirical risk under convex loss functions and can accommodate path-dependent information through truncated time-augmented signature features. We derive a generalized representer theorem for the joint hedging problem, reducing the empirical optimization to a finite-dimensional problem. To further reduce the computational cost associated with large kernel matrices, we develop a scalable random Fourier feature approximation and establish convergence guarantees. The random Fourier parameters are sampled once and remain fixed throughout training, while the deep kernel adapts to market data through
     
-[^351]: 多候选响应用于从示范中学习的统计优势
+[^352]: 多候选响应用于从示范中学习的统计优势
 
     The Statistical Benefits of Multiple Responses for Learning from Demonstrations
 
@@ -5403,7 +5419,7 @@
 
     arXiv:2609.33291v2 Announce Type: replace-cross  Abstract: Many generative systems return multiple candidate responses and are evaluated according to the best one. Recent work shows that, when demonstrations are optimal, pass@$k$ can reduce the sample complexity of learning from demonstrations by a logarithmic factor in $k$. We ask what happens when the demonstrator is not assumed to be optimal. We find that multiple responses provide a qualitatively stronger benefit in this setting. In a finite reward-class model with no reward feedback, moving from pass@$1$ to any pass@$k$ with $k\ge2$ changes the worst-case dependence on target accuracy from $1/\varepsilon^2$ to $1/\varepsilon$, uniformly over demonstrator quality. Under standard evaluation, where an unknown reward is fixed before training, increasing $k$ provides an additional and distinct benefit: the optimal dependence on a reward class of size $N$ improves from $\log N$ to $\log N/\log k$. We further show that these two effects 
     
-[^352]: PrismQuant：面向分组量化器的最优零空间旋转
+[^353]: PrismQuant：面向分组量化器的最优零空间旋转
 
     PrismQuant: Optimal Null-Space Rotations for Grouped Quantizers
 
@@ -5417,7 +5433,7 @@
 
     arXiv:2609.32429v2 Announce Type: replace-cross  Abstract: Smaller activation outliers do not necessarily imply better low-bit quantization: their alignment with the quantizer matters. We introduce PrismQuant, a quantizer-aware rotation framework that aligns the leading activation eigenspace with the constant group subspace of asymmetric grouped INT4. The affine offsets represent the energy in this subspace without widening the range within the group. We formulate rotation design as a Ky Fan trace maximization and derive a closed-form solution that is provably optimal for this alignment objective. Compact Householder transformations and their compact-WY representation enable gradient-free construction and efficient application at both foldable and online sites. A predictive range law further connects unaligned activation energy and group size to quantization-relevant variation. Experiments on Llama, Qwen, and Mistral span dense models up to 70B parameters and a 30B mixture-of-experts m
     
-[^353]: TimeES：基于演化谱的概率性与确定性时间序列预测
+[^354]: TimeES：基于演化谱的概率性与确定性时间序列预测
 
     TimeES: Probabilistic and Deterministic Time Series Forecasting via Evolutionary Spectra
 
@@ -5431,7 +5447,7 @@
 
     arXiv:2609.32384v2 Announce Type: replace  Abstract: Real-world time series are inherently non-stationary, with trends, periodic patterns, and uncertainty evolving over time. While the Fourier domain offers a natural lens to model time series, current deep learning approaches do not explicitly model evolution and randomness in the Fourier spectra, which limits their ability to accurately predict both the expected trajectory and its uncertainty in non-stationary time series. Motivated by Evolutionary Spectra (ES) theory, we propose TimeES, a general framework that enables probabilistic and deterministic forecasting via the evolutionary spectra theory. Specifically, we derive a parameterizable evolutionary spectra formulation, recasting non-stationary random process modeling as learning an evolving representation modulated by random variables. Furthermore, we reduce the complexity of the estimated spectra from O(NM) to O(NK), where K << M/2, by exploiting Hermitian symmetry and spectral 
     
-[^354]: DiffPTS：重新思考用于概率时间序列预测的扩散模型证据下界（ELBO）
+[^355]: DiffPTS：重新思考用于概率时间序列预测的扩散模型证据下界（ELBO）
 
     DiffPTS: Rethinking Diffusion ELBO for Probabilistic Time Series Forecasting
 
@@ -5445,7 +5461,7 @@
 
     arXiv:2609.32363v2 Announce Type: replace  Abstract: Probabilistic time series forecasting requires modeling and predicting complex and time-varying distributions. Recently, Denoising Diffusion Probabilistic Model (DDPM)-based approaches have shown promise by equipping the dif- fusion process with pretrained mean and variance estimators to accommodate distributional shift. However, these methods typically follow the standard DDPM framework and consider only partial components of the evidence lower bound (ELBO), treating the training of estimators as designed regression tasks separate from the variational inference framework. To address this, we rethink the ELBO under the Location-Scale Noise Model (LSNM) and find that it naturally induces a Gaussian negative log likelihood objective for the estimators and inherently defines a joint training objective that unifies recent diffusion paradigms for probabilistic forecasting. Building on this principled ELBO reformulation, we propose Diff- P
     
-[^355]: 面向不确定动态系统的可证明神经网络安全观测器学习
+[^356]: 面向不确定动态系统的可证明神经网络安全观测器学习
 
     Learning Provable Neural Network Observer for Uncertain Dynamical Systems
 
@@ -5459,7 +5475,7 @@
 
     arXiv:2609.30819v1 Announce Type: new  Abstract: In many safety-critical applications, control of uncertain dynamical systems relies on observers that estimate states and external disturbances. Neural network observers can improve estimation accuracy, but certifying their Lyapunov stability via Linear Matrix Inequality (LMI) constraints leads to large-scale semidefinite programs (SDPs) that are difficult to solve for large networks. To overcome this scalability bottleneck, we propose a novel two-stage training framework for provably stable neural network observers. Our approach decouples the optimization into a point-guided Lyapunov pre-training phase, which rapidly achieves high estimation accuracy and local stability over sampled states, followed by an LMI fine-tuning phase that efficiently satisfies a strict global Lyapunov stability certificate. We provide formal theoretical guarantees for local stability radii and probabilistic coverage over a prescribed compact error-state domain
     
-[^356]: 一个从纵向文本数据中建模组织级语义身份的计算框架
+[^357]: 一个从纵向文本数据中建模组织级语义身份的计算框架
 
     A Computational Framework for Modelling Organisation-Level Semantic Identity from Longitudinal Textual Data
 
@@ -5473,7 +5489,7 @@
 
     arXiv:2609.29584v1 Announce Type: cross  Abstract: Organisations continuously generate large volumes of textual data that capture how they communicate, evolve and differentiate themselves over time. Although recent advances in natural language processing have substantially improved organisation-level text analytics, existing approaches primarily represent organisations as latent embeddings or predictive feature vectors for similarity estimation, classification or retrieval. Consequently, there is currently no general computational framework for modelling organisation-level semantic identity as an interpretable and evolving semantic construct derived from longitudinal textual evidence. This paper introduces a computational framework that integrates semantic representation learning, graph-based semantic modelling, organisation-level semantic fingerprints, temporal semantic evolution and evidence-driven validation within a unified analytical methodology. Organisations are characterised th
     
-[^357]: 记忆注意力
+[^358]: 记忆注意力
 
     Memory Attention
 
@@ -5487,7 +5503,7 @@
 
     arXiv:2609.28399v1 Announce Type: new  Abstract: Language models typically construct attention values from contextual hidden states, even when some of their content may be reusable across contexts. We investigate whether token-indexed memory can replace the dedicated value projection when complemented by contextual information. We propose Memory Attention (MA), which forms values by combining layer-specific token memory with contextual keys. The memory supplies token-specific representations, while the keys preserve context dependence. At inference, normalization can be folded into the memory tables, reducing value construction to lookup and addition. Token-indexed retrieval also enables CPU offloading with prefetching, reducing GPU parameter storage. Under matched training token budgets and with additional memory parameters, experiments across attention configurations show improved language modeling and average downstream performance.
     
-[^358]: hyperbolix：基于 JAX 的双曲深度学习库
+[^359]: hyperbolix：基于 JAX 的双曲深度学习库
 
     hyperbolix: Hyperbolic Deep Learning in JAX
 
@@ -5501,7 +5517,7 @@
 
     arXiv:2609.28248v1 Announce Type: new  Abstract: We present hyperbolix, an open-source library for hyperbolic deep learning in JAX, built on Flax NNX. To our knowledge, it is the first comprehensive, general-purpose hyperbolic deep learning library in JAX. It includes six manifolds with a common interface: Euclidean space, the Poincar\'e ball, the hyperboloid, the $\kappa$-stereographic model, mixed-curvature product spaces, and the proper velocity space. We implement layer families that cover linear layers, convolutions, attention, normalization, positional encoding, regression, and vector quantization. These building blocks span methods ranging from Ganea's original hyperbolic neural networks to recent fully hyperbolic architectures such as Hypformer and Lorentzian ResNet. Additionally, hyperbolix contains Riemannian optimizers implemented as optax transformations, wrapped distributions, and hyperbolic dimensionality-reduction techniques. Its API uses idiomatic JAX: Manifolds are sta
     
-[^359]: EduBehaviors：面向可审计教育对话编码的基于断言的模式框架
+[^360]: EduBehaviors：面向可审计教育对话编码的基于断言的模式框架
 
     EduBehaviors: Assertion-based Schemas for Auditable Coding of Educational Dialogues
 
@@ -5515,7 +5531,7 @@
 
     arXiv:2609.27043v1 Announce Type: new  Abstract: Large language models have allowed the rapid deployment of pedagogical annotations corresponding to constructs of interest, allowing a natural language interface for generating classifications on a conversational dataset. However due to the opaque nature of LLM reasoning, we have no verifiable, mechanistic insight into why a model chose a label for an utterance. We introduce the EduBehaviors framework, an interpretable, scalable approach to annotating educational data that uses LLMs to measure repeated observable behaviors relevant to many constructs of interest and then learns a classifier for the construct based on these observable behaviors. We evaluate the framework on the TalkMoves dataset, predicting the Teacher TalkMoves labels. Our best configuration results in a macro-F1 of 0.673 and 0.688 Cohen's kappa, proving competitive with direct prompting approaches. In addition, we release EduBehaviors Toolkit, two tools allowing researc
     
-[^360]: 每个固定指标都有盲区：一种用于评分天气预报真实性的学习型大气评论器
+[^361]: 每个固定指标都有盲区：一种用于评分天气预报真实性的学习型大气评论器
 
     Every Fixed Metric Has a Blind Spot: A Learned Atmospheric Critic for Scoring Forecast Realism
 
@@ -5529,7 +5545,7 @@
 
     arXiv:2609.18381v1 Announce Type: new  Abstract: Despite their high accuracy on point-wise metrics, machine learning weather forecasting models can exhibit different failure modes such as blurring, periodic irregularities, and other unphysical spatial artifacts. This has motivated a variety of metrics to detect known failure cases. Existing metrics fix a representation or transformation in advance, and that choice limits the artifacts they can detect. We propose to train a discriminator for separating reference data from the model's output, and using its output logit to obtain a divergence-like realism score. The discriminator learns whatever separates the model's fields from real weather, adapting to whichever failure mode that model exhibits. We compare our learned atmospheric critic to existing metrics using various synthetic corruptions applied to ERA5 reanalysis data. Our method successfully identifies the corruptions and ranks their severity, while existing metrics fail on at lea
     
-[^361]: 基于正则化的鲁棒强化学习的统一约束视角
+[^362]: 基于正则化的鲁棒强化学习的统一约束视角
 
     A Unified and Constrained View of Regularization-Based Robust Reinforcement Learning
 
@@ -5543,7 +5559,7 @@
 
     arXiv:2609.13050v1 Announce Type: new  Abstract: Regularization-based methods have become a standard approach for training Deep Reinforcement Learning policies against adversarial input perturbations. In this paper, we unify these methods by deriving new upper bounds on the performance gap between the nominal and worst-case policies. Each upper bound is expressed as an existing regularization objective plus a KL-divergence penalty between the nominal and worst-case policies, which further explains why adding a KL penalty improves robustness in practice. Building on these bounds, we formulate robust training as a constrained optimization problem, showing that existing methods correspond to the special case of a fixed Lagrange multiplier. We instead update the multiplier jointly with the policy to automatically tune the regularization weight. Finally, we conduct extensive adversarial evaluations across several continuous control tasks to validate our theoretical analysis.
     
-[^362]: 相对智能学习 II：可处理或半监督的实例最优学习
+[^363]: 相对智能学习 II：可处理或半监督的实例最优学习
 
     Relatively Smart II: Tractable or Semi-Supervised Instance-Optimal Learning
 
@@ -5557,7 +5573,7 @@
 
     arXiv:2609.10886v1 Announce Type: new  Abstract: We continue the study of relatively smart learning, introduced by Dughmi and Pour (2026), which asks a supervised learner to compete, marginal by marginal, with every distribution-fixed error guarantee soundly certifiable from unlabeled data. They showed that the One-Inclusion Graph (OIG) learner is relatively smart with a quadratic sample-complexity blowup, and that no relatively smart learner can do better, leaving open whether ERM or another natural or tractable learner achieves comparable guarantees. They also left open whether the blowup can be restricted to unlabeled data.   Our firs results shows that ERM---and in fact any proper consistent learner---is relatively smart for binary classification in the distribution-free setting. We show that a small certifiable error with $m$ samples implies a similarly small error on the uniform distribution over a random sample of size $O(m^2)$, yielding a cover of size at most $2^{m+1}$ on that
     
-[^363]: 基于多水平集的物理驱动神经网络求解三维逆散射问题
+[^364]: 基于多水平集的物理驱动神经网络求解三维逆散射问题
 
     Multi-Level-Set-Based Physics-Driven Neural Network to Solve 3-D Inverse Scattering Problems
 
@@ -5571,7 +5587,7 @@
 
     arXiv:2609.08594v1 Announce Type: new  Abstract: This paper proposes a level-set-based physics-driven neural network solver (LSPDNN) for 3-D electromagnetic inverse scattering. To mitigate boundary blurring and reconstruction artifacts in voxel-wise contrast reconstruction, the proposed solver exploits the piecewise homogeneity of practical scatterers by representing unknown targets with multiple coordinate-dependent neural level-set components. Specifically, a soft-union multi-material model is proposed to separately describe the object support and material distribution. The global support is formed by the union of multiple level-set components, while the local contrast is determined by normalized component weights and learnable complex permittivity candidates. In addition, a model-consistent total variation (TV) regularization is imposed on the material-region indicators, rather than directly on the reconstructed contrast, to suppress fragmented material assignments without excessive
     
-[^364]: 重新思考单轮联邦图学习：免训练的统计估计方法
+[^365]: 重新思考单轮联邦图学习：免训练的统计估计方法
 
     Rethinking One-Shot Federated Graph Learning: Training-Free Statistical Estimation
 
@@ -5585,7 +5601,7 @@
 
     arXiv:2609.06154v1 Announce Type: new  Abstract: One-shot federated graph learning generally aims to train Graph Neural Networks (GNNs) across clients with disconnected subgraphs in a single communication round. Existing methods predominantly design advanced optimization strategies under the premise that local GNN training is indispensable. However, empirical observations reveal that under extreme non-IID conditions, local GNN training suffers from severe cross-client representation misalignment, becoming a major source of error rather than a remedy. Motivated by this, we reformulate one-shot FGL as a statistical estimation problem. We propose SPEAR (Statistical Prototype Estimation with Adaptive Reliability), a completely training-free framework that directly computes topology-smoothed class prototypes from local graphs in the original feature space. The server then aggregates these prototypes using a sample-size-adaptive shrinkage estimator that down-weights unreliable local estimate
     
-[^365]: 当基因组掩码先验无法迁移时：强变异预测，弱功能生成
+[^366]: 当基因组掩码先验无法迁移时：强变异预测，弱功能生成
 
     When Genomic Masking Priors Fail to Transfer: Strong Variant Prediction, Weak Functional Generation
 
@@ -5599,7 +5615,7 @@
 
     arXiv:2609.04861v1 Announce Type: new  Abstract: Bidirectional discrete diffusion model appears naturally suited to genomic modeling because it can reconstruct missing sequence from both flanks. We developed GenDA (Genomic Density-optimized Absorbing Diffusion) under the additional hypothesis that entropy-guided span placement would concentrate reconstruction pressure on compositionally complex regions, improving both downstream variant-effect prediction and functional sequence generation. Our results only partially support this premise. After supervised fine-tuning, the 202M-parameter GenDA model reaches a pooled ClinVar SNV AUROC of 0.774, exceeding a similarly scaled autoregressive model by 0.103. However, a matched random-span variant reaches 0.777, providing no evidence that entropy guidance causes the ClinVar improvement. More unexpectedly, GenDA fails a zero-shot functional inpainting stress test: across promoters, enhancers, exon boundaries, and intron boundaries, it does not c
     
-[^366]: 扩散作为无时间步迭代推理的训练课程
+[^367]: 扩散作为无时间步迭代推理的训练课程
 
     Diffusion as a Training Curriculum for Timestep-Free Iterative Reasoning
 
@@ -5613,7 +5629,7 @@
 
     arXiv:2609.01449v1 Announce Type: new  Abstract: Diffusion models and recursive reasoners are both iterative, but they carry information across iterations differently. We add a persistent hidden state to a diffusion denoiser and remove its timestep conditioning, leaving a single shared update that can be run to arbitrary depth. The result is an anytime solver: accuracy keeps improving with inference depth far beyond the rollout lengths and backpropagation window used in training, reaching 99.90% exact solve on Sudoku-Extreme. We also obtain 98.93% solve rate on Maze-Unique. Surprisingly, progressive denoising is unnecessary at inference: holding corruption at its maximum by replacing every non-clue variable with fresh Gaussian noise at each step retains near-perfect solving and converges to stable solutions. This simple noise-injection mechanism enables a single trajectory to efficiently explore the solution space and settle on the correct answer without parallel rollouts, candidate se
     
-[^367]: 大语言模型能够设计近乎最优的运筹学算法
+[^368]: 大语言模型能够设计近乎最优的运筹学算法
 
     LLMs Can Design Near-Optimal OR Algorithms
 
@@ -5627,7 +5643,7 @@
 
     arXiv:2608.27296v1 Announce Type: new  Abstract: We ask whether large language models (LLMs) can design effective algorithms for well-specified operations research (OR) problems. We study inventory control, queueing network control, and assortment optimization. We evaluate two levels of LLM use: at level 1, the model receives one problem instance and returns a solution for that instance; at level 2, it receives only the problem class description and broad parameter ranges, and returns an algorithm that maps instance parameters to solutions. Human input is minimal: we give one untuned prompt that describes the problem, and the model has access to a Python sandbox tool with a fixed compute budget.   The strongest model we test, gpt-5.6-sol, matches or outperforms the best existing method on almost all evaluated instances. This holds even at level 2, where the returned algorithm is fixed before seeing the evaluation instances. Performance also improves sharply across models released less 
     
-[^368]: 面向可控数据生成的机制电路识别
+[^369]: 面向可控数据生成的机制电路识别
 
     Mechanistic Circuit Identification for Controllable Data Generation
 
@@ -5641,7 +5657,7 @@
 
     arXiv:2608.24065v1 Announce Type: cross  Abstract: While recent advances in data synthesis aim to curate high-quality datasets, most generation pipelines still rely on heuristic prompt-based control. This black-box paradigm provides limited insight into how individual samples interact with a model's underlying learning dynamics. To bridge this gap, we propose a circuit-grounded framework that connects training-dynamics-based data valuation with mechanistic interpretability (MI). Specifically, we conceptualize data quality along three complementary utility axes, learnability, challenge, and alignment. First, we uncover specialized model-internal circuits that causally govern these utility signals. Then, moving beyond heuristic prompting toward mechanistic control, we leverage these circuits as controllable interfaces, actively steering generation to produce utility-targeted data. Building on this capability, we introduce SAMS (Stage-Aware Mechanistic Scheduling), which schedules circuit
     
-[^369]: 基于高斯喷溅表示的物理集成算子学习
+[^370]: 基于高斯喷溅表示的物理集成算子学习
 
     Physics-Integrated Operator Learning via Gaussian Splatting Representations
 
@@ -5655,7 +5671,7 @@
 
     arXiv:2608.24049v1 Announce Type: new  Abstract: Neural operators provide efficient surrogates for spatiotemporal PDE systems, but purely data-driven formulations often accumulate substantial errors during long-horizon autoregressive prediction and may fail to exploit available governing-equation structure. Existing approaches incorporate physics primarily through residual-based training objectives or PDE-specific architectural constraints, which can introduce optimization difficulties or limit architectural generality. In this work, we introduce a representation-level approach to physics integration in which a feed-forward Gaussian splatting (FFGS) representation serves as a continuous interface between discretized solution fields and governing operators. The FFGS representation reconstructs the state as a continuous Gaussian field with closed-form spatial derivatives, allowing available physical PDE operators to be integrated directly within the learned evolution map without introduc
     
-[^370]: 混合偏微分方程-参数学习中的算子误设定检测与判别：一种无参考工具，且样本内判别有界
+[^371]: 混合偏微分方程-参数学习中的算子误设定检测与判别：一种无参考工具，且样本内判别有界
 
     Detecting and Discriminating Operator Misspecification in Hybrid PDE-Parameter Learning: a Reference-Free Instrument, with Discrimination Bounded In Sample
 
@@ -5669,7 +5685,7 @@
 
     arXiv:2608.16925v1 Announce Type: new  Abstract: We build an instrument that reads, from a single fit and with no oracle, whether the operator a hybrid PDE-parameter estimator postulates is wrong-and separates that from a merely unidentifiable parameter. On one self-adjoint parabolic inverse problem, an information-matrix statistic with plug-in scale and per-seed parameter has median 0.19 under correct specification, rejection rate $0.033$ against a pre-registered ceiling of $0.10$, and rises to $224$ and $85$ under two misspecifications, firing in every replicate. On a correctly specified but non-identifiable design it stays mute-$0.050$ at $n=200$, Clopper-Pearson $[0.024, 0.090]$-while a rank statistic collapses to zero at a pre-registered boundary $c_5^*=2.15\times10^{-3}.$ Two readings of one fit therefore separate the two failures across the three designs a deployable test reaches. That separation is the contribution; detection alone is a crowded flank. In sample it is a bound, o
     
-[^371]: 平衡力迫：无需噪声条件化的自适应视频生成
+[^372]: 平衡力迫：无需噪声条件化的自适应视频生成
 
     Equilibrium Forcing: Adaptive Video Generation Without Noise Conditioning
 
@@ -5683,7 +5699,7 @@
 
     arXiv:2608.14706v1 Announce Type: cross  Abstract: Standard autoregressive video generation algorithms based on Diffusion and Flow Matching rely on rigid training objectives and static sampling schedules, limiting inference procedures from adapting to the data. We introduce Equilibrium Forcing (EqF), a simplified framework for video denoising generative models without noise level conditioning. EqF pioneers modular training- and inference-time designs for noise-unconditional generation that decouple learning the denoising field from sampling. This flexibility allows for inference-time algorithms that operate in a closed loop by adapting to feedback from the sample, improving video quality and consistency on challenging autoregressive video generation benchmarks. Extensive analysis elucidates exactly how removing the noise level conditioning enables EqF's data-dependent inference properties to surpass the performance of standard noise level-conditional denoising video methods.
     
-[^372]: 不确定性感知的成对纠缠监督下的概率约束聚类
+[^373]: 不确定性感知的成对纠缠监督下的概率约束聚类
 
     Uncertainty-Aware Probabilistic Constrained Clustering from Entangled Pairwise Supervision
 
@@ -5697,7 +5713,7 @@
 
     arXiv:2608.12027v1 Announce Type: cross  Abstract: Pairwise constrained clustering typically relies on hard must-link/cannot-link labels, whereas realistic pairwise supervision may be real-valued and entangle intrinsic ambiguity, expert judgment, and stochastic corruption. Existing deep constrained clustering (DCC) methods mainly target hard, expert-agnostic constraints, treating soft labels mostly numerically rather than semantically. We formalize this setting as uncertainty-aware probabilistic constrained clustering (UPCC), defining a canonical aleatoric target through a heterogeneous observation process and analyzing its conditional identifiability. We introduce ProbPair, an angular pairwise objective for probabilistic relations, and build ECI-PP, an estimator--corrector--integrator framework that refines imperfect supervision via belief estimation, correction, and reliability-aware integration. Across challenging probabilistic supervision settings, experiments on diverse benchmarks
     
-[^373]: 橡皮筋丢弃法：一种缓解基于评分标准奖励强化学习中奖励黑客问题的简单方法
+[^374]: 橡皮筋丢弃法：一种缓解基于评分标准奖励强化学习中奖励黑客问题的简单方法
 
     Rubric Dropout: A Simple Way to Mitigate Reward Hacking in Rubric-as-Reward RL
 
@@ -5711,7 +5727,7 @@
 
     arXiv:2608.11669v1 Announce Type: cross  Abstract: Reinforcement learning against rubrics, lists of criteria graded by an LLM judge, has become a standard way to post-train language models on tasks with no deterministic answer. The rubric, however, is a fixed proxy for quality, never a complete description of it, and a policy trained against it long enough will learn to exploit the difference. We measure this directly. Training Qwen3-8B with Group Relative Policy Optimization (GRPO) on medical and science rubrics and grading out-of-distribution (OOD) benchmarks with both the training judge and a stronger gold judge, we find that the two scores diverge during training. The training judge's score keeps climbing while the gold judge's score peaks and then falls, by 3 points on HealthBench-Hard and by 22 points on ResearchQA. A judge with a fixed bias would shift the gold curve by a constant, not send it down while the training score rises, so the divergence is reward hacking, not judge no
     
-[^374]: FACT：面向世界-动作模型的失败感知因果训练
+[^375]: FACT：面向世界-动作模型的失败感知因果训练
 
     FACT: Failure-Aware Causal Training for World-Action Models
 
@@ -5725,7 +5741,7 @@
 
     arXiv:2608.10232v2 Announce Type: replace-cross  Abstract: Recent world-action models (WAMs) show that co-training policies with future prediction can provide physical priors for action generation. Building on the future-prediction ability of video models, many WAMs generate future videos and recover actions with inverse-dynamics models, or use these predicted videos as goal conditions for action generation. In both cases, the world model is trained mostly on successful demonstrations and has little reason to predict the consequences of bad actions. We introduce FACT, a causal World-Action Model that predicts future video and task progress conditioned on the executed action. This action-conditioned interface allows failure rollouts to supervise action consequences, turning bad actions into valid future targets rather than being discarded. Failure-aware training makes the progress predictor aware of both successful and failed action outcomes, which can optionally be used to score sample
     
-[^375]: 在CIFAR-10上比较SGLD与固定噪声预测-校正采样器在经典联合能量模型中的改进应用
+[^376]: 在CIFAR-10上比较SGLD与固定噪声预测-校正采样器在经典联合能量模型中的改进应用
 
     Comparing SGLD and a fixed-noise predictor-corrector adaptation in canonical joint energy-based models on CIFAR-10
 
@@ -5739,7 +5755,7 @@
 
     arXiv:2608.05025v3 Announce Type: replace  Abstract: Joint Energy-Based Models (JEM) unify classification and generation within a single network and support out-of-distribution (OOD) detection. Canonical JEM training relies on stochastic gradient Langevin dynamics (SGLD); a theoretically motivated alternative, the Predictor-Corrector (PC) sampler, has not previously undergone a systematic replication test on the canonical model. We reproduce canonical JEM on WideResNet-28-10 without normalisation layers on two independent runs and test a fixed-noise PC adaptation - with the degenerate annealed-noise predictor replaced by a deterministic gradient step - across three protocols: the adapted sampler replacing SGLD throughout the full training trajectories (115-132 epochs); cold-start generation (FID); and refinement-style multi-OOD detection (AUROC). The reconstruction reaches 92.88% test accuracy and buffer-FID 44.46 (canonical: 92.90% and 38.40). We document two failure modes: catastroph
     
-[^376]: SPARK：从推测性GRPO采样中的验证学习
+[^377]: SPARK：从推测性GRPO采样中的验证学习
 
     SPARK: Learning from Verification in Speculative GRPO Rollouts
 
@@ -5753,7 +5769,7 @@
 
     arXiv:2608.04962v2 Announce Type: replace-cross  Abstract: Group Relative Policy Optimization (GRPO) has become a standard approach for improving the reasoning abilities of large language models, but its training is costly because each step requires generating many long reasoning responses. Recent methods use speculative decoding to accelerate the rollouts, where a draft model proposes tokens that the target model verifies. However, we find that the draft model repeatedly misses the same tokens within a response and across responses in the same GRPO group, and the verification feedback on these misses is not used to update the draft during the rollout. Motivated by this analysis, we introduce SPARK, a lightweight self-adaptive mechanism designed to enhance draft models used in speculative GRPO training. SPARK leverages target verification feedback to refine draft predictions during generation while preserving their existing training procedures. Averaged across 21 model-dataset settings
     
-[^377]: 替代替换保持PHI可检测性：一项多检测器等价性研究
+[^378]: 替代替换保持PHI可检测性：一项多检测器等价性研究
 
     Surrogate Substitution Preserves PHI Detectability: A Multi-Detector Equivalence Study
 
@@ -5767,7 +5783,7 @@
 
     arXiv:2608.03172v3 Announce Type: replace  Abstract: Structure-preserving de-identification replaces protected health information (PHI) with realistic same-type surrogates -- "Anna S." becomes "Maria S.", not [NAME] -- so that clinical text stays fluent and downstream tools keep working. But this only helps if the substitution does not itself corrupt the signal those tools rely on. We ask a narrow, testable question: on the spans a de-identifier actually masks, can downstream PHI detectors still find the surrogate? We introduce a paired, multi-detector evaluation protocol that (i) scores utility only on masked spans, decoupling coverage from utility; (ii) uses equivalence testing (TOST) rather than null-hypothesis significance testing, which is uninformative at our sample size (57k paired spans); and (iii) builds a surrogate-failure typology separating fixable generator defects from intrinsic detector limits. Across 11 detectors, 7 benchmarks, and 7 languages (1,750 documents), recall 
     
-[^378]: QASP：查询自适应的鲁棒向量搜索策略
+[^379]: QASP：查询自适应的鲁棒向量搜索策略
 
     QASP: Query-Adaptive Robust Vector Search Policy
 
@@ -5781,7 +5797,7 @@
 
     arXiv:2607.29606v3 Announce Type: replace-cross  Abstract: A fundamental challenge of vector search is achieving consistently high recall while minimizing computational costs. Fixed search parameters cause significant performance variance across queries, and conventional evaluation on average recall masks these per-query disparities. We introduce QASP (Query-Adaptive robust vector Search Policy), which predicts the complete recall progression curve per query via a single upfront supervised regression, from which a search policy is derived for any recall target; this avoids iterative model invocations during search or separate predictors per target. By predicting normalized recall values with scale-invariant features and pre-search inference, QASP generalizes across recall targets, index configurations, and datasets. The fine-grained progress predictions further enable a lightweight reactive complement that adjusts search depth based on predicted-versus-observed deviations without addit
     
-[^379]: 设计矩阵的零模式驱动过参数化回归中的多重下降
+[^380]: 设计矩阵的零模式驱动过参数化回归中的多重下降
 
     The Zero Pattern of a Design Matrix Drives Multiple Descent in Over-parameterized Regression
 
@@ -5795,7 +5811,7 @@
 
     arXiv:2607.24041v2 Announce Type: replace-cross  Abstract: Over-parameterized linear regression has been widely studied over the last decade. However, most existing works assume that the covariates are independent and that their covariance matrices are non-degenerate. In this paper, we relax both assumptions and derive deterministic equivalents for the prediction risk in a vanishing-ridge regime. We show that degeneracy of the covariance matrices and dependence can lead to multiple descent, and characterize where the corresponding peaks can occur. Our proofs use a novel graph representation of the variance profile. We show that maximum matchings and the Dulmage--Mendelsohn decomposition of the associated bipartite graph identify the configurations at which the variance becomes singular.
     
-[^380]: Hopformer：面向时间序列预测的同质性追求Transformer
+[^381]: Hopformer：面向时间序列预测的同质性追求Transformer
 
     Hopformer: Homogeneity-Pursuit Transformer for Time Series Forecasting
 
@@ -5809,7 +5825,7 @@
 
     arXiv:2607.22299v2 Announce Type: replace-cross  Abstract: Forecasting multiple time-series with high-dimensional covariates presents a core challenge: unifying common temporal patterns while retaining meaningful series-specific information. We introduce Hopformer (Homogeneity-Pursuit Transformer), a two-stage framework that addresses this challenge. In the first stage, we perform a Sparsity Pattern Aggregation (SPA) scheme extracting a common low-variance trend that incorporates the covariates. This acts as a homogenization layer. In the second stage, a LoRA-fine-tuned Transformer models the remaining complex dependencies in the residual. Our method is theoretically grounded. We prove that SPA achieves a near-optimal bias-variance trade-off via an oracle inequality. We also provide generalization bounds for the second stage under dependent time series data. Hopformer sets a new state of the art, improving MASE by an average of 6.56% across synthetic and real-world forecasting benchmar
     
-[^381]: 修复洞见：利用照片级逼真的扰动提升视觉可解释人工智能（XAI）
+[^382]: 修复洞见：利用照片级逼真的扰动提升视觉可解释人工智能（XAI）
 
     Inpainting Insights: Elevating Visual XAI with Photorealistic Perturbations
 
@@ -5823,7 +5839,7 @@
 
     arXiv:2607.15482v2 Announce Type: replace  Abstract: The increasing complexity of state-of-the-art machine learning models has made their behavior progressively harder to interpret, spurring rapid advancements in the field of eXplainable Artificial Intelligence (XAI). Among many methods proposed, perturbation-based approaches play a major role. By systematically altering (perturbing) input features, these approaches measure the impact on the model's predictions. For image data, traditional perturbation techniques, often involve replacing pixel values e.g., with a pre-defined color. However, such approaches, but also more refined deterministic techniques, generate unrealistic out-of-distribution samples and often leave visible artifacts, which can mislead the model and compromise explanation quality. In this work, we adjust LIME, a widely used perturbation-based method, to demonstrate how generative inpainting can improve perturbation-based explanations for images. We achieve photoreali
     
-[^382]: 有向图上基于流恢复势能的规范不变、参数不敏感正则化方法
+[^383]: 有向图上基于流恢复势能的规范不变、参数不敏感正则化方法
 
     Gauge-Invariant, Parameter-Insensitive Regularization for Potential Recovery from Flow on Directed Graphs
 
@@ -5837,7 +5853,7 @@
 
     arXiv:2607.13609v2 Announce Type: replace  Abstract: Recovering a latent potential from observed flow on a directed graph (a discrete Poisson problem with Dirichlet boundaries) is ill-posed, and the standard fix backfires: ridge regularization shrinks toward a gauge-meaningless origin, collapsing and reversing the recovered ordering ($+0.81\to-0.42$ rank correlation against a planted ground truth). The gauge-invariant graph Dirichlet energy removes the hazard and delivers parameter-insensitivity: the estimate is stable across four orders of magnitude in $\lambda$, whereas ridge inverts the ordering for every $\lambda>0$. We prove the reduced solve is SPD and preserves dynamic range exactly where ridge collapses it, and localize absorbing boundaries from flow alone via a Poisson residual. The $H^1$ seminorm is classical; what is new is the gauge diagnosis, the parameter-insensitivity it buys, and an ablation showing the result is robust to the extraction method. On three public clickstr
     
-[^383]: 将通用车辆模型适配用于跨地形高速模型预测控制（MPC）
+[^384]: 将通用车辆模型适配用于跨地形高速模型预测控制（MPC）
 
     Adapting Generalist Vehicle Models for High-Speed MPC Across Terrains
 
@@ -5851,7 +5867,21 @@
 
     arXiv:2607.13319v2 Announce Type: replace-cross  Abstract: High-speed off-road autonomy requires precise closed-loop control for a target vehicle while remaining robust across changing terrains. Recent forward kinodynamic (FKD) prediction foundation models suggest a promising path, starting from a generalist model and specializing it to the target platform. However, effective specialization remains challenging, as it often requires substantial real-world data, and models adapted to one setting can still overfit to specific terrains or driving regimes. We present OptCar (Optimized Car), a recipe for bridging the gap from generalist to specialist FKD models that preserves cross-terrain generalization while optimizing performance for a specific vehicle. OptCar introduces a transformer FKD architecture that uses FiLM to condition multi-step predictions on a single dynamics context token summarizing recent state-action history. It then specializes the generalist model using limited real-wor
     
-[^384]: tidyHEBO：具备模型一致性变换与帕累托搜索的鲁棒通用贝叶斯优化
+[^385]: AdaPCLA：面向长尾纵向电子健康记录生成的自适应先验校准Logit调整
+
+    AdaPCLA: Adaptive Prior-Calibrated Logit Adjustment for Long-Tailed Longitudinal EHR Generation
+
+    [https://arxiv.org/abs/2607.12645](https://arxiv.org/abs/2607.12645)
+
+    提出AdaPCLA框架，通过数据分布感知的模拟退火训练将先验知识内化到生成模型中，并结合零样本分布控制实现无需训练即可适应多样化临床人群的长尾纵向电子健康记录生成。
+
+    
+
+    纵向电子健康记录（EHR）的生成式建模对于隐私保护研究日益重要，然而标准的自回归模型往往难以充分表达尾部事件（即疾病、症状）的共现结构，从而降低了生成数据对罕见亚群体的保真度和忠实性。为此，我们提出了AdaPCLA框架，该框架使生成模型能够通过数据分布感知的训练策略自适应地拟合和生成EHR数据；这是通过模拟退火训练将数据知识内化到模型参数中实现的。同时，该框架支持通过零样本分布控制，无需再训练即可适应多样化的临床人群进行数据生成。此外，我们的理论分析通过标签级经验神经正切核（NTK）刻画了罕见编码的logit更新，并推导出先验内化边界，说明了退火速度和NTK条件数如何影响所保留的先验信号。
+
+    arXiv:2607.12645v2 Announce Type: replace  Abstract: Generative modeling of longitudinal Electronic Health Records is increasingly important for privacy-preserving research, yet standard autoregressive models tend to underrepresent the co-occurrence structure of tail events (i.e., diseases, symptoms), reducing the fidelity and faithfulness of generated data for rare subpopulations. To this end, we propose AdaPCLA framework, which enables generative models to adaptively fit and generate EHR data through a data distribution-aware training strategy; this is achieved by internalizing data knowledge parameters by simulated annealing training. It also supports training-free adaptation to a diverse clinical population for generation through zero-shot distribution control. Moreover, our theoretical analysis characterizes rare-code logit updates through the label-wise empirical NTK and derives a prior-internalization bound for how annealing speed and NTK conditioning affect retained prior signa
+    
+[^386]: tidyHEBO：具备模型一致性变换与帕累托搜索的鲁棒通用贝叶斯优化
 
     tidyHEBO: Robust General-Purpose Bayesian Optimization with Model-Consistent Warping and Pareto Search
 
@@ -5865,7 +5895,7 @@
 
     arXiv:2607.10669v2 Announce Type: replace  Abstract: Bayesian optimization (BO) is widely used for expensive black-box problems, yet practical performance depends not only on high-level algorithmic choices but also on how surrogate model training, input and output warping transformations, acquisition functions, and candidate search are implemented. We present tidyHEBO, a BoTorch-native single-objective optimizer designed for robust general-purpose optimization. tidyHEBO jointly fits Yeo-Johnson output warping with the Gaussian-process surrogate, evaluates acquisition functions on the original objective scale using deterministic quadrature or MC-samples, and performs constrained cumulative Pareto search over multiple acquisition criteria. Without any Olympus-specific hyperparameter tuning - using only default optimizer configurations - tidyHEBO ranked first among the evaluated methods on the Olympus benchmark. It achieved the best average ranks for typical performance (average rank 1.53
     
-[^385]: 深度在复合预测中能否保持优势，路由器能否利用它？潜在世界模型中的自适应计算
+[^387]: 深度在复合预测中能否保持优势，路由器能否利用它？潜在世界模型中的自适应计算
 
     Does Depth Survive Composition, and Can a Router Use It? Adaptive Compute in Latent World Models
 
@@ -5879,7 +5909,7 @@
 
     arXiv:2607.10203v4 Announce Type: replace  Abstract: Adaptive-compute world models run fewer predictor blocks on some rollout steps than on others. This rests on two assumptions: that a deeper predictor gives a more accurate rollout, and that the steps which need depth can be identified before the predictor runs. We test both on nine DeepMind Control tasks with a twelve-block early-exit latent predictor, eight seeds per task. The first assumption fails on three tasks, where a shallower exit rolls out more accurately than the full stack on every seed, and composing predictions over ten steps moves the depth-error relation away from its one-step shape in both directions. In hindsight, choosing depth per step helps: a greedy oracle that sees the true next latent has 10-37% lower rollout error than the best mixture of fixed depths at equal average compute, and 8-28% lower than the best step-index schedule, on all nine tasks. No router we trained captures this. The difficulty router these m
     
-[^386]: 面向大语言模型路由的具有代理奖励的相关性感知上下文多臂老虎机
+[^388]: 面向大语言模型路由的具有代理奖励的相关性感知上下文多臂老虎机
 
     Correlation-Aware Contextual Bandits with Surrogate Rewards for LLM Routing
 
@@ -5893,7 +5923,7 @@
 
     arXiv:2607.09015v2 Announce Type: replace  Abstract: We study contextual bandit problems with correlated arms and access to surrogate reward signals produced by a machine learning model, motivated by applications such as large language model (LLM) routing. Unlike classical contextual bandits that rely solely on bandit feedback and assume conditional independence across arms, our setting allows context-dependent inter-arm correlations and auxiliary reward information that may be noisy or misspecified. We propose algorithms that leverage such surrogate rewards through two complementary designs. A coupled reward-mixing approach pools true and surrogate rewards to accelerate learning when surrogate signals are reliable, while a decoupled prediction-mixing approach maintains separate estimators for bandit feedback and surrogate rewards and adaptively combines their predictions. This decoupling yields robustness to surrogate misspecification, recovering regret guarantees comparable to reward
     
-[^387]: RhyMix：一种用于长期时间序列预测的轻量级自适应多节奏网络
+[^389]: RhyMix：一种用于长期时间序列预测的轻量级自适应多节奏网络
 
     RhyMix: A Lightweight Adaptive Multi-Rhythm Network for Long-Term Time Series Forecasting
 
@@ -5907,7 +5937,7 @@
 
     arXiv:2607.08234v2 Announce Type: replace  Abstract: Real-world time series exhibit complex dynamics characterized by multiple simultaneous temporal patterns: short-term fluctuations, periodic seasonal cycles, long-term trends, and irregular abrupt changes. However, most forecasting architectures rely on single-path temporal modeling---transformers capture long-range dependencies but smooth local variations, convolutions capture local patterns but have limited receptive fields, and linear models are efficient but cannot capture nonlinear dynamics---so no single architectural paradigm captures all these pattern types simultaneously. To address this, we introduce RhyMix (RHYthm MIXture), a hybrid neural architecture designed around a parallel dual-path modeling paradigm with adaptive gating mechanisms. RhyMix integrates two complementary encoding branches: (i) a Cyclic Path that incorporates explicit seasonal inductive bias through learnable cyclic embeddings; and (ii) a lightweight Mult
     
-[^388]: CausalDS：数据科学智能体中因果推理的基准测试
+[^390]: CausalDS：数据科学智能体中因果推理的基准测试
 
     CausalDS: Benchmarking Causal Reasoning in Data-Science Agents
 
@@ -5921,7 +5951,7 @@
 
     arXiv:2607.08093v2 Announce Type: replace-cross  Abstract: Large language models (LLMs) increasingly act as data-science agents, combining abstract reasoning with advanced tool use. Yet the relevant benchmark landscape largely divides into symbolic causal reasoning benchmarks without realistic data analysis or data analysis benchmarks without causal data-generating structure or a range of causal data science tasks. Existing causal evaluation datasets are often restricted to curated examples from existing sources, with diversity coming from limited templatized variations rather than from systematic generation of novel synthetic causal structures. We introduce CausalDS, a benchmark for evaluating causal reasoning in agentic data-science workflows. Each benchmark instance is a scene consisting of a sampled structural causal model (SCM) with generated observational data and an accompanying synthetic natural-language story grounded in a real domain. We ground the composition of the benchmar
     
-[^389]: 离散扩散模型学到了什么？三种坐标系下的同一个逆向过程
+[^391]: 离散扩散模型学到了什么？三种坐标系下的同一个逆向过程
 
     What Does a Discrete Diffusion Model Learn? One Reverse Process in Three Coordinates
 
@@ -5935,7 +5965,7 @@
 
     arXiv:2607.05381v2 Announce Type: replace-cross  Abstract: What does a discrete diffusion model actually learn? The literature trains denoisers, bridge plug-ins, and concrete scores, each deriving its own ELBO objective under different conventions. This fragmentation makes the object being learned unclear and ELBO values difficult to interpret and compare. All three methods learn the same object in different coordinates: the exact time-reversal of the noising process. We first prove the Oracle Distance identity: for any noising process, the negative ELBO is not just a bound on the likelihood; it equals the data entropy plus the path KL divergence from the reversed noising process to the learned one. Next, for token-factorizing noise, we show that denoiser, bridge plug-in, and concrete score are three coordinates of this reverse process, derive exact conversions between them, and identify the probability distribution learned by each. In particular, contrary to its standard interpretatio
     
-[^390]: 柏拉图投影结构：表示学习中的算子诱导可观测性
+[^392]: 柏拉图投影结构：表示学习中的算子诱导可观测性
 
     Platonic Projection Structures: Operator-Induced Observability in Representation Learning
 
@@ -5949,7 +5979,7 @@
 
     arXiv:2607.05175v2 Announce Type: replace  Abstract: We characterize observability in representation learning through Platonic Projection Structures (PPS), an operator-theoretic framework for analyzing representation accessibility under partial observation. Rather than treating observable outputs as direct reflections of latent representations, PPS models observation through a self-adjoint positive semidefinite operator acting on a latent representation space. A system is represented as a triple $(H, \Pi, O)$, where $H$ is a latent representation space, $\Pi \succeq 0$ is an observation operator, and $O(v)=\langle v,\Pi v\rangle$ defines an induced scalar observable. Observability is characterized by the quotient geometry $H/\ker(\Pi)$, representing equivalence classes of latent states indistinguishable under observation. We show that quantum measurement and representation inference under linear observation models share this operator-theoretic structure while differing in the algebraic
     
-[^391]: LIME：从自我中心视频学习意图感知的相机运动
+[^393]: LIME：从自我中心视频学习意图感知的相机运动
 
     LIME: Learning Intent-aware Camera Motion from Egocentric Video
 
@@ -5963,7 +5993,7 @@
 
     arXiv:2607.02417v2 Announce Type: replace-cross  Abstract: Autonomous robots often need to move their camera before they can act: to inspect an object, reveal an occluded region, or obtain a view that responds to a user's intent. While vision-language navigation translates instructions to base motion and vision-language-action policies map instructions to manipulation actions, vision-language conditioned camera motion remains comparatively underexplored as a first-class action. We formulate vision-language conditioned camera motion generation: given a current RGB observation and a free-form natural-language intent, predict a relative target camera pose for the next observation. The challenge is that useful viewpoint changes depend on latent perceptual intent, ranging from coarse spatial moves to fine-grained inspection or occlusion revealing. To model this structure, we mine multi-intent camera-motion supervision from egocentric video via hindsight labeling, pairing each relative SE(3)
     
-[^392]: 自组织保形预测：通过无监督群体发现减少区域覆盖差距
+[^394]: 自组织保形预测：通过无监督群体发现减少区域覆盖差距
 
     Self-Organized Conformal Prediction: Reducing Regional Coverage Gaps with Unsupervised Group Discovery
 
@@ -5977,7 +6007,7 @@
 
     arXiv:2606.29403v2 Announce Type: replace-cross  Abstract: Conformal prediction guarantees marginal coverage, but a pooled calibration quantile can hide systematic undercoverage across heterogeneous regions of the feature space. We introduce Self-Organized Conformal Prediction (SOCP), a calibration scheme that discovers input-space groups with an unsupervised Self-Organizing Map (SOM) trained without calibration labels. At prediction time, the query's best-matching unit (BMU) draws a calibration buffer from one cell, a fixed grid neighborhood, or a prototype-based enlargement. When fixed neighborhoods are too sparse, Regime 3 adds cells by prototype distance, using a global budget selected from training-cell occupancies and the planned calibration size before any calibration score is observed. The predictor and nonconformity score remain unchanged. Cell-only retrieval has exact cell-conditional validity, and each fixed union of cells has exact retrieved-set validity. Interpreting a nei
     
-[^393]: Blackknife：针对异构图神经网络的免查询黑盒重连攻击
+[^395]: Blackknife：针对异构图神经网络的免查询黑盒重连攻击
 
     Blackknife: Query-Free Black-Box Rewiring Attacks on Heterogeneous Graph Neural Networks
 
@@ -5991,7 +6021,7 @@
 
     arXiv:2606.29240v3 Announce Type: replace  Abstract: Heterogeneous graph neural networks (HGNNs) perform well on graphs with multiple node and relation types, but their robustness to attacks with restricted structural access remains insufficiently understood. We propose Blackknife, a query-free, strict black-box evasion attack that observes only the one-hop structures of the attacked nodes, their ground-truth labels, and raw features within the permitted action space. No victim-model outputs are used to train the surrogate, generate perturbations, or select attacks.Blackknife trains a shared surrogate using only observable edges and relation types, then optimizes structural perturbations through continuous relaxation and projected gradient ascent. Each rewiring operation deletes one edge and adds another of the same relation type, preserving the target node's total degree and degree for each relation type. A cosine-similarity penalty and an adaptive structural classifier further regula
     
-[^394]: 从点击到意图：基于大语言模型提炼分类法的跨平台会话嵌入在金融服务推荐中的应用
+[^396]: 从点击到意图：基于大语言模型提炼分类法的跨平台会话嵌入在金融服务推荐中的应用
 
     From Clicks to Intent: Cross-Platform Session Embeddings with LLM-Distilled Taxonomy for Financial Services Recommendations
 
@@ -6005,7 +6035,7 @@
 
     arXiv:2606.26277v1 Announce Type: cross  Abstract: Sequential user behavior modeling is widely adopted in industrial recommender systems; however, significant gaps remain in financial services, where pre-login web interactions and authenticated in-app experiences differ drastically. Specifically, pre-login web users typically explore new products, whereas logged-in app users focus on account servicing. Due to the challenge of cross-channel entity resolution (e.g., matching anonymous web sessions to authenticated mobile accounts), web-based intent signals remain underutilized for post-authentication personalization. Existing methods for capturing web-based intent are often ad-hoc and narrow, lacking the flexibility to support both quantitative downstream recommendations and qualitative understanding at scale. In this work, we propose a scalable and dual-purpose intent prediction framework for web-based interactions and demonstrate its applicability for personalization. Our approach tran
     
-[^395]: 病态反问题中的地质文本描述：来自学习型渗透系数反演的见解
+[^397]: 病态反问题中的地质文本描述：来自学习型渗透系数反演的见解
 
     Geological text descriptions in ill-posed inverse problems: insights from learned hydraulic-conductivity inversion
 
@@ -6019,7 +6049,7 @@
 
     arXiv:2606.24967v2 Announce Type: replace  Abstract: Hydraulic-conductivity inversion is ill posed: even complete head observations can leave structural ambiguity. Geological text descriptions can supply additional information about subsurface structure to constrain reconstruction. However, it remains unclear when descriptions improve reconstruction and how solvers use their stated content. We examine these questions in learned inversion using a synthetic Darcy-flow benchmark with idealised descriptions, varying observation density and flow direction. After sparse-observation training, descriptions can improve reconstruction over models trained without them when observations leave structural ambiguity, though gains vary across conditions and runs. Instance-specific content can improve reconstruction beyond field-type information. Editing this content shifts reconstructions toward the stated geometry of selected features, less strongly as observations become more informative about those
     
-[^396]: X-Safe：基于动作掩码的与本体无关的机械臂操作策略安全保障方法
+[^398]: X-Safe：基于动作掩码的与本体无关的机械臂操作策略安全保障方法
 
     X-Safe: Embodiment-Agnostic Safeguarding for Robot Arm Manipulation Policies via Action Masking
 
@@ -6033,7 +6063,7 @@
 
     arXiv:2606.22278v2 Announce Type: replace-cross  Abstract: Ensuring safety of learning-enabled robotic manipulation across diverse embodiments and tasks still requires significant manual engineering. For collision avoidance, existing approaches typically rely on embodiment-specific learned safety approximations or simplified robot models together with stopping-based fallback controllers that compromise performance. In this paper, we propose an embodiment-agnostic safeguarding approach, X-Safe, which provides formal probabilistic guarantees for collision avoidance without model simplifications or learned safety functions. By operating in the configuration space, our safeguarding method works with different types of robot policies. X-Safe reasons locally around the current configuration to establish safe regions and uses action masking to restrict the policy's support to these safe regions. We demonstrate X-Safe on two embodiments and three policies, both in simulation and on hardware. W
     
-[^397]: PoLAR：在机器人策略学习的潜在动作中分解幅度与模式
+[^399]: PoLAR：在机器人策略学习的潜在动作中分解幅度与模式
 
     PoLAR: Factorizing Extent and Mode in Latent Actions for Robot Policy Learning
 
@@ -6047,7 +6077,7 @@
 
     arXiv:2606.21139v2 Announce Type: replace-cross  Abstract: Robot actions vary in both extent and mode: how much change they produce and what kind of change they produce. A latent action space that reflects this structure may make it easier for downstream policies to map latent actions to robot actions. However, existing latent action methods typically rely on visual reconstruction from observation pairs without explicitly encouraging such structure. We introduce Polar Latent Actions with Radial structure (PoLAR), which imposes a radial-direction structure on latent actions, encouraging radius to encode transition extent and direction to retain transition mode. PoLAR uses temporal offsets between observations as a weak proxy for transition extent, encouraging transitions with larger offsets to occupy larger radii. We instantiate this structure in hyperbolic space, whose expanding volume with radius offers a natural fit for more diverse transition modes at larger extents. Across in-task 
     
-[^398]: HiMPO：面向长时程智能体低纠缠信用分配的后见之明引导记忆策略优化
+[^400]: HiMPO：面向长时程智能体低纠缠信用分配的后见之明引导记忆策略优化
 
     HiMPO: Hindsight-Informed Memory Policy Optimization for Less-Entangled Credit in Long-Horizon Agents
 
@@ -6061,7 +6091,7 @@
 
     arXiv:2606.16285v2 Announce Type: replace  Abstract: Long-horizon agents rely on memory mechanisms to compress interaction history, but optimizing memory writing faces a distinct credit assignment challenge: a memory update may be rewarded or penalized due to downstream tool failures, noisy observations, or reasoning errors rather than its own contribution. We propose HiMPO, a Hindsight-Informed Memory Policy Optimization framework for assigning less-entangled credit to memory-writing actions in long-horizon agents. HiMPO first estimates the local utility of a memory update by comparing the task-relevant information recoverable from the previous and updated memories under the same pre-write state. It then uses hindsight relevance as a bounded retrospective filter that attenuates memory credit when local utility is not supported by the target outcome. The resulting memory-specific advantage is applied only to memory tokens, while trajectory-level rewards optimize the rest of the agent's
     
-[^399]: 驾驶，该快还是该慢？面向多模态地面移动的运动预测神经符号引导方法
+[^401]: 驾驶，该快还是该慢？面向多模态地面移动的运动预测神经符号引导方法
 
     Driving, Fast or Slow? Neuro-Symbolic Guidance for Motion Prediction in Multi-Modal Ground Mobility
 
@@ -6075,7 +6105,7 @@
 
     arXiv:2606.15251v2 Announce Type: replace-cross  Abstract: Accurate and interpretable motion prediction for heterogeneous traffic spaces, including pedestrians, bicycles, cars, and trucks, is essential for safe autonomous navigation. Nevertheless, state-of-the-art approaches remain predominantly black-box, lacking explicit encoding of the regulatory and behavioral constraints of real-world mobility. We propose Trajectory Compliance-Shaping (TraCS), a neuro-symbolic framework that augments existing black-box motion prediction backbones with interpretable and probabilistic first-order logic. To do so, TraCS employs an agentic code-generation pipeline to bridge the gap between natural-language descriptions of traffic regulations and probabilistic motion prediction. Furthermore, TraCS employs a reactive data-streaming inference engine that maintains and efficiently updates compliance landscapes as scenes evolve. To prevent TraCS from overconfidently steering the backbone's predictions in t
     
-[^400]: 基于概念的表征相似性统一框架
+[^402]: 基于概念的表征相似性统一框架
 
     A Unifying Framework for Concept-Based Representational Similarity
 
@@ -6089,7 +6119,7 @@
 
     arXiv:2606.09653v2 Announce Type: replace  Abstract: Learned representations across models and modalities often exhibit striking structural similarities, suggesting shared underlying concept decompositions. However, concept alignment remains poorly defined: existing approaches optimize different objectives under the same terminology, obscuring what is actually aligned. We propose a unifying framework that decomposes alignment along two axes: what is aligned (representations vs. concepts) and at what level (instance-wise vs. distributional). This induces four corresponding properties---instance-wise and distributional variants of translation and concept consistency---and reveals precisely which of these guarantees existing methods provide. We further introduce InterVenchA, an intervention-based benchmark that separately measures extraction quality, translation quality, and concept consistency---which we validate against human perception of concept alignment. Using this framework, we sho
     
-[^401]: AgentWorld：一个从多轮交互中训练大语言模型智能体的数据工厂
+[^403]: AgentWorld：一个从多轮交互中训练大语言模型智能体的数据工厂
 
     AgentWorld: A Data Factory for Training LLM Agents from Multi-Turn Interactions
 
@@ -6103,7 +6133,7 @@
 
     arXiv:2606.09138v2 Announce Type: replace-cross  Abstract: Training LLMs to act as capable agents requires learning from multi-turn interactions with environments. However, multi-turn interaction trajectories generated by heterogeneous agent runtimes are difficult to transform into structured, high-quality training data that training engines can readily consume. In this paper, we propose AgentWorld, a data factory that bridges heterogeneous agent runtimes and training engines through a Gateway Server and a Data Pool, reframing LLM agent training around a unified data lifecycle from interaction collection to training consumption. The Gateway Server captures multi-turn interactions through an LLM API proxy, while the Data Pool organizes them into standardized step records for curation and training. An interactive dashboard supports trajectory monitoring, step inspection, and data review. In our demonstration, users integrate ready-to-use white-box and black-box agents, trace and curate t
     
-[^402]: 激活引导诱发涌现性失调：引导向量构建与综合评估
+[^404]: 激活引导诱发涌现性失调：引导向量构建与综合评估
 
     Activation Steering Induces Emergent Misalignment: Steering Vector Construction and Comprehensive Evaluation
 
@@ -6117,7 +6147,7 @@
 
     arXiv:2606.08682v2 Announce Type: replace  Abstract: Activation steering (AS) has emerged as a popular inference-time technique for modulating the behavior of large language models (LLMs). AS modulates model behavior in a flexible and lightweight manner by injecting task-specific steering vectors (SVs) into intermediate activations. Meanwhile, recent work has identified emergent misalignment (EM) as an emerging safety concern, whereby finetuning on unsafe examples from a narrow task unexpectedly induces broadly unsafe behavior in unrelated domains. With the increasing popularity of AS, it is pressing yet under-explored to thoroughly investigate whether AS can induce EM. In this paper, we conduct a comprehensive study of activation-steering-induced emergent misalignment. Specifically, (1) we identify a steering vector construction to confirm that SVs derived from a narrow task can indeed induce misalignment across broad unrelated domains. Qualitative measurement further reveals that AS-
     
-[^403]: HARP：面向大语言模型微调的高效数据选择方法
+[^405]: HARP：面向大语言模型微调的高效数据选择方法
 
     HARP: Efficient Data Selection for Finetuning Large Language Models
 
@@ -6131,7 +6161,7 @@
 
     arXiv:2606.07690v2 Announce Type: replace  Abstract: Finetuning data selection requires balancing two competing goals: selecting examples that improve the downstream objective, and doing so without repeatedly finetuning models. Train-free selectors are scalable but rely on proxies such as embedding similarity or clustering, which may not match the target objective. Train-based selectors better reflect downstream utility through gradient signals, subset evaluation, or Shapley attribution, but require many costly train-evaluate iterations. We propose Hierarchical Active Region Pruning (HARP), an efficient train-based selector that preserves downstream alignment while reducing selection cost. HARP organizes the training pool into a node-leaf hierarchy, evaluates only representative leaves, and infers unmeasured utilities with empirical Bayes posteriors. It then selects data using two complementary envelopes: HARP-C, which conservatively controls redundancy, and HARP-E, which additively re
     
-[^404]: STREAM：面向数字病理组织学图像生成的随机黎曼流匹配与各向异性解码器
+[^406]: STREAM：面向数字病理组织学图像生成的随机黎曼流匹配与各向异性解码器
 
     STREAM: Stochastic Riemannian Flow Matching with Anisotropic Decoder for Digital Histopathology Image Generation
 
@@ -6145,7 +6175,7 @@
 
     arXiv:2606.07036v3 Announce Type: replace-cross  Abstract: Synthetic histopathology image generation addresses patient-privacy concerns and the growing data demands of foundation models. Existing state-of-the-art histopathology generative models use pretrained Vision Foundation Models (VFMs) as conditioning signals. We show this yields conditioning-dominated diversity: on TCGA-BRCA, 62-75% of their output diversity is attributable to the conditioning signal rather than the learned latent space, while de novo synthesis still requires a VFM at inference. We instead use histopathology VFMs as the latent space itself: their patch tokens are $\ell_2$-normalized on the unit hypersphere $\mathcal{S}^{d-1}$ with strong angular dominance and intrinsic curvature, motivating a Riemannian formulation. We present STREAM, the first framework to apply Riemannian flow matching in the histopathology domain, in two stages: 1) a bridge-type stochastic perturbation that establishes per-token rectifiabilit
     
-[^405]: 记忆设计：概率序列层
+[^407]: 记忆设计：概率序列层
 
     Memory by Design: Probabilistic Sequence Layers
 
@@ -6159,7 +6189,7 @@
 
     arXiv:2605.31163v3 Announce Type: replace-cross  Abstract: We introduce the \emph{design-model framework}: a way to derive efficient recurrent sequence maps from explicit assumptions about memory. A design model writes evidence into memory by exact Bayesian filtering; a query- dependent readout produces a predictive distribution whose mean is the layer output. In our linear-Gaussian instantiation, the \emph{Bayesian Layer} propagates both a mean and a covariance: the covariance tracks uncertainty over stored associations, steering writes toward uncertain directions, attenuating gains as evidence accumulates, and preserving confident memories. The same framework unifies several sub-quadratic recurrences: linear attention, GLA, and Mamba-2/SSD are exact filters under a latent-input design model, whereas DeltaNet and related Delta-rule models are covariance-reset reductions of the Bayesian Layer's design model. Restoring covariance propagation yields closed-form predictions for retrieval 
     
-[^406]: 子空间分解的JEPA：在潜在世界模型中解耦任务进展与内容
+[^408]: 子空间分解的JEPA：在潜在世界模型中解耦任务进展与内容
 
     Subspace-Decomposed JEPAs: Disentangling Progression and Content in Latent World Models
 
@@ -6173,7 +6203,7 @@
 
     arXiv:2605.31111v2 Announce Type: replace  Abstract: Joint-Embedding Predictive Architectures (JEPAs) learn compact latent world models by predicting future embeddings, but no single coordinate of the latent is designated to encode task progression. We carve the JEPA latent into two orthogonal subspaces with disjoint roles: a low-dimensional progression subspace shaped by a cosine-margin triplet loss, and a high-dimensional content subspace regularised by the existing SIGReg objective of LeWM. We prove that the two anti-collapse forces act on disjoint coordinates, so they compose additively rather than competing on the same dimensions. Our method, SD-JEPA improves over the LeWM baseline on the majority of its control benchmarks at matched compute, and outperforms the strongest non-LeWM JEPA baseline on Push-T; a subspace-ablation falsifier confirms the split is the load-bearing ingredient. Beyond planning, the resulting 1-D angular progression coordinate functions as a scene-aware comp
     
-[^407]: 鲁棒监督学习的统一与优化
+[^409]: 鲁棒监督学习的统一与优化
 
     Unification and Optimization of Robust Supervised Learning
 
@@ -6187,7 +6217,7 @@
 
     arXiv:2605.28165v2 Announce Type: replace  Abstract: Robust learning methods such as distributionally robust optimization, vicinal risk minimization, Mixup, and label smoothing address different sources of uncertainty, including distribution shift, finite-sample effects, and label uncertainty. In practice, however, several such sources may occur simultaneously, and it remains unclear which robust method or combination of methods to use. We introduce a unified framework that organizes a broad class of robustness methods along explicit design axes and makes their relations and combinations explicit within a shared formulation. Within this framework, we analyze how robustness methods interact: some are redundant under particular modeling assumptions, whereas others yield genuinely distinct solution families, and these relationships can change with the model class or loss. We further derive a tractable training procedure that exposes the design choices and their strengths as tunable hyperp
     
-[^408]: 一种用于改进基于逐出式KV缓存压缩的简单插件
+[^410]: 一种用于改进基于逐出式KV缓存压缩的简单插件
 
     A Simple Plug-in for Improving Eviction-Based KV Cache Compression
 
@@ -6201,7 +6231,7 @@
 
     arXiv:2605.23258v2 Announce Type: replace  Abstract: KV cache growth is a major bottleneck for long-context inference in large language models. Existing methods are often dominated by binary eviction or representation approximation, which may underutilize tokens that are not critical for exact retention but are still reconstructable. We present VECTOR, a plug-and-play augmentation for eviction-based pipelines that introduces three-way token routing: retention, approximation, and eviction. VECTOR combines an importance signal from the base scorer with a reconstructability signal from an offline-calibrated regression-based value estimation. By leveraging reconstructability, VECTOR recovers useful value information that would otherwise be irreversibly lost under binary eviction, while preserving key vectors for attention routing stability. On LongBench, RULER with contexts up to 128K tokens, and multi-turn SCBench, VECTOR yields significant gains over its base eviction methods under high 
     
-[^409]: 一种受有限元启发的二部图学习模拟器，用于大变形板料成形的可制造性评估
+[^411]: 一种受有限元启发的二部图学习模拟器，用于大变形板料成形的可制造性评估
 
     A finite-element-inspired bipartite graph learned simulator for manufacturability assessment in large-deformation sheet forming
 
@@ -6215,7 +6245,7 @@
 
     arXiv:2605.22845v3 Announce Type: replace-cross  Abstract: Explicit dynamic finite element (FE) simulations are widely used for large-deformation analysis but remain expensive for design-space exploration. In explicit FE analysis, nodal kinematics and element-level deformation measures evolve through a coupled node-element update process. An FE-inspired learned simulator can preserve this structure and learn nodal kinematics and elemental deformation on their native domains. Nodal displacement describes geometry evolution, while elemental thinning identifies local deformation and critical regions. Feeding both outputs back during rollout allows each field to inform subsequent updates of the other. This work proposes CAtt-BiGNN, a cross-attention-based bipartite graph neural network for coupled nodal-elemental learning. The bipartite graph encodes FE-guided state organisation and information flow without imposing equilibrium or constitutive constraints. Mesh nodes and elements are repre
     
-[^410]: OScaR：面向大语言模型及更广泛领域的极端KV缓存量化的“奥卡姆剃刀”
+[^412]: OScaR：面向大语言模型及更广泛领域的极端KV缓存量化的“奥卡姆剃刀”
 
     OScaR: The Occam's Razor for Extreme KV Cache Quantization in LLMs and Beyond
 
@@ -6229,7 +6259,7 @@
 
     arXiv:2605.19660v3 Announce Type: replace-cross  Abstract: The rapid advancement toward long-context reasoning and multi-modal intelligence has made the memory footprint of the Key-Value (KV) cache a dominant memory bottleneck for efficient deployment. While the established per-channel quantization effectively accommodates intrinsic channel-wise outliers in Key tensors, its efficacy diminishes under extreme compression. In this work, we revisit the inherent limitations of the per-channel quantization paradigm from both empirical and theoretical perspectives. Our analysis identifies Token Norm Imbalance (TNI) as the primary bottleneck to quantization fidelity. We demonstrate that TNI systematically amplifies errors when shared quantization parameters are required to span token groups exhibiting substantial norm disparities. Instead of relying on intricate quantization pipelines (e.g., TurboQuant), we propose OScaR (Omni-Scaled Canalized Rotation), an accurate and lightweight KV cache co
     
-[^411]: MOCHA：面向智能体技能优化的多目标切比雪夫退火方法
+[^413]: MOCHA：面向智能体技能优化的多目标切比雪夫退火方法
 
     MOCHA: Multi-Objective Chebyshev Annealing for Agent Skill Optimization
 
@@ -6243,7 +6273,7 @@
 
     arXiv:2605.19330v2 Announce Type: replace-cross  Abstract: LLM agents organize behavior through skills -- structured natural-language specifications that govern how an agent reasons, retrieves, and responds. Unlike monolithic prompts, skills are multi-field artifacts with platform limits: descriptions are indexed for routing, instruction bodies are loaded into a shared context window, and every extra line costs the agent context it could spend elsewhere. Skill optimization is therefore inherently multi-objective: a skill should be accurate and economical at once. Existing prompt optimizers collapse these goals into a single score, and we find that this makes them stall: in most of their runs, 1000 rollouts yield zero progress over the seed skill. We introduce MOCHA (Multi-Objective CHebyshev Annealing), which selects skills to improve by Chebyshev scalarization and accepts improvements that expand the Pareto front, annealing from exploration to exploitation. Chebyshev scalarization sco
     
-[^412]: BrainDyn：一种用于预测与生成脑动力学的层束神经常微分方程（Sheaf Neural ODE）模型
+[^414]: BrainDyn：一种用于预测与生成脑动力学的层束神经常微分方程（Sheaf Neural ODE）模型
 
     BrainDyn: A Sheaf Neural ODE for Forecasting and Generating Brain Dynamics
 
@@ -6257,7 +6287,7 @@
 
     arXiv:2605.19324v2 Announce Type: replace  Abstract: Brain activity unfolds as coordinated patterns across regions over time, and modeling these dynamics is a central goal in computational neuroscience. Because activity is distributed over connected brain regions, it is naturally represented on a graph whose nodes are brain regions or recording electrodes and whose edges capture relationships between these nodes, with message-passing modeling regional communication. However, standard message-passing networks place every node in a single shared feature space and typically aggregate messages from neighbors by scalar summation, which does not align with neurobiological evidence of brain communication. In order to model the heterogeneous nature of the brain, we introduce BrainDyn, a graph ordinary differential equation (ODE) network built on a cellular sheaf with dynamic restriction maps, recomputed from the forecasting context window rather than fixed once, mediating region-to-region comm
     
-[^413]: 我们距离真正的自动化研究还有多远？
+[^415]: 我们距离真正的自动化研究还有多远？
 
     How Far Are We From True Auto-Research?
 
@@ -6271,7 +6301,7 @@
 
     arXiv:2605.19156v2 Announce Type: replace-cross  Abstract: Recent auto-research systems can produce complete papers, but feasibility is not the same as quality, and the field still lacks a systematic study of how good agent-generated papers actually are. We introduce ResearchArena, a minimal scaffold that lets off-the-shelf agents (Claude Code using Opus 4.6, Codex using GPT-5.4, and Kimi Code using K2.5) carry out the full research loop themselves (ideation, experimentation, paper writing, self-refinement) under only lightweight guidance. Across 13 computer science seeds and 3 trials per agent-domain pair, ResearchArena yields 117 agent-generated papers, each evaluated under three complementary lenses: a manuscript-only reviewer (SAR), an artifact-aware peer review (PR) in which agents inspect the workspace alongside the manuscript, and an human conducted meta-review. Under SAR alone the picture is optimistic: Claude Code obtains the highest score, outperforms Analemma's FARS, and mat
     
-[^414]: 优化器设计的对称兼容原则：嵌入层、语言模型输出头、SwiGLU多层感知机与混合专家路由器
+[^416]: 优化器设计的对称兼容原则：嵌入层、语言模型输出头、SwiGLU多层感知机与混合专家路由器
 
     Symmetry-Compatible Principle for Optimizer Design: Embeddings, LM Heads, SwiGLU MLPs, and MoE Routers
 
@@ -6285,7 +6315,7 @@
 
     arXiv:2605.18106v5 Announce Type: replace-cross  Abstract: A striking geometric disparity has long persisted in the practice of deep learning. While modern neural network architectures naturally exhibit rich symmetry and equivariance properties, popular optimizers such as Adam and its variants operate inherently coordinate-wise, rendering them unable to respect the equivariance structures of the parameter space. We address this disparity by introducing a symmetry-compatible principle for optimizer design: the gradient update rule should be equivariant under the symmetry group acting on the corresponding weight block. Following this principle, we first provide a unified perspective on bi-orthogonally equivariant updates for general matrix layers, as employed by stochastic spectral descent, Muon, Scion, and polar gradient methods. More importantly, by moving from orthogonal groups to permutation and shared-shift symmetries, we derive symmetry-compatible optimizers for parameter blocks wh
     
-[^415]: 对抗训练何时以及为何能改进物理信息神经网络（PINNs）：基于神经正切核的视角
+[^417]: 对抗训练何时以及为何能改进物理信息神经网络（PINNs）：基于神经正切核的视角
 
     When and Why Adversarial Training Improves PINNs: A Neural Tangent Kernel Perspective
 
@@ -6299,7 +6329,7 @@
 
     arXiv:2605.15959v2 Announce Type: replace  Abstract: Physics-informed neural networks (PINNs) are powerful surrogates for differential equations but are notoriously difficult to train due to spectral bias, stiffness, and poor accuracy on high-frequency or multiscale solutions. Adversarial training based on generative adversarial networks (GANs) has recently gained surprisingly strong empirical results in improving training, but the underlying mechanisms remain elusive. To this end, we propose a new analysis framework for adversarially trained PINNs, based on the key observation of how the discriminator in GANs can influence the training dynamics of PINNs. The framework first provides a much needed theoretical grounding to why and when adversarial training is effective in PINNs, then presents a unified analysis of GANs variants in such training, and finally leads to a new, practical, efficient training algorithm for PINNs. Empirical results demonstrate that our method can significantly 
     
-[^416]: Njord：用于海洋集合预报的概率图神经网络
+[^418]: Njord：用于海洋集合预报的概率图神经网络
 
     Njord: A Probabilistic Graph Neural Network for Ensemble Ocean Forecasting
 
@@ -6313,7 +6343,7 @@
 
     arXiv:2605.15470v3 Announce Type: replace  Abstract: Ocean dynamics are inherently chaotic, yet existing machine learning ocean models produce only deterministic forecasts. We introduce Njord, a probabilistic data-driven model for ocean forecasting, applicable to both global and regional domains. Njord combines a deep latent variable framework with a graph neural network architecture, enabling sampling each forecast step in a single forward pass. We apply Njord globally at 0.25{\deg} resolution and regionally to the Baltic Sea at 2 km resolution. To scale to these large ocean grids we introduce K-means cluster meshes that adapt to irregular sea surface geometry. Experiments demonstrate strong performance on both domains compared to deterministic machine learning baselines, while also providing uncertainty estimates from the sampled ensemble forecasts. On the global OceanBench benchmark, Njord achieves the lowest errors on average across upper-ocean variables when evaluated against real
     
-[^417]: GQLA：面向硬件自适应解码的分组查询潜在注意力
+[^419]: GQLA：面向硬件自适应解码的分组查询潜在注意力
 
     GQLA: Group-Query Latent Attention for Hardware-Adaptive Decoding
 
@@ -6327,7 +6357,7 @@
 
     arXiv:2605.15250v4 Announce Type: replace  Abstract: Decoding efficiency depends on KV-cache traffic, computation, and parallelism. Multi-head Latent Attention (MLA) offers absorbed and head-expanded forms, but its head-specific projections limit grouped KV sharing. We introduce Group-Query Latent Attention (GQLA), whose group-shared up-projections preserve a joint latent and enable a shardable expanded cache. The same weights support equivalent MQA-absorb and GQA execution using existing kernels. Roofline analysis relates path preference to GPU compute-to-bandwidth ratio and tensor parallelism (TP): absorption trades traffic for computation and replicates the latent across ranks; GQA shards KV groups. Pretraining with eight query heads per group yields terminal training losses close to MLA's across the tested model scales at matched tokens. TransGQLA converts GQA and MLA checkpoints using calibration data. Without gradient updates, converted DeepSeek-V3.1-Base achieves 77.79% eight-ta
     
-[^418]: 快与慢学习：迈向能持续适应的大语言模型
+[^420]: 快与慢学习：迈向能持续适应的大语言模型
 
     Learning, Fast and Slow: Towards LLMs That Adapt Continually
 
@@ -6341,7 +6371,7 @@
 
     arXiv:2605.12484v3 Announce Type: replace  Abstract: Large language models (LLMs) are trained for downstream tasks by updating their parameters (e.g., via RL). However, updating model parameters forces them to absorb task-specific information, which can result in catastrophic forgetting and loss of plasticity. In contrast, in-context learning with fixed LLM parameters can cheaply and rapidly adapt to task-specific requirements (e.g., prompt optimization), but cannot by itself typically match the performance gains available through updating LLM parameters. Inspired by how human learning works at multiple time scales (e.g., System 1 vs 2), we propose a fast-slow learning framework for LLMs, instantiated with model parameters as "slow" weights and optimized context as "fast" weights. These fast "weights" can learn from textual feedback to absorb the task-specific information, while allowing slow weights to stay closer to the base model and persist general reasoning behaviors. Fast-Slow Tr
     
-[^419]: 一种用于复合对数凹采样的近端梯度算法
+[^421]: 一种用于复合对数凹采样的近端梯度算法
 
     A proximal gradient algorithm for composite log-concave sampling
 
@@ -6355,7 +6385,7 @@
 
     arXiv:2605.12461v2 Announce Type: replace-cross  Abstract: We propose an algorithm to sample from composite log-concave distributions over $\mathbb{R}^d$, i.e., densities of the form $\pi\propto e^{-f-g}$, assuming access to gradient evaluations of $\alpha_f$-convex $f$ and a restricted Gaussian oracle (RGO) for $\alpha_g$-convex $g$, where $\alpha_g \ge 0$. The latter requirement means that we can easily sample from the density $\text{RGO}_{g,h,y}(x) \propto \exp(-g(x) -\frac{1}{2h}||y-x||^2)$, which is the sampling analogue of the proximal operator for $g$. If $f + g$ is $\alpha$-convex and $f$ is $\beta$-smooth, our sampler achieves $\varepsilon$ error in total variation distance using $\widetilde{\mathcal O}(\kappa \sqrt d \log^4(1/\varepsilon))$ oracle calls where $\kappa := 1 \vee \beta/\alpha$, with $0\le \alpha_g \le \beta$ and $\alpha := \alpha_f + \alpha_g > 0$, which matches prior state-of-the-art results for the case $g=0$. We further extend our results to cases where (1) $
     
-[^420]: 分化差异，汇集其余：可证明高效的多目标模仿学习
+[^422]: 分化差异，汇集其余：可证明高效的多目标模仿学习
 
     Split the Differences, Pool the Rest: Provably Efficient Multi-Objective Imitation
 
@@ -6369,7 +6399,7 @@
 
     arXiv:2605.12000v3 Announce Type: replace  Abstract: This work investigates multi-objective imitation learning: the problem of recovering policies that lie on the Pareto front given demonstrations from multiple Pareto-optimal experts in a Multi-Objective Markov Decision Process (MOMDP). Standard imitation approaches are ill-equipped for this regime, as naively aggregating conflicting expert trajectories can result in dominated policies. To address this, we introduce Multi-Output Augmented Behavioral Cloning (MA-BC), an algorithm that systematically partitions divergent expert data while pooling state-action pairs where no behavior conflict is observed. Theoretically, we prove that MA-BC converges to Pareto-optimal policies at a faster statistical rate than any learner that considers each expert dataset independently. Furthermore, we establish a novel lower bound for multi-objective imitation learning, demonstrating that MA-BC is minimax optimal. Finally, we empirically validate our alg
     
-[^421]: LEAP：通过前瞻早期收敛Token检测解锁扩散语言模型的并行性
+[^423]: LEAP：通过前瞻早期收敛Token检测解锁扩散语言模型的并行性
 
     LEAP: Unlocking dLLM Parallelism via Lookahead Early-Convergence Token Detection
 
@@ -6383,7 +6413,7 @@
 
     arXiv:2605.10980v2 Announce Type: replace  Abstract: Diffusion Language Models (dLLMs) have garnered significant attention for their potential in highly parallel processing. The parallel capabilities of existing dLLMs stem from the assumption of conditional independence at high confidence levels, which ensures negligible discrepancy between the marginal and joint distributions. However, the stringent confidence thresholds required to preserve accuracy severely constrain the scalability of parallelism. Through systematic token-level statistical analysis, we reveal that a substantial proportion of tokens converge to their correct predictions early in the denoising process yet fail to reach standard confidence thresholds, confirming that current confidence-based criteria are overly conservative. In response, we introduce LEAP (Lookahead Early-Convergence Token Detection for Accelerated Parallel Decoding). LEAP is a training-free, plug-and-play method that leverages future context filterin
     
-[^422]: TIDES：选择性状态空间模型中的隐式时间感知
+[^424]: TIDES：选择性状态空间模型中的隐式时间感知
 
     TIDES: Implicit Time-Awareness in Selective State Space Models
 
@@ -6397,7 +6427,7 @@
 
     arXiv:2605.09742v3 Announce Type: replace  Abstract: Selective state space models (SSMs), such as Mamba, achieve strong per-token expressivity by making the time discretization step $\Tilde{\Delta}$ a learned function of the input. However, in doing so, $\Tilde{\Delta}$ no longer equals the physical time gap $\Delta$ between consecutive observations, limiting the ability of these models to handle irregular time series. Continuous time SSMs, such as S5, keep $\Tilde{\Delta}\equiv\Delta$ and therefore handle irregular timestamps natively, but their dynamics remain linear time invariant (LTI), limiting per token expressivity. We propose \textbf{TIDES}, a selective SSM variant that reconciles selective and continuous architectures by moving input dependence off the step size and onto the diagonal state matrix. As a result, $\Tilde{\Delta}\equiv\Delta$ as in S5, allowing the model to handle irregular timestamps natively without sacrificing the per-token expressivity that makes selective SSM
     
-[^423]: TabFORGE：一个用于生成建模的表格基础模型
+[^425]: TabFORGE：一个用于生成建模的表格基础模型
 
     TabFORGE: A Tabular Foundation Model for Generative Modelling
 
@@ -6411,7 +6441,7 @@
 
     arXiv:2605.09424v2 Announce Type: replace  Abstract: Generative modelling is a demanding test of foundation models, because it requires robust, holistic representation learning for a given data modality, rather than optimisation for a supervised prediction target alone. While recent work on tabular foundation models has achieved remarkable progress in predictive modelling, generative tabular foundation models remain underexplored. Existing tabular foundation generators, in particular, have not yet consistently matched strong dataset-specific generators in synthetic data quality. A key reason is their insufficient alignment with the inter-feature dependency structure of tabular data, which can reflect underlying causal relationships. In this paper, we address this gap by introducing a novel tabular foundation model, \textbf{TabFORGE}, built on pretrained \textbf{Tab}ular \textbf{FO}undational \textbf{R}epresentations for \textbf{GE}neration. TabFORGE is designed to utilise transferable 
     
-[^424]: 基于软桥接策略的生成式行动者-评论家算法
+[^426]: 基于软桥接策略的生成式行动者-评论家算法
 
     Generative Actor-Critic with Soft Bridge Policies
 
@@ -6425,7 +6455,7 @@
 
     arXiv:2605.08733v2 Announce Type: replace  Abstract: Expressive generative policies such as diffusion and flow models are appealing for maximum-entropy (MaxEnt) online reinforcement learning because of their ability to model multimodal and highly non-Gaussian action distributions. However, training effective soft generative policies faces two obstacles that often arise together. First, marginal action densities are often unavailable, so existing methods typically rely on entropy bounds, heuristic proxies or approximations. Second, iterative shared-parameter samplers raise inference cost and require backpropagation through time over repeated network evaluations, increasing memory cost and potentially destabilizing policy optimization. These obstacles motivate us to seek a generative actor-critic method that exposes a tractable soft objective while generating each action in just one network evaluation. To this end, we propose soft generative actor-critic (SoftGAC), whose actor is a singl
     
-[^425]: 注意力迁移对视觉Transformer并非普遍有效
+[^427]: 注意力迁移对视觉Transformer并非普遍有效
 
     Attention Transfer Is Not Universally Effective for Vision Transformers
 
@@ -6439,7 +6469,7 @@
 
     arXiv:2605.07191v2 Announce Type: replace-cross  Abstract: A recent work shows that Attention Transfer, which transfers only the attention patterns from a pre-trained teacher Vision Transformer (ViT) to a randomly initialized standard student ViT, is sufficient to recover the full benefit of the teacher's pre-trained weights. We revisit this finding on a comprehensive benchmark of 20 teachers from 11 well-known ViT families and reveal that Attention Transfer is not universally effective. While 7 families transfer successfully, 4 consistently fail, falling up to 5.1\% below the from-scratch no-transfer baseline. Further results demonstrate that this failure is family-consistent across model sizes, and persists under extended training durations, different transfer datasets, and out-of-distribution evaluations. Controlled analyses then consistently localize the problem to the attention-routing channel, indicating that the key issue is not whether the student can match the teacher's attent
     
-[^426]: 从因果图到马尔可夫状态：面向深度强化学习的多阶状态暴露
+[^428]: 从因果图到马尔可夫状态：面向深度强化学习的多阶状态暴露
 
     From Causal Graphs to Markovian States: Multi-Order State Exposure for Deep RL
 
@@ -6453,7 +6483,7 @@
 
     arXiv:2605.07057v2 Announce Type: replace  Abstract: Online reinforcement learning (RL) relies on the Markov property for guaranteed performance, but real-world applications often lack well-defined states given raw observed variables. While causal RL has attracted growing interest, existing work typically assumes Markovian states are provided and uses causality only to accelerate learning. This leaves a fundamental gap: \emph{given a longitudinal causal graph over observed variables, how does one construct MDP states that provably satisfy the Markov property?} We provide a procedure that constructs a provably minimal such state. In deep RL, the minimal representation alone empirically fails to improve performance, indicating that neural networks cannot automatically exploit Markovian minimality. We therefore propose \textbf{MOSE} (Multi-Order State Exposure), which exposes a single shared Q-function to history-based state constructions of orders 1 through $W$ simultaneously. An attenti
     
-[^427]: 基于自编码器与代理驱动训练的冷原子储备池计算医学影像分类
+[^429]: 基于自编码器与代理驱动训练的冷原子储备池计算医学影像分类
 
     Medical Imaging Classification with Cold-Atom Reservoir Computing using Auto-Encoders and Surrogate-Driven Training
 
@@ -6467,7 +6497,7 @@
 
     arXiv:2605.06727v2 Announce Type: replace  Abstract: We introduce a hybrid quantum-classical pipeline, based on neutral-atom reservoir computing, for medical image classification, focusing on the binary classification task of polyp detection. To deal effectively with the high dimensionality, we integrate a guided auto-encoder. This pipeline learns compact and discriminative representations of image data that are also well-suited for quantum reservoir computing. A key challenge in such systems is the non-differentiable nature of quantum measurements, which creates a 'gradient barrier' for standard training. We overcome this barrier by incorporating a differentiable surrogate model that emulates the quantum layer, enabling end-to-end backpropagation through the entire system. This guided training process is jointly optimized for classification accuracy and for faithful image recovery from the auto-encoder. The learned latent representations are encoded as pulse detuning parameters within
     
-[^428]: 面向半监督视觉-语言学习的拓扑感知表示对齐
+[^430]: 面向半监督视觉-语言学习的拓扑感知表示对齐
 
     Topology-Aware Representation Alignment for Semi-Supervised Vision-Language Learning
 
@@ -6481,7 +6511,7 @@
 
     arXiv:2604.26370v2 Announce Type: replace-cross  Abstract: Vision-language models have shown strong performance, but they often generalize poorly to specialized domains. While semi-supervised vision-language learning mitigates this limitation by leveraging a small set of labeled image-text pairs together with abundant unlabeled images, existing methods remain fundamentally pairwise and fail to model the global structure of multimodal representation manifolds. Most existing topology-based alignment methods rely on persistence diagram matching, which neither guarantees geometric alignment nor uses the image-text pairing information central to vision-language learning. We propose Topology-Aware Representation Alignment for Semi-Supervised Vision-Language Learning (ToMA), a framework that uses persistent homology to decompose pairwise relations into $H_0$-death and $H_1$-birth relations and aligns them across modalities through available cross-modal correspondences. This lightweight decomp
     
-[^429]: 核扩展动态模态分解的字典学习
+[^431]: 核扩展动态模态分解的字典学习
 
     Dictionary learning for Kernel EDMD
 
@@ -6495,7 +6525,7 @@
 
     arXiv:2604.25572v2 Announce Type: replace-cross  Abstract: Studying nonlinear dynamical systems through their state space behavior can be challenging, and one possible alternative is to analyze them via their associated Koopman operator. This turns the nonlinear problem into a linear, infinite-dimensional one. To approximate the operator in finite dimensions, extended dynamic mode decomposition (EDMD) is a commonly used algorithm. It requires a finite list of functionals and a set of snapshots from the system to compute an approximation of the operator and its corresponding spectrum. Instead of choosing the list of functionals directly, it can be implicitly defined via kernels, a method known as kernel extended dynamic mode decomposition (kEDMD). However, one still needs to define the kernel and choose its parameter values.   In this paper, we aim to streamline this process by extending dictionary learning for EDMD to kernel learning in kEDMD. By simplifying kEDMD, we show how to perfo
     
-[^430]: 大语言模型经济因果推理中的意识形态偏见
+[^432]: 大语言模型经济因果推理中的意识形态偏见
 
     Ideological Bias in LLMs' Economic Causal Reasoning
 
@@ -6509,7 +6539,7 @@
 
     arXiv:2604.21334v3 Announce Type: replace-cross  Abstract: Do large language models (LLMs) exhibit systematic ideological bias when reasoning about economic causal effects? As LLMs are increasingly used in policy analysis and economic reporting, where directionally correct causal judgments are essential, this question has direct practical stakes. We present a systematic evaluation by extending the EconCausal benchmark with ideology-contested cases - instances where intervention-oriented (pro-government) and market-oriented (pro-market) perspectives predict divergent causal signs. From 10,490 causal triplets (treatment-outcome pairs with empirically verified effect directions) derived from top-tier economics and finance journals, we identify 1,056 ideology-contested instances and evaluate 20 state-of-the-art LLMs on their ability to predict empirically supported causal directions. We find that ideology-contested items are consistently harder than non-contested ones, and that across 17 o
     
-[^431]: 基于因果约束的概率预测时间序列异常检测方法
+[^433]: 基于因果约束的概率预测时间序列异常检测方法
 
     Causally-Constrained Probabilistic Forecasting for Time-Series Anomaly Detection
 
@@ -6523,7 +6553,7 @@
 
     arXiv:2604.17998v2 Announce Type: replace  Abstract: Anomaly detection in multivariate time series is a central challenge in industrial monitoring, as failures frequently arise from complex temporal dynamics and cross-sensor interactions. While recent deep learning models, including graph neural networks and Transformers, have demonstrated strong empirical performance, most approaches remain primarily correlational and offer limited support for causal interpretation and root-cause localization. This study introduces a causally-constrained probabilistic forecasting framework which is a Causally Guided Transformer (CGT) model for multivariate time-series anomaly detection, integrating an explicit time-lagged causal graph prior with deep sequence modeling. For each target variable, a dedicated forecasting block employs a hard parent mask derived from causal discovery to restrict the main prediction pathway to graph-supported causes, while a latent Gaussian head captures predictive uncerta
     
-[^432]: 扩展人机编码协作需要一个可治理的共识层
+[^434]: 扩展人机编码协作需要一个可治理的共识层
 
     Scaling Human-AI Coding Collaboration Requires a Governable Consensus Layer
 
@@ -6537,7 +6567,7 @@
 
     arXiv:2604.17883v2 Announce Type: replace-cross  Abstract: Vibe coding turns natural-language intent into working software, but code generation alone does not give humans and agents a shared account of what they are building. As collaboration spans participants, components, and releases, design choices must remain understandable and open to revision. We argue that scaling human and AI coding collaboration requires a governable consensus layer. Agentic Consensus organizes collaboration around a versioned project-state model linking selected intent, structural commitments, executable artifacts, and evidence. Participants can clarify intent before implementation and coordinate proposed changes against commitments that humans can inspect and revise. Bidirectional synchronization connects intended changes to implementation and exposes conflicts or stale evidence as artifacts evolve. We implemented its review workflow in Consensus Control. In a small exploratory human study, 10 participants 
     
-[^433]: StaRPO：稳定性增强的强化策略优化
+[^435]: StaRPO：稳定性增强的强化策略优化
 
     StaRPO: Stability-Augmented Reinforcement Policy Optimization
 
@@ -6551,7 +6581,7 @@
 
     arXiv:2604.08905v2 Announce Type: replace-cross  Abstract: Reinforcement learning (RL) is effective in enhancing the accuracy of large language models in complex reasoning tasks. Existing RL policy optimization frameworks rely on final-answer correctness as feedback signals and rarely capture the internal logical structure of the reasoning process. Consequently, the models would generate fluent and semantically relevant responses but logically inconsistent, structurally erratic, or redundant. To this end, we propose StaRPO, a stability-augmented reinforcement learning framework that explicitly incorporates reasoning stability into the optimization objective. Our StaRPO decomposes stability into two computable lightweight metrics: the Autocorrelation Function (ACF) to evaluate local step-to-step coherence, and Path Efficiency (PE) to evaluate global goal-directedness of the reasoning trajectory. These stability rewards are combined with task rewards to provide complementary and process-
     
-[^434]: 足球传球结构分析：从时空追踪数据中学习传球原型与战术影响
+[^436]: 足球传球结构分析：从时空追踪数据中学习传球原型与战术影响
 
     Structural Pass Analysis in Football: Learning Pass Archetypes and Tactical Impact from Spatio-Temporal Tracking Data
 
@@ -6565,7 +6595,7 @@
 
     arXiv:2603.28916v3 Announce Type: replace  Abstract: Passing actions are commonly evaluated through ball progression and attacking outcomes, yet their relationship with the spatial organisation of the opposition provides an additional perspective on passing behaviour. This study introduces an interpretable framework for describing passing structure using synchronised event and tracking data. Three complementary descriptors are proposed: Line Bypass Score (LBS), measuring the difference in goal-side opponent counts between passer and receiver; Space Gain Metric (SGM), comparing their nearest-opponent distances; and Structural Disruption Index (SDI), summarising differences in defensive organisation between pass initiation and a sampled state one second later. Following transformation and standardisation, these descriptors are combined into Tactical Impact Value (TIV), a fixed-weight structural composite. Applied to 41,078 open-play passing events from the 2022 FIFA World Cup, the framew
     
-[^435]: 面向随机材料参数固体力学问题的本构参数化深度能量方法
+[^437]: 面向随机材料参数固体力学问题的本构参数化深度能量方法
 
     Constitutive parameterized deep energy method for solid mechanics problems with random material parameters
 
@@ -6579,7 +6609,7 @@
 
     arXiv:2603.26030v2 Announce Type: replace  Abstract: In practical structural design and solid mechanics simulations, material properties inherently exhibit random variations within bounded intervals. However, evaluating mechanical responses under continuous material uncertainty remains a persistent challenge. Traditional numerical approaches, such as the Finite Element Method (FEM), incur prohibitive computational costs as they require repeated mesh discretization and equation solving for every parametric realization. Similarly, data-driven surrogate models depend heavily on massive, high-fidelity datasets, while standard physics-informed frameworks (e.g., the Deep Energy Method) strictly demand complete retraining from scratch whenever material parameters change. To bridge this critical gap, we propose the Constitutive Parameterized Deep Energy Method (CPDEM). In this purely physics-driven framework, the strain energy density functional is reformulated by encoding a latent representat
     
-[^436]: 属性化高斯图匹配的尖锐统计阈值
+[^438]: 属性化高斯图匹配的尖锐统计阈值
 
     Sharp Statistical Thresholds for Attributed Gaussian Graph Matching
 
@@ -6593,7 +6623,7 @@
 
     arXiv:2603.23305v2 Announce Type: replace-cross  Abstract: We investigate the problem of matching networks where both edge weights and node features are correlated following a specific node correspondence. While prior work has established sharp thresholds for matching either graphs or features individually, the joint setting has been significantly less explored. In this study, we derive precise information-theoretic thresholds for exact recovery, almost-exact recovery, and partial recovery of the underlying alignment. These are expressed in terms of graph and feature correlation strengths, the number of nodes, and the dimension of the features. Interestingly, whereas an all-or-nothing phase transition is observed in the standard graph-matching scenario, the inclusion of contextual information at the node level introduces a richer structure: the exact-recovery threshold separates from the shared threshold for almost-exact and partial recovery. Closing gaps left by prior works, we provid
     
-[^437]: 基于未来状态-动作访问度量的最大熵探索
+[^439]: 基于未来状态-动作访问度量的最大熵探索
 
     Maximum-Entropy Exploration with Future State-Action Visitation Measures
 
@@ -6607,7 +6637,7 @@
 
     arXiv:2603.18965v2 Announce Type: replace  Abstract: Maximum entropy reinforcement learning motivates agents to explore states and actions to maximize the entropy of some distribution, typically by providing additional intrinsic rewards proportional to that entropy function. In this paper, we study intrinsic rewards proportional to the entropy of the discounted distribution of state-action features visited during future time steps. This approach is motivated by two results. First, we show that the expected sum of these intrinsic rewards is a lower bound on the entropy of the discounted distribution of state-action features visited in trajectories starting from the initial states, which we relate to an alternative maximum entropy objective. Second, we show that the distribution used in the intrinsic reward definition is the fixed point of a contraction operator and can therefore be estimated off-policy. Experiments highlight that the new objective often leads to improved visitation of f
     
-[^438]: 平衡Forman曲率与Ollivier-Ricci曲率之间的逐边包络界
+[^440]: 平衡Forman曲率与Ollivier-Ricci曲率之间的逐边包络界
 
     Edgewise Envelopes Between Balanced Forman and Ollivier-Ricci Curvature
 
@@ -6621,7 +6651,7 @@
 
     arXiv:2603.13535v5 Announce Type: cross  Abstract: Evaluating Ollivier-Ricci (OR) curvature on large-scale graphs is computationally prohibitive due to the necessity of solving an optimal transport problem for every edge. We bypass this bottleneck by deriving explicit, two-sided, piecewise-affine transfer moduli between the transport-based OR curvature and the combinatorial Balanced Forman (BF) curvature. We establish deterministic bounds for $\mathfrak{c}_{\rm OR}(i,j)$ parameterized by 2-hop local graph combinatorics, reducing the edgewise evaluation complexity from an optimal transport linear program to a worst-case $\mathcal{O}\left(\max_{v \in V} \operatorname{deg}(v)^{2.5}\right)$ time, entirely eliminating the reliance on global solvers. Empirical scalability benchmarks confirm these theoretical guarantees, demonstrating that the proposed transfer moduli yield significant asymptotic and constant-factor speedups over the steep polynomial scaling of exact OR evaluation. Furthermor
     
-[^439]: 推理陷阱——逻辑推理作为通向情境感知的机制性路径
+[^441]: 推理陷阱——逻辑推理作为通向情境感知的机制性路径
 
     The Reasoning Trap -- Logical Reasoning as a Mechanistic Pathway to Situational Awareness
 
@@ -6635,7 +6665,7 @@
 
     arXiv:2603.09200v2 Announce Type: replace-cross  Abstract: Situational awareness, the capacity of an AI system to recognize its own nature, understand its training and deployment context, and reason strategically about its circumstances, is widely considered among the most dangerous emergent capabilities in advanced AI systems. Separately, a growing research effort seeks to improve the logical reasoning capabilities of large language models (LLMs) across deduction, induction, and abduction. In this paper, we argue that these two research trajectories are on a collision course. We introduce the RAISE framework (Reasoning Advancing Into Self Examination), which identifies three mechanistic pathways through which improvements in logical reasoning enable progressively deeper levels of situational awareness: deductive self inference, inductive context recognition, and abductive self modeling. We formalize each pathway, construct an escalation ladder from basic self recognition to strategic 
     
-[^440]: NePPO：面向一般和博弈多智能体强化学习的近势函数策略优化
+[^442]: NePPO：面向一般和博弈多智能体强化学习的近势函数策略优化
 
     NePPO: Near-Potential Policy Optimization for General-Sum Multi-Agent Reinforcement Learning
 
@@ -6649,7 +6679,7 @@
 
     arXiv:2603.06977v3 Announce Type: replace  Abstract: Multi-agent reinforcement learning (MARL) is increasingly used to design learning-enabled agents that interact in shared environments. However, training MARL algorithms in general-sum games remains challenging: learning dynamics can become unstable, and convergence guarantees typically hold only in restricted settings such as two-player zero-sum or fully cooperative games. Moreover, when agents have heterogeneous and potentially conflicting preferences, it is unclear what system-level objective should guide learning. In this paper, we propose a new MARL pipeline called Near-Potential Policy Optimization (NePPO) for computing approximate Nash equilibria in mixed cooperative--competitive environments. The core idea is to learn a player-independent potential function such that the Nash equilibrium of a cooperative game with this potential as the common utility approximates a Nash equilibrium of the original game. To this end, we introdu
     
-[^441]: TimeWarp：通过重访过去来评估网页智能体
+[^443]: TimeWarp：通过重访过去来评估网页智能体
 
     TimeWarp: Evaluating Web Agents by Revisiting the Past
 
@@ -6663,7 +6693,7 @@
 
     arXiv:2603.04949v2 Announce Type: replace  Abstract: As web agents close the gap with humans on benchmarks, one question arises: Do today's agents perform just as well on tomorrow's web? We introduce TimeWarp, a benchmark that emulates the evolving web. TimeWarp consists of three web environments, each with six UI versions spanning UI design, frontend code, and workflows from different eras of the internet. We pair TimeWarp with a set of complex, realistic tasks covering different forms of web navigation. Our experiments reveal that vision-based agents are vulnerable to changes, while text-based agents become brittle once fine-tuned on a single version. To address this, we propose TimeTraj, a new annotation method that uses plan distillation to collect trajectories across multiple versions. By training agents on teacher rollouts using our BC-variant, we achieve substantial performance gains: 20.4% to 37.7% for Qwen-3 4B and 0% to 27.0% for Llama-3.1 8B models. Our work helps study gene
     
-[^442]: MARS：通过自适应秩搜索实现多模态收敛的协调
+[^444]: MARS：通过自适应秩搜索实现多模态收敛的协调
 
     MARS: Harmonizing Multimodal Convergence via Adaptive Rank Search
 
@@ -6677,7 +6707,7 @@
 
     arXiv:2603.00720v2 Announce Type: replace  Abstract: Fine-tuning Multimodal Large Language Models (MLLMs) with parameter-efficient methods like Low-Rank Adaptation (LoRA) is crucial for task adaptation. However, imbalanced training dynamics across modalities often lead to suboptimal accuracy due to negative interference, a challenge typically addressed with inefficient heuristic methods such as manually tuning separate learning rates. To overcome this, we introduce MARS (Multimodal Adaptive Rank Search), an approach to discover optimal rank pairs that balance training dynamics while maximizing performance. Our key innovation, a proposed framework of dual scaling laws, enables this search: one law models module-specific convergence time to prune the search space to candidates with aligned dynamics, while the other predicts final task performance to select the optimal pair from the pruned set. By re-purposing the LoRA rank as a controller for modality-specific convergence speed, MARS out
     
-[^443]: 基于LoRA的持续学习中面向知识共享与隔离的任务驱动子空间分解
+[^445]: 基于LoRA的持续学习中面向知识共享与隔离的任务驱动子空间分解
 
     Task-Driven Subspace Decomposition for Knowledge Sharing and Isolation in LoRA-based Continual Learning
 
@@ -6691,7 +6721,7 @@
 
     arXiv:2603.00191v5 Announce Type: replace  Abstract: Continual Learning (CL) requires models to sequentially adapt to new tasks without forgetting old knowledge. Recently, Low-Rank Adaptation (LoRA), a representative Parameter-Efficient Fine-Tuning (PEFT) method, has gained increasing attention in CL. Several LoRA-based CL methods reduce interference across tasks by separating their update spaces, typically building the new space from the estimated null space of past tasks. However, they (i) overlook task-shared directions, which suppresses knowledge transfer, and (ii) fail to capture truly effective task-specific directions since these ``null bases" of old tasks can remain nearly inactive for new task under correlated tasks. To address this, we study LoRA learning capability from a projection energy perspective, and propose Low-rank Decomposition and Adaptation (LoDA). It performs a task-driven decomposition to build general and truly task-specific LoRA subspaces by solving two energy
     
-[^444]: 参数高效的时序域泛化
+[^446]: 参数高效的时序域泛化
 
     Parameter-Efficient Temporal Domain Generalization
 
@@ -6705,7 +6735,7 @@
 
     arXiv:2602.11965v2 Announce Type: replace  Abstract: Temporal domain generalization (TDG) learns from a sequence of observed domains to predict models for unseen future domains. Existing parameter-dynamics methods become prohibitively expensive at modern backbone scales because their temporal encoders and generators operate on the entire adapted parameter state. Replacing full-model updates with LoRA does not remove this failure mode: the dynamics model must still encode and reconstruct every adapter parameter, making the auxiliary model itself prohibitively large for modern backbones. We propose Low-rank Time-varying Core (LoTiC), a parameter-efficient TDG method that decomposes temporal updates into shared low-rank bases and a compact core. The bases define a stable update subspace, while only the core evolves. LoTiC therefore learns temporal dynamics in an r*r space instead of tracking the full adapter. We justify this factorization through the geometry of parameter increments and s
     
-[^445]: 具有不确定性量化与引导的流匹配
+[^447]: 具有不确定性量化与引导的流匹配
 
     Flow Matching with Uncertainty Quantification and Guidance
 
@@ -6719,7 +6749,7 @@
 
     arXiv:2602.10326v3 Announce Type: replace-cross  Abstract: Despite the remarkable success of sampling-based generative models such as flow matching, they can still produce samples of inconsistent or degraded quality. To assess sample reliability and improve sample fidelity, we propose uncertainty-aware flow matching (UA-Flow), a lightweight extension of flow matching that predicts the velocity field together with heteroscedastic uncertainty. UA-Flow estimates spatially localized sample uncertainty by propagating velocity uncertainty through the flow dynamics. The resulting estimates serve as reliability signals that reflect data-manifold support for each generated sample or region. We further use them to steer generation via uncertainty-aware guidance (UG) and uncertainty-aware classifier-free guidance (UCFG). Experiments on ImageNet and CIFAR-10 show that UA-Flow's uncertainty tracks sample fidelity more consistently than element-wise baselines and that these signals also carry inform
     
-[^446]: ANCRe：面向高效深度扩展的自适应神经连接重分配
+[^448]: ANCRe：面向高效深度扩展的自适应神经连接重分配
 
     ANCRe: Adaptive Neural Connection Reassignment for Efficient Depth Scaling
 
@@ -6733,7 +6763,7 @@
 
     arXiv:2602.09009v2 Announce Type: replace-cross  Abstract: Scaling network depth has been a central driver behind the success of modern foundation models, yet recent investigations suggest that deep layers are often underutilized. This paper revisits the default mechanism for deepening neural networks, namely residual connections, from an optimization perspective. Rigorous analysis proves that the layout of residual connections can fundamentally shape convergence behavior, and even induces an exponential gap in convergence rates. Prompted by this insight, we introduce adaptive neural connection reassignment (ANCRe), a principled and lightweight framework that parameterizes and learns residual connectivities from the data. ANCRe adaptively reassigns residual connections with negligible computational and memory overhead ($<1\%$), while enabling more effective utilization of network depth. Extensive numerical tests across pre-training of large language models, diffusion models, and deep R
     
-[^447]: 连接学术界与工业界：面向属性图聚类的综合基准
+[^449]: 连接学术界与工业界：面向属性图聚类的综合基准
 
     Bridging Academia and Industry: A Comprehensive Benchmark for Attributed Graph Clustering
 
@@ -6747,7 +6777,7 @@
 
     arXiv:2602.08519v2 Announce Type: replace  Abstract: Attributed Graph Clustering (AGC) is a fundamental unsupervised task that integrates structural topology and node attributes to uncover latent patterns in graph-structured data. Despite its significance in industrial applications such as fraud detection and user segmentation, a significant chasm persists between academic research and real-world deployment. Current evaluation protocols suffer from the small-scale, high-homophily citation datasets, non-scalable full-batch training paradigms, and a reliance on supervised metrics that fail to reflect performance in label-scarce environments. To bridge these gaps, we present PyAGC, a comprehensive, production-ready benchmark and library designed to stress-test AGC methods across diverse scales and structural properties. We unify existing methodologies into a modular Encode-Cluster-Optimize framework and, for the first time, provide memory-efficient, mini-batch implementations for a wide a
     
-[^448]: 流匹配对于序列数据仅仅是轨迹重放吗？
+[^450]: 流匹配对于序列数据仅仅是轨迹重放吗？
 
     Is Flow Matching Just Trajectory Replay for Sequential Data?
 
@@ -6761,7 +6791,7 @@
 
     arXiv:2602.08318v3 Announce Type: replace-cross  Abstract: Flow matching (FM) is increasingly used in scientific domains for time series generation and forecasting, where data often arise from underlying dynamical systems. However, it is not well-understood whether it learns transferable dynamical structure or simply performs an effective ''trajectory replay''. We study this question by deriving the optimal velocity field targeted by the empirical FM objective on sequential data. For the Gaussian conditional paths commonly used in practice, we show that the resulting sampler is an ODE whose dynamics describe a nonparametric, memory-augmented continuous-time dynamical system. The driving velocity field admits a closed-form expression as a weighted mixture of instantaneous velocities determined by observed transitions. This characterization provides an interpretable view of neural FM models as parametric estimation of an underlying nonparametric target and naturally leads to FreeFM: a cl
     
-[^449]: 论线性模型中延迟泛化的动力学
+[^451]: 论线性模型中延迟泛化的动力学
 
     On the Dynamics of Delayed Generalization in Linear Models
 
@@ -6775,7 +6805,7 @@
 
     arXiv:2602.08302v3 Announce Type: replace-cross  Abstract: Delayed generalization, where training accuracy becomes nearly perfect substantially before test accuracy, has often been studied in the context of the depth and compositional structure of deep networks. In this paper, we ask whether delayed generalization can occur in simpler settings. We show that it can arise in a linear model trained with gradient descent and an exponential-tail loss on linearly separable data. We characterize the finite-time hyperplane dynamics into three phases: a population phase, a support vector dominated unlearning phase and a generalization phase. The convergence of the residual beyond the maximum-margin direction is sufficient for the unlearning phase to begin. In the support vector dominated phase, we characterize the hyperplane dynamics. The time scale in these dynamics causes delayed generalization. We validate our theory through controlled experiments varying population and support-vector distri
     
-[^450]: 有理转换器
+[^452]: 有理转换器
 
     Rational Transductors
 
@@ -6789,7 +6819,7 @@
 
     arXiv:2602.07599v2 Announce Type: replace  Abstract: Standard Transformers excel at semantic modeling but struggle with   rigid sequential logic and state tracking. Theoretical work   establishes that self-attention is limited to $\AC^0$ (under hard   attention) or $\TC^0$ (under soft attention), complexity classes   that often fail to support robust length generalization on   sequential problems without intermediate chain-of-thought   \citep{hahn2020theoretical, hao2022formal, merrill2022saturated}. In this   work, we introduce \emph{Rational Transductors}, a dual-stream   architecture that augments the Transformer with a matrix-valued   recurrence derived from Weighted Finite Automata (WFA). By   injecting rational state information into the attention mechanism   via a \emph{Deep Rational Injection} scheme, our framework strictly   generalizes the expressive power of Transformers to capture all   Regular Languages, $\NC^1$-complete languages (such as the word   problem of $S_5$), and
     
-[^451]: 深度时间序列预测需要核化矩平衡
+[^453]: 深度时间序列预测需要核化矩平衡
 
     Deep Time-series Forecasting Needs Kernelized Moment Balancing
 
@@ -6803,7 +6833,7 @@
 
     arXiv:2602.00717v2 Announce Type: replace  Abstract: Deep time-series forecasting can be formulated as a distribution balancing problem aimed at aligning the distribution of the forecasts and ground truths. According to Imbens' criterion, balancing two distributions requires that their first moments be identical with respect to any balancing function. We demonstrate that existing objectives enforce moment matching only for one or two predefined balancing functions, thus failing to achieve full distribution balance. To address this limitation, we propose direct forecasting with kernelized moment balancing (KMB-DF). Unlike existing objectives, KMB-DF adaptively selects the most informative balancing functions from a reproducing kernel Hilbert space (RKHS) to enforce sufficient distribution balancing. A tractable and differentiable formulation is derived to enable estimation from empirical samples and seamless integration into gradient-based training pipelines. Extensive experiments acros
     
-[^452]: SWE-Spot：通过仓库中心化学习构建小型仓库专家模型
+[^454]: SWE-Spot：通过仓库中心化学习构建小型仓库专家模型
 
     SWE-Spot: Building Small Repo-Experts with Repository-Centric Learning
 
@@ -6817,7 +6847,7 @@
 
     arXiv:2601.21649v2 Announce Type: replace-cross  Abstract: The deployment of coding agents in privacy-sensitive and resource-constrained environments drives the demand for capable open-weight Small Language Models (SLMs). However, they suffer from a fundamental capability gap: unlike frontier large models, they lack the inference-time strong generalization to handle complicated, unfamiliar codebases. We identify that the prevailing Task-Centric Learning (TCL) approach, which scales exposure across disparate repositories, fails to address this limitation. In response, we propose Repository-Centric Learning (RCL), a shift that prioritizes vertical, single-repository depth over horizontal, single-task breadth for SLM training. To accomplish this depth, we design a four-unit Repository-Centric Experience, transforming static codebases into interactive learning signals, to train SWE-Spot-4B, a family of highly compact models built as repo-specialized experts. Under controlled comparisons wi
     
-[^453]: 超越可持续发展目标（SDG）加速器：面向适应性可持续发展组合的定向证据
+[^455]: 超越可持续发展目标（SDG）加速器：面向适应性可持续发展组合的定向证据
 
     Beyond Sustainable Development Goal (SDG) Accelerators: Directed Evidence for Adaptive Sustainability Portfolios
 
@@ -6831,7 +6861,7 @@
 
     arXiv:2601.20875v3 Announce Type: replace-cross  Abstract: Governments and development partners often seek Sustainable Development Goal (SDG) "accelerators" whose progress can propagate gains across human well-being, institutions, resources, and environmental priorities. Such claims require evidence on direction, timing, robustness, and trade-offs, not only network connectivity. We map directed SDG interdependence using a balanced panel of 114 countries observed annually from 2000 to 2024. Because the goal series are persistent, trending, and cross-sectionally dependent, we combine Dumitrescu-Hurlin panel Granger non-causality tests on first-differenced series with false-discovery control across 272 directed goal pairs, and panel local projections with Driscoll-Kraay standard errors for 31 theory-derived indicator linkages. We find 84 directed linkages after correction: 40 synergies and 44 trade-offs. This dense structure does not support a universal accelerator. Driver-receiver rankin
     
-[^454]: 基于校准不确定性量化的GEDI生物量估计插值方法
+[^456]: 基于校准不确定性量化的GEDI生物量估计插值方法
 
     Interpolation of GEDI Biomass Estimates with Calibrated Uncertainty Quantification
 
@@ -6845,7 +6875,7 @@
 
     arXiv:2601.16834v4 Announce Type: replace  Abstract: Wall-to-wall biomass density estimation from NASA's GEDI mission requires interpolating sparse LIDAR observations across heterogeneous landscapes. While Random Forest and XGBoost are widely used, they predict each location independently from satellite features, without adapting to the varying difficulty of heterogeneous landscapes. We introduce Attentive Neural Processes (ANPs), a probabilistic meta-learning architecture that explicitly conditions predictions on local observation sets as well as geospatial foundation model embeddings. ANPs learn a flexible spatial covariance approximator that is more uncertain in complex landscapes and less in homogeneous areas. We validate this approach across five distinct biomes ranging from tropical Amazonian forests to boreal, temperate, and alpine ecosystems, demonstrating that ANPs achieve competitive accuracy while maintaining uncertainty calibration. We demonstrate a scalable, empirically ca
     
-[^455]: 大语言模型与贝叶斯优化的树状结构协同以实现高效CASH
+[^457]: 大语言模型与贝叶斯优化的树状结构协同以实现高效CASH
 
     Tree-Structured Synergy of Large Language Models and Bayesian Optimization for Efficient CASH
 
@@ -6859,7 +6889,7 @@
 
     arXiv:2601.12355v3 Announce Type: replace  Abstract: To lower the expertise barrier in machine learning, the AutoML community has focused on the CASH problem, which jointly automates algorithm selection and hyperparameter tuning. While traditional methods like Bayesian Optimization (BO) struggle with cold-start issues, Large Language Models (LLMs) can mitigate these through semantic priors. However, existing LLM-based optimizers generalize poorly to high-dimensional, structured CASH spaces. CASH requires coordinated exploration and exploitation both across candidate algorithms and within their algorithm-specific hyperparameter spaces. Yet existing approaches often rely on flat optimization histories that mix observations across algorithms and obscure configuration-refinement trajectories. In this paper, we propose LB-MCTS, a trajectory-structured optimization framework that uses a Monte Carlo Tree Search tree as a shared state for algorithm selection, hyperparameter refinement, and BO-
     
-[^456]: 心血管疾病中以影像为锚点的多组学研究：整合心脏影像、bulk转录组、单细胞与空间转录组学
+[^458]: 心血管疾病中以影像为锚点的多组学研究：整合心脏影像、bulk转录组、单细胞与空间转录组学
 
     Imaging-anchored Multiomics in Cardiovascular Disease: Integrating Cardiac Imaging, Bulk, Single-cell, and Spatial Transcriptomics
 
@@ -6873,7 +6903,7 @@
 
     arXiv:2601.07871v2 Announce Type: replace-cross  Abstract: Cardiovascular disease arises from interactions between inherited risk, molecular programmes, and tissue-scale remodelling that are observed clinically through imaging. Health systems now routinely generate large volumes of cardiac MRI, CT and echocardiography together with bulk, single-cell and spatial transcriptomics, yet these data are still analysed in separate pipelines. This review examines joint representations that link cardiac imaging phenotypes to transcriptomic and spatially resolved molecular states. An imaging-anchored perspective is adopted in which echocardiography, cardiac MRI and CT define a spatial phenotype of the heart, and bulk, single-cell and spatial transcriptomics provide cell-type- and location-specific molecular context. The biological and technical characteristics of these modalities are first summarised, and representation-learning strategies for each are outlined. Multimodal fusion approaches are r
     
-[^457]: 远程蒸馏：将一万年模拟气候蒸馏进长时间步长的AI天气模型
+[^459]: 远程蒸馏：将一万年模拟气候蒸馏进长时间步长的AI天气模型
 
     Long-Range Distillation: Distilling 10,000 Years of Simulated Climate into Long Timestep AI Weather Models
 
@@ -6887,7 +6917,7 @@
 
     arXiv:2512.22814v2 Announce Type: replace  Abstract: Accurate long-range weather forecasting remains a major challenge for AI models, both because errors accumulate over autoregressive rollouts and because reanalysis training datasets provide limited sampling of the slow modes of variability underpinning predictability. Most AI and all numerical weather prediction models are autoregressive, repeatedly applying short-lead forecasts to reach subseasonal-to-seasonal (S2S) or seasonal lead times, often causing instability and miscalibration. Long-timestep probabilistic models that generate long-range forecasts in a single step offer an alternative, but training on the 40-year reanalysis record leads to overfitting, suggesting orders of magnitude more data are required. We introduce long-range distillation, whereby a long-timestep probabilistic ``student'' model is trained to forecast directly at long-range using a huge synthetic dataset generated by an autoregressive ``teacher'' model. Usi
     
-[^458]: 安全的不稳定性：随机种子与温度如何暴露大语言模型不一致的拒绝行为
+[^460]: 安全的不稳定性：随机种子与温度如何暴露大语言模型不一致的拒绝行为
 
     The Instability of Safety: How Random Seeds and Temperature Expose Inconsistent LLM Refusal Behavior
 
@@ -6901,7 +6931,7 @@
 
     arXiv:2512.12066v3 Announce Type: replace-cross  Abstract: Current safety evaluations of large language models rely on single-shot testing, implicitly assuming that model responses are deterministic and representative of the model's safety alignment. We challenge this assumption by investigating the stability of safety refusal decisions across random seeds and temperature settings. Testing four instruction-tuned models from three families (Llama 3.1 8B, Qwen 2.5 7B, Qwen 3 8B, Gemma 3 12B) on 876 harmful prompts across 20 sampling configurations (4 temperatures x 5 seeds), we find that 18-28% of prompts exhibit decision flips--the model refuses in some configurations but complies in others--depending on the model. Our Safety Stability Index (SSI) reveals that higher temperatures significantly reduce decision stability (Friedman chi-squared = 396.81, p < 0.001), with mean within-temperature SSI dropping from 0.977 at temperature 0.0 to 0.942 at temperature 1.0. We validate findings acro
     
-[^459]: 利用神经网络追踪大型化学反应网络与稀有事件
+[^461]: 利用神经网络追踪大型化学反应网络与稀有事件
 
     Tracking large chemical reaction networks and rare events by neural networks
 
@@ -6915,7 +6945,7 @@
 
     arXiv:2512.10309v3 Announce Type: replace-cross  Abstract: Chemical reaction networks are widely used to model stochastic dynamics in biophysical processes. Their exact probabilistic description via the chemical master equation becomes intractable for high-dimensional systems due to the exponential growth of the state space. This difficulty is further exacerbated when metastable transitions and rare events dominate the dynamics. Here, we present an advanced neural-network approach that effectively tackles large reaction networks and rare-event dynamics within a unified framework. Building on autoregressive representations of the full joint probability distribution, we achieve efficient training through second-order optimization methods, including natural gradient descent and the time-dependent variational principle. We leverage enhanced-sampling strategies that enable accurate resolution of low-probability regions governing rare transitions. We demonstrate the method on a multistable g
     
-[^460]: 面向非平凡分类任务的多功能变分量子核框架
+[^462]: 面向非平凡分类任务的多功能变分量子核框架
 
     A Versatile Variational Quantum Kernel Framework for Non-Trivial Classification
 
@@ -6929,7 +6959,7 @@
 
     arXiv:2511.10831v3 Announce Type: replace  Abstract: Quantum kernel methods are a promising branch of quantum machine learning, but their per- formance across data types and encoding choices remains incompletely understood. To address this gap, we developed an algorithmic framework for variational quantum kernels utilizing resource- efficient ans\"atze for complex classification tasks and introduced a parameter scaling technique to accelerate convergence. We conducted a comprehensive benchmark of this framework on eight chal- lenging, real-world and high-dimensional datasets covering tabular, image, time series, and graph data. Our results show that the proposed quantum kernel demonstrated competitive classification accuracy compared to standard classical kernels in classical simulation, such as the radial basis function (RBF) kernel. This work demonstrates that properly designed quantum kernels can func- tion as versatile, high-performance tools, laying a foundation for quantum-enhanc
     
-[^461]: 什么时候系统能从数据中被发现？发现需要混沌
+[^463]: 什么时候系统能从数据中被发现？发现需要混沌
 
     When is a System Discoverable from Data? Discovery Requires Chaos
 
@@ -6943,7 +6973,7 @@
 
     arXiv:2511.08860v3 Announce Type: replace-cross  Abstract: The deep learning revolution has enabled major AI advances in physical sciences, particularly in discovering dynamical systems from observational data. Yet the reliability of learned surrogates and symbolically discovered models is often undermined by non-uniqueness: models may fit observed trajectories perfectly, but lack genuine predictive power. We show that chaos, despite its association with unpredictability, is often what makes governing equations discoverable. We prove that the classical Lorenz system is analytically discoverable and verify experimentally that for many systems out-of-domain generalization emerges precisely at chaos onset. Conservative systems, by contrast, are inherently non-discoverable from data alone. The prevalence of chaotic systems in benchmarks may have inadvertently obscured this limitation. These findings help explain why AI excels at weather forecasting, yet struggles in many engineering applic
     
-[^462]: 用于更好训练和评估知识图谱增强大语言模型的真值子图
+[^464]: 用于更好训练和评估知识图谱增强大语言模型的真值子图
 
     Ground-Truth Subgraphs for Better Training and Evaluation of Knowledge Graph Augmented LLMs
 
@@ -6957,7 +6987,7 @@
 
     arXiv:2511.04473v3 Announce Type: replace-cross  Abstract: Retrieval of information from graph-structured knowledge bases represents a promising direction for improving the factuality of LLMs. While various solutions have been proposed, a comparison of methods is difficult due to the lack of challenging QA datasets with ground-truth targets for graph retrieval. We present SynthKGQA, an LLM-powered framework for generating high-quality Knowledge Graph Question Answering datasets from any Knowledge Graph, providing the full set of ground-truth facts in the KG to reason over questions. We show how, in addition to enabling more informative benchmarking of KG retrievers, the data produced with SynthKGQA also allows us to train better models.We apply SynthKGQA to Wikidata to generate GTSQA, a new dataset designed to test zero-shot generalization abilities of KG retrievers with respect to unseen graph structures and relation types, and benchmark popular solutions for KG-augmented LLMs on it.
     
-[^463]: 一种Nesterov加速的拜占庭鲁棒联邦学习
+[^465]: 一种Nesterov加速的拜占庭鲁棒联邦学习
 
     A Nesterov-Accelerated Byzantine-Robust Federated Learning
 
@@ -6971,7 +7001,7 @@
 
     arXiv:2511.02657v2 Announce Type: replace  Abstract: We investigate robust federated learning, where a group of workers collaboratively train a shared model under the orchestration of a central server in the presence of Byzantine adversaries capable of arbitrary and potentially malicious behaviors. To simultaneously enhance communication efficiency and resilience against such adversaries, we propose a Byzantine-resilient Nesterov-accelerated federated learning (Byrd-NAFL) algorithm. Byrd-NAFL seamlessly integrates Nesterov's momentum into the federated learning process alongside Byzantine-resilient aggregation rules to achieve fast and safe convergence against gradient corruption. We establish a finite-time convergence guarantee for Byrd-NAFL under non-convex and smooth loss functions with relaxed assumptions on the aggregated gradients. Extensive numerical experiments validate the effectiveness of Byrd-NAFL and demonstrate the superiority over existing benchmarks in terms of convergen
     
-[^464]: 迈向能对自身计算进行推理的智能体
+[^466]: 迈向能对自身计算进行推理的智能体
 
     Toward Agents That Reason About Their Computation
 
@@ -6985,7 +7015,7 @@
 
     arXiv:2510.22833v3 Announce Type: replace  Abstract: While reinforcement learning agents can achieve superhuman performance in many complex tasks, they typically do not become more computationally efficient as they improve. In contrast, humans gradually require less cognitive effort as they become more proficient at a task. If agents could reason about their compute as they learn, could they similarly reduce their computation footprint? If they could, we could have more energy efficient agents or free up compute cycles for other processes like planning. In this paper, we experiment with showing agents the cost of their computation and giving them the ability to control when they use compute. We conduct our experiments on the Arcade Learning Environment, and our results demonstrate that with the same training compute budget, agents that reason about their compute perform better on 75% of games. Furthermore, these agents use three times less compute on average. We analyze individual game
     
-[^465]: 不要手持剪刀奔跑：剪枝会破坏VLA模型，但它们可以被恢复
+[^467]: 不要手持剪刀奔跑：剪枝会破坏VLA模型，但它们可以被恢复
 
     Don't Run with Scissors: Pruning Breaks VLA Models but They Can Be Recovered
 
@@ -6999,7 +7029,7 @@
 
     arXiv:2510.08464v2 Announce Type: replace-cross  Abstract: Vision-Language-Action (VLA) models are a promising paradigm for field robotics, but their deployment is bottlenecked by strict edge SWaP-C constraints. Compression techniques such as quantization, distillation, and pruning are well-established for LLMs and VLMs. Pruning, however, remains particularly underexplored for VLA models. We surprisingly find that pruning VLA models yields drastic performance degradation and increased safety violations. Through spectral analysis, we identify structural properties of VLA weights that help explain this fragility. Based on this insight, we introduce GLUESTICK, a post-pruning recovery method that restores much of the original model's capability while preserving sparsity benefits. GLUESTICK computes a one-time corrective term by interpolating between the dense and pruned models in weight space. At inference, each pruned layer applies this correction to recover lost performance with minimal 
     
-[^466]: 基于上下文价值信息的上下文内强化学习
+[^468]: 基于上下文价值信息的上下文内强化学习
 
     Context Value Informed In-Context Reinforcement Learning
 
@@ -7013,7 +7043,7 @@
 
     arXiv:2509.23209v2 Announce Type: replace  Abstract: In-context reinforcement learning (ICRL) has emerged as an effective paradigm for test time adaptation to unseen tasks without parameter updates. However, existing ICRL methods can exhibit brittle and unstable adaptions, and the mechanisms underlying such adaptions remain poorly understood. We provide a policy-gradient view of ICRL and argue that relying on trajectory-level return feedback can lead to high-variance updates when test time rollout is limited. Motivated by the actor--critic principle, we propose Context Value Informed ICRL (CV-ICRL), which equips the in-context policy with an explicit context value: the expected discounted return conditioned on the current state and accumulated interaction context. CV-ICRL trains a value head and writes its prediction back into the context as a value token, enabling TD-style return targets for lower-variance policy updates. Experiments on the Dark Room, Minigrid, and Procgen testbeds sh
     
-[^467]: 语言模型的前瞻性评估：从任务描述预测LLM基准测试分数
+[^469]: 语言模型的前瞻性评估：从任务描述预测LLM基准测试分数
 
     Anticipatory Evaluation of Language Models: Predicting LLM Benchmark Scores from Descriptions
 
@@ -7027,7 +7057,7 @@
 
     arXiv:2509.20645v4 Announce Type: replace  Abstract: Modern ML research increasingly faces an evaluation bottleneck: building benchmarks and running experiments is costly, slowing iteration. We ask how much can be inferred about evaluation outcomes before experiments, given only a natural-language description of the task and setup. We call this setting anticipatory evaluation. We introduce EVALCAST, a literature-grounded resource of 2,290 description-performance pairs from 1,519 arXiv papers, including a test set of papers published after the model's knowledge cutoff. We evaluate two tasks: predicting absolute performance through regression and comparing benchmark difficulty through pairwise prediction. Experiments with frontier LLMs show that accurate regression remains challenging, while pairwise predictions can recover relative performance ordering under matched settings. Comparable performance on post-cutoff and streaming evaluations suggests that the observed signal is not solely 
     
-[^468]: Sig-DEG用于蒸馏：让扩散模型更快更轻量
+[^470]: Sig-DEG用于蒸馏：让扩散模型更快更轻量
 
     Sig-DEG for Distillation: Making Diffusion Models Faster and Lighter
 
@@ -7041,7 +7071,7 @@
 
     arXiv:2508.16939v2 Announce Type: replace  Abstract: Diffusion models achieve state-of-the-art generative performance but remain computationally expensive at inference, often requiring many discretization steps. We propose Sig-DEG (Signature-based Differential Equation Generator), a generator for distilling pre-trained diffusion models. Inspired by high-order stochastic Taylor expansions, Sig-DEG combines partial signatures that summarize Brownian motion over subintervals with a recurrent structure to approximate stochastic differential equation solutions to achieve universality. We formulate distillation as supervised learning, matching fine-resolution teacher trajectories on a coarse time grid. At inference, Sig-DEG enables fast generation, as the partial signatures can be simulated exactly from their known distributions without requiring fine-grained Brownian paths. Experiments on image and time-series generation demonstrate competitive sample quality with inference speedups of up t
     
-[^469]: 针对光滑区域未知的非光滑问题的线性收敛算法
+[^471]: 针对光滑区域未知的非光滑问题的线性收敛算法
 
     Linearly Convergent Algorithms for Nonsmooth Problems with Unknown Smooth Regions
 
@@ -7055,7 +7085,7 @@
 
     arXiv:2507.19465v2 Announce Type: replace-cross  Abstract: We develop efficient algorithms for optimizing piecewise smooth (PWS) functions when their smooth regions are \emph{unknown} to the algorithm. For convex PWS functions satisfying a quadratic growth (QG) condition, we demonstrate that the bundle-level (BL)-type method~\cite{lemarechal1995new} achieves global linear convergence---to our knowledge, the first such result for any algorithm for this problem class. We extend the method to solve weakly convex PWS problems, achieving the same order of complexity as in smooth non-convex optimization. Furthermore, we introduce a verifiable and accurate termination criterion for PWS optimization. Like the gradient norm in smooth optimization, this certificate tightly characterizes the optimality gap under the QG condition and can be evaluated without knowledge of any problem parameters. We develop a search subroutine for this certificate and embed it within a guess-and-check framework, res
     
-[^470]: 《无形的缰绳：为什么RLVR可能或可能无法摆脱其起源》
+[^472]: 《无形的缰绳：为什么RLVR可能或可能无法摆脱其起源》
 
     The Invisible Leash: Why RLVR May or May Not Escape Its Origin
 
@@ -7069,7 +7099,7 @@
 
     arXiv:2507.14843v5 Announce Type: replace-cross  Abstract: Recent advances highlight Reinforcement Learning with Verifiable Rewards (RLVR) as a promising approach to enhancing LLM capabilities. However, it remains unclear whether the current practice of RLVR truly expands models' reasoning boundary or mainly amplifies high-reward outputs that base models already know. We introduce empirical support dynamics, a framework that quantifies how RLVR preserves, expands, and shrinks access to verified solutions. Applied across models, reasoning tasks, and training checkpoints, it matches verified successes question by question to reveal changes that aggregate accuracy can conceal. Across the evaluated model-level benchmark aggregates, \textit{the shrinkage of observed support outweighs its expansion}: more questions lose a verified success than gain one at the stated sampling budgets. These losses occur alongside gains in \texttt{pass@1}. Some RLVR models increase average token-level entropy 
     
-[^471]: 状态空间模型自然产生时间细胞与振荡行为，并可扩展至抽象认知功能
+[^473]: 状态空间模型自然产生时间细胞与振荡行为，并可扩展至抽象认知功能
 
     State Space Models Naturally Produce Time Cell and Oscillatory Behaviors and Scale to Abstract Cognitive Functions
 
@@ -7083,7 +7113,7 @@
 
     arXiv:2507.13638v4 Announce Type: replace-cross  Abstract: A grand challenge in modern neuroscience is bridging the gap between the microscale neural circuits and cognitive functions. While extensive knowledge exists about neuronal connectivity and biophysics, how low-level phenomena give rise to abstract behaviors remains largely unresolved. Here, we propose that a mathematical framework based on State Space Models offers mathematical sufficiency and computational plausibility to generate response profiles that resemble time cells, ramping activity, and oscillatory responses. Our results suggest that such behaviors can emerge from a structured multi-timescale complex rotational basis, which enables optimized history compression and naturally generates structured temporal dynamics even prior to training, mirroring recent findings in biological circuits. Learning exploits and adapts to the pre-existing temporal basis for specific tasks. We show that the model can readily scale to abstra
     
-[^472]: 儿科超声心动图实验室资源分配的基于规则的策略与强化学习策略：一项仿真研究
+[^474]: 儿科超声心动图实验室资源分配的基于规则的策略与强化学习策略：一项仿真研究
 
     Rule-based and reinforcement-learning policies for resource allocation in a pediatric echo lab: a simulation study
 
@@ -7097,7 +7127,7 @@
 
     arXiv:2506.06297v2 Announce Type: replace  Abstract: Scheduling echocardiographic examinations in a hospital setting presents significant challenges due to non-deterministic factors such as patient no-shows, variable arrival times, and heterogeneous exam durations, as well as asymmetric resource constraints between fetal and non-fetal patient streams. Fetal cases involve specialized ultrasound examinations performed during pregnancy, whereas non-fetal cases correspond to general diagnostic echocardiography services. Using one week (184 patients) of operational data from the Echo Laboratory at Stanford University's Lucile Packard Children's Hospital, we estimate patient no-show probabilities and derive empirical distributions of arrival times and exam durations, and use them to build a discrete-event stochastic simulation model using SimPy, exposed through an open-source Gymnasium interface (https://github.com/desResLab/echo_rl). As a baseline for policy optimization, we systematically 
     
-[^473]: 基于分数训练的能量文本转语音模型
+[^475]: 基于分数训练的能量文本转语音模型
 
     Score-Based Training for Energy-Based TTS Models
 
@@ -7111,7 +7141,7 @@
 
     arXiv:2505.13771v2 Announce Type: replace-cross  Abstract: Noise contrastive estimation (NCE) is a popular method for training energy-based models (EBM) with intractable normalisation terms. The key idea of NCE is to learn by comparing unnormalised log-likelihoods of the reference and noisy samples, thus avoiding explicitly computing normalisation terms. However, NCE critically relies on the quality of noisy samples. Recently, sliced score matching (SSM) has been popularised by closely related diffusion models (DM). Unlike NCE, SSM learns a gradient of log-likelihood, or score, by learning distribution of its projections on randomly chosen directions. However, both NCE and SSM disregard the form of log-likelihood function, which is problematic given that EBMs and DMs make use of first-order optimisation during inference. This paper proposes a new criterion that learns scores more suitable for first-order schemes. Experiments contrasts these approaches for training EBMs.
     
-[^474]: 激励贡献并同时学习参数：面向策略性数据拥有者的联邦学习
+[^476]: 激励贡献并同时学习参数：面向策略性数据拥有者的联邦学习
 
     Incentivize Contribution and Learn Parameters Too: Federated Learning with Strategic Data Owners
 
@@ -7125,7 +7155,7 @@
 
     arXiv:2505.12010v5 Announce Type: replace-cross  Abstract: In federated learning (FL), a center trains a shared model from updates that clients compute on their private data. Collecting and training on data is costly, so a strategic client may contribute little data and free-ride on the model trained by the others. We study mechanisms that incentivize data contribution and learn the model at the same time. Our first mechanism, UPBReD, updates the clients ' contributions and the model jointly, and converges at a geometric rate to a Nash equilibrium of the contribution game together with the welfare-maximizing model for those contributions. This equilibrium can involve under-contribution, so our second mechanism, 2P-UPBReD, adds budget-balanced transfers that make full contribution a dominant strategy, after which training converges to the optimal model; we also give conditions under which every client prefers to participate. Both mechanisms trust what clients report about the data they 
     
-[^475]: 可信人工智能必须考虑各维度间的相互作用
+[^477]: 可信人工智能必须考虑各维度间的相互作用
 
     Trustworthy AI Must Account for Interactions
 
@@ -7139,7 +7169,7 @@
 
     arXiv:2504.07170v3 Announce Type: replace  Abstract: Trustworthy AI encompasses many aspirational aspects for aligning AI systems with human values, including fairness, privacy, robustness, explainability, and uncertainty quantification. The ultimate goal of Trustworthy AI research is to achieve all aspects simultaneously. However, efforts to enhance one aspect often introduce unintended trade-offs that negatively impact others. In this position paper, we review notable approaches to five aspects and systematically consider every pair, detailing the negative interactions that can arise. For example, applying differential privacy to model training can amplify biases, undermining fairness. Drawing on these findings, we take the position that current research practices of improving one or two aspects in isolation are insufficient. Instead, research on Trustworthy AI must account for interactions between aspects and adopt a holistic view across all relevant axes at once. We offer recommend
     
-[^476]: 临床时间序列的谱结构学习
+[^478]: 临床时间序列的谱结构学习
 
     Spectral structure learning for clinical time series
 
@@ -7153,7 +7183,7 @@
 
     arXiv:2502.11680v2 Announce Type: replace  Abstract: We develop and evaluate a structure learning algorithm for clinical time series. Clinical time series are multivariate time series observed in multiple patients and irregularly sampled, challenging existing structure learning algorithms. We assume that our times series are realizations of StructGP, a k-dimensional multi-output or multi-task stationary Gaussian process (GP), with independent patients sharing the same covariance function. StructGP encodes ordered conditional relations between time series, represented in a directed acyclic graph. We implement an adapted NOTEARS algorithm, which based on a differentiable definition of acyclicity, recovers the graph by solving a series of continuous optimization problems. Simulation results show that up to mean degree 3 and 20 tasks, we reach a median recall of 0.93% [IQR, 0.86, 0.97] while keeping a median precision of 0.71% [0.57-0.84], for recovering directed edges. We further show tha
     
-[^477]: 忘掉它吧：无需重放或辅助目标即可缓解遗忘
+[^479]: 忘掉它吧：无需重放或辅助目标即可缓解遗忘
 
     Forget About It: Mitigating Forgetting Without Replay or Auxiliary Objectives
 
@@ -7167,7 +7197,7 @@
 
     arXiv:2501.05559v2 Announce Type: replace  Abstract: Have we made mitigating catastrophic forgetting more complicated than it needs to be? Continual adaptation often degrades performance on earlier tasks, motivating rehearsal buffers, auxiliary objectives, and adaptive merging procedures. We investigate how far a simpler alternative-periodic parameter interpolation during fine-tuning-can go on its own. We introduce Sequential Fine-tuning with Averaging (SFA) and evaluate it alongside replay-free Lookahead, originally designed for optimization stability to find compelling results. In Qwen3-14B adapter continual learning, fixed configurations of both methods outperform the tested replay and adaptive-merging configurations in mean final accuracy using up to 36.3% less task training time. Furthermore, across language and vision tasks, our results compete with more complex continual-learning methods. Together, these findings suggest that simple in-training interpolation deserves considerati
     
-[^478]: GLL：一种面向神经网络的可微图学习层
+[^480]: GLL：一种面向神经网络的可微图学习层
 
     GLL: A Differentiable Graph Learning Layer for Neural Networks
 
@@ -7181,7 +7211,7 @@
 
     arXiv:2412.08016v3 Announce Type: replace  Abstract: Standard deep learning architectures used for classification generate label predictions with a projection head and softmax activation function. Although successful, these methods fail to leverage the relational information between samples for generating label predictions. In recent works, graph-based learning techniques, namely Laplace learning, have been heuristically combined with neural networks for both supervised and semi-supervised learning (SSL) tasks. However, prior works approximate the gradient of the loss function with respect to the graph learning algorithm or decouple the processes; end-to-end integration with neural networks is not achieved. In this work, we derive backpropagation equations, via the adjoint method, for inclusion of a general family of graph learning layers into a neural network. The resulting method, distinct from graph neural networks, allows us to precisely integrate similarity graph construction and 
     
-[^479]: 噪声感知的差分隐私变分推断
+[^481]: 噪声感知的差分隐私变分推断
 
     Noise-Aware Differentially Private Variational Inference
 
@@ -7195,7 +7225,7 @@
 
     arXiv:2410.19371v4 Announce Type: replace-cross  Abstract: Differential privacy (DP) provides robust privacy guarantees for statistical inference, but this can lead to unreliable results and biases in downstream applications. While several noise-aware approaches have been proposed which integrate DP perturbation into the inference, they are limited to specific types of simple probabilistic models. In this work, we propose a novel method for noise-aware approximate Bayesian inference based on stochastic gradient variational inference which can also be applied to high-dimensional and non-conjugate models. We also propose a more accurate evaluation method for noise-aware posteriors. Empirically, our inference method has similar performance to existing methods in the domain where they are applicable. Outside this domain, we obtain accurate coverages on high-dimensional Bayesian linear regression and well-calibrated predictive probabilities on Bayesian logistic regression with the UCI Adult
     
-[^480]: 机器人操作中基于贝叶斯模型的强化学习中的主动探索
+[^482]: 机器人操作中基于贝叶斯模型的强化学习中的主动探索
 
     Active Exploration in Bayesian Model-based Reinforcement Learning for Robot Manipulation
 
@@ -7209,7 +7239,7 @@
 
     arXiv:2404.01867v1 Announce Type: cross  Abstract: Efficiently tackling multiple tasks within complex environment, such as those found in robot manipulation, remains an ongoing challenge in robotics and an opportunity for data-driven solutions, such as reinforcement learning (RL). Model-based RL, by building a dynamic model of the robot, enables data reuse and transfer learning between tasks with the same robot and similar environment. Furthermore, data gathering in robotics is expensive and we must rely on data efficient approaches such as model-based RL, where policy learning is mostly conducted on cheaper simulations based on the learned model. Therefore, the quality of the model is fundamental for the performance of the posterior tasks. In this work, we focus on improving the quality of the model and maintaining the data efficiency by performing active learning of the dynamic model during a preliminary exploration phase based on maximize information gathering. We employ Bayesian ne
     
-[^481]: 贝尔曼符合推断：时间序列预测中预测区间的校准
+[^483]: 贝尔曼符合推断：时间序列预测中预测区间的校准
 
     Bellman Conformal Inference: Calibrating Prediction Intervals For Time Series
 
@@ -7223,7 +7253,7 @@
 
     We introduce Bellman Conformal Inference (BCI), a framework that wraps around any time series forecasting models and provides calibrated prediction intervals. Unlike the existing methods, BCI is able to leverage multi-step ahead forecasts and explicitly optimize the average interval lengths by solving a one-dimensional stochastic control problem (SCP) at each time step. In particular, we use the dynamic programming algorithm to find the optimal policy for the SCP. We prove that BCI achieves long-term coverage under arbitrary distribution shifts and temporal dependence, even with poor multi-step ahead forecasts. We find empirically that BCI avoids uninformative intervals that have infinite lengths and generates substantially shorter prediction intervals on volatility forecasting problems when compared with existing methods.
     
-[^482]: 超越规模：梯度如何塑造大语言模型中的剪枝决策
+[^484]: 超越规模：梯度如何塑造大语言模型中的剪枝决策
 
     Beyond Size: How Gradients Shape Pruning Decisions in Large Language Models
 
@@ -7237,7 +7267,7 @@
 
     arXiv:2311.04902v3 Announce Type: replace  Abstract: Large Language Models (LLMs) with billions of parameters are prime targets for network pruning, which removes some model weights without hurting performance. Prior approaches such as magnitude pruning, SparseGPT, and Wanda either concentrated solely on weights or integrated weights with activations for sparsity. However, they overlooked the informative gradients derived from pretrained LLMs. In this paper, we present a novel sparsity-centric pruning method for pretrained LLMs, termed Gradient-based Language Model Pruner (GBLM-Pruner). GBLM-Pruner leverages the first-order term of the Taylor expansion, operating in a training-free manner by harnessing properly normalized gradients from a few calibration samples to determine the pruning metric, and substantially outperforms competitive counterparts like SparseGPT and Wanda in multiple benchmarks. Intriguingly, by incorporating gradients, unstructured pruning with our method tends to re
     
-[^483]: 基于连续随机不可逆网络的不连续流形数据生成
+[^485]: 基于连续随机不可逆网络的不连续流形数据生成
 
     Generation of data on discontinuous manifolds via continuous stochastic non-invertible networks
 
@@ -7251,7 +7281,7 @@
 
     arXiv:2112.09646v2 Announce Type: replace  Abstract: The generation of discontinuous distributions is a difficult task for most known frameworks such as generative autoencoders and generative adversarial networks. Generative non-invertible models are unable to accurately generate such distributions, require long training and often are subject to mode collapse. Variational autoencoders (VAEs), which are based on the idea of keeping the latent space to be Gaussian for the sake of a simple sampling, allow an accurate reconstruction, while they experience significant limitations at generation task. In this work, instead of trying to keep the latent space to be Gaussian, we use a pre-trained contrastive encoder to obtain a clustered latent space. Then, for each cluster, representing a unimodal submanifold, we train a dedicated low complexity network to generate this submanifold from the Gaussian distribution. The proposed framework is based on the information-theoretic formulation of mutual
     
-[^484]: 基于能量的模型用于语音合成
+[^486]: 基于能量的模型用于语音合成
 
     Energy-Based Models For Speech Synthesis. (arXiv:2310.12765v1 [cs.SD])
 
