@@ -1,0 +1,12 @@
+{
+    "title": "LLMR: Knowledge Distillation with a Large Language Model-Induced Reward",
+    "abstract": "arXiv:2409.12500v2 Announce Type: replace-cross  Abstract: Large language models have become increasingly popular and demonstrated remarkable performance in various natural language processing (NLP) tasks. However, these models are typically computationally expensive and difficult to be deployed in resource-constrained environments. In this paper, we propose LLMR, a novel knowledge distillation (KD) method based on a reward function induced from large language models. We conducted experiments on multiple datasets in the dialogue generation and summarization tasks. Empirical results demonstrate that our LLMR approach consistently outperforms traditional KD methods in different tasks and datasets.",
+    "link": "https://arxiv.org/abs/2409.12500",
+    "context": "Title: LLMR: Knowledge Distillation with a Large Language Model-Induced Reward\nAbstract: arXiv:2409.12500v2 Announce Type: replace-cross  Abstract: Large language models have become increasingly popular and demonstrated remarkable performance in various natural language processing (NLP) tasks. However, these models are typically computationally expensive and difficult to be deployed in resource-constrained environments. In this paper, we propose LLMR, a novel knowledge distillation (KD) method based on a reward function induced from large language models. We conducted experiments on multiple datasets in the dialogue generation and summarization tasks. Empirical results demonstrate that our LLMR approach consistently outperforms traditional KD methods in different tasks and datasets.",
+    "path": "papers/24/09/2409.12500.json",
+    "total_tokens": 777,
+    "translated_title": "LLMR：基于大语言模型诱导奖励的知识蒸馏",
+    "translated_abstract": "大语言模型已变得越来越流行，并在各种自然语言处理（NLP）任务中展现出卓越的性能。然而，这些模型通常计算成本高昂，难以部署在资源受限的环境中。在本文中，我们提出了LLMR，一种基于从大语言模型诱导出的奖励函数的新型知识蒸馏（KD）方法。我们在对话生成和摘要任务的多个数据集上进行了实验。实证结果表明，我们的LLMR方法在不同任务和数据集上始终优于传统的知识蒸馏方法。",
+    "tldr": "提出了一种名为LLMR的新型知识蒸馏方法，利用大语言模型诱导的奖励函数来指导模型压缩，在对话生成和摘要任务上始终优于传统知识蒸馏方法。",
+    "en_tdlr": "Proposes LLMR, a novel knowledge distillation method that leverages a reward function induced from large language models, consistently outperforming traditional KD methods across dialogue generation and summarization tasks."
+}

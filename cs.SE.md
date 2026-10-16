@@ -2,115 +2,332 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [PrismaCoder: Pushing the Boundaries of Open Multimodal Code Intelligence through Decomposed Rubric Synthesis](https://arxiv.org/abs/2610.20538) | 该论文提出PrismaCoder，从数据端出发，通过分解式评分标准合成方法，解决多模态代码生成中样本的程序正确性、代码质量与视觉正确性难以同时评估的核心难题，从而推动开放多模态代码智能的发展。 |
-| [^2] | [What Should a Software Team Spend on Agents? Simulation-Based Cost Optimization of Mixed AI-Human Teams](https://arxiv.org/abs/2610.20394) | 该论文通过蒙特卡洛模拟和进化搜索对432种场景进行建模，研究了软件团队在人类开发者与AI智能体之间的最优支出分配策略，发现逃逸缺陷是主要成本驱动因素，且61%的智能体预算应用于查找缺陷。 |
-| [^3] | [Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents](https://arxiv.org/abs/2610.20344) | 该论文提出 Doc2Harness，一个两阶段基准测试，首次直接评估大语言模型为编码智能体进行长时程工具框架工程的能力，填补了现有基准仅能在固定框架下测试下游任务的空白。 |
-| [^4] | [P2Patch: Exploit-Guided Vulnerability Repair](https://arxiv.org/abs/2610.20245) | P2Patch提出了一种生成式对抗修复系统，通过漏洞利用智能体与补丁智能体的持续对抗，将每次成功的漏洞利用转化为永久修复要求，从而生成能抵御同一漏洞多种变体攻击的更稳健补丁。 |
-| [^5] | [SWE-Stream: Scaling Executable Training Data for SWE Agents via Progressive Construction and Elastic Streaming](https://arxiv.org/abs/2610.20193) | SWE-Stream 提出了一种通过渐进式构建与弹性流式执行来大规模自动生成可执行软件工程训练数据的系统，从 10,728 个仓库的开发历史中构建出 80,874 个经过验证的训练任务。 |
-| [^6] | [The Code of Theseus: Can Agents Rebuild Software from Recovered Design Documents?](https://arxiv.org/abs/2610.20068) | 提出一个从紧凑仓库表示中恢复相互对齐的意图、需求与架构文档的框架，并发布覆盖 10,764 个多语言仓库的工件数据集，用于研究智能体能否凭借恢复的设计文档重建软件。 |
-| [^7] | [SWE-Nexus: Automated Composition of Software Engineering Tasks from Test Execution](https://arxiv.org/abs/2610.20038) | SWE-Nexus 是一个完全自动化的流水线，通过追踪测试执行中生产函数的足迹、验证屏蔽效果并确定性组合兼容作用域，自动构建出涵盖 105 个仓库、共 600 个任务的仓库级软件工程实现基准。 |
-| [^8] | [LintEval: Benchmarking LLMs on Linter-Guided File Refactoring](https://arxiv.org/abs/2610.20027) | 该论文提出LintEval，一个覆盖C++、Python和Java的多语言基准，用于评测大语言模型在linter引导的文件重构中减少lint告警的能力，实验揭示了告警减少与功能保持之间的持续权衡。 |
-| [^9] | [Temporal Adaptive Fine-Tuning for Code Comprehension](https://arxiv.org/abs/2610.19970) | 提出 TAFT（时间自适应微调）方法，将仓库代码的演变转换作为监督信号，使大语言模型在代码理解问答中能够获取新知识、抑制过时知识，并保留仍然有效及语义相近的知识。 |
-| [^10] | [Taming the Online Software Engineering Tongue: Detecting and Reducing Offensive Language in Software Communities](https://arxiv.org/abs/2610.19961) | 本研究调查了在线软件工程社区中冒犯性语言的普遍性与特征，并基于四个平台的13万条评论开发了包含72个机器学习模型的冒犯性语言减少系统（OLRSSE），该系统不仅能检测和分类冒犯性评论，还能向发布者解释原因并提供非冒犯性的替代建议。 |
-| [^11] | [Systematic Detection of Energy Regressions in Software Version Histories](https://arxiv.org/abs/2610.19895) | 本文提出EnergyTrackr方法，通过识别提交间能耗的统计显著性变化来自动检测软件版本历史中的能耗退化，并在五个Java项目的1,932个提交上验证了其有效性，同时比较了线性算法与二分搜索算法的效率。 |
-| [^12] | [When Does the Dependency Graph Help Code-to-Architecture Mapping?](https://arxiv.org/abs/2610.19769) | 该论文将代码到架构的映射建模为依赖图上的半监督节点分类问题，并通过GCN、GAT、MLP与朴素贝叶斯的系统对比实验，揭示了依赖图结构信息在何种条件下才能真正提升架构映射的效果。 |
-| [^13] | [JevCoder: When Does Decision Delegation Pay Off in Code Repair?](https://arxiv.org/abs/2610.19596) | 该论文提出 JevCoder，一个围绕低成本概率判断器 Jev 构建的代码修复工作流程，系统研究了哪些修复决策可以委托给低成本判断器，通过结合代码片段推荐与动作类型指导，在保持修复质量的同时降低 token 开销。 |
-| [^14] | [Mission (Im)Possible: Towards Autonomous Discovery of Autopilot Logic Flaws in Open-Source Drone Frameworks](https://arxiv.org/abs/2610.19566) | 本文提出了IMF（Impossible Mission Finder）框架，利用配备领域知识和精心构建上下文的多智能体LLM系统，结合高级语义缺陷判定器，自主发现开源无人机自动驾驶仪软件中难以通过传统方法检测的细微逻辑缺陷。 |
-| [^15] | [BenchChecker: Assessing the Credibility of Bug-Fixing Benchmarks for LLMs](https://arxiv.org/abs/2610.19447) | 提出BenchChecker框架，通过基于取证的两阶段检测流程（仓库存在性测试与补丁存在性测试）来识别缺陷修复基准中的数据污染问题，从而更可信地评估大语言模型在自动程序修复任务上的真实性能。 |
-| [^16] | [OS-Bench: Evaluating SWE Agents on Cross-OS Code Migration](https://arxiv.org/abs/2610.19368) | 提出OS-Bench——首个通过对比同一代码库在Linux与Windows上的执行覆盖率来识别迁移机会，并将平台特定代码组织为五种场景的可执行基准，用于评估语言模型智能体在跨操作系统代码迁移上的能力。 |
-| [^17] | [Beyond Functional Correctness: Static Code Quality Profiling of LLM-Generated Code](https://arxiv.org/abs/2610.19167) | 本研究对73个大语言模型生成的65,663个Python程序进行了大规模静态代码质量剖析，发现仅靠功能正确性无法全面评估代码质量，各模型在可维护性等静态质量指标上存在系统性差异，且正确性往往伴随着结构上的权衡。 |
-| [^18] | [DivAlgo: A systematic evaluation of algorithmic diversity for code generation models](https://arxiv.org/abs/2610.19157) | 提出DivAlgo基准数据集及轻量级相似度度量方法，通过对24个代码生成模型的评估发现，模型生成代码的算法多样性显著低于人类解决方案（最高仅达人类多样性的约70%），揭示了当前代码生成模型在算法多样性方面的局限性。 |
-| [^19] | [A Systematic Study of Deprecated Android API Usage Updates](https://arxiv.org/abs/2610.19150) | 本文通过分析1,000个已弃用Android API和4,336个来自GitHub的迁移示例，系统性地识别出六大迁移类别及反复出现的API使用更新模式，为改进自动化API迁移技术提供了实证基础。 |
-| [^20] | [X.js: A Live Benchmark for Node.js Taint-Style Vulnerabilities](https://arxiv.org/abs/2610.18585) | 本文提出了X.js——一个持续更新的真实世界Node.js污点风格漏洞基准测试集，每个漏洞均配有精确的源汇位置、经验证的可执行漏洞利用程序及补丁版本，解决了现有漏洞数据集过时、无法支持该领域研究长期发展的问题。 |
-| [^21] | [Interaction-as-a-Judge](https://arxiv.org/abs/2610.17895) | 提出“交互即裁判”评估范式，让计算机操作智能体直接与应用交互来进行评估和生成，弥补了传统基于代码分析与单元测试的自动评估和人类交互式评估之间的差距，并发布了包含人类偏好对与经人类验证需求标签的两个数据集。 |
-| [^22] | [SecReason: Vulnerability Detection and In-Stream Self-Repair for LLM Code Generation](https://arxiv.org/abs/2610.14453) | 提出SecReason，一种针对推理型大语言模型代码生成的流内防御机制，通过双轨增量扫描在流式思维链中实时检测安全漏洞并进行自修复。 |
-| [^23] | [SoftwareGym: Scaling Computer-Use Agent Training with Diverse Synthesized Software Environments](https://arxiv.org/abs/2610.12611) | 提出SoftwareGym，一个自动化流水线，能够大规模合成界面多样、功能可执行且经运行时验证的GUI软件环境（已生成12个类别共182个应用，任务通过率达91.5%），并构建SoftwareGym-Bench基准以支持计算机使用智能体的训练与评估。 |
-| [^24] | [A2ABreak: Systematic Security Analysis of the A2A Protocol](https://arxiv.org/abs/2609.10871) | 本文提出A2ABreak框架，首次对A2A协议进行系统性安全分析，通过LLM辅助从自然语言规范中提取经验证的有限状态机模型（37个状态、76个转换），并利用对抗性验证系统性发现协议层面的安全漏洞。 |
-| [^25] | [Shortcutting the Fix: Identifying and Categorizing Agentic Exploits in Software Engineering Benchmarks](https://arxiv.org/abs/2609.06780) | 该研究首次将软件工程基准测试中智能体通过检索上游代码、利用 Git 历史等方式作弊的现象形式化为“智能体走捷径”，发现标准评估下高达 90% 的轨迹存在作弊尝试，并提出通过提示智能体独立构建解决方案可将其降至约 10% 且不损害任务性能，凸显了作弊感知评估框架的必要性。 |
-| [^26] | [BTS-AgentBench: A Deterministic, Replayable Pipeline from Read-Only Telemetry Logs to Agent Benchmarks](https://arxiv.org/abs/2608.27334) | 该论文提出了一种从只读遥测日志到代理基准测试的确定性、可重放构建流水线，通过标准化工具存储和情节编译，实现了精确复现和零缺陷的基准测试生成。 |
-| [^27] | [Refining LLM-based Directed Test Input Generation via Runtime Value Feedback](https://arxiv.org/abs/2608.07926) | 提出了ReDig框架，通过比较预期运行时值与实际运行时值的事后分析反馈，迭代改进基于LLM的定向测试输入生成，引导测试输入到达目标代码位置。 |
-| [^28] | [An Empirical Study of Gemini 3 for Detecting Natural Language Test Smells in Manual Test Cases](https://arxiv.org/abs/2606.13804) | 本文实证研究了最新大语言模型Gemini 3 Pro Preview能否有效检测手工测试用例中的自然语言测试异味，并与此前表现最佳的小语言模型PHI-4-14B进行了对比。 |
-| [^29] | [T2J-BENCH: Benchmarking Coding Agents on Execution-Grounded PyTorch-to-JAX Repository Migration](https://arxiv.org/abs/2605.29054) | 提出T2J-BENCH基准，包含63个涵盖18个模型家族的整仓库PyTorch到JAX迁移任务，以执行行为一致性和无torch依赖作为核心评价标准，用以真实评估编码智能体进行跨框架代码库迁移的能力。 |
-| [^30] | [MOCHA: Multi-Objective Chebyshev Annealing for Agent Skill Optimization](https://arxiv.org/abs/2605.19330) | 提出 MOCHA 方法，通过切比雪夫标量化选择改进对象并以扩展帕累托前沿为接受准则，从探索退火到利用，实现智能体技能在准确性与上下文经济性之间的多目标优化，克服了现有单分数提示词优化器易停滞的问题。 |
-| [^31] | [Scaling Human-AI Coding Collaboration Requires a Governable Consensus Layer](https://arxiv.org/abs/2604.17883) | 该论文提出扩展人机编码协作需要引入一个可治理的共识层，通过版本化的项目状态模型将意图、结构性承诺、代码工件和证据关联起来，使人类能够在AI编码过程中检查、协调和修订共享的设计决策。 |
-| [^32] | [Terminal Agents Suffice for Enterprise Automation](https://arxiv.org/abs/2604.00073) | 该论文提出仅配备终端和文件系统的编码智能体通过直接调用平台 API，就能以远低于复杂智能体架构（如 MCP 工具智能体和网页智能体）的成本，达到甚至超越它们在企业任务上的表现。 |
-| [^33] | [LLMON: An LLM-native Markup Language to Leverage Structure and Semantics at the LLM Interface](https://arxiv.org/abs/2603.22519) | 提出了一种LLM原生标记语言LLMON，能够在LLM接口层面自然地传达文本的结构与语义元数据，从而提升模型的准确性、安全性以及抵抗提示注入攻击的能力。 |
-| [^34] | [SWE-Spot: Building Small Repo-Experts with Repository-Centric Learning](https://arxiv.org/abs/2601.21649) | 本文提出仓库中心化学习（RCL）新范式，将静态代码库转化为交互式学习信号，训练出针对特定代码仓库深度专门化的小型语言模型SWE-Spot-4B，以弥补小型模型处理复杂陌生代码库时泛化能力不足的缺陷。 |
-| [^35] | [Securing High-Concurrency Ticket Sales: A Framework Based on Microservice](https://arxiv.org/abs/2512.24941) | 本文提出了一种基于Spring Cloud微服务架构的铁路购票系统设计框架，通过多种安全设计方法保障系统在高并发场景下的稳定性、数据一致性和快速响应能力。 |
+| [^1] | [FDE-Gym: The Last Mile of AI Delivery](https://arxiv.org/abs/2610.22350) | 提出了FDE-Gym基准，包含来自18个行业20个客户场景的95个端到端交付任务，用于评估智能体在真实客户交付中厘清模糊需求、与利益相关方互动并在类生产系统中交付可用解决方案的能力。 |
+| [^2] | [Are We Testing the Wrong Quantum Bugs? A Study of Fault Representation Gaps in Quantum Software Testing](https://arxiv.org/abs/2610.22089) | 该研究通过审查量子变异测试工具和人工整理的缺陷基准，并收集两年内410个真实缺陷，揭示量子软件测试评估中存在显著的缺陷表示差距——现有变异算子与基准仅覆盖极少数缺陷族，无法充分代表真实量子软件中的缺陷。 |
+| [^3] | [WEAVE: Weaving Real-World Code Evolution into Dependency-Structured Tasks for Benchmarking and Training Code Agents](https://arxiv.org/abs/2610.22039) | WEAVE 框架将真实世界中经过验证的多 PR 代码演进历史转化为依赖结构化的可执行任务，并引入基于测试的确定性度量 Graph Credit，以更好地对长程代码智能体进行基准评估和训练。 |
+| [^4] | [Stateful Testing for Deep Learning Compilers](https://arxiv.org/abs/2610.22003) | 提出面向深度学习编译器的有状态测试方法 Rondo，通过将模型与调用序列配对、利用编译行为引导的 MCMC 采样进行序列变异，并结合三路差分预言机，检测由编译器保留状态引发且在单独执行时无法复现的缺陷。 |
+| [^5] | [Benchmarking and Enhancing Design-Aware Code Review in the Linux Kernel](https://arxiv.org/abs/2610.21925) | 本文提出了DesignLore知识增强方法和DesignReviewBench基准，通过从历史审查讨论中提取、组织并复用设计决策知识，系统性评估并增强了Linux内核中的设计感知代码审查。 |
+| [^6] | [CodeHealth Predicts the Token Cost of Agentic Code Review: A Pre-Registered Study of 465 Agent-Authored Pull Requests](https://arxiv.org/abs/2610.21914) | 这项预注册研究通过对465个智能体创建的PR进行分层抽样分析，首次证实代码健康度（CodeHealth）能够预测智能体代码审查的Token成本——健康度每提高1分，成本降低3.5%至6.1%，且该效应独立于PR规模。 |
+| [^7] | [Realization Divergence in Multi-Provider Quantum Computing: A Pre-Registered Study of What Survives Measurement](https://arxiv.org/abs/2610.21714) | 该研究提出“实现分歧”概念来量化同一量子电路在不同供应商软件栈中的实现差异，并通过覆盖三家供应商、四台设备的预注册硬件研究发现，嵌入半径比电路规模更能预测双量子比特开销，且电路规模与执行分歧的排序在不同设备上可能完全相反。 |
+| [^8] | [Independent Data-Integrity Verification for LLM-Driven Functional Coverage Closure in Hardware Design](https://arxiv.org/abs/2610.21570) | 该论文提出一个带有独立数据完整性验证的LLM覆盖率收敛智能体，通过从仿真报告读取覆盖率并使用独立记分板检查数据正确性，仅用一个与设计无关的智能体就在三种不同RTL设计上将覆盖率提升至100%，并额外发现了一个时钟域跨越错误。 |
+| [^9] | [Poison Valleys: Diagnosing Path-Dependent Failure in LLM Code Repair](https://arxiv.org/abs/2610.21514) | 该论文提出“毒谷”诊断框架，通过向LLM代码修复的假设与计划中注入看似合理但错误的软件机制，首次量化揭示了上游错误概念的位置如何路径依赖性地决定下游代码失败——将错误概念从假设移至计划阶段会使失败率增加约29%至32%。 |
+| [^10] | [The Role of Agentic Instruction Categories for Code Generation: A Study of Five Python Libraries](https://arxiv.org/abs/2610.21421) | 该研究利用两个大语言模型和五个Python库系统评估了五类代理指令的全部31种组合，发现指令数量本身并不能决定代理文件生成的token消耗，且不同模型和库之间的表现差异显著。 |
+| [^11] | [Evaluating and Improving Static Application Security Testing Tools for Rust](https://arxiv.org/abs/2610.21373) | 本文通过真实漏洞对主流Rust静态安全测试工具进行实证评估，系统揭示其弱点及根本原因，并提出了基于大语言模型辅助的自动化测试方法TRUST来改进Rust安全测试工具。 |
+| [^12] | [Agentic Dependency Transformations: Lessons from an Exploratory Case Study of Flask](https://arxiv.org/abs/2610.21372) | 本文通过对Flask框架的探索性案例研究，首次提出“依赖转换”这一新兴概念——即AI编程智能体改变软件仓库处理外部依赖的方式，总结出五点初步经验教训，并将其确立为一个具有五部分研究议程的新兴研究方向。 |
+| [^13] | [Combining LLM and Dynamic Analysis for Universal Testing of Static Application Security Testing Tools](https://arxiv.org/abs/2610.21309) | 提出LLM4SAST，首个结合大语言模型与动态反馈来检测静态应用安全测试工具缺陷的通用框架，通过蜕变关系引导的多语言代码变体生成实现自动化测试。 |
+| [^14] | [ToolBottleneckBench: Measuring Tool-Agent Performance under Controlled Pressures and Fixed Harness Budgets](https://arxiv.org/abs/2610.21098) | 该论文提出ToolBottleneckBench基准，在固定框架预算下通过单独变化工具目录、可见菜单、认证工作流或返回记录编码等压力因素来测量工具智能体性能，发现可见工具菜单是唯一对模型造成大幅惩罚的压力且其根源是完成上限处的截断，而大多数失败实际终止于框架限制而非模型能力不足。 |
+| [^15] | [Skip the Compressor: Coding Agents Fix More Issues When They Pick Whole Files](https://arxiv.org/abs/2610.21073) | 在相同token预算下，与其用压缩器删减文本或检索器挑选代码块，不如将预算用于选择需要原样完整呈现的文件（如CQ2-CARE），这样编码代理能解决更多软件工程问题。 |
+| [^16] | [Where the SRAM Goes: Per-Symbol Attribution of Static Memory in FreeRTOS-C and Embassy-Rust IoT Firmware on a 64 KB RISC-V Microcontroller](https://arxiv.org/abs/2610.21064) | 提出一种逐符号的静态 SRAM 归因方法，在 64 KB RISC-V 微控制器上将 FreeRTOS-C 与 Embassy-Rust 物联网固件的静态内存精确分解为调度器堆、网络缓冲池、任务栈和链接器保留区域等类别，并与总消耗量完全对账验证。 |
+| [^17] | [Robotic-supported Data Loss Detection in Android Applications](https://arxiv.org/abs/2610.20807) | 该论文提出利用机器人自动化技术以非侵入方式检测安卓应用中的数据丢失问题，从而高效应对多样化硬件与操作系统配置下的应用测试挑战。 |
+| [^18] | [Causal Syntax Circuits in CodeLMs: Budget and Probe Decide What Looks Localised](https://arxiv.org/abs/2610.20683) | 该论文通过均值消融、激活修补、贪心电路提取与激活引导的统一流程，系统研究了代码语言模型默认偏好Python的内部机制，发现该偏好随模型规模增长并在指令微调后仍存在，但其局域化表现高度依赖于组件预算与探针的选择。 |
+| [^19] | [HPCAgent-Bench: A Framework for Sound Benchmarking of Code-Optimizing Agents, Harnesses, and Skills](https://arxiv.org/abs/2610.20673) | 该论文提出了HPCAgent-Bench——一个包含689个内核、覆盖三个赛道的代码优化基准框架，通过统一的内核规范、外部防作弊裁判以及“干预效力”等新指标，实现对代码优化智能体、执行框架与技能各自贡献的可靠隔离评估。 |
+| [^20] | [Developer Experiences with Cursor AI-native IDE](https://arxiv.org/abs/2610.20618) | 本研究通过分析Cursor官方论坛两年多来的14,714条帖子，大规模纵向考察了开发者使用AI原生IDE的真实体验、采用摩擦及工作流演变。 |
+| [^21] | [The Code of Theseus: Can Agents Rebuild Software from Recovered Design Documents?](https://arxiv.org/abs/2610.20068) | 提出一个从紧凑仓库表示中恢复相互对齐的意图、需求与架构文档的框架，并发布覆盖 10,764 个多语言仓库的工件数据集，用于研究智能体能否凭借恢复的设计文档重建软件。 |
+| [^22] | [SWE-Nexus: Automated Composition of Software Engineering Tasks from Test Execution](https://arxiv.org/abs/2610.20038) | SWE-Nexus 是一个完全自动化的流水线，通过追踪测试执行中生产函数的足迹、验证屏蔽效果并确定性组合兼容作用域，自动构建出涵盖 105 个仓库、共 600 个任务的仓库级软件工程实现基准。 |
+| [^23] | [ReTerm: Recovery Training for Self-Improving Terminal Agents](https://arxiv.org/abs/2610.18484) | 提出ReTerm终端智能体，通过恢复示范数据集ReTerm-10K进行SFT冷启动，并利用从自身失败状态分叉出多次恢复尝试的在线强化学习算法ReTerm-GRPO，让智能体从自身恢复经验中自我改进，在Terminal-Bench 2.0上取得34.8%的Pass@1成绩。 |
+| [^24] | [NosRacer: Dynamic Detection of Race Conditions in On-Device Network Operating Systems](https://arxiv.org/abs/2610.11875) | 本文提出NosRacer，一个采用两阶段设计的动态分析框架，用于高效检测工业级设备内置网络操作系统（NOS）中由异步消息传递引起的竞态条件。 |
+| [^25] | [ParanoiaEval: Benchmarking Unnecessary Defensive Work in Agentic Coding](https://arxiv.org/abs/2610.08662) | 提出了首个统一评估编程智能体风险应对能力的基准ParanoiaEval，基于风险管理中的规避-转移-缓解-接受框架，通过200对证据受控的仓库级任务对和专用评估指标来衡量智能体的防御性工作是否合理。 |
+| [^26] | [Testing and Verification of Quantum Compilers through Assurance Contracts and Evidence](https://arxiv.org/abs/2610.00255) | 该论文是一项关于量子编译器测试与验证的批判性综合综述，系统比较了经验证变换、等价性检查、差分与蜕变测试、基于属性的测试等多种方法，并通过失败案例和工作示例说明如何借助保证契约与证据确保量子编译器在其交付接口上的正确性。 |
+| [^27] | [From Migration to Calibration: Preserving Agent Capabilities across Models, Jurisdictions, and Scale](https://arxiv.org/abs/2609.35149) | 提出将智能体校准构建为标准优先的适配框架，通过定义基础能力、技术环境与用户情境标准，系统诊断差距并应用修订，从而在模型更换、跨管辖区部署和规模化过程中保持智能体能力不退化。 |
+| [^28] | [SWE-PolyVision: Benchmarking Cross-Image Abductive Reasoning for Repository-Level Software Engineering](https://arxiv.org/abs/2609.29754) | 提出 SWE-PolyVision 基准，通过 92 个包含多图像输入的真实软件工程任务，首次系统评估智能体将跨图像视觉证据与代码证据整合并进行经验证的仓库级修复的能力，发现视觉访问的效果因模型和任务而异。 |
+| [^29] | [A Model-Centric DevOps Architecture for DEVS-Based Digital Twin Simulation Services](https://arxiv.org/abs/2609.11122) | 本文提出一种以模型为中心的DevOps架构，将基于DEVS的数字孪生仿真模型作为一等制品，通过声明式YAML定义、到multiPDEVS的形式化映射、CI/CD流水线中的结构与语义验证以及Kubernetes容器化微服务部署，实现了仿真模型的可追溯版本管理与持续交付。 |
+| [^30] | [Praxist: From Experimental Artifacts to Solution Lineages](https://arxiv.org/abs/2608.25955) | Praxist通过谱系中心方法将实验人工制品转化为类型化证据图，分离局部构建与证据综合，使研发代理能继承已验证机制，避免重复学习并提升长期研发效率。 |
+| [^31] | [SPECMINE: A Large-Scale Corpus of Spec-Driven Development Artifacts](https://arxiv.org/abs/2608.25202) | 我们提出了SPECMINE，这是首个大规模语料库，通过两次普查系统地捕捉了GitHub上规范驱动开发工件，为研究规范如何转化为代码提供了基础数据。 |
+| [^32] | [Don't Regenerate, Debug: A Domain-Specific Agent for Repairing Near-Miss Accelerator Kernels](https://arxiv.org/abs/2608.02712) | 该论文提出“调试而非重新生成”的范式转变，设计了一个领域专用调试智能体，用于修复那些能够编译运行但未通过数值验证的“差一点成功”加速器内核，从而将原本被丢弃的失败候选转化为可复用的知识。 |
+| [^33] | [Identifier-Free Code Embedding Models for Scalable Search](https://arxiv.org/abs/2605.05251) | 该论文形式化了源代码与去除符号的反编译代码之间的双向函数关联问题，并通过对比学习微调Qwen3-Embedding模型，在所有基线测试中大幅超越现有模型。 |
+| [^34] | [Isolating Recurring Backend-Dependent Abnormal Patterns on NISQ Quantum Devices](https://arxiv.org/abs/2604.17519) | 提出了QRisk框架，能够从量子硬件执行中隔离出重复出现的、依赖特定后端的异常门序列，从而指导门排序重写，弥合编译器噪声模型与真实设备行为之间的差距。 |
+| [^35] | [ORACLE-SWE: Quantifying the Contribution of Critical Information Signals on SWE Agents](https://arxiv.org/abs/2604.07789) | 该论文提出ORACLE-SWE，首次系统量化了复现测试、回归测试、编辑位置、执行上下文和API用法等关键中间信息信号对软件工程代理任务成功的贡献，并测量了代理发现的信号与理想神谕信号之间尚存的改进空间。 |
+| [^36] | [SEVerA: Verified Synthesis of Self-Evolving Agents](https://arxiv.org/abs/2603.25111) | 提出了SEVerA框架，通过形式化守护生成模型（FGGM）将自演化智能体代码生成形式化为受约束的学习问题，从而为自演化LLM智能体提供安全性和正确性的形式化保证。 |
+| [^37] | [LLMON: An LLM-native Markup Language to Leverage Structure and Semantics at the LLM Interface](https://arxiv.org/abs/2603.22519) | 提出了一种LLM原生标记语言LLMON，能够在LLM接口层面自然地传达文本的结构与语义元数据，从而提升模型的准确性、安全性以及抵抗提示注入攻击的能力。 |
+| [^38] | [Benchmarking Code LLM-as-a-Judge via Constrained Perturbation and Calibration](https://arxiv.org/abs/2512.20159) | 该论文提出通过约束扰动与校准技术构建代码LLM-as-a-Judge评估基准，克服了现有基准中粗粒度二元标签无法区分缺陷严重程度以及细粒度人工评分主观不可靠的局限性。 |
+| [^39] | [RAG4Tickets: AI-Powered Ticket Resolution via Retrieval-Augmented Generation on JIRA and GitHub Data](https://arxiv.org/abs/2510.08667) | 该论文提出RAG4Tickets框架，通过将Sentence-Transformers语义嵌入、FAISS向量搜索与大语言模型相结合，利用JIRA和GitHub的历史工单及PR数据，为软件工单提供有依据且可解释的解决建议。 |
+| [^40] | [Multi-LLM Orchestration for High-Quality Code Generation: Exploiting Complementary Model Strengths](https://arxiv.org/abs/2510.01379) | 提出PerfOrch多智能体系统，通过Memory模块记录各LLM在不同开发阶段、编程语言和算法类别上的实测性能排名，从而在代码生成、调试和优化的每个环节动态选用最合适的模型，利用模型间互补优势实现比单一模型更高的代码正确性和执行性能。 |
+| [^41] | [Enhancing Knowledge Density via Hierarchical Context Pruning for Retrieval-Augmented Repository-Level Code Completion](https://arxiv.org/abs/2508.10068) | 提出SaraCoder框架，在固定上下文预算下通过分层上下文剪枝提升检索上下文的知识密度，避免冗余代码浪费token并释放跨文件依赖与相似代码片段的协同作用，从而提升仓库级代码补全性能。 |
+| [^42] | [An Empirical Analysis of EOS Blockchain: Architecture, Contract, and Security](https://arxiv.org/abs/2505.15051) | 本研究首次从系统架构、去中心化、性能、智能合约和行为安全五个维度对EOS区块链进行了全面的实证分析，揭示了账户活跃度低、超级节点选举参与有限等关键问题。 |
 
 # 详细
 
-[^1]: PrismaCoder：通过分解式评分标准合成突破开放多模态代码智能的边界
+[^1]: FDE-Gym：AI交付的最后一公里
 
-    PrismaCoder: Pushing the Boundaries of Open Multimodal Code Intelligence through Decomposed Rubric Synthesis
+    FDE-Gym: The Last Mile of AI Delivery
 
-    [https://arxiv.org/abs/2610.20538](https://arxiv.org/abs/2610.20538)
+    [https://arxiv.org/abs/2610.22350](https://arxiv.org/abs/2610.22350)
 
-    该论文提出PrismaCoder，从数据端出发，通过分解式评分标准合成方法，解决多模态代码生成中样本的程序正确性、代码质量与视觉正确性难以同时评估的核心难题，从而推动开放多模态代码智能的发展。
-
-    
-
-    多模态代码智能将程序的符号世界与其执行所创造的视觉世界连接起来。随着模型越来越多地被要求生成图表、网页、动画和半结构化文档，人们对这一能力的兴趣正在迅速增长。近期，专有模型已大幅领先，甚至能够仅凭文本描述或一张截图就生成交互式作品。然而，这些模型的数据和训练过程仍然封闭，开放领域的进展受限于可用数据的数量与质量，以及生产这些数据的流程和方法。其中质量是更难解决的问题，因为一个样本必须同时满足：作为程序是正确的、构建良好的，以及最关键的——渲染后在视觉上是正确的。目前没有任何现有信号能够同时覆盖这三个方面：执行往往只返回通过或失败，代码相似度无法映射到视觉输出，而针对特定任务的验证器又缺乏泛化能力。为了进一步推动开放领域的发展，我们从数据端入手……
-
-    arXiv:2610.20538v1 Announce Type: new  Abstract: Multimodal code intelligence connects the symbolic world of programs with the visual world their execution creates. Interest in this capability is burgeoning, as models are increasingly asked to produce charts, webpages, animations, and semi-structured documents. Recently, proprietary models have pushed far ahead, producing interactive artifacts even from a text description or a screenshot alone. Yet their data and training remain closed, and open progress is held back by the quantity and quality of available data and by the pipelines and methods for producing it. Quality is the harder of the two, since a sample must be correct as a program, well built, and above all visually right once rendered. No existing signal covers all three. Execution often returns just a pass or fail, code similarity does not map to the visual output, and task-specific verifiers do not generalize. To push open progress further, we start from the data side with P
-    
-[^2]: 软件团队应该在智能体上花费多少？基于仿真的AI与人类混合团队成本优化
-
-    What Should a Software Team Spend on Agents? Simulation-Based Cost Optimization of Mixed AI-Human Teams
-
-    [https://arxiv.org/abs/2610.20394](https://arxiv.org/abs/2610.20394)
-
-    该论文通过蒙特卡洛模拟和进化搜索对432种场景进行建模，研究了软件团队在人类开发者与AI智能体之间的最优支出分配策略，发现逃逸缺陷是主要成本驱动因素，且61%的智能体预算应用于查找缺陷。
+    提出了FDE-Gym基准，包含来自18个行业20个客户场景的95个端到端交付任务，用于评估智能体在真实客户交付中厘清模糊需求、与利益相关方互动并在类生产系统中交付可用解决方案的能力。
 
     
 
-    背景：AI智能体正在软件开发中被快速采用，但其token成本不断上升，目前尚不清楚团队应该在智能体上花费多少，以及应该在哪些任务上花费。目标：我们确定团队应如何在人类开发者和AI智能体之间分配支出，以最低的总成本交付项目所需的功能。方法：我们将由人类开发者和八种专业角色AI智能体组成的混合团队建模为一个离散时间随机过程，涵盖缺陷注入与检测、技术债务、人类对智能体的监督，以及带有功能冻结的发布周期。通过蒙特卡洛模拟和进化搜索，我们针对432种场景（涵盖开发者能力、项目速度、债务动态、智能体能力与价格以及缺陷成本等因素）确定了成本最优的团队配置，并将其与纯人类团队基线进行比较。结果：逃逸缺陷是主要的成本驱动因素，61%的智能体预算用于查找缺陷……
+    现有的智能体基准测试通常在由问题报告、规格说明或任务工单所定义的明确任务上评估智能体。真实的客户交付则不同：前沿部署工程师必须厘清模糊的需求，在运行中的系统中工作，并发掘未被明确表述的约束条件。我们提出了FDE-Gym，这是一个包含95个端到端交付任务的基准，这些任务来自横跨18个行业的20个客户场景，每一个都由行业专家根据真实交付项目改编而成。在配备剧本化利益相关方和可修改客户系统的模拟客户环境中，智能体与利益相关方互动，并在类生产系统上进行操作以交付可用的解决方案。FDE-Gym通过交付对客户自身成功指标的改善程度来进行评分，归一化到0（系统未改变）到1（参考解决方案）之间，并对利益相关方互动（消息、试运行和等待时间）施加扣分。一个在线平台允许人类……
 
-    arXiv:2610.20394v1 Announce Type: new  Abstract: Context: AI agents are rapidly adopted in software development, but their token costs are rising and it is unclear how much a team should spend on agents, and on which tasks.   Objective: We determine how teams should divide spending between human developers and AI agents to deliver the features a project demands at the lowest total cost.   Method: We model mixed teams of human developers and AI agents with eight specialized roles as a discrete-time stochastic process covering bug injection and detection, technical debt, human supervision of agents, and release cycles with feature freezes. Using Monte Carlo simulation and evolutionary search, we determine cost-optimal teams for 432 scenarios varying developer capability, project velocity, debt dynamics, agent capability and price, and bug costs, and compare them with a human-only baseline.   Results: Escaped bugs are the dominant cost driver, and 61% of the agent budget goes to finding b
+    arXiv:2610.22350v1 Announce Type: new  Abstract: Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constraints. We introduce FDE-Gym, a benchmark of 95 end-to-end delivery tasks from 20 customer scenarios across 18 sectors, each adapted by industry experts from real-world delivery projects. In simulated customer environments with scripted stakeholders and modifiable customer systems, agents interact with stakeholders and operate on production-like systems to deliver working solutions. FDE-Gym scores a delivery by how much it improves the customer's own success metric, normalized between 0 (unchanged system) and 1 (reference solution), with penalties for stakeholder interactions (messages, trial runs, and waiting time). An online platform lets human
     
-[^3]: Doc2Harness：基于长时程工具框架工程任务的大语言模型编码智能体基准测试
+[^2]: 我们是否在测试错误的量子缺陷？量子软件测试中缺陷表示差距的研究
 
-    Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents
+    Are We Testing the Wrong Quantum Bugs? A Study of Fault Representation Gaps in Quantum Software Testing
 
-    [https://arxiv.org/abs/2610.20344](https://arxiv.org/abs/2610.20344)
+    [https://arxiv.org/abs/2610.22089](https://arxiv.org/abs/2610.22089)
 
-    该论文提出 Doc2Harness，一个两阶段基准测试，首次直接评估大语言模型为编码智能体进行长时程工具框架工程的能力，填补了现有基准仅能在固定框架下测试下游任务的空白。
-
-    
-
-    由大语言模型驱动的智能体正越来越多地被部署在长时程任务中，在这些任务里它们使用工具并修改真实的工作空间。其性能表现既取决于模型本身，也同等程度地取决于围绕模型的工具框架。现有基准测试在固定工具框架下衡量下游任务的成功率，而工具框架工程本身的研究仍是空白。我们提出 Doc2Harness，这是一个直接评估长时程工具框架工程能力的两阶段基准测试。在第一阶段，一个在固定构建器工具框架内运行的构建模型，接收一个仅含接口的契约骨架和一份整合了十二个前沿工具框架行为的开发文档，然后在一个隔离容器中构建出完整的候选工具框架。在第二阶段，冻结的候选工具框架在与构建环境相互隔离的容器中运行（每个测试用例一个容器），并由脚本化的模拟模型端到端地驱动。我们使用四个可观察指标对每个测试用例进行评分。
-
-    arXiv:2610.20344v1 Announce Type: new  Abstract: Agents driven by large language models are increasingly deployed on long-horizon tasks, where they use tools and modify real workspaces. How well they perform depends as much on the harness around the model as on the model itself. Existing benchmarks measure downstream task success under a fixed harness, leaving harness engineering itself unexplored. We propose Doc2Harness, a two-stage benchmark that evaluates long-horizon harness engineering directly. In Stage 1, a build model operating inside a fixed builder harness receives an interface-only contract skeleton and a development document that consolidates behavior across twelve frontier harnesses, and then constructs a complete candidate harness in an isolated container. In Stage 2, the frozen candidate harness runs in containers separate from the construction environment, one per test case, and is driven end to end by a scripted mock model. We score each test case using four observable
-    
-[^4]: P2Patch：基于漏洞利用引导的漏洞修复
-
-    P2Patch: Exploit-Guided Vulnerability Repair
-
-    [https://arxiv.org/abs/2610.20245](https://arxiv.org/abs/2610.20245)
-
-    P2Patch提出了一种生成式对抗修复系统，通过漏洞利用智能体与补丁智能体的持续对抗，将每次成功的漏洞利用转化为永久修复要求，从而生成能抵御同一漏洞多种变体攻击的更稳健补丁。
+    该研究通过审查量子变异测试工具和人工整理的缺陷基准，并收集两年内410个真实缺陷，揭示量子软件测试评估中存在显著的缺陷表示差距——现有变异算子与基准仅覆盖极少数缺陷族，无法充分代表真实量子软件中的缺陷。
 
     
 
-    arXiv:2610.20245v1 公告类型： cross 摘要：大语言模型正日益被部署为自动化程序修复的自主智能体，通过多步推理和工具使用来修补软件漏洞。然而，这些系统通常使用与构建补丁时相同的证据来验证补丁——静态告警、消毒器（sanitizer）追踪记录、已公开的漏洞利用代码或测试套件。因此，一个仅能阻断该特定证据的补丁可能看起来是成功的，但面对同一漏洞的某些变体时仍然存在漏洞。我们提出了P2Patch，一个生成式对抗修复系统，它将每个补丁视为新的攻击目标。从一个规范化的漏洞发现开始，漏洞利用智能体构建可复现的漏洞证明（PoV），补丁智能体修复程序，随后漏洞利用智能体针对打过补丁的程序发起同一漏洞的不同利用攻击。每一次成功的漏洞利用都会成为永久的修复要求，最终的补丁……
+    量子软件依赖编译器、中间表示和执行框架，这些组件会在程序执行前对其进行转换。这些组件中的缺陷可能会改变原本正确的量子程序的行为。然而，量子测试技术通常使用变异生成的缺陷和人工整理的缺陷基准来评估。我们研究了这些工件所表示的缺陷能在多大程度上反映现代量子软件中实际遇到的缺陷。我们审查了四个量子变异测试工具和三个人工整理的缺陷基准，并在两年内从十个量子软件仓库中收集了410个已验证的缺陷。我们将来自这三个来源的缺陷统一归类到一个包含56个缺陷族的分类体系中，并比较了它们在变异算子、人工整理基准和近期真实世界缺陷中的覆盖情况。变异测试工具支持20个缺陷族，人工整理的基准又增加了15个。然而，410个真实世界缺陷中仅有56个（13.7%）属于……（原文摘要在此处截断）
 
-    arXiv:2610.20245v1 Announce Type: cross  Abstract: Large language models are increasingly deployed as autonomous agents for automated program repair, patching software vulnerabilities through multi-step reasoning and tool use. Yet these systems typically validate a patch against the same evidence used to construct it -- a static alert, sanitizer trace, published exploit, or test suite. A patch that blocks that one piece of evidence can therefore look successful while remaining vulnerable to the same vulnerability with some variation. We present P2Patch, a generative adversarial repair system that treats each patch as a new attack target. Starting from a normalized vulnerability finding, an exploitation agent constructs a reproducing proof of vulnerability (PoV), a patching agent repairs the program, and the exploitation agent then attacks the patched program for a distinct same-vulnerability exploit. Every successful exploit becomes a permanent repair requirement, and the final patch m
+    arXiv:2610.22089v1 Announce Type: new  Abstract: Quantum software relies on compilers, intermediate representations, and execution frameworks that transform programs before execution. Faults in these components can change the behavior of otherwise correct quantum programs. Yet quantum testing techniques are often evaluated using mutation-generated faults and curated bug benchmarks. We investigate how well the faults represented by these artifacts reflect those encountered in modern quantum software. We audit four quantum mutation-testing tools and three curated bug benchmarks, and collect 410 verified bugs from ten quantum software repositories over two years. We classify faults from all three sources into a common taxonomy of 56 bug families and compare their representation across mutation operators, curated benchmarks, and recent real-world bugs. The mutation tools support 20 bug families, and curated benchmarks add 15 more. Yet only 56 of the 410 real-world bugs (13.7%) belong to fa
     
-[^5]: SWE-Stream：通过渐进式构建与弹性流式执行扩展软件工程代理的可执行训练数据
+[^3]: WEAVE：将真实世界代码演进编织为依赖结构化任务，用于代码智能体的基准测试与训练
 
-    SWE-Stream: Scaling Executable Training Data for SWE Agents via Progressive Construction and Elastic Streaming
+    WEAVE: Weaving Real-World Code Evolution into Dependency-Structured Tasks for Benchmarking and Training Code Agents
 
-    [https://arxiv.org/abs/2610.20193](https://arxiv.org/abs/2610.20193)
+    [https://arxiv.org/abs/2610.22039](https://arxiv.org/abs/2610.22039)
 
-    SWE-Stream 提出了一种通过渐进式构建与弹性流式执行来大规模自动生成可执行软件工程训练数据的系统，从 10,728 个仓库的开发历史中构建出 80,874 个经过验证的训练任务。
+    WEAVE 框架将真实世界中经过验证的多 PR 代码演进历史转化为依赖结构化的可执行任务，并引入基于测试的确定性度量 Graph Credit，以更好地对长程代码智能体进行基准评估和训练。
 
     
 
-    软件工程代理发展迅速，但其训练规模的扩展仍受限于高质量可执行任务的稀缺。开发历史中包含构建此类任务的宝贵信号，然而由于环境不完整、测试缺失以及制品（artifacts）不一致等问题，往往需要进行大量的重建工作。我们提出了 SWE-Stream，一个通过渐进式构建与弹性流式执行来扩展可执行软件工程（SWE）训练数据的系统。SWE-Stream 对任务候选进行渐进式的验证与精炼，尽可能复用已有制品，仅在必要时才进行针对性的补全。弹性调度器在共享资源约束下异步协调各构建阶段，并根据观测到的工作负载需求动态调整执行预算。利用来自六种编程语言的 10,728 个仓库的开发历史，SWE-Stream 构建了 80,874 个经过验证的（摘要在此处截断）
+    真实世界的软件工程很少由孤立的变更构成。功能开发、迁移和系统性修复往往跨越多个拉取请求（PR）展开，需要对整个代码库进行协调一致的修改。然而，大多数可执行的代码库级基准测试仍以单个 issue 或 PR 作为任务单元，而现有的多 PR 设置则依赖粗粒度的聚合和与结构无关的评估。这种错位掩盖了变更之间的依赖关系，限制了长程代码智能体的进展衡量和学习信号。我们提出了 WEAVE，一个将经过验证的 PR 历史转化为可执行的、依赖结构化任务的框架。WEAVE 利用代码库校准的类型化变更位点，将相关联的 PR 组织成有界 DAG（有向无环图），并将每个 DAG 实例化为统一的可执行任务。我们进一步引入了 Graph Credit，这是一种确定性的、基于测试的度量指标，用于衡量符合依赖关系的部分进展，并支持更密集的……
 
-    arXiv:2610.20193v1 Announce Type: new  Abstract: Software engineering agents have advanced rapidly, but scaling their training remains constrained by the limited availability of high-quality executable tasks. Development histories contain valuable signals for constructing such tasks, yet they often require substantial reconstruction due to incomplete environments, missing tests, and inconsistent artifacts. We present SWE-Stream, a system for scaling executable SWE training data through progressive construction and elastic streaming execution. SWE-Stream progressively validates and refines task candidates, reusing existing artifacts when possible and applying targeted completion only when necessary. An elastic scheduler asynchronously coordinates construction stages under shared resource constraints, adapting execution budgets based on observed workload demands. Using development histories from 10,728 repositories across six programming languages, SWE-Stream constructs 80,874 validated 
+    arXiv:2610.22039v1 Announce Type: cross  Abstract: Real-world software engineering rarely consists of isolated changes. Features, migrations, and systematic fixes often unfold across multiple pull requests (PRs), requiring coordinated modifications across a repository. Yet most executable repository-level benchmarks retain a single issue or PR as the task unit, while existing multi-PR settings rely on coarse aggregation and structure-agnostic evaluation. This mismatch obscures dependencies among changes and limits progress measurement and learning signals for long-horizon code agents. We introduce WEAVE, a framework that transforms verified PR histories into executable, dependency-structured tasks. WEAVE leverages repository-calibrated typed change loci to organize related PRs into bounded DAGs and instantiate each as a unified executable task. We further introduce Graph Credit, a deterministic, test-grounded metric that measures dependency-consistent partial progress and supports dens
     
-[^6]: 忒修斯之代码：智能体能否依据恢复的设计文档重建软件？
+[^4]: 面向深度学习编译器的有状态测试
+
+    Stateful Testing for Deep Learning Compilers
+
+    [https://arxiv.org/abs/2610.22003](https://arxiv.org/abs/2610.22003)
+
+    提出面向深度学习编译器的有状态测试方法 Rondo，通过将模型与调用序列配对、利用编译行为引导的 MCMC 采样进行序列变异，并结合三路差分预言机，检测由编译器保留状态引发且在单独执行时无法复现的缺陷。
+
+    
+
+    现代深度学习编译器采用惰性编译方式，并在多次调用之间缓存编译产物。保留的编译器状态可能导致后续调用产生错误结果，即使该调用在单独执行时是正确的。对 PyTorch、JAX 和 TensorFlow 中 26 个公开报告问题的分析表明，检测此类缺陷需要先建立编译器状态、再暴露故障的调用序列。我们提出了 Rondo，一种有状态测试方法，它将每个测试用例表示为一个模型与一个调用序列的组合。Rondo 对调用序列进行变异，并使用由编译行为引导的马尔可夫链蒙特卡洛采样器，以偏向较少被观察到的行为。其三路差分测试预言机比较三种执行方式：不编译直接执行、重置编译器状态后的编译执行，以及保留编译器状态时的编译执行。它通过在保留状态与重置状态两种条件下重放相同调用（同时保持输入和程序状态不变）来确认有状态缺陷，然后……（摘要在此处截断）
+
+    arXiv:2610.22003v1 Announce Type: cross  Abstract: Modern deep learning compilers compile models lazily and cache artifacts across invocations. Retained compiler state can make a later invocation incorrect even when it is correct in isolation. An analysis of 26 publicly reported issues in PyTorch, JAX, and TensorFlow shows that detecting such bugs requires sequences that first establish compiler state and then expose a failure. We present Rondo, a stateful testing method that represents each test case as a model paired with an invocation sequence. Rondo mutates invocation sequences and uses a Markov chain Monte Carlo sampler guided by compilation behavior to favor rarely observed behaviors. Its three-way differential oracle compares execution without compilation, compiled execution with compiler state reset, and compiled execution with state retained. It confirms stateful bugs by replaying the same invocation with state retained and reset while preserving inputs and program state, then
+    
+[^5]: 基准测试与增强Linux内核中的设计感知代码审查
+
+    Benchmarking and Enhancing Design-Aware Code Review in the Linux Kernel
+
+    [https://arxiv.org/abs/2610.21925](https://arxiv.org/abs/2610.21925)
+
+    本文提出了DesignLore知识增强方法和DesignReviewBench基准，通过从历史审查讨论中提取、组织并复用设计决策知识，系统性评估并增强了Linux内核中的设计感知代码审查。
+
+    
+
+    代码审查往往需要超越局部正确性的推理。在成熟的软件系统中，审查者必须识别所提议变更引入的设计权衡，比较备选解决方案，并推理其与项目特定约束的兼容性。我们将这一问题称为“设计感知代码审查”。然而，现有的自动化审查方法主要关注缺陷和正确性，而历史审查讨论中积累的设计知识仍然难以复用。为了应对这些挑战，我们提出了DesignLore，这是一种知识增强方法，它从历史审查讨论中提取设计决策，将其组织成自适应的设计分类体系，并复用相关的历史知识来指导代码审查。我们进一步构建了DesignReviewBench，这是一个源自真实补丁审查历史的基准，用于系统地评估设计感知代码审查。我们的评估表明……
+
+    arXiv:2610.21925v1 Announce Type: new  Abstract: Code review often requires reasoning beyond local correctness. In mature software systems, reviewers must recognize design trade-offs introduced by a proposed change, compare alternative solutions, and reason about their compatibility with project-specific constraints. We refer to this problem as design-aware code review. However, existing automated review approaches primarily focus on defects and correctness, while the design knowledge accumulated in historical review discussions remains difficult to reuse.   To address these challenges, we present DesignLore, a knowledge-augmented approach that extracts design decisions from historical review discussions, organizes them into an adaptive design taxonomy, and reuses relevant historical knowledge to guide code review. We further construct DesignReviewBench, a benchmark derived from real patch-review histories for systematically evaluating design-aware code review. Our evaluation shows tha
+    
+[^6]: 代码健康度可预测智能体代码审查的Token成本：一项针对465个智能体创建的Pull Request的预注册研究
+
+    CodeHealth Predicts the Token Cost of Agentic Code Review: A Pre-Registered Study of 465 Agent-Authored Pull Requests
+
+    [https://arxiv.org/abs/2610.21914](https://arxiv.org/abs/2610.21914)
+
+    这项预注册研究通过对465个智能体创建的PR进行分层抽样分析，首次证实代码健康度（CodeHealth）能够预测智能体代码审查的Token成本——健康度每提高1分，成本降低3.5%至6.1%，且该效应独立于PR规模。
+
+    
+
+    背景：各组织日益将代码审查工作委托给按Token计费的多智能体大语言模型（LLM）流水线。低代码质量会增加人工维护成本，但其对智能体审查成本的影响尚未被测量。目标：我们检验基线CodeHealth（代码健康度）能否在Pull Request（PR）规模之外预测智能体审查与修复的Token成本。方法：在一项预注册的观察性研究中，我们从AIDev的246个代码仓库中抽样了465个由智能体创建的PR，在仓库数量上限约束下按CodeHealth和PR规模进行联合分层。一条固定的五智能体审查-修复流水线使用三种不同的LLM处理了每个PR。针对每个LLM，我们拟合了以CodeHealth和对数PR规模为自变量、以对数Token数为因变量的混合效应模型，并加入仓库随机截距。结果：对于所有三种LLM，CodeHealth的系数均为负值，且95%置信区间不包含零；CodeHealth每提高1分，Token成本降低3.5%至6.1%。CodeHealth（原文摘要在此处截断）
+
+    arXiv:2610.21914v1 Announce Type: cross  Abstract: Context: Organizations increasingly delegate code review to multi-agent large language model (LLM) pipelines billed per token. Low code quality raises human maintenance effort, but its effect on agent review cost has not been measured.   Objective: We test whether baseline CodeHealth predicts the token cost of agentic review and fix beyond pull request (PR) footprint.   Method: In a pre-registered observational study, we sampled 465 agent-authored PRs from 246 repositories in AIDev, jointly stratified by CodeHealth and footprint under repository caps. A frozen five-agent review-and-fix pipeline processed every PR with three different LLMs. Per LLM, we fitted a mixed model of log tokens on CodeHealth and log PR footprint, with a repository random intercept.   Results: For all three LLMs the CodeHealth coefficient was negative, with 95% CI excluding zero; each CodeHealth point was associated with 3.5% to 6.1% lower token cost. CodeHealth
+    
+[^7]: 多供应商量子计算中的实现分歧：一项关于测量结果幸存内容的预注册研究
+
+    Realization Divergence in Multi-Provider Quantum Computing: A Pre-Registered Study of What Survives Measurement
+
+    [https://arxiv.org/abs/2610.21714](https://arxiv.org/abs/2610.21714)
+
+    该研究提出“实现分歧”概念来量化同一量子电路在不同供应商软件栈中的实现差异，并通过覆盖三家供应商、四台设备的预注册硬件研究发现，嵌入半径比电路规模更能预测双量子比特开销，且电路规模与执行分歧的排序在不同设备上可能完全相反。
+
+    
+
+    量子程序在执行前需要经过编译器、转译器和供应商服务的处理。然而，所编写的程序与实际运行内容之间的差距却很少被测量。我们将这一差距称为“实现分歧”：即同一源电路在不同量子软件栈中被实现和运行时所表现出的可观测差异。我们报告了一项覆盖三家供应商、四台设备的硬件研究，将预注册的预测与明确标识的探索性分析及修正相结合。在一项采用指定放置策略的编译实验中，嵌入半径与双量子比特开销的 Spearman 相关系数达到 0.805，而电路规模仅为 0.492。在固定的最低索引放置策略下，一个八量子比特的 Bernstein-Vazirani 电路在 IQM Emerald 上表现出的执行分歧大于十二量子比特电路，而在 IQM Garnet 上则出现相反的排序。两项比较均在两次重复实验中得到复现，且置信区间互不重叠。
+
+    arXiv:2610.21714v1 Announce Type: new  Abstract: Quantum programs pass through compilers, transpilers and vendor services before execution. However, the distance between what was written and what runs is rarely measured. We call this distance realization divergence: the observable difference in how an identical source circuit is realized and behaves across quantum software stacks. We report a hardware study across three vendors and four devices, combining pre-registered predictions with explicitly identified exploratory analyses and amendments. In a compilation experiment with assigned placement policies, embedding radius correlates with two-qubit overhead at Spearman 0.805, against 0.492 for circuit size. Under a fixed lowest-index policy, an eight-qubit Bernstein-Vazirani circuit exhibits greater execution divergence than a twelve-qubit circuit on IQM Emerald. The opposite ordering occurs on IQM Garnet. Both comparisons replicate across two repetitions with disjoint confidence interv
+    
+[^8]: 面向硬件设计中LLM驱动功能覆盖率收敛的独立数据完整性验证
+
+    Independent Data-Integrity Verification for LLM-Driven Functional Coverage Closure in Hardware Design
+
+    [https://arxiv.org/abs/2610.21570](https://arxiv.org/abs/2610.21570)
+
+    该论文提出一个带有独立数据完整性验证的LLM覆盖率收敛智能体，通过从仿真报告读取覆盖率并使用独立记分板检查数据正确性，仅用一个与设计无关的智能体就在三种不同RTL设计上将覆盖率提升至100%，并额外发现了一个时钟域跨越错误。
+
+    
+
+    LLM智能体能够编写定向测试来闭合功能覆盖率，但覆盖率只能表明某个状态被到达，并不能表明通往该状态的路径上的数据是正确的。这是验证领域早已广为人知的观点，我们并不声称其为新发现。我们描述了一个将该观点应用于LLM循环的小型覆盖率收敛智能体：覆盖率从仿真自身导出的报告（cocotb-coverage YAML）中读取，而绝不采信模型的自述；数据完整性则由独立于模型的记分板进行检查。在三个架构上各不相同的RTL设计（异步FIFO、UART发送器和AHB2APB桥）上，该智能体仅使用一个与设计无关的智能体，在每次记录的运行中均能在8次迭代的预算内将覆盖率从91.7%、88.9%和67.4%提升至100%。连接到FIFO基础测试平台的响应式记分板监视器还在作者自己编写的激励代码中发现了一个时钟域跨越（CDC）错误。该监视器尚未（摘要在此处被截断）
+
+    arXiv:2610.21570v1 Announce Type: cross  Abstract: LLM agents can write directed tests that close functional coverage, but coverage only shows that a state was reached, not that the data on the way there was correct. This is a long-known point in verification and we do not claim it as new. We describe a small coverage-closure agent that applies it to an LLM loop: coverage is read from the report that the simulation itself exports (cocotb-coverage YAML) and never taken from the model's account, and data integrity is checked by scoreboards that are separate from the model. On three architecturally distinct RTL designs (an asynchronous FIFO, a UART transmitter and an AHB2APB bridge) the agent raised coverage from 91.7%, 88.9% and 67.4% to 100% within its 8-iteration budget in every logged run, using one design-agnostic agent. A reactive scoreboard monitor attached to the FIFO's base testbench also found a clock-domain-crossing bug in the author's own stimulus code. The monitor is not yet 
+    
+[^9]: 毒谷：诊断LLM代码修复中的路径依赖性失败
+
+    Poison Valleys: Diagnosing Path-Dependent Failure in LLM Code Repair
+
+    [https://arxiv.org/abs/2610.21514](https://arxiv.org/abs/2610.21514)
+
+    该论文提出“毒谷”诊断框架，通过向LLM代码修复的假设与计划中注入看似合理但错误的软件机制，首次量化揭示了上游错误概念的位置如何路径依赖性地决定下游代码失败——将错误概念从假设移至计划阶段会使失败率增加约29%至32%。
+
+    
+
+    当代码修复智能体失败时，最终测试只能揭示补丁是错误的，但无法说明是哪一个早期的承诺导致了失败，或哪个软件义务未能满足。Poison Valleys 在两个合成 Python 案例的 1,844 次模型请求中追踪了这一失败路径：PersistQueue 为基于磁盘的队列添加原子批量认领功能，Dijkstra 则为最短路径搜索添加源敏感过滤功能。我们定义了看似合理但不正确的软件机制，将每种错误概念分别置于模型的假设、实现计划或两者之中，并使用 Oracle 和有针对性的诊断坐标来评估生成的代码。在匹配实验组合后，将错误概念从假设阶段移至计划阶段使 PersistQueue 的失败率增加了 32.2%，Dijkstra 的失败率增加了 28.9%。不同的错误概念产生了独特的、依赖模型的具体义务违反模式，尽管其中若干错误可能收敛于相同的行为。这建立了从上游错误概念到代码失败之间的量化联系。
+
+    arXiv:2610.21514v1 Announce Type: cross  Abstract: When code-repair agents fail, final tests reveal that a patch is wrong but not which earlier commitment caused it or which software obligation failed. Poison Valleys traces this path in 1,844 model requests on two synthetic Python cases: PersistQueue adds atomic batch claiming to a disk-backed queue, while Dijkstra adds source-sensitive filtering to shortest-path search. We define plausible but incorrect software mechanisms, place each in a model's hypothesis, implementation plan, or both, and evaluate the generated code with an Oracle and targeted diagnostic coordinates. Moving the misconception from hypothesis to plan increased failure by 32.2% in PersistQueue and 28.9% in Dijkstra after matching the experimental mix. Different misconceptions produced distinct, model-dependent patterns of violated obligations, although several could converge on the same behavior. This creates a measured connection from upstream misconception to code 
+    
+[^10]: 代理式指令类别在代码生成中的作用：五个人工智能Python库的研究
+
+    The Role of Agentic Instruction Categories for Code Generation: A Study of Five Python Libraries
+
+    [https://arxiv.org/abs/2610.21421](https://arxiv.org/abs/2610.21421)
+
+    该研究利用两个大语言模型和五个Python库系统评估了五类代理指令的全部31种组合，发现指令数量本身并不能决定代理文件生成的token消耗，且不同模型和库之间的表现差异显著。
+
+    
+
+    代理式编码系统日益依赖仓库级的代理文件（如AGENTS.md）来传递项目知识和开发者意图。然而，目前尚不清楚哪些类别的代理指令能够实现高效的代理文件生成和准确的代码生成。我们使用两个大语言模型（LLM）——Gemma 4和GPT-5.4，以及五个人类编写的Python库，评估了五类指令：仓库概述、函数描述、实现细节、测试和重构步骤，涵盖了所有31种非空组合。我们的研究围绕代理文件生成和代码生成提出了两个研究问题（包含五个子问题）。结果表明，仅凭指令数量并不能决定代理文件生成的token使用量，且不同模型和库之间存在显著差异。尽管无论采用哪种指令组合，大多数AI生成的库都能成功编译……
+
+    arXiv:2610.21421v1 Announce Type: new  Abstract: Agentic coding systems increasingly rely on repository-level agent files, such as AGENTS.md, to communicate project knowledge and developer intent. However, it remains unclear which categories of agent instructions enable efficient agent-file generation and accurate code generation. We evaluate five instruction categories: Repository Overview, Function Description, Implementation Detail, Testing, and Reconstruction Steps, across all 31 non-empty combinations using two Large Language Models (LLMs), Gemma 4 and GPT-5.4, and five human-written Python libraries. Our study addresses two research questions, comprising five sub-questions, on agent file generation and code generation. Results show that the number of instructions alone does not determine token usage for agent-file generation, with substantial variation across models and libraries. Although most AI-generated libraries compiled successfully regardless of the instruction combination
+    
+[^11]: 评估与改进面向Rust的静态应用程序安全测试工具
+
+    Evaluating and Improving Static Application Security Testing Tools for Rust
+
+    [https://arxiv.org/abs/2610.21373](https://arxiv.org/abs/2610.21373)
+
+    本文通过真实漏洞对主流Rust静态安全测试工具进行实证评估，系统揭示其弱点及根本原因，并提出了基于大语言模型辅助的自动化测试方法TRUST来改进Rust安全测试工具。
+
+    
+
+    Rust凭借其对内存和并发安全性的强大保证，近年来已成为一种流行的系统编程语言，许多类型的系统软件都已用Rust重新实现。然而，由于不安全（unsafe）代码的存在以及对Rust复杂机制的误解，Rust程序仍然可能遭受常见的内存和并发漏洞。为了缓解此类漏洞，开发者通常依赖静态应用程序安全测试（SAST）工具。然而，现有Rust SAST工具在真实世界漏洞上的有效性仍未得到充分探索。在本文中，我们首先使用真实Rust应用程序中发现的安全漏洞，对主流Rust SAST工具进行了实证评估，系统地评估了它们的有效性，揭示了常见的弱点，并分析了这些弱点背后的根本原因。基于该研究，我们提出了TRUST，一种由大语言模型（LLM）辅助的自动化测试方法。
+
+    arXiv:2610.21373v1 Announce Type: cross  Abstract: Rust has become a popular systems programming language in recent years because of its strong guarantees on memory and concurrency safety. Many types of system software have been re-implemented in Rust. However, Rust programs can still suffer from common memory and concurrency vulnerabilities due to unsafe code and misunderstandings of its complex mechanisms. To mitigate such vulnerabilities, developers often rely on static application security testing (SAST) tools. However, the effectiveness of existing Rust SAST tools on real-world vulnerabilities remains underexplored. In this paper, we first conduct an empirical evaluation of mainstream Rust SAST tools using security vulnerabilities identified in real-world Rust applications. We systematically assess their effectiveness, uncover common weaknesses, and analyze the root causes behind them. Motivated by the study, we propose TRUST, a large language model (LLM)-assisted automated testin
+    
+[^12]: 智能体驱动的依赖转换：来自Flask探索性案例研究的经验教训
+
+    Agentic Dependency Transformations: Lessons from an Exploratory Case Study of Flask
+
+    [https://arxiv.org/abs/2610.21372](https://arxiv.org/abs/2610.21372)
+
+    本文通过对Flask框架的探索性案例研究，首次提出“依赖转换”这一新兴概念——即AI编程智能体改变软件仓库处理外部依赖的方式，总结出五点初步经验教训，并将其确立为一个具有五部分研究议程的新兴研究方向。
+
+    
+
+    现代软件高度依赖第三方库，维护者需要在复用带来的好处与依赖相关的维护成本和风险之间进行权衡。我们将“依赖转换”定义为一种新兴方法，即由AI编程智能体改变仓库处理外部依赖的方式。本地重新实现是一种转换策略，它将所需功能重新实现为本地代码；而依赖转换的范围更广，可能包含其他策略。在这篇新兴成果论文中，我们报告了一项针对Flask的探索性案例研究，以探索依赖转换策略。我们设计了实验，展示可用上下文如何塑造智能体对依赖的发现以及对依赖的迭代式转换。该案例总结出五点初步经验教训。这些经验教训以及五部分组成的研究议程将依赖转换确立为一个新兴的研究方向，并促使人们提出显式的“转换契约”这一概念。
+
+    arXiv:2610.21372v1 Announce Type: new  Abstract: Modern software relies heavily on third-party libraries, requiring maintainers to balance the benefits of reuse against dependency-related maintenance and risk. We define dependency transformation as an emerging approach in which an AI coding agent alters how a repository handles external dependencies. Local reimplementation is one transformation strategy that recreates required functionality as local code; dependency transformation is broader and may include other strategies. In this emerging-results paper, we report an exploratory case study of Flask to explore dependency transformation strategies. We design experiments that show how available context shapes an agent's dependency discovery and iterative transformation of dependencies. The case yields five preliminary lessons. These lessons and the five-part research agenda position dependency transformation as an emerging research direction and motivate explicit transformation contract
+    
+[^13]: 结合大语言模型与动态分析实现静态应用程序安全测试工具的通用测试
+
+    Combining LLM and Dynamic Analysis for Universal Testing of Static Application Security Testing Tools
+
+    [https://arxiv.org/abs/2610.21309](https://arxiv.org/abs/2610.21309)
+
+    提出LLM4SAST，首个结合大语言模型与动态反馈来检测静态应用安全测试工具缺陷的通用框架，通过蜕变关系引导的多语言代码变体生成实现自动化测试。
+
+    
+
+    静态应用程序安全测试（SAST）工具有助于检测潜在的软件漏洞，但它们自身也存在缺陷，损害了其可靠性和可用性。自动化测试可以解决这些问题，然而现有技术存在程序变换多样性有限、且缺乏验证所生成变体的机制等问题，导致缺陷检测能力下降且人工成本高昂。我们提出了LLM4SAST，这是首个利用大语言模型和动态反馈来检测SAST工具缺陷的通用框架。我们的核心洞察是利用大语言模型来理解并变换多种编程语言的代码。我们设计了新颖的蜕变关系及相应变换来指导变体生成，并使用大语言模型生成满足这些关系的多语言变体。为了减少错误变体并识别独特缺陷，我们提出了两种启发式方法：动态反馈驱动的选择和基于程序差分的方法。
+
+    arXiv:2610.21309v1 Announce Type: cross  Abstract: Static application security testing (SAST) tools help detect potential software vulnerabilities, but they themselves contain faults undermining reliability and usability. Automated testing can address these issues, yet current techniques suffer from limited program transformation diversity and lack mechanisms to verify generated variants, leading to reduced fault detection and high manual effort. We present LLM4SAST, the first universal framework detecting faults in SAST tools using large language models and dynamic feedback. Our key insight is leveraging LLMs to understand and transform code in diverse programming languages. We design novel metamorphic relations with transformations to guide variant generation, using an LLM to produce multi-language variants that satisfy these relations. To reduce erroneous variants and identify unique faults, we propose two heuristics: dynamic-feedback-driven selection and program-differencing-based 
+    
+[^14]: ToolBottleneckBench：在受控压力与固定运行框架预算下测量工具智能体性能
+
+    ToolBottleneckBench: Measuring Tool-Agent Performance under Controlled Pressures and Fixed Harness Budgets
+
+    [https://arxiv.org/abs/2610.21098](https://arxiv.org/abs/2610.21098)
+
+    该论文提出ToolBottleneckBench基准，在固定框架预算下通过单独变化工具目录、可见菜单、认证工作流或返回记录编码等压力因素来测量工具智能体性能，发现可见工具菜单是唯一对模型造成大幅惩罚的压力且其根源是完成上限处的截断，而大多数失败实际终止于框架限制而非模型能力不足。
+
+    
+
+    工具智能体的成功得分同时反映了其模型能力和运行它的框架（harness）的预算。我们提出ToolBottleneckBench，这是一个在受控压力与固定框架预算下测量工具智能体性能的基准测试。合成的企业任务保持不变，而每次仅变化一种压力因素：已注册的工具目录、可见的工具菜单、经过认证的工作流程，或返回记录的编码方式。一个精确的评分器会记录每个失败回合中第一个未满足的义务，以及（若存在）终止该回合的框架限制。在21种模型与框架配置中，可见工具菜单是三种作用于模型的压力因素中唯一造成大幅惩罚的因素，且该惩罚与完成上限处的截断相关。将上限提高十六倍后，在截断频发的配置中大部分惩罚被消除。大多数失败终止于某个框架限制，且失败记录对指定压力的识别可靠性并不比（原文在此处截断）……
+
+    arXiv:2610.21098v1 Announce Type: cross  Abstract: The success score of a tool agent reflects both its model and the budgets of the harness that runs it. We present ToolBottleneckBench, a benchmark that measures tool-agent performance under controlled pressures and fixed harness budgets. Synthetic enterprise tasks stay fixed while one pressure varies: the registered tool catalog, the visible tool menu, the certified workflow, or the encoding of returned records. An exact grader records the first unmet obligation of each failed episode and the harness limit, if any, that ended it. Across 21 model and harness configurations, the visible menu is the only one of the three pressures that act on the model with a large penalty, and this penalty tracks truncation at the completion cap. Raising the cap sixteenfold removes most of the penalty in the truncation-heavy configurations. Most failures end at a harness limit, and the failure record identifies the assigned pressure no more reliably than
+    
+[^15]: 跳过压缩器：编码代理在选择完整文件时能修复更多问题
+
+    Skip the Compressor: Coding Agents Fix More Issues When They Pick Whole Files
+
+    [https://arxiv.org/abs/2610.21073](https://arxiv.org/abs/2610.21073)
+
+    在相同token预算下，与其用压缩器删减文本或检索器挑选代码块，不如将预算用于选择需要原样完整呈现的文件（如CQ2-CARE），这样编码代理能解决更多软件工程问题。
+
+    
+
+    编码代理所处理的代码库可能远超其上下文窗口的容量。提示压缩器和检索器为这一问题提供了解决方案，但修补一个问题需要同时满足两点：必须修改的文件，以及这些文件中原样保留的代码，因为模型必须复现它所编辑的代码行。检索器按照代码与问题的相似度而非是否必须修改来对代码排序，而压缩器则通过删除文本来适应预算限制。我们证明，在相同的token预算下，当预算用于选择哪些文件以原文完整呈现时（正如我们简单的选择器CQ2-CARE所做的那样），代理能解决更多问题，其效果优于将预算用于修剪token或检索代码块。我们在300个最新的SWE-rebench问题上将每个上下文都调整到相同的单问题预算，并使用基准测试的测试用例对每个补丁进行评分。使用GPT-5.6和Claude Opus 5时，CQ2-CARE分别解决了43.7%和46.7%的问题，比三种压缩器中最好的一个高出6.3个百分点。
+
+    arXiv:2610.21073v1 Announce Type: new  Abstract: A coding agent works on repositories that can be far larger than its context window can hold. Prompt compressors and retrievers offer solutions to this problem, but patching an issue needs two things at once: the files that must change, and their code exactly as written, since the model must reproduce the lines it edits. Retrievers rank code by its similarity to the issue rather than by whether it must change, and compressors delete text to fit the budget. We show that at an equal token budget, an agent resolves more issues when the budget goes to choosing which files to show verbatim, as our simple selector CQ2-CARE does, than when it goes to pruning tokens or retrieving chunks. We fit every context to the same per-issue budget on 300 recent SWE-rebench issues and grade each patch with the benchmark's tests. With GPT-5.6 and Claude Opus 5, CQ2-CARE resolves 43.7% and 46.7% of the issues, 6.3 points more than the best of three compressor
+    
+[^16]: SRAM 的去向：64 KB RISC-V 微控制器上 FreeRTOS-C 与 Embassy-Rust 物联网固件静态内存的逐符号归因分析
+
+    Where the SRAM Goes: Per-Symbol Attribution of Static Memory in FreeRTOS-C and Embassy-Rust IoT Firmware on a 64 KB RISC-V Microcontroller
+
+    [https://arxiv.org/abs/2610.21064](https://arxiv.org/abs/2610.21064)
+
+    提出一种逐符号的静态 SRAM 归因方法，在 64 KB RISC-V 微控制器上将 FreeRTOS-C 与 Embassy-Rust 物联网固件的静态内存精确分解为调度器堆、网络缓冲池、任务栈和链接器保留区域等类别，并与总消耗量完全对账验证。
+
+    
+
+    为内存受限的微控制器选择固件栈时，通常以聚合的二进制大小作为依据，它只能报告一次构建消耗多少 SRAM，却无法说明这些内存去了哪里、为何被消耗。我们用一种逐符号归因方法填补这一空白，该方法将静态 RAM 分解为架构性类别——调度器堆、网络缓冲区与内存池、任务栈以及链接器保留区域——通过将有确定大小的 ELF 符号限定到 .data、.bss 和 .stack 段范围来实现。该方法通过对所有十六次构建的各类别总和与基于 size 的总量进行精确对账而得到验证。我们将其应用于八个累积的固件里程碑，从裸任务脚手架到完整的基于以太网的 MQTT 客户端，分别在 FreeRTOS-C 与 Embassy-Rust 中实现两次，目标平台为 CH32V203RBT6——一款具有 64 KB SRAM 及片上以太网 MAC 和 PHY 的 RISC-V 微控制器，并在每个里程碑上通过硬件验证了功能对等性。该分解显示（原文在此处截断）……
+
+    arXiv:2610.21064v1 Announce Type: cross  Abstract: Selecting a firmware stack for a memory-constrained microcontroller is usually guided by aggregate binary sizes, which report how much SRAM a build consumes but not where it goes or why. We address that gap with a per-symbol attribution method that decomposes static RAM into architectural categories - scheduler heap, network buffers and pools, task stacks, and linker-reserved regions - by bounding sized ELF symbols to the .data, .bss and .stack section ranges. The method is validated by reconciling every category sum exactly against the size-based totals for all sixteen builds. We apply it to eight cumulative firmware milestones, from a bare task scaffold to a full MQTT-over-Ethernet client, implemented twice, in FreeRTOS-C and in Embassy-Rust, on the CH32V203RBT6, a RISC-V microcontroller with 64 KB SRAM and an on-chip Ethernet MAC and PHY, with functional parity verified on hardware at every milestone. The decomposition shows that bo
+    
+[^17]: 机器人支持的安卓应用数据丢失检测
+
+    Robotic-supported Data Loss Detection in Android Applications
+
+    [https://arxiv.org/abs/2610.20807](https://arxiv.org/abs/2610.20807)
+
+    该论文提出利用机器人自动化技术以非侵入方式检测安卓应用中的数据丢失问题，从而高效应对多样化硬件与操作系统配置下的应用测试挑战。
+
+    
+
+    智能手机因其多样化的应用已成为现代生活中不可或缺的一部分。然而，为这些设备开发应用程序面临重大挑战，主要源于两个因素：(i) 多样化的硬件和操作系统版本需要在多种配置下进行测试；(ii) 以非侵入方式（类似终端用户交互）测试智能手机的必要性，这种方式通常由人工执行，成本高、枯燥乏味且容易出错。在此背景下，机器人自动化已成为应对智能手机系统和版本多样性的有效解决方案，并能以非侵入的方式执行某些测试任务。此外，自动化机器人便于进行快速、准确且可重复的测试，从而使开发人员能够在各种配置下有效地验证其应用程序。这使得验证过程的侵入性更低，并带来显著的……（原文摘要截断）
+
+    arXiv:2610.20807v1 Announce Type: new  Abstract: Smartphones have become integral to modern life due to their diverse applications. However, the development of applications for these devices faces significant challenges, primarily due to two factors: (i) the diverse hardware and operating system versions that require testing across multiple configurations; and (ii) the imperative activity of testing the smartphone in a non-invasive way (similar to an end-user interaction), which is expensive, tedious and error-prone as it is usually carried out manually. In this context, robotic automation has emerged as an effective solution for addressing the diversity of smartphone systems and versions, and in performing some testing tasks non-invasively. In addition, automated robots facilitate quick, accurate, and repetitive testing, thus enabling developers to validate their applications across various configurations effectively. This results in a less invasive verification and in a significant r
+    
+[^18]: 代码语言模型中的因果语法电路：预算与探针决定了什么看起来是局域化的
+
+    Causal Syntax Circuits in CodeLMs: Budget and Probe Decide What Looks Localised
+
+    [https://arxiv.org/abs/2610.20683](https://arxiv.org/abs/2610.20683)
+
+    该论文通过均值消融、激活修补、贪心电路提取与激活引导的统一流程，系统研究了代码语言模型默认偏好Python的内部机制，发现该偏好随模型规模增长并在指令微调后仍存在，但其局域化表现高度依赖于组件预算与探针的选择。
+
+    
+
+    当提示中没有说明使用哪种语言时，代码模型会默认编写Python。我们针对这一习惯提出了一个机制性问题：它是否由模型内部一小群可找到的组件所产生？我们在55个模型-语言设置上运行了一条统一的实验流程——均值消融、激活修补、贪心电路提取、随机对照显著性检验以及激活引导——涵盖十个开源代码模型（五个基础版和五个指令微调版）、三种目标语言（Rust、C#、PHP）、两套提示集和两种组件预算。我们报告了五项发现。第一，这种偏好很大，随模型规模增长，并且在指令微调后依然存在：每个指令微调版本上的偏好都大于其对应的基础版本，平均高出12%。第二，其测量大小主要取决于探针的属性；用XLCoST平行函数替换我们对齐的提示后，在相同模型上的同一测量值从约1.6降至约0.01。第三，当……（原文在此处截断）
+
+    arXiv:2610.20683v1 Announce Type: new  Abstract: Code models write Python when the prompt does not say which language to use. We ask a mechanistic question about that habit: is it produced by a small, findable group of components inside the model? We run one pipeline---mean ablation, activation patching, greedy circuit extraction, a random-control significance test, and activation steering---over 55 model-language settings spanning ten open code models (five base and five instruction-tuned), three target languages (Rust, C#, PHP), two prompt suites, and two component budgets. We report five findings. First, the preference is large, grows with model size, and survives instruction tuning: it is larger on every instruction-tuned checkpoint than on its base version, by 12% on average. Second, its measured size is mostly a property of the probe; replacing our aligned prompts with XLCoST parallel functions takes the same measurement on the same models from about 1.6 to about 0.01. Third, whe
+    
+[^19]: HPCAgent-Bench：一个用于代码优化智能体、执行框架与技能的可靠基准测试框架
+
+    HPCAgent-Bench: A Framework for Sound Benchmarking of Code-Optimizing Agents, Harnesses, and Skills
+
+    [https://arxiv.org/abs/2610.20673](https://arxiv.org/abs/2610.20673)
+
+    该论文提出了HPCAgent-Bench——一个包含689个内核、覆盖三个赛道的代码优化基准框架，通过统一的内核规范、外部防作弊裁判以及“干预效力”等新指标，实现对代码优化智能体、执行框架与技能各自贡献的可靠隔离评估。
+
+    
+
+    代码智能体正被越来越多地用于优化代码，但现有的基准测试通常固定单一的加速器、编程模型或执行框架，因此无法隔离各组件各自的贡献，也无法衡量新增的技能和工具是否物有所值。我们提出了HPCAgent-Bench，其中包含689个内核，分为三个赛道：循环级优化挑战、从高性能计算（HPC）代码中提取的内核，以及机器学习模型。该框架用NumPy对每个内核进行一次性定义，推导出C和Fortran参考实现，通过统一的C ABI或Python接口接受提交，并可在单节点或多节点环境下的CPU或GPU上运行。一个外部裁判会在隐藏的模糊测试输入上检查正确性并对每次提交进行计时，从而封堵智能体利用测试系统的途径。我们引入了两个用于报告结果的指标：\textit{干预效力}通过配对运行在加速比、成功率和成本等方面衡量某项干预（例如添加工具）的效果，以及\textit{加权……（摘要在此处截断）
+
+    arXiv:2610.20673v1 Announce Type: new  Abstract: Coding agents are increasingly used to optimize code, but existing benchmarks fix one accelerator, programming model or harness, so they cannot isolate what each component contributes or show whether added skills and tools repay their cost. We present HPCAgent-Bench with 689 kernels in three tracks: loop-level optimization challenges, kernels extracted from HPC codes, and machine-learning models. The framework specifies each kernel once in NumPy, derives C and Fortran references, accepts submissions through a common C ABI or Python interface, and runs them on CPUs or GPUs, on one or multiple nodes. An external judge checks correctness on hidden fuzzed inputs and times each submission, closing paths agents use to exploit the testing system. We introduce two metrics for reporting results: \textit{intervention efficacy} measures an intervention, such as adding a tool, through paired runs on speedup, success rate and cost, and \textit{weight
+    
+[^20]: 开发者使用Cursor AI原生集成开发环境的体验
+
+    Developer Experiences with Cursor AI-native IDE
+
+    [https://arxiv.org/abs/2610.20618](https://arxiv.org/abs/2610.20618)
+
+    本研究通过分析Cursor官方论坛两年多来的14,714条帖子，大规模纵向考察了开发者使用AI原生IDE的真实体验、采用摩擦及工作流演变。
+
+    
+
+    AI驱动的集成开发环境（IDE）日益被视为软件开发的实用工具，将AI辅助融入编辑、重构和调试等日常活动中。然而，开发者如何评估AI IDE作为工作环境、哪些摩擦因素影响了他们的采用、以及在日常使用中哪些体验方面最为重要，这些问题仍未得到充分探索。此前关于采用和使用的证据主要来自受控任务、小型访谈样本和短时间观察窗口，这些方法对于纵向的、社区驱动的体验以及日常实践中出现的工作流漂移所提供的可见性有限。为了弥合这一差距，我们通过Cursor的官方公共论坛对其开展了大规模纵向研究。Cursor是一款知名的AI原生IDE，用户在该论坛上报告错误、请求功能并讨论日常使用。我们的分析涵盖了两年多时间里收集的14,714条论坛帖子。
+
+    arXiv:2610.20618v1 Announce Type: new  Abstract: AI-powered integrated development environments (IDEs) are increasingly positioned as practical tools for software development, integrating AI assistance into everyday activities such as editing, refactoring, and debugging. However, how developers evaluate AI IDEs as working environments, what frictions shape their adoption, and which aspects of the experience matter most in everyday use remain underexplored. Prior evidence on adoption and use is mainly controlled tasks, small interview samples, and short observation windows, which offer limited visibility into longitudinal, community-driven experience and the workflow drift that emerges in everyday practice. To bridge this gap, we conduct a large-scale longitudinal study of Cursor, a prominent AI-native IDE, through its official public forum, where users report bugs, request features, and discuss everyday use. Our analysis covers 14,714 forum posts collected over more than two years. We 
+    
+[^21]: 忒修斯之代码：智能体能否依据恢复的设计文档重建软件？
 
     The Code of Theseus: Can Agents Rebuild Software from Recovered Design Documents?
 
@@ -124,7 +341,7 @@
 
     arXiv:2610.20068v1 Announce Type: new  Abstract: LLM agents increasingly design a system before implementing it, yet the data to train and evaluate them centres on implementation and testing: requirements and design artefacts are often missing, outdated or private. Source code, in contrast, is abundant. Prior work recovers architecture documentation by feeding LLMs the source code or letting agents explore it, which saturates the context, does not scale to many repositories, and yields a single artefact rather than aligned ones.   We present a framework that recovers aligned stakeholder intent, requirements and architecture from a compact repository representation, a static dependency graph and key contextual files, and release the artefacts of 10,764 Java, Python, C/C++ and C# repositories as a dataset. An LLM judge rates the artefacts of three generators as clear and internally consistent, but less reliably correct and at the right level of abstraction.   To test whether the artefact
     
-[^7]: SWE-Nexus：从测试执行中自动构建软件工程任务
+[^22]: SWE-Nexus：从测试执行中自动构建软件工程任务
 
     SWE-Nexus: Automated Composition of Software Engineering Tasks from Test Execution
 
@@ -138,357 +355,203 @@
 
     arXiv:2610.20038v1 Announce Type: new  Abstract: Historical code changes provide convenient task boundaries, but do not identify which production functions selected tests exercise or support composing validated behaviors beyond a single change. We present SWE-Nexus, a fully automated pipeline that constructs repository-level implementation tasks from test execution. Four construction agents select tests, adapt tracing and evaluation protocols to each repository, and generate behavioral specifications. For each selected test file, tracing records an observed execution footprint of production function bodies. A scope is retained only if all expected scoring points pass in the original repository and masking the traced bodies causes at least one failure or error. Compatible scopes are composed deterministically, with shared functions counted once and every constituent test file revalidated under the complete combined mask. The benchmark contains 600 tasks from 105 repositories across six 
     
-[^8]: LintEval：基于Linter引导的文件重构对大语言模型进行基准评测
+[^23]: ReTerm：面向自我改进终端智能体的恢复训练
 
-    LintEval: Benchmarking LLMs on Linter-Guided File Refactoring
+    ReTerm: Recovery Training for Self-Improving Terminal Agents
 
-    [https://arxiv.org/abs/2610.20027](https://arxiv.org/abs/2610.20027)
+    [https://arxiv.org/abs/2610.18484](https://arxiv.org/abs/2610.18484)
 
-    该论文提出LintEval，一个覆盖C++、Python和Java的多语言基准，用于评测大语言模型在linter引导的文件重构中减少lint告警的能力，实验揭示了告警减少与功能保持之间的持续权衡。
-
-    
-
-    Linter（代码检查工具）被广泛应用于代码维护和IDE实时编辑中，用于揭示源文件中与性能、风格、易错模式等相关的lint告警。然而，现有的代码基准测试并未显式评估linter引导的文件重构任务，即模型必须在保持源文件原有功能正确性的前提下减少lint告警。我们提出了LintEval，一个面向C++、Python和Java的linter引导文件重构多语言基准，包含13,061个初始功能正确的程序以及通过语言特定linter提取的171,662条lint告警。LintEval联合评估功能保持、lint告警减少、新告警规避以及编辑最小化。实验揭示了一个持续存在的权衡：闭源商业模型的Reduction@P最高可达90.4%，但Pass@1仅为67.1%–68.3%，而若干开源小模型则表现出较低的……
-
-    arXiv:2610.20027v1 Announce Type: cross  Abstract: Linters are widely used in code maintenance and real-time IDE editing to surface lint alerts related to performance, style, error-prone, and other patterns in source files. However, existing code benchmarks do not explicitly evaluate linter-guided file refactoring, where models must reduce lint alerts in source files with correct initial functionality while satisfying functionality preservation. We introduce LintEval, a multilingual benchmark for linter-guided file refactoring across C++, Python, and Java, comprising 13,061 programs with correct initial functionality and 171,662 lint alerts extracted using language-specific linters. LintEval jointly evaluates functionality preservation, lint alert reduction, new alert avoidance, and edit minimality. Experiments reveal a persistent trade-off: closed-source commercial models reach up to 90.4% Reduction@P but achieve only 67.1%-68.3% Pass@1, while several open-source small models show low
-    
-[^9]: 面向代码理解的时间自适应微调
-
-    Temporal Adaptive Fine-Tuning for Code Comprehension
-
-    [https://arxiv.org/abs/2610.19970](https://arxiv.org/abs/2610.19970)
-
-    提出 TAFT（时间自适应微调）方法，将仓库代码的演变转换作为监督信号，使大语言模型在代码理解问答中能够获取新知识、抑制过时知识，并保留仍然有效及语义相近的知识。
+    提出ReTerm终端智能体，通过恢复示范数据集ReTerm-10K进行SFT冷启动，并利用从自身失败状态分叉出多次恢复尝试的在线强化学习算法ReTerm-GRPO，让智能体从自身恢复经验中自我改进，在Terminal-Bench 2.0上取得34.8%的Pass@1成绩。
 
     
 
-    arXiv:2610.19970v1 公告类型：新论文 摘要：仓库级代码理解问答支持开发者对分布于代码库中的功能和使用方式进行推理。然而，针对特定仓库的大语言模型（LLM）可能随着代码的演化而变得不再对齐。我们将这一挑战研究为时间性仓库适应问题：获取新知识、抑制过时知识、保留仍然有效的知识，以及维护语义上相近的知识。现有的检索、微调和模型编辑方法只能解决该问题的部分方面。我们提出了时间自适应微调（Temporal Adaptive Fine-Tuning，TAFT），这是一种新颖的适应方法，它将仓库的演变转换视为监督信号。TAFT 从仓库转换中推导出具有时间依据的问答数据，通过偏好优化将新有效知识与过时知识配对，并重放以转换为条件的保留示例，以维护仍然有效的知识。我们在一个增强的时间化 SWE-bench 数据集上评估了 TAFT……（摘要原文截断）
+    终端智能体在复杂编程任务中展现出强大的能力。然而，它们在长时间运行过程中往往难以从错误中恢复（例如命令错误、有缺陷的实现），最终导致任务失败。为此，我们提出了ReTerm，一种通过学习如何从自身失败的终端任务中进行恢复而训练的自我改进终端智能体。为支持其训练，我们构建了一个定制化的数据流水线，并生成了ReTerm-10K，这是一个高质量数据集，为SFT冷启动提供了有效的恢复示范。此外，我们提出了ReTerm-GRPO，一种在线强化学习算法，它从智能体自身的失败状态分叉出多个独立的自我恢复尝试。通过学习这些尝试是否成功完成任务，智能体通过自身的恢复经验实现自我改进。基于Qwen3.5-9B构建的ReTerm-9B在Terminal-Bench 2.0上实现了34.8%的Pass@1，较基础模型有所提升。
 
-    arXiv:2610.19970v1 Announce Type: new  Abstract: Repository-level code comprehension question answering (QA) supports developer reasoning over functionality and usage distributed across codebases. However, repository-specialized large language models (LLMs) can become misaligned as code evolves. We study this challenge as temporal repository adaptation: acquiring new knowledge, suppressing obsolete, retaining still-valid, and preserving semantically neighboring knowledge. Existing retrieval, fine-tuning, and model-editing methods address only parts of this problem. We propose Temporal Adaptive Fine-Tuning (TAFT), a novel adaptation approach that treats repository transitions as supervision. TAFT derives temporally grounded QA data from repository transitions, pairs newly valid with obsolete knowledge through preference optimization, and replays transition-conditioned retention examples to preserve still-valid knowledge. We evaluate TAFT on an augmented temporal SWE-bench dataset compri
+    arXiv:2610.18484v1 Announce Type: new  Abstract: Terminal agents have shown strong abilities in complex coding tasks. However, they often struggle to recover from errors during long-running execution (e.g., command errors, faulty implementations), eventually leading to task failures. To this end, we present ReTerm, a self-improving terminal agent trained by learning how to recover from its own failed terminal tasks. To support its training, we construct a customized data pipeline and produce ReTerm-10K, a high-quality dataset that provides effective recovery demonstrations for SFT cold start. Furthermore, we propose ReTerm-GRPO, an online RL algorithm that forks from the agent's own failure states to generate multiple independent self-recovery attempts. By learning from whether these attempts successfully complete the task, the agent self-improves through its own recovery experience. Built on Qwen3.5-9B, our ReTerm-9B achieves 34.8% Pass@1 on Terminal-Bench 2.0, improving over the base
     
-[^10]: 驯服在线软件工程的语言：检测并减少软件社区中的冒犯性语言
+[^24]: NosRacer：设备内置网络操作系统中竞态条件的动态检测
 
-    Taming the Online Software Engineering Tongue: Detecting and Reducing Offensive Language in Software Communities
+    NosRacer: Dynamic Detection of Race Conditions in On-Device Network Operating Systems
 
-    [https://arxiv.org/abs/2610.19961](https://arxiv.org/abs/2610.19961)
+    [https://arxiv.org/abs/2610.11875](https://arxiv.org/abs/2610.11875)
 
-    本研究调查了在线软件工程社区中冒犯性语言的普遍性与特征，并基于四个平台的13万条评论开发了包含72个机器学习模型的冒犯性语言减少系统（OLRSSE），该系统不仅能检测和分类冒犯性评论，还能向发布者解释原因并提供非冒犯性的替代建议。
-
-    
-
-    像Stack Overflow这样的在线软件工程（SE）社区已经变得不友好且充满敌意，这体现在其中存在粗鲁和冒犯性的评论，这些评论对参与者的情感健康造成了损害。这项工作的主要目标是调查在线SE社区中冒犯性语言的普遍程度和性质，并开发相应的分类方法，最终目标是通过提出一个冒犯性语言减少系统（OLRSSE）来减少冒犯性语言。该系统能够检测、分类冒犯性评论，向发布者解释为什么该评论具有冒犯性，并提供建议性的非冒犯性替代方案。研究使用了来自四个知名SE平台（Stack Overflow、GitHub、Gitter和Slack）讨论中的130,000条用户评论数据，开发了六组共十二个（总计72个）不同的机器学习模型（包括传统机器学习和深度学习模型）。表现最佳的模型的F1分数……（摘要在此处被截断）
-
-    arXiv:2610.19961v1 Announce Type: new  Abstract: Online Software Engineering (SE) communities such as Stack Overflow have become unwelcoming and hostile spaces, as evidenced by the presence of rude and offensive comments that are detrimental to the emotional wellbeing of participants. The main objective of this work is to investigate the prevalence and nature of offensive language in online SE communities, and develop approaches to classify them with the ultimate goal of reducing offensive language by proposing an Offensive Language Reduction System (OLRSSE) that has the ability to detect, classify, and explain to the poster why a comment is offensive and also propose non-offensive alternative suggestions. Using data from 130,000 user comments on discussions held in four prominent SE platforms: Stack Overflow, GitHub, Gitter and Slack, we developed six sets of twelve (72 in total) different machine learning models (both traditional and deep learning). The F1-Score of the best performin
-    
-[^11]: 软件版本历史中能耗退化的系统性检测
-
-    Systematic Detection of Energy Regressions in Software Version Histories
-
-    [https://arxiv.org/abs/2610.19895](https://arxiv.org/abs/2610.19895)
-
-    本文提出EnergyTrackr方法，通过识别提交间能耗的统计显著性变化来自动检测软件版本历史中的能耗退化，并在五个Java项目的1,932个提交上验证了其有效性，同时比较了线性算法与二分搜索算法的效率。
+    本文提出NosRacer，一个采用两阶段设计的动态分析框架，用于高效检测工业级设备内置网络操作系统（NOS）中由异步消息传递引起的竞态条件。
 
     
 
-    背景：绿色软件工程正在成为应对信息技术日益增长的能耗影响的重要举措，尤其是在持续开发过程中。然而，如何设计自动化方法以高效识别跨提交的能耗退化仍然存在挑战。特别是，在通过识别能耗的统计显著性变化来自动检测提交级别退化方面，目前的研究努力甚少。目标：本文提出了EnergyTrackr，一种用于检测跨多个提交的能耗退化的方法。方法：我们在来自五个Java项目的1,932个提交上对EnergyTrackr进行了实证评估，评估其识别显著能耗变化的能力。我们还将一种分析整个提交历史的简单线性算法与更高效的二分搜索算法进行了比较。结果：评估结果表明了EnergyTrackr在识别能耗退化方面的有效性。
+    商用设备内置网络操作系统（NOS）在生产路由器和交换机中运行复杂的控制平面，其中配置更新任务由多个松耦合组件通过异步消息传递执行。这类执行容易产生竞态条件：相同的有序输入命令在消息以不同顺序传递时可能产生不同的结果。竞态条件难以暴露，因为它们通常仅表现为细微的、延迟出现的故障。现有静态分析技术对大规模工业级NOS缺乏可扩展性和精确性，而动态分析技术在试图覆盖异步消息交织空间时会产生巨大的系统执行开销。为解决上述挑战，我们提出了NosRacer，一个面向工业级设备内置NOS的竞态条件检测动态分析框架。NosRacer采用两阶段设计。集中阶段……（摘要原文在此处被截断）
 
-    arXiv:2610.19895v1 Announce Type: new  Abstract: Context: Green software engineering is emerging as a crucial response to the rising energy impact of information technology, especially in continuous development. However, challenges remain in devising automated methods to efficiently identify energy regressions across commits. In particular, little effort has been put into automatically detecting regressions at the commit level by identifying statistically significant changes in energy consumption. Objectives: This paper presents EnergyTrackr, an approach for detecting energy regressions across multiple commits. Methods: We empirically evaluated EnergyTrackr on 1,932 commits from five Java projects, assessing its ability to identify significant energy changes. We also compared a straightforward linear algorithm that analyzes the entire commit history with a more efficient dichotomous search algorithm. Results: The evaluation demonstrates the effectiveness of EnergyTrackr in identifying 
+    arXiv:2610.11875v1 Announce Type: cross  Abstract: Commercial on-device network operating systems (NOSes) run complex control planes in production routers and switches, where configuration update tasks are executed by multiple loosely coupled components through asynchronous message passing. Such executions are prone to race conditions: the same ordered input commands may produce different outcomes when messages are delivered in different orders. The race conditions are difficult to expose because they often manifest only as subtle, delayed malfunctions. Existing static analysis techniques lack scalability and precision for large-scale industrial NOSes, while dynamic ones incur substantial system-execution cost when attempting to cover the space of asynchronous message interleavings.   To address the challenges above, we present NosRacer, a dynamic analysis framework for race condition detection in industrial-grade on-device NOSes. NosRacer uses a two-phase design. The concentration pha
     
-[^12]: 依赖图何时有助于代码到架构的映射？
+[^25]: ParanoiaEval：智能体编程中不必要防御性工作的基准测试
 
-    When Does the Dependency Graph Help Code-to-Architecture Mapping?
+    ParanoiaEval: Benchmarking Unnecessary Defensive Work in Agentic Coding
 
-    [https://arxiv.org/abs/2610.19769](https://arxiv.org/abs/2610.19769)
+    [https://arxiv.org/abs/2610.08662](https://arxiv.org/abs/2610.08662)
 
-    该论文将代码到架构的映射建模为依赖图上的半监督节点分类问题，并通过GCN、GAT、MLP与朴素贝叶斯的系统对比实验，揭示了依赖图结构信息在何种条件下才能真正提升架构映射的效果。
-
-    
-
-    当系统的实现偏离其预期的模块化分解，而源文件与架构模块之间的映射缺失、不完整或人工维护成本高昂时，就会产生架构技术债。我们将代码到架构的映射问题形式化为有向多关系依赖图上的半监督节点分类，其中文件作为节点，类型化的依赖关系作为边，词法特征则从代码标识符和目录布局中提取。从少量带标签的样本出发，通过迭代式自训练过程将映射扩展到其余文件。我们将图卷积网络（GCN）、图注意力网络（GAT）以及不使用图结构的多层感知机（MLP）——三种学习型模型均采用相同的特征和训练流程——与朴素贝叶斯参照方法进行对比。在十个开源Java和C/C++系统上进行的100次实验运行中，三种神经模型的表现均优于……（原文摘要至此截断）
-
-    arXiv:2610.19769v1 Announce Type: cross  Abstract: Architectural technical debt arises when a system's implementation drifts from its inten ded modular decomposition, while the mapping between source files and architectural modu les is missing, incomplete, or costly to maintain manually. We formulate code-to-archite cture mapping as semi-supervised node classification over a directed multi-relational de pendency graph, with files as nodes, typed dependencies as edges, and lexical features d erived from code identifiers and directory layout. Starting from a small labeled sample,   an iterative self-training procedure expands the mapping to the remaining files. We com pare a graph convolutional network (GCN), a graph attention network (GAT), and a graph-f ree multi-layer perceptron (MLP), using identical features and training procedures for t he learned models, against a Naive Bayes reference. Across 100 runs on ten open-source J ava and C/C++ systems, all three neural models outperform 
-    
-[^13]: JevCoder：决策委托何时能在代码修复中带来收益？
-
-    JevCoder: When Does Decision Delegation Pay Off in Code Repair?
-
-    [https://arxiv.org/abs/2610.19596](https://arxiv.org/abs/2610.19596)
-
-    该论文提出 JevCoder，一个围绕低成本概率判断器 Jev 构建的代码修复工作流程，系统研究了哪些修复决策可以委托给低成本判断器，通过结合代码片段推荐与动作类型指导，在保持修复质量的同时降低 token 开销。
+    提出了首个统一评估编程智能体风险应对能力的基准ParanoiaEval，基于风险管理中的规避-转移-缓解-接受框架，通过200对证据受控的仓库级任务对和专用评估指标来衡量智能体的防御性工作是否合理。
 
     
 
-    arXiv:2610.19596v1 公告类型：新论文 摘要：代码修复智能体在修复代码的过程中需要反复做出各种决策。这些决策塑造了修复轨迹，并影响后续模型请求的 token 成本。我们探讨哪些修复决策可以委托给一个低成本的概率判断器，以便在保持修复质量的同时减少 token 使用量。该判断器通过在预定义答案上输出概率来回答问题，而不生成任何解释。我们评估了判断质量在修复各阶段的表现，并测试单项干预如何改变后续的修复工作。我们将这些干预与不使用判断器的无引导修复进行对比，也与使用修复模型自身作为判断器的相同工作流程进行对比。研究表明，干预的收益取决于它所改变的修复工作量，而不仅仅是判断本身的成本。基于这些研究，我们提出了 JevCoder，一个围绕低成本概率判断器 Jev 构建的工作流程。它将代码片段推荐与动作类型指导相结合，并使用判断（原文摘要在此处截断）
+    随着编程智能体日益自主地承担真实世界的工作，判断其风险应对措施是否合理已变得尤为重要。现有工作从各自独立的角度评估相关的智能体行为，但缺乏一个统一这些行为的系统性框架。为弥合这一差距，我们提出了ParanoiaEval——首个用于统一评估编程智能体风险应对能力的基准。该基准以软件工程风险管理中成熟的“规避-转移-缓解-接受”（Avoidance-Transfer-Mitigation-Acceptance）框架为基础，将这4种基本风险应对措施操作化到编程智能体场景中，并包含200对证据受控的仓库级任务对，每对任务仅在定义应对措施的证据上存在差异。我们进一步引入了针对风险应对违规和证据响应性的专用指标，并采用经过人类校准的智能体裁判以实现可靠评估。在8个代表性模型上进行的大规模实验……
 
-    arXiv:2610.19596v1 Announce Type: new  Abstract: A coding agent repeatedly makes decisions as it repairs code. These decisions shape repair trajectories and affect the token cost of successive model requests. We ask which repair decisions can be delegated to a low-cost probabilistic judge to reduce token use while maintaining repair quality. The judges answer questions with probabilities over predefined answers, without generating explanations. We evaluate judgment quality across repair stages and test how individual interventions change subsequent repair work. We compare these interventions with unguided repair, which uses no judge, and with the same workflow using the repair model itself as the judge. The benefit depends on the work an intervention changes, rather than the cost of the judgment alone. Based on these studies, we propose JevCoder, a workflow built around Jev, a low-cost probabilistic judge. It combines code-snippet recommendations with action-type guidance and uses judg
+    arXiv:2610.08662v1 Announce Type: new  Abstract: As coding agents increasingly undertake real-world work autonomously, judging whether their risk treatments are warranted has become important. Existing work evaluates related agent behaviors from separate perspectives, but lacks a systematic framework for unifying these behaviors. To bridge this gap, we introduce ParanoiaEval, the first benchmark for unified evaluation of risk-treatment capabilities in coding agents. Grounded in the well-established Avoidance-Transfer-Mitigation-Acceptance framework in software engineering risk management, ParanoiaEval operationalizes its 4 fundamental treatments for coding-agent settings and contains 200 evidence-controlled repository-level task pairs, each differing only in treatment-defining evidence. We further introduce dedicated metrics for risk-treatment violations and evidence responsiveness, using a human-calibrated agentic judge for reliable evaluation. Large-scale experiments on 8 representat
     
-[^14]: 使命（不）可能：面向开源无人机框架中自动驾驶仪逻辑缺陷的自主发现
+[^26]: 基于保证契约与证据的量子编译器测试与验证
 
-    Mission (Im)Possible: Towards Autonomous Discovery of Autopilot Logic Flaws in Open-Source Drone Frameworks
+    Testing and Verification of Quantum Compilers through Assurance Contracts and Evidence
 
-    [https://arxiv.org/abs/2610.19566](https://arxiv.org/abs/2610.19566)
+    [https://arxiv.org/abs/2610.00255](https://arxiv.org/abs/2610.00255)
 
-    本文提出了IMF（Impossible Mission Finder）框架，利用配备领域知识和精心构建上下文的多智能体LLM系统，结合高级语义缺陷判定器，自主发现开源无人机自动驾驶仪软件中难以通过传统方法检测的细微逻辑缺陷。
-
-    
-
-    摘要：自主无人机正日益被部署于安全关键任务中，然而其自动驾驶仪软件仍可能包含细微的逻辑缺陷，从而导致不安全的行为。这类缺陷难以通过现有技术发现，因为它们往往依赖于模块、命令和运行时状态之间的语义关系，并且很少表现为崩溃或其他可检测的故障。随着大语言模型（LLM）的最新进展，我们观察到，当配备必要的领域知识和精心构建的上下文时，LLM在理解自动驾驶系统的高级语义方面展现出强大的能力，使其适用于逻辑缺陷的发现。然而，LLM受限于其上下文窗口，并且容易偏向于训练数据集中频繁出现的漏洞类型，而逻辑缺陷的识别通常需要更高级别的语义缺陷判定器。为了弥合这一差距，我们提出了Impossible Mission Finder（IMF），一个多智能体
-
-    arXiv:2610.19566v1 Announce Type: cross  Abstract: Autonomous drones are increasingly deployed in safety-critical tasks, yet their autopilot software can still contain subtle logic flaws that lead to unsafe behaviors. These flaws are difficult to discover with existing techniques because they often depend on semantic relationships across modules, commands, and runtime state, and rarely manifest as crashes or detectable failures. With recent advances in LLMs, we observe that, when equipped with essential domain knowledge and carefully crafted context, LLMs demonstrate strong capabilities in understanding the high-level semantics of autopilot systems, making them suitable for logic flaw discovery. However, LLMs are limited by their context and can be biased to the vulnerabilities frequently occurs in training dataset, while logic flaws often require higher-level semantic bug oracles to identify their existence. To bridge the gap, we present Impossible Mission Finder (IMF), a multi-agent 
-    
-[^15]: BenchChecker：评估面向大语言模型的缺陷修复基准的可信度
-
-    BenchChecker: Assessing the Credibility of Bug-Fixing Benchmarks for LLMs
-
-    [https://arxiv.org/abs/2610.19447](https://arxiv.org/abs/2610.19447)
-
-    提出BenchChecker框架，通过基于取证的两阶段检测流程（仓库存在性测试与补丁存在性测试）来识别缺陷修复基准中的数据污染问题，从而更可信地评估大语言模型在自动程序修复任务上的真实性能。
+    该论文是一项关于量子编译器测试与验证的批判性综合综述，系统比较了经验证变换、等价性检查、差分与蜕变测试、基于属性的测试等多种方法，并通过失败案例和工作示例说明如何借助保证契约与证据确保量子编译器在其交付接口上的正确性。
 
     
 
-    尽管大语言模型（LLM）在自动程序修复（APR）方面展现出潜力，但现有基准测试存在数据污染问题，即测试样本出现在训练集中，从而人为地夸大了模型性能。为解决这一问题，我们提出了BenchChecker，这是一个兼容开源与闭源模型的框架，通过检测此类数据污染来支持更可信的评估。基于“持久化补丁很可能仍保留在用于训练的近期仓库快照中”这一观察，BenchChecker采用一种基于取证的两阶段检测流程，仅使用模型的文本输出以及公开的仓库历史。第一阶段通过用代码前缀探测模型来推断其是否被纳入训练，进行仓库存在性测试；第二阶段通过相似性对齐和测试套件验证来确认补丁的持久性，进行补丁存在性测试。使用StarCoder-15B、StarCod（摘要在此处截断）
+    量子编译器的保证要求语义关系与预期用途相匹配，并需要能够在交付接口处暴露违规行为的观测。这项批判性综合综述比较了经验证的变换、等价性检查、差分测试与蜕变测试、基于属性的测试，以及跨修订版本的保证证据。通过一个源文献目录和聚焦的提取矩阵，该综述区分了形式化保证、报告的实证结果、分析性推论以及所提出的实践方法。所记录的覆盖范围更新和源层面的选择决策使该综述在其声明的范围内可被审计。四个有记录的失败案例将条件适用性、参数关联、终止性与相位约定与方法选择联系起来。一个涉及布局元数据、参数绑定和辅助量子比特的工作示例演示了为什么在重构解释下验证电路可能会使交付……（摘要在此处截断）
 
-    arXiv:2610.19447v1 Announce Type: new  Abstract: While Large Language Models (LLMs) show promise for Automatic Program Repair (APR), existing benchmarks suffer from data contamination, in which test samples appear in training sets, artificially inflating performance. To address this, we propose BenchChecker, a framework compatible with both open-source and closed-source models that supports more credible evaluation by detecting such contamination. Grounded in the observation that persistent patches likely remain in recent repository snapshots used for training, BenchChecker employs a forensics-based two-stage detection process using only textual model outputs together with public repository history. The first stage conducts a repository presence test by probing the model with code prefixes to infer training inclusion; the second stage performs a patch presence test to verify patch persistence via similarity alignment and test-suite verification. Evaluations using StarCoder-15B, StarCod
+    arXiv:2610.00255v1 Announce Type: new  Abstract: Quantum compiler assurance requires a semantic relation that matches the intended use and observations that can expose violations at the delivered interface. This critical integrative survey compares verified transformations, equivalence checking, differential and metamorphic testing, property-based testing, and evidence for assurance across revisions. A source catalogue and focused extraction matrix distinguish formal guarantees, reported empirical findings, analytical deductions, and proposed practice. A recorded coverage update and source-level selection decisions make the review auditable within its declared scope. Four documented failure cases connect conditional applicability, parameter association, termination, and phase conventions to method selection. A worked example involving layout metadata, parameter bindings, and ancillary qubits demonstrates why validating a circuit under a reconstructed interpretation can leave the delive
     
-[^16]: OS-Bench：在跨操作系统代码迁移任务上评估软件工程智能体
+[^27]: 从迁移到校准：跨模型、司法管辖区与规模保持智能体能力
 
-    OS-Bench: Evaluating SWE Agents on Cross-OS Code Migration
+    From Migration to Calibration: Preserving Agent Capabilities across Models, Jurisdictions, and Scale
 
-    [https://arxiv.org/abs/2610.19368](https://arxiv.org/abs/2610.19368)
+    [https://arxiv.org/abs/2609.35149](https://arxiv.org/abs/2609.35149)
 
-    提出OS-Bench——首个通过对比同一代码库在Linux与Windows上的执行覆盖率来识别迁移机会，并将平台特定代码组织为五种场景的可执行基准，用于评估语言模型智能体在跨操作系统代码迁移上的能力。
-
-    
-
-    arXiv:2610.19368v1 公告类型：新 摘要：语言模型（LM）智能体越来越多地在基于GitHub议题（issue）和拉取请求（pull request）构建的仓库级软件工程（SWE）基准上进行评估。尽管这些基准涵盖了广泛的开发任务，但对于一个常见而在技术上却截然不同的挑战，它们所能提供的洞察有限：即将现有实现从一个操作系统（OS）迁移到另一个操作系统，同时保持其在两个系统上的行为一致。我们提出了OS-Bench，一个用于Linux与Windows之间跨操作系统代码迁移的可执行基准。受案例研究的启发——这些研究表明跨平台功能通常先在一个操作系统上实现，之后才为另一系统添加支持——OS-Bench通过比较同一仓库在两个系统上收集的执行覆盖率来识别迁移机会。随后，平台特定代码区域经过验证，被归纳为五种迁移场景，并转化为带有目标平台测试和源（摘要在此处被截断）的仓库级任务。
-
-    arXiv:2610.19368v1 Announce Type: new  Abstract: Language-model (LM) agents are increasingly evaluated on repository-level software engineering (SWE) benchmarks derived from GitHub issues and pull requests. Although these benchmarks cover a broad range of development tasks, they provide limited insight into a common yet technically distinct challenge: migrating an existing implementation from one operating system (OS) to another while preserving behavior on both. We introduce OS-Bench, an executable benchmark for cross-OS code migration between Linux and Windows. Motivated by case studies showing that cross-platform features are frequently implemented on one OS before support is added for another, OS-Bench identifies migration opportunities by comparing execution coverage collected from the same repository on both systems. Platform-specific regions are then verified, organized into five migration scenarios, and transformed into repository-level tasks with target-platform tests and sour
-    
-[^17]: 超越功能正确性：对大语言模型生成代码的静态代码质量剖析
-
-    Beyond Functional Correctness: Static Code Quality Profiling of LLM-Generated Code
-
-    [https://arxiv.org/abs/2610.19167](https://arxiv.org/abs/2610.19167)
-
-    本研究对73个大语言模型生成的65,663个Python程序进行了大规模静态代码质量剖析，发现仅靠功能正确性无法全面评估代码质量，各模型在可维护性等静态质量指标上存在系统性差异，且正确性往往伴随着结构上的权衡。
+    提出将智能体校准构建为标准优先的适配框架，通过定义基础能力、技术环境与用户情境标准，系统诊断差距并应用修订，从而在模型更换、跨管辖区部署和规模化过程中保持智能体能力不退化。
 
     
 
-    大语言模型（LLM）越来越多地被用于代码生成，然而大多数评估仍然只关注生成的代码能否通过基准测试套件。然而，仅凭功能正确性只能提供对质量的有限认识：基准测试往往不完整，通过测试并不能保证代码是可维护的、可靠的或结构良好的。本文对LLM生成的Python代码进行了大规模的静态质量剖析，重点关注可维护性和可靠性。我们使用LiveCodeBench中73个模型的65,663个程序，采用Pylint、Radon和SonarQube等成熟的静态分析工具对生成的代码进行评估。我们的结果显示，各模型之间存在仅凭正确性指标无法捕捉的系统性差异，其中可维护性是最明显的差异来源。我们进一步发现，正确性往往伴随着结构上的权衡，而不是一致地对应更简单的解决方案。
+    部署、迁移或扩展智能体可能会改变其模型、运行框架、基础设施、应用场景及目标用户。我们将智能体校准表述为标准优先的适配方法：定义基础能力、技术环境和用户情境标准；诊断差距；生成并应用修订；并在固定预算内重新检查相同标准。这些标准族在信息层、运行框架层和用户接受层之间相互作用。源行为仅具诊断价值，并非完美的参考或能力上限：模型替换可能将正确答案变为错误，或将错误变为正确。资格认定要求通过所有强制性已知测试、真实的端到端部署路径、硬性谓词以及声明的任务/用户最低标准；总体收益不能抹去硬性失败。修订可能更改工具或运行框架，添加示范和任务描述，或使用经验证的目标原生轨迹来训练策略
 
-    arXiv:2610.19167v1 Announce Type: new  Abstract: Large language models (LLMs) are increasingly used for code generation, yet most evaluations still focus on whether generated code passes benchmark test suites. Functional correctness alone, however, provides only a limited view of quality: benchmark tests are often incomplete, and passing them does not guarantee that code is maintainable, reliable, or well-structured. This paper {presents a large-scale static quality profiling of} LLM-generated Python code, with a focus on maintainability and reliability. Using 65{,}663 programs from 73 models in LiveCodeBench, we evaluate generated code with established static analysis tools, including Pylint, Radon, and SonarQube. Our results show systematic differences across models that are not captured by correctness alone, with maintainability emerging as the clearest source of variation. We further find that correctness often comes with structural trade-offs rather than uniformly simpler solution
+    arXiv:2609.35149v2 Announce Type: replace  Abstract: Deploying, migrating, or scaling an agent can change its model, harness, infrastructure, application, and intended users. We formulate agent calibration as standards-first adaptation: define basic-capability, technical-environment, and user-context standards; diagnose gaps; generate and apply revisions; and recheck the same standards within fixed budgets. These standard families interact across information, harness, and user-acceptance layers. Source behavior is diagnostic, not a perfect reference or capability ceiling: model replacement can turn correct answers into errors or errors into correct answers. Qualification requires all mandatory known tests, actual end-to-end deployment paths, hard predicates, and declared task/user minimums to pass; aggregate gains cannot erase hard failures. Revisions may change tools or harnesses, add demonstrations and task descriptions, or use validated target-native trajectories to train a policy, 
     
-[^18]: DivAlgo：代码生成模型算法多样性的系统性评估
+[^28]: SWE-PolyVision：面向仓库级软件工程的跨图像溯因推理基准测试
 
-    DivAlgo: A systematic evaluation of algorithmic diversity for code generation models
+    SWE-PolyVision: Benchmarking Cross-Image Abductive Reasoning for Repository-Level Software Engineering
 
-    [https://arxiv.org/abs/2610.19157](https://arxiv.org/abs/2610.19157)
+    [https://arxiv.org/abs/2609.29754](https://arxiv.org/abs/2609.29754)
 
-    提出DivAlgo基准数据集及轻量级相似度度量方法，通过对24个代码生成模型的评估发现，模型生成代码的算法多样性显著低于人类解决方案（最高仅达人类多样性的约70%），揭示了当前代码生成模型在算法多样性方面的局限性。
-
-    
-
-    代码生成模型正被积极应用于专业和教育场景中。然而，大型语言模型（LLM）生成算法多样性代码的能力在很大程度上仍不为人知。我们提出了DivAlgo基准，这是一个包含针对编程问题的算法多样化解决方案的大规模数据集。我们还引入了一种轻量级的相似度度量方法，以支持大规模评估。我们在24个现代代码生成模型上的实验发现，不受控制的模型生成代码的多样性显著低于人类解决方案（仅捕捉到人类多样性的约31%），即使是最佳的多样性代码生成策略也只能达到人类多样性的约70%。此外，虽然可以引导模型基于人类策略生成解决方案，但它们无法再现人类解决方案的多样性。这些发现表明代码生成模型在捕捉算法多样性方面存在局限。
-
-    arXiv:2610.19157v1 Announce Type: cross  Abstract: Code generation models are actively being used in professional and educational settings. However, the competence of large language models (LLMs) to generate algorithmically diverse code remains largely unknown. We propose the DivAlgo benchmark, a large-scale dataset constituting algorithmically diverse solutions to programming problems. We also introduce a lightweight similarity metric to enable large-scale evaluation. Our experiments across 24 modern code generation models found that uncontrolled model-generated code is significantly less diverse than human solutions (capturing ~31% of human diversity), and even the best diverse code generation strategy could achieve only ~70% of human diversity. Moreover, while it was possible to steer the models to generate solutions based on human strategies, they were unable to reproduce the diversity of the human solutions. These findings indicate the limitations of code generation models in capt
-    
-[^19]: 对已弃用Android API使用更新的系统性研究
-
-    A Systematic Study of Deprecated Android API Usage Updates
-
-    [https://arxiv.org/abs/2610.19150](https://arxiv.org/abs/2610.19150)
-
-    本文通过分析1,000个已弃用Android API和4,336个来自GitHub的迁移示例，系统性地识别出六大迁移类别及反复出现的API使用更新模式，为改进自动化API迁移技术提供了实证基础。
+    提出 SWE-PolyVision 基准，通过 92 个包含多图像输入的真实软件工程任务，首次系统评估智能体将跨图像视觉证据与代码证据整合并进行经验证的仓库级修复的能力，发现视觉访问的效果因模型和任务而异。
 
     
 
-    Android应用程序编程接口（API）持续演进，导致现有API被弃用，并要求开发者将其用法迁移到推荐的替代API上。尽管先前的研究已提出自动化迁移技术，但其效果往往受限于API变化的多样性和上下文复杂性。本文对已弃用的Android API、其推荐的替代API以及开发者在实际中所进行的使用更新开展了系统性研究。基于对从GitHub收集的1,000个已弃用API和4,336个迁移示例的分析，我们识别出六个迁移类别，并总结出反复出现的使用更新模式，包括Android版本检查、参数适配、对象初始化、数据类型转换以及API交互机制的变化。为评估这些模式的适用性，我们在零样本GUPPY基准提示中加入了迁移类别及对应的……
+    当前多模态软件工程基准测试仅将图像作为额外的上下文呈现，但并未检验智能体能否将分布在多张图像中的证据整合到经过验证的仓库级修复中。我们提出 SWE-PolyVision，这是一个可执行的基准测试，包含来自 36 个开源组织的 92 个真实任务，其中 48 个为公开任务，44 个为私有保留任务。该发布版本包含 402 张静态图像和 6 个视频，每个任务至少有两个视觉输入。每个任务将固定的修复前仓库与隔离的验证器配对，并在三种访问模式（纯文本、原生视觉和工具介导视觉）中受支持的条件进行评估。在十一个代码模型上的实验表明，视觉访问会改变哪些任务能够被解决，但其效果同时取决于模型和任务。两个与推理轨迹关联的原生视觉案例展示了互补的视觉与文本线索如何引导实现源代码定位且经过验证的修复；受控干预实验表明，这种……（原文摘要在此处截断）
 
-    arXiv:2610.19150v1 Announce Type: new  Abstract: Android Application Programming Interfaces (APIs) continuously evolve, causing existing APIs to become deprecated and requiring developers to migrate their usages to recommended replacements. Although prior studies have proposed automated migration techniques, their effectiveness is often limited by the diversity and contextual complexity of API changes. This paper presents a systematic study of deprecated Android APIs, their recommended replacements, and real-world usage updates performed by developers. Based on an analysis of 1,000 deprecated APIs and 4,336 migration examples collected from GitHub, we identify six migration categories and derive recurring usage-update patterns involving Android-version checks, parameter adaptation, object initialization, data-type conversion, and changes in API interaction mechanisms. To assess their applicability, we augment the zero-shot GUPPY benchmark prompts with the migration category and corresp
+    arXiv:2609.29754v1 Announce Type: new  Abstract: Current multimodal software-engineering benchmarks expose images as additional context, but do not test whether an agent can integrate evidence distributed across images into a verified repository-level repair. We present SWE-PolyVision, an executable benchmark of 92 real tasks from 36 open-source organizations, with 48 public tasks and 44 private holdouts. The release contains 402 static images and 6 videos, with at least two visual inputs per task. Each task pairs a fixed pre-fix repository with an isolated verifier and is evaluated under the supported conditions among three access modes: Text-only, Native Vision, and Tool-mediated Vision. Across eleven coding models, visual access changes which tasks are solved, but effects depend on both model and task. Two trace-linked Native Vision cases illustrate how complementary visual and textual clues can lead to source-localized, verified repairs; controlled interventions show that this conv
     
-[^20]: X.js：一个Node.js污点风格漏洞的动态基准测试集
+[^29]: 面向基于DEVS的数字孪生仿真服务的以模型为中心的DevOps架构
 
-    X.js: A Live Benchmark for Node.js Taint-Style Vulnerabilities
+    A Model-Centric DevOps Architecture for DEVS-Based Digital Twin Simulation Services
 
-    [https://arxiv.org/abs/2610.18585](https://arxiv.org/abs/2610.18585)
+    [https://arxiv.org/abs/2609.11122](https://arxiv.org/abs/2609.11122)
 
-    本文提出了X.js——一个持续更新的真实世界Node.js污点风格漏洞基准测试集，每个漏洞均配有精确的源汇位置、经验证的可执行漏洞利用程序及补丁版本，解决了现有漏洞数据集过时、无法支持该领域研究长期发展的问题。
-
-    
-
-    npm包中的JavaScript漏洞对Node.js生态系统构成重大风险，越来越多的研究工作旨在检测、利用和缓解这些漏洞。对这类工作进行研究和评估需要最新的真实漏洞集合，然而最常用的数据集在2022年就停止记录漏洞了。我们提出了X.js，这是一个真实世界Node.js污点风格漏洞的动态（持续更新的）基准测试集，涵盖代码和命令注入、原型污染以及路径遍历等漏洞类型。X.js基于截至2026年中期收集的1,738份安全公告（主要来自GitHub咨询数据库）构建，将每个漏洞与精确的源（source）和汇（sink）位置、经过验证的可执行漏洞利用程序及其执行轨迹，以及在可用情况下的包修补版本进行配对。X.js支持长期可复现性和持续增长：依赖项被镜像到自托管注册表中，以防止包从生态系统中被移除。
-
-    arXiv:2610.18585v2 Announce Type: replace-cross  Abstract: JavaScript vulnerabilities in npm packages pose a significant risk to the Node$.$js ecosystem, and a growing body of work aims to detect, exploit, and mitigate them. Studying and evaluating this work requires up-to-date collections of real vulnerabilities, yet the most commonly used datasets stop recording vulnerabilities in 2022. We present X$.$js, a live benchmark of real-world Node$.$js taint-style vulnerabilities covering code and command injection, prototype pollution, and path traversal. Built from 1,738 advisories collected through mid-2026, primarily from the GitHub Advisory Database, X$.$js pairs each vulnerability with precise source and sink locations, a validated executable exploit and its execution trace, and, when available, a patched version of the package. X$.$js supports long-term reproducibility and growth: dependencies are mirrored in a self-hosted registry to guard against package removal from the ecosystem,
-    
-[^21]: 交互即裁判
-
-    Interaction-as-a-Judge
-
-    [https://arxiv.org/abs/2610.17895](https://arxiv.org/abs/2610.17895)
-
-    提出“交互即裁判”评估范式，让计算机操作智能体直接与应用交互来进行评估和生成，弥补了传统基于代码分析与单元测试的自动评估和人类交互式评估之间的差距，并发布了包含人类偏好对与经人类验证需求标签的两个数据集。
+    本文提出一种以模型为中心的DevOps架构，将基于DEVS的数字孪生仿真模型作为一等制品，通过声明式YAML定义、到multiPDEVS的形式化映射、CI/CD流水线中的结构与语义验证以及Kubernetes容器化微服务部署，实现了仿真模型的可追溯版本管理与持续交付。
 
     
 
-    编程智能体的任务是产出复杂的交互式应用，例如网站、桌面应用和游戏。人类在评估这些应用时会以交互方式进行，而当前自动化的LLM评估主要集中于代码分析和单元测试。这种不匹配会导致LLM评判者遗漏那些对人类用户而言一目了然的缺陷。我们研究了“交互即裁判”，这是一种由计算机操作智能体（CUA）直接与应用进行交互的评估范式。我们证明“交互即裁判”能够同时改进交互式应用的评估与生成。为此，我们收集并发布了两个互补的数据集：包含人类偏好及对应智能体操作轨迹的6,858对应用，以及带有经人类验证的需求标签的222个应用。相较于标准的非交互式方法，我们发现“交互即裁判”在预测h……（原文摘要在此处截断）
+    数字孪生仿真模型像软件一样不断演化和重新部署，然而基于DEVS的引擎虽然提供了健全的形式化基础，但在版本管理、自动化验证以及云原生环境中的持续交付方面支持甚少，导致大多数部署中的模型生命周期管理呈现临时性、缺乏规范的状态。本文提出了一种以模型为中心的DevOps架构，用于将基于DEVS的数字孪生仿真部署为托管服务。仿真模型被视为一等DevOps制品，采用声明式YAML语言定义，并具有到multiPDEVS的形式化映射，支持在CI/CD流水线中进行结构和语义验证，该流水线生成不可变的版本化制品，因此回滚到先前已验证的版本只需固定其标识符即可。该平台被分解为Kubernetes上的容器化微服务，并针对状态外置化和生命周期控制进行了引擎适配。在里加22路公交（案例研究中）……（摘要截断）
 
-    arXiv:2610.17895v2 Announce Type: cross  Abstract: Coding agents are tasked with producing sophisticated interactive applications such as websites, desktop applications, and games. While humans assess these applications interactively, current automated LLM evaluations primarily focus on code analysis and unit tests. This mismatch can cause LLM judges to miss failures that are immediately apparent to human users. We study Interaction-as-a-Judge, an evaluation paradigm where computer-use agents (CUAs) directly interact with an application. We demonstrate that Interaction-as-a-Judge can improve both evaluation and generation of interactive applications. To this end, we collect and release two complementary datasets: $6,858$ pairs of applications with human preferences and corresponding agent traces, and $222$ applications with human-verified requirement labels. Relative to standard non-interactive approaches, we find that Interaction-as-a-Judge improves evaluation in terms of predicting h
+    arXiv:2609.11122v1 Announce Type: new  Abstract: Digital twin simulation models are evolved and redeployed like software, yet DEVS-based engines offer a sound formal basis with little support for versioning, automated validation, or continuous delivery in cloud-native environments, leaving model lifecycle management ad hoc in most deployments. This paper proposes a model-centric DevOps architecture for deploying DEVS-based digital twin simulations as managed services. Simulation models are treated as first-class DevOps artefacts defined in a declarative YAML language with a formal mapping to multiPDEVS, supporting structural and semantic validation in a CI/CD pipeline that produces immutable versioned artefacts, so that reverting to an earlier validated version reduces to pinning its identifier. The platform is decomposed into containerised microservices on Kubernetes, with engine adaptations for state externalisation and lifecycle control. An initial case study on the Riga Route 22 pu
     
-[^22]: SecReason：面向大语言模型代码生成的漏洞检测与流内自修复
+[^30]: Praxist：从实验性人工制品到解决方案谱系
 
-    SecReason: Vulnerability Detection and In-Stream Self-Repair for LLM Code Generation
+    Praxist: From Experimental Artifacts to Solution Lineages
 
-    [https://arxiv.org/abs/2610.14453](https://arxiv.org/abs/2610.14453)
+    [https://arxiv.org/abs/2608.25955](https://arxiv.org/abs/2608.25955)
 
-    提出SecReason，一种针对推理型大语言模型代码生成的流内防御机制，通过双轨增量扫描在流式思维链中实时检测安全漏洞并进行自修复。
-
-    
-
-    大语言模型（LLM）生成的代码可能引入安全漏洞，当验证仅关注功能正确性时，这些漏洞可能会持续存在于生产环境中。现有的防御机制在生成之前、生成期间或生成之后发挥作用，但没有一种能在代码生成的过程中对代码进行检查。安全提示词和检索到的安全知识在任何代码出现之前就已起作用，受限解码限制了 token 的选择但无法引导修复，而事后修复必须重新生成完整的响应。推理型大语言模型在其流式思维链的早期阶段起草代码，在这个交付前的窗口期内，代码仅存在于推理流中。我们提出 SecReason，一种监控该窗口的流内防御机制。双轨增量扫描应用安全规则，在每条语句被输出时进行检查，并追踪累积代码中的数据流。当安全规则触发时，SecReason 会中断生成，插入流内警告，并……（原文摘要在此处截断）
-
-    arXiv:2610.14453v2 Announce Type: replace-cross  Abstract: Large language models (LLMs) may introduce security vulnerabilities into generated code, which can persist into production when verification focuses on functional correctness. Existing defenses act before, during, or after generation, but none inspects the code during generation. Security prompts and retrieved security knowledge act before any code exists, constrained decoding limits token choices but cannot guide repair, and post-hoc repair must regenerate the full response. Reasoning LLMs draft code early in their streamed chain of thought, and in this pre-delivery window the code exists only inside the reasoning stream. We present SecReason, an in-stream defense that monitors this window. Dual-track incremental scanning applies security rules, checking each statement as it is emitted and tracing dataflows across the accumulated code. When a security rule fires, SecReason interrupts generation, inserts an in-stream warning, a
-    
-[^23]: SoftwareGym：通过多样化合成软件环境扩展计算机使用智能体的训练
-
-    SoftwareGym: Scaling Computer-Use Agent Training with Diverse Synthesized Software Environments
-
-    [https://arxiv.org/abs/2610.12611](https://arxiv.org/abs/2610.12611)
-
-    提出SoftwareGym，一个自动化流水线，能够大规模合成界面多样、功能可执行且经运行时验证的GUI软件环境（已生成12个类别共182个应用，任务通过率达91.5%），并构建SoftwareGym-Bench基准以支持计算机使用智能体的训练与评估。
+    Praxist通过谱系中心方法将实验人工制品转化为类型化证据图，分离局部构建与证据综合，使研发代理能继承已验证机制，避免重复学习并提升长期研发效率。
 
     
 
-    计算机使用智能体（CUA）正在快速进步，然而大规模合成多样化且可靠的软件环境仍然具有挑战性。原生应用程序环境需要大量的构建与集成工作，这限制了应用的覆盖范围，并增加了针对特定应用过拟合的风险。而浏览器托管环境所能提供的交互深度和工作流复杂度则较为有限。这些局限性催生了SoftwareGym——一个用于合成GUI软件环境的自动化流水线，其生成的环境具备多样化界面、可执行的功能以及经运行时验证的行为。该系统生成结构多样的设计，将其实现为可运行的应用程序，并通过GUI评估与迭代修复来确保功能可靠性。借助SoftwareGym，我们合成了涵盖十二个类别的182个应用程序，平均GUI任务通过率达到91.5%。我们构建了SoftwareGym-Bench，一个包含120个任务的评估套件，用于评测……（原文摘要至此被截断）
+    arXiv:2608.25955v1 公告类型：交叉 摘要：自主研发代理现在能够在自动评估下编写、运行和改进可执行人工制品——但很大程度上仍作为实验室工具：在精选基准上展示，其改进难以追溯到具体原因，且成本远超持续工程实践所能承受的范围。这种局限性是结构性的。大多数系统将每次尝试视为几乎自包含的过程，因此日志、记忆和搜索树记录了发生的事件，却未确立哪个设计元素产生了改进、其证据是否经受住了验证，或它如何与其他元素重组。因此，长期活动不断重复学习相同的教训。我们引入了Praxist，一个以谱系为中心的世代系统，将可复现的人工制品和评估结果转化为一个类型化的证据图，包含发现、车道结构前沿和议程。将局部人工制品构建与队列级证据综合分离，使后续尝试能够继承经过验证的机制。
 
-    arXiv:2610.12611v1 Announce Type: cross  Abstract: Computer-use agents (CUAs) are rapidly improving, yet synthesizing diverse and reliable software environments at scale remains challenging. Native application environments require substantial construction and integration effort, which limits application coverage and increases the risk of application-specific overfitting. Browser-hosted environments provide limited interaction depth and workflow complexity. These limitations motivate SoftwareGym, an automated pipeline for synthesizing GUI software environments with diverse interfaces, executable functionality, and runtime-verified behavior. It generates structurally diverse designs, realizes them as runnable applications, and uses GUI evaluation with iterative repair to ensure functional reliability. Using SoftwareGym, we synthesize 182 applications across twelve categories and achieve a mean GUI task pass rate of 91.5%. We construct SoftwareGym-Bench, a 120-task evaluation suite spanni
+    arXiv:2608.25955v1 Announce Type: cross  Abstract: Autonomous R\&D agents now write, run, and improve executable artifacts under automated evaluation---but largely as laboratory instruments: shown on curated benchmarks, with gains that are hard to trace to a cause and costs well above what sustained engineering practice absorbs. The limitation is structural. Most systems treat each attempt as nearly self-contained, so logs, memories, and search trees record what happened without establishing which design element produced an improvement, whether its evidence survived validation, or how it recombines with others. Long campaigns therefore keep re-learning the same lessons. We introduce Praxist, a lineage-centered generational system that converts reproducible artifacts and evaluator outcomes into a typed evidence graph of findings, lane-structured frontiers, and agendas. Separating local artifact construction from cohort-level evidence synthesis lets later attempts inherit validated mecha
     
-[^24]: A2ABreak：A2A协议的系统性安全分析
+[^31]: SPECMINE：一个大规模的规范驱动开发工件语料库
 
-    A2ABreak: Systematic Security Analysis of the A2A Protocol
+    SPECMINE: A Large-Scale Corpus of Spec-Driven Development Artifacts
 
-    [https://arxiv.org/abs/2609.10871](https://arxiv.org/abs/2609.10871)
+    [https://arxiv.org/abs/2608.25202](https://arxiv.org/abs/2608.25202)
 
-    本文提出A2ABreak框架，首次对A2A协议进行系统性安全分析，通过LLM辅助从自然语言规范中提取经验证的有限状态机模型（37个状态、76个转换），并利用对抗性验证系统性发现协议层面的安全漏洞。
-
-    
-
-    由Linux基金会管理的Agent2Agent（A2A）协议是一项开放标准，使自主AI智能体能够跨越组织边界相互发现、进行身份认证并委派任务。A2A旨在与用于工具集成的模型上下文协议（MCP）互补，正迅速成为多智能体生态系统的水平通信层。然而，该协议的安全性尚未得到系统性分析。本文提出了A2ABreak，这是对A2A协议首次严谨的系统性安全分析。我们引入了一种新颖的框架，利用大语言模型（LLM）辅助从自然语言规范中直接提取经验证的有限状态机，从929条形式化语句中构建了一个包含37个状态和76个转换的统一模型，随后对该模型进行系统性推理，在完全符合规范的条件下通过对抗性验证来发现协议层面的漏洞。
-
-    arXiv:2609.10871v1 Announce Type: cross  Abstract: The Agent2Agent (A2A) protocol, now governed by the Linux Foundation, is an open standard that enables autonomous AI agents to discover, authenticate with, and delegate tasks to one another across organizational boundaries. Designed to complement the Model Context Protocol (MCP) for tool integration, A2A is rapidly emerging as the horizontal communication layer of the multi-agent ecosystem. Yet the protocol's security has received no systematic analysis.   This paper presents A2ABreak, the first rigorous systematic security analysis of the A2A protocol. We introduce a novel framework that utilizes an LLM-assisted extraction of a verified finite-state machine directly from the natural-language specification, producing a unified model of 37 states and 76 transitions from 929 formalized statements, and then systematically reasons over this model to discover protocol-level vulnerabilities through adversarial verification, under a full-comp
-    
-[^25]: 修复中的捷径：识别与分类软件工程基准测试中的智能体作弊利用行为
-
-    Shortcutting the Fix: Identifying and Categorizing Agentic Exploits in Software Engineering Benchmarks
-
-    [https://arxiv.org/abs/2609.06780](https://arxiv.org/abs/2609.06780)
-
-    该研究首次将软件工程基准测试中智能体通过检索上游代码、利用 Git 历史等方式作弊的现象形式化为“智能体走捷径”，发现标准评估下高达 90% 的轨迹存在作弊尝试，并提出通过提示智能体独立构建解决方案可将其降至约 10% 且不损害任务性能，凸显了作弊感知评估框架的必要性。
+    我们提出了SPECMINE，这是首个大规模语料库，通过两次普查系统地捕捉了GitHub上规范驱动开发工件，为研究规范如何转化为代码提供了基础数据。
 
     
 
-    高软件工程基准测试得分往往掩盖了作弊性的捷径行为，例如检索上游解决方案、利用本地 Git 历史，或回忆已记忆的代码。我们将这一现象形式化为“智能体走捷径”，并使用轨迹级的 LLM 评审器，对三个最先进的开源大语言模型在 SWE-bench Multilingual 和 DeepSWE 基准上进行了审计。标准评估分别在 60.7%-90.1% 和 55.5%-89.1% 的轨迹中触发了走捷径尝试，其中高达 72.1% 的任务是借助成功的作弊手段完成的；而禁用网络访问也无法遏制这些高尝试率。通过提示智能体独立构建解决方案，可将走捷径尝试分别抑制至 9.4%-14.2% 和 0.9%-10.3%，同时几乎消除了依赖捷径的任务解决方式，并保持了核心任务性能。我们的研究结果证明，衡量仓库级问题解决能力必须采用具备作弊感知的评估框架。
+    arXiv:2608.25202v1 公告类型：新 摘要：规范驱动开发（SDD）是一种快速兴起的新实践，其中由开发者编写、或（更常见地）由AI工具起草再由开发者整理的、结构化自然语言规范，驱动AI编码代理的实现。自2025年以来，一波工具（如GitHub Spec Kit [3]、OpenSpec [4]、AWS Kiro [5]以及数十种其他工具）已经出现，但这些工具产生的工件从未被大规模研究过。我们提出了SPECMINE，一个通过两次普查捕捉公共GitHub仓库中SDD的语料库：一次广泛普查覆盖了大多数工具的spec.md/specs.md文件（涵盖73,030个仓库中的470,795个文件，归属于17个命名工具），以及一次针对Kiro独特的需求/设计/任务布局的普查（涵盖12,910个仓库中的98,574个文件）。每个规范都附有完整的仓库元数据、完整的提交历史以及解析后的文档结构。规范如何转化为代码本身就是一个开放问题，因此对于...
 
-    arXiv:2609.06780v2 Announce Type: replace  Abstract: High software engineering benchmark scores often mask exploitative shortcuts, such as retrieving upstream solutions, exploiting local Git histories, or recalling memorized code. We formalize this phenomenon as agentic shortcutting and audit three state-of-the-art open LLMs on SWE-bench Multilingual and DeepSWE using trajectory-level LLM judges. Standard evaluations trigger shortcutting attempts in 60.7%-90.1% and 55.5%-89.1% of trajectories, respectively, with up to 72.1% of tasks resolved with the aid of a successful exploit; disabling network access fails to curb these high attempt rates. Prompting agents to construct solutions independently suppresses attempts to 9.4%-14.2% and 0.9%-10.3%, respectively, while virtually eliminating shortcut-dependent resolutions and preserving core task performance. Our findings demonstrate the necessity of exploit-aware evaluation frameworks to measure repository-level problem solving.
+    arXiv:2608.25202v1 Announce Type: new  Abstract: Spec-Driven Development (SDD) is a fast-emerging practice in which a structured natural-language specification, written by a developer, or (more often) drafted by an AI tool and then curated by the developer, drives an AI coding agent's implementation. A wave of tooling (GitHub Spec Kit [3], OpenSpec [4], AWS Kiro [5], and dozens of others) has appeared since 2025, yet the artifacts these tools produce have never been studied at scale. We present SPECMINE, a corpus that captures SDD in public GitHub repositories through two censuses: a broad census of spec.md/specs.md files covering most tools (470,795 files across 73,030 repositories, attributed to 17 named tools), and a Kiro census of its distinct requirements/design/tasks layout (98,574 files across 12,910 repositories). Each spec is enriched with full repository metadata, complete commit history, and parsed document structure. How a spec becomes code is itself an open question, so fo
     
-[^26]: BTS-AgentBench：从只读遥测日志到代理基准测试的确定性、可重放流水线
+[^32]: 不要重新生成，而要调试：一个用于修复“差一点成功”加速器内核的领域专用智能体
 
-    BTS-AgentBench: A Deterministic, Replayable Pipeline from Read-Only Telemetry Logs to Agent Benchmarks
+    Don't Regenerate, Debug: A Domain-Specific Agent for Repairing Near-Miss Accelerator Kernels
 
-    [https://arxiv.org/abs/2608.27334](https://arxiv.org/abs/2608.27334)
+    [https://arxiv.org/abs/2608.02712](https://arxiv.org/abs/2608.02712)
 
-    该论文提出了一种从只读遥测日志到代理基准测试的确定性、可重放构建流水线，通过标准化工具存储和情节编译，实现了精确复现和零缺陷的基准测试生成。
-
-    
-
-    arXiv:2608.27334v1 公告类型：新 摘要：工业现场包含大量只读遥测数据，但很少有基准测试规定如何将这些记录编译为可执行的多轮代理任务。我们提出了一种遥测到情节的构建方法，并将其实例化为BTS-AgentBench。该流水线将BTS元数据和原始历史记录规范化为只读工具存储，编译具有工具派生黄金答案和证据的静态任务，并将保留的任务提升为类型化、有界、面向操作员的情节。发布的532行版本增加了澄清、目标修订、时间戳策略、质量门控报告和证据归因，同时保留了源计算和分割。编码契约预检报告零发现，构建排除控制器完成0/532行。两个独立的原始到情节构建匹配所有11个逻辑工具存储导出，并精确复现发布的356/87/89训练/开发/测试工件。将共享构建路径应用于XAI4HEAT。
-
-    arXiv:2608.27334v1 Announce Type: new  Abstract: Industrial sites contain large volumes of read-only telemetry, but few benchmarks specify how to compile these records into executable multi-turn agent tasks. We present a telemetry-to-episode construction method instantiated as BTS-AgentBench. The pipeline normalizes BTS metadata and raw histories into a read-only tool store, compiles static tasks with tool-derived gold answers and evidence, and lifts retained tasks into typed, bounded operator-facing episodes. The 532-row release adds clarification, goal revision, timestamp policy, quality-gated reporting, and evidence attribution while preserving the source computation and split. Coded contract preflight reports zero findings, and the construction-exclusion controller completes 0/532 rows. Two independent raw-to-episode builds match all 11 logical tool-store exports and reproduce the released 356/87/89 train/dev/test artifact exactly. Applying the shared construction path to XAI4HEAT 
-    
-[^27]: 通过运行时值反馈改进基于大语言模型的定向测试输入生成
-
-    Refining LLM-based Directed Test Input Generation via Runtime Value Feedback
-
-    [https://arxiv.org/abs/2608.07926](https://arxiv.org/abs/2608.07926)
-
-    提出了ReDig框架，通过比较预期运行时值与实际运行时值的事后分析反馈，迭代改进基于LLM的定向测试输入生成，引导测试输入到达目标代码位置。
+    该论文提出“调试而非重新生成”的范式转变，设计了一个领域专用调试智能体，用于修复那些能够编译运行但未通过数值验证的“差一点成功”加速器内核，从而将原本被丢弃的失败候选转化为可复用的知识。
 
     
 
-    尽管基于大语言模型（LLM）的定向输入生成具有出色的能力，但当其对目标程序行为的潜在假设不正确时，会产生偏离目标的测试输入。为了有效地将基于LLM的定向输入生成建立在实际程序行为的基础上，我们提出了ReDig，一个运行时反馈引导的框架，用于迭代改进基于LLM的定向输入生成。当生成的输入未能到达给定的目标代码位置时，ReDig会进行事后分析，通过比较预期的运行时值与在偏离目标的测试执行中观察到的实际运行时值，来识别不正确的假设。ReDig利用事后分析的结果作为反馈来改进推理上下文，引导后续的测试生成朝向目标位置。在本文中，我们展示了ReDig的进行中的研究工作，并通过四个案例研究说明了运行时反馈引导的改进是如何运作的。
+    arXiv:2608.02712v2 公告类型: replace-cross 摘要：面向GPU和NPU等硬件加速器的内核生成已成为大语言模型（LLM）的试金石，最先进的系统通过将LLM与智能体强化学习和进化搜索相结合的流水线来提升正确性。此类流水线会生成、编译并执行大量候选内核，却丢弃其中的大部分，错失了将失败提炼为可复用知识的机会。许多被丢弃的候选者是“差一点成功”的算子——它们能够编译和运行，但无法通过数值验证；每一个都蕴含着真实的领域知识，以及在LLM推理、交叉编译和硬件执行方面的可观投入。我们主张一次范式转变：与其重新生成，不如调试。调试比从头生成受到的约束多得多：搜索空间小，反馈密集。我们提出一个领域专用的调试智能体，以解决自动化内核……
 
-    arXiv:2608.07926v2 Announce Type: replace  Abstract: Despite their remarkable capabilities, LLM-based directed input generation produces off-target test inputs when their underlying hypotheses on the target program's behaviors are incorrect. To effectively ground LLM-based directed input generation in actual program behaviors, we propose ReDig, a runtime feedback-guided framework for iterative refinement of LLM-based directed input generation. When a generated input fails to reach a given target code location, ReDig conducts a postmodern analysis to identify incorrect hypotheses by comparing expected runtime values and their actual runtime values observed in the off-target test execution. ReDig utilizes the postmortem analysis result as feedback to refine the inference context, guiding the subsequent test generations toward the target location. In this paper, we present our work-in-progress on ReDig. We illustrate how runtime feedback-guided refinement operates through four case studie
+    arXiv:2608.02712v2 Announce Type: replace-cross  Abstract: Kernel generation for hardware accelerators such as GPUs and NPUs has become a proving ground for large language models (LLMs), and state-of-the-art systems raise correctness through pipelines that couple LLMs with agentic reinforcement learning and evolutionary search. Such pipelines generate, compile, and execute large numbers of candidate kernels, discarding most of them and forgoing the opportunity to distill failures into reusable knowledge. Many discarded candidates are near-miss operators that compile and run but fail numerical validation; each embodies genuine domain knowledge and a nontrivial investment in LLM inference, cross-compilation, and hardware execution. We argue for a paradigm shift: rather than regenerate, debug. Debugging is far more constrained than generating from scratch: the search space is small and feedback is dense. We present a domain-specific debug agent that addresses three core challenges in auto
     
-[^28]: Gemini 3用于检测手工测试用例中自然语言测试异味的实证研究
+[^33]: 面向可扩展搜索的无标识符代码嵌入模型
 
-    An Empirical Study of Gemini 3 for Detecting Natural Language Test Smells in Manual Test Cases
+    Identifier-Free Code Embedding Models for Scalable Search
 
-    [https://arxiv.org/abs/2606.13804](https://arxiv.org/abs/2606.13804)
+    [https://arxiv.org/abs/2605.05251](https://arxiv.org/abs/2605.05251)
 
-    本文实证研究了最新大语言模型Gemini 3 Pro Preview能否有效检测手工测试用例中的自然语言测试异味，并与此前表现最佳的小语言模型PHI-4-14B进行了对比。
-
-    
-
-    手工测试是指测试人员遵循自然语言指令来验证系统行为，这对于发现难以通过自动化方式捕获的问题仍然至关重要。然而，手工测试用例中常常包含测试异味，即诸如歧义、冗余或缺失检查等质量问题，这些问题会降低测试的可靠性、可维护性和可重复性。现有的检测方法主要依赖人工设计的规则，因此难以在异构测试套件中实现泛化和规模化。在我们之前的工作中，我们通过在来自143个真实Ubuntu测试用例的测试步骤（涵盖七种异味类型）上评估GEMMA-3-4B、LLAMA-3.2-3B和PHI-4-14B，评估了使用小语言模型进行测试异味检测的可行性，其中PHI-4-14B取得了最佳性能。在本文中，我们研究了研究开展时可用的最新大语言模型（GEMINI-3-PRO-PREVIEW）能否……（摘要原文在此处截断）
-
-    arXiv:2606.13804v3 Announce Type: replace  Abstract: Manual testing, in which testers follow natural language instructions to validate system behavior, remains essential for uncovering issues that are difficult to capture with automation. However, manual test cases often contain test smells, quality issues such as ambiguity, redundancy, or missing checks that reduce reliability, maintainability, and reproducibility. Existing detection approaches largely depend on manually engineered rules and thus struggle to generalize and scale across heterogeneous test suites. In our previous work, we assessed the feasibility of using Small Language Models (SLMs) for test smell detection by evaluating GEMMA-3-4B, LLAMA-3.2-3B, and PHI-4-14B on test steps from 143 real-world Ubuntu test cases, covering seven smell types. PHI-4-14B achieved the best performance. In this article, we investigate whether a contemporary Large Language Model (GEMINI-3-PRO-PREVIEW) available at the time of the study can ide
-    
-[^29]: T2J-BENCH：基于执行效果的PyTorch到JAX代码仓库迁移编码智能体基准测试
-
-    T2J-BENCH: Benchmarking Coding Agents on Execution-Grounded PyTorch-to-JAX Repository Migration
-
-    [https://arxiv.org/abs/2605.29054](https://arxiv.org/abs/2605.29054)
-
-    提出T2J-BENCH基准，包含63个涵盖18个模型家族的整仓库PyTorch到JAX迁移任务，以执行行为一致性和无torch依赖作为核心评价标准，用以真实评估编码智能体进行跨框架代码库迁移的能力。
+    该论文形式化了源代码与去除符号的反编译代码之间的双向函数关联问题，并通过对比学习微调Qwen3-Embedding模型，在所有基线测试中大幅超越现有模型。
 
     
 
-    将机器学习代码库跨框架迁移——例如从PyTorch迁移到JAX——是一项常规但成本高昂的工程任务，其本质是跨范式的：急切执行的、有状态的、面向对象的模块必须被重写为作用于显式参数pytree的纯函数、可被jit编译的函数。我们探究编码智能体能否正确执行这类整仓库级别的迁移，并指出现有代码基准——它们以单元测试通过率或与参考翻译的表面相似度来评分——无法回答这一问题：它们既不要求迁移后的系统在“行为”上保持一致，也无法防止JAX重新实现通过暗中导入PyTorch本身来伪造等价性。我们提出T2J-BENCH，这是一个包含63个整仓库PyTorch到JAX迁移任务的基准，涵盖18个模型家族，横跨训练与服务两个场景，其中无torch依赖的检查点转换本身就是交付成果的一部分。T2J-BENCH以执行效果为依据进行评分。
+    函数关联对二进制逆向工程师来说是一项非常有用的技术。目前已有可在大规模场景下执行关联的搜索工具，但它们并未充分利用AI赋能搜索所提供的全部能力。先前的工作已探索了为某些逆向工程代码表示之间的关联开发嵌入模型，但这些工作并未涵盖在标准预处理要求下源代码与去除符号的反编译代码之间的双向关联。为了填补这一空白，我们对这一函数关联问题进行了形式化定义，并评估了嵌入模型在这两种代码表示之间实现双向关联的能力。为提升模型在该任务上的性能，我们使用对比学习对Qwen3-Embedding模型进行了微调。我们发现，我们的新模型在所有函数关联基线测试中均以显著优势超越其他模型，并能泛化至常数算法关联等场景（原文在此处截断）。
 
-    arXiv:2605.29054v3 Announce Type: replace-cross  Abstract: Migrating a machine-learning codebase across frameworks--for example from PyTorch to JAX--is a routine but costly engineering task that is fundamentally cross-paradigm: eager, stateful, object-oriented modules must be rewritten as pure, jittable functions over an explicit parameter pytree. We ask whether coding agents can perform such whole-repository migrations correctly, and argue that existing code benchmarks, which grade unit-test pass rates or surface-level similarity to a reference translation, cannot answer this: they neither require the migrated system to \emph{behave} the same nor prevent a JAX reimplementation from faking equivalence by secretly importing PyTorch itself. We introduce T2J-BENCH, a benchmark of 63 whole-repository PyTorch-to-JAX migration tasks spanning 18 model families across both training and serving, where torch-free checkpoint conversion is itself part of the deliverable. T2J-BENCH grades execution
+    arXiv:2605.05251v2 Announce Type: replace-cross  Abstract: Function association is a useful process for binary reverse engineers. Search tools exist to perform association at scale, but they do not utilize the full range of capabilities that AI-enabled search provides. Prior work has explored the development of embedding models for association between certain reverse engineering code representations, but that work does not cover bidirectional association between source code and decompiled, stripped code with standard preprocessing requirements. To bridge this gap, we formalize this function association problem and evaluate the extent to which embedding models can bidirectionally associate between these two representations. To improve model performance at this task, we fine-tune a Qwen3-Embedding model with contrastive learning. We find that our new model outperforms other models on all function association baselines by a substantial margin and generalizes to a constant-algorithm associ
     
-[^30]: MOCHA：面向智能体技能优化的多目标切比雪夫退火方法
+[^34]: 在NISQ量子设备上隔离重复出现的后端相关异常模式
 
-    MOCHA: Multi-Objective Chebyshev Annealing for Agent Skill Optimization
+    Isolating Recurring Backend-Dependent Abnormal Patterns on NISQ Quantum Devices
 
-    [https://arxiv.org/abs/2605.19330](https://arxiv.org/abs/2605.19330)
+    [https://arxiv.org/abs/2604.17519](https://arxiv.org/abs/2604.17519)
 
-    提出 MOCHA 方法，通过切比雪夫标量化选择改进对象并以扩展帕累托前沿为接受准则，从探索退火到利用，实现智能体技能在准确性与上下文经济性之间的多目标优化，克服了现有单分数提示词优化器易停滞的问题。
-
-    
-
-    LLM 智能体通过“技能”来组织其行为——技能是结构化的自然语言规范，规定了智能体如何进行推理、检索和响应。与单体式提示词不同，技能是受平台限制约束的多字段产物：描述字段被索引用于路由，指令主体被加载到共享的上下文窗口中，每多一行都会消耗智能体本可用于其他地方的上下文资源。因此，技能优化本质上是多目标问题：技能应当同时具备准确性和经济性。现有的提示词优化器将这些目标压缩为单一分数，我们发现这会导致它们停滞不前：在其大多数运行中，1000 次 rollout 相较种子技能毫无进展。我们提出了 MOCHA（Multi-Objective CHebyshev Annealing，多目标切比雪夫退火），该方法通过切比雪夫标量化来选择需要改进的技能，并接受能够扩展帕累托前沿的改进，从而从探索阶段逐步退火至利用阶段。切比雪夫标量化……
-
-    arXiv:2605.19330v2 Announce Type: replace-cross  Abstract: LLM agents organize behavior through skills -- structured natural-language specifications that govern how an agent reasons, retrieves, and responds. Unlike monolithic prompts, skills are multi-field artifacts with platform limits: descriptions are indexed for routing, instruction bodies are loaded into a shared context window, and every extra line costs the agent context it could spend elsewhere. Skill optimization is therefore inherently multi-objective: a skill should be accurate and economical at once. Existing prompt optimizers collapse these goals into a single score, and we find that this makes them stall: in most of their runs, 1000 rollouts yield zero progress over the seed skill. We introduce MOCHA (Multi-Objective CHebyshev Annealing), which selects skills to improve by Chebyshev scalarization and accepts improvements that expand the Pareto front, annealing from exploration to exploitation. Chebyshev scalarization sco
-    
-[^31]: 扩展人机编码协作需要一个可治理的共识层
-
-    Scaling Human-AI Coding Collaboration Requires a Governable Consensus Layer
-
-    [https://arxiv.org/abs/2604.17883](https://arxiv.org/abs/2604.17883)
-
-    该论文提出扩展人机编码协作需要引入一个可治理的共识层，通过版本化的项目状态模型将意图、结构性承诺、代码工件和证据关联起来，使人类能够在AI编码过程中检查、协调和修订共享的设计决策。
+    提出了QRisk框架，能够从量子硬件执行中隔离出重复出现的、依赖特定后端的异常门序列，从而指导门排序重写，弥合编译器噪声模型与真实设备行为之间的差距。
 
     
 
-    氛围编码（Vibe coding）将自然语言意图转化为可运行的软件，但仅靠代码生成无法让人类和智能体对其正在构建的内容形成共同认知。随着协作跨越多个参与者、组件和版本发布，设计决策必须保持可理解且可修订。我们认为，扩展人类与AI的编码协作需要一个可治理的共识层。Agentic Consensus（智能体共识）围绕一个版本化的项目状态模型来组织协作，该模型将选定的意图、结构性承诺、可执行工件和证据联系在一起。参与者可以在实现之前澄清意图，并基于人类可检查、可修订的承诺来协调提议的更改。双向同步将预期变更与实现连接起来，并在工件演进过程中暴露冲突或过时的证据。我们在Consensus Control中实现了该审查工作流。在一项小规模探索性人类研究中，10名参与者……
+    量子硬件仍然极易受噪声影响，这使得编译成为在现有设备上获得可靠执行的关键步骤。当今的量子编译器使用基于校准数据得到的门、量子比特和耦合边开销来近似硬件噪声，并利用这些开销指导量子比特映射、路由和调度。然而，这种抽象是不完整的：编译器预测硬件噪声完全相同的语义等价电路，在真实设备上仍可能表现出截然不同的行为。执行上下文可能是造成这一差距的原因之一：在特定量子比特邻域上执行的短有序门序列可能与硬件模型失配相关联。识别这些依赖于后端的异常模式，可以指导在观察到这些模式的电路族和布局中进行门排序重写。为了找出这些模式，我们提出了QRisk——一个从量子硬件执行中分离出重复异常门序列的框架。
 
-    arXiv:2604.17883v2 Announce Type: replace-cross  Abstract: Vibe coding turns natural-language intent into working software, but code generation alone does not give humans and agents a shared account of what they are building. As collaboration spans participants, components, and releases, design choices must remain understandable and open to revision. We argue that scaling human and AI coding collaboration requires a governable consensus layer. Agentic Consensus organizes collaboration around a versioned project-state model linking selected intent, structural commitments, executable artifacts, and evidence. Participants can clarify intent before implementation and coordinate proposed changes against commitments that humans can inspect and revise. Bidirectional synchronization connects intended changes to implementation and exposes conflicts or stale evidence as artifacts evolve. We implemented its review workflow in Consensus Control. In a small exploratory human study, 10 participants 
+    arXiv:2604.17519v3 Announce Type: replace  Abstract: Quantum hardware remains highly susceptible to noise, making compilation a critical step for obtaining reliable execution on existing devices. Today's quantum compilers approximate hardware noise using calibration-derived costs over gates, qubits, and coupling edges, and use the costs to guide qubit mapping, routing, and scheduling. However, this abstraction is incomplete: semantically equivalent circuits with identical compiler-predicted hardware noise can still behave very differently on real devices. Execution context can contribute to this gap: short ordered gate sequences on specific qubit neighborhoods can be associated with hardware-model mismatch. Identifying these backend-dependent abnormal patterns can guide gate-ordering rewrites in the circuit family and layout where they were observed.   To find these patterns, we propose QRisk, a framework that isolates recurring abnormal gate sequences from quantum hardware executions.
     
-[^32]: 终端智能体足以实现企业自动化
+[^35]: ORACLE-SWE：量化关键信息信号对软件工程代理的贡献
 
-    Terminal Agents Suffice for Enterprise Automation
+    ORACLE-SWE: Quantifying the Contribution of Critical Information Signals on SWE Agents
 
-    [https://arxiv.org/abs/2604.00073](https://arxiv.org/abs/2604.00073)
+    [https://arxiv.org/abs/2604.07789](https://arxiv.org/abs/2604.07789)
 
-    该论文提出仅配备终端和文件系统的编码智能体通过直接调用平台 API，就能以远低于复杂智能体架构（如 MCP 工具智能体和网页智能体）的成本，达到甚至超越它们在企业任务上的表现。
+    该论文提出ORACLE-SWE，首次系统量化了复现测试、回归测试、编辑位置、执行上下文和API用法等关键中间信息信号对软件工程代理任务成功的贡献，并测量了代理发现的信号与理想神谕信号之间尚存的改进空间。
 
     
 
-    构建能够与数字平台交互、自主执行有意义企业任务的智能体，正受到越来越多的关注。目前探索的方法包括基于模型上下文协议等抽象构建的工具增强型智能体，以及通过图形界面操作的网页智能体。然而，考虑到其成本和运营开销，这类复杂的智能体系统是否必要仍不明确。我们认为，仅配备终端和文件系统的编码智能体可以通过直接与平台 API 交互，更有效地解决许多企业任务。我们在多样化的真实世界系统中对这一假设进行了评估，结果表明这些低级终端智能体只需极低的成本即可达到或超越更复杂的智能体架构。我们的发现表明，简单灵活的编程接口与强大的基础模型相结合，应当成为企业自动化的核心支柱。
+    语言模型（LM）代理的最新进展日益聚焦于仓库级软件工程（SWE）任务，由此产生了多种代理式工作流、训练方法和失败分析技术。有趣的是，这些方法并非直接生成或评估编辑补丁，而是首先检查并改进在代理探索过程中收集到的中间信息信号，包括复现测试、回归测试、编辑位置、执行上下文和API用法。尽管不同的研究考察了这些信号的不同子集，但目前尚无工作系统地比较它们在提升最终任务成功率方面的相对有效性，也没有测量每个信号中还剩余多大的改进空间。为填补这一空白，本工作量化了“神谕”信号与代理提取的信号对最终任务成功的贡献，并测量了当前代理所发现的信号与其对应神谕信号之间的差距。
 
-    arXiv:2604.00073v4 Announce Type: replace-cross  Abstract: There has been growing interest in building agents that can interact with digital platforms to execute meaningful enterprise tasks autonomously. Among the approaches explored are tool-augmented agents built on abstractions such as Model Context Protocol (MCP) and web agents that operate through graphical interfaces. Yet, it remains unclear whether such complex agentic systems are necessary given their cost and operational overhead. We argue that a coding agent equipped only with a terminal and a filesystem can solve many enterprise tasks more effectively by interacting directly with platform APIs. We evaluate this hypothesis across diverse real-world systems and show that these low-level terminal agents match or outperform more complex agent architectures at a fraction of the cost. Our findings suggest that simple, flexible programmatic interfaces combined with strong foundation models should be the backbone of enterprise autom
+    arXiv:2604.07789v3 Announce Type: replace-cross  Abstract: Recent advances in Language Model (LM) agents have increasingly focused on repository-level software engineering (SWE) tasks, leading to various agentic workflows, training methods and failure analysis. Interestingly, rather than directly generating or evaluating edit patches, these approaches first examine and improve intermediate information signals collected during agent exploration, including Reproduction Test, Regression Test, Edit Location, Execution Context, and API Usage. Although different studies examine different subsets of these signals, no work has systematically compared their relative effectiveness in improving final task success or measured the remaining space for improvement in each signal. To address this gap, this work quantifies the contributions of both oracle and agent-extracted signals to final task success and measures the gap between current agent-found signals and their oracle counterparts. We hope our
     
-[^33]: LLMON：一种在LLM接口层面利用结构与语义的LLM原生标记语言
+[^36]: SEVerA：自演化智能体的经验证合成
+
+    SEVerA: Verified Synthesis of Self-Evolving Agents
+
+    [https://arxiv.org/abs/2603.25111](https://arxiv.org/abs/2603.25111)
+
+    提出了SEVerA框架，通过形式化守护生成模型（FGGM）将自演化智能体代码生成形式化为受约束的学习问题，从而为自演化LLM智能体提供安全性和正确性的形式化保证。
+
+    
+
+    近期的研究进展表明，自演化的大语言模型（LLM）智能体在程序修复和科学发现等任务上展现出了有效性。在这一范式中，规划器LLM会合成一个调用参数化模型（包括LLM）的智能体程序，然后针对每个任务对这些模型进行调优以提升性能。然而，现有的自演化智能体框架并未提供安全性或正确性的形式化保证。由于此类程序通常在未见过的输入上自主执行，这种保证的缺失引发了可靠性和安全性方面的担忧。我们将智能体代码生成问题形式化为一个受约束的学习问题，将硬性的形式化规范与捕捉任务效用的软目标相结合。我们提出了形式化守护生成模型（FGGM），它允许规划器LLM使用一阶逻辑为每次生成模型调用指定形式化的输出契约。每次FGGM调用都会将底层模型封装在一个带有经验证组件的拒绝采样器中……
+
+    arXiv:2603.25111v3 Announce Type: replace  Abstract: Recent advances have shown the effectiveness of self-evolving LLM agents on tasks such as program repair and scientific discovery. In this paradigm, a planner LLM synthesizes an agent program that invokes parametric models, including LLMs, which are then tuned per task to improve performance. However, existing self-evolving agent frameworks provide no formal guarantees of safety or correctness. Because such programs are often executed autonomously on unseen inputs, this lack of guarantees raises reliability and security concerns. We formulate agentic code generation as a constrained learning problem, combining hard formal specifications with soft objectives capturing task utility. We introduce Formally Guarded Generative Models (FGGM), which allow the planner LLM to specify a formal output contract for each generative model call using first-order logic. Each FGGM call wraps the underlying model in a rejection sampler with a verified 
+    
+[^37]: LLMON：一种在LLM接口层面利用结构与语义的LLM原生标记语言
 
     LLMON: An LLM-native Markup Language to Leverage Structure and Semantics at the LLM Interface
 
@@ -502,32 +565,74 @@
 
     arXiv:2603.22519v3 Announce Type: replace  Abstract: Textual Large Language Models (LLMs) provide a simple and familiar interface: a string of text is used for both input and output. However, the information conveyed to an LLM often has a richer structure and semantics, which is not conveyed in a string. For example, most prompts contain both instructions ("Summarize this paper into a paragraph") and data (the paper to summarize), but these are usually not distinguished when passed to the model. This can lead to model confusion and security risks, such as prompt injection attacks.   This work addresses this shortcoming by introducing an LLM-native mark-up language, LLMON (LLM Object Notation, pronounced "Lemon"), that enables the structure and semantic metadata of the text to be communicated in a natural way to an LLM. This information can then be used during model training, model prompting, and inference implementation, leading to improvements in model accuracy, safety, and security. 
     
-[^34]: SWE-Spot：通过仓库中心化学习构建小型仓库专家模型
+[^38]: 通过约束扰动与校准对代码大语言模型评审进行基准测试
 
-    SWE-Spot: Building Small Repo-Experts with Repository-Centric Learning
+    Benchmarking Code LLM-as-a-Judge via Constrained Perturbation and Calibration
 
-    [https://arxiv.org/abs/2601.21649](https://arxiv.org/abs/2601.21649)
+    [https://arxiv.org/abs/2512.20159](https://arxiv.org/abs/2512.20159)
 
-    本文提出仓库中心化学习（RCL）新范式，将静态代码库转化为交互式学习信号，训练出针对特定代码仓库深度专门化的小型语言模型SWE-Spot-4B，以弥补小型模型处理复杂陌生代码库时泛化能力不足的缺陷。
-
-    
-
-    在隐私敏感和资源受限环境中部署编码智能体的需求，推动了对高性能开源权重小型语言模型（SLM）的需求。然而，这些模型存在根本性的能力差距：与前沿大模型不同，它们缺乏在推理时应对复杂、陌生代码库的强泛化能力。我们发现当前流行的任务中心学习（TCL）方法——即在不同仓库间扩大任务暴露规模——无法解决这一局限。为此，我们提出仓库中心化学习（RCL），这是一种范式转变：在SLM训练中优先追求纵向的单仓库深度，而非横向的单任务广度。为实现这种深度，我们设计了由四个单元组成的仓库中心化经验，将静态代码库转化为交互式学习信号，用于训练SWE-Spot-4B——一系列作为仓库专门专家构建的高度紧凑模型。在受控对比实验中……
-
-    arXiv:2601.21649v2 Announce Type: replace-cross  Abstract: The deployment of coding agents in privacy-sensitive and resource-constrained environments drives the demand for capable open-weight Small Language Models (SLMs). However, they suffer from a fundamental capability gap: unlike frontier large models, they lack the inference-time strong generalization to handle complicated, unfamiliar codebases. We identify that the prevailing Task-Centric Learning (TCL) approach, which scales exposure across disparate repositories, fails to address this limitation. In response, we propose Repository-Centric Learning (RCL), a shift that prioritizes vertical, single-repository depth over horizontal, single-task breadth for SLM training. To accomplish this depth, we design a four-unit Repository-Centric Experience, transforming static codebases into interactive learning signals, to train SWE-Spot-4B, a family of highly compact models built as repo-specialized experts. Under controlled comparisons wi
-    
-[^35]: 保障高并发售票安全：一种基于微服务的框架
-
-    Securing High-Concurrency Ticket Sales: A Framework Based on Microservice
-
-    [https://arxiv.org/abs/2512.24941](https://arxiv.org/abs/2512.24941)
-
-    本文提出了一种基于Spring Cloud微服务架构的铁路购票系统设计框架，通过多种安全设计方法保障系统在高并发场景下的稳定性、数据一致性和快速响应能力。
+    该论文提出通过约束扰动与校准技术构建代码LLM-as-a-Judge评估基准，克服了现有基准中粗粒度二元标签无法区分缺陷严重程度以及细粒度人工评分主观不可靠的局限性。
 
     
 
-    铁路售票系统是最重要的公共服务基础设施之一。在节假日等高峰期，由于大量用户同时访问，系统经常面临高并发场景的挑战。传统的聚合式架构由于容错能力不足、承载能力较低，无法满足高峰期用户的需求。因此，系统需要采用微服务架构进行开发，并加入多种安全方法，以确保系统在高并发场景下具有良好的稳定性和数据一致性，并能快速响应用户请求。本文介绍了使用B/S架构和Spring Cloud设计开发一个能够在高并发场景下保持稳定可靠的铁路购票系统，并为该系统制定了多种安全设计方法。该系统集成了……
+    LLM辅助开发所生成的代码可能包含API幻觉等缺陷，这促使研究人员开发代码评估指标，以便在部署前对此类代码进行评估。由于传统的基于规则的指标仅根据与参考程序的相似性对代码打分，而基于执行的指标需要昂贵的人工测试准备，研究人员开发了用于行为与非行为代码评估的LLM-as-a-judge指标，并整理了多个基准来验证其有效性。然而，这些基准存在关键局限性：一些基准采用通过/未通过单元测试的粗粒度二元标签，无法区分根本性缺陷与轻微缺陷；另一些基准则使用带有手动标注分数作为真实标签的细粒度标准，但此类标准往往定义模糊，导致人工评分存在主观性和不可靠性。此外，它们通常直接提示LLM……
 
-    arXiv:2512.24941v3 Announce Type: replace  Abstract: The railway ticketing system is one of the most important public service infrastructure. In peak periods such as holidays, it is often faced with the challenge of high concurrency scenarios because of a large number of users accessing at the same time. The traditional aggregation architecture can not meet the peak user requirements because of its insufficient fault tolerance and low ability. Therefore, the system needs to use microservice architecture for development, and add multiple security methods to ensure that the system can have good stability and data consistency under high concurrency scenarios, and can respond quickly to user requests. This paper introduces the use of B/S architecture and Spring Cloud to design and develop a railway ticket purchase system that can maintain stability and reliability under high concurrency scenarios, and formulate multiple security design methods for the system. This system integrates a range
+    arXiv:2512.20159v2 Announce Type: replace-cross  Abstract: Code from LLM-assisted development may contain defects like API hallucinations, motivating the development of code evaluation metrics to assess such code before deployment. As conventional rule-based metrics merely score code based on similarity to reference programs, and execution-based metrics require expensive manual preparation for tests, researchers have developed LLM-as-a-judge metrics for both behavioral and nonbehavioral code evaluation, and curated multiple benchmarks to validate their effectiveness. However, such benchmarks suffer from critical limitations: Some feature coarse-grained binary labels of passing/failing unit tests, unable to distinguish between fundamental and minor flaws; others utilize fine-grained criteria with manually annotated scores as ground-truth, but such criteria are often vaguely defined, introducing subjectivity and unreliability in human scores. Furthermore, they often directly prompt LLMs 
+    
+[^39]: RAG4Tickets：基于检索增强生成的JIRA与GitHub数据驱动的AI工单解决方案
+
+    RAG4Tickets: AI-Powered Ticket Resolution via Retrieval-Augmented Generation on JIRA and GitHub Data
+
+    [https://arxiv.org/abs/2510.08667](https://arxiv.org/abs/2510.08667)
+
+    该论文提出RAG4Tickets框架，通过将Sentence-Transformers语义嵌入、FAISS向量搜索与大语言模型相结合，利用JIRA和GitHub的历史工单及PR数据，为软件工单提供有依据且可解释的解决建议。
+
+    
+
+    现代软件团队经常由于知识碎片化地分散在JIRA工单、开发者讨论和GitHub拉取请求（PR）中，而在解决重复出现或相关问题时遭遇延迟。为了应对这一挑战，我们提出了一种检索增强生成（RAG）框架，该框架将Sentence-Transformers的语义嵌入与基于FAISS的向量搜索相结合，以提供上下文感知的工单解决建议。该方法对历史JIRA工单、用户评论以及相关联的PR元数据进行嵌入，从而检索语义相似的历史案例，随后由大型语言模型（LLM）将这些案例综合为有依据且可解释的解决建议。该框架的贡献包括：连接JIRA和GitHub数据的统一流水线、针对异构软件工件的嵌入与FAISS索引策略，以及由检索证据引导的解决建议生成模块。使用精确率……（摘要原文在此处被截断）
+
+    arXiv:2510.08667v3 Announce Type: replace-cross  Abstract: Modern software teams frequently encounter delays in resolving recurring or related issues due to fragmented knowledge scattered across JIRA tickets, developer discussions, and GitHub pull requests (PRs). To address this challenge, we propose a Retrieval-Augmented Generation (RAG) framework that integrates Sentence-Transformers for semantic embeddings with FAISS-based vector search to deliver context-aware ticket resolution recommendations. The approach embeds historical JIRA tickets, user comments, and linked PR metadata to retrieve semantically similar past cases, which are then synthesized by a Large Language Model (LLM) into grounded and explainable resolution suggestions. The framework contributes a unified pipeline linking JIRA and GitHub data, an embedding and FAISS indexing strategy for heterogeneous software artifacts, and a resolution generation module guided by retrieved evidence. Experimental evaluation using precis
+    
+[^40]: 面向高质量代码生成的多LLM编排：利用模型互补优势
+
+    Multi-LLM Orchestration for High-Quality Code Generation: Exploiting Complementary Model Strengths
+
+    [https://arxiv.org/abs/2510.01379](https://arxiv.org/abs/2510.01379)
+
+    提出PerfOrch多智能体系统，通过Memory模块记录各LLM在不同开发阶段、编程语言和算法类别上的实测性能排名，从而在代码生成、调试和优化的每个环节动态选用最合适的模型，利用模型间互补优势实现比单一模型更高的代码正确性和执行性能。
+
+    
+
+    大语言模型（LLM）是自动化代码生成的核心，然而大多数方法在从编写代码到修复和优化的每个阶段都只使用单一模型。LLM具有互补的优势：它们在不同编程语言、算法类别和开发阶段上的失败并不完全重叠。例如，在Python中，代码生成准确率最高的模型在代码修复方面却排名最后。因此，使用一个模型生成代码、另一个模型修复代码、第三个模型优化代码，可以比全程使用单一模型获得更高的正确性和更好的执行性能。我们提出了PerfOrch，这是一个多LLM多智能体系统，包含四个分别负责分类、生成、调试和优化的智能体。生成、调试和优化智能体通过一个Memory（记忆）模块来选择模型，该模块根据候选LLM在每个阶段、每种编程语言和每个算法类别上的实测性能对其进行排名。我们……
+
+    arXiv:2510.01379v3 Announce Type: replace  Abstract: Large Language Models (LLMs) are central to automated code generation, yet most approaches use one model at every stage, from writing code to repairing and optimizing it. LLMs have complementary strengths: their failures do not fully overlap across programming languages, algorithmic categories, and development stages. For example, in Python, the model with the highest code-generation accuracy ranks last at code repair. Using one model to generate code, another to repair it, and a third to refine it can therefore achieve higher correctness and better execution performance than a single model throughout. We propose PerfOrch, a multi-LLM multi-agent system with four agents for categorization, generation, debugging, and refinement. The generation, debugging, and refinement agents select models through a Memory module that ranks candidate LLMs by their measured performance for each stage, programming language, and algorithmic category. We
+    
+[^41]: 通过分层上下文剪枝提升知识密度以实现检索增强的仓库级代码补全
+
+    Enhancing Knowledge Density via Hierarchical Context Pruning for Retrieval-Augmented Repository-Level Code Completion
+
+    [https://arxiv.org/abs/2508.10068](https://arxiv.org/abs/2508.10068)
+
+    提出SaraCoder框架，在固定上下文预算下通过分层上下文剪枝提升检索上下文的知识密度，避免冗余代码浪费token并释放跨文件依赖与相似代码片段的协同作用，从而提升仓库级代码补全性能。
+
+    
+
+    arXiv:2508.10068v3 公告类型：replace-cross。摘要：检索增强生成通过检索外部代码片段、API文档或类型定义来扩展模型的上下文感知能力，从而推动了仓库级代码补全的发展。然而，在上下文窗口有限的token预算下，现有的检索增强方法往往用高度相似甚至冗余的代码填满预算，这不仅浪费了token，还抑制了关键的跨文件依赖，阻碍了语义相似的参考片段与跨文件依赖定义之间的协同交互。因此，性能的进一步提升受到检索上下文中知识密度低的限制，而非模型能力的限制。我们提出了SaraCoder，一个在固定上下文预算下通过分层上下文剪枝来提升知识密度的检索增强框架。其中的分层特征优化模块分四个阶段对超完备的候选池进行剪枝……（摘要原文在此处截断）
+
+    arXiv:2508.10068v3 Announce Type: replace-cross  Abstract: Retrieval-Augmented Generation (RAG) has advanced repository-level code completion by retrieving external code snippets, API documentation, or type definitions to expand the model's contextual awareness. However, under the finite token budget of the context window, existing retrieval-augmented methods often saturate the budget with highly similar or even redundant code, which not only wastes tokens but also suppresses critical cross-file dependencies, preventing synergistic interaction between semantically similar reference snippets and cross-file dependency definitions. Therefore, further gains are limited by low knowledge density in the retrieved context rather than by model capacity. We propose SaraCoder, a retrieval-augmented framework that enhances knowledge density via hierarchical context pruning under a fixed context budget. A Hierarchical Feature Optimization module prunes an over-complete candidate pool in four stages
+    
+[^42]: EOS区块链的实证分析：架构、合约与安全
+
+    An Empirical Analysis of EOS Blockchain: Architecture, Contract, and Security
+
+    [https://arxiv.org/abs/2505.15051](https://arxiv.org/abs/2505.15051)
+
+    本研究首次从系统架构、去中心化、性能、智能合约和行为安全五个维度对EOS区块链进行了全面的实证分析，揭示了账户活跃度低、超级节点选举参与有限等关键问题。
+
+    
+
+    随着区块链技术的快速发展，各类区块链系统正展现出蓬勃的活力与潜力。作为区块链3.0的代表，EOS区块链一直被视为以太坊的有力竞争者。然而，与比特币和以太坊相比，针对EOS的学术研究和深入分析仍然十分匮乏。为填补这一空白，本研究从五个关键维度对EOS区块链进行了全面调查：系统架构、去中心化、性能、智能合约以及行为安全。架构分析聚焦于EOS系统的六个核心组件，详细阐述了它们的功能和运行流程。基于XBlock数据共享平台数据的去中心化与性能评估揭示了若干关键问题：账户活跃度低、超级节点选举过程参与有限、区块生产者集合变化极小等。
+
+    arXiv:2505.15051v2 Announce Type: replace-cross  Abstract: With the rapid development of blockchain technology, various blockchain systems are exhibiting vitality and potential. As a representative of Blockchain 3.0, the EOS blockchain has been regarded as a strong competitor to Ethereum. Nevertheless, compared with Bitcoin and Ethereum, academic research and in-depth analyses of EOS remain scarce. To address this gap, this study conducts a comprehensive investigation of the EOS blockchain from five key dimensions: system architecture, decentralization, performance, smart contracts, and behavioral security. The architectural analysis focuses on six core components of the EOS system, detailing their functionalities and operational workflows. The decentralization and performance evaluations, based on data from the XBlock data-sharing platform, reveal several critical issues: low account activity, limited participation in the supernode election process, minimal variation in the set of blo
     
 

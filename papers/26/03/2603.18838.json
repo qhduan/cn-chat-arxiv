@@ -1,0 +1,12 @@
+{
+    "title": "A Model Ensemble-Based Post-Processing Framework for Fairness-Aware Prediction",
+    "abstract": "arXiv:2603.18838v2 Announce Type: replace  Abstract: Striking an optimal balance between predictive performance and fairness continues to be a fundamental challenge in machine learning. In this work, we propose a post-processing framework that facilitates fairness-aware prediction by leveraging model ensembling. Designed to operate independently of any specific model internals, our approach is widely applicable across various learning tasks, model architectures, and fairness definitions. Through extensive experiments spanning classification, regression, and survival analysis, we demonstrate that the framework effectively enhances fairness while maintaining, or only minimally affecting, predictive accuracy.",
+    "link": "https://arxiv.org/abs/2603.18838",
+    "context": "Title: A Model Ensemble-Based Post-Processing Framework for Fairness-Aware Prediction\nAbstract: arXiv:2603.18838v2 Announce Type: replace  Abstract: Striking an optimal balance between predictive performance and fairness continues to be a fundamental challenge in machine learning. In this work, we propose a post-processing framework that facilitates fairness-aware prediction by leveraging model ensembling. Designed to operate independently of any specific model internals, our approach is widely applicable across various learning tasks, model architectures, and fairness definitions. Through extensive experiments spanning classification, regression, and survival analysis, we demonstrate that the framework effectively enhances fairness while maintaining, or only minimally affecting, predictive accuracy.",
+    "path": "papers/26/03/2603.18838.json",
+    "total_tokens": 830,
+    "translated_title": "一种基于模型集成的公平感知预测后处理框架",
+    "translated_abstract": "在预测性能与公平性之间寻求最优平衡仍然是机器学习中的一项根本性挑战。在本工作中，我们提出了一种后处理框架，通过利用模型集成来促进公平感知预测。该方法的设计独立于任何特定的模型内部结构，因此可广泛应用于各种学习任务、模型架构和公平性定义。通过涵盖分类、回归和生存分析的大量实验，我们证明该框架能够在保持预测精度基本不变或仅受到极小影响的前提下，有效提升公平性。",
+    "tldr": "本文提出一种基于模型集成的后处理框架，该方法独立于模型内部结构、适用于多种学习任务和公平性定义，能够在几乎不损失预测精度的前提下有效提升模型公平性。",
+    "en_tdlr": "This paper proposes a model ensemble-based post-processing framework for fairness-aware prediction that is model-agnostic, broadly applicable across learning tasks and fairness definitions, and effectively enhances fairness while minimally impacting predictive accuracy."
+}

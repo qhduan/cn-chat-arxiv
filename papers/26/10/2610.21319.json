@@ -1,0 +1,12 @@
+{
+    "title": "Constrained Multi-Agent Reinforcement Learning in Imagination",
+    "abstract": "arXiv:2610.21319v1 Announce Type: new  Abstract: Predicting cost in a multi-agent world model moves most constrained policy updates into imagination: the stronger model-free baseline needs $10$ to $20$ times CA-MAMBA's interactions on the median SMAC configuration, and CA-MAMBA earns $2.8$ to $12$ times the baselines' MAMuJoCo reward at equal budget. In controlled tests on one task per benchmark, pricing the model's cost advantages at parity more than halves a cost-blind learner's cost and meets a tight continuous-control limit the learned multiplier misses, suggesting the model's cost estimates are not the bottleneck.",
+    "link": "https://arxiv.org/abs/2610.21319",
+    "context": "Title: Constrained Multi-Agent Reinforcement Learning in Imagination\nAbstract: arXiv:2610.21319v1 Announce Type: new  Abstract: Predicting cost in a multi-agent world model moves most constrained policy updates into imagination: the stronger model-free baseline needs $10$ to $20$ times CA-MAMBA's interactions on the median SMAC configuration, and CA-MAMBA earns $2.8$ to $12$ times the baselines' MAMuJoCo reward at equal budget. In controlled tests on one task per benchmark, pricing the model's cost advantages at parity more than halves a cost-blind learner's cost and meets a tight continuous-control limit the learned multiplier misses, suggesting the model's cost estimates are not the bottleneck.",
+    "path": "papers/26/10/2610.21319.json",
+    "total_tokens": 1199,
+    "translated_title": "想象空间中的约束多智能体强化学习",
+    "translated_abstract": "在多智能体世界模型中预测成本，使得大多数约束策略更新能够在想象空间中完成：在SMAC基准的中位数配置上，更强的无模型基线方法需要10到20倍于CA-MAMBA的交互次数；在相同预算下，CA-MAMBA在MAMuJoCo上获得的奖励是基线方法的2.8到12倍。在每个基准上选取单一任务进行的对照实验中，将模型的成本优势进行同价定价，能够使无成本意识学习器的成本减半以上，并满足学习到的乘子无法达到的严格连续控制限制，这表明模型的成本估计并非性能瓶颈所在。",
+    "tldr": "CA-MAMBA通过在多智能体世界模型中预测成本，将约束策略更新转移到想象空间中完成，在SMAC基准上仅需无模型基线十分之一的交互次数，并在相同预算下于MAMuJoCo上获得2.8至12倍的奖励，显著提升了约束多智能体强化学习的样本效率。",
+    "en_tdlr": "CA-MAMBA predicts costs within a multi-agent world model to move most constrained policy updates into imagination, requiring 10-20x fewer interactions than the model-free baseline on median SMAC configurations and earning 2.8-12x more MAMuJoCo reward at equal budget."
+}

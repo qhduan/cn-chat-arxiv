@@ -1,0 +1,12 @@
+{
+    "title": "Rethinking Classifier-Free Guidance for TI2I Flow Matching",
+    "abstract": "arXiv:2610.21550v1 Announce Type: cross  Abstract: We study Text-and-Image-to-Image (TI2I) flow matching methods for controllable image editing. In a broader generative modeling context, Classifier-Free Guidance (CFG) is established as a key component responsible for high quality outputs. However, we argue that its role in TI2I modeling is poorly understood. Specifically, we make the surprising observation that the CFG mechanism is implicitly harmful for editing in the noisy phase of flow modeling, hindering instruction following and controllability. We propose a simple correction in the early flow steps, enabling a richer alignment-preservation tradeoff at no extra cost. The effectiveness of our approach is demonstrated on both pixel-space and latent TI2I flows.",
+    "link": "https://arxiv.org/abs/2610.21550",
+    "context": "Title: Rethinking Classifier-Free Guidance for TI2I Flow Matching\nAbstract: arXiv:2610.21550v1 Announce Type: cross  Abstract: We study Text-and-Image-to-Image (TI2I) flow matching methods for controllable image editing. In a broader generative modeling context, Classifier-Free Guidance (CFG) is established as a key component responsible for high quality outputs. However, we argue that its role in TI2I modeling is poorly understood. Specifically, we make the surprising observation that the CFG mechanism is implicitly harmful for editing in the noisy phase of flow modeling, hindering instruction following and controllability. We propose a simple correction in the early flow steps, enabling a richer alignment-preservation tradeoff at no extra cost. The effectiveness of our approach is demonstrated on both pixel-space and latent TI2I flows.",
+    "path": "papers/26/10/2610.21550.json",
+    "total_tokens": 1001,
+    "translated_title": "重新思考用于文本与图像到图像（TI2I）流匹配的无分类器引导",
+    "translated_abstract": "我们研究了用于可控图像编辑的文本与图像到图像（TI2I）流匹配方法。在更广泛的生成建模背景下，无分类器引导（CFG）已被确立为实现高质量输出的关键组件。然而，我们认为其在TI2I建模中的作用尚未被充分理解。具体而言，我们得出了一个令人惊讶的观察结果：CFG机制在流建模的噪声阶段对编辑具有隐性危害，阻碍了指令遵循能力和可控性。我们提出了一种针对早期流步骤的简单修正方法，能够在不增加额外成本的情况下实现更丰富的对齐与保持之间的权衡。我们的方法在像素空间和潜空间的TI2I流上均证明了其有效性。",
+    "tldr": "本文发现CFG机制在流建模的噪声阶段对图像编辑有隐性危害，并提出一种在早期流步骤的简单修正方法，无需额外成本即可显著提升TI2I编辑的指令遵循能力和可控性。",
+    "en_tdlr": "This paper reveals that CFG is implicitly harmful during the noisy phase of TI2I flow matching, and proposes a simple correction in the early flow steps that improves instruction following and controllability at no extra cost."
+}

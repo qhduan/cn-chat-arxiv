@@ -1,0 +1,12 @@
+{
+    "title": "A polylogarithmic bound for list replicability",
+    "abstract": "arXiv:2610.20657v1 Announce Type: cross  Abstract: Zhang [Zha26] recently posted a manuscript announcing that the list-replicability number of every class of $M\\ge 2$ binary concepts on $N\\ge 2$ domain points is $O(\\log^2 M\\log N)$, which would be the first polylogarithmic upper bound on this quantity. In this note, we present a short, self-contained proof of this bound, following the high-level approach of the manuscript but with considerably simpler arguments.",
+    "link": "https://arxiv.org/abs/2610.20657",
+    "context": "Title: A polylogarithmic bound for list replicability\nAbstract: arXiv:2610.20657v1 Announce Type: cross  Abstract: Zhang [Zha26] recently posted a manuscript announcing that the list-replicability number of every class of $M\\ge 2$ binary concepts on $N\\ge 2$ domain points is $O(\\log^2 M\\log N)$, which would be the first polylogarithmic upper bound on this quantity. In this note, we present a short, self-contained proof of this bound, following the high-level approach of the manuscript but with considerably simpler arguments.",
+    "path": "papers/26/10/2610.20657.json",
+    "total_tokens": 887,
+    "translated_title": "列表可复现性的一个多对数界",
+    "translated_abstract": "Zhang [Zha26] 最近发布了一份手稿，宣布对于定义在 N≥2 个定义域点上的任意一类 M≥2 个二元概念，其列表可复现性数（list-replicability number）为 O(log²M log N)，这将是关于该量的首个多对数上界。在这篇简短笔记中，我们遵循该手稿的高层思路，但采用了 considerably 更为简化的论证，给出了这一界的一个简短且自包含的证明。",
+    "tldr": "本文为任意二元概念类的列表可复现性数 O(log²M log N) 这一首个多对数上界提供了一个简短且自包含的新证明。",
+    "en_tdlr": "This note gives a short, self-contained proof of the first polylogarithmic upper bound O(log²M log N) on the list-replicability number of any class of binary concepts."
+}

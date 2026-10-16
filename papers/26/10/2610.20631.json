@@ -1,0 +1,12 @@
+{
+    "title": "Real-time Chatbot Romance Scam Detection in Stage Classification",
+    "abstract": "arXiv:2610.20631v1 Announce Type: cross  Abstract: Romance scam has become a serious problem via social media, and the improvement of artificial intelligence enable to fake identify easily. In the study, a chatbot has developed to detect romance scam in real-time through Line Messaging API. Using the seven stage theories in the social science field, the stages of romance scam can be detected through large language model. In addition, once a romance scam is detected, the chatbot provides explanations of the stage and prevention advices through large language model. The contribution of the work provides a practical application, and can be used in real scenario for reducing the risk of romance scam.",
+    "link": "https://arxiv.org/abs/2610.20631",
+    "context": "Title: Real-time Chatbot Romance Scam Detection in Stage Classification\nAbstract: arXiv:2610.20631v1 Announce Type: cross  Abstract: Romance scam has become a serious problem via social media, and the improvement of artificial intelligence enable to fake identify easily. In the study, a chatbot has developed to detect romance scam in real-time through Line Messaging API. Using the seven stage theories in the social science field, the stages of romance scam can be detected through large language model. In addition, once a romance scam is detected, the chatbot provides explanations of the stage and prevention advices through large language model. The contribution of the work provides a practical application, and can be used in real scenario for reducing the risk of romance scam.",
+    "path": "papers/26/10/2610.20631.json",
+    "total_tokens": 748,
+    "translated_title": "实时聊天机器人基于阶段分类的浪漫诈骗检测",
+    "translated_abstract": "浪漫诈骗已经成为社交媒体上的一个严重问题，而人工智能的发展使得伪造身份变得轻而易举。在本研究中，我们开发了一个通过Line Messaging API实时检测浪漫诈骗的聊天机器人。利用社会科学领域的七阶段理论，可以通过大语言模型检测浪漫诈骗所处的阶段。此外，一旦检测到浪漫诈骗，聊天机器人会通过大语言模型提供关于该阶段的解释和预防建议。本工作的贡献在于提供了一个实用的应用，可以在真实场景中使用，以降低浪漫诈骗的风险。",
+    "tldr": "本研究开发了基于Line Messaging API和大语言模型的实时聊天机器人，利用社会科学七阶段理论检测浪漫诈骗并提供阶段解释与预防建议，可在真实场景中降低诈骗风险。",
+    "en_tdlr": "This study develops a real-time chatbot using Line Messaging API and large language models that detects romance scams based on the seven-stage theory and provides stage explanations and prevention advice, reducing scam risks in real-world scenarios."
+}

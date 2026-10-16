@@ -1,0 +1,12 @@
+{
+    "title": "Feeling the generalised rough SABR boundary",
+    "abstract": "arXiv:2610.21841v1 Announce Type: new  Abstract: We provide an in-depth analysis of a generalised rough version of the SABR volatility model, widely used in the financial industry. We specifically focus on its behaviour at the origin, whether it can reach it and how fast it may do so.",
+    "link": "https://arxiv.org/abs/2610.21841",
+    "context": "Title: Feeling the generalised rough SABR boundary\nAbstract: arXiv:2610.21841v1 Announce Type: new  Abstract: We provide an in-depth analysis of a generalised rough version of the SABR volatility model, widely used in the financial industry. We specifically focus on its behaviour at the origin, whether it can reach it and how fast it may do so.",
+    "path": "papers/26/10/2610.21841.json",
+    "total_tokens": 803,
+    "translated_title": "感知广义粗糙SABR模型的边界",
+    "translated_abstract": "我们对金融行业广泛使用的SABR波动率模型的广义粗糙版本进行了深入分析。我们特别关注该模型在原点处的行为，即其是否能够到达原点，以及可能以多快的速度到达原点。",
+    "tldr": "本文深入分析了金融业广泛使用的广义粗糙SABR波动率模型在原点处的边界行为，重点研究了该模型能否到达原点以及到达原点的速度。",
+    "en_tdlr": "This paper provides an in-depth analysis of the boundary behavior at the origin of the generalised rough SABR volatility model, focusing on whether and how fast it can reach the origin."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "AI Alignment From Social Choice Perspectives",
+    "abstract": "arXiv:2606.21550v2 Announce Type: replace  Abstract: Alignment from human feedback uses human judgments about model outputs to steer the behavior of language models after pretraining. When those judgments reflect conflicting views of desirable behavior, the learned objective becomes an aggregate determination of what the model should prefer. We survey recent work that has studied this aggregation problem through the lens of social choice theory. We illustrate how the social choice perspective helps identify failure modes in the feedback aggregation layer and reveals a broader design space for handling disagreement in explicit and principled ways.",
+    "link": "https://arxiv.org/abs/2606.21550",
+    "context": "Title: AI Alignment From Social Choice Perspectives\nAbstract: arXiv:2606.21550v2 Announce Type: replace  Abstract: Alignment from human feedback uses human judgments about model outputs to steer the behavior of language models after pretraining. When those judgments reflect conflicting views of desirable behavior, the learned objective becomes an aggregate determination of what the model should prefer. We survey recent work that has studied this aggregation problem through the lens of social choice theory. We illustrate how the social choice perspective helps identify failure modes in the feedback aggregation layer and reveals a broader design space for handling disagreement in explicit and principled ways.",
+    "path": "papers/26/06/2606.21550.json",
+    "total_tokens": 852,
+    "translated_title": "从社会选择理论视角看AI对齐",
+    "translated_abstract": "基于人类反馈的对齐方法利用人类对模型输出的判断来引导预训练后语言模型的行为。当这些判断反映出对期望行为存在相互冲突的观点时，所学习到的目标就变成了对“模型应该偏好什么”的一种聚合性决定。我们综述了近期通过社会选择理论视角研究这一聚合问题的工作，阐明了社会选择视角如何帮助识别反馈聚合层中的失败模式，并揭示了以明确且有原则的方式处理分歧的更广阔设计空间。",
+    "tldr": "该论文综述了以社会选择理论为视角研究人类反馈对齐中偏好聚合问题的最新工作，帮助识别反馈聚合层的失败模式，并揭示了以明确且有原则的方式处理人类分歧的更广泛设计空间。",
+    "en_tdlr": "This paper surveys recent work on preference aggregation in human-feedback alignment through the lens of social choice theory, identifying failure modes in feedback aggregation and revealing a broader design space for handling disagreement in explicit and principled ways."
+}

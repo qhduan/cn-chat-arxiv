@@ -1,0 +1,12 @@
+{
+    "title": "Pathwise Shrinkage and Probabilistic Calibration of the Multiplicative Half-Cauchy Process",
+    "abstract": "arXiv:2610.21136v1 Announce Type: cross  Abstract: We characterize the multiplicative half-Cauchy process through its log-scale random-walk representation, establishing shrinkage, expansion, and critical regimes, almost-sure summability, local rebounds, and effective dimension. We also derive a semi-analytic calibration rule linking interpretable prior probability statements to its scale parameter.",
+    "link": "https://arxiv.org/abs/2610.21136",
+    "context": "Title: Pathwise Shrinkage and Probabilistic Calibration of the Multiplicative Half-Cauchy Process\nAbstract: arXiv:2610.21136v1 Announce Type: cross  Abstract: We characterize the multiplicative half-Cauchy process through its log-scale random-walk representation, establishing shrinkage, expansion, and critical regimes, almost-sure summability, local rebounds, and effective dimension. We also derive a semi-analytic calibration rule linking interpretable prior probability statements to its scale parameter.",
+    "path": "papers/26/10/2610.21136.json",
+    "total_tokens": 805,
+    "translated_title": "乘性半柯西过程的路径收缩与概率校准",
+    "translated_abstract": "我们通过对数尺度随机游走表示来刻画乘性半柯西过程，建立了其收缩、扩张与临界区域，几乎必然可和性，局部反弹性质以及有效维度。我们还推导出一种半解析的校准规则，将可解释的先验概率陈述与其尺度参数联系起来。",
+    "tldr": "本文通过对数尺度随机游走表示系统刻画了乘性半柯西过程的收缩、扩张与临界等路径性质，并推导出连接可解释先验概率陈述与尺度参数的半解析校准规则。",
+    "en_tdlr": "This paper characterizes the multiplicative half-Cauchy process via its log-scale random-walk representation, establishing shrinkage, expansion, and critical regimes along with summability and effective dimension, and derives a semi-analytic calibration rule linking interpretable prior probability statements to its scale parameter."
+}

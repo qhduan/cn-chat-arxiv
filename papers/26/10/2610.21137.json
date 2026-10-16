@@ -1,0 +1,12 @@
+{
+    "title": "OnBodyAI - Why the Next AI Needs a Body",
+    "abstract": "arXiv:2610.21137v1 Announce Type: cross  Abstract: The next AI will not win by knowing more about the world. It will win because it knows you: because it lives on your body, works for you and answers to you. That is what the term OnBodyAI stands for. It describes what happens when large language models are given a body, and what research and industry need to make that happen. This article is based on my talk in the Industrial Panel at UbiComp/ISWC 2026 in Shanghai (October 13, 2026) and follows its ten key statements.",
+    "link": "https://arxiv.org/abs/2610.21137",
+    "context": "Title: OnBodyAI - Why the Next AI Needs a Body\nAbstract: arXiv:2610.21137v1 Announce Type: cross  Abstract: The next AI will not win by knowing more about the world. It will win because it knows you: because it lives on your body, works for you and answers to you. That is what the term OnBodyAI stands for. It describes what happens when large language models are given a body, and what research and industry need to make that happen. This article is based on my talk in the Industrial Panel at UbiComp/ISWC 2026 in Shanghai (October 13, 2026) and follows its ten key statements.",
+    "path": "papers/26/10/2610.21137.json",
+    "total_tokens": 755,
+    "translated_title": "OnBodyAI——为什么下一代AI需要身体",
+    "translated_abstract": "下一代AI的胜利不在于对世界了解得更多。它将因为了解你而获胜：因为它生活在你的身体上，为你工作，并向你负责。这就是OnBodyAI这一术语所代表的意义。它描述了当大型语言模型被赋予身体时会发生什么，以及研究和产业界需要做些什么才能实现这一目标。本文基于作者在2026年10月13日于上海举行的UbiComp/ISWC 2026工业面板会议上的演讲，并遵循其中的十个关键陈述。",
+    "tldr": "本文提出OnBodyAI概念，主张下一代AI的竞争优势不在于掌握更多世界知识，而在于 living on 用户身体、为用户服务并对用户负责，并阐述实现该愿景所需的研究与产业条件。",
+    "en_tdlr": "This paper introduces the concept of OnBodyAI, arguing that the next AI will win not by knowing more about the world but by living on your body, working for you, and answering to you, while outlining what research and industry need to achieve this vision."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Linear Independence of Polynomial Compositions with Bounded Input Degree",
+    "abstract": "arXiv:2610.20825v1 Announce Type: cross  Abstract: We prove the weak composition-independence conjectures of Kohn, Marchetti, Massarenti and Mella. The proof uses deformations of rational curves and a single kernel of the linearized equation. Riemann-Roch gives a contradiction from tangent fields with controlled poles. By settling these conjectures, we prove that a neural network with a general polynomial activation function of sufficiently large degree is identifiable.",
+    "link": "https://arxiv.org/abs/2610.20825",
+    "context": "Title: Linear Independence of Polynomial Compositions with Bounded Input Degree\nAbstract: arXiv:2610.20825v1 Announce Type: cross  Abstract: We prove the weak composition-independence conjectures of Kohn, Marchetti, Massarenti and Mella. The proof uses deformations of rational curves and a single kernel of the linearized equation. Riemann-Roch gives a contradiction from tangent fields with controlled poles. By settling these conjectures, we prove that a neural network with a general polynomial activation function of sufficiently large degree is identifiable.",
+    "path": "papers/26/10/2610.20825.json",
+    "total_tokens": 779,
+    "translated_title": "具有有界输入次数的多项式复合的线性无关性",
+    "translated_abstract": "我们证明了Kohn、Marchetti、Massarenti和Mella提出的弱复合无关性猜想。证明方法使用了有理曲线的形变以及线性化方程的单个核。Riemann-Roch定理通过具有受控极点的切向量场导出了矛盾。通过解决这些猜想，我们证明了具有足够大次数的一般多项式激活函数的神经网络是可识别的。",
+    "tldr": "本文通过有理曲线形变与Riemann-Roch定理论证解决了弱复合无关性猜想，进而证明了采用足够大次数多项式激活函数的神经网络的可识别性。",
+    "en_tdlr": "This paper proves the weak composition-independence conjectures of Kohn et al. using deformations of rational curves and Riemann-Roch, thereby establishing the identifiability of neural networks with general polynomial activation functions of sufficiently large degree."
+}

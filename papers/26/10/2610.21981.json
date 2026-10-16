@@ -1,0 +1,11 @@
+{
+    "title": "Deep Learning of Topological Equivalence Classes",
+    "abstract": "arXiv:2610.21981v1 Announce Type: cross  Abstract: We demonstrate an application of deep learning to the problem of identifying whether two generating vectors correspond to topologically equivalent finite group actions on Riemann surfaces, showing how architectures developed for semantic understanding have use for pure mathematical problems. In doing so we discuss how desired algebraic structure influences model design, and explore which structural properties of topological equivalence classes the model has successfully learnt.",
+    "link": "https://arxiv.org/abs/2610.21981",
+    "context": "Title: Deep Learning of Topological Equivalence Classes\nAbstract: arXiv:2610.21981v1 Announce Type: cross  Abstract: We demonstrate an application of deep learning to the problem of identifying whether two generating vectors correspond to topologically equivalent finite group actions on Riemann surfaces, showing how architectures developed for semantic understanding have use for pure mathematical problems. In doing so we discuss how desired algebraic structure influences model design, and explore which structural properties of topological equivalence classes the model has successfully learnt.",
+    "path": "papers/26/10/2610.21981.json",
+    "total_tokens": 809,
+    "translated_title": "拓扑等价类的深度学习",
+    "translated_abstract": "我们展示了深度学习在判断两个生成向量是否对应于黎曼面上拓扑等价的有限群作用这一问题上的应用，说明了为语义理解而开发的架构同样可以用于纯数学问题。在此过程中，我们讨论了期望的代数结构如何影响模型设计，并探索了模型成功学习到了拓扑等价类的哪些结构性质。",
+    "tldr": "该论文将深度学习应用于判断黎曼面上有限群作用的拓扑等价性，探讨了代数结构对模型设计的影响以及模型成功习得的拓扑等价类结构性质。"
+}

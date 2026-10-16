@@ -1,0 +1,12 @@
+{
+    "title": "The Blume-Capel Model as a $\\phi^6$ Field Theory: A Monte Carlo and Flow Model Study",
+    "abstract": "arXiv:2610.20982v1 Announce Type: cross  Abstract: We report Monte Carlo simulations of a continuous spin variant of the Blume-Capel model. We compute the phase diagrams in the crystal-field-temperature plane, as a function of the softness of the spins. We show that normalizing flows, a class of generative models capable of direct sampling without autocorrelation, are effective samplers across the phase diagram, including in the first-order transition region and in the vicinity of the tricritical point. Finite-size scaling analyses of flow samples locate the first- and second-order transitions as well as the tricritical point with accuracy comparable to canonical and extended-ensemble Monte Carlo.",
+    "link": "https://arxiv.org/abs/2610.20982",
+    "context": "Title: The Blume-Capel Model as a $\\phi^6$ Field Theory: A Monte Carlo and Flow Model Study\nAbstract: arXiv:2610.20982v1 Announce Type: cross  Abstract: We report Monte Carlo simulations of a continuous spin variant of the Blume-Capel model. We compute the phase diagrams in the crystal-field-temperature plane, as a function of the softness of the spins. We show that normalizing flows, a class of generative models capable of direct sampling without autocorrelation, are effective samplers across the phase diagram, including in the first-order transition region and in the vicinity of the tricritical point. Finite-size scaling analyses of flow samples locate the first- and second-order transitions as well as the tricritical point with accuracy comparable to canonical and extended-ensemble Monte Carlo.",
+    "path": "papers/26/10/2610.20982.json",
+    "total_tokens": 1090,
+    "translated_title": "作为$\\phi^6$场论的Blume-Capel模型：蒙特卡罗与流模型研究",
+    "translated_abstract": "我们报告了Blume-Capel模型连续自旋变体的蒙特卡罗模拟。我们计算了晶体场-温度平面上的相图，并将其作为自旋柔软度（软性）的函数进行研究。我们证明，归一化流——一类能够直接采样且无自相关性的生成模型——在整个相图范围内都是有效的采样器，包括在一阶相变区域和三临界点附近。对流样本进行的有限尺寸标度分析，能够以与正则系综和扩展系综蒙特卡罗相当的精度，确定一阶相变、二阶相变以及三临界点的位置。",
+    "tldr": "本研究将归一化流生成模型用作无自相关的有效采样器，成功研究了连续自旋Blume-Capel模型（$\\phi^6$场论）的相图，并以与正则及扩展系综蒙特卡罗相当的精度确定了一阶/二阶相变和三临界点的位置。",
+    "en_tdlr": "Normalizing flows serve as effective autocorrelation-free samplers for the continuous-spin Blume-Capel model ($\\phi^6$ field theory), mapping its phase diagram and locating the first- and second-order transitions and the tricritical point with accuracy comparable to canonical and extended-ensemble Monte Carlo."
+}
