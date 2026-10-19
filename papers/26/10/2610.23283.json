@@ -1,0 +1,12 @@
+{
+    "title": "Market Efficiency in a Changing Asset Population: Mobility, Entry, and Survival over Cryptocurrency's Full History",
+    "abstract": "arXiv:2610.23283v1 Announce Type: cross  Abstract: Weak-form efficiency implies symmetry restrictions on the Markov chain governing movement across the cryptocurrency capitalisation distribution. We test them on the full listed population: 8,970 assets, 690 weekly cross-sections, 2013 to 2026, with entry, exit and survival observed rather than inferred. Symmetry is rejected in every era, but the asymmetry falls by seventy percent, and what converged is entry-driven compositional churn rather than coins' own valuations. The bottom decile earns 27.5% per week on paper and nothing among assets that trade, on capacity of $293,000. Compensation for neglect exists precisely where trading does not.",
+    "link": "https://arxiv.org/abs/2610.23283",
+    "context": "Title: Market Efficiency in a Changing Asset Population: Mobility, Entry, and Survival over Cryptocurrency's Full History\nAbstract: arXiv:2610.23283v1 Announce Type: cross  Abstract: Weak-form efficiency implies symmetry restrictions on the Markov chain governing movement across the cryptocurrency capitalisation distribution. We test them on the full listed population: 8,970 assets, 690 weekly cross-sections, 2013 to 2026, with entry, exit and survival observed rather than inferred. Symmetry is rejected in every era, but the asymmetry falls by seventy percent, and what converged is entry-driven compositional churn rather than coins' own valuations. The bottom decile earns 27.5% per week on paper and nothing among assets that trade, on capacity of $293,000. Compensation for neglect exists precisely where trading does not.",
+    "path": "papers/26/10/2610.23283.json",
+    "total_tokens": 1073,
+    "translated_title": "资产总体变化中的市场效率：加密货币全历史中的流动性、进入与生存",
+    "translated_abstract": "弱式效率意味着对支配加密货币市值分布间移动的马尔可夫链施加对称性限制。我们在完整的上市总体上检验这些限制：8,970种资产、690个周度截面、2013至2026年，其中进入、退出与生存均为实际观测而非推断。结果显示，每个时代都拒绝对称性假设，但不对称程度下降了70%，而收敛的是由新资产进入驱动的构成性更替，而非币种自身的估值变化。最低市值十分位的资产在账面上每周可获得27.5%的收益，但在实际交易的资产中收益为零，且交易容量仅为29.3万美元。对忽视的补偿恰恰存在于交易不存在的地方。",
+    "tldr": "通过检验加密货币全历史8,970种资产市值分布的马尔可夫链对称性，发现市场效率的改善主要由新资产进入驱动的构成更替所致，且账面上的超额收益仅存在于几乎无法交易的低市值资产中。",
+    "en_tdlr": "Testing Markov chain symmetry across 8,970 cryptocurrencies over their full history reveals that efficiency improvements stem from entry-driven compositional churn rather than coin valuations, and paper excess returns exist only where trading capacity is essentially zero."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Interpretable experiential learning based on state history and global feedback",
+    "abstract": "arXiv:2605.00940v2 Announce Type: replace-cross  Abstract: A new interpretable experiential learning model based on state history and global feedback is presented. It is capable of learning a behavioral model represented by a transition graph between sets of states, with transitions attributed with utility and evidence count. This model is expected to be suitable for solving reinforcement learning problem in resource-constrained environments. The model was thoroughly evaluated on the OpenAI Gym Atari Breakout benchmark, demonstrating performance comparable to some known neural network-based solutions.",
+    "link": "https://arxiv.org/abs/2605.00940",
+    "context": "Title: Interpretable experiential learning based on state history and global feedback\nAbstract: arXiv:2605.00940v2 Announce Type: replace-cross  Abstract: A new interpretable experiential learning model based on state history and global feedback is presented. It is capable of learning a behavioral model represented by a transition graph between sets of states, with transitions attributed with utility and evidence count. This model is expected to be suitable for solving reinforcement learning problem in resource-constrained environments. The model was thoroughly evaluated on the OpenAI Gym Atari Breakout benchmark, demonstrating performance comparable to some known neural network-based solutions.",
+    "path": "papers/26/05/2605.00940.json",
+    "total_tokens": 872,
+    "translated_title": "基于状态历史与全局反馈的可解释经验学习",
+    "translated_abstract": "本文提出了一种基于状态历史与全局反馈的新型可解释经验学习模型。该模型能够学习一种以状态集合之间的转移图表示的行为模型，其中每条转移都附有效用值和证据计数。该模型有望适用于解决资源受限环境下的强化学习问题。该模型在OpenAI Gym的Atari Breakout基准上进行了全面评估，其性能可与一些已知的基于神经网络的解决方案相媲美。",
+    "tldr": "提出了一种基于状态历史与全局反馈的可解释经验学习模型，通过带效用值和证据计数的状态转移图学习行为模型，适用于资源受限环境下的强化学习，并在Atari Breakout基准上取得了与神经网络方案相当的性能。",
+    "en_tdlr": "A new interpretable experiential learning model based on state history and global feedback learns behavior as a transition graph between state sets with utility and evidence counts, achieving performance comparable to neural network solutions on Atari Breakout while being suitable for reinforcement learning in resource-constrained environments."
+}

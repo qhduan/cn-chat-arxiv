@@ -1,0 +1,11 @@
+{
+    "title": "Empirical Insights from AI-Powered Software Engineering in Practice",
+    "abstract": "arXiv:2610.23632v1 Announce Type: new  Abstract: Generative Artificial Intelligence (GenAI) is becoming indispensable in future software engineering. Its application spans a wide spectrum - from assisted development to autonomous software engineering, requiring organizations to address associated risks and challenges. This paper investigates these issues through three case studies, highlighting practical problems encountered during GenAI integration. Based on these findings, it provides targeted recommendations for managing risks and ensuring reliable outcomes. This paper provides guidance for effective and responsible GenAI adoption in software engineering based on empirical insights.",
+    "link": "https://arxiv.org/abs/2610.23632",
+    "context": "Title: Empirical Insights from AI-Powered Software Engineering in Practice\nAbstract: arXiv:2610.23632v1 Announce Type: new  Abstract: Generative Artificial Intelligence (GenAI) is becoming indispensable in future software engineering. Its application spans a wide spectrum - from assisted development to autonomous software engineering, requiring organizations to address associated risks and challenges. This paper investigates these issues through three case studies, highlighting practical problems encountered during GenAI integration. Based on these findings, it provides targeted recommendations for managing risks and ensuring reliable outcomes. This paper provides guidance for effective and responsible GenAI adoption in software engineering based on empirical insights.",
+    "path": "papers/26/10/2610.23632.json",
+    "total_tokens": 898,
+    "translated_title": "AI赋能软件工程实践中的实证洞察",
+    "translated_abstract": "生成式人工智能正在未来的软件工程中变得不可或缺。其应用范围十分广泛——从辅助开发到自主软件工程，这要求组织应对相关的风险与挑战。本文通过三个案例研究对这些议题进行调查，重点揭示了在GenAI集成过程中遇到的实际问题。基于这些研究发现，本文为管理风险和确保可靠成果提供了有针对性的建议。本文基于实证洞察，为在软件工程中有效且负责任地采用GenAI提供了指导。",
+    "tldr": "本文通过三个案例研究实证分析了生成式AI在软件工程集成中遇到的实际问题与挑战，并据此提出了管理风险、确保可靠成果的针对性建议，为有效且负责任地采用GenAI提供了指导。"
+}

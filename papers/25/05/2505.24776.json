@@ -1,0 +1,12 @@
+{
+    "title": "Mask-Based Deep Symbolic Regression",
+    "abstract": "arXiv:2505.24776v2 Announce Type: replace  Abstract: Diffusion has emerged as a powerful framework for generative modeling, achieving remarkable success in applications such as image and audio synthesis. Enlightened by this progress, we propose a novel diffusion-based approach for symbolic regression. We construct a random mask-based diffusion and denoising process to generate diverse and high-quality equations. We integrate this generative processes with a token-wise Group Relative Policy Optimization (GRPO) method to conduct efficient reinforcement learning on the given measurement dataset. In addition, we introduce a long short-term risk-seeking policy to expand the pool of top-performing candidates, further enhancing performance. Extensive experiments and ablation studies have demonstrated the effectiveness of our approach.",
+    "link": "https://arxiv.org/abs/2505.24776",
+    "context": "Title: Mask-Based Deep Symbolic Regression\nAbstract: arXiv:2505.24776v2 Announce Type: replace  Abstract: Diffusion has emerged as a powerful framework for generative modeling, achieving remarkable success in applications such as image and audio synthesis. Enlightened by this progress, we propose a novel diffusion-based approach for symbolic regression. We construct a random mask-based diffusion and denoising process to generate diverse and high-quality equations. We integrate this generative processes with a token-wise Group Relative Policy Optimization (GRPO) method to conduct efficient reinforcement learning on the given measurement dataset. In addition, we introduce a long short-term risk-seeking policy to expand the pool of top-performing candidates, further enhancing performance. Extensive experiments and ablation studies have demonstrated the effectiveness of our approach.",
+    "path": "papers/25/05/2505.24776.json",
+    "total_tokens": 923,
+    "translated_title": "基于掩码的深度符号回归",
+    "translated_abstract": "扩散模型已成为一种强大的生成建模框架，在图像和音频合成等应用中取得了显著成功。受此进展启发，我们提出了一种新颖的基于扩散的符号回归方法。我们构建了基于随机掩码的扩散与去噪过程，以生成多样且高质量的方程。我们将该生成过程与逐token的组相对策略优化（GRPO）方法相结合，从而在给定的测量数据集上进行高效的强化学习。此外，我们引入了一种长短期风险寻求策略，以扩大表现优异的候选解池，进一步提升性能。大量的实验和消融研究证明了我们方法的有效性。",
+    "tldr": "提出了一种基于随机掩码扩散过程生成多样高质量方程、并结合逐token的GRPO强化学习与长短期风险寻求策略的深度符号回归新方法。",
+    "en_tdlr": "A novel deep symbolic regression method that generates diverse, high-quality equations through a random mask-based diffusion process, combined with token-wise GRPO reinforcement learning and a long short-term risk-seeking policy."
+}

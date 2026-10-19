@@ -1,0 +1,11 @@
+{
+    "title": "qGAMMA: A Framework for Optimal DNN Mapping on Multi-Precision Accelerators",
+    "abstract": "arXiv:2610.23222v1 Announce Type: cross  Abstract: This work describes qGAMMA, a flexible framework for exploring and optimizing the mapping of mixed-precision Deep Neural Network (DNN) models onto general-purpose spatial accelerators that support a range of fixed- and floating-point precisions. qGAMMA navigates the design space using a domain-specific genetic algorithm and an analytical performance model based on hardware synthesis results. The framework identifies the optimal mapping and accelerator configuration that minimizes target metrics. Extensive evaluations across DNN workloads show that qGAMMA offers valuable insights for designing mixed-precision applications, enabling better trade-offs between performance, energy efficiency, and resource utilization.",
+    "link": "https://arxiv.org/abs/2610.23222",
+    "context": "Title: qGAMMA: A Framework for Optimal DNN Mapping on Multi-Precision Accelerators\nAbstract: arXiv:2610.23222v1 Announce Type: cross  Abstract: This work describes qGAMMA, a flexible framework for exploring and optimizing the mapping of mixed-precision Deep Neural Network (DNN) models onto general-purpose spatial accelerators that support a range of fixed- and floating-point precisions. qGAMMA navigates the design space using a domain-specific genetic algorithm and an analytical performance model based on hardware synthesis results. The framework identifies the optimal mapping and accelerator configuration that minimizes target metrics. Extensive evaluations across DNN workloads show that qGAMMA offers valuable insights for designing mixed-precision applications, enabling better trade-offs between performance, energy efficiency, and resource utilization.",
+    "path": "papers/26/10/2610.23222.json",
+    "total_tokens": 1023,
+    "translated_title": "qGAMMA：一个用于在多精度加速器上实现最优DNN映射的框架",
+    "translated_abstract": "本工作介绍了qGAMMA，这是一个灵活的框架，用于探索和优化将混合精度深度神经网络（DNN）模型映射到支持多种定点和浮点精度的通用空间加速器上。qGAMMA使用领域专用的遗传算法和基于硬件综合结果的解析性能模型来探索设计空间。该框架能够识别使目标指标最小化的最优映射和加速器配置。在多种DNN工作负载上的广泛评估表明，qGAMMA为设计混合精度应用提供了有价值的见解，能够在性能、能效和资源利用率之间实现更好的权衡。",
+    "tldr": "qGAMMA是一个利用领域专用遗传算法和基于硬件综合的解析性能模型，为混合精度DNN模型在多精度空间加速器上寻找最优映射与配置的框架，能够在性能、能效和资源利用率之间实现更好的权衡。"
+}

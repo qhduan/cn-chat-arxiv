@@ -1,0 +1,12 @@
+{
+    "title": "Existence of Equilibria in Large Competitive Markets with Bads, Production and Comprehensive Externalities",
+    "abstract": "arXiv:2511.00478v3 Announce Type: replace  Abstract: This paper establishes existence of equilibrium in a measure-theoretic general equilibrium (MGE) model with production, bads, and comprehensive externalities. These features are jointly essential for modeling perfect competition in which emissions of production byproducts impose harm on agents. We show that, when bads and externalities are modeled in an economically natural way, equilibrium exists. This yields the first existence theorem with bads for MGE models, the benchmark for perfect competition, overcoming Hara (2005)'s nonexistence example. The proof uses nonstandard analysis, which provides a systematic technique to extend results for finite to infinite models.",
+    "link": "https://arxiv.org/abs/2511.00478",
+    "context": "Title: Existence of Equilibria in Large Competitive Markets with Bads, Production and Comprehensive Externalities\nAbstract: arXiv:2511.00478v3 Announce Type: replace  Abstract: This paper establishes existence of equilibrium in a measure-theoretic general equilibrium (MGE) model with production, bads, and comprehensive externalities. These features are jointly essential for modeling perfect competition in which emissions of production byproducts impose harm on agents. We show that, when bads and externalities are modeled in an economically natural way, equilibrium exists. This yields the first existence theorem with bads for MGE models, the benchmark for perfect competition, overcoming Hara (2005)'s nonexistence example. The proof uses nonstandard analysis, which provides a systematic technique to extend results for finite to infinite models.",
+    "path": "papers/25/11/2511.00478.json",
+    "total_tokens": 1082,
+    "translated_title": "包含负商品、生产与全面外部性的大型竞争市场中均衡的存在性",
+    "translated_abstract": "本文在一个包含生产、负商品和全面外部性的测度论广义均衡模型中建立了均衡的存在性。这些特征对于刻画完全竞争是共同必需的，即生产副产品的排放会对经济主体造成危害的情形。我们证明，当负商品和外部性以经济学上自然的方式建模时，均衡是存在的。这得出了测度论广义均衡模型（完全竞争的基准模型）中首个包含负商品的均衡存在性定理，克服了Hara (2005)提出的不存在性反例。证明采用了非标准分析方法，该方法为将有限模型的结果系统地扩展到无限模型提供了技术手段。",
+    "tldr": "本文首次在包含生产、负商品和全面外部性的测度论广义均衡模型中证明了均衡的存在性，克服了Hara (2005)的不存在性反例，并借助非标准分析完成证明。",
+    "en_tdlr": "This paper establishes the first equilibrium existence theorem for measure-theoretic general equilibrium models with production, bads, and comprehensive externalities, overcoming Hara (2005)'s nonexistence example, using nonstandard analysis."
+}

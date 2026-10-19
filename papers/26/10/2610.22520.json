@@ -1,0 +1,11 @@
+{
+    "title": "Understanding LLM Hallucinations Caused by Soft Errors",
+    "abstract": "arXiv:2610.22520v1 Announce Type: new  Abstract: While hallucinations in Large Language Models (LLMs) have been extensively studied from a software perspective, limited attention has been paid to hardware-level factors. In this paper, we performed a case study to understand LLM hallucination caused by soft errors on hardware. We introduce LLMEI to inject soft errors into LLMs during inference, based on what we evaluate the impact of soft error across diverse LLM architectures and tasks, including mathematical reasoning and code generation. We summarize the taxonomy of different failure modes based on LLM hallucination behaviors and analyze their distributions under different error rates. Our find- ings underscore the hallucination-specific diagnostics within the reliability of LLM implementation on hardware.",
+    "link": "https://arxiv.org/abs/2610.22520",
+    "context": "Title: Understanding LLM Hallucinations Caused by Soft Errors\nAbstract: arXiv:2610.22520v1 Announce Type: new  Abstract: While hallucinations in Large Language Models (LLMs) have been extensively studied from a software perspective, limited attention has been paid to hardware-level factors. In this paper, we performed a case study to understand LLM hallucination caused by soft errors on hardware. We introduce LLMEI to inject soft errors into LLMs during inference, based on what we evaluate the impact of soft error across diverse LLM architectures and tasks, including mathematical reasoning and code generation. We summarize the taxonomy of different failure modes based on LLM hallucination behaviors and analyze their distributions under different error rates. Our find- ings underscore the hallucination-specific diagnostics within the reliability of LLM implementation on hardware.",
+    "path": "papers/26/10/2610.22520.json",
+    "total_tokens": 1000,
+    "translated_title": "理解由软错误引起的大语言模型幻觉",
+    "translated_abstract": "虽然大语言模型（LLM）的幻觉已从软件角度得到广泛研究，但对硬件层面因素的关注仍然有限。在本文中，我们进行了一项案例研究，以理解由硬件软错误引起的LLM幻觉。我们引入了LLMEI工具，在推理过程中向LLM注入软错误，并基于此评估了软错误在多种LLM架构和任务（包括数学推理和代码生成）中的影响。我们基于LLM幻觉行为总结了不同失败模式的分类体系，并分析了它们在不同错误率下的分布情况。我们的研究结果强调了在LLM硬件实现的可靠性中针对幻觉的特定诊断的重要性。",
+    "tldr": "本文提出LLMEI工具在推理过程中向大语言模型注入硬件软错误，首次从硬件层面研究LLM幻觉问题，建立了失败模式分类体系，并评估了软错误在不同架构、任务和错误率下的影响。"
+}

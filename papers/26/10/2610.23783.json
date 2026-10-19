@@ -1,0 +1,11 @@
+{
+    "title": "Sampling the XY model with an attention-based neural network",
+    "abstract": "arXiv:2610.23783v1 Announce Type: cross  Abstract: We present a transformer-based variational autoregressive network for sampling lattice systems with continuous degrees of freedom and apply it to the two-dimensional XY model near the Berezinskii-Kosterlitz-Thouless transition. The architecture is combined with physics-informed ingredients: locality-informed attention and approximate probabilities. The resulting sampler significantly outperforms existing neural samplers. We train the model on lattices up to $96\\times96$, verify with a mode-dropping estimator that no parts of the configuration space are missed, and reproduce the energy, magnetization and helicity modulus obtained with the traditional Markov Chain Monte Carlo algorithm.",
+    "link": "https://arxiv.org/abs/2610.23783",
+    "context": "Title: Sampling the XY model with an attention-based neural network\nAbstract: arXiv:2610.23783v1 Announce Type: cross  Abstract: We present a transformer-based variational autoregressive network for sampling lattice systems with continuous degrees of freedom and apply it to the two-dimensional XY model near the Berezinskii-Kosterlitz-Thouless transition. The architecture is combined with physics-informed ingredients: locality-informed attention and approximate probabilities. The resulting sampler significantly outperforms existing neural samplers. We train the model on lattices up to $96\\times96$, verify with a mode-dropping estimator that no parts of the configuration space are missed, and reproduce the energy, magnetization and helicity modulus obtained with the traditional Markov Chain Monte Carlo algorithm.",
+    "path": "papers/26/10/2610.23783.json",
+    "total_tokens": 1018,
+    "translated_title": "基于注意力机制的神经网络对XY模型进行采样",
+    "translated_abstract": "我们提出了一种基于Transformer的变分自回归网络，用于对具有连续自由度的格点系统进行采样，并将其应用于Berezinskii-Kosterlitz-Thouless（BKT）相变附近的二维XY模型。该架构结合了蕴含物理信息的要素：基于局域性的注意力机制和近似概率。所得到的采样器显著优于现有的神经采样器。我们在最大达$96\\times96$的格点上训练了模型，通过模式丢失估计器验证了配置空间没有任何部分被遗漏，并成功重现了用传统马尔可夫链蒙特卡罗（MCMC）算法得到的能量、磁化强度和螺旋度模量。",
+    "tldr": "该论文提出一种结合物理信息（局域性注意力机制和近似概率）的基于Transformer的变分自回归网络，可高效采样连续自由度的格点系统，在BKT相变附近的二维XY模型上显著优于现有神经采样器，并成功重现传统MCMC方法所得的物理可观测量。"
+}

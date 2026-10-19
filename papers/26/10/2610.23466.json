@@ -1,0 +1,12 @@
+{
+    "title": "Graphlet-based Decentralized Finance Transaction Method Classification",
+    "abstract": "arXiv:2610.23466v1 Announce Type: cross  Abstract: Decentralized Finance (DeFi) transactions involve complex interactions among accounts, smart contracts, and tokens. We investigate whether network topology can identify transaction methods that describe DeFi operations. We extract directed graphlet features to classify the 30 most frequent methods. Our results show that graphlet features complement event log counts in improving classification performance. Using SHapley Additive exPlanations (SHAP), we further derive model explanations that reveal method-specific graphlet structural patterns.",
+    "link": "https://arxiv.org/abs/2610.23466",
+    "context": "Title: Graphlet-based Decentralized Finance Transaction Method Classification\nAbstract: arXiv:2610.23466v1 Announce Type: cross  Abstract: Decentralized Finance (DeFi) transactions involve complex interactions among accounts, smart contracts, and tokens. We investigate whether network topology can identify transaction methods that describe DeFi operations. We extract directed graphlet features to classify the 30 most frequent methods. Our results show that graphlet features complement event log counts in improving classification performance. Using SHapley Additive exPlanations (SHAP), we further derive model explanations that reveal method-specific graphlet structural patterns.",
+    "path": "papers/26/10/2610.23466.json",
+    "total_tokens": 820,
+    "translated_title": "基于Graphlet的去中心化金融交易方法分类",
+    "translated_abstract": "去中心化金融交易涉及账户、智能合约和代币之间复杂的交互。我们研究网络拓扑结构是否能够识别描述DeFi操作的交易方法。我们提取有向graphlet特征，对30种最常出现的交易方法进行分类。结果表明，graphlet特征与事件日志计数相互补充，共同提升了分类性能。借助SHAP（SHapley Additive exPlanations），我们进一步获得了模型解释，揭示了不同交易方法所特有的graphlet结构模式。",
+    "tldr": "该论文通过提取有向graphlet网络拓扑特征对DeFi中30种最常见交易方法进行分类，并利用SHAP解释揭示各类方法特有的结构模式，证明拓扑特征可有效补充事件日志计数以提升分类性能。",
+    "en_tdlr": "This paper classifies the 30 most frequent DeFi transaction methods using directed graphlet network topology features and SHAP-based explanations, showing that graphlet features complement event log counts to improve classification performance."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Consistent Probabilistic Social Choice Revisited",
+    "abstract": "arXiv:2606.10998v2 Announce Type: replace  Abstract: Brandl et al. (2016) characterized a probabilistic social choice function known as maximal lotteries within a framework based on fractional preference profiles, which abstracts away from individual voters. While this modeling assumption enables a more elegant and transparent proof, it complicates comparison with other results in the literature. The purpose of this note is to transfer their results to the standard model of social choice, where each preference profile is defined for a finite number of voters. Along the way, we prove a slightly stronger version of their main theorem that uses a weaker continuity condition and allows for real-valued (rather than only rational-valued) probabilities.",
+    "link": "https://arxiv.org/abs/2606.10998",
+    "context": "Title: Consistent Probabilistic Social Choice Revisited\nAbstract: arXiv:2606.10998v2 Announce Type: replace  Abstract: Brandl et al. (2016) characterized a probabilistic social choice function known as maximal lotteries within a framework based on fractional preference profiles, which abstracts away from individual voters. While this modeling assumption enables a more elegant and transparent proof, it complicates comparison with other results in the literature. The purpose of this note is to transfer their results to the standard model of social choice, where each preference profile is defined for a finite number of voters. Along the way, we prove a slightly stronger version of their main theorem that uses a weaker continuity condition and allows for real-valued (rather than only rational-valued) probabilities.",
+    "path": "papers/26/06/2606.10998.json",
+    "total_tokens": 973,
+    "translated_title": "重访一致的概率社会选择",
+    "translated_abstract": "Brandl等人（2016）在一个基于分数偏好轮廓的框架内刻画了一种被称为“最大彩票”的概率社会选择函数，该框架将个体选民抽象掉了。虽然这一建模假设使证明更加优雅和透明，但也使与文献中其他结果的比较变得复杂。本注释的目的是将他们的结果转移到标准的社会选择模型中，即每个偏好轮廓都是针对有限数量的选民定义的。在此过程中，我们证明了其主定理的一个略微更强的版本，该版本使用了更弱的连续性条件，并允许使用实值（而不仅仅是有理值）概率。",
+    "tldr": "本文将Brandl等人（2016）关于最大彩票的刻画结果从分数偏好轮廓框架转移到了有限选民的标准社会选择模型，并证明了使用更弱连续性条件且允许实值概率的更强版本定理。",
+    "en_tdlr": "This note transfers Brandl et al.'s (2016) characterization of maximal lotteries from the fractional preference profile framework to the standard social choice model with finitely many voters, proving a slightly stronger version with a weaker continuity condition and real-valued probabilities."
+}

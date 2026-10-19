@@ -1,0 +1,12 @@
+{
+    "title": "Preventing Data Hallucinations in Agentic AI for Optical Network Troubleshooting",
+    "abstract": "arXiv:2610.23252v1 Announce Type: cross  Abstract: An agentic AI system for automated troubleshooting in optical communication networks is demonstrated that integrates data references into the agent architecture to prevent data hallucinations, improving the interpretability and trustworthiness of root-cause identification and reasoning.",
+    "link": "https://arxiv.org/abs/2610.23252",
+    "context": "Title: Preventing Data Hallucinations in Agentic AI for Optical Network Troubleshooting\nAbstract: arXiv:2610.23252v1 Announce Type: cross  Abstract: An agentic AI system for automated troubleshooting in optical communication networks is demonstrated that integrates data references into the agent architecture to prevent data hallucinations, improving the interpretability and trustworthiness of root-cause identification and reasoning.",
+    "path": "papers/26/10/2610.23252.json",
+    "total_tokens": 636,
+    "translated_title": "防止智能体AI在光网络故障排除中的数据幻觉",
+    "translated_abstract": "本文演示了一种用于光通信网络自动化故障排除的智能体AI系统，该系统将数据引用集成到智能体架构中，以防止数据幻觉的产生，从而提高了根因识别与推理的可解释性和可信度。",
+    "tldr": "该论文提出了一种将数据引用集成到智能体架构中的AI系统，用于光通信网络的自动化故障排除，有效防止数据幻觉并提升了根因识别与推理的可解释性和可信度。",
+    "en_tdlr": "This paper demonstrates an agentic AI system for automated optical network troubleshooting that integrates data references into the agent architecture to prevent data hallucinations, improving the interpretability and trustworthiness of root-cause identification and reasoning."
+}
