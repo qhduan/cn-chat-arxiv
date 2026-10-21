@@ -1,0 +1,12 @@
+{
+    "title": "Fixed Sets and the Hardness of Computing Correlated Equilibria",
+    "abstract": "arXiv:2610.28141v1 Announce Type: cross  Abstract: We show that computing an approximate correlated equilibrium of a polytope game is PPAD-complete, and thus polynomial-time equivalent to finding a Nash equilibrium. This challenges the conventional view in game theory that correlated equilibria are more tractable objects than Nash equilibria. From a conceptual standpoint, we connect correlated equilibria to a natural generalization of fixed points, which we call fixed sets. A fixed set of a continuous function $f$ is a nonempty finite set $S$ such that $S \\subseteq \\operatorname{conv} f(S)$. Our main technical contribution is to prove that computing a fixed set is PPAD-hard even at inverse polynomial precision.",
+    "link": "https://arxiv.org/abs/2610.28141",
+    "context": "Title: Fixed Sets and the Hardness of Computing Correlated Equilibria\nAbstract: arXiv:2610.28141v1 Announce Type: cross  Abstract: We show that computing an approximate correlated equilibrium of a polytope game is PPAD-complete, and thus polynomial-time equivalent to finding a Nash equilibrium. This challenges the conventional view in game theory that correlated equilibria are more tractable objects than Nash equilibria. From a conceptual standpoint, we connect correlated equilibria to a natural generalization of fixed points, which we call fixed sets. A fixed set of a continuous function $f$ is a nonempty finite set $S$ such that $S \\subseteq \\operatorname{conv} f(S)$. Our main technical contribution is to prove that computing a fixed set is PPAD-hard even at inverse polynomial precision.",
+    "path": "papers/26/10/2610.28141.json",
+    "total_tokens": 1063,
+    "translated_title": "不动集与计算相关均衡的困难性",
+    "translated_abstract": "我们证明，计算多面体博弈的近似相关均衡是PPAD完全的，因此在多项式时间内等价于寻找纳什均衡。这一结果挑战了博弈论中的传统观点，即相关均衡是比纳什均衡更容易处理的对象。从概念层面，我们将相关均衡与不动点的一个自然推广联系起来，我们称之为“不动集”。连续函数 f 的不动集是一个非空有限集 S，满足 S ⊆ conv f(S)。我们的主要技术贡献是证明了即使达到逆多项式精度，计算不动集仍是PPAD困难的。",
+    "tldr": "本文证明计算多面体博弈的近似相关均衡是PPAD完全的（与纳什均衡同等难度），挑战了相关均衡比纳什均衡更容易求解的传统观点，并通过提出“不动集”这一不动点的自然推广建立了相关均衡与不动点理论的概念性联系。",
+    "en_tdlr": "This paper proves that computing an approximate correlated equilibrium of a polytope game is PPAD-complete, challenging the conventional view that correlated equilibria are more tractable than Nash equilibria, and establishes a conceptual link between correlated equilibria and fixed point theory through the novel notion of \"fixed sets.\""
+}

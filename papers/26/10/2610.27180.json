@@ -1,0 +1,12 @@
+{
+    "title": "Meta-iLaD: Identifiable Latent Dynamics via Meta-Learning of Dynamics Environments",
+    "abstract": "arXiv:2610.27180v1 Announce Type: new  Abstract: Learning latent dynamics is central to assessing the current states and forecasting the future trajectories of high-dimensional time series. For locally-stationary latent dynamics $\\mathcal{F}(\\mathbf{z}_{< t};\\mathbf{c})$ without restricting the dimension of $\\mathbf{c}$ or how it modulates $\\mathcal{F}$. On synthetic and real data, we provide strong empirical evidence that 1) conditioning on few-shot examples enables generalization to out-of-distribution environments, and 2) identifiability for $\\mathbf{c}$ and $\\mathcal{F}$ is critical for accurate forecasting beyond reconstructing observed trajectories. Code is available at https://github.com/GoForIt-YYB/Meta-iLaD.",
+    "link": "https://arxiv.org/abs/2610.27180",
+    "context": "Title: Meta-iLaD: Identifiable Latent Dynamics via Meta-Learning of Dynamics Environments\nAbstract: arXiv:2610.27180v1 Announce Type: new  Abstract: Learning latent dynamics is central to assessing the current states and forecasting the future trajectories of high-dimensional time series. For locally-stationary latent dynamics $\\mathcal{F}(\\mathbf{z}_{< t};\\mathbf{c})$ without restricting the dimension of $\\mathbf{c}$ or how it modulates $\\mathcal{F}$. On synthetic and real data, we provide strong empirical evidence that 1) conditioning on few-shot examples enables generalization to out-of-distribution environments, and 2) identifiability for $\\mathbf{c}$ and $\\mathcal{F}$ is critical for accurate forecasting beyond reconstructing observed trajectories. Code is available at https://github.com/GoForIt-YYB/Meta-iLaD.",
+    "path": "papers/26/10/2610.27180.json",
+    "total_tokens": 1333,
+    "translated_title": "Meta-iLaD：通过动力学环境的元学习实现可辨识的潜在动力学",
+    "translated_abstract": "学习潜在动力学对于评估高维时间序列的当前状态以及预测其未来轨迹至关重要。针对局部平稳的潜在动力学 $\\mathcal{F}(\\mathbf{z}_{< t};\\mathbf{c})$，本文提出不限制 $\\mathbf{c}$ 的维度或其调制 $\\mathcal{F}$ 的方式。在合成数据与真实数据上，作者提供了强有力的实证证据表明：1）以少样本示例为条件能够实现对分布外环境的泛化；2）$\\mathbf{c}$ 与 $\\mathcal{F}$ 的可辨识性对于实现超越观测轨迹重构的准确预测至关重要。代码已发布于 https://github.com/GoForIt-YYB/Meta-iLaD。",
+    "tldr": "Meta-iLaD 通过对动力学环境进行元学习，在少样本条件下学习可辨识的潜在动力学，从而实现对分布外环境中高维时间序列的准确预测。",
+    "en_tdlr": "Meta-iLaD learns identifiable latent dynamics via meta-learning over dynamics environments, enabling accurate out-of-distribution forecasting of high-dimensional time series from few-shot examples."
+}

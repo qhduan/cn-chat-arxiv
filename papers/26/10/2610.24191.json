@@ -1,0 +1,12 @@
+{
+    "title": "Certifiably Correct Fr\\'echet Means in Orbit Spaces",
+    "abstract": "arXiv:2610.24191v2 Announce Type: replace-cross  Abstract: We study Fr\\'echet means in orbit spaces of finite orthogonal group actions. Since computing these means is NP-hard in general, we take inspiration from group synchronization to develop tractable spectral and semidefinite relaxations. Pairwise alignment certifies global optimality and we develop a semidefinite certificate that can extend beyond this condition. For Gaussian data modulo sign, we prove that our certificate succeeds in a high-noise regime where alignment fails. Numerical experiments evaluate these methods in various settings, including summarizing ensembles of districting plans and clustering time series",
+    "link": "https://arxiv.org/abs/2610.24191",
+    "context": "Title: Certifiably Correct Fr\\'echet Means in Orbit Spaces\nAbstract: arXiv:2610.24191v2 Announce Type: replace-cross  Abstract: We study Fr\\'echet means in orbit spaces of finite orthogonal group actions. Since computing these means is NP-hard in general, we take inspiration from group synchronization to develop tractable spectral and semidefinite relaxations. Pairwise alignment certifies global optimality and we develop a semidefinite certificate that can extend beyond this condition. For Gaussian data modulo sign, we prove that our certificate succeeds in a high-noise regime where alignment fails. Numerical experiments evaluate these methods in various settings, including summarizing ensembles of districting plans and clustering time series",
+    "path": "papers/26/10/2610.24191.json",
+    "total_tokens": 992,
+    "translated_title": "轨道空间中可证明正确的Fréchet均值",
+    "translated_abstract": "我们研究了有限正交群作用下轨道空间中的Fréchet均值。由于计算这些均值在一般情况下是NP难的，我们受群同步问题的启发，开发了易于求解的谱松弛和半定规划松弛方法。两两对齐可以验证全局最优性，我们还进一步开发了一种半定证书，能够将最优性验证扩展到该条件之外的情形。对于模符号的高斯数据，我们证明了在两两对齐方法失效的高噪声环境下，我们的证书仍然能够成功验证最优性。数值实验在多种设置下评估了这些方法，包括总结选区划分方案集合以及对时间序列进行聚类。",
+    "tldr": "该论文针对轨道空间中计算NP难的Fréchet均值问题，借鉴群同步思想提出可求解的谱松弛与半定松弛方法，并设计了可证明全局最优性的半定证书，该证书甚至在两两对齐失效的高噪声场景下依然有效。",
+    "en_tdlr": "This paper develops tractable spectral and semidefinite relaxations, inspired by group synchronization, for computing NP-hard Fréchet means in orbit spaces, and introduces a semidefinite optimality certificate that certifies global optimality and remains effective in high-noise regimes where pairwise alignment fails."
+}

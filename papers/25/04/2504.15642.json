@@ -1,0 +1,12 @@
+{
+    "title": "Computational Typology",
+    "abstract": "arXiv:2504.15642v3 Announce Type: replace  Abstract: Typology is a subfield of linguistics that focuses on the study and classification of languages based on their structural features. Unlike genealogical classification, which examines the historical relationships between languages, typology seeks to understand the diversity of human languages by identifying common properties and patterns, known as universals. In recent years, computational methods have played an increasingly important role in typological research, enabling the analysis of large-scale linguistic data and the testing of hypotheses about language structure and evolution. This article provides an illustration of the benefits of computational statistical modeling in typology.",
+    "link": "https://arxiv.org/abs/2504.15642",
+    "context": "Title: Computational Typology\nAbstract: arXiv:2504.15642v3 Announce Type: replace  Abstract: Typology is a subfield of linguistics that focuses on the study and classification of languages based on their structural features. Unlike genealogical classification, which examines the historical relationships between languages, typology seeks to understand the diversity of human languages by identifying common properties and patterns, known as universals. In recent years, computational methods have played an increasingly important role in typological research, enabling the analysis of large-scale linguistic data and the testing of hypotheses about language structure and evolution. This article provides an illustration of the benefits of computational statistical modeling in typology.",
+    "path": "papers/25/04/2504.15642.json",
+    "total_tokens": 755,
+    "translated_title": "计算类型学",
+    "translated_abstract": "类型学是语言学的一个分支领域，专注于基于语言的结构特征对语言进行研究和分类。与考察语言之间历史关系的谱系分类不同，类型学试图通过识别被称为“共性”的共同属性和模式来理解人类语言的多样性。近年来，计算方法在类型学研究中发挥着越来越重要的作用，使得大规模语言数据的分析以及关于语言结构和演化的假设检验成为可能。本文展示了计算统计建模在类型学研究中的优势。",
+    "tldr": "本文介绍了计算统计建模如何助力语言类型学研究，使大规模语言数据分析与语言结构和演化假设的检验成为可能。",
+    "en_tdlr": "This paper illustrates how computational statistical modeling benefits linguistic typology by enabling large-scale linguistic data analysis and hypothesis testing on language structure and evolution."
+}

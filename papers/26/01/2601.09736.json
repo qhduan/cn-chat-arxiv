@@ -1,0 +1,12 @@
+{
+    "title": "Reinforced Linear Genetic Programming",
+    "abstract": "arXiv:2601.09736v2 Announce Type: replace-cross  Abstract: Linear Genetic Programming (LGP) is a powerful technique that allows for a variety of problems to be solved using a linear representation of programs. However, there still exists some limitations to the technique, such as the need for humans to explicitly map registers to actions. This thesis proposes a novel approach that uses Q-Learning on top of LGP, Reinforced Linear Genetic Programming (RLGP) to learn the optimal register-action assignments. In doing so, we introduce a new framework \"linear-gp\" written in memory-safe Rust that allows for extensive experimentation for future works.",
+    "link": "https://arxiv.org/abs/2601.09736",
+    "context": "Title: Reinforced Linear Genetic Programming\nAbstract: arXiv:2601.09736v2 Announce Type: replace-cross  Abstract: Linear Genetic Programming (LGP) is a powerful technique that allows for a variety of problems to be solved using a linear representation of programs. However, there still exists some limitations to the technique, such as the need for humans to explicitly map registers to actions. This thesis proposes a novel approach that uses Q-Learning on top of LGP, Reinforced Linear Genetic Programming (RLGP) to learn the optimal register-action assignments. In doing so, we introduce a new framework \"linear-gp\" written in memory-safe Rust that allows for extensive experimentation for future works.",
+    "path": "papers/26/01/2601.09736.json",
+    "total_tokens": 871,
+    "translated_title": "强化线性遗传编程",
+    "translated_abstract": "线性遗传编程（LGP）是一种强大的技术，它允许使用程序的线性表示来解决各种问题。然而，该技术仍然存在一些局限性，例如需要人工显式地将寄存器映射到动作。本论文提出了一种新颖的方法，在LGP之上使用Q-Learning，即强化线性遗传编程（RLGP），以学习最优的寄存器-动作分配。在此过程中，我们引入了一个用内存安全的Rust语言编写的新框架\"linear-gp\"，为未来的研究工作提供了广泛的实验支持。",
+    "tldr": "本文提出强化线性遗传编程（RLGP），利用Q-Learning在线性遗传编程之上自动学习最优的寄存器-动作映射，并基于内存安全的Rust语言实现了\"linear-gp\"实验框架。",
+    "en_tdlr": "This paper proposes Reinforced Linear Genetic Programming (RLGP), which applies Q-Learning on top of LGP to automatically learn optimal register-action assignments, and introduces a memory-safe Rust framework called \"linear-gp\" for extensive experimentation."
+}

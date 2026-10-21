@@ -1,0 +1,12 @@
+{
+    "title": "Detection of Memorization in Diffusion Models Through Thermodynamic Singularity",
+    "abstract": "arXiv:2610.27754v1 Announce Type: new  Abstract: In diffusion models, proper distributional learning entails reversing a diffusion process over underlying density functions, whereas a key failure is memorization, in which the reverse process instead learns diffusion from individual training samples. We provide an analytical characterization of such memorized reverse processes, along with a criterion that detects the associated thermodynamic singularity. The proposed criterion reliably distinguishes between properly learned and memorizing networks across a range of neural network models designed to promote or mitigate memorization.",
+    "link": "https://arxiv.org/abs/2610.27754",
+    "context": "Title: Detection of Memorization in Diffusion Models Through Thermodynamic Singularity\nAbstract: arXiv:2610.27754v1 Announce Type: new  Abstract: In diffusion models, proper distributional learning entails reversing a diffusion process over underlying density functions, whereas a key failure is memorization, in which the reverse process instead learns diffusion from individual training samples. We provide an analytical characterization of such memorized reverse processes, along with a criterion that detects the associated thermodynamic singularity. The proposed criterion reliably distinguishes between properly learned and memorizing networks across a range of neural network models designed to promote or mitigate memorization.",
+    "path": "papers/26/10/2610.27754.json",
+    "total_tokens": 760,
+    "translated_title": "通过热力学奇异性检测扩散模型中的记忆化现象",
+    "translated_abstract": "在扩散模型中，正确的分布学习要求对底层密度函数上的扩散过程进行逆转，而一个关键的失败模式是记忆化，即逆向过程反而从单个训练样本中学习扩散。我们对这类发生记忆化的逆向过程提供了分析性刻画，并提出了一种检测相关热力学奇异性的判据。该判据在一系列旨在促进或抑制记忆化的神经网络模型上，能够可靠地区分正确学习的网络与发生记忆化的网络。",
+    "tldr": "提出一种基于热力学奇异性的判据，能够可靠区分扩散模型是真正学习了数据分布还是发生了对单个训练样本的记忆化。",
+    "en_tdlr": "We propose a criterion based on thermodynamic singularity that reliably distinguishes whether diffusion models properly learn the underlying distribution or merely memorize individual training samples."
+}

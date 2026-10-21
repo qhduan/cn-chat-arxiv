@@ -1,0 +1,12 @@
+{
+    "title": "TorchTPU - A Hybrid Eager/Compiled Architecture for Native PyTorch Execution on TPU",
+    "abstract": "arXiv:2610.24161v2 Announce Type: replace  Abstract: TorchTPU is an open-source collaboration between Google and Meta that introduces a native and principled PyTorch backend for Google TPUs. It enables seamless out-of-the-box model execution and TPU migration while delivering industry-competitive inference and training performance through eager execution optimizations, torch.compile integration, and native hardware acceleration.",
+    "link": "https://arxiv.org/abs/2610.24161",
+    "context": "Title: TorchTPU - A Hybrid Eager/Compiled Architecture for Native PyTorch Execution on TPU\nAbstract: arXiv:2610.24161v2 Announce Type: replace  Abstract: TorchTPU is an open-source collaboration between Google and Meta that introduces a native and principled PyTorch backend for Google TPUs. It enables seamless out-of-the-box model execution and TPU migration while delivering industry-competitive inference and training performance through eager execution optimizations, torch.compile integration, and native hardware acceleration.",
+    "path": "papers/26/10/2610.24161.json",
+    "total_tokens": 764,
+    "translated_title": "TorchTPU——一种用于TPU上原生PyTorch执行的混合即时/编译架构",
+    "translated_abstract": "TorchTPU 是 Google 与 Meta 之间的开源合作项目，为 Google TPU 引入了原生且符合设计规范的 PyTorch 后端。它通过即时执行优化、torch.compile 集成以及原生硬件加速，实现了开箱即用的模型执行与 TPU 迁移，同时提供了具有行业竞争力的推理和训练性能。",
+    "tldr": "TorchTPU 是 Google 与 Meta 合作的开源项目，通过混合即时/编译架构为 TPU 提供原生 PyTorch 后端，实现开箱即用的模型迁移并达到业界竞争力的训练与推理性能。",
+    "en_tdlr": "TorchTPU, an open-source collaboration between Google and Meta, introduces a native PyTorch backend for TPUs with a hybrid eager/compiled architecture, enabling out-of-the-box model migration and industry-competitive inference and training performance."
+}

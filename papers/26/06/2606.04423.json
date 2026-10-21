@@ -1,0 +1,12 @@
+{
+    "title": "The price of multi-group transductive learning",
+    "abstract": "arXiv:2606.04423v2 Announce Type: replace  Abstract: We show every multi-group learner in the leave-one-out transductive setting may incur a surprisingly large multiplicative penalty in its error rate on some group relative to the error rate achievable in the single-group setting. Indeed, the penalty can increase linearly with the number of groups, up to roughly the square-root of the sample size. We also show that in the analogous (group-realizable) statistical setting, the penalty is always at most a poly-logarithmic factor in the sample size, independent of the number of groups.",
+    "link": "https://arxiv.org/abs/2606.04423",
+    "context": "Title: The price of multi-group transductive learning\nAbstract: arXiv:2606.04423v2 Announce Type: replace  Abstract: We show every multi-group learner in the leave-one-out transductive setting may incur a surprisingly large multiplicative penalty in its error rate on some group relative to the error rate achievable in the single-group setting. Indeed, the penalty can increase linearly with the number of groups, up to roughly the square-root of the sample size. We also show that in the analogous (group-realizable) statistical setting, the penalty is always at most a poly-logarithmic factor in the sample size, independent of the number of groups.",
+    "path": "papers/26/06/2606.04423.json",
+    "total_tokens": 928,
+    "translated_title": "多群体直推学习的代价",
+    "translated_abstract": "我们证明了在留一直推设定下，任何多群体学习器在某些群体上的错误率相对于单群体设定下可达到的错误率，都可能遭受出人意料的大幅乘性惩罚。事实上，该惩罚可以随群体数量线性增长，最大可达约样本量的平方根。我们还证明了在类似的（群体可实现的）统计设定中，该惩罚始终至多为样本量的多对数因子，且与群体数量无关。",
+    "tldr": "该论文揭示了在留一直推设定下，多群体学习器的错误率可能遭受随群体数量线性增长（最大达样本量平方根）的乘性惩罚，而在群体可实现的统计设定下，该惩罚仅为与群体数量无关的多对数因子。",
+    "en_tdlr": "This paper reveals that in the leave-one-out transductive setting, any multi-group learner may suffer a surprisingly large multiplicative error penalty on some group that grows linearly with the number of groups (up to roughly the square root of the sample size), whereas in the analogous group-realizable statistical setting the penalty is at most poly-logarithmic and independent of the number of groups."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Looking Into The Past: The Impact of Context on Detecting Deceptive Statements",
+    "abstract": "arXiv:2610.27407v1 Announce Type: new  Abstract: Deception detection typically considers messages in isolation. Previous works in claim verification and role detection have displayed that additional information such as gameplay history is crucial to successful predictions. In this work, we demonstrate the value of preceding gameplay dialogue when applied to deceptive message detection within the hidden role game of Avalon. The findings show that LLMs can see improvement across a number of metrics, including accuracy by up to 31\\% with the addition of gameplay context for the target message.",
+    "link": "https://arxiv.org/abs/2610.27407",
+    "context": "Title: Looking Into The Past: The Impact of Context on Detecting Deceptive Statements\nAbstract: arXiv:2610.27407v1 Announce Type: new  Abstract: Deception detection typically considers messages in isolation. Previous works in claim verification and role detection have displayed that additional information such as gameplay history is crucial to successful predictions. In this work, we demonstrate the value of preceding gameplay dialogue when applied to deceptive message detection within the hidden role game of Avalon. The findings show that LLMs can see improvement across a number of metrics, including accuracy by up to 31\\% with the addition of gameplay context for the target message.",
+    "path": "papers/26/10/2610.27407.json",
+    "total_tokens": 820,
+    "translated_title": "回顾过去：上下文对检测欺骗性陈述的影响",
+    "translated_abstract": "欺骗检测通常孤立地考虑单条消息。先前在声明验证和角色检测方面的工作表明，诸如游戏历史之类的额外信息对成功预测至关重要。在这项工作中，我们展示了在隐藏角色游戏《阿瓦隆》的欺骗性消息检测任务中，先前的游戏对话所带来的价值。研究结果表明，为目标消息添加游戏上下文后，大语言模型在多项指标上均有所提升，其中准确率最高可提升31%。",
+    "tldr": "本研究表明，在《阿瓦隆》隐藏角色游戏的欺骗性消息检测任务中，为目标消息加入先前的游戏对话上下文，可使大语言模型的准确率提升高达31%。",
+    "en_tdlr": "This study demonstrates that adding preceding gameplay dialogue context when detecting deceptive messages in the hidden role game Avalon enables LLMs to improve across multiple metrics, with accuracy gains of up to 31%."
+}

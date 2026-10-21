@@ -1,0 +1,12 @@
+{
+    "title": "Sharp Degree Bounds for Putinar Certificates in Terms of the Positivity Margin via Analytic Sums of Squares",
+    "abstract": "arXiv:2610.26976v1 Announce Type: new  Abstract: We establish sharp degree bounds for Putinar sum-of-squares (SOS) certificates in terms of the positivity margin $\\delta$. For any fixed Archimedean quadratic module with prescribed generators and any fixed bound on the degree of the objective, we prove a uniform certificate-degree upper bound of $O(\\delta^{-1/2}\\log^2(2/\\delta))$ for normalized polynomial objectives. We show that this bound is sharp by constructing a matching lower-bound example in three variables, thereby establishing that the dependence on $\\delta$ is optimal. These matching bounds also yield sharp worst-case convergence rates for the Lasserre hierarchy.",
+    "link": "https://arxiv.org/abs/2610.26976",
+    "context": "Title: Sharp Degree Bounds for Putinar Certificates in Terms of the Positivity Margin via Analytic Sums of Squares\nAbstract: arXiv:2610.26976v1 Announce Type: new  Abstract: We establish sharp degree bounds for Putinar sum-of-squares (SOS) certificates in terms of the positivity margin $\\delta$. For any fixed Archimedean quadratic module with prescribed generators and any fixed bound on the degree of the objective, we prove a uniform certificate-degree upper bound of $O(\\delta^{-1/2}\\log^2(2/\\delta))$ for normalized polynomial objectives. We show that this bound is sharp by constructing a matching lower-bound example in three variables, thereby establishing that the dependence on $\\delta$ is optimal. These matching bounds also yield sharp worst-case convergence rates for the Lasserre hierarchy.",
+    "path": "papers/26/10/2610.26976.json",
+    "total_tokens": 1144,
+    "translated_title": "基于解析平方和的关于正性裕度的 Putinar 证书的精确次数界",
+    "translated_abstract": "我们建立了关于正性裕度 $\\delta$ 的 Putinar 平方和（SOS）证书的精确次数界。对于任意具有指定生成元的固定阿基米德二次模以及目标函数次数的任意固定上界，我们证明了归一化多项式目标的一致证书次数上界为 $O(\\delta^{-1/2}\\log^2(2/\\delta))$。我们通过在三变量情形下构造一个匹配的下界例子，证明了该界是精确的，从而确立了对 $\\delta$ 的依赖性是最优的。这些匹配的界还给出了 Lasserre 层级的精确最坏情形收敛速率。",
+    "tldr": "本文建立了关于正性裕度 δ 的 Putinar 平方和证书的精确次数上界 O(δ^(-1/2)log²(2/δ))，并通过构造三变量匹配下界例子证明了对 δ 的依赖是最优的，同时给出了 Lasserre 层级的精确最坏情形收敛速率。",
+    "en_tdlr": "This paper establishes sharp degree bounds for Putinar SOS certificates in terms of the positivity margin δ, proving an optimal O(δ^(-1/2)log²(2/δ)) upper bound with a matching lower-bound example in three variables, thereby yielding sharp worst-case convergence rates for the Lasserre hierarchy."
+}

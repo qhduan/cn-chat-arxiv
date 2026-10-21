@@ -1,0 +1,12 @@
+{
+    "title": "Fundamental Impossibility Results in AI Safety: Trading Off between Desiderata",
+    "abstract": "arXiv:2610.27373v1 Announce Type: cross  Abstract: Is there a fundamental tradeoff between desiderata for safe AI systems, such as harmlessness and helpfulness? We answer by formalizing the interaction between AI systems and users as a game with three players: a defender and an attacker that are computationally or informationally bounded, and an AI that provides public advice and is less constrained. Our main result shows that there is a fundamental tradeoff in providing advice that helps the defender while advice remains public. We also consider whether the information that the AI shares can be manipulated to benefit only the defender and conclude with a discussion of how we can use these results in designing safer AI systems.",
+    "link": "https://arxiv.org/abs/2610.27373",
+    "context": "Title: Fundamental Impossibility Results in AI Safety: Trading Off between Desiderata\nAbstract: arXiv:2610.27373v1 Announce Type: cross  Abstract: Is there a fundamental tradeoff between desiderata for safe AI systems, such as harmlessness and helpfulness? We answer by formalizing the interaction between AI systems and users as a game with three players: a defender and an attacker that are computationally or informationally bounded, and an AI that provides public advice and is less constrained. Our main result shows that there is a fundamental tradeoff in providing advice that helps the defender while advice remains public. We also consider whether the information that the AI shares can be manipulated to benefit only the defender and conclude with a discussion of how we can use these results in designing safer AI systems.",
+    "path": "papers/26/10/2610.27373.json",
+    "total_tokens": 815,
+    "translated_title": "AI安全性中的基本不可能性结果：在期望目标之间的权衡",
+    "translated_abstract": "在安全AI系统的期望属性之间是否存在根本性的权衡，例如无害性和有用性？我们通过将AI系统与用户之间的交互形式化为一个三方博弈来回答这个问题：其中一个防御者和一个在计算或信息上受限的攻击者，以及一个提供公开建议且受约束较少的AI。我们的主要结果表明，在提供建议帮助防御者的同时保持建议公开，存在着根本性的权衡。我们还考虑了AI所共享的信息是否可以被操纵以仅使防御者受益，最后讨论了如何利用这些结果来设计更安全的AI系统。",
+    "tldr": "该论文将AI与用户的交互形式化为防御者、攻击者和AI组成的三方博弈，证明了AI在建议保持公开的前提下，无法同时提供有效帮助防御者的建议，揭示了AI安全性中期望目标之间的根本性权衡。",
+    "en_tdlr": "By formalizing AI-user interaction as a three-player game among a defender, a bounded attacker, and an AI, this paper proves a fundamental tradeoff: an AI cannot provide advice that effectively helps the defender while keeping that advice public."
+}

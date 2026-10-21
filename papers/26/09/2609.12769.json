@@ -1,0 +1,12 @@
+{
+    "title": "Unified Agentic Video Editing Across Levels of Complexity and Creativity",
+    "abstract": "arXiv:2609.12769v2 Announce Type: replace  Abstract: Editing is a core component of video production, requiring creative planning and decisions under multiple constraints. Here, we report methods for agentic tooling for automated video editing across three tasks varying in editorial goal, complexity and creativity, namely scene previews, video summaries and cinematic trailers. We evaluate the outputs and discuss implications for automation and agency.",
+    "link": "https://arxiv.org/abs/2609.12769",
+    "context": "Title: Unified Agentic Video Editing Across Levels of Complexity and Creativity\nAbstract: arXiv:2609.12769v2 Announce Type: replace  Abstract: Editing is a core component of video production, requiring creative planning and decisions under multiple constraints. Here, we report methods for agentic tooling for automated video editing across three tasks varying in editorial goal, complexity and creativity, namely scene previews, video summaries and cinematic trailers. We evaluate the outputs and discuss implications for automation and agency.",
+    "path": "papers/26/09/2609.12769.json",
+    "total_tokens": 707,
+    "translated_title": "跨越复杂度与创造力层级的统一智能体视频编辑",
+    "translated_abstract": "剪辑是视频制作的核心组成部分，需要在多重约束下进行创意规划与决策。本文报告了用于自动化视频编辑的智能体工具方法，涵盖三种在编辑目标、复杂度和创造力上各不相同的任务，即场景预览、视频摘要和电影预告片。我们评估了输出结果，并讨论了其在自动化与智能体自主性方面的启示。",
+    "tldr": "本文提出了一种统一的智能体视频编辑工具方法，能够在场景预览、视频摘要和电影预告片这三种复杂度与创造力要求递增的任务中实现自动化编辑。",
+    "en_tdlr": "This paper presents a unified agentic video editing framework that automates editing across three tasks of increasing complexity and creativity—scene previews, video summaries, and cinematic trailers."
+}

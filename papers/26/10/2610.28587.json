@@ -1,0 +1,11 @@
+{
+    "title": "Two $\\operatorname{ReLU}$ Layers is All You Need",
+    "abstract": "arXiv:2610.28587v1 Announce Type: cross  Abstract: We prove that every $\\operatorname{ReLU}$ network can be exactly simulated by a $\\operatorname{ReLU}$ network with two hidden layers. We present two proofs: one that is based on fillings in homological algebra and a direct combinatorial proof.",
+    "link": "https://arxiv.org/abs/2610.28587",
+    "context": "Title: Two $\\operatorname{ReLU}$ Layers is All You Need\nAbstract: arXiv:2610.28587v1 Announce Type: cross  Abstract: We prove that every $\\operatorname{ReLU}$ network can be exactly simulated by a $\\operatorname{ReLU}$ network with two hidden layers. We present two proofs: one that is based on fillings in homological algebra and a direct combinatorial proof.",
+    "path": "papers/26/10/2610.28587.json",
+    "total_tokens": 636,
+    "translated_title": "两层 ReLU 层足矣",
+    "translated_abstract": "我们证明了每一个 ReLU 网络都可以被一个仅具有两个隐藏层的 ReLU 网络精确模拟。我们提出了两种证明方法：一种基于同调代数中的填充理论，另一种是直接的组合证明。",
+    "tldr": "本文证明了任意深度的 ReLU 网络都可以被仅含两个隐藏层的 ReLU 网络精确模拟，并给出了基于同调代数填充和组合方法的两条证明路径。"
+}

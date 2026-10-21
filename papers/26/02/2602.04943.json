@@ -1,0 +1,12 @@
+{
+    "title": "Graph-Theoretic Analysis of Phase Optimization Complexity in Variational Wave Functions for Heisenberg Antiferromagnets",
+    "abstract": "arXiv:2602.04943v4 Announce Type: replace-cross  Abstract: We study the computational complexity of learning the ground state phase structure of Heisenberg antiferromagnets. Representing Hilbert space as a weighted graph, the variational energy defines a weighted XY model that, for $\\mathbb{Z}_2$ phases, reduces to a classical antiferromagnetic Ising model on that graph. For fixed amplitudes, reconstructing the signs of the ground state wavefunction thus reduces to a weighted Max-Cut instance. This links sign optimization of wavefunctions directly to combinatorial optimization.",
+    "link": "https://arxiv.org/abs/2602.04943",
+    "context": "Title: Graph-Theoretic Analysis of Phase Optimization Complexity in Variational Wave Functions for Heisenberg Antiferromagnets\nAbstract: arXiv:2602.04943v4 Announce Type: replace-cross  Abstract: We study the computational complexity of learning the ground state phase structure of Heisenberg antiferromagnets. Representing Hilbert space as a weighted graph, the variational energy defines a weighted XY model that, for $\\mathbb{Z}_2$ phases, reduces to a classical antiferromagnetic Ising model on that graph. For fixed amplitudes, reconstructing the signs of the ground state wavefunction thus reduces to a weighted Max-Cut instance. This links sign optimization of wavefunctions directly to combinatorial optimization.",
+    "path": "papers/26/02/2602.04943.json",
+    "total_tokens": 934,
+    "translated_title": "海森堡反铁磁体变分波函数中相位优化复杂度的图论分析",
+    "translated_abstract": "我们研究了学习海森堡反铁磁体基态相位结构的计算复杂度。将希尔伯特空间表示为一个加权图，变分能量定义了一个加权XY模型，对于 $\\mathbb{Z}_2$ 相位，该模型可约化为该图上的经典反铁磁伊辛模型。对于固定振幅的情况，重建基态波函数的符号问题因此可约化为一个加权最大割实例。这将波函数的符号优化问题直接与组合优化联系起来。",
+    "tldr": "该论文通过将希尔伯特空间表示为加权图，证明海森堡反铁磁体变分波函数的符号优化可约化为经典反铁磁伊辛模型和加权最大割问题，从而建立了波函数相位优化与组合优化复杂度之间的直接联系。",
+    "en_tdlr": "By representing Hilbert space as a weighted graph, this paper shows that sign optimization of variational wave functions for Heisenberg antiferromagnets reduces to classical antiferromagnetic Ising models and weighted Max-Cut instances, directly linking wavefunction phase optimization to combinatorial optimization complexity."
+}

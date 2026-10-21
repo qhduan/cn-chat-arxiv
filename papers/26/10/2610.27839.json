@@ -1,0 +1,12 @@
+{
+    "title": "Extending Mechanisms",
+    "abstract": "arXiv:2610.27839v1 Announce Type: cross  Abstract: Given an incentive-compatible mechanism for a single agent on a restricted domain of valuations, we consider its incentive-compatible extensions to the entire valuation space. We identify two extreme extensions: the \"keep-the-menu\" extension, which minimizes buyer payoffs and maximizes canonical prices pointwise, and the \"keep-the-pricing\" extension, which maximizes buyer payoffs and minimizes canonical prices pointwise.",
+    "link": "https://arxiv.org/abs/2610.27839",
+    "context": "Title: Extending Mechanisms\nAbstract: arXiv:2610.27839v1 Announce Type: cross  Abstract: Given an incentive-compatible mechanism for a single agent on a restricted domain of valuations, we consider its incentive-compatible extensions to the entire valuation space. We identify two extreme extensions: the \"keep-the-menu\" extension, which minimizes buyer payoffs and maximizes canonical prices pointwise, and the \"keep-the-pricing\" extension, which maximizes buyer payoffs and minimizes canonical prices pointwise.",
+    "path": "papers/26/10/2610.27839.json",
+    "total_tokens": 821,
+    "translated_title": "机制扩展",
+    "translated_abstract": "给定一个在受限估值域上针对单一代理人的激励相容机制，我们研究将其激励相容地扩展到整个估值空间的问题。我们识别出两种极端的扩展方式：“保留菜单”扩展，它在逐点意义上最小化买方收益并最大化规范价格；以及“保留定价”扩展，它在逐点意义上最大化买方收益并最小化规范价格。",
+    "tldr": "该论文研究了如何将受限估值域上针对单一代理人的激励相容机制扩展到完整估值空间，并识别出两种极端扩展方式：逐点最小化买方收益的“保留菜单”扩展和逐点最大化买方收益的“保留定价”扩展。",
+    "en_tdlr": "This paper studies incentive-compatible extensions of single-agent mechanisms from restricted valuation domains to the entire valuation space, identifying two extreme extensions: the \"keep-the-menu\" extension that pointwise minimizes buyer payoffs and the \"keep-the-pricing\" extension that pointwise maximizes buyer payoffs."
+}
